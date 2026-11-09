@@ -11,6 +11,7 @@
   "time": "08:30-18:00",
   "start": "08:30",
   "end": "18:00",
+  "shows_as": "free",
   "where": "Lagos, Algarve",
   "place": "place:lagos",
   "track": null,

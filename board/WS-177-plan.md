@@ -10,6 +10,26 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 15:52 UTC, 9 November
+
+Site v0.1.861. Snapshot 2026-11-09T1554Z, 0 errors. Inbox empty.
+
+- **The news app on the web, step 1: live.** dev@ read the brief on the board and built it (476a8699). `/app/` holds the programme by day with search, picks shared with "Add to my day", clashes and free time, and Add to Calendar as .ics; an "App" pane appears beside every page from 1100 px, full screen on a phone. The picks never leave the browser. No email collection: the beta list still waits on Dinis.
+- **sherpa@** verified L4 and D1: the list and day pages are done for the reader (4a653007).
+- **The conductors' rota:** conductor.b@ joined at :48 (4de0f06f). The iOS :00 slot is empty, put to Dinis by the main conductor. Mine stays at :52 until Dinis confirms :36.
+- Spend: accountant@ reads account A at 42.34 so far today, and the team at 198.12 (a55c60ca, corrected).
+
+## Wake at 14:52 UTC, 9 November (three-hourly report)
+
+Site v0.1.853 (17 releases since 11:52). Snapshot 2026-11-09T1453Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
+
+- **Done:**
+  - shows_as (free or busy) is on every event, for the iOS app's calendar (ontologist@, f8cfcef6); told the main conductor.
+  - The live bar on a phone shows the title, not the place (sherpa@'s L4), and D1 from dev.pages@ (f74865f4).
+  - correspondent@ prepared Tuesday's edition for the evening switch.
+- **security@ 14:05:** 21 commits clean, and six conditions ahead for /contribute/ (95f9da82).
+- **Waiting on Dinis's confirmation in this session** (all relayed by the main conductor): /contribute/ (13:00 to 13:40); the news app on the web, with a beta email list (14:40, brief 683e4751); the conductors' rota (my wake to :36) and conductors pushing to main, which CLAUDE.md forbids today (14:05); the 10:55 decisions; and the life cycle (stop and archive idle sessions).
+
 ## Wake at 13:52 UTC, 9 November
 
 Site v0.1.846. Snapshot 2026-11-09T1354Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "startups-2026-09-18-invest-rio",
+  "story": "BR3",
+  "url": "https://startups.com.br/eventos/web-summit/invest-rio-e-maravalley-vao-levar-10-startups-para-o-web-summit-lisboa/",
+  "title": "Invest.Rio e Maravalley vao levar 10 startups para o Web Summit Lisboa (Startups.com.br, 18 September 2026)",
+  "publisher": "Startups.com.br",
+  "published": "2026-09-18",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Startups.com.br reports that Invest.Rio and Maravalley opened the call on 17 September for ten Rio startups to go to Web Summit Lisboa 2026 (9 to 12 November), the mission's second year."
+}

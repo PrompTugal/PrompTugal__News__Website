@@ -1,19 +1,23 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 13 of 27)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T13:01:52Z"
-site_version: "v0.1.842"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T15:58:30Z"
+site_version: "v0.1.862"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 13 of 27)
 
-100 cards, from `TEAM.ROLE en` to `TEAM.ROLE languages.en`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE dinis-2026-11-07-the-decks` to `TEAM.ROLE language-vote.en`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1201 to 1225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE dinis-2026-11-07-the-decks` | [Dinis, 7 November 2026, about 03:20 UTC: three or four spectacular decks](https://promptugal.news/board/team/investors/dinis-2026-11-07-the-decks.md) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE dinis-2026-11-07-the-investor-site` | [Dinis, 7 November 2026, about 16:00 UTC: the investor area as a standalone website; personalised versions by key and QR code](https://promptugal.news/board/team/investors/dinis-2026-11-07-the-investor-site.md) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE dinis-2026-11-07-the-pitch` | [Dinis, 7 November 2026, about 01:15 UTC: the pitch for PrompTugal](https://promptugal.news/board/team/investors/dinis-2026-11-07-the-pitch.md) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE domains-2026-11-06` | [promptugal.com and promptugal.ai: pointing them at promptugal.news (a decision for Dinis)](https://promptugal.news/board/team/devops/domains-2026-11-06.md) | team | devops@ 6 Nov 2026 |
 | `TEAM.ROLE en` | [en.json](https://promptugal.news/board/team/investors/decks/i18n/1-the-investment-case/en.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE en:10` | [en.json](https://promptugal.news/board/team/investors/decks/i18n/0-the-map/en.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE en:11` | [en.json](https://promptugal.news/board/team/investors/site/i18n/en.json) | team | investors@ 7 Nov 2026 |
@@ -35,15 +39,15 @@ source: board/catalogue.json
 | `TEAM.ROLE es:6` | [es.json](https://promptugal.news/board/team/investors/decks/i18n/6-the-technology/es.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE es:7` | [es.json](https://promptugal.news/board/team/investors/decks/i18n/7-join-us/es.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE es:8` | [es.json](https://promptugal.news/board/team/investors/decks/i18n/8-do-it-yourself/es.json) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE es:9` | [es.json](https://promptugal.news/board/team/investors/decks/i18n/9-the-tour/es.json) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE feedback` | [feedback.tpl](https://promptugal.news/board/team/investors/site/tpl/feedback.tpl) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE findings` | [security@'s findings: every one, its severity, its owner and where it stands](https://promptugal.news/board/team/security/findings.md) | team | security@ 6 Nov 2026 |
-| `TEAM.ROLE findings-2026-11-07` | [Synthetic investors, run 1: the four decks and /investors/ (7 November 2026, about 04:30 UTC)](https://promptugal.news/board/team/investors/synthetic-investors/findings-2026-11-07.md) | team | investors@ 7 Nov 2026 |
 
 **Cards 1226 to 1250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE es:9` | [es.json](https://promptugal.news/board/team/investors/decks/i18n/9-the-tour/es.json) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE feedback` | [feedback.tpl](https://promptugal.news/board/team/investors/site/tpl/feedback.tpl) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE findings` | [security@'s findings: every one, its severity, its owner and where it stands](https://promptugal.news/board/team/security/findings.md) | team | security@ 6 Nov 2026 |
+| `TEAM.ROLE findings-2026-11-07` | [Synthetic investors, run 1: the four decks and /investors/ (7 November 2026, about 04:30 UTC)](https://promptugal.news/board/team/investors/synthetic-investors/findings-2026-11-07.md) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE findings-2026-11-07-run2` | [Synthetic investors, run 2: decks 1, 4 (PT), 5, 6, 7, 8, 9 and the pages (7 November 2026, evening)](https://promptugal.news/board/team/investors/synthetic-investors/findings-2026-11-07-run2.md) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE first-prompts-2026-11-06` | [First prompts for the dotted workers and new agents (6 November 2026)](https://promptugal.news/board/team/conductor/first-prompts-2026-11-06.md) | team | conductor@ 6 Nov 2026 |
 | `TEAM.ROLE flags-for-journalist` | [Verification flags for journalist@ (dev.verify@, 2026-11-08, 00:53 UTC)](https://promptugal.news/board/team/dev.verify/flags-for-journalist.md) | team | dev@ 6 Nov 2026 |
@@ -65,15 +69,15 @@ source: board/catalogue.json
 | `TEAM.ROLE fr:4` | [fr.json](https://promptugal.news/board/team/investors/decks/i18n/4-the-algarve/fr.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE fr:5` | [fr.json](https://promptugal.news/board/team/investors/decks/i18n/5-the-investment/fr.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE fr:6` | [fr.json](https://promptugal.news/board/team/investors/decks/i18n/6-the-technology/fr.json) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE fr:7` | [fr.json](https://promptugal.news/board/team/investors/decks/i18n/7-join-us/fr.json) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE fr:8` | [fr.json](https://promptugal.news/board/team/investors/decks/i18n/8-do-it-yourself/fr.json) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE fr:9` | [fr.json](https://promptugal.news/board/team/investors/decks/i18n/9-the-tour/fr.json) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE health-2026-11-06` | [The pipeline's health, 6 November 2026, 03:50 UTC](https://promptugal.news/board/team/devops/health-2026-11-06.md) | team | devops@ 6 Nov 2026 |
 
 **Cards 1251 to 1275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE fr:7` | [fr.json](https://promptugal.news/board/team/investors/decks/i18n/7-join-us/fr.json) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE fr:8` | [fr.json](https://promptugal.news/board/team/investors/decks/i18n/8-do-it-yourself/fr.json) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE fr:9` | [fr.json](https://promptugal.news/board/team/investors/decks/i18n/9-the-tour/fr.json) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE health-2026-11-06` | [The pipeline's health, 6 November 2026, 03:50 UTC](https://promptugal.news/board/team/devops/health-2026-11-06.md) | team | devops@ 6 Nov 2026 |
 | `TEAM.ROLE helen` | [helen.json](https://promptugal.news/board/team/investors/site/personas/demo-src/helen.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE helen:2` | [helen.json](https://promptugal.news/board/team/investors/site/personas/helen.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE helen:3` | [helen.svg](https://promptugal.news/board/team/investors/site/personas/qr/helen.svg) | team | investors@ 7 Nov 2026 |
@@ -95,15 +99,15 @@ source: board/catalogue.json
 | `TEAM.ROLE home` | [home.jpg](https://promptugal.news/board/team/investors/decks/shots/home.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE home:2` | [home.tpl](https://promptugal.news/board/team/investors/site/tpl/home.tpl) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE how-we-got-here.en` | [Investors: how we got here](https://promptugal.news/board/team/investors/site/md/how-we-got-here.en.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE how-we-got-here.es` | [Inversores: cómo llegamos hasta aquí](https://promptugal.news/board/team/investors/site/md/how-we-got-here.es.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE how-we-got-here.fr` | [Investisseurs : comment nous en sommes arrivés là](https://promptugal.news/board/team/investors/site/md/how-we-got-here.fr.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE how-we-got-here.pt` | [Investidores: como chegámos aqui](https://promptugal.news/board/team/investors/site/md/how-we-got-here.pt.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE identity` | [identity.json](https://promptugal.news/board/team/customers/inventory/identity.json) | team | customers@ 6 Nov 2026 |
 
 **Cards 1276 to 1300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE how-we-got-here.es` | [Inversores: cómo llegamos hasta aquí](https://promptugal.news/board/team/investors/site/md/how-we-got-here.es.md) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE how-we-got-here.fr` | [Investisseurs : comment nous en sommes arrivés là](https://promptugal.news/board/team/investors/site/md/how-we-got-here.fr.md) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE how-we-got-here.pt` | [Investidores: como chegámos aqui](https://promptugal.news/board/team/investors/site/md/how-we-got-here.pt.md) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE identity` | [identity.json](https://promptugal.news/board/team/customers/inventory/identity.json) | team | customers@ 6 Nov 2026 |
 | `TEAM.ROLE inbox_read` | [inbox_read.py](https://promptugal.news/board/team/security/tools/inbox_read.py) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE info-audiences` | [info-audiences.jpg](https://promptugal.news/board/team/investors/site/img/info-audiences.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE info-decks` | [info-decks.jpg](https://promptugal.news/board/team/investors/site/img/info-decks.jpg) | team | investors@ 7 Nov 2026 |
@@ -125,9 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE keys-union` | [keys-union.py](https://promptugal.news/board/team/dev/tools/keys-union.py) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE lane_count` | [lane_count.py](https://promptugal.news/board/team/security/tools/lane_count.py) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE language-vote.en` | [Investors: thank you for your vote](https://promptugal.news/board/team/investors/site/md/language-vote.en.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE language-vote.es` | [Inversores: gracias por su voto](https://promptugal.news/board/team/investors/site/md/language-vote.es.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE language-vote.fr` | [Investisseurs : merci pour votre vote](https://promptugal.news/board/team/investors/site/md/language-vote.fr.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE language-vote.pt` | [Investidores: obrigado pelo seu voto](https://promptugal.news/board/team/investors/site/md/language-vote.pt.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE languages.en` | [Investors: which language next?](https://promptugal.news/board/team/investors/site/md/languages.en.md) | team | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-12.md) | [Next part](TEAM-14.md)

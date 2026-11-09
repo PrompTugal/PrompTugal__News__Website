@@ -11,6 +11,7 @@
   "time": "21:00-00:00",
   "start": "21:00",
   "end": "00:00",
+  "shows_as": "free",
   "where": "Quiosque Lisboa, Praça São Paulo, Lisbon",
   "place": "place:quiosque-lisboa-praca-sao-paulo",
   "track": null,
