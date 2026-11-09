@@ -1,0 +1,15 @@
+<!-- The people page's working list (designer.experiments@'s people/switch.mjs, the approved mock-up; Dinis 6 November 2026,
+     the list pages, "just implement it all"): three views of one list, a live search and a count, from the page's own data.
+     Names, roles, organisations and sessions as the summit lists them: public and professional only, no photo, no contact
+     detail. Markup and words; filled by newsroom/build/features/lists.mjs; behaviour: assets/lists/lists.js. -->
+<!-- part:app -->
+<section class="ls" id="pe-app" data-list="people" aria-label="The people, in three views">
+<div class="ls-ctl" role="group" aria-label="How to read the people">
+<div class="ls-seg" role="group" aria-label="View"><button type="button" data-v="org">By organisation</button><button type="button" data-v="session">By session</button><button type="button" data-v="az">A to Z</button></div>
+<input class="ls-q" type="search" placeholder="Search a name, role, organisation or session" aria-label="Search the people">
+<span class="ls-n" role="status" aria-live="polite"></span>
+</div>
+<div class="ls-out"></div>
+<script type="application/json" class="ls-data">{{data}}</script>
+</section>
+<!-- end -->

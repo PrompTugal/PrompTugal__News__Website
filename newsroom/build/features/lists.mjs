@@ -25,7 +25,17 @@ export const fill = {
         return ''
     },
 }
-export function decorate(p) {
-    if (p.rel !== 'companies/index.html') return
+// the people page: its list as JSON for the application, placed before the static views (which stay without script)
+const TP = fs.readFileSync(new URL('../../../assets/lists/people.tmpl', import.meta.url), 'utf8')
+const partP = n => (TP.split(`<!-- part:${n} -->\n`)[1] || '').split('\n<!-- ')[0]
+function peopleApp(p, ctx) {
+    const list = [...ctx.store.people].sort((a, b) => a.name.localeCompare(b.name)).map(x => ({ id: x.id, n: x.name, r: x.role || '', o: x.organisation || '',
+        e: [...new Set(x.listings.map(l => l.event).filter(Boolean))].map(id => ctx.store.get(id)).filter(Boolean).map(e => [e.title, `${e.date.slice(5)} ${e.time || ''}`.trim(), e.id]) }))
+    const html = put(partP('app'), { data: json({ people: list }) }), prev = p.postHtml
+    p.postHtml = h => { const out = prev ? prev(h) : h, i = out.indexOf(MOUNT); const at = i < 0 ? -1 : out.lastIndexOf('<', i); return at < 0 ? out : out.slice(0, at) + html + '\n' + out.slice(at) }
+}
+export function decorate(p, ctx) {
+    if (p.rel !== 'companies/index.html' && p.rel !== 'people/index.html') return
     p.assets = { ...(p.assets || {}), css: [...(p.assets?.css || []), 'assets/lists/lists.css'], js: [...(p.assets?.js || []), 'assets/lists/lists.js'] }
+    if (p.rel === 'people/index.html' && ctx) peopleApp(p, ctx)
 }
