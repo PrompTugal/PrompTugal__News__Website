@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "BR2",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "entities": [
+    {
+      "ref": "organisation:apexbrasil",
+      "label": "ApexBrasil",
+      "kind": "organisation",
+      "sources": [
+        "startups-2025-11-12-incubator",
+        "dnbrasil-2026-09-04-incubation",
+        "iol-brasil-chega-a-lisboa"
+      ],
+      "note": "Brazil's trade and investment agency; runs the Lisbon incubation with Sebrae"
+    },
+    {
+      "ref": "organisation:sebrae-startups",
+      "label": "Sebrae Startups",
+      "kind": "organisation",
+      "sources": [
+        "startups-2025-11-12-incubator",
+        "dnbrasil-2026-09-04-incubation"
+      ],
+      "note": "Brazil's small business service; runs the incubation with ApexBrasil"
+    },
+    {
+      "ref": "company:just-travel",
+      "label": "Just Travel",
+      "kind": "company",
+      "sources": [
+        "startups-2025-11-12-incubator"
+      ],
+      "note": "A traveltech in the first class"
+    }
+  ]
+}

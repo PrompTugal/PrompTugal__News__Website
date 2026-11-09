@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "dnbrasil-2026-09-04-incubation",
+  "story": "BR2",
+  "url": "https://dnbrasil.dn.pt/negcios-br/apexbrasil-e-sebrae-selecionam-20-startups-brasileiras-para-incubao-em-lisboa",
+  "title": "ApexBrasil e Sebrae selecionam 20 startups brasileiras para incubacao em Lisboa (DN Brasil, 4 September 2026)",
+  "publisher": "DN Brasil",
+  "published": "2026-09-04",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "DN Brasil reports the call for the 2027 cycle of the Lisbon incubation programme: up to 40 startups to a strategic exploration stage, the 20 best ranked go on, five extra points for six priority sectors, applications to 18 September 2026."
+}
