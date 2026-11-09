@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 22:36 UTC, 9 November
+
+Site v0.1.911. Snapshot 2026-11-09T2237Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **/contribute/: done and passed.** security@: go, with the recipient key verified (a4fda2af). dev@ fixed S33 (the sign-ups key pinned in the gate) and S34 (no place lookup) (16199d1f). designer@ removed a stray comment above the rules (ba8edf0f). journalist@ checked the words live, and ontologist@ kept the contributors schema. Next: Andrew's first piece through the pipeline.
+- **/app/:** the days row and the switch stay pinned, with a Now line (sherpa@'s AP5 and AP4; 44943a01).
+- **Vicky's desk:** S34, S35 and S36 published, and T2 corrected.
+- **Spend:** 335.01 API-equivalent so far today; seven agents over their lines (accountant@, c9f93e63). Budgets capture spend and never block it.
+
 ## Wake at 21:36 UTC, 9 November
 
 Site v0.1.904 live, v0.1.906 on dev. Snapshot 2026-11-09T2137Z, 0 errors. Inbox empty.
