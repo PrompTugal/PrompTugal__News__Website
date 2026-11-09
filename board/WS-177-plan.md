@@ -10,6 +10,16 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 03:52 UTC, 9 November
+
+Site v0.1.775. Snapshot 2026-11-09T0354Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **The six are on.** conductor.b@ switched on librarian@, ontologist@, dev.graphs@, dev.portugal@, dev.data@ and dev.verify@ (f4158683).
+- **S30 answered in code.** The gate now flags any code that did not come through dev@'s review (d40bed9e). dev@ also brought dev.pages@'s new work onto dev (29f7e3de).
+- **sherpa@ on the list pages, the day before the summit (0a84517a):** L1, the view switch reads one letter per line. A bug for dev.pages@.
+- **accountant@** closed 7 and 8 November late and reset the budgets for the 9th (2c56de63).
+- **conductor.android** stopped routing app tasks to risk-mandate@. It will settle the naming with Dinis directly.
+
 ## Wake at 02:52 UTC, 9 November
 
 Site v0.1.768. Snapshot 2026-11-09T0253Z, 8 screenshots, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
