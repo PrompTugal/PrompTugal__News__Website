@@ -2,9 +2,9 @@
   "$schema": "schemas/matching.schema.json",
   "about": "The derivation's report (newsroom/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
   "counts": {
-    "speaker_organisations_matched": 68,
-    "speaker_organisations_unmatched": 184,
-    "near_misses": 1,
+    "speaker_organisations_matched": 69,
+    "speaker_organisations_unmatched": 183,
+    "near_misses": 0,
     "places_unmatched": 0,
     "tracks_mapped": 6,
     "tracks_unmapped": 9,
@@ -300,6 +300,12 @@
         "ref": "company:persona",
         "count": 2,
         "how": "alias \"Persona\" (the name in the team's map, source s1)"
+      },
+      {
+        "as_listed": "PitchBook Data",
+        "ref": "company:pitchbook",
+        "count": 1,
+        "how": "same_as in data/curation/organisations.json: The LIS26 press conference 'PitchBook goes free for startups: new platform for finding them first' (websummit.com/sessions/lis26/3c456209-...) is PitchBook's own announcement, and its speaker card lists the speaker under \"PitchBook Data\"; the session's title names the company we follow (its summit appearance page, s1, is PitchBook's)."
       },
       {
         "as_listed": "PolyAI",
@@ -994,11 +1000,6 @@
         "count": 1
       },
       {
-        "as_listed": "PitchBook Data",
-        "ref": "organisation:pitchbook-data",
-        "count": 1
-      },
-      {
         "as_listed": "Plug",
         "ref": "organisation:plug",
         "count": 1
@@ -1344,16 +1345,7 @@
         "count": 1
       }
     ],
-    "near_misses": [
-      {
-        "organisation": "organisation:pitchbook-data",
-        "names_as_listed": [
-          "PitchBook Data"
-        ],
-        "company": "company:pitchbook",
-        "why_not_linked": "the names share \"pitchbook\" but are not the same name; confirm in data/curation/organisations.json (same_as or not_same)"
-      }
-    ]
+    "near_misses": []
   },
   "places": {
     "unmatched_where": []
