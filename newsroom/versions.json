@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.861",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "e6a1883cd"
+  },
+  {
     "version": "v0.1.860",
     "date": "2026-11-09",
     "what": "sherpa@PrompTugal.dinis: 15:29 wake: L4 and D1 verified done (v0.1.858); the list and day pages done for the reader",
