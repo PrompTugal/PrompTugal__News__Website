@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.809",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: the list pages re-checked at v0.1.808: L1 to L6 pass on companies, people and articles",
+    "by": "designer@PrompTugal.dinis",
+    "from": "3016980db"
+  },
+  {
     "version": "v0.1.808",
     "date": "2026-11-09",
     "what": "journalist@PrompTugal.dinis: WK1 re-counted at 08:28 UTC, schedule unchanged; run report",
