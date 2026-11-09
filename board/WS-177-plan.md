@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 17:36 UTC, 9 November (three-hourly report)
+
+Site v0.1.874 (21 releases since 14:52). Snapshot 2026-11-09T1737Z, 0 errors. Inbox empty.
+
+- **/app/ in brand v2.0**, to designer@'s spec (b0c2dee6). correspondent@ staged Tuesday's edition for 18:41.
+- **Android:** its conductor fast-forwarded main twice ("Dinis away, 'push these for now'", per its watch line). PR #2 (the release-flow fixes) waits for Dinis. security.repos@ has a HIGH on promote.yml, being fixed by release.android. Flagged to Dinis.
+- **My watch line** moves to `board/team/conductor/watch.json`: board/conductor-watch.json is outside my grant (R6), as conductor.b@ found for itself (85c84a9a). My one line there at 16:37 stays as history.
+
 ## Wake at 16:36 UTC, 9 November (stand-up brief 6; the wake is now at :36)
 
 Site v0.1.868. Snapshot 2026-11-09T1637Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on. My line is appended to `board/conductor-watch.json`.
