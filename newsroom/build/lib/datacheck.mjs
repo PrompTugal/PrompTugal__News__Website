@@ -45,6 +45,7 @@ export const KINDS = [
     [/^data\/site\/site\.json$/, 'site'],
     [/^data\/site\/nav\.json$/, 'nav'],
     [/^data\/site\/list-views\.json$/, 'list-views'],
+    [/^data\/site\/contributors\.json$/, 'contributors'],   // the collaborators' wall (features/contribute.mjs)
     [/^data\/front\/days\.json$/, 'front-days'],
     [/^data\/corrections\/removals\.json$/, 'removals'],   // applied to rebuilt past days (past-day.mjs)   // the correspondent's five a day (dev.pages@ reads it)   // the switch's words on the list pages (dev.pages@)
     [/^data\/newsroom\/agents\.json$/, 'newsroom-agents'],        // the newsroom section's roster, plan and team-site snapshot

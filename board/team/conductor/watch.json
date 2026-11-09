@@ -40,6 +40,16 @@
    "PrompTugal__App__iOS": "d2e1160a",
    "PrompTugal__App__Mobile": "74332868",
    "note": "News: 21 cultures in /app/ (ce907426); /contribute/ words ready (bb7313e4); sign-ups lane live; S32 relayed to conductor.b@."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T21:37Z",
+   "SGit-AI__Website__Web-Summit": "d02238a6",
+   "PrompTugal__News__Website": "d18da116",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "39677c22",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: /contribute/ built on dev (153dd1ca), builds locally, live site at v0.1.904 not yet serving it; Wednesday's edition drafted."
   }
  ]
 }

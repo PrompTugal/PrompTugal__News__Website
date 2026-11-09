@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "portugalstartupnews-2026-10-23-intuitivo",
+  "story": "S19",
+  "url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
+  "title": "Intuitivo raises 1.35M euro to expand into Brazil with a platform that cuts teachers' workload (Portugal Startup News, 23 October 2026)",
+  "publisher": "Portugal Startup News",
+  "published": "2026-10-23",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Portugal Startup News reports that the Porto edtech startup Intuitivo raised 1.35m euro in seed funding to expand into Brazil, and describes its platform and size."
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S19",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "entities": [
+    {
+      "ref": "organisation:apexbrasil",
+      "label": "ApexBrasil",
+      "kind": "organisation",
+      "sources": [
+        "executivedigest-2026-11-04-200-companies"
+      ],
+      "note": "Leads the Brazilian mission"
+    },
+    {
+      "ref": "organisation:sebrae-startups",
+      "label": "Sebrae Startups",
+      "kind": "organisation",
+      "sources": [
+        "executivedigest-2026-11-04-200-companies"
+      ],
+      "note": "Partner in the mission"
+    },
+    {
+      "ref": "organisation:intuitivo",
+      "label": "Intuitivo",
+      "kind": "organisation",
+      "sources": [
+        "portugalstartupnews-2026-10-23-intuitivo"
+      ],
+      "note": "Porto edtech startup expanding to Brazil"
+    },
+    {
+      "ref": "event:web-summit-lisbon-2026",
+      "label": "Web Summit Lisboa 2026",
+      "kind": "event",
+      "sources": [
+        "executivedigest-2026-11-04-200-companies"
+      ],
+      "note": "The edition the Brazilian mission goes to"
+    }
+  ]
+}

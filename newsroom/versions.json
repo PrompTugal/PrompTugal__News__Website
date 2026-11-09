@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.911",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 22:05: 34 commits clean; /contribute/ go (recipient verified), S33 and S34 to dev@",
+    "by": "security@PrompTugal.dinis",
+    "from": "a4fda2af5"
+  },
+  {
+    "version": "v0.1.910",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: SA25 record: T2 corrected (v0.1.909)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "565ec908d"
+  },
+  {
+    "version": "v0.1.909",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ed8f66e92"
+  },
+  {
+    "version": "v0.1.908",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger; the watch; account B running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "5e382777e"
+  },
+  {
+    "version": "v0.1.907",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 21:36: /contribute/ built on dev, waiting for deploy and security@'s review",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "62e006584"
+  },
+  {
+    "version": "v0.1.906",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 21:29 wake: the app re-measured (v0.1.904); AP1 and AP3 done, AP5 new",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "631fd5577"
+  },
+  {
+    "version": "v0.1.905",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: /contribute/: the rules, the tasks, a sealed form, the wall and the beta list",
+    "by": "dev@PrompTugal.dinis",
+    "from": "153dd1ca6"
+  },
+  {
+    "version": "v0.1.904",
+    "date": "2026-11-09",
+    "what": "watch 21:16",
+    "by": "conductor@web-summit.dinis",
+    "from": "8291807c1"
+  },
+  {
     "version": "v0.1.903",
     "date": "2026-11-09",
     "what": "watch: conductor.B iOS 21:00",

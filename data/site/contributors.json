@@ -1,0 +1,8 @@
+{
+  "about": "The collaborators' wall on /contribute/ (brief:20261109T2020Z-contribute). A person appears here only with their yes to their name (security@'s condition 3), as they want it shown; no contact detail, ever. 'pieces' are the slugs of their published contributions under content/articles/. 'submitted' counts what reached the private inbox (from the drain, a number only). Kept by the conductor and journalist@ as people join and pieces are published.",
+  "submitted": 0,
+  "unnamed": 0,
+  "contributors": [
+    { "name": "Andrew", "since": "2026-11-09", "pieces": [], "made": "The first collaborator: writing about the summit.", "consent": "first name only, at Dinis's word, 9 November 2026, 20:20 UTC" }
+  ]
+}
