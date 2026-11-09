@@ -124,15 +124,18 @@ for (const f of files) {
 // 7. public forever: no contact details in what we author
 const EMAIL = /[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z0-9.-]*[A-Za-z]{2,}/g
 const PHONE = /(?<!\w)(?:\+|00)\d[\d ()-]{8,}\d/g   // not from inside a word or a hash (outreach@, 7 November: a sha256 matched)
-const AGENT_NAME = /@(web-summit|PrompTugal)\.[a-z0-9-]+$/   // agent names (newsroom@web-summit.dinis, ontologist@PrompTugal.dinis) are names, not mail
+const AGENT_NAME = /@(web-summit|PrompTugal)\.(dinis|vicky|indi|silvio|jose|angelo|zed|stranger|person)$/i   // the operators' names only, and three made-up ones the team's tests use (zed, stranger, person) (security@'s S31: web-summit.com passed)   // agent names (newsroom@web-summit.dinis, ontologist@PrompTugal.dinis) are names, not mail
 // one published address, one file: Dinis's own investor contact (his words, 7 November 2026, about 01:00 UTC: "link to
 // dinis.agent@promptugal.news, because that already exists"; board/team/investors/dinis-2026-11-07-my-feeds.md). Nowhere else.
-const ALLOWED = { 'content/investors.md': ['dinis.agent@promptugal.news'] }
+const ALLOWED = { 'content/investors.md': ['dinis.agent@promptugal.news'],
+    // security@'s S31 finding quotes the made-up addresses that passed the earlier rule (no mailbox, no person)
+    'board/team/security/reviews/2026-11-09-0805-wake.md': ['someone@promptugal.io', 'someone@web-summit.com', 'someone@promptugal.example-mail.com'] }
 // board/ too (security@'s S21, 9 November 2026: it is served and public forever), where the team's own words may also
 // name agent handles in their newer forms (risk-mandate@promptugal.ai.dinis, x@ios.PrompTugal.dinis), the publication's
 // own addresses (promptugal.news, promptugal.ai: roles and Dinis's published contact) and placeholders (example.*,
 // company.pt). A person's address anywhere else, and any phone-number shape, is still refused.
-const BOARD_OK = /@(?:[a-z0-9-]+\.)*(?:web-summit|promptugal)\.[a-z0-9.-]+$|@(?:example\.(?:com|org|net|pt)|company\.pt)$/i
+// exact domains only (security@'s S31: a prefix match let someone@promptugal.io through)
+const BOARD_OK = /@(?:promptugal\.news|promptugal\.ai|promptugal\.ai\.dinis|ios\.promptugal\.dinis|example\.(?:com|org|net|pt)|company\.pt)$/i
 for (const f of files.filter(f => /^(content|data|desks|board)\//.test(rel(f)) && !secrets.BINARY.test(f))) {   // desks/ is served as is, so it is checked too; the verifier's records quote pages (security@'s S21, S28, S28b)
     const board = rel(f).startsWith('board/')
     for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !(board && BOARD_OK.test(m[0])) && !/^actions@github\.com$/.test(m[0]) && !(ALLOWED[rel(f)] || []).includes(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)

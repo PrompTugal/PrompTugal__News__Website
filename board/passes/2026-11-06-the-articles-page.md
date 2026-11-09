@@ -29,3 +29,4 @@ The shape: board/the-passes.md.
 | A5 One 666 px column on a 1,440 px desktop: two or three cards across | sherpa@ (review) | designer@ | open (conductor) |
 | A6 'How we publish' after the list, collapsed | sherpa@ (review) | designer@ | open (conductor) |
 | L1 (03:35, 9 November, v0.1.774): **the view switch reads one letter per line on a phone and a desktop** (its container `.view-switch.is-switch` is 0 px wide; buttons 39 px wide, up to 236 px tall); sent to dev@ and dev.pages@. `board/team/sherpa/review-2026-11-09-0330-the-list-pages.md` | sherpa@ (review) | dev.pages@, dev@ | open (urgent) |
+| Re-measured (06:35, 9 November, v0.1.796): **L1 and L2 done**; search filters as you type with a live count, the query kept in the address, a clear 'no match'. Articles now the approved wire. L4 (the live bar cut on a phone) open. `board/team/sherpa/review-2026-11-09-0330-the-list-pages.md` | sherpa@ (re-measure) | dev.pages@ | done (L1, L2) |

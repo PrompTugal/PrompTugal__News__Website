@@ -7,6 +7,7 @@ import fs from 'node:fs'
 import { slotLine, slotList } from '../lib/present.mjs'
 import { load, rank, KIND, STRIP_DAYS, stripMd } from './agenda.mjs'
 export const order = 60
+export const assets = { js: ['assets/days/days.js'] }
 
 // the correspondent's own five for a day (data/front/days.json: { days: { "<date>": { picks: ["<event id>", ...] } } }), when it
 // has written them; otherwise the ranked five below
@@ -14,6 +15,7 @@ export const order = 60
 // its grant), then data/front/days.json for a day it has not picked
 const readDays = (f, k) => { try { const j = JSON.parse(fs.readFileSync(new URL(`../../../${f}`, import.meta.url), 'utf8')); return (k ? j[k] : j)?.days || {} } catch { return {} } }
 const PICKS = { ...readDays('data/front/days.json'), ...readDays('desks/correspondent/front-page.json', 'day_picks') }
+const DW = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).days_page
 const byTime = (a, b) => (a.time || '').localeCompare(b.time || '')
 
 function dayPage(ctx, d, i) {
@@ -32,7 +34,8 @@ function dayPage(ctx, d, i) {
     const prev = STRIP_DAYS[i - 1], next = STRIP_DAYS[i + 1]
     const md = `${stripMd(ctx, rel, d)}\n\n{.notice .brand}\n${banner}\n\n` +
         (items.length ? `{.view-switch}\n[Five things](#v-five) · [Every session, by time](#v-all) · [By stage](#v-stages)\n\n` +
-            `::: view view-five\n#### Five things {#v-five}\n\n${slotList(five.map(line))}\n\n${items.length > 5 ? `${items.length - 5} more: use *Every session, by time* above.` : ''}\n:::\n\n` +
+            `::: view view-five\n#### Five things {#v-five}\n\n${picked.length || d < TODAY ? '' : `*${DW.unpicked}*\n\n`}${slotList(five.map(line))}\n\n` +
+            (items.length > 5 ? `::: fold\n#### ${d === TODAY ? DW.else_today : DW.else_other} (${items.length - 5}) {#else}\n\n${slotList([...items].filter(e => !five.includes(e)).sort(byTime).map(line))}\n:::\n` : '') + `:::\n\n` +
             `::: view view-all\n#### Every session, by time ({#v-all})\n\n${slotList([...items].sort(byTime).map(line))}\n:::\n\n`.replace(' ({#v-all})', ' {#v-all}') +
             `::: view view-stages\n#### By stage {#v-stages}\n\n${stages.map(w => `### ${ctx.md.cell(w)}\n\n${slotList(items.filter(e => (e.where || 'Place not listed') === w).sort(byTime).map(line))}`).join('\n\n')}\n:::\n\n`
             : `Nothing from our programme is listed for ${DAY(d)} yet. [The full agenda](${ctx.link(rel, 'summit/agenda.html')}).\n\n`) +

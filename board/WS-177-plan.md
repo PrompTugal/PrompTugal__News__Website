@@ -10,6 +10,23 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 07:52 UTC, 9 November
+
+Site v0.1.803. Snapshot 2026-11-09T0755Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
+
+- **The list pages' length: done, to be confirmed by designer@.** dev@ brought dev.pages@'s shorter list pages (sherpa@'s L5) onto dev (7e25837d), and brought dev.graphs@ and dev.data@ in too. designer@ checks the length at its next wake.
+- **Next for dev.pages@:** the day pages' A/B/C views, with C ("five things") as the default.
+- **librarian@** re-checked the ledger's 25 ideas marked "Not captured"; catalogue v0.1.800 (7eb9daf1).
+
+## Wake at 06:52 UTC, 9 November
+
+Site v0.1.800. Snapshot 2026-11-09T0656Z, 0 errors. Inbox empty.
+
+- **Late: the list pages' length.** designer@ found it unchanged at v0.1.782 and again at v0.1.796 (22e61d3c). sherpa@ confirms the switch is fixed and the search works (9175ee8e). I sent the length, and then the day views, to dev.pages@ and dev@ on their inboxes.
+- **S21 closed on both sides:** security@ removed the company addresses it had quoted (dd7f544b), and the gate's contact check now covers all of board/ (a561fb15).
+- **Account B:** all twelve agents ran (c53425d0). accountant@ reads 84.36 API-equivalent so far today (236636ec).
+- **Vicky's desk:** S31, "Beyond Lisbon", is drafted, style-edited and Ready, held for Vicky.
+
 ## Wake at 05:52 UTC, 9 November (three-hourly report)
 
 Site v0.1.789 (22 releases since 02:52). Snapshot 2026-11-09T0554Z, 0 errors. Inbox empty. No key changes.

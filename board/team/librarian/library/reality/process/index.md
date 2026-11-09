@@ -26,7 +26,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-963 cards (963 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T03:59:25Z at site v0.1.776; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+966 cards (966 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T07:01:02Z at site v0.1.800; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -39,7 +39,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `WRK.BRIEF` | 35 |
 | `WRK.DEC` | 13 |
 | `WRK.DESK` | 16 |
-| `WRK.FIND` | 171 |
+| `WRK.FIND` | 174 |
 | `WRK.PASS` | 29 |
 | `WRK.PLAN` | 31 |
 | `WRK.STORY` | 4 |
@@ -47,11 +47,11 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 
 Newest five accessions:
 
+- `ACC-20261109-0283` [D1 (06:35, 9 November, v0.1.796): /days/ opens on Friday 6, a past day, with Thu 12 and Fri 13 off the strip on a phone; during the summit open on today, past…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) (`WRK.FIND 2026-11-06-the-summit-days-16`)
+- `ACC-20261109-0282` [Re-measured (06:35, 9 November, v0.1.796): L1 and L2 done; search filters as you type with a live count, the query kept in the address, a clear 'no match'.…](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) (`WRK.FIND 2026-11-06-the-people-page-8`)
+- `ACC-20261109-0281` [Re-measured (06:35, 9 November, v0.1.796): L1 and L2 done; search filters as you type with a live count, the query kept in the address, a clear 'no match'.…](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) (`WRK.FIND 2026-11-06-the-articles-page-8`)
 - `ACC-20261109-0208` [The reading credit, said plainly: one line on a page, the details on the account page](https://promptugal.news/board/spec-the-reading-credit.md) (`WRK.PLAN spec-the-reading-credit`)
 - `ACC-20261109-0207` [The list pages and the summit's days: what I check when dev.pages@ builds them](https://promptugal.news/board/spec-list-pages-and-days-check.md) (`WRK.PLAN spec-list-pages-and-days-check`)
-- `ACC-20261109-0206` [Re-measured (03:35, 9 November, v0.1.774): A1 in part, Events opens with the days strip and Today / Tomorrow links (still 51 phone screens); the live bar's…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) (`WRK.FIND 2026-11-06-the-summit-days-15`)
-- `ACC-20261109-0205` [The attendee on Sunday night planning Monday (00:35 on 8 November, v0.1.677, phone): keep Monday's day page (five things with time, place, Add to my day; a…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) (`WRK.FIND 2026-11-06-the-summit-days-14`)
-- `ACC-20261109-0204` [L1 (03:35, 9 November, v0.1.774): the view switch reads one letter per line on a phone and a desktop (its container .view-switch.is-switch is 0 px wide;…](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) (`WRK.FIND 2026-11-06-the-people-page-7`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

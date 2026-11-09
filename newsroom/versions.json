@@ -1,5 +1,82 @@
 [
   {
+    "version": "v0.1.805",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 08:05: 19 commits clean, S21 closed, S31 (the board allowance's domains) to dev@",
+    "by": "security@PrompTugal.dinis",
+    "from": "46e710f56"
+  },
+  {
+    "version": "v0.1.804",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 07:52: the list pages shorter (L5); the day views next",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c9cf58022"
+  },
+  {
+    "version": "v0.1.803",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 07:08: the list pages shorter from dev.pages@ (L5); status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7e25837d1"
+  },
+  {
+    "version": "v0.1.802",
+    "date": "2026-11-09",
+    "what": "librarian@PrompTugal.dinis: wake 06:57: the ledger's 25 Not captured ideas re-checked; catalogue v0.1.800",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "7eb9daf1f"
+  },
+  {
+    "version": "v0.1.801",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 06:52: list pages' length late, sent to dev.pages@ and dev@; S21 closed",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "d9e377901"
+  },
+  {
+    "version": "v0.1.800",
+    "date": "2026-11-09",
+    "what": "accountant@PrompTugal.dinis: 06:50 reading, 84.36 API-equivalent so far on 9 November",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "236636ece"
+  },
+  {
+    "version": "v0.1.799",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: idle; WK1 leads",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "89c428d7c"
+  },
+  {
+    "version": "v0.1.798",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: lean wake 06:33: list pages' length unchanged (v0.1.796), no image needed",
+    "by": "designer@PrompTugal.dinis",
+    "from": "22e61d3cd"
+  },
+  {
+    "version": "v0.1.797",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 06:30 wake: the list pages re-measured (v0.1.796); the switch fixed, search works",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "9175ee8e5"
+  },
+  {
+    "version": "v0.1.796",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: lean wake, nothing new; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "22fabfead"
+  },
+  {
+    "version": "v0.1.795",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "1bfd1acaa"
+  },
+  {
     "version": "v0.1.794",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: the gate's contact check covers all of board/ (security@'s S21)",
