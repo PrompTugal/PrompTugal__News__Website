@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.788",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 05:08: the articles page and /days/ from dev.pages@; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b017a57fc"
+  },
+  {
     "version": "v0.1.787",
     "date": "2026-11-09",
     "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
