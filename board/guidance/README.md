@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 23:30 (9 Nov) | **GAMMA-Ray, the centre of gravity:** rate every company's agentic AI on five public standards (Salesforce, Microsoft, SEI/Accenture, EAAMM, AAGMM) with graded evidence, in the graph; interviews and articles framed by each company's scan; the name and backronym stay | `../briefs/2026-11-09-gamma-ray.md` |
 | 9 Nov, 20:20 | **Confirmed by Dinis here:** build /contribute/, the collaborators' wall and the beta list under security@'s six conditions; Andrew is the first collaborator; **from now on, ship on security's pass, don't wait for him** | `2026-11-09-contribute-confirmed.md` |
 | 14:40 (9 Nov) | **The news app on the web:** the app in a phone-shaped pane on the right of promptugal.news (resizable to iPad, full screen, Add to Home Screen), the same schedule features (picks, clashes, Add to Calendar), location on request, the venue map, and a **beta list** on a private lane. Apple's review is too slow for us | `../briefs/2026-11-09-the-app-on-the-web.md` |
 | 14:05 (9 Nov) | **Everybody pushes to dev; only Dinis and the conductors push to main** (after the security checks). **The conductors' rota:** each conductor wakes hourly at its own minute (iOS :00, main :12, Android :24, news :36, conductor.b :48), runs the watch over every repository and relays | `../the-conductors.md`, `../conductor-watch.json` |
