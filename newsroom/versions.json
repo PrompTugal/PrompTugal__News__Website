@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.851",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 14:31: Android on the new push rule, store only from main via the workflow (being built)",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "424bf4ea1"
+  },
+  {
     "version": "v0.1.850",
     "date": "2026-11-09",
     "what": "watch 14:21: Indi's team's messaging v1 and redesign on iOS dev, sent to security review first",
