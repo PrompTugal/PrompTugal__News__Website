@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "account B: the summit set (6, since 02:38) plus the six added at 02:50 (since 03:08) are on; still paused: investors@, investors.packs@, researcher@, devops@, synthetic@, designer.experiments@, dev.search@, outreach@, backup@, customers@, historian@, xray@",
- "updated": "2026-11-09T17:02Z",
+ "updated": "2026-11-09T17:58Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -76,10 +76,11 @@
   "15:10 wake: moved my wake to hourly at :48 (the conductors' rota, Dinis 14:05; board/the-conductors.md) with the watch in its prompt; first watch line in board/conductor-watch.json; twelve agents running; dev.verify@ at 0.90 USD credit; inbox 2 held (unregistered signer)",
   "15:48 wake: the watch (iOS dev moved; slot unheld, with Dinis in brief 37); account B running; inbox 1 held",
   "16:48 wake: the watch; account B running; inbox 1 held",
-  "17:00 the 16:48 run report showed one breach (R6, write-outside-grant): my lines in board/conductor-watch.json (also the 15:20 and 15:52 ones). Stopped: my watch lines now go to board/team/conductor.b/watch.json; my wake's prompt changed to say so"
+  "17:00 the 16:48 run report showed one breach (R6, write-outside-grant): my lines in board/conductor-watch.json (also the 15:20 and 15:52 ones). Stopped: my watch lines now go to board/team/conductor.b/watch.json; my wake's prompt changed to say so",
+  "17:48 wake: the watch (in board/team/conductor.b/watch.json); account B running; inbox empty"
  ],
  "next": [
-  "17:48 wake; ledger at 18:48"
+  "18:48 wake with the ledger"
  ],
  "asks": [
   "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",

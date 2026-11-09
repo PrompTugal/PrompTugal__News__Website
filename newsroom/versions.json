@@ -1,5 +1,47 @@
 [
   {
+    "version": "v0.1.878",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 18:05: 25 commits clean; the installable app scoped to /app/",
+    "by": "security@PrompTugal.dinis",
+    "from": "68b785dae"
+  },
+  {
+    "version": "v0.1.877",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 17:48 watch line and status (the first commit carried only the run report)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "be179061d"
+  },
+  {
+    "version": "v0.1.876",
+    "date": "2026-11-09",
+    "what": "checker@PrompTugal.vicky: eighth check: S3's new update checks out; the reviewer's SA25 records acknowledged",
+    "by": "checker@PrompTugal.vicky",
+    "from": "a68e1d4fd"
+  },
+  {
+    "version": "v0.1.875",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 17:36: /app/ in brand; Android main promoted, HIGH on promote.yml flagged; my watch line moves to my folder (R6)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "107c5f1d5"
+  },
+  {
+    "version": "v0.1.874",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 17:26: Android main promoted twice by verified fast-forward; PR #2 waits for Dinis; promote HIGH being fixed",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "a47b1c7ba"
+  },
+  {
+    "version": "v0.1.873",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: /app/ in brand v2.0 (designer@'s spec): tokens, Plex, Newsreader, the wordmark",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b0c2dee61"
+  },
+  {
     "version": "v0.1.872",
     "date": "2026-11-09",
     "what": "conductor.b@PrompTugal.dinis: my R6 breach (the shared watch file) stopped; my watch lines move to my own folder",

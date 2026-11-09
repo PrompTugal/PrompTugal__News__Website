@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "BR1",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "entities": [
+    {
+      "ref": "organisation:apexbrasil",
+      "label": "ApexBrasil",
+      "kind": "organisation",
+      "sources": [
+        "apexbrasil-hub-rules-2026",
+        "apexbrasil-mission-rules-2026",
+        "dnbrasil-2025-11-10-370",
+        "forbespt-2023-11-07",
+        "startups-2025-11-03-340"
+      ],
+      "note": "Brazil's trade and investment agency; leads the national mission"
+    },
+    {
+      "ref": "event:web-summit-lisbon-2025",
+      "label": "Web Summit 2025, Lisbon",
+      "kind": "event",
+      "sources": [
+        "apexbrasil-hub-rules-2026",
+        "apexbrasil-mission-rules-2026",
+        "dnbrasil-2025-11-10-370",
+        "startups-2025-11-03-340"
+      ],
+      "note": "The edition whose Brazilian delegation the counts describe"
+    }
+  ]
+}

@@ -30,6 +30,16 @@
    "PrompTugal__App__iOS": "4c11461a",
    "PrompTugal__App__Mobile": "74332868",
    "note": "Account B: twelve running (dev, ontologist, librarian, journalist, designer, correspondent committed since 15:52); dev.verify@ still waits on the OpenRouter top-up. iOS unchanged since 15:52, its slot still with Dinis. Nothing new from Dinis for account B."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T17:52Z",
+   "SGit-AI__Website__Web-Summit": "b52ac2f0",
+   "PrompTugal__News__Website": "494ac131",
+   "PrompTugal__App__Android": "c48aafb0",
+   "PrompTugal__App__iOS": "d851e047",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Account B running (dev 6 commits this hour; the 2 h and 3 h agents are between wakes); dev.verify@ waits on the top-up. iOS dev moved (4c11461a -> d851e047: a RiskMandate Apple Wallet pass, per the main conductor); its slot still with Dinis. Inbox empty."
   }
  ]
 }
