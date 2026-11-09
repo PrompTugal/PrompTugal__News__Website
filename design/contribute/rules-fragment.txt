@@ -1,0 +1,19 @@
+<!-- the fragment for /contribute/: lift the <style> into the page's CSS and the <section> into the page -->
+<style>
+.ct-rules{--p:var(--paper,#f6f3ec);--i:var(--ink,#121317);--i2:var(--ink-2,#3f424a);--r:var(--brand-red,#c52830);--g:var(--brand-green,#006600);--h:var(--hair,#d8d4cb);
+  background:var(--p);color:var(--i);border-top:4px solid var(--i);padding:18px 0 8px;font-family:"IBM Plex Sans",Arial,sans-serif}
+.ct-rules h2{font:600 26px/1.15 Newsreader,Georgia,serif;margin:0 0 4px}.ct-rules .sub{font-size:15px;color:var(--i2);margin:0 0 14px}
+.ct-rules ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:0}
+.ct-rules li{display:grid;grid-template-columns:52px 1fr;gap:0 14px;padding:14px 0;border-bottom:1px solid var(--h);align-items:start}
+.ct-rules .n{font:700 34px/1 Newsreader,Georgia,serif;color:var(--r);text-align:right}
+.ct-rules b{display:block;font:600 19px/1.25 Newsreader,Georgia,serif}.ct-rules span{display:block;font-size:15.5px;line-height:1.45;color:var(--i2);margin-top:2px}
+.ct-rules li.open .n,.ct-rules li.priv .n{color:var(--g)}
+.ct-rules .foot{display:flex;justify-content:space-between;align-items:center;font:13px "IBM Plex Mono",monospace;color:var(--i2);padding-top:10px}
+@media(min-width:900px){.ct-rules ol{grid-template-columns:1fr 1fr;column-gap:40px}.ct-rules li:nth-child(odd):last-child{grid-column:1/-1}}
+</style>
+<section class="ct-rules" aria-labelledby="ct-rules-h">
+<h2 id="ct-rules-h">The rules of the game</h2>
+<p class="sub">Seven lines. Everything else is on this page.</p>
+<ol><li class=""><span class="n" aria-hidden="true">1</span><div><b>Pick a task.</b><span>Each one takes about an hour.</span></div></li><li class=""><span class="n" aria-hidden="true">2</span><div><b>Send it in.</b><span>No account needed.</span></div></li><li class=""><span class="n" aria-hidden="true">3</span><div><b>We review it.</b><span>Every fact is checked against its source.</span></div></li><li class=""><span class="n" aria-hidden="true">4</span><div><b>Good work is published</b><span>on PrompTugal.news, credited to you.</span></div></li><li class="open"><span class="n" aria-hidden="true">5</span><div><b>It stays open.</b><span>What you send is published under CC BY 4.0: anyone can reuse it, with credit to you.</span></div></li><li class="priv"><span class="n" aria-hidden="true">6</span><div><b>Your name only if you say yes.</b><span>Your contact details stay private and are never published.</span></div></li><li class=""><span class="n" aria-hidden="true">7</span><div><b>No payment, for now.</b><span>This is a volunteer newsroom.</span></div></li></ol>
+<p class="foot"><span>CC BY 4.0 · PrompTugal.news</span></p>
+</section>

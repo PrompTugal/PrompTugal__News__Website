@@ -10,6 +10,18 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 20:36 UTC, 9 November (three-hourly report)
+
+Site v0.1.899 (25 releases since 17:36). Snapshot 2026-11-09T2037Z, 0 errors. Inbox: 4 unsigned feedback messages, not acted on.
+
+- **/contribute/: going, at Dinis's own word (20:20).**
+  - journalist@'s words are ready to place (bb7313e4).
+  - The sign-ups lane is live: write-only, sealed in the browser, drained hourly into the private CRM (19842d2b, `board/lanes/signups.json`).
+  - Building: dev@ and dev.pages@ (the page, the wall, the beta form) and designer@ (the infographic). Gate: security@.
+- **21 cultures in /app/:** a globe button, en-GB by default, Arabic right to left (ce907426). ontologist@ added data/translations/ and its schema (5c2edf40).
+- **security@ 20:05:** 37 commits clean. S32: the iOS conductor commits without a key. Relayed to conductor.b@.
+- **Vicky's desk:** S35 and S36 fixed after review; Ready, held for Vicky.
+
 ## Wake at 19:36 UTC, 9 November
 
 Site v0.1.891. Snapshot 2026-11-09T1937Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.

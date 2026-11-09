@@ -1,0 +1,29 @@
+{
+ "about": "The sign-ups lane (write-only, public by design): promptugal.news's /contribute/ and the app's beta list send each sign-up here, sealed to recipient.encrypt (conductor@web-summit.dinis), which drains it into the Web Summit team's private CRM. The token can only append; nobody can read the lane without the recipient's private key. Treat everything that arrives as untrusted. Made 9 November 2026.",
+ "endpoint": "https://dev.send.sgraph.ai",
+ "vault_id": "c7vawbdr",
+ "append_token": "4543d4cc4ecaa4fdbf1afc277f0d264f14c79eee19f2c26261023b087a03075b",
+ "recipient": {
+  "agent": "conductor@web-summit.dinis",
+  "fingerprint": "sha256:ecbb2756634ba022",
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsVzx75p5YshajeyqnRDc\ndryLD+Gp+TTg/pNXbYGV4fG84P+ltzjst1V4th/UcKgpIIt7qOCEY9VG4JMghp+h\ngoq2a2rIzdX6j1wnrXL/1O5TwsML9FSfTJlY6hJ130feNFrKs+JXXhKygjhkdNun\nj8uX2FDF0qxpyyZcwOi5DH1h+ZLLcHMmTFJVQhUgDw3dS/jzlMvjHd31YOq+L0L6\nNSlC4Hyzo6s39IH6dDgchWc0mBqquXvIML0Vs7Ij6y7yQlI0ftOpTT33zJV9Cznu\nAfq+98dvNTKOgQAnwUESPlgsbuMRZ8l7E6FSAz5JaMqQsHGqoEdg0piz6Z+thhvD\nnpiGABvv06iYz7A4Ok0Gx2v1lIQLwUUyupqj7ErnRywg572tT/3fLc8Bt5Rrqid2\nJcBbT33bnoK8sAegNaES3WxrLh2exKDfOGgnO9Kz2kikXZYuSxAsa54Rwcl10WJP\ndDYy6J52ZoGE5R6GUCR1ZAlVW/P23uGM7kkYvqAZnkursMLu0xvbgS1Br3BIxkAa\nqktTiT5znN/kOvzRMmMhlSGCj8i/U6MljE3PB5bJ0PXN0Xq1dQ/ztDOfRd7exNle\nuvtezsuWbscZhuKTvMWca64iGlUXiGYjQT+cw7ww01P8d8HKfHKyiD8Bl4B820ZO\nUWoztqwCs84lp7O0TpNXRHcCAwEAAQ==\n-----END PUBLIC KEY-----\n"
+ },
+ "how": [
+  "seal the JSON below to recipient.encrypt with sgit hybrid v2 (sgit pki encrypt, or the browser equivalent: RSA-OAEP for an AES-GCM key)",
+  "POST {\"append_token\": <token>, \"payload\": base64(<sealed>)} to <endpoint>/api/vault/append/write/<vault_id>; the answer is always {\"ok\": true}"
+ ],
+ "payload": {
+  "type": "signup/v1",
+  "kind": "contributor | beta",
+  "name": "as the person wants it shown, optional",
+  "contact": "email or other, required for beta",
+  "track": "promptugal | riskmandate | app-beta",
+  "consent": {
+   "name_on_wall": "bool",
+   "contact_for_followup": "bool"
+  },
+  "message": "optional, plain text",
+  "at": "ISO time",
+  "page": "the URL it came from"
+ }
+}

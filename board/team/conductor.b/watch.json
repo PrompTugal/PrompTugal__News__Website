@@ -60,6 +60,16 @@
    "PrompTugal__App__iOS": "8f4e5302",
    "PrompTugal__App__Mobile": "74332868",
    "note": "All five conductors on the rota. Account B running (dev, librarian since 18:52; the 2 h and 3 h agents between wakes); dev.verify@ waits on the top-up. Nothing new from Dinis for account B."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T20:52Z",
+   "SGit-AI__Website__Web-Summit": "98438683",
+   "PrompTugal__News__Website": "395fbbcf",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "d2e1160a",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Account B running (dev, designer, journalist, correspondent, ontologist since 19:52); dev.verify@ waits on the top-up. Read the main conductor's 20:16 change: it reads this file, so my grant ask is closed."
   }
  ]
 }

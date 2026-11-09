@@ -5,7 +5,7 @@
   "title": "Web Summit's press conferences, day by day: what is announced and when",
   "beat": "The summit",
   "topic": null,
-  "status": "review",
+  "status": "ready",
   "rests_on": [
     "evidence:v-session-spotlight-paraiba-press",
     "evidence:v-session-ceo-press-conference",
@@ -32,13 +32,13 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S35.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-09"
     }
   ],
   "article": null,
-  "next": "the writer answers the review",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
@@ -53,7 +53,7 @@
       "file": "desks/journalist-vicky/drafts/S35-press-conferences-day-by-day.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-09",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S35.md"

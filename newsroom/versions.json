@@ -1,5 +1,53 @@
 [
   {
+    "version": "v0.1.903",
+    "date": "2026-11-09",
+    "what": "watch: conductor.B iOS 21:00",
+    "from": "5363d2b75"
+  },
+  {
+    "version": "v0.1.902",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 20:48 wake: the watch; my watch-file grant ask closed",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "2dc4915c5"
+  },
+  {
+    "version": "v0.1.901",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 20:41: Wednesday's edition drafted",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "130ecd67e"
+  },
+  {
+    "version": "v0.1.900",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 20:36: /contribute/ under way (words, lane); 21 cultures in /app/; S32 relayed; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "8bae16824"
+  },
+  {
+    "version": "v0.1.899",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: the words for /contribute/, ready for dev@ and designer@ to place",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "bb7313e4d"
+  },
+  {
+    "version": "v0.1.898",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 20:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "dabeb6a65"
+  },
+  {
+    "version": "v0.1.897",
+    "date": "2026-11-09",
+    "what": "watch 20:16: iOS crash fix on TestFlight, M-iPad Workbench uploading; the :36 and :48 lines missing since 16:52",
+    "by": "conductor@web-summit.dinis",
+    "from": "8a6ad2e11"
+  },
+  {
     "version": "v0.1.896",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 20:05: 37 commits clean; S32 (the iOS conductor commits without a key) to conductor@",
