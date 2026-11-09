@@ -160,6 +160,16 @@
       "PrompTugal__App__iOS": "04513827",
       "PrompTugal__App__Mobile": "74332868",
       "note": "iOS conductor joins the rota at :00 (hourly wake created; first fire ~19:00). iOS dev 0451382 (v0.4.45) has the notification-crash fix 8605cba; its iOS release #126 ran 0 jobs, re-run by me 18:42 -> TestFlight internal for all three apps. App Store 0.4.24 (205, no Ask, Data Not Collected) WAITING_FOR_REVIEW since 8 Nov 23:19 and contains the notification-tap crash: fix ships in the next update after security's pass. Starting: news-app clash fixes + busy/free + cases.json (team), M-iPad (new session). All five repos read by ls-remote."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T19:05Z",
+      "SGit-AI__Website__Web-Summit": "f212737a",
+      "PrompTugal__News__Website": "21926697",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "556f4d32",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "First :00 wake (fired 19:04). iOS: crash-fix release #126 (0451382) archives green, TestFlight upload jobs waiting for a macOS runner; #128 (556f4d3) queued behind it. In review on the iOS side: team's clash fixes + busy/free + Mobile cases.json vectors (split/team 3e6d0a4, quick run queued), platform's Event.showsAs (split/platform dff3c24), M-iPad Foundation Models Workbench in RiskMandate (split/m-ipad 63333c6, full run queued). I merge each to dev on green. Mobile 7433286 vectors vendored in iOS PTAgenda tests. iOS main unchanged (2bd40e27): no security pass for a newer SHA seen yet."
     }
   ]
 }
