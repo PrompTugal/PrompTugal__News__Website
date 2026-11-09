@@ -2700,6 +2700,60 @@
      "file": "2026-11-09T1554Z/newsroom-desktop.jpg"
     }
    ]
+  },
+  {
+   "stamp": "2026-11-09T1637Z",
+   "version": "v0.1.868",
+   "shots": [
+    {
+     "page": "front",
+     "url": "/",
+     "viewport": "desktop",
+     "file": "2026-11-09T1637Z/front-desktop.jpg"
+    },
+    {
+     "page": "front",
+     "url": "/",
+     "viewport": "phone",
+     "file": "2026-11-09T1637Z/front-phone.jpg"
+    },
+    {
+     "page": "articles",
+     "url": "/articles/",
+     "viewport": "desktop",
+     "file": "2026-11-09T1637Z/articles-desktop.jpg"
+    },
+    {
+     "page": "companies",
+     "url": "/companies/",
+     "viewport": "desktop",
+     "file": "2026-11-09T1637Z/companies-desktop.jpg"
+    },
+    {
+     "page": "people",
+     "url": "/people/",
+     "viewport": "desktop",
+     "file": "2026-11-09T1637Z/people-desktop.jpg"
+    },
+    {
+     "page": "portugal",
+     "url": "/portugal/",
+     "viewport": "desktop",
+     "file": "2026-11-09T1637Z/portugal-desktop.jpg"
+    },
+    {
+     "page": "graph",
+     "url": "/graph/",
+     "viewport": "desktop",
+     "file": "2026-11-09T1637Z/graph-desktop.jpg"
+    },
+    {
+     "page": "newsroom",
+     "url": "/newsroom/",
+     "viewport": "desktop",
+     "file": "2026-11-09T1637Z/newsroom-desktop.jpg"
+    }
+   ]
   }
  ],
  "vault": {
