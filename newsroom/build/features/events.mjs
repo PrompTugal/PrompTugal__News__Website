@@ -1,7 +1,7 @@
 // Events (brief 6): every event in data/events/, the official programme (organiser web-summit) and the others
 // (side events, Portugal Tech Week, conferences elsewhere in Portugal), clearly apart, by day; a page per event with
 // its people, its organisations and companies, its place, its source.
-import { stripMd, STRIP_DAYS } from './agenda.mjs'
+import { stripMd, STRIP_DAYS, rank } from './agenda.mjs'
 import { refLink, sourceLine, timeText, dataLinks, plural, day10, slotLine, slotList, shortDay } from '../lib/present.mjs'
 import { companiesOfEvent } from '../lib/graph.mjs'
 const weekTop = (ctx, rel) => {
@@ -20,9 +20,16 @@ export const ORGANISER = { 'web-summit': 'Web Summit (the official programme)', 
 function line(ctx, rel, e) {
     return slotLine(ctx, rel, e, { day: false, extra: [KIND[e.kind] || e.kind] })
 }
+// the week as an overview (the conductor's brief 5, designer@: /events/ was 40 phone screens): on each day of the strip the few that matter
+// most, then the way to that day's page; any other date lists in full
+const OVERVIEW = 3
 function byDay(ctx, rel, list) {
     const days = [...new Set(list.map(e => e.date))].sort()
-    return days.map(d => { const on = list.filter(e => e.date === d).sort((a, b) => sortKey(a).localeCompare(sortKey(b))); return `### ${ctx.DAY(d)} {#${list[0].organiser}-${d}}\n\n${slotList(on.map(e => line(ctx, rel, e)))}` }).join('\n\n')
+    return days.map(d => {
+        const on = list.filter(e => e.date === d).sort((a, b) => sortKey(a).localeCompare(sortKey(b))), fold = STRIP_DAYS.includes(d) && on.length > OVERVIEW + 1
+        const shown = fold ? [...on].sort((a, b) => rank({ kind: a.kind, what: a.title }) - rank({ kind: b.kind, what: b.title }) || sortKey(a).localeCompare(sortKey(b))).slice(0, OVERVIEW).sort((a, b) => sortKey(a).localeCompare(sortKey(b))) : on
+        return `### ${ctx.DAY(d)} {#${list[0].organiser}-${d}}\n\n${slotList(shown.map(e => line(ctx, rel, e)))}` + (fold ? `\n\n{.more-line}\n[All ${on.length} on ${ctx.DAY(d)}](${ctx.link(rel, `days/${d}/index.html`)})` : '')
+    }).join('\n\n')
 }
 
 function eventPage(ctx, e) {

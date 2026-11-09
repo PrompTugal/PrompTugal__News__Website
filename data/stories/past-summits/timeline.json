@@ -225,6 +225,19 @@
       ]
     },
     {
+      "at": "2024-04-08",
+      "what": "Web Summit's co-founder returns as chief executive, six months after resigning and a month after his successor left for NPR.",
+      "kind": "change",
+      "about": [
+        "organisation:web-summit"
+      ],
+      "source": "rte-2024-04-08-cosgrave-returns",
+      "claim": [
+        "c56",
+        "c57"
+      ]
+    },
+    {
       "at": "2024-11-19",
       "what": "Web Summit's 2023 accounts are filed: a pretax loss of 5.6m euro on revenue of 60m euro, and more than 128,000 attendees across its events.",
       "kind": "publication",

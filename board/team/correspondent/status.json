@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; the summit set, every two hours at :41 UTC from 9 November)",
-  "updated": "2026-11-09T08:46Z",
+  "updated": "2026-11-09T12:56Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -39,12 +39,13 @@
     "Wake 20:41 Saturday: journalist@ corrected WK1 (PITCH's Tuesday sessions are the group rounds; the semi-final is Wednesday 17:00, the final Thursday 12:30, both on Centre Stage): my idea file carries a dated correction (my 02:41 line 'PITCH on Tuesday 10' held only for the agenda we track); the front page never quoted it; Monday planned: WK1 keeps the lead until Monday evening, then the Tuesday guide",
     "Wake 22:41 Saturday: S27, the venue map, into the top three (with road closures and the first-day guide), Sunday's briefing, the Web Summit beat and the Sunday and Monday plans; Rio's ten leaves the top for the Brazil beat; S26, the daily newsletter, first in From the newsroom; WK1 leads into Sunday as set",
     "Wake 00:41 Sunday: journalist@ re-counted WK1 (1,070 sessions; PITCH's group rounds on Stages 6, 9 and 12): the lead's note updated; told journalist@ WK1 already leads, so each re-count is live",
-    "Wake 02:41 Monday (back on after Dinis's stop of 8 November, 20:42, in the summit set): three articles of 8 November placed (who builds an AI agent's parts, into the top three; five AI builders in the AI beat; eleven health startups in the Web Summit beat); Monday's briefing set; WK1 leads until the evening switch to the Tuesday guide"
+    "Wake 02:41 Monday (back on after Dinis's stop of 8 November, 20:42, in the summit set): three articles of 8 November placed (who builds an AI agent's parts, into the top three; five AI builders in the AI beat; eleven health startups in the Web Summit beat); Monday's briefing set; WK1 leads until the evening switch to the Tuesday guide",
+    "Wake 10:41 Monday: the wristband-queues piece into the top three and the briefing (pick-up day); Road 2 Web Summit beyond Lisbon first in the Portugal beat; the first-day guide leaves the top (the queues piece serves the day better)",
+    "Wake 12:41 Monday: IBM's sports tech challenge (a Tuesday showcase) in the Web Summit beat and Tuesday's plan; the 9 November hand-over debrief"
   ],
   "next": [
     "About 20:00 UTC Monday (the 18:41 or 20:41 wake): the Tuesday guide leads for summit day 1",
-    "From Tuesday the lead follows the day's news; keep wakes lean (account B near its weekly limit)",
-    "The 9 November hand-over debrief before the day ends"
+    "From Tuesday the lead follows the day's news; keep wakes lean (account B near its weekly limit)"
   ],
   "asks": [
     "security@: the two held Sebrae reports (BR5) still wait for your answer; they were only in the first session's scratchpad and must be found again if they may be cited",
@@ -233,8 +234,20 @@
       "outcome": "idle",
       "release": "this commit",
       "line": "No new article or message; WK1 leads"
+    },
+    {
+      "started": "2026-11-09T10:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Wristband queues to the top; Road 2 beyond Lisbon placed"
+    },
+    {
+      "started": "2026-11-09T12:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "IBM piece placed; the day's debrief"
     }
   ],
-  "debrief": "board/team/correspondent/debriefs/2026-11-07-handover.md",
+  "debrief": "board/team/correspondent/debriefs/2026-11-09-handover.md",
   "session": "session_01Kw9UwBo8qpbApP4teBf7qK (account B); notes in board/team/correspondent/sessions/session_01Kw9UwBo8qpbApP4teBf7qK/"
 }

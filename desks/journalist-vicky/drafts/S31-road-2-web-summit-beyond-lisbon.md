@@ -4,7 +4,7 @@ date: 2026-11-09
 story: S31
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: Startup Portugal's Road 2 Web Summit class of 2026 has 78 startups from 14 places. Lisbon has 41; the other 37 come from Porto, Braga, Aveiro, the Azores, Madeira and smaller cities, building everything from drone detection to airborne wind power.
-status: ready
+status: published
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: [Portugal, Road 2 Web Summit, Startup Portugal, startups, regions, Porto, Braga, Azores, Madeira]

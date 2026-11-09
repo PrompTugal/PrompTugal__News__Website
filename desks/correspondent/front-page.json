@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-09T02:50Z",
+  "updated": "2026-11-09T12:50Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "plan-your-week-by-field",
@@ -9,16 +9,16 @@
   },
   "top": [
     {
+      "article": "web-summit-wristband-queues",
+      "why": "New (9 November): where and when the wristband queues are short, on the day to pick one up before Tuesday's first morning."
+    },
+    {
       "article": "who-builds-the-parts-of-an-ai-agent",
-      "why": "New (8 November): eight startups on Web Summit's featured list, by the part of an agent each builds (framework, data, compute, identity, rules): the lens of this edition, the day before the summit opens."
+      "why": "Eight startups by the part of an agent each builds: the edition's lens."
     },
     {
       "article": "venue-map",
       "why": "S27: the buildings and the sessions in each; for Opening Night and Tuesday."
-    },
-    {
-      "article": "your-first-day-at-web-summit",
-      "why": "Registration continues today; Opening Night at 18:00."
     }
   ],
   "service": {
@@ -35,6 +35,7 @@
       "beat": "Web Summit",
       "articles": [
         "plan-your-week-by-field",
+        "web-summit-wristband-queues",
         "your-first-day-at-web-summit",
         "venue-map",
         "driving-to-web-summit",
@@ -42,7 +43,8 @@
         "web-summit-2026-in-numbers",
         "gender-in-tech-report-2026",
         "web-summit-before-2026",
-        "health-startups-by-problem"
+        "health-startups-by-problem",
+        "ibm-sports-tech-challenge"
       ]
     },
     {
@@ -61,6 +63,7 @@
     {
       "beat": "Portugal",
       "articles": [
+        "road-2-web-summit-beyond-lisbon",
         "octo-health-launches",
         "pineapple-waste-to-fish-feed",
         "from-pitch-to-new-markets",
@@ -211,6 +214,7 @@
         "know": "Opening Night 18:00 to 20:00; the delegations' meet and greets (UK, Iberia) from 20:00; registration all day.",
         "lead": "plan-your-week-by-field until Monday evening (the planning piece still serves on Opening Night day); from about 20:00 UTC the Tuesday guide, tuesday-10-november-three-ways-in, leads for the first summit day",
         "also": [
+          "web-summit-wristband-queues",
           "who-builds-the-parts-of-an-ai-agent",
           "venue-map",
           "your-first-day-at-web-summit",
@@ -228,7 +232,8 @@
           "now and next",
           "the day's sessions on AI agents read through reach, mandate and gap",
           "brazils-startup-house-in-lisbon",
-          "brazil-on-the-stages"
+          "brazil-on-the-stages",
+          "ibm-sports-tech-challenge"
         ]
       },
       {
@@ -315,8 +320,8 @@
         "why": "where everything is"
       },
       {
-        "article": "driving-to-web-summit",
-        "why": "roads closed around the venue"
+        "article": "web-summit-wristband-queues",
+        "why": "pick up your wristband today"
       },
       {
         "article": "who-builds-the-parts-of-an-ai-agent",

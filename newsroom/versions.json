@@ -1,5 +1,222 @@
 [
   {
+    "version": "v0.1.841",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 12:41: IBM's sports tech challenge placed; the 9 November debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "2ed67a379"
+  },
+  {
+    "version": "v0.1.840",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: /events/ passes as the week's overview; the brief's pages all pass but past days",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1e6ded2b1"
+  },
+  {
+    "version": "v0.1.839",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: summit-week checks rerun, nothing to change",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "52d97a49b"
+  },
+  {
+    "version": "v0.1.838",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 12:08: /events/ as the week's overview from dev.pages@; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "082f635e1"
+  },
+  {
+    "version": "v0.1.837",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 11:52: three relayed briefs filed, awaiting Dinis's confirmation; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "07e1d93fe"
+  },
+  {
+    "version": "v0.1.836",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: the authority-checks draft: what speed bought, and why it was safe here (the newspaper versus the vaults)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "9e5845ee4"
+  },
+  {
+    "version": "v0.1.835",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "7094bb197"
+  },
+  {
+    "version": "v0.1.834",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "5734e8f3a"
+  },
+  {
+    "version": "v0.1.833",
+    "date": "2026-11-09",
+    "what": "Dinis's voice brief, 9 Nov 11:25: PKI on everything, the live picture, agents' life cycle, the intranet (WS-202)",
+    "by": "conductor@web-summit.dinis",
+    "from": "e8b60319f"
+  },
+  {
+    "version": "v0.1.832",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "983bc6846"
+  },
+  {
+    "version": "v0.1.831",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: Persona back to fix (standing answer 26): its About rests only on Wikipedia",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "cb0cbddae"
+  },
+  {
+    "version": "v0.1.830",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 11:08: lean; dev.data@'s S9 claims; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "01f7126b5"
+  },
+  {
+    "version": "v0.1.829",
+    "date": "2026-11-09",
+    "what": "Dinis's voice brief, 9 Nov 11:10: we are the power users; where is everybody first (WS-201)",
+    "by": "conductor@web-summit.dinis",
+    "from": "582274459"
+  },
+  {
+    "version": "v0.1.828",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: hand-over debrief of 9 November; the 10:55 relay marked unconfirmed in my asks",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "89c49a972"
+  },
+  {
+    "version": "v0.1.827",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: status: Dinis's 10:55 word settles S25/S30, outreach and the names; four asks left",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "fb8a9d105"
+  },
+  {
+    "version": "v0.1.826",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: stand-up brief 5 (Monday 12:00); wake 10:52; /events/ length to dev.pages@",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "12c243019"
+  },
+  {
+    "version": "v0.1.825",
+    "date": "2026-11-09",
+    "what": "Dinis's guidance, 9 Nov 10:55: everyone trusted to push and publish, review each other, names end in .dinis, outreach parked",
+    "by": "conductor@web-summit.dinis",
+    "from": "3321f4c39"
+  },
+  {
+    "version": "v0.1.824",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: SA25 record: S24, S25 and S27 corrected (v0.1.823)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c360ee101"
+  },
+  {
+    "version": "v0.1.823",
+    "date": "2026-11-09",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "49ac9cb16"
+  },
+  {
+    "version": "v0.1.822",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: the summit's day pages pass; /events/ still one long page; an image for the wristband queues",
+    "by": "designer@PrompTugal.dinis",
+    "from": "ecf9cf084"
+  },
+  {
+    "version": "v0.1.821",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: lean wake; when to look for BR2's 2027 class on Tuesday",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "3ef7e45e5"
+  },
+  {
+    "version": "v0.1.820",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: brief, the on-device LLM next (iPad, workbench, models judging models, shared mobile repo), from Dinis's words",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "bbc66ab17"
+  },
+  {
+    "version": "v0.1.819",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 10:08: lean; the list pages pass designer@'s check; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "768525f93"
+  },
+  {
+    "version": "v0.1.818",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 10:05: 21 commits clean, S31 closed",
+    "by": "security@PrompTugal.dinis",
+    "from": "03ae8ef78"
+  },
+  {
+    "version": "v0.1.817",
+    "date": "2026-11-09",
+    "what": "librarian@PrompTugal.dinis: wake 09:56: the 48 Later ideas against their triggers; the press pass is due today; catalogue v0.1.816",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "0c94ebaef"
+  },
+  {
+    "version": "v0.1.816",
+    "date": "2026-11-09",
+    "what": "checker@PrompTugal.vicky: seventh check: WK1's re-count checks out, its PITCH winner finding still open; Angelo's wristband article clean",
+    "by": "checker@PrompTugal.vicky",
+    "from": "00e5ee518"
+  },
+  {
+    "version": "v0.1.815",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 09:30 wake: Companies and the day pages re-measured (v0.1.814): both pass for the reader",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "fcc835525"
+  },
+  {
+    "version": "v0.1.814",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 09:08: D5 from dev.pages@, the 9 November debrief; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "30f04ec50"
+  },
+  {
+    "version": "v0.1.813",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 09:08 wake: twelve running; ledger; idle workers put to Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "3c8a243ff"
+  },
+  {
+    "version": "v0.1.812",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 08:52: the list pages pass L1 to L6; day pages live; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "43aed5da0"
+  },
+  {
+    "version": "v0.1.811",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "56170db75"
+  },
+  {
     "version": "v0.1.810",
     "date": "2026-11-09",
     "what": "correspondent@PrompTugal.dinis: wake 08:41: idle; WK1 leads",
