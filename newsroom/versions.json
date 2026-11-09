@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.795",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "1bfd1acaa"
+  },
+  {
     "version": "v0.1.794",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: the gate's contact check covers all of board/ (security@'s S21)",
