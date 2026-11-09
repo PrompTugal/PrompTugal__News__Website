@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.854",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 14:52: shows_as live; L4 and D1 done; five relayed asks wait on Dinis's confirmation; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c675107ef"
+  },
+  {
     "version": "v0.1.853",
     "date": "2026-11-09",
     "what": "brief, the news app on the web (a phone pane beside the news, resizable, installable, the schedule, location, a private beta list), at Dinis's word",
