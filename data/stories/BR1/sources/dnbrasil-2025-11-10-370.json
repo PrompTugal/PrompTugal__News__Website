@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "dnbrasil-2025-11-10-370",
+  "story": "BR1",
+  "url": "https://dnbrasil.dn.pt/web-summit-brasil-chega-com-mais-de-370-startups-e-programao-intensa",
+  "title": "Web Summit. Brasil chega com mais de 370 startups e programacao intensa (DN Brasil, 10 November 2025)",
+  "publisher": "DN Brasil",
+  "published": "2025-11-10",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "DN Brasil reports more than 370 Brazil-based startups at Web Summit 2025 and 151 participants selected by ApexBrasil."
+}
