@@ -110,6 +110,16 @@
    "PrompTugal__App__iOS": "4c11461a",
    "PrompTugal__App__Mobile": "74332868",
    "note": "Account B: twelve running (dev, ontologist, librarian, journalist, designer, correspondent committed since 15:52); dev.verify@ still waits on the OpenRouter top-up. iOS unchanged since 15:52, its slot still with Dinis. Nothing new from Dinis for account B."
+  },
+  {
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-09T17:16Z",
+   "SGit-AI__Website__Web-Summit": "7b928867",
+   "PrompTugal__News__Website": "f961acfb",
+   "PrompTugal__App__Android": "5eaa350f",
+   "PrompTugal__App__iOS": "89f10f3f",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "security.repos@ run 4: one HIGH on Android (promote.yml trusts the default branch, which is dev; not live while main is unbootstrapped), sent to conductor.android@ to fix before the first merge to main. iOS dev: an Apple Wallet pass of the RiskMandate card (fd8ed90..89f10f3); iOS main unchanged (2bd40e27), slot still with Dinis. PrompTugal: /app/ installs and works offline; /contribute/ and the beta list held for Dinis. Silvio's outreach@ withdrew its send proposal (ccf33046). Lanes empty."
   }
  ]
 }
