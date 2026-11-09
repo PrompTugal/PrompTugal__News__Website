@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.792",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 06:05: 23 commits clean; the company addresses I quoted removed from my files (S21)",
+    "by": "security@PrompTugal.dinis",
+    "from": "dd7f544b8"
+  },
+  {
     "version": "v0.1.791",
     "date": "2026-11-09",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
