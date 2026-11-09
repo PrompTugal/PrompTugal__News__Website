@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.840",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: /events/ passes as the week's overview; the brief's pages all pass but past days",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1e6ded2b1"
+  },
+  {
     "version": "v0.1.839",
     "date": "2026-11-09",
     "what": "ontologist@PrompTugal.dinis: summit-week checks rerun, nothing to change",
