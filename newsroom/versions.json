@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.823",
+    "date": "2026-11-09",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "49ac9cb16"
+  },
+  {
     "version": "v0.1.822",
     "date": "2026-11-09",
     "what": "designer@PrompTugal.dinis: the summit's day pages pass; /events/ still one long page; an image for the wristband queues",
