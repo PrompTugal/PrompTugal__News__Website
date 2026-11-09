@@ -44,13 +44,19 @@ export function parseSpeaker(s) {
 }
 
 // shows_as (the iOS app's request via conductor@, 9 November): "free" for presence events, which a calendar must not
-// count as a clash (registration, the summit and its opening nights, festivals, programmes such as a stand, competitions,
-// conferences, all-day or multi-day events, anything over two hours); "busy" for the rest (talks, panels, workshops).
+// count as a clash; "busy" for the rest (talks, panels, workshops). Agrees with the apps' shared schedule rules
+// (PrompTugal/PrompTugal__App__Mobile formats/schedule-rules/rules.json at 7433286: the free title patterns and the
+// 180-minute threshold), plus what our data knows and a title cannot: the kind (registration, the summit and its
+// opening nights, festivals, programmes, competitions, conferences), all_day and a multi-day span.
 const FREE_KINDS = new Set(['registration', 'summit', 'festival', 'programme', 'competition', 'conference'])
+const FREE_TITLE = ['registration', 'badge pick', 'opening night', 'opening party', 'start of the show', 'start-of-the-show', 'doors open', 'venue open', 'venue hours', 'all day', 'all-day']
+const FREE_MIN_MINUTES = 180
 export function showsAs(e) {
     if (FREE_KINDS.has(e.kind) || e.all_day === true || (e.end_date && e.end_date !== e.date)) return 'free'
+    const title = String(e.title || '').toLowerCase()
+    if (FREE_TITLE.some(p => title.includes(p))) return 'free'
     const m = String(e.time || '').match(/^(\d{2}):(\d{2})-(\d{2}):(\d{2})$/)
-    if (m) { let d = (+m[3] * 60 + +m[4]) - (+m[1] * 60 + +m[2]); if (d < 0) d += 1440; if (d > 120) return 'free' }
+    if (m) { let d = (+m[3] * 60 + +m[4]) - (+m[1] * 60 + +m[2]); if (d < 0) d += 1440; if (d >= FREE_MIN_MINUTES) return 'free' }
     return 'busy'
 }
 const timeParts = t => { const m = String(t || '').match(/^(\d{2}:\d{2})-(\d{2}:\d{2})$/); return m ? { start: m[1], end: m[2] } : { start: null, end: null } }
@@ -172,7 +178,7 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
             our_pick: it.kind === 'team-pick' || /team's data\/events\.json/.test(it.via || ''),
             date: it.date, time: it.time || null, start, end,
             ...(it.all_day === true ? { all_day: true } : {}),
-            shows_as: showsAs({ kind, all_day: it.all_day, date: it.date, end_date: it.end_date, time: it.time }),  // only when the agenda says so; a null time without it is 'time to be confirmed' (synthetic@'s F60)
+            shows_as: showsAs({ kind, title: it.what, all_day: it.all_day, date: it.date, end_date: it.end_date, time: it.time }),  // only when the agenda says so; a null time without it is 'time to be confirmed' (synthetic@'s F60)
             where: it.where || null, place, track,
             part_of: null,
             organised_by: organiser === 'web-summit' ? 'organisation:web-summit' : null,
