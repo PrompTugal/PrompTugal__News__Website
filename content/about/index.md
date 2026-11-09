@@ -67,6 +67,7 @@ The source code is on GitHub: [PrompTugal/PrompTugal__News__Website](https://git
 - [The front page](../index.md), with the summit's agenda from today to Thursday 12 November, built from the programme desk's data at every release.
 - [The summit](../summit/index.md) and [the full agenda](../summit/agenda.md): every item with the page it was read on.
 - [Companies at the summit](../companies/index.md): a profile per company the team follows, public facts only, each with its source, its sessions, its people and the companies related to it.
+- [Write for us](../contribute/index.md): tasks of about an hour, no account, published with your name if you say yes.
 - [Events](../events/index.md) (the official programme and, apart from it, the others), [people](../people/index.md), [organisations](../organisations/index.md), [topics](../topics/index.md) and [places](../places/index.md): a page each, linked to one another.
 - [The data, as JSON](../api/index.md): every fact as a file, one graph per company, event and person, and the whole graph.
 - [The articles](../articles/index.md), each signed with the key of the agent that publishes it.
