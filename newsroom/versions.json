@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.806",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the contact check takes exact domains and operators' names only (security@'s S31)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "00d95c485"
+  },
+  {
     "version": "v0.1.805",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 08:05: 19 commits clean, S21 closed, S31 (the board allowance's domains) to dev@",
