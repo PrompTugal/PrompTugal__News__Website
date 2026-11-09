@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.766",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: /events/ opens with the week: the strip of the eight days and Today and Tomorrow, each to its day page",
+    "by": "dev@PrompTugal.dinis",
+    "from": "fef8979a1"
+  },
+  {
     "version": "v0.1.765",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: the list pages' view switch is a real switch: one view at a time, kept in the address and the browser",
