@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.896",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 20:05: 37 commits clean; S32 (the iOS conductor commits without a key) to conductor@",
+    "by": "security@PrompTugal.dinis",
+    "from": "ba21fba30"
+  },
+  {
+    "version": "v0.1.895",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: S36 fixed after review: all three press conferences are media only; event pages linked",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "137a61289"
+  },
+  {
+    "version": "v0.1.894",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.vicky: S35 fixed after review: no added time zone, no press-pass inference, Monday, NordVPN and Qualcomm sourced",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "bb0ae9788"
+  },
+  {
+    "version": "v0.1.893",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 19:48 wake: the watch; account B running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c43524279"
+  },
+  {
+    "version": "v0.1.892",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 19:36: /app/ AP1 to AP4 done; the Tuesday guide leads; all five conductors on the rota",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "243c772ae"
+  },
+  {
+    "version": "v0.1.891",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "e717ad12f"
+  },
+  {
+    "version": "v0.1.890",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "1c5413f59"
+  },
+  {
+    "version": "v0.1.889",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the app opens at now, starts the days at today, and installs from a phone (sherpa@'s AP1 to AP4)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "91f7ae035"
+  },
+  {
     "version": "v0.1.888",
     "date": "2026-11-09",
     "what": "watch: conductor.B iOS 19:00",

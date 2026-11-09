@@ -2,18 +2,18 @@
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
   "state": "running on account B (session 2d7ed5e8), every two hours at :31 UTC, back on from 9 Nov at Dinis's word (board/guidance/2026-11-09-the-summit-set.md); past summits and S9 in progress",
-  "updated": "2026-11-09T16:55Z",
+  "updated": "2026-11-09T18:55Z",
   "done": [
-    "Wake 08:31 (9 Nov): merged dev cleanly, no hold; hand-over debrief for 9 Nov written; past-summits +1 source (RTE, 8 Apr 2024: the founder returns as chief executive after his successor left for NPR), claims c56 to c58 quote-checked, 1 timeline event; gate OK (v0.1.808). 18 sources, 58 claims. Still no free-to-read report on the Lisbon 2024 edition itself or on 2025",
     "Wake 10:31 (9 Nov): merged dev cleanly, no hold; dev@ brought my branch's work onto dev. S9 blocks.json claims refined for three blocks: the in-short list and the does-not-claim list now cite every claim their items rest on, and the article's own suggestion paragraph no longer carries claims (it is the article's opinion); the other blocks stay per section. Gate OK (v0.1.821)",
     "Wake 12:31 (9 Nov): merged dev cleanly, no hold. Found the 2025 source I could not find by search: the WS177 article cites AICEP (12 Nov 2025). Past-summits +1 source (AICEP Portugal Global, in Portuguese: record 71,386 participants from 157 countries, 1,857 investors, 2,725 startups), claims c59 to c62 quote-checked in the original Portuguese, entity for Lisbon 2025, 1 timeline event, 1 graph edge; gate OK (v0.1.839). 19 sources, 62 claims. Survey: of about 50 stories, only S9 and past-summits have data folders; the rest have only story.json",
     "Wake 14:31 (9 Nov): merged dev cleanly, no hold. First of the missing story folders: data/stories/BR3 (Rio sends ten startups to Lisbon): 3 sources fetched afresh in Portuguese, 9 claims with exact quotes checked against the pages (replacing S9's weaker one-word quotes for the same facts), 10 + 4 entities, 4 timeline events, 21 graph edges (invest-rio and maravalley send a delegation, Gol funds and the ten attend); gate OK (v0.1.851)",
-    "Wake 16:31 (9 Nov): merged dev cleanly, no hold. Second missing story folder: data/stories/BR1 (How many Brazilian startups came last year?): 5 sources fetched afresh (Startups.com.br, DN Brasil, Forbes Portugal, and the two ApexBrasil PDFs read with pdftotext), 10 claims with exact Portuguese quotes checked against the pages (340, 256+84, 226, 123, more than 370, 151, 85+100, 80, 247, and 'quase 380' in one PDF against '380' in the other), 2 entities, 3 timeline events, no graph (no honest edge); gate OK (v0.1.868)"
+    "Wake 16:31 (9 Nov): merged dev cleanly, no hold. Second missing story folder: data/stories/BR1 (How many Brazilian startups came last year?): 5 sources fetched afresh (Startups.com.br, DN Brasil, Forbes Portugal, and the two ApexBrasil PDFs read with pdftotext), 10 claims with exact Portuguese quotes checked against the pages (340, 256+84, 226, 123, more than 370, 151, 85+100, 80, 247, and 'quase 380' in one PDF against '380' in the other), 2 entities, 3 timeline events, no graph (no honest edge); gate OK (v0.1.868)",
+    "Wake 18:31 (9 Nov): merged dev cleanly, no hold. Third missing story folder: data/stories/BR2 (Brazil's startup house in Lisbon): 3 sources fetched afresh (Startups.com.br 2025, DN Brasil 2026, IOL 2026), 10 claims with exact Portuguese quotes checked against the pages, 3 entities, 3 timeline events, no graph; gate OK (v0.1.879). Folders now: S9, BR1, BR2, BR3, past-summits"
   ],
   "next": [
-    "Data folders for the other published Brazil stories: BR2, BR4, BR6, S19, then WS177 and S13 (backed by past-summits)",
+    "Data folders for the other published Brazil stories: BR4, BR6, S19, then WS177 and S13 (backed by past-summits)",
     "Consider tightening S9's claims c21 to c23 (one-word quotes) from BR3's checked ones",
-    "next debrief on 10 Nov"
+    "hand-over debrief for 10 Nov (due)"
   ],
   "asks": [
     "Dinis: my inbox lane still points at my old key (board/inboxes/dev.data.json, updated 6 Nov 07:54); conductor.b@ and conductor@ asked at 23:12, not yet reissued. I cannot drain until it is."

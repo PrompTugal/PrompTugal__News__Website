@@ -40,7 +40,7 @@
     function mine() { var ids = load().picks.map(function (p) { return p.id }), out = []; DAYS.forEach(function (d) { d.items.forEach(function (i) { if (ids.indexOf(i.id) >= 0) out.push(i) }) }); return out }
 
     function row(i, clash) {
-        var s = span(i), li = el('li', 'pa-it' + (picked(i.id) ? ' on' : '') + (clash.length ? ' clash' : ''))
+        var s = span(i), li = el('li', 'pa-it' + (picked(i.id) ? ' on' : '') + (clash.length ? ' clash' : '') + (s[1] - s[0] > 180 ? ' long' : '')); li.setAttribute('data-end', s[1])
         var t = el('time', null, allDay(i) ? W.all_day : hm(s[0])), body = el('div'), a = el('a', null, i.title); a.href = rel(i.page); a.target = '_top'
         body.appendChild(a); body.appendChild(el('p', 'pa-meta', (i.kind ? i.kind + ' · ' : '') + (i.where || '') + (allDay(i) ? '' : ' · ' + (W.until || 'until') + ' ' + hm(s[1]))))
         if (clash.length) body.appendChild(el('p', 'pa-clash', (W.clash || 'Clashes with') + ' ' + clash.map(function (c) { return c.title }).join('; ')))
@@ -65,10 +65,27 @@
         nx.querySelector('.pa-next-w').textContent = i.where || ''
         nx.querySelector('.pa-dir').href = (apple ? 'https://maps.apple.com/?daddr=' : 'https://www.google.com/maps/dir/?api=1&destination=') + encodeURIComponent(i.where || 'Web Summit, Lisbon')
     }
+    // on today, the programme opens at now: what has ended is dimmed and the first that has not is brought to the top (AP1)
+    function toNow() {
+        var now = new Date(); if (st.day !== now.toISOString().slice(0, 10)) return
+        var m = now.getUTCHours() * 60 + now.getUTCMinutes(), first = null
+        list.querySelectorAll('.pa-it').forEach(function (li) { var e = +li.getAttribute('data-end'); if (e <= m) li.classList.add('past'); else if (!first && !li.classList.contains('long')) first = li })
+        if (first) first.scrollIntoView({ block: 'start' })
+    }
     function draw() {
         next()
         nav.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-d') === st.day ? 'true' : 'false') })
-        root.querySelectorAll('.pa-tabs button').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-tab') === st.tab ? 'true' : 'false') })
+        // the bar's button by context (sherpa@'s AP3, designer@'s spec): in the pane Full screen; installed, back to the news;
+    // on a phone in the browser, Install (the browser's own prompt where it offers one, else how to add it on an iPhone)
+    var inPane = window.top !== window, installed = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true, ask = null
+    var act = inPane ? '.pa-full' : installed ? '.pa-news' : innerWidth < 700 ? '.pa-install' : '.pa-news'
+    root.querySelector(act).hidden = false
+    if (!inPane && !installed && innerWidth >= 700) root.querySelector('.pa-news').textContent = W.back
+    addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); ask = e })
+    var sheet = root.querySelector('.pa-sheet')
+    root.querySelector('.pa-install').addEventListener('click', function () { if (ask) { ask.prompt(); ask = null } else sheet.hidden = false })
+    sheet.querySelector('[data-ok]').addEventListener('click', function () { sheet.hidden = true })
+    root.querySelectorAll('.pa-tabs button').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-tab') === st.tab ? 'true' : 'false') })
         var items = dayItems(st.day).slice().sort(function (a, b) { return span(a)[0] - span(b)[0] }), ids = load().picks.map(function (p) { return p.id })
         var picks = items.filter(function (i) { return ids.indexOf(i.id) >= 0 })
         var long = function (i) { var s = span(i); return s[1] - s[0] > 180 }  // all-day things (registration, the expo) clash with nothing
@@ -91,10 +108,13 @@
         st.day = ds.indexOf(today) >= 0 ? today : (ds.find(function (d) { return d > today }) || ds[ds.length - 1])
         DAYS.forEach(function (d) {
             var b = el('button', null, d.label.replace(/ November$/, '').replace(/^(\w{3})\w*/, '$1')); b.type = 'button'; b.setAttribute('data-d', d.date)
+            var n = ['2026-11-10', '2026-11-11', '2026-11-12', '2026-11-13'].indexOf(d.date); if (n >= 0) b.insertBefore(el('small', null, W.day_n + ' ' + (n + 1)), b.firstChild)
             if (d.date === today) b.className = 'today'
-            b.addEventListener('click', function () { st.day = d.date; draw() }); nav.appendChild(b)
+            b.addEventListener('click', function () { st.day = d.date; draw(); toNow() }); nav.appendChild(b)
         })
-        draw()
+        draw(); toNow()
+        // the days row opens on today (sherpa@'s AP2)
+        var on = nav.querySelector('[data-d="' + st.day + '"]'); if (on) nav.scrollLeft = Math.max(0, on.offsetLeft - 14)
     }
     root.querySelectorAll('.pa-tabs button').forEach(function (b) { b.addEventListener('click', function () { st.tab = b.getAttribute('data-tab'); draw() }) })
     q.addEventListener('input', function () { st.q = q.value; draw() })

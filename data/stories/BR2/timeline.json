@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "BR2",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "events": [
+    {
+      "at": "2025-11-12",
+      "what": "ApexBrasil and Sebrae name the first ten startups of the Lisbon incubation programme at Web Summit 2025.",
+      "kind": "selection",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups"
+      ],
+      "source": "startups-2025-11-12-incubator",
+      "claim": [
+        "c01",
+        "c03"
+      ]
+    },
+    {
+      "at": "2026-09-04",
+      "what": "ApexBrasil and Sebrae open the call for the 2027 cycle of the Lisbon incubation programme (applications to 18 September).",
+      "kind": "announcement",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups"
+      ],
+      "source": "dnbrasil-2026-09-04-incubation",
+      "claim": [
+        "c06",
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "at": "2026-11-10",
+      "what": "The startups selected for the Lisbon Incubation Programme are due to be announced at the Brazil Pavilion.",
+      "kind": "deadline",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "iol-brasil-chega-a-lisboa",
+      "claim": [
+        "c10"
+      ]
+    }
+  ]
+}

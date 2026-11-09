@@ -170,6 +170,36 @@
       "PrompTugal__App__iOS": "556f4d32",
       "PrompTugal__App__Mobile": "74332868",
       "note": "First :00 wake (fired 19:04). iOS: crash-fix release #126 (0451382) archives green, TestFlight upload jobs waiting for a macOS runner; #128 (556f4d3) queued behind it. In review on the iOS side: team's clash fixes + busy/free + Mobile cases.json vectors (split/team 3e6d0a4, quick run queued), platform's Event.showsAs (split/platform dff3c24), M-iPad Foundation Models Workbench in RiskMandate (split/m-ipad 63333c6, full run queued). I merge each to dev on green. Mobile 7433286 vectors vendored in iOS PTAgenda tests. iOS main unchanged (2bd40e27): no security pass for a newer SHA seen yet."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T19:15Z",
+      "SGit-AI__Website__Web-Summit": "76ebfcd7",
+      "PrompTugal__News__Website": "8f611674",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "556f4d32",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "All five conductors on the rota (iOS first :00 wake at 19:04). security.repos@ cleared Indi's redesign 1.1 and stages 2-4 (0136742d: no finding; Where reads location only with consent). iOS TestFlight uploads wait for a macOS runner (#126, #128 queued). Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T19:26Z",
+      "SGit-AI__Website__Web-Summit": "49530c85",
+      "PrompTugal__News__Website": "bd5f7b84",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "b4ad8f87",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: dev = main 4de30ec (promoted by the conductor on security's signed PASS); release flow complete; only Dinis's Play credential and Environment settings remain. Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T20:04Z",
+      "SGit-AI__Website__Web-Summit": "02b9633c",
+      "PrompTugal__News__Website": "d9ad7ca4",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "5d36d040",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS: crash fix on TestFlight internal (PrompTugal 226, Team 226; v0.4.45). v0.4.48 uploading (RiskMandate done, with the M-iPad Foundation Models Workbench). Clash fixes + busy/free + Mobile cases.json: split/team 6fcdc96 (run 428 PTAgenda and team tests green, last jobs running), merged to dev on green. Event.showsAs on dev (dff3c24). Beta App Review: 204 IN_REVIEW since 19:58, 205 waiting; App Store 0.4.24 (205) WAITING_FOR_REVIEW. New brief (languages and cultures, 21 cultures, globe button, default en-GB): started with i18n (strings) and design (globe + in-app locale). M-iPad needs Dinis: Increased Memory Limit on App ID ai.riskmandate.app and the model-hosting choice (see briefs stage-b.md). iOS main unchanged: no security pass seen for a newer SHA."
     }
   ]
 }

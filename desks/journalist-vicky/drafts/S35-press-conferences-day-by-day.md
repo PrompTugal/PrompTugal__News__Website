@@ -13,21 +13,21 @@ tags: the summit, press conferences, announcements, schedule
 ## In short
 
 - [Web Summit](../events/web-summit-lisbon-2026/index.html) lists 24 press conferences this week: 11 on Tuesday 10 November, 9 on Wednesday 11 and 4 on Thursday 12.
-- All are on Stage 2, in the Media Village. Every page says "Media event only", so attendees without a press pass cannot go in.
+- All are on Stage 2, in the Media Village. Every page says "Media event only".
 - They include Web Summit's own news on Tuesday at 12:30 and its CEO on Wednesday at 11:00, Discord's expansion in Lisbon on Wednesday at 10:30, and the Road 2 Web Summit winner on Thursday at 12:30.
-- Times are Lisbon time, which is UTC in November, and can change.
+- Times are as Web Summit lists them, and can change.
 
 ## The story
 
-Press conferences are where companies and organisers make news at Web Summit. This year they all take place on Stage 2, in the Media Village, and each lasts 20 minutes. Here is the week as Web Summit's session pages show it, read on Sunday evening. The titles are Web Summit's; nothing is known about what will be said beyond them.
+Press conferences are where companies and organisers make news at Web Summit. This year they all take place on Stage 2, in the Media Village, and each lasts 20 minutes. Here is the week as Web Summit's session pages show it, read on Monday 9 November. The titles are Web Summit's; nothing is known about what will be said beyond them.
 
 **Tuesday 10 November**
 
 - 10:30, PitchBook: "PitchBook Goes Free for Startups + New Platform for Finding Them First", with two of its chief officers.
 - 11:00, "Guardrails for Doomsday: Can AI be regulated?", with a founding partner, a Georgetown University professor and a former US Assistant Attorney General.
 - 11:30, RWS: a launch it calls "the world's first culturally intelligent content platform".
-- 12:00, "What do the US midterms tell us about the future of America?", with a University of Texas academic, a strategist for the Trump and Vance campaigns and others.
-- 12:30, Web Summit: "Web Summit Spotlight heads to Paraíba as part of four-year partnership", with Web Summit's CEO and the Brazilian state's science secretary.
+- 12:00, "What do the US midterms tell us about the future of America?", with a University of Texas academic, a strategist for the Trump and Vance campaigns, and the editor of Current Affairs.
+- 12:30, Web Summit: "Web Summit Spotlight heads to Paraíba as part of four-year partnership", with Web Summit's CEO, the Brazilian state's science secretary, and the heads of SEBRAE Paraíba and FAPESQ-PB.
 - 14:00, Xpeng Aridge, the flying car company: its founder and its CFO.
 - 14:30, Gravitee's CEO: "Collapsing confidence in agent AI security after six months of reality".
 - 15:00, [Replit](../companies/replit/index.html)'s president.
@@ -39,10 +39,10 @@ Press conferences are where companies and organisers make news at Web Summit. Th
 
 - 10:30, "New Unicorn in Lisbon: Discord Announces Expansion", with Lisbon's mayor, Discord's co-founder and CTO, and Unicorn Factory Lisboa.
 - 11:00, Web Summit's CEO and founder.
-- 11:30, Qualcomm, with an executive vice president.
-- 12:30, "Open or Closed AI models", with Neo4j, the Agentic AI Foundation and Cal.com.
+- 11:30, [Qualcomm](https://websummit.com/sessions/lis26/f7f3baf1-97f7-49bf-892e-9375011c6146/press-conference-with-qualcomm-svp-general-manager-durga-malladi/), with a senior executive (see below).
+- 12:30, "Open or Closed AI models: which types of future do they represent?", with Neo4j, the Agentic AI Foundation and Cal.com.
 - 14:30, Campus Tejo, Santarém's science and technology ecosystem, with Portugal's Minister of Education, Science and Innovation.
-- 15:00, NordVPN's Chief Product Strategy Officer.
+- 15:00, [NordVPN](https://websummit.com/sessions/lis26/f3712e6e-481b-47b6-b43e-69a312c07ef2/press-conference-with-nordvpn-cpso-domininkas-virbickas/)'s Chief Product Strategy Officer.
 - 15:30, Skyfall AI's co-founder and CEO.
 - 16:00, Amazon's vice president of people experience and technology.
 - 16:30, "Rewriting the Rules of Female Longevity", with a TV host and executive.
@@ -63,7 +63,8 @@ Covering the summit for a publication? The Media Village is where these announce
 ## What this does not claim
 
 - **What will be announced.** Only the titles are public; this article does not guess at the news.
-- **That the list is final.** Times and speakers can change. Two pages already differ from earlier copies: NordVPN's speaker is now its Chief Product Strategy Officer, and Qualcomm's title says SVP while its page lists the speaker as an EVP.
+- **That the list is final.** Times and speakers can change. NordVPN's has already changed: the newsroom's programme data, read at 05:07 UTC on 9 November, listed its CTO; by the evening, [Web Summit's page](https://websummit.com/sessions/lis26/f3712e6e-481b-47b6-b43e-69a312c07ef2/press-conference-with-nordvpn-cpso-domininkas-virbickas/) named its Chief Product Strategy Officer.
+- **Qualcomm's speaker's exact role.** [Its page](https://websummit.com/sessions/lis26/f7f3baf1-97f7-49bf-892e-9375011c6146/press-conference-with-qualcomm-svp-general-manager-durga-malladi/) disagrees with itself: the title says "SVP & General Manager", while the speaker is listed as "EVP and GM, Technology Planning, Edge Solutions & Data Center".
 - **Who can attend.** Every page says "Media event only". This article does not know how press passes are checked.
 
 ## Where this comes from

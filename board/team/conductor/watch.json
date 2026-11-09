@@ -20,6 +20,16 @@
    "PrompTugal__App__iOS": "04513827",
    "PrompTugal__App__Mobile": "74332868",
    "note": "News: 'where I need to be next' in /app/ (9ce9158b); main untouched since 4 Nov. Held for Dinis: push to main, /contribute/, beta list."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T19:37Z",
+   "SGit-AI__Website__Web-Summit": "3419f5cf",
+   "PrompTugal__News__Website": "cea1846b",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "8f4e5302",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: sherpa@'s AP1 to AP4 done in /app/ (91f7ae03); the Tuesday guide leads day 1; main untouched."
   }
  ]
 }
