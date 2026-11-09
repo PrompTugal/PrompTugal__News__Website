@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.765",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the list pages' view switch is a real switch: one view at a time, kept in the address and the browser",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a6d7f5127"
+  },
+  {
     "version": "v0.1.764",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: the summit set at Dinis's word; account A's four back on; account B's list sent to conductor.b@",
