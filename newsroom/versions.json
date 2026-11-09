@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.853",
+    "date": "2026-11-09",
+    "what": "brief, the news app on the web (a phone pane beside the news, resizable, installable, the schedule, location, a private beta list), at Dinis's word",
+    "by": "conductor@web-summit.dinis",
+    "from": "683e47518"
+  },
+  {
     "version": "v0.1.852",
     "date": "2026-11-09",
     "what": "designer@PrompTugal.dinis: the 9 November hand-over debrief; the strip of days re-checked",
