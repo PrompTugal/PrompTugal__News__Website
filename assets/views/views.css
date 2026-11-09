@@ -1,6 +1,6 @@
 /* the view switch as a switch (views.js): pills, the pressed one filled; the views themselves are shown one at a time by the script */
-p.view-switch.is-switch { font-size: 0; display: flex; flex-wrap: wrap; gap: 6px; }
-p.view-switch.is-switch a { display: inline-flex; align-items: center; min-height: 32px; padding: 0 14px; border: 1px solid var(--rule-2); border-radius: 999px; font: 600 14px var(--sans); color: var(--ink); text-decoration: none; background: var(--panel); }
+p.view-switch.is-switch { font-size: 0; display: flex !important; flex-wrap: wrap; gap: 6px; width: 100%; max-width: none !important; box-sizing: border-box; }
+p.view-switch.is-switch a { display: inline-flex; align-items: center; min-height: 32px; padding: 0 14px; border: 1px solid var(--rule-2); border-radius: 999px; font: 600 14px var(--sans); color: var(--ink); text-decoration: none; background: var(--panel); white-space: nowrap; flex: none; }
 p.view-switch.is-switch a.on { background: var(--brand); border-color: var(--brand); color: var(--on-brand); }
 .body .view[hidden] { display: none !important; }
 .body .view.on:not([hidden]) { display: block !important; }
