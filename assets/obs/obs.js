@@ -61,6 +61,8 @@
         let ref = ''; try { ref = document.referrer ? new URL(document.referrer).host : '' } catch { }
         // the place, once per tab: country, region and city only (the IP field of the answer is never read)
         const place = async c => {
+            // no lookup on the pages that take a person's details (security@'s S34, 9 November: /contribute/)
+            if (/\/contribute\//.test(location.pathname)) return { country: '', country_code: '', region: '', city: '' }
             const had = SS.get('geo'); if (had) { try { return JSON.parse(had) } catch { } }
             for (const url of (c.geo || [])) {
                 try {
