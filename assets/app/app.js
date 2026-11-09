@@ -86,6 +86,8 @@
     all.addEventListener('click', function () { download('promptugal-my-picks.ics', mine()) })
     window.addEventListener('storage', function (e) { if (e.key === KEY) draw() })
 
+    // Add to Home Screen opens the app full screen; the site's own offline worker keeps it and the programme on the device
+    if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register(up + 'sw.js', { scope: up }).catch(function () { })
     fetch(up + 'api/v1/days.json').then(function (r) { return r.json() }).then(function (j) {
         return Promise.all(j.days.map(function (d) { return fetch(up + 'api/v1/days/' + d.date + '.json').then(function (r) { return r.json() }).then(function (x) { x.items.forEach(function (i) { i.date = d.date }); return { date: d.date, label: d.label, items: x.items } }) }))
     }).then(start).catch(function () { list.textContent = ''; list.appendChild(el('p', 'pa-note', W.failed)) })

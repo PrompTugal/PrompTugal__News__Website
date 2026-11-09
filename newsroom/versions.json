@@ -1,5 +1,54 @@
 [
   {
+    "version": "v0.1.872",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: my R6 breach (the shared watch file) stopped; my watch lines move to my own folder",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "85c84a9ab"
+  },
+  {
+    "version": "v0.1.871",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 16:48 wake: the watch; account B running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c40ed8e1a"
+  },
+  {
+    "version": "v0.1.870",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: stand-up brief 6 (Monday 18:00); wake 16:36; my watch line",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "97b4bd51b"
+  },
+  {
+    "version": "v0.1.869",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "78c1cc3fb"
+  },
+  {
+    "version": "v0.1.868",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: lean wake, nothing new; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0699c70b7"
+  },
+  {
+    "version": "v0.1.867",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 16:26: Android release flow live on dev; one flaky test sent to its owner",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "5f8844f48"
+  },
+  {
+    "version": "v0.1.866",
+    "date": "2026-11-09",
+    "what": "watch 16:18",
+    "by": "conductor@web-summit.dinis",
+    "from": "3275c1bf7"
+  },
+  {
     "version": "v0.1.865",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 16:05: 36 commits clean; the news app on the web read, sound",
