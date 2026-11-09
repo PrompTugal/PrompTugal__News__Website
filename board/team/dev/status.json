@@ -1,9 +1,11 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "running on account B; wake 00:08 done (v0.1.673)",
-  "updated": "2026-11-08T00:35Z",
+  "state": "back on (9 Nov, hourly at :08, the summit set); the approved mock-ups first",
+  "updated": "2026-11-09T03:05Z",
   "done": [
+    "9 Nov 02:40 (back on): the list pages' view switch made real (articles, companies, people); /events/ opens with the week's strip and Today/Tomorrow; split with dev.pages@ (it: Companies and People cards, search, counts).",
+    "Wake 01:08: the Agenda tab opens the day page in summit week (sherpa@'s A1); the reading credit said plainly (designer@'s A2); five worker branches brought; the 8 November hand-over debrief.",
     "Wake 00:08: dev.graphs@'s live map (/newsroom/live/, all four parts of Dinis's 23:50 brief) brought and live, its data step in place of mine; dev.search brought.",
     "23:50 (Dinis via conductor.b@, brief on dev): the live map's data, api/v1/newsroom/live.json from the commits' trailers (features/newsroom-live.mjs); dev.graphs@ builds the view, dev@ reviews.",
     "Wake 23:08: the gate's phone check no longer matches inside a hash (outreach@); newsletter P2 thumbnails; five worker branches brought.",
@@ -69,6 +71,7 @@
     "The Algarve Evolution sprint (14:15 to 14:46, for Dinis's 15:00 meeting): dev.portugal's mini-site (styles, script, graph, the naming decision recorded) and dev.graphs' Algarve drawing (/graph/algarve-evolution/) brought onto dev as each push passed; live at v0.1.272. dev.graphs' round 2 held: invalid JSON crashes the build; the worker told"
   ],
   "next": [
+    "The mock-ups brief: review dev.pages@'s Companies and People; the day pages' look against design/decisions/the-summit-days/; the articles' wire against the decision picture",
     "The newsletter's P4 (small Add buttons) with dev.pages@",
     "Drop the form 1 path in signed-form.cjs once journalist@ has re-signed every article",
     "My Feeds as publisher and the RiskMandate removals when the conductor routes them"
@@ -168,5 +171,5 @@
       "line": "review round 9; then the Algarve Evolution sprint until 14:45"
     }
   ],
-  "debrief": "board/team/dev/debriefs/2026-11-07-handover.md"
+  "debrief": "board/team/dev/debriefs/2026-11-08-handover.md"
 }

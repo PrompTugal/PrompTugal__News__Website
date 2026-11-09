@@ -1,0 +1,123 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-08T20-49-30Z",
+ "started": "2026-11-08T20:49:30.039Z",
+ "ended": "2026-11-09T02:19:10Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-08T20:49:30.039Z",
+   "chars": 48,
+   "sha256": "69ac9d8ed2de578a",
+   "head": "great so you can conductor.android@promptugal.ai"
+  },
+  {
+   "t": "2026-11-08T20:52:38.272Z",
+   "chars": 64,
+   "sha256": "16cf21745c8a01c9",
+   "head": "btw can you find out how much usage of this session is available"
+  },
+  {
+   "t": "2026-11-08T23:55:17.097Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-09T02:15:19.030Z",
+   "chars": 408,
+   "sha256": "d956863d300ce6aa",
+   "head": "Hi, can you make sure you update it, and then can you take a look at the past briefs I created for the design of the prompt yugal.news website, because there's a lot of features missing, especially ar"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-08T23:55:16.904Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-09T02:14:51.555Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 32,
+  "by_kind": {
+   "other": 2,
+   "shell": 14,
+   "session": 2,
+   "release": 5,
+   "remote-read": 1,
+   "git": 5,
+   "read": 3
+  }
+ },
+ "policies_executed": {
+  "R4": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 30,
+  "commits": [
+   {
+    "sha": "f52a5067b",
+    "subject": "conductor@PrompTugal.dinis: three apps, three lines: what it means for the Android brief",
+    "files": 1
+   },
+   {
+    "sha": "469a1fd7c",
+    "subject": "conductor@PrompTugal.dinis: conductor.android@promptugal.ai started at Dinis's word, with the v2 seed brief; no scheduled task",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-08T20:50:07.819Z",
+    "tool": "mcp__claude-code-remote__create_session",
+    "rule": "R4",
+    "what": "create_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-09T02:15:37.499Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 32,
+  "in_mandate": 30,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

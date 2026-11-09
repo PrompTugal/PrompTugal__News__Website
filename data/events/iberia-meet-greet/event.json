@@ -20,7 +20,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/b71a17f7-e439-451b-b939-cfd0bdaafa36/iberia-meet-greet/",
   "source_url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
-  "read_at": "2026-11-07T08:17Z",
+  "read_at": "2026-11-08T05:03Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -30,6 +30,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 17
+    "item": 15
   }
 }

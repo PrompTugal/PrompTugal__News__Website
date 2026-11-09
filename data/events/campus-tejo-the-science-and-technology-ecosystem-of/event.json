@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "campus-tejo-the-science-and-technology-ecosystem-of",
+  "type": "event",
+  "title": "Campus Tejo, the science and technology ecosystem of Santarém (Press conference)",
+  "kind": "announcement",
+  "listed_as": "announcement",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-11",
+  "time": "14:30-14:50",
+  "start": "14:30",
+  "end": "14:50",
+  "where": "Stage 2 (Press Conference), MEO Arena and FIL",
+  "place": "place:stage-2",
+  "track": "Press Conference",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:fernando-alexandre",
+      "as_listed": "Fernando Alexandre",
+      "role": null,
+      "organisation": null,
+      "org": null
+    },
+    {
+      "person": "person:joao-leite",
+      "as_listed": "João Leite",
+      "role": null,
+      "organisation": null,
+      "org": null
+    },
+    {
+      "person": "person:joao-moutao",
+      "as_listed": "João Moutão (Professor, Santarém Polytechnic University)",
+      "role": "Professor",
+      "organisation": "Santarém Polytechnic University",
+      "org": "organisation:santarem-polytechnic-university"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/f45ece2d-fef8-442a-a6f0-4ec62f7fa105/campus-tejo-the-science-and-technology-ecosystem-of-santarem-press-conference/",
+  "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/3/",
+  "read_at": "2026-11-08T05:03Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 145
+  }
+}

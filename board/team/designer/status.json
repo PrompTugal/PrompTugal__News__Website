@@ -1,9 +1,11 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 3, account B; the eight home page designs checked live (v0.1.390)",
-  "updated": "2026-11-07T23:42Z",
+  "state": "working: session 3, account B; every 2 h at :33 from 9 November (the summit set); checking builds against design/decisions/",
+  "updated": "2026-11-09T02:52Z",
   "done": [
+    "02:52 (9 November) back on at Dinis's word (board/guidance/2026-11-09-the-summit-set.md, every 2 h): the acceptance check for the list pages and the summit's days written before dev.pages@ builds them (board/spec-list-pages-and-days-check.md: L1 to L6, D1 to D6, from the two decisions of 6 November); nothing shipped yet to check",
+    "00:48 (8 November) WK1's table image redrawn after the Sunday re-count (no AI); sherpa@'s A2 designed: the reading credit said plainly (board/spec-the-reading-credit.md: one line 'Free to read', no ticking amount in the header, the numbers on /account/)",
     "23:42 newsletter P2 (thumbnails) passes; took designer.experiments@'s refreshed debrief, status and its day's ten run reports onto dev (its own paths)",
     "22:45 writer@PrompTugal.angelo's interactive agent-setup guide read for the brand (39e19860fe): in the brand (the site's tokens, no own colours; options 40 px tall); one note: the sticky 'Read this as' bar covers a section's heading after a jump (scroll-margin-top on the headings). S26 and S27 published with their own covers",
     "20:42 WK1's table image redrawn after the journalist's correction (PITCH's group rounds, the semi-final and final on Centre Stage), no AI, the table tool's long-note column fixed",
@@ -85,13 +87,9 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Re-check D4, D6, D7, D11 and E's E6, E10 as dev.pages@ ships them; D14 (Silvio's credit); then the before and after page on /newsroom/design/",
-    "After each article correction, check its image against the new text (git log on content/articles since the image's date)",
-    "A phone picture for each new lead (style 'phone') at the wake after correspondent@ sets it",
-    "Re-check E6 and E10 when dev@ ships them; then the before and after page on /newsroom/design/",
-    "Check the one width as dev@ ships it (flick between / and an article at 1440 and 390 px)",
-    "Images for each new article at the next wake after it is published (about 0.14 USD each, read back before use)",
-    "Review work/designer.experiments at each wake (the account B worker, designer.experiments-b-promptugal)"
+    "Check each list page and day page against board/spec-list-pages-and-days-check.md and the decision pictures as dev.pages@ ships them",
+    "Images for any new article (a table from its own table where the story is numbers)",
+    "The open newsletter items (E1, E2, P1, P4, V1 to V3)"
   ],
   "asks": [
     "Dinis: the investor site calls the company 'PrompTugal' (no '.news'); CLAUDE.md says 'PrompTugal.news' is the one spelling. Is 'PrompTugal' right for the company and its investor pages?",
@@ -399,6 +397,18 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "newsletter P2 passes; the worker's day taken"
+    },
+    {
+      "started": "2026-11-08T00:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "WK1 redrawn after the re-count; the reading credit said plainly (A2)"
+    },
+    {
+      "started": "2026-11-09T02:38Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "back on (the summit set); the list pages' and days' check written"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

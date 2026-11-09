@@ -34,11 +34,14 @@
       return { selector: 'node[type = "' + t.id + '"]', style: st };
     });
   }
+  // labels keep a readable size on screen when the graph is zoomed out to fit: every text size below is multiplied by LS,
+  // set from the zoom so a node's name is at least 11px on screen, at most 2.4 times its size in graph units
+  var LS = 1;
   function style(T) {
     return [
       { selector: 'node', style: { label: 'data(label)', width: 'data(size)', height: 'data(size)', 'font-family': 'IBM Plex Sans, system-ui, sans-serif',
-        'font-size': 11, color: T.ink, 'text-valign': 'bottom', 'text-margin-y': 4, 'text-wrap': 'ellipsis', 'text-max-width': 130,
-        'text-outline-color': T.panel, 'text-outline-width': 2.5, 'min-zoomed-font-size': 4.5, 'background-color': T.rule2, 'border-width': 1.5, 'border-color': T.rule2 } },
+        'font-size': 11 * LS, color: T.ink, 'text-valign': 'bottom', 'text-margin-y': 4 * LS, 'text-wrap': 'ellipsis', 'text-max-width': 130 * LS,
+        'text-outline-color': T.panel, 'text-outline-width': 2.5 * LS, 'min-zoomed-font-size': 4.5, 'background-color': T.rule2, 'border-width': 1.5, 'border-color': T.rule2 } },
       { selector: 'node[type = "company"]', style: { 'background-color': T.brand, 'border-color': T.brand, 'font-weight': 600 } },
       { selector: 'node[type = "person"]', style: { 'background-color': T.panel, 'border-color': T.ink } },
       { selector: 'node[type = "organisation"]', style: { 'background-color': T.panel, 'border-color': T.brand, 'border-width': 2 } },
@@ -47,8 +50,8 @@
       { selector: 'node[type = "place"]', style: { shape: 'rectangle', 'background-color': T.panel, 'border-color': T.rule2, 'border-style': 'dashed' } },
       { selector: 'node[type = "day"]', style: { shape: 'diamond', 'background-color': T.paper2, 'border-color': T.ink3 } },
       { selector: 'node[type = "track"]', style: { shape: 'tag', 'background-color': T.brandSoft, 'border-color': T.ink3 } },
-      { selector: 'node[type = "fact"]', style: { 'background-color': T.hair, 'border-color': T.ink3, 'font-size': 9 } },
-      { selector: 'node[type = "source"]', style: { shape: 'rectangle', 'background-color': T.panel, 'border-color': T.ink3, 'font-size': 9 } },
+      { selector: 'node[type = "fact"]', style: { 'background-color': T.hair, 'border-color': T.ink3, 'font-size': 9 * LS } },
+      { selector: 'node[type = "source"]', style: { shape: 'rectangle', 'background-color': T.panel, 'border-color': T.ink3, 'font-size': 9 * LS } },
       { selector: 'node[type = "evidence"]', style: { shape: 'triangle', 'background-color': T.paper2, 'border-color': T.warn } },
       { selector: 'node[type = "story"]', style: { shape: 'hexagon', 'background-color': T.paper2, 'border-color': T.warn } },
       { selector: 'node[type = "article"]', style: { shape: 'rectangle', 'background-color': T.ink, 'border-color': T.ink } },
@@ -56,13 +59,13 @@
       { selector: 'edge', style: { width: 1, 'line-color': T.rule2, 'curve-style': 'haystack', 'haystack-radius': 0, opacity: 0.75 } },
       { selector: 'edge.top', style: { width: 'data(w)', 'line-color': T.ink2, opacity: 0.9 } },
       { selector: 'edge.lit', style: { width: 1.8, 'line-color': T.ink2, 'curve-style': 'bezier', 'target-arrow-shape': 'triangle', 'target-arrow-color': T.ink2, 'arrow-scale': 0.7,
-        label: 'data(verbLabel)', 'font-size': 9, color: T.ink2, 'text-rotation': 'autorotate', 'text-background-color': T.panel, 'text-background-opacity': 0.9, 'text-background-padding': 1.5, opacity: 1 } },
+        label: 'data(verbLabel)', 'font-size': 9 * LS, color: T.ink2, 'text-rotation': 'autorotate', 'text-background-color': T.panel, 'text-background-opacity': 0.9, 'text-background-padding': 1.5 * LS, opacity: 1 } },
       { selector: 'edge.path', style: { 'min-zoomed-font-size': 0, width: 3.5, 'line-color': T.brand, 'target-arrow-color': T.brand, 'curve-style': 'bezier', 'target-arrow-shape': 'triangle',
-        label: 'data(verbLabel)', 'font-size': 10, 'font-weight': 600, color: T.brand, 'text-rotation': 'autorotate', 'text-background-color': T.panel, 'text-background-opacity': 1, 'text-background-padding': 2, opacity: 1, 'z-index': 9 } },
+        label: 'data(verbLabel)', 'font-size': 10 * LS, 'font-weight': 600, color: T.brand, 'text-rotation': 'autorotate', 'text-background-color': T.panel, 'text-background-opacity': 1, 'text-background-padding': 2 * LS, opacity: 1, 'z-index': 9 } },
       { selector: 'node.nl', style: { label: '' } },
-      { selector: 'node.anchor', style: { 'min-zoomed-font-size': 0, 'border-width': 4, 'border-style': 'double', 'border-color': T.ink, 'font-weight': 700, 'font-size': 13, 'z-index': 8 } },
+      { selector: 'node.anchor', style: { 'min-zoomed-font-size': 0, 'border-width': 4, 'border-style': 'double', 'border-color': T.ink, 'font-weight': 700, 'font-size': 13 * LS, 'z-index': 8 } },
       { selector: 'node.path', style: { 'min-zoomed-font-size': 0, 'border-width': 3, 'border-color': T.brand, 'font-weight': 600, 'z-index': 8 } },
-      { selector: 'node.gx-focus', style: { 'min-zoomed-font-size': 0, 'border-width': 4, 'border-color': T.focus, 'font-weight': 700, 'font-size': 13, 'z-index': 10, label: 'data(label)' } },
+      { selector: 'node.gx-focus', style: { 'min-zoomed-font-size': 0, 'border-width': 4, 'border-color': T.focus, 'font-weight': 700, 'font-size': 13 * LS, 'z-index': 10, label: 'data(label)' } },
       { selector: 'node.hood', style: { label: 'data(label)' } },
       { selector: '.dim', style: { opacity: 0.14 } },
     ]);
@@ -427,6 +430,12 @@
     $('#gx-expand').addEventListener('click', function () { if (S.st.sel) api.expand({ id: S.st.sel }); });
     $('#gx-reset').addEventListener('click', function () { api.reset(); });
     var share = $('#gx-share'), png = document.createElement('button'); png.type = 'button'; png.className = 'chip'; png.id = 'gx-png'; png.textContent = 'Save PNG'; png.title = 'Download the graph as a picture'; share.parentNode.insertBefore(png, share);
+    // the advanced controls (view, depth, top, actions, filters, the path finder) go in one details block: folded on a phone,
+    // so the graph comes up under the search, and always open on a wider screen (its summary hidden there, graph.css)
+    var bar = $('.gx-bar'), adv = document.createElement('details'), sm = document.createElement('summary'), narrow = window.matchMedia ? window.matchMedia('(max-width: 767px)') : null;
+    adv.className = 'gx-adv'; adv.id = 'gx-adv'; adv.open = true; sm.textContent = 'More controls'; adv.appendChild(sm);
+    if (bar) { ['.gx-row', '.gx-more', '#gx-pathf'].forEach(function (sel) { var n = bar.querySelector(sel); if (n) adv.appendChild(n); }); bar.appendChild(adv); }
+    if (narrow) { var fold = function () { adv.open = !narrow.matches; }; fold(); if (narrow.addEventListener) narrow.addEventListener('change', fold); }
     var cp = document.createElement('p'); cp.className = 'gx-caption'; cp.id = 'gx-caption'; cp.setAttribute('aria-live', 'polite'); $('#gx-canvas').parentNode.insertBefore(cp, $('#gx-canvas'));
     $('#gx-png').addEventListener('click', function () { var T = tokens(); S.cy.png({ output: 'blob-promise', full: true, scale: 2, maxWidth: 4000, maxHeight: 4000, bg: T.panel }).then(function (bl) { var a = document.createElement('a'); a.href = URL.createObjectURL(bl); a.download = 'promptugal-graph' + (S.preset ? '-' + S.preset : '') + '.png'; a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000); }); });
     $('#gx-share').addEventListener('click', function () { var b = $('#gx-share'); (navigator.clipboard ? navigator.clipboard.writeText(url()) : Promise.reject()).then(function () { b.textContent = 'Copied'; }, function () { b.textContent = 'Link in the address bar'; }); setTimeout(function () { b.textContent = 'Copy link'; }, 1800); });
@@ -493,7 +502,7 @@
     S.cy.on('tap', function (e) { if (e.target === S.cy) api.clear(); });
     S.cy.on('dbltap', 'node', function (e) { api.expand({ id: e.target.id() }); });
     /* label culling: below a zoom, only the most central keep their names; zoomed in, every name shows */
-    var zt = 0; S.cy.on('zoom', function () { if (zt) return; zt = setTimeout(function () { zt = 0; rootEl.classList.toggle('gx-zoomed', S.cy.zoom() > 1.4); if (S.cy.zoom() > 1.4) S.cy.nodes('.nl').addClass('hood'); else if (!S.st.sel) S.cy.nodes('.hood').removeClass('hood'); }, 120); });
+    var zt = 0; S.cy.on('zoom', function () { if (zt) return; zt = setTimeout(function () { zt = 0; var ls = Math.round(Math.min(2.4, Math.max(1, 11 / (11 * S.cy.zoom()))) * 10) / 10; if (ls !== LS) { LS = ls; S.cy.style(style(tokens())); } rootEl.classList.toggle('gx-zoomed', S.cy.zoom() > 1.4); if (S.cy.zoom() > 1.4) S.cy.nodes('.nl').addClass('hood'); else if (!S.st.sel) S.cy.nodes('.hood').removeClass('hood'); }, 120); });
     var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
     if (mq && mq.addEventListener) mq.addEventListener('change', function () { S.cy.style(style(tokens())); });
     window.addEventListener('promptugal:theme-changed', function () { S.cy.style(style(tokens())); });   // the theme picker (assets/themes.js)

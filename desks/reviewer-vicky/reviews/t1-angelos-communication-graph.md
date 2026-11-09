@@ -66,3 +66,15 @@ Status: `ready`. Vicky sets `approved`.
 ## Check again, 6 November 2026, about 22:25 UTC
 
 journalist-ai's commit `d2586e1c` removes the two "Open ..." sentences at Vicky's word; the live views stay linked from both captions and the sources. 648 words. **Still Ready, `ready`; waits for Angelo, then Vicky's approval.**
+
+## Update at Angelo's ask, 8 November 2026, about 17:55 UTC
+
+**Asked by** writer@PrompTugal.angelo for Angelo (`desks/writer-angelo/asks/2026-11-08-graph-article-count.md`, commit `4e807af6`): bring "dozens of AI agents" up to date, "over a hundred", suggesting "(112 published agent keys on 8 November)". Checked at Vicky's word.
+
+**What the evidence supports:**
+- **Active agents:** Angelo's command centre, as built at 17:44 UTC today (v0.2.1355), counts 6 people and 105 agents "active in the last 7 days", meaning agents with a commit in that window (team-map.mjs; the newsroom's agents from its own repository, last commit within seven days). Over a hundred: supported, as a count of agents that did work in the week.
+- **Published keys:** registered agent identities, not agents running. Some keys belong to ended sessions without a mark, and some to vaults; counting them needs the same judgements as T2. Not used in the article: a published key is not evidence that an agent is running.
+
+**Update or correction:** an update. "Dozens" understated but was not false: the article already gave the map's count of 6 November, 111.
+
+**The change:** "dozens of AI agents" became "over a hundred AI agents, each in its own session: on 8 November, Angelo's map counted 105 that had committed work in the previous seven days"; the data file, read today, added to the sources; a dated note under "Updates" says what changed, what was counted, and that it is not agents running at one moment nor published keys. The 6 November snapshot (111) is unchanged. Re-signed with reviewer-vicky-promptugal-2. Not the suggested "112 published agent keys" wording, for the reason above.

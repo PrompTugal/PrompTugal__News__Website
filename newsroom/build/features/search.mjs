@@ -7,6 +7,8 @@
 // index's size and the bytes a query loads: node newsroom/tests/search.test.mjs.
 import { createRequire } from 'node:module'
 import { PLURAL, eventsOfCompany } from '../lib/graph.mjs'
+import { shortUrl, readOn } from '../lib/present.mjs'
+import { mediaOnlyEvents } from './companies.mjs'
 const require = createRequire(import.meta.url)
 const S = require('../../../assets/search/search-core.js')
 
@@ -39,6 +41,7 @@ function makeIndex(ctx) {
     for (const [type, list] of Object.entries({ company: st.companies, event: st.events, person: st.people, organisation: st.organisations, topic: st.topics, place: st.places })) for (const x of list) byRef.set(`${type}:${x.id}`, x)
     const eventTopics = id => [...new Set(g.outOf(`event:${id}`, 'in_track').flatMap(e => g.outOf(e.to, 'maps_to').map(m => m.to.split(':')[1])))]
     const eventById = new Map(st.events.map(e => [e.id, e]))
+    const media = mediaOnlyEvents(ctx)   // a session marked Media only: [its source as shown, its URL, the date read]
     // the names a company goes by elsewhere: speaker cards matched to it, and the curators' same_as
     const alsoKnown = new Map()
     const addAka = (ref, name) => { if (!alsoKnown.has(ref)) alsoKnown.set(ref, new Set()); alsoKnown.get(ref).add(name) }
@@ -65,7 +68,8 @@ function makeIndex(ctx) {
             const tps = eventTopics(x.id)
             row.summary = clip(`${ctx.DAY(x.date)}${x.time ? ', ' + x.time : ''}${x.where ? ' · ' + x.where : ''}`, 140)
             row.facets = { tp: tps.length ? tps : undefined, o: x.organiser, d: [x.date] }
-            row.extra = { s: x.start || undefined, e: x.end || undefined, w: x.where ? x.where.split(',')[0] : undefined, k: x.kind, p: x.our_pick ? 1 : undefined }
+            const mo = x.session_url && media.has(String(x.session_url).replace(/\/+$/, ''))
+            row.extra = { s: x.start || undefined, e: x.end || undefined, w: x.where ? x.where.split(',')[0] : undefined, k: x.kind, p: x.our_pick ? 1 : undefined, m: mo ? [shortUrl(x.session_url), x.session_url, readOn(media.get(String(x.session_url).replace(/\/+$/, '')))] : undefined }
             row.fields.alias = [x.track].filter(Boolean).join(' ')
             row.fields.facet = [x.kind, x.where, ORGANISER[x.organiser], ctx.DAY(x.date), x.our_pick ? 'our pick' : '', ...tps.map(t => topicName[t])].filter(Boolean).join(' ; ')
             row.fields.body = [...(x.speakers || []).map(s => s.as_listed), ...(x.hosted_by || []).map(h => h.as_listed)].join(' ; ')

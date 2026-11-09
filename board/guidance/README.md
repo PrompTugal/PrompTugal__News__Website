@@ -6,6 +6,8 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 9 Nov, 02:30 | **The summit set:** account A runs the conductor, security@, observability@ and accountant@; account B runs dev@ and dev.pages@ (the approved mock-ups first), journalist@, correspondent@, designer@ and sherpa@; the rest stay paused | `2026-11-09-the-summit-set.md` |
+| 23:45 (8 Nov) | **Three apps, three lines:** the event app (App Store, light, no new permission or attack surface), the team app (private data only there; tasks, feeds, where is everybody, the agents), the RiskMandate app (public, demos and videos, not in a store yet) | `2026-11-08-three-apps-three-lines.md`, https://web-summit.sgit.ai/apps/ |
 | 22:55 | **The same width on every page** as the home page; **RiskMandate off the home page**, only "Powered by RiskMandate" in the footer; a better RiskMandate strategy to come | `../briefs/2026-11-06-front-page-mock-e.md` |
 | 22:40 | **All of development moves to account B** (dev@ and its six workers); **the home page becomes Silvio's mock E**, from data, with the quality fixes | `../briefs/2026-11-06-front-page-mock-e.md`, `../the-account-move.md` |
 | 21:05 to 22:00 | **Account B:** agents move to a second account; conductor.b@ runs it and starts them there; fifteen handed over and stopped here; ten wake every two hours | `2026-11-06-account-b.md`, `../the-account-move.md` |

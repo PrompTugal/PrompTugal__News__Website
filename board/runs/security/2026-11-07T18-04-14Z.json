@@ -1,0 +1,428 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "security@PrompTugal.dinis",
+ "run": "2026-11-07T18-04-14Z",
+ "started": "2026-11-07T18:04:14.957Z",
+ "ended": "2026-11-08T20:06:27Z",
+ "line": "catch-up 20:05 8 Nov: 290 commits since 266f2b0fd clean of secrets; persona.js post-reviewed; S30 (outside operators' code unreviewed) and S28b raised; debrief written",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-07T18:04:15.148Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-07T18:04:18.285Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-07T18:04:19.287Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-07T20:04:09.939Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-07T20:04:12.903Z",
+   "chars": 509,
+   "sha256": "2b76acd342975dd7",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-07T20:04:13.705Z",
+   "chars": 509,
+   "sha256": "2b76acd342975dd7",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-07T20:04:14.472Z",
+   "chars": 509,
+   "sha256": "2b76acd342975dd7",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-07T22:04:05.451Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-07T22:04:08.135Z",
+   "chars": 509,
+   "sha256": "a4502e18a65dc32b",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>3 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-07T22:04:08.971Z",
+   "chars": 509,
+   "sha256": "a4502e18a65dc32b",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>3 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-07T22:04:09.788Z",
+   "chars": 509,
+   "sha256": "a4502e18a65dc32b",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>3 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T00:03:46.641Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T00:03:49.066Z",
+   "chars": 509,
+   "sha256": "0765e446b158b101",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>4 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T00:03:50.034Z",
+   "chars": 509,
+   "sha256": "0765e446b158b101",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>4 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T00:03:50.829Z",
+   "chars": 509,
+   "sha256": "0765e446b158b101",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>4 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T02:03:47.316Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T02:03:49.707Z",
+   "chars": 509,
+   "sha256": "823aabfb358847d5",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>5 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T02:03:50.750Z",
+   "chars": 509,
+   "sha256": "823aabfb358847d5",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>5 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T02:03:51.589Z",
+   "chars": 509,
+   "sha256": "823aabfb358847d5",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>5 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T04:03:34.989Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T04:03:37.458Z",
+   "chars": 509,
+   "sha256": "292488d6fe5ee70c",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>6 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T04:03:38.295Z",
+   "chars": 509,
+   "sha256": "292488d6fe5ee70c",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>6 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T04:03:39.196Z",
+   "chars": 509,
+   "sha256": "292488d6fe5ee70c",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>6 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T06:04:02.340Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T06:04:05.506Z",
+   "chars": 509,
+   "sha256": "ad3267cbe9d454fd",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>7 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T06:04:06.722Z",
+   "chars": 509,
+   "sha256": "ad3267cbe9d454fd",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>7 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T06:04:07.574Z",
+   "chars": 509,
+   "sha256": "ad3267cbe9d454fd",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>7 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T08:03:28.260Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T08:03:31.193Z",
+   "chars": 509,
+   "sha256": "3ded5b4f9b3faa1f",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>8 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T08:03:32.072Z",
+   "chars": 509,
+   "sha256": "3ded5b4f9b3faa1f",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>8 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T08:03:32.889Z",
+   "chars": 509,
+   "sha256": "3ded5b4f9b3faa1f",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>8 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T10:04:08.777Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T10:04:11.248Z",
+   "chars": 509,
+   "sha256": "eb97921edc316d1d",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>9 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T10:04:12.061Z",
+   "chars": 509,
+   "sha256": "eb97921edc316d1d",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>9 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T10:04:12.817Z",
+   "chars": 509,
+   "sha256": "eb97921edc316d1d",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>9 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-08T12:03:50.632Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T12:03:53.307Z",
+   "chars": 511,
+   "sha256": "d9491bc1c2db8693",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>10 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T12:03:54.149Z",
+   "chars": 511,
+   "sha256": "d9491bc1c2db8693",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>10 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T12:03:55.211Z",
+   "chars": 511,
+   "sha256": "d9491bc1c2db8693",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>10 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T14:03:55.314Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T14:03:57.758Z",
+   "chars": 511,
+   "sha256": "ba800ba12ecaa4aa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>11 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T14:03:58.683Z",
+   "chars": 511,
+   "sha256": "ba800ba12ecaa4aa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>11 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T14:03:59.604Z",
+   "chars": 511,
+   "sha256": "ba800ba12ecaa4aa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>11 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T16:03:41.155Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T16:03:44.352Z",
+   "chars": 511,
+   "sha256": "4423a04653368e88",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>12 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T16:03:45.344Z",
+   "chars": 511,
+   "sha256": "4423a04653368e88",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>12 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T16:03:46.136Z",
+   "chars": 511,
+   "sha256": "4423a04653368e88",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>12 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T18:04:08.032Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-08T18:04:11.264Z",
+   "chars": 511,
+   "sha256": "5e42e355c4385aa5",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>13 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T18:04:12.136Z",
+   "chars": 511,
+   "sha256": "5e42e355c4385aa5",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>13 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T18:04:13.074Z",
+   "chars": 511,
+   "sha256": "5e42e355c4385aa5",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>13 unread notifications (scheduled trigger (the stored prompt of a routine or task on this acco"
+  },
+  {
+   "t": "2026-11-08T20:03:40.830Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-07T18:04:14.957Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-07T20:04:09.729Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-07T22:04:05.186Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T00:03:46.367Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T02:03:47.070Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T04:03:34.752Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T06:04:02.038Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T08:03:28.018Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T10:04:08.493Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T12:03:50.397Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T14:03:55.073Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T16:03:40.886Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T18:04:07.770Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T20:03:40.600Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "other": 1,
+   "git": 8,
+   "shell": 2,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 52,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

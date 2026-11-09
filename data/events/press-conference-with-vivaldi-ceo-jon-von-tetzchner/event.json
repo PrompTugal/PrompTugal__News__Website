@@ -23,12 +23,19 @@
       "role": "Co-founder & CEO",
       "organisation": "Vivaldi",
       "org": "organisation:vivaldi"
+    },
+    {
+      "person": "person:haakon-rlmann",
+      "as_listed": "Haakon Rølmann (Head of communications, Vivaldi)",
+      "role": "Head of communications",
+      "organisation": "Vivaldi",
+      "org": "organisation:vivaldi"
     }
   ],
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/9406725b-320a-49f0-8ac0-c9213609fc3e/press-conference-with-vivaldi-ceo-jon-von-tetzchner/",
   "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/3/",
-  "read_at": "2026-11-07T08:17Z",
+  "read_at": "2026-11-08T05:03Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
