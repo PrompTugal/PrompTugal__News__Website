@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; every 2 h at :33 from 9 November (the summit set); checking builds against design/decisions/",
-  "updated": "2026-11-09T02:52Z",
+  "updated": "2026-11-09T04:48Z",
   "done": [
+    "04:48 the list pages checked at v0.1.782 (board/spec-list-pages-and-days-check.md): switch, defaults, cards and search pass on people and articles, mostly on companies; length fails (companies about 25 phone screens, people 43); companies' switch under four paragraphs of prose. WK1's table image redrawn after the Monday re-count (no AI)",
     "02:52 (9 November) back on at Dinis's word (board/guidance/2026-11-09-the-summit-set.md, every 2 h): the acceptance check for the list pages and the summit's days written before dev.pages@ builds them (board/spec-list-pages-and-days-check.md: L1 to L6, D1 to D6, from the two decisions of 6 November); nothing shipped yet to check",
     "00:48 (8 November) WK1's table image redrawn after the Sunday re-count (no AI); sherpa@'s A2 designed: the reading credit said plainly (board/spec-the-reading-credit.md: one line 'Free to read', no ticking amount in the header, the numbers on /account/)",
     "23:42 newsletter P2 (thumbnails) passes; took designer.experiments@'s refreshed debrief, status and its day's ten run reports onto dev (its own paths)",
@@ -409,6 +410,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "back on (the summit set); the list pages' and days' check written"
+    },
+    {
+      "started": "2026-11-09T04:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the list pages checked: L1 to L4 pass, L5 length fails"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
