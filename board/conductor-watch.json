@@ -150,6 +150,16 @@
       "PrompTugal__App__iOS": "04513827",
       "PrompTugal__App__Mobile": "74332868",
       "note": "Android: Dinis merged PR #2 and ruled at 18:00 that conductors do every promotion (CLAUDE.md 03e58f5); main b089766 promoted by the conductor on security's signed PASS; first complete play.yml dry run green (approval, v0.1.125, SHA-256, attestation, app ID; upload skipped, no credential). Dev 64dcf14 awaiting security's signature for the next promotion. Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T18:45Z",
+      "SGit-AI__Website__Web-Summit": "468f1ce1",
+      "PrompTugal__News__Website": "3e74ec43",
+      "PrompTugal__App__Android": "e33365db",
+      "PrompTugal__App__iOS": "04513827",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS conductor joins the rota at :00 (hourly wake created; first fire ~19:00). iOS dev 0451382 (v0.4.45) has the notification-crash fix 8605cba; its iOS release #126 ran 0 jobs, re-run by me 18:42 -> TestFlight internal for all three apps. App Store 0.4.24 (205, no Ask, Data Not Collected) WAITING_FOR_REVIEW since 8 Nov 23:19 and contains the notification-tap crash: fix ships in the next update after security's pass. Starting: news-app clash fixes + busy/free + cases.json (team), M-iPad (new session). All five repos read by ls-remote."
     }
   ]
 }
