@@ -34,7 +34,7 @@ export function pages(ctx) {
     return [{ rel: 'offline/index.html', src: PAGE, title: meta.title, summary: meta.summary, md: body, type: 'site', section: '' }]
 }
 // the app (features/app.mjs): its page, code and manifest, so the installed app opens with no network
-const APP = ['app/', 'assets/app/app.css', 'assets/app/app.js', 'assets/app/manifest.webmanifest']
+const APP = ['app/', 'assets/app/app.css', 'assets/app/app.js', 'assets/app/manifest.webmanifest', 'assets/fonts.css']
 export async function keep(ctx) {
     const days = ctx.pages.filter(p => /^days\/[^/]+\/index\.html$/.test(p.rel)).map(p => dir(p.rel))
     const news = articlesOf(ctx).slice(0, 10).map(a => a.rel)

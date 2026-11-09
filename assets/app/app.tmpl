@@ -11,32 +11,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The app · PrompTugal.news</title>
 <meta name="description" content="{{summary}}">
-<meta name="theme-color" content="#14213d">
+<meta name="theme-color" content="#121317">
 <link rel="icon" href="{{up}}assets/brand/favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="{{up}}assets/app/manifest.webmanifest">
 <link rel="apple-touch-icon" href="{{up}}assets/brand/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="PT app">
+<link rel="stylesheet" href="{{up}}assets/fonts.css">
 <link rel="stylesheet" href="{{up}}assets/app/app.css">
 <script defer src="{{up}}assets/app/app.js"></script>
 </head>
 <body>
 <div class="pa" id="pt-app" data-up="{{up}}">
 <header class="pa-top">
-<a class="pa-home" href="{{up}}index.html" target="_top"><b>PrompTugal</b><span>.news</span></a>
+<a class="pa-home" href="{{up}}index.html" target="_top"><img src="{{up}}assets/brand/promptugal-wordmark-dark.svg" alt="PrompTugal.news" width="1600" height="261"></a>
 <span class="pa-sub">Web Summit Lisbon, 9 to 12 November</span>
 <a class="pa-full" href="{{up}}app/index.html" target="_blank" rel="noopener" data-full>Full screen</a>
 </header>
 <nav class="pa-days" aria-label="Days"></nav>
 <div class="pa-tabs" role="group" aria-label="View"><button type="button" data-tab="all">Programme</button><button type="button" data-tab="mine">My picks</button></div>
 <input class="pa-q" type="search" placeholder="Search a session, a company, a stage" aria-label="Search the programme">
+<section class="pa-next" hidden aria-label="Where I need to be next"><p class="pa-next-k"></p><p class="pa-next-t"></p><p class="pa-next-w"></p><p class="pa-next-go"><a class="pa-dir" target="_blank" rel="noopener">Directions</a> <a class="pa-map" href="{{up}}summit/venue/index.html" target="_top">On the venue map</a></p></section>
 <main class="pa-list" aria-live="polite"><p class="pa-note">Loading the programme…</p></main>
 <footer class="pa-foot">
 <p><button type="button" class="pa-ics-all" hidden>Add all my picks to my calendar</button></p>
 <p class="pa-small">Your picks stay in this browser; this site never receives them. Times are Lisbon time and can change: check the summit's own schedule. <a href="{{up}}my-day/index.html" target="_top">My day</a> · <a href="{{up}}events/index.html" target="_top">The agenda</a></p>
 </footer>
 </div>
-<script type="application/json" id="pa-words">{"pick":"Add","picked":"Added","clash":"Clashes with","free":"Free","ics":"Calendar","none_mine":"No picks on this day yet. Add sessions from the programme.","none":"Nothing matches on this day.","failed":"The programme did not load. Try again when you are online.","until":"until","all_day":"All day"}</script>
+<script type="application/json" id="pa-words">{"pick":"Add","picked":"Added","clash":"Clashes with","free":"Free","ics":"Calendar","none_mine":"No picks on this day yet. Add sessions from the programme.","none":"Nothing matches on this day.","failed":"The programme did not load. Try again when you are online.","until":"until","all_day":"All day","next_now":"Now","next_in":"Next, in","next_min":"min","next_h":"h"}</script>
 </body>
 </html>
 <!-- end -->

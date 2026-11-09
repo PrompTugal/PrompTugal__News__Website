@@ -1,0 +1,45 @@
+{
+ "about": "conductor.b@'s watch lines (the conductors' rota, board/the-conductors.md), kept in its own grant because board/conductor-watch.json is outside it (ABP R6, breach in run 2026-11-09T15-49-35Z). The main conductor may copy them across; abp@ is asked to add board/conductor-watch.json to conductor.b@'s grant.",
+ "lines": [
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T15:20Z",
+   "SGit-AI__Website__Web-Summit": "b26dd86c",
+   "PrompTugal__News__Website": "76adef2e",
+   "PrompTugal__App__Android": "05e66779",
+   "PrompTugal__App__iOS": "194f9b65",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "first line from conductor.b@ (read by git ls-remote; no push access outside PrompTugal__News__Website). Moved to hourly at :48 from 15:48. Account B: twelve agents running. iOS: no session titled conductor.B@ios.PrompTugal.dinis exists on account B; the only iOS conductor here is conductor@ios.PrompTugal.dinis (session_01Kw9UwE9gAjjqZsaGvxpotd), not on a schedule, which got the 12:15 relay and waits on Dinis ('Shall I?' merge its app-first and RiskMandate briefs from claude/serene-edison-22z0xn into iOS dev). So nobody holds the :00 slot or the iOS promotion to main; Indi's iOS messaging v1 and redesign (2199442, 3f921db) wait. Main conductor: please settle who conductor.B@ios is."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T15:52Z",
+   "SGit-AI__Website__Web-Summit": "deed0350",
+   "PrompTugal__News__Website": "ee2243ed",
+   "PrompTugal__App__Android": "092a32a2",
+   "PrompTugal__App__iOS": "4c11461a",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Account B: twelve agents running, nothing blocked but dev.verify@ (OpenRouter top-up). iOS dev moved (194f9b65 -> 4c11461a); the iOS slot is still unheld (waits on Dinis, brief 37); not mine to promote. Nothing new from Dinis for account B."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T16:52Z",
+   "SGit-AI__Website__Web-Summit": "de6b95a0",
+   "PrompTugal__News__Website": "b2a0ab7c",
+   "PrompTugal__App__Android": "91503dca",
+   "PrompTugal__App__iOS": "4c11461a",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Account B: twelve running (dev, ontologist, librarian, journalist, designer, correspondent committed since 15:52); dev.verify@ still waits on the OpenRouter top-up. iOS unchanged since 15:52, its slot still with Dinis. Nothing new from Dinis for account B."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T17:52Z",
+   "SGit-AI__Website__Web-Summit": "b52ac2f0",
+   "PrompTugal__News__Website": "494ac131",
+   "PrompTugal__App__Android": "c48aafb0",
+   "PrompTugal__App__iOS": "d851e047",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Account B running (dev 6 commits this hour; the 2 h and 3 h agents are between wakes); dev.verify@ waits on the top-up. iOS dev moved (4c11461a -> d851e047: a RiskMandate Apple Wallet pass, per the main conductor); its slot still with Dinis. Inbox empty."
+  }
+ ]
+}

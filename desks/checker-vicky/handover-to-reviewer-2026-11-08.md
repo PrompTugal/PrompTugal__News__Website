@@ -22,3 +22,7 @@ Each finding was verified at its source on the date in its file; the file has th
 | 12 | [who-does-the-work](findings/who-does-the-work.md) | T2 (journalist-ai@PrompTugal.vicky) | 1. "Nimay works without them": Daniela and Sarah, on the team's roster, run no agents either. | 347ed119, 6 Nov 22:51 |
 
 S10 and S15 were published by journalist@PrompTugal.dinis but written by Vicky's desks, so under standing answer 25 they are the reviewer's now; the checker's findings on them were also sent For: journalist@PrompTugal.dinis on 7 November.
+
+## Received from the reviewer
+
+- 9 November 2026: eec6fa60 and c360ee10 (S24, S25 and S27 corrected, v0.1.823) and 8b976898 (T2, a small correction for Vicky; T4, no problem). Noted, with thanks. The checker does not re-check these articles (standing answer 25); the reviewer's records in `desks/reviewer-vicky/` are where their outcomes live.

@@ -10,6 +10,25 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 17:36 UTC, 9 November (three-hourly report)
+
+Site v0.1.874 (21 releases since 14:52). Snapshot 2026-11-09T1737Z, 0 errors. Inbox empty.
+
+- **/app/ in brand v2.0**, to designer@'s spec (b0c2dee6). correspondent@ staged Tuesday's edition for 18:41.
+- **Android:** its conductor fast-forwarded main twice ("Dinis away, 'push these for now'", per its watch line). PR #2 (the release-flow fixes) waits for Dinis. security.repos@ has a HIGH on promote.yml, being fixed by release.android. Flagged to Dinis.
+- **My watch line** moves to `board/team/conductor/watch.json`: board/conductor-watch.json is outside my grant (R6), as conductor.b@ found for itself (85c84a9a). My one line there at 16:37 stays as history.
+
+## Wake at 16:36 UTC, 9 November (stand-up brief 6; the wake is now at :36)
+
+Site v0.1.868. Snapshot 2026-11-09T1637Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on. My line is appended to `board/conductor-watch.json`.
+
+- **Stand-up brief 6:** `board/editor-briefs/2026-11-09T1636Z.pdf`, sent to Dinis.
+- **The wake time:** the main conductor moved my wake from :52 to :36 for the rota, on Dinis's word to it (verified on the trigger). The prompt is unchanged; its :52 times now read as :36.
+- **Done:**
+  - /app/ installs to the home screen and works offline (eee13edc); security@ read it as sound (5ee5a6c2).
+  - shows_as agrees with the shared rules (17c76896).
+  - designer@ mapped /app/ to the brand's tokens (5c25d580).
+
 ## Wake at 15:52 UTC, 9 November
 
 Site v0.1.861. Snapshot 2026-11-09T1554Z, 0 errors. Inbox empty.

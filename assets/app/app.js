@@ -51,7 +51,22 @@
         li.appendChild(t); li.appendChild(body); li.appendChild(tools); return li
     }
 
+    // where I need to be next: today's next pick (or the one on now), its place, and Directions (the maps app, the destination
+    // only, opened by the reader: nothing is sent from here)
+    var nx = root.querySelector('.pa-next')
+    function next() {
+        var now = new Date(), today = now.toISOString().slice(0, 10), m = now.getUTCHours() * 60 + now.getUTCMinutes()
+        var ids = load().picks.map(function (p) { return p.id }), list = dayItems(today).filter(function (i) { return ids.indexOf(i.id) >= 0 && !allDay(i) && span(i)[1] - span(i)[0] <= 180 && span(i)[1] > m })
+        list.sort(function (a, b) { return span(a)[0] - span(b)[0] })
+        var i = list[0]; nx.hidden = !i; if (!i) return
+        var wait = span(i)[0] - m, apple = /iPhone|iPad|Macintosh/.test(navigator.userAgent)
+        nx.querySelector('.pa-next-k').textContent = wait <= 0 ? W.next_now : W.next_in + ' ' + (wait >= 60 ? Math.floor(wait / 60) + ' ' + W.next_h + ' ' : '') + (wait % 60) + ' ' + W.next_min
+        nx.querySelector('.pa-next-t').textContent = hm(span(i)[0]) + ' ' + i.title
+        nx.querySelector('.pa-next-w').textContent = i.where || ''
+        nx.querySelector('.pa-dir').href = (apple ? 'https://maps.apple.com/?daddr=' : 'https://www.google.com/maps/dir/?api=1&destination=') + encodeURIComponent(i.where || 'Web Summit, Lisbon')
+    }
     function draw() {
+        next()
         nav.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-d') === st.day ? 'true' : 'false') })
         root.querySelectorAll('.pa-tabs button').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-tab') === st.tab ? 'true' : 'false') })
         var items = dayItems(st.day).slice().sort(function (a, b) { return span(a)[0] - span(b)[0] }), ids = load().picks.map(function (p) { return p.id })
@@ -85,6 +100,7 @@
     q.addEventListener('input', function () { st.q = q.value; draw() })
     all.addEventListener('click', function () { download('promptugal-my-picks.ics', mine()) })
     window.addEventListener('storage', function (e) { if (e.key === KEY) draw() })
+    setInterval(function () { if (DAYS.length) next() }, 60000)
 
     // Add to Home Screen opens the app full screen; the site's own offline worker keeps it and the programme on the device
     if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register(up + 'sw.js', { scope: up }).catch(function () { })

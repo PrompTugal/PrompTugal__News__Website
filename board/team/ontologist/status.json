@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, the summit set: every 2 h)",
-  "updated": "2026-11-09T16:45Z",
+  "updated": "2026-11-09T18:35Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -65,7 +65,8 @@
     "built_on, a further scan (customer pages of Mastra, Google Cloud, Runpod, Exa, LaunchDarkly, Descope): one candidate, not taken: Prisma's internal agents (Gremlin, Sherlog) are 'Built with Mastra' (Mastra's case study), but built_on is about a company's product, not its internal tools. Dinis's guidance of 10:15 (the LLM in the apps) read: nothing asked of the data yet (on-device graph matching is an experiment to come). Programme desk not yet answered on Temporal and a16z (10:21 wake, 9 Nov)",
     "Summit-week checks rerun on the 226-item agenda: no near misses, no unmatched places; five subject tracks (Corporate Innovation, Future of Work, Growth, MoneyConf, SaaS) have no fitting topic and stay unmapped rather than forced; no data changed (12:21 wake, 9 Nov)",
     "The iOS app's request via conductor@ (signed by its active key): event field shows_as (free | busy) in event.schema.json, derived by derive.mjs (showsAs) and set on the 23 hand-kept events by the same rule; 52 free, 197 busy; in the published JSON; conductor@ told (14:21 wake, 9 Nov)",
-    "shows_as aligned with mobile@'s shared schedule rules (App__Mobile formats/schedule-rules at 7433286): its free title patterns and 180-minute threshold in showsAs; its cases.json derivation cases pass; 225 of 249 agree with the bare fallback, the 24 others umbrella or multi-day events with no clock time (free here, rightly); conductor@ told (16:21 wake, 9 Nov)"
+    "shows_as aligned with mobile@'s shared schedule rules (App__Mobile formats/schedule-rules at 7433286): its free title patterns and 180-minute threshold in showsAs; its cases.json derivation cases pass; 225 of 249 agree with the bare fallback, the 24 others umbrella or multi-day events with no clock time (free here, rightly); conductor@ told (16:21 wake, 9 Nov)",
+    "The 9 November hand-over debrief (18:21 wake)"
   ],
   "next": [
     "Feedzai's stage, funding and founders from its own public pages (F13), only what they state; more built_on edges from providers' customer pages",
@@ -433,6 +434,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "shows_as agrees with the apps' rules.json; cases pass"
+    },
+    {
+      "started": "2026-11-09T18:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "9 November debrief; nothing new in"
     }
   ],
   "decisions_on_findings": [
@@ -452,6 +459,6 @@
       "at": "2026-11-06T17:40Z"
     }
   ],
-  "debrief": "board/team/ontologist/debriefs/2026-11-08-handover.md",
+  "debrief": "board/team/ontologist/debriefs/2026-11-09-handover.md",
   "session": "board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/notes.md"
 }

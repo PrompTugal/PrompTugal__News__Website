@@ -2,7 +2,7 @@
   "$schema": "../../schemas/story.schema.json",
   "id": "authority-checks",
   "type": "story",
-  "title": "Speed or control: tuning a team of a hundred agents",
+  "title": "Speed where it's safe, control where it matters",
   "beat": "AI and robotics (the team's own work)",
   "topic": null,
   "status": "draft",
