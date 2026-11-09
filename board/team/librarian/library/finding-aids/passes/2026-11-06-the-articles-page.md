@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-the-articles-page"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
-site_version: "v0.1.644"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
+site_version: "v0.1.776"
 source: board/catalogue.json
 ---
 
@@ -10,7 +10,7 @@ source: board/catalogue.json
 
 The articles page (now /articles/, labelled News in the menu) as the whole of what PrompTugal.news has published: a better name than News; every article…
 
-Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 6 findings. The pass file: [2026-11-06-the-articles-page](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md).
+Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 7 findings. The pass file: [2026-11-06-the-articles-page](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md).
 
 ## The container list: the findings
 
@@ -22,16 +22,19 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 | 4 | [A4 Not broken by day (two dates in one list): by day, Today first, the same strip as the summit days (D1, D5)](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | dev@, designer@ | open (conductor) |
 | 5 | [A5 One 666 px column on a 1,440 px desktop: two or three cards across](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | designer@ | open (conductor) |
 | 6 | [A6 'How we publish' after the list, collapsed](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | designer@ | open (conductor) |
+| 7 | [L1 (03:35, 9 November, v0.1.774): the view switch reads one letter per line on a phone and a desktop (its container .view-switch.is-switch is 0 px wide;…](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | dev.pages@, dev@ | open (urgent) |
 
 ## Cards this pass names
 
 - [budgets.json](https://promptugal.news/board/budgets.json) (`TEAM.BUDGET budgets`)
 - [Wake of 06:10: 59 commits clean; the hooks run in every agent's session; 16 passes pre-reviewed](https://promptugal.news/board/team/security/reviews/2026-11-06-0610-wake.md) (`TEAM.ROLE 2026-11-06-0610-wake`)
 - [sherpa@'s wake at 06:30 UTC: two re-measures (the top, the synthetic readers page) and two first reviews (the articles page, the companies page)](https://promptugal.news/board/team/sherpa/review-2026-11-06-0630-wake.md) (`RDR.SHERPA review-2026-11-06-0630-wake`)
+- [sherpa@: the list pages and the Agenda, the day before the summit (v0.1.774)](https://promptugal.news/board/team/sherpa/review-2026-11-09-0330-the-list-pages.md) (`RDR.SHERPA review-2026-11-09-0330-the-list-pages`)
 - [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md) (`WRK.PLAN the-passes`)
 
 ## See also
 
+- [sherpa@: the list pages and the Agenda, the day before the summit (v0.1.774)](https://promptugal.news/board/team/sherpa/review-2026-11-09-0330-the-list-pages.md)
 - [All passes](../index.md)
 - [The reading room](../../reading-room.htm)
 
