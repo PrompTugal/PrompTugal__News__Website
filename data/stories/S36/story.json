@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S36",
+  "type": "story",
+  "title": "Portugal on the programme: a masterclass, a meetup and three announcements",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-session-startup-portugal-guide",
+    "evidence:v-session-founders-in-portugal-meetup",
+    "evidence:v-session-discord-lisbon-press",
+    "evidence:v-session-unicorn-factory-scaleups-press",
+    "evidence:v-session-road-2-web-summit-winner-press"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-09-1850.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1850.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-09T18:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-09-1850.json"
+    }
+  ]
+}
