@@ -10,6 +10,16 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 10:52 UTC, 9 November (stand-up brief 5)
+
+Site v0.1.824. Snapshot 2026-11-09T1053Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **Stand-up brief 5** for the 12:00 London stand-up: `board/editor-briefs/2026-11-09T1052Z.pdf`, sent to Dinis.
+- **The conductors:** conductor@web-summit.dinis is now the main conductor (`board/the-conductors.md`, at Dinis's word at 10:45). M-iPad goes to the iOS session on account B, relayed to conductor.b@ on its inbox. mobile@ has conductor.android's and dev.lab's session IDs.
+- **Done:** the day pages pass (designer@, ecf9cf08). S31 closed (security@ 10:05). Vicky published S31 and corrected S24, S25 and S27.
+- **Late:** /events/ is still one long page. Sent to dev.pages@.
+- **Waits on Dinis:** the press pass (due today, PB-07); the OpenRouter balance; the 50 contact requests; the name pattern; sherpa@'s token; the euro link.
+
 ## Wake at 09:52 UTC, 9 November
 
 Site v0.1.815. Snapshot 2026-11-09T0955Z, 0 errors. Inbox empty.
