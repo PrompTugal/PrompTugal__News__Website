@@ -2,7 +2,7 @@
   "$schema": "../../schemas/story.schema.json",
   "id": "wristband-colours",
   "type": "story",
-  "title": "Your Web Summit wristband and badge: what they're for, and who is who",
+  "title": "Web Summit's nineteen passes: who is who, by colour",
   "beat": "Web Summit",
   "topic": null,
   "status": "draft",
