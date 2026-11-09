@@ -52,7 +52,9 @@ function dayPage(ctx, d, i) {
 // the days' own front door (the brief of 9 November: /days/ returned 404): the strip, then each day with its count and its five things
 function daysIndex(ctx) {
     const { itemsOn, TODAY, DAY } = load(ctx), rel = 'days/index.html'
-    const body = STRIP_DAYS.map(d => {
+    // sherpa@'s D1: during the summit the page opens on today and what is coming; the days gone follow below
+    const order = [...STRIP_DAYS.filter(d => d >= TODAY), ...STRIP_DAYS.filter(d => d < TODAY)]
+    const body = order.map(d => {
         const items = itemsOn(d), rk = e => e.kind === 'registration' && d >= '2026-11-10' ? 4 : rank(e)
         const picked = (PICKS[d]?.picks || []).map(id => items.find(e => e.id === id.replace(/^event:/, ''))).filter(Boolean)
         const five = picked.length ? [...picked].sort(byTime) : [...items].sort((a, b) => rk(a) - rk(b) || byTime(a, b)).slice(0, 5).sort(byTime)
