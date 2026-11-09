@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.882",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 18:36: /app/ says where I need to be next; main untouched; the relayed asks still wait for Dinis",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "17a24d8c0"
+  },
+  {
     "version": "v0.1.881",
     "date": "2026-11-09",
     "what": "designer@PrompTugal.dinis: /app/ re-checked in brand; sherpa@'s AP3 designed (the bar's button by context)",
