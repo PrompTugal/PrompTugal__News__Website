@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.860",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 15:29 wake: L4 and D1 verified done (v0.1.858); the list and day pages done for the reader",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "4a653007a"
+  },
+  {
     "version": "v0.1.859",
     "date": "2026-11-09",
     "what": "reviewer@PrompTugal.vicky: SA25: the checker's findings on T2 (a small correction, for Vicky) and T4 (no problem)",
