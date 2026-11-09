@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.858",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2264c428e"
+  },
+  {
     "version": "v0.1.857",
     "date": "2026-11-09",
     "what": "watch 15:20: Indi's iOS work cleared by security; the iOS :00 slot is empty (put to Dinis)",
