@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "waiting: D1 (/days/ opens on today, the strip centred) on work/dev.pages for dev@; nothing else addressed to me",
-  "updated": "2026-11-09T14:16Z",
+  "state": "idle: all my work is on dev (D1 included); nothing addressed to me",
+  "updated": "2026-11-09T15:18Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -29,15 +29,14 @@
     "Wake 11:11: /events/ length (conductor's brief of 10:52, designer@'s 10:48 check: 40 phone screens): on each day of the strip the top 3 by rank (official list and other events), then 'All N on <day>' to the day page; 12.1 phone screens, 8.0 desktop (was about 40 and 28); other dates (earlier years) still list in full",
     "Wake 12:11: merged dev (clean), gate green at v0.1.838; dev@ brought /events/ as the week's overview; nothing else addressed to me",
     "Wake 13:11: designer@ passes /events/; sherpa@'s D1 (/days/ opened on Friday 6, a past day, during the summit): /days/ now lists today and the coming days first, the days gone below; and the strip of days scrolls so today (or the viewed day) is in the middle on a phone (assets/days/days.js)",
-    "Wake 14:11: merged dev (clean), gate green at v0.1.848; read the 14:05 guidance (everybody pushes to dev, only Dinis and the conductors to main): my wake prompt and grant still say work/dev.pages only, so I keep to that and ask in asks if it should change"
+    "Wake 14:11: merged dev (clean), gate green at v0.1.848; read the 14:05 guidance (everybody pushes to dev, only Dinis and the conductors to main): my wake prompt and grant still say work/dev.pages only, so I keep to that and ask in asks if it should change",
+    "Wake 15:11: merged dev (status.json conflict kept mine), gate green at v0.1.856; dev@ brought D1; read the 14:40 brief (the news app on the web): for dev@ and its workers, nothing assigned to me; conductor.b@ answered the push-rule question: keep to work/dev.pages"
   ],
   "next": [
     "Past days D6 (S3)",
     "Logos, photos, people-to-company links (data and licence)"
   ],
-  "asks": [
-    "Dinis: the 14:05 guidance says everybody pushes to dev; my scheduled wake and my grant say push to work/dev.pages only and dev@ brings it. I keep to the branch until the conductor or you change my wake's words."
-  ],
+  "asks": [],
   "handover": "board/team/dev.pages/debriefs/2026-11-06-handover.md",
   "debrief": "board/team/dev.pages/debriefs/2026-11-08-handover.md"
 }
