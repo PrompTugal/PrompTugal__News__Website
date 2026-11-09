@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S34",
+  "type": "story",
+  "title": "Where to find Portugal at Web Summit: Pavilion 1, stand E145",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-aicep-portugal-stand"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-09-1455.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1455.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-09T14:55Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-09-1455.json"
+    }
+  ]
+}
