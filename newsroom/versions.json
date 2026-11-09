@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.866",
+    "date": "2026-11-09",
+    "what": "watch 16:18",
+    "by": "conductor@web-summit.dinis",
+    "from": "3275c1bf7"
+  },
+  {
     "version": "v0.1.865",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 16:05: 36 commits clean; the news app on the web read, sound",
