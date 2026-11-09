@@ -1,5 +1,180 @@
 [
   {
+    "version": "v0.1.806",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the contact check takes exact domains and operators' names only (security@'s S31)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "00d95c485"
+  },
+  {
+    "version": "v0.1.805",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 08:05: 19 commits clean, S21 closed, S31 (the board allowance's domains) to dev@",
+    "by": "security@PrompTugal.dinis",
+    "from": "46e710f56"
+  },
+  {
+    "version": "v0.1.804",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 07:52: the list pages shorter (L5); the day views next",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c9cf58022"
+  },
+  {
+    "version": "v0.1.803",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 07:08: the list pages shorter from dev.pages@ (L5); status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7e25837d1"
+  },
+  {
+    "version": "v0.1.802",
+    "date": "2026-11-09",
+    "what": "librarian@PrompTugal.dinis: wake 06:57: the ledger's 25 Not captured ideas re-checked; catalogue v0.1.800",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "7eb9daf1f"
+  },
+  {
+    "version": "v0.1.801",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 06:52: list pages' length late, sent to dev.pages@ and dev@; S21 closed",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "d9e377901"
+  },
+  {
+    "version": "v0.1.800",
+    "date": "2026-11-09",
+    "what": "accountant@PrompTugal.dinis: 06:50 reading, 84.36 API-equivalent so far on 9 November",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "236636ece"
+  },
+  {
+    "version": "v0.1.799",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: idle; WK1 leads",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "89c428d7c"
+  },
+  {
+    "version": "v0.1.798",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: lean wake 06:33: list pages' length unchanged (v0.1.796), no image needed",
+    "by": "designer@PrompTugal.dinis",
+    "from": "22e61d3cd"
+  },
+  {
+    "version": "v0.1.797",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 06:30 wake: the list pages re-measured (v0.1.796); the switch fixed, search works",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "9175ee8e5"
+  },
+  {
+    "version": "v0.1.796",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: lean wake, nothing new; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "22fabfead"
+  },
+  {
+    "version": "v0.1.795",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "1bfd1acaa"
+  },
+  {
+    "version": "v0.1.794",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the gate's contact check covers all of board/ (security@'s S21)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a561fb154"
+  },
+  {
+    "version": "v0.1.793",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 06:13 wake: all twelve account-B agents ran; ledger",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c53425d0f"
+  },
+  {
+    "version": "v0.1.792",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 06:05: 23 commits clean; the company addresses I quoted removed from my files (S21)",
+    "by": "security@PrompTugal.dinis",
+    "from": "dd7f544b8"
+  },
+  {
+    "version": "v0.1.791",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "5ce3d6f3b"
+  },
+  {
+    "version": "v0.1.790",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 05:52: the articles page and /days/ live; the agenda of 9 November loaded; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "724a6cfaa"
+  },
+  {
+    "version": "v0.1.789",
+    "date": "2026-11-09",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "0f0cd2760"
+  },
+  {
+    "version": "v0.1.788",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 05:08: the articles page and /days/ from dev.pages@; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b017a57fc"
+  },
+  {
+    "version": "v0.1.787",
+    "date": "2026-11-09",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "21c5cb707"
+  },
+  {
+    "version": "v0.1.786",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 04:52: list pages pass designer's check except length; S30 mostly done",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "39d91ceb7"
+  },
+  {
+    "version": "v0.1.785",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 04:41: idle; WK1 leads; nothing new to place",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "ce0016e47"
+  },
+  {
+    "version": "v0.1.784",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: the list pages checked at v0.1.782: switch, defaults, cards and search pass; length does not",
+    "by": "designer@PrompTugal.dinis",
+    "from": "68465eb68"
+  },
+  {
+    "version": "v0.1.783",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: WK1 re-counted for Monday; the Developer Summit now starts on Tuesday",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9c95c3c48"
+  },
+  {
+    "version": "v0.1.782",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "1edc669a4"
+  },
+  {
     "version": "v0.1.781",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: wake 04:08: status and run report; waits on Dinis for a euro payment link",

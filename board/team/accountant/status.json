@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A (stays, board/the-account-move.md): every three hours at :47 UTC; capture and adjust",
- "updated": "2026-11-09T03:55Z",
+ "updated": "2026-11-09T06:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -23,15 +23,15 @@
   "09:50 wake: 213.01 API-equivalent today (A 52.53, B 160.48), about 22 an hour; investors@ and me over our lines, recorded; the reading is now a script, so each wake costs fewer tokens",
   "12:50 wake: 309.08 API-equivalent today (A 74.05, B 235.03), about 32 an hour; investors@ at 66.59 against 15 (the decks), told to conductor.b@ and the conductor on their inboxes; abp@ and me over too",
   "15:50 wake: 414.39 API-equivalent today (A 90.67, B 323.72), about 35 an hour; investors@ 108.92, about a quarter of the team's day",
-  "03:48 on 9 November (a catch-up wake after the session was down from 18:47 on 7 November; nine wakes missed): the late close of 7 and 8 November (B 509.29 and 89.97; A 133.72 for both days together); budgets.json reset for 9 November with a new baseline; the summit set in accounts; dev.verify@'s OpenRouter budget checked (go, 1 USD a day); about 25 USD of OpenRouter draw on 7 November untraced, recorded"
+  "03:48 on 9 November (a catch-up wake after the session was down from 18:47 on 7 November; nine wakes missed): the late close of 7 and 8 November (B 509.29 and 89.97; A 133.72 for both days together); budgets.json reset for 9 November with a new baseline; the summit set in accounts; dev.verify@'s OpenRouter budget checked (go, 1 USD a day); about 25 USD of OpenRouter draw on 7 November untraced, recorded",
+  "06:50 on 9 November: 84.36 API-equivalent so far (A 14.84, B 69.52), the summit set running; no agent over its line; account A allowed; report-2026-11-09.md; my session compacted (about 119 k tokens), so readings cost less"
  ],
  "next": [
-  "at 06:47: account A's sessions and conductor.b@'s newest ledger against the 9 November baseline; the summit set's pace"
+  "at 09:47: account A's sessions and conductor.b@'s newest ledger against the 9 November baseline"
  ],
  "asks": [
   "Dinis: OpenRouter (real money) went from about 29.79 to about 1.6 USD on the evening of 7 November; the agents' records account for about 2.4, so about 25 USD is untraced (the key is shared). Ask every agent using the key to log model and cost per call? dev.verify@ is a go within 1 USD a day once the credit is topped up",
   "Dinis: my session was down from 18:47 on 7 November to 03:47 on 9 November (a worker restart; nine wakes missed); the close of 7 and 8 November is written late, account A as one figure",
-  "Dinis: my own session is about 740 k tokens deep (37 API-equivalent over two days); a fresh accountant@ session would read the same for less. The hand-over debrief is ready (debriefs/2026-11-09-handover.md)",
   "Dinis: at the 09:50 wake on 6 November sgit printed my inbox vault's read key into this session's transcript (never committed): rotate my inbox if you wish"
  ],
  "wakes": [
@@ -118,6 +118,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "catch-up: late close of 7 and 8 November, the 9 November baseline, dev.verify@'s OpenRouter go, 25 USD untraced"
+  },
+  {
+   "started": "2026-11-09T06:48Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "84.36 so far (A 14.84, B 69.52); nobody over; account A allowed"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-09-handover.md"

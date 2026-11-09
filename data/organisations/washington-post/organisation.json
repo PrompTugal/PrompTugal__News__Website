@@ -1,15 +1,15 @@
 {
   "$schema": "../../schemas/organisation.schema.json",
-  "id": "pitchbook-data",
+  "id": "washington-post",
   "type": "organisation",
-  "name": "PitchBook Data",
+  "name": "The Washington Post",
   "names_as_listed": [
-    "PitchBook Data"
+    "The Washington Post"
   ],
   "sources": [
     {
-      "url": "https://websummit.com/sessions/lis26/3c456209-8f0b-41df-8c2e-f4a329945082/press-conference-pitchbook-goes-free-for-startups-new-platform-for-finding-them-first/",
-      "read_at": "2026-11-08T05:03Z",
+      "url": "https://websummit.com/sessions/lis26/2b807636-c8da-412f-87c4-331707882876/surviving-the-ai-shift-media-s-new-reality/",
+      "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky",
       "how": "a speaker card on the event page"
     }

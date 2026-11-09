@@ -1,0 +1,16 @@
+<!-- The articles page's working list (designer.experiments@'s articles/switch.mjs, the approved mock-up; Dinis 6 November 2026,
+     the list pages: "articles open as the wire"): three views of one list (The wire, By day, By topic), a topic filter, a live
+     search and a count, from the page's own data. Markup and words; filled by newsroom/build/features/lists.mjs;
+     behaviour: assets/lists/lists.js. -->
+<!-- part:app -->
+<section class="ls" id="ar-app" data-list="articles" aria-label="The articles, in three views">
+<div class="ls-ctl" role="group" aria-label="How to read the articles">
+<div class="ls-seg" role="group" aria-label="View"><button type="button" data-v="wire">The wire</button><button type="button" data-v="day">By day</button><button type="button" data-v="topic">By topic</button></div>
+<input class="ls-q" type="search" placeholder="Search a title or summary" aria-label="Search the articles">
+<select class="ls-f" aria-label="Topic"></select>
+<span class="ls-n" role="status" aria-live="polite"></span>
+</div>
+<div class="ls-out"></div>
+<script type="application/json" class="ls-data">{{data}}</script>
+</section>
+<!-- end -->

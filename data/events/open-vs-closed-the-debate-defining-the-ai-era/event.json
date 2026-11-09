@@ -33,8 +33,8 @@
     },
     {
       "person": "person:carmem-domingues",
-      "as_listed": "Carmem Domingues (former White House Senior AI Advisor, AI Techno-Realist, Future Government Institute)",
-      "role": "former White House Senior AI Advisor, AI Techno-Realist",
+      "as_listed": "Carmem Domingues (former White House Senior AI Advisor, AI Techno-Realist, AI Techno-Realist, Future Government Institute)",
+      "role": "former White House Senior AI Advisor, AI Techno-Realist, AI Techno-Realist",
       "organisation": "Future Government Institute",
       "org": "organisation:future-government-institute"
     },
@@ -56,7 +56,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/0a834d30-6d0c-49ed-986c-6e2eed88f8ab/open-vs-closed-the-debate-defining-the-ai-era/",
-  "read_at": "2026-11-08T05:05Z",
+  "read_at": "2026-11-09T05:09Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -67,6 +67,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 136
+    "item": 139
   }
 }
