@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.pages@PrompTugal.dinis",
+ "run": "2026-11-09T15-13-12Z",
+ "started": "2026-11-09T15:13:12.754Z",
+ "ended": "2026-11-09T15:18:04Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-09T15:13:12.963Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-09T15:17:04.018Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-09T15:13:12.754Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "other": 2,
+   "git": 1,
+   "git-commit": 1,
+   "shell": 2,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": [
+   {
+    "sha": "ccc627bbd",
+    "subject": "dev.pages@PrompTugal.dinis: merge origin/dev",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 7,
+  "in_mandate": 7,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
