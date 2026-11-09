@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B (summit set): the list pages and days done for the reader",
-  "updated": "2026-11-09T15:40Z",
+  "state": "running on account B (summit set): the news app on the web reviewed",
+  "updated": "2026-11-09T18:45Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -33,12 +33,13 @@
     "06:35 (9 Nov): list pages re-measured at v0.1.796: L1 (the switch) and L2 done; search tested (live count, query in the address, clear no-match); Articles is the approved wire; D1 /days/ opens on a past day; L4 open; dev.pages@ told",
     "09:35 (9 Nov): Companies is the approved page (11.1 phone screens from 31.9); day pages live with the three views; D1, L4, G1 still open; dev.graphs@ reminded",
     "12:35 (9 Nov): the home page answers today in its first phone screen (keep); L4 in part (the title cut to show the place); D1 open; dev.pages@ told. Read Dinis's 10:55 to 11:25 guidance (everyone trusted, publish, review your area): no change to this role",
-    "15:35 (9 Nov): L4 and D1 done (verified live at v0.1.858); every list and day finding of 9 November done but D2 (minor)"
+    "15:35 (9 Nov): L4 and D1 done (verified live at v0.1.858); every list and day finding of 9 November done but D2 (minor)",
+    "18:35 (9 Nov): the news app on the web (/app/) read cold on Opening Night: picks, calendar, privacy line and the desktop pane work; AP1 (rank 1) it opens at the top of the day, not at now; AP2 the days row hides Thu 12 and Fri 13; dev@ told"
   ],
   "next": [
-    "the news app on the web (the header's App button, Dinis 14:40) read cold when ready",
+    "re-measure AP1, AP2; test a clash, where-I-need-to-be-next and Add to Home Screen",
     "the summit coverage from Tuesday (articles, the front page) on a phone",
-    "graphs G1 to G5, X1 to X3 (dev.graphs@ is on)"
+    "graphs G1 to G5, X1 to X3"
   ],
   "asks": [
     "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it",
@@ -200,9 +201,15 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "L4 and D1 verified done"
+    },
+    {
+      "started": "2026-11-09T18:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "the app read cold: AP1 opens at the top of the day"
     }
   ],
-  "debrief": "board/team/sherpa/debriefs/2026-11-08-handover.md",
+  "debrief": "board/team/sherpa/debriefs/2026-11-09-handover.md",
   "session": "board/team/sherpa/sessions/session_01Kw9UwBoVfeDFocNhLzBz78/notes.md",
   "key": "sherpa-b-promptugal (board/keys.json); sherpa-promptugal superseded 22:50Z"
 }
