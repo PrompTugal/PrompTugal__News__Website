@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "correio-2026-10-25-invest-rio",
+  "story": "BR3",
+  "url": "https://www.correiodamanha.com.br/rio-de-janeiro/2026/10/amp/329679-invest-rio-firma-parceria-para-levar-dez-startups-cariocas-ao-web-summit-lisboa.html",
+  "title": "Invest.Rio firma parceria para levar dez startups cariocas ao Web Summit Lisboa (Correio da Manha, 25 October 2026)",
+  "publisher": "Correio da Manha",
+  "published": "2026-10-25",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Correio da Manha reports the Invest.Rio and Gol partnership for the Missao Web Summit Lisboa 2026 and dates the event 8 to 12 November, where Web Summit and the other two sources say 9 to 12."
+}
