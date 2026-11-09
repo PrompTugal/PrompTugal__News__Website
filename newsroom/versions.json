@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.849",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the live bar on a phone shows the title, not the place (sherpa@'s L4); D1 from dev.pages@",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f74865f43"
+  },
+  {
     "version": "v0.1.848",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 14:05: 21 commits clean; six conditions ahead for /contribute/",
