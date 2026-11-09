@@ -1,9 +1,10 @@
 {
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
-  "state": "working: session 3, account B; every 2 h at :33 from 9 November (the summit set); checking builds against design/decisions/",
-  "updated": "2026-11-09T20:56Z",
+  "state": "working",
+  "updated": "2026-11-09T22:45Z",
   "done": [
+    "22:45 /contribute/ checked live (v0.1.912): the rules and the wall pass in light and dark; fixed a stray 'into the page -->' that my fragment's comment caused; og:image left to dev@ (board/spec-contribute-page.md)",
     "20:56 /contribute/ (Dinis 20:20): the rules of the game as an HTML infographic in brand v2.0 (design/contribute/rules.html, no AI, the journalist's words), its share picture (rules--share.png), and the wall's look (counts, cards, share pills, 'name not shown'); board/spec-contribute-page.md for dev@ and dev.pages@",
     "18:42 /app/ re-checked after dev@'s b0c2dee61f: in brand (ink, the wordmark SVG, Plex, Newsreader, paper); two leftovers (the wordmark under 240 px in the bar: the stamp instead; one default-blue link); sherpa@'s AP3 designed: the bar's right button by context (Full screen in the pane, Install on a phone, News once installed)",
     "16:48 the news app on the web (/app/, dev@'s step 1) read for the brand: works and reads clearly, but its own look (navy, Georgia, the system font, its own red); the mapping to brand v2.0 is one :root block (board/spec-the-app-on-the-web.md) for dev@",
@@ -95,7 +96,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check /contribute/ and the wall against board/spec-contribute-page.md when they ship",
+    "The share picture as /contribute/'s og:image, when dev@ ships it; D6 (past days) from 10 November",
     "Re-check /events/ as the week's overview when dev.pages@ ships it; the past days (D6) from tomorrow",
     "Images for any new article (a table from its own table where the story is numbers)",
     "The open newsletter items (E1, E2, P1, P4, V1 to V3)"
@@ -472,6 +473,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "/contribute/: the rules infographic and the wall designed"
+    },
+    {
+      "started": "2026-11-09T22:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "/contribute/ checked live; stray comment text fixed"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

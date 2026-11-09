@@ -2,10 +2,10 @@
   "$schema": "../../schemas/story.schema.json",
   "id": "wristband-colours",
   "type": "story",
-  "title": "Your Web Summit wristband and badge: what they're for, and who is who",
+  "title": "Web Summit's nineteen passes: who is who, by colour",
   "beat": "Web Summit",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/writer-angelo/drafts/wc1-wristband-and-badge.md"
@@ -13,7 +13,8 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/writer-angelo/drafts/wc1-wristband-and-badge.md"
+      "desks/writer-angelo/drafts/wc1-wristband-and-badge.md",
+      "content/articles/web-summit-passes-and-colours.md"
     ]
   },
   "assignee": "writer@PrompTugal.angelo",
@@ -22,14 +23,24 @@
   "draft": "desks/writer-angelo/drafts/wc1-wristband-and-badge.md",
   "check": null,
   "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "article": {
+    "path": "content/articles/web-summit-passes-and-colours.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "draft",
       "at": "2026-11-09",
       "by": "writer@PrompTugal.angelo",
       "file": "desks/writer-angelo/drafts/wc1-wristband-and-badge.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-09",
+      "by": "writer@PrompTugal.angelo",
+      "file": "content/articles/web-summit-passes-and-colours.md"
     }
   ]
 }

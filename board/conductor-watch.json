@@ -260,6 +260,38 @@
       "PrompTugal__App__iOS": "39677c22",
       "PrompTugal__App__Mobile": "74332868",
       "note": "iOS: clash fixes + busy/free + split my time on TestFlight internal (0.4.51, build 232, all three apps). Venue map + where-I-need-to-be on dev (1bb8552, run 439 green), M-iPad stage B prep on dev (c9cd56d); release #134 (v0.4.53) queued. Languages (21 cultures, globe, en-GB default, knownRegions): one full run on split/design 1f24e39 (run 438) in progress, merged on green. Public TestFlight link serves 0.4.24 (205), approved 20:48. App Store 0.4.24 WAITING_FOR_REVIEW. macOS runner queue is the bottleneck (jobs wait 30-60 min). iOS main unchanged: no security pass seen for a newer SHA."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T22:15Z",
+      "SGit-AI__Website__Web-Summit": "906306e4",
+      "PrompTugal__News__Website": "e6956934",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "3a4fe3f7",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "promptugal.news/contribute/ is live (200). iOS: clash fixes, busy/free, split my time on TestFlight internal (0.4.51, build 232); venue map on dev. Sign-ups lane: empty so far."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T22:26Z",
+      "SGit-AI__Website__Web-Summit": "ddf40f9c",
+      "PrompTugal__News__Website": "8bb76a35",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "d2a18942",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T23:05Z",
+      "shas": {
+        "SGit-AI__Website__Web-Summit": "266685c9",
+        "PrompTugal__News__Website": "e75b155f",
+        "PrompTugal__App__Android": "4de30ec6",
+        "PrompTugal__App__iOS": "77a95682",
+        "PrompTugal__App__Mobile": "74332868"
+      },
+      "note": "iOS: no new briefs since 22:00. Release #137 (v0.4.56, venue map wired) building; #138 (v0.4.57, 21 cultures + globe, en-GB default) queued behind it, TestFlight internal only. App Store 0.4.24 (205) waiting for review; preflight dispatched. main unchanged, waiting on security's pass."
     }
   ]
 }

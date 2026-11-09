@@ -8,6 +8,7 @@
 // team's private CRM opens; nothing personal is kept on this site; names only with consent; no outside scripts (the gate
 // checks the script below); CC BY 4.0 shown; photos: a link only, location removed before anything is published.
 import fs from 'node:fs'
+import { createHash } from 'node:crypto'
 export const order = 90
 
 const R = f => new URL(`../../../${f}`, import.meta.url)
@@ -60,8 +61,16 @@ export const llms = ctx => `## Contribute\n- [contribute/](${ctx.BASE}contribute
 
 // security@'s conditions, kept by the gate: the script talks to the sign-ups lane only, keeps nothing in the browser,
 // and loads nothing from outside this site
+// security@'s S33: the sign-ups go to one key only, pinned here, so no single commit to board/lanes/signups.json can
+// redirect them: the fingerprint it states and the one computed from its key must both be conductor@web-summit.dinis's
+const PINNED = 'sha256:ecbb2756634ba022'
 export function validate(gate) {
     const js = gate.text('assets/contribute/contribute.js'), out = []
+    try {
+        const lane = JSON.parse(gate.text(LANE)), der = Buffer.from(lane.recipient.encrypt.replace(/-----[^-]+-----/g, '').replace(/\s/g, ''), 'base64')
+        const fp = 'sha256:' + createHash('sha256').update(der).digest('hex').slice(0, 16)
+        if (lane.recipient.fingerprint !== PINNED || fp !== PINNED) out.push(`${LANE}: the sign-ups' recipient is not the pinned key ${PINNED} (stated ${lane.recipient.fingerprint}, computed ${fp}); a change of recipient needs security@'s review and this pin changed with it`)
+    } catch (e) { out.push(`${LANE}: unreadable (${e.message})`) }
     if (/localStorage|sessionStorage|indexedDB|document\.cookie/.test(js)) out.push('assets/contribute/contribute.js: keeps nothing in the browser (security@ condition 1)')
     if (/https?:\/\//.test(js.replace(/^\s*(\/\/|\/?\*).*$/gm, ''))) out.push('assets/contribute/contribute.js: no outside address in the script (condition 5); the lane comes from the page')
     if ((js.match(/fetch\(/g) || []).length !== 1 || !/\/api\/vault\/append\/write\//.test(js)) out.push('assets/contribute/contribute.js: one fetch, to the write-only lane only')

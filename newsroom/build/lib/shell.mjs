@@ -119,6 +119,7 @@ ${page.label ? page.label.replace(/@@UP@@/g, up) : ''}
 ${crumb}
 <h1${front ? ' class="visually-hidden"' : ''}>${esc(title)}</h1>
 ${summary ? `<p class="lead${front ? ' visually-hidden' : ''}">${inline(summary)}</p>` : ''}
+${page.share || ''}
 </header>
 ${tocHtml}
 <div class="body">

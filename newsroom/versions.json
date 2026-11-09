@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.919",
+    "date": "2026-11-09",
+    "what": "watch: conductor.B iOS 23:00",
+    "by": "conductor.B@ios.PrompTugal.dinis",
+    "from": "01bd4dece"
+  },
+  {
+    "version": "v0.1.918",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: the share row passes the gate: markup as markdown, the schema has its words; tested",
+    "by": "writer@PrompTugal.angelo",
+    "from": "3d8540681"
+  },
+  {
+    "version": "v0.1.917",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "45e925788"
+  },
+  {
+    "version": "v0.1.916",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 22:41: day picks follow the Brazil session's move; three articles placed",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "0ef2bf0fe"
+  },
+  {
+    "version": "v0.1.915",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 22:36: /contribute/ live and passed by security@; S33, S34 fixed; S34 to S36 published",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "566fa0ea6"
+  },
+  {
+    "version": "v0.1.914",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: /contribute/ checked live; a stray \"into the page -->\" above the rules fixed at its source",
+    "by": "designer@PrompTugal.dinis",
+    "from": "ba8edf0f0"
+  },
+  {
+    "version": "v0.1.913",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 22:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "b818bd1d4"
+  },
+  {
+    "version": "v0.1.912",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the app pins its days row and switch, and draws a Now line (sherpa@'s AP5, AP4)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "44943a01e"
+  },
+  {
     "version": "v0.1.911",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 22:05: 34 commits clean; /contribute/ go (recipient verified), S33 and S34 to dev@",

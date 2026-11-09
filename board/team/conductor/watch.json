@@ -50,6 +50,16 @@
    "PrompTugal__App__iOS": "39677c22",
    "PrompTugal__App__Mobile": "74332868",
    "note": "News: /contribute/ built on dev (153dd1ca), builds locally, live site at v0.1.904 not yet serving it; Wednesday's edition drafted."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T22:37Z",
+   "SGit-AI__Website__Web-Summit": "6402b8a2",
+   "PrompTugal__News__Website": "30ce9f43",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "df767b5e",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: /contribute/ live and passed by security@ (a4fda2af); S33, S34 fixed by dev@; S34 to S36 published."
   }
  ]
 }
