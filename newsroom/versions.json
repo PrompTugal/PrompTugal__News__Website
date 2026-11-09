@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.768",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: Overnight fixes: itrecruiter, prisma ready for review",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "64a7742ad"
+  },
+  {
     "version": "v0.1.767",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: brief for risk-mandate@promptugal.ai.dinis (formerly eval.android), the hallucination evals, at Dinis's word",
