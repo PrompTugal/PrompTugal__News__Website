@@ -4,12 +4,12 @@ company: air-apps
 date: 2026-11-09
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Air Apps and how it takes part in Web Summit 2026."
-status: in-review
+status: ready
 license: "https://creativecommons.org/licenses/by/4.0/"
 ---
 ## About
 
-Air Apps makes everyday and productivity apps for phones, many of them powered by AI (1, 2). It offers more than 30 apps, available together on one subscription, and says they have been downloaded over 100 million times (1, 2). The company says it has roots in Portugal and grew through a hub in San Francisco; Web Summit lists it as based in the United States (1).
+Air Apps makes everyday and productivity apps for phones, many of them powered by AI (1, 2). It says it offers more than 30 apps, available together on one subscription, and that they have been downloaded over 100 million times (1, 2). The company says it has roots in Portugal and grew through a hub in San Francisco; Web Summit lists it as based in the United States (1).
 
 Sources for this section:
 

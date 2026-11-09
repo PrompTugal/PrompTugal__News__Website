@@ -4,12 +4,12 @@ company: naporta
 date: 2026-11-09
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to naPorta and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: in-review
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-naPorta, a Brazilian company (1), delivers online orders to places traditional delivery networks struggle to reach, such as favelas, rural areas and riverside communities (1, 2). It combines its own technology, local delivery partners and its own operations, the company says (1). Its CEP Digital service creates working addresses from map coordinates, built with the communities themselves (2).
+naPorta, a Brazilian company (1), delivers online orders to places traditional delivery networks struggle to reach, such as favelas, rural areas and riverside communities (1, 2). It combines technology, local delivery partners and its own operations, the company says (1). Its CEP Digital service creates working addresses from map coordinates, built with the communities themselves (2).
 
 Sources for this section:
 

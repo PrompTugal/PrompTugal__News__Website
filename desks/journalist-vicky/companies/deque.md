@@ -4,7 +4,7 @@ company: deque
 date: 2026-11-09
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Deque Systems and its confirmed session at Web Summit 2026, for its company page (overnight batch A1)."
-status: in-review
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
@@ -18,6 +18,6 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Thursday 12 November, 12:00 to 12:45, Masterclass 2 (Masterclasses):** "Can you trust your AI agent's accessibility? [Hosted by Deque]", with Dylan Barrell, CTO of Deque Systems: [Web Summit, "Can you trust your AI agent's accessibility?"](https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/), read 9 November 2026.
+- **Thursday 12 November, 12:00 to 12:45, Masterclass 2:** "Can you trust your AI agent's accessibility? [Hosted by Deque]", with Dylan Barrell, CTO of Deque Systems: [Web Summit, "Can you trust your AI agent's accessibility?"](https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/), read 9 November 2026.
 
 Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.

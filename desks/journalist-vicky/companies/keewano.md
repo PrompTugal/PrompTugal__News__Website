@@ -4,7 +4,7 @@ company: keewano
 date: 2026-11-09
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Keewano and its place on Web Summit 2026's featured startups list, for its company page (overnight batch A1)."
-status: in-review
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
