@@ -4,7 +4,7 @@ date: 2026-11-09
 story: S36
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: Five Web Summit sessions for anyone following Portugal's startup scene, from Startup Portugal's masterclass on Tuesday to a meetup for founders who moved to Portugal on Thursday, with three press conferences in between.
-status: draft
+status: fix
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: [Portugal, Startup Portugal, Unicorn Factory Lisboa, Discord, Road 2 Web Summit, schedule, practical]
