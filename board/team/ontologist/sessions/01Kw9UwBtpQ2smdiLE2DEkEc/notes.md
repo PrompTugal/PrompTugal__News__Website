@@ -91,3 +91,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 04:21 wake (9 November)
 - Back on (summit set, every 2 h). Inbox: conductor.b@ (active key): Sarah and Daniela removed at Dinis's word; do not add back. Places social-club, disco-bar (Night Summit). 216 events 9-12 Nov: 3 with no time (no all_day yet), 1 Web Summit item without part_of.
+
+## 06:21 wake
+- Inbox empty. same_as PitchBook Data -> pitchbook (curation, one line in the file's style). The served check reads git ls-files: a derived deletion fails it until committed (release.sh commits it).

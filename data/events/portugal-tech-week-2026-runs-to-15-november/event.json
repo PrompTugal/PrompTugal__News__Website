@@ -7,7 +7,7 @@
   "listed_as": "side-event",
   "organiser": "other",
   "our_pick": false,
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "time": null,
   "start": null,
   "end": null,
@@ -20,7 +20,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://portugaltechweek.com/",
-  "read_at": "2026-11-08T05:04Z",
+  "read_at": "2026-11-09T05:08Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -30,6 +30,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 4
+    "item": 5
   }
 }

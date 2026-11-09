@@ -5,6 +5,8 @@
 // The marker <!-- companies:app --> in content/companies/index.md places it before the static list.
 // dev.pages@PrompTugal.dinis, 9 November 2026.
 import fs from 'node:fs'
+import { articlesOf } from './articles.mjs'
+import { imageFile, byline, firstSentence } from './front.mjs'
 export const order = 30
 
 const T = fs.readFileSync(new URL('../../../assets/lists/companies.tmpl', import.meta.url), 'utf8')
@@ -14,6 +16,8 @@ const put = (t, v) => t.replace(/\{\{([a-z]+)\}\}/g, (m, k) => v[k] ?? '')
 const MOUNT = 'co-static'
 
 export const fill = {
+    // the articles are known only when the markers are filled (ctx.pages is set after decorate)
+    'articles:app': (page, ctx) => { articlesApp(page, ctx); return '' },
     'companies:app': (page, ctx) => {
         const fields = Object.fromEntries(ctx.store.topics.filter(t => t.kind === 'field').map(t => [t.category, t.name]))
         const first = s => { const t = String(s || '').split(/(?<=[.;:])\s/)[0].replace(/[:;,]$/, ''); return t.length > 130 ? t.slice(0, 127).replace(/\s+\S*$/, '') + '…' : t }
@@ -34,8 +38,18 @@ function peopleApp(p, ctx) {
     const html = put(partP('app'), { data: json({ people: list }) }), prev = p.postHtml
     p.postHtml = h => { const out = prev ? prev(h) : h, i = out.indexOf(MOUNT); const at = i < 0 ? -1 : out.lastIndexOf('<', i); return at < 0 ? out : out.slice(0, at) + html + '\n' + out.slice(at) }
 }
+// the articles page: its list as JSON, newest first, placed before the static list (which stays without script)
+const TA = fs.readFileSync(new URL('../../../assets/lists/articles.tmpl', import.meta.url), 'utf8')
+const partA = n => (TA.split(`<!-- part:${n} -->\n`)[1] || '').split('\n<!-- ')[0]
+function articlesApp(p, ctx) {
+    const list = articlesOf(ctx).map(a => { const im = imageFile(a, 'thumb'), slug = a.rel.replace(/^articles\//, '').replace(/\.html$/, '')
+        return { s: slug, t: a.meta.title, sum: firstSentence(a.meta.summary || '', 200), d: a.meta.date, b: String(a.meta.beat || String(a.meta.tags || 'News').split(',')[0]).replace(/^connections:\s*/i, '').trim(),
+            g: String(a.meta.tags || a.meta.beat || '').split(',').map(x => x.trim()).filter(Boolean), by: byline(a.meta.author), i: im ? `../${im.src}` : '', ia: im ? im.alt : '' } })
+    const html = put(partA('app'), { data: json({ articles: list }) }), prev = p.postHtml
+    p.postHtml = h => { const out = prev ? prev(h) : h, i = out.indexOf(MOUNT); const at = i < 0 ? -1 : out.lastIndexOf('<', i); return at < 0 ? out : out.slice(0, at) + html + '\n' + out.slice(at) }
+}
 export function decorate(p, ctx) {
-    if (p.rel !== 'companies/index.html' && p.rel !== 'people/index.html') return
+    if (!['companies/index.html', 'people/index.html', 'articles/index.html'].includes(p.rel)) return
     p.assets = { ...(p.assets || {}), css: [...(p.assets?.css || []), 'assets/lists/lists.css'], js: [...(p.assets?.js || []), 'assets/lists/lists.js'] }
     if (p.rel === 'people/index.html' && ctx) peopleApp(p, ctx)
 }

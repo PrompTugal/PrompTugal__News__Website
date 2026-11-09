@@ -11,9 +11,18 @@
       "role": "Co-Host",
       "organisation": "Web Summit",
       "org": "organisation:web-summit",
+      "event": "event:the-age-of-agents",
+      "source": "https://websummit.com/sessions/lis26/5bf02ad3-906e-49f8-8905-cef9f5f50a5b/the-age-of-agents/",
+      "read_at": "2026-11-09T05:07Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-Host",
+      "organisation": "Web Summit",
+      "org": "organisation:web-summit",
       "event": "event:opening-remarks-7332868f",
       "source": "https://websummit.com/sessions/lis26/7332868f-6c7b-4e66-a1e0-293650e4254f/opening-remarks/",
-      "read_at": "2026-11-08T05:03Z",
+      "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky"
     }
   ],

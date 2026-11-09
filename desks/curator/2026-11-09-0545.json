@@ -1,0 +1,179 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-09T05:45Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis; the fact-checker and reviewer for the notes below",
+  "covers": {
+    "vault": "41j3e9s9, pulled 9 November 2026 at 05:38 UTC: new commits 1504293ed45e (featured-startups note, pages 2 to 26 recorded as a gap) and 4cbfa9fd10a8 (researcher's 05:15 run: the Road 2 Web Summit 78).",
+    "also_read": "The published articles, every desk's drafts, the storyline map and the researcher's report, for the duplicate check (answer 20, rule 25)."
+  },
+  "rules": "Every fact is from the capture, as the researcher wrote it. The descriptions are the Portugal Startup News article's, not checked. Counts are the curator's from the captured list (78 entries). No assignment depends on pages 2 to 26 of the featured list (Vicky, 8 November).",
+  "captures": [
+    {
+      "id": "v-road-2-web-summit-78-startups",
+      "file": "vault 41j3e9s9, captures/2026-11-09-road-2-web-summit-78-startups.md",
+      "source_url": "https://portugalstartupnews.com/2026/11/08/full-list-of-78-startups-selected-by-startup-portugal-for-road-2-web-summit-2026/",
+      "beat": "Portugal",
+      "names": [
+        "Startup Portugal",
+        "Web Summit",
+        "Portugal Startup News"
+      ],
+      "what_is_new": "The full list of the 78 Portugal-based startups Startup Portugal selected for Road 2 Web Summit 2026, by the article's sectors, each with its city and the article's one-line description (often the company's own words, not checked). By city: Lisbon 41, Porto 11, Braga 9, Aveiro 4, Leiria 2, Azores 2, Madeira 2, and one each from Evora, Torres Vedras, Coimbra, Castelo Branco, Setubal, Sintra and Viseu. By sector: AI and machine learning 14, healthtech and wellness 13, sustainability and cleantech 5, and 21 smaller sectors. They pitch at the summit for the Most Promising Startup award (15,000 euros). Participation rests on this article's account of the selection, not on a Web Summit page.",
+      "is_story": true,
+      "group": "Portugal"
+    }
+  ],
+  "groups": {
+    "Portugal": [
+      "v-road-2-web-summit-78-startups"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "The published Road 2 Web Summit article (S3)",
+      "verdict": "not a duplicate",
+      "why": "S3 covers the programme and the selection (up to 125 places); none of the published pieces or drafts names the 78, their cities or their sectors."
+    },
+    {
+      "item": "DIG-IN (in this list and on the featured-startups list) and RipeNew (also a Tecnico spin-off)",
+      "verdict": "noted",
+      "why": "Cross-references from the researcher; neither is a story alone."
+    }
+  ],
+  "published_check": {
+    "S29": "published (who-builds-the-parts-of-an-ai-agent)",
+    "S30": "published (health-startups-by-problem)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The new material is a Portuguese cohort and, for the summit desk, only a pitch award; when and where the pitches run is not captured.",
+      "gap_for_researcher": "When and where the Road 2 Web Summit pitch sessions run (day, stage, time) and who judges, from Web Summit's schedule or Startup Portugal's page."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new for Europe; the 19:00 requests (EU funding calls, other countries' delegations) are still open.",
+      "gap_for_researcher": "As in the 8 November 19:00 map."
+    },
+    "portugal": {
+      "assignment": "S31",
+      "ready": true,
+      "reader_angle": "Readers outside Lisbon, and anyone judging how national the startup scene is: where the 78 come from and what they build, city by city.",
+      "source_ids": [
+        "v-road-2-web-summit-78-startups"
+      ],
+      "duplicate_check": "Run 9 Nov 05:45 against content/articles, every desk's drafts and the storyline map: no article or draft names the 78 or their cities; S3 is the programme."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "S29 is published. A Portuguese angle on AI trust and risk (Humanos, BASTYN, KBAI Research) overlaps S29's trust part and rests on one-line descriptions; held, see held_for_later.",
+      "gap_for_researcher": "None until S29's Humanos country is checked."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "S30 is published. One candidate (S32, rehab beyond the clinic) is not ready: three companies known only from one article's one-line descriptions.",
+      "gap_for_researcher": "Each company's own public page: what Braining, UpSpeech and Twin Factory do and who they serve."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S31",
+      "kind": "team-desk",
+      "title": "Beyond Lisbon: where Road 2 Web Summit's 78 startups come from",
+      "beat": "Portugal",
+      "angle": "Lisbon has 41 of the 78 startups Startup Portugal selected for Road 2 Web Summit; the other 37 come from Porto (11), Braga (9), Aveiro (4) and ten other places, from the Azores and Madeira to Leiria, Evora and Castelo Branco. A regional tour of who builds what where, with examples from the list, and the 15,000 euro Most Promising Startup award as the reason to watch the pitches.",
+      "rests_on": [
+        "v-road-2-web-summit-78-startups"
+      ],
+      "note": "For journalist-portugal. Ready to write now. Conditions: participation rests on Portugal Startup News' account of Startup Portugal's selection, not a Web Summit page, so re-read that article and Startup Portugal's own page the same day and say what the source is; descriptions are not checked; cities as the article gives them; no claim about who will win. Examples in the capture: Braga (ASOagent AI, Savearth, eDynamics, RTBeamTech, Doors App), Porto (Braining, UPWIND Energy, Scooli), Aveiro (ENG8, RFisense, Rexium, Mundo Claro), Azores (Direto AI, Opsivision). Do not give a city for Humanos until its country is checked (see the fact-checker notes).",
+      "words": 10
+    },
+    {
+      "id": "S32",
+      "kind": "connections",
+      "title": "Rehab beyond the clinic: three Portuguese startups at Web Summit",
+      "beat": "Connections: Portugal",
+      "angle": "Different technology on the same problem, getting people better outside the clinic: Braining (Porto, AI and virtual reality for stroke rehabilitation), UpSpeech (Lisbon, speech therapy practised at home, with AI-drafted reports), Twin Factory (Lisbon, sensors and digital twins for rehabilitation and athletic performance).",
+      "rests_on": [
+        "v-road-2-web-summit-78-startups"
+      ],
+      "note": "NOT READY. Three companies, each known only through one article's one-line description; needs each company's own public page captured (what it does, who it serves) before a writer can verify it. Revisit when the researcher adds them.",
+      "words": 10
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "Humanos (S29, published)",
+      "what": "S29 says Humanos is from the United States, as Web Summit's featured-startups page shows; the Startup Portugal list, as reported by Portugal Startup News, gives Madeira. The two sources disagree; check Humanos's own page and correct or qualify S29."
+    },
+    {
+      "item": "S3 (published)",
+      "what": "S3 says up to 125 Portuguese companies were to be selected; the Portugal Startup News article says 78 were selected. S3 may want an update line with the 78."
+    },
+    {
+      "item": "S31",
+      "what": "Counts per city and sector are the curator's from the 78-entry list; the writer should recount from the article."
+    }
+  ],
+  "held_for_later": [
+    {
+      "theme": "Portuguese startups building trust and risk tools for AI (Humanos, BASTYN, KBAI Research, with Polygraf AI from the featured list)",
+      "why": "Overlaps S29's trust and control part and needs Humanos's country settled; revisit after the fact-check."
+    },
+    {
+      "theme": "S32, rehab beyond the clinic",
+      "why": "See its note."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S29",
+      "change": "Published 8 Nov at https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html; Humanos's country to be checked."
+    },
+    {
+      "candidate": "S30",
+      "change": "Published 8 Nov at https://promptugal.news/articles/health-startups-by-problem.html."
+    },
+    {
+      "candidate": "S28",
+      "change": "Published (unchanged)."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "summit",
+      "priority": 1,
+      "gap": "When and where the Road 2 Web Summit pitch sessions run (day, stage, time) and who judges.",
+      "reader_angle": "Tuesday's 15,000 euro pitch: when and where to watch the Portuguese startups.",
+      "sources_wanted": "Web Summit's schedule entries and Startup Portugal's Road 2 Web Summit page, as read.",
+      "why_not_a_duplicate": "S3 says the winner is announced at the summit but not when and where the pitches run."
+    },
+    {
+      "desk": "connections",
+      "priority": 1,
+      "gap": "What Braining, UpSpeech and Twin Factory do and who they serve, from each company's own public page.",
+      "reader_angle": "Clinicians, patients and families looking at rehabilitation outside the clinic.",
+      "sources_wanted": "The three companies' own pages; read dates.",
+      "why_not_a_duplicate": "No article covers them."
+    },
+    {
+      "desk": "ai",
+      "priority": 2,
+      "gap": "Where Humanos is based, from its own public page, and what BASTYN and KBAI Research do.",
+      "reader_angle": "Anyone weighing AI trust and risk tools, with a Portuguese angle.",
+      "sources_wanted": "Each company's own page; read dates.",
+      "why_not_a_duplicate": "Needed to settle S29's Humanos note and to judge a held storyline."
+    },
+    {
+      "desk": "europe",
+      "priority": 1,
+      "gap": "Still open from the 8 November 19:00 map: open EU funding calls, and other countries' delegations at Web Summit.",
+      "reader_angle": "As in that map.",
+      "sources_wanted": "As in that map.",
+      "why_not_a_duplicate": "As in that map."
+    }
+  ],
+  "urgent": "None"
+}

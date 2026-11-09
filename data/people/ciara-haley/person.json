@@ -3,26 +3,26 @@
   "id": "ciara-haley",
   "type": "person",
   "name": "Ciara Haley",
-  "role": "Executive Producer",
+  "role": "Executive Producer | Special Projects",
   "organisation": "Web Summit",
   "org": "organisation:web-summit",
   "listings": [
     {
-      "role": "Executive Producer",
+      "role": "Executive Producer | Special Projects",
       "organisation": "Web Summit",
       "org": "organisation:web-summit",
       "event": "event:opening-remarks-405fbb59",
       "source": "https://websummit.com/sessions/lis26/405fbb59-7c3c-4fa9-ab85-3602d6f8d020/opening-remarks/",
-      "read_at": "2026-11-08T05:03Z",
+      "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky"
     },
     {
-      "role": "Executive Producer",
+      "role": "Executive Producer | Special Projects",
       "organisation": "Web Summit",
       "org": "organisation:web-summit",
       "event": "event:opening-remarks-d52f1575",
       "source": "https://websummit.com/sessions/lis26/d52f1575-d026-475f-b806-32ba2938534f/opening-remarks/",
-      "read_at": "2026-11-08T05:03Z",
+      "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky"
     }
   ],

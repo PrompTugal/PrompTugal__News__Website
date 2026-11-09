@@ -3,7 +3,11 @@ title: Articles
 summary: Every article we have published, newest first. Each claim links to its source.
 layout: wide
 ---
+<!-- articles:app -->
+
+::: co-static
 <!-- articles:list -->
+:::
 
 ## How we publish {#how}
 

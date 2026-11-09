@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-age-of-agents",
+  "type": "event",
+  "title": "The age of agents",
+  "kind": "night-summit",
+  "listed_as": "night-summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-09",
+  "time": "18:35-18:55",
+  "start": "18:35",
+  "end": "18:55",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:tao-zhang",
+      "as_listed": "Tao Zhang (Co-founder & CPO, Manus AI)",
+      "role": "Co-founder & CPO",
+      "organisation": "Manus AI",
+      "org": "company:manus-ai"
+    },
+    {
+      "person": "person:casey-lau",
+      "as_listed": "Casey Lau (Co-Host, Web Summit)",
+      "role": "Co-Host",
+      "organisation": "Web Summit",
+      "org": "organisation:web-summit"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/5bf02ad3-906e-49f8-8905-cef9f5f50a5b/the-age-of-agents/",
+  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
+  "read_at": "2026-11-09T05:07Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 12
+  }
+}
