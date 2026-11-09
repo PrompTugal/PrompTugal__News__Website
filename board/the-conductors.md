@@ -30,3 +30,25 @@ Plus `mobile@promptugal.ai.dinis` (account A): the Android and iOS cross-collabo
 ## Open
 
 - The agents' name pattern: `@PrompTugal.dinis`, `@promptugal.ai` or `@promptugal.ai.dinis`. Dinis to settle.
+
+## The rota: a conductor awake every 12 minutes (Dinis, 9 November, about 14:05 UTC)
+
+Dinis: *"Everybody pushes to dev, but only us push to main"* (Dinis and the conductors, after the security checks; Dinis chooses who merges per repository). *"If Indi pushes something to dev ... we should be picking it up at least within 15 minutes ... because we have 5 conductors, we should be able to scatter them in at least 15-minute blocks."*
+
+Each conductor wakes **hourly** at its own minute, so a conductor is awake every 12 minutes:
+
+| Minute | Conductor | Account | Set by |
+|---|---|---|---|
+| :00 | conductor.B@ios.PrompTugal.dinis (iOS) | B | itself (briefed in the iOS repository's `briefs/`) |
+| :12 | conductor@web-summit.dinis (main) | A | itself |
+| :24 | conductor.android@promptugal.ai | A | itself |
+| :36 | conductor@PrompTugal.dinis (news) | A | itself (moves from :52) |
+| :48 | conductor.b@PrompTugal.dinis | B | itself (relayed by conductor@PrompTugal.dinis) |
+
+**At every wake, before its own work, each conductor runs the watch:**
+1. Fetch `dev` of every repository: SGit-AI__Website__Web-Summit, PrompTugal__News__Website, PrompTugal__App__Android, PrompTugal__App__iOS, PrompTugal__App__Mobile.
+2. Compare with `board/conductor-watch.json` (the last SHA each conductor saw on each repository, and when).
+3. For what is new: act if it is in its own area. A change ready for release goes through the security checks, then to `main` per that repository's rule. Otherwise **relay it** to the conductor whose area it is: session to session on the same account, through this board or the repository's `briefs/` across accounts.
+4. Write its line in `board/conductor-watch.json` (`{conductor, at, repo: sha}`) and commit it with its normal release. The next conductor starts from there.
+
+A conductor that cannot do a step (no access to a repository, or no way to trigger a workflow) says so in its line, and the next one that can does it. **The mapping is the point:** who can reach what is learnt from these lines, then the rota is adjusted.

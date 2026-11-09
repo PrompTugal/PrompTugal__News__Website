@@ -12,5 +12,12 @@
             h.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); set(h.getAttribute('aria-expanded') !== 'true') } })
         })
     }
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start()
+    // the strip of days: on a phone it scrolls sideways, so bring today (or the day being viewed) to its middle
+    function strip() {
+        document.querySelectorAll('.day-strip').forEach(function (ul) {
+            var li = ul.querySelector('.viewing') || ul.querySelector('.today'); if (!li || ul.scrollWidth <= ul.clientWidth) return
+            ul.scrollLeft = Math.max(0, li.offsetLeft - (ul.clientWidth - li.offsetWidth) / 2)
+        })
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { start(); strip() }); else { start(); strip() }
 })()

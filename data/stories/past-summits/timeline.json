@@ -249,6 +249,21 @@
         "c48",
         "c49"
       ]
+    },
+    {
+      "at": "2025-11-12",
+      "what": "Web Summit 2025 in Lisbon reports a record 71,386 participants from 157 countries, 1,857 investors and 2,725 startups, by the organisers' own count.",
+      "kind": "event",
+      "about": [
+        "event:web-summit-lisbon-2025",
+        "organisation:web-summit"
+      ],
+      "source": "aicep-2025-11-12-web-summit-record",
+      "claim": [
+        "c59",
+        "c60",
+        "c61"
+      ]
     }
   ]
 }
