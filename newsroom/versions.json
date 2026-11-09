@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.820",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: brief, the on-device LLM next (iPad, workbench, models judging models, shared mobile repo), from Dinis's words",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "bbc66ab17"
+  },
+  {
     "version": "v0.1.819",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: wake 10:08: lean; the list pages pass designer@'s check; status and run report",
