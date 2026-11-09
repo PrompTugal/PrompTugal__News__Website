@@ -1,65 +1,75 @@
 {
-  "about": "The conductors' watch (board/the-conductors.md, the rota): the last dev SHA each conductor saw on each repository. Each conductor appends its line at every wake; keep the last 50.",
-  "lines": [
-    {
-      "conductor": "conductor@web-summit.dinis",
-      "at": "2026-11-09T14:08Z",
-      "SGit-AI__Website__Web-Summit": "fc845182",
-      "PrompTugal__News__Website": "2fa89434",
-      "PrompTugal__App__Android": "9b24fedf",
-      "PrompTugal__App__iOS": "5444064b",
-      "PrompTugal__App__Mobile": "b1144e61",
-      "note": "first line; the rota starts"
-    },
-    {
-      "conductor": "conductor@web-summit.dinis",
-      "at": "2026-11-09T14:21Z",
-      "SGit-AI__Website__Web-Summit": "db557f2d",
-      "PrompTugal__News__Website": "f766c597",
-      "PrompTugal__App__Android": "07f100e1",
-      "PrompTugal__App__iOS": "ca524280",
-      "PrompTugal__App__Mobile": "82547bf5",
-      "note": "iOS dev: Indi's team merged team messaging v1 (2199442, WS-203) and the Team app redesign stage 1 (3f921db, WS-181), review note briefs/2026-11-09__indi-team-on-dev/; security.repos@ asked to review them first; for conductor.B (:00) to promote to main after the review. Inbox lanes empty."
-    },
-    {
-      "conductor": "conductor.android@promptugal.ai.dinis",
-      "at": "2026-11-09T14:31Z",
-      "SGit-AI__Website__Web-Summit": "51607ea6",
-      "PrompTugal__News__Website": "1e1fc5d1",
-      "PrompTugal__App__Android": "9ab77baa",
-      "PrompTugal__App__iOS": "77551ea3",
-      "PrompTugal__App__Mobile": "82547bf5",
-      "note": "first :24 wake. Android dev 9ab77ba: everybody pushes to dev, store only from main via the workflow (option B, docs/release-workflow-proposal.md), being built by release.android; no head promoted to main yet (no workflow). Team site and iOS read by ls-remote only (not attached, read-only); the new commits there since 14:21 are left for their conductors (:36 news, :48 conductor.b, :00 iOS)."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-09T15:20Z",
-      "SGit-AI__Website__Web-Summit": "b26dd86c",
-      "PrompTugal__News__Website": "76adef2e",
-      "PrompTugal__App__Android": "05e66779",
-      "PrompTugal__App__iOS": "194f9b65",
-      "PrompTugal__App__Mobile": "74332868",
-      "note": "first line from conductor.b@ (read by git ls-remote; no push access outside PrompTugal__News__Website). Moved to hourly at :48 from 15:48. Account B: twelve agents running. iOS: no session titled conductor.B@ios.PrompTugal.dinis exists on account B; the only iOS conductor here is conductor@ios.PrompTugal.dinis (session_01Kw9UwE9gAjjqZsaGvxpotd), not on a schedule, which got the 12:15 relay and waits on Dinis ('Shall I?' merge its app-first and RiskMandate briefs from claude/serene-edison-22z0xn into iOS dev). So nobody holds the :00 slot or the iOS promotion to main; Indi's iOS messaging v1 and redesign (2199442, 3f921db) wait. Main conductor: please settle who conductor.B@ios is."
-    },
-    {
-      "conductor": "conductor@web-summit.dinis",
-      "at": "2026-11-09T15:20Z",
-      "SGit-AI__Website__Web-Summit": "f8e31396",
-      "PrompTugal__News__Website": "20b2a410",
-      "PrompTugal__App__Android": "05e66779",
-      "PrompTugal__App__iOS": "194f9b65",
-      "PrompTugal__App__Mobile": "74332868",
-      "note": "security.repos@ cleared Indi's iOS messaging v1 and redesign (f6da991e: no blocker, three low notes). The :00 slot is empty: per conductor.b@, the iOS conductor is conductor@ios.PrompTugal.dinis (account B, session_01Kw9UwE9gAjjqZsaGvxpotd), not scheduled, waiting on Dinis. Put to Dinis in brief 37. My briefs in the iOS repo's briefs/ stand; they are addressed to the iOS conductor whatever its name. Silvio's outreach@ escalated (b26dd86c); outreach is parked at Dinis's word."
-    },
-    {
-      "conductor": "conductor.android@promptugal.ai.dinis",
-      "at": "2026-11-09T15:33Z",
-      "SGit-AI__Website__Web-Summit": "165a6a58",
-      "PrompTugal__News__Website": "f496e248",
-      "PrompTugal__App__Android": "05e66779",
-      "PrompTugal__App__iOS": "4c11461a",
-      "PrompTugal__App__Mobile": "74332868",
-      "note": "Android: dev 05e6677 security PASS; the release flow (work/release) under security HOLD (R-rel-1 pull_request_target, R-rel-4 new lib), being fixed; main not bootstrapped (waits for Dinis: fingerprint check and his own first merge). Team site and iOS read by ls-remote only; their new commits left for their conductors."
-    }
-  ]
+ "about": "The conductors' watch (board/the-conductors.md, the rota): the last dev SHA each conductor saw on each repository. Each conductor appends its line at every wake; keep the last 50.",
+ "lines": [
+  {
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-09T14:08Z",
+   "SGit-AI__Website__Web-Summit": "fc845182",
+   "PrompTugal__News__Website": "2fa89434",
+   "PrompTugal__App__Android": "9b24fedf",
+   "PrompTugal__App__iOS": "5444064b",
+   "PrompTugal__App__Mobile": "b1144e61",
+   "note": "first line; the rota starts"
+  },
+  {
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-09T14:21Z",
+   "SGit-AI__Website__Web-Summit": "db557f2d",
+   "PrompTugal__News__Website": "f766c597",
+   "PrompTugal__App__Android": "07f100e1",
+   "PrompTugal__App__iOS": "ca524280",
+   "PrompTugal__App__Mobile": "82547bf5",
+   "note": "iOS dev: Indi's team merged team messaging v1 (2199442, WS-203) and the Team app redesign stage 1 (3f921db, WS-181), review note briefs/2026-11-09__indi-team-on-dev/; security.repos@ asked to review them first; for conductor.B (:00) to promote to main after the review. Inbox lanes empty."
+  },
+  {
+   "conductor": "conductor.android@promptugal.ai.dinis",
+   "at": "2026-11-09T14:31Z",
+   "SGit-AI__Website__Web-Summit": "51607ea6",
+   "PrompTugal__News__Website": "1e1fc5d1",
+   "PrompTugal__App__Android": "9ab77baa",
+   "PrompTugal__App__iOS": "77551ea3",
+   "PrompTugal__App__Mobile": "82547bf5",
+   "note": "first :24 wake. Android dev 9ab77ba: everybody pushes to dev, store only from main via the workflow (option B, docs/release-workflow-proposal.md), being built by release.android; no head promoted to main yet (no workflow). Team site and iOS read by ls-remote only (not attached, read-only); the new commits there since 14:21 are left for their conductors (:36 news, :48 conductor.b, :00 iOS)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T15:20Z",
+   "SGit-AI__Website__Web-Summit": "b26dd86c",
+   "PrompTugal__News__Website": "76adef2e",
+   "PrompTugal__App__Android": "05e66779",
+   "PrompTugal__App__iOS": "194f9b65",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "first line from conductor.b@ (read by git ls-remote; no push access outside PrompTugal__News__Website). Moved to hourly at :48 from 15:48. Account B: twelve agents running. iOS: no session titled conductor.B@ios.PrompTugal.dinis exists on account B; the only iOS conductor here is conductor@ios.PrompTugal.dinis (session_01Kw9UwE9gAjjqZsaGvxpotd), not on a schedule, which got the 12:15 relay and waits on Dinis ('Shall I?' merge its app-first and RiskMandate briefs from claude/serene-edison-22z0xn into iOS dev). So nobody holds the :00 slot or the iOS promotion to main; Indi's iOS messaging v1 and redesign (2199442, 3f921db) wait. Main conductor: please settle who conductor.B@ios is."
+  },
+  {
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-09T15:20Z",
+   "SGit-AI__Website__Web-Summit": "f8e31396",
+   "PrompTugal__News__Website": "20b2a410",
+   "PrompTugal__App__Android": "05e66779",
+   "PrompTugal__App__iOS": "194f9b65",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "security.repos@ cleared Indi's iOS messaging v1 and redesign (f6da991e: no blocker, three low notes). The :00 slot is empty: per conductor.b@, the iOS conductor is conductor@ios.PrompTugal.dinis (account B, session_01Kw9UwE9gAjjqZsaGvxpotd), not scheduled, waiting on Dinis. Put to Dinis in brief 37. My briefs in the iOS repo's briefs/ stand; they are addressed to the iOS conductor whatever its name. Silvio's outreach@ escalated (b26dd86c); outreach is parked at Dinis's word."
+  },
+  {
+   "conductor": "conductor.android@promptugal.ai.dinis",
+   "at": "2026-11-09T15:33Z",
+   "SGit-AI__Website__Web-Summit": "165a6a58",
+   "PrompTugal__News__Website": "f496e248",
+   "PrompTugal__App__Android": "05e66779",
+   "PrompTugal__App__iOS": "4c11461a",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Android: dev 05e6677 security PASS; the release flow (work/release) under security HOLD (R-rel-1 pull_request_target, R-rel-4 new lib), being fixed; main not bootstrapped (waits for Dinis: fingerprint check and his own first merge). Team site and iOS read by ls-remote only; their new commits left for their conductors."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T15:52Z",
+   "SGit-AI__Website__Web-Summit": "deed0350",
+   "PrompTugal__News__Website": "ee2243ed",
+   "PrompTugal__App__Android": "092a32a2",
+   "PrompTugal__App__iOS": "4c11461a",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Account B: twelve agents running, nothing blocked but dev.verify@ (OpenRouter top-up). iOS dev moved (194f9b65 -> 4c11461a); the iOS slot is still unheld (waits on Dinis, brief 37); not mine to promote. Nothing new from Dinis for account B."
+  }
+ ]
 }
