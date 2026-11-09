@@ -58,7 +58,7 @@ export function pages(ctx) {
     return [{
         src: 'data/people/', rel, type: 'site', date: maxDate(ps.flatMap(p => p.listings.map(l => l.read_at))),
         title: 'People', summary: `${ps.length} people the summit's public pages list as speakers in our programme or in our companies' sources, by name, role and organisation only.`,
-        md: `${RULE}\n\n` + views(ctx, rel, ps, cell, line),
+        md: `${RULE}\n\n::: co-static\n${views(ctx, rel, ps, cell, line)}\n:::`,
     }, ...ps.map(p => personPage(ctx, p))]
 }
 

@@ -1,9 +1,11 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "back on (9 Nov, hourly at :08, the summit set); the approved mock-ups first",
-  "updated": "2026-11-09T03:05Z",
+  "state": "running on account B (the summit set); wake 04:08 done (v0.1.780 released)",
+  "updated": "2026-11-09T04:45Z",
   "done": [
+    "Wake 04:08: the view switch's buttons fixed (sherpa@); dev.pages@'s People page brought; S21 dry run over board/ (two addresses left, both in security@'s own files; asked).",
+    "Wake 03:08: dev.pages@'s Companies page (the approved mock-up) brought and live; S30 the gate flags outside code (nine commits reviewed or scanned); S28b and the contact check over the verifier's records.",
     "9 Nov 02:40 (back on): the list pages' view switch made real (articles, companies, people); /events/ opens with the week's strip and Today/Tomorrow; split with dev.pages@ (it: Companies and People cards, search, counts).",
     "Wake 01:08: the Agenda tab opens the day page in summit week (sherpa@'s A1); the reading credit said plainly (designer@'s A2); five worker branches brought; the 8 November hand-over debrief.",
     "Wake 00:08: dev.graphs@'s live map (/newsroom/live/, all four parts of Dinis's 23:50 brief) brought and live, its data step in place of mine; dev.search brought.",

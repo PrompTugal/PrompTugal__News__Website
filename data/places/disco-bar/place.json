@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "disco-bar",
+  "type": "place",
+  "name": "Disco Bar",
+  "kind": "room",
+  "located_in": "place:meo-arena-and-fil",
+  "matches": [
+    "Disco Bar"
+  ],
+  "source": "https://websummit.com/schedule/date/2026-11-09/page/1/",
+  "note": "A Night Summit venue as the summit's schedule names it (\"Disco Bar (Night Summit), MEO Arena and FIL\", read by the programme desk); the schedule does not say which of the two buildings it is in."
+}

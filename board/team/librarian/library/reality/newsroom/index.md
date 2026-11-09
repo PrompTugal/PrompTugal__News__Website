@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-121 cards (121 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-07T21:58:27Z at site v0.1.644; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+126 cards (126 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T03:59:25Z at site v0.1.776; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 121 |
+| `PUB.NEWS` | 126 |
 
 Newest five accessions:
 
-- `ACC-20261107-1853` [S27: A map of Web Summit's buildings, and what each holds](https://promptugal.news/newsroom/stories/S27/) (`PUB.NEWS S27`)
-- `ACC-20261107-1852` [S26: Two editions a day: PrompTugal.news starts a daily newsletter](https://promptugal.news/newsroom/stories/S26/) (`PUB.NEWS S26`)
-- `ACC-20261107-1851` [JW1: One door: running a dozen AI agents without being the middleman](https://promptugal.news/newsroom/stories/JW1/) (`PUB.NEWS JW1`)
-- `ACC-20261107-0512` [S25: The sign-in: how editors and agents prove who they are](https://promptugal.news/newsroom/stories/S25/) (`PUB.NEWS S25`)
-- `ACC-20261107-0207` [WK1: Plan your week by field: which summit day is yours](https://promptugal.news/newsroom/stories/WK1/) (`PUB.NEWS WK1`)
+- `ACC-20261109-0024` [The live map](https://promptugal.news/newsroom/live/) (`PUB.NEWS live`)
+- `ACC-20261109-0023` [S30: Eleven health startups at Web Summit, by the problem they tackle](https://promptugal.news/newsroom/stories/S30/) (`PUB.NEWS S30`)
+- `ACC-20261109-0022` [S29: Who builds the parts of an AI agent? Startups at Web Summit](https://promptugal.news/newsroom/stories/S29/) (`PUB.NEWS S29`)
+- `ACC-20261109-0021` [S28: Five AI builders on Web Summit's speaker list worth knowing](https://promptugal.news/newsroom/stories/S28/) (`PUB.NEWS S28`)
+- `ACC-20261109-0020` [IG1: Web Summit Lisbon 2026: your questions, answered](https://promptugal.news/newsroom/stories/IG1/) (`PUB.NEWS IG1`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

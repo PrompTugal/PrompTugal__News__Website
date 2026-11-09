@@ -1,8 +1,8 @@
 {
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
- "state": "the summit set on account B since 02:38 UTC 9 Nov at Dinis's word: dev@ and dev.pages@ hourly, journalist@, correspondent@ and designer@ every 2 h, sherpa@ every 3 h; every other account-B agent paused",
- "updated": "2026-11-09T02:40Z",
+ "state": "account B: the summit set (6, since 02:38) plus the six added at 02:50 (since 03:08) are on; still paused: investors@, investors.packs@, researcher@, devops@, synthetic@, designer.experiments@, dev.search@, outreach@, backup@, customers@, historian@, xray@",
+ "updated": "2026-11-09T03:12Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -67,11 +67,12 @@
   "18:45 seed brief for conductor.android@ (briefs/2026-11-08-conductor-android.md, v0.1.740): the RiskMandate Android app, CI to an installed app first (M1 to M3), the team, Dinis's steps",
   "21:07 wake: no trigger re-created, inbox empty, no new session on account B; ledger 2026-11-08T2110Z.json (648.37); account B's seven-day limit at 'allowed_warning'",
   "00:08 wake: no trigger re-created, inbox empty; read Dinis's 'three apps, three lines' (board/guidance/2026-11-08-three-apps-three-lines.md); marked my conductor.android brief superseded by the conductor's v2 (board/briefs/2026-11-08-conductor-android-v2.md); ledger 2026-11-09T0010Z.json",
-  "02:38 at Dinis's 'Go': six account-B wakes switched on (dev trig_01Hw22FveCwW7MNvQXX8dWry :08 hourly; dev.pages trig_01HA1m1cJYE3NgHy7EGG1CMW :11 hourly, was 4-hourly; journalist trig_01Fti3q1AN73Fn82ZdJmgGGN :26/2h; correspondent trig_01VmHTK48ncgjxhYgfDkdxXS :41/2h; designer trig_01AiuiCa9HMfdETkeYjU3rrP :33/2h; sherpa trig_01UasQn6f62gr8nLnBmVG89z :29/3h); each nudged in its session with its first job; the conductor told on its inbox"
+  "02:38 at Dinis's 'Go': six account-B wakes switched on (dev trig_01Hw22FveCwW7MNvQXX8dWry :08 hourly; dev.pages trig_01HA1m1cJYE3NgHy7EGG1CMW :11 hourly, was 4-hourly; journalist trig_01Fti3q1AN73Fn82ZdJmgGGN :26/2h; correspondent trig_01VmHTK48ncgjxhYgfDkdxXS :41/2h; designer trig_01AiuiCa9HMfdETkeYjU3rrP :33/2h; sherpa trig_01UasQn6f62gr8nLnBmVG89z :29/3h); each nudged in its session with its first job; the conductor told on its inbox",
+  "03:08 at Dinis's 'go: switch on the six from your inbox': librarian (trig_019oFFeYYbd5pXKrM6Lmzjb6, :56/3h), ontologist (trig_01JtywHmsrju1iCBtYSEERTT, :21/2h), dev.graphs (trig_01JchLATukuMaNSt5EpkuS7i, :17/2h), dev.portugal (trig_01HomqaJgohju8jn7zrNbMx7, :23/4h), dev.data (trig_012oZGZ6ngGhEG6WJvpV4wGY, :31/2h), dev.verify (trig_014DcM989Rgf8xSZuL5nb6XK, :48/4h, told to check OpenRouter credit first); each nudged. Lesson: at 02:50 I first answered the wrong six; the conductor's two inbox messages had been held (signer not in board/keys.json), so read the conductor's commits on dev at each wake, not only the inbox",
+  "03:07 wake: the first wakes ran (correspondent 02:41, designer 02:40, dev 02:40 to 02:45); inbox: 2 more messages held (unregistered signer)"
  ],
  "next": [
-  "03:07 wake: check the first wakes (dev 03:08, dev.pages 03:11, sherpa 03:29, correspondent 02:41) ran and released",
-  "watch account B's weekly limit; if it warns, slow designer@ and sherpa@ first and tell Dinis",
+  "06:07 wake: check the twelve ran and released; watch account B's weekly limit",
   "answer conductor.android@ when it reads its brief (v2)"
  ],
  "asks": [

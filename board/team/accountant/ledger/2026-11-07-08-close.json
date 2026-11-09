@@ -1,0 +1,86 @@
+{
+ "about": "The close of 7 and 8 November 2026 (UTC), written late (accountant@'s session was down from 18:47 on 7 November to 03:47 on 9 November: its worker restarted and nine wakes were missed). API-equivalent dollars, a comparison, not money spent. Account B by day from conductor.b@'s ledgers (00:12 on 8 November, 00:10 on 9 November). Account A only as one figure for 00:50 on 7 November to 03:48 on 9 November: there is no account A reading at the 8 November boundary.",
+ "read_at": "2026-11-09T03:50Z",
+ "account_B": {
+  "7 November (00:15 to 00:12)": 509.29,
+  "8 November (00:12 to 00:10 on 9 November)": 89.97,
+  "by_role_7": {
+   "investors": 156.94,
+   "dev": 46.73,
+   "journalist": 36.48,
+   "designer": 33.76,
+   "synthetic": 27.57,
+   "conductor": 27.46,
+   "devops": 22.71,
+   "ontologist": 21.07,
+   "correspondent": 20.04,
+   "sherpa": 17.65,
+   "librarian": 16.72,
+   "dev.pages": 12.89,
+   "outreach": 9.87,
+   "dev.graphs": 9.86,
+   "dev.data": 7.94,
+   "researcher": 7.49,
+   "dev.verify": 6.93,
+   "designer.experiments": 6.72,
+   "dev.portugal": 5.68,
+   "dev.search": 5.19,
+   "xray": 3.3,
+   "historian": 3.14,
+   "investors.packs": 1.78,
+   "backup": 1.37,
+   "customers": 0.0
+  },
+  "by_role_8": {
+   "conductor": 55.37,
+   "investors": 4.88,
+   "dev": 4.0,
+   "journalist": 3.49,
+   "sherpa": 2.8,
+   "synthetic": 2.66,
+   "devops": 2.64,
+   "customers": 2.46,
+   "correspondent": 1.97,
+   "investors.packs": 1.91,
+   "designer": 1.28,
+   "dev.pages": 1.15,
+   "dev.data": 0.95,
+   "researcher": 0.73,
+   "dev.verify": 0.7,
+   "dev.portugal": 0.69,
+   "designer.experiments": 0.66,
+   "ontologist": 0.64,
+   "backup": 0.39,
+   "outreach": 0.36,
+   "dev.graphs": 0.24,
+   "librarian": 0.0,
+   "historian": 0.0,
+   "dev.search": 0.0,
+   "xray": 0.0
+  }
+ },
+ "account_A": {
+  "7 November 00:50 to 9 November 03:48": 133.72,
+  "by_role": {
+   "conductor@PrompTugal.dinis": 24.17,
+   "security@PrompTugal.dinis": 12.05,
+   "abp@PrompTugal.dinis": 43.89,
+   "observability@PrompTugal.dinis": 16.58,
+   "accountant@PrompTugal.dinis": 37.03
+  },
+  "of_which_by_15:50_on_7_November": 90.67
+ },
+ "events": [
+  "Dinis stopped every agent at 20:42 UTC on 8 November",
+  "account B's seven-day limit read allowed_warning at 21:10 on 8 November and was gone by 00:10 on 9 November",
+  "account A's seven-day limit reset at 20:00 UTC on 8 November; it reads allowed, next reset 15 November 20:00 UTC",
+  "the summit set came back from about 02:38 UTC on 9 November (board/guidance/2026-11-09-the-summit-set.md)"
+ ],
+ "openrouter": {
+  "what": "real money; the key is shared by every agent",
+  "seen": "topped up to about 29.79 USD by 17:50 on 7 November (designer@, dev.verify@); about 8.43 at 18:48, 2.84 at 20:48 and about 1.6 later that night (dev.verify@'s status)",
+  "reported_by_agents": "about 2.4 USD (investors@ about 0.54 for seven images, designer@ about 1.3, dev.verify@ about 1.2)",
+  "gap": "about 25 USD of the draw-down is not in any agent's record I can find",
+  "limit": "Dinis allowed up to about 100 GBP on the evening of 7 November (board/team/investors/dinis-2026-11-07-personal-versions-vaults.md)"
+ }
+}
