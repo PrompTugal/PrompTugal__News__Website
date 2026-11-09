@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d"><title id="t">Web Summit's 24 press conferences, by day</title><desc id="d">Tuesday 10 November: 11. Wednesday 11 November: 9. Thursday 12 November: 4. All on Stage 2, media only. Source: Web Summit's schedule, read 9 November 2026.</desc><style>
+.bg{fill:#f6f3ec}.ink{fill:#121317}.ink2{fill:#3f424a}.acc{fill:#006600}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){.bg{fill:#111214}.ink{fill:#eceae4}.ink2{fill:#c3c0b7}.acc{fill:#6dbb7e}}
+</style>
+<rect class="bg" width="1200" height="630"/>
+<rect class="acc" x="60" y="56" width="120" height="10"/>
+<text class="ink" x="60" y="136" font-size="58" font-weight="700">24 press conferences</text>
+<text class="ink2" x="60" y="196" font-size="40">All on Stage 2, media only</text>
+<text class="ink" x="60" y="292" font-size="44" font-weight="700">Tue 10</text>
+<rect class="acc" x="260" y="252" width="660" height="56" rx="8"/>
+<text class="ink" x="944" y="294" font-size="44" font-weight="700">11</text>
+<text class="ink" x="60" y="402" font-size="44" font-weight="700">Wed 11</text>
+<rect class="acc" x="260" y="362" width="540" height="56" rx="8"/>
+<text class="ink" x="824" y="404" font-size="44" font-weight="700">9</text>
+<text class="ink" x="60" y="512" font-size="44" font-weight="700">Thu 12</text>
+<rect class="acc" x="260" y="472" width="240" height="56" rx="8"/>
+<text class="ink" x="524" y="514" font-size="44" font-weight="700">4</text>
+</svg>
