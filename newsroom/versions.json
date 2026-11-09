@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.836",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: the authority-checks draft: what speed bought, and why it was safe here (the newspaper versus the vaults)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "9e5845ee4"
+  },
+  {
     "version": "v0.1.835",
     "date": "2026-11-09",
     "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
