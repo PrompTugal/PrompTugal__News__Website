@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 3 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
-site_version: "v0.1.776"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T07:01:02Z"
+site_version: "v0.1.800"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 3 of 11)
 
-100 cards, from `DAT.EV is-there-a-foreign-operative-on-your-payroll` to `DAT.EV taming-the-agent-swarm`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.EV is-there-a-foreign-operative-on-your-payroll` to `DAT.EV superconnectors-lisbon-2026-web-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 201 to 225**
 
@@ -35,15 +35,16 @@ source: board/catalogue.json
 | `DAT.EV night-summit-downtown-2026-11-11` | [Night Summit Downtown (bars open to the public; bring your lanyard to find each other)](https://promptugal.news/events/night-summit-downtown-2026-11-11/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV nordics-meet-greet` | [Nordics meet & greet](https://promptugal.news/events/nordics-meet-greet/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV north-america-meet-greet` | [North America meet & greet](https://promptugal.news/events/north-america-meet-greet/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV open-models-stronger-ecosystems` | [Open models, stronger ecosystems](https://promptugal.news/events/open-models-stronger-ecosystems/) | event | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.EV open-or-closed-ai-models-which-types-of-future-do-they` | [Open or Closed AI models: which types of future do they represent? (Press conference)](https://promptugal.news/events/open-or-closed-ai-models-which-types-of-future-do-they/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV open-source-contributors-meetup` | [Open source & contributors meetup](https://promptugal.news/events/open-source-contributors-meetup/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV open-vs-closed-the-debate-defining-the-ai-era` | [Open vs closed: The debate defining the AI era](https://promptugal.news/events/open-vs-closed-the-debate-defining-the-ai-era/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV opening-night` | [Opening Night 🎉](https://promptugal.news/events/opening-night/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 226 to 250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV opening-night` | [Opening Night 🎉](https://promptugal.news/events/opening-night/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV opening-remarks-405fbb59` | [Opening remarks](https://promptugal.news/events/opening-remarks-405fbb59/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV opening-remarks-7332868f` | [Opening remarks](https://promptugal.news/events/opening-remarks-7332868f/) | event | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.EV opening-remarks-d52f1575` | [Opening remarks](https://promptugal.news/events/opening-remarks-d52f1575/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.EV pitch-results-announcement` | [PITCH results announcement](https://promptugal.news/events/pitch-results-announcement/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV pitch-semi-final` | [PITCH semi-final](https://promptugal.news/events/pitch-semi-final/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV pitch-winner-announcement` | [PITCH winner announcement](https://promptugal.news/events/pitch-winner-announcement/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV portugal-stand-web-summit-2026` | [The Portugal stand at Web Summit 2026 (Pavilion 1, Stand 145)](https://promptugal.news/events/portugal-stand-web-summit-2026/) | event | ontologist@ 7 Nov 2026 |
 
 **Cards 251 to 275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV portugal-stand-web-summit-2026` | [The Portugal stand at Web Summit 2026 (Pavilion 1, Stand 145)](https://promptugal.news/events/portugal-stand-web-summit-2026/) | event | ontologist@ 7 Nov 2026 |
 | `DAT.EV portugal-tech-week-2026-begins` | [Portugal Tech Week 2026 begins (6 to 15 November): a decentralised festival of tech and innovation events across Portugal](https://promptugal.news/events/portugal-tech-week-2026-begins/) (withdrawn) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV portugal-tech-week-2026-runs-to-15-november` | [Portugal Tech Week 2026 runs to 15 November (it began on 6 November): a decentralised festival of tech and innovation events across Portugal](https://promptugal.news/events/portugal-tech-week-2026-runs-to-15-november/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV portugal-tech-week-palace` | [Portugal Tech Week Palace (until 13 November)](https://promptugal.news/events/portugal-tech-week-palace/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -83,6 +84,8 @@ source: board/catalogue.json
 | `DAT.EV press-conference-road-2-web-summit-2026-winner` | [Press conference: Road 2 Web Summit 2026 Winner](https://promptugal.news/events/press-conference-road-2-web-summit-2026-winner/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV press-conference-rws-launches-the-world-s-first-culturally` | [Press conference: RWS launches the world’s first culturally intelligent content platform](https://promptugal.news/events/press-conference-rws-launches-the-world-s-first-culturally/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV press-conference-unicorn-factory-lisboa-hub-71-instituto` | [Press conference: Unicorn Factory Lisboa, Hub 71, Instituto Caldeira & Q Branch launch a Global Program for Scaleups](https://promptugal.news/events/press-conference-unicorn-factory-lisboa-hub-71-instituto/) | event | programme@web-summit.vicky 6 Nov 2026 |
+| `DAT.EV press-conference-web-summit-spotlight-heads-to-paraiba-as` | [Press conference: Web Summit Spotlight heads to Paraíba as part of four-year partnership](https://promptugal.news/events/press-conference-web-summit-spotlight-heads-to-paraiba-as/) | event | programme@PrompTugal.vicky 9 Nov 2026 |
+| `DAT.EV press-conference-who-wins-when-ai-does-the-shopping` | [Press conference: Who Wins When AI Does the Shopping?](https://promptugal.news/events/press-conference-who-wins-when-ai-does-the-shopping/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV press-conference-with-amazon-vice-president-people` | [Press conference with Amazon Vice President People Experience & Technology, J. Ofori Agboka](https://promptugal.news/events/press-conference-with-amazon-vice-president-people/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV press-conference-with-defined-ai-founder-daniela-braga` | [Press conference with Defined AI Founder Daniela Braga](https://promptugal.news/events/press-conference-with-defined-ai-founder-daniela-braga/) | event | programme@PrompTugal.vicky 8 Nov 2026 |
 | `DAT.EV press-conference-with-gravitee-ceo-rory-blundell-collapsing` | [Press conference with Gravitee CEO Rory Blundell: Collapsing confidence in agent AI security after six months of reality](https://promptugal.news/events/press-conference-with-gravitee-ceo-rory-blundell-collapsing/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -96,18 +99,18 @@ source: board/catalogue.json
 | `DAT.EV press-conference-with-xpeng-aridge-founder-and-president` | [Press conference with Xpeng Aridge Founder and President, Deli Zhao, and Xpeng Aridge CFO, Michael Du](https://promptugal.news/events/press-conference-with-xpeng-aridge-founder-and-president/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV pricing-saas-when-users-are-agents` | [Pricing SaaS when users are agents](https://promptugal.news/events/pricing-saas-when-users-are-agents/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV private-wealth-and-investment-gathering` | [Private Wealth and Investment Gathering (invitation only), listed by Algarve Evolution](https://promptugal.news/events/private-wealth-and-investment-gathering/) | event | programme@PrompTugal.vicky 7 Nov 2026 |
-| `DAT.EV putting-human-rights-into-artificial-intelligence` | [Putting human rights into artificial intelligence](https://promptugal.news/events/putting-human-rights-into-artificial-intelligence/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV rebuilding-open-source-with-ai-lessons-learned` | [Rebuilding open source with AI: Lessons Learned](https://promptugal.news/events/rebuilding-open-source-with-ai-lessons-learned/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV reclaiming-human-agency-in-the-machine-era` | [Reclaiming human agency in the machine era](https://promptugal.news/events/reclaiming-human-agency-in-the-machine-era/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 276 to 300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV putting-human-rights-into-artificial-intelligence` | [Putting human rights into artificial intelligence](https://promptugal.news/events/putting-human-rights-into-artificial-intelligence/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV rebuilding-open-source-with-ai-lessons-learned` | [Rebuilding open source with AI: Lessons Learned](https://promptugal.news/events/rebuilding-open-source-with-ai-lessons-learned/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV reclaiming-human-agency-in-the-machine-era` | [Reclaiming human agency in the machine era](https://promptugal.news/events/reclaiming-human-agency-in-the-machine-era/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV registration-2026-11-07` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-07/) (withdrawn) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV registration-2026-11-07-pavilhao-de-portugal` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-07-pavilhao-de-portugal/) (withdrawn) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV registration-2026-11-08` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-08/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV registration-2026-11-08-pavilhao-de-portugal` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-08-pavilhao-de-portugal/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV registration-2026-11-08` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-08/) (withdrawn) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV registration-2026-11-08-pavilhao-de-portugal` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-08-pavilhao-de-portugal/) (withdrawn) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV registration-2026-11-09` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-09/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV registration-2026-11-09-pavilhao-de-portugal` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-09-pavilhao-de-portugal/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV registration-2026-11-10` | [Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID)](https://promptugal.news/events/registration-2026-11-10/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `DAT.EV speed-networking` | [Speed Networking](https://promptugal.news/events/speed-networking/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV startup-web-summit-kick-off` | [Startup Web Summit Kick Off: a 7-a-side startup football tournament (2nd edition)](https://promptugal.news/events/startup-web-summit-kick-off/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV superconnectors-lisbon-2026-web-summit` | [Superconnectors Lisbon 2026 @ Web Summit](https://promptugal.news/events/superconnectors-lisbon-2026-web-summit/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV surviving-the-ai-shift-media-s-new-reality` | [Surviving the AI shift: Media’s new reality](https://promptugal.news/events/surviving-the-ai-shift-media-s-new-reality/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV taking-the-flying-car-from-sci-fi-to-reality` | [Taking the flying car from sci-fi to reality](https://promptugal.news/events/taking-the-flying-car-from-sci-fi-to-reality/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV taming-the-agent-swarm` | [Taming the agent swarm](https://promptugal.news/events/taming-the-agent-swarm/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-2.md) | [Next part](DAT-4.md)

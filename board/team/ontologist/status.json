@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, the summit set: every 2 h)",
-  "updated": "2026-11-09T06:45Z",
+  "updated": "2026-11-09T08:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -60,7 +60,8 @@
     "Today's hand-over debrief refreshed for the evening (23:21 wake)",
     "The 8 November hand-over debrief; Eversec's candidate site renders empty even in a browser, so it stays without a website (00:21 wake, 8 Nov)",
     "Back on at Dinis's word (board/guidance/2026-11-09-the-summit-set.md, 02:50 addition; every 2 h). conductor.b@'s note read: the team's Sarah and Daniela removed from my files at Dinis's word, not to be added back. dev.data@ has used the verbs declared for it (S9, past-summits). Summit-week events checked: two Night Summit venues (Social Club, Disco Bar) added as places, so Karaoke Night and the Music lovers meetup now have a place (04:21 wake, 9 Nov)",
-    "Summit-week checks: the one Web Summit item without part_of is the summit itself (right as it is); the matching report's one near miss decided: 'PitchBook Data' same_as company:pitchbook (its press conference 'PitchBook goes free for startups' is PitchBook's own), so the speaker and the session now link to PitchBook (06:21 wake, 9 Nov)"
+    "Summit-week checks: the one Web Summit item without part_of is the summit itself (right as it is); the matching report's one near miss decided: 'PitchBook Data' same_as company:pitchbook (its press conference 'PitchBook goes free for startups' is PitchBook's own), so the speaker and the session now link to PitchBook (06:21 wake, 9 Nov)",
+    "Summit-week check of the companies against the programme: 68 reach a session through their own pages or their people; 52 none (38 startups and 10 partners listed on Web Summit's pages, 2 unknown, and 2 speakers' companies: Temporal, whose cited session is not in the agenda, and a16z, a June report only); the programme desk asked. The 183 unmatched speaker organisations hold no further company of ours ('INC' is a writer's card as listed) (08:21 wake, 9 Nov)"
   ],
   "next": [
     "Feedzai's stage, funding and founders from its own public pages (F13), only what they state; more built_on edges from providers' customer pages",
@@ -398,6 +399,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "PitchBook Data is PitchBook"
+    },
+    {
+      "started": "2026-11-09T08:22Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "companies against the programme; Temporal and a16z sessions asked of the programme desk"
     }
   ],
   "decisions_on_findings": [

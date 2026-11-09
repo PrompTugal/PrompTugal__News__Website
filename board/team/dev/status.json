@@ -2,19 +2,19 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-09T06:30Z",
+  "updated": "2026-11-09T08:35Z",
   "done": [
+    "wake 08:08 (9 Nov): brought dev.pages@'s D3 and D4 on the day pages (the rest folded under 'Everything else today (N)', the five said to be picked by the morning when the correspondent has not); security@'s S31: the gate's contact check now takes exact domains only (promptugal.news, promptugal.ai and the handle forms) and agent names only with an operator's name, case-insensitive; an address at web-summit.com or promptugal.io now fails",
+    "wake 07:08 (9 Nov): brought dev.pages@'s L5 (the list pages shorter: folded groups, More buttons, the wire to 12 first; on a phone companies 7,281 px, people 5,463 px (was 36,509), articles 5,717 px; one view at a time, static views hidden with script, no errors), dev.graphs@'s Sines wording, dev.data@'s past-summits source",
     "wake 06:08 (9 Nov): S21 done: the gate's contact check (check 7) now covers all of board/, allowing agent handles, the publication's own promptugal.news and promptugal.ai addresses and example.*/company.pt placeholders; a tripwire file with an outside address and a phone shape failed as it should; no worker had new work",
     "wake 05:08 (9 Nov): brought dev.pages@'s articles page as the approved mock-up (the wire, by day, by topic, topic filter, live search and count; checked on a phone, 41 of 41, no script errors) and its /days/ page (was 404: the eight days with their five things, linked from every day page); dev.data@'s S9 graph; dev.graphs@, dev.portugal@, dev.verify@ status and debriefs; dev.pages@'s G 'Now and next' block stays declined",
     "Wake 04:08: the view switch's buttons fixed (sherpa@); dev.pages@'s People page brought; S21 dry run over board/ (two addresses left, both in security@'s own files; asked).",
     "Wake 03:08: dev.pages@'s Companies page (the approved mock-up) brought and live; S30 the gate flags outside code (nine commits reviewed or scanned); S28b and the contact check over the verifier's records.",
-    "9 Nov 02:40 (back on): the list pages' view switch made real (articles, companies, people); /events/ opens with the week's strip and Today/Tomorrow; split with dev.pages@ (it: Companies and People cards, search, counts).",
-    "Wake 01:08: the Agenda tab opens the day page in summit week (sherpa@'s A1); the reading credit said plainly (designer@'s A2); five worker branches brought; the 8 November hand-over debrief.",
-    "Wake 00:08: dev.graphs@'s live map (/newsroom/live/, all four parts of Dinis's 23:50 brief) brought and live, its data step in place of mine; dev.search brought."
+    "9 Nov 02:40 (back on): the list pages' view switch made real (articles, companies, people); /events/ opens with the week's strip and Today/Tomorrow; split with dev.pages@ (it: Companies and People cards, search, counts)."
   ],
   "next": [
-    "designer@ checks the articles page and /days/ against design/decisions/ (L1 to L6, D1 to D6)",
-    "the list pages' length on a phone (designer@'s check: length does not pass), with dev.pages@",
+    "dev.pages@: the day pages D2 to D5 (A/B/C, C default) per board/briefs/2026-11-09-the-mockups-vs-the-live-site.md; I review and bring at each wake",
+    "designer@ re-checks the list pages' length at the release after v0.1.796",
     "By topic on the articles page shows 77 groups for 41 articles: ask dev.pages@ to fold small tags"
   ],
   "asks": [

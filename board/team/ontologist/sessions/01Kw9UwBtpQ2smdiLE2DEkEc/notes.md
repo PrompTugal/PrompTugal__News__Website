@@ -94,3 +94,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 06:21 wake
 - Inbox empty. same_as PitchBook Data -> pitchbook (curation, one line in the file's style). The served check reads git ls-files: a derived deletion fails it until committed (release.sh commits it).
+
+## 08:21 wake
+- Inbox empty. Unmatched speaker orgs: no more of ours. Companies with no session (either path): 52; asked programme-vicky about Temporal and a16z. Lesson: a company reaches events through listed_under people too, not only appears_in.

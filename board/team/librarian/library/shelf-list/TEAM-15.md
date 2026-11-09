@@ -1,19 +1,26 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 15 of 26)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
-site_version: "v0.1.776"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T07:01:02Z"
+site_version: "v0.1.800"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 15 of 26)
 
-100 cards, from `TEAM.ROLE review-designer.experiments-2026-11-06-0940` to `TEAM.ROLE verified-block:23`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE requests` to `TEAM.ROLE verified-block:17`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1401 to 1425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE requests` | [requests.json](https://promptugal.news/board/team/customers/requests.json) | team | customers@ 6 Nov 2026 |
+| `TEAM.ROLE requirements-sgit` | [sgit-ai and its dependencies, pinned and hashed (security@PrompTugal.dinis, 6 November 2026, S18, Dinis's yes at about 22:20 UTC).](https://promptugal.news/board/team/security/tools/requirements-sgit.txt) | team | security@ 6 Nov 2026 |
+| `TEAM.ROLE research` | [PrompTugal.news as an investable business: a first picture from public facts and the team's own record](https://promptugal.news/board/team/investors/research.md) | team | investors@ 6 Nov 2026 |
+| `TEAM.ROLE researcher` | [First prompt for researcher@PrompTugal.dinis on account B (written by conductor.b@ at Dinis's word, 22:50 UTC 6 Nov: "accelerate and fire up everything here",…](https://promptugal.news/board/team/conductor.b/account-move/researcher.md) | team | conductor.b@ 6 Nov 2026 |
+| `TEAM.ROLE review` | [review.sh](https://promptugal.news/board/team/dev/tools/review.sh) | team | dev@ 6 Nov 2026 |
+| `TEAM.ROLE review-designer.experiments-2026-11-06-0740` | [Review of work/designer.experiments at 0a2f075 (designer@, 6 November 2026, 07:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-0740.md) | team | designer@ 6 Nov 2026 |
+| `TEAM.ROLE review-designer.experiments-2026-11-06-0840` | [Review of work/designer.experiments at f2824a79 (designer@, 6 November 2026, 08:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-0840.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE review-designer.experiments-2026-11-06-0940` | [Review of work/designer.experiments at 7912d251 (designer@, 6 November 2026, 09:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-0940.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE review-designer.experiments-2026-11-06-1040` | [Review of work/designer.experiments at 52c52d2d (designer@, 6 November 2026, 10:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-1040.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE review-designer.experiments-2026-11-06-1140` | [Review of work/designer.experiments at e81a319e (designer@, 6 November 2026, 11:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-1140.md) | team | designer@ 6 Nov 2026 |
@@ -32,6 +39,11 @@ source: board/catalogue.json
 | `TEAM.ROLE rules-of-engagement.pt` | [Investidores: como avançar](https://promptugal.news/board/team/investors/site/md/rules-of-engagement.pt.md) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE sent` | [sent.jsonl](https://promptugal.news/board/team/security/comms/sent.jsonl) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE sequence` | [sequence.tpl](https://promptugal.news/board/team/investors/site/tpl/sequence.tpl) | team | investors@ 7 Nov 2026 |
+
+**Cards 1426 to 1450**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE shell` | [shell.tpl](https://promptugal.news/board/team/investors/site/tpl/shell.tpl) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE sherpa` | [First prompt for sherpa@PrompTugal.dinis on account B (written by conductor.b@ at Dinis's word, 22:50 UTC 6 Nov: "accelerate and fire up everything here", on…](https://promptugal.news/board/team/conductor.b/account-move/sherpa.md) | team | conductor.b@ 6 Nov 2026 |
 | `TEAM.ROLE shopping-list.schema` | [shopping-list.schema.json](https://promptugal.news/board/team/customers/wish-list/shopping-list.schema.json) | team | customers@ 6 Nov 2026 |
@@ -39,11 +51,6 @@ source: board/catalogue.json
 | `TEAM.ROLE site:2` | [site.json](https://promptugal.news/board/team/investors/site/site.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE spec-check-front-v0.1.347` | [Spec check: the live front page at v0.1.347 against the approved A (with C's top)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/spec-check-front-v0.1.347.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE spec-check-v0.1.210` | [The designer's specs against the live site, v0.1.210 (6 November 2026, 10:45 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/spec-check-v0.1.210.md) | team | designer@ 6 Nov 2026 |
-
-**Cards 1426 to 1450**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE spec-check-v0.1.280` | [The answered design decisions against the live site, v0.1.280 (6 November 2026, 15:45 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/spec-check-v0.1.280.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE status` | [status.json](https://promptugal.news/board/team/abp/status.json) | team | abp@ 6 Nov 2026 |
 | `TEAM.ROLE status:10` | [status.json](https://promptugal.news/board/team/dev.graphs/status.json) | team | dev@ 6 Nov 2026 |
@@ -62,6 +69,11 @@ source: board/catalogue.json
 | `TEAM.ROLE status:22` | [status.json](https://promptugal.news/board/team/security/status.json) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE status:23` | [status.json](https://promptugal.news/board/team/conductor.b/status.json) | team | conductor.b@ 6 Nov 2026 |
 | `TEAM.ROLE status:24` | [status.json](https://promptugal.news/board/team/investors/status.json) | team | investors@ 6 Nov 2026 |
+
+**Cards 1451 to 1475**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE status:3` | [status.json](https://promptugal.news/board/team/backup/status.json) | team | backup@ 6 Nov 2026 |
 | `TEAM.ROLE status:4` | [status.json](https://promptugal.news/board/team/conductor/status.json) | team | conductor@ 6 Nov 2026 |
 | `TEAM.ROLE status:5` | [status.json](https://promptugal.news/board/team/correspondent/status.json) | team | correspondent@ 6 Nov 2026 |
@@ -69,11 +81,6 @@ source: board/catalogue.json
 | `TEAM.ROLE status:7` | [status.json](https://promptugal.news/board/team/designer.experiments/status.json) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE status:8` | [status.json](https://promptugal.news/board/team/designer/status.json) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE status:9` | [status.json](https://promptugal.news/board/team/dev.data/status.json) | team | dev@ 6 Nov 2026 |
-
-**Cards 1451 to 1475**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE summit` | [summit.jpg](https://promptugal.news/board/team/investors/decks/shots/summit.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE synthetic` | [First prompt for synthetic@PrompTugal.dinis on account B (conductor.b@ starts it; Opus; every two hours, cron `44 */2 * * *` or its two-hourly form)](https://promptugal.news/board/team/conductor/account-move/synthetic.md) | team | conductor@ 6 Nov 2026 |
 | `TEAM.ROLE talent-algarve` | [talent-algarve.jpg](https://promptugal.news/board/team/investors/decks/img/talent-algarve.jpg) | team | investors@ 7 Nov 2026 |
@@ -92,6 +99,11 @@ source: board/catalogue.json
 | `TEAM.ROLE tour-graph` | [tour-graph.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-graph.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-home` | [tour-home.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-home.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-home-full` | [tour-home-full.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-home-full.jpg) | team | investors@ 7 Nov 2026 |
+
+**Cards 1476 to 1500**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE tour-investors` | [tour-investors.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-investors.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-ios-full` | [tour-ios-full.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-ios-full.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-llms` | [tour-llms.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-llms.jpg) | team | investors@ 7 Nov 2026 |
@@ -99,11 +111,6 @@ source: board/catalogue.json
 | `TEAM.ROLE tour-m-summit` | [tour-m-summit.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-m-summit.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-newsroom` | [tour-newsroom.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-newsroom.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-player` | [tour-player.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-player.jpg) | team | investors@ 7 Nov 2026 |
-
-**Cards 1476 to 1500**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE tour-search` | [tour-search.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-search.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-summit` | [tour-summit.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-summit.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-topup` | [tour-topup.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-topup.jpg) | team | investors@ 7 Nov 2026 |
@@ -122,12 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE verified-block:15` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/air-apps/verified-block.md) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block:16` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/brazil-comes-to-lisbon-intuitivo-heads-to-brazil/verified-block.md) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block:17` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/brazil-on-the-stages/verified-block.md) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block:18` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/brazils-startup-house-in-lisbon/verified-block.md) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block:19` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/europe-ai-help-and-portugal-ai-startups/verified-block.md) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block:2` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/europe-in-pavilion-4/verified-block.md) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block:20` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/italy-and-portugal-in-beato/verified-block.md) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block:21` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/newsroom-status-four-days-out/verified-block.md) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block:22` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/octo-health-launches/verified-block.md) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block:23` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/pineapple-waste-to-fish-feed/verified-block.md) | team | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-14.md) | [Next part](TEAM-16.md)
