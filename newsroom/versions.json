@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.848",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 14:05: 21 commits clean; six conditions ahead for /contribute/",
+    "by": "security@PrompTugal.dinis",
+    "from": "95f9da82c"
+  },
+  {
+    "version": "v0.1.847",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 13:52: /contribute/ ready to brief, awaiting Dinis's confirmation; OpenRouter plan noted",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5379d4716"
+  },
+  {
+    "version": "v0.1.846",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 13:08: the live map dims quiet agents (dev.graphs@); status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "ed9d50975"
+  },
+  {
     "version": "v0.1.845",
     "date": "2026-11-09",
     "what": "team messaging v1 brief for the iOS conductor (WS-203, Indi's desk)",

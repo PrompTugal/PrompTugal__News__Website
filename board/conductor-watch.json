@@ -1,0 +1,15 @@
+{
+ "about": "The conductors' watch (board/the-conductors.md, the rota): the last dev SHA each conductor saw on each repository. Each conductor appends its line at every wake; keep the last 50.",
+ "lines": [
+  {
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-09T14:08Z",
+   "SGit-AI__Website__Web-Summit": "fc845182",
+   "PrompTugal__News__Website": "2fa89434",
+   "PrompTugal__App__Android": "9b24fedf",
+   "PrompTugal__App__iOS": "5444064b",
+   "PrompTugal__App__Mobile": "b1144e61",
+   "note": "first line; the rota starts"
+  }
+ ]
+}
