@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.859",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: SA25: the checker's findings on T2 (a small correction, for Vicky) and T4 (no problem)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8b9768982"
+  },
+  {
     "version": "v0.1.858",
     "date": "2026-11-09",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
