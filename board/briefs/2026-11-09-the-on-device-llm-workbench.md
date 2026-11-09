@@ -78,3 +78,17 @@ Plus **OpenRouter** (the app's own key, from the environment or the user's vault
 2. **Who builds M-iPad:** the account-B session that ships PrompTugal__App__iOS, or a new iOS agent.
 3. Which iPad models the team has (Apple's on-device model needs an Apple Intelligence device).
 4. The rest of the cut-off sentence: the three modes.
+
+
+## Dinis's answers (9 November, about 10:40 UTC)
+
+1. **`PrompTugal/PrompTugal__App__Mobile` is created.**
+2. **The devices:** an iPad Air 11-inch (M4) and an iPhone 16 Plus. Both can run Apple Intelligence, so the Apple mode is open on both.
+3. **Lean into Apple.** His words: "We're using the Apple capabilities, the Apple models, and maybe the native Apple Intelligence capabilities. They're about to add stuff, so see if there is something new that is not widely used yet, because Apple is pushing Apple Intelligence. What's really powerful about what we have now is a really, really good use case for intelligence in our product. A lot of these companies are missing good use cases and good examples of what you can do with it. We have that. So let's leverage this."
+
+**So the Apple mode goes beyond a chat on Apple's model.** Find which Apple Intelligence capabilities the app can use, and the newest ones few apps use yet, each checked against Apple's current documentation before it is built:
+- the on-device Foundation Models framework, with guided generation into Swift types and its own tool calling;
+- App Intents, so the app's actions and content reach Siri, Spotlight and Shortcuts;
+- the system's Writing Tools and Visual Intelligence where they fit.
+
+Each gets a workbench scenario, and the strongest becomes a demo of RiskMandate's case for intelligence that works. The aim is a reference example, built well, that Apple itself would want to show.
