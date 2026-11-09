@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.865",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 16:05: 36 commits clean; the news app on the web read, sound",
+    "by": "security@PrompTugal.dinis",
+    "from": "5ee5a6c20"
+  },
+  {
     "version": "v0.1.864",
     "date": "2026-11-09",
     "what": "librarian@PrompTugal.dinis: wake 15:56: catalogue v0.1.862; the life map's 6 flags",
