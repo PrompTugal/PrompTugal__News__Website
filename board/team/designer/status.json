@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working: session 3, account B; every 2 h at :33 from 9 November (the summit set); checking builds against design/decisions/",
-  "updated": "2026-11-09T12:42Z",
+  "updated": "2026-11-09T16:48Z",
   "done": [
+    "16:48 the news app on the web (/app/, dev@'s step 1) read for the brand: works and reads clearly, but its own look (navy, Georgia, the system font, its own red); the mapping to brand v2.0 is one :root block (board/spec-the-app-on-the-web.md) for dev@",
+    "14:46 the daily hand-over debrief (2026-11-09-handover.md); the strip of days re-checked after dev.pages@'s D1 work",
     "12:42 /events/ re-checked as the week's overview: about 12 phone screens (was 40), today and tomorrow first: D2 passes; the brief's list pages and days now all pass but D6 (past days, from tomorrow)",
     "10:48 the summit's day pages checked: D1, D2 (a page per day), D3, D4 (the correspondent's own five), D5 pass; /events/ still 40 phone screens, for dev.pages@. An image for Angelo's new article web-summit-wristband-queues (2 calls, 0.28 USD; the first misattributed 'the crush' to past attendees and drew a flag-like banner)",
     "08:42 the list pages re-checked at v0.1.808: L1 to L6 pass on companies, people and articles (phone lengths 8.7, 6.6, 6.9 screens; companies' switch and search now above the prose)",
@@ -443,8 +445,20 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "/events/ passes as the overview"
+    },
+    {
+      "started": "2026-11-09T14:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the daily debrief; strip re-checked"
+    },
+    {
+      "started": "2026-11-09T16:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "/app/ read for the brand: one block of tokens for dev@"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
-  "debrief": "board/team/designer/debriefs/2026-11-07-handover.md"
+  "debrief": "board/team/designer/debriefs/2026-11-09-handover.md"
 }

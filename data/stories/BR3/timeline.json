@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "BR3",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "events": [
+    {
+      "at": "2026-09-17",
+      "what": "Invest.Rio and Maravalley open the call for ten Rio startups to go to Web Summit Lisboa 2026, the mission's second year.",
+      "kind": "announcement",
+      "about": [
+        "organisation:invest-rio",
+        "organisation:maravalley"
+      ],
+      "source": "startups-2026-09-18-invest-rio",
+      "claim": [
+        "c01",
+        "c02"
+      ]
+    },
+    {
+      "at": "2026-10-25",
+      "what": "Invest.Rio and Gol announce the airline's partnership for the mission; Correio da Manha reports it a day before Startups.com.br names the ten.",
+      "kind": "announcement",
+      "about": [
+        "organisation:invest-rio",
+        "organisation:gol"
+      ],
+      "source": "correio-2026-10-25-invest-rio",
+      "claim": [
+        "c09"
+      ]
+    },
+    {
+      "at": "2026-10-26",
+      "what": "Startups.com.br names the ten startups and reports that Gol, the mission's official airline, provides their tickets.",
+      "kind": "announcement",
+      "about": [
+        "organisation:gol"
+      ],
+      "source": "startups-2026-10-26-gol",
+      "claim": [
+        "c04",
+        "c05",
+        "c07"
+      ]
+    },
+    {
+      "at": "2026-11-24",
+      "what": "Gol begins five flights a week on its Rio to Lisbon route (after the summit).",
+      "kind": "change",
+      "about": [
+        "organisation:gol"
+      ],
+      "source": "startups-2026-10-26-gol",
+      "claim": [
+        "c06"
+      ]
+    }
+  ]
+}

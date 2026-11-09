@@ -11,6 +11,7 @@
   "time": "15:45-16:05",
   "start": "15:45",
   "end": "16:05",
+  "shows_as": "busy",
   "where": "Stage 10 (Developer Summit), MEO Arena and FIL",
   "place": "place:stage-10",
   "track": "Developer Summit",

@@ -11,6 +11,7 @@
   "time": "11:30-11:50",
   "start": "11:30",
   "end": "11:50",
+  "shows_as": "busy",
   "where": "Stage 8 (Cybersecurity Summit), MEO Arena and FIL",
   "place": "place:stage-8",
   "track": "Cybersecurity Summit",

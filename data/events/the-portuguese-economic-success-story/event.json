@@ -11,6 +11,7 @@
   "time": "11:10-11:30",
   "start": "11:10",
   "end": "11:30",
+  "shows_as": "busy",
   "where": "Stage 11 (Policy Summit), MEO Arena and FIL",
   "place": "place:stage-11",
   "track": "Policy Summit",

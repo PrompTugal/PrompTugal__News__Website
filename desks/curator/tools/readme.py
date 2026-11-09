@@ -25,13 +25,14 @@ rests["S7"]+= ["v-tecnico-web-summit-2026"] # revision in 2026-11-04-1955.json
 rests["S1"]+= ["v-carris-web-summit-shuttle"] # revision in 2026-11-05-1945.json
 rests["S1"]+= ["v-parque-das-nacoes-traffic"] # revision in 2026-11-06-1945.json
 rests["S5"]+= ["v-ey-web-summit-economic-impact"] # revision in 2026-11-05-1945.json
-PUBLISHED={"S28":("https://promptugal.news/articles/five-ai-builders-to-know.html","8 Nov"),"S29":("https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html","8 Nov"),"S30":("https://promptugal.news/articles/health-startups-by-problem.html","8 Nov")}  # id -> (article URL, date); set when an article or draft covers it
-DRAFTED={"S31":"drafted, reviewed Ready, held for approval"}  # id -> state; set when a draft exists
+PUBLISHED={"S28":("https://promptugal.news/articles/five-ai-builders-to-know.html","8 Nov"),"S29":("https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html","8 Nov"),"S30":("https://promptugal.news/articles/health-startups-by-problem.html","8 Nov"),"S31":("https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html","9 Nov"),"S33":("https://promptugal.news/articles/ibm-sports-tech-challenge.html","9 Nov")}  # id -> (article URL, date); set when an article or draft covers it
+DRAFTED={}  # id -> state; set when a draft exists
 DROPPED={"S14":"duplicates","S21":"duplicates","S23":"duplicates"}
 import subprocess
 NOW=subprocess.check_output(["date","-u","+%A %-d %B %Y, %H:%M UTC"],text=True).strip()
 EXTRA_SRC={"page-newsletter":("PrompTugal.news","The daily newsletter","https://promptugal.news/newsletter/index.html","2026-11-07 19:50"),"page-venue-map":("PrompTugal.news","The venue map","https://promptugal.news/summit/venue/index.html","2026-11-07 19:50"),"note-the-sign-in":("PrompTugal.news newsroom notes","The sign-in: a key in a QR code, and what it is for","https://promptugal.news/newsroom/notes/2026-11-06-the-sign-in/index.html","2026-11-07 11:55")}
 stories=[ # id, title, beat, angle, added, note
+("S34","Where to find Portugal at Web Summit: Pavilion 1, stand E145","Portugal","The Portugal Stand is in Pavilion 1, stand E145, at the entrance, with AICEP's teams there all four days: a short practical guide for Portuguese founders, investors and visitors.","9 Nov","For journalist-portugal. One source: AICEP's own page."),
 ("S33","Sports tech at Web Summit: IBM's startup challenge ends in Lisbon","The summit","IBM's year-long challenge for startups building AI-powered products for sports ends in Lisbon: a showcase on 10 November and an invitation-only prize challenge on 11 November.","9 Nov","For the summit desk (journalist). Time-sensitive: the showcase is on 10 November."),
 ("S32","Rehab beyond the clinic: three Portuguese startups at Web Summit","Connections: Portugal","Braining, UpSpeech and Twin Factory: different technology on the same problem, helping people recover outside the clinic.","9 Nov","Not ready: each company is known only from one article's one-line description; waits for the companies' own pages."),
 ("S31","Beyond Lisbon: where Road 2 Web Summit's 78 startups come from","Portugal","Lisbon has 41 of the 78 startups selected for Road 2 Web Summit; a tour of the other 37, from Porto and Braga to the Azores and Madeira, and what they build.","9 Nov","For journalist-portugal."),
@@ -87,7 +88,7 @@ for sid,title,beat,angle,added,note in stories:
         out.append(f'- [{p}, "{t}"]({u}), read {day(r)}')
     if not seen: out.append("- no source yet")
     out.append("")
-READY=["S33"]  # ids of connection storylines ready to write now; empty unless one is listed here (check first with the duplicate check below)
+READY=["S34"]  # ids of connection storylines ready to write now; empty unless one is listed here (check first with the duplicate check below)
 import glob as _g
 def _words(s): return {w for w in re.findall(r"[a-z0-9]+",s.lower()) if len(w)>3}
 def _titles():
@@ -108,11 +109,11 @@ for sid in READY:
     assert not dup_matches(t),("ready story already has an article or draft",sid,dup_matches(t))
 for sid in PUBLISHED:
     pass
-ASSIGN=[("S33","the summit desk (journalist)","IBM's Sports Tech Startup Challenge: the showcase on Tuesday 10 November, the invitation-only prize challenge on 11 November, who pitches, who judges, what the prize is; time-sensitive, write first. The source is IBM's own post, the descriptions are IBM's, the post gives no time or stage for the showcase and says six startups but lists five")]
+ASSIGN=[("S34","the Portugal desk (journalist-portugal)","where the Portugal Stand is (Pavilion 1, stand E145, at the entrance), who AICEP says is there and what it is for; one source, AICEP's own page in Portuguese, so say so and re-read it the same day; name no other occupant of the stand beyond what the published Road 2 article says")]
 out+=["## Assignments by desk: order and readiness","","For the five journalists, in priority order (standing answers 20 and 22, the desk review of 8 November). Each was checked against the articles and drafts at this run.","","Ready to write now:",""]
 for k,(sid,desk,cond) in enumerate(ASSIGN,1):
     out.append(f"{k}. {sid}, {[s[1] for s in allst if s[0]==sid][0]}: for {desk}. {cond[0].upper()+cond[1:]}.")
-out+=["","Already published, not to be written again: "+"; ".join(f"{k} ({v[0]})" for k,v in PUBLISHED.items())+".","","Already drafted, not to be written again: "+"; ".join(f"{k} ({v})" for k,v in DRAFTED.items())+".","","No assignment this run: the Europe desk (its two requests to the researcher are still open), the Portugal desk (S31 is drafted; Go Coimbra's stand needs its 12 startups named), the AI desk and the connections desk (nothing new that is ready). Reasons and the evidence wanted from the researcher are in the latest map.","","Held until the researcher captures more: S32 (rehab beyond the clinic) until the three companies' own pages are captured; a Portuguese angle on AI trust and risk until the Humanos country question is settled; fintech startups on the featured list; and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.",""]
+out+=["","Already published, not to be written again: "+"; ".join(f"{k} ({v[0]})" for k,v in PUBLISHED.items())+".","","Already drafted, not to be written again: "+("; ".join(f"{k} ({v})" for k,v in DRAFTED.items()) or "none")+".","","No assignment this run: the summit desk (the Opening Night source page could not be re-read from the curator's environment, and Opening Night is already in the published guides), the Europe desk (its two requests to the researcher are still open), the AI desk and the connections desk (nothing new that is ready). Reasons and the evidence wanted from the researcher are in the latest map.","","Held until the researcher captures more: S32 (rehab beyond the clinic) until the three companies' own pages are captured; a Portuguese angle on AI trust and risk until the Humanos country question is settled; fintech startups on the featured list; and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.",""]
 out+=["## Dropped","","Taken off the list on 6 November 2026, at Vicky's word, as duplicates of other candidates:","",]
 for s in allst:
     if s[0] in DROPPED: out.append(f"- {s[0]}: {s[1]} ({DROPPED[s[0]]})")

@@ -100,3 +100,9 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 10:21 wake
 - Inbox empty. Guidance 10:15 (LLM in apps) read. Customer pages scanned; Prisma on Mastra = internal agents, not taken. No data change.
+
+## 14:21 wake
+- Inbox: conductor@ (active key), the iOS app: shows_as. Done (schema, derive.mjs showsAs, 23 hand events). Lesson: git checkout data/events also reverts hand events in the same folder; restore only derived files by name next time.
+
+## 16:21 wake
+- Inbox: conductor@ (active key): align with mobile@ rules.json. Fetched raw at 7433286 into the scratchpad (data, not run as trusted code; I wrote my own case runner). Threshold 120 -> 180, title patterns added. Restored derived files by name only this time.

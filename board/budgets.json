@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-09T12:50Z",
+ "updated": "2026-11-09T15:50Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -26,17 +26,17 @@
    "usd": 500
   },
   "spent_today": {
-   "releases": 87,
-   "usd": 189.58,
-   "read_at": "2026-11-09T12:50Z",
+   "releases": 106,
+   "usd": 198.12,
+   "read_at": "2026-11-09T15:50Z",
    "usd_by_account": {
-    "A": 33.8,
+    "A": 42.34,
     "B": 155.78
    }
   },
   "state": "ok",
-  "used": 0.38,
-  "rate": "API-equivalent, 2026-11-09: 189.58 by 12:50 (A 33.8, B 155.78); 47.09 since the reading before"
+  "used": 0.4,
+  "rate": "API-equivalent, 2026-11-09: 198.12 by 15:50 (A 42.34, B 155.78); 8.54 since the reading before"
  },
  "agents": [
   {
@@ -47,16 +47,16 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 15,
-    "usd": 20.68,
-    "output_tokens": 45549,
-    "read_at": "2026-11-09T12:50Z",
+    "releases": 18,
+    "usd": 24.87,
+    "output_tokens": 55349,
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
-     "A": 8.27,
+     "A": 12.46,
      "B": 12.41
     }
    },
-   "used": 0.41,
+   "used": 0.5,
    "state": "ok",
    "why": "one release per hourly wake; it opens and closes every pass; account A: stays (board/the-account-move.md)",
    "yesterday_usd": 90.75
@@ -72,7 +72,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -91,10 +91,10 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 5,
+    "releases": 6,
     "usd": 30.61,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 30.61
@@ -113,10 +113,10 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 15,
+    "releases": 17,
     "usd": 17.92,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 17.92
@@ -138,7 +138,7 @@
     "releases": 4,
     "usd": 17.36,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 17.36
@@ -160,7 +160,7 @@
     "releases": 4,
     "usd": 24.02,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 24.02
@@ -182,7 +182,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -202,15 +202,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 4.32,
-    "output_tokens": 6033,
-    "read_at": "2026-11-09T12:50Z",
+    "usd": 4.77,
+    "output_tokens": 8202,
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
-     "A": 4.32,
+     "A": 4.77,
      "B": 0
     }
    },
-   "used": 0.14,
+   "used": 0.16,
    "state": "ok",
    "why": "account A: stays (board/the-account-move.md)",
    "yesterday_usd": 37.96
@@ -226,7 +226,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -248,7 +248,7 @@
     "releases": 4,
     "usd": 10.76,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 10.76
@@ -267,16 +267,16 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 4,
-    "usd": 10.94,
-    "output_tokens": 22039,
-    "read_at": "2026-11-09T12:50Z",
+    "releases": 5,
+    "usd": 13.31,
+    "output_tokens": 26021,
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
-     "A": 10.94,
+     "A": 13.31,
      "B": 0
     }
    },
-   "used": 0.36,
+   "used": 0.44,
    "state": "ok",
    "why": "account A: stays (board/the-account-move.md)",
    "yesterday_usd": 104.16
@@ -289,10 +289,10 @@
     "output_tokens": 350000
    },
    "spent_today": {
-    "releases": 3,
+    "releases": 4,
     "usd": 9.04,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 9.04
@@ -314,7 +314,7 @@
     "releases": 3,
     "usd": 9.05,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 9.05
@@ -336,7 +336,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -355,18 +355,18 @@
     "output_tokens": 200000
    },
    "spent_today": {
-    "releases": 2,
-    "usd": 10.27,
-    "output_tokens": 29307,
-    "read_at": "2026-11-09T12:50Z",
+    "releases": 3,
+    "usd": 11.8,
+    "output_tokens": 38820,
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
-     "A": 10.27,
+     "A": 11.8,
      "B": 0
     }
    },
-   "used": 1.03,
+   "used": 1.18,
    "state": "warn",
-   "why": "account A: stays (board/the-account-move.md); OVER at 12:50 UTC on usd (used 1.03); keeps working (capture, not block)",
+   "why": "account A: stays (board/the-account-move.md); OVER at 15:50 UTC on usd (used 1.18); keeps working (capture, not block)",
    "yesterday_usd": 37.32
   },
   {
@@ -380,7 +380,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0.0,
      "B": 0
@@ -402,7 +402,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -424,7 +424,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -446,7 +446,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -468,7 +468,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -490,7 +490,7 @@
     "releases": 0,
     "usd": 9.14,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 9.14
@@ -512,7 +512,7 @@
     "releases": 0,
     "usd": 6.08,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 6.08
@@ -534,7 +534,7 @@
     "releases": 0,
     "usd": 2.07,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 2.07
@@ -556,7 +556,7 @@
     "releases": 0,
     "usd": 5.13,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 5.13
@@ -578,7 +578,7 @@
     "releases": 0,
     "usd": 2.19,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 2.19
@@ -600,7 +600,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -622,7 +622,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-09T12:50Z",
+    "read_at": "2026-11-09T15:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -1213,6 +1213,64 @@
    "asked_by": "the summit set (02:50): dev.verify@ restarts 'once its OpenRouter budget is checked'",
    "checked": "its line is 1 USD a day (board/budgets.json, openrouter.per_day_usd); its own records show about 1.2 USD on 7 November, within Dinis's allowance of about 100 GBP; it may run within its line once the key has credit (it stops itself at about 1 USD of credit left). Every call to be logged with model and cost, so the gap of 7 November does not repeat",
    "decision": "go, within 1 USD a day (accountant@, a PT decision)"
+  },
+  "summit_plan": {
+   "written": "2026-11-09T13:30Z",
+   "by": "accountant@PrompTugal.dinis",
+   "status": "proposed: mapped on Dinis's word as relayed by conductor@web-summit.dinis at about 13:25 UTC on 9 November (\"maybe put $5\" per tablet; \"happy to spend 100, 200, 300 quid on OpenRouter ... we're not spending enough ... go to town ... get the accountant involved to map this up\"). The relay is not yet in board/guidance/; the money is Dinis's, so the numbers below are his range and stand until he changes them",
+   "units": "USD of real OpenRouter credit (not API-equivalent); 1 GBP taken as about 1.27 USD",
+   "envelope": {
+    "floor_gbp": 100,
+    "ceiling_gbp": 300,
+    "planned_usd": 250,
+    "planned_gbp_about": 197,
+    "why": "the middle of Dinis's range; leaves about 130 USD of headroom under 300 GBP for what the summit shows"
+   },
+   "allocation_usd": [
+    {
+     "what": "the RiskMandate and team apps on the Android tablets (conductor.android@, about 10 tablets), on-device workbench calls to the cloud",
+     "keys": "one OpenRouter key per tablet, named android-<tablet>",
+     "per_key_limit_usd": 5,
+     "count": 10,
+     "total_usd": 50
+    },
+    {
+     "what": "the same on the iPads (the iOS team, account B)",
+     "keys": "one key per iPad, named ios-<device>",
+     "per_key_limit_usd": 5,
+     "count_assumed": 6,
+     "total_usd": 30
+    },
+    {
+     "what": "the cloud comparison (the same prompt to cloud models beside the on-device model), run by each app team",
+     "keys": "one key per team: android-compare, ios-compare",
+     "per_key_limit_usd": 25,
+     "count": 2,
+     "total_usd": 50
+    },
+    {
+     "what": "the newsroom agents (designer@ 10, designer.experiments@ 2, dev.verify@ 1 a day, investors@ images) for 9 to 12 November",
+     "keys": "one key per agent instead of today's shared key, named agent-<role>",
+     "per_key_limit_usd": "its line times four days (designer@ 40, dev.verify@ 4, designer.experiments@ 8, investors@ 8)",
+     "total_usd": 60
+    },
+    {
+     "what": "reserve: a key that ends a demo early gets more from here at the owner's ask",
+     "keys": "held back, not issued",
+     "total_usd": 60
+    }
+   ],
+   "per_key_limits": "set in OpenRouter by the key holder (Dinis or whoever he names) when each key is made; the per-key credit limit is the hard stop, real money. No agent makes or tops up a key; accountant@ never uses one",
+   "reporting": [
+    "each app team writes one row per key per day (key name, spend in USD, the models used) in a ledger file of its own, board/team/<conductor>/ledger/openrouter-<date>.json, read from the OpenRouter key's activity",
+    "each agent that calls OpenRouter logs model and cost per call in its status.json (the 7 November gap of about 25 USD came from a shared key nobody logged)",
+    "accountant@ folds the rows into board/budgets.json at every wake (openrouter.spent), flags a key at 80% of its limit to its owner's conductor and the whole plan at 80% of 250 USD to Dinis",
+    "a summit close on 13 November: spend per app, per device and per agent, against the plan"
+   ],
+   "open": [
+    "the iPad count is assumed (6); the iOS team says the real one",
+    "the agents' shared key stays until per-agent keys exist; until then its spend is reported as one figure"
+   ]
   }
  },
  "media": {
@@ -1232,7 +1290,7 @@
   "measured": "not yet: the accountant has no reading of vault sizes; asked of backup@ and observability@ for one number a day"
  },
  "real_limits": {
-  "read_at": "2026-11-09T12:50Z",
+  "read_at": "2026-11-09T15:50Z",
   "subscription": {
    "A": {
     "rate_limit_type": "seven_day",

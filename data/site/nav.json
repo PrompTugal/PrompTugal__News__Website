@@ -100,6 +100,11 @@
     },
     {
       "column": "Find",
+      "label": "The app",
+      "href": "app/index.html"
+    },
+    {
+      "column": "Find",
       "label": "My day",
       "href": "my-day/index.html"
     },

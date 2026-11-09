@@ -1,0 +1,140 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-09T14:55Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis; the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 9 November 2026 at 14:38 UTC: new commit 010c3b972ea5 (researcher's 14:15 run, one capture: AICEP on the Portugal Stand).",
+    "agenda_input": "Read programme's report (its 05:00 run lists the day's changes in prose; the formal `agenda changes:` line starts at its next run) and desks/programme/agenda.json on the newsroom's dev branch (generated 9 Nov 05:10 UTC, 226 items, to 12 Nov). The agenda's own source pages could not be re-read today: websummit.com is not reachable from the curator's environment.",
+    "also_read": "Published articles, every desk's drafts, the storyline map and the researcher's report, for the duplicate check (answers 20 and 28, rule 25)."
+  },
+  "rules": "Every fact is from the capture as the researcher wrote it. The curator added none and checked none. No assignment depends on pages 2 to 26 of the featured list. First run under standing answer 28.",
+  "captures": [
+    {
+      "id": "v-aicep-portugal-stand",
+      "file": "vault 41j3e9s9, captures/2026-11-09-aicep-portugal-stand.md",
+      "source_url": "https://www.portugalglobal.pt/pt/noticias/2026/novembro/aicep-na-web-summit-2026-portugal-liga-se-ao-mundo/",
+      "beat": "Portugal",
+      "names": [
+        "AICEP Portugal Global",
+        "Web Summit"
+      ],
+      "what_is_new": "AICEP, Portugal's trade and investment agency, is on the Portugal Stand at Web Summit from 9 to 12 November: Pavilion 1, stand E145, at the entrance of the event, with teams from its internationalisation, investment and external network directorates, to connect Portuguese companies with global markets and attract investment; the stand is described as a meeting point for companies, partners and investors and a showcase of Portugal's business and technology ecosystem. This gives the stand's location, which the published Road 2 article said the sources read did not give.",
+      "is_story": true,
+      "group": "Portugal"
+    }
+  ],
+  "groups": {
+    "Portugal": [
+      "v-aicep-portugal-stand"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "The Portugal Stand in S3, S13 and the Portugal organisations page",
+      "verdict": "not a duplicate",
+      "why": "They name the stand but none gives where it is; the published Road 2 article says so itself ('Where Portugal's stand is on the venue map is not given in the sources read')."
+    },
+    {
+      "item": "Pavilion 1 in S1, S10, S18",
+      "verdict": "not a duplicate",
+      "why": "Those mention Pavilion 1 for other reasons; none places the Portugal Stand at E145."
+    }
+  ],
+  "published_check": {
+    "S31": "published (road-2-web-summit-beyond-lisbon)",
+    "S33": "published (ibm-sports-tech-challenge)",
+    "S3": "updated by the reviewer with the class of 78 (11:38)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The agenda has changes (Opening Night's programme is public, a Spotlight press conference on Tuesday 10 November at 12:30, a Brazil session moved to Wednesday 11 at 14:32) but Opening Night is already in the published week guide and the wristband article, and its source page cannot be re-read from the curator's environment (websummit.com is blocked), so a 'tonight' piece could not be sourced the way standing answer 28 asks. S33 is published.",
+      "gap_for_researcher": "Re-read today the session pages for Web Summit's Spotlight press conference (Tuesday 10 November, 12:30) and the CEO's press conference (Wednesday 11 November, 11:00): who speaks and what Web Summit says each covers. Reader angle: readers following the announcements from afar."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new for Europe; the 8 November 19:00 requests (open EU funding calls, other countries' delegations) are still open.",
+      "gap_for_researcher": "As in the 8 November 19:00 map."
+    },
+    "portugal": {
+      "assignment": "S34",
+      "ready": true,
+      "reader_angle": "Portuguese founders, investors and visitors: where Portugal's own stand is, who is on it and what it is for.",
+      "source_ids": [
+        "v-aicep-portugal-stand"
+      ],
+      "duplicate_check": "Run 9 Nov 14:55 on the title and 'E145', 'Portugal Stand', 'Pavilion 1' against content/articles, content/portugal and every desk's drafts: nothing gives the stand's location."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Nothing new for AI; S29 is published."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "Nothing new that is ready; S32 stays not ready (three companies known from one article's one-line descriptions; the researcher's answer came from the same capture, not the companies' own pages)."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S34",
+      "kind": "team-desk",
+      "title": "Where to find Portugal at Web Summit: Pavilion 1, stand E145",
+      "beat": "Portugal",
+      "angle": "A short practical guide for Portuguese founders, investors and visitors: the Portugal Stand is in Pavilion 1, stand E145, at the entrance of the event, open from 9 to 12 November; AICEP says its internationalisation, investment and external network teams are there to connect Portuguese companies with global markets and attract investment, and describes it as a meeting point and a showcase of Portugal's business and technology ecosystem. The published Road 2 article says the programme's startups have extra space on the stand.",
+      "rests_on": [
+        "v-aicep-portugal-stand"
+      ],
+      "note": "For journalist-portugal. Ready to write now. Conditions: one source, AICEP's own page in Portuguese (9 November), so say so and re-read it the same day; translate its quotes faithfully; give AICEP's chair by role only; the capture does not say which other organisations or startups are on the stand, so name none beyond what the published Road 2 article says; no session programme for the stand is captured. The Road 2 article's line that the stand's location was not given can now be updated (for the reviewer).",
+      "words": 10
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S34",
+      "what": "One source, AICEP's own page. The stand's other occupants and its programme are not captured; do not state them."
+    },
+    {
+      "item": "Humanos (S29, published)",
+      "what": "Still open: Web Summit's featured page says United States, the Startup Portugal list says Madeira; the researcher captured both and could not settle it."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S31",
+      "change": "Published (road-2-web-summit-beyond-lisbon)."
+    },
+    {
+      "candidate": "S33",
+      "change": "Published (ibm-sports-tech-challenge)."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "The Portugal Stand's own programme of sessions and who exhibits there (days, times, organisations), from AICEP's, Startup Portugal's and Unicorn Factory Lisboa's public pages.",
+      "reader_angle": "Visitors planning a stop at stand E145: what is on and when.",
+      "sources_wanted": "The organisations' own public pages; read dates.",
+      "why_not_a_duplicate": "Only the stand's location and AICEP's presence are captured."
+    },
+    {
+      "desk": "summit",
+      "priority": 1,
+      "gap": "The Spotlight press conference (Tuesday 10 November, 12:30) and the CEO's press conference (Wednesday 11 November, 11:00): who speaks and what each covers.",
+      "reader_angle": "Readers following the announcements from afar.",
+      "sources_wanted": "Web Summit's session pages, re-read the same day.",
+      "why_not_a_duplicate": "Not covered by any article or draft."
+    },
+    {
+      "desk": "all",
+      "priority": 2,
+      "gap": "Still open: the IBM showcase's time and stage, Go Coimbra's startups and stand, Road 2 pitch times, EU funding calls, other countries' delegations, Humanos's country.",
+      "reader_angle": "As in the earlier maps.",
+      "sources_wanted": "As in the earlier maps.",
+      "why_not_a_duplicate": "As in the earlier maps."
+    }
+  ],
+  "urgent": "None"
+}

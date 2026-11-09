@@ -11,6 +11,7 @@
   "time": "17:30-19:00",
   "start": "17:30",
   "end": "19:00",
+  "shows_as": "busy",
   "where": "Soul kitchen & bar",
   "place": "place:soul-kitchen-and-bar",
   "track": null,

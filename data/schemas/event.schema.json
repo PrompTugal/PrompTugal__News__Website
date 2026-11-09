@@ -66,6 +66,10 @@
     "end_date": {
       "$ref": "common.schema.json#/$defs/date"
     },
+    "shows_as": {
+      "description": "How a calendar should count the event: free for presence events (registration, the summit and its opening nights, festivals, programmes, competitions, conferences, all-day or multi-day events, over two hours), busy for the rest (talks, panels, workshops). Derived by newsroom/build/lib/derive.mjs (showsAs); set by the same rule on hand-kept events. Asked by the iOS app, 9 November.",
+      "enum": ["free", "busy"]
+    },
     "all_day": {
       "description": "True only when the source says the event runs all day; a null time without it means the time is not yet known (synthetic@'s F60).",
       "const": true
