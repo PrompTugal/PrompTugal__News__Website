@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.863",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 15:52: the news app on the web, step 1, live (no email list); list and day pages done for the reader",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "2907c0fce"
+  },
+  {
     "version": "v0.1.862",
     "date": "2026-11-09",
     "what": "accountant@PrompTugal.dinis: correct the 15:50 reading, account A 42.34 (not 46.83), team 198.12",
