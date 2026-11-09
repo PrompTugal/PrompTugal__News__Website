@@ -1,0 +1,147 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-09T10:45Z",
+  "for": "journalist (summit desk) via newsroom@web-summit.dinis; the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 9 November 2026 at 10:38 UTC: new commit ce6b7fa31286 (researcher's 10:15 run, two captures: IBM's Sports Tech Startup Challenge and Go Coimbra's 12 startups).",
+    "also_read": "Published articles, every desk's drafts (S31 drafted 06:00, reviewed Ready 06:25, held for Vicky), the storyline map and the researcher's report, for the duplicate check (answer 20, rule 25)."
+  },
+  "rules": "Every fact is from the captures as the researcher wrote them. IBM's descriptions are IBM's; the Diario de Coimbra article names no startup. The curator added no fact and checked none.",
+  "captures": [
+    {
+      "id": "v-ibm-sports-tech-challenge",
+      "file": "vault 41j3e9s9, captures/2026-11-09-ibm-sports-tech-challenge.md",
+      "source_url": "https://newsroom.ibm.com/blog-ibm-sports-tech-startup-challenge-culminates-at-web-summit-lisbon-2026",
+      "beat": "announcements",
+      "names": [
+        "IBM",
+        "Web Summit"
+      ],
+      "what_is_new": "IBM's Sports Tech Startup Challenge, launched at Web Summit Lisbon 2025 for growth-stage startups building AI-powered solutions for the business of sports, ends at Web Summit Lisbon 2026: a showcase on 10 November (the post says six startups; five are listed: Proximity Works Inc., More Rewards, Game Intuit, N Tangible, Valarita Sports) and an invitation-only Prize Challenge on 11 November with six confirmed finalists (LingoPal, Fanory, Neuron Systems, LivXP, PressBox, TwelveLabs), with judges from IBM, FIFA, Ferrari and CNN as listed. The Grand Prize includes up to 100,000 US dollars for an eligible proof-of-concept project with IBM's sports partnerships team, up to 20,000 dollars in IBM credits and mentorship, subject to IBM's rules. Participation rests on IBM's own post; descriptions are IBM's.",
+      "is_story": true,
+      "group": "announcements"
+    },
+    {
+      "id": "v-go-coimbra-12-startups",
+      "file": "vault 41j3e9s9, captures/2026-11-09-go-coimbra-12-startups.md",
+      "source_url": "https://www.diariocoimbra.pt/2026/11/09/go-coimbra-apresenta-12-startups-na-web-summit-em-lisboa/",
+      "beat": "Portugal",
+      "names": [
+        "Go Coimbra",
+        "Instituto Pedro Nunes",
+        "University of Coimbra"
+      ],
+      "what_is_new": "Go Coimbra, with IPN and the University of Coimbra, brings 12 selected startups to Web Summit for all four days, in digital health, AI, robotics, sustainability and aerospace technology; the stand promises a robot in a Coimbra student cape and a Coimbra guitar performance with an electronic touch. The startups are not named and no stand location is given.",
+      "is_story": false,
+      "group": "Portugal, held"
+    }
+  ],
+  "groups": {
+    "announcements": [
+      "v-ibm-sports-tech-challenge"
+    ],
+    "Portugal, held": [
+      "v-go-coimbra-12-startups"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "IBM, the sports-tech startups and the judges",
+      "verdict": "new, nothing duplicated",
+      "why": "No article or draft names IBM's challenge or any of its startups (checked 9 Nov against content/articles and every desk's drafts)."
+    },
+    {
+      "item": "Coimbra in S10, S18, S31 and the Road 2 article",
+      "verdict": "not a duplicate of the Go Coimbra stand",
+      "why": "Those mention Coimbra as a university or one startup's city; none covers the Go Coimbra stand."
+    }
+  ],
+  "published_check": {
+    "S31": "drafted (desks/journalist-vicky/drafts/S31-road-2-web-summit-beyond-lisbon.md), status Ready, held for Vicky's approval; not to be written again"
+  },
+  "desk_review": {
+    "summit": {
+      "assignment": "S33",
+      "ready": true,
+      "reader_angle": "Anyone at or following the summit who cares about sports, media or AI products: what happens on Tuesday 10 and Wednesday 11 November, who pitches, who judges, what the prize is.",
+      "source_ids": [
+        "v-ibm-sports-tech-challenge"
+      ],
+      "duplicate_check": "Run 9 Nov 10:45 on the title and the names against content/articles and every desk's drafts: no match.",
+      "time_sensitive": "The showcase is on 10 November, the day after this run; write first."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new for Europe; the 8 November 19:00 requests (open EU funding calls, other countries' delegations) are still open.",
+      "gap_for_researcher": "As in the 8 November 19:00 map."
+    },
+    "portugal": {
+      "no_assignment": true,
+      "reason": "S31 is already drafted and Ready. The Go Coimbra stand is a regional angle, but the 12 startups are not named and no stand location is given, so a reader could not use it yet.",
+      "gap_for_researcher": "Go Coimbra's and IPN's own public pages: the names of the 12 startups and where the stand is."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "The IBM challenge is AI-powered products for sports, but the reader angle is the event, assigned to the summit desk; a second piece would repeat it."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "S30 is published; S32 still waits for three companies' own pages. The IBM startups could be a theme, but one cohort in one post is the summit desk's story."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S33",
+      "kind": "team-desk",
+      "title": "Sports tech at Web Summit: IBM's startup challenge ends in Lisbon",
+      "beat": "The summit",
+      "angle": "IBM's year-long challenge for startups building AI-powered products for the business of sports ends in Lisbon: a showcase on Tuesday 10 November (Proximity Works, More Rewards, Game Intuit, N Tangible, Valarita Sports are listed) and an invitation-only Prize Challenge on Wednesday 11 November with six finalists (LingoPal, Fanory, Neuron Systems, LivXP, PressBox, TwelveLabs), judged by people from IBM, FIFA, Ferrari and CNN as IBM lists them, for a prize that includes up to 100,000 US dollars for a proof-of-concept project with IBM's sports team.",
+      "rests_on": [
+        "v-ibm-sports-tech-challenge"
+      ],
+      "note": "For journalist (summit desk). Ready to write now and time-sensitive: the showcase is on 10 November. Conditions: the source is IBM's own post, so say so; the descriptions are IBM's, not checked; the post gives no time or stage for the showcase, say it is not given and point to Web Summit's schedule; the Prize Challenge is invitation-only, so readers cannot attend it; the post says six showcase startups but lists five, say so or name only the five; prize terms are subject to IBM's official rules; name judges only as the post lists them, by role and organisation; re-read the post the same day. No contact details.",
+      "words": 10
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S33",
+      "what": "Everything rests on IBM's one post, which says six showcase startups but lists five. Check the showcase day and the prize wording against the post on the day of writing."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S31",
+      "change": "Drafted (06:00) and reviewed Ready (06:25), held for Vicky's approval; removed from the ready list."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "summit",
+      "priority": 1,
+      "gap": "The time and stage of IBM's Sports Tech Startup Challenge showcase on 10 November, and whether it is open to all attendees, from Web Summit's schedule.",
+      "reader_angle": "What to see on Tuesday, and when.",
+      "sources_wanted": "Web Summit's schedule entry; IBM's post as already captured.",
+      "why_not_a_duplicate": "IBM's post gives the day but no time or stage."
+    },
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Which 12 startups Go Coimbra brings, and where its stand is, from Go Coimbra's and IPN's own public pages.",
+      "reader_angle": "Visitors who want to find Coimbra's stand and know which startups to ask for.",
+      "sources_wanted": "Go Coimbra and IPN public pages; read dates.",
+      "why_not_a_duplicate": "The Diario de Coimbra article names no startup and no stand location."
+    },
+    {
+      "desk": "all",
+      "priority": 2,
+      "gap": "Still open from earlier maps: the Road 2 pitch times, what Braining, UpSpeech and Twin Factory do, Humanos's country, EU funding calls, other countries' delegations.",
+      "reader_angle": "As in those maps.",
+      "sources_wanted": "As in those maps.",
+      "why_not_a_duplicate": "As in those maps."
+    }
+  ],
+  "urgent": "None"
+}
