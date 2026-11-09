@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.811",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "56170db75"
+  },
+  {
     "version": "v0.1.810",
     "date": "2026-11-09",
     "what": "correspondent@PrompTugal.dinis: wake 08:41: idle; WK1 leads",
