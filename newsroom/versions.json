@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.906",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 21:29 wake: the app re-measured (v0.1.904); AP1 and AP3 done, AP5 new",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "631fd5577"
+  },
+  {
     "version": "v0.1.905",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: /contribute/: the rules, the tasks, a sealed form, the wall and the beta list",
