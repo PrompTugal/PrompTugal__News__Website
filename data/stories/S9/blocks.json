@@ -2,7 +2,7 @@
   "$schema": "../../schemas/story-blocks.schema.json",
   "story": "S9",
   "kept_by": "dev.data@PrompTugal.dinis",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "article": "content/articles/brazil-startup-mission.md",
   "blocks": [
     {
@@ -24,9 +24,14 @@
       "claims": [
         "c01",
         "c03",
+        "c05",
         "c06",
         "c07",
-        "c12"
+        "c08",
+        "c09",
+        "c22",
+        "c24",
+        "c25"
       ]
     },
     {
@@ -208,13 +213,7 @@
     {
       "id": "b12",
       "type": "paragraph",
-      "text": "A suggestion: investors and accelerators interested in Latin America, and Portuguese startups selling into Brazil, could start at the Brazil Pavilion, and the AI pitch competition on 10 November is one place to see several Brazilian startups at once.",
-      "claims": [
-        "c11",
-        "c24",
-        "c25",
-        "c26"
-      ]
+      "text": "A suggestion: investors and accelerators interested in Latin America, and Portuguese startups selling into Brazil, could start at the Brazil Pavilion, and the AI pitch competition on 10 November is one place to see several Brazilian startups at once."
     },
     {
       "id": "b13",
@@ -244,7 +243,12 @@
         "**No meeting is planned** between anyone named here that we know of. The suggestion is ours."
       ],
       "claims": [
+        "c01",
+        "c03",
         "c04",
+        "c06",
+        "c07",
+        "c08",
         "c10"
       ]
     },
