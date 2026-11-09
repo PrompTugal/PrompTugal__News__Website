@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-go-coimbra-12-startups",
+  "type": "evidence",
+  "source_url": "https://www.diariocoimbra.pt/2026/11/09/go-coimbra-apresenta-12-startups-na-web-summit-em-lisboa/",
+  "beat": "Portugal",
+  "group": "Portugal, held",
+  "names": [
+    {
+      "as_listed": "Go Coimbra",
+      "ref": "organisation:go-coimbra"
+    },
+    {
+      "as_listed": "Instituto Pedro Nunes",
+      "ref": "organisation:instituto-pedro-nunes"
+    },
+    {
+      "as_listed": "University of Coimbra",
+      "ref": "organisation:university-of-coimbra"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-09-1045.json",
+  "run": "2026-11-09T10:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1045.json"
+    ]
+  }
+}

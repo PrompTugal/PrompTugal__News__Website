@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B, the summit set)",
-  "updated": "2026-11-09T10:40Z",
+  "updated": "2026-11-09T12:35Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -306,6 +306,12 @@
       "outcome": "ok",
       "release": "run report",
       "line": "nothing new; BR2's announcement located for Tuesday"
+    },
+    {
+      "started": "2026-11-09T12:29Z",
+      "outcome": "ok",
+      "release": "run report",
+      "line": "nothing new for this desk (Dinis's 'How we work' read: no action here; S33 is Vicky's)"
     }
   ],
   "decisions_on_findings": [

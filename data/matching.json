@@ -1722,6 +1722,11 @@
         "count": 1
       },
       {
+        "as_listed": "IBM",
+        "ref": "company:ibm",
+        "count": 1
+      },
+      {
         "as_listed": "Manus AI",
         "ref": "company:manus-ai",
         "count": 2
@@ -1869,6 +1874,11 @@
         "count": 1
       },
       {
+        "as_listed": "Go Coimbra",
+        "ref": "organisation:go-coimbra",
+        "count": 1
+      },
+      {
         "as_listed": "Granter",
         "ref": "organisation:granter",
         "count": 1
@@ -1896,6 +1906,11 @@
       {
         "as_listed": "Institute for Systems and Robotics",
         "ref": "organisation:institute-for-systems-and-robotics",
+        "count": 1
+      },
+      {
+        "as_listed": "Instituto Pedro Nunes",
+        "ref": "organisation:instituto-pedro-nunes",
         "count": 1
       },
       {
@@ -2069,6 +2084,11 @@
         "count": 1
       },
       {
+        "as_listed": "University of Coimbra",
+        "ref": "organisation:university-of-coimbra",
+        "count": 1
+      },
+      {
         "as_listed": "University of Porto",
         "ref": "organisation:university-of-porto",
         "count": 1
@@ -2076,7 +2096,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 25
+        "count": 26
       },
       {
         "as_listed": "Xiaomi",

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d"><title id="t">IBM's sports tech challenge ends at Web Summit Lisbon</title><desc id="d">Tuesday 10 November: showcase, six startups. Wednesday 11 November: invitation-only prize challenge, six confirmed finalists. Prize: a paid proof of concept worth up to 100,000 US dollars. Source: IBM and Web Summit, read 9 November 2026.</desc><style>
+.bg{fill:#f6f3ec}.ink{fill:#121317}.ink2{fill:#3f424a}.acc{fill:#006600}.box{fill:#ffffff;stroke:#d8d2c3;stroke-width:3}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){.bg{fill:#111214}.ink{fill:#eceae4}.ink2{fill:#c3c0b7}.acc{fill:#6dbb7e}.box{fill:#1b1c20;stroke:#2e2f34}}
+</style>
+<rect class="bg" width="1200" height="630"/>
+<rect class="acc" x="60" y="56" width="120" height="10"/>
+<text class="ink" x="60" y="136" font-size="58" font-weight="700">IBM's sports tech challenge</text>
+<text class="ink" x="60" y="204" font-size="58" font-weight="700">ends in Lisbon</text>
+<rect class="box" x="60" y="250" width="520" height="240" rx="18"/>
+<text class="acc" x="96" y="314" font-size="42" font-weight="700">Tue 10 Nov</text>
+<text class="ink" x="96" y="382" font-size="48" font-weight="700">Showcase</text>
+<text class="ink2" x="96" y="446" font-size="42">6 startups</text>
+<rect class="box" x="620" y="250" width="520" height="240" rx="18"/>
+<text class="acc" x="656" y="314" font-size="42" font-weight="700">Wed 11 Nov</text>
+<text class="ink" x="656" y="382" font-size="48" font-weight="700">Prize challenge</text>
+<text class="ink2" x="656" y="446" font-size="42">6 finalists, invite only</text>
+<text class="ink2" x="60" y="566" font-size="42">Prize: proof of concept worth up to US$100,000</text>
+</svg>

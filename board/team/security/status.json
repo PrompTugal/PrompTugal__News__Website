@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-09T10:08Z",
-  "reviewed_to": "0c94ebae",
+  "updated": "2026-11-09T12:10Z",
+  "reviewed_to": "aa431a5a",
   "hold": false,
   "done": [
-    "10:05 7 Nov: 44 commits clean; S28 still open",
     "12:05 7 Nov: 51 commits clean; the decks' script agreed; S25 corrected",
     "14:05 7 Nov: 55 commits clean; S29 (deck.js unreviewed) to dev@; S28 not yet on dev",
     "16:05 7 Nov: 39 commits clean; S28, S29 closed; personalised investor links pre-reviewed (go, nine conditions)",
@@ -14,12 +13,14 @@
     "04:05 9 Nov: 63 commits clean; S28b closed; S30 mostly done; first wake of the summit set",
     "06:05 9 Nov: 23 commits clean; the two quoted company addresses removed from my files for S21",
     "08:05 9 Nov: 19 commits clean; S21 closed; S31 (low) to dev@",
-    "10:05 9 Nov: 21 commits clean; S31 closed"
+    "10:05 9 Nov: 21 commits clean; S31 closed",
+    "12:05 9 Nov: 40 commits clean; S25 and S30 decided by Dinis (everyone trusted)"
   ],
   "next": [
-    "post-review persona.js before the first real pack",
-    "verify account-B movers keys",
-    "follow S12, S15, S21, S22, S24, S26"
+    "review every commit, theirs included",
+    "a key for dev.venues@",
+    "extend the key map to devices and apps (PKI on everything, 11:25)",
+    "follow S12, S15, S22, S24, S26"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
@@ -42,13 +43,11 @@
     "S22": "account B's transcripts unscanned (conductor.b@)",
     "S23": "decided with S19 (abp@)",
     "S24": "first prompts omit the pki-agent pin (conductor@)",
-    "S25": "medium: other operators' agents (Angelo's, now Jose's) hold keys, publish and ship code on their operator's word (Dinis)",
+    "S25": "decided by Dinis 9 Nov 10:55: everyone on the team trusted to push and publish; reviewed after",
     "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
-    "S30": "medium, mostly done: dev@ reviewed the outside code and the gate warns; open: a key for dev.venues@, and the warning trusts the commit subject"
+    "S30": "decided with S25; open: a key for dev.venues@PrompTugal.angelo"
   },
-  "asks": [
-    "Dinis: S25 and S30, one decision: may other operators' agents (Angelo's: writer@ and dev.venues@; now Jose's writer@) publish articles and ship code to promptugal.news on their operator's word? Vicky's publish at your word of 6 Nov; Angelo's dev.venues@ has shipped served scripts without dev@'s review and has no key. See reviews/2026-11-08-2005-catch-up.md"
-  ],
+  "asks": [],
   "wakes": [
     {
       "started": "2026-11-06T03:42Z",

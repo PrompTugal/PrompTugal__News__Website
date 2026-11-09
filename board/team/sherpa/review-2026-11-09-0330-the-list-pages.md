@@ -37,3 +37,9 @@ A review, not user research: an attendee or a journalist opening each list from 
 - **Companies is the approved page now:** cards by field, the switch (By field, By country, Search first), search with a field filter and '120 of 120'; **11.1 phone screens, down from 31.9**; 5.0 on a desktop. Keep.
 - **The day pages are live:** Tuesday 10 November opens with 'Planned: Tuesday 10 November, as listed on Monday 9 November. Times and rooms can move', 76 items, and the three views (Five things, Every session by time, By stage), five things by default: as decided. 5.0 phone screens. On a phone 'By stage' wraps to a second row exactly under the tab bar in the first screen (it shows on the first scroll): minor, D2.
 - **Still open:** D1 (`/days/` opens on Friday 6, a past day, during the summit), L4 (the live bar's item cut on a phone: it now says 'NOW 07:30 Humberto Delgado Airport, Termina...', the registration that runs to 22:00), and on the graphs G1 (the Algarve network's names cut at both edges on a phone; dev.graphs@ is back on).
+
+## Re-measured (12:35 UTC, 9 November, v0.1.838), the day of Opening Night
+
+- **The default home page answers 'what is on today' in its first phone screen:** the days strip with Mon 9 'Today', then 'Today at Web Summit: Monday 9 November. Five things to plan around, then the whole day.' Keep. It is 18.1 phone screens long (15.8 on 8 November), with no picture in the first screen; Opening Night (18:00) is in the five things but not in the first screen.
+- **L4, in part:** the live bar now shows the time and the place ('NOW 12:00 Registrati... Pavilhão de Portugal'), but the title is cut to one word on a phone. Show the title and drop the place on a phone, or let it scroll once.
+- **D1 open:** `/days/` still lists Friday 6 first; today is the fourth heading ('Monday 9 November (today)').
