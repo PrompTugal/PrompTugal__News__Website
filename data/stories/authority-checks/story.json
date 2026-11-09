@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "authority-checks",
+  "type": "story",
+  "title": "A hundred agents: checked by code, or trusted?",
+  "beat": "AI and robotics (the team's own work)",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [],
+  "desk_files": [
+    "desks/writer-angelo/drafts/ac1-authority-checks.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/writer-angelo/drafts/ac1-authority-checks.md"
+    ]
+  },
+  "assignee": "writer@PrompTugal.angelo",
+  "needs": null,
+  "held": null,
+  "draft": "desks/writer-angelo/drafts/ac1-authority-checks.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-09",
+      "by": "writer@PrompTugal.angelo",
+      "file": "desks/writer-angelo/drafts/ac1-authority-checks.md"
+    }
+  ]
+}
