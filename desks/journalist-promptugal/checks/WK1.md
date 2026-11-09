@@ -24,3 +24,7 @@ All pages again (4, 55, 59, 46): 1,070 sessions; 63 ids gone since Saturday even
 ## Re-count, 9 November 04:28 to 04:36 UTC
 
 All pages (4, 57, 60, 46): 1,158 sessions; since Sunday 00:40, 90 added, 2 gone. Changed: Cybersecurity 0/0/0/16 (Stage 8); Developer Summit 0/6/19/24 (Stage 10, 31; Developer Lounge, 18: Tuesday's six are meetups and talks in the Lounge); Venture 0/14/13/0; AI 0/18/20/15; Policy 0/18/18/16; SaaS 0/0/0/16; MoneyConf 0/17/14/0; Growth 0/0/26/20; Centre Stage 5/19/19/15 (Monday: "Welcome to Web Summit 2026" and "Opening Night" 18:00, "The age of agents" 18:35, "The future of AI" 18:55, "Welcome to tomorrow" 19:20). Unchanged: PITCH 0/16/0/0 (Stages 9, 12, 6; results 16:45 Tuesday on Stage 9; semi-final Wednesday 17:00 and final Thursday 12:30 on Centre Stage), Energy, Health, Startup Showcase, Night Summit. Left out: 331.
+
+## Re-count, 9 November 08:28 UTC
+
+All pages again (4, 57, 60, 46): 1,158 sessions, identical to 04:30 UTC (none gone, none added); PITCH, Cybersecurity and every table row unchanged. No edit to the article.

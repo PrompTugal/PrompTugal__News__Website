@@ -34,7 +34,7 @@
   ],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/5f4ac039-83e3-4b2b-9415-3efa64804ee1/democratising-ai-platform-engineering-with-open-source-hosted-by-cisco-systems/",
-  "read_at": "2026-11-08T05:05Z",
+  "read_at": "2026-11-09T05:08Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -45,6 +45,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 199
+    "item": 203
   }
 }

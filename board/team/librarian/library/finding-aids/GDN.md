@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: Guidance (special)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
-site_version: "v0.1.776"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T07:01:02Z"
+site_version: "v0.1.800"
 source: board/catalogue.json
 ---
 
@@ -39,9 +39,9 @@ Special collection: S1 (531 cards). Dinis's guidance has its own guide: [guidanc
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (117 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (120 connections from this collection)
 - [Work in hand](WRK.md) (109 connections from this collection)
-- [The library](LIB.md) (39 connections from this collection)
+- [The library](LIB.md) (40 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 
 Back to the front door: [the library](../index.md)

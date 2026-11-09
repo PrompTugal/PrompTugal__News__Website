@@ -42,7 +42,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/3a0acb6d-9fd0-4431-ab32-5526addbdcc8/putting-human-rights-into-artificial-intelligence/",
-  "read_at": "2026-11-08T05:05Z",
+  "read_at": "2026-11-09T05:09Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -53,6 +53,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 121
+    "item": 124
   }
 }

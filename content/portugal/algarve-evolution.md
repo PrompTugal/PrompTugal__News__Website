@@ -65,7 +65,7 @@ Algarve Evolution's own words, from António Pinto Guerreiro, 6 November 2026.
 - **January 2026** Its incubator is recognised by Startup Portugal ([Portugal Startup News](https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/)).
 - **July 2026** The ADI 2030 development plan is published (same source).
 - **October 2026** Founder2Founder, a six-month growth programme, is launched (same source).
-- **6 to 7 November 2026** Events on its calendar in the Algarve in the first days of Portugal Tech Week: DevFest Lagos, where it is a partner, among them (below).
+- **6 to 7 November 2026** Events on its calendar in the Algarve in the first days of Portugal Tech Week, now past: DevFest Lagos, where it is a partner, among them (below).
 - **2027** The Algarve Tech Hub Summit is confirmed to return, with no date or venue announced; an early-stage incubation programme is planned (same source).
 :::
 

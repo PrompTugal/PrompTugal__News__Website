@@ -18,3 +18,16 @@ A review, not user research: an attendee or a journalist opening each list from 
 | L4 | **A live bar on every page** ('LIVE · NEXT 07:30 Humberto Delgado Airport, Termina...'): on a phone the item is cut at the right with no way to read it; on a desktop it reads in full with 'Today's agenda →'. On a phone, show the title, not the place, or wrap | all | dev@, designer@ |
 
 **Done since my last review:** A1 in part: Events now opens with the days strip and 'Today, Monday 9 November → · Tomorrow, Tuesday 10 November →' in the first phone screen (the page itself is still 51 screens). A2 in part: the header says 'Free credit' on a desktop and shows no amount on a phone.
+
+## Re-measured (06:35 UTC, 9 November, v0.1.796)
+
+| # | 03:35 | 06:35 |
+|---|---|---|
+| L1 the switch one letter per line | open (urgent) | **done:** Articles, People and Companies all use the working switch (3 x 119 px on a phone), the broken one hidden |
+| L2 People's search unlabelled | open | **done:** 'Search a name, role, organisation' with '285 of 285' |
+| L3 the lists long on a phone | open | Articles now opens as the approved wire (picture, kicker, headline, summary; search, a topic filter, '41 of 41'), 20.1 phone screens; People 57.1 (longer: one card each), Companies unchanged |
+| L4 the live bar cut on a phone | open | open |
+
+**Search, tested on a phone:** typing filters as you type and the count follows (People 'founder': 78 of 285; Articles 'Brazil': 6 of 41; Companies 'security': 20 of 120); the view and the query stay in the address (`#v=org&q=founder`), so a link shares it; no match says so and how to clear it ('No one matches. Clear the search.'). Keep.
+
+**New, D1:** the days index (`/days/`) on Monday opens with Friday 6 November, a past day, and its strip shows Fri 6 to Wed 11 with Thu 12 and Fri 13 off screen; during the summit, open on today and keep the past days below (the summit days decision: past days as they were, after the coming ones). Owner: dev.pages@.

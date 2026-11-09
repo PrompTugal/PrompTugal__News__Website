@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ubtech-u1-pro",
+  "type": "person",
+  "name": "UBTech U1 Pro",
+  "role": "Ultra-realistic Humanoid Robot",
+  "organisation": "UBTECH Robotics",
+  "org": "organisation:ubtech-robotics",
+  "listings": [
+    {
+      "role": "Ultra-realistic Humanoid Robot",
+      "organisation": "UBTECH Robotics",
+      "org": "organisation:ubtech-robotics",
+      "event": "event:welcome-to-tomorrow",
+      "source": "https://websummit.com/sessions/lis26/0ca74ec3-5574-4ff1-a33f-731cfa8c76e2/welcome-to-tomorrow/",
+      "read_at": "2026-11-09T05:07Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "welcome-to-tomorrow",
+  "type": "event",
+  "title": "Welcome to tomorrow",
+  "kind": "night-summit",
+  "listed_as": "night-summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-09",
+  "time": "19:20-19:45",
+  "start": "19:20",
+  "end": "19:45",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:deli-zhao",
+      "as_listed": "Deli Zhao (Founder and President, Xpeng Aridge)",
+      "role": "Founder and President",
+      "organisation": "Xpeng Aridge",
+      "org": "organisation:xpeng-aridge"
+    },
+    {
+      "person": "person:ubtech-u1-pro",
+      "as_listed": "UBTech U1 Pro (Ultra-realistic Humanoid Robot, UBTECH Robotics)",
+      "role": "Ultra-realistic Humanoid Robot",
+      "organisation": "UBTECH Robotics",
+      "org": "organisation:ubtech-robotics"
+    },
+    {
+      "person": "person:yuli-zhao",
+      "as_listed": "Yuli Zhao (CSO, Galbot)",
+      "role": "CSO",
+      "organisation": "Galbot",
+      "org": "organisation:galbot"
+    },
+    {
+      "person": "person:william-shi",
+      "as_listed": "William Shi (President, AgiBot Europe)",
+      "role": "President",
+      "organisation": "AgiBot Europe",
+      "org": "organisation:agibot-europe"
+    },
+    {
+      "person": "person:galbot-g1",
+      "as_listed": "Galbot G1 (Embodied Large-Model Robot, Galbot)",
+      "role": "Embodied Large-Model Robot",
+      "organisation": "Galbot",
+      "org": "organisation:galbot"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/0ca74ec3-5574-4ff1-a33f-731cfa8c76e2/welcome-to-tomorrow/",
+  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
+  "read_at": "2026-11-09T05:07Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 14
+  }
+}

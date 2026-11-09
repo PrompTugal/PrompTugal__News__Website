@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "giacomo-ficari",
+  "type": "person",
+  "name": "Giacomo Ficari",
+  "role": "Director of International",
+  "organisation": "Moonshot AI (Kimi)",
+  "org": "organisation:moonshot-ai",
+  "listings": [
+    {
+      "role": "Director of International",
+      "organisation": "Moonshot AI (Kimi)",
+      "org": "organisation:moonshot-ai",
+      "event": "event:open-models-stronger-ecosystems",
+      "source": "https://websummit.com/sessions/lis26/a84c9139-d4bd-4a63-8a68-f3acde45d75e/open-models-stronger-ecosystems/",
+      "read_at": "2026-11-09T05:07Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

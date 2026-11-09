@@ -2,9 +2,9 @@
   "$schema": "schemas/matching.schema.json",
   "about": "The derivation's report (newsroom/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
   "counts": {
-    "speaker_organisations_matched": 67,
-    "speaker_organisations_unmatched": 176,
-    "near_misses": 1,
+    "speaker_organisations_matched": 69,
+    "speaker_organisations_unmatched": 183,
+    "near_misses": 0,
     "places_unmatched": 0,
     "tracks_mapped": 6,
     "tracks_unmapped": 9,
@@ -64,7 +64,7 @@
       {
         "as_listed": "Cloudflare",
         "ref": "company:cloudflare",
-        "count": 1,
+        "count": 2,
         "how": "alias \"Cloudflare\" (the name in the team's map, source s1)"
       },
       {
@@ -142,7 +142,7 @@
       {
         "as_listed": "Elastic",
         "ref": "company:elastic",
-        "count": 1,
+        "count": 2,
         "how": "alias \"Elastic\" (the name in the team's map, source s1)"
       },
       {
@@ -248,6 +248,12 @@
         "how": "alias \"ManageEngine\" (the name in the team's map, source s1)"
       },
       {
+        "as_listed": "Manus AI",
+        "ref": "company:manus-ai",
+        "count": 1,
+        "how": "alias \"Manus AI\" (the name in the team's map, source s1)"
+      },
+      {
         "as_listed": "National Cyber Security Centre",
         "ref": "company:ncsc-uk",
         "count": 1,
@@ -296,6 +302,12 @@
         "how": "alias \"Persona\" (the name in the team's map, source s1)"
       },
       {
+        "as_listed": "PitchBook Data",
+        "ref": "company:pitchbook",
+        "count": 1,
+        "how": "same_as in data/curation/organisations.json: The LIS26 press conference 'PitchBook goes free for startups: new platform for finding them first' (websummit.com/sessions/lis26/3c456209-...) is PitchBook's own announcement, and its speaker card lists the speaker under \"PitchBook Data\"; the session's title names the company we follow (its summit appearance page, s1, is PitchBook's)."
+      },
+      {
         "as_listed": "PolyAI",
         "ref": "company:polyai",
         "count": 1,
@@ -340,7 +352,7 @@
       {
         "as_listed": "Recursive & You.com",
         "ref": "company:you-com",
-        "count": 1,
+        "count": 2,
         "how": "alias \"Recursive & You.com\" (the name in the team's map, in the brackets, source s1)"
       },
       {
@@ -430,7 +442,7 @@
       {
         "as_listed": "AgiBot Europe",
         "ref": "organisation:agibot-europe",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "AltaIR Capital",
@@ -530,7 +542,7 @@
       {
         "as_listed": "CNBC",
         "ref": "organisation:cnbc",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "CNET",
@@ -555,7 +567,7 @@
       {
         "as_listed": "City of Lisbon",
         "ref": "organisation:city-of-lisbon",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Cleo Capital",
@@ -575,6 +587,11 @@
       {
         "as_listed": "Coval",
         "ref": "organisation:coval",
+        "count": 1
+      },
+      {
+        "as_listed": "Current Affairs",
+        "ref": "organisation:current-affairs",
         "count": 1
       },
       {
@@ -643,6 +660,11 @@
         "count": 1
       },
       {
+        "as_listed": "FAPESQ-PB",
+        "ref": "organisation:fapesq-pb",
+        "count": 1
+      },
+      {
         "as_listed": "Fast Company",
         "ref": "organisation:fast-company",
         "count": 3
@@ -703,6 +725,11 @@
         "count": 1
       },
       {
+        "as_listed": "Galbot",
+        "ref": "organisation:galbot",
+        "count": 2
+      },
+      {
         "as_listed": "Georgetown University",
         "ref": "organisation:georgetown-university",
         "count": 1
@@ -720,11 +747,16 @@
       {
         "as_listed": "Government of Portugal",
         "ref": "organisation:government-of-portugal",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Government of the State of Sao Paulo, Brazil",
         "ref": "organisation:government-of-the-state-of-sao-paulo-brazil",
+        "count": 1
+      },
+      {
+        "as_listed": "Governo do Estado da Paraiba",
+        "ref": "organisation:governo-do-estado-da-paraiba",
         "count": 1
       },
       {
@@ -860,7 +892,7 @@
       {
         "as_listed": "Lovable",
         "ref": "organisation:lovable",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Lush",
@@ -910,6 +942,11 @@
       {
         "as_listed": "Moonfire",
         "ref": "organisation:moonfire",
+        "count": 1
+      },
+      {
+        "as_listed": "Moonshot AI (Kimi)",
+        "ref": "organisation:moonshot-ai",
         "count": 1
       },
       {
@@ -963,11 +1000,6 @@
         "count": 1
       },
       {
-        "as_listed": "PitchBook Data",
-        "ref": "organisation:pitchbook-data",
-        "count": 1
-      },
-      {
         "as_listed": "Plug",
         "ref": "organisation:plug",
         "count": 1
@@ -1015,6 +1047,11 @@
       {
         "as_listed": "SAG-AFTRA",
         "ref": "organisation:sag-aftra",
+        "count": 1
+      },
+      {
+        "as_listed": "SEBRAE PARAIBA",
+        "ref": "organisation:sebrae-paraiba",
         "count": 1
       },
       {
@@ -1188,6 +1225,11 @@
         "count": 1
       },
       {
+        "as_listed": "The Washington Post",
+        "ref": "organisation:washington-post",
+        "count": 1
+      },
+      {
         "as_listed": "TikTok",
         "ref": "organisation:tiktok",
         "count": 1
@@ -1205,6 +1247,11 @@
       {
         "as_listed": "UAE Ministry of Investment",
         "ref": "organisation:uae-ministry-of-investment",
+        "count": 1
+      },
+      {
+        "as_listed": "UBTECH Robotics",
+        "ref": "organisation:ubtech-robotics",
         "count": 1
       },
       {
@@ -1255,7 +1302,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 5
+        "count": 8
       },
       {
         "as_listed": "Wired",
@@ -1275,7 +1322,7 @@
       {
         "as_listed": "Xpeng Aridge",
         "ref": "organisation:xpeng-aridge",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "alqem",
@@ -1298,16 +1345,7 @@
         "count": 1
       }
     ],
-    "near_misses": [
-      {
-        "organisation": "organisation:pitchbook-data",
-        "names_as_listed": [
-          "PitchBook Data"
-        ],
-        "company": "company:pitchbook",
-        "why_not_linked": "the names share \"pitchbook\" but are not the same name; confirm in data/curation/organisations.json (same_as or not_same)"
-      }
-    ]
+    "near_misses": []
   },
   "places": {
     "unmatched_where": []
@@ -1696,7 +1734,7 @@
       {
         "as_listed": "Startup Portugal",
         "ref": "company:startup-portugal",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "You.com",
@@ -1941,6 +1979,11 @@
         "count": 2
       },
       {
+        "as_listed": "Portugal Startup News",
+        "ref": "organisation:portugal-startup-news",
+        "count": 1
+      },
+      {
         "as_listed": "Portuguese Catholic University",
         "ref": "organisation:portuguese-catholic-university",
         "count": 1
@@ -2033,7 +2076,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 24
+        "count": 25
       },
       {
         "as_listed": "Xiaomi",

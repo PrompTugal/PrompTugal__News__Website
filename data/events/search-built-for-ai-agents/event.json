@@ -28,7 +28,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/a433a1bc-b53a-4689-a8f8-c7eb8088148c/search-built-for-ai-agents/",
-  "read_at": "2026-11-08T05:05Z",
+  "read_at": "2026-11-09T05:08Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -39,6 +39,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 216
+    "item": 221
   }
 }

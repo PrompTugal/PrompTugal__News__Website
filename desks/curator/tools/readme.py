@@ -25,12 +25,14 @@ rests["S7"]+= ["v-tecnico-web-summit-2026"] # revision in 2026-11-04-1955.json
 rests["S1"]+= ["v-carris-web-summit-shuttle"] # revision in 2026-11-05-1945.json
 rests["S1"]+= ["v-parque-das-nacoes-traffic"] # revision in 2026-11-06-1945.json
 rests["S5"]+= ["v-ey-web-summit-economic-impact"] # revision in 2026-11-05-1945.json
-PUBLISHED={"S28":("https://promptugal.news/articles/five-ai-builders-to-know.html","8 Nov")}  # id -> (article URL, date); set when an article or draft covers it
+PUBLISHED={"S28":("https://promptugal.news/articles/five-ai-builders-to-know.html","8 Nov"),"S29":("https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html","8 Nov"),"S30":("https://promptugal.news/articles/health-startups-by-problem.html","8 Nov")}  # id -> (article URL, date); set when an article or draft covers it
 DROPPED={"S14":"duplicates","S21":"duplicates","S23":"duplicates"}
 import subprocess
 NOW=subprocess.check_output(["date","-u","+%A %-d %B %Y, %H:%M UTC"],text=True).strip()
 EXTRA_SRC={"page-newsletter":("PrompTugal.news","The daily newsletter","https://promptugal.news/newsletter/index.html","2026-11-07 19:50"),"page-venue-map":("PrompTugal.news","The venue map","https://promptugal.news/summit/venue/index.html","2026-11-07 19:50"),"note-the-sign-in":("PrompTugal.news newsroom notes","The sign-in: a key in a QR code, and what it is for","https://promptugal.news/newsroom/notes/2026-11-06-the-sign-in/index.html","2026-11-07 11:55")}
 stories=[ # id, title, beat, angle, added, note
+("S32","Rehab beyond the clinic: three Portuguese startups at Web Summit","Connections: Portugal","Braining, UpSpeech and Twin Factory: different technology on the same problem, helping people recover outside the clinic.","9 Nov","Not ready: each company is known only from one article's one-line description; waits for the companies' own pages."),
+("S31","Beyond Lisbon: where Road 2 Web Summit's 78 startups come from","Portugal","Lisbon has 41 of the 78 startups selected for Road 2 Web Summit; a tour of the other 37, from Porto and Braga to the Azores and Madeira, and what they build.","9 Nov","For journalist-portugal."),
 ("S30","Eleven health startups at Web Summit, by the problem they tackle","Connections: the summit","The health and wellness startups on Web Summit's featured list, grouped by the problem each says it tackles, from a first look at the list.","8 Nov","For journalist-connections. From the first page of 26 only."),
 ("S29","Who builds the parts of an AI agent? Startups at Web Summit","AI and robotics","A reader's guide to the AI-agent stack as eight startups on the featured list describe themselves, from frameworks and databases to governance and the products on top.","8 Nov","For journalist-ai (AI desk). From the first page of 26 only."),
 ("S28","Five AI builders on Web Summit's speaker list worth knowing","Connections: the summit","A theme-led guide to five AI builders on the speakers page: who they are by role and why a founder in the field might want to hear them.","8 Nov","Theme-led (standing answers 19 and 20), for journalist-connections; different from S12, S15 and S16."),
@@ -83,7 +85,7 @@ for sid,title,beat,angle,added,note in stories:
         out.append(f'- [{p}, "{t}"]({u}), read {day(r)}')
     if not seen: out.append("- no source yet")
     out.append("")
-READY=["S29","S30"]  # ids of connection storylines ready to write now; empty unless one is listed here (check first with the duplicate check below)
+READY=["S31"]  # ids of connection storylines ready to write now; empty unless one is listed here (check first with the duplicate check below)
 import glob as _g
 def _words(s): return {w for w in re.findall(r"[a-z0-9]+",s.lower()) if len(w)>3}
 def _titles():
@@ -104,11 +106,11 @@ for sid in READY:
     assert not dup_matches(t),("ready story already has an article or draft",sid,dup_matches(t))
 for sid in PUBLISHED:
     pass
-ASSIGN=[("S29","the AI desk (journalist-ai)","a reader's guide to who makes which part of an AI agent; first page of the featured list only, descriptions are the companies' own, link the existing company profile pages"),("S30","the connections desk (journalist-connections)","the health startups by the problem they tackle; first page only, no claim that anyone will meet, drop any company that cannot be verified")]
+ASSIGN=[("S31","the Portugal desk (journalist-portugal)","where the 78 Road 2 Web Summit startups come from, city by city and what they build; the source is Portugal Startup News' account of Startup Portugal's selection, not a Web Summit page, so re-read it and Startup Portugal's own page the same day; descriptions are not checked; do not give a city for Humanos until its country is checked")]
 out+=["## Assignments by desk: order and readiness","","For the five journalists, in priority order (standing answers 20 and 22, the desk review of 8 November). Each was checked against the articles and drafts at this run.","","Ready to write now:",""]
 for k,(sid,desk,cond) in enumerate(ASSIGN,1):
     out.append(f"{k}. {sid}, {[s[1] for s in allst if s[0]==sid][0]}: for {desk}. {cond[0].upper()+cond[1:]}.")
-out+=["","Already published, not to be written again: "+"; ".join(f"{k} ({v[0]})" for k,v in PUBLISHED.items())+".","","No assignment this run: the summit desk (nothing practical or programme-related is new), the Europe desk (only a count over one list page), the Portugal desk (four Portuguese startups among the first 100 would misstate the total). Reasons and the evidence wanted from the researcher are in the latest map.","","Held until the researcher captures more: fintech startups on the featured list (no cross-cutting angle yet), and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.",""]
+out+=["","Already published, not to be written again: "+"; ".join(f"{k} ({v[0]})" for k,v in PUBLISHED.items())+".","","No assignment this run: the summit desk (the pitch times are not captured yet) and the Europe desk (its two requests to the researcher are still open); the AI and connections desks have nothing new that is ready. Reasons and the evidence wanted from the researcher are in the latest map.","","Held until the researcher captures more: S32 (rehab beyond the clinic) until the three companies' own pages are captured; a Portuguese angle on AI trust and risk until the Humanos country question is settled; fintech startups on the featured list; and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.",""]
 out+=["## Dropped","","Taken off the list on 6 November 2026, at Vicky's word, as duplicates of other candidates:","",]
 for s in allst:
     if s[0] in DROPPED: out.append(f"- {s[0]}: {s[1]} ({DROPPED[s[0]]})")
