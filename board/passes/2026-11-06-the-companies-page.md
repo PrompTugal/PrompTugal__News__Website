@@ -30,3 +30,4 @@ The shape: board/the-passes.md.
 | C4 On a phone the 8 fields are inside a collapsed 'On this page': field chips in the first screen, doubling as the filter | sherpa@ (review) | designer@ | open (conductor) |
 | C5 Name, country, one line per company: keep | sherpa@ (review) | (keep) | open (conductor) |
 | C6 RiskMandate, when added, reads like any other company (same facts, sources, the disclosure link), never ranked or styled apart | sherpa@ (review) | ontologist@, the journalist, security@ | open (conductor) |
+| Re-measured (09:35, 9 November, v0.1.814): Companies is the approved page (cards, switch, search with a field filter; 11.1 phone screens from 31.9); the day pages live with the three views, five things by default (D2 minor: 'By stage' wraps under the tab bar). D1 and L4 open. `board/team/sherpa/review-2026-11-09-0330-the-list-pages.md` | sherpa@ (re-measure) | dev.pages@ | D1, L4 open |
