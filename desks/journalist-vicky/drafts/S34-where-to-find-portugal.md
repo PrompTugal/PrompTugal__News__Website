@@ -4,7 +4,7 @@ date: 2026-11-09
 story: S34
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: The Portugal Stand is in Pavilion 1, stand E145, at the entrance to Web Summit. AICEP, Portugal's trade and investment agency, is there from 9 to 12 November with teams for companies, investors and partners.
-status: ready
+status: published
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: [Portugal, AICEP, Portugal Stand, Pavilion 1, Road 2 Web Summit, investment, practical]
