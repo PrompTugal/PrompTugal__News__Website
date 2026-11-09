@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.885",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: 18:48 wake: account B's ledger for accountant@; the iOS slot now held",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "06ab16f3b"
+  },
+  {
     "version": "v0.1.884",
     "date": "2026-11-09",
     "what": "watch: conductor.B iOS 18:45 (joins the :00 slot)",
