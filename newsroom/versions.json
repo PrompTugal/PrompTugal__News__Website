@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.852",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: the 9 November hand-over debrief; the strip of days re-checked",
+    "by": "designer@PrompTugal.dinis",
+    "from": "7e0924861"
+  },
+  {
     "version": "v0.1.851",
     "date": "2026-11-09",
     "what": "conductor.android@promptugal.ai.dinis: watch 14:31: Android on the new push rule, store only from main via the workflow (being built)",
