@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "irishtimes-2019-05-31-profits-2017",
+  "story": "past-summits",
+  "url": "https://www.irishtimes.com/business/technology/profits-surge-60-at-web-summit-in-second-year-in-lisbon-1.3910651",
+  "title": "Profits surge 60% at Web Summit in second year in Lisbon (The Irish Times, 31 May 2019)",
+  "publisher": "The Irish Times",
+  "published": "2019-05-31",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "The Irish Times reports the 2017 accounts of the group behind Web Summit: pre-tax profit of 3.8m euro, turnover of 28.9m euro (disclosed for the first time), attendance growing from fewer than 30,000 in Dublin in 2015 to 50,000 in Lisbon in 2016, and the Portuguese government paying 1.3m euro a year under the initial three-year deal."
+}

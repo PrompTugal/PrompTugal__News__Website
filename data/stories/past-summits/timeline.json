@@ -83,6 +83,19 @@
       ]
     },
     {
+      "at": "2019-05-31",
+      "what": "The group behind Web Summit files its 2017 accounts: pre-tax profit of 3.8m euro on turnover of 28.9m euro, the first time revenues are disclosed.",
+      "kind": "publication",
+      "about": [
+        "organisation:web-summit"
+      ],
+      "source": "irishtimes-2019-05-31-profits-2017",
+      "claim": [
+        "c52",
+        "c53"
+      ]
+    },
+    {
       "at": "2019-11",
       "what": "The last in-person edition before the pandemic: 70,469 attendees.",
       "kind": "event",
