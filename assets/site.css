@@ -115,6 +115,9 @@ nav.site .links a.is-live::before { content: ""; display: inline-block; width: 7
 .live-now a, .live-next a { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .live-now .where, .live-next .where { color: var(--on-band-2); white-space: nowrap; flex: none; }
 .live-next, .live-strip .more { display: none; }
+/* on a phone the title, not the place, and on two lines if it needs them (sherpa@'s L4: the place filled the line and cut the title) */
+.live-now .where { display: none; }
+.live-now a { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
 .live-strip .more { flex: none; margin-left: auto; font-weight: 600; }
 
 /* ================================================================== the frame and the reading column */
@@ -509,6 +512,8 @@ footer .small a { color: var(--ink-3); text-decoration: underline; }
     .mast { padding-top: 20px; padding-bottom: 14px; }
     .mast .motto { font-size: 11.5px; }
     .live-next { display: flex; }
+    .live-now .where { display: inline; }
+    .live-now a { white-space: nowrap; display: inline; }
     .live-strip .more { display: inline; }
     .slot { grid-template-columns: 64px 1fr; }
     .chat { left: auto; width: var(--chat-w); border-left: 1px solid var(--rule-2); box-shadow: var(--shadow); }

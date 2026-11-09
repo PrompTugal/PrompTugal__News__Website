@@ -11,6 +11,7 @@
   "time": "10:00-11:30",
   "start": "10:00",
   "end": "11:30",
+  "shows_as": "busy",
   "where": "PTW Palace, Rua Gomes Freire 98, Lisbon",
   "place": "place:ptw-palace",
   "track": null,

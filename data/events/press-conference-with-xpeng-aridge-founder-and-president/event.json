@@ -11,6 +11,7 @@
   "time": "14:00-14:20",
   "start": "14:00",
   "end": "14:20",
+  "shows_as": "busy",
   "where": "Stage 2 (Press Conference), MEO Arena and FIL",
   "place": "place:stage-2",
   "track": "Press Conference",

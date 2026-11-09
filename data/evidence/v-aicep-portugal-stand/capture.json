@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-aicep-portugal-stand",
+  "type": "evidence",
+  "source_url": "https://www.portugalglobal.pt/pt/noticias/2026/novembro/aicep-na-web-summit-2026-portugal-liga-se-ao-mundo/",
+  "beat": "Portugal",
+  "group": "Portugal",
+  "names": [
+    {
+      "as_listed": "AICEP Portugal Global",
+      "ref": "organisation:aicep-portugal-global"
+    },
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-09-1455.json",
+  "run": "2026-11-09T14:55Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1455.json"
+    ]
+  }
+}

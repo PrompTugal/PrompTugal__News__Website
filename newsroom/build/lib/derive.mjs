@@ -43,6 +43,16 @@ export function parseSpeaker(s) {
     return { name, role: inside.slice(0, cut).trim(), organisation: inside.slice(cut + 2).trim() }
 }
 
+// shows_as (the iOS app's request via conductor@, 9 November): "free" for presence events, which a calendar must not
+// count as a clash (registration, the summit and its opening nights, festivals, programmes such as a stand, competitions,
+// conferences, all-day or multi-day events, anything over two hours); "busy" for the rest (talks, panels, workshops).
+const FREE_KINDS = new Set(['registration', 'summit', 'festival', 'programme', 'competition', 'conference'])
+export function showsAs(e) {
+    if (FREE_KINDS.has(e.kind) || e.all_day === true || (e.end_date && e.end_date !== e.date)) return 'free'
+    const m = String(e.time || '').match(/^(\d{2}):(\d{2})-(\d{2}):(\d{2})$/)
+    if (m) { let d = (+m[3] * 60 + +m[4]) - (+m[1] * 60 + +m[2]); if (d < 0) d += 1440; if (d > 120) return 'free' }
+    return 'busy'
+}
 const timeParts = t => { const m = String(t || '').match(/^(\d{2}:\d{2})-(\d{2}:\d{2})$/); return m ? { start: m[1], end: m[2] } : { start: null, end: null } }
 const sessionSlug = url => { const m = String(url || '').match(/websummit\.com\/sessions\/lis26\/([0-9a-f]{8})[0-9a-f-]*\/([^/]+)\/?$/); return m ? { slug: ident(m[2]), uuid8: m[1] } : null }
 const titleBase = what => ident(String(what).replace(/\s*[:(].*$/, '').trim() || what, 48)
@@ -161,7 +171,8 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
             id: slug, type: 'event', title: it.what, kind, listed_as: it.kind, organiser,
             our_pick: it.kind === 'team-pick' || /team's data\/events\.json/.test(it.via || ''),
             date: it.date, time: it.time || null, start, end,
-            ...(it.all_day === true ? { all_day: true } : {}),  // only when the agenda says so; a null time without it is 'time to be confirmed' (synthetic@'s F60)
+            ...(it.all_day === true ? { all_day: true } : {}),
+            shows_as: showsAs({ kind, all_day: it.all_day, date: it.date, end_date: it.end_date, time: it.time }),  // only when the agenda says so; a null time without it is 'time to be confirmed' (synthetic@'s F60)
             where: it.where || null, place, track,
             part_of: null,
             organised_by: organiser === 'web-summit' ? 'organisation:web-summit' : null,

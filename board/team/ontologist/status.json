@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, the summit set: every 2 h)",
-  "updated": "2026-11-09T12:40Z",
+  "updated": "2026-11-09T14:50Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -63,7 +63,8 @@
     "Summit-week checks: the one Web Summit item without part_of is the summit itself (right as it is); the matching report's one near miss decided: 'PitchBook Data' same_as company:pitchbook (its press conference 'PitchBook goes free for startups' is PitchBook's own), so the speaker and the session now link to PitchBook (06:21 wake, 9 Nov)",
     "Summit-week check of the companies against the programme: 68 reach a session through their own pages or their people; 52 none (38 startups and 10 partners listed on Web Summit's pages, 2 unknown, and 2 speakers' companies: Temporal, whose cited session is not in the agenda, and a16z, a June report only); the programme desk asked. The 183 unmatched speaker organisations hold no further company of ours ('INC' is a writer's card as listed) (08:21 wake, 9 Nov)",
     "built_on, a further scan (customer pages of Mastra, Google Cloud, Runpod, Exa, LaunchDarkly, Descope): one candidate, not taken: Prisma's internal agents (Gremlin, Sherlog) are 'Built with Mastra' (Mastra's case study), but built_on is about a company's product, not its internal tools. Dinis's guidance of 10:15 (the LLM in the apps) read: nothing asked of the data yet (on-device graph matching is an experiment to come). Programme desk not yet answered on Temporal and a16z (10:21 wake, 9 Nov)",
-    "Summit-week checks rerun on the 226-item agenda: no near misses, no unmatched places; five subject tracks (Corporate Innovation, Future of Work, Growth, MoneyConf, SaaS) have no fitting topic and stay unmapped rather than forced; no data changed (12:21 wake, 9 Nov)"
+    "Summit-week checks rerun on the 226-item agenda: no near misses, no unmatched places; five subject tracks (Corporate Innovation, Future of Work, Growth, MoneyConf, SaaS) have no fitting topic and stay unmapped rather than forced; no data changed (12:21 wake, 9 Nov)",
+    "The iOS app's request via conductor@ (signed by its active key): event field shows_as (free | busy) in event.schema.json, derived by derive.mjs (showsAs) and set on the 23 hand-kept events by the same rule; 52 free, 197 busy; in the published JSON; conductor@ told (14:21 wake, 9 Nov)"
   ],
   "next": [
     "Feedzai's stage, funding and founders from its own public pages (F13), only what they state; more built_on edges from providers' customer pages",
@@ -419,6 +420,12 @@
       "outcome": "ok",
       "release": "none (run report only)",
       "line": "checks rerun: nothing to change"
+    },
+    {
+      "started": "2026-11-09T14:25Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "shows_as for the iOS app's calendar clashes"
     }
   ],
   "decisions_on_findings": [

@@ -11,6 +11,7 @@
   "time": "14:00-14:45",
   "start": "14:00",
   "end": "14:45",
+  "shows_as": "busy",
   "where": "Developer Lounge (Developer Summit), MEO Arena and FIL",
   "place": "place:developer-lounge",
   "track": "Developer Summit",

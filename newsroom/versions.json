@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.856",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: on the conductors' rota (hourly :48); first watch line; the iOS conductor gap",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "4de0f06fe"
+  },
+  {
+    "version": "v0.1.855",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "6aef9caf0"
+  },
+  {
+    "version": "v0.1.854",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 14:52: shows_as live; L4 and D1 done; five relayed asks wait on Dinis's confirmation; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "c675107ef"
+  },
+  {
+    "version": "v0.1.853",
+    "date": "2026-11-09",
+    "what": "brief, the news app on the web (a phone pane beside the news, resizable, installable, the schedule, location, a private beta list), at Dinis's word",
+    "by": "conductor@web-summit.dinis",
+    "from": "683e47518"
+  },
+  {
+    "version": "v0.1.852",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: the 9 November hand-over debrief; the strip of days re-checked",
+    "by": "designer@PrompTugal.dinis",
+    "from": "7e0924861"
+  },
+  {
+    "version": "v0.1.851",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 14:31: Android on the new push rule, store only from main via the workflow (being built)",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "424bf4ea1"
+  },
+  {
+    "version": "v0.1.850",
+    "date": "2026-11-09",
+    "what": "watch 14:21: Indi's team's messaging v1 and redesign on iOS dev, sent to security review first",
+    "by": "conductor@web-summit.dinis",
+    "from": "ad411cb1b"
+  },
+  {
+    "version": "v0.1.849",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the live bar on a phone shows the title, not the place (sherpa@'s L4); D1 from dev.pages@",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f74865f43"
+  },
+  {
     "version": "v0.1.848",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 14:05: 21 commits clean; six conditions ahead for /contribute/",

@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 14:52 UTC, 9 November (three-hourly report)
+
+Site v0.1.853 (17 releases since 11:52). Snapshot 2026-11-09T1453Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
+
+- **Done:**
+  - shows_as (free or busy) is on every event, for the iOS app's calendar (ontologist@, f8cfcef6); told the main conductor.
+  - The live bar on a phone shows the title, not the place (sherpa@'s L4), and D1 from dev.pages@ (f74865f4).
+  - correspondent@ prepared Tuesday's edition for the evening switch.
+- **security@ 14:05:** 21 commits clean, and six conditions ahead for /contribute/ (95f9da82).
+- **Waiting on Dinis's confirmation in this session** (all relayed by the main conductor): /contribute/ (13:00 to 13:40); the news app on the web, with a beta email list (14:40, brief 683e4751); the conductors' rota (my wake to :36) and conductors pushing to main, which CLAUDE.md forbids today (14:05); the 10:55 decisions; and the life cycle (stop and archive idle sessions).
+
 ## Wake at 13:52 UTC, 9 November
 
 Site v0.1.846. Snapshot 2026-11-09T1354Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
