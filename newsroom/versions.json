@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.896",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 20:05: 37 commits clean; S32 (the iOS conductor commits without a key) to conductor@",
+    "by": "security@PrompTugal.dinis",
+    "from": "ba21fba30"
+  },
+  {
     "version": "v0.1.895",
     "date": "2026-11-09",
     "what": "journalist-portugal@PrompTugal.vicky: S36 fixed after review: all three press conferences are media only; event pages linked",
