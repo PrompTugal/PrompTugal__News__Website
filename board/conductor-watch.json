@@ -100,6 +100,16 @@
    "PrompTugal__App__iOS": "4c11461a",
    "PrompTugal__App__Mobile": "74332868",
    "note": "News: the approved designs rebuilt and passed (list and day pages, /events/); /app/ installs and works offline; shows_as on every event, agreeing with the shared rules. Held for Dinis: /contribute/, the beta email list, push to main."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T16:52Z",
+   "SGit-AI__Website__Web-Summit": "de6b95a0",
+   "PrompTugal__News__Website": "b2a0ab7c",
+   "PrompTugal__App__Android": "91503dca",
+   "PrompTugal__App__iOS": "4c11461a",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Account B: twelve running (dev, ontologist, librarian, journalist, designer, correspondent committed since 15:52); dev.verify@ still waits on the OpenRouter top-up. iOS unchanged since 15:52, its slot still with Dinis. Nothing new from Dinis for account B."
   }
  ]
 }
