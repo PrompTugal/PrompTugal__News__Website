@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-09T10:48Z",
+  "updated": "2026-11-09T12:50Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "plan-your-week-by-field",
@@ -43,7 +43,8 @@
         "web-summit-2026-in-numbers",
         "gender-in-tech-report-2026",
         "web-summit-before-2026",
-        "health-startups-by-problem"
+        "health-startups-by-problem",
+        "ibm-sports-tech-challenge"
       ]
     },
     {
@@ -231,7 +232,8 @@
           "now and next",
           "the day's sessions on AI agents read through reach, mandate and gap",
           "brazils-startup-house-in-lisbon",
-          "brazil-on-the-stages"
+          "brazil-on-the-stages",
+          "ibm-sports-tech-challenge"
         ]
       },
       {

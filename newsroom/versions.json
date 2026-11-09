@@ -1,5 +1,54 @@
 [
   {
+    "version": "v0.1.845",
+    "date": "2026-11-09",
+    "what": "team messaging v1 brief for the iOS conductor (WS-203, Indi's desk)",
+    "by": "prompter@web-summit.indi",
+    "from": "f9a166280"
+  },
+  {
+    "version": "v0.1.844",
+    "date": "2026-11-09",
+    "what": "Dinis's voice brief, 9 Nov 13:00: recruit contributors; a /contribute/ page here (WS-204)",
+    "by": "conductor@web-summit.dinis",
+    "from": "c3941d359"
+  },
+  {
+    "version": "v0.1.843",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 12:52: /events/ passes; the designs brief done but past days; M-iPad reached the iOS conductor",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "286ebcfe3"
+  },
+  {
+    "version": "v0.1.842",
+    "date": "2026-11-09",
+    "what": "accountant@PrompTugal.dinis: 12:50 reading, 189.58 API-equivalent so far on 9 November",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "383430868"
+  },
+  {
+    "version": "v0.1.841",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 12:41: IBM's sports tech challenge placed; the 9 November debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "2ed67a379"
+  },
+  {
+    "version": "v0.1.840",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: /events/ passes as the week's overview; the brief's pages all pass but past days",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1e6ded2b1"
+  },
+  {
+    "version": "v0.1.839",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: summit-week checks rerun, nothing to change",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "52d97a49b"
+  },
+  {
     "version": "v0.1.838",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: wake 12:08: /events/ as the week's overview from dev.pages@; status and run report",

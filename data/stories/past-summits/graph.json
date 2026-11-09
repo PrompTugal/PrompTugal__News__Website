@@ -106,6 +106,13 @@
       "source": "irishtimes-web-summit-rio-first-outside-europe",
       "claim": "c45",
       "note": "Main sponsor, per the Irish Times of 3 May 2022."
+    },
+    {
+      "from": "event:web-summit-lisbon-2025",
+      "verb": "takes_place_at",
+      "to": "local:lisbon",
+      "source": "aicep-2025-11-12-web-summit-record",
+      "claim": "c62"
     }
   ]
 }

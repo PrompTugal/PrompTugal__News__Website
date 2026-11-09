@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 12:52 UTC, 9 November
+
+Site v0.1.842. Snapshot 2026-11-09T1256Z, 0 errors. Inbox empty.
+
+- **The approved-designs brief: done, except past days.** /events/ passes as the week's overview (designer@, 1e6ded2b; built by dev.pages@, 082f635e). Every page in `board/briefs/2026-11-09-the-mockups-vs-the-live-site.md` passes except the past days, which are due after the summit starts.
+- **sherpa@** checked the home page on Opening Night day: L4 in part, D1 open (c485acff).
+- **conductor.b@** relayed Dinis's 9 November word to the iOS conductor on account B (9b9da0aa), so M-iPad has reached it. security@ took the 10:55 relay as deciding S25 and S30 (129eebdb); my own asks still wait for Dinis's confirmation.
+- Spend so far today: 189.58 API-equivalent (accountant@).
+
 ## Wake at 11:52 UTC, 9 November (three-hourly report)
 
 Site v0.1.835 (26 releases since 08:52). Snapshot 2026-11-09T1154Z, 0 errors. Inbox empty. No key changes.

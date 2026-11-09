@@ -2,17 +2,17 @@
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
   "state": "running on account B (session 2d7ed5e8), every two hours at :31 UTC, back on from 9 Nov at Dinis's word (board/guidance/2026-11-09-the-summit-set.md); past summits and S9 in progress",
-  "updated": "2026-11-09T10:50Z",
+  "updated": "2026-11-09T12:55Z",
   "done": [
-    "9 Nov 03:09: message from conductor.b@ (data) says I am back on every two hours; checked against board/guidance/2026-11-09-the-summit-set.md, 'Added at about 02:50': it lists dev.data@ every 2 h. Merged dev cleanly, no hold. No data change",
     "Wake 04:31 (9 Nov): merged dev cleanly, no hold; S9 graph.json +16 edges (Gol funds, and attends Lisbon 2026, for the eight other Rio startups of claim c22, as local: nodes with entries in entities.json); graph now 24 edges; gate OK (v0.1.782)",
     "Wake 06:31 (9 Nov): merged dev cleanly, no hold; the S9 article is unchanged since the blocks were generated (all text blocks still match). Past-summits +1 source (The Irish Times, 31 May 2019: the 2017 accounts, pre-tax profit 3.8m euro, turnover 28.9m, attendance and the Portuguese government's 1.3m euro a year), claims c52 to c55 quote-checked, 1 timeline event; c54 records the 50,000 (registered, Irish Times) vs 53,000 (sold out, TheJournal.ie c06) difference without preferring either; gate OK (v0.1.796). 17 sources, 55 claims. No 2025 coverage found again. Checked the paywall flag: this page has none (the 15 Nov 2024 profile does)",
     "Wake 08:31 (9 Nov): merged dev cleanly, no hold; hand-over debrief for 9 Nov written; past-summits +1 source (RTE, 8 Apr 2024: the founder returns as chief executive after his successor left for NPR), claims c56 to c58 quote-checked, 1 timeline event; gate OK (v0.1.808). 18 sources, 58 claims. Still no free-to-read report on the Lisbon 2024 edition itself or on 2025",
-    "Wake 10:31 (9 Nov): merged dev cleanly, no hold; dev@ brought my branch's work onto dev. S9 blocks.json claims refined for three blocks: the in-short list and the does-not-claim list now cite every claim their items rest on, and the article's own suggestion paragraph no longer carries claims (it is the article's opinion); the other blocks stay per section. Gate OK (v0.1.821)"
+    "Wake 10:31 (9 Nov): merged dev cleanly, no hold; dev@ brought my branch's work onto dev. S9 blocks.json claims refined for three blocks: the in-short list and the does-not-claim list now cite every claim their items rest on, and the article's own suggestion paragraph no longer carries claims (it is the article's opinion); the other blocks stay per section. Gate OK (v0.1.821)",
+    "Wake 12:31 (9 Nov): merged dev cleanly, no hold. Found the 2025 source I could not find by search: the WS177 article cites AICEP (12 Nov 2025). Past-summits +1 source (AICEP Portugal Global, in Portuguese: record 71,386 participants from 157 countries, 1,857 investors, 2,725 startups), claims c59 to c62 quote-checked in the original Portuguese, entity for Lisbon 2025, 1 timeline event, 1 graph edge; gate OK (v0.1.839). 19 sources, 62 claims. Survey: of about 50 stories, only S9 and past-summits have data folders; the rest have only story.json"
   ],
   "next": [
-    "journalist@: a per-sentence pass on S9's tables if wanted (tables carry one claim list per table)",
-    "Past summits: 2025, the Rio edition itself and Lisbon 2024 without a free-to-read source (many queries tried)",
+    "Data folders for the published stories that have an article, Brazil family first (BR1, BR2, BR3, BR4, BR6, S19), then WS177 and S13 (backed by past-summits), sources taken from each article's own source list",
+    "Past summits: the Rio edition itself and Lisbon 2024 without a free-to-read source; WS177 cites Wikipedia for 53,056 attendees in 2016, a third figure beside 50,000 (c54) and 53,000 (c06)",
     "next debrief on 10 Nov"
   ],
   "asks": [
