@@ -1,14 +1,14 @@
 ---
-title: "Shelf list: DAT, Data and the ontology (part 2 of 10)"
+title: "Shelf list: DAT, Data and the ontology (part 2 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
-site_version: "v0.1.644"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
+site_version: "v0.1.776"
 source: board/catalogue.json
 ---
 
-# Shelf list: DAT, Data and the ontology (part 2 of 10)
+# Shelf list: DAT, Data and the ontology (part 2 of 11)
 
-100 cards, from `DAT.CO sageox` to `DAT.EV is-there-a-foreign-operative-on-your-payroll`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.CO sageox` to `DAT.EV investing-in-zero-billion-dollar-markets`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
@@ -88,6 +88,7 @@ source: board/catalogue.json
 | `DAT.EV building-security-for-the-human-machine-era` | [Building security for the human-machine era](https://promptugal.news/events/building-security-for-the-human-machine-era/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV building-the-infrastructure-for-ai-everywhere` | [Building the infrastructure for AI everywhere](https://promptugal.news/events/building-the-infrastructure-for-ai-everywhere/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV building-the-operating-system-for-modern-sport` | [Building the operating system for modern sport](https://promptugal.news/events/building-the-operating-system-for-modern-sport/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.EV campus-tejo-the-science-and-technology-ecosystem-of` | [Campus Tejo, the science and technology ecosystem of Santarém (Press conference)](https://promptugal.news/events/campus-tejo-the-science-and-technology-ecosystem-of/) | event | programme@PrompTugal.vicky 8 Nov 2026 |
 | `DAT.EV can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque` | [Can you trust your AI agent's accessibility? [Hosted by Deque]](https://promptugal.news/events/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV central-eastern-europe-meet-greet` | [Central & Eastern Europe meet & greet](https://promptugal.news/events/central-eastern-europe-meet-greet/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV chat-control-2-0-the-government-in-your-dms` | [Chat Control 2.0: The government in your DMs?](https://promptugal.news/events/chat-control-2-0-the-government-in-your-dms/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.EV dach-meet-greet` | [DACH meet & greet](https://promptugal.news/events/dach-meet-greet/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV democratising-ai-platform-engineering-with-open-source` | [Democratising AI platform engineering with open-source [Hosted by Cisco Systems]](https://promptugal.news/events/democratising-ai-platform-engineering-with-open-source/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV devfest-lagos-2026` | [DevFest Lagos 2026 (Google Developer Group Lagos)](https://promptugal.news/events/devfest-lagos-2026/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV diaspora-leaders-a-global-innovationmeetup` | [Diaspora Leaders: A Global InnovationMeetup](https://promptugal.news/events/diaspora-leaders-a-global-innovationmeetup/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.EV diaspora-leaders-a-global-innovationmeetup` | [Diaspora Leaders: A Global InnovationMeetup](https://promptugal.news/events/diaspora-leaders-a-global-innovationmeetup/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV do-we-need-a-un-ai-treaty` | [Do we need a UN AI treaty?](https://promptugal.news/events/do-we-need-a-un-ai-treaty/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV dogfooding-ai-security-lessons-from-our-own-soc-hosted-by` | [Dogfooding AI security: Lessons from our own SOC [Hosted by Elastic]](https://promptugal.news/events/dogfooding-ai-security-lessons-from-our-own-soc-hosted-by/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV don-t-feed-shit-to-agents` | [Don’t feed shit to agents](https://promptugal.news/events/don-t-feed-shit-to-agents/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.EV in-bots-we-trust-defending-money-against-ai-powered-fraud` | [In bots we trust: Defending money against AI-powered fraud](https://promptugal.news/events/in-bots-we-trust-defending-money-against-ai-powered-fraud/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV introducing-the-next-billion-workers` | [Introducing: The next billion workers](https://promptugal.news/events/introducing-the-next-billion-workers/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV investing-in-zero-billion-dollar-markets` | [Investing in zero billion dollar markets](https://promptugal.news/events/investing-in-zero-billion-dollar-markets/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.EV is-there-a-foreign-operative-on-your-payroll` | [Is there a foreign operative on your payroll?](https://promptugal.news/events/is-there-a-foreign-operative-on-your-payroll/) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-1.md) | [Next part](DAT-3.md)

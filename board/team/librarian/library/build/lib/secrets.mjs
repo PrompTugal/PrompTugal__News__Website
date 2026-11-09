@@ -6,7 +6,9 @@ import { createRequire } from 'node:module'
 
 // the estate's agent handles, <role>@<project>.<operator>; operators added as they appear on the board (7 November 2026:
 // Angelo's agent holds a key in board/keys.json; Silvio's design agent is credited in board/spec-front-page-e.md)
-const AGENT_HANDLE = /@(PrompTugal|web-summit)\.(dinis|vicky|indi|angelo|silvio)$/i
+// The operator suffixes are not DNS top-level domains, so an address ending in one cannot be anyone's mailbox; the
+// project before it may itself be dotted (9 November 2026: risk-mandate@promptugal.ai.dinis, named in Dinis's guidance).
+const AGENT_HANDLE = /@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.(dinis|vicky|indi|angelo|silvio|jose)$/i
 const SECRET_PATTERNS = [
   [/-----BEGIN [A-Z ]*KEY-----/, 'a key block'],
   [/\bsk-or-v1-[A-Za-z0-9]+/, 'an OpenRouter key'],
@@ -24,7 +26,7 @@ function keyedAgents(root) {
   if (!root) return new Set()
   if (!keyed.has(root)) {
     let s = new Set()
-    try { s = new Set((JSON.parse(fs.readFileSync(path.join(root, 'board/keys.json'), 'utf8')).keys || []).map((k) => String(k.agent || '').toLowerCase()).filter((a) => /^[a-z0-9.-]+@[a-z0-9-]+\.[a-z]+$/.test(a))) } catch { s = new Set() }
+    try { s = new Set((JSON.parse(fs.readFileSync(path.join(root, 'board/keys.json'), 'utf8')).keys || []).map((k) => String(k.agent || '').toLowerCase()).filter((a) => /^[a-z0-9.-]+@[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(a))) } catch { s = new Set() }
     keyed.set(root, s)
   }
   return keyed.get(root)

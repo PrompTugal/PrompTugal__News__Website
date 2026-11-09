@@ -1,22 +1,24 @@
 ---
 title: "Shelf list: GDN, Guidance (special) (part 7 of 7)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-07T21:58:27Z"
-site_version: "v0.1.644"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T03:59:25Z"
+site_version: "v0.1.776"
 source: board/catalogue.json
 ---
 
 # Shelf list: GDN, Guidance (special) (part 7 of 7)
 
-17 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+19 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
-**Cards 601 to 617**
+**Cards 601 to 619**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
 | `GDN.MEMO 2026-11-06-the-ideas-ledger` | [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-the-night-memos` | [Dinis's memos to the conductor, the night of 5 to 6 November 2026, verbatim](https://promptugal.news/board/guidance/memos/2026-11-06-the-night-memos.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.MEMO 2026-11-06-vault-onboarding-answers` | [Dinis, 6 November 2026, about 17:30 UTC: the vault onboarding's three answers](https://promptugal.news/board/guidance/2026-11-06-vault-onboarding-answers.md) | guidance | conductor@ 6 Nov 2026 |
+| `GDN.MEMO 2026-11-08-three-apps-three-lines` | [Dinis, 8 November 2026, about 23:45 UTC (with Indi): three apps, three lines](https://promptugal.news/board/guidance/2026-11-08-three-apps-three-lines.md) | guidance | conductor@web-summit.dinis 8 Nov 2026 |
+| `GDN.MEMO 2026-11-09-the-summit-set` | [The summit set: which agents run in the summit week](https://promptugal.news/board/guidance/2026-11-09-the-summit-set.md) | guidance | conductor@ 9 Nov 2026 |
 | `GDN.MEMO README` | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.Q Q1` | [how many files and gigabytes of data they already have, and the runs, and how often they're doing the runs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q10` | [who actually has read this?" (the synthetic findings)](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
