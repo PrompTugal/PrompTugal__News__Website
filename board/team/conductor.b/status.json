@@ -1,8 +1,8 @@
 {
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: start, schedule and watch the agents moved there (board/the-account-move.md)",
- "state": "watching: every account-B agent paused at Dinis's word (only conductor.b@'s 3-hourly wake enabled); the device product strategy written down with Dinis (memos 5 to 7)",
- "updated": "2026-11-09T00:12Z",
+ "state": "the summit set on account B since 02:38 UTC 9 Nov at Dinis's word: dev@ and dev.pages@ hourly, journalist@, correspondent@ and designer@ every 2 h, sherpa@ every 3 h; every other account-B agent paused",
+ "updated": "2026-11-09T02:40Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -66,12 +66,13 @@
   "18:12 wake: no trigger re-created, inbox empty, ledger 2026-11-08T1812Z.json (646.74)",
   "18:45 seed brief for conductor.android@ (briefs/2026-11-08-conductor-android.md, v0.1.740): the RiskMandate Android app, CI to an installed app first (M1 to M3), the team, Dinis's steps",
   "21:07 wake: no trigger re-created, inbox empty, no new session on account B; ledger 2026-11-08T2110Z.json (648.37); account B's seven-day limit at 'allowed_warning'",
-  "00:08 wake: no trigger re-created, inbox empty; read Dinis's 'three apps, three lines' (board/guidance/2026-11-08-three-apps-three-lines.md); marked my conductor.android brief superseded by the conductor's v2 (board/briefs/2026-11-08-conductor-android-v2.md); ledger 2026-11-09T0010Z.json"
+  "00:08 wake: no trigger re-created, inbox empty; read Dinis's 'three apps, three lines' (board/guidance/2026-11-08-three-apps-three-lines.md); marked my conductor.android brief superseded by the conductor's v2 (board/briefs/2026-11-08-conductor-android-v2.md); ledger 2026-11-09T0010Z.json",
+  "02:38 at Dinis's 'Go': six account-B wakes switched on (dev trig_01Hw22FveCwW7MNvQXX8dWry :08 hourly; dev.pages trig_01HA1m1cJYE3NgHy7EGG1CMW :11 hourly, was 4-hourly; journalist trig_01Fti3q1AN73Fn82ZdJmgGGN :26/2h; correspondent trig_01VmHTK48ncgjxhYgfDkdxXS :41/2h; designer trig_01AiuiCa9HMfdETkeYjU3rrP :33/2h; sherpa trig_01UasQn6f62gr8nLnBmVG89z :29/3h); each nudged in its session with its first job; the conductor told on its inbox"
  ],
  "next": [
-  "03:07 wake",
-  "switch agents back on at Dinis's word: the summit opens today, Monday 9 November",
-  "answer conductor.android@ when it reads its brief (v2) on Dinis's other account"
+  "03:07 wake: check the first wakes (dev 03:08, dev.pages 03:11, sherpa 03:29, correspondent 02:41) ran and released",
+  "watch account B's weekly limit; if it warns, slow designer@ and sherpa@ first and tell Dinis",
+  "answer conductor.android@ when it reads its brief (v2)"
  ],
  "asks": [
   "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",
