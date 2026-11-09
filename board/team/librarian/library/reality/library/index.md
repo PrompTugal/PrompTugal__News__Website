@@ -21,24 +21,24 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-301 cards (300 current, 0 superseded, 1 withdrawn), from the catalogue generated 2026-11-09T15:58:30Z at site v0.1.862; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+304 cards (303 current, 0 superseded, 1 withdrawn), from the catalogue generated 2026-11-09T18:58:34Z at site v0.1.885; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `LIB.AUTH` | 15 |
-| `LIB.CAT` | 77 |
+| `LIB.CAT` | 78 |
 | `LIB.DESK` | 24 |
 | `LIB.DOC` | 121 |
 | `LIB.REAL` | 28 |
-| `LIB.STOCK` | 36 |
+| `LIB.STOCK` | 38 |
 
 Newest five accessions:
 
+- `ACC-20261109-0424` [Stocktake of the library, catalogue of 2026-11-09T15:58:30Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-09-1558.md) (`LIB.STOCK 2026-11-09-1558`)
+- `ACC-20261109-0423` [Stocktake of the library, catalogue of 2026-11-09T15:57:34Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-09-1557.md) (`LIB.STOCK 2026-11-09-1557`)
+- `ACC-20261109-0422` [Shelf list: LIB, The library (part 4 of 4)](https://promptugal.news/board/team/librarian/library/shelf-list/LIB-4.md) (`LIB.CAT LIB-4`)
 - `ACC-20261109-0384` [Stocktake of the library, catalogue of 2026-11-09T13:01:52Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-09-1301.md) (`LIB.STOCK 2026-11-09-1301`)
 - `ACC-20261109-0383` [Stocktake of the library, catalogue of 2026-11-09T12:59:34Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-09-1259.md) (`LIB.STOCK 2026-11-09-1259`)
-- `ACC-20261109-0382` [life.mjs](https://promptugal.news/board/team/librarian/life.mjs) (`LIB.DOC life:3`)
-- `ACC-20261109-0381` [The agents' life and keys: who holds which key, who last worked when](https://promptugal.news/board/team/librarian/life.md) (`LIB.DOC life:2`)
-- `ACC-20261109-0380` [life.json](https://promptugal.news/board/team/librarian/life.json) (`LIB.DOC life`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

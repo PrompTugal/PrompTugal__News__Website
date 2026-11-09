@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 5 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T15:58:30Z"
-site_version: "v0.1.862"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T18:58:34Z"
+site_version: "v0.1.885"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 5 of 5)
 
-19 cards, from `PUB.SITE thanks:3` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+21 cards, from `PUB.SITE thanks` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
-**Cards 401 to 419**
+**Cards 401 to 421**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE thanks` | [Gracias](https://promptugal.news/investors/es/thanks/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE thanks:2` | [Merci](https://promptugal.news/investors/fr/thanks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thanks:3` | [Obrigado](https://promptugal.news/investors/pt/thanks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thanks:4` | [Thank you](https://promptugal.news/investors/thanks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thinking` | [What we think](https://promptugal.news/investors/thinking/) | site | investors@ 7 Nov 2026 |
