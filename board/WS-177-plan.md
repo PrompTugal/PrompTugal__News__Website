@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 19:36 UTC, 9 November
+
+Site v0.1.891. Snapshot 2026-11-09T1937Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **/app/:** sherpa@'s AP1 to AP4 are done. The app opens at now, starts the days at today, and installs from a phone (91f7ae03).
+- **The front page:** the Tuesday guide leads summit day 1 (correspondent@, 39395ec1).
+- **The rota is complete:** the iOS conductor holds the :00 slot (5c4f877a), so all five conductors are on.
+- **Vicky's desk:** S35 (press conferences) and S36 (Portugal on the programme) drafted, both sent back to "fix first".
+- **observability@** stays on account A, and confirms the overnight gap was Dinis's stop (3c13aa79).
+- This repository's main is untouched.
+
 ## Wake at 18:36 UTC, 9 November
 
 Site v0.1.880. Snapshot 2026-11-09T1837Z, 0 errors. Inbox empty.
