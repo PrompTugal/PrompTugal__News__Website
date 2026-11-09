@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-// /contribute/ (Dinis, 9 November 2026, about 20:20 UTC: board/guidance/2026-11-09-contribute-confirmed.md): the page itself, from
-// journalist@'s words (desks/journalist-promptugal/contribute/page-words.md) in content/contribute/index.md. The three markers hold the
-// places for what needs a sealed, write-only lane that does not exist yet (the submit form, the counts, the beta form: dev@, with the
-// Web Summit team's append token); until the lane exists they say so rather than show a form that does nothing.
-// dev.pages@PrompTugal.dinis.
-export const order = 70
-const W = 'Not open yet.'
-export const fill = {
-    'contribute:form': () => `*${W} The form goes live with the inbox.*`,
-    'contribute:counts': () => `*The count of people joined, pieces submitted and pieces published appears here once sending is open.*`,
-    'contribute:beta': () => `*${W} The list goes live with the inbox.*`,
-=======
 // /contribute/ (Dinis, 9 November 2026, 20:20 UTC, brief:20261109T2020Z-contribute; board/guidance/2026-11-09-contribute-confirmed.md):
 // write for PrompTugal.news. The rules, hour-sized tasks, a form, the collaborators' wall and the beta list.
 //   Load       the journalist's words (desks/journalist-promptugal/contribute/page-words.md), designer@'s rules block
@@ -79,5 +66,4 @@ export function validate(gate) {
     if (/https?:\/\//.test(js.replace(/^\s*(\/\/|\/?\*).*$/gm, ''))) out.push('assets/contribute/contribute.js: no outside address in the script (condition 5); the lane comes from the page')
     if ((js.match(/fetch\(/g) || []).length !== 1 || !/\/api\/vault\/append\/write\//.test(js)) out.push('assets/contribute/contribute.js: one fetch, to the write-only lane only')
     return out
->>>>>>> origin/dev
 }
