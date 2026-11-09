@@ -1,8 +1,8 @@
 {
   "agent": "conductor@PrompTugal.dinis",
   "focus": "the plan, the board, passes, briefs, who does what",
-  "state": "working",
-  "updated": "2026-11-06T18:00Z",
+  "state": "summit eve: the approved designs rebuilt; the on-device LLM work routed (iPad to account B, mobile@ on the shared repo); brief 5 sent",
+  "updated": "2026-11-09T11:00Z",
   "done": [
     "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
     "inboxes for every agent; lanes with the team site's conductor",
@@ -16,16 +16,11 @@
     "the 05:52 three-hourly report"
   ],
   "asks": [
-    {
-      "for": "Dinis",
-      "ask": "Allow the conductor to change its own scheduled task's text so it makes the stand-up brief before 12:00 and 18:00 (abp@'s hook R4 blocked update_trigger at 05:00 UTC; Dinis asked for the briefs in this session but did not name the task change). Until then the conductor makes the briefs by hand when it wakes."
-    },
-    {
-      "for": "Dinis (and abp@)",
-      "ask": "Add board/editor-briefs/** to the conductor's write paths in its ABP (board/abp/conductor.md): the stand-up briefs Dinis asked for at about 05:00 UTC live there (brief 1 committed before the policy took effect)."
-    },
-    "Dinis: synthetic F07, what RiskMandate is, who owns it, and whether it sells to the companies we cover (for About and the disclosure)",
-    "Dinis: synthetic F19 (blocking for outreach): keep or reword 'This is not independent coverage. We may write about companies the team hopes to meet or sell to'"
+    "Dinis: the press pass, due today (PB-07; /newsroom/decisions/registering-and-the-press-pass/)",
+    "Dinis: the OpenRouter balance (dev.verify@ paused; risk-mandate@ up to £15)",
+    "Dinis: sherpa@'s inbox token on account B",
+    "Dinis: the euro Stripe payment link (dev@)",
+    "Settled at 10:55 by Dinis (via the main conductor): names end in .dinis; everyone trusted to ship (S25/S30 answered); outreach parked"
   ],
   "decisions_on_findings": [
     {
