@@ -19,7 +19,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-9 cards (9 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T07:01:02Z at site v0.1.800; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+9 cards (9 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T10:00:30Z at site v0.1.816; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
