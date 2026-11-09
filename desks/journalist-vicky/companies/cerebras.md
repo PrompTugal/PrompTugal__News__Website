@@ -4,12 +4,12 @@ company: cerebras
 date: 2026-11-09
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Cerebras and how it takes part in Web Summit 2026."
-status: in-review
+status: ready
 license: "https://creativecommons.org/licenses/by/4.0/"
 ---
 ## About
 
-Cerebras, a US company (1), builds computers for running AI, based on a single very large chip made from a whole silicon wafer (2). It says its latest system, the CS-4, runs AI models up to 30 times faster than GPUs (2). Customers can use them on their own premises or in the cloud, the company says (1).
+Cerebras, a US company (1), builds computers for running AI, based on what it calls the world's biggest chip, its Wafer-Scale Engine (2). It says its latest system, the CS-4, runs AI models up to 30 times faster than GPUs (2). Customers can use them on their own premises or in the cloud, the company says (1).
 
 Sources for this section:
 

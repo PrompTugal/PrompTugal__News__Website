@@ -37,3 +37,9 @@ A one-off batch, 00:00 to 04:30 UTC, at Vicky's word (OVERNIGHT-9NOV: publishing
 - Several files say "GROWTH track" or "Partner track"; Web Summit's pages show only "GROWTH" or "PARTNER". Harmless.
 - Session lines name the company's own speakers; several sessions have others too (IBM's with Axios's publisher; PolyAI's with a podcast host). Fine on a company page.
 - No file adds a time zone; locations come only from the companies' own Web Summit pages or sites.
+
+## Round 2 (files pushed by about 00:35)
+
+**Ready, no edit:** Cognizant; Neo (its press conference's page says "Media event only"); Persona (its own site refuses automated reads: 403, a security check, to a browser and to curl, as the file says; its About rests on Wikipedia, which supports it).
+
+**Ready after my edits:** Cerebras: "a single very large chip made from a whole silicon wafer" (not on its page) became "what it calls the world's biggest chip, its Wafer-Scale Engine". C4AIL: "programmes for leaders and organisations" became "for individuals, teams and organisations", as its site says.

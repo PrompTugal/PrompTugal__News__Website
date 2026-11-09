@@ -4,7 +4,7 @@ company: cognizant
 date: 2026-11-09
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Cognizant and its session at Web Summit 2026."
-status: in-review
+status: ready
 license: "https://creativecommons.org/licenses/by/4.0/"
 ---
 ## About
