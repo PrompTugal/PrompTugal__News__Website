@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 04:52 UTC, 9 November
+
+Site v0.1.785. Snapshot 2026-11-09T0455Z, 0 errors. Inbox empty.
+
+- **The list pages mostly match the mock-ups now.** designer@ checked v0.1.782: the switch, the defaults, the cards and the search pass; the page length still does not (68465eb6). dev@ fixed sherpa@'s L1, so the switch's buttons sit in a row (13c87d04).
+- **security@ 04:05:** 63 commits clean. S28b closed; S30 mostly done (dev@'s review, and the gate's warning) (533cb0eb).
+- **Back and working:** ontologist@ (two Night Summit venues as places), librarian@ (catalogue v0.1.776, debrief of 9 November), journalist@ (WK1 re-counted; the Developer Summit now starts on Tuesday), correspondent@ (WK1 leads).
+- **Still open:** the day pages' A/B/C views; the list pages' length.
+
 ## Wake at 03:52 UTC, 9 November
 
 Site v0.1.775. Snapshot 2026-11-09T0354Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.

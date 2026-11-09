@@ -7,13 +7,13 @@
   "listed_as": "team-pick",
   "organiser": "web-summit",
   "our_pick": true,
-  "date": "2026-11-12",
-  "time": "16:10-16:20",
-  "start": "16:10",
-  "end": "16:20",
-  "where": "Stage 8 (Cybersecurity Summit), MEO Arena and FIL",
-  "place": "place:stage-8",
-  "track": "Cybersecurity Summit",
+  "date": "2026-11-11",
+  "time": "14:32-14:40",
+  "start": "14:32",
+  "end": "14:40",
+  "where": "Stage 7 (Corporate Innovation Summit), MEO Arena and FIL",
+  "place": "place:stage-7",
+  "track": "Corporate Innovation Summit",
   "part_of": "event:web-summit-lisbon-2026",
   "organised_by": "organisation:web-summit",
   "speakers": [
@@ -28,7 +28,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/dea217b2-6cf6-4b44-b508-d04754c0b367/brazil-s-blueprint-for-cyber-resilience/",
-  "read_at": "2026-11-08T05:04Z",
+  "read_at": "2026-11-09T05:08Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -39,6 +39,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 220
+    "item": 150
   }
 }

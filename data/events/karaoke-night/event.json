@@ -12,15 +12,15 @@
   "start": "20:00",
   "end": "23:00",
   "where": "Disco Bar (Night Summit), MEO Arena and FIL",
-  "place": null,
+  "place": "place:disco-bar",
   "track": "Night Summit",
   "part_of": "event:web-summit-lisbon-2026",
   "organised_by": "organisation:web-summit",
   "speakers": [],
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/8f8042cb-8b41-4f0d-9179-d38372e7dc8d/karaoke-night/",
-  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
-  "read_at": "2026-11-08T05:03Z",
+  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/2/",
+  "read_at": "2026-11-09T05:07Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -30,6 +30,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 19
+    "item": 21
   }
 }

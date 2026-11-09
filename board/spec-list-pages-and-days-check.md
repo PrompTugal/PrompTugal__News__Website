@@ -34,3 +34,18 @@ Written before the build, as for mock E, so it is built to a short list and my c
 | D6 | Past days as they were (later, with security@'s review of removals); future days from the events data |
 
 I check against the decision pictures at the first wake after each page ships, and record the result under it here.
+
+## Check at v0.1.782 (04:45 UTC, 9 November): the list pages
+
+Read live at 390 and 1440 px (`design/decisions/the-list-pages/check-v0.1.782--phone.jpg`: companies, people, articles).
+
+| # | Companies | People | Articles |
+|---|---|---|---|
+| L1 switch | pass (By field, By country, A to Z), but below four paragraphs of prose on a phone | **pass**: a segmented switch, then search | **pass** (sherpa@'s one-letter-per-line fixed, 13c87d0471) |
+| L2 default | pass: by field | pass: by organisation | pass: the wire |
+| L3 cards | pass: 120 cards (monograms not seen in the first screen) | pass: 275 cards, name, role, organisation, sessions | pass: thumbnail, title, summary, kicker, byline |
+| L4 search, count | pass (live region) | **pass**: "275 of 275" beside the box | no search on the page (the site's search is one tap away); fine |
+| L5 length | **fail**: about 25 phone screens (21,175 px) | **fail**: about 43 (36,509 px) | 16 (13,554 px) |
+| L6 contract | pass (no sideways scroll) | pass | pass |
+
+**For dev.pages@, in order:** (1) L5: show the first 6 groups (companies by field, people by organisation) folded to their first 3 cards with "All 30 in security" to open the rest, so a phone reaches every field in a few screens; (2) on companies, the switch and search above the prose: move the four paragraphs under the list or behind "About this list".

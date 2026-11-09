@@ -11,6 +11,15 @@
       "role": "Co-founder & CPO",
       "organisation": "Manus AI",
       "org": "company:manus-ai",
+      "event": "event:the-age-of-agents",
+      "source": "https://websummit.com/sessions/lis26/5bf02ad3-906e-49f8-8905-cef9f5f50a5b/the-age-of-agents/",
+      "read_at": "2026-11-09T05:07Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "Co-founder & CPO",
+      "organisation": "Manus AI",
+      "org": "company:manus-ai",
       "event": null,
       "source": "https://websummit.com/attendees/lis26/b293ad86-071e-4c48-8786-5486e3ceb04e/tao-zhang",
       "read_at": "2026-11-01T00:00Z",

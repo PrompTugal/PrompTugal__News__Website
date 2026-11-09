@@ -30,12 +30,19 @@
       "role": "Campaign Strategist, Media Spokesman",
       "organisation": "Trump & Vance Campaigns",
       "org": "organisation:trump-and-vance-campaigns"
+    },
+    {
+      "person": "person:nathan-j-robinson",
+      "as_listed": "Nathan J Robinson (English American writer, editor of Current Affairs Magazine whose latest book is couathored with Noam Chomsky, Current Affairs)",
+      "role": "English American writer, editor of Current Affairs Magazine whose latest book is couathored with Noam Chomsky",
+      "organisation": "Current Affairs",
+      "org": "organisation:current-affairs"
     }
   ],
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/7b86b4b5-7090-432e-9af0-3a4651d96ad5/what-do-the-us-midterms-tell-us-about-the-future-of-america-press-conference/",
   "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/1/",
-  "read_at": "2026-11-08T05:03Z",
+  "read_at": "2026-11-09T05:07Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -45,6 +52,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 59
+    "item": 61
   }
 }

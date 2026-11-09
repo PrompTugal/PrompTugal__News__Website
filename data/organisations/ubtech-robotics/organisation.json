@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "ubtech-robotics",
+  "type": "organisation",
+  "name": "UBTECH Robotics",
+  "names_as_listed": [
+    "UBTECH Robotics"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/0ca74ec3-5574-4ff1-a33f-731cfa8c76e2/welcome-to-tomorrow/",
+      "read_at": "2026-11-09T05:07Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}
