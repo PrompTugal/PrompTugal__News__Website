@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t"><title id="t">Five AI builders on Web Summit's 2026 speaker list: Replit, Manus AI, MiniMax, ModelBest and You.com</title><style>
+.bg{fill:#f6f3ec}.ink{fill:#121317}.ink3{fill:#595c64}.grn{fill:#006600}.box{fill:#ece7db;stroke:#9d9580}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){.bg{fill:#111214}.ink{fill:#eceae4}.ink3{fill:#a6a39a}.grn{fill:#6dbb7e}.box{fill:#1a1b1e;stroke:#5f5b51}}
+</style><rect class="bg" width="1200" height="630"/><rect class="grn" x="60" y="40" width="120" height="8"/>
+<text class="ink" x="60" y="112" font-size="64" font-weight="800">Five AI builders to know</text>
+<text class="ink3" x="60" y="168" font-size="40">On Web Summit's 2026 speaker list</text>
+<rect class="box" x="60" y="196" width="1080" height="80" rx="12" stroke-width="2"/><text class="grn" x="90" y="250" font-size="42" font-weight="800">Replit</text><text class="ink" x="420" y="250" font-size="42">apps from a description</text>
+<rect class="box" x="60" y="282" width="1080" height="80" rx="12" stroke-width="2"/><text class="grn" x="90" y="336" font-size="42" font-weight="800">Manus AI</text><text class="ink" x="420" y="336" font-size="42">agents that do tasks</text>
+<rect class="box" x="60" y="368" width="1080" height="80" rx="12" stroke-width="2"/><text class="grn" x="90" y="422" font-size="42" font-weight="800">MiniMax</text><text class="ink" x="420" y="422" font-size="42">multimodal models</text>
+<rect class="box" x="60" y="454" width="1080" height="80" rx="12" stroke-width="2"/><text class="grn" x="90" y="508" font-size="42" font-weight="800">ModelBest</text><text class="ink" x="420" y="508" font-size="42">models that run on devices</text>
+<rect class="box" x="60" y="540" width="1080" height="80" rx="12" stroke-width="2"/><text class="grn" x="90" y="594" font-size="42" font-weight="800">You.com</text><text class="ink" x="420" y="594" font-size="42">web search for AI</text>
+</svg>

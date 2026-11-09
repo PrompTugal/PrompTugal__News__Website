@@ -139,9 +139,9 @@
         var b = m.state.balance
         a.classList.toggle('is-low', b < 100)
         a.classList.toggle('is-neg', b < 0)
-        a.replaceChildren(m.money(b), h('span', { class: 'meter-label' }, ' free', h('span', { class: 'meter-word' }, ' credit')))
+        a.replaceChildren('Free credit')   // no ticking amount (designer@'s A2): it is in the title, the label and /account/
         a.setAttribute('aria-label', 'Reading credit ' + m.money(b) + ', kept in this browser: your account')
-        a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top up whenever it feels fair. Kept in this browser only.' : 'Free to read: nothing is charged. A reading credit kept in this browser only; top up only if you want to'
+        a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top up whenever it feels fair. Kept in this browser only.' : 'Free to read: nothing is charged. Credit left: ' + m.money(b) + ', kept in this browser only; top up only if you want to'
     }
 
     var REASONS = [['clickbait', 'The headline promised more than the page gave'], ['not-relevant', 'Not relevant to me'], ['did-not-read', 'I did not really read it'], ['other', 'Another reason']]
@@ -153,10 +153,13 @@
         var line = document.getElementById('nr-meter-line')
         if (!line) { line = h('div', { class: 'meter-line nr-meter-line', id: 'nr-meter-line', role: 'note' }); body.append(line) }
         var e = m.entry, s = m.state
+        // one line, collapsed (designer@'s A2, board/spec-the-reading-credit.md): the numbers open on a tap
+        var wasOpen = line.querySelector('details.nr-foot') && line.querySelector('details.nr-foot').open
+        var fold = function (kids) { return h('details', { class: 'nr-foot', open: wasOpen }, h('summary', {}, 'Free to read. ', h('a', { href: at(m.cfg.links.account) }, 'How the reading credit works')), h('div', { class: 'nr-foot-in' }, kids)) }
         var bal = h('span', {}, 'Balance ', h('a', { href: at(m.cfg.links.account) }, h('b', {}, m.money(s.balance))))
         if (m.status === 'declined' || e.declined) {
             var why = (REASONS.find(function (r) { return r[0] === (e.declined && e.declined.reason) }) || ['', 'no reason given'])[1]
-            line.replaceChildren(h('span', {}, h('b', {}, 'Not charged. '), 'You said: ' + why + '. Kept in your history, in this browser only.'), bal)
+            line.replaceChildren(fold([h('span', {}, h('b', {}, 'Not charged. '), 'You said: ' + why + '. Kept in your history, in this browser only.'), bal]))
             return
         }
         var pct = Math.round((e.depth || 0) * 100)
@@ -166,7 +169,7 @@
         var reasonBox = h('div', { class: 'nr-reasons', hidden: !reasons },
             h('p', { class: 'nr-q' }, 'Why not?'),
             REASONS.map(function (x) { return h('button', { type: 'button', class: 'chip', onclick: function () { m.decline(x[0]) } }, x[1]) }))
-        line.replaceChildren(
+        line.replaceChildren(fold([
             h('span', {}, 'This page ', h('b', {}, m.pence(e.cost)), ' of ' + m.pence(m.price * (r.useful ? m.cfg.rating.price[r.useful - 1] : 1)) + ' · read ' + pct + '%'),
             h('span', { class: 'meter-bar', 'aria-hidden': 'true' }, h('i', { style: 'width:' + pct + '%' })),
             bal,
@@ -180,7 +183,7 @@
                     })),
                 h('p', { class: 'nr-q' }, h('button', { type: 'button', class: 'btn quiet nr-decline', onclick: function () { var x = line.querySelector('.nr-reasons'); x.hidden = !x.hidden } }, 'Do not charge me for this page')),
                 reasonBox,
-                h('p', { class: 'nr-small' }, 'Priced as ' + kindLabel(e.kind) + ': ' + m.pence(m.price) + ' read to the end. ', h('a', { href: at(m.cfg.links.how) }, 'How pages are priced'), '. Kept in this browser only.')))
+                h('p', { class: 'nr-small' }, 'Priced as ' + kindLabel(e.kind) + ': ' + m.pence(m.price) + ' read to the end. ', h('a', { href: at(m.cfg.links.how) }, 'How pages are priced'), '. Kept in this browser only.'))]))
     }
 
     // the account page: balance, history, receipts, export and restore

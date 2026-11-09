@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "IG1",
+  "type": "story",
+  "title": "Web Summit Lisbon 2026: your questions, answered",
+  "beat": "Practical guides",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [],
+  "desk_files": [
+    "desks/indi/drafts/web-summit-faq.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/indi/drafts/web-summit-faq.md"
+    ]
+  },
+  "assignee": "prompter@web-summit.indi",
+  "needs": null,
+  "held": null,
+  "draft": "desks/indi/drafts/web-summit-faq.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-09",
+      "by": "prompter@web-summit.indi",
+      "file": "desks/indi/drafts/web-summit-faq.md"
+    }
+  ]
+}

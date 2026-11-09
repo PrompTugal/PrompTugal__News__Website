@@ -41,7 +41,7 @@
   ],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/d1e1e64e-8909-44de-879b-c18b6e07ac86/how-to-break-your-ai-phone-agent-before-your-customers-hosted-by-twilio/",
-  "read_at": "2026-11-07T08:18Z",
+  "read_at": "2026-11-08T05:04Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -52,6 +52,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 98
+    "item": 97
   }
 }

@@ -1,5 +1,621 @@
 [
   {
+    "version": "v0.1.770",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: overnight round 3: iTRecruiter and Prisma Ready and released after their fixes",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2f3984bdf"
+  },
+  {
+    "version": "v0.1.769",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 02:52: summit set running; list-page switch and the events week live; cards, search and day views still open",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "07c8bcb7e"
+  },
+  {
+    "version": "v0.1.768",
+    "date": "2026-11-09",
+    "what": "journalist-portugal@PrompTugal.vicky: Overnight fixes: itrecruiter, prisma ready for review",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "64a7742ad"
+  },
+  {
+    "version": "v0.1.767",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: brief for risk-mandate@promptugal.ai.dinis (formerly eval.android), the hallucination evals, at Dinis's word",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "24cd811fa"
+  },
+  {
+    "version": "v0.1.766",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: /events/ opens with the week: the strip of the eight days and Today and Tomorrow, each to its day page",
+    "by": "dev@PrompTugal.dinis",
+    "from": "fef8979a1"
+  },
+  {
+    "version": "v0.1.765",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the list pages' view switch is a real switch: one view at a time, kept in the address and the browser",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a6d7f5127"
+  },
+  {
+    "version": "v0.1.764",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: the summit set at Dinis's word; account A's four back on; account B's list sent to conductor.b@",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ffb5951b4"
+  },
+  {
+    "version": "v0.1.763",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: the approved mock-ups vs the live site (agenda, companies, people, articles); the guidance sent to conductor.android",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ed56c44a8"
+  },
+  {
+    "version": "v0.1.762",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: overnight round 2: C4AIL, Cerebras, Cognizant, Neo and Persona Ready and released",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "a31e79aaa"
+  },
+  {
+    "version": "v0.1.761",
+    "date": "2026-11-09",
+    "what": "Team app redesign brief for the iOS conductor (Indi's desk)",
+    "by": "prompter@web-summit.indi",
+    "from": "fe4509d63"
+  },
+  {
+    "version": "v0.1.760",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: overnight group 7: eight Ready and released (ProHound, Raras Health, Risiq, Runpod, SageOx, TestMu AI, Twilio, VTEX)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "fa02cd902"
+  },
+  {
+    "version": "v0.1.759",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.vicky: Overnight batch: c4ail, cerebras, cognizant ready for review",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "0a7fa76f6"
+  },
+  {
+    "version": "v0.1.758",
+    "date": "2026-11-09",
+    "what": "journalist-connections@PrompTugal.vicky: Overnight batch: neo, persona ready for review",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "b0b06aabb"
+  },
+  {
+    "version": "v0.1.757",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.vicky: Overnight batch: aisle, akamai, arima, atlassian ready for review",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "e33f4daea"
+  },
+  {
+    "version": "v0.1.756",
+    "date": "2026-11-09",
+    "what": "journalist-europe@PrompTugal.vicky: Overnight batch: neo4j, open-vsx, orb, primitive ready for review",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "89b699d4e"
+  },
+  {
+    "version": "v0.1.755",
+    "date": "2026-11-09",
+    "what": "journalist-connections@PrompTugal.vicky: Overnight batch: C2 fixes shakers, spacecomputer, sphere, strawberry ready for review; rws left in fix",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "720cb3644"
+  },
+  {
+    "version": "v0.1.754",
+    "date": "2026-11-08",
+    "what": "conductor@PrompTugal.dinis: three apps, three lines: what it means for the Android brief",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "f52a5067b"
+  },
+  {
+    "version": "v0.1.753",
+    "date": "2026-11-08",
+    "what": "Dinis's guidance, 8 November 23:45: three apps, three lines (event, team, RiskMandate)",
+    "by": "conductor@web-summit.dinis",
+    "from": "015bcafd5"
+  },
+  {
+    "version": "v0.1.752",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: company batches C2 and E1: 15 Ready and released; RWS, Shakers, SpaceComputer, Sphere and Strawberry Fix first",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "a7c095a57"
+  },
+  {
+    "version": "v0.1.751",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: style edits, batch E1 (standing answers 17 and 23): three files",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ab614fdfb"
+  },
+  {
+    "version": "v0.1.750",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "218186102"
+  },
+  {
+    "version": "v0.1.749",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 21:07 wake: ledger 648.37, account B near its seven-day limit",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "11bd0f255"
+  },
+  {
+    "version": "v0.1.748",
+    "date": "2026-11-08",
+    "what": "conductor@PrompTugal.dinis: conductor.android@promptugal.ai started at Dinis's word, with the v2 seed brief; no scheduled task",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "469a1fd7c"
+  },
+  {
+    "version": "v0.1.747",
+    "date": "2026-11-08",
+    "what": "conductor@PrompTugal.dinis: every scheduled task on account A stopped at Dinis's word; the Android seed brief v2",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "fc181aeaa"
+  },
+  {
+    "version": "v0.1.746",
+    "date": "2026-11-08",
+    "what": "abp@PrompTugal.dinis: catch-up after thirteen missed wakes (worker restarts): 7 Nov 16:49 to 8 Nov 20:40, 0 breaches that matter; account B paused at Dinis's word",
+    "by": "abp@PrompTugal.dinis",
+    "from": "74e0ba3f5"
+  },
+  {
+    "version": "v0.1.745",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: re-check: S29 and S30 Ready, status ready; held for Vicky's approval",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "4038ae1ac"
+  },
+  {
+    "version": "v0.1.744",
+    "date": "2026-11-08",
+    "what": "journalist-ai@PrompTugal.vicky: S29, the reviewer's fixes: descriptions sourced to each company's Web Summit page; Beyond Presence placed by our reading",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "9d237d9ee"
+  },
+  {
+    "version": "v0.1.743",
+    "date": "2026-11-08",
+    "what": "security@PrompTugal.dinis: catch-up after 28 hours: 290 commits clean, persona.js post-reviewed, S30 (Angelo's agents ship code unreviewed), S28b, debrief",
+    "by": "security@PrompTugal.dinis",
+    "from": "e7e974282"
+  },
+  {
+    "version": "v0.1.742",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: S30 fixed after review: each company's Web Summit page cited; NeoCannBio and AURIMOD attributed; cover says page 1",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "89ba81efe"
+  },
+  {
+    "version": "v0.1.741",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "816d2ace3"
+  },
+  {
+    "version": "v0.1.740",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: seed brief for conductor.android, the RiskMandate Android app, CI to device first",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b9d58341f"
+  },
+  {
+    "version": "v0.1.739",
+    "date": "2026-11-08",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "6b4416589"
+  },
+  {
+    "version": "v0.1.738",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: company batch C2 ready for review (10 files)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "68a2cf3b2"
+  },
+  {
+    "version": "v0.1.737",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: S30 states its sample (page 1 of 26, all GROWTH stage); handoff to reviewer",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "9fbce7be7"
+  },
+  {
+    "version": "v0.1.736",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "ef769de96"
+  },
+  {
+    "version": "v0.1.735",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: Fretefy (batch P1) Ready and released: the Mobiis rebrand sourced, the source note corrected",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "091f154e1"
+  },
+  {
+    "version": "v0.1.734",
+    "date": "2026-11-08",
+    "what": "journalist-portugal@PrompTugal.vicky: Fretefy (batch P1) fixed after review: the Mobiis rebrand, sourced; the source note corrected",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "70b9dab29"
+  },
+  {
+    "version": "v0.1.733",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: C1 and P1 live checks pass at 390 px and desktop; a note on speaker-derived \"Based in\" rows (Proton, Manus AI)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "507b1d96b"
+  },
+  {
+    "version": "v0.1.732",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: company batches C1 and P1: 18 Ready and released; Fretefy Fix first (its site says it is now Mobiis)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b7a339b38"
+  },
+  {
+    "version": "v0.1.731",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: style edits, company batches C1 and P1 (standing answers 17 and 23): seven files",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ee3935f4f"
+  },
+  {
+    "version": "v0.1.730",
+    "date": "2026-11-08",
+    "what": "journalist-portugal@PrompTugal.vicky: company batch P1, nine company files in review (standing answers 23 and 24)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "efd0fdd30"
+  },
+  {
+    "version": "v0.1.729",
+    "date": "2026-11-08",
+    "what": "checker@PrompTugal.vicky: sixth check: S28 clean, WS125 closed, WK1's counts no finding",
+    "by": "checker@PrompTugal.vicky",
+    "from": "8435cf0e9"
+  },
+  {
+    "version": "v0.1.728",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: T1 updated at Angelo's ask: over a hundred agents, 105 with a commit in the week to 8 November",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "5edfa2b26"
+  },
+  {
+    "version": "v0.1.727",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: memo 7, the appliance as an OEM and white-label offer",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a7c68e23f"
+  },
+  {
+    "version": "v0.1.726",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: memo 6, the Appliance experience: a local model and the ABP in every layer",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "56e4ef913"
+  },
+  {
+    "version": "v0.1.725",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: SA23-REPLIT Ready: update the page",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2a6d202cd"
+  },
+  {
+    "version": "v0.1.724",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: SA23-REPLIT ready for review",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "556e92990"
+  },
+  {
+    "version": "v0.1.723",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: memo 5 and the device product strategy (draft for Dinis)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "8ed99be37"
+  },
+  {
+    "version": "v0.1.722",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: correction to S28: Michele Catasta's two sessions for attendees (TRIAGE-REPLIT D2); Stage 2 is in the Media Village (D3)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "816cd23fd"
+  },
+  {
+    "version": "v0.1.721",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: brief for Dinis, the two appliances on Android phones and tablets",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c5ed17bf8"
+  },
+  {
+    "version": "v0.1.720",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: memo 4 for the Web Summit conductor, remove the team collaborators Sarah and Daniela",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d16e90350"
+  },
+  {
+    "version": "v0.1.719",
+    "date": "2026-11-08",
+    "what": "writer@PrompTugal.angelo: WS125: checker@'s second check taken: what the page remembers, \"any agent product\", who made the interactive version",
+    "by": "writer@PrompTugal.angelo",
+    "from": "cdc5774db"
+  },
+  {
+    "version": "v0.1.718",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.vicky: TRIAGE-REPLIT D4, D5: From the newsroom shows each article's summary, in the site's link style",
+    "by": "dev@PrompTugal.vicky",
+    "from": "d00200a82"
+  },
+  {
+    "version": "v0.1.717",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: the team's Sarah and Daniela removed from every document, at Dinis's word",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "6ac21d666"
+  },
+  {
+    "version": "v0.1.716",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: PILOT-REPLIT review: live in v0.1.714 since 14:53, not waiting for dev",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "edadf265e"
+  },
+  {
+    "version": "v0.1.715",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 15:07 wake: customers@'s For Dinis page on the two appliances; memo index updated",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "6a217dfed"
+  },
+  {
+    "version": "v0.1.714",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.vicky: PILOT-REPLIT: About, From the newsroom and a Media only tag on Replit's company page",
+    "by": "dev@PrompTugal.vicky",
+    "from": "4417f18f2"
+  },
+  {
+    "version": "v0.1.713",
+    "date": "2026-11-08",
+    "what": "curator@PrompTugal.vicky: S28 marked published, ready list empty; the generator now checks a ready story against articles and drafts",
+    "by": "curator@PrompTugal.vicky",
+    "from": "68d95c1fe"
+  },
+  {
+    "version": "v0.1.712",
+    "date": "2026-11-08",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "83d9da781"
+  },
+  {
+    "version": "v0.1.711",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: PILOT-REPLIT content ready for review",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "88279dbb6"
+  },
+  {
+    "version": "v0.1.710",
+    "date": "2026-11-08",
+    "what": "customers@PrompTugal.dinis: two appliances for the summit on the For Dinis page (memo 3)",
+    "by": "customers@PrompTugal.dinis",
+    "from": "5b751c0b6"
+  },
+  {
+    "version": "v0.1.709",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: memo 3: two appliances for the summit, their boxes, and the field production workflow",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "357fd4d30"
+  },
+  {
+    "version": "v0.1.708",
+    "date": "2026-11-08",
+    "what": "customers@PrompTugal.dinis: the RiskMandate agent iPad, a For Dinis decision page (memo 2)",
+    "by": "customers@PrompTugal.dinis",
+    "from": "fbdf9d8f0"
+  },
+  {
+    "version": "v0.1.707",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: memo 2: the RiskMandate agent iPad, a product to sell at the summit",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "438508c86"
+  },
+  {
+    "version": "v0.1.706",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: memo 1 for Indi's conductor: the budget focus",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "1e2da5f9c"
+  },
+  {
+    "version": "v0.1.705",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: a channel for Dinis's memos to other teams' conductors",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "107dc6f37"
+  },
+  {
+    "version": "v0.1.704",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "3374be182"
+  },
+  {
+    "version": "v0.1.703",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: re-check S28 (five AI builders): Ready, status ready; held for Vicky's approval",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "4ada31903"
+  },
+  {
+    "version": "v0.1.702",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: S28 fixed after review: Replit's press conference is media only",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "ddf5f6623"
+  },
+  {
+    "version": "v0.1.701",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 12:07 wake: account B still paused; the checker's findings wait for journalist@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "676c5e650"
+  },
+  {
+    "version": "v0.1.700",
+    "date": "2026-11-08",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "d02726d3e"
+  },
+  {
+    "version": "v0.1.699",
+    "date": "2026-11-08",
+    "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "c85eabb65"
+  },
+  {
+    "version": "v0.1.698",
+    "date": "2026-11-08",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "02c0bd04c"
+  },
+  {
+    "version": "v0.1.697",
+    "date": "2026-11-08",
+    "what": "checker@PrompTugal.vicky: fifth check: 9 articles, none waiting; WS125's five findings fixed",
+    "by": "checker@PrompTugal.vicky",
+    "from": "209ed0b4c"
+  },
+  {
+    "version": "v0.1.696",
+    "date": "2026-11-08",
+    "what": "writer@PrompTugal.angelo: reminder for Dinis: Angelo's contributor listing, his writer's key and publishing, the guide's authorisation",
+    "by": "writer@PrompTugal.angelo",
+    "from": "c045309b1"
+  },
+  {
+    "version": "v0.1.695",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 09:07 wake: account B still paused, nothing new",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d3862afbd"
+  },
+  {
+    "version": "v0.1.694",
+    "date": "2026-11-08",
+    "what": "writer@PrompTugal.angelo: the guide's headings land below the sticky \"read this as\" bar (designer@'s note)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "6a7b1fe8b"
+  },
+  {
+    "version": "v0.1.693",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 06:07 wake: the 8 November hand-over debrief; account B still paused",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "02c7c99eb"
+  },
+  {
+    "version": "v0.1.692",
+    "date": "2026-11-08",
+    "what": "curator@PrompTugal.vicky: the README generator committed to desks/curator/tools/ (CURATOR-WS), README date refreshed",
+    "by": "curator@PrompTugal.vicky",
+    "from": "5b60ab742"
+  },
+  {
+    "version": "v0.1.691",
+    "date": "2026-11-08",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "abd28172a"
+  },
+  {
+    "version": "v0.1.690",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 03:07 wake: account B quiet, every agent paused; ledger at 599.94",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "116e07196"
+  },
+  {
+    "version": "v0.1.689",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: Dinis's ask on the team site's key banner relayed to its conductor",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "f616085aa"
+  },
+  {
+    "version": "v0.1.688",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: every account-B agent paused at Dinis's word; conductor.b@ every 3 hours",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "8040a3522"
+  },
+  {
+    "version": "v0.1.687",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: wake 01:08: the 8 November hand-over debrief, status and run report; waits on Dinis for a euro payment link",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d9fe32217"
+  },
+  {
+    "version": "v0.1.686",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: the reading credit said plainly: \"Free credit\" with no ticking amount, the foot one collapsed line (designer@'s A2)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "cb43fd37a"
+  },
+  {
+    "version": "v0.1.685",
+    "date": "2026-11-08",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.verify's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f40072eed"
+  },
+  {
+    "version": "v0.1.684",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: 01:07 wake: Dinis's live map is live at /newsroom/live/",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b3393089e"
+  },
+  {
+    "version": "v0.1.683",
+    "date": "2026-11-08",
+    "what": "conductor.b@PrompTugal.dinis: account B cooled at Dinis's word: three paused, six slowed",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "02bdf8ca8"
+  },
+  {
     "version": "v0.1.682",
     "date": "2026-11-08",
     "what": "synthetic@PrompTugal.dinis: wake 00:44: the inbox drain fixed; open rows unchanged",

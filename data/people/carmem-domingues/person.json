@@ -3,26 +3,26 @@
   "id": "carmem-domingues",
   "type": "person",
   "name": "Carmem Domingues",
-  "role": "Former White House Senior AI Advisor, AI Techno-Realist",
+  "role": "former White House Senior AI Advisor, AI Techno-Realist",
   "organisation": "Future Government Institute",
   "org": "organisation:future-government-institute",
   "listings": [
     {
-      "role": "Former White House Senior AI Advisor, AI Techno-Realist",
+      "role": "former White House Senior AI Advisor, AI Techno-Realist",
       "organisation": "Future Government Institute",
       "org": "organisation:future-government-institute",
       "event": "event:open-vs-closed-the-debate-defining-the-ai-era",
       "source": "https://websummit.com/sessions/lis26/0a834d30-6d0c-49ed-986c-6e2eed88f8ab/open-vs-closed-the-debate-defining-the-ai-era/",
-      "read_at": "2026-11-07T08:18Z",
+      "read_at": "2026-11-08T05:05Z",
       "by": "programme@web-summit.vicky"
     },
     {
-      "role": "Former White House Senior AI Advisor, AI Techno-Realist",
+      "role": "former White House Senior AI Advisor, AI Techno-Realist",
       "organisation": "Future Government Institute",
       "org": "organisation:future-government-institute",
       "event": "event:the-biological-bottleneck",
       "source": "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/",
-      "read_at": "2026-11-07T08:17Z",
+      "read_at": "2026-11-08T05:04Z",
       "by": "programme@web-summit.vicky"
     }
   ],

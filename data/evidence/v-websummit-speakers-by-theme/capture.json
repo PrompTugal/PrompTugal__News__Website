@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-websummit-speakers-by-theme",
+  "type": "evidence",
+  "source_url": "https://websummit.com/speakers/",
+  "beat": "the summit",
+  "group": "speakers by theme",
+  "names": [
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    },
+    {
+      "as_listed": "AgiBot",
+      "ref": "organisation:agibot"
+    },
+    {
+      "as_listed": "Galbot",
+      "ref": "organisation:galbot"
+    },
+    {
+      "as_listed": "Unitree",
+      "ref": "organisation:unitree"
+    },
+    {
+      "as_listed": "Manus AI",
+      "ref": "company:manus-ai"
+    },
+    {
+      "as_listed": "ModelBest",
+      "ref": "organisation:modelbest"
+    },
+    {
+      "as_listed": "MiniMax",
+      "ref": "organisation:minimax"
+    },
+    {
+      "as_listed": "You.com",
+      "ref": "company:you-com"
+    },
+    {
+      "as_listed": "Replit",
+      "ref": "company:replit"
+    },
+    {
+      "as_listed": "Pony.ai",
+      "ref": "organisation:pony-ai"
+    },
+    {
+      "as_listed": "Xpeng Aridge",
+      "ref": "organisation:xpeng-aridge"
+    },
+    {
+      "as_listed": "Xiaomi",
+      "ref": "organisation:xiaomi"
+    },
+    {
+      "as_listed": "Rokid",
+      "ref": "organisation:rokid"
+    },
+    {
+      "as_listed": "Xynova",
+      "ref": "organisation:xynova"
+    },
+    {
+      "as_listed": "Cloudflare",
+      "ref": "company:cloudflare"
+    },
+    {
+      "as_listed": "Eversec Technology",
+      "ref": "company:eversec"
+    },
+    {
+      "as_listed": "Tencent",
+      "ref": "organisation:tencent"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-08-1045.json",
+  "run": "2026-11-08T10:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-08-1045.json"
+    ]
+  }
+}

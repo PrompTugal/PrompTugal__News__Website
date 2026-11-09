@@ -1,0 +1,174 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-08T01-34-34Z",
+ "started": "2026-11-08T01:34:34.697Z",
+ "ended": "2026-11-08T02:04:18Z",
+ "line": "all account-B agents paused",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-08T01:35:05.283Z",
+   "chars": 126,
+   "sha256": "528293bebee1c6e0",
+   "head": "ok, can you pull from dev and see handover we just did to another session and can you list which sessions are still scheduled?"
+  },
+  {
+   "t": "2026-11-08T01:37:44.454Z",
+   "chars": 150,
+   "sha256": "9168fa9983091c5a",
+   "head": "ok, I this we can stop them all right?\n\nis the investors and xray still having tasks, or are they done with that piece of work I was working with them"
+  },
+  {
+   "t": "2026-11-08T02:03:45.294Z",
+   "chars": 32,
+   "sha256": "054a82d99cd6d370",
+   "head": "yes top all and slow yours to 3h"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-08T01:34:34.697Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-08T02:03:41.076Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 16,
+  "by_kind": {
+   "git": 3,
+   "remote": 1,
+   "session": 11,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R2": 1,
+  "R4": 11
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 12,
+  "denied": [
+   {
+    "t": "2026-11-08T01:35:20.159Z",
+    "tool": "mcp__claude-code-remote__list_triggers",
+    "rule": "R2",
+    "what": "list_triggers reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:03:50.002Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:00.833Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:01.158Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:01.432Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:01.763Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:02.071Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:02.341Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:02.622Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:02.895Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:03.193Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-08T02:04:03.483Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 12
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 16,
+  "in_mandate": 4,
+  "out_of_mandate": 12,
+  "attempts": 12,
+  "breaches": 0
+ }
+}

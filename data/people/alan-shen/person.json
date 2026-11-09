@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "alan-shen",
+  "type": "person",
+  "name": "Alan Shen",
+  "role": "MD Global",
+  "organisation": "MiniMax",
+  "org": "organisation:minimax",
+  "listings": [
+    {
+      "role": "MD Global",
+      "organisation": "MiniMax",
+      "org": "organisation:minimax",
+      "event": "event:the-open-source-advantage",
+      "source": "https://websummit.com/sessions/lis26/67bf8048-752a-43d1-84fc-7a03cfdd45ad/the-open-source-advantage/",
+      "read_at": "2026-11-08T05:03Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

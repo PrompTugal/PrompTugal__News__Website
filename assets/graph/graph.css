@@ -120,6 +120,11 @@
     .gx-bar { grid-column: 1 / -1; }
     .gx-canvas { height: calc(100vh - 230px); min-height: 520px; }
     .gx-side { border-top: 0; border-left: 1px solid var(--rule-2, var(--rule)); overflow-y: auto; height: calc(100vh - 230px); min-height: 520px; }
+    /* explorer.js adds the caption as a grid item before the canvas: placed by hand, or auto-placement puts the caption in
+       the wide column, the canvas in the 360px one and the details panel on the next row */
+    .gx-caption { grid-column: 1 / -1; margin: 0; padding: 8px var(--gutter, 16px); border-bottom: 1px solid var(--hair); }
+    .gx-canvas { grid-column: 1; }
+    .gx-side { grid-column: 2; }
 }
 @media (max-width: 767px) {
     .gx .gx-canvas { overflow: hidden; }
@@ -128,6 +133,15 @@
     .gx-path button { grid-column: 1 / -1; justify-self: start; }
 }
 .gx-caption { margin: 8px 0; font: 400 14px/1.45 var(--sans, system-ui, sans-serif); color: var(--ink-2, var(--ink-3)); min-height: 1.45em; }
+/* the advanced controls (view, depth, top, actions, filters, the path finder): always shown on a wide screen; on a phone
+   folded under one line, so the graph comes up just under the search (explorer.js closes it there) */
+.gx-adv { display: block; }
+.gx-adv > summary { display: none; }
+.gx-adv > * + * { margin-top: 8px; }
+@media (max-width: 767px) {
+    .gx-adv > summary { display: list-item; cursor: pointer; padding: 4px 0; font: 600 14px/1.6 var(--sans, system-ui, sans-serif); color: var(--ink-2); }
+    .gx-adv[open] > summary { margin-bottom: 6px; }
+}
 /* on a narrow screen the filter selects wrap and shrink instead of widening the page */
 .gx-selects label { flex-wrap: wrap; max-width: 100%; }
 .gx-selects select { max-width: 100%; min-width: 0; }

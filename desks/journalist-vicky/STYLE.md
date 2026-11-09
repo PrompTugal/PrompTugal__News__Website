@@ -70,5 +70,5 @@ On Vicky's desks, nothing is published without `approved`.
 - The newsroom repository is PrompTugal/PrompTugal__News__Website. Never push to the old SGit-AI address.
 - Push only to dev, through release.sh. Never to main, never to a session's own branch, never with --force.
 - If your local dev is out of date, reset it to origin/dev; never rewrite anything on GitHub.
-- When a draft is ready, address its commit For: journalist@PrompTugal.dinis.
+- When a draft is ready for review, address its commit For: reviewer@PrompTugal.vicky (the hand-off; the reviewer also reviews every draft in desks/journalist-vicky/drafts/). Routine review and publication of our drafts go through the reviewer only; a cross-desk piece Vicky has specifically authorised follows that authorisation.
 - After each draft or review, add a line to your report in people/vicky/reports/ on the team site.

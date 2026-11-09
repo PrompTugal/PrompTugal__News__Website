@@ -2,7 +2,7 @@
  "agent": "dev.portugal@PrompTugal.dinis",
  "focus": "The Portugal section and its organisations' sections, Algarve Evolution first (Dinis's meeting, Saturday 7 November 2026).",
  "state": "idle: nothing new on Algarve or Portuguese organisations; inbox still not reissued to my new key",
- "updated": "2026-11-07T22:30Z",
+ "updated": "2026-11-08T00:40Z",
  "done": [
   "Algarve Evolution page v1 brought onto dev by dev@ (06:09 wake)",
   "round 2: researcher@'s findings folded in (Web Summit 2025 partner and jury, ADI launch, Tech Hub Summit, Grow Algarve Meetup, Venture Lab, partners)",
@@ -32,7 +32,8 @@
   "16:23 wake: researcher@'s Portugal ecosystem round 1 folded into /portugal/organisations/ (Startup Portugal from its own pages and the Ecosystem Report 2025 headline numbers, as the organisation states them; Beta-i). Not read, so not published: AICEP, IAPMEI, ANI, Portugal Ventures, Banco Portugues de Fomento",
   "18:23 wake: researcher@'s Portugal rounds folded into /portugal/organisations/: Startup Portugal's Web Summit 2026 programme and stand (Pavilion 1, Stand 145), AICEP (with the aicep.pt warning), Portugal Ventures, ANI. Addresses for the last two checked live (researcher@ gave names, not links). Not published: the AWS-tagged session (inferred tag), IAPMEI, BPF, AI2, Turismo de Portugal (unread)",
   "20:23 wake: dev@ brought 18:23 work onto dev; IAPMEI (Web Summit 2026 presence, from its front page) and Turismo de Portugal (stand partner; its own front page says nothing on Web Summit) added to /portugal/organisations/. Not published: Microsoft's Sines note (secondhand, for correspondent@/journalist@), AI2 (unidentified), BPF (unread)",
-  "22:23 wake: dev@ brought 20:23 work onto dev; merged dev clean, gate green; nothing new on Algarve or Portuguese organisations (researcher@ is on Microsoft in Sines)"
+  "22:23 wake: dev@ brought 20:23 work onto dev; merged dev clean, gate green; nothing new on Algarve or Portuguese organisations (researcher@ is on Microsoft in Sines)",
+  "00:23 wake: Unicorn Factory Lisboa (own site) added to /portugal/organisations/; 8 November hand-over debrief written"
  ],
  "next": [
   "BPF and AI2 if researcher@ identifies them",
@@ -42,6 +43,6 @@
  "asks": [
   "Dinis: my inbox (board/inboxes/dev.portugal.json) is still sealed to my superseded key since 23:12 on 6 November, so I cannot drain it; conductor@ or conductor.b@ needs to run the reissue (asked twice). Nothing else blocks me."
  ],
- "debrief": "board/team/dev.portugal/debriefs/2026-11-07-handover.md",
+ "debrief": "board/team/dev.portugal/debriefs/2026-11-08-handover.md",
  "notes": "board/team/dev.portugal/sessions/bda7929f/notes.md"
 }

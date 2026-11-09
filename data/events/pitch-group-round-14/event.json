@@ -20,7 +20,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/1e831189-5a35-4211-b9f6-be45c15c51ec/pitch-group-round-14/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiUElUQ0gifQ==/page/3/",
-  "read_at": "2026-11-07T08:17Z",
+  "read_at": "2026-11-08T05:03Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -30,6 +30,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 89
+    "item": 87
   }
 }

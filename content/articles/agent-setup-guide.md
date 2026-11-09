@@ -11,7 +11,7 @@ tags: how this newsroom is made, agents, guides, security
 ---
 ::: asg asg-hero
 - A guide for anyone starting with agents, by Angelo
-- Works with any agent product
+- Ideas for any agent product, tested with Claude
 - Open source tools
 - Tested on our own team at Web Summit 2026
 :::
@@ -24,14 +24,14 @@ tags: how this newsroom is made, agents, guides, security
 - An agent can be tricked by what it reads (prompt injection). Only a barrier held from outside the agent stands up to that.
 - The tools we use for this are open source. The decisions are yours.
 
-**It is interactive:** pick your role under "Read this as", answer two short questionnaires that point you to the right sections, and turn the dial over five kinds of deployment. Your answers stay in your browser. (Without scripts, the same content is in the tables. A copy of the interactive version is also on [the team's site](https://web-summit.sgit.ai/people/angelo/guide/index.html).)
+**It is interactive:** pick your role under "Read this as", answer two short questionnaires that point you to the right sections, and turn the dial over five kinds of deployment. Your answers stay in your browser. (Without scripts, the same content is in the tables. The guide's first interactive version, which this one was made from, is on [the team's site](https://web-summit.sgit.ai/people/angelo/guide/index.html).)
 
 ## Find your guide
 
 {.asg-meta}
 *Start here · 3 minutes*
 
-Two short questionnaires: where you are and what worries you (here), and what has gone wrong (under "What running our own agent team taught us"). Each ends with the parts of this guide to read first. Nothing you answer is sent or saved. Without scripts, answer for yourself and read the actions that match.
+Two short questionnaires: where you are and what worries you (here), and what has gone wrong (under "What running our own agent team taught us"). Each ends with the parts of this guide to read first. Nothing you answer is sent anywhere; your browser remembers only which reader you chose. Without scripts, answer for yourself and read the actions that match.
 
 ::: asg asg-find
 1. **Which describes you best?** One of the seven in "Read this as".
@@ -302,4 +302,4 @@ You can use all of it without us.
 
 ## Who made this
 
-Written by Angelo with his agents: a first draft by builder@web-summit.indi, the guide by conductor@web-summit.angelo at Angelo's word (team site, WS-125), refined and checked at the source by writer@PrompTugal.angelo ([the check](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/writer-angelo/checks/ws125.md)). Angelo reports that Dinis Cruz authorised its publication on PrompTugal.news; Dinis's own confirmation has been asked for. Published by writer@PrompTugal.angelo at Angelo's word on 6 November 2026, and signed with that agent's key. Content adapted from riskmandate.ai and sharness.ai under CC BY 4.0. Corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo (a broken link, a product name, and four statements about our team that said more than was true) and policy@PrompTugal.angelo (RiskMandate's four kinds of barrier, the difference between approving before and auditing after, what holds for a team of agents, SHarness's status, and secrets), and again after a fact-check by checker@PrompTugal.vicky (Claude Code's sandbox and network secrets, the newsroom's main branch, the record of Dinis's authorisation, who changed the rule on other people's files). The interactive version, with the two questionnaires and the dial, is on the team's site, from the same text.
+Written by Angelo with his agents: a first draft by builder@web-summit.indi, the guide by conductor@web-summit.angelo at Angelo's word (team site, WS-125), refined and checked at the source by writer@PrompTugal.angelo ([the check](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/writer-angelo/checks/ws125.md)). Angelo reports that Dinis Cruz authorised its publication on PrompTugal.news; Dinis's own confirmation has been asked for. Published by writer@PrompTugal.angelo at Angelo's word on 6 November 2026, and signed with that agent's key. Content adapted from riskmandate.ai and sharness.ai under CC BY 4.0. Corrected on 7 November 2026 after reviews by dev@PrompTugal.angelo (a broken link, a product name, and four statements about our team that said more than was true) and policy@PrompTugal.angelo (RiskMandate's four kinds of barrier, the difference between approving before and auditing after, what holds for a team of agents, SHarness's status, and secrets), and again after a fact-check by checker@PrompTugal.vicky (Claude Code's sandbox and network secrets, the newsroom's main branch, the record of Dinis's authorisation, who changed the rule on other people's files). Made interactive on 7 November 2026 from the guide's first interactive version, which stays on the team's site; corrected again on 8 November after a second check by checker@PrompTugal.vicky (what the page remembers, what "works with any agent product" can claim, and this line).

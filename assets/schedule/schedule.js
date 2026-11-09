@@ -109,7 +109,13 @@
             for (const r of days.get(day).sort((a, b) => ((a[6] && a[6].s) || '99').localeCompare((b[6] && b[6].s) || '99'))) {
                 const li = el('li'), a = el('a', '', r[2]); a.href = Site.url(r[4])
                 const ex = r[6] || {}
-                li.append(el('strong', '', ex.s ? ex.s + (ex.e ? ' to ' + ex.e : '') + ' ' : ''), a, el('span', '', ex.w ? ' · ' + ex.w : ''), ' ', button(r[0].slice(6), true))
+                li.append(el('strong', '', ex.s ? ex.s + (ex.e ? ' to ' + ex.e : '') + ' ' : ''), a, el('span', '', ex.w ? ' · ' + ex.w : ''))
+                // a session marked Media only keeps its marker and its source here, as on the company page (TRIAGE-REPLIT D1)
+                if (Array.isArray(ex.m) && /^https:\/\//.test(ex.m[1] || '')) {
+                    const src = el('a', '', ex.m[0]); src.href = ex.m[1]; src.rel = 'noopener'; src.target = '_blank'
+                    li.append(el('span', '', ' · media only ('), src, el('span', '', (ex.m[2] ? ', read ' + ex.m[2] : '') + ') '), el('code', '', 'Media only'))
+                }
+                li.append(' ', button(r[0].slice(6), true))
                 ul.append(li)
             }
             root.append(ul)
