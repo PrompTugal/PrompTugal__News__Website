@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "goncalo-matias",
+  "type": "person",
+  "name": "Gonçalo Matias",
+  "role": "Minister in the Cabinet of the Prime Minister and of State Reform",
+  "organisation": "Government of Portugal",
+  "org": "organisation:government-of-portugal",
+  "listings": [
+    {
+      "role": "Minister in the Cabinet of the Prime Minister and of State Reform",
+      "organisation": "Government of Portugal",
+      "org": "organisation:government-of-portugal",
+      "event": "event:welcome-to-web-summit-2026",
+      "source": "https://websummit.com/sessions/lis26/b1f951ff-040c-44a1-8ede-ee6f8a8e307f/welcome-to-web-summit-2026/",
+      "read_at": "2026-11-09T05:07Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

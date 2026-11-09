@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "welcome-to-web-summit-2026",
+  "type": "event",
+  "title": "Welcome to Web Summit 2026",
+  "kind": "night-summit",
+  "listed_as": "night-summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-09",
+  "time": "18:00-18:35",
+  "start": "18:00",
+  "end": "18:35",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:paddy-cosgrave",
+      "as_listed": "Paddy Cosgrave (CEO & Founder, Web Summit)",
+      "role": "CEO & Founder",
+      "organisation": "Web Summit",
+      "org": "organisation:web-summit"
+    },
+    {
+      "person": "person:carlos-moedas",
+      "as_listed": "Carlos Moedas (Mayor, City of Lisbon)",
+      "role": "Mayor",
+      "organisation": "City of Lisbon",
+      "org": "organisation:city-of-lisbon"
+    },
+    {
+      "person": "person:goncalo-matias",
+      "as_listed": "Gonçalo Matias (Minister in the Cabinet of the Prime Minister and of State Reform, Government of Portugal)",
+      "role": "Minister in the Cabinet of the Prime Minister and of State Reform",
+      "organisation": "Government of Portugal",
+      "org": "organisation:government-of-portugal"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/b1f951ff-040c-44a1-8ede-ee6f8a8e307f/welcome-to-web-summit-2026/",
+  "source_url": "https://websummit.com/schedule/date/2026-11-09/page/1/",
+  "read_at": "2026-11-09T05:07Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 10
+  }
+}
