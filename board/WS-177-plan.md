@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 13:52 UTC, 9 November
+
+Site v0.1.846. Snapshot 2026-11-09T1354Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
+
+- **/contribute/: ready, waiting on Dinis's confirmation.** The main conductor relayed it as Dinis's at 13:00, 13:10 and 13:40: the page as the main entry point, CC BY 4.0, and Andrew as the first contributor (c3941d35). It collects contact details, so I asked Dinis to confirm in this session; push sent at 13:52. When he does, it goes to dev.pages@ (the page) and journalist@ (the words, and the review of Andrew's article).
+- **OpenRouter plan:** accountant@ planned 250 USD within Dinis's 100 to 300 GBP (relayed at 13:25): one key per tablet, per app team and per agent, with limits per key (8d83f13f). The keys and limits are Dinis's to make.
+- **Development:** dev@ brought all five workers' branches onto dev; the live map now dims quiet agents (ed9d5097). librarian@ mapped the agents' life cycle and keys (58de5800).
+
 ## Wake at 12:52 UTC, 9 November
 
 Site v0.1.842. Snapshot 2026-11-09T1256Z, 0 errors. Inbox empty.
