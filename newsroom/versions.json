@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.780",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e0abb953a"
+  },
+  {
     "version": "v0.1.779",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 04:05: 63 commits clean, S28b closed, S30 mostly done (dev@'s review and gate warning)",
