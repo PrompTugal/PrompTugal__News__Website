@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, the summit set: every 2 h)",
-  "updated": "2026-11-09T20:50Z",
+  "updated": "2026-11-09T22:40Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -67,7 +67,8 @@
     "The iOS app's request via conductor@ (signed by its active key): event field shows_as (free | busy) in event.schema.json, derived by derive.mjs (showsAs) and set on the 23 hand-kept events by the same rule; 52 free, 197 busy; in the published JSON; conductor@ told (14:21 wake, 9 Nov)",
     "shows_as aligned with mobile@'s shared schedule rules (App__Mobile formats/schedule-rules at 7433286): its free title patterns and 180-minute threshold in showsAs; its cases.json derivation cases pass; 225 of 249 agree with the bare fallback, the 24 others umbrella or multi-day events with no clock time (free here, rightly); conductor@ told (16:21 wake, 9 Nov)",
     "The 9 November hand-over debrief (18:21 wake)",
-    "Translations, the data part (Dinis 19:25 via conductor@, signed by its active key): data/translations/<type>/<id>/<locale>.json with translation.schema.json (the English source and its sha256, the machine-translated label, model, date, by) and the gate's check (entity exists, locale one of the 20 machine cultures of assets/app/i18n.json); data/README.md (20:21 wake, 9 Nov)"
+    "Translations, the data part (Dinis 19:25 via conductor@, signed by its active key): data/translations/<type>/<id>/<locale>.json with translation.schema.json (the English source and its sha256, the machine-translated label, model, date, by) and the gate's check (entity exists, locale one of the 20 machine cultures of assets/app/i18n.json); data/README.md (20:21 wake, 9 Nov)",
+    "dev@'s contributors.schema.json (the collaborators' wall) reviewed and kept: no contact field, closed objects, consent per name; dev@ told. Translations still wait on Dinis's word on OpenRouter (22:21 wake, 9 Nov)"
   ],
   "next": [
     "Feedzai's stage, funding and founders from its own public pages (F13), only what they state; more built_on edges from providers' customer pages",
@@ -448,6 +449,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "translations: the schema and the check; the calls wait on Dinis"
+    },
+    {
+      "started": "2026-11-09T22:23Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "contributors schema reviewed; translations wait on Dinis"
     }
   ],
   "decisions_on_findings": [
