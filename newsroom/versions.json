@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.850",
+    "date": "2026-11-09",
+    "what": "watch 14:21: Indi's team's messaging v1 and redesign on iOS dev, sent to security review first",
+    "by": "conductor@web-summit.dinis",
+    "from": "ad411cb1b"
+  },
+  {
     "version": "v0.1.849",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: the live bar on a phone shows the title, not the place (sherpa@'s L4); D1 from dev.pages@",
