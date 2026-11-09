@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.914",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: /contribute/ checked live; a stray \"into the page -->\" above the rules fixed at its source",
+    "by": "designer@PrompTugal.dinis",
+    "from": "ba8edf0f0"
+  },
+  {
     "version": "v0.1.913",
     "date": "2026-11-09",
     "what": "conductor.android@promptugal.ai.dinis: watch 22:26: Android unchanged",
