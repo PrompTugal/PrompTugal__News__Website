@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-road-2-web-summit-78-startups",
+  "type": "evidence",
+  "source_url": "https://portugalstartupnews.com/2026/11/08/full-list-of-78-startups-selected-by-startup-portugal-for-road-2-web-summit-2026/",
+  "beat": "Portugal",
+  "group": "Portugal",
+  "names": [
+    {
+      "as_listed": "Startup Portugal",
+      "ref": "company:startup-portugal"
+    },
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    },
+    {
+      "as_listed": "Portugal Startup News",
+      "ref": "organisation:portugal-startup-news"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-09-0545.json",
+  "run": "2026-11-09T05:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-0545.json"
+    ]
+  }
+}
