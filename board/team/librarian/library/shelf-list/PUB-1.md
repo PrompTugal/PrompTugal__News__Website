@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: PUB, The publication (part 1 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T13:01:52Z"
-site_version: "v0.1.842"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T15:58:30Z"
+site_version: "v0.1.862"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 1 of 5)
 
-100 cards, from `PUB.ART agent-setup-guide` to `PUB.NEWS S8`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.ART agent-setup-guide` to `PUB.NEWS S7`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -124,10 +124,10 @@ source: board/catalogue.json
 | `PUB.NEWS S31` | [S31: Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](https://promptugal.news/newsroom/stories/S31/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S32` | [S32: Rehab beyond the clinic: three Portuguese startups at Web Summit](https://promptugal.news/newsroom/stories/S32/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S33` | [S33: Sports tech at Web Summit: IBM's startup challenge ends in Lisbon](https://promptugal.news/newsroom/stories/S33/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S34` | [S34: Where to find Portugal at Web Summit: Pavilion 1, stand E145](https://promptugal.news/newsroom/stories/S34/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S4` | [S4: From the PITCH stage to new markets: Portuguese startups raising](https://promptugal.news/newsroom/stories/S4/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S5` | [S5: Web Summit 2026 in numbers: 70,000 people, 10,000 startups](https://promptugal.news/newsroom/stories/S5/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S6` | [S6: Gender in Tech report: 84% see women in leadership](https://promptugal.news/newsroom/stories/S6/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S7` | [S7: The Portugal banner: awards, funding and the Algarve's plan](https://promptugal.news/newsroom/stories/S7/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S8` | [S8: Técnico brings robots and six spin-offs to Web Summit](https://promptugal.news/newsroom/stories/S8/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](PUB-2.md)
