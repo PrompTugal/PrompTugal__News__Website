@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.796",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: lean wake, nothing new; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "22fabfead"
+  },
+  {
     "version": "v0.1.795",
     "date": "2026-11-09",
     "what": "ontologist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
