@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.845",
+    "date": "2026-11-09",
+    "what": "team messaging v1 brief for the iOS conductor (WS-203, Indi's desk)",
+    "by": "prompter@web-summit.indi",
+    "from": "f9a166280"
+  },
+  {
     "version": "v0.1.844",
     "date": "2026-11-09",
     "what": "Dinis's voice brief, 9 Nov 13:00: recruit contributors; a /contribute/ page here (WS-204)",
