@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "forbespt-2023-11-07",
+  "story": "BR1",
+  "url": "https://www.forbespt.com/agencia-de-investimento-brasileira-leva-delegacao-recorde-a-web-summit-lisboa",
+  "title": "Agencia de investimento brasileira leva delegacao recorde a Web Summit Lisboa (Forbes Portugal with Lusa, 7 November 2023)",
+  "publisher": "Forbes Portugal",
+  "published": "2023-11-07",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Forbes Portugal, with Lusa, reports ApexBrasil taking 85 startups and 100 companies to Web Summit 2023, a record, against 80 companies in 2022, the year of the first Brazil Pavilion."
+}

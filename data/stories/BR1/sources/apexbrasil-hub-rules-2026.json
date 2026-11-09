@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "apexbrasil-hub-rules-2026",
+  "story": "BR1",
+  "url": "https://click.apexbrasil.com.br/mkt/WebSummit%20Lisboa/Regulamento_Ambientes_Inovacao.pdf",
+  "title": "ApexBrasil, rules for innovation hubs, Web Summit Lisboa 2026 (PDF)",
+  "publisher": "ApexBrasil",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "ApexBrasil's rules for innovation hubs state that Germany and Brazil had the two largest delegations at Web Summit 2025 and give the Brazilian delegation as almost 380 companies, 247 of them supported by ApexBrasil, Sebrae Nacional and Serpro."
+}
