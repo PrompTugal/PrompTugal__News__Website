@@ -97,3 +97,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 08:21 wake
 - Inbox empty. Unmatched speaker orgs: no more of ours. Companies with no session (either path): 52; asked programme-vicky about Temporal and a16z. Lesson: a company reaches events through listed_under people too, not only appears_in.
+
+## 10:21 wake
+- Inbox empty. Guidance 10:15 (LLM in apps) read. Customer pages scanned; Prisma on Mastra = internal agents, not taken. No data change.

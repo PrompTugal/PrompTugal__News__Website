@@ -1,5 +1,82 @@
 [
   {
+    "version": "v0.1.829",
+    "date": "2026-11-09",
+    "what": "Dinis's voice brief, 9 Nov 11:10: we are the power users; where is everybody first (WS-201)",
+    "by": "conductor@web-summit.dinis",
+    "from": "582274459"
+  },
+  {
+    "version": "v0.1.828",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: hand-over debrief of 9 November; the 10:55 relay marked unconfirmed in my asks",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "89c49a972"
+  },
+  {
+    "version": "v0.1.827",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: status: Dinis's 10:55 word settles S25/S30, outreach and the names; four asks left",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "fb8a9d105"
+  },
+  {
+    "version": "v0.1.826",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: stand-up brief 5 (Monday 12:00); wake 10:52; /events/ length to dev.pages@",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "12c243019"
+  },
+  {
+    "version": "v0.1.825",
+    "date": "2026-11-09",
+    "what": "Dinis's guidance, 9 Nov 10:55: everyone trusted to push and publish, review each other, names end in .dinis, outreach parked",
+    "by": "conductor@web-summit.dinis",
+    "from": "3321f4c39"
+  },
+  {
+    "version": "v0.1.824",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: SA25 record: S24, S25 and S27 corrected (v0.1.823)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c360ee101"
+  },
+  {
+    "version": "v0.1.823",
+    "date": "2026-11-09",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "49ac9cb16"
+  },
+  {
+    "version": "v0.1.822",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: the summit's day pages pass; /events/ still one long page; an image for the wristband queues",
+    "by": "designer@PrompTugal.dinis",
+    "from": "ecf9cf084"
+  },
+  {
+    "version": "v0.1.821",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: lean wake; when to look for BR2's 2027 class on Tuesday",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "3ef7e45e5"
+  },
+  {
+    "version": "v0.1.820",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: brief, the on-device LLM next (iPad, workbench, models judging models, shared mobile repo), from Dinis's words",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "bbc66ab17"
+  },
+  {
+    "version": "v0.1.819",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 10:08: lean; the list pages pass designer@'s check; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "768525f93"
+  },
+  {
     "version": "v0.1.818",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 10:05: 21 commits clean, S31 closed",

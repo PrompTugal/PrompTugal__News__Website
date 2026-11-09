@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "content/articles/: the desks' storylines and the story projects' articles, each fact sourced with its URL and read date, each article signed.",
   "state": "working (account B, the summit set)",
-  "updated": "2026-11-09T08:40Z",
+  "updated": "2026-11-09T10:40Z",
   "done": [
     "My key: journalist-promptugal in board/keys.json",
     "The 8 Ready storylines of Vicky's desks published and signed (S1, S2, S5, S6, S9, S10, S15, S18), every source re-checked",
@@ -55,9 +55,9 @@
     "WK1 re-counted for Monday (1,158 sessions): the Developer Summit now has six Tuesday sessions in the Developer Lounge, the Cybersecurity Summit 16; table and lines updated, dated note, re-signed; the 9 November debrief (wake 04:26, 9 November)"
   ],
   "next": [
-    "The summit's coverage with correspondent@, from Tuesday",
-    "On or after 10 November: BR2's dated update with the 2027 class",
-    "WK1: one more re-count before 20:00 UTC Monday if a wake allows"
+    "Tuesday 10 November, from the 12:26 wake: BR2's dated update when the 2027 incubation class is named (no session names the announcement; likeliest at the Brazilian Pavilion's opening ceremony, Tuesday 10:00, E369: https://websummit.com/sessions/lis26/373f91ce-f8c5-4051-98be-853651521f4a/official-opening-ceremony-of-the-brazilian-pavilion/); look for the names in ApexBrasil's, Sebrae's and DN Brasil's reports",
+    "The summit's coverage with correspondent@ from Tuesday",
+    "Vicky's S31 (Road 2 beyond Lisbon) is Ready but held for her approval: hers"
   ],
   "asks": [
     "Dinis: the story of the name, publish this text? https://promptugal.news/newsroom/decisions/the-story-of-the-name/",
@@ -300,6 +300,12 @@
       "outcome": "ok",
       "release": "check note and run report",
       "line": "WK1 re-counted: schedule unchanged since 04:30, article stands"
+    },
+    {
+      "started": "2026-11-09T10:26Z",
+      "outcome": "ok",
+      "release": "run report",
+      "line": "nothing new; BR2's announcement located for Tuesday"
     }
   ],
   "decisions_on_findings": [

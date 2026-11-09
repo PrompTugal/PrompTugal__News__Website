@@ -5,7 +5,7 @@
   "title": "Beyond Lisbon: where Road 2 Web Summit's 78 startups come from",
   "beat": "Portugal",
   "topic": null,
-  "status": "ready",
+  "status": "published",
   "rests_on": [
     "evidence:v-road-2-web-summit-78-startups"
   ],
@@ -17,7 +17,8 @@
     "from": [
       "desks/curator/2026-11-09-0545.json",
       "desks/journalist-vicky/drafts/S31-road-2-web-summit-beyond-lisbon.md",
-      "desks/reviewer-vicky/reviews/S31.md"
+      "desks/reviewer-vicky/reviews/S31.md",
+      "content/articles/road-2-web-summit-beyond-lisbon.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -33,8 +34,12 @@
       "at": "2026-11-09"
     }
   ],
-  "article": null,
-  "next": "publish and sign",
+  "article": {
+    "path": "content/articles/road-2-web-summit-beyond-lisbon.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -53,6 +58,12 @@
       "at": "2026-11-09",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S31.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-09",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/road-2-web-summit-beyond-lisbon.md"
     }
   ]
 }

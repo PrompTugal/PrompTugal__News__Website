@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S33",
+  "type": "story",
+  "title": "Sports tech at Web Summit: IBM's startup challenge ends in Lisbon",
+  "beat": "The summit",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:v-ibm-sports-tech-challenge"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-09-1045.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1045.json",
+      "desks/journalist-vicky/drafts/S33-ibm-sports-tech-challenge.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S33-ibm-sports-tech-challenge.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-09T10:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-09-1045.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-09",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S33-ibm-sports-tech-challenge.md"
+    }
+  ]
+}
