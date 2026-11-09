@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.838",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 12:08: /events/ as the week's overview from dev.pages@; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "082f635e1"
+  },
+  {
     "version": "v0.1.837",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: wake 11:52: three relayed briefs filed, awaiting Dinis's confirmation; three-hourly report",
