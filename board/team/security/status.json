@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-09T14:08Z",
-  "reviewed_to": "2fa89434",
+  "updated": "2026-11-09T16:08Z",
+  "reviewed_to": "01063900",
   "hold": false,
   "done": [
-    "14:05 7 Nov: 55 commits clean; S29 (deck.js unreviewed) to dev@; S28 not yet on dev",
     "16:05 7 Nov: 39 commits clean; S28, S29 closed; personalised investor links pre-reviewed (go, nine conditions)",
     "20:05 8 Nov: catch-up over 290 commits; persona.js post-reviewed; S30 and S28b raised; debrief written",
     "04:05 9 Nov: 63 commits clean; S28b closed; S30 mostly done; first wake of the summit set",
@@ -14,7 +13,8 @@
     "08:05 9 Nov: 19 commits clean; S21 closed; S31 (low) to dev@",
     "10:05 9 Nov: 21 commits clean; S31 closed",
     "12:05 9 Nov: 40 commits clean; S25 and S30 decided by Dinis (everyone trusted)",
-    "14:05 9 Nov: 21 commits clean; conditions ahead for /contribute/"
+    "14:05 9 Nov: 21 commits clean; conditions ahead for /contribute/",
+    "16:05 9 Nov: 36 commits clean; /app/ read, sound"
   ],
   "next": [
     "review every commit, theirs included",
