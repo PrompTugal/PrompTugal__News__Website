@@ -14,7 +14,9 @@ A few files per run, after the round's drafts. Each finding re-checked at its so
 | driving-to-web-summit | S24 | corrected, 9 Nov 10:40 UTC (v0.1.823) |
 | the-sign-in | S25 | corrected, 9 Nov 10:40 UTC (v0.1.823) |
 | venue-map | S27 | corrected and updated, 9 Nov 10:40 UTC (v0.1.823) |
-| daily-newsletter, europe-ai-help-and-portugal-ai-startups, following-robotics-at-web-summit, how-agents-avoid-collisions, lisbon-universities-at-web-summit, mistakes-we-made, octo-health-launches, web-summit-before-2026, who-does-the-work | | next runs |
+| who-does-the-work | T2 | correction (small), below |
+| how-agents-avoid-collisions | T4 | no problem, below |
+| daily-newsletter, europe-ai-help-and-portugal-ai-startups, following-robotics-at-web-summit, lisbon-universities-at-web-summit, mistakes-we-made, octo-health-launches, web-summit-before-2026 | | next runs |
 
 ## 9 November 2026, about 06:40 UTC
 
@@ -41,3 +43,17 @@ A few files per run, after the round's drafts. Each finding re-checked at its so
 ## 9 November 2026, about 10:50 UTC: published at Vicky's word
 
 All three corrections published (newsroom v0.1.823), each with a dated note under "Corrections" crediting the checker, and the figures (S24's, S25's step 6) changed with them. S27's counts had moved again by the time of publishing: its update note gives the live page's of 9 November (v0.1.821: 194 at the MEO Arena and FIL, 27, 64, 51, 52; the Pavilhão de Portugal's registration desk Monday to Thursday), not the 186 above. Live-checked at 390 px and desktop.
+
+## 9 November 2026, about 15:40 UTC
+
+### T2, who does the work (findings: who-does-the-work.md)
+
+**Still true.** In short says "Six people on the team run AI agents: Dinis, Vicky, Indi, Jose, Silvio and Angelo. Nimay works without them." The team's `data/team.json`, unchanged since 6 November 15:54 UTC (before T2 was written), also lists Sarah (designer) and Daniela ("the first friendly"), and neither has an `agents.json` under `people/` (nor does Nimay). Naming Nimay alone reads as if he were the only one without agents. My first review had flagged it as the journalist's call; the checker is right that it misleads. A small correction: "The team's other members work without them."
+
+### T4, how the agents avoid collisions (findings: how-agents-avoid-collisions.md)
+
+**No problem.** At `092caead`, `board/schedule.json` has 17 of Dinis's agents waking every hour, and the chart shows ten. The caption already reads "Ten of Dinis's newsroom agents each wake every hour at their own minute", which is the wording Vicky asked for on 6 November so it matches the chart's title "Ten of Dinis's newsroom agents": it says the ten are some of them, not all. No change.
+
+## For Vicky (publish line, at Vicky's word only)
+
+- `Correct T2: "The team's other members work without them" in In short, with a dated correction note.`

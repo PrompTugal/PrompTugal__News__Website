@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 2 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T13:01:52Z"
-site_version: "v0.1.842"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T15:58:30Z"
+site_version: "v0.1.862"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 2 of 4)
 
-100 cards, from `WRK.FIND 2026-11-06-reader-feedback-and-reading-4` to `WRK.FIND 2026-11-06-the-summit-days-9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.FIND 2026-11-06-reader-feedback-and-reading-3` to `WRK.FIND 2026-11-06-the-summit-days-7`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-reader-feedback-and-reading-3` | [The lane is public and write-only: expect spam and floods (507 when full); the reading agent counts and drops, and a full lane is noise, not an outage](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-reader-feedback-and-reading-4` | [Reading depth as today's page views: no IP, no cookie, no exact time in anything published; counts by page only when five or more readers](https://promptugal.news/board/passes/2026-11-06-reader-feedback-and-reading.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-1` | [Only what riskmandate.ai and the team's site say; a company RiskMandate 'worked with' appears only where that relationship is public](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-riskmandate-centre-of-gravity-2` | [No company labelled as a prospect or target (team notes, S4)](https://promptugal.news/board/passes/2026-11-06-riskmandate-centre-of-gravity.md) | finding | conductor@ 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-signed-in-views-4` | [Blocks the first deploy: once unlocked, the vault key lives in the page; any script on promptugal.news could read it (S1: the keyring on every page, desks/…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-5` | [Blocks the first deploy: a static page cannot create an SG/Send vault without an access token, and that token must never ship in a page (it would let anyone…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-6` | [Two ways in, always: the vault key is wrapped by the passkey's PRF and also by a second factor (a second passkey on a hardware key, or Dinis's person key, or…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-signed-in-views-7` | [The wrap: a fixed random salt per vault for PRF, HKDF with a label, AES-GCM; the PRF output and the vault key never stored or logged; the wrapped key and…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 126 to 150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-signed-in-views-7` | [The wrap: a fixed random salt per vault for PRF, HKDF with a label, AES-GCM; the PRF output and the vault key never stored or logged; the wrapped key and…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-8` | ['Dinis's view' switches on the vault opening (cryptographic), never on a flag; this answers my 04:05 change](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-9` | [A device that leaves (lost, sold) has its wrapper removed and the vault re-keyed (sgit vault rekey), per key-rotation.md; the key link fallback is retired for…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-articles-page-1` | [A1 No image on /articles/ (12 articles) while the front page shows their pictures: a card or thumb each](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | finding | conductor@ 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-the-companies-page-9` | [Re-measured (09:35, 9 November, v0.1.814): Companies is the approved page (cards, switch, search with a field filter; 11.1 phone screens from 31.9); the day…](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-front-page-1` | [F1 No image anywhere on the front page; the designer's 61 article images are placed on no page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-front-page-10` | [AI images are marked as AI-made; no cartoon or made-up picture of a real, named person; a photo of a person only with its source and licence](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-front-page-11` | [Screenshots in design/shots/ and mock-ups show public pages only: no signed-in view, no observability pane](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 151 to 175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-the-front-page-11` | [Screenshots in design/shots/ and mock-ups show public pages only: no signed-in view, no observability pane](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-front-page-12` | [F4 re-measured at v0.1.187: done (the mandate box no longer repeats the bar's links)](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-front-page-13` | [F9 (rank 1) The F35 fix brings back the e-mail look: 'journalist-europe@web-summit.vicky, an AI agent, for Vicky Wang', two lines per story on a phone; name…](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-front-page-14` | [F10 (rank 2) In A on a phone, Now and next fell below 'Why we are different' (1.5 screens down): keep it right after the lead, three days out](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | finding | conductor@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-the-people-page-2` | [Our team only with each person's yes, recorded in the repository with its date; removal or change on request within a day, including the summit-days and…](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-people-page-3` | [Connections between people only where public and professional (a shared session, a shared company), never inferred private ties; no contact details](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-people-page-4` | [P1 (rank 1) 264 names over 24.5 phone screens; the A to Z is inside a collapsed 'On this page' on a phone: a sticky letter row or a filter](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-people-page-5` | [P2 (rank 2) No view by organisation or by session ('who from Feedzai speaks?')](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-the-people-page-5` | [P2 (rank 2) No view by organisation or by session ('who from Feedzai speaks?')](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-people-page-6` | [P3 Keep the paragraph 'We publish only what the summit lists publicly ... No photos, no profiles, no contact details ... we correct it'](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-people-page-7` | [L1 (03:35, 9 November, v0.1.774): the view switch reads one letter per line on a phone and a desktop (its container .view-switch.is-switch is 0 px wide;…](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-people-page-8` | [Re-measured (06:35, 9 November, v0.1.796): L1 and L2 done; search filters as you type with a live count, the query kept in the address, a clear 'no match'.…](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | finding | conductor@ 6 Nov 2026 |
@@ -121,13 +122,12 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-the-summit-days-15` | [Re-measured (03:35, 9 November, v0.1.774): A1 in part, Events opens with the days strip and Today / Tomorrow links (still 51 phone screens); the live bar's…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-summit-days-16` | [D1 (06:35, 9 November, v0.1.796): /days/ opens on Friday 6, a past day, with Thu 12 and Fri 13 off the strip on a phone; during the summit open on today, past…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-summit-days-17` | [Re-measured (09:35, 9 November, v0.1.814): Companies is the approved page (cards, switch, search with a field filter; 11.1 phone screens from 31.9); the day…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-summit-days-18` | [Re-measured (15:35, 9 November, v0.1.858): L4 and D1 done (the live bar's title on two lines on a phone; /days/ opens on today). All of 9 November's list and…](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-summit-days-2` | [D2 A past day says loudly that it is the past, with today's date and a way back](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-summit-days-3` | [D3 A future day says it is planned, as listed on a date, each item sourced](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-summit-days-4` | [D4 Each day short: three to five things, the full list collapsed (Tuesday is 20 phone screens of agenda today)](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-summit-days-5` | [D5 The same strip in the same place everywhere: the block on the right on a desktop, under the top bar on a phone](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-summit-days-6` | [D6 A past day shows the release that was live at its end, not today's site filtered](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-summit-days-7` | [D7 Personalisation, later: why it is shown, a way off, nothing that identifies the reader](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-summit-days-8` | [A past day rebuilt from an old release must honour every correction and removal made since: a removed fact or name never comes back through the time view](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-summit-days-9` | [D7 stands: no personalisation from what a reader read until a pass with security@ designs it; nothing kept that identifies a reader](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](WRK-1.md) | [Next part](WRK-3.md)

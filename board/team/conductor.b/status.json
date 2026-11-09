@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "account B: the summit set (6, since 02:38) plus the six added at 02:50 (since 03:08) are on; still paused: investors@, investors.packs@, researcher@, devops@, synthetic@, designer.experiments@, dev.search@, outreach@, backup@, customers@, historian@, xray@",
- "updated": "2026-11-09T15:22Z",
+ "updated": "2026-11-09T15:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -73,11 +73,11 @@
   "06:13 wake: all twelve ran since switching on (dev 13 commits; journalist, correspondent, designer, sherpa, librarian, ontologist on dev; dev.pages, dev.graphs, dev.data, dev.portugal, dev.verify on their work branches); inbox empty; ledger 2026-11-09T0616Z.json",
   "09:08 wake: all twelve still waking and committing; dev.graphs@ and dev.portugal@ found nothing new at 08:17 and 08:23; dev.verify@ idle at 1.19 USD OpenRouter credit; inbox empty; ledger 2026-11-09T0912Z.json",
   "12:13 wake: twelve running (dev 12 commits since 09:12); read board/the-conductors.md (Dinis 10:45: one main conductor, focused ones; M-iPad to the iOS conductor on B; conductor.b@ relays to it) and the 10:55, 11:10, 11:25 guidance; relayed all four to conductor@ios.PrompTugal.dinis's session (session_01Kw9UwE9gAjjqZsaGvxpotd); inbox: 1 held (unregistered signer); ledger 2026-11-09T1220Z.json",
-  "15:10 wake: moved my wake to hourly at :48 (the conductors' rota, Dinis 14:05; board/the-conductors.md) with the watch in its prompt; first watch line in board/conductor-watch.json; twelve agents running; dev.verify@ at 0.90 USD credit; inbox 2 held (unregistered signer)"
+  "15:10 wake: moved my wake to hourly at :48 (the conductors' rota, Dinis 14:05; board/the-conductors.md) with the watch in its prompt; first watch line in board/conductor-watch.json; twelve agents running; dev.verify@ at 0.90 USD credit; inbox 2 held (unregistered signer)",
+  "15:48 wake: the watch (iOS dev moved; slot unheld, with Dinis in brief 37); account B running; inbox 1 held"
  ],
  "next": [
-  "15:48 wake: the watch, then account B",
-  "relay the rota to the iOS conductor once it is clear which session that is"
+  "16:48 wake (ledger at 18:48)"
  ],
  "asks": [
   "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",

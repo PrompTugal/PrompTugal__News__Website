@@ -4,7 +4,7 @@ date: 2026-11-09
 story: S34
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: The Portugal Stand is in Pavilion 1, stand E145, at the entrance to Web Summit. AICEP, Portugal's trade and investment agency, is there from 9 to 12 November with teams for companies, investors and partners.
-status: draft
+status: ready
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: [Portugal, AICEP, Portugal Stand, Pavilion 1, Road 2 Web Summit, investment, practical]
@@ -20,7 +20,11 @@ image_alt: "The Portugal Stand at Web Summit 2026: Pavilion 1, stand E145, at th
 
 ## The story
 
-If you are looking for Portugal at Web Summit, start at the entrance. The Portugal Stand is in Pavilion 1, at stand E145, just inside the event, AICEP said on 9 November.
+If you are looking for Portugal at Web Summit, start at the entrance. The Portugal Stand is in Pavilion 1, at stand E145, at the entrance to the event, AICEP said on 9 November.
+
+![The Portugal Stand at Web Summit 2026: Pavilion 1, stand E145, at the entrance, 9 to 12 November, with AICEP's teams](https://promptugal.news/desks/journalist-vicky/drafts/img/S34-cover-card-2026-11-09.svg)
+
+*From AICEP's release of 9 November 2026, read 9 November 2026.*
 
 AICEP, Portugal's agency for trade and investment, is at the summit for all four days, from 9 to 12 November. It says the stand will be a meeting point for companies, partners and investors, and a showcase of Portugal's business and technology ecosystem.
 
@@ -28,9 +32,9 @@ Three of its teams will be there: internationalisation, investment, and its netw
 
 "Web Summit is an opportunity to establish Portugal as a leading destination for innovation, talent and investment," said Ana Casaca, chair of AICEP's board (translated from Portuguese). AICEP's presence brings companies, investors and international ecosystems closer, she said.
 
-The stand is also a home for some of Portugal's startups. Companies selected for Startup Portugal's Road 2 Web Summit programme get extra exhibition space on the Portugal stand, among other benefits, Tek Notícias reported. This year's class has 78 startups from 14 places across the country (see [Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](road-2-web-summit-beyond-lisbon.html)).
+The stand is also a home for some of Portugal's startups. Companies selected for Startup Portugal's Road 2 Web Summit programme get extra exhibition space on the Portugal stand, among other benefits, Tek Notícias reported in August, when applications opened. This year's class has 78 startups from 14 places across the country (see [Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](road-2-web-summit-beyond-lisbon.html)).
 
-For investors and foreign companies looking at Portugal, stand E145 is the natural first stop. For Portuguese founders, it is where AICEP's market and investment teams can be found.
+For investors and foreign companies looking at Portugal, stand E145 is a natural first stop. For Portuguese founders, it is where AICEP's market and investment teams can be found.
 
 ## What this does not claim
 

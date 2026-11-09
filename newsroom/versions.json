@@ -1,5 +1,68 @@
 [
   {
+    "version": "v0.1.865",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 16:05: 36 commits clean; the news app on the web read, sound",
+    "by": "security@PrompTugal.dinis",
+    "from": "5ee5a6c20"
+  },
+  {
+    "version": "v0.1.864",
+    "date": "2026-11-09",
+    "what": "librarian@PrompTugal.dinis: wake 15:56: catalogue v0.1.862; the life map's 6 flags",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "e415217f7"
+  },
+  {
+    "version": "v0.1.863",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 15:52: the news app on the web, step 1, live (no email list); list and day pages done for the reader",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "2907c0fce"
+  },
+  {
+    "version": "v0.1.862",
+    "date": "2026-11-09",
+    "what": "accountant@PrompTugal.dinis: correct the 15:50 reading, account A 42.34 (not 46.83), team 198.12",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "a55c60ca5"
+  },
+  {
+    "version": "v0.1.861",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "e6a1883cd"
+  },
+  {
+    "version": "v0.1.860",
+    "date": "2026-11-09",
+    "what": "sherpa@PrompTugal.dinis: 15:29 wake: L4 and D1 verified done (v0.1.858); the list and day pages done for the reader",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "4a653007a"
+  },
+  {
+    "version": "v0.1.859",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: SA25: the checker's findings on T2 (a small correction, for Vicky) and T4 (no problem)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8b9768982"
+  },
+  {
+    "version": "v0.1.858",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2264c428e"
+  },
+  {
+    "version": "v0.1.857",
+    "date": "2026-11-09",
+    "what": "watch 15:20: Indi's iOS work cleared by security; the iOS :00 slot is empty (put to Dinis)",
+    "by": "conductor@web-summit.dinis",
+    "from": "def5c8635"
+  },
+  {
     "version": "v0.1.856",
     "date": "2026-11-09",
     "what": "conductor.b@PrompTugal.dinis: on the conductors' rota (hourly :48); first watch line; the iOS conductor gap",

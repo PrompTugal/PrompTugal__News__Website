@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "BR3",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Rio de Janeiro takes ten startups to a mission at Web Summit Lisboa 2026 (9 to 12 November).",
+      "kind": "fact",
+      "source": "startups-2026-09-18-invest-rio",
+      "quote": "O Rio de Janeiro vai levar 10 startups cariocas para uma missão no Web Summit Lisboa 2026, que acontece entre os dias 9 e 12 de novembro",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:invest-rio",
+        "organisation:maravalley",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "It is the mission's second year; the year before it also took ten startups.",
+      "kind": "fact",
+      "source": "startups-2026-09-18-invest-rio",
+      "quote": "Esse é o segundo ano da missão, que no ano passado também havia levado 10 startups para o evento",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:invest-rio",
+        "organisation:maravalley"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "In June 2026 Maravalley also ran a mission to VivaTech in Paris.",
+      "kind": "fact",
+      "source": "startups-2026-09-18-invest-rio",
+      "quote": "Em junho deste ano, o Maravalley também realizou uma missão para o VivaTech em Paris",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:maravalley"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "Invest.Rio signed a partnership with the airline Gol to support the mission.",
+      "kind": "fact",
+      "source": "startups-2026-10-26-gol",
+      "quote": "A Invest.Rio firmou uma parceria com a Gol Linhas Aéreas para apoiar a missão",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:invest-rio",
+        "organisation:gol"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "Gol, as the mission's official airline, provides tickets for the ten selected startups.",
+      "kind": "fact",
+      "source": "startups-2026-10-26-gol",
+      "quote": "Como companhia aérea oficial da Missão Web Summit Lisboa 2026, a Gol vai disponibilizar passagens para as 10 startups selecionadas para a viagem",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:gol",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "From 24 November Gol offers five flights a week on its Rio to Lisbon route, which it opened a few weeks before the report.",
+      "kind": "fact",
+      "source": "startups-2026-10-26-gol",
+      "quote": "A partir de 24 de novembro, a companhia também passa a oferecer cinco voos semanais nessa rota",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:gol"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "Gol's chief information officer, Luiz Borrego, said in a note that Rio de Janeiro is a strategic international hub for the airline.",
+      "kind": "fact",
+      "source": "startups-2026-10-26-gol",
+      "quote": "O Rio de Janeiro é um hub internacional estratégico para a Gol",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:gol"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "Correio da Manha dates the event 8 to 12 November, where Web Summit and the other two sources say 9 to 12.",
+      "kind": "fact",
+      "source": "correio-2026-10-25-invest-rio",
+      "quote": "entre os dias 8 e 12 de novembro",
+      "read_on": "2026-11-09",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "Correio da Manha reports that Invest.Rio signed an unprecedented partnership with Gol to support the Missao Web Summit Lisboa 2026.",
+      "kind": "fact",
+      "source": "correio-2026-10-25-invest-rio",
+      "quote": "firmou uma parceria inédita com a Gol Linhas Aéreas para apoiar a Missão Web Summit Lisboa 2026",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:invest-rio",
+        "organisation:gol"
+      ]
+    }
+  ]
+}
