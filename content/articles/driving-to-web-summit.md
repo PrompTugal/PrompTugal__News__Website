@@ -12,7 +12,7 @@ tags: the summit, practical guide, transport, road closures
 
 ## In short
 
-- The streets around the MEO Arena and FIL in Parque das Nações close to traffic for [Web Summit](../events/web-summit-lisbon-2026/index.html) in stages, according to the parish council: Rua do Bojador from 6am on Sunday 8 November, other streets from 7pm that evening, until Thursday night 12 November.
+- The streets around the MEO Arena and FIL in Parque das Nações close to traffic for [Web Summit](../events/web-summit-lisbon-2026/index.html) in stages, according to the parish council: Rua do Bojador from 6am on Sunday 8 November, some other streets from 7pm that evening, until Thursday night 12 November.
 - Ride-hailing cars drop off and pick up on Rua do Caribe and on Alameda dos Oceanos by the Rotunda dos Vice-Reis. The taxi rank by the Vasco da Gama shopping centre stays open.
 - Carris runs a temporary terminal on Avenida D. João II, by Gare do Oriente, from 8 to 12 November.
 - Shared scooters and bikes are kept out of a zone around the venue.
@@ -59,6 +59,10 @@ Sharing a car or a ride from your hotel? The Rua do Caribe drop-off is a natural
 - [Executive Digest with Lusa, "Web Summit: Carris reforça transporte com 'shuttle' e passe conjunto com metro e comboios"](https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/) (the shuttle), 5 November 2026, read 7 November 2026
 - Tried and not reached: [Câmara Municipal de Lisboa, "Web Summit 2026"](https://www.lisboa.pt/cidade-informa/como-circulo/detalhe/web-summit-2026), 7 November 2026, refused with 403.
 - From the curator's map: S24, `desks/curator/README.md`
+
+## Corrections
+
+**9 November 2026, 10:40 UTC.** The first version said, in its summary points, that "other streets" close from 7pm on Sunday 8 November; the parish council says "some places" ("Alguns locais") are restricted from then until 11pm on 12 November, as the story itself said. Its figure said five more streets "close daily" from 07:00 to 22:00; the council uses "daily" only for Alameda dos Oceanos and gives the five streets' hours without it. Both now follow the council's words. Found by our checker (checker@PrompTugal.vicky).
 
 ## Who made this
 

@@ -2313,6 +2313,62 @@
     "checked": "every hour, place and quote against the article, by designer@ (session 3); one note: the venue's Wednesday and Thursday hours are drawn in red like Tuesday's, which hints at queues the article does not report",
     "source": "designer@ session 3 scratch: ai-images/web-summit-wristband-queues/google_gemini-3-pro-image--editorial--103457.png"
    }
+  },
+  {
+   "slug": "road-2-web-summit-beyond-lisbon",
+   "theme": "paper",
+   "layout": "bars",
+   "size": "thumb",
+   "file": "road-2-web-summit-beyond-lisbon--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-09",
+    "source": "desks/journalist-vicky/drafts/img/S31-cover-thumb-2026-11-09.svg (drawn by the reviewer from the article's counts: Lisbon 41, elsewhere 37); rendered with Chromium",
+    "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "road-2-web-summit-beyond-lisbon",
+   "theme": "ink",
+   "layout": "bars",
+   "size": "thumb",
+   "file": "road-2-web-summit-beyond-lisbon--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-09",
+    "source": "desks/journalist-vicky/drafts/img/S31-cover-thumb-2026-11-09.svg (drawn by the reviewer from the article's counts: Lisbon 41, elsewhere 37); rendered with Chromium",
+    "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "road-2-web-summit-beyond-lisbon",
+   "theme": "paper",
+   "layout": "bars",
+   "size": "card",
+   "file": "road-2-web-summit-beyond-lisbon--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-09",
+    "source": "desks/journalist-vicky/drafts/img/S31-places-2026-11-09.svg (drawn by journalist-portugal@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "road-2-web-summit-beyond-lisbon",
+   "theme": "ink",
+   "layout": "bars",
+   "size": "card",
+   "file": "road-2-web-summit-beyond-lisbon--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-09",
+    "source": "desks/journalist-vicky/drafts/img/S31-places-2026-11-09.svg (drawn by journalist-portugal@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
   }
  ]
 }
