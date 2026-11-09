@@ -250,6 +250,16 @@
       "PrompTugal__App__iOS": "d2e1160a",
       "PrompTugal__App__Mobile": "74332868",
       "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-09T22:03Z",
+      "SGit-AI__Website__Web-Summit": "1c31e45d",
+      "PrompTugal__News__Website": "349b789d",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "39677c22",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS: clash fixes + busy/free + split my time on TestFlight internal (0.4.51, build 232, all three apps). Venue map + where-I-need-to-be on dev (1bb8552, run 439 green), M-iPad stage B prep on dev (c9cd56d); release #134 (v0.4.53) queued. Languages (21 cultures, globe, en-GB default, knownRegions): one full run on split/design 1f24e39 (run 438) in progress, merged on green. Public TestFlight link serves 0.4.24 (205), approved 20:48. App Store 0.4.24 WAITING_FOR_REVIEW. macOS runner queue is the bottleneck (jobs wait 30-60 min). iOS main unchanged: no security pass seen for a newer SHA."
     }
   ]
 }
