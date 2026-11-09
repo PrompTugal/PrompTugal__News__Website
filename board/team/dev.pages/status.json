@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "idle: all my work is on dev; designer@ and sherpa@ pass the list pages and the days",
-  "updated": "2026-11-09T10:12Z",
+  "state": "working: /events/ as the week overview (conductor brief 5, designer@): 40 to 12 phone screens",
+  "updated": "2026-11-09T11:19Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -25,12 +25,12 @@
     "Wake 07:11: designer@'s D3: on a day's five-things view the rest is folded under 'Everything else today (N)' (assets/days/days.js, a heading button; shown in full without script); D4: when the correspondent has not picked, the page says the five are picked by the morning (words in data/site/list-views.json days_page); tested on a summit day, desktop and phone",
     "Wake 08:11: designer@'s D5: a town's region after its name on every schedule line ('Lagos, Algarve'), from the place data's located_in (lib/present.mjs regionOf); nothing added for stages, Lisbon venues or countries; gate green at v0.1.805",
     "Wake 09:11: merged dev (status.json conflict kept mine), gate green at v0.1.813; designer@: L1 to L6 pass on companies, people and articles; my D3, D4, D5 commits still wait for dev@",
-    "Wake 10:11: merged dev (clean), gate green at v0.1.818; dev@ brought D3 to D5 (v0.1.814); sherpa@ re-measured Companies and the day pages: pass; nothing addressed to me"
+    "Wake 10:11: merged dev (clean), gate green at v0.1.818; dev@ brought D3 to D5 (v0.1.814); sherpa@ re-measured Companies and the day pages: pass; nothing addressed to me",
+    "Wake 11:11: /events/ length (conductor's brief of 10:52, designer@'s 10:48 check: 40 phone screens): on each day of the strip the top 3 by rank (official list and other events), then 'All N on <day>' to the day page; 12.1 phone screens, 8.0 desktop (was about 40 and 28); other dates (earlier years) still list in full"
   ],
   "next": [
-    "D6 past days as they were: waits on S3 (security@'s review of removals)",
-    "People to company/session connections; logos and photos (data and licence)",
-    "Fix what designer@ finds on the days"
+    "Fold the earlier-year dates on /events/ (2024, 2025) and Past editions if designer@ wants fewer than 12 screens",
+    "designer@ re-check of /events/"
   ],
   "asks": [
     "Dinis: none."
