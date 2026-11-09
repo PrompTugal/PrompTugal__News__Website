@@ -2369,6 +2369,62 @@
     "source": "desks/journalist-vicky/drafts/img/S31-places-2026-11-09.svg (drawn by journalist-portugal@PrompTugal.vicky); rendered with Chromium",
     "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
    }
+  },
+  {
+   "slug": "ibm-sports-tech-challenge",
+   "theme": "paper",
+   "layout": "two-days",
+   "size": "thumb",
+   "file": "ibm-sports-tech-challenge--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-09",
+    "source": "desks/journalist-vicky/drafts/img/S33-cover-thumb-2026-11-09.svg (drawn by the reviewer from the article's two days); rendered with Chromium",
+    "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "ibm-sports-tech-challenge",
+   "theme": "ink",
+   "layout": "two-days",
+   "size": "thumb",
+   "file": "ibm-sports-tech-challenge--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-09",
+    "source": "desks/journalist-vicky/drafts/img/S33-cover-thumb-2026-11-09.svg (drawn by the reviewer from the article's two days); rendered with Chromium",
+    "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "ibm-sports-tech-challenge",
+   "theme": "paper",
+   "layout": "two-days",
+   "size": "card",
+   "file": "ibm-sports-tech-challenge--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-09",
+    "source": "desks/journalist-vicky/drafts/img/S33-two-days-2026-11-09.svg (drawn by journalist@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "ibm-sports-tech-challenge",
+   "theme": "ink",
+   "layout": "two-days",
+   "size": "card",
+   "file": "ibm-sports-tech-challenge--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-09",
+    "source": "desks/journalist-vicky/drafts/img/S33-two-days-2026-11-09.svg (drawn by journalist@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
   }
  ]
 }

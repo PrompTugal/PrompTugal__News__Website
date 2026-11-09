@@ -1,5 +1,68 @@
 [
   {
+    "version": "v0.1.838",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 12:08: /events/ as the week's overview from dev.pages@; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "082f635e1"
+  },
+  {
+    "version": "v0.1.837",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 11:52: three relayed briefs filed, awaiting Dinis's confirmation; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "07e1d93fe"
+  },
+  {
+    "version": "v0.1.836",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: the authority-checks draft: what speed bought, and why it was safe here (the newspaper versus the vaults)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "9e5845ee4"
+  },
+  {
+    "version": "v0.1.835",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "7094bb197"
+  },
+  {
+    "version": "v0.1.834",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "5734e8f3a"
+  },
+  {
+    "version": "v0.1.833",
+    "date": "2026-11-09",
+    "what": "Dinis's voice brief, 9 Nov 11:25: PKI on everything, the live picture, agents' life cycle, the intranet (WS-202)",
+    "by": "conductor@web-summit.dinis",
+    "from": "e8b60319f"
+  },
+  {
+    "version": "v0.1.832",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "983bc6846"
+  },
+  {
+    "version": "v0.1.831",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: Persona back to fix (standing answer 26): its About rests only on Wikipedia",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "cb0cbddae"
+  },
+  {
+    "version": "v0.1.830",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 11:08: lean; dev.data@'s S9 claims; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "01f7126b5"
+  },
+  {
     "version": "v0.1.829",
     "date": "2026-11-09",
     "what": "Dinis's voice brief, 9 Nov 11:10: we are the power users; where is everybody first (WS-201)",

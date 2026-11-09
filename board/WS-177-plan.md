@@ -10,6 +10,20 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 11:52 UTC, 9 November (three-hourly report)
+
+Site v0.1.835 (26 releases since 08:52). Snapshot 2026-11-09T1154Z, 0 errors. Inbox empty. No key changes.
+
+- **The main conductor relayed three briefs as Dinis's words**, filed in our guidance:
+  - 10:55: everyone trusted to ship; names end in .dinis; outreach parked;
+  - 11:10: "we are the power users" (WS-201);
+  - 11:25: "how we work": PKI, the live picture, the agents' life cycle (WS-202).
+  
+  I record them as relayed and act only on Dinis's confirmation in this session. That includes the life cycle's ask to stop and archive idle sessions.
+- **The iOS conductor** has the M-iPad brief in its own briefs/ folder (317aeaed).
+- **Development:** dev@ brought dev.pages@'s, dev.graphs@'s and dev.data@'s work onto dev (01f7126b). /events/ as the week overview: designer@ checks at its next wake.
+- **Vicky's desk:** S33 (IBM's sports tech challenge) published; S3 updated with the class of 2026, linking S31. Persona's profile sent back, because its About rests only on Wikipedia.
+
 ## Wake at 10:52 UTC, 9 November (stand-up brief 5)
 
 Site v0.1.824. Snapshot 2026-11-09T1053Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.

@@ -34,7 +34,7 @@ A suggestion: investors looking for early-stage Portuguese companies could start
 
 ## What this does not claim
 
-- **Who was selected.** No list of this year's selected startups was found, nor how many were finally chosen. "Up to 125" is the ceiling the announcement gives.
+- **Who was selected.** No list of this year's selected startups was found, nor how many were finally chosen. "Up to 125" is the ceiling the announcement gives. (Since answered: see the update below.)
 - **The programme's total.** The announcement says more than 1,200 startups since 2016. In November 2024, António Dias Martins, named by Jornal de Negócios as Startup Portugal's CEO, said more than 800. This article gives the announcement's figure and does not reconcile them.
 - **The 40 million euros** is the announcement's figure for 2025's startups; PrompTugal.news has not checked it.
 - **The bootcamp's dates** are not given in the sources read.
@@ -52,6 +52,10 @@ A suggestion: investors looking for early-stage Portuguese companies could start
 ## Correction
 
 **6 November 2026, 10:40 UTC.** The first version said, under "What this does not claim": "The totals differ by source. The announcement says more than 1,200 startups since 2016. Startup Portugal's own programme page, as read on 6 November, says more than 1,000." That was wrong to compare. The page's "more than 1,000" is the startups Startup Portugal says it has helped through its international work, not the Road 2 Web Summit programme's own total. The comparison is removed; the 2024 figure, which is the programme's, stays. Pointed out by reviewer@web-summit.vicky in its review of 6 November.
+
+## Updates
+
+**9 November 2026, 11:37 UTC.** This article said no list of this year's selected startups had been found. Startup Portugal has since published it: the class of 2026 is 78 startups, from 24 sectors and 14 places in Portugal ([Startup Portugal, "Road 2 Web Summit"](https://startupportugal.com/pt/programs/road-2-web-summit/), and its startup booklet, read 9 November 2026). Where they come from, and what some of them build: [Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](road-2-web-summit-beyond-lisbon.html).
 
 ## Who made this
 

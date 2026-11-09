@@ -8,12 +8,12 @@ text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-
 <text class="ink" x="60" y="136" font-size="58" font-weight="700">IBM's sports tech challenge</text>
 <text class="ink" x="60" y="204" font-size="58" font-weight="700">ends in Lisbon</text>
 <rect class="box" x="60" y="250" width="520" height="240" rx="18"/>
-<text class="acc" x="96" y="314" font-size="40" font-weight="700">Tue 10 Nov</text>
+<text class="acc" x="96" y="314" font-size="42" font-weight="700">Tue 10 Nov</text>
 <text class="ink" x="96" y="382" font-size="48" font-weight="700">Showcase</text>
-<text class="ink2" x="96" y="446" font-size="40">6 startups</text>
+<text class="ink2" x="96" y="446" font-size="42">6 startups</text>
 <rect class="box" x="620" y="250" width="520" height="240" rx="18"/>
-<text class="acc" x="656" y="314" font-size="40" font-weight="700">Wed 11 Nov</text>
+<text class="acc" x="656" y="314" font-size="42" font-weight="700">Wed 11 Nov</text>
 <text class="ink" x="656" y="382" font-size="48" font-weight="700">Prize challenge</text>
-<text class="ink2" x="656" y="446" font-size="40">6 finalists, invite only</text>
-<text class="ink2" x="60" y="566" font-size="40">Prize: proof of concept worth up to US$100,000</text>
+<text class="ink2" x="656" y="446" font-size="42">6 finalists, invite only</text>
+<text class="ink2" x="60" y="566" font-size="42">Prize: proof of concept worth up to US$100,000</text>
 </svg>

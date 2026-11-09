@@ -4,7 +4,7 @@ date: 2026-11-09
 story: S33
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "IBM's year-long challenge for sports tech startups ends at Web Summit Lisbon: a showcase of six startups on Tuesday 10 November, and an invitation-only prize challenge on Wednesday 11 November."
-status: draft
+status: published
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, sports tech, startups, IBM
@@ -28,7 +28,7 @@ Lisbon hosts the last round, over two days.
 - Proximity Works, which builds real-time intelligence and fan engagement systems;
 - More Rewards, which helps clubs predict fan behaviour and personalise offers;
 - Game Intuit, a scouting platform that predicts how players will perform in a team;
-- N Tangible, which links physical collectibles to ownership records on a blockchain;
+- N Tangible, a tokenisation platform linking physical assets and collectibles to blockchain-based ownership;
 - Valarita Sports, which helps people find local sport and fitness events.
 
 Sameer Patel of FIFA and Jose Chieira of TalentAlert.App are among the judges. IBM says the showcase gives no advantage in the prize challenge.
@@ -37,7 +37,7 @@ Sameer Patel of FIFA and Jose Chieira of TalentAlert.App are among the judges. I
 
 The judges include Sarah Meron, IBM's Chief Communications and Brand Officer, and Marc Gené, Ferrari Ambassador for Scuderia Ferrari HP, with CNN's Brad Smith moderating, according to IBM.
 
-Interested in AI for sport? Tuesday's showcase is the open part of the challenge, and a chance to meet the founders who are building it.
+Interested in AI for sport? On Tuesday the six startups present on stage before the Web Summit audience, IBM says.
 
 ![IBM's sports tech challenge ends in Lisbon: a showcase of six startups on Tuesday 10 November, and an invitation-only prize challenge with six finalists on Wednesday 11 November](https://promptugal.news/desks/journalist-vicky/drafts/img/S33-two-days-2026-11-09.svg)
 
