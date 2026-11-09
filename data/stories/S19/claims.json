@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S19",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "ApexBrasil announced on 4 November that about 200 Brazilian companies take part in Web Summit Lisboa to seek investment and business in Europe.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-04-200-companies",
+      "quote": "Cerca de 200 empresas brasileiras vão participar na Web Summit Lisboa para tentar captar investimento e procurar oportunidades de negócio no mercado europeu, anunciou hoje a Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil).",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "From 8 to 13 November the mission led by ApexBrasil with Sebrae Startups brings companies from every region and representatives of ten Brazilian technology parks.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-04-200-companies",
+      "quote": "Entre 08 e 13 de novembro, a missão liderada pela ApexBrasil, em parceria com o Sebrae Startups, reúne empresas de todas as regiões do país e representantes de dez parques tecnológicos brasileiros",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "The Brazilian presence centres on a 324 square metre pavilion in the MEO Arena, with a programme from 10 to 12 November.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-04-200-companies",
+      "quote": "A presença brasileira terá como centro um pavilhão de 324 metros quadrados na MEO Arena, com programação entre 10 e 12 de novembro.",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "According to the organisers, Brazilian companies raised about 700 million dollars at earlier editions through contacts begun at the event (a figure reported, not checked at its source).",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-04-200-companies",
+      "quote": "empresas brasileiras captaram cerca de 700 milhões de dólares (623 milhões de euros) nas edições anteriores",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:apexbrasil"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "The Porto edtech startup Intuitivo raised 1.35 million euro in seed funding to expand into Brazil.",
+      "kind": "fact",
+      "source": "portugalstartupnews-2026-10-23-intuitivo",
+      "quote": "Portuguese edtech startup Intuitivo has raised €1.35 million in seed funding to expand into Brazil",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:intuitivo"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "The round was led by Caixa Capital and the Impact Innovation Fund, managed by 3xP Global.",
+      "kind": "fact",
+      "source": "portugalstartupnews-2026-10-23-intuitivo",
+      "quote": "the funding round was led by Caixa Capital and the Impact Innovation Fund, managed by 3xP Global",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:intuitivo"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "Intuitivo's platform counts 75,000 registered teachers, in more than 500 schools in Portugal.",
+      "kind": "fact",
+      "source": "portugalstartupnews-2026-10-23-intuitivo",
+      "quote": "The platform now counts 75,000 registered teachers.",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:intuitivo"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "Intuitivo estimates a potential market in Brazil of 2.2 million teachers, around 12 times the Portuguese market.",
+      "kind": "fact",
+      "source": "portugalstartupnews-2026-10-23-intuitivo",
+      "quote": "a potential market of 2.2 million teachers, around 12 times the Portuguese market",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:intuitivo"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "Intuitivo already has a team in Brazil and some teachers there using its platform.",
+      "kind": "fact",
+      "source": "portugalstartupnews-2026-10-23-intuitivo",
+      "quote": "The company already has a team on the ground and some teachers in Brazil using its platform.",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:intuitivo"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "Intuitivo won the PITCH competition at Web Summit in 2024.",
+      "kind": "fact",
+      "source": "portugalstartupnews-2026-10-23-intuitivo",
+      "quote": "won the PITCH competition at Web Summit in 2024",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:intuitivo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "S19",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-09",
+  "events": [
+    {
+      "at": "2026-10-23",
+      "what": "Intuitivo, a Porto edtech startup, announces a 1.35m euro seed round to expand into Brazil.",
+      "kind": "announcement",
+      "about": [
+        "organisation:intuitivo"
+      ],
+      "source": "portugalstartupnews-2026-10-23-intuitivo",
+      "claim": [
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "at": "2026-11-04",
+      "what": "ApexBrasil announces that about 200 Brazilian companies will take part in Web Summit Lisboa, with a 324 square metre pavilion in the MEO Arena.",
+      "kind": "announcement",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "executivedigest-2026-11-04-200-companies",
+      "claim": [
+        "c01",
+        "c03"
+      ]
+    }
+  ]
+}
