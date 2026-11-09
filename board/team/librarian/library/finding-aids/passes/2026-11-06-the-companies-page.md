@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-the-companies-page"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T07:01:02Z"
-site_version: "v0.1.800"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T10:00:30Z"
+site_version: "v0.1.816"
 source: board/catalogue.json
 ---
 
@@ -10,7 +10,7 @@ source: board/catalogue.json
 
 The companies page (board/guidance/2026-11-06-companies-graphs-media-backups.md, section 1): several versions side by side with a switch to pick one (by field, by day, by country, a grid…
 
-Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 8 findings. The pass file: [2026-11-06-the-companies-page](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md).
+Scope note: a **pass** is a focused round of work on one thing, in a fixed order and within a budget. This one: state open, opened 6 Nov 2026, owner conductor@, 9 findings. The pass file: [2026-11-06-the-companies-page](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md).
 
 ## The container list: the findings
 
@@ -24,6 +24,7 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 | 6 | [C4 On a phone the 8 fields are inside a collapsed 'On this page': field chips in the first screen, doubling as the filter](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | designer@ | open (conductor) |
 | 7 | [C5 Name, country, one line per company: keep](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | (keep) | open (conductor) |
 | 8 | [C6 RiskMandate, when added, reads like any other company (same facts, sources, the disclosure link), never ranked or styled apart](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | ontologist@, the journalist, security@ | open (conductor) |
+| 9 | [Re-measured (09:35, 9 November, v0.1.814): Companies is the approved page (cards, switch, search with a field filter; 11.1 phone screens from 31.9); the day…](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | dev.pages@ | D1, L4 open |
 
 ## Cards this pass names
 
@@ -31,6 +32,7 @@ Scope note: a **pass** is a focused round of work on one thing, in a fixed order
 - [Dinis, 6 November 2026, about 05:10 UTC: the companies page, the big graphs (ruv.sgit), media in vaults, backups, and RiskMandate's place](https://promptugal.news/board/guidance/2026-11-06-companies-graphs-media-backups.md) (`GDN.MEMO 2026-11-06-companies-graphs-media-backups`)
 - [Wake of 06:10: 59 commits clean; the hooks run in every agent's session; 16 passes pre-reviewed](https://promptugal.news/board/team/security/reviews/2026-11-06-0610-wake.md) (`TEAM.ROLE 2026-11-06-0610-wake`)
 - [sherpa@'s wake at 06:30 UTC: two re-measures (the top, the synthetic readers page) and two first reviews (the articles page, the companies page)](https://promptugal.news/board/team/sherpa/review-2026-11-06-0630-wake.md) (`RDR.SHERPA review-2026-11-06-0630-wake`)
+- [sherpa@: the list pages and the Agenda, the day before the summit (v0.1.774)](https://promptugal.news/board/team/sherpa/review-2026-11-09-0330-the-list-pages.md) (`RDR.SHERPA review-2026-11-09-0330-the-list-pages`)
 - [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md) (`WRK.PLAN the-passes`)
 
 ## See also

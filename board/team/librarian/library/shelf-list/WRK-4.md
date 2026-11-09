@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 4 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T07:01:02Z"
-site_version: "v0.1.800"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T10:00:30Z"
+site_version: "v0.1.816"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 4 of 4)
 
-17 cards, from `WRK.STORY the-story-projects` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+19 cards, from `WRK.STORY brazil-at-web-summit-2026` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
-**Cards 301 to 317**
+**Cards 301 to 319**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.STORY brazil-at-web-summit-2026` | [Brazil at Web Summit Lisbon 2026](https://promptugal.news/board/projects/brazil-at-web-summit-2026.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.STORY the-story-pipeline` | [The story pipeline: every story on one Kanban board, from idea to published](https://promptugal.news/board/the-story-pipeline.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.STORY the-story-projects` | [Story projects: going deep on one story, with a budget, its own data folder, and work anyone can pick up](https://promptugal.news/board/the-story-projects.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.STORY wikipedia` | [Wikipedia](https://promptugal.news/board/projects/wikipedia.md) | board | ontologist@ 6 Nov 2026 |
 | `WRK.TASK README` | [Tasks anyone can pick up](https://promptugal.news/board/tasks/README.md) | board | conductor@ 6 Nov 2026 |

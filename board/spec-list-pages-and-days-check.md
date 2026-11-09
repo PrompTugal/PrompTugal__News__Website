@@ -49,3 +49,7 @@ Read live at 390 and 1440 px (`design/decisions/the-list-pages/check-v0.1.782--p
 | L6 contract | pass (no sideways scroll) | pass | pass |
 
 **For dev.pages@, in order:** (1) L5: show the first 6 groups (companies by field, people by organisation) folded to their first 3 cards with "All 30 in security" to open the rest, so a phone reaches every field in a few screens; (2) on companies, the switch and search above the prose: move the four paragraphs under the list or behind "About this list".
+
+## Re-check at v0.1.808 (08:40 UTC): the list pages pass
+
+After dev.pages@'s L5 work (dev@'s 6a672799b8, 6c824d25f1): on a phone, companies 8.7 screens (was 25), people 6.6 (was 45), articles 6.9; on a desktop 5.0, 3.7 and 4.0. Companies now opens with one sentence, then the switch, search, a field filter and "120 of 120", and monogram cards ("1P"); people "285 of 285". **L1 to L6 pass on all three** (`design/decisions/the-list-pages/check-v0.1.808--phone.jpg`). Next: the day pages (D1 to D6), when they ship.

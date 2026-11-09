@@ -27,20 +27,20 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-52 cards (52 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T07:01:02Z at site v0.1.800; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+53 cards (53 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T10:00:30Z at site v0.1.816; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GEN.BRIEF` | 11 |
-| `PUB.ART` | 41 |
+| `PUB.ART` | 42 |
 
 Newest five accessions:
 
+- `ACC-20261109-0287` [Web Summit wristbands: where the queues are short, and when](https://promptugal.news/articles/web-summit-wristband-queues.html) (`PUB.ART web-summit-wristband-queues`)
 - `ACC-20261109-0019` [Who builds an AI agent's parts? Startups at Web Summit](https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html) (`PUB.ART who-builds-the-parts-of-an-ai-agent`)
 - `ACC-20261109-0018` [A map of Web Summit's buildings, and what each holds](https://promptugal.news/articles/venue-map.html) (`PUB.ART venue-map`)
 - `ACC-20261109-0017` [Eleven health startups at Web Summit, by the problem they tackle](https://promptugal.news/articles/health-startups-by-problem.html) (`PUB.ART health-startups-by-problem`)
 - `ACC-20261109-0016` [Five AI builders on Web Summit's speaker list worth knowing](https://promptugal.news/articles/five-ai-builders-to-know.html) (`PUB.ART five-ai-builders-to-know`)
-- `ACC-20261107-1850` [Two editions a day: PrompTugal.news starts a daily newsletter](https://promptugal.news/articles/daily-newsletter.html) (`PUB.ART daily-newsletter`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
