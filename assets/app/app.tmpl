@@ -1,0 +1,38 @@
+<!-- The news app on the web (Dinis, 9 November 2026, about 14:40 UTC; board/briefs/2026-11-09-the-app-on-the-web.md):
+     the summit's programme as an app, in the browser, with no store in the way. Step 1: the schedule, picks, clashes,
+     free time and Add to Calendar (.ics). Picks are the site's own ("Add to my day", localStorage nr.schedule.v1), so the
+     app, /my-day/ and the agenda agree. Nothing leaves the browser. Markup and words; filled by
+     newsroom/build/features/app.mjs ({{up}} is the way back to the site's root); behaviour: assets/app/app.js. -->
+<!-- part:page -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The app · PrompTugal.news</title>
+<meta name="description" content="{{summary}}">
+<meta name="theme-color" content="#14213d">
+<link rel="icon" href="{{up}}assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="{{up}}assets/app/app.css">
+<script defer src="{{up}}assets/app/app.js"></script>
+</head>
+<body>
+<div class="pa" id="pt-app" data-up="{{up}}">
+<header class="pa-top">
+<a class="pa-home" href="{{up}}index.html" target="_top"><b>PrompTugal</b><span>.news</span></a>
+<span class="pa-sub">Web Summit Lisbon, 9 to 12 November</span>
+<a class="pa-full" href="{{up}}app/index.html" target="_blank" rel="noopener" data-full>Full screen</a>
+</header>
+<nav class="pa-days" aria-label="Days"></nav>
+<div class="pa-tabs" role="group" aria-label="View"><button type="button" data-tab="all">Programme</button><button type="button" data-tab="mine">My picks</button></div>
+<input class="pa-q" type="search" placeholder="Search a session, a company, a stage" aria-label="Search the programme">
+<main class="pa-list" aria-live="polite"><p class="pa-note">Loading the programme…</p></main>
+<footer class="pa-foot">
+<p><button type="button" class="pa-ics-all" hidden>Add all my picks to my calendar</button></p>
+<p class="pa-small">Your picks stay in this browser; this site never receives them. Times are Lisbon time and can change: check the summit's own schedule. <a href="{{up}}my-day/index.html" target="_top">My day</a> · <a href="{{up}}events/index.html" target="_top">The agenda</a></p>
+</footer>
+</div>
+<script type="application/json" id="pa-words">{"pick":"Add","picked":"Added","clash":"Clashes with","free":"Free","ics":"Calendar","none_mine":"No picks on this day yet. Add sessions from the programme.","none":"Nothing matches on this day.","failed":"The programme did not load. Try again when you are online.","until":"until","all_day":"All day"}</script>
+</body>
+</html>
+<!-- end -->
