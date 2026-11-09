@@ -36,3 +36,7 @@
 .ls-art { align-items: flex-start; } .ls-art .fx-k { margin: 0 0 2px; font: 700 12px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--brand-red); }
 .ls-thumb { flex: none; width: 96px; } .ls-thumb img { width: 96px; height: auto; border: 1px solid var(--hair); display: block; }
 .ls-rows .ls-art h3 { font-size: 20px; }
+/* L5: folded groups */
+.ls-grid:not(.ls-open) > .ls-x, .ls-rows:not(.ls-open) > .ls-x { display: none; }
+.ls-open-btn { font: 600 14px var(--sans); padding: 6px 12px; min-height: 36px; margin: 10px 0 4px; border: 1px solid var(--rule-2); border-radius: 3px; background: var(--panel); color: var(--brand); cursor: pointer; }
+.ls-more { display: block; width: 100%; margin-top: 18px; }

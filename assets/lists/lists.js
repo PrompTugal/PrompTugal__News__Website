@@ -14,6 +14,24 @@
     function head(name, n) { return add(el('h2', null, name + ' '), el('small', null, String(n))) }
     function group(list, k) { var m = {}; list.forEach(function (c) { (m[k(c)] = m[k(c)] || []).push(c) }); return Object.keys(m).map(function (key) { return [key, m[key]] }).sort(function (x, y) { return y[1].length - x[1].length || x[0].localeCompare(y[0]) }) }
     function mono(n) { var h = 0; for (var i = 0; i < n.length; i++) h = (h * 31 + n.charCodeAt(i)) % 3; var m = el('span', 'ls-mono ls-m' + h, n.replace(/[^A-Za-z0-9]/g, '').slice(0, 2)); m.setAttribute('aria-hidden', 'true'); return m }
+    // folded groups (designer@'s L5, board/spec-list-pages-and-days-check.md): the first FIRST cards of each group, "All N in X" to open
+    // the rest, and groups beyond SHOW behind one button; a search or a filter shows every match
+    var FIRST = 3, SHOW = 8
+    function folded() { return !st.q && !st.f }
+    function fgroup(g, cls, make) {
+        var ul = el('ul', cls), n = g[1].length, fold = folded() && n > FIRST + 1
+        g[1].forEach(function (x, i) { var li = make(x); if (fold && i >= FIRST) li.className += ' ls-x'; ul.appendChild(li) })
+        var box = add(el('div'), head(g[0], n), ul)
+        if (fold) { var b = el('button', 'ls-open-btn', 'All ' + n + ' in ' + g[0]); b.type = 'button'; b.setAttribute('aria-expanded', 'false')
+            b.addEventListener('click', function () { var o = ul.classList.toggle('ls-open'); b.setAttribute('aria-expanded', o ? 'true' : 'false'); b.textContent = o ? 'Show fewer' : 'All ' + n + ' in ' + g[0] }); box.appendChild(b) }
+        return box
+    }
+    function fgroups(groups, cls, make, what) {
+        var shown = folded() ? groups.slice(0, SHOW) : groups, more = folded() ? groups.slice(SHOW) : []
+        shown.forEach(function (g) { out.appendChild(fgroup(g, cls, make)) })
+        if (more.length) { var wrap = el('div', 'ls-xg'); wrap.hidden = true; more.forEach(function (g) { wrap.appendChild(fgroup(g, cls, make)) })
+            var b = el('button', 'ls-open-btn ls-more', 'More ' + what + ' (' + more.length + ')'); b.type = 'button'; b.addEventListener('click', function () { wrap.hidden = false; b.hidden = true }); add(out, b, wrap) }
+    }
     function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's') }
 
     var L = {
@@ -24,7 +42,7 @@
             card: function (c) { return add(el('li', 'ls-card'), mono(c.n), add(el('div'), add(el('h3'), a(c.n, c.id + '/index.html')), el('p', null, c.w), el('p', 'ls-meta', c.c + ' · ' + (data.fields[c.f] || c.f)))) },
             draw: function (l, s) {
                 var self = this
-                if (st.v === 'grid') group(l, function (c) { return c.f }).forEach(function (g) { var ul = el('ul', 'ls-grid'); g[1].forEach(function (c) { ul.appendChild(self.card(c)) }); add(out, head(data.fields[g[0]] || g[0], g[1].length), ul) })
+                if (st.v === 'grid') fgroups(group(l, function (c) { return c.f }).map(function (g) { return [data.fields[g[0]] || g[0], g[1]] }), 'ls-grid', function (c) { return self.card(c) }, 'fields')
                 else if (st.v === 'directory') group(l, function (c) { return c.c }).forEach(function (g) { var ul = el('ul', 'ls-dir'); g[1].forEach(function (c) { ul.appendChild(add(el('li'), a(c.n, c.id + '/index.html'), el('span', null, c.w), el('span', 'ls-meta', data.fields[c.f] || c.f))) }); add(out, head(g[0], g[1].length), ul) })
                 else { if (s) l.sort(function (x, y) { return (y.n.toLowerCase().indexOf(s) >= 0) - (x.n.toLowerCase().indexOf(s) >= 0) || x.n.localeCompare(y.n) }); var rows = el('ul', 'ls-rows'); l.forEach(function (c) { rows.appendChild(self.card(c)) }); out.appendChild(rows) }
             },
@@ -38,7 +56,11 @@
             card: function (x) { var th = this.pic(x), body = add(el('div'), el('p', 'fx-k', x.b), add(el('h3'), a(x.t, x.s + '.html')), el('p', null, x.sum), el('p', 'ls-meta', x.by)); var li = el('li', 'ls-card ls-art'); if (th) li.appendChild(add(el('a', 'ls-thumb'), th)), li.firstChild.href = x.s + '.html', li.firstChild.tabIndex = -1; return add(li, body) },
             draw: function (l) {
                 var self = this
-                if (st.v === 'wire') { var ul = el('ul', 'ls-rows'); l.forEach(function (x) { ul.appendChild(self.card(x)) }); out.appendChild(ul) }
+                if (st.v === 'wire') {
+                    var ul = el('ul', 'ls-rows'), fold = folded() && l.length > 14
+                    l.forEach(function (x, i) { var li = self.card(x); if (fold && i >= 12) li.className += ' ls-x'; ul.appendChild(li) }); out.appendChild(ul)
+                    if (fold) { var b = el('button', 'ls-open-btn ls-more', 'All ' + l.length + ' articles'); b.type = 'button'; b.addEventListener('click', function () { ul.classList.add('ls-open'); b.hidden = true }); out.appendChild(b) }
+                }
                 else if (st.v === 'day') { var days = []; l.forEach(function (x) { if (days.indexOf(x.d) < 0) days.push(x.d) }); days.forEach(function (d) { var xs = l.filter(function (x) { return x.d === d }), g = el('ul', 'ls-grid'); xs.forEach(function (x) { g.appendChild(self.card(x)) }); add(out, head(self.dayName(d), xs.length), g) }) }
                 else { var by = {}; l.forEach(function (x) { x.g.filter(function (t) { return !/^the summit$/i.test(t) }).forEach(function (t) { (by[t] = by[t] || []).push(x) }) }); Object.keys(by).map(function (k) { return [k, by[k]] }).sort(function (x, y) { return y[1].length - x[1].length || x[0].localeCompare(y[0]) }).forEach(function (g) { var ul = el('ul', 'ls-rows'); g[1].forEach(function (x) { ul.appendChild(self.card(x)) }); add(out, head(g[0], g[1].length), ul) }) }
             },
@@ -51,10 +73,10 @@
             draw: function (l) {
                 var self = this
                 if (st.v === 'org') {
-                    var gs = group(l, function (p) { return p.o || 'Organisation not listed' }), singles = [], unlisted = null
-                    gs.forEach(function (g) { if (g[0] === 'Organisation not listed') unlisted = g; else if (g[1].length > 1) { var ul = el('ul', 'ls-grid ls-narrow'); g[1].forEach(function (p) { ul.appendChild(self.card(p)) }); add(out, head(g[0], g[1].length), ul) } else singles.push(g[1][0]) })
-                    if (singles.length) { var one = el('ul', 'ls-grid ls-narrow'); singles.forEach(function (p) { one.appendChild(self.card(p)) }); add(out, head('Organisations with one person listed', singles.length), one) }
-                    if (unlisted) { var un = el('ul', 'ls-grid ls-narrow'); unlisted[1].forEach(function (p) { un.appendChild(self.card(p)) }); add(out, head(unlisted[0], unlisted[1].length), un) }
+                    var gs = group(l, function (p) { return p.o || 'Organisation not listed' }), multi = [], singles = [], unlisted = null
+                    gs.forEach(function (g) { if (g[0] === 'Organisation not listed') unlisted = g; else if (g[1].length > 1) multi.push(g); else singles.push(g[1][0]) })
+                    var all = multi.slice(); if (singles.length) all.push(['Organisations with one person listed', singles]); if (unlisted) all.push(unlisted)
+                    fgroups(all, 'ls-grid ls-narrow', function (p) { return self.card(p) }, 'organisations')
                 }
                 else if (st.v === 'session') {
                     var by = {}; l.forEach(function (p) { p.e.forEach(function (e) { (by[e[2]] = by[e[2]] || { t: e[0], w: e[1], id: e[2], p: [] }).p.push(p) }) })
