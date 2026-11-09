@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: designer@'s list-page findings (board/spec-list-pages-and-days-check.md): L5 length and the companies prose, done; days D3 to D5 to check",
-  "updated": "2026-11-09T06:19Z",
+  "state": "working: designer@'s list pages and days check (board/spec-list-pages-and-days-check.md): L5, D3, D4 done; D5 region and the correspondent's pick open",
+  "updated": "2026-11-09T07:21Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -21,10 +21,13 @@
     "Wake 03:11: the people page is a working application too: cards by organisation (organisations with one person together, the unlisted last), By session (who shares a stage, linked to the session), A to Z with letter links, live search with a count (275 of 275); same assets/lists/ (lists.js now serves companies and people); the static views stay without script and in the twin. dev@'s view switch (views.mjs) rendered vertical buttons and an empty filter box on /people/ in this build; the application replaces it for script users",
     "Wake 04:11: the articles page is a working application: the wire (default, per Dinis's 13:20 answer) with thumbnail, kicker, summary and byline, By day, By topic; topic select, live search, count (41 of 41); lists.js now serves companies, people and articles; merged dev (conflicts in the lists files resolved to my newer version)",
     "Wake 05:11: merged dev (my lists files kept again: dev@ had a squashed copy of the people commit); checked the agenda against the brief: the day pages (/days/<date>/) already have the A/B/C switch with C (five things) by default, dev@ made the switch real and added the week strip to /events/; the gap left was /days/ (404): added a front door with each day's five things; every day page links to it",
-    "Wake 06:17: designer@'s L5 (length): companies and people fold each group to its first 3 cards with 'All N in X' and show the first 8 groups with 'More fields/organisations (N)'; the articles wire shows the first 12 with 'All 41 articles'; a search or a filter shows every match; phone lengths 21,175 to 7,377 px (companies), 36,509 to 5,559 (people), 13,360 to 5,814 (articles); and the companies prose moved under the list as 'About this list'"
+    "Wake 06:17: designer@'s L5 (length): companies and people fold each group to its first 3 cards with 'All N in X' and show the first 8 groups with 'More fields/organisations (N)'; the articles wire shows the first 12 with 'All 41 articles'; a search or a filter shows every match; phone lengths 21,175 to 7,377 px (companies), 36,509 to 5,559 (people), 13,360 to 5,814 (articles); and the companies prose moved under the list as 'About this list'",
+    "Wake 07:11: designer@'s D3: on a day's five-things view the rest is folded under 'Everything else today (N)' (assets/days/days.js, a heading button; shown in full without script); D4: when the correspondent has not picked, the page says the five are picked by the morning (words in data/site/list-views.json days_page); tested on a summit day, desktop and phone"
   ],
   "next": [
-    "Re-check D2 to D5 on the day pages against the spec (folded rest 'Everything else today (N)', the 'picked by the morning' line when days.json is empty, place with region, Add to my day on the meta line)"
+    "D5: the place with its region ('Lagos, Algarve') needs a region in the event data (ontologist@'s places): check data/places before building",
+    "The correspondent's pick: data/front/days.json and desks/correspondent day_picks are read; empty days say so",
+    "designer@ re-check of the list pages and the days"
   ],
   "asks": [
     "Dinis: none."

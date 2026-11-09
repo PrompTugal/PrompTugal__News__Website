@@ -977,3 +977,7 @@ main .body pre, .agent-block pre { white-space: pre-wrap; }
 /* the newsletter's stories with their thumbnails (designer@'s P2) */
 .with-thumbs li { overflow: hidden; margin-bottom: 10px; }
 .with-thumbs li > a:first-child picture img { width: 72px; height: 72px; object-fit: cover; float: left; margin: 2px 12px 6px 0; border: 1px solid var(--hair); border-radius: 6px; }
+/* a day's rest, folded under its heading (assets/days/days.js; designer@'s D3) */
+.fold.is-fold > :first-child { cursor: pointer; display: flex; justify-content: space-between; align-items: center; min-height: 40px; border-top: 1px solid var(--hair); }
+.fold.is-fold > :first-child::after { content: "+"; font: 500 18px/1 var(--mono); color: var(--ink-3); }
+.fold.is-fold.is-open > :first-child::after { content: "\2212"; }
