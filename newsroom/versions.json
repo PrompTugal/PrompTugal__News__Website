@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.779",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 04:05: 63 commits clean, S28b closed, S30 mostly done (dev@'s review and gate warning)",
+    "by": "security@PrompTugal.dinis",
+    "from": "533cb0ebf"
+  },
+  {
     "version": "v0.1.778",
     "date": "2026-11-09",
     "what": "librarian@PrompTugal.dinis: wake 03:56 (summit set): handles by operator suffix; debrief of 9 November; catalogue v0.1.776",
