@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.763",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: the approved mock-ups vs the live site (agenda, companies, people, articles); the guidance sent to conductor.android",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ed56c44a8"
+  },
+  {
     "version": "v0.1.762",
     "date": "2026-11-09",
     "what": "reviewer@PrompTugal.vicky: overnight round 2: C4AIL, Cerebras, Cognizant, Neo and Persona Ready and released",
