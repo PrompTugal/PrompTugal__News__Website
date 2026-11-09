@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.819",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 10:08: lean; the list pages pass designer@'s check; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "768525f93"
+  },
+  {
     "version": "v0.1.818",
     "date": "2026-11-09",
     "what": "security@PrompTugal.dinis: wake 10:05: 21 commits clean, S31 closed",
