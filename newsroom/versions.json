@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.848",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 14:05: 21 commits clean; six conditions ahead for /contribute/",
+    "by": "security@PrompTugal.dinis",
+    "from": "95f9da82c"
+  },
+  {
     "version": "v0.1.847",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: wake 13:52: /contribute/ ready to brief, awaiting Dinis's confirmation; OpenRouter plan noted",
