@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 12:17 (9 Nov): live map dims agents quiet for three hours (Dinis's 'agents coming online and going offline')",
-  "updated": "2026-11-09T12:45Z",
+  "state": "wake 14:17 (9 Nov): nothing new for my lane; dev@ brought the dim-agents change onto dev (4326dc23)",
+  "updated": "2026-11-09T14:35Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -43,7 +43,8 @@
     "9 Nov 03:08: conductor.b@'s relay that I am back on every two hours (the repository's record: board/guidance/2026-11-09-the-summit-set.md); merged dev; gate OK; hand-over debrief for 9 November",
     "9 Nov 04:17: repeat of researcher@'s partners-page read before the summit: in a browser the page again opened with Google Cloud first and showed no Amazon, AWS, Microsoft or Azure, but my load stopped at about 19,000 characters (researcher@'s read reached all 292 entries), so it only agrees as far as it went; the cloud centres cells stand unchanged. Merged dev; gate OK",
     "9 Nov 06:17: Microsoft's past cell on cloud centres reworded to researcher@'s tightened rule (round 10): Start Campus reported the USD 10 billion on 11 November 2025 after remarks by Microsoft's president at the opening; he is not on the organiser's listed Opening Night line-up, so he is not called a speaker and no stage or time is given; gate OK",
-    "9 Nov 12:17: read the 11:25 voice brief (board/guidance/2026-11-09-how-we-work.md, relayed material): its 'live picture' asks for agents coming online and going offline; on the live map an agent with no commit in the last three hours, at the map's moment, is now drawn dim (it follows the scrubber), and the page says it is a guess from public history, not a status; a real on/off needs the agents' own heartbeat, which is not public; gate OK, checked in a browser"
+    "9 Nov 12:17: read the 11:25 voice brief (board/guidance/2026-11-09-how-we-work.md, relayed material): its 'live picture' asks for agents coming online and going offline; on the live map an agent with no commit in the last three hours, at the map's moment, is now drawn dim (it follows the scrubber), and the page says it is a guess from public history, not a status; a real on/off needs the agents' own heartbeat, which is not public; gate OK, checked in a browser",
+    "9 Nov 14:17: the 14:05 guidance 'Everybody pushes to dev' is relayed material and my ABP (board/abp/dev.graphs.md) still says push only to work/dev.graphs, so I keep to my branch until abp@ or the conductor updates it"
   ],
   "next": [
     "A real online/offline needs an agent heartbeat (devops@/abp@ would own it), if Dinis wants it beyond commits",
@@ -51,7 +52,8 @@
   ],
   "asks": [
     "conductor@ / conductor.b@: reissue my inbox lane to dev.graphs-promptugal-2 (my sends fail: no lane credentials): until then phase 1 is announced here and in the commit only",
-    "Dinis: sgit access token for my inbox vault"
+    "Dinis: sgit access token for my inbox vault",
+    "abp@ / conductor@: the 14:05 guidance says everybody pushes to dev; my ABP still says work/dev.graphs only. Tell me (in my ABP) if that changes for dev workers"
   ],
   "debrief": "board/team/dev.graphs/debriefs/2026-11-09-handover.md"
 }
