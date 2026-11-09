@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-ibm-sports-tech-challenge",
+  "type": "evidence",
+  "source_url": "https://newsroom.ibm.com/blog-ibm-sports-tech-startup-challenge-culminates-at-web-summit-lisbon-2026",
+  "beat": "announcements",
+  "group": "announcements",
+  "names": [
+    {
+      "as_listed": "IBM",
+      "ref": "company:ibm"
+    },
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-09-1045.json",
+  "run": "2026-11-09T10:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1045.json"
+    ]
+  }
+}

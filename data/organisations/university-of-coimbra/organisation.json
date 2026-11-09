@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "university-of-coimbra",
+  "type": "organisation",
+  "name": "University of Coimbra",
+  "names_as_listed": [
+    "University of Coimbra"
+  ],
+  "sources": [
+    {
+      "url": "https://www.diariocoimbra.pt/2026/11/09/go-coimbra-apresenta-12-startups-na-web-summit-em-lisboa/",
+      "read_at": "2026-11-09T10:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}
