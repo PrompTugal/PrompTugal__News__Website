@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.886",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "9cce5e00f"
+  },
+  {
     "version": "v0.1.885",
     "date": "2026-11-09",
     "what": "conductor.b@PrompTugal.dinis: 18:48 wake: account B's ledger for accountant@; the iOS slot now held",
