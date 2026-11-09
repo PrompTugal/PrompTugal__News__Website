@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.874",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 17:26: Android main promoted twice by verified fast-forward; PR #2 waits for Dinis; promote HIGH being fixed",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "a47b1c7ba"
+  },
+  {
     "version": "v0.1.873",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: /app/ in brand v2.0 (designer@'s spec): tokens, Plex, Newsreader, the wordmark",
