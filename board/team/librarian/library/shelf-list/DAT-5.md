@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 5 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T10:00:30Z"
-site_version: "v0.1.816"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T13:01:52Z"
+site_version: "v0.1.842"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 5 of 11)
 
-100 cards, from `DAT.ORG aws` to `DAT.ORG institute-for-systems-and-robotics`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG aws` to `DAT.ORG inflect`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
@@ -93,17 +93,18 @@ source: board/catalogue.json
 | `DAT.ORG georgetown-university` | [Georgetown University](https://promptugal.news/organisations/georgetown-university/) | organisation | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.ORG get-real` | [Get Real](https://promptugal.news/organisations/get-real/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG glean` | [Glean](https://promptugal.news/organisations/glean/) | organisation | programme@web-summit.vicky 6 Nov 2026 |
+| `DAT.ORG go-coimbra` | [Go Coimbra](https://promptugal.news/organisations/go-coimbra/) | organisation | curator@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.ORG gol` | [Gol](https://promptugal.news/organisations/gol/) | organisation | ontologist@ 7 Nov 2026 |
 | `DAT.ORG google` | [Google](https://promptugal.news/organisations/google/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG google-developer-group-lagos` | [Google Developer Group Lagos](https://promptugal.news/organisations/google-developer-group-lagos/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG government-of-czech-republic` | [Government of Czech Republic](https://promptugal.news/organisations/government-of-czech-republic/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG government-of-portugal` | [Government of Portugal](https://promptugal.news/organisations/government-of-portugal/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG government-of-slovakia` | [government of Slovakia](https://promptugal.news/organisations/government-of-slovakia/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 476 to 500**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG government-of-slovakia` | [government of Slovakia](https://promptugal.news/organisations/government-of-slovakia/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG government-of-the-state-of-sao-paulo-brazil` | [Government of the State of Sao Paulo, Brazil](https://promptugal.news/organisations/government-of-the-state-of-sao-paulo-brazil/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG governo-do-estado-da-paraiba` | [Governo do Estado da Paraiba](https://promptugal.news/organisations/governo-do-estado-da-paraiba/) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.ORG granola` | [Granola](https://promptugal.news/organisations/granola/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG inc` | [INC](https://promptugal.news/organisations/inc/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG indico-capital-partners` | [Indico Capital Partners](https://promptugal.news/organisations/indico-capital-partners/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG inflect` | [Inflect](https://promptugal.news/organisations/inflect/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG institute-for-systems-and-robotics` | [Institute for Systems and Robotics](https://promptugal.news/organisations/institute-for-systems-and-robotics/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-4.md) | [Next part](DAT-6.md)

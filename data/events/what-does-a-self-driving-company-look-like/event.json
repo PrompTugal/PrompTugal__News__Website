@@ -11,6 +11,7 @@
   "time": "16:00-16:20",
   "start": "16:00",
   "end": "16:20",
+  "shows_as": "busy",
   "where": "Stage 13 (AI Summit), MEO Arena and FIL",
   "place": "place:stage-13",
   "track": "AI Summit",

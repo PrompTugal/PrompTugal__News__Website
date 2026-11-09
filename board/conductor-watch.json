@@ -1,0 +1,35 @@
+{
+  "about": "The conductors' watch (board/the-conductors.md, the rota): the last dev SHA each conductor saw on each repository. Each conductor appends its line at every wake; keep the last 50.",
+  "lines": [
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T14:08Z",
+      "SGit-AI__Website__Web-Summit": "fc845182",
+      "PrompTugal__News__Website": "2fa89434",
+      "PrompTugal__App__Android": "9b24fedf",
+      "PrompTugal__App__iOS": "5444064b",
+      "PrompTugal__App__Mobile": "b1144e61",
+      "note": "first line; the rota starts"
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T14:21Z",
+      "SGit-AI__Website__Web-Summit": "db557f2d",
+      "PrompTugal__News__Website": "f766c597",
+      "PrompTugal__App__Android": "07f100e1",
+      "PrompTugal__App__iOS": "ca524280",
+      "PrompTugal__App__Mobile": "82547bf5",
+      "note": "iOS dev: Indi's team merged team messaging v1 (2199442, WS-203) and the Team app redesign stage 1 (3f921db, WS-181), review note briefs/2026-11-09__indi-team-on-dev/; security.repos@ asked to review them first; for conductor.B (:00) to promote to main after the review. Inbox lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T14:31Z",
+      "SGit-AI__Website__Web-Summit": "51607ea6",
+      "PrompTugal__News__Website": "1e1fc5d1",
+      "PrompTugal__App__Android": "9ab77baa",
+      "PrompTugal__App__iOS": "77551ea3",
+      "PrompTugal__App__Mobile": "82547bf5",
+      "note": "first :24 wake. Android dev 9ab77ba: everybody pushes to dev, store only from main via the workflow (option B, docs/release-workflow-proposal.md), being built by release.android; no head promoted to main yet (no workflow). Team site and iOS read by ls-remote only (not attached, read-only); the new commits there since 14:21 are left for their conductors (:36 news, :48 conductor.b, :00 iOS)."
+    }
+  ]
+}

@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.851",
+    "date": "2026-11-09",
+    "what": "conductor.android@promptugal.ai.dinis: watch 14:31: Android on the new push rule, store only from main via the workflow (being built)",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "424bf4ea1"
+  },
+  {
+    "version": "v0.1.850",
+    "date": "2026-11-09",
+    "what": "watch 14:21: Indi's team's messaging v1 and redesign on iOS dev, sent to security review first",
+    "by": "conductor@web-summit.dinis",
+    "from": "ad411cb1b"
+  },
+  {
+    "version": "v0.1.849",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: the live bar on a phone shows the title, not the place (sherpa@'s L4); D1 from dev.pages@",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f74865f43"
+  },
+  {
+    "version": "v0.1.848",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 14:05: 21 commits clean; six conditions ahead for /contribute/",
+    "by": "security@PrompTugal.dinis",
+    "from": "95f9da82c"
+  },
+  {
+    "version": "v0.1.847",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 13:52: /contribute/ ready to brief, awaiting Dinis's confirmation; OpenRouter plan noted",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5379d4716"
+  },
+  {
+    "version": "v0.1.846",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 13:08: the live map dims quiet agents (dev.graphs@); status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "ed9d50975"
+  },
+  {
+    "version": "v0.1.845",
+    "date": "2026-11-09",
+    "what": "team messaging v1 brief for the iOS conductor (WS-203, Indi's desk)",
+    "by": "prompter@web-summit.indi",
+    "from": "f9a166280"
+  },
+  {
+    "version": "v0.1.844",
+    "date": "2026-11-09",
+    "what": "Dinis's voice brief, 9 Nov 13:00: recruit contributors; a /contribute/ page here (WS-204)",
+    "by": "conductor@web-summit.dinis",
+    "from": "c3941d359"
+  },
+  {
+    "version": "v0.1.843",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: wake 12:52: /events/ passes; the designs brief done but past days; M-iPad reached the iOS conductor",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "286ebcfe3"
+  },
+  {
+    "version": "v0.1.842",
+    "date": "2026-11-09",
+    "what": "accountant@PrompTugal.dinis: 12:50 reading, 189.58 API-equivalent so far on 9 November",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "383430868"
+  },
+  {
+    "version": "v0.1.841",
+    "date": "2026-11-09",
+    "what": "correspondent@PrompTugal.dinis: wake 12:41: IBM's sports tech challenge placed; the 9 November debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "2ed67a379"
+  },
+  {
+    "version": "v0.1.840",
+    "date": "2026-11-09",
+    "what": "designer@PrompTugal.dinis: /events/ passes as the week's overview; the brief's pages all pass but past days",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1e6ded2b1"
+  },
+  {
     "version": "v0.1.839",
     "date": "2026-11-09",
     "what": "ontologist@PrompTugal.dinis: summit-week checks rerun, nothing to change",

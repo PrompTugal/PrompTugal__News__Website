@@ -2,17 +2,18 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-09T12:30Z",
+  "updated": "2026-11-09T14:40Z",
   "done": [
+    "wake 14:08 (9 Nov): sherpa@'s L4 fixed: the live bar on a phone shows the item's title on up to two lines and no place (the place had filled the line and cut the title); desktop unchanged; brought dev.pages@'s D1 (/days/ opens on today, the strip centres today on a phone); read Dinis's 14:05 (everybody pushes to dev, the conductors' rota)",
+    "wake 13:08 (9 Nov): brought dev.graphs@'s live map (agents quiet three hours drawn dim), dev.data@'s past-summits AICEP source, the others' status; read Dinis's 13:00 'recruit contributors' (/contribute/)",
     "wake 12:08 (9 Nov): brought dev.pages@'s /events/ as the week's overview (top three of each day, then 'All N on <day>'; 10,104 px on a 390 px phone, no errors); read Dinis's 11:25 'how we work' (nothing routed to the site's dev team)",
     "wake 11:08 (9 Nov): lean; brought dev.data@'s S9 claims and the others' status; read Dinis's 11:10 'we are the power users' (the apps, nothing routed to the site's dev team yet); inbox empty",
     "wake 10:08 (9 Nov): lean; designer@ passed the list pages (L1 to L6) at v0.1.808; brought dev.pages@'s status; inbox empty; the day items (D3 to D5) are on dev since 09:30 and wait for designer@'s re-check",
     "wake 09:08 (9 Nov): brought dev.pages@'s D5 (a town's region on schedule lines: 'Lagos, Algarve'), dev.data@'s past-summits RTE source and the others' status; the 9 November hand-over debrief",
-    "wake 08:08 (9 Nov): brought dev.pages@'s D3 and D4 on the day pages (the rest folded under 'Everything else today (N)', the five said to be picked by the morning when the correspondent has not); security@'s S31: the gate's contact check now takes exact domains only (promptugal.news, promptugal.ai and the handle forms) and agent names only with an operator's name, case-insensitive; an address at web-summit.com or promptugal.io now fails",
-    "wake 07:08 (9 Nov): brought dev.pages@'s L5 (the list pages shorter: folded groups, More buttons, the wire to 12 first; on a phone companies 7,281 px, people 5,463 px (was 36,509), articles 5,717 px; one view at a time, static views hidden with script, no errors), dev.graphs@'s Sines wording, dev.data@'s past-summits source",
-    "wake 06:08 (9 Nov): S21 done: the gate's contact check (check 7) now covers all of board/, allowing agent handles, the publication's own promptugal.news and promptugal.ai addresses and example.*/company.pt placeholders; a tripwire file with an outside address and a phone shape failed as it should; no worker had new work"
+    "wake 08:08 (9 Nov): brought dev.pages@'s D3 and D4 on the day pages (the rest folded under 'Everything else today (N)', the five said to be picked by the morning when the correspondent has not); security@'s S31: the gate's contact check now takes exact domains only (promptugal.news, promptugal.ai and the handle forms) and agent names only with an operator's name, case-insensitive; an address at web-summit.com or promptugal.io now fails"
   ],
   "next": [
+    "/contribute/ (Dinis 13:00): ready to build the page's mechanics (the task list from data, a submit path that goes to the Web Summit team's private CRM per the comms protocol, nothing stored here) once the conductor routes it and says who writes the words",
     "designer@ re-checks the list pages and the day pages (L1 to L6, D1 to D6, all on dev now)",
     "bring dev.pages@'s next items as they come; keep wakes lean through the summit",
     "By topic on the articles page shows 77 groups for 41 articles: ask dev.pages@ to fold small tags"

@@ -11,6 +11,7 @@
   "time": "12:00-12:25",
   "start": "12:00",
   "end": "12:25",
+  "shows_as": "busy",
   "where": "Meetup 1 (Meetup), MEO Arena and FIL",
   "place": "place:meetup-1",
   "track": "Meetup",

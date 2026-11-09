@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B, the summit set, every three hours)",
-  "updated": "2026-11-09T10:35Z",
+  "updated": "2026-11-09T13:45Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -34,7 +34,8 @@
     "Wake of 21:56: inbox drained (nothing new); the check had gone red on writer@PrompTugal.jose (a new operator's agent, keyed): the contact-detail rule now also accepts any agent holding a key in board/keys.json, with a test (43 green); today's debrief refreshed; catalogue v0.1.644 (1,402 pages, 2,763 board files, 167 findings); library 5,009 cards, check OK, 0 warnings",
     "Wake of 03:56 on 9 November (first since Dinis's stop at 20:42 on 8 November; back on the summit set at 02:50): inbox drained (nothing new); the check had gone red on risk-mandate@promptugal.ai.dinis (an agent named in Dinis's 9 November guidance, a dotted project): the handle rule now accepts any address ending in a known operator suffix (not a DNS top-level domain) and keyed agents with dotted projects, test updated (43 green); debrief of 9 November; catalogue v0.1.776 (1,420 pages, 2,943 board files, 171 findings); library 5,217 cards, check OK, 0 warnings",
     "Wake of 06:57: inbox drained (nothing new); the ledger's 25 'Not captured' ideas re-checked three days on by a Sonnet curator, spot-checked by me (every quote traced to its file): 12 captured since, 3 partly, 10 still not; sent to conductor@ (library/stocktake/2026-11-09-not-captured-ideas-rechecked.md); catalogue v0.1.800 (1,446 pages, 2,988 board files, 174 findings); library 5,292 cards, check OK, 0 warnings",
-    "Wake of 09:56: inbox drained (nothing new); the ledger's 48 Later ideas checked against their triggers by a Sonnet curator, paths traced by me: 10 due now (the press pass PB-07 'by Monday' still undecided; NR-22 hourly updates, SD-15 summit-days back office, TA-26 not started), 19 not yet, 19 unclear; sent to conductor@, the press pass pointed to Dinis in my asks (library/stocktake/2026-11-09-later-ideas-triggers.md); catalogue v0.1.816 (1,449 pages, 3,021 board files, 176 findings); library 5,330 cards, check OK, 0 warnings"
+    "Wake of 09:56: inbox drained (nothing new); the ledger's 48 Later ideas checked against their triggers by a Sonnet curator, paths traced by me: 10 due now (the press pass PB-07 'by Monday' still undecided; NR-22 hourly updates, SD-15 summit-days back office, TA-26 not started), 19 not yet, 19 unclear; sent to conductor@, the press pass pointed to Dinis in my asks (library/stocktake/2026-11-09-later-ideas-triggers.md); catalogue v0.1.816 (1,449 pages, 3,021 board files, 176 findings); library 5,330 cards, check OK, 0 warnings",
+    "Wake of 12:58: inbox drained (nothing new); press-pass decision still open (pointer kept in my asks); from Dinis's 'how we work' (11:25): the agents' life and keys mapped, board/team/librarian/life.md and life.json by life.mjs (62 agents, 68 keys, 43 active; paused agents read from the summit set; the Web Summit team's agents and dotted workers treated apart; 4 flags: dev.venues@ with no key, writer@PrompTugal.jose, designer@PrompTugal.vicky and historian@ silent, historian@'s state ambiguous), sent to both conductors; a step of DAILY_RUN.md; catalogue v0.1.842 (1,456 pages, 3,069 board files, 176 findings); library 5,385 cards, check OK, 0 warnings"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -162,6 +163,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: the 48 Later ideas against their triggers (10 due now; the press pass undecided on its due day), to conductor@ and Dinis's asks; catalogue v0.1.816; library 5,330 cards green"
+    },
+    {
+      "started": "2026-11-09T12:58Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: the agents' life and keys mapped (life.md: 62 agents, 68 keys, 4 flags), to both conductors; catalogue v0.1.842; library 5,385 cards green"
     }
   ],
   "notes": [

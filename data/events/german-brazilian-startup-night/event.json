@@ -11,6 +11,7 @@
   "time": "17:30-22:30",
   "start": "17:30",
   "end": "22:30",
+  "shows_as": "free",
   "where": "Gale patio",
   "place": "place:gale-patio",
   "track": null,

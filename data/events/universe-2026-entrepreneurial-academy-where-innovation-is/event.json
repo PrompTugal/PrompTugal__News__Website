@@ -11,6 +11,7 @@
   "time": "17:00-20:00",
   "start": "17:00",
   "end": "20:00",
+  "shows_as": "free",
   "where": "Centro de Congressos ULisboa",
   "place": "place:centro-de-congressos-ulisboa",
   "track": null,

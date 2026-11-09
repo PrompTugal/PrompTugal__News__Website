@@ -11,6 +11,7 @@
   "time": "13:00-13:45",
   "start": "13:00",
   "end": "13:45",
+  "shows_as": "busy",
   "where": "Masterclass 1 (Masterclasses), MEO Arena and FIL",
   "place": "place:masterclass-1",
   "track": "Masterclasses",
