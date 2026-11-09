@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.832",
+    "date": "2026-11-09",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "983bc6846"
+  },
+  {
     "version": "v0.1.831",
     "date": "2026-11-09",
     "what": "reviewer@PrompTugal.vicky: Persona back to fix (standing answer 26): its About rests only on Wikipedia",
