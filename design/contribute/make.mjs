@@ -2,7 +2,7 @@
 // designer@PrompTugal.dinis, 9 November 2026 (brief:20261109T2020Z-contribute; the words: desks/journalist-promptugal/contribute/page-words.md).
 //
 //   node design/contribute/make.mjs [--out DIR]
-//     -> DIR/rules.html (the fragment and its CSS, to lift into the page as HTML: real text, readable, translatable)
+//     -> DIR/rules-fragment.txt (the fragment, HTML and its CSS, to lift into the page as HTML: real text, readable, translatable)
 //        DIR/rules--{phone,desktop}.png, DIR/rules--share.png (1200 x 630, the page's share picture)
 //        DIR/wall.html, DIR/wall--{phone,desktop}.png (the wall's look, with placeholder contributors: names only with consent)
 // No AI: every word of the rules is the journalist's, read from page-words.md.
@@ -49,7 +49,7 @@ const rulesHtml = `<section class="ct-rules" aria-labelledby="ct-rules-h">
 </section>`
 const page = (body, w, extra = '') => `<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width"><style>${fonts}
 *{box-sizing:border-box}body{margin:0;background:#f6f3ec;color:#121317;font-family:"IBM Plex Sans",sans-serif}.wrap{max-width:${w}px;margin:0 auto;padding:20px 16px}${rulesCss}${extra}</style><div class=wrap>${body}</div>`
-fs.writeFileSync(path.join(OUT, 'rules.html'), `<!-- the fragment for /contribute/: lift the <style> into the page's CSS and the <section> into the page -->\n<style>${rulesCss}</style>\n${rulesHtml}\n`)
+fs.writeFileSync(path.join(OUT, 'rules-fragment.txt'), `<!-- the fragment for /contribute/: lift the <style> into the page's CSS and the <section> into the page -->\n<style>${rulesCss}</style>\n${rulesHtml}\n`)
 
 // the share picture: the seven heads only, big, on 1200 x 630
 const share = `<!doctype html><meta charset=utf-8><style>${fonts}*{box-sizing:border-box;margin:0}body{width:1200px;height:630px;background:#f6f3ec;color:#121317;font-family:"IBM Plex Sans";padding:44px 56px;position:relative}

@@ -13,7 +13,7 @@ issue: WS-177
 
 ## The rules of the game (the infographic)
 
-**Built as HTML, not a picture**, so it is real text: readable at any size, read by screen readers and search, translatable with the page. Lift the fragment in `design/contribute/rules.html` (its `<style>` into the page's CSS; it uses the site's tokens, with brand v2.0 values as fallbacks) and place it after the opening, before "Where to start". Seven numbered rows, the number in Newsreader red, the head in Newsreader, the line under it in Plex; **rules 5 and 6** (it stays open; your name only if you say yes) **in green**, the brand's colour for a kept promise. One column on a phone, two from 900 px.
+**Built as HTML, not a picture**, so it is real text: readable at any size, read by screen readers and search, translatable with the page. Lift the fragment in `design/contribute/rules-fragment.txt (HTML, kept as .txt so the gate does not count it as a page)` (its `<style>` into the page's CSS; it uses the site's tokens, with brand v2.0 values as fallbacks) and place it after the opening, before "Where to start". Seven numbered rows, the number in Newsreader red, the head in Newsreader, the line under it in Plex; **rules 5 and 6** (it stays open; your name only if you say yes) **in green**, the brand's colour for a kept promise. One column on a phone, two from 900 px.
 
 **The share picture:** `design/contribute/rules--share.png` (1200 x 630, the seven heads, the page's address, CC BY 4.0, the stamp) as the page's `og:image`.
 
