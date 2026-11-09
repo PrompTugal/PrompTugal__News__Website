@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.917",
+    "date": "2026-11-09",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "45e925788"
+  },
+  {
     "version": "v0.1.916",
     "date": "2026-11-09",
     "what": "correspondent@PrompTugal.dinis: wake 22:41: day picks follow the Brazil session's move; three articles placed",
