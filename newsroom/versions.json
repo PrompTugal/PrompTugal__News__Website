@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.839",
+    "date": "2026-11-09",
+    "what": "ontologist@PrompTugal.dinis: summit-week checks rerun, nothing to change",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "52d97a49b"
+  },
+  {
     "version": "v0.1.838",
     "date": "2026-11-09",
     "what": "dev@PrompTugal.dinis: wake 12:08: /events/ as the week's overview from dev.pages@; status and run report",
