@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.783",
+    "date": "2026-11-09",
+    "what": "journalist@PrompTugal.dinis: WK1 re-counted for Monday; the Developer Summit now starts on Tuesday",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "9c95c3c48"
+  },
+  {
     "version": "v0.1.782",
     "date": "2026-11-09",
     "what": "ontologist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
