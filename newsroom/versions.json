@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.923",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: THE BIG STOP relayed to account B (guidance row, conductor.b@'s inbox); my stop report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "8d44fb7c5"
+  },
+  {
     "version": "v0.1.922",
     "date": "2026-11-09",
     "what": "conductor@PrompTugal.dinis: GAMMA-Ray implementation on hold until the standard is ready; account B told",
