@@ -5,7 +5,7 @@
   "title": "Portugal on the programme: a masterclass, a meetup and three announcements",
   "beat": "Portugal",
   "topic": null,
-  "status": "review",
+  "status": "ready",
   "rests_on": [
     "evidence:v-session-startup-portugal-guide",
     "evidence:v-session-founders-in-portugal-meetup",
@@ -32,13 +32,13 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S36.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-09"
     }
   ],
   "article": null,
-  "next": "the writer answers the review",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
@@ -53,7 +53,7 @@
       "file": "desks/journalist-vicky/drafts/S36-portugal-on-the-programme.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-09",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S36.md"
