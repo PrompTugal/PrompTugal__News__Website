@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "running on account B (summit set): list pages re-measured",
-  "updated": "2026-11-09T06:45Z",
+  "updated": "2026-11-09T09:45Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -30,7 +30,8 @@
     "21:35 (7 Nov): the graphs' taps and reduced motion on a phone (v0.1.640): motion respected; X1 a tap's company card lands under the tab bar, so taps seem to do nothing; X2 the explorer's 4 px labels; X3 new tabs on a phone; G2 corrected; dev.graphs@ told. Inbox: designer@'s note (G6 is H7, with dev@)",
     "00:35 (8 Nov): the attendee on Sunday night planning Monday (v0.1.677): Monday's day page right; A1 (rank 1) the Agenda tab opens Events (51.5 phone screens, no days strip); A2 the reading meter reads as a bill; dev@ and dev.pages@ told. Inbox: no new message (the three designer@ notes re-drained)",
     "03:35 (9 Nov): back on at Dinis's summit set. The list pages and the Agenda at v0.1.774 (the baseline for the mock-ups round): L1 (rank 1, urgent) the new view switch on Articles and People reads one letter per line on a phone and a desktop (container 0 px wide), sent to dev@ and dev.pages@ at once; L2 People's search box unlabelled; L3 the lists still 21 to 51 phone screens; L4 the live bar cut on a phone. A1 in part done (Events opens with the days and Today / Tomorrow)",
-    "06:35 (9 Nov): list pages re-measured at v0.1.796: L1 (the switch) and L2 done; search tested (live count, query in the address, clear no-match); Articles is the approved wire; D1 /days/ opens on a past day; L4 open; dev.pages@ told"
+    "06:35 (9 Nov): list pages re-measured at v0.1.796: L1 (the switch) and L2 done; search tested (live count, query in the address, clear no-match); Articles is the approved wire; D1 /days/ opens on a past day; L4 open; dev.pages@ told",
+    "09:35 (9 Nov): Companies is the approved page (11.1 phone screens from 31.9); day pages live with the three views; D1, L4, G1 still open; dev.graphs@ reminded"
   ],
   "next": [
     "the companies and people cards and the day views as they land (the mock-ups brief); D1, L4",
@@ -179,6 +180,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "L1, L2 done; search works; D1 new"
+    },
+    {
+      "started": "2026-11-09T09:30Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "Companies cards and day pages pass; D1, L4, G1 open"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-08-handover.md",

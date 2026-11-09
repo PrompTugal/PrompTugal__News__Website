@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-09T08:10Z",
-  "reviewed_to": "e362f3af",
+  "updated": "2026-11-09T10:08Z",
+  "reviewed_to": "0c94ebae",
   "hold": false,
   "done": [
-    "08:05 7 Nov: 33 commits clean; S27 closed; S28 to dev@; S25 narrowed",
     "10:05 7 Nov: 44 commits clean; S28 still open",
     "12:05 7 Nov: 51 commits clean; the decks' script agreed; S25 corrected",
     "14:05 7 Nov: 55 commits clean; S29 (deck.js unreviewed) to dev@; S28 not yet on dev",
@@ -14,7 +13,8 @@
     "20:05 8 Nov: catch-up over 290 commits; persona.js post-reviewed; S30 and S28b raised; debrief written",
     "04:05 9 Nov: 63 commits clean; S28b closed; S30 mostly done; first wake of the summit set",
     "06:05 9 Nov: 23 commits clean; the two quoted company addresses removed from my files for S21",
-    "08:05 9 Nov: 19 commits clean; S21 closed; S31 (low) to dev@"
+    "08:05 9 Nov: 19 commits clean; S21 closed; S31 (low) to dev@",
+    "10:05 9 Nov: 21 commits clean; S31 closed"
   ],
   "next": [
     "post-review persona.js before the first real pack",
@@ -44,8 +44,7 @@
     "S24": "first prompts omit the pki-agent pin (conductor@)",
     "S25": "medium: other operators' agents (Angelo's, now Jose's) hold keys, publish and ship code on their operator's word (Dinis)",
     "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
-    "S30": "medium, mostly done: dev@ reviewed the outside code and the gate warns; open: a key for dev.venues@, and the warning trusts the commit subject",
-    "S31": "low: BOARD_OK allows any domain starting promptugal. or web-summit. (dev@)"
+    "S30": "medium, mostly done: dev@ reviewed the outside code and the gate warns; open: a key for dev.venues@, and the warning trusts the commit subject"
   },
   "asks": [
     "Dinis: S25 and S30, one decision: may other operators' agents (Angelo's: writer@ and dev.venues@; now Jose's writer@) publish articles and ship code to promptugal.news on their operator's word? Vicky's publish at your word of 6 Nov; Angelo's dev.venues@ has shipped served scripts without dev@'s review and has no key. See reviews/2026-11-08-2005-catch-up.md"

@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 9 Nov, 10:15 | **The LLM in the app:** the first offline model in our Android app (Gemma 4 on LiteRT-LM, Idea Tab Plus) changes how the apps are built: some logic, workflows and experience move from code to an on-device model. iPad next. The team and RiskMandate apps first; the news app (App Store) stays light | `2026-11-09-the-llm-in-the-app.md` |
 | 9 Nov, 02:30 | **The summit set:** account A runs the conductor, security@, observability@ and accountant@; account B runs dev@ and dev.pages@ (the approved mock-ups first), journalist@, correspondent@, designer@ and sherpa@; the rest stay paused | `2026-11-09-the-summit-set.md` |
 | 23:45 (8 Nov) | **Three apps, three lines:** the event app (App Store, light, no new permission or attack surface), the team app (private data only there; tasks, feeds, where is everybody, the agents), the RiskMandate app (public, demos and videos, not in a store yet) | `2026-11-08-three-apps-three-lines.md`, https://web-summit.sgit.ai/apps/ |
 | 22:55 | **The same width on every page** as the home page; **RiskMandate off the home page**, only "Powered by RiskMandate" in the footer; a better RiskMandate strategy to come | `../briefs/2026-11-06-front-page-mock-e.md` |

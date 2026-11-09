@@ -1,0 +1,94 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "librarian@PrompTugal.dinis",
+ "run": "2026-11-09T09-56-25Z",
+ "started": "2026-11-09T09:56:25.873Z",
+ "ended": "2026-11-09T10:01:13Z",
+ "line": "Wake 09:56: the 48 Later ideas against their triggers (10 due now; the press pass undecided on its due day), to conductor@ and Dinis's asks; catalogue v0.1.816; library 5,330 cards green",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-09T09:56:26.058Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-09T09:59:39.104Z",
+   "chars": 3238,
+   "sha256": "570fec0aea97c151",
+   "head": "<agent-message from=\"af2bdace772166087\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-09T09:56:25.873Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 23,
+  "by_kind": {
+   "other": 1,
+   "git": 5,
+   "agent": 2,
+   "shell": 14,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 21,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-09T09:57:43.544Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in librarian@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-09T09:59:38.253Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in librarian@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 23,
+  "in_mandate": 21,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

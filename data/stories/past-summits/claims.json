@@ -663,6 +663,39 @@
         "event:web-summit-lisbon-2016",
         "organisation:web-summit"
       ]
+    },
+    {
+      "id": "c56",
+      "text": "On 8 April 2024 Web Summit's co-founder returned as chief executive, six months after resigning over a backlash to his comments on the Israel-Hamas conflict.",
+      "kind": "fact",
+      "source": "rte-2024-04-08-cosgrave-returns",
+      "quote": "Web Summit co-founder Paddy Cosgrave has today returned as its chief executive officer, six months after resigning from the top job following a backlash over his comments on the Israel-Hamas conflict.",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c57",
+      "text": "His successor, the former Wikimedia Foundation chief executive Katherine Maher, had stepped down the month before to become chief executive of National Public Radio.",
+      "kind": "fact",
+      "source": "rte-2024-04-08-cosgrave-returns",
+      "quote": "Former Wikimedia Foundation CEO Katherine Maher took over the top job but stepped down last month to become the chief executive of National Public Radio.",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c58",
+      "text": "Web Summit said it planned to make its conference more convivial and community-focused.",
+      "kind": "fact",
+      "source": "rte-2024-04-08-cosgrave-returns",
+      "quote": "Web Summit said it plans to make its conference more convivial and community-focused",
+      "read_on": "2026-11-09",
+      "about": [
+        "organisation:web-summit"
+      ]
     }
   ]
 }
