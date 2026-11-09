@@ -1,5 +1,11 @@
 [
   {
+    "version": "v0.1.888",
+    "date": "2026-11-09",
+    "what": "watch: conductor.B iOS 19:00",
+    "from": "d11898d82"
+  },
+  {
     "version": "v0.1.887",
     "date": "2026-11-09",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
