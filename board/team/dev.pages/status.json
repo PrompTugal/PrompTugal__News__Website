@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: the approved mock-ups: companies and people done, articles and the day pages next",
-  "updated": "2026-11-09T03:15Z",
+  "state": "working: the approved mock-ups: companies, people and articles done; the agenda day pages next",
+  "updated": "2026-11-09T04:14Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -18,12 +18,12 @@
     "Wake 22:11: merged dev (clean), gate green at v0.1.646; nothing addressed to me; the day's debrief refreshed",
     "Wake 00:11 (8 Nov): merged dev (clean), gate green at v0.1.672; nothing addressed to me; the 8 November hand-over debrief written",
     "Wake 02:40 (9 Nov, back on hourly): the companies page is a working application: cards with a monogram, a View switch (By field, By country, Search first), a live filter and field select with a count (120 of 120), view and filter in the URL hash and the view in localStorage; static views kept without script and in the twin; assets/lists/ (companies.tmpl, lists.js, lists.css), features/lists.mjs; tested in a browser on desktop and phone, no page errors",
-    "Wake 03:11: the people page is a working application too: cards by organisation (organisations with one person together, the unlisted last), By session (who shares a stage, linked to the session), A to Z with letter links, live search with a count (275 of 275); same assets/lists/ (lists.js now serves companies and people); the static views stay without script and in the twin. dev@'s view switch (views.mjs) rendered vertical buttons and an empty filter box on /people/ in this build; the application replaces it for script users"
+    "Wake 03:11: the people page is a working application too: cards by organisation (organisations with one person together, the unlisted last), By session (who shares a stage, linked to the session), A to Z with letter links, live search with a count (275 of 275); same assets/lists/ (lists.js now serves companies and people); the static views stay without script and in the twin. dev@'s view switch (views.mjs) rendered vertical buttons and an empty filter box on /people/ in this build; the application replaces it for script users",
+    "Wake 04:11: the articles page is a working application: the wire (default, per Dinis's 13:20 answer) with thumbnail, kicker, summary and byline, By day, By topic; topic select, live search, count (41 of 41); lists.js now serves companies, people and articles; merged dev (conflicts in the lists files resolved to my newer version)"
   ],
   "next": [
-    "Articles: by day, the wire, by topic with a live count",
-    "Agenda: the day pages with the A/B/C switch, C by default; /events/ as the week's overview",
-    "Check dev@'s view switch on the pages without my application (vertical buttons on /people/ static views)"
+    "Agenda: the day pages (/events/<day>/ or /summit/<day>/) with the A/B/C switch, C by default, /events/ as the week's overview; /days/ 404",
+    "Then: connections people-to-company, logos/photos (waits on data and licence)"
   ],
   "asks": [
     "Dinis: none."

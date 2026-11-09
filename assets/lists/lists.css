@@ -32,3 +32,7 @@
 .ls-az { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0; } .ls-az a { font: 600 13px var(--mono); padding: 3px 8px; border: 1px solid var(--rule-2); color: var(--ink); text-decoration: none; background: var(--panel); min-height: 24px; }
 .ls-row { display: grid; grid-template-columns: minmax(150px, 1fr) 2fr; gap: 14px; padding: 9px 0; border-bottom: 1px solid var(--hair); } .ls-row h3 { margin: 0; font: 600 17px/1.2 var(--serif); } .ls-row a { color: inherit; text-decoration: none; } .ls-row p { margin: 0; font-size: 14px; color: var(--ink-2); }
 @media (max-width: 600px) { .ls-row { grid-template-columns: 1fr; gap: 2px; } }
+/* articles */
+.ls-art { align-items: flex-start; } .ls-art .fx-k { margin: 0 0 2px; font: 700 12px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--brand-red); }
+.ls-thumb { flex: none; width: 96px; } .ls-thumb img { width: 96px; height: auto; border: 1px solid var(--hair); display: block; }
+.ls-rows .ls-art h3 { font-size: 20px; }
