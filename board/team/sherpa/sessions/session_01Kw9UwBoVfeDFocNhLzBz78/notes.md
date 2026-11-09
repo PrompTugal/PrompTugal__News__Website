@@ -18,3 +18,4 @@
 - 00:35 (8 Nov): planning Monday reviewed; the 8 November debrief written.
 - 03:35 (9 Nov): back on (summit set). List pages measured; L1 sent at once. The drain re-delivers the same three designer@ notes every day (dated folders); no new messages.
 - 06:35 (9 Nov): list pages re-measured; search tested with fill on the visible input (the header has a hidden search input too: use :visible).
+- 18:35 (9 Nov): the app reviewed; 9 November debrief.

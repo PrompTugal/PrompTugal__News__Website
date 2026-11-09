@@ -11,9 +11,9 @@
     function remember(v) { try { localStorage.setItem(KEY, v ? '1' : '') } catch (e) { } }
     function make() {
         pane = el('aside', 'pt-pane'); pane.setAttribute('aria-label', 'The PrompTugal app')
-        var bar = el('div', 'pt-pane-bar'), full = el('a', null, 'Full screen'), close = el('button', null, 'Close')
-        full.href = url; close.type = 'button'; close.addEventListener('click', function () { set(false) })
-        bar.appendChild(el('b', null, 'The app')); bar.appendChild(full); bar.appendChild(close)
+        var bar = el('div', 'pt-pane-bar'), close = el('button', null, 'Close')   // Full screen is in the app's own bar (designer@'s AP3)
+        close.type = 'button'; close.addEventListener('click', function () { set(false) })
+        bar.appendChild(el('b', null, 'The app')); bar.appendChild(close)
         var phone = el('div', 'pt-pane-phone'), frame = el('iframe'); frame.title = 'The PrompTugal app'; frame.src = url
         phone.appendChild(frame); pane.appendChild(bar); pane.appendChild(phone); document.body.appendChild(pane)
     }

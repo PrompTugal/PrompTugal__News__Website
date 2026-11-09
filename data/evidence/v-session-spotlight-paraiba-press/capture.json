@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-session-spotlight-paraiba-press",
+  "type": "evidence",
+  "source_url": "https://websummit.com/sessions/lis26/43576352-a9ec-4bae-9f7a-ea7c66336cea/press-conference-web-summit-spotlight-heads-to-paraiba-as-part-of-four-year-pa",
+  "beat": "the summit",
+  "group": "press conferences",
+  "names": [
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-09-1850.json",
+  "run": "2026-11-09T18:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-09-1850.json"
+    ]
+  }
+}

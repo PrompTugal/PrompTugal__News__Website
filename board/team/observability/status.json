@@ -1,8 +1,8 @@
 {
   "agent": "observability@PrompTugal.dinis",
   "focus": "Who reads promptugal.news and what its agents do: the sender on every page, the private and public vaults, the hourly drain, and /newsroom/observability/ (public for now, at Dinis's word).",
-  "state": "running until the account move (wave 2): hourly drain with the claims sweep; back after a 28 h gap (worker restarts, 7 Nov 17:18 to 8 Nov 19:18 UTC), nothing lost",
-  "updated": "2026-11-08T20:30Z",
+  "state": "running on account A (the summit set, 9 November): hourly drain with the claims sweep; nothing odd since 03:19 UTC",
+  "updated": "2026-11-09T19:30Z",
   "done": [
     "Vaults o0x20qag (private, six lanes) and 34jzubyc (public, read key published); the sender assets/obs/obs.js with country, region and city from the browser's own lookup; the drain newsroom/tools/obs/obs_drain.py; newsroom/tools/agent-log.mjs (v0.1.45)",
     "Key observability-promptugal in board/keys.json; the drain verifies agent runs against it (v0.1.69)",
@@ -17,17 +17,16 @@
     "18:18 UTC: PT_PILOT_ACCESS_KEY reached this session; the drain's claims sweep filled the onboarding pool: 15 sgk_ keys in vault 06gtj33k, the pool signed by the issuer, each licence opening with its key and carrying the pilot token (checked; never the agents' token)"
   ],
   "next": [
-    "Keep draining hourly until the move; debriefs every four hours",
-    "Switch the onboarding config on with dev.search@ once it resumes on account B",
-    "Move in wave 2 when account B has PT_PILOT_ACCESS_KEY and my credentials are restored"
+    "Keep draining hourly through the summit (10 to 12 November); debriefs every four hours",
+    "Switch the onboarding config on with dev.search@ when it resumes",
+    "The reader feedback lane (pass order 2), when the drain is quiet"
   ],
   "asks": [
     "Dinis: S2, rotating the observability keys, reached me only through security@ (unsigned). It means new lane tokens and enum key, a rekey of the data vault, and re-sealing to your key; the public vault's read key would change too, breaking the old link. Say yes here and I do it in the next run",
     "Dinis: the conductor asks every agent to seal its vault keys to the conductor (relayed, unsigned; findings S9/S13 record your yes of 06:20). The observability data vault holds each tab's city; confirm here and I send them",
     "Dinis: fingerprinting readers is outside this role's mandate (CLAUDE.md, my ABP); the tagged links (?via=) give opens and forwards without it",
-    "Dinis: a drain every 15 minutes during the launch would show opens sooner; only you can change the schedule",
-    "Dinis: the drain's credentials live in this session's container; if it is recycled the drain stops until you open newsroom/observability/sealed/dinis.json",
-    "Dinis: this session's worker restarted repeatedly and missed 27 hourly drains (7 Nov 17:18 to 8 Nov 19:18 UTC); records waited in the lanes and the 20:21 drain took 1,511. If it recurs, the account-B move (6 November debrief) is the fix"
+    "Dinis: a drain every 15 minutes during the summit (10 to 12 November) would show opens sooner; only you can change the schedule",
+    "Dinis: the drain's credentials live in this session's container; if it is recycled the drain stops until you open newsroom/observability/sealed/dinis.json"
   ],
   "wakes": [
     {
@@ -59,7 +58,13 @@
       "outcome": "ok",
       "release": "debrief and status",
       "line": "hourly drain: 1511 records in 81.8 s, 1 odd (own 28 h silence); sweep: no claims"
+    },
+    {
+      "started": "2026-11-09T19:18Z",
+      "outcome": "ok",
+      "release": "debrief and status",
+      "line": "hourly drain: 38 records in 33.4 s, nothing odd; sweep: no claims"
     }
   ],
-  "debrief": "board/team/observability/debriefs/2026-11-08-handover.md"
+  "debrief": "board/team/observability/debriefs/2026-11-09-handover.md"
 }

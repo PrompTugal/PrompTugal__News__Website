@@ -2,15 +2,15 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-09T18:40Z",
+  "updated": "2026-11-09T19:40Z",
   "done": [
+    "wake 19:08 (9 Nov): the app after sherpa@'s 18:30 read and designer@'s leftovers: AP1 opens at now on today (ended sessions dimmed), AP2 the days row starts at today with Day 1 to Day 4 on the summit's days, AP3 the bar's button by context (Full screen in the pane, Install on a phone with the browser's prompt or an iPhone 'Share, then Add to Home Screen' sheet, News once installed), AP4 'Web Summit Lisbon' alone on a phone; the PT.news stamp at 32 px with the name in Plex; links inherit their colour; brought dev.data@'s BR2 data folder",
     "wake 18:08 (9 Nov): the app, step 3 in part: 'where I need to be next' (today's next pick or the one on now, the minutes to it, its place, Directions to the maps app with the destination only, and the site's venue map, which already shades the reader's picks); the team site's wayfinding read: its registration page and venue.geojson are the Indi team's and dev.venues@'s, so the app links to the site's own venue map rather than draw a second",
     "wake 17:08 (9 Nov): /app/ in brand v2.0 per designer@'s board/spec-the-app-on-the-web.md (the ink, paper, red and green tokens and the dark set, IBM Plex for text and numbers, Newsreader for session titles, the wordmark on the band); brought dev.data@'s BR1 data folder and the others' status",
     "wake 16:08 (9 Nov): the app, step 2 in part: Add to Home Screen (its own manifest opening on /app/, full screen, the site's icons; the app registers the site's offline worker, which now keeps the app, its code and the programme on the device)",
     "wake 15:08 (9 Nov): the news app on the web, step 1 (Dinis 14:40, board/briefs/2026-11-09-the-app-on-the-web.md): /app/ with the programme by day and a search, picks shared with 'Add to my day' and /my-day/, clashes between picks (all-day things excluded), the free time between them, Add to Calendar (.ics per pick and for all picks, made in the browser); an 'App' button on every page opens it in a phone-shaped pane on the right from 1100 px wide (the site moves left; full screen and close), and full screen on a phone; tested in a browser at 390 and 1440 px; the gate checks the app only reads the programme",
     "wake 14:08 (9 Nov): sherpa@'s L4 fixed: the live bar on a phone shows the item's title on up to two lines and no place (the place had filled the line and cut the title); desktop unchanged; brought dev.pages@'s D1 (/days/ opens on today, the strip centres today on a phone); read Dinis's 14:05 (everybody pushes to dev, the conductors' rota)",
-    "wake 13:08 (9 Nov): brought dev.graphs@'s live map (agents quiet three hours drawn dim), dev.data@'s past-summits AICEP source, the others' status; read Dinis's 13:00 'recruit contributors' (/contribute/)",
-    "wake 12:08 (9 Nov): brought dev.pages@'s /events/ as the week's overview (top three of each day, then 'All N on <day>'; 10,104 px on a 390 px phone, no errors); read Dinis's 11:25 'how we work' (nothing routed to the site's dev team)"
+    "wake 13:08 (9 Nov): brought dev.graphs@'s live map (agents quiet three hours drawn dim), dev.data@'s past-summits AICEP source, the others' status; read Dinis's 13:00 'recruit contributors' (/contribute/)"
   ],
   "next": [
     "the app: location on request ('from where I am', on the device only) once dev.venues@'s venue.geojson is public on PrompTugal.news (WS-181), then resize to iPad size; the beta list when its private lane exists",

@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-the-big-graphs"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T15:58:30Z"
-site_version: "v0.1.862"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T18:58:34Z"
+site_version: "v0.1.885"
 source: board/catalogue.json
 ---
 
