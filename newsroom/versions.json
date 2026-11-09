@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.878",
+    "date": "2026-11-09",
+    "what": "security@PrompTugal.dinis: wake 18:05: 25 commits clean; the installable app scoped to /app/",
+    "by": "security@PrompTugal.dinis",
+    "from": "68b785dae"
+  },
+  {
     "version": "v0.1.877",
     "date": "2026-11-09",
     "what": "conductor.b@PrompTugal.dinis: 17:48 watch line and status (the first commit carried only the run report)",
