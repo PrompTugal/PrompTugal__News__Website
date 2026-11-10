@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 5 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T06:59:54Z"
-site_version: "v0.1.961"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T10:00:02Z"
+site_version: "v0.1.979"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 5 of 5)
 
-41 cards, from `PUB.SITE pt:7` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+43 cards, from `PUB.SITE pt:5` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE pt:5` | [PrompTugal: o investimento](https://promptugal.news/investors/decks/5-the-investment/pt/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE pt:6` | [PrompTugal: o que o torna possível](https://promptugal.news/investors/decks/6-the-technology/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pt:7` | [PrompTugal: junte-se a nós](https://promptugal.news/investors/decks/7-join-us/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pt:8` | [PrompTugal: fazer por conta própria](https://promptugal.news/investors/decks/8-do-it-yourself/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pt:9` | [PrompTugal: o que está no ar, uma visita guiada](https://promptugal.news/investors/decks/9-the-tour/pt/) | site | investors@ 7 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `PUB.SITE thanks` | [Gracias](https://promptugal.news/investors/es/thanks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thanks:2` | [Merci](https://promptugal.news/investors/fr/thanks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thanks:3` | [Obrigado](https://promptugal.news/investors/pt/thanks/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE thanks:4` | [Thank you](https://promptugal.news/investors/thanks/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE thinking` | [What we think](https://promptugal.news/investors/thinking/) | site | investors@ 7 Nov 2026 |
 
-**Cards 426 to 441**
+**Cards 426 to 443**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE thanks:4` | [Thank you](https://promptugal.news/investors/thanks/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE thinking` | [What we think](https://promptugal.news/investors/thinking/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thinking:2` | [Lo que pensamos](https://promptugal.news/investors/es/thinking/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thinking:3` | [Ce que nous pensons](https://promptugal.news/investors/fr/thinking/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thinking:4` | [O que pensamos](https://promptugal.news/investors/pt/thinking/) | site | investors@ 7 Nov 2026 |

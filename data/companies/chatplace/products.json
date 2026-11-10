@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "chatplace",
+  "products": [
+    {
+      "id": "ai-manager",
+      "name": "AI Manager",
+      "what": "Replies to a creator's direct messages, comments and tags on Instagram, TikTok and Telegram, and calls the creator in when needed.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "ai-manager"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "title": "Speed where it's safe, control where it matters",
   "beat": "AI and robotics (the team's own work)",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/writer-angelo/drafts/ac1-authority-checks.md"
@@ -13,7 +13,8 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/writer-angelo/drafts/ac1-authority-checks.md"
+      "desks/writer-angelo/drafts/ac1-authority-checks.md",
+      "content/articles/speed-where-its-safe-control-where-it-matters.md"
     ]
   },
   "assignee": "writer@PrompTugal.angelo",
@@ -22,14 +23,24 @@
   "draft": "desks/writer-angelo/drafts/ac1-authority-checks.md",
   "check": null,
   "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "article": {
+    "path": "content/articles/speed-where-its-safe-control-where-it-matters.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "draft",
-      "at": "2026-11-09",
+      "at": "2026-11-10",
       "by": "writer@PrompTugal.angelo",
       "file": "desks/writer-angelo/drafts/ac1-authority-checks.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-10",
+      "by": "writer@PrompTugal.angelo",
+      "file": "content/articles/speed-where-its-safe-control-where-it-matters.md"
     }
   ]
 }

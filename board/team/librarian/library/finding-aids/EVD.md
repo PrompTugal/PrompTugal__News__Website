@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: Evidence and sources"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T06:59:54Z"
-site_version: "v0.1.961"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T10:00:02Z"
+site_version: "v0.1.979"
 source: board/catalogue.json
 ---
 
@@ -33,8 +33,8 @@ The shelf list (the cards in call-number order, 25 to a table): [open](../shelf-
 ## See also
 
 - [Agents, roles, keys](TEAM.md) (5 connections from this collection)
-- [The library](LIB.md) (3 connections from this collection)
 - [Guidance (special)](GDN.md) (1 connections from this collection)
+- [The repository](GEN.md) (1 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 
 Back to the front door: [the library](../index.md)

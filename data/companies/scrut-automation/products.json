@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "scrut-automation",
+  "products": [
+    {
+      "id": "scrut-teammates",
+      "name": "Scrut Teammates",
+      "what": "AI teammates that draft policies, collect evidence, detect risks, assess vendors and prepare for audits.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "compliance-with-teammates"
+      ]
+    }
+  ]
+}

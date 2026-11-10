@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-10T08:50Z",
+  "updated": "2026-11-10T10:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -70,10 +70,11 @@
     "Translations, the data part (Dinis 19:25 via conductor@, signed by its active key): data/translations/<type>/<id>/<locale>.json with translation.schema.json (the English source and its sha256, the machine-translated label, model, date, by) and the gate's check (entity exists, locale one of the 20 machine cultures of assets/app/i18n.json); data/README.md (20:21 wake, 9 Nov)",
     "dev@'s contributors.schema.json (the collaborators' wall) reviewed and kept: no contact field, closed objects, consent per name; dev@ told. Translations still wait on Dinis's word on OpenRouter (22:21 wake, 9 Nov)",
     "THE RESTART (Dinis 02:40; conductor@ 04:05, active key): GAMMA-Ray read at source (its own repository and site; cards.json Spectrum 0.1 beta, four axes, a constellation of eight standards, 'link to a card, do not copy it', no company card yet); company.schema.json takes gamma_ray {id, card URL} as a link; no parallel card schema; conductor@ told (06:21 wake, 10 Nov)",
-    "THE RESTART, companies as a graph, step 1: the type product and the verb offers in the ontology; company-products schema, the gate's checks (sources, flow ids) and lib/data.mjs's reader; ten products from the companies' own pages, each tied to its flow (Ledger Agent Intent, JetBrains Air, AgentControl, Exa Search API, KeewanoDB, Agent Control Tower, Legal Workflows, LegalOS, Kairos, Argus); dev@ asked for the nodes, the small graph and a Products section (08:21 wake, 10 Nov)"
+    "THE RESTART, companies as a graph, step 1: the type product and the verb offers in the ontology; company-products schema, the gate's checks (sources, flow ids) and lib/data.mjs's reader; ten products from the companies' own pages, each tied to its flow (Ledger Agent Intent, JetBrains Air, AgentControl, Exa Search API, KeewanoDB, Agent Control Tower, Legal Workflows, LegalOS, Kairos, Argus); dev@ asked for the nodes, the small graph and a Products section (08:21 wake, 10 Nov)",
+    "Products, step 2: fourteen more from the flows' sources (1Password for Agents, Secure Agentic Autofill, AI Manager, Cloudflare Agents, VerifyAX, Charlotte AI, Agentic Identity Hub, Farol, Firefox Enterprise, Hexgate, Mastra, Qase AI, Replit Agent, Scrut Teammates): 24 products for 23 companies. Seven companies' sources name no product (Airia, AISLE, Emergence AI, Melious, Primitive, Temporal, Trent AI): none guessed (10:21 wake, 10 Nov)"
   ],
   "next": [
-    "THE RESTART: products for the other 18 companies with flows; coverage edges (articles about each company); related companies; then ask dev@ to draw them",
+    "THE RESTART: coverage edges (articles about each company) and related companies; the product nodes wait on dev@ (its restart waits on Dinis)",
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
@@ -470,6 +471,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "products as a type: ontology, schema, reader, ten products"
+    },
+    {
+      "started": "2026-11-10T10:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "fourteen more products (24 in all)"
     }
   ],
   "decisions_on_findings": [

@@ -100,6 +100,26 @@
    "PrompTugal__App__iOS": "6312b5e8",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "News: the agentic edition on the front page (correspondent@); dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T08:37Z",
+   "SGit-AI__Website__Web-Summit": "d77d0cd8",
+   "PrompTugal__News__Website": "00ba9b27",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: design flip round 2 (Spectrum strip); products in the graph; dev@ and dev.pages@ still off."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T09:41Z",
+   "SGit-AI__Website__Web-Summit": "af0fcc5a",
+   "PrompTugal__News__Website": "c4f8fbaf",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: dev@ and dev.pages@ still off (conductor.b@ 08:48 refused the relayed go); design flip read by sherpa@; Angelo's article published."
   }
  ]
 }

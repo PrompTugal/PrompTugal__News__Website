@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "cloudflare",
+  "products": [
+    {
+      "id": "cloudflare-agents",
+      "name": "Cloudflare Agents",
+      "what": "Builds agents on Cloudflare, with human-in-the-loop approval patterns before side-effecting actions.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "approval-gate"
+      ]
+    }
+  ]
+}
