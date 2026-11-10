@@ -1248,6 +1248,24 @@
         "signing_fingerprint": "sha256:26455cf9452722d4"
       },
       "status": "active"
+    },
+    {
+      "id": "conductor.B.vicky-promptugal",
+      "label": "conductor.B@PrompTugal.vicky (Claude Code session, Vicky's account)",
+      "agent": "conductor.B@PrompTugal.vicky",
+      "role": "Vicky Wang's conductor for PrompTugal.news on her own Claude account (from 10 November 2026): carries on conductor.b@PrompTugal.dinis's account-B work after that account ran out of usage, starts and schedules Vicky's @PrompTugal.vicky agents from this account (Dinis agreed, relayed by Vicky), and keeps board/team/conductor.B.vicky/.",
+      "how": "Made by the agent in its own session (session_015JeffHvsjMcwU9Lc1RHium) on 10 November 2026 at 11:42 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the team's pin). Not yet linked to an operator's key. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1c3bEn7DFikxL1JL2lKy\nbvmeE/deVP/EPh4Ug26rFInkhZFoLKHzOxqYpnJ/73nEFy3Jo9ijI6qDL17wo7n1\nrlbvjtLenoTK7ou6JgHa5QsBjJ7pOl5CK2gJyLiOXDpryEng7Qq7vKnRGOsWo4zy\n2nKe1M/Oh8QM+XUy/0LOKf9UAFFv7JLst7Jy+9d0i5IykynJHD7NlkquHeY+snxK\nttTBV7/XTsHfJKPfe6UcMthWGDxZmzGc9YRWTtBvCmrBHvduvo4iqDwSh9uobkCJ\n/OXO1XsC7/xaYsVXZPc3q85wodT3STZPktEkAyaNFY13fTBX2n1PNE9SiWWMdE1Y\nQp6od6jMoLUfyAePEAurIxfV+xTw26mTXFH8g70LA2crcWEIG+TKnSCNax+3wGZz\nwaMSS+kbfXFsQIJDC04iIxhBVHQF8iqmmuJIAsheSWKT8S9RaNFxq2CvZz0k5KLC\naktw1N+kXDskpy+EdLlK6aoGjhCHnhWpS/JfgIPTDXAO22Rr+A2Rz8irocHDPbac\nnUevpAQiSUUVr1KbypnVL/V7fCgF7HWLOG0IJAYFKFw32TWswfNHPp/pSuzTuN5m\n0R5AVP4h6X1J6ZSyzBlf2/RrZ3eEJRI4cutokAb5VQKoITeCo2FHAVYMTfmPomT1\nCPZZ4ddmjiuHEmN5QsAggGcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsQLkQefMzvCBsh3uasiOnGYrkcRe\no8Ot4j4jlOIS4rlelJZPe6fhkGBTJP+n7ntLVgIfxk4ZejF79JHXeaydnA==\n-----END PUBLIC KEY-----\n",
+        "label": "conductor.B@PrompTugal.vicky",
+        "fingerprint": "sha256:b6f025a0d5c9b08b",
+        "record": "sha256:77f1e79088418e39",
+        "signing_fingerprint": "sha256:77f1e79088418e39"
+      },
+      "status": "active"
     }
   ]
 }
