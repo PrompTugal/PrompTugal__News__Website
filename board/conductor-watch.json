@@ -544,6 +544,17 @@
       "PrompTugal__App__iOS": "421d0090",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "20ae85f4",
+      "PrompTugal__News__Website": "b9a58006",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "fadbce90",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "6d53db3f",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T15:18Z",
+      "note": "reporter@ and journalist.examples@ shipped the first two examples (/examples/). Two decks for Dinis's meetings (/meetings/2026-11-10-1500/show/, -1600/). pt.news redesign round 4 (interviews, summit now, scores, newsroom); Vicky's desk published S41 (Lisbon wind warning) and S42 (Lovable). Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
     }
   ]
 }
