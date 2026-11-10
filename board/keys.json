@@ -978,7 +978,9 @@
         "fingerprint": "sha256:807b5555ea2d94ad",
         "signing_fingerprint": "sha256:b13061c99fd1d102"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-10T11:56Z",
+      "superseded_by": "checker-vicky-promptugal-b"
     },
     {
       "id": "claims-issuer-promptugal",
@@ -1419,6 +1421,23 @@
         "fingerprint": "sha256:b96073571bc796a5",
         "signing_fingerprint": "sha256:2b712d4526d1b16e",
         "record": "sha256:2b712d4526d1b16e"
+      },
+      "status": "active"
+    },
+    {
+      "id": "checker-vicky-promptugal-b",
+      "agent": "checker@PrompTugal.vicky",
+      "label": "checker@PrompTugal.vicky (Claude Code session, Vicky's account, from 10 November 2026)",
+      "role": "Vicky Wang's checker for PrompTugal.news: fact-checks what the @PrompTugal.dinis agents publish or draft (facts, sources and links, not style) and writes its findings in desks/checker-vicky/findings/, one file per article. Takes over the fact-checks of reviewer@PrompTugal.vicky from commit fe53df45. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 10 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Takes over from checker-vicky-promptugal (handover, CLAUDE.md). The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvY/T08oL/QQdSpGBPg+0\nlJopXUceOSzRk+gt0uTcRKbJ/YIHYhW52NJ8myDZ53EWnqUYmQ5Sg8GeA2hIAYFs\nzx2Mz5hSpnMykx+AU0njAUmBsgqvTrxClARmQhdW38sORmyqsg+NaJLl5VRM/zZI\nCA76ZNVSc9pD3dVRsUa3c/riyFcAAZaASNdgb/8luOT/XZayjIY6XTmBXVC28MlT\nwXNgVYqqDwqgF+PXhn2KaIpyqOanJEC4sqHwn8jC3dpqsxlTren0LJNHyXVILEMV\npv7EI8k4/O4cG877QAa8AkdN47RcTVn6Jue3PovqOgOg2K9R0Nn7bLTOJAwY2wM6\nPfZSKDfhdHuPF8otryRGpVhaaomxre0fwrFkSTCkKE0FjOdlYFaP0yGv/Xr/hfd8\nx6FBq83AGINfU7A6ZLTSPd5F89T/8nqPLlJ3sTRK+hHLaJXrqMSMMqrCaR9Eip8O\n/TMIuUPJarxA1sfW72hUEk3KF15LIWryLIpz24skUspMygemhA8rbb4FdWiqbOHF\nLfoy3KL5o+iMr4LQZMLalydvKS9Pli4KeVy4PC9wDKdOJbtW8xprFa8oQRlNUVkr\nqzS34z/vsuAJT1ZRO3BmTfWFXcAdSNOHZ3Ekmcl5R4sTIM/QpxqJoYQUyplitODJ\ngj98Y6Vc0x40bRbWPHPoXPkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUIFJGQqZigLonbObGEGnvBf5kLNR\nTAIt2cELo8Ohz5OJgExTKWbh1uKlMLUP0VcWBvxDNXYmD+gCPh2hklqgug==\n-----END PUBLIC KEY-----\n",
+        "label": "checker@PrompTugal.vicky",
+        "fingerprint": "sha256:3abdaae9fe9a6386",
+        "signing_fingerprint": "sha256:946a20db81a9823d"
       },
       "status": "active"
     }
