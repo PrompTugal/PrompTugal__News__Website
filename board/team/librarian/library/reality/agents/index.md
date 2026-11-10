@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2802 cards (2800 current, 1 superseded, 1 withdrawn), from the catalogue generated 2026-11-10T06:59:54Z at site v0.1.961; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2866 cards (688 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-10T10:00:02Z at site v0.1.979; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `RDR.SHERPA` | 23 |
+| `RDR.SHERPA` | 24 |
 | `RDR.SYN` | 5 |
 | `TEAM.ABP` | 53 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 64 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1512 |
-| `TEAM.RUN` | 1113 |
+| `TEAM.ROLE` | 1527 |
+| `TEAM.RUN` | 1161 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261110-0095` [2026-11-10T06-51-38Z.json](https://promptugal.news/board/runs/conductor.b/2026-11-10T06-51-38Z.json) (`TEAM.RUN 2026-11-10T06-51-38Z`)
-- `ACC-20261110-0094` [2026-11-10T06-48-48Z.json](https://promptugal.news/board/runs/accountant/2026-11-10T06-48-48Z.json) (`TEAM.RUN 2026-11-10T06-48-48Z`)
-- `ACC-20261110-0093` [2026-11-10T06-42-56Z.json](https://promptugal.news/board/runs/correspondent/2026-11-10T06-42-56Z.json) (`TEAM.RUN 2026-11-10T06-42-56Z`)
-- `ACC-20261110-0092` [2026-11-10T06-33-33Z.json](https://promptugal.news/board/runs/designer/2026-11-10T06-33-33Z.json) (`TEAM.RUN 2026-11-10T06-33-33Z`)
-- `ACC-20261110-0091` [2026-11-10T06-29-49Z.json](https://promptugal.news/board/runs/sherpa/2026-11-10T06-29-49Z.json) (`TEAM.RUN 2026-11-10T06-29-49Z`)
+- `ACC-20261110-0176` [runs/synthetic/](https://promptugal.news/board/runs/synthetic/) (`TEAM.RUN synthetic`)
+- `ACC-20261110-0175` [runs/sherpa/](https://promptugal.news/board/runs/sherpa/) (`TEAM.RUN sherpa`)
+- `ACC-20261110-0174` [runs/security/](https://promptugal.news/board/runs/security/) (`TEAM.RUN security`)
+- `ACC-20261110-0173` [runs/reviewer@PrompTugal.vicky/](https://promptugal.news/board/runs/reviewer@PrompTugal.vicky/) (`TEAM.RUN reviewer@PrompTugal`)
+- `ACC-20261110-0172` [runs/researcher/](https://promptugal.news/board/runs/researcher/) (`TEAM.RUN researcher`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

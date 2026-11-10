@@ -15,7 +15,8 @@ export const KINDS = [
     [/^data\/companies\/[^/]+\/facts\.json$/, 'company-facts'],
     [/^data\/companies\/[^/]+\/edges\.json$/, 'company-edges'],
     [/^data\/companies\/[^/]+\/recheck\.json$/, 'company-recheck'],
-    [/^data\/companies\/[^/]+\/flows\.json$/, 'company-flows'],     // its schema is the ontologist's (data/schemas/)
+    [/^data\/companies\/[^/]+\/flows\.json$/, 'company-flows'],
+    [/^data\/companies\/[^/]+\/products\.json$/, 'company-products'],   // THE RESTART: a company's named products (the ontologist's)     // its schema is the ontologist's (data/schemas/)
     [/^data\/events\/[^/]+\/event\.json$/, 'event'],
     [/^data\/people\/[^/]+\/person\.json$/, 'person'],
     [/^data\/organisations\/[^/]+\/organisation\.json$/, 'organisation'],
@@ -91,6 +92,12 @@ export function checkData() {
         for (const a of c.aliases) if (a.source && !ids.has(a.source)) errors.push(`data/companies/${c.id}: alias "${a.name}" cites ${a.source}, which is not in sources.json`)
         for (const fl of c.flows) for (const st of [fl, ...(fl.steps || [])]) for (const id of [st.source].flat().filter(Boolean)) if (!ids.has(id)) errors.push(`data/companies/${c.id}/flows.json: flow "${fl.id}" cites ${id}, which is not in sources.json`)
         for (const f of c.facts) if (!ids.has(f.source)) errors.push(`data/companies/${c.id}/facts.json: ${f.id} cites ${f.source}, which is not in sources.json`)
+        { const fids = new Set(c.flows.map(x => x.id)), pids = new Set()
+          for (const p of c.products || []) {
+            if (pids.has(p.id)) errors.push(`${c.id}/products.json: ${p.id} x2`); pids.add(p.id)
+            if (!ids.has(p.source)) errors.push(`${c.id}/products.json: ${p.id}: ${p.source}`)
+            for (const fl of p.flows || []) if (!fids.has(fl)) errors.push(`${c.id}/products.json: ${p.id}: flow ${fl}`)
+          } }
         for (const e of c.edges) {
             if (!ids.has(e.source)) errors.push(`data/companies/${c.id}/edges.json: ${e.verb} cites ${e.source}, which is not in sources.json`)
             if (!e.to === !e.to_url) errors.push(`data/companies/${c.id}/edges.json: a ${e.verb} edge needs exactly one of to or to_url`)

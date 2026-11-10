@@ -1,14 +1,14 @@
 ---
-title: "Shelf list: TEAM, Agents, roles, keys (part 10 of 28)"
+title: "Shelf list: TEAM, Agents, roles, keys (part 10 of 29)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T06:59:54Z"
-site_version: "v0.1.961"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T10:00:02Z"
+site_version: "v0.1.979"
 source: board/catalogue.json
 ---
 
-# Shelf list: TEAM, Agents, roles, keys (part 10 of 28)
+# Shelf list: TEAM, Agents, roles, keys (part 10 of 29)
 
-100 cards, from `TEAM.ROLE 2026-11-07T0350Z` to `TEAM.ROLE 4-the-algarve`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE 2026-11-07T0350Z` to `TEAM.ROLE 3-the-platform.pt`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 901 to 925**
 
@@ -114,20 +114,20 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-09T2152Z` | [2026-11-09T2152Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-09T2152Z.json) | team | conductor.b@ 9 Nov 2026 |
 | `TEAM.ROLE 2026-11-10-0405-wake` | [Wake 04:05, 10 November: 69 commits since a4fda2af5 (the big stop and the restart), clean; S33 and S34 closed; conditions ahead for GAMMA-Ray's company scores](https://promptugal.news/board/team/security/reviews/2026-11-10-0405-wake.md) | team | security@ 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-10-0605-wake` | [Wake 06:05, 10 November: 15 commits since 417e26958, clean; Dinis confirmed GAMMA-Ray scores under conditions that match mine](https://promptugal.news/board/team/security/reviews/2026-11-10-0605-wake.md) | team | security@ 10 Nov 2026 |
+| `TEAM.ROLE 2026-11-10-0805-wake` | [Wake 08:05, 10 November: 14 commits since 2345638da, clean; GAMMA-Ray cards as links only](https://promptugal.news/board/team/security/reviews/2026-11-10-0805-wake.md) | team | security@ 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-10-gamma-ray-public-shape` | [GAMMA-Ray Public: one question set, many standards, tiers that add coverage (shape for debate)](https://promptugal.news/board/team/gamma-ray/research/2026-11-10-gamma-ray-public-shape.md) | team | gamma-ray@web-summit.dinis 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-10-handover` | [Hand-over: accountant@, 10 November 2026](https://promptugal.news/board/team/accountant/debriefs/2026-11-10-handover.md) | team | accountant@ 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-10-handover:2` | [designer@PrompTugal.dinis: hand-over, 10 November 2026 (session 3, account B)](https://promptugal.news/board/team/designer/debriefs/2026-11-10-handover.md) | team | designer@ 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-10-outside-coverage-first-pass` | [GAMMA-Ray: how much of each standard can be read from outside (first pass)](https://promptugal.news/board/team/gamma-ray/research/2026-11-10-outside-coverage-first-pass.md) | team | gamma-ray@web-summit.dinis 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-10T0655Z` | [2026-11-10T0655Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-10T0655Z.json) | team | conductor.b@ 10 Nov 2026 |
-| `TEAM.ROLE 3-the-platform` | [3-the-platform.pdf](https://promptugal.news/board/team/investors/decks/3-the-platform.pdf) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 3-the-platform.en` | [3-the-platform.en.jpg](https://promptugal.news/board/team/investors/site/img/covers/3-the-platform.en.jpg) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 3-the-platform.es` | [3-the-platform.es.pdf](https://promptugal.news/board/team/investors/decks/3-the-platform.es.pdf) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 3-the-platform.es:2` | [3-the-platform.es.jpg](https://promptugal.news/board/team/investors/site/img/covers/3-the-platform.es.jpg) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 3-the-platform.fr` | [3-the-platform.fr.pdf](https://promptugal.news/board/team/investors/decks/3-the-platform.fr.pdf) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 3-the-platform.fr:2` | [3-the-platform.fr.jpg](https://promptugal.news/board/team/investors/site/img/covers/3-the-platform.fr.jpg) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 3-the-platform.pt` | [3-the-platform.pt.pdf](https://promptugal.news/board/team/investors/decks/3-the-platform.pt.pdf) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 3-the-platform.pt:2` | [3-the-platform.pt.jpg](https://promptugal.news/board/team/investors/site/img/covers/3-the-platform.pt.jpg) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 3-the-platform:2` | [3-the-platform.tpl](https://promptugal.news/board/team/investors/decks/src/3-the-platform.tpl) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 4-the-algarve` | [4-the-algarve.pdf](https://promptugal.news/board/team/investors/decks/4-the-algarve.pdf) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 2026-11-10T0950Z` | [2026-11-10T0950Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-10T0950Z.json) | team | accountant@ 10 Nov 2026 |
+| `TEAM.ROLE 2026-11-10T0952Z` | [2026-11-10T0952Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-10T0952Z.json) | team | conductor.b@ 10 Nov 2026 |
+| `TEAM.ROLE 3-the-platform` | [3-the-platform.pdf](https://promptugal.news/board/team/investors/decks/3-the-platform.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 3-the-platform.en` | [3-the-platform.en.jpg](https://promptugal.news/board/team/investors/site/img/covers/3-the-platform.en.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 3-the-platform.es` | [3-the-platform.es.pdf](https://promptugal.news/board/team/investors/decks/3-the-platform.es.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 3-the-platform.es:2` | [3-the-platform.es.jpg](https://promptugal.news/board/team/investors/site/img/covers/3-the-platform.es.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 3-the-platform.fr` | [3-the-platform.fr.pdf](https://promptugal.news/board/team/investors/decks/3-the-platform.fr.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 3-the-platform.fr:2` | [3-the-platform.fr.jpg](https://promptugal.news/board/team/investors/site/img/covers/3-the-platform.fr.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 3-the-platform.pt` | [3-the-platform.pt.pdf](https://promptugal.news/board/team/investors/decks/3-the-platform.pt.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-9.md) | [Next part](TEAM-11.md)

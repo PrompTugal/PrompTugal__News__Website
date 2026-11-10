@@ -17,3 +17,7 @@ Dinis, in the conductor's session, answering its two asks of 05:38 UTC:
    - a positive tone, and public information only;
    - open to correction;
    - shipped on security@'s pass.
+
+## Again at about 08:45 UTC
+
+Dinis typed, in the conductor's session: "go: restart dev@ and dev.pages@". Relayed to conductor.b@ on its inbox at 08:45 UTC.

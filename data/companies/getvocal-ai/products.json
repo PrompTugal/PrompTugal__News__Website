@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "getvocal-ai",
+  "products": [
+    {
+      "id": "agent-control-tower",
+      "name": "Agent Control Tower",
+      "what": "Monitors customer-service agents live, enforces policy, overrides any agent and audits every decision.",
+      "agentic": true,
+      "source": "own1",
+      "flows": [
+        "human-approval-in-cx"
+      ]
+    }
+  ]
+}

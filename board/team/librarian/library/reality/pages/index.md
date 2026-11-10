@@ -29,7 +29,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1282 cards (1251 current, 0 superseded, 31 withdrawn), from the catalogue generated 2026-11-10T06:59:54Z at site v0.1.961; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1283 cards (1252 current, 0 superseded, 31 withdrawn), from the catalogue generated 2026-11-10T10:00:02Z at site v0.1.979; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -41,15 +41,15 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 226 |
+| `PUB.SITE` | 227 |
 
 Newest five accessions:
 
+- `ACC-20261110-0104` [Morning edition: Tuesday 10 November](https://promptugal.news/newsletter/2026-11-10-morning/) (`PUB.SITE 2026-11-10-morning`)
 - `ACC-20261110-0036` [Leo Tashev and Fraser Lloyd, Student Property Network: interview at Night Summit](https://promptugal.news/interviews/student-property-network/leo-tashev-and-fraser-lloyd/) (`PUB.SITE leo-tashev-and-fraser-lloyd`)
 - `ACC-20261110-0035` [Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night](https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/) (`PUB.SITE guy-ben-zvi`)
 - `ACC-20261110-0016` [Steve Clemons](https://promptugal.news/people/steve-clemons/) (`DAT.PE steve-clemons`)
 - `ACC-20261110-0015` [Sarakshi Rai](https://promptugal.news/people/sarakshi-rai/) (`DAT.PE sarakshi-rai`)
-- `ACC-20261110-0014` [Peter Koerte](https://promptugal.news/people/peter-koerte/) (`DAT.PE peter-koerte`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

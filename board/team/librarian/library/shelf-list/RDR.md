@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: RDR, Readers and observability"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T06:59:54Z"
-site_version: "v0.1.961"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T10:00:02Z"
+site_version: "v0.1.979"
 source: board/catalogue.json
 ---
 
 # Shelf list: RDR, Readers and observability
 
-33 cards, from `RDR.OBS 2026-11-06-handover` to `RDR.SYN status`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+34 cards, from `RDR.OBS 2026-11-06-handover` to `RDR.SYN status`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -40,12 +40,13 @@ source: board/catalogue.json
 | `RDR.SHERPA review-2026-11-08-0030-planning-monday` | [sherpa@: the attendee on Sunday night, planning Monday (Opening Night) on a phone (v0.1.677)](https://promptugal.news/board/team/sherpa/review-2026-11-08-0030-planning-monday.md) | team | sherpa@ 8 Nov 2026 |
 | `RDR.SHERPA review-2026-11-09-0330-the-list-pages` | [sherpa@: the list pages and the Agenda, the day before the summit (v0.1.774)](https://promptugal.news/board/team/sherpa/review-2026-11-09-0330-the-list-pages.md) | team | sherpa@ 9 Nov 2026 |
 
-**Cards 26 to 33**
+**Cards 26 to 34**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
 | `RDR.SHERPA review-2026-11-09-1830-the-app` | [sherpa@: the news app on the web (/app/), read cold on Opening Night (v0.1.879)](https://promptugal.news/board/team/sherpa/review-2026-11-09-1830-the-app.md) | team | sherpa@ 9 Nov 2026 |
 | `RDR.SHERPA review-2026-11-10-0630-day-1-home` | [sherpa@: the home page on the summit's first day, on a phone (v0.1.957)](https://promptugal.news/board/team/sherpa/review-2026-11-10-0630-day-1-home.md) | team | sherpa@ 10 Nov 2026 |
+| `RDR.SHERPA review-2026-11-10-0930-the-design-flip` | [sherpa@: the design flip (A Azulejo, B Calcada, C Jornal, B round 2), read on a phone first, for the reader](https://promptugal.news/board/team/sherpa/review-2026-11-10-0930-the-design-flip.md) | team | sherpa@ 10 Nov 2026 |
 | `RDR.SHERPA status` | [status.json](https://promptugal.news/board/team/sherpa/status.json) | team | sherpa@ 6 Nov 2026 |
 | `RDR.SYN 2026-11-06-handover` | [synthetic@PrompTugal.dinis: final hand-over debrief, 6 November 2026 (moving to account B)](https://promptugal.news/board/team/synthetic/debriefs/2026-11-06-handover.md) | team | synthetic@ 6 Nov 2026 |
 | `RDR.SYN 2026-11-07-handover` | [synthetic@PrompTugal.dinis: hand-over debrief, 7 November 2026 (account B session)](https://promptugal.news/board/team/synthetic/debriefs/2026-11-07-handover.md) | team | synthetic@ 7 Nov 2026 |

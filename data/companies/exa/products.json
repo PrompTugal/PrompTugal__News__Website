@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "exa",
+  "products": [
+    {
+      "id": "exa-search-api",
+      "name": "Exa Search API",
+      "what": "Web search for AI agents at three latencies, returning results, answers or structured data.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "agent-searches-the-web"
+      ]
+    }
+  ]
+}

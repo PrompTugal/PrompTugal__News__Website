@@ -169,6 +169,11 @@ export function buildCards(ctx) {
     if (!old && (reg.commit || reg.made_on)) card.provenance.made = { by: null, on: reg.made_on, commit: reg.commit }
     card.status = 'withdrawn'
     card.call = reg.call
+    // a withdrawn card is kept, slim (10 November 2026): its identity, call, accession, place and provenance stay; its
+    // old links go (the link builder writes any live inverse, such as superseded_by, back on it), so the shelf of
+    // withdrawn cards does not grow the library by their links
+    card.links = []
+    if (card.what && card.what.length > 160) card.what = card.what.slice(0, 157) + '...'
     cards.push(card)
   }
 

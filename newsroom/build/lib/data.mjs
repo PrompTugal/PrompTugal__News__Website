@@ -31,7 +31,7 @@ export function readFolder(type) {
 export function readCompanies() {
     return readFolder('company').map(c => {
         const f = n => { const p = R(`data/companies/${c.id}/${n}.json`); return fs.existsSync(p) ? strip(JSON.parse(fs.readFileSync(p, 'utf8'))) : {} }
-        return { ...c, sources: f('sources').sources || [], facts: f('facts').facts || [], edges: f('edges').edges || [], recheck: f('recheck').log || [], flows: f('flows').flows || [] }
+        return { ...c, sources: f('sources').sources || [], facts: f('facts').facts || [], edges: f('edges').edges || [], recheck: f('recheck').log || [], flows: f('flows').flows || [], products: f('products').products || [] }
     })
 }
 

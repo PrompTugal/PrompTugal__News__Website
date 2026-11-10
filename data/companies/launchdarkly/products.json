@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "launchdarkly",
+  "products": [
+    {
+      "id": "agentcontrol",
+      "name": "AgentControl",
+      "what": "One place to keep agent behaviour under control in production: configurations, monitoring, steering and remediation.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "agent-control-in-production"
+      ]
+    }
+  ]
+}

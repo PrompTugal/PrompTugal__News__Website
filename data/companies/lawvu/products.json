@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "lawvu",
+  "products": [
+    {
+      "id": "legalos",
+      "name": "LegalOS",
+      "what": "A legal operating system: intake, matters, contracts and spend, with agents that act within the team's rules and hand off to a lawyer.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "request-to-resolution"
+      ]
+    }
+  ]
+}
