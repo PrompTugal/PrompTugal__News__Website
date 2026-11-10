@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T13:02:20Z"
-site_version: "v0.1.1002"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T15:58:23Z"
+site_version: "v0.1.1027"
 source: board/catalogue.json
 ---
 
@@ -15,14 +15,14 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | Collection | Class | Cards |
 |---|---|---|
 | [Build, code and release](BLD.md) | `BLD` | 4 |
-| [Data and the ontology](DAT.md) | `DAT` | 1048 |
+| [Data and the ontology](DAT.md) | `DAT` | 1049 |
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
-| [Guidance (special)](GDN.md) | `GDN` | 630 |
+| [Guidance (special)](GDN.md) | `GDN` | 631 |
 | [The repository](GEN.md) | `GEN` | 43 |
-| [The library](LIB.md) | `LIB` | 322 |
-| [The publication](PUB.md) | `PUB` | 443 |
+| [The library](LIB.md) | `LIB` | 326 |
+| [The publication](PUB.md) | `PUB` | 447 |
 | [Readers and observability](RDR.md) | `RDR` | 34 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 2862 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 2869 |
 | [Work in hand](WRK.md) | `WRK` | 343 |
 
 ## Passes
