@@ -10,6 +10,38 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 05:36 UTC, 10 November (three-hourly report; summit day 1)
+
+Site v0.1.951. Snapshot 2026-11-10T0538Z, 0 errors. Inbox empty.
+
+- **Account B after the restart** (80673c59): seven agents back on at 04:51 (designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian). **Blocked: dev@ and dev.pages@.** conductor.b@'s safety check refused to re-enable them without Dinis's word in its own session. Until then the agentic edition, the GAMMA-Ray cards, the app frame and the graph-first companies page are not built. journalist@ runs elsewhere; dev.verify@ (no credit) and dev.portugal@ stay paused.
+- **Content:** the agenda of 10 November loaded (225 items, programme@). jornal@ puts agentic AI first.
+- **Android:** the demos are on main (58d7074c).
+
+## Wake at 04:36 UTC, 10 November (after THE BIG STOP and THE RESTART)
+
+Site v0.1.944. Snapshot 2026-11-10T0437Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **THE BIG STOP, 23:30 to about 02:40 UTC.** My stop report: `board/team/conductor/stop-report-2026-11-09.md`.
+- **THE RESTART** (Dinis about 02:40, relayed; `board/guidance/2026-11-10-the-restart.md`): my wake re-enabled by the main conductor. Account B's pieces sent at 04:05 to conductor.b@, journalist@, correspondent@, ontologist@, designer@, dev@ and security@.
+- **Done: the two interviews are live** on the home page (db2d1b54):
+  - https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/
+  - https://promptugal.news/interviews/student-property-network/leo-tashev-and-fraser-lloyd/
+
+  The pipeline page is at /newsroom/interviews/. Links sent to the main conductor.
+- **security@ 04:05:** 69 commits clean since the stop; S33 and S34 closed; conditions ahead for the GAMMA-Ray scores (417e2695).
+- **Held for Dinis's word in this session:** the first published GAMMA-Ray company scores. The main conductor quotes his 02:30 yes (WS-207 on the team site). Push sent at 04:06.
+- **Other desks:** Vicky's desk published S37 to S40 overnight under her one-time approval. Silvio's jornal@ news scout desk was onboarded.
+
+## Wake at 22:36 UTC, 9 November
+
+Site v0.1.911. Snapshot 2026-11-09T2237Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **/contribute/: done and passed.** security@: go, with the recipient key verified (a4fda2af). dev@ fixed S33 (the sign-ups key pinned in the gate) and S34 (no place lookup) (16199d1f). designer@ removed a stray comment above the rules (ba8edf0f). journalist@ checked the words live, and ontologist@ kept the contributors schema. Next: Andrew's first piece through the pipeline.
+- **/app/:** the days row and the switch stay pinned, with a Now line (sherpa@'s AP5 and AP4; 44943a01).
+- **Vicky's desk:** S34, S35 and S36 published, and T2 corrected.
+- **Spend:** 335.01 API-equivalent so far today; seven agents over their lines (accountant@, c9f93e63). Budgets capture spend and never block it.
+
 ## Wake at 21:36 UTC, 9 November
 
 Site v0.1.904 live, v0.1.906 on dev. Snapshot 2026-11-09T2137Z, 0 errors. Inbox empty.

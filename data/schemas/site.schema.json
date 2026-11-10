@@ -161,6 +161,43 @@
         },
         "additionalProperties": false
       }
+    },
+    "share": {
+      "type": "object",
+      "description": "The share row's words (newsroom/build/features/share.mjs).",
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        },
+        "copy": {
+          "type": "string"
+        },
+        "copied": {
+          "type": "string"
+        },
+        "targets": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "linkedin": {
+              "type": "string"
+            },
+            "x": {
+              "type": "string"
+            },
+            "whatsapp": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "additionalProperties": false

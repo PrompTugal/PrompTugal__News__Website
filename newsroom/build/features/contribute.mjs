@@ -37,7 +37,9 @@ export function pages(ctx) {
         `## The wall {#wall}\n\n${wallLine}`, slot('wall'), `## Get the app first {#beta}\n\n${beta.replace(/^\*\*Get the app first\.\*\*\s*/, '')}`, slot('beta'),
         `Everything published from this page is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): anyone can reuse it, with credit to its author.`].join('\n\n')
     return [{ rel: 'contribute/index.html', src: WORDS, type: 'site', section: 'about', title: get('Title').split('\n')[0] || 'Write for PrompTugal.news',
-        summary: get('Summary').split('\n')[0], md, assets: { css: ['assets/contribute/contribute.css'], js: ['assets/contribute/contribute.js'] },
+        summary: get('Summary').split('\n')[0], md,
+        // designer@'s share picture: the seven rules, 1200 x 630 (board/spec-contribute-page.md)
+        meta: { image: 'design/contribute/rules--share.png', image_alt: 'The rules of the game for writing for PrompTugal.news, in seven lines', image_width: 1200, image_height: 630 }, assets: { css: ['assets/contribute/contribute.css'], js: ['assets/contribute/contribute.js'] },
         postHtml: h => fill(h, ctx) }]
 }
 

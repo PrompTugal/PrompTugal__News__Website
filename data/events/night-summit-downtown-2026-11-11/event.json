@@ -21,7 +21,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/essentials/schedule/",
-  "read_at": "2026-11-09T05:06Z",
+  "read_at": "2026-11-10T05:06Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -32,6 +32,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 171
+    "item": 169
   }
 }

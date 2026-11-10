@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-getvocal-glovo",
+  "type": "evidence",
+  "source_url": "https://www.getvocal.ai/customers/glovo",
+  "beat": "AI and robotics",
+  "group": "OVERNIGHT-10NOV pivot",
+  "names": [],
+  "desk_file": "desks/curator/2026-11-10-0110.json",
+  "run": "2026-11-10T01:10Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-0110.json"
+    ]
+  }
+}

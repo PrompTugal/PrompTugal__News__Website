@@ -15,7 +15,7 @@
    "started": "2026-11-06T22:23Z",
    "first_prompt": "board/team/conductor/account-move/librarian.md",
    "state": "on",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')"
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "journalist@PrompTugal.dinis",
@@ -25,8 +25,8 @@
    "cron": "26 */2 * * *",
    "started": "2026-11-06T22:44Z",
    "first_prompt": "board/team/conductor/account-move/journalist.md",
-   "state": "on",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)"
+   "state": "stopped",
+   "note": "kept paused at the restart (journalist: another session runs the role; dev.verify: no OpenRouter credit; dev.portugal: nothing new)"
   },
   {
    "agent": "correspondent@PrompTugal.dinis",
@@ -37,7 +37,7 @@
    "started": "2026-11-06T22:44Z",
    "first_prompt": "board/team/conductor/account-move/correspondent.md",
    "state": "on",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)"
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "synthetic@PrompTugal.dinis",
@@ -58,7 +58,7 @@
    "cron": "33 */2 * * *",
    "started": "2026-11-06T22:44Z",
    "first_prompt": "board/team/conductor/account-move/designer.md",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)",
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)",
    "state": "on"
   },
   {
@@ -80,7 +80,7 @@
    "cron": "21 */2 * * *",
    "started": "2026-11-06T22:45Z",
    "first_prompt": "board/team/conductor.b/account-move/ontologist.md",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')",
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)",
    "state": "on"
   },
   {
@@ -114,7 +114,7 @@
    "started": "2026-11-06T22:45Z",
    "first_prompt": "board/team/conductor.b/account-move/sherpa.md",
    "state": "on",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)"
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "investors@PrompTugal.dinis",
@@ -175,8 +175,8 @@
    "cron": "8 * * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.md",
-   "state": "on",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)"
+   "state": "stopped",
+   "note": "still paused: re-enabling refused by the session's safety check at 04:51 UTC 10 Nov; waits for Dinis's word in conductor.b@'s session"
   },
   {
    "agent": "dev.pages@PrompTugal.dinis",
@@ -186,8 +186,8 @@
    "cron": "11 * * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.pages.md",
-   "note": "back on 02:38 UTC 9 Nov at Dinis's word ('Go'): the summit set (board/guidance/2026-11-09-the-summit-set.md)",
-   "state": "on"
+   "note": "still paused: re-enabling refused by the session's safety check at 04:51 UTC 10 Nov; waits for Dinis's word in conductor.b@'s session",
+   "state": "stopped"
   },
   {
    "agent": "dev.search@PrompTugal.dinis",
@@ -209,7 +209,7 @@
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.graphs.md",
    "state": "on",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')"
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "dev.portugal@PrompTugal.dinis",
@@ -219,8 +219,8 @@
    "cron": "23 */4 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.portugal.md",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')",
-   "state": "on"
+   "note": "kept paused at the restart (journalist: another session runs the role; dev.verify: no OpenRouter credit; dev.portugal: nothing new)",
+   "state": "stopped"
   },
   {
    "agent": "dev.data@PrompTugal.dinis",
@@ -231,7 +231,7 @@
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.data.md",
    "state": "on",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')"
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "dev.verify@PrompTugal.dinis",
@@ -241,8 +241,8 @@
    "cron": "48 */4 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.verify.md",
-   "note": "back on 03:08 UTC 9 Nov at Dinis's word ('go: switch on the six from your inbox'; the summit set, 'Added at about 02:50')",
-   "state": "on"
+   "note": "kept paused at the restart (journalist: another session runs the role; dev.verify: no OpenRouter credit; dev.portugal: nothing new)",
+   "state": "stopped"
   },
   {
    "agent": "xray@PrompTugal.dinis",

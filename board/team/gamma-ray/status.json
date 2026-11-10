@@ -1,0 +1,15 @@
+{
+ "agent": "gamma-ray@PrompTugal.dinis",
+ "focus": "GAMMA-Ray has moved to its own repository and site, at Dinis Cruz's word (10 November 2026): https://github.com/SGit-AI/SGit-AI__Website__Gamma-Ray, gamma-ray.sgit.ai",
+ "state": "moved; this folder keeps only this pointer. The research notes are in the new repository under content/research/. Nothing of GAMMA-Ray is implemented in PrompTugal.news",
+ "updated": "2026-11-10T00:39Z",
+ "key": "gamma-ray-promptugal (record sha256:9ecbbbcd315c5f0c)",
+ "done": [
+  "9 to 10 November: the standards checked at source, three research notes, then the move",
+  "draft 0.1 in the new repository: 286 provisions, 69 indicators, 21 questions, two ladders, two scans of our own agents in public vaults"
+ ],
+ "next": [
+  "everything further is in the new repository (its REALITY.md says what exists)"
+ ],
+ "asks": []
+}

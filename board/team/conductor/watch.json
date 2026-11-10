@@ -50,6 +50,36 @@
    "PrompTugal__App__iOS": "39677c22",
    "PrompTugal__App__Mobile": "74332868",
    "note": "News: /contribute/ built on dev (153dd1ca), builds locally, live site at v0.1.904 not yet serving it; Wednesday's edition drafted."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-09T22:37Z",
+   "SGit-AI__Website__Web-Summit": "6402b8a2",
+   "PrompTugal__News__Website": "30ce9f43",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "df767b5e",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "News: /contribute/ live and passed by security@ (a4fda2af); S33, S34 fixed by dev@; S34 to S36 published."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T04:37Z",
+   "SGit-AI__Website__Web-Summit": "70234988",
+   "PrompTugal__News__Website": "174b8198",
+   "PrompTugal__App__Android": "22463b07",
+   "PrompTugal__App__iOS": "155dcbe4",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: THE RESTART; both interviews live on the home page (db2d1b54); S37 to S40 published; GAMMA-Ray scores held for Dinis's word here."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T05:37Z",
+   "SGit-AI__Website__Web-Summit": "18c2f8d3",
+   "PrompTugal__News__Website": "71cb3500",
+   "PrompTugal__App__Android": "068eb662",
+   "PrompTugal__App__iOS": "bd4eab05",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: account B seven back on; dev@ and dev.pages@ wait for Dinis in conductor.b@'s session; agenda of 10 Nov loaded."
   }
  ]
 }

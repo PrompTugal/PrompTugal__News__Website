@@ -43,7 +43,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/2465ed74-ae9c-4705-93dc-54bb7f8ae26d/open-or-closed-ai-models-which-types-of-future-do-they-represent-press-conference/",
   "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/3/",
-  "read_at": "2026-11-09T05:07Z",
+  "read_at": "2026-11-10T05:07Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -53,6 +53,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 142
+    "item": 141
   }
 }

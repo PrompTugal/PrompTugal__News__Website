@@ -28,7 +28,7 @@ PrompTugal.news's [first-day guide](your-first-day-at-web-summit.html) lists thi
 | Wednesday 11 November | no hours listed | 07:30 to 17:00 |
 | Thursday 12 November | no hours listed | 07:30 to 16:45 |
 
-Bring photo ID and your ticket.
+Bring photo ID and your ticket. What the colours of the wristbands and badges mean: [Web Summit's nineteen passes](web-summit-passes-and-colours.html).
 
 ## What past attendees found
 
