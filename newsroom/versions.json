@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.928",
+    "date": "2026-11-10",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "070c57f8f"
+  },
+  {
     "version": "v0.1.927",
     "date": "2026-11-10",
     "what": "run report, third run (GAMMA-Ray Public, the shape)",
