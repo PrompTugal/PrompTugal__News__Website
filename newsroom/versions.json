@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1083",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S44",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "42e527891"
+  },
+  {
     "version": "v0.1.1082",
     "date": "2026-11-10",
     "what": "conductor@PrompTugal.dinis: run report, wake 21:36",
