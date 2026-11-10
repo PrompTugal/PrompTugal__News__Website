@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-10T20:53Z",
+  "updated": "2026-11-10T20:56Z",
   "sweeps": [
     {
       "n": 1,
@@ -2338,6 +2338,30 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T20:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://websummit.com/blog/web-summit/important-event-update-2026/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "press-release",
+      "title": "Important event update",
+      "quote": "Day 2 (Wednesday, November 11th) will not take place.",
+      "published": "2026-11-10T19:09",
+      "topics": [
+        "storm",
+        "summit"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "The organisers' public statement; body read from the page's HTML (the rendered page shows only the title to a text reader). Day 3 'as planned, following the passing of Storm Charles'; 'will communicate directly with those impacted'. Pointed to by conductor@web-summit.dinis.",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T20:56Z",
+      "found_by": "social.watch@PrompTugal.dinis (wake 20:51, correction)"
     }
   ]
 }
