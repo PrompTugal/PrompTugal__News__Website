@@ -5,7 +5,7 @@
   "title": "How WPP turns call transcripts into reviewed Jira plans",
   "beat": "Connections: the summit",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:v-mastra-wpp"
   ],
@@ -17,7 +17,8 @@
     "from": [
       "desks/curator/2026-11-10-0110.json",
       "desks/journalist-vicky/drafts/S39-wpp-call-transcripts-to-jira.md",
-      "desks/reviewer-vicky/reviews/S39.md"
+      "desks/reviewer-vicky/reviews/S39.md",
+      "content/articles/wpp-call-transcripts-to-jira.md"
     ]
   },
   "assignee": "journalist-connections@PrompTugal.vicky",
@@ -28,13 +29,17 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S39.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-10"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/wpp-call-transcripts-to-jira.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -49,10 +54,16 @@
       "file": "desks/journalist-vicky/drafts/S39-wpp-call-transcripts-to-jira.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-10",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S39.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-10",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "content/articles/wpp-call-transcripts-to-jira.md"
     }
   ]
 }

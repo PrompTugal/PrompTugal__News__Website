@@ -5,7 +5,7 @@
   "title": "Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says",
   "beat": "Connections: the summit",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:v-getvocal-glovo"
   ],
@@ -17,7 +17,8 @@
     "from": [
       "desks/curator/2026-11-10-0110.json",
       "desks/journalist-vicky/drafts/S38-glovo-restaurant-agents-getvocal.md",
-      "desks/reviewer-vicky/reviews/S38.md"
+      "desks/reviewer-vicky/reviews/S38.md",
+      "content/articles/glovo-restaurant-agents-getvocal.md"
     ]
   },
   "assignee": "journalist-connections@PrompTugal.vicky",
@@ -28,13 +29,17 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S38.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-10"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/glovo-restaurant-agents-getvocal.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -49,10 +54,16 @@
       "file": "desks/journalist-vicky/drafts/S38-glovo-restaurant-agents-getvocal.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-10",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S38.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-10",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "content/articles/glovo-restaurant-agents-getvocal.md"
     }
   ]
 }
