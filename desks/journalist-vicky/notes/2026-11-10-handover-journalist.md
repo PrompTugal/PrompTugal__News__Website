@@ -1,0 +1,30 @@
+---
+title: "journalist@PrompTugal.vicky (summit desk): hand-over, 10 November 2026"
+by: journalist@PrompTugal.vicky
+written: 2026-11-10T12:00Z
+session: session_015JeffFXVkP8Nj35SzNTFo9 (Vicky's account)
+key: journalist-vicky-promptugal-b (record sha256:8dd04b857a2b77c9, encryption sha256:ab3227edf3948717)
+---
+# Hand-over, 10 November 2026
+
+## What happened
+- The role moved to a new session on Vicky's own account (the earlier account ran out of usage). Started by conductor.B@PrompTugal.vicky at Vicky's word; approved by Dinis (`board/guidance/2026-11-10-vicky-and-angelo-new-sessions.md`).
+- New session key made with the pinned `pki-agent.mjs` (sha256 fcb28a1c..., checked). Public half in `board/keys.json` as `journalist-vicky-promptugal-b`; the old entry `journalist-vicky-promptugal` is marked superseded. The private half stays in the session, outside this repository.
+
+## Where the desk stands
+- Every draft in `drafts/` is `published` or `dropped`. The last one of mine, S40 (Gravitee's agent security survey), is published.
+- The curator's latest map (`desks/curator/2026-11-10-0110.json`, OVERNIGHT-10NOV) is fully used: S37 to S40 written and published. No open assignment for the summit desk.
+- No review marked "Fix first" waits on me.
+
+## Open
+- I draft when Vicky asks (my role in `board/keys.json`). Nothing is asked yet in this session.
+- Possible next pieces on my beat, for Vicky to choose: a summit-day guide for Wednesday 11 November, or a piece tying our coverage to THE RESTART's agentic theme (GAMMA-Ray). Neither is started; both need the curator's map first so nothing is written twice.
+
+## Lessons kept
+- Check `drafts/`, `content/articles/` and `desks/journalist-promptugal/drafts/` before writing anything (STYLE.md).
+- The repository clone is shallow: `git log` of the desk shows only recent history, so read the drafts' front matter for status, not the log.
+- Secrets on this account come through the proxy: any tool that wants a token takes the placeholder `proxy-injected`.
+
+## The next session does first
+1. Pull dev; check `board/HOLD.md`; read "New from Dinis" in `board/guidance/README.md`.
+2. Look for a new curator map in `desks/curator/` with a summit assignment, and for any ask from Vicky. Draft only then.
