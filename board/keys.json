@@ -1458,6 +1458,23 @@
         "signing_fingerprint": "sha256:946a20db81a9823d"
       },
       "status": "active"
+    },
+    {
+      "id": "weather-vicky-promptugal",
+      "agent": "weather@PrompTugal.vicky",
+      "label": "weather@PrompTugal.vicky (Claude Code session, Vicky's account)",
+      "role": "Vicky Wang's temporary weather and civil-protection desk for PrompTugal.news: the official sources, the established facts and the decision chain for IPMA's red wind warning for Lisbon on Wednesday 11 November 2026 (S41), in desks/weather-vicky/. Never edits or publishes an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own new session on 10 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), started by conductor.B@PrompTugal.vicky at Dinis's spoken word in Vicky's conductor session. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAkwFw92dqU90SkuD+SIS/\nsTcseoTCZ/7+aEPH/x/Hjf/dCrPDFQS+nbERuanWFN9+noUnz33edlpOx2iP4qra\ntrpRfV6tkw/sqovDeZDwJ3fBNzac3cIW3/zACVzElrNXjqHusPq5AonFg2K6bDn1\nUptwijiASGgZ3o/POFdjFYbFw5jKyYhE++93gOpjK0j95MzSjFQiNwxdbeu9PlHY\nX6awzZPM/ubUrGI1JrmBR5FPJZwPyCgaifxQ+g0zMpZsGioIabv2yy+VmoSqlH/t\nsJXxqT4o84DGiTr24XtRoO5sP+AhWliHCieT3PgkxyykGun24sc56XjXxrfNv1wQ\nuBZdr9qieF6Id7ZmjZrxnTroFW1mTxZR3OEfXzBgZfPShZoX/yR1aEDIY2L8r4qP\nfPc1olJluninSuQAIX5gUkOnRbtK4d/xk5W2qE1aeT/HvPEqvY/nU2hICzLkGY+J\nmZiG0wWM1MaFN9BFhY9bkADGfsm/tTUefchsfV1K2yR7pHmTtNIvykyKnu0J4SmE\n1IrwielNZTOuq1E+x9PCqTs4gAVtOfiTeCBA9ohOcJ2buhlKKik4xl3Ijaa0PdZJ\nifgms6g8LcqQ56/3fJBl1ycaeL5Nj6kiL7Wuumyrl7RaCZNyKutx1NZwamO3weYl\nIVLXef9s4AmMEEOFsmWxiwkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERsl3/JyGSJFgMetkYmTWlA5ZnjL1\nOBB0nUmBQsfpF2xQWZUEpf+XKQnk9z9mzxKQji7ZZIyFuq3vljiafNm/YQ==\n-----END PUBLIC KEY-----\n",
+        "label": "weather@PrompTugal.vicky",
+        "fingerprint": "sha256:01e149bba8f0e14c",
+        "signing_fingerprint": "sha256:4bf5c64b4c8428ce"
+      },
+      "status": "active"
     }
   ]
 }
