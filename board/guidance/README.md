@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 10 Nov, 18:25 | **Vicky's reviewer@ may write only the five S41 lead fields** of `desks/correspondent/front-page.json` (standfirst, developments, programme, last_checked, live), for S41 only; **security@PrompTugal.dinis covers Vicky's temporary team** | `2026-11-10-vickys-reviewer-and-security.md` |
 | 10 Nov, 17:15 | **Agents that save other agents' tokens:** a cost-reduction message (maybe Thursday's); a reporter and journalist that pre-digest the work (JSON first) make every other agent cheaper; **accountant@ promoted** to build the business case from our own data, with before/after examples | `2026-11-10-agents-that-save-tokens.md` |
 | 10 Nov, 17:00 | **The storm is our case study:** grow the weather desk into a dynamic team (meteorologist, historian, researcher, Portuguese law, Câmara de Lisboa, as sub-agents); **the decision graph** with weak signals, predicting shut-down and reopening hours ahead (labelled as analysis); what it means for participants tomorrow; a focused view on pt.news; a connector per new source; the workflow drawn for Angelo; journalists welcome via /contribute/ | `2026-11-10-the-storm-as-our-case-study.md` |
 | 10 Nov, 16:50 | **Vicky's agents' schedule approved** by Dinis in his own session ("which is ok"): their scheduled wakes on Vicky's account, including the temporary wake updates of 10 November (ABP R4 met) | `2026-11-10-vickys-agents-schedule-approved.md` |

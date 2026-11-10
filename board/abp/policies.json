@@ -459,6 +459,22 @@
           "CLAUDE.md"
         ],
         "why": "relays Dinis's words to this team (2262443, 5f4f5a0); calibration from the record, to be confirmed by Dinis"
+      },
+      "reviewer@PrompTugal.vicky": {
+        "writes": [
+          "desks/correspondent/front-page.json"
+        ],
+        "only_keys": [
+          "lead.standfirst",
+          "lead.developments",
+          "lead.programme",
+          "lead.last_checked",
+          "lead.live"
+        ],
+        "never": "changes any other key of front-page.json (lead.article, lead.why, top, bands and the rest stay correspondent@'s), or writes any other file under desks/correspondent/",
+        "why": "Dinis, in his own session with conductor@web-summit.dinis, 10 November 2026, about 18:25 UTC, on Vicky's request: \"can you give my reviewer@ permission to write only the five S41 lead fields in front-page.json?\" Values prepared by weather@PrompTugal.vicky (desks/weather-vicky/s41-lead.json), verified by reviewer@ before each write; commits For: correspondent@PrompTugal.dinis. For the S41 story only.",
+        "granted": "2026-11-10T18:25Z",
+        "granted_by": "dinis (relayed and recorded by conductor@web-summit.dinis; board/guidance/2026-11-10-vickys-reviewer-and-security.md)"
       }
     }
   },
