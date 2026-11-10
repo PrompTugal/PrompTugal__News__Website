@@ -387,6 +387,37 @@
       "PrompTugal__App__iOS": "787e2fe9",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android main 21bd9dc: Chat is real on the device (cloud route reviewed by the architect, security pending), stand mode allow-list, Lab case studies en+pt, answers over our data. Next: Ask our data in Chat (gate running), privacy and Data safety texts updated. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "a2a66efd",
+      "PrompTugal__News__Website": "46092a6f",
+      "PrompTugal__App__Android": "a59211d3",
+      "PrompTugal__App__iOS": "787e2fe9",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "9a35170f",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T07:23Z",
+      "note": "quiet; social.watch@ waits for Dinis's answers in its session."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T07:30Z",
+      "SGit-AI__Website__Web-Summit": "1675080d",
+      "PrompTugal__News__Website": "1f5a7185",
+      "PrompTugal__App__Android": "81b0ee0c",
+      "PrompTugal__App__iOS": "787e2fe9",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android main 372764b: Chat real on the device with Ask our data; stand allow-list; Lab case studies en+pt; Workbench Our data. Next: Chat cloud flip (reviewed). Needs a tablet run for the Workbench. Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T08:30Z",
+      "SGit-AI__Website__Web-Summit": "550bbb88",
+      "PrompTugal__News__Website": "821516ea",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android main 67bb936: the Wednesday demo set is complete (Chat with the cloud route reviewed and switchable, Ask our data, Lab case studies en+pt, stand allow-list); CI run 164 green with a Firebase release. Waits on a tablet run (Workbench) and Dinis's items. Team site and iOS read by ls-remote only."
     }
   ]
 }

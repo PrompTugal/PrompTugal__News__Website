@@ -1,8 +1,8 @@
 {
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
-  "state": "working (account B, the summit set, every three hours)",
-  "updated": "2026-11-09T22:15Z",
+  "state": "working (account B, back on at THE RESTART, every three hours)",
+  "updated": "2026-11-10T07:40Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -38,7 +38,8 @@
     "Wake of 12:58: inbox drained (nothing new); press-pass decision still open (pointer kept in my asks); from Dinis's 'how we work' (11:25): the agents' life and keys mapped, board/team/librarian/life.md and life.json by life.mjs (62 agents, 68 keys, 43 active; paused agents read from the summit set; the Web Summit team's agents and dotted workers treated apart; 4 flags: dev.venues@ with no key, writer@PrompTugal.jose, designer@PrompTugal.vicky and historian@ silent, historian@'s state ambiguous), sent to both conductors; a step of DAILY_RUN.md; catalogue v0.1.842 (1,456 pages, 3,069 board files, 176 findings); library 5,385 cards, check OK, 0 warnings",
     "Wake of 15:56: inbox drained (nothing new); three new entries from Dinis read (contributors, the conductors' rota with 'everybody pushes to dev, only Dinis and the conductors push to main', the news app on the web): none names the librarian, my rule unchanged (dev only, through release.sh); press-pass decision still open (pointer kept); the life map regenerated (63 agents, 68 keys, 6 flags: new, conductor.android@promptugal.ai.dinis commits with no key here, customers@ silent 26 h and in neither list of the summit set); catalogue v0.1.862 (1,460 pages, 3,109 board files, 177 findings); library 5,430 cards, check OK, 0 warnings",
     "Wake of 18:56: inbox drained (nothing new); press-pass decision still open on the summit's eve (pointer kept); the life map's 7 flags batched to both conductors (new: conductor.android@ with no key here; customers@ and dev@PrompTugal.vicky silent and in neither list of the summit set); catalogue v0.1.885 (1,462 pages, 3,155 board files, 177 findings); library 5,478 cards, check OK, 0 warnings",
-    "Wake of 21:56: inbox drained (nothing new); Dinis's 20:20 word read (ship on security's pass; nothing changes for the librarian); press pass still open (pointer kept); life map 8 flags (abp@'s is the parser reading only the last 'Still paused' line; noted); today's debrief refreshed; catalogue v0.1.908 (1,467 pages, 3,191 board files, 177 findings); library 5,519 cards, check OK, 0 warnings"
+    "Wake of 21:56: inbox drained (nothing new); Dinis's 20:20 word read (ship on security's pass; nothing changes for the librarian); press pass still open (pointer kept); life map 8 flags (abp@'s is the parser reading only the last 'Still paused' line; noted); today's debrief refreshed; catalogue v0.1.908 (1,467 pages, 3,191 board files, 177 findings); library 5,519 cards, check OK, 0 warnings",
+    "Wake of 06:57 on 10 November (back on at THE RESTART, 04:51; the 00:56 and 03:56 wakes did not run during THE BIG STOP): inbox drained (nothing new); the restart read (its section 5, 'map our own agentic workflows', is the library's map); the life map now takes account B's states from conductor.b@'s account-b.json (65 agents, 70 keys, 7 flags); board/schedule.json found stale since 6 November; both sent to both conductors; debrief of 10 November; catalogue v0.1.961 (1,482 pages, 3,258 board files, 177 findings); library 5,618 cards, check OK, 0 warnings"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -46,7 +47,7 @@
     "A drain in this repository: I read with board/team/security/tools/inbox_read.py (security@'s, read-only); the team site's feedback_drain.py is not attached to this session"
   ],
   "asks": [
-    "Dinis: the Web Summit press pass (ideas ledger PB-07) was yours for 'by tomorrow or even by Monday', which is today, and the summit opens tomorrow; its decision page is still open with no answer: https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/ (journalist@'s, re-asked 08:40). A pointer only; the decision is on that page.",
+    "Dinis: the Web Summit press pass (ideas ledger PB-07) passed its 'by Monday' with its decision page still open, and the summit is under way: https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/ (journalist@'s). A pointer only.",
     "Dinis, for your record (resolved): at 00:58 UTC on 7 November I printed my inbox's decrypted credentials into my own session transcript; nothing reached the repository, a file or a send. conductor@ rotated the inbox at 02:54 (security@'s S26) and the old vault is abandoned. I now open sealed credentials to a file and read field names only.",
     "Dinis: confirm sub-agents and a /library/ section of the site in my grant (asked of abp@ at 13:25; I am going ahead on your word)"
   ],
@@ -56,7 +57,8 @@
     "dev@: the reading room as a page of the build (/library/), since board/ no longer deploys HTML (SLIP-20261106-010)",
     "my inbox writes back: the drain cannot mark messages processed without an SG/Send access token (sgit: 'no access token configured'); messages stay pending on the lane, nothing is lost",
     "conductor@: REALITY.md still disagrees with the repository in 6 places (sent 7 November; library/reality/for-conductor.md re-checks it at every build)",
-    "conductor@ and conductor.b@: 27 agents with an active key and no row in data/newsroom/agents.json; no ROLE.md for conductor@, journalist@, observability@ (sent 7 November)"
+    "conductor@ and conductor.b@: 27 agents with an active key and no row in data/newsroom/agents.json; no ROLE.md for conductor@, journalist@, observability@ (sent 7 November)",
+    "conductor@: board/schedule.json stale since 6 November 05:40 (paused agents shown enabled); sent 10 November"
   ],
   "wakes": [
     {
@@ -190,12 +192,18 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: debrief refreshed; catalogue v0.1.908; library 5,519 cards green"
+    },
+    {
+      "started": "2026-11-10T06:57Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "First wake after THE RESTART: life map reads account-b.json; schedule.json stale, to both conductors; debrief of 10 November; catalogue v0.1.961; library 5,618 cards green"
     }
   ],
   "notes": [
     "Self-reported for abp@ (R8): while reading board/inboxes/librarian.json this wake I printed its whole record into my session, append_token included. That token is public on purpose (write-only) and already in the repository, so nothing new is exposed, but R8 says never print a token; I now read only named fields of such files.",
     "For abp@: board/runs/dev.data/2026-11-06T06-33-03Z.json lists dev.data@'s commit 0b8920ae3 ('tree matches dev', on its own branch) as writing board/team/librarian/catalogue.mjs and status.json; on dev only my own commits have touched those files, so it looks like a branch brought level with dev, not a write into my folder."
   ],
-  "debrief": "board/team/librarian/debriefs/2026-11-09-handover.md",
+  "debrief": "board/team/librarian/debriefs/2026-11-10-handover.md",
   "session": "session_01Kw9UwDA6Bcb7hgYc9kVbZK (account B); notes in board/team/librarian/sessions/session_01Kw9UwDA6Bcb7hgYc9kVbZK/"
 }

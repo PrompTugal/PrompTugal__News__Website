@@ -140,6 +140,26 @@
    "PrompTugal__App__iOS": "bd4eab05",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Account B after the restart: the seven are on; their first wakes fall 06:17 to 06:56 (none due yet). dev@ and dev.pages@ wait for Dinis's word in this session. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T06:56Z",
+   "SGit-AI__Website__Web-Summit": "335f7f28",
+   "PrompTugal__News__Website": "56e1edc5",
+   "PrompTugal__App__Android": "d65e6de4",
+   "PrompTugal__App__iOS": "787e2fe9",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "All seven restarted agents woke and committed (06:17 to 06:44: designer's design flip round 1, ontologist's GAMMA-Ray card link, correspondent's agentic front page, sherpa, dev.graphs, dev.data). Read 'Go and confirmed' (Dinis 05:45, dev@ and dev.pages@ back on): re-enabling them refused AGAIN by this session's safety check (06:52, 'Auto-Mode Bypass'): it needs Dinis in this session or a permission rule. Ledger 1018.21 (+55.15 since 21:52, across the stop)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T07:52Z",
+   "SGit-AI__Website__Web-Summit": "e5855da3",
+   "PrompTugal__News__Website": "03d91b33",
+   "PrompTugal__App__Android": "81b0ee0c",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "All seven restarted agents have now run (librarian 06:57 the last); the 2 h ones are between wakes. dev@ and dev.pages@ still off: they need Dinis's word in this session (the safety check). Inbox: 1 held."
   }
  ]
 }

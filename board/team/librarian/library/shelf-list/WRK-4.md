@@ -1,19 +1,23 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 4 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T21:57:52Z"
-site_version: "v0.1.908"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T06:59:54Z"
+site_version: "v0.1.961"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 4 of 4)
 
-34 cards, from `WRK.PLAN spec-the-daily-newsletter` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+38 cards, from `WRK.PLAN spec-newsroom-section-header` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PLAN spec-newsroom-section-header` | [Spec: the newsroom section's header and label, in the brand](https://promptugal.news/board/spec-newsroom-section-header.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-offline-mode-design` | [The offline mode: the badge, Save for offline, and the saved list (designer@, row 3 of the pass)](https://promptugal.news/board/spec-offline-mode-design.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-one-page-width` | [One page width on every page: the recommendation](https://promptugal.news/board/spec-one-page-width.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-the-app-on-the-web` | [The news app on the web (/app/) in brand v2.0: one block of tokens](https://promptugal.news/board/spec-the-app-on-the-web.md) | board | designer@ 9 Nov 2026 |
 | `WRK.PLAN spec-the-daily-newsletter` | [The daily newsletter: the design of an edition, its page and its email (designer@)](https://promptugal.news/board/spec-the-daily-newsletter.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-front-page` | [The front page, round 1: three mock-ups for Dinis, and what dev@ (or dev.pages@) builds whichever he picks](https://promptugal.news/board/spec-the-front-page.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-reading-credit` | [The reading credit, said plainly: one line on a page, the details on the account page](https://promptugal.news/board/spec-the-reading-credit.md) | board | designer@ 8 Nov 2026 |
@@ -35,15 +39,15 @@ source: board/catalogue.json
 | `WRK.STORY wikipedia` | [Wikipedia](https://promptugal.news/board/projects/wikipedia.md) | board | ontologist@ 6 Nov 2026 |
 | `WRK.TASK README` | [Tasks anyone can pick up](https://promptugal.news/board/tasks/README.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.TASK brazil-1` | [brazil-1: Brazilian speakers on the LIS26 programme](https://promptugal.news/board/tasks/brazil-1.md) | board | correspondent@ 6 Nov 2026 |
+
+**Cards 326 to 338**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `WRK.TASK brazil-10` | [brazil-10: Who hosts the German-Brazilian Startup Night](https://promptugal.news/board/tasks/brazil-10.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-11` | [brazil-11: Brazilian founders of companies the team already follows](https://promptugal.news/board/tasks/brazil-11.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-12` | [brazil-12: 10 November: the Lisbon incubator's 2027 class](https://promptugal.news/board/tasks/brazil-12.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-13` | [brazil-13: Websites and cities of the 225 new Brazilian startups on the LIS26 listing](https://promptugal.news/board/tasks/brazil-13.md) | board | correspondent@ 6 Nov 2026 |
-
-**Cards 326 to 334**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `WRK.TASK brazil-2` | [brazil-2: Brazilian companies with a LIS26 appearance page](https://promptugal.news/board/tasks/brazil-2.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-3` | [brazil-3: Press releases and posts naming who is coming](https://promptugal.news/board/tasks/brazil-3.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-4` | [brazil-4: State missions: North and Northeast](https://promptugal.news/board/tasks/brazil-4.md) | board | correspondent@ 6 Nov 2026 |

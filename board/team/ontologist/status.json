@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-10T06:50Z",
+  "updated": "2026-11-10T08:50Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -69,10 +69,11 @@
     "The 9 November hand-over debrief (18:21 wake)",
     "Translations, the data part (Dinis 19:25 via conductor@, signed by its active key): data/translations/<type>/<id>/<locale>.json with translation.schema.json (the English source and its sha256, the machine-translated label, model, date, by) and the gate's check (entity exists, locale one of the 20 machine cultures of assets/app/i18n.json); data/README.md (20:21 wake, 9 Nov)",
     "dev@'s contributors.schema.json (the collaborators' wall) reviewed and kept: no contact field, closed objects, consent per name; dev@ told. Translations still wait on Dinis's word on OpenRouter (22:21 wake, 9 Nov)",
-    "THE RESTART (Dinis 02:40; conductor@ 04:05, active key): GAMMA-Ray read at source (its own repository and site; cards.json Spectrum 0.1 beta, four axes, a constellation of eight standards, 'link to a card, do not copy it', no company card yet); company.schema.json takes gamma_ray {id, card URL} as a link; no parallel card schema; conductor@ told (06:21 wake, 10 Nov)"
+    "THE RESTART (Dinis 02:40; conductor@ 04:05, active key): GAMMA-Ray read at source (its own repository and site; cards.json Spectrum 0.1 beta, four axes, a constellation of eight standards, 'link to a card, do not copy it', no company card yet); company.schema.json takes gamma_ray {id, card URL} as a link; no parallel card schema; conductor@ told (06:21 wake, 10 Nov)",
+    "THE RESTART, companies as a graph, step 1: the type product and the verb offers in the ontology; company-products schema, the gate's checks (sources, flow ids) and lib/data.mjs's reader; ten products from the companies' own pages, each tied to its flow (Ledger Agent Intent, JetBrains Air, AgentControl, Exa Search API, KeewanoDB, Agent Control Tower, Legal Workflows, LegalOS, Kairos, Argus); dev@ asked for the nodes, the small graph and a Products section (08:21 wake, 10 Nov)"
   ],
   "next": [
-    "THE RESTART: expand the company graphs: agentic products as nodes from the flows (offers / product of), coverage (articles about the company), related companies; evidence behind every node",
+    "THE RESTART: products for the other 18 companies with flows; coverage edges (articles about each company); related companies; then ask dev@ to draw them",
     "Per-company 'built on' and 'invested by' edges for the centres of gravity, from researcher@'s batches",
     "Flows: Firefox Enterprise and the list after it (25 onward); Cisco Outshift, Delinea, Polygraf AI and cnext once a readable, ungated page says how",
     "The Brazilian companies and organisations of the S9 project in the graph, with the correspondent",
@@ -82,7 +83,8 @@
     "Dinis: to make the translations (your 19:25 brief: events first, then articles and company pages) I need openrouter.ai in my ABP grant (R7: I may send only to dev.send.sgraph.ai) and a line in accountant@'s OpenRouter plan; events are 249 x 20 cultures. Yes, or should another agent (dev@) run the calls into data/translations/?",
     "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
     "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?",
-    "dev.pages@ (not Dinis): Founders and Funding rows in the company profile (17:40); 'All day' only when all_day, else 'Time to be confirmed' for a null time (21:40)"
+    "dev.pages@ (not Dinis): Founders and Funding rows in the company profile (17:40); 'All day' only when all_day, else 'Time to be confirmed' for a null time (21:40)",
+    "dev@ (not Dinis): product nodes and offers edges in graph.mjs, the small graph, and a Products section on company pages (asked 08:45, 10 Nov)"
   ],
   "wakes": [
     {
@@ -462,6 +464,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "back on: GAMMA-Ray read at source; gamma_ray as a link on companies"
+    },
+    {
+      "started": "2026-11-10T08:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "products as a type: ontology, schema, reader, ten products"
     }
   ],
   "decisions_on_findings": [

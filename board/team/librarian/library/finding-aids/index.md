@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T21:57:52Z"
-site_version: "v0.1.908"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T06:59:54Z"
+site_version: "v0.1.961"
 source: board/catalogue.json
 ---
 
@@ -15,15 +15,15 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | Collection | Class | Cards |
 |---|---|---|
 | [Build, code and release](BLD.md) | `BLD` | 4 |
-| [Data and the ontology](DAT.md) | `DAT` | 1032 |
+| [Data and the ontology](DAT.md) | `DAT` | 1048 |
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
-| [Guidance (special)](GDN.md) | `GDN` | 625 |
+| [Guidance (special)](GDN.md) | `GDN` | 628 |
 | [The repository](GEN.md) | `GEN` | 43 |
-| [The library](LIB.md) | `LIB` | 306 |
-| [The publication](PUB.md) | `PUB` | 426 |
-| [Readers and observability](RDR.md) | `RDR` | 31 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 2717 |
-| [Work in hand](WRK.md) | `WRK` | 334 |
+| [The library](LIB.md) | `LIB` | 308 |
+| [The publication](PUB.md) | `PUB` | 441 |
+| [Readers and observability](RDR.md) | `RDR` | 33 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 2774 |
+| [Work in hand](WRK.md) | `WRK` | 338 |
 
 ## Passes
 

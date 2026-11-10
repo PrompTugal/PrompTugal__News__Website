@@ -1,24 +1,24 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-09T22:52Z",
-  "edition": "the Web Summit edition, 9 to 12 November 2026",
+  "updated": "2026-11-10T06:55Z",
+  "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published.",
   "lead": {
-    "article": "tuesday-10-november-three-ways-in",
-    "why": "Summit day 1: three ways into the first day (planned since 6 November). Set at 18:48 UTC Monday, during Opening Night, so the reader looking ahead to the first day finds it."
+    "article": "gravitee-agent-security-survey",
+    "why": "The agentic edition (THE RESTART): agents spreading faster than their security is the edition's question in one survey (reach, mandate, gap). Set 06:55 UTC Tuesday, summit day 1; the GAMMA-Ray launch article takes the lead when published."
   },
   "top": [
     {
-      "article": "plan-your-week-by-field",
-      "why": "which summit day is yours; still the planning piece"
+      "article": "glovo-restaurant-agents-getvocal",
+      "why": "Agents at work, with a named customer: GetVocal's 80 agents for Glovo's restaurants on WhatsApp."
     },
     {
-      "article": "ibm-sports-tech-challenge",
-      "why": "IBM's sports tech showcase is on Tuesday"
+      "article": "wpp-call-transcripts-to-jira",
+      "why": "The mandate in practice: a person reviews every plan the agents draft before it reaches Jira."
     },
     {
-      "article": "web-summit-wristband-queues",
-      "why": "the first morning's queues"
+      "article": "teamworks-coaches-agent",
+      "why": "What failed first, and the checks that fixed it: an honest agent story."
     }
   ],
   "service": {
@@ -32,10 +32,26 @@
   },
   "beats": [
     {
+      "beat": "AI",
+      "articles": [
+        "gravitee-agent-security-survey",
+        "glovo-restaurant-agents-getvocal",
+        "teamworks-coaches-agent",
+        "wpp-call-transcripts-to-jira",
+        "five-ai-builders-to-know",
+        "who-builds-the-parts-of-an-ai-agent",
+        "following-robotics-at-web-summit",
+        "agent-setup-guide",
+        "europe-ai-help-and-portugal-ai-startups"
+      ],
+      "note": "the guide to setting up agents is the reader's way in; the robotics route for the summit"
+    },
+    {
       "beat": "Web Summit",
       "articles": [
         "plan-your-week-by-field",
         "web-summit-wristband-queues",
+        "web-summit-passes-and-colours",
         "your-first-day-at-web-summit",
         "venue-map",
         "driving-to-web-summit",
@@ -85,17 +101,6 @@
         "europe-in-pavilion-4",
         "wednesday-11-november-going-abroad"
       ]
-    },
-    {
-      "beat": "AI",
-      "articles": [
-        "five-ai-builders-to-know",
-        "who-builds-the-parts-of-an-ai-agent",
-        "following-robotics-at-web-summit",
-        "agent-setup-guide",
-        "europe-ai-help-and-portugal-ai-startups"
-      ],
-      "note": "the guide to setting up agents is the reader's way in; the robotics route for the summit"
     },
     {
       "beat": "From the newsroom",
@@ -314,23 +319,23 @@
     "items": [
       {
         "article": "tuesday-10-november-three-ways-in",
-        "why": "today, three ways in"
+        "why": "summit day 1, three ways in"
       },
       {
-        "article": "web-summit-wristband-queues",
-        "why": "the first morning's queues"
+        "article": "gravitee-agent-security-survey",
+        "why": "agents outpace their security"
+      },
+      {
+        "article": "where-to-find-portugal",
+        "why": "the Portugal Stand, Pavilion 1, E145"
       },
       {
         "article": "venue-map",
         "why": "where everything is"
       },
       {
-        "article": "europe-in-pavilion-4",
-        "why": "the Commission's stand opens"
-      },
-      {
-        "article": "where-to-find-portugal",
-        "why": "the Portugal Stand, Pavilion 1, E145"
+        "article": "web-summit-passes-and-colours",
+        "why": "who is who, by the colour of the pass"
       }
     ]
   },
@@ -338,7 +343,7 @@
     "about": "What tells me the front page works (historian@'s lesson 5, board/briefs/2026-11-07-the-php-newsrooms-lesson.md: 81% of the PHP newsroom's front-page visits read nothing else).",
     "ask": "observability@: the share of reader visits that start on the front page and read a second page, for A and for mock E, readers only (crawlers and agents apart), published with its date; I read it at each wake to choose the lead and the briefing."
   },
-  "beats_why": "Saturday 7 November (06:55 UTC), now that D, F and G show the beats as sections (lib/home.mjs): Web Summit first with the attendee's guides (registration opens today), then the Brazil story project, Portugal, Europe, AI, and three newsroom pieces last. From Monday the Web Summit beat follows the day.",
+  "beats_why": "The agentic edition (10 November): AI and agents first, then the summit, Brazil, Portugal, Europe; the newsroom last.",
   "day_picks": {
     "about": "My five things for each summit day, by event id, in the shape newsroom/build/features/days.mjs reads from data/front/days.json ({days: {date: {picks}}}). Here because data/front/ is outside my ABP grant: dev@ can point days.mjs at this key, or abp@ can add data/front/days.json to my grant and I copy it there. Answers synthetic@'s F54 (7 November: the days' five were all press conferences). Chosen through the beats and the lens (reach, mandate, gap); no press conference.",
     "days": {
@@ -409,7 +414,7 @@
     }
   },
   "next_edition": {
-    "about": "Draft at 20:48 UTC Monday for Wednesday 11 November (summit day 2), to revise with Tuesday's news and swap in on Tuesday evening. Not read by the build.",
+    "about": "Draft at 20:48 UTC Monday for Wednesday 11 November (summit day 2), to revise with Tuesday's news and swap in on Tuesday evening. Not read by the build. To rework for the agentic edition (THE RESTART) before the swap.",
     "for_date": "2026-11-11",
     "lead": {
       "article": "wednesday-11-november-going-abroad",

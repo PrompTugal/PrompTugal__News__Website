@@ -1,0 +1,52 @@
+{
+ "about": "The close of 9 November 2026 (UTC), written at 06:50 on 10 November: THE BIG STOP (23:30, board/guidance/2026-11-09-the-big-stop.md) paused accountant@'s wakes at 23:35, so the 00:47 and 03:47 wakes did not run. API-equivalent dollars, a comparison, not money spent.",
+ "account_B": {
+  "to_21:52": 312.61,
+  "by_role": {
+   "designer": 63.43,
+   "ontologist": 50.85,
+   "journalist": 35.46,
+   "dev": 31.37,
+   "correspondent": 22.78,
+   "conductor": 22.66,
+   "sherpa": 21.69,
+   "librarian": 17.81,
+   "dev.graphs": 12.83,
+   "dev.data": 12.48,
+   "dev.pages": 12.42,
+   "dev.verify": 4.49,
+   "dev.portugal": 4.34
+  },
+  "after_21:52": "not measured: conductor.b@ wrote no ledger after 21:52 (its stop report: about 13 an hour until every agent was paused at 23:49:35, then only its own wakes, 1 to 3 each); about 25 more is a fair estimate for 21:52 to 23:49"
+ },
+ "account_A": {
+  "to_21:50": 62.44,
+  "by_role": {
+   "conductor": 21.13,
+   "observability": 5.94,
+   "security": 21.0,
+   "accountant": 14.37
+  },
+  "21:50_on_9_to_06:48_on_10": {
+   "total": 26.25,
+   "by_role": {
+    "conductor@PrompTugal.dinis": 11.28,
+    "security@PrompTugal.dinis": 8.84,
+    "abp@PrompTugal.dinis": 0.0,
+    "observability@PrompTugal.dinis": 4.64,
+    "accountant@PrompTugal.dinis": 1.49
+   },
+   "note": "the evening to the stop at 23:35 and the morning after the restart (security@ from 06:05, observability@ hourly, the conductor) cannot be split: no reading at midnight"
+  }
+ },
+ "day_total_at_least": 375.05,
+ "the_stop": {
+  "order": "23:30 UTC, relayed 23:35",
+  "account_B_paused": "23:49:35, 13 minutes after the order reached dev; pausing took 4 seconds (conductor.b@'s stop report)",
+  "effect": "account B from about 13 an hour to conductor.b@'s wakes only; account A's four scheduled sessions paused at 23:35",
+  "restart": "THE RESTART about 02:40 on 10 November; dev@ and dev.pages@ restarted on account B at Dinis's 05:45 word (board/guidance/2026-11-10-go-and-confirmed.md)"
+ },
+ "over_lines": "ontologist@ 1.49, designer@ 1.11, dev.graphs@ 1.15, dev.pages@ 1.12, dev.data@ 1.08, librarian@ 1.01, accountant@ 1.44 (at 21:50); recorded, nothing stopped for budget",
+ "real_limits": "account A seven-day: allowed_warning once (security@, 20:08 on 9 November), allowed in every session at 06:48 on 10 November; next reset 15 November 20:00",
+ "openrouter": "no per-key rows; no top-up seen; the summit plan (openrouter.summit_plan) waits on Dinis's keys"
+}

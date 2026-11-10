@@ -1,19 +1,31 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 8 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T21:57:52Z"
-site_version: "v0.1.908"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T06:59:54Z"
+site_version: "v0.1.961"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 8 of 11)
 
-100 cards, from `DAT.PE cristina-nascimento` to `DAT.PE lisa-eadicicco`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.PE carolin-wais` to `DAT.PE katie-collins`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 701 to 725**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE carolin-wais` | [Carolin Wais](https://promptugal.news/people/carolin-wais/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE casey-lau` | [Casey Lau](https://promptugal.news/people/casey-lau/) | person | programme@PrompTugal.vicky 7 Nov 2026 |
+| `DAT.PE charles-pellegrin` | [Charles Pellegrin](https://promptugal.news/people/charles-pellegrin/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE charlie-wells` | [Charlie Wells](https://promptugal.news/people/charlie-wells/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE chon-tang` | [Chon Tang](https://promptugal.news/people/chon-tang/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE christos-rizos` | [Christos Rizos](https://promptugal.news/people/christos-rizos/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE chung-yan-chow` | [Chung-Yan Chow](https://promptugal.news/people/chung-yan-chow/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE ciara-haley` | [Ciara Haley](https://promptugal.news/people/ciara-haley/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE clara-jacintho` | [Clara Jacintho](https://promptugal.news/people/clara-jacintho/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE claudio-furtado` | [Claudio Furtado](https://promptugal.news/people/claudio-furtado/) | person | programme@PrompTugal.vicky 9 Nov 2026 |
+| `DAT.PE conor-freeman` | [Conor Freeman](https://promptugal.news/people/conor-freeman/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE cristina-ferreira` | [Cristina Ferreira](https://promptugal.news/people/cristina-ferreira/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE cristina-nascimento` | [Cristina Nascimento](https://promptugal.news/people/cristina-nascimento/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE dahai-li` | [Dahai Li](https://promptugal.news/people/dahai-li/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE dan-neely` | [Dan Neely](https://promptugal.news/people/dan-neely/) | person | programme@PrompTugal.vicky 7 Nov 2026 |
@@ -24,8 +36,14 @@ source: board/catalogue.json
 | `DAT.PE des-hogan` | [Des Hogan](https://promptugal.news/people/des-hogan/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE diana-layfield` | [Diana Layfield](https://promptugal.news/people/diana-layfield/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE diogo-guerra` | [Diogo Guerra](https://promptugal.news/people/diogo-guerra/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE domininkas-virbickas` | [Domininkas Virbickas](https://promptugal.news/people/domininkas-virbickas/) | person | programme@PrompTugal.vicky 10 Nov 2026 |
 | `DAT.PE don-mcguire` | [Don McGuire](https://promptugal.news/people/don-mcguire/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE dr-durga-malladi` | [Dr. Durga Malladi](https://promptugal.news/people/dr-durga-malladi/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+
+**Cards 726 to 750**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `DAT.PE duncan-crabtree-ireland` | [Duncan Crabtree-Ireland](https://promptugal.news/people/duncan-crabtree-ireland/) | person | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.PE dylan-barrell` | [Dylan Barrell](https://promptugal.news/people/dylan-barrell/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE edith-harbaugh` | [Edith Harbaugh](https://promptugal.news/people/edith-harbaugh/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -39,11 +57,6 @@ source: board/catalogue.json
 | `DAT.PE galbot-g1` | [Galbot G1](https://promptugal.news/people/galbot-g1/) | person | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.PE georg-zoeller` | [Georg Zoeller](https://promptugal.news/people/georg-zoeller/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE george-hayes` | [George Hayes](https://promptugal.news/people/george-hayes/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-
-**Cards 726 to 750**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `DAT.PE george-kurtz` | [George Kurtz](https://promptugal.news/people/george-kurtz/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE georja-calvin-smith` | [Georja Calvin-Smith](https://promptugal.news/people/georja-calvin-smith/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE gerasim-hovhannisyan` | [Gerasim Hovhannisyan](https://promptugal.news/people/gerasim-hovhannisyan/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -56,6 +69,11 @@ source: board/catalogue.json
 | `DAT.PE goncalo-matias` | [Gonçalo Matias](https://promptugal.news/people/goncalo-matias/) | person | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.PE gonzalo-vila` | [Gonzalo Vila](https://promptugal.news/people/gonzalo-vila/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE greg-piefer` | [Greg Piefer](https://promptugal.news/people/greg-piefer/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+
+**Cards 751 to 775**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `DAT.PE grzegorz-lipke` | [Grzegorz Lipke](https://promptugal.news/people/grzegorz-lipke/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE haakon-rlmann` | [Haakon Rølmann](https://promptugal.news/people/haakon-rlmann/) | person | programme@PrompTugal.vicky 8 Nov 2026 |
 | `DAT.PE hanh-nguyen` | [Hanh Nguyen](https://promptugal.news/people/hanh-nguyen/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -69,11 +87,6 @@ source: board/catalogue.json
 | `DAT.PE irene-long` | [Irene Long](https://promptugal.news/people/irene-long/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE isobel-sita-lumsden` | [Isobel Sita-Lumsden](https://promptugal.news/people/isobel-sita-lumsden/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE ivan-mehta` | [Ivan Mehta](https://promptugal.news/people/ivan-mehta/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-
-**Cards 751 to 775**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `DAT.PE j-ofori-agboka` | [J. Ofori Agboka](https://promptugal.news/people/j-ofori-agboka/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jacob-lauritzen` | [Jacob Lauritzen](https://promptugal.news/people/jacob-lauritzen/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jacob-sever` | [Jacob Sever](https://promptugal.news/people/jacob-sever/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -86,6 +99,11 @@ source: board/catalogue.json
 | `DAT.PE jeff-wilser` | [Jeff Wilser](https://promptugal.news/people/jeff-wilser/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jen-wong` | [Jen Wong](https://promptugal.news/people/jen-wong/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jeremy-fraenkel` | [Jeremy Fraenkel](https://promptugal.news/people/jeremy-fraenkel/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+
+**Cards 776 to 800**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `DAT.PE jeremy-goldman` | [Jeremy Goldman](https://promptugal.news/people/jeremy-goldman/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jianhua-li` | [Jianhua Li](https://promptugal.news/people/jianhua-li/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jill-kramer` | [Jill Kramer](https://promptugal.news/people/jill-kramer/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -99,11 +117,6 @@ source: board/catalogue.json
 | `DAT.PE joe-mcelroy` | [Joe McElroy](https://promptugal.news/people/joe-mcelroy/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE john-koetsier` | [John Koetsier](https://promptugal.news/people/john-koetsier/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE john-madelin` | [John Madelin](https://promptugal.news/people/john-madelin/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-
-**Cards 776 to 800**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `DAT.PE jon-von-tetzchner` | [Jon von Tetzchner](https://promptugal.news/people/jon-von-tetzchner/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jonathan-adashek` | [Jonathan Adashek](https://promptugal.news/people/jonathan-adashek/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jordi-romero` | [Jordi Romero](https://promptugal.news/people/jordi-romero/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -116,18 +129,5 @@ source: board/catalogue.json
 | `DAT.PE kamil-sindi` | [Kamil Sindi](https://promptugal.news/people/kamil-sindi/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE kate-knibbs` | [Kate Knibbs](https://promptugal.news/people/kate-knibbs/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE katie-collins` | [Katie Collins](https://promptugal.news/people/katie-collins/) | person | programme@web-summit.vicky 6 Nov 2026 |
-| `DAT.PE kc-sullivan` | [KC Sullivan](https://promptugal.news/people/kc-sullivan/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE kevin-kiley` | [Kevin Kiley](https://promptugal.news/people/kevin-kiley/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE kirill-skrygan` | [Kirill Skrygan](https://promptugal.news/people/kirill-skrygan/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE kirsten-korosec` | [Kirsten Korosec](https://promptugal.news/people/kirsten-korosec/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE kit-eaton` | [Kit Eaton](https://promptugal.news/people/kit-eaton/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE larissa-schneider` | [Larissa Schneider](https://promptugal.news/people/larissa-schneider/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE larry-aschebrook` | [Larry Aschebrook](https://promptugal.news/people/larry-aschebrook/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE larry-li` | [Larry Li](https://promptugal.news/people/larry-li/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE laura-greenhalgh` | [Laura Greenhalgh](https://promptugal.news/people/laura-greenhalgh/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE laureen-meroueh` | [Laureen Meroueh](https://promptugal.news/people/laureen-meroueh/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE lawrence-snapp` | [Lawrence Snapp](https://promptugal.news/people/lawrence-snapp/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE ling-ge` | [Ling Ge](https://promptugal.news/people/ling-ge/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE lisa-eadicicco` | [Lisa Eadicicco](https://promptugal.news/people/lisa-eadicicco/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-7.md) | [Next part](DAT-9.md)

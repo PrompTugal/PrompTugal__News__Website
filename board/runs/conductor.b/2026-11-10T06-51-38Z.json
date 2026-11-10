@@ -1,0 +1,201 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-10T06-51-38Z",
+ "started": "2026-11-10T06:51:38.031Z",
+ "ended": "2026-11-10T06:53:49Z",
+ "line": "06:48 wake: the seven ran; dev and dev.pages refused again by the safety check; ledger",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-10T06:51:38.360Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-10T06:53:03.281Z",
+   "chars": 2492,
+   "sha256": "8c8884d9ec974a4c",
+   "head": "<agent-message from=\"a4f7f2ec04a86e505\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-10T06:51:38.031Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 22,
+  "by_kind": {
+   "other": 2,
+   "git": 2,
+   "agent": 2,
+   "remote": 13,
+   "session": 2,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 4,
+  "R2": 13
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 17,
+  "denied": [
+   {
+    "t": "2026-11-10T06:52:47.949Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in conductor.b@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:52.764Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:52.963Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:53.199Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:53.377Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:53.597Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:53.825Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:54.011Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:54.241Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:54.447Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:54.673Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:54.869Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:55.081Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:52:55.235Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.b@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:53:02.954Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in conductor.b@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:53:13.857Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T06:53:25.566Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 17
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 22,
+  "in_mandate": 5,
+  "out_of_mandate": 17,
+  "attempts": 17,
+  "breaches": 0
+ }
+}

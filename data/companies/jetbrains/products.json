@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "jetbrains",
+  "products": [
+    {
+      "id": "jetbrains-air",
+      "name": "JetBrains Air",
+      "what": "One system for building software with agents: tasks and automations run the agents a team already uses, and developers review every change.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "agents-in-air"
+      ]
+    }
+  ]
+}

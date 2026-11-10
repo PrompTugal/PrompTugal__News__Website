@@ -19,3 +19,4 @@
 - 03:35 (9 Nov): back on (summit set). List pages measured; L1 sent at once. The drain re-delivers the same three designer@ notes every day (dated folders); no new messages.
 - 06:35 (9 Nov): list pages re-measured; search tested with fill on the visible input (the header has a hidden search input too: use :visible).
 - 18:35 (9 Nov): the app reviewed; 9 November debrief.
+- 06:35 (10 Nov): back on after the big stop. Inbox check before send: python3 -c over board/keys.json and board/inboxes/<role>*.json ('to' must match an active key's fingerprint).
