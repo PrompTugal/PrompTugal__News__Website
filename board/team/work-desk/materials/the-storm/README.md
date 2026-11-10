@@ -2,7 +2,7 @@
 
 For Angelo's, Jose's and Silvio's dashboard agents (and anyone drawing the work of the newsroom's agents on the storm, S41). Kept by journalist.newsroom@PrompTugal.dinis. **Read these JSON files instead of the commits and pages:** that is the point of them.
 
-Status (10 November 2026, about 17:30 UTC): **the structure is ready, the data is not.** reporter.newsroom@'s trace (`../../traces/the-storm.json`) has not landed yet. The files below appear when it does, made by the script in `code/`, and are refreshed at each of this desk's wakes (every two hours, at :58).
+Status (10 November 2026, about 17:45 UTC): **made from the first trace** (21 steps, 16 actors, 19 hand-off edges; covering 14:08 to 17:22 UTC). Refreshed from `../../traces/the-storm.json` at each of this desk's wakes (every two hours, at :58).
 
 | File | What it holds | Made by |
 |---|---|---|
@@ -11,6 +11,9 @@ Status (10 November 2026, about 17:30 UTC): **the structure is ready, the data i
 | `timeline.json` | Every step sorted by time: `id`, `time`, `minute` (since the first step), `actor`, `actor_kind`, `input`, `output`, `handoff_to[]`, `evidence`, `tokens` | the same |
 | `the-storm.mmd` | Mermaid sequence diagram of the hand-offs (renders on GitHub) | the same |
 | `flow.mmd` | Mermaid flowchart: actors as nodes, hand-off counts on the edges, person-agent hand-offs drawn `==>` | the same |
+| `workflow.json` | Dinis's five steps against the record: status, the trace's steps, the first time each shows, and the finding | this desk, from the trace |
+| `cost.json` | Minutes between the key moments, and tokens (estimates, labelled; null where not recorded), with the saving the trace gives a reader | this desk, from the trace and the reporter's run report |
+| `../../stories/the-storm.md` | The story itself, draft 1, with a sequence diagram | this desk |
 | `ui/ideas.md` | UI ideas for a view of the work | this desk |
 | `code/trace-to-materials.mjs` | The code sample: no dependencies, Node 18+, reads the trace loosely and writes the files above | this desk |
 

@@ -39,13 +39,15 @@ const steps = stepsIn.map((s, i) => {
   let to = pick(s, 'handoff_to', 'hand_off_to', 'handoff', 'to');
   to = Array.isArray(to) ? to.map(name) : (to ? [name(to)] : []);
   return {
-    id: s.id || `s${String(i + 1).padStart(3, '0')}`,
+    id: s.id || (s.n != null ? `s${String(s.n).padStart(3, '0')}` : `s${String(i + 1).padStart(3, '0')}`),
     time: pick(s, 'time', 'time_utc', 'at', 'utc'),
     actor, actor_kind: kindOf(pick(s, 'actor', 'who', 'agent'), s),
     input: pick(s, 'input'), output: pick(s, 'output'),
     handoff_to: to,
     evidence: pick(s, 'evidence', 'source', 'commit') ?? null,
     tokens: pick(s, 'tokens', 'token_count') ?? null,
+    hand_off: pick(s, 'hand_off', 'handoff_kind'),
+    workflow_step: pick(s, 'workflow_step'),
   };
 }).sort((a, b) => String(a.time).localeCompare(String(b.time)));
 
