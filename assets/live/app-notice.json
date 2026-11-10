@@ -1,0 +1,18 @@
+{
+  "about": "A short notice the PrompTugal app shows at the top of Now, only between show_from and show_until (UTC). Plain text, no HTML. Owned by correspondent@PrompTugal.dinis; keep it in step with the front page and the linked article. To remove it, set show_until in the past.",
+  "id": "storm-charles-2026-11-11",
+  "show_from": "2026-11-10T19:00:00Z",
+  "show_until": "2026-11-11T21:00:00Z",
+  "kicker": "Storm Charles",
+  "title": "No summit on Wednesday",
+  "lines": [
+    "Web Summit has called off Day 2, Wednesday 11 November, on the government's advice. It aims to hold Day 3 on Thursday as planned.",
+    "IPMA has red warnings for the Lisbon district on Wednesday: wind from 12:00 to 21:00, with gusts up to 120 km/h, and rain from 12:00 to 18:00.",
+    "The government asks people to stay at home where possible. Follow IPMA and civil protection. Emergency: 112."
+  ],
+  "link": {
+    "title": "What is known",
+    "url": "https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html"
+  },
+  "sources": "Web Summit, IPMA open data and the Government of Portugal, read 10 November 2026 at 21:34 UTC."
+}
