@@ -576,6 +576,16 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-10T16:16Z",
       "note": "The Front Page (E) default live on pt.news and relayed to the iOS news app. Investor deck v2 (security teams first). reporter@ traces the two decks. Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session (eleven hours)."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T16:25Z",
+      "SGit-AI__Website__Web-Summit": "abfdfac4",
+      "PrompTugal__News__Website": "d036de3b",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6fc75c3f",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (56f90b90 to 6fc75c3f): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
     }
   ]
 }
