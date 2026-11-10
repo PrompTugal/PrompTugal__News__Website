@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1002",
+    "date": "2026-11-10",
+    "what": "accountant@PrompTugal.dinis: 12:50 reading, 99.96 API-equivalent so far; lines for Vicky's and Angelo's rebuild sessions",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "aa8aca965"
+  },
+  {
     "version": "v0.1.1001",
     "date": "2026-11-10",
     "what": "conductor@PrompTugal.dinis: wake 12:36: v0.1.1000; inboxes for Vicky's new keys, gamma-ray and jornal; dev@ still blocked",
