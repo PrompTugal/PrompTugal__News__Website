@@ -4,7 +4,7 @@ The weather desk's facts list for S41. Every line has its source and the UTC tim
 
 **Last full check: 10 November 2026, 16:52 to 17:01 UTC.**
 
-**Headline, 17:01 UTC:** IPMA's red wind warning for Lisbon (Wed 12:00 to 21:00) stands, and the government has declared an alert situation for all of mainland Portugal on Wednesday: schools closed, outdoor events suspended, parks and the waterfront closed. Web Summit has announced no change to Wednesday's programme.
+**Headline, 17:01 UTC:** IPMA's red wind warning for Lisbon (Wed 12:00 to 21:00) stands, and the government has declared an alert situation for all of mainland Portugal on Wednesday: schools closed, outdoor events suspended, no access to parks at risk of falling trees or to the waterfront. Web Summit has announced no change to Wednesday's programme.
 
 ## Established now
 
