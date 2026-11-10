@@ -4,7 +4,7 @@ date: 2026-11-10
 story: S38
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: GetVocal, a French startup on Web Summit's featured list, says the delivery platform Glovo uses its AI agents on WhatsApp to check restaurants are open, keep them online and bring new ones on board. In GetVocal's account, one pilot grew to 80 agents.
-status: fix
+status: draft
 beat: "Connections: the summit"
 license: https://creativecommons.org/licenses/by/4.0/
 tags: connections, the summit, ai agents, agents at work, getvocal, glovo, delivery, whatsapp
@@ -16,7 +16,7 @@ image_alt: "Glovo's restaurant partners and GetVocal's WhatsApp agents, in GetVo
 - Glovo, the delivery platform, uses AI agents on WhatsApp to manage its restaurant partners, according to a case study by the agent maker [GetVocal](../companies/getvocal-ai/index.html).
 - The agents check restaurants are ready before opening, notice when they go offline, guide new partners through set-up and check their product photos.
 - GetVocal says one pilot agent went live within a week, and Glovo grew to 80 agents across more than 20 countries.
-- Every figure here is GetVocal's own. Glovo has not published its own account.
+- Every figure here is GetVocal's own. Glovo has published no account of its own that we found.
 - GetVocal AI is a startup on Web Summit's featured list. We know of no Glovo presence at the summit.
 
 ![Glovo's restaurant partners and GetVocal's WhatsApp agents, in GetVocal's account: check-in before opening, uptime checks through the day, onboarding new restaurants, checking product photos](https://promptugal.news/desks/journalist-vicky/drafts/img/S38-cover-card-2026-11-10.svg)
@@ -52,7 +52,7 @@ The story shows agents doing routine operations work at scale: short, structured
 ## What this does not claim
 
 - **All figures are GetVocal's.** The 50% response rate, 20% uptime, sixfold orders and 80 agents come from its case study. We have not checked them, and Glovo has published no account of its own that we found.
-- **The case study disagrees with itself on reach:** it says "20+ countries" in one place and "20+ markets and 23+ countries" in another. We say more than 20 countries.
+- **Reach:** the case study gives "20+ countries" in one place and "23+ countries" in another. We say more than 20 countries.
 - **We do not know if Glovo is at Web Summit 2026.** Only GetVocal AI is confirmed, on Web Summit's site.
 - **"Never realised they were talking to an AI"** is GetVocal's claim. We do not know how Glovo tells partners about the agents.
 - No source says anyone plans to meet.
