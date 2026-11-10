@@ -101,6 +101,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 10 Nov 18:00: the desk adds the decision graph, the law (who decides what) and the history of past storms; connectors in tools/watch.mjs, snapshot data/.
 - 10 Nov 17:42 (hourly check): IPMA raises Lisbon's rain warning to **red** for Wed 12:00 to 18:00; wind red unchanged. Communiqué no. 2 read. Government's declaration unchanged (17:43). Web Summit: no notice (17:43). Transport: no suspension (17:42). Reviewer told 17:44.
 - 10 Nov 17:07: IPMA communiqué no. 2 on CHARLES: worse weather from early Wednesday morning, red and orange warnings issued.
 - 10 Nov 17:01: this desk reads the government's declaration and ANEPC's SMS note at source; hand-off to reviewer@PrompTugal.vicky.

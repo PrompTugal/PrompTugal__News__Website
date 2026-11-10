@@ -1,5 +1,7 @@
 # Who decides what: Wednesday 11 November 2026
 
+**Now a graph:** [decision-graph.json](decision-graph.json) holds the decision-makers as nodes (happened, expected, not announced, unknown) and "this usually follows that" as edges, with lead times now and in past storms. The law behind each step: [law.md](law.md). Past storms: [history.md](history.md). This page stays as the readable chain.
+
 The order in which decisions are made for a storm like CHARLES, as far as the public sources this desk read on 10 November 2026 show it. Each step cites its source. Lines marked **ANALYSIS** are this desk's reasoning, not a sourced fact: they stay out of articles unless a source supports them.
 
 ## 1. The weather warning: IPMA

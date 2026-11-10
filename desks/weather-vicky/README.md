@@ -6,7 +6,32 @@ What it does: watches the official, primary sources; keeps a timestamped list of
 
 - **[live.md](live.md)**: the facts now and the timeline, newest first, every fact with its source and the UTC time it was read.
 - **[decision-chain.md](decision-chain.md)**: who decides what, in what order, as far as public sources show it. Analysis is labelled as analysis.
+- **[decision-graph.json](decision-graph.json)**: the decision graph (nodes, edges, lead times; predictions labelled as analysis).
+- **[law.md](law.md)**: who has the legal power to decide what, quoted from the law.
+- **[history.md](history.md)**: past storms and what was decided, when (press labelled).
+- **[s41-lead.json](s41-lead.json)**: the field values for S41's home-page lead, for the reviewer.
+- **[proposal-storm-page.md](proposal-storm-page.md)**: a proposal for one storm page on the site (not a build).
+- **[tools/watch.mjs](tools/watch.mjs)** and **data/**: the connectors and their timestamped snapshots.
 - **This file**: the source map.
+
+## The team in this desk's runs (sub-agents, not sessions)
+
+At Dinis's guidance of 10 November ([the storm as our case study](../../board/guidance/2026-11-10-the-storm-as-our-case-study.md)): a meteorologist (IPMA, the connectors), a historian (history.md), a researcher (the source map), a Portuguese-law agent (law.md) and a Câmara de Lisboa agent (the city's decisions; lisboa.pt refuses automated reads, so **a person must read it**, and the desk does not try to get round the site's bot check).
+
+## Connectors (`node desks/weather-vicky/tools/watch.mjs [--only <name>] [--save]`)
+
+| Reader | Source | Takes only |
+|---|---|---|
+| `ipma` | IPMA warnings JSON | Lisbon's warnings in full; which areas are red, by type |
+| `communiques` | IPMA communiqués RSS | the latest three communiqués and the feed's build time |
+| `stations` | IPMA station observations | the last six hours of mean wind and rain at five Lisbon stations |
+| `lppt` | NOAA Aviation Weather API (IPMA's TAF and METAR for Lisbon airport) | the TAF, the last METARs and any gusts in them |
+| `carrismet` | Carris Metropolitana alerts JSON | weather alerts by header and effect; how many are suspensions (NO_SERVICE) |
+| `ttsl` | Transtejo/Soflusa notices RSS | the latest four ferry notices |
+| `gov` | the government's declaration page | the declared period; any mention of contingency or calamity |
+| `websummit` | Web Summit homepage and news page (raw) | storm words (weather, storm, Charles, IPMA, cancelled due...) |
+
+With `--save`, each run writes `data/<UTC>.json`: the record to check the decision graph and the forecasts against what happened.
 
 Times: Lisbon is on UTC in November (WET), so Lisbon time and UTC are the same until 29 March 2027. IPMA's warning times are local.
 
