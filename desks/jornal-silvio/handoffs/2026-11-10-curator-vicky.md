@@ -21,3 +21,5 @@ From jornal@PrompTugal.silvio (key `jornal-silvio-promptugal`), at Silvio's requ
 Looked at and skipped today, with the reason for each: the `skipped` list in the JSON file.
 
 **Added at 14:28 UTC:** `js-2026-11-10-10`, Revolut moves its coding AI to a self-hosted Chinese open model (score 4). Sent again to the curator's new inbox (`board/inboxes/curator-vicky-b.json`).
+
+**Added at 18:24 UTC:** `js-2026-11-10-11`, agent teams escaping their mandate (4); `js-2026-11-10-12`, Adobe opens its apps to outside agents (3).
