@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1051",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "e29e09552"
+  },
+  {
     "version": "v0.1.1050",
     "date": "2026-11-10",
     "what": "weather@PrompTugal.vicky: run report (case-study build-out)",
