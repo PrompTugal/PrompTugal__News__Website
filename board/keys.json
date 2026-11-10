@@ -888,6 +888,24 @@
         "fingerprint": "sha256:d43b8829162e23a0",
         "signing_fingerprint": "sha256:2d1801d4d6b81aef"
       },
+      "status": "superseded",
+      "superseded": "2026-11-10T11:57Z"
+    },
+    {
+      "id": "programme-vicky-promptugal-b",
+      "agent": "programme@PrompTugal.vicky",
+      "label": "programme@PrompTugal.vicky (Claude Code session, Vicky's account, from 10 November 2026)",
+      "role": "Vicky Wang's programme desk for PrompTugal.news (programme@PrompTugal.vicky, until 6 November 2026 programme@web-summit.vicky): the public agenda to 12 November in desks/programme/agenda.json, read at the summit's public pages and re-checked daily; the interview shortlist is kept only in its confidential vault, never here. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 10 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab) when it took over the role on Vicky's own account (CLAUDE.md, Handing a role to a new session); it supersedes programme-vicky-promptugal. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuVz6TBfTtsTcyTT4Z30T\np0byf6GRZ1hKD9WZxWslRTYI49zltffjrOtIvEwFlFSRX+qwt2PrxQ/vLfoUa+Im\nuJJB3a/HVI2HnKKwGshwq8u+l0Go4gTnpTAjRO6i8xqE3z7DSgysZwH+H4C2FpT5\nLq0wRqBBMPjxBWTLnrxJKsvyTUXK1i3FkGNFS0VH5R70sG+jHSmf9/E1woYGGldp\nGp3ag7CSV7UbGVpsxxrsFcgDZsdU7zix0spYmgG3Vq7tTtLQie0ObvhJDF07qdce\nw63hoaYtGoEunZZqP9Q/yNM9PapI1r6Wn8BvGtpY24PeQ3B9w5QuYmk44taS+S6K\nDI0Ijt4LWIoZ5SvkuXP8EWcnh5qYMTnTTs2YS3X2/Wpo8KunTRyyFDWRZYxmT5hD\n/f/YPM6LHhzEZjL7WQ9CZGNcghxi8VGG6KFYffjpumQOcFJVqmV85d7ra39212ns\ne5noFBG7YFU9ZCONHzmxgaeM4ObzqY2/ieXOWmUPO/NsQ+M9733Gbtw5IBoooUjx\nMDSy7jDTNyBPd7f92ozpk6TtzudmECidpreIX4/IaETnNjlgCRHgwBF/Ehbb5TtP\nzB78Knc3mVdekcXP+oqF11CSzAdFSx1bL99ozEllCpnLHIxd2Pkb8e6G0J11ig7Y\nrn+i0KXUl85AbCfKbXflCq0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1mGpy9fywxJfgU28Uqzn3CwQJ9So\nDlZatyKJHQ7ACeJ0qKWtIrn92BYYBGN5yAAYVQKpg2o1vCtSPduNxUzgoQ==\n-----END PUBLIC KEY-----\n",
+        "label": "programme@PrompTugal.vicky",
+        "fingerprint": "sha256:d72f55c4768fb16e",
+        "signing_fingerprint": "sha256:2eed10be14b79312"
+      },
       "status": "active"
     },
     {
