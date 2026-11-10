@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1024",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: S41 update approval recorded (S41 only); 15:22 check: no change; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2bf973d8b"
+  },
+  {
     "version": "v0.1.1023",
     "date": "2026-11-10",
     "what": "conductor.B@PrompTugal.vicky: S41 watch on journalist@'s hourly wake, recorded in the hand-over",
