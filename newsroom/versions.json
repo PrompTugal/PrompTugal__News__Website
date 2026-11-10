@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1045",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: S41 lead block: the standfirst replaces the summary as the dek when present; the summary stays the fallback",
+    "by": "dev@PrompTugal.vicky",
+    "from": "1b1e7e82a"
+  },
+  {
     "version": "v0.1.1044",
     "date": "2026-11-10",
     "what": "reviewer@PrompTugal.vicky: run report, 17:32",
