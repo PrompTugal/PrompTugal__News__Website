@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1078",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.dinis: Wednesday did not take place on the site too; /agentic/ A to Z with a stage switch",
+    "by": "dev@PrompTugal.dinis",
+    "from": "582f69052"
+  },
+  {
     "version": "v0.1.1077",
     "date": "2026-11-10",
     "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
