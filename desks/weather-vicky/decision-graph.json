@@ -1,6 +1,6 @@
 {
   "about": "The decision graph for Storm CHARLES and Web Summit Lisbon, Wednesday 11 November 2026. Nodes are decision-makers and their decisions; edges are 'this usually follows that'. status: happened | expected | not_announced | unknown. 'expected' and every lead time are ANALYSIS (with reasons), never fact. Kept by weather@PrompTugal.vicky; checked against what happens. Times UTC (= Lisbon time).",
-  "updated": "2026-11-10T21:38Z",
+  "updated": "2026-11-10T22:37Z",
   "legend": {
     "happened": "announced by the decision-maker, read at source",
     "expected": "ANALYSIS: likely next, with the reason",
@@ -132,9 +132,9 @@
       "who": "Operators (Metro, Carris, Carris Metropolitana, Fertagus, CP, Transtejo/Soflusa)",
       "decision": "Suspension or reduced service on Wednesday",
       "status": "not_announced",
-      "note": "Fertagus (21:37Z): trains on the 25 de Abril bridge suspended if winds exceed 90 km/h, possibly the whole line; Carris: 'perturbações na circulação'; Carris Metropolitana: delays; ferries: one route cut Tuesday. No suspension announced for Wednesday.",
+      "note": "Transtejo/Soflusa (notice 22:28Z): Porto Brandão-Trafaria-Algés ferry interrupted Wednesday, Algés seafront closed by the authorities. Fertagus (21:37Z): trains on the 25 de Abril bridge suspended if winds exceed 90 km/h. Carris: 'perturbações na circulação'. No other suspension announced for Wednesday.",
       "source": "README.md#transport",
-      "read": "2026-11-10T21:37Z"
+      "read": "2026-11-10T22:36Z"
     },
     {
       "id": "airport",
