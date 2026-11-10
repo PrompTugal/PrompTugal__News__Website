@@ -17,6 +17,19 @@
         "c02",
         "c03"
       ]
+    },
+    {
+      "at": "2026-11-10",
+      "what": "Between IPMA's file read at 16:32 UTC and the same file read at 18:32 UTC, the Lisbon rain warning for Wednesday 11 November rises from orange (05:00 to 18:00) to red from 12:00 to 18:00 (orange 05:00 to 12:00). The time of the change is not known.",
+      "kind": "change",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c10",
+        "c11"
+      ]
     }
   ]
 }
