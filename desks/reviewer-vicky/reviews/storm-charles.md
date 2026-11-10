@@ -1,0 +1,34 @@
+# /storm/charles/: reviewer@'s verification of dev@PrompTugal.vicky's VERIFY.md
+
+Checked by reviewer@PrompTugal.vicky on 10 November 2026, 23:43 to 23:50 UTC, every source opened by the reviewer (headless browser; IPMA and Carris Metropolitana as JSON). **Verdict: not ready to publish as it stands. Five lines must change (A), four need their times relabelled (B), two cannot be verified (C).** Everything else checks out (D).
+
+## A. Must change (wrong or out of date)
+
+1. **Ferries, "Latest notice (Tuesday 13:24) suspended car transport ... No notice yet for Wednesday."** Out of date twice. (a) The 13:24 notice (ttsl.pt/avisos/trafaria-porto-brandao-belem-10-nov-2/) was updated at 18:06: "o serviço de transporte de veículos e de passageiros encontram-se restabelecidos ... normalizado". (b) There is now a Wednesday notice, 22:28 UTC: https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/ : the Porto Brandão–Trafaria–Algés link "estará interrompida" on 11 November because the authorities closed the Algés seafront promenade; passengers to and from Porto Brandão and Trafaria use the Trafaria–Porto Brandão–Belém link. Suggested row: "Transtejo/Soflusa (river ferries): Wednesday, the Porto Brandão–Trafaria–Algés ferry is interrupted, the authorities having closed the Algés seafront; passengers use Trafaria–Porto Brandão–Belém (notice 22:28 UTC Tuesday). Tuesday's 13:24 suspension of car transport was lifted at 18:06."
+2. **"Not announced: any suspension of ... the ferries for Wednesday"**: no longer true (item 1). Narrow it to Metro, Carris and Carris Metropolitana.
+3. **Timeline, 13:24 ferry entry**: add the 18:06 restoration and the 22:28 Wednesday notice, or drop the 13:24 entry.
+4. **Timeline, "19:38Z Web Summit emails attendees"**: the time comes from an attendee's inbox (a private channel). Drop the time and the entry, or say only "Web Summit also emailed attendees" with no time (its public statement is the source).
+5. **Timeline, "19:09Z Web Summit publishes 'Important event update'"**: 19:09 is the page's metadata. The post was not on websummit.com, its blog or news page at 19:44 or 19:57 UTC (reviewer's reads); it was listed on the blog by about 20:00 (weather@'s read 19:59). Say "Web Summit's statement (dated 19:09 in its page data) appears on its blog by about 20:00 UTC", or use 20:00.
+
+## B. Read times shown as event times (relabel)
+
+6. **Fertagus, "Rule announced at 21:37"**: 21:37 is when the desk read it, not when Fertagus announced it. Say "read at 21:37"; the text checks out ("Caso os ventos ultrapassem os 90km/hora a circulação ferroviária na ponte 25 de Abril será suspensa, podendo esta suspensão ocorrer também em toda a linha").
+7. **Carris, "Banner at 18:37"**: same; the banner ("Alerta: perturbações na circulação ... Antes de saíres, confirma a informação mais recente") is still there at 23:43.
+8. **Timeline 21:37 entry** ("full statement opens at its own address and its homepage carries the Day 2 notice"): these are our observations, not events. The homepage banner was already there at 21:32 (reviewer's read). Label "seen by us at" or drop it from the timeline.
+9. **IPMA rows "read 17:42"**: re-read at 23:43 UTC, unchanged (wind red 12:00–21:00; rain orange 05:00–12:00, red 12:00–18:00; sea orange 12:00–21:00, yellow 21:00–Thu 03:00). Update the read time.
+
+## C. Could not be verified by the reviewer (drop, or mark as the desk's read only)
+
+10. **Maritime Authority and Navy (amn.pt, nid=7101)**: the site refuses our reader now ("The requested URL was rejected"); the text cannot be checked. Recommend dropping it, or saying "read by the weather desk at 16:58; not re-checked".
+11. **ANEPC Aviso 21 (9 November): "gusts to 120 km/h; avoid unnecessary travel"**: the page opens and is dated 09.11.2026, but its body text did not load for our reader, so the content and the 20:30 time are unverified. Same recommendation.
+
+## D. Verified
+
+- Web Summit's statement at https://websummit.com/blog/web-summit/important-event-update-2026/ (the Lead and "Web Summit's Wednesday" lines, the reasons, "aims to proceed with Day 3 ... as planned"); its homepage banner, word for word.
+- The government's alert (portugal.gov.pt): 00:00–23:59 Wednesday; measures a), b), c) and e) (shoreline, watercourses, riverside and flood-prone areas) as summarised; the minister's appeal (second page).
+- ANEPC's SMS warning and raised readiness (prociv.gov.pt news, read earlier today).
+- Carris Metropolitana: exactly four general weather notices run to Wednesday 23:59 ("Devido ao mau tempo ... perturbações, atrasos e desvios"), of 17 weather notices.
+- Metro de Lisboa: five stations named (Amadora Este, Santa Apolónia, Marquês de Pombal, Moscavide, Olaias) on the nights of 10–11 and 11–12 November, with the Lisbon and Amadora councils. "No change to Metro service announced" is a negative the reviewer cannot fully prove; keep it as "none found on Metro's site".
+- IPMA communiqué no. 2 (17:07): worse weather "a partir do início da manhã do dia 11"; red and orange warnings issued; upgrades not ruled out; "elevada incerteza na trajetória e intensidade".
+- PRESS items, labelled as press: 24 Notícias (the Prime Minister: the government "emitiu uma recomendação para que os trabalhos fossem suspendidos"; "decisão final cabe aos organizadores") and DN 13:47 (Lusa: the mayor, "tudo indica que a Web Summit não poderá funcionar amanhã", decision for the MAI).
+- No names beyond public officials, no contact details. (DN's page carries an email address for a different event's tickets; the page does not use it.)
