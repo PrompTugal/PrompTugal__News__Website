@@ -1,5 +1,5 @@
 ---
-title: "What failed when Teamworks built an AI assistant for NFL coaches"
+title: "What failed first as Teamworks builds an AI assistant for coaches"
 date: 2026-11-10
 story: S37
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
@@ -20,7 +20,7 @@ tags: AI agents, agents in real work, sport
 
 Most stories about AI agents are about what they can do. This one, told by the company whose framework was used, is also about what did not work first.
 
-**The job.** Teamworks says its software runs more than 7,000 sports teams, across the NFL, NBA, NHL and others. PFF, whose enterprise business is now part of Teamworks, has analysed every player and every play of every NFL game since 2006. The new agent sits on top of PFF's internal databases. A coach preparing for an opponent can ask, for example, for every play from one kind of situation; one question may cover a whole season and hundreds of players.
+**The job.** Mastra's case study describes Teamworks as an operating system for more than 7,000 sports teams, across the NFL, NBA, NHL and others. PFF, whose enterprise business is now part of Teamworks, has analysed every player and every play of every NFL game since 2006, the case study says. The new agent sits on top of PFF's internal databases. A coach preparing for an opponent can ask, for example, for every play from one kind of situation; one question may cover a whole season and hundreds of players.
 
 **The design.** The team used what Mastra calls a supervisor pattern. One main agent acts as the router and sends each question to one or more of seven specialist agents, each with about five tools that query PFF's databases. Some questions need one tool. Others pass through two or three agents and tools before the answers are combined. The tools' descriptions mattered too: football terms such as "wins above replacement" or "expected points added" are not words a model can be trusted to understand on its own.
 
@@ -42,11 +42,12 @@ Mastra is one of the startups on Web Summit's featured list; [our guide to the A
 
 - **The only source is Mastra's own case study.** There is no Teamworks or PFF account here; their claims are as Mastra reports them.
 - **It is not in production.** The page's headline speaks of saving coaches hours; the same page says the system is still in staging and testing.
-- **No figures are checked.** The 7,000 teams and the "hours to minutes" claim are the companies' own.
+- **No figures are checked.** The 7,000 teams, PFF's coverage since 2006 and the "hours to minutes" claim are as Mastra's case study reports them.
 - **Mastra's place on Web Summit's list is context only.** Nothing here says Teamworks or PFF take part in the summit.
 
 ## Where this comes from
 
 - [Mastra, "How Teamworks Built an AI Assistant That Saves NFL Coaches Hours on Game Prep"](https://mastra.ai/customers/teamworks) (the whole account: the job, the design, the failure, the checks, the tests, the status), read 10 November 2026
-- [Web Summit, "Mastra"](https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra) (Mastra on Web Summit 2026's featured startups), read 10 November 2026
+- [Web Summit, "Mastra"](https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra) (Mastra's Web Summit 2026 page), read 10 November 2026
+- [Web Summit, "Featured startups at Web Summit"](https://websummit.com/startups/featured-startups/) (Mastra on the featured list), read 10 November 2026
 - From the curator's map: S37 (OVERNIGHT-10NOV), `desks/curator/README.md`
