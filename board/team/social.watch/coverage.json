@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-10T20:56Z",
+  "updated": "2026-11-10T21:00Z",
   "sweeps": [
     {
       "n": 1,
@@ -530,12 +530,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://mastodon.social/@nico42/117593473112494351",
+      "url": null,
       "platform": "Mastodon",
-      "author": "nico42",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Unfortunately it’ll be closed most likely tomorrow because a huge storm is approaching Lisbon",
+      "quote": null,
       "published": "2026-11-10T18:06:00Z",
       "topics": [
         "storm",
@@ -546,18 +546,19 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; user speculation, not an official announcement",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://masto.pt/@Chatinho/117592116451447499",
+      "url": null,
       "platform": "Mastodon",
-      "author": "Chatinho (masto.pt)",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "tempestade de alerta elevado e Carlos Moedas a dançar com robots",
+      "quote": null,
       "published": "2026-11-10T12:21:00Z",
       "topics": [
         "storm",
@@ -568,18 +569,19 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; mentions a high-alert storm warning",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://social.coletivos.org/@ervilha/117593181570667621",
+      "url": null,
       "platform": "Mastodon",
-      "author": "ervilha (coletivos.org)",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Oh Moedas anda cá arranjar isto! #webSummit #lisboa #chuva",
+      "quote": null,
       "published": "2026-11-10T16:52:00Z",
       "topics": [
         "storm",
@@ -590,18 +592,19 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; rain complaint, likely about city infrastructure",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:e5qqz2ipcqcww5hxfhrvwgpj/post/3mzvxuxiz4k2z",
+      "url": null,
       "platform": "Bluesky (via Mastodon bridge)",
-      "author": "serialpeter.bsky.social",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "A Bruna passar por cima da #WebSummit e deixá-los completamente às escuras",
+      "quote": null,
       "published": "2026-11-09T22:26:00Z",
       "topics": [
         "storm",
@@ -612,10 +615,11 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; refers to storm 'Bruna' (named storm) as a joke; original at bsky.app/profile/serialpeter.bsky.social/post/3mzvxuxiz4k2z",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:drsuvxemjgu367n6xn4brx4h/post/3mzvs2yckts24",
@@ -781,12 +785,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://social.coletivos.org/@ervilha/117587027618961815",
+      "url": null,
       "platform": "Mastodon",
-      "author": "ervilha (coletivos.org)",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Ervilha paga jantar às elites da web summit!",
+      "quote": null,
       "published": "2026-11-09T14:47:00Z",
       "topics": [
         "Portugal",
@@ -797,18 +801,19 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; critical political comment",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://phpc.social/@t_var_s/117587175893796133",
+      "url": null,
       "platform": "Mastodon",
-      "author": "t_var_s (phpc.social)",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "o verdadeiro #websummit é o bebe summit",
+      "quote": null,
       "published": "2026-11-09T15:25:00Z",
       "topics": [
         "Portugal"
@@ -818,10 +823,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; humorous",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://mas.to/@squads/117581570639054104",
@@ -869,55 +875,50 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://mastodon.social/@kristigjeka/117548387489878018",
+      "url": null,
       "platform": "Mastodon",
-      "author": "kristigjeka",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "I'll be at Web Summit 2026 (Nov 9–12) representing Kalemi",
+      "quote": null,
       "published": "2026-11-02T19:00:00Z",
       "topics": [
         "AI",
         "startups"
       ],
-      "companies": [
-        "Kalemi",
-        "Publer"
-      ],
+      "companies": [],
       "company_ids": [],
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://mastodon.social/@denisqyra/117547155416735528",
+      "url": null,
       "platform": "Mastodon",
-      "author": "denisqyra",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Food & Marketing meetup Tue 10 Nov, 12:30, stand E368.",
+      "quote": null,
       "published": "2026-11-02T13:47:00Z",
       "topics": [
         "startups",
         "marketing"
       ],
-      "companies": [
-        "Linkie by Publer"
-      ],
+      "companies": [],
       "company_ids": [],
-      "sessions": [
-        "Food & Marketing meetup, Tue 10 Nov"
-      ],
+      "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://mastodon.uno/@MelaNews/117520222449943699",
@@ -968,12 +969,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://mastodon.social/@nico42/117578303476920682",
+      "url": null,
       "platform": "Mastodon",
-      "author": "nico42",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Preparing for #WebSummit",
+      "quote": null,
       "published": "2026-11-08T01:48:00Z",
       "topics": [
         "startups"
@@ -983,10 +984,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://www.youtube.com/watch?v=dJi_pXLxwno",
@@ -1298,12 +1300,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://www.youtube.com/watch?v=nCiSiC-r9qc",
+      "url": null,
       "platform": "YouTube",
-      "author": "HFerreira",
+      "author": null,
       "kind": "video",
-      "title": "Web Summit 2026 Lisbon: Is It Driving Portugal's Housing Crisis? (Vlog #9)",
-      "quote": "Web Summit 2026 Lisbon: Is It Driving Portugal's Housing Crisis? (Vlog #9)",
+      "title": null,
+      "quote": null,
       "published": null,
       "topics": [
         "Portugal",
@@ -1315,10 +1317,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Vlog by a private creator, handle only. Published about 18h before sweep.",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "YouTube and video",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://www.youtube.com/watch?v=CH9axjGRt3w",
@@ -1343,31 +1346,28 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://www.youtube.com/watch?v=6QnmhjEGFf4",
+      "url": null,
       "platform": "YouTube",
-      "author": "Masaru IKEDA",
+      "author": null,
       "kind": "video",
-      "title": "Web Summit 2026 現地 Vlog｜Opening Night はロボットも空飛ぶクルマも中国勢──AgiBot、Manus AI、Xpeng Aridge",
-      "quote": "Web Summit 2026 現地 Vlog｜Opening Night はロボットも空飛ぶクルマも中国勢──AgiBot、Manus AI、Xpeng Aridge",
+      "title": null,
+      "quote": null,
       "published": "2026-11-10",
       "topics": [
         "robotics",
         "China",
         "AI"
       ],
-      "companies": [
-        "Manus AI"
-      ],
-      "company_ids": [
-        "manus-ai"
-      ],
+      "companies": [],
+      "company_ids": [],
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Japanese-language vlog from opening night; handle/name as shown. Date approx (about 7h before sweep).",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "YouTube and video",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://www.youtube.com/watch?v=JzLsTw-BCIA",
@@ -1414,12 +1414,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://www.youtube.com/watch?v=YR-Sl6ob2Ow",
+      "url": null,
       "platform": "YouTube",
-      "author": "Buhle Goslar",
+      "author": null,
       "kind": "video",
-      "title": "Web Summit 2026, Lisbon | Ready!",
-      "quote": "Web Summit 2026, Lisbon | Ready!",
+      "title": null,
+      "quote": null,
       "published": null,
       "topics": [
         "summit"
@@ -1429,10 +1429,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Private creator vlog, name as shown on channel.",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "YouTube and video",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://www.youtube.com/watch?v=Fi3odaoiJz8",
@@ -2363,5 +2364,6 @@
       "found": "2026-11-10T20:56Z",
       "found_by": "social.watch@PrompTugal.dinis (wake 20:51, correction)"
     }
-  ]
+  ],
+  "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."
 }

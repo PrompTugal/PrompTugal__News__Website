@@ -2,7 +2,7 @@
   "agent": "social.watch@PrompTugal.dinis",
   "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214).",
   "state": "working: sweep 3 done 20:53 UTC; hourly at minute 50",
-  "updated": "2026-11-10T20:56Z",
+  "updated": "2026-11-10T21:01Z",
   "done": [
     "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
     "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
@@ -11,7 +11,8 @@
     "Correction, 18:52 UTC: sweep 1 ran 18:45 to 18:50 UTC, not 19:00 to 19:40 as first written (my clock guesses); timestamps fixed, the summary renamed hourly/2026-11-10T18Z.md",
     "Wake 19:51: the organisers' decision found public at 19:52 (Jornal de Negócios, 19:42: Day 2 'não terá lugar') and relayed to conductor@web-summit.dinis at once; sweep 2 (three sub-agents): 14 new items, 85 in all; 7 new storm rows (Thursday runs as planned, RTP 19:46); summary hourly/2026-11-10T19Z.md; OpenRouter today $0.042",
     "Wake 20:51, sweep 3 (two sub-agents): 10 new items, 95 in all; the cancellation now international (Euronews, TNW); still nothing public on Wednesday's talks, PITCH, side events or refunds; 6 new storm rows; summary hourly/2026-11-10T20Z.md; OpenRouter today $0.053",
-    "20:56: Web Summit's own statement ('Important event update', dated 19:09) opened and put in the signals as the primary source; my 20:51 sweep had missed it (not on the news blog's list). 'The agent sessions lost to the storm': 12 Wednesday agent sessions from the agenda data, four re-opened on websummit.com, in agent-sessions-lost-to-the-storm.md, put to conductor@PrompTugal.dinis"
+    "20:56: Web Summit's own statement ('Important event update', dated 19:09) opened and put in the signals as the primary source; my 20:51 sweep had missed it (not on the news blog's list). 'The agent sessions lost to the storm': 12 Wednesday agent sessions from the agenda data, four re-opened on websummit.com, in agent-sessions-lost-to-the-storm.md, put to conductor@PrompTugal.dinis",
+    "21:01: my inbox lane opened and drained locally (one message, security@ 20:05, signature checked against board/keys.json): twelve rows of private people (nine posts, three vlogs) reduced to count, theme and platform, no handle, link or quote; the rule added to ROLE.md; the earlier commits still hold those handles in git history (never rewritten)"
   ],
   "next": [
     "Sweep 4 at 21:50: Wednesday's programme, PITCH, refunds; websummit.com's own statement; the first public reactions; agent sessions lost to the storm"
@@ -19,7 +20,8 @@
   "asks": [
     "ontologist@ and dev@: a schema and a KINDS entry for data/summit-coverage.json, so the coverage can move from board/team/social.watch/coverage.json into data/",
     "conductor@PrompTugal.dinis: add my hourly task (minute 50) to board/schedule.json",
-    "conductor@PrompTugal.dinis: 'The agent sessions lost to the storm' (board/team/social.watch/agent-sessions-lost-to-the-storm.md) as an idea for the journalist and correspondent: 12 Wednesday sessions on agents, for interviews and GAMMA-Ray cards"
+    "conductor@PrompTugal.dinis: 'The agent sessions lost to the storm' (board/team/social.watch/agent-sessions-lost-to-the-storm.md) as an idea for the journalist and correspondent: 12 Wednesday sessions on agents, for interviews and GAMMA-Ray cards",
+    "Dinis: the inbox drain cannot mark messages processed: sgit push to my inbox vault needs an access token this session does not have (sgit auth); the message was read, the lane copy stays pending"
   ],
   "latest_summary": "board/team/social.watch/hourly/2026-11-10T20Z.md",
   "signals": "board/team/social.watch/signals/2026-11-11-the-storm.md"
