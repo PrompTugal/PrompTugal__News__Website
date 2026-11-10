@@ -1,8 +1,8 @@
 {
  "about": "GAMMA-Ray Spectrum cards as gamma-ray.sgit.ai publishes them (beta; every rating experimental), read by newsroom/tools/gamma-pull.mjs. Levels: A autonomy, R reach, C control, O openness, 1 to 4, 0 where not yet evidenced. The source of every card is its page on gamma-ray.sgit.ai.",
  "source": "https://gamma-ray.sgit.ai/spectrum/",
- "version": "0.0.130",
- "read_at": "2026-11-10T20:11Z",
+ "version": "0.0.134",
+ "read_at": "2026-11-10T21:13Z",
  "cards": [
   {
    "id": "riskmandate-publisher",
@@ -49,6 +49,29 @@
    "review": null,
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/promptugal-newsroom-team/"
+  },
+  {
+   "id": "granter-ai-grant-consultant",
+   "name": "AI Grant Consultant",
+   "company": "granter",
+   "ours": false,
+   "what": "Chat-based agent, onboarded with the organisation's details and past applications, that matches funding calls, checks eligibility and admissibility, drafts applications section by section with playbooks, scores drafts with an Evaluator, and supports post-approval reporting. The user submits the appl",
+   "levels": {
+    "A": 2,
+    "R": 1,
+    "C": 1,
+    "O": 1
+   },
+   "stage": "Exploring",
+   "n": 5,
+   "of": 16,
+   "modes": "In production, Balanced",
+   "lit": "35 in 7 instruments",
+   "next": "Reach 2",
+   "read": "2026-11-10",
+   "review": "approved",
+   "vendor_reviewed": false,
+   "card": "https://gamma-ray.sgit.ai/spectrum/cards/granter-ai-grant-consultant/"
   },
   {
    "id": "codacy-ai-reviewer",
@@ -230,7 +253,7 @@
    "lit": "41 in 8 instruments",
    "next": "Openness 2",
    "read": "2026-11-10",
-   "review": "published-before-review",
+   "review": "approved",
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/github-copilot-cloud-agent/"
   },
@@ -348,6 +371,29 @@
    "review": "approved",
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/replit-agent/"
+  },
+  {
+   "id": "spinnable-ai-employees",
+   "name": "Spinnable AI employees",
+   "company": "spinnable",
+   "ours": false,
+   "what": "Role-based AI workers with their own email address, memory, scheduled tasks and access to 35+ connected tools, reachable by email, WhatsApp, Slack, meetings and voice.",
+   "levels": {
+    "A": 3,
+    "R": 2,
+    "C": 1,
+    "O": 2
+   },
+   "stage": "Building",
+   "n": 8,
+   "of": 16,
+   "modes": "In production",
+   "lit": "69 in 8 instruments",
+   "next": "Control 2",
+   "read": "2026-11-10",
+   "review": "approved",
+   "vendor_reviewed": false,
+   "card": "https://gamma-ray.sgit.ai/spectrum/cards/spinnable-ai-employees/"
   },
   {
    "id": "talkdesk-autopilot",

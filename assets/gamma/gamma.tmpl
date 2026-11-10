@@ -12,8 +12,10 @@
 <h2 id="gr-strip-h">State of agentic: GAMMA-Ray Spectrum <small>beta</small></h2>
 <p class="gr-legend">Four dimensions of an agentic product, each at level 1 to 4, read only from public evidence: <b>A</b> autonomy, <b>R</b> reach, <b>C</b> control, <b>O</b> openness. A dashed chip is not yet evidenced. Nothing on a card is a judgement; every level links to its evidence.</p>
 <div class="gr-grid">{{#cards}}</div>
-<p class="gr-more"><a href="{{up}}agentic/index.html">All {{total}} cards, ranked</a> · <a href="https://gamma-ray.sgit.ai/briefing/" target="_blank" rel="noopener">GAMMA-Ray in two minutes</a> · read {{read_at}}</p>
+<p class="gr-more"><a href="{{up}}agentic/index.html">All {{total}} cards</a> · <a href="https://gamma-ray.sgit.ai/briefing/" target="_blank" rel="noopener">GAMMA-Ray in two minutes</a> · read {{read_at}}</p>
 </div></section>
+<!-- part:sort -->
+<p class="gr-sort" role="group" aria-label="Order"><button type="button" data-sort="az" aria-pressed="true">A to Z</button><button type="button" data-sort="stage" aria-pressed="false">By stage</button></p>
 <!-- part:block -->
 <section class="gr-block" aria-label="GAMMA-Ray Spectrum, beta"><p class="gr-legend">GAMMA-Ray rates how much an agentic product does on its own and how well that is governed, from public evidence only (beta: every rating is provisional and open to correction by the company).</p><div class="gr-grid">{{#cards}}</div></section>
 <!-- part:page -->
@@ -24,13 +26,13 @@ The agentic edition of PrompTugal.news reads GAMMA-Ray, RiskMandate's new way to
 - **Control (C):** how its power is bounded and checked.
 - **Openness (O):** how much it shows of how it works.
 
-Every rating is beta and provisional, and open to correction by the company. The cards below are ranked by stage, the furthest along first. Each links to its page on [gamma-ray.sgit.ai](https://gamma-ray.sgit.ai/spectrum/), where every level has its evidence.
+Every rating is beta and provisional, and open to correction by the company. The cards are listed A to Z; you can list them by stage instead. Each links to its page on [gamma-ray.sgit.ai](https://gamma-ray.sgit.ai/spectrum/), where every level has its evidence.
 
 PTGAMMA-all
 
 Read from GAMMA-Ray v{{version}} at {{read_at}}. [How a rating is made](https://gamma-ray.sgit.ai/rating/) · [GAMMA-Ray in two minutes](https://gamma-ray.sgit.ai/briefing/)
 <!-- part:summary -->
-Every GAMMA-Ray Spectrum card we follow, ranked: {{total}} agentic products rated from public evidence (beta).
-<!-- item:chip --><span class="gr-chip gr-l{{level}}" title="{{title}}"><b>{{dim}}</b>{{shown}}</span>
+Every GAMMA-Ray Spectrum card we follow, A to Z: {{total}} agentic products rated from public evidence (beta).
+<!-- item:chip --><span class="gr-chip gr-l{{level}}" title="{{title}}"><span><b>{{dim}}</b>{{shown}}</span><small>{{name}}</small></span>
 <!-- item:review --> · reviewed by GAMMA-Ray's approver
 <!-- end -->

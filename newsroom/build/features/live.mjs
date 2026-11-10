@@ -3,6 +3,7 @@
 // file, and assets/live/live.js fills the shell's <div id="nr-live"> from it in the reader's browser, only from 9 to 12
 // November (the shell gives the window as data-start and data-end). Outside those days it fetches nothing.
 // Add ?now=2026-11-10T11:52 to any page to see the strip as it would be at that moment.
+import { cancelledDays } from './agenda.mjs'
 export const order = 70
 export const assets = { js: ['assets/live/live.js'] }
 
@@ -10,7 +11,8 @@ const DAYS = ['2026-11-09', '2026-11-10', '2026-11-11', '2026-11-12']
 
 export function api(ctx) {
     const g = ctx.graph()
-    const items = ctx.store.events.filter(e => DAYS.includes(e.date) && e.time && e.part_of)
+    const off = cancelledDays()   // a day that did not take place offers nothing live
+    const items = ctx.store.events.filter(e => DAYS.includes(e.date) && !off[e.date] && e.time && e.part_of)
         .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time))
         .map(e => ({ date: e.date, time: e.time, title: e.title, place: e.place ? (g.node.get(e.place) || {}).label || '' : e.where || '', kind: e.kind, official: e.organiser === 'web-summit', centre: /centre-stage/.test(e.place || ''), page: `events/${e.id}/index.html` }))
     return [{ path: 'api/v1/live/agenda.json', schema: null, data: { version: ctx.VERSION, about: 'The summit days\' events (9 to 12 November 2026, Lisbon time, which is UTC), for the live strip (assets/live/live.js). Each event\'s page has its source and the date it was read.', count: items.length, items } }]
