@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.927",
+    "date": "2026-11-10",
+    "what": "run report, third run (GAMMA-Ray Public, the shape)",
+    "by": "gamma-ray@web-summit.dinis",
+    "from": "cc62a2f62"
+  },
+  {
     "version": "v0.1.926",
     "date": "2026-11-10",
     "what": "watch: conductor.B iOS 00:00 (stopped)",
