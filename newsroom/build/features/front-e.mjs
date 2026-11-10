@@ -81,7 +81,7 @@ function lead(ctx, a) {
     let headline = esc(a.meta.title)
     if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
     return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
-        pill: pill(ctx, a), figure: fig ? put(item('figure'), { href: a.rel, picture: fig, sat: satAttr(ctx, a) }) : '', ...leadExtra(ctx, a) })
+        pill: pill(ctx, a), figure: fig ? put(item('figure'), (sat => ({ href: a.rel, picture: fig, sat, cap: sat ? 'Chart based on IPMA data' : 'AI-made image' }))(satAttr(ctx, a))) : '', ...leadExtra(ctx, a) })
 }
 
 function fillE(page, ctx) {
