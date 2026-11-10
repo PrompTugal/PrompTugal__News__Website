@@ -2,7 +2,7 @@
   "what": "Implementation and acknowledgement tracker for the 8 main categories (approved by Vicky, 10 Nov 2026, about 23:55 UTC)",
   "reference": "desks/conductor-vicky/taxonomy/categories.md; machine-readable desks/curator/categories.json",
   "steps": {
-    "1 categories.json by curator": "asked",
+    "1 categories.json by curator": "done 23:4x UTC; checked by conductor: 8 categories in order, all 56 articles, none missing or unknown, counts 27/20/18/14/13/7/5/5, Teamworks AI+Corporate, 106 secondary tags (case-merged)",
     "2 build change by dev@PrompTugal.vicky (For: dev@PrompTugal.dinis)": "asked",
     "3 publishing check (gate + reviewer)": "asked",
     "4 agents acknowledge and save the rules": "in progress",
