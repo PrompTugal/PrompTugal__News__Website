@@ -88,12 +88,14 @@ export function buildGraph(store, { content = [], DAY = d => d } = {}) {
     }
     // articles, and the topics their tags name
     const topicByName = new Map(store.topics.flatMap(t => [t.name, ...(t.aliases || [])].map(n => [n.toLowerCase(), t.id])))
+    // a tag names a company by its id, its name or an alias, lowercased (ontologist@, 10 November: 'getvocal' reaches getvocal-ai)
+    const companyByName = new Map(store.companies.flatMap(c => [c.id, c.name, ...(c.aliases || [])].filter(Boolean).map(n => [String(n).toLowerCase(), c.id])))
     for (const a of content.filter(c => /^articles\/[^/]+\.html$/.test(c.rel) && c.rel !== 'articles/index.html')) {
         const slug = a.rel.replace(/^articles\/|\.html$/g, '')
         node(`article:${slug}`, 'article', a.meta.title, a.src, { date: a.meta.date })
         for (const tag of String(a.meta.tags || '').split(',').map(t => t.trim().toLowerCase()).filter(Boolean)) {
             if (topicByName.has(tag)) edge('about', `article:${slug}`, `topic:${topicByName.get(tag)}`, a.src)
-            else if (store.has(`company:${tag}`)) edge('about', `article:${slug}`, `company:${tag}`, a.src)
+            else if (companyByName.has(tag)) edge('about', `article:${slug}`, `company:${companyByName.get(tag)}`, a.src)
         }
     }
     // drop edges whose ends are not nodes (a reference the gate would also report)
