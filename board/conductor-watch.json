@@ -502,6 +502,17 @@
       "PrompTugal__App__iOS": "dd413b09",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). iOS moved (6312b5e8 to dd413b09): mobile/iOS conductors' area, not Android's. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "790dd3ca",
+      "PrompTugal__News__Website": "589ab51c",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "421d0090",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "aac8d871",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T13:22Z",
+      "note": "The 12:40 guidance (pt.news is about agents, the visual newsroom) picked up: librarian@ (each piece's flow), correspondent@ (summit now, agents), dev.graphs@ leads the visual newsroom, Indi's newsroom helper started. Vicky's web access back; programme@ still refused by websummit.com. PT gate green (v0.1.1005). Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
     }
   ]
 }
