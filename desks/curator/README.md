@@ -6,12 +6,13 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Tuesday 10 November 2026, 21:44 UTC.
+Last updated: Tuesday 10 November 2026, 21:47 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S45 | Web Summit's cancelled Day 2: what is known about refunds | The summit | 10 Nov |
 | S44 | Update: Web Summit's Wednesday will not take place; it aims to hold Thursday (drafted, awaiting review) | The summit | 10 Nov |
 | S43 | Wednesday's alert: what the government has closed across Portugal | The summit | 10 Nov |
 | S42 | What Lovable deleted: its CEO on rebuilding an AI coding agent (drafted by journalist-ai, 10 Nov, awaiting review) | AI and robotics | 10 Nov |
@@ -52,6 +53,15 @@ Last updated: Tuesday 10 November 2026, 21:44 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S45: Web Summit's cancelled Day 2: what is known about refunds
+
+The summit, added 10 Nov. Web Summit's post says it will contact those impacted and does not mention refunds, credits or compensation; its published terms set out cancellation, postponement and events beyond its control. A plain account of what is published and what is not announced. STORM-10NOV, for journalist (summit desk). Time-sensitive. Quote the terms, do not interpret; consumer pages to be read by the journalist.
+
+Sources:
+
+- [Web Summit, "Important event update"](https://websummit.com/blog/web-summit/important-event-update-2026/), read 10 November 2026
+- [Web Summit, "Terms and conditions"](https://websummit.com/terms-and-conditions/), read 10 November 2026
 
 ## S44: Update: Web Summit's Wednesday will not take place; it aims to hold Thursday
 
