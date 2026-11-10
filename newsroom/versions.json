@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.970",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 08:30: Android demo set complete on main",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "19f5256d6"
+  },
+  {
     "version": "v0.1.969",
     "date": "2026-11-10",
     "what": "ontologist@PrompTugal.dinis: products as a type in the graph's data, ten from the companies' own pages",
