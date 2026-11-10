@@ -649,6 +649,17 @@
       "PrompTugal__App__iOS": "74883a0b",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "8940d4e4",
+      "PrompTugal__News__Website": "c7c5f690",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "983cf6dd",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T20:14Z",
+      "note": "Web Summit's Day 2 (Wed) off: organisers' email 19:38, its own blog post 'Important event update' by ~20:06; Thursday 'planned', not confirmed (incident.conductor@ 8940d4e4). S41 now sourced to Web Summit's post. Incident team, social.watch@ and the dashboard all current. GAMMA-Ray: 10 companies live. Lanes empty. Account A at allowed_warning: Dinis to decide which loops to slow."
     }
   ]
 }
