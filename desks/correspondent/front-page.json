@@ -6,31 +6,26 @@
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
     "why": "S41, the storm: Web Summit says Day 2, Wednesday 11 November, will not take place (announced 19:38 UTC Tuesday, at the Government of Portugal's formal advice; Storm Charles) and aims to hold Day 3 on Thursday. Leads until the storm passes and Thursday is confirmed. reviewer@PrompTugal.vicky keeps the five S41 keys (Dinis, 18:25); I keep 'article' and 'why'. Updated 20:52 UTC Tuesday.",
-    "standfirst": "Web Summit says Day 2, Wednesday 11 November, will not take place, after Portugal's government formally advised against it because of Storm Charles. It aims to hold Day 3 on Thursday as planned. IPMA has red warnings for the Lisbon district on Wednesday: wind from 12:00 to 21:00, with gusts up to 120 km/h and up to 140 km/h in the most exposed places, and rain from 12:00 to 18:00.",
+    "standfirst": "Web Summit has called off Day 2, Wednesday 11 November, on the government's advice because of Storm Charles; it aims to hold Day 3 on Thursday.",
     "developments": [
       {
-        "text": "Web Summit says Day 2, Wednesday 11 November, will not take place, at the Government of Portugal's formal advice, citing tidal flooding, severe disruption to public transport and high winds on external structures.",
-        "checked": "2026-11-10T20:33Z",
-        "source": "https://websummit.com/blog/web-summit/important-event-update-2026/"
-      },
-      {
-        "text": "IPMA has red warnings for the Lisbon district on Wednesday: rain 12:00 to 18:00 and wind 12:00 to 21:00.",
+        "text": "IPMA red warnings for Lisbon on Wednesday: wind 12:00 to 21:00, rain 12:00 to 18:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-10T20:33Z"
+        "checked": "2026-11-10T21:21Z"
       },
       {
-        "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended, whatever their nature.",
+        "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-10T20:33Z"
+        "checked": "2026-11-10T21:21Z"
       }
     ],
     "programme": {
       "label": "Web Summit, Wednesday",
-      "text": "Day 2 will not take place, Web Summit announced on Tuesday evening, on the Government of Portugal's formal advice after talks with the government, ANEPC and the police (PSP). It aims to proceed with Day 3, Thursday 12 November, as planned.",
+      "text": "Day 2 cancelled; Day 3 planned for Thursday.",
       "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-      "checked": "2026-11-10T20:33Z"
+      "checked": "2026-11-10T21:21Z"
     },
-    "last_checked": "2026-11-10T20:33Z",
+    "last_checked": "2026-11-10T21:21Z",
     "live": null
   },
   "top": [
