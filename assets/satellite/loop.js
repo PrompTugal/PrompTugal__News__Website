@@ -1,7 +1,7 @@
 // The live satellite loop in the home page's lead. STOP-GAP until the frames are served from our own origin (security@, 10 Nov 2026).
-// The page ships the lead's static chart in a <figure data-sat="...">. As soon as this script runs it puts the satellite panel in the
-// chart's place ("Loading the latest satellite image..."), shows the NEWEST frame with its observation time the moment it arrives, and
-// starts the loop as the older frames load. The static chart comes back only if no satellite image can be loaded.
+// The page ships an empty satellite panel in a <figure data-sat="..."> (the static warning chart is no longer on the home page). As soon as
+// this script runs it shows "Loading the latest satellite image...", shows the NEWEST frame with its observation time the moment it
+// arrives, and starts the loop as the older frames load. If no satellite image can be loaded it says so, with a link to the story.
 //   - IMAGES ONLY: every request is a GetMap for a JPEG; a response that is not an image is dropped unread. No XML, HTML or script is
 //     fetched or parsed. The newest frame is found from the fixed 10-minute cadence: the slots from now minus 20 minutes backwards are
 //     requested; a slot EUMETSAT has not published yet answers with a copy of the newest frame (or a non-image), so a frame whose bytes
@@ -41,8 +41,12 @@
         btn.addEventListener('click', function () { playing ? pause() : play() })
         chart.parentNode.replaceChild(fig, chart)
     }
-    function giveUp() { if (fig && fig.parentNode && !frames.length) { fig.parentNode.replaceChild(chart, fig); fig = null } }   // no satellite image: the static chart
-    function show(n) { i = n; img.src = frames[n].file; img.hidden = false; msg.hidden = true; fig.classList.remove('is-loading'); now.textContent = hhmm(frames[n].t); now.classList.toggle('is-newest', n === frames.length - 1) }
+    function giveUp() {   // no satellite image: say so, with a link to the story (the static chart is no longer on the home page)
+        if (!fig || frames.length) return
+        msg.textContent = 'Satellite image unavailable right now. '; var a = document.createElement('a'); a.href = cfg.story; a.textContent = 'Read the story'; msg.appendChild(a); msg.hidden = false
+        fig.classList.remove('is-loading'); fig.classList.add('is-unavailable')
+    }
+    function show(n) { i = n; img.src = frames[n].file; img.hidden = false; msg.hidden = true; fig.classList.remove('is-loading', 'is-unavailable'); now.textContent = hhmm(frames[n].t); now.classList.toggle('is-newest', n === frames.length - 1) }
     function tick() { var next = (i + 1) % frames.length; show(next); timer = setTimeout(tick, next === frames.length - 1 ? 1600 : 450) }
     function play() { if (playing) return; playing = true; btn.textContent = 'Pause'; btn.setAttribute('aria-pressed', 'false'); timer = setTimeout(tick, 450) }
     function pause() { playing = false; clearTimeout(timer); btn.textContent = 'Play'; btn.setAttribute('aria-pressed', 'true') }

@@ -31,7 +31,8 @@
 <!-- item:live --><p class="fe-lmeta">{{lastchecked}}{{livelink}}</p>
 <!-- item:lastchecked --><span class="fe-llc">Last checked {{time}}</span>
 <!-- item:livelink --><a class="fe-llive" href="{{href}}"{{tgt}}>{{label}}</a>
-<!-- item:figure --><figure{{sat}}><a href="{{href}}" tabindex="-1">{{picture}}</a><figcaption>{{cap}}</figcaption></figure>
+<!-- item:figure --><figure><a href="{{href}}" tabindex="-1">{{picture}}</a><figcaption>{{cap}}</figcaption></figure>
+<!-- item:satfig --><figure class="fe-sat is-loading" data-sat="{{cfg}}"><div class="fe-sat-view"><noscript><span class="fe-sat-msg">Satellite image unavailable right now. <a href="{{href}}">Read the story</a></span></noscript></div><figcaption><small>Infrared satellite loop. {{credit}}, {{product}}; contains modified EUMETSAT Meteosat data. <a href="{{terms}}" rel="noopener" target="_blank">EUMETSAT terms</a> · <a href="{{policy}}" rel="noopener" target="_blank">Data Policy</a>. These images load from EUMETSAT (view.eumetsat.int) when this page opens.</small></figcaption></figure>
 <!-- item:picture --><picture>{{phone}}<source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
 <!-- item:mark --><mark>{{text}}</mark>
 <!-- item:pill --><span class="fe-pill" title="{{title}}">{{text}}</span>

@@ -65,15 +65,17 @@ function leadExtra(ctx, a) {
     if (lc || lh) out.live = put(item('live'), { lastchecked: lc ? put(item('lastchecked'), { time: lc }) : '', livelink: lh ? put(item('livelink'), { href: esc(lh), tgt: tgtOf(lh), label: esc(str(L.live.label) || 'Live updates') }) : '' })
     return out
 }
-// the satellite loop: the lead's chart stays in the HTML (it is what shows while the live frames load, and the fallback if none
-// are usable); for the article named in assets/satellite/loop.json the chart's figure carries the loop's configuration, and
-// assets/satellite/loop.js swaps the loop in once frames from EUMETSAT's Web Map Service have loaded. No frames are stored here.
-function satAttr(ctx, a) {
+// the satellite loop, in the lead's picture slot, for the article named in assets/satellite/loop.json. The static warning chart is no
+// longer on the home page (it stays in the article): the HTML carries an empty satellite panel with the loop's configuration, and
+// assets/satellite/loop.js loads the newest Meteosat frames from EUMETSAT's Web Map Service into it. If no satellite image can be loaded
+// the panel says 'Satellite image unavailable right now' with a link to the article. No frames are stored here.
+function satFigure(ctx, a) {
     let L; try { L = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/satellite/loop.json'), 'utf8')) } catch { return '' }
     if (L.article !== slugOf(a) || !L.live || !/^https:\/\/view\.eumetsat\.int\//.test(L.live.wms || '')) return ''
-    const cfg = { live: L.live, credit: L.credit, product: L.product, terms: L.terms_url, policy: L.policy_url, source_url: L.source_url, lisbon: L.lisbon, delay: L.delay_minutes, check: L.check_minutes, min: L.min_frames,
+    const esc = ctx.md.esc
+    const cfg = { live: L.live, credit: L.credit, product: L.product, terms: L.terms_url, policy: L.policy_url, source_url: L.source_url, lisbon: L.lisbon, delay: L.delay_minutes, check: L.check_minutes, min: L.min_frames, story: a.rel,
         alt: `Infrared satellite image of mainland Portugal and the Atlantic to its west, Lisbon marked. ${L.credit}, ${L.product}.` }
-    return ` data-sat="${ctx.md.esc(JSON.stringify(cfg))}"`
+    return put(item('satfig'), { cfg: esc(JSON.stringify(cfg)), href: a.rel, credit: esc(L.credit), product: esc(L.product), terms: esc(L.terms_url), policy: esc(L.policy_url) })
 }
 function lead(ctx, a) {
     if (!a) return part('none')
@@ -81,7 +83,7 @@ function lead(ctx, a) {
     let headline = esc(a.meta.title)
     if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
     return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
-        pill: pill(ctx, a), figure: fig ? put(item('figure'), (sat => ({ href: a.rel, picture: fig, sat, cap: sat ? 'Chart based on IPMA data' : 'AI-made image' }))(satAttr(ctx, a))) : '', ...leadExtra(ctx, a) })
+        pill: pill(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : ''), ...leadExtra(ctx, a) })
 }
 
 function fillE(page, ctx) {

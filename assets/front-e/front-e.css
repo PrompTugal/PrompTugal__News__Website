@@ -179,3 +179,7 @@
 .fe-sat-msg { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center; padding: 12px; font: 13px/1.4 var(--mono); color: #c3c9cf; }
 .fe-sat.is-loading .fe-sat-pin { display: none; }
 .fe-sat-now:empty { display: none; }
+.fe-sat.is-unavailable .fe-sat-pin, .fe-sat.is-unavailable .fe-sat-btn { display: none; }
+.fe-sat-msg a, .fe-sat figure a { color: #8fd18f; }
+.fe-sat-msg { flex-direction: column; gap: 6px; }
+.fe-sat-msg a { text-decoration: underline; font-weight: 700; }
