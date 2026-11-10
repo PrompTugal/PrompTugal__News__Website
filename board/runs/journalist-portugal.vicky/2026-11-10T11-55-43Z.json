@@ -1,0 +1,69 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist-portugal.vicky@PrompTugal.dinis",
+ "run": "2026-11-10T11-55-43Z",
+ "started": "2026-11-10T11:55:43.096Z",
+ "ended": "2026-11-10T11:58:10Z",
+ "line": "onboarded on Vicky's account: new key journalist-portugal-vicky-promptugal-b; S34/S36 cross-links in the drafts; hand-over note",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-10T11:55:43.457Z",
+   "chars": 290,
+   "sha256": "7e85ced06dac6396",
+   "head": "You are journalist-portugal@PrompTugal.vicky. Pull dev, then read desks/conductor-vicky/onboarding/journalist-portugal.md and follow it: it is your onboarding from conductor.B@PrompTugal.vicky, writte"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-10T11:55:43.096Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 14,
+  "by_kind": {
+   "git": 7,
+   "shell": 6,
+   "web": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 14,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 14,
+  "in_mandate": 14,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
