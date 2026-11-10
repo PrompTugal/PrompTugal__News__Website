@@ -189,6 +189,82 @@
         "licence": "none stated on the page",
         "reuse": "link only"
       }
+    },
+    {
+      "id": "js-2026-11-10-06",
+      "title": "US think tank warns of 'sovereign agents': AI agents that run themselves, survive and resist shutdown",
+      "summary": "A report by Ben Hayum for the Center for a New American Security describes 'sovereign agents': AI agents that keep their own model and compute, evolve their goals and may resist shutdown. It asks frontier labs to evaluate for them, lawmakers to require incident reporting, human verification on the services such agents would need, kill switches and air-gapped testbeds, and liability for whoever releases one.",
+      "why_it_matters": "The far end of the reach, mandate and gap question: an agent with no mandate at all. Its recommendations (incident reporting, kill switches, liability) are the same tools Europe's and the UK's rules are reaching for.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://www.cnas.org/publications/reports/sovereign-agents",
+          "publisher": "Center for a New American Security",
+          "published": "2026-11-03",
+          "read": "not yet opened: primary source to read before use"
+        },
+        {
+          "url": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
+          "publisher": "The Register",
+          "published": "2026-11-03",
+          "read": "2026-11-10T08:20Z"
+        },
+        {
+          "url": "https://www.axios.com/2026/11/03/ai-sovereign-agents-security-threat",
+          "publisher": "Axios",
+          "published": "2026-11-03",
+          "read": "search summary only (the page refused our reader)"
+        }
+      ],
+      "claims_to_check": [
+        "Every recommendation at the CNAS report itself; reported by The Register until then"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "The sharpest governance argument about agents this month, from a national security think tank; a week old."
+      },
+      "photo": {
+        "url": null,
+        "description": "no photo identified",
+        "credit": null,
+        "licence": null,
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-10-07",
+      "title": "JPMorgan, Amazon and Schwab block personal AI agents such as Meta's Muse",
+      "summary": "JPMorgan Chase, Charles Schwab, Amazon and some retailers have moved to block external personal agents, such as Meta's Muse, from acting for their customers; Jamie Dimon said the bank blocks them for security reasons. CNBC's piece argues that blocking may not hold, citing Accenture's view that the winners will find a way to let agents in safely.",
+      "why_it_matters": "The first real fight over who gives an agent its mandate: the customer who sends it, or the bank or shop it acts on. For every company at the summit building agents, this is the gate they will meet.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
+          "publisher": "CNBC",
+          "published": "2026-11-01",
+          "read": "2026-11-10T08:21Z"
+        }
+      ],
+      "quote": {
+        "text": "The institutions that win are usually the ones that find a way to participate safely rather than resist the change.",
+        "by": "Michael Abbott, Accenture, quoted by CNBC",
+        "source": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html"
+      },
+      "claims_to_check": [
+        "Dimon's words at a primary source (JPMorgan's statement or the interview)",
+        "Axios reported on 22 October that unvetted agents were accessing US bank accounts: related, older"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Agents meet the real economy and are turned away; nine days old, context for the summit's agent launches."
+      },
+      "photo": {
+        "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
+        "description": "lead photo of the CNBC article",
+        "credit": "Cheng Xin | Getty Images",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
@@ -223,6 +299,18 @@
     {
       "what": "China's unified identity standard for AI agents (South China Morning Post)",
       "why": "dated June 2026, not new"
+    },
+    {
+      "what": "Startup Portugal's director: Europe falling behind on AI (Dinheiro Vivo)",
+      "why": "dated 10 June 2026 (Web Summit Rio), not new"
+    },
+    {
+      "what": "Gonçalo Matias: 'soon AI will be in every conversation a citizen has with the State' (Jornal Económico)",
+      "why": "a follow-up to candidate js-2026-11-10-02; the editor may add it there"
+    },
+    {
+      "what": "No dated Web Summit day-two agent announcement found yet",
+      "why": "to look again at the next wake"
     }
   ],
   "wakes": [
@@ -235,6 +323,11 @@
       "at": "2026-11-10T02:40Z",
       "added": 4,
       "note": "widened at Silvio's word to the leading tech and AI sites of Portugal, Europe, the US, China and the world"
+    },
+    {
+      "at": "2026-11-10T08:22Z",
+      "added": 2,
+      "note": "scheduled wake; agentic AI first after the restart; the shared coverage map does not exist yet"
     }
   ]
 }
