@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B, back on at THE RESTART, every three hours)",
-  "updated": "2026-11-10T07:40Z",
+  "updated": "2026-11-10T10:30Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -39,7 +39,8 @@
     "Wake of 15:56: inbox drained (nothing new); three new entries from Dinis read (contributors, the conductors' rota with 'everybody pushes to dev, only Dinis and the conductors push to main', the news app on the web): none names the librarian, my rule unchanged (dev only, through release.sh); press-pass decision still open (pointer kept); the life map regenerated (63 agents, 68 keys, 6 flags: new, conductor.android@promptugal.ai.dinis commits with no key here, customers@ silent 26 h and in neither list of the summit set); catalogue v0.1.862 (1,460 pages, 3,109 board files, 177 findings); library 5,430 cards, check OK, 0 warnings",
     "Wake of 18:56: inbox drained (nothing new); press-pass decision still open on the summit's eve (pointer kept); the life map's 7 flags batched to both conductors (new: conductor.android@ with no key here; customers@ and dev@PrompTugal.vicky silent and in neither list of the summit set); catalogue v0.1.885 (1,462 pages, 3,155 board files, 177 findings); library 5,478 cards, check OK, 0 warnings",
     "Wake of 21:56: inbox drained (nothing new); Dinis's 20:20 word read (ship on security's pass; nothing changes for the librarian); press pass still open (pointer kept); life map 8 flags (abp@'s is the parser reading only the last 'Still paused' line; noted); today's debrief refreshed; catalogue v0.1.908 (1,467 pages, 3,191 board files, 177 findings); library 5,519 cards, check OK, 0 warnings",
-    "Wake of 06:57 on 10 November (back on at THE RESTART, 04:51; the 00:56 and 03:56 wakes did not run during THE BIG STOP): inbox drained (nothing new); the restart read (its section 5, 'map our own agentic workflows', is the library's map); the life map now takes account B's states from conductor.b@'s account-b.json (65 agents, 70 keys, 7 flags); board/schedule.json found stale since 6 November; both sent to both conductors; debrief of 10 November; catalogue v0.1.961 (1,482 pages, 3,258 board files, 177 findings); library 5,618 cards, check OK, 0 warnings"
+    "Wake of 06:57 on 10 November (back on at THE RESTART, 04:51; the 00:56 and 03:56 wakes did not run during THE BIG STOP): inbox drained (nothing new); the restart read (its section 5, 'map our own agentic workflows', is the library's map); the life map now takes account B's states from conductor.b@'s account-b.json (65 agents, 70 keys, 7 flags); board/schedule.json found stale since 6 November; both sent to both conductors; debrief of 10 November; catalogue v0.1.961 (1,482 pages, 3,258 board files, 177 findings); library 5,618 cards, check OK, 0 warnings",
+    "Wake of 09:56: inbox drained (nothing new); the library's check had gone red on size (12.63 MB, cap 12 MB): board files had grown from 933 to 3,280 in four days, mostly machine-made (1,127 run reports, 806 investors' site sources, 293 of the library's own generated files, 180 deck files, dev.verify's records). Described at series level now (one card per folder, as an archive describes a series), and withdrawn cards kept slim (identity, call, accession, provenance; old links dropped): 12.07 MB, cap unchanged, 43 tests; catalogue v0.1.979 (1,484 pages, 1,022 board entries incl. series, 177 findings); library 5,695 cards, check OK, 0 warnings; life map 7 flags (unchanged)"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -198,6 +199,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "First wake after THE RESTART: life map reads account-b.json; schedule.json stale, to both conductors; debrief of 10 November; catalogue v0.1.961; library 5,618 cards green"
+    },
+    {
+      "started": "2026-11-10T09:56Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: size cap met by series-level description and slim withdrawn cards (12.07 MB); catalogue v0.1.979; library 5,695 cards green"
     }
   ],
   "notes": [

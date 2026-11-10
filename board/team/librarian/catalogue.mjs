@@ -130,10 +130,32 @@ const describe = f => {
     if (f.endsWith('.json')) { try { const j = JSON.parse(read(f)); return { title: path.basename(f), what: clip(j.about || j.focus || j.description || '', 220) || null } } catch { } }
     return { title: path.basename(f), what: null }
 }
-const board = tracked.filter(f => f.startsWith('board/') && f !== 'board/catalogue.json' && f !== 'board/catalogue.md').map(f => {
+// Series (10 November 2026): machine-made or bulk material is described once per folder, as an archive describes a series,
+// not once per item: each agent's run reports, the library's own generated output, the investors' site and decks
+// sources, dev.verify's records. The folder's card names how many files it holds and who made them.
+const SERIES = [
+    /^(board\/runs\/[^/]+)\//,
+    /^(board\/team\/librarian\/library\/(?:catalogue|indexes|authority|graph|shelf-list|finding-aids|vocabulary))\//,
+    /^(board\/team\/librarian\/library)\/(?:cards\.json|accession-register\.jsonl|weeding\.md)$/,
+    /^(board\/team\/investors\/site\/[^/]+)\//,
+    /^(board\/team\/investors\/decks\/(?:src|i18n))\//,
+    /^(board\/team\/investors\/decks)\/[^/]+\.pdf$/,
+    /^(board\/team\/dev\.verify\/records[^/]*)\//,
+]
+const seriesOf = f => { for (const re of SERIES) { const m = re.exec(f); if (m) return m[1] } return null }
+const boardTracked = tracked.filter(f => f.startsWith('board/') && f !== 'board/catalogue.json' && f !== 'board/catalogue.md')
+const seriesFiles = new Map()
+for (const f of boardTracked) { const s = seriesOf(f); if (s) { if (!seriesFiles.has(s)) seriesFiles.set(s, []); seriesFiles.get(s).push(f) } }
+const seriesCards = [...seriesFiles].sort((a, b) => a[0].localeCompare(b[0])).map(([dir, files]) => {
+    const n = files.length, kind = dir.startsWith('board/runs/') ? 'runs' : 'series'
+    const what = dir.startsWith('board/runs/') ? `${n} run reports of ${dir.split('/')[2]}@ (the ABP's R10), one per run` : `${n} files, described as one series (machine-made or bulk material)`
+    return { id: `board:${dir}/`, type: 'board', kind, path: dir + '/', url: SITE + dir + '/', source_url: REPO.replace('/blob/', '/tree/') + dir, title: clip(dir.replace(/^board\//, '') + '/', 160), what, files: n, made: made(files) }
+})
+const board = boardTracked.filter(f => !seriesOf(f)).map(f => {
     const d = describe(f)
     return { id: `board:${f}`, type: 'board', kind: f.startsWith('board/team/') ? 'team' : f.startsWith('board/passes/') ? 'pass' : f.startsWith('board/guidance/') ? 'guidance' : f.startsWith('board/briefs/') ? 'brief' : f.startsWith('board/tools/') ? 'tool' : 'board', path: f, url: SITE + f, source_url: REPO + f, title: clip(d.title, 160), what: d.what, made: made([f]) }
 })
+board.push(...seriesCards)
 const desks = fs.readdirSync('desks', { withFileTypes: true }).filter(d => d.isDirectory()).map(d => {
     const dir = `desks/${d.name}`, files = tracked.filter(f => f.startsWith(dir + '/'))
     const readme = files.find(f => /\/README\.md$/i.test(f) && f.split('/').length === 3)
