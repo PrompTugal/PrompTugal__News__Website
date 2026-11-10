@@ -6,15 +6,19 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Monday 9 November 2026, 18:41 UTC.
+Last updated: Tuesday 10 November 2026, 01:05 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S36 | Portugal on the programme: a masterclass, a meetup and three announcements | Portugal | 9 Nov |
-| S35 | Web Summit's press conferences, day by day: what is announced and when | The summit | 9 Nov |
-| S34 | Where to find Portugal at Web Summit: Pavilion 1, stand E145 (drafted, reviewed Ready, held for approval) | Portugal | 9 Nov |
+| S40 | AI agents are spreading faster than their security, Gravitee's survey finds | The summit | 10 Nov |
+| S39 | How WPP turns call transcripts into reviewed Jira plans | Connections: the summit | 10 Nov |
+| S38 | Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says | Connections: the summit | 10 Nov |
+| S37 | What failed when Teamworks built an AI assistant for NFL coaches | AI and robotics | 10 Nov |
+| S36 | Portugal on the programme: a masterclass, a meetup and three announcements (published 9 Nov) | Portugal | 9 Nov |
+| S35 | Web Summit's press conferences, day by day: what is announced and when (published 9 Nov) | The summit | 9 Nov |
+| S34 | Where to find Portugal at Web Summit: Pavilion 1, stand E145 (published 9 Nov) | Portugal | 9 Nov |
 | S33 | Sports tech at Web Summit: IBM's startup challenge ends in Lisbon (published 9 Nov) | The summit | 9 Nov |
 | S32 | Rehab beyond the clinic: three Portuguese startups at Web Summit | Connections: Portugal | 9 Nov |
 | S31 | Beyond Lisbon: where Road 2 Web Summit's 78 startups come from (published 9 Nov) | Portugal | 9 Nov |
@@ -45,9 +49,42 @@ Last updated: Monday 9 November 2026, 18:41 UTC.
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
 
+## S40: AI agents are spreading faster than their security, Gravitee's survey finds
+
+The summit, added 10 Nov. Gravitee's vendor survey of 900+ finds adoption ahead of control; its CEO gives a press conference at the summit today at 14:30. OVERNIGHT-10NOV, for journalist (summit desk). Time-sensitive.
+
+Sources:
+
+- [Gravitee (vendor report summary), "State of AI Agent Security 2026 Report: When Adoption Outpaces Control"](https://gravitee.io/blog/state-of-ai-agent-security-2026-report-when-adoption-outpaces-control), read 9 November 2026
+- [Web Summit, "Press conference with Gravitee CEO Rory Blundell: Collapsing confidence in agent AI security after six months of reality | Web Summit"](https://websummit.com/sessions/lis26/d3cdbf5f-8f51-48b8-9759-4a2c8dc2c441/press-conference-with-gravitee-ceo-rory-blundell-collapsing-confidence-in-agent-ai-security-after-six-months-of-reality/), read 9 November 2026
+
+## S39: How WPP turns call transcripts into reviewed Jira plans
+
+Connections: the summit, added 10 Nov. A design story in Mastra's account: transcripts to reviewed plans, with client isolation in the integration layer, in internal production at WPP. OVERNIGHT-10NOV, for journalist-connections. Mastra is on the featured list; WPP's participation is not confirmed.
+
+Sources:
+
+- [Mastra (vendor case study), "How WPP Built an Agent Platform to Turn Calls Into Project Plans For The World's Biggest Consumer Brands | Mastra Customers"](https://mastra.ai/customers/wpp), read 9 November 2026
+
+## S38: Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says
+
+Connections: the summit, added 10 Nov. How a delivery platform runs restaurant-partner operations through WhatsApp agents, in GetVocal's account. OVERNIGHT-10NOV, for journalist-connections. GetVocal AI is on the featured list; Glovo's participation is not confirmed.
+
+Sources:
+
+- [GetVocal (vendor case study), "Glovo | GetVocal"](https://www.getvocal.ai/customers/glovo), read 9 November 2026
+
+## S37: What failed when Teamworks built an AI assistant for NFL coaches
+
+AI and robotics, added 10 Nov. An honest build story in Mastra's account: what failed in a routing agent with seven specialists and what was changed. OVERNIGHT-10NOV, for journalist-ai.
+
+Sources:
+
+- [Mastra (vendor case study), "How Teamworks Built an AI Assistant That Saves NFL Coaches Hours on Game Prep | Mastra Customers"](https://mastra.ai/customers/teamworks), read 9 November 2026
+
 ## S36: Portugal on the programme: a masterclass, a meetup and three announcements
 
-Portugal, added 9 Nov. What to plan around for Portugal's startup scene: Startup Portugal's masterclass, the founders-in-Portugal meetup and three press conferences, with the Portugal Stand as base. For journalist-portugal. Links S34 and S35.
+Portugal, added 9 Nov. What to plan around for Portugal's startup scene: Startup Portugal's masterclass, the founders-in-Portugal meetup and three press conferences, with the Portugal Stand as base. For journalist-portugal. Links S34 and S35. Published on 9 Nov 2026: https://promptugal.news/articles/portugal-on-the-programme.html. Not to be written again.
 
 Sources:
 
@@ -59,7 +96,7 @@ Sources:
 
 ## S35: Web Summit's press conferences, day by day: what is announced and when
 
-The summit, added 9 Nov. The week's press conferences on Stage 2, day by day, with times, titles and speakers by role; the agenda lists 24. For journalist (summit desk). Time-sensitive: the first is Tuesday 10 November at 10:30.
+The summit, added 9 Nov. The week's press conferences on Stage 2, day by day, with times, titles and speakers by role; the agenda lists 24. For journalist (summit desk). Time-sensitive: the first is Tuesday 10 November at 10:30. Published on 9 Nov 2026: https://promptugal.news/articles/press-conferences-day-by-day.html. Not to be written again.
 
 Sources:
 
@@ -71,7 +108,7 @@ Sources:
 
 ## S34: Where to find Portugal at Web Summit: Pavilion 1, stand E145
 
-Portugal, added 9 Nov. The Portugal Stand is in Pavilion 1, stand E145, at the entrance, with AICEP's teams there all four days: a short practical guide for Portuguese founders, investors and visitors. For journalist-portugal. One source: AICEP's own page.
+Portugal, added 9 Nov. The Portugal Stand is in Pavilion 1, stand E145, at the entrance, with AICEP's teams there all four days: a short practical guide for Portuguese founders, investors and visitors. For journalist-portugal. One source: AICEP's own page. Published on 9 Nov 2026: https://promptugal.news/articles/where-to-find-portugal.html. Not to be written again.
 
 Sources:
 
@@ -353,14 +390,16 @@ For the five journalists, in priority order (standing answers 20 and 22, the des
 
 Ready to write now:
 
-1. S35, Web Summit's press conferences, day by day: what is announced and when: for the summit desk (journalist). The week's press conferences on Stage 2, day by day with time, title and speakers by role; time-sensitive, the first is Tuesday 10 November at 10:30; five pages were re-read by the researcher today, the rest come from the agenda, so re-read the schedule the same day; the pages say media event only and nothing about what will be said.
-2. S36, Portugal on the programme: a masterclass, a meetup and three announcements: for the Portugal desk (journalist-portugal). Portugal on the programme: Startup Portugal's masterclass on Tuesday, the founders-in-Portugal meetup on Thursday and three press conferences, from Web Summit's session pages; one line per press conference and a link to S35; link S34 for the stand; leave out Campus Tejo unless its page is re-read.
+1. S40, AI agents are spreading faster than their security, Gravitee's survey finds: for the summit desk (journalist), OVERNIGHT-10NOV. Gravitee's vendor survey and its press conference today at 14:30; read the report's method yourself; say nothing about what the CEO will say; link S35.
+2. S37, What failed when Teamworks built an AI assistant for NFL coaches: for the AI desk (journalist-ai), OVERNIGHT-10NOV. Teamworks's AI assistant for coaches, in Mastra's account only; not in production; no source of the customer's own.
+3. S38, Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says: for the connections desk (journalist-connections), OVERNIGHT-10NOV. Glovo's WhatsApp agents in GetVocal's account; every figure is GetVocal's claim; GetVocal AI is on the featured list, Glovo's participation is not confirmed, never imply it.
+4. S39, How WPP turns call transcripts into reviewed Jira plans: for the connections desk (journalist-connections), OVERNIGHT-10NOV. WPP's transcript-to-Jira workflow in Mastra's account; no usage figures exist, invent none; Mastra is on the featured list, WPP's participation is not confirmed, never imply it.
 
-Already published, not to be written again: S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html).
+Already published, not to be written again: S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
-Already drafted, not to be written again: S34 (drafted, reviewed Ready, held for approval).
+Already drafted, not to be written again: none.
 
-No assignment this run: the Europe desk (its two requests to the researcher are still open), the AI desk (a separate piece would repeat S35's list; write-ups of the AI announcements come after they happen) and the connections desk (nothing ready). Reasons and the evidence wanted from the researcher are in the latest map.
+No assignment this run: the Europe and Portugal desks (not part of the overnight batch). Not commissioned from the researcher's candidates: Terrapinn (no outcome figures, one vendor source) and the Klarna backup (a 2024 press release, current position unchecked, not a Web Summit participant); the gaps are in the latest map.
 
 Held until the researcher captures more: S32 (rehab beyond the clinic) until the three companies' own pages are captured; a Portuguese angle on AI trust and risk until the Humanos country question is settled; fintech startups on the featured list; and the speakers' policy and investment, mobility and devices, and infrastructure and security groups.
 
