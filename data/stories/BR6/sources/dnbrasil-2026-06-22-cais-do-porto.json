@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "dnbrasil-2026-06-22-cais-do-porto",
+  "story": "BR6",
+  "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+  "title": "Mais dez empresas de tecnologia brasileiras chegam ao Cais do Porto, em Aveiro (DN Brasil, 22 June 2026)",
+  "publisher": "DN Brasil",
+  "published": "2026-06-22",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "DN Brasil reports a second group of ten Pernambuco companies arriving at Cais do Porto in Aveiro, and the call's air fare support."
+}

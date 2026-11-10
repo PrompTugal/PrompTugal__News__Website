@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "BR6",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "entities": [
+    {
+      "ref": "local:porto-digital",
+      "label": "Porto Digital",
+      "kind": "organisation",
+      "sources": [
+        "diariodepernambuco-2026-06-23-cais-do-porto",
+        "dnbrasil-2026-06-22-cais-do-porto",
+        "tiinside-2026-06-30-porto-digital"
+      ],
+      "note": "Recife's technology park; its unit Cais do Porto is in Aveiro"
+    },
+    {
+      "ref": "local:unicorn-factory-lisboa",
+      "label": "Unicorn Factory Lisboa",
+      "kind": "organisation",
+      "sources": [
+        "dnbrasil-2026-07-27-unicorn-factory",
+        "eco-2025-04-24-portugal-web-summit-rio"
+      ],
+      "note": "Lisbon's innovation hub"
+    },
+    {
+      "ref": "organisation:apexbrasil",
+      "label": "ApexBrasil",
+      "kind": "organisation",
+      "sources": [
+        "brasil61-2026-08-31-apexbrasil"
+      ],
+      "note": "Brazil's trade and investment agency"
+    },
+    {
+      "ref": "organisation:sebrae-startups",
+      "label": "Sebrae Startups",
+      "kind": "organisation",
+      "sources": [
+        "agenciasebrae-2023-11-13-startup-portugal",
+        "agenciasebrae-2023-11-23-web-summit-lisboa"
+      ],
+      "note": "Brazil's small business service"
+    }
+  ]
+}

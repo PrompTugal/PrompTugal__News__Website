@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "dnbrasil-2026-07-27-unicorn-factory",
+  "story": "BR6",
+  "url": "https://dnbrasil.dn.pt/negcios-br/portugal-cada-vez-mais-de-olho-no-desafiante-mercado-brasileiro-para-expanso-no-setor-da-tecnologia",
+  "title": "Portugal cada vez mais de olho no desafiante mercado brasileiro (DN Brasil, 27 July 2026)",
+  "publisher": "DN Brasil",
+  "published": "2026-07-27",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "DN Brasil reports Unicorn Factory Lisboa's plans for permanent actions in Brazil and its work with Brazilian hubs."
+}

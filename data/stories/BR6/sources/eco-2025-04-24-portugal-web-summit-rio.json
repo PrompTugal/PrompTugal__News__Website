@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "eco-2025-04-24-portugal-web-summit-rio",
+  "story": "BR6",
+  "url": "https://eco.sapo.pt/2025/04/24/portugal-leva-28-startups-a-web-summit-rio/",
+  "title": "Portugal leva 28 startups a Web Summit Rio (ECO, 24 April 2025)",
+  "publisher": "ECO",
+  "published": "2025-04-24",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "ECO reports Unicorn Factory Lisboa's partnerships with three Brazilian hubs, as its executive director told ECO."
+}
