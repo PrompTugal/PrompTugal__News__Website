@@ -64,13 +64,23 @@ function leadExtra(ctx, a) {
     if (lc || lh) out.live = put(item('live'), { lastchecked: lc ? put(item('lastchecked'), { time: lc }) : '', livelink: lh ? put(item('livelink'), { href: esc(lh), tgt: tgtOf(lh), label: esc(str(L.live.label) || 'Live updates') }) : '' })
     return out
 }
+// the satellite loop: the lead's chart stays in the HTML (it is what shows while the live frames load, and the fallback if none
+// are usable); for the article named in assets/satellite/loop.json the chart's figure carries the loop's configuration, and
+// assets/satellite/loop.js swaps the loop in once frames from EUMETSAT's Web Map Service have loaded. No frames are stored here.
+function satAttr(ctx, a) {
+    let L; try { L = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/satellite/loop.json'), 'utf8')) } catch { return '' }
+    if (L.article !== slugOf(a) || !L.live || !/^https:\/\/view\.eumetsat\.int\//.test(L.live.caps || '') || !/^https:\/\/view\.eumetsat\.int\//.test(L.live.wms || '')) return ''
+    const cfg = { live: L.live, credit: L.credit, source_url: L.source_url, lisbon: L.lisbon, delay: L.delay_minutes, check: L.check_minutes, min: L.min_frames,
+        alt: 'Infrared satellite image of mainland Portugal and the Atlantic to its west, Lisbon marked' }
+    return ` data-sat="${ctx.md.esc(JSON.stringify(cfg))}"`
+}
 function lead(ctx, a) {
     if (!a) return part('none')
     const esc = ctx.md.esc, f = figureOf(a), fig = picture(esc, a, 'card', false)
     let headline = esc(a.meta.title)
     if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
     return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
-        pill: pill(ctx, a), figure: fig ? put(item('figure'), { href: a.rel, picture: fig }) : '', ...leadExtra(ctx, a) })
+        pill: pill(ctx, a), figure: fig ? put(item('figure'), { href: a.rel, picture: fig, sat: satAttr(ctx, a) }) : '', ...leadExtra(ctx, a) })
 }
 
 function fillE(page, ctx) {
@@ -107,8 +117,8 @@ function fillE(page, ctx) {
 }
 
 // the home page carries E's look and its script
-export function decorate(p) {
+export function decorate(p, ctx) {
     if (p.rel !== 'index.html') return
-    p.assets = { ...(p.assets || {}), css: [...(p.assets?.css || []), 'assets/front-e/front-e.css'], js: [...(p.assets?.js || []), 'assets/front-e/front-e.js'] }
+    p.assets = { ...(p.assets || {}), css: [...(p.assets?.css || []), 'assets/front-e/front-e.css'], js: [...(p.assets?.js || []), 'assets/front-e/front-e.js', ...(fs.existsSync(path.join(ctx.ROOT, 'assets/satellite/loop.json')) ? ['assets/satellite/loop.js'] : [])] }
 }
 export const fill = { 'front:e': fillE }
