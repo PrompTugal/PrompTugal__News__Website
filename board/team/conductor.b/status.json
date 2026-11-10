@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART (Dinis, 10 Nov 02:40): seven account-B agents back on at 04:51; dev@ and dev.pages@ still paused (safety check refused re-enabling them; waiting for Dinis); conductor.b@ hourly at :48 again",
- "updated": "2026-11-10T04:56Z",
+ "updated": "2026-11-10T05:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -86,10 +86,11 @@
   "23:48 wake: read THE BIG STOP (on dev 23:36); paused all twelve account-B wakes 23:49:31-35, my wake to every 2 h; told the iOS conductor to pause its :00 wake (not visible to me); stop report and the 9 Nov debrief written",
   "00:48 wake: the stop holds (one wake enabled, no account-B commits since 23:49); the iOS conductor paused its :00 wake at 00:03, so nothing on B escaped the stop",
   "02:48 wake: the stop holds on account B; a journalist@ run at 02:33 came from a session outside account B (B's journalist idle since 22:34)",
-  "04:49 wake: read THE RESTART (addressed to conductor.b@); switched on designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian; dev@ and dev.pages@ refused by the session's safety check; kept journalist (another session runs it), dev.verify (no credit), dev.portugal (nothing new) paused; my wake back to hourly"
+  "04:49 wake: read THE RESTART (addressed to conductor.b@); switched on designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian; dev@ and dev.pages@ refused by the session's safety check; kept journalist (another session runs it), dev.verify (no credit), dev.portugal (nothing new) paused; my wake back to hourly",
+  "05:48 wake: the seven on, first wakes due 06:17 to 06:56; dev@ and dev.pages@ still wait for Dinis"
  ],
  "next": [
-  "05:48 wake: check the seven ran; dev@ and dev.pages@ at Dinis's word"
+  "06:48 wake (with the ledger): check the seven ran"
  ],
  "asks": [
   "Dinis: THE RESTART: dev@ and dev.pages@ (the pt.news agentic edition, the app on the web, the design flip) are still paused: this session's safety check refused to switch them back on from a relayed word. Say 'go dev' here and I switch them on",
