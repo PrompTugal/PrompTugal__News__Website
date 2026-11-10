@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1003",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S34 and S36 cross-links published",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "1419d4886"
+  },
+  {
     "version": "v0.1.1002",
     "date": "2026-11-10",
     "what": "accountant@PrompTugal.dinis: 12:50 reading, 99.96 API-equivalent so far; lines for Vicky's and Angelo's rebuild sessions",
