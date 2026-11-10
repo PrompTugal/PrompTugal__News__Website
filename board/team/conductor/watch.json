@@ -170,6 +170,26 @@
    "PrompTugal__App__iOS": "74883a0b",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Work desk keys in; lanes issued to reporter.newsroom, journalist.newsroom, weather-vicky. S41 lead block live. dev@ and dev.pages@ still off."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T18:45Z",
+   "SGit-AI__Website__Web-Summit": "c016f420",
+   "PrompTugal__News__Website": "2a0f8811",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "dev@ and dev.pages@ back on (1d0b2d8ec), sent the site-wide Front Page first. Vicky's reviewer five-field grant routed to correspondent@ and conductor.B@."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T19:45Z",
+   "SGit-AI__Website__Web-Summit": "5c97eebf",
+   "PrompTugal__News__Website": "c15026b0",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Front Page masthead on every page (a9815a596). social.watch@ key in; lanes issued."
   }
  ]
 }

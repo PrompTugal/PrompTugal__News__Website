@@ -1,24 +1,50 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-10T16:50Z",
+  "updated": "2026-11-10T18:52Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
-    "why": "Safety news for every attendee: IPMA's red wind warning for the Lisbon district on Wednesday 11 November, midday to 21:00, the summit's main day. Leads over the agentic pieces until the summit says how it responds or the GAMMA-Ray launch is published; set 14:50 UTC Tuesday."
+    "why": "S41, the storm: IPMA's red warnings for Lisbon on Wednesday 11 November (wind midday to 21:00; rain midday to 18:00 since 17:43 UTC Tuesday), the summit's main day. Keeps the lead into Wednesday (the planned swap to the GAMMA-Ray launch is held: the storm is the day's story and Dinis's case study, board/guidance/2026-11-10-the-storm-as-our-case-study.md). While S41 leads, reviewer@PrompTugal.vicky writes the five S41 keys here (Dinis, 18:25); I keep 'article' and 'why'. Set 18:52 UTC Tuesday.",
+    "standfirst": "Web Summit says Day 2, Wednesday 11 November, will not take place, after Portugal's government formally advised against it because of Storm Charles. It aims to hold Day 3 on Thursday as planned. IPMA has red warnings for the Lisbon district on Wednesday: wind from 12:00 to 21:00, with gusts up to 120 km/h and up to 140 km/h in the most exposed places, and rain from 12:00 to 18:00.",
+    "developments": [
+      {
+        "text": "Web Summit says Day 2, Wednesday 11 November, will not take place, at the Government of Portugal's formal advice, citing tidal flooding, severe disruption to public transport and high winds on external structures.",
+        "checked": "2026-11-10T20:06Z",
+        "source": "https://websummit.com/blog/web-summit/important-event-update-2026/"
+      },
+      {
+        "text": "IPMA has red warnings for the Lisbon district on Wednesday: rain 12:00 to 18:00 and wind 12:00 to 21:00.",
+        "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+        "checked": "2026-11-10T20:06Z"
+      },
+      {
+        "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended, whatever their nature.",
+        "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
+        "checked": "2026-11-10T20:06Z"
+      }
+    ],
+    "programme": {
+      "label": "Web Summit, Wednesday",
+      "text": "Day 2 will not take place, Web Summit announced on Tuesday evening, on the Government of Portugal's formal advice after talks with the government, ANEPC and the police (PSP). It aims to proceed with Day 3, Thursday 12 November, as planned.",
+      "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
+      "checked": "2026-11-10T20:06Z"
+    },
+    "last_checked": "2026-11-10T20:06Z",
+    "live": null
   },
   "top": [
     {
       "article": "gravitee-agent-security-survey",
-      "why": "The agentic lead of Tuesday morning: agents outpace their security."
+      "why": "agents outpace their security"
     },
     {
       "article": "what-lovable-deleted",
-      "why": "New: a Web Summit speaker's own account of rebuilding an AI coding agent by deleting most of its code; the agentic edition at its best."
+      "why": "an agent rebuilt by deletion, from a summit speaker"
     },
     {
       "article": "glovo-restaurant-agents-getvocal",
-      "why": "Agents at work, with a named customer: GetVocal's 80 agents for Glovo's restaurants on WhatsApp."
+      "why": "agents at work with a named customer"
     }
   ],
   "service": {
@@ -318,27 +344,27 @@
   "newsletter": "From Saturday 7 November (Dinis, 16:20 UTC): the morning and evening editions can take each day's 'know', 'lead' and 'also' from 'days' below (the morning: what is on; the evening: what happened). For whoever builds the editions.",
   "briefing": {
     "about": "For Silvio's mock E (board/briefs/2026-11-06-front-page-mock-e.md): 'The briefing', numbered 1 to 5, the five things a reader needs today, in this order. Article slugs; dev.pages@ shows the headline and the section. Refreshed with the lead at each wake; from Monday it follows the day's news.",
-    "for_date": "2026-11-10",
+    "for_date": "2026-11-11",
     "items": [
       {
-        "article": "tuesday-10-november-three-ways-in",
-        "why": "summit day 1, three ways in"
-      },
-      {
-        "article": "red-wind-warning-lisbon-wednesday",
-        "why": "red wind warning for Wednesday"
-      },
-      {
-        "article": "gravitee-agent-security-survey",
-        "why": "agents outpace their security"
-      },
-      {
-        "article": "where-to-find-portugal",
-        "why": "the Portugal Stand, Pavilion 1, E145"
-      },
-      {
         "article": "venue-map",
-        "why": "where everything is"
+        "why": "where everything is, if you go"
+      },
+      {
+        "article": "wednesday-11-november-going-abroad",
+        "why": "today's guide"
+      },
+      {
+        "article": "plan-your-week-by-field",
+        "why": "AI and policy every day; PITCH's semi-final at 17:00, Centre Stage"
+      },
+      {
+        "article": "wpp-call-transcripts-to-jira",
+        "why": "a person reviews what the agents plan"
+      },
+      {
+        "article": "teamworks-coaches-agent",
+        "why": "what failed first"
       }
     ]
   },
@@ -400,66 +426,23 @@
       }
     }
   },
-  "next_edition": {
-    "about": "Wednesday 11 November, reworked at 08:50 UTC Tuesday for the agentic edition (THE RESTART: 'the summit is really Wednesday for us'). Swapped in on Tuesday evening. Not read by the build.",
-    "for_date": "2026-11-11",
-    "lead": {
-      "article": "<the GAMMA-Ray launch article, when journalist@ publishes it>",
-      "fallback": "who-builds-the-parts-of-an-ai-agent",
-      "why": "The agentic edition's day: RiskMandate's GAMMA-Ray launch ('a new way to score companies; we're trying it out at the summit') leads; until it is published, who builds an agent's parts. If the red wind warning still stands on Tuesday evening with news of how the summit responds, that update leads Wednesday morning instead."
-    },
-    "top": [
-      {
-        "interview": "student-property-network--leo-tashev-and-fraser-lloyd--2026-11-09",
-        "rel": "interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html",
-        "why": "the authorised interview, on the home page (THE RESTART); also the phone's H2 pick for Wednesday"
-      },
-      {
-        "article": "gravitee-agent-security-survey",
-        "why": "Tuesday's lead: agents outpace their security"
-      },
-      {
-        "article": "what-lovable-deleted",
-        "why": "an agent rebuilt by deletion, from a summit speaker"
-      }
-    ],
-    "briefing": [
-      {
-        "article": "red-wind-warning-lisbon-wednesday",
-        "why": "red wind warning, midday to 21:00"
-      },
-      {
-        "article": "wednesday-11-november-going-abroad",
-        "why": "today's guide"
-      },
-      {
-        "article": "plan-your-week-by-field",
-        "why": "AI and policy every day; PITCH's semi-final at 17:00, Centre Stage"
-      },
-      {
-        "article": "wpp-call-transcripts-to-jira",
-        "why": "a person reviews what the agents plan"
-      },
-      {
-        "article": "teamworks-coaches-agent",
-        "why": "what failed first"
-      }
-    ],
-    "rule": "At the swap, every '<...>' slot takes the published slug or its fallback; a slot with neither is dropped."
-  },
   "phone_interview": {
     "about": "H2 of board/spec-the-agentic-home-page.md: on a phone only, one interview inside the top, under the standfirst, and dropped from the list below. My pick per day; dev.pages@ reads 'rel' (the interview's page, from desks/journalist-promptugal/interviews/).",
     "today": {
-      "for_date": "2026-11-10",
-      "interview": "buzz-messaging-ai--guy-ben-zvi--2026-11-09",
-      "rel": "interviews/buzz-messaging-ai/guy-ben-zvi/index.html",
-      "why": "Agents in a European messaging platform, users bringing their own model: the agentic edition's theme, from Opening Night."
-    },
-    "next": {
       "for_date": "2026-11-11",
       "interview": "student-property-network--leo-tashev-and-fraser-lloyd--2026-11-09",
       "rel": "interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html",
-      "why": "The other authorised interview, with the AI agent that sorts the graduate job market; rotates in on Wednesday unless a new interview is published."
+      "why": "The other authorised interview, with the AI agent that sorts the graduate job market; rotates in on Wednesday unless a new interview is published. Rolled in at 18:52 UTC Tuesday for Wednesday."
     }
+  },
+  "lead_shared_keys": {
+    "about": "While S41 leads, reviewer@PrompTugal.vicky may write only these keys of 'lead' (Dinis, about 18:25 UTC on 10 November; board/guidance/2026-11-10-vickys-reviewer-and-security.md). I never overwrite them; it ends when S41 leaves the lead.",
+    "keys": [
+      "standfirst",
+      "developments",
+      "programme",
+      "last_checked",
+      "live"
+    ]
   }
 }

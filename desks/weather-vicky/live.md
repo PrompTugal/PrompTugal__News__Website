@@ -2,9 +2,24 @@
 
 The weather desk's facts list for S41. Every line has its source and the UTC time this desk read it. Lisbon time = UTC in November. Newest first in the timeline. Nothing here is a forecast of our own.
 
-**Last full check: 10 November 2026, 17:42 to 17:43 UTC.**
+**Last full check: 10 November 2026, 19:36 to 19:47 UTC** (connectors snapshot `data/2026-11-10T1936Z.json`).
 
-**Headline, 17:42 UTC:** IPMA now has **two red warnings** for Lisbon on Wednesday: wind 12:00 to 21:00 and, new at 17:42, **rain 12:00 to 18:00**. The government's alert situation for all of mainland Portugal on Wednesday stands: schools closed, outdoor events suspended, no access to parks at risk of falling trees or to the waterfront. Web Summit has announced no change to Wednesday's programme.
+**Headline, 20:02 UTC: Web Summit says Day 2 (Wednesday 11 November) will not take place.** Now public: [Web Summit's blog](https://websummit.com/blog/) lists its post "Important event update" (dated 19:09, modified 19:50), read 19:59 and 20:02 UTC; the post's own address returned 404 at 20:02 UTC. It told attendees by email at 19:38 UTC that "The Government of Portugal has formally advised Web Summit that, due to the risks posed by Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures, Day 2 of Web Summit should not take place", after "discussions with the Portuguese Government, the National Emergency and Civil Protection Authority (ANEPC), and the Public Security Police (PSP)", and that it "aims to proceed with Day 3 (Thursday, November 12) as planned, following the passing of Storm Charles". **Source: the email to attendees, received by Vicky Wang and relayed by conductor.B@PrompTugal.vicky at 19:45 UTC; the first public report found is [DN's live page](https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa), 19:45 UTC (press, quoting the organisers' note), read 19:54 UTC.** The government's step, as reported (press, [24 Notícias](https://24noticias.sapo.pt/atualidade/artigos/montenegro-nao-subestimem-nem-menosprezem-aquilo-que-e-a-perigosidade-destes-fenomenos-meteorologicos), 17:35 UTC): the Prime Minister said it had recommended suspending the summit and that the final decision was the organisers'. As of 19:47 UTC it is not on websummit.com's homepage or news pages, and the government's formal advice has not been found on any official page. IPMA's two red warnings for Lisbon (wind 12:00 to 21:00, rain 12:00 to 18:00) and the government's alert situation stand.
+
+### Web Summit's Day 2 (added 19:47 UTC)
+
+| What | Source | Read |
+|---|---|---|
+| "Day 2 (Wednesday, November 11th) will not take place"; the government "formally advised" it; Day 3 aimed to go ahead | Web Summit's email to attendees, 19:38 UTC, received by Vicky (no public URL) | relayed 19:45 UTC |
+| **Public now:** Web Summit's [blog](https://websummit.com/blog/) lists "Important event update" (slug `important-event-update-2026`, dated 2026-11-10 19:09, modified 19:50), excerpt: "The Government of Portugal has formally advised Web Summit that, due to the risks posed by Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures, Day 2 of Web Summit should not take place. This follows discussions with the Portuguese Government, the National Emergency and ...". The post's own URL, https://websummit.com/important-event-update-2026/, returned 404 | Web Summit | 19:59, 20:02 UTC |
+| Not yet on Web Summit's homepage, blog or news pages | raw pages searched | 19:44 UTC |
+| The formal advice: not found on [ANEPC's news](https://prociv.gov.pt/pt/noticias/) or the government's news list (a script app); psp.pt did not answer | | 19:45 UTC |
+| PRESS: "Segundo dia da Web Summit cancelado": the organisers cancelled every activity planned for Wednesday 11 November, the event's second day, a decision "articulada diretamente com a [ANEPC] e a [PSP]", citing coastal flooding, strong winds on external structures and severe transport disruption | [DN live page](https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa), entry 19:45 UTC (press, quoting the organisers' note) | 19:54 UTC |
+| PRESS: the Prime Minister, Luís Montenegro, said the government "emitiu uma recomendação para que os trabalhos fossem suspendidos" (issued a recommendation that the summit's work be suspended), citing the venue and the many foreign participants unfamiliar with Portugal's emergency procedures; the final decision was the organisers' | [24 Notícias](https://24noticias.sapo.pt/atualidade/artigos/montenegro-nao-subestimem-nem-menosprezem-aquilo-que-e-a-perigosidade-destes-fenomenos-meteorologicos), 10 Nov 17:35 (press); the PM spoke at ANEPC's headquarters after a meeting there ([DN live page](https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa), entry 17:32) | 19:54 UTC |
+| PRESS: Web Summit at 13:11: assessing the situation with ANEPC and PSP, "temos conhecimento dos alertas meteorológicos para a tarde e noite de quarta-feira"; the mayor at 13:47: "Eu diria que tudo indica que a Web Summit não poderá funcionar amanhã", the decision for the Ministry of Internal Administration | [DN live page](https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa), entries 13:11 and 13:47 (press) | 19:54 UTC |
+| PRESS: the Lisbon mayor said "Tudo indica que a Web Summit não [poderá funcionar]" on Wednesday and referred the final decision to the Ministry of Internal Administration; Web Summit said it was assessing the situation with ANEPC | [Jornal Económico](https://jornaleconomico.sapo.pt/noticias/web-summit-fechada-na-quarta-feira-anuncia-autarquia-de-lisboa/), 10 Nov 13:23 (press) | 19:46 UTC |
+| PRESS: Lisbon's tunnels to close; the mayor recommends avoiding travel and teleworking | [Público](https://www.publico.pt/2026/11/10/sociedade/noticia/tempestade-charles-encerra-tuneis-lisboa-coloca-web-summit-duvida-2194442), 10 Nov 14:00 (press) | 19:46 UTC |
+| PRESS: tunnels, public parks and cultural venues ordered to close from midnight, per the mayor | [Irish Times](https://www.irishtimes.com/business/2026/11/10/everything-indicates-web-summit-will-be-called-off-tomorrow-says-lisbon-mayor/) (press) | 19:46 UTC |
 
 ## Established now
 
@@ -79,10 +94,10 @@ Communiqué no. 1, below, is kept for the record.
 ### Transport (operators' own notices)
 
 - **Fertagus** (trains across the 25 de Abril bridge): ["Alerta Vermelho | Condições Meteorológicas Adversas"](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico), read **16:58 UTC**: it is monitoring "face ao alerta vermelho, decretado para amanhã dia 11 de novembro"; ticket offices and customer support "poderão não se encontrar a funcionar na sua totalidade" (may not be fully open); "A circulação dos comboios será assegurada em função da evolução da situação" (trains will run according to how the situation develops). **No suspension announced.**
-- **Carris** (city buses and trams): [homepage notice](https://www.carris.pt), read **16:59 UTC**: "Alerta: circulação poderá sofrer perturbações. As condições meteorológicas adversas poderão afetar a circulação ao longo do dia, em particular na rede de elétricos." (service may be disrupted through the day, especially the trams). Undated: it may refer to Tuesday. **No suspension announced.**
+- **Carris** (city buses and trams): at **18:37 UTC** its [homepage](https://www.carris.pt) banner reads "Alerta: perturbações na circulação. Estamos a acompanhar a situação e vamos atualizando aqui todas as alterações na rede. Antes de saíres, confirma a informação mais recente." (disruption to service; it is monitoring and will post changes; check before leaving), linking to [service changes](https://www.carris.pt/viaje/alteracoes-de-servico/) (rendered by script; not readable by our tools). No suspension named. Earlier, read **16:59 UTC**: "Alerta: circulação poderá sofrer perturbações. As condições meteorológicas adversas poderão afetar a circulação ao longo do dia, em particular na rede de elétricos." (service may be disrupted through the day, especially the trams). Undated: it may refer to Tuesday. **No suspension announced.**
 - **Carris Metropolitana** (regional buses): [public alerts feed](https://api.carrismetropolitana.pt/v2/alerts), read **16:59 UTC**: 17 of 106 alerts have cause WEATHER; four "Aviso Geral | Mau tempo" notices run to Wednesday 23:59 UTC (possible disruption, delays and diversions). **No suspension announced.**
 - **Transtejo/Soflusa** (river ferries): [notices feed](https://ttsl.pt/avisos/feed/), read **16:59 UTC**: the latest notice, Tuesday 13:24, suspended car transport on Trafaria to Porto Brandão to Belém for rough seas, passengers limited to Porto Brandão to Belém, no time for a return ([notice](https://ttsl.pt/avisos/trafaria-porto-brandao-belem-10-nov-2/)). **No notice yet for Wednesday.**
-- **Metro de Lisboa**: [homepage](https://www.metrolisboa.pt), read 16:53 UTC by the desk's sub-agent: no weather notice (the line-status widget needs a browser).
+- **Metro de Lisboa**: [news, 10 Nov](https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/), read **19:36 UTC**: "Face às previsões de agravamento das condições meteorológicas" (given the forecast worsening of the weather), Metro keeps five stations open on the nights of 10 to 11 and 11 to 12 November to shelter homeless people (Amadora Este, Santa Apolónia, Marquês de Pombal, Moscavide, Olaias), "em colaboração com a Câmara Municipal de Lisboa e Câmara Municipal da Amadora, no âmbito do cumprimento do Plano de Contingência para Pessoas em Situação de Sem-Abrigo" (with the Lisbon and Amadora city councils, under the contingency plan for homeless people). **No change to Metro service announced.** Its line-status widget needs a browser.
 - **CP** (national rail) and **the airport (ANA)**: not readable by our tools (CP's site renders only in a browser; ANA's returns a bot check). Not checked.
 
 ### The venue and the summit
@@ -91,16 +106,28 @@ Communiqué no. 1, below, is kept for the record.
 - **MEO Arena** ([arena.meo.pt](https://arena.meo.pt)) and **FIL** ([fil.pt](https://www.fil.pt)), read 16:55 UTC: no notice.
 - **Port of Lisbon** ([portodelisboa.pt](https://www.portodelisboa.pt)), **NAV Portugal** ([nav.pt](https://www.nav.pt)), **Gira** bikes: read 16:53 to 16:55 UTC, no notice.
 
-### NOT yet announced (as of 17:43 UTC, on the sources above)
+### NOT yet announced (as of 19:37 UTC, on the sources above)
 
-- Any change to Web Summit's Wednesday programme.
+- Web Summit's Day 2 decision on any public page of its own (only its attendee email so far).
+- The government's formal advice to Web Summit, on any official page.
 - Any suspension of Metro, Carris, Fertagus or the ferries for Wednesday, or a Tagus bar closure.
-- Whether the government's suspension of outdoor events (measure b) applies to any part of Web Summit: **no source read says so either way.** Do not infer it.
-- The city of Lisbon's own measures (not readable by our tools).
+- The city of Lisbon's own measures (not readable by our tools). The one city action seen, through Metro: the homeless-people contingency plan (above).
 - Any publication of the declaration in Diário da República (not readable by our tools; none found by search).
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 10 Nov 19:59: Web Summit's blog lists its post "Important event update" (dated 19:09, modified 19:50): the government "formally advised" that Day 2 should not take place. Reviewer told 20:03.
+- 10 Nov 19:54: the desk reads DN's live page and 24 Notícias at source (press): the organisers' note (19:45 entry) and the Prime Minister's recommendation (17:32 to 17:35).
+- 10 Nov 19:45 (press, DN): "Segundo dia da Web Summit cancelado", quoting the organisers' note.
+- 10 Nov 17:32 to 17:35 (press, DN and 24 Notícias): the Prime Minister, at ANEPC's headquarters, says the government recommended suspending Web Summit's work; the decision is the organisers'.
+- 10 Nov 13:47 (press, DN): the mayor: "tudo indica que a Web Summit não poderá funcionar amanhã"; decision for the Ministry of Internal Administration.
+- 10 Nov 13:11 (press, DN): Web Summit assessing with ANEPC and PSP.
+- 10 Nov 19:44 to 19:47: the desk searches Web Summit's public pages, ANEPC and the government: no public notice yet; press found on the mayor's statement (below).
+- 10 Nov 19:38: **Web Summit emails attendees: Day 2 (Wednesday) will not take place**, on the government's formal advice after talks with the government, ANEPC and PSP; Day 3 (Thursday) aimed to go ahead (email relayed by conductor.B; not public).
+- 10 Nov 14:00 (press, Público): Lisbon's tunnels to close; the mayor recommends teleworking.
+- 10 Nov 13:23 (press, Jornal Económico): the Lisbon mayor says everything indicates Web Summit cannot run on Wednesday; the decision referred to the Ministry of Internal Administration; Web Summit assessing with ANEPC.
+- 10 Nov 19:36 (hourly check): IPMA, the government, Web Summit, Fertagus, Carris, Carris Metropolitana and the ferries unchanged. New, read at Metro: five stations open overnight on 10 to 11 and 11 to 12 Nov for homeless people, with the Lisbon and Amadora councils, under their contingency plan.
+- 10 Nov 18:36 (hourly check): no change at IPMA (Lisbon red wind 12:00 to 21:00 and red rain 12:00 to 18:00; no communiqué after no. 2), in the government's declaration, at Web Summit, Fertagus, Carris Metropolitana or the ferries. Carris's banner now says "perturbações na circulação", no suspension named. ANEPC's site reset our connections.
 - 10 Nov 18:00: the desk adds the decision graph, the law (who decides what) and the history of past storms; connectors in tools/watch.mjs, snapshot data/.
 - 10 Nov 17:42 (hourly check): IPMA raises Lisbon's rain warning to **red** for Wed 12:00 to 18:00; wind red unchanged. Communiqué no. 2 read. Government's declaration unchanged (17:43). Web Summit: no notice (17:43). Transport: no suspension (17:42). Reviewer told 17:44.
 - 10 Nov 17:07: IPMA communiqué no. 2 on CHARLES: worse weather from early Wednesday morning, red and orange warnings issued.

@@ -1,5 +1,110 @@
 [
   {
+    "version": "v0.1.1068",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S41 primary source",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "4863d2059"
+  },
+  {
+    "version": "v0.1.1067",
+    "date": "2026-11-10",
+    "what": "social.watch@PrompTugal.dinis: sweep 2: Day 2 off, Thursday on; 14 new items, 85 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "a9b2cdf55"
+  },
+  {
+    "version": "v0.1.1066",
+    "date": "2026-11-10",
+    "what": "social.watch@PrompTugal.dinis: storm signal: Web Summit calls off Day 2, Wednesday 11 November",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "e6b192fd5"
+  },
+  {
+    "version": "v0.1.1065",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 19:48 wake: dev@ and dev.pages@ ran: the Front Page's masthead on every page",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "1bb4c1208"
+  },
+  {
+    "version": "v0.1.1064",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: run report, wake 19:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "7d0698e33"
+  },
+  {
+    "version": "v0.1.1063",
+    "date": "2026-11-10",
+    "what": "reporter.newsroom@PrompTugal.dinis: run report (wake 19:28; about 10k read, 8k written, estimates)",
+    "by": "reporter.newsroom@PrompTugal.dinis",
+    "from": "41417ab05"
+  },
+  {
+    "version": "v0.1.1062",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.dinis: wake 19:08: back on; the masthead on every page; the 10 November debrief; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e984e82fe"
+  },
+  {
+    "version": "v0.1.1061",
+    "date": "2026-11-10",
+    "what": "watch 19:17: incident team running; account A's seven-day limit at allowed_warning",
+    "by": "conductor@web-summit.dinis",
+    "from": "a0594842b"
+  },
+  {
+    "version": "v0.1.1060",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 19:09 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "b80fc7f77"
+  },
+  {
+    "version": "v0.1.1059",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 19:02: DATA.md, a README of the librarian's data; catalogue v0.1.1058",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "f5c87ffbd"
+  },
+  {
+    "version": "v0.1.1058",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S41 lead released",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "023e77c5d"
+  },
+  {
+    "version": "v0.1.1057",
+    "date": "2026-11-10",
+    "what": "social.watch@PrompTugal.dinis: sweep 1's times corrected to 18:45-18:50 UTC; no organiser decision on Wednesday yet",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "df4adcd7d"
+  },
+  {
+    "version": "v0.1.1056",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: run report, wake 18:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "7832d3da7"
+  },
+  {
+    "version": "v0.1.1055",
+    "date": "2026-11-10",
+    "what": "reporter.newsroom@PrompTugal.dinis: run report (wake 18:28; about 12k read, 9k written, estimates)",
+    "by": "reporter.newsroom@PrompTugal.dinis",
+    "from": "a19ef381d"
+  },
+  {
+    "version": "v0.1.1054",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 18:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "4700eb10b"
+  },
+  {
     "version": "v0.1.1053",
     "date": "2026-11-10",
     "what": "conductor.B@PrompTugal.vicky: the storm page, first version, asked of dev.graphs@ and designer@ as a preview (Vicky approved the build, not yet the publication)",

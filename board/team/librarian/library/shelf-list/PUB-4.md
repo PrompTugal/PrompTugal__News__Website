@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 4 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T15:58:23Z"
-site_version: "v0.1.1027"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T19:04:31Z"
+site_version: "v0.1.1058"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 4 of 5)
 
-100 cards, from `PUB.SITE for-events:2` to `PUB.SITE pt:10`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE for-events` to `PUB.SITE pt`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE for-events` | [For event organisers](https://promptugal.news/investors/for-events/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-events:2` | [Para organizadores de eventos](https://promptugal.news/investors/es/for-events/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-events:3` | [Pour les organisateurs d'événements](https://promptugal.news/investors/fr/for-events/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-events:4` | [Para organizadores de eventos](https://promptugal.news/investors/pt/for-events/) | site | investors@ 7 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.SITE fr:9` | [PrompTugal : ce qui est en ligne, une visite guidée](https://promptugal.news/investors/decks/9-the-tour/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE graph` | [The graph](https://promptugal.news/graph/) | site | newsroom-graph@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE gravity` | [Centres of gravity](https://promptugal.news/graph/gravity/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE guy-ben-zvi` | [Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night](https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/) | site | journalist@ 10 Nov 2026 |
 
 **Cards 326 to 350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE guy-ben-zvi` | [Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night](https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/) | site | journalist@ 10 Nov 2026 |
 | `PUB.SITE how-we-got-here` | [How we got here](https://promptugal.news/investors/how-we-got-here/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE how-we-got-here:2` | [Cómo llegamos hasta aquí](https://promptugal.news/investors/es/how-we-got-here/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE how-we-got-here:3` | [Comment nous en sommes arrivés là](https://promptugal.news/investors/fr/how-we-got-here/) | site | investors@ 7 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.SITE language-vote:3` | [Merci pour votre vote](https://promptugal.news/investors/fr/language-vote/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE language-vote:4` | [Obrigado pelo seu voto](https://promptugal.news/investors/pt/language-vote/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE languages` | [Which language next?](https://promptugal.news/investors/languages/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE languages:2` | [¿qué idioma ahora?](https://promptugal.news/investors/es/languages/) | site | investors@ 7 Nov 2026 |
 
 **Cards 351 to 375**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE languages:2` | [¿qué idioma ahora?](https://promptugal.news/investors/es/languages/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE languages:3` | [Quelle langue ensuite ?](https://promptugal.news/investors/fr/languages/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE languages:4` | [Que língua a seguir?](https://promptugal.news/investors/pt/languages/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE leo-tashev-and-fraser-lloyd` | [Leo Tashev and Fraser Lloyd, Student Property Network: interview at Night Summit](https://promptugal.news/interviews/student-property-network/leo-tashev-and-fraser-lloyd/) | site | journalist@ 10 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.SITE outreach:2` | [Contacto, qué enviar y ejemplos](https://promptugal.news/investors/es/outreach/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE outreach:3` | [Prise de contact, quoi envoyer et exemples](https://promptugal.news/investors/fr/outreach/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE outreach:4` | [Contactos, o que enviar e exemplos](https://promptugal.news/investors/pt/outreach/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE participant` | [Our disclosure](https://promptugal.news/about/participant.html) | site | newsroom@web-summit.dinis 4 Nov 2026 |
 
 **Cards 376 to 400**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE participant` | [Our disclosure](https://promptugal.news/about/participant.html) | site | newsroom@web-summit.dinis 4 Nov 2026 |
 | `PUB.SITE partner` | [Propóngannos un proyecto. Vea antes dónde estamos.](https://promptugal.news/investors/es/partner/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE partner:2` | [Confiez-nous un projet. Voyez d'abord où nous en sommes.](https://promptugal.news/investors/fr/partner/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE partner:3` | [Give us a project. See where we are first.](https://promptugal.news/investors/partner/) | site | investors@ 7 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE portugal` | [Portugal](https://promptugal.news/portugal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE profile` | [Your profile](https://promptugal.news/profile/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE pt` | [PrompTugal: a tese de investimento](https://promptugal.news/investors/decks/1-the-investment-case/pt/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE pt:10` | [PrompTugal: o mapa das apresentações](https://promptugal.news/investors/decks/0-the-map/pt/) | site | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-3.md) | [Next part](PUB-5.md)

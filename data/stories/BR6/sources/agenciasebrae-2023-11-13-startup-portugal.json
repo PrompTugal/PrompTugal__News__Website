@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "agenciasebrae-2023-11-13-startup-portugal",
+  "story": "BR6",
+  "url": "https://agenciasebrae.com.br/economia-e-politica/parceria-entre-sebrae-e-startup-portugal-abre-novas-perspectivas-para-pequenos-negocios-inovadores-dos-dois-paises/",
+  "title": "Parceria entre Sebrae e Startup Portugal abre novas perspectivas (Agencia Sebrae de Noticias, 13 November 2023)",
+  "publisher": "Agencia Sebrae de Noticias",
+  "published": "2023-11-13",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Agencia Sebrae de Noticias reports that Sebrae's president signed a memorandum of understanding with Startup Portugal on 13 November 2023."
+}

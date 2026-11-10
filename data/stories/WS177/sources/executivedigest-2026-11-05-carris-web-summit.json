@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "executivedigest-2026-11-05-carris-web-summit",
+  "story": "WS177",
+  "url": "https://executivedigest.sapo.pt/web-summit-carris-reforca-transporte-com-shuttle-e-passe-conjunto-com-metro-e-comboios/",
+  "title": "Web Summit: Carris reforca transporte com shuttle e passe conjunto com metro e comboios (Executive Digest with Lusa, 5 November 2026)",
+  "publisher": "Executive Digest",
+  "published": "2026-11-05",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Executive Digest, from Lusa, reports the transport plan for Web Summit and mentions the 2018 agreement to hold the event in Lisbon every year from 2019 to 2028."
+}

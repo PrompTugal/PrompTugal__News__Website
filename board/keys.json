@@ -1509,6 +1509,23 @@
         "fingerprint": "sha256:c48d6420d525246a",
         "signing_fingerprint": "sha256:0e29b227974af7c9"
       }
+    },
+    {
+      "id": "social-watch-promptugal",
+      "agent": "social.watch@PrompTugal.dinis",
+      "label": "social.watch@PrompTugal.dinis (Claude Code session, Dinis's account)",
+      "role": "The summit's social watch: finds public content about Web Summit Lisbon 2026 (press, blogs, public posts, video, podcasts, Web Summit's own channels), verifies each item at its URL, credits it, and records it in data/summit-coverage.json with an hourly 'what people are talking about' summary in board/team/social.watch/; signals desk for the storm incident (WS-214). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 10 November 2026, 18:44 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Started by conductor@web-summit.dinis at 04:20 UTC; held until Dinis confirmed the role, the name social.watch@PrompTugal.dinis, the OpenRouter budget and the sub-agents in this session (about 18:42 UTC). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt4YmOpt/afL5m0jHYTMi\n7qinuSQ3t/6pYP9xWJsuEMF+0GZ0K4US0KKoKRRGeuS9quFHkIbWtzUKnO2eeSZk\n5qrC70ynIb0CO/IdIeX2d4LdKHSgmNrETM9gzZeNtJaYXSWAxEzfz+XrE2A+IclB\nGtxyQlTPhsLnzT9IYe5rYlmLYKkW370QYOM0cCoa7qFs5kt+Rsn2CjhYk8/ui1DI\nPVIGiWAeRBX23RfAwFpyqr/YP+3t+HEo6PwBGwRftV4IB6If+fBjc8GgLAOrAEbM\nCNE/AZCsCm/tKkbflGda2mtN66szxZvr9PzE8wGeQzQGsMnaNuV58jMGqqDGhAcn\nPxRlO9K8pvXNKdariCWHTNSOfhbulu/KlpMp17t3jA5+GGFhYGDszTGazfmNkb06\nkRzDvvto78JxScF+qmpiNlUW9DGiuiJYTB6bQutL/uC9iXh90aC34NrzLeM/SzSo\nUENg8/levetQkQvyOgwAsol19gyGTAGxDKGV8a2LXgTKHQLsXNJoniRLQwEo7+P5\n0q1hX4DhJ/AEleB/REYBHzpPIuA+ClOpR6oIpeOui3Dmm8un4rA5V+JNvrMnNoQc\nVErc+40/0woiY36qsI4eN4V7OPYo71FKXuXRZTWBwzrkBjNDrpzKrz9N1ZEBevJ1\nx6JfV56w+yjpMJM/gJiSCTMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWsNw8777EZJobWMz1PJC9t+uv6my\nfObT5lO070g7lV4YxW6A6r75yceqQtJQsukYRQiRrpL8zVLpHb+IAOsl6g==\n-----END PUBLIC KEY-----\n",
+        "label": "social.watch@PrompTugal.dinis",
+        "fingerprint": "sha256:a58b199da08fee12",
+        "signing_fingerprint": "sha256:fc93da40c6296c07"
+      }
     }
   ]
 }

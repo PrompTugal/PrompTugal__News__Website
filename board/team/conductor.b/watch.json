@@ -260,6 +260,26 @@
    "PrompTugal__App__iOS": "74883a0b",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Quiet hour for account B's agents (between wakes). Read Dinis's 17:11 baseline (every team: a conductor, a security agent, a developer): account B has conductor.b@ only; dev@ waits for Dinis in this session; security@ runs on account A. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T18:52Z",
+   "SGit-AI__Website__Web-Summit": "58ab6770",
+   "PrompTugal__News__Website": "27bda568",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: designer checked D6 and E's theme live; sherpa read the home page in E on a phone (v0.1.1054); ontologist linked AISLE and GetVocal AI to GAMMA-Ray cards; correspondent kept the storm lead. dev@ and dev.pages@ on since 18:35 (first wakes 19:08, 19:11). Note: conductor.B@PrompTugal.vicky asked account B's dev.graphs@ and designer@ for a storm-page preview (18:13), then stood them down (18:20); cross-team asks to B's agents should come through conductor.b@. Ledger 1156.59 (+48.13 in three hours)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T19:52Z",
+   "SGit-AI__Website__Web-Summit": "14017559",
+   "PrompTugal__News__Website": "b23e8461",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "dev@ back and working (19:08 wake): The Front Page's masthead on every page (designer's T1 to T7) and the work of dev.pages@, dev.graphs@ and dev.data@ brought onto dev; dev.pages@ ran (19:11: past-day slips, the theme's section heads). Account B: nine agents running, nothing blocked but dev.verify@'s credit. Inbox empty."
   }
  ]
 }

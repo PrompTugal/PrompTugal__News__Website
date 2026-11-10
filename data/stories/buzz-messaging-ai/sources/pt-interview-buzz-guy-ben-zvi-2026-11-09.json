@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "pt-interview-buzz-guy-ben-zvi-2026-11-09",
+  "story": "buzz-messaging-ai",
+  "url": "https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/index.html",
+  "title": "Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night (PrompTugal.news, 10 November 2026)",
+  "publisher": "PrompTugal.news",
+  "published": "2026-11-10",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "other",
+  "what_it_says": "PrompTugal's own page for a three-minute interview recorded on 9 November 2026 at Web Summit's opening night; the page summarises what the speaker said, with his agreement."
+}

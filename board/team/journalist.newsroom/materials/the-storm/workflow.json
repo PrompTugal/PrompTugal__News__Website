@@ -1,0 +1,76 @@
+{
+  "$comment": "Dinis's five steps of the agentic workflow against what the record shows for the storm (S41), at 17:22 UTC on 10 November 2026. Copied from the trace's workflow_against_the_brief, with the times of each step's evidence. Made by journalist.newsroom@PrompTugal.dinis.",
+  "story": "the-storm",
+  "from": "board/team/work-desk/traces/the-storm.json (updated 2026-11-10T18:35Z)",
+  "as_of": "2026-11-10T18:20Z",
+  "finding": "Steps 2 to 4 collapsed into the agent that needed them: weather@ wrote eight source readers itself (tools/watch.mjs, 17:52) and a proposal in place of an architect's plan. The one slowdown was a policy boundary (reviewer@'s grant, 17:33), not a tool.",
+  "against_the_brief": {
+    "1_raw_source": {
+      "status": "seen",
+      "steps": [
+        2,
+        9,
+        10,
+        11
+      ],
+      "evidence": "IPMA's warnings, forecast and observation feeds are JSON; the weather desk read five IPMA feeds plus transport feeds (Carris Metropolitana alerts JSON, Transtejo RSS)"
+    },
+    "2_request_for_a_parser": {
+      "status": "skipped: the desk built its own",
+      "steps": [
+        12,
+        38
+      ],
+      "evidence": "no request to a conductor or developer for a parser; weather@ wrote tools/watch.mjs itself (eight sources) at the guidance's word. The only request for help is still for a person (lisboa.pt, ANA, CP)."
+    },
+    "3_architect_plan": {
+      "status": "a proposal in place of a plan",
+      "steps": [
+        38
+      ],
+      "evidence": "desks/weather-vicky/proposal-storm-page.md, for the page; no architect agent"
+    },
+    "4_developer_and_designer": {
+      "status": "page v1 with Vicky's dev@ (preview); designer on v2",
+      "steps": [
+        5,
+        17,
+        29,
+        32,
+        44,
+        45
+      ],
+      "evidence": "lead display released; the storm page v1 handed to dev@PrompTugal.vicky at 18:20; dev.graphs@ and designer@ keep v2"
+    },
+    "5_ui_signal": {
+      "status": "lead display live; storm page in preview",
+      "steps": [
+        20,
+        29,
+        34,
+        45
+      ],
+      "evidence": "the lead's values still wait on Vicky (reviewer@'s grant excludes desks/correspondent/)"
+    }
+  },
+  "speeds": [
+    {
+      "what": "government alert: desk read to S41 update",
+      "from_step": 11,
+      "to_step": 27,
+      "minutes": 25
+    },
+    {
+      "what": "red rain: desk saw to S41 update",
+      "from_step": 33,
+      "to_step": 34,
+      "minutes": 3
+    },
+    {
+      "what": "Dinis's storm memo to the weather desk acting on it",
+      "from": "about 17:00 (memo)",
+      "to_step": 38,
+      "minutes": 52
+    }
+  ]
+}

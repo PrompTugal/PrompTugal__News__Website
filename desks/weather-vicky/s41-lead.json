@@ -1,27 +1,27 @@
 {
-  "standfirst": "Portugal's government has declared an alert situation for the whole mainland on Wednesday 11 November, the third day of Web Summit Lisbon. IPMA has red warnings for the Lisbon district that day: wind from 12:00 to 21:00, with gusts up to 120 km/h and up to 140 km/h in the most exposed places, and rain from 12:00 to 18:00.",
+  "standfirst": "Web Summit says Day 2, Wednesday 11 November, will not take place, after the Government of Portugal formally advised it not to because of Storm Charles. IPMA has red wind and rain warnings for the Lisbon district that day, and the government has declared an alert situation for the whole mainland.",
   "developments": [
     {
-      "text": "IPMA raised its rain warning for the Lisbon district to red for Wednesday, 12:00 to 18:00; the red wind warning, 12:00 to 21:00, is unchanged.",
+      "text": "Web Summit says Day 2 (Wednesday) will not take place: the Government of Portugal formally advised it not to, after talks with the government, ANEPC and the PSP; it aims to go ahead with Day 3 on Thursday.",
+      "source": "https://websummit.com/blog/",
+      "checked": "2026-11-10T20:02Z"
+    },
+    {
+      "text": "IPMA's red warnings for the Lisbon district on Wednesday are unchanged: wind 12:00 to 21:00, rain 12:00 to 18:00.",
       "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-      "checked": "2026-11-10T17:42Z"
+      "checked": "2026-11-10T19:36Z"
     },
     {
-      "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended, whatever their nature.",
+      "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended.",
       "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-      "checked": "2026-11-10T17:43Z"
-    },
-    {
-      "text": "The Minister of Internal Administration asked people to stay at home where possible and avoid unnecessary travel.",
-      "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-",
-      "checked": "2026-11-10T17:01Z"
+      "checked": "2026-11-10T19:36Z"
     }
   ],
   "programme": {
     "label": "Web Summit, Wednesday",
-    "text": "No change to Wednesday's programme has been announced on Web Summit's homepage or news page. Whether the suspension of outdoor events touches any part of the summit has not been announced.",
-    "source": "https://websummit.com/blog/news/",
-    "checked": "2026-11-10T17:43Z"
+    "text": "Day 2 will not take place, Web Summit says in its post \"Important event update\". It aims to proceed with Day 3 on Thursday, it told attendees.",
+    "source": "https://websummit.com/blog/",
+    "checked": "2026-11-10T20:02Z"
   },
-  "last_checked": "2026-11-10T17:43Z"
+  "last_checked": "2026-11-10T20:02Z"
 }

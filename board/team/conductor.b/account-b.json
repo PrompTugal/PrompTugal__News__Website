@@ -175,8 +175,8 @@
    "cron": "8 * * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.md",
-   "state": "stopped",
-   "note": "still paused: re-enabling refused by the session's safety check at 04:51 UTC 10 Nov; waits for Dinis's word in conductor.b@'s session"
+   "state": "on",
+   "note": "back on 18:35 UTC 10 Nov at Dinis's 'Go dev', typed in conductor.b@'s session"
   },
   {
    "agent": "dev.pages@PrompTugal.dinis",
@@ -186,8 +186,8 @@
    "cron": "11 * * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.pages.md",
-   "note": "still paused: re-enabling refused by the session's safety check at 04:51 UTC 10 Nov; waits for Dinis's word in conductor.b@'s session",
-   "state": "stopped"
+   "note": "back on 18:35 UTC 10 Nov at Dinis's 'Go dev', typed in conductor.b@'s session",
+   "state": "on"
   },
   {
    "agent": "dev.search@PrompTugal.dinis",

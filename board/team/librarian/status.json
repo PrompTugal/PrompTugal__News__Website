@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B, back on at THE RESTART, every three hours)",
-  "updated": "2026-11-10T16:20Z",
+  "updated": "2026-11-10T19:30Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -42,7 +42,8 @@
     "Wake of 06:57 on 10 November (back on at THE RESTART, 04:51; the 00:56 and 03:56 wakes did not run during THE BIG STOP): inbox drained (nothing new); the restart read (its section 5, 'map our own agentic workflows', is the library's map); the life map now takes account B's states from conductor.b@'s account-b.json (65 agents, 70 keys, 7 flags); board/schedule.json found stale since 6 November; both sent to both conductors; debrief of 10 November; catalogue v0.1.961 (1,482 pages, 3,258 board files, 177 findings); library 5,618 cards, check OK, 0 warnings",
     "Wake of 09:56: inbox drained (nothing new); the library's check had gone red on size (12.63 MB, cap 12 MB): board files had grown from 933 to 3,280 in four days, mostly machine-made (1,127 run reports, 806 investors' site sources, 293 of the library's own generated files, 180 deck files, dev.verify's records). Described at series level now (one card per folder, as an archive describes a series), and withdrawn cards kept slim (identity, call, accession, provenance; old links dropped): 12.07 MB, cap unchanged, 43 tests; catalogue v0.1.979 (1,484 pages, 1,022 board entries incl. series, 177 findings); library 5,695 cards, check OK, 0 warnings; life map 7 flags (unchanged)",
     "Wake of 12:57: inbox drained (nothing new); for Dinis's 12:40 word (pt.news is about agents; the visual newsroom, one graph per piece built from the record): provenance.mjs writes library/provenance/pieces.json, each published piece's flow in time order (53 pieces, 355 events, actors, stages, trailers, hand-offs, and the desks' files that name it), sent to dev.graphs@ and dev.pages@; one piece with no check or review on record (web-summit-passes-and-colours), to conductor@; the library's cap raised to 14 MB (reason in the code); catalogue v0.1.1002 (1,484 pages, 177 findings); library 5,730 cards, check OK, 0 warnings, 43 tests",
-    "Wake of 15:56: inbox drained (nothing new); Dinis's 14:35 word read (design E the default theme; for the designers); the provenance record follows each piece's story codes (S41, WS125) from its own commits into the desks' review and check files (45 of 55 pieces carry codes): the two new pieces flagged by slug alone (S41, S42) were reviewed; web-summit-passes-and-colours stays the one piece with no check on record; catalogue v0.1.1027 (1,489 pages, 177 findings); library 5,747 cards, check OK, 0 warnings; life map 6 flags"
+    "Wake of 15:56: inbox drained (nothing new); Dinis's 14:35 word read (design E the default theme; for the designers); the provenance record follows each piece's story codes (S41, WS125) from its own commits into the desks' review and check files (45 of 55 pieces carry codes): the two new pieces flagged by slug alone (S41, S42) were reviewed; web-summit-passes-and-colours stays the one piece with no check on record; catalogue v0.1.1027 (1,489 pages, 177 findings); library 5,747 cards, check OK, 0 warnings; life map 6 flags",
+    "Wake of 19:02: inbox drained (nothing new); Dinis's three new entries read (the storm as a case study; agents that save other agents' tokens; Vicky's reviewer's write rights); for the 17:15 word: board/team/librarian/DATA.md, a README of every librarian data file (what it holds, its size, which question it answers, its maker), and the library offered to accountant@ as a candidate example, with the honest limit that no reads are measured; catalogue v0.1.1058 (1,490 pages, 177 findings); provenance 55 pieces, one with no check on record; library 5,800 cards, check OK, 0 warnings; life map 72 agents, 85 keys, 6 flags"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -219,6 +220,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: provenance follows story codes (55 pieces); catalogue v0.1.1027; library 5,747 cards green"
+    },
+    {
+      "started": "2026-11-10T19:02Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: DATA.md (a README per data file) and a candidate to accountant@; catalogue v0.1.1058; library 5,800 cards green"
     }
   ],
   "notes": [

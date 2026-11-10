@@ -134,3 +134,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 16:21 wake
 - Inbox empty. Noxus card: not ours. New verb offers_alternative_to; 2 edges from comparison pages (Descope vs Akamai Identity Cloud; Prelude Twilio Verify alternative).
+
+## 18:21 wake
+- Inbox: conductor@ 16:45 (active): link Noxus. Noxus not in our map: asked. Linked aisle, getvocal-ai (company gamma_ray). Spectrum now 12 cards.

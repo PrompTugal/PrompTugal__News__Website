@@ -24,6 +24,14 @@ export function ctopHead({ up, href, site, section, shortDate, WORDMARK }) {
         go: go ? fill(item('go'), { text: go }) : '', '#util': links(site.utility || [], href, section).replace(/<\/a><a/g, '</a> · <a'), '#nav': links(site.nav, href, section) })
 }
 
+// E's masthead, on every page (designer@'s T1 to T3): the date line with the tools, the wordmark centred, the sections
+// between rules; the live bar sits above it (the shell's #nr-live)
+export function emastHead({ up, href, site, section, shortDate, WORDMARK }) {
+    const S = site.SITE, [y] = site.TODAY.split('-')
+    return fill(part('emast'), { up, name: esc(S.name), today: site.TODAY, longdate: esc(`${site.DAY(site.TODAY)} ${y}`), shortdate: esc(shortDate), wordmark: WORDMARK(up),
+        search_cur: cur(section === 'search'), '#nav': links(site.nav, href, section) })
+}
+
 // the tab bar (Now, Agenda, News, Companies, Search, More) and the More sheet, at the end of the body
 // in the summit's week the Agenda tab opens today's day page (sherpa@'s A1: Events is 51 phone screens; the day page is
 // what a reader planning the day needs); after the 13th it opens Events again. Built hourly, so "today" stays true.

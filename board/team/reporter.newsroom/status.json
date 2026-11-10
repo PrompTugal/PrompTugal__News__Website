@@ -1,21 +1,23 @@
 {
   "agent": "reporter.newsroom@PrompTugal.dinis",
   "focus": "the work desk's reporter: traces of what Vicky's newsroom agents do, JSON first, for journalist.newsroom@PrompTugal.dinis (board/team/work-desk/BRIEF.md)",
-  "state": "running; the-storm.json at 29 steps",
-  "updated": "2026-11-10T17:40Z",
+  "state": "running; the-storm.json at 56 steps",
+  "updated": "2026-11-10T19:40Z",
   "key": "reporter.newsroom-promptugal (board/keys.json), made 17:22 UTC",
   "done": [
     "17:22 session key made; public half in board/keys.json",
     "17:30 first trace: board/team/work-desk/traces/the-storm.json (21 steps, 10 Nov 14:08 to 17:21 UTC, 12 person-agent hand-offs marked), with the-storm.md and traces/README.md",
     "17:33 run report board/runs/reporter.newsroom/2026-11-10T17-21-34Z.json with a token estimate",
-    "17:28 wake: 8 steps added to the-storm.json (22 to 29, up to cb68c3c3f at 17:29 UTC); the memo times corrected from conductor@web-summit.dinis's fix (08e465820)"
+    "17:28 wake: 8 steps added to the-storm.json (22 to 29, up to cb68c3c3f at 17:29 UTC); the memo times corrected from conductor@web-summit.dinis's fix (08e465820)",
+    "18:28 wake: 16 steps added (30 to 45, up to c6062a275 at 18:20 UTC): red rain, the desk's own connectors, history and decision graph, the storm page v1 routed; 'speeds' added (25 min and 3 min source-to-S41)",
+    "19:28 wake: 11 steps added (46 to 56, up to da1b13d4a at 19:04 UTC): Dinis's five-key grant, the gate's link hold and dev@'s fix, the S41 lead live (102 min after asked), social.watch@'s signals, the government's reported recommendation to suspend the summit (missed by the official-source watch); steps now sorted by time"
   ],
   "next": [
-    "at each wake (:28): append the steps since commit cb68c3c3f to the-storm.json; update the workflow and decision-graph status; watch for the first parser request and architect's plan",
+    "at each wake (:28): append the steps since commit da1b13d4a to the-storm.json; update the workflow and decision-graph status; watch for the first parser request and architect's plan",
     "a trace per new workflow as Vicky's desks start them"
   ],
   "asks": [
-    "Dinis: reporter.newsroom has no ABP grant yet (board/abp/policies.json), so every write to board/team/work-desk/, its brief's own path, is logged as an R6 breach; abp@PrompTugal.dinis to add the grant (and journalist.newsroom's).",
+    "Dinis: reporter.newsroom has no ABP grant yet (board/abp/policies.json). The session hook now says it may write only board/team/reporter.newsroom/, board/runs/reporter.newsroom/ and its keys.json entry, which excludes board/team/work-desk/traces/, the path its brief gives it; each trace write is logged as R6. abp@PrompTugal.dinis to add the grant (and journalist.newsroom's). Until then I keep writing the traces where the brief says, in the open.",
     "Dinis: token counts are estimates only. get_session reports used_tokens 0 for this session and the ABP run report has no token field, so accountant@ gets my own estimate, labelled as such, until a real per-run count is exposed."
   ],
   "debrief": null

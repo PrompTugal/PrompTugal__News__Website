@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "wikipedia-web-summit-rev-1383690798",
+  "story": "WS177",
+  "url": "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798",
+  "title": "Wikipedia, Web Summit (revision 1383690798, the revision of 4 November 2026 the article cites)",
+  "publisher": "Wikipedia",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "other",
+  "what_it_says": "A pinned revision of the Wikipedia article on Web Summit, a tertiary source: attendance by year from 2010 to 2018, the move from Dublin to Lisbon in 2016."
+}

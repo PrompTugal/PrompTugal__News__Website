@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "student-property-network",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "events": [
+    {
+      "at": "2026-11-09",
+      "what": "Indi Gupte interviews the co-founders of Student Property Network for under three minutes at Night Summit, Web Summit's opening night; published on 10 November with their agreement.",
+      "kind": "event",
+      "about": [
+        "local:student-property-network"
+      ],
+      "source": "pt-interview-spn-leo-tashev-fraser-lloyd-2026-11-09",
+      "claim": [
+        "c05",
+        "c06",
+        "c07"
+      ]
+    }
+  ]
+}

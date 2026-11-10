@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-146 cards (146 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T15:58:23Z at site v0.1.1027; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+147 cards (147 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T19:04:31Z at site v0.1.1058; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 146 |
+| `PUB.NEWS` | 147 |
 
 Newest five accessions:
 
+- `ACC-20261110-0235` [S43: Wednesday's alert: what the government has closed across Portugal](https://promptugal.news/newsroom/stories/S43/) (`PUB.NEWS S43`)
 - `ACC-20261110-0221` [S42: What Lovable deleted: its CEO on rebuilding an AI coding agent](https://promptugal.news/newsroom/stories/S42/) (`PUB.NEWS S42`)
 - `ACC-20261110-0220` [S41: Red wind warning for Lisbon on Wednesday: what it means for Web Summit](https://promptugal.news/newsroom/stories/S41/) (`PUB.NEWS S41`)
 - `ACC-20261110-0034` [Decided: the design flip for the agentic edition, three Portuguese directions](https://promptugal.news/newsroom/design/decisions/the-design-flip/) (`PUB.NEWS the-design-flip`)
 - `ACC-20261110-0033` [protocols: Six people, six agent protocols, one week](https://promptugal.news/newsroom/stories/protocols/) (`PUB.NEWS protocols`)
-- `ACC-20261110-0032` [The news scout's candidates](https://promptugal.news/newsroom/jornal-silvio/) (`PUB.NEWS jornal-silvio`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

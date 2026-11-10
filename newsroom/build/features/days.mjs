@@ -43,8 +43,8 @@ function dayPage(ctx, d, i) {
     return {
         src: 'data/events/', rel, type: 'site', date: TODAY, section: 'agenda',
         crumbs: [['summit/index.html', 'The summit'], [null, DAY(d)]],
-        title: `${DAY(d)}: what is on`,
-        summary: `${items.length} item${items.length === 1 ? '' : 's'} in our programme on ${DAY(d)}, Web Summit Lisbon week: five things to plan around, every session by time and by stage.`,
+        title: `${DAY(d)}: ${d < TODAY ? DW.title_was : DW.title_on}`,
+        summary: `${items.length} item${items.length === 1 ? '' : 's'} in our programme on ${DAY(d)}, Web Summit Lisbon week: ${d < TODAY ? DW.summary_was : DW.summary_on}`,
         md,
     }
 }
