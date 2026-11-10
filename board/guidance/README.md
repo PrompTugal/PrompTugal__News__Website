@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 10 Nov, 16:50 | **Vicky's agents' schedule approved** by Dinis in his own session ("which is ok"): their scheduled wakes on Vicky's account, including the temporary wake updates of 10 November (ABP R4 met) | `2026-11-10-vickys-agents-schedule-approved.md` |
 | 10 Nov, 14:35 | **The Front Page (design E) is the default design and theme**, for the whole site and the iOS app (Dinis, in the conductor's session). The home default is switched; the rest of the site and the app follow | `2026-11-10-the-front-page-default.md` |
 | 10 Nov, 12:40 | **pt.news is about agents, and the workflow is the picture:** one workflow built on GAMMA-Ray and FACT-Ray (mapping where a team, product or agent is); pt.news pivots completely to agents; interviews ask what the company does *with agents*, with a GAMMA-Ray card before or after; **a visual virtual newsroom** (human, researcher, journalist, agents, every hand-off) shown to readers and used to run us; **a full redesign** led by the interviews, the summit now and the scores (recycle B r3) | `2026-11-10-pt-news-is-about-agents.md` |
 | 10 Nov, 12:05 | **Vicky and Angelo have two new sessions**, started from their agents' personal sessions on Dinis's card: **Dinis is fine paying; approved, because the whole thing must be rebuilt.** Handover rules apply (new keys, old entries superseded, debriefs); accountant@ counts them; security@ expects the burst | `2026-11-10-vicky-and-angelo-new-sessions.md` |
