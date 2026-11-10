@@ -2,7 +2,7 @@
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
  "state": "eleven temporary agents; no hold; S41 and the shortened lead live with the satellite loop (stop-gap); S44 waits on journalist@PrompTugal.dinis; S45 (refunds) commissioned",
- "updated": "2026-11-10T21:52Z",
+ "updated": "2026-11-10T22:10Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -34,7 +34,8 @@
   "19:49 wake: no hold either side; the S41 lead live since 18:54 (v0.1.1058); Web Summit's 19:38 email (Day 2 will not take place) relayed at Vicky's word to reviewer@, weather@, journalist@, the curator and correspondent@; reviewer@ holds the S41 update until Vicky confirms in its session or a public channel carries it; weather@ recorded it in live.md and the decision graph; satellite loop test passed, waits on security@",
   "20:15 S41 and the lead now cite Web Summit's own post (reviewer@, 20:08); security@'s S36 resolved by that; the satellite loop clearance request re-filed as a commit for security@ (its 20:05 review saw nothing in its inbox), dev@'s real-feed test passed",
   "20:49 wake: no hold; security@ cleared the satellite loop at 20:26 on four conditions (it had missed the inbox requests at 20:05); dev@ released it at 20:47 (ddf5b702d) without meeting conditions 2 and 3 (stop-gap notice, credit, terms) and with the preferred condition 1 (frames from our origin) not done; dev@ asked to fix as a declared stop-gap within 15 minutes or revert; Web Summit's post is S41's primary source; curator commissioned S44 (Wednesday guide update)",
-  "21:49 wake: no hold either side; the satellite loop live as a declared stop-gap (3299a3f80, v0.1.1076, checked on the public page); the lead shortened (59 words) with a Read the full story link (985b1f395); the chart caption fixed ('Chart based on IPMA data'); S44 placement approved by Vicky, asked of journalist@PrompTugal.dinis (its signature); S45 (refunds) commissioned at Dinis's request via Vicky; Web Summit's statement now at its own URL"
+  "21:49 wake: no hold either side; the satellite loop live as a declared stop-gap (3299a3f80, v0.1.1076, checked on the public page); the lead shortened (59 words) with a Read the full story link (985b1f395); the chart caption fixed ('Chart based on IPMA data'); S44 placement approved by Vicky, asked of journalist@PrompTugal.dinis (its signature); S45 (refunds) commissioned at Dinis's request via Vicky; Web Summit's statement now at its own URL",
+  "22:10 Vicky's standing publishing rule recorded (desks/conductor-vicky/standing-rules.md, R-PUB-1) and sent to reviewer@; my wake now lists the reviewer's releases"
  ],
  "next": [
   "S45 draft to the reviewer, then Vicky's approval",
