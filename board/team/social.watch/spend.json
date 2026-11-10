@@ -47,8 +47,15 @@
       "calls": 1,
       "usd": 0.0057,
       "what": "sweep 5 (night)"
+    },
+    {
+      "at": "2026-11-10T23:54Z",
+      "model": "perplexity/sonar",
+      "calls": 1,
+      "usd": 0.0056,
+      "what": "sweep 6 (night): Wednesday's transport and Thursday"
     }
   ],
-  "today_usd": 0.0813,
+  "today_usd": 0.0869,
   "subscription_note": "Sweep 1 ran seven Sonnet sub-agents (about 690k sub-agent tokens); sweep 2 ran three (about 290k); on the Claude subscription, not OpenRouter."
 }

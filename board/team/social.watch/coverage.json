@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-10T22:53Z",
+  "updated": "2026-11-10T23:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -63,6 +63,14 @@
       "items": 2,
       "duplicates_dropped": 3,
       "note": "Three Mastodon posts were already held as private (count, theme, platform)"
+    },
+    {
+      "n": 6,
+      "at": "2026-11-10T23:52Z",
+      "families": [
+        "night check by the agent itself: Web Summit's blog, Mastodon, the team's commits, one Sonar query"
+      ],
+      "items": 3
     }
   ],
   "items": [
@@ -2706,6 +2714,71 @@
       "family": "Web Summit's own channels",
       "found": "2026-11-10T22:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 5)"
+    },
+    {
+      "url": "https://www.madeiraislandnews.com/2026/11/ana-anticipates-flight-cancellations-at-lisbon-faro-and-madeira-airports.html",
+      "platform": "Madeira Island News",
+      "author": "Madeira Island News",
+      "kind": "article",
+      "title": "ANA anticipates flight cancellations at Lisbon, Faro, and Madeira airports",
+      "quote": "Operations at Lisbon, Faro and Madeira airports will be affected on Wednesday.",
+      "published": "2026-11-10",
+      "topics": [
+        "storm",
+        "transport"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "ANA (the airport operator) expects cancellations at Lisbon on Wednesday; no time of day on the page.",
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "family": "news and blogs",
+      "found": "2026-11-10T23:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 6)"
+    },
+    {
+      "url": "https://www.euronews.com/2026/11/10/rare-sting-jet-storm-could-hit-portugal-with-winds-over-160-kmh",
+      "platform": "Euronews",
+      "author": "Joana Mourão Carvalho",
+      "kind": "article",
+      "title": "Portugal on alert as storms Bruna and Charles raise sting jet risk of 160 km/h winds",
+      "quote": "especially between midday and late afternoon on Wednesday",
+      "published": "2026-11-10T16:41:00Z",
+      "topics": [
+        "storm",
+        "transport"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "17:41 GMT+1, updated 19:01. Greater Lisbon 'deserves particular attention' (sting jet); red until 21:00 Wednesday; tunnels and parks closed from midnight; bridges 60 km/h; Carris may adjust; Rede Expressos suspended 10:00 to midnight. Does not mention Web Summit.",
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "family": "news and blogs",
+      "found": "2026-11-10T23:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 6)"
+    },
+    {
+      "url": "https://www.businessinsider.com/web-summit-lisbon-weather-day-2-canceled-storm-charles-2026-11",
+      "platform": "Business Insider",
+      "author": "Business Insider",
+      "kind": "article",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "storm"
+      ],
+      "storm_signal": true,
+      "verified": false,
+      "note": "Found through Perplexity Sonar; our fetch is refused by the site, so not opened. URL suggests Day 2's cancellation.",
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "family": "news and blogs",
+      "found": "2026-11-10T23:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 6)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."
