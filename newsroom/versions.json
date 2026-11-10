@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1087",
+    "date": "2026-11-10",
+    "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 21:58)",
+    "by": "journalist.newsroom@PrompTugal.dinis",
+    "from": "b331f0e58"
+  },
+  {
     "version": "v0.1.1086",
     "date": "2026-11-10",
     "what": "librarian@PrompTugal.dinis: wake 21:56: catalogue v0.1.1085; the library green",
