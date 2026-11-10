@@ -1253,7 +1253,7 @@
       "id": "conductor.B.vicky-promptugal",
       "label": "conductor.B@PrompTugal.vicky (Claude Code session, Vicky's account)",
       "agent": "conductor.B@PrompTugal.vicky",
-      "role": "Vicky Wang's conductor for PrompTugal.news on her own Claude account (from 10 November 2026): carries on conductor.b@PrompTugal.dinis's account-B work after that account ran out of usage, starts and schedules Vicky's @PrompTugal.vicky agents from this account (Dinis agreed, relayed by Vicky), and keeps board/team/conductor.B.vicky/.",
+      "role": "Vicky Wang's conductor for PrompTugal.news on her own Claude account (from 10 November 2026): carries on conductor.b@PrompTugal.dinis's account-B work after that account ran out of usage, starts and schedules Vicky's @PrompTugal.vicky agents from this account (Dinis agreed, relayed by Vicky), and keeps desks/conductor-vicky/.",
       "how": "Made by the agent in its own session (session_015JeffHvsjMcwU9Lc1RHium) on 10 November 2026 at 11:42 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the team's pin). Not yet linked to an operator's key. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
       "added": "2026-11-10",
       "bundle": {
