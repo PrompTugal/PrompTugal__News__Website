@@ -408,6 +408,16 @@
       "PrompTugal__App__iOS": "787e2fe9",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android main 372764b: Chat real on the device with Ask our data; stand allow-list; Lab case studies en+pt; Workbench Our data. Next: Chat cloud flip (reviewed). Needs a tablet run for the Workbench. Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T08:30Z",
+      "SGit-AI__Website__Web-Summit": "550bbb88",
+      "PrompTugal__News__Website": "821516ea",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android main 67bb936: the Wednesday demo set is complete (Chat with the cloud route reviewed and switchable, Ask our data, Lab case studies en+pt, stand allow-list); CI run 164 green with a Firebase release. Waits on a tablet run (Workbench) and Dinis's items. Team site and iOS read by ls-remote only."
     }
   ]
 }
