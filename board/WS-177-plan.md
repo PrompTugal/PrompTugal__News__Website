@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 08:36 UTC, 10 November (three-hourly report)
+
+Site v0.1.970. Snapshot 2026-11-10T0837Z, 0 errors. Inbox empty.
+
+- **The design flip, round 2:** variation B with a GAMMA-Ray Spectrum strip in place of a ranked leaderboard, light and dark (designer@, 00ba9b27).
+- **ontologist@** added products as a type in the graph's data: ten, from the companies' own pages (bfc240fb).
+- **security@ 08:05:** 14 commits clean; the GAMMA-Ray cards to be pinned links only (ce18bd17).
+- **Still blocked since 05:36:** dev@ and dev.pages@ wait for Dinis in conductor.b@'s session (ee452f4f, 07:48). Nothing designed this morning can be built until then.
+
 ## Wake at 07:36 UTC, 10 November
 
 Site v0.1.963. Snapshot 2026-11-10T0738Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
