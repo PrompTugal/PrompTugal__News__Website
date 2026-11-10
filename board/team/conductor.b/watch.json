@@ -110,6 +110,16 @@
    "PrompTugal__App__iOS": "3dcc0b13",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "THE BIG STOP holds on account B: only conductor.b@'s wake is enabled; no account-B agent committed since 23:49. The iOS conductor's :00 wake paused at 00:03 (its own report). Still active on dev: writer@PrompTugal.angelo (Angelo's agent, not on account B) and gamma-ray@web-summit.dinis (the stop's one exception). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T02:52Z",
+   "SGit-AI__Website__Web-Summit": "900eea80",
+   "PrompTugal__News__Website": "c1209558",
+   "PrompTugal__App__Android": "9bfd28b0",
+   "PrompTugal__App__iOS": "3dcc0b13",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "THE BIG STOP holds on account B: only conductor.b@'s wake enabled; every account-B session idle. journalist@PrompTugal.dinis committed at 02:33 (a vault video experiment) but NOT from account B's journalist session (idle since 22:34): another session runs under that name, outside account B (any person may override the stop; Dinis to confirm who). Inbox empty."
   }
  ]
 }
