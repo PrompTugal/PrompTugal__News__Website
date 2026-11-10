@@ -180,6 +180,26 @@
    "PrompTugal__App__iOS": "6312b5e8",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Read Dinis's 'go: restart dev@ and dev.pages@' (08:45, relayed 09:00): not retried, since the safety check refused the same relayed word at 04:51 and 06:52; it needs Dinis in conductor.b@'s own session. Seven agents running; ledger 1041.91 (+23.7 in three hours)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T10:57Z",
+   "SGit-AI__Website__Web-Summit": "a2fd23aa",
+   "PrompTugal__News__Website": "eb8c1382",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: designer decided the design flip (B, round 3); ontologist 24 products; correspondent, librarian, dev.data ran; dev.graphs had nothing assigned (nothing for it without dev@ building). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T11:52Z",
+   "SGit-AI__Website__Web-Summit": "99afc3dd",
+   "PrompTugal__News__Website": "e85a1ea0",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "a483a020",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Quiet hour on account B (the 2 h and 3 h agents between wakes). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
   }
  ]
 }

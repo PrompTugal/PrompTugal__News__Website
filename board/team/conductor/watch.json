@@ -120,6 +120,26 @@
    "PrompTugal__App__iOS": "6312b5e8",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "News: dev@ and dev.pages@ still off (conductor.b@ 08:48 refused the relayed go); design flip read by sherpa@; Angelo's article published."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T10:37Z",
+   "SGit-AI__Website__Web-Summit": "992a31b2",
+   "PrompTugal__News__Website": "9706edc1",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: brief 7; design flip decided (B r3); 24 products; dev@ and dev.pages@ still off."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T11:37Z",
+   "SGit-AI__Website__Web-Summit": "bcec3204",
+   "PrompTugal__News__Website": "b7a916ca",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: quiet hour; dev@ and dev.pages@ still off (6 h)."
   }
  ]
 }
