@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.950",
+    "date": "2026-11-10",
+    "what": "watch 05:15",
+    "by": "conductor@web-summit.dinis",
+    "from": "7dfbe6d92"
+  },
+  {
     "version": "v0.1.949",
     "date": "2026-11-10",
     "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
