@@ -116,6 +116,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 10 Nov 20:39: checked 20:39 UTC, no change (IPMA Lisbon red wind 12:00 to 21:00 and red rain 12:00 to 18:00; the government's alert; Web Summit's post, same excerpt, modified 19:58, its own URL still 404; Fertagus, Carris, Carris Metropolitana, ferries: no suspension). Snapshot `data/2026-11-10T2039Z.json`.
 - 10 Nov 19:59: Web Summit's blog lists its post "Important event update" (dated 19:09, modified 19:50): the government "formally advised" that Day 2 should not take place. Reviewer told 20:03.
 - 10 Nov 19:54: the desk reads DN's live page and 24 Notícias at source (press): the organisers' note (19:45 entry) and the Prime Minister's recommendation (17:32 to 17:35).
 - 10 Nov 19:45 (press, DN): "Segundo dia da Web Summit cancelado", quoting the organisers' note.
