@@ -1,0 +1,30 @@
+{
+ "article": "red-wind-warning-lisbon-wednesday",
+ "credit": "Contains modified EUMETSAT Meteosat data 2026",
+ "source": "EUMETSAT Meteosat (MTG-I, FCI, infrared 10.5 µm), Web Map Service",
+ "source_url": "https://view.eumetsat.int/",
+ "lisbon": {
+  "x": 69.3,
+  "y": 60.65
+ },
+ "delay_minutes": 60,
+ "check_minutes": 10,
+ "min_frames": 3,
+ "note": "Configuration for the live satellite loop in the lead (assets/satellite/loop.js). No frames are stored: the browser fetches them from EUMETSAT's Web Map Service. Licence: EUMETSAT Data Policy (Jan 2026) Art. 4 and 6; attribution required.",
+ "live": {
+  "caps": "https://view.eumetsat.int/geoserver/mtg_fd/ir105_hrfi/wms?service=WMS&version=1.3.0&request=GetCapabilities",
+  "wms": "https://view.eumetsat.int/geoserver/wms",
+  "layers": "mtg_fd:ir105_hrfi,backgrounds:ne_10m_coastline,backgrounds:ne_boundary_lines_land",
+  "styles": "mtg_fd:mtg_fd_ir105_hrfi_grayscale,,",
+  "bbox": [
+   -23,
+   34,
+   -3,
+   46
+  ],
+  "width": 800,
+  "height": 480,
+  "step_minutes": 10,
+  "count": 12
+ }
+}
