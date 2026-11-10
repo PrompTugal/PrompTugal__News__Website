@@ -1,0 +1,10 @@
+/* offline.css: the offline note and the "Save for offline" button (assets/offline/offline.js); designer@ restyles. */
+.pt-offline { margin: 0 0 14px; padding: 8px 12px; border: 1px solid var(--rule-2); background: var(--panel); font: 600 14px/1.4 var(--sans); color: var(--ink); }
+.pt-save-offline { margin-top: 10px; height: 34px; padding: 0 12px; border: 1px solid var(--rule-2); border-radius: var(--radius-pill); background: var(--paper); color: var(--ink); font: 600 13px/1 var(--sans); cursor: pointer; }
+.pt-save-offline[aria-pressed="true"] { border-color: var(--brand); color: var(--brand); }
+@media print { .pt-offline, .pt-save-offline { display: none; } }
+.pt-offline-clear { padding: 0; border: 0; background: none; color: inherit; font: inherit; text-decoration: underline; cursor: pointer; }
+/* the offline page's list and the kept mark (designer@'s O3, O4) */
+.offline-list h2 { margin-top: 28px; }
+.offline-list small { font: 12px var(--sans); color: var(--ink-3); }
+a.pt-kept::after { content: " kept"; font: 600 11px var(--sans); color: var(--ok); margin-left: 4px; }
