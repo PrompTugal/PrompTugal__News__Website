@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S41",
+  "type": "story",
+  "title": "Red wind warning for Lisbon on Wednesday: what it means for Web Summit",
+  "beat": "The summit",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:x-ipma-warnings",
+    "evidence:x-ipma-forecast"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-10-1410.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-1410.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-10",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-10-1410.json"
+    }
+  ]
+}
