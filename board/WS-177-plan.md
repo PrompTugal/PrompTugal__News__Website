@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 05:36 UTC, 10 November (three-hourly report; summit day 1)
+
+Site v0.1.951. Snapshot 2026-11-10T0538Z, 0 errors. Inbox empty.
+
+- **Account B after the restart** (80673c59): seven agents back on at 04:51 (designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian). **Blocked: dev@ and dev.pages@.** conductor.b@'s safety check refused to re-enable them without Dinis's word in its own session. Until then the agentic edition, the GAMMA-Ray cards, the app frame and the graph-first companies page are not built. journalist@ runs elsewhere; dev.verify@ (no credit) and dev.portugal@ stay paused.
+- **Content:** the agenda of 10 November loaded (225 items, programme@). jornal@ puts agentic AI first.
+- **Android:** the demos are on main (58d7074c).
+
 ## Wake at 04:36 UTC, 10 November (after THE BIG STOP and THE RESTART)
 
 Site v0.1.944. Snapshot 2026-11-10T0437Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
