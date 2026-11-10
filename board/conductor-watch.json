@@ -418,6 +418,17 @@
       "PrompTugal__App__iOS": "6312b5e8",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android main 67bb936: the Wednesday demo set is complete (Chat with the cloud route reviewed and switchable, Ask our data, Lab case studies en+pt, stand allow-list); CI run 164 green with a Firebase release. Waits on a tablet run (Workbench) and Dinis's items. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "0d21487d",
+      "PrompTugal__News__Website": "97011d0b",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "451c596b",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T09:13Z",
+      "note": "GAMMA-Ray: first card published (Replit Agent, A4 R2 C2 O0, beta); its claim-your-card note waits for a person to send it via the CRM. Dinis's go for dev@/dev.pages@ (08:45) relayed to conductor.b@. Lanes empty. Still open: social.watch@'s three answers."
     }
   ]
 }
