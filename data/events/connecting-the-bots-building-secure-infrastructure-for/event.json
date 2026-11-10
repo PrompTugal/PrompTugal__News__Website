@@ -29,7 +29,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/5faacf74-8493-412c-a03e-ca82993cee91/connecting-the-bots-building-secure-infrastructure-for-inter-agent-communication/",
-  "read_at": "2026-11-09T05:07Z",
+  "read_at": "2026-11-10T05:07Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -40,6 +40,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 184
+    "item": 182
   }
 }

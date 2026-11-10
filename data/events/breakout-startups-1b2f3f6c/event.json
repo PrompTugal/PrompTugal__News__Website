@@ -33,11 +33,11 @@
       "org": "organisation:kamino"
     },
     {
-      "person": "person:jimmy-douglas",
-      "as_listed": "Jimmy Douglas (Founder & CEO, Plug)",
-      "role": "Founder & CEO",
-      "organisation": "Plug",
-      "org": "organisation:plug"
+      "person": "person:larissa-schneider",
+      "as_listed": "Larissa Schneider (Co-Founder & COO, Unframe)",
+      "role": "Co-Founder & COO",
+      "organisation": "Unframe",
+      "org": "organisation:unframe"
     },
     {
       "person": "person:milan-vizner",
@@ -50,7 +50,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
-  "read_at": "2026-11-09T05:07Z",
+  "read_at": "2026-11-10T05:07Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -60,6 +60,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 173
+    "item": 171
   }
 }

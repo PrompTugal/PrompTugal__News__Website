@@ -21,7 +21,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/essentials/registration/",
-  "read_at": "2026-11-09T05:06Z",
+  "read_at": "2026-11-10T05:06Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -31,6 +31,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 172
+    "item": 170
   }
 }

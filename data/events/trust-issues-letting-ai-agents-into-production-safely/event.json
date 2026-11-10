@@ -27,7 +27,7 @@
   ],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/31ab2f9b-f8b1-4b73-b1e8-f686507c3aab/trust-issues-letting-ai-agents-into-production-safely-hosted-by-delinea/",
-  "read_at": "2026-11-09T05:07Z",
+  "read_at": "2026-11-10T05:06Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -38,6 +38,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 71
+    "item": 69
   }
 }

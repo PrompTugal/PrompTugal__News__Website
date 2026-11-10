@@ -13,16 +13,7 @@
       "org": "organisation:web-summit",
       "event": "event:press-conference-web-summit-spotlight-heads-to-paraiba-as",
       "source": "https://websummit.com/sessions/lis26/43576352-a9ec-4bae-9f7a-ea7c66336cea/press-conference-web-summit-spotlight-heads-to-paraiba-as-part-of-four-year-partnership/",
-      "read_at": "2026-11-09T05:07Z",
-      "by": "programme@web-summit.vicky"
-    },
-    {
-      "role": "CEO & Founder",
-      "organisation": "Web Summit",
-      "org": "organisation:web-summit",
-      "event": "event:welcome-to-web-summit-2026",
-      "source": "https://websummit.com/sessions/lis26/b1f951ff-040c-44a1-8ede-ee6f8a8e307f/welcome-to-web-summit-2026/",
-      "read_at": "2026-11-09T05:07Z",
+      "read_at": "2026-11-10T05:07Z",
       "by": "programme@web-summit.vicky"
     },
     {
@@ -31,6 +22,15 @@
       "org": "organisation:web-summit",
       "event": "event:press-conference-with-web-summit-ceo-and-founder-paddy",
       "source": "https://websummit.com/sessions/lis26/dd5600f2-2e3a-4023-a127-d2e8f8521ca0/press-conference-with-web-summit-ceo-and-founder-paddy-cosgrave/",
+      "read_at": "2026-11-10T05:07Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "CEO & Founder",
+      "organisation": "Web Summit",
+      "org": "organisation:web-summit",
+      "event": "event:welcome-to-web-summit-2026",
+      "source": "https://websummit.com/sessions/lis26/b1f951ff-040c-44a1-8ede-ee6f8a8e307f/welcome-to-web-summit-2026/",
       "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky"
     }
