@@ -513,6 +513,16 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-10T13:22Z",
       "note": "The 12:40 guidance (pt.news is about agents, the visual newsroom) picked up: librarian@ (each piece's flow), correspondent@ (summit now, agents), dev.graphs@ leads the visual newsroom, Indi's newsroom helper started. Vicky's web access back; programme@ still refused by websummit.com. PT gate green (v0.1.1005). Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T13:29Z",
+      "SGit-AI__Website__Web-Summit": "d8ff8cde",
+      "PrompTugal__News__Website": "354b8af8",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "421d0090",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (dd413b09 to 421d0090): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
     }
   ]
 }
