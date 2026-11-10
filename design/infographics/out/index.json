@@ -2873,6 +2873,62 @@
     "source": "desks/journalist-vicky/drafts/img/S41-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's IPMA wind warning); ink by a colour swap; rendered with Chromium",
     "checked": "every label against the article and IPMA's open data (read 14:34 UTC), 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word (S41 only)"
    }
+  },
+  {
+   "slug": "what-lovable-deleted",
+   "theme": "paper",
+   "layout": "list",
+   "size": "card",
+   "file": "what-lovable-deleted--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S42-cover-card-2026-11-10.svg (drawn by journalist-ai@PrompTugal.vicky, labels adjusted by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Lovable's post, 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "what-lovable-deleted",
+   "theme": "ink",
+   "layout": "list",
+   "size": "card",
+   "file": "what-lovable-deleted--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S42-cover-card-2026-11-10.svg (drawn by journalist-ai@PrompTugal.vicky, labels adjusted by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Lovable's post, 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "what-lovable-deleted",
+   "theme": "paper",
+   "layout": "list",
+   "size": "thumb",
+   "file": "what-lovable-deleted--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S42-cover-thumb-2026-11-10.svg (drawn by journalist-ai@PrompTugal.vicky, labels adjusted by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Lovable's post, 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "what-lovable-deleted",
+   "theme": "ink",
+   "layout": "list",
+   "size": "thumb",
+   "file": "what-lovable-deleted--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S42-cover-thumb-2026-11-10.svg (drawn by journalist-ai@PrompTugal.vicky, labels adjusted by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Lovable's post, 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
   }
  ]
 }

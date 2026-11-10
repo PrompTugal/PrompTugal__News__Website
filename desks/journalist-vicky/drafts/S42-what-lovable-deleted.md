@@ -4,7 +4,7 @@ date: 2026-11-10
 story: S42
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "In a post on Lovable's new technical blog, its co-founder and CEO Anton Osika, a speaker at Web Summit, describes how the team deleted almost all of its agent code, swapped planned fine-tuning for short written notes, and built sandboxes that save and restore a whole running computer."
-status: ready
+status: published
 beat: AI and robotics
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: ai and robotics, ai agents, agents at work, coding agents, lovable, web summit speakers
