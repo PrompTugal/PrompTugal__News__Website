@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-10T21:53Z",
+  "updated": "2026-11-10T22:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -53,6 +53,16 @@
       ],
       "items": 10,
       "note": "Two sub-agents; new since about 20:45 UTC"
+    },
+    {
+      "n": 5,
+      "at": "2026-11-10T22:51Z",
+      "families": [
+        "all, one night sub-agent"
+      ],
+      "items": 2,
+      "duplicates_dropped": 3,
+      "note": "Three Mastodon posts were already held as private (count, theme, platform)"
     }
   ],
   "items": [
@@ -2648,6 +2658,54 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T21:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://websummit.com/summaries/lis26/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "page",
+      "title": "Web Summit Lisbon 2026 summaries index (6 summaries dated 10 Nov)",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "AI",
+        "summaries"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "AI: doom or boom?",
+        "When AI leaves the screen",
+        "Surviving the AI shift: Media's new reality"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "New summary pages since sweep 4 (listing only; bodies empty when fetched). None explicitly about AI agents.",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T22:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 5)"
+    },
+    {
+      "url": "https://websummit.com/summaries/lis26/when-ai-leaves-the-screen/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "page",
+      "title": "When AI leaves the screen",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "AI",
+        "physical AI"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Body not retrievable; title only.",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T22:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 5)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."
