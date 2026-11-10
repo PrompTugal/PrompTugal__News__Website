@@ -11,26 +11,26 @@
       {
         "text": "IPMA raised its rain warning for the Lisbon district to red for Wednesday, 12:00 to 18:00; the red wind warning, 12:00 to 21:00, is unchanged.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-10T18:53Z"
+        "checked": "2026-11-10T19:32Z"
       },
       {
         "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended, whatever their nature.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-10T18:53Z"
+        "checked": "2026-11-10T19:32Z"
       },
       {
         "text": "The Minister of Internal Administration asked people to stay at home where possible and avoid unnecessary travel.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-",
-        "checked": "2026-11-10T18:53Z"
+        "checked": "2026-11-10T19:32Z"
       }
     ],
     "programme": {
       "label": "Web Summit, Wednesday",
-      "text": "As of 18:53 UTC on Tuesday, no change to Wednesday's programme had been announced on Web Summit's homepage or news page. Whether the suspension of outdoor events applies to any part of the summit has not been announced.",
+      "text": "As of 19:32 UTC on Tuesday, no change to Wednesday's programme had been announced on Web Summit's homepage or news page. Whether the suspension of outdoor events applies to any part of the summit has not been announced.",
       "source": "https://websummit.com/blog/news/",
-      "checked": "2026-11-10T18:53Z"
+      "checked": "2026-11-10T19:32Z"
     },
-    "last_checked": "2026-11-10T18:53Z",
+    "last_checked": "2026-11-10T19:32Z",
     "live": null
   },
   "top": [
