@@ -4,7 +4,7 @@ date: 2026-11-10
 story: S37
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "Teamworks is building an AI agent that answers coaches' football questions from PFF's data. Its first approach was not reliable enough, so the team added checks, and paid for them in speed. A build story from Mastra's case study, still in testing."
-status: fix
+status: published
 beat: AI and robotics
 license: https://creativecommons.org/licenses/by/4.0/
 tags: AI agents, agents in real work, sport

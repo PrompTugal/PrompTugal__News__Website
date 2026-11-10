@@ -4,7 +4,7 @@ date: 2026-11-10
 story: S39
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: WPP built an internal platform that turns technical calls into project plans, with a person reviewing every plan before it goes into Jira, according to a case study by Mastra, a startup on Web Summit's featured list. Mastra says each client's data is kept apart by the system's design, not by instructions to the AI.
-status: draft
+status: published
 beat: "Connections: the summit"
 license: https://creativecommons.org/licenses/by/4.0/
 tags: connections, the summit, ai agents, agents at work, mastra, wpp, jira, software delivery
