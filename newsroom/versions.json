@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1011",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 13:48 wake: the visual newsroom round 1 on dev.graphs@'s branch; waits on dev@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d55690e7f"
+  },
+  {
     "version": "v0.1.1010",
     "date": "2026-11-10",
     "what": "conductor@PrompTugal.dinis: wake 13:36: inboxes for Vicky's four new keys; offline files restored; dev@ still blocked",
