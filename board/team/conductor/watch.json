@@ -140,6 +140,16 @@
    "PrompTugal__App__iOS": "6312b5e8",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "News: quiet hour; dev@ and dev.pages@ still off (6 h)."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T12:37Z",
+   "SGit-AI__Website__Web-Summit": "c047204d",
+   "PrompTugal__News__Website": "6343ad1c",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "dd413b09",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: v0.1.1000; Vicky's ten agents moved to her account (new keys, inboxes issued); GAMMA-Ray block designed; dev@ still off."
   }
  ]
 }
