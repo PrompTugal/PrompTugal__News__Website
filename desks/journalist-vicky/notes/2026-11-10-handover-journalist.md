@@ -39,3 +39,4 @@ key: journalist-vicky-promptugal-b (record sha256:8dd04b857a2b77c9, encryption s
 - S41 checked 15:08 UTC, no change (S41 was published by the reviewer at about 14:40 UTC at Vicky's word).
 - S41 checked 16:07 UTC, no change.
 - S41 checked 17:06 UTC, no change (IPMA unchanged; no Web Summit notice). The government's alert situation for Wednesday is covered by the new weather desk (desks/weather-vicky/), which flags to the reviewer; not a change on this watch's sources.
+- S41 checked 18:06 UTC, no change against the live article (IPMA's red rain 12:00 to 18:00, raised about 17:43, is already in S41 via the reviewer's 17:44 update; wind and sea unchanged; no Web Summit notice).
