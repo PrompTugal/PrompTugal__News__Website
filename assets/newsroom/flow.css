@@ -1,0 +1,31 @@
+/* The workflow of a piece (the visual newsroom). By dev.graphs@PrompTugal.dinis. */
+.pf-wrap { margin: 32px 0; }
+.pf { display: grid; gap: 10px; }
+.pf-sum { margin: 0; font-size: .9rem; color: var(--ink-3, #555); }
+.pf-bar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.pf-btn, .pf-sel { font: inherit; padding: 6px 12px; border: 1px solid var(--hair, #ccc); border-radius: 8px; background: var(--panel, #fff); color: var(--ink, #111); cursor: pointer; min-height: 36px; }
+.pf-btn:hover, .pf-btn:focus-visible, .pf-sel:focus-visible { border-color: var(--brand, #1a7f37); }
+.pf-legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: .8rem; color: var(--ink-3, #555); }
+.pf-key { display: inline-flex; gap: 5px; align-items: center; }
+.pf-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.pf-scroll { overflow-x: auto; border: 1px solid var(--hair, #ddd); border-radius: 12px; background: var(--panel, #fff); padding: 6px 0; }
+.pf-scroll svg { display: block; }
+.pf-lane { stroke: var(--hair, #ddd); stroke-width: 1; stroke-dasharray: 2 4; }
+.pf-lab { font: 600 11px system-ui, sans-serif; fill: var(--ink, #111); }
+.pf-same { fill: none; stroke: var(--ink-3, #888); stroke-width: 1; opacity: .45; }
+.pf-hand { fill: none; stroke: var(--brand, #1a7f37); stroke-width: 2.6; opacity: .85; }
+.pf-step { cursor: pointer; outline: none; }
+.pf-node { stroke: var(--panel, #fff); stroke-width: 2; }
+.pf-step:hover .pf-node, .pf-step:focus-visible .pf-node, .pf-step.on .pf-node { stroke: var(--ink, #111); stroke-width: 3; }
+.st-draft { fill: #5b8def; background: #5b8def; } .st-review { fill: #e0903a; background: #e0903a; } .st-verify { fill: #8a5bd1; background: #8a5bd1; }
+.st-design { fill: #d1577c; background: #d1577c; } .st-data { fill: #6b7b8c; background: #6b7b8c; } .st-publish { fill: #1a7f37; background: #1a7f37; }
+.st-sign { fill: #0e5a3b; background: #0e5a3b; } .st-voice { fill: #c0392b; background: #c0392b; } .st-brief { fill: #2e86ab; background: #2e86ab; } .st-build { fill: #7a6f5d; background: #7a6f5d; } .st-notes { fill: #a8a29a; background: #a8a29a; } .st-other { fill: #999; background: #999; }
+.pf-info { border: 1px solid var(--hair, #ddd); border-radius: 12px; padding: 10px 14px; background: var(--panel, #fff); }
+.pf-info p { margin: 2px 0; } .pf-h { font-weight: 600; } .pf-s { overflow-wrap: anywhere; } .pf-m { font-size: .82rem; color: var(--ink-3, #555); }
+.pf-pick { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.pf-sel { max-width: 100%; }
+.pf-feed { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
+.pf-row { width: 100%; text-align: left; font: inherit; font-size: .85rem; padding: 6px 8px; border: 1px solid transparent; border-radius: 8px; background: transparent; color: var(--ink, #111); cursor: pointer; overflow-wrap: anywhere; }
+.pf-row:hover, .pf-row:focus-visible { border-color: var(--brand, #1a7f37); background: var(--wash, rgba(127,127,127,.08)); }
+.pf-node, .pf-hand, .pf-same { transition: opacity .25s; }
+.pf-fly { stroke: var(--panel, #fff); stroke-width: 1.5; pointer-events: none; filter: drop-shadow(0 0 3px rgba(0,0,0,.35)); }

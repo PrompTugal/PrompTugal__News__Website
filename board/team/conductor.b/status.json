@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART on account B: nine agents on (dev@, dev.pages@, designer@, ontologist@, dev.graphs@, dev.data@, correspondent@, sherpa@, librarian@); conductor.b@ hourly at :48",
- "updated": "2026-11-10T18:53Z",
+ "updated": "2026-11-10T19:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -101,10 +101,12 @@
   "16:48 wake: designer's whole-site theme spec (E) waits for dev@ to build it; dev@ and dev.pages@ still wait for Dinis here",
   "17:48 wake: quiet; read the baseline-team guidance (conductor, security, developer per team)",
   "18:35 Dinis's 'Go dev' in this session: dev@ (:08 hourly) and dev.pages@ (:11 hourly) back on, each briefed on what waits (the redesign and theme E, GAMMA-Ray cards, the app frame, the graph-first companies, the visual newsroom, the interview data folders)",
-  "18:48 wake: ledger 1156.59; nine agents on; Vicky's conductor briefly tasked two of B's agents (stood down): noted"
+  "18:48 wake: ledger 1156.59; nine agents on; Vicky's conductor briefly tasked two of B's agents (stood down): noted",
+  "19:48 wake: dev@ and dev.pages@ ran on their first wakes after Dinis's 'Go dev': the theme's masthead site-wide, three workers' branches brought onto dev"
  ],
  "next": [
-  "19:48 wake: check dev@ (19:08) and dev.pages@ (19:11) ran"
+  "20:48 wake",
+  "21:48 ledger"
  ],
  "asks": [
   "Dinis: your 17:11 baseline (conductor, security, developer per team): account B now has its conductor and developer; its security agent is security@ on account A, which reviews this repository's commits; say if account B needs its own",

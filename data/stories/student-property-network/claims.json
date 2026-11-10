@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "student-property-network",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "The company's About page gives the number of universities on its network as 20+.",
+      "kind": "fact",
+      "source": "spn-about",
+      "quote": "UNIVERSITIES ON THE NETWORK 20+",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:student-property-network"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "The company's About page says SPN puts every graduate scheme, internship, placement, apprenticeship and event in one place, for students at any university or college.",
+      "kind": "fact",
+      "source": "spn-about",
+      "quote": "SPN puts every graduate scheme, internship, placement, apprenticeship and event in one place, for students at any university or college",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:student-property-network"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "The About page names Leo Tashev and Fraser Lloyd as the company's co-founders.",
+      "kind": "fact",
+      "source": "spn-about",
+      "quote": "Leo Tashev Co-founder Fraser Lloyd Co-founder",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:student-property-network"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "The site's footer gives the company as Student Property Network Ltd, registered in England & Wales.",
+      "kind": "fact",
+      "source": "spn-about",
+      "quote": "Student Property Network Ltd · Registered in England & Wales",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:student-property-network"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "In the interview the founders say that on average one applicant in 140 is accepted for a graduate role in the UK (their figure; PrompTugal has not checked it).",
+      "kind": "fact",
+      "source": "pt-interview-spn-leo-tashev-fraser-lloyd-2026-11-09",
+      "quote": "one applicant in 140 is accepted for a graduate role",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:student-property-network"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "In the interview the founders say they work with 27 universities and their real estate societies (their figure; the company's site says 20+).",
+      "kind": "fact",
+      "source": "pt-interview-spn-leo-tashev-fraser-lloyd-2026-11-09",
+      "quote": "they work with 27 universities and their real estate societies",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:student-property-network"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "One founder explains in the interview that they collect jobs with their own scrapers written in Python into a database, and a large language model decides whether each job is accepted onto the list.",
+      "kind": "fact",
+      "source": "pt-interview-spn-leo-tashev-fraser-lloyd-2026-11-09",
+      "quote": "they collect every job they can find with their own scrapers, written in Python, into a database, and a large language model decides whether each job is accepted onto the list",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:student-property-network"
+      ]
+    }
+  ]
+}

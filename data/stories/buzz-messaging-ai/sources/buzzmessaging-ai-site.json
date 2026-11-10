@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "buzzmessaging-ai-site",
+  "story": "buzz-messaging-ai",
+  "url": "https://www.buzzmessaging.ai",
+  "title": "Buzz Messaging: The AI European messenger (the company's own site)",
+  "publisher": "BuzzMSG A.I LTD",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "The company's own page says what Buzz Messaging is, who makes it, where it is registered and hosted, how it uses AI and that it is end-to-end encrypted."
+}

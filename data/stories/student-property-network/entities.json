@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "student-property-network",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "entities": [
+    {
+      "ref": "local:student-property-network",
+      "label": "Student Property Network",
+      "kind": "company",
+      "sources": [
+        "spn-about",
+        "pt-interview-spn-leo-tashev-fraser-lloyd-2026-11-09"
+      ],
+      "note": "A UK app and network for real estate students: internships, graduate jobs, events"
+    }
+  ]
+}

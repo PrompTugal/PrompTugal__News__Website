@@ -1,0 +1,173 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S13",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "A report by the consultancy EY, released on 5 November 2026, says Web Summit generated about 250 million euros a year for Portugal's economy, almost 2.5 billion over ten years.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "A Web Summit gerou cerca de 250 milhões de euros por ano para a economia portuguesa, num total de quase 2,5 mil milhões de euros em dez anos, segundo um relatório da consultora EY",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "The report puts the total impact at 2,492 million euros, from visitors' spending, foreign investment and the growth of Portuguese startups.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "o impacto total ascende a 2.492 milhões de euros e resulta dos gastos dos visitantes, do investimento estrangeiro",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "Net of the cost of hosting the event, the report says Portugal gains more than 230 million euros a year.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "Descontado o custo de alojar o evento, o país beneficia em mais de 230 milhões de euros por ano",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "Over ten editions the summit drew more than 683,000 participants, who spent 730 million euros on lodging, food, transport and shops, with a peak of 118 million in 2025.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "mais de 683.000 participantes, que gastaram 730 milhões de euros em alojamento, restauração, transportes e comércio, com um máximo de 118 milhões em 2025",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "The associated economic activity sustains more than 3,000 full-time jobs.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "sustenta mais de 3.000 empregos a tempo inteiro",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "Taxes paid in Portugal because of Web Summit went from 25 million euros in 2016 to 50.7 million in 2025.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "passaram de 25 milhões de euros em 2016 para 50,7 milhões em 2025",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "The number of startups in Portugal grew 132 per cent, from 2,193 in 2016 to 5,091 in 2025 (the whole country's growth, not only Web Summit's).",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "cresceu 132%, de 2.193 em 2016 para 5.091 em 2025",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "The 191 companies in the 2024 startup programme raised 607.5 million euros together.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "angariaram, em conjunto, 607,5 milhões de euros",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "Between 2016 and 2026 the event generated about 114,000 international media mentions, equivalent to 3 billion dollars in advertising value, by the report's count.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "cerca de 114.000 menções nos meios de comunicação internacionais, equivalentes a 3 mil milhões de dólares em valor publicitário",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "On whether the event stays in Portugal, Web Summit's chief executive only said that negotiations continue and that several European cities are interested.",
+      "kind": "fact",
+      "source": "executivedigest-2026-11-05-ey-report",
+      "quote": "as negociações continuam e que existem várias cidades europeias interessadas e com potencial",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "A 2021 evaluation by the Ministry of Economy's Office for Economic Studies found the impact of the 2016 to 2019 editions well below what had first been estimated.",
+      "kind": "fact",
+      "source": "eco-2021-11-03-gee-evaluation",
+      "quote": "o impacto económico da Web Summit em Portugal entre 2016 e 2019 terá ficado bem abaixo do estimado inicialmente",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "In that evaluation gross value added grew 196 million euros less than estimated.",
+      "kind": "fact",
+      "source": "eco-2021-11-03-gee-evaluation",
+      "quote": "o Valor Acrescentado Bruto (VAB) terá crescido menos 196 milhões de euros do que o estimado",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "The same evaluation still estimated gains for the four editions of 252 million euros in gross value added, 115 million in tax revenue, 6,895 jobs and 310 million in spending.",
+      "kind": "fact",
+      "source": "eco-2021-11-03-gee-evaluation",
+      "quote": "ganhos de 252 milhões de euros no VAB, de 115 milhões de euros na receita fiscal, de 6.895 postos de trabalho e de 310 milhões em despesas",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "In 2018 the 11 million euro annual payment to keep Web Summit in Lisbon was to be split between Lisbon's tourism development fund and the Ministry of Economy.",
+      "kind": "fact",
+      "source": "eco-2018-10-03-until-2028",
+      "quote": "O investimento de 11 milhões será repartido pelo Fundo de Desenvolvimento Turístico lisboeta e pelo Ministério da Economia",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "In October 2018 ECO reported that Lisbon would stay tied to Web Summit until 2028.",
+      "kind": "fact",
+      "source": "eco-2018-10-03-until-2028",
+      "quote": "Lisboa vai ficar ligada ao Web Summit até 2028",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    }
+  ]
+}

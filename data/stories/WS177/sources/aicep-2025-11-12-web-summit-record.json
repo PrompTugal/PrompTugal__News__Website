@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "aicep-2025-11-12-web-summit-record",
+  "story": "WS177",
+  "url": "https://portugalglobal.pt/noticias/2025/novembro/web-summit-evento-tecnologico-com-recorde-de-71386-participantes/",
+  "title": "Web Summit: Evento tecnologico com recorde de 71386 participantes (AICEP Portugal Global, 12 November 2025)",
+  "publisher": "AICEP Portugal Global",
+  "published": "2025-11-12",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "AICEP reports (in Portuguese, from the organisers' site, via Lusa) a record 71,386 participants from 157 countries, 1,857 investors and 2,725 startups at Web Summit 2025."
+}

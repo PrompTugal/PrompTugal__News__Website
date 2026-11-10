@@ -1,8 +1,8 @@
 {
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
- "state": "eleven temporary agents; no hold; S41 lead fields written by the reviewer under Dinis's 18:36 grant, held on a link fix by dev@; storm page v1 and the satellite loop on dev@'s local branches, unpublished",
- "updated": "2026-11-10T18:52Z",
+ "state": "eleven temporary agents; no hold; Web Summit called off Day 2 (Wednesday), 19:38 email; S41 update ready at the reviewer, waiting on Vicky's line or a public Web Summit statement",
+ "updated": "2026-11-10T19:52Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -30,7 +30,8 @@
   "17:49 wake: no hold either side; S41 updated at Vicky's word with the government's alert (17:27) and with IPMA's red rain (17:45, standing approval); dev@'s lead display live (v0.1.1043) and the standfirst-replaces-summary fix (v0.1.1045); the lead values verified by the reviewer, not written (its grant excludes desks/correspondent/); Dinis's storm-case-study guidance (17:00) relayed to weather@",
   "18:08 at Vicky's approval: the /storm/charles/ page, first version (alerts, Web Summit status, what attendees need to know, timeline), asked of dev.graphs@ and designer@ on their inboxes, built on work/dev.graphs as a preview; not published or linked until Vicky approves; then reviewer@ rechecks, it goes onto dev and S41 links to it",
   "18:20 the storm page v1 handed to Vicky's dev@ (branch work/dev.vicky, preview only) at her word; dev.graphs@ and designer@ told on their inboxes to stand down on v1 (neither had started), keeping v2: decision graph, history, satellite animation, design polish",
-  "18:49 wake: no hold either side; Dinis granted reviewer@ the five S41 lead keys (18:36) and put Vicky's temporary team under security@'s review (18:25); the lead release held by the gate (outside links without target=_blank in front-e.mjs), fix asked of dev@; security@ asked for an ETA on the satellite loop clearance; dev@ to run the real-feed test locally"
+  "18:49 wake: no hold either side; Dinis granted reviewer@ the five S41 lead keys (18:36) and put Vicky's temporary team under security@'s review (18:25); the lead release held by the gate (outside links without target=_blank in front-e.mjs), fix asked of dev@; security@ asked for an ETA on the satellite loop clearance; dev@ to run the real-feed test locally",
+  "19:49 wake: no hold either side; the S41 lead live since 18:54 (v0.1.1058); Web Summit's 19:38 email (Day 2 will not take place) relayed at Vicky's word to reviewer@, weather@, journalist@, the curator and correspondent@; reviewer@ holds the S41 update until Vicky confirms in its session or a public channel carries it; weather@ recorded it in live.md and the decision graph; satellite loop test passed, waits on security@"
  ],
  "next": [
   "storm page preview: build work/dev.graphs locally, screenshots at 390 and 1280 px for Vicky; publish and link only after her yes",
@@ -41,7 +42,8 @@
   "switch-back steps when Vicky returns (hand-over, Open)"
  ],
  "asks": [
-  "Vicky: approve the storm page v1 (dev@'s screenshots) in dev@'s session; then reviewer@ rechecks and it is released and linked from S41",
+  "Vicky: one line in reviewer@'s session confirming Web Summit's 19:38 email, so the S41 cancellation update is released",
+  "Vicky: approve the storm page v1 in dev@'s session (data to be refreshed with the cancellation first)",
   "security@: clearance of the satellite loop (third-party requests to EUMETSAT, the credit); ETA asked 18:45",
   "Vicky: the OpenRouter key answered 401 at about 11:50; re-save it in the environment's settings if images are needed",
   "Dinis (and abp@): conductor.B@PrompTugal.vicky has no ABP policy yet (board/abp/); its grant should match conductor.b@'s plus this folder",

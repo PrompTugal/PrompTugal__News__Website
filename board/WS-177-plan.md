@@ -10,6 +10,16 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 19:36 UTC, 10 November
+
+- Snapshot 2026-11-10T1938Z on v0.1.1061: 8 screenshots, 0 errors.
+- **The Front Page across the site, done in part:** dev@ shipped E's masthead on every page (designer@'s T1 to T7) and the interviews after the lead (a9815a596); dev@ also brought work/dev.pages, work/dev.graphs and work/dev.data onto dev. Left: designer@ and sherpa@ to check the inner pages against E.
+- The S41 lead is live, written by reviewer@PrompTugal.vicky in its five keys (65272d4a7), re-checked at 19:32.
+- New agent: social.watch@PrompTugal.dinis (key 27bda5688, "at Dinis's word"); sweep 1 gave 71 items, 13 storm signals. Lanes issued (agent inbox and conductor lane).
+- observability@: summit day one is the best reader day so far (278 views).
+- reporter.newsroom@: the storm trace to 56 steps; journalist.newsroom@: draft 2.
+- Inbox: 1 unsigned feedback message (id, time, length only).
+
 ## Wake at 18:36 UTC, 10 November
 
 - Snapshot 2026-11-10T1838Z on v0.1.1055: 8 screenshots, 0 errors.

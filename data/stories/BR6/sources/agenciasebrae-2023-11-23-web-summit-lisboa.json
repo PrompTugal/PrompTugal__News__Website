@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "agenciasebrae-2023-11-23-web-summit-lisboa",
+  "story": "BR6",
+  "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/oportunidades-encontradas-no-web-summit-lisboa-2023/",
+  "title": "Oportunidades encontradas no Web Summit Lisboa 2023 (Agencia Sebrae de Noticias, 23 November 2023)",
+  "publisher": "Agencia Sebrae de Noticias",
+  "published": "2023-11-23",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Agencia Sebrae de Noticias reports what the Sebrae mission found at Web Summit Lisboa 2023, including the aim of the Startup Portugal agreement."
+}

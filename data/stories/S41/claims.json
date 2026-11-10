@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S41",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "IPMA lists a red wind warning for the Lisbon district (LSB) on 11 November 2026 from 12:00 to 21:00, with gusts up to 120 km/h, up to 140 km/h in the most exposed places (read at 16:32 UTC on 10 November, unchanged from the article's readings at 14:23 and 14:34).",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Rajadas at\\u00e9 120 km/h, podendo atingir 140 km/h nos locais mais expostos.\", \"awarenessTypeName\": \"Vento\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T21:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "IPMA lists an orange rain warning for the Lisbon district on 11 November from 05:00 to 18:00, described as at times heavy and persistent. (Superseded: at 18:32 UTC the same file lists this warning as orange only until 12:00, then red: see c10 and c11.)",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o por vezes forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T05:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T18:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "IPMA lists an orange sea warning for the Lisbon district on 11 November from 12:00 to 21:00: south-westerly waves of 5 to 7 metres, up to 13 metres at most.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Ondas de sudoeste com 5 a 7 metros e que poder\\u00e3o atingir at\\u00e9 13 metros de altura m\\u00e1xima.\", \"awarenessTypeName\": \"Agita\\u00e7\\u00e3o Mar\\u00edtima\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T21:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "On 10 November IPMA lists a yellow rain warning (at times heavy, with thunder) for the Lisbon district from 12:10 to 18:00.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o por vezes forte e acompanhada de trovoada.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-10T12:10:00\", \"awarenessLevelID\": \"yellow\", \"endTime\": \"2026-11-10T18:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "IPMA's daily forecast for Lisbon was updated on 10 November 2026 at 15:31.",
+      "kind": "fact",
+      "source": "ipma-lisbon-daily-forecast",
+      "quote": "\"dataUpdate\": \"2026-11-10T15:31:02\"",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "IPMA's forecast for Lisbon on 2026-11-10: 100.0% chance of rain, minimum 16.5 C, maximum 19.6 C.",
+      "kind": "fact",
+      "source": "ipma-lisbon-daily-forecast",
+      "quote": "{\"precipitaProb\": \"100.0\", \"tMin\": \"16.5\", \"tMax\": \"19.6\", \"predWindDir\": \"SW\", \"idWeatherType\": 23, \"classWindSpeed\": 2, \"longitude\": \"-9.1286\", \"forecastDate\": \"2026-11-10\", \"classPrecInt\": 3, \"latitude\": \"38.7660\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "IPMA's forecast for Lisbon on 2026-11-11: 100.0% chance of rain, minimum 14.8 C, maximum 20.3 C.",
+      "kind": "fact",
+      "source": "ipma-lisbon-daily-forecast",
+      "quote": "{\"precipitaProb\": \"100.0\", \"tMin\": \"14.8\", \"tMax\": \"20.3\", \"predWindDir\": \"W\", \"idWeatherType\": 9, \"classWindSpeed\": 2, \"longitude\": \"-9.1286\", \"forecastDate\": \"2026-11-11\", \"classPrecInt\": 2, \"latitude\": \"38.7660\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "IPMA's forecast for Lisbon on 2026-11-12: 100.0% chance of rain, minimum 15.7 C, maximum 21.1 C.",
+      "kind": "fact",
+      "source": "ipma-lisbon-daily-forecast",
+      "quote": "{\"precipitaProb\": \"100.0\", \"tMin\": \"15.7\", \"tMax\": \"21.1\", \"predWindDir\": \"W\", \"idWeatherType\": 7, \"classWindSpeed\": 2, \"longitude\": \"-9.1286\", \"forecastDate\": \"2026-11-12\", \"classPrecInt\": 1, \"latitude\": \"38.7660\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "IPMA's forecast for Lisbon on 2026-11-13: 100.0% chance of rain, minimum 14.7 C, maximum 19.8 C.",
+      "kind": "fact",
+      "source": "ipma-lisbon-daily-forecast",
+      "quote": "{\"precipitaProb\": \"100.0\", \"tMin\": \"14.7\", \"tMax\": \"19.8\", \"predWindDir\": \"W\", \"idWeatherType\": 7, \"classWindSpeed\": 2, \"longitude\": \"-9.1286\", \"forecastDate\": \"2026-11-13\", \"classPrecInt\": 1, \"latitude\": \"38.7660\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "At 18:32 UTC on 10 November IPMA lists a RED rain warning for the Lisbon district on 11 November from 12:00 to 18:00 (persistent rain, at times heavy). At 16:32 UTC the file had listed rain as orange from 05:00 to 18:00 only.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T18:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "At 18:32 UTC the orange rain warning for 11 November runs from 05:00 to 12:00 (it ran to 18:00 at 16:32).",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o por vezes forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T05:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T12:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
+    }
+  ]
+}

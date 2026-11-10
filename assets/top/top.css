@@ -77,3 +77,40 @@ html[data-top="c"] .chat, html[data-top="c"] .pane { bottom: calc(66px + env(saf
 
 /* T22 (sherpa@, 18:30): under C, search is the tab (phone) and the field in the top row (desktop); the big bar in the page goes */
 html[data-top="c"] main .search.nr-big { display: none; }
+
+/* E's masthead on every page (Dinis, 10 November 14:35: The Front Page as the whole site's theme; designer@'s
+   board/spec-the-front-page-theme.md T1 to T3). The live bar above it (#nr-live), then the date line with the tools as
+   small pills, the wordmark centred, the sections between a 1 px and a 3 px rule. The older tops are kept in the page
+   for now and hidden; the bottom tab bar stays as it is on a phone. */
+html .ctop, html .ctop-tagline, html .dateline, html header.mast, html nav.site { display: none !important; }
+.emast { background: var(--paper); }
+.em-w { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); box-sizing: border-box; }
+.em-dl { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 14px; padding: 8px 0; font: 12px/1.4 var(--mono); color: var(--ink-3); }
+.em-where { flex: 1; }
+.em-tools { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+.em-tools .ctop-tools { display: flex; align-items: center; gap: 6px; }
+.em-short { display: none; }
+.em-pill, .em-tools .tool, .em-tools .pt-app-btn { font: 600 12.5px var(--sans); height: 30px; display: inline-flex; align-items: center; gap: 4px; padding: 0 11px; border: 1px solid var(--rule-2); border-radius: 999px; background: none; color: var(--ink); text-decoration: none; margin: 0; min-height: 0; box-sizing: border-box; }
+.em-pill[aria-current] { border-color: var(--ink); }
+.em-tools .tool.meter { display: none !important; }   /* T2: the reading credit lives on /account/ */
+.em-mark { display: block; text-align: center; padding: 10px 0 8px; }
+.em-mark .wordmark { width: clamp(240px, 42vw, 420px); height: auto; margin: 0 auto; }
+.em-nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 24px; padding: 11px 0 10px; border-top: 1px solid var(--rule); border-bottom: 3px solid var(--ink); font: 600 13px var(--sans); letter-spacing: .02em; }
+.em-nav a { color: var(--ink); text-decoration: none; padding-bottom: 2px; }
+.em-nav a:hover { color: var(--brand-green); }
+.em-nav a[aria-current] { color: var(--brand-green); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+@media (max-width: 767px) {
+    .em-where, .em-long { display: none; } .em-short { display: inline; } .em-dl { flex-wrap: nowrap; }
+    .em-dl { padding: 6px 0; }
+    .em-mark { padding: 6px 0 4px; } .em-mark .wordmark { width: 240px; }
+    .em-nav { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; gap: 18px; padding: 9px 0 8px; white-space: nowrap; }
+    .em-nav::-webkit-scrollbar { display: none; }
+}
+/* the home page in E: the shell's masthead is E's, so E's own copy gives way; the other home designs keep theirs */
+html[data-design="e"] .fe > .fe-w:first-child { display: none; }
+html[data-design]:not([data-design="e"]):not([data-design="today"]) .page-front .emast { display: none; }
+
+/* T4: section heads inside pages, as E's ("THE BRIEFING"): a 3 px ink rule above, small caps in Plex */
+main .body h2:not([class]) { border-top: 3px solid var(--ink); padding-top: 8px; margin-top: 28px; font: 600 13px/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
+/* T5: kickers in brand red small caps */
+main .kicker, main .eyebrow { font: 700 12px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--brand-red); }

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "pt-interview-spn-leo-tashev-fraser-lloyd-2026-11-09",
+  "story": "student-property-network",
+  "url": "https://promptugal.news/interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html",
+  "title": "Leo Tashev and Fraser Lloyd, Student Property Network: interview at Night Summit (PrompTugal.news, 10 November 2026)",
+  "publisher": "PrompTugal.news",
+  "published": "2026-11-10",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "other",
+  "what_it_says": "PrompTugal's own page for a three-minute interview recorded on 9 November 2026 at Night Summit, Web Summit's opening night; it summarises what the founders said, with their agreement, and notes which figures PrompTugal has not checked."
+}

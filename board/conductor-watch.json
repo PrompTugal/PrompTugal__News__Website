@@ -628,6 +628,27 @@
       "PrompTugal__App__iOS": "74883a0b",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "fad836c4",
+      "PrompTugal__News__Website": "b80fc7f7",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "0af9a660",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T19:17Z",
+      "note": "Incident team running (incident.conductor@ took WS-214: PIPELINE.md, ROADMAP.md; researcher's decision graph v1; meteorologist's weather JSON; dev's first dashboard). No Web Summit decision on Wednesday at 19:01. S41 lead live (Vicky's reviewer, five keys). ATTENTION: account A's seven-day limit reads allowed_warning in every session since 18:47 (accountant@, 5931e85e); resets 15 Nov 20:00 UTC; asked Dinis which loops to slow. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T19:25Z",
+      "SGit-AI__Website__Web-Summit": "24c5bc7c",
+      "PrompTugal__News__Website": "acdba01d",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
     }
   ]
 }

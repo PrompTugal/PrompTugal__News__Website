@@ -46,7 +46,7 @@ export function model(ctx) {
     const weekItems = [...Array(7).keys()].map(n => plusDays(ctx.TODAY, n)).flatMap(d => [...itemsOn(d)].sort((x, y) => rank(x) - rank(y) || (x.start || '').localeCompare(y.start || '')).slice(0, 2))
         .filter(i => { const k = i.what.split(/:\s|\s\(/)[0]; return !seen.has(k) && seen.add(k) })
     const seenNext = new Set()  // one line per thing per day (sherpa@'s E1: the same registration three times)
-    const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && rank(i) <= 3 && !seenNext.has(i.date + i.what.split(/:\s|\s\(/)[0]) && seenNext.add(i.date + i.what.split(/:\s|\s\(/)[0])).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '').localeCompare(y.start || '')).slice(0, 10)
+    const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && rank(i) <= 3 && !seenNext.has(i.date + i.what.split(/:\s|\s\(/)[0]) && seenNext.add(i.date + i.what.split(/:\s|\s\(/)[0])).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '24:00').localeCompare(y.start || '24:00')).slice(0, 10)  // all-day things after the timed ones (sherpa@'s R6: lead with now)
     const fields = ctx.store.topics.filter(t => t.kind === 'field').map(t => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n: ctx.store.companies.filter(c => c.category === t.category).length })).filter(x => x.n).sort((x, y) => y.n - x.n)
     fields.forEach(f => { f.pct = Math.round(100 * f.n / (fields[0]?.n || 1)) })
     const opening = AGENDA.items.find(i => /opening night/i.test(i.what)), openingAt = opening ? `${opening.date}T${opening.start || '18:00'}:00Z` : ''

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "spn-about",
+  "story": "student-property-network",
+  "url": "https://studentpropertynetwork.com/about",
+  "title": "About Student Property Network | SPN (the company's own site)",
+  "publisher": "Student Property Network Ltd",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "The company's About page says what the network does for UK real estate students, names its two co-founders, gives the number of universities on the network as 20+, and the company's registration."
+}
