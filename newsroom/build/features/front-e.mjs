@@ -10,6 +10,7 @@ import { frontOrder, byline, minutes, imageFile, figureOf } from './front.mjs'
 import { load, rank } from './agenda.mjs'
 import { WORDMARK } from '../lib/shell.mjs'
 import { model as homeModel } from '../lib/home.mjs'
+import { stripHtml } from './gamma.mjs'
 export const order = 23
 
 const T = fs.readFileSync(new URL('../../../assets/front-e/front-e.tmpl', import.meta.url), 'utf8')
@@ -95,6 +96,7 @@ function fillE(page, ctx) {
         today: ctx.TODAY, date: `${ctx.DAY(ctx.TODAY)} ${y}`, opening_at: openingAt, opening_in: days > 0 ? `${days}d` : '', name: esc(ctx.SITE.name), wordmark: WORDMARK(''),
         '#nav': many('nav', ctx.NAV.nav.map(n => ({ href: n.href, label: esc(n.label), cur: n.id === 'now' ? ' aria-current="page"' : '' }))),
         lead: lead(ctx, all[0]),
+        spectrum: stripHtml(ctx, ''),   // GAMMA-Ray's cards under the lead (THE RESTART: the agentic edition), left out with no data
         '#week': many('week', wk), '#week_again': many('week', wk.map(w => ({ ...w, tab: ' tabindex="-1"' }))),
         '#briefing': many('brief', homeModel(ctx).briefing.map(x => ({ href: x.href, title: x.title, beat: x.beat }))),  // the correspondent's five (front-page.json 'briefing'), else the next five
         '#stories': all.slice(1, 5).map(story).join(''),
