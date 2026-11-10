@@ -481,6 +481,17 @@
       "PrompTugal__App__iOS": "6312b5e8",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "dbf505e4",
+      "PrompTugal__News__Website": "6cc1af1a",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "a483a020",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "597dba6b",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T12:18Z",
+      "note": "Vicky's ten agents restarted on her account (new keys, 27 articles re-signed; security@ checked). journalist-europe@ and journalist-connections@.vicky blocked: no outside web access in that account's environment (Vicky or Dinis to allow the hosts). New: /the-individual/ (WS-210, badge photo to a unit of agents). iOS briefed: major features to TestFlight external testers; one story with Indi's team. Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
     }
   ]
 }
