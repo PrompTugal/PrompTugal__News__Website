@@ -1,6 +1,6 @@
 {
   "about": "The decision graph for Storm CHARLES and Web Summit Lisbon, Wednesday 11 November 2026. Nodes are decision-makers and their decisions; edges are 'this usually follows that'. status: happened | expected | not_announced | unknown. 'expected' and every lead time are ANALYSIS (with reasons), never fact. Kept by weather@PrompTugal.vicky; checked against what happens. Times UTC (= Lisbon time).",
-  "updated": "2026-11-10T19:37Z",
+  "updated": "2026-11-10T19:47Z",
   "legend": {
     "happened": "announced by the decision-maker, read at source",
     "expected": "ANALYSIS: likely next, with the reason",
@@ -91,6 +91,25 @@
       "read": "2026-11-10T16:58Z"
     },
     {
+      "id": "mayor",
+      "who": "Mayor of Lisbon (Câmara Municipal de Lisboa)",
+      "decision": "Says everything indicates Web Summit cannot run on Wednesday; refers the final decision to the Ministry of Internal Administration; tunnels, parks and cultural venues to close (PRESS)",
+      "status": "happened",
+      "at": "2026-11-10T13:23Z (press)",
+      "source": "https://jornaleconomico.sapo.pt/noticias/web-summit-fechada-na-quarta-feira-anuncia-autarquia-de-lisboa/",
+      "read": "2026-11-10T19:46Z",
+      "note": "press report; the city's own page not readable by our tools"
+    },
+    {
+      "id": "gov-advice",
+      "who": "Government of Portugal, with ANEPC and PSP",
+      "decision": "Formally advises Web Summit that Day 2 should not take place (tidal flooding, transport disruption, high winds on external structures)",
+      "status": "happened",
+      "at": "before 2026-11-10T19:38Z (time not public)",
+      "source": "as quoted in Web Summit's email to attendees; not found on any official page as of 19:45Z",
+      "read": "2026-11-10T19:45Z"
+    },
+    {
       "id": "city",
       "who": "Câmara Municipal de Lisboa (the mayor; municipal civil-protection commission)",
       "decision": "Municipal measures, municipal alert or emergency plan (partly seen: the homeless-people contingency plan, through Metro)",
@@ -128,10 +147,12 @@
     {
       "id": "websummit",
       "who": "Web Summit",
-      "decision": "Wednesday's programme",
-      "status": "not_announced",
-      "source": "https://websummit.com/blog/news/",
-      "read": "2026-11-10T19:36Z"
+      "decision": "Day 2 (Wednesday 11 Nov) will not take place; Day 3 (Thursday) aimed to proceed",
+      "status": "happened",
+      "source": "Web Summit's email to attendees (no public URL as of 19:47Z); relayed by conductor.B@PrompTugal.vicky",
+      "read": "2026-11-10T19:45Z",
+      "at": "2026-11-10T19:38Z",
+      "note": "websummit.com homepage and news: no notice at 19:44Z"
     },
     {
       "id": "escalation",
@@ -195,18 +216,6 @@
       "why": "ANALYSIS: past suspensions came on the day of impact and reactively (ferries Elsa 2019, rail Kristin 2026); a decision is most likely on Wednesday morning or as gusts arrive, ferries first (history.md; TTSL already cut a route on Tuesday)"
     },
     {
-      "from": "outdoor-events",
-      "to": "websummit",
-      "kind": "expected",
-      "why": "ANALYSIS: measure (b) covers outdoor events only; whether any outdoor part of the summit is affected is the organiser's and the authorities' call; Web Summit has said nothing. No prediction of the programme is made here"
-    },
-    {
-      "from": "venue",
-      "to": "websummit",
-      "kind": "usually follows",
-      "why": "ANALYSIS: an organiser follows the venue's and the authorities' orders (Lei 27/2006 arts. 6, 11; law.md)"
-    },
-    {
       "from": "ipma-red-wind",
       "to": "escalation",
       "kind": "possible",
@@ -217,6 +226,31 @@
       "to": "reopening",
       "kind": "expected",
       "why": "ANALYSIS: the warning ends at 21:00 Wed and the alert at 23:59 Wed; decisions to reopen come after the damage is known; history gives few sourced reopening times"
+    },
+    {
+      "from": "gov-alert",
+      "to": "mayor",
+      "lead_now": "about 1 hour 15 minutes (12:10Z page date to 13:23Z press report)",
+      "evidence": "node times"
+    },
+    {
+      "from": "mayor",
+      "to": "gov-advice",
+      "kind": "happened",
+      "why": "the mayor referred the decision to the Ministry of Internal Administration (press, 13:23Z); the government's advice followed (Web Summit's email)"
+    },
+    {
+      "from": "gov-advice",
+      "to": "websummit",
+      "kind": "happened",
+      "lead_now": "Web Summit's decision at 19:38Z: about 7 hours 30 minutes after the government's alert (12:10Z), about 6 hours 15 minutes after the mayor's public signal (13:23Z), about 4 hours 20 minutes before the alert period begins (00:00Z Wed) and about 16 hours 20 minutes before the red warnings start (12:00Z Wed)",
+      "history": "ANALYSIS: no past case found of a large event in Lisbon stopped on government advice (history.md); in 2019 Wonderland Lisboa was closed by its organiser on the day. The weak signal came about 6 hours ahead: the mayor's statement at 13:23Z, as Dinis anticipated ('predictable maybe 5 or 10 hours before')."
+    },
+    {
+      "from": "outdoor-events",
+      "to": "websummit",
+      "kind": "context",
+      "why": "ANALYSIS: measure (b) covered outdoor events only; Web Summit's email cites external structures, transport and tidal flooding, not measure (b)"
     }
   ]
 }
