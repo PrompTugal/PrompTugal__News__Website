@@ -686,6 +686,16 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-10T21:14Z",
       "note": "Satellite loop live (v0.1.1074, reviewed in the main conductor's session at Dinis's word) and its stop-gap cleared by security@ (S38). Web Summit's own 19:09 post is the storm's primary source everywhere (incident, S41, signals). incident.dev@ watches every websummit.com section (J6). Vicky's journalist drafted S44 (Day 2 note). Lanes empty. Account A slowed to three-hourly except the incident team and social.watch@."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T21:25Z",
+      "SGit-AI__Website__Web-Summit": "120a1b3d",
+      "PrompTugal__News__Website": "8b3b889a",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
     }
   ]
 }
