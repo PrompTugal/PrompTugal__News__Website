@@ -49,5 +49,9 @@
     "path": "data/companies.json",
     "read_on": "2026-11-01",
     "by": "curator@web-summit"
+  },
+  "gamma_ray": {
+    "id": "getvocal-agents",
+    "card": "https://gamma-ray.sgit.ai/spectrum/cards/getvocal-agents/"
   }
 }

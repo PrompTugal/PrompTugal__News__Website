@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-10T16:45Z",
+  "updated": "2026-11-10T18:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -74,7 +74,8 @@
     "Products, step 2: fourteen more from the flows' sources (1Password for Agents, Secure Agentic Autofill, AI Manager, Cloudflare Agents, VerifyAX, Charlotte AI, Agentic Identity Hub, Farol, Firefox Enterprise, Hexgate, Mastra, Qase AI, Replit Agent, Scrut Teammates): 24 products for 23 companies. Seven companies' sources name no product (Airia, AISLE, Emergence AI, Melious, Primitive, Temporal, Trent AI): none guessed (10:21 wake, 10 Nov)",
     "Coverage, measured: an article reaches a company only through a tag equal to its id; 2 of 45 company mentions in 54 articles are tagged. The candidates per article in board/team/ontologist/reviews/2026-11-10-coverage.md, sent to journalist@ (its call: a mention is not 'about'); dev@ asked to let tags match names and aliases (12:21 wake, 10 Nov)",
     "Keyed to GAMMA-Ray's cards (Dinis 12:40: companies, products and agents in the graph, keyed to the cards): Spectrum 0.2 rates products and deployments, so company-products takes an optional gamma_ray link; Replit Agent linked to its card (replit-agent); Manus's card has no product of ours yet (its page unreadable); designer@ told for its Spectrum block (14:21 wake, 10 Nov)",
-    "Related companies, from the companies' own words: the verb offers_alternative_to (inverse has_alternative_in, company to company: its own page presents its product as an alternative; the claim is theirs); Descope -> Akamai (Akamai Identity Cloud, CIAM) and Prelude -> Twilio (Twilio Verify), each from its own comparison page. GAMMA-Ray's new card (Noxus AI Workers) is not one of our companies (16:21 wake, 10 Nov)"
+    "Related companies, from the companies' own words: the verb offers_alternative_to (inverse has_alternative_in, company to company: its own page presents its product as an alternative; the claim is theirs); Descope -> Akamai (Akamai Identity Cloud, CIAM) and Prelude -> Twilio (Twilio Verify), each from its own comparison page. GAMMA-Ray's new card (Noxus AI Workers) is not one of our companies (16:21 wake, 10 Nov)",
+    "GAMMA-Ray cards linked on company records: AISLE (aisle-platform) and GetVocal AI (getvocal-agents), for designer@'s Spectrum block; Noxus (conductor@'s ask, WS-211) has no company page here (not in our map, named nowhere in our data): asked for a public summit source or the word that GAMMA-Ray's cohort joins our map; OutSystems and Talkdesk not in our map either (18:21 wake, 10 Nov)"
   ],
   "next": [
     "THE RESTART: coverage edges (articles about each company) and related companies; the product nodes wait on dev@ (its restart waits on Dinis)",
@@ -498,6 +499,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "offers_alternative_to: Descope/Akamai, Prelude/Twilio"
+    },
+    {
+      "started": "2026-11-10T18:22Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "AISLE and GetVocal linked to their cards; Noxus not in our map"
     }
   ],
   "decisions_on_findings": [
