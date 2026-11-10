@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-ipma-red-districts",
+  "type": "evidence",
+  "source_url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+  "beat": "The summit",
+  "group": "storm",
+  "names": [
+    {
+      "as_listed": "IPMA",
+      "ref": "organisation:ipma"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-10-1710.json",
+  "run": "2026-11-10-1710 (angles from weather@PrompTugal.vicky, re-read at source)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-1710.json"
+    ]
+  }
+}

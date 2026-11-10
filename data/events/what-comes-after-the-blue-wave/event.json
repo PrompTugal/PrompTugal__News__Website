@@ -1,0 +1,65 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "what-comes-after-the-blue-wave",
+  "type": "event",
+  "title": "What comes after the Blue Wave?",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-10",
+  "time": "15:40-16:00",
+  "start": "15:40",
+  "end": "16:00",
+  "shows_as": "busy",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:matt-murray",
+      "as_listed": "Matt Murray (Executive Editor, The Washington Post)",
+      "role": "Executive Editor",
+      "organisation": "The Washington Post",
+      "org": "organisation:washington-post"
+    },
+    {
+      "person": "person:betsy-reed",
+      "as_listed": "Betsy Reed (Editor-in-Chief, The Guardian US)",
+      "role": "Editor-in-Chief",
+      "organisation": "The Guardian US",
+      "org": "organisation:guardian-us"
+    },
+    {
+      "person": "person:sarakshi-rai",
+      "as_listed": "Sarakshi Rai (Deputy Managing Editor, The Hill)",
+      "role": "Deputy Managing Editor",
+      "organisation": "The Hill",
+      "org": "organisation:hill"
+    },
+    {
+      "person": "person:steve-clemons",
+      "as_listed": "Steve Clemons (Host of The Bottom Line; Editor at Large, National Interest, Al Jazeera English)",
+      "role": "Host of The Bottom Line; Editor at Large, National Interest",
+      "organisation": "Al Jazeera English",
+      "org": "organisation:al-jazeera-english"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/6c621c75-9688-4416-99e1-d9afb195f598/what-comes-after-the-blue-wave/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
+  "read_at": "2026-11-10T17:48Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 92
+  }
+}

@@ -60,6 +60,126 @@
    "PrompTugal__App__iOS": "df767b5e",
    "PrompTugal__App__Mobile": "74332868",
    "note": "News: /contribute/ live and passed by security@ (a4fda2af); S33, S34 fixed by dev@; S34 to S36 published."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T04:37Z",
+   "SGit-AI__Website__Web-Summit": "70234988",
+   "PrompTugal__News__Website": "174b8198",
+   "PrompTugal__App__Android": "22463b07",
+   "PrompTugal__App__iOS": "155dcbe4",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: THE RESTART; both interviews live on the home page (db2d1b54); S37 to S40 published; GAMMA-Ray scores held for Dinis's word here."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T05:37Z",
+   "SGit-AI__Website__Web-Summit": "18c2f8d3",
+   "PrompTugal__News__Website": "71cb3500",
+   "PrompTugal__App__Android": "068eb662",
+   "PrompTugal__App__iOS": "bd4eab05",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: account B seven back on; dev@ and dev.pages@ wait for Dinis in conductor.b@'s session; agenda of 10 Nov loaded."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T06:36Z",
+   "SGit-AI__Website__Web-Summit": "84dd64ac",
+   "PrompTugal__News__Website": "45aa7025",
+   "PrompTugal__App__Android": "36b87e26",
+   "PrompTugal__App__iOS": "787e2fe9",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: dev@ and dev.pages@ still off (conductor.b@ 05:48 waits for Dinis in its session); security@ ready to pass the GAMMA-Ray cards; ontologist@ card link done."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T07:37Z",
+   "SGit-AI__Website__Web-Summit": "28f2b390",
+   "PrompTugal__News__Website": "ec5eb09b",
+   "PrompTugal__App__Android": "81b0ee0c",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: the agentic edition on the front page (correspondent@); dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T08:37Z",
+   "SGit-AI__Website__Web-Summit": "d77d0cd8",
+   "PrompTugal__News__Website": "00ba9b27",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: design flip round 2 (Spectrum strip); products in the graph; dev@ and dev.pages@ still off."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T09:41Z",
+   "SGit-AI__Website__Web-Summit": "af0fcc5a",
+   "PrompTugal__News__Website": "c4f8fbaf",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: dev@ and dev.pages@ still off (conductor.b@ 08:48 refused the relayed go); design flip read by sherpa@; Angelo's article published."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T10:37Z",
+   "SGit-AI__Website__Web-Summit": "992a31b2",
+   "PrompTugal__News__Website": "9706edc1",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: brief 7; design flip decided (B r3); 24 products; dev@ and dev.pages@ still off."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T11:37Z",
+   "SGit-AI__Website__Web-Summit": "bcec3204",
+   "PrompTugal__News__Website": "b7a916ca",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: quiet hour; dev@ and dev.pages@ still off (6 h)."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T12:37Z",
+   "SGit-AI__Website__Web-Summit": "c047204d",
+   "PrompTugal__News__Website": "6343ad1c",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "dd413b09",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: v0.1.1000; Vicky's ten agents moved to her account (new keys, inboxes issued); GAMMA-Ray block designed; dev@ still off."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T13:37Z",
+   "SGit-AI__Website__Web-Summit": "1ec1965d",
+   "PrompTugal__News__Website": "b7b9ee37",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "421d0090",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: Vicky's agents settling on her account (keys, inboxes issued); her dev@ reverted then restored the offline files; dev@ (ours) still off."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T17:45Z",
+   "SGit-AI__Website__Web-Summit": "f5f64ee6",
+   "PrompTugal__News__Website": "9011c2a0",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Work desk keys in; lanes issued to reporter.newsroom, journalist.newsroom, weather-vicky. S41 lead block live. dev@ and dev.pages@ still off."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T18:45Z",
+   "SGit-AI__Website__Web-Summit": "c016f420",
+   "PrompTugal__News__Website": "2a0f8811",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "dev@ and dev.pages@ back on (1d0b2d8ec), sent the site-wide Front Page first. Vicky's reviewer five-field grant routed to correspondent@ and conductor.B@."
   }
  ]
 }

@@ -25,6 +25,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "The company's own site, its home page (read 7 November 2026, 03:25 UTC): its website; and a description of what the company does: \"the trust layer between your signups and your business\": phone verification and SMS delivery, fraud prevention at signup, built in Europe. It does not mention Paris.",
       "kind": "other"
+    },
+    {
+      "id": "vs1",
+      "url": "https://prelude.so/twilio-alternative",
+      "read_on": "2026-11-10",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Prelude's own page \"Best Twilio Verify Alternative\" (read 10 November 2026, 16:30 UTC): it offers Prelude's phone verification API (OTP and MFA) as an alternative to Twilio Verify (the edge offers_alternative_to Twilio)."
     }
   ]
 }

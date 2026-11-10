@@ -50,7 +50,7 @@
   "hosted_by": [],
   "session_url": null,
   "source_url": "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/",
-  "read_at": "2026-11-09T05:08Z",
+  "read_at": "2026-11-10T05:07Z",
   "read_by": "programme@web-summit.vicky",
   "via": "the team's data/events.json, re-checked at the source",
   "derived": {
@@ -61,6 +61,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 218
+    "item": 217
   }
 }

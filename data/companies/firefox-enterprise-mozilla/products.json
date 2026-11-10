@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "firefox-enterprise-mozilla",
+  "products": [
+    {
+      "id": "firefox-enterprise",
+      "name": "Firefox Enterprise",
+      "what": "Mozilla's enterprise browser, deployable on premises, with AI controls, data controls and SIEM export.",
+      "agentic": false,
+      "source": "own1",
+      "flows": [
+        "ai-controls-in-the-browser"
+      ]
+    }
+  ]
+}

@@ -3,17 +3,17 @@
   "id": "fernando-alexandre",
   "type": "person",
   "name": "Fernando Alexandre",
-  "role": null,
-  "organisation": null,
-  "org": null,
+  "role": "Minister of Education, Science and Innovation of Portugal",
+  "organisation": "Government of Portugal",
+  "org": "organisation:government-of-portugal",
   "listings": [
     {
-      "role": null,
-      "organisation": null,
-      "org": null,
+      "role": "Minister of Education, Science and Innovation of Portugal",
+      "organisation": "Government of Portugal",
+      "org": "organisation:government-of-portugal",
       "event": "event:campus-tejo-the-science-and-technology-ecosystem-of",
       "source": "https://websummit.com/sessions/lis26/f45ece2d-fef8-442a-a6f0-4ec62f7fa105/campus-tejo-the-science-and-technology-ecosystem-of-santarem-press-conference/",
-      "read_at": "2026-11-09T05:07Z",
+      "read_at": "2026-11-10T17:48Z",
       "by": "programme@web-summit.vicky"
     }
   ],

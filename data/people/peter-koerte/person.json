@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "peter-koerte",
+  "type": "person",
+  "name": "Peter Koerte",
+  "role": "Member of the Managing Board of Siemens AG and President Smart Infrastructure",
+  "organisation": "Siemens AG",
+  "org": "organisation:siemens",
+  "listings": [
+    {
+      "role": "Member of the Managing Board of Siemens AG and President Smart Infrastructure",
+      "organisation": "Siemens AG",
+      "org": "organisation:siemens",
+      "event": "event:the-race-for-industrial-ai-can-europe-win",
+      "source": "https://websummit.com/sessions/lis26/cfc9da37-1584-443c-b395-78d005524b73/the-race-for-industrial-ai-can-europe-win/",
+      "read_at": "2026-11-10T17:48Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

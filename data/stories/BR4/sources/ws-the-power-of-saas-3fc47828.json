@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-the-power-of-saas-3fc47828",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/3fc47828-c86a-4675-8b2e-1978ff30aac3/the-power-of-saas/",
+  "title": "The power of SaaS (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'The power of SaaS', November 11, 2026, 11:00 to 12:00 (Lisbon time), Stage 12, track Startup Showcase. Description: Over the course of an hour, explore how innovative software-as-a-service startups are streamlining operations, boosting productivity, integrating AI, and providing users with invaluable software services."
+}

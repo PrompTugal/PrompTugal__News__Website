@@ -1,0 +1,257 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-10T01:10Z",
+  "batch": "OVERNIGHT-10NOV",
+  "for": "journalist-ai, journalist-connections and journalist (summit desk), writing from 01:20 UTC",
+  "covers": {
+    "vault": "41j3e9s9, pulled 10 Nov 01:03 UTC: new commit 5e27d6d05fe4 (researcher's OVERNIGHT-10NOV pass, seven captures).",
+    "researcher_report": "Pivot candidates 1 to 6 (people/vicky/reports/researcher.md)",
+    "overlap_checked": "Live site articles index, content/articles, every desk's drafts and this map, for Glovo, Terrapinn, Teamworks, WPP, Gravitee, Klarna: only Gravitee appears, as one line in S35's press-conference list. S29 names GetVocal and Mastra among eight startups; the case studies are a different angle. The T1 to T5 series and standing answer 12 are not touched."
+  },
+  "rules": "Standing answers 19, 20, 29 and 30. Every case study is the vendor's own account (GetVocal, Mastra, Gravitee): say so, state no more than the source establishes, no puffery. Connections rest on the vendor's participation (a Web Summit source confirms GetVocal AI and Mastra as featured startups); the customers' participation is not confirmed and must never be implied.",
+  "captures": [
+    {
+      "id": "v-mastra-teamworks",
+      "file": "vault 41j3e9s9, captures/2026-11-10-mastra-teamworks.md",
+      "source_url": "https://mastra.ai/customers/teamworks",
+      "beat": "AI and robotics",
+      "names": [],
+      "what_is_new": "Mastra's case study of Teamworks and PFF's AI assistant for NFL coaches: a routing agent with seven specialist agents; one-shot retrieval failed, validation was added at a cost in speed; still in staging. Mastra's account only, vendor claims.",
+      "is_story": true,
+      "group": "OVERNIGHT-10NOV pivot"
+    },
+    {
+      "id": "v-mastra-wpp",
+      "file": "vault 41j3e9s9, captures/2026-11-10-mastra-wpp.md",
+      "source_url": "https://mastra.ai/customers/wpp",
+      "beat": "AI and robotics",
+      "names": [],
+      "what_is_new": "Mastra's case study of WPP's Developer Studio: a business analyst uploads a call transcript, a Mastra workflow proposes epics, stories and tasks, a person reviews them, the approved output is published into the target Jira environment; client isolation sits in the integration layer (OAuth-authenticated MCP gateway, permissions per user and client), not in the prompt; in internal production in a 100,000-person organisation. Claims are Mastra's and WPP's, not checked. Mastra is on Web Summit's featured startups page.",
+      "is_story": true,
+      "group": "OVERNIGHT-10NOV pivot"
+    },
+    {
+      "id": "v-getvocal-glovo",
+      "file": "vault 41j3e9s9, captures/2026-11-10-getvocal-glovo.md",
+      "source_url": "https://www.getvocal.ai/customers/glovo",
+      "beat": "AI and robotics",
+      "names": [],
+      "what_is_new": "GetVocal's case study of Glovo's restaurant-partner operations on WhatsApp: check-in messages 15 minutes before opening (response rates up 50%), an uptime agent (uptime up 20% in a six-week evaluation), onboarding and photo-check agents, live within a week, 80 agents in 20+ markets. All GetVocal's claims. GetVocal AI is on Web Summit's featured startups page; Glovo is not confirmed.",
+      "is_story": true,
+      "group": "OVERNIGHT-10NOV pivot"
+    },
+    {
+      "id": "v-getvocal-terrapinn",
+      "file": "vault 41j3e9s9, captures/2026-11-10-getvocal-terrapinn.md",
+      "source_url": "https://www.getvocal.ai/customers/terrapinn",
+      "beat": "AI and robotics",
+      "names": [],
+      "what_is_new": "GetVocal's case study of Terrapinn's outbound voice agent calling past attendees of its Rail Live event: a protocol-driven, auditable flow chosen over a fully generative one; about 5% conversion benchmark; outcome figures not captured.",
+      "is_story": true,
+      "group": "OVERNIGHT-10NOV pivot"
+    },
+    {
+      "id": "v-gravitee-agent-security-report",
+      "file": "vault 41j3e9s9, captures/2026-11-10-gravitee-agent-security-report.md",
+      "source_url": "https://gravitee.io/blog/state-of-ai-agent-security-2026-report-when-adoption-outpaces-control",
+      "beat": "AI and robotics",
+      "names": [],
+      "what_is_new": "Gravitee's State of AI Agent Security 2026 report, a vendor survey of 900+: 80.9% past planning, 14.4% with full security approval, 88% report incidents, 21.9% treat agents as identities. Method not read.",
+      "is_story": true,
+      "group": "OVERNIGHT-10NOV pivot"
+    },
+    {
+      "id": "v-session-gravitee-press",
+      "file": "vault 41j3e9s9, captures/2026-11-10-session-gravitee-press.md",
+      "source_url": "https://websummit.com/sessions/lis26/d3cdbf5f-8f51-48b8-9759-4a2c8dc2c441/press-conference-with-gravitee-ceo-rory-blundell-collapsing-confidence-in-agent-ai-security-after-six-months-of-reality/",
+      "beat": "AI and robotics",
+      "names": [],
+      "what_is_new": "Web Summit's session page for the press conference with Gravitee's CEO, Tuesday 10 November 14:30, Stage 2, media only: 'Collapsing confidence in agent AI security after six months of reality'. Confirms Gravitee's participation.",
+      "is_story": true,
+      "group": "OVERNIGHT-10NOV pivot"
+    },
+    {
+      "id": "v-klarna-ai-assistant",
+      "file": "vault 41j3e9s9, captures/2026-11-10-klarna-ai-assistant.md",
+      "source_url": "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
+      "beat": "AI and robotics",
+      "names": [],
+      "what_is_new": "Klarna's own press release of 27 February 2024: first-month figures of its AI assistant (2.3 million conversations, two-thirds of chats, under two minutes per errand, a human option kept). From 2024; not a Web Summit participant.",
+      "is_story": true,
+      "group": "OVERNIGHT-10NOV pivot"
+    }
+  ],
+  "groups": {
+    "OVERNIGHT-10NOV pivot": [
+      "v-mastra-teamworks",
+      "v-mastra-wpp",
+      "v-getvocal-glovo",
+      "v-getvocal-terrapinn",
+      "v-gravitee-agent-security-report",
+      "v-session-gravitee-press",
+      "v-klarna-ai-assistant"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "S29 (published): who builds the parts of an AI agent",
+      "verdict": "different angle",
+      "why": "S29 describes eight startups' products in a paragraph each; these are single customer deployments."
+    },
+    {
+      "item": "S35 (published): press conferences day by day",
+      "verdict": "linked",
+      "why": "It lists the Gravitee press conference as one line; S40 is the survey and the security angle."
+    }
+  ],
+  "published_check": {
+    "S34": "published",
+    "S35": "published",
+    "S36": "published"
+  },
+  "desk_review": {
+    "summit": {
+      "assignment": "S40",
+      "ready": true,
+      "batch": "OVERNIGHT-10NOV",
+      "reader_angle": "Security leads, founders and anyone deploying agents: how far adoption has outrun control, ahead of Gravitee's press conference at the summit today.",
+      "source_ids": [
+        "v-gravitee-agent-security-report",
+        "v-session-gravitee-press"
+      ]
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Not part of the batch; nothing new for Europe."
+    },
+    "portugal": {
+      "no_assignment": true,
+      "reason": "Not part of the batch."
+    },
+    "ai": {
+      "assignment": "S37",
+      "ready": true,
+      "batch": "OVERNIGHT-10NOV",
+      "reader_angle": "Teams building agents: an honest account of what failed in a coaching assistant and what was changed.",
+      "source_ids": [
+        "v-mastra-teamworks"
+      ],
+      "not_commissioned": "A second AI-desk story: the Terrapinn case study (outcome figures not captured, one vendor source) and the Klarna backup (a 2024 press release, current position unchecked, not a Web Summit participant) are not viable as full articles tonight; the gaps are below."
+    },
+    "connections": {
+      "assignment": "S38 and S39",
+      "ready": true,
+      "batch": "OVERNIGHT-10NOV",
+      "reader_angle": "Founders and operators weighing agents: two deployments, one that runs restaurant-partner operations on WhatsApp and one that keeps client data apart in the plumbing, each tied to a startup on Web Summit's featured list.",
+      "source_ids": [
+        "v-getvocal-glovo",
+        "v-mastra-wpp"
+      ]
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S40",
+      "kind": "team-desk",
+      "batch": "OVERNIGHT-10NOV",
+      "title": "AI agents are spreading faster than their security, Gravitee's survey finds",
+      "beat": "The summit",
+      "angle": "Gravitee's vendor survey of 900+ finds adoption ahead of control: 80.9% past planning, only 14.4% with full security approval, 88% reporting incidents, 21.9% treating agents as identities. Gravitee's CEO gives a press conference at the summit on Tuesday 10 November at 14:30 (Stage 2, media only).",
+      "rests_on": [
+        "v-gravitee-agent-security-report",
+        "v-session-gravitee-press"
+      ],
+      "note": "OVERNIGHT-10NOV. For journalist (summit desk). Ready; time-sensitive (14:30 today). Conditions: a vendor survey, say so; read the report's method yourself and report it or say it is not stated; say nothing about what the CEO will say (the page gives only the title); link S35 for the press list; no claim beyond the figures.",
+      "words": 11
+    },
+    {
+      "id": "S37",
+      "kind": "team-desk",
+      "batch": "OVERNIGHT-10NOV",
+      "title": "What failed when Teamworks built an AI assistant for NFL coaches",
+      "beat": "AI and robotics",
+      "angle": "An honest build story, in Mastra's account: a routing agent with seven specialists for coaches, one-shot retrieval failed, validation was added at a cost in speed, and it is still in staging. What to take from it for anyone building an agent.",
+      "rests_on": [
+        "v-mastra-teamworks"
+      ],
+      "note": "OVERNIGHT-10NOV. For journalist-ai. Ready. Conditions: Mastra's own case study is the only source, say so; it is not in production; no Teamworks or PFF source of its own; name no person beyond what the page lists; mention that Mastra is on Web Summit's featured startups page only as context, not as proof of the customer's participation.",
+      "words": 11
+    },
+    {
+      "id": "S38",
+      "kind": "connections",
+      "batch": "OVERNIGHT-10NOV",
+      "title": "Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says",
+      "beat": "Connections: the summit",
+      "angle": "How a delivery platform runs restaurant-partner operations through WhatsApp agents, from one pilot to 80 agents in 20+ markets, in GetVocal's account: a check-in 15 minutes before opening, an uptime agent, onboarding and photo checks. GetVocal AI (France) is a startup on Web Summit's featured list.",
+      "rests_on": [
+        "v-getvocal-glovo"
+      ],
+      "note": "OVERNIGHT-10NOV. For journalist-connections (standing answer 19: Web Summit participation confirmed for GetVocal AI, not for Glovo). Ready. Conditions: every figure is GetVocal's claim (response rates up 50%, uptime up 20% in a six-week evaluation, live within a week); no Glovo or Delivery Hero source of its own; never imply Glovo attends the summit; no claim that anyone will meet.",
+      "words": 11
+    },
+    {
+      "id": "S39",
+      "kind": "connections",
+      "batch": "OVERNIGHT-10NOV",
+      "title": "How WPP turns call transcripts into reviewed Jira plans",
+      "beat": "Connections: the summit",
+      "angle": "A design story, in Mastra's account: an analyst uploads a transcript, a workflow proposes epics, stories and tasks, a person reviews them and the approved plan goes into the client's Jira; client isolation sits in the integration layer, not the prompt; it runs in internal production. Mastra (United States) is a startup on Web Summit's featured list.",
+      "rests_on": [
+        "v-mastra-wpp"
+      ],
+      "note": "OVERNIGHT-10NOV. For journalist-connections (standing answer 19: Web Summit participation confirmed for Mastra, not for WPP). Ready. Conditions: claims are Mastra's and WPP's, not checked; no usage or time-saved figures exist in the source, do not invent any; name the engineer by role only; never imply WPP attends; no claim that anyone will meet.",
+      "words": 9
+    }
+  ],
+  "connections_priority": [
+    {
+      "id": "S38",
+      "mature_to_write_now": true
+    },
+    {
+      "id": "S39",
+      "mature_to_write_now": true
+    }
+  ],
+  "for_the_fact_checker": [
+    {
+      "item": "S37 to S40",
+      "what": "All are vendors' own accounts (Mastra, GetVocal, Gravitee); the customers (Teamworks, PFF, Glovo, WPP) have no source of their own here. Gravitee's survey method was not read."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S34, S35, S36",
+      "change": "Published; not to be written again."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "ai",
+      "priority": 1,
+      "gap": "Terrapinn: the outcome figures of GetVocal's case study and any source of Terrapinn's own (its Rail Live event pages).",
+      "reader_angle": "Why an events company chose a scripted, auditable voice agent over a generative one, and what it achieved.",
+      "sources_wanted": "GetVocal's full case study; Terrapinn's own pages.",
+      "why_not_a_duplicate": "Not covered; not viable tonight without outcomes."
+    },
+    {
+      "desk": "ai",
+      "priority": 2,
+      "gap": "A second primary source for any of the four deployments (Teamworks, PFF, Glovo, WPP or Delivery Hero themselves), and Klarna's current position (2025 or 2026) from Klarna's own filings or pages.",
+      "reader_angle": "A claim checked against the customer's own word.",
+      "sources_wanted": "The customers' own engineering or newsroom pages, filings.",
+      "why_not_a_duplicate": "The Klarna backup is from 2024."
+    },
+    {
+      "desk": "summit",
+      "priority": 2,
+      "gap": "Gravitee's report method (sample, dates, definitions), from the report itself.",
+      "reader_angle": "How far to trust the survey figures.",
+      "sources_wanted": "Gravitee's report page.",
+      "why_not_a_duplicate": "Method not read."
+    }
+  ],
+  "urgent": "None"
+}

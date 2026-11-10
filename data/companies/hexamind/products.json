@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "hexamind",
+  "products": [
+    {
+      "id": "hexgate",
+      "name": "Hexgate",
+      "what": "Runtime authorization for AI agents: every tool call allowed, denied or sent for approval.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "gate-every-tool-call"
+      ]
+    }
+  ]
+}

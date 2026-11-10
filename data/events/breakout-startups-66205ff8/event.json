@@ -47,17 +47,17 @@
       "org": "organisation:justai"
     },
     {
-      "person": "person:ang-li",
-      "as_listed": "Ang Li (CEO and Co-founder, Simular)",
-      "role": "CEO and Co-founder",
-      "organisation": "Simular",
-      "org": "organisation:simular"
+      "person": "person:jimmy-douglas",
+      "as_listed": "Jimmy Douglas (Founder & CEO, Plug)",
+      "role": "Founder & CEO",
+      "organisation": "Plug",
+      "org": "organisation:plug"
     }
   ],
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/66205ff8-6ea5-42d4-ac51-eb26c65a5d02/breakout-startups/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/",
-  "read_at": "2026-11-09T05:07Z",
+  "read_at": "2026-11-10T17:48Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -67,6 +67,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 39
+    "item": 37
   }
 }

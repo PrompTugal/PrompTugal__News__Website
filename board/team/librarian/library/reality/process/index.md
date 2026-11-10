@@ -26,32 +26,32 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-991 cards (991 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T21:57:52Z at site v0.1.908; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1017 cards (1017 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T19:04:31Z at site v0.1.1058; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 30 |
+| `GDN.MEMO` | 40 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 31 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 46 |
+| `WRK.BRIEF` | 57 |
 | `WRK.DEC` | 13 |
-| `WRK.DESK` | 16 |
+| `WRK.DESK` | 19 |
 | `WRK.FIND` | 177 |
 | `WRK.PASS` | 29 |
-| `WRK.PLAN` | 34 |
+| `WRK.PLAN` | 36 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
-- `ACC-20261109-0510` [/contribute/: the rules of the game and the collaborators' wall, in brand v2.0](https://promptugal.news/board/spec-contribute-page.md) (`WRK.PLAN spec-contribute-page`)
-- `ACC-20261109-0471` [signups.json](https://promptugal.news/board/lanes/signups.json) (`GEN.BOARD signups`)
-- `ACC-20261109-0470` [Confirmed: /contribute/, the collaborators' wall and the beta list; ship on security's pass](https://promptugal.news/board/guidance/2026-11-09-contribute-confirmed.md) (`GDN.MEMO 2026-11-09-contribute-confirmed`)
-- `ACC-20261109-0469` [The news app on the web (/app/) in brand v2.0: one block of tokens](https://promptugal.news/board/spec-the-app-on-the-web.md) (`WRK.PLAN spec-the-app-on-the-web`)
-- `ACC-20261109-0468` [2026-11-09T1636Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-09T1636Z-then-and-now.jpg) (`WRK.BRIEF 2026-11-09T1636Z-then-and-now`)
+- `ACC-20261110-0281` [The Front Page (design E) as the whole site's theme: what changes on every page](https://promptugal.news/board/spec-the-front-page-theme.md) (`WRK.PLAN spec-the-front-page-theme`)
+- `ACC-20261110-0280` [The weather desk (weather@PrompTugal.vicky)](https://promptugal.news/desks/weather-vicky/README.md) (`WRK.DESK weather-vicky`)
+- `ACC-20261110-0279` [2026-11-10T1636Z-today-vs-front-page.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-10T1636Z-today-vs-front-page.jpg) (`WRK.BRIEF 2026-11-10T1636Z-today-vs-front-page`)
+- `ACC-20261110-0278` [2026-11-10T1636Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-10T1636Z-then-and-now.jpg) (`WRK.BRIEF 2026-11-10T1636Z-then-and-now`)
+- `ACC-20261110-0277` [2026-11-10T1636Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-10T1636Z.pdf) (`WRK.BRIEF 2026-11-10T1636Z:2`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

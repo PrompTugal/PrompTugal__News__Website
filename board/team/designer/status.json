@@ -2,8 +2,15 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-09T22:45Z",
+  "updated": "2026-11-10T18:50Z",
   "done": [
+    "18:50 Checked live: the E theme is on the home page only (inner pages keep the old header, whose wordmark is 180 px, under the brand's 240 minimum; the 404's wordmark still broken), all for dev@ under T1 and T7; D6 (past days) passes, three wording slips to dev.pages@; the storm page handed to Vicky's dev@, stood down; debrief refreshed",
+    "17:10 The Front Page (E) as the whole site's theme (Dinis 14:35): board/spec-the-front-page-theme.md, T1 to T8 (E's masthead on every page with the tools in its date line; section heads, kickers, dark; the 404's broken wordmark); before and after pictures of companies, an article and the agenda; round 4's content now built inside E; sherpa@'s three round-4 notes in H11 and H12",
+    "15:00 The redesign, round 4 (Dinis 12:40, 'pt.news is about agents'): B r3 recycled; the interviews lead as video cards, the summit now (today's seven agent sessions, on now and next), the scores, and the newsroom at work as a swimlane with every hand-off (a vertical timeline on a phone); spec H11 and H12",
+    "12:55 sherpa@ read round 3: conditions 1 to 3 met, 4 (contrast) on the built page; its 'Watch · length' added to H2; the company page's Spectrum block designed (H10, light and dark)",
+    "11:10 The design flip decided: B, round 3 (sherpa@'s four conditions met: a legend line, one interview before the strip on a phone, three rows then 'All 6', contrast measured AA+), with the six real GAMMA-Ray cards and its own words (the stage is the sum of levels; 'not yet evidenced', never zero); spec board/spec-the-agentic-home-page.md (H1 to H9) for dev.pages@",
+    "09:00 The design flip round 2: B worked through, light and dark, and round 1 corrected: GAMMA-Ray gives four levels and a stage per product, not a score or rank, so the top is a Spectrum strip linking to each card (security@'s link-only rule); 'GAMMA-Ray in one minute'; the wave in the footer",
+    "07:05 THE RESTART's design flip, round 1: three Portuguese directions inside brand v2.0 (A Azulejo, B Calcada, C Jornal) with the GAMMA-Ray leaderboard, the interviews and the graph; recommended B; content/newsroom/design/decisions/the-design-flip.md",
     "22:45 /contribute/ checked live (v0.1.912): the rules and the wall pass in light and dark; fixed a stray 'into the page -->' that my fragment's comment caused; og:image left to dev@ (board/spec-contribute-page.md)",
     "20:56 /contribute/ (Dinis 20:20): the rules of the game as an HTML infographic in brand v2.0 (design/contribute/rules.html, no AI, the journalist's words), its share picture (rules--share.png), and the wall's look (counts, cards, share pills, 'name not shown'); board/spec-contribute-page.md for dev@ and dev.pages@",
     "18:42 /app/ re-checked after dev@'s b0c2dee61f: in brand (ink, the wordmark SVG, Plex, Newsreader, paper); two leftovers (the wordmark under 240 px in the bar: the stamp instead; one default-blue link); sherpa@'s AP3 designed: the bar's right button by context (Full screen in the pane, Install on a phone, News once installed)",
@@ -96,8 +103,8 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "The share picture as /contribute/'s og:image, when dev@ ships it; D6 (past days) from 10 November",
-    "Re-check /events/ as the week's overview when dev.pages@ ships it; the past days (D6) from tomorrow",
+    "Check T1 to T8 (board/spec-the-front-page-theme.md) and H1 to H12 when dev@ and dev.pages@ ship (they wait for Dinis in conductor.b@'s session)",
+    "Re-check /contribute/'s og:image",
     "Images for any new article (a table from its own table where the story is numbers)",
     "The open newsletter items (E1, E2, P1, P4, V1 to V3)"
   ],
@@ -105,7 +112,8 @@
     "Dinis: the investor site calls the company 'PrompTugal' (no '.news'); CLAUDE.md says 'PrompTugal.news' is the one spelling. Is 'PrompTugal' right for the company and its investor pages?",
     "Dinis: your 01:20 answer was '1 yes, F and G can keep their own colours'; the question also asked about E's band in a deepened green (#0a3a14, live since v0.1.377). I read it as yes and kept it; say if E should go back to the brand green #006600 (board/team/designer/brand-decisions.md)",
     "Dinis: the designer's vault bar9wi87's key is sealed to the conductor only; asked the conductor to seal it to my new key, else I make a new vault",
-    "Dinis: decision pages and article images are small files in git because an encrypted vault image cannot be shown in a page; say if you want them elsewhere"
+    "Dinis: decision pages and article images are small files in git because an encrypted vault image cannot be shown in a page; say if you want them elsewhere",
+    "devops@ (not Dinis): my inbox drain fetches but cannot commit (~/vaults/inbox-designer-3-at-promptugal-dinis is not an sgit vault), so the lane stays pending; I read the messages from the folder; nothing lost"
   ],
   "wakes": [
     {
@@ -479,8 +487,50 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "/contribute/ checked live; stray comment text fixed"
+    },
+    {
+      "started": "2026-11-10T06:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the design flip, round 1"
+    },
+    {
+      "started": "2026-11-10T08:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the design flip, round 2"
+    },
+    {
+      "started": "2026-11-10T10:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the design flip decided (B, round 3); the home page spec"
+    },
+    {
+      "started": "2026-11-10T12:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the company page's Spectrum block; sherpa@'s note in the spec"
+    },
+    {
+      "started": "2026-11-10T14:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the redesign, round 4: interviews, summit now, scores, the newsroom at work"
+    },
+    {
+      "started": "2026-11-10T16:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "The Front Page as the whole site's theme: the spec"
+    },
+    {
+      "started": "2026-11-10T18:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "E theme checked live; D6 past days checked"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
-  "debrief": "board/team/designer/debriefs/2026-11-09-handover.md"
+  "debrief": "board/team/designer/debriefs/2026-11-10-handover.md"
 }

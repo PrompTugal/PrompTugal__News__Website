@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-ipma-warnings",
+  "type": "evidence",
+  "source_url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+  "beat": "The summit",
+  "group": "manual pass",
+  "names": [
+    {
+      "as_listed": "IPMA",
+      "ref": "organisation:ipma"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-10-1410.json",
+  "run": "2026-11-10-1410 (manual pass, at Vicky's word in the session)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-1410.json"
+    ]
+  }
+}

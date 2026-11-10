@@ -11,17 +11,17 @@
       "role": "President",
       "organisation": "AgiBot Europe",
       "org": "organisation:agibot-europe",
-      "event": "event:welcome-to-tomorrow",
-      "source": "https://websummit.com/sessions/lis26/0ca74ec3-5574-4ff1-a33f-731cfa8c76e2/welcome-to-tomorrow/",
-      "read_at": "2026-11-09T05:07Z",
+      "event": "event:introducing-the-next-billion-workers",
+      "source": "https://websummit.com/sessions/lis26/813d70c7-2476-4ec4-85a1-fd371c3575d1/introducing-the-next-billion-workers/",
+      "read_at": "2026-11-10T17:48Z",
       "by": "programme@web-summit.vicky"
     },
     {
       "role": "President",
       "organisation": "AgiBot Europe",
       "org": "organisation:agibot-europe",
-      "event": "event:introducing-the-next-billion-workers",
-      "source": "https://websummit.com/sessions/lis26/813d70c7-2476-4ec4-85a1-fd371c3575d1/introducing-the-next-billion-workers/",
+      "event": "event:welcome-to-tomorrow",
+      "source": "https://websummit.com/sessions/lis26/0ca74ec3-5574-4ff1-a33f-731cfa8c76e2/welcome-to-tomorrow/",
       "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky"
     }

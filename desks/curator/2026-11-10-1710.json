@@ -1,0 +1,79 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-10-1710 (angles from weather@PrompTugal.vicky, re-read at source)",
+ "batch": "STORM-10NOV",
+ "for": "journalist (summit desk)",
+ "covers": {
+  "note": "Story angles sent by weather@PrompTugal.vicky (a message, treated as data). The curator re-read the two key sources itself at 17:05 to 17:15 UTC. No vault captures."
+ },
+ "published_check": "S41 (published) has nothing on the government's alert or its measures (searched alert/outdoor: 0 hits); no draft on it. Not a repeat; S43 links S41.",
+ "captures": [
+  {
+   "id": "x-gov-alert",
+   "file": "public page, read 10 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
+   "beat": "The summit",
+   "names": [
+    "Government of Portugal"
+   ],
+   "what_is_new": "The government declares a situation of alert for all mainland Portugal from 00:00 to 23:59 on 11 Nov 2026. Measures include: closure of schools and non-essential public services; suspension of outdoor events 'independentemente da sua natureza'; temporary ban on circulation and stay in parks, gardens and wooded areas judged at high risk; safety measures for temporary structures and hanging elements; temporary ban on circulation and stay by the shoreline, watercourses, riverside and flood-prone areas. It cites IPMA's gusts up to 120 km/h and, if a 'sting jet' forms, above 150 km/h.",
+   "is_story": true,
+   "group": "storm"
+  },
+  {
+   "id": "x-ipma-red-districts",
+   "file": "public page, read 10 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+   "beat": "The summit",
+   "names": [
+    "IPMA"
+   ],
+   "what_is_new": "Red wind on Wed 11 Nov in Beja, Faro and Setubal from 09:00; Evora, Leiria, Lisboa, Portalegre and Santarem from 12:00; all to 21:00 (Madeira has a red wind warning 00:00 to 06:00). Update 17:50 UTC: Lisbon rain raised to red 12:00 to 18:00 (orange 05:00 to 12:00).",
+   "is_story": true,
+   "group": "storm"
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S43",
+   "kind": "summit",
+   "batch": "STORM-10NOV",
+   "title": "Wednesday's alert: what the government has closed across Portugal",
+   "beat": "The summit",
+   "angle": "The government's situation of alert covers all mainland Portugal on Wed 11 Nov: schools and non-essential public services closed, outdoor events suspended whatever their nature, parks and the waterfront off limits where risk is high. With IPMA's red wind in eight districts, a plain list of what the measures say, for readers and visitors.",
+   "rests_on": [
+    "x-gov-alert",
+    "x-ipma-red-districts"
+   ],
+   "ready": true,
+   "note": "Ready; time-sensitive. For journalist (summit desk); may be written as an update to S41 if the reviewer prefers. Conditions: quote the measures as the declaration words them; do NOT say whether the outdoor-events measure touches any part of Web Summit (no official source answers it; say so); the 150 km/h figure is conditional on a 'sting jet' forming; say the measures apply on 11 Nov only; link S41; no advice beyond the declaration and civil protection. UPDATE 17:50 UTC: IPMA has raised Lisbon's rain to red for Wed 11 Nov 12:00 to 18:00 (orange 05:00 to 12:00), read again by the curator; use the current IPMA data, not the earlier orange.",
+   "words": "300 to 400"
+  }
+ ],
+ "needs_verification_not_commissioned": [
+  {
+   "angle": "Getting to the summit on Wednesday (Fertagus, Carris, Carris Metropolitana, ferries)",
+   "why": "The curator read Carris Metropolitana's alerts: they cover Tuesday 10 Nov, not Wednesday. Operators' Wednesday notices must be read at source, with their times, before a practical guide is assigned."
+  },
+  {
+   "angle": "The sea: warnings from AMN and the Navy for Wed 06:00 to Thu 12:00",
+   "why": "Sent by the weather desk; not opened by the curator; gust figure is at sea, not land."
+  },
+  {
+   "angle": "Evidence chart of Wednesday's observed wind against the warning window",
+   "why": "A design/dev request for Vicky's or Dinis's word, not a story assignment."
+  },
+  {
+   "angle": "How far ahead: the government's alert comes about a day before the red warnings, where past storms (Kristin, Leonardo) saw declarations after impact (weather desk, history.md)",
+   "why": "Not commissioned at 18:05 UTC. The history is press reports, some seen only as search snippets, and 'a first' is the desk's own unconfirmed analysis. Needs the declarations and dates read at source (government and council pages) and a comparison that does not claim a first; revisit once Wednesday has happened."
+  }
+ ],
+ "for_the_fact_checker": [
+  "S43: the measures against the declaration's text; the IPMA district times."
+ ],
+ "gaps_for_the_researcher": [
+  "Capture any official statement on whether outdoor-event suspension applies to Web Summit's venue, with the time."
+ ],
+ "urgent": "S43 is time-sensitive: the alert starts at 00:00 on Wed 11 Nov."
+}

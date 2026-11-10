@@ -1,24 +1,50 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-09T22:52Z",
-  "edition": "the Web Summit edition, 9 to 12 November 2026",
+  "updated": "2026-11-10T18:52Z",
+  "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
-    "article": "tuesday-10-november-three-ways-in",
-    "why": "Summit day 1: three ways into the first day (planned since 6 November). Set at 18:48 UTC Monday, during Opening Night, so the reader looking ahead to the first day finds it."
+    "article": "red-wind-warning-lisbon-wednesday",
+    "why": "S41, the storm: IPMA's red warnings for Lisbon on Wednesday 11 November (wind midday to 21:00; rain midday to 18:00 since 17:43 UTC Tuesday), the summit's main day. Keeps the lead into Wednesday (the planned swap to the GAMMA-Ray launch is held: the storm is the day's story and Dinis's case study, board/guidance/2026-11-10-the-storm-as-our-case-study.md). While S41 leads, reviewer@PrompTugal.vicky writes the five S41 keys here (Dinis, 18:25); I keep 'article' and 'why'. Set 18:52 UTC Tuesday.",
+    "standfirst": "Portugal's government has declared an alert situation for the whole mainland on Wednesday 11 November, the third day of Web Summit Lisbon. IPMA has red warnings for the Lisbon district that day: wind from 12:00 to 21:00, with gusts up to 120 km/h and up to 140 km/h in the most exposed places, and rain from 12:00 to 18:00.",
+    "developments": [
+      {
+        "text": "IPMA raised its rain warning for the Lisbon district to red for Wednesday, 12:00 to 18:00; the red wind warning, 12:00 to 21:00, is unchanged.",
+        "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+        "checked": "2026-11-10T18:53Z"
+      },
+      {
+        "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended, whatever their nature.",
+        "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
+        "checked": "2026-11-10T18:53Z"
+      },
+      {
+        "text": "The Minister of Internal Administration asked people to stay at home where possible and avoid unnecessary travel.",
+        "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-",
+        "checked": "2026-11-10T18:53Z"
+      }
+    ],
+    "programme": {
+      "label": "Web Summit, Wednesday",
+      "text": "As of 18:53 UTC on Tuesday, no change to Wednesday's programme had been announced on Web Summit's homepage or news page. Whether the suspension of outdoor events applies to any part of the summit has not been announced.",
+      "source": "https://websummit.com/blog/news/",
+      "checked": "2026-11-10T18:53Z"
+    },
+    "last_checked": "2026-11-10T18:53Z",
+    "live": null
   },
   "top": [
     {
-      "article": "plan-your-week-by-field",
-      "why": "which summit day is yours; still the planning piece"
+      "article": "gravitee-agent-security-survey",
+      "why": "agents outpace their security"
     },
     {
-      "article": "ibm-sports-tech-challenge",
-      "why": "IBM's sports tech showcase is on Tuesday"
+      "article": "what-lovable-deleted",
+      "why": "an agent rebuilt by deletion, from a summit speaker"
     },
     {
-      "article": "web-summit-wristband-queues",
-      "why": "the first morning's queues"
+      "article": "glovo-restaurant-agents-getvocal",
+      "why": "agents at work with a named customer"
     }
   ],
   "service": {
@@ -32,10 +58,28 @@
   },
   "beats": [
     {
+      "beat": "AI",
+      "articles": [
+        "what-lovable-deleted",
+        "gravitee-agent-security-survey",
+        "glovo-restaurant-agents-getvocal",
+        "teamworks-coaches-agent",
+        "wpp-call-transcripts-to-jira",
+        "five-ai-builders-to-know",
+        "who-builds-the-parts-of-an-ai-agent",
+        "following-robotics-at-web-summit",
+        "agent-setup-guide",
+        "europe-ai-help-and-portugal-ai-startups"
+      ],
+      "note": "the guide to setting up agents is the reader's way in; the robotics route for the summit"
+    },
+    {
       "beat": "Web Summit",
       "articles": [
+        "red-wind-warning-lisbon-wednesday",
         "plan-your-week-by-field",
         "web-summit-wristband-queues",
+        "web-summit-passes-and-colours",
         "your-first-day-at-web-summit",
         "venue-map",
         "driving-to-web-summit",
@@ -87,22 +131,11 @@
       ]
     },
     {
-      "beat": "AI",
-      "articles": [
-        "five-ai-builders-to-know",
-        "who-builds-the-parts-of-an-ai-agent",
-        "following-robotics-at-web-summit",
-        "agent-setup-guide",
-        "europe-ai-help-and-portugal-ai-startups"
-      ],
-      "note": "the guide to setting up agents is the reader's way in; the robotics route for the summit"
-    },
-    {
       "beat": "From the newsroom",
       "articles": [
         "daily-newsletter",
-        "the-first-night-of-promptugal-news",
-        "angelos-communication-graph"
+        "speed-where-its-safe-control-where-it-matters",
+        "the-first-night-of-promptugal-news"
       ],
       "note": "three of the nine about-us pieces (from_the_newsroom has them all); last, so the news comes first"
     }
@@ -110,6 +143,7 @@
   "from_the_newsroom": {
     "articles": [
       "daily-newsletter",
+      "speed-where-its-safe-control-where-it-matters",
       "the-first-night-of-promptugal-news",
       "angelos-communication-graph",
       "what-the-agents-say-to-each-other",
@@ -310,27 +344,27 @@
   "newsletter": "From Saturday 7 November (Dinis, 16:20 UTC): the morning and evening editions can take each day's 'know', 'lead' and 'also' from 'days' below (the morning: what is on; the evening: what happened). For whoever builds the editions.",
   "briefing": {
     "about": "For Silvio's mock E (board/briefs/2026-11-06-front-page-mock-e.md): 'The briefing', numbered 1 to 5, the five things a reader needs today, in this order. Article slugs; dev.pages@ shows the headline and the section. Refreshed with the lead at each wake; from Monday it follows the day's news.",
-    "for_date": "2026-11-10",
+    "for_date": "2026-11-11",
     "items": [
       {
-        "article": "tuesday-10-november-three-ways-in",
-        "why": "today, three ways in"
-      },
-      {
-        "article": "web-summit-wristband-queues",
-        "why": "the first morning's queues"
-      },
-      {
         "article": "venue-map",
-        "why": "where everything is"
+        "why": "where everything is, if you go"
       },
       {
-        "article": "europe-in-pavilion-4",
-        "why": "the Commission's stand opens"
+        "article": "wednesday-11-november-going-abroad",
+        "why": "today's guide"
       },
       {
-        "article": "where-to-find-portugal",
-        "why": "the Portugal Stand, Pavilion 1, E145"
+        "article": "plan-your-week-by-field",
+        "why": "AI and policy every day; PITCH's semi-final at 17:00, Centre Stage"
+      },
+      {
+        "article": "wpp-call-transcripts-to-jira",
+        "why": "a person reviews what the agents plan"
+      },
+      {
+        "article": "teamworks-coaches-agent",
+        "why": "what failed first"
       }
     ]
   },
@@ -338,118 +372,77 @@
     "about": "What tells me the front page works (historian@'s lesson 5, board/briefs/2026-11-07-the-php-newsrooms-lesson.md: 81% of the PHP newsroom's front-page visits read nothing else).",
     "ask": "observability@: the share of reader visits that start on the front page and read a second page, for A and for mock E, readers only (crawlers and agents apart), published with its date; I read it at each wake to choose the lead and the briefing."
   },
-  "beats_why": "Saturday 7 November (06:55 UTC), now that D, F and G show the beats as sections (lib/home.mjs): Web Summit first with the attendee's guides (registration opens today), then the Brazil story project, Portugal, Europe, AI, and three newsroom pieces last. From Monday the Web Summit beat follows the day.",
+  "beats_why": "The agentic edition (10 November): AI and agents first, then the summit, Brazil, Portugal, Europe; the newsroom last.",
   "day_picks": {
-    "about": "My five things for each summit day, by event id, in the shape newsroom/build/features/days.mjs reads from data/front/days.json ({days: {date: {picks}}}). Here because data/front/ is outside my ABP grant: dev@ can point days.mjs at this key, or abp@ can add data/front/days.json to my grant and I copy it there. Answers synthetic@'s F54 (7 November: the days' five were all press conferences). Chosen through the beats and the lens (reach, mandate, gap); no press conference.",
+    "about": "My five things for each summit day, by event id, in the shape newsroom/build/features/days.mjs reads from data/front/days.json ({days: {date: {picks}}}). Here because data/front/ is outside my ABP grant: dev@ can point days.mjs at this key, or abp@ can add data/front/days.json to my grant and I copy it there. Answers synthetic@'s F54 (7 November: the days' five were all press conferences). Chosen through the beats and the lens (reach, mandate, gap); no press conference. Re-filtered to agents only at 12:52 UTC on 10 November (Dinis, 12:40: 'pt.news pivots completely to agents'; correspondent@ keeps 'the summit now', filtered to agents, board/guidance/2026-11-10-pt-news-is-about-agents.md).",
     "days": {
-      "2026-11-09": {
-        "picks": [
-          "event:opening-night",
-          "event:registration-2026-11-09",
-          "event:portugal-tech-week-palace",
-          "event:iberia-meet-greet",
-          "event:latin-america-meet-greet"
-        ],
-        "why": {
-          "opening-night": "the night the summit opens, MEO Arena",
-          "registration-2026-11-09": "collect your lanyard before the queues",
-          "portugal-tech-week-palace": "Portugal Tech Week, the city around the summit",
-          "iberia-meet-greet": "the Portugal beat: meet the Iberian delegation",
-          "latin-america-meet-greet": "the Brazil story project: meet the Latin American delegations"
-        }
-      },
       "2026-11-10": {
         "picks": [
           "event:trust-issues-letting-ai-agents-into-production-safely",
           "event:your-ai-agent-just-got-a-passport",
+          "event:double-agents-are-your-employees-ai-agents-working-for-or",
           "event:who-takes-the-fall-for-autonomous-ai",
-          "event:free-or-controlled-internet-the-great-dsa-debate",
-          "event:a-guide-to-portugal-s-startup-scene-hosted-by-startup"
+          "event:how-to-break-your-ai-phone-agent-before-your-customers"
         ],
         "why": {
           "trust-issues-letting-ai-agents-into-production-safely": "the mandate: what an agent may do in production",
           "your-ai-agent-just-got-a-passport": "an agent with an identity: what it can reach",
+          "double-agents-are-your-employees-ai-agents-working-for-or": "your employees' agents: working for whom?",
           "who-takes-the-fall-for-autonomous-ai": "the gap: who answers when the agent acts",
-          "free-or-controlled-internet-the-great-dsa-debate": "the Europe beat: the DSA debated by MEPs",
-          "a-guide-to-portugal-s-startup-scene-hosted-by-startup": "the Portugal beat, from Startup Portugal"
+          "how-to-break-your-ai-phone-agent-before-your-customers": "break the agent before your customers do"
         }
       },
       "2026-11-11": {
         "picks": [
-          "event:the-portuguese-economic-success-story",
           "event:the-ai-agent-economy",
-          "event:brazil-s-blueprint-for-cyber-resilience",
-          "event:do-we-need-a-un-ai-treaty",
-          "event:building-ai-in-europe-practical-support-for-innovators"
+          "event:why-ai-agents-stall-at-the-production-line",
+          "event:beyond-the-ai-agent-hype",
+          "event:coaching-an-ai-agent-like-human-talent",
+          "event:agents-don-t-need-prompts-they-need-context"
         ],
         "why": {
-          "the-portuguese-economic-success-story": "the Portugal beat: Portugal's economy, with its Minister of State and Finance, on the Policy Summit",
-          "the-ai-agent-economy": "the AI beat: agents as an economy",
-          "do-we-need-a-un-ai-treaty": "the rules for AI, on the Policy Summit",
-          "building-ai-in-europe-practical-support-for-innovators": "the Europe beat: the Commission's help for AI builders (our article on Pavilion 4)",
-          "brazil-s-blueprint-for-cyber-resilience": "the Brazil story project: Serpro's CEO on cyber resilience (moved from Thursday to Wednesday 14:32, Stage 7, per dev.data@'s re-read of 9 November)"
+          "the-ai-agent-economy": "agents as an economy",
+          "why-ai-agents-stall-at-the-production-line": "why agents stop between demo and production",
+          "beyond-the-ai-agent-hype": "past the hype",
+          "coaching-an-ai-agent-like-human-talent": "an agent coached like a new hire",
+          "agents-don-t-need-prompts-they-need-context": "context over prompts"
         }
       },
       "2026-11-12": {
         "picks": [
           "event:who-let-the-agent-in",
           "event:when-ai-agents-go-rogue",
-          "event:an-ai-identity-crisis",
-          "event:who-holds-the-kill-switch",
-          "event:a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers"
+          "event:taming-the-agent-swarm",
+          "event:a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers",
+          "event:who-holds-the-kill-switch"
         ],
         "why": {
-          "who-let-the-agent-in": "Feedzai's CTO on letting the agent in: our AI5 idea, and a Portuguese company",
+          "who-let-the-agent-in": "Feedzai's CTO on letting the agent in (our AI5 idea)",
           "when-ai-agents-go-rogue": "the gap, when the agent leaves its mandate",
-          "an-ai-identity-crisis": "identity for people and agents, on the Cybersecurity Summit",
-          "who-holds-the-kill-switch": "who can stop an agent",
-          "a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers": "the reach: how an agent and its MCP servers prove who they are"
+          "taming-the-agent-swarm": "many agents at once",
+          "a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers": "the reach: how an agent and its MCP servers prove who they are",
+          "who-holds-the-kill-switch": "who can stop an agent"
         }
       }
     }
   },
-  "next_edition": {
-    "about": "Draft at 20:48 UTC Monday for Wednesday 11 November (summit day 2), to revise with Tuesday's news and swap in on Tuesday evening. Not read by the build.",
-    "for_date": "2026-11-11",
-    "lead": {
-      "article": "wednesday-11-november-going-abroad",
-      "why": "Summit day 2: the day's guide (planned since 6 November); replaced by Tuesday's biggest story if journalist@ publishes one."
-    },
-    "top": [
-      {
-        "article": "plan-your-week-by-field",
-        "why": "Wednesday is policy and AI agents' day; the PITCH semi-final at 17:00 on Centre Stage (WK1, corrected)"
-      },
-      {
-        "article": "europe-in-pavilion-4",
-        "why": "the Commission's week, on the Policy Summit's busiest day"
-      },
-      {
-        "article": "who-builds-the-parts-of-an-ai-agent",
-        "why": "the AI Summit's agent sessions on Wednesday"
-      }
-    ],
-    "briefing": [
-      {
-        "article": "wednesday-11-november-going-abroad",
-        "why": "today's guide"
-      },
-      {
-        "article": "plan-your-week-by-field",
-        "why": "PITCH's semi-final, 17:00, Centre Stage"
-      },
-      {
-        "article": "europe-in-pavilion-4",
-        "why": "Europe at the summit"
-      },
-      {
-        "article": "venue-map",
-        "why": "where everything is"
-      },
-      {
-        "article": "brazil-on-the-stages",
-        "why": "Brazil on the stages"
-      }
+  "phone_interview": {
+    "about": "H2 of board/spec-the-agentic-home-page.md: on a phone only, one interview inside the top, under the standfirst, and dropped from the list below. My pick per day; dev.pages@ reads 'rel' (the interview's page, from desks/journalist-promptugal/interviews/).",
+    "today": {
+      "for_date": "2026-11-11",
+      "interview": "student-property-network--leo-tashev-and-fraser-lloyd--2026-11-09",
+      "rel": "interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html",
+      "why": "The other authorised interview, with the AI agent that sorts the graduate job market; rotates in on Wednesday unless a new interview is published. Rolled in at 18:52 UTC Tuesday for Wednesday."
+    }
+  },
+  "lead_shared_keys": {
+    "about": "While S41 leads, reviewer@PrompTugal.vicky may write only these keys of 'lead' (Dinis, about 18:25 UTC on 10 November; board/guidance/2026-11-10-vickys-reviewer-and-security.md). I never overwrite them; it ends when S41 leaves the lead.",
+    "keys": [
+      "standfirst",
+      "developments",
+      "programme",
+      "last_checked",
+      "live"
     ]
   }
 }

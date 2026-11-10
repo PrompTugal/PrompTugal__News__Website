@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S42",
+  "type": "story",
+  "title": "What Lovable deleted: its CEO on rebuilding an AI coding agent",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:x-lovable-blog",
+    "evidence:x-websummit-future-of-ai"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-10-1410.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-1410.json",
+      "desks/journalist-vicky/drafts/S42-what-lovable-deleted.md",
+      "desks/reviewer-vicky/reviews/S42.md",
+      "content/articles/what-lovable-deleted.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S42-what-lovable-deleted.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S42.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/what-lovable-deleted.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S42.md"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-10",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-10-1410.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-10",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S42-what-lovable-deleted.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-10",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/what-lovable-deleted.md"
+    }
+  ]
+}

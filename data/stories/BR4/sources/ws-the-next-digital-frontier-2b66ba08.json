@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-the-next-digital-frontier-2b66ba08",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/2b66ba08-e60a-43a0-9f78-8f81c380af59/the-next-digital-frontier/",
+  "title": "The next digital frontier (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'The next digital frontier', November 11, 2026, 10:30 to 10:50 (Lisbon time), Stage 11, track Policy Summit. Description: What will the next generation of digital economies look like? Leaders from Portugal, the UAE, and Sao Paulo share their experiences of building technology ecosystems, attracting investment and harnessing AI to transform government, business"
+}

@@ -33,7 +33,8 @@
               "hosts",
               "partner_of",
               "built_on",
-              "sells_on"
+              "sells_on",
+              "offers_alternative_to"
             ]
           },
           "to": {

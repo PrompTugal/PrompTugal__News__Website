@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-136 cards (136 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T21:57:52Z at site v0.1.908; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+147 cards (147 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T19:04:31Z at site v0.1.1058; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 136 |
+| `PUB.NEWS` | 147 |
 
 Newest five accessions:
 
-- `ACC-20261109-0426` [S36: Portugal on the programme: a masterclass, a meetup and three announcements](https://promptugal.news/newsroom/stories/S36/) (`PUB.NEWS S36`)
-- `ACC-20261109-0425` [S35: Web Summit's press conferences, day by day: what is announced and when](https://promptugal.news/newsroom/stories/S35/) (`PUB.NEWS S35`)
-- `ACC-20261109-0387` [wristband-colours: Your Web Summit wristband and badge: what they're for, and who is who](https://promptugal.news/newsroom/stories/wristband-colours/) (`PUB.NEWS wristband-colours`)
-- `ACC-20261109-0386` [google-workspace: Agents on Google Workspace, step by step](https://promptugal.news/newsroom/stories/google-workspace/) (`PUB.NEWS google-workspace`)
-- `ACC-20261109-0385` [S34: Where to find Portugal at Web Summit: Pavilion 1, stand E145](https://promptugal.news/newsroom/stories/S34/) (`PUB.NEWS S34`)
+- `ACC-20261110-0235` [S43: Wednesday's alert: what the government has closed across Portugal](https://promptugal.news/newsroom/stories/S43/) (`PUB.NEWS S43`)
+- `ACC-20261110-0221` [S42: What Lovable deleted: its CEO on rebuilding an AI coding agent](https://promptugal.news/newsroom/stories/S42/) (`PUB.NEWS S42`)
+- `ACC-20261110-0220` [S41: Red wind warning for Lisbon on Wednesday: what it means for Web Summit](https://promptugal.news/newsroom/stories/S41/) (`PUB.NEWS S41`)
+- `ACC-20261110-0034` [Decided: the design flip for the agentic edition, three Portuguese directions](https://promptugal.news/newsroom/design/decisions/the-design-flip/) (`PUB.NEWS the-design-flip`)
+- `ACC-20261110-0033` [protocols: Six people, six agent protocols, one week](https://promptugal.news/newsroom/stories/protocols/) (`PUB.NEWS protocols`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

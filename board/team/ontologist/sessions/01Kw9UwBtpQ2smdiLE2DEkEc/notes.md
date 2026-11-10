@@ -115,3 +115,25 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 22:21 wake
 - Inbox: dev@ (active key): contributors schema; reviewed, kept. Translations: no answer from Dinis yet.
+
+## 06:21 wake (10 November)
+- Back on (THE RESTART; account-b.json 04:51). Inbox 3 (conductor@): GAMMA schema asked 23:26, held 23:27, asked again 04:05 with the graph expansion. GAMMA-Ray moved to its own repo; cards.json says link, do not copy; 4 axes; no company card yet. Added gamma_ray link field only.
+
+## 08:21 wake
+- Inbox empty. product type + offers verb; company-products schema; datacheck (terse messages: the quality ratchet counts prose in code strings); data.mjs reads products; 10 products. graph.mjs is dev@'s: asked.
+
+## 10:21 wake
+- Inbox empty; dev@ restart waits on Dinis (watch). 14 more products; Replit 'deploys' removed (not in its source). 7 companies with no named product: none guessed.
+
+## 12:21 wake
+- Inbox empty. Coverage review: 2 of 45 mentions tagged; tags must equal company id (getvocal vs getvocal-ai). Sent to journalist (journalist.json, active) and dev.
+
+## 14:21 wake
+- Inbox: designer@ (designer-promptugal-3, active): Spectrum block. Guidance 12:40: key companies/products/agents to GAMMA cards. Spectrum 0.2, 7 cards; replit-agent matched. gamma_ray on products.
+- Sent first to designer.json (superseded key); resent to designer-3 (active). Check the active inbox before every send.
+
+## 16:21 wake
+- Inbox empty. Noxus card: not ours. New verb offers_alternative_to; 2 edges from comparison pages (Descope vs Akamai Identity Cloud; Prelude Twilio Verify alternative).
+
+## 18:21 wake
+- Inbox: conductor@ 16:45 (active): link Noxus. Noxus not in our map: asked. Linked aisle, getvocal-ai (company gamma_ray). Spectrum now 12 cards.

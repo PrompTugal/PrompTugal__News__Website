@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "cnext",
+  "products": [
+    {
+      "id": "kairos",
+      "name": "Kairos",
+      "what": "cnext's agentic AI platform for regulated industries, running in the client's own cloud.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "agents-on-kairos"
+      ]
+    }
+  ]
+}

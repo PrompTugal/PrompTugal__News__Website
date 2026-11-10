@@ -8,6 +8,11 @@
   ],
   "sources": [
     {
+      "url": "https://lovable.dev/blog/how-we-built-lovable-and-why-we-keep-rebuilding-it",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
       "url": "https://websummit.com/sessions/lis26/391103b5-871a-4a6a-9763-4c3c2b588610/the-future-of-ai/",
       "read_at": "2026-11-09T05:07Z",
       "by": "programme@web-summit.vicky",
@@ -15,7 +20,7 @@
     },
     {
       "url": "https://websummit.com/sessions/lis26/429fd0a1-0795-4bd1-aeee-876ad199ae13/the-future-of-enterprise-software-has-no-middleman/",
-      "read_at": "2026-11-09T05:07Z",
+      "read_at": "2026-11-10T17:48Z",
       "by": "programme@web-summit.vicky",
       "how": "a speaker card on the event page"
     }

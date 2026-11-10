@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "crowdstrike",
+  "products": [
+    {
+      "id": "charlotte-ai",
+      "name": "Charlotte AI",
+      "what": "An agentic AI security analyst on the Falcon platform: triages detections, and the team decides.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "detection-triage"
+      ]
+    }
+  ]
+}

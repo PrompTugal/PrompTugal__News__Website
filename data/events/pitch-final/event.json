@@ -48,16 +48,16 @@
     },
     {
       "person": "person:rocio-wu",
-      "as_listed": "Rocio Wu (Partner, F-Prime Capital Partners)",
+      "as_listed": "Rocio Wu (Partner, F-Prime Capital)",
       "role": "Partner",
-      "organisation": "F-Prime Capital Partners",
-      "org": "organisation:f-prime-capital-partners"
+      "organisation": "F-Prime Capital",
+      "org": "organisation:f-prime-capital"
     }
   ],
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/73e9fb82-c650-4609-9b8c-63e7d0e47610/pitch-final/",
   "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
-  "read_at": "2026-11-09T05:07Z",
+  "read_at": "2026-11-10T17:48Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -67,6 +67,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 201
+    "item": 200
   }
 }

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "ledger",
+  "products": [
+    {
+      "id": "ledger-agent-intent",
+      "name": "Ledger Agent Intent",
+      "what": "In beta: agents propose and prepare transactions; the person approves on a Ledger signer, which alone signs.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "agent-proposes-you-sign"
+      ]
+    }
+  ]
+}

@@ -2593,6 +2593,342 @@
     "source": "desks/journalist-vicky/drafts/img/S36-cover-card-2026-11-09.svg (drawn by journalist-portugal@PrompTugal.vicky); rendered with Chromium",
     "checked": "every label against the article, 9 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
    }
+  },
+  {
+   "slug": "gravitee-agent-security-survey",
+   "theme": "paper",
+   "layout": "bars",
+   "size": "thumb",
+   "file": "gravitee-agent-security-survey--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S40-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's 80.9% and 14.4%); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "gravitee-agent-security-survey",
+   "theme": "ink",
+   "layout": "bars",
+   "size": "thumb",
+   "file": "gravitee-agent-security-survey--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S40-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's 80.9% and 14.4%); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "gravitee-agent-security-survey",
+   "theme": "paper",
+   "layout": "bars",
+   "size": "card",
+   "file": "gravitee-agent-security-survey--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S40-gravitee-survey-2026-11-10.svg (drawn by journalist@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "gravitee-agent-security-survey",
+   "theme": "ink",
+   "layout": "bars",
+   "size": "card",
+   "file": "gravitee-agent-security-survey--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S40-gravitee-survey-2026-11-10.svg (drawn by journalist@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "teamworks-coaches-agent",
+   "theme": "paper",
+   "layout": "steps",
+   "size": "thumb",
+   "file": "teamworks-coaches-agent--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S37-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's the five steps of the assistant); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "teamworks-coaches-agent",
+   "theme": "ink",
+   "layout": "steps",
+   "size": "thumb",
+   "file": "teamworks-coaches-agent--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S37-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's the five steps of the assistant); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "teamworks-coaches-agent",
+   "theme": "paper",
+   "layout": "steps",
+   "size": "card",
+   "file": "teamworks-coaches-agent--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S37-cover-card-2026-11-10.svg (drawn by the reviewer from the article's diagram by journalist-ai@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "teamworks-coaches-agent",
+   "theme": "ink",
+   "layout": "steps",
+   "size": "card",
+   "file": "teamworks-coaches-agent--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S37-cover-card-2026-11-10.svg (drawn by the reviewer from the article's diagram by journalist-ai@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "glovo-restaurant-agents-getvocal",
+   "theme": "paper",
+   "layout": "steps",
+   "size": "thumb",
+   "file": "glovo-restaurant-agents-getvocal--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S38-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's 80 agents on WhatsApp); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "glovo-restaurant-agents-getvocal",
+   "theme": "ink",
+   "layout": "steps",
+   "size": "thumb",
+   "file": "glovo-restaurant-agents-getvocal--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S38-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's 80 agents on WhatsApp); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "glovo-restaurant-agents-getvocal",
+   "theme": "paper",
+   "layout": "steps",
+   "size": "card",
+   "file": "glovo-restaurant-agents-getvocal--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S38-cover-card-2026-11-10.svg (drawn by journalist-connections@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "glovo-restaurant-agents-getvocal",
+   "theme": "ink",
+   "layout": "steps",
+   "size": "card",
+   "file": "glovo-restaurant-agents-getvocal--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S38-cover-card-2026-11-10.svg (drawn by journalist-connections@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "wpp-call-transcripts-to-jira",
+   "theme": "paper",
+   "layout": "steps",
+   "size": "thumb",
+   "file": "wpp-call-transcripts-to-jira--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S39-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's the person who reviews each plan); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "wpp-call-transcripts-to-jira",
+   "theme": "ink",
+   "layout": "steps",
+   "size": "thumb",
+   "file": "wpp-call-transcripts-to-jira--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S39-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's the person who reviews each plan); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "wpp-call-transcripts-to-jira",
+   "theme": "paper",
+   "layout": "steps",
+   "size": "card",
+   "file": "wpp-call-transcripts-to-jira--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S39-cover-card-2026-11-10.svg (drawn by journalist-connections@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "wpp-call-transcripts-to-jira",
+   "theme": "ink",
+   "layout": "steps",
+   "size": "card",
+   "file": "wpp-call-transcripts-to-jira--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S39-cover-card-2026-11-10.svg (drawn by journalist-connections@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 10 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's one-time approval (standing answer 30)"
+   }
+  },
+  {
+   "slug": "red-wind-warning-lisbon-wednesday",
+   "theme": "paper",
+   "layout": "timeline",
+   "size": "card",
+   "file": "red-wind-warning-lisbon-wednesday--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S41-warnings-2026-11-10.svg (drawn by journalist@PrompTugal.vicky, labels raised by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and IPMA's open data (read 14:34 UTC), 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word (S41 only)"
+   }
+  },
+  {
+   "slug": "red-wind-warning-lisbon-wednesday",
+   "theme": "ink",
+   "layout": "timeline",
+   "size": "card",
+   "file": "red-wind-warning-lisbon-wednesday--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S41-warnings-2026-11-10.svg (drawn by journalist@PrompTugal.vicky, labels raised by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and IPMA's open data (read 14:34 UTC), 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word (S41 only)"
+   }
+  },
+  {
+   "slug": "red-wind-warning-lisbon-wednesday",
+   "theme": "paper",
+   "layout": "text",
+   "size": "thumb",
+   "file": "red-wind-warning-lisbon-wednesday--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S41-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's IPMA wind warning); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and IPMA's open data (read 14:34 UTC), 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word (S41 only)"
+   }
+  },
+  {
+   "slug": "red-wind-warning-lisbon-wednesday",
+   "theme": "ink",
+   "layout": "text",
+   "size": "thumb",
+   "file": "red-wind-warning-lisbon-wednesday--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S41-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article's IPMA wind warning); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and IPMA's open data (read 14:34 UTC), 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word (S41 only)"
+   }
+  },
+  {
+   "slug": "what-lovable-deleted",
+   "theme": "paper",
+   "layout": "list",
+   "size": "card",
+   "file": "what-lovable-deleted--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S42-cover-card-2026-11-10.svg (drawn by journalist-ai@PrompTugal.vicky, labels adjusted by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Lovable's post, 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "what-lovable-deleted",
+   "theme": "ink",
+   "layout": "list",
+   "size": "card",
+   "file": "what-lovable-deleted--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S42-cover-card-2026-11-10.svg (drawn by journalist-ai@PrompTugal.vicky, labels adjusted by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Lovable's post, 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "what-lovable-deleted",
+   "theme": "paper",
+   "layout": "list",
+   "size": "thumb",
+   "file": "what-lovable-deleted--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S42-cover-thumb-2026-11-10.svg (drawn by journalist-ai@PrompTugal.vicky, labels adjusted by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Lovable's post, 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
+  },
+  {
+   "slug": "what-lovable-deleted",
+   "theme": "ink",
+   "layout": "list",
+   "size": "thumb",
+   "file": "what-lovable-deleted--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-10",
+    "source": "desks/journalist-vicky/drafts/img/S42-cover-thumb-2026-11-10.svg (drawn by journalist-ai@PrompTugal.vicky, labels adjusted by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Lovable's post, 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
+   }
   }
  ]
 }

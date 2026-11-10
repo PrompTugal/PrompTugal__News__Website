@@ -1,0 +1,26 @@
+{
+  "agent": "social.watch@PrompTugal.dinis",
+  "budget": {
+    "usd_per_day": 20,
+    "set_by": "Dinis, 10 November 2026, about 18:42 UTC",
+    "tracked_by": "accountant@PrompTugal.dinis"
+  },
+  "openrouter": [
+    {
+      "at": "2026-11-10T18:46Z",
+      "model": "perplexity/sonar",
+      "calls": 1,
+      "usd": 0.005,
+      "what": "helper test: are the summit's dates confirmed (sweep 1)"
+    },
+    {
+      "at": "2026-11-10T18:53Z",
+      "model": "perplexity/sonar",
+      "calls": 1,
+      "usd": 0.0052,
+      "what": "wake 18:50: has Web Summit announced Wednesday? (no; last organiser line The Portugal News 14:29)"
+    }
+  ],
+  "today_usd": 0.0102,
+  "subscription_note": "Sweep 1 also ran seven Sonnet sub-agents (about 690k sub-agent tokens in all), on the Claude subscription, not OpenRouter."
+}

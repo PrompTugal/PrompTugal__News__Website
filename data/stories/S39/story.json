@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S39",
+  "type": "story",
+  "title": "How WPP turns call transcripts into reviewed Jira plans",
+  "beat": "Connections: the summit",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:v-mastra-wpp"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-10-0110.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-0110.json",
+      "desks/journalist-vicky/drafts/S39-wpp-call-transcripts-to-jira.md",
+      "desks/reviewer-vicky/reviews/S39.md",
+      "content/articles/wpp-call-transcripts-to-jira.md"
+    ]
+  },
+  "assignee": "journalist-connections@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S39-wpp-call-transcripts-to-jira.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S39.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-10"
+    }
+  ],
+  "article": {
+    "path": "content/articles/wpp-call-transcripts-to-jira.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-10T01:10Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-10-0110.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-10",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S39-wpp-call-transcripts-to-jira.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-10",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S39.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-10",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "content/articles/wpp-call-transcripts-to-jira.md"
+    }
+  ]
+}

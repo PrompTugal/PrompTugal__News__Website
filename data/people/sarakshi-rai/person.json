@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "sarakshi-rai",
+  "type": "person",
+  "name": "Sarakshi Rai",
+  "role": "Deputy Managing Editor",
+  "organisation": "The Hill",
+  "org": "organisation:hill",
+  "listings": [
+    {
+      "role": "Deputy Managing Editor",
+      "organisation": "The Hill",
+      "org": "organisation:hill",
+      "event": "event:what-comes-after-the-blue-wave",
+      "source": "https://websummit.com/sessions/lis26/6c621c75-9688-4416-99e1-d9afb195f598/what-comes-after-the-blue-wave/",
+      "read_at": "2026-11-10T17:48Z",
+      "by": "programme@web-summit.vicky"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/"
+    ]
+  }
+}

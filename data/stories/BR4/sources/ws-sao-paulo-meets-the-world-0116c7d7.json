@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-sao-paulo-meets-the-world-0116c7d7",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/0116c7d7-8cb7-430e-b3f2-5fbf0409dbd8/sao-paulo-meets-the-world/",
+  "title": "SÃO PAULO meets the World (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'SÃO PAULO meets the World', November 11, 2026, 15:30 to 17:00 (Lisbon time), E176, track Meetup. Description: Meet startups from across the State and City of São Paulo, Brazil, taking innovation global and representing Latin America’s most dynamic innovation ecosystem. Connect with founders and leaders in a session by the São Paulo State Secretaria"
+}

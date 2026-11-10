@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "company-products.schema.json",
+  "title": "A company's named products (data/companies/<id>/products.json)",
+  "description": "THE RESTART (Dinis, 10 November 2026, 02:40 UTC: companies as a graph, evidence behind every node): the products and platforms a company we follow names as its own, agentic products first. Each cites a source in the company's sources.json and, where mapped, the flows (flows.json) that describe it. Kept by the ontologist.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "company",
+    "products"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "company": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "products": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "what",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "what": {
+            "type": "string",
+            "minLength": 1
+          },
+          "agentic": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "flows": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          },
+          "gamma_ray": {
+            "description": "The product's GAMMA-Ray Spectrum card, as a link only (GAMMA-Ray's cards.json: 'Link to a card; do not copy it: a card is corrected in place'). Set only when a card for this very product exists; Spectrum cards rate products and deployments, so this is where most links go.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "card"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "card": {
+                "type": "string",
+                "pattern": "^https://gamma-ray\\.sgit\\.ai/spectrum/cards/[a-z0-9-]+/$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-medtech-revolution-c8e00053",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/c8e00053-cf25-4c0a-9147-cb61936c3b64/medtech-revolution/",
+  "title": "Medtech revolution (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'Medtech revolution', November 12, 2026, 14:00 to 15:00 (Lisbon time), Stage 6, track Startup Showcase. Description: Join startups as they delve into the latest advancements in the world of medical technology, and learn how these developments are significantly improving patient care and wellbeing."
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-brazil-tourism-happy-hour-df39f8fe",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/df39f8fe-08ea-4132-90cb-1549c62f4129/brazil-tourism-happy-hour/",
+  "title": "Brazil Tourism Happy Hour (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'Brazil Tourism Happy Hour', November 11, 2026, 16:00 to 17:00 (Lisbon time), E369, track Stand events. Description: Discover innovative Brazilian traveltechs through fast-paced pitches, followed by a networking happy hour connecting tourism, travel, and technology industry leaders."
+}

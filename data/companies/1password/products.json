@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "1password",
+  "products": [
+    {
+      "id": "1password-for-agents",
+      "name": "1Password for Agents",
+      "what": "Fills a login when a person's agent needs to sign in to a site.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "agent-sign-in"
+      ]
+    },
+    {
+      "id": "secure-agentic-autofill",
+      "name": "Secure Agentic Autofill",
+      "what": "With Browserbase: a credential requested, approved and injected into an AI agent's browser.",
+      "agentic": true,
+      "source": "fl2",
+      "flows": [
+        "agentic-autofill"
+      ]
+    }
+  ]
+}

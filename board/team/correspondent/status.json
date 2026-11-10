@@ -1,8 +1,8 @@
 {
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
-  "state": "working (account B; the summit set, every two hours at :41 UTC from 9 November)",
-  "updated": "2026-11-09T22:55Z",
+  "state": "working (account B; THE RESTART: the agentic edition)",
+  "updated": "2026-11-10T18:55Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -45,11 +45,18 @@
     "Wake 14:41 Monday: Tuesday's edition prepared in front-page.json 'next_edition' (lead: the Tuesday guide; top: WK1, IBM's showcase, wristband queues; briefing of five) for a one-step swap at the evening wake",
     "Wake 18:41 Monday (Opening Night): Tuesday's edition swapped in: the Tuesday guide leads summit day 1; top WK1, IBM's showcase, wristband queues; Tuesday's briefing",
     "Wake 20:41 Monday: Wednesday's edition drafted in 'next_edition' (the Wednesday guide leads unless Tuesday brings a bigger story), to revise with Tuesday's news",
-    "Wake 22:41 Monday: dev.data@'s re-read (Serpro's Brazil cyber resilience session moved from Thursday 16:10 to Wednesday 14:32, Stage 7): my day picks follow (Wednesday gains it, Thursday gains the MCP and agent-auth session); the two articles that still say Thursday passed to journalist@; three articles of 9 November placed (where to find Portugal, into Tuesday's briefing; Portugal on the programme; press conferences day by day)"
+    "Wake 22:41 Monday: dev.data@'s re-read (Serpro's Brazil cyber resilience session moved from Thursday 16:10 to Wednesday 14:32, Stage 7): my day picks follow (Wednesday gains it, Thursday gains the MCP and agent-auth session); the two articles that still say Thursday passed to journalist@; three articles of 9 November placed (where to find Portugal, into Tuesday's briefing; Portugal on the programme; press conferences day by day)",
+    "Wake 06:41 Tuesday (after THE BIG STOP, 9 Nov 23:30, and THE RESTART, 10 Nov 02:40): the agentic edition on the front page: Gravitee's agent security survey leads; GetVocal's agents for Glovo, WPP's reviewed plans and Teamworks's coaches' agent in the top three; the AI beat first with all four; the passes piece placed; Tuesday's briefing reworked; sherpa@'s R1 (no headline on the first phone screen) passed to dev@",
+    "Wake 08:41 Tuesday: Wednesday's edition reworked for the agentic edition (the GAMMA-Ray launch leads when published, fallback who builds an agent's parts; an interview in the top three when published; Gravitee, GetVocal; a briefing led by the day's guide)",
+    "Wake 10:41 Tuesday: designer@'s design flip (B, Calcada, round 3; board/spec-the-agentic-home-page.md): my H2 pick in front-page.json 'phone_interview' (Buzz Messaging AI today, Student Property Network on Wednesday); 'Speed where it's safe, control where it matters' in From the newsroom",
+    "Wake 12:41 Tuesday: Dinis's 12:40 pivot to agents ('the summit now', filtered to agents, is mine): the day pages' five a day re-filtered to agent sessions only (Tuesday afternoon, Wednesday, Thursday); the policy, Portugal and Brazil sessions stay in their beats",
+    "Wake 14:41 Tuesday: IPMA's red wind warning for Lisbon on Wednesday (midday to 21:00) leads the front page (safety news for every attendee on the summit's main day); Gravitee's survey to the top three; in Tuesday's and Wednesday's briefings and the Web Summit beat",
+    "Wake 16:41 Tuesday: 'What Lovable deleted' (its CEO on rebuilding an AI coding agent) into the top three, the AI beat and Wednesday's plan; the red wind warning keeps the lead; designer@'s round 4 asks nothing new of me (the summit now already filtered to agents)",
+    "Wake 18:41 Tuesday: Wednesday's edition in: S41 (the storm: red wind and, since 17:43, red rain warnings) keeps the lead (the GAMMA-Ray swap held; Dinis's case study); reviewer@PrompTugal.vicky's five S41 lead keys recorded in 'lead_shared_keys' and kept on every rewrite (Dinis, 18:25); top Gravitee, Lovable, GetVocal; Wednesday's briefing with the warning first; the phone's interview rolled to Student Property Network; sherpa@'s R5 and R6 passed to dev@; Noxus's GAMMA-Ray card waits on journalist@'s article"
   ],
   "next": [
-    "Tuesday 10 November, summit day 1: the lead follows the day's news as journalist@ publishes it; the 10 November debrief",
-    "Stage Wednesday's edition on Tuesday afternoon (the Wednesday guide, wednesday-11-november-going-abroad, and the PITCH semi-final at 17:00)"
+    "Wednesday 11 November: the storm leads while the warnings stand; the decision graph's focused page (the weather desk proposes) goes to the top when published; Noxus's GAMMA-Ray article to the top of the agentic edition when journalist@ publishes it",
+    "Thursday's edition: draft on Wednesday afternoon (the Cybersecurity Summit, all on Thursday)"
   ],
   "asks": [
     "security@: the two held Sebrae reports (BR5) still wait for your answer; they were only in the first session's scratchpad and must be found again if they may be cited",
@@ -280,8 +287,50 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "Day picks follow a programme change; three articles placed"
+    },
+    {
+      "started": "2026-11-10T06:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The agentic edition: Gravitee's survey leads; four agent stories placed"
+    },
+    {
+      "started": "2026-11-10T08:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Wednesday reworked for the agentic edition"
+    },
+    {
+      "started": "2026-11-10T10:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "H2 pick for the agentic home page; a newsroom piece placed"
+    },
+    {
+      "started": "2026-11-10T12:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The summit now, filtered to agents"
+    },
+    {
+      "started": "2026-11-10T14:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The red wind warning leads"
+    },
+    {
+      "started": "2026-11-10T16:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Lovable to the top three; the wind warning leads"
+    },
+    {
+      "started": "2026-11-10T18:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Wednesday's edition: the storm keeps the lead"
     }
   ],
-  "debrief": "board/team/correspondent/debriefs/2026-11-09-handover.md",
+  "debrief": "board/team/correspondent/debriefs/2026-11-10-handover.md",
   "session": "session_01Kw9UwBo8qpbApP4teBf7qK (account B); notes in board/team/correspondent/sessions/session_01Kw9UwBo8qpbApP4teBf7qK/"
 }

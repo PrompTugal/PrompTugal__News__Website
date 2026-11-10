@@ -3,7 +3,7 @@
   "about": "The derivation's report (newsroom/tools/derive.mjs): which organisation names as listed matched one of our companies and how, which did not (each is an organisation of its own), the near misses left unlinked for a person to decide, the \"where\" strings no place matches, the summit tracks bridged to a topic or not, and the company session links that resolve to no event. Derived, never hand-edited.",
   "counts": {
     "speaker_organisations_matched": 69,
-    "speaker_organisations_unmatched": 183,
+    "speaker_organisations_unmatched": 184,
     "near_misses": 0,
     "places_unmatched": 0,
     "tracks_mapped": 6,
@@ -445,6 +445,11 @@
         "count": 2
       },
       {
+        "as_listed": "Al Jazeera English",
+        "ref": "organisation:al-jazeera-english",
+        "count": 1
+      },
+      {
         "as_listed": "AltaIR Capital",
         "ref": "organisation:altair-capital",
         "count": 1
@@ -515,6 +520,11 @@
         "count": 1
       },
       {
+        "as_listed": "Berkeley SkyDeck Fund",
+        "ref": "organisation:berkeley-skydeck-fund",
+        "count": 1
+      },
+      {
         "as_listed": "Black Forest Labs",
         "ref": "organisation:black-forest-labs",
         "count": 1
@@ -523,11 +533,6 @@
         "as_listed": "Bloomberg",
         "ref": "organisation:bloomberg",
         "count": 2
-      },
-      {
-        "as_listed": "Build Collective",
-        "ref": "organisation:build-collective",
-        "count": 1
       },
       {
         "as_listed": "C-Lab",
@@ -655,8 +660,8 @@
         "count": 1
       },
       {
-        "as_listed": "F-Prime Capital Partners",
-        "ref": "organisation:f-prime-capital-partners",
+        "as_listed": "F-Prime Capital",
+        "ref": "organisation:f-prime-capital",
         "count": 1
       },
       {
@@ -687,7 +692,7 @@
       {
         "as_listed": "Fortune",
         "ref": "organisation:fortune",
-        "count": 3
+        "count": 2
       },
       {
         "as_listed": "Foundation Capital",
@@ -747,7 +752,7 @@
       {
         "as_listed": "Government of Portugal",
         "ref": "organisation:government-of-portugal",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Government of the State of Sao Paulo, Brazil",
@@ -772,11 +777,6 @@
       {
         "as_listed": "Grupo Renascença Multimédia",
         "ref": "organisation:grupo-renascenca-multimedia",
-        "count": 1
-      },
-      {
-        "as_listed": "H&M Group",
-        "ref": "organisation:h-and-m",
         "count": 1
       },
       {
@@ -807,6 +807,11 @@
       {
         "as_listed": "House Of Angular",
         "ref": "organisation:house-of-angular",
+        "count": 1
+      },
+      {
+        "as_listed": "Hub71",
+        "ref": "organisation:hub71",
         "count": 1
       },
       {
@@ -1085,6 +1090,11 @@
         "count": 1
       },
       {
+        "as_listed": "Siemens AG",
+        "ref": "organisation:siemens",
+        "count": 1
+      },
+      {
         "as_listed": "Simular",
         "ref": "organisation:simular",
         "count": 1
@@ -1110,18 +1120,8 @@
         "count": 1
       },
       {
-        "as_listed": "SkyDeck Ventures",
-        "ref": "organisation:skydeck-ventures",
-        "count": 1
-      },
-      {
         "as_listed": "Skyfall AI",
         "ref": "organisation:skyfall-ai",
-        "count": 1
-      },
-      {
-        "as_listed": "Smartex.ai",
-        "ref": "organisation:smartex-ai",
         "count": 1
       },
       {
@@ -1147,6 +1147,11 @@
       {
         "as_listed": "Stanford University",
         "ref": "organisation:stanford-university",
+        "count": 1
+      },
+      {
+        "as_listed": "Sumcap",
+        "ref": "organisation:sumcap",
         "count": 1
       },
       {
@@ -1197,7 +1202,12 @@
       {
         "as_listed": "The Guardian US",
         "ref": "organisation:guardian-us",
-        "count": 2
+        "count": 3
+      },
+      {
+        "as_listed": "The Hill",
+        "ref": "organisation:hill",
+        "count": 1
       },
       {
         "as_listed": "The Kobeissi Letter",
@@ -1227,7 +1237,7 @@
       {
         "as_listed": "The Washington Post",
         "ref": "organisation:washington-post",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "TikTok",
@@ -1252,11 +1262,6 @@
       {
         "as_listed": "UBTECH Robotics",
         "ref": "organisation:ubtech-robotics",
-        "count": 1
-      },
-      {
-        "as_listed": "UnHerd",
-        "ref": "organisation:unherd",
         "count": 1
       },
       {
@@ -1879,6 +1884,11 @@
         "count": 1
       },
       {
+        "as_listed": "Government of Portugal",
+        "ref": "organisation:government-of-portugal",
+        "count": 1
+      },
+      {
         "as_listed": "Granter",
         "ref": "organisation:granter",
         "count": 1
@@ -1892,6 +1902,11 @@
         "as_listed": "HaDEA (European Health and Digital Executive Agency)",
         "ref": "organisation:hadea",
         "count": 1
+      },
+      {
+        "as_listed": "IPMA",
+        "ref": "organisation:ipma",
+        "count": 3
       },
       {
         "as_listed": "ITI-LARSyS",
@@ -1947,6 +1962,11 @@
         "as_listed": "Keel",
         "ref": "organisation:keel",
         "count": 1
+      },
+      {
+        "as_listed": "Lovable",
+        "ref": "organisation:lovable",
+        "count": 2
       },
       {
         "as_listed": "Metropolitano de Lisboa",
@@ -2096,7 +2116,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 34
+        "count": 35
       },
       {
         "as_listed": "Xiaomi",

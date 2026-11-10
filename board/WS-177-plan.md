@@ -10,6 +10,123 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 18:36 UTC, 10 November
+
+- Snapshot 2026-11-10T1838Z on v0.1.1055: 8 screenshots, 0 errors.
+- **Unblocked:** dev@ and dev.pages@ are back on at Dinis's "Go dev" (conductor.b@, 1d0b2d8ec). Both told, in their inboxes: first the site-wide Front Page (`board/guidance/2026-11-10-the-front-page-default.md`; designer@ at 5c219474f found E on the home page only), then the GAMMA-Ray cards (ontologist@ linked AISLE and GetVocal AI, 67b187b80), then the graph-first companies page.
+- At Dinis's word in conductor@web-summit.dinis's session (2df8bfbb6): reviewer@PrompTugal.vicky may write only the five S41 lead keys; security@ covers Vicky's temporary team. correspondent@ told to carry the five keys over; conductor.B@PrompTugal.vicky told.
+- reporter.newsroom@: the storm trace to 45 steps. weather@PrompTugal.vicky: connectors, history, the decision graph, a storm-page proposal; conductor.B@ handed the page v1 to Vicky's dev@ as a preview.
+- security@ 18:05: 76 commits clean.
+- Inbox: 1 unsigned feedback message (id, time, length only).
+
+## Wake at 17:36 UTC, 10 November (three-hourly report)
+
+- Snapshot 2026-11-10T1742Z on v0.1.1044: 8 screenshots, 0 errors.
+- The work desk is up: reporter.newsroom@ traced the storm (S41) to 29 steps; journalist.newsroom@ filed draft 1 and the visualisers' materials. Their keys are in `board/keys.json`; inbox lanes issued to both, and to weather-vicky.
+- Vicky's team: the S41 home-page lead block (standfirst, programme line, developments, last checked) by dev@PrompTugal.vicky, verified by reviewer@.
+- accountant@: the cost case (agents that pay for themselves).
+- Inbox: 1 unsigned feedback message, kept as id, time and length only.
+- Still blocked: dev@ and dev.pages@ (account B) are off since THE BIG STOP; the site-wide Front Page theme, the GAMMA-Ray cards and the graph-first companies page wait on Dinis's go in conductor.b@'s session, or a dev session on account A.
+
+## Wake at 16:36 UTC, 10 November (stand-up brief 8)
+
+Site v0.1.1033. Snapshot 2026-11-10T1637Z, 0 errors. Inbox empty. The 14:36 and 15:36 wakes were missed: a worker restart, caught up at 15:38.
+
+- **Stand-up brief 8:** `board/editor-briefs/2026-11-10T1636Z.pdf`.
+- **The Front Page (E) is the home page's default**, live at 15:50 at Dinis's word (08df4b46). The site-wide theme is with designer@; the iOS app with Indi's team (relayed).
+- **security@ 16:05:** 49 commits clean. ontologist@ added offers_alternative_to. Spend: 154.18 API-equivalent so far today.
+- **Blocked for eleven hours:** dev@ and dev.pages@ (conductor.b@, 5eece67a).
+
+## Wake at 13:36 UTC, 10 November
+
+Site v0.1.1007. Snapshot 2026-11-10T1338Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.
+
+- **Vicky's desk on her own account:** four more new keys (programme, checker, dev, curator). I issued their inboxes. Her web access is back (b1a7ebb7). S34 and S36 cross-links published.
+- **Offline mode:** Vicky's dev@ reverted our offline files "at Vicky's word" after curator@ hit a red gate (5724ac7b, 1cdd68e4), then restored them (17f22dd5). The offline files are live again.
+- **correspondent@:** the summit now, filtered to agents (8e3ad94a). conductor.b@ put dev.graphs@ on the visual newsroom (f0a7dd0d).
+- **Still blocked for eight hours:** dev@ and dev.pages@ on account B.
+
+## Wake at 12:36 UTC, 10 November
+
+Site v0.1.1000 (the thousandth release). Snapshot 2026-11-10T1238Z, 0 errors. Inbox empty.
+
+- **Vicky's ten agents moved to her own account** (2bc5ebad): new session keys, the old ones superseded, and 27 articles re-signed with reviewer-vicky-promptugal-b. security@ checked the seven new keys (01c43b52). I issued inboxes for the new keys (journalist, journalist-ai, -connections, -europe, -portugal and reviewer, each "-vicky-b", plus conductor.B.vicky, gamma-ray and jornal-silvio). Two of her journalists report no web access to their sources on her account.
+- **Design:** designer@ designed the GAMMA-Ray Spectrum block for a company page (H10). sherpa@ finds three of its four conditions met in round 3.
+- **ontologist@** measured coverage: only 2 of 45 company mentions reach the graph (eaf055e5).
+- **Still blocked for seven hours:** dev@ and dev.pages@ on account B.
+
+## Wake at 11:36 UTC, 10 November (three-hourly report)
+
+Site v0.1.987. Snapshot 2026-11-10T1138Z, 0 errors. Inbox empty.
+
+- **A quiet hour.** correspondent@ put the interview pick on the phone front (H2) and placed a newsroom piece (974a5395).
+- **Blocked for six hours:** dev@ and dev.pages@ still wait for Dinis in conductor.b@'s session (fb730d35, 10:48). The decided design flip, the GAMMA-Ray cards, the app frame and the graph companies page all wait on them.
+
+## Wake at 10:36 UTC, 10 November (stand-up brief 7)
+
+Site v0.1.983. Snapshot 2026-11-10T1038Z, 0 errors. Inbox empty.
+
+- **Stand-up brief 7:** `board/editor-briefs/2026-11-10T1036Z.pdf`, sent to Dinis.
+- **The design flip is decided:** variation B, round 3, with GAMMA-Ray's real cards and sherpa@'s four conditions; the home page spec is written (9706edc1).
+- **ontologist@:** 24 products in the graph (15f6be1f).
+- **Still blocked:** conductor.b@ (09:48) says dev@ and dev.pages@ need Dinis in its own session, not by relay (ea9079a6).
+
+## Wake at 09:36 UTC, 10 November
+
+Site v0.1.977. Snapshot 2026-11-10T0942Z, 0 errors. Inbox empty.
+
+- **Still blocked: dev@ and dev.pages@.** At 08:48 conductor.b@ again waited for Dinis's word in its own session (459c8406); the relayed "go" of 08:45 was not accepted.
+- **The design flip:** sherpa@ read it phones-first and recommends B, with C's order and the strip in words (eb44e9b9).
+- **Content:** correspondent@ reworked Wednesday's edition for the agentic edition. Angelo's writer@ published "Speed where it's safe, control where it matters".
+
+## Wake at 08:36 UTC, 10 November (three-hourly report)
+
+Site v0.1.970. Snapshot 2026-11-10T0837Z, 0 errors. Inbox empty.
+
+- **The design flip, round 2:** variation B with a GAMMA-Ray Spectrum strip in place of a ranked leaderboard, light and dark (designer@, 00ba9b27).
+- **ontologist@** added products as a type in the graph's data: ten, from the companies' own pages (bfc240fb).
+- **security@ 08:05:** 14 commits clean; the GAMMA-Ray cards to be pinned links only (ce18bd17).
+- **Still blocked since 05:36:** dev@ and dev.pages@ wait for Dinis in conductor.b@'s session (ee452f4f, 07:48). Nothing designed this morning can be built until then.
+
+## Wake at 07:36 UTC, 10 November
+
+Site v0.1.963. Snapshot 2026-11-10T0738Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **Still blocked:** dev@ and dev.pages@ need Dinis's word in conductor.b@'s own session (c4ce3f71, 06:48). The relayed "Go" is not enough for its check. Push sent to Dinis.
+- **The agentic edition is on the front page** (correspondent@, 4f01dd0b). The seven restarted agents on account B ran.
+- **accountant@** closed 9 November at 375.05 API-equivalent at least, and measured the big stop (56e1edc5).
+
+## Wake at 06:36 UTC, 10 November
+
+Site v0.1.957. Snapshot 2026-11-10T0636Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **Still blocked: dev@ and dev.pages@ are off.** conductor.b@'s 05:48 wake still waits for Dinis's word in its own session (f428ad39). My relay of his "Go" (05:46) reaches it at 06:48 at the earliest, and its check may still refuse. No dev@ commit since the restart.
+- **GAMMA-Ray:** security@ finds Dinis's confirmation matches its conditions, and will pass the cards when they come (2345638d). ontologist@ added the company's GAMMA-Ray card as a link (d627ca32).
+- **sherpa@** checked the home page on Day 1 on a phone: R1 to R4 (d0a0d5fe).
+
+## Wake at 05:36 UTC, 10 November (three-hourly report; summit day 1)
+
+Site v0.1.951. Snapshot 2026-11-10T0538Z, 0 errors. Inbox empty.
+
+- **Account B after the restart** (80673c59): seven agents back on at 04:51 (designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian). **Blocked: dev@ and dev.pages@.** conductor.b@'s safety check refused to re-enable them without Dinis's word in its own session. Until then the agentic edition, the GAMMA-Ray cards, the app frame and the graph-first companies page are not built. journalist@ runs elsewhere; dev.verify@ (no credit) and dev.portugal@ stay paused.
+- **Content:** the agenda of 10 November loaded (225 items, programme@). jornal@ puts agentic AI first.
+- **Android:** the demos are on main (58d7074c).
+
+## Wake at 04:36 UTC, 10 November (after THE BIG STOP and THE RESTART)
+
+Site v0.1.944. Snapshot 2026-11-10T0437Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **THE BIG STOP, 23:30 to about 02:40 UTC.** My stop report: `board/team/conductor/stop-report-2026-11-09.md`.
+- **THE RESTART** (Dinis about 02:40, relayed; `board/guidance/2026-11-10-the-restart.md`): my wake re-enabled by the main conductor. Account B's pieces sent at 04:05 to conductor.b@, journalist@, correspondent@, ontologist@, designer@, dev@ and security@.
+- **Done: the two interviews are live** on the home page (db2d1b54):
+  - https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/
+  - https://promptugal.news/interviews/student-property-network/leo-tashev-and-fraser-lloyd/
+
+  The pipeline page is at /newsroom/interviews/. Links sent to the main conductor.
+- **security@ 04:05:** 69 commits clean since the stop; S33 and S34 closed; conditions ahead for the GAMMA-Ray scores (417e2695).
+- **Held for Dinis's word in this session:** the first published GAMMA-Ray company scores. The main conductor quotes his 02:30 yes (WS-207 on the team site). Push sent at 04:06.
+- **Other desks:** Vicky's desk published S37 to S40 overnight under her one-time approval. Silvio's jornal@ news scout desk was onboarded.
+
 ## Wake at 22:36 UTC, 9 November
 
 Site v0.1.911. Snapshot 2026-11-09T2237Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.

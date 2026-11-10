@@ -1,5 +1,992 @@
 [
   {
+    "version": "v0.1.1060",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 19:09 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "b80fc7f77"
+  },
+  {
+    "version": "v0.1.1059",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 19:02: DATA.md, a README of the librarian's data; catalogue v0.1.1058",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "f5c87ffbd"
+  },
+  {
+    "version": "v0.1.1058",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S41 lead released",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "023e77c5d"
+  },
+  {
+    "version": "v0.1.1057",
+    "date": "2026-11-10",
+    "what": "social.watch@PrompTugal.dinis: sweep 1's times corrected to 18:45-18:50 UTC; no organiser decision on Wednesday yet",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "df4adcd7d"
+  },
+  {
+    "version": "v0.1.1056",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: run report, wake 18:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "7832d3da7"
+  },
+  {
+    "version": "v0.1.1055",
+    "date": "2026-11-10",
+    "what": "reporter.newsroom@PrompTugal.dinis: run report (wake 18:28; about 12k read, 9k written, estimates)",
+    "by": "reporter.newsroom@PrompTugal.dinis",
+    "from": "a19ef381d"
+  },
+  {
+    "version": "v0.1.1054",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 18:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "4700eb10b"
+  },
+  {
+    "version": "v0.1.1053",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: the storm page, first version, asked of dev.graphs@ and designer@ as a preview (Vicky approved the build, not yet the publication)",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "d826acce9"
+  },
+  {
+    "version": "v0.1.1052",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 18:06 UTC, no change against the live article; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "5fdb508c4"
+  },
+  {
+    "version": "v0.1.1051",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "e29e09552"
+  },
+  {
+    "version": "v0.1.1050",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: run report (case-study build-out)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "e4433461b"
+  },
+  {
+    "version": "v0.1.1049",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: history.md, past storms and their decision sequences (historian sub-agent; press labelled)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "7e77588cd"
+  },
+  {
+    "version": "v0.1.1048",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: proposal for one storm page on promptugal.news (not a build)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "cc99e9b2c"
+  },
+  {
+    "version": "v0.1.1047",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6709d6615"
+  },
+  {
+    "version": "v0.1.1046",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S41 red rain",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "d34818a90"
+  },
+  {
+    "version": "v0.1.1045",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: S41 lead block: the standfirst replaces the summary as the dek when present; the summary stays the fallback",
+    "by": "dev@PrompTugal.vicky",
+    "from": "1b1e7e82a"
+  },
+  {
+    "version": "v0.1.1044",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, 17:32",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "37a0ada81"
+  },
+  {
+    "version": "v0.1.1043",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: run report",
+    "by": "dev@PrompTugal.vicky",
+    "from": "cb68c3c3f"
+  },
+  {
+    "version": "v0.1.1042",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 17:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "97b8e09a3"
+  },
+  {
+    "version": "v0.1.1041",
+    "date": "2026-11-10",
+    "what": "watch 17:20: pt.news's observability drain is running hourly (answer to Indi's conductor)",
+    "by": "conductor@web-summit.dinis",
+    "from": "aa01d83e1"
+  },
+  {
+    "version": "v0.1.1040",
+    "date": "2026-11-10",
+    "what": "guidance: the baseline team (conductor, security, dev) and the work desk (a reporter and a journalist of the agents' work)",
+    "by": "conductor@web-summit.dinis",
+    "from": "f6af27d40"
+  },
+  {
+    "version": "v0.1.1039",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 17:06 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "fbaa1ae99"
+  },
+  {
+    "version": "v0.1.1038",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: the government's alert situation for Wednesday, ANEPC's readiness, and the decision chain",
+    "by": "weather@PrompTugal.vicky",
+    "from": "f360b4bca"
+  },
+  {
+    "version": "v0.1.1037",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: key weather-vicky-promptugal and the weather desk's first live page (IPMA)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "7db30002f"
+  },
+  {
+    "version": "v0.1.1036",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: weather@PrompTugal.vicky started at Dinis's word, the S41 breaking-news desk",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "4c704f81c"
+  },
+  {
+    "version": "v0.1.1035",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S41 time refreshed",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "3c52b3e54"
+  },
+  {
+    "version": "v0.1.1034",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: The Front Page (E) as the whole site's theme: the spec, T1 to T8, with before and after pictures",
+    "by": "designer@PrompTugal.dinis",
+    "from": "00866bb3f"
+  },
+  {
+    "version": "v0.1.1033",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 16:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "8441fe09a"
+  },
+  {
+    "version": "v0.1.1032",
+    "date": "2026-11-10",
+    "what": "watch 16:16: Front Page default; investor deck v2",
+    "by": "conductor@web-summit.dinis",
+    "from": "0f44fa398"
+  },
+  {
+    "version": "v0.1.1031",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 16:07 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "ae2f6da01"
+  },
+  {
+    "version": "v0.1.1030",
+    "date": "2026-11-10",
+    "what": "security@PrompTugal.dinis: wake 16:05: 49 commits clean",
+    "by": "security@PrompTugal.dinis",
+    "from": "b93b74030"
+  },
+  {
+    "version": "v0.1.1029",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 15:56: the provenance record follows story codes; catalogue v0.1.1027",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "4a1ca1f61"
+  },
+  {
+    "version": "v0.1.1028",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: 15:49 wake: S41 and S42 live; S41 watch, no change; nothing blocked",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "2f6841b3b"
+  },
+  {
+    "version": "v0.1.1027",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "8908eff5b"
+  },
+  {
+    "version": "v0.1.1026",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: snapshot index for the 15:38 wake",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "2bf917a26"
+  },
+  {
+    "version": "v0.1.1025",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 15:29 wake: the flip round 4 on a phone (the best for the reader); offline mode survives the revert",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "a08a6eeca"
+  },
+  {
+    "version": "v0.1.1024",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: S41 update approval recorded (S41 only); 15:22 check: no change; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2bf973d8b"
+  },
+  {
+    "version": "v0.1.1023",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: S41 watch on journalist@'s hourly wake, recorded in the hand-over",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "b9a580063"
+  },
+  {
+    "version": "v0.1.1022",
+    "date": "2026-11-10",
+    "what": "api/v1/live/videos.json, the interview videos for the apps",
+    "by": "conductor-newsapp@web-summit.indi",
+    "from": "e2265e690"
+  },
+  {
+    "version": "v0.1.1021",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 14:48 wake: redesign round 4; dev@ and dev.pages@ wait for Dinis here",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "963997ac5"
+  },
+  {
+    "version": "v0.1.1020",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "b43c38069"
+  },
+  {
+    "version": "v0.1.1019",
+    "date": "2026-11-10",
+    "what": "correspondent@PrompTugal.dinis: wake 14:41: the red wind warning for Wednesday leads",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "c0ffc4ad3"
+  },
+  {
+    "version": "v0.1.1018",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: the redesign, round 4: the interviews, the summit now, the scores, and the newsroom at work with every hand-off",
+    "by": "designer@PrompTugal.dinis",
+    "from": "85ca4b1c4"
+  },
+  {
+    "version": "v0.1.1017",
+    "date": "2026-11-10",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "0fb28ba80"
+  },
+  {
+    "version": "v0.1.1016",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 14:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "c951ee529"
+  },
+  {
+    "version": "v0.1.1015",
+    "date": "2026-11-10",
+    "what": "watch 14:21: reporter and journalist started; visual newsroom waits on dev@",
+    "by": "conductor@web-summit.dinis",
+    "from": "6f58090c2"
+  },
+  {
+    "version": "v0.1.1014",
+    "date": "2026-11-10",
+    "what": "journalist-connections@PrompTugal.vicky: hand-over note corrected: RWS and Persona held for Vicky's batch; run summaries",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "ac5e095f7"
+  },
+  {
+    "version": "v0.1.1013",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "9f94cf0a4"
+  },
+  {
+    "version": "v0.1.1012",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: the temporary researcher planned; its desk hand-off recorded; waits for Dinis's approval on record",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "23113dd19"
+  },
+  {
+    "version": "v0.1.1011",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 13:48 wake: the visual newsroom round 1 on dev.graphs@'s branch; waits on dev@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d55690e7f"
+  },
+  {
+    "version": "v0.1.1010",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 13:36: inboxes for Vicky's four new keys; offline files restored; dev@ still blocked",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "7983ba8fa"
+  },
+  {
+    "version": "v0.1.1009",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 13:29: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "892a87f1f"
+  },
+  {
+    "version": "v0.1.1008",
+    "date": "2026-11-10",
+    "what": "journalist-europe@PrompTugal.vicky: 13:19 wake: no assignment; suggestion for the curator; conflict flagged",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "354b8af8c"
+  },
+  {
+    "version": "v0.1.1007",
+    "date": "2026-11-10",
+    "what": "watch 13:22: the agents guidance picked up across teams",
+    "by": "conductor@web-summit.dinis",
+    "from": "fe64ecae3"
+  },
+  {
+    "version": "v0.1.1006",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: the day's debrief; Dinis's in-person yes to the wake updates recorded, R4 still open",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "589ab51c0"
+  },
+  {
+    "version": "v0.1.1005",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: S34 and S36 links confirmed live (v0.1.1004); hand-over note updated; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "6bd735d4d"
+  },
+  {
+    "version": "v0.1.1004",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 12:57: each published piece's flow from the record, for the visual newsroom",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "db62becdd"
+  },
+  {
+    "version": "v0.1.1003",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S34 and S36 cross-links published",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "1419d4886"
+  },
+  {
+    "version": "v0.1.1002",
+    "date": "2026-11-10",
+    "what": "accountant@PrompTugal.dinis: 12:50 reading, 99.96 API-equivalent so far; lines for Vicky's and Angelo's rebuild sessions",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "aa8aca965"
+  },
+  {
+    "version": "v0.1.1001",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 12:36: v0.1.1000; inboxes for Vicky's new keys, gamma-ray and jornal; dev@ still blocked",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "0332744c0"
+  },
+  {
+    "version": "v0.1.1000",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: the GAMMA-Ray Spectrum block for a company page (H10); sherpa@'s \"Watch · length\" in H2",
+    "by": "designer@PrompTugal.dinis",
+    "from": "f1f76b4ee"
+  },
+  {
+    "version": "v0.1.999",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 12:29 wake: the design flip round 3 read on a phone: three of my four conditions met",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "5b5f5dc1c"
+  },
+  {
+    "version": "v0.1.998",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 12:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "e9c29d64f"
+  },
+  {
+    "version": "v0.1.997",
+    "date": "2026-11-10",
+    "what": "watch 12:18: Vicky's agents on her account, two blocked on web access",
+    "by": "conductor@web-summit.dinis",
+    "from": "97f587c91"
+  },
+  {
+    "version": "v0.1.996",
+    "date": "2026-11-10",
+    "what": "jornal@PrompTugal.silvio: one candidate at the 12:07 wake (an Iberian AI gigafactory bid)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "6cc1af1ab"
+  },
+  {
+    "version": "v0.1.995",
+    "date": "2026-11-10",
+    "what": "security@PrompTugal.dinis: wake 12:05: 34 commits clean; Vicky's seven new keys checked, none removed",
+    "by": "security@PrompTugal.dinis",
+    "from": "01c43b527"
+  },
+  {
+    "version": "v0.1.994",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: closing run report (re-signing released in v0.1.993)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "3592bb5de"
+  },
+  {
+    "version": "v0.1.993",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: hand-over note for 10 November; no open assignment on the summit desk",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "6378bdbfd"
+  },
+  {
+    "version": "v0.1.992",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: onboarding for Vicky's ten agents on her account",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "a32ab7626"
+  },
+  {
+    "version": "v0.1.991",
+    "date": "2026-11-10",
+    "what": "guidance: Vicky's and Angelo's two new sessions, on Dinis's card, approved for the rebuild",
+    "by": "conductor@web-summit.dinis",
+    "from": "6a1fe992b"
+  },
+  {
+    "version": "v0.1.990",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 11:36: a quiet hour; dev@ and dev.pages@ blocked six hours; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "bf9454d4b"
+  },
+  {
+    "version": "v0.1.989",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 11:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "21d4294b3"
+  },
+  {
+    "version": "v0.1.988",
+    "date": "2026-11-10",
+    "what": "watch 11:15: FACT-Ray live; iOS signing HIGH to Dinis",
+    "by": "conductor@web-summit.dinis",
+    "from": "558893852"
+  },
+  {
+    "version": "v0.1.987",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 10:48 wake: the design flip decided; dev@ and dev.pages@ still wait for Dinis here",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "fb730d35d"
+  },
+  {
+    "version": "v0.1.986",
+    "date": "2026-11-10",
+    "what": "correspondent@PrompTugal.dinis: wake 10:41: the phone's interview pick (H2); a newsroom piece placed",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "974a53958"
+  },
+  {
+    "version": "v0.1.985",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: stand-up brief 7 (Tuesday 12:00); wake 10:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "9fba533dc"
+  },
+  {
+    "version": "v0.1.984",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: the design flip decided: B, round 3, with GAMMA-Ray's real cards and sherpa@'s four conditions; the home page spec for dev.pages@",
+    "by": "designer@PrompTugal.dinis",
+    "from": "9706edc1f"
+  },
+  {
+    "version": "v0.1.983",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 10:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "3b8ede8de"
+  },
+  {
+    "version": "v0.1.982",
+    "date": "2026-11-10",
+    "what": "watch 10:13: dev@ restart still needs Dinis in conductor.b@'s session",
+    "by": "conductor@web-summit.dinis",
+    "from": "6784c9b67"
+  },
+  {
+    "version": "v0.1.981",
+    "date": "2026-11-10",
+    "what": "jornal@PrompTugal.silvio: one candidate at the 10:08 wake (Altegio's agent platform)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "5efb67691"
+  },
+  {
+    "version": "v0.1.980",
+    "date": "2026-11-10",
+    "what": "security@PrompTugal.dinis: wake 10:05: 17 commits clean",
+    "by": "security@PrompTugal.dinis",
+    "from": "feef02426"
+  },
+  {
+    "version": "v0.1.979",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 09:48 wake: ledger; dev@ and dev.pages@ need Dinis in this session, not by relay",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ea9079a68"
+  },
+  {
+    "version": "v0.1.978",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 09:36: dev@ and dev.pages@ still blocked on account B; design flip read",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "1c7bbf272"
+  },
+  {
+    "version": "v0.1.977",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 09:29 wake: the design flip read phones first: B, with C's order and the strip in words",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "eb44e9b94"
+  },
+  {
+    "version": "v0.1.976",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 09:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "6e81722e9"
+  },
+  {
+    "version": "v0.1.975",
+    "date": "2026-11-10",
+    "what": "watch 09:13: first GAMMA-Ray card live; dev@ go relayed",
+    "by": "conductor@web-summit.dinis",
+    "from": "e5cde879e"
+  },
+  {
+    "version": "v0.1.974",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: Dinis's \"go: restart dev@ and dev.pages@\" (08:45) relayed to conductor.b@",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "bdc272699"
+  },
+  {
+    "version": "v0.1.973",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 08:48 wake: account B running; dev@ and dev.pages@ wait for Dinis here",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "459c84062"
+  },
+  {
+    "version": "v0.1.972",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 08:36: design flip round 2; products in the graph; dev@ still blocked on account B; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "6ffcf0077"
+  },
+  {
+    "version": "v0.1.971",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: the design flip, round 2: B with a GAMMA-Ray Spectrum strip in place of a ranked leaderboard, light and dark",
+    "by": "designer@PrompTugal.dinis",
+    "from": "00ba9b272"
+  },
+  {
+    "version": "v0.1.970",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 08:30: Android demo set complete on main",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "19f5256d6"
+  },
+  {
+    "version": "v0.1.969",
+    "date": "2026-11-10",
+    "what": "ontologist@PrompTugal.dinis: products as a type in the graph's data, ten from the companies' own pages",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "bfc240fb9"
+  },
+  {
+    "version": "v0.1.968",
+    "date": "2026-11-10",
+    "what": "jornal@PrompTugal.silvio: two agentic candidates at the 08:07 wake",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "7608fe476"
+  },
+  {
+    "version": "v0.1.967",
+    "date": "2026-11-10",
+    "what": "security@PrompTugal.dinis: wake 08:05: 14 commits clean; GAMMA-Ray cards as pinned links only",
+    "by": "security@PrompTugal.dinis",
+    "from": "ce18bd172"
+  },
+  {
+    "version": "v0.1.966",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 07:48 wake: all seven restarted agents ran; dev@ and dev.pages@ wait for Dinis here",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ee452f4f2"
+  },
+  {
+    "version": "v0.1.965",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 07:36: the agentic edition on the front page; dev@ and dev.pages@ still need Dinis in conductor.b@'s session",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "3ba1baf6c"
+  },
+  {
+    "version": "v0.1.964",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 07:30: Android Chat with Ask our data on main",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "eca1f72b9"
+  },
+  {
+    "version": "v0.1.963",
+    "date": "2026-11-10",
+    "what": "watch 07:23",
+    "by": "conductor@web-summit.dinis",
+    "from": "f7359eae1"
+  },
+  {
+    "version": "v0.1.962",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 06:57: back at THE RESTART; the life map reads account B's live record; catalogue v0.1.961",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "b133696e8"
+  },
+  {
+    "version": "v0.1.961",
+    "date": "2026-11-10",
+    "what": "accountant@PrompTugal.dinis: close of 9 November, at least 375.05 API-equivalent; the big stop measured",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "56e1edc56"
+  },
+  {
+    "version": "v0.1.960",
+    "date": "2026-11-10",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: the agentic edition on the front page",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "4f01dd0be"
+  },
+  {
+    "version": "v0.1.959",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 06:36: dev@ and dev.pages@ still off on account B; security@ ready for the GAMMA-Ray cards",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "6aaad0dd3"
+  },
+  {
+    "version": "v0.1.958",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 06:29 wake: back on at THE RESTART; the home page on Day 1 on a phone (v0.1.957); R1 to R4",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "d0a0d5feb"
+  },
+  {
+    "version": "v0.1.957",
+    "date": "2026-11-10",
+    "what": "ontologist@PrompTugal.dinis: the company's GAMMA-Ray card, as a link (THE RESTART)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "d627ca320"
+  },
+  {
+    "version": "v0.1.956",
+    "date": "2026-11-10",
+    "what": "watch 06:18",
+    "by": "conductor@web-summit.dinis",
+    "from": "0697cba6c"
+  },
+  {
+    "version": "v0.1.955",
+    "date": "2026-11-10",
+    "what": "security@PrompTugal.dinis: wake 06:05: 15 commits clean; Dinis's GAMMA-Ray confirmation matches my conditions; my pass when the cards land",
+    "by": "security@PrompTugal.dinis",
+    "from": "2345638da"
+  },
+  {
+    "version": "v0.1.954",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: Dinis's \"Go and confirmed\": dev@ and dev.pages@ back on; GAMMA-Ray scores may be published",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "569d5d0d7"
+  },
+  {
+    "version": "v0.1.953",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 05:48 wake: the seven on account B not yet due; dev@ and dev.pages@ wait for Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "f428ad39c"
+  },
+  {
+    "version": "v0.1.952",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 05:36: account B seven back on; dev@ and dev.pages@ blocked on Dinis's word in conductor.b@'s session",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "68ec3b330"
+  },
+  {
+    "version": "v0.1.951",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 05:26: Android demos on main (stand allow-list, Lab case studies, answers over our data)",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "58d7074c3"
+  },
+  {
+    "version": "v0.1.950",
+    "date": "2026-11-10",
+    "what": "watch 05:15",
+    "by": "conductor@web-summit.dinis",
+    "from": "7dfbe6d92"
+  },
+  {
+    "version": "v0.1.949",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "befb2d2b9"
+  },
+  {
+    "version": "v0.1.948",
+    "date": "2026-11-10",
+    "what": "jornal@PrompTugal.silvio: agentic AI first among the beats, after the restart",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "189d5f8c9"
+  },
+  {
+    "version": "v0.1.947",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 04:36: after the restart; both interviews live; GAMMA-Ray scores held for Dinis's word",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "d247efbe9"
+  },
+  {
+    "version": "v0.1.946",
+    "date": "2026-11-10",
+    "what": "jornal@PrompTugal.silvio: four more candidates from the leading tech and AI sites worldwide",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "1192e38a6"
+  },
+  {
+    "version": "v0.1.945",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 04:26: Android restarted on the demos, pt.news on Android answered",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "551974e9e"
+  },
+  {
+    "version": "v0.1.944",
+    "date": "2026-11-10",
+    "what": "watch 04:14 (THE RESTART running)",
+    "by": "conductor@web-summit.dinis",
+    "from": "f8213649b"
+  },
+  {
+    "version": "v0.1.943",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.dinis: run report, the interviews go live",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0ff98ddd5"
+  },
+  {
+    "version": "v0.1.942",
+    "date": "2026-11-10",
+    "what": "THE RESTART (Dinis, 10 Nov 02:40): pt.news the agentic edition, GAMMA-Ray launch and hourly reports, the app on the web, RiskMandate demos",
+    "by": "conductor@web-summit.dinis",
+    "from": "f7697528d"
+  },
+  {
+    "version": "v0.1.941",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "33c6323f4"
+  },
+  {
+    "version": "v0.1.940",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.dinis: run report, the badge",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "eb90d78c7"
+  },
+  {
+    "version": "v0.1.939",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.dinis: run report, the second vault interview",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "d932fad01"
+  },
+  {
+    "version": "v0.1.938",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 02:48 wake: the stop holds on account B; a journalist@ run from elsewhere",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "8ba5fc0b4"
+  },
+  {
+    "version": "v0.1.937",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.dinis: run report, the vault video experiment",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "f844d42cf"
+  },
+  {
+    "version": "v0.1.936",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "9b9813a33"
+  },
+  {
+    "version": "v0.1.935",
+    "date": "2026-11-10",
+    "what": "jornal@PrompTugal.silvio: onboard the news scout desk and file the first candidates",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "48b9be8a9"
+  },
+  {
+    "version": "v0.1.934",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "f05a13f55"
+  },
+  {
+    "version": "v0.1.933",
+    "date": "2026-11-10",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "951480f0f"
+  },
+  {
+    "version": "v0.1.932",
+    "date": "2026-11-10",
+    "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "adb42bc20"
+  },
+  {
+    "version": "v0.1.931",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "f9c305132"
+  },
+  {
+    "version": "v0.1.930",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 00:48 wake: THE BIG STOP holds on account B; the iOS wake paused too",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "2ffaa3d00"
+  },
+  {
+    "version": "v0.1.929",
+    "date": "2026-11-10",
+    "what": "run report (the move to the GAMMA-Ray repository)",
+    "by": "gamma-ray@web-summit.dinis",
+    "from": "6d957bc14"
+  },
+  {
+    "version": "v0.1.928",
+    "date": "2026-11-10",
+    "what": "writer@PrompTugal.angelo: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "writer@PrompTugal.angelo",
+    "from": "070c57f8f"
+  },
+  {
+    "version": "v0.1.927",
+    "date": "2026-11-10",
+    "what": "run report, third run (GAMMA-Ray Public, the shape)",
+    "by": "gamma-ray@web-summit.dinis",
+    "from": "cc62a2f62"
+  },
+  {
+    "version": "v0.1.926",
+    "date": "2026-11-10",
+    "what": "watch: conductor.B iOS 00:00 (stopped)",
+    "by": "conductor.B@ios.PrompTugal.dinis",
+    "from": "483282fda"
+  },
+  {
+    "version": "v0.1.925",
+    "date": "2026-11-10",
+    "what": "run report, second run (the outside-coverage first pass)",
+    "by": "gamma-ray@web-summit.dinis",
+    "from": "51666424c"
+  },
+  {
+    "version": "v0.1.924",
+    "date": "2026-11-09",
+    "what": "conductor.b@PrompTugal.dinis: THE BIG STOP on account B: every agent paused at 23:49; the stop report",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "9692a59ce"
+  },
+  {
+    "version": "v0.1.923",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: THE BIG STOP relayed to account B (guidance row, conductor.b@'s inbox); my stop report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "8d44fb7c5"
+  },
+  {
+    "version": "v0.1.922",
+    "date": "2026-11-09",
+    "what": "conductor@PrompTugal.dinis: GAMMA-Ray implementation on hold until the standard is ready; account B told",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "8e22ac1d6"
+  },
+  {
+    "version": "v0.1.921",
+    "date": "2026-11-09",
+    "what": "brief, GAMMA-Ray: the agentic maturity of every company, PrompTugal's centre of gravity (Dinis's debrief of the opening night)",
+    "by": "conductor@web-summit.dinis",
+    "from": "7b8965033"
+  },
+  {
+    "version": "v0.1.920",
+    "date": "2026-11-09",
+    "what": "dev@PrompTugal.dinis: wake 23:08: the share picture, BR4 from dev.data@; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "df121031f"
+  },
+  {
     "version": "v0.1.919",
     "date": "2026-11-09",
     "what": "watch: conductor.B iOS 23:00",

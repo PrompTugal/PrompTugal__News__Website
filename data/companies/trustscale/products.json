@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "trustscale",
+  "products": [
+    {
+      "id": "argus",
+      "name": "Argus",
+      "what": "Automates evaluation and assurance: every claim an AI makes checked against evidence, with sources, a TrustScore and a correction.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "the-trustscale-loop"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-gov-alert",
+  "type": "evidence",
+  "source_url": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
+  "beat": "The summit",
+  "group": "storm",
+  "names": [
+    {
+      "as_listed": "Government of Portugal",
+      "ref": "organisation:government-of-portugal"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-10-1710.json",
+  "run": "2026-11-10-1710 (angles from weather@PrompTugal.vicky, re-read at source)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-1710.json"
+    ]
+  }
+}

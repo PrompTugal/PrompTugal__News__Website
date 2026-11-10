@@ -292,6 +292,342 @@
         "PrompTugal__App__Mobile": "74332868"
       },
       "note": "iOS: no new briefs since 22:00. Release #137 (v0.4.56, venue map wired) building; #138 (v0.4.57, 21 cultures + globe, en-GB default) queued behind it, TestFlight internal only. App Store 0.4.24 (205) waiting for review; preflight dispatched. main unchanged, waiting on security's pass."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-09T23:15Z",
+      "SGit-AI__Website__Web-Summit": "266685c9",
+      "PrompTugal__News__Website": "b2a12760",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "77a95682",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "iOS: venue map (v0.4.56) building, 21 cultures (v0.4.57) queued for TestFlight internal. /contribute/ passed by security@. security.repos@ run 7: nothing found. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-09T23:26Z",
+      "SGit-AI__Website__Web-Summit": "37ad1b1a",
+      "PrompTugal__News__Website": "6e64b86e",
+      "PrompTugal__App__Android": "4de30ec6",
+      "PrompTugal__App__iOS": "77a95682",
+      "PrompTugal__App__Mobile": "74332868",
+      "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-10T00:05Z",
+      "shas": {
+        "SGit-AI__Website__Web-Summit": "6d75ae89",
+        "PrompTugal__News__Website": "a6e155bc",
+        "PrompTugal__App__Android": "9bfd28b0",
+        "PrompTugal__App__iOS": "87211d14",
+        "PrompTugal__App__Mobile": "7f59d911"
+      },
+      "note": "THE BIG STOP: iOS :00 wake paused at 00:03 (last line until restarted); stop report in iOS briefs/2026-11-09__the-big-stop/stop-report.md. Release #140 (v0.4.59, carries the report.sh SIGPIPE fix for public 0.4.57) left to finish. 205 still in App Review."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "7b8d7908",
+      "PrompTugal__News__Website": "ddb12119",
+      "PrompTugal__App__Android": "4f8362e9",
+      "PrompTugal__App__iOS": "9a02cac5",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "edaa2f49",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T04:14Z",
+      "note": "THE RESTART running: account A wakes back on; gamma.studio@ (hourly :42) and devops.ios@ started; gamma-ray@'s team (review, approve, design, graphs, editor) at :06; both interviews live on pt.news (v0.1.943); 09:00 deck v1 published. Holds: first published GAMMA-Ray scores wait for Dinis in conductor@PrompTugal.dinis's session."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T04:26Z",
+      "SGit-AI__Website__Web-Summit": "173a397a",
+      "PrompTugal__News__Website": "654bb60c",
+      "PrompTugal__App__Android": "64f26b40",
+      "PrompTugal__App__iOS": "155dcbe4",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android restarted on the 02:40 brief: demos and iOS parity (dev.chat, dev.lab, app, qa), on-device answers over our data (dev.llm), pt.news on Android answered (docs/play/pt-news-on-android.md: installed web app first; Dinis decides the host, pt.news looks parked), GCP examples written (held for security before the site deploys)."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "5d4a34f3",
+      "PrompTugal__News__Website": "d6aff9c6",
+      "PrompTugal__App__Android": "74ad93ae",
+      "PrompTugal__App__iOS": "b7d17d14",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "c3b87d12",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T05:15Z",
+      "note": "restart running overnight; social.watch@ started (hourly :50); nothing stuck seen."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T05:26Z",
+      "SGit-AI__Website__Web-Summit": "01eacbdc",
+      "PrompTugal__News__Website": "dc3e607b",
+      "PrompTugal__App__Android": "74ad93ae",
+      "PrompTugal__App__iOS": "b7d17d14",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android main 595c21e: stand mode shows only vetted visitor features (fail closed), Lab case studies from our real ABPs (enabled, hidden in stand mode), on-device answers over our data (Workbench still off until a tablet run). Next: per-feature stand tests and pt-PT case studies (gate running); Chat as a real feature (dev.chat). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "10ed6822",
+      "PrompTugal__News__Website": "b839bb28",
+      "PrompTugal__App__Android": "1e9c2830",
+      "PrompTugal__App__iOS": "787e2fe9",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "db0adc6f",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T06:18Z",
+      "note": "Dinis's 'Go and confirmed' (05:45): GAMMA-Ray scores may be published on pt.news (beta, on security@'s pass). gamma.studio@ scans in review round one."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T06:26Z",
+      "SGit-AI__Website__Web-Summit": "748d2427",
+      "PrompTugal__News__Website": "24c0c124",
+      "PrompTugal__App__Android": "36b87e26",
+      "PrompTugal__App__iOS": "787e2fe9",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android main 21bd9dc: Chat is real on the device (cloud route reviewed by the architect, security pending), stand mode allow-list, Lab case studies en+pt, answers over our data. Next: Ask our data in Chat (gate running), privacy and Data safety texts updated. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "a2a66efd",
+      "PrompTugal__News__Website": "46092a6f",
+      "PrompTugal__App__Android": "a59211d3",
+      "PrompTugal__App__iOS": "787e2fe9",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "9a35170f",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T07:23Z",
+      "note": "quiet; social.watch@ waits for Dinis's answers in its session."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T07:30Z",
+      "SGit-AI__Website__Web-Summit": "1675080d",
+      "PrompTugal__News__Website": "1f5a7185",
+      "PrompTugal__App__Android": "81b0ee0c",
+      "PrompTugal__App__iOS": "787e2fe9",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android main 372764b: Chat real on the device with Ask our data; stand allow-list; Lab case studies en+pt; Workbench Our data. Next: Chat cloud flip (reviewed). Needs a tablet run for the Workbench. Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T08:30Z",
+      "SGit-AI__Website__Web-Summit": "550bbb88",
+      "PrompTugal__News__Website": "821516ea",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android main 67bb936: the Wednesday demo set is complete (Chat with the cloud route reviewed and switchable, Ask our data, Lab case studies en+pt, stand allow-list); CI run 164 green with a Firebase release. Waits on a tablet run (Workbench) and Dinis's items. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "0d21487d",
+      "PrompTugal__News__Website": "97011d0b",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "451c596b",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T09:13Z",
+      "note": "GAMMA-Ray: first card published (Replit Agent, A4 R2 C2 O0, beta); its claim-your-card note waits for a person to send it via the CRM. Dinis's go for dev@/dev.pages@ (08:45) relayed to conductor.b@. Lanes empty. Still open: social.watch@'s three answers."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T09:26Z",
+      "SGit-AI__Website__Web-Summit": "83a91b9e",
+      "PrompTugal__News__Website": "0bf8069b",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change since 08:30 (main 67bb936, demo set complete). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "83a91b9e",
+      "PrompTugal__News__Website": "5efb6769",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "54ffcb4d",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T10:13Z",
+      "note": "Correction to my 09:13 line: the relayed go did not take; conductor.b@ (09:52) will restart dev@ and dev.pages@ only on Dinis's word in its own session. Indi's stand-demo v4 passes; Angelo's authority-checks article live. Lanes empty. Open on Dinis: conductor.b@'s session; social.watch@'s three answers."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T10:26Z",
+      "SGit-AI__Website__Web-Summit": "e145ef37",
+      "PrompTugal__News__Website": "15f6be1f",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "ce060585",
+      "PrompTugal__News__Website": "fb730d35",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "df00d6b2",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T11:15Z",
+      "note": "FACT-Ray live on gamma-ray.sgit.ai (/fact-ray/, drafts for riskmandate.ai and promptugal.news). Design flip decided (B r3). Jose, Silvio (instagram@) and Indi drafting social posts for their humans. security.repos@ run 9 HIGH still open (iOS TestFlight signing reachable from dev): Dinis's call, since publish-from-dev was his. Lanes empty. Open on Dinis: conductor.b@'s session; social.watch@; FACT-Ray domains and sgit.ai attestations."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T11:26Z",
+      "SGit-AI__Website__Web-Summit": "c8b96a09",
+      "PrompTugal__News__Website": "330b5273",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "dbf505e4",
+      "PrompTugal__News__Website": "6cc1af1a",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "a483a020",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "597dba6b",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T12:18Z",
+      "note": "Vicky's ten agents restarted on her account (new keys, 27 articles re-signed; security@ checked). journalist-europe@ and journalist-connections@.vicky blocked: no outside web access in that account's environment (Vicky or Dinis to allow the hosts). New: /the-individual/ (WS-210, badge photo to a unit of agents). iOS briefed: major features to TestFlight external testers; one story with Indi's team. Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T12:26Z",
+      "SGit-AI__Website__Web-Summit": "3b4c41c0",
+      "PrompTugal__News__Website": "eaf055e5",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "dd413b09",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (6312b5e8 to dd413b09): mobile/iOS conductors' area, not Android's. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "790dd3ca",
+      "PrompTugal__News__Website": "589ab51c",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "421d0090",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "aac8d871",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T13:22Z",
+      "note": "The 12:40 guidance (pt.news is about agents, the visual newsroom) picked up: librarian@ (each piece's flow), correspondent@ (summit now, agents), dev.graphs@ leads the visual newsroom, Indi's newsroom helper started. Vicky's web access back; programme@ still refused by websummit.com. PT gate green (v0.1.1005). Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T13:29Z",
+      "SGit-AI__Website__Web-Summit": "d8ff8cde",
+      "PrompTugal__News__Website": "354b8af8",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "421d0090",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (dd413b09 to 421d0090): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "15cd4895",
+      "PrompTugal__News__Website": "ac5e095f",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "421d0090",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "8608b2e2",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T14:21Z",
+      "note": "Started reporter@ and journalist.examples@web-summit.dinis (WS-212: examples from input to live, traced and drawn). Visual newsroom round 1 on dev.graphs@'s branch, waits on dev@ (still off). Venue map in Team 0.4.76 on TestFlight. Vicky's temporary researcher waits for Dinis's approval. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T14:26Z",
+      "SGit-AI__Website__Web-Summit": "e14c89ad",
+      "PrompTugal__News__Website": "f9a63a79",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "421d0090",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "20ae85f4",
+      "PrompTugal__News__Website": "b9a58006",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "fadbce90",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "6d53db3f",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T15:18Z",
+      "note": "reporter@ and journalist.examples@ shipped the first two examples (/examples/). Two decks for Dinis's meetings (/meetings/2026-11-10-1500/show/, -1600/). pt.news redesign round 4 (interviews, summit now, scores, newsroom); Vicky's desk published S41 (Lisbon wind warning) and S42 (Lovable). Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T15:25Z",
+      "SGit-AI__Website__Web-Summit": "a1ba97c6",
+      "PrompTugal__News__Website": "9d832635",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "56f90b90",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (421d0090 to 56f90b90): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "77f9333c",
+      "PrompTugal__News__Website": "ae2f6da0",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6fc75c3f",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "3c5c9da4",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T16:16Z",
+      "note": "The Front Page (E) default live on pt.news and relayed to the iOS news app. Investor deck v2 (security teams first). reporter@ traces the two decks. Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session (eleven hours)."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T16:25Z",
+      "SGit-AI__Website__Web-Summit": "abfdfac4",
+      "PrompTugal__News__Website": "d036de3b",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6fc75c3f",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (56f90b90 to 6fc75c3f): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "ba536667",
+      "PrompTugal__News__Website": "fbaa1ae9",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "d591355e",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T17:20Z",
+      "note": "Answer to conductor@web-summit.indi's question (180d8396): pt.news's observability drain IS running hourly (trigger enabled since the restart, 04:00 UTC; drains at 11:19, 12:23, 13:25, 14:23, 15:21, 16:22, nothing odd; 15 UTC debrief: 813 reader views all time). Ordinary drains commit nothing by design, so the record looks silent; the data is live at promptugal.news/newsroom/observability/. The team site's own drain (observability@web-summit.dinis) has been off since 8 Nov 20:42: asked Dinis. Storm guidance and the work desk filed (WS-211, WS-212). Angelo's account-A agents stopped by Angelo, moved to his account B."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T17:25Z",
+      "SGit-AI__Website__Web-Summit": "cc516804",
+      "PrompTugal__News__Website": "93e40b96",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (6fc75c3f to 74883a0b): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "229ac98b",
+      "PrompTugal__News__Website": "5030cd3c",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "2403bdad",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T18:14Z",
+      "note": "The storm case study moved: weather@.vicky built connectors (IPMA warnings, communiques, stations), history of past storms, the decision graph and the law, and proposed one storm page. IPMA raised Lisbon's rain to red (Wed 12:00-18:00); S41 updated. GAMMA-Ray: 7 companies live. Work desk lanes issued. Teams measuring tokens (Indi's, Silvio's ledgers). Lanes empty. Account B still lacks its developer (dev@ off)."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T18:25Z",
+      "SGit-AI__Website__Web-Summit": "660ec4da",
+      "PrompTugal__News__Website": "67b187b8",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
     }
   ]
 }

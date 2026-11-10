@@ -20,17 +20,17 @@
   "speakers": [
     {
       "person": "person:fernando-alexandre",
-      "as_listed": "Fernando Alexandre",
-      "role": null,
-      "organisation": null,
-      "org": null
+      "as_listed": "Fernando Alexandre (Minister of Education, Science and Innovation of Portugal, Government of Portugal)",
+      "role": "Minister of Education, Science and Innovation of Portugal",
+      "organisation": "Government of Portugal",
+      "org": "organisation:government-of-portugal"
     },
     {
       "person": "person:joao-leite",
-      "as_listed": "João Leite",
-      "role": null,
-      "organisation": null,
-      "org": null
+      "as_listed": "João Leite (Mayor of Santarém and President of the Intermunicipal Community of the Lezíria do Tejo, Sumcap)",
+      "role": "Mayor of Santarém and President of the Intermunicipal Community of the Lezíria do Tejo",
+      "organisation": "Sumcap",
+      "org": "organisation:sumcap"
     },
     {
       "person": "person:joao-moutao",
@@ -43,7 +43,7 @@
   "hosted_by": [],
   "session_url": "https://websummit.com/sessions/lis26/f45ece2d-fef8-442a-a6f0-4ec62f7fa105/campus-tejo-the-science-and-technology-ecosystem-of-santarem-press-conference/",
   "source_url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/3/",
-  "read_at": "2026-11-09T05:07Z",
+  "read_at": "2026-11-10T17:48Z",
   "read_by": "programme@web-summit.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
@@ -53,6 +53,6 @@
       "data/curation/events.json",
       "data/curation/speakers.json"
     ],
-    "item": 148
+    "item": 146
   }
 }
