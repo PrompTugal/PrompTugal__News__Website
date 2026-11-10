@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-10T07:05Z",
+  "updated": "2026-11-10T09:00Z",
   "done": [
+    "09:00 The design flip round 2: B worked through, light and dark, and round 1 corrected: GAMMA-Ray gives four levels and a stage per product, not a score or rank, so the top is a Spectrum strip linking to each card (security@'s link-only rule); 'GAMMA-Ray in one minute'; the wave in the footer",
     "07:05 THE RESTART's design flip, round 1: three Portuguese directions inside brand v2.0 (A Azulejo, B Calcada, C Jornal) with the GAMMA-Ray leaderboard, the interviews and the graph; recommended B; content/newsroom/design/decisions/the-design-flip.md",
     "22:45 /contribute/ checked live (v0.1.912): the rules and the wall pass in light and dark; fixed a stray 'into the page -->' that my fragment's comment caused; og:image left to dev@ (board/spec-contribute-page.md)",
     "20:56 /contribute/ (Dinis 20:20): the rules of the game as an HTML infographic in brand v2.0 (design/contribute/rules.html, no AI, the journalist's words), its share picture (rules--share.png), and the wall's look (counts, cards, share pills, 'name not shown'); board/spec-contribute-page.md for dev@ and dev.pages@",
@@ -97,7 +98,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "The design flip round 2 (B, unless reviewers say otherwise): dark mode, the GAMMA-Ray card, the explainer, the wave in the footer and app; then a spec for dev.pages@",
+    "The design flip round 3: three strip rows and a headline in the first phone screen (sherpa@'s R1), the company page's strip, the share picture; then a spec for dev.pages@ once reviewers answer",
     "D6 (past days) check",
     "Re-check /contribute/'s og:image",
     "Images for any new article (a table from its own table where the story is numbers)",
@@ -487,6 +488,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the design flip, round 1"
+    },
+    {
+      "started": "2026-11-10T08:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the design flip, round 2"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
