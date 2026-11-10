@@ -11,15 +11,32 @@
       "why_it_matters": "The summit's own framing for 2026 is a US-China AI race with Europe and Portugal in the middle; that is the context every company story this week sits in, and the Portuguese startups claim is a figure our readers will want checked.",
       "beat": "web-summit",
       "sources": [
-        {"url": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches", "publisher": "Euronews", "published": "2026-11-09", "read": "2026-11-10T01:55Z"},
-        {"url": "https://jornaleconomico.sapo.pt/noticias/inovacao-diversidade-e-muita-tecnologia-chinesa-esta-aberta-mais-uma-edicao-do-web-summit-em-lisboa/", "publisher": "Jornal Económico", "published": "2026-11-09", "read": "2026-11-10T01:58Z"}
+        {
+          "url": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches",
+          "publisher": "Euronews",
+          "published": "2026-11-09",
+          "read": "2026-11-10T01:55Z"
+        },
+        {
+          "url": "https://jornaleconomico.sapo.pt/noticias/inovacao-diversidade-e-muita-tecnologia-chinesa-esta-aberta-mais-uma-edicao-do-web-summit-em-lisboa/",
+          "publisher": "Jornal Económico",
+          "published": "2026-11-09",
+          "read": "2026-11-10T01:58Z"
+        }
       ],
-      "quote": {"text": "The superstars of the future are not coming from California; they're coming from China.", "by": "Paddy Cosgrave, Web Summit CEO, opening night", "source": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches"},
+      "quote": {
+        "text": "The superstars of the future are not coming from California; they're coming from China.",
+        "by": "Paddy Cosgrave, Web Summit CEO, opening night",
+        "source": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches"
+      },
       "claims_to_check": [
         "164 countries (reported by Jornal Económico); 'largest ever number of Portuguese startups' (reported by Euronews and Jornal Económico, no figure given): to be checked against Web Summit's own press release",
         "Also on stage, reported by Euronews: Cloudflare's Matthew Prince on Nvidia's probe of Jensen Huang, and Manus's co-founder Tao Zhang on hiring people who work with AI (agents beat)"
       ],
-      "importance": {"score": 5, "reason": "The opening of the summit this site was built for, and its headline framing; not yet on promptugal.news."},
+      "importance": {
+        "score": 5,
+        "reason": "The opening of the summit this site was built for, and its headline framing; not yet on promptugal.news."
+      },
       "photo": {
         "url": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches",
         "description": "Agibot A3 robots on Centre Stage at the opening night, MEO Arena (the lead photo of the Euronews article)",
@@ -28,12 +45,196 @@
         "reuse": "link only",
         "note": "Web Summit has published event photos under a Creative Commons licence on its own photo pages in past years; if this photo is there, read its licence before marking it reusable."
       }
+    },
+    {
+      "id": "js-2026-11-10-02",
+      "title": "Portugal's minister for State Reform opens Web Summit promising an 'agentic State' run with AI agents",
+      "summary": "At the Web Summit opening on 9 November, Gonçalo Matias, Portugal's minister for State Reform, set out five commitments, the last of them a State where AI agents understand what citizens need, talk to each other and resolve their requests, 'in a European way' that respects privacy. He cited LicencIA, an AI tool for licensing homes, businesses and factories, and said data centres are welcome if they are sustainable and 'good neighbours'.",
+      "why_it_matters": "A government putting AI agents between itself and its citizens is the reach, mandate and gap question at national scale: who gives the agents their mandate, who checks it, and what happens when one acts outside it. Matias first called it an 'agentic State' in May 2026; this is its first outing at the summit.",
+      "beat": "web-summit",
+      "sources": [
+        {
+          "url": "https://observador.pt/2026/11/09/portugal-tem-oportunidades-nos-centros-de-dados-desde-que-sejam-bons-vizinhos-diz-goncalo-matias-na-abertura-da-web-summit/",
+          "publisher": "Observador",
+          "published": "2026-11-09",
+          "read": "2026-11-10T02:30Z"
+        },
+        {
+          "url": "https://www.dnoticias.pt/2026/5/6/490983-ministro-da-reforma-do-estado-quer-transformar-portugal-num-agentic-state/",
+          "publisher": "DNoticias",
+          "published": "2026-05-06",
+          "read": "2026-11-10T02:25Z",
+          "note": "background: the 'agentic State' idea, May 2026 (search summary only, not opened)"
+        }
+      ],
+      "quote": {
+        "text": "Mas queremos que sejam sustentáveis, responsáveis e bons vizinhos para as comunidades à volta.",
+        "by": "Gonçalo Matias, on data centres, Web Summit opening",
+        "source": "https://observador.pt/2026/11/09/portugal-tem-oportunidades-nos-centros-de-dados-desde-que-sejam-bons-vizinhos-diz-goncalo-matias-na-abertura-da-web-summit/"
+      },
+      "claims_to_check": [
+        "LicencIA: what it is and since when, at a government source (portugal.gov.pt has no 2026 release yet)",
+        "Health waits cut 'from years to days' by AI: claimed, no example given (reported by Observador)",
+        "Matias speaks again on Tuesday 10 November on a panel about Europe's public sector (reported by ECO): a follow-up"
+      ],
+      "importance": {
+        "score": 5,
+        "reason": "Portugal plus agentic AI plus the summit, from the government itself; not on promptugal.news."
+      },
+      "photo": {
+        "url": "https://observador.pt/2026/11/09/portugal-tem-oportunidades-nos-centros-de-dados-desde-que-sejam-bons-vizinhos-diz-goncalo-matias-na-abertura-da-web-summit/",
+        "description": "lead photo of the Observador article",
+        "credit": "no credit shown for the lead image",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-10-03",
+      "title": "CrowdStrike ships a 'kill switch' for rogue AI agents and buys two agent security startups",
+      "summary": "CrowdStrike added an AI kill switch to its Falcon Guardian platform: security teams can stop an internal AI agent, block it from relaunching and cut its network access by cutting off the models behind it. A person still decides when to cut an agent off and when to restore it. CrowdStrike also plans to buy Fiddler AI (AI observability) and Dreadnode (AI security testing); TechCrunch puts the two deals at nearly 500 million dollars, reported from The Wall Street Journal.",
+      "why_it_matters": "Securing agents is becoming a market of its own, and the design choice (a human decides, the tool executes) is exactly the mandate question our readers are asking at the summit.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/03/crowdstrike-ai-kill-switch-rogue-agents.html",
+          "publisher": "CNBC",
+          "published": "2026-11-03",
+          "read": "2026-11-10T02:32Z"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-03",
+          "read": "2026-11-10T02:28Z",
+          "note": "search summary only, not opened"
+        }
+      ],
+      "claims_to_check": [
+        "The deal amounts (about 400 million dollars for Fiddler AI, about 95 million for Dreadnode) are reported by TechCrunch from The Wall Street Journal: check CrowdStrike's own release",
+        "Is CrowdStrike at Web Summit Lisbon 2026? (data/companies.json)"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "The biggest agent-security move of the week from a US leader; a week old, so context rather than breaking news."
+      },
+      "photo": {
+        "url": "https://www.cnbc.com/2026/11/03/crowdstrike-ai-kill-switch-rogue-agents.html",
+        "description": "George Kurtz, CrowdStrike's CEO (lead photo)",
+        "credit": "Brendan McDermid | Reuters",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-10-04",
+      "title": "UK ministers seek powers to regulate and investigate AI agents in critical services",
+      "summary": "A new clause added to the UK's Cyber Security and Resilience Bill at its third reading in the House of Lords would let ministers set rules for how agentic AI is deployed and how its incidents are reported in some organisations: energy suppliers, managed service providers and cloud providers that run agents for customers. Rules would come by secondary legislation after consultation; foundation model developers are not automatically in scope.",
+      "why_it_matters": "One of the first laws in Europe written about AI agents as such, outside the EU's AI Act: incident reporting and investigation powers for agents is the gap RiskMandate talks about, now in a bill.",
+      "beat": "ai-regulation",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
+          "publisher": "The Register",
+          "published": "2026-11-06",
+          "read": "2026-11-10T02:33Z"
+        }
+      ],
+      "claims_to_check": [
+        "The clause's text and number at the primary source (bills.parliament.uk), and whether it was agreed",
+        "Inspectors with powers to enter and search premises: the view of a law firm partner quoted by The Register, not the bill's text"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "European regulation written for agents specifically; reported by The Register until the bill itself is read."
+      },
+      "photo": {
+        "url": null,
+        "description": "no photo identified",
+        "credit": null,
+        "licence": null,
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-10-05",
+      "title": "At Web Summit, Cloudflare and Lovable warn of excess in AI investment and expect consolidation",
+      "summary": "On the opening night, Cloudflare's CEO Matthew Prince said the AI sector now has less engineering and more financial engineering, with some providers selling below cost, and expects many of the new cloud providers not to survive. Lovable's CEO Anton Osika said the conversation has moved from what AI can do to what value companies actually get from it.",
+      "why_it_matters": "Two of the summit's biggest AI names on stage saying the bubble question out loud; a counterweight to the launch announcements of the week.",
+      "beat": "web-summit",
+      "sources": [
+        {
+          "url": "https://eco.sapo.pt/2026/11/09/cloudflare-e-lovable-alertam-para-excessos-no-investimento-em-ia-e-antecipam-consolidacao/",
+          "publisher": "ECO",
+          "published": "2026-11-09",
+          "read": "2026-11-10T02:36Z"
+        }
+      ],
+      "quote": {
+        "text": "Acho que muitas delas não vão sobreviver.",
+        "by": "Matthew Prince, Cloudflare, on the new cloud providers",
+        "source": "https://eco.sapo.pt/2026/11/09/cloudflare-e-lovable-alertam-para-excessos-no-investimento-em-ia-e-antecipam-consolidacao/"
+      },
+      "claims_to_check": [
+        "Web Summit's own session summary or video for the exact words"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "Good summit colour with a clear angle; opinion on stage rather than news."
+      },
+      "photo": {
+        "url": "https://eco.sapo.pt/2026/11/09/cloudflare-e-lovable-alertam-para-excessos-no-investimento-em-ia-e-antecipam-consolidacao/",
+        "description": "lead photo of the ECO article",
+        "credit": "Shauna Clinton/Web Summit",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
-    {"what": "Granter raises EUR 1.6M (tech.eu, 3 November 2026)", "why": "already on promptugal.news (from-pitch-to-new-markets, europe-ai-help-and-portugal-ai-startups)"},
-    {"what": "Cosgrave on Web Summit's future in Lisbon after the contract (Observador, 5 November 2026)", "why": "already on promptugal.news (web-summit-ten-lisbon-years)"},
-    {"what": "AI Act Digital Omnibus (Regulation (EU) 2026/1744)", "why": "no new development found this wake; secondary sources conflict on the next deadline"},
-    {"what": "Agentic AI incidents in November 2026", "why": "only vendor blogs and aggregators found, no primary source"}
+    {
+      "what": "Granter raises EUR 1.6M (tech.eu, 3 November 2026)",
+      "why": "already on promptugal.news (from-pitch-to-new-markets, europe-ai-help-and-portugal-ai-startups)"
+    },
+    {
+      "what": "Cosgrave on Web Summit's future in Lisbon after the contract (Observador, 5 November 2026)",
+      "why": "already on promptugal.news (web-summit-ten-lisbon-years)"
+    },
+    {
+      "what": "AI Act Digital Omnibus (Regulation (EU) 2026/1744)",
+      "why": "no new development found this wake; secondary sources conflict on the next deadline"
+    },
+    {
+      "what": "Agentic AI incidents in November 2026",
+      "why": "only vendor blogs and aggregators found, no primary source"
+    },
+    {
+      "what": "Manus 2.0 and Cue give agents an email, a phone number and a wallet (Público, 9 November 2026)",
+      "why": "Público's piece is paywalled; the launch itself was 28 September 2026 (manus.im), not new"
+    },
+    {
+      "what": "DeepSeek's 'super agent' prototype (South China Morning Post, 1 November 2026)",
+      "why": "the page refused our reader (HTTP 403); to retry from DeepSeek's own GitHub release"
+    },
+    {
+      "what": "Apple's filing on agents behaving unpredictably (CNBC, 3 November); Uber's four agent-booked rides (TechCrunch, 4 November); Airbnb's agent in 2027 (TechCrunch, 5 November)",
+      "why": "held for a wider piece on agents' adoption; below the bar alone"
+    },
+    {
+      "what": "China's unified identity standard for AI agents (South China Morning Post)",
+      "why": "dated June 2026, not new"
+    }
+  ],
+  "wakes": [
+    {
+      "at": "2026-11-10T01:50Z",
+      "added": 1,
+      "note": "first wake: Web Summit and the four beats"
+    },
+    {
+      "at": "2026-11-10T02:40Z",
+      "added": 4,
+      "note": "widened at Silvio's word to the leading tech and AI sites of Portugal, Europe, the US, China and the world"
+    }
   ]
 }

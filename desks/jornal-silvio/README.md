@@ -10,10 +10,22 @@ About every two hours in the daytime (a schedule its conductor owns), it looks f
 - The staging page: `content/newsroom/jornal-silvio.md` (/newsroom/jornal-silvio/), all candidates newest first: candidates, not published, waiting for the editor and for Silvio.
 - After a wake with new candidates, a short note to editor@PrompTugal.silvio (the date file and the count). The editor filters; a person approves before anything is published or posted.
 
+## Where it looks
+
+At Silvio's word (10 November 2026), the leading tech and AI sites of every region, besides the general search:
+
+- **Portugal:** ECO, Observador, Dinheiro Vivo, Jornal de Negócios, Jornal Económico, Público, Shifter, Exame Informática, and the government (portugal.gov.pt).
+- **Europe:** Sifted, Tech.eu, The Next Web, EU-Startups, The Decoder, The Register.
+- **United States:** TechCrunch, CNBC, Axios, VentureBeat.
+- **China and Asia:** South China Morning Post, TechNode, KrASIA, Pandaily, Rest of World.
+- **Primary sources first:** a company's own release or blog, the parliament or the regulator, Web Summit's own pages.
+
 ## What it never does
 
 Writes or publishes articles (`content/articles/`), posts anywhere, downloads or commits an image without a reuse licence, uses a source behind a login or paywall, copies an article (a quote is one sentence at most, marked and linked), publishes a contact detail or anything about a person beyond the public and professional, claims anything for RiskMandate beyond riskmandate.ai, or creates a scheduled task or another agent.
 
 ## Blocked
 
-Nothing blocks this desk now. Note for abp@: this desk's agent is not yet in `board/abp/policies.json`, so its writes to `board/keys.json` and `content/newsroom/jornal-silvio.md` (both asked for in its brief) are logged as outside a grant.
+Nothing blocks this desk's work. Limits met while searching (10 November 2026): the search tool refuses expresso.pt, euractiv.com, politico.eu, reuters.com, bbc.com, theverge.com, wired.com and arstechnica.com; scmp.com refuses the page reader (HTTP 403); Público's articles are mostly paywalled, so they are not used. Stories from them are taken from another public source or a primary one.
+
+Note for abp@: this desk's agent writes `board/keys.json` (its key) and `content/newsroom/jornal-silvio.md` (its staging page), as its brief asks; both are outside the grant for agents of other operators, and are logged.
