@@ -7,7 +7,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { frontOrder, byline, minutes, imageFile, figureOf } from './front.mjs'
-import { load, rank } from './agenda.mjs'
+import { load, rank, cancelledDays } from './agenda.mjs'
 import { WORDMARK } from '../lib/shell.mjs'
 import { model as homeModel } from '../lib/home.mjs'
 import { stripHtml } from './gamma.mjs'
@@ -65,15 +65,17 @@ function leadExtra(ctx, a) {
     if (lc || lh) out.live = put(item('live'), { lastchecked: lc ? put(item('lastchecked'), { time: lc }) : '', livelink: lh ? put(item('livelink'), { href: esc(lh), tgt: tgtOf(lh), label: esc(str(L.live.label) || 'Live updates') }) : '' })
     return out
 }
-// the satellite loop: the lead's chart stays in the HTML (it is what shows while the live frames load, and the fallback if none
-// are usable); for the article named in assets/satellite/loop.json the chart's figure carries the loop's configuration, and
-// assets/satellite/loop.js swaps the loop in once frames from EUMETSAT's Web Map Service have loaded. No frames are stored here.
-function satAttr(ctx, a) {
+// the satellite loop, in the lead's picture slot, for the article named in assets/satellite/loop.json. The static warning chart is no
+// longer on the home page (it stays in the article): the HTML carries an empty satellite panel with the loop's configuration, and
+// assets/satellite/loop.js loads the newest Meteosat frames from EUMETSAT's Web Map Service into it. If no satellite image can be loaded
+// the panel says 'Satellite image unavailable right now' with a link to the article. No frames are stored here.
+function satFigure(ctx, a) {
     let L; try { L = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/satellite/loop.json'), 'utf8')) } catch { return '' }
     if (L.article !== slugOf(a) || !L.live || !/^https:\/\/view\.eumetsat\.int\//.test(L.live.wms || '')) return ''
-    const cfg = { live: L.live, credit: L.credit, product: L.product, terms: L.terms_url, policy: L.policy_url, source_url: L.source_url, lisbon: L.lisbon, delay: L.delay_minutes, check: L.check_minutes, min: L.min_frames,
+    const esc = ctx.md.esc
+    const cfg = { live: L.live, credit: L.credit, product: L.product, terms: L.terms_url, policy: L.policy_url, source_url: L.source_url, lisbon: L.lisbon, delay: L.delay_minutes, check: L.check_minutes, min: L.min_frames, story: a.rel,
         alt: `Infrared satellite image of mainland Portugal and the Atlantic to its west, Lisbon marked. ${L.credit}, ${L.product}.` }
-    return ` data-sat="${ctx.md.esc(JSON.stringify(cfg))}"`
+    return put(item('satfig'), { cfg: esc(JSON.stringify(cfg)), href: a.rel, credit: esc(L.credit), product: esc(L.product), terms: esc(L.terms_url), policy: esc(L.policy_url) })
 }
 function lead(ctx, a) {
     if (!a) return part('none')
@@ -81,7 +83,7 @@ function lead(ctx, a) {
     let headline = esc(a.meta.title)
     if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
     return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
-        pill: pill(ctx, a), figure: fig ? put(item('figure'), { href: a.rel, picture: fig, sat: satAttr(ctx, a) }) : '', ...leadExtra(ctx, a) })
+        pill: pill(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : ''), ...leadExtra(ctx, a) })
 }
 
 function fillE(page, ctx) {
@@ -89,12 +91,12 @@ function fillE(page, ctx) {
     const story = (a, i) => put(item('story'), { big: i ? '' : ' big', beat: esc(beatOf(a)), href: a.rel, title: esc(a.meta.title), dek: esc(cut(a.meta.summary || '', 170)), pill: pill(ctx, a),
         thumb: i && imageFile(a, 'thumb') ? put(item('thumb'), { href: a.rel, picture: picture(esc, a, 'thumb', true) }) : '' })
     // this week: today and the six days after it, the two that matter most each day
-    const week = [...Array(7).keys()].map(n => plusDays(ctx.TODAY, n)).flatMap(d => [...itemsOn(d)].sort((x, y) => rank(x) - rank(y) || (x.start || '').localeCompare(y.start || '')).slice(0, 2))
+    const week = [...Array(7).keys()].map(n => plusDays(ctx.TODAY, n)).filter(d => !cancelledDays()[d]).flatMap(d => [...itemsOn(d)].sort((x, y) => rank(x) - rank(y) || (x.start || '').localeCompare(y.start || '')).slice(0, 2))
     const seenWk = new Set()
     const wk = week.filter(i => { const k = i.what.split(/:\s|\s\(/)[0]; return !seenWk.has(k) && seenWk.add(k) }).map(i => ({ href: `events/${i.id}/index.html`, date: i.date, when: esc(when(ctx, i)), what: esc(cut(i.what, 80)), where: i.where ? ' · ' + esc(i.where) : '' }))
     // now and next: what has not ended yet, in time order, the bigger moments first within a day (the page drops the ended)
     const seenNext = new Set()
-    const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && rank(i) <= 3 && !seenNext.has(i.date + i.what.split(/:\s|\s\(/)[0]) && seenNext.add(i.date + i.what.split(/:\s|\s\(/)[0])).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '24:00').localeCompare(y.start || '24:00')).slice(0, 10)  // all-day things after the timed ones (sherpa@'s R6: lead with now)
+    const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && !cancelledDays()[i.date] && rank(i) <= 3 && !seenNext.has(i.date + i.what.split(/:\s|\s\(/)[0]) && seenNext.add(i.date + i.what.split(/:\s|\s\(/)[0])).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '24:00').localeCompare(y.start || '24:00')).slice(0, 10)  // all-day things after the timed ones (sherpa@'s R6: lead with now)
     const fields = ctx.store.topics.filter(t => t.kind === 'field').map(t => [t, ctx.store.companies.filter(c => c.category === t.category).length]).filter(x => x[1]).sort((x, y) => y[1] - x[1])
     const max = fields[0]?.[1] || 1
     const opening = AGENDA.items.find(i => /opening night/i.test(i.what))

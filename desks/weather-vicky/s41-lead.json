@@ -2,26 +2,26 @@
   "standfirst": "Web Summit says Day 2, Wednesday 11 November, will not take place, after the Government of Portugal formally advised it not to because of Storm Charles. IPMA has red wind and rain warnings for the Lisbon district that day, and the government has declared an alert situation for the whole mainland.",
   "developments": [
     {
-      "text": "Web Summit says Day 2 (Wednesday) will not take place: the Government of Portugal formally advised it not to, after talks with the government, ANEPC and the PSP; it aims to go ahead with Day 3 on Thursday.",
-      "source": "https://websummit.com/blog/",
-      "checked": "2026-11-10T20:02Z"
+      "text": "Web Summit says Day 2 (Wednesday) will not take place: the Government of Portugal formally advised it not to, after talks with the government, ANEPC and the PSP, and it aims to go ahead with Day 3 on Thursday.",
+      "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
+      "checked": "2026-11-10T21:37Z"
     },
     {
       "text": "IPMA's red warnings for the Lisbon district on Wednesday are unchanged: wind 12:00 to 21:00, rain 12:00 to 18:00.",
       "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-      "checked": "2026-11-10T19:36Z"
+      "checked": "2026-11-10T21:36Z"
     },
     {
       "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended.",
       "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-      "checked": "2026-11-10T19:36Z"
+      "checked": "2026-11-10T21:36Z"
     }
   ],
   "programme": {
     "label": "Web Summit, Wednesday",
-    "text": "Day 2 will not take place, Web Summit says in its post \"Important event update\". It aims to proceed with Day 3 on Thursday, it told attendees.",
-    "source": "https://websummit.com/blog/",
-    "checked": "2026-11-10T20:02Z"
+    "text": "Day 2 will not take place, on the Portuguese Government's advice. Web Summit aims to proceed with Day 3 on Thursday, after the storm passes.",
+    "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
+    "checked": "2026-11-10T21:37Z"
   },
-  "last_checked": "2026-11-10T20:02Z"
+  "last_checked": "2026-11-10T21:37Z"
 }

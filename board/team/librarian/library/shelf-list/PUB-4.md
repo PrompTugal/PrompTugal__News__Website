@@ -1,19 +1,25 @@
 ---
 title: "Shelf list: PUB, The publication (part 4 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T19:04:31Z"
-site_version: "v0.1.1058"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T21:58:54Z"
+site_version: "v0.1.1085"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 4 of 5)
 
-100 cards, from `PUB.SITE for-events` to `PUB.SITE pt`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE es:4` to `PUB.SITE pitch`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE es:4` | [PrompTugal: el caso del Algarve](https://promptugal.news/investors/decks/4-the-algarve/es/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE es:5` | [PrompTugal: la inversión](https://promptugal.news/investors/decks/5-the-investment/es/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE es:6` | [PrompTugal: lo que lo hace posible](https://promptugal.news/investors/decks/6-the-technology/es/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE es:7` | [PrompTugal: únase](https://promptugal.news/investors/decks/7-join-us/es/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE es:8` | [PrompTugal: hágalo usted mismo](https://promptugal.news/investors/decks/8-do-it-yourself/es/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE es:9` | [PrompTugal: lo que está en línea, una visita guiada](https://promptugal.news/investors/decks/9-the-tour/es/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-events` | [For event organisers](https://promptugal.news/investors/for-events/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-events:2` | [Para organizadores de eventos](https://promptugal.news/investors/es/for-events/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-events:3` | [Pour les organisateurs d'événements](https://promptugal.news/investors/fr/for-events/) | site | investors@ 7 Nov 2026 |
@@ -33,17 +39,17 @@ source: board/catalogue.json
 | `PUB.SITE fr:3` | [PrompTugal : la plateforme](https://promptugal.news/investors/decks/3-the-platform/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr:4` | [PrompTugal : le cas de l'Algarve](https://promptugal.news/investors/decks/4-the-algarve/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr:5` | [PrompTugal : l'investissement](https://promptugal.news/investors/decks/5-the-investment/fr/) | site | investors@ 7 Nov 2026 |
+
+**Cards 326 to 350**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE fr:6` | [PrompTugal : ce qui le rend possible](https://promptugal.news/investors/decks/6-the-technology/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr:7` | [PrompTugal : rejoignez-nous](https://promptugal.news/investors/decks/7-join-us/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr:8` | [PrompTugal : faites-le vous-même](https://promptugal.news/investors/decks/8-do-it-yourself/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr:9` | [PrompTugal : ce qui est en ligne, une visite guidée](https://promptugal.news/investors/decks/9-the-tour/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE graph` | [The graph](https://promptugal.news/graph/) | site | newsroom-graph@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE gravity` | [Centres of gravity](https://promptugal.news/graph/gravity/) | site | dev@ 6 Nov 2026 |
-
-**Cards 326 to 350**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `PUB.SITE guy-ben-zvi` | [Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night](https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/) | site | journalist@ 10 Nov 2026 |
 | `PUB.SITE how-we-got-here` | [How we got here](https://promptugal.news/investors/how-we-got-here/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE how-we-got-here:2` | [Cómo llegamos hasta aquí](https://promptugal.news/investors/es/how-we-got-here/) | site | investors@ 7 Nov 2026 |
@@ -63,17 +69,17 @@ source: board/catalogue.json
 | `PUB.SITE join` | [Join us](https://promptugal.news/investors/join/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE join:2` | [Únase](https://promptugal.news/investors/es/join/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE join:3` | [Rejoignez-nous](https://promptugal.news/investors/fr/join/) | site | investors@ 7 Nov 2026 |
+
+**Cards 351 to 375**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE join:4` | [Junte-se a nós](https://promptugal.news/investors/pt/join/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE language-vote` | [Thank you for your vote](https://promptugal.news/investors/language-vote/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE language-vote:2` | [Gracias por su voto](https://promptugal.news/investors/es/language-vote/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE language-vote:3` | [Merci pour votre vote](https://promptugal.news/investors/fr/language-vote/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE language-vote:4` | [Obrigado pelo seu voto](https://promptugal.news/investors/pt/language-vote/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE languages` | [Which language next?](https://promptugal.news/investors/languages/) | site | investors@ 7 Nov 2026 |
-
-**Cards 351 to 375**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `PUB.SITE languages:2` | [¿qué idioma ahora?](https://promptugal.news/investors/es/languages/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE languages:3` | [Quelle langue ensuite ?](https://promptugal.news/investors/fr/languages/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE languages:4` | [Que língua a seguir?](https://promptugal.news/investors/pt/languages/) | site | investors@ 7 Nov 2026 |
@@ -93,17 +99,17 @@ source: board/catalogue.json
 | `PUB.SITE nine-decks-one-story:2` | [Nueve presentaciones, una historia: del problema al producto](https://promptugal.news/investors/es/articles/nine-decks-one-story/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE nine-decks-one-story:3` | [Neuf decks, une histoire : du problème au produit](https://promptugal.news/investors/fr/articles/nine-decks-one-story/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE nine-decks-one-story:4` | [Nove apresentações, uma história: do problema ao produto](https://promptugal.news/investors/pt/articles/nine-decks-one-story/) | site | investors@ 7 Nov 2026 |
+
+**Cards 376 to 400**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE offline` | [Offline copies](https://promptugal.news/offline/) | site | Claude 10 Nov 2026 |
 | `PUB.SITE organisations` | [Portugal's ecosystem organisations](https://promptugal.news/portugal/organisations/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE outreach` | [Outreach, what to send and samples](https://promptugal.news/investors/outreach/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE outreach:2` | [Contacto, qué enviar y ejemplos](https://promptugal.news/investors/es/outreach/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE outreach:3` | [Prise de contact, quoi envoyer et exemples](https://promptugal.news/investors/fr/outreach/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE outreach:4` | [Contactos, o que enviar e exemplos](https://promptugal.news/investors/pt/outreach/) | site | investors@ 7 Nov 2026 |
-
-**Cards 376 to 400**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `PUB.SITE participant` | [Our disclosure](https://promptugal.news/about/participant.html) | site | newsroom@web-summit.dinis 4 Nov 2026 |
 | `PUB.SITE partner` | [Propóngannos un proyecto. Vea antes dónde estamos.](https://promptugal.news/investors/es/partner/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE partner:2` | [Confiez-nous un projet. Voyez d'abord où nous en sommes.](https://promptugal.news/investors/fr/partner/) | site | investors@ 7 Nov 2026 |
@@ -123,11 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE personas:3` | [Personal versions](https://promptugal.news/investors/personas/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE personas:4` | [Versões pessoais](https://promptugal.news/investors/pt/personas/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pitch` | [El pitch completo](https://promptugal.news/investors/es/pitch/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE pitch:2` | [Le pitch en entier](https://promptugal.news/investors/fr/pitch/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE pitch:3` | [The pitch in full](https://promptugal.news/investors/pitch/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE pitch:4` | [O pitch na íntegra](https://promptugal.news/investors/pt/pitch/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE portugal` | [Portugal](https://promptugal.news/portugal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE profile` | [Your profile](https://promptugal.news/profile/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE pt` | [PrompTugal: a tese de investimento](https://promptugal.news/investors/decks/1-the-investment-case/pt/) | site | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-3.md) | [Next part](PUB-5.md)

@@ -33,6 +33,8 @@ for (const u of ['https://websummit.com/', 'https://websummit.com/blog/', 'https
     const t = (await p.innerText('body')).replace(/\s+/g, ' ')
       .replace(/Join the Web Summit network[^.]*\./g, '')
       // Web Summit's own statement of 10 Nov (Day 2 will not take place), already in S41: not a new change
+      // its homepage banner (21:32 UTC, 10 Nov) pointing to that statement: also known
+      .replace(/Important event update On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings\. Please read statement here\./g, '')
       .replace(/Important event update The Government of Portugal has formally advised Web Summit that, due to the risks posed by Storm[^.]*\.{0,3}/g, '');
     const m = t.match(words);
     websummit[u] = m ? t.slice(Math.max(0, m.index - 200), m.index + 300) : null;

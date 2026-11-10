@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-speakers",
+  "story": "S5",
+  "url": "https://websummit.com/speakers/",
+  "title": "Speakers (Web Summit)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "Web Summit's speakers page, which describes 800 speakers."
+}

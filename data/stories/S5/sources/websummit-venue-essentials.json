@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-venue-essentials",
+  "story": "S5",
+  "url": "https://websummit.com/essentials/venue/",
+  "title": "Venue, Essentials (Web Summit)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "Web Summit's venue essentials: the dates, 9 to 12 November 2026, and the venue, the MEO Arena and FIL in Lisbon."
+}

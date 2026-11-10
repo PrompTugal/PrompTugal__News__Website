@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S45",
+  "type": "story",
+  "title": "Web Summit's cancelled Day 2: what is known about refunds",
+  "beat": "The summit",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:x-ws-event-update-refunds",
+    "evidence:x-ws-terms"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-10-2230.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-2230.json",
+      "desks/journalist-vicky/drafts/S45-web-summit-day-2-refunds.md",
+      "desks/reviewer-vicky/reviews/S45.md",
+      "content/articles/web-summit-day-2-refunds.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S45-web-summit-day-2-refunds.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S45.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/web-summit-day-2-refunds.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S45.md"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-10",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-10-2230.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-10",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S45-web-summit-day-2-refunds.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-10",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "content/articles/web-summit-day-2-refunds.md"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "$comment": "Dinis's five steps of the agentic workflow against what the record shows for the storm (S41), at 17:22 UTC on 10 November 2026. Copied from the trace's workflow_against_the_brief, with the times of each step's evidence. Made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-storm",
-  "from": "board/team/work-desk/traces/the-storm.json (updated 2026-11-10T18:35Z)",
-  "as_of": "2026-11-10T18:20Z",
-  "finding": "Steps 2 to 4 collapsed into the agent that needed them: weather@ wrote eight source readers itself (tools/watch.mjs, 17:52) and a proposal in place of an architect's plan. The one slowdown was a policy boundary (reviewer@'s grant, 17:33), not a tool.",
+  "from": "board/team/work-desk/traces/the-storm.json (updated 2026-11-10T21:45Z)",
+  "as_of": "2026-11-10T21:23Z",
+  "finding": "Steps 2 to 4 collapsed into the agent that needed them. What slowed the work was a grant (52 min), a gate (12 min) and a security review (stop-gap in 8 min), never a missing tool. The weak signal (the mayor, 13:23) came 5 h 46 min before the organisers' post and was missed: the desk watched primary sources only, and the press watch started at 18:46.",
   "against_the_brief": {
     "1_raw_source": {
       "status": "seen",
@@ -21,7 +21,7 @@
         12,
         38
       ],
-      "evidence": "no request to a conductor or developer for a parser; weather@ wrote tools/watch.mjs itself (eight sources) at the guidance's word. The only request for help is still for a person (lisboa.pt, ANA, CP)."
+      "evidence": "no request to a conductor or developer for a parser; weather@ wrote tools/watch.mjs itself (eight sources) at the guidance's word. The only request for help is still for a person (lisboa.pt, ANA, CP). The first request to a developer came from the gate (step 50: links without target=_blank), fixed in 12 minutes (step 52)."
     },
     "3_architect_plan": {
       "status": "a proposal in place of a plan",
@@ -43,14 +43,15 @@
       "evidence": "lead display released; the storm page v1 handed to dev@PrompTugal.vicky at 18:20; dev.graphs@ and designer@ keep v2"
     },
     "5_ui_signal": {
-      "status": "lead display live; storm page in preview",
+      "status": "lead live; storm page in preview",
       "steps": [
         20,
         29,
-        34,
-        45
+        50,
+        52,
+        53
       ],
-      "evidence": "the lead's values still wait on Vicky (reviewer@'s grant excludes desks/correspondent/)"
+      "evidence": "the S41 lead released at 18:54 UTC after Dinis widened reviewer@'s grant (step 47) and dev@ fixed the links (step 52)"
     }
   },
   "speeds": [
@@ -71,6 +72,69 @@
       "from": "about 17:00 (memo)",
       "to_step": 38,
       "minutes": 52
+    },
+    {
+      "what": "reviewer@ stops at its grant to Dinis widening it",
+      "from_step": 31,
+      "to_step": 47,
+      "minutes": 52
+    },
+    {
+      "what": "the gate's hold to dev@'s fix",
+      "from_step": 50,
+      "to_step": 52,
+      "minutes": 12
+    },
+    {
+      "what": "Dinis asks for the fuller lead to the lead live",
+      "from_step": 16,
+      "to_step": 53,
+      "minutes": 102
+    },
+    {
+      "what": "organisers' email to S41 updated",
+      "from_step": 59,
+      "to_step": 62,
+      "minutes": 12
+    },
+    {
+      "what": "Vicky's satellite request to security@'s review",
+      "from": "18:40 (Vicky)",
+      "to_step": 68,
+      "minutes": 106
+    },
+    {
+      "what": "conductor.B's ask to dev@'s stop-gap",
+      "from_step": 73,
+      "to_step": 74,
+      "minutes": 8
     }
-  ]
+  ],
+  "look_back": {
+    "question": "how far ahead could the cancellation have been known?",
+    "chain": [
+      {
+        "step": 57,
+        "time": "13:23",
+        "signal": "the mayor (press)"
+      },
+      {
+        "step": 58,
+        "time": "17:32",
+        "signal": "the PM's recommendation (spoken)"
+      },
+      {
+        "step": 59,
+        "time": "19:09",
+        "signal": "the organisers' post (page data); email 19:38"
+      }
+    ],
+    "lead_times": {
+      "mayor_to_organisers": "5 h 46 min (to the post's 19:09) or 6 h 15 min (to the email)",
+      "pm_to_organisers": "1 h 37 min (post) or 2 h 06 min (email)"
+    },
+    "against_dinis": "Dinis said the shutdown 'will be predictable maybe 5 or 10 hours before'; the first public signal came 5 h 46 min ahead.",
+    "what_the_desk_saw": "the weather desk logged the mayor's remark at 19:48, after the event: its watch read primary sources only; social.watch@ (press and social) started at 18:46.",
+    "label": "from the record; the times of spoken remarks come from the press"
+  }
 }

@@ -1,8 +1,8 @@
 {
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
- "state": "eleven temporary agents; no hold; Web Summit called off Day 2 (Wednesday), 19:38 email; S41 update ready at the reviewer, waiting on Vicky's line or a public Web Summit statement",
- "updated": "2026-11-10T20:58Z",
+ "state": "eleven temporary agents; no hold; S41 and the shortened lead live with the satellite loop (stop-gap); S44 waits on journalist@PrompTugal.dinis; S45 (refunds) commissioned",
+ "updated": "2026-11-10T21:52Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -33,16 +33,14 @@
   "18:49 wake: no hold either side; Dinis granted reviewer@ the five S41 lead keys (18:36) and put Vicky's temporary team under security@'s review (18:25); the lead release held by the gate (outside links without target=_blank in front-e.mjs), fix asked of dev@; security@ asked for an ETA on the satellite loop clearance; dev@ to run the real-feed test locally",
   "19:49 wake: no hold either side; the S41 lead live since 18:54 (v0.1.1058); Web Summit's 19:38 email (Day 2 will not take place) relayed at Vicky's word to reviewer@, weather@, journalist@, the curator and correspondent@; reviewer@ holds the S41 update until Vicky confirms in its session or a public channel carries it; weather@ recorded it in live.md and the decision graph; satellite loop test passed, waits on security@",
   "20:15 S41 and the lead now cite Web Summit's own post (reviewer@, 20:08); security@'s S36 resolved by that; the satellite loop clearance request re-filed as a commit for security@ (its 20:05 review saw nothing in its inbox), dev@'s real-feed test passed",
-  "20:49 wake: no hold; security@ cleared the satellite loop at 20:26 on four conditions (it had missed the inbox requests at 20:05); dev@ released it at 20:47 (ddf5b702d) without meeting conditions 2 and 3 (stop-gap notice, credit, terms) and with the preferred condition 1 (frames from our origin) not done; dev@ asked to fix as a declared stop-gap within 15 minutes or revert; Web Summit's post is S41's primary source; curator commissioned S44 (Wednesday guide update)"
+  "20:49 wake: no hold; security@ cleared the satellite loop at 20:26 on four conditions (it had missed the inbox requests at 20:05); dev@ released it at 20:47 (ddf5b702d) without meeting conditions 2 and 3 (stop-gap notice, credit, terms) and with the preferred condition 1 (frames from our origin) not done; dev@ asked to fix as a declared stop-gap within 15 minutes or revert; Web Summit's post is S41's primary source; curator commissioned S44 (Wednesday guide update)",
+  "21:49 wake: no hold either side; the satellite loop live as a declared stop-gap (3299a3f80, v0.1.1076, checked on the public page); the lead shortened (59 words) with a Read the full story link (985b1f395); the chart caption fixed ('Chart based on IPMA data'); S44 placement approved by Vicky, asked of journalist@PrompTugal.dinis (its signature); S45 (refunds) commissioned at Dinis's request via Vicky; Web Summit's statement now at its own URL"
  ],
  "next": [
-  "satellite loop: dev@'s stop-gap fix (or revert), checked live; then frames served from our origin for Vicky's go; send Vicky the commit and link once compliant",
-  "storm page preview: build work/dev.graphs locally, screenshots at 390 and 1280 px for Vicky; publish and link only after her yes",
-  "the fuller S41 lead: dev@'s rendering released and checked on a phone; correspondent@ fills the fields (its next wake, about 18:41, or sooner if Dinis nudges it)",
-  "weather@'s first live page; disable its wake when the warning and Wednesday's programme are over",
-  "confirm journalist@'s S41 checks at each :48 wake until the warning ends",
-  "15:48 wake",
-  "switch-back steps when Vicky returns (hand-over, Open)"
+  "S45 draft to the reviewer, then Vicky's approval",
+  "S44: journalist@PrompTugal.dinis's answer",
+  "the satellite loop: frames from our origin needs Dinis (an automation)",
+  "22:48 wake"
  ],
  "asks": [
   "Vicky: one line in reviewer@'s session confirming Web Summit's 19:38 email, so the S41 cancellation update is released",

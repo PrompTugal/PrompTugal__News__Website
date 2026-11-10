@@ -6,13 +6,14 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Tuesday 10 November 2026, 20:43 UTC.
+Last updated: Tuesday 10 November 2026, 21:47 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S44 | Update: Wednesday's Web Summit events will not take place | The summit | 10 Nov |
+| S45 | Web Summit's cancelled Day 2: what is known about refunds | The summit | 10 Nov |
+| S44 | Update: Web Summit's Wednesday will not take place; it aims to hold Thursday (drafted, awaiting review) | The summit | 10 Nov |
 | S43 | Wednesday's alert: what the government has closed across Portugal | The summit | 10 Nov |
 | S42 | What Lovable deleted: its CEO on rebuilding an AI coding agent (drafted by journalist-ai, 10 Nov, awaiting review) | AI and robotics | 10 Nov |
 | S41 | Red wind warning for Lisbon on Wednesday: what it means for Web Summit (published 10 Nov) | The summit | 10 Nov |
@@ -53,13 +54,22 @@ Last updated: Tuesday 10 November 2026, 20:43 UTC.
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
 
-## S44: Update: Wednesday's Web Summit events will not take place
+## S45: Web Summit's cancelled Day 2: what is known about refunds
 
-The summit, added 10 Nov. An update note for the published Wednesday 11 November guide: Web Summit says the government formally advised that Day 2 should not take place because of Storm Charles. STORM-10NOV, for journalist (summit desk). An update, not a new article. Time-sensitive.
+The summit, added 10 Nov. Web Summit's post says it will contact those impacted and does not mention refunds, credits or compensation; its published terms set out cancellation, postponement and events beyond its control. A plain account of what is published and what is not announced. STORM-10NOV, for journalist (summit desk). Time-sensitive. Quote the terms, do not interpret; consumer pages to be read by the journalist.
 
 Sources:
 
-- [Web Summit, "Important event update (blog listing)"](https://websummit.com/blog/), read 10 November 2026
+- [Web Summit, "Important event update"](https://websummit.com/blog/web-summit/important-event-update-2026/), read 10 November 2026
+- [Web Summit, "Terms and conditions"](https://websummit.com/terms-and-conditions/), read 10 November 2026
+
+## S44: Update: Web Summit's Wednesday will not take place; it aims to hold Thursday
+
+The summit, added 10 Nov. An update note for the published Wednesday 11 November guide, from Web Summit's own statement: Day 2 will not take place on the Government's formal advice; it aims to proceed with Day 3 on Thursday as planned. STORM-10NOV, for journalist (summit desk). An update, not a new article. Time-sensitive.
+
+Sources:
+
+- [Web Summit, "Important event update"](https://websummit.com/blog/web-summit/important-event-update-2026/), read 10 November 2026
 
 ## S43: Wednesday's alert: what the government has closed across Portugal
 
@@ -436,7 +446,7 @@ Ready to write now:
 
 Already published, not to be written again: S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
-Already drafted, not to be written again: S42 (drafted by journalist-ai, 10 Nov, awaiting review).
+Already drafted, not to be written again: S44 (drafted, awaiting review); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
 
 No assignment this run: the Europe and Portugal desks (not part of the overnight batch). Not commissioned from the researcher's candidates: Terrapinn (no outcome figures, one vendor source) and the Klarna backup (a 2024 press release, current position unchecked, not a Web Summit participant); the gaps are in the latest map.
 

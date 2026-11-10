@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-147 cards (147 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T19:04:31Z at site v0.1.1058; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+151 cards (151 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T21:58:54Z at site v0.1.1085; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 147 |
+| `PUB.NEWS` | 151 |
 
 Newest five accessions:
 
+- `ACC-20261110-0288` [How each piece is made](https://promptugal.news/newsroom/pieces/) (`PUB.NEWS pieces`)
+- `ACC-20261110-0287` [The decision graph (Storm Charles)](https://promptugal.news/newsroom/decision-graph/) (`PUB.NEWS decision-graph`)
+- `ACC-20261110-0286` [S45: Web Summit's cancelled Day 2: what is known about refunds](https://promptugal.news/newsroom/stories/S45/) (`PUB.NEWS S45`)
+- `ACC-20261110-0285` [S44: Update: Web Summit's Wednesday will not take place; it aims to hold Thursday](https://promptugal.news/newsroom/stories/S44/) (`PUB.NEWS S44`)
 - `ACC-20261110-0235` [S43: Wednesday's alert: what the government has closed across Portugal](https://promptugal.news/newsroom/stories/S43/) (`PUB.NEWS S43`)
-- `ACC-20261110-0221` [S42: What Lovable deleted: its CEO on rebuilding an AI coding agent](https://promptugal.news/newsroom/stories/S42/) (`PUB.NEWS S42`)
-- `ACC-20261110-0220` [S41: Red wind warning for Lisbon on Wednesday: what it means for Web Summit](https://promptugal.news/newsroom/stories/S41/) (`PUB.NEWS S41`)
-- `ACC-20261110-0034` [Decided: the design flip for the agentic edition, three Portuguese directions](https://promptugal.news/newsroom/design/decisions/the-design-flip/) (`PUB.NEWS the-design-flip`)
-- `ACC-20261110-0033` [protocols: Six people, six agent protocols, one week](https://promptugal.news/newsroom/stories/protocols/) (`PUB.NEWS protocols`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

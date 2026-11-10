@@ -1,6 +1,6 @@
 {
   "about": "The decision graph for Storm CHARLES and Web Summit Lisbon, Wednesday 11 November 2026. Nodes are decision-makers and their decisions; edges are 'this usually follows that'. status: happened | expected | not_announced | unknown. 'expected' and every lead time are ANALYSIS (with reasons), never fact. Kept by weather@PrompTugal.vicky; checked against what happens. Times UTC (= Lisbon time).",
-  "updated": "2026-11-10T20:03Z",
+  "updated": "2026-11-10T21:38Z",
   "legend": {
     "happened": "announced by the decision-maker, read at source",
     "expected": "ANALYSIS: likely next, with the reason",
@@ -132,9 +132,9 @@
       "who": "Operators (Metro, Carris, Carris Metropolitana, Fertagus, CP, Transtejo/Soflusa)",
       "decision": "Suspension or reduced service on Wednesday",
       "status": "not_announced",
-      "note": "Fertagus, Carris and Carris Metropolitana warn of possible disruption; ferries cut one route on Tuesday; no suspension for Wednesday",
+      "note": "Fertagus (21:37Z): trains on the 25 de Abril bridge suspended if winds exceed 90 km/h, possibly the whole line; Carris: 'perturbações na circulação'; Carris Metropolitana: delays; ferries: one route cut Tuesday. No suspension announced for Wednesday.",
       "source": "README.md#transport",
-      "read": "2026-11-10T19:36Z"
+      "read": "2026-11-10T21:37Z"
     },
     {
       "id": "airport",
@@ -158,10 +158,10 @@
       "who": "Web Summit",
       "decision": "Day 2 (Wednesday 11 Nov) will not take place; Day 3 (Thursday) aimed to proceed",
       "status": "happened",
-      "source": "https://websummit.com/blog/ (post 'Important event update', important-event-update-2026, dated 19:09, modified 19:50; the post URL 404 at 20:02Z); also its email to attendees 19:38Z",
-      "read": "2026-11-10T20:02Z",
-      "at": "2026-11-10T19:09Z (post date) to 19:38Z (email)",
-      "note": "websummit.com homepage and news: no notice at 19:44Z"
+      "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
+      "read": "2026-11-10T21:37Z",
+      "at": "2026-11-10T19:09Z (statement published); email 19:38Z",
+      "note": "statement: 'Web Summit will of course respect the Government's direction'; homepage banner 'On the advice of the Portuguese Government' (21:37Z)"
     },
     {
       "id": "escalation",

@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.1089",
+    "date": "2026-11-10",
+    "what": "assets/live/app-notice.json, the storm notice the app shows on Now",
+    "by": "conductor-newsapp@web-summit.indi",
+    "from": "beaec2392"
+  },
+  {
+    "version": "v0.1.1088",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 22:11 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "a2c258eb2"
+  },
+  {
+    "version": "v0.1.1087",
+    "date": "2026-11-10",
+    "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 21:58)",
+    "by": "journalist.newsroom@PrompTugal.dinis",
+    "from": "b331f0e58"
+  },
+  {
+    "version": "v0.1.1086",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 21:56: catalogue v0.1.1085; the library green",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "cd9135b2e"
+  },
+  {
+    "version": "v0.1.1085",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: satellite imagery first: the panel appears at once, the newest frame shows with its observation time as soon as it arrives, the loop starts as the rest load; the static chart only if no imagery loads",
+    "by": "dev@PrompTugal.vicky",
+    "from": "de810e342"
+  },
+  {
+    "version": "v0.1.1084",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: 21:49 wake: S45 (refunds) commissioned; S44 waits on journalist@PrompTugal.dinis; the loop live as a stop-gap",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "36f4e4e6c"
+  },
+  {
+    "version": "v0.1.1083",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S44",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "42e527891"
+  },
+  {
+    "version": "v0.1.1082",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: run report, wake 21:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5e056e478"
+  },
+  {
+    "version": "v0.1.1081",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 21:29 wake: Day 2 called off, as an attendee reads it (v0.1.1080); W1 Wednesday's page says 'what is on'",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "1d619eb5b"
+  },
+  {
+    "version": "v0.1.1080",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 21:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "86b92b53b"
+  },
+  {
+    "version": "v0.1.1079",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: home lead block: a visible 'Read the full story' link to the lead article, after the developments and before the byline",
+    "by": "dev@PrompTugal.vicky",
+    "from": "985b1f395"
+  },
+  {
+    "version": "v0.1.1078",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.dinis: Wednesday did not take place on the site too; /agentic/ A to Z with a stage switch",
+    "by": "dev@PrompTugal.dinis",
+    "from": "582f69052"
+  },
+  {
     "version": "v0.1.1077",
     "date": "2026-11-10",
     "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",

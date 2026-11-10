@@ -168,3 +168,18 @@
 .fe-sat figcaption small { flex-basis: 100%; font: 11px/1.4 var(--mono); color: #aab1b8; }
 .fe-sat figcaption a { color: #8fd18f; }
 .fe-sat.is-delayed .fe-sat-age { color: #ffb35c; font-weight: 700; }
+
+/* "Read the full story" in the lead block: a visible link-button after the developments, before the byline */
+.fe-band .fe-lmore { margin: 4px 0 14px; }
+.fe-band .fe-lmore a { display: inline-block; font: 700 15px/1.2 var(--sans); color: #0a3a14; background: var(--fe-on-band); text-decoration: none; padding: 10px 16px; min-height: 20px; border-radius: 999px; }
+.fe-band .fe-lmore a:hover { background: #fff; } .fe-band .fe-lmore a:focus-visible { outline: 3px solid var(--fe-accent); outline-offset: 2px; }
+
+/* the satellite panel while its first image loads: same shape as the loop, so nothing jumps */
+.fe-sat-view { aspect-ratio: 5 / 3; background: #14181d; }
+.fe-sat-msg { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center; padding: 12px; font: 13px/1.4 var(--mono); color: #c3c9cf; }
+.fe-sat.is-loading .fe-sat-pin { display: none; }
+.fe-sat-now:empty { display: none; }
+.fe-sat.is-unavailable .fe-sat-pin, .fe-sat.is-unavailable .fe-sat-btn { display: none; }
+.fe-sat-msg a, .fe-sat figure a { color: #8fd18f; }
+.fe-sat-msg { flex-direction: column; gap: 6px; }
+.fe-sat-msg a { text-decoration: underline; font-weight: 700; }

@@ -4,6 +4,25 @@
   "made_by": "trace-to-materials.mjs",
   "steps": [
     {
+      "id": "s057",
+      "time": "2026-11-10T13:23:00Z",
+      "actor": "Lisbon's mayor",
+      "actor_kind": "public authority",
+      "input": "IPMA's warnings",
+      "output": "says everything indicates Web Summit cannot run on Wednesday; refers the final decision to the Ministry of Internal Administration (press, Jornal Económico)",
+      "handoff_to": [
+        "Ministry of Internal Administration"
+      ],
+      "evidence": [
+        "desks/weather-vicky/live.md (10 Nov 13:23, PRESS)",
+        "desks/weather-vicky/decision-graph.json node 'mayor'"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": "the weak signal",
+      "minute": 0
+    },
+    {
       "id": "s001",
       "time": "2026-11-10T14:08:40Z",
       "actor": "curator@PrompTugal.vicky",
@@ -21,7 +40,7 @@
       "tokens": null,
       "hand_off": "person->agent (Vicky directs the manual pass, per c8820e0e's body); agent->agent (commission)",
       "workflow_step": null,
-      "minute": 0
+      "minute": 46
     },
     {
       "id": "s002",
@@ -40,7 +59,7 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": "1. a researcher hits a raw source (IPMA JSON)",
-      "minute": 17
+      "minute": 63
     },
     {
       "id": "s003",
@@ -59,7 +78,7 @@
       "tokens": null,
       "hand_off": "person->agent (published at Vicky's word)",
       "workflow_step": null,
-      "minute": 28
+      "minute": 73
     },
     {
       "id": "s004",
@@ -75,7 +94,7 @@
       "tokens": null,
       "hand_off": "person->agent (a standing approval: later updates need no fresh yes)",
       "workflow_step": null,
-      "minute": 74
+      "minute": 120
     },
     {
       "id": "s005",
@@ -93,7 +112,7 @@
       "tokens": null,
       "hand_off": "person->agent (the stamp at Vicky's word)",
       "workflow_step": "the first connector of this story: a reader for only the part that matters, built by the agent that needed it, without an architect",
-      "minute": 156
+      "minute": 202
     },
     {
       "id": "s006",
@@ -112,7 +131,7 @@
       "tokens": null,
       "hand_off": "person->agent (Dinis), agent->agent (relay)",
       "workflow_step": null,
-      "minute": 159
+      "minute": 204
     },
     {
       "id": "s007",
@@ -130,7 +149,7 @@
       "tokens": null,
       "hand_off": "person->agent",
       "workflow_step": null,
-      "minute": 161
+      "minute": 207
     },
     {
       "id": "s008",
@@ -149,7 +168,7 @@
       "tokens": null,
       "hand_off": "agent->agent (a new desk spun up)",
       "workflow_step": null,
-      "minute": 164
+      "minute": 209
     },
     {
       "id": "s009",
@@ -169,7 +188,7 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": "1. a researcher hits raw sources (five IPMA feeds, mostly JSON)",
-      "minute": 167
+      "minute": 213
     },
     {
       "id": "s010",
@@ -187,7 +206,7 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": "1. raw sources; several unreadable (see blocked)",
-      "minute": 174
+      "minute": 220
     },
     {
       "id": "s011",
@@ -206,7 +225,7 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": "5. the treasure hunt: who decided what (schools closed by measure (a) of the government's declaration)",
-      "minute": 174
+      "minute": 220
     },
     {
       "id": "s012",
@@ -227,7 +246,7 @@
       "tokens": null,
       "hand_off": "agent->person (a request for a human reader: the sources no tool can open)",
       "workflow_step": "2. asks for help with a source (here a person, not a parser)",
-      "minute": 176
+      "minute": 222
     },
     {
       "id": "s013",
@@ -245,7 +264,7 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": null,
-      "minute": 177
+      "minute": 223
     },
     {
       "id": "s014",
@@ -261,7 +280,7 @@
       "tokens": null,
       "hand_off": null,
       "workflow_step": null,
-      "minute": 178
+      "minute": 224
     },
     {
       "id": "s015",
@@ -283,7 +302,7 @@
       "tokens": null,
       "hand_off": "person->agent (Dinis), agent->agents (routing)",
       "workflow_step": null,
-      "minute": 183
+      "minute": 228
     },
     {
       "id": "s016",
@@ -302,7 +321,7 @@
       "tokens": null,
       "hand_off": "person->person->agent",
       "workflow_step": null,
-      "minute": 183
+      "minute": 229
     },
     {
       "id": "s017",
@@ -322,7 +341,7 @@
       "tokens": null,
       "hand_off": "agent->agents (across accounts: Vicky's conductor to Dinis's correspondent)",
       "workflow_step": "4. the developer builds it (a UI field set for the lead)",
-      "minute": 186
+      "minute": 232
     },
     {
       "id": "s018",
@@ -341,7 +360,7 @@
       "tokens": null,
       "hand_off": "person->agent",
       "workflow_step": null,
-      "minute": 190
+      "minute": 235
     },
     {
       "id": "s022",
@@ -359,7 +378,7 @@
       "tokens": null,
       "hand_off": "person->agent (Vicky, with Dinis's authorisation)",
       "workflow_step": null,
-      "minute": 191
+      "minute": 237
     },
     {
       "id": "s019",
@@ -378,7 +397,7 @@
       "tokens": null,
       "hand_off": "person->agent (Dinis), agent->agents",
       "workflow_step": null,
-      "minute": 192
+      "minute": 238
     },
     {
       "id": "s020",
@@ -398,7 +417,7 @@
       "tokens": null,
       "hand_off": "person->agent->agent (Vicky via conductor.B)",
       "workflow_step": "5. a UI turns noise into signal (the data for the lead block)",
-      "minute": 193
+      "minute": 238
     },
     {
       "id": "s023",
@@ -419,7 +438,7 @@
       "tokens": null,
       "hand_off": "agent->agents (across accounts)",
       "workflow_step": null,
-      "minute": 194
+      "minute": 239
     },
     {
       "id": "s021",
@@ -438,7 +457,7 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": null,
-      "minute": 194
+      "minute": 240
     },
     {
       "id": "s024",
@@ -456,7 +475,7 @@
       "tokens": null,
       "hand_off": "agent->person (a case for Dinis to decide on)",
       "workflow_step": null,
-      "minute": 194
+      "minute": 240
     },
     {
       "id": "s025",
@@ -473,7 +492,7 @@
       "tokens": null,
       "hand_off": null,
       "workflow_step": null,
-      "minute": 196
+      "minute": 241
     },
     {
       "id": "s026",
@@ -491,7 +510,7 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": null,
-      "minute": 198
+      "minute": 244
     },
     {
       "id": "s027",
@@ -510,7 +529,7 @@
       "tokens": null,
       "hand_off": "person->agent (under Vicky's standing approval, step 4)",
       "workflow_step": "the desk's finding reaches readers: 25 minutes from the source read (17:01) to the published update (17:27 commit)",
-      "minute": 199
+      "minute": 245
     },
     {
       "id": "s028",
@@ -529,7 +548,7 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": null,
-      "minute": 200
+      "minute": 245
     },
     {
       "id": "s029",
@@ -549,7 +568,25 @@
       "tokens": null,
       "hand_off": "agent->agents (for review by Dinis's dev@)",
       "workflow_step": "4. the developer builds it (the UI for the signal); no designer step",
-      "minute": 201
+      "minute": 247
+    },
+    {
+      "id": "s058",
+      "time": "2026-11-10T17:32:00Z",
+      "actor": "Prime Minister",
+      "actor_kind": "public authority",
+      "input": "the alert situation",
+      "output": "'we have already issued our recommendation' that the summit suspend Wednesday (spoken 17:32 to 17:35; reported live from 17:53)",
+      "handoff_to": [
+        "Web Summit (organisers)"
+      ],
+      "evidence": [
+        "commit:0e77b21e9 (weather@: 'the government's recommendation (the PM, 17:32-17:35)')"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 249
     },
     {
       "id": "s030",
@@ -569,7 +606,7 @@
       "tokens": null,
       "hand_off": "agent->agent (the work desk's own hand-off: trace to story)",
       "workflow_step": null,
-      "minute": 205
+      "minute": 250
     },
     {
       "id": "s031",
@@ -588,7 +625,7 @@
       "tokens": null,
       "hand_off": "agent->person (a policy boundary sends the decision back to a person)",
       "workflow_step": null,
-      "minute": 205
+      "minute": 251
     },
     {
       "id": "s032",
@@ -606,7 +643,7 @@
       "tokens": null,
       "hand_off": "agent->agent (review)",
       "workflow_step": null,
-      "minute": 211
+      "minute": 257
     },
     {
       "id": "s033",
@@ -626,7 +663,7 @@
       "tokens": null,
       "hand_off": "agent->agent (handed to reviewer@ at 17:44)",
       "workflow_step": "1. the desk's watch catches a level change",
-      "minute": 215
+      "minute": 261
     },
     {
       "id": "s034",
@@ -645,7 +682,7 @@
       "tokens": null,
       "hand_off": "person->agent (standing approval, step 4)",
       "workflow_step": "signal to readers: about 3 minutes from IPMA's change seen (17:42) to the published update (17:45 commit)",
-      "minute": 217
+      "minute": 262
     },
     {
       "id": "s035",
@@ -665,7 +702,7 @@
       "tokens": null,
       "hand_off": "agent->agents",
       "workflow_step": null,
-      "minute": 218
+      "minute": 264
     },
     {
       "id": "s036",
@@ -681,7 +718,7 @@
       "tokens": null,
       "hand_off": null,
       "workflow_step": null,
-      "minute": 219
+      "minute": 265
     },
     {
       "id": "s037",
@@ -700,7 +737,7 @@
       "tokens": null,
       "hand_off": "agent->agent (relay of Dinis's word, 50 minutes after the memo)",
       "workflow_step": null,
-      "minute": 222
+      "minute": 267
     },
     {
       "id": "s038",
@@ -721,7 +758,25 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": "2 to 4 collapsed: the desk writes its own connectors (no request, no architect, no plan file); its proposal plays the plan's part for the page",
-      "minute": 224
+      "minute": 269
+    },
+    {
+      "id": "s046",
+      "time": "2026-11-10T17:53:00Z",
+      "actor": "Government (Prime Minister)",
+      "actor_kind": "public authority",
+      "input": "the alert situation",
+      "output": "recommends that Web Summit suspend Wednesday; the decision is the organisers' (as reported live by Jornal de Negócios)",
+      "handoff_to": [
+        "Web Summit (organisers)"
+      ],
+      "evidence": [
+        "board/team/social.watch/signals/2026-11-11-the-storm.md (row 17:53, press: jornaldenegocios.pt live page)"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": "5. the decision graph: a new edge, government to organiser",
+      "minute": 270
     },
     {
       "id": "s039",
@@ -740,7 +795,7 @@
       "tokens": null,
       "hand_off": "agent->sub-agent->agent (inside the desk's run)",
       "workflow_step": "go back in time",
-      "minute": 226
+      "minute": 272
     },
     {
       "id": "s040",
@@ -761,7 +816,7 @@
       "tokens": null,
       "hand_off": "agent->agent",
       "workflow_step": "5. the treasure hunt: the decision graph",
-      "minute": 231
+      "minute": 276
     },
     {
       "id": "s041",
@@ -777,7 +832,7 @@
       "tokens": null,
       "hand_off": null,
       "workflow_step": null,
-      "minute": 234
+      "minute": 280
     },
     {
       "id": "s042",
@@ -796,7 +851,7 @@
       "tokens": null,
       "hand_off": "agent->person (report)",
       "workflow_step": null,
-      "minute": 237
+      "minute": 283
     },
     {
       "id": "s043",
@@ -814,7 +869,7 @@
       "tokens": null,
       "hand_off": "person->agent",
       "workflow_step": null,
-      "minute": 239
+      "minute": 285
     },
     {
       "id": "s044",
@@ -833,7 +888,7 @@
       "tokens": null,
       "hand_off": "agent->agents (across accounts)",
       "workflow_step": "4. the developer and the designer are asked",
-      "minute": 245
+      "minute": 291
     },
     {
       "id": "s045",
@@ -853,9 +908,575 @@
       "tokens": null,
       "hand_off": "person->agent->agents (re-routed at Vicky's word within 7 minutes)",
       "workflow_step": null,
-      "minute": 252
+      "minute": 298
+    },
+    {
+      "id": "s047",
+      "time": "2026-11-10T18:25:00Z",
+      "actor": "Dinis Cruz",
+      "actor_kind": "person",
+      "input": "reviewer@'s grant stopped the lead write (step 31)",
+      "output": "reviewer@PrompTugal.vicky may write only the five S41 lead fields of desks/correspondent/front-page.json; security@PrompTugal.dinis covers Vicky's temporary team",
+      "handoff_to": [
+        "conductor@web-summit.dinis"
+      ],
+      "evidence": [
+        "commit:2df8bfbb6",
+        "board/guidance/2026-11-10-vickys-reviewer-and-security.md"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (a grant widened by the operator, 52 min after the agent stopped at its boundary)",
+      "workflow_step": null,
+      "minute": 302
+    },
+    {
+      "id": "s048",
+      "time": "2026-11-10T18:37:54Z",
+      "actor": "security@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "Dinis's word (step 47)",
+      "output": "Vicky's temporary team in its review; reviewer@'s five-key grant checked, no writes yet",
+      "handoff_to": [
+        "Dinis Cruz"
+      ],
+      "evidence": [
+        "commit:0cd5ffc2a"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person (report)",
+      "workflow_step": null,
+      "minute": 315
+    },
+    {
+      "id": "s049",
+      "time": "2026-11-10T18:38:49Z",
+      "actor": "weather@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "18:36 check (its connectors)",
+      "output": "no material change; Carris banner now 'perturbações na circulação'; lead draft times moved",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:872717bed",
+        "commit:2a0f8811f"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "1. the connectors' hourly watch",
+      "minute": 316
+    },
+    {
+      "id": "s050",
+      "time": "2026-11-10T18:39:55Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the new grant; the lead values",
+      "output": "lead written, then held: the gate refuses its outside links without target=_blank (front-e.mjs adds none)",
+      "handoff_to": [
+        "dev@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:c343bc45e",
+        "commit:d0cce9bae"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent (the gate sends a fix request to the developer)",
+      "workflow_step": "2. a request to a developer, at last: from the gate, not from a source",
+      "minute": 317
+    },
+    {
+      "id": "s054",
+      "time": "2026-11-10T18:44:24Z",
+      "actor": "correspondent@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "the storm; Dinis's 18:25 word",
+      "output": "S41 keeps the lead into Wednesday; the GAMMA-Ray swap held; reviewer@'s five keys kept as lead_shared_keys",
+      "handoff_to": [
+        "Dinis Cruz"
+      ],
+      "evidence": [
+        "commit:529395bc8"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person (report)",
+      "workflow_step": null,
+      "minute": 321
+    },
+    {
+      "id": "s051",
+      "time": "2026-11-10T18:50:58Z",
+      "actor": "social.watch@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "seven source sub-agents (news, microblogs, LinkedIn, video, Instagram and TikTok, forums and podcasts, Web Summit's channels); OpenRouter perplexity/sonar, one call, $0.005",
+      "output": "sweep 1: 71 items, 13 storm signals in signals/2026-11-11-the-storm.md for the incident timeline; no organiser decision on Wednesday",
+      "handoff_to": [
+        "conductor@web-summit.dinis",
+        "conductor@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:27bda5688 (started at Dinis's word, about 18:42)",
+        "commit:f16c2fad4",
+        "commit:df4adcd7d (times corrected to 18:45 to 18:50)"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (Dinis starts the role), agent->agents",
+      "workflow_step": "1. raw sources at scale: social and press, as signals",
+      "minute": 328
+    },
+    {
+      "id": "s052",
+      "time": "2026-11-10T18:51:50Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "reviewer@'s hold (step 50); reproduced the gate failure first",
+      "output": "outside source and live links open in a new tab; gate OK with the filled lead",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky",
+        "dev@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:3828b2668"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "4. the developer fixes: 12 minutes from hold to fix",
+      "minute": 329
+    },
+    {
+      "id": "s053",
+      "time": "2026-11-10T18:54:48Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "s41-lead.json, each value re-checked at source 18:53 UTC; the five-key grant",
+      "output": "S41 home-page lead released: standfirst, developments, programme, last_checked (live null)",
+      "handoff_to": [
+        "correspondent@PrompTugal.dinis",
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:65272d4a7",
+        "commit:ad4694ea5",
+        "commit:023e77c5d"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent (across accounts)",
+      "workflow_step": "5. the UI shows the signal: the lead is live, 1 h 42 min after Dinis asked for it (step 16)",
+      "minute": 332
+    },
+    {
+      "id": "s055",
+      "time": "2026-11-10T19:01:00Z",
+      "actor": "conductor@web-summit.dinis",
+      "actor_kind": "agent",
+      "input": "the watch",
+      "output": "records an incident team on the storm (incident.conductor@, WS-214: pipeline, roadmap, a researcher's decision graph, a meteorologist's weather JSON, a first dashboard), outside this repository; no Web Summit decision at 19:01",
+      "handoff_to": [
+        "conductor@PrompTugal.dinis",
+        "accountant@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:a0594842b",
+        "board/conductor-watch.json"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agents",
+      "workflow_step": null,
+      "minute": 338
+    },
+    {
+      "id": "s056",
+      "time": "2026-11-10T19:04:47Z",
+      "actor": "journalist.newsroom@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "this trace at 45 steps",
+      "output": "the storm, draft 2",
+      "handoff_to": [],
+      "evidence": [
+        "commit:56619a6d6",
+        "commit:da1b13d4a"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent (trace to story, second pass)",
+      "workflow_step": null,
+      "minute": 342
+    },
+    {
+      "id": "s059",
+      "time": "2026-11-10T19:09:00Z",
+      "actor": "Web Summit (organisers)",
+      "actor_kind": "organisation",
+      "input": "the government's recommendation",
+      "output": "'Important event update': Day 2 (Wed 11 Nov) will not take place; Day 3 as planned; an email to attendees (19:38 UTC)",
+      "handoff_to": [
+        "attendees"
+      ],
+      "evidence": [
+        "commit:0de67c442 (websummit.com post 'dated 19:09 in the page's data')",
+        "commit:b23e84619 (the email, 19:38 UTC)"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": "the decision the graph was built to predict",
+      "minute": 346
+    },
+    {
+      "id": "s060",
+      "time": "2026-11-10T19:37:46Z",
+      "actor": "weather@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "19:36 check",
+      "output": "warnings unchanged; Metro and the city open five stations overnight for homeless people; the city node in the graph set to happened (partly)",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:50ab656a0",
+        "commit:c15026b0a"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 375
+    },
+    {
+      "id": "s061",
+      "time": "2026-11-10T19:48:09Z",
+      "actor": "weather@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Web Summit's attendee email (19:38); the mayor's 13:23 remarks (press)",
+      "output": "Day 2 off in live.md, the decision graph and the lead draft; lead time against history recorded as analysis; no official page yet at 19:47",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:b23e84619"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "5. the graph's prediction meets the event: 10 minutes from the email to the desk's commit",
+      "minute": 385
+    },
+    {
+      "id": "s062",
+      "time": "2026-11-10T19:49:56Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the desk's hand-off; Vicky's line",
+      "output": "S41 and its lead updated at Vicky's word: Day 2 will not take place, Day 3 as planned; checked 19:47",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:8130df0f4",
+        "commit:e08c89f65",
+        "commit:d503f4346 (conductor.B: 'waits on Vicky's line at the reviewer')"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (Vicky's line)",
+      "workflow_step": "signal to readers: 12 minutes from the organisers' email to the published update",
+      "minute": 387
+    },
+    {
+      "id": "s063",
+      "time": "2026-11-10T19:53:26Z",
+      "actor": "social.watch@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "Jornal de Negócios 19:42 quoting the organisers",
+      "output": "storm signal relayed for the incident timeline (WS-214); sweep 2 at 19:56: Day 2 off, Thursday on",
+      "handoff_to": [
+        "conductor@web-summit.dinis"
+      ],
+      "evidence": [
+        "commit:e6b192fd5",
+        "commit:a9b2cdf55"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 390
+    },
+    {
+      "id": "s064",
+      "time": "2026-11-10T19:58:42Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "DN 19:45 (press); Web Summit's site still silent at 19:57",
+      "output": "DN added as secondary coverage at Vicky's word; the email stays primary",
+      "handoff_to": [],
+      "evidence": [
+        "commit:1bd453ccf",
+        "commit:40cefedde"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (Vicky)",
+      "workflow_step": null,
+      "minute": 396
+    },
+    {
+      "id": "s065",
+      "time": "2026-11-10T20:02:57Z",
+      "actor": "weather@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "websummit.com blog, read 19:59 and 20:02",
+      "output": "Web Summit's own post now listed; the lead draft cites it",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:19003cce4"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 400
+    },
+    {
+      "id": "s066",
+      "time": "2026-11-10T20:08:18Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the desk's and journalist@'s hand-offs (20:06)",
+      "output": "Web Summit's post is now S41's primary source; DN stays secondary",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:bd0ce6cf6",
+        "commit:98a4fdfbb",
+        "commit:6181321a1"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 405
+    },
+    {
+      "id": "s067",
+      "time": "2026-11-10T20:20:00Z",
+      "actor": "Dinis Cruz",
+      "actor_kind": "person",
+      "input": "Vicky's 18:40 request for the satellite loop, missed by security@ at 20:05",
+      "output": "asks for the satellite loop's review (via conductor@web-summit.dinis)",
+      "handoff_to": [
+        "security@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:5c987593d ('Dinis's word ~20:20'; 'I missed Vicky's 18:40 request at 20:05')"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent",
+      "workflow_step": "a second workflow inside the storm: the satellite loop",
+      "minute": 417
+    },
+    {
+      "id": "s068",
+      "time": "2026-11-10T20:26:35Z",
+      "actor": "security@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "preview/satellite-loop (0096ef8e0)",
+      "output": "the satellite loop cleared on four conditions",
+      "handoff_to": [
+        "dev@PrompTugal.vicky",
+        "conductor.B@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:5c987593d",
+        "board/team/security/reviews/2026-11-10-2030-satellite-and-gamma.md"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agents",
+      "workflow_step": null,
+      "minute": 424
+    },
+    {
+      "id": "s069",
+      "time": "2026-11-10T20:27:33Z",
+      "actor": "conductor@web-summit.dinis",
+      "actor_kind": "agent",
+      "input": "account A's seven-day limit at allowed_warning",
+      "output": "account A slowed to three-hourly, except the weather incident team and social.watch@ (Dinis's word)",
+      "handoff_to": [
+        "conductor@PrompTugal.dinis",
+        "accountant@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:788ff452b"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (Dinis)",
+      "workflow_step": null,
+      "minute": 425
+    },
+    {
+      "id": "s070",
+      "time": "2026-11-10T20:43:53Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Day 2 off",
+      "output": "S44 commissioned: update the Wednesday guide",
+      "handoff_to": [
+        "journalist@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:a2451bee9"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 441
+    },
+    {
+      "id": "s071",
+      "time": "2026-11-10T20:47:36Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its satellite loop branch",
+      "output": "live Meteosat infrared loop replaces the lead's chart (chart kept as fallback), shipped before security@'s conditions were all met",
+      "handoff_to": [
+        "dev@PrompTugal.dinis",
+        "Vicky Wang"
+      ],
+      "evidence": [
+        "commit:ddf5b702d",
+        "commit:406bfbb0e (conductor.B: 'shipped short of security@'s conditions')"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "4. the developer ships the visualisation (noise to signal: satellite frames)",
+      "minute": 445
+    },
+    {
+      "id": "s072",
+      "time": "2026-11-10T20:47:36Z",
+      "actor": "conductor@web-summit.dinis",
+      "actor_kind": "agent",
+      "input": "Dinis: 'fire up a security agent here, review it, merge and push' (20:40)",
+      "output": "a security sub-agent reviews 0096ef8e0: clear with changes; credentials 'omit' and no referrer on the EUMETSAT fetches, made in its own commit",
+      "handoff_to": [
+        "dev@PrompTugal.vicky",
+        "security@PrompTugal.dinis",
+        "conductor.B@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:3e169093d"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent->sub-agent (a reviewer spun up on the spot)",
+      "workflow_step": null,
+      "minute": 445
+    },
+    {
+      "id": "s073",
+      "time": "2026-11-10T20:50:01Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the loop shipped short of the conditions",
+      "output": "dev@ asked for a stop-gap fix or a revert",
+      "handoff_to": [
+        "dev@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:406bfbb0e"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 447
+    },
+    {
+      "id": "s076",
+      "time": "2026-11-10T20:57:17Z",
+      "actor": "social.watch@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "the organisers' post (opened 20:56 after conductor@web-summit.dinis pointed to it)",
+      "output": "the post becomes the storm's primary source in coverage; 'agent sessions lost to the storm': twelve Wednesday sessions on agents, an idea for the journalist and correspondent",
+      "handoff_to": [
+        "conductor@PrompTugal.dinis",
+        "conductor@web-summit.dinis"
+      ],
+      "evidence": [
+        "commit:0de67c442",
+        "commit:113e4aec8 (private people as counts only, at security@'s word)"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agents",
+      "workflow_step": null,
+      "minute": 454
+    },
+    {
+      "id": "s074",
+      "time": "2026-11-10T20:58:30Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "security@'s conditions 2 and 3",
+      "output": "stop-gap: images only from view.eumetsat.int, no credentials, no referrer, the XML request gone; credit and terms cited",
+      "handoff_to": [
+        "security@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:3299a3f80"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "4. the developer fixes: 8 minutes after the ask",
+      "minute": 456
+    },
+    {
+      "id": "s075",
+      "time": "2026-11-10T21:05:18Z",
+      "actor": "security@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "23 commits",
+      "output": "the stop-gap cleared; condition S38 (frames served from our origin) left open",
+      "handoff_to": [
+        "Dinis Cruz"
+      ],
+      "evidence": [
+        "commit:142630653"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person (report)",
+      "workflow_step": null,
+      "minute": 462
+    },
+    {
+      "id": "s077",
+      "time": "2026-11-10T21:14:46Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S44 draft (journalist@PrompTugal.vicky, 21:06)",
+      "output": "S44 Ready; its placement in journalist@PrompTugal.dinis's guide held for Vicky and the owner",
+      "handoff_to": [
+        "Vicky Wang"
+      ],
+      "evidence": [
+        "commit:a769cb96a",
+        "commit:05a9783db"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person (placement across owners)",
+      "workflow_step": null,
+      "minute": 472
+    },
+    {
+      "id": "s078",
+      "time": "2026-11-10T21:23:05Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the lead shortened at Vicky's word (21:21, reviewer@)",
+      "output": "a visible 'Read the full story' link in the lead block",
+      "handoff_to": [],
+      "evidence": [
+        "commit:a6949f16c",
+        "commit:985b1f395"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (Vicky, via reviewer@)",
+      "workflow_step": "5. the UI refined",
+      "minute": 480
     }
   ],
-  "first": "2026-11-10T14:08:40Z",
-  "last": "2026-11-10T18:20:31Z"
+  "first": "2026-11-10T13:23:00Z",
+  "last": "2026-11-10T21:23:05Z"
 }

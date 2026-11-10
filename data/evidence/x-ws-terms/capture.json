@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-ws-terms",
+  "type": "evidence",
+  "source_url": "https://websummit.com/terms-and-conditions/",
+  "beat": "The summit",
+  "group": "refunds",
+  "names": [
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-10-2230.json",
+  "run": "2026-11-10-2230 (commissioned via conductor.B, relaying Vicky relaying Dinis)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-2230.json"
+    ]
+  }
+}

@@ -63,3 +63,5 @@ a { color: inherit; }
 .pa-stick { position: sticky; top: 52px; z-index: 2; background: var(--paper); padding-bottom: 4px; box-shadow: 0 1px 0 var(--rule); }
 .pa-nowline { position: relative; margin: 6px 0; padding: 2px 8px; font: 600 12px var(--mono); color: var(--paper); background: var(--brand); border-radius: 3px; width: max-content; }
 @media (max-width: 429px) { .pa-sub { display: none; } .pa-top { justify-content: space-between; } }
+.pa-cancel { margin: 10px 0; padding: 10px 12px; border-left: 4px solid var(--brand); background: var(--panel); font: 600 14px/1.4 var(--sans); }
+.pa-days button.off { text-decoration: line-through; opacity: .6; }

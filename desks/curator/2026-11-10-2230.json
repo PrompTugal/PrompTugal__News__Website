@@ -1,0 +1,62 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-10-2230 (commissioned via conductor.B, relaying Vicky relaying Dinis)",
+ "batch": "STORM-10NOV",
+ "for": "journalist@PrompTugal.vicky (summit desk)",
+ "covers": {
+  "note": "Commission relayed by conductor.B@PrompTugal.vicky at Vicky's word. The curator read Web Summit's post and ticket terms itself (10 Nov, about 22:20 UTC). Consumer-protection pages were NOT readable from the curator's environment (consumidor.gov.pt returned 403; the ECC Portugal domain tried had a certificate error), so the journalist must read them. No vault captures."
+ },
+ "published_check": "Searched content/articles and every desk's drafts for 'refund' and 'reembols': nothing on refunds. S41 and S44 (Day 2 cancelled) do not cover refunds; the Wednesday guide is only updated with a note. Not a repeat. S41 (published) says only that Web Summit's post does not mention tickets or refunds. Indi's draft web-summit-faq says refunds are given only within 14 days of booking (from the tickets page, read 9 Nov), written before the cancellation: S45 must not repeat it as the answer for Day 2, and Indi's desk may want to revisit that line.",
+ "captures": [
+  {
+   "id": "x-ws-terms",
+   "file": "public page, read 10 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://websummit.com/terms-and-conditions/",
+   "beat": "The summit",
+   "names": [
+    "Web Summit"
+   ],
+   "what_is_new": "Web Summit's published terms and conditions. Clause 10.1: it reserves the right to make alterations, postponements or cancellations of a Conference and is not liable for costs incurred (travel, accommodation). 10.3: if the Conference is postponed, a substitute ticket for the rescheduled date, no refunds. 10.4: in the unlikely event of cancellation of a Conference, aggregate liability limited to refund of paid fees remaining after card and payment processing fees. 13.3: purchases non-refundable after the 14-day cooling-off period, refunds subject to a transaction-fee deduction. 23.2 and 23.3: not liable if the Conference is wholly or partly cancelled, rescheduled or postponed because of events beyond its reasonable control, listing natural disasters, flood and extreme weather, or compliance with any government order. Quote, do not interpret.",
+   "is_story": true,
+   "group": "refunds"
+  },
+  {
+   "id": "x-ws-event-update-refunds",
+   "file": "public page, read 10 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://websummit.com/blog/web-summit/important-event-update-2026/",
+   "beat": "The summit",
+   "names": [
+    "Web Summit"
+   ],
+   "what_is_new": "Web Summit's 'Important event update' (10 Nov 2026 19:09 UTC) says Day 2 will not take place and that Web Summit will communicate directly with those impacted. In the text read at about 22:00 UTC it contains no mention of refunds, credits or compensation.",
+   "is_story": true,
+   "group": "refunds"
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S45",
+   "kind": "summit",
+   "batch": "STORM-10NOV",
+   "title": "Web Summit's cancelled Day 2: what is known about refunds",
+   "beat": "The summit",
+   "angle": "Attendees ask what happens to the cancelled Wednesday. Web Summit's post says it will contact those impacted directly and does not mention refunds, credits or compensation; its published terms set out what applies when a Conference is cancelled, postponed or hit by events beyond its control. A plain account of what is published and what is not announced.",
+   "rests_on": [
+    "x-ws-event-update-refunds",
+    "x-ws-terms"
+   ],
+   "ready": true,
+   "note": "Ready to draft at once; time-sensitive; for journalist@PrompTugal.vicky, then reviewer@; publication needs Vicky's approval. Required: (1) say plainly that Web Summit has not announced refunds, credits or compensation for Day 2 in the public post (re-read it before publishing, with the time); (2) quote the terms clauses 10.1, 10.3, 10.4, 13.3 and 23.2/23.3 as published, with the page and read time, and do NOT interpret them or say what they mean for a ticket holder; note that Day 2 is described as 'will not take place', not as the Conference cancelled or postponed, and say we do not know which clause Web Summit will apply; (3) consumer-protection pages (Portal do Consumidor of the Direcao-Geral do Consumidor, the European Consumer Centre Portugal, the EU's consumer rights pages) must be opened by the journalist: the curator could not open them. Include them only as general information read today, with link and time, no legal advice; if none can be opened, say they were not checked; (4) side events, hotels, airlines, rail: only where they have published their own notice, each with link and time, otherwise omit; (5) press reports only as press, labelled; the curator found none on refunds as of 22:20 UTC; (6) nothing from private channels or chats; no advice of our own; no claim about what Web Summit will do. Link S41 and S44.",
+   "words": "450 to 650"
+  }
+ ],
+ "needs_verification_not_commissioned": [],
+ "for_the_fact_checker": [
+  "S45: the clause texts against the terms page at publication time; that the post still has no refund wording."
+ ],
+ "gaps_for_the_researcher": [
+  "Capture any Web Summit notice, FAQ or help-centre page on refunds or credits for Day 2 (support.websummit.com is not readable from the curator's environment)."
+ ],
+ "urgent": "S45 is time-sensitive."
+}

@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-10T21:00Z",
+  "updated": "2026-11-10T21:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -43,6 +43,16 @@
       "items": 10,
       "updated": 1,
       "note": "Two sub-agents; new since about 19:45 UTC"
+    },
+    {
+      "n": 4,
+      "at": "2026-11-10T21:51Z",
+      "families": [
+        "news and blogs, with Web Summit's own channels",
+        "social and video"
+      ],
+      "items": 10,
+      "note": "Two sub-agents; new since about 20:45 UTC"
     }
   ],
   "items": [
@@ -2363,6 +2373,281 @@
       "family": "Web Summit's own channels",
       "found": "2026-11-10T20:56Z",
       "found_by": "social.watch@PrompTugal.dinis (wake 20:51, correction)"
+    },
+    {
+      "url": "https://pmemagazine.sapo.pt/web-summit-cancela-evento-desta-quarta-feira-em-lisboa-devido-a-tempestade/",
+      "platform": "PME Magazine",
+      "author": "Ana Marisa Vieira",
+      "kind": "article",
+      "title": "Web Summit fecha portas esta quarta-feira após recomendação do Governo",
+      "quote": "O segundo dia (quarta-feira, 11 de novembro) não se realizará",
+      "published": "2026-11-10",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Thursday planned 'conforme previsto' subject to weather and authorities; no mention of refunds or PITCH.",
+      "family": "news and blogs",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://www.otempo.com.br/mundo/2026/11/10/web-summit-cancela-segundo-dia-em-lisboa-diante-da-tempestade-charles",
+      "platform": "O Tempo (Brazil)",
+      "author": "Vinícius Lacerda",
+      "kind": "article",
+      "title": "Web Summit cancela segundo dia em Lisboa por causa da tempestade Charles",
+      "quote": null,
+      "published": "2026-11-10T18:15",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Time shown is page time (timezone not stated). Organisers will contact affected participants directly; Thursday as planned; no refunds or PITCH detail.",
+      "family": "news and blogs",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://sg.news.yahoo.com/summit-lisbon-day-2-cancelled-202915672.html",
+      "platform": "Yahoo News Singapore (Euronews syndication)",
+      "author": "Pascale Davies",
+      "kind": "article",
+      "title": "Web Summit Lisbon day 2 cancelled due to Storm Charles",
+      "quote": null,
+      "published": "2026-11-10T20:29:00Z",
+      "topics": [
+        "storm"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Syndicated copy of Euronews piece (original in known URLs). Summit continues Thursday; no refunds or PITCH detail.",
+      "family": "news and blogs",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://websummit.com/summaries/lis26/the-age-of-agents/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "page",
+      "title": "The age of agents",
+      "quote": "grants each agent its own email address, phone number, and digital wallet",
+      "published": "2026-11-09",
+      "topics": [
+        "agentic AI",
+        "China",
+        "speakers"
+      ],
+      "companies": [
+        "Manus AI"
+      ],
+      "company_ids": [
+        "manus-ai"
+      ],
+      "sessions": [
+        "Manus AI, Tao Zhang (Co-founder and CPO)"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Web Summit's own summary of the Manus AI talk; the page says it was generated with AI from an AI transcription of the talk. Body read from the page's HTML. Manus 2.0: a stand-alone personal agent app.",
+      "family": "news and blogs",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches",
+      "platform": "Euronews",
+      "author": "Pascale Davies",
+      "kind": "article",
+      "title": "China's robots, AI agents and Nvidia probe: Web Summit 2026 Opens in Lisbon",
+      "quote": "We don't need more people; we need people who can work with AI.",
+      "published": "2026-11-09T19:12:00Z",
+      "topics": [
+        "agentic AI",
+        "startups",
+        "speakers"
+      ],
+      "companies": [
+        "Manus AI",
+        "Nvidia"
+      ],
+      "company_ids": [
+        "manus-ai"
+      ],
+      "sessions": [
+        "Tao Zhang, Manus co-founder and CPO"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Published 20:12 GMT+1. Defines AI agents as systems acting autonomously.",
+      "family": "news and blogs",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-record-china-delegation-and-robot-speakers-debut",
+      "platform": "Euronews",
+      "author": "João Azevedo",
+      "kind": "article",
+      "title": "Lisbon Web Summit 2026 opens with humanoid robot speakers and record Chinese delegation",
+      "quote": null,
+      "published": "2026-11-09T09:47:00Z",
+      "topics": [
+        "agentic AI",
+        "Portugal",
+        "startups"
+      ],
+      "companies": [
+        "Galbot",
+        "Sebrae",
+        "ApexBrasil"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Gonçalo Matias opening session",
+        "Paddy Cosgrave"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Published 10:47 GMT+1. Says programme covers use of AI agents; 78 Portuguese firms, about 100 Brazilian startups on Sebrae/ApexBrasil mission.",
+      "family": "news and blogs",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://portugalglobal.pt/en/news/2026/novembro/web-summit-features-humanoid-robots-and-record-chinese-presence",
+      "platform": "Portugal Global (AICEP)",
+      "author": "Portugal Global",
+      "kind": "article",
+      "title": "Web Summit features humanoid robots and record Chinese presence",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "agentic AI",
+        "Portugal"
+      ],
+      "companies": [
+        "Galbot",
+        "Sebrae",
+        "ApexBrasil"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Gonçalo Matias",
+        "Paddy Cosgrave"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Programme covers AI agents, digital regulation, work models.",
+      "family": "news and blogs",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://ai.pt/en/news/web-summit-brings-humanoid-robot-makers-and-investor-meetings-to-lisbon-91db44/",
+      "platform": "AI.pt",
+      "author": "AI.pt",
+      "kind": "article",
+      "title": "Web Summit Brings Humanoid Robot Makers and Investor Meetings to Lisbon on 9–12 November",
+      "quote": null,
+      "published": "2026-11-04",
+      "topics": [
+        "agentic AI",
+        "speakers",
+        "investment"
+      ],
+      "companies": [
+        "Unitree",
+        "AgiBot",
+        "Cloudflare",
+        "Atlassian",
+        "Recursive",
+        "You.com"
+      ],
+      "company_ids": [
+        "atlassian",
+        "cloudflare"
+      ],
+      "sessions": [
+        "Henna Virkkunen",
+        "Matthew Prince",
+        "Mike Cannon-Brookes",
+        "Richard Socher"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Preview; lists autonomous agents among AI themes.",
+      "family": "news and blogs",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://english.news.cn/europe/20261110/80652e076b96495daa5b576634ca3c27/c.html",
+      "platform": "Xinhua",
+      "author": "Xinhua",
+      "kind": "article",
+      "title": "Web Summit 2026 opens in Lisbon, Portugal",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "agentic AI"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Lists autonomous agents among session topics.",
+      "family": "news and blogs",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+    },
+    {
+      "url": "https://social.vivaldi.net/@jon/117594316167337659",
+      "platform": "Mastodon (Vivaldi Social)",
+      "author": "Jon S. von Tetzchner (jon, social.vivaldi.net)",
+      "kind": "post",
+      "title": null,
+      "quote": "day 2 of Web Summit has been cancelled due to weather",
+      "published": "2026-11-10T21:41:00Z",
+      "topics": [
+        "storm",
+        "speakers"
+      ],
+      "companies": [
+        "Vivaldi"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Vivaldi talk Wednesday (cancelled)",
+        "two Vivaldi talks and a press conference Thursday"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Public figure (Vivaldi co-founder/CEO) reacting to cancellation; boosts Vivaldi's earlier post. Fetched via public instance API; publication time from the public timeline.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."

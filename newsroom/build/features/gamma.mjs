@@ -24,7 +24,8 @@ export function gammaData() {
     try { D = JSON.parse(fs.readFileSync(R('data/site/gamma-ray.json'), 'utf8')); if (!D.cards?.length) D = null } catch { D = null }
     return D
 }
-const ranked = d => [...d.cards].sort((a, b) => (b.n || 0) - (a.n || 0) || a.name.localeCompare(b.name))
+// A to Z (designer@, 10 November: nothing on a card is a judgement, so no ranking by default); a reader may list them by stage
+const ranked = d => [...d.cards].sort((a, b) => a.name.localeCompare(b.name))
 // our company for a card: the company's own gamma_ray link first, then GAMMA-Ray's company id when it is one of ours
 function companyOf(ctx, card) {
     const linked = ctx.store.companies.find(c => { try { return JSON.parse(fs.readFileSync(R(`data/companies/${c.id}/company.json`), 'utf8')).gamma_ray?.id === card.id } catch { return false } })
@@ -33,23 +34,23 @@ function companyOf(ctx, card) {
 export function cardHtml(ctx, card, up) {
     const co = companyOf(ctx, card)
     const chips = DIMS.map(([k, name]) => { const l = card.levels?.[k] || 0
-        return put(item('chip'), { level: l, dim: k, shown: l ? String(l) : '–', title: l ? `${name}: level ${l} of 4` : `${name}: not yet evidenced` }) }).join('')
+        return put(item('chip'), { level: l, dim: k, name, shown: l ? String(l) : '–', title: l ? `${name}: level ${l} of 4` : `${name}: not yet evidenced` }) }).join('')
     return put(part('card'), { card: esc(card.card), name: esc(card.name), company: co ? `<a href="${up}companies/${co.id}/index.html">${esc(co.name)}</a>` : (card.ours ? 'Our own team' : ''),
         '#chips': chips, n: card.n || 0, stage: esc(card.stage), read: esc(card.read || ''), review: card.review === 'approved' ? item('review') : '' })
 }
-// the home page's strip (front-e.mjs puts it under the lead): the eight furthest along
+// the home page's strip (front-e.mjs puts it under the lead): eight cards, those of the companies we follow first, A to Z
 export function stripHtml(ctx, up = '') {
     const d = gammaData(); if (!d) return ''
-    return put(part('strip'), { up, '#cards': ranked(d).slice(0, 8).map(c => cardHtml(ctx, c, up)).join(''), total: d.cards.length, read_at: esc(d.read_at.replace('T', ' ').replace('Z', ' UTC')) })
+    return put(part('strip'), { up, '#cards': [...ranked(d).filter(c => companyOf(ctx, c)), ...ranked(d).filter(c => !companyOf(ctx, c))].slice(0, 8).map(c => cardHtml(ctx, c, up)).join(''), total: d.cards.length, read_at: esc(d.read_at.replace('T', ' ').replace('Z', ' UTC')) })
 }
 
 export function pages(ctx) {
     const d = gammaData(); if (!d) return []
     const when = d.read_at.replace('T', ' ').replace('Z', ' UTC'), md = put(part('page'), { version: esc(d.version), read_at: when })
-    return [{ rel: 'agentic/index.html', src: 'data/site/gamma-ray.json', type: 'site', section: 'now', title: 'State of agentic: GAMMA-Ray Spectrum', layout: 'wide',
+    return [{ rel: 'agentic/index.html', src: 'data/site/gamma-ray.json', type: 'site', section: '', title: 'State of agentic: GAMMA-Ray Spectrum', layout: 'wide',
         summary: put(part('summary'), { total: d.cards.length }), md,
-        assets: { css: ['assets/gamma/gamma.css'] },
-        postHtml: h => h.replace(/<p>PTGAMMA-all<\/p>/, `<div class="gr-grid gr-all">${ranked(d).map(c => cardHtml(ctx, c, '../')).join('')}</div>`) }]
+        assets: { css: ['assets/gamma/gamma.css'], js: ['assets/gamma/gamma.js'] },
+        postHtml: h => h.replace(/<p>PTGAMMA-all<\/p>/, part('sort') + `<div class="gr-grid gr-all">${ranked(d).map(c => cardHtml(ctx, c, '../').replace('<article class="gr-card"', `<article class="gr-card" data-n="${c.n || 0}"`)).join('')}</div>`) }]
 }
 
 // a rated company's page: its cards under its lead, before the first section (H10)

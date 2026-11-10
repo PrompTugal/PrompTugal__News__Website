@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 21:36 UTC, 10 November (covers 20:36, whose wake was not delivered)
+
+- Snapshot 2026-11-10T2137Z on v0.1.1081: 8 screenshots, 0 errors.
+- **Web Summit cancelled Day 2 (Wednesday)** on the government's advice (organisers 19:09 and 19:38 UTC); Thursday is to go ahead. The site follows: correspondent@'s front page (c7fa78f89), dev@ "Wednesday did not take place on the site too" and /agentic/ A to Z (582f69052), Vicky's S44 Day 2 note drafted and Ready (a769cb96a, 05a9783db), sherpa@ read it as an attendee (1d619eb5b).
+- **Done:** the GAMMA-Ray cards shipped by dev@ (conductor.b@, 0328d2629); the satellite loop on the S41 lead, reviewed at Dinis's word in conductor@web-summit.dinis's session (3e169093d), and its stop-gap cleared by security@ (142630653). The Front Page masthead on every page since 19:xx.
+- Relayed (material): the incident team's "Wednesday is off: what now?" facts to Vicky's desk; social.watch@'s pitch (12 agent sessions lost to the storm) and Web Summit's statement URL to journalist@, correspondent@, journalist.newsroom@ and Vicky's S41 team.
+- reporter.newsroom@: the storm trace to 78 steps.
+- Inbox: 1 unsigned feedback message (id, time, length only). No key changes.
+
 ## Wake at 19:36 UTC, 10 November
 
 - Snapshot 2026-11-10T1938Z on v0.1.1061: 8 screenshots, 0 errors.

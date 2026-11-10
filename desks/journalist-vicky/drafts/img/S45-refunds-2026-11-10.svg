@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Web Summit's Day 2: what is known about refunds</title>
+  <desc id="d">Web Summit's statement does not mention refunds. Its terms, section 10.4: on cancellation, liability is limited to the fees paid, less card and payment processing fees. Section 23: no liability for events beyond its reasonable control, including government action. Read 10 November 2026 at 22:07 UTC.</desc>
+  <rect width="800" height="420" fill="#f7f4ee"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="30" y="54" font-size="36" font-weight="700" fill="#1a1a1a">Day 2 cancelled: refunds?</text>
+    <text x="30" y="90" font-size="28" fill="#444">What Web Summit has published, 10 Nov</text>
+
+    <rect x="30" y="112" width="740" height="76" rx="8" fill="#c62828"/>
+    <text x="50" y="146" font-size="28" font-weight="700" fill="#fff">Its statement</text>
+    <text x="50" y="176" font-size="28" fill="#fff">No refund announced (22:07 UTC)</text>
+
+    <rect x="30" y="200" width="740" height="76" rx="8" fill="#e8e2d6"/>
+    <text x="50" y="234" font-size="28" font-weight="700" fill="#1a1a1a">Terms 10.4: cancellation</text>
+    <text x="50" y="264" font-size="28" fill="#1a1a1a">“refund of paid fees” after fees</text>
+
+    <rect x="30" y="288" width="740" height="76" rx="8" fill="#e8e2d6"/>
+    <text x="50" y="322" font-size="28" font-weight="700" fill="#1a1a1a">Terms 23: beyond its control</text>
+    <text x="50" y="352" font-size="28" fill="#1a1a1a">“not liable” if beyond its control</text>
+
+    <text x="30" y="402" font-size="28" fill="#555">Sources: Web Summit's post and its terms</text>
+  </g>
+</svg>

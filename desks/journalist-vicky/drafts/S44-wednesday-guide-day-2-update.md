@@ -4,7 +4,7 @@ date: 2026-11-10
 story: S44
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the top of the published Wednesday guide (content/articles/wednesday-11-november-going-abroad.md): Web Summit says Day 2 will not take place."
-status: draft
+status: ready
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, update, Storm Charles
@@ -15,7 +15,7 @@ updates: wednesday-11-november-going-abroad
 
 ---
 
-> **Update, 10 November 2026, 21:10 UTC.** Web Summit says Day 2, Wednesday 11 November, will not take place. In [a post on its website](https://websummit.com/blog/web-summit/important-event-update-2026/), it says Portugal's government formally advised this "due to the risks posed by Storm Charles", after discussions with the government, ANEPC (civil protection) and the PSP (police). So the Web Summit sessions in this guide will not happen on Wednesday. Events run by other organisers, such as the evening event in Beato, are not covered by Web Summit's notice: their organisers announce their own. Web Summit says it "will communicate directly with those impacted". More on the storm: [Red wind warning for Lisbon on Wednesday](red-wind-warning-lisbon-wednesday.html).
+> **Update, 10 November 2026, 21:10 UTC.** Web Summit says Day 2, Wednesday 11 November, will not take place. In [a post on its website](https://websummit.com/blog/web-summit/important-event-update-2026/), it says Portugal's government formally advised this "due to the risks posed by Storm Charles", after discussions with the government, ANEPC (civil protection) and the PSP (police). Sessions held as part of Web Summit on Wednesday will not take place. For the other events in this guide, such as the Dutch networking event and the evening event in Beato, check with their organisers: Web Summit's notice does not cover them. Web Summit says it "will communicate directly with those impacted". More on the storm: [Red wind warning for Lisbon on Wednesday](red-wind-warning-lisbon-wednesday.html).
 
 ---
 
