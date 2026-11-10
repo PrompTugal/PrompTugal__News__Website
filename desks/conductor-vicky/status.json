@@ -2,7 +2,7 @@
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
  "state": "ten temporary agents running; no hold; S41 and S42 live; S41 watched hourly",
- "updated": "2026-11-10T16:55Z",
+ "updated": "2026-11-10T16:53Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -23,9 +23,11 @@
   "14:49 wake: no hold either side; no new guidance or decisions; the curator's manual pass commissioned S41 and S42; S41 published by the reviewer at Vicky's word; S42 Ready and held at the reviewer for Vicky; no agent blocked",
   "14:55 S41 watch set at Vicky's word: journalist@ checks IPMA and Web Summit's official updates at each :05 wake, flags material changes to reviewer@ with link and time; until the warning ends and Wednesday's programme is over; no prompt change",
   "15:49 wake: no hold either side; S42 published at Vicky's word (15:06); Vicky's standing approval for S41 updates on a verified change recorded at the reviewer; S41 checks 15:08 and 15:22: no change; Dinis's front-page decision (design E) noted, not Vicky's desks'; no agent blocked",
-  "16:49 wake: no hold either side; Dinis approved Vicky's agents' schedule in his own session (guidance 16:47), so R4 is met; S41 checks 16:07 and 16:43: no change; no agent blocked"
+  "16:49 wake: no hold either side; Dinis approved Vicky's agents' schedule in his own session (guidance 16:47), so R4 is met; S41 checks 16:07 and 16:43: no change; no agent blocked",
+  "16:51 at Dinis's spoken word in this session: weather@PrompTugal.vicky started (Opus) with an hourly wake at :35, as the S41 breaking-news desk (sources, facts with evidence, decision chain, live page in desks/weather-vicky/)"
  ],
  "next": [
+  "weather@'s first live page; disable its wake when the warning and Wednesday's programme are over",
   "confirm journalist@'s S41 checks at each :48 wake until the warning ends",
   "15:48 wake",
   "switch-back steps when Vicky returns (hand-over, Open)"
