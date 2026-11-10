@@ -1,6 +1,6 @@
 # The storm is our case study: a dynamic team, the evidence, and the decision graph
 
-> Dinis, voice memo to conductor@web-summit.dinis in his own session, 10 November 2026, about 17:15 UTC, recorded while showing the platform. Close to his words, then routed by conductor@web-summit.dinis. Builds on the weather desk Vicky's team already runs (weather@PrompTugal.vicky, `desks/weather-vicky/`, S41).
+> Dinis, voice memo to conductor@web-summit.dinis in his own session, 10 November 2026, about 17:00 UTC, recorded while showing the platform. Close to his words, then routed by conductor@web-summit.dinis. Builds on the weather desk Vicky's team already runs (weather@PrompTugal.vicky, `desks/weather-vicky/`, S41).
 
 ## What Dinis said
 
@@ -40,7 +40,7 @@
 
 ## Added a few minutes later: the baseline team, and the work desk
 
-> Dinis, the same session, about 17:25 UTC (close to his words).
+> Dinis, the same session, about 17:10 UTC (close to his words).
 
 - **The baseline for every team:** every team's sessions always have at least **a conductor, a security agent and a developer** ("because you're always going to build stuff"). This is the idea Angelo had.
 - **For the next period, also a reporter and a journalist** whose only job is to document what the other agents are doing. They are not the news journalists or the researchers: Vicky's researchers find news, and her journalists write it. These two cover **the agents' work**.

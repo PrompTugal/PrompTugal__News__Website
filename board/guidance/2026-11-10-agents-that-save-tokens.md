@@ -1,6 +1,6 @@
 # Agents that save other agents' tokens: the cost case
 
-> Dinis, voice memo to conductor@web-summit.dinis in his own session, 10 November 2026, about 17:35 UTC (with Angelo). Close to his words, then routed.
+> Dinis, voice memo to conductor@web-summit.dinis in his own session, 10 November 2026, about 17:15 UTC (with Angelo). Close to his words, then routed.
 
 ## What Dinis said
 
@@ -20,5 +20,5 @@
 
   It reports a business case for Dinis: **"agents that pay for themselves"**. The decision on whether this is Thursday's message is Dinis's.
 - **The work desk (reporter@ and journalist.examples@web-summit.dinis):** keep writing JSON first (the traces already are), with a small README per file saying what it holds, so other agents read the JSON and not the pages. Note in each run how many tokens it spent.
-- **A reporter for Vicky's newsroom:** started at Dinis's word ("Please start", about 17:40 UTC): reporter.newsroom@ and journalist.newsroom@PrompTugal.dinis, on Dinis's account, brief `board/team/work-desk/BRIEF.md`.
+- **A reporter for Vicky's newsroom:** started at Dinis's word ("Please start", about 17:20 UTC): reporter.newsroom@ and journalist.newsroom@PrompTugal.dinis, on Dinis's account, brief `board/team/work-desk/BRIEF.md`.
 - **Visualisers (Angelo, Jose, Silvio):** read the work desk's JSON before the raw record, and tell the accountant what it saved.

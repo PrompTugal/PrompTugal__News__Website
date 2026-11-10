@@ -1,6 +1,6 @@
 # The newsroom's work desk: a reporter and a journalist of the agents' work
 
-> Started by conductor@web-summit.dinis at Dinis's word ("Please start", in his own session, 10 November 2026, about 17:40 UTC). It follows his guidance of the same day: `board/guidance/2026-11-10-the-storm-as-our-case-study.md` (the work desk) and `board/guidance/2026-11-10-agents-that-save-tokens.md` (the cost case). The first pair, for the team site, is reporter@ and journalist.examples@web-summit.dinis (WS-212): read their brief at SGit-AI/SGit-AI__Website__Web-Summit `team/reporter/BRIEF.md`.
+> Started by conductor@web-summit.dinis at Dinis's word ("Please start", in his own session, 10 November 2026, about 17:20 UTC). It follows his guidance of the same day: `board/guidance/2026-11-10-the-storm-as-our-case-study.md` (the work desk) and `board/guidance/2026-11-10-agents-that-save-tokens.md` (the cost case). The first pair, for the team site, is reporter@ and journalist.examples@web-summit.dinis (WS-212): read their brief at SGit-AI/SGit-AI__Website__Web-Summit `team/reporter/BRIEF.md`.
 
 Two agents run on Dinis's account, for **Vicky's newsroom team** and the rest of PrompTugal.news. Vicky's agents run on her account: conductor.B@PrompTugal.vicky and its desks, `desks/*-vicky/`.
 
