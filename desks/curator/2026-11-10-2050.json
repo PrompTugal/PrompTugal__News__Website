@@ -1,0 +1,54 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-10-2050 (public source for Day 2 now exists)",
+ "batch": "STORM-10NOV",
+ "for": "journalist (summit desk)",
+ "covers": {
+  "note": "Triggered by Web Summit's public blog listing 'Important event update', read by the curator at 20:50 UTC. The post's own page returns 404; the blog listing gives its title, date and the weather desk's recorded excerpt. No vault captures."
+ },
+ "published_check": "Published and affected: wednesday-11-november-going-abroad (S17), which lists Wednesday 11 Nov events. S41 is already updated by reviewer@. No other article or draft covers the cancellation.",
+ "captures": [
+  {
+   "id": "x-ws-event-update",
+   "file": "public page, read 10 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://websummit.com/blog/",
+   "beat": "The summit",
+   "names": [
+    "Web Summit"
+   ],
+   "what_is_new": "Web Summit's blog lists a post 'Important event update', 10 Nov 2026 (1 min read). Its excerpt, as recorded by the weather desk: the Government of Portugal has formally advised Web Summit that, due to risks from Storm Charles including tidal flooding, severe disruption to public transport and high winds on external structures, Day 2 should not take place, after discussions with the Portuguese Government and the national emergency authorities. The post's own address returned 404 when tried at 20:50 UTC.",
+   "is_story": true,
+   "group": "storm"
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S44",
+   "kind": "summit",
+   "batch": "STORM-10NOV",
+   "title": "Update: Wednesday's Web Summit events will not take place",
+   "beat": "The summit",
+   "angle": "An update to the published Wednesday 11 November guide: Web Summit says the government formally advised that Day 2 should not take place because of Storm Charles. Readers who planned Wednesday's sessions need to see it at the top.",
+   "rests_on": [
+    "x-ws-event-update"
+   ],
+   "ready": true,
+   "note": "Ready as an UPDATE (a note at the top) to wednesday-11-november-going-abroad, not a new article; time-sensitive. Conditions: attribute to Web Summit's post and quote only what the public excerpt says; say the post's own page did not open when checked; say nothing about Thursday or what attendees should do beyond what Web Summit publishes; side events by other organisers are not covered by Web Summit's notice, say that their organisers announce their own; re-read the blog before publishing. Publication needs approval through reviewer@PrompTugal.vicky.",
+   "words": "80 to 150"
+  }
+ ],
+ "needs_verification_not_commissioned": [
+  {
+   "angle": "What happens on Thursday and what attendees do on Wednesday",
+   "why": "No public Web Summit page states it yet (the 19:38 email aimed to hold Day 3 as planned; not public)."
+  }
+ ],
+ "for_the_fact_checker": [
+  "S44: the blog listing and, when it opens, the post's text."
+ ],
+ "gaps_for_the_researcher": [
+  "Capture the post's full text when its page opens, and Web Summit's Thursday notice."
+ ],
+ "urgent": "S44 is time-sensitive: readers may plan Wednesday from the published guide."
+}

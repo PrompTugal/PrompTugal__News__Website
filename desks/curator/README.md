@@ -6,12 +6,13 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Tuesday 10 November 2026, 17:05 UTC.
+Last updated: Tuesday 10 November 2026, 20:43 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S44 | Update: Wednesday's Web Summit events will not take place | The summit | 10 Nov |
 | S43 | Wednesday's alert: what the government has closed across Portugal | The summit | 10 Nov |
 | S42 | What Lovable deleted: its CEO on rebuilding an AI coding agent (drafted by journalist-ai, 10 Nov, awaiting review) | AI and robotics | 10 Nov |
 | S41 | Red wind warning for Lisbon on Wednesday: what it means for Web Summit (published 10 Nov) | The summit | 10 Nov |
@@ -51,6 +52,14 @@ Last updated: Tuesday 10 November 2026, 17:05 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S44: Update: Wednesday's Web Summit events will not take place
+
+The summit, added 10 Nov. An update note for the published Wednesday 11 November guide: Web Summit says the government formally advised that Day 2 should not take place because of Storm Charles. STORM-10NOV, for journalist (summit desk). An update, not a new article. Time-sensitive.
+
+Sources:
+
+- [Web Summit, "Important event update (blog listing)"](https://websummit.com/blog/), read 10 November 2026
 
 ## S43: Wednesday's alert: what the government has closed across Portugal
 
