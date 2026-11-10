@@ -114,3 +114,5 @@ html[data-design]:not([data-design="e"]):not([data-design="today"]) .page-front 
 main .body h2:not([class]) { border-top: 3px solid var(--ink); padding-top: 8px; margin-top: 28px; font: 600 13px/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
 /* T5: kickers in brand red small caps */
 main .kicker, main .eyebrow { font: 700 12px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--brand-red); }
+/* T3: the TestFlight line on one line on a phone (designer@, 10 November: two lines made the top 247 px) */
+@media (max-width: 599px) { .getapp a { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }

@@ -36,8 +36,9 @@ export function stripMd(ctx, rel, current) {
     const { itemsOn, TODAY } = load(ctx)
     return `{.day-strip}\n` + STRIP.map(d => {
         const wd = new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { weekday: 'short', timeZone: 'UTC' }), n = itemsOn(d).length
-        const cls = [d === TODAY ? 'today' : d < TODAY ? 'past' : '', d >= '2026-11-09' && d <= '2026-11-12' ? 'summit' : '', d === current ? 'viewing' : ''].filter(Boolean).join(' ')
-        return `- ${cls ? `{${cls}} ` : ''}[**${wd} ${+d.slice(8)}** *${d === TODAY ? 'Today' : LABEL[d] || (n ? n + (n === 1 ? ' item' : ' items') : '')}*](${ctx.link(rel, `days/${d}/index.html`)})`
+        const off = cancelledDays()[d]   // a day that did not take place is struck and says so (sherpa@'s W2)
+        const cls = [d === TODAY ? 'today' : d < TODAY ? 'past' : '', d >= '2026-11-09' && d <= '2026-11-12' ? 'summit' : '', d === current ? 'viewing' : '', off ? 'off' : ''].filter(Boolean).join(' ')
+        return `- ${cls ? `{${cls}} ` : ''}[**${wd} ${+d.slice(8)}** *${off ? 'Called off' : d === TODAY ? 'Today' : LABEL[d] || (n ? n + (n === 1 ? ' item' : ' items') : '')}*](${ctx.link(rel, `days/${d}/index.html`)})`
     }).join('\n')
 }
 

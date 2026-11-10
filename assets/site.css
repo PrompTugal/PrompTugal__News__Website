@@ -994,3 +994,6 @@ main .body pre, .agent-block pre { white-space: pre-wrap; }
 .getapp a { display: block; padding: 10px 16px; color: var(--on-brand, #fff); text-decoration: none; }
 .getapp a:hover, .getapp a:focus-visible { text-decoration: underline; }
 .getapp b { font-weight: 700; }
+
+/* a day that did not take place, in the days strip (sherpa@'s W2, 10 November: Day 2 called off) */
+.day-strip li.off a { text-decoration: line-through; opacity: .7; } .day-strip li.off em { text-decoration: none; color: var(--brand-red); font-weight: 600; }

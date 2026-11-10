@@ -108,7 +108,7 @@
         nav.textContent = ''
         DAYS.forEach(function (d) {
             var b = el('button', null, fmt ? fmt.format(new Date(d.date + 'T12:00:00Z')) : d.label.replace(/ November$/, '').replace(/^(\w{3})\w*/, '$1')); b.type = 'button'; b.setAttribute('data-d', d.date)
-            var n = ['2026-11-10', '2026-11-11', '2026-11-12', '2026-11-13'].indexOf(d.date); if (n >= 0) b.insertBefore(el('small', null, (W.day_fmt || 'Day {n}').replace('{n}', n + 1)), b.firstChild)
+            var n = ['2026-11-10', '2026-11-11', '2026-11-12'].indexOf(d.date); if (n >= 0) b.insertBefore(el('small', null, (W.day_fmt || 'Day {n}').replace('{n}', n + 1)), b.firstChild)
             if (d.date === today) b.className = 'today'
             if (d.cancelled) b.className += ' off'
             b.addEventListener('click', function () { st.day = d.date; draw(); toNow() }); nav.appendChild(b)
