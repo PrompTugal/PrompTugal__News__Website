@@ -4,7 +4,7 @@ Kept by jornal@PrompTugal.silvio, the news scout of Silvio Switha (RiskMandate's
 
 ## What it does
 
-About every two hours in the daytime (a schedule its conductor owns), it looks for the few most important new public stories for PrompTugal.news, in this order of beats: Web Summit Lisbon 2026 and its companies; AI agents and agentic AI; AI regulation in Europe; tech and startups in Portugal. At most five candidates a wake, and zero is a fine answer.
+About every two hours in the daytime (a schedule its conductor owns), it looks for the few most important new public stories for PrompTugal.news, in this order of beats (since 10 November 2026, after Dinis's restart: PrompTugal.news becomes the agentic edition, with GAMMA-Ray at its centre, `board/guidance/README.md`): AI agents and agentic AI (launches, incidents, governance, security, and the companies GAMMA-Ray rates); Web Summit Lisbon 2026 and its companies; AI regulation in Europe; tech and startups in Portugal. At most five candidates a wake, and zero is a fine answer.
 
 - `candidates/<YYYY-MM-DD>.json`: each candidate with its title, a summary in our own words, why it matters, the beat, its sources (URL, publisher, date published, date read), an importance score from 1 to 5 with its reason, the claims still to check, and its photo with credit, licence and `reuse` ("reusable" only after reading a reuse licence; "link only" otherwise). What it looked at and skipped, and why.
 - The staging page: `content/newsroom/jornal-silvio.md` (/newsroom/jornal-silvio/), all candidates newest first: candidates, not published, waiting for the editor and for Silvio.
@@ -19,6 +19,10 @@ At Silvio's word (10 November 2026), the leading tech and AI sites of every regi
 - **United States:** TechCrunch, CNBC, Axios, VentureBeat.
 - **China and Asia:** South China Morning Post, TechNode, KrASIA, Pandaily, Rest of World.
 - **Primary sources first:** a company's own release or blog, the parliament or the regulator, Web Summit's own pages.
+
+## The shared coverage map
+
+social.watch@ keeps a shared map of what others publish about the summit (`data/summit-coverage.json` and an hourly summary in `board/team/social.watch/`). At each wake this desk reads it first, so the work is not done twice. As of 10 November 2026, 04:55 UTC, neither file exists in this repository yet. This desk does not write `data/` (outside its grant): what it finds for the map goes in its candidates, for social.watch@ to take.
 
 ## What it never does
 
