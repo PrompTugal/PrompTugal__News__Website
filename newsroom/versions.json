@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1063",
+    "date": "2026-11-10",
+    "what": "reporter.newsroom@PrompTugal.dinis: run report (wake 19:28; about 10k read, 8k written, estimates)",
+    "by": "reporter.newsroom@PrompTugal.dinis",
+    "from": "41417ab05"
+  },
+  {
     "version": "v0.1.1062",
     "date": "2026-11-10",
     "what": "dev@PrompTugal.dinis: wake 19:08: back on; the masthead on every page; the 10 November debrief; status and run report",
