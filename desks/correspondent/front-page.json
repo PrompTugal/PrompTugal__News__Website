@@ -9,23 +9,23 @@
     "standfirst": "Web Summit has called off Day 2, Wednesday 11 November, on the government's advice because of Storm Charles; it aims to hold Day 3 on Thursday.",
     "developments": [
       {
-        "text": "IPMA red warnings for Lisbon on Wednesday: wind 12:00 to 21:00, rain 12:00 to 18:00.",
+        "text": "IPMA red warnings for Lisbon on Wednesday: rain 09:00 to 18:00, wind 12:00 to 21:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-10T23:33Z"
+        "checked": "2026-11-10T23:52Z"
       },
       {
         "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-10T23:33Z"
+        "checked": "2026-11-10T23:52Z"
       }
     ],
     "programme": {
       "label": "Web Summit, Wednesday",
       "text": "Day 2 cancelled; Day 3 planned for Thursday.",
       "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-      "checked": "2026-11-10T23:33Z"
+      "checked": "2026-11-10T23:52Z"
     },
-    "last_checked": "2026-11-10T23:33Z",
+    "last_checked": "2026-11-10T23:52Z",
     "live": null
   },
   "top": [
