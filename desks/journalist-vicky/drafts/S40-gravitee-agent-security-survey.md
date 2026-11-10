@@ -4,7 +4,7 @@ date: 2026-11-10
 story: S40
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "A survey by Gravitee, which sells tools to secure AI agents, finds most teams already testing or running agents, while few have full security approval for them. Its CEO gives a press conference at Web Summit today."
-status: ready
+status: published
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, AI agents, security, survey, press conferences
