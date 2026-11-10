@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "eco-2018-10-03-until-2028",
+  "story": "S13",
+  "url": "https://eco.sapo.pt/2018/10/03/web-summit-em-portugal-ate-2028-conheca-os-numeros/",
+  "title": "Web Summit em Portugal ate 2028. Conheca os numeros (ECO, 3 October 2018)",
+  "publisher": "ECO",
+  "published": "2018-10-03",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "ECO reports the agreement to keep Web Summit in Lisbon until 2028 and the numbers behind it, including the 11 million euro annual payment."
+}

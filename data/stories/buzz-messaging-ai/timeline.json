@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "buzz-messaging-ai",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "events": [
+    {
+      "at": "2026-11-09",
+      "what": "Dinis Cruz interviews Guy Ben Zvi of Buzz Messaging AI for three minutes on Web Summit's opening night; published on 10 November with his agreement.",
+      "kind": "event",
+      "about": [
+        "local:buzz-messaging-ai"
+      ],
+      "source": "pt-interview-buzz-guy-ben-zvi-2026-11-09",
+      "claim": [
+        "c07",
+        "c08",
+        "c09"
+      ]
+    }
+  ]
+}

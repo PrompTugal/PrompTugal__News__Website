@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "buzz-messaging-ai",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "BuzzMSG A.I LTD, which makes Buzz Messaging, is registered in Cyprus and headquartered in Nicosia, as the company's own site says.",
+      "kind": "fact",
+      "source": "buzzmessaging-ai-site",
+      "quote": "registered in Cyprus and headquartered in Nicosia",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:buzz-messaging-ai"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "The company's site says it was founded in 2026.",
+      "kind": "fact",
+      "source": "buzzmessaging-ai-site",
+      "quote": "It was founded in 2026",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:buzz-messaging-ai"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "The company's site says Buzz is hosted on Google Cloud, primary region Germany and a second region in the UK, as phase 1 of a three-phase plan that moves next to an EU-based cloud partner and then to its own infrastructure.",
+      "kind": "fact",
+      "source": "buzzmessaging-ai-site",
+      "quote": "Hosting: Google Cloud, primary region Germany with a second region in the UK. This is phase 1 of a three-phase plan: next an EU-based cloud partner, then its own infrastructure.",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:buzz-messaging-ai"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "The company's site says Buzz Messaging is end-to-end encrypted.",
+      "kind": "fact",
+      "source": "buzzmessaging-ai-site",
+      "quote": "End-to-end encrypted.",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:buzz-messaging-ai"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "The company's site says its AI runs on multiple providers' EU instances, with no data retention.",
+      "kind": "fact",
+      "source": "buzzmessaging-ai-site",
+      "quote": "Multiple AI providers, run on their EU instances, with no data retention.",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:buzz-messaging-ai"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "The company's site describes Buzz work as rooms and threads with multiplayer AI agents that work in Notion, Google Drive and Google Calendar, with tasks that sync to Jira or Linear.",
+      "kind": "fact",
+      "source": "buzzmessaging-ai-site",
+      "quote": "multiplayer AI agents that work in Notion, Google Drive and Google Calendar, with tasks that sync to Jira or Linear",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:buzz-messaging-ai"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "In the interview Guy Ben Zvi says he has worked in cybersecurity for more than a decade and that this led him to build Buzz (his statement, not checked).",
+      "kind": "fact",
+      "source": "pt-interview-buzz-guy-ben-zvi-2026-11-09",
+      "quote": "he has worked in cybersecurity for more than a decade",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:buzz-messaging-ai"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "In the interview he says users bring their own API keys, which is where they choose how sovereign to be (his description of the product).",
+      "kind": "fact",
+      "source": "pt-interview-buzz-guy-ben-zvi-2026-11-09",
+      "quote": "Users bring their own API keys, which is where they choose how sovereign to be",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:buzz-messaging-ai"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "Asked how Buzz controls what its agents do, he said the platform has its own control policy, not yet as advanced as he would like.",
+      "kind": "fact",
+      "source": "pt-interview-buzz-guy-ben-zvi-2026-11-09",
+      "quote": "the platform has its own control policy, not yet as advanced as he would like",
+      "read_on": "2026-11-10",
+      "about": [
+        "local:buzz-messaging-ai"
+      ]
+    }
+  ]
+}

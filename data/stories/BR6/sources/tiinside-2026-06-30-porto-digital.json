@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "tiinside-2026-06-30-porto-digital",
+  "story": "BR6",
+  "url": "https://tiinside.com.br/30/06/2026/porto-digital-da-mais-um-passo-rumo-a-internacionalizacao-da-ciencia-brasileira/",
+  "title": "Porto Digital da mais um passo rumo a internacionalizacao da ciencia brasileira (TI Inside, 30 June 2026)",
+  "publisher": "TI Inside",
+  "published": "2026-06-30",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "TI Inside reports a cooperation agreement signed on 30 June by Porto Digital, Cais do Porto and CONSECTI, and the CONSECTI platform that uses Portugal as a gateway to Europe."
+}

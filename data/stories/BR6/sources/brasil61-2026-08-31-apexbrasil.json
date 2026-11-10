@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "brasil61-2026-08-31-apexbrasil",
+  "story": "BR6",
+  "url": "https://brasil61.com/n/apexbrasil-leva-startups-brasileiras-a-eventos-de-inovacao-em-portugal-e-emirados-arabes-apex260161",
+  "title": "ApexBrasil leva startups brasileiras a eventos de inovacao em Portugal e Emirados Arabes (Brasil 61, 31 August 2026)",
+  "publisher": "Brasil 61",
+  "published": "2026-08-31",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Brasil 61 reports ApexBrasil's survey figures for Brazil's startup ecosystem and its 2024 venture capital total."
+}

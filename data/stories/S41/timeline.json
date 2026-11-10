@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "S41",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "events": [
+    {
+      "at": "2026-11-11",
+      "what": "IPMA's red wind warning for the Lisbon district runs from 12:00 to 21:00 on the third day of Web Summit Lisbon 2026, with orange rain and sea warnings the same day.",
+      "kind": "event",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c01",
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "at": "2026-11-10",
+      "what": "Between IPMA's file read at 16:32 UTC and the same file read at 18:32 UTC, the Lisbon rain warning for Wednesday 11 November rises from orange (05:00 to 18:00) to red from 12:00 to 18:00 (orange 05:00 to 12:00). The time of the change is not known.",
+      "kind": "change",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c10",
+        "c11"
+      ]
+    }
+  ]
+}

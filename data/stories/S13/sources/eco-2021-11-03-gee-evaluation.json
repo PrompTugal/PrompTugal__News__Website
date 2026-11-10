@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "eco-2021-11-03-gee-evaluation",
+  "story": "S13",
+  "url": "https://eco.sapo.pt/2021/11/03/web-summit-com-impacto-economico-longe-do-esperado/",
+  "title": "Web Summit com impacto economico longe do esperado (ECO, 3 November 2021)",
+  "publisher": "ECO",
+  "published": "2021-11-03",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "ECO reports an evaluation by the Ministry of Economy's Office for Economic Studies that found the impact of the 2016 to 2019 editions well below the first estimate."
+}

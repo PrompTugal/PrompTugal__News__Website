@@ -1,0 +1,66 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "WS177",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "entities": [
+    {
+      "ref": "event:web-summit-dublin-2010",
+      "label": "Web Summit Dublin 2010",
+      "kind": "event",
+      "sources": [
+        "wikipedia-web-summit-rev-1383690798"
+      ]
+    },
+    {
+      "ref": "event:web-summit-dublin-2012",
+      "label": "Web Summit Dublin 2012",
+      "kind": "event",
+      "sources": [
+        "wikipedia-web-summit-rev-1383690798"
+      ]
+    },
+    {
+      "ref": "event:web-summit-dublin-2013",
+      "label": "Web Summit Dublin 2013",
+      "kind": "event",
+      "sources": [
+        "wikipedia-web-summit-rev-1383690798"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2016",
+      "label": "Web Summit Lisbon 2016",
+      "kind": "event",
+      "sources": [
+        "wikipedia-web-summit-rev-1383690798"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2018",
+      "label": "Web Summit Lisbon 2018",
+      "kind": "event",
+      "sources": [
+        "wikipedia-web-summit-rev-1383690798"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2025",
+      "label": "Web Summit Lisbon 2025",
+      "kind": "event",
+      "sources": [
+        "aicep-2025-11-12-web-summit-record"
+      ]
+    },
+    {
+      "ref": "organisation:web-summit",
+      "label": "Web Summit",
+      "kind": "organisation",
+      "sources": [
+        "aicep-2025-11-12-web-summit-record",
+        "executivedigest-2026-11-05-carris-web-summit",
+        "wikipedia-web-summit-rev-1383690798"
+      ]
+    }
+  ]
+}
