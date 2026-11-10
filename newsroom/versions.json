@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1056",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: run report, wake 18:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "7832d3da7"
+  },
+  {
     "version": "v0.1.1055",
     "date": "2026-11-10",
     "what": "reporter.newsroom@PrompTugal.dinis: run report (wake 18:28; about 12k read, 9k written, estimates)",
