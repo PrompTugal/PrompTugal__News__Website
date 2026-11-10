@@ -751,7 +751,7 @@
       "role": "Vicky Wang's reviewer and copy editor for PrompTugal.news (reviewer@PrompTugal.vicky): checks her journalists' drafts in desks/journalist-vicky/drafts/ against their sources, writes a review per draft in desks/reviewer-vicky/reviews/, makes style edits only once a draft is clear, and publishes and signs Ready drafts only when Vicky asks (decisions.md, standing answer 7). A session key: it ends with its session.",
       "how": "Made by the agent in its own session (Claude Code session 2 of the role) on 6 November 2026 at 19:47 UTC with pki-agent.mjs keygen --session (the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs), at Vicky's word, when this session took over the role from the previous one (scout's P17). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation. It replaces reviewer-vicky-promptugal (session 1) and re-signs the five articles that key signed.",
       "added": "2026-11-06T19:47Z",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArsllpLCWSKmI7iW2hIcE\naf1eKEaF4svwZcuYU3GyEVp0SuB7APWJYhA9alJ3vVOulNgYRmBCRxGa9IC5i5IV\nS7mlVkkaOplYXf/xfDv5jPWfslP4hkmGWuLtfj0pRcaL29dr82DJUDyIpU06xw8Z\nZBsyRPnaNlgueS3f5FGx2gaW2FODTT6zs3iZJ55Nlj5D8qwFDOXkRDSvSVEdfc/N\nQFa962CPFsus00ReeytQUfZz1wNWpnJALguaD4d4G5sRJaimOfa976cWBi45txPt\nwL2s6dGNy3fZK/WQYibv4uZn9mu+CmnWCjd6u9469QNAvf2Wsb9RtL1TtylykM61\ngVybQCYtnz419Q2kKckJJ+u9k1wTW7EhgqIYBw4+G5Ebd2Xwtqx1T9k0zkqd9BHt\ncfZ+6/L8klyXWS5uCq1+65CTXlL2vA3pvaxIYVe2ARG5y5enqgln/1hMgUvuXKO9\nIgHqqTKbo7etG9S4RYpfAvqnTKx81FhRMEn4cei7CrMU6uBgy+jPWJoUrvfi+uUu\n58Zx+CFeXrd1Ao+KEebvoZ6Hg2LtPhi51SJJgjmvj1j6cbvvitfunPrFWwfwnxMt\nTDF942irQoVa1A+P7vzIzq2MBBP3a5gKaNy1zrKb4FULN/hVtGFHHVUmGhWT933k\n79Xl5PemwayYa7iorIndwZMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -759,6 +759,26 @@
         "label": "reviewer@PrompTugal.vicky",
         "fingerprint": "sha256:c1ae3cc07544d361",
         "signing_fingerprint": "sha256:e08d700e4e0db741"
+      },
+      "superseded_at": "2026-11-10T12:00Z",
+      "superseded_by": "reviewer-vicky-promptugal-b"
+    },
+    {
+      "id": "reviewer-vicky-promptugal-b",
+      "agent": "reviewer@PrompTugal.vicky",
+      "label": "reviewer@PrompTugal.vicky (Claude Code session, Vicky's account)",
+      "role": "Vicky Wang's reviewer and copy editor for PrompTugal.news (reviewer@PrompTugal.vicky): checks her journalists' drafts in desks/journalist-vicky/drafts/ against their sources, writes a review per draft in desks/reviewer-vicky/reviews/, makes style edits only once a draft is clear, and publishes and signs Ready drafts only when Vicky asks (decisions.md, standing answer 7). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on Vicky's Claude account on 10 November 2026 at 11:57 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the team's pin), when this session took over the role from session 2 (onboarding by conductor.B@PrompTugal.vicky, desks/conductor-vicky/onboarding/reviewer.md). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation. It replaces reviewer-vicky-promptugal-2.",
+      "added": "2026-11-10T11:57Z",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvdN7TGAUFrkWkEQevgNT\nL2v/A6Njex78wDVbgv5sQcH94YRZbFBlk4+5xBTafRaL8/K2Otfra2dnqif5ogkh\nJFOdLe2daPJbjz7XbjLv9xENscrnktXLuBuaUD3yyB/U/kPA4NhOnidDO0D75Rlx\nvzvZNjUH7SYDKk8ojgN4gATDLsseTotDzhT0E1j3Lz8D6rQUiBVcwSj/0gUe//PB\ni+x0H6VXO9voULtzKY+l8jckf/j4pTbWJRxcQJDDqEuX/rVzB0u7GVqn2a5REnOU\nwGYNo6v0kf3y6z3vHOA3IEQzWLv9BwIMu6Ew7zujbdhZsh6/BgynW2+J55X+oCpM\nGofzDy3wFHToEw4Y7XSn2uRR8tBPwTDHBy4BdD7qcg11U8+7qkj8hKlNY0nMWfO7\nN17XXrCZgBBrfOsVEMq0o6xN1wV+AarnzVeeKQGstLMZxEg2/HrZIEn57bej8K1m\nMvyYr35byGn62YRzcc4CntyX4V+F4+6Jj9mw7Idk/Y7VWgqdkIPtDiM4CUMisKGm\n+Y089JNhhfn5JEPWdtDpvLJfGUZMLjq0gnpWiZQxr/NtybMNQ8aQvveL+mLJ/z8e\nVIMHebk7/RTk2fto909KHHPsPwCm2Mk32AK8sVZawm/k3ti2UGVe9EeueEi/CZQO\nDEZxUjQ3Vf5kex4hiqwhNasCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0HNp/uwfnm5jWOOFKXTmi0tLTTzA\nkGYn4UuQhtvkpxYAuPFq8YO8nG9O+YLQAuqAoFFbB50oD+M3HenBaYmynA==\n-----END PUBLIC KEY-----\n",
+        "label": "reviewer@PrompTugal.vicky",
+        "fingerprint": "sha256:437a69c08a59193c",
+        "record": "sha256:efd76bbe0f59fd99",
+        "signing_fingerprint": "sha256:efd76bbe0f59fd99"
       }
     },
     {
