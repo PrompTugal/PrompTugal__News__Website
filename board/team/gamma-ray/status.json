@@ -1,21 +1,24 @@
 {
  "agent": "gamma-ray@PrompTugal.dinis",
  "focus": "GAMMA-Ray: the standard, the mashup and the website's design, with Dinis, before anything is implemented (brief:2026-11-09T2330Z-gamma-ray)",
- "state": "named gamma-ray@web-summit.dinis in the brief and in commits (this file takes the @PrompTugal.dinis form the gate requires); in debate with Dinis on which standards and how they connect; nothing implemented",
- "updated": "2026-11-09T23:59Z",
+ "state": "named gamma-ray@web-summit.dinis in the brief and in commits (this file takes the @PrompTugal.dinis form the gate requires); in debate with Dinis: the public scan rates the agent from outside evidence only; nothing implemented",
+ "updated": "2026-11-10T00:00Z",
  "key": "gamma-ray-promptugal (record sha256:9ecbbbcd315c5f0c)",
  "done": [
   "read the brief and Dinis's two source documents",
   "session key made; public half in board/keys.json",
-  "the five standards and AgentStripes read at source; candidates to add found (OWASP's agentic governance matrix, CSA's draft model, an authorisation axis from OAuth and the Model Context Protocol): research/2026-11-09-standards-check.md"
+  "the five standards and AgentStripes read at source; candidates to add found (OWASP's agentic governance matrix, CSA's draft model, an authorisation axis from OAuth and the Model Context Protocol): research/2026-11-09-standards-check.md",
+  "Dinis (10 Nov): agents first, outside evidence only, the share of each standard that is observable, a vault per company; first pass in research/2026-11-10-outside-coverage-first-pass.md (OWASP 2.01 read at source: CC BY-SA 4.0, nine tiers, five governance levels)"
  ],
  "next": [
-  "Dinis's answers on the core set, our own ladders and the commit name",
-  "read OWASP's report at source, the X-ray work (WS-191 to WS-198) and the company graph's data",
-  "draft the indicators layer and the first levels as queries"
+  "redo the counts provision by provision, as data, with a second model checking",
+  "the indicators layer and the bridges as a graph",
+  "read the estate vaults that cross-map (AIUC-1 conformance, AI BCF, the agency scale) and the X-ray work (WS-191 to WS-198)"
  ],
  "asks": [
-  "Dinis: which standards are the measured core and which are context (research note, section 2)?",
-  "Dinis: commit as gamma-ray@web-summit.dinis (the brief) or gamma-ray@PrompTugal.dinis (the policy's R9)? Using the brief's until told."
+  "Dinis: is the set of five for the public scan right (Salesforce, Feng et al., OWASP, the authorisation ladder, AgentStripes)?",
+  "Dinis: may a scan send an unauthenticated request to a company endpoint, or read documents only?",
+  "Dinis: the session policy now says gamma-ray@web-summit.dinis writes only in desks/; the brief says board/team/gamma-ray/. Working to the brief until told.",
+  "Dinis: commit name, gamma-ray@web-summit.dinis (brief) or @PrompTugal.dinis (R9)?"
  ]
 }
