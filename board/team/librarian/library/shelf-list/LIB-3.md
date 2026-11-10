@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: LIB, The library (part 3 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T19:04:31Z"
-site_version: "v0.1.1058"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T21:58:54Z"
+site_version: "v0.1.1085"
 source: board/catalogue.json
 ---
 
 # Shelf list: LIB, The library (part 3 of 4)
 
-100 cards, from `LIB.DOC guidance-4` to `LIB.STOCK 2026-11-07-2157`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `LIB.DOC guidance-3` to `LIB.STOCK 2026-11-07-1859`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 201 to 225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC guidance-3` | [Dinis's guidance, part 3 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-3.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-4` | [Dinis's guidance, part 4 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-4.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-5` | [Dinis's guidance, part 5 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-5.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-6` | [Dinis's guidance, part 6 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-6.md) | team | librarian@ 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `LIB.DOC m2` | [m2.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/messages/2026-11-06/m2.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC notice-board` | [The notice board](https://promptugal.news/board/team/librarian/library/notice-board.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC pieces` | [pieces.json](https://promptugal.news/board/team/librarian/library/provenance/pieces.json) | team | librarian@ 10 Nov 2026 |
-| `LIB.DOC presets` | [presets.json](https://promptugal.news/board/team/librarian/library/graph/presets.json) (withdrawn) | team | librarian@ 6 Nov 2026 |
 
 **Cards 226 to 250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC presets` | [presets.json](https://promptugal.news/board/team/librarian/library/graph/presets.json) (withdrawn) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC provenance` | [provenance.mjs](https://promptugal.news/board/team/librarian/provenance.mjs) | team | librarian@ 10 Nov 2026 |
 | `LIB.DOC reading-room` | [reading-room.htm](https://promptugal.news/board/team/librarian/library/reading-room.htm) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC reading-room-1280x800` | [reading-room-1280x800.png](https://promptugal.news/board/team/librarian/library/reviews/round-3/reading-room-1280x800.png) | team | librarian@ 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `LIB.DOC vocab` | [vocab.mjs](https://promptugal.news/board/team/librarian/library/build/lib/vocab.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC waits` | [waits.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/waits.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC waits-on-dinis` | [waits-on-dinis.json](https://promptugal.news/board/team/librarian/waits-on-dinis.json) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC waits-on-dinis:2` | [What waits on Dinis, and every agent that is blocked](https://promptugal.news/board/team/librarian/waits-on-dinis.md) | team | librarian@ 6 Nov 2026 |
 
 **Cards 251 to 275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC waits-on-dinis:2` | [What waits on Dinis, and every agent that is blocked](https://promptugal.news/board/team/librarian/waits-on-dinis.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL agents` | [Agents: the team, keys, inboxes, ABP: EXISTS](https://promptugal.news/board/team/librarian/library/reality/agents/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL build-and-ci` | [Build, gate, CI and release: EXISTS](https://promptugal.news/board/team/librarian/library/reality/build-and-ci/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL changelog` | [Reality tree: changelog](https://promptugal.news/board/team/librarian/library/reality/changelog.md) | team | librarian@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `LIB.REAL proposed:7` | [Observability: reads, agent runs, reports: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/observability/proposed/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL proposed:8` | [Pages: the reader-facing site: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/pages/proposed/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL proposed:9` | [Passes, budgets, decisions and the story pipeline: PROPOSED](https://promptugal.news/board/team/librarian/library/reality/process/proposed/index.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.REAL publication` | [Publication: brand, about, policies, articles, SEO and feeds: EXISTS](https://promptugal.news/board/team/librarian/library/reality/publication/index.md) | team | librarian@ 6 Nov 2026 |
 
 **Cards 276 to 300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.REAL publication` | [Publication: brand, about, policies, articles, SEO and feeds: EXISTS](https://promptugal.news/board/team/librarian/library/reality/publication/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL reality` | [Reality: the holdings by subject (master index)](https://promptugal.news/board/team/librarian/library/reality/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL search` | [Search, ask and the page tool API: EXISTS](https://promptugal.news/board/team/librarian/library/reality/search/index.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.REAL vaults-and-media` | [Vaults, media, reader accounts, billing and backups: EXISTS](https://promptugal.news/board/team/librarian/library/reality/vaults-and-media/index.md) | team | librarian@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `LIB.STOCK 2026-11-07-1600` | [Stocktake of the library, catalogue of 2026-11-07T16:00:31Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-1600.md) | team | librarian@ 7 Nov 2026 |
 | `LIB.STOCK 2026-11-07-1857` | [Stocktake of the library, catalogue of 2026-11-07T18:57:59Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-1857.md) | team | librarian@ 7 Nov 2026 |
 | `LIB.STOCK 2026-11-07-1859` | [Stocktake of the library, catalogue of 2026-11-07T18:59:06Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-1859.md) | team | librarian@ 7 Nov 2026 |
-| `LIB.STOCK 2026-11-07-2157` | [Stocktake of the library, catalogue of 2026-11-07T21:57:02Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-2157.md) | team | librarian@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](LIB-2.md) | [Next part](LIB-4.md)

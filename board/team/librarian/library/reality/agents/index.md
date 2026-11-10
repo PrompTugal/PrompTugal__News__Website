@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2937 cards (759 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-10T19:04:31Z at site v0.1.1058; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2961 cards (783 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-10T21:58:54Z at site v0.1.1085; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `RDR.SHERPA` | 24 |
+| `RDR.SHERPA` | 25 |
 | `RDR.SYN` | 5 |
 | `TEAM.ABP` | 53 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
-| `TEAM.INBOX` | 80 |
+| `TEAM.INBOX` | 81 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1567 |
+| `TEAM.ROLE` | 1589 |
 | `TEAM.RUN` | 1176 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261110-0274` [runs/weather.vicky/](https://promptugal.news/board/runs/weather.vicky/) (`TEAM.RUN weather`)
-- `ACC-20261110-0273` [runs/social.watch/](https://promptugal.news/board/runs/social.watch/) (`TEAM.RUN social`)
-- `ACC-20261110-0272` [runs/reporter.newsroom/](https://promptugal.news/board/runs/reporter.newsroom/) (`TEAM.RUN reporter`)
-- `ACC-20261110-0271` [runs/journalist.newsroom/](https://promptugal.news/board/runs/journalist.newsroom/) (`TEAM.RUN journalist:3`)
-- `ACC-20261110-0270` [workflow.json](https://promptugal.news/board/team/work-desk/materials/the-storm/workflow.json) (`TEAM.ROLE workflow`)
+- `ACC-20261110-0315` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/workflow.json) (`TEAM.ROLE workflow:2`)
+- `ACC-20261110-0314` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/timeline.json) (`TEAM.ROLE timeline:3`)
+- `ACC-20261110-0313` [How a team of agents covered the storm](https://promptugal.news/board/team/journalist.newsroom/stories/the-storm.md) (`TEAM.ROLE the-storm:6`)
+- `ACC-20261110-0312` [the-storm.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/the-storm.mmd) (`TEAM.ROLE the-storm:5`)
+- `ACC-20261110-0311` [handoffs.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/handoffs.json) (`TEAM.ROLE handoffs:2`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

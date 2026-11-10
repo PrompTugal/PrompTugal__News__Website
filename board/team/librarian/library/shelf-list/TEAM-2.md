@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 2 of 30)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T19:04:31Z"
-site_version: "v0.1.1058"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T21:58:54Z"
+site_version: "v0.1.1085"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 2 of 30)
 
-100 cards, from `TEAM.INBOX designer-3` to `TEAM.ROLE 01:33`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.INBOX designer-3` to `TEAM.ROLE 01:32`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
@@ -82,6 +82,7 @@ source: board/catalogue.json
 | `TEAM.INBOX security` | [security.json](https://promptugal.news/board/inboxes/security.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX sherpa` | [sherpa.json](https://promptugal.news/board/inboxes/sherpa.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX sherpa-b` | [sherpa-b.json](https://promptugal.news/board/inboxes/sherpa-b.json) | board | conductor@ 6 Nov 2026 |
+| `TEAM.INBOX social-watch` | [social-watch.json](https://promptugal.news/board/inboxes/social-watch.json) | board | conductor@ 10 Nov 2026 |
 | `TEAM.INBOX synthetic` | [synthetic.json](https://promptugal.news/board/inboxes/synthetic.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX weather-vicky` | [weather-vicky.json](https://promptugal.news/board/inboxes/weather-vicky.json) | board | conductor@ 10 Nov 2026 |
 | `TEAM.INBOX writer-angelo` | [writer-angelo.json](https://promptugal.news/board/inboxes/writer-angelo.json) | board | conductor@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `TEAM.ROLE 0-the-map.pt:2` | [0-the-map.pt.jpg](https://promptugal.news/board/team/investors/site/img/covers/0-the-map.pt.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 0-the-map:2` | [0-the-map.tpl](https://promptugal.news/board/team/investors/decks/src/0-the-map.tpl) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/0-the-map/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 01:10` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/9-the-tour/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 01:10` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/9-the-tour/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:11` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/0-the-map/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:12` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/1-the-investment-case/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:13` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/2-the-industry/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE 01:30` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/9-the-tour/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:31` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/0-the-map/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:32` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/1-the-investment-case/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 01:33` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/2-the-industry/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-1.md) | [Next part](TEAM-3.md)
