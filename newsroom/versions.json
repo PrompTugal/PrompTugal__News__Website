@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.978",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 09:36: dev@ and dev.pages@ still blocked on account B; design flip read",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "1c7bbf272"
+  },
+  {
     "version": "v0.1.977",
     "date": "2026-11-10",
     "what": "sherpa@PrompTugal.dinis: 09:29 wake: the design flip read phones first: B, with C's order and the strip in words",
