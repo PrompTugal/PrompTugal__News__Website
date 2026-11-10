@@ -2,7 +2,7 @@
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
  "state": "ten temporary agents running; all nine hourly wakes and this conductor's carry the startup checks; no hold on either side",
- "updated": "2026-11-10T14:02Z",
+ "updated": "2026-11-10T14:05Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -17,14 +17,14 @@
   "13:15 Vicky reported Dinis's in-person yes to the temporary wake updates; recorded in the debrief; not his own session or signed, so R4 still asks for his confirmation there",
   "13:35 Vicky's temporary exception: run summaries in the agents' own desks in this repo, public-safe, until she switches back; her standing decision unchanged; agents told",
   "13:51 wake: no hold (news repo or team site); all nine hourly wakes confirmed updated (checker, curator, programme, reviewer, journalist-ai since the last list); agents idle or doing desk work, nothing published; dev@ told it has no wake to update; conductor@PrompTugal.dinis issued inboxes for four of Vicky's new keys",
-  "14:00 Vicky's temporary hand-off exception: the researcher hands findings to the curator in desks/researcher-vicky/ (public sources only, no vault contents) until she switches back"
+  "14:00 Vicky's temporary hand-off exception: the researcher hands findings to the curator in desks/researcher-vicky/ (public sources only, no vault contents) until she switches back",
+  "14:05 the temporary researcher paused at Vicky's word (nothing started); she asked the curator for one manual research pass"
  ],
  "next": [
-  "the temporary researcher: one manual run, then an hourly wake at :20 UTC, once Dinis's approval on record covers both; disable its wake if the original researcher runs again",
+  "the curator's manual research pass (Vicky's ask in its session): watch for it at the :48 wake; the temporary researcher stays paused",
   "14:48 wake"
  ],
  "asks": [
-  "Dinis: a temporary researcher session for Vicky, with one manual run now and an hourly wake at :20 UTC while her account covers; Vicky reports your approval; please put it on record covering both, in your own session or signed (ABP R4)",
   "Vicky: the OpenRouter key answered 401 at about 11:50; re-save it in the environment's settings if images are needed",
   "Dinis: one line in your own session (or signed) approving the temporary wake updates of 10 November, so R4 is met; Vicky reported your in-person yes at about 13:15 UTC",
   "Dinis (and abp@): conductor.B@PrompTugal.vicky has no ABP policy yet (board/abp/); its grant should match conductor.b@'s plus this folder",
