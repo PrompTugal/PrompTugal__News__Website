@@ -37,3 +37,4 @@ key: journalist-vicky-promptugal-b (record sha256:8dd04b857a2b77c9, encryption s
 ## S41 watch (standing task from 10 Nov 14:55 UTC, at Vicky's word, until IPMA's warning for Lisbon ends and Wednesday's programme is over)
 - Each :05 wake: IPMA's warnings for the Lisbon district and Web Summit's own channels; a material change goes to the reviewer with source and UTC time; no edits to S41 by this desk.
 - S41 checked 15:08 UTC, no change (S41 was published by the reviewer at about 14:40 UTC at Vicky's word).
+- S41 checked 16:07 UTC, no change.
