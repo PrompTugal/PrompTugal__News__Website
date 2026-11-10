@@ -1,0 +1,14 @@
+{
+  "$comment": "Dinis's five steps of the agentic workflow against what the record shows for the storm (S41), at 17:22 UTC on 10 November 2026. Copied from the trace's workflow_against_the_brief, with the times of each step's evidence. Made by journalist.newsroom@PrompTugal.dinis.",
+  "story": "the-storm",
+  "from": "board/team/work-desk/traces/the-storm.json (updated 2026-11-10T17:25Z)",
+  "as_of": "2026-11-10T17:22Z",
+  "steps": [
+    {"n": 1, "name": "a researcher hits a raw source", "status": "seen", "trace_steps": [2, 9, 10, 11], "first_time": "2026-11-10T14:25Z", "what": "journalist@PrompTugal.vicky drew an SVG card from IPMA's data (14:25); weather@PrompTugal.vicky read five IPMA feeds, mostly JSON, plus transport feeds (16:56 to 17:02)"},
+    {"n": 2, "name": "it asks for a parser for the part that matters", "status": "not yet in the record", "trace_steps": [12], "first_time": null, "what": "the one request (17:04) was for a person to read three sources no tool could (lisboa.pt 403, ANA bot check, CP browser only), not for a parser"},
+    {"n": 3, "name": "an architect writes a plan", "status": "not yet in the record", "trace_steps": [], "first_time": null, "what": "no architect agent and no plan file for this story"},
+    {"n": 4, "name": "the developer builds it and the designer maps it", "status": "partly", "trace_steps": [5, 17], "first_time": "2026-11-10T16:44Z", "what": "reviewer@PrompTugal.vicky wrote its own reader, s41-check.mjs, without a plan (16:44); conductor.B@PrompTugal.vicky asked Vicky's dev@ to render the lead's new fields (17:14); no designer step"},
+    {"n": 5, "name": "a UI turns noise into signal", "status": "in progress", "trace_steps": [20], "first_time": "2026-11-10T17:21Z", "what": "s41-lead.json: a standfirst, three sourced developments and a Web Summit line, drawn from many feeds; the rendering waits on dev@ and correspondent@"}
+  ],
+  "finding": "The shortcut came first: the connector of this story was built by the agent that needed it, in the same run, with no request, architect or plan. The full five-step path has not happened yet for this story."
+}

@@ -160,6 +160,16 @@
    "PrompTugal__App__iOS": "421d0090",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "News: Vicky's agents settling on her account (keys, inboxes issued); her dev@ reverted then restored the offline files; dev@ (ours) still off."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T17:45Z",
+   "SGit-AI__Website__Web-Summit": "f5f64ee6",
+   "PrompTugal__News__Website": "9011c2a0",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Work desk keys in; lanes issued to reporter.newsroom, journalist.newsroom, weather-vicky. S41 lead block live. dev@ and dev.pages@ still off."
   }
  ]
 }

@@ -1884,6 +1884,11 @@
         "count": 1
       },
       {
+        "as_listed": "Government of Portugal",
+        "ref": "organisation:government-of-portugal",
+        "count": 1
+      },
+      {
         "as_listed": "Granter",
         "ref": "organisation:granter",
         "count": 1
@@ -1901,7 +1906,7 @@
       {
         "as_listed": "IPMA",
         "ref": "organisation:ipma",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "ITI-LARSyS",

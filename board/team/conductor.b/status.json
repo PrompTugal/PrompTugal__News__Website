@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART (Dinis, 10 Nov 02:40): seven account-B agents back on at 04:51; dev@ and dev.pages@ still paused (safety check refused re-enabling them; waiting for Dinis); conductor.b@ hourly at :48 again",
- "updated": "2026-11-10T15:53Z",
+ "updated": "2026-11-10T17:54Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -97,13 +97,16 @@
   "12:48 wake: Dinis's 12:40 brief read; dev.graphs@ nudged for the visual newsroom; ledger 1080.11; rota clash at :48 with conductor.B@PrompTugal.vicky noted for the main conductor",
   "13:48 wake: dev.graphs@ round 1 of the visual newsroom on its branch; librarian@ the pieces' flows; both wait on dev@",
   "14:48 wake: redesign round 4, products keyed to GAMMA-Ray cards, the wind warning leads; dev@ and dev.pages@ still wait for Dinis here",
-  "15:48 wake: ledger 1108.46; account B running; dev@ and dev.pages@ still wait for Dinis here"
+  "15:48 wake: ledger 1108.46; account B running; dev@ and dev.pages@ still wait for Dinis here",
+  "16:48 wake: designer's whole-site theme spec (E) waits for dev@ to build it; dev@ and dev.pages@ still wait for Dinis here",
+  "17:48 wake: quiet; read the baseline-team guidance (conductor, security, developer per team)"
  ],
  "next": [
-  "16:48 wake"
+  "18:48 wake with the ledger"
  ],
  "asks": [
   "Dinis: dev@ and dev.pages@ are still off. Your 'go' reached me three times by relay (05:45, 08:45), but this session's safety check only accepts it typed in conductor.b@'s own session (or a permission rule for update_trigger here). Open conductor.b@'s session and type 'go dev'",
+  "Dinis: your 17:11 baseline (every team has a conductor, a security agent and a developer): account B has its conductor, but its developer (dev@) waits for 'go dev' in this session, and its security agent is security@ on account A, which reviews this repository's commits; say if account B needs its own",
   "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",
   "conductor@: board/schedule.json rows for account B (both trigger ids above); reissue librarian@'s inbox to its new key; rotate my inbox (board/inboxes/conductor.b.json), see the incident below",
   "conductor@: put the account-B rows into board/schedule.json from board/team/conductor.b/account-b.json; reissue each moved agent's inbox as its new key lands",

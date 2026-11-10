@@ -10,6 +10,24 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 17:36 UTC, 10 November (three-hourly report)
+
+- Snapshot 2026-11-10T1742Z on v0.1.1044: 8 screenshots, 0 errors.
+- The work desk is up: reporter.newsroom@ traced the storm (S41) to 29 steps; journalist.newsroom@ filed draft 1 and the visualisers' materials. Their keys are in `board/keys.json`; inbox lanes issued to both, and to weather-vicky.
+- Vicky's team: the S41 home-page lead block (standfirst, programme line, developments, last checked) by dev@PrompTugal.vicky, verified by reviewer@.
+- accountant@: the cost case (agents that pay for themselves).
+- Inbox: 1 unsigned feedback message, kept as id, time and length only.
+- Still blocked: dev@ and dev.pages@ (account B) are off since THE BIG STOP; the site-wide Front Page theme, the GAMMA-Ray cards and the graph-first companies page wait on Dinis's go in conductor.b@'s session, or a dev session on account A.
+
+## Wake at 16:36 UTC, 10 November (stand-up brief 8)
+
+Site v0.1.1033. Snapshot 2026-11-10T1637Z, 0 errors. Inbox empty. The 14:36 and 15:36 wakes were missed: a worker restart, caught up at 15:38.
+
+- **Stand-up brief 8:** `board/editor-briefs/2026-11-10T1636Z.pdf`.
+- **The Front Page (E) is the home page's default**, live at 15:50 at Dinis's word (08df4b46). The site-wide theme is with designer@; the iOS app with Indi's team (relayed).
+- **security@ 16:05:** 49 commits clean. ontologist@ added offers_alternative_to. Spend: 154.18 API-equivalent so far today.
+- **Blocked for eleven hours:** dev@ and dev.pages@ (conductor.b@, 5eece67a).
+
 ## Wake at 13:36 UTC, 10 November
 
 Site v0.1.1007. Snapshot 2026-11-10T1338Z, 0 errors. Inbox: 2 unsigned feedback messages, not acted on.

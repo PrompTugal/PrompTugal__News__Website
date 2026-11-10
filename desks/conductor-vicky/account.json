@@ -106,6 +106,17 @@
    "state": "on",
    "started": "2026-11-10T11:55Z",
    "onboarding": "desks/conductor-vicky/onboarding/dev.md"
+  },
+  {
+   "agent": "weather@PrompTugal.vicky",
+   "session": "session_015JeffGMBAtfVny3WdZxvF8",
+   "trigger": "trig_01UAJwNdpvjV9B5QNjgRNcYz",
+   "cron": "35 * * * *",
+   "model": "Opus",
+   "state": "on",
+   "started": "2026-11-10T16:51Z",
+   "onboarding": "in its session (not filed); started at Dinis's spoken word in this conductor's session, 16:50 UTC",
+   "until": "IPMA's Lisbon warning has ended and Wednesday's programme is over"
   }
  ]
 }

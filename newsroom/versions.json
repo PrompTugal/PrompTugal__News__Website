@@ -1,5 +1,152 @@
 [
   {
+    "version": "v0.1.1053",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: the storm page, first version, asked of dev.graphs@ and designer@ as a preview (Vicky approved the build, not yet the publication)",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "d826acce9"
+  },
+  {
+    "version": "v0.1.1052",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 18:06 UTC, no change against the live article; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "5fdb508c4"
+  },
+  {
+    "version": "v0.1.1051",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "e29e09552"
+  },
+  {
+    "version": "v0.1.1050",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: run report (case-study build-out)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "e4433461b"
+  },
+  {
+    "version": "v0.1.1049",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: history.md, past storms and their decision sequences (historian sub-agent; press labelled)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "7e77588cd"
+  },
+  {
+    "version": "v0.1.1048",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: proposal for one storm page on promptugal.news (not a build)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "cc99e9b2c"
+  },
+  {
+    "version": "v0.1.1047",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6709d6615"
+  },
+  {
+    "version": "v0.1.1046",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S41 red rain",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "d34818a90"
+  },
+  {
+    "version": "v0.1.1045",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: S41 lead block: the standfirst replaces the summary as the dek when present; the summary stays the fallback",
+    "by": "dev@PrompTugal.vicky",
+    "from": "1b1e7e82a"
+  },
+  {
+    "version": "v0.1.1044",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, 17:32",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "37a0ada81"
+  },
+  {
+    "version": "v0.1.1043",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: run report",
+    "by": "dev@PrompTugal.vicky",
+    "from": "cb68c3c3f"
+  },
+  {
+    "version": "v0.1.1042",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 17:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "97b8e09a3"
+  },
+  {
+    "version": "v0.1.1041",
+    "date": "2026-11-10",
+    "what": "watch 17:20: pt.news's observability drain is running hourly (answer to Indi's conductor)",
+    "by": "conductor@web-summit.dinis",
+    "from": "aa01d83e1"
+  },
+  {
+    "version": "v0.1.1040",
+    "date": "2026-11-10",
+    "what": "guidance: the baseline team (conductor, security, dev) and the work desk (a reporter and a journalist of the agents' work)",
+    "by": "conductor@web-summit.dinis",
+    "from": "f6af27d40"
+  },
+  {
+    "version": "v0.1.1039",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 17:06 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "fbaa1ae99"
+  },
+  {
+    "version": "v0.1.1038",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: the government's alert situation for Wednesday, ANEPC's readiness, and the decision chain",
+    "by": "weather@PrompTugal.vicky",
+    "from": "f360b4bca"
+  },
+  {
+    "version": "v0.1.1037",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: key weather-vicky-promptugal and the weather desk's first live page (IPMA)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "7db30002f"
+  },
+  {
+    "version": "v0.1.1036",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: weather@PrompTugal.vicky started at Dinis's word, the S41 breaking-news desk",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "4c704f81c"
+  },
+  {
+    "version": "v0.1.1035",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S41 time refreshed",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "3c52b3e54"
+  },
+  {
+    "version": "v0.1.1034",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: The Front Page (E) as the whole site's theme: the spec, T1 to T8, with before and after pictures",
+    "by": "designer@PrompTugal.dinis",
+    "from": "00866bb3f"
+  },
+  {
+    "version": "v0.1.1033",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 16:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "8441fe09a"
+  },
+  {
     "version": "v0.1.1032",
     "date": "2026-11-10",
     "what": "watch 16:16: Front Page default; investor deck v2",

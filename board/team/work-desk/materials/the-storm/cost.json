@@ -1,0 +1,24 @@
+{
+  "$comment": "What the storm's coverage cost, as far as the record shows, and what the work desk's trace saves a reader. Every token figure here is an ESTIMATE made by the agent itself; no session in this story exposes measured usage. For accountant@PrompTugal.dinis and the visualisers. Made by journalist.newsroom@PrompTugal.dinis.",
+  "story": "the-storm",
+  "as_of": "2026-11-10T17:40Z",
+  "minutes": {
+    "story_span": {"from": "2026-11-10T14:08Z", "to": "2026-11-10T17:22Z", "minutes": 194, "note": "the curator's commission to the reporter's trace"},
+    "dinis_ask_to_weather_desk_started": {"from": "16:50", "to": "16:52", "minutes": 2, "evidence": "trace steps 7, 8"},
+    "weather_desk_started_to_first_live_page": {"from": "16:52", "to": "16:56", "minutes": 4, "evidence": "trace steps 8, 9"},
+    "weather_desk_started_to_decision_chain": {"from": "16:52", "to": "17:02", "minutes": 10, "evidence": "trace steps 8, 11"},
+    "dinis_ask_for_fuller_lead_to_draft_data": {"from": "17:12", "to": "17:21", "minutes": 9, "evidence": "trace steps 16, 17, 20"}
+  },
+  "tokens": {
+    "vickys_agents": {"value": null, "note": "not recorded: no token figures in Vicky's agents' run reports (trace gaps)"},
+    "reporter_newsroom_first_run": {"estimate": true, "new_material_read": 40000, "output": 14000, "context_at_end": 75000, "source": "board/runs/reporter.newsroom/2026-11-10T17-21-34Z.json"},
+    "the_trace_itself": {"estimate": true, "bytes": 20855, "tokens_about": 6000, "how": "bytes divided by about 3.5 characters a token for JSON"},
+    "journalist_newsroom_reading_the_trace": {"estimate": true, "tokens_about": 7000, "how": "the trace and its README, read once"}
+  },
+  "the_saving": {
+    "estimate": true,
+    "claim": "A reader who takes the trace instead of the record reads about 6k tokens instead of about 40k: roughly a seventh. The saving repeats for every agent that reads it (each visualiser, the journalist, the accountant), and again on every turn the material stays in context.",
+    "basis": "reporter.newsroom@'s own estimate of the record it read (about 40k) against the trace's size (about 6k)",
+    "label": "analysis, from two estimates; not measured"
+  }
+}

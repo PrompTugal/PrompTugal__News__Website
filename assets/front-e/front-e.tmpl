@@ -19,9 +19,17 @@
 <div class="fe-w fe-ask"><form class="fe-pb" role="search" action="search/index.html" method="get"><span class="fe-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form><p class="fe-pcs">{{#asks}}</p></div>
 </div>
 <!-- part:lead -->
-<section class="fe-band" aria-label="The lead story"><div class="fe-w"><div><p class="fe-kk">{{kicker}}</p><h2 class="fe-hed"><a href="{{href}}">{{headline}}</a></h2><p class="fe-dek">{{dek}}</p><p class="fe-by">{{byline}} · {{minutes}} min read</p>{{pill}}</div>{{figure}}</div></section>
+<section class="fe-band" aria-label="The lead story"><div class="fe-w"><div><p class="fe-kk">{{kicker}}</p><h2 class="fe-hed"><a href="{{href}}">{{headline}}</a></h2>{{live}}<p class="fe-dek">{{dek}}</p>{{programme}}{{developments}}<p class="fe-by">{{byline}} · {{minutes}} min read</p>{{pill}}</div>{{figure}}</div></section>
 <!-- part:none -->
 <section class="fe-band" aria-label="The lead story"><div class="fe-w"><div><h2 class="fe-hed">Our first article is on the way.</h2></div></div></section>
+<!-- item:programme --><p class="fe-lpg"><b>{{label}}</b> {{text}}{{src}}</p>
+<!-- item:developments --><ul class="fe-ldv">{{items}}</ul>
+<!-- item:devitem --><li>{{text}}{{src}}</li>
+<!-- item:lsrc --> <a class="fe-lsrc" href="{{href}}" rel="noopener">Source</a>{{checked}}
+<!-- item:lchecked --> <small>checked {{time}}</small>
+<!-- item:live --><p class="fe-lmeta">{{lastchecked}}{{livelink}}</p>
+<!-- item:lastchecked --><span class="fe-llc">Last checked {{time}}</span>
+<!-- item:livelink --><a class="fe-llive" href="{{href}}">{{label}}</a>
 <!-- item:figure --><figure><a href="{{href}}" tabindex="-1">{{picture}}</a><figcaption>AI-made image</figcaption></figure>
 <!-- item:picture --><picture>{{phone}}<source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
 <!-- item:mark --><mark>{{text}}</mark>

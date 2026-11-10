@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-10T15:00Z",
+  "updated": "2026-11-10T17:10Z",
   "done": [
+    "17:10 The Front Page (E) as the whole site's theme (Dinis 14:35): board/spec-the-front-page-theme.md, T1 to T8 (E's masthead on every page with the tools in its date line; section heads, kickers, dark; the 404's broken wordmark); before and after pictures of companies, an article and the agenda; round 4's content now built inside E; sherpa@'s three round-4 notes in H11 and H12",
     "15:00 The redesign, round 4 (Dinis 12:40, 'pt.news is about agents'): B r3 recycled; the interviews lead as video cards, the summit now (today's seven agent sessions, on now and next), the scores, and the newsroom at work as a swimlane with every hand-off (a vertical timeline on a phone); spec H11 and H12",
     "12:55 sherpa@ read round 3: conditions 1 to 3 met, 4 (contrast) on the built page; its 'Watch · length' added to H2; the company page's Spectrum block designed (H10, light and dark)",
     "11:10 The design flip decided: B, round 3 (sherpa@'s four conditions met: a legend line, one interview before the strip on a phone, three rows then 'All 6', contrast measured AA+), with the six real GAMMA-Ray cards and its own words (the stage is the sum of levels; 'not yet evidenced', never zero); spec board/spec-the-agentic-home-page.md (H1 to H9) for dev.pages@",
@@ -101,7 +102,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check the agentic home page against board/spec-the-agentic-home-page.md (H1 to H12) when dev.pages@ ships; sherpa@'s read of round 4; the share picture",
+    "Check T1 to T8 (board/spec-the-front-page-theme.md) and H1 to H12 when dev@ and dev.pages@ ship (they wait for Dinis in conductor.b@'s session)",
     "D6 (past days) check",
     "Re-check /contribute/'s og:image",
     "Images for any new article (a table from its own table where the story is numbers)",
@@ -516,6 +517,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the redesign, round 4: interviews, summit now, scores, the newsroom at work"
+    },
+    {
+      "started": "2026-11-10T16:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "The Front Page as the whole site's theme: the spec"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
