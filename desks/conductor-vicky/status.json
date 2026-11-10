@@ -2,7 +2,7 @@
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
  "state": "ten temporary agents running; no hold; S41 and S42 live; S41 watched hourly",
- "updated": "2026-11-10T17:15Z",
+ "updated": "2026-11-10T17:22Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -25,7 +25,8 @@
   "15:49 wake: no hold either side; S42 published at Vicky's word (15:06); Vicky's standing approval for S41 updates on a verified change recorded at the reviewer; S41 checks 15:08 and 15:22: no change; Dinis's front-page decision (design E) noted, not Vicky's desks'; no agent blocked",
   "16:49 wake: no hold either side; Dinis approved Vicky's agents' schedule in his own session (guidance 16:47), so R4 is met; S41 checks 16:07 and 16:43: no change; no agent blocked",
   "16:51 at Dinis's spoken word in this session: weather@PrompTugal.vicky started (Opus) with an hourly wake at :35, as the S41 breaking-news desk (sources, facts with evidence, decision chain, live page in desks/weather-vicky/)",
-  "17:12 at Dinis's request (relayed by Vicky): the S41 lead block made fuller: correspondent@ asked on its inbox to add a standfirst, two or three verified developments, a labelled Web Summit Wednesday line, a last-checked time and a later Live updates link to front-page.json's lead; Vicky's dev@ asked to render those optional fields in the existing lead block only, checked at 390 px"
+  "17:12 at Dinis's request (relayed by Vicky): the S41 lead block made fuller: correspondent@ asked on its inbox to add a standfirst, two or three verified developments, a labelled Web Summit Wednesday line, a last-checked time and a later Live updates link to front-page.json's lead; Vicky's dev@ asked to render those optional fields in the existing lead block only, checked at 390 px",
+  "17:20 S41 lead, at Vicky's word with Dinis's authorisation: weather@ prepares the values (desks/weather-vicky/s41-lead.json), reviewer@ verifies and writes only the five lead keys in desks/correspondent/front-page.json (For: correspondent@), correspondent@ told on its inbox to carry those keys over and to warn before changing the lead; dev@ waits for Vicky's yes in its session for the display"
  ],
  "next": [
   "the fuller S41 lead: dev@'s rendering released and checked on a phone; correspondent@ fills the fields (its next wake, about 18:41, or sooner if Dinis nudges it)",
