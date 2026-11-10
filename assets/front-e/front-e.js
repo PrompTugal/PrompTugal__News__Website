@@ -18,5 +18,12 @@
             if (end && end < now) li.remove(); else if (++shown > 6) li.remove()
         })
     }
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready); else ready()
+    // the interviews band (features/interviews.mjs) is in the page's body, which E's design hides: bring it into E,
+    // right after the lead (sherpa@'s R5, 10 November: on a phone no reader saw either interview)
+    function interviews() {
+        var band = document.querySelector('.interviews-band'), lead = document.querySelector('.fe .fe-band')
+        if (!band || !lead || lead.parentNode.querySelector(':scope > .fe-iv')) return
+        var box = document.createElement('section'); box.className = 'fe-iv fe-w'; box.appendChild(band); lead.parentNode.insertBefore(box, lead.nextSibling)
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { ready(); interviews() }); else { ready(); interviews() }
 })()
