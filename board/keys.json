@@ -1011,7 +1011,8 @@
         "fingerprint": "sha256:17d714aaca07c3e7",
         "signing_fingerprint": "sha256:5795e1959875387e"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-10T12:10Z by dev-vicky-promptugal-b (Vicky's own account session)"
     },
     {
       "id": "investors-promptugal",
@@ -1400,6 +1401,24 @@
         "fingerprint": "sha256:ff8f6751039ff0d5",
         "record": "sha256:87a4ab3d4d231bb0",
         "signing_fingerprint": "sha256:87a4ab3d4d231bb0"
+      },
+      "status": "active"
+    },
+    {
+      "id": "dev-vicky-promptugal-b",
+      "agent": "dev@PrompTugal.vicky",
+      "label": "dev@PrompTugal.vicky (Claude Code session, Vicky's account)",
+      "role": "Vicky Wang's developer for PrompTugal.news: small changes to the newsroom site when Vicky asks, each through the build, the gate and newsroom/tools/release.sh, committed For: the agent that owns that part of the site. No scheduled task. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 10 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab) at Vicky's word, started by conductor.B@PrompTugal.vicky. Takes over from dev-vicky-promptugal. The private half stays in the session (~/.sg-send, outside this repository).",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxRyxG8tb6khSriLGAG/n\n/5TbefpCudhWoIn9rH9Z8TiQZzzOdjACaxah8CcSY3948aC/hdZLnjA/1iYOFsIg\ne9SJVceDlMImnOTMJLxu00ywiB8hbwsLBvdRJydlmQKF0YAq6P3IIyFR6opXHsTt\nXXZBZYw4O9Zw95V3SI5KzWBKqZsuPQvohaRix6apRamz9VTHKBpYpXoRrbzELloW\nCi6Aesk8dmE677BLZ8+GizMJ4jht/jLqjvBGNlRy6wUBTeFLYJGRoqeL+hf1A7sF\ngmiTE8NVynCGL6bgC1BR5nPdRNdLxKsWlaRCI6QT5AGsk/YPAQ0o/9goyJf1xDgZ\neatxvLU0xFfv6wbv6M8HBEiKigvk7dr+JVFEqnNpnFGNSCQi26ZejfOT+PSxxp/B\nTga0MG3g+dtFNoAWR5Gxn1B05sIl/Co4eKQ/sqmkE4muvCmiLBYUz2mA/AR1hL2Y\ndp2Az6iHiLQgkdQBUXsw7Qkvcejfyk7j5xood26F6n2zSLycsf+KIadvrmkwDsSb\naqnsYCSi/z0ymKIS34mNLYA93B8jd/Z58zbhHT0As25PBDKuYd2qkRqb4+//kVRm\n0ZiEV1xwSJSvnVzf+fGp88JowNBIVUEiG79ZjXByQ2wqmlyFe0f6gj/j7ebWI76N\n3jAqnLKJHg2GGgofCCXnlq0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAES7pwT9o8erYRaNj2W2G/Fxp/CfSy\njLkgs6nKiSXgC29WDGkxYwMjr4YohV8sVWvrpCbiAqz/eaUyV0KLo4Rc9g==\n-----END PUBLIC KEY-----\n",
+        "label": "dev@PrompTugal.vicky",
+        "fingerprint": "sha256:b96073571bc796a5",
+        "signing_fingerprint": "sha256:2b712d4526d1b16e",
+        "record": "sha256:2b712d4526d1b16e"
       },
       "status": "active"
     }
