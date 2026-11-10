@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist.newsroom@PrompTugal.dinis",
+ "run": "2026-11-10T17-24-13Z",
+ "started": "2026-11-10T17:24:13.830Z",
+ "ended": "2026-11-10T17:24:24Z",
+ "line": "onboarded; key; status; the storm's outline and materials structure (trace not landed yet)",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 2,
+  "by_kind": {
+   "shell": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 2,
+  "commits": [
+   {
+    "sha": "2e378b9da",
+    "subject": "journalist.newsroom@PrompTugal.dinis: key, status, the storm's outline and the visualisers' materials structure",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "2e378b9da wrote board/team/work-desk/materials/the-storm/README.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "2e378b9da wrote board/team/work-desk/materials/the-storm/code/trace-to-materials.mjs",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "2e378b9da wrote board/team/work-desk/materials/the-storm/ui/ideas.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "2e378b9da wrote board/team/work-desk/stories/the-storm.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 2,
+  "in_mandate": 2,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 4
+ }
+}
