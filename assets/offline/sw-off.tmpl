@@ -1,9 +1,0 @@
-/* sw.js, switched off (assets/offline/switch.json enabled: false; __VERSION__): deletes every copy this site kept
- * and unregisters itself, then reloads the open pages so they come from the network. Made by
- * newsroom/build/features/offline.mjs. */
-self.addEventListener('install', () => self.skipWaiting())
-self.addEventListener('activate', e => e.waitUntil((async () => {
-    for (const k of await caches.keys()) if (k.startsWith('pt-')) await caches.delete(k)
-    await self.registration.unregister()
-    for (const c of await self.clients.matchAll({ type: 'window' })) c.navigate(c.url)
-})()))

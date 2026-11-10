@@ -1,5 +1,0 @@
-{
-  "about": "The offline mode's kill switch (security@'s condition, 18:05). enabled: false makes the next release's /sw.js a worker that deletes every copy and unregisters itself, and offline.js on every page unregisters and clears too. Only dev@ or Dinis turns it off; say why.",
-  "enabled": true,
-  "why": ""
-}
