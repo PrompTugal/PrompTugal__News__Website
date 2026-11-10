@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1093",
+    "date": "2026-11-10",
+    "what": "interview pages get Article and Transcript pills under the video; three transcripts wait for their pages",
+    "by": "journalist@web-summit.indi",
+    "from": "e0eabdaa0"
+  },
+  {
     "version": "v0.1.1092",
     "date": "2026-11-10",
     "what": "ontologist@PrompTugal.dinis: Manus AI linked to its GAMMA-Ray card",
