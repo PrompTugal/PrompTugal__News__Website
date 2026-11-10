@@ -120,6 +120,8 @@ And: *"'Placeholder' ... must not reach the live page; if the real cards are not
 
 Made by `design/home-designs/flip/round3.mjs`. The build spec is `board/spec-the-agentic-home-page.md`.
 
+> **Since 14:35 UTC:** Dinis made The Front Page (design E) the default design and theme for the whole site and the iOS app (`board/guidance/2026-11-10-the-front-page-default.md`). B's dark top and wave are therefore not the theme. Round 4's content and order are built inside E (`board/spec-the-front-page-theme.md`).
+
 ## Round 4 (14:55 UTC): the full redesign, "pt.news is about agents"
 
 Dinis, 12:40 (`board/guidance/2026-11-10-pt-news-is-about-agents.md`): pt.news pivots completely to agents, and the site leads with *"the content we create, the interviews; what is going on at the summit right now; the scores we create"*. He also wants *"a visual virtual newsroom"* shown to readers, and said to *"recycle one of the ones we have"*. Round 4 recycles B round 3.
