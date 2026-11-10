@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.982",
+    "date": "2026-11-10",
+    "what": "watch 10:13: dev@ restart still needs Dinis in conductor.b@'s session",
+    "by": "conductor@web-summit.dinis",
+    "from": "6784c9b67"
+  },
+  {
     "version": "v0.1.981",
     "date": "2026-11-10",
     "what": "jornal@PrompTugal.silvio: one candidate at the 10:08 wake (Altegio's agent platform)",
