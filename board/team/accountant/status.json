@@ -1,8 +1,8 @@
 {
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
- "state": "working on account A (stays, board/the-account-move.md): every three hours at :47 UTC; capture and adjust",
- "updated": "2026-11-09T21:55Z",
+ "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
+ "updated": "2026-11-10T06:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -30,13 +30,13 @@
   "13:30 (a relay, not a wake): the OpenRouter plan for the summit in board/budgets.json (openrouter.summit_plan), on Dinis's word relayed by conductor@web-summit.dinis: 250 USD planned inside 100 to 300 GBP; 5 USD per tablet key; 25 USD per app team for the cloud comparison; per-agent keys; a reserve; daily rows per key; told conductor@ and conductor.b@ on their inboxes",
   "15:50 on 9 November: account A 42.34 so far (about 3 an hour); account B has no ledger since 12:20, so the team reads 198.12; no OpenRouter per-key rows yet",
   "18:50 on 9 November: account A 53.3 so far (about 4 an hour); account B unmeasured since 12:20 (conductor.b@ wrote no ledger), asked on its inbox; team reads 209.08 with B frozen",
-  "21:50 on 9 November: 335.01 API-equivalent so far (A 62.44, B 272.57, conductor.b@'s 18:52 ledger); seven over their lines (ontologist@ 1.49, designer@, dev.graphs@, dev.pages@, dev.data@, librarian@, me), recorded; account A allowed_warning once at 20:08 (security@), allowed since"
+  "21:50 on 9 November: 335.01 API-equivalent so far (A 62.44, B 272.57, conductor.b@'s 18:52 ledger); seven over their lines (ontologist@ 1.49, designer@, dev.graphs@, dev.pages@, dev.data@, librarian@, me), recorded; account A allowed_warning once at 20:08 (security@), allowed since",
+  "06:50 on 10 November: the close of 9 November (at least 375.05 API-equivalent: B 312.61 to 21:52, A 62.44 to 21:50; A 26.25 from 21:50 to 06:48 across the stop); THE BIG STOP measured; budgets.json reset for 10 November; the hand-over debrief"
  ],
  "next": [
-  "at 00:47: the close of 9 November, the 10 November baseline, the debrief"
+  "at 09:47: account A against the 06:48 baseline and conductor.b@'s newest ledger; dev@ and dev.pages@ are back hourly on B"
  ],
  "asks": [
-  "Dinis: account A's seven-day limit read allowed_warning in security@'s session at 20:08 UTC (allowed again in the four sessions read at 21:47); next reset 15 November 20:00. Nothing to do yet; said so you know",
   "Dinis: the OpenRouter plan for the summit is in board/budgets.json (openrouter.summit_plan), from your word as relayed by conductor@web-summit.dinis at about 13:25: 250 USD (about 197 GBP) of your 100 to 300 GBP, one key per tablet at 5 USD, 25 USD per app team for the cloud comparison, one key per agent, 60 USD reserve. Making the keys and setting their limits in OpenRouter is yours (or whoever you name); change any number and it is written as you say. The credit is at 1.19 USD now (dev.verify@)",
   "Dinis: I could not tell conductor.android@ and conductor@web-summit.dinis myself: my grant sends only to the agent inboxes, and they have none here; conductor@ and conductor.b@ were asked to pass the plan on",
   "Dinis: my session was down from 18:47 on 7 November to 03:47 on 9 November (a worker restart; nine wakes missed); the close of 7 and 8 November is written late, account A as one figure",
@@ -162,7 +162,13 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "335.01 so far (A 62.44, B 272.57); seven over, recorded; A allowed_warning once at 20:08"
+  },
+  {
+   "started": "2026-11-10T06:48Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "close of 9 November (at least 375.05); the stop measured; 10 November baseline"
   }
  ],
- "debrief": "board/team/accountant/debriefs/2026-11-09-handover.md"
+ "debrief": "board/team/accountant/debriefs/2026-11-10-handover.md"
 }
