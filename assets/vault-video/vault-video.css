@@ -14,3 +14,15 @@ figure.vault-video figcaption { font: 14px/1.5 var(--sans, system-ui, sans-serif
 .interviews-band .iv-card { min-width: 0; }
 .interviews-band .iv-card figure.vault-video { margin: 0 0 .5rem; }
 .interviews-band .iv-card p { margin: .4rem 0; }
+
+/* an interview with a transcript: the pills stay under the site's sticky nav while the reader scrolls (iv-tabs.js) */
+.iv-tabs { position: sticky; top: var(--iv-top, 0px); z-index: 6; background: var(--paper); margin: 0 0 1rem; padding: 10px 0; border-bottom: 1px solid var(--rule-2); }
+.iv-tabs p { display: inline-flex; gap: 4px; margin: 0; padding: 4px; border: 1px solid var(--rule-2); border-radius: var(--radius-pill, 999px); background: var(--paper-2, var(--paper)); }
+.iv-tabs a { display: inline-flex; align-items: center; min-height: 36px; padding: 0 18px; border-radius: var(--radius-pill, 999px); font: 600 14px/1 var(--sans, system-ui, sans-serif); color: var(--ink-2, var(--ink)); text-decoration: none; }
+.iv-tabs a:hover { color: var(--ink); }
+.iv-tabs a[aria-selected="true"] { background: var(--ink); color: var(--paper); }
+.iv-tabs a:focus-visible { outline: 2px solid var(--brand, var(--ink)); outline-offset: 2px; }
+.iv-panel h2 { scroll-margin-top: calc(var(--iv-top, 0px) + 72px); }
+.iv-js .iv-panel[hidden] { display: none; }
+.iv-js .iv-panel > h2:first-child { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.iv-tnote { font: 400 14px/1.5 var(--sans, system-ui, sans-serif); color: var(--ink-3, var(--muted, #666)); }

@@ -34,7 +34,7 @@ function dayPage(ctx, d, i) {
     const off = cancelledDays()[d]   // the correspondent's 'did not take place' (10 November: Day 2 cancelled)
     const shown = off ? `**${DAY(d)} did not take place.** ${off.replace(/\.?$/, '.')}` : banner
     const prev = STRIP_DAYS[i - 1], next = STRIP_DAYS[i + 1]
-    const md = `${stripMd(ctx, rel, d)}\n\n{.notice .brand}\n${shown}\n\n` +
+    const md = (off ? `{.notice .brand}\n${shown}\n\n${stripMd(ctx, rel, d)}\n\n` : `${stripMd(ctx, rel, d)}\n\n{.notice .brand}\n${shown}\n\n`) +
         (items.length ? `{.view-switch}\n[Five things](#v-five) · [Every session, by time](#v-all) · [By stage](#v-stages)\n\n` +
             `::: view view-five\n#### Five things {#v-five}\n\n${picked.length || d < TODAY ? '' : `*${DW.unpicked}*\n\n`}${slotList(five.map(line))}\n\n` +
             (items.length > 5 ? `::: fold\n#### ${d === TODAY ? DW.else_today : DW.else_other} (${items.length - 5}) {#else}\n\n${slotList([...items].filter(e => !five.includes(e)).sort(byTime).map(line))}\n:::\n` : '') + `:::\n\n` +
@@ -45,8 +45,8 @@ function dayPage(ctx, d, i) {
     return {
         src: 'data/events/', rel, type: 'site', date: TODAY, section: 'agenda',
         crumbs: [['summit/index.html', 'The summit'], [null, DAY(d)]],
-        title: `${DAY(d)}: ${d < TODAY ? DW.title_was : DW.title_on}`,
-        summary: `${items.length} item${items.length === 1 ? '' : 's'} in our programme on ${DAY(d)}, Web Summit Lisbon week: ${d < TODAY ? DW.summary_was : DW.summary_on}`,
+        title: `${DAY(d)}: ${cancelledDays()[d] ? 'called off' : d < TODAY ? DW.title_was : DW.title_on}`,
+        summary: cancelledDays()[d] ? `${DAY(d)} did not take place: ${cancelledDays()[d].split(' (')[0]}. What was planned is kept as the record.` : `${items.length} item${items.length === 1 ? '' : 's'} in our programme on ${DAY(d)}, Web Summit Lisbon week: ${d < TODAY ? DW.summary_was : DW.summary_on}`,
         md,
     }
 }
@@ -61,6 +61,7 @@ function daysIndex(ctx) {
         const picked = (PICKS[d]?.picks || []).map(id => items.find(e => e.id === id.replace(/^event:/, ''))).filter(Boolean)
         const five = picked.length ? [...picked].sort(byTime) : [...items].sort((a, b) => rk(a) - rk(b) || byTime(a, b)).slice(0, 5).sort(byTime)
         const line = e => slotLine(ctx, rel, e, { day: false, extra: [KIND[e.kind] || e.kind] })
+        if (cancelledDays()[d]) return `## [${DAY(d)}](${ctx.link(rel, `days/${d}/index.html`)}): called off {#d-${d}}\n\n{.notice .brand}\n${cancelledDays()[d]}`
         return `## [${DAY(d)}](${ctx.link(rel, `days/${d}/index.html`)})${d === TODAY ? ' (today)' : ''} {#d-${d}}\n\n${items.length} in our programme.\n\n${slotList(five.map(line))}`
     }).join('\n\n')
     return { src: 'data/events/', rel, type: 'site', date: TODAY, section: 'agenda', crumbs: [['summit/index.html', 'The summit'], [null, 'The days']], layout: 'wide',
