@@ -721,7 +721,9 @@
         "fingerprint": "sha256:397766fec1bee839",
         "signing_fingerprint": "sha256:f3c5113e46068c5c"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-10T11:57Z",
+      "superseded_by": "journalist-portugal-vicky-promptugal-b"
     },
     {
       "id": "reviewer-vicky-promptugal",
@@ -1322,6 +1324,24 @@
         "fingerprint": "sha256:b6f025a0d5c9b08b",
         "record": "sha256:77f1e79088418e39",
         "signing_fingerprint": "sha256:77f1e79088418e39"
+      },
+      "status": "active"
+    },
+    {
+      "id": "journalist-portugal-vicky-promptugal-b",
+      "agent": "journalist-portugal@PrompTugal.vicky",
+      "label": "journalist-portugal@PrompTugal.vicky (Claude Code session, Vicky's account)",
+      "role": "Vicky Wang's Portugal journalist for PrompTugal.news on her own Claude account (from 10 November 2026, taking over from the session whose key is journalist-portugal-vicky-promptugal): Portuguese startups, funding, universities, government support and the Portuguese ecosystem; drafts in desks/journalist-vicky/drafts/, when Vicky asks and at its scheduled runs. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 10 November 2026 at 11:57 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the team's pin), started by conductor.B@PrompTugal.vicky at Vicky's word. Not yet linked to an operator's key. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwnwJZ3ZRLhWgsvQNcbS0\nkWOikhg8qih8jwhLNl4wvKmG1GjJtskqNnJhSyZUm4BhWHY9qIWQSzMJsYnFKbUa\nnGBzJQm8z5a9H80Hlun4rW8cT7N+EeubwB5i4r4IwJveU5/G1y3j0JQDIYaI1yui\nqgLu+Lv37cK5w2xoNAemO95oQihJ7enuvaELgN1LttGbGspNZl2PrYaWNJxHm+Th\n5K+3b4Bw1sGRegJjF/SzZ+6fFfbw+N83Wj6FQx0O5FTNinodn2l7TJoeje+u2IFd\nMOq1Xk042shOOAxlEnE72+DOq2/3zgvyqnDo4b58LSLB5I49r1k04zQZKsI3C3sd\nFbEVDT/nrTKqvAwnRD2Gxh5zp0YhpuGaAkTwW3ZDmE5v7cWVZhzrp3EQ1qhvMblV\n857lWp89aRGC4tv9VmzUQVjwgwXMzjjfWefvowgQRETBuKErOdKMQq9Vg+idB40o\nvnBJK8H4mEl1zFhZYcMen3iQHrCOruPDboW1wmA2gGu11U+KyM0hAaJ6t9FU8pT6\nGuGduKaw37ntQtefN5QXafZJRKdLaPR1QkKljcxc3EfIwqO4WMwJ5X4ywvG5dfbm\n4S/mwNYlCWOt+l5TURuaL1MPrWwzZRxJJXWm0Vw2LBAdLrrFnfizFSGwDb+xT6xs\nJghEEceTA+i1ZA8MtmIW460CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5TTfe4C+asXNTJ6mfRj5l/irjU8u\nfmbJPHkyX0iib43UaJR62tb26rDBg1nKj/954XKd45L3iEUeBD7oOmUbvw==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist-portugal@PrompTugal.vicky",
+        "fingerprint": "sha256:ff8f6751039ff0d5",
+        "record": "sha256:87a4ab3d4d231bb0",
+        "signing_fingerprint": "sha256:87a4ab3d4d231bb0"
       },
       "status": "active"
     }
