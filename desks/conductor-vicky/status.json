@@ -1,8 +1,8 @@
 {
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
- "state": "eleven temporary agents (the weather desk added); no hold; S41 updated (government alert, red rain); the home-page lead fields rendered but not yet written",
- "updated": "2026-11-10T18:22Z",
+ "state": "eleven temporary agents; no hold; S41 lead fields written by the reviewer under Dinis's 18:36 grant, held on a link fix by dev@; storm page v1 and the satellite loop on dev@'s local branches, unpublished",
+ "updated": "2026-11-10T18:52Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -29,7 +29,8 @@
   "17:20 S41 lead, at Vicky's word with Dinis's authorisation: weather@ prepares the values (desks/weather-vicky/s41-lead.json), reviewer@ verifies and writes only the five lead keys in desks/correspondent/front-page.json (For: correspondent@), correspondent@ told on its inbox to carry those keys over and to warn before changing the lead; dev@ waits for Vicky's yes in its session for the display",
   "17:49 wake: no hold either side; S41 updated at Vicky's word with the government's alert (17:27) and with IPMA's red rain (17:45, standing approval); dev@'s lead display live (v0.1.1043) and the standfirst-replaces-summary fix (v0.1.1045); the lead values verified by the reviewer, not written (its grant excludes desks/correspondent/); Dinis's storm-case-study guidance (17:00) relayed to weather@",
   "18:08 at Vicky's approval: the /storm/charles/ page, first version (alerts, Web Summit status, what attendees need to know, timeline), asked of dev.graphs@ and designer@ on their inboxes, built on work/dev.graphs as a preview; not published or linked until Vicky approves; then reviewer@ rechecks, it goes onto dev and S41 links to it",
-  "18:20 the storm page v1 handed to Vicky's dev@ (branch work/dev.vicky, preview only) at her word; dev.graphs@ and designer@ told on their inboxes to stand down on v1 (neither had started), keeping v2: decision graph, history, satellite animation, design polish"
+  "18:20 the storm page v1 handed to Vicky's dev@ (branch work/dev.vicky, preview only) at her word; dev.graphs@ and designer@ told on their inboxes to stand down on v1 (neither had started), keeping v2: decision graph, history, satellite animation, design polish",
+  "18:49 wake: no hold either side; Dinis granted reviewer@ the five S41 lead keys (18:36) and put Vicky's temporary team under security@'s review (18:25); the lead release held by the gate (outside links without target=_blank in front-e.mjs), fix asked of dev@; security@ asked for an ETA on the satellite loop clearance; dev@ to run the real-feed test locally"
  ],
  "next": [
   "storm page preview: build work/dev.graphs locally, screenshots at 390 and 1280 px for Vicky; publish and link only after her yes",
@@ -40,8 +41,8 @@
   "switch-back steps when Vicky returns (hand-over, Open)"
  ],
  "asks": [
-  "Vicky: confirm in reviewer@'s session the write of the five S41 lead keys to desks/correspondent/front-page.json (Dinis's authorisation); Dinis or abp@ to widen reviewer@'s grant for that entry",
-  "Vicky: Dinis's baseline team (conductor, security, dev) asks for a security agent on each team; Vicky's temporary team has none",
+  "Vicky: approve the storm page v1 (dev@'s screenshots) in dev@'s session; then reviewer@ rechecks and it is released and linked from S41",
+  "security@: clearance of the satellite loop (third-party requests to EUMETSAT, the credit); ETA asked 18:45",
   "Vicky: the OpenRouter key answered 401 at about 11:50; re-save it in the environment's settings if images are needed",
   "Dinis (and abp@): conductor.B@PrompTugal.vicky has no ABP policy yet (board/abp/); its grant should match conductor.b@'s plus this folder",
   "conductor@: an inbox lane for conductor.B.vicky-promptugal (board/inbox.json, board/inboxes/), and the rota line for this conductor",
