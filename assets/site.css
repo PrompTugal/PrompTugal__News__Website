@@ -672,7 +672,8 @@ main.wide .body > p, main.wide .body > blockquote, main.wide .body > ol:not(.len
 .body ul.agenda { list-style: none; padding: 0; margin: 8px 0 18px; }
 ul.agenda > li { display: grid; grid-template-columns: 54px minmax(0, 1fr); column-gap: 12px; align-items: baseline; margin: 0; padding: 10px 0; border-top: 1px solid var(--hair); }
 ul.agenda > li:first-child { border-top: 0; }
-ul.agenda > li > strong:first-child { grid-row: 1 / span 4; align-self: start; padding-top: 3px; font: 500 13px/1.3 var(--mono); color: var(--ink); }
+/* E's time chip (T5): paper on brand green, as in E's Now and next */
+ul.agenda > li > strong:first-child { grid-row: 1 / span 4; align-self: start; justify-self: start; margin-top: 2px; padding: 2px 6px; border-radius: 3px; font: 700 12px/1.3 var(--mono); background: var(--brand); color: var(--on-brand); }
 ul.agenda > li > a { grid-column: 2; font: 600 17px/1.3 var(--serif); color: var(--ink); text-decoration: none; }
 ul.agenda > li > a:hover { color: var(--brand); text-decoration: underline; text-decoration-thickness: 1px; }
 ul.agenda > li > em { grid-column: 2; display: block; margin-top: 3px; font: 400 13.5px/1.45 var(--sans); font-style: normal; color: var(--ink-3); }
