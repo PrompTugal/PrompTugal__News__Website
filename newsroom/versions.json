@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1096",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 22:48 wake: the 10 November hand-over debrief; account B running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "98f65eb9a"
+  },
+  {
     "version": "v0.1.1095",
     "date": "2026-11-10",
     "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
