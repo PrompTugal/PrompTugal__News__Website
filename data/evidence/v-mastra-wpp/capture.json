@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-mastra-wpp",
+  "type": "evidence",
+  "source_url": "https://mastra.ai/customers/wpp",
+  "beat": "AI and robotics",
+  "group": "OVERNIGHT-10NOV pivot",
+  "names": [],
+  "desk_file": "desks/curator/2026-11-10-0110.json",
+  "run": "2026-11-10T01:10Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-0110.json"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S40",
+  "type": "story",
+  "title": "AI agents are spreading faster than their security, Gravitee's survey finds",
+  "beat": "The summit",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-gravitee-agent-security-report",
+    "evidence:v-session-gravitee-press"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-10-0110.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-0110.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-10T01:10Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-10-0110.json"
+    }
+  ]
+}
