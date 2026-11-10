@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2743 cards (2741 current, 1 superseded, 1 withdrawn), from the catalogue generated 2026-11-09T21:57:52Z at site v0.1.908; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2802 cards (2800 current, 1 superseded, 1 withdrawn), from the catalogue generated 2026-11-10T06:59:54Z at site v0.1.961; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `RDR.SHERPA` | 21 |
+| `RDR.SHERPA` | 23 |
 | `RDR.SYN` | 5 |
 | `TEAM.ABP` | 53 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 64 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1497 |
-| `TEAM.RUN` | 1071 |
+| `TEAM.ROLE` | 1512 |
+| `TEAM.RUN` | 1113 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261109-0509` [2026-11-09T21-48-41Z.json](https://promptugal.news/board/runs/conductor.b/2026-11-09T21-48-41Z.json) (`TEAM.RUN 2026-11-09T21-48-41Z`)
-- `ACC-20261109-0508` [2026-11-09T21-47-42Z.json](https://promptugal.news/board/runs/accountant/2026-11-09T21-47-42Z.json) (`TEAM.RUN 2026-11-09T21-47-42Z`)
-- `ACC-20261109-0507` [2026-11-09T21-30-03Z.json](https://promptugal.news/board/runs/sherpa/2026-11-09T21-30-03Z.json) (`TEAM.RUN 2026-11-09T21-30-03Z`)
-- `ACC-20261109-0506` [2026-11-09T21-09-48Z.json](https://promptugal.news/board/runs/dev/2026-11-09T21-09-48Z.json) (`TEAM.RUN 2026-11-09T21-09-48Z`)
-- `ACC-20261109-0505` [2026-11-09T20-48-42Z.json](https://promptugal.news/board/runs/conductor.b/2026-11-09T20-48-42Z.json) (`TEAM.RUN 2026-11-09T20-48-42Z`)
+- `ACC-20261110-0095` [2026-11-10T06-51-38Z.json](https://promptugal.news/board/runs/conductor.b/2026-11-10T06-51-38Z.json) (`TEAM.RUN 2026-11-10T06-51-38Z`)
+- `ACC-20261110-0094` [2026-11-10T06-48-48Z.json](https://promptugal.news/board/runs/accountant/2026-11-10T06-48-48Z.json) (`TEAM.RUN 2026-11-10T06-48-48Z`)
+- `ACC-20261110-0093` [2026-11-10T06-42-56Z.json](https://promptugal.news/board/runs/correspondent/2026-11-10T06-42-56Z.json) (`TEAM.RUN 2026-11-10T06-42-56Z`)
+- `ACC-20261110-0092` [2026-11-10T06-33-33Z.json](https://promptugal.news/board/runs/designer/2026-11-10T06-33-33Z.json) (`TEAM.RUN 2026-11-10T06-33-33Z`)
+- `ACC-20261110-0091` [2026-11-10T06-29-49Z.json](https://promptugal.news/board/runs/sherpa/2026-11-10T06-29-49Z.json) (`TEAM.RUN 2026-11-10T06-29-49Z`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

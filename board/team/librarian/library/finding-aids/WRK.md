@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: Work in hand"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-09T21:57:52Z"
-site_version: "v0.1.908"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T06:59:54Z"
+site_version: "v0.1.961"
 source: board/catalogue.json
 ---
 
-# Work in hand (334 cards)
+# Work in hand (338 cards)
 
 Work in hand: passes (focused rounds of work) and their findings, decisions, plans, briefs, tasks, desks and the story projects. Kept by conductor@.
 
@@ -26,9 +26,9 @@ By call number: passes, findings, decisions, plans, briefs, tasks, desks and sto
 
 | Container | What it holds | Cards | Cards worth opening |
 |---|---|---|---|
-| `WRK.BRIEF` | briefs | 46 | [The first night of PrompTugal.news: what we set up, what the team did, and how it works now](https://promptugal.news/board/briefs/2026-11-06-the-first-night-debrief.md), [Brief for the dev team on account B: Silvio's mock E becomes the home page](https://promptugal.news/board/briefs/2026-11-06-front-page-mock-e.md) |
+| `WRK.BRIEF` | briefs | 49 | [The first night of PrompTugal.news: what we set up, what the team did, and how it works now](https://promptugal.news/board/briefs/2026-11-06-the-first-night-debrief.md), [Brief for the dev team on account B: Silvio's mock E becomes the home page](https://promptugal.news/board/briefs/2026-11-06-front-page-mock-e.md) |
 | `WRK.DEC` | decisions | 13 | [For Dinis: two appliances for the summit, the RiskMandate Appliance and the PrompTugal Field Reporter](https://promptugal.news/newsroom/decisions/the-riskmandate-agent-ipad/), [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/) |
-| `WRK.DESK` | desks | 16 | [The curator's story candidates](https://promptugal.news/desks/curator/README.md), [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) |
+| `WRK.DESK` | desks | 17 | [The curator's story candidates](https://promptugal.news/desks/curator/README.md), [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) |
 | `WRK.FIND` | findings of a pass | 177 | [Index rendered pages only: no board/inbox.json token, no sealed envelope, no key bundle, no desks/outreach rank or priority](https://promptugal.news/board/passes/2026-11-06-the-newsroom-search.md), [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) |
 | `WRK.PASS` | passes | 29 | [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md), [2026-11-06-the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) |
 | `WRK.PLAN` | plans and specs | 34 | [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md), [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) |
@@ -43,9 +43,9 @@ Special collection: S3 (13 cards). Dinis's guidance has its own guide: [guidance
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (313 connections from this collection)
-- [The library](LIB.md) (144 connections from this collection)
-- [Guidance (special)](GDN.md) (113 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (315 connections from this collection)
+- [The library](LIB.md) (147 connections from this collection)
+- [Guidance (special)](GDN.md) (114 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 
 Back to the front door: [the library](../index.md)

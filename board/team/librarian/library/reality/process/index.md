@@ -26,19 +26,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-991 cards (991 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-09T21:57:52Z at site v0.1.908; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+998 cards (998 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T06:59:54Z at site v0.1.961; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 30 |
+| `GDN.MEMO` | 33 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 31 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 46 |
+| `WRK.BRIEF` | 49 |
 | `WRK.DEC` | 13 |
-| `WRK.DESK` | 16 |
+| `WRK.DESK` | 17 |
 | `WRK.FIND` | 177 |
 | `WRK.PASS` | 29 |
 | `WRK.PLAN` | 34 |
@@ -47,11 +47,11 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 
 Newest five accessions:
 
-- `ACC-20261109-0510` [/contribute/: the rules of the game and the collaborators' wall, in brand v2.0](https://promptugal.news/board/spec-contribute-page.md) (`WRK.PLAN spec-contribute-page`)
-- `ACC-20261109-0471` [signups.json](https://promptugal.news/board/lanes/signups.json) (`GEN.BOARD signups`)
-- `ACC-20261109-0470` [Confirmed: /contribute/, the collaborators' wall and the beta list; ship on security's pass](https://promptugal.news/board/guidance/2026-11-09-contribute-confirmed.md) (`GDN.MEMO 2026-11-09-contribute-confirmed`)
-- `ACC-20261109-0469` [The news app on the web (/app/) in brand v2.0: one block of tokens](https://promptugal.news/board/spec-the-app-on-the-web.md) (`WRK.PLAN spec-the-app-on-the-web`)
-- `ACC-20261109-0468` [2026-11-09T1636Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-09T1636Z-then-and-now.jpg) (`WRK.BRIEF 2026-11-09T1636Z-then-and-now`)
+- `ACC-20261110-0099` [Silvio's news scout desk](https://promptugal.news/desks/jornal-silvio/README.md) (`WRK.DESK jornal-silvio`)
+- `ACC-20261110-0098` [GAMMA-Ray  -  Model Name & Concept Specification](https://promptugal.news/board/briefs/gamma-ray/gamma-ray-concept-spec.md) (`WRK.BRIEF gamma-ray-concept-spec`)
+- `ACC-20261110-0097` [Agentic AI Maturity Mapping  -  Standards Selection & Graph Model Design](https://promptugal.news/board/briefs/gamma-ray/agentic-maturity-standards-selection.md) (`WRK.BRIEF agentic-maturity-standards-selection`)
+- `ACC-20261110-0096` [GAMMA-Ray: PrompTugal.news's centre of gravity, the agentic maturity of every company we cover](https://promptugal.news/board/briefs/2026-11-09-gamma-ray.md) (`WRK.BRIEF 2026-11-09-gamma-ray`)
+- `ACC-20261110-0019` [Dinis, 10 November 2026, about 02:40 UTC: THE RESTART, accelerate every team on one theme (agentic, GAMMA-Ray, interviews, the app on the web, RiskMandate…](https://promptugal.news/board/guidance/2026-11-10-the-restart.md) (`GDN.MEMO 2026-11-10-the-restart`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
