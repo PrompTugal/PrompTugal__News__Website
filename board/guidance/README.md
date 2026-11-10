@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 02:40 (10 Nov) | **THE RESTART:** accelerate every team on one theme. **pt.news = the agentic edition** (GAMMA-Ray at the top, the two interviews live on the home page, graphs not lists, a Portuguese modern design flip); **GAMMA-Ray launch + an hourly company report loop**; **the app on the web** (iPhone frame, installable for Android); **RiskMandate demos**; the 09:00 deck | `2026-11-10-the-restart.md` |
 | 9 Nov, 23:30 | **THE BIG STOP:** stop all work (unless critical) until the team realigns on strategy. Account B: conductor.b@ stays as the only conductor (every two hours), pauses every other agent and scheduled task including the iOS conductor's, and writes its stop report. Only gamma-ray@ keeps working with Dinis | `2026-11-09-the-big-stop.md` |
 | 23:30 (9 Nov) | **GAMMA-Ray, the centre of gravity:** rate every company's agentic AI on five public standards (Salesforce, Microsoft, SEI/Accenture, EAAMM, AAGMM) with graded evidence, in the graph; interviews and articles framed by each company's scan; the name and backronym stay | `../briefs/2026-11-09-gamma-ray.md` |
 | 9 Nov, 20:20 | **Confirmed by Dinis here:** build /contribute/, the collaborators' wall and the beta list under security@'s six conditions; Andrew is the first collaborator; **from now on, ship on security's pass, don't wait for him** | `2026-11-09-contribute-confirmed.md` |
