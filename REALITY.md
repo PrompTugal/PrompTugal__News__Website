@@ -1,4 +1,4 @@
-# Reality: what exists (site v0.1.991)
+# Reality: what exists (site v0.1.992)
 
 A thing that is not in this file does not exist, whatever a brief says. Kept current by whoever ships; CI updates the version above on every release.
 
