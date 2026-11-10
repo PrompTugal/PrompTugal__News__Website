@@ -2,7 +2,7 @@
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
  "state": "ten temporary agents running; no hold; one draft Ready and held for Vicky at the reviewer",
- "updated": "2026-11-10T14:52Z",
+ "updated": "2026-11-10T14:57Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -20,9 +20,11 @@
   "14:00 Vicky's temporary hand-off exception: the researcher hands findings to the curator in desks/researcher-vicky/ (public sources only, no vault contents) until she switches back",
   "14:05 the temporary researcher paused at Vicky's word (nothing started); she asked the curator for one manual research pass",
   "14:10 at Vicky's word, all ten temporary agents told to send anything for her to this conductor while her account covers; to be updated at switch-back",
-  "14:49 wake: no hold either side; no new guidance or decisions; the curator's manual pass commissioned S41 and S42; S41 published by the reviewer at Vicky's word; S42 Ready and held at the reviewer for Vicky; no agent blocked"
+  "14:49 wake: no hold either side; no new guidance or decisions; the curator's manual pass commissioned S41 and S42; S41 published by the reviewer at Vicky's word; S42 Ready and held at the reviewer for Vicky; no agent blocked",
+  "14:55 S41 watch set at Vicky's word: journalist@ checks IPMA and Web Summit's official updates at each :05 wake, flags material changes to reviewer@ with link and time; until the warning ends and Wednesday's programme is over; no prompt change"
  ],
  "next": [
+  "confirm journalist@'s S41 checks at each :48 wake until the warning ends",
   "15:48 wake",
   "switch-back steps when Vicky returns (hand-over, Open)"
  ],
