@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-ws-event-update",
+  "type": "evidence",
+  "source_url": "https://websummit.com/blog/",
+  "beat": "The summit",
+  "group": "storm",
+  "names": [
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-10-2050.json",
+  "run": "2026-11-10-2050 (public source for Day 2 now exists)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-2050.json"
+    ]
+  }
+}
