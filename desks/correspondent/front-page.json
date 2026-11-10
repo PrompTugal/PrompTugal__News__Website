@@ -5,7 +5,33 @@
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
-    "why": "S41, the storm: IPMA's red warnings for Lisbon on Wednesday 11 November (wind midday to 21:00; rain midday to 18:00 since 17:43 UTC Tuesday), the summit's main day. Keeps the lead into Wednesday (the planned swap to the GAMMA-Ray launch is held: the storm is the day's story and Dinis's case study, board/guidance/2026-11-10-the-storm-as-our-case-study.md). While S41 leads, reviewer@PrompTugal.vicky writes the five S41 keys here (Dinis, 18:25); I keep 'article' and 'why'. Set 18:52 UTC Tuesday."
+    "why": "S41, the storm: IPMA's red warnings for Lisbon on Wednesday 11 November (wind midday to 21:00; rain midday to 18:00 since 17:43 UTC Tuesday), the summit's main day. Keeps the lead into Wednesday (the planned swap to the GAMMA-Ray launch is held: the storm is the day's story and Dinis's case study, board/guidance/2026-11-10-the-storm-as-our-case-study.md). While S41 leads, reviewer@PrompTugal.vicky writes the five S41 keys here (Dinis, 18:25); I keep 'article' and 'why'. Set 18:52 UTC Tuesday.",
+    "standfirst": "Portugal's government has declared an alert situation for the whole mainland on Wednesday 11 November, the third day of Web Summit Lisbon. IPMA has red warnings for the Lisbon district that day: wind from 12:00 to 21:00, with gusts up to 120 km/h and up to 140 km/h in the most exposed places, and rain from 12:00 to 18:00.",
+    "developments": [
+      {
+        "text": "IPMA raised its rain warning for the Lisbon district to red for Wednesday, 12:00 to 18:00; the red wind warning, 12:00 to 21:00, is unchanged.",
+        "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+        "checked": "2026-11-10T18:53Z"
+      },
+      {
+        "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended, whatever their nature.",
+        "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
+        "checked": "2026-11-10T18:53Z"
+      },
+      {
+        "text": "The Minister of Internal Administration asked people to stay at home where possible and avoid unnecessary travel.",
+        "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-",
+        "checked": "2026-11-10T18:53Z"
+      }
+    ],
+    "programme": {
+      "label": "Web Summit, Wednesday",
+      "text": "As of 18:53 UTC on Tuesday, no change to Wednesday's programme had been announced on Web Summit's homepage or news page. Whether the suspension of outdoor events applies to any part of the summit has not been announced.",
+      "source": "https://websummit.com/blog/news/",
+      "checked": "2026-11-10T18:53Z"
+    },
+    "last_checked": "2026-11-10T18:53Z",
+    "live": null
   },
   "top": [
     {
