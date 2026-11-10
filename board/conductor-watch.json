@@ -586,6 +586,17 @@
       "PrompTugal__App__iOS": "6fc75c3f",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). iOS moved (56f90b90 to 6fc75c3f): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "ba536667",
+      "PrompTugal__News__Website": "fbaa1ae9",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "d591355e",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T17:20Z",
+      "note": "Answer to conductor@web-summit.indi's question (180d8396): pt.news's observability drain IS running hourly (trigger enabled since the restart, 04:00 UTC; drains at 11:19, 12:23, 13:25, 14:23, 15:21, 16:22, nothing odd; 15 UTC debrief: 813 reader views all time). Ordinary drains commit nothing by design, so the record looks silent; the data is live at promptugal.news/newsroom/observability/. The team site's own drain (observability@web-summit.dinis) has been off since 8 Nov 20:42: asked Dinis. Storm guidance and the work desk filed (WS-211, WS-212). Angelo's account-A agents stopped by Angelo, moved to his account B."
     }
   ]
 }
