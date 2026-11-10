@@ -1,0 +1,47 @@
+{
+ "number": 8,
+ "date": "2026-11-10",
+ "kicker": "pt.news · the conductor brief · the Tuesday 18:00 stand-up, summit day 1",
+ "title": "Tuesday evening: The Front Page is the default; dev still waits for one word",
+ "when": "Tuesday 10 November 2026, 16:40 UTC (for the 18:00 London stand-up)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "Since the 12:00 brief: 50 releases (v0.1.983 to v0.1.1033), and the site passed its 1,000th. At Dinis's word The Front Page (design E) is now the home page's default; carrying it through every page and into the iOS app is with designer@, dev@ and Indi's team. Vicky's ten agents moved to her own account with new keys, and her desk published S41 (Lisbon's red wind warning) and S42 (Lovable). dev@ and dev.pages@ have been off for eleven hours: conductor.b@ restarts them only on Dinis's word in its own session on account B.",
+ "stats": [
+  {"n": "50", "label": "releases since 12:00 (v0.1.983 to v0.1.1033)"},
+  {"n": "55", "label": "articles published and signed"},
+  {"n": "E", "label": "The Front Page: the home page's default since 15:45"},
+  {"n": "11 h", "label": "dev@ and dev.pages@ off, waiting for Dinis on account B"}
+ ],
+ "for_you": [
+  {"group": "The one thing"},
+  {"id": "1", "ask": "In conductor.b@'s session (account B): \"go: restart dev@ and dev.pages@\"", "detail": "It blocks The Front Page across the site, the GAMMA-Ray cards, the app frame and the graph companies page. Or tell me to start a dev session on account A."},
+  {"group": "Also yours"},
+  {"id": "2", "ask": "The press pass, the OpenRouter keys, sherpa@'s token, the euro link", "detail": "Unchanged."}
+ ],
+ "you_asked": [
+  {"at": "14:35", "said": "The Front Page as the default design and theme, the entire site and the iOS app", "done": "home default switched to E (live 15:50); site-wide spec with designer@; iOS relayed to Indi's team", "where": "board/guidance/2026-11-10-the-front-page-default.md", "status": "running"},
+  {"at": "08:45", "said": "go: restart dev@ and dev.pages@", "done": "relayed; refused on account B without your word there", "where": "board/guidance/2026-11-10-go-and-confirmed.md", "status": "blocked"}
+ ],
+ "team": [
+  {"id": "conductor@ (A)", "status": "old", "doing": "the briefs; the home default switched at your word"},
+  {"id": "security@ (A)", "status": "old", "doing": "49 commits clean at 16:05"},
+  {"id": "designer@, sherpa@ (B)", "status": "old", "doing": "the redesign round 4; E across the site next"},
+  {"id": "ontologist@ (B)", "status": "old", "doing": "products and related companies in the graph"},
+  {"id": "Vicky's desk (her account)", "status": "new", "doing": "S41 and S42 published; new keys"},
+  {"id": "dev@, dev.pages@ (B)", "status": "old", "doing": "off since THE BIG STOP"}
+ ],
+ "sections": [
+  {"title": "Since 12:00", "items": [
+   "12:30: v0.1.1000; Vicky's agents on her account, inboxes issued for their new keys",
+   "13:20: the offline files reverted and restored by Vicky's dev@, no net change (security@)",
+   "14:30 to 15:30: S41 and S42 published; the red wind warning leads the front",
+   "15:50: The Front Page live as the default"
+  ]}
+ ],
+ "images": [
+  {"path": "board/editor-briefs/img/2026-11-10T1636Z-today-vs-front-page.jpg", "caption": "On a phone: the old default (left) and The Front Page, now the default (right)"},
+  {"path": "board/editor-briefs/img/2026-11-10T1636Z-then-and-now.jpg", "caption": "The site, then and now (v0.1.1033)"}
+ ],
+ "next": ["Wednesday 11 November: summit day 2, a red wind warning for Lisbon from midday", "The 12:00 stand-up brief at 10:36 UTC"],
+ "sources": ["board/WS-177-plan.md", "board/guidance/2026-11-10-*.md", "git log of dev since 10:36 UTC"]
+}
