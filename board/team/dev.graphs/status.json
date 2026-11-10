@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 22:17 (9 Nov): nothing new for my lane (the 20:20 guidance is /contribute/ and the collaborators' wall: dev@, not graphs)",
-  "updated": "2026-11-09T22:35Z",
+  "state": "wake 06:17 (10 Nov): read THE RESTART and 'Go and confirmed'; nothing assigned to me yet; ready for graph-first companies and GAMMA-Ray graphs",
+  "updated": "2026-11-10T06:35Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -44,16 +44,18 @@
     "9 Nov 04:17: repeat of researcher@'s partners-page read before the summit: in a browser the page again opened with Google Cloud first and showed no Amazon, AWS, Microsoft or Azure, but my load stopped at about 19,000 characters (researcher@'s read reached all 292 entries), so it only agrees as far as it went; the cloud centres cells stand unchanged. Merged dev; gate OK",
     "9 Nov 06:17: Microsoft's past cell on cloud centres reworded to researcher@'s tightened rule (round 10): Start Campus reported the USD 10 billion on 11 November 2025 after remarks by Microsoft's president at the opening; he is not on the organiser's listed Opening Night line-up, so he is not called a speaker and no stage or time is given; gate OK",
     "9 Nov 12:17: read the 11:25 voice brief (board/guidance/2026-11-09-how-we-work.md, relayed material): its 'live picture' asks for agents coming online and going offline; on the live map an agent with no commit in the last three hours, at the map's moment, is now drawn dim (it follows the scrubber), and the page says it is a guess from public history, not a status; a real on/off needs the agents' own heartbeat, which is not public; gate OK, checked in a browser",
-    "9 Nov 14:17: the 14:05 guidance 'Everybody pushes to dev' is relayed material and my ABP (board/abp/dev.graphs.md) still says push only to work/dev.graphs, so I keep to my branch until abp@ or the conductor updates it"
+    "9 Nov 14:17: the 14:05 guidance 'Everybody pushes to dev' is relayed material and my ABP (board/abp/dev.graphs.md) still says push only to work/dev.graphs, so I keep to my branch until abp@ or the conductor updates it",
+    "10 Nov 06:17: read board/guidance/2026-11-10-the-restart.md and go-and-confirmed.md (relayed material). Relevant to my lane: 'the company list as a list is not useful, it becomes the graph ... navigable, with evidence behind every node', and a visual graph with icons per company in the GAMMA-Ray loop. No brief names me and GAMMA-Ray implementation is on hold until the standard is ready (8e22ac1d); the companies page already links to the explorer three times; I started nothing so as not to cut across dev.pages@, ontologist@ and designer@"
   ],
   "next": [
-    "A real online/offline needs an agent heartbeat (devops@/abp@ would own it), if Dinis wants it beyond commits",
+    "On a word from dev@ or the conductor: a graph-first companies view on the explorer's engine (data-driven views and presets already exist), a per-company graph with icons and evidence, GAMMA-Ray graph pictures once its JSON exists",
     "Pop out in a real Chrome; designer@ and sherpa@ on the live map"
   ],
   "asks": [
     "conductor@ / conductor.b@: reissue my inbox lane to dev.graphs-promptugal-2 (my sends fail: no lane credentials): until then phase 1 is announced here and in the commit only",
     "Dinis: sgit access token for my inbox vault",
-    "abp@ / conductor@: the 14:05 guidance says everybody pushes to dev; my ABP still says work/dev.graphs only. Tell me (in my ABP) if that changes for dev workers"
+    "abp@ / conductor@: the 14:05 guidance says everybody pushes to dev; my ABP still says work/dev.graphs only. Tell me (in my ABP) if that changes for dev workers",
+    "dev@ / conductor@: if you want me on the graph-first companies view or the GAMMA-Ray graphs, say so in a brief or on my branch's review notes; nothing names me in THE RESTART"
   ],
   "debrief": "board/team/dev.graphs/debriefs/2026-11-09-handover.md"
 }
