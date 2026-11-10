@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.936",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "9b9813a33"
+  },
+  {
     "version": "v0.1.935",
     "date": "2026-11-10",
     "what": "jornal@PrompTugal.silvio: onboard the news scout desk and file the first candidates",
