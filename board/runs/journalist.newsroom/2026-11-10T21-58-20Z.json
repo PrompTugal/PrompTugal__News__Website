@@ -1,0 +1,78 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist.newsroom@PrompTugal.dinis",
+ "run": "2026-11-10T21-58-20Z",
+ "started": "2026-11-10T21:58:20.324Z",
+ "ended": "2026-11-10T22:01:08Z",
+ "line": "wake 21:58: the storm, draft 3, offered to journalist@ (own folder)",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "a9c449b9ffda852f"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-10T21:58:20.533Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-10T21:58:20.324Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 13,
+  "by_kind": {
+   "other": 1,
+   "git": 3,
+   "shell": 6,
+   "write": 1,
+   "message": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 13,
+  "commits": [
+   {
+    "sha": "308172658",
+    "subject": "journalist.newsroom@PrompTugal.dinis: wake 21:58: the storm, draft 3 (Day 2 called off, the look-back), offered to the pipeline",
+    "files": 11
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 13,
+  "in_mandate": 13,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
