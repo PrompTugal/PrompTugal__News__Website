@@ -2,7 +2,7 @@
   "$schema": "../../schemas/evidence.schema.json",
   "id": "x-ws-event-update",
   "type": "evidence",
-  "source_url": "https://websummit.com/blog/",
+  "source_url": "https://websummit.com/blog/web-summit/important-event-update-2026/",
   "beat": "The summit",
   "group": "storm",
   "names": [

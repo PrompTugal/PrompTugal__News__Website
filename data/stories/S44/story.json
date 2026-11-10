@@ -2,7 +2,7 @@
   "$schema": "../../schemas/story.schema.json",
   "id": "S44",
   "type": "story",
-  "title": "Update: Wednesday's Web Summit events will not take place",
+  "title": "Update: Web Summit's Wednesday will not take place; it aims to hold Thursday",
   "beat": "The summit",
   "topic": null,
   "status": "review",
