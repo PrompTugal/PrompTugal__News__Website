@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1022",
+    "date": "2026-11-10",
+    "what": "api/v1/live/videos.json, the interview videos for the apps",
+    "by": "conductor-newsapp@web-summit.indi",
+    "from": "e2265e690"
+  },
+  {
     "version": "v0.1.1021",
     "date": "2026-11-10",
     "what": "conductor.b@PrompTugal.dinis: 14:48 wake: redesign round 4; dev@ and dev.pages@ wait for Dinis here",
