@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.985",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: stand-up brief 7 (Tuesday 12:00); wake 10:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "9fba533dc"
+  },
+  {
     "version": "v0.1.984",
     "date": "2026-11-10",
     "what": "designer@PrompTugal.dinis: the design flip decided: B, round 3, with GAMMA-Ray's real cards and sherpa@'s four conditions; the home page spec for dev.pages@",
