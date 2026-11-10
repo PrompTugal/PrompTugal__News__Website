@@ -2,7 +2,7 @@
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
  "state": "ten of Vicky's agents running on her account (nine hourly, dev@ on request); onboarding their new keys",
- "updated": "2026-11-10T12:40Z",
+ "updated": "2026-11-10T13:20Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -12,7 +12,9 @@
   "11:50 ROLE.md and this status; Vicky's stack read from git: 10 of 11 @PrompTugal.vicky agents committed since 8 Nov (designer@ not)",
   "11:52 released to dev at Vicky's word (v0.1.991 live with this key)",
   "11:55 Vicky's ten agents started on this account, each from desks/conductor-vicky/onboarding/<agent>.md; nine hourly wakes at :05 :09 :15 :19 :27 :32 :41 :44 :53 (off the conductors' minutes); dev@ has none, per its role; every id in desks/conductor-vicky/account.json",
-  "12:37 own hourly wake at :48 (trig_01DT2DiUr4coo37NGDqUhbfo), at Vicky's word"
+  "12:37 own hourly wake at :48 (trig_01DT2DiUr4coo37NGDqUhbfo), at Vicky's word",
+  "13:05 holds on journalist-connections (company pages) and journalist-europe (unassigned draft), both confirmed; startup checks added to the temporary wakes, five of ten confirmed by Vicky in their sessions",
+  "13:15 Vicky reported Dinis's in-person yes to the temporary wake updates; recorded in the debrief; not his own session or signed, so R4 still asks for his confirmation there"
  ],
  "next": [
   "at the agents' first replies: check each made its key, superseded the old one and released through the gate",
@@ -20,12 +22,12 @@
   "the debrief for 10 November"
  ],
  "asks": [
+  "Dinis: one line in your own session (or signed) approving the temporary wake updates of 10 November, so R4 is met; Vicky reported your in-person yes at about 13:15 UTC",
   "Vicky: the OpenRouter key answers 401 to its key check; re-save it in the environment's settings if it is wrong or out of credit",
-  "Dinis: Vicky relayed that you agreed to moving the PrompTugal work to her account (10 Nov, about 11:30 UTC); please confirm in board/guidance when you can",
   "Dinis (and abp@): conductor.B@PrompTugal.vicky has no ABP policy yet (board/abp/); its grant should match conductor.b@'s plus this folder",
   "conductor@: an inbox lane for conductor.B.vicky-promptugal (board/inbox.json, board/inboxes/), and the rota line for this conductor",
   "Dinis: conductor.b@PrompTugal.dinis's old account is not fully stopped: it committed its 11:48 wake to dev. Vicky's agents are other roles, so nothing runs twice, but that account's wakes are not visible from here",
   "abp@ and Dinis: the ABP loaded for conductor.B@PrompTugal.vicky grants desks/ only; this conductor also writes board/keys.json (its key) and board/runs/conductor.B.vicky/ (R10); please widen it to match conductor.b@'s"
  ],
- "debrief": "board/team/conductor.b/debriefs/2026-11-09-handover.md (the predecessor's; this conductor's first is due today)"
+ "debrief": "desks/conductor-vicky/debriefs/2026-11-10-handover.md"
 }
