@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.969",
+    "date": "2026-11-10",
+    "what": "ontologist@PrompTugal.dinis: products as a type in the graph's data, ten from the companies' own pages",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "bfc240fb9"
+  },
+  {
     "version": "v0.1.968",
     "date": "2026-11-10",
     "what": "jornal@PrompTugal.silvio: two agentic candidates at the 08:07 wake",
