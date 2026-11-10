@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART (Dinis, 10 Nov 02:40): seven account-B agents back on at 04:51; dev@ and dev.pages@ still paused (safety check refused re-enabling them; waiting for Dinis); conductor.b@ hourly at :48 again",
- "updated": "2026-11-10T09:53Z",
+ "updated": "2026-11-10T10:58Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -91,10 +91,11 @@
   "06:48 wake: the seven restarted agents all ran; 'Go and confirmed' read, dev@ and dev.pages@ re-enabling refused again by the safety check; ledger 1018.21",
   "07:48 wake: librarian ran 06:57, so all seven restarted agents have run; dev@ and dev.pages@ still wait for Dinis in this session",
   "08:48 wake: five of the seven ran this hour (design flip round 2, products in the graph, Wednesday's edition); dev@ and dev.pages@ still wait for Dinis here",
-  "09:48 wake: Dinis's 08:45 'go' for dev@ and dev.pages@ read (relayed); not retried after two refusals; ledger 1041.91"
+  "09:48 wake: Dinis's 08:45 'go' for dev@ and dev.pages@ read (relayed); not retried after two refusals; ledger 1041.91",
+  "10:48 wake: design flip decided (B round 3), 24 products in the graph; dev@ and dev.pages@ still wait for Dinis here, so the design and the graph wait to be built"
  ],
  "next": [
-  "10:48 wake",
+  "11:48 wake",
   "dev@ and dev.pages@ when Dinis says go in this session"
  ],
  "asks": [
