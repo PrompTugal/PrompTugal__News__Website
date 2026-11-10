@@ -1,0 +1,140 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist.newsroom@PrompTugal.dinis",
+ "run": "2026-11-10T17-32-11Z",
+ "started": "2026-11-10T17:32:11.013Z",
+ "ended": "2026-11-10T17:33:10Z",
+ "line": "gate fix: diagram labels clipped at whole words; release of draft 1",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-10T17:32:31.782Z",
+   "chars": 675,
+   "sha256": "e58877f43661cbd3",
+   "head": "<task-notification>\n<task-id>bf31oa86u</task-id>\n<tool-use-id>toolu_01Qb3Wypnd5TyuBnbSKvdM4b</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/74f14f5a-e253-51dc-9293-9eb99"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 6,
+  "by_kind": {
+   "release": 3,
+   "shell": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": [
+   {
+    "sha": "100d93bef",
+    "subject": "journalist.newsroom@PrompTugal.dinis: trace-to-materials clips diagram labels at whole words (a cut agent name read as mail to the gate)",
+    "files": 2
+   },
+   {
+    "sha": "70f08632b",
+    "subject": "journalist.newsroom@PrompTugal.dinis: run report (the storm, draft 1)",
+    "files": 1
+   },
+   {
+    "sha": "eeebcdc05",
+    "subject": "journalist.newsroom@PrompTugal.dinis: the storm, draft 1 and the visualisers' materials from the first trace",
+    "files": 11
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "100d93bef wrote board/team/work-desk/materials/the-storm/code/trace-to-materials.mjs",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "100d93bef wrote board/team/work-desk/materials/the-storm/the-storm.mmd",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/materials/the-storm/README.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/materials/the-storm/actors.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/materials/the-storm/code/trace-to-materials.mjs",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/materials/the-storm/cost.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/materials/the-storm/flow.mmd",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/materials/the-storm/handoffs.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/materials/the-storm/the-storm.mmd",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/materials/the-storm/timeline.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/materials/the-storm/workflow.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "eeebcdc05 wrote board/team/work-desk/stories/the-storm.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 6,
+  "in_mandate": 6,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 12
+ }
+}
