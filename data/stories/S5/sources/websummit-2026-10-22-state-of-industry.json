@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-2026-10-22-state-of-industry",
+  "story": "S5",
+  "url": "https://websummit.com/blog/news/web-summits-first-state-of-the-industry-survey-finds-tech-torn-on-ai/",
+  "title": "Web Summit's first State of the Industry survey finds tech torn on AI (Web Summit, 22 October 2026)",
+  "publisher": "Web Summit",
+  "published": "2026-10-22",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "Web Summit's post on its first State of the Industry survey of 1,455 people in its community, with the findings on AI, workload and jobs, and the size of the 2026 event."
+}

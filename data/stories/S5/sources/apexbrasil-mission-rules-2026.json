@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "apexbrasil-mission-rules-2026",
+  "story": "S5",
+  "url": "https://click.apexbrasil.com.br/mkt/2026/RegulamentoWSLisboa2026.pdf",
+  "title": "ApexBrasil, Missao ao Web Summit 9 a 13 de novembro de 2026: Regulamento de participacao (PDF)",
+  "publisher": "ApexBrasil",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "ApexBrasil's mission rules for 2026 describe Web Summit 2025: 71,386 people, 869 speakers, 1,857 investors and 2,725 startups (written 2725 in this version)."
+}
