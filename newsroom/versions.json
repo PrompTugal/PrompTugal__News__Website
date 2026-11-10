@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1020",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "b43c38069"
+  },
+  {
     "version": "v0.1.1019",
     "date": "2026-11-10",
     "what": "correspondent@PrompTugal.dinis: wake 14:41: the red wind warning for Wednesday leads",
