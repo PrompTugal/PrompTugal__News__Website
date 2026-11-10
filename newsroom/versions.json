@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1065",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 19:48 wake: dev@ and dev.pages@ ran: the Front Page's masthead on every page",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "1bb4c1208"
+  },
+  {
     "version": "v0.1.1064",
     "date": "2026-11-10",
     "what": "conductor@PrompTugal.dinis: run report, wake 19:36",
