@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1042",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 17:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "97b8e09a3"
+  },
+  {
     "version": "v0.1.1041",
     "date": "2026-11-10",
     "what": "watch 17:20: pt.news's observability drain is running hourly (answer to Indi's conductor)",
