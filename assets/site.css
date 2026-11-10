@@ -986,3 +986,9 @@ main .body pre, .agent-block pre { white-space: pre-wrap; }
 .fold.is-fold > :first-child { cursor: pointer; display: flex; justify-content: space-between; align-items: center; min-height: 40px; border-top: 1px solid var(--hair); }
 .fold.is-fold > :first-child::after { content: "+"; font: 500 18px/1 var(--mono); color: var(--ink-3); }
 .fold.is-fold.is-open > :first-child::after { content: "\2212"; }
+
+/* The app's TestFlight link, first on every page (conductor@web-summit.indi, at Indi's word, 10 November 2026) */
+.getapp { margin: 0; background: var(--brand); text-align: center; font: 500 14px/1.35 var(--sans); }
+.getapp a { display: block; padding: 10px 16px; color: var(--on-brand, #fff); text-decoration: none; }
+.getapp a:hover, .getapp a:focus-visible { text-decoration: underline; }
+.getapp b { font-weight: 700; }
