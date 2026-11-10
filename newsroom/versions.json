@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1026",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: snapshot index for the 15:38 wake",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "2bf917a26"
+  },
+  {
     "version": "v0.1.1025",
     "date": "2026-11-10",
     "what": "sherpa@PrompTugal.dinis: 15:29 wake: the flip round 4 on a phone (the best for the reader); offline mode survives the revert",
