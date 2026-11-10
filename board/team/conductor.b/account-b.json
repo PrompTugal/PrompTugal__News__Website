@@ -14,8 +14,8 @@
    "cron": "56 */3 * * *",
    "started": "2026-11-06T22:23Z",
    "first_prompt": "board/team/conductor/account-move/librarian.md",
-   "state": "stopped",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
+   "state": "on",
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "journalist@PrompTugal.dinis",
@@ -26,7 +26,7 @@
    "started": "2026-11-06T22:44Z",
    "first_prompt": "board/team/conductor/account-move/journalist.md",
    "state": "stopped",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
+   "note": "kept paused at the restart (journalist: another session runs the role; dev.verify: no OpenRouter credit; dev.portugal: nothing new)"
   },
   {
    "agent": "correspondent@PrompTugal.dinis",
@@ -36,8 +36,8 @@
    "cron": "41 */2 * * *",
    "started": "2026-11-06T22:44Z",
    "first_prompt": "board/team/conductor/account-move/correspondent.md",
-   "state": "stopped",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
+   "state": "on",
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "synthetic@PrompTugal.dinis",
@@ -58,8 +58,8 @@
    "cron": "33 */2 * * *",
    "started": "2026-11-06T22:44Z",
    "first_prompt": "board/team/conductor/account-move/designer.md",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
-   "state": "stopped"
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)",
+   "state": "on"
   },
   {
    "agent": "designer.experiments@PrompTugal.dinis",
@@ -80,8 +80,8 @@
    "cron": "21 */2 * * *",
    "started": "2026-11-06T22:45Z",
    "first_prompt": "board/team/conductor.b/account-move/ontologist.md",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
-   "state": "stopped"
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)",
+   "state": "on"
   },
   {
    "agent": "devops@PrompTugal.dinis",
@@ -113,8 +113,8 @@
    "cron": "29 */3 * * *",
    "started": "2026-11-06T22:45Z",
    "first_prompt": "board/team/conductor.b/account-move/sherpa.md",
-   "state": "stopped",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
+   "state": "on",
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "investors@PrompTugal.dinis",
@@ -176,7 +176,7 @@
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.md",
    "state": "stopped",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
+   "note": "still paused: re-enabling refused by the session's safety check at 04:51 UTC 10 Nov; waits for Dinis's word in conductor.b@'s session"
   },
   {
    "agent": "dev.pages@PrompTugal.dinis",
@@ -186,7 +186,7 @@
    "cron": "11 * * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.pages.md",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
+   "note": "still paused: re-enabling refused by the session's safety check at 04:51 UTC 10 Nov; waits for Dinis's word in conductor.b@'s session",
    "state": "stopped"
   },
   {
@@ -208,8 +208,8 @@
    "cron": "17 */2 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.graphs.md",
-   "state": "stopped",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
+   "state": "on",
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "dev.portugal@PrompTugal.dinis",
@@ -219,7 +219,7 @@
    "cron": "23 */4 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.portugal.md",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
+   "note": "kept paused at the restart (journalist: another session runs the role; dev.verify: no OpenRouter credit; dev.portugal: nothing new)",
    "state": "stopped"
   },
   {
@@ -230,8 +230,8 @@
    "cron": "31 */2 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.data.md",
-   "state": "stopped",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)"
+   "state": "on",
+   "note": "back on 04:51 UTC 10 Nov: THE RESTART (board/guidance/2026-11-10-the-restart.md)"
   },
   {
    "agent": "dev.verify@PrompTugal.dinis",
@@ -241,7 +241,7 @@
    "cron": "48 */4 * * *",
    "started": "2026-11-06T23:09Z",
    "first_prompt": "board/team/conductor/account-move/dev.verify.md",
-   "note": "paused 23:49 UTC 9 Nov: THE BIG STOP (board/guidance/2026-11-09-the-big-stop.md)",
+   "note": "kept paused at the restart (journalist: another session runs the role; dev.verify: no OpenRouter credit; dev.portugal: nothing new)",
    "state": "stopped"
   },
   {

@@ -120,6 +120,16 @@
    "PrompTugal__App__iOS": "3dcc0b13",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "THE BIG STOP holds on account B: only conductor.b@'s wake enabled; every account-B session idle. journalist@PrompTugal.dinis committed at 02:33 (a vault video experiment) but NOT from account B's journalist session (idle since 22:34): another session runs under that name, outside account B (any person may override the stop; Dinis to confirm who). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T04:55Z",
+   "SGit-AI__Website__Web-Summit": "843af9c7",
+   "PrompTugal__News__Website": "d5aede6d",
+   "PrompTugal__App__Android": "521dd2cb",
+   "PrompTugal__App__iOS": "b7d17d14",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "THE RESTART (Dinis 02:40, relayed 03:58, For: conductor.b@) read at 04:49. Account B: designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian back on at 04:51; dev@ and dev.pages@ still paused (re-enabling refused by this session's safety check, waiting for Dinis); journalist@, dev.verify@, dev.portugal@ kept paused. conductor.b@ back to hourly at :48."
   }
  ]
 }
