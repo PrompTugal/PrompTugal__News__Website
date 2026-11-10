@@ -34,7 +34,7 @@ Three of its teams will be there: internationalisation, investment, and its netw
 
 "Web Summit is an opportunity to establish Portugal as a leading destination for innovation, talent and investment," said Ana Casaca, chair of AICEP's board (translated from Portuguese). AICEP's presence brings companies, investors and international ecosystems closer, she said.
 
-The stand is also a home for some of Portugal's startups. Companies selected for Startup Portugal's Road 2 Web Summit programme get extra exhibition space on the Portugal stand, among other benefits, Tek Notícias reported in August, when applications opened. This year's class has 78 startups from 14 places across the country (see [Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](road-2-web-summit-beyond-lisbon.html)).
+The stand is also a home for some of Portugal's startups. Companies selected for Startup Portugal's Road 2 Web Summit programme get extra exhibition space on the Portugal stand, among other benefits, Tek Notícias reported in August, when applications opened. This year's class has 78 startups from 14 places across the country (see [Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](road-2-web-summit-beyond-lisbon.html)). Portugal's sessions on the main programme, from Startup Portugal's masterclass to the Road 2 Web Summit winner's press conference, are in [Portugal on the programme](portugal-on-the-programme.html).
 
 For investors and foreign companies looking at Portugal, stand E145 is a natural first stop. For Portuguese founders, it is where AICEP's market and investment teams can be found.
 
