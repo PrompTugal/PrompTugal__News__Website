@@ -2,30 +2,43 @@
 
 The weather desk's facts list for S41. Every line has its source and the UTC time this desk read it. Lisbon time = UTC in November. Newest first in the timeline. Nothing here is a forecast of our own.
 
-**Last full check: 10 November 2026, 16:52 to 17:01 UTC.**
+**Last full check: 10 November 2026, 17:42 to 17:43 UTC.**
 
-**Headline, 17:01 UTC:** IPMA's red wind warning for Lisbon (Wed 12:00 to 21:00) stands, and the government has declared an alert situation for all of mainland Portugal on Wednesday: schools closed, outdoor events suspended, no access to parks at risk of falling trees or to the waterfront. Web Summit has announced no change to Wednesday's programme.
+**Headline, 17:42 UTC:** IPMA now has **two red warnings** for Lisbon on Wednesday: wind 12:00 to 21:00 and, new at 17:42, **rain 12:00 to 18:00**. The government's alert situation for all of mainland Portugal on Wednesday stands: schools closed, outdoor events suspended, no access to parks at risk of falling trees or to the waterfront. Web Summit has announced no change to Wednesday's programme.
 
 ## Established now
 
 ### The warning (IPMA)
 
-Read from [IPMA's warnings open data](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json) at **16:52 UTC, 10 Nov**:
+Read from [IPMA's warnings open data](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json) at **17:42 UTC, 10 Nov**:
 
 | Lisbon district (LSB) | Level | From | To | IPMA's text (PT) | In English |
 |---|---|---|---|---|---|
 | Wind (Vento) | **red** | Wed 11 Nov 12:00 | Wed 11 Nov 21:00 | "Rajadas até 120 km/h, podendo atingir 140 km/h nos locais mais expostos." | Gusts up to 120 km/h, possibly 140 km/h in the most exposed places. |
-| Rain (Precipitação) | orange | Wed 05:00 | Wed 18:00 | "Precipitação por vezes forte e persistente." | Rain at times heavy and persistent. |
+| Rain (Precipitação) | **red** (new, 17:42) | Wed 12:00 | Wed 18:00 | "Precipitação forte e persistente." | Heavy and persistent rain. |
+| Rain | orange | Wed 05:00 | Wed 12:00 | "Precipitação por vezes forte e persistente." | Rain at times heavy and persistent. |
 | Sea (Agitação Marítima) | orange | Wed 12:00 | Wed 21:00 | "Ondas de sudoeste com 5 a 7 metros e que poderão atingir até 13 metros de altura máxima." | South-west waves of 5 to 7 m, up to 13 m maximum height. |
 | Sea | yellow | Wed 21:00 | Thu 12 Nov 03:00 | "Ondas de sudoeste com 4 a 5 metros." | South-west waves of 4 to 5 m. |
-| Sea | yellow | Tue 10 Nov 12:10 | Wed 06:00 | "Ondas do quadrante oeste com 4 a 5 metros." | Westerly waves of 4 to 5 m. |
-| Rain | yellow | Tue 12:10 | Tue 18:00 | "Precipitação por vezes forte e acompanhada de trovoada." | Rain at times heavy, with thunder. |
+| Sea | yellow | Tue 10 Nov 16:31 | Wed 06:00 | "Ondas do quadrante oeste com 4 a 5 metros." | Westerly waves of 4 to 5 m. |
+| Rain | yellow | Tue 16:31 | Tue 18:00 | "Precipitação por vezes forte e acompanhada de trovoada." | Rain at times heavy, with thunder. |
+
+**Changed at 17:42 against the 16:52 read:** rain raised from orange to **red** for 12:00 to 18:00 on Wednesday (orange now 05:00 to 12:00 only). Handed to reviewer@PrompTugal.vicky at 17:44 UTC.
 
 New since S41's text (S41 lists red wind, orange rain, orange sea and Tuesday's yellows): the **yellow sea warning after the orange one, Wednesday 21:00 to Thursday 03:00**. Not a change to Wednesday's red.
 
-**Red wind is not Lisbon's alone.** In the same read, IPMA has red wind warnings for eight mainland districts on Wednesday: Beja, Faro and Setúbal from 09:00 to 21:00; Évora, Leiria, Lisboa, Portalegre and Santarém from 12:00 to 21:00. Also red for Madeira's mountain areas (wind 00:00 to 06:00 Wednesday; rain from Tuesday 21:00), and orange wind for Castelo Branco, Coimbra and Guarda (12:00 to 21:00).
+**Red wind is not Lisbon's alone.** In the 16:52 read (the same districts at 17:42), IPMA has red wind warnings for eight mainland districts on Wednesday: Beja, Faro and Setúbal from 09:00 to 21:00; Évora, Leiria, Lisboa, Portalegre and Santarém from 12:00 to 21:00. Also red for Madeira's mountain areas (wind 00:00 to 06:00 Wednesday; rain from Tuesday 21:00), and orange wind for Castelo Branco, Coimbra and Guarda (12:00 to 21:00).
 
 ### The storm (IPMA)
+
+[IPMA communiqué no. 2, "Depressão CHARLES"](https://www.ipma.pt/pt/otempo/comunicados/), edited **10 Nov 17:07:58**, valid to 11 Nov 23:59, read **17:42 UTC**:
+
+- Worse weather on the mainland "a partir do início da manhã do dia 11" (from early morning on Wednesday; communiqué no. 1 said late morning).
+- The centre most likely to pass "entre Sines e o Cabo Carvoeiro"; on its southern edge gusts "da ordem dos 100 a 120 km/h, podendo ser localmente até 140 km/h" (100 to 120 km/h, locally up to 140 km/h).
+- Rain "por vezes forte na generalidade do território, com acumulados que poderão ser superiores a 100 mm em 24h em alguns locais" (at times heavy almost everywhere, more than 100 mm in 24 hours in some places).
+- South-west waves of 5 to 7 m south of Cabo Raso on Wednesday afternoon, up to 13 m, easing to 4 to 5 m in the early evening.
+- "Foram emitidos avisos meteorológicos de nível VERMELHO e LARANJA", with further upgrades in some regions not ruled out; the track and strength remain highly uncertain ("elevada incerteza").
+
+Communiqué no. 1, below, is kept for the record.
 
 [IPMA communiqué no. 1, "Depressão CHARLES"](https://www.ipma.pt/pt/otempo/comunicados/), issued 9 Nov 2026 13:17, valid to 11 Nov 23:59, read **16:53 UTC, 10 Nov** (the [RSS feed](https://www.ipma.pt/resources.www/rss/comunicados.xml), built 16:38, lists no later communiqué):
 
@@ -78,7 +91,7 @@ New since S41's text (S41 lists red wind, orange rain, orange sea and Tuesday's 
 - **MEO Arena** ([arena.meo.pt](https://arena.meo.pt)) and **FIL** ([fil.pt](https://www.fil.pt)), read 16:55 UTC: no notice.
 - **Port of Lisbon** ([portodelisboa.pt](https://www.portodelisboa.pt)), **NAV Portugal** ([nav.pt](https://www.nav.pt)), **Gira** bikes: read 16:53 to 16:55 UTC, no notice.
 
-### NOT yet announced (as of 17:01 UTC, on the sources above)
+### NOT yet announced (as of 17:43 UTC, on the sources above)
 
 - Any change to Web Summit's Wednesday programme.
 - Any suspension of Metro, Carris, Fertagus or the ferries for Wednesday, or a Tagus bar closure.
@@ -88,6 +101,8 @@ New since S41's text (S41 lists red wind, orange rain, orange sea and Tuesday's 
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 10 Nov 17:42 (hourly check): IPMA raises Lisbon's rain warning to **red** for Wed 12:00 to 18:00; wind red unchanged. Communiqué no. 2 read. Government's declaration unchanged (17:43). Web Summit: no notice (17:43). Transport: no suspension (17:42). Reviewer told 17:44.
+- 10 Nov 17:07: IPMA communiqué no. 2 on CHARLES: worse weather from early Wednesday morning, red and orange warnings issued.
 - 10 Nov 17:01: this desk reads the government's declaration and ANEPC's SMS note at source; hand-off to reviewer@PrompTugal.vicky.
 - 10 Nov 16:53 to 16:59: transport and venue sources read: Fertagus and Carris warn of possible disruption on Wednesday, none suspends; Web Summit, MEO Arena and FIL: no notice.
 - 10 Nov (time not stated): ANEPC raises the special readiness state and sends an SMS warning about Wednesday.
