@@ -1,11 +1,11 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-10T19:30Z",
+  "updated": "2026-11-10T18:50Z",
   "sweeps": [
     {
       "n": 1,
-      "at": "2026-11-10T18:50Z",
+      "at": "2026-11-10T18:45Z",
       "families": [
         "news and blogs",
         "X, Bluesky, Mastodon, Threads",
@@ -44,7 +44,7 @@
       "verified": true,
       "note": "Storm Charles, red wind warning. Moedas says event likely cannot run Wednesday 11 Nov, final call with the Interior Ministry (MAI). Web Summit says it is assessing with ANEPC. Text says 'quarta-feira, 10 de novembro' in places: typo, means 11 Nov.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -71,7 +71,7 @@
       "verified": true,
       "note": "Live blog, updated 18:25. Government recommends suspending Wed 11 Nov; PM says organisers decide. Water entered one pavilion on Tuesday; many participants left early. National alert 00:00-23:59 Wed; red wind warning in 8 districts incl. Lisboa; airports restricted; sting jet not ruled out; about 4,000 E-Redes customers without power at 16:30.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -96,7 +96,7 @@
       "verified": true,
       "note": "Entry 17:49: government recommends the organisers suspend activities on Wednesday due to storm Charles; PM: the decision is theirs. Page last update seen 18:42.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -118,7 +118,7 @@
       "verified": true,
       "note": "IPMA red wind warning Lisbon 12:00-21:00 Wed 11 Nov (gusts 120 km/h, up to 140), Setúbal 09:00-21:00; orange rain from 05:00; orange sea 5-7 m; sting jet not excluded; road tunnels closed from 00:00; Rede Expressos suspended 10:00-midnight. Interior minister said no change planned to the event at that time of writing.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -140,7 +140,7 @@
       "verified": true,
       "note": "IPMA red wind warning Lisbon 12:00-21:00 Wed; IPMA meteorologist Bruno Café says worsening may start earlier, in the morning. Time shown as 'Hoje 08:46', date inferred from URL 20261110.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -162,7 +162,7 @@
       "verified": true,
       "note": "Red alert for 8 districts on Wed 11 Nov; schools and essential-only public services; parks, forests, gardens closed. No Web Summit mention seen.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -186,7 +186,7 @@
       "verified": true,
       "note": "City closes all road tunnels from 00:00 Wed, monuments and parks closed, riverside areas restricted; Moedas says event may be affected, decision with MAI.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -208,7 +208,7 @@
       "verified": false,
       "note": "Seen in search results only; page returned no content when fetched, so unverified.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -234,7 +234,7 @@
       "verified": true,
       "note": "MEO systems intercepted 6,020,686 attacks as of Tuesday 15:18, slightly fewer than last year. Summary page on aggregator; original on eco.sapo.pt.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -263,7 +263,7 @@
       "verified": true,
       "note": null,
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -291,7 +291,7 @@
       "verified": true,
       "note": "Aggregator summary; original on eco.sapo.pt.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -319,7 +319,7 @@
       "verified": true,
       "note": "Matias: five commitments for public administration, an 'agentic state'. Cosgrave cites Revolut moving to a Chinese open-source model.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -344,7 +344,7 @@
       "verified": true,
       "note": "Aggregator summary; original on observador.pt.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -367,7 +367,7 @@
       "verified": true,
       "note": "Day 2 running as scheduled at time of writing (aggregator showed 14:31). Photo credit Lusa not reproduced.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -395,7 +395,7 @@
       "verified": true,
       "note": "Aggregator summary; original on dinheirovivo.dn.pt.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -420,7 +420,7 @@
       "verified": true,
       "note": null,
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -443,7 +443,7 @@
       "verified": true,
       "note": "Porto Digital, ACATE, SENAI CIMATEC, Instituto Caldeira; supported by ApexBrasil, Sebrae.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -477,7 +477,7 @@
       "verified": true,
       "note": "Preview piece; also names Tencent, Xiaomi, Pony.ai, XPENG, AgiBot.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -502,7 +502,7 @@
       "verified": true,
       "note": "Background: Lisbon council EUR 8m toward the bid to keep the summit; older than the sweep window.",
       "family": "news and blogs",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -524,7 +524,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API; user speculation, not an official announcement",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -546,7 +546,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API; mentions a high-alert storm warning",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -568,7 +568,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API; rain complaint, likely about city infrastructure",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -590,7 +590,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API; refers to storm 'Bruna' (named storm) as a joke; original at bsky.app/profile/serialpeter.bsky.social/post/3mzvxuxiz4k2z",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -619,7 +619,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -640,7 +640,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -662,7 +662,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -683,7 +683,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API; link to Observador article, Web Summit connection per hashtag/timeline only",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -708,7 +708,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -730,7 +730,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -753,7 +753,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -775,7 +775,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API; critical political comment",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -796,7 +796,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API; humorous",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -817,7 +817,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -841,7 +841,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -866,7 +866,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -892,7 +892,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -918,7 +918,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -940,7 +940,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -961,7 +961,7 @@
       "verified": true,
       "note": "Opened via the public Mastodon tag-timeline API",
       "family": "X, Bluesky, Mastodon, Threads",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -983,7 +983,7 @@
       "verified": true,
       "note": "Official channel stream of opening night. Title and channel confirmed by oEmbed; date from relative age (streamed ~22h before sweep).",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1005,7 +1005,7 @@
       "verified": true,
       "note": "Official channel stream of day one. Title and channel confirmed by oEmbed; date from relative age.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1031,7 +1031,7 @@
       "verified": true,
       "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1057,7 +1057,7 @@
       "verified": true,
       "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1081,7 +1081,7 @@
       "verified": true,
       "note": "Channel name as shown by oEmbed (Government Communications Office, Qatar presence). Date from relative age.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1104,7 +1104,7 @@
       "verified": true,
       "note": "Title and channel confirmed by oEmbed; published about 8h before sweep (10 Nov), exact time unknown.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1131,7 +1131,7 @@
       "verified": true,
       "note": "Interview on Web Summit coverage per search listing; confirmed title and channel by oEmbed, not watched. Published about 9h before sweep.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1154,7 +1154,7 @@
       "verified": true,
       "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1176,7 +1176,7 @@
       "verified": true,
       "note": "Portuguese radio/TV preview; published about 1 day before sweep.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1199,7 +1199,7 @@
       "verified": true,
       "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1222,7 +1222,7 @@
       "verified": true,
       "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1248,7 +1248,7 @@
       "verified": true,
       "note": "Exhibitor's own video.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1270,7 +1270,7 @@
       "verified": true,
       "note": "Brazilian channel; date from relative age (about 1h before sweep).",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1293,7 +1293,7 @@
       "verified": true,
       "note": "Vlog by a private creator, handle only. Published about 18h before sweep.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1315,7 +1315,7 @@
       "verified": true,
       "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1342,7 +1342,7 @@
       "verified": true,
       "note": "Japanese-language vlog from opening night; handle/name as shown. Date approx (about 7h before sweep).",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1364,7 +1364,7 @@
       "verified": true,
       "note": "Live stream series from RVTV at Web Summit (similar items for MOWLY, SPORTS HIVE).",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1386,7 +1386,7 @@
       "verified": true,
       "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1407,7 +1407,7 @@
       "verified": true,
       "note": "Private creator vlog, name as shown on channel.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1430,7 +1430,7 @@
       "verified": true,
       "note": "Guest argues the Web Summit should be suspended given severe weather; title only (page body not readable). Published about 1h before sweep (~17:50 UTC 10 Nov, approx).",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1453,7 +1453,7 @@
       "verified": true,
       "note": "Severe weather response segment on the Portuguese channel NOW; title only, not specific to the summit. Published about 3h before sweep.",
       "family": "YouTube and video",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1474,7 +1474,7 @@
       "verified": false,
       "note": "Profile confirmed to exist via TikTok public oEmbed (profile type). The profile page itself renders no videos without JS/login, so no 2026 post could be confirmed here. Official account; Silvio's agent covers official posts.",
       "family": "Instagram and TikTok",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1495,7 +1495,7 @@
       "verified": false,
       "note": "Official account; fetch returned HTTP 429 (login/rate wall), not worked around. Silvio's Instagram agent covers it.",
       "family": "Instagram and TikTok",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1523,7 +1523,7 @@
       "verified": true,
       "note": "Live podcast recording scheduled for Wednesday 11 Nov, the storm day; page shows no weather notice or change. Worth watching for a cancellation.",
       "family": "Reddit, Hacker News, podcasts",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1549,7 +1549,7 @@
       "verified": true,
       "note": "Updated date 7 Nov. Page truncated at fetch; Wednesday listings not read, no storm mention seen. Lists podcast-linked side events.",
       "family": "Reddit, Hacker News, podcasts",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1582,7 +1582,7 @@
       "verified": true,
       "note": "URL carries 2026/11/10; page shows only '6 hours ago'. Squawk Box Europe is also a podcast feed; not confirmed whether an audio episode exists. Link only.",
       "family": "Reddit, Hacker News, podcasts",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1605,7 +1605,7 @@
       "verified": true,
       "note": "Official warning page, last updated 10 Nov 16:30 (UTC). Lisboa 11 Nov (UTC): rain orange 05-12, rain RED 12-18, wind RED 12-21, sea orange 12-21 (swell 5-7 m, up to 13 m).",
       "family": "Web Summit's own channels",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1630,7 +1630,7 @@
       "verified": true,
       "note": "Metro keeps running (closure not on table, 'evolutivo'); Lisbon tunnels, schools, parks close Wednesday; bridges limited to 60 km/h, could close at 150 km/h winds; >300 incidents in Lisbon.",
       "family": "Web Summit's own channels",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1655,7 +1655,7 @@
       "verified": true,
       "note": "Live blog. State of alert for mainland Wednesday 11 Nov 00:00-23:59, schools and non-essential public services closed, outdoor events suspended; 8 districts red incl. Lisboa; E-Redes ~4,000 without power by 17:00. No timestamp shown.",
       "family": "Web Summit's own channels",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1684,7 +1684,7 @@
       "verified": true,
       "note": "Official blog; body text not retrievable, only headline and metadata. No weather mention.",
       "family": "Web Summit's own channels",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1708,7 +1708,7 @@
       "verified": true,
       "note": "Pre-event official post; body not retrievable.",
       "family": "Web Summit's own channels",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
@@ -1731,7 +1731,7 @@
       "verified": true,
       "note": "Homepage fetched about 18:50 UTC 10 Nov: no weather banner or notice about Wednesday visible. Negative finding; may be cached.",
       "family": "Web Summit's own channels",
-      "found": "2026-11-10T19:00Z",
+      "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     }
   ]
