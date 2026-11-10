@@ -17,8 +17,11 @@ const STAGES = [
     ['verify', p => /^board\/team\/dev\.verify\/records\//.test(p)],
     ['review', p => /^desks\/(reviewer|checker|security|synthetic|sherpa)[^/]*\//.test(p) || /\/reviews\//.test(p)],
     ['design', p => /^design\//.test(p) || /^assets\/(img|infographics)\//.test(p)],
+    ['brief', p => /^board\/(guidance|briefs)\//.test(p)],
     ['draft', p => /^desks\/[^/]+\/(drafts|interviews|briefs|notes)\//.test(p)],
     ['data', p => /^data\//.test(p)],
+    ['notes', p => /^board\/(team|runs|abp|inboxes)\//.test(p)],
+    ['build', p => /^(newsroom|assets|\.github)\//.test(p)],
 ]
 const stageOf = p => (STAGES.find(([, f]) => f(p)) || ['other'])[0]
 const clean = s => String(s || '').replace(/[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}/g, m => (/@(promptugal|web-summit)\.[a-z]+$/i.test(m) ? m : '[address removed]')).replace(/\b[A-Za-z0-9+/_-]{40,}\b/g, '[removed]')
@@ -72,12 +75,31 @@ export function build(root) {
             if (/^site v\d/.test(c.subject)) continue
             const actor = actorOf(c); if (!actor) continue
             const files = c.files.filter(hit); if (!files.length) continue
-            const st = [...new Set(files.map(stageOf))], stage = ['sign', 'publish', 'verify', 'review', 'design', 'draft', 'data', 'other'].find(s => st.includes(s))
+            const st = [...new Set(files.map(stageOf))], stage = ['sign', 'publish', 'verify', 'review', 'design', 'draft', 'data', 'notes', 'other'].find(s => st.includes(s))
             steps.push({ t: c.at, a: actor, st: stage, sha: c.sha.slice(0, 7), s: clean(c.subject.replace(/^[a-z][a-z0-9.\-]*@[A-Za-z][A-Za-z0-9\-]*(?:\.[A-Za-z0-9\-]+)+:\s*/, '')).slice(0, 140), n: files.length, brief: trailer(c, 'Brief'), unit: trailer(c, 'Unit'), forr: trailer(c, 'For') })
         }
         return { id: p.id, kind: p.kind, title: p.title, story: p.story, date: p.date, steps }
     }).filter(f => f.steps.length)
-    return { flows, stages: STAGES.map(s => s[0]).concat('other') }
+    // the briefs: every commit that carries the same Brief: trailer is one trail, rooted at Dinis's voice brief (its id carries the moment)
+    const byBrief = new Map()
+    for (const c of commits) {
+        if (/^site v\d/.test(c.subject)) continue
+        const actor = actorOf(c), m = c.body.match(/^Brief:\s*(.+)$/m); if (!actor || !m) continue
+        for (const id of m[1].split(/[;,]/).map(x => x.trim()).filter(x => /^brief:/.test(x))) {
+            const st = [...new Set(c.files.map(stageOf))], stage = ['sign', 'publish', 'verify', 'review', 'design', 'brief', 'draft', 'data', 'build', 'notes', 'other'].find(x => st.includes(x)) || 'other'
+            if (!byBrief.has(id)) byBrief.set(id, [])
+            byBrief.get(id).push({ t: c.at, a: actor, st: stage, sha: c.sha.slice(0, 7), s: clean(c.subject.replace(/^[a-z][a-z0-9.\-]*@[A-Za-z][A-Za-z0-9\-]*(?:\.[A-Za-z0-9\-]+)+:\s*/, '')).slice(0, 140), n: c.files.length, brief: id, unit: trailer(c, 'Unit'), forr: trailer(c, 'For') })
+        }
+    }
+    for (const [id, steps] of byBrief) {
+        const m = id.match(/^brief:(\d{4})-?(\d{2})-?(\d{2})T(\d{2})(\d{2})Z-?(.*)$/)
+        if (steps.length < 2) continue
+        const root = m ? { t: `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:00.000Z`, a: 'dinis (voice)', st: 'voice', sha: steps[0].sha, s: "Dinis's voice brief, recorded by the conductor who wrote it down", n: 0, brief: id, unit: null, forr: null } : null
+        if (root) { const first = Date.parse(steps[0].t), at = Date.parse(root.t); root.t = new Date(Math.min(at, first - 60000)).toISOString() }
+        const all = (root ? [root] : []).concat(steps)
+        flows.push({ id: id.replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '').toLowerCase(), kind: 'brief', title: m && m[6] ? m[6].replace(/-/g, ' ') : id, story: null, date: m ? `${m[1]}-${m[2]}-${m[3]}` : '', steps: all })
+    }
+    return { flows, stages: STAGES.map(s => s[0]).concat(['voice', 'other']) }
 }
 
 export function api(ctx) {

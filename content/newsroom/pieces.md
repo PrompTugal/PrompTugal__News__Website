@@ -8,4 +8,6 @@ The workflow is the picture (Dinis, 10 November 2026). Each article and intervie
 
 It shows what the record says in public: the humans' own steps (an interview taken by a person, a manual copy) appear only where a commit records them, and the sealed inboxes are never read. A piece with few steps is a piece whose history is short, or one whose work is not yet in the record.
 
+The briefs are drawn the same way, as pipelines: each trail starts at Dinis's voice brief (the moment is read from the brief's id) and follows every commit that carries the same `Brief:` trailer, across the conductors, the builders and the reviewers, as the team site's pipeline page describes. Pick a brief in the list.
+
 Replay plays a piece's steps one by one. Tap any step for its commit.

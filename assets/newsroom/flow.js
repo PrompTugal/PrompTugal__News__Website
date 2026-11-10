@@ -6,7 +6,7 @@
     const NS = 'http://www.w3.org/2000/svg'
     const lis = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Lisbon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false })
     const when = t => lis.format(Date.parse(t)).replace(',', '')
-    const STAGE = { draft: 'Draft', review: 'Review', verify: 'Verify', design: 'Design', data: 'Data', publish: 'Publish', sign: 'Sign', other: 'Other' }
+    const STAGE = { draft: 'Draft', review: 'Review', verify: 'Verify', design: 'Design', data: 'Data', voice: 'Voice brief', brief: 'Brief', build: 'Build', notes: 'Notes', publish: 'Publish', sign: 'Sign', other: 'Other' }
     const el = (t, props, ...kids) => { const x = Object.assign(document.createElement(t), props); x.append(...kids); return x }
     const sv = (t, a, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e }
     const role = a => a.split('@')[0] + (/@web-summit\./i.test(a) ? ' (ws)' : '')
@@ -35,7 +35,7 @@
         const detail = s => {
             info.replaceChildren(el('p', { className: 'pf-h', textContent: `${role(s.a)} · ${STAGE[s.st]} · ${when(s.t)} Lisbon` }), el('p', { className: 'pf-s', textContent: s.s }),
                 el('p', { className: 'pf-m', textContent: [`${s.n} file${s.n === 1 ? '' : 's'} of this piece`, s.brief && `Brief ${s.brief}`, s.unit && `Unit ${s.unit}`, s.forr && `For ${s.forr}`].filter(Boolean).join(' · ') }),
-                el('a', { href: `${repo}/commit/${s.sha}`, target: '_blank', rel: 'noopener', textContent: `The commit ${s.sha} on GitHub` }))
+                s.st === 'voice' ? el('p', { className: 'pf-m', textContent: 'The root of the trail: the moment is read from the brief id.' }) : el('a', { href: `${repo}/commit/${s.sha}`, target: '_blank', rel: 'noopener', textContent: `The commit ${s.sha} on GitHub` }))
         }
         const hands = steps.filter((s, i) => i && steps[i - 1].a !== s.a).length
         host.append(el('p', { className: 'pf-sum', textContent: `${steps.length} steps, ${lanes.length} actor${lanes.length === 1 ? '' : 's'}, ${hands} hand-off${hands === 1 ? '' : 's'}, from ${when(steps[0].t)} to ${when(steps[steps.length - 1].t)} (Lisbon time). Tap a step for its commit.` }), bar, wrap, info)
@@ -56,7 +56,7 @@
             draw(host, f, D.repo); return
         }
         const sorted = [...flows].sort((a, b) => b.steps[b.steps.length - 1].t.localeCompare(a.steps[a.steps.length - 1].t))
-        const sel = el('select', { className: 'pf-sel', ariaLabel: 'Choose a piece' }, ...sorted.map(f => el('option', { value: f.id, textContent: `${f.kind === 'interview' ? 'Interview: ' : ''}${f.title} (${f.steps.length})` })))
+        const sel = el('select', { className: 'pf-sel', ariaLabel: 'Choose a piece' }, ...sorted.map(f => el('option', { value: f.id, textContent: `${f.kind === 'interview' ? 'Interview: ' : f.kind === 'brief' ? 'Brief: ' : ''}${f.title} (${f.steps.length})` })))
         const view = el('div', { className: 'pf-view' }), feed = el('ul', { className: 'pf-feed' })
         const recent = flows.flatMap(f => f.steps.map(s => ({ f, s }))).sort((a, b) => b.s.t.localeCompare(a.s.t)).slice(0, 14)
         feed.append(...recent.map(({ f, s }) => el('li', {}, el('button', { type: 'button', className: 'pf-row', onclick: () => { sel.value = f.id; draw(view, f, D.repo); view.scrollIntoView({ block: 'nearest' }) }, textContent: `${when(s.t)} · ${role(s.a)} · ${STAGE[s.st]} · ${f.title}` }))))

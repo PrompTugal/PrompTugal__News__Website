@@ -19,7 +19,7 @@
 .pf-step:hover .pf-node, .pf-step:focus-visible .pf-node, .pf-step.on .pf-node { stroke: var(--ink, #111); stroke-width: 3; }
 .st-draft { fill: #5b8def; background: #5b8def; } .st-review { fill: #e0903a; background: #e0903a; } .st-verify { fill: #8a5bd1; background: #8a5bd1; }
 .st-design { fill: #d1577c; background: #d1577c; } .st-data { fill: #6b7b8c; background: #6b7b8c; } .st-publish { fill: #1a7f37; background: #1a7f37; }
-.st-sign { fill: #0e5a3b; background: #0e5a3b; } .st-other { fill: #999; background: #999; }
+.st-sign { fill: #0e5a3b; background: #0e5a3b; } .st-voice { fill: #c0392b; background: #c0392b; } .st-brief { fill: #2e86ab; background: #2e86ab; } .st-build { fill: #7a6f5d; background: #7a6f5d; } .st-notes { fill: #a8a29a; background: #a8a29a; } .st-other { fill: #999; background: #999; }
 .pf-info { border: 1px solid var(--hair, #ddd); border-radius: 12px; padding: 10px 14px; background: var(--panel, #fff); }
 .pf-info p { margin: 2px 0; } .pf-h { font-weight: 600; } .pf-s { overflow-wrap: anywhere; } .pf-m { font-size: .82rem; color: var(--ink-3, #555); }
 .pf-pick { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
