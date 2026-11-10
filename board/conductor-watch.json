@@ -471,6 +471,16 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-10T11:15Z",
       "note": "FACT-Ray live on gamma-ray.sgit.ai (/fact-ray/, drafts for riskmandate.ai and promptugal.news). Design flip decided (B r3). Jose, Silvio (instagram@) and Indi drafting social posts for their humans. security.repos@ run 9 HIGH still open (iOS TestFlight signing reachable from dev): Dinis's call, since publish-from-dev was his. Lanes empty. Open on Dinis: conductor.b@'s session; social.watch@; FACT-Ray domains and sgit.ai attestations."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T11:26Z",
+      "SGit-AI__Website__Web-Summit": "c8b96a09",
+      "PrompTugal__News__Website": "330b5273",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
     }
   ]
 }
