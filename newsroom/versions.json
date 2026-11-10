@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1046",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S41 red rain",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "d34818a90"
+  },
+  {
     "version": "v0.1.1045",
     "date": "2026-11-10",
     "what": "dev@PrompTugal.vicky: S41 lead block: the standfirst replaces the summary as the dek when present; the summary stays the fallback",
