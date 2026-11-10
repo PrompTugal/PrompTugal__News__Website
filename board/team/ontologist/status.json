@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-10T18:45Z",
+  "updated": "2026-11-10T20:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -75,7 +75,8 @@
     "Coverage, measured: an article reaches a company only through a tag equal to its id; 2 of 45 company mentions in 54 articles are tagged. The candidates per article in board/team/ontologist/reviews/2026-11-10-coverage.md, sent to journalist@ (its call: a mention is not 'about'); dev@ asked to let tags match names and aliases (12:21 wake, 10 Nov)",
     "Keyed to GAMMA-Ray's cards (Dinis 12:40: companies, products and agents in the graph, keyed to the cards): Spectrum 0.2 rates products and deployments, so company-products takes an optional gamma_ray link; Replit Agent linked to its card (replit-agent); Manus's card has no product of ours yet (its page unreadable); designer@ told for its Spectrum block (14:21 wake, 10 Nov)",
     "Related companies, from the companies' own words: the verb offers_alternative_to (inverse has_alternative_in, company to company: its own page presents its product as an alternative; the claim is theirs); Descope -> Akamai (Akamai Identity Cloud, CIAM) and Prelude -> Twilio (Twilio Verify), each from its own comparison page. GAMMA-Ray's new card (Noxus AI Workers) is not one of our companies (16:21 wake, 10 Nov)",
-    "GAMMA-Ray cards linked on company records: AISLE (aisle-platform) and GetVocal AI (getvocal-agents), for designer@'s Spectrum block; Noxus (conductor@'s ask, WS-211) has no company page here (not in our map, named nowhere in our data): asked for a public summit source or the word that GAMMA-Ray's cohort joins our map; OutSystems and Talkdesk not in our map either (18:21 wake, 10 Nov)"
+    "GAMMA-Ray cards linked on company records: AISLE (aisle-platform) and GetVocal AI (getvocal-agents), for designer@'s Spectrum block; Noxus (conductor@'s ask, WS-211) has no company page here (not in our map, named nowhere in our data): asked for a public summit source or the word that GAMMA-Ray's cohort joins our map; OutSystems and Talkdesk not in our map either (18:21 wake, 10 Nov)",
+    "dev@'s GAMMA-Ray pages checked against our ids: no further links needed (card company names slug to aisle, getvocal-ai, jetbrains, manus-ai, replit); its gamma-ray.schema.json reviewed and kept, with the point that data/site/gamma-ray.json be a fresh cache (GAMMA-Ray: link, do not copy); the 10 November debrief (20:21 wake)"
   ],
   "next": [
     "THE RESTART: coverage edges (articles about each company) and related companies; the product nodes wait on dev@ (its restart waits on Dinis)",
@@ -85,6 +86,7 @@
     "A crm field from each company to its record in the team CRM"
   ],
   "asks": [
+    "Dinis: GAMMA-Ray has rated companies that are not in our company map (Noxus, OutSystems, Talkdesk, Codacy, Automaise, ByTheLaw, Visor.ai): should they join it, so their pages carry their cards? Noxus first, as conductor@ asked.",
     "Dinis: to make the translations (your 19:25 brief: events first, then articles and company pages) I need openrouter.ai in my ABP grant (R7: I may send only to dev.send.sgraph.ai) and a line in accountant@'s OpenRouter plan; events are 249 x 20 cultures. Yes, or should another agent (dev@) run the calls into data/translations/?",
     "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
     "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?",
@@ -505,6 +507,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "AISLE and GetVocal linked to their cards; Noxus not in our map"
+    },
+    {
+      "started": "2026-11-10T20:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "GAMMA-Ray ids checked; dev@'s schema kept; 10 November debrief"
     }
   ],
   "decisions_on_findings": [
@@ -524,6 +532,6 @@
       "at": "2026-11-06T17:40Z"
     }
   ],
-  "debrief": "board/team/ontologist/debriefs/2026-11-09-handover.md",
+  "debrief": "board/team/ontologist/debriefs/2026-11-10-handover.md",
   "session": "board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/notes.md"
 }

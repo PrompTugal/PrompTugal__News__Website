@@ -1,5 +1,5 @@
 {
-  "$comment": "The work desk's trace of the storm story (S41). JSON first: read this, not the pages. README: the-storm.md.",
+  "$comment": "The work desk's trace of the storm story (S41). JSON first: read this, not the pages. README: the-storm.md. Steps are sorted by time; n is the order they were captured in.",
   "story": "the-storm",
   "story_codes": [
     "S41",
@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-10T18:35Z",
+  "updated": "2026-11-10T19:40Z",
   "covers": {
     "from": "2026-11-10T14:08:40Z",
-    "to": "2026-11-10T18:20:31Z",
-    "last_commit": "c6062a275"
+    "to": "2026-11-10T19:04:47Z",
+    "last_commit": "da1b13d4a"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -430,6 +430,27 @@
       "note": "Corrected from 'about 17:35' to 'about 17:15' (08e465820)."
     },
     {
+      "n": 22,
+      "time_utc": "2026-11-10T17:20:00Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "Dinis's authorisation",
+      "output": "the S41 lead fill: weather@ prepares the values, reviewer@ verifies and writes only the five lead keys in desks/correspondent/front-page.json, correspondent@ carries them over; dev@ waits for Vicky's yes for the display",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:6370d1377 (desks/conductor-vicky/status.json: '17:20 S41 lead, at Vicky's word with Dinis's authorisation')"
+      ],
+      "hand_off": "person->agent (Vicky, with Dinis's authorisation)",
+      "note": "Time from the conductor's status line; it sits before the weather desk's draft (step 20), which it explains."
+    },
+    {
       "n": 19,
       "time_utc": "2026-11-10T17:20:30Z",
       "actor": {
@@ -478,48 +499,6 @@
       "workflow_step": "5. a UI turns noise into signal (the data for the lead block)"
     },
     {
-      "n": 21,
-      "time_utc": "2026-11-10T17:22:47Z",
-      "actor": {
-        "name": "reporter.newsroom@PrompTugal.dinis",
-        "kind": "agent"
-      },
-      "input": "the commits above, the desks' files and run reports",
-      "output": "its key and this trace",
-      "hand_off_to": [
-        {
-          "name": "journalist.newsroom@PrompTugal.dinis",
-          "kind": "agent"
-        }
-      ],
-      "evidence": [
-        "board/keys.json (reporter.newsroom-promptugal)",
-        "board/team/work-desk/traces/the-storm.json"
-      ],
-      "hand_off": "agent->agent"
-    },
-    {
-      "n": 22,
-      "time_utc": "2026-11-10T17:20:00Z",
-      "actor": {
-        "name": "Vicky Wang",
-        "kind": "person"
-      },
-      "input": "Dinis's authorisation",
-      "output": "the S41 lead fill: weather@ prepares the values, reviewer@ verifies and writes only the five lead keys in desks/correspondent/front-page.json, correspondent@ carries them over; dev@ waits for Vicky's yes for the display",
-      "hand_off_to": [
-        {
-          "name": "conductor.B@PrompTugal.vicky",
-          "kind": "agent"
-        }
-      ],
-      "evidence": [
-        "commit:6370d1377 (desks/conductor-vicky/status.json: '17:20 S41 lead, at Vicky's word with Dinis's authorisation')"
-      ],
-      "hand_off": "person->agent (Vicky, with Dinis's authorisation)",
-      "note": "Time from the conductor's status line; it sits before the weather desk's draft (step 20), which it explains."
-    },
-    {
       "n": 23,
       "time_utc": "2026-11-10T17:22:11Z",
       "actor": {
@@ -547,6 +526,27 @@
         "board/runs/conductor.B.vicky/2026-11-10T17-14-41Z.json"
       ],
       "hand_off": "agent->agents (across accounts)"
+    },
+    {
+      "n": 21,
+      "time_utc": "2026-11-10T17:22:47Z",
+      "actor": {
+        "name": "reporter.newsroom@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the commits above, the desks' files and run reports",
+      "output": "its key and this trace",
+      "hand_off_to": [
+        {
+          "name": "journalist.newsroom@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "board/keys.json (reporter.newsroom-promptugal)",
+        "board/team/work-desk/traces/the-storm.json"
+      ],
+      "hand_off": "agent->agent"
     },
     {
       "n": 24,
@@ -874,6 +874,27 @@
       "note": "security@ checked it at 18:05: public sources only, no secret, not served (404) (bb3e4a3fd)."
     },
     {
+      "n": 46,
+      "time_utc": "2026-11-10T17:53:00Z",
+      "actor": {
+        "name": "Government (Prime Minister)",
+        "kind": "public authority"
+      },
+      "input": "the alert situation",
+      "output": "recommends that Web Summit suspend Wednesday; the decision is the organisers' (as reported live by Jornal de Negócios)",
+      "hand_off_to": [
+        {
+          "name": "Web Summit (organisers)",
+          "kind": "organisation"
+        }
+      ],
+      "evidence": [
+        "board/team/social.watch/signals/2026-11-11-the-storm.md (row 17:53, press: jornaldenegocios.pt live page)"
+      ],
+      "workflow_step": "5. the decision graph: a new edge, government to organiser",
+      "note": "A press report found by social.watch@ at 18:45 to 18:50, not a primary source; the weather desk's 18:36 check did not list it. Not in the trace's own record until step 51."
+    },
+    {
       "n": 39,
       "time_utc": "2026-11-10T17:54:59Z",
       "actor": {
@@ -1027,6 +1048,233 @@
         "commit:c6062a275"
       ],
       "hand_off": "person->agent->agents (re-routed at Vicky's word within 7 minutes)"
+    },
+    {
+      "n": 47,
+      "time_utc": "2026-11-10T18:25:00Z",
+      "actor": {
+        "name": "Dinis Cruz",
+        "kind": "person"
+      },
+      "input": "reviewer@'s grant stopped the lead write (step 31)",
+      "output": "reviewer@PrompTugal.vicky may write only the five S41 lead fields of desks/correspondent/front-page.json; security@PrompTugal.dinis covers Vicky's temporary team",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:2df8bfbb6",
+        "board/guidance/2026-11-10-vickys-reviewer-and-security.md"
+      ],
+      "hand_off": "person->agent (a grant widened by the operator, 52 min after the agent stopped at its boundary)"
+    },
+    {
+      "n": 48,
+      "time_utc": "2026-11-10T18:37:54Z",
+      "actor": {
+        "name": "security@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "Dinis's word (step 47)",
+      "output": "Vicky's temporary team in its review; reviewer@'s five-key grant checked, no writes yet",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:0cd5ffc2a"
+      ],
+      "hand_off": "agent->person (report)"
+    },
+    {
+      "n": 49,
+      "time_utc": "2026-11-10T18:38:49Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "18:36 check (its connectors)",
+      "output": "no material change; Carris banner now 'perturbações na circulação'; lead draft times moved",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:872717bed",
+        "commit:2a0f8811f"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "1. the connectors' hourly watch"
+    },
+    {
+      "n": 50,
+      "time_utc": "2026-11-10T18:39:55Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the new grant; the lead values",
+      "output": "lead written, then held: the gate refuses its outside links without target=_blank (front-e.mjs adds none)",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:c343bc45e",
+        "commit:d0cce9bae"
+      ],
+      "hand_off": "agent->agent (the gate sends a fix request to the developer)",
+      "workflow_step": "2. a request to a developer, at last: from the gate, not from a source"
+    },
+    {
+      "n": 54,
+      "time_utc": "2026-11-10T18:44:24Z",
+      "actor": {
+        "name": "correspondent@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the storm; Dinis's 18:25 word",
+      "output": "S41 keeps the lead into Wednesday; the GAMMA-Ray swap held; reviewer@'s five keys kept as lead_shared_keys",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:529395bc8"
+      ],
+      "hand_off": "agent->person (report)"
+    },
+    {
+      "n": 51,
+      "time_utc": "2026-11-10T18:50:58Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "seven source sub-agents (news, microblogs, LinkedIn, video, Instagram and TikTok, forums and podcasts, Web Summit's channels); OpenRouter perplexity/sonar, one call, $0.005",
+      "output": "sweep 1: 71 items, 13 storm signals in signals/2026-11-11-the-storm.md for the incident timeline; no organiser decision on Wednesday",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "conductor@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:27bda5688 (started at Dinis's word, about 18:42)",
+        "commit:f16c2fad4",
+        "commit:df4adcd7d (times corrected to 18:45 to 18:50)"
+      ],
+      "hand_off": "person->agent (Dinis starts the role), agent->agents",
+      "workflow_step": "1. raw sources at scale: social and press, as signals",
+      "note": "A new agent on the storm, outside Vicky's desks; LinkedIn, Instagram, TikTok, Reddit, X and Bluesky's API refused or needed a login."
+    },
+    {
+      "n": 52,
+      "time_utc": "2026-11-10T18:51:50Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "reviewer@'s hold (step 50); reproduced the gate failure first",
+      "output": "outside source and live links open in a new tab; gate OK with the filled lead",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3828b2668"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "4. the developer fixes: 12 minutes from hold to fix"
+    },
+    {
+      "n": 53,
+      "time_utc": "2026-11-10T18:54:48Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "s41-lead.json, each value re-checked at source 18:53 UTC; the five-key grant",
+      "output": "S41 home-page lead released: standfirst, developments, programme, last_checked (live null)",
+      "hand_off_to": [
+        {
+          "name": "correspondent@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:65272d4a7",
+        "commit:ad4694ea5",
+        "commit:023e77c5d"
+      ],
+      "hand_off": "agent->agent (across accounts)",
+      "workflow_step": "5. the UI shows the signal: the lead is live, 1 h 42 min after Dinis asked for it (step 16)"
+    },
+    {
+      "n": 55,
+      "time_utc": "2026-11-10T19:01:00Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "the watch",
+      "output": "records an incident team on the storm (incident.conductor@, WS-214: pipeline, roadmap, a researcher's decision graph, a meteorologist's weather JSON, a first dashboard), outside this repository; no Web Summit decision at 19:01",
+      "hand_off_to": [
+        {
+          "name": "conductor@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "accountant@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:a0594842b",
+        "board/conductor-watch.json"
+      ],
+      "hand_off": "agent->agents",
+      "note": "A second storm workflow on the team site; not traced here (this desk reads this repository). It has its own architect-like pipeline file."
+    },
+    {
+      "n": 56,
+      "time_utc": "2026-11-10T19:04:47Z",
+      "actor": {
+        "name": "journalist.newsroom@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "this trace at 45 steps",
+      "output": "the storm, draft 2",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:56619a6d6",
+        "commit:da1b13d4a"
+      ],
+      "hand_off": "agent->agent (trace to story, second pass)"
     }
   ],
   "hand_offs_person_agent": [
@@ -1050,7 +1298,11 @@
     37,
     42,
     43,
-    45
+    45,
+    47,
+    48,
+    51,
+    54
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -1069,7 +1321,7 @@
         12,
         38
       ],
-      "evidence": "no request to a conductor or developer for a parser; weather@ wrote tools/watch.mjs itself (eight sources) at the guidance's word. The only request for help is still for a person (lisboa.pt, ANA, CP)."
+      "evidence": "no request to a conductor or developer for a parser; weather@ wrote tools/watch.mjs itself (eight sources) at the guidance's word. The only request for help is still for a person (lisboa.pt, ANA, CP). The first request to a developer came from the gate (step 50: links without target=_blank), fixed in 12 minutes (step 52)."
     },
     "3_architect_plan": {
       "status": "a proposal in place of a plan",
@@ -1091,14 +1343,15 @@
       "evidence": "lead display released; the storm page v1 handed to dev@PrompTugal.vicky at 18:20; dev.graphs@ and designer@ keep v2"
     },
     "5_ui_signal": {
-      "status": "lead display live; storm page in preview",
+      "status": "lead live; storm page in preview",
       "steps": [
         20,
         29,
-        34,
-        45
+        50,
+        52,
+        53
       ],
-      "evidence": "the lead's values still wait on Vicky (reviewer@'s grant excludes desks/correspondent/)"
+      "evidence": "the S41 lead released at 18:54 UTC after Dinis widened reviewer@'s grant (step 47) and dev@ fixed the links (step 52)"
     }
   },
   "decision_graph_so_far": {
@@ -1143,6 +1396,16 @@
         "who": "IPMA",
         "decision": "red rain warning, Lisbon, Wed 12:00 to 18:00 (communiqué no. 2)",
         "status": "issued (seen 17:42 UTC)"
+      },
+      {
+        "who": "Government (Prime Minister)",
+        "decision": "recommends Web Summit suspend Wednesday; the organisers decide",
+        "status": "reported by the press, 17:53 (Jornal de Negócios live); not yet read at a primary source by any desk"
+      },
+      {
+        "who": "Web Summit",
+        "decision": "Wednesday's programme",
+        "status": "no decision found at 19:01 (conductor@web-summit.dinis) and 18:53 (social.watch@: 'assessing with ANEPC and PSP')"
       }
     ],
     "lead_times_seen": [
@@ -1167,7 +1430,15 @@
       "happened": 9,
       "not_announced": 5,
       "unknown": 2
-    }
+    },
+    "missed": [
+      {
+        "what": "the government's recommendation to suspend the summit (17:53, press)",
+        "seen_by": "social.watch@ at 18:45 to 18:50",
+        "not_by": "weather@'s 18:36 check (official sources only)",
+        "why": "the desk reads primary sources; the recommendation was spoken, reported live by the press"
+      }
+    ]
   },
   "blocked_sources": [
     "lisboa.pt and informacao.lisboa.pt (403)",
@@ -1202,6 +1473,24 @@
       "from": "about 17:00 (memo)",
       "to_step": 38,
       "minutes": 52
+    },
+    {
+      "what": "reviewer@ stops at its grant to Dinis widening it",
+      "from_step": 31,
+      "to_step": 47,
+      "minutes": 52
+    },
+    {
+      "what": "the gate's hold to dev@'s fix",
+      "from_step": 50,
+      "to_step": 52,
+      "minutes": 12
+    },
+    {
+      "what": "Dinis asks for the fuller lead to the lead live",
+      "from_step": 16,
+      "to_step": 53,
+      "minutes": 102
     }
   ]
 }

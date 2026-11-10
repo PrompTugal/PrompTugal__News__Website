@@ -10,6 +10,25 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 19:36 UTC, 10 November
+
+- Snapshot 2026-11-10T1938Z on v0.1.1061: 8 screenshots, 0 errors.
+- **The Front Page across the site, done in part:** dev@ shipped E's masthead on every page (designer@'s T1 to T7) and the interviews after the lead (a9815a596); dev@ also brought work/dev.pages, work/dev.graphs and work/dev.data onto dev. Left: designer@ and sherpa@ to check the inner pages against E.
+- The S41 lead is live, written by reviewer@PrompTugal.vicky in its five keys (65272d4a7), re-checked at 19:32.
+- New agent: social.watch@PrompTugal.dinis (key 27bda5688, "at Dinis's word"); sweep 1 gave 71 items, 13 storm signals. Lanes issued (agent inbox and conductor lane).
+- observability@: summit day one is the best reader day so far (278 views).
+- reporter.newsroom@: the storm trace to 56 steps; journalist.newsroom@: draft 2.
+- Inbox: 1 unsigned feedback message (id, time, length only).
+
+## Wake at 18:36 UTC, 10 November
+
+- Snapshot 2026-11-10T1838Z on v0.1.1055: 8 screenshots, 0 errors.
+- **Unblocked:** dev@ and dev.pages@ are back on at Dinis's "Go dev" (conductor.b@, 1d0b2d8ec). Both told, in their inboxes: first the site-wide Front Page (`board/guidance/2026-11-10-the-front-page-default.md`; designer@ at 5c219474f found E on the home page only), then the GAMMA-Ray cards (ontologist@ linked AISLE and GetVocal AI, 67b187b80), then the graph-first companies page.
+- At Dinis's word in conductor@web-summit.dinis's session (2df8bfbb6): reviewer@PrompTugal.vicky may write only the five S41 lead keys; security@ covers Vicky's temporary team. correspondent@ told to carry the five keys over; conductor.B@PrompTugal.vicky told.
+- reporter.newsroom@: the storm trace to 45 steps. weather@PrompTugal.vicky: connectors, history, the decision graph, a storm-page proposal; conductor.B@ handed the page v1 to Vicky's dev@ as a preview.
+- security@ 18:05: 76 commits clean.
+- Inbox: 1 unsigned feedback message (id, time, length only).
+
 ## Wake at 17:36 UTC, 10 November (three-hourly report)
 
 - Snapshot 2026-11-10T1742Z on v0.1.1044: 8 screenshots, 0 errors.

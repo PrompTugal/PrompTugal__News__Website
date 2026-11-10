@@ -10,6 +10,7 @@ import { frontOrder, byline, minutes, imageFile, figureOf } from './front.mjs'
 import { load, rank } from './agenda.mjs'
 import { WORDMARK } from '../lib/shell.mjs'
 import { model as homeModel } from '../lib/home.mjs'
+import { stripHtml } from './gamma.mjs'
 export const order = 23
 
 const T = fs.readFileSync(new URL('../../../assets/front-e/front-e.tmpl', import.meta.url), 'utf8')
@@ -42,6 +43,8 @@ const plusDays = (d, n) => new Date(Date.parse(d) + n * 864e5).toISOString().sli
 
 // the optional lead fields the correspondent may set in front-page.json's "lead" (standfirst, developments, programme, last_checked, live);
 // each is shown only when present, so the block is unchanged until they are filled; all text is escaped, links must be http(s) or site-relative
+// outside links open in a new tab (the gate requires it); site-relative links stay as they are
+const tgtOf = h => /^https?:\/\//i.test(h) ? ' target="_blank" rel="noopener"' : ''
 const safeHref = h => /^(https?:\/\/|[a-z0-9][a-z0-9\-_\/.]*$)/i.test(String(h || '')) ? String(h) : ''
 function leadExtra(ctx, a) {
     let L = {}
@@ -51,7 +54,7 @@ function leadExtra(ctx, a) {
     const stamp = v => { const t = str(v); if (!t) return ''; const d = /^\d{4}-\d\d-\d\d[T ]\d\d:\d\d/.test(t) ? new Date(t) : null
         return d && !isNaN(d) ? `<time datetime="${d.toISOString()}">${d.toISOString().slice(11, 16)} UTC</time>` : esc(t) }
     const src = o => { const h = safeHref(o && o.source); if (!h) return ''; const c = stamp(o.checked)
-        return put(item('lsrc'), { href: esc(h), checked: c ? put(item('lchecked'), { time: c }) : '' }) }
+        return put(item('lsrc'), { href: esc(h), tgt: tgtOf(h), checked: c ? put(item('lchecked'), { time: c }) : '' }) }
     const out = {}
     if (str(L.standfirst)) out.dek = esc(str(L.standfirst))  // the standfirst replaces the summary as the dek; the summary stays the fallback
     const p = L.programme
@@ -59,7 +62,7 @@ function leadExtra(ctx, a) {
     const devs = (Array.isArray(L.developments) ? L.developments : []).filter(d => d && str(d.text)).slice(0, 3)
     if (devs.length) out.developments = put(item('developments'), { items: devs.map(d => put(item('devitem'), { text: esc(str(d.text)), src: src(d) })).join('') })
     const lc = stamp(L.last_checked), lh = L.live && safeHref(L.live.href)
-    if (lc || lh) out.live = put(item('live'), { lastchecked: lc ? put(item('lastchecked'), { time: lc }) : '', livelink: lh ? put(item('livelink'), { href: esc(lh), label: esc(str(L.live.label) || 'Live updates') }) : '' })
+    if (lc || lh) out.live = put(item('live'), { lastchecked: lc ? put(item('lastchecked'), { time: lc }) : '', livelink: lh ? put(item('livelink'), { href: esc(lh), tgt: tgtOf(lh), label: esc(str(L.live.label) || 'Live updates') }) : '' })
     return out
 }
 function lead(ctx, a) {
@@ -81,7 +84,7 @@ function fillE(page, ctx) {
     const wk = week.filter(i => { const k = i.what.split(/:\s|\s\(/)[0]; return !seenWk.has(k) && seenWk.add(k) }).map(i => ({ href: `events/${i.id}/index.html`, date: i.date, when: esc(when(ctx, i)), what: esc(cut(i.what, 80)), where: i.where ? ' · ' + esc(i.where) : '' }))
     // now and next: what has not ended yet, in time order, the bigger moments first within a day (the page drops the ended)
     const seenNext = new Set()
-    const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && rank(i) <= 3 && !seenNext.has(i.date + i.what.split(/:\s|\s\(/)[0]) && seenNext.add(i.date + i.what.split(/:\s|\s\(/)[0])).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '').localeCompare(y.start || '')).slice(0, 10)
+    const next = AGENDA.items.filter(i => i.date >= ctx.TODAY && rank(i) <= 3 && !seenNext.has(i.date + i.what.split(/:\s|\s\(/)[0]) && seenNext.add(i.date + i.what.split(/:\s|\s\(/)[0])).sort((x, y) => x.date.localeCompare(y.date) || (x.start || '24:00').localeCompare(y.start || '24:00')).slice(0, 10)  // all-day things after the timed ones (sherpa@'s R6: lead with now)
     const fields = ctx.store.topics.filter(t => t.kind === 'field').map(t => [t, ctx.store.companies.filter(c => c.category === t.category).length]).filter(x => x[1]).sort((x, y) => y[1] - x[1])
     const max = fields[0]?.[1] || 1
     const opening = AGENDA.items.find(i => /opening night/i.test(i.what))
@@ -93,6 +96,7 @@ function fillE(page, ctx) {
         today: ctx.TODAY, date: `${ctx.DAY(ctx.TODAY)} ${y}`, opening_at: openingAt, opening_in: days > 0 ? `${days}d` : '', name: esc(ctx.SITE.name), wordmark: WORDMARK(''),
         '#nav': many('nav', ctx.NAV.nav.map(n => ({ href: n.href, label: esc(n.label), cur: n.id === 'now' ? ' aria-current="page"' : '' }))),
         lead: lead(ctx, all[0]),
+        spectrum: stripHtml(ctx, ''),   // GAMMA-Ray's cards under the lead (THE RESTART: the agentic edition), left out with no data
         '#week': many('week', wk), '#week_again': many('week', wk.map(w => ({ ...w, tab: ' tabindex="-1"' }))),
         '#briefing': many('brief', homeModel(ctx).briefing.map(x => ({ href: x.href, title: x.title, beat: x.beat }))),  // the correspondent's five (front-page.json 'briefing'), else the next five
         '#stories': all.slice(1, 5).map(story).join(''),

@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-10T16:52Z",
+  "updated": "2026-11-10T18:55Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -51,11 +51,12 @@
     "Wake 10:41 Tuesday: designer@'s design flip (B, Calcada, round 3; board/spec-the-agentic-home-page.md): my H2 pick in front-page.json 'phone_interview' (Buzz Messaging AI today, Student Property Network on Wednesday); 'Speed where it's safe, control where it matters' in From the newsroom",
     "Wake 12:41 Tuesday: Dinis's 12:40 pivot to agents ('the summit now', filtered to agents, is mine): the day pages' five a day re-filtered to agent sessions only (Tuesday afternoon, Wednesday, Thursday); the policy, Portugal and Brazil sessions stay in their beats",
     "Wake 14:41 Tuesday: IPMA's red wind warning for Lisbon on Wednesday (midday to 21:00) leads the front page (safety news for every attendee on the summit's main day); Gravitee's survey to the top three; in Tuesday's and Wednesday's briefings and the Web Summit beat",
-    "Wake 16:41 Tuesday: 'What Lovable deleted' (its CEO on rebuilding an AI coding agent) into the top three, the AI beat and Wednesday's plan; the red wind warning keeps the lead; designer@'s round 4 asks nothing new of me (the summit now already filtered to agents)"
+    "Wake 16:41 Tuesday: 'What Lovable deleted' (its CEO on rebuilding an AI coding agent) into the top three, the AI beat and Wednesday's plan; the red wind warning keeps the lead; designer@'s round 4 asks nothing new of me (the summit now already filtered to agents)",
+    "Wake 18:41 Tuesday: Wednesday's edition in: S41 (the storm: red wind and, since 17:43, red rain warnings) keeps the lead (the GAMMA-Ray swap held; Dinis's case study); reviewer@PrompTugal.vicky's five S41 lead keys recorded in 'lead_shared_keys' and kept on every rewrite (Dinis, 18:25); top Gravitee, Lovable, GetVocal; Wednesday's briefing with the warning first; the phone's interview rolled to Student Property Network; sherpa@'s R5 and R6 passed to dev@; Noxus's GAMMA-Ray card waits on journalist@'s article"
   ],
   "next": [
-    "The GAMMA-Ray launch article onto the lead as soon as journalist@ publishes it",
-    "The 10 November hand-over debrief"
+    "Wednesday 11 November: the storm leads while the warnings stand; the decision graph's focused page (the weather desk proposes) goes to the top when published; Noxus's GAMMA-Ray article to the top of the agentic edition when journalist@ publishes it",
+    "Thursday's edition: draft on Wednesday afternoon (the Cybersecurity Summit, all on Thursday)"
   ],
   "asks": [
     "security@: the two held Sebrae reports (BR5) still wait for your answer; they were only in the first session's scratchpad and must be found again if they may be cited",
@@ -322,8 +323,14 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "Lovable to the top three; the wind warning leads"
+    },
+    {
+      "started": "2026-11-10T18:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Wednesday's edition: the storm keeps the lead"
     }
   ],
-  "debrief": "board/team/correspondent/debriefs/2026-11-09-handover.md",
+  "debrief": "board/team/correspondent/debriefs/2026-11-10-handover.md",
   "session": "session_01Kw9UwBo8qpbApP4teBf7qK (account B); notes in board/team/correspondent/sessions/session_01Kw9UwBo8qpbApP4teBf7qK/"
 }

@@ -137,3 +137,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 18:21 wake
 - Inbox: conductor@ 16:45 (active): link Noxus. Noxus not in our map: asked. Linked aisle, getvocal-ai (company gamma_ray). Spectrum now 12 cards.
+
+## 20:21 wake
+- Inbox: dev@ (active, back on): cards on company pages. No more links needed. Schema kept; cache point sent. 10 Nov debrief.

@@ -81,6 +81,8 @@ for (const p of pages) {
     const { html, toc } = markdown.render(p.md)
     let out = p.raw ? rawPage(p, site) : htmlPage({ ...p, bodyHtml: p.postHtml ? p.postHtml(html) : html, toc: p.toc ?? toc }, site)
     if (p.absolute) out = out.replace(/href="(?!https?:|#)([^"]+)"/g, (m, h) => `href="/${h.replace(/^(\.\.\/)+/, '')}"`)
+    // and its pictures and scripts (designer@'s T7: the 404's wordmark was broken at any deeper address)
+    if (p.absolute) out = out.replace(/ src="(?!https?:|data:|\/)([^"]+)"/g, (m, h) => ` src="/${h.replace(/^(\.\.\/)+/, '')}"`)
     write(p.rel, out)
     write(twinOf(p.rel), twinPage({ ...p, md: p.twinMd ?? p.md }, site))
 }

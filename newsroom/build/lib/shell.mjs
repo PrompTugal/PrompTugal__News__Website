@@ -16,7 +16,7 @@
 //   <div id="nr-live" data-start="…" data-end="…"></div>  under the sections: the live strip (assets/live/live.js fills it 9 to 12 Nov)
 //   <div id="nr-pane" hidden></div>           the right-hand pane root: the chat and the vault open here
 import { seoHead } from './seo.mjs'
-import { ctopHead, ctabs } from './top.mjs'
+import { ctopHead, ctabs, emastHead } from './top.mjs'
 import { esc, inline, stripHooks } from './markdown.mjs'
 
 const upOf = rel => '../'.repeat(rel.split('/').length - 1)
@@ -103,6 +103,8 @@ ${seoHead(page, site)}
 <body class="type-${esc(type || 'site')}${front ? ' page-front' : ''}">
 <a class="skip" href="#main">Skip to the content</a>
 <p class="getapp"><a href="https://testflight.apple.com/join/2afhStnX" target="_blank" rel="noopener"><b>Get the PrompTugal app</b> for iPhone and iPad, free on TestFlight <span aria-hidden="true">›</span></a></p>
+<div id="nr-live" data-start="${S.countdown.start}" data-end="${S.countdown.end}"></div>
+${emastHead({ up, href, site, section, shortDate, WORDMARK })}
 ${ctopHead({ up, href, site, section, shortDate, WORDMARK })}
 <div class="dateline"><div class="row"><span class="dl-where"><span class="dl-long">${esc(S.place)} · </span><time class="dl-date" datetime="${site.TODAY}"><span class="dl-long">${site.DAY(site.TODAY)} ${y}</span><span class="dl-short">${shortDate}</span></time></span><span class="dl-right"><span class="countdown" data-start="${S.countdown.start}" data-end="${S.countdown.end}" data-day1="${S.countdown.day1}"></span> · <span class="dl-long">Edition </span>${ver}</span>${utility ? `<span class="dl-util">${utility}</span>` : ''}</div></div>
 <header class="mast${front ? '' : ' compact'}">
@@ -111,7 +113,6 @@ ${ears}
 <p class="motto">${esc(S.motto)}</p>
 </header>
 <nav class="site" aria-label="Sections"><div class="row"><div class="links">${nav}</div><div class="tools" id="nr-tools"></div></div></nav>
-<div id="nr-live" data-start="${S.countdown.start}" data-end="${S.countdown.end}"></div>
 ${page.before || ''}
 <div class="frame">
 <main id="main"${wide ? ' class="wide"' : ''}>

@@ -1,0 +1,26 @@
+/* GAMMA-Ray Spectrum cards (newsroom/build/features/gamma.mjs): designer@'s H3, H4 (chip fills by level, never red or
+   green), H10. Ruled like E's sections. */
+.gr-strip { padding: 22px 0 8px; }
+.gr-w { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); box-sizing: border-box; }
+.gr-strip h2, .gr-block h2 { border-top: 3px solid var(--ink); padding-top: 8px; font: 600 13px/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; margin: 0 0 6px; }
+.gr-strip h2 small { font: 600 11px var(--mono); letter-spacing: .04em; color: var(--brand-red); margin-left: 6px; text-transform: none; }
+.gr-legend { font-size: 14px; color: var(--ink-2); max-width: 70ch; margin: 0 0 14px; }
+.gr-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); margin: 0 0 12px; }
+.gr-card { border: 1px solid var(--rule-2); border-top: 3px solid var(--ink); background: var(--panel); padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+.gr-card header p, .gr-card p { margin: 0; }
+.gr-k { font: 600 10.5px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.gr-card h3 { margin: 2px 0 0; font: 600 19px/1.2 var(--serif); } .gr-card h3 a { color: var(--ink); text-decoration: none; } .gr-card h3 a:hover { text-decoration: underline; }
+.gr-co { font-size: 13.5px; color: var(--ink-2); } .gr-co a { color: inherit; }
+.gr-chips { display: flex; gap: 6px; }
+.gr-chip { display: inline-flex; align-items: baseline; gap: 3px; min-width: 40px; justify-content: center; padding: 4px 8px; border: 1px solid var(--ink); border-radius: 3px; font: 600 13px var(--mono); color: var(--ink); }
+.gr-chip b { font-weight: 700; }
+.gr-l0 { border-style: dashed; border-color: var(--ink-3); color: var(--ink-3); }
+.gr-l2 { background: color-mix(in srgb, var(--ink) 15%, transparent); }
+.gr-l3 { background: color-mix(in srgb, var(--ink) 40%, transparent); }
+.gr-l4 { background: var(--ink); color: var(--paper); }
+.gr-stage { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-2); }
+.gr-bar { flex: none; width: 80px; height: 6px; background: var(--rule); border-radius: 3px; overflow: hidden; }
+.gr-bar i { display: block; height: 100%; width: calc(var(--n) / 16 * 100%); background: var(--ink); }
+.gr-meta { font: 12px var(--mono); color: var(--ink-3); } .gr-meta a { color: var(--ink-2); }
+.gr-more { font-size: 14px; margin: 4px 0 0; }
+.gr-block { margin: 6px 0 22px; }

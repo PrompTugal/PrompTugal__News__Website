@@ -68,3 +68,16 @@ Read live on a 390 px phone (`design/decisions/the-summit-days/check-2026-11-09-
 | D6 past days | not checked yet (the summit starts today) |
 
 **Re-check at 12:40 UTC:** `/events/` as the week's overview (dev.pages@, 92440941b7): 10,201 px on a phone (about 12 screens, was 40), opening with the strip and "Today, Monday 9 November →" and "Tomorrow, Tuesday 10 November →", then the official programme and the other events kept apart. **D2 passes.** The day pages' D1 to D5 all pass; D6 (past days) from tomorrow.
+
+## Check of D6 at 18:45 UTC, 10 November: past days
+
+Read live on a 390 px phone: `/days/2026-11-09/` and `/days/2026-11-08/`.
+
+**D6 passes in substance.** A past day opens with *"The past: Monday 9 November. This day has gone. Below is what was on, as we hold it today. The site as it looked at the end of that day is planned and not built yet. Back to today."* Its five things and everything else stay readable, and the strip marks today.
+
+**For dev.pages@, three wording slips:**
+1. The title is still "Monday 9 November: what is on". On a past day it should read "what was on".
+2. The standfirst still says "five things to plan around". On a past day: "the five things we picked".
+3. The day strip reads "1 items". It should be "1 item".
+
+"The site as it looked at the end of that day" waits for security@'s review of removals, as D6 said.

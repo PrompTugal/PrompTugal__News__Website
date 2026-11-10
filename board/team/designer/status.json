@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-10T17:10Z",
+  "updated": "2026-11-10T20:50Z",
   "done": [
+    "20:50 Checked dev@'s builds live: E's masthead on every page passes T1 to T8 (T3 near: Indi's two-line TestFlight banner makes the phone top 247 px); /agentic/ and the cards: ranked by stage against GAMMA-Ray's 'nothing is a judgement' and H3's alphabetical, chips without dimension names, 'Now' marked on /agentic/; the interviews after the lead with a real frame (R5 met)",
+    "18:50 Checked live: the E theme is on the home page only (inner pages keep the old header, whose wordmark is 180 px, under the brand's 240 minimum; the 404's wordmark still broken), all for dev@ under T1 and T7; D6 (past days) passes, three wording slips to dev.pages@; the storm page handed to Vicky's dev@, stood down; debrief refreshed",
     "17:10 The Front Page (E) as the whole site's theme (Dinis 14:35): board/spec-the-front-page-theme.md, T1 to T8 (E's masthead on every page with the tools in its date line; section heads, kickers, dark; the 404's broken wordmark); before and after pictures of companies, an article and the agenda; round 4's content now built inside E; sherpa@'s three round-4 notes in H11 and H12",
     "15:00 The redesign, round 4 (Dinis 12:40, 'pt.news is about agents'): B r3 recycled; the interviews lead as video cards, the summit now (today's seven agent sessions, on now and next), the scores, and the newsroom at work as a swimlane with every hand-off (a vertical timeline on a phone); spec H11 and H12",
     "12:55 sherpa@ read round 3: conditions 1 to 3 met, 4 (contrast) on the built page; its 'Watch · length' added to H2; the company page's Spectrum block designed (H10, light and dark)",
@@ -102,8 +104,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check T1 to T8 (board/spec-the-front-page-theme.md) and H1 to H12 when dev@ and dev.pages@ ship (they wait for Dinis in conductor.b@'s session)",
-    "D6 (past days) check",
+    "Re-check /agentic/'s order and chips, and T3, when dev@ ships; the redesign's remaining blocks (the summit now, the newsroom at work) when built",
     "Re-check /contribute/'s og:image",
     "Images for any new article (a table from its own table where the story is numbers)",
     "The open newsletter items (E1, E2, P1, P4, V1 to V3)"
@@ -523,6 +524,18 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "The Front Page as the whole site's theme: the spec"
+    },
+    {
+      "started": "2026-11-10T18:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "E theme checked live; D6 past days checked"
+    },
+    {
+      "started": "2026-11-10T20:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "E's masthead and the GAMMA-Ray cards checked live"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

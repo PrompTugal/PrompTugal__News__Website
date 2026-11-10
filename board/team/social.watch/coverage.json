@@ -1,0 +1,2109 @@
+{
+  "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
+  "by": "social.watch@PrompTugal.dinis",
+  "updated": "2026-11-10T19:55Z",
+  "sweeps": [
+    {
+      "n": 1,
+      "at": "2026-11-10T18:45Z",
+      "families": [
+        "news and blogs",
+        "X, Bluesky, Mastodon, Threads",
+        "LinkedIn",
+        "YouTube and video",
+        "Instagram and TikTok",
+        "Reddit, Hacker News, podcasts",
+        "Web Summit's own channels"
+      ],
+      "items": 71,
+      "duplicates_dropped": 5,
+      "dropped_after_review": 7,
+      "review": "Dropped: four LinkedIn profile pages of private people (not posts, not opened), two TikTok listing pages and the Carris home page (not content)."
+    },
+    {
+      "n": 2,
+      "at": "2026-11-10T19:51Z",
+      "families": [
+        "news and blogs",
+        "X, Bluesky, Mastodon, Threads",
+        "YouTube and video",
+        "Web Summit's own channels (with news)"
+      ],
+      "items": 14,
+      "duplicates_dropped": 0,
+      "note": "Three sub-agents (news with Web Summit's channels, social with Reddit and HN, video with podcasts); new since about 18:00 UTC"
+    }
+  ],
+  "items": [
+    {
+      "url": "https://jornaleconomico.sapo.pt/noticias/web-summit-fechada-na-quarta-feira-anuncia-autarquia-de-lisboa/",
+      "platform": "Jornal Económico",
+      "author": "André Cabrita-Mendes, José Carlos Lourinho",
+      "kind": "article",
+      "title": "Web Summit deverá fechar na quarta-feira, anuncia autarquia de Lisboa",
+      "quote": "Tudo indica que a Web Summit não poderá funcionar amanhã",
+      "published": "2026-11-10T13:23",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Carlos Moedas"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Storm Charles, red wind warning. Moedas says event likely cannot run Wednesday 11 Nov, final call with the Interior Ministry (MAI). Web Summit says it is assessing with ANEPC. Text says 'quarta-feira, 10 de novembro' in places: typo, means 11 Nov.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/fiquem-em-casa-todos-os-que-puderem-escolas-e-servicos-publicos-encerrados-amanha-siga-ao-minuto",
+      "platform": "Jornal de Negócios",
+      "author": "Negócios (live blog, several reporters and Lusa)",
+      "kind": "article",
+      "title": "Aeroportos condicionados, 4.000 clientes sem eletricidade. Governo recomenda suspensão da Web Summit",
+      "quote": null,
+      "published": "2026-11-10T18:25",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Luís Montenegro",
+        "Luís Neves",
+        "Carlos Moedas"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Live blog, updated 18:25. Government recommends suspending Wed 11 Nov; PM says organisers decide. Water entered one pavilion on Tuesday; many participants left early. National alert 00:00-23:59 Wed; red wind warning in 8 districts incl. Lisboa; airports restricted; sting jet not ruled out; about 4,000 E-Redes customers without power at 16:30.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://cnnportugal.iol.pt/aominuto/6af2d07dd34e5a653d7338e2",
+      "platform": "CNN Portugal",
+      "author": "CNN Portugal (live blog)",
+      "kind": "article",
+      "title": "Mau tempo AO MINUTO | Governo declara situação de alerta: escolas e serviços públicos não essenciais encerrados",
+      "quote": null,
+      "published": "2026-11-10T17:49",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Luís Montenegro"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Entry 17:49: government recommends the organisers suspend activities on Wednesday due to storm Charles; PM: the decision is theirs. Page last update seen 18:42.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://lisboaparapessoas.pt/2026/11/10/tempestade-charles-lisboa-setubal/",
+      "platform": "Lisboa Para Pessoas",
+      "author": "LPP editorial team",
+      "kind": "article",
+      "title": "Tempestade Charles em Lisboa esta quarta-feira. O que esperar?",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "IPMA red wind warning Lisbon 12:00-21:00 Wed 11 Nov (gusts 120 km/h, up to 140), Setúbal 09:00-21:00; orange rain from 05:00; orange sea 5-7 m; sting jet not excluded; road tunnels closed from 00:00; Rede Expressos suspended 10:00-midnight. Interior minister said no change planned to the event at that time of writing.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://away.iol.pt/aviso-vermelho-ipma/vento/alerta-vermelho-ipma-admite-cenario-semelhante-ao-da-tempestade-kristin-e-aponta-lisboa-como-uma-das-regioes-mais-atingidas/20261110/6af2d9fd0cf2cb2507aa81b4",
+      "platform": "Away (IOL)",
+      "author": "Redação AWAY, with Lusa",
+      "kind": "article",
+      "title": "Alerta vermelho: IPMA admite cenário semelhante ao da tempestade Kristin e aponta Lisboa como uma das regiões mais atingidas",
+      "quote": null,
+      "published": "2026-11-10T08:46",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "IPMA red wind warning Lisbon 12:00-21:00 Wed; IPMA meteorologist Bruno Café says worsening may start earlier, in the morning. Time shown as 'Hoje 08:46', date inferred from URL 20261110.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.nit.pt/fora-de-casa/na-cidade/ipma-coloca-lisboa-e-outros-7-distritos-sob-alerta-vermelho-esta-quarta-feira",
+      "platform": "NiT",
+      "author": "Izabelli Pincelli",
+      "kind": "article",
+      "title": "Lisboa e outros 7 distritos sob alerta vermelho. As recomendações da Proteção Civil",
+      "quote": "Será ainda proibida a circulação em parques, florestas e jardins ao longo do dia.",
+      "published": "2026-11-10T10:20",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Red alert for 8 districts on Wed 11 Nov; schools and essential-only public services; parks, forests, gardens closed. No Web Summit mention seen.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://postal.pt/nacional/lisboa-vai-fechar-todos-os-tuneis-a-partir-da-meia-noite-parques-e-monumentos-tambem-encerram-devido-ao-mau-tempo/",
+      "platform": "Postal",
+      "author": "Rubén Gonçalves",
+      "kind": "article",
+      "title": "Lisboa vai fechar todos os túneis a partir da meia-noite: parques e monumentos também encerram devido ao mau tempo",
+      "quote": null,
+      "published": "2026-11-10T15:40",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Carlos Moedas"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "City closes all road tunnels from 00:00 Wed, monuments and parks closed, riverside areas restricted; Moedas says event may be affected, decision with MAI.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.jm-madeira.pt/not%C3%ADcias/nacional/30008992/web-summit-avalia-situacao-de-mau-tempo-junto-das-autoridades.html",
+      "platform": "JM Madeira",
+      "author": null,
+      "kind": "article",
+      "title": "Web Summit avalia situação de mau tempo junto das autoridades",
+      "quote": null,
+      "published": null,
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": false,
+      "note": "Seen in search results only; page returned no content when fetched, so unverified.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://lisboeta.news/article/854b2d94-b99e-45f0-b3ba-3117925ae5c2",
+      "platform": "The Lisboeta (republishing ECO)",
+      "author": "ECO (eco.sapo.pt), no byline",
+      "kind": "article",
+      "title": "Web Summit targeted by six million cyberattack attempts in two days",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "security",
+        "Portugal"
+      ],
+      "companies": [
+        "MEO"
+      ],
+      "company_ids": [
+        "meo"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "MEO systems intercepted 6,020,686 attacks as of Tuesday 15:18, slightly fewer than last year. Summary page on aggregator; original on eco.sapo.pt.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://observador.pt/2026/11/10/uniao-europeia-tem-de-conseguir-cortar-dependencias-arriscadas-na-tecnologia-diz-comissaria-virkkunen/",
+      "platform": "Observador",
+      "author": "Cátia Rocha",
+      "kind": "article",
+      "title": "União Europeia tem de \"conseguir cortar dependências arriscadas\" na tecnologia, diz comissária Virkkunen",
+      "quote": "a soberania tecnológica não significa isolamento ou proteccionismo",
+      "published": "2026-11-10T12:44",
+      "topics": [
+        "policy",
+        "Europe",
+        "sovereignty"
+      ],
+      "companies": [
+        "European Commission"
+      ],
+      "company_ids": [
+        "european-commission"
+      ],
+      "sessions": [
+        "Henna Virkkunen, main stage"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://lisboeta.news/article/c91f5aa4-90e3-4c68-9d16-6e31bf275bbb",
+      "platform": "The Lisboeta (republishing ECO)",
+      "author": "ECO (eco.sapo.pt)",
+      "kind": "article",
+      "title": "Large companies must 'fear regulators', says Irish data protection commissioner",
+      "quote": "Technology companies must know that regulators have the powers and teams to intervene",
+      "published": "2026-11-10T15:52",
+      "topics": [
+        "policy",
+        "regulation"
+      ],
+      "companies": [
+        "Data Protection Commission (Ireland)"
+      ],
+      "company_ids": [
+        "data-protection-commission"
+      ],
+      "sessions": [
+        "Des Hogan, regulation debate"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Aggregator summary; original on eco.sapo.pt.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.publico.pt/2026/11/09/enter/noticia/web-summit-abriu-promessas-ia-servico-cidadaos-2194362",
+      "platform": "Público",
+      "author": "Sérgio Magno",
+      "kind": "article",
+      "title": "Web Summit abriu com promessas de uma IA ao serviço dos cidadãos",
+      "quote": "Cada vez mais, as superestrelas do futuro não vêm da Califórnia, vêm da China",
+      "published": "2026-11-09T20:22",
+      "topics": [
+        "agentic AI",
+        "policy",
+        "Portugal",
+        "China"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Paddy Cosgrave opening",
+        "Gonçalo Matias",
+        "Carlos Moedas"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Matias: five commitments for public administration, an 'agentic state'. Cosgrave cites Revolut moving to a Chinese open-source model.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://lisboeta.news/article/a83c20b5-b2dd-4336-b940-c780515678b4",
+      "platform": "The Lisboeta (republishing Observador)",
+      "author": "Observador",
+      "kind": "article",
+      "title": "Portugal has \"opportunities in data centres\"",
+      "quote": null,
+      "published": "2026-11-09T18:53",
+      "topics": [
+        "Portugal",
+        "policy",
+        "data centres"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Gonçalo Matias"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Aggregator summary; original on observador.pt.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.rtp.pt/noticias/economia/robos-vindos-da-china-sao-as-estrelas-da-web-summit_v1778125",
+      "platform": "RTP",
+      "author": "RTP",
+      "kind": "article",
+      "title": "Robôs vindos da China são as estrelas da Web Summit",
+      "quote": "As estrelas deste ano são os robôs que vêm da China.",
+      "published": "2026-11-10",
+      "topics": [
+        "robotics",
+        "China",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Day 2 running as scheduled at time of writing (aggregator showed 14:31). Photo credit Lusa not reproduced.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://lisboeta.news/article/61f104fa-59d0-4b30-b4ca-a8d00bf83903",
+      "platform": "The Lisboeta (republishing Dinheiro Vivo)",
+      "author": "Dinheiro Vivo",
+      "kind": "article",
+      "title": "\"Anyone can learn to fly in five minutes\" with a Chinese flying car",
+      "quote": "The Land Aircraft Carrier is coming",
+      "published": "2026-11-10T16:49",
+      "topics": [
+        "startups",
+        "China",
+        "mobility"
+      ],
+      "companies": [
+        "Xpeng",
+        "Xpeng Aeroht"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Deli Zhao"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Aggregator summary; original on dinheirovivo.dn.pt.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://sapo.pt/artigo/a-web-summit-esta-de-regresso-a-lisboa-ate-quinta-feira-a-capital-volta-a-ser-o-centro-global-da-tecnologia-6af2f2dbdc9ea92269851ef2",
+      "platform": "SAPO (Diário de Notícias)",
+      "author": "Reinaldo Rodrigues (DN)",
+      "kind": "article",
+      "title": "A Web Summit está de regresso a Lisboa! Até quinta-feira, a capital volta a ser o centro global da tecnologia",
+      "quote": "Este ano, a China assume o protagonismo ao apresentar robôs e carros voadores.",
+      "published": "2026-11-10T10:30",
+      "topics": [
+        "China",
+        "robotics",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Night Summit"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://dnbrasil.dn.pt/negcios-br/brasil-traz-mais-de-200-empresas-para-o-web-summit-2026",
+      "platform": "DN Brasil",
+      "author": "Amanda Lima",
+      "kind": "article",
+      "title": "Brasil traz mais de 200 empresas para o Web Summit 2026",
+      "quote": "Cerca de 200 empresas brasileiras vão participar do Web Summit 2026 na próxima semana",
+      "published": "2026-11-04T16:51",
+      "topics": [
+        "Brazil",
+        "startups",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Porto Digital, ACATE, SENAI CIMATEC, Instituto Caldeira; supported by ApexBrasil, Sebrae.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://startups.com.br/eventos/web-summit/o-que-esperar-do-web-summit-lisboa-2026/",
+      "platform": "Startups.com.br",
+      "author": "Leandro Miguel Souza",
+      "kind": "article",
+      "title": "O que esperar do Web Summit Lisboa 2026?",
+      "quote": "A IA domina a pauta, mas em outra fase.",
+      "published": "2026-11-06T15:30",
+      "topics": [
+        "agentic AI",
+        "China",
+        "startups",
+        "Brazil"
+      ],
+      "companies": [
+        "Cloudflare",
+        "Atlassian",
+        "Replit",
+        "Manus AI"
+      ],
+      "company_ids": [
+        "atlassian",
+        "cloudflare",
+        "manus-ai",
+        "replit"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Preview piece; also names Tencent, Xiaomi, Pony.ai, XPENG, AgiBot.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/09/22/moedas-quer-reduzir-custos-para-manter-web-summit-apos-2028/",
+      "platform": "ECO",
+      "author": "ECO",
+      "kind": "article",
+      "title": "Moedas quer reduzir custos para manter Web Summit após 2028",
+      "quote": "mas quer reduzir os encargos associados ao evento",
+      "published": "2026-09-22",
+      "topics": [
+        "Portugal",
+        "policy",
+        "investment"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Carlos Moedas"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Background: Lisbon council EUR 8m toward the bid to keep the summit; older than the sweep window.",
+      "family": "news and blogs",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://mastodon.social/@nico42/117593473112494351",
+      "platform": "Mastodon",
+      "author": "nico42",
+      "kind": "post",
+      "title": null,
+      "quote": "Unfortunately it’ll be closed most likely tomorrow because a huge storm is approaching Lisbon",
+      "published": "2026-11-10T18:06:00Z",
+      "topics": [
+        "storm",
+        "startups"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API; user speculation, not an official announcement",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://masto.pt/@Chatinho/117592116451447499",
+      "platform": "Mastodon",
+      "author": "Chatinho (masto.pt)",
+      "kind": "post",
+      "title": null,
+      "quote": "tempestade de alerta elevado e Carlos Moedas a dançar com robots",
+      "published": "2026-11-10T12:21:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API; mentions a high-alert storm warning",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://social.coletivos.org/@ervilha/117593181570667621",
+      "platform": "Mastodon",
+      "author": "ervilha (coletivos.org)",
+      "kind": "post",
+      "title": null,
+      "quote": "Oh Moedas anda cá arranjar isto! #webSummit #lisboa #chuva",
+      "published": "2026-11-10T16:52:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API; rain complaint, likely about city infrastructure",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:e5qqz2ipcqcww5hxfhrvwgpj/post/3mzvxuxiz4k2z",
+      "platform": "Bluesky (via Mastodon bridge)",
+      "author": "serialpeter.bsky.social",
+      "kind": "post",
+      "title": null,
+      "quote": "A Bruna passar por cima da #WebSummit e deixá-los completamente às escuras",
+      "published": "2026-11-09T22:26:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API; refers to storm 'Bruna' (named storm) as a joke; original at bsky.app/profile/serialpeter.bsky.social/post/3mzvxuxiz4k2z",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:drsuvxemjgu367n6xn4brx4h/post/3mzvs2yckts24",
+      "platform": "Bluesky (via Mastodon bridge)",
+      "author": "robpegoraro.com",
+      "kind": "post",
+      "title": null,
+      "quote": "In finding all these vulns, \"AI is the hero\"",
+      "published": "2026-11-09T20:42:00Z",
+      "topics": [
+        "security",
+        "agentic AI",
+        "speakers"
+      ],
+      "companies": [
+        "Cloudflare"
+      ],
+      "company_ids": [
+        "cloudflare"
+      ],
+      "sessions": [
+        "Matthew Prince (Cloudflare CEO), opening night"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:drsuvxemjgu367n6xn4brx4h/post/3mzvlh2iavs24",
+      "platform": "Bluesky (via Mastodon bridge)",
+      "author": "robpegoraro.com",
+      "kind": "post",
+      "title": null,
+      "quote": "Opening night at #WebSummit has even more of an Olympics opening-ceremony vibe",
+      "published": "2026-11-09T18:44:00Z",
+      "topics": [
+        "speakers"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://observador.pt/especiais/entraram-a-dancar-mas-vieram-mostrar-trabalho-robos-ganham-voz-na-web-summit-e-desafiam-humanos-a-estar-a-altura/",
+      "platform": "Mastodon (Observador bridge)",
+      "author": "observador.pt",
+      "kind": "post",
+      "title": "Robôs ganham voz e desafiam humanos a \"estar à altura\"",
+      "quote": null,
+      "published": "2026-11-09T22:55:00Z",
+      "topics": [
+        "robotics",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://observador.pt/2026/11/10/assustadora-ou-uma-nova-forma-de-contar-historias-tilly-norwood-a-atriz-de-ia-sem-botox-nem-cachet/",
+      "platform": "Mastodon (Observador bridge)",
+      "author": "observador.pt",
+      "kind": "post",
+      "title": "Tilly Norwood, a \"atriz\" de IA sem botox nem cachet",
+      "quote": null,
+      "published": "2026-11-10T12:38:00Z",
+      "topics": [
+        "AI"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API; link to Observador article, Web Summit connection per hashtag/timeline only",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://fed.brid.gy/r/https://observador.pt/2026/11/09/portugal-tem-oportunidades-nos-centros-de-dados-desde-que-sejam-bons-vizinhos-diz-goncalo-matias-na-abertura-da-web-summit/",
+      "platform": "Mastodon (Observador bridge)",
+      "author": "observador.pt",
+      "kind": "post",
+      "title": "Portugal tem \"oportunidades nos centros de dados\"",
+      "quote": null,
+      "published": "2026-11-09T18:53:00Z",
+      "topics": [
+        "Portugal",
+        "policy",
+        "data centres"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Gonçalo Matias (opening)"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://fed.brid.gy/r/https://observador.pt/especiais/um-palco-sem-estrelas-o-fascinio-pela-china-e-a-politica-a-um-canto-a-web-summit-ainda-e-o-que-era/",
+      "platform": "Mastodon (Observador bridge)",
+      "author": "observador.pt",
+      "kind": "post",
+      "title": "Dez anos depois, a Web Summit ainda é o que era?",
+      "quote": null,
+      "published": "2026-11-08T15:06:00Z",
+      "topics": [
+        "Portugal",
+        "speakers"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://observador.pt/2026/09/23/camara-de-lisboa-aprova-338-milhoes-de-euros-para-a-web-summit-e-programa-de-dinamizacao-da-procura-turistica/",
+      "platform": "Mastodon (Observador bridge)",
+      "author": "observador.pt",
+      "kind": "post",
+      "title": "CML aprova 33,8 milhões para Web Summit e turismo",
+      "quote": null,
+      "published": "2026-09-23T18:43:00Z",
+      "topics": [
+        "Portugal",
+        "policy",
+        "investment"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://social.coletivos.org/@ervilha/117587027618961815",
+      "platform": "Mastodon",
+      "author": "ervilha (coletivos.org)",
+      "kind": "post",
+      "title": null,
+      "quote": "Ervilha paga jantar às elites da web summit!",
+      "published": "2026-11-09T14:47:00Z",
+      "topics": [
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API; critical political comment",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://phpc.social/@t_var_s/117587175893796133",
+      "platform": "Mastodon",
+      "author": "t_var_s (phpc.social)",
+      "kind": "post",
+      "title": null,
+      "quote": "o verdadeiro #websummit é o bebe summit",
+      "published": "2026-11-09T15:25:00Z",
+      "topics": [
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API; humorous",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://mas.to/@squads/117581570639054104",
+      "platform": "Mastodon",
+      "author": "squads (mas.to)",
+      "kind": "post",
+      "title": null,
+      "quote": "Join us at Web Summit in Lisbon",
+      "published": "2026-11-08T15:39:00Z",
+      "topics": [
+        "startups"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://mastodon.social/@victoriametrics/117483270110075551",
+      "platform": "Mastodon",
+      "author": "victoriametrics",
+      "kind": "post",
+      "title": null,
+      "quote": "#VictoriaMetrics is proud to be a Gold Partner at WebSummit Lisbon 2026.",
+      "published": "2026-10-22T07:00:00Z",
+      "topics": [
+        "observability",
+        "startups"
+      ],
+      "companies": [
+        "VictoriaMetrics"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://mastodon.social/@kristigjeka/117548387489878018",
+      "platform": "Mastodon",
+      "author": "kristigjeka",
+      "kind": "post",
+      "title": null,
+      "quote": "I'll be at Web Summit 2026 (Nov 9–12) representing Kalemi",
+      "published": "2026-11-02T19:00:00Z",
+      "topics": [
+        "AI",
+        "startups"
+      ],
+      "companies": [
+        "Kalemi",
+        "Publer"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://mastodon.social/@denisqyra/117547155416735528",
+      "platform": "Mastodon",
+      "author": "denisqyra",
+      "kind": "post",
+      "title": null,
+      "quote": "Food & Marketing meetup Tue 10 Nov, 12:30, stand E368.",
+      "published": "2026-11-02T13:47:00Z",
+      "topics": [
+        "startups",
+        "marketing"
+      ],
+      "companies": [
+        "Linkie by Publer"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Food & Marketing meetup, Tue 10 Nov"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://mastodon.uno/@MelaNews/117520222449943699",
+      "platform": "Mastodon",
+      "author": "MelaNews (mastodon.uno)",
+      "kind": "post",
+      "title": null,
+      "quote": "Apple torna al Web Summit di Lisbona, dal 9 al 12 novembre",
+      "published": "2026-10-28T19:38:00Z",
+      "topics": [
+        "policy",
+        "speakers"
+      ],
+      "companies": [
+        "Apple"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Sébastien Gros (Apple)"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://scottishgames.net/2026/11/05/baglow-jones-web-summit-2026-hire-game-developers/",
+      "platform": "Mastodon",
+      "author": "scottishgames (scottishgames.net)",
+      "kind": "post",
+      "title": "Game Developers: Your Next Key Hire – Jones & Baglow Take The Stage at Web Summit Lisbon 2026",
+      "quote": null,
+      "published": "2026-11-05T12:36:00Z",
+      "topics": [
+        "startups",
+        "gaming"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://mastodon.social/@nico42/117578303476920682",
+      "platform": "Mastodon",
+      "author": "nico42",
+      "kind": "post",
+      "title": null,
+      "quote": "Preparing for #WebSummit",
+      "published": "2026-11-08T01:48:00Z",
+      "topics": [
+        "startups"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened via the public Mastodon tag-timeline API",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dJi_pXLxwno",
+      "platform": "YouTube",
+      "author": "Web Summit",
+      "kind": "video",
+      "title": "Web Summit Lisbon 2026 | Opening Night",
+      "quote": "Web Summit Lisbon 2026 | Opening Night",
+      "published": "2026-11-09",
+      "topics": [
+        "summit",
+        "speakers"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Official channel stream of opening night. Title and channel confirmed by oEmbed; date from relative age (streamed ~22h before sweep).",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=S9RHQGNIaFY",
+      "platform": "YouTube",
+      "author": "Web Summit",
+      "kind": "video",
+      "title": "Web Summit Lisbon 2026 | Day One",
+      "quote": "Web Summit Lisbon 2026 | Day One",
+      "published": "2026-11-10",
+      "topics": [
+        "summit",
+        "speakers"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Official channel stream of day one. Title and channel confirmed by oEmbed; date from relative age.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XMEf-M9k5yw",
+      "platform": "YouTube",
+      "author": "Replit",
+      "kind": "video",
+      "title": "Replit Live: Web Summit Lisbon 2026 | Day 1",
+      "quote": "Replit Live: Web Summit Lisbon 2026 | Day 1",
+      "published": "2026-11-10",
+      "topics": [
+        "agentic AI",
+        "startups"
+      ],
+      "companies": [
+        "Replit"
+      ],
+      "company_ids": [
+        "replit"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uXTIOZpQ3uQ",
+      "platform": "YouTube",
+      "author": "Make",
+      "kind": "video",
+      "title": "Web Summit Lisbon: Day 1",
+      "quote": "Web Summit Lisbon: Day 1",
+      "published": "2026-11-10",
+      "topics": [
+        "startups",
+        "AI automation"
+      ],
+      "companies": [
+        "Make"
+      ],
+      "company_ids": [
+        "make"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MO1681bMX-c",
+      "platform": "YouTube",
+      "author": "Government Communications Office",
+      "kind": "video",
+      "title": "قطر في قمة الويب لشبونة 2026- Qatar at Web Summit Lisbon 2026",
+      "quote": "قطر في قمة الويب لشبونة 2026- Qatar at Web Summit Lisbon 2026",
+      "published": "2026-11-10",
+      "topics": [
+        "policy",
+        "investment"
+      ],
+      "companies": [
+        "Qatar"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Channel name as shown by oEmbed (Government Communications Office, Qatar presence). Date from relative age.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LsCsHpkPgpc",
+      "platform": "YouTube",
+      "author": "FRANCE 24 English",
+      "kind": "video",
+      "title": "China's 'impossible to ignore' tech rise on display at Web Summit in Lisbon",
+      "quote": "China's 'impossible to ignore' tech rise on display at Web Summit in Lisbon",
+      "published": null,
+      "topics": [
+        "China",
+        "AI",
+        "robotics"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Title and channel confirmed by oEmbed; published about 8h before sweep (10 Nov), exact time unknown.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=D8tZOrwLP0c",
+      "platform": "YouTube",
+      "author": "CNBC International Live",
+      "kind": "video",
+      "title": "Cloudflare CEO on 'Uncle Jensen's crazy credit card'",
+      "quote": "Cloudflare CEO on 'Uncle Jensen's crazy credit card'",
+      "published": null,
+      "topics": [
+        "AI",
+        "infrastructure",
+        "speakers"
+      ],
+      "companies": [
+        "Cloudflare"
+      ],
+      "company_ids": [
+        "cloudflare"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Interview on Web Summit coverage per search listing; confirmed title and channel by oEmbed, not watched. Published about 9h before sweep.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hsrThTM-oIM",
+      "platform": "YouTube",
+      "author": "CGTN Europe",
+      "kind": "video",
+      "title": "AI, robotics and more: CGTN explores the future at Web Summit 2026",
+      "quote": "AI, robotics and more: CGTN explores the future at Web Summit 2026",
+      "published": null,
+      "topics": [
+        "AI",
+        "robotics",
+        "China"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6vvcyQyhS98",
+      "platform": "YouTube",
+      "author": "Renascença",
+      "kind": "video",
+      "title": "Décima edição da Web Summit em Lisboa. O que podemos esperar?",
+      "quote": "Décima edição da Web Summit em Lisboa. O que podemos esperar?",
+      "published": null,
+      "topics": [
+        "Portugal",
+        "summit preview"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Portuguese radio/TV preview; published about 1 day before sweep.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dQCc5UGakQo",
+      "platform": "YouTube",
+      "author": "The Spotlight: Beyond Profession",
+      "kind": "video",
+      "title": "Robots Take the Stage at Web Summit: Is Europe Ready for Physical AI?",
+      "quote": "Robots Take the Stage at Web Summit: Is Europe Ready for Physical AI?",
+      "published": null,
+      "topics": [
+        "robotics",
+        "Europe",
+        "AI"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=89tY8-exU5k",
+      "platform": "YouTube",
+      "author": "The Spotlight: Beyond Profession",
+      "kind": "video",
+      "title": "Web Summit 2026: Is the AI Funding Boom Cooling for European Startups?",
+      "quote": "Web Summit 2026: Is the AI Funding Boom Cooling for European Startups?",
+      "published": null,
+      "topics": [
+        "investment",
+        "startups",
+        "Europe"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=c0pl5x6i248",
+      "platform": "YouTube",
+      "author": "Verus",
+      "kind": "video",
+      "title": "Verus and Confrmo at Web Summit Lisbon 2026 | Private messaging, verified identity",
+      "quote": "Verus and Confrmo at Web Summit Lisbon 2026 | Private messaging, verified identity",
+      "published": null,
+      "topics": [
+        "security",
+        "identity",
+        "startups"
+      ],
+      "companies": [
+        "Verus",
+        "Confrmo"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Exhibitor's own video.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RpB4VY_ymGI",
+      "platform": "YouTube",
+      "author": "Canal Rural",
+      "kind": "video",
+      "title": "Websummit Portugal reúne 200 expositores brasileiros",
+      "quote": "Websummit Portugal reúne 200 expositores brasileiros",
+      "published": "2026-11-10",
+      "topics": [
+        "Brazil",
+        "startups"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Brazilian channel; date from relative age (about 1h before sweep).",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nCiSiC-r9qc",
+      "platform": "YouTube",
+      "author": "HFerreira",
+      "kind": "video",
+      "title": "Web Summit 2026 Lisbon: Is It Driving Portugal's Housing Crisis? (Vlog #9)",
+      "quote": "Web Summit 2026 Lisbon: Is It Driving Portugal's Housing Crisis? (Vlog #9)",
+      "published": null,
+      "topics": [
+        "Portugal",
+        "housing",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Vlog by a private creator, handle only. Published about 18h before sweep.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CH9axjGRt3w",
+      "platform": "YouTube",
+      "author": "VOICE OF NEPAL TV - VON",
+      "kind": "video",
+      "title": "Web Summit 2026 — Global Tech Leaders Gather in Lisbon as Artificial Intelligence Takes Centre Stage",
+      "quote": null,
+      "published": null,
+      "topics": [
+        "AI",
+        "speakers"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6QnmhjEGFf4",
+      "platform": "YouTube",
+      "author": "Masaru IKEDA",
+      "kind": "video",
+      "title": "Web Summit 2026 現地 Vlog｜Opening Night はロボットも空飛ぶクルマも中国勢──AgiBot、Manus AI、Xpeng Aridge",
+      "quote": "Web Summit 2026 現地 Vlog｜Opening Night はロボットも空飛ぶクルマも中国勢──AgiBot、Manus AI、Xpeng Aridge",
+      "published": "2026-11-10",
+      "topics": [
+        "robotics",
+        "China",
+        "AI"
+      ],
+      "companies": [
+        "Manus AI"
+      ],
+      "company_ids": [
+        "manus-ai"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Japanese-language vlog from opening night; handle/name as shown. Date approx (about 7h before sweep).",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JzLsTw-BCIA",
+      "platform": "YouTube",
+      "author": "RVTV",
+      "kind": "video",
+      "title": "🔴 DIRETO | NAMA BABY na WEB SUMMIT 2026",
+      "quote": "🔴 DIRETO | NAMA BABY na WEB SUMMIT 2026",
+      "published": "2026-11-10",
+      "topics": [
+        "startups",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Live stream series from RVTV at Web Summit (similar items for MOWLY, SPORTS HIVE).",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NH2Mpu3vcSE",
+      "platform": "YouTube",
+      "author": "SECTIES PB",
+      "kind": "video",
+      "title": "CONHEÇA AS TECNOLOGIAS DESENVOLVIDAS NA PARAÍBA PARA O MUNDO - WEB SUMMIT 2026 - AO VIVO DE LISBOA",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "Brazil",
+        "startups"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Title and channel confirmed by YouTube oEmbed; date from YouTube search relative age, day precision at best.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YR-Sl6ob2Ow",
+      "platform": "YouTube",
+      "author": "Buhle Goslar",
+      "kind": "video",
+      "title": "Web Summit 2026, Lisbon | Ready!",
+      "quote": "Web Summit 2026, Lisbon | Ready!",
+      "published": null,
+      "topics": [
+        "summit"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Private creator vlog, name as shown on channel.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fi3odaoiJz8",
+      "platform": "YouTube",
+      "author": "NOW Canal",
+      "kind": "video",
+      "title": "«Não compreendo porque não suspendem a Web Summit, que tem 60 a 70 mil pessoas»",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Guest argues the Web Summit should be suspended given severe weather; title only (page body not readable). Published about 1h before sweep (~17:50 UTC 10 Nov, approx).",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SzwxoCkwNBg",
+      "platform": "YouTube",
+      "author": "NOW Canal",
+      "kind": "video",
+      "title": "Resposta a intempéries: 'Exército e Forças Armadas são agentes de proteção civil'",
+      "quote": "Resposta a intempéries: 'Exército e Forças Armadas são agentes de proteção civil'",
+      "published": "2026-11-10",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Severe weather response segment on the Portuguese channel NOW; title only, not specific to the summit. Published about 3h before sweep.",
+      "family": "YouTube and video",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.tiktok.com/@websummit",
+      "platform": "TikTok",
+      "author": "Web Summit (@websummit)",
+      "kind": "page",
+      "title": "Web Summit's Creator Profile",
+      "quote": "Web Summit's Creator Profile",
+      "published": null,
+      "topics": [
+        "official account"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": false,
+      "note": "Profile confirmed to exist via TikTok public oEmbed (profile type). The profile page itself renders no videos without JS/login, so no 2026 post could be confirmed here. Official account; Silvio's agent covers official posts.",
+      "family": "Instagram and TikTok",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.instagram.com/websummit/",
+      "platform": "Instagram",
+      "author": "Web Summit (@websummit)",
+      "kind": "page",
+      "title": null,
+      "quote": null,
+      "published": null,
+      "topics": [
+        "official account"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": false,
+      "note": "Official account; fetch returned HTTP 429 (login/rate wall), not worked around. Silvio's Instagram agent covers it.",
+      "family": "Instagram and TikTok",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://powerhouse.indvstryclvb.com/websummit",
+      "platform": "Indvstry Clvb (podcast event page)",
+      "author": "Indvstry Clvb",
+      "kind": "page",
+      "title": "Indvstry Power House | Web Summit Lisbon 2026",
+      "quote": "Dear Gatekeepers Live",
+      "published": null,
+      "topics": [
+        "podcast",
+        "AI",
+        "entertainment",
+        "storm"
+      ],
+      "companies": [
+        "Indvstry Clvb"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Dear Gatekeepers Live, live recording, Wed 11 Nov 10:00-11:00, MEO Arena official studio"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Live podcast recording scheduled for Wednesday 11 Nov, the storm day; page shows no weather notice or change. Worth watching for a cancellation.",
+      "family": "Reddit, Hacker News, podcasts",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://iproxy.online/blog/web-summit-2026-side-events/",
+      "platform": "iproxy.online (blog)",
+      "author": "iproxy.online",
+      "kind": "page",
+      "title": "Web Summit Lisbon 2026 Side Events: The (Almost) Complete List",
+      "quote": null,
+      "published": "2026-11-07",
+      "topics": [
+        "podcast",
+        "side events",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Full Circle Live: Creating in the Age of AI (Mon 9 Nov, 20:00, PTW Palace, Anjos)",
+        "Web Summit x Tech Talks Run Club & Coffee (Tue 10 Nov, 07:00, Terreiro do Paco, host David Savage)"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Updated date 7 Nov. Page truncated at fetch; Wednesday listings not read, no storm mention seen. Lists podcast-linked side events.",
+      "family": "Reddit, Hacker News, podcasts",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.cnbc.com/video/2026/11/10/tech-ceos-discuss-ai-build-out-at-web-summit-in-lisbon.html",
+      "platform": "CNBC (Squawk Box Europe)",
+      "author": "CNBC",
+      "kind": "video",
+      "title": "Tech CEOs discuss AI build out at Web Summit in Lisbon",
+      "quote": "Tech CEOs discuss AI build out at Web Summit in Lisbon",
+      "published": "2026-11-10",
+      "topics": [
+        "AI",
+        "investment",
+        "speakers"
+      ],
+      "companies": [
+        "Cloudflare",
+        "Lovable",
+        "Recursive"
+      ],
+      "company_ids": [
+        "cloudflare"
+      ],
+      "sessions": [
+        "Matthew Prince (Cloudflare)",
+        "Richard Socher (Recursive)",
+        "Anton Osika (Lovable)"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "URL carries 2026/11/10; page shows only '6 hours ago'. Squawk Box Europe is also a podcast feed; not confirmed whether an audio episode exists. Link only.",
+      "family": "Reddit, Hacker News, podcasts",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.ipma.pt/pt/otempo/prev-sam/timeline.jsp?print=true&reg=LSB",
+      "platform": "IPMA",
+      "author": "IPMA (Instituto Portugues do Mar e Atmosfera)",
+      "kind": "page",
+      "title": "Avisos meteorologicos para Lisboa",
+      "quote": "Rajadas até 120 km/h, podendo atingir 140 km/h nos locais mais expostos.",
+      "published": "2026-11-10T16:30:00Z",
+      "topics": [
+        "storm",
+        "weather",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Official warning page, last updated 10 Nov 16:30 (UTC). Lisboa 11 Nov (UTC): rain orange 05-12, rain RED 12-18, wind RED 12-21, sea orange 12-21 (swell 5-7 m, up to 13 m).",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://tek.sapo.pt/noticias/ciencia/artigos/depressao-charles-web-summit-sob-duvida-pontes-do-tejo-com-limite-de-60-km-h-e-tuneis-de-lisboa-fechados/",
+      "platform": "TEK Notícias",
+      "author": "Gustavo Dias",
+      "kind": "article",
+      "title": "Depressão Charles: Web Summit sob dúvida, pontes do Tejo com limite de 60 km/h e túneis de Lisboa fechados",
+      "quote": null,
+      "published": "2026-11-10T14:25:00",
+      "topics": [
+        "storm",
+        "Portugal",
+        "transport"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Metro keeps running (closure not on table, 'evolutivo'); Lisbon tunnels, schools, parks close Wednesday; bridges limited to 60 km/h, could close at 150 km/h winds; >300 incidents in Lisbon.",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://www.rtp.pt/noticias/pais/pais-vai-ser-posto-a-prova-governo-declara-situacao-de-alerta-para-quarta-feira_e1778024",
+      "platform": "RTP",
+      "author": "RTP",
+      "kind": "article",
+      "title": "Primeiro-ministro alerta para \"horas difíceis\" e pede aos portugueses que não subestimem mau tempo",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Live blog. State of alert for mainland Wednesday 11 Nov 00:00-23:59, schools and non-essential public services closed, outdoor events suspended; 8 districts red incl. Lisboa; E-Redes ~4,000 without power by 17:00. No timestamp shown.",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "article",
+      "title": "Web Summit 2026: Record number of investors at its most international event yet",
+      "quote": "Web Summit 2026: Record number of investors at its most international event yet",
+      "published": "2026-11-10",
+      "topics": [
+        "investment",
+        "startups"
+      ],
+      "companies": [
+        "Web Summit",
+        "IBM"
+      ],
+      "company_ids": [
+        "ibm"
+      ],
+      "sessions": [
+        "IBM Sports Tech Startup Prize Competition"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Official blog; body text not retrievable, only headline and metadata. No weather mention.",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://websummit.com/blog/news/web-summits-first-state-of-the-industry-survey-finds-tech-torn-on-ai/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "article",
+      "title": "Web Summit's first state of the industry survey finds tech torn on AI",
+      "quote": "Web Summit's first state of the industry survey finds tech torn on AI",
+      "published": "2026-10-22",
+      "topics": [
+        "AI",
+        "survey"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Pre-event official post; body not retrievable.",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://websummit.com/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "page",
+      "title": "Web Summit - The best tech conference on the planet | November 9-12, 2026",
+      "quote": null,
+      "published": null,
+      "topics": [
+        "storm"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Homepage fetched about 18:50 UTC 10 Nov: no weather banner or notice about Wednesday visible. Negative finding; may be cached.",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T18:48Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/web-summit-vai-encerrar-esta-quarta-feira-devido-ao-mau-tempo/",
+      "platform": "ECO",
+      "author": "Tiago Alexandre Pereira",
+      "kind": "article",
+      "title": "Web Summit encerrada esta quarta-feira devido ao mau tempo",
+      "quote": "Web Summit encerrada esta quarta-feira devido ao mau tempo",
+      "published": "2026-11-10T19:41",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Day 2 (11 Nov) cancelled after talks with Government, ANEPC, PSP; PM Montenegro recommended suspension, Moedas called closing most sensible. Thursday, refunds, PITCH, side events not covered.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa",
+      "platform": "Diário de Notícias",
+      "author": "DN live blog",
+      "kind": "article",
+      "title": "Governo decreta situação de alerta (live blog; includes Web Summit cancellation note)",
+      "quote": "Temos conhecimento dos alertas meteorológicos para a tarde e noite de quarta-feira",
+      "published": "2026-11-10T19:45",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Live blog entry at 19:45: organisers cancel all Wednesday activities, citing coastal flooding, wind on outdoor structures, transport disruption; coordinated with ANEPC and PSP. No Thursday statement or refund info on page.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.rtp.pt/noticias/pais/depressao-charles-esperado-agravamento-significativo-das-condicoes-meteorologicas_e1778024",
+      "platform": "RTP Notícias",
+      "author": "RTP",
+      "kind": "article",
+      "title": "Web Summit fecha portas esta quarta devido ao mau tempo (live blog entry)",
+      "quote": null,
+      "published": "2026-11-10T19:46",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Live blog: organisers cancelled Wednesday, will hold last day 'conforme planeado, após a passagem da tempestade Charles'; will contact affected people directly. Refunds, PITCH, side events not mentioned. Page not fully read (long).",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.irishtimes.com/business/2026/11/10/everything-indicates-web-summit-will-be-called-off-tomorrow-says-lisbon-mayor/",
+      "platform": "The Irish Times",
+      "author": "Stephen Conneely",
+      "kind": "article",
+      "title": "'Everything indicates' Web Summit will be called off tomorrow, says Lisbon mayor",
+      "quote": "everything indicates that Web Summit will not be able to function tomorrow",
+      "published": "2026-11-10T17:22",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Pre-cancellation. Mentions housing protesters planning counterprotest outside Web Summit Wednesday afternoon.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://jornaleconomico.sapo.pt/noticias/carlos-moedas-evitem-deslocacoes-e-optem-pelo-teletrabalho/",
+      "platform": "Jornal Económico",
+      "author": "José Carlos Lourinho",
+      "kind": "article",
+      "title": "Carlos Moedas: \"Diria que a Web Summit não poderá funcionar esta quarta-feira\"",
+      "quote": "Diria que a Web Summit não poderá funcionar esta quarta-feira",
+      "published": "2026-11-10T13:14",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Pre-cancellation. Organisers: assessing with ANEPC; Moedas said 300 incidents recorded Tuesday.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.publico.pt/2026/11/10/sociedade/noticia/tempestade-charles-encerra-tuneis-lisboa-coloca-web-summit-duvida-2194442",
+      "platform": "Público",
+      "author": "Miguel Dantas",
+      "kind": "article",
+      "title": "Depressão Charles encerra túneis em Lisboa e coloca Web Summit em dúvida",
+      "quote": "A decisão será respeitada.",
+      "published": "2026-11-10T14:00",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Pre-cancellation; Moedas cites riverside Parque das Nações.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/ceo-da-cloudflare-a-nvidia-ainda-pode-vencer-porque-vende-muito-bons-chips/",
+      "platform": "ECO",
+      "author": "Mariana Bandeira",
+      "kind": "article",
+      "title": "CEO da Cloudflare: \"A Nvidia ainda pode vencer\"",
+      "quote": null,
+      "published": "2026-11-10T19:33",
+      "topics": [
+        "agentic AI",
+        "AI"
+      ],
+      "companies": [
+        "Cloudflare",
+        "Nvidia",
+        "Meta",
+        "Google"
+      ],
+      "company_ids": [
+        "cloudflare"
+      ],
+      "sessions": [
+        "Matthew Prince"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Prince proposes pay-per-crawl so AI agents pay micropayments; autonomous agents example.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/web-summit-foi-alvo-de-seis-milhoes-de-tentativas-de-ciberataque-em-dois-dias/",
+      "platform": "ECO",
+      "author": "Mariana Bandeira",
+      "kind": "article",
+      "title": "Web Summit já teve 6 milhões de tentativas de ciberataques",
+      "quote": "Os Estados Unidos são de onde vem o maior volume de ataques.",
+      "published": "2026-11-10T16:42",
+      "topics": [
+        "security",
+        "Portugal"
+      ],
+      "companies": [
+        "Meo"
+      ],
+      "company_ids": [
+        "meo"
+      ],
+      "sessions": [
+        "Artur Teixeira da Costa",
+        "Manuela Coutinho",
+        "Bruno Motta"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/chinesa-xpeng-aridge-quer-por-carros-a-voar-em-2028-e-traze-los-para-a-europa/",
+      "platform": "ECO",
+      "author": "Mariana Bandeira",
+      "kind": "article",
+      "title": "Chinesa Xpeng Aridge quer trazer carros voadores à Europa",
+      "quote": null,
+      "published": "2026-11-10T18:05",
+      "topics": [
+        "startups",
+        "hardware"
+      ],
+      "companies": [
+        "Xpeng Aridge",
+        "Tesla",
+        "Uber"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/pitchbook-da-acesso-gratuito-a-novas-startups-em-troca-de-informacao/",
+      "platform": "ECO",
+      "author": "Flávio Nunes",
+      "kind": "article",
+      "title": "Pitchbook oferece acesso a novas startups em troca de dados",
+      "quote": null,
+      "published": "2026-11-10T11:31",
+      "topics": [
+        "startups",
+        "investment"
+      ],
+      "companies": [
+        "PitchBook"
+      ],
+      "company_ids": [
+        "pitchbook"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Launch of Pitchbook for Startups and Pitchbook Origin at a press conference at Web Summit.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/enfrentamos-um-terceiro-inverno-de-acesso-ao-capital-diz-ceo-do-nasdaq-entrepreneurial-center/",
+      "platform": "ECO",
+      "author": "Mariana Bandeira",
+      "kind": "article",
+      "title": "Enfrentamos um terceiro inverno de acesso ao capital",
+      "quote": null,
+      "published": "2026-11-10T12:35",
+      "topics": [
+        "investment",
+        "startups"
+      ],
+      "companies": [
+        "Nasdaq Entrepreneurial Center",
+        "Andreessen Horowitz"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Caleb Silver (moderator)"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.noticiasaominuto.com/tech/3081889/web-summit-bom-senso-e-dialogo-com-tecnologicas-e-mais-valia",
+      "platform": "Notícias ao Minuto (Lusa)",
+      "author": "Lusa",
+      "kind": "article",
+      "title": "Web Summit: Bom senso e diálogo com tecnologicas é mais valia",
+      "quote": null,
+      "published": "2026-11-10T18:50",
+      "topics": [
+        "policy",
+        "regulation"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Des Hogan",
+        "Abigail Slater",
+        "Regulating Big Tech panel"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://social.vivaldi.net/@Vivaldi/117593812717631891",
+      "platform": "Mastodon",
+      "author": "Vivaldi (vivaldi.net)",
+      "kind": "post",
+      "title": null,
+      "quote": "We're at the Web Summit conference this week!",
+      "published": "2026-11-10T19:33:03Z",
+      "topics": [
+        "AI",
+        "sovereignty",
+        "speakers"
+      ],
+      "companies": [
+        "Vivaldi"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Vivaldi v Goliath: the case for sovereign code (CEO Jon, announced for 'tomorrow', i.e. the cancelled Day 2)"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Posted before the 19:38 cancellation; edited 19:48 UTC. Talk was scheduled for Wednesday 11 Nov, so now affected by the Day 2 cancellation (inference, not stated in the post).",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://observador.pt/2026/11/10/vitoria-dos-democratas-nos-eua-foi-parcialmente-alimentada-pelos-receios-em-relacao-a-ia-diz-investidor/",
+      "platform": "Observador (shared on Mastodon via bridge as observador.pt (web.brid.gy))",
+      "author": "Observador",
+      "kind": "article",
+      "title": "Vitória dos democratas nos EUA 'foi parcialmente alimentada pelos receios em relação à IA', diz investidor",
+      "quote": null,
+      "published": "2026-11-10T18:43:00Z",
+      "topics": [
+        "AI",
+        "policy",
+        "investment",
+        "speakers"
+      ],
+      "companies": [
+        "Neo"
+      ],
+      "company_ids": [
+        "neo"
+      ],
+      "sessions": [
+        "AI doom or boom (main stage), Ali Partovi"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened the article; filmed at Web Summit Lisbon 2026.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    }
+  ]
+}

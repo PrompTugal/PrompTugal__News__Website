@@ -1,0 +1,24 @@
+/* The decision graph preview. By dev.graphs@PrompTugal.dinis. */
+.dg { display: grid; gap: 10px; margin: 12px 0 24px; }
+.dg-sum { margin: 0; font-size: .9rem; color: var(--ink-3, #555); }
+.dg-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .8rem; color: var(--ink-3, #555); }
+.dg-key { display: inline-flex; gap: 6px; align-items: center; }
+.dg-sw { width: 18px; height: 18px; border-radius: 5px; display: inline-grid; place-items: center; font: 700 11px system-ui, sans-serif; font-style: normal; border: 1.5px solid var(--ink-3, #888); }
+.dg-frame { overflow-x: auto; border: 1px solid var(--hair, #ddd); border-radius: 12px; background: var(--panel, #fff); }
+.dg-frame svg { display: block; }
+.dg-line { fill: none; stroke: var(--ink-3, #888); stroke-width: 1.6; opacity: .6; }
+.dg-hit { fill: none; stroke: transparent; stroke-width: 14; cursor: pointer; }
+.dg-edge { outline: none; } .dg-edge:hover .dg-line, .dg-edge:focus-visible .dg-line, .dg-edge.on .dg-line { stroke: var(--ink, #111); stroke-width: 2.6; opacity: 1; }
+.dg-node { cursor: pointer; outline: none; }
+.dg-node rect { stroke-width: 2; }
+.dg-node:hover rect, .dg-node:focus-visible rect, .dg-node.on rect { stroke: var(--ink, #111); stroke-width: 3; }
+.dg-who { font: 600 12px system-ui, sans-serif; fill: var(--ink, #111); }
+.dg-st { font: 400 11px system-ui, sans-serif; fill: var(--ink-3, #555); }
+.dg-node.st-happened rect, .dg-sw.st-happened { fill: #cfe9d6; stroke: #1a7f37; }
+.dg-node.st-expected rect, .dg-sw.st-expected { fill: #fdf0d2; stroke: #c98a12; stroke-dasharray: 6 4; }
+.dg-node.st-not_announced rect, .dg-sw.st-not_announced { fill: var(--panel, #fff); stroke: #8a8a8a; stroke-dasharray: 3 4; }
+.dg-node.st-unknown rect, .dg-sw.st-unknown { fill: #e6e3dd; stroke: #8a8a8a; }
+.dg-node.on rect { stroke: var(--ink, #111) !important; }
+.dg-info { border: 1px solid var(--hair, #ddd); border-radius: 12px; padding: 10px 14px; background: var(--panel, #fff); }
+.dg-info p { margin: 3px 0; overflow-wrap: anywhere; } .dg-h { font-weight: 600; } .dg-m { font-size: .85rem; color: var(--ink-3, #555); }
+.dg-dec { font: 400 10.5px system-ui, sans-serif; fill: var(--ink-3, #555); }
