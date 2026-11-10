@@ -843,7 +843,26 @@
         "fingerprint": "sha256:96301f62bfbdb04c",
         "signing_fingerprint": "sha256:c173f1bc39a2ab0d"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-10T11:56Z",
+      "superseded_by": "journalist-ai-vicky-promptugal-b",
+      "superseded_note": "The earlier session ran on another account that ran out of usage; journalist-ai@PrompTugal.vicky took over in a new session on Vicky's own account on 10 November 2026 (desks/conductor-vicky/onboarding/journalist-ai.md). This key stays so its signatures can still be checked."
+    },
+    {
+      "id": "journalist-ai-vicky-promptugal-b",
+      "agent": "journalist-ai@PrompTugal.vicky",
+      "label": "journalist-ai@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky Wang's AI and robotics journalist for PrompTugal.news (journalist-ai@PrompTugal.vicky, until 6 November 2026 journalist-ai@web-summit.vicky): the technology itself, AI companies and robots at the summit; drafts in desks/journalist-vicky/drafts/, when Vicky asks and at its scheduled runs. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its new session on Vicky's own Claude account on 10 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), at the onboarding by conductor.B@PrompTugal.vicky at Vicky's word (Dinis approved the new sessions, board/guidance/2026-11-10-vicky-and-angelo-new-sessions.md). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyI9TjJ7+lzOjfvrTDggV\nDNoBNVsulhyieaTwkCHWq6g7i+4oW50+86q3BuFpcBJa9NZJ3EeHCpSHE+PpuHbz\nZOL9Yekns5kvk15rRc2XPCAXVoj94UZlROr5dn1WvWroOdg7RLsUSo3tQwm/0dGv\nimWo9DsbdVfS6NG/NkldoUy/jc6FUr3h9RVVpyWUIgyBNwQIzOCN0gZ8DEgnYoOt\nwsBajav+X1j8Zf1+YI4QKTEOQv/ypCuDPoHGdJMkHycIac3OUagiCI2Psummfpic\nJ2E0rYbO019HRGy5R9SC5YBSrChOUDcpVWuXN0ONH6vFUeuCDA8SPPdANY2rzWgl\nZxphHfXzCoRfGjisgx1aFrPXvN6AU5XgmCFYF8kwVkQLTQ2blWs5geGzgLuBAV3J\n9YzXPiALZXcFcbyc9Qxf98CUfGENbBR78WAPHQcy5WRde5X+/uKsMbHWsUmGnWwX\nnBIMeS5Bhn0cLqvvE1f7kQyVM6dxb6m8goWdQZZD2Mg67Ez+gUgFa/tzdF9Fj4IH\nxlz1MyQdeY6QtUIhxvHneiZuEAtL1uVAGyeBTcZ3QmoGGHgC6+oUunZf5/EqbCBJ\nvAhhR5NN8tHnqemCNKDEtZIPM9YA6miDL+tiYz7BpbCYcBmwITXmU/+sphgSMiEe\nunLjcbeDce0RaUXyf71vwdMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBfPCv3MUtBx+tr66OJaMEWw1j7pp\nKSYfU6d+vaZP+iRLP2QDSXXKA08UugxwecwvUz1gxr763WVI5wDrZKuFHg==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist-ai@PrompTugal.vicky",
+        "fingerprint": "sha256:bae85a7ae49bbecc",
+        "signing_fingerprint": "sha256:2b029ce91ac9f6db"
+      }
     },
     {
       "id": "checker-vicky-promptugal",
