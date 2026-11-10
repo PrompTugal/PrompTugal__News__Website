@@ -2,9 +2,9 @@
   "standfirst": "Web Summit says Day 2, Wednesday 11 November, will not take place, after the Government of Portugal formally advised it not to because of Storm Charles. IPMA has red wind and rain warnings for the Lisbon district that day, and the government has declared an alert situation for the whole mainland.",
   "developments": [
     {
-      "text": "Web Summit told attendees that Day 2 (Wednesday) will not take place, on the government's formal advice after talks with the government, ANEPC and the PSP, and that it aims to go ahead with Day 3 on Thursday.",
-      "source": "Web Summit's email to attendees, 19:38 UTC (no public URL as of 19:47 UTC)",
-      "checked": "2026-11-10T19:45Z"
+      "text": "Web Summit cancelled every activity planned for Wednesday, Day 2, in a decision taken with ANEPC and the PSP, as DN reports from the organisers' note; it aims to go ahead with Day 3 on Thursday, it told attendees.",
+      "source": "https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa",
+      "checked": "2026-11-10T19:54Z"
     },
     {
       "text": "IPMA's red warnings for the Lisbon district on Wednesday are unchanged: wind 12:00 to 21:00, rain 12:00 to 18:00.",
@@ -19,9 +19,9 @@
   ],
   "programme": {
     "label": "Web Summit, Wednesday",
-    "text": "Day 2 will not take place, Web Summit told attendees at 19:38 UTC; it aims to proceed with Day 3 on Thursday. Not yet on its website as of 19:47 UTC.",
-    "source": "Web Summit's email to attendees (no public URL yet); websummit.com checked 19:44 UTC",
-    "checked": "2026-11-10T19:45Z"
+    "text": "Day 2 will not take place, Web Summit told attendees at 19:38 UTC; it aims to proceed with Day 3 on Thursday. Not yet on its website as of 19:48 UTC.",
+    "source": "https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa",
+    "checked": "2026-11-10T19:54Z"
   },
-  "last_checked": "2026-11-10T19:47Z"
+  "last_checked": "2026-11-10T19:54Z"
 }

@@ -1,6 +1,6 @@
 {
   "about": "The decision graph for Storm CHARLES and Web Summit Lisbon, Wednesday 11 November 2026. Nodes are decision-makers and their decisions; edges are 'this usually follows that'. status: happened | expected | not_announced | unknown. 'expected' and every lead time are ANALYSIS (with reasons), never fact. Kept by weather@PrompTugal.vicky; checked against what happens. Times UTC (= Lisbon time).",
-  "updated": "2026-11-10T19:47Z",
+  "updated": "2026-11-10T19:56Z",
   "legend": {
     "happened": "announced by the decision-maker, read at source",
     "expected": "ANALYSIS: likely next, with the reason",
@@ -95,7 +95,7 @@
       "who": "Mayor of Lisbon (Câmara Municipal de Lisboa)",
       "decision": "Says everything indicates Web Summit cannot run on Wednesday; refers the final decision to the Ministry of Internal Administration; tunnels, parks and cultural venues to close (PRESS)",
       "status": "happened",
-      "at": "2026-11-10T13:23Z (press)",
+      "at": "2026-11-10T13:23Z (press, Jornal Económico; DN live entry 13:47Z)",
       "source": "https://jornaleconomico.sapo.pt/noticias/web-summit-fechada-na-quarta-feira-anuncia-autarquia-de-lisboa/",
       "read": "2026-11-10T19:46Z",
       "note": "press report; the city's own page not readable by our tools"
@@ -103,11 +103,20 @@
     {
       "id": "gov-advice",
       "who": "Government of Portugal, with ANEPC and PSP",
-      "decision": "Formally advises Web Summit that Day 2 should not take place (tidal flooding, transport disruption, high winds on external structures)",
+      "decision": "Recommends that Web Summit's work be suspended on Wednesday (the Prime Minister, after a meeting at ANEPC); the final decision left to the organisers (PRESS). Web Summit's email calls it formal advice, after talks with the government, ANEPC and PSP",
       "status": "happened",
-      "at": "before 2026-11-10T19:38Z (time not public)",
-      "source": "as quoted in Web Summit's email to attendees; not found on any official page as of 19:45Z",
-      "read": "2026-11-10T19:45Z"
+      "at": "by 2026-11-10T17:35Z (press; DN entry 17:32Z)",
+      "source": "https://24noticias.sapo.pt/atualidade/artigos/montenegro-nao-subestimem-nem-menosprezem-aquilo-que-e-a-perigosidade-destes-fenomenos-meteorologicos",
+      "read": "2026-11-10T19:54Z"
+    },
+    {
+      "id": "ws-assessing",
+      "who": "Web Summit",
+      "decision": "Says it is assessing the situation with ANEPC and PSP (PRESS)",
+      "status": "happened",
+      "at": "2026-11-10T13:11Z (press)",
+      "source": "https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa",
+      "read": "2026-11-10T19:54Z"
     },
     {
       "id": "city",
@@ -149,8 +158,8 @@
       "who": "Web Summit",
       "decision": "Day 2 (Wednesday 11 Nov) will not take place; Day 3 (Thursday) aimed to proceed",
       "status": "happened",
-      "source": "Web Summit's email to attendees (no public URL as of 19:47Z); relayed by conductor.B@PrompTugal.vicky",
-      "read": "2026-11-10T19:45Z",
+      "source": "Web Summit's email to attendees; first public report: https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa (press, entry 19:45Z)",
+      "read": "2026-11-10T19:54Z",
       "at": "2026-11-10T19:38Z",
       "note": "websummit.com homepage and news: no notice at 19:44Z"
     },
@@ -243,7 +252,7 @@
       "from": "gov-advice",
       "to": "websummit",
       "kind": "happened",
-      "lead_now": "Web Summit's decision at 19:38Z: about 7 hours 30 minutes after the government's alert (12:10Z), about 6 hours 15 minutes after the mayor's public signal (13:23Z), about 4 hours 20 minutes before the alert period begins (00:00Z Wed) and about 16 hours 20 minutes before the red warnings start (12:00Z Wed)",
+      "lead_now": "Web Summit's decision at 19:38Z: about 2 hours after the government's recommendation (by 17:35Z, press), about 6 hours 15 minutes after the mayor's public signal (13:23Z), about 7 hours 30 minutes after the government's alert (12:10Z), about 4 hours 20 minutes before the alert period began and about 16 hours 20 minutes before the red warnings start",
       "history": "ANALYSIS: no past case found of a large event in Lisbon stopped on government advice (history.md); in 2019 Wonderland Lisboa was closed by its organiser on the day. The weak signal came about 6 hours ahead: the mayor's statement at 13:23Z, as Dinis anticipated ('predictable maybe 5 or 10 hours before')."
     },
     {
@@ -251,6 +260,12 @@
       "to": "websummit",
       "kind": "context",
       "why": "ANALYSIS: measure (b) covered outdoor events only; Web Summit's email cites external structures, transport and tidal flooding, not measure (b)"
+    },
+    {
+      "from": "ws-assessing",
+      "to": "websummit",
+      "lead_now": "about 6 hours 30 minutes (13:11Z to 19:38Z)",
+      "evidence": "node times (press and the email)"
     }
   ]
 }
