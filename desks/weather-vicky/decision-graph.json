@@ -93,8 +93,8 @@
     {
       "id": "city",
       "who": "Câmara Municipal de Lisboa (the mayor; municipal civil-protection commission)",
-      "decision": "Municipal measures, municipal alert or emergency plan",
-      "status": "happened (partial)",
+      "decision": "Municipal measures, municipal alert or emergency plan (partly seen: the homeless-people contingency plan, through Metro)",
+      "status": "happened",
       "note": "Seen through Metro de Lisboa (read 2026-11-10T19:36Z): with the Lisbon and Amadora councils, under the Plano de Contingência para Pessoas em Situação de Sem-Abrigo, five Metro stations open overnight 10-11 and 11-12 Nov 'face às previsões de agravamento das condições meteorológicas'. The city's other measures: lisboa.pt refuses automated reads (403); a person must read it.",
       "source": "https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/",
       "read": "2026-11-10T19:36Z"
