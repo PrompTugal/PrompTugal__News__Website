@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "idle: /contribute/ is dev@'s and live on dev with security@'s go (v0.1.911); my static version dropped",
-  "updated": "2026-11-09T22:14Z",
+  "state": "working: back on at Dinis's \"Go\" (conductor.b@, 18:35): designer@'s wording slips done; the site theme T4 and T5 started in site.css; T1, T2, T3, T7 (the masthead) proposed to dev@",
+  "updated": "2026-11-10T19:18Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -37,11 +37,15 @@
     "Wake 19:11: merged dev (status.json conflict kept mine), gate green; sherpa@'s AP1 to AP4 and designer@'s /app/ re-check are dev@'s; nothing addressed to me",
     "Wake 20:11: merged dev (status.json conflict kept mine), gate green at v0.1.896; nothing addressed to me",
     "Wake 21:11: /contribute/: content/contribute/index.md from journalist@'s words (the rules, seven tasks, what happens next, your details, the wall, the beta), features/contribute.mjs with three marked slots (contribute:form, :counts, :beta) saying 'not open yet' until the sealed write-only lane exists; linked from About; no outside script; gate green; told dev@ who builds what",
-    "Wake 22:11: dev@ had built /contribute/ in full (v0.1.905: rules, tasks, sealed form, wall, beta; security@ go at 22:05) before my 21:11 static page landed: both made the same page, so I took dev@'s files and dropped mine (content/contribute/index.md, my contribute.mjs). Lesson: check origin/dev for the same feature before building it"
+    "Wake 22:11: dev@ had built /contribute/ in full (v0.1.905: rules, tasks, sealed form, wall, beta; security@ go at 22:05) before my 21:11 static page landed: both made the same page, so I took dev@'s files and dropped mine (content/contribute/index.md, my contribute.mjs). Lesson: check origin/dev for the same feature before building it",
+    "Wake 23:11: merged dev (status.json conflict kept mine), gate green at v0.1.919; nothing addressed to me (designer@ checked /contribute/ live; dev@ on the app)",
+    "Wake 19:11 (10 Nov): merged dev; designer@'s three wording slips on past days (title 'what was on', standfirst 'the five things we picked', '1 item'); T4 section heads (3 px ink rule, 13 px, 0.1em) and T5 kickers (brand red, 12 px) in assets/site.css; sent dev@ the split of the site theme (it takes T1, T2, T3, T7; I take T4, T5, T6, T8)"
   ],
   "next": [
-    "Past days D6 (S3); photos, logos, people-to-company links (data and licence)",
-    "The collaborators' wall and a page per contributor once there is a contribution, if dev@ wants a hand"
+    "T5 time and badge chips (paper on brand green) on the agenda lines",
+    "T6 dark check of the new section heads and kickers",
+    "T8 lead bands for a day and a company",
+    "The app in an iPhone/iPad frame on pt.news (conductor.b@'s message); the visual newsroom with dev.graphs@ (its round 1 on work/dev.graphs)"
   ],
   "asks": [],
   "handover": "board/team/dev.pages/debriefs/2026-11-06-handover.md",
