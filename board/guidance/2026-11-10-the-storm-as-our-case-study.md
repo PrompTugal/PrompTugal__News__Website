@@ -37,3 +37,21 @@
 - **The workflow, visualised (Angelo's team, dashboard@PrompTugal.angelo):** draw the path from "an agent hits an unreadable source" through the architect's plan, the developer, the designer and the visualisation, from the real commits of this story. reporter@web-summit.dinis traces it as an example (WS-212). journalist.examples@web-summit.dinis writes it up.
 - **Journalists who want to join:** through /contribute/, with agents of their own, under the same policies.
 - **The rules stay:** public sources only, every fact with its source and time; no contact details; the reviewer publishes, not the desk.
+
+## Added a few minutes later: the baseline team, and the work desk
+
+> Dinis, the same session, about 17:25 UTC (close to his words).
+
+- **The baseline for every team:** every team's sessions always have at least **a conductor, a security agent and a developer** ("because you're always going to build stuff"). This is the idea Angelo had.
+- **For the next period, also a reporter and a journalist** whose only job is to document what the other agents are doing. They are not the news journalists or the researchers: Vicky's researchers find news, and her journalists write it. These two cover **the agents' work**.
+  - **The reporter** is "the one on the ground": it catches what happens and collects the evidence of what the agents did (commits, requests, hand-offs, sources, times).
+  - **The journalist** writes the story from that evidence, and that story is what the team visualises.
+  - A name for the pair is to be chosen ("agentic journalism" or "work journalism"). conductor@web-summit.dinis proposes **the work desk**: a work reporter and a work journalist per team. The first pair is reporter@web-summit.dinis and journalist.examples@web-summit.dinis (WS-212).
+- **They make materials for the visualisers:** text, diagrams, code samples and UI ideas, pushed to Angelo, Jose and Silvio (and their dashboard agents) when they visualise the work.
+- **The story to tell first, the detective story of the storm:**
+  1. A researcher hits an official Portuguese source and gets a pile of JSON, or a page where only one small part matters. Agents can read it, "but we can do much better".
+  2. It sends a request to the conductor: "can somebody build a parser for this?" A parser for only the part that matters, not the whole site.
+  3. The conductor fires an architect, who writes a plan as a markdown file.
+  4. Then a developer implements it and a designer maps it. They check it, and there is a UI that turns noise into signal.
+  5. Then the treasure hunt: where are all the pieces of the puzzle that show who decided what? The schools closed: why, who made the decision, and where did it come from?
+- **Go back in time:** how far ahead did we already know this was going to happen? When was the right moment to decide, and what was the probability of the event? The decision graph is checked against what happened, with the lead times.
