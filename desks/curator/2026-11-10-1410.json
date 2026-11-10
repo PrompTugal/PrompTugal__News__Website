@@ -1,0 +1,74 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-10-1410 (manual pass, at Vicky's word in the session)",
+ "batch": "MANUAL-10NOV",
+ "for": "journalist (summit desk), journalist-ai",
+ "covers": {
+  "note": "Not from the research vault: a manual pass at Vicky's request. The curator read the sources itself (IPMA open data, Lovable's blog, the programme desk's agenda). They are not captures: the fact-checkers re-check each fact at its source before publication. Vault 41j3e9s9 had no captures newer than the 7 of 10 Nov already mapped in 2026-11-10-0110."
+ },
+ "published_check": "Checked content/articles, every desk's drafts and the README: no article or draft on weather or the storm; none on Lovable's engineering account (S28 and S29 do not use it). Teamworks, WPP, Glovo, Gravitee already assigned (S37 to S40): not repeated.",
+ "story_candidates": [
+  {
+   "id": "S41",
+   "kind": "summit",
+   "batch": "MANUAL-10NOV",
+   "title": "Red wind warning for Lisbon on Wednesday: what it means for Web Summit",
+   "beat": "The summit",
+   "angle": "IPMA has a red wind warning for Lisbon district on Wednesday 11 November from 12:00 to 21:00 (gusts to 120 km/h, up to 140 km/h in exposed places), an orange rain warning from 05:00 to 18:00 and an orange sea warning, after yellow rain and thunder warnings on Tuesday. A reader's guide to what is known and what is not yet decided.",
+   "rests_on": [
+    "x-ipma-warnings",
+    "x-ipma-forecast"
+   ],
+   "ready": true,
+   "note": "Ready on the IPMA facts only; time-sensitive (update through the evening). Conditions: (1) Web Summit's decision is NOT confirmed. Search reports (Jornal Economico, Renascenca, Executive Digest, all 10 Nov) say the organisers are assessing with the civil protection and police, that Lisbon's mayor said everything indicates the summit cannot operate on Wednesday and that the final call is the Ministry of Internal Administration's. The curator saw these only in search results, did not open them. The journalist must open each and read Web Summit's own channel before stating any of it, and attribute it; say plainly if there is still no decision. (2) Warning times are IPMA's, local time; re-read the open data before publishing. (3) No advice beyond what IPMA, civil protection or Web Summit say. (4) Do not guess how Thursday goes.",
+   "words": "350 to 450"
+  },
+  {
+   "id": "S42",
+   "kind": "team-desk",
+   "batch": "MANUAL-10NOV",
+   "title": "What Lovable deleted: its CEO on rebuilding an AI coding agent",
+   "beat": "AI and robotics",
+   "angle": "A first-hand engineering account published on 4 November by Lovable's co-founder and CEO, who speaks at the summit's night session on Monday 9 November: the team deleted almost all of its agent code after freer agents got stuck, replaced fine-tuning with 'knowledge files' of short notes on recurring mistakes, and built sandboxes that fork and restore a whole running computer. Lovable's own figures: 70 million projects, 100,000 pull requests.",
+   "rests_on": [
+    "x-lovable-blog",
+    "x-websummit-future-of-ai"
+   ],
+   "ready": true,
+   "note": "Ready. For journalist-ai. Conditions: it is the company's own account, say so and attribute every figure to Lovable; do not say what he said on stage (the page gives only the title 'The future of AI' and the speakers; that session has passed, 9 Nov 18:55); no claim about Lovable's results beyond the post; quote briefly. Duplicate check: S28 (five AI builders) does not use this post.",
+   "words": "500 to 650"
+  }
+ ],
+ "needs_verification_not_commissioned": [
+  {
+   "angle": "Intercom's Fin: a talk by a co-founder on automating support, lessons from design to measurement (secondary pages only)",
+   "why": "Not opened; need Intercom's own page and whether Intercom is at the summit."
+  },
+  {
+   "angle": "Parloa: keynote, masterclass and live demos at the summit (its own event page)",
+   "why": "Vendor promotion, no case study; need a customer's or Parloa's own account of a real deployment."
+  },
+  {
+   "angle": "Replit agent lessons",
+   "why": "The first-hand talk found is from 2024; need a 2026 source and Replit's summit presence."
+  },
+  {
+   "angle": "Klarna's current position on its assistant",
+   "why": "Only the 2024 press release is captured; need 2025 or 2026 from Klarna itself."
+  },
+  {
+   "angle": "Storm effects beyond the event: transport, Lisbon metro, schools closed, state of alert",
+   "why": "Seen only in search results (The Portugal News, RTP, Portugal Resident); not opened; for the journalist to read at source."
+  }
+ ],
+ "for_the_fact_checker": [
+  "S41: IPMA warning times and levels for LSB, and the forecast for 10 to 13 Nov, from api.ipma.pt as read on 10 Nov about 13:30 to 14:00 UTC; Web Summit's statement at its own channel.",
+  "S42: every figure and the dates, against the Lovable post; the agenda entry for 9 Nov 18:55."
+ ],
+ "gaps_for_the_researcher": [
+  "Capture Web Summit's own statement on Wednesday and the Ministry's decision when published, with the time.",
+  "Capture first-hand agent-in-production accounts from companies on the programme (their own blogs or filings), 2026 only."
+ ],
+ "urgent": "S41 is time-sensitive: the warning starts Wednesday 11 Nov 12:00 local."
+}
