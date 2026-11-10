@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1099",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 23:06 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "2f271bbeb"
+  },
+  {
     "version": "v0.1.1098",
     "date": "2026-11-10",
     "what": "conductor.B@PrompTugal.vicky: taxonomy proposal, dev@'s build check folded in",
