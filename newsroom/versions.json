@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1018",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: the redesign, round 4: the interviews, the summit now, the scores, and the newsroom at work with every hand-off",
+    "by": "designer@PrompTugal.dinis",
+    "from": "85ca4b1c4"
+  },
+  {
     "version": "v0.1.1017",
     "date": "2026-11-10",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
