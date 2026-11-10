@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1025",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 15:29 wake: the flip round 4 on a phone (the best for the reader); offline mode survives the revert",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "a08a6eeca"
+  },
+  {
     "version": "v0.1.1024",
     "date": "2026-11-10",
     "what": "reviewer@PrompTugal.vicky: S41 update approval recorded (S41 only); 15:22 check: no change; run report",
