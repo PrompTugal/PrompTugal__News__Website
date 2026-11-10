@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "S13",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "events": [
+    {
+      "at": "2018-10-03",
+      "what": "Portugal and Web Summit agree to keep the event in Lisbon until 2028; the state pays 11 million euros a year, split between Lisbon's tourism fund and the Ministry of Economy.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit"
+      ],
+      "source": "eco-2018-10-03-until-2028",
+      "claim": [
+        "c14",
+        "c15"
+      ]
+    },
+    {
+      "at": "2021-11-03",
+      "what": "An evaluation by the Ministry of Economy's Office for Economic Studies finds the 2016 to 2019 editions' impact well below the first estimate.",
+      "kind": "publication",
+      "about": [
+        "organisation:web-summit"
+      ],
+      "source": "eco-2021-11-03-gee-evaluation",
+      "claim": [
+        "c11",
+        "c12",
+        "c13"
+      ]
+    },
+    {
+      "at": "2026-11-05",
+      "what": "EY's report on Web Summit's ten Lisbon years is released at the press conference: 2,492 million euros of impact.",
+      "kind": "publication",
+      "about": [
+        "organisation:web-summit"
+      ],
+      "source": "executivedigest-2026-11-05-ey-report",
+      "claim": [
+        "c01",
+        "c02",
+        "c03"
+      ]
+    }
+  ]
+}

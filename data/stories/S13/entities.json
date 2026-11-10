@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S13",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "entities": [
+    {
+      "ref": "organisation:web-summit",
+      "label": "Web Summit",
+      "kind": "organisation",
+      "sources": [
+        "eco-2018-10-03-until-2028",
+        "eco-2021-11-03-gee-evaluation",
+        "executivedigest-2026-11-05-ey-report"
+      ]
+    }
+  ]
+}

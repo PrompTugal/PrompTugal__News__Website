@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "executivedigest-2026-11-05-ey-report",
+  "story": "S13",
+  "url": "https://executivedigest.sapo.pt/web-summit-evento-gera-25-mil-me-para-a-economia-portuguesa-em-10-anos/",
+  "title": "Web Summit: Evento gera 2,5 mil M euros para a economia portuguesa em 10 anos (Executive Digest with Lusa, 5 November 2026)",
+  "publisher": "Executive Digest",
+  "published": "2026-11-05",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Executive Digest, from Lusa, reports EY's report on Web Summit's ten Lisbon years released at the press conference of 5 November 2026: 2,492 million euros of impact, jobs, taxes, startups and media value."
+}
