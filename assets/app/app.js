@@ -89,6 +89,8 @@
         var clashOf = function (i) { var s = span(i); return ids.indexOf(i.id) < 0 || long(i) ? [] : picks.filter(function (p) { var r = span(p); return p.id !== i.id && !long(p) && r[0] < s[1] && s[0] < r[1] }) }
         var n = st.q.toLowerCase(), shown = (st.tab === 'mine' ? picks : items).filter(function (i) { return !n || (i.title + ' ' + i.where + ' ' + i.kind).toLowerCase().indexOf(n) >= 0 })
         list.textContent = ''
+        // a day that did not take place says so first (10 November: Web Summit cancelled Day 2); its programme stays as the record
+        var day = DAYS.find(function (x) { return x.date === st.day }); if (day && day.cancelled) list.appendChild(el('p', 'pa-cancel', day.cancelled))
         if (!shown.length) { list.appendChild(el('p', 'pa-note', st.tab === 'mine' ? W.none_mine : W.none)); all.hidden = !mine().length; return }
         var ul = el('ul', 'pa-ul'), last = null
         shown.forEach(function (i) {
@@ -106,8 +108,9 @@
         nav.textContent = ''
         DAYS.forEach(function (d) {
             var b = el('button', null, fmt ? fmt.format(new Date(d.date + 'T12:00:00Z')) : d.label.replace(/ November$/, '').replace(/^(\w{3})\w*/, '$1')); b.type = 'button'; b.setAttribute('data-d', d.date)
-            var n = ['2026-11-10', '2026-11-11', '2026-11-12', '2026-11-13'].indexOf(d.date); if (n >= 0) b.insertBefore(el('small', null, (W.day_fmt || 'Day {n}').replace('{n}', n + 1)), b.firstChild)
+            var n = ['2026-11-10', '2026-11-11', '2026-11-12'].indexOf(d.date); if (n >= 0) b.insertBefore(el('small', null, (W.day_fmt || 'Day {n}').replace('{n}', n + 1)), b.firstChild)
             if (d.date === today) b.className = 'today'
+            if (d.cancelled) b.className += ' off'
             b.addEventListener('click', function () { st.day = d.date; draw(); toNow() }); nav.appendChild(b)
         })
     }
@@ -168,6 +171,6 @@
     // Add to Home Screen opens the app full screen; the site's own offline worker keeps it and the programme on the device
     if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register(up + 'sw.js', { scope: up }).catch(function () { })
     fetch(up + 'api/v1/days.json').then(function (r) { return r.json() }).then(function (j) {
-        return Promise.all(j.days.map(function (d) { return fetch(up + 'api/v1/days/' + d.date + '.json').then(function (r) { return r.json() }).then(function (x) { x.items.forEach(function (i) { i.date = d.date }); return { date: d.date, label: d.label, items: x.items } }) }))
+        return Promise.all(j.days.map(function (d) { return fetch(up + 'api/v1/days/' + d.date + '.json').then(function (r) { return r.json() }).then(function (x) { x.items.forEach(function (i) { i.date = d.date }); return { date: d.date, label: d.label, items: x.items, cancelled: x.cancelled || '' } }) }))
     }).then(start).catch(function (e) { if (window.console) console.warn(e); list.textContent = ''; list.appendChild(el('p', 'pa-note', W.failed)) })
 })()

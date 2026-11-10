@@ -19,12 +19,17 @@ const rows = [...index.matchAll(/^\| \[([^\]]+)\]\(\.\.\/spectrum\/cards\/([a-z0
 const LV = s => { const o = {}; for (const m of s.matchAll(/([ARCO])([0-9–-])/g)) o[m[1]] = /\d/.test(m[2]) ? +m[2] : 0; return o }
 const cards = []
 for (const [, name, id, lv, stage, modes, lit, next] of rows) {
+    // security@'s S37: a card is only ever at https://gamma-ray.sgit.ai/spectrum/cards/<id>/, and a card whose page does
+    // not answer is dropped, not shown
+    const url = `${BASE}spectrum/cards/${id}/`
+    if (!/^[a-z0-9-]+$/.test(id)) { console.error(`gamma-pull: ${id}: not a card id; dropped`); continue }
+    try { const r = await fetch(url, { method: 'HEAD' }); if (!r.ok) throw new Error(r.status) } catch (e) { console.error(`gamma-pull: ${id}: its card page did not answer (${e.message}); dropped`); continue }
     let scan = {}
     try { scan = await get(`${BASE}data/scans/${id}.json`, true) } catch (e) { console.error(`gamma-pull: ${id}: no scan JSON (${e.message}); kept from the index only`) }
     const st = stage.trim().match(/^(\w+) \((\d+)\)/)
     cards.push({ id, name: name.trim(), company: scan.company || null, ours: !!scan.ours, what: String(scan.what || '').slice(0, 300),
         levels: LV(lv), stage: st ? st[1] : stage.trim(), n: st ? +st[2] : null, of: 16, modes: modes.trim(), lit: lit.trim(), next: next.trim(),
-        read: scan.read || null, review: scan.review?.status || null, vendor_reviewed: !!scan.seen_by_operator, card: `${BASE}spectrum/cards/${id}/` })
+        read: scan.read || null, review: scan.review?.status || null, vendor_reviewed: !!scan.seen_by_operator, card: url })
 }
 if (!cards.length) { console.error('gamma-pull: no cards read; data/site/gamma-ray.json left as it was'); process.exit(1) }
 const data = { about: 'GAMMA-Ray Spectrum cards as gamma-ray.sgit.ai publishes them (beta; every rating experimental), read by newsroom/tools/gamma-pull.mjs. Levels: A autonomy, R reach, C control, O openness, 1 to 4, 0 where not yet evidenced. The source of every card is its page on gamma-ray.sgit.ai.',

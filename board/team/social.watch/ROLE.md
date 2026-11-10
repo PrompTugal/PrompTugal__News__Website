@@ -34,7 +34,7 @@ Since 10 November 2026, about 18:42 UTC, at Dinis's word: also the **signals des
 
 ## Rules
 
-Credit every item to its author with a link; quote under 15 words; never copy a photo or video into this repository; nothing about a private person beyond their public post; no contact details ever. Public only: no login walls, no bypassing robots.txt or terms, no private accounts. Every item verified by opening its URL, or marked unverified with the reason. OPEN_ROUTER_KEY is read from the environment only; every call is logged by cost in `spend.json` for accountant@ (about $20 a day, Dinis, 10 November).
+Credit every item to its author with a link, when the author is a public figure, a journalist, an official or speaks for an organisation; a private person posting as themselves is kept as count, theme and platform only, with no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC); quote under 15 words; never copy a photo or video into this repository; nothing about a private person beyond their public post; no contact details ever. Public only: no login walls, no bypassing robots.txt or terms, no private accounts. Every item verified by opening its URL, or marked unverified with the reason. OPEN_ROUTER_KEY is read from the environment only; every call is logged by cost in `spend.json` for accountant@ (about $20 a day, Dinis, 10 November).
 
 ## Never
 

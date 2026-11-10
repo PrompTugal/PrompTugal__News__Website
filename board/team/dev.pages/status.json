@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: the site theme: dev@ has the masthead on every page (v0.1.1062); T4, T5 (kickers, time chips) done in site.css, T6 dark checked; T8 and the app frame next",
-  "updated": "2026-11-10T20:14Z",
+  "state": "idle: my share of the restart is done or with dev@; the visual newsroom is already on dev (dev.graphs@, rounds 1 to 3, brought by dev@)",
+  "updated": "2026-11-10T22:18Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -40,13 +40,14 @@
     "Wake 22:11: dev@ had built /contribute/ in full (v0.1.905: rules, tasks, sealed form, wall, beta; security@ go at 22:05) before my 21:11 static page landed: both made the same page, so I took dev@'s files and dropped mine (content/contribute/index.md, my contribute.mjs). Lesson: check origin/dev for the same feature before building it",
     "Wake 23:11: merged dev (status.json conflict kept mine), gate green at v0.1.919; nothing addressed to me (designer@ checked /contribute/ live; dev@ on the app)",
     "Wake 19:11 (10 Nov): merged dev; designer@'s three wording slips on past days (title 'what was on', standfirst 'the five things we picked', '1 item'); T4 section heads (3 px ink rule, 13 px, 0.1em) and T5 kickers (brand red, 12 px) in assets/site.css; sent dev@ the split of the site theme (it takes T1, T2, T3, T7; I take T4, T5, T6, T8)",
-    "Wake 20:11: merged dev (clean), gate green at v0.1.1068; dev@ shipped the masthead on every page (T1 to T3, T7); T5 time chips on the agenda lines (paper on brand green, 12 px mono); checked in dark on a 390 px day page: chips, section head and kickers read well (T6)"
+    "Wake 20:11: merged dev (clean), gate green at v0.1.1068; dev@ shipped the masthead on every page (T1 to T3, T7); T5 time chips on the agenda lines (paper on brand green, 12 px mono); checked in dark on a 390 px day page: chips, section head and kickers read well (T6)",
+    "Wake 21:11: merged dev (clean), gate green at v0.1.1077; designer@ 20:50: T1 to T8 pass (T3 near, Indi's banner); the app pane (dev@'s) gets an iPhone / iPad switch (assets/app/pane.js, pane.css): iPad = an 860 px pane with an 820 px tablet-shaped frame, offered only from 1500 px wide so the site keeps its room; the choice kept in this browser; tested at 1600 px (switches, back) and 1280 px (iPad hidden), no page errors",
+    "Wake 22:11: merged dev (clean), gate green at v0.1.1089; the visual newsroom (dev.graphs@, rounds 1 to 3) is already on dev, nothing needed from me; waiting for dev@ on the app pane's iPad switch"
   ],
   "next": [
-    "T8 lead bands for a day and a company (optional in the spec)",
-    "The app in an iPhone/iPad frame on pt.news (conductor.b@, from Dinis's brief): check whether dev@ has /app/ framed already before building",
-    "The visual newsroom with dev.graphs@ (its round 1 on work/dev.graphs)",
-    "designer@'s re-check of T1 to T8"
+    "T8 lead bands for a day and a company (optional in the spec) if designer@ asks",
+    "The app pane's iPad switch: dev@ to bring or decline",
+    "Past days in CI, logos and photos (still others')"
   ],
   "asks": [],
   "handover": "board/team/dev.pages/debriefs/2026-11-06-handover.md",

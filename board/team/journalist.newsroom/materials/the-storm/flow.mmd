@@ -1,57 +1,83 @@
 flowchart LR
-  A0["curator@PrompTugal.vicky"]
-  A1["journalist@PrompTugal.vicky"]
-  A2["reviewer@PrompTugal.vicky"]
-  A3(["readers (promptugal.news)"])
-  A4["conductor@web-summit.dinis"]
-  A5["conductor.B@PrompTugal.vicky"]
-  A6(["Dinis Cruz"])
-  A7["weather@PrompTugal.vicky"]
-  A8(["a person (not yet named)"])
-  A9["dashboard@PrompTugal.angelo"]
-  A10(["Vicky Wang"])
-  A11["correspondent@PrompTugal.dinis"]
-  A12["dev@PrompTugal.vicky"]
-  A13["accountant@PrompTugal.dinis"]
-  A14["reporter.newsroom@PrompTugal.dinis"]
-  A15["journalist.newsroom@PrompTugal.dinis"]
-  A16["conductor@PrompTugal.dinis"]
-  A17["dev@PrompTugal.dinis"]
-  A18(["visualisers (Angelo's, Jose's, Silvio's dashboard agents)"])
-  A19["security@PrompTugal.dinis"]
-  A20["dev.graphs@PrompTugal.dinis"]
-  A21["designer@PrompTugal.dinis"]
-  A0 -->|2| A1
-  A1 -->|1| A2
-  A2 ==>|3| A3
-  A4 -->|2| A5
-  A6 ==>|2| A5
-  A5 -->|3| A7
-  A7 -->|5| A2
-  A7 -->|1| A0
-  A7 -->|4| A5
-  A7 ==>|1| A8
-  A4 -->|1| A7
-  A4 -->|1| A9
-  A6 -->|1| A10
-  A5 -->|2| A11
-  A5 -->|2| A12
-  A4 -->|1| A13
-  A10 ==>|2| A5
+  A0["Lisbon's mayor"]
+  A1["Ministry of Internal Administration"]
+  A2["curator@PrompTugal.vicky"]
+  A3["journalist@PrompTugal.vicky"]
+  A4["reviewer@PrompTugal.vicky"]
+  A5["readers (promptugal.news)"]
+  A6["conductor@web-summit.dinis"]
+  A7["conductor.B@PrompTugal.vicky"]
+  A8(["Dinis Cruz"])
+  A9["weather@PrompTugal.vicky"]
+  A10(["a person (not yet named)"])
+  A11["dashboard@PrompTugal.angelo"]
+  A12(["Vicky Wang"])
+  A13["correspondent@PrompTugal.dinis"]
+  A14["dev@PrompTugal.vicky"]
+  A15["accountant@PrompTugal.dinis"]
+  A16["reporter.newsroom@PrompTugal.dinis"]
+  A17["journalist.newsroom@PrompTugal.dinis"]
+  A18["conductor@PrompTugal.dinis"]
+  A19["dev@PrompTugal.dinis"]
+  A20["Prime Minister"]
+  A21["Web Summit (organisers)"]
+  A22["visualisers (Angelo's, Jose's, Silvio's dashboard agents)"]
+  A23["Government (Prime Minister)"]
+  A24["security@PrompTugal.dinis"]
+  A25["dev.graphs@PrompTugal.dinis"]
+  A26["designer@PrompTugal.dinis"]
+  A27["social.watch@PrompTugal.dinis"]
+  A28["attendees"]
+  A0 -->|1| A1
+  A2 -->|3| A3
+  A3 -->|1| A4
+  A4 -->|6| A5
+  A6 -->|3| A7
+  A8 ==>|2| A7
+  A7 -->|3| A9
+  A9 -->|9| A4
+  A9 -->|1| A2
+  A9 -->|4| A7
+  A9 ==>|1| A10
+  A6 -->|1| A9
+  A6 -->|1| A11
+  A8 -->|1| A12
+  A7 -->|2| A13
+  A7 -->|3| A14
+  A6 -->|3| A15
+  A12 ==>|2| A7
+  A6 -->|1| A16
+  A6 -->|1| A17
+  A7 -->|1| A4
+  A16 -->|2| A17
+  A15 ==>|1| A8
+  A18 -->|1| A7
+  A14 -->|4| A19
+  A14 -->|1| A13
+  A20 -->|1| A21
+  A17 -->|1| A22
+  A4 ==>|2| A12
+  A18 -->|1| A16
+  A18 -->|1| A17
+  A18 -->|1| A9
+  A7 ==>|1| A12
+  A23 -->|1| A21
+  A24 ==>|3| A8
+  A7 -->|2| A25
+  A7 -->|2| A26
+  A8 ==>|1| A6
   A4 -->|1| A14
-  A4 -->|1| A15
-  A5 -->|1| A2
-  A14 -->|2| A15
-  A13 ==>|1| A6
-  A16 -->|1| A5
-  A12 -->|2| A17
-  A12 -->|1| A11
-  A15 ==>|1| A18
-  A2 ==>|1| A10
-  A16 -->|1| A14
-  A16 -->|1| A15
-  A16 -->|1| A7
-  A5 ==>|1| A10
-  A19 ==>|1| A6
-  A5 -->|2| A20
-  A5 -->|2| A21
+  A13 ==>|1| A8
+  A27 -->|3| A6
+  A27 -->|2| A18
+  A14 -->|1| A4
+  A4 -->|1| A13
+  A6 -->|2| A18
+  A21 -->|1| A28
+  A8 ==>|1| A24
+  A24 -->|1| A14
+  A24 -->|1| A7
+  A14 ==>|1| A12
+  A6 -->|1| A14
+  A6 -->|1| A24
+  A14 -->|1| A24

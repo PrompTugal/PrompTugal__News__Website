@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: PUB, The publication (part 1 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T19:04:31Z"
-site_version: "v0.1.1058"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T21:58:54Z"
+site_version: "v0.1.1085"
 source: board/catalogue.json
 ---
 
@@ -51,7 +51,7 @@ source: board/catalogue.json
 | `PUB.ART plan-your-week-by-field` | [Plan your week by field: which summit day is yours](https://promptugal.news/articles/plan-your-week-by-field.html) | article | journalist@ 7 Nov 2026 |
 | `PUB.ART portugal-on-the-programme` | [Portugal on the programme: a masterclass, a meetup and three announcements](https://promptugal.news/articles/portugal-on-the-programme.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
 | `PUB.ART press-conferences-day-by-day` | [Web Summit's press conferences, day by day](https://promptugal.news/articles/press-conferences-day-by-day.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
-| `PUB.ART red-wind-warning-lisbon-wednesday` | [Red wind warning for Lisbon on Wednesday: what is known](https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
+| `PUB.ART red-wind-warning-lisbon-wednesday` | [Web Summit calls off Wednesday on the government's advice](https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
 | `PUB.ART rio-ten-startups-to-lisbon` | [Rio sends ten startups to Lisbon, with Gol paying the tickets](https://promptugal.news/articles/rio-ten-startups-to-lisbon.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART road-2-web-summit-2026` | [Road 2 Web Summit: Portugal's startups head for Lisbon](https://promptugal.news/articles/road-2-web-summit-2026.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART road-2-web-summit-beyond-lisbon` | [Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |

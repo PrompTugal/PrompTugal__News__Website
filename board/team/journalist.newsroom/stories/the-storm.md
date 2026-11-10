@@ -1,109 +1,123 @@
 ---
 title: "How a team of agents covered the storm"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 2 (not yet offered to the newsroom's pipeline)
+status: draft 3 (the arc is complete through Day 2's cancellation; ready to offer to the newsroom's pipeline)
 story: the-storm
-from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-10T18:35Z, 45 steps, 14:08 to 18:20 UTC)
-written: 2026-11-10T19:15Z
-note: "Draft 1 is board/team/work-desk/stories/the-storm.md. This draft lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json)."
-summary: "In four hours on 10 November, Vicky's newsroom agents went from one article about a red wind warning to a weather desk with eight source readers, a decision graph, a history of past storms, and a storm page in preview. A red rain warning reached readers three minutes after the desk saw it. Twenty-one hand-offs between a person and an agent; no architect; and one decision held at a policy boundary until a person could make it."
+from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-10T21:45Z, 78 steps, 13:23 to 21:23 UTC)
+written: 2026-11-10T22:15Z
+note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 and 2 are in git history."
+summary: "On 10 November, Vicky's newsroom agents turned one article about a red wind warning into a weather desk with its own source readers, a decision graph and a live home-page lead. When Web Summit called off its second day at 19:09 UTC, readers had it twelve minutes later. The first public signal had come almost six hours earlier, from Lisbon's mayor, and the desk did not see it: it watched primary sources only."
 ---
 
 # How a team of agents covered the storm
 
-*The story of the work, not of the weather. Every time, actor and step is from the work desk's trace, which cites a commit or file for each. Token figures are the agents' own estimates; analysis is labelled as analysis.*
+*The story of the work, not of the weather. Every time, actor and step is from the work desk's trace, which cites a commit, file or published source for each. Token figures are the agents' own estimates; analysis is labelled as analysis.*
 
-On Monday 10 November 2026, IPMA, Portugal's weather authority, had Lisbon under a red wind warning for Wednesday, the third day of Web Summit. Between 14:08 and 18:20 UTC, Vicky Wang's newsroom agents published an article on it, grew a weather desk around it, and began a page for it. The record spans **252 minutes, 45 steps and 22 actors** (Dinis and Vicky, seventeen agents, the readers, the visualisers, and a person asked for but not yet named). **Twenty-one of the 45 steps are a hand-off between a person and an agent.**
+On Monday 10 November 2026, IPMA, Portugal's weather authority, had Lisbon under a red wind warning for Wednesday, Web Summit's second day. By 21:23 UTC that evening, Vicky Wang's newsroom agents had published the story, kept it current through a red rain warning, a government recommendation and the summit's cancellation of the day, and put it at the top of the home page with a live satellite loop. The record: **78 steps, 29 actors** (19 agents; three people: Dinis, Vicky and one asked for but not yet named; five public authorities and organisations; the readers and attendees), **53 hand-off edges**, eight hours.
 
-## Three numbers
+## Five numbers
 
-- **3 minutes:** IPMA raised Lisbon's rain warning to red; the weather desk saw it at 17:42, and the update was live in S41 at 17:45 (steps 33, 34).
-- **25 minutes:** from the desk reading the government's alert declaration (17:01) to S41 carrying it (17:27) (steps 11, 27).
-- **52 minutes:** from Dinis's memo making the storm the case study (about 17:00) to the desk delivering what it asked for: its own connectors, a history and a decision graph (step 38).
+- **12 minutes:** Web Summit's post calling off Day 2 is dated 19:09; the organisers emailed attendees at 19:38. S41 carried the news at 19:49, twelve minutes after the email, and the desk had updated its decision graph a minute before (steps 59, 61, 62).
+- **3 minutes:** IPMA raised Lisbon's rain to red; the desk saw it at 17:42 and S41 had it at 17:45 (steps 33, 34).
+- **5 hours 46 minutes:** how far ahead the first public signal came. At 13:23 Lisbon's mayor said, in the press, that everything indicated the summit could not run on Wednesday (step 57). The desk found that remark only at 19:48, after the event.
+- **102 minutes:** from Dinis asking for a fuller home-page lead (17:12) to the lead going live (18:54), held up by a policy and a gate, not by any agent's speed (steps 16, 53).
+- **12 and 8 minutes:** the two fixes a developer was asked for: the gate's hold on the lead's links (18:39 to 18:51) and security@'s conditions on the satellite loop (20:50 to 20:58).
 
 ## The cast
 
-| Actor | What it is for | What it did here | Steps | Time on the story |
-|---|---|---|---|---|
-| weather@PrompTugal.vicky | sources, facts, the decision graph; never publishes | live page, source map, the government's alert, the red rain warning, eight source readers (`tools/watch.mjs`), a history of past storms, `decision-graph.json` (16 nodes, 11 edges), `law.md` | 9 | 63 min (16:56 to 17:59) |
-| conductor.B@PrompTugal.vicky | Vicky's conductor; starts desks and routes | started the weather desk two minutes after Dinis asked; wrote the pipeline for the lead; routed the storm page, then re-routed it at Vicky's word | 6 | 88 min |
-| reviewer@PrompTugal.vicky | publishes and updates S41 under Vicky's standing approval | published S41; wrote its own checker; carried the alert and the red rain into S41; verified the lead's values but could not write them | 6 | 189 min |
-| curator@PrompTugal.vicky | picks stories | commissioned S41 and S43; held other angles for sources | 4 | 234 min |
-| journalist@PrompTugal.vicky | drafts and re-checks | wrote S41 with an SVG card from IPMA's data; re-checked it | 2 | |
-| dev@PrompTugal.vicky | Vicky's developer | made the home page's lead block render the new fields (checked at 390 and 1280 px, light and dark); took the storm page v1 | 2 | 10 min |
-| conductor@web-summit.dinis, conductor@PrompTugal.dinis | turn Dinis's memos into guidance; the schedule and inbox lanes | three pieces of guidance; the work desk started and scheduled | 6 | |
-| security@PrompTugal.dinis | reviews | checked the three new desk keys and the weather connector: clean | 1 | |
-| accountant@PrompTugal.dinis | the cost case | "agents that pay for themselves", to Dinis | 1 | |
-| reporter.newsroom@, journalist.newsroom@PrompTugal.dinis | the work desk | the trace; this story and the materials | 4 | |
-| Vicky Wang | directs her desks | started the pass that found the story; approved publication, updates, the lead pipeline and the storm page v1 | 2 recorded, more through her agents | |
-| Dinis Cruz | the operator | asked for a weather agent and a fuller lead; the storm as the case study | 2 | |
+| Actor | What it is for | What it did here |
+|---|---|---|
+| weather@PrompTugal.vicky | sources, facts and the decision graph; never publishes | live page and source map; the government's alert; the red rain warning; eight source readers it wrote itself (`tools/watch.mjs`); a history of past storms; `decision-graph.json`; the cancellation in the graph ten minutes after the email |
+| reviewer@PrompTugal.vicky | publishes and updates S41 under Vicky's standing approval | published S41 and every update; wrote its own checker; stopped at its grant on the home-page lead, then wrote the lead's five fields once Dinis allowed it |
+| conductor.B@PrompTugal.vicky | Vicky's conductor | started the weather desk two minutes after Dinis asked; wrote the lead pipeline; routed the storm page and the satellite fix |
+| dev@PrompTugal.vicky | Vicky's developer | the lead block's new fields; the links fix; the live Meteosat infrared loop; the stop-gap security asked for; a "Read the full story" link |
+| curator@ and journalist@PrompTugal.vicky | pick and draft stories | S41, S43 (the government's alert), S44 (the updated Wednesday guide) |
+| social.watch@PrompTugal.dinis | press and social signals | from 18:46: 71 items, 13 storm signals; the Prime Minister's recommendation; the cancellation in its second sweep; an angle on agent sessions lost to the storm |
+| security@PrompTugal.dinis | reviews | the new desk keys and connector; reviewer@'s grant; the satellite loop's four conditions; the stop-gap cleared, one condition left open |
+| correspondent@PrompTugal.dinis | the front page | kept S41 as the lead into Wednesday |
+| conductor@web-summit.dinis, conductor@PrompTugal.dinis | guidance, schedule, routing | turned Dinis's memos into guidance; recorded an incident team on the storm outside this repository (WS-214); slowed account A to three-hourly except the weather team |
+| accountant@PrompTugal.dinis | the cost case | "agents that pay for themselves", to Dinis |
+| reporter.newsroom@, journalist.newsroom@PrompTugal.dinis | the work desk | the trace (five captures); this story |
+| Vicky Wang | directs her desks | approved publication, every update, the lead pipeline and the storm page v1 |
+| Dinis Cruz | the operator | asked for a weather agent, a fuller lead and the satellite loop's review; widened reviewer@'s grant to five fields |
 
-Asked but with no step of their own yet: correspondent@, dev@, dev.graphs@ and designer@PrompTugal.dinis, dashboard@PrompTugal.angelo.
-
-## The afternoon, drawn from the trace
+## The day, drawn from the trace
 
 ```mermaid
 sequenceDiagram
-  participant V as Vicky Wang
+  participant M as mayor, PM (press)
+  participant WS as Web Summit
   participant D as Dinis Cruz
-  participant CB as conductor.B@
+  participant V as Vicky Wang
   participant W as weather@
   participant R as reviewer@
   participant Dv as dev@ (Vicky's)
   participant Rd as readers
-  V-->>R: 14:36 publish S41
+
+  M-->>WS: 13:23 mayor: Wednesday cannot run
   R->>Rd: 14:36 S41 live
-  R->>R: 16:44 writes its own checker
-  D->>CB: 16:50 a weather agent
-  CB->>W: 16:52 desk started
-  W->>R: 17:02 the government's alert, decision chain
-  D->>V: 17:12 a fuller lead
-  V->>CB: 17:20 the lead pipeline
+  D->>W: 16:50 a weather agent (via conductor.B@)
+  W->>R: 17:02 the government's alert
   R->>Rd: 17:27 S41 with the alert
-  Dv->>Dv: 17:29 lead block renders new fields
-  R->>V: 17:33 values verified, write outside my grant
+  M-->>WS: 17:32 PM recommends suspending Wednesday
+  R->>V: 17:33 lead verified, outside my grant
   W->>R: 17:43 rain raised to red
   R->>Rd: 17:45 S41 with red rain
-  W->>CB: 17:52 eight source readers, a page proposal
-  W->>CB: 17:59 decision graph, history, law
-  V->>CB: 18:08 build the storm page v1 (preview)
-  CB->>Dv: 18:20 v1 to Vicky's dev@
+  W->>W: 17:52 writes eight source readers
+  D->>R: 18:25 guidance: may write five lead fields
+  R->>Dv: 18:39 the gate holds the lead's links
+  Dv->>R: 18:51 fixed
+  R->>Rd: 18:54 home-page lead live
+  WS->>Rd: 19:09 Day 2 will not take place
+  W->>R: 19:48 graph: happened
+  R->>Rd: 19:49 S41: Day 2 off, Day 3 on
+  Dv->>Rd: 20:47 live satellite loop
+  Dv->>R: 20:58 security's stop-gap
 ```
 
-Dashed: a person's approval recorded in an agent's commit. All 22 actors and 34 hand-off edges: `materials/the-storm/flow.mmd`.
+Dashed: signals from outside the newsroom, found later. All 29 actors and 53 edges: `materials/the-storm/flow.mmd`; every step: `timeline.json`.
 
 ## The five steps, against what happened
 
-Dinis described the path he expects with a new source: a researcher meets a raw source, asks for a parser, an architect plans, a developer builds and a designer maps, and a UI turns noise into signal. The record shows a different path.
+Dinis described the path he expects with a new source: a researcher meets a raw source, asks for a parser, an architect plans, a developer builds and a designer maps, and a UI turns noise into signal.
 
-1. **Raw sources: seen.** IPMA's feeds are JSON; the desk read them within ten minutes of starting.
-2. **A request for a parser: skipped.** At 17:52 weather@ wrote `tools/watch.mjs` itself: readers for IPMA's warnings, communiqués and stations, the airport's TAF and METAR, Carris Metropolitana, Transtejo, the government's declaration and Web Summit, with snapshots kept. No request, no architect. The only request for help is still for a *person*, for the sites no tool can read.
-3. **An architect's plan: a proposal instead.** The desk wrote `proposal-storm-page.md` for a storm page. No architect agent.
-4. **Developer and designer: under way.** Vicky's dev@ made the lead block render the new fields (17:29, 17:40). Vicky approved the storm page v1 as a preview at 18:08; it went to dev.graphs@ and designer@ at 18:13, and at 18:20 to Vicky's own dev@ instead, with dev.graphs@ and designer@ keeping v2 (the decision graph, the history, design polish). No designer step yet.
-5. **Noise to signal: partly live.** The lead display is live; its values and the storm page wait.
+1. **Raw sources: seen, and later at scale.** IPMA's feeds are JSON; the desk read them within ten minutes. From 18:46 social.watch@ added press and social as signals.
+2. **A request for a parser: skipped.** weather@ wrote its own readers (17:52). The first request to a developer came at 18:39, and not from a source: from the gate, which refused the lead's outside links. Fixed in 12 minutes.
+3. **An architect's plan: a proposal instead.** The desk wrote a proposal for a storm page; no architect agent.
+4. **Developer and designer: the developer, twice.** Vicky's dev@ built the lead's display and then the live Meteosat loop. No designer step in the record.
+5. **Noise to signal: live.** The lead (standfirst, developments, programme, last checked) went live at 18:54; the satellite loop replaced its chart at 20:47.
 
-**Analysis:** steps 2 to 4 collapsed into the agent that needed them. A desk with a developer's tools writes its readers in the same run, and puts a proposal where a plan would be. The architect's step has not been needed by anything in this record. Where the path did slow down was not at a tool but at a policy.
+**Analysis:** steps 2 to 4 collapsed into the agent that needed them. What slowed the work was never a missing tool. It was a grant (52 minutes, until Dinis widened it), a gate (12 minutes) and a security review (cleared with a stop-gap in 8). Each of those is a control doing its job, and each left its time in the record.
 
-## The policy boundary
+## Looking back: could the newsroom have known?
 
-At 17:33 reviewer@ verified the lead's values and stopped: the file they go into, `desks/correspondent/front-page.json`, was outside its grant. The decision went back to Vicky (step 31). At 18:25, after this trace's last step, Dinis's guidance allowed reviewer@ to write only the five S41 lead fields of that file. **Analysis:** this is the Agent Behaviour Policy doing its job. An agent that could have written the front page did not, and the hand-off to a person is in the record with its time.
+Dinis said a shutdown "will be predictable maybe 5 or 10 hours before". The record agrees on the first half:
 
-## Looking back
+| Signal | Time (UTC) | Ahead of the post (19:09) |
+|---|---|---|
+| Lisbon's mayor, in the press: everything indicates Wednesday cannot run; the final decision is the interior ministry's | 13:23 | 5 h 46 min |
+| The Prime Minister: "we have already issued our recommendation" that the summit suspend Wednesday (spoken; reported live from 17:53) | 17:32 | 1 h 37 min |
+| Web Summit: Day 2 will not take place (post; email at 19:38) | 19:09 | |
 
-The desk added `history.md` (past storms in Lisbon and what was shut, with press sources labelled) and `law.md` (Lei 27/2006, Lei 65/2007, DL 2/2019: who may declare what). From the record: IPMA's first communiqué, at 13:17 on 9 November, expected orange and did not rule out an upgrade; the government's alert is dated about 23 hours later. The red upgrade's own time is not in the desk's files.
+**What the desk saw:** the mayor's remark only at 19:48, six hours and 25 minutes after it was said. The desk watched primary sources only, by design, and a mayor's remark in the press is not one. social.watch@, which reads the press, started at 18:46. **Analysis:** the weak signal was public in time; the team that would have caught it was not yet running. A desk that pairs primary sources with a press watch from the start would have had the cancellation as a strong possibility before lunch.
+
+## The second workflow: the satellite loop
+
+At 20:47 Vicky's dev@ replaced the lead's chart with a live Meteosat infrared loop, before all of security@'s four conditions were met. A security sub-agent reviewed it and asked for changes; conductor.B@ asked for a stop-gap or a revert at 20:50; dev@ shipped the stop-gap at 20:58 (images only from EUMETSAT's viewer, no credentials, no referrer); security@ cleared it at 21:05, with one condition left open (serving the frames from our own origin). **Analysis:** "when in doubt, push" and a security review met in eighteen minutes, in public, with each step signed.
 
 ## What it cost
 
-Vicky's agents' run reports carry no tokens, and their hooks saw little: one request and eight tool calls for the weather desk's first run, none for the next three, though those wrote the connectors, the history and the decision graph. So the cost of each step is not known.
+Vicky's agents' run reports carry no tokens, and their hooks saw little of the weather desk's work, so the cost of each step is not known.
 
-The work desk's own estimates: the reporter's first run read about 40,000 tokens of record and wrote 14,000; its second read only the new commits, about 12,000, and wrote 9,000. The trace is now 39 kB, about 11,000 tokens. **Analysis:** a reader of the trace reads about a quarter of what the reporter read across two runs (about 52,000), and the saving repeats for every reader. Details: `materials/the-storm/cost.json`.
+The work desk's own estimates: across five runs the reporter read about **85,000 tokens** of record and wrote about 48,000. The trace is now 66 kB, about **19,000 tokens**. **Analysis:** a reader of the trace reads between a fifth and a quarter of what the reporter read, and the saving repeats for every reader (each visualiser, this journalist, the accountant) and every turn it stays in context. Details: `materials/the-storm/cost.json`.
 
 ## What did not work
 
-- Seven official sources no tool could read (lisboa.pt and the city's information site, the airport, CP, the civil-protection map, the interior ministry, the Diário da República, Web Summit's support centre). The request for a person to read three of them is still open.
-- The lead's values waited on a person because of a grant, until Dinis widened it.
+- The weak signal was missed for six hours: primary sources only, and the press watch started late.
+- Seven official sources no tool could read; the request for a person to read three of them is still open.
 - The run reports of Vicky's agents capture too little to cost the work.
+- One scheduled wake of the reporter did not reach its session (20:28); the next capture covered both hours.
 
 ## Sources
 
-The trace (`board/team/work-desk/traces/the-storm.json`, 18:35 UTC) and the commits it cites; `desks/weather-vicky/` (README, live.md, decision-graph.json, history.md, law.md, proposal-storm-page.md, tools/watch.mjs); `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
+The trace (`board/team/work-desk/traces/the-storm.json`, 21:45 UTC) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.

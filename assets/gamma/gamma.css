@@ -12,7 +12,7 @@
 .gr-card h3 { margin: 2px 0 0; font: 600 19px/1.2 var(--serif); } .gr-card h3 a { color: var(--ink); text-decoration: none; } .gr-card h3 a:hover { text-decoration: underline; }
 .gr-co { font-size: 13.5px; color: var(--ink-2); } .gr-co a { color: inherit; }
 .gr-chips { display: flex; gap: 6px; }
-.gr-chip { display: inline-flex; align-items: baseline; gap: 3px; min-width: 40px; justify-content: center; padding: 4px 8px; border: 1px solid var(--ink); border-radius: 3px; font: 600 13px var(--mono); color: var(--ink); }
+.gr-chip { display: inline-flex; flex-direction: column; align-items: center; gap: 1px; min-width: 56px; justify-content: center; padding: 4px 8px; border: 1px solid var(--ink); border-radius: 3px; font: 600 13px var(--mono); color: var(--ink); }
 .gr-chip b { font-weight: 700; }
 .gr-l0 { border-style: dashed; border-color: var(--ink-3); color: var(--ink-3); }
 .gr-l2 { background: color-mix(in srgb, var(--ink) 15%, transparent); }
@@ -24,3 +24,5 @@
 .gr-meta { font: 12px var(--mono); color: var(--ink-3); } .gr-meta a { color: var(--ink-2); }
 .gr-more { font-size: 14px; margin: 4px 0 0; }
 .gr-block { margin: 6px 0 22px; }
+.gr-chip small { font: 500 9.5px var(--sans); letter-spacing: .02em; opacity: .85; }
+.gr-sort { display: flex; gap: 6px; margin: 0 0 12px; } .gr-sort button { font: 600 13px var(--sans); padding: 6px 12px; min-height: 36px; border: 1px solid var(--rule-2); background: var(--panel); color: var(--ink); border-radius: 999px; cursor: pointer; } .gr-sort button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }

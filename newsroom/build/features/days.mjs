@@ -5,7 +5,7 @@
 // A past day says it is the past. Rebuilding the site as it was that day (S2) is not built yet, and the page says so.
 import fs from 'node:fs'
 import { slotLine, slotList } from '../lib/present.mjs'
-import { load, rank, KIND, STRIP_DAYS, stripMd } from './agenda.mjs'
+import { load, rank, KIND, STRIP_DAYS, stripMd, cancelledDays } from './agenda.mjs'
 export const order = 60
 export const assets = { js: ['assets/days/days.js'] }
 
@@ -31,8 +31,10 @@ function dayPage(ctx, d, i) {
         today: `**Today: ${DAY(d)}.** What is on today, then the other days in the strip above.`,
         future: `**Planned: ${DAY(d)}**, as listed on ${DAY(TODAY)}. Times and rooms can move: each item links to its source.`,
     }[when]
+    const off = cancelledDays()[d]   // the correspondent's 'did not take place' (10 November: Day 2 cancelled)
+    const shown = off ? `**${DAY(d)} did not take place.** ${off.replace(/\.?$/, '.')}` : banner
     const prev = STRIP_DAYS[i - 1], next = STRIP_DAYS[i + 1]
-    const md = `${stripMd(ctx, rel, d)}\n\n{.notice .brand}\n${banner}\n\n` +
+    const md = (off ? `{.notice .brand}\n${shown}\n\n${stripMd(ctx, rel, d)}\n\n` : `${stripMd(ctx, rel, d)}\n\n{.notice .brand}\n${shown}\n\n`) +
         (items.length ? `{.view-switch}\n[Five things](#v-five) · [Every session, by time](#v-all) · [By stage](#v-stages)\n\n` +
             `::: view view-five\n#### Five things {#v-five}\n\n${picked.length || d < TODAY ? '' : `*${DW.unpicked}*\n\n`}${slotList(five.map(line))}\n\n` +
             (items.length > 5 ? `::: fold\n#### ${d === TODAY ? DW.else_today : DW.else_other} (${items.length - 5}) {#else}\n\n${slotList([...items].filter(e => !five.includes(e)).sort(byTime).map(line))}\n:::\n` : '') + `:::\n\n` +
@@ -43,8 +45,8 @@ function dayPage(ctx, d, i) {
     return {
         src: 'data/events/', rel, type: 'site', date: TODAY, section: 'agenda',
         crumbs: [['summit/index.html', 'The summit'], [null, DAY(d)]],
-        title: `${DAY(d)}: ${d < TODAY ? DW.title_was : DW.title_on}`,
-        summary: `${items.length} item${items.length === 1 ? '' : 's'} in our programme on ${DAY(d)}, Web Summit Lisbon week: ${d < TODAY ? DW.summary_was : DW.summary_on}`,
+        title: `${DAY(d)}: ${cancelledDays()[d] ? 'called off' : d < TODAY ? DW.title_was : DW.title_on}`,
+        summary: cancelledDays()[d] ? `${DAY(d)} did not take place: ${cancelledDays()[d].split(' (')[0]}. What was planned is kept as the record.` : `${items.length} item${items.length === 1 ? '' : 's'} in our programme on ${DAY(d)}, Web Summit Lisbon week: ${d < TODAY ? DW.summary_was : DW.summary_on}`,
         md,
     }
 }
@@ -59,6 +61,7 @@ function daysIndex(ctx) {
         const picked = (PICKS[d]?.picks || []).map(id => items.find(e => e.id === id.replace(/^event:/, ''))).filter(Boolean)
         const five = picked.length ? [...picked].sort(byTime) : [...items].sort((a, b) => rk(a) - rk(b) || byTime(a, b)).slice(0, 5).sort(byTime)
         const line = e => slotLine(ctx, rel, e, { day: false, extra: [KIND[e.kind] || e.kind] })
+        if (cancelledDays()[d]) return `## [${DAY(d)}](${ctx.link(rel, `days/${d}/index.html`)}): called off {#d-${d}}\n\n{.notice .brand}\n${cancelledDays()[d]}`
         return `## [${DAY(d)}](${ctx.link(rel, `days/${d}/index.html`)})${d === TODAY ? ' (today)' : ''} {#d-${d}}\n\n${items.length} in our programme.\n\n${slotList(five.map(line))}`
     }).join('\n\n')
     return { src: 'data/events/', rel, type: 'site', date: TODAY, section: 'agenda', crumbs: [['summit/index.html', 'The summit'], [null, 'The days']], layout: 'wide',
@@ -77,6 +80,6 @@ export const api = ctx => {
     })
     return [
         { path: 'api/v1/days.json', schema: null, data: { about: W.about, version: ctx.VERSION, updated: TODAY, days: days.map(({ items, ...d }) => ({ ...d, data: `${ctx.BASE}api/v1/days/${d.date}.json` })) } },
-        ...days.map(d => ({ path: `api/v1/days/${d.date}.json`, schema: null, data: { about: W.about, version: ctx.VERSION, ...d } })),
+        ...days.map(d => ({ path: `api/v1/days/${d.date}.json`, schema: null, data: { about: W.about, version: ctx.VERSION, ...d, ...(cancelledDays()[d.date] ? { cancelled: cancelledDays()[d.date] } : {}) } })),
     ]
 }

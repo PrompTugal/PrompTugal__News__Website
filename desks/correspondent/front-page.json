@@ -1,36 +1,31 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-10T18:52Z",
+  "updated": "2026-11-10T20:52Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
-    "why": "S41, the storm: IPMA's red warnings for Lisbon on Wednesday 11 November (wind midday to 21:00; rain midday to 18:00 since 17:43 UTC Tuesday), the summit's main day. Keeps the lead into Wednesday (the planned swap to the GAMMA-Ray launch is held: the storm is the day's story and Dinis's case study, board/guidance/2026-11-10-the-storm-as-our-case-study.md). While S41 leads, reviewer@PrompTugal.vicky writes the five S41 keys here (Dinis, 18:25); I keep 'article' and 'why'. Set 18:52 UTC Tuesday.",
-    "standfirst": "Web Summit says Day 2, Wednesday 11 November, will not take place, after Portugal's government formally advised against it because of Storm Charles. It aims to hold Day 3 on Thursday as planned. IPMA has red warnings for the Lisbon district on Wednesday: wind from 12:00 to 21:00, with gusts up to 120 km/h and up to 140 km/h in the most exposed places, and rain from 12:00 to 18:00.",
+    "why": "S41, the storm: Web Summit says Day 2, Wednesday 11 November, will not take place (announced 19:38 UTC Tuesday, at the Government of Portugal's formal advice; Storm Charles) and aims to hold Day 3 on Thursday. Leads until the storm passes and Thursday is confirmed. reviewer@PrompTugal.vicky keeps the five S41 keys (Dinis, 18:25); I keep 'article' and 'why'. Updated 20:52 UTC Tuesday.",
+    "standfirst": "Web Summit has called off Day 2, Wednesday 11 November, on the government's advice because of Storm Charles; it aims to hold Day 3 on Thursday.",
     "developments": [
       {
-        "text": "Web Summit says Day 2, Wednesday 11 November, will not take place, at the Government of Portugal's formal advice, citing tidal flooding, severe disruption to public transport and high winds on external structures.",
-        "checked": "2026-11-10T20:33Z",
-        "source": "https://websummit.com/blog/web-summit/important-event-update-2026/"
-      },
-      {
-        "text": "IPMA has red warnings for the Lisbon district on Wednesday: rain 12:00 to 18:00 and wind 12:00 to 21:00.",
+        "text": "IPMA red warnings for Lisbon on Wednesday: wind 12:00 to 21:00, rain 12:00 to 18:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-10T20:33Z"
+        "checked": "2026-11-10T21:34Z"
       },
       {
-        "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended, whatever their nature.",
+        "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-10T20:33Z"
+        "checked": "2026-11-10T21:34Z"
       }
     ],
     "programme": {
       "label": "Web Summit, Wednesday",
-      "text": "Day 2 will not take place, Web Summit announced on Tuesday evening, on the Government of Portugal's formal advice after talks with the government, ANEPC and the police (PSP). It aims to proceed with Day 3, Thursday 12 November, as planned.",
+      "text": "Day 2 cancelled; Day 3 planned for Thursday.",
       "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-      "checked": "2026-11-10T20:33Z"
+      "checked": "2026-11-10T21:34Z"
     },
-    "last_checked": "2026-11-10T20:33Z",
+    "last_checked": "2026-11-10T21:34Z",
     "live": null
   },
   "top": [
@@ -278,20 +273,20 @@
       {
         "date": "2026-11-11",
         "day": "Wednesday 11 November",
-        "phase": "summit day 2",
-        "know": "51 official items: the AI agent economy, a UN AI treaty, monitoring GenAI; the Policy Summit (São Paulo and Portugal on one stage). European Tech Champions, Italy and Portugal, in Beato (italy-and-portugal-in-beato).",
-        "lead": "the day's news",
+        "phase": "summit day 2: did not take place (Storm Charles)",
+        "know": "Web Summit cancelled Day 2 at the Government of Portugal's formal advice (announced 19:38 UTC on 10 November): tidal flooding, severe disruption to public transport, high winds on external structures. IPMA red warnings for wind and rain.",
+        "lead": "red-wind-warning-lisbon-wednesday (S41, the storm)",
         "also": [
-          "wednesday-11-november-going-abroad",
-          "now and next",
-          "brazil-on-the-stages"
+          "plan-your-week-by-field",
+          "what-lovable-deleted",
+          "gravitee-agent-security-survey"
         ]
       },
       {
         "date": "2026-11-12",
         "day": "Thursday 12 November",
         "phase": "summit day 3, the last",
-        "know": "48 official items: AI and cyber (AI agents going rogue, defence at machine speed); Serpro on cyber resilience; the Road 2 Web Summit winner (road-2-web-summit-2026).",
+        "know": "48 official items: AI and cyber (AI agents going rogue, defence at machine speed); Serpro on cyber resilience; the Road 2 Web Summit winner (road-2-web-summit-2026). Web Summit aims to hold Day 3 as planned (its announcement of 10 November, 19:38 UTC); confirm before it leads.",
         "lead": "the day's news, up to the last minute",
         "also": [
           "now and next",
@@ -347,24 +342,24 @@
     "for_date": "2026-11-11",
     "items": [
       {
-        "article": "venue-map",
-        "why": "where everything is, if you go"
-      },
-      {
-        "article": "wednesday-11-november-going-abroad",
-        "why": "today's guide"
-      },
-      {
         "article": "plan-your-week-by-field",
-        "why": "AI and policy every day; PITCH's semi-final at 17:00, Centre Stage"
+        "why": "Thursday still runs: the Cybersecurity Summit is all on Thursday"
+      },
+      {
+        "article": "what-lovable-deleted",
+        "why": "an agent rebuilt by deletion"
+      },
+      {
+        "article": "teamworks-coaches-agent",
+        "why": "what failed first"
       },
       {
         "article": "wpp-call-transcripts-to-jira",
         "why": "a person reviews what the agents plan"
       },
       {
-        "article": "teamworks-coaches-agent",
-        "why": "what failed first"
+        "article": "speed-where-its-safe-control-where-it-matters",
+        "why": "how our own agents are checked"
       }
     ]
   },
@@ -406,7 +401,8 @@
           "beyond-the-ai-agent-hype": "past the hype",
           "coaching-an-ai-agent-like-human-talent": "an agent coached like a new hire",
           "agents-don-t-need-prompts-they-need-context": "context over prompts"
-        }
+        },
+        "status": "did not take place: Web Summit cancelled Day 2 (announced 19:38 UTC on 10 November, at the Government of Portugal's formal advice; Storm Charles). The picks are kept as the record of what was planned."
       },
       "2026-11-12": {
         "picks": [
@@ -444,5 +440,51 @@
       "last_checked",
       "live"
     ]
+  },
+  "next_edition": {
+    "about": "Thursday 12 November (Day 3, which Web Summit aims to hold), drafted at 20:52 UTC Tuesday. Swapped in on Wednesday evening if Day 3 is confirmed; the storm keeps the lead if it is not.",
+    "for_date": "2026-11-12",
+    "lead": {
+      "article": "<Day 3 confirmed: an article on what Thursday holds, when published>",
+      "fallback": "plan-your-week-by-field",
+      "why": "The day the summit resumes; the Cybersecurity Summit is all on Thursday."
+    },
+    "top": [
+      {
+        "article": "gravitee-agent-security-survey",
+        "why": "agents outpace their security, on security's day"
+      },
+      {
+        "article": "<Noxus's GAMMA-Ray article, when published>",
+        "why": "the agentic edition's centrepiece"
+      },
+      {
+        "article": "red-wind-warning-lisbon-wednesday",
+        "why": "S41, the storm and the cancelled day, as the record"
+      }
+    ],
+    "briefing": [
+      {
+        "article": "plan-your-week-by-field",
+        "why": "security all on Thursday"
+      },
+      {
+        "article": "venue-map",
+        "why": "where everything is"
+      },
+      {
+        "article": "what-lovable-deleted",
+        "why": "an agent rebuilt by deletion"
+      },
+      {
+        "article": "glovo-restaurant-agents-getvocal",
+        "why": "agents at work"
+      },
+      {
+        "article": "press-conferences-day-by-day",
+        "why": "Thursday's press conferences"
+      }
+    ],
+    "rule": "At the swap, every '<...>' slot takes the published slug or its fallback; a slot with neither is dropped. While S41 leads, edit 'lead' in place (lead_shared_keys)."
   }
 }

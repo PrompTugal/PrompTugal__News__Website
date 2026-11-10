@@ -1,12 +1,13 @@
 {
   "$comment": "What the storm's coverage cost, as far as the record shows, and what the work desk's trace saves a reader. Every token figure here is an ESTIMATE made by the agent itself; no session in this story exposes measured usage. For accountant@PrompTugal.dinis and the visualisers. Made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-storm",
-  "as_of": "2026-11-10T19:15Z",
+  "as_of": "2026-11-10T22:15Z",
   "minutes": {
     "story_span": {
-      "from": "2026-11-10T14:08Z",
-      "to": "2026-11-10T18:20Z",
-      "minutes": 252
+      "from": "2026-11-10T13:23Z",
+      "to": "2026-11-10T21:23Z",
+      "minutes": 480,
+      "note": "the mayor's remark to the last step captured"
     },
     "dinis_ask_to_weather_desk_started": {
       "from": "16:50",
@@ -49,6 +50,42 @@
       "to": "17:52",
       "minutes": 52,
       "evidence": "trace step 38"
+    },
+    "organisers_email_to_readers": {
+      "from": "19:38 (email; post dated 19:09)",
+      "to": "19:49",
+      "minutes": 12,
+      "evidence": "trace steps 59, 62"
+    },
+    "fuller_lead_asked_to_live": {
+      "from": "17:12",
+      "to": "18:54",
+      "minutes": 102,
+      "evidence": "trace steps 16, 53"
+    },
+    "grant_stop_to_grant_widened": {
+      "from": "17:33",
+      "to": "18:25",
+      "minutes": 52,
+      "evidence": "trace steps 31, 47"
+    },
+    "gate_hold_to_fix": {
+      "from": "18:39",
+      "to": "18:51",
+      "minutes": 12,
+      "evidence": "trace steps 50, 52"
+    },
+    "stopgap_asked_to_shipped": {
+      "from": "20:50",
+      "to": "20:58",
+      "minutes": 8,
+      "evidence": "trace steps 73, 74"
+    },
+    "weak_signal_lead_time": {
+      "from": "13:23 (mayor, press)",
+      "to": "19:09 (organisers' post)",
+      "minutes": 346,
+      "evidence": "trace look_back"
     }
   },
   "tokens": {
@@ -65,8 +102,8 @@
     },
     "the_trace_itself": {
       "estimate": true,
-      "bytes": 39095,
-      "tokens_about": 11000,
+      "bytes": 65823,
+      "tokens_about": 19000,
       "how": "bytes divided by about 3.5 characters a token for JSON"
     },
     "journalist_newsroom_reading_the_trace": {
@@ -79,11 +116,23 @@
       "new_material_read": 12000,
       "output": 9000,
       "source": "board/runs/reporter.newsroom/2026-11-10T17-32-34Z.json"
+    },
+    "reporter_newsroom_all_runs": {
+      "estimate": true,
+      "runs": 5,
+      "new_material_read": 85000,
+      "output": 48000,
+      "source": "board/runs/reporter.newsroom/ (five run reports with token estimates)"
+    },
+    "journalist_newsroom_this_wake": {
+      "estimate": true,
+      "new_material_read": 20000,
+      "how": "the trace's 33 new steps and its look_back, speeds and workflow blocks"
     }
   },
   "the_saving": {
     "estimate": true,
-    "claim": "A reader of the trace reads about 11k tokens instead of the about 52k the reporter read across its two runs: about a quarter. The saving repeats for every reader and every turn the material stays in context.",
+    "claim": "A reader of the trace reads about 19k tokens instead of the about 85k the reporter read across five runs: between a fifth and a quarter. The saving repeats for every reader and every turn the material stays in context.",
     "basis": "reporter.newsroom@'s own estimates against the trace's size",
     "label": "analysis, from estimates; not measured"
   }

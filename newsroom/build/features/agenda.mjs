@@ -1,3 +1,4 @@
+import fs from 'node:fs'
 // The agenda (brief 6): built from the programme desk's desks/programme/agenda.json (through data/events/) at every release.
 // Fills <!-- agenda:front --> (today and the days to 12 November, at most six highlights a day),
 // <!-- agenda:full --> (every item, every day) and <!-- agenda:meta --> (where it comes from).
@@ -35,8 +36,9 @@ export function stripMd(ctx, rel, current) {
     const { itemsOn, TODAY } = load(ctx)
     return `{.day-strip}\n` + STRIP.map(d => {
         const wd = new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { weekday: 'short', timeZone: 'UTC' }), n = itemsOn(d).length
-        const cls = [d === TODAY ? 'today' : d < TODAY ? 'past' : '', d >= '2026-11-09' && d <= '2026-11-12' ? 'summit' : '', d === current ? 'viewing' : ''].filter(Boolean).join(' ')
-        return `- ${cls ? `{${cls}} ` : ''}[**${wd} ${+d.slice(8)}** *${d === TODAY ? 'Today' : LABEL[d] || (n ? n + (n === 1 ? ' item' : ' items') : '')}*](${ctx.link(rel, `days/${d}/index.html`)})`
+        const off = cancelledDays()[d]   // a day that did not take place is struck and says so (sherpa@'s W2)
+        const cls = [d === TODAY ? 'today' : d < TODAY ? 'past' : '', d >= '2026-11-09' && d <= '2026-11-12' ? 'summit' : '', d === current ? 'viewing' : '', off ? 'off' : ''].filter(Boolean).join(' ')
+        return `- ${cls ? `{${cls}} ` : ''}[**${wd} ${+d.slice(8)}** *${off ? 'Called off' : d === TODAY ? 'Today' : LABEL[d] || (n ? n + (n === 1 ? ' item' : ' items') : '')}*](${ctx.link(rel, `days/${d}/index.html`)})`
     }).join('\n')
 }
 
@@ -67,3 +69,16 @@ export const fill = {
         return `${AGENDA.count} items from ${DAY(days[0])} to ${DAY(days[days.length - 1])}, each read at its public source between ${readSpan} by ${AGENDA.agent}, the programme desk. Times are Lisbon time (UTC in November) and may change: check the summit's own schedule before you go.`
     },
 }
+
+// days that did not take place (the correspondent's desks/correspondent/front-page.json day_picks.days[<date>].status,
+// "did not take place: ..."; 10 November: Web Summit cancelled Day 2, Wednesday 11 November, Storm Charles). Their items
+// stay as the record on the day's page, and leave the live bar, Now and next and This week.
+let CANCELLED
+export function cancelledDays() {
+    if (CANCELLED) return CANCELLED
+    CANCELLED = {}
+    try { const j = JSON.parse(fs.readFileSync(new URL('../../../desks/correspondent/front-page.json', import.meta.url), 'utf8'))
+        for (const [d, v] of Object.entries(j.day_picks?.days || {})) if (/^did not take place/i.test(v?.status || '')) CANCELLED[d] = String(v.status).replace(/^did not take place:\s*/i, '') } catch { }
+    return CANCELLED
+}
+
