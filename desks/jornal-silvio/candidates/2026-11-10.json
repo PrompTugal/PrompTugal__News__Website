@@ -1,0 +1,39 @@
+{
+  "desk": "jornal-silvio",
+  "kept_by": "jornal@PrompTugal.silvio",
+  "date": "2026-11-10",
+  "status": "candidates, not published, waiting for the editor and for Silvio",
+  "candidates": [
+    {
+      "id": "js-2026-11-10-01",
+      "title": "Web Summit Lisbon 2026 opens with Chinese robots on stage and a message: the next superstars come from China",
+      "summary": "Web Summit 2026 opened on the evening of 9 November at the MEO Arena with Agibot's robots as the opening act. Paddy Cosgrave told the audience that the tech superstars of the future come from China rather than California, called this the most international edition yet (164 countries, every European country) and said it has the largest number of Portuguese startups ever. Lisbon's mayor Carlos Moedas spoke on the city's tech jobs and the unicorns that opened offices there.",
+      "why_it_matters": "The summit's own framing for 2026 is a US-China AI race with Europe and Portugal in the middle; that is the context every company story this week sits in, and the Portuguese startups claim is a figure our readers will want checked.",
+      "beat": "web-summit",
+      "sources": [
+        {"url": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches", "publisher": "Euronews", "published": "2026-11-09", "read": "2026-11-10T01:55Z"},
+        {"url": "https://jornaleconomico.sapo.pt/noticias/inovacao-diversidade-e-muita-tecnologia-chinesa-esta-aberta-mais-uma-edicao-do-web-summit-em-lisboa/", "publisher": "Jornal Económico", "published": "2026-11-09", "read": "2026-11-10T01:58Z"}
+      ],
+      "quote": {"text": "The superstars of the future are not coming from California; they're coming from China.", "by": "Paddy Cosgrave, Web Summit CEO, opening night", "source": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches"},
+      "claims_to_check": [
+        "164 countries (reported by Jornal Económico); 'largest ever number of Portuguese startups' (reported by Euronews and Jornal Económico, no figure given): to be checked against Web Summit's own press release",
+        "Also on stage, reported by Euronews: Cloudflare's Matthew Prince on Nvidia's probe of Jensen Huang, and Manus's co-founder Tao Zhang on hiring people who work with AI (agents beat)"
+      ],
+      "importance": {"score": 5, "reason": "The opening of the summit this site was built for, and its headline framing; not yet on promptugal.news."},
+      "photo": {
+        "url": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches",
+        "description": "Agibot A3 robots on Centre Stage at the opening night, MEO Arena (the lead photo of the Euronews article)",
+        "credit": "Ramsey Cardy/Web Summit via Sportsfile",
+        "licence": "none stated on the page",
+        "reuse": "link only",
+        "note": "Web Summit has published event photos under a Creative Commons licence on its own photo pages in past years; if this photo is there, read its licence before marking it reusable."
+      }
+    }
+  ],
+  "skipped": [
+    {"what": "Granter raises EUR 1.6M (tech.eu, 3 November 2026)", "why": "already on promptugal.news (from-pitch-to-new-markets, europe-ai-help-and-portugal-ai-startups)"},
+    {"what": "Cosgrave on Web Summit's future in Lisbon after the contract (Observador, 5 November 2026)", "why": "already on promptugal.news (web-summit-ten-lisbon-years)"},
+    {"what": "AI Act Digital Omnibus (Regulation (EU) 2026/1744)", "why": "no new development found this wake; secondary sources conflict on the next deadline"},
+    {"what": "Agentic AI incidents in November 2026", "why": "only vendor blogs and aggregators found, no primary source"}
+  ]
+}

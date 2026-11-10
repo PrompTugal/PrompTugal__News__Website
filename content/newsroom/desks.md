@@ -45,3 +45,5 @@ Where two captures disagree, or a figure needs settling before a story can carry
 ## Where this comes from {#sources}
 
 Built at every release from the curator's runs (`desks/curator/*.json`, written by curator@web-summit.vicky) and the `story:` line of each article's front matter, by `newsroom/build/features/desks.mjs`: a load, extract, transform and save cycle, whose saved model is <!-- desks:api -->. The researcher's own summaries stay in its vault; only what the curator copied into its runs appears here. The words on this page are `content/newsroom/desks.md`; the code only fills in the numbers and the tables.
+
+Silvio's news scout keeps its own staging list of candidates, not published: [the news scout's candidates](../jornal-silvio/index.md).

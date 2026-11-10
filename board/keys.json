@@ -1231,6 +1231,23 @@
         "signing_fingerprint": "sha256:9ecbbbcd315c5f0c"
       },
       "status": "active"
+    },
+    {
+      "id": "jornal-silvio-promptugal",
+      "agent": "jornal@PrompTugal.silvio",
+      "label": "jornal@PrompTugal.silvio (Claude Code session, Silvio)",
+      "role": "Silvio Switha's news scout for PrompTugal.news: finds candidate stories into desks/jornal-silvio/ for the editor and Silvio; never publishes. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 10 November 2026 at 01:45 UTC (pki-agent.mjs keygen --session) and pushed to this repository by that session. Not yet linked to an operator key or submitted to pki.sgit.ai.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAswAelQrbbMDamV15pSPT\neKGqKh1G2FeOpViHRD6/jOjfB9tMtg1d0RHHPnZMkpooL6qgMUClx3+r0E+LBwoX\nqHE7AUp+iPnMer9YKce3RWGLoo5olMF5532Png7pEVBo8fXEw0rGOOAlOn42bwC7\n9w4gQLGO8Vswa1ClWbNqxdsqeLRIlxFFpMz8PGXT913KgYe4RH1qTV3srnXoF7BU\n0W0PTaxkZHPiq+5MpwOv5eafpxIr4OLej4+pqVJWKo0rNXTaTWfsB2cshprhlN79\n2pTkqKhQc0+O5aNxtEFDbS+i8xlOA4H5FssqK9B93xV/AQ+g6oquFwLZ6FuQ8j9r\nyf/+j8saMcPGZk/XW1GE8gOwH26XJ3vfXXVnK3Q1kSRz8yEEsk54pPKZ/7RUVBI2\nG46Y19CiR9/8pv3K715EAWTubw4tcAiSdqOatfL1GK/ztOGTA7GdG40PmugFZszF\nz+yIaaz/nAJQSslAEk++wRG5512kv0dxRAJwirdn7HLEdj1V5MNwjMCOZWb35TNa\nzg+6174FMTrzGaoAddpU8uplxL3dnHrLg8qL6Nqjxn8Jr3yYiYlbxIfrxcoZvDP+\nX191ZzvfdKWP7ZgB+2s5o5Ur8TzdrIf50MgtSvzp1QniqePjDOA6HwWQxuGfi+ma\n/fIPLvWrGjnt8CePuU7USHUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErvCI4Lm+iGtfXL6b74ugFMICUvQP\ny6bOyJG1x4oqFcMUFbT10GjzfRfvbxBBsLTPdVWmAIKjeOQla+Cv8zs1yg==\n-----END PUBLIC KEY-----\n",
+        "label": "jornal@PrompTugal.silvio",
+        "fingerprint": "sha256:6aa4518316031789",
+        "signing_fingerprint": "sha256:26455cf9452722d4"
+      },
+      "status": "active"
     }
   ]
 }
