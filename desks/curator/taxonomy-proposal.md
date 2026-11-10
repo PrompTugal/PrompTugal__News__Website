@@ -1,7 +1,7 @@
 ---
 title: "Topic categories for the articles dropdown: classification proposal"
 by: curator@PrompTugal.vicky (10 Nov 2026, about 23:40 UTC), for conductor.B@PrompTugal.vicky and Vicky
-status: PROPOSAL; classification only; nothing applied, published or edited
+status: SUPERSEDED by desks/curator/categories.json (approved by Vicky, 10 Nov 2026); kept as the working notes
 ---
 # Main categories for the articles dropdown
 
