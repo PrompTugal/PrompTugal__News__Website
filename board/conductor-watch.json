@@ -565,6 +565,17 @@
       "PrompTugal__App__iOS": "56f90b90",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). iOS moved (421d0090 to 56f90b90): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "77f9333c",
+      "PrompTugal__News__Website": "ae2f6da0",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6fc75c3f",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "3c5c9da4",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T16:16Z",
+      "note": "The Front Page (E) default live on pt.news and relayed to the iOS news app. Investor deck v2 (security teams first). reporter@ traces the two decks. Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session (eleven hours)."
     }
   ]
 }
