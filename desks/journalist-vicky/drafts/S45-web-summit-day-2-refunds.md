@@ -4,7 +4,7 @@ date: 2026-11-10
 story: S45
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "Web Summit says Day 2, Wednesday 11 November, will not take place. As of 21:49 UTC on Tuesday, its public post announced no refunds, credits or compensation. Here is what its published terms say about cancellation, postponement and events beyond its control, quoted as published."
-status: draft
+status: ready
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, Storm Charles, tickets, refunds, practical
@@ -19,7 +19,7 @@ tags: the summit, Storm Charles, tickets, refunds, practical
 
 ## The story
 
-Web Summit announced on Tuesday evening, in [a post on its website](https://websummit.com/blog/web-summit/important-event-update-2026/) also emailed to attendees, that "Day 2 of Web Summit should not take place". It says Portugal's government formally advised this because of the risks from Storm Charles, after talks with the government, ANEPC and the PSP. It "aims to proceed with Day 3 (Thursday, November 12) as planned". Our article [Red wind warning for Lisbon on Wednesday](red-wind-warning-lisbon-wednesday.html) follows the storm, and our [guide to Wednesday](wednesday-11-november-going-abroad.html) carries the change.
+Web Summit announced on Tuesday evening, in [a post on its website](https://websummit.com/blog/web-summit/important-event-update-2026/) also emailed to attendees, that "Day 2 of Web Summit should not take place". It says Portugal's government formally advised this because of the risks from Storm Charles, after talks with the government, ANEPC and the PSP. It "aims to proceed with Day 3 (Thursday, November 12) as planned". Our article [Web Summit calls off Wednesday on the government's advice](red-wind-warning-lisbon-wednesday.html) follows the storm.
 
 We re-read the post at 21:49 UTC on Tuesday. It does not mention refunds, credits or compensation. Web Summit's homepage, blog and news page, read at the same time, said nothing about them either.
 

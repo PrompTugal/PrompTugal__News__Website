@@ -4,20 +4,20 @@
   <rect width="800" height="420" fill="#f7f4ee"/>
   <g font-family="Helvetica, Arial, sans-serif">
     <text x="30" y="54" font-size="36" font-weight="700" fill="#1a1a1a">Day 2 cancelled: refunds?</text>
-    <text x="30" y="90" font-size="25" fill="#444">What Web Summit has published, 10 Nov</text>
+    <text x="30" y="90" font-size="28" fill="#444">What Web Summit has published, 10 Nov</text>
 
     <rect x="30" y="112" width="740" height="76" rx="8" fill="#c62828"/>
-    <text x="50" y="146" font-size="27" font-weight="700" fill="#fff">Its statement</text>
-    <text x="50" y="176" font-size="25" fill="#fff">No refund announced (21:49 UTC)</text>
+    <text x="50" y="146" font-size="28" font-weight="700" fill="#fff">Its statement</text>
+    <text x="50" y="176" font-size="28" fill="#fff">No refund announced (21:49 UTC)</text>
 
     <rect x="30" y="200" width="740" height="76" rx="8" fill="#e8e2d6"/>
-    <text x="50" y="234" font-size="27" font-weight="700" fill="#1a1a1a">Terms 10.4: cancellation</text>
-    <text x="50" y="264" font-size="25" fill="#1a1a1a">“refund of paid fees” after fees</text>
+    <text x="50" y="234" font-size="28" font-weight="700" fill="#1a1a1a">Terms 10.4: cancellation</text>
+    <text x="50" y="264" font-size="28" fill="#1a1a1a">“refund of paid fees” after fees</text>
 
     <rect x="30" y="288" width="740" height="76" rx="8" fill="#e8e2d6"/>
-    <text x="50" y="322" font-size="27" font-weight="700" fill="#1a1a1a">Terms 23: force majeure</text>
-    <text x="50" y="352" font-size="25" fill="#1a1a1a">“not liable” if beyond its control</text>
+    <text x="50" y="322" font-size="28" font-weight="700" fill="#1a1a1a">Terms 23: beyond its control</text>
+    <text x="50" y="352" font-size="28" fill="#1a1a1a">“not liable” if beyond its control</text>
 
-    <text x="30" y="402" font-size="24" fill="#555">Sources: Web Summit's post and its terms</text>
+    <text x="30" y="402" font-size="28" fill="#555">Sources: Web Summit's post and its terms</text>
   </g>
 </svg>
