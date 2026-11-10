@@ -429,6 +429,16 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-10T09:13Z",
       "note": "GAMMA-Ray: first card published (Replit Agent, A4 R2 C2 O0, beta); its claim-your-card note waits for a person to send it via the CRM. Dinis's go for dev@/dev.pages@ (08:45) relayed to conductor.b@. Lanes empty. Still open: social.watch@'s three answers."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T09:26Z",
+      "SGit-AI__Website__Web-Summit": "83a91b9e",
+      "PrompTugal__News__Website": "0bf8069b",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change since 08:30 (main 67bb936, demo set complete). Team site and iOS read by ls-remote only."
     }
   ]
 }
