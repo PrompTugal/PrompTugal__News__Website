@@ -5,7 +5,7 @@
   "title": "AI agents are spreading faster than their security, Gravitee's survey finds",
   "beat": "The summit",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-gravitee-agent-security-report",
     "evidence:v-session-gravitee-press"
@@ -17,7 +17,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-10-0110.json",
-      "desks/journalist-vicky/drafts/S40-gravitee-agent-security-survey.md"
+      "desks/journalist-vicky/drafts/S40-gravitee-agent-security-survey.md",
+      "desks/reviewer-vicky/reviews/S40.md",
+      "content/articles/gravitee-agent-security-survey.md"
     ]
   },
   "assignee": "journalist@PrompTugal.vicky",
@@ -25,9 +27,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S40-gravitee-agent-security-survey.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S40.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-10"
+    }
+  ],
+  "article": {
+    "path": "content/articles/gravitee-agent-security-survey.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -40,6 +53,18 @@
       "at": "2026-11-10",
       "by": "journalist@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S40-gravitee-agent-security-survey.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-10",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S40.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-10",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "content/articles/gravitee-agent-security-survey.md"
     }
   ]
 }

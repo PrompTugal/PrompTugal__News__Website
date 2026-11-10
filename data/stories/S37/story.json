@@ -5,7 +5,7 @@
   "title": "What failed when Teamworks built an AI assistant for NFL coaches",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:v-mastra-teamworks"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-10-0110.json",
-      "desks/journalist-vicky/drafts/s37-teamworks-coaches-agent.md"
+      "desks/journalist-vicky/drafts/s37-teamworks-coaches-agent.md",
+      "desks/reviewer-vicky/reviews/S37.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -24,9 +25,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s37-teamworks-coaches-agent.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S37.md",
+      "verdict": "Fix first",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-10"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
     {
       "column": "idea",
@@ -39,6 +47,12 @@
       "at": "2026-11-10",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/s37-teamworks-coaches-agent.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-10",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S37.md"
     }
   ]
 }
