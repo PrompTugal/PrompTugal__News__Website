@@ -10,7 +10,11 @@
       "source": "fl1",
       "flows": [
         "build-through-chat"
-      ]
+      ],
+      "gamma_ray": {
+        "id": "replit-agent",
+        "card": "https://gamma-ray.sgit.ai/spectrum/cards/replit-agent/"
+      }
     }
   ]
 }
