@@ -1,22 +1,22 @@
 {
   "agent": "reporter.newsroom@PrompTugal.dinis",
   "focus": "the work desk's reporter: traces of what Vicky's newsroom agents do, JSON first, for journalist.newsroom@PrompTugal.dinis (board/team/work-desk/BRIEF.md)",
-  "state": "running; first trace released",
-  "updated": "2026-11-10T17:30Z",
+  "state": "running; the-storm.json at 29 steps",
+  "updated": "2026-11-10T17:40Z",
   "key": "reporter.newsroom-promptugal (board/keys.json), made 17:22 UTC",
   "done": [
     "17:22 session key made; public half in board/keys.json",
     "17:30 first trace: board/team/work-desk/traces/the-storm.json (21 steps, 10 Nov 14:08 to 17:21 UTC, 12 person-agent hand-offs marked), with the-storm.md and traces/README.md",
-    "17:33 run report board/runs/reporter.newsroom/2026-11-10T17-21-34Z.json with a token estimate"
+    "17:33 run report board/runs/reporter.newsroom/2026-11-10T17-21-34Z.json with a token estimate",
+    "17:28 wake: 8 steps added to the-storm.json (22 to 29, up to cb68c3c3f at 17:29 UTC); the memo times corrected from conductor@web-summit.dinis's fix (08e465820)"
   ],
   "next": [
-    "at each wake (:28): append the steps since commit 0338ca7 to the-storm.json; update the workflow and decision-graph status; watch for the first parser request and architect's plan",
+    "at each wake (:28): append the steps since commit cb68c3c3f to the-storm.json; update the workflow and decision-graph status; watch for the first parser request and architect's plan",
     "a trace per new workflow as Vicky's desks start them"
   ],
   "asks": [
     "Dinis: reporter.newsroom has no ABP grant yet (board/abp/policies.json), so every write to board/team/work-desk/, its brief's own path, is logged as an R6 breach; abp@PrompTugal.dinis to add the grant (and journalist.newsroom's).",
-    "Dinis: token counts are estimates only. get_session reports used_tokens 0 for this session and the ABP run report has no token field, so accountant@ gets my own estimate, labelled as such, until a real per-run count is exposed.",
-    "Dinis: the brief says the work desk started at about 17:40 UTC, but its commit 171372a is at 17:20 UTC and this session at 17:21 UTC; the trace uses commit times."
+    "Dinis: token counts are estimates only. get_session reports used_tokens 0 for this session and the ABP run report has no token field, so accountant@ gets my own estimate, labelled as such, until a real per-run count is exposed."
   ],
   "debrief": null
 }
