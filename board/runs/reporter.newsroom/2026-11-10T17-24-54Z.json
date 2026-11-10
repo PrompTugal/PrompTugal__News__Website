@@ -1,0 +1,126 @@
+{
+  "$schema": "../../abp/run-report.schema.json",
+  "agent": "reporter.newsroom@PrompTugal.dinis",
+  "run": "2026-11-10T17-24-54Z",
+  "started": "2026-11-10T17:24:54.895Z",
+  "ended": "2026-11-10T17:32:27Z",
+  "line": "wake 17:28: the storm trace to 29 steps",
+  "policy": {
+    "version": "1.7.0",
+    "sha256": "eed4df976fc8ef95"
+  },
+  "sessions": 1,
+  "requests": [
+    {
+      "t": "2026-11-10T17:28:43.613Z",
+      "chars": 508,
+      "sha256": "46237de54195b4fa",
+      "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+    },
+    {
+      "t": "2026-11-10T17:31:44.184Z",
+      "chars": 476,
+      "sha256": "b4dd71d7eb6a064c",
+      "head": "<task-notification>\n<task-id>bj8mn6dac</task-id>\n<tool-use-id>toolu_01VnQJkcrXfo7JkhsU2LAoTR</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/3c9446b5-a502-535d-9e27-97364"
+    }
+  ],
+  "session_events": [],
+  "compactions": {
+    "count": 0,
+    "re_anchored": 0
+  },
+  "tool_calls": {
+    "total": 17,
+    "by_kind": {
+      "shell": 1,
+      "release": 3,
+      "git": 10,
+      "other": 2,
+      "git-commit": 1
+    }
+  },
+  "policies_executed": {},
+  "policies_instrumented": [
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9"
+  ],
+  "mandate": {
+    "actions": 17,
+    "commits": [
+      {
+        "sha": "40f4780f1",
+        "subject": "reporter.newsroom@PrompTugal.dinis: wake 17:28: the storm trace to 29 steps (lead fill, S41 update, dev@'s lead block)",
+        "files": 4
+      },
+      {
+        "sha": "82f374a7c",
+        "subject": "reporter.newsroom@PrompTugal.dinis: run report (first trace; tokens estimated)",
+        "files": 2
+      },
+      {
+        "sha": "a6fdeb6c3",
+        "subject": "reporter.newsroom@PrompTugal.dinis: key, status and the first trace (the storm, S41)",
+        "files": 5
+      }
+    ]
+  },
+  "reach": {
+    "attempts": 0,
+    "denied": [],
+    "blocked": 0,
+    "observed": 0
+  },
+  "breaches": [
+    {
+      "kind": "write-outside-grant",
+      "what": "40f4780f1 wrote board/team/work-desk/traces/README.md",
+      "rule": "R6"
+    },
+    {
+      "kind": "write-outside-grant",
+      "what": "40f4780f1 wrote board/team/work-desk/traces/the-storm.json",
+      "rule": "R6"
+    },
+    {
+      "kind": "write-outside-grant",
+      "what": "40f4780f1 wrote board/team/work-desk/traces/the-storm.md",
+      "rule": "R6"
+    },
+    {
+      "kind": "write-outside-grant",
+      "what": "a6fdeb6c3 wrote board/team/work-desk/traces/README.md",
+      "rule": "R6"
+    },
+    {
+      "kind": "write-outside-grant",
+      "what": "a6fdeb6c3 wrote board/team/work-desk/traces/the-storm.json",
+      "rule": "R6"
+    },
+    {
+      "kind": "write-outside-grant",
+      "what": "a6fdeb6c3 wrote board/team/work-desk/traces/the-storm.md",
+      "rule": "R6"
+    }
+  ],
+  "counts": {
+    "requests": 2,
+    "tool_calls": 17,
+    "in_mandate": 17,
+    "out_of_mandate": 0,
+    "attempts": 0,
+    "breaches": 6
+  },
+  "tokens": {
+    "estimate": true,
+    "how": "no usage is exposed to the session (get_session used_tokens 0); the agent's own estimate",
+    "new_material_read": 9000,
+    "output": 6000,
+    "note": "the delta since the last wake only: 14 commit subjects and trailers, three bodies, one status diff, one guidance diff"
+  }
+}
