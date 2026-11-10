@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1015",
+    "date": "2026-11-10",
+    "what": "watch 14:21: reporter and journalist started; visual newsroom waits on dev@",
+    "by": "conductor@web-summit.dinis",
+    "from": "6f58090c2"
+  },
+  {
     "version": "v0.1.1014",
     "date": "2026-11-10",
     "what": "journalist-connections@PrompTugal.vicky: hand-over note corrected: RWS and Persona held for Vicky's batch; run summaries",
