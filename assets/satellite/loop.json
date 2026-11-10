@@ -1,6 +1,6 @@
 {
  "article": "red-wind-warning-lisbon-wednesday",
- "credit": "Contains modified EUMETSAT Meteosat data 2026",
+ "credit": "©EUMETSAT 2026",
  "source": "EUMETSAT Meteosat (MTG-I, FCI, infrared 10.5 µm), Web Map Service",
  "source_url": "https://view.eumetsat.int/",
  "lisbon": {
@@ -10,9 +10,8 @@
  "delay_minutes": 60,
  "check_minutes": 10,
  "min_frames": 3,
- "note": "Configuration for the live satellite loop in the lead (assets/satellite/loop.js). No frames are stored: the browser fetches them from EUMETSAT's Web Map Service. Licence: EUMETSAT Data Policy (Jan 2026) Art. 4 and 6; attribution required.",
+ "note": "STOP-GAP until frames are served from our origin: the reader's browser fetches images from view.eumetsat.int (no credentials, no referrer, images only; the newest frame is found by image requests on the fixed 10-minute cadence, with no XML or HTML request). Licence: EUMETSAT Data Policy (Jan 2026) Art. 4 and 6 (Advanced Image Products are Core; attribution); EUMETSAT terms of use (credit '©EUMETSAT [year]'; satellite products stay under the Data Policy). Both read 10 Nov 2026.",
  "live": {
-  "caps": "https://view.eumetsat.int/geoserver/mtg_fd/ir105_hrfi/wms?service=WMS&version=1.3.0&request=GetCapabilities",
   "wms": "https://view.eumetsat.int/geoserver/wms",
   "layers": "mtg_fd:ir105_hrfi,backgrounds:ne_10m_coastline,backgrounds:ne_boundary_lines_land",
   "styles": "mtg_fd:mtg_fd_ir105_hrfi_grayscale,,",
@@ -26,5 +25,8 @@
   "height": 480,
   "step_minutes": 10,
   "count": 12
- }
+ },
+ "product": "Meteosat MTG FCI, infrared 10.5 µm",
+ "terms_url": "https://www.eumetsat.int/about-us/terms-use",
+ "policy_url": "https://www-cdn.eumetsat.int/files/2026-01/45173%20-%20Data_Policy.pdf"
 }

@@ -70,9 +70,9 @@ function leadExtra(ctx, a) {
 // assets/satellite/loop.js swaps the loop in once frames from EUMETSAT's Web Map Service have loaded. No frames are stored here.
 function satAttr(ctx, a) {
     let L; try { L = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/satellite/loop.json'), 'utf8')) } catch { return '' }
-    if (L.article !== slugOf(a) || !L.live || !/^https:\/\/view\.eumetsat\.int\//.test(L.live.caps || '') || !/^https:\/\/view\.eumetsat\.int\//.test(L.live.wms || '')) return ''
-    const cfg = { live: L.live, credit: L.credit, source_url: L.source_url, lisbon: L.lisbon, delay: L.delay_minutes, check: L.check_minutes, min: L.min_frames,
-        alt: 'Infrared satellite image of mainland Portugal and the Atlantic to its west, Lisbon marked' }
+    if (L.article !== slugOf(a) || !L.live || !/^https:\/\/view\.eumetsat\.int\//.test(L.live.wms || '')) return ''
+    const cfg = { live: L.live, credit: L.credit, product: L.product, terms: L.terms_url, policy: L.policy_url, source_url: L.source_url, lisbon: L.lisbon, delay: L.delay_minutes, check: L.check_minutes, min: L.min_frames,
+        alt: `Infrared satellite image of mainland Portugal and the Atlantic to its west, Lisbon marked. ${L.credit}, ${L.product}.` }
     return ` data-sat="${ctx.md.esc(JSON.stringify(cfg))}"`
 }
 function lead(ctx, a) {
