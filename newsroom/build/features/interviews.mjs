@@ -4,6 +4,8 @@
 //              public read key and the video's folder; the body, with a line PTVIDEO where the player goes)
 //   Transform  the page; PTVIDEO becomes <figure class="vault-video"> with the vault's coordinates as data-*
 //   Save       <rel> and its twin. While status says "unlisted": noindex, kept out of the sitemap and linked only from the newsroom (the gate wants every page linked and in llms.txt)
+//   Front      <!-- interviews:front --> in content/index.md: a band with every published interview's player, newest first
+//              (Dinis, 10 November 2026, THE RESTART: the interviews on the home page, board/guidance/2026-11-10-the-restart.md)
 // The player is assets/vault-video/vault-video.js over SGVaultEmbed.Reader: the browser fetches ciphertext from the vault's
 // read API and decrypts it; only a public read key (sgit_public_read_ + 64 hex) is ever on the page.
 import fs from 'node:fs'
@@ -36,6 +38,29 @@ export function pages(ctx) {
             md: body, twinMd: body.replace(/^PTVIDEO$/m, `The video is played from PrompTugal's public interviews vault (${meta.vault_id}), folder ${meta.vault_path}.`),
             postHtml: h => h.replace('<p>PTVIDEO</p>', widget),
         }
+    })
+}
+
+const figure = (esc, m, caption) => `<figure class="vault-video" data-endpoint="${esc(m.vault_endpoint)}" data-vault="${esc(m.vault_id)}" data-key="${esc(m.vault_read_key)}" data-path="${esc(m.vault_path)}">` +
+    `<figcaption>${caption}</figcaption></figure>`
+const published = () => sources().filter(s => !/unlisted/.test(s.meta.status || '')).sort((a, b) => String(b.meta.recorded || '').localeCompare(String(a.meta.recorded || '')))
+
+// the home page's band: the md has a placeholder per interview, the HTML gets the players (decorate adds the assets)
+export const fill = {
+    'interviews:front': (page, ctx) => {
+        const list = published()
+        if (!list.length) return ''
+        const items = list.map(({ meta }, i) => `::: iv-card\nPTIFRONT-${i}\n\n**[${ctx.md.cell(meta.title)}](${ctx.link(page.rel, meta.rel)})**\n\n${ctx.md.cell(meta.home || meta.summary)}\n:::`).join('\n')
+        return `::: interviews-band\n## Interviews from the summit {#interviews}\n\n{.iv-dek}\nOur editors' interviews at Web Summit Lisbon 2026, played from PrompTugal's public vault and decrypted in your browser.\n\n::: iv-grid\n${items}\n:::\n:::\n`
+    },
+}
+export function decorate(p, ctx) {
+    if (p.rel !== 'index.html' || !published().length) return
+    p.assets = { ...(p.assets || {}), css: [...(p.assets?.css || []), 'assets/vault-video/vault-video.css'], js: [...(p.assets?.js || []), 'assets/vendor/sgit-ai/2026-11-05/vault-embed.js', 'assets/vault-video/vault-video.js'] }
+    const prev = p.postHtml, esc = ctx.md.esc
+    p.postHtml = h => (prev ? prev(h) : h).replace(/<p>PTIFRONT-(\d+)<\/p>/g, (m, i) => {
+        const x = published()[+i]; if (!x) return ''
+        return figure(esc, x.meta, `${esc(x.meta.person)}, ${esc(x.meta.company)}, interviewed by ${esc(x.meta.interviewer)}`)
     })
 }
 

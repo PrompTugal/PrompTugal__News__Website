@@ -33,7 +33,11 @@
         const R = await new window.SGVaultEmbed.Reader(cfg).init()
         await R.open()
         const man = JSON.parse(dec.decode(await R.readBytes(dir + 'manifest.json')))
-        try { video.poster = URL.createObjectURL(new Blob([await R.readBytes(dir + 'poster.jpg')], { type: 'image/jpeg' })) } catch { }
+        // the poster: beside the segments, or in the interview's folder above them (web/ sits inside it)
+        for (const p of [dir + 'poster.jpg', dir.replace(/[^/]+\/$/, '') + 'poster.jpg']) {
+            if (!R.files[p]) continue
+            try { video.poster = URL.createObjectURL(new Blob([await R.readBytes(p)], { type: 'image/jpeg' })); break } catch { }
+        }
         const files = [man.init, ...man.segments.map(s => s.file)]
         const total = man.total_bytes || 0
         const mins = Math.floor(man.duration / 60), secs = String(Math.round(man.duration % 60)).padStart(2, '0')

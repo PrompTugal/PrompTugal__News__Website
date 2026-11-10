@@ -15,6 +15,8 @@ layout: wide
 {.slimline}
 **Every fact sourced and dated**, with the date we read it · **Written by AI agents**, edited by Dinis Cruz, Indi Gupte and Vicky Wang · **Independent** of Web Summit · [our disclosure](about/participant.md)
 
+<!-- interviews:front -->
+
 ::: front-band
 **Web Summit Lisbon · the days**
 

@@ -5,3 +5,12 @@ figure.vault-video .vv-play { position: absolute; inset: 0; margin: auto; width:
 figure.vault-video .vv-play:hover, figure.vault-video .vv-play:focus-visible { background: rgba(0, 0, 0, .82); outline: 2px solid #fff; }
 figure.vault-video .vv-status { font: 13px/1.45 var(--sans, system-ui, sans-serif); color: var(--muted, #666); margin: .5rem 0 0; }
 figure.vault-video figcaption { font: 14px/1.5 var(--sans, system-ui, sans-serif); margin-top: .35rem; }
+
+/* the home page's interviews band (newsroom/build/features/interviews.mjs, <!-- interviews:front -->) */
+.interviews-band { margin: 1.25rem 0 2rem; padding-top: .75rem; border-top: 2px solid var(--ink, #111); }
+.interviews-band h2 { margin: 0 0 .25rem; }
+.interviews-band .iv-dek { margin: 0 0 1rem; color: var(--muted, #555); }
+.interviews-band .iv-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 1.5rem 2rem; }
+.interviews-band .iv-card { min-width: 0; }
+.interviews-band .iv-card figure.vault-video { margin: 0 0 .5rem; }
+.interviews-band .iv-card p { margin: .4rem 0; }

@@ -7,7 +7,8 @@ recorded: 2026-11-09T20:54Z
 company: Buzz Messaging AI
 person: Guy Ben Zvi
 interviewer: Dinis Cruz
-status: unlisted experiment
+status: published
+home: "Dinis Cruz meets Guy Ben Zvi, who is building a sovereign European messaging platform where teams bring their own AI agents."
 vault_endpoint: https://dev.send.sgraph.ai
 vault_id: w0bf33d4
 vault_read_key: sgit_public_read_334fb47a320489e03adbae82a5b43126aaddc12fdc8676391e53a076568ce4c2
@@ -29,8 +30,8 @@ The platform, as he describes it:
 
 Asked how Buzz controls what agents do, he said the platform has its own control policy, not yet as advanced as he would like, and named context as the hard problem: making it sovereign, and fast. Dinis described the agent behaviour policies PrompTugal's own agents run under, and the two agreed to talk about working together.
 
-## About this page
+## How this was made
 
-This is a first experiment, not yet linked from the site: the video is not on promptugal.news's servers but in PrompTugal's public interviews vault (vault `w0bf33d4`, organised by company, person and date), fetched in pieces and decrypted in your browser. The audio was cleaned with Audo's voice enhancement; the picture is the original, unedited, with the phone's location and other metadata removed. A full article, with an edited transcript and a profile of Buzz Messaging AI from public sources, follows.
+The video is not on promptugal.news's servers but in PrompTugal's public interviews vault (vault `w0bf33d4`, organised by company, person and date), fetched in pieces and decrypted in your browser. The audio was cleaned with Audo's voice enhancement; the picture is the original, unedited, with the phone's location and other metadata removed. Published with Guy Ben Zvi's agreement. [How we turn a recorded interview into a page](../../../newsroom/interviews/index.html).
 
-[Open the vault](https://dev.vault.sgraph.ai/en-gb/#sgit_public_read_334fb47a320489e03adbae82a5b43126aaddc12fdc8676391e53a076568ce4c2:w0bf33d4) to see every file: the original 1080p video, the audio, the poster and the machine transcript (not yet edited).
+[Open the vault](https://dev.vault.sgraph.ai/en-gb/#sgit_public_read_334fb47a320489e03adbae82a5b43126aaddc12fdc8676391e53a076568ce4c2:w0bf33d4) to see every file: the original 1080p video, the audio, the poster and the machine transcript.

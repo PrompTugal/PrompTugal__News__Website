@@ -48,7 +48,9 @@ Built at every release from the curator's runs (`desks/curator/*.json`, written 
 
 Silvio's news scout keeps its own staging list of candidates, not published: [the news scout's candidates](../jornal-silvio/index.md).
 
-## Experiments {#experiments}
+## Interviews {#interviews}
 
-- [Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night](../../interviews/buzz-messaging-ai/guy-ben-zvi/index.html): the journalist desk's first interview with its video played from a public vault, decrypted in the browser (10 November 2026; not yet linked from the publication).
-- [Leo Tashev and Fraser Lloyd, Student Property Network: interview at Night Summit](../../interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html): the second, interviewed by Indi Gupte (10 November 2026; not yet linked from the publication).
+How a recorded interview becomes a page: [the interview pipeline](../interviews/index.html).
+
+- [Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night](../../interviews/buzz-messaging-ai/guy-ben-zvi/index.html): interviewed by Dinis Cruz, the video played from the public interviews vault and decrypted in the browser.
+- [Leo Tashev and Fraser Lloyd, Student Property Network: interview at Night Summit](../../interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html): interviewed by Indi Gupte.

@@ -7,7 +7,8 @@ recorded: 2026-11-09T21:04Z
 company: Student Property Network
 person: Leo Tashev and Fraser Lloyd
 interviewer: Indi Gupte
-status: unlisted experiment
+status: published
+home: "Indi Gupte meets the founders of a UK careers app for real estate students, and the AI agent that decides which jobs reach them."
 vault_endpoint: https://dev.send.sgraph.ai
 vault_id: w0bf33d4
 vault_read_key: sgit_public_read_334fb47a320489e03adbae82a5b43126aaddc12fdc8676391e53a076568ce4c2
@@ -33,8 +34,8 @@ PTVIDEO
 - **Who said which line.** The machine transcript does not tell the two founders apart reliably; where this page names a speaker, it is from what was said on camera (Leo handing the question to Fraser).
 - **Our interest.** RiskMandate is the startup behind PrompTugal.news's agent behaviour policies; nothing here is a claim about what it would do for Student Property Network.
 
-## About this page
+## How this was made
 
-Not yet linked from the site. The video is in PrompTugal's public interviews vault (vault `w0bf33d4`, organised by company, person and date), fetched in pieces and decrypted in your browser. The audio was cleaned with Audo's noise removal; the picture is the original, unedited, with the phone's location and other metadata removed. Sources for the company and its founders: [Student Property Network, About](https://studentpropertynetwork.com/about), read 10 November 2026, and Leo Tashev's Web Summit 2026 badge, photographed by Dinis Cruz on the night.
+The video is in PrompTugal's public interviews vault (vault `w0bf33d4`, organised by company, person and date), fetched in pieces and decrypted in your browser. The audio was cleaned with Audo's noise removal; the picture is the original, unedited, with the phone's location and other metadata removed. Published with Leo Tashev's and Fraser Lloyd's agreement. [How we turn a recorded interview into a page](../../../newsroom/interviews/index.html). Sources for the company and its founders: [Student Property Network, About](https://studentpropertynetwork.com/about), read 10 November 2026, and Leo Tashev's Web Summit 2026 badge, photographed by Dinis Cruz on the night.
 
-[Open the vault](https://dev.vault.sgraph.ai/en-gb/#sgit_public_read_334fb47a320489e03adbae82a5b43126aaddc12fdc8676391e53a076568ce4c2:w0bf33d4) to see every file: the original 1080p video, the audio, the poster and the machine transcript (not yet edited).
+[Open the vault](https://dev.vault.sgraph.ai/en-gb/#sgit_public_read_334fb47a320489e03adbae82a5b43126aaddc12fdc8676391e53a076568ce4c2:w0bf33d4) to see every file: the original 1080p video, the audio, the poster and the machine transcript.
