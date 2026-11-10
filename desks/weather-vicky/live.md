@@ -2,9 +2,9 @@
 
 The weather desk's facts list for S41. Every line has its source and the UTC time this desk read it. Lisbon time = UTC in November. Newest first in the timeline. Nothing here is a forecast of our own.
 
-**Last full check: 10 November 2026, 18:36 to 18:38 UTC** (connectors snapshot `data/2026-11-10T1836Z.json`).
+**Last full check: 10 November 2026, 19:36 to 19:37 UTC** (connectors snapshot `data/2026-11-10T1936Z.json`).
 
-**Headline, 18:36 UTC (unchanged since 17:42):** IPMA now has **two red warnings** for Lisbon on Wednesday: wind 12:00 to 21:00 and, new at 17:42, **rain 12:00 to 18:00**. The government's alert situation for all of mainland Portugal on Wednesday stands: schools closed, outdoor events suspended, no access to parks at risk of falling trees or to the waterfront. Web Summit has announced no change to Wednesday's programme.
+**Headline, 19:36 UTC (warnings unchanged since 17:42):** IPMA now has **two red warnings** for Lisbon on Wednesday: wind 12:00 to 21:00 and, new at 17:42, **rain 12:00 to 18:00**. The government's alert situation for all of mainland Portugal on Wednesday stands: schools closed, outdoor events suspended, no access to parks at risk of falling trees or to the waterfront. Web Summit has announced no change to Wednesday's programme.
 
 ## Established now
 
@@ -82,7 +82,7 @@ Communiqué no. 1, below, is kept for the record.
 - **Carris** (city buses and trams): at **18:37 UTC** its [homepage](https://www.carris.pt) banner reads "Alerta: perturbações na circulação. Estamos a acompanhar a situação e vamos atualizando aqui todas as alterações na rede. Antes de saíres, confirma a informação mais recente." (disruption to service; it is monitoring and will post changes; check before leaving), linking to [service changes](https://www.carris.pt/viaje/alteracoes-de-servico/) (rendered by script; not readable by our tools). No suspension named. Earlier, read **16:59 UTC**: "Alerta: circulação poderá sofrer perturbações. As condições meteorológicas adversas poderão afetar a circulação ao longo do dia, em particular na rede de elétricos." (service may be disrupted through the day, especially the trams). Undated: it may refer to Tuesday. **No suspension announced.**
 - **Carris Metropolitana** (regional buses): [public alerts feed](https://api.carrismetropolitana.pt/v2/alerts), read **16:59 UTC**: 17 of 106 alerts have cause WEATHER; four "Aviso Geral | Mau tempo" notices run to Wednesday 23:59 UTC (possible disruption, delays and diversions). **No suspension announced.**
 - **Transtejo/Soflusa** (river ferries): [notices feed](https://ttsl.pt/avisos/feed/), read **16:59 UTC**: the latest notice, Tuesday 13:24, suspended car transport on Trafaria to Porto Brandão to Belém for rough seas, passengers limited to Porto Brandão to Belém, no time for a return ([notice](https://ttsl.pt/avisos/trafaria-porto-brandao-belem-10-nov-2/)). **No notice yet for Wednesday.**
-- **Metro de Lisboa**: [homepage](https://www.metrolisboa.pt), read 16:53 UTC by the desk's sub-agent: no weather notice (the line-status widget needs a browser).
+- **Metro de Lisboa**: [news, 10 Nov](https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/), read **19:36 UTC**: "Face às previsões de agravamento das condições meteorológicas" (given the forecast worsening of the weather), Metro keeps five stations open on the nights of 10 to 11 and 11 to 12 November to shelter homeless people (Amadora Este, Santa Apolónia, Marquês de Pombal, Moscavide, Olaias), "em colaboração com a Câmara Municipal de Lisboa e Câmara Municipal da Amadora, no âmbito do cumprimento do Plano de Contingência para Pessoas em Situação de Sem-Abrigo" (with the Lisbon and Amadora city councils, under the contingency plan for homeless people). **No change to Metro service announced.** Its line-status widget needs a browser.
 - **CP** (national rail) and **the airport (ANA)**: not readable by our tools (CP's site renders only in a browser; ANA's returns a bot check). Not checked.
 
 ### The venue and the summit
@@ -91,16 +91,17 @@ Communiqué no. 1, below, is kept for the record.
 - **MEO Arena** ([arena.meo.pt](https://arena.meo.pt)) and **FIL** ([fil.pt](https://www.fil.pt)), read 16:55 UTC: no notice.
 - **Port of Lisbon** ([portodelisboa.pt](https://www.portodelisboa.pt)), **NAV Portugal** ([nav.pt](https://www.nav.pt)), **Gira** bikes: read 16:53 to 16:55 UTC, no notice.
 
-### NOT yet announced (as of 18:38 UTC, on the sources above)
+### NOT yet announced (as of 19:37 UTC, on the sources above)
 
 - Any change to Web Summit's Wednesday programme.
 - Any suspension of Metro, Carris, Fertagus or the ferries for Wednesday, or a Tagus bar closure.
 - Whether the government's suspension of outdoor events (measure b) applies to any part of Web Summit: **no source read says so either way.** Do not infer it.
-- The city of Lisbon's own measures (not readable by our tools).
+- The city of Lisbon's own measures (not readable by our tools). The one city action seen, through Metro: the homeless-people contingency plan (above).
 - Any publication of the declaration in Diário da República (not readable by our tools; none found by search).
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 10 Nov 19:36 (hourly check): IPMA, the government, Web Summit, Fertagus, Carris, Carris Metropolitana and the ferries unchanged. New, read at Metro: five stations open overnight on 10 to 11 and 11 to 12 Nov for homeless people, with the Lisbon and Amadora councils, under their contingency plan.
 - 10 Nov 18:36 (hourly check): no change at IPMA (Lisbon red wind 12:00 to 21:00 and red rain 12:00 to 18:00; no communiqué after no. 2), in the government's declaration, at Web Summit, Fertagus, Carris Metropolitana or the ferries. Carris's banner now says "perturbações na circulação", no suspension named. ANEPC's site reset our connections.
 - 10 Nov 18:00: the desk adds the decision graph, the law (who decides what) and the history of past storms; connectors in tools/watch.mjs, snapshot data/.
 - 10 Nov 17:42 (hourly check): IPMA raises Lisbon's rain warning to **red** for Wed 12:00 to 18:00; wind red unchanged. Communiqué no. 2 read. Government's declaration unchanged (17:43). Web Summit: no notice (17:43). Transport: no suspension (17:42). Reviewer told 17:44.
