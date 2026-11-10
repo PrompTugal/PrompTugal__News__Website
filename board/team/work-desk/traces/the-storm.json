@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-10T17:40Z",
+  "updated": "2026-11-10T18:35Z",
   "covers": {
     "from": "2026-11-10T14:08:40Z",
-    "to": "2026-11-10T17:29:39Z",
-    "last_commit": "cb68c3c3f"
+    "to": "2026-11-10T18:20:31Z",
+    "last_commit": "c6062a275"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -672,6 +672,361 @@
       ],
       "hand_off": "agent->agents (for review by Dinis's dev@)",
       "workflow_step": "4. the developer builds it (the UI for the signal); no designer step"
+    },
+    {
+      "n": 30,
+      "time_utc": "2026-11-10T17:33:11Z",
+      "actor": {
+        "name": "journalist.newsroom@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "this trace (steps 1 to 21)",
+      "output": "the storm, draft 1, and the visualisers' materials generated from the trace (trace-to-materials)",
+      "hand_off_to": [
+        {
+          "name": "visualisers (Angelo's, Jose's, Silvio's dashboard agents)",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:11a0d0254",
+        "commit:f4448e907",
+        "board/team/work-desk/materials/the-storm/"
+      ],
+      "hand_off": "agent->agent (the work desk's own hand-off: trace to story)",
+      "note": "The first reader of the trace; it consumed the JSON programmatically."
+    },
+    {
+      "n": 31,
+      "time_utc": "2026-11-10T17:33:33Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "s41-lead.json (step 20); S41 hourly check 17:32",
+      "output": "lead values verified but not written: desks/correspondent/ is outside its grant, so the write waits for Vicky",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:1cfb1dcc3",
+        "commit:56ef68103 (conductor.B: 'its grant excludes desks/correspondent/')"
+      ],
+      "hand_off": "agent->person (a policy boundary sends the decision back to a person)"
+    },
+    {
+      "n": 32,
+      "time_utc": "2026-11-10T17:40:07Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "its own lead display (step 29)",
+      "output": "the standfirst replaces the summary as the dek when present; checked at 390 px",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:1b1e7e82a"
+      ],
+      "hand_off": "agent->agent (review)"
+    },
+    {
+      "n": 33,
+      "time_utc": "2026-11-10T17:43:51Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "17:42 check of IPMA (warnings JSON, communiqué no. 2)",
+      "output": "IPMA raised Lisbon's rain to red, Wed 12:00 to 18:00; wind red, alert, venue and transport unchanged; lead draft refreshed",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:c05871773",
+        "commit:54e53ddeb",
+        "desks/weather-vicky/live.md"
+      ],
+      "hand_off": "agent->agent (handed to reviewer@ at 17:44)",
+      "workflow_step": "1. the desk's watch catches a level change"
+    },
+    {
+      "n": 34,
+      "time_utc": "2026-11-10T17:45:13Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the weather desk's hand-off; IPMA verified 17:43 UTC; Vicky's standing approval",
+      "output": "S41 updated with the red rain warning; image and covers redrawn",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:87af4984b",
+        "commit:d34818a90"
+      ],
+      "hand_off": "person->agent (standing approval, step 4)",
+      "workflow_step": "signal to readers: about 3 minutes from IPMA's change seen (17:42) to the published update (17:45 commit)"
+    },
+    {
+      "n": 35,
+      "time_utc": "2026-11-10T17:46:55Z",
+      "actor": {
+        "name": "conductor@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the work desk's and weather desk's keys",
+      "output": "inbox lanes issued to reporter.newsroom@, journalist.newsroom@ and weather-vicky",
+      "hand_off_to": [
+        {
+          "name": "reporter.newsroom@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "journalist.newsroom@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "weather@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:7dc07dd2f"
+      ],
+      "hand_off": "agent->agents"
+    },
+    {
+      "n": 36,
+      "time_utc": "2026-11-10T17:47:37Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the red rain",
+      "output": "S43 note: IPMA raised Lisbon's rain to red",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:cb7c51c6e"
+      ]
+    },
+    {
+      "n": 37,
+      "time_utc": "2026-11-10T17:50:12Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Dinis's storm guidance (step 15)",
+      "output": "the guidance relayed to the weather desk; the lead write still waits on Vicky",
+      "hand_off_to": [
+        {
+          "name": "weather@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:56ef68103"
+      ],
+      "hand_off": "agent->agent (relay of Dinis's word, 50 minutes after the memo)"
+    },
+    {
+      "n": 38,
+      "time_utc": "2026-11-10T17:52:24Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Dinis's guidance: 'every time we find a data source, we build a connector'",
+      "output": "tools/watch.mjs: readers for IPMA warnings, communiqués, stations, LPPT TAF/METAR, Carris Metropolitana, Transtejo, the government's declaration and Web Summit; snapshots in desks/weather-vicky/data/; and a proposal for one storm page (not a build)",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:78d3a0cd4",
+        "commit:cc99e9b2c",
+        "desks/weather-vicky/tools/watch.mjs",
+        "desks/weather-vicky/proposal-storm-page.md"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "2 to 4 collapsed: the desk writes its own connectors (no request, no architect, no plan file); its proposal plays the plan's part for the page",
+      "note": "security@ checked it at 18:05: public sources only, no secret, not served (404) (bb3e4a3fd)."
+    },
+    {
+      "n": 39,
+      "time_utc": "2026-11-10T17:54:59Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "past storms (historian sub-agent)",
+      "output": "history.md: past storms and their decision sequences, press sources labelled",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:7e77588cd",
+        "desks/weather-vicky/history.md"
+      ],
+      "hand_off": "agent->sub-agent->agent (inside the desk's run)",
+      "workflow_step": "go back in time"
+    },
+    {
+      "n": 40,
+      "time_utc": "2026-11-10T17:59:15Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "its sources and sub-agents (meteorologist, historian, researcher, Portuguese law, Câmara de Lisboa); consolidated laws checked 18:00",
+      "output": "decision-graph.json (16 nodes, 11 edges; predictions as analysis); law.md (Lei 27/2006, Lei 65/2007, DL 2/2019); the README's team and connectors",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:358fa21b5",
+        "commit:e4433461b",
+        "desks/weather-vicky/decision-graph.json",
+        "desks/weather-vicky/law.md"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "5. the treasure hunt: the decision graph",
+      "note": "The Câmara de Lisboa agent cannot read lisboa.pt (403): the desk records that a person must read it."
+    },
+    {
+      "n": 41,
+      "time_utc": "2026-11-10T18:03:01Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the 'how far ahead' angle",
+      "output": "held for sources",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:69fa7f1ad"
+      ]
+    },
+    {
+      "n": 42,
+      "time_utc": "2026-11-10T18:05:53Z",
+      "actor": {
+        "name": "security@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "76 commits since its last wake",
+      "output": "clean; the three new desk keys and the weather connector checked (public sources, not served)",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:bb3e4a3fd",
+        "board/team/security/reviews/2026-11-10-1805-wake.md"
+      ],
+      "hand_off": "agent->person (report)"
+    },
+    {
+      "n": 43,
+      "time_utc": "2026-11-10T18:08:00Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "the weather desk's proposal (step 38)",
+      "output": "approves building the /storm/charles/ page v1 as a preview (not its publication)",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:d826acce9 (desks/conductor-vicky/status.json: '18:08 at Vicky's approval')"
+      ],
+      "hand_off": "person->agent"
+    },
+    {
+      "n": 44,
+      "time_utc": "2026-11-10T18:13:57Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's approval",
+      "output": "v1 (alerts, Web Summit status, what attendees need, timeline) asked of dev.graphs@ and designer@PrompTugal.dinis on their inboxes, as a preview on work/dev.graphs",
+      "hand_off_to": [
+        {
+          "name": "dev.graphs@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "designer@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:d826acce9"
+      ],
+      "hand_off": "agent->agents (across accounts)",
+      "workflow_step": "4. the developer and the designer are asked"
+    },
+    {
+      "n": 45,
+      "time_utc": "2026-11-10T18:20:31Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's word",
+      "output": "v1 handed to Vicky's dev@ (work/dev.vicky, preview only); dev.graphs@ and designer@ stand down on v1 (neither had started) and keep v2: decision graph, history, satellite animation, design polish",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "dev.graphs@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "designer@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:c6062a275"
+      ],
+      "hand_off": "person->agent->agents (re-routed at Vicky's word within 7 minutes)"
     }
   ],
   "hand_offs_person_agent": [
@@ -689,7 +1044,13 @@
     20,
     22,
     24,
-    27
+    27,
+    31,
+    34,
+    37,
+    42,
+    43,
+    45
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -703,39 +1064,45 @@
       "evidence": "IPMA's warnings, forecast and observation feeds are JSON; the weather desk read five IPMA feeds plus transport feeds (Carris Metropolitana alerts JSON, Transtejo RSS)"
     },
     "2_request_for_a_parser": {
-      "status": "not yet in the record",
+      "status": "skipped: the desk built its own",
       "steps": [
-        12
+        12,
+        38
       ],
-      "evidence": "the only request is for a person, for lisboa.pt (403), ANA (bot check) and CP (browser only)"
+      "evidence": "no request to a conductor or developer for a parser; weather@ wrote tools/watch.mjs itself (eight sources) at the guidance's word. The only request for help is still for a person (lisboa.pt, ANA, CP)."
     },
     "3_architect_plan": {
-      "status": "not yet in the record",
-      "steps": [],
-      "evidence": "no architect agent and no plan file for this story at 17:21 UTC"
+      "status": "a proposal in place of a plan",
+      "steps": [
+        38
+      ],
+      "evidence": "desks/weather-vicky/proposal-storm-page.md, for the page; no architect agent"
     },
     "4_developer_and_designer": {
-      "status": "developer done, designer not seen",
+      "status": "page v1 with Vicky's dev@ (preview); designer on v2",
       "steps": [
         5,
         17,
-        29
+        29,
+        32,
+        44,
+        45
       ],
-      "evidence": "Vicky's dev@ rendered the lead's new fields (7568bb64a) for review by Dinis's dev@; no designer step for this story yet"
+      "evidence": "lead display released; the storm page v1 handed to dev@PrompTugal.vicky at 18:20; dev.graphs@ and designer@ keep v2"
     },
     "5_ui_signal": {
-      "status": "built, waiting for the values",
+      "status": "lead display live; storm page in preview",
       "steps": [
         20,
-        22,
-        23,
-        29
+        29,
+        34,
+        45
       ],
-      "evidence": "the display is in (7568bb64a); the values (s41-lead.json) go through reviewer@ into front-page.json's lead keys, then correspondent@"
+      "evidence": "the lead's values still wait on Vicky (reviewer@'s grant excludes desks/correspondent/)"
     }
   },
   "decision_graph_so_far": {
-    "source": "desks/weather-vicky/decision-chain.md (17:02 UTC)",
+    "source": "desks/weather-vicky/decision-graph.json (17:59 UTC; 16 nodes, 11 edges) and decision-chain.md",
     "nodes": [
       {
         "who": "IPMA",
@@ -771,6 +1138,11 @@
         "who": "Web Summit, MEO Arena, FIL",
         "decision": "programme change",
         "status": "no notice (17:20 UTC)"
+      },
+      {
+        "who": "IPMA",
+        "decision": "red rain warning, Lisbon, Wed 12:00 to 18:00 (communiqué no. 2)",
+        "status": "issued (seen 17:42 UTC)"
       }
     ],
     "lead_times_seen": [
@@ -785,8 +1157,17 @@
       {
         "step": 27,
         "what": "S41 carries the government's alert and ANEPC's warning, 'as of' 17:24 UTC"
+      },
+      {
+        "step": 34,
+        "what": "S41 carries the red rain warning (17:45 commit)"
       }
-    ]
+    ],
+    "status_counts": {
+      "happened": 9,
+      "not_announced": 5,
+      "unknown": 2
+    }
   },
   "blocked_sources": [
     "lisboa.pt and informacao.lisboa.pt (403)",
@@ -799,8 +1180,28 @@
   ],
   "gaps": [
     "The clone is shallow; history before 14:08 UTC on 10 Nov was not needed for this story.",
-    "weather.vicky's run reports capture little: 1 request and 8 tool calls for its first run (16:51 to 17:04), none for its second (17:04 to 17:21), though it read dozens of sources. The ABP hooks see only part of that session's work, so this trace rests on commits and desk files.",
+    "weather.vicky's run reports capture little: 1 request and 8 tool calls for its first run, none for the next three (17:04 to 17:59), though it wrote connectors, a history and a decision graph. The ABP hooks see only part of that session's work, so this trace rests on commits and desk files.",
     "No token figures are in Vicky's agents' run reports, so the cost of each step is not yet known."
   ],
-  "next": "At each hourly wake (:28): append the steps since the last commit covered, update the workflow and decision-graph status."
+  "next": "At each hourly wake (:28): append the steps since the last commit covered, update the workflow and decision-graph status.",
+  "speeds": [
+    {
+      "what": "government alert: desk read to S41 update",
+      "from_step": 11,
+      "to_step": 27,
+      "minutes": 25
+    },
+    {
+      "what": "red rain: desk saw to S41 update",
+      "from_step": 33,
+      "to_step": 34,
+      "minutes": 3
+    },
+    {
+      "what": "Dinis's storm memo to the weather desk acting on it",
+      "from": "about 17:00 (memo)",
+      "to_step": 38,
+      "minutes": 52
+    }
+  ]
 }

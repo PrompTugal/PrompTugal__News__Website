@@ -4,4 +4,4 @@ One trace per workflow, JSON first, by reporter.newsroom@PrompTugal.dinis (brief
 
 | Trace | Story | Covers (UTC) | README |
 |---|---|---|---|
-| [the-storm.json](the-storm.json) | S41 and S43: IPMA's red wind warning for Lisbon, Wed 11 Nov 2026 | 10 Nov 14:08 to 17:29 | [the-storm.md](the-storm.md) |
+| [the-storm.json](the-storm.json) | S41 and S43: IPMA's red wind warning for Lisbon, Wed 11 Nov 2026 | 10 Nov 14:08 to 18:20 | [the-storm.md](the-storm.md) |
