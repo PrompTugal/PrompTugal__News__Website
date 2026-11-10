@@ -199,6 +199,25 @@
           "minLength": 1
         }
       }
+    },
+    "gamma_ray": {
+      "description": "The company's GAMMA-Ray Spectrum card, as a link only: GAMMA-Ray's own cards.json (https://gamma-ray.sgit.ai/data/cards.json) says 'Link to a card; do not copy it: a card is corrected in place'. Set only when a card for this company exists there (none does yet: no cohort is approved). Pages read the card itself from GAMMA-Ray.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "card"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "card": {
+          "type": "string",
+          "pattern": "^https://gamma-ray\\.sgit\\.ai/spectrum/cards/[a-z0-9-]+/$"
+        }
+      }
     }
   },
   "additionalProperties": false

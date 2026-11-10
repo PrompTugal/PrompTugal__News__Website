@@ -115,3 +115,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 22:21 wake
 - Inbox: dev@ (active key): contributors schema; reviewed, kept. Translations: no answer from Dinis yet.
+
+## 06:21 wake (10 November)
+- Back on (THE RESTART; account-b.json 04:51). Inbox 3 (conductor@): GAMMA schema asked 23:26, held 23:27, asked again 04:05 with the graph expansion. GAMMA-Ray moved to its own repo; cards.json says link, do not copy; 4 axes; no company card yet. Added gamma_ray link field only.
