@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ipma-warnings-open-data",
+  "story": "S41",
+  "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+  "title": "IPMA, weather warnings open data (warnings_www.json)",
+  "publisher": "IPMA",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "dataset",
+  "what_it_says": "IPMA's open data for weather warnings by area; area LSB is the Lisbon district. Read at 16:32 UTC on 10 November 2026, after the article's 14:23 and 14:34 readings: the Lisbon warnings were unchanged."
+}

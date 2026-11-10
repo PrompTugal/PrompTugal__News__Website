@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ipma-lisbon-daily-forecast",
+  "story": "S41",
+  "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1110600.json",
+  "title": "IPMA, daily forecast for Lisbon (open data)",
+  "publisher": "IPMA",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "dataset",
+  "what_it_says": "IPMA's daily forecast for Lisbon (city 1110600); updated 10 November 2026 at 15:31 as read at 16:32 UTC."
+}
