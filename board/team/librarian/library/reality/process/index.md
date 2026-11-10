@@ -26,13 +26,13 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1005 cards (1005 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T13:02:20Z at site v0.1.1002; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1006 cards (1006 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T15:58:23Z at site v0.1.1027; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 35 |
+| `GDN.MEMO` | 36 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 31 |
 | `GEN.README` | 1 |
@@ -47,11 +47,11 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 
 Newest five accessions:
 
+- `ACC-20261110-0213` [The Front Page (design E) as the default design and theme, for the whole site and the iOS app](https://promptugal.news/board/guidance/2026-11-10-the-front-page-default.md) (`GDN.MEMO 2026-11-10-the-front-page-default`)
 - `ACC-20261110-0211` [The agentic edition's home page: direction B (Calcada), what to build](https://promptugal.news/board/spec-the-agentic-home-page.md) (`WRK.PLAN spec-the-agentic-home-page`)
 - `ACC-20261110-0210` [conductor-vicky](https://promptugal.news/desks/conductor-vicky/) (`WRK.DESK conductor-vicky`)
 - `ACC-20261110-0209` [2026-11-10T1036Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-10T1036Z-then-and-now.jpg) (`WRK.BRIEF 2026-11-10T1036Z-then-and-now`)
 - `ACC-20261110-0208` [2026-11-10T1036Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-10T1036Z.pdf) (`WRK.BRIEF 2026-11-10T1036Z:2`)
-- `ACC-20261110-0207` [2026-11-10T1036Z.json](https://promptugal.news/board/editor-briefs/2026-11-10T1036Z.json) (`WRK.BRIEF 2026-11-10T1036Z`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

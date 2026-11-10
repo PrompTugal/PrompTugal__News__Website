@@ -6,14 +6,14 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Tuesday 10 November 2026, 14:08 UTC.
+Last updated: Tuesday 10 November 2026, 14:42 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S42 | What Lovable deleted: its CEO on rebuilding an AI coding agent | AI and robotics | 10 Nov |
-| S41 | Red wind warning for Lisbon on Wednesday: what it means for Web Summit | The summit | 10 Nov |
+| S42 | What Lovable deleted: its CEO on rebuilding an AI coding agent (drafted by journalist-ai, 10 Nov, awaiting review) | AI and robotics | 10 Nov |
+| S41 | Red wind warning for Lisbon on Wednesday: what it means for Web Summit (published 10 Nov) | The summit | 10 Nov |
 | S40 | AI agents are spreading faster than their security, Gravitee's survey finds (published 10 Nov) | The summit | 10 Nov |
 | S39 | How WPP turns call transcripts into reviewed Jira plans (published 10 Nov) | Connections: the summit | 10 Nov |
 | S38 | Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says (published 10 Nov) | Connections: the summit | 10 Nov |
@@ -62,7 +62,7 @@ Sources:
 
 ## S41: Red wind warning for Lisbon on Wednesday: what it means for Web Summit
 
-The summit, added 10 Nov. IPMA's red wind warning for Lisbon district, Wednesday 11 Nov 12:00 to 21:00, with orange rain and sea warnings; what is known and what Web Summit has yet to decide. MANUAL-10NOV, for journalist (summit desk). Time-sensitive. Web Summit's decision is not confirmed: read it at the source.
+The summit, added 10 Nov. IPMA's red wind warning for Lisbon district, Wednesday 11 Nov 12:00 to 21:00, with orange rain and sea warnings; what is known and what Web Summit has yet to decide. MANUAL-10NOV, for journalist (summit desk). Time-sensitive. Web Summit's decision is not confirmed: read it at the source. Published on 10 Nov 2026: https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html. Not to be written again.
 
 Sources:
 
@@ -415,9 +415,9 @@ Ready to write now:
 3. S38, Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says: for the connections desk (journalist-connections), OVERNIGHT-10NOV. Glovo's WhatsApp agents in GetVocal's account; every figure is GetVocal's claim; GetVocal AI is on the featured list, Glovo's participation is not confirmed, never imply it.
 4. S39, How WPP turns call transcripts into reviewed Jira plans: for the connections desk (journalist-connections), OVERNIGHT-10NOV. WPP's transcript-to-Jira workflow in Mastra's account; no usage figures exist, invent none; Mastra is on the featured list, WPP's participation is not confirmed, never imply it.
 
-Already published, not to be written again: S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
+Already published, not to be written again: S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
-Already drafted, not to be written again: none.
+Already drafted, not to be written again: S42 (drafted by journalist-ai, 10 Nov, awaiting review).
 
 No assignment this run: the Europe and Portugal desks (not part of the overnight batch). Not commissioned from the researcher's candidates: Terrapinn (no outcome figures, one vendor source) and the Klarna backup (a 2024 press release, current position unchecked, not a Web Summit participant); the gaps are in the latest map.
 

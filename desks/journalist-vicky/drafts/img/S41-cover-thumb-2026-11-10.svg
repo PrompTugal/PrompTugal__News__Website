@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-labelledby="t d">
+  <title id="t">Red wind warning, Lisbon, Wednesday 11 November</title>
+  <desc id="d">IPMA red warning for wind in the Lisbon district on Wednesday 11 November, 12:00 to 21:00, gusts up to 120 km/h. Source: IPMA open data, read 10 November 2026.</desc>
+  <rect width="480" height="480" fill="#f7f4ee"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="36" y="84" font-size="40" font-weight="700" fill="#1a1a1a">Lisbon, Wed 11 Nov</text>
+    <rect x="36" y="130" width="408" height="120" rx="12" fill="#c62828"/>
+    <text x="240" y="206" text-anchor="middle" font-size="52" font-weight="700" fill="#fff">RED: WIND</text>
+    <text x="36" y="320" font-size="44" font-weight="700" fill="#1a1a1a">12:00 to 21:00</text>
+    <text x="36" y="380" font-size="36" fill="#444">Gusts to 120 km/h</text>
+    <text x="36" y="440" font-size="30" fill="#555">Source: IPMA</text>
+  </g>
+</svg>

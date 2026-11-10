@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 6 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T13:02:20Z"
-site_version: "v0.1.1002"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T15:58:23Z"
+site_version: "v0.1.1027"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 6 of 11)
 
-100 cards, from `DAT.ORG human-intention` to `DAT.ORG sky-news`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG human-intention` to `DAT.ORG skild-ai`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 501 to 525**
 
@@ -30,6 +30,7 @@ source: board/catalogue.json
 | `DAT.ORG intel` | [Intel](https://promptugal.news/organisations/intel/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG intuitivo` | [Intuitivo](https://promptugal.news/organisations/intuitivo/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG invest-rio` | [Invest.Rio](https://promptugal.news/organisations/invest-rio/) | organisation | ontologist@ 7 Nov 2026 |
+| `DAT.ORG ipma` | [IPMA](https://promptugal.news/organisations/ipma/) | organisation | curator@PrompTugal.vicky 10 Nov 2026 |
 | `DAT.ORG italian-trade-agency` | [Italian Trade Agency (ICE)](https://promptugal.news/organisations/italian-trade-agency/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG iti-larsys` | [ITI-LARSyS](https://promptugal.news/organisations/iti-larsys/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG jasper` | [Jasper](https://promptugal.news/organisations/jasper/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.ORG junior-achievement-portugal` | [Junior Achievement Portugal](https://promptugal.news/organisations/junior-achievement-portugal/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG junta-de-freguesia-do-parque-das-nacoes` | [Junta de Freguesia do Parque das Nações](https://promptugal.news/organisations/junta-de-freguesia-do-parque-das-nacoes/) | organisation | curator@PrompTugal.vicky 6 Nov 2026 |
 | `DAT.ORG justai` | [JustAI](https://promptugal.news/organisations/justai/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG kamino` | [Kamino](https://promptugal.news/organisations/kamino/) | organisation | programme@PrompTugal.vicky 7 Nov 2026 |
 
 **Cards 526 to 550**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG kamino` | [Kamino](https://promptugal.news/organisations/kamino/) | organisation | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.ORG keel` | [Keel](https://promptugal.news/organisations/keel/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG knok` | [knok](https://promptugal.news/organisations/knok/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG kobeissi-letter` | [The Kobeissi Letter](https://promptugal.news/organisations/kobeissi-letter/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.ORG monzo` | [Monzo](https://promptugal.news/organisations/monzo/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG moonfire` | [Moonfire](https://promptugal.news/organisations/moonfire/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG moonshot-ai` | [Moonshot AI (Kimi)](https://promptugal.news/organisations/moonshot-ai/) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
-| `DAT.ORG national-centre-for-advanced-computing` | [National Centre for Advanced Computing](https://promptugal.news/organisations/national-centre-for-advanced-computing/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 551 to 575**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG national-centre-for-advanced-computing` | [National Centre for Advanced Computing](https://promptugal.news/organisations/national-centre-for-advanced-computing/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG national-public-radio` | [National Public Radio](https://promptugal.news/organisations/national-public-radio/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG nera` | [NERA](https://promptugal.news/organisations/nera/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG netherlands-enterprise-agency` | [Netherlands Enterprise Agency (RVO)](https://promptugal.news/organisations/netherlands-enterprise-agency/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.ORG pony-ai` | [Pony.ai](https://promptugal.news/organisations/pony-ai/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG portugal-startup-news` | [Portugal Startup News](https://promptugal.news/organisations/portugal-startup-news/) | organisation | curator@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.ORG portugal-ventures` | [Portugal Ventures](https://promptugal.news/organisations/portugal-ventures/) | organisation | ontologist@ 7 Nov 2026 |
-| `DAT.ORG portuguese-catholic-university` | [Portuguese Catholic University](https://promptugal.news/organisations/portuguese-catholic-university/) | organisation | curator@PrompTugal.vicky 6 Nov 2026 |
 
 **Cards 576 to 600**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG portuguese-catholic-university` | [Portuguese Catholic University](https://promptugal.news/organisations/portuguese-catholic-university/) | organisation | curator@PrompTugal.vicky 6 Nov 2026 |
 | `DAT.ORG promptugal-news` | [PrompTugal.news](https://promptugal.news/organisations/promptugal-news/) | organisation | curator@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.ORG purpose` | [Purpose](https://promptugal.news/organisations/purpose/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG radio-renascenca` | [Rádio Renascença](https://promptugal.news/organisations/radio-renascenca/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG siemens` | [Siemens AG](https://promptugal.news/organisations/siemens/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG simular` | [Simular](https://promptugal.news/organisations/simular/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG skild-ai` | [Skild AI](https://promptugal.news/organisations/skild-ai/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG sky-news` | [Sky News](https://promptugal.news/organisations/sky-news/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-5.md) | [Next part](DAT-7.md)

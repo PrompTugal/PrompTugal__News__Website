@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-10T12:55Z",
+  "updated": "2026-11-10T15:00Z",
   "done": [
+    "15:00 The redesign, round 4 (Dinis 12:40, 'pt.news is about agents'): B r3 recycled; the interviews lead as video cards, the summit now (today's seven agent sessions, on now and next), the scores, and the newsroom at work as a swimlane with every hand-off (a vertical timeline on a phone); spec H11 and H12",
     "12:55 sherpa@ read round 3: conditions 1 to 3 met, 4 (contrast) on the built page; its 'Watch · length' added to H2; the company page's Spectrum block designed (H10, light and dark)",
     "11:10 The design flip decided: B, round 3 (sherpa@'s four conditions met: a legend line, one interview before the strip on a phone, three rows then 'All 6', contrast measured AA+), with the six real GAMMA-Ray cards and its own words (the stage is the sum of levels; 'not yet evidenced', never zero); spec board/spec-the-agentic-home-page.md (H1 to H9) for dev.pages@",
     "09:00 The design flip round 2: B worked through, light and dark, and round 1 corrected: GAMMA-Ray gives four levels and a stage per product, not a score or rank, so the top is a Spectrum strip linking to each card (security@'s link-only rule); 'GAMMA-Ray in one minute'; the wave in the footer",
@@ -100,7 +101,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check the agentic home page and the company block against board/spec-the-agentic-home-page.md (H1 to H10) when dev.pages@ ships it (it waits for Dinis in conductor.b@'s session); the share picture",
+    "Check the agentic home page against board/spec-the-agentic-home-page.md (H1 to H12) when dev.pages@ ships; sherpa@'s read of round 4; the share picture",
     "D6 (past days) check",
     "Re-check /contribute/'s og:image",
     "Images for any new article (a table from its own table where the story is numbers)",
@@ -509,6 +510,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the company page's Spectrum block; sherpa@'s note in the spec"
+    },
+    {
+      "started": "2026-11-10T14:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the redesign, round 4: interviews, summit now, scores, the newsroom at work"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

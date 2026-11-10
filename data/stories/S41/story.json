@@ -5,7 +5,7 @@
   "title": "Red wind warning for Lisbon on Wednesday: what it means for Web Summit",
   "beat": "The summit",
   "topic": null,
-  "status": "idea",
+  "status": "published",
   "rests_on": [
     "evidence:x-ipma-warnings",
     "evidence:x-ipma-forecast"
@@ -16,23 +16,55 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-10-1410.json"
+      "desks/curator/2026-11-10-1410.json",
+      "desks/journalist-vicky/drafts/S41-red-wind-warning-lisbon-wednesday.md",
+      "desks/reviewer-vicky/reviews/S41.md",
+      "content/articles/red-wind-warning-lisbon-wednesday.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S41-red-wind-warning-lisbon-wednesday.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S41.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/red-wind-warning-lisbon-wednesday.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S41.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-10",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-10-1410.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-10",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S41-red-wind-warning-lisbon-wednesday.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-10",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "content/articles/red-wind-warning-lisbon-wednesday.md"
     }
   ]
 }

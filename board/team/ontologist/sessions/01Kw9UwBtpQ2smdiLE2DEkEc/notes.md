@@ -127,3 +127,7 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 12:21 wake
 - Inbox empty. Coverage review: 2 of 45 mentions tagged; tags must equal company id (getvocal vs getvocal-ai). Sent to journalist (journalist.json, active) and dev.
+
+## 14:21 wake
+- Inbox: designer@ (designer-promptugal-3, active): Spectrum block. Guidance 12:40: key companies/products/agents to GAMMA cards. Spectrum 0.2, 7 cards; replit-agent matched. gamma_ray on products.
+- Sent first to designer.json (superseded key); resent to designer-3 (active). Check the active inbox before every send.

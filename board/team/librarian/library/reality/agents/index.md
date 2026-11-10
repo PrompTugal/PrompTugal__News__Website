@@ -27,7 +27,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2891 cards (713 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-10T13:02:20Z at site v0.1.1002; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2898 cards (720 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-10T15:58:23Z at site v0.1.1027; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -36,19 +36,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `TEAM.ABP` | 53 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
-| `TEAM.INBOX` | 73 |
+| `TEAM.INBOX` | 77 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1532 |
+| `TEAM.ROLE` | 1535 |
 | `TEAM.RUN` | 1172 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261110-0206` [runs/reviewer.vicky/](https://promptugal.news/board/runs/reviewer.vicky/) (`TEAM.RUN reviewer`)
-- `ACC-20261110-0205` [runs/programme.vicky/](https://promptugal.news/board/runs/programme.vicky/) (`TEAM.RUN programme`)
-- `ACC-20261110-0204` [runs/journalist-portugal.vicky/](https://promptugal.news/board/runs/journalist-portugal.vicky/) (`TEAM.RUN journalist-portugal`)
-- `ACC-20261110-0203` [runs/journalist-europe.vicky/](https://promptugal.news/board/runs/journalist-europe.vicky/) (`TEAM.RUN journalist-europe`)
-- `ACC-20261110-0202` [runs/journalist-connections.vicky/](https://promptugal.news/board/runs/journalist-connections.vicky/) (`TEAM.RUN journalist-connections`)
+- `ACC-20261110-0228` [2026-11-10T1552Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-10T1552Z.json) (`TEAM.ROLE 2026-11-10T1552Z`)
+- `ACC-20261110-0227` [2026-11-10T1550Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-10T1550Z.json) (`TEAM.ROLE 2026-11-10T1550Z`)
+- `ACC-20261110-0226` [Wake 14:05, 10 November: 49 commits since 01c43b527, clean; the offline files reverted and restored, no net change](https://promptugal.news/board/team/security/reviews/2026-11-10-1405-wake.md) (`TEAM.ROLE 2026-11-10-1405-wake`)
+- `ACC-20261110-0225` [programme-vicky-b.json](https://promptugal.news/board/inboxes/programme-vicky-b.json) (`TEAM.INBOX programme-vicky-b`)
+- `ACC-20261110-0224` [dev-vicky-b.json](https://promptugal.news/board/inboxes/dev-vicky-b.json) (`TEAM.INBOX dev-vicky-b`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

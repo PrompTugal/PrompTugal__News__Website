@@ -1,5 +1,138 @@
 [
   {
+    "version": "v0.1.1032",
+    "date": "2026-11-10",
+    "what": "watch 16:16: Front Page default; investor deck v2",
+    "by": "conductor@web-summit.dinis",
+    "from": "0f44fa398"
+  },
+  {
+    "version": "v0.1.1031",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 16:07 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "ae2f6da01"
+  },
+  {
+    "version": "v0.1.1030",
+    "date": "2026-11-10",
+    "what": "security@PrompTugal.dinis: wake 16:05: 49 commits clean",
+    "by": "security@PrompTugal.dinis",
+    "from": "b93b74030"
+  },
+  {
+    "version": "v0.1.1029",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 15:56: the provenance record follows story codes; catalogue v0.1.1027",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "4a1ca1f61"
+  },
+  {
+    "version": "v0.1.1028",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: 15:49 wake: S41 and S42 live; S41 watch, no change; nothing blocked",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "2f6841b3b"
+  },
+  {
+    "version": "v0.1.1027",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "8908eff5b"
+  },
+  {
+    "version": "v0.1.1026",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: snapshot index for the 15:38 wake",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "2bf917a26"
+  },
+  {
+    "version": "v0.1.1025",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 15:29 wake: the flip round 4 on a phone (the best for the reader); offline mode survives the revert",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "a08a6eeca"
+  },
+  {
+    "version": "v0.1.1024",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: S41 update approval recorded (S41 only); 15:22 check: no change; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2bf973d8b"
+  },
+  {
+    "version": "v0.1.1023",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: S41 watch on journalist@'s hourly wake, recorded in the hand-over",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "b9a580063"
+  },
+  {
+    "version": "v0.1.1022",
+    "date": "2026-11-10",
+    "what": "api/v1/live/videos.json, the interview videos for the apps",
+    "by": "conductor-newsapp@web-summit.indi",
+    "from": "e2265e690"
+  },
+  {
+    "version": "v0.1.1021",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 14:48 wake: redesign round 4; dev@ and dev.pages@ wait for Dinis here",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "963997ac5"
+  },
+  {
+    "version": "v0.1.1020",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "b43c38069"
+  },
+  {
+    "version": "v0.1.1019",
+    "date": "2026-11-10",
+    "what": "correspondent@PrompTugal.dinis: wake 14:41: the red wind warning for Wednesday leads",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "c0ffc4ad3"
+  },
+  {
+    "version": "v0.1.1018",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: the redesign, round 4: the interviews, the summit now, the scores, and the newsroom at work with every hand-off",
+    "by": "designer@PrompTugal.dinis",
+    "from": "85ca4b1c4"
+  },
+  {
+    "version": "v0.1.1017",
+    "date": "2026-11-10",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "0fb28ba80"
+  },
+  {
+    "version": "v0.1.1016",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 14:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "c951ee529"
+  },
+  {
+    "version": "v0.1.1015",
+    "date": "2026-11-10",
+    "what": "watch 14:21: reporter and journalist started; visual newsroom waits on dev@",
+    "by": "conductor@web-summit.dinis",
+    "from": "6f58090c2"
+  },
+  {
+    "version": "v0.1.1014",
+    "date": "2026-11-10",
+    "what": "journalist-connections@PrompTugal.vicky: hand-over note corrected: RWS and Persona held for Vicky's batch; run summaries",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "ac5e095f7"
+  },
+  {
     "version": "v0.1.1013",
     "date": "2026-11-10",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",

@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-10T12:55Z",
+  "updated": "2026-11-10T14:52Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -49,7 +49,8 @@
     "Wake 06:41 Tuesday (after THE BIG STOP, 9 Nov 23:30, and THE RESTART, 10 Nov 02:40): the agentic edition on the front page: Gravitee's agent security survey leads; GetVocal's agents for Glovo, WPP's reviewed plans and Teamworks's coaches' agent in the top three; the AI beat first with all four; the passes piece placed; Tuesday's briefing reworked; sherpa@'s R1 (no headline on the first phone screen) passed to dev@",
     "Wake 08:41 Tuesday: Wednesday's edition reworked for the agentic edition (the GAMMA-Ray launch leads when published, fallback who builds an agent's parts; an interview in the top three when published; Gravitee, GetVocal; a briefing led by the day's guide)",
     "Wake 10:41 Tuesday: designer@'s design flip (B, Calcada, round 3; board/spec-the-agentic-home-page.md): my H2 pick in front-page.json 'phone_interview' (Buzz Messaging AI today, Student Property Network on Wednesday); 'Speed where it's safe, control where it matters' in From the newsroom",
-    "Wake 12:41 Tuesday: Dinis's 12:40 pivot to agents ('the summit now', filtered to agents, is mine): the day pages' five a day re-filtered to agent sessions only (Tuesday afternoon, Wednesday, Thursday); the policy, Portugal and Brazil sessions stay in their beats"
+    "Wake 12:41 Tuesday: Dinis's 12:40 pivot to agents ('the summit now', filtered to agents, is mine): the day pages' five a day re-filtered to agent sessions only (Tuesday afternoon, Wednesday, Thursday); the policy, Portugal and Brazil sessions stay in their beats",
+    "Wake 14:41 Tuesday: IPMA's red wind warning for Lisbon on Wednesday (midday to 21:00) leads the front page (safety news for every attendee on the summit's main day); Gravitee's survey to the top three; in Tuesday's and Wednesday's briefings and the Web Summit beat"
   ],
   "next": [
     "The GAMMA-Ray launch article onto the lead as soon as journalist@ publishes it",
@@ -308,6 +309,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "The summit now, filtered to agents"
+    },
+    {
+      "started": "2026-11-10T14:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The red wind warning leads"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-09-handover.md",

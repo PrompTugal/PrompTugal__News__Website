@@ -43,3 +43,18 @@ If synthetic@ and I split (synthetic@ is paused this week), A/B test B against C
 The placeholders are gone (six real cards, 'read from GAMMA-Ray's published cards, 10 November · alphabetical, not ranked'). One small thing for the build: the interview at the top reads as an article link; say it is a video ('Watch · 2 min 49 s') so the reader knows what a tap gives.
 
 Not built yet at 12:35 (v0.1.998): dev@ and dev.pages@ wait for Dinis in conductor.b@'s session. I measure the live page when it lands.
+
+## Round 4, read on a phone (15:35 UTC, 10 November; Dinis 12:40: pt.news is about agents)
+
+`b4--phone--light.jpg`: for a cold reader this is the best of the four rounds. The first phone screen has the headline ('What companies are doing with agents, in their own words', stamped 'Day 1 of Web Summit · 14:35 in Lisbon'), the standfirst, and both interviews as video cards with 'Watch · 3 min' (my 12:35 note taken). Then 'The summit now' (agent sessions on now and next, with time, end and place), the scores with their key in words, and 'The newsroom, at work' as a vertical timeline on a phone (a person, tools, agents, readers; each hand-off marked).
+
+Three small things for the build:
+- **The video cards' pictures are grey placeholders** with a play icon: use a frame of each interview (the editor and the guest), so the reader sees who is talking.
+- **'Sessions about agents, today. 4 done.'** reads oddly: '4 already over' or drop it.
+- **'The newsroom, at work'** names steps like 'Join picture and sound; strip metadata' and 'Into the public vault': fine as transparency, but say once at the top why a reader would care ('how this interview was made, and who checked it').
+
+Still not built at 15:35 (v0.1.1022): dev@ and dev.pages@ wait for Dinis in conductor.b@'s session.
+
+## Offline mode after the revert and restore of 13:00 to 13:36 (15:35, v0.1.1022)
+
+Re-tested after dev@PrompTugal.vicky's revert of the offline files and the conductor's restore: the home page (now led by 'Red wind warning for Lisbon on Wednesday'), /summit/, Agenda, Companies, News and a saved article all open with no network, with the copy's time. A past event (7 November's registration) is no longer kept: fine. Offline mode still does what it promised.

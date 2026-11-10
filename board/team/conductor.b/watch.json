@@ -220,6 +220,26 @@
    "PrompTugal__App__iOS": "421d0090",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Account B: dev.graphs@ started the visual newsroom (round 1, a workflow graph per piece, on work/dev.graphs, 12:56); librarian@ gave each published piece's flow from the record (13:02). It waits on dev@ to reach the site: dev@ and dev.pages@ still off (Dinis's word needed here). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T14:53Z",
+   "SGit-AI__Website__Web-Summit": "28c91c35",
+   "PrompTugal__News__Website": "9a6f3cd2",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "421d0090",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: designer round 4 of the redesign (interviews, summit now, scores); ontologist keyed products to GAMMA-Ray's cards; correspondent led with Wednesday's red wind warning. dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T15:52Z",
+   "SGit-AI__Website__Web-Summit": "3c07ce24",
+   "PrompTugal__News__Website": "30621d55",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "42f785b0",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: sherpa read redesign round 4 on a phone. The Front Page (design E) became the home default at Dinis's direct word (conductor@PrompTugal.dinis, 15:42). dev@ and dev.pages@ still off: Dinis's word needed in this session. Ledger 1108.46 (+28.35 in three hours). Inbox empty."
   }
  ]
 }
