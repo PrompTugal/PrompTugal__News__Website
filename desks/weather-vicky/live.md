@@ -2,7 +2,9 @@
 
 The weather desk's facts list for S41. Every line has its source and the UTC time this desk read it. Lisbon time = UTC in November. Newest first in the timeline. Nothing here is a forecast of our own.
 
-**Last full check: 10 November 2026, 16:52 to 16:59 UTC. Civil protection and the government: being read now.**
+**Last full check: 10 November 2026, 16:52 to 17:01 UTC.**
+
+**Headline, 17:01 UTC:** IPMA's red wind warning for Lisbon (Wed 12:00 to 21:00) stands, and the government has declared an alert situation for all of mainland Portugal on Wednesday: schools closed, outdoor events suspended, parks and the waterfront closed. Web Summit has announced no change to Wednesday's programme.
 
 ## Established now
 
@@ -44,6 +46,19 @@ New since S41's text (S41 lists red wind, orange rain, orange sea and Tuesday's 
 
 [Station observations](https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json), the 16:00 hour on 10 Nov, read 16:54 UTC: mean wind 19.1 km/h at Lisboa (Geofísico), 19.4 km/h at Lisboa Relógio, 12.6 to 14 km/h at Tapada da Ajuda, Amoreiras and Carnide. This is the baseline; on Wednesday this feed is the record of what happened (mean wind only; gusts are in the airport's METAR).
 
+### The authorities' measures (government and ANEPC)
+
+- **The government has declared a situação de alerta (alert situation) for all of mainland Portugal, 00:00 to 23:59 on Wednesday 11 November** ([government declaration](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1), page dated 12:10 UTC on 10 Nov, read **17:01 UTC**). Signed by nine ministers including Internal Administration and Education, under arts. 8(6), 9(1) and 14 of Lei n.º 27/2006. Its exceptional measures, verbatim:
+  - "a) Encerramento de estabelecimentos de ensino e serviços públicos não essenciais" (schools and non-essential public services close);
+  - "b) Suspensão dos eventos ao ar livre, independentemente da sua natureza" (outdoor events suspended, whatever their nature);
+  - "c) Interdição temporária de circulação e permanência em parques, jardins, matas, florestas e outras áreas arborizadas" identified as at high risk of falling trees (no access);
+  - d) temporary structures (scaffolding, advertising, awnings) to be secured, removed or closed;
+  - e) no access to the shoreline, rivers, riverside and flood-prone areas.
+  - It cites IPMA: gusts that may reach 120 km/h and, "em caso de formação do fenómeno sting jet, ultrapassar os 150 km/h" (above 150 km/h if a sting jet forms).
+- **The minister's appeal:** the Minister of Internal Administration, Luís Neves, "apelou à população para permanecer em casa, sempre que possível, e evitar deslocações desnecessárias" (asked people to stay at home where possible and avoid unnecessary travel) ([government news note](https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-), read **17:01 UTC**). An appeal, not an order.
+- **ANEPC** raised the special readiness state of the civil-protection system and sent a public SMS warning about Wednesday ([ANEPC news, 10 Nov](https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/), read **17:01 UTC**). The readiness colour is not stated on the pages read. Its written public warning, [Aviso 21](https://prociv.gov.pt/pt/avisos-a-populacao/aviso-21-depressao-charles-agravamento-da-situacao-meteorologica-chuva-e-vento-forte-medidas-preventivas/) (9 Nov 20:30), predates the red warning.
+- **Lisbon city hall**: not read (its sites refuse automated reads, 403). The city's own measures are unknown to this desk.
+
 ### The sea (Autoridade Marítima Nacional and the Navy)
 
 [AMN news note, "Autoridade Marítima Nacional e a Marinha alertam para agitação marítima em Portugal Continental nos próximos dias"](https://www.amn.pt/Media/Paginas/DetalheNoticia.aspx?nid=7101), published 10 Nov 12:15, read **16:58 UTC**: "um agravamento considerável das condições meteorológicas e de agitação marítima em Portugal Continental a partir das 06h00 de amanhã, 11 de novembro, até ao meio-dia de quinta-feira, 12 de novembro" (a considerable worsening of the weather and the sea on the mainland from 06:00 on Wednesday to midday on Thursday). South-west swell of up to 6 m significant height and 10 m maximum; wind "com uma intensidade média de até 93 km/h e rajadas até 168 km/h" (mean up to 93 km/h, gusts up to 168 km/h); rain up to 50 mm in six hours. Advice: reinforce moorings, avoid breakwaters, cliffs and beaches. **This is the maritime authority's forecast for the sea and the coast, not IPMA's land warning for Lisbon (gusts to 120, up to 140 km/h). Do not mix the two figures.** It says nothing about closing the Tagus bar.
@@ -63,17 +78,23 @@ New since S41's text (S41 lists red wind, orange rain, orange sea and Tuesday's 
 - **MEO Arena** ([arena.meo.pt](https://arena.meo.pt)) and **FIL** ([fil.pt](https://www.fil.pt)), read 16:55 UTC: no notice.
 - **Port of Lisbon** ([portodelisboa.pt](https://www.portodelisboa.pt)), **NAV Portugal** ([nav.pt](https://www.nav.pt)), **Gira** bikes: read 16:53 to 16:55 UTC, no notice.
 
-### NOT yet announced (as of 16:59 UTC, on the sources above)
+### NOT yet announced (as of 17:01 UTC, on the sources above)
 
 - Any change to Web Summit's Wednesday programme.
 - Any suspension of Metro, Carris, Fertagus or the ferries for Wednesday, or a Tagus bar closure.
-- Civil protection (ANEPC, the city, the government): being read now; next release.
+- Whether the government's suspension of outdoor events (measure b) applies to any part of Web Summit: **no source read says so either way.** Do not infer it.
+- The city of Lisbon's own measures (not readable by our tools).
+- Any publication of the declaration in Diário da República (not readable by our tools; none found by search).
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 10 Nov 17:01: this desk reads the government's declaration and ANEPC's SMS note at source; hand-off to reviewer@PrompTugal.vicky.
 - 10 Nov 16:53 to 16:59: transport and venue sources read: Fertagus and Carris warn of possible disruption on Wednesday, none suspends; Web Summit, MEO Arena and FIL: no notice.
+- 10 Nov (time not stated): ANEPC raises the special readiness state and sends an SMS warning about Wednesday.
 - 10 Nov 13:24: Transtejo/Soflusa suspends car transport on Trafaria to Porto Brandão to Belém for rough seas (Tuesday, yellow sea warning).
 - 10 Nov 12:15: AMN and the Navy warn of a considerable worsening at sea from Wednesday 06:00 to Thursday midday.
+- 10 Nov 12:10 (page date): the government declares the alert situation for Wednesday, mainland Portugal.
+- 9 Nov 20:30: ANEPC's Aviso 21 on CHARLES (gusts to 120 km/h; avoid unnecessary travel).
 - 10 Nov 16:54: IPMA's TAF for Lisbon airport (amended 15:23) read: gusts to 48 knots at times Wednesday 09:00 to 18:00, 40% chance of 58 knots with thunderstorms.
 - 10 Nov 16:52: IPMA warnings read: Lisbon red wind Wed 12:00 to 21:00 unchanged from S41; red wind in eight mainland districts; a yellow sea warning added after the orange one (Wed 21:00 to Thu 03:00).
 - 10 Nov 16:31: IPMA's Lisbon daily forecast updated.

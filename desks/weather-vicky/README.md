@@ -56,4 +56,12 @@ Each source: what it publishes, how often, the language, and whether a machine c
 
 ### Civil protection, government, city
 
-Being mapped now (ANEPC and the Lisbon district, the city's civil protection and Câmara Municipal de Lisboa, the government and ministries, Diário da República); next release, with the decision chain.
+| Source | What | Lang | Machine-readable |
+|---|---|---|---|
+| [Government, news (XXV Governo)](https://portugal.gov.pt/gc25/comunicacao/noticias/) | Declarations of alert, contingency or calamity and their measures (schools, events, parks); ministers' statements | PT | No (the RSS path we tried was 404) |
+| [ANEPC, news and communiqués](https://prociv.gov.pt/pt/noticias/) | The civil-protection authority: readiness, SMS warnings, preventive measures | PT | No RSS found; the site resets connections at times |
+| [ANEPC, warnings to the population](https://prociv.gov.pt/pt/avisos-a-populacao/) | Numbered public warnings (Aviso 21 for CHARLES), with PDFs | PT | No |
+| [ANEPC, how alerts work](https://prociv.gov.pt/pt/prevencao-e-preparacao/monitorizacao-alerta-e-aviso/alerta/) | Who issues special alerts | PT | No |
+| ANEPC incidents (the public occurrences map's ArcGIS service, `prociv-agserver.geomai.mai.gov.pt`) | Live incidents by place and type | codes | Yes in principle; it reset every connection on 10 Nov. **The evidence of impact on Wednesday, if it can be read.** |
+| [Câmara Municipal de Lisboa](https://www.lisboa.pt) and [informacao.lisboa.pt](https://informacao.lisboa.pt) | The city and its municipal civil-protection service: city measures, the municipal emergency plan, park closures | PT | No: refuses automated reads (403). Needs a person or a browser |
+| [Diário da República](https://diariodarepublica.pt) | The official gazette, where a declaration may be published | PT | No: a JavaScript app |
