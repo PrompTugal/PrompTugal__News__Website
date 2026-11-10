@@ -40,13 +40,35 @@ const when = (ctx, i) => { const d = i.date === ctx.TODAY ? 'Today' : ctx.DAY(i.
 const endOf = i => `${i.date}T${i.end || i.start || '23:59'}:00Z`
 const plusDays = (d, n) => new Date(Date.parse(d) + n * 864e5).toISOString().slice(0, 10)
 
+// the optional lead fields the correspondent may set in front-page.json's "lead" (standfirst, developments, programme, last_checked, live);
+// each is shown only when present, so the block is unchanged until they are filled; all text is escaped, links must be http(s) or site-relative
+const safeHref = h => /^(https?:\/\/|[a-z0-9][a-z0-9\-_\/.]*$)/i.test(String(h || '')) ? String(h) : ''
+function leadExtra(ctx, a) {
+    let L = {}
+    try { L = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'desks/correspondent/front-page.json'), 'utf8')).lead || {} } catch { return {} }
+    if (!L.article || L.article !== slugOf(a)) return {}
+    const esc = ctx.md.esc, str = v => typeof v === 'string' ? v.trim() : ''
+    const stamp = v => { const t = str(v); if (!t) return ''; const d = /^\d{4}-\d\d-\d\d[T ]\d\d:\d\d/.test(t) ? new Date(t) : null
+        return d && !isNaN(d) ? `<time datetime="${d.toISOString()}">${d.toISOString().slice(11, 16)} UTC</time>` : esc(t) }
+    const src = o => { const h = safeHref(o && o.source); if (!h) return ''; const c = stamp(o.checked)
+        return put(item('lsrc'), { href: esc(h), checked: c ? put(item('lchecked'), { time: c }) : '' }) }
+    const out = {}
+    if (str(L.standfirst)) out.dek = esc(str(L.standfirst))  // the standfirst replaces the summary as the dek; the summary stays the fallback
+    const p = L.programme
+    if (p && str(p.text)) out.programme = put(item('programme'), { label: esc(str(p.label) || 'Programme'), text: esc(str(p.text)), src: src(p) })
+    const devs = (Array.isArray(L.developments) ? L.developments : []).filter(d => d && str(d.text)).slice(0, 3)
+    if (devs.length) out.developments = put(item('developments'), { items: devs.map(d => put(item('devitem'), { text: esc(str(d.text)), src: src(d) })).join('') })
+    const lc = stamp(L.last_checked), lh = L.live && safeHref(L.live.href)
+    if (lc || lh) out.live = put(item('live'), { lastchecked: lc ? put(item('lastchecked'), { time: lc }) : '', livelink: lh ? put(item('livelink'), { href: esc(lh), label: esc(str(L.live.label) || 'Live updates') }) : '' })
+    return out
+}
 function lead(ctx, a) {
     if (!a) return part('none')
     const esc = ctx.md.esc, f = figureOf(a), fig = picture(esc, a, 'card', false)
     let headline = esc(a.meta.title)
     if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
     return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
-        pill: pill(ctx, a), figure: fig ? put(item('figure'), { href: a.rel, picture: fig }) : '' })
+        pill: pill(ctx, a), figure: fig ? put(item('figure'), { href: a.rel, picture: fig }) : '', ...leadExtra(ctx, a) })
 }
 
 function fillE(page, ctx) {

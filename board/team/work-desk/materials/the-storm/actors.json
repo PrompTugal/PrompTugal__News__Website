@@ -1,0 +1,186 @@
+{
+  "story": "the-storm",
+  "from": "board/team/work-desk/traces/the-storm.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 21,
+  "first": "2026-11-10T14:08:40Z",
+  "last": "2026-11-10T17:22:47Z",
+  "actors": [
+    {
+      "actor": "curator@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 2,
+      "first": "2026-11-10T14:08:40Z",
+      "last": "2026-11-10T17:06:01Z",
+      "span_minutes": 177,
+      "handoffs_out": 2,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "journalist@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 2,
+      "first": "2026-11-10T14:25:37Z",
+      "last": "2026-11-10T17:06:40Z",
+      "span_minutes": 161,
+      "handoffs_out": 1,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "reviewer@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 3,
+      "first": "2026-11-10T14:36:22Z",
+      "last": "2026-11-10T16:44:30Z",
+      "span_minutes": 128,
+      "handoffs_out": 1,
+      "handoffs_in": 5,
+      "tokens": null
+    },
+    {
+      "actor": "readers (promptugal.news)",
+      "kind": "person",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "conductor@web-summit.dinis",
+      "kind": "agent",
+      "steps": 4,
+      "first": "2026-11-10T16:47:18Z",
+      "last": "2026-11-10T17:20:30Z",
+      "span_minutes": 33,
+      "handoffs_out": 7,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.B@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 2,
+      "first": "2026-11-10T16:52:21Z",
+      "last": "2026-11-10T17:14:41Z",
+      "span_minutes": 22,
+      "handoffs_out": 3,
+      "handoffs_in": 5,
+      "tokens": null
+    },
+    {
+      "actor": "Dinis Cruz",
+      "kind": "person",
+      "steps": 2,
+      "first": "2026-11-10T16:50:00Z",
+      "last": "2026-11-10T17:12:00Z",
+      "span_minutes": 22,
+      "handoffs_out": 3,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "weather@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 5,
+      "first": "2026-11-10T16:56:01Z",
+      "last": "2026-11-10T17:21:12Z",
+      "span_minutes": 25,
+      "handoffs_out": 7,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "a person (not yet named)",
+      "kind": "person",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "dashboard@PrompTugal.angelo",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "Vicky Wang",
+      "kind": "person",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "correspondent@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "dev@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "accountant@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "reporter.newsroom@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-10T17:22:47Z",
+      "last": "2026-11-10T17:22:47Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "journalist.newsroom@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 2,
+      "tokens": null
+    }
+  ]
+}

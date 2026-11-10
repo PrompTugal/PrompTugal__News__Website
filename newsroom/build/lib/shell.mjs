@@ -102,6 +102,7 @@ ${seoHead(page, site)}
 </head>
 <body class="type-${esc(type || 'site')}${front ? ' page-front' : ''}">
 <a class="skip" href="#main">Skip to the content</a>
+<p class="getapp"><a href="https://testflight.apple.com/join/2afhStnX" target="_blank" rel="noopener"><b>Get the PrompTugal app</b> for iPhone and iPad, free on TestFlight <span aria-hidden="true">›</span></a></p>
 ${ctopHead({ up, href, site, section, shortDate, WORDMARK })}
 <div class="dateline"><div class="row"><span class="dl-where"><span class="dl-long">${esc(S.place)} · </span><time class="dl-date" datetime="${site.TODAY}"><span class="dl-long">${site.DAY(site.TODAY)} ${y}</span><span class="dl-short">${shortDate}</span></time></span><span class="dl-right"><span class="countdown" data-start="${S.countdown.start}" data-end="${S.countdown.end}" data-day1="${S.countdown.day1}"></span> · <span class="dl-long">Edition </span>${ver}</span>${utility ? `<span class="dl-util">${utility}</span>` : ''}</div></div>
 <header class="mast${front ? '' : ' compact'}">

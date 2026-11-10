@@ -1,0 +1,27 @@
+{
+  "standfirst": "Portugal's government has declared an alert situation for the whole mainland on Wednesday 11 November, the third day of Web Summit Lisbon. IPMA has red warnings for the Lisbon district that day: wind from 12:00 to 21:00, with gusts up to 120 km/h and up to 140 km/h in the most exposed places, and rain from 12:00 to 18:00.",
+  "developments": [
+    {
+      "text": "IPMA raised its rain warning for the Lisbon district to red for Wednesday, 12:00 to 18:00; the red wind warning, 12:00 to 21:00, is unchanged.",
+      "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+      "checked": "2026-11-10T17:42Z"
+    },
+    {
+      "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended, whatever their nature.",
+      "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
+      "checked": "2026-11-10T17:43Z"
+    },
+    {
+      "text": "The Minister of Internal Administration asked people to stay at home where possible and avoid unnecessary travel.",
+      "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-",
+      "checked": "2026-11-10T17:01Z"
+    }
+  ],
+  "programme": {
+    "label": "Web Summit, Wednesday",
+    "text": "No change to Wednesday's programme has been announced on Web Summit's homepage or news page. Whether the suspension of outdoor events touches any part of the summit has not been announced.",
+    "source": "https://websummit.com/blog/news/",
+    "checked": "2026-11-10T17:43Z"
+  },
+  "last_checked": "2026-11-10T17:43Z"
+}

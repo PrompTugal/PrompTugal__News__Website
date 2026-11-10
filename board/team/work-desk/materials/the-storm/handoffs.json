@@ -1,0 +1,187 @@
+{
+  "story": "the-storm",
+  "from": "board/team/work-desk/traces/the-storm.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 21,
+  "first": "2026-11-10T14:08:40Z",
+  "last": "2026-11-10T17:22:47Z",
+  "handoffs": [
+    {
+      "from": "curator@PrompTugal.vicky",
+      "to": "journalist@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-10T14:08:40Z",
+        "2026-11-10T17:06:01Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-10T14:25:37Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "reviewer@PrompTugal.vicky",
+      "to": "readers (promptugal.news)",
+      "count": 1,
+      "times": [
+        "2026-11-10T14:36:22Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "conductor@web-summit.dinis",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-10T16:47:18Z",
+        "2026-11-10T17:11:24Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "Dinis Cruz",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-10T16:50:00Z",
+        "2026-11-10T17:12:00Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "weather@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-10T16:52:21Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "weather@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 4,
+      "times": [
+        "2026-11-10T16:56:01Z",
+        "2026-11-10T17:02:30Z",
+        "2026-11-10T17:02:31Z",
+        "2026-11-10T17:21:12Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "weather@PrompTugal.vicky",
+      "to": "curator@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:04:39Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "weather@PrompTugal.vicky",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:04:39Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "weather@PrompTugal.vicky",
+      "to": "a person (not yet named)",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:04:39Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "conductor@web-summit.dinis",
+      "to": "weather@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:11:24Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor@web-summit.dinis",
+      "to": "dashboard@PrompTugal.angelo",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:11:24Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "Dinis Cruz",
+      "to": "Vicky Wang",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:12:00Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "correspondent@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:14:41Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "dev@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:14:41Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor@web-summit.dinis",
+      "to": "accountant@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:18:15Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor@web-summit.dinis",
+      "to": "reporter.newsroom@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:20:30Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor@web-summit.dinis",
+      "to": "journalist.newsroom@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:20:30Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "reporter.newsroom@PrompTugal.dinis",
+      "to": "journalist.newsroom@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-10T17:22:47Z"
+      ],
+      "person_agent": false
+    }
+  ]
+}

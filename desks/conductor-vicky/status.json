@@ -1,8 +1,8 @@
 {
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
- "state": "ten temporary agents running; no hold; S41 and S42 live; S41 watched hourly",
- "updated": "2026-11-10T15:52Z",
+ "state": "eleven temporary agents (the weather desk added); no hold; S41 updated (government alert, red rain); the home-page lead fields rendered but not yet written",
+ "updated": "2026-11-10T18:22Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -22,16 +22,27 @@
   "14:10 at Vicky's word, all ten temporary agents told to send anything for her to this conductor while her account covers; to be updated at switch-back",
   "14:49 wake: no hold either side; no new guidance or decisions; the curator's manual pass commissioned S41 and S42; S41 published by the reviewer at Vicky's word; S42 Ready and held at the reviewer for Vicky; no agent blocked",
   "14:55 S41 watch set at Vicky's word: journalist@ checks IPMA and Web Summit's official updates at each :05 wake, flags material changes to reviewer@ with link and time; until the warning ends and Wednesday's programme is over; no prompt change",
-  "15:49 wake: no hold either side; S42 published at Vicky's word (15:06); Vicky's standing approval for S41 updates on a verified change recorded at the reviewer; S41 checks 15:08 and 15:22: no change; Dinis's front-page decision (design E) noted, not Vicky's desks'; no agent blocked"
+  "15:49 wake: no hold either side; S42 published at Vicky's word (15:06); Vicky's standing approval for S41 updates on a verified change recorded at the reviewer; S41 checks 15:08 and 15:22: no change; Dinis's front-page decision (design E) noted, not Vicky's desks'; no agent blocked",
+  "16:49 wake: no hold either side; Dinis approved Vicky's agents' schedule in his own session (guidance 16:47), so R4 is met; S41 checks 16:07 and 16:43: no change; no agent blocked",
+  "16:51 at Dinis's spoken word in this session: weather@PrompTugal.vicky started (Opus) with an hourly wake at :35, as the S41 breaking-news desk (sources, facts with evidence, decision chain, live page in desks/weather-vicky/)",
+  "17:12 at Dinis's request (relayed by Vicky): the S41 lead block made fuller: correspondent@ asked on its inbox to add a standfirst, two or three verified developments, a labelled Web Summit Wednesday line, a last-checked time and a later Live updates link to front-page.json's lead; Vicky's dev@ asked to render those optional fields in the existing lead block only, checked at 390 px",
+  "17:20 S41 lead, at Vicky's word with Dinis's authorisation: weather@ prepares the values (desks/weather-vicky/s41-lead.json), reviewer@ verifies and writes only the five lead keys in desks/correspondent/front-page.json (For: correspondent@), correspondent@ told on its inbox to carry those keys over and to warn before changing the lead; dev@ waits for Vicky's yes in its session for the display",
+  "17:49 wake: no hold either side; S41 updated at Vicky's word with the government's alert (17:27) and with IPMA's red rain (17:45, standing approval); dev@'s lead display live (v0.1.1043) and the standfirst-replaces-summary fix (v0.1.1045); the lead values verified by the reviewer, not written (its grant excludes desks/correspondent/); Dinis's storm-case-study guidance (17:00) relayed to weather@",
+  "18:08 at Vicky's approval: the /storm/charles/ page, first version (alerts, Web Summit status, what attendees need to know, timeline), asked of dev.graphs@ and designer@ on their inboxes, built on work/dev.graphs as a preview; not published or linked until Vicky approves; then reviewer@ rechecks, it goes onto dev and S41 links to it",
+  "18:20 the storm page v1 handed to Vicky's dev@ (branch work/dev.vicky, preview only) at her word; dev.graphs@ and designer@ told on their inboxes to stand down on v1 (neither had started), keeping v2: decision graph, history, satellite animation, design polish"
  ],
  "next": [
+  "storm page preview: build work/dev.graphs locally, screenshots at 390 and 1280 px for Vicky; publish and link only after her yes",
+  "the fuller S41 lead: dev@'s rendering released and checked on a phone; correspondent@ fills the fields (its next wake, about 18:41, or sooner if Dinis nudges it)",
+  "weather@'s first live page; disable its wake when the warning and Wednesday's programme are over",
   "confirm journalist@'s S41 checks at each :48 wake until the warning ends",
   "15:48 wake",
   "switch-back steps when Vicky returns (hand-over, Open)"
  ],
  "asks": [
+  "Vicky: confirm in reviewer@'s session the write of the five S41 lead keys to desks/correspondent/front-page.json (Dinis's authorisation); Dinis or abp@ to widen reviewer@'s grant for that entry",
+  "Vicky: Dinis's baseline team (conductor, security, dev) asks for a security agent on each team; Vicky's temporary team has none",
   "Vicky: the OpenRouter key answered 401 at about 11:50; re-save it in the environment's settings if images are needed",
-  "Dinis: one line in your own session (or signed) approving the temporary wake updates of 10 November, so R4 is met; Vicky reported your in-person yes at about 13:15 UTC",
   "Dinis (and abp@): conductor.B@PrompTugal.vicky has no ABP policy yet (board/abp/); its grant should match conductor.b@'s plus this folder",
   "conductor@: an inbox lane for conductor.B.vicky-promptugal (board/inbox.json, board/inboxes/), and the rota line for this conductor",
   "Dinis: conductor.b@PrompTugal.dinis's old account is not fully stopped: it committed its 11:48 wake to dev. Vicky's agents are other roles, so nothing runs twice, but that account's wakes are not visible from here",

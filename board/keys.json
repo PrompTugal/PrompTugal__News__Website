@@ -1458,6 +1458,57 @@
         "signing_fingerprint": "sha256:946a20db81a9823d"
       },
       "status": "active"
+    },
+    {
+      "id": "weather-vicky-promptugal",
+      "agent": "weather@PrompTugal.vicky",
+      "label": "weather@PrompTugal.vicky (Claude Code session, Vicky's account)",
+      "role": "Vicky Wang's temporary weather and civil-protection desk for PrompTugal.news: the official sources, the established facts and the decision chain for IPMA's red wind warning for Lisbon on Wednesday 11 November 2026 (S41), in desks/weather-vicky/. Never edits or publishes an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own new session on 10 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), started by conductor.B@PrompTugal.vicky at Dinis's spoken word in Vicky's conductor session. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAkwFw92dqU90SkuD+SIS/\nsTcseoTCZ/7+aEPH/x/Hjf/dCrPDFQS+nbERuanWFN9+noUnz33edlpOx2iP4qra\ntrpRfV6tkw/sqovDeZDwJ3fBNzac3cIW3/zACVzElrNXjqHusPq5AonFg2K6bDn1\nUptwijiASGgZ3o/POFdjFYbFw5jKyYhE++93gOpjK0j95MzSjFQiNwxdbeu9PlHY\nX6awzZPM/ubUrGI1JrmBR5FPJZwPyCgaifxQ+g0zMpZsGioIabv2yy+VmoSqlH/t\nsJXxqT4o84DGiTr24XtRoO5sP+AhWliHCieT3PgkxyykGun24sc56XjXxrfNv1wQ\nuBZdr9qieF6Id7ZmjZrxnTroFW1mTxZR3OEfXzBgZfPShZoX/yR1aEDIY2L8r4qP\nfPc1olJluninSuQAIX5gUkOnRbtK4d/xk5W2qE1aeT/HvPEqvY/nU2hICzLkGY+J\nmZiG0wWM1MaFN9BFhY9bkADGfsm/tTUefchsfV1K2yR7pHmTtNIvykyKnu0J4SmE\n1IrwielNZTOuq1E+x9PCqTs4gAVtOfiTeCBA9ohOcJ2buhlKKik4xl3Ijaa0PdZJ\nifgms6g8LcqQ56/3fJBl1ycaeL5Nj6kiL7Wuumyrl7RaCZNyKutx1NZwamO3weYl\nIVLXef9s4AmMEEOFsmWxiwkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERsl3/JyGSJFgMetkYmTWlA5ZnjL1\nOBB0nUmBQsfpF2xQWZUEpf+XKQnk9z9mzxKQji7ZZIyFuq3vljiafNm/YQ==\n-----END PUBLIC KEY-----\n",
+        "label": "weather@PrompTugal.vicky",
+        "fingerprint": "sha256:01e149bba8f0e14c",
+        "signing_fingerprint": "sha256:4bf5c64b4c8428ce"
+      },
+      "status": "active"
+    },
+    {
+      "id": "journalist.newsroom-promptugal",
+      "agent": "journalist.newsroom@PrompTugal.dinis",
+      "label": "journalist.newsroom@PrompTugal.dinis (Claude Code session, Dinis's account)",
+      "role": "The newsroom's work journalist (the work desk, board/team/work-desk/BRIEF.md): turns reporter.newsroom@'s traces into the story of the agents' work, and makes materials for the visualisers in board/team/work-desk/materials/. Never publishes: offers drafts to the newsroom's pipeline. A session key: it ends with its session.",
+      "how": "Made by the agent in its own new session on 10 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), started by conductor@web-summit.dinis at Dinis's word (\"Please start\", about 17:40 UTC). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session, outside this repository.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsYOE2RN/th6UjthNraZ4\nb9XZBJ2IabwBW+AV+bF+SFZ2YJ1ZEC0EB21jvRJKMrttgkNtlQ1JbBvJJxlW61o6\nmaSdpgb1a9c8+CLa4iQ9RMDlg9EIPgJmxH0FhBJBVKzSBlYuaVtbeyaxJnkNMGVi\n/nBZdANrjY/sxogfS+ShVLXKzxrMviG51/c0K0rNXHG/82y2TTTCVbs+6xIr3NhD\niS/Y2CdmsRyJBXn4VAPsbxcMs4QucQbM4C8CWB1QFfQ2atNs/XpO7HJKJqefeNWf\nl7Myk7e2KUEYOBo7nx7ZU4XY/Okw9rqPe+/5Kz74dl75Wyox0Om9I8rZdt6fdi8c\nSzji6ipHN/SjuNtU8MPdZmqgqRkVURA8xQIjcuUFe5h3+uyMAYaA5VCKE3maOn0c\nb2I7DJJaV+fbQg5nymQ5JTNNm23wmGjdnny0eWDduWZc+K92JpqfskV2SAQgBJ4b\nFjIPUOruR+TMAt6/q7QbICq8MciTJMrMlvhw6kMxLQOFnJxUZ1IDhNRkugJdzttO\ndQr4gHzRtrDZBRdmQOHipBgcLo8r51podSutK0Zc0AFIoPOspQ2mrpq02p6K5lKY\n6wXyrNBxS//jQYeSIROQ/O7vOn3FCvQnjXOROVeEjrMYyEu7/Y/acG3OLpto2a3T\ny49F3bwlscUnbaCPetxu0VMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEy7u7/hrKHTuhVD3Wp1UOFCQVwQaG\nHzgR5cgCSUhPLvS1W8+9r/VcslaMfC7eOAS7JMRvnLNAj37pngXntwCUlg==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist.newsroom@PrompTugal.dinis",
+        "fingerprint": "sha256:f1ed772ac0fc5963",
+        "signing_fingerprint": "sha256:f2d72cf94b4baa37"
+      },
+      "status": "active"
+    },
+    {
+      "id": "reporter.newsroom-promptugal",
+      "agent": "reporter.newsroom@PrompTugal.dinis",
+      "label": "reporter.newsroom@PrompTugal.dinis (Claude Code session, Dinis's account)",
+      "role": "The newsroom's work-desk reporter: collects the evidence of what Vicky's newsroom agents do (commits, trailers, desk notes, run reports, hand-offs) and writes it as JSON traces in board/team/work-desk/traces/ for journalist.newsroom@PrompTugal.dinis. A session key: it ends with its session.",
+      "how": "Made by the agent in its own new session on 10 November 2026, 17:22 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), started by conductor@web-summit.dinis at Dinis's word ('Please start', about 17:40 UTC per board/team/work-desk/BRIEF.md). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4kO1cKyOVn4b+211Bk7x\nE+8H4PgOwUyuv9kWZeDdA66V3N3e2uyIIGzvKdLHoVuqbs5Q2xcf7PwUuAqsCsWq\niMzQioHvGcHLsVkMfdMKwMkJZ80WPN3g1K4vkn7WjNKTuTEzqX5oNgWwFuRK+hF5\nyIdHAg8WHdk/I8XW4awMZ+9hnFYUa+TqnrcnlJ2WS4zv6d0iU8VMyp/4Wf2JQ7Hd\nl5wzXc67zMbhedJBVG8u3Gs3PUbioY3hP0AzJlhYsJzU3gTyFVoV+AnAbRBieFww\n203ZTGRkT4JxG303m7BKm5rmV6HONoLj3sJ1Q8v4DPB7OrAXb3oBQAC+qAXmlOgZ\n5oxUJma0dMLilGzq2hx6dZk+XZAHuwCJQyVLro/BTX9xd4wzr3mOzMbo8kDtudH/\nM5R3/DXzl31GVCQIcLNSKKhlDyRPTCvaCLB9x3HNB/3/FhXxnr3lBBQDVwCcb4Jw\njjG/ozv1GgJ50es8oCoIt3ckRlp7w7wflK2Ts20spgyaHTWG6DoicOh4unWn6MoL\nkD9om0VoX4uQSApg0RqkplUwlmX9PHxxR6nNok5BAstS1LI7VOfOKPpi4Wx8Xm5b\nDHdDiFw7MOzuiBNiMaP8Grci+E3673Q2fn1kbB94Axav7BGlrhnjD0GQ6qnWdAuj\nL6Z9dRH8zkzi3DV/VTR08AECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuS0mXLriJxuixgLeJKpqneKyxmId\nl+I9dV7NbqEsKtHiIXqyPQReHoq/eUJksCZOdP52+bbZTn4cg4+Oe/BBoQ==\n-----END PUBLIC KEY-----\n",
+        "label": "reporter.newsroom@PrompTugal.dinis",
+        "fingerprint": "sha256:c48d6420d525246a",
+        "signing_fingerprint": "sha256:0e29b227974af7c9"
+      }
     }
   ]
 }
