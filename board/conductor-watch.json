@@ -670,6 +670,11 @@
       "PrompTugal__App__iOS": "74883a0b",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T20:26Z",
+      "note": "At Dinis's word (~20:25 UTC, account A at allowed_warning): every account-A scheduled task moved to every three hours (same minute), except the weather incident team (incident.conductor@ :02, meteorologist :22, researcher :32, dev :42) and social.watch@ (:50), which stay hourly. Slowed: the seven GAMMA-Ray loops and gamma.studio@, reporter@, journalist.examples@, reporter.newsroom@, journalist.newsroom@, conductor@PrompTugal.dinis, conductor.android@, the PrompTugal observability drain, security.repos@, security@PrompTugal.dinis, and this conductor. accountant@ was already three-hourly. Messages still wake any session at once."
     }
   ]
 }
