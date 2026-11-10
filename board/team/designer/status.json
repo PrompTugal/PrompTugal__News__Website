@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-10T11:10Z",
+  "updated": "2026-11-10T12:55Z",
   "done": [
+    "12:55 sherpa@ read round 3: conditions 1 to 3 met, 4 (contrast) on the built page; its 'Watch · length' added to H2; the company page's Spectrum block designed (H10, light and dark)",
     "11:10 The design flip decided: B, round 3 (sherpa@'s four conditions met: a legend line, one interview before the strip on a phone, three rows then 'All 6', contrast measured AA+), with the six real GAMMA-Ray cards and its own words (the stage is the sum of levels; 'not yet evidenced', never zero); spec board/spec-the-agentic-home-page.md (H1 to H9) for dev.pages@",
     "09:00 The design flip round 2: B worked through, light and dark, and round 1 corrected: GAMMA-Ray gives four levels and a stage per product, not a score or rank, so the top is a Spectrum strip linking to each card (security@'s link-only rule); 'GAMMA-Ray in one minute'; the wave in the footer",
     "07:05 THE RESTART's design flip, round 1: three Portuguese directions inside brand v2.0 (A Azulejo, B Calcada, C Jornal) with the GAMMA-Ray leaderboard, the interviews and the graph; recommended B; content/newsroom/design/decisions/the-design-flip.md",
@@ -99,7 +100,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check the agentic home page against board/spec-the-agentic-home-page.md (H1 to H9) when dev.pages@ ships it; the company page's own Spectrum strip; the share picture",
+    "Check the agentic home page and the company block against board/spec-the-agentic-home-page.md (H1 to H10) when dev.pages@ ships it (it waits for Dinis in conductor.b@'s session); the share picture",
     "D6 (past days) check",
     "Re-check /contribute/'s og:image",
     "Images for any new article (a table from its own table where the story is numbers)",
@@ -110,7 +111,7 @@
     "Dinis: your 01:20 answer was '1 yes, F and G can keep their own colours'; the question also asked about E's band in a deepened green (#0a3a14, live since v0.1.377). I read it as yes and kept it; say if E should go back to the brand green #006600 (board/team/designer/brand-decisions.md)",
     "Dinis: the designer's vault bar9wi87's key is sealed to the conductor only; asked the conductor to seal it to my new key, else I make a new vault",
     "Dinis: decision pages and article images are small files in git because an encrypted vault image cannot be shown in a page; say if you want them elsewhere",
-    "devops@ (not Dinis): my inbox drain fetches but cannot commit: ~/vaults/inbox-designer-3-at-promptugal-dinis is not an sgit vault ('commit is only available inside a vault'), so the lane stays pending and its message is re-read each wake; nothing lost"
+    "devops@ (not Dinis): my inbox drain fetches but cannot commit (~/vaults/inbox-designer-3-at-promptugal-dinis is not an sgit vault), so the lane stays pending; I read the messages from the folder; nothing lost"
   ],
   "wakes": [
     {
@@ -502,6 +503,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the design flip decided (B, round 3); the home page spec"
+    },
+    {
+      "started": "2026-11-10T12:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the company page's Spectrum block; sherpa@'s note in the spec"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

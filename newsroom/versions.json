@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1002",
+    "date": "2026-11-10",
+    "what": "accountant@PrompTugal.dinis: 12:50 reading, 99.96 API-equivalent so far; lines for Vicky's and Angelo's rebuild sessions",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "aa8aca965"
+  },
+  {
+    "version": "v0.1.1001",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 12:36: v0.1.1000; inboxes for Vicky's new keys, gamma-ray and jornal; dev@ still blocked",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "0332744c0"
+  },
+  {
+    "version": "v0.1.1000",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: the GAMMA-Ray Spectrum block for a company page (H10); sherpa@'s \"Watch · length\" in H2",
+    "by": "designer@PrompTugal.dinis",
+    "from": "f1f76b4ee"
+  },
+  {
+    "version": "v0.1.999",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 12:29 wake: the design flip round 3 read on a phone: three of my four conditions met",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "5b5f5dc1c"
+  },
+  {
+    "version": "v0.1.998",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 12:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "e9c29d64f"
+  },
+  {
     "version": "v0.1.997",
     "date": "2026-11-10",
     "what": "watch 12:18: Vicky's agents on her account, two blocked on web access",

@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
- "updated": "2026-11-10T09:55Z",
+ "updated": "2026-11-10T12:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -32,13 +32,15 @@
   "18:50 on 9 November: account A 53.3 so far (about 4 an hour); account B unmeasured since 12:20 (conductor.b@ wrote no ledger), asked on its inbox; team reads 209.08 with B frozen",
   "21:50 on 9 November: 335.01 API-equivalent so far (A 62.44, B 272.57, conductor.b@'s 18:52 ledger); seven over their lines (ontologist@ 1.49, designer@, dev.graphs@, dev.pages@, dev.data@, librarian@, me), recorded; account A allowed_warning once at 20:08 (security@), allowed since",
   "06:50 on 10 November: the close of 9 November (at least 375.05 API-equivalent: B 312.61 to 21:52, A 62.44 to 21:50; A 26.25 from 21:50 to 06:48 across the stop); THE BIG STOP measured; budgets.json reset for 10 November; the hand-over debrief",
-  "09:50 on 10 November: 64.11 API-equivalent so far (A 8.96 since 06:48; B 55.15, mostly 9 November's last hours before the stop); nobody over; account B's agents still mostly paused (dev@ and dev.pages@ off at 09:46)"
+  "09:50 on 10 November: 64.11 API-equivalent so far (A 8.96 since 06:48; B 55.15, mostly 9 November's last hours before the stop); nobody over; account B's agents still mostly paused (dev@ and dev.pages@ off at 09:46)",
+  "12:50 on 10 November: 99.96 API-equivalent so far (A 21.11, B 78.85); nobody over; lines for Vicky's and Angelo's rebuild sessions (Dinis's card) in budgets.json, unreadable from here, the conductor asked to relay"
  ],
  "next": [
-  "at 12:47: account A and conductor.b@'s newest ledger against the 10 November baseline"
+  "at 15:47: account A and conductor.b@'s newest ledger; the rebuild sessions' first figures if their agents report them"
  ],
  "asks": [
   "Dinis: the OpenRouter plan for the summit is in board/budgets.json (openrouter.summit_plan), from your word as relayed by conductor@web-summit.dinis at about 13:25: 250 USD (about 197 GBP) of your 100 to 300 GBP, one key per tablet at 5 USD, 25 USD per app team for the cloud comparison, one key per agent, 60 USD reserve. Making the keys and setting their limits in OpenRouter is yours (or whoever you name); change any number and it is written as you say. The credit is at 1.19 USD now (dev.verify@)",
+  "Dinis: Vicky's and Angelo's rebuild sessions on your card each have a line in board/budgets.json (rebuild_sessions), but they are not on account A or B, so I cannot read their cost. Their agents are asked (through the conductor) to report it daily; if you prefer, tell me the card's figure",
   "Dinis: I could not tell conductor.android@ and conductor@web-summit.dinis myself: my grant sends only to the agent inboxes, and they have none here; conductor@ and conductor.b@ were asked to pass the plan on",
   "Dinis: my session was down from 18:47 on 7 November to 03:47 on 9 November (a worker restart; nine wakes missed); the close of 7 and 8 November is written late, account A as one figure",
   "Dinis: at the 09:50 wake on 6 November sgit printed my inbox vault's read key into this session's transcript (never committed): rotate my inbox if you wish"
@@ -175,6 +177,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "64.11 so far (A 8.96, B 55.15); nobody over; B mostly paused still"
+  },
+  {
+   "started": "2026-11-10T12:47Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "99.96 so far (A 21.11, B 78.85); nobody over; rebuild sessions lined, unreadable"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-10-handover.md"

@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: the design flip read for the reader",
-  "updated": "2026-11-10T09:45Z",
+  "state": "running on account B: the design flip decided (B with my conditions); waiting for it to be built",
+  "updated": "2026-11-10T12:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -37,12 +37,13 @@
     "18:35 (9 Nov): the news app on the web (/app/) read cold on Opening Night: picks, calendar, privacy line and the desktop pane work; AP1 (rank 1) it opens at the top of the day, not at now; AP2 the days row hides Thu 12 and Fri 13; dev@ told",
     "21:35 (9 Nov): the app re-measured at v0.1.904: AP1, AP3 done, AP2 as reported; AP5 new (opening at now hides the day row and the switch); /contribute/ not live yet; dev@ told",
     "06:35 (10 Nov): back on after THE BIG STOP (23:30) and THE RESTART (04:51). The home page on Day 1 on a phone: the interviews play; R1 (rank 1) no story or headline in the first phone screen (share buttons and the disclosure first, the h1 0 px tall); R2 engineering words under the videos; R3 21.6 phone screens; correspondent@, dev.pages@ (dev.pages-b) and dev@ told. Found: my 9 November notes to dev.pages went to its superseded inbox",
-    "09:35 (10 Nov): the design flip (designer@'s PT decision) read phones first: B round 2 meets R1; B with four conditions (the strip's codes in words, C's order on a phone with an interview above the strip, three rows, contrast on the dark top), no placeholder text live; sent to designer@ (designer-3)"
+    "09:35 (10 Nov): the design flip (designer@'s PT decision) read phones first: B round 2 meets R1; B with four conditions (the strip's codes in words, C's order on a phone with an interview above the strip, three rows, contrast on the dark top), no placeholder text live; sent to designer@ (designer-3)",
+    "12:35 (10 Nov): the design flip round 3 read on a phone: my conditions 1 to 3 met, 4 (contrast) to measure on the built page; not built yet (dev@ and dev.pages@ wait for Dinis)"
   ],
   "next": [
-    "the flip's round 3 and the live home page when dev@ and dev.pages@ build it; R1 to R3",
-    "GAMMA-Ray cards on the site (first card live per the watch)",
-    "the app (AP5), /contribute/ when live"
+    "measure the agentic home page when built (contrast on the dark top, R1 to R3)",
+    "the app (AP5), /contribute/ when live",
+    "graphs"
   ],
   "asks": [
     "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it",
@@ -229,6 +230,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "the design flip: B with conditions"
+    },
+    {
+      "started": "2026-11-10T12:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "the flip round 3: my conditions met"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-10-handover.md",

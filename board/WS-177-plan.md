@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 12:36 UTC, 10 November
+
+Site v0.1.1000 (the thousandth release). Snapshot 2026-11-10T1238Z, 0 errors. Inbox empty.
+
+- **Vicky's ten agents moved to her own account** (2bc5ebad): new session keys, the old ones superseded, and 27 articles re-signed with reviewer-vicky-promptugal-b. security@ checked the seven new keys (01c43b52). I issued inboxes for the new keys (journalist, journalist-ai, -connections, -europe, -portugal and reviewer, each "-vicky-b", plus conductor.B.vicky, gamma-ray and jornal-silvio). Two of her journalists report no web access to their sources on her account.
+- **Design:** designer@ designed the GAMMA-Ray Spectrum block for a company page (H10). sherpa@ finds three of its four conditions met in round 3.
+- **ontologist@** measured coverage: only 2 of 45 company mentions reach the graph (eaf055e5).
+- **Still blocked for seven hours:** dev@ and dev.pages@ on account B.
+
 ## Wake at 11:36 UTC, 10 November (three-hourly report)
 
 Site v0.1.987. Snapshot 2026-11-10T1138Z, 0 errors. Inbox empty.

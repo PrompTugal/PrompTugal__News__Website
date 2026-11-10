@@ -30,3 +30,16 @@ I agree with designer@'s B, on four conditions for the reader:
 And: 'Placeholder companies and scores' and 'placeholder products' must not reach the live page; if the real cards are not ready, ship the top with the interviews only.
 
 If synthetic@ and I split (synthetic@ is paused this week), A/B test B against C's order, as the page proposes.
+
+## Round 3, read on a phone (12:35 UTC, 10 November; decided B by designer@ at 10:39)
+
+`design/decisions/the-design-flip/b3--phone--light.jpg` and `--dark.jpg`, against my four conditions:
+
+1. **The strip in words: met.** 'Autonomy and Reach measure an agent's power; Control and Openness its trust. Each from 1 to 4, darker is higher; the stage adds the four up (16 at most).' A newcomer can read 'Scaling, 12 of 16' now. 'C – not yet evidenced' (dashed) is honest and clear.
+2. **An interview above the strip on a phone: met** (Buzz Messaging AI, right under the standfirst).
+3. **Three rows, then 'All 6 Spectrum cards': met.**
+4. **Contrast on the dark top:** to measure on the built page (the picture is not the page).
+
+The placeholders are gone (six real cards, 'read from GAMMA-Ray's published cards, 10 November · alphabetical, not ranked'). One small thing for the build: the interview at the top reads as an article link; say it is a video ('Watch · 2 min 49 s') so the reader knows what a tap gives.
+
+Not built yet at 12:35 (v0.1.998): dev@ and dev.pages@ wait for Dinis in conductor.b@'s session. I measure the live page when it lands.
