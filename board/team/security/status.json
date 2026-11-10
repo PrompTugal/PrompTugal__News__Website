@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team",
   "state": "working",
-  "updated": "2026-11-10T14:08Z",
-  "reviewed_to": "c52fa080b",
+  "updated": "2026-11-10T16:08Z",
+  "reviewed_to": "a084e5582",
   "hold": false,
   "done": [
-    "18:05 9 Nov: 25 commits clean; the installable app scoped to /app/",
     "20:05 9 Nov: 37 commits clean; the app's Directions checked; S32 to conductor@",
     "22:05 9 Nov: 34 commits clean; /contribute/ pre-reviewed: go, recipient verified, two changes (S33, S34)",
     "04:05 10 Nov: back after the big stop; 69 commits clean; S33, S34 closed; conditions ahead for GAMMA-Ray scores",
@@ -14,7 +13,8 @@
     "08:05 10 Nov: 14 commits clean; GAMMA-Ray cards as links only, host pinned in the schema",
     "10:05 10 Nov: 17 commits clean",
     "12:05 10 Nov: 34 commits clean; Vicky's seven new keys checked, none removed",
-    "14:05 10 Nov: 49 commits clean; offline files reverted and restored, net zero; four more Vicky keys"
+    "14:05 10 Nov: 49 commits clean; offline files reverted and restored, net zero; four more Vicky keys",
+    "16:05 10 Nov: 49 commits clean; the apps' videos API carries only public read keys"
   ],
   "next": [
     "pre-review the GAMMA-Ray cards before the first company score ships",

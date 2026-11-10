@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 11 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T13:02:20Z"
-site_version: "v0.1.1002"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T15:58:23Z"
+site_version: "v0.1.1027"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 11 of 11)
 
-48 cards, from `DAT.PL pavilhao-de-portugal` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+49 cards, from `DAT.PL parque-das-nacoes` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1001 to 1025**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL parque-das-nacoes` | [Parque das Nações](https://promptugal.news/places/parque-das-nacoes/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL pavilhao-de-portugal` | [Pavilhão de Portugal](https://promptugal.news/places/pavilhao-de-portugal/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL pavilion-5` | [Pavilion 5](https://promptugal.news/places/pavilion-5/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL portimao` | [Portimão](https://promptugal.news/places/portimao/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.PL stage-6` | [Stage 6](https://promptugal.news/places/stage-6/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-7` | [Stage 7](https://promptugal.news/places/stage-7/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-8` | [Stage 8](https://promptugal.news/places/stage-8/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL stage-9` | [Stage 9](https://promptugal.news/places/stage-9/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
-**Cards 1026 to 1048**
+**Cards 1026 to 1049**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL stage-9` | [Stage 9](https://promptugal.news/places/stage-9/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL sweden` | [Sweden](https://promptugal.news/places/sweden/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL switzerland` | [Switzerland](https://promptugal.news/places/switzerland/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL tavira` | [Tavira](https://promptugal.news/places/tavira/) | place | ontologist@ 6 Nov 2026 |

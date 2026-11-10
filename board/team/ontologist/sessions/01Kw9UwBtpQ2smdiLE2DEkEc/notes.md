@@ -130,3 +130,7 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 14:21 wake
 - Inbox: designer@ (designer-promptugal-3, active): Spectrum block. Guidance 12:40: key companies/products/agents to GAMMA cards. Spectrum 0.2, 7 cards; replit-agent matched. gamma_ray on products.
+- Sent first to designer.json (superseded key); resent to designer-3 (active). Check the active inbox before every send.
+
+## 16:21 wake
+- Inbox empty. Noxus card: not ours. New verb offers_alternative_to; 2 edges from comparison pages (Descope vs Akamai Identity Cloud; Prelude Twilio Verify alternative).

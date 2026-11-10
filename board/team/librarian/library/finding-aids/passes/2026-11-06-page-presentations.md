@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-page-presentations"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T13:02:20Z"
-site_version: "v0.1.1002"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T15:58:23Z"
+site_version: "v0.1.1027"
 source: board/catalogue.json
 ---
 

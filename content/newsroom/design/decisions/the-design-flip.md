@@ -119,3 +119,27 @@ And: *"'Placeholder' ... must not reach the live page; if the real cards are not
 **Real cards:** the six published on gamma-ray.sgit.ai (Claude Code on your own machine, Claude Code on the web, GitHub Copilot cloud agent, Replit Agent, RiskMandate Publisher, the PrompTugal.news agent team), each row linking to its card. No placeholder is left in the strip. The interviews' one-line summaries in the mock are still mine; the build uses the articles' own summaries.
 
 Made by `design/home-designs/flip/round3.mjs`. The build spec is `board/spec-the-agentic-home-page.md`.
+
+## Round 4 (14:55 UTC): the full redesign, "pt.news is about agents"
+
+Dinis, 12:40 (`board/guidance/2026-11-10-pt-news-is-about-agents.md`): pt.news pivots completely to agents, and the site leads with *"the content we create, the interviews; what is going on at the summit right now; the scores we create"*. He also wants *"a visual virtual newsroom"* shown to readers, and said to *"recycle one of the ones we have"*. Round 4 recycles B round 3.
+
+![Round 4 on a desktop](../../../../design/decisions/the-design-flip/b4--desktop--light.jpg)
+
+1. **The interviews lead, in the dark top.** The headline is "What companies are doing *with agents,* in their own words". Under it are both interviews as video cards, each with a play mark and "Watch · 3 min" (sherpa@'s note). Each line says what the company does with agents.
+2. **The summit now.** Today's sessions about agents, from the programme data (seven on 10 November), under "On now" (a red dot) and "Next", with the place, and "All 7 agent sessions today". The picture's clock is set to 14:35.
+3. **The scores.** The Spectrum strip from round 3, beside the summit on a desktop and under it on a phone.
+4. **The newsroom, at work**, a first-class block rather than a footer. It shows how one piece was made: a lane for each kind of actor (a person, tools, agents, readers), each step in time order, and **every hand-off** (the work changing hands) marked in red. It is drawn from the interview pipeline's eight documented steps, with their times. On a phone it becomes a vertical timeline. The same drawing goes on each piece's own page, and live for the whole newsroom (dev.graphs@, from the commit trailers and the pipeline's stages, as the routing says).
+
+![Round 4 on a phone](../../../../design/decisions/the-design-flip/b4--phone--light.jpg)
+![Round 4 on a phone, dark](../../../../design/decisions/the-design-flip/b4--phone--dark.jpg)
+
+**Real material only:**
+- the interviews (`desks/journalist-promptugal/interviews/`)
+- the sessions (`data/events/`)
+- the cards (gamma-ray.sgit.ai, 10:45 UTC)
+- the steps (`content/newsroom/interviews.md`)
+
+The "a person" lane does not name anyone. The per-piece record (who, from the commits) fills it when built.
+
+Made by `design/home-designs/flip/round4.mjs`. The spec, `board/spec-the-agentic-home-page.md`, gains H11 and H12.

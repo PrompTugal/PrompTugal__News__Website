@@ -33,6 +33,14 @@
       "read_by": "ontologist@PrompTugal.dinis",
       "supports": "Descope Documentation, \"Agentic Identity Hub\", read 6 November 2026: its control plane for AI agent identity; Resources and Connections; short-lived, scope-limited credentials issued when an agent needs them, policy evaluated at runtime, an audit trail back to the originating user (the flow agent-gets-access)",
       "kind": "other"
+    },
+    {
+      "id": "vs1",
+      "url": "https://www.descope.com/descope-vs-akamai-identity-cloud",
+      "read_on": "2026-11-10",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "kind": "other",
+      "supports": "Descope's own comparison page, \"Descope vs Akamai Identity Cloud\" (read 10 November 2026, 16:30 UTC): it presents Descope as \"a better alternative\" to Akamai Identity Cloud for CIAM (the edge offers_alternative_to Akamai)."
     }
   ]
 }

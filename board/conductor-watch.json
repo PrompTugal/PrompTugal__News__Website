@@ -544,6 +544,48 @@
       "PrompTugal__App__iOS": "421d0090",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "20ae85f4",
+      "PrompTugal__News__Website": "b9a58006",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "fadbce90",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "6d53db3f",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T15:18Z",
+      "note": "reporter@ and journalist.examples@ shipped the first two examples (/examples/). Two decks for Dinis's meetings (/meetings/2026-11-10-1500/show/, -1600/). pt.news redesign round 4 (interviews, summit now, scores, newsroom); Vicky's desk published S41 (Lisbon wind warning) and S42 (Lovable). Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T15:25Z",
+      "SGit-AI__Website__Web-Summit": "a1ba97c6",
+      "PrompTugal__News__Website": "9d832635",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "56f90b90",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (421d0090 to 56f90b90): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "77f9333c",
+      "PrompTugal__News__Website": "ae2f6da0",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6fc75c3f",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "3c5c9da4",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T16:16Z",
+      "note": "The Front Page (E) default live on pt.news and relayed to the iOS news app. Investor deck v2 (security teams first). reporter@ traces the two decks. Lanes empty. dev@ and dev.pages@ still need Dinis in conductor.b@'s session (eleven hours)."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T16:25Z",
+      "SGit-AI__Website__Web-Summit": "abfdfac4",
+      "PrompTugal__News__Website": "d036de3b",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6fc75c3f",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (56f90b90 to 6fc75c3f): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
     }
   ]
 }

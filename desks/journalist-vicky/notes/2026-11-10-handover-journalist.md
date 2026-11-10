@@ -28,3 +28,13 @@ key: journalist-vicky-promptugal-b (record sha256:8dd04b857a2b77c9, encryption s
 ## The next session does first
 1. Pull dev; check `board/HOLD.md`; read "New from Dinis" in `board/guidance/README.md`.
 2. Look for a new curator map in `desks/curator/` with a summit assignment, and for any ask from Vicky. Draft only then.
+
+## Run at 14:20 UTC (S41, at Vicky's word)
+- S41 drafted: IPMA's red wind warning for the Lisbon district on Wednesday 11 November (12:00 to 21:00), with the orange rain and sea warnings, and a timestamped check of Web Summit's own pages (no weather notice at 14:23 UTC). One SVG card from IPMA's data. Status draft; handed to reviewer@PrompTugal.vicky (commit and inbox).
+- Open: S41 is time-sensitive. Re-read IPMA's open data and Web Summit's own channels this evening and update the draft if anything changes. Publishing needs Vicky's approval.
+- state: ok; done: S41 drafted and handed to the reviewer; next: re-check IPMA and Web Summit this evening; ask: none; run: Vicky's request
+
+## S41 watch (standing task from 10 Nov 14:55 UTC, at Vicky's word, until IPMA's warning for Lisbon ends and Wednesday's programme is over)
+- Each :05 wake: IPMA's warnings for the Lisbon district and Web Summit's own channels; a material change goes to the reviewer with source and UTC time; no edits to S41 by this desk.
+- S41 checked 15:08 UTC, no change (S41 was published by the reviewer at about 14:40 UTC at Vicky's word).
+- S41 checked 16:07 UTC, no change.

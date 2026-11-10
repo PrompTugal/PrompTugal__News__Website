@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
- "updated": "2026-11-10T12:55Z",
+ "updated": "2026-11-10T15:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -33,10 +33,11 @@
   "21:50 on 9 November: 335.01 API-equivalent so far (A 62.44, B 272.57, conductor.b@'s 18:52 ledger); seven over their lines (ontologist@ 1.49, designer@, dev.graphs@, dev.pages@, dev.data@, librarian@, me), recorded; account A allowed_warning once at 20:08 (security@), allowed since",
   "06:50 on 10 November: the close of 9 November (at least 375.05 API-equivalent: B 312.61 to 21:52, A 62.44 to 21:50; A 26.25 from 21:50 to 06:48 across the stop); THE BIG STOP measured; budgets.json reset for 10 November; the hand-over debrief",
   "09:50 on 10 November: 64.11 API-equivalent so far (A 8.96 since 06:48; B 55.15, mostly 9 November's last hours before the stop); nobody over; account B's agents still mostly paused (dev@ and dev.pages@ off at 09:46)",
-  "12:50 on 10 November: 99.96 API-equivalent so far (A 21.11, B 78.85); nobody over; lines for Vicky's and Angelo's rebuild sessions (Dinis's card) in budgets.json, unreadable from here, the conductor asked to relay"
+  "12:50 on 10 November: 99.96 API-equivalent so far (A 21.11, B 78.85); nobody over; lines for Vicky's and Angelo's rebuild sessions (Dinis's card) in budgets.json, unreadable from here, the conductor asked to relay",
+  "15:50 on 10 November: 154.18 API-equivalent so far (A 37.13, B 117.05), about 18 an hour; ontologist@ over (1.04), recorded; account B working again"
  ],
  "next": [
-  "at 15:47: account A and conductor.b@'s newest ledger; the rebuild sessions' first figures if their agents report them"
+  "at 18:47: account A and conductor.b@'s newest ledger; the rebuild sessions' figures if reported"
  ],
  "asks": [
   "Dinis: the OpenRouter plan for the summit is in board/budgets.json (openrouter.summit_plan), from your word as relayed by conductor@web-summit.dinis at about 13:25: 250 USD (about 197 GBP) of your 100 to 300 GBP, one key per tablet at 5 USD, 25 USD per app team for the cloud comparison, one key per agent, 60 USD reserve. Making the keys and setting their limits in OpenRouter is yours (or whoever you name); change any number and it is written as you say. The credit is at 1.19 USD now (dev.verify@)",
@@ -183,6 +184,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "99.96 so far (A 21.11, B 78.85); nobody over; rebuild sessions lined, unreadable"
+  },
+  {
+   "started": "2026-11-10T15:47Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "154.18 so far (A 37.13, B 117.05); ontologist@ over"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-10-handover.md"

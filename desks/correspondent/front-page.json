@@ -1,13 +1,17 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-10T12:52Z",
+  "updated": "2026-11-10T14:50Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
-    "article": "gravitee-agent-security-survey",
-    "why": "The agentic edition (THE RESTART): agents spreading faster than their security is the edition's question in one survey (reach, mandate, gap). Set 06:55 UTC Tuesday, summit day 1; the GAMMA-Ray launch article takes the lead when published."
+    "article": "red-wind-warning-lisbon-wednesday",
+    "why": "Safety news for every attendee: IPMA's red wind warning for the Lisbon district on Wednesday 11 November, midday to 21:00, the summit's main day. Leads over the agentic pieces until the summit says how it responds or the GAMMA-Ray launch is published; set 14:50 UTC Tuesday."
   },
   "top": [
+    {
+      "article": "gravitee-agent-security-survey",
+      "why": "The agentic lead of Tuesday morning: agents outpace their security."
+    },
     {
       "article": "glovo-restaurant-agents-getvocal",
       "why": "Agents at work, with a named customer: GetVocal's 80 agents for Glovo's restaurants on WhatsApp."
@@ -15,10 +19,6 @@
     {
       "article": "wpp-call-transcripts-to-jira",
       "why": "The mandate in practice: a person reviews every plan the agents draft before it reaches Jira."
-    },
-    {
-      "article": "teamworks-coaches-agent",
-      "why": "What failed first, and the checks that fixed it: an honest agent story."
     }
   ],
   "service": {
@@ -49,6 +49,7 @@
     {
       "beat": "Web Summit",
       "articles": [
+        "red-wind-warning-lisbon-wednesday",
         "plan-your-week-by-field",
         "web-summit-wristband-queues",
         "web-summit-passes-and-colours",
@@ -323,6 +324,10 @@
         "why": "summit day 1, three ways in"
       },
       {
+        "article": "red-wind-warning-lisbon-wednesday",
+        "why": "red wind warning for Wednesday"
+      },
+      {
         "article": "gravitee-agent-security-survey",
         "why": "agents outpace their security"
       },
@@ -333,10 +338,6 @@
       {
         "article": "venue-map",
         "why": "where everything is"
-      },
-      {
-        "article": "web-summit-passes-and-colours",
-        "why": "who is who, by the colour of the pass"
       }
     ]
   },
@@ -404,7 +405,7 @@
     "lead": {
       "article": "<the GAMMA-Ray launch article, when journalist@ publishes it>",
       "fallback": "who-builds-the-parts-of-an-ai-agent",
-      "why": "The agentic edition's day: RiskMandate's GAMMA-Ray launch ('a new way to score companies; we're trying it out at the summit') leads; until it is published, who builds an agent's parts."
+      "why": "The agentic edition's day: RiskMandate's GAMMA-Ray launch ('a new way to score companies; we're trying it out at the summit') leads; until it is published, who builds an agent's parts. If the red wind warning still stands on Tuesday evening with news of how the summit responds, that update leads Wednesday morning instead."
     },
     "top": [
       {
@@ -423,6 +424,10 @@
     ],
     "briefing": [
       {
+        "article": "red-wind-warning-lisbon-wednesday",
+        "why": "red wind warning, midday to 21:00"
+      },
+      {
         "article": "wednesday-11-november-going-abroad",
         "why": "today's guide"
       },
@@ -437,10 +442,6 @@
       {
         "article": "teamworks-coaches-agent",
         "why": "what failed first"
-      },
-      {
-        "article": "europe-in-pavilion-4",
-        "why": "Europe at the summit"
       }
     ],
     "rule": "At the swap, every '<...>' slot takes the published slug or its fallback; a slot with neither is dropped."

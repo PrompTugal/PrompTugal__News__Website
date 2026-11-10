@@ -19,6 +19,13 @@
       "to_url": "https://websummit.com/sessions/lis26/2701a938-524f-4c24-b0da-cb8fdd4e030b/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/",
       "source": "s1",
       "by": "newsroom/tools/companies.mjs"
+    },
+    {
+      "verb": "offers_alternative_to",
+      "to": "company:akamai",
+      "source": "vs1",
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "CIAM: Descope against Akamai Identity Cloud, by Descope's own comparison page"
     }
   ]
 }

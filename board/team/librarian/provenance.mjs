@@ -40,7 +40,15 @@ for (const slug of slugs) {
   // codes, S29.md, and one findings file names many pieces): a check recorded there is part of the piece's flow
   let mentions = []
   try { mentions = git(['grep', '-l', '-F', slug, '--', 'desks', 'board/team/dev.verify']).split('\n').filter(Boolean) } catch { mentions = [] }
-  mentions = mentions.filter((f) => !named.includes(f))
+  // and by the piece's story codes (Vicky's desk: S41; the team's: WS125), read from its own commits' subjects: her
+  // desk files a review as reviews/S41.md, which names the code, not the slug
+  const subjects = git(['log', '--format=%s', '--', ...named])
+  const codes = [...new Set([...subjects.matchAll(/\b(S\d{1,3}|WS\d{2,4})\b/g)].map((m) => m[1]))]
+  for (const code of codes) {
+    mentions.push(...tracked.filter((f) => /^desks\//.test(f) && path.basename(f).replace(/\.[a-z]+$/, '') === code))
+    try { mentions.push(...git(['grep', '-l', '-w', '-F', code, '--', 'desks/checker-vicky', 'desks/reviewer-vicky', 'board/team/dev.verify']).split('\n').filter(Boolean)) } catch { }
+  }
+  mentions = [...new Set(mentions)].filter((f) => !named.includes(f))
   const paths = named
   if (!paths.length) continue
   const log = git(['log', '--format=%x1e%H%x1f%aI%x1f%an%x1f%s%x1f%(trailers:only,unfold)', '--name-only', '--', ...paths])
@@ -70,6 +78,7 @@ for (const slug of slugs) {
     flow: events,
     // the desks' and verifiers' files that name the piece (listed once each, not as events: a shared findings file is
     // touched by every check of every piece), with the stage each stands for
+    codes,
     named_in: mentions.sort().map((f) => ({ path: f, stage: stage(f) })),
     on_record: [...new Set([...events.flatMap((e) => e.stages), ...mentions.map(stage)])].sort(),
   })
