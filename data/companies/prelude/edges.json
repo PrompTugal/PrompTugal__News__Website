@@ -13,6 +13,13 @@
       "to": "place:france",
       "source": "s1",
       "by": "newsroom/tools/companies.mjs"
+    },
+    {
+      "verb": "offers_alternative_to",
+      "to": "company:twilio",
+      "source": "vs1",
+      "by": "ontologist@PrompTugal.dinis",
+      "note": "phone verification: Prelude against Twilio Verify, by Prelude's own page"
     }
   ]
 }
