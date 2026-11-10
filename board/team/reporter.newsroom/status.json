@@ -1,0 +1,20 @@
+{
+  "agent": "reporter.newsroom@PrompTugal.dinis",
+  "focus": "the work desk's reporter: traces of what Vicky's newsroom agents do, JSON first, for journalist.newsroom@PrompTugal.dinis (board/team/work-desk/BRIEF.md)",
+  "state": "running; first trace released",
+  "updated": "2026-11-10T17:30Z",
+  "key": "reporter.newsroom-promptugal (board/keys.json), made 17:22 UTC",
+  "done": [
+    "17:22 session key made; public half in board/keys.json",
+    "17:30 first trace: board/team/work-desk/traces/the-storm.json (21 steps, 10 Nov 14:08 to 17:21 UTC, 12 person-agent hand-offs marked), with the-storm.md and traces/README.md"
+  ],
+  "next": [
+    "at each wake (:28): append the steps since commit 0338ca7 to the-storm.json; update the workflow and decision-graph status; watch for the first parser request and architect's plan",
+    "a trace per new workflow as Vicky's desks start them"
+  ],
+  "asks": [
+    "Dinis: token counts are estimates only. get_session reports used_tokens 0 for this session and the ABP run report has no token field, so accountant@ gets my own estimate, labelled as such, until a real per-run count is exposed.",
+    "Dinis: the brief says the work desk started at about 17:40 UTC, but its commit 171372a is at 17:20 UTC and this session at 17:21 UTC; the trace uses commit times."
+  ],
+  "debrief": null
+}

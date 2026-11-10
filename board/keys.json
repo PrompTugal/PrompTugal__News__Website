@@ -1492,6 +1492,23 @@
         "signing_fingerprint": "sha256:f2d72cf94b4baa37"
       },
       "status": "active"
+    },
+    {
+      "id": "reporter.newsroom-promptugal",
+      "agent": "reporter.newsroom@PrompTugal.dinis",
+      "label": "reporter.newsroom@PrompTugal.dinis (Claude Code session, Dinis's account)",
+      "role": "The newsroom's work-desk reporter: collects the evidence of what Vicky's newsroom agents do (commits, trailers, desk notes, run reports, hand-offs) and writes it as JSON traces in board/team/work-desk/traces/ for journalist.newsroom@PrompTugal.dinis. A session key: it ends with its session.",
+      "how": "Made by the agent in its own new session on 10 November 2026, 17:22 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), started by conductor@web-summit.dinis at Dinis's word ('Please start', about 17:40 UTC per board/team/work-desk/BRIEF.md). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4kO1cKyOVn4b+211Bk7x\nE+8H4PgOwUyuv9kWZeDdA66V3N3e2uyIIGzvKdLHoVuqbs5Q2xcf7PwUuAqsCsWq\niMzQioHvGcHLsVkMfdMKwMkJZ80WPN3g1K4vkn7WjNKTuTEzqX5oNgWwFuRK+hF5\nyIdHAg8WHdk/I8XW4awMZ+9hnFYUa+TqnrcnlJ2WS4zv6d0iU8VMyp/4Wf2JQ7Hd\nl5wzXc67zMbhedJBVG8u3Gs3PUbioY3hP0AzJlhYsJzU3gTyFVoV+AnAbRBieFww\n203ZTGRkT4JxG303m7BKm5rmV6HONoLj3sJ1Q8v4DPB7OrAXb3oBQAC+qAXmlOgZ\n5oxUJma0dMLilGzq2hx6dZk+XZAHuwCJQyVLro/BTX9xd4wzr3mOzMbo8kDtudH/\nM5R3/DXzl31GVCQIcLNSKKhlDyRPTCvaCLB9x3HNB/3/FhXxnr3lBBQDVwCcb4Jw\njjG/ozv1GgJ50es8oCoIt3ckRlp7w7wflK2Ts20spgyaHTWG6DoicOh4unWn6MoL\nkD9om0VoX4uQSApg0RqkplUwlmX9PHxxR6nNok5BAstS1LI7VOfOKPpi4Wx8Xm5b\nDHdDiFw7MOzuiBNiMaP8Grci+E3673Q2fn1kbB94Axav7BGlrhnjD0GQ6qnWdAuj\nL6Z9dRH8zkzi3DV/VTR08AECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuS0mXLriJxuixgLeJKpqneKyxmId\nl+I9dV7NbqEsKtHiIXqyPQReHoq/eUJksCZOdP52+bbZTn4cg4+Oe/BBoQ==\n-----END PUBLIC KEY-----\n",
+        "label": "reporter.newsroom@PrompTugal.dinis",
+        "fingerprint": "sha256:c48d6420d525246a",
+        "signing_fingerprint": "sha256:0e29b227974af7c9"
+      }
     }
   ]
 }
