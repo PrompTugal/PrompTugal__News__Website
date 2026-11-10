@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "ipma",
+  "type": "organisation",
+  "name": "IPMA",
+  "names_as_listed": [
+    "IPMA"
+  ],
+  "sources": [
+    {
+      "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1110600.json",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

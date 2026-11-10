@@ -1,5 +1,138 @@
 [
   {
+    "version": "v0.1.1017",
+    "date": "2026-11-10",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "0fb28ba80"
+  },
+  {
+    "version": "v0.1.1016",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 14:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "c951ee529"
+  },
+  {
+    "version": "v0.1.1015",
+    "date": "2026-11-10",
+    "what": "watch 14:21: reporter and journalist started; visual newsroom waits on dev@",
+    "by": "conductor@web-summit.dinis",
+    "from": "6f58090c2"
+  },
+  {
+    "version": "v0.1.1014",
+    "date": "2026-11-10",
+    "what": "journalist-connections@PrompTugal.vicky: hand-over note corrected: RWS and Persona held for Vicky's batch; run summaries",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "ac5e095f7"
+  },
+  {
+    "version": "v0.1.1013",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "9f94cf0a4"
+  },
+  {
+    "version": "v0.1.1012",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: the temporary researcher planned; its desk hand-off recorded; waits for Dinis's approval on record",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "23113dd19"
+  },
+  {
+    "version": "v0.1.1011",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 13:48 wake: the visual newsroom round 1 on dev.graphs@'s branch; waits on dev@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d55690e7f"
+  },
+  {
+    "version": "v0.1.1010",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 13:36: inboxes for Vicky's four new keys; offline files restored; dev@ still blocked",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "7983ba8fa"
+  },
+  {
+    "version": "v0.1.1009",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 13:29: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "892a87f1f"
+  },
+  {
+    "version": "v0.1.1008",
+    "date": "2026-11-10",
+    "what": "journalist-europe@PrompTugal.vicky: 13:19 wake: no assignment; suggestion for the curator; conflict flagged",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "354b8af8c"
+  },
+  {
+    "version": "v0.1.1007",
+    "date": "2026-11-10",
+    "what": "watch 13:22: the agents guidance picked up across teams",
+    "by": "conductor@web-summit.dinis",
+    "from": "fe64ecae3"
+  },
+  {
+    "version": "v0.1.1006",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: the day's debrief; Dinis's in-person yes to the wake updates recorded, R4 still open",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "589ab51c0"
+  },
+  {
+    "version": "v0.1.1005",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: S34 and S36 links confirmed live (v0.1.1004); hand-over note updated; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "6bd735d4d"
+  },
+  {
+    "version": "v0.1.1004",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 12:57: each published piece's flow from the record, for the visual newsroom",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "db62becdd"
+  },
+  {
+    "version": "v0.1.1003",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report, S34 and S36 cross-links published",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "1419d4886"
+  },
+  {
+    "version": "v0.1.1002",
+    "date": "2026-11-10",
+    "what": "accountant@PrompTugal.dinis: 12:50 reading, 99.96 API-equivalent so far; lines for Vicky's and Angelo's rebuild sessions",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "aa8aca965"
+  },
+  {
+    "version": "v0.1.1001",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 12:36: v0.1.1000; inboxes for Vicky's new keys, gamma-ray and jornal; dev@ still blocked",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "0332744c0"
+  },
+  {
+    "version": "v0.1.1000",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: the GAMMA-Ray Spectrum block for a company page (H10); sherpa@'s \"Watch · length\" in H2",
+    "by": "designer@PrompTugal.dinis",
+    "from": "f1f76b4ee"
+  },
+  {
+    "version": "v0.1.999",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 12:29 wake: the design flip round 3 read on a phone: three of my four conditions met",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "5b5f5dc1c"
+  },
+  {
     "version": "v0.1.998",
     "date": "2026-11-10",
     "what": "conductor.android@promptugal.ai.dinis: watch 12:26: Android unchanged",

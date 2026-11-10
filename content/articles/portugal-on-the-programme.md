@@ -34,11 +34,11 @@ Portugal's startup scene has its own thread through the Web Summit programme. He
 
 **Thursday 12 November, 11:00 to 11:20, Stage 2.** Unicorn Factory Lisboa, Hub71, [Instituto Caldeira](../organisations/instituto-caldeira/index.html) and Q Branch launch a global programme for scaleups, according to the [session's](../events/press-conference-unicorn-factory-lisboa-hub-71-instituto/index.html) title. Gil Azevedo speaks with Basma Albadi AlDhaheri of Hub71 and Pedro Zanetello of Instituto Caldeira. Also in the Media Village.
 
-**Thursday 12 November, 12:30 to 12:50, Stage 2.** The [press conference](../events/press-conference-road-2-web-summit-2026-winner/index.html) for the Road 2 Web Summit 2026 winner, with Miguel d'Aguiar, executive director of Startup Portugal, and Margarida David, Web Summit's startups manager. This year's class has 78 startups (see [Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](road-2-web-summit-beyond-lisbon.html)).
+**Thursday 12 November, 12:30 to 12:50, Stage 2.** The [press conference](../events/press-conference-road-2-web-summit-2026-winner/index.html) for the Road 2 Web Summit 2026 winner, with Miguel d'Aguiar, executive director of Startup Portugal, and Margarida David, Web Summit's startups manager. This year's class has 78 startups (see [Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](road-2-web-summit-beyond-lisbon.html)). All 24 of the week's press conferences, these three among them, are listed in [Web Summit's press conferences, day by day](press-conferences-day-by-day.html).
 
 **Thursday 12 November, 13:30 to 13:55, Meetup 6.** The "Founders building in Portugal meetup", for international founders who moved to Portugal to build a startup. Web Summit says they will share what they have learned and swap tips on visas, hiring and finding a community.
 
-Between sessions, the Portugal Stand is in Pavilion 1, stand E145, at the entrance, with AICEP's teams there all week, AICEP says.
+Between sessions, the Portugal Stand is in Pavilion 1, stand E145, at the entrance, with AICEP's teams there all week, AICEP says (see [Where to find Portugal at Web Summit](where-to-find-portugal.html)).
 
 Founders new to Portugal could pair Tuesday's masterclass with Thursday's meetup.
 

@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 1 of 29)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T10:00:02Z"
-site_version: "v0.1.979"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T13:02:20Z"
+site_version: "v0.1.1002"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 1 of 29)
 
-100 cards, from `TEAM.ABP 2026-11-06-04` to `TEAM.INBOX designer.experiments`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ABP 2026-11-06-04` to `TEAM.INBOX designer-vicky`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -118,6 +118,7 @@ source: board/catalogue.json
 | `TEAM.INBOX checker-vicky` | [checker-vicky.json](https://promptugal.news/board/inboxes/checker-vicky.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX claims-issuer` | [claims-issuer.json](https://promptugal.news/board/inboxes/claims-issuer.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX conductor` | [conductor.json](https://promptugal.news/board/inboxes/conductor.json) | board | conductor@ 6 Nov 2026 |
+| `TEAM.INBOX conductor.B.vicky` | [conductor.B.vicky.json](https://promptugal.news/board/inboxes/conductor.B.vicky.json) | board | conductor@ 10 Nov 2026 |
 | `TEAM.INBOX conductor.b` | [conductor.b.json](https://promptugal.news/board/inboxes/conductor.b.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX correspondent` | [correspondent.json](https://promptugal.news/board/inboxes/correspondent.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX curator-vicky` | [curator-vicky.json](https://promptugal.news/board/inboxes/curator-vicky.json) | board | conductor@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `TEAM.INBOX designer-2` | [designer-2.json](https://promptugal.news/board/inboxes/designer-2.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX designer-3` | [designer-3.json](https://promptugal.news/board/inboxes/designer-3.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX designer-vicky` | [designer-vicky.json](https://promptugal.news/board/inboxes/designer-vicky.json) | board | conductor@ 6 Nov 2026 |
-| `TEAM.INBOX designer.experiments` | [designer.experiments.json](https://promptugal.news/board/inboxes/designer.experiments.json) | board | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](TEAM-2.md)

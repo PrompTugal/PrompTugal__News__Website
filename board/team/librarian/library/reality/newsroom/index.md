@@ -30,7 +30,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-144 cards (144 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T10:00:02Z at site v0.1.979; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+144 cards (144 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T13:02:20Z at site v0.1.1002; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -38,7 +38,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 
 Newest five accessions:
 
-- `ACC-20261110-0034` [Round 1: the design flip for the agentic edition, three Portuguese directions](https://promptugal.news/newsroom/design/decisions/the-design-flip/) (`PUB.NEWS the-design-flip`)
+- `ACC-20261110-0034` [Decided: the design flip for the agentic edition, three Portuguese directions](https://promptugal.news/newsroom/design/decisions/the-design-flip/) (`PUB.NEWS the-design-flip`)
 - `ACC-20261110-0033` [protocols: Six people, six agent protocols, one week](https://promptugal.news/newsroom/stories/protocols/) (`PUB.NEWS protocols`)
 - `ACC-20261110-0032` [The news scout's candidates](https://promptugal.news/newsroom/jornal-silvio/) (`PUB.NEWS jornal-silvio`)
 - `ACC-20261110-0031` [The interview pipeline: from a noisy recording to a page](https://promptugal.news/newsroom/interviews/) (`PUB.NEWS interviews`)

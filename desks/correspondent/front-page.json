@@ -1,8 +1,8 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-10T10:52Z",
-  "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published.",
+  "updated": "2026-11-10T12:52Z",
+  "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "gravitee-agent-security-survey",
     "why": "The agentic edition (THE RESTART): agents spreading faster than their security is the edition's question in one survey (reach, mandate, gap). Set 06:55 UTC Tuesday, summit day 1; the GAMMA-Ray launch article takes the lead when published."
@@ -346,70 +346,54 @@
   },
   "beats_why": "The agentic edition (10 November): AI and agents first, then the summit, Brazil, Portugal, Europe; the newsroom last.",
   "day_picks": {
-    "about": "My five things for each summit day, by event id, in the shape newsroom/build/features/days.mjs reads from data/front/days.json ({days: {date: {picks}}}). Here because data/front/ is outside my ABP grant: dev@ can point days.mjs at this key, or abp@ can add data/front/days.json to my grant and I copy it there. Answers synthetic@'s F54 (7 November: the days' five were all press conferences). Chosen through the beats and the lens (reach, mandate, gap); no press conference.",
+    "about": "My five things for each summit day, by event id, in the shape newsroom/build/features/days.mjs reads from data/front/days.json ({days: {date: {picks}}}). Here because data/front/ is outside my ABP grant: dev@ can point days.mjs at this key, or abp@ can add data/front/days.json to my grant and I copy it there. Answers synthetic@'s F54 (7 November: the days' five were all press conferences). Chosen through the beats and the lens (reach, mandate, gap); no press conference. Re-filtered to agents only at 12:52 UTC on 10 November (Dinis, 12:40: 'pt.news pivots completely to agents'; correspondent@ keeps 'the summit now', filtered to agents, board/guidance/2026-11-10-pt-news-is-about-agents.md).",
     "days": {
-      "2026-11-09": {
-        "picks": [
-          "event:opening-night",
-          "event:registration-2026-11-09",
-          "event:portugal-tech-week-palace",
-          "event:iberia-meet-greet",
-          "event:latin-america-meet-greet"
-        ],
-        "why": {
-          "opening-night": "the night the summit opens, MEO Arena",
-          "registration-2026-11-09": "collect your lanyard before the queues",
-          "portugal-tech-week-palace": "Portugal Tech Week, the city around the summit",
-          "iberia-meet-greet": "the Portugal beat: meet the Iberian delegation",
-          "latin-america-meet-greet": "the Brazil story project: meet the Latin American delegations"
-        }
-      },
       "2026-11-10": {
         "picks": [
           "event:trust-issues-letting-ai-agents-into-production-safely",
           "event:your-ai-agent-just-got-a-passport",
+          "event:double-agents-are-your-employees-ai-agents-working-for-or",
           "event:who-takes-the-fall-for-autonomous-ai",
-          "event:free-or-controlled-internet-the-great-dsa-debate",
-          "event:a-guide-to-portugal-s-startup-scene-hosted-by-startup"
+          "event:how-to-break-your-ai-phone-agent-before-your-customers"
         ],
         "why": {
           "trust-issues-letting-ai-agents-into-production-safely": "the mandate: what an agent may do in production",
           "your-ai-agent-just-got-a-passport": "an agent with an identity: what it can reach",
+          "double-agents-are-your-employees-ai-agents-working-for-or": "your employees' agents: working for whom?",
           "who-takes-the-fall-for-autonomous-ai": "the gap: who answers when the agent acts",
-          "free-or-controlled-internet-the-great-dsa-debate": "the Europe beat: the DSA debated by MEPs",
-          "a-guide-to-portugal-s-startup-scene-hosted-by-startup": "the Portugal beat, from Startup Portugal"
+          "how-to-break-your-ai-phone-agent-before-your-customers": "break the agent before your customers do"
         }
       },
       "2026-11-11": {
         "picks": [
-          "event:the-portuguese-economic-success-story",
           "event:the-ai-agent-economy",
-          "event:brazil-s-blueprint-for-cyber-resilience",
-          "event:do-we-need-a-un-ai-treaty",
-          "event:building-ai-in-europe-practical-support-for-innovators"
+          "event:why-ai-agents-stall-at-the-production-line",
+          "event:beyond-the-ai-agent-hype",
+          "event:coaching-an-ai-agent-like-human-talent",
+          "event:agents-don-t-need-prompts-they-need-context"
         ],
         "why": {
-          "the-portuguese-economic-success-story": "the Portugal beat: Portugal's economy, with its Minister of State and Finance, on the Policy Summit",
-          "the-ai-agent-economy": "the AI beat: agents as an economy",
-          "do-we-need-a-un-ai-treaty": "the rules for AI, on the Policy Summit",
-          "building-ai-in-europe-practical-support-for-innovators": "the Europe beat: the Commission's help for AI builders (our article on Pavilion 4)",
-          "brazil-s-blueprint-for-cyber-resilience": "the Brazil story project: Serpro's CEO on cyber resilience (moved from Thursday to Wednesday 14:32, Stage 7, per dev.data@'s re-read of 9 November)"
+          "the-ai-agent-economy": "agents as an economy",
+          "why-ai-agents-stall-at-the-production-line": "why agents stop between demo and production",
+          "beyond-the-ai-agent-hype": "past the hype",
+          "coaching-an-ai-agent-like-human-talent": "an agent coached like a new hire",
+          "agents-don-t-need-prompts-they-need-context": "context over prompts"
         }
       },
       "2026-11-12": {
         "picks": [
           "event:who-let-the-agent-in",
           "event:when-ai-agents-go-rogue",
-          "event:an-ai-identity-crisis",
-          "event:who-holds-the-kill-switch",
-          "event:a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers"
+          "event:taming-the-agent-swarm",
+          "event:a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers",
+          "event:who-holds-the-kill-switch"
         ],
         "why": {
-          "who-let-the-agent-in": "Feedzai's CTO on letting the agent in: our AI5 idea, and a Portuguese company",
+          "who-let-the-agent-in": "Feedzai's CTO on letting the agent in (our AI5 idea)",
           "when-ai-agents-go-rogue": "the gap, when the agent leaves its mandate",
-          "an-ai-identity-crisis": "identity for people and agents, on the Cybersecurity Summit",
-          "who-holds-the-kill-switch": "who can stop an agent",
-          "a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers": "the reach: how an agent and its MCP servers prove who they are"
+          "taming-the-agent-swarm": "many agents at once",
+          "a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers": "the reach: how an agent and its MCP servers prove who they are",
+          "who-holds-the-kill-switch": "who can stop an agent"
         }
       }
     }

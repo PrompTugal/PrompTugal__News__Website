@@ -54,6 +54,25 @@
               "type": "string",
               "pattern": "^[a-z0-9-]+$"
             }
+          },
+          "gamma_ray": {
+            "description": "The product's GAMMA-Ray Spectrum card, as a link only (GAMMA-Ray's cards.json: 'Link to a card; do not copy it: a card is corrected in place'). Set only when a card for this very product exists; Spectrum cards rate products and deployments, so this is where most links go.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "card"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "card": {
+                "type": "string",
+                "pattern": "^https://gamma-ray\\.sgit\\.ai/spectrum/cards/[a-z0-9-]+/$"
+              }
+            }
           }
         }
       }

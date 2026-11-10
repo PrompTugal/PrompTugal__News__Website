@@ -3,7 +3,8 @@
  "conductor": {
   "agent": "conductor.B@PrompTugal.vicky",
   "session": "session_015JeffHvsjMcwU9Lc1RHium",
-  "trigger": null
+  "trigger": "trig_01DT2DiUr4coo37NGDqUhbfo",
+  "cron": "48 * * * *"
  },
  "agents": [
   {

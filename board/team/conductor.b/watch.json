@@ -200,6 +200,26 @@
    "PrompTugal__App__iOS": "a483a020",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Quiet hour on account B (the 2 h and 3 h agents between wakes). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T12:56Z",
+   "SGit-AI__Website__Web-Summit": "c36c4967",
+   "PrompTugal__News__Website": "aa8aca96",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "450656b1",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Read Dinis's 12:40 brief (pt.news is about agents; the visual newsroom): nudged dev.graphs@ to lead the visual newsroom on its branch; dev@ and dev.pages@ still off (Dinis's word needed in this session). Rota: conductor.B@PrompTugal.vicky also took :48 (12:37), the same minute as conductor.b@; main conductor to re-slot one of us (the names differ only by owner, easy to confuse). Ledger 1080.11 (+38.2 in three hours)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T13:54Z",
+   "SGit-AI__Website__Web-Summit": "2a6d2b1a",
+   "PrompTugal__News__Website": "04e3adb9",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "421d0090",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev.graphs@ started the visual newsroom (round 1, a workflow graph per piece, on work/dev.graphs, 12:56); librarian@ gave each published piece's flow from the record (13:02). It waits on dev@ to reach the site: dev@ and dev.pages@ still off (Dinis's word needed here). Inbox empty."
   }
  ]
 }

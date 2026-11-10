@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S41",
+  "type": "story",
+  "title": "Red wind warning for Lisbon on Wednesday: what it means for Web Summit",
+  "beat": "The summit",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:x-ipma-warnings",
+    "evidence:x-ipma-forecast"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-10-1410.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-1410.json",
+      "desks/journalist-vicky/drafts/S41-red-wind-warning-lisbon-wednesday.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S41-red-wind-warning-lisbon-wednesday.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-10",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-10-1410.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-10",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S41-red-wind-warning-lisbon-wednesday.md"
+    }
+  ]
+}

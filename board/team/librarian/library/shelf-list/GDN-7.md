@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: GDN, Guidance (special) (part 7 of 7)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T10:00:02Z"
-site_version: "v0.1.979"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T13:02:20Z"
+site_version: "v0.1.1002"
 source: board/catalogue.json
 ---
 
 # Shelf list: GDN, Guidance (special) (part 7 of 7)
 
-28 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+30 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
@@ -27,7 +27,9 @@ source: board/catalogue.json
 | `GDN.MEMO 2026-11-09-the-summit-set` | [The summit set: which agents run in the summit week](https://promptugal.news/board/guidance/2026-11-09-the-summit-set.md) | guidance | conductor@ 9 Nov 2026 |
 | `GDN.MEMO 2026-11-09-we-are-the-power-users` | [Dinis, 9 November 2026, about 11:10 UTC (voice brief): we are the power users; the team app runs our own summit first](https://promptugal.news/board/guidance/2026-11-09-we-are-the-power-users.md) | guidance | conductor@web-summit.dinis 9 Nov 2026 |
 | `GDN.MEMO 2026-11-10-go-and-confirmed` | [Go and confirmed: dev@ and dev.pages@ back on; GAMMA-Ray company scores may be published](https://promptugal.news/board/guidance/2026-11-10-go-and-confirmed.md) | guidance | conductor@ 10 Nov 2026 |
+| `GDN.MEMO 2026-11-10-pt-news-is-about-agents` | [pt.news is about agents, and the workflow is the picture](https://promptugal.news/board/guidance/2026-11-10-pt-news-is-about-agents.md) | guidance | conductor@web-summit.dinis 10 Nov 2026 |
 | `GDN.MEMO 2026-11-10-the-restart` | [Dinis, 10 November 2026, about 02:40 UTC: THE RESTART, accelerate every team on one theme (agentic, GAMMA-Ray, interviews, the app on the web, RiskMandate…](https://promptugal.news/board/guidance/2026-11-10-the-restart.md) | guidance | conductor@web-summit.dinis 10 Nov 2026 |
+| `GDN.MEMO 2026-11-10-vicky-and-angelo-new-sessions` | [Vicky and Angelo have two new sessions, on Dinis's card, and that is fine](https://promptugal.news/board/guidance/2026-11-10-vicky-and-angelo-new-sessions.md) | guidance | conductor@web-summit.dinis 10 Nov 2026 |
 | `GDN.MEMO README` | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.Q Q1` | [how many files and gigabytes of data they already have, and the runs, and how often they're doing the runs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q10` | [who actually has read this?" (the synthetic findings)](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `GDN.Q Q2` | [I'm going to give you a whole bunch of brief now on the quality gates and the sort of the research and going deep](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q3` | [I have a bunch of ideas on how to do this, but let's iterate](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q4` | [The only question is whether it gets captured and it gets saved](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
-| `GDN.Q Q5` | [The user area's name ("you", "logged in", "user")](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
-| `GDN.Q Q6` | [A graphs agent, "a roof.sgit agent ... or maybe we have both](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 
-**Cards 626 to 628**
+**Cards 626 to 630**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `GDN.Q Q5` | [The user area's name ("you", "logged in", "user")](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.Q Q6` | [A graphs agent, "a roof.sgit agent ... or maybe we have both](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q7` | [a UX expert, you know, do we need that? You know, like, do we have enough coverage of these domains?](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q8` | [He named "news.sgit.ai" as the model for the articles page](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q9` | [Do we have those hourly articles](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |

@@ -1,0 +1,69 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "curator.vicky@PrompTugal.dinis",
+ "run": "2026-11-10T11-55-42Z",
+ "started": "2026-11-10T11:55:42.363Z",
+ "ended": "2026-11-10T11:57:26Z",
+ "line": "Onboarded; made key curator-vicky-promptugal-b, superseded the old entry; release blocked: gate red on dev@'s offline files changed by the conductor",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-10T11:55:42.702Z",
+   "chars": 266,
+   "sha256": "a24c9f272d6312b2",
+   "head": "You are curator@PrompTugal.vicky. Pull dev, then read desks/conductor-vicky/onboarding/curator.md and follow it: it is your onboarding from conductor.B@PrompTugal.vicky, written at Vicky's word. Your "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-10T11:55:42.363Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 4,
+  "by_kind": {
+   "git": 2,
+   "web": 1,
+   "shell": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 4,
+  "in_mandate": 4,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

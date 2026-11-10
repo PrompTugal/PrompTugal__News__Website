@@ -1899,6 +1899,11 @@
         "count": 1
       },
       {
+        "as_listed": "IPMA",
+        "ref": "organisation:ipma",
+        "count": 2
+      },
+      {
         "as_listed": "ITI-LARSyS",
         "ref": "organisation:iti-larsys",
         "count": 1
@@ -1952,6 +1957,11 @@
         "as_listed": "Keel",
         "ref": "organisation:keel",
         "count": 1
+      },
+      {
+        "as_listed": "Lovable",
+        "ref": "organisation:lovable",
+        "count": 2
       },
       {
         "as_listed": "Metropolitano de Lisboa",
@@ -2101,7 +2111,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 34
+        "count": 35
       },
       {
         "as_listed": "Xiaomi",

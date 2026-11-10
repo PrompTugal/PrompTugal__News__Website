@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T10:00:02Z"
-site_version: "v0.1.979"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T13:02:20Z"
+site_version: "v0.1.1002"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 4)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-offline-mode-8`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-offline-mode-4`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -61,19 +61,22 @@ source: board/catalogue.json
 | `WRK.BRIEF 2026-11-09T1636Z` | [2026-11-09T1636Z.json](https://promptugal.news/board/editor-briefs/2026-11-09T1636Z.json) | board | conductor@ 9 Nov 2026 |
 | `WRK.BRIEF 2026-11-09T1636Z-then-and-now` | [2026-11-09T1636Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-09T1636Z-then-and-now.jpg) | board | conductor@ 9 Nov 2026 |
 | `WRK.BRIEF 2026-11-09T1636Z:2` | [2026-11-09T1636Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-09T1636Z.pdf) | board | conductor@ 9 Nov 2026 |
+| `WRK.BRIEF 2026-11-10T1036Z` | [2026-11-10T1036Z.json](https://promptugal.news/board/editor-briefs/2026-11-10T1036Z.json) | board | conductor@ 10 Nov 2026 |
+| `WRK.BRIEF 2026-11-10T1036Z-then-and-now` | [2026-11-10T1036Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-10T1036Z-then-and-now.jpg) | board | conductor@ 10 Nov 2026 |
+| `WRK.BRIEF 2026-11-10T1036Z:2` | [2026-11-10T1036Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-10T1036Z.pdf) | board | conductor@ 10 Nov 2026 |
 | `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF agentic-maturity-standards-selection` | [Agentic AI Maturity Mapping  -  Standards Selection & Graph Model Design](https://promptugal.news/board/briefs/gamma-ray/agentic-maturity-standards-selection.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
 | `WRK.BRIEF cmp-agenda` | [cmp-agenda.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-agenda.jpg) | brief | conductor@ 9 Nov 2026 |
 | `WRK.BRIEF cmp-articles` | [cmp-articles.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-articles.jpg) | brief | conductor@ 9 Nov 2026 |
 | `WRK.BRIEF cmp-companies` | [cmp-companies.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-companies.jpg) | brief | conductor@ 9 Nov 2026 |
-| `WRK.BRIEF cmp-people` | [cmp-people.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-people.jpg) | brief | conductor@ 9 Nov 2026 |
-| `WRK.BRIEF gamma-ray-concept-spec` | [GAMMA-Ray  -  Model Name & Concept Specification](https://promptugal.news/board/briefs/gamma-ray/gamma-ray-concept-spec.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
-| `WRK.DEC an-agent-printed-its-own-lane-token` | [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/) | decision | customers@ 6 Nov 2026 |
 
 **Cards 51 to 75**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.BRIEF cmp-people` | [cmp-people.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-people.jpg) | brief | conductor@ 9 Nov 2026 |
+| `WRK.BRIEF gamma-ray-concept-spec` | [GAMMA-Ray  -  Model Name & Concept Specification](https://promptugal.news/board/briefs/gamma-ray/gamma-ray-concept-spec.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
+| `WRK.DEC an-agent-printed-its-own-lane-token` | [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/) | decision | customers@ 6 Nov 2026 |
 | `WRK.DEC decisions` | [Decisions](https://promptugal.news/newsroom/decisions/) | decision | dev@ 6 Nov 2026 |
 | `WRK.DEC naming-people-on-algarve-evolution` | [For Dinis: naming people on the Algarve Evolution page](https://promptugal.news/newsroom/decisions/naming-people-on-algarve-evolution/) | decision | dev@ 6 Nov 2026 |
 | `WRK.DEC promptugal-com-and-ai` | [For Dinis: pointing promptugal.com and promptugal.ai at promptugal.news](https://promptugal.news/newsroom/decisions/promptugal-com-and-ai/) | decision | devops@ 6 Nov 2026 |
@@ -87,6 +90,7 @@ source: board/catalogue.json
 | `WRK.DEC where-the-vault-key-lives` | [PT decision: where the vault key lives](https://promptugal.news/newsroom/decisions/where-the-vault-key-lives/) | decision | dev@ 6 Nov 2026 |
 | `WRK.DEC who-sends-which-company` | [For Dinis: who sends which company's email](https://promptugal.news/newsroom/decisions/who-sends-which-company/) | decision | outreach@ 6 Nov 2026 |
 | `WRK.DESK checker-vicky` | [The checker's desk: PrompTugal.news](https://promptugal.news/desks/checker-vicky/README.md) | desk | checker@PrompTugal.vicky 6 Nov 2026 |
+| `WRK.DESK conductor-vicky` | [conductor-vicky](https://promptugal.news/desks/conductor-vicky/) | desk | conductor.B@PrompTugal.vicky 10 Nov 2026 |
 | `WRK.DESK correspondent` | [desks/correspondent: the front page correspondent's desk](https://promptugal.news/desks/correspondent/README.md) | desk | correspondent@ 6 Nov 2026 |
 | `WRK.DESK curator` | [The curator's story candidates](https://promptugal.news/desks/curator/README.md) | desk | curator@web-summit.vicky 4 Nov 2026 |
 | `WRK.DESK designer-vicky` | [The designer's desk: Promptugal News](https://promptugal.news/desks/designer-vicky/README.md) | desk | designer@web-summit.vicky 5 Nov 2026 |
@@ -95,15 +99,15 @@ source: board/catalogue.json
 | `WRK.DESK jornal-silvio` | [Silvio's news scout desk](https://promptugal.news/desks/jornal-silvio/README.md) | desk | jornal@PrompTugal.silvio 10 Nov 2026 |
 | `WRK.DESK journalist-promptugal` | [The journalist's desk: PrompTugal.news](https://promptugal.news/desks/journalist-promptugal/README.md) | desk | journalist@ 6 Nov 2026 |
 | `WRK.DESK journalist-vicky` | [journalist-vicky](https://promptugal.news/desks/journalist-vicky/) | desk | journalist@web-summit.vicky 5 Nov 2026 |
-| `WRK.DESK newsroom` | [newsroom](https://promptugal.news/desks/newsroom/) | desk | newsroom@web-summit.dinis 6 Nov 2026 |
-| `WRK.DESK outreach` | [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) | desk | outreach@ 6 Nov 2026 |
-| `WRK.DESK programme` | [programme](https://promptugal.news/desks/programme/) | desk | programme@web-summit.vicky 4 Nov 2026 |
-| `WRK.DESK researcher` | [researcher](https://promptugal.news/desks/researcher/) | desk | researcher@ 6 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.DESK newsroom` | [newsroom](https://promptugal.news/desks/newsroom/) | desk | newsroom@web-summit.dinis 6 Nov 2026 |
+| `WRK.DESK outreach` | [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) | desk | outreach@ 6 Nov 2026 |
+| `WRK.DESK programme` | [programme](https://promptugal.news/desks/programme/) | desk | programme@web-summit.vicky 4 Nov 2026 |
+| `WRK.DESK researcher` | [researcher](https://promptugal.news/desks/researcher/) | desk | researcher@ 6 Nov 2026 |
 | `WRK.DESK reviewer-vicky` | [The reviewer's desk: Promptugal News](https://promptugal.news/desks/reviewer-vicky/README.md) | desk | reviewer@web-summit.vicky 5 Nov 2026 |
 | `WRK.DESK synthetic` | [desks/synthetic: synthetic readers of PrompTugal.news](https://promptugal.news/desks/synthetic/README.md) | desk | synthetic@ 6 Nov 2026 |
 | `WRK.DESK writer-angelo` | [Angelo's writer desk](https://promptugal.news/desks/writer-angelo/README.md) | desk | writer@PrompTugal.angelo 6 Nov 2026 |
@@ -125,9 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-offline-mode-2` | [It caches public, same-origin GET responses only: never /login/, /newsroom/observability/ or any page that loads the keyring, never a response from…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-3` | [A way out, built in from the start: a 'Clear offline data' control that unregisters it and deletes its caches, and a kill switch (a small file it checks; if…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-4` | [The reader's own schedule and saved articles stay on the device; nothing of them goes to the page-view lanes; syncing to the reader's vault only sealed,…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-offline-mode-5` | [The offline badge says when the copy was made, so a stale page is never shown as current](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-offline-mode-6` | [18:55](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-offline-mode-7` | [Row 4, the attendee with no Wi-Fi (09:35, v0.1.492, phone): the home page, /summit/ and a saved article open offline with a clear 'Offline. This copy was kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-offline-mode-8` | [Row 4 re-measured after round 2 (12:35, v0.1.532): O2 (query addresses) and O3 (the offline page) done. O6 (rank 1): the tab pages and 80+ event pages are…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)
