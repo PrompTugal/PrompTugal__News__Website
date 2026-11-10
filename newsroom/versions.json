@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1028",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: 15:49 wake: S41 and S42 live; S41 watch, no change; nothing blocked",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "2f6841b3b"
+  },
+  {
     "version": "v0.1.1027",
     "date": "2026-11-10",
     "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
