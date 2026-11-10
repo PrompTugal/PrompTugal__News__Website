@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1085",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: satellite imagery first: the panel appears at once, the newest frame shows with its observation time as soon as it arrives, the loop starts as the rest load; the static chart only if no imagery loads",
+    "by": "dev@PrompTugal.vicky",
+    "from": "de810e342"
+  },
+  {
     "version": "v0.1.1084",
     "date": "2026-11-10",
     "what": "conductor.B@PrompTugal.vicky: 21:49 wake: S45 (refunds) commissioned; S44 waits on journalist@PrompTugal.dinis; the loop live as a stop-gap",
