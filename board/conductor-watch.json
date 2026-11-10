@@ -439,6 +439,17 @@
       "PrompTugal__App__iOS": "6312b5e8",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change since 08:30 (main 67bb936, demo set complete). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "83a91b9e",
+      "PrompTugal__News__Website": "5efb6769",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "54ffcb4d",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T10:13Z",
+      "note": "Correction to my 09:13 line: the relayed go did not take; conductor.b@ (09:52) will restart dev@ and dev.pages@ only on Dinis's word in its own session. Indi's stand-demo v4 passes; Angelo's authority-checks article live. Lanes empty. Open on Dinis: conductor.b@'s session; social.watch@'s three answers."
     }
   ]
 }
