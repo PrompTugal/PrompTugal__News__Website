@@ -51,3 +51,4 @@ Silvio's news scout keeps its own staging list of candidates, not published: [th
 ## Experiments {#experiments}
 
 - [Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night](../../interviews/buzz-messaging-ai/guy-ben-zvi/index.html): the journalist desk's first interview with its video played from a public vault, decrypted in the browser (10 November 2026; not yet linked from the publication).
+- [Leo Tashev and Fraser Lloyd, Student Property Network: interview at Night Summit](../../interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html): the second, interviewed by Indi Gupte (10 November 2026; not yet linked from the publication).

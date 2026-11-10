@@ -54,7 +54,9 @@
     async function* pieces(R, dir, files, onBytes) {
         const ahead = 4, queue = []
         let next = 0
-        const take = () => { const f = files[next++]; const p = R.readBytes(dir + f).then(b => { onBytes(b.length); R.mem.clear(); return b }); queue.push(p) }
+        // a piece the vault refuses for a moment (429, a 5xx) is asked again, after 1, 2, 4 and 8 seconds
+        const read = async (p, tries = 0) => { try { return await R.readBytes(p) } catch (e) { if (tries >= 4 || !/HTTP (429|5\d\d)/.test(String(e && e.message))) throw e; await new Promise(r => setTimeout(r, 1000 * 2 ** tries)); return read(p, tries + 1) } }
+        const take = () => { const f = files[next++]; const p = read(dir + f).then(b => { onBytes(b.length); R.mem.clear(); return b }); queue.push(p) }
         while (next < files.length && queue.length < ahead) take()
         while (queue.length) { const b = await queue.shift(); if (next < files.length) take(); yield b }
     }
