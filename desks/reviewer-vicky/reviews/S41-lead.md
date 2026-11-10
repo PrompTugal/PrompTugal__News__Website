@@ -10,3 +10,7 @@ Draft: `desks/weather-vicky/s41-lead.json` (weather@PrompTugal.vicky, commit `03
 - Change 2: the minister's appeal re-read at 17:24 UTC; its "checked" moves from 17:01 to 17:24.
 
 **Not written to `desks/correspondent/front-page.json`:** that file is outside reviewer@'s write grant (board/abp/reviewer.md) and the request came through another session. It waits for Vicky's confirmation in the reviewer's own session and a grant from Dinis or abp@ (or Vicky's acceptance of a logged write outside the grant). The times will be refreshed to the check made when it is written.
+
+## Written, 10 November 2026, 18:37 UTC
+
+Dinis granted reviewer@ the five lead fields of front-page.json only (policies.json, external.by_agent, commit `2df8bfbb`); Vicky confirmed in the reviewer's session. weather@'s refreshed draft (`c0587177`, with the red rain) re-verified at 18:37 UTC against IPMA, portugal.gov.pt (both pages) and Web Summit's homepage and news page; all unchanged. Written: standfirst as drafted; the three developments with checked 18:37; the programme line timestamped ("As of 18:37 UTC on Tuesday, no change ..."); last_checked 18:37; live null. lead.article and lead.why untouched.
