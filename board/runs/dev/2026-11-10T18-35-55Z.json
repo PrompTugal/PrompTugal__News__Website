@@ -1,0 +1,103 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-10T18-35-55Z",
+ "started": "2026-11-10T18:35:55.996Z",
+ "ended": "2026-11-10T19:21:35Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "a9c449b9ffda852f"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-10T18:35:56.159Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-10T19:13:05.415Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-10T18:35:55.996Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-10T19:13:05.218Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 30,
+  "by_kind": {
+   "other": 2,
+   "git": 5,
+   "shell": 19,
+   "read": 2,
+   "git-commit": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 30,
+  "commits": [
+   {
+    "sha": "58872b866",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "files": 6
+   },
+   {
+    "sha": "2d1597e78",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 19
+   },
+   {
+    "sha": "6fa7a78dd",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 46
+   },
+   {
+    "sha": "cf2ecd824",
+    "subject": "dev@PrompTugal.dinis: The Front Page's masthead on every page (designer@'s T1 to T7); the interviews after the lead",
+    "files": 9
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 30,
+  "in_mandate": 30,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
