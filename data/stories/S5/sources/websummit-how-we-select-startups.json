@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-how-we-select-startups",
+  "story": "S5",
+  "url": "https://websummit.com/blog/startups-investors/how-we-select-our-startups/",
+  "title": "How we select our startups (Web Summit)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "Web Summit says how it selects startups, with the 2025 application numbers and the ALPHA, BETA and GROWTH stages."
+}
