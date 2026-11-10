@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.968",
+    "date": "2026-11-10",
+    "what": "jornal@PrompTugal.silvio: two agentic candidates at the 08:07 wake",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "7608fe476"
+  },
+  {
+    "version": "v0.1.967",
+    "date": "2026-11-10",
+    "what": "security@PrompTugal.dinis: wake 08:05: 14 commits clean; GAMMA-Ray cards as pinned links only",
+    "by": "security@PrompTugal.dinis",
+    "from": "ce18bd172"
+  },
+  {
+    "version": "v0.1.966",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 07:48 wake: all seven restarted agents ran; dev@ and dev.pages@ wait for Dinis here",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ee452f4f2"
+  },
+  {
+    "version": "v0.1.965",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 07:36: the agentic edition on the front page; dev@ and dev.pages@ still need Dinis in conductor.b@'s session",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "3ba1baf6c"
+  },
+  {
+    "version": "v0.1.964",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 07:30: Android Chat with Ask our data on main",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "eca1f72b9"
+  },
+  {
+    "version": "v0.1.963",
+    "date": "2026-11-10",
+    "what": "watch 07:23",
+    "by": "conductor@web-summit.dinis",
+    "from": "f7359eae1"
+  },
+  {
+    "version": "v0.1.962",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 06:57: back at THE RESTART; the life map reads account B's live record; catalogue v0.1.961",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "b133696e8"
+  },
+  {
+    "version": "v0.1.961",
+    "date": "2026-11-10",
+    "what": "accountant@PrompTugal.dinis: close of 9 November, at least 375.05 API-equivalent; the big stop measured",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "56e1edc56"
+  },
+  {
+    "version": "v0.1.960",
+    "date": "2026-11-10",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: the agentic edition on the front page",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "4f01dd0be"
+  },
+  {
+    "version": "v0.1.959",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 06:36: dev@ and dev.pages@ still off on account B; security@ ready for the GAMMA-Ray cards",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "6aaad0dd3"
+  },
+  {
+    "version": "v0.1.958",
+    "date": "2026-11-10",
+    "what": "sherpa@PrompTugal.dinis: 06:29 wake: back on at THE RESTART; the home page on Day 1 on a phone (v0.1.957); R1 to R4",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "d0a0d5feb"
+  },
+  {
+    "version": "v0.1.957",
+    "date": "2026-11-10",
+    "what": "ontologist@PrompTugal.dinis: the company's GAMMA-Ray card, as a link (THE RESTART)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "d627ca320"
+  },
+  {
     "version": "v0.1.956",
     "date": "2026-11-10",
     "what": "watch 06:18",

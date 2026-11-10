@@ -37,6 +37,11 @@ const SET = 'board/guidance/2026-11-09-the-summit-set.md'
 const pausedLine = fs.existsSync(SET) ? (fs.readFileSync(SET, 'utf8').split('\n').filter((l) => /\*\*Still paused:\*\*/.test(l)).pop() || '') : ''
 const paused = new Set([...pausedLine.matchAll(/\b([a-z][a-z0-9.-]*)@/g)].map((m) => m[1].replace(/\.$/, '')))
 
+// the live record of account B (conductor.b@'s board/team/conductor.b/account-b.json): each agent's state, on, paused or
+// stopped, with why; it wins over the summit set's list, which THE BIG STOP and THE RESTART (9 and 10 November) overtook
+const B = read('board/team/conductor.b/account-b.json', { agents: [] })
+const bState = new Map((B.agents || []).filter((x) => x.agent).map((x) => [x.agent.toLowerCase(), { state: String(x.state || 'none').split(/[\s:]/)[0], why: String(x.note || x.state || '').slice(0, 90) }]))
+
 // status.json, for this site's own agents (board/team/<role>/)
 for (const a of agents.values()) {
   const role = a.handle.split('@')[0]
@@ -46,10 +51,12 @@ for (const a of agents.values()) {
   const active = a.keys.filter((k) => k.status === 'active')
   a.flags = []
   const teamSite = /@web-summit\./i.test(a.handle) // the Web Summit team's agents keep their keys on the team's site
-  const dotted = /^[a-z0-9-]+\.[a-z0-9-]+@/i.test(a.handle) // a dotted worker pushes to work/<role>; dev@ brings it onto dev
-  const isPaused = /@PrompTugal\.dinis$/i.test(a.handle) && paused.has(role)
+  const dotted = /^[a-z0-9-]+\.[a-z0-9-]+@PrompTugal\.dinis$/i.test(a.handle) // CLAUDE.md's dotted workers // a dotted worker pushes to work/<role>; dev@ brings it onto dev
+  const b = bState.get(a.handle.toLowerCase())
+  a.run_state = b ? b.state : null
+  const isPaused = b ? b.state !== 'on' : (/@PrompTugal\.dinis$/i.test(a.handle) && paused.has(role))
   a.paused = isPaused
-  a.note = isPaused ? `paused at Dinis's word (${SET})` : teamSite ? "keys on the team's site (SGit-AI__Website__Web-Summit), not here; its agents are off at that team's and Dinis's call (the summit set)" : dotted ? `works on work/${role}; its work reaches dev through its main agent's review` : null
+  a.note = b ? `account B: ${b.state}${b.state !== 'on' ? ' (' + b.why + ')' : ''}` : isPaused ? `paused at Dinis's word (${SET})` : teamSite ? "keys on the team's site (SGit-AI__Website__Web-Summit), not here; its agents are off at that team's and Dinis's call (the summit set)" : dotted ? `works on work/${role}; its work reaches dev through its main agent's review` : null
   if (active.length > 1) a.note = [a.note, `${active.length} active keys, one per purpose (Dinis: a key for every application)`].filter(Boolean).join('; ')
   if (!active.length && a.commits_7d && !teamSite) a.flags.push('commits with no active key')
   if (a.keys.length && !a.commits_7d && !dotted) a.flags.push('a key, no commit in 7 days')
@@ -69,7 +76,7 @@ const esc = (s) => String(s ?? '').replace(/\|/g, '\\|')
 const md = ['---', 'title: "The agents\' life and keys: who holds which key, who last worked when"', 'by: librarian@PrompTugal.dinis', `generated: ${out.generated}`,
   'source: board/keys.json, git log (the agents\' own commits, 7 days), board/team/*/status.json; board/team/librarian/life.mjs; never hand-edited', '---',
   '# The agents\' life and keys', '',
-  `Dinis, 9 November 2026 (\`board/guidance/2026-11-09-how-we-work.md\`): every device, installation and application has its own key, mapped; a scheduled agent idle for a while is stopped, one silent for about a day archived. This is the map; it changes nothing. ${out.counts.agents} agents, ${out.counts.keys} keys (${out.counts.active_keys} active), ${out.counts.flagged} flagged. "Silent" counts from the agent's last own commit; an agent paused at Dinis's word is silent on purpose (\`board/guidance/2026-11-09-the-summit-set.md\`).`, '',
+  `Dinis, 9 November 2026 (\`board/guidance/2026-11-09-how-we-work.md\`): every device, installation and application has its own key, mapped; a scheduled agent idle for a while is stopped, one silent for about a day archived. This is the map; it changes nothing. ${out.counts.agents} agents, ${out.counts.keys} keys (${out.counts.active_keys} active), ${out.counts.flagged} flagged. "Silent" counts from the agent's last own commit; an agent paused or stopped is silent on purpose: its state comes from account B's live record (\`board/team/conductor.b/account-b.json\`), else the summit set's list.`, '',
   '| Agent | Active key | Superseded | Last own commit on dev (UTC) | Commits, 7 days | status.json updated | Flags | Note |', '|---|---|---|---|---|---|---|---|']
 for (const r of rows) {
   const act = r.keys.filter((k) => k.status === 'active').map((k) => '`' + k.id + '`').join(', ') || 'none'
