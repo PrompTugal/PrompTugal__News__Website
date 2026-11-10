@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1037",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: key weather-vicky-promptugal and the weather desk's first live page (IPMA)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "7db30002f"
+  },
+  {
     "version": "v0.1.1036",
     "date": "2026-11-10",
     "what": "conductor.B@PrompTugal.vicky: weather@PrompTugal.vicky started at Dinis's word, the S41 breaking-news desk",
