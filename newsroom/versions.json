@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1094",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: run report (22:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "81596ed29"
+  },
+  {
     "version": "v0.1.1093",
     "date": "2026-11-10",
     "what": "interview pages get Article and Transcript pills under the video; three transcripts wait for their pages",
