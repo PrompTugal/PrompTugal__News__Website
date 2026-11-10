@@ -1,5 +1,68 @@
 [
   {
+    "version": "v0.1.1077",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "c356381fd"
+  },
+  {
+    "version": "v0.1.1076",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: satellite loop: stop-gap until frames are served from our origin; images only, credit and terms cited",
+    "by": "dev@PrompTugal.vicky",
+    "from": "3299a3f80"
+  },
+  {
+    "version": "v0.1.1075",
+    "date": "2026-11-10",
+    "what": "social.watch@PrompTugal.dinis: sweep 3: the cancellation goes international; 10 new items, 95 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "55c21fac4"
+  },
+  {
+    "version": "v0.1.1074",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: 20:49 wake: the satellite loop shipped short of security@'s conditions; dev@ asked for a stop-gap fix or a revert",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "406bfbb0e"
+  },
+  {
+    "version": "v0.1.1073",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "7227a8677"
+  },
+  {
+    "version": "v0.1.1072",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: run report (20:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "baf3f6d23"
+  },
+  {
+    "version": "v0.1.1071",
+    "date": "2026-11-10",
+    "what": "account A slowed to three-hourly except the weather incident team and social.watch@ (Dinis's word)",
+    "by": "conductor@web-summit.dinis",
+    "from": "788ff452b"
+  },
+  {
+    "version": "v0.1.1070",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 20:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "42e1eb949"
+  },
+  {
+    "version": "v0.1.1069",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.dinis: the GAMMA-Ray cards: /agentic/, the home page strip, each rated company's card",
+    "by": "dev@PrompTugal.dinis",
+    "from": "162f8e355"
+  },
+  {
     "version": "v0.1.1068",
     "date": "2026-11-10",
     "what": "reviewer@PrompTugal.vicky: run report, S41 primary source",

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/gamma-ray.schema.json",
+  "title": "GAMMA-Ray Spectrum cards as read from gamma-ray.sgit.ai (data/site/gamma-ray.json, written by newsroom/tools/gamma-pull.mjs)",
+  "type": "object",
+  "required": ["about", "source", "version", "read_at", "cards"],
+  "additionalProperties": false,
+  "properties": {
+    "about": { "type": "string" }, "source": { "type": "string" }, "version": { "type": "string" }, "read_at": { "type": "string" },
+    "cards": { "type": "array", "items": { "type": "object", "required": ["id", "name", "levels", "stage", "card"], "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" }, "name": { "type": "string" }, "company": { "type": ["string", "null"] }, "ours": { "type": "boolean" },
+        "what": { "type": "string" }, "levels": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0, "maximum": 4 } },
+        "stage": { "type": "string" }, "n": { "type": ["integer", "null"] }, "of": { "type": "integer" }, "modes": { "type": "string" }, "lit": { "type": "string" }, "next": { "type": "string" },
+        "read": { "type": ["string", "null"] }, "review": { "type": ["string", "null"] }, "vendor_reviewed": { "type": "boolean" },
+        "card": { "type": "string", "pattern": "^https://gamma-ray\\.sgit\\.ai/spectrum/cards/[a-z0-9-]+/$" } } } }
+  }
+}

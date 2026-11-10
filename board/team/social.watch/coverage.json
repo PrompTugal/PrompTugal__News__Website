@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-10T19:55Z",
+  "updated": "2026-11-10T21:00Z",
   "sweeps": [
     {
       "n": 1,
@@ -32,6 +32,17 @@
       "items": 14,
       "duplicates_dropped": 0,
       "note": "Three sub-agents (news with Web Summit's channels, social with Reddit and HN, video with podcasts); new since about 18:00 UTC"
+    },
+    {
+      "n": 3,
+      "at": "2026-11-10T20:51Z",
+      "families": [
+        "news and blogs, with Web Summit's own channels",
+        "social and video"
+      ],
+      "items": 10,
+      "updated": 1,
+      "note": "Two sub-agents; new since about 19:45 UTC"
     }
   ],
   "items": [
@@ -519,12 +530,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://mastodon.social/@nico42/117593473112494351",
+      "url": null,
       "platform": "Mastodon",
-      "author": "nico42",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Unfortunately it’ll be closed most likely tomorrow because a huge storm is approaching Lisbon",
+      "quote": null,
       "published": "2026-11-10T18:06:00Z",
       "topics": [
         "storm",
@@ -535,18 +546,19 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; user speculation, not an official announcement",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://masto.pt/@Chatinho/117592116451447499",
+      "url": null,
       "platform": "Mastodon",
-      "author": "Chatinho (masto.pt)",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "tempestade de alerta elevado e Carlos Moedas a dançar com robots",
+      "quote": null,
       "published": "2026-11-10T12:21:00Z",
       "topics": [
         "storm",
@@ -557,18 +569,19 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; mentions a high-alert storm warning",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://social.coletivos.org/@ervilha/117593181570667621",
+      "url": null,
       "platform": "Mastodon",
-      "author": "ervilha (coletivos.org)",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Oh Moedas anda cá arranjar isto! #webSummit #lisboa #chuva",
+      "quote": null,
       "published": "2026-11-10T16:52:00Z",
       "topics": [
         "storm",
@@ -579,18 +592,19 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; rain complaint, likely about city infrastructure",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:e5qqz2ipcqcww5hxfhrvwgpj/post/3mzvxuxiz4k2z",
+      "url": null,
       "platform": "Bluesky (via Mastodon bridge)",
-      "author": "serialpeter.bsky.social",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "A Bruna passar por cima da #WebSummit e deixá-los completamente às escuras",
+      "quote": null,
       "published": "2026-11-09T22:26:00Z",
       "topics": [
         "storm",
@@ -601,10 +615,11 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; refers to storm 'Bruna' (named storm) as a joke; original at bsky.app/profile/serialpeter.bsky.social/post/3mzvxuxiz4k2z",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:drsuvxemjgu367n6xn4brx4h/post/3mzvs2yckts24",
@@ -770,12 +785,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://social.coletivos.org/@ervilha/117587027618961815",
+      "url": null,
       "platform": "Mastodon",
-      "author": "ervilha (coletivos.org)",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Ervilha paga jantar às elites da web summit!",
+      "quote": null,
       "published": "2026-11-09T14:47:00Z",
       "topics": [
         "Portugal",
@@ -786,18 +801,19 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; critical political comment",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://phpc.social/@t_var_s/117587175893796133",
+      "url": null,
       "platform": "Mastodon",
-      "author": "t_var_s (phpc.social)",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "o verdadeiro #websummit é o bebe summit",
+      "quote": null,
       "published": "2026-11-09T15:25:00Z",
       "topics": [
         "Portugal"
@@ -807,10 +823,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API; humorous",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://mas.to/@squads/117581570639054104",
@@ -858,55 +875,50 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://mastodon.social/@kristigjeka/117548387489878018",
+      "url": null,
       "platform": "Mastodon",
-      "author": "kristigjeka",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "I'll be at Web Summit 2026 (Nov 9–12) representing Kalemi",
+      "quote": null,
       "published": "2026-11-02T19:00:00Z",
       "topics": [
         "AI",
         "startups"
       ],
-      "companies": [
-        "Kalemi",
-        "Publer"
-      ],
+      "companies": [],
       "company_ids": [],
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
-      "url": "https://mastodon.social/@denisqyra/117547155416735528",
+      "url": null,
       "platform": "Mastodon",
-      "author": "denisqyra",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Food & Marketing meetup Tue 10 Nov, 12:30, stand E368.",
+      "quote": null,
       "published": "2026-11-02T13:47:00Z",
       "topics": [
         "startups",
         "marketing"
       ],
-      "companies": [
-        "Linkie by Publer"
-      ],
+      "companies": [],
       "company_ids": [],
-      "sessions": [
-        "Food & Marketing meetup, Tue 10 Nov"
-      ],
+      "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://mastodon.uno/@MelaNews/117520222449943699",
@@ -957,12 +969,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://mastodon.social/@nico42/117578303476920682",
+      "url": null,
       "platform": "Mastodon",
-      "author": "nico42",
+      "author": null,
       "kind": "post",
       "title": null,
-      "quote": "Preparing for #WebSummit",
+      "quote": null,
       "published": "2026-11-08T01:48:00Z",
       "topics": [
         "startups"
@@ -972,10 +984,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Opened via the public Mastodon tag-timeline API",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://www.youtube.com/watch?v=dJi_pXLxwno",
@@ -1287,12 +1300,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://www.youtube.com/watch?v=nCiSiC-r9qc",
+      "url": null,
       "platform": "YouTube",
-      "author": "HFerreira",
+      "author": null,
       "kind": "video",
-      "title": "Web Summit 2026 Lisbon: Is It Driving Portugal's Housing Crisis? (Vlog #9)",
-      "quote": "Web Summit 2026 Lisbon: Is It Driving Portugal's Housing Crisis? (Vlog #9)",
+      "title": null,
+      "quote": null,
       "published": null,
       "topics": [
         "Portugal",
@@ -1304,10 +1317,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Vlog by a private creator, handle only. Published about 18h before sweep.",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "YouTube and video",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://www.youtube.com/watch?v=CH9axjGRt3w",
@@ -1332,31 +1346,28 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://www.youtube.com/watch?v=6QnmhjEGFf4",
+      "url": null,
       "platform": "YouTube",
-      "author": "Masaru IKEDA",
+      "author": null,
       "kind": "video",
-      "title": "Web Summit 2026 現地 Vlog｜Opening Night はロボットも空飛ぶクルマも中国勢──AgiBot、Manus AI、Xpeng Aridge",
-      "quote": "Web Summit 2026 現地 Vlog｜Opening Night はロボットも空飛ぶクルマも中国勢──AgiBot、Manus AI、Xpeng Aridge",
+      "title": null,
+      "quote": null,
       "published": "2026-11-10",
       "topics": [
         "robotics",
         "China",
         "AI"
       ],
-      "companies": [
-        "Manus AI"
-      ],
-      "company_ids": [
-        "manus-ai"
-      ],
+      "companies": [],
+      "company_ids": [],
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Japanese-language vlog from opening night; handle/name as shown. Date approx (about 7h before sweep).",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "YouTube and video",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://www.youtube.com/watch?v=JzLsTw-BCIA",
@@ -1403,12 +1414,12 @@
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
     },
     {
-      "url": "https://www.youtube.com/watch?v=YR-Sl6ob2Ow",
+      "url": null,
       "platform": "YouTube",
-      "author": "Buhle Goslar",
+      "author": null,
       "kind": "video",
-      "title": "Web Summit 2026, Lisbon | Ready!",
-      "quote": "Web Summit 2026, Lisbon | Ready!",
+      "title": null,
+      "quote": null,
       "published": null,
       "topics": [
         "summit"
@@ -1418,10 +1429,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Private creator vlog, name as shown on channel.",
+      "note": "A private person posting as themselves: kept as count, theme and platform only, not the handle, the link or the quote (security@PrompTugal.dinis, 20:05; CLAUDE.md: nothing about a person that is not public and professional).",
       "family": "YouTube and video",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "private_individual": true
     },
     {
       "url": "https://www.youtube.com/watch?v=Fi3odaoiJz8",
@@ -1765,10 +1777,11 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Day 2 (11 Nov) cancelled after talks with Government, ANEPC, PSP; PM Montenegro recommended suspension, Moedas called closing most sensible. Thursday, refunds, PITCH, side events not covered.",
+      "note": "Day 2 (11 Nov) cancelled after talks with Government, ANEPC, PSP; PM Montenegro recommended suspension, Moedas called closing most sensible. Thursday, refunds, PITCH, side events not covered. | sweep 3: Updated 19:55 (first 19:41, per page); organisers promise updates when confirmed. Same URL was already known, updated version read; no refunds/PITCH/side events mentioned.",
       "family": "news and blogs",
       "found": "2026-11-10T19:55Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)",
+      "updated_seen": "2026-11-10T19:55:00Z"
     },
     {
       "url": "https://www.dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa",
@@ -2104,6 +2117,253 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-10T19:55Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.euronews.com/2026/11/10/web-summit-lisbon-day-2-cancelled-due-to-storm-charles",
+      "platform": "Euronews",
+      "author": "Pascale Davies",
+      "kind": "article",
+      "title": "Web Summit Lisbon day 2 cancelled due to Storm Charles",
+      "quote": "Day 2 (Wednesday, November 11th) will not take place",
+      "published": "2026-11-10T20:29:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "21:29 GMT+1 on page. Day 2 cancelled (storm Charles, Govt advice, ANEPC/PSP); Thursday as planned. No mention of refunds, PITCH or session moves.",
+      "family": "news and blogs",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://pt.euronews.com/2026/11/10/portugal-web-summit-cancela-segundo-dia-em-lisboa-devido-a-tempestade-charles",
+      "platform": "Euronews Portugues",
+      "author": "Pascale Davies",
+      "kind": "article",
+      "title": "Web Summit cancela segundo dia em Lisboa devido à tempestade Charles",
+      "quote": null,
+      "published": "2026-11-10T20:30:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "21:30 GMT+1, updated 21:37 GMT+1. Coast and riverside access prohibited Wednesday. No refunds/PITCH info.",
+      "family": "news and blogs",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://thenextweb.com/news/web-summit-day-2-cancelled-storm-charles-lisbon",
+      "platform": "The Next Web",
+      "author": "Cristian Dina",
+      "kind": "article",
+      "title": "Web Summit cancels Day 2 in Lisbon as Storm Charles hits Portugal",
+      "quote": null,
+      "published": "2026-11-10T19:58:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Says Moedas put 60,000+ people at the venue; IPMA gusts to 120 km/h.",
+      "family": "news and blogs",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://observador.pt/2026/11/10/web-summit-cancela-programacao-de-quarta-feira-devido-ao-mau-tempo/",
+      "platform": "Observador",
+      "author": "Ana Sanlez",
+      "kind": "article",
+      "title": "Web Summit cancela programação de quarta-feira devido ao mau tempo",
+      "quote": "devido aos riscos decorrentes da tempestade Charles",
+      "published": "2026-11-10T20:08:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Not said whether Wednesday programme is cancelled or moved; organisers will contact affected people directly; no refund detail.",
+      "family": "news and blogs",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://www.dn.pt/sociedade/tempestade-fora-cancelamento-do-segundo-dia-da-web-summit",
+      "platform": "Diario de Noticias",
+      "author": "Ricardo Simões Ferreira",
+      "kind": "article",
+      "title": "Tempestade força cancelamento do segundo dia da Web Summit",
+      "quote": "segurança dos participantes e equipas",
+      "published": "2026-11-10T19:49:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Thursday resumes if weather allows.",
+      "family": "news and blogs",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://jornaleconomico.sapo.pt/noticias/oficial-web-summit-cancelada-para-quarta-feira/",
+      "platform": "Jornal Economico",
+      "author": "André Cabrita-Mendes and Filipe Gil",
+      "kind": "article",
+      "title": "Oficial. Web Summit fechada na quarta-feira",
+      "quote": "A segurança dos nossos participantes, staff e fornecedores é sempre a nossa prioridade absoluta",
+      "published": "2026-11-10T19:41:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Carries organisers' wording; Moedas had called keeping the schedule imprudent. Different URL from the known Jornal Economico item.",
+      "family": "news and blogs",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://cnnportugal.iol.pt/tempestade-charles/web-summit/tempestade-charles-obriga-ao-cancelamento-da-web-summit-na-quarta-feira/20261110/6af3796cd34e9ce6f1b43dff",
+      "platform": "CNN Portugal",
+      "author": "Agência Lusa (MCC)",
+      "kind": "article",
+      "title": "Tempestade Charles obriga ao cancelamento da Web Summit na quarta-feira",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Page shows only relative time; date from URL. Organisers will contact affected participants directly.",
+      "family": "news and blogs",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://24noticias.sapo.pt/atualidade/artigos/web-summit-cancelada-esta-quarta-feira-devido-ao-mau-tempo",
+      "platform": "24 Noticias (MadreMedia)",
+      "author": "MadreMedia (no byline)",
+      "kind": "article",
+      "title": "Web Summit cancelada esta quarta-feira devido ao mau tempo",
+      "quote": "a Web Summit irá respeitar as orientações do Governo",
+      "published": "2026-11-10T19:40:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Notes gusts to 120 km/h, over 150 if a sting jet forms; Moedas closed tunnels, parks, riverfront; EY estimate of 2.5bn euro over a decade.",
+      "family": "news and blogs",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://www.indexbox.io/blog/web-summit-2026-opens-in-lisbon-with-humanoid-robots-as-speakers-and-record-chinese-delegation/",
+      "platform": "IndexBox",
+      "author": "IndexBox",
+      "kind": "article",
+      "title": "Web Summit 2026 Opens in Lisbon with Humanoid Robots as Speakers and Record Chinese Delegation",
+      "quote": "humanoid robots taking part as official speakers for the first time",
+      "published": "2026-11-09",
+      "topics": [
+        "agentic AI",
+        "robots",
+        "China"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Published day 1, newly found. Says talks moved from generative content to autonomous agents interacting with the public.",
+      "family": "news and blogs",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hhoqFc60Kog",
+      "platform": "YouTube",
+      "author": "AGENCIA EFE",
+      "kind": "video",
+      "title": "La Web Summit enciende en Lisboa su décima edición con la vista puesta en China y la IA",
+      "quote": null,
+      "published": null,
+      "topics": [
+        "AI",
+        "China",
+        "opening"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": false,
+      "note": "oembed confirms the video exists; it says 'tenth edition' (Lisbon 2026 is the tenth) but the page was not opened and the date is unknown. Not new since 19:45 UTC, probably day 1.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T20:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
+    },
+    {
+      "url": "https://websummit.com/blog/web-summit/important-event-update-2026/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "press-release",
+      "title": "Important event update",
+      "quote": "Day 2 (Wednesday, November 11th) will not take place.",
+      "published": "2026-11-10T19:09",
+      "topics": [
+        "storm",
+        "summit"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "The organisers' public statement; body read from the page's HTML (the rendered page shows only the title to a text reader). Day 3 'as planned, following the passing of Storm Charles'; 'will communicate directly with those impacted'. Pointed to by conductor@web-summit.dinis.",
+      "family": "Web Summit's own channels",
+      "found": "2026-11-10T20:56Z",
+      "found_by": "social.watch@PrompTugal.dinis (wake 20:51, correction)"
     }
-  ]
+  ],
+  "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."
 }

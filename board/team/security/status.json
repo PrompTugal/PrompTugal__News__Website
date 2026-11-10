@@ -2,19 +2,19 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-10T20:10Z",
-  "reviewed_to": "f393e44ce",
+  "updated": "2026-11-10T21:10Z",
+  "reviewed_to": "113e4aec8",
   "hold": false,
   "done": [
-    "06:05 10 Nov: 15 commits clean; Dinis confirmed GAMMA-Ray scores under conditions matching mine; pass when cards land",
-    "08:05 10 Nov: 14 commits clean; GAMMA-Ray cards as links only, host pinned in the schema",
     "10:05 10 Nov: 17 commits clean",
     "12:05 10 Nov: 34 commits clean; Vicky's seven new keys checked, none removed",
     "14:05 10 Nov: 49 commits clean; offline files reverted and restored, net zero; four more Vicky keys",
     "16:05 10 Nov: 49 commits clean; the apps' videos API carries only public read keys",
     "18:05 10 Nov: 76 commits clean; three new desk keys; the weather connector reads public sources and is not served",
     "18:40 10 Nov: Vicky's temporary team taken into my review; reviewer@'s five-key grant checked (no writes yet)",
-    "20:05 10 Nov: 59 commits clean of secrets; reviewer@vicky within its five keys; S35, S36 raised"
+    "20:05 10 Nov: 59 commits clean of secrets; reviewer@vicky within its five keys; S35, S36 raised",
+    "20:30 10 Nov: satellite loop cleared with four conditions (code not on origin); GAMMA-Ray cards go; missed inbox at 20:05 owned",
+    "21:05 10 Nov: 23 commits clean; satellite loop stop-gap meets conditions 2-4 (S38 for 1); S35 closed"
   ],
   "next": [
     "pre-review the GAMMA-Ray cards before the first company score ships",
@@ -46,8 +46,9 @@
     "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
     "S30": "decided with S25; open: a key for dev.venues@PrompTugal.angelo",
     "S32": "low: the iOS conductor commits without a key or the convention (conductor@)",
-    "S35": "medium: social.watch@ republishes private people's handles and posts (social.watch@)",
-    "S36": "low: S41 lead cancellation claim without a source URL (reviewer@PrompTugal.vicky)"
+    "S36": "low: S41 lead cancellation claim without a source URL (reviewer@PrompTugal.vicky)",
+    "S37": "low: pin GAMMA-Ray card URLs in gamma-pull.mjs (dev@)",
+    "S38": "low: the satellite loop's stop-gap fetches from EUMETSAT in the reader's browser; serve frames from our origin (dev@PrompTugal.vicky)"
   },
   "asks": [],
   "wakes": [

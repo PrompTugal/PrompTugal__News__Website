@@ -42,3 +42,5 @@ key: journalist-vicky-promptugal-b (record sha256:8dd04b857a2b77c9, encryption s
 - S41 checked 18:06 UTC, no change against the live article (IPMA's red rain 12:00 to 18:00, raised about 17:43, is already in S41 via the reviewer's 17:44 update; wind and sea unchanged; no Web Summit notice).
 - S41 checked 19:09 UTC, no change (IPMA: wind red 12-21, rain orange 05-12 then red 12-18, sea orange 12-21; no Web Summit notice).
 - S41 checked 20:06 UTC: Web Summit's statement is now public on its blog (https://websummit.com/blog/web-summit/important-event-update-2026/, page metadata published 19:09, modified 19:25), same text as the email S41 quotes; S41's source line still says it was not on the website at 19:57. Sent to the reviewer at 20:07 UTC. IPMA unchanged.
+- S41 checked 21:06 UTC, no change (IPMA unchanged; Web Summit's post unchanged since 19:25 and now cited in S41).
+- S44 (curator's STORM-10NOV commission): the update note for the published Wednesday guide drafted in drafts/S44-wednesday-guide-day-2-update.md and handed to the reviewer. The guide is in content/ (outside this desk), so the reviewer places the note; publishing needs Vicky's approval.

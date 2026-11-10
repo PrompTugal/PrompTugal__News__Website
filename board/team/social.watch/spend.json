@@ -26,8 +26,15 @@
       "calls": 6,
       "usd": 0.0317,
       "what": "sweep 2: the organisers' decision (1 call, mine) and X, Reddit, video searches by the sub-agents (5)"
+    },
+    {
+      "at": "2026-11-10T20:53Z",
+      "model": "perplexity/sonar",
+      "calls": 2,
+      "usd": 0.0115,
+      "what": "sweep 3: X and Reddit searches by the sub-agents"
     }
   ],
-  "today_usd": 0.0419,
+  "today_usd": 0.0534,
   "subscription_note": "Sweep 1 ran seven Sonnet sub-agents (about 690k sub-agent tokens); sweep 2 ran three (about 290k); on the Claude subscription, not OpenRouter."
 }
