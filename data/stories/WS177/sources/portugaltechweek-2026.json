@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "portugaltechweek-2026",
+  "story": "WS177",
+  "url": "https://portugaltechweek.com/",
+  "title": "Portugal Tech Week 2026 (the event's own site)",
+  "publisher": "Portugal Tech Week",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "The event's own site gives Portugal Tech Week 2026 as 6 to 15 November 2026."
+}
