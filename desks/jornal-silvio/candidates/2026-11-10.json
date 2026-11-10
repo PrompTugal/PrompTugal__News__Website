@@ -265,6 +265,42 @@
         "licence": "none stated on the page",
         "reuse": "link only"
       }
+    },
+    {
+      "id": "js-2026-11-10-08",
+      "title": "Altegio opens its booking platform to AI agents at Web Summit, with permissions set per action",
+      "summary": "Altegio, a Budapest-based platform for appointment businesses (it says 14,000 businesses in 90 countries), announced at Web Summit an open platform that lets AI assistants such as ChatGPT manage bookings, staff and clients through six Model Context Protocol servers, plus an API built for agents. It says the assistant sees only what the user's account allows, read, write and delete are granted separately, every change is confirmed by the user, and an agent's key loses access when its creator's does.",
+      "why_it_matters": "A concrete, European example of giving agents a mandate by design (scoped permissions, confirmation, revocation), announced at the summit: a natural case for GAMMA-Ray's lens and a contrast to the banks that block agents outright.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399181/0/en/altegio-announces-open-platform-connecting-beauty-and-wellness-businesses-with-ai-agents-at-web-summit-2026.html",
+          "publisher": "Altegio (press release, GlobeNewswire)",
+          "published": "2026-11-10",
+          "read": "the GlobeNewswire page refused our reader; read in full as republished by The Manila Times"
+        },
+        {
+          "url": "https://www.manilatimes.net/2026/11/10/tmt-newswire/globenewswire/altegio-announces-open-platform-connecting-beauty-and-wellness-businesses-with-ai-agents-at-web-summit-2026/2466009",
+          "publisher": "The Manila Times (newswire copy)",
+          "published": "2026-11-10",
+          "read": "2026-11-10T10:20Z"
+        }
+      ],
+      "claims_to_check": [
+        "All figures are the company's own (press release): 14,000 businesses, 5.5 million bookings a month",
+        "Is Altegio in data/companies.json, and does GAMMA-Ray rate it?"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "A small company's launch, but announced at the summit and the clearest agent-permissions design seen today."
+      },
+      "photo": {
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3399181/0/en/altegio-announces-open-platform-connecting-beauty-and-wellness-businesses-with-ai-agents-at-web-summit-2026.html",
+        "description": "press release images",
+        "credit": "Altegio, via GlobeNewswire",
+        "licence": "not read (the page refused our reader)",
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
@@ -311,6 +347,18 @@
     {
       "what": "No dated Web Summit day-two agent announcement found yet",
       "why": "to look again at the next wake"
+    },
+    {
+      "what": "Observador: 'Um palco sem estrelas' (OpenAI, Anthropic, Nvidia and Google absent from Web Summit)",
+      "why": "paywalled (isAccessibleForFree false); worth finding a public source for the absence"
+    },
+    {
+      "what": "'The agentic internet' with Matthew Prince and Nick Thompson, Centre Stage, 10 November 11:50 (Sapo guide)",
+      "why": "not yet happened at this wake; to look for coverage at the next"
+    },
+    {
+      "what": "Bybit's 'Agents on the Order Book' masterclass (Crypto Times)",
+      "why": "promotional, below the bar"
     }
   ],
   "wakes": [
@@ -328,6 +376,11 @@
       "at": "2026-11-10T08:22Z",
       "added": 2,
       "note": "scheduled wake; agentic AI first after the restart; the shared coverage map does not exist yet"
+    },
+    {
+      "at": "2026-11-10T10:22Z",
+      "added": 1,
+      "note": "scheduled wake; the shared coverage map still does not exist"
     }
   ]
 }
