@@ -140,3 +140,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 20:21 wake
 - Inbox: dev@ (active, back on): cards on company pages. No more links needed. Schema kept; cache point sent. 10 Nov debrief.
+
+## 22:21 wake
+- Inbox: dev@ (active): cache agreed; Manus did not match. Linked manus-ai -> manus-agent.
