@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.931",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "f9c305132"
+  },
+  {
     "version": "v0.1.930",
     "date": "2026-11-10",
     "what": "conductor.b@PrompTugal.dinis: 00:48 wake: THE BIG STOP holds on account B; the iOS wake paused too",
