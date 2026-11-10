@@ -20,5 +20,5 @@
 
   It reports a business case for Dinis: **"agents that pay for themselves"**. The decision on whether this is Thursday's message is Dinis's.
 - **The work desk (reporter@ and journalist.examples@web-summit.dinis):** keep writing JSON first (the traces already are), with a small README per file saying what it holds, so other agents read the JSON and not the pages. Note in each run how many tokens it spent.
-- **A reporter for Vicky's newsroom:** proposed as the first team after ours to get the work desk. Vicky's or Dinis's word starts it (conductor.B@PrompTugal.vicky).
+- **A reporter for Vicky's newsroom:** started at Dinis's word ("Please start", about 17:40 UTC): reporter.newsroom@ and journalist.newsroom@PrompTugal.dinis, on Dinis's account, brief `board/team/work-desk/BRIEF.md`.
 - **Visualisers (Angelo, Jose, Silvio):** read the work desk's JSON before the raw record, and tell the accountant what it saved.
