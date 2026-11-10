@@ -10,12 +10,29 @@
 // read API and decrypts it; only a public read key (sgit_public_read_ + 64 hex) is ever on the page.
 import fs from 'node:fs'
 import path from 'node:path'
-import { frontMatter } from '../lib/markdown.mjs'
+import { frontMatter, slug } from '../lib/markdown.mjs'
 export const order = 91
 
 const DIR = 'desks/journalist-promptugal/interviews'
 const R = f => new URL(`../../../${f}`, import.meta.url)
 const READ_KEY = /^sgit_public_read_[0-9a-f]{64}$/
+
+// Transcripts (journalist@web-summit.indi, 10 November 2026, at Indi Gupte's word: "a pill design tab where users can
+// toggle between the article and the transcript with the video at the top", the toggle visible while scrolling, on every
+// page with a video, an article and a transcript). desks/journalist-promptugal/interviews/transcripts/*.md (front
+// matter: person, company; the body is the transcript). An interview takes the transcript named in its front matter
+// (transcript: <file>.md), or the one with the same company and person. A transcript with no page yet waits for it.
+const TDIR = `${DIR}/transcripts`
+const plain = s => slug(String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, ''))
+const key = m => `${plain(m.company)}--${plain(m.person)}`
+function transcripts() {
+    if (!fs.existsSync(R(TDIR))) return []
+    return fs.readdirSync(R(TDIR)).filter(f => f.endsWith('.md')).sort().map(f => {
+        const src = `${TDIR}/${f}`, { meta, body } = frontMatter(fs.readFileSync(R(src), 'utf8'))
+        return { file: f, src, meta, body: body.trim() }
+    })
+}
+const transcriptFor = meta => transcripts().find(t => meta.transcript ? t.file === meta.transcript : key(t.meta) === key(meta))
 
 function sources() {
     if (!fs.existsSync(R(DIR))) return []
@@ -30,12 +47,17 @@ export function pages(ctx) {
         const esc = ctx.md.esc, unlisted = /unlisted/.test(meta.status || '')
         const widget = `<figure class="vault-video" data-endpoint="${esc(meta.vault_endpoint)}" data-vault="${esc(meta.vault_id)}" data-key="${esc(meta.vault_read_key)}" data-path="${esc(meta.vault_path)}">` +
             `<figcaption>${esc(meta.person)}, ${esc(meta.company)}, interviewed by ${esc(meta.interviewer)}. Played from vault <code>${esc(meta.vault_id)}</code>, decrypted in your browser.</figcaption></figure>`
+        const t = transcriptFor(meta), twinVideo = `The video is played from PrompTugal's public interviews vault (${meta.vault_id}), folder ${meta.vault_path}.`
+        const js = ['assets/vendor/sgit-ai/2026-11-05/vault-embed.js', 'assets/vault-video/vault-video.js']
+        // with a transcript: the video first, then the pills (sticky), then the article and the transcript as two panels
+        const tMd = t && `## Transcript {#transcript}\n\n{.iv-tnote}\n${t.meta.note}\n\n${t.body}\n`
+        const md = !t ? body : `PTVIDEO\n\n::: iv-tabs\n[Article](#article) [Transcript](#transcript)\n:::\n\n::: iv-panel\n## Article {#article}\n\n${body.replace(/^PTVIDEO$/m, '').trim()}\n:::\n\n::: iv-panel\n${tMd}:::\n`
         return {
             rel: meta.rel, src, type: 'site', title: meta.title, summary: meta.summary, date: meta.date,
             listed: true, noindex: unlisted, meta: { ...meta, noindex: unlisted },
             crumbs: [[null, meta.title]],
-            assets: { css: ['assets/vault-video/vault-video.css'], js: ['assets/vendor/sgit-ai/2026-11-05/vault-embed.js', 'assets/vault-video/vault-video.js'] },
-            md: body, twinMd: body.replace(/^PTVIDEO$/m, `The video is played from PrompTugal's public interviews vault (${meta.vault_id}), folder ${meta.vault_path}.`),
+            assets: { css: ['assets/vault-video/vault-video.css'], js: t ? [...js, 'assets/vault-video/iv-tabs.js'] : js },
+            md, twinMd: body.replace(/^PTVIDEO$/m, twinVideo) + (t ? `\n\n${tMd.replace('{.iv-tnote}\n', '')}` : ''),
             postHtml: h => h.replace('<p>PTVIDEO</p>', widget),
         }
     })
@@ -85,6 +107,12 @@ export function validate() {
             if (!meta[k]) errors.push(`${src}: front matter needs ${k}`)
         if (meta.vault_read_key && !READ_KEY.test(meta.vault_read_key)) errors.push(`${src}: vault_read_key must be a public read key (sgit_public_read_ + 64 hex), never a vault key`)
         if (!/^PTVIDEO$/m.test(body)) errors.push(`${src}: the body needs a line PTVIDEO where the video goes`)
+        if (meta.transcript && !transcripts().some(t => t.file === meta.transcript)) errors.push(`${src}: transcript ${meta.transcript} is not in ${TDIR}`)
+    }
+    for (const t of transcripts()) {
+        for (const k of ['person', 'company', 'note']) if (!t.meta[k]) errors.push(`${t.src}: front matter needs ${k}`)
+        if (!t.body) errors.push(`${t.src}: the transcript is empty`)
+        if (/^#{1,2}\s/m.test(t.body)) errors.push(`${t.src}: no headings of level 1 or 2 in a transcript (the page adds "Transcript")`)
     }
     return errors
 }

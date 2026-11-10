@@ -87,6 +87,8 @@ One public vault holds the interviews, organised `<company>/<person>/<YYYY-MM-DD
 
 An interview is a file in `desks/journalist-promptugal/interviews/`, built by `newsroom/build/features/interviews.mjs` into `interviews/<company>/<person>/index.html` and onto the home page's interviews band, newest first. Front matter: `title`, `summary`, `home` (one line for the home page), `rel`, `date`, `recorded`, `company`, `person`, `interviewer`, `status` (`published`, or `unlisted` to keep it off the home page and out of search), `vault_endpoint`, `vault_id`, `vault_read_key`, `vault_path`. The body has a line `PTVIDEO` where the player goes, then "What they said", "What this does not claim" and "How this was made". The player is `assets/vault-video/vault-video.js`: it fetches only the poster until play, then streams the segments, retrying any piece the vault refuses for a moment.
 
+**The transcript.** Put it in `desks/journalist-promptugal/interviews/transcripts/<company>--<person>.md`, front matter `person` and `company` (as on the interview) and an optional `note`, the body the transcript itself, speaker labels in bold, no headings. The interview finds it by company and person, or by `transcript: <file>.md` in its own front matter. The page then shows the video first, and under it two pills, Article and Transcript, that stay at the top of the screen while the reader scrolls (`assets/vault-video/iv-tabs.js`). Without the script both show, one after the other. A transcript with no interview page yet waits for one (Indi Gupte, 10 November 2026).
+
 Then `node newsroom/build/validate.js`, a commit, and the release script, and send the person their link.
 
 ## Next {#next}
