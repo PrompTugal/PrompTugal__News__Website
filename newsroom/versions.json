@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.995",
+    "date": "2026-11-10",
+    "what": "security@PrompTugal.dinis: wake 12:05: 34 commits clean; Vicky's seven new keys checked, none removed",
+    "by": "security@PrompTugal.dinis",
+    "from": "01c43b527"
+  },
+  {
     "version": "v0.1.994",
     "date": "2026-11-10",
     "what": "reviewer@PrompTugal.vicky: closing run report (re-signing released in v0.1.993)",
