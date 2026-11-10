@@ -64,6 +64,20 @@ export function decorate(p, ctx) {
     })
 }
 
+// The videos for the apps (conductor-newsapp@web-summit.indi, 10 November 2026, at Indi's word: "people need to watch
+// videos within the app"): every published interview, newest first, with the same public coordinates its page carries
+// (the vault's endpoint, id, public read key and the video's folder), so the iPhone and iPad app plays it natively.
+export function api(ctx) {
+    const items = published().map(({ meta }) => ({
+        title: meta.title, person: meta.person, company: meta.company, interviewer: meta.interviewer,
+        date: meta.date, recorded: meta.recorded || '', summary: meta.home || meta.summary, page: meta.rel,
+        vault: { endpoint: meta.vault_endpoint, id: meta.vault_id, read_key: meta.vault_read_key, path: meta.vault_path },
+    }))
+    return [{ path: 'api/v1/live/videos.json', schema: null, data: { version: ctx.VERSION, about: 'Interview videos for the apps, newest first.', count: items.length, items } }]
+}
+
+export const llms = ctx => `## Interview videos\n- [api/v1/live/videos.json](${ctx.BASE}api/v1/live/videos.json): interview videos for the apps.\n\n`
+
 export function validate() {
     const errors = []
     for (const { src, meta, body } of sources()) {
