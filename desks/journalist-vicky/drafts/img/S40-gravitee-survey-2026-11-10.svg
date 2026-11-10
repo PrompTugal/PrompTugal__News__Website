@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d"><title id="t">Gravitee's survey: AI agent adoption ahead of security</title><desc id="d">From Gravitee's survey of over 900 executives and practitioners: 80.9% of technical teams past the planning phase; 88% reported confirmed or suspected AI agent security incidents in the last year; 21.9% treat agents as independent identities; 14.4% have full security approval for all agents. Source: Gravitee, read 10 November 2026.</desc><style>
+.bg{fill:#f6f3ec}.ink{fill:#121317}.ink2{fill:#3f424a}.acc{fill:#006600}.red{fill:#c52830}.trk{fill:#e3ddcf}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){.bg{fill:#111214}.ink{fill:#eceae4}.ink2{fill:#c3c0b7}.acc{fill:#6dbb7e}.red{fill:#f07278}.trk{fill:#2e2f34}}
+</style>
+<rect class="bg" width="1200" height="630"/>
+<rect class="acc" x="60" y="48" width="120" height="10"/>
+<text class="ink" x="60" y="122" font-size="54" font-weight="700">AI agents: adoption ahead of security</text>
+<text class="ink2" x="60" y="176" font-size="40">Gravitee's survey of 900+ people</text>
+<text class="ink" x="60" y="262" font-size="42">Past planning</text>
+<rect class="trk" x="560" y="226" width="460" height="46" rx="6"/><rect class="acc" x="560" y="226" width="372" height="46" rx="6"/>
+<text class="ink" x="1040" y="264" font-size="42" font-weight="700">80.9%</text>
+<text class="ink" x="60" y="362" font-size="42">Reported incidents</text>
+<rect class="trk" x="560" y="326" width="460" height="46" rx="6"/><rect class="red" x="560" y="326" width="405" height="46" rx="6"/>
+<text class="ink" x="1040" y="364" font-size="42" font-weight="700">88%</text>
+<text class="ink" x="60" y="462" font-size="42">Agents as identities</text>
+<rect class="trk" x="560" y="426" width="460" height="46" rx="6"/><rect class="acc" x="560" y="426" width="101" height="46" rx="6"/>
+<text class="ink" x="1040" y="464" font-size="42" font-weight="700">21.9%</text>
+<text class="ink" x="60" y="562" font-size="42">Full security approval</text>
+<rect class="trk" x="560" y="526" width="460" height="46" rx="6"/><rect class="acc" x="560" y="526" width="66" height="46" rx="6"/>
+<text class="ink" x="1040" y="564" font-size="42" font-weight="700">14.4%</text>
+</svg>
