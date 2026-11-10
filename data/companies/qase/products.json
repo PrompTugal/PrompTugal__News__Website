@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "qase",
+  "products": [
+    {
+      "id": "qase-ai",
+      "name": "Qase AI",
+      "what": "Converts manual test cases into Playwright, Cypress or Selenium scripts.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "are-we-good-to-ship"
+      ]
+    }
+  ]
+}

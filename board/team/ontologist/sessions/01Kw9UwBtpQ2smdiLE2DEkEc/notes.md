@@ -121,3 +121,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 08:21 wake
 - Inbox empty. product type + offers verb; company-products schema; datacheck (terse messages: the quality ratchet counts prose in code strings); data.mjs reads products; 10 products. graph.mjs is dev@'s: asked.
+
+## 10:21 wake
+- Inbox empty; dev@ restart waits on Dinis (watch). 14 more products; Replit 'deploys' removed (not in its source). 7 companies with no named product: none guessed.

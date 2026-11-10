@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "feedzai",
+  "products": [
+    {
+      "id": "farol",
+      "name": "Farol",
+      "what": "Feedzai's AI agent for fraud teams: rules, alerts and SARs.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "fraud-team-with-farol"
+      ]
+    }
+  ]
+}

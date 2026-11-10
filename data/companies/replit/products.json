@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "replit",
+  "products": [
+    {
+      "id": "replit-agent",
+      "name": "Replit Agent",
+      "what": "Builds an app from a chat: searches the web, connects built-in and third-party services, and tests and fixes its own work in a browser.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "build-through-chat"
+      ]
+    }
+  ]
+}

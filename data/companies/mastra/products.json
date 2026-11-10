@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "mastra",
+  "products": [
+    {
+      "id": "mastra",
+      "name": "Mastra",
+      "what": "A TypeScript framework for building AI agents and applications.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "build-an-agent"
+      ]
+    }
+  ]
+}

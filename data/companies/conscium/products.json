@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "conscium",
+  "products": [
+    {
+      "id": "verifyax",
+      "name": "VerifyAX",
+      "what": "An AI agent verification platform: tests, audits and governs agents before and after deployment.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "verify-before-production"
+      ]
+    }
+  ]
+}
