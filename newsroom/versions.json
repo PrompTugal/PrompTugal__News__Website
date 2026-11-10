@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1095",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "0a4c0d88d"
+  },
+  {
     "version": "v0.1.1094",
     "date": "2026-11-10",
     "what": "weather@PrompTugal.vicky: run report (22:35 wake)",
