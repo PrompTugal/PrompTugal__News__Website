@@ -1,24 +1,15 @@
 {
  "agent": "gamma-ray@PrompTugal.dinis",
- "focus": "GAMMA-Ray: the standard, the mashup and the website's design, with Dinis, before anything is implemented (brief:2026-11-09T2330Z-gamma-ray)",
- "state": "named gamma-ray@web-summit.dinis in the brief and in commits (this file takes the @PrompTugal.dinis form the gate requires); in debate with Dinis: the public scan rates the agent from outside evidence only; nothing implemented",
- "updated": "2026-11-10T00:00Z",
+ "focus": "GAMMA-Ray has moved to its own repository and site, at Dinis Cruz's word (10 November 2026): https://github.com/SGit-AI/SGit-AI__Website__Gamma-Ray, gamma-ray.sgit.ai",
+ "state": "moved; this folder keeps only this pointer. The research notes are in the new repository under content/research/. Nothing of GAMMA-Ray is implemented in PrompTugal.news",
+ "updated": "2026-11-10T00:39Z",
  "key": "gamma-ray-promptugal (record sha256:9ecbbbcd315c5f0c)",
  "done": [
-  "read the brief and Dinis's two source documents",
-  "session key made; public half in board/keys.json",
-  "the five standards and AgentStripes read at source; candidates to add found (OWASP's agentic governance matrix, CSA's draft model, an authorisation axis from OAuth and the Model Context Protocol): research/2026-11-09-standards-check.md",
-  "Dinis (10 Nov): agents first, outside evidence only, the share of each standard that is observable, a vault per company; first pass in research/2026-11-10-outside-coverage-first-pass.md (OWASP 2.01 read at source: CC BY-SA 4.0, nine tiers, five governance levels)"
+  "9 to 10 November: the standards checked at source, three research notes, then the move",
+  "draft 0.1 in the new repository: 286 provisions, 69 indicators, 21 questions, two ladders, two scans of our own agents in public vaults"
  ],
  "next": [
-  "redo the counts provision by provision, as data, with a second model checking",
-  "the indicators layer and the bridges as a graph",
-  "read the estate vaults that cross-map (AIUC-1 conformance, AI BCF, the agency scale) and the X-ray work (WS-191 to WS-198)"
+  "everything further is in the new repository (its REALITY.md says what exists)"
  ],
- "asks": [
-  "Dinis: is the set of five for the public scan right (Salesforce, Feng et al., OWASP, the authorisation ladder, AgentStripes)?",
-  "Dinis: may a scan send an unauthenticated request to a company endpoint, or read documents only?",
-  "Dinis: the session policy now says gamma-ray@web-summit.dinis writes only in desks/; the brief says board/team/gamma-ray/. Working to the brief until told.",
-  "Dinis: commit name, gamma-ray@web-summit.dinis (brief) or @PrompTugal.dinis (R9)?"
- ]
+ "asks": []
 }
