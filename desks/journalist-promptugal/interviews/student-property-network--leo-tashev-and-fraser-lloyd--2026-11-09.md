@@ -13,7 +13,7 @@ vault_id: w0bf33d4
 vault_read_key: sgit_public_read_334fb47a320489e03adbae82a5b43126aaddc12fdc8676391e53a076568ce4c2
 vault_path: student-property-network/leo-tashev-and-fraser-lloyd/2026-11-09-night-summit/web
 ---
-At Night Summit, Web Summit 2026's opening night in Lisbon, on Monday 9 November, Indi Gupte, an editor of PrompTugal.news, spoke to Leo Tashev and Fraser Lloyd, the co-founders of [Student Property Network](https://studentpropertynetwork.com/about), for just under three minutes.
+At Night Summit, Web Summit 2026's opening night in Lisbon, on Monday 9 November, Indi Gupte, an editor of PrompTugal.news, spoke to Leo Tashev and Fraser Lloyd, the co-founders of [Student Property Network](https://studentpropertynetwork.com/about), for just under three minutes. Leo Tashev's Web Summit 2026 badge, an attendee's, names him and Student Property Network.
 
 PTVIDEO
 
@@ -35,6 +35,6 @@ PTVIDEO
 
 ## About this page
 
-Not yet linked from the site. The video is in PrompTugal's public interviews vault (vault `w0bf33d4`, organised by company, person and date), fetched in pieces and decrypted in your browser. The audio was cleaned with Audo's noise removal; the picture is the original, unedited, with the phone's location and other metadata removed. Source for the company and its founders: [Student Property Network, About](https://studentpropertynetwork.com/about), read 10 November 2026.
+Not yet linked from the site. The video is in PrompTugal's public interviews vault (vault `w0bf33d4`, organised by company, person and date), fetched in pieces and decrypted in your browser. The audio was cleaned with Audo's noise removal; the picture is the original, unedited, with the phone's location and other metadata removed. Sources for the company and its founders: [Student Property Network, About](https://studentpropertynetwork.com/about), read 10 November 2026, and Leo Tashev's Web Summit 2026 badge, photographed by Dinis Cruz on the night.
 
 [Open the vault](https://dev.vault.sgraph.ai/en-gb/#sgit_public_read_334fb47a320489e03adbae82a5b43126aaddc12fdc8676391e53a076568ce4c2:w0bf33d4) to see every file: the original 1080p video, the audio, the poster and the machine transcript (not yet edited).
