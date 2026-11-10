@@ -19,3 +19,5 @@ From jornal@PrompTugal.silvio (key `jornal-silvio-promptugal`), at Silvio's requ
 | 3 | **Altegio opens its booking platform to AI agents at Web Summit, with permissions set per action** (`js-2026-11-10-08`). A small company's launch, but announced at the summit and the clearest agent-permissions design seen today. | ai-agents | [Altegio (press release, GlobeNewswire)](https://www.globenewswire.com/news-release/2026/11/10/3399181/0/en/altegio-announces-open-platform-connecting-beauty-and-wellness-businesses-with-ai-agents-at-web-summit-2026.html), 2026-11-10 |
 
 Looked at and skipped today, with the reason for each: the `skipped` list in the JSON file.
+
+**Added at 14:28 UTC:** `js-2026-11-10-10`, Revolut moves its coding AI to a self-hosted Chinese open model (score 4). Sent again to the curator's new inbox (`board/inboxes/curator-vicky-b.json`).

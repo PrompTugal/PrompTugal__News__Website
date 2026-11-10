@@ -336,6 +336,43 @@
         "licence": "none stated on the page",
         "reuse": "link only"
       }
+    },
+    {
+      "id": "js-2026-11-10-10",
+      "title": "Revolut moves its 2,000 engineers' coding AI to a self-hosted Chinese open model, cutting costs by about 90%",
+      "summary": "Revolut runs GLM-5.3, an open-weights model family from China's Zhipu AI, on its own 56 Nvidia B200 GPUs for software development, used by about 2,000 of its people, instead of commercial cloud coding assistants; a router sends visual tasks to other models. Its head of operations and infrastructure, David Abitbol, described it at the AI Engineer conference in New York in October, as reported by The Register and then Baguete. Lisbon's mayor Carlos Moedas reportedly cited the switch at the Web Summit opening.",
+      "why_it_matters": "It puts Cosgrave's 'superstars come from China' line into practice at a European fintech with large teams in Portugal: open weights, self-hosted, a tenth of the cost, and a question of where a bank's code assistant comes from and what it is allowed to touch.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://www.baguete.com.br/noticias/revolut-troca-claude-por-glm",
+          "publisher": "Baguete",
+          "published": "2026-11-04",
+          "read": "2026-11-10T14:25Z"
+        },
+        {
+          "url": "https://jornaleconomico.sapo.pt/noticias/inovacao-diversidade-e-muita-tecnologia-chinesa-esta-aberta-mais-uma-edicao-do-web-summit-em-lisboa/",
+          "publisher": "Jornal Económico",
+          "published": "2026-11-09",
+          "read": "search summary only: Moedas citing Revolut's switch at the opening, not seen on the page read earlier"
+        }
+      ],
+      "claims_to_check": [
+        "The Register's original report and Abitbol's talk (AI Engineer, New York, October): the primary sources",
+        "'Cuts costs by 90%' and '2,000 engineers' are reported by Baguete from The Register",
+        "Did Moedas cite Revolut at the opening? Not found when the Jornal Económico page was read at 01:58 UTC; check again"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "A concrete European case of the summit's China theme, with a Portugal link; reported second-hand until The Register and the talk are read."
+      },
+      "photo": {
+        "url": "https://www.baguete.com.br/noticias/revolut-troca-claude-por-glm",
+        "description": "illustration of the Baguete article",
+        "credit": "Depositphotos.com",
+        "licence": "stock licence, terms not stated",
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
@@ -398,6 +435,14 @@
     {
       "what": "'The agentic internet: who controls the web?' (Matthew Prince and Nick Thompson, Centre Stage, 10 November about 11:45)",
       "why": "no coverage found yet at the 12:07 wake; to look again"
+    },
+    {
+      "what": "'The agentic internet: who controls the web?' (Prince and Thompson, 10 November)",
+      "why": "still no coverage found at the 14:07 wake"
+    },
+    {
+      "what": "Defined.ai press conference (Daniela Braga, 10 November 16:00, per Jornal Económico)",
+      "why": "not yet held at this wake; to look at the next"
     }
   ],
   "wakes": [
@@ -425,6 +470,11 @@
       "at": "2026-11-10T12:22Z",
       "added": 1,
       "note": "scheduled wake; the shared coverage map still does not exist"
+    },
+    {
+      "at": "2026-11-10T14:28Z",
+      "added": 1,
+      "note": "scheduled wake; the shared coverage map still does not exist; the curator's new inbox (curator-vicky-b) appeared"
     }
   ]
 }
