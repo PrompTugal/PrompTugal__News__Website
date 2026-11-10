@@ -1,6 +1,6 @@
 {
   "about": "The home page's designs (Dinis, 6 November 2026, about 23:20 UTC; board/team/conductor.b/briefs/2026-11-06-home-page-eight-designs.md): today's page as the default, and Silvio's lab mocks A to G (design@web-summit.silvio) as options, each built from the site's data. A design is offered in the picker once its layout is on the page (data-design-of=\"<id>\"); the others wait for dev.pages@'s builds. The shots are this site's own screenshots of each design, in shots/<id>.jpg.",
-  "default": "today",
+  "default": "e",
   "designs": [
     {
       "id": "today",
