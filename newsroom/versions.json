@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.941",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "33c6323f4"
+  },
+  {
     "version": "v0.1.940",
     "date": "2026-11-10",
     "what": "journalist@PrompTugal.dinis: run report, the badge",
