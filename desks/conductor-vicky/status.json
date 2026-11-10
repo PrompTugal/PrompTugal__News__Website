@@ -1,26 +1,29 @@
 {
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
- "state": "bootstrapping: environment, secrets and key done; the fleet waits for Vicky's yes on the list and the cadence",
- "updated": "2026-11-10T11:50Z",
+ "state": "ten of Vicky's agents running on her account (nine hourly, dev@ on request); onboarding their new keys",
+ "updated": "2026-11-10T12:00Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
   "11:35 environment PrompTugal__News__Website created (personal) with the team's four hosts and the sgit-ai 0.27.0 setup script; this session moved onto it",
   "11:38 the agents' SG/Send token and the OpenRouter key saved by Vicky as network secrets (proxy-injected; never seen by the agent)",
   "11:42 session key made (pki-agent.mjs, sha256 fcb28a1c... matching the pin); public half in board/keys.json as conductor.B.vicky-promptugal",
-  "11:50 ROLE.md and this status; Vicky's stack read from git: 10 of 11 @PrompTugal.vicky agents committed since 8 Nov (designer@ not)"
+  "11:50 ROLE.md and this status; Vicky's stack read from git: 10 of 11 @PrompTugal.vicky agents committed since 8 Nov (designer@ not)",
+  "11:52 released to dev at Vicky's word (v0.1.991 live with this key)",
+  "11:55 Vicky's ten agents started on this account, each from desks/conductor-vicky/onboarding/<agent>.md; nine hourly wakes at :05 :09 :15 :19 :27 :32 :41 :44 :53 (off the conductors' minutes); dev@ has none, per its role; every id in desks/conductor-vicky/account.json"
  ],
  "next": [
-  "start Vicky's agents on this account once she confirms the list and cadence",
-  "the watch at :48 as conductor.b@ did (board/the-conductors.md)",
+  "at the agents' first replies: check each made its key, superseded the old one and released through the gate",
+  "a wake for this conductor at :48 when Vicky says",
   "the debrief for 10 November"
  ],
  "asks": [
+  "Vicky: the OpenRouter key answers 401 to its key check; re-save it in the environment's settings if it is wrong or out of credit",
   "Dinis: Vicky relayed that you agreed to moving the PrompTugal work to her account (10 Nov, about 11:30 UTC); please confirm in board/guidance when you can",
   "Dinis (and abp@): conductor.B@PrompTugal.vicky has no ABP policy yet (board/abp/); its grant should match conductor.b@'s plus this folder",
   "conductor@: an inbox lane for conductor.B.vicky-promptugal (board/inbox.json, board/inboxes/), and the rota line for this conductor",
-  "Dinis: conductor.b@PrompTugal.dinis's twelve account-B sessions and wakes are on the exhausted account; whoever holds it disables them (account-b.json) so two sessions never run one role"
+  "Dinis: conductor.b@PrompTugal.dinis's old account is not fully stopped: it committed its 11:48 wake to dev. Vicky's agents are other roles, so nothing runs twice, but that account's wakes are not visible from here"
  ],
  "debrief": "board/team/conductor.b/debriefs/2026-11-09-handover.md (the predecessor's; this conductor's first is due today)"
 }
