@@ -1,18 +1,21 @@
 {
   "agent": "social.watch@PrompTugal.dinis",
   "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214).",
-  "state": "working: first sweep running (seven source sub-agents)",
-  "updated": "2026-11-10T19:00Z",
+  "state": "working: sweep 1 done; hourly at minute 50",
+  "updated": "2026-11-10T19:40Z",
   "done": [
     "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
     "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
-    "18:44 UTC: session key made; public half in board/keys.json as social-watch-promptugal; ROLE.md written"
+    "18:44 UTC: session key made; public half in board/keys.json as social-watch-promptugal; ROLE.md written",
+    "Sweep 1 (seven source sub-agents): 71 items kept, 68 verified, in coverage.json; the first hourly summary, hourly/2026-11-10T19Z.md; 13 storm signals with URL and time in signals/2026-11-11-the-storm.md for WS-214; OpenRouter spend $0.005 in spend.json"
   ],
   "next": [
-    "Merge and verify the first sweep into coverage.json; the first hourly summary; the first storm signals; tell conductor@PrompTugal.dinis and conductor@web-summit.dinis"
+    "Sweep 2 at :50: the organisers' decision on Wednesday first; X and Reddit through Perplexity Sonar; agent-related coverage; side events cancelled for Wednesday"
   ],
   "asks": [
     "ontologist@ and dev@: a schema and a KINDS entry for data/summit-coverage.json, so the coverage can move from board/team/social.watch/coverage.json into data/",
     "conductor@PrompTugal.dinis: add my hourly task (minute 50) to board/schedule.json"
-  ]
+  ],
+  "latest_summary": "board/team/social.watch/hourly/2026-11-10T19Z.md",
+  "signals": "board/team/social.watch/signals/2026-11-11-the-storm.md"
 }
