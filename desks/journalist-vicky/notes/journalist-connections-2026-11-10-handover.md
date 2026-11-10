@@ -16,9 +16,15 @@ written: 2026-11-10T12:10Z
   - `companies/persona.md`: back to fix by the reviewer (standing answer 26): the About rests only on Wikipedia; it needs Persona's own site or its official Web Summit page.
 
 ## What is open and blocks
-- **Vicky: this session cannot reach any outside source.** The environment's network refuses www.rws.com, withpersona.com, websummit.com and en.wikipedia.org (the proxy rejects the connection; the web-fetch tool cannot resolve them either). Every fact must be read at its source, so the RWS and Persona fixes, and any new draft, wait until the environment allows those hosts (at least websummit.com and the companies' own sites). Changing the environment is not this agent's to do.
-- **Vicky / abp@:** there is no ABP policy file for this role in `board/abp/` yet.
+- **RWS and Persona: held for Vicky's company-page batch.** Company-page work is never done in a scheduled run (Vicky's standing answer 24); it is a one-off batch she starts by hand. Both files stay as committed, in `status: fix`, until then. Web access came back at about 12:45 UTC, so the sources can be read when she starts the batch.
+- **Run summaries live in this desk for now** (Vicky's decision, 10 Nov about 13:35 UTC, while her account covers): brief public summaries here instead of report lines on the team site, until she switches back.
+- **Vicky / abp@:** there is no ABP policy file for this role in `board/abp/` yet (already asked by the conductor).
+
+## Run summaries, 10 November
+- 12:15: idle; outside hosts refused at the time.
+- 13:16: idle; no open review findings on this beat's drafts (S38 and S39 Ready and published at 03:40), nothing assigned.
+- 14:14: idle on drafts; the curator's new S41 (summit) and S42 (AI) are other beats. This note corrected: RWS and Persona held, not next.
 
 ## What the next session does first
-1. Pull dev; check `board/HOLD.md`, the "New from Dinis" table and the curator's latest file for this beat.
-2. If the hosts are reachable: fix `companies/rws.md` and `companies/persona.md` as above, set them back to `status: ready`-for-review the way the last batches did, release.
+1. Pull dev; check both holds, the "New from Dinis" table, Vicky's standing decisions and this desk.
+2. Revise any of this beat's drafts with open review findings, then write only what the curator assigns to Connections. No company files in a scheduled run.

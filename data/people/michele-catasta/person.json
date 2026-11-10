@@ -11,18 +11,9 @@
       "role": "President",
       "organisation": "Replit",
       "org": "company:replit",
-      "event": "event:what-does-a-self-driving-company-look-like",
-      "source": "https://websummit.com/sessions/lis26/a54a6d5f-1f53-43fd-93c6-dd2c3d63a4fe/what-does-a-self-driving-company-look-like/",
-      "read_at": "2026-11-10T05:08Z",
-      "by": "programme@web-summit.vicky"
-    },
-    {
-      "role": "President",
-      "organisation": "Replit",
-      "org": "company:replit",
       "event": "event:press-conference-with-replit-president-michele-catasta",
       "source": "https://websummit.com/sessions/lis26/947f0d95-5912-4432-9c09-807239d19ec5/press-conference-with-replit-president-michele-catasta/",
-      "read_at": "2026-11-10T05:07Z",
+      "read_at": "2026-11-10T13:54Z",
       "by": "programme@web-summit.vicky"
     },
     {
@@ -31,7 +22,16 @@
       "org": "company:replit",
       "event": "event:making-useful-intelligence-accessible-to-everyone",
       "source": "https://websummit.com/sessions/lis26/dae7352a-b9b1-41d0-b3d8-d2713e9fef4e/making-useful-intelligence-accessible-to-everyone/",
-      "read_at": "2026-11-10T05:07Z",
+      "read_at": "2026-11-10T13:54Z",
+      "by": "programme@web-summit.vicky"
+    },
+    {
+      "role": "President",
+      "organisation": "Replit",
+      "org": "company:replit",
+      "event": "event:what-does-a-self-driving-company-look-like",
+      "source": "https://websummit.com/sessions/lis26/a54a6d5f-1f53-43fd-93c6-dd2c3d63a4fe/what-does-a-self-driving-company-look-like/",
+      "read_at": "2026-11-10T05:08Z",
       "by": "programme@web-summit.vicky"
     },
     {

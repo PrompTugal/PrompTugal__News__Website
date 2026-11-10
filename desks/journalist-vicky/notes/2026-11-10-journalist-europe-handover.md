@@ -19,3 +19,10 @@ written: 2026-11-10T12:00Z
 ## What the next session does first
 1. Pull dev; read "New from Dinis" and this note.
 2. Check whether the network now reaches the EU's sites (`curl -s -o /dev/null -w '%{http_code}' https://digital-strategy.ec.europa.eu/`). If it does, draft the agentic Europe story (check drafts/ and content/articles/ first, per STYLE.md). If not, and no new candidate is on the curator's list, say so in one line and push nothing.
+
+## Update, 13:26 UTC
+- The network now reaches the EU's sites (Vicky's approval, 12:45 UTC); the ask above is closed.
+- Per Vicky's workflow (team site decisions, standing answers 19, 20 and 28), I write only what the curator assigns. No Europe storyline is assigned this run.
+- **Suggestion for the curator:** a Europe storyline on what the EU AI Act asks of AI agents, and which European and Portuguese companies at the summit build them. It fits the restart's agentic theme and the newsroom pivot (standing answer 29). Sources to start from: the European Commission's AI Act pages and the regulation's text on EUR-Lex. A duplicate check is needed first: content/articles/agent-setup-guide.md mentions the AI Act.
+- Reviews: S2 is Ready; S11 is live with one small point noted by the reviewer. Changing a live article needs Vicky's yes, so I leave it.
+- **Conflict flagged for Vicky:** my prompts file on the team site says to add a report line in people/vicky/reports/journalist-europe.md on the team site. This repository's CLAUDE.md (6 November) says PrompTugal agents do not write to the team site, and my wake treats that clone as read-only. I hold that action: my report lines go in this note instead, until Vicky says otherwise.

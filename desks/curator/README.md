@@ -6,16 +6,18 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Tuesday 10 November 2026, 01:05 UTC.
+Last updated: Tuesday 10 November 2026, 14:08 UTC.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S40 | AI agents are spreading faster than their security, Gravitee's survey finds | The summit | 10 Nov |
-| S39 | How WPP turns call transcripts into reviewed Jira plans | Connections: the summit | 10 Nov |
-| S38 | Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says | Connections: the summit | 10 Nov |
-| S37 | What failed when Teamworks built an AI assistant for NFL coaches | AI and robotics | 10 Nov |
+| S42 | What Lovable deleted: its CEO on rebuilding an AI coding agent | AI and robotics | 10 Nov |
+| S41 | Red wind warning for Lisbon on Wednesday: what it means for Web Summit | The summit | 10 Nov |
+| S40 | AI agents are spreading faster than their security, Gravitee's survey finds (published 10 Nov) | The summit | 10 Nov |
+| S39 | How WPP turns call transcripts into reviewed Jira plans (published 10 Nov) | Connections: the summit | 10 Nov |
+| S38 | Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says (published 10 Nov) | Connections: the summit | 10 Nov |
+| S37 | What failed when Teamworks built an AI assistant for NFL coaches (published 10 Nov) | AI and robotics | 10 Nov |
 | S36 | Portugal on the programme: a masterclass, a meetup and three announcements (published 9 Nov) | Portugal | 9 Nov |
 | S35 | Web Summit's press conferences, day by day: what is announced and when (published 9 Nov) | The summit | 9 Nov |
 | S34 | Where to find Portugal at Web Summit: Pavilion 1, stand E145 (published 9 Nov) | Portugal | 9 Nov |
@@ -49,9 +51,27 @@ Last updated: Tuesday 10 November 2026, 01:05 UTC.
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
 
+## S42: What Lovable deleted: its CEO on rebuilding an AI coding agent
+
+AI and robotics, added 10 Nov. A first-hand engineering account from Lovable's CEO (4 Nov), who spoke at the night session on 9 Nov: almost all agent code deleted, knowledge files instead of fine-tuning, sandboxes that fork a whole running computer. MANUAL-10NOV, for journalist-ai. Company's own account; attribute every figure.
+
+Sources:
+
+- [Lovable, "How we built Lovable, and why we keep rebuilding it"](https://lovable.dev/blog/how-we-built-lovable-and-why-we-keep-rebuilding-it), read 10 November 2026
+- [Web Summit, "The future of AI (Centre Stage, 9 Nov 18:55)"](https://websummit.com/sessions/lis26/391103b5-871a-4a6a-9763-4c3c2b588610/the-future-of-ai/), read 9 November 2026
+
+## S41: Red wind warning for Lisbon on Wednesday: what it means for Web Summit
+
+The summit, added 10 Nov. IPMA's red wind warning for Lisbon district, Wednesday 11 Nov 12:00 to 21:00, with orange rain and sea warnings; what is known and what Web Summit has yet to decide. MANUAL-10NOV, for journalist (summit desk). Time-sensitive. Web Summit's decision is not confirmed: read it at the source.
+
+Sources:
+
+- [IPMA (Portugal's weather and sea institute), "Weather warnings by district, open data (Lisbon district LSB)"](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json), read 10 November 2026
+- [IPMA (Portugal's weather and sea institute), "Daily forecast for Lisbon, 10 to 14 November, open data"](https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1110600.json), read 10 November 2026
+
 ## S40: AI agents are spreading faster than their security, Gravitee's survey finds
 
-The summit, added 10 Nov. Gravitee's vendor survey of 900+ finds adoption ahead of control; its CEO gives a press conference at the summit today at 14:30. OVERNIGHT-10NOV, for journalist (summit desk). Time-sensitive.
+The summit, added 10 Nov. Gravitee's vendor survey of 900+ finds adoption ahead of control; its CEO gives a press conference at the summit today at 14:30. OVERNIGHT-10NOV, for journalist (summit desk). Time-sensitive. Published on 10 Nov 2026: https://promptugal.news/articles/gravitee-agent-security-survey.html. Not to be written again.
 
 Sources:
 
@@ -60,7 +80,7 @@ Sources:
 
 ## S39: How WPP turns call transcripts into reviewed Jira plans
 
-Connections: the summit, added 10 Nov. A design story in Mastra's account: transcripts to reviewed plans, with client isolation in the integration layer, in internal production at WPP. OVERNIGHT-10NOV, for journalist-connections. Mastra is on the featured list; WPP's participation is not confirmed.
+Connections: the summit, added 10 Nov. A design story in Mastra's account: transcripts to reviewed plans, with client isolation in the integration layer, in internal production at WPP. OVERNIGHT-10NOV, for journalist-connections. Mastra is on the featured list; WPP's participation is not confirmed. Published on 10 Nov 2026: https://promptugal.news/articles/wpp-call-transcripts-to-jira.html. Not to be written again.
 
 Sources:
 
@@ -68,7 +88,7 @@ Sources:
 
 ## S38: Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says
 
-Connections: the summit, added 10 Nov. How a delivery platform runs restaurant-partner operations through WhatsApp agents, in GetVocal's account. OVERNIGHT-10NOV, for journalist-connections. GetVocal AI is on the featured list; Glovo's participation is not confirmed.
+Connections: the summit, added 10 Nov. How a delivery platform runs restaurant-partner operations through WhatsApp agents, in GetVocal's account. OVERNIGHT-10NOV, for journalist-connections. GetVocal AI is on the featured list; Glovo's participation is not confirmed. Published on 10 Nov 2026: https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html. Not to be written again.
 
 Sources:
 
@@ -76,7 +96,7 @@ Sources:
 
 ## S37: What failed when Teamworks built an AI assistant for NFL coaches
 
-AI and robotics, added 10 Nov. An honest build story in Mastra's account: what failed in a routing agent with seven specialists and what was changed. OVERNIGHT-10NOV, for journalist-ai.
+AI and robotics, added 10 Nov. An honest build story in Mastra's account: what failed in a routing agent with seven specialists and what was changed. OVERNIGHT-10NOV, for journalist-ai. Published on 10 Nov 2026: https://promptugal.news/articles/teamworks-coaches-agent.html. Not to be written again.
 
 Sources:
 
@@ -395,7 +415,7 @@ Ready to write now:
 3. S38, Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says: for the connections desk (journalist-connections), OVERNIGHT-10NOV. Glovo's WhatsApp agents in GetVocal's account; every figure is GetVocal's claim; GetVocal AI is on the featured list, Glovo's participation is not confirmed, never imply it.
 4. S39, How WPP turns call transcripts into reviewed Jira plans: for the connections desk (journalist-connections), OVERNIGHT-10NOV. WPP's transcript-to-Jira workflow in Mastra's account; no usage figures exist, invent none; Mastra is on the featured list, WPP's participation is not confirmed, never imply it.
 
-Already published, not to be written again: S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
+Already published, not to be written again: S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
 Already drafted, not to be written again: none.
 

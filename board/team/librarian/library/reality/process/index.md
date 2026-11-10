@@ -26,32 +26,32 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-998 cards (998 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T10:00:02Z at site v0.1.979; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1005 cards (1005 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T13:02:20Z at site v0.1.1002; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 33 |
+| `GDN.MEMO` | 35 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 31 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 49 |
+| `WRK.BRIEF` | 52 |
 | `WRK.DEC` | 13 |
-| `WRK.DESK` | 17 |
+| `WRK.DESK` | 18 |
 | `WRK.FIND` | 177 |
 | `WRK.PASS` | 29 |
-| `WRK.PLAN` | 34 |
+| `WRK.PLAN` | 35 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
-- `ACC-20261110-0099` [Silvio's news scout desk](https://promptugal.news/desks/jornal-silvio/README.md) (`WRK.DESK jornal-silvio`)
-- `ACC-20261110-0098` [GAMMA-Ray  -  Model Name & Concept Specification](https://promptugal.news/board/briefs/gamma-ray/gamma-ray-concept-spec.md) (`WRK.BRIEF gamma-ray-concept-spec`)
-- `ACC-20261110-0097` [Agentic AI Maturity Mapping  -  Standards Selection & Graph Model Design](https://promptugal.news/board/briefs/gamma-ray/agentic-maturity-standards-selection.md) (`WRK.BRIEF agentic-maturity-standards-selection`)
-- `ACC-20261110-0096` [GAMMA-Ray: PrompTugal.news's centre of gravity, the agentic maturity of every company we cover](https://promptugal.news/board/briefs/2026-11-09-gamma-ray.md) (`WRK.BRIEF 2026-11-09-gamma-ray`)
-- `ACC-20261110-0019` [Dinis, 10 November 2026, about 02:40 UTC: THE RESTART, accelerate every team on one theme (agentic, GAMMA-Ray, interviews, the app on the web, RiskMandate…](https://promptugal.news/board/guidance/2026-11-10-the-restart.md) (`GDN.MEMO 2026-11-10-the-restart`)
+- `ACC-20261110-0211` [The agentic edition's home page: direction B (Calcada), what to build](https://promptugal.news/board/spec-the-agentic-home-page.md) (`WRK.PLAN spec-the-agentic-home-page`)
+- `ACC-20261110-0210` [conductor-vicky](https://promptugal.news/desks/conductor-vicky/) (`WRK.DESK conductor-vicky`)
+- `ACC-20261110-0209` [2026-11-10T1036Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-10T1036Z-then-and-now.jpg) (`WRK.BRIEF 2026-11-10T1036Z-then-and-now`)
+- `ACC-20261110-0208` [2026-11-10T1036Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-10T1036Z.pdf) (`WRK.BRIEF 2026-11-10T1036Z:2`)
+- `ACC-20261110-0207` [2026-11-10T1036Z.json](https://promptugal.news/board/editor-briefs/2026-11-10T1036Z.json) (`WRK.BRIEF 2026-11-10T1036Z`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

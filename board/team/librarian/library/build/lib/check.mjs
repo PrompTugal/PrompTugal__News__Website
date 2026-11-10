@@ -11,12 +11,12 @@ import { REL, INVERSE, ontologyOf } from './linktypes.mjs'
 import { loadDomains, readExists, MARK_BEGIN, MARK_END } from './reality.mjs'
 import { validateShape, checkPresets } from './graph.mjs'
 
-const SIZE_LIMIT = 12 * 1024 * 1024  // the library grows with the site: raised from 7 MB on 6 November at 16:40 (6.9 MB that afternoon)
+const SIZE_LIMIT = 14 * 1024 * 1024  // raised from 7 MB (6 November, 16:40) to 12, then to 14 on 10 November, 13:30, only after bulk machine-made board material was described per series that morning: what grows now is real holdings and the pieces' provenance
 
 export function libraryFiles(libDir) {
   const names = ['accession-register.jsonl', 'cards.json', 'shelf-list.md', 'classification.json', 'README.md', 'index.md', 'reading-room.htm']
   const out = names.map((n) => path.join(libDir, n)).filter((p) => fs.existsSync(p))
-  for (const d of ['catalogue', 'authority', 'shelf-list', 'indexes', 'vocabulary', 'stocktake', 'reality', 'graph', 'finding-aids', 'special']) out.push(...walk(path.join(libDir, d), (p) => /\.(jsonl|json|md)$/.test(p)))
+  for (const d of ['catalogue', 'authority', 'shelf-list', 'indexes', 'vocabulary', 'stocktake', 'reality', 'graph', 'finding-aids', 'special', 'provenance']) out.push(...walk(path.join(libDir, d), (p) => /\.(jsonl|json|md)$/.test(p)))
   const weeding = path.join(libDir, 'weeding.md')
   if (fs.existsSync(weeding)) out.push(weeding)
   return out
