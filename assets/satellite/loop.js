@@ -49,7 +49,7 @@
     var held = {}   // time -> object URL
     function fetchFrame(f) {
         if (held[f.t]) return Promise.resolve(held[f.t])
-        return fetch(f.file).then(function (r) { return r.ok && /^image\//.test(r.headers.get('content-type') || '') ? r.blob() : Promise.reject() }).then(function (blob) {
+        return fetch(f.file, { credentials: 'omit', referrerPolicy: 'no-referrer' }).then(function (r) { return r.ok && /^image\//.test(r.headers.get('content-type') || '') ? r.blob() : Promise.reject() }).then(function (blob) {
             var url = URL.createObjectURL(blob)
             return new Promise(function (ok, no) { var p = new Image(); p.onload = function () { p.naturalWidth === live.width ? ok(url) : (URL.revokeObjectURL(url), no()) }; p.onerror = function () { URL.revokeObjectURL(url); no() }; p.src = url })
         }).then(function (url) { held[f.t] = url; return url })
@@ -68,7 +68,7 @@
     }
     function check() {
         if (document.hidden) return
-        fetch(live.caps, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.text() : Promise.reject() }).then(function (xml) {
+        fetch(live.caps, { cache: 'no-cache', credentials: 'omit', referrerPolicy: 'no-referrer' }).then(function (r) { return r.ok ? r.text() : Promise.reject() }).then(function (xml) {
             var m = /<Dimension name="time"[^>]*>[^<]*\/(\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d)(?:\.\d+)?Z\/PT(\d+)M/.exec(xml); if (!m) return
             var end = Date.parse(m[1] + 'Z'), step = +m[2] * 60000
             if (frames.length && !(end > Date.parse(last().t))) return
