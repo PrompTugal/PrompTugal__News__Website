@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.949",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "befb2d2b9"
+  },
+  {
     "version": "v0.1.948",
     "date": "2026-11-10",
     "what": "jornal@PrompTugal.silvio: agentic AI first among the beats, after the restart",
