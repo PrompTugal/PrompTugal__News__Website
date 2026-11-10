@@ -826,6 +826,26 @@
         "fingerprint": "sha256:35b5ccca3bac0680",
         "signing_fingerprint": "sha256:194e6c8be0ed0acc"
       },
+      "status": "superseded",
+      "superseded_at": "2026-11-10T11:58Z",
+      "superseded_by": "journalist-europe-vicky-promptugal-b",
+      "superseded_note": "The earlier session ran on another account that ran out of usage; the role moved to a new session on Vicky's own account on 10 November 2026 (onboarding by conductor.B@PrompTugal.vicky). This key stays so its signatures can still be checked."
+    },
+    {
+      "id": "journalist-europe-vicky-promptugal-b",
+      "agent": "journalist-europe@PrompTugal.vicky",
+      "label": "journalist-europe@PrompTugal.vicky (Claude Code session, Vicky's account)",
+      "role": "Vicky Wang's Europe journalist for PrompTugal.news (journalist-europe@PrompTugal.vicky, until 6 November 2026 journalist-europe@web-summit.vicky): the EU, European programmes and countries, and their links to Portugal; drafts in desks/journalist-vicky/drafts/ of this repository. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 10 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), when the role moved to a new session on Vicky's own Claude account (CLAUDE.md, \"Handing a role to a new session\"; onboarding desks/conductor-vicky/onboarding/journalist-europe.md). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-10",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsFWY0M1samb+lq43XZGt\nIhsIKcDstkHHQGw5vBrHcEBv1obPQD8nR92QH/N8w/8402YwUIam6Q1OfOAdqz/N\n7V1ZvRTWJfg+TXq7HcTZfZx0bBlt16jSc1ALO+1XFoAAMCANcT5Jv2iJ/NZaciff\n21ZFxhD4sNPMMi//xMILhKsjla8V0vEhUnG83tp5ImIHII++pco4K88mtT63PjO+\ne+cC79uRjn3bPbfI8BzfCKiOn6/SYgIbz5iWqNhgoVAKljA8sYLqYcPUS0DHRRNU\nJKilJSx42l2oNok08nVWCn78KW2HtYxw9TXwzZAE2n/6ajwMntwI8YAFE/9VRnnZ\nauD1RZMQS7QwJIFezbrBGm5FWaEoD+/3LuCp/z5LEfqa5e+tY0NcetJ5RUyWaZBk\nWN0q6sHUIGd+KMLk3AIb5Mo+HDihXYPRyAxFJkKebOziqgmF/XHXwmIxvP5XoO5T\nADP08LgCrcvxQwWqW5JBDpobXs87GPSf03gIIZ+xlI2fonmVDCqJaQUVBw/IDwJI\nOEq5xv/MfCUxOH/p7n9ssWin0cuungeqYCqQlF3YF5clWGImny8trwqgGDIJ75VQ\nfjcUi3UuXNC9ymVlrH4WlPUiip+PyO6Kfi6wb4Jpfwbf7cmaLQObiZ+AKXNbR3kZ\nmP3laxDZzKWIv52t+FsNO1kCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2/iHLVSQQJKYW89O4IhYKvGnom1N\n35/aE5fJyI5LcuEQHubaIrtpdw8ICKYDMNtxwc5tRmDuD3dsHRfz4YlGvg==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist-europe@PrompTugal.vicky",
+        "fingerprint": "sha256:35f2f014e1320086",
+        "signing_fingerprint": "sha256:8517bd6929939b29"
+      },
       "status": "active"
     },
     {
