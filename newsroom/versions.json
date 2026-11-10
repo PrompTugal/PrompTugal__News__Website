@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.979",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 09:48 wake: ledger; dev@ and dev.pages@ need Dinis in this session, not by relay",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ea9079a68"
+  },
+  {
     "version": "v0.1.978",
     "date": "2026-11-10",
     "what": "conductor@PrompTugal.dinis: wake 09:36: dev@ and dev.pages@ still blocked on account B; design flip read",
