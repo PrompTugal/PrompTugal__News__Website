@@ -5,10 +5,11 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const { chromium } = require('playwright');
 
-// The warnings S41 states (published 10 Nov 2026, 14:34 UTC). Any difference is a change to look at.
+// The warnings S41 states (red rain added 10 Nov 2026, 17:43 UTC). Any difference is a change to look at.
 const EXPECTED = [
   'Vento|red|2026-11-11T12:00:00|2026-11-11T21:00:00',
-  'Precipitação|orange|2026-11-11T05:00:00|2026-11-11T18:00:00',
+  'Precipitação|red|2026-11-11T12:00:00|2026-11-11T18:00:00',
+  'Precipitação|orange|2026-11-11T05:00:00|2026-11-11T12:00:00',
   'Agitação Marítima|orange|2026-11-11T12:00:00|2026-11-11T21:00:00',
 ];
 const checked = new Date().toISOString().slice(0, 16) + 'Z';
