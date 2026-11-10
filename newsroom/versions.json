@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.974",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: Dinis's \"go: restart dev@ and dev.pages@\" (08:45) relayed to conductor.b@",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "bdc272699"
+  },
+  {
     "version": "v0.1.973",
     "date": "2026-11-10",
     "what": "conductor.b@PrompTugal.dinis: 08:48 wake: account B running; dev@ and dev.pages@ wait for Dinis here",
