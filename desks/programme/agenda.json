@@ -3,7 +3,7 @@
  "agent": "programme@web-summit.vicky",
  "for": "newsroom@web-summit.dinis (the front page's agenda, brief 6)",
  "title": "The agenda to Thursday 12 November 2026",
- "generated_at": "2026-11-10T05:09Z",
+ "generated_at": "2026-11-10T12:53Z",
  "from": "2026-11-10",
  "to": "2026-11-12",
  "times": "UTC. Lisbon is on WET (UTC+0) in November, so these are also Lisbon times. time is null where the source gives none.",
@@ -12,7 +12,7 @@
  "how_read": "Public pages only: websummit.com's schedule date and filter pages, session pages and essentials pages (its robots.txt disallows /api/, which this desk does not use), and each side event's own page, at about one request every 1.5 seconds (5 for portugaltechweek.com). Each item has the page it was read on and when.",
  "rules": "Public material only; every item sourced and dated; people named only as the summit lists them (name, role, organisation); no contact details. Not facts: the team's notes on why a session matters are not copied here.",
  "gaps": [
-  "Times on the summit's schedule are subject to change; 20 of the team's 80 sessions in data/events.json have a different start or end time at the source today, and the agenda uses today's times.",
+  "Times on the summit's schedule are subject to change; 20 of the team's 80 sessions in data/events.json have a different start or end time at the source today, and the agenda uses today's times. Re-read at 2026-11-10T12:53Z: the 54 Centre Stage items (pages 1 to 9) show no change of time.",
   "4 sessions and side events in the team's data/events.json no longer open at the address the team recorded (HTTP 404 today) and are left out until found again: https://websummit.com/sessions/lis26/4a442f4c-c3da-4c62-89ad-b65cc22f988b/whose-ai-is-it-anyway/, https://websummit.com/sessions/lis26/2f8c4adf-ebea-46d7-b876-1b9bd5a6c1dc/aicep-connecting-portuguese-startups-to-global-markets-hosted-by-aicep/, https://websummit.com/sessions/lis26/613fe4dd-e6ea-4bf9-9289-d7385ab7aef7/beyond-the-prompt-building-resilient-systems-in-the-vibe-coding-era/, https://websummit.com/sessions/lis26/7af523ac-6153-4f20-b76f-c7a9e7dcdf50/an-evening-with-elastic-in-lisbon/",
   "Web Summit's official 2026 attendance figures: no date published. The CEO's press conference is on Wednesday 11 November at 11:00.",
   "Portugal Tech Week event pages do not show their dates to a plain read; those items keep the team's reading of 1 November."
@@ -446,7 +446,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Otto Costa Miranda (CEO, Ephemeral)",
     "Paul Benigeri (CEO, Archive)",
@@ -454,7 +454,8 @@
     "Neha Mittal (Co-Founder & CEO, JustAI)",
     "Jimmy Douglas (Founder & CEO, Plug)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/66205ff8-6ea5-42d4-ac51-eb26c65a5d02/breakout-startups/"
+   "session_url": "https://websummit.com/sessions/lis26/66205ff8-6ea5-42d4-ac51-eb26c65a5d02/breakout-startups/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -463,11 +464,12 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/1/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Casey Lau (Co-Host, Web Summit)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/7332868f-6c7b-4e66-a1e0-293650e4254f/opening-remarks/"
+   "session_url": "https://websummit.com/sessions/lis26/7332868f-6c7b-4e66-a1e0-293650e4254f/opening-remarks/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -476,12 +478,13 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Richard Socher (Co-founder & CEO, Recursive & You.com)",
     "Kate Knibbs (Senior Writer, Wired)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/e7e83ab8-8381-419f-a688-23025a1c8422/when-ai-builds-itself/"
+   "session_url": "https://websummit.com/sessions/lis26/e7e83ab8-8381-419f-a688-23025a1c8422/when-ai-builds-itself/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -491,7 +494,8 @@
    "kind": "pitch",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiUElUQ0gifQ==/page/1/",
    "read_at": "2026-11-10T05:07Z",
-   "session_url": "https://websummit.com/sessions/lis26/c3703a46-e6a5-4106-a8ec-0c7777160569/pitch-group-round-1/"
+   "session_url": "https://websummit.com/sessions/lis26/c3703a46-e6a5-4106-a8ec-0c7777160569/pitch-group-round-1/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -501,7 +505,8 @@
    "kind": "pitch",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiUElUQ0gifQ==/page/1/",
    "read_at": "2026-11-10T05:07Z",
-   "session_url": "https://websummit.com/sessions/lis26/d3438753-a0a5-42c7-a059-e32e59512993/pitch-group-round-2/"
+   "session_url": "https://websummit.com/sessions/lis26/d3438753-a0a5-42c7-a059-e32e59512993/pitch-group-round-2/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -511,7 +516,8 @@
    "kind": "pitch",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiUElUQ0gifQ==/page/1/",
    "read_at": "2026-11-10T05:07Z",
-   "session_url": "https://websummit.com/sessions/lis26/f442df74-e1b9-4b4f-bf96-5f0b16114cd0/pitch-group-round-3/"
+   "session_url": "https://websummit.com/sessions/lis26/f442df74-e1b9-4b4f-bf96-5f0b16114cd0/pitch-group-round-3/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -528,7 +534,8 @@
     "Mike Benz (Executive Director of the Foundation For Freedom Online, Foundation For Freedom Online)",
     "Luc Chénier (CEO, Kyiv Post)"
    ],
-   "via": "the team's data/events.json, re-checked at the source"
+   "via": "the team's data/events.json, re-checked at the source",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -537,14 +544,15 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Alan Shen (MD Global, MiniMax)",
     "Dahai Li (Co-founder & CEO, ModelBest)",
     "Rohit Sharma (Partner, True Ventures)",
     "Reya El-Salahi (Presenter / Journalist, CGTN Europe)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/67bf8048-752a-43d1-84fc-7a03cfdd45ad/the-open-source-advantage/"
+   "session_url": "https://websummit.com/sessions/lis26/67bf8048-752a-43d1-84fc-7a03cfdd45ad/the-open-source-advantage/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -558,7 +566,8 @@
     "Peter Escher (Chief Data Operations Officer, PItchBook)",
     "Paul Santarelli (Chief Solutions Officer, PitchBook Data)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/3c456209-8f0b-41df-8c2e-f4a329945082/press-conference-pitchbook-goes-free-for-startups-new-platform-for-finding-them-first/"
+   "session_url": "https://websummit.com/sessions/lis26/3c456209-8f0b-41df-8c2e-f4a329945082/press-conference-pitchbook-goes-free-for-startups-new-platform-for-finding-them-first/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -567,12 +576,13 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Arvind Jain (Founder & CEO, Glean)",
     "Harry McCracken (Technology Editor, Fast Company)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/a7f385ed-1ef1-4a73-8a5f-bb0c3cde833a/the-ai-paradox-smarter-models-disappointing-results/"
+   "session_url": "https://websummit.com/sessions/lis26/a7f385ed-1ef1-4a73-8a5f-bb0c3cde833a/the-ai-paradox-smarter-models-disappointing-results/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -586,7 +596,8 @@
     "Benjamin Faes (CEO, RWS Group)",
     "Elena Poughia (Managing Editor, Dataconomy Media)"
    ],
-   "via": "the team's data/events.json, re-checked at the source"
+   "via": "the team's data/events.json, re-checked at the source",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -600,7 +611,8 @@
     "Michael McNamara (MEP, The European Parliament)",
     "Mathias Stamm (Editor-in-Chief, Deutsche Welle)"
    ],
-   "via": "the team's data/events.json, re-checked at the source"
+   "via": "the team's data/events.json, re-checked at the source",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -615,7 +627,8 @@
     "Renée DiResta (Associate Research Professor, Georgetown University)",
     "Abigail Slater (Former Assistant Attorney General, The US Government)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/c83b83a7-f04d-44b4-8760-08c086752eb1/guardrails-for-doomsday-can-ai-be-regulated-press-conference/"
+   "session_url": "https://websummit.com/sessions/lis26/c83b83a7-f04d-44b4-8760-08c086752eb1/guardrails-for-doomsday-can-ai-be-regulated-press-conference/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -625,7 +638,8 @@
    "kind": "pitch",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiUElUQ0gifQ==/page/1/",
    "read_at": "2026-11-10T05:07Z",
-   "session_url": "https://websummit.com/sessions/lis26/7c81a43b-13d6-4776-b514-a18b3ac395bc/pitch-group-round-4/"
+   "session_url": "https://websummit.com/sessions/lis26/7c81a43b-13d6-4776-b514-a18b3ac395bc/pitch-group-round-4/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -635,7 +649,8 @@
    "kind": "pitch",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiUElUQ0gifQ==/page/1/",
    "read_at": "2026-11-10T05:07Z",
-   "session_url": "https://websummit.com/sessions/lis26/a3101dc9-09f3-4854-9329-0b10f0d5a719/pitch-group-round-5/"
+   "session_url": "https://websummit.com/sessions/lis26/a3101dc9-09f3-4854-9329-0b10f0d5a719/pitch-group-round-5/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -645,7 +660,8 @@
    "kind": "pitch",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiUElUQ0gifQ==/page/1/",
    "read_at": "2026-11-10T05:07Z",
-   "session_url": "https://websummit.com/sessions/lis26/16409bb7-704d-4670-98c1-b765934d2c5e/pitch-group-round-6/"
+   "session_url": "https://websummit.com/sessions/lis26/16409bb7-704d-4670-98c1-b765934d2c5e/pitch-group-round-6/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -654,12 +670,13 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Henna Virkkunen (Executive Vice-President for Technological Sovereignty, Security, and Democracy, European Commission)",
     "Laura Greenhalgh (Editorial Director for Global Technology, POLITICO)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/ec64d706-da78-4041-bf35-5810a3df34b1/has-europe-s-tech-moment-arrived/"
+   "session_url": "https://websummit.com/sessions/lis26/ec64d706-da78-4041-bf35-5810a3df34b1/has-europe-s-tech-moment-arrived/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -672,7 +689,8 @@
    "speakers": [
     "Jordi Romero (Co-founder & CEO, Factorial)"
    ],
-   "via": "the team's data/events.json, re-checked at the source"
+   "via": "the team's data/events.json, re-checked at the source",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -681,14 +699,15 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Paul Bascobert (President, Reuters News)",
     "Julie Pace (SVP and Executive Editor, Associated Press)",
     "Louis Dreyfus (CEO, Le Monde)",
     "Chung-Yan Chow (Editor-in-chief, South China Morning Post)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/db87fd1a-c1c5-4c2d-b676-25f749e14dca/ai-your-new-news-editor/"
+   "session_url": "https://websummit.com/sessions/lis26/db87fd1a-c1c5-4c2d-b676-25f749e14dca/ai-your-new-news-editor/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -701,7 +720,8 @@
    "speakers": [
     "Benjamin Faes (CEO, RWS Group)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/c1fc9b24-b85a-4ca3-8e14-11c3454a34a2/press-conference-rws-launches-the-world-s-first-culturally-intelligent-content-platform/"
+   "session_url": "https://websummit.com/sessions/lis26/c1fc9b24-b85a-4ca3-8e14-11c3454a34a2/press-conference-rws-launches-the-world-s-first-culturally-intelligent-content-platform/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -711,7 +731,8 @@
    "kind": "team-pick",
    "source_url": "https://websummit.com/sessions/lis26/212f884a-834e-4db2-b5f3-9ea3ef39a0ed/dogfooding-ai-security-lessons-from-our-own-soc-hosted-by-elastic/",
    "read_at": "2026-11-10T05:06Z",
-   "via": "the team's data/events.json, re-checked at the source"
+   "via": "the team's data/events.json, re-checked at the source",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -720,12 +741,13 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Matthew Prince (Co-founder & CEO, Cloudflare)",
     "Nick Thompson (CEO, The Atlantic)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/4421ffa8-97ef-4466-8669-31c47cff3b5a/the-agentic-internet-who-controls-the-web/"
+   "session_url": "https://websummit.com/sessions/lis26/4421ffa8-97ef-4466-8669-31c47cff3b5a/the-agentic-internet-who-controls-the-web/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -740,7 +762,8 @@
     "Steve Cortes (Campaign Strategist, Media Spokesman, Trump & Vance Campaigns)",
     "Nathan J Robinson (English American writer, editor of Current Affairs Magazine whose latest book is couathored with Noam Chomsky, Current Affairs)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/7b86b4b5-7090-432e-9af0-3a4651d96ad5/what-do-the-us-midterms-tell-us-about-the-future-of-america-press-conference/"
+   "session_url": "https://websummit.com/sessions/lis26/7b86b4b5-7090-432e-9af0-3a4651d96ad5/what-do-the-us-midterms-tell-us-about-the-future-of-america-press-conference/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -750,7 +773,8 @@
    "kind": "team-pick",
    "source_url": "https://websummit.com/sessions/lis26/437ebaa7-ccc4-4e89-a01f-0ae1958e7726/a-guide-to-portugal-s-startup-scene-hosted-by-startup-portugal/",
    "read_at": "2026-11-10T05:06Z",
-   "via": "the team's data/events.json, re-checked at the source"
+   "via": "the team's data/events.json, re-checked at the source",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -799,12 +823,13 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/2/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Diana Layfield (Group CEO, Monzo)",
     "Charlie Wells (Reporter and Editor, Bloomberg)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/543e9fa5-7da2-4e69-9de1-e36e2ce645e8/next-generation-banking-with-global-ambition/"
+   "session_url": "https://websummit.com/sessions/lis26/543e9fa5-7da2-4e69-9de1-e36e2ce645e8/next-generation-banking-with-global-ambition/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -820,7 +845,8 @@
     "Luiz Alberto Amorim (Superintendente, SEBRAE PARAIBA)",
     "Amilcar Queiroz (President, FAPESQ-PB)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/43576352-a9ec-4bae-9f7a-ea7c66336cea/press-conference-web-summit-spotlight-heads-to-paraiba-as-part-of-four-year-partnership/"
+   "session_url": "https://websummit.com/sessions/lis26/43576352-a9ec-4bae-9f7a-ea7c66336cea/press-conference-web-summit-spotlight-heads-to-paraiba-as-part-of-four-year-partnership/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -829,13 +855,14 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Des Hogan (Commissioner, Data Protection Commission)",
     "Abigail Slater (Former Assistant Attorney General, The US Government)",
     "Andrew Sollinger (CEO & Publisher, Foreign Policy Magazine)"
    ],
-   "session_url": "https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/"
+   "session_url": "https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/",
+   "past": true
   },
   {
    "date": "2026-11-10",
@@ -880,7 +907,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Deli Zhao (Founder and President, Xpeng Aridge)",
     "Jianhua Li (Correspondent & News Anchor, CGTN Europe)"
@@ -908,7 +935,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Casey Lau (Co-Host, Web Summit)"
    ],
@@ -921,7 +948,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Michele Catasta (President, Replit)",
     "Sara Fischer (Media Correspondent, Axios)"
@@ -1003,7 +1030,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Mike Cannon-Brookes (Co-founder & CEO, Atlassian)",
     "James Vowles (Team Principal, Atlassian Williams F1 Team)",
@@ -1047,7 +1074,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "KC Sullivan (President, CNBC)",
     "Matt Murray (Executive Editor, The Washington Post)",
@@ -1062,7 +1089,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/3/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Albert Wenger (Managing Partner, Union Square Ventures)",
     "Gigi Danziger (Founder, Eutopia)"
@@ -1119,7 +1146,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Thibaut Courtois (Real Madrid Footballer & Investor, NXTPLAY Capital)",
     "Gonzalo Vila (Co-Founder & CEO, NXTPLAY Capital)",
@@ -1147,7 +1174,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Matt Murray (Executive Editor, The Washington Post)",
     "Betsy Reed (Editor-in-Chief, The Guardian US)",
@@ -1189,7 +1216,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Abhinav Gupta (Co founder, President, Skild AI)"
    ],
@@ -1212,7 +1239,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Ali Partovi (Founding Partner, Neo)",
     "Amy Nordrum (Executive Editor, MIT Technology Review)"
@@ -1363,7 +1390,8 @@
    "where": "Quiosque Lisboa, Praça São Paulo, Lisbon",
    "kind": "night-summit",
    "source_url": "https://websummit.com/essentials/schedule/",
-   "read_at": "2026-11-10T05:06Z"
+   "read_at": "2026-11-10T05:06Z",
+   "past": true
   },
   {
    "date": "2026-11-11",
@@ -1381,7 +1409,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Haz Hubble (CEO & Co-Founder, Pally)",
     "Hanh Nguyen (CEO & Co-Founder, alqem)",
@@ -1398,7 +1426,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Anton Osika (Co-founder & CEO, Lovable)",
     "Harry McCracken (Technology Editor, Fast Company)"
@@ -1453,7 +1481,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/4/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Ling Ge (Chief Investment and Strategy Officer (EMEA), Tencent)",
     "Sam Stephenson (Co-founder, Granola)",
@@ -1512,7 +1540,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Mattias Ljungman (Founder & CEO, Moonfire)",
     "Steve Vassallo (General Partner, Foundation Capital)",
@@ -1555,7 +1583,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Marc Lacey (Managing Editor, The New York Times)",
     "Betsy Reed (Editor-in-Chief, The Guardian US)",
@@ -1630,7 +1658,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Philippe Botteri (Partner, Accel)",
     "Arjun Kharpal (Senior Technology Correspondent, CNBC)"
@@ -1710,7 +1738,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "James Galbraith (Lloyd M. Bentsen, jr. Chair in Government/Business Relations, LBJ School of Public Affairs, The University of Texas at Austin, and Member, Lisbon Academy of Sciences, Lyndon B. Johnson Schoo of Public Affairs, University of Austin Texas)",
     "Sinéad O'Sullivan (Strategy and Competitiveness, Harvard Business School/Harvard Business Review)",
@@ -1771,7 +1799,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Jen Wong (COO, Reddit)",
     "Harry McCracken (Technology Editor, Fast Company)"
@@ -1800,7 +1828,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Andreas Blattmann (Co Founder, Black Forest Labs)"
    ],
@@ -1813,7 +1841,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/5/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Ciara Haley (Executive Producer | Special Projects, Web Summit)"
    ],
@@ -1839,7 +1867,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "George Kurtz (Co-founder & CEO, CrowdStrike)",
     "Dayana Sarkisova (Senior Editor, TIME)"
@@ -1891,7 +1919,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Jill Kramer (Chief Marketing & Communications Officer, Mastercard)",
     "Don McGuire (EVP and CMO, Qualcomm)",
@@ -1934,7 +1962,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Daniela Braga (Founder & CEO, Defined.ai)",
     "Cristina Ferreira (TV Host, Executive, TVI)"
@@ -1989,7 +2017,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Peter Ludwig (Co-founder & CTO, Applied Intuition)",
     "Kamil Sindi (CTO, Runway)",
@@ -2004,7 +2032,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Jonathan Adashek (Senior Vice President and Chief Global Affairs Officer, IBM)",
     "Nicholas Johnston (Publisher, Axios)"
@@ -2044,7 +2072,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Victor Gao (Chair Professor, Soochow University; Vice President, CCG; and Chairman, China Energy Security, Center for China and Globalization (CCG))",
     "Mary Robinson (Founding Member, The Elders)",
@@ -2073,7 +2101,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/6/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Rene Haas (CEO, Arm Ltd.)",
     "Gian M. Volpicelli (Technology Reporter, Bloomberg)"
@@ -2087,7 +2115,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Renu Navale (VP & GM, Health and Cities Division, Edge Computing Group, Intel)",
     "Carolin Wais (Partner, Plug and Play Tech Center)",
@@ -2176,7 +2204,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Bidhan Roy (Founder & CEO, Physical AI & Robotics, Bagel Labs)",
     "Benjamin Gleason (Founder, Kamino)",
@@ -2192,7 +2220,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "William Shi (President, AgiBot Europe)"
    ],
@@ -2218,7 +2246,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Fei Xu (CMO, Xiaomi Group)"
    ],
@@ -2301,7 +2329,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Larry Aschebrook (Founder and Managing Partner, G Squared)",
     "Sarah Kunst (Founder & Managing Director, Cleo Capital)",
@@ -2360,7 +2388,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/7/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Mahi de Silva (Co-Founder & Chief Strategy Officer, Higgsfield)",
     "Stephanie Liu (CEO, Levitate Foundry)",
@@ -2402,7 +2430,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Idalia Friedson (Co-Founder, Sygaldry Technologies)",
     "Laureen Meroueh (Founder & CEO, Hertha Metals)",
@@ -2445,7 +2473,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Peter Koerte (Member of the Managing Board of Siemens AG and President Smart Infrastructure, Siemens AG)"
    ],
@@ -2525,7 +2553,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Bill Gross (Founder, Idealab.ai & ProRata)",
     "Blake Montgomery (Tech Editor, The Guardian US)"
@@ -2581,7 +2609,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Sarah Kunst (Founder & Managing Director, Cleo Capital)",
     "Rainer Märkle (General Partner, HV Capital)",
@@ -2648,7 +2676,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Jeremy Fraenkel (Co-founder & CEO, Fundamental)",
     "Max Schireson (Partner, Battery Ventures)",
@@ -2689,7 +2717,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Giacomo Ficari (Director of International, Moonshot AI (Kimi))"
    ],
@@ -2732,7 +2760,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Jacob Lauritzen (CTO, Legora)",
     "Timothy Young (CEO, Jasper)",
@@ -2777,7 +2805,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/9/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "session_url": "https://websummit.com/sessions/lis26/f6569668-2ada-4c9c-8946-1f848a8a29df/pitch-winner-announcement/"
   },
   {
@@ -2800,7 +2828,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/9/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Nick Yu (Chief Product Officer, OMOWAY)",
     "Irene Long (CSO, Rokid)",
@@ -2844,7 +2872,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/9/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Dan Neely (Co-Founder and CEO, Vermillio)",
     "Duncan Crabtree-Ireland (National Executive Director & CEO, SAG-AFTRA)",
@@ -2899,7 +2927,7 @@
    "where": "Centre Stage, MEO Arena and FIL",
    "kind": "summit",
    "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/9/",
-   "read_at": "2026-11-10T05:07Z",
+   "read_at": "2026-11-10T12:53Z",
    "speakers": [
     "Juan Mata (Investor & Co-founder, C-Lab, Unleash Football)",
     "Jürgen Griesbeck (Co-founder, C-Lab)",
