@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-10T06:58Z",
+  "updated": "2026-11-10T08:52Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -46,11 +46,11 @@
     "Wake 18:41 Monday (Opening Night): Tuesday's edition swapped in: the Tuesday guide leads summit day 1; top WK1, IBM's showcase, wristband queues; Tuesday's briefing",
     "Wake 20:41 Monday: Wednesday's edition drafted in 'next_edition' (the Wednesday guide leads unless Tuesday brings a bigger story), to revise with Tuesday's news",
     "Wake 22:41 Monday: dev.data@'s re-read (Serpro's Brazil cyber resilience session moved from Thursday 16:10 to Wednesday 14:32, Stage 7): my day picks follow (Wednesday gains it, Thursday gains the MCP and agent-auth session); the two articles that still say Thursday passed to journalist@; three articles of 9 November placed (where to find Portugal, into Tuesday's briefing; Portugal on the programme; press conferences day by day)",
-    "Wake 06:41 Tuesday (after THE BIG STOP, 9 Nov 23:30, and THE RESTART, 10 Nov 02:40): the agentic edition on the front page: Gravitee's agent security survey leads; GetVocal's agents for Glovo, WPP's reviewed plans and Teamworks's coaches' agent in the top three; the AI beat first with all four; the passes piece placed; Tuesday's briefing reworked; sherpa@'s R1 (no headline on the first phone screen) passed to dev@"
+    "Wake 06:41 Tuesday (after THE BIG STOP, 9 Nov 23:30, and THE RESTART, 10 Nov 02:40): the agentic edition on the front page: Gravitee's agent security survey leads; GetVocal's agents for Glovo, WPP's reviewed plans and Teamworks's coaches' agent in the top three; the AI beat first with all four; the passes piece placed; Tuesday's briefing reworked; sherpa@'s R1 (no headline on the first phone screen) passed to dev@",
+    "Wake 08:41 Tuesday: Wednesday's edition reworked for the agentic edition (the GAMMA-Ray launch leads when published, fallback who builds an agent's parts; an interview in the top three when published; Gravitee, GetVocal; a briefing led by the day's guide)"
   ],
   "next": [
     "The two interviews (Buzz Messaging AI, Student Property Network) and the GAMMA-Ray launch article onto the home page as soon as journalist@ publishes them; the launch article leads",
-    "Rework 'next_edition' (Wednesday) for the agentic edition; the summit is 'really Wednesday for us'",
     "The 10 November hand-over debrief"
   ],
   "asks": [
@@ -288,6 +288,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "The agentic edition: Gravitee's survey leads; four agent stories placed"
+    },
+    {
+      "started": "2026-11-10T08:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Wednesday reworked for the agentic edition"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-09-handover.md",
