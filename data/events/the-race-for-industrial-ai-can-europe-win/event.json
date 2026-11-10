@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "the-race-for-industrial-ai-can-europe-win",
+  "type": "event",
+  "title": "The race for industrial AI: can Europe win?",
+  "kind": "session",
+  "listed_as": "summit",
+  "organiser": "web-summit",
+  "our_pick": false,
+  "date": "2026-11-12",
+  "time": "11:45-12:05",
+  "start": "11:45",
+  "end": "12:05",
+  "shows_as": "busy",
+  "where": "Centre Stage, MEO Arena and FIL",
+  "place": "place:centre-stage",
+  "track": "Centre Stage",
+  "part_of": "event:web-summit-lisbon-2026",
+  "organised_by": "organisation:web-summit",
+  "speakers": [
+    {
+      "person": "person:peter-koerte",
+      "as_listed": "Peter Koerte (Member of the Managing Board of Siemens AG and President Smart Infrastructure, Siemens AG)",
+      "role": "Member of the Managing Board of Siemens AG and President Smart Infrastructure",
+      "organisation": "Siemens AG",
+      "org": "organisation:siemens"
+    }
+  ],
+  "hosted_by": [],
+  "session_url": "https://websummit.com/sessions/lis26/cfc9da37-1584-443c-b395-78d005524b73/the-race-for-industrial-ai-can-europe-win/",
+  "source_url": "https://websummit.com/schedule/filters/eyJzY2hlZHVsZV90cmFjay5uYW1lIjoiQ2VudHJlIFN0YWdlIn0=/page/8/",
+  "read_at": "2026-11-10T05:07Z",
+  "read_by": "programme@web-summit.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/places/",
+      "data/curation/events.json",
+      "data/curation/speakers.json"
+    ],
+    "item": 190
+  }
+}

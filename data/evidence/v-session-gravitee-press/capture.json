@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-session-gravitee-press",
+  "type": "evidence",
+  "source_url": "https://websummit.com/sessions/lis26/d3cdbf5f-8f51-48b8-9759-4a2c8dc2c441/press-conference-with-gravitee-ceo-rory-blundell-collapsing-confidence-in-agent-ai-security-after-six-months-of-reality/",
+  "beat": "AI and robotics",
+  "group": "OVERNIGHT-10NOV pivot",
+  "names": [],
+  "desk_file": "desks/curator/2026-11-10-0110.json",
+  "run": "2026-11-10T01:10Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-0110.json"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "siemens",
+  "type": "organisation",
+  "name": "Siemens AG",
+  "names_as_listed": [
+    "Siemens AG"
+  ],
+  "sources": [
+    {
+      "url": "https://websummit.com/sessions/lis26/cfc9da37-1584-443c-b395-78d005524b73/the-race-for-industrial-ai-can-europe-win/",
+      "read_at": "2026-11-10T05:07Z",
+      "by": "programme@web-summit.vicky",
+      "how": "a speaker card on the event page"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-09T20:48Z",
+  "updated": "2026-11-09T22:52Z",
   "edition": "the Web Summit edition, 9 to 12 November 2026",
   "lead": {
     "article": "tuesday-10-november-three-ways-in",
@@ -44,7 +44,8 @@
         "gender-in-tech-report-2026",
         "web-summit-before-2026",
         "health-startups-by-problem",
-        "ibm-sports-tech-challenge"
+        "ibm-sports-tech-challenge",
+        "press-conferences-day-by-day"
       ]
     },
     {
@@ -63,6 +64,8 @@
     {
       "beat": "Portugal",
       "articles": [
+        "portugal-on-the-programme",
+        "where-to-find-portugal",
         "road-2-web-summit-beyond-lisbon",
         "octo-health-launches",
         "pineapple-waste-to-fish-feed",
@@ -233,7 +236,9 @@
           "the day's sessions on AI agents read through reach, mandate and gap",
           "brazils-startup-house-in-lisbon",
           "brazil-on-the-stages",
-          "ibm-sports-tech-challenge"
+          "ibm-sports-tech-challenge",
+          "where-to-find-portugal",
+          "portugal-on-the-programme"
         ]
       },
       {
@@ -324,8 +329,8 @@
         "why": "the Commission's stand opens"
       },
       {
-        "article": "who-builds-the-parts-of-an-ai-agent",
-        "why": "the agents at the summit"
+        "article": "where-to-find-portugal",
+        "why": "the Portugal Stand, Pavilion 1, E145"
       }
     ]
   },
@@ -373,16 +378,16 @@
         "picks": [
           "event:the-portuguese-economic-success-story",
           "event:the-ai-agent-economy",
-          "event:why-ai-agents-stall-at-the-production-line",
+          "event:brazil-s-blueprint-for-cyber-resilience",
           "event:do-we-need-a-un-ai-treaty",
           "event:building-ai-in-europe-practical-support-for-innovators"
         ],
         "why": {
           "the-portuguese-economic-success-story": "the Portugal beat: Portugal's economy, with its Minister of State and Finance, on the Policy Summit",
           "the-ai-agent-economy": "the AI beat: agents as an economy",
-          "why-ai-agents-stall-at-the-production-line": "why agents stop between demo and production",
           "do-we-need-a-un-ai-treaty": "the rules for AI, on the Policy Summit",
-          "building-ai-in-europe-practical-support-for-innovators": "the Europe beat: the Commission's help for AI builders (our article on Pavilion 4)"
+          "building-ai-in-europe-practical-support-for-innovators": "the Europe beat: the Commission's help for AI builders (our article on Pavilion 4)",
+          "brazil-s-blueprint-for-cyber-resilience": "the Brazil story project: Serpro's CEO on cyber resilience (moved from Thursday to Wednesday 14:32, Stage 7, per dev.data@'s re-read of 9 November)"
         }
       },
       "2026-11-12": {
@@ -391,14 +396,14 @@
           "event:when-ai-agents-go-rogue",
           "event:an-ai-identity-crisis",
           "event:who-holds-the-kill-switch",
-          "event:brazil-s-blueprint-for-cyber-resilience"
+          "event:a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers"
         ],
         "why": {
           "who-let-the-agent-in": "Feedzai's CTO on letting the agent in: our AI5 idea, and a Portuguese company",
           "when-ai-agents-go-rogue": "the gap, when the agent leaves its mandate",
           "an-ai-identity-crisis": "identity for people and agents, on the Cybersecurity Summit",
           "who-holds-the-kill-switch": "who can stop an agent",
-          "brazil-s-blueprint-for-cyber-resilience": "the Brazil story project, on the Cybersecurity Summit"
+          "a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers": "the reach: how an agent and its MCP servers prove who they are"
         }
       }
     }

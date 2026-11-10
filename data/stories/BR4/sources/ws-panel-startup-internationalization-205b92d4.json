@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-panel-startup-internationalization-205b92d4",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/205b92d4-ab79-42a5-82fb-7d45a83eb18c/panel-startup-internationalization/",
+  "title": "Panel: Startup Internationalization (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'Panel: Startup Internationalization', November 11, 2026, 14:00 to 15:00 (Lisbon time), E369, track Stand events. Description: How can startups expand globally? ApexBrasil, Sebrae, Serpro, and Embratur share insights, opportunities, and pathways for international growth"
+}

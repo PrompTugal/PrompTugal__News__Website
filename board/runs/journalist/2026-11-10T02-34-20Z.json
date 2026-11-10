@@ -1,0 +1,133 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist@PrompTugal.dinis",
+ "run": "2026-11-10T02-34-20Z",
+ "started": "2026-11-10T02:34:20.101Z",
+ "ended": "2026-11-10T02:59:46Z",
+ "line": "At Dinis's word: second Audo interview (Student Property Network) to vault w0bf33d4 and an unlisted page; Buzz web cut re-encoded; player retries",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "eed4df976fc8ef95"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-10T02:41:55.307Z",
+   "chars": 161,
+   "sha256": "33d0f38c806b834e",
+   "head": "The commit is taking just a bit longer to git push to GitHub pages. Please tell me you didn't commit to the repo the videos, which should be in the vault, right?"
+  },
+  {
+   "t": "2026-11-10T02:44:58.947Z",
+   "chars": 603,
+   "sha256": "57577d166e58e4bd",
+   "head": "Actually, should we compress that video first? Since you already have the audio cleaned up and we are going to show it in a small area of the screen\nSo to do this, you actually need to just grab the d"
+  },
+  {
+   "t": "2026-11-10T02:45:15.879Z",
+   "chars": 66,
+   "sha256": "b6fe19d0da4dfd47",
+   "head": "FYI I just stopped and re-run this action that was taking too long"
+  },
+  {
+   "t": "2026-11-10T02:46:13.103Z",
+   "chars": 27,
+   "sha256": "d2683fbe26859dda",
+   "head": "yes can you do that and see"
+  },
+  {
+   "t": "2026-11-10T02:53:15.773Z",
+   "chars": 165,
+   "sha256": "732b6ff0e9f60e34",
+   "head": "So that worked really well. It was really cool. Can you go to Aldo and can you look at the other interview that I've done there? And I'll uh, and can you publish it?"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 30,
+  "by_kind": {
+   "shell": 9,
+   "git": 3,
+   "release": 2,
+   "web": 10,
+   "send": 1,
+   "read": 3,
+   "other": 1,
+   "write": 1
+  }
+ },
+ "policies_executed": {
+  "R7": 1,
+  "R6": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 28,
+  "commits": [
+   {
+    "sha": "4d464a3a7",
+    "subject": "journalist@PrompTugal.dinis: second vault interview, Student Property Network; player retries 429s",
+    "files": 3
+   },
+   {
+    "sha": "f844d42cf",
+    "subject": "journalist@PrompTugal.dinis: run report, the vault video experiment",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-10T02:53:37.915Z",
+    "tool": "Bash",
+    "rule": "R7",
+    "what": "curl sends data to audo.ai: sends only to dev.send.sgraph.ai",
+    "target": "cd /tmp/claude-0/-home-user-PrompTugal--News--Website/b7a38ade-f8b6-55b2-b3c5-78dc87f8634e/scratchpad && mkdir -p i2 && K=$(cat ~/.sg-send/secrets/audo.key); H=(-H \"Authorization: Bearer $K\" -H 'User-Agent: promptugal-journalist-agent'); fo"
+   },
+   {
+    "t": "2026-11-10T02:59:32.301Z",
+    "tool": "Edit",
+    "rule": "R6",
+    "what": "assets/vault-video/vault-video.js is not in journalist@PrompTugal.dinis's grant (board/abp/journalist.md); if you need it, ask Dinis in status.json's asks",
+    "target": "/home/user/PrompTugal__News__Website/assets/vault-video/vault-video.js"
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "4d464a3a7 wrote assets/vault-video/vault-video.js",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "4d464a3a7 wrote content/newsroom/desks.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 5,
+  "tool_calls": 30,
+  "in_mandate": 28,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 2
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-official-opening-ceremony-of-the-brazilian-pavil-373f91ce",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/373f91ce-f8c5-4051-98be-853651521f4a/official-opening-ceremony-of-the-brazilian-pavilion/",
+  "title": "Official Opening Ceremony of the Brazilian Pavilion (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'Official Opening Ceremony of the Brazilian Pavilion', November 10, 2026, 10:00 to 10:30 (Lisbon time), E369, track Stand events. Description: Join the official opening of the Brazilian Pavilion and connect with startups, investors, and ecosystem leaders shaping the future of innovation."
+}

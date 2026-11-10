@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-building-a-sustainable-future-12a8a5fc",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/12a8a5fc-b9ab-4719-824c-7218520c4fad/building-a-sustainable-future/",
+  "title": "Building a sustainable future (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'Building a sustainable future', November 12, 2026, 12:00 to 13:00 (Lisbon time), Stage 12, track Startup Showcase. Description: This session sheds light on the transformative technologies, renewable energy sources and cleantech solutions that are revolutionising industries, driving sustainable development and positively impacting the environment."
+}

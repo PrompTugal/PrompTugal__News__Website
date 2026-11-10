@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ws-brazil-innovation-happy-hour-8da97ebb",
+  "story": "BR4",
+  "url": "https://websummit.com/sessions/lis26/8da97ebb-f397-4464-ada8-22b41afd8879/brazil-innovation-happy-hour/",
+  "title": "Brazil Innovation Happy Hour (Web Summit LIS26 session page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-09",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Web Summit's session page: 'Brazil Innovation Happy Hour', November 10, 2026, 16:00 to 17:00 (Lisbon time), E369, track Meetup. Description: A networking happy hour connecting Brazilian growth-stage startups, international investors, and innovation leaders. Explore investment opportunities, partnerships, and insights from Brazil's dynamic tech ecosystem."
+}

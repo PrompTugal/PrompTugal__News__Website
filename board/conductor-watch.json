@@ -270,6 +270,113 @@
    "PrompTugal__App__iOS": "3a4fe3f7",
    "PrompTugal__App__Mobile": "74332868",
    "note": "promptugal.news/contribute/ is live (200). iOS: clash fixes, busy/free, split my time on TestFlight internal (0.4.51, build 232); venue map on dev. Sign-ups lane: empty so far."
+  },
+  {
+   "conductor": "conductor.android@promptugal.ai.dinis",
+   "at": "2026-11-09T22:26Z",
+   "SGit-AI__Website__Web-Summit": "ddf40f9c",
+   "PrompTugal__News__Website": "8bb76a35",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "d2a18942",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+  },
+  {
+   "conductor": "conductor.B@ios.PrompTugal.dinis",
+   "at": "2026-11-09T23:05Z",
+   "shas": {
+    "SGit-AI__Website__Web-Summit": "266685c9",
+    "PrompTugal__News__Website": "e75b155f",
+    "PrompTugal__App__Android": "4de30ec6",
+    "PrompTugal__App__iOS": "77a95682",
+    "PrompTugal__App__Mobile": "74332868"
+   },
+   "note": "iOS: no new briefs since 22:00. Release #137 (v0.4.56, venue map wired) building; #138 (v0.4.57, 21 cultures + globe, en-GB default) queued behind it, TestFlight internal only. App Store 0.4.24 (205) waiting for review; preflight dispatched. main unchanged, waiting on security's pass."
+  },
+  {
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-09T23:15Z",
+   "SGit-AI__Website__Web-Summit": "266685c9",
+   "PrompTugal__News__Website": "b2a12760",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "77a95682",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "iOS: venue map (v0.4.56) building, 21 cultures (v0.4.57) queued for TestFlight internal. /contribute/ passed by security@. security.repos@ run 7: nothing found. Lanes empty."
+  },
+  {
+   "conductor": "conductor.android@promptugal.ai.dinis",
+   "at": "2026-11-09T23:26Z",
+   "SGit-AI__Website__Web-Summit": "37ad1b1a",
+   "PrompTugal__News__Website": "6e64b86e",
+   "PrompTugal__App__Android": "4de30ec6",
+   "PrompTugal__App__iOS": "77a95682",
+   "PrompTugal__App__Mobile": "74332868",
+   "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+  },
+  {
+   "conductor": "conductor.B@ios.PrompTugal.dinis",
+   "at": "2026-11-10T00:05Z",
+   "shas": {
+    "SGit-AI__Website__Web-Summit": "6d75ae89",
+    "PrompTugal__News__Website": "a6e155bc",
+    "PrompTugal__App__Android": "9bfd28b0",
+    "PrompTugal__App__iOS": "87211d14",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "THE BIG STOP: iOS :00 wake paused at 00:03 (last line until restarted); stop report in iOS briefs/2026-11-09__the-big-stop/stop-report.md. Release #140 (v0.4.59, carries the report.sh SIGPIPE fix for public 0.4.57) left to finish. 205 still in App Review."
+  },
+  {
+   "SGit-AI__Website__Web-Summit": "7b8d7908",
+   "PrompTugal__News__Website": "ddb12119",
+   "PrompTugal__App__Android": "4f8362e9",
+   "PrompTugal__App__iOS": "9a02cac5",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "SGit-AI__Website__Gamma-Ray": "edaa2f49",
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-10T04:14Z",
+   "note": "THE RESTART running: account A wakes back on; gamma.studio@ (hourly :42) and devops.ios@ started; gamma-ray@'s team (review, approve, design, graphs, editor) at :06; both interviews live on pt.news (v0.1.943); 09:00 deck v1 published. Holds: first published GAMMA-Ray scores wait for Dinis in conductor@PrompTugal.dinis's session."
+  },
+  {
+   "conductor": "conductor.android@promptugal.ai.dinis",
+   "at": "2026-11-10T04:26Z",
+   "SGit-AI__Website__Web-Summit": "173a397a",
+   "PrompTugal__News__Website": "654bb60c",
+   "PrompTugal__App__Android": "64f26b40",
+   "PrompTugal__App__iOS": "155dcbe4",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Android restarted on the 02:40 brief: demos and iOS parity (dev.chat, dev.lab, app, qa), on-device answers over our data (dev.llm), pt.news on Android answered (docs/play/pt-news-on-android.md: installed web app first; Dinis decides the host, pt.news looks parked), GCP examples written (held for security before the site deploys)."
+  },
+  {
+   "SGit-AI__Website__Web-Summit": "5d4a34f3",
+   "PrompTugal__News__Website": "d6aff9c6",
+   "PrompTugal__App__Android": "74ad93ae",
+   "PrompTugal__App__iOS": "b7d17d14",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "SGit-AI__Website__Gamma-Ray": "c3b87d12",
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-10T05:15Z",
+   "note": "restart running overnight; social.watch@ started (hourly :50); nothing stuck seen."
+  },
+  {
+   "conductor": "conductor.android@promptugal.ai.dinis",
+   "at": "2026-11-10T05:26Z",
+   "SGit-AI__Website__Web-Summit": "01eacbdc",
+   "PrompTugal__News__Website": "dc3e607b",
+   "PrompTugal__App__Android": "74ad93ae",
+   "PrompTugal__App__iOS": "b7d17d14",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Android main 595c21e: stand mode shows only vetted visitor features (fail closed), Lab case studies from our real ABPs (enabled, hidden in stand mode), on-device answers over our data (Workbench still off until a tablet run). Next: per-feature stand tests and pt-PT case studies (gate running); Chat as a real feature (dev.chat). Team site and iOS read by ls-remote only."
+  },
+  {
+   "SGit-AI__Website__Web-Summit": "10ed6822",
+   "PrompTugal__News__Website": "b839bb28",
+   "PrompTugal__App__Android": "1e9c2830",
+   "PrompTugal__App__iOS": "787e2fe9",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "SGit-AI__Website__Gamma-Ray": "db0adc6f",
+   "conductor": "conductor@web-summit.dinis",
+   "at": "2026-11-10T06:18Z",
+   "note": "Dinis's 'Go and confirmed' (05:45): GAMMA-Ray scores may be published on pt.news (beta, on security@'s pass). gamma.studio@ scans in review round one."
   }
  ]
 }
