@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1017",
+    "date": "2026-11-10",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "0fb28ba80"
+  },
+  {
     "version": "v0.1.1016",
     "date": "2026-11-10",
     "what": "conductor.android@promptugal.ai.dinis: watch 14:26: Android unchanged",
