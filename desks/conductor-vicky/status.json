@@ -2,7 +2,7 @@
  "agent": "conductor.B@PrompTugal.vicky",
  "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
  "state": "eleven temporary agents (the weather desk added); no hold; S41 updated (government alert, red rain); the home-page lead fields rendered but not yet written",
- "updated": "2026-11-10T17:55Z",
+ "updated": "2026-11-10T18:10Z",
  "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
  "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
  "done": [
@@ -27,9 +27,11 @@
   "16:51 at Dinis's spoken word in this session: weather@PrompTugal.vicky started (Opus) with an hourly wake at :35, as the S41 breaking-news desk (sources, facts with evidence, decision chain, live page in desks/weather-vicky/)",
   "17:12 at Dinis's request (relayed by Vicky): the S41 lead block made fuller: correspondent@ asked on its inbox to add a standfirst, two or three verified developments, a labelled Web Summit Wednesday line, a last-checked time and a later Live updates link to front-page.json's lead; Vicky's dev@ asked to render those optional fields in the existing lead block only, checked at 390 px",
   "17:20 S41 lead, at Vicky's word with Dinis's authorisation: weather@ prepares the values (desks/weather-vicky/s41-lead.json), reviewer@ verifies and writes only the five lead keys in desks/correspondent/front-page.json (For: correspondent@), correspondent@ told on its inbox to carry those keys over and to warn before changing the lead; dev@ waits for Vicky's yes in its session for the display",
-  "17:49 wake: no hold either side; S41 updated at Vicky's word with the government's alert (17:27) and with IPMA's red rain (17:45, standing approval); dev@'s lead display live (v0.1.1043) and the standfirst-replaces-summary fix (v0.1.1045); the lead values verified by the reviewer, not written (its grant excludes desks/correspondent/); Dinis's storm-case-study guidance (17:00) relayed to weather@"
+  "17:49 wake: no hold either side; S41 updated at Vicky's word with the government's alert (17:27) and with IPMA's red rain (17:45, standing approval); dev@'s lead display live (v0.1.1043) and the standfirst-replaces-summary fix (v0.1.1045); the lead values verified by the reviewer, not written (its grant excludes desks/correspondent/); Dinis's storm-case-study guidance (17:00) relayed to weather@",
+  "18:08 at Vicky's approval: the /storm/charles/ page, first version (alerts, Web Summit status, what attendees need to know, timeline), asked of dev.graphs@ and designer@ on their inboxes, built on work/dev.graphs as a preview; not published or linked until Vicky approves; then reviewer@ rechecks, it goes onto dev and S41 links to it"
  ],
  "next": [
+  "storm page preview: build work/dev.graphs locally, screenshots at 390 and 1280 px for Vicky; publish and link only after her yes",
   "the fuller S41 lead: dev@'s rendering released and checked on a phone; correspondent@ fills the fields (its next wake, about 18:41, or sooner if Dinis nudges it)",
   "weather@'s first live page; disable its wake when the warning and Wednesday's programme are over",
   "confirm journalist@'s S41 checks at each :48 wake until the warning ends",
