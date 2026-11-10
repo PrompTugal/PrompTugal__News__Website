@@ -39,9 +39,24 @@
         }
         const hands = steps.filter((s, i) => i && steps[i - 1].a !== s.a).length
         host.append(el('p', { className: 'pf-sum', textContent: `${steps.length} steps, ${lanes.length} actor${lanes.length === 1 ? '' : 's'}, ${hands} hand-off${hands === 1 ? '' : 's'}, from ${when(steps[0].t)} to ${when(steps[steps.length - 1].t)} (Lisbon time). Tap a step for its commit.` }), bar, wrap, info)
+        // Replay: the steps appear in time order and, at each hand-off, a dot flies along the line from one actor to the next (after the
+        // X-ray's data flying to the agents); with reduced motion it simply reveals the steps one by one
+        const still = matchMedia('(prefers-reduced-motion: reduce)').matches, fly = sv('circle', { r: 5, class: 'pf-fly', opacity: 0 }, svg)
+        let run = 0
         replay.addEventListener('click', () => {
-            const all = [...edges, ...nodes]; all.forEach(n => { n.style.opacity = 0 })
-            steps.forEach((s, i) => setTimeout(() => { nodes[i].style.opacity = 1; if (edges[i - 1]) edges[i - 1].style.opacity = 1; if (i === steps.length - 1) all.forEach(n => (n.style.opacity = '')) }, 350 * i))
+            const me = ++run, all = [...edges, ...nodes]; all.forEach(n => { n.style.opacity = 0 }); fly.setAttribute('opacity', 0)
+            const step = i => {
+                if (me !== run) return
+                if (i >= steps.length) { all.forEach(n => (n.style.opacity = '')); fly.setAttribute('opacity', 0); return }
+                const reveal = () => { if (me !== run) return; nodes[i].style.opacity = 1; setTimeout(() => step(i + 1), still ? 250 : 120) }
+                const e = edges[i - 1]
+                if (!e || still) { if (e) e.style.opacity = 1; reveal(); return }
+                e.style.opacity = 1; const len = e.getTotalLength(), t0 = performance.now(), dur = steps[i - 1].a !== steps[i].a ? 520 : 260
+                fly.setAttribute('opacity', 1); fly.setAttribute('class', `pf-fly st-${steps[i].st}`)
+                const tick = now => { if (me !== run) return; const u = Math.min(1, (now - t0) / dur), q = e.getPointAtLength(len * u); fly.setAttribute('cx', q.x); fly.setAttribute('cy', q.y); if (u < 1) requestAnimationFrame(tick); else reveal() }
+                requestAnimationFrame(tick)
+            }
+            step(0)
         })
         detail(steps[steps.length - 1])
     }

@@ -28,3 +28,4 @@
 .pf-row { width: 100%; text-align: left; font: inherit; font-size: .85rem; padding: 6px 8px; border: 1px solid transparent; border-radius: 8px; background: transparent; color: var(--ink, #111); cursor: pointer; overflow-wrap: anywhere; }
 .pf-row:hover, .pf-row:focus-visible { border-color: var(--brand, #1a7f37); background: var(--wash, rgba(127,127,127,.08)); }
 .pf-node, .pf-hand, .pf-same { transition: opacity .25s; }
+.pf-fly { stroke: var(--panel, #fff); stroke-width: 1.5; pointer-events: none; filter: drop-shadow(0 0 3px rgba(0,0,0,.35)); }
