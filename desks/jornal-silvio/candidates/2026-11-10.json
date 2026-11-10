@@ -301,6 +301,41 @@
         "licence": "not read (the page refused our reader)",
         "reuse": "link only"
       }
+    },
+    {
+      "id": "js-2026-11-10-09",
+      "title": "Portugal and Spain to bid together for an EU AI gigafactory before the 3 December deadline",
+      "summary": "On the sidelines of Web Summit, Gonçalo Matias, the minister who holds Portugal's AI portfolio, told ECO the government will formalise its bid for one of the EU's AI gigafactories, is finishing the technical side with Spain, and will submit before the 3 December 2026 deadline. He separated these sovereign, state-to-state projects seeking EU money from private data centres, which will benefit from Portugal's conditions only if they meet sustainability and community criteria.",
+      "why_it_matters": "Where Europe's AI compute will sit is a sovereignty question, and an Iberian bid puts Portugal in it; the date makes it a story to follow through the month.",
+      "beat": "portugal",
+      "sources": [
+        {
+          "url": "https://eco.sapo.pt/2026/11/09/governo-garante-que-projeto-de-gigafabrica-esta-a-bom-ritmo/",
+          "publisher": "ECO",
+          "published": "2026-11-09",
+          "read": "2026-11-10T12:20Z"
+        }
+      ],
+      "quote": {
+        "text": "O projeto de gigafábrica está a bom ritmo.",
+        "by": "Gonçalo Matias, as reported in ECO's headline",
+        "source": "https://eco.sapo.pt/2026/11/09/governo-garante-que-projeto-de-gigafabrica-esta-a-bom-ritmo/"
+      },
+      "claims_to_check": [
+        "The EU call and its 3 December deadline at the Commission's own page (EuroHPC AI gigafactories)",
+        "The site, partners and figures: none given in the article"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Portugal in Europe's AI infrastructure race, said at the summit, with a deadline; not on promptugal.news."
+      },
+      "photo": {
+        "url": "https://eco.sapo.pt/2026/11/09/governo-garante-que-projeto-de-gigafabrica-esta-a-bom-ritmo/",
+        "description": "Gonçalo Matias at Web Summit 2026 (lead photo of the ECO article)",
+        "credit": "not stated",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
@@ -359,6 +394,10 @@
     {
       "what": "Bybit's 'Agents on the Order Book' masterclass (Crypto Times)",
       "why": "promotional, below the bar"
+    },
+    {
+      "what": "'The agentic internet: who controls the web?' (Matthew Prince and Nick Thompson, Centre Stage, 10 November about 11:45)",
+      "why": "no coverage found yet at the 12:07 wake; to look again"
     }
   ],
   "wakes": [
@@ -379,6 +418,11 @@
     },
     {
       "at": "2026-11-10T10:22Z",
+      "added": 1,
+      "note": "scheduled wake; the shared coverage map still does not exist"
+    },
+    {
+      "at": "2026-11-10T12:22Z",
       "added": 1,
       "note": "scheduled wake; the shared coverage map still does not exist"
     }
