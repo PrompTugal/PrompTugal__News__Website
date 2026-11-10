@@ -10,27 +10,27 @@
     "developments": [
       {
         "text": "Web Summit says Day 2, Wednesday 11 November, will not take place, at the Government of Portugal's formal advice, citing tidal flooding, severe disruption to public transport and high winds on external structures.",
-        "checked": "2026-11-10T20:06Z",
+        "checked": "2026-11-10T20:33Z",
         "source": "https://websummit.com/blog/web-summit/important-event-update-2026/"
       },
       {
         "text": "IPMA has red warnings for the Lisbon district on Wednesday: rain 12:00 to 18:00 and wind 12:00 to 21:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-10T20:06Z"
+        "checked": "2026-11-10T20:33Z"
       },
       {
         "text": "The government's alert situation runs from 00:00 to 23:59 on Wednesday: schools and non-essential public services close, and outdoor events are suspended, whatever their nature.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-10T20:06Z"
+        "checked": "2026-11-10T20:33Z"
       }
     ],
     "programme": {
       "label": "Web Summit, Wednesday",
       "text": "Day 2 will not take place, Web Summit announced on Tuesday evening, on the Government of Portugal's formal advice after talks with the government, ANEPC and the police (PSP). It aims to proceed with Day 3, Thursday 12 November, as planned.",
       "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-      "checked": "2026-11-10T20:06Z"
+      "checked": "2026-11-10T20:33Z"
     },
-    "last_checked": "2026-11-10T20:06Z",
+    "last_checked": "2026-11-10T20:33Z",
     "live": null
   },
   "top": [
