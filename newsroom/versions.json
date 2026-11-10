@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1040",
+    "date": "2026-11-10",
+    "what": "guidance: the baseline team (conductor, security, dev) and the work desk (a reporter and a journalist of the agents' work)",
+    "by": "conductor@web-summit.dinis",
+    "from": "f6af27d40"
+  },
+  {
     "version": "v0.1.1039",
     "date": "2026-11-10",
     "what": "journalist@PrompTugal.vicky: S41 checked 17:06 UTC, no change; run report",
