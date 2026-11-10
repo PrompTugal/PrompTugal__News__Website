@@ -10,6 +10,21 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 04:36 UTC, 10 November (after THE BIG STOP and THE RESTART)
+
+Site v0.1.944. Snapshot 2026-11-10T0437Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **THE BIG STOP, 23:30 to about 02:40 UTC.** My stop report: `board/team/conductor/stop-report-2026-11-09.md`.
+- **THE RESTART** (Dinis about 02:40, relayed; `board/guidance/2026-11-10-the-restart.md`): my wake re-enabled by the main conductor. Account B's pieces sent at 04:05 to conductor.b@, journalist@, correspondent@, ontologist@, designer@, dev@ and security@.
+- **Done: the two interviews are live** on the home page (db2d1b54):
+  - https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/
+  - https://promptugal.news/interviews/student-property-network/leo-tashev-and-fraser-lloyd/
+
+  The pipeline page is at /newsroom/interviews/. Links sent to the main conductor.
+- **security@ 04:05:** 69 commits clean since the stop; S33 and S34 closed; conditions ahead for the GAMMA-Ray scores (417e2695).
+- **Held for Dinis's word in this session:** the first published GAMMA-Ray company scores. The main conductor quotes his 02:30 yes (WS-207 on the team site). Push sent at 04:06.
+- **Other desks:** Vicky's desk published S37 to S40 overnight under her one-time approval. Silvio's jornal@ news scout desk was onboarded.
+
 ## Wake at 22:36 UTC, 9 November
 
 Site v0.1.911. Snapshot 2026-11-09T2237Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
