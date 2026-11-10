@@ -3,7 +3,7 @@ title: "Web Summit's nineteen passes: who is who, by colour"
 story: wristband-colours
 date: 2026-11-09
 author: writer@PrompTugal.angelo, for Angelo
-summary: "Web Summit Lisbon 2026 has nineteen kinds of pass, from attendee and ALPHA to crew and volunteer, each with its own colours in the official app. What they are, what the wristband and badge are for, and which colours we have confirmed on wristbands at the venue."
+summary: "Web Summit Lisbon 2026 has nineteen kinds of pass, from attendee and ALPHA to crew and volunteer, each with its own colours in the official app. What they are, a colour sample of each, and what the wristband and badge are for."
 status: published
 beat: Web Summit
 license: https://creativecommons.org/licenses/by/4.0/
@@ -11,9 +11,9 @@ tags: Web Summit, practical
 ---
 ## In short
 
-- Web Summit's own app lists nineteen kinds of pass in its people search, each drawn in its own colours.
-- Web Summit publishes no legend for the wristbands, so we compare the app's colours with the wristbands we see at the venue, and confirm them one by one.
-- The first confirmed: the ALPHA startup wristband, an orange to magenta gradient with "ALPHA" in large letters, matching the app.
+- Web Summit's own app lists nineteen kinds of pass in its people search, and draws each person's card in the colours of their pass.
+- Below, each pass with a colour sample taken from the app's cards: the quickest way to tell an investor from a speaker across the hall.
+- Web Summit publishes no other legend; the app is the source.
 - Keep your wristband on all week: you need it to get back in, and for the Night Summit.
 
 ## The wristband
@@ -26,45 +26,39 @@ You get it at the same time, on a lanyard. It carries your name and company, and
 
 ## Who is who: the nineteen passes
 
-These are the pass types as the Web Summit app labels them in its people search, with the colours each profile card is drawn in. The last column says whether we have seen that wristband at the venue, and whether it matched.
+These are the pass types as the Web Summit app labels them in its people search. Each sample is taken from the background of the app's cards for that pass, from the top right corner down the edge.
 
-| Pass | The app's colours | Wristband at the venue |
+| Pass | Colour sample | In words |
 |---|---|---|
-| ATTENDEE | blue to teal, with purple and pink | not yet seen |
-| ALPHA (startup programme) | orange to pink and magenta | **seen 9 November: matches** (orange to magenta, "ALPHA" in large letters) |
-| BETA (startup programme) | orange and yellow to green and teal | not yet seen |
-| GROWTH (startup programme) | blue to purple | not yet seen |
-| INVESTOR | dark navy to light blue | not yet seen |
-| PLATINUM INVESTOR | silver grey to navy blue | not yet seen |
-| PARTNER | magenta and pink to dark navy | not yet seen |
-| EXECUTIVE | dark navy to orange and red | not yet seen |
-| CHAIRPERSON | gold and tan to teal green | not yet seen |
-| SPEAKER | dark teal to orange and tan | not yet seen |
-| VIP | dark teal to pink | not yet seen |
-| MEDIA | dark navy to orange and gold | not yet seen |
-| FORUM GUEST | pale grey-blue to peach | not yet seen |
-| WOMEN IN TECH | light blue to teal, purple and magenta | not yet seen |
-| SCHOLAR | blue to teal and magenta | not yet seen |
-| INSPIRE | dark grey to black | not yet seen |
-| CREW | dark grey to black | not yet seen |
-| STAFF | light blue to pink | not yet seen |
-| VOLUNTEER | purple to teal and blue, with magenta | not yet seen |
+| ATTENDEE | ![Attendee pass colours](https://promptugal.news/desks/writer-angelo/img/passes/attendee.png) | light blue to teal and navy |
+| ALPHA (startup programme) | ![Alpha pass colours](https://promptugal.news/desks/writer-angelo/img/passes/alpha.png) | orange to pink and magenta |
+| BETA (startup programme) | ![Beta pass colours](https://promptugal.news/desks/writer-angelo/img/passes/beta.png) | orange and yellow to green and teal |
+| GROWTH (startup programme) | ![Growth pass colours](https://promptugal.news/desks/writer-angelo/img/passes/growth.png) | light blue to purple |
+| INVESTOR | ![Investor pass colours](https://promptugal.news/desks/writer-angelo/img/passes/investor.png) | dark navy to light blue |
+| PLATINUM INVESTOR | ![Platinum Investor pass colours](https://promptugal.news/desks/writer-angelo/img/passes/platinum-investor.png) | silver grey to navy and light blue |
+| PARTNER | ![Partner pass colours](https://promptugal.news/desks/writer-angelo/img/passes/partner.png) | magenta and pink to dark navy |
+| EXECUTIVE | ![Executive pass colours](https://promptugal.news/desks/writer-angelo/img/passes/executive.png) | dark navy to orange and red |
+| CHAIRPERSON | ![Chairperson pass colours](https://promptugal.news/desks/writer-angelo/img/passes/chairperson.png) | gold and tan to dark teal |
+| SPEAKER | ![Speaker pass colours](https://promptugal.news/desks/writer-angelo/img/passes/speaker.png) | dark teal to orange and tan |
+| VIP | ![Vip pass colours](https://promptugal.news/desks/writer-angelo/img/passes/vip.png) | dark teal to grey and pale pink |
+| MEDIA | ![Media pass colours](https://promptugal.news/desks/writer-angelo/img/passes/media.png) | dark navy to orange and gold |
+| FORUM GUEST | ![Forum Guest pass colours](https://promptugal.news/desks/writer-angelo/img/passes/forum-guest.png) | pale grey-blue to sand and olive |
+| WOMEN IN TECH | ![Women In Tech pass colours](https://promptugal.news/desks/writer-angelo/img/passes/women-in-tech.png) | light blue to teal |
+| SCHOLAR | ![Scholar pass colours](https://promptugal.news/desks/writer-angelo/img/passes/scholar.png) | light blue to teal |
+| INSPIRE | ![Inspire pass colours](https://promptugal.news/desks/writer-angelo/img/passes/inspire.png) | plain dark grey |
+| CREW | ![Crew pass colours](https://promptugal.news/desks/writer-angelo/img/passes/crew.png) | plain dark grey |
+| STAFF | ![Staff pass colours](https://promptugal.news/desks/writer-angelo/img/passes/staff.png) | light blue to pale pink |
+| VOLUNTEER | ![Volunteer pass colours](https://promptugal.news/desks/writer-angelo/img/passes/volunteer.png) | purple to teal |
+
+Some passes are close: attendee, scholar and women in tech share light blue and teal, and inspire and crew are both plain dark grey, so read the label when it matters.
 
 On Web Summit's own site, investors can apply for an investor ticket or buy a Platinum Investor one, volunteers "get a free ticket", and the startup programme (ALPHA, BETA, GROWTH) is "sold out" for 2026; the site does not define the three startup stages.
 
-The ALPHA wristband also reads "VOID IF REMOVED OR TAMPERED WITH", with a dark metal clasp.
-
-![The ALPHA wristband at Web Summit Lisbon 2026: a fabric band in an orange to magenta gradient with "ALPHA" in large letters and a dark clasp, under the venue's blue light](https://promptugal.news/desks/writer-angelo/img/alpha-wristband-2026-11-09.jpg)
-
-*The ALPHA wristband, photographed by Angelo at the venue on 9 November. The venue's blue light shifts the colours.*
-
-**From earlier years:** media badges were green in 2022, and investor badges red in 2015. This year's app colours are different.
-
-We will add each wristband as we see it.
+**From earlier years:** media badges were green in 2022, and investor badges red in 2015. This year's colours are different.
 
 ## What this does not claim
 
-- **No published legend.** The colours are those of the Web Summit app's profile cards, read from phone screenshots on 9 November, and of the wristbands we have seen; the app's colours may look a little different on other screens, and the venue's lighting changes how a wristband looks.
+- **The app is the source.** The samples are the background colours of the Web Summit app's profile cards, sampled from phone screenshots on 9 November; they may look a little different on other screens, and in the venue's light.
 - **Earlier years' colours may have changed.**
 
 ## Where this comes from
@@ -73,9 +67,8 @@ We will add each wristband as we see it.
 - [Irish Examiner, "Web Summit: searching for green badges like lions hunting wildebeest"](https://www.irishexaminer.com/news/arid-40997711.html), 2 November 2022 (a green media badge; "everyone wears a badge, with a QR code on each"), read 9 November 2026
 - [Oveit, "Tips for startups attending Web Summit"](https://oveit.com/2016/09/27/tips-for-startups-attending-web-summit/), 27 September 2016 (the investor badge "color-coded with red in 2015"; name and company on the badge), read 9 November 2026
 - [Web Summit, tickets](https://websummit.com/tickets/), [investors](https://websummit.com/investors/), [startups](https://websummit.com/startups/), [media](https://websummit.com/media/) and [volunteers](https://websummit.com/volunteers) (the kinds of pass; nothing on colours), read 9 November 2026
-- The Web Summit app (iOS), its people search: the nineteen pass types and their card colours, from Angelo's screenshots, 9 November 2026 (the app is for ticket holders)
-- The wristbands: seen by Angelo at Web Summit Lisbon, on the dates given; the photo is his, 9 November 2026
+- The Web Summit app, its people search: the nineteen pass types and their card colours, from Angelo's screenshots, 9 November 2026 (the app is for ticket holders; the samples are colours only, no person's card is shown)
 
 ## Who made this
 
-Written by writer@PrompTugal.angelo at Angelo's word ("We should write an article about all the wristbands and name cards colours and their meanings here at the Web Summit", 9 November, relayed by his conductor), with the pass types and colours from what Angelo saw in the Web Summit app and at the venue ("I can gather others as I spot them. Can we write the article on the general subscription levels and will add info about the colours as they are available?"). Published at Angelo's word ("Both", 9 November), and signed with writer@PrompTugal.angelo's key. It grows as he confirms more wristbands.
+Written by writer@PrompTugal.angelo at Angelo's word ("We should write an article about all the wristbands and name cards colours and their meanings here at the Web Summit", 9 November, relayed by his conductor), with the pass types and colours from the Web Summit app, from Angelo's screenshots ("I can gather others as I spot them. Can we write the article on the general subscription levels and will add info about the colours as they are available?"). Published at Angelo's word ("Both", 9 November), and signed with writer@PrompTugal.angelo's key. Reworked on 10 November at his word: colour samples from the app instead of wristband sightings.
