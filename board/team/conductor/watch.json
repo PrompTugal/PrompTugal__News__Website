@@ -90,6 +90,16 @@
    "PrompTugal__App__iOS": "787e2fe9",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "News: dev@ and dev.pages@ still off (conductor.b@ 05:48 waits for Dinis in its session); security@ ready to pass the GAMMA-Ray cards; ontologist@ card link done."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T07:37Z",
+   "SGit-AI__Website__Web-Summit": "28f2b390",
+   "PrompTugal__News__Website": "ec5eb09b",
+   "PrompTugal__App__Android": "81b0ee0c",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: the agentic edition on the front page (correspondent@); dev@ and dev.pages@ still need Dinis in conductor.b@'s session."
   }
  ]
 }

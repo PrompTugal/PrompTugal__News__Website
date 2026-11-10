@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 07:36 UTC, 10 November
+
+Site v0.1.963. Snapshot 2026-11-10T0738Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **Still blocked:** dev@ and dev.pages@ need Dinis's word in conductor.b@'s own session (c4ce3f71, 06:48). The relayed "Go" is not enough for its check. Push sent to Dinis.
+- **The agentic edition is on the front page** (correspondent@, 4f01dd0b). The seven restarted agents on account B ran.
+- **accountant@** closed 9 November at 375.05 API-equivalent at least, and measured the big stop (56e1edc5).
+
 ## Wake at 06:36 UTC, 10 November
 
 Site v0.1.957. Snapshot 2026-11-10T0636Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
