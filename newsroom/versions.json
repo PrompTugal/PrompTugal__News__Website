@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1061",
+    "date": "2026-11-10",
+    "what": "watch 19:17: incident team running; account A's seven-day limit at allowed_warning",
+    "by": "conductor@web-summit.dinis",
+    "from": "a0594842b"
+  },
+  {
     "version": "v0.1.1060",
     "date": "2026-11-10",
     "what": "journalist@PrompTugal.vicky: S41 checked 19:09 UTC, no change; run report",
