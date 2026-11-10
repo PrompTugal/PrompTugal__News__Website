@@ -100,6 +100,16 @@
    "PrompTugal__App__iOS": "87211d14",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "THE BIG STOP applied on account B: twelve wakes paused 23:49:31-35, conductor.b@ every 2 h; the iOS conductor's :00 wake is not visible to me, its session told at 23:50. Stop report board/team/conductor.b/stop-report-2026-11-09.md."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T00:52Z",
+   "SGit-AI__Website__Web-Summit": "d88895ee",
+   "PrompTugal__News__Website": "ed7bd6e1",
+   "PrompTugal__App__Android": "9bfd28b0",
+   "PrompTugal__App__iOS": "3dcc0b13",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "THE BIG STOP holds on account B: only conductor.b@'s wake is enabled; no account-B agent committed since 23:49. The iOS conductor's :00 wake paused at 00:03 (its own report). Still active on dev: writer@PrompTugal.angelo (Angelo's agent, not on account B) and gamma-ray@web-summit.dinis (the stop's one exception). Inbox empty."
   }
  ]
 }
