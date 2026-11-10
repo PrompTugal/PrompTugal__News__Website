@@ -53,7 +53,7 @@ function leadExtra(ctx, a) {
     const src = o => { const h = safeHref(o && o.source); if (!h) return ''; const c = stamp(o.checked)
         return put(item('lsrc'), { href: esc(h), checked: c ? put(item('lchecked'), { time: c }) : '' }) }
     const out = {}
-    if (str(L.standfirst)) out.standfirst = put(item('standfirst'), { text: esc(str(L.standfirst)) })
+    if (str(L.standfirst)) out.dek = esc(str(L.standfirst))  // the standfirst replaces the summary as the dek; the summary stays the fallback
     const p = L.programme
     if (p && str(p.text)) out.programme = put(item('programme'), { label: esc(str(p.label) || 'Programme'), text: esc(str(p.text)), src: src(p) })
     const devs = (Array.isArray(L.developments) ? L.developments : []).filter(d => d && str(d.text)).slice(0, 3)

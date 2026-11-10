@@ -140,7 +140,6 @@
 @media (max-width: 1000px) { .fe-cols > .fe-nx { order: -1; } }
 
 /* the lead block's optional fields (standfirst, programme line, developments, last checked, live link); scoped to the lead */
-.fe-band .fe-lsf { font-size: 18px; line-height: 1.45; color: var(--fe-on-band); margin: 0 0 12px; max-width: 40em; }
 .fe-band .fe-lpg { font-size: 15px; line-height: 1.45; color: var(--fe-on-band); margin: 0 0 12px; max-width: 42em; border-left: 3px solid var(--fe-accent); padding-left: 10px; }
 .fe-band .fe-lpg b { color: var(--fe-accent); font: 700 12px var(--sans); letter-spacing: .08em; text-transform: uppercase; margin-right: 4px; }
 .fe-band .fe-ldv { margin: 0 0 14px; padding-left: 18px; font-size: 15px; line-height: 1.45; color: var(--fe-on-band-2); max-width: 42em; }
@@ -150,4 +149,4 @@
 .fe-band .fe-lmeta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: 0 0 12px; font: 12px var(--mono); color: var(--fe-on-band-2); }
 .fe-band .fe-llive { color: var(--fe-on-band); font-weight: 700; text-decoration: underline; }
 .fe-band .fe-w > div { min-width: 0; }
-.fe-band .fe-lsf, .fe-band .fe-lpg, .fe-band .fe-ldv { overflow-wrap: anywhere; }
+.fe-band .fe-dek, .fe-band .fe-lpg, .fe-band .fe-ldv { overflow-wrap: anywhere; }
