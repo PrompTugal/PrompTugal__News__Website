@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "keewano",
+  "products": [
+    {
+      "id": "keewanodb",
+      "name": "KeewanoDB",
+      "what": "The database for machine reasoning over complete event sequences, queried by agents through MCP, SQL or APIs.",
+      "agentic": true,
+      "source": "own1",
+      "flows": [
+        "agent-asks-the-event-record"
+      ]
+    }
+  ]
+}

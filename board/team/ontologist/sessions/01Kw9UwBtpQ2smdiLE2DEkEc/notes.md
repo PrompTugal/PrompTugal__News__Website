@@ -118,3 +118,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 06:21 wake (10 November)
 - Back on (THE RESTART; account-b.json 04:51). Inbox 3 (conductor@): GAMMA schema asked 23:26, held 23:27, asked again 04:05 with the graph expansion. GAMMA-Ray moved to its own repo; cards.json says link, do not copy; 4 axes; no company card yet. Added gamma_ray link field only.
+
+## 08:21 wake
+- Inbox empty. product type + offers verb; company-products schema; datacheck (terse messages: the quality ratchet counts prose in code strings); data.mjs reads products; 10 products. graph.mjs is dev@'s: asked.

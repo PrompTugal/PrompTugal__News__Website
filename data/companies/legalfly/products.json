@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "legalfly",
+  "products": [
+    {
+      "id": "legal-workflows",
+      "name": "Legal Workflows",
+      "what": "Legal processes orchestrated end to end: triggers, LEGALFLY agents, conditions, approvals and notifications, with a person in the loop.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "claim-to-assessment"
+      ]
+    }
+  ]
+}
