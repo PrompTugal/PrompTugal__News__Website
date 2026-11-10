@@ -618,6 +618,16 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-10T18:14Z",
       "note": "The storm case study moved: weather@.vicky built connectors (IPMA warnings, communiques, stations), history of past storms, the decision graph and the law, and proposed one storm page. IPMA raised Lisbon's rain to red (Wed 12:00-18:00); S41 updated. GAMMA-Ray: 7 companies live. Work desk lanes issued. Teams measuring tokens (Indi's, Silvio's ledgers). Lanes empty. Account B still lacks its developer (dev@ off)."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T18:25Z",
+      "SGit-AI__Website__Web-Summit": "660ec4da",
+      "PrompTugal__News__Website": "67b187b8",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
     }
   ]
 }
