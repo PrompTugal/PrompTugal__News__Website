@@ -1,9 +1,11 @@
 ---
 title: "Main categories for the articles dropdown: consolidated recommendation"
 by: conductor.B@PrompTugal.vicky, 10 Nov 2026, about 23:40 UTC, for Vicky
-status: RECOMMENDATION; classification only; nothing applied
+status: APPROVED by Vicky, 10 Nov 2026, about 23:55 UTC; being applied (tracker: acks.json)
 ---
-# Main categories: consolidated recommendation
+# Main categories: approved
+
+**Approved by Vicky (10 Nov, about 23:55 UTC):** the 8 main categories below; The newsroom stays separate, for articles about our own team, its work and how PrompTugal.news operates; Teamworks is Corporate and AI. New main categories need Vicky's approval; routine mapping corrections do not. The machine-readable source is `desks/curator/categories.json` (the curator's).
 
 Built on the curator's classification of all 56 articles (`desks/curator/taxonomy-proposal.md`), with the checks below and Vicky's changes of 23:30 UTC (Startups renamed Startups & Scaleups; Corporate defined by established-company news and enterprise adoption; no classification by size, valuation, funding round or headcount; each article by its subject and angle, several categories allowed). Supersedes `proposal.md` in this folder.
 
@@ -15,7 +17,7 @@ Built on the curator's classification of all 56 articles (`desks/curator/taxonom
 | Startups & Scaleups | Young companies and companies growing their business: launches, products, pilots, new markets, raising money to grow, and the programmes, competitions and investors around them. | 20 |
 | AI | AI as the subject: agents at work, models, research, robots, and the security of AI systems. | 18 |
 | Portugal | Portugal's tech ecosystem: its companies, institutions, regions, universities and programmes, wherever the event. | 14 |
-| The newsroom | How PrompTugal.news and its agents work: the team, the tools, the rules, the mistakes, the newsletter. | 13 |
+| The newsroom | Articles about our own team, its work and how PrompTugal.news operates: the agents, the tools, the rules, the mistakes, the newsletter. | 13 |
 | Brazil | Brazil at Web Summit and its links with Portugal and Europe: delegations, states, startup missions. | 7 |
 | Europe | The EU and its programmes and funding, and other European countries and their links with Portugal. | 5 |
 | Corporate | Established-company news and enterprise adoption: what established companies do, and how organisations put technology such as AI agents into real work, including when a younger vendor tells the story. | 5 |
@@ -37,7 +39,7 @@ Decided by the story's subject and angle, never by size, valuation, funding roun
 | wpp-call-transcripts-to-jira | Corporate, AI | WPP's internal platform (enterprise adoption) |
 | gravitee-agent-security-survey | Corporate, AI | how organisations adopt agents and secure them (survey) |
 | ibm-sports-tech-challenge | Corporate, Startups & Scaleups, Web Summit 2026 | IBM's programme and the startups in it |
-| teamworks-coaches-agent | Corporate, AI | an established sports software company putting an agent into its customers' work; judgment item below |
+| teamworks-coaches-agent | Corporate, AI | an agent put into its customers' work (approved) |
 | what-lovable-deleted | AI, Startups & Scaleups | a company rebuilding its own product as it grows |
 | five-ai-builders-to-know | AI, Startups & Scaleups, Web Summit 2026 | builders growing their companies |
 | from-pitch-to-new-markets | Portugal, Startups & Scaleups | raising money to grow abroad |

@@ -1,0 +1,26 @@
+{
+  "what": "Implementation and acknowledgement tracker for the 8 main categories (approved by Vicky, 10 Nov 2026, about 23:55 UTC)",
+  "reference": "desks/conductor-vicky/taxonomy/categories.md; machine-readable desks/curator/categories.json",
+  "steps": {
+    "1 categories.json by curator": "asked",
+    "2 build change by dev@PrompTugal.vicky (For: dev@PrompTugal.dinis)": "asked",
+    "3 publishing check (gate + reviewer)": "asked",
+    "4 agents acknowledge and save the rules": "in progress",
+    "5 verified live": "pending"
+  },
+  "acks": {
+    "curator@PrompTugal.vicky": "asked",
+    "reviewer@PrompTugal.vicky": "asked",
+    "dev@PrompTugal.vicky": "asked",
+    "journalist@PrompTugal.vicky": "asked",
+    "journalist-connections@PrompTugal.vicky": "asked",
+    "journalist-portugal@PrompTugal.vicky": "asked",
+    "journalist-europe@PrompTugal.vicky": "asked",
+    "journalist-ai@PrompTugal.vicky": "asked",
+    "checker@PrompTugal.vicky": "asked",
+    "programme@PrompTugal.vicky": "asked",
+    "weather@PrompTugal.vicky": "asked",
+    "Dinis's agents (journalist@, correspondent@, dev@, conductor@ PrompTugal.dinis) and other accounts' desks": "asked through conductor@PrompTugal.dinis and their inboxes; owners: Dinis (and Indi's, Angelo's desks through Dinis)"
+  },
+  "schedules": "unchanged"
+}
