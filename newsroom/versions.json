@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1062",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.dinis: wake 19:08: back on; the masthead on every page; the 10 November debrief; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e984e82fe"
+  },
+  {
     "version": "v0.1.1061",
     "date": "2026-11-10",
     "what": "watch 19:17: incident team running; account A's seven-day limit at allowed_warning",
