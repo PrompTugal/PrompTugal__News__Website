@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1014",
+    "date": "2026-11-10",
+    "what": "journalist-connections@PrompTugal.vicky: hand-over note corrected: RWS and Persona held for Vicky's batch; run summaries",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "ac5e095f7"
+  },
+  {
     "version": "v0.1.1013",
     "date": "2026-11-10",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
