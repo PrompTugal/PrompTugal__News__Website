@@ -29,7 +29,7 @@
    "names": [
     "IPMA"
    ],
-   "what_is_new": "Red wind on Wed 11 Nov in Beja, Faro and Setubal from 09:00; Evora, Leiria, Lisboa, Portalegre and Santarem from 12:00; all to 21:00 (Madeira has a red wind warning 00:00 to 06:00).",
+   "what_is_new": "Red wind on Wed 11 Nov in Beja, Faro and Setubal from 09:00; Evora, Leiria, Lisboa, Portalegre and Santarem from 12:00; all to 21:00 (Madeira has a red wind warning 00:00 to 06:00). Update 17:50 UTC: Lisbon rain raised to red 12:00 to 18:00 (orange 05:00 to 12:00).",
    "is_story": true,
    "group": "storm"
   }
@@ -47,7 +47,7 @@
     "x-ipma-red-districts"
    ],
    "ready": true,
-   "note": "Ready; time-sensitive. For journalist (summit desk); may be written as an update to S41 if the reviewer prefers. Conditions: quote the measures as the declaration words them; do NOT say whether the outdoor-events measure touches any part of Web Summit (no official source answers it; say so); the 150 km/h figure is conditional on a 'sting jet' forming; say the measures apply on 11 Nov only; link S41; no advice beyond the declaration and civil protection.",
+   "note": "Ready; time-sensitive. For journalist (summit desk); may be written as an update to S41 if the reviewer prefers. Conditions: quote the measures as the declaration words them; do NOT say whether the outdoor-events measure touches any part of Web Summit (no official source answers it; say so); the 150 km/h figure is conditional on a 'sting jet' forming; say the measures apply on 11 Nov only; link S41; no advice beyond the declaration and civil protection. UPDATE 17:50 UTC: IPMA has raised Lisbon's rain to red for Wed 11 Nov 12:00 to 18:00 (orange 05:00 to 12:00), read again by the curator; use the current IPMA data, not the earlier orange.",
    "words": "300 to 400"
   }
  ],
