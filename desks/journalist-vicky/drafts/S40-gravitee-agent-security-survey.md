@@ -4,7 +4,7 @@ date: 2026-11-10
 story: S40
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "A survey by Gravitee, which sells tools to secure AI agents, finds most teams already testing or running agents, while few have full security approval for them. Its CEO gives a press conference at Web Summit today."
-status: draft
+status: ready
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, AI agents, security, survey, press conferences
@@ -19,17 +19,17 @@ tags: the summit, AI agents, security, survey, press conferences
 
 ## The story
 
-AI agents, the software that takes actions on its own, have moved from trials into real work, a vendor survey says. Gravitee asked over 900 executives and technical practitioners how their organisations ship, watch and secure these agents. It published the results on 4 February 2026 and updated the page on 2 November.
+AI agents, the software that takes actions on its own, have moved from trials into real work, a vendor survey says. Gravitee says it surveyed over 900 executives and technical practitioners on how their organisations are managing the move to AI agents. It published the results on 4 February 2026 and updated the page on 2 November.
 
-The good news is the speed. 80.9% of technical teams have moved past planning into testing or production, Gravitee reports.
+Adoption is fast, Gravitee reports: 80.9% of technical teams have moved past planning into testing or production.
 
-Security has not kept pace, the company says. Only 14.4% report that all their agents went live with full security or IT approval. On average, only 47.1% of an organisation's agents are actively monitored or secured. And 88% of organisations had confirmed or suspected AI agent security incidents in the last year; in healthcare, 92.7%.
+Security has not kept pace, the company says. Only 14.4% of organisations report that all their agents went live with full security or IT approval. On average, only 47.1% of an organisation's agents are actively monitored or secured. And 88% of organisations reported confirmed or suspected AI agent security incidents in the last year; in healthcare, 92.7%.
 
-The report's main point is about identity: how a system knows which agent is acting. Only 21.9% of teams treat agents as identities of their own. 45.6% still rely on shared API keys for agents to authenticate to each other, Gravitee says. That makes it hard to tell which agent did what.
+The report's main point is about identity: how a system knows which agent is acting. Only 21.9% of teams treat agents as identities of their own. 45.6% still rely on shared API keys for agents to authenticate to each other, Gravitee says. That, Gravitee argues, breaks accountability: it is hard to tell which agent did what.
 
 Executives feel safer than the numbers suggest: 82% feel confident that their policies protect them from unauthorised agent actions, the survey finds.
 
-Gravitee's CEO, Rory Blundell, holds a press conference on Stage 2 today at 14:30, titled "Collapsing confidence in agent AI security after six months of reality". The session page gives only the title. Our [guide to the week's press conferences](press-conferences-day-by-day.html) lists the others.
+Gravitee's CEO, Rory Blundell, holds a press conference on Stage 2, in the Media Village, today from 14:30 to 14:50, titled "Collapsing confidence in agent AI security after six months of reality". The session page gives only the title. Our [guide to the week's press conferences](press-conferences-day-by-day.html) lists the others.
 
 Running AI agents in production? The questions in this survey, who approved an agent and how it proves who it is, are good ones to compare with other security and platform teams at the summit.
 

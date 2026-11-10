@@ -6,7 +6,7 @@ text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-
 <rect class="bg" width="1200" height="630"/>
 <rect class="acc" x="60" y="48" width="120" height="10"/>
 <text class="ink" x="60" y="122" font-size="54" font-weight="700">AI agents: adoption ahead of security</text>
-<text class="ink2" x="60" y="176" font-size="40">Gravitee's survey of 900+ people</text>
+<text class="ink2" x="60" y="176" font-size="42">Gravitee's survey of 900+ people</text>
 <text class="ink" x="60" y="262" font-size="42">Past planning</text>
 <rect class="trk" x="560" y="226" width="460" height="46" rx="6"/><rect class="acc" x="560" y="226" width="372" height="46" rx="6"/>
 <text class="ink" x="1040" y="264" font-size="42" font-weight="700">80.9%</text>
