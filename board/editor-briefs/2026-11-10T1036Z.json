@@ -1,0 +1,49 @@
+{
+ "number": 7,
+ "date": "2026-11-10",
+ "kicker": "pt.news · the conductor brief · the Tuesday 12:00 stand-up, summit day 1",
+ "title": "Tuesday: the stop, the restart, the interviews live, and dev waiting for one word",
+ "when": "Tuesday 10 November 2026, 10:40 UTC (for the 12:00 London stand-up)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "Since Monday's 18:00 brief: 115 releases (v0.1.868 to v0.1.983). /contribute/ went live at 21:40 and passed security@. THE BIG STOP at 23:30 paused every agent; THE RESTART at 02:40 turned pt.news into the agentic edition. The two interviews (Buzz Messaging AI, Student Property Network) are live on the home page, the agentic edition leads the front page, and the design flip is decided (B, round 3). But dev@ and dev.pages@ have been off for five hours: conductor.b@ will restart them only on Dinis's word in its own session on account B. Until then nothing from the restart is built.",
+ "stats": [
+  {"n": "115", "label": "releases since Monday 18:00 (v0.1.868 to v0.1.983)"},
+  {"n": "53", "label": "articles published and signed"},
+  {"n": "2", "label": "interviews live on the home page"},
+  {"n": "5 h", "label": "dev@ and dev.pages@ off, waiting for Dinis on account B"}
+ ],
+ "for_you": [
+  {"group": "The one thing"},
+  {"id": "1", "ask": "In conductor.b@'s session (account B): \"go: restart dev@ and dev.pages@\"", "detail": "Your words in my session at 05:45 and 08:45 were relayed and refused: its safety check wants them in its own session (ea9079a6). Or tell me to start a dev.pages session on account A instead."},
+  {"group": "Also yours"},
+  {"id": "2", "ask": "The press pass, the OpenRouter keys (plan 250 USD), sherpa@'s token, the euro link", "detail": "Unchanged since Monday."}
+ ],
+ "you_asked": [
+  {"at": "Mon 20:20", "said": "build /contribute/, the wall and the beta list; ship on security's pass", "done": "live at 21:40; security@ go at 22:05", "where": "https://promptugal.news/contribute/", "status": "done"},
+  {"at": "Mon 23:30", "said": "THE BIG STOP (relayed)", "done": "account A stopped within a minute; account B at conductor.b@'s wake", "where": "board/team/conductor/stop-report-2026-11-09.md", "status": "done"},
+  {"at": "Tue 02:40", "said": "THE RESTART: the agentic edition, the interviews, a graph, a design flip, the app framed (relayed)", "done": "interviews live; the agentic edition leads; design decided; graph growing; dev blocked", "where": "board/guidance/2026-11-10-the-restart.md", "status": "running"},
+  {"at": "Tue 05:45", "said": "Go and confirmed", "done": "GAMMA-Ray scores may publish (security@ agrees); the go relayed, refused on account B", "where": "board/guidance/2026-11-10-go-and-confirmed.md", "status": "blocked"}
+ ],
+ "team": [
+  {"id": "conductor@ (A, :36)", "status": "old", "doing": "the plan, the briefs, the relays"},
+  {"id": "security@ (A)", "status": "old", "doing": "17 commits clean at 10:05; ready to pass the GAMMA-Ray cards"},
+  {"id": "conductor.b@ (B)", "status": "old", "doing": "seven agents back on; dev@ and dev.pages@ wait for Dinis there"},
+  {"id": "designer@, sherpa@ (B)", "status": "old", "doing": "the design flip decided: B, round 3, the home page spec"},
+  {"id": "ontologist@ (B)", "status": "old", "doing": "24 products in the graph; the GAMMA-Ray card link"},
+  {"id": "correspondent@, journalist@", "status": "old", "doing": "the agentic edition leads; the interviews published"},
+  {"id": "dev@, dev.pages@ (B)", "status": "old", "doing": "off since THE BIG STOP"}
+ ],
+ "sections": [
+  {"title": "Since Monday 18:00", "items": [
+   "21:40: /contribute/ live; 22:05 security@ go; S33 and S34 fixed",
+   "23:30 to 02:40: THE BIG STOP; account A stopped within a minute",
+   "04:30: the two interviews live on the home page; the pipeline page at /newsroom/interviews/",
+   "06:41: the agentic edition on the front page; 10:20: the design flip decided (B, round 3)"
+  ]}
+ ],
+ "images": [
+  {"path": "board/editor-briefs/img/2026-11-10T1036Z-then-and-now.jpg", "caption": "The site, then and now (v0.1.983)"}
+ ],
+ "next": ["The 18:00 stand-up brief at 16:36 UTC"],
+ "sources": ["board/WS-177-plan.md", "board/guidance/2026-11-10-*.md", "git log of dev since Monday 16:36 UTC"]
+}

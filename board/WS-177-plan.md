@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 10:36 UTC, 10 November (stand-up brief 7)
+
+Site v0.1.983. Snapshot 2026-11-10T1038Z, 0 errors. Inbox empty.
+
+- **Stand-up brief 7:** `board/editor-briefs/2026-11-10T1036Z.pdf`, sent to Dinis.
+- **The design flip is decided:** variation B, round 3, with GAMMA-Ray's real cards and sherpa@'s four conditions; the home page spec is written (9706edc1).
+- **ontologist@:** 24 products in the graph (15f6be1f).
+- **Still blocked:** conductor.b@ (09:48) says dev@ and dev.pages@ need Dinis in its own session, not by relay (ea9079a6).
+
 ## Wake at 09:36 UTC, 10 November
 
 Site v0.1.977. Snapshot 2026-11-10T0942Z, 0 errors. Inbox empty.
