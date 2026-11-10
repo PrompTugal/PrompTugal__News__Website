@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-homepage-event-update",
+  "story": "S41",
+  "url": "https://websummit.com/",
+  "title": "Web Summit, homepage (the 'Important event update' notice)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "Web Summit's homepage carries an 'Important event update' notice that Day 2 will not go ahead, linking to the full statement. Read at 22:33 UTC; at 14:34 UTC the article found no such notice."
+}

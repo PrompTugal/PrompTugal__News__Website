@@ -30,6 +30,22 @@
         "c10",
         "c11"
       ]
+    },
+    {
+      "at": "2026-11-10",
+      "what": "At 19:09 UTC Web Summit posts that, on the Portuguese Government's formal advice because of Storm Charles, Day 2 (Wednesday 11 November) will not take place; it aims to hold Day 3 on Thursday 12 November.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ],
+      "source": "websummit-important-event-update-2026",
+      "claim": [
+        "c13",
+        "c14",
+        "c15",
+        "c16"
+      ]
     }
   ]
 }
