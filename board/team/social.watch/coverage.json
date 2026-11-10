@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-10T18:50Z",
+  "updated": "2026-11-10T19:55Z",
   "sweeps": [
     {
       "n": 1,
@@ -19,6 +19,19 @@
       "duplicates_dropped": 5,
       "dropped_after_review": 7,
       "review": "Dropped: four LinkedIn profile pages of private people (not posts, not opened), two TikTok listing pages and the Carris home page (not content)."
+    },
+    {
+      "n": 2,
+      "at": "2026-11-10T19:51Z",
+      "families": [
+        "news and blogs",
+        "X, Bluesky, Mastodon, Threads",
+        "YouTube and video",
+        "Web Summit's own channels (with news)"
+      ],
+      "items": 14,
+      "duplicates_dropped": 0,
+      "note": "Three sub-agents (news with Web Summit's channels, social with Reddit and HN, video with podcasts); new since about 18:00 UTC"
     }
   ],
   "items": [
@@ -1733,6 +1746,364 @@
       "family": "Web Summit's own channels",
       "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/web-summit-vai-encerrar-esta-quarta-feira-devido-ao-mau-tempo/",
+      "platform": "ECO",
+      "author": "Tiago Alexandre Pereira",
+      "kind": "article",
+      "title": "Web Summit encerrada esta quarta-feira devido ao mau tempo",
+      "quote": "Web Summit encerrada esta quarta-feira devido ao mau tempo",
+      "published": "2026-11-10T19:41",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Day 2 (11 Nov) cancelled after talks with Government, ANEPC, PSP; PM Montenegro recommended suspension, Moedas called closing most sensible. Thursday, refunds, PITCH, side events not covered.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa",
+      "platform": "Diário de Notícias",
+      "author": "DN live blog",
+      "kind": "article",
+      "title": "Governo decreta situação de alerta (live blog; includes Web Summit cancellation note)",
+      "quote": "Temos conhecimento dos alertas meteorológicos para a tarde e noite de quarta-feira",
+      "published": "2026-11-10T19:45",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Live blog entry at 19:45: organisers cancel all Wednesday activities, citing coastal flooding, wind on outdoor structures, transport disruption; coordinated with ANEPC and PSP. No Thursday statement or refund info on page.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.rtp.pt/noticias/pais/depressao-charles-esperado-agravamento-significativo-das-condicoes-meteorologicas_e1778024",
+      "platform": "RTP Notícias",
+      "author": "RTP",
+      "kind": "article",
+      "title": "Web Summit fecha portas esta quarta devido ao mau tempo (live blog entry)",
+      "quote": null,
+      "published": "2026-11-10T19:46",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Live blog: organisers cancelled Wednesday, will hold last day 'conforme planeado, após a passagem da tempestade Charles'; will contact affected people directly. Refunds, PITCH, side events not mentioned. Page not fully read (long).",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.irishtimes.com/business/2026/11/10/everything-indicates-web-summit-will-be-called-off-tomorrow-says-lisbon-mayor/",
+      "platform": "The Irish Times",
+      "author": "Stephen Conneely",
+      "kind": "article",
+      "title": "'Everything indicates' Web Summit will be called off tomorrow, says Lisbon mayor",
+      "quote": "everything indicates that Web Summit will not be able to function tomorrow",
+      "published": "2026-11-10T17:22",
+      "topics": [
+        "storm",
+        "Portugal",
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Pre-cancellation. Mentions housing protesters planning counterprotest outside Web Summit Wednesday afternoon.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://jornaleconomico.sapo.pt/noticias/carlos-moedas-evitem-deslocacoes-e-optem-pelo-teletrabalho/",
+      "platform": "Jornal Económico",
+      "author": "José Carlos Lourinho",
+      "kind": "article",
+      "title": "Carlos Moedas: \"Diria que a Web Summit não poderá funcionar esta quarta-feira\"",
+      "quote": "Diria que a Web Summit não poderá funcionar esta quarta-feira",
+      "published": "2026-11-10T13:14",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Pre-cancellation. Organisers: assessing with ANEPC; Moedas said 300 incidents recorded Tuesday.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.publico.pt/2026/11/10/sociedade/noticia/tempestade-charles-encerra-tuneis-lisboa-coloca-web-summit-duvida-2194442",
+      "platform": "Público",
+      "author": "Miguel Dantas",
+      "kind": "article",
+      "title": "Depressão Charles encerra túneis em Lisboa e coloca Web Summit em dúvida",
+      "quote": "A decisão será respeitada.",
+      "published": "2026-11-10T14:00",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Pre-cancellation; Moedas cites riverside Parque das Nações.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/ceo-da-cloudflare-a-nvidia-ainda-pode-vencer-porque-vende-muito-bons-chips/",
+      "platform": "ECO",
+      "author": "Mariana Bandeira",
+      "kind": "article",
+      "title": "CEO da Cloudflare: \"A Nvidia ainda pode vencer\"",
+      "quote": null,
+      "published": "2026-11-10T19:33",
+      "topics": [
+        "agentic AI",
+        "AI"
+      ],
+      "companies": [
+        "Cloudflare",
+        "Nvidia",
+        "Meta",
+        "Google"
+      ],
+      "company_ids": [
+        "cloudflare"
+      ],
+      "sessions": [
+        "Matthew Prince"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Prince proposes pay-per-crawl so AI agents pay micropayments; autonomous agents example.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/web-summit-foi-alvo-de-seis-milhoes-de-tentativas-de-ciberataque-em-dois-dias/",
+      "platform": "ECO",
+      "author": "Mariana Bandeira",
+      "kind": "article",
+      "title": "Web Summit já teve 6 milhões de tentativas de ciberataques",
+      "quote": "Os Estados Unidos são de onde vem o maior volume de ataques.",
+      "published": "2026-11-10T16:42",
+      "topics": [
+        "security",
+        "Portugal"
+      ],
+      "companies": [
+        "Meo"
+      ],
+      "company_ids": [
+        "meo"
+      ],
+      "sessions": [
+        "Artur Teixeira da Costa",
+        "Manuela Coutinho",
+        "Bruno Motta"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/chinesa-xpeng-aridge-quer-por-carros-a-voar-em-2028-e-traze-los-para-a-europa/",
+      "platform": "ECO",
+      "author": "Mariana Bandeira",
+      "kind": "article",
+      "title": "Chinesa Xpeng Aridge quer trazer carros voadores à Europa",
+      "quote": null,
+      "published": "2026-11-10T18:05",
+      "topics": [
+        "startups",
+        "hardware"
+      ],
+      "companies": [
+        "Xpeng Aridge",
+        "Tesla",
+        "Uber"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/pitchbook-da-acesso-gratuito-a-novas-startups-em-troca-de-informacao/",
+      "platform": "ECO",
+      "author": "Flávio Nunes",
+      "kind": "article",
+      "title": "Pitchbook oferece acesso a novas startups em troca de dados",
+      "quote": null,
+      "published": "2026-11-10T11:31",
+      "topics": [
+        "startups",
+        "investment"
+      ],
+      "companies": [
+        "PitchBook"
+      ],
+      "company_ids": [
+        "pitchbook"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Launch of Pitchbook for Startups and Pitchbook Origin at a press conference at Web Summit.",
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/10/enfrentamos-um-terceiro-inverno-de-acesso-ao-capital-diz-ceo-do-nasdaq-entrepreneurial-center/",
+      "platform": "ECO",
+      "author": "Mariana Bandeira",
+      "kind": "article",
+      "title": "Enfrentamos um terceiro inverno de acesso ao capital",
+      "quote": null,
+      "published": "2026-11-10T12:35",
+      "topics": [
+        "investment",
+        "startups"
+      ],
+      "companies": [
+        "Nasdaq Entrepreneurial Center",
+        "Andreessen Horowitz"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Caleb Silver (moderator)"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://www.noticiasaominuto.com/tech/3081889/web-summit-bom-senso-e-dialogo-com-tecnologicas-e-mais-valia",
+      "platform": "Notícias ao Minuto (Lusa)",
+      "author": "Lusa",
+      "kind": "article",
+      "title": "Web Summit: Bom senso e diálogo com tecnologicas é mais valia",
+      "quote": null,
+      "published": "2026-11-10T18:50",
+      "topics": [
+        "policy",
+        "regulation"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Des Hogan",
+        "Abigail Slater",
+        "Regulating Big Tech panel"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://social.vivaldi.net/@Vivaldi/117593812717631891",
+      "platform": "Mastodon",
+      "author": "Vivaldi (vivaldi.net)",
+      "kind": "post",
+      "title": null,
+      "quote": "We're at the Web Summit conference this week!",
+      "published": "2026-11-10T19:33:03Z",
+      "topics": [
+        "AI",
+        "sovereignty",
+        "speakers"
+      ],
+      "companies": [
+        "Vivaldi"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Vivaldi v Goliath: the case for sovereign code (CEO Jon, announced for 'tomorrow', i.e. the cancelled Day 2)"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Posted before the 19:38 cancellation; edited 19:48 UTC. Talk was scheduled for Wednesday 11 Nov, so now affected by the Day 2 cancellation (inference, not stated in the post).",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
+    },
+    {
+      "url": "https://observador.pt/2026/11/10/vitoria-dos-democratas-nos-eua-foi-parcialmente-alimentada-pelos-receios-em-relacao-a-ia-diz-investidor/",
+      "platform": "Observador (shared on Mastodon via bridge as observador.pt (web.brid.gy))",
+      "author": "Observador",
+      "kind": "article",
+      "title": "Vitória dos democratas nos EUA 'foi parcialmente alimentada pelos receios em relação à IA', diz investidor",
+      "quote": null,
+      "published": "2026-11-10T18:43:00Z",
+      "topics": [
+        "AI",
+        "policy",
+        "investment",
+        "speakers"
+      ],
+      "companies": [
+        "Neo"
+      ],
+      "company_ids": [
+        "neo"
+      ],
+      "sessions": [
+        "AI doom or boom (main stage), Ali Partovi"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Opened the article; filmed at Web Summit Lisbon 2026.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-10T19:55Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 2)"
     }
   ]
 }
