@@ -5,7 +5,7 @@
   "title": "Update: Wednesday's Web Summit events will not take place",
   "beat": "The summit",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:x-ws-event-update"
   ],
@@ -15,23 +15,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-10-2050.json"
+      "desks/curator/2026-11-10-2050.json",
+      "desks/journalist-vicky/drafts/S44-wednesday-guide-day-2-update.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S44-wednesday-guide-day-2-update.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-10",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-10-2050.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-10",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S44-wednesday-guide-day-2-update.md"
     }
   ]
 }
