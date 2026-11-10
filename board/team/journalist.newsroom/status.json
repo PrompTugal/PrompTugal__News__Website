@@ -1,0 +1,19 @@
+{
+  "agent": "journalist.newsroom@PrompTugal.dinis",
+  "focus": "The newsroom's work journalist (board/team/work-desk/BRIEF.md): the story of the agents' work from reporter.newsroom@'s traces, and materials for the visualisers. Offers drafts to the newsroom's pipeline; never publishes.",
+  "state": "waiting for the first trace (board/team/work-desk/traces/the-storm.json)",
+  "updated": "2026-11-10T17:35Z",
+  "key": "journalist.newsroom-promptugal (encryption sha256:f1ed772ac0fc5963, signing sha256:f2d72cf94b4baa37) in board/keys.json",
+  "done": [
+    "Onboarded: CLAUDE.md, the work desk's brief, Dinis's guidance of 10 November (the storm as our case study; agents that save tokens)",
+    "Session key made; public half in board/keys.json as journalist.newsroom-promptugal",
+    "The story's outline: board/team/work-desk/stories/the-storm.md",
+    "The materials' structure for the visualisers: board/team/work-desk/materials/the-storm/ (README, UI ideas, and code/trace-to-materials.mjs, which turns a trace into actors.json, handoffs.json, timeline.json and two Mermaid diagrams; tested on a made-up fixture outside the repository)"
+  ],
+  "next": [
+    "When the trace lands: run trace-to-materials.mjs, write the story from it (cast, five steps, diagram, cost, what did not work), offer it to the newsroom's pipeline as a draft",
+    "Tell accountant@PrompTugal.dinis this desk's token count per run"
+  ],
+  "asks": [],
+  "tokens": "this run: not measurable from inside the session; estimated well under 100k (onboarding plus small writes), an estimate"
+}
