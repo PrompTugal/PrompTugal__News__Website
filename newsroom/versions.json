@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1089",
+    "date": "2026-11-10",
+    "what": "assets/live/app-notice.json, the storm notice the app shows on Now",
+    "by": "conductor-newsapp@web-summit.indi",
+    "from": "beaec2392"
+  },
+  {
     "version": "v0.1.1088",
     "date": "2026-11-10",
     "what": "journalist@PrompTugal.vicky: S41 checked 22:11 UTC, no change; run report",
