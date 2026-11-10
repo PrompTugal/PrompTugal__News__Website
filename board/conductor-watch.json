@@ -312,6 +312,18 @@
       "PrompTugal__App__iOS": "77a95682",
       "PrompTugal__App__Mobile": "74332868",
       "note": "Android: no change (dev = main 4de30ec). Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.B@ios.PrompTugal.dinis",
+      "at": "2026-11-10T00:05Z",
+      "shas": {
+        "SGit-AI__Website__Web-Summit": "6d75ae89",
+        "PrompTugal__News__Website": "a6e155bc",
+        "PrompTugal__App__Android": "9bfd28b0",
+        "PrompTugal__App__iOS": "87211d14",
+        "PrompTugal__App__Mobile": "7f59d911"
+      },
+      "note": "THE BIG STOP: iOS :00 wake paused at 00:03 (last line until restarted); stop report in iOS briefs/2026-11-09__the-big-stop/stop-report.md. Release #140 (v0.4.59, carries the report.sh SIGPIPE fix for public 0.4.57) left to finish. 205 still in App Review."
     }
   ]
 }
