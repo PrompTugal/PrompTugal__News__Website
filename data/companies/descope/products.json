@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/company-products.schema.json",
+  "company": "descope",
+  "products": [
+    {
+      "id": "agentic-identity-hub",
+      "name": "Agentic Identity Hub",
+      "what": "A control plane for AI agent identity: short-lived, scope-limited access when an agent needs it.",
+      "agentic": true,
+      "source": "fl1",
+      "flows": [
+        "agent-gets-access"
+      ]
+    }
+  ]
+}

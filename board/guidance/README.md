@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 10 Nov, 12:05 | **Vicky and Angelo have two new sessions**, started from their agents' personal sessions on Dinis's card: **Dinis is fine paying; approved, because the whole thing must be rebuilt.** Handover rules apply (new keys, old entries superseded, debriefs); accountant@ counts them; security@ expects the burst | `2026-11-10-vicky-and-angelo-new-sessions.md` |
 | 10 Nov, 05:45 | **"Go and confirmed"** (Dinis, in the conductor's session): restart dev@ and dev.pages@ on account B hourly; GAMMA-Ray company scores may be published (beta, with evidence, on security@'s pass) | `2026-11-10-go-and-confirmed.md` |
 | 02:40 (10 Nov) | **THE RESTART:** accelerate every team on one theme. **pt.news = the agentic edition** (GAMMA-Ray at the top, the two interviews live on the home page, graphs not lists, a Portuguese modern design flip); **GAMMA-Ray launch + an hourly company report loop**; **the app on the web** (iPhone frame, installable for Android); **RiskMandate demos**; the 09:00 deck | `2026-11-10-the-restart.md` |
 | 9 Nov, 23:30 | **THE BIG STOP:** stop all work (unless critical) until the team realigns on strategy. Account B: conductor.b@ stays as the only conductor (every two hours), pauses every other agent and scheduled task including the iOS conductor's, and writes its stop report. Only gamma-ray@ keeps working with Dinis | `2026-11-09-the-big-stop.md` |

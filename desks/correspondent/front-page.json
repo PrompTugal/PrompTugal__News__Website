@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-10T08:50Z",
+  "updated": "2026-11-10T10:52Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published.",
   "lead": {
     "article": "gravitee-agent-security-survey",
@@ -106,8 +106,8 @@
       "beat": "From the newsroom",
       "articles": [
         "daily-newsletter",
-        "the-first-night-of-promptugal-news",
-        "angelos-communication-graph"
+        "speed-where-its-safe-control-where-it-matters",
+        "the-first-night-of-promptugal-news"
       ],
       "note": "three of the nine about-us pieces (from_the_newsroom has them all); last, so the news comes first"
     }
@@ -115,6 +115,7 @@
   "from_the_newsroom": {
     "articles": [
       "daily-newsletter",
+      "speed-where-its-safe-control-where-it-matters",
       "the-first-night-of-promptugal-news",
       "angelos-communication-graph",
       "what-the-agents-say-to-each-other",
@@ -423,8 +424,9 @@
     },
     "top": [
       {
-        "article": "<an interview: Buzz Messaging AI or Student Property Network, when published>",
-        "why": "the authorised interviews on the home page (THE RESTART)"
+        "interview": "student-property-network--leo-tashev-and-fraser-lloyd--2026-11-09",
+        "rel": "interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html",
+        "why": "the authorised interview, on the home page (THE RESTART); also the phone's H2 pick for Wednesday"
       },
       {
         "article": "gravitee-agent-security-survey",
@@ -458,5 +460,20 @@
       }
     ],
     "rule": "At the swap, every '<...>' slot takes the published slug or its fallback; a slot with neither is dropped."
+  },
+  "phone_interview": {
+    "about": "H2 of board/spec-the-agentic-home-page.md: on a phone only, one interview inside the top, under the standfirst, and dropped from the list below. My pick per day; dev.pages@ reads 'rel' (the interview's page, from desks/journalist-promptugal/interviews/).",
+    "today": {
+      "for_date": "2026-11-10",
+      "interview": "buzz-messaging-ai--guy-ben-zvi--2026-11-09",
+      "rel": "interviews/buzz-messaging-ai/guy-ben-zvi/index.html",
+      "why": "Agents in a European messaging platform, users bringing their own model: the agentic edition's theme, from Opening Night."
+    },
+    "next": {
+      "for_date": "2026-11-11",
+      "interview": "student-property-network--leo-tashev-and-fraser-lloyd--2026-11-09",
+      "rel": "interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html",
+      "why": "The other authorised interview, with the AI agent that sorts the graduate job market; rotates in on Wednesday unless a new interview is published."
+    }
   }
 }

@@ -1,5 +1,117 @@
 [
   {
+    "version": "v0.1.997",
+    "date": "2026-11-10",
+    "what": "watch 12:18: Vicky's agents on her account, two blocked on web access",
+    "by": "conductor@web-summit.dinis",
+    "from": "97f587c91"
+  },
+  {
+    "version": "v0.1.996",
+    "date": "2026-11-10",
+    "what": "jornal@PrompTugal.silvio: one candidate at the 12:07 wake (an Iberian AI gigafactory bid)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "6cc1af1ab"
+  },
+  {
+    "version": "v0.1.995",
+    "date": "2026-11-10",
+    "what": "security@PrompTugal.dinis: wake 12:05: 34 commits clean; Vicky's seven new keys checked, none removed",
+    "by": "security@PrompTugal.dinis",
+    "from": "01c43b527"
+  },
+  {
+    "version": "v0.1.994",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: closing run report (re-signing released in v0.1.993)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "3592bb5de"
+  },
+  {
+    "version": "v0.1.993",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: hand-over note for 10 November; no open assignment on the summit desk",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "6378bdbfd"
+  },
+  {
+    "version": "v0.1.992",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: onboarding for Vicky's ten agents on her account",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "a32ab7626"
+  },
+  {
+    "version": "v0.1.991",
+    "date": "2026-11-10",
+    "what": "guidance: Vicky's and Angelo's two new sessions, on Dinis's card, approved for the rebuild",
+    "by": "conductor@web-summit.dinis",
+    "from": "6a1fe992b"
+  },
+  {
+    "version": "v0.1.990",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: wake 11:36: a quiet hour; dev@ and dev.pages@ blocked six hours; three-hourly report",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "bf9454d4b"
+  },
+  {
+    "version": "v0.1.989",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 11:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "21d4294b3"
+  },
+  {
+    "version": "v0.1.988",
+    "date": "2026-11-10",
+    "what": "watch 11:15: FACT-Ray live; iOS signing HIGH to Dinis",
+    "by": "conductor@web-summit.dinis",
+    "from": "558893852"
+  },
+  {
+    "version": "v0.1.987",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 10:48 wake: the design flip decided; dev@ and dev.pages@ still wait for Dinis here",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "fb730d35d"
+  },
+  {
+    "version": "v0.1.986",
+    "date": "2026-11-10",
+    "what": "correspondent@PrompTugal.dinis: wake 10:41: the phone's interview pick (H2); a newsroom piece placed",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "974a53958"
+  },
+  {
+    "version": "v0.1.985",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: stand-up brief 7 (Tuesday 12:00); wake 10:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "9fba533dc"
+  },
+  {
+    "version": "v0.1.984",
+    "date": "2026-11-10",
+    "what": "designer@PrompTugal.dinis: the design flip decided: B, round 3, with GAMMA-Ray's real cards and sherpa@'s four conditions; the home page spec for dev.pages@",
+    "by": "designer@PrompTugal.dinis",
+    "from": "9706edc1f"
+  },
+  {
+    "version": "v0.1.983",
+    "date": "2026-11-10",
+    "what": "conductor.android@promptugal.ai.dinis: watch 10:26: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "3b8ede8de"
+  },
+  {
+    "version": "v0.1.982",
+    "date": "2026-11-10",
+    "what": "watch 10:13: dev@ restart still needs Dinis in conductor.b@'s session",
+    "by": "conductor@web-summit.dinis",
+    "from": "6784c9b67"
+  },
+  {
     "version": "v0.1.981",
     "date": "2026-11-10",
     "what": "jornal@PrompTugal.silvio: one candidate at the 10:08 wake (Altegio's agent platform)",
