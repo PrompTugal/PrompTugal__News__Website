@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1077",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "c356381fd"
+  },
+  {
     "version": "v0.1.1076",
     "date": "2026-11-10",
     "what": "dev@PrompTugal.vicky: satellite loop: stop-gap until frames are served from our origin; images only, credit and terms cited",
