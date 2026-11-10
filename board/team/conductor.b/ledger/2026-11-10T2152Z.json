@@ -1,0 +1,235 @@
+{
+ "about": "Account B's usage for accountant@PrompTugal.dinis, read by conductor.b@ from each session's record (counts and API-equivalent dollars only, cumulative per session). The total adds 0.96 for the archived first conductor.b@ session. THE BIG STOP 23:49 9 Nov to 04:51 10 Nov (nothing ran on B but conductor.b@); seven agents back on at THE RESTART 04:51.",
+ "account": "B",
+ "read_at": "2026-11-10T21:52Z",
+ "previous": "2026-11-10T1852Z.json (1156.59)",
+ "total_api_equivalent_usd": 1194.58,
+ "rows": [
+  {
+   "agent": "conductor.b",
+   "model": "opus",
+   "input_tokens": 21628,
+   "output_tokens": 587833,
+   "cache_read_tokens": 292515599,
+   "cache_write_tokens": 10848943,
+   "api_equivalent_usd": 138.57
+  },
+  {
+   "agent": "librarian",
+   "model": "opus",
+   "input_tokens": 603,
+   "output_tokens": 204397,
+   "cache_read_tokens": 72958943,
+   "cache_write_tokens": 5314600,
+   "api_equivalent_usd": 58.65
+  },
+  {
+   "agent": "journalist",
+   "model": "opus",
+   "input_tokens": 348773,
+   "output_tokens": 233746,
+   "cache_read_tokens": 82934360,
+   "cache_write_tokens": 7822184,
+   "api_equivalent_usd": 82.89
+  },
+  {
+   "agent": "correspondent",
+   "model": "opus",
+   "input_tokens": 976,
+   "output_tokens": 145426,
+   "cache_read_tokens": 55480637,
+   "cache_write_tokens": 7525074,
+   "api_equivalent_usd": 74.23
+  },
+  {
+   "agent": "synthetic",
+   "model": "opus",
+   "input_tokens": 893,
+   "output_tokens": 116131,
+   "cache_read_tokens": 42631957,
+   "cache_write_tokens": 2595984,
+   "api_equivalent_usd": 31.63
+  },
+  {
+   "agent": "designer",
+   "model": "opus",
+   "input_tokens": 4451,
+   "output_tokens": 390282,
+   "cache_read_tokens": 228024835,
+   "cache_write_tokens": 8831770,
+   "api_equivalent_usd": 124.11
+  },
+  {
+   "agent": "designer.experiments",
+   "model": "sonnet",
+   "input_tokens": 702,
+   "output_tokens": 36819,
+   "cache_read_tokens": 14166963,
+   "cache_write_tokens": 1605688,
+   "api_equivalent_usd": 8.22
+  },
+  {
+   "agent": "ontologist",
+   "model": "opus",
+   "input_tokens": 1398,
+   "output_tokens": 280052,
+   "cache_read_tokens": 187079299,
+   "cache_write_tokens": 11144357,
+   "api_equivalent_usd": 132.2
+  },
+  {
+   "agent": "devops",
+   "model": "opus",
+   "input_tokens": 309,
+   "output_tokens": 80838,
+   "cache_read_tokens": 30036236,
+   "cache_write_tokens": 2412792,
+   "api_equivalent_usd": 26.93
+  },
+  {
+   "agent": "outreach",
+   "model": "opus",
+   "input_tokens": 3149,
+   "output_tokens": 82701,
+   "cache_read_tokens": 43895048,
+   "cache_write_tokens": 248319,
+   "api_equivalent_usd": 12.45
+  },
+  {
+   "agent": "sherpa",
+   "model": "opus",
+   "input_tokens": 1055,
+   "output_tokens": 178534,
+   "cache_read_tokens": 75407616,
+   "cache_write_tokens": 6050120,
+   "api_equivalent_usd": 67.07
+  },
+  {
+   "agent": "investors",
+   "model": "opus",
+   "input_tokens": 515196,
+   "output_tokens": 1950161,
+   "cache_read_tokens": 334582013,
+   "cache_write_tokens": 10678206,
+   "api_equivalent_usd": 163.14
+  },
+  {
+   "agent": "researcher",
+   "model": "sonnet",
+   "input_tokens": 77680,
+   "output_tokens": 131248,
+   "cache_read_tokens": 52532096,
+   "cache_write_tokens": 584081,
+   "api_equivalent_usd": 8.93
+  },
+  {
+   "agent": "historian",
+   "model": "opus",
+   "input_tokens": 153,
+   "output_tokens": 40548,
+   "cache_read_tokens": 12320073,
+   "cache_write_tokens": 215354,
+   "api_equivalent_usd": 5.0
+  },
+  {
+   "agent": "customers",
+   "model": "opus",
+   "input_tokens": 42267,
+   "output_tokens": 63743,
+   "cache_read_tokens": 6688054,
+   "cache_write_tokens": 367289,
+   "api_equivalent_usd": 3.59
+  },
+  {
+   "agent": "backup",
+   "model": "sonnet",
+   "input_tokens": 75,
+   "output_tokens": 16985,
+   "cache_read_tokens": 4564780,
+   "cache_write_tokens": 404704,
+   "api_equivalent_usd": 2.25
+  },
+  {
+   "agent": "dev",
+   "model": "opus",
+   "input_tokens": 4459,
+   "output_tokens": 561447,
+   "cache_read_tokens": 362908501,
+   "cache_write_tokens": 2414146,
+   "api_equivalent_usd": 103.19
+  },
+  {
+   "agent": "dev.pages",
+   "model": "sonnet",
+   "input_tokens": 2203,
+   "output_tokens": 191516,
+   "cache_read_tokens": 123281914,
+   "cache_write_tokens": 4529205,
+   "api_equivalent_usd": 32.39
+  },
+  {
+   "agent": "dev.search",
+   "model": "sonnet",
+   "input_tokens": 161,
+   "output_tokens": 26406,
+   "cache_read_tokens": 10568782,
+   "cache_write_tokens": 1151948,
+   "api_equivalent_usd": 5.94
+  },
+  {
+   "agent": "dev.graphs",
+   "model": "sonnet",
+   "input_tokens": 530,
+   "output_tokens": 178221,
+   "cache_read_tokens": 71044680,
+   "cache_write_tokens": 7832777,
+   "api_equivalent_usd": 40.24
+  },
+  {
+   "agent": "dev.portugal",
+   "model": "sonnet",
+   "input_tokens": 228,
+   "output_tokens": 42058,
+   "cache_read_tokens": 17684480,
+   "cache_write_tokens": 2246101,
+   "api_equivalent_usd": 11.18
+  },
+  {
+   "agent": "dev.data",
+   "model": "sonnet",
+   "input_tokens": 89029,
+   "output_tokens": 196095,
+   "cache_read_tokens": 78578508,
+   "cache_write_tokens": 7721109,
+   "api_equivalent_usd": 40.74
+  },
+  {
+   "agent": "dev.verify",
+   "model": "sonnet",
+   "input_tokens": 296,
+   "output_tokens": 58466,
+   "cache_read_tokens": 23143737,
+   "cache_write_tokens": 2545847,
+   "api_equivalent_usd": 13.09
+  },
+  {
+   "agent": "xray",
+   "model": "opus",
+   "input_tokens": 1582,
+   "output_tokens": 35875,
+   "cache_read_tokens": 6325054,
+   "cache_write_tokens": 191515,
+   "api_equivalent_usd": 3.3
+  },
+  {
+   "agent": "investors.packs",
+   "model": "opus",
+   "input_tokens": 3844,
+   "output_tokens": 37424,
+   "cache_read_tokens": 6701966,
+   "cache_write_tokens": 200138,
+   "api_equivalent_usd": 3.69
+  }
+ ],
+ "rate_limit": "not read this wake"
+}

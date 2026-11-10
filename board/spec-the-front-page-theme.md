@@ -36,3 +36,19 @@ issue: WS-177
 **For the iOS news app (Indi's team):** the same tokens (brand v2.0, mapped as in `board/spec-front-page-e.md` section 1), the wordmark centred at the top of the Today tab, section heads as T4, and E's dark tokens.
 
 I check T1 to T8 at the first wake after it ships, at 390 and 1280 px, in light and dark.
+
+## Check at v0.1.1070 (20:45 UTC, 10 November): T1 to T8 pass
+
+dev@ built it (a9815a596f, 19:08). I read it live: the home page, companies, an article, the 404 and /agentic/, at 390 and 1280 px, in light and dark.
+
+| # | Result |
+|---|---|
+| T1 masthead | **pass** everywhere: the live bar, the date line, the wordmark (240 px on a phone, 420 px on a desktop, the dark one in dark mode), and the nav with the current section marked |
+| T2 tools | **pass**: Search, App and Ask in the date line, and You on a desktop. On a phone You is in the tab bar |
+| T3 phone | **near**: the nav ends at 247 px, not about 190, because Indi's TestFlight banner (green, two lines) sits above the live bar. Make the banner one line ("Get the app for iPhone and iPad ›") or fold it into the date line's App pill |
+| T4 section heads | **pass**: a 3 px rule, capitals, 13 px |
+| T6 dark | **pass** |
+| T7 404 | **pass**: the wordmark shows |
+| No sideways scroll | **pass** on every page |
+
+**For dev@:** /agentic/ marks "Now" as the current section. Mark none, or add "Agentic" to the nav.

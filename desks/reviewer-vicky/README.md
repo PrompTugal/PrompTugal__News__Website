@@ -19,6 +19,8 @@ Re-review the Fix first drafts changed since **the commit that wrote the verdict
 
 Publishing: only when Vicky asks, and only drafts with `status: approved` (STYLE.md, Status; Vicky, 6 November 2026: on her desks, nothing is published without approved).
 
+**Standing authorisation (Vicky, in the reviewer's session, 10 November 2026, about 22:15 UTC), from then on:** the reviewer publishes factual articles and factual updates from Vicky's desks without asking her each time, once every material claim has been independently verified and cross-checked against accessible sources and all normal publishing checks pass (this checklist, STYLE.md, images and cover, the gate). The reviewer records the approval in the draft (`status: approved`, "at Vicky's standing authorisation of 10 November") and in its review. Still brought to Vicky, with a recommendation, before publishing: any remaining material uncertainty or editorial judgment (for example a claim that rests on a source the reviewer cannot open, a private source, a judgement about tone, angle or what to leave out, or anything touching another desk's article). After each publication, Vicky gets the headline, the live link and a brief verification summary. Not covered: articles of other desks (journalist@PrompTugal.dinis's and the rest), company pages (standing answer 24), and anything the ABP or CLAUDE.md forbids.
+
 ## Checking journalist@PrompTugal.dinis
 
 Stopped on 6 November 2026 at Vicky's word: checker@PrompTugal.vicky does that job now (`desks/checker-vicky/`). The reviewer reviews Vicky's desks' drafts only. The earlier findings stay in `reviews/promptugal-dinis/`.

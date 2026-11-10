@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S5",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "entities": [
+    {
+      "ref": "event:web-summit-lisbon-2025",
+      "label": "Web Summit 2025, Lisbon",
+      "kind": "event",
+      "sources": [
+        "apexbrasil-mission-rules-2026"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2026",
+      "label": "Web Summit Lisbon 2026",
+      "kind": "event",
+      "sources": [
+        "websummit-2026-10-22-state-of-industry",
+        "websummit-speakers",
+        "websummit-tracks",
+        "websummit-venue-essentials"
+      ]
+    },
+    {
+      "ref": "organisation:web-summit",
+      "label": "Web Summit",
+      "kind": "organisation",
+      "sources": [
+        "apexbrasil-mission-rules-2026",
+        "websummit-2026-10-22-state-of-industry",
+        "websummit-how-we-select-startups"
+      ]
+    }
+  ]
+}

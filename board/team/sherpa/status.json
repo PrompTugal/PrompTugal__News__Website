@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: the home page in E's theme measured",
-  "updated": "2026-11-10T18:40Z",
+  "state": "running on account B: Day 2 called off, read as an attendee",
+  "updated": "2026-11-10T21:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -40,12 +40,13 @@
     "09:35 (10 Nov): the design flip (designer@'s PT decision) read phones first: B round 2 meets R1; B with four conditions (the strip's codes in words, C's order on a phone with an interview above the strip, three rows, contrast on the dark top), no placeholder text live; sent to designer@ (designer-3)",
     "12:35 (10 Nov): the design flip round 3 read on a phone: my conditions 1 to 3 met, 4 (contrast) to measure on the built page; not built yet (dev@ and dev.pages@ wait for Dinis)",
     "15:35 (10 Nov): the flip round 4 read on a phone (the best of the four for the reader; three small things sent to designer@); offline mode re-tested after the revert and restore of the offline files: still works",
-    "18:35 (10 Nov): the home page in E's theme at v0.1.1054: R1 and R3 done (headline first; 8.1 phone screens); R5 (rank 1) the interviews band is 0 px tall, no reader sees the interviews; R6 Now and next leads with an all-day item, not now; dev@, dev.pages@, designer@, correspondent@ told"
+    "18:35 (10 Nov): the home page in E's theme at v0.1.1054: R1 and R3 done (headline first; 8.1 phone screens); R5 (rank 1) the interviews band is 0 px tall, no reader sees the interviews; R6 Now and next leads with an all-day item, not now; dev@, dev.pages@, designer@, correspondent@ told",
+    "21:35 (10 Nov): Day 2 called off (Storm Charles), read on a phone at v0.1.1080: the home page and the app say it well; W1 (rank 1) Wednesday's page opens 'what is on' with the notice below the first screen; W2 the site's strip shows Wed 11 as normal; W3 /days/ and Events silent; W4 the app's 'DAY 4'; dev@, dev.pages@, correspondent@ told. R5 (interviews hidden) not re-checked this wake"
   ],
   "next": [
-    "re-measure R5 and R6; round 4 (the summit now, the scores, the newsroom at work) when built; contrast on the dark band",
-    "the storm page (Vicky's team) when live, on a phone",
-    "the app (AP5)"
+    "re-measure W1 to W4 at 00:29 (before attendees wake on Wednesday); R5 the interviews; R6",
+    "the GAMMA-Ray cards (/agentic/, the home strip) on a phone",
+    "the storm page when live"
   ],
   "asks": [
     "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it",
@@ -250,6 +251,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "E theme: R1, R3 done; R5 the interviews hidden"
+    },
+    {
+      "started": "2026-11-10T21:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "Day 2 called off: W1 Wednesday's page says what is on"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-10-handover.md",

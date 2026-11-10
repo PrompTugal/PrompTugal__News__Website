@@ -5,7 +5,7 @@
 // A past day says it is the past. Rebuilding the site as it was that day (S2) is not built yet, and the page says so.
 import fs from 'node:fs'
 import { slotLine, slotList } from '../lib/present.mjs'
-import { load, rank, KIND, STRIP_DAYS, stripMd } from './agenda.mjs'
+import { load, rank, KIND, STRIP_DAYS, stripMd, cancelledDays } from './agenda.mjs'
 export const order = 60
 export const assets = { js: ['assets/days/days.js'] }
 
@@ -31,8 +31,10 @@ function dayPage(ctx, d, i) {
         today: `**Today: ${DAY(d)}.** What is on today, then the other days in the strip above.`,
         future: `**Planned: ${DAY(d)}**, as listed on ${DAY(TODAY)}. Times and rooms can move: each item links to its source.`,
     }[when]
+    const off = cancelledDays()[d]   // the correspondent's 'did not take place' (10 November: Day 2 cancelled)
+    const shown = off ? `**${DAY(d)} did not take place.** ${off.replace(/\.?$/, '.')}` : banner
     const prev = STRIP_DAYS[i - 1], next = STRIP_DAYS[i + 1]
-    const md = `${stripMd(ctx, rel, d)}\n\n{.notice .brand}\n${banner}\n\n` +
+    const md = `${stripMd(ctx, rel, d)}\n\n{.notice .brand}\n${shown}\n\n` +
         (items.length ? `{.view-switch}\n[Five things](#v-five) · [Every session, by time](#v-all) · [By stage](#v-stages)\n\n` +
             `::: view view-five\n#### Five things {#v-five}\n\n${picked.length || d < TODAY ? '' : `*${DW.unpicked}*\n\n`}${slotList(five.map(line))}\n\n` +
             (items.length > 5 ? `::: fold\n#### ${d === TODAY ? DW.else_today : DW.else_other} (${items.length - 5}) {#else}\n\n${slotList([...items].filter(e => !five.includes(e)).sort(byTime).map(line))}\n:::\n` : '') + `:::\n\n` +
@@ -77,6 +79,6 @@ export const api = ctx => {
     })
     return [
         { path: 'api/v1/days.json', schema: null, data: { about: W.about, version: ctx.VERSION, updated: TODAY, days: days.map(({ items, ...d }) => ({ ...d, data: `${ctx.BASE}api/v1/days/${d.date}.json` })) } },
-        ...days.map(d => ({ path: `api/v1/days/${d.date}.json`, schema: null, data: { about: W.about, version: ctx.VERSION, ...d } })),
+        ...days.map(d => ({ path: `api/v1/days/${d.date}.json`, schema: null, data: { about: W.about, version: ctx.VERSION, ...d, ...(cancelledDays()[d.date] ? { cancelled: cancelledDays()[d.date] } : {}) } })),
     ]
 }

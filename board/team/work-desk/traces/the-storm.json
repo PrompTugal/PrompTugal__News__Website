@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-10T19:40Z",
+  "updated": "2026-11-10T21:45Z",
   "covers": {
-    "from": "2026-11-10T14:08:40Z",
-    "to": "2026-11-10T19:04:47Z",
-    "last_commit": "da1b13d4a"
+    "from": "2026-11-10T13:23:00Z",
+    "to": "2026-11-10T21:23:05Z",
+    "last_commit": "985b1f395"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -34,6 +34,28 @@
     }
   },
   "steps": [
+    {
+      "n": 57,
+      "time_utc": "2026-11-10T13:23:00Z",
+      "actor": {
+        "name": "Lisbon's mayor",
+        "kind": "public authority"
+      },
+      "input": "IPMA's warnings",
+      "output": "says everything indicates Web Summit cannot run on Wednesday; refers the final decision to the Ministry of Internal Administration (press, Jornal Económico)",
+      "hand_off_to": [
+        {
+          "name": "Ministry of Internal Administration",
+          "kind": "public authority"
+        }
+      ],
+      "evidence": [
+        "desks/weather-vicky/live.md (10 Nov 13:23, PRESS)",
+        "desks/weather-vicky/decision-graph.json node 'mayor'"
+      ],
+      "workflow_step": "the weak signal",
+      "note": "Found by the weather desk only at 19:48 (b23e84619), 6 h 25 min after it was said: the desk had watched primary sources only."
+    },
     {
       "n": 1,
       "time_utc": "2026-11-10T14:08:40Z",
@@ -674,6 +696,26 @@
       "workflow_step": "4. the developer builds it (the UI for the signal); no designer step"
     },
     {
+      "n": 58,
+      "time_utc": "2026-11-10T17:32:00Z",
+      "actor": {
+        "name": "Prime Minister",
+        "kind": "public authority"
+      },
+      "input": "the alert situation",
+      "output": "'we have already issued our recommendation' that the summit suspend Wednesday (spoken 17:32 to 17:35; reported live from 17:53)",
+      "hand_off_to": [
+        {
+          "name": "Web Summit (organisers)",
+          "kind": "organisation"
+        }
+      ],
+      "evidence": [
+        "commit:0e77b21e9 (weather@: 'the government's recommendation (the PM, 17:32-17:35)')"
+      ],
+      "note": "Refines step 46's 17:53, which was the press report's time."
+    },
+    {
       "n": 30,
       "time_utc": "2026-11-10T17:33:11Z",
       "actor": {
@@ -1275,6 +1317,442 @@
         "commit:da1b13d4a"
       ],
       "hand_off": "agent->agent (trace to story, second pass)"
+    },
+    {
+      "n": 59,
+      "time_utc": "2026-11-10T19:09:00Z",
+      "actor": {
+        "name": "Web Summit (organisers)",
+        "kind": "organisation"
+      },
+      "input": "the government's recommendation",
+      "output": "'Important event update': Day 2 (Wed 11 Nov) will not take place; Day 3 as planned; an email to attendees (19:38 UTC)",
+      "hand_off_to": [
+        {
+          "name": "attendees",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:0de67c442 (websummit.com post 'dated 19:09 in the page's data')",
+        "commit:b23e84619 (the email, 19:38 UTC)"
+      ],
+      "workflow_step": "the decision the graph was built to predict",
+      "note": "The post's own date (19:09) is before the email (19:38), but no agent saw it on the site until 19:59 (weather@) and 20:56 (social.watch@): the news list did not show it."
+    },
+    {
+      "n": 60,
+      "time_utc": "2026-11-10T19:37:46Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "19:36 check",
+      "output": "warnings unchanged; Metro and the city open five stations overnight for homeless people; the city node in the graph set to happened (partly)",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:50ab656a0",
+        "commit:c15026b0a"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 61,
+      "time_utc": "2026-11-10T19:48:09Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Web Summit's attendee email (19:38); the mayor's 13:23 remarks (press)",
+      "output": "Day 2 off in live.md, the decision graph and the lead draft; lead time against history recorded as analysis; no official page yet at 19:47",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:b23e84619"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "5. the graph's prediction meets the event: 10 minutes from the email to the desk's commit"
+    },
+    {
+      "n": 62,
+      "time_utc": "2026-11-10T19:49:56Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the desk's hand-off; Vicky's line",
+      "output": "S41 and its lead updated at Vicky's word: Day 2 will not take place, Day 3 as planned; checked 19:47",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:8130df0f4",
+        "commit:e08c89f65",
+        "commit:d503f4346 (conductor.B: 'waits on Vicky's line at the reviewer')"
+      ],
+      "hand_off": "person->agent (Vicky's line)",
+      "workflow_step": "signal to readers: 12 minutes from the organisers' email to the published update"
+    },
+    {
+      "n": 63,
+      "time_utc": "2026-11-10T19:53:26Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "Jornal de Negócios 19:42 quoting the organisers",
+      "output": "storm signal relayed for the incident timeline (WS-214); sweep 2 at 19:56: Day 2 off, Thursday on",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:e6b192fd5",
+        "commit:a9b2cdf55"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 64,
+      "time_utc": "2026-11-10T19:58:42Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "DN 19:45 (press); Web Summit's site still silent at 19:57",
+      "output": "DN added as secondary coverage at Vicky's word; the email stays primary",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:1bd453ccf",
+        "commit:40cefedde"
+      ],
+      "hand_off": "person->agent (Vicky)"
+    },
+    {
+      "n": 65,
+      "time_utc": "2026-11-10T20:02:57Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "websummit.com blog, read 19:59 and 20:02",
+      "output": "Web Summit's own post now listed; the lead draft cites it",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:19003cce4"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 66,
+      "time_utc": "2026-11-10T20:08:18Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the desk's and journalist@'s hand-offs (20:06)",
+      "output": "Web Summit's post is now S41's primary source; DN stays secondary",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:bd0ce6cf6",
+        "commit:98a4fdfbb",
+        "commit:6181321a1"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 67,
+      "time_utc": "2026-11-10T20:20:00Z",
+      "actor": {
+        "name": "Dinis Cruz",
+        "kind": "person"
+      },
+      "input": "Vicky's 18:40 request for the satellite loop, missed by security@ at 20:05",
+      "output": "asks for the satellite loop's review (via conductor@web-summit.dinis)",
+      "hand_off_to": [
+        {
+          "name": "security@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:5c987593d ('Dinis's word ~20:20'; 'I missed Vicky's 18:40 request at 20:05')"
+      ],
+      "hand_off": "person->agent",
+      "workflow_step": "a second workflow inside the storm: the satellite loop",
+      "note": "Vicky's request waited 1 h 40 min; security@ records 'an empty inbox read now means re-run'."
+    },
+    {
+      "n": 68,
+      "time_utc": "2026-11-10T20:26:35Z",
+      "actor": {
+        "name": "security@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "preview/satellite-loop (0096ef8e0)",
+      "output": "the satellite loop cleared on four conditions",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:5c987593d",
+        "board/team/security/reviews/2026-11-10-2030-satellite-and-gamma.md"
+      ],
+      "hand_off": "agent->agents"
+    },
+    {
+      "n": 69,
+      "time_utc": "2026-11-10T20:27:33Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "account A's seven-day limit at allowed_warning",
+      "output": "account A slowed to three-hourly, except the weather incident team and social.watch@ (Dinis's word)",
+      "hand_off_to": [
+        {
+          "name": "conductor@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "accountant@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:788ff452b"
+      ],
+      "hand_off": "person->agent (Dinis)",
+      "note": "This may be why the work desk's 20:28 wake did not reach this session: no run between 19:28 and 21:29."
+    },
+    {
+      "n": 70,
+      "time_utc": "2026-11-10T20:43:53Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Day 2 off",
+      "output": "S44 commissioned: update the Wednesday guide",
+      "hand_off_to": [
+        {
+          "name": "journalist@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:a2451bee9"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 71,
+      "time_utc": "2026-11-10T20:47:36Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "its satellite loop branch",
+      "output": "live Meteosat infrared loop replaces the lead's chart (chart kept as fallback), shipped before security@'s conditions were all met",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:ddf5b702d",
+        "commit:406bfbb0e (conductor.B: 'shipped short of security@'s conditions')"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "4. the developer ships the visualisation (noise to signal: satellite frames)"
+    },
+    {
+      "n": 72,
+      "time_utc": "2026-11-10T20:47:36Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "Dinis: 'fire up a security agent here, review it, merge and push' (20:40)",
+      "output": "a security sub-agent reviews 0096ef8e0: clear with changes; credentials 'omit' and no referrer on the EUMETSAT fetches, made in its own commit",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "security@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3e169093d"
+      ],
+      "hand_off": "person->agent->sub-agent (a reviewer spun up on the spot)"
+    },
+    {
+      "n": 73,
+      "time_utc": "2026-11-10T20:50:01Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the loop shipped short of the conditions",
+      "output": "dev@ asked for a stop-gap fix or a revert",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:406bfbb0e"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 76,
+      "time_utc": "2026-11-10T20:57:17Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the organisers' post (opened 20:56 after conductor@web-summit.dinis pointed to it)",
+      "output": "the post becomes the storm's primary source in coverage; 'agent sessions lost to the storm': twelve Wednesday sessions on agents, an idea for the journalist and correspondent",
+      "hand_off_to": [
+        {
+          "name": "conductor@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:0de67c442",
+        "commit:113e4aec8 (private people as counts only, at security@'s word)"
+      ],
+      "hand_off": "agent->agents"
+    },
+    {
+      "n": 74,
+      "time_utc": "2026-11-10T20:58:30Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "security@'s conditions 2 and 3",
+      "output": "stop-gap: images only from view.eumetsat.int, no credentials, no referrer, the XML request gone; credit and terms cited",
+      "hand_off_to": [
+        {
+          "name": "security@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3299a3f80"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "4. the developer fixes: 8 minutes after the ask"
+    },
+    {
+      "n": 75,
+      "time_utc": "2026-11-10T21:05:18Z",
+      "actor": {
+        "name": "security@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "23 commits",
+      "output": "the stop-gap cleared; condition S38 (frames served from our origin) left open",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:142630653"
+      ],
+      "hand_off": "agent->person (report)"
+    },
+    {
+      "n": 77,
+      "time_utc": "2026-11-10T21:14:46Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S44 draft (journalist@PrompTugal.vicky, 21:06)",
+      "output": "S44 Ready; its placement in journalist@PrompTugal.dinis's guide held for Vicky and the owner",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:a769cb96a",
+        "commit:05a9783db"
+      ],
+      "hand_off": "agent->person (placement across owners)"
+    },
+    {
+      "n": 78,
+      "time_utc": "2026-11-10T21:23:05Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the lead shortened at Vicky's word (21:21, reviewer@)",
+      "output": "a visible 'Read the full story' link in the lead block",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:a6949f16c",
+        "commit:985b1f395"
+      ],
+      "hand_off": "person->agent (Vicky, via reviewer@)",
+      "workflow_step": "5. the UI refined"
     }
   ],
   "hand_offs_person_agent": [
@@ -1302,7 +1780,16 @@
     47,
     48,
     51,
-    54
+    54,
+    62,
+    64,
+    67,
+    69,
+    71,
+    72,
+    75,
+    77,
+    78
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -1355,7 +1842,7 @@
     }
   },
   "decision_graph_so_far": {
-    "source": "desks/weather-vicky/decision-graph.json (17:59 UTC; 16 nodes, 11 edges) and decision-chain.md",
+    "source": "desks/weather-vicky/decision-graph.json (updated 19:48 and 19:55 UTC) and decision-chain.md",
     "nodes": [
       {
         "who": "IPMA",
@@ -1400,12 +1887,22 @@
       {
         "who": "Government (Prime Minister)",
         "decision": "recommends Web Summit suspend Wednesday; the organisers decide",
-        "status": "reported by the press, 17:53 (Jornal de Negócios live); not yet read at a primary source by any desk"
+        "status": "happened: spoken 17:32 to 17:35 (press); the organisers followed"
       },
       {
         "who": "Web Summit",
         "decision": "Wednesday's programme",
-        "status": "no decision found at 19:01 (conductor@web-summit.dinis) and 18:53 (social.watch@: 'assessing with ANEPC and PSP')"
+        "status": "happened: Day 2 will not take place (post dated 19:09, email 19:38); Day 3 as planned"
+      },
+      {
+        "who": "Lisbon's mayor",
+        "decision": "everything indicates Web Summit cannot run Wednesday; refers the decision to Internal Administration",
+        "status": "said 13:23 (press)"
+      },
+      {
+        "who": "Reopening",
+        "decision": "measures end; Thursday's Day 3",
+        "status": "not announced (21:23)"
       }
     ],
     "lead_times_seen": [
@@ -1452,7 +1949,9 @@
   "gaps": [
     "The clone is shallow; history before 14:08 UTC on 10 Nov was not needed for this story.",
     "weather.vicky's run reports capture little: 1 request and 8 tool calls for its first run, none for the next three (17:04 to 17:59), though it wrote connectors, a history and a decision graph. The ABP hooks see only part of that session's work, so this trace rests on commits and desk files.",
-    "No token figures are in Vicky's agents' run reports, so the cost of each step is not yet known."
+    "No token figures are in Vicky's agents' run reports, so the cost of each step is not yet known.",
+    "No wake ran between 19:28 and 21:29 (the 20:28 wake did not reach this session; account A was slowed to three-hourly at 20:27, step 69). This capture covers both hours.",
+    "The organisers' post: dated 19:09 in its page data, listed on the blog only by 19:59. Which came first to readers, post or email, is not settled by the record."
   ],
   "next": "At each hourly wake (:28): append the steps since the last commit covered, update the workflow and decision-graph status.",
   "speeds": [
@@ -1491,6 +1990,51 @@
       "from_step": 16,
       "to_step": 53,
       "minutes": 102
+    },
+    {
+      "what": "organisers' email to S41 updated",
+      "from_step": 59,
+      "to_step": 62,
+      "minutes": 12
+    },
+    {
+      "what": "Vicky's satellite request to security@'s review",
+      "from": "18:40 (Vicky)",
+      "to_step": 68,
+      "minutes": 106
+    },
+    {
+      "what": "conductor.B's ask to dev@'s stop-gap",
+      "from_step": 73,
+      "to_step": 74,
+      "minutes": 8
     }
-  ]
+  ],
+  "look_back": {
+    "question": "how far ahead could the cancellation have been known?",
+    "chain": [
+      {
+        "step": 57,
+        "time": "13:23",
+        "signal": "the mayor (press)"
+      },
+      {
+        "step": 58,
+        "time": "17:32",
+        "signal": "the PM's recommendation (spoken)"
+      },
+      {
+        "step": 59,
+        "time": "19:09",
+        "signal": "the organisers' post (page data); email 19:38"
+      }
+    ],
+    "lead_times": {
+      "mayor_to_organisers": "5 h 46 min (to the post's 19:09) or 6 h 15 min (to the email)",
+      "pm_to_organisers": "1 h 37 min (post) or 2 h 06 min (email)"
+    },
+    "against_dinis": "Dinis said the shutdown 'will be predictable maybe 5 or 10 hours before'; the first public signal came 5 h 46 min ahead.",
+    "what_the_desk_saw": "the weather desk logged the mayor's remark at 19:48, after the event: its watch read primary sources only; social.watch@ (press and social) started at 18:46.",
+    "label": "from the record; the times of spoken remarks come from the press"
+  }
 }

@@ -1,0 +1,101 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "social.watch@PrompTugal.dinis",
+ "run": "2026-11-10T20-57-50Z",
+ "started": "2026-11-10T20:57:50.629Z",
+ "ended": "2026-11-10T21:01:24Z",
+ "line": "inbox drained; private people's rows reduced (security@ 20:05)",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "a9c449b9ffda852f"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-10T20:58:33.817Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 21,
+  "by_kind": {
+   "session": 1,
+   "other": 1,
+   "git": 1,
+   "shell": 12,
+   "secret": 3,
+   "web": 1,
+   "read": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1,
+  "R8": 3
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 17,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 4,
+  "denied": [
+   {
+    "t": "2026-11-10T20:57:50.629Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-10T20:58:58.245Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "head ~/.sg-send/lanes/err.txt: a private key or credentials file is never read into the conversation",
+    "target": "sgit pki decrypt --help 2>&1 | tail -8; mkdir -p ~/.sg-send/lanes && chmod 700 ~/.sg-send/lanes && python3 -I -c \"\nimport json;d=json.load(open('board/inboxes/social-watch.json'));open('/root/.sg-send/lanes/inbox.enc','w').write(d['sealed']"
+   },
+   {
+    "t": "2026-11-10T20:59:10.092Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "grep err.txt: a private key or credentials file is never read into the conversation",
+    "target": "cd ~/.sg-send/lanes && rm -f inbox.json && sgit pki decrypt --fingerprint sha256:a58b199da08fee12 -o inbox.json inbox.enc >/dev/null 2>err.txt; echo rc=$?; chmod 600 inbox.json 2>/dev/null; python3 -I -c \"\nimport json;d=json.load(open('/roo"
+   },
+   {
+    "t": "2026-11-10T20:59:15.851Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "grep open.log: a private key or credentials file is never read into the conversation",
+    "target": "cd ~/.sg-send/lanes && mkdir -p opened && chmod 700 opened && node ~/pki/pki-agent.mjs open inbox.enc --save opened > open.log 2>&1; echo rc=$?; ls -la opened | tail -3; grep -v -i \"token\\|vault_key\\|secret\" open.log | head -5 | cut -c1-200"
+   }
+  ],
+  "blocked": 0,
+  "observed": 4
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 21,
+  "in_mandate": 17,
+  "out_of_mandate": 4,
+  "attempts": 4,
+  "breaches": 0
+ }
+}

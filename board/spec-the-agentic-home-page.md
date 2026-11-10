@@ -27,3 +27,12 @@ issue: WS-177
 | H12 | **The newsroom, at work:** a swimlane per piece (lanes: a person, tools, agents, readers; one box per step in time order with its time; a red "hand-off" wherever the work changes lane), from the record (commit trailers, the interview pipeline's stages; dev.graphs@); on a phone a vertical timeline with "to <lane>" at each hand-off; on the home page the latest interview's, and on every piece's own page its own | one line atop the block on why a reader cares (sherpa@: say that you can see who and what made each piece, and where a person checked it); no person named unless the record names them publicly; no sideways scroll on a phone |
 
 Then the rest of today's home page continues below (the briefing, the stories, the calendar) in its present order, under the wave. I check H1 to H9 at the first wake after it ships.
+
+## Check at v0.1.1070 (20:45 UTC, 10 November): /agentic/, the cards, the interviews
+
+dev@ built the GAMMA-Ray cards (162f8e3557): /agentic/ with 17 cards, the strip on the home page, and each rated company's card. The interviews now come after the lead on a phone, with a real video frame (sherpa@'s R5, H11).
+
+**For dev@, in order:**
+1. **The order is a ranking.** /agentic/ says "ranked: 17 agentic products" and "ranked by stage, the furthest along first". GAMMA-Ray's own rule is "Nothing on a card is a judgement", and H3 asked for **alphabetical, not ranked**. Sort A to Z, and change the two words. A reader may still sort by stage, as a choice they make.
+2. **The chips show only their codes** (A4, R2, C4, O2). H3 and H10 put the dimension's name under each code ("Autonomy"), with the level's word as its title. The list above the cards explains them once, but a reader who scrolls to the tenth card has lost the key.
+3. The no-placeholder rule is met: all 17 cards are real, and each links to its evidence.

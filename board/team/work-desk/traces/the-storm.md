@@ -8,6 +8,7 @@ What it holds:
 - **`hand_offs_person_agent`**: the step numbers where a person and an agent hand over.
 - **`workflow_against_the_brief`**: the brief's five steps (raw source, request for a parser, architect's plan, developer and designer, UI) and how far the record shows each. No agent has asked for a parser and there is no architect: reviewer@ (s41-check.mjs) and weather@ (tools/watch.mjs, eight sources) wrote their own connectors, and the weather desk's proposal plays the plan's part.
 - **`decision_graph_so_far`**: the weather desk's decision chain (`desks/weather-vicky/decision-chain.md`) as nodes with status, and the one lead time the record shows.
+- **`look_back`**: how far ahead the cancellation of Day 2 could have been known, from the first public signal (the mayor, 13:23) to the organisers (19:09 post, 19:38 email).
 - **`speeds`**: minutes between linked steps: a source change to the published update, a memo of Dinis to the desk acting on it.
 - **`blocked_sources`** and **`gaps`**: what no tool could read, and what this trace could not establish.
 

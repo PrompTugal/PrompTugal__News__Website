@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "S5",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "events": [
+    {
+      "at": "2026-10-22",
+      "what": "Web Summit publishes its first State of the Industry survey of 1,455 people in its community: most say AI sharpens their thinking, most say it adds to their workload.",
+      "kind": "publication",
+      "about": [
+        "organisation:web-summit"
+      ],
+      "source": "websummit-2026-10-22-state-of-industry",
+      "claim": [
+        "c09",
+        "c10",
+        "c12"
+      ]
+    }
+  ]
+}

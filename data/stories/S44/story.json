@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S44",
+  "type": "story",
+  "title": "Update: Web Summit's Wednesday will not take place; it aims to hold Thursday",
+  "beat": "The summit",
+  "topic": null,
+  "status": "review",
+  "rests_on": [
+    "evidence:x-ws-event-update"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-10-2050.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-2050.json",
+      "desks/journalist-vicky/drafts/S44-wednesday-guide-day-2-update.md",
+      "desks/reviewer-vicky/reviews/S44.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S44-wednesday-guide-day-2-update.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S44.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": null,
+  "next": "the writer answers the review",
+  "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S44.md"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-10",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-10-2050.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-10",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S44-wednesday-guide-day-2-update.md"
+    }
+  ]
+}
