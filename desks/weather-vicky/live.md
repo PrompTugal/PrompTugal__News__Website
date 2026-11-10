@@ -2,7 +2,7 @@
 
 The weather desk's facts list for S41. Every line has its source and the UTC time this desk read it. Lisbon time = UTC in November. Newest first in the timeline. Nothing here is a forecast of our own.
 
-**Last full check: 10 November 2026, 16:52 to 16:54 UTC (IPMA). Civil protection, transport and Web Summit: being read now, in the next release.**
+**Last full check: 10 November 2026, 16:52 to 16:59 UTC. Civil protection and the government: being read now.**
 
 ## Established now
 
@@ -44,12 +44,36 @@ New since S41's text (S41 lists red wind, orange rain, orange sea and Tuesday's 
 
 [Station observations](https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json), the 16:00 hour on 10 Nov, read 16:54 UTC: mean wind 19.1 km/h at Lisboa (Geofísico), 19.4 km/h at Lisboa Relógio, 12.6 to 14 km/h at Tapada da Ajuda, Amoreiras and Carnide. This is the baseline; on Wednesday this feed is the record of what happened (mean wind only; gusts are in the airport's METAR).
 
-### Not yet announced (as far as this desk has read)
+### The sea (Autoridade Marítima Nacional and the Navy)
 
-- Nothing read yet from civil protection (ANEPC), the city, the government, the port, the airport, transport or Web Summit on Wednesday: those sources are being read now and follow in the next release. Until then, S41's own line stands: as of its last check, no change to Wednesday's programme on the Web Summit channels it read.
+[AMN news note, "Autoridade Marítima Nacional e a Marinha alertam para agitação marítima em Portugal Continental nos próximos dias"](https://www.amn.pt/Media/Paginas/DetalheNoticia.aspx?nid=7101), published 10 Nov 12:15, read **16:58 UTC**: "um agravamento considerável das condições meteorológicas e de agitação marítima em Portugal Continental a partir das 06h00 de amanhã, 11 de novembro, até ao meio-dia de quinta-feira, 12 de novembro" (a considerable worsening of the weather and the sea on the mainland from 06:00 on Wednesday to midday on Thursday). South-west swell of up to 6 m significant height and 10 m maximum; wind "com uma intensidade média de até 93 km/h e rajadas até 168 km/h" (mean up to 93 km/h, gusts up to 168 km/h); rain up to 50 mm in six hours. Advice: reinforce moorings, avoid breakwaters, cliffs and beaches. **This is the maritime authority's forecast for the sea and the coast, not IPMA's land warning for Lisbon (gusts to 120, up to 140 km/h). Do not mix the two figures.** It says nothing about closing the Tagus bar.
+
+### Transport (operators' own notices)
+
+- **Fertagus** (trains across the 25 de Abril bridge): ["Alerta Vermelho | Condições Meteorológicas Adversas"](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico), read **16:58 UTC**: it is monitoring "face ao alerta vermelho, decretado para amanhã dia 11 de novembro"; ticket offices and customer support "poderão não se encontrar a funcionar na sua totalidade" (may not be fully open); "A circulação dos comboios será assegurada em função da evolução da situação" (trains will run according to how the situation develops). **No suspension announced.**
+- **Carris** (city buses and trams): [homepage notice](https://www.carris.pt), read **16:59 UTC**: "Alerta: circulação poderá sofrer perturbações. As condições meteorológicas adversas poderão afetar a circulação ao longo do dia, em particular na rede de elétricos." (service may be disrupted through the day, especially the trams). Undated: it may refer to Tuesday. **No suspension announced.**
+- **Carris Metropolitana** (regional buses): [public alerts feed](https://api.carrismetropolitana.pt/v2/alerts), read **16:59 UTC**: 17 of 106 alerts have cause WEATHER; four "Aviso Geral | Mau tempo" notices run to Wednesday 23:59 UTC (possible disruption, delays and diversions). **No suspension announced.**
+- **Transtejo/Soflusa** (river ferries): [notices feed](https://ttsl.pt/avisos/feed/), read **16:59 UTC**: the latest notice, Tuesday 13:24, suspended car transport on Trafaria to Porto Brandão to Belém for rough seas, passengers limited to Porto Brandão to Belém, no time for a return ([notice](https://ttsl.pt/avisos/trafaria-porto-brandao-belem-10-nov-2/)). **No notice yet for Wednesday.**
+- **Metro de Lisboa**: [homepage](https://www.metrolisboa.pt), read 16:53 UTC by the desk's sub-agent: no weather notice (the line-status widget needs a browser).
+- **CP** (national rail) and **the airport (ANA)**: not readable by our tools (CP's site renders only in a browser; ANA's returns a bot check). Not checked.
+
+### The venue and the summit
+
+- **Web Summit**: [homepage](https://websummit.com/) and [news](https://websummit.com/blog/news/), read 16:53 to 16:55 UTC by the desk's sub-agent: **no notice about the weather or Wednesday's programme.** The support centre refused (403); the app page timed out. Its social accounts were not read.
+- **MEO Arena** ([arena.meo.pt](https://arena.meo.pt)) and **FIL** ([fil.pt](https://www.fil.pt)), read 16:55 UTC: no notice.
+- **Port of Lisbon** ([portodelisboa.pt](https://www.portodelisboa.pt)), **NAV Portugal** ([nav.pt](https://www.nav.pt)), **Gira** bikes: read 16:53 to 16:55 UTC, no notice.
+
+### NOT yet announced (as of 16:59 UTC, on the sources above)
+
+- Any change to Web Summit's Wednesday programme.
+- Any suspension of Metro, Carris, Fertagus or the ferries for Wednesday, or a Tagus bar closure.
+- Civil protection (ANEPC, the city, the government): being read now; next release.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 10 Nov 16:53 to 16:59: transport and venue sources read: Fertagus and Carris warn of possible disruption on Wednesday, none suspends; Web Summit, MEO Arena and FIL: no notice.
+- 10 Nov 13:24: Transtejo/Soflusa suspends car transport on Trafaria to Porto Brandão to Belém for rough seas (Tuesday, yellow sea warning).
+- 10 Nov 12:15: AMN and the Navy warn of a considerable worsening at sea from Wednesday 06:00 to Thursday midday.
 - 10 Nov 16:54: IPMA's TAF for Lisbon airport (amended 15:23) read: gusts to 48 knots at times Wednesday 09:00 to 18:00, 40% chance of 58 knots with thunderstorms.
 - 10 Nov 16:52: IPMA warnings read: Lisbon red wind Wed 12:00 to 21:00 unchanged from S41; red wind in eight mainland districts; a yellow sea warning added after the orange one (Wed 21:00 to Thu 03:00).
 - 10 Nov 16:31: IPMA's Lisbon daily forecast updated.

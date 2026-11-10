@@ -28,7 +28,32 @@ Each source: what it publishes, how often, the language, and whether a machine c
 | [Station observations, `observations.json`](https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json) with [stations.json](https://api.ipma.pt/open-data/observation/meteorology/stations/stations.json) | The last 24 hours, hourly, per station: mean wind (km/h), direction, rain, temperature, pressure. Lisbon stations include Lisboa (Geofísico) 1200535, Lisboa Relógio 1210580, Tapada da Ajuda 1210762, Amoreiras 7240919, Carnide (CML) 6215302. **No gusts in this feed.** | Hourly | codes | Yes. **The evidence of what actually happened on Wednesday.** |
 | Lisbon airport TAF and METAR (LPPT), issued by IPMA as the aeronautical met office, read through the [US NOAA Aviation Weather Center's public API](https://aviationweather.gov/api/data/taf?ids=LPPT&format=raw) | The airport's forecast (TAF) and hourly observations (METAR), **with gusts**, in knots | TAF every 6 hours plus amendments; METAR every 30 minutes | ICAO code | Yes, plain text. A point forecast for the airport, for pilots; not a public warning. |
 
-### Civil protection, government, city, port, airport, transport, the venue
+### Sea and port
 
-Being mapped now (ANEPC and the Lisbon district, the city's civil protection and Câmara Municipal de Lisboa, the government and ministries, the Port of Lisbon and the maritime authority, ANA and NAV Portugal, Metro, CP, Carris, Transtejo, Fertagus, Web Summit, MEO Arena and FIL). They follow in the next release, with the decision chain.
+| Source | What | How often | Lang | Machine-readable |
+|---|---|---|---|---|
+| [Autoridade Marítima Nacional (AMN), news](https://www.amn.pt/Media/Paginas/DetalheNoticia.aspx?nid=7101) | The maritime authority and the Navy: sea-state warnings and advice; harbour-master (Capitania) notices on bar closures | When conditions change | PT | No (page; the avisos path we tried was 404) |
+| [Port of Lisbon (APL)](https://www.portodelisboa.pt) and its [port safety news](https://www.portodelisboa.pt/noticias-seguranca-portuaria) | Port notices; a [met tool](https://portodelisboa.hidromod.com/meteoapl/) (not read) | Irregular | PT | No |
 
+### Transport
+
+| Source | What | Lang | Machine-readable |
+|---|---|---|---|
+| [Carris Metropolitana alerts](https://api.carrismetropolitana.pt/v2/alerts) | Regional bus alerts, GTFS-RT shape, with cause (WEATHER), effect and active period | PT | **Yes, JSON, no key: the best transport feed to poll** |
+| [Transtejo/Soflusa notices](https://ttsl.pt/avisos/) and [RSS](https://ttsl.pt/avisos/feed/) | Ferry suspensions by route; the most exposed service | PT | **Yes, RSS** |
+| [Fertagus, public information](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico) | Rail across the 25 de Abril bridge | PT | No |
+| [Carris](https://www.carris.pt) | City buses and trams; homepage notice | PT/EN | No |
+| [Metro de Lisboa](https://www.metrolisboa.pt), [RSS](https://www.metrolisboa.pt/feed/), [open data](https://www.metrolisboa.pt/dados-abertos/) | Line status (needs a browser or its API, said to need a token) | PT/EN | Partly |
+| [CP](https://www.cp.pt) | National and suburban rail (Sintra, Cascais, Azambuja lines) | PT/EN | No: renders only in a browser; not read |
+| [Lisbon airport (ANA)](https://www.aeroportolisboa.pt) and [NAV Portugal](https://www.nav.pt) | Flights and notices; air traffic control | PT/EN | ANA returns a bot check to our tools; not read. NAV read |
+
+### The venue and the summit
+
+| Source | What | Machine-readable |
+|---|---|---|
+| [Web Summit](https://websummit.com/) and [news](https://websummit.com/blog/news/) | The organiser: any change to the programme would appear here first, with its app and social accounts (X, Instagram, LinkedIn, Facebook, as listed on its site; not read by us) | No; the support centre refuses automated reads (403) |
+| [MEO Arena](https://arena.meo.pt) and [FIL](https://www.fil.pt) | The venues at Parque das Nações | No |
+
+### Civil protection, government, city
+
+Being mapped now (ANEPC and the Lisbon district, the city's civil protection and Câmara Municipal de Lisboa, the government and ministries, Diário da República); next release, with the decision chain.
