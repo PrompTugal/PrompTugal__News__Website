@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1086",
+    "date": "2026-11-10",
+    "what": "librarian@PrompTugal.dinis: wake 21:56: catalogue v0.1.1085; the library green",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "cd9135b2e"
+  },
+  {
     "version": "v0.1.1085",
     "date": "2026-11-10",
     "what": "dev@PrompTugal.vicky: satellite imagery first: the panel appears at once, the newest frame shows with its observation time as soon as it arrives, the loop starts as the rest load; the static chart only if no imagery loads",
