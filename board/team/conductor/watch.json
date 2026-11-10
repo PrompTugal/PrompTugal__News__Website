@@ -80,6 +80,16 @@
    "PrompTugal__App__iOS": "bd4eab05",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "News: account B seven back on; dev@ and dev.pages@ wait for Dinis in conductor.b@'s session; agenda of 10 Nov loaded."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-10T06:36Z",
+   "SGit-AI__Website__Web-Summit": "84dd64ac",
+   "PrompTugal__News__Website": "45aa7025",
+   "PrompTugal__App__Android": "36b87e26",
+   "PrompTugal__App__iOS": "787e2fe9",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "News: dev@ and dev.pages@ still off (conductor.b@ 05:48 waits for Dinis in its session); security@ ready to pass the GAMMA-Ray cards; ontologist@ card link done."
   }
  ]
 }

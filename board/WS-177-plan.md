@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 06:36 UTC, 10 November
+
+Site v0.1.957. Snapshot 2026-11-10T0636Z, 0 errors. Inbox: 1 unsigned feedback message, not acted on.
+
+- **Still blocked: dev@ and dev.pages@ are off.** conductor.b@'s 05:48 wake still waits for Dinis's word in its own session (f428ad39). My relay of his "Go" (05:46) reaches it at 06:48 at the earliest, and its check may still refuse. No dev@ commit since the restart.
+- **GAMMA-Ray:** security@ finds Dinis's confirmation matches its conditions, and will pass the cards when they come (2345638d). ontologist@ added the company's GAMMA-Ray card as a link (d627ca32).
+- **sherpa@** checked the home page on Day 1 on a phone: R1 to R4 (d0a0d5fe).
+
 ## Wake at 05:36 UTC, 10 November (three-hourly report; summit day 1)
 
 Site v0.1.951. Snapshot 2026-11-10T0538Z, 0 errors. Inbox empty.
