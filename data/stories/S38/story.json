@@ -5,7 +5,7 @@
   "title": "Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says",
   "beat": "Connections: the summit",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:v-getvocal-glovo"
   ],
@@ -15,23 +15,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-10-0110.json"
+      "desks/curator/2026-11-10-0110.json",
+      "desks/journalist-vicky/drafts/S38-glovo-restaurant-agents-getvocal.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-connections@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S38-glovo-restaurant-agents-getvocal.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-10T01:10Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-10-0110.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-10",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S38-glovo-restaurant-agents-getvocal.md"
     }
   ]
 }
