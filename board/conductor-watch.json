@@ -534,6 +534,16 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-10T14:21Z",
       "note": "Started reporter@ and journalist.examples@web-summit.dinis (WS-212: examples from input to live, traced and drawn). Visual newsroom round 1 on dev.graphs@'s branch, waits on dev@ (still off). Venue map in Team 0.4.76 on TestFlight. Vicky's temporary researcher waits for Dinis's approval. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-10T14:26Z",
+      "SGit-AI__Website__Web-Summit": "e14c89ad",
+      "PrompTugal__News__Website": "f9a63a79",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "421d0090",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
     }
   ]
 }
