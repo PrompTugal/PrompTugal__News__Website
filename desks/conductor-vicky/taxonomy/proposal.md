@@ -172,3 +172,14 @@ The Summit · Portugal · Brazil · Europe · AI and robotics · Connections · 
 - **Front matter:** Vicky's desks' articles rewritten to the new topics by their reviewer; other desks' articles (journalist@PrompTugal.dinis, Angelo's writer and others) keep their tags, mapped by the alias file, unless their owners choose to rewrite.
 - **The bracket bug** fixed in the build (dev@, with dev@PrompTugal.dinis as owner of the build).
 - **From then on:** the curator assigns topics from the list; the reviewer checks them before publication; a new topic only through the curator.
+
+## Checks (23:03 UTC, 10 Nov)
+
+dev@PrompTugal.vicky checked this against the build at origin/dev (read-only, nothing changed):
+
+- **Bracket bug confirmed**, and the same raw comma split is in three places: the articles page filter (`features/articles.mjs:43`), the lists page filter (`features/lists.mjs:47`) and the graph (`lib/graph.mjs:94`, already case-insensitive).
+- **Signatures confirmed safe:** the signed twin holds title, summary, byline, date, licence and body; `tags` and `beat` are not in it. Changing title, summary, date, author or body would break a signature; tags will not.
+- **Kickers:** the front pages show the raw tags string (or its first tag) as the kicker above a story, so rewriting an article's tags also changes its visible kicker (the S41 lead's kicker is its full tags string). The alias map does not touch kickers; front matter rewrites do.
+- **Plan:** one helper `newsroom/build/lib/topics.mjs` (`topicsOf(article)`: strip brackets and quotes, split, trim, look up case-insensitively in `desks/curator/topics.json`; if that file is missing it behaves as today). The three filters call it; kickers stay on raw tags for now. A gate WARN (not FAIL) for a tag with no topic, so the curator sees drift. About 30 lines. Build files are dev@PrompTugal.dinis's: dev@PrompTugal.vicky writes it only at Vicky's word, committed For: dev@PrompTugal.dinis.
+
+Curator's check: awaited.
