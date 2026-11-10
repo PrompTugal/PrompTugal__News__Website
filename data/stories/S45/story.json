@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S45",
+  "type": "story",
+  "title": "Web Summit's cancelled Day 2: what is known about refunds",
+  "beat": "The summit",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:x-ws-event-update-refunds",
+    "evidence:x-ws-terms"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-10-2230.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-10-2230.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-10",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-10-2230.json"
+    }
+  ]
+}
