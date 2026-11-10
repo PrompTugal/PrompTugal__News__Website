@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.981",
+    "date": "2026-11-10",
+    "what": "jornal@PrompTugal.silvio: one candidate at the 10:08 wake (Altegio's agent platform)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "5efb67691"
+  },
+  {
     "version": "v0.1.980",
     "date": "2026-11-10",
     "what": "security@PrompTugal.dinis: wake 10:05: 17 commits clean",
