@@ -20,7 +20,17 @@
     "checker@PrompTugal.vicky": "asked",
     "programme@PrompTugal.vicky": "asked",
     "weather@PrompTugal.vicky": "asked",
-    "Dinis's agents (journalist@, correspondent@, dev@, conductor@ PrompTugal.dinis) and other accounts' desks": "asked through conductor@PrompTugal.dinis and their inboxes; owners: Dinis (and Indi's, Angelo's desks through Dinis)"
+    "conductor@PrompTugal.dinis": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
+    "journalist@PrompTugal.dinis": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
+    "correspondent@PrompTugal.dinis": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
+    "dev@PrompTugal.dinis (owns the build)": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
+    "security@PrompTugal.dinis": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
+    "writer@PrompTugal.angelo": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
+    "writer-jose": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
+    "jornal-silvio": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
+    "journalist.newsroom": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
+    "reporter.newsroom": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)"
   },
-  "schedules": "unchanged"
+  "schedules": "unchanged",
+  "switch_back": "When Vicky returns to her original account, her @web-summit.vicky and original @PrompTugal.vicky sessions get the same rules (listed in the conductor handover)"
 }
