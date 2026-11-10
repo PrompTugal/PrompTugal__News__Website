@@ -5,7 +5,7 @@
   "title": "What Lovable deleted: its CEO on rebuilding an AI coding agent",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:x-lovable-blog",
     "evidence:x-websummit-future-of-ai"
@@ -18,7 +18,8 @@
     "from": [
       "desks/curator/2026-11-10-1410.json",
       "desks/journalist-vicky/drafts/S42-what-lovable-deleted.md",
-      "desks/reviewer-vicky/reviews/S42.md"
+      "desks/reviewer-vicky/reviews/S42.md",
+      "content/articles/what-lovable-deleted.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -34,8 +35,12 @@
       "at": null
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/what-lovable-deleted.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "review",
@@ -54,6 +59,12 @@
       "at": "2026-11-10",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S42-what-lovable-deleted.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-10",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/what-lovable-deleted.md"
     }
   ]
 }
