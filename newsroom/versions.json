@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.926",
+    "date": "2026-11-10",
+    "what": "watch: conductor.B iOS 00:00 (stopped)",
+    "by": "conductor.B@ios.PrompTugal.dinis",
+    "from": "483282fda"
+  },
+  {
     "version": "v0.1.925",
     "date": "2026-11-10",
     "what": "run report, second run (the outside-coverage first pass)",
