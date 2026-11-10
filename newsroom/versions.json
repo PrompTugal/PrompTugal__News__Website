@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1082",
+    "date": "2026-11-10",
+    "what": "conductor@PrompTugal.dinis: run report, wake 21:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5e056e478"
+  },
+  {
     "version": "v0.1.1081",
     "date": "2026-11-10",
     "what": "sherpa@PrompTugal.dinis: 21:29 wake: Day 2 called off, as an attendee reads it (v0.1.1080); W1 Wednesday's page says 'what is on'",
