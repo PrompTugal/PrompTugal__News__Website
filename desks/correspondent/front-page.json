@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-10T20:52Z",
+  "updated": "2026-11-10T22:58Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
@@ -30,16 +30,16 @@
   },
   "top": [
     {
+      "article": "web-summit-day-2-refunds",
+      "why": "New: what is known about refunds for the cancelled Day 2 (as of 22:07 UTC, none announced; the published terms): every ticket-holder's question tonight."
+    },
+    {
       "article": "gravitee-agent-security-survey",
       "why": "agents outpace their security"
     },
     {
       "article": "what-lovable-deleted",
       "why": "an agent rebuilt by deletion, from a summit speaker"
-    },
-    {
-      "article": "glovo-restaurant-agents-getvocal",
-      "why": "agents at work with a named customer"
     }
   ],
   "service": {
@@ -72,6 +72,7 @@
       "beat": "Web Summit",
       "articles": [
         "red-wind-warning-lisbon-wednesday",
+        "web-summit-day-2-refunds",
         "plan-your-week-by-field",
         "web-summit-wristband-queues",
         "web-summit-passes-and-colours",
@@ -342,6 +343,10 @@
     "for_date": "2026-11-11",
     "items": [
       {
+        "article": "web-summit-day-2-refunds",
+        "why": "refunds for the cancelled day: what is known"
+      },
+      {
         "article": "plan-your-week-by-field",
         "why": "Thursday still runs: the Cybersecurity Summit is all on Thursday"
       },
@@ -356,10 +361,6 @@
       {
         "article": "wpp-call-transcripts-to-jira",
         "why": "a person reviews what the agents plan"
-      },
-      {
-        "article": "speed-where-its-safe-control-where-it-matters",
-        "why": "how our own agents are checked"
       }
     ]
   },
