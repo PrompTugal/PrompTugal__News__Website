@@ -675,6 +675,17 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-10T20:26Z",
       "note": "At Dinis's word (~20:25 UTC, account A at allowed_warning): every account-A scheduled task moved to every three hours (same minute), except the weather incident team (incident.conductor@ :02, meteorologist :22, researcher :32, dev :42) and social.watch@ (:50), which stay hourly. Slowed: the seven GAMMA-Ray loops and gamma.studio@, reporter@, journalist.examples@, reporter.newsroom@, journalist.newsroom@, conductor@PrompTugal.dinis, conductor.android@, the PrompTugal observability drain, security.repos@, security@PrompTugal.dinis, and this conductor. accountant@ was already three-hourly. Messages still wake any session at once."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "467bc0a3",
+      "PrompTugal__News__Website": "6f0b5876",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "999906a6",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-10T21:14Z",
+      "note": "Satellite loop live (v0.1.1074, reviewed in the main conductor's session at Dinis's word) and its stop-gap cleared by security@ (S38). Web Summit's own 19:09 post is the storm's primary source everywhere (incident, S41, signals). incident.dev@ watches every websummit.com section (J6). Vicky's journalist drafted S44 (Day 2 note). Lanes empty. Account A slowed to three-hourly except the incident team and social.watch@."
     }
   ]
 }
