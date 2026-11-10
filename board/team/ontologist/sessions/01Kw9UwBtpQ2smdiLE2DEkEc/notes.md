@@ -124,3 +124,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 10:21 wake
 - Inbox empty; dev@ restart waits on Dinis (watch). 14 more products; Replit 'deploys' removed (not in its source). 7 companies with no named product: none guessed.
+
+## 12:21 wake
+- Inbox empty. Coverage review: 2 of 45 mentions tagged; tags must equal company id (getvocal vs getvocal-ai). Sent to journalist (journalist.json, active) and dev.

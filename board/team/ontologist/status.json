@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-10T10:45Z",
+  "updated": "2026-11-10T12:45Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -71,7 +71,8 @@
     "dev@'s contributors.schema.json (the collaborators' wall) reviewed and kept: no contact field, closed objects, consent per name; dev@ told. Translations still wait on Dinis's word on OpenRouter (22:21 wake, 9 Nov)",
     "THE RESTART (Dinis 02:40; conductor@ 04:05, active key): GAMMA-Ray read at source (its own repository and site; cards.json Spectrum 0.1 beta, four axes, a constellation of eight standards, 'link to a card, do not copy it', no company card yet); company.schema.json takes gamma_ray {id, card URL} as a link; no parallel card schema; conductor@ told (06:21 wake, 10 Nov)",
     "THE RESTART, companies as a graph, step 1: the type product and the verb offers in the ontology; company-products schema, the gate's checks (sources, flow ids) and lib/data.mjs's reader; ten products from the companies' own pages, each tied to its flow (Ledger Agent Intent, JetBrains Air, AgentControl, Exa Search API, KeewanoDB, Agent Control Tower, Legal Workflows, LegalOS, Kairos, Argus); dev@ asked for the nodes, the small graph and a Products section (08:21 wake, 10 Nov)",
-    "Products, step 2: fourteen more from the flows' sources (1Password for Agents, Secure Agentic Autofill, AI Manager, Cloudflare Agents, VerifyAX, Charlotte AI, Agentic Identity Hub, Farol, Firefox Enterprise, Hexgate, Mastra, Qase AI, Replit Agent, Scrut Teammates): 24 products for 23 companies. Seven companies' sources name no product (Airia, AISLE, Emergence AI, Melious, Primitive, Temporal, Trent AI): none guessed (10:21 wake, 10 Nov)"
+    "Products, step 2: fourteen more from the flows' sources (1Password for Agents, Secure Agentic Autofill, AI Manager, Cloudflare Agents, VerifyAX, Charlotte AI, Agentic Identity Hub, Farol, Firefox Enterprise, Hexgate, Mastra, Qase AI, Replit Agent, Scrut Teammates): 24 products for 23 companies. Seven companies' sources name no product (Airia, AISLE, Emergence AI, Melious, Primitive, Temporal, Trent AI): none guessed (10:21 wake, 10 Nov)",
+    "Coverage, measured: an article reaches a company only through a tag equal to its id; 2 of 45 company mentions in 54 articles are tagged. The candidates per article in board/team/ontologist/reviews/2026-11-10-coverage.md, sent to journalist@ (its call: a mention is not 'about'); dev@ asked to let tags match names and aliases (12:21 wake, 10 Nov)"
   ],
   "next": [
     "THE RESTART: coverage edges (articles about each company) and related companies; the product nodes wait on dev@ (its restart waits on Dinis)",
@@ -477,6 +478,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "fourteen more products (24 in all)"
+    },
+    {
+      "started": "2026-11-10T12:23Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "coverage gap measured; journalist@ and dev@ told"
     }
   ],
   "decisions_on_findings": [
