@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1027",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "8908eff5b"
+  },
+  {
     "version": "v0.1.1026",
     "date": "2026-11-10",
     "what": "conductor@PrompTugal.dinis: snapshot index for the 15:38 wake",
