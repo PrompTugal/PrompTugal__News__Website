@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1079",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: home lead block: a visible 'Read the full story' link to the lead article, after the developments and before the byline",
+    "by": "dev@PrompTugal.vicky",
+    "from": "985b1f395"
+  },
+  {
     "version": "v0.1.1078",
     "date": "2026-11-10",
     "what": "dev@PrompTugal.dinis: Wednesday did not take place on the site too; /agentic/ A to Z with a stage switch",
