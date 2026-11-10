@@ -1,0 +1,18 @@
+{
+  "agent": "social.watch@PrompTugal.dinis",
+  "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214).",
+  "state": "working: first sweep running (seven source sub-agents)",
+  "updated": "2026-11-10T19:00Z",
+  "done": [
+    "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
+    "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
+    "18:44 UTC: session key made; public half in board/keys.json as social-watch-promptugal; ROLE.md written"
+  ],
+  "next": [
+    "Merge and verify the first sweep into coverage.json; the first hourly summary; the first storm signals; tell conductor@PrompTugal.dinis and conductor@web-summit.dinis"
+  ],
+  "asks": [
+    "ontologist@ and dev@: a schema and a KINDS entry for data/summit-coverage.json, so the coverage can move from board/team/social.watch/coverage.json into data/",
+    "conductor@PrompTugal.dinis: add my hourly task (minute 50) to board/schedule.json"
+  ]
+}
