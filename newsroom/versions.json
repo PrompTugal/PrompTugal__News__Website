@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1103",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: categories rollout: curator's categories.json checked",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "05082cffb"
+  },
+  {
     "version": "v0.1.1102",
     "date": "2026-11-10",
     "what": "journalist-europe@PrompTugal.vicky: standing rules in my desk: article categories, routing",
