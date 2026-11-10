@@ -81,11 +81,12 @@ for (const e of edges.values()) e.person_agent = (actors.get(e.from).kind === 'p
 
 // Mermaid: ids must be plain, labels may be anything.
 const ids = new Map(); [...actors.keys()].forEach((n, i) => ids.set(n, `A${i}`));
-const esc = s => String(s ?? '').replace(/["\n\r]/g, ' ').replace(/[;#]/g, ',').slice(0, 80);
+const esc = s => String(s ?? '').replace(/["\n\r]/g, ' ').replace(/[;#]/g, ',');
+const clip = (s, n = 80) => { s = esc(s); return s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n)) + ' ...'; }; // whole words only: a cut name reads as mail to the gate
 const seq = ['sequenceDiagram', `  title ${esc(story)}: who handed what to whom`];
 for (const n of actors.keys()) seq.push(`  participant ${ids.get(n)} as ${esc(n)}`);
 for (const s of steps) for (const to of s.handoff_to)
-  seq.push(`  ${ids.get(s.actor)}->>${ids.get(to)}: ${esc((s.time || '').slice(11, 16))} ${esc(s.output || s.input)}`);
+  seq.push(`  ${ids.get(s.actor)}->>${ids.get(to)}: ${esc((s.time || '').slice(11, 16))} ${clip(s.output || s.input)}`);
 const flow = ['flowchart LR'];
 for (const [n, a] of actors) flow.push(`  ${ids.get(n)}${a.kind === 'person' ? `(["${esc(n)}"])` : `["${esc(n)}"]`}`);
 for (const e of edges.values()) flow.push(`  ${ids.get(e.from)} ${e.person_agent ? '==>' : '-->'}|${e.count}| ${ids.get(e.to)}`);
