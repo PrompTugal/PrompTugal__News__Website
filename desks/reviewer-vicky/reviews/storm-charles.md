@@ -15,7 +15,7 @@ Checked by reviewer@PrompTugal.vicky on 10 November 2026, 23:43 to 23:50 UTC, ev
 6. **Fertagus, "Rule announced at 21:37"**: 21:37 is when the desk read it, not when Fertagus announced it. Say "read at 21:37"; the text checks out ("Caso os ventos ultrapassem os 90km/hora a circulação ferroviária na ponte 25 de Abril será suspensa, podendo esta suspensão ocorrer também em toda a linha").
 7. **Carris, "Banner at 18:37"**: same; the banner ("Alerta: perturbações na circulação ... Antes de saíres, confirma a informação mais recente") is still there at 23:43.
 8. **Timeline 21:37 entry** ("full statement opens at its own address and its homepage carries the Day 2 notice"): these are our observations, not events. The homepage banner was already there at 21:32 (reviewer's read). Label "seen by us at" or drop it from the timeline.
-9. **IPMA rows "read 17:42"**: re-read at 23:43 UTC, unchanged (wind red 12:00–21:00; rain orange 05:00–12:00, red 12:00–18:00; sea orange 12:00–21:00, yellow 21:00–Thu 03:00). Update the read time.
+9. **IPMA rows "read 17:42": CHANGED. Correction by the reviewer: an earlier version of this report said "re-read at 23:43, unchanged"; that was the reviewer's 23:33 read.** At 23:51 UTC IPMA's data shows rain red **09:00–18:00** (was 12:00–18:00) and orange **00:00–09:00** (was 05:00–12:00), with yellow until 00:00 tonight; wind red 12:00–21:00 and sea orange 12:00–21:00 unchanged (weather@ saw it at 23:41). Update the rain row and the read time.
 
 ## C. Could not be verified by the reviewer (drop, or mark as the desk's read only)
 
