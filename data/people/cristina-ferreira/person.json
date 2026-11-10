@@ -11,18 +11,18 @@
       "role": "TV Host, Executive",
       "organisation": "TVI",
       "org": "organisation:tvi",
-      "event": "event:rewriting-the-rules-of-female-longevity",
-      "source": "https://websummit.com/sessions/lis26/79f1c8b1-4453-46c1-a37f-cb614d082cb8/rewriting-the-rules-of-female-longevity/",
-      "read_at": "2026-11-10T12:53Z",
+      "event": "event:press-conference-rewriting-the-rules-of-female-longevity",
+      "source": "https://websummit.com/sessions/lis26/25907bfd-71a8-4240-a93a-eb24fa8d64ff/press-conference-rewriting-the-rules-of-female-longevity/",
+      "read_at": "2026-11-10T13:54Z",
       "by": "programme@web-summit.vicky"
     },
     {
       "role": "TV Host, Executive",
       "organisation": "TVI",
       "org": "organisation:tvi",
-      "event": "event:press-conference-rewriting-the-rules-of-female-longevity",
-      "source": "https://websummit.com/sessions/lis26/25907bfd-71a8-4240-a93a-eb24fa8d64ff/press-conference-rewriting-the-rules-of-female-longevity/",
-      "read_at": "2026-11-10T05:07Z",
+      "event": "event:rewriting-the-rules-of-female-longevity",
+      "source": "https://websummit.com/sessions/lis26/79f1c8b1-4453-46c1-a37f-cb614d082cb8/rewriting-the-rules-of-female-longevity/",
+      "read_at": "2026-11-10T13:54Z",
       "by": "programme@web-summit.vicky"
     }
   ],
