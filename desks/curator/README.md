@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Wednesday 11 November 2026, 00:23 UTC.
+Last updated: Wednesday 11 November 2026, 00:42 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
 
@@ -16,6 +16,8 @@ Last updated: Wednesday 11 November 2026, 00:23 UTC.
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S47 | Update: Web Summit's final 2026 figures | The summit | 11 Nov |
+| S46 | How Zalando rolled out AI coding agents across 250 teams, in its own account | AI and robotics | 11 Nov |
 | S45 | Web Summit's cancelled Day 2: what is known about refunds (published 10 Nov) | The summit | 10 Nov |
 | S44 | Update: Web Summit's Wednesday will not take place; it aims to hold Thursday (drafted, awaiting review) | The summit | 10 Nov |
 | S43 | Wednesday's alert: what the government has closed across Portugal | The summit | 10 Nov |
@@ -57,6 +59,22 @@ Last updated: Wednesday 11 November 2026, 00:23 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S47: Update: Web Summit's final 2026 figures
+
+The summit, added 11 Nov. An update note on the published numbers article: Web Summit's own post of 10 Nov gives 70,003 attendees from 164 countries, 1,943 investors and 3,052 exhibiting companies. LEADS-11NOV, for journalist (summit desk). An update, not a new article.
+
+Sources:
+
+- [Web Summit, "Web Summit 2026 record number of investors"](https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/), read 11 November 2026
+
+## S46: How Zalando rolled out AI coding agents across 250 teams, in its own account
+
+AI and robotics, added 11 Nov. A first-hand engineering account: one proxy for every model, no mandated tool, no secrets in config files, and a bot that auto-approves low-risk pull requests; what worked and why Zalando says it is too early to converge. LEADS-11NOV, for journalist-ai. Company's own account from 14 Aug; no Web Summit link established.
+
+Sources:
+
+- [Zalando Engineering, "Agentic Engineering at Zalando: a snapshot"](https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html), read 11 November 2026
 
 ## S45: Web Summit's cancelled Day 2: what is known about refunds
 
