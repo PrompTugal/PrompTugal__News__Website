@@ -88,21 +88,6 @@ function lead(ctx, a) {
         pill: pill(ctx, a), storm: stormLink(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : ''), ...leadExtra(ctx, a) })
 }
 
-// the live sources strip under E's nav (Dinis, 11 Nov 10:00; board/spec-the-live-sources-strip.md): the storm site named as the live
-// source with the time the weather desk last read, and Lisbon Fringe beside it only once it is live (data/site/list-views.json, live_sources)
-const LS = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).live_sources
-function stormRead() {
-    try { const dir = new URL('../../../desks/weather-vicky/data/', import.meta.url), f = fs.readdirSync(dir).filter(x => x.endsWith('.json')).sort().pop()
-        return JSON.parse(fs.readFileSync(new URL(f, dir), 'utf8')).read_at || '' } catch { return '' }
-}
-function liveSources(esc) {
-    const at = stormRead(), hm = (at.match(/T(\d\d:\d\d)/) || [])[1]
-    const src = (k, cls, extra) => put(item('source'), { url: LS[k + '_url'], cls, kicker: esc(LS[k + '_kicker']), updated: extra, name: esc(LS[k + '_name']), line: esc(LS[k + '_line']), host: esc(LS[k + '_host']) })
-    const list = [src('storm', '', hm ? ` \u00b7 ${LS.updated} ${hm} ${LS.utc}` : '')]
-    if (LS.fringe_live === 'yes') list.push(src('fringe', ' fe-ls-new', ''))
-    return put(part('live'), { '#sources': list.join('') })
-}
-
 function fillE(page, ctx) {
     const esc = ctx.md.esc, all = frontOrder(ctx), { AGENDA, itemsOn } = load(ctx)
     const story = (a, i) => put(item('story'), { big: i ? '' : ' big', beat: esc(beatOf(a)), href: a.rel, title: esc(a.meta.title), dek: esc(cut(a.meta.summary || '', 170)), pill: pill(ctx, a),
@@ -125,7 +110,6 @@ function fillE(page, ctx) {
         today: ctx.TODAY, date: `${ctx.DAY(ctx.TODAY)} ${y}`, opening_at: openingAt, opening_in: days > 0 ? `${days}d` : '', name: esc(ctx.SITE.name), wordmark: WORDMARK(''),
         '#nav': many('nav', ctx.NAV.nav.map(n => ({ href: n.href, label: esc(n.label), cur: n.id === 'now' ? ' aria-current="page"' : '' }))),
         lead: lead(ctx, all[0]),
-        live: liveSources(esc),
         spectrum: stripHtml(ctx, ''),   // GAMMA-Ray's cards under the lead (THE RESTART: the agentic edition), left out with no data
         '#week': many('week', wk), '#week_again': many('week', wk.map(w => ({ ...w, tab: ' tabindex="-1"' }))),
         '#briefing': many('brief', homeModel(ctx).briefing.map(x => ({ href: x.href, title: x.title, beat: x.beat }))),  // the correspondent's five (front-page.json 'briefing'), else the next five
