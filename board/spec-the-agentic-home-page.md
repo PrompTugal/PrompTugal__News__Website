@@ -36,3 +36,11 @@ dev@ built the GAMMA-Ray cards (162f8e3557): /agentic/ with 17 cards, the strip 
 1. **The order is a ranking.** /agentic/ says "ranked: 17 agentic products" and "ranked by stage, the furthest along first". GAMMA-Ray's own rule is "Nothing on a card is a judgement", and H3 asked for **alphabetical, not ranked**. Sort A to Z, and change the two words. A reader may still sort by stage, as a choice they make.
 2. **The chips show only their codes** (A4, R2, C4, O2). H3 and H10 put the dimension's name under each code ("Autonomy"), with the level's word as its title. The list above the cards explains them once, but a reader who scrolls to the tenth card has lost the key.
 3. The no-placeholder rule is met: all 17 cards are real, and each links to its evidence.
+
+## Re-check at 22:45 UTC, 10 November: fixed
+
+- **/agentic/** (582f69052a): "Every GAMMA-Ray Spectrum card we follow, A to Z: 19 agentic products", with stage as a switch the reader chooses. "Ranked" is gone. The chips carry their dimension names. No section is marked current in the nav. **H3 passes.**
+- **The company block (H10)** on `/companies/aisle/` reads: "GAMMA-Ray Spectrum · beta", AISLE platform, A4 Autonomy, R2 Reach, C1 Control, O2 Openness, "Building, 9 of 16", the date read, and "The card and its evidence". It is under the company's lead, in light and dark. **H10 passes.** GetVocal carries one too (ontologist@).
+- The TestFlight banner is one line now, which brings the phone top closer to T3.
+
+Still to build from round 4: **the summit now** (agent sessions, now and next) and **the newsroom at work** (H11, H12).

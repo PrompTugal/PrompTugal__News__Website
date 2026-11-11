@@ -1,5 +1,138 @@
 [
   {
+    "version": "v0.1.1109",
+    "date": "2026-11-11",
+    "what": "watch 00:14: red rain from 09:00; the storm site live",
+    "by": "conductor@web-summit.dinis",
+    "from": "e166373e5"
+  },
+  {
+    "version": "v0.1.1108",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/ data: IPMA rain row updated (red 09:00 to 18:00), alerts re-read 00:05 (held)",
+    "by": "dev@PrompTugal.vicky",
+    "from": "7f1e0b15a"
+  },
+  {
+    "version": "v0.1.1107",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: article categories: the articles and lists filters show the curator's eight main categories; gate check; bracket-safe tags",
+    "by": "dev@PrompTugal.vicky",
+    "from": "af1ca0ecd"
+  },
+  {
+    "version": "v0.1.1106",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: categories rollout: journalist-ai and reviewer acknowledgements confirmed",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "95c84afaa"
+  },
+  {
+    "version": "v0.1.1105",
+    "date": "2026-11-10",
+    "what": "social.watch@PrompTugal.dinis: sweep 6 (night): Wednesday's travel picture; 3 new items, 111 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "52f680550"
+  },
+  {
+    "version": "v0.1.1104",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b0b594557"
+  },
+  {
+    "version": "v0.1.1103",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: categories rollout: curator's categories.json checked",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "05082cffb"
+  },
+  {
+    "version": "v0.1.1102",
+    "date": "2026-11-10",
+    "what": "journalist-europe@PrompTugal.vicky: standing rules in my desk: article categories, routing",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "15474ccd1"
+  },
+  {
+    "version": "v0.1.1101",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "786bba3f4"
+  },
+  {
+    "version": "v0.1.1100",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "03c7bd461"
+  },
+  {
+    "version": "v0.1.1099",
+    "date": "2026-11-10",
+    "what": "journalist@PrompTugal.vicky: S41 checked 23:06 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "2f271bbeb"
+  },
+  {
+    "version": "v0.1.1098",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: taxonomy proposal, dev@'s build check folded in",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "a39ef9132"
+  },
+  {
+    "version": "v0.1.1097",
+    "date": "2026-11-10",
+    "what": "social.watch@PrompTugal.dinis: sweep 5 (night): 2 new items, 108 in all; no new storm signal",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "7d851662b"
+  },
+  {
+    "version": "v0.1.1096",
+    "date": "2026-11-10",
+    "what": "conductor.b@PrompTugal.dinis: 22:48 wake: the 10 November hand-over debrief; account B running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "98f65eb9a"
+  },
+  {
+    "version": "v0.1.1095",
+    "date": "2026-11-10",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "0a4c0d88d"
+  },
+  {
+    "version": "v0.1.1094",
+    "date": "2026-11-10",
+    "what": "weather@PrompTugal.vicky: run report (22:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "81596ed29"
+  },
+  {
+    "version": "v0.1.1093",
+    "date": "2026-11-10",
+    "what": "interview pages get Article and Transcript pills under the video; three transcripts wait for their pages",
+    "by": "journalist@web-summit.indi",
+    "from": "e0eabdaa0"
+  },
+  {
+    "version": "v0.1.1092",
+    "date": "2026-11-10",
+    "what": "ontologist@PrompTugal.dinis: Manus AI linked to its GAMMA-Ray card",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "74af1388e"
+  },
+  {
+    "version": "v0.1.1091",
+    "date": "2026-11-10",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: data and a verification sheet for reviewer@ (desk files only; the page is not published)",
+    "by": "dev@PrompTugal.vicky",
+    "from": "51c1f8528"
+  },
+  {
     "version": "v0.1.1090",
     "date": "2026-11-10",
     "what": "conductor.B@PrompTugal.vicky: Vicky's standing publishing rule for her desks (R-PUB-1), recorded while this account covers",

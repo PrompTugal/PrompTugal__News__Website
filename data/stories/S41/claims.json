@@ -147,6 +147,75 @@
       "about": [
         "organisation:ipma"
       ]
+    },
+    {
+      "id": "c13",
+      "text": "Web Summit's statement says Day 2, Wednesday 11 November, will not take place.",
+      "kind": "fact",
+      "source": "websummit-important-event-update-2026",
+      "quote": "Web Summit will of course respect the Government’s direction, and accordingly, Day 2 (Wednesday, November 11th) will not take place.",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "The statement says the Government of Portugal formally advised Web Summit that, because of the risks posed by Storm Charles (tidal flooding, severe disruption to public transport, high winds on external structures), Day 2 should not take place.",
+      "kind": "fact",
+      "source": "websummit-important-event-update-2026",
+      "quote": "The Government of Portugal has formally advised Web Summit that, due to the risks posed by Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures, Day 2 of Web Summit should not take place.",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "The advice followed discussions with the Portuguese Government, the National Emergency and Civil Protection Authority (ANEPC) and the Public Security Police (PSP), as Web Summit describes it.",
+      "kind": "fact",
+      "source": "websummit-important-event-update-2026",
+      "quote": "This follows discussions with the Portuguese Government, the National Emergency and Civil Protection Authority (ANEPC), and the Public Security Police (PSP).",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c16",
+      "text": "Web Summit aims to proceed with Day 3, Thursday 12 November, as planned, after Storm Charles has passed.",
+      "kind": "fact",
+      "source": "websummit-important-event-update-2026",
+      "quote": "Web Summit aims to proceed with Day 3 (Thursday, November 12) as planned, following the passing of Storm Charles.",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c17",
+      "text": "At 22:33 UTC on 10 November Web Summit's homepage carries a notice that, on the Portuguese Government's advice, Day 2 will not be going ahead because of severe weather warnings.",
+      "kind": "fact",
+      "source": "websummit-homepage-event-update",
+      "quote": "On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings.",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c18",
+      "text": "At 22:32 UTC on 10 November IPMA's file still lists the red rain warning (12:00 to 18:00) for Wednesday 11 November, with the red wind and orange sea warnings: unchanged since 18:32.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T18:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:ipma"
+      ]
     }
   ]
 }

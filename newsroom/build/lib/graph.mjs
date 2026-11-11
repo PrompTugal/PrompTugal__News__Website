@@ -3,6 +3,7 @@
 // so every company, event and person graph is a part of the whole, never a different format (the fractal claim).
 //   node: { id: "<type>:<slug>", type, label, source, ...data }      source: the URL or repository path it came from
 //   edge: { id: "<verb>:<from>:<to>", from, to, verb, source, read? }  read: when the source was read
+import { rawTags } from './categories.mjs'
 import { ident, sha12 } from './ids.mjs'
 
 const PAGES = { company: 'companies/{slug}/index.html', organisation: 'organisations/{slug}/index.html', person: 'people/{slug}/index.html', event: 'events/{slug}/index.html', place: 'places/{slug}/index.html', topic: 'topics/{slug}/index.html', article: 'articles/{slug}.html' }
@@ -88,12 +89,14 @@ export function buildGraph(store, { content = [], DAY = d => d } = {}) {
     }
     // articles, and the topics their tags name
     const topicByName = new Map(store.topics.flatMap(t => [t.name, ...(t.aliases || [])].map(n => [n.toLowerCase(), t.id])))
+    // a tag names a company by its id, its name or an alias, lowercased (ontologist@, 10 November: 'getvocal' reaches getvocal-ai)
+    const companyByName = new Map(store.companies.flatMap(c => [c.id, c.name, ...(c.aliases || [])].filter(Boolean).map(n => [String(n).toLowerCase(), c.id])))
     for (const a of content.filter(c => /^articles\/[^/]+\.html$/.test(c.rel) && c.rel !== 'articles/index.html')) {
         const slug = a.rel.replace(/^articles\/|\.html$/g, '')
         node(`article:${slug}`, 'article', a.meta.title, a.src, { date: a.meta.date })
-        for (const tag of String(a.meta.tags || '').split(',').map(t => t.trim().toLowerCase()).filter(Boolean)) {
+        for (const tag of rawTags(a.meta.tags).map(t => t.toLowerCase())) {
             if (topicByName.has(tag)) edge('about', `article:${slug}`, `topic:${topicByName.get(tag)}`, a.src)
-            else if (store.has(`company:${tag}`)) edge('about', `article:${slug}`, `company:${tag}`, a.src)
+            else if (companyByName.has(tag)) edge('about', `article:${slug}`, `company:${companyByName.get(tag)}`, a.src)
         }
     }
     // drop edges whose ends are not nodes (a reference the gate would also report)

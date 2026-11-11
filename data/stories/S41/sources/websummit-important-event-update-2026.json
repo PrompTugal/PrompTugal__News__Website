@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-important-event-update-2026",
+  "story": "S41",
+  "url": "https://websummit.com/blog/web-summit/important-event-update-2026/",
+  "title": "Important event update (Web Summit, 10 November 2026)",
+  "publisher": "Web Summit",
+  "published": "2026-11-10",
+  "read_on": "2026-11-10",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "Web Summit's statement, posted at 19:09 UTC on 10 November 2026 (its page data), that on the Portuguese Government's formal advice Day 2, Wednesday 11 November, will not take place because of Storm Charles, and that it aims to hold Day 3 on Thursday 12 November. Read at 22:33 UTC."
+}

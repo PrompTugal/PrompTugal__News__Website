@@ -20,3 +20,4 @@ Dinis granted reviewer@ the five lead fields of front-page.json only (policies.j
 **Released at about 18:55 UTC** after dev@'s fix (`3828b266`: outside links in the lead open in a new tab). Re-verified at 18:53 UTC (IPMA, both portugal.gov.pt pages, Web Summit's homepage and news page; all unchanged; weather@'s draft changed only its check times, `872717be`); written with checked 18:53 and the programme line "As of 18:53 UTC on Tuesday ...". The held local commit was not used.
 
 **Shortened, 21:21 UTC (Vicky's word via conductor.B@: "the front page has too many words"):** standfirst one sentence; the "Web Summit, Wednesday" line "Day 2 cancelled; Day 3 planned for Thursday." (Web Summit's post); two developments (IPMA's red wind and rain; the government's alert: schools closed, outdoor events suspended); the cancellation no longer repeated. No new facts; all re-checked at source at 21:21 UTC.
+- Lead at 23:52 UTC: the IPMA development now reads rain 09:00 to 18:00.
