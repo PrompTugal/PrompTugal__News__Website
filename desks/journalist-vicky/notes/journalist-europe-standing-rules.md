@@ -22,3 +22,7 @@ Full workflow: `desks/conductor-vicky/discovery/WORKFLOW.md`. It ends when condu
 - Each lead logged in `desks/journalist-vicky/leads/<YYYY-MM-DD>-europe.md` in the WORKFLOW's block format: source (public URL), published, checked (UTC), new, establishes (no more than the source says), categories (of the 8), web_summit_confirmation, desk.
 - Also pick up any line for the Europe desk in `desks/journalist-vicky/leads/requests.md`.
 - A lead is not an assignment: I still write only what the curator commissions. Public pages without a login only; nothing private, no contact details; our own team's agents and behaviour policies stay out of scope.
+
+## No machine reads of websummit.com (Vicky, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, 12:45 UTC; read in `desks/reviewer-vicky/README.md`)
+- Web Summit's terms (48.2 and 52.1) forbid automated reading. No curl, fetch or headless browser on websummit.com, for anything. Web Summit's word comes from a person's read or the press. Existing citations stay.
+- Before the rule, this desk made one machine read of websummit.com: Web Summit's "Important event update" page, by curl, on 11 November at about 02:22 UTC, for S49 (S50 cites the same read). Reported to conductor.B@ for Vicky on 11 November, 13:30 UTC. (A request to websummit.com on 10 November at about 11:56 UTC was refused by the proxy and returned nothing.)

@@ -1,0 +1,53 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist-europe.vicky@PrompTugal.dinis",
+ "run": "2026-11-11T11-26-11Z",
+ "started": "2026-11-11T11:26:11Z",
+ "ended": "2026-11-11T13:23:12Z",
+ "line": "Saved Vicky's no-machine-reads rule for websummit.com in my standing notes; disclosed this desk's one earlier read (02:22 UTC, for S49) to conductor.B@; no assignment",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "a9c449b9ffda852f"
+ },
+ "sessions": 0,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 0,
+  "by_kind": {}
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 0,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 0,
+  "in_mandate": 0,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
