@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T15:51Z",
+  "updated": "2026-11-11T16:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -156,6 +156,15 @@
         "my own check: MeteoAlarm CAP, Mastodon, the team's commits"
       ],
       "items": 0
+    },
+    {
+      "n": 17,
+      "at": "2026-11-11T16:51Z",
+      "families": [
+        "my own check",
+        "one sub-agent (news, fringe)"
+      ],
+      "items": 7
     }
   ],
   "items": [
@@ -2292,7 +2301,7 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "Says Moedas put 60,000+ people at the venue; IPMA gusts to 120 km/h.",
+      "note": "Says Moedas put 60,000+ people at the venue; IPMA gusts to 120 km/h. | Updated 11 Nov 12:49 GMT: headline now \"Web Summit returns Thursday with rescheduled sessions after storm cancels Day 2\".",
       "family": "news and blogs",
       "found": "2026-11-10T20:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 3)"
@@ -3468,6 +3477,164 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-11T14:52Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 15)"
+    },
+    {
+      "url": "https://www.publico.pt/2026/11/11/economia/noticia/web-summit-deu-lugar-wet-summit-ja-confirmou-regresso-amanha-2194564",
+      "platform": "Público",
+      "author": "Victor Ferreira",
+      "kind": "article",
+      "title": "Web Summit deu lugar à Wet Summit, mas já confirmou o regresso amanhã",
+      "quote": null,
+      "published": "2026-11-11T12:00",
+      "topics": [
+        "storm",
+        "Portugal",
+        "startups"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Organisers confirm usual format for day 3 (70,000+ from 164 countries); an investor-only 'Wet Summit' meetup by an unaffiliated group moved from 09:00 to 12:00 in Saldanha, 70 places sold in 15 minutes; online meetings. No venue damage, PITCH or refunds in the text. Updated 12:17.",
+      "family": "news and blogs",
+      "found": "2026-11-11T16:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 17)"
+    },
+    {
+      "url": "https://pmemagazine.sapo.pt/web-summit-regressa-esta-quinta-feira-com-programa-reforcado/",
+      "platform": "PME Magazine",
+      "author": "Ana Marisa Vieira",
+      "kind": "article",
+      "title": "Web Summit regressa esta quinta-feira com programa reforçado",
+      "quote": null,
+      "published": "2026-11-11",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "A significant part of Wednesday's initiatives moves to Thursday; schedule updated through the day; organisers say busiest Thursday ever. Asked who bears speakers' and suppliers' costs: no organiser reply; Lisbon council called conclusions premature. No PITCH or refunds mentioned.",
+      "family": "news and blogs",
+      "found": "2026-11-11T16:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 17)"
+    },
+    {
+      "url": "https://marketeer.sapo.pt/web-summit-promete-o-dia-mais-intenso-de-sempre-apos-cancelar-evento-devido-ao-mau-tempo-paddy-cosgrave-vai-falar/",
+      "platform": "Marketeer (with Lusa)",
+      "author": "Marketeer / Lusa",
+      "kind": "article",
+      "title": "Web Summit promete o dia mais intenso de sempre após cancelar evento devido ao mau tempo: Paddy Cosgrave vai falar",
+      "quote": null,
+      "published": "2026-11-11T16:28",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Thursday 12 Nov: record speakers and meetings; many Wednesday sessions rescheduled; Paddy Cosgrave press conference Thursday 11:00; organisers in direct contact with affected participants; Lusa's question on amounts agreed with Lisbon council unanswered. No PITCH mention.",
+      "family": "news and blogs",
+      "found": "2026-11-11T16:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 17)"
+    },
+    {
+      "url": "https://www.cmjornal.pt/sociedade/detalhe/chuva-vento-forte-e-agitacao-maritima-mau-tempo-deixa-pais-em-alerta",
+      "platform": "Correio da Manhã",
+      "author": "Marta Mariano et al.",
+      "kind": "article",
+      "title": "Inundações, árvores caídas e casas inundadas: Depressão Charles deixa País em alerta",
+      "quote": null,
+      "published": "2026-11-11T13:14",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Live-style page, updated 13:14: fallen trees in Algés from 05:51, flooding in Alfama, cars submerged near Oriente station; Greater Lisbon 642 of 1,240 incidents on Tuesday. Search summary mentioned water entering a Web Summit pavilion before 17:00 (Tuesday); I did not see that in the text read (page truncated), so not asserted.",
+      "family": "news and blogs",
+      "found": "2026-11-11T16:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 17)"
+    },
+    {
+      "url": "https://radiocomercial.pt/noticia/acampada-de-lisboa-marca-concentracao-para-quinta-feira-frente-a-web-summit",
+      "platform": "Rádio Comercial (Lusa)",
+      "author": "Agência Lusa",
+      "kind": "article",
+      "title": "Acampada de Lisboa marca concentração para quinta-feira frente à Web Summit",
+      "quote": null,
+      "published": null,
+      "topics": [
+        "storm",
+        "policy",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Housing movement paused Tue/Wed activities for the weather; Thursday rally 17:30 Alameda dos Oceanos, debates 19:00 Estação do Oriente, assembly 21:00; joins housing march Sat 14 Nov. Page shows no publication time.",
+      "family": "news and blogs",
+      "found": "2026-11-11T16:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 17)"
+    },
+    {
+      "url": null,
+      "platform": "Mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T16:49:52Z",
+      "topics": [
+        "storm",
+        "reaction"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "private_individual": true,
+      "note": "A private person posting as themselves: count, theme and platform only. Theme: the storm passed with little damage; the cancellation called needless.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T16:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 17)"
+    },
+    {
+      "url": null,
+      "platform": "Mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T15:54:04Z",
+      "topics": [
+        "storm",
+        "reaction"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "private_individual": true,
+      "note": "A private person posting as themselves: count, theme and platform only. Theme: asks whether the summit happened at all.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T16:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 17)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",

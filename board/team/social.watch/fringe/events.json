@@ -1,7 +1,7 @@
 {
   "about": "Lisbon's alternative, unconference, community and side events around Web Summit 2026 (9 to 15 November), from public event pages, each with its URL and the time read; status says whether the storm (Wednesday 11 November) moved or cancelled it. For Lisbon Fringe's team (Dinis, 11 November 2026, about 10:00 UTC: board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md). Organisers as organisations; no private people, no contact details.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T10:53Z",
+  "updated": "2026-11-11T16:53Z",
   "notes": [
     "Unconference found (10:53 UTC): Lisbon Community Week (Led by Community) runs an unconference on Friday 13 November, 15:45 to 17:15, at Impact Hub Lisbon (Penha), in its conference pass (page opened 10:53). A separate 'Unconference Plus Lisbon' on Saturday 14 November appears in a search result only; no page opened, so it is recorded unverified. No barcamp or open-space event found.",
     "iproxy.online's side-events list now read in full (two passes); about 20 of some 80 Thursday-to-Saturday events opened so far."
@@ -84,6 +84,26 @@
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
       "note": "Date from iproxy list; page itself gives no date"
+    },
+    {
+      "name": "Wet Summit (investor-only meetup, moved)",
+      "kind": "meetup",
+      "organiser": "Group not affiliated with Web Summit (not named in the text)",
+      "date": "2026-11-11",
+      "start": "12:00",
+      "end": null,
+      "place": "Saldanha area, Lisbon",
+      "join": "Investor-only; 70 places sold out in 15 minutes",
+      "url": "https://www.publico.pt/2026/11/11/economia/noticia/web-summit-deu-lugar-wet-summit-ja-confirmou-regresso-amanha-2194564",
+      "status": "moved",
+      "storm_note": "Postponed from 09:00 to 12:00 on Wednesday 11 Nov.",
+      "topics": [
+        "investment",
+        "storm"
+      ],
+      "read_at": "2026-11-11T16:52:47Z",
+      "verified": true,
+      "note": "Source is Público, not an event page; Wednesday, not Thursday to Saturday, included as a storm-moved event."
     },
     {
       "name": "Elevon CZ/SK Community Night",
@@ -423,6 +443,27 @@
       "read_at": "2026-11-11T10:53:14Z",
       "verified": true,
       "note": "Also shown as Music & Connection Over Lisbon, after WebSummit."
+    },
+    {
+      "name": "Camp Summit (Acampada de Lisboa counter-event: rally, debates, assembly)",
+      "kind": "community",
+      "organiser": "Acampada de Lisboa (housing movement)",
+      "date": "2026-11-12",
+      "start": "17:30",
+      "end": "21:00",
+      "place": "Alameda dos Oceanos (rally 17:30), Estação do Oriente (debates 19:00; assembly 21:00), Parque das Nações",
+      "join": "Free entry, no tickets or sponsors",
+      "url": "https://radiocomercial.pt/noticia/acampada-de-lisboa-marca-concentracao-para-quinta-feira-frente-a-web-summit",
+      "status": "on",
+      "storm_note": "Group suspended its Tuesday and Wednesday activities for the forecast; Thursday goes ahead.",
+      "topics": [
+        "housing",
+        "policy",
+        "Portugal"
+      ],
+      "read_at": "2026-11-11T16:52:47Z",
+      "verified": true,
+      "note": "Reported by Lusa via Rádio Comercial; a protest, not a tech event. Joins housing march Saturday 14 Nov."
     },
     {
       "name": "Defense Tech Meetup #9: Sovereignty by Design",
@@ -807,6 +848,69 @@
       "read_at": "2026-11-11T10:53:14Z",
       "verified": true,
       "note": "Date and time from iproxy list; page shows none."
+    },
+    {
+      "name": "Agents & APIs Lisbon Developer Meetup",
+      "kind": "meetup",
+      "organiser": "Postman Developer Events",
+      "date": null,
+      "start": "17:30 (doors)",
+      "end": null,
+      "place": "IDEA Spaces, Av. António Augusto de Aguiar 122C, 11th floor, Lisbon",
+      "join": "Register on the Luma page; space limited",
+      "url": "https://luma.com/bohhz9x1",
+      "status": "unknown",
+      "storm_note": null,
+      "topics": [
+        "AI",
+        "agents",
+        "APIs"
+      ],
+      "read_at": "2026-11-11T16:52:47Z",
+      "verified": true,
+      "note": "Page gives no date; found by search for Lisbon agent events in Web Summit week, date unconfirmed."
+    },
+    {
+      "name": "MCP (Model Context Protocol) Lisbon Meetup",
+      "kind": "meetup",
+      "organiser": "MCP Lisbon community organisers",
+      "date": null,
+      "start": "18:00",
+      "end": "21:00",
+      "place": "IDEA Spaces Saldanha, Av. Defensores de Chaves 4, Lisbon",
+      "join": "Registration closed",
+      "url": "https://luma.com/7nuc7uau",
+      "status": "unknown",
+      "storm_note": null,
+      "topics": [
+        "AI",
+        "agents",
+        "MCP"
+      ],
+      "read_at": "2026-11-11T16:52:47Z",
+      "verified": true,
+      "note": "Page gives no date; three lightning talks on MCP."
+    },
+    {
+      "name": "Lisbon AI Week: PagerDuty + Cloudflare Meetup",
+      "kind": "meetup",
+      "organiser": "PagerDuty Community Events with Cloudflare Developer",
+      "date": null,
+      "start": "18:00 (check-in)",
+      "end": "21:00",
+      "place": "Lisbon (address shown after registration)",
+      "join": "Registration closed",
+      "url": "https://luma.com/lxu3wm8i",
+      "status": "unknown",
+      "storm_note": null,
+      "topics": [
+        "AI",
+        "agents",
+        "developer"
+      ],
+      "read_at": "2026-11-11T16:52:47Z",
+      "verified": true,
+      "note": "Page gives no date; agent topic not confirmed beyond the title."
     }
   ]
 }
