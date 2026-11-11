@@ -1,0 +1,15 @@
+/* the live sources strip (designer@'s L2 to L5): a sand band under E's nav, each source one link */
+.ls-src { background: #efe6d2; border-bottom: 1px solid var(--rule); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ls-src { background: #1d1f25; } }
+:root[data-theme="dark"] .ls-src { background: #1d1f25; }
+.ls-src-w { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); box-sizing: border-box; display: flex; flex-wrap: wrap; gap: 0 28px; }
+.ls-src-a { flex: 1 1 360px; min-height: 52px; display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 12px; padding: 10px 0; color: var(--ink); text-decoration: none; }
+.ls-src-a:hover b { text-decoration: underline; }
+.ls-src-k { font: 700 11.5px var(--sans); letter-spacing: .1em; text-transform: uppercase; display: inline-flex; align-items: center; gap: 6px; }
+.ls-src-k i { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.ls-red .ls-src-k { color: var(--brand-red); } .ls-green .ls-src-k { color: var(--brand-green); }
+.ls-src-t { font: 500 11.5px var(--mono); letter-spacing: 0; text-transform: none; color: var(--ink-3); }
+.ls-src-a b { font: 600 17px/1.25 var(--serif); }
+.ls-src-l { font-size: 13.5px; color: var(--ink-2); flex-basis: 100%; }
+.ls-src-a code { font: 12.5px var(--mono); color: var(--ink-2); }
+@media (max-width: 767px) { .ls-src-l { display: none; } .ls-src-a { flex-basis: 100%; padding: 8px 0; } .ls-src-a + .ls-src-a { border-top: 1px solid var(--rule); } }
