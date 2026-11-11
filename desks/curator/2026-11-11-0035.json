@@ -1,0 +1,48 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-0035 (discovery workflow, first wake)",
+ "batch": "STORM-11NOV",
+ "for": "journalist (summit desk)",
+ "covers": {
+  "note": "No vault captures. Leads: desks/journalist-vicky/leads/ holds none yet (README and requests.md only); social.watch's hourly 23Z sweep read as material."
+ },
+ "leads_reviewed": [
+  {
+   "lead": "board/team/social.watch/hourly/2026-11-10T23Z.md: airport (ANA: operations at Lisbon, Faro and Madeira affected Wednesday)",
+   "status": "held",
+   "why": "Only a secondary report (Madeira Island News) is named; ANA's own pages (ana.pt, read 00:35 UTC) show no weather notice. Needs ANA's or the airlines' own notice with time."
+  },
+  {
+   "lead": "same file: coaches suspended 10:00 to midnight, tunnels and parks closed, bridges at 60 km/h",
+   "status": "held",
+   "why": "Rede Expressos' site refused the curator (403), tunnel and bridge limits not opened at source. The government's declaration (read 10 Nov) covers parks and the shoreline; operators' own notices needed."
+  },
+  {
+   "lead": "same file: Fertagus",
+   "status": "held",
+   "why": "Fertagus' home page (read 00:35 UTC) carries an 'Informacao ao Publico 11-11-2026 - Alerta Vermelho | Condicoes Meteorologicas Adversas' banner but the notice text was not opened: a travel guide needs its content and times."
+  },
+  {
+   "lead": "same file: Business Insider reports the cancellation",
+   "status": "dropped",
+   "why": "Duplicates S41/S44 (Web Summit's own statement is the primary source); the page was not fetched by social.watch either."
+  },
+  {
+   "lead": "same file: 'Wednesday is off: what now?' for travellers",
+   "status": "held",
+   "why": "A practical guide (S46 candidate) is justified once at least three operators' own notices (airport, rail, coaches/metro) are read at source with times; today one banner title only. Categories when commissioned: Web Summit 2026."
+  },
+  {
+   "lead": "same file: Manus 2.0 through reach, mandate and gap; agent sessions lost to the storm",
+   "status": "held",
+   "why": "Own-team and RiskMandate framing is out of the curator's scope (our own agents are the T1 to T5 series; no claim beyond riskmandate.ai). Manus 2.0 needs a first-hand Manus source and a public Web Summit source for Connections."
+  }
+ ],
+ "story_candidates": [],
+ "gaps_for_the_researcher": [
+  "Operators' own notices for Wed 11 Nov with times: ANA/airlines, Fertagus (notice text), CP, Metro de Lisboa, Carris, Rede Expressos, bridges and tunnels (Infraestruturas de Portugal / Lisbon council).",
+  "Manus 2.0: Manus' own announcement and the public Web Summit page confirming its participation."
+ ],
+ "urgent": "Wednesday travel guide is time-sensitive once the operators' notices can be read."
+}
