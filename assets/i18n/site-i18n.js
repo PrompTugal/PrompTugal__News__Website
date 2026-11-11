@@ -23,6 +23,7 @@
         var more = document.querySelector('.ctabs-more span'); if (more) { if (!('more' in EN)) EN.more = more.textContent; more.textContent = W && W.more || EN.more }
         var app = document.querySelector('.pt-app-btn'); if (app) { if (!('app' in EN)) EN.app = app.textContent; app.textContent = W && W.app || EN.app }
         live(c, W)
+        credit(W)
         // the footer's column heads, by their English words (the shell's markup stays as it is)
         var FOOT = { 'Find': 'foot_find', 'The newsroom': 'foot_newsroom', 'Read': 'foot_read', 'For agents': 'foot_agents' }
         document.querySelectorAll('.foot-cols h3').forEach(function (h) {
@@ -46,6 +47,15 @@
             var en = b.getAttribute('data-en'), k = /next/i.test(en) ? 'live_next' : 'live_now'
             b.textContent = W && W[k] ? W[k] : en })
     }
+    // the reading credit's line at the foot (assets/meter/meter.js redraws it: followed below)
+    function credit(W) {
+        var line = document.getElementById('nr-meter-line')
+        if (line && !line.__i18n && window.MutationObserver) { line.__i18n = true; new MutationObserver(function () { if (cur[1]) credit(cur[1]) }).observe(line, { childList: true }) }
+        var sum = document.querySelector('#nr-meter-line details.nr-foot summary'); if (!sum) return
+        var t = sum.firstChild, a = sum.querySelector('a')
+        if (t && t.nodeType === 3) { if (!sum.hasAttribute('data-en')) sum.setAttribute('data-en', t.textContent); t.textContent = (W && W.credit_free ? W.credit_free : sum.getAttribute('data-en').trim()) + ' ' }
+        if (a) { if (!a.hasAttribute('data-en')) a.setAttribute('data-en', a.textContent); a.textContent = W && W.credit_how ? W.credit_how : a.getAttribute('data-en') }
+    }
     function choose(c) {
         put(c); close()
         if (c === 'en-GB') { apply('en-GB', null); return }
@@ -67,6 +77,8 @@
         btn.hidden = false
         btn.addEventListener('click', function () { if (menu && !menu.hidden) close(); else open() })
         document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close() })
+        var body = document.querySelector('main .body')
+        if (body && window.MutationObserver) new MutationObserver(function () { if (cur[1]) credit(cur[1]) }).observe(body, { childList: true, subtree: false })
         var box = document.getElementById('nr-live')
         if (box && window.MutationObserver) new MutationObserver(function () { if (cur[1]) live(cur[0], cur[1]) }).observe(box, { childList: true })
         var c = get()
