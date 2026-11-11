@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1216",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: README: storm-charles.promptugal.news as a pointer-only source (Vicky's word, relayed by conductor.B@)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "57b84bd0a"
+  },
+  {
     "version": "v0.1.1215",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.vicky: /storm/charles/: staged refresh updated to the 10:36-10:46 UTC reads (replaces the 09:50 staging); live page unchanged",
