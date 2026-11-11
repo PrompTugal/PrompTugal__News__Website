@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1111",
+    "date": "2026-11-11",
+    "what": "conductor.android@promptugal.ai.dinis: watch 00:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "92f7049c9"
+  },
+  {
     "version": "v0.1.1110",
     "date": "2026-11-11",
     "what": "conductor.B@PrompTugal.vicky: Vicky's approvals: category labels on the articles page; storm page publishes after reviewer's verification",
