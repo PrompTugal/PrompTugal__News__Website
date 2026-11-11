@@ -164,6 +164,41 @@
         "reuse": "link only",
         "note": "if the Unsplash page shows the Unsplash Licence, it may become reusable after reading it"
       }
+    },
+    {
+      "id": "js-2026-11-11-06",
+      "title": "Follow-up: the Digital Fairness Act as presented today; coverage of the final text does not mention AI agents",
+      "summary": "The Commission presented the Digital Fairness Act on 11 November. Commissioner Michael McGrath called it, with an update to the consumer protection cooperation rules, the largest reform of EU consumer law in over 20 years: bans on dark patterns, clear pricing, an off switch for addictive features such as endless scroll and autoplay, easier cancellation, the first rules for influencers, a right to reach a human rather than a chatbot, and fines up to 6% of global turnover. Euronews's report on the presented proposal does not mention the AI shopping-agent rules (purchase approval, disclosure of sponsored suggestions) that its 9 November report of the leaked draft described.",
+      "why_it_matters": "promptugal.news published 'digital-fairness-act-ai-agents' from the leaked draft (candidate js-2026-11-11-03). Whether the agent rules survived into the presented text must be checked at the Commission's own proposal before the article stands as it is.",
+      "beat": "ai-regulation",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/2026/11/11/eu-targets-subscription-traps-addictive-design-and-hidden-fees-with-new-digital-rules",
+          "publisher": "Euronews",
+          "published": "2026-11-11",
+          "read": "2026-11-11T18:20Z"
+        }
+      ],
+      "quote": {
+        "text": "The DFA will make sure the digital economy works for consumers, not against them.",
+        "by": "Michael McGrath, European Commissioner for Justice, quoted by Euronews",
+        "source": "https://www.euronews.com/2026/11/11/eu-targets-subscription-traps-addictive-design-and-hidden-fees-with-new-digital-rules"
+      },
+      "claims_to_check": [
+        "URGENT for the editor and journalist@: the Commission's proposal text (and its press release) for any provision on AI agents or automated purchasing, against content/articles/digital-fairness-act-ai-agents.md",
+        "An absence in one news report is not proof the provisions were dropped"
+      ],
+      "importance": {
+        "score": 5,
+        "reason": "A possible correction to an article already live on promptugal.news, plus the presented text of a major EU law."
+      },
+      "photo": {
+        "url": "https://www.euronews.com/2026/11/11/eu-targets-subscription-traps-addictive-design-and-hidden-fees-with-new-digital-rules",
+        "description": "lead photo of the Euronews article",
+        "credit": "AP Photo",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
@@ -190,6 +225,10 @@
     {
       "what": "The Digital Fairness Act's official presentation",
       "why": "no coverage of the presented text found yet; already published from the leaked draft"
+    },
+    {
+      "what": "Web Summit reopens Thursday for its 'busiest day ever', with rescheduled talks (ECO, Jornal Económico, Tek)",
+      "why": "already in social.watch@'s map"
     }
   ],
   "wakes": [
@@ -207,6 +246,11 @@
       "at": "2026-11-11T16:24Z",
       "added": 1,
       "note": "scheduled wake"
+    },
+    {
+      "at": "2026-11-11T18:24Z",
+      "added": 1,
+      "note": "scheduled wake; flagged a possible correction to a live article"
     }
   ]
 }
