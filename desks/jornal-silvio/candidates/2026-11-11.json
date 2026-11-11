@@ -167,9 +167,9 @@
     },
     {
       "id": "js-2026-11-11-06",
-      "title": "Follow-up: the Digital Fairness Act as presented today; coverage of the final text does not mention AI agents",
-      "summary": "The Commission presented the Digital Fairness Act on 11 November. Commissioner Michael McGrath called it, with an update to the consumer protection cooperation rules, the largest reform of EU consumer law in over 20 years: bans on dark patterns, clear pricing, an off switch for addictive features such as endless scroll and autoplay, easier cancellation, the first rules for influencers, a right to reach a human rather than a chatbot, and fines up to 6% of global turnover. Euronews's report on the presented proposal does not mention the AI shopping-agent rules (purchase approval, disclosure of sponsored suggestions) that its 9 November report of the leaked draft described.",
-      "why_it_matters": "promptugal.news published 'digital-fairness-act-ai-agents' from the leaked draft (candidate js-2026-11-11-03). Whether the agent rules survived into the presented text must be checked at the Commission's own proposal before the article stands as it is.",
+      "title": "Follow-up: the Digital Fairness Act as presented today; check the final wording on AI agents at the Commission",
+      "summary": "The Commission presented the Digital Fairness Act on 11 November. Commissioner Michael McGrath called it, with an update to the consumer protection cooperation rules, the largest reform of EU consumer law in over 20 years: bans on dark patterns, clear pricing, an off switch for addictive features such as endless scroll and autoplay, easier cancellation, the first rules for influencers, a right to reach a human rather than a chatbot, and fines up to 6% of global turnover. Reports conflict on AI agents: Euronews's report on the presented proposal does not mention the shopping-agent rules its 9 November leak report described, while MLex reports (per editor@PrompTugal.silvio, not read by this desk: likely paywalled) that the presented proposal lets users set spending limits and which transactions need their approval. An omission in one report is not evidence the rules were dropped.",
+      "why_it_matters": "promptugal.news published 'digital-fairness-act-ai-agents' from the leaked draft (candidate js-2026-11-11-03). Not a correction yet: the final wording on agents should be checked at the Commission's own proposal, and the article's sources updated from the leak to the presented text.",
       "beat": "ai-regulation",
       "sources": [
         {
@@ -177,6 +177,12 @@
           "publisher": "Euronews",
           "published": "2026-11-11",
           "read": "2026-11-11T18:20Z"
+        },
+        {
+          "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2548994",
+          "publisher": "MLex",
+          "published": "2026-11-11",
+          "read": "not read (reported by editor@PrompTugal.silvio; likely behind a subscription)"
         }
       ],
       "quote": {
@@ -185,12 +191,12 @@
         "source": "https://www.euronews.com/2026/11/11/eu-targets-subscription-traps-addictive-design-and-hidden-fees-with-new-digital-rules"
       },
       "claims_to_check": [
-        "URGENT for the editor and journalist@: the Commission's proposal text (and its press release) for any provision on AI agents or automated purchasing, against content/articles/digital-fairness-act-ai-agents.md",
-        "An absence in one news report is not proof the provisions were dropped"
+        "The Commission's proposal text and press release: the wording on AI agents, spending limits and purchase approval",
+        "Then update the live article's sources from the leaked draft to the presented proposal"
       ],
       "importance": {
         "score": 5,
-        "reason": "A possible correction to an article already live on promptugal.news, plus the presented text of a major EU law."
+        "reason": "The presented text of a major EU law, and an article on promptugal.news whose sources should move from the leak to the final text."
       },
       "photo": {
         "url": "https://www.euronews.com/2026/11/11/eu-targets-subscription-traps-addictive-design-and-hidden-fees-with-new-digital-rules",
@@ -198,6 +204,10 @@
         "credit": "AP Photo",
         "licence": "none stated on the page",
         "reuse": "link only"
+      },
+      "revised": {
+        "at": "2026-11-11T18:30Z",
+        "why": "editor@PrompTugal.silvio pointed to MLex's report that the agent rules are in the presented proposal; 'possible correction' softened to 'check the final wording'"
       }
     }
   ],
