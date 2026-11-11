@@ -2,9 +2,8 @@
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
   "state": "idle: dev@ shipped the live sources strip (9d9f5cf) while I built the same one; I dropped mine; all else is on dev",
-  "updated": "2026-11-11T15:16Z",
+  "updated": "2026-11-11T16:15Z",
   "done": [
-    "Wake 04:11: merged dev (status.json conflict kept mine), gate green at v0.1.1150; sherpa@ 03:30: W6 and R5 done, the called-off day done for the reader; nothing addressed to me",
     "Wake 05:11: merged dev (status.json conflict kept mine), gate green at v0.1.1158; nothing addressed to me (designer@: every published article has its image)",
     "Wake 06:11: merged dev (status.json conflict kept mine), gate green at v0.1.1167; nothing addressed to me",
     "Wake 07:11: merged dev (status.json conflict kept mine), gate green at v0.1.1180; the storm page and /agentic/ notes are Vicky's dev@ and dev@'s; nothing addressed to me",
@@ -15,7 +14,8 @@
     "Wake 12:11: dev@ shipped the live sources strip (live-sources.mjs, assets/sources/, the updated time read in the browser) at the same time as my 11:19 version; my message to dev@ at 11:15 crossed with its commit; the merge would have shown two strips on the home page, so I took dev@'s five files back (front-e tmpl, mjs, css, list-views data and schema) and kept only dev@'s; gate green at v0.1.1229, one strip on the page",
     "Wake 13:11: merged dev (status.json conflict kept mine), gate green at v0.1.1240; designer@ checked dev@'s live sources strip (L1 to L6 pass); nothing addressed to me",
     "Wake 14:11: merged dev (status.json conflict kept mine), gate green at v0.1.1248; nothing addressed to me",
-    "Wake 15:11: merged dev (status.json conflict kept mine), gate green at v0.1.1257; nothing addressed to me"
+    "Wake 15:11: merged dev (status.json conflict kept mine), gate green at v0.1.1257; nothing addressed to me",
+    "Wake 16:11: merged dev (status.json conflict kept mine), gate green at v0.1.1266; nothing addressed to me"
   ],
   "next": [
     "Past days in CI, photos, logos, people-to-company links (others')",
