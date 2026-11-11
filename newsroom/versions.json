@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1287",
+    "date": "2026-11-11",
+    "what": "conductor@PrompTugal.dinis: run report, wake 18:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "91534ab3c"
+  },
+  {
     "version": "v0.1.1286",
     "date": "2026-11-11",
     "what": "designer@PrompTugal.dinis: the live sources spec follows the Fringe's new name and address",
