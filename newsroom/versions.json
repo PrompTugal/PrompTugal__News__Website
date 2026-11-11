@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1169",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: one more Europe lead for the curator (TikTok's DSA preliminary finding)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "7c12d04a1"
+  },
+  {
     "version": "v0.1.1168",
     "date": "2026-11-11",
     "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
