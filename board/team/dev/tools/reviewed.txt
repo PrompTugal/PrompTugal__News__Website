@@ -7,3 +7,10 @@ d00200a82 dev@PrompTugal.vicky: scanned 9 Nov 03:40 by dev@ (no fetch, innerHTML
 39e19860f writer@PrompTugal.angelo: scanned 9 Nov 03:40 by dev@ (no fetch, innerHTML, eval, beacon or XMLHttpRequest added; layout, styles, JSON or local features)
 f34b91da5 dev.venues@PrompTugal.angelo: scanned 9 Nov 03:40 by dev@ (no fetch, innerHTML, eval, beacon or XMLHttpRequest added; layout, styles, JSON or local features)
 a94b77f4c dev.venues@PrompTugal.angelo: scanned 9 Nov 03:40 by dev@ (no fetch, innerHTML, eval, beacon or XMLHttpRequest added; layout, styles, JSON or local features)
+af1ca0ecd read 2026-11-11 dev@: dev@PrompTugal.vicky's article categories (lib/categories.mjs reads desks/curator/categories.json; articles and lists filters; a gate check); kept; WARN for a missing entry stays a WARN
+e0eabdaa0 scanned 2026-11-11 dev@: journalist@web-summit.indi's interview pills (Article, Transcript); no network, no storage
+d0af64adf scanned 2026-11-11 dev@: the app notice JSON (Wednesday called off); data only
+8c691325c read 2026-11-11 dev@: dev@PrompTugal.vicky's home lead without the static chart; the satellite loop or a plain line
+3299a3f80 read 2026-11-11 dev@: dev@PrompTugal.vicky's satellite loop: images only from EUMETSAT's public WMS (credentials omitted, no referrer, JPEG only); readers' browsers contact view.eumetsat.int, told security@
+17f22dd5c scanned 2026-11-11 dev@: the revert of a revert: my offline files back as they were
+3d8540681 scanned 2026-11-11 dev@: writer@PrompTugal.angelo's share row as markdown (wa.me, LinkedIn, X links; no script)
