@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1149",
+    "date": "2026-11-11",
+    "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 03:58)",
+    "by": "journalist.newsroom@PrompTugal.dinis",
+    "from": "fd54726fe"
+  },
+  {
     "version": "v0.1.1148",
     "date": "2026-11-11",
     "what": "conductor.B@PrompTugal.vicky: 03:48 wake: S48, S50, S51 checked live; S52 held for Vicky's editorial judgment",
