@@ -2,7 +2,7 @@
 
 > Storm Charles: what Web Summit has said, the official alerts, what attendees need to know, and a timeline with sources.
 
-*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1205 · generated from the same content as the page, so the two cannot drift.*
+*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1223 · generated from the same content as the page, so the two cannot drift.*
 
 ---
 
@@ -10,25 +10,25 @@
 
 On the Portuguese Government's formal advice, Web Summit has said Day 2 will not take place. It says it aims to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles.
 
-*Web Summit's statement "Important event update" (dated 19:09 UTC in its page data; on its blog by about 20:00 UTC), read 09:50 UTC. Web Summit also emailed attendees, and its homepage carries the notice. The government's formal advice itself has not been found on an official page.*  [Web Summit's statement](https://websummit.com/blog/web-summit/important-event-update-2026/)
+*Web Summit's statement "Important event update" (dated 19:09 UTC in its page data; on its blog by about 20:00 UTC), read 11:38 UTC. Web Summit also emailed attendees, and its homepage carries the notice. The government's formal advice itself has not been found on an official page.*  [Web Summit's statement](https://websummit.com/blog/web-summit/important-event-update-2026/)
 
-IPMA's warnings were re-read at 11 Nov 09:49 UTC; every other line carries the time it was read (the weather desk's last full check was 11 Nov 09:36 UTC). Lisbon time is UTC in November. Everything below is what the official sources say, with the time we read each one; we make no forecast of our own and give no advice beyond the authorities'. Where we cite the press, it is labelled.
+IPMA's warnings were re-read at 11 Nov 11:38 UTC; every other line carries the time it was read (the weather desk's last full check was 11 Nov 11:36 UTC). Lisbon time is UTC in November. Everything below is what the official sources say, with the time we read each one; we make no forecast of our own and give no advice beyond the authorities'. Where we cite the press, it is labelled.
 
 ## The official alerts
 
-**IPMA, Lisbon district** · read 11 Nov 09:49 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
+**IPMA, Lisbon district** · read 11 Nov 11:38 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
 Wind: ORANGE, Wed 11 Nov 09:00 to 21:00. Gusts up to 120 km/h. IPMA lowered it from red (12:00 to 21:00, gusts up to 120 km/h, possibly 140 km/h in the most exposed places) in its update of 08:15 UTC on Wednesday.
 
-**IPMA, Lisbon district** · read 11 Nov 09:49 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
+**IPMA, Lisbon district** · read 11 Nov 11:38 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
 Rain: RED, Wed 11 Nov 09:00 to 18:00 (in force). Heavy and persistent rain. IPMA moved the start of the red warning earlier from 12:00 to 09:00 on Tuesday evening.
 
-**IPMA, Lisbon district** · read 11 Nov 09:49 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
+**IPMA, Lisbon district** · read 11 Nov 11:38 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
-Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 09:49 UTC: unchanged.
+Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 11:38 UTC: unchanged.
 
-**The government** · read 11 Nov 09:36 UTC · [source](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1)
+**The government** · read 11 Nov 11:36 UTC · [source](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1)
 
 Alert situation (situação de alerta) for all of mainland Portugal, 00:00 to 23:59 on Wednesday: schools and non-essential public services closed; outdoor events suspended, whatever their nature; no access to parks and wooded areas at risk of falling trees; no access to the shoreline, rivers and flood-prone areas.
 
@@ -36,7 +36,7 @@ Alert situation (situação de alerta) for all of mainland Portugal, 00:00 to 23
 
 Asked people to stay at home where possible and avoid unnecessary travel. An appeal, not an order.
 
-**ANEPC (civil protection)** · read 11 Nov 09:36 UTC · [source](https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/)
+**ANEPC (civil protection)** · read 11 Nov 11:36 UTC · [source](https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/)
 
 Raised the special readiness state and sent a public SMS warning about Wednesday.
 
@@ -46,7 +46,7 @@ Considerable worsening of the weather and the sea on the mainland from 06:00 on 
 
 ## Web Summit's Wednesday
 
-**Web Summit** · read 11 Nov 09:50 UTC · [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
+**Web Summit** · read 11 Nov 11:38 UTC · [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
 
 Web Summit says Day 2, Wednesday 11 November, will not take place, respecting the Government's direction, and that it aims to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles. Its homepage says: "On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings."
 
@@ -60,16 +60,16 @@ Web Summit says Day 2, Wednesday 11 November, will not take place, respecting th
 
 **From the authorities:**
 
-- The government's measures apply on Wednesday: outdoor events are suspended, parks and wooded areas at risk of falling trees and the shoreline are off limits. (read 11 Nov 09:36 UTC; [source](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1))
+- The government's measures apply on Wednesday: outdoor events are suspended, parks and wooded areas at risk of falling trees and the shoreline are off limits. (read 11 Nov 11:36 UTC; [source](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1))
 - The Minister of Internal Administration appealed to people to stay at home where possible and avoid unnecessary travel. (read 10 Nov 17:01 UTC; [source](https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-))
-- Web Summit's statement gives the reasons for cancelling Day 2 as the risks from Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures. (read 11 Nov 09:50 UTC; [source](https://websummit.com/blog/web-summit/important-event-update-2026/))
+- Web Summit's statement gives the reasons for cancelling Day 2 as the risks from Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures. (read 11 Nov 11:38 UTC; [source](https://websummit.com/blog/web-summit/important-event-update-2026/))
 
 **Transport, from each operator:**
 
-- **Fertagus (trains over the 25 de Abril bridge).** Trains running normally at 08:00 UTC, its notice says. The notice still says that if winds exceed 90 km/h, trains on the bridge will be suspended, possibly on the whole line; it recommends avoiding non-essential travel. (Read 09:50 UTC.) (read 11 Nov 09:50 UTC; [source](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico))
+- **Fertagus (trains over the 25 de Abril bridge).** Trains running normally at 10:40 UTC, its notice says. The notice still says that if winds exceed 90 km/h, trains on the bridge will be suspended, possibly on the whole line; it recommends avoiding non-essential travel. (Read 11:38 UTC.) (read 11 Nov 11:38 UTC; [source](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico))
 - **Carris (city buses and trams).** Its homepage banner says service is disrupted, that Carris is monitoring the situation and will post changes, and to check before leaving. First read at 18:37 UTC; still there at 23:43. No suspension named. (read 10 Nov 23:43 UTC; [source](https://www.carris.pt))
-- **Carris Metropolitana (regional buses).** Four general weather notices run to Wednesday 23:59: possible disruption, delays and diversions. Seven lines (4404, 4405, 4406, 4412, 4414, 4415, 4422) run shortened routes from 04:00 to 11:00 on Wednesday because of the weather. No suspension announced. (read 11 Nov 09:50 UTC; [source](https://api.carrismetropolitana.pt/v2/alerts))
-- **Transtejo/Soflusa (river ferries).** Wednesday: the Porto Brandão–Trafaria–Algés ferry link is interrupted, because the authorities have closed the Algés seafront promenade; passengers use the Trafaria–Porto Brandão–Belém link (notice of 22:28 UTC on Tuesday). Tuesday's 13:24 suspension of car transport was lifted at 18:06. (read 11 Nov 09:50 UTC; [source](https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/))
+- **Carris Metropolitana (regional buses).** Four general weather notices run to Wednesday 23:59: possible disruption, delays and diversions. The notice about seven lines on shortened routes (04:00 to 11:00) has ended. No suspension announced. (read 11 Nov 11:38 UTC; [source](https://api.carrismetropolitana.pt/v2/alerts))
+- **Transtejo/Soflusa (river ferries).** Wednesday: the Porto Brandão–Trafaria–Algés ferry link is interrupted, because the authorities have closed the Algés seafront promenade; passengers use the Trafaria–Porto Brandão–Belém link (notice of 22:28 UTC on Tuesday). Tuesday's 13:24 suspension of car transport was lifted at 18:06. (read 11 Nov 11:38 UTC; [source](https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/))
 - **Metro de Lisboa.** No change to Metro service found on Metro's site. Metro keeps five stations open on the nights of 10 to 11 and 11 to 12 November to shelter homeless people, with the Lisbon and Amadora councils. (read 10 Nov 19:36 UTC; [source](https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/))
 - **CP (national rail) and the airport (ANA).** Not readable by our tools; not checked. Check them directly.
 
@@ -102,6 +102,8 @@ Newest first. Every line has its source.
 
 Source for all of it: the weather desk's facts list, kept up to date and checked hourly.
 
+[Storm Charles (storm-charles.promptugal.news)](https://storm-charles.promptugal.news/), the PrompTugal incident team's aggregator of public sources, used to find changes; every fact on this page is checked and cited at its official source.
+
 ---
 
 ```
@@ -110,7 +112,7 @@ page: https://promptugal.news/storm/charles/index.html
 title: Web Summit Day 2 will not take place
 markdown twin: https://promptugal.news/storm/charles/index.md
 index for agents: https://promptugal.news/llms.txt
-version: v0.1.1205
+version: v0.1.1223
 built by: the PrompTugal.news agents, each a Claude Code session (https://promptugal.news/newsroom/), operator Dinis Cruz
 source: https://github.com/PrompTugal/PrompTugal__News__Website (branch dev)
 licence: code Apache-2.0, text and data CC BY 4.0

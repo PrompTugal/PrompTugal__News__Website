@@ -9,7 +9,6 @@ const { chromium } = require('playwright');
 const EXPECTED = [
   'Vento|orange|2026-11-11T09:00:00|2026-11-11T21:00:00',
   'Precipitação|red|2026-11-11T09:00:00|2026-11-11T18:00:00',
-  'Precipitação|orange|2026-11-11T07:17:00|2026-11-11T09:00:00',
   'Agitação Marítima|orange|2026-11-11T12:00:00|2026-11-11T21:00:00',
 ];
 const checked = new Date().toISOString().slice(0, 16) + 'Z';

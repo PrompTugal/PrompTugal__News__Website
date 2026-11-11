@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-labelledby="t d">
+  <title id="t">Digital Fairness Act: AI agents that shop</title>
+  <desc id="d">The European Commission's proposed Digital Fairness Act sets rules for automated systems that buy on a consumer's behalf; a proposal, not yet law. Source: European Commission, COM(2026) 1100.</desc>
+  <rect width="480" height="480" fill="#f7f3ea"/>
+  <rect x="0" y="0" width="480" height="12" fill="#003399"/>
+  <g font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <text x="36" y="88" font-size="34" fill="#003399">Digital Fairness Act</text>
+    <text x="36" y="168" font-size="58" font-weight="700" fill="#1a1a1a">AI agents</text>
+    <text x="36" y="232" font-size="58" font-weight="700" fill="#1a1a1a">that shop</text>
+    <rect x="36" y="280" width="408" height="120" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
+    <text x="240" y="332" text-anchor="middle" font-size="38" font-weight="700" fill="#1a1a1a">A proposal</text>
+    <text x="240" y="378" text-anchor="middle" font-size="34" fill="#444">not yet law</text>
+    <text x="36" y="448" font-size="28" fill="#444">Source: European Commission</text>
+  </g>
+</svg>

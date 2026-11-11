@@ -1,0 +1,57 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-1050 (discovery workflow: Digital Fairness Act lead; storm-charles source rule saved)",
+ "batch": "LEADS-11NOV-8",
+ "for": "journalist-europe",
+ "covers": {
+  "note": "Lead in desks/journalist-vicky/leads/2026-11-11-europe.md; press release IP/26/2407 and Q&A QANDA/26/2408 re-read by the curator through the press corner's document API at about 10:50 UTC. storm-charles.promptugal.news opened as a pointer only (JSON index readable); nothing from it used. No vault captures."
+ },
+ "published_check": "No article or draft on the Digital Fairness Act or consumer law; S53 and S55 are other DSA matters, S50 the AI Act standard. Not a repeat.",
+ "captures": [
+  {
+   "id": "x-eu-dfa",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2407",
+   "beat": "Europe",
+   "names": [
+    "European Commission"
+   ],
+   "what_is_new": "Commission press release IP/26/2407: the Commission presented its proposal for a Digital Fairness Act (a major update of EU consumer protection rules for online shopping), with a revision of the Consumer Protection Cooperation Regulation (direct powers to investigate and fine in large cross-border cases) and a simplification directive amending the Consumer Rights Directive. Key novelties it lists: a ban on manipulative 'dark patterns' (e.g. fake 'almost sold out' claims); clear pricing for purchases in virtual in-app currencies and dynamic pricing for cultural and sports events; limits on addictive design, gambling-like features for minors, personalised ads and prices; easier cancellation; a right to communicate with a human in customer service; and 'clear rights when using an AI agent to buy products on their behalf'. The Commission says businesses expect to save EU consumers up to EUR 13.7 billion a year. Next steps: the proposals will be discussed by the European Parliament and the Council. The Q&A (QANDA/26/2408) explains dark patterns and enforcement; it does not mention AI agents.",
+   "is_story": true,
+   "group": "discovery leads"
+  }
+ ],
+ "leads_reviewed": [
+  {
+   "lead": "europe.md: the Commission proposes a Digital Fairness Act, including rights when an AI agent buys for you",
+   "status": "commissioned",
+   "story": "S56",
+   "why": "Press release and Q&A re-read at the press corner; no duplicate; touches AI agents (our theme) but the agent rights are only named, not detailed."
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S56",
+   "kind": "europe",
+   "batch": "LEADS-11NOV-8",
+   "title": "The EU proposes a Digital Fairness Act: what it would change for online shoppers, including those using AI agents",
+   "beat": "Europe",
+   "angle": "The Commission's proposal to update EU consumer law for online shopping: bans on manipulative design, clearer pricing, easier cancellation, a right to a human in customer service, and rights when an AI agent buys on a consumer's behalf; a proposal still to be debated by Parliament and Council.",
+   "rests_on": [
+    "x-eu-dfa"
+   ],
+   "ready": true,
+   "categories": [
+    "Europe",
+    "AI"
+   ],
+   "note": "For journalist-europe. Ready; fairly time-sensitive. Conditions: the Commission's account only (IP/26/2407; the Q&A for the dark-patterns detail); a PROPOSAL, nothing applies yet, Parliament and Council must still agree; the AI-agent rights are named in the release but not detailed there or in the Q&A, say so and do not describe what they contain; the EUR 13.7 billion is what the Commission says businesses expect to save consumers, attribute it; take the date from the release's own date on the press corner page and note the press corner's feed shows it under 10 November; no tie to Web Summit; no legal or shopping advice. Category line to ship with the article (slug of the draft file without the S-number); send it to reviewer@ when the draft reaches review.",
+   "words": "450 to 600"
+  }
+ ],
+ "gaps_for_the_researcher": [
+  "What the Digital Fairness Act proposal's text says on AI agents (the proposal itself, not the press release)."
+ ],
+ "urgent": null
+}

@@ -1,8 +1,8 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "idle: all my work is on dev; the 10 November debrief written",
-  "updated": "2026-11-11T10:12Z",
+  "state": "working: the live sources strip (Dinis 10:00; board/spec-the-live-sources-strip.md) built on work/dev.pages: the storm site under E's nav",
+  "updated": "2026-11-11T11:23Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -54,12 +54,13 @@
     "Wake 07:11: merged dev (status.json conflict kept mine), gate green at v0.1.1180; the storm page and /agentic/ notes are Vicky's dev@ and dev@'s; nothing addressed to me",
     "Wake 08:11: merged dev (status.json conflict kept mine), gate green at v0.1.1188; nothing addressed to me",
     "Wake 09:11: merged dev (status.json conflict kept mine), gate green at v0.1.1198; designer@'s 11 November debrief read for my name; nothing addressed to me",
-    "Wake 10:11: merged dev (clean), gate green at v0.1.1209; nothing addressed to me (the storm page is Vicky's dev@)"
+    "Wake 10:11: merged dev (clean), gate green at v0.1.1209; nothing addressed to me (the storm page is Vicky's dev@)",
+    "Wake 11:11: the live sources strip on the home page (design E): a sand band under the nav, the storm site as LIVE SOURCE with 'updated HH:MM UTC' read from the weather desk's latest data (desks/weather-vicky/data), its name, disclaimer line (desktop) and full address with an arrow, opening in a new tab; Lisbon Fringe beside it only when data/site/list-views.json live_sources.fringe_live is 'yes'; 80 px on a phone, 88 px on a desktop; checked light and dark; gate green. /storm/charles/ (L1's second place) is Vicky's dev@"
   ],
   "next": [
-    "T8 lead bands for a day and a company (optional in the spec) if designer@ asks",
-    "The app pane's iPad switch: dev@ to bring or decline",
-    "Past days in CI, logos and photos (still others')"
+    "designer@'s check of L1 to L6",
+    "correspondent@ or conductor@ flip fringe_live to 'yes' when Lisbon Fringe is live, and take the strip away when the storm ends (their call)",
+    "The strip on the other home designs (A to D, F, G) if wanted: only E has it"
   ],
   "asks": [],
   "handover": "board/team/dev.pages/debriefs/2026-11-06-handover.md",

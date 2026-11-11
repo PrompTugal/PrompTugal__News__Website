@@ -28,3 +28,5 @@ Pull dev; holds; "New from Dinis"; the curator's newest map; reviews for this de
 - S41 checked 08:06 UTC, no change. No new assignment for the summit desk (S55 is Europe's).
 - S41 checked 09:06 UTC, no change against the live article: wind lowered to orange 09:00 to 21:00 (already in S41 via the reviewer at 08:40); rain red 09:00 to 18:00; sea orange 12:00 to 21:00; Web Summit's post unchanged. No new assignment.
 - S41 checked 10:06 UTC, no change. IPMA unchanged since 09:06. Web Summit's post now shows modified 2026-11-10 20:06:54 (was 19:25:44); its text is word for word the same (one markup space), so not material. No new assignment.
+- S41 checked 11:13 UTC, no change (IPMA and Web Summit's post as at 10:06). Read Dinis's 10:00 guidance (pt.news follows what is happening now; storm-charles.promptugal.news as a data source; Lisbon Fringe): no change to this watch, which reads the official sources. No new assignment.
+- S41 checked 12:07 UTC, no change. No new assignment.

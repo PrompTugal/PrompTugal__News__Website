@@ -1,0 +1,7 @@
+{
+  "about": "The live sources strip under the masthead (Dinis, 11 November 10:00 UTC: the storm site at the top as the live source, Lisbon Fringe beside it once live; designer@'s board/spec-the-live-sources-strip.md). Each source's own name and words. 'live': false leaves a source out (no dead link). 'updated' names a JSON whose built_at the page shows as the updated time.",
+  "sources": [
+    { "id": "storm", "live": true, "kicker": "Live source", "tone": "red", "name": "Storm Charles: the weather, now", "line": "Warnings, decisions and the timeline, each with its source and the time read. Not a warning service: follow IPMA and ANEPC.", "url": "https://storm-charles.promptugal.news/", "updated": "https://storm-charles.promptugal.news/api/v1/index.json" },
+    { "id": "fringe", "live": true, "kicker": "New", "tone": "green", "name": "Lisbon Fringe", "line": "The alternative and community events around the summit. Independent.", "url": "https://fringe.promptugal.news/" }
+  ]
+}

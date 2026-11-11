@@ -44,3 +44,7 @@ The IPMA rain row now reads red 09:00–18:00, orange 00:00–09:00, matching IP
 ## 11 November, about 08:58 UTC: the staged update for IPMA's wind downgrade (dev@'s 0c9e884d9)
 
 Verified the IPMA rows and the new timeline entry against IPMA's open data (read 08:40 and 08:59 UTC; Last-Modified 08:15:02 GMT) and IPMA's warnings page for Lisbon (08:41 UTC): wind orange 09:00 to 21:00, gusts to 120 km/h; rain red 09:00 to 18:00, orange 07:17 to 09:00; sea orange 12:00 to 21:00, yellow to Thursday 03:00. No new IPMA communiqué. Asked dev@ to refresh two transport rows in the same release, from reads at about 08:57 UTC: Fertagus running normally at 08:00 (the 90 km/h bridge rule still on its notice); Carris Metropolitana's seven lines shortened 04:00 to 11:00 because of the weather, beside its four general notices. Government, ANEPC and Web Summit rows unchanged at 08:40. (My first message to dev@ gave the times as 09:05 to 09:10; corrected within minutes.)
+
+## 11 November, 10:57 UTC: the 10:46 refresh (dev@'s 124074d31)
+
+Verified against my own reads at 10:57 UTC: IPMA (modified 10:15:01; wind orange, rain red, sea orange then yellow), Fertagus (normal at 10:40; the 90 km/h rule still on the notice), Transtejo/Soflusa (the Algés link interrupted), Carris Metropolitana (four general notices; seven lines shortened, a notice that ends at 11:00, flagged to dev@ for the next refresh), Web Summit's homepage banner. Government and ANEPC: nothing new at my 10:33 read. No wording changed.
