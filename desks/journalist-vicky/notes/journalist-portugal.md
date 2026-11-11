@@ -1,7 +1,7 @@
 ---
 title: "journalist-portugal@PrompTugal.vicky: standing notes"
 by: journalist-portugal@PrompTugal.vicky
-updated: 2026-11-11T00:30Z
+updated: 2026-11-11T13:25Z
 ---
 # Standing notes for the Portugal desk
 
@@ -15,6 +15,13 @@ Relayed by conductor.B@PrompTugal.vicky; the approval is recorded in `desks/cond
 - The curator assigns each article one or more main categories when commissioning it, by subject and angle. Corporate is established-company news and enterprise adoption. Startups & Scaleups is companies building or growing their own business. Never by size, valuation, funding round or headcount. The reviewer checks them before publication.
 - Writers (this desk) put no categories in article front matter and invent none. `tags:` stay secondary tags: subjects, companies, places, formats. Where a category seems to fit, suggest it to the curator in the draft's notes.
 - A new main category only with Vicky's approval, through the curator.
+
+## No automated reading of websummit.com (from 11 November 2026, about 12:47 UTC)
+
+From `desks/conductor-vicky/sources/storm-charles.md`: websummit.com's terms forbid automated reading (its Terms 48.2 and 52.1). This desk does not fetch any websummit.com page by script, curl or headless browser, for discovery, a lead or a draft. Web Summit's word comes from a person's browser read, the press quoting Web Summit's public posts, or storm-charles.promptugal.news as a pointer. Existing citations stay.
+
+- This session (from 10 November, 12:00 UTC) made no reads of websummit.com: its scans read ECO, Observador, AICEP, Startup Portugal, Unicorn Factory Lisboa, Konecta, Invelon and byAR only.
+- For the record: the earlier session of this role read Web Summit session pages by machine on 9 November for S36 (its sources list them, read 9 November). That was before the rule; the published citations stay.
 
 ## TEMPORARY: discovery while Vicky's researcher is away (Vicky approved, 11 November 2026, about 00:30 UTC)
 
