@@ -11,7 +11,7 @@ Yesterday's note, with every check and draft of 10 November: `2026-11-10-handove
 ## Where the desk stands
 - Published (by the reviewer, at Vicky's word): S41 (the storm and Day 2), S45 (refunds after Day 2). S40 earlier.
 - S44 (update note for the Wednesday guide): Ready; placement held for Vicky's approval and the guide's owner.
-- S41 watch (standing task from 10 Nov 14:55 UTC): each :05 wake, IPMA's warnings for the Lisbon district and Web Summit's own channels; a change goes to the reviewer with source and UTC time; this desk never edits S41. Ends when IPMA's warning has ended and Wednesday's programme is over.
+- S41 watch (standing task from 10 Nov 14:55 UTC): each :05 wake, IPMA's warnings for the Lisbon district (open data); Web Summit's side only by a person's browser read or the press (no machine reads, from 11 Nov 12:47 UTC); a change goes to the reviewer with source and UTC time; this desk never edits S41. Ends when IPMA's warning has ended and Wednesday's programme is over.
 
 ## Run summaries
 - S41 checked 00:06 UTC, no change against the live article: IPMA's rain is now orange 00:00 to 09:00 and red 09:00 to 18:00 (already in S41 via the reviewer's 23:51 update); wind red 12:00 to 21:00 and sea orange 12:00 to 21:00 unchanged; Web Summit's post unchanged since 19:25 on 10 Nov, no new post.
