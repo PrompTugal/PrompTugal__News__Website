@@ -225,6 +225,13 @@ for (const f of html) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date || '')) errors.push(`${rel(f)}: page-date "${date}" is not a date`)
 }
 
+// 15. what rests only on websummit.com (lib/wsonly.mjs; the pass 2026-11-11-only-websummit-sourced-comes-off): counted
+// at every run; while the switch is off this is a dry run and nothing served changes
+{
+    const js = "import { wsGate } from './lib/wsonly.mjs'; import { loadData } from './lib/data.mjs'; console.log(wsGate(loadData()))"
+    try { warnings.push(execFileSync(process.execPath, ['--input-type=module', '-e', js], { cwd: __dirname, encoding: 'utf8' }).trim()) } catch (e) { errors.push('wsonly: ' + e.message) }
+}
+
 for (const w of warnings) console.error('WARN ' + w)
 if (errors.length) {
     for (const e of errors) console.error('FAIL ' + e)
