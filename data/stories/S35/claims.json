@@ -149,7 +149,7 @@
     },
     {
       "id": "c14",
-      "text": "Web Summit's schedule lists the press conference 'Open or Closed AI models: which types of future do they represent? (Press conference)' on 2026-11-11 from 12:30 to 12:50 on Stage 2, with Philip Rathle (CTO, Neo4j); Mazin Gilbert (Executive Director, Agentic AI Foundation); Bailey Pumfleet (CEO & Co-founder, Cal.com); the page says 'Media event only'.",
+      "text": "Web Summit's schedule lists the press conference 'Open or Closed AI models: which types of future do they represent? (Press conference)' on 2026-11-11 from 12:30 to 12:50 on Stage 2, with Philip Rathle (CTO, Neo4j); Mazin Gilbert (Executive Director, Agentic AI Foundation); Bailey Pumfleet (CEO & Co-founder, Cal.com); the page says 'Media event only'. (At 18:33 UTC the same session id is also listed on page 3 at Thursday 12 November, 10:00 (see the last claim); pages 2 and 3 of the listing disagree, so the listing does not show cleanly whether it moved.)",
       "kind": "fact",
       "source": "websummit-schedule-press-conferences-p2",
       "quote": "Open or Closed AI models: which types of future do they represent? (Press conference)",
@@ -160,7 +160,7 @@
     },
     {
       "id": "c15",
-      "text": "Web Summit's schedule lists the press conference 'Campus Tejo, the science and technology ecosystem of Santarém (Press conference)' on 2026-11-11 from 14:30 to 14:50 on Stage 2, with Fernando Alexandre (Minister of Education, Science and Innovation of Portugal, Government of Portugal); João Leite (Mayor of Santarém and President of the Intermunicipal Community of the Lezíria do Tejo, Sumcap); João Moutão (Professor, Santarém Polytechnic University); the page says 'Media event only'.",
+      "text": "Web Summit's schedule lists the press conference 'Campus Tejo, the science and technology ecosystem of Santarém (Press conference)' on 2026-11-11 from 14:30 to 14:50 on Stage 2, with Fernando Alexandre (Minister of Education, Science and Innovation of Portugal, Government of Portugal); João Leite (Mayor of Santarém and President of the Intermunicipal Community of the Lezíria do Tejo, Sumcap); João Moutão (Professor, Santarém Polytechnic University); the page says 'Media event only'. (At 18:33 UTC on 11 November this session is no longer in the listing.)",
       "kind": "fact",
       "source": "websummit-schedule-press-conferences-p3",
       "quote": "Campus Tejo, the science and technology ecosystem of Santarém (Press conference)",
@@ -252,6 +252,17 @@
       "kind": "fact",
       "source": "websummit-schedule-press-conferences-p4",
       "quote": "Press conference: Road 2 Web Summit 2026 Winner",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c24",
+      "text": "At 18:33 UTC on 11 November Web Summit's schedule lists the press conference 'Open or Closed AI models: which types of future do they represent? (Press conference)' on 2026-11-12 from 10:00 to 10:20 on Stage 2, with Philip Rathle (CTO, Neo4j); Mazin Gilbert (Executive Director, Agentic AI Foundation); the same session id is still listed on page 2 at 2026-11-11 12:30, so pages 2 and 3 of the listing disagree and it is not clear from the listing that it moved.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p2",
+      "quote": "Open or Closed AI models: which types of future do they represent? (Press conference)",
       "read_on": "2026-11-11",
       "about": [
         "event:web-summit-lisbon-2026"
