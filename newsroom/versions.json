@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1205",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: categories: programme acknowledged",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "3d215a142"
+  },
+  {
     "version": "v0.1.1204",
     "date": "2026-11-11",
     "what": "weather@PrompTugal.vicky: run report (09:35 wake)",
