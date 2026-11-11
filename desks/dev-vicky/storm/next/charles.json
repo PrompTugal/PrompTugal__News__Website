@@ -3,11 +3,11 @@
  "desk_last_check": "2026-11-11T12:36Z",
  "lead": {
   "headline": "Web Summit: Day 2, Wednesday 11 November, will not take place",
-  "text": "On the Portuguese Government's formal advice, Web Summit has said Day 2 will not take place. It says it aims to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles.",
-  "source_label": "Web Summit's statement \"Important event update\" (dated 19:09 UTC in its page data; on its blog by about 20:00 UTC), read 12:38 UTC. Web Summit also emailed attendees, and its homepage links to the statement.",
+  "text": "On the Portuguese Government's formal advice, Web Summit has said Day 2 will not take place. On Wednesday it said it is officially back on Thursday 12 November for its final day.",
+  "source_label": "Web Summit's statement \"Important event update\" (dated 19:09 UTC in its page data; on its blog by about 20:00 UTC; an announcement for Thursday was added at its top, edited 11:44 UTC according to its blog data), read 12:36 UTC. Web Summit also emailed attendees.",
   "source_note": "The government's formal advice itself has not been found on an official page.",
   "src": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-  "read": "2026-11-11T12:38Z"
+  "read": "2026-11-11T12:36Z"
  },
  "alerts": [
   {
@@ -61,11 +61,11 @@
   }
  ],
  "summit": {
-  "status": "Web Summit says Day 2, Wednesday 11 November, will not take place, respecting the Government's direction, and that it aims to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles. Its homepage now links to the full statement (\"Read full statement\"); until about 11:38 UTC it carried the notice \"On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings.\"",
-  "read": "2026-11-11T12:38Z",
+  "status": "Web Summit says Day 2, Wednesday 11 November, will not take place, respecting the Government's direction. On Wednesday its homepage announced: \"Web Summit is officially back on tomorrow for our final day. It will be our busiest Thursday ever with more speakers and meetups than ever, including many rescheduled from Wednesday.\" It added a similar announcement to the top of its statement. Its Tuesday statement had said it aimed to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles.",
+  "read": "2026-11-11T12:36Z",
   "src": "https://websummit.com/blog/web-summit/important-event-update-2026/",
   "open": [
-   "What Day 3 will look like beyond \"aims to proceed as planned\": not announced.",
+   "What Thursday's programme will hold: Web Summit says to check its schedule later on Wednesday for updates; not announced here.",
    "The government's formal advice to Web Summit, on any official page: not found by the desk.",
    "Any measure of the City of Lisbon (its sites refuse automated reads): not read."
   ]
@@ -85,7 +85,7 @@
    {
     "text": "Web Summit's statement gives the reasons for cancelling Day 2 as the risks from Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures.",
     "src": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-    "read": "2026-11-11T12:38Z"
+    "read": "2026-11-11T12:36Z"
    }
   ],
   "transport": [
@@ -137,6 +137,11 @@
    "t": "2026-11-11T12:16Z",
    "text": "IPMA communiqué no. 3 on CHARLES: the depression has split into two low-pressure centres, unlike the early model forecasts, so it should deepen less and the wind be weaker than in yesterday's forecast. Persistent, at times heavy rain continues, moving from south-west to north-east; in the south, gusts of about 70 to 90 km/h, especially on the coast, up to 110 km/h in the most exposed coastal points and hills. IPMA says the warnings were adjusted to the updated models. (IPMA edited it at 12:16 UTC; we read it at 12:39 UTC.)",
    "src": "https://www.ipma.pt/pt/otempo/comunicados/"
+  },
+  {
+   "t": "2026-11-11T11:44Z",
+   "text": "Web Summit announces it is officially back on Thursday for its final day: a Wednesday announcement is added at the top of its statement (edited 11:44 UTC according to its blog data) and its homepage says \"Web Summit is officially back on tomorrow for our final day\" (homepage read by us at 12:36 UTC).",
+   "src": "https://websummit.com/blog/web-summit/important-event-update-2026/"
   },
   {
    "t": "2026-11-11T08:15Z",

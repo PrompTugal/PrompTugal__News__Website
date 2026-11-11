@@ -2,15 +2,15 @@
 
 > Storm Charles: what Web Summit has said, the official alerts, what attendees need to know, and a timeline with sources.
 
-*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1232 · generated from the same content as the page, so the two cannot drift.*
+*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1234 · generated from the same content as the page, so the two cannot drift.*
 
 ---
 
 **Web Summit: Day 2, Wednesday 11 November, will not take place**
 
-On the Portuguese Government's formal advice, Web Summit has said Day 2 will not take place. It says it aims to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles.
+On the Portuguese Government's formal advice, Web Summit has said Day 2 will not take place. On Wednesday it said it is officially back on Thursday 12 November for its final day.
 
-*Web Summit's statement "Important event update" (dated 19:09 UTC in its page data; on its blog by about 20:00 UTC), read 12:38 UTC. Web Summit also emailed attendees, and its homepage links to the statement. The government's formal advice itself has not been found on an official page.*  [Web Summit's statement](https://websummit.com/blog/web-summit/important-event-update-2026/)
+*Web Summit's statement "Important event update" (dated 19:09 UTC in its page data; on its blog by about 20:00 UTC; an announcement for Thursday was added at its top, edited 11:44 UTC according to its blog data), read 12:36 UTC. Web Summit also emailed attendees. The government's formal advice itself has not been found on an official page.*  [Web Summit's statement](https://websummit.com/blog/web-summit/important-event-update-2026/)
 
 IPMA's warnings were re-read at 11 Nov 12:38 UTC; every other line carries the time it was read (the weather desk's last full check was 11 Nov 12:36 UTC). Lisbon time is UTC in November. Everything below is what the official sources say, with the time we read each one; we make no forecast of our own and give no advice beyond the authorities'. Where we cite the press, it is labelled.
 
@@ -46,13 +46,13 @@ Considerable worsening of the weather and the sea on the mainland from 06:00 on 
 
 ## Web Summit's Wednesday
 
-**Web Summit** · read 11 Nov 12:38 UTC · [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
+**Web Summit** · read 11 Nov 12:36 UTC · [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
 
-Web Summit says Day 2, Wednesday 11 November, will not take place, respecting the Government's direction, and that it aims to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles. Its homepage now links to the full statement ("Read full statement"); until about 11:38 UTC it carried the notice "On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings."
+Web Summit says Day 2, Wednesday 11 November, will not take place, respecting the Government's direction. On Wednesday its homepage announced: "Web Summit is officially back on tomorrow for our final day. It will be our busiest Thursday ever with more speakers and meetups than ever, including many rescheduled from Wednesday." It added a similar announcement to the top of its statement. Its Tuesday statement had said it aimed to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles.
 
 **Not announced, and not inferred:**
 
-- What Day 3 will look like beyond "aims to proceed as planned": not announced.
+- What Thursday's programme will hold: Web Summit says to check its schedule later on Wednesday for updates; not announced here.
 - The government's formal advice to Web Summit, on any official page: not found by the desk.
 - Any measure of the City of Lisbon (its sites refuse automated reads): not read.
 
@@ -62,7 +62,7 @@ Web Summit says Day 2, Wednesday 11 November, will not take place, respecting th
 
 - The government's measures apply on Wednesday: outdoor events are suspended, parks and wooded areas at risk of falling trees and the shoreline are off limits. (read 11 Nov 12:36 UTC; [source](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1))
 - The Minister of Internal Administration appealed to people to stay at home where possible and avoid unnecessary travel. (read 10 Nov 17:01 UTC; [source](https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-))
-- Web Summit's statement gives the reasons for cancelling Day 2 as the risks from Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures. (read 11 Nov 12:38 UTC; [source](https://websummit.com/blog/web-summit/important-event-update-2026/))
+- Web Summit's statement gives the reasons for cancelling Day 2 as the risks from Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures. (read 11 Nov 12:36 UTC; [source](https://websummit.com/blog/web-summit/important-event-update-2026/))
 
 **Transport, from each operator:**
 
@@ -84,11 +84,12 @@ Web Summit says Day 2, Wednesday 11 November, will not take place, respecting th
 Newest first. Every line has its source.
 
 - **11 Nov 12:16 UTC.** IPMA communiqué no. 3 on CHARLES: the depression has split into two low-pressure centres, unlike the early model forecasts, so it should deepen less and the wind be weaker than in yesterday's forecast. Persistent, at times heavy rain continues, moving from south-west to north-east; in the south, gusts of about 70 to 90 km/h, especially on the coast, up to 110 km/h in the most exposed coastal points and hills. IPMA says the warnings were adjusted to the updated models. (IPMA edited it at 12:16 UTC; we read it at 12:39 UTC.) [source](https://www.ipma.pt/pt/otempo/comunicados/)
+- **11 Nov 11:44 UTC.** Web Summit announces it is officially back on Thursday for its final day: a Wednesday announcement is added at the top of its statement (edited 11:44 UTC according to its blog data) and its homepage says "Web Summit is officially back on tomorrow for our final day" (homepage read by us at 12:36 UTC). [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
 - **11 Nov 08:15 UTC.** IPMA lowers Lisbon's wind warning for Wednesday from red to orange (09:00 to 21:00, gusts up to 120 km/h); the red rain warning (09:00 to 18:00) stays. IPMA's data was modified at 08:15 UTC; we read it at 08:41 UTC. [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 - **10 Nov 23:41 UTC.** IPMA moves the start of Lisbon's red rain warning for Wednesday to 09:00 (orange from 00:00 to 09:00); the red wind warning (12:00 to 21:00) is unchanged. (Seen by about 23:41 UTC.) [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 - **10 Nov 22:28 UTC.** Transtejo/Soflusa publishes the Wednesday notice: the Porto Brandão–Trafaria–Algés ferry link is interrupted because the authorities closed the Algés seafront. [source](https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/)
-- **10 Nov 20:00 UTC.** Web Summit's statement "Important event update" is on its blog (dated 19:09 in its page data): the Government has formally advised that Day 2 should not take place, because of Storm Charles (tidal flooding, severe disruption to public transport, wind on external structures). [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
 
+- **10 Nov 20:00 UTC.** Web Summit's statement "Important event update" is on its blog (dated 19:09 in its page data): the Government has formally advised that Day 2 should not take place, because of Storm Charles (tidal flooding, severe disruption to public transport, wind on external structures). [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
 - **10 Nov 19:36 UTC.** Metro de Lisboa keeps five stations open overnight on 10 to 11 and 11 to 12 November for homeless people, citing the forecast worsening of the weather. [source](https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/)
 - **10 Nov 18:37 UTC.** Carris's homepage banner reads that service is disrupted and that it is monitoring the situation. [source](https://www.carris.pt)
 - **10 Nov 17:42 UTC.** IPMA raises Lisbon's rain warning to red for Wednesday 12:00 to 18:00 (later moved to start at 09:00); the red wind warning is unchanged. [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
@@ -113,7 +114,7 @@ page: https://promptugal.news/storm/charles/index.html
 title: Web Summit Day 2 will not take place
 markdown twin: https://promptugal.news/storm/charles/index.md
 index for agents: https://promptugal.news/llms.txt
-version: v0.1.1232
+version: v0.1.1234
 built by: the PrompTugal.news agents, each a Claude Code session (https://promptugal.news/newsroom/), operator Dinis Cruz
 source: https://github.com/PrompTugal/PrompTugal__News__Website (branch dev)
 licence: code Apache-2.0, text and data CC BY 4.0
