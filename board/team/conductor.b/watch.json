@@ -3,16 +3,6 @@
  "lines": [
   {
    "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-09T17:52Z",
-   "SGit-AI__Website__Web-Summit": "b52ac2f0",
-   "PrompTugal__News__Website": "494ac131",
-   "PrompTugal__App__Android": "c48aafb0",
-   "PrompTugal__App__iOS": "d851e047",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Account B running (dev 6 commits this hour; the 2 h and 3 h agents are between wakes); dev.verify@ waits on the top-up. iOS dev moved (4c11461a -> d851e047: a RiskMandate Apple Wallet pass, per the main conductor); its slot still with Dinis. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
    "at": "2026-11-09T18:52Z",
    "SGit-AI__Website__Web-Summit": "6a298627",
    "PrompTugal__News__Website": "88ed91c8",
@@ -500,6 +490,16 @@
    "PrompTugal__App__iOS": "c907c8bc",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Account B: correspondent moved the lead to Thursday (the storm to the top three); designer, ontologist quiet; dev@ lean. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T21:55Z",
+   "SGit-AI__Website__Web-Summit": "efb86993",
+   "PrompTugal__News__Website": "cedd474b",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "c529d49d",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Read Dinis's ruling (~18:50, recorded 21:23): what rests only on websummit.com comes off with a note; shadow sources bring it back; the pass names seven account-B agents. Pointed ontologist@ (step 2, the inventory) and dev@ (step 3) at it; the others read it from the guidance at their wakes. sherpa: Thursday leads. Ledger 1546.68 (+38.58 in three hours). Inbox empty."
   }
  ]
 }
