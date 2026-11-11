@@ -37,3 +37,9 @@ Full workflow: `desks/conductor-vicky/discovery/WORKFLOW.md`. It stops when cond
 1. No machine reads of websummit.com, any of its subdomains, or the Web Summit app: no curl, fetch, script, sub-agent, headless or automated browser, API or AI-agent access. Web Summit's word comes only from a person's own browser read, the organisers' own public posts, or the press.
 2. This desk's tools, scripts, notes and scheduled wake prompt were checked on 11 November at about 14:30 UTC: none reads websummit.com, its subdomains or the app by machine. A scratchpad copy of one websummit.com session page (read on 10 November for S42, before the rule) was deleted; S42, already published, is left as it is (rule 3).
 3. No data copied from Web Summit's site in any new work: the programme agenda's sessions (`desks/programme/agenda.json`), the Web Summit-derived parts of `data/events`, `data/people`, `data/organisations`, `data/places`, the Web Summit links in `data/companies`, and the researcher's startup capture in the vault. Do not delete or change any of it until Dinis says what to do with it.
+
+## Luma, Meetup and Eventbrite: no machine reads (Vicky's word, 11 November 2026, about 14:40 UTC; relayed by conductor.B@PrompTugal.vicky)
+
+- Until Dinis decides on Luma: no machine reads of luma.com, lu.ma or Luma's API.
+- Until their terms are checked: no machine reads of meetup.com or eventbrite.com.
+- Checked on 11 November at about 14:40 UTC: no tool, note or wake-prompt step of this desk reads them. Before the rule, at 13:45 UTC, this desk read three luma.com event pages by script for the side-event leads in `desks/journalist-vicky/leads/2026-11-11-ai.md`; the scratchpad copies were deleted, and the leads are left as they are for the curator to weigh (they cite those pages).
