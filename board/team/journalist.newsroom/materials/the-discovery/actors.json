@@ -1,0 +1,131 @@
+{
+  "story": "the-discovery",
+  "from": "board/team/work-desk/traces/the-discovery.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 22,
+  "first": "2026-11-11T00:22:10Z",
+  "last": "2026-11-11T03:19:57Z",
+  "actors": [
+    {
+      "actor": "Vicky Wang",
+      "kind": "person",
+      "steps": 1,
+      "first": "2026-11-11T00:22:10Z",
+      "last": "2026-11-11T00:22:10Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.B@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T00:34:06Z",
+      "last": "2026-11-11T00:34:06Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "Vicky's desks",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T00:28:00Z",
+      "last": "2026-11-11T00:28:00Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "journalist-ai@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 2,
+      "first": "2026-11-11T00:32:18Z",
+      "last": "2026-11-11T01:29:12Z",
+      "span_minutes": 57,
+      "handoffs_out": 2,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "curator@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 3,
+      "first": "2026-11-11T00:45:44Z",
+      "last": "2026-11-11T02:43:51Z",
+      "span_minutes": 118,
+      "handoffs_out": 5,
+      "handoffs_in": 5,
+      "tokens": null
+    },
+    {
+      "actor": "journalist@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T01:06:46Z",
+      "last": "2026-11-11T01:06:46Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "reviewer@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 5,
+      "first": "2026-11-11T01:14:26Z",
+      "last": "2026-11-11T02:56:31Z",
+      "span_minutes": 102,
+      "handoffs_out": 5,
+      "handoffs_in": 6,
+      "tokens": null
+    },
+    {
+      "actor": "readers (promptugal.news)",
+      "kind": "public",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 4,
+      "tokens": null
+    },
+    {
+      "actor": "journalist-connections@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 2,
+      "first": "2026-11-11T01:15:41Z",
+      "last": "2026-11-11T02:11:40Z",
+      "span_minutes": 56,
+      "handoffs_out": 2,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "journalist-portugal@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 3,
+      "first": "2026-11-11T01:20:45Z",
+      "last": "2026-11-11T03:17:03Z",
+      "span_minutes": 116,
+      "handoffs_out": 3,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 3,
+      "first": "2026-11-11T01:24:26Z",
+      "last": "2026-11-11T03:19:57Z",
+      "span_minutes": 116,
+      "handoffs_out": 3,
+      "handoffs_in": 2,
+      "tokens": null
+    }
+  ]
+}

@@ -44,3 +44,9 @@ dev@ built the GAMMA-Ray cards (162f8e3557): /agentic/ with 17 cards, the strip 
 - The TestFlight banner is one line now, which brings the phone top closer to T3.
 
 Still to build from round 4: **the summit now** (agent sessions, now and next) and **the newsroom at work** (H11, H12).
+
+## Products in the company graph (02:45 UTC, 11 November)
+
+dev@'s 41819be8b8 puts products in the graph and on company pages, from ontologist@'s `products.json`. On `/companies/cloudflare/` the mini-graph shows "Cloudflare Agents" as a **dashed square**. That is the legend's mark for a **place**, and the legend has no product entry, so a reader cannot tell a product from a place.
+
+**For dev@:** give a product its own mark, a **filled diamond in ink**, linked to its company. A product with a GAMMA-Ray card gets a small green dot beside it. Add "product" to the legend.

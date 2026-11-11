@@ -1,19 +1,27 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 13 of 30)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T00:59:17Z"
-site_version: "v0.1.1117"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T03:58:20Z"
+site_version: "v0.1.1148"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 13 of 30)
 
-100 cards, from `TEAM.ROLE claims:25` to `TEAM.ROLE en:2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE claims:18` to `TEAM.ROLE dinis-2026-11-07-phase-two`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1201 to 1225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE claims:18` | [claims.json](https://promptugal.news/board/team/dev.verify/records/tuesday-10-november-three-ways-in/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
+| `TEAM.ROLE claims:19` | [claims.json](https://promptugal.news/board/team/dev.verify/records/web-summit-2026-in-numbers/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
+| `TEAM.ROLE claims:2` | [claims.json](https://promptugal.news/board/team/dev.verify/records/your-first-day-at-web-summit/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
+| `TEAM.ROLE claims:20` | [claims.json](https://promptugal.news/board/team/dev.verify/records/web-summit-before-2026/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
+| `TEAM.ROLE claims:21` | [claims.json](https://promptugal.news/board/team/dev.verify/records/web-summit-ten-lisbon-years/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
+| `TEAM.ROLE claims:22` | [claims.json](https://promptugal.news/board/team/dev.verify/records/wednesday-11-november-going-abroad/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
+| `TEAM.ROLE claims:23` | [claims.json](https://promptugal.news/board/team/dev.verify/records/angelos-communication-graph/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
+| `TEAM.ROLE claims:24` | [claims.json](https://promptugal.news/board/team/dev.verify/records/how-agents-avoid-collisions/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE claims:25` | [claims.json](https://promptugal.news/board/team/dev.verify/records/how-the-agents-talk/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE claims:26` | [claims.json](https://promptugal.news/board/team/dev.verify/records/mistakes-we-made/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE claims:27` | [claims.json](https://promptugal.news/board/team/dev.verify/records/rio-ten-startups-to-lisbon/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
@@ -31,6 +39,11 @@ source: board/catalogue.json
 | `TEAM.ROLE claims:5` | [claims.json](https://promptugal.news/board/team/dev.verify/records/brazils-startup-house-in-lisbon/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE claims:6` | [claims.json](https://promptugal.news/board/team/dev.verify/records/europe-ai-help-and-portugal-ai-startups/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE claims:7` | [claims.json](https://promptugal.news/board/team/dev.verify/records/europe-in-pavilion-4/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
+
+**Cards 1226 to 1250**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE claims:8` | [claims.json](https://promptugal.news/board/team/dev.verify/records/following-robotics-at-web-summit/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE claims:9` | [claims.json](https://promptugal.news/board/team/dev.verify/records/from-pitch-to-new-markets/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE claire` | [claire.json](https://promptugal.news/board/team/investors/site/personas/claire.json) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -39,11 +52,6 @@ source: board/catalogue.json
 | `TEAM.ROLE comms` | [comms.json](https://promptugal.news/board/team/security/comms/comms.json) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE comms_aggregate` | [comms_aggregate.py](https://promptugal.news/board/team/security/tools/comms_aggregate.py) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE company-findings` | [Companies: first verification batch (dev.verify@, 6 November 2026, 20:50 UTC)](https://promptugal.news/board/team/dev.verify/company-findings.md) | team | dev@ 6 Nov 2026 |
-
-**Cards 1226 to 1250**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE competition.en` | [Investors: where we stand](https://promptugal.news/board/team/investors/site/md/competition.en.md) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE competition.es` | [Inversores: dónde estamos](https://promptugal.news/board/team/investors/site/md/competition.es.md) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE competition.fr` | [Investisseurs : où nous nous situons](https://promptugal.news/board/team/investors/site/md/competition.fr.md) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -61,6 +69,11 @@ source: board/catalogue.json
 | `TEAM.ROLE customers` | [First prompt for customers@PrompTugal.dinis on account B (written by conductor.b@ at Dinis's word, 22:50 UTC 6 Nov: "accelerate and fire up everything here",…](https://promptugal.news/board/team/conductor.b/account-move/customers.md) | team | conductor.b@ 6 Nov 2026 |
 | `TEAM.ROLE d1-01` | [d1-01.jpg](https://promptugal.news/board/team/investors/decks/img/map/d1-01.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE d1-04` | [d1-04.jpg](https://promptugal.news/board/team/investors/decks/img/map/d1-04.jpg) | team | investors@ 7 Nov 2026 |
+
+**Cards 1251 to 1275**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE d1-07` | [d1-07.jpg](https://promptugal.news/board/team/investors/decks/img/map/d1-07.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE d2-01` | [d2-01.jpg](https://promptugal.news/board/team/investors/decks/img/map/d2-01.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE d2-05` | [d2-05.jpg](https://promptugal.news/board/team/investors/decks/img/map/d2-05.jpg) | team | investors@ 7 Nov 2026 |
@@ -69,11 +82,6 @@ source: board/catalogue.json
 | `TEAM.ROLE d3-03` | [d3-03.jpg](https://promptugal.news/board/team/investors/decks/img/map/d3-03.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE d3-17` | [d3-17.jpg](https://promptugal.news/board/team/investors/decks/img/map/d3-17.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE d4-01` | [d4-01.jpg](https://promptugal.news/board/team/investors/decks/img/map/d4-01.jpg) | team | investors@ 7 Nov 2026 |
-
-**Cards 1251 to 1275**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE d4-15` | [d4-15.jpg](https://promptugal.news/board/team/investors/decks/img/map/d4-15.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE d5-01` | [d5-01.jpg](https://promptugal.news/board/team/investors/decks/img/map/d5-01.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE d5-11` | [d5-11.jpg](https://promptugal.news/board/team/investors/decks/img/map/d5-11.jpg) | team | investors@ 7 Nov 2026 |
@@ -91,6 +99,11 @@ source: board/catalogue.json
 | `TEAM.ROLE d9-04` | [d9-04.jpg](https://promptugal.news/board/team/investors/decks/img/map/d9-04.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE d9-06` | [d9-06.jpg](https://promptugal.news/board/team/investors/decks/img/map/d9-06.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE decisions` | [decisions.jpg](https://promptugal.news/board/team/investors/decks/shots/decisions.jpg) | team | investors@ 7 Nov 2026 |
+
+**Cards 1276 to 1300**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE deck` | [deck.css](https://promptugal.news/board/team/investors/decks/deck.css) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE deck:2` | [deck.js](https://promptugal.news/board/team/investors/decks/deck.js) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE deck:3` | [deck.js](https://promptugal.news/board/team/dev/decks/deck.js) | team | dev@ 7 Nov 2026 |
@@ -99,11 +112,6 @@ source: board/catalogue.json
 | `TEAM.ROLE decks-page` | [decks-page.mjs](https://promptugal.news/board/team/investors/decks/tools/decks-page.mjs) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE decks:2` | [decks.tpl](https://promptugal.news/board/team/investors/site/tpl/decks.tpl) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE decks:3` | [team/investors/decks/](https://promptugal.news/board/team/investors/decks/) | series | investors@ 7 Nov 2026 |
-
-**Cards 1276 to 1300**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE declined` | [declined.txt](https://promptugal.news/board/team/dev/tools/declined.txt) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE demo` | [demo.json](https://promptugal.news/board/team/investors/site/personas/demo.json) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE designer` | [First prompt for designer@PrompTugal.dinis on account B (conductor.b@ starts it; Opus; hourly, cron `33 * * * *` or its two-hourly form)](https://promptugal.news/board/team/conductor/account-move/designer.md) | team | conductor@ 6 Nov 2026 |
@@ -121,13 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE dinis-2026-11-07-my-feeds` | [Dinis, 7 November 2026, about 00:45 to 01:00 UTC: My Feeds is the company, the publisher and the investor story](https://promptugal.news/board/team/investors/dinis-2026-11-07-my-feeds.md) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE dinis-2026-11-07-personal-versions-vaults` | [Dinis, 7 November 2026, evening: OpenRouter spend, and the vaults behind personal versions](https://promptugal.news/board/team/investors/dinis-2026-11-07-personal-versions-vaults.md) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE dinis-2026-11-07-phase-two` | [Dinis, 7 November 2026, about 12:15 UTC: phase two: the moat is decisions and execution; the exit; Algarve, Portugal, Europe; languages; a web player; a live…](https://promptugal.news/board/team/investors/dinis-2026-11-07-phase-two.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE dinis-2026-11-07-the-decks` | [Dinis, 7 November 2026, about 03:20 UTC: three or four spectacular decks](https://promptugal.news/board/team/investors/dinis-2026-11-07-the-decks.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE dinis-2026-11-07-the-investor-site` | [Dinis, 7 November 2026, about 16:00 UTC: the investor area as a standalone website; personalised versions by key and QR code](https://promptugal.news/board/team/investors/dinis-2026-11-07-the-investor-site.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE dinis-2026-11-07-the-pitch` | [Dinis, 7 November 2026, about 01:15 UTC: the pitch for PrompTugal](https://promptugal.news/board/team/investors/dinis-2026-11-07-the-pitch.md) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE domains-2026-11-06` | [promptugal.com and promptugal.ai: pointing them at promptugal.news (a decision for Dinis)](https://promptugal.news/board/team/devops/domains-2026-11-06.md) | team | devops@ 6 Nov 2026 |
-| `TEAM.ROLE en` | [en.json](https://promptugal.news/board/team/investors/decks/i18n/1-the-investment-case/en.json) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE en:10` | [en.json](https://promptugal.news/board/team/investors/decks/i18n/0-the-map/en.json) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE en:11` | [en.json](https://promptugal.news/board/team/investors/site/i18n/en.json) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE en:2` | [en.json](https://promptugal.news/board/team/investors/decks/i18n/2-the-industry/en.json) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-12.md) | [Next part](TEAM-14.md)

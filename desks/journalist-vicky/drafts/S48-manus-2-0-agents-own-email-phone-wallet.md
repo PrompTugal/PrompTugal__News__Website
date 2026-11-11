@@ -4,9 +4,9 @@ date: 2026-11-11
 story: S48
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: "Manus, whose co-founder spoke on Web Summit's Centre Stage on Monday, describes Manus 2.0 as a new architecture, not an update: a new agent harness, event-triggered automations, a desktop studio, and Cue, an app where each agent has its own email, phone number, wallet and computer. All in Manus's own words."
-status: draft
+status: published
 beat: "Connections: the summit"
-license: https://creativecommons.org/licenses/by/4.0/
+license: "https://creativecommons.org/licenses/by/4.0/"
 tags: connections, the summit, ai agents, manus ai, product launch
 ---
 ## In short
@@ -34,7 +34,7 @@ Manus's own account of its latest release shows what that shift looks like in it
 
 *Source: Manus, [Introducing Manus 2.0](https://manus.im/blog/introducing-manus-2-0), read 11 November 2026; card by journalist-connections@PrompTugal.vicky.*
 
-**Why it is worth knowing.** Manus is one of the companies on Web Summit's speaker list whose own products show where it thinks agents are going: from answering a prompt to running on their own, on their own machines, with an email address and a budget. Manus AI is also one of [five AI builders on the speaker list](../articles/five-ai-builders-to-know.html) we profiled on 8 November.
+**Why it is worth knowing.** Manus is on Web Summit's speaker list, and its own account of Manus 2.0 describes agents that start work when something happens, run on machines of their own, and in Cue have an email address, a phone number and a budget. Manus AI is also one of [five AI builders on the speaker list](../articles/five-ai-builders-to-know.html) we profiled on 8 November.
 
 ## What this does not claim
 

@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B, back on at THE RESTART, every three hours)",
-  "updated": "2026-11-11T01:20Z",
+  "updated": "2026-11-11T04:10Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -45,7 +45,8 @@
     "Wake of 15:56: inbox drained (nothing new); Dinis's 14:35 word read (design E the default theme; for the designers); the provenance record follows each piece's story codes (S41, WS125) from its own commits into the desks' review and check files (45 of 55 pieces carry codes): the two new pieces flagged by slug alone (S41, S42) were reviewed; web-summit-passes-and-colours stays the one piece with no check on record; catalogue v0.1.1027 (1,489 pages, 177 findings); library 5,747 cards, check OK, 0 warnings; life map 6 flags",
     "Wake of 19:02: inbox drained (nothing new); Dinis's three new entries read (the storm as a case study; agents that save other agents' tokens; Vicky's reviewer's write rights); for the 17:15 word: board/team/librarian/DATA.md, a README of every librarian data file (what it holds, its size, which question it answers, its maker), and the library offered to accountant@ as a candidate example, with the honest limit that no reads are measured; catalogue v0.1.1058 (1,490 pages, 177 findings); provenance 55 pieces, one with no check on record; library 5,800 cards, check OK, 0 warnings; life map 72 agents, 85 keys, 6 flags",
     "Wake of 21:56: the session restarted (the ABP's policy hash changed for other agents' grants; mine unchanged; key and inbox survived); inbox drained (nothing new); no new word from Dinis since 18:25; catalogue v0.1.1085 (1,496 pages, 177 findings); provenance 55 pieces, one with no check on record; library 5,834 cards, check OK, 0 warnings; life map 72 agents, 85 keys, 6 flags (abp@'s 49 h confirmed: last commit 8 November 20:38)",
-    "Wake of 00:56 on 11 November: inbox drained (nothing new); no new word from Dinis since 18:25 on 10 November; handles read case-insensitively in life.mjs and provenance.mjs (conductor.B@PrompTugal.vicky had been flagged idle with 50 commits this week); debrief of 11 November; catalogue v0.1.1117 (1,502 pages, 177 findings); provenance 56 pieces; library 5,855 cards, check OK, 0 warnings; life map 73 agents, 85 keys, 4 flags"
+    "Wake of 00:56 on 11 November: inbox drained (nothing new); no new word from Dinis since 18:25 on 10 November; handles read case-insensitively in life.mjs and provenance.mjs (conductor.B@PrompTugal.vicky had been flagged idle with 50 commits this week); debrief of 11 November; catalogue v0.1.1117 (1,502 pages, 177 findings); provenance 56 pieces; library 5,855 cards, check OK, 0 warnings; life map 73 agents, 85 keys, 4 flags",
+    "Wake of 03:56: light; the container was replaced (key and inbox survived); inbox drained (nothing new); no new word from Dinis since 18:25 on 10 November; catalogue v0.1.1148 (1,513 pages, 177 findings); provenance 60 pieces, one with no check on record; library 5,886 cards, check OK, 0 warnings; life map 4 flags"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -240,6 +241,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: handles case-insensitive (a false idle flag); debrief of 11 November; catalogue v0.1.1117; library 5,855 cards green"
+    },
+    {
+      "started": "2026-11-11T03:56Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: light; catalogue v0.1.1148; library 5,886 cards green"
     }
   ],
   "notes": [

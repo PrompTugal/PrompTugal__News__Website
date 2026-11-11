@@ -5,11 +5,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T00:45Z",
+  "updated": "2026-11-11T03:40Z",
   "covers": {
     "from": "2026-11-10T23:01:41Z",
-    "to": "2026-11-11T00:17:00Z",
-    "last_commit": "8e9f20ecc"
+    "to": "2026-11-11T01:48:47Z",
+    "last_commit": "72e749b60"
   },
   "method": "commit subjects and trailers on dev; times are commit times (UTC). Vicky's own steps are dated by the conductor's commit that records them.",
   "steps": [
@@ -287,6 +287,82 @@
         "commit:8e9f20ecc"
       ],
       "hand_off": "person->agent"
+    },
+    {
+      "n": 14,
+      "time_utc": "2026-11-11T00:51:26Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's approval (step 13)",
+      "output": "each card on the articles page labelled with its first main category",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:7ed4b8ec7"
+      ]
+    },
+    {
+      "n": 15,
+      "time_utc": "2026-11-11T00:56:10Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "v0.1.1117",
+      "output": "the labels verified live",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:5e042feb5"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 16,
+      "time_utc": "2026-11-11T01:40:08Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S46 (Zalando)",
+      "output": "a categories.json line (AI, Corporate), then withdrawn a minute later: the gate needs the article file to exist; the line ships with the article",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:a839f4f2d",
+        "commit:f600df4ef"
+      ],
+      "hand_off": "agent->agent (the gate teaches the order of hand-offs)"
+    },
+    {
+      "n": 17,
+      "time_utc": "2026-11-11T01:48:47Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S46 live",
+      "output": "the first new article through the category workflow, verified",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:72e749b60",
+        "commit:9e7d561ed"
+      ],
+      "hand_off": "agent->person"
     }
   ],
   "hand_offs_person_agent": [
@@ -295,7 +371,9 @@
     6,
     7,
     12,
-    13
+    13,
+    15,
+    17
   ],
   "speeds": [
     {
@@ -318,9 +396,7 @@
     }
   ],
   "pattern": "a person decides twice (overrules at step 4, approves at step 7); a conductor broadcasts once and collects seven acknowledgements; one data file (categories.json) is the hand-off to the developer. No architect: the curator's JSON plays the plan's part.",
-  "next_workflow_seen": {
-    "what": "a temporary discovery workflow (journalists' leads; the curator reads leads and social.watch@), approved by Vicky",
-    "from": "commit:9d47616e7 (00:22)",
-    "status": "rolling out at 00:28; to trace at the next wake"
-  }
+  "related_traces": [
+    "the-discovery.json"
+  ]
 }

@@ -1,0 +1,37 @@
+sequenceDiagram
+  title the-discovery: who handed what to whom
+  participant A0 as Vicky Wang
+  participant A1 as conductor.B@PrompTugal.vicky
+  participant A2 as Vicky's desks
+  participant A3 as journalist-ai@PrompTugal.vicky
+  participant A4 as curator@PrompTugal.vicky
+  participant A5 as journalist@PrompTugal.vicky
+  participant A6 as reviewer@PrompTugal.vicky
+  participant A7 as readers (promptugal.news)
+  participant A8 as journalist-connections@PrompTugal.vicky
+  participant A9 as journalist-portugal@PrompTugal.vicky
+  participant A10 as journalist-europe@PrompTugal.vicky
+  A0->>A1: 00:22 approves a temporary discovery workflow: the beat journalists log leads, the ...
+  A2->>A1: 00:28 saved in the standing notes of journalist-connections@ (00:24), the curator ...
+  A3->>A4: 00:32 two leads: Zalando's agentic engineering, Parloa's Day 2 keynote listing
+  A1->>A0: 00:34 all six acknowledged, first lead logged
+  A4->>A3: 00:45 S46 (Zalando) and S47 (Web Summit's final figures) commissioned
+  A4->>A5: 00:45 S46 (Zalando) and S47 (Web Summit's final figures) commissioned
+  A5->>A6: 01:06 drafted (an update note)
+  A6->>A7: 01:14 published under R-PUB-1
+  A8->>A4: 01:15 lead: Manus 2.0
+  A9->>A4: 01:20 two leads: Konecta's Lisbon centre, the Site Selectors Guild's 2027 conference
+  A10->>A4: 01:24 two leads: the EU's Day 2 sessions, EN 18286
+  A3->>A6: 01:29 drafted: how Zalando rolled out AI coding agents
+  A4->>A8: 01:44 S48 (Manus 2.0), S49 (EU sessions update), S50 (EN 18286) commissioned
+  A4->>A10: 01:44 S48 (Manus 2.0), S49 (EU sessions update), S50 (EN 18286) commissioned
+  A6->>A7: 01:45 published under R-PUB-1
+  A8->>A6: 02:11 drafted
+  A9->>A4: 02:16 Konecta's own press release found
+  A10->>A6: 02:21 drafted
+  A4->>A9: 02:43 S52 (Konecta) commissioned (with S51, the storm's transport guide)
+  A6->>A7: 02:44 published under R-PUB-1
+  A6->>A10: 02:50 S48 Ready (held for its category), S50 'Fix first': three AI Act dates not on ...
+  A6->>A7: 02:56 published under R-PUB-1
+  A9->>A6: 03:17 drafted: Konecta picks Lisbon (395 words, cover card)
+  A10->>A6: 03:19 S50 revised: the three dates quoted from the cited page for the reviewer

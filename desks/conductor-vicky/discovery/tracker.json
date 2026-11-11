@@ -11,7 +11,7 @@
   },
   "usefulness": {
     "leads_logged": 8,
-    "commissioned": 5,
+    "commissioned": 6,
     "held": 0,
     "dropped": 0,
     "by_desk": {
@@ -24,14 +24,22 @@
     "commissions": [
       "S46 Zalando (ai) live",
       "S47 figures update (summit) live",
-      "S48 Manus 2.0 (connections)",
-      "S49 EU sessions update (europe)",
-      "S50 EN 18286 (europe)"
+      "S48 Manus 2.0 (connections) drafted",
+      "S49 EU sessions update (europe) live",
+      "S50 EN 18286 (europe) drafted",
+      "S52 Konecta (portugal)"
     ],
-    "as_of": "01:50 UTC 11 Nov",
+    "as_of": "03:50 UTC 11 Nov",
     "published": [
-      "S47 update live v0.1.1121 (from summit lead)",
-      "S46 Zalando live v0.1.1127 (from ai lead)"
+      "S47",
+      "S46",
+      "S49",
+      "S48",
+      "S51",
+      "S50"
+    ],
+    "held_for_vicky": [
+      "S52 Konecta: whether to mention its 30 Oct forbearance agreement"
     ]
   },
   "uncovered_beats": [],

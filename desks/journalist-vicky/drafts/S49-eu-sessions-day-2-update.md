@@ -4,7 +4,7 @@ date: 2026-11-11
 story: S49
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the published 'Europe in Pavilion 4: the Commission's week at Web Summit' (content/articles/europe-in-pavilion-4.md): four EU sessions were listed for Wednesday 11 November, the day Web Summit has called off."
-status: draft
+status: published
 beat: Europe
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: Europe, European Commission, the summit, update, Day 2
@@ -15,7 +15,7 @@ updates: europe-in-pavilion-4
 
 ---
 
-> **Update, 11 November 2026, 02:25 UTC.** Web Summit [has said](https://websummit.com/blog/web-summit/important-event-update-2026/) that Day 2, Wednesday 11 November, will not take place, on the Portuguese government's advice. Four EU sessions in this article were on that day: EUIPO's panel on IP-backed finance (12:10), DG CONNECT's "Building AI in Europe" masterclass (14:30), HaDEA's EU funding workshop (15:30) and EuroHPC's masterclass on free supercomputing (16:00). The [Commission's agenda](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026), last updated on 3 November, still lists them, and does not say whether they move to Thursday. We do not know yet. Thursday's EUIPO and INPI meetup (13:00) is still listed. Web Summit says it aims to hold Day 3 as planned.
+> **Update, 11 November 2026, 02:42 UTC.** Web Summit [has said](https://websummit.com/blog/web-summit/important-event-update-2026/) that Day 2, Wednesday 11 November, will not take place, on the Portuguese government's advice. Four EU sessions in this article were on that day: EUIPO's panel on IP-backed finance (12:10), DG CONNECT's "Building AI in Europe" masterclass (14:30), HaDEA's EU funding workshop (15:30) and EuroHPC's masterclass on free supercomputing (16:00). The [Commission's agenda](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026), last updated on 3 November, still lists them, and does not say whether they move to Thursday. We do not know yet. Thursday's EUIPO and INPI meetup (13:00) is still listed. Web Summit says it aims to hold Day 3 as planned.
 
 ---
 

@@ -5,7 +5,7 @@
   "title": "The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers",
   "beat": "Europe",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:x-eu-en-18286"
   ],
@@ -16,7 +16,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-11-0200.json",
-      "desks/journalist-vicky/drafts/S50-ai-act-first-harmonised-standard.md"
+      "desks/journalist-vicky/drafts/S50-ai-act-first-harmonised-standard.md",
+      "desks/reviewer-vicky/reviews/S50.md",
+      "content/articles/ai-act-first-harmonised-standard.md"
     ]
   },
   "assignee": "journalist-europe@PrompTugal.vicky",
@@ -24,10 +26,27 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S50-ai-act-first-harmonised-standard.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S50.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/ai-act-first-harmonised-standard.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S50.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-11",
@@ -39,6 +58,12 @@
       "at": "2026-11-11",
       "by": "journalist-europe@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S50-ai-act-first-harmonised-standard.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "content/articles/ai-act-first-harmonised-standard.md"
     }
   ]
 }

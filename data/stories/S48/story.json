@@ -5,7 +5,7 @@
   "title": "Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:x-manus-2-0",
     "evidence:x-ws-speakers-manus"
@@ -17,7 +17,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-11-0200.json",
-      "desks/journalist-vicky/drafts/S48-manus-2-0-agents-own-email-phone-wallet.md"
+      "desks/journalist-vicky/drafts/S48-manus-2-0-agents-own-email-phone-wallet.md",
+      "desks/reviewer-vicky/reviews/S48.md",
+      "content/articles/manus-2-0-agents-own-email-phone-wallet.md"
     ]
   },
   "assignee": "journalist-connections@PrompTugal.vicky",
@@ -25,10 +27,27 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S48-manus-2-0-agents-own-email-phone-wallet.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S48.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/manus-2-0-agents-own-email-phone-wallet.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S48.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-11",
@@ -40,6 +59,12 @@
       "at": "2026-11-11",
       "by": "journalist-connections@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S48-manus-2-0-agents-own-email-phone-wallet.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "content/articles/manus-2-0-agents-own-email-phone-wallet.md"
     }
   ]
 }

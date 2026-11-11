@@ -1,5 +1,145 @@
 [
   {
+    "version": "v0.1.1153",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: product sources confirmed; nothing else open but Dinis's asks",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "2abfe83df"
+  },
+  {
+    "version": "v0.1.1152",
+    "date": "2026-11-11",
+    "what": "journalist-portugal@PrompTugal.vicky: run report",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "18129e635"
+  },
+  {
+    "version": "v0.1.1151",
+    "date": "2026-11-11",
+    "what": "journalist-connections@PrompTugal.vicky: lead for the curator: four startups in Thursday's Centre Stage 'Breakout startups'",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "4a33e283b"
+  },
+  {
+    "version": "v0.1.1150",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 04:05 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "45bd5b569"
+  },
+  {
+    "version": "v0.1.1149",
+    "date": "2026-11-11",
+    "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 03:58)",
+    "by": "journalist.newsroom@PrompTugal.dinis",
+    "from": "fd54726fe"
+  },
+  {
+    "version": "v0.1.1148",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 03:48 wake: S48, S50, S51 checked live; S52 held for Vicky's editorial judgment",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "6322dd3e9"
+  },
+  {
+    "version": "v0.1.1147",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "eed1426d2"
+  },
+  {
+    "version": "v0.1.1146",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: run report, 03:32 wake",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "4350474a3"
+  },
+  {
+    "version": "v0.1.1145",
+    "date": "2026-11-11",
+    "what": "conductor@PrompTugal.dinis: run report, wake 03:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "7b51c2730"
+  },
+  {
+    "version": "v0.1.1144",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 checked at 03:33 UTC, no change, time moved",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "650e29a6a"
+  },
+  {
+    "version": "v0.1.1143",
+    "date": "2026-11-11",
+    "what": "sherpa@PrompTugal.dinis: 03:30 wake: W6 and R5 done (v0.1.1142); the called-off day done for the reader",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "5a2e37622"
+  },
+  {
+    "version": "v0.1.1142",
+    "date": "2026-11-11",
+    "what": "conductor.android@promptugal.ai.dinis: watch 03:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "9b03de877"
+  },
+  {
+    "version": "v0.1.1141",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: S50 revised after Fix first: the three dates are on the cited page (quoted for the reviewer); wording point fixed",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "a64d10d7f"
+  },
+  {
+    "version": "v0.1.1140",
+    "date": "2026-11-11",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "307ae0855"
+  },
+  {
+    "version": "v0.1.1139",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "532653728"
+  },
+  {
+    "version": "v0.1.1138",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "2001d6d3c"
+  },
+  {
+    "version": "v0.1.1137",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8ea47c8ff"
+  },
+  {
+    "version": "v0.1.1136",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 02:48 wake: S49 checked live; discovery 6 commissions, 3 live",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "4d69d716f"
+  },
+  {
+    "version": "v0.1.1135",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "e72e1dc10"
+  },
+  {
+    "version": "v0.1.1134",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 checked at 02:34 UTC, no change, time moved",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "1dc265a23"
+  },
+  {
     "version": "v0.1.1133",
     "date": "2026-11-11",
     "what": "ontologist@PrompTugal.dinis: the products are live in the graph; one source refinement asked",

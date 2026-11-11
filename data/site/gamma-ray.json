@@ -1,8 +1,8 @@
 {
  "about": "GAMMA-Ray Spectrum cards as gamma-ray.sgit.ai publishes them (beta; every rating experimental), read by newsroom/tools/gamma-pull.mjs. Levels: A autonomy, R reach, C control, O openness, 1 to 4, 0 where not yet evidenced. The source of every card is its page on gamma-ray.sgit.ai.",
  "source": "https://gamma-ray.sgit.ai/spectrum/",
- "version": "0.0.142",
- "read_at": "2026-11-11T01:20Z",
+ "version": "0.0.155",
+ "read_at": "2026-11-11T04:12Z",
  "cards": [
   {
    "id": "riskmandate-publisher",
@@ -23,7 +23,7 @@
    "lit": "72 in 8 instruments",
    "next": "Openness 2",
    "read": "2026-11-10",
-   "review": "round-1",
+   "review": "round-2",
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/riskmandate-publisher/"
   },
@@ -256,6 +256,29 @@
    "review": "approved",
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/github-copilot-cloud-agent/"
+  },
+  {
+   "id": "ethiack-hackian",
+   "name": "Hackian",
+   "company": "ethiack",
+   "ours": false,
+   "what": "AI agent that runs reconnaissance, exploits vulnerabilities with non-destructive routines and reports findings with proof of exploitation; used in Continuous Adversarial Exposure Validation and in Agentic Pentests (Swift, Depth).",
+   "levels": {
+    "A": 0,
+    "R": 2,
+    "C": 1,
+    "O": 1
+   },
+   "stage": "Exploring",
+   "n": 4,
+   "of": 16,
+   "modes": "In production",
+   "lit": "42 in 8 instruments",
+   "next": "Autonomy 3",
+   "read": "2026-11-10",
+   "review": "approved",
+   "vendor_reviewed": false,
+   "card": "https://gamma-ray.sgit.ai/spectrum/cards/ethiack-hackian/"
   },
   {
    "id": "junie",

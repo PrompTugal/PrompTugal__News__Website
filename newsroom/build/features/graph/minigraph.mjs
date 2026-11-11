@@ -7,8 +7,8 @@
 //     g: the whole graph (ctx.graph()); href(ref) -> a relative link or null; verbs: Map verb -> ontology entry
 
 const W = 640, ROW = 80, TOP = 34
-export const KIND = { company: 'co', person: 'person', event: 'session', topic: 'topic', place: 'place', article: 'article', organisation: 'org', track: 'track', day: 'day', story: 'story', evidence: 'evidence' }
-export const KIND_LABEL = { co: 'company', person: 'person', session: 'session', topic: 'field or theme', place: 'place', article: 'article', org: 'organisation', track: 'summit track', day: 'day', story: 'story candidate', evidence: 'capture' }
+export const KIND = { company: 'co', person: 'person', event: 'session', topic: 'topic', place: 'place', article: 'article', organisation: 'org', track: 'track', day: 'day', story: 'story', evidence: 'evidence', product: 'product' }
+export const KIND_LABEL = { co: 'company', person: 'person', session: 'session', topic: 'field or theme', place: 'place', article: 'article', org: 'organisation', track: 'summit track', day: 'day', story: 'story candidate', evidence: 'capture', product: 'product' }
 const ROUND = new Set(['co', 'person', 'org'])
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const cut = (s, n) => (s = String(s)).length > n ? s.slice(0, Math.max(1, n - 1)).trimEnd() + '…' : s
@@ -121,7 +121,8 @@ export function miniGraph(g, ref, { href = () => null, verbs = new Map() } = {})
         const n = g.node.get(x.id), k = KIND[n.type] || 'place', p = pos.get(x.id), focus = x.id === ref
         kinds.add(k)
         const room = Math.floor((W / p.cols - 10) / (focus ? 8.6 : 7.4))
-        const shape = ROUND.has(k)
+        const d = focus ? 12 : 8   // a product as an ink diamond (designer@, 11 November)
+        const shape = k === 'product' ? `<polygon points="${p.x.toFixed(1)},${p.y - d} ${(p.x + d).toFixed(1)},${p.y} ${p.x.toFixed(1)},${p.y + d} ${(p.x - d).toFixed(1)},${p.y}"/>` : ROUND.has(k)
             ? `<circle cx="${p.x.toFixed(1)}" cy="${p.y}" r="${focus ? 13 : 8}"/>`
             : `<rect x="${(p.x - (focus ? 11 : 7)).toFixed(1)}" y="${p.y - (focus ? 11 : 7)}" width="${focus ? 22 : 14}" height="${focus ? 22 : 14}" rx="2"/>`
         const dy = focus ? 30 : 24

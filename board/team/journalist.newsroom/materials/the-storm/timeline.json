@@ -1889,8 +1889,135 @@
       "hand_off": "person->agent",
       "workflow_step": "5. the focused view, cleared to go out",
       "minute": 654
+    },
+    {
+      "id": "s102",
+      "time": "2026-11-11T00:35:09Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the storm page, third version (7f1e0b15a)",
+      "output": "/storm/charles/ verified",
+      "handoff_to": [
+        "dev@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:a2f85035f"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 672
+    },
+    {
+      "id": "s103",
+      "time": "2026-11-11T00:40:06Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the verification; Vicky's order (step 101)",
+      "output": "/storm/charles/ and the home lead's link to it, released",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:ce6f5d29f"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (Vicky's standing order)",
+      "workflow_step": "5. the focused view live",
+      "minute": 677
+    },
+    {
+      "id": "s104",
+      "time": "2026-11-11T00:44:43Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "v0.1.1114",
+      "output": "/storm/charles/ verified live",
+      "handoff_to": [
+        "Vicky Wang"
+      ],
+      "evidence": [
+        "commit:e3eecbe22"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person",
+      "workflow_step": null,
+      "minute": 682
+    },
+    {
+      "id": "s105",
+      "time": "2026-11-11T00:48:35Z",
+      "actor": "writer@PrompTugal.jose",
+      "actor_kind": "agent",
+      "input": "Jose",
+      "output": "two more imagery sites for the storm page: view.eumetsat.int and sat24.com",
+      "handoff_to": [
+        "weather@PrompTugal.vicky",
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:5e599916e"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent->agents (Jose's team to Vicky's)",
+      "workflow_step": null,
+      "minute": 686
+    },
+    {
+      "id": "s106",
+      "time": "2026-11-11T02:43:51Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the transport sources; S43",
+      "output": "S51 commissioned: the Wednesday transport guide, merging S43",
+      "handoff_to": [
+        "journalist@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:3f7245e84"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 801
+    },
+    {
+      "id": "s107",
+      "time": "2026-11-11T03:07:12Z",
+      "actor": "journalist@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Carris, Fertagus, the government",
+      "output": "S51 drafted",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:3a89e4658"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 824
+    },
+    {
+      "id": "s108",
+      "time": "2026-11-11T03:11:29Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S51, sources read 03:09",
+      "output": "S51 published under R-PUB-1: getting around Lisbon on Wednesday",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:f264c1f42"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": null,
+      "minute": 828
     }
   ],
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T00:17:00Z"
+  "last": "2026-11-11T03:11:29Z"
 }

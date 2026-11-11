@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-labelledby="t d">
+  <title id="t">Manus 2.0: agents with their own email, phone and wallet</title>
+  <desc id="d">Manus describes Cue, where each agent has its own email, phone number, wallet and computer. Source: Manus, read 11 November 2026.</desc>
+  <rect width="480" height="480" fill="#f7f4ee"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="36" y="96" font-size="48" font-weight="700" fill="#1a1a1a">Manus 2.0</text>
+    <rect x="36" y="140" width="408" height="200" rx="12" fill="#e8e2d6"/>
+    <text x="60" y="210" font-size="38" fill="#1a1a1a">In Cue, each agent:</text>
+    <text x="60" y="262" font-size="38" fill="#1a1a1a">email, phone,</text>
+    <text x="60" y="314" font-size="38" fill="#1a1a1a">wallet, computer</text>
+    <text x="36" y="430" font-size="30" fill="#555">Source: Manus</text>
+  </g>
+</svg>

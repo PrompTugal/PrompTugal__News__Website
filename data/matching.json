@@ -1831,7 +1831,7 @@
       {
         "as_listed": "Carris",
         "ref": "organisation:carris",
-        "count": 5
+        "count": 6
       },
       {
         "as_listed": "Dealroom",
@@ -1866,6 +1866,11 @@
       {
         "as_listed": "EuroHPC",
         "ref": "organisation:eurohpc",
+        "count": 1
+      },
+      {
+        "as_listed": "Fertagus",
+        "ref": "organisation:fertagus",
         "count": 1
       },
       {
@@ -1966,6 +1971,11 @@
       {
         "as_listed": "Keel",
         "ref": "organisation:keel",
+        "count": 1
+      },
+      {
+        "as_listed": "Konecta",
+        "ref": "organisation:konecta",
         "count": 1
       },
       {
