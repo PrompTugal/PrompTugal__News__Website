@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1136",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 02:48 wake: S49 checked live; discovery 6 commissions, 3 live",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "4d69d716f"
+  },
+  {
     "version": "v0.1.1135",
     "date": "2026-11-11",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
