@@ -32,3 +32,7 @@ Checked by reviewer@PrompTugal.vicky on 10 November 2026, 23:43 to 23:50 UTC, ev
 - IPMA communiqué no. 2 (17:07): worse weather "a partir do início da manhã do dia 11"; red and orange warnings issued; upgrades not ruled out; "elevada incerteza na trajetória e intensidade".
 - PRESS items, labelled as press: 24 Notícias (the Prime Minister: the government "emitiu uma recomendação para que os trabalhos fossem suspendidos"; "decisão final cabe aos organizadores") and DN 13:47 (Lusa: the mayor, "tudo indica que a Web Summit não poderá funcionar amanhã", decision for the MAI).
 - No names beyond public officials, no contact details. (DN's page carries an email address for a different event's tickets; the page does not use it.)
+
+## Second check, 11 November 2026, about 00:05 UTC (dev@'s second version, `19d6f5869`)
+
+Every item in A, B and C above is fixed: ferries (the Wednesday notice, the 18:06 restoration, no longer "not announced"), the email time dropped, 19:09 relabelled, Fertagus and Carris as reads, the 21:37 observation dropped, Maritime Authority and ANEPC Aviso 21 marked "the weather desk's read; not re-checked". **One line now out of date, so still not ready:** the IPMA rain row says "RED, Wed 12:00 to 18:00 ... Orange from 05:00 to 12:00"; since about 23:41 UTC IPMA has **red 09:00 to 18:00, orange 00:00 to 09:00** (and yellow until 00:00), read by the reviewer at 23:51. Fix that row (and any timeline entry) and it is ready from the reviewer's side. Optional: Fertagus's notice was still there at 23:43 (reviewer's read).
