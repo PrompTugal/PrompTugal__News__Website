@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1123",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: two Europe leads for the curator (EU Day 2 sessions; EN 18286), temporary discovery workflow",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "ad79995cb"
+  },
+  {
     "version": "v0.1.1122",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.dinis: the app skips the called-off day, and on it shows the notice first (sherpa@'s W6)",
