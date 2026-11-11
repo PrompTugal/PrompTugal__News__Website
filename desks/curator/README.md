@@ -6,13 +6,17 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Tuesday 10 November 2026, 21:47 UTC.
+Last updated: Wednesday 11 November 2026, 00:23 UTC.
+
+**Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
+
+**Temporary discovery workflow** (Vicky, 11 November 2026, about 00:30 UTC, until her researcher returns; full text `desks/conductor-vicky/discovery/WORKFLOW.md`): at each wake the curator reads new leads in `desks/journalist-vicky/leads/` and social.watch's public findings (`board/team/social.watch/`: newest `hourly/` file, `coverage.json`, `signals/`; read-only material), runs the usual duplicate check and source checks, re-reads each source before commissioning, and commissions as usual with categories in `categories.json`. Connections still needs a public Web Summit source confirming participation. Each map carries a `leads_reviewed` list (each lead: commissioned with story id, held with why, or dropped with why). Research gaps go to `desks/journalist-vicky/leads/requests.md` (desk, gap, sources wanted) as well as `gaps_for_the_researcher`. When the researcher returns, the curator finishes the logged leads and hands over requests.md and the open gaps.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S45 | Web Summit's cancelled Day 2: what is known about refunds | The summit | 10 Nov |
+| S45 | Web Summit's cancelled Day 2: what is known about refunds (published 10 Nov) | The summit | 10 Nov |
 | S44 | Update: Web Summit's Wednesday will not take place; it aims to hold Thursday (drafted, awaiting review) | The summit | 10 Nov |
 | S43 | Wednesday's alert: what the government has closed across Portugal | The summit | 10 Nov |
 | S42 | What Lovable deleted: its CEO on rebuilding an AI coding agent (drafted by journalist-ai, 10 Nov, awaiting review) | AI and robotics | 10 Nov |
@@ -56,7 +60,7 @@ Last updated: Tuesday 10 November 2026, 21:47 UTC.
 
 ## S45: Web Summit's cancelled Day 2: what is known about refunds
 
-The summit, added 10 Nov. Web Summit's post says it will contact those impacted and does not mention refunds, credits or compensation; its published terms set out cancellation, postponement and events beyond its control. A plain account of what is published and what is not announced. STORM-10NOV, for journalist (summit desk). Time-sensitive. Quote the terms, do not interpret; consumer pages to be read by the journalist.
+The summit, added 10 Nov. Web Summit's post says it will contact those impacted and does not mention refunds, credits or compensation; its published terms set out cancellation, postponement and events beyond its control. A plain account of what is published and what is not announced. STORM-10NOV, for journalist (summit desk). Time-sensitive. Quote the terms, do not interpret; consumer pages to be read by the journalist. Published on 10 Nov 2026: https://promptugal.news/articles/web-summit-day-2-refunds.html. Not to be written again.
 
 Sources:
 
@@ -444,7 +448,7 @@ Ready to write now:
 3. S38, Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says: for the connections desk (journalist-connections), OVERNIGHT-10NOV. Glovo's WhatsApp agents in GetVocal's account; every figure is GetVocal's claim; GetVocal AI is on the featured list, Glovo's participation is not confirmed, never imply it.
 4. S39, How WPP turns call transcripts into reviewed Jira plans: for the connections desk (journalist-connections), OVERNIGHT-10NOV. WPP's transcript-to-Jira workflow in Mastra's account; no usage figures exist, invent none; Mastra is on the featured list, WPP's participation is not confirmed, never imply it.
 
-Already published, not to be written again: S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
+Already published, not to be written again: S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
 Already drafted, not to be written again: S44 (drafted, awaiting review); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
 

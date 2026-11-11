@@ -1,0 +1,326 @@
+{
+  "$comment": "The work desk's trace of the categories rollout. JSON first. README: the-categories.md.",
+  "story": "the-categories",
+  "title": "Eight categories for every article: from an audit to the live dropdown in 66 minutes",
+  "made_by": "reporter.newsroom@PrompTugal.dinis",
+  "for": "journalist.newsroom@PrompTugal.dinis",
+  "issue": "WS-14",
+  "updated": "2026-11-11T00:45Z",
+  "covers": {
+    "from": "2026-11-10T23:01:41Z",
+    "to": "2026-11-11T00:17:00Z",
+    "last_commit": "8e9f20ecc"
+  },
+  "method": "commit subjects and trailers on dev; times are commit times (UTC). Vicky's own steps are dated by the conductor's commit that records them.",
+  "steps": [
+    {
+      "n": 1,
+      "time_utc": "2026-11-10T23:01:41Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "every article's tags",
+      "output": "a full audit (113 tags, 56 articles) and a 14-topic proposal for Vicky, not applied",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        },
+        {
+          "name": "curator@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:7e1a44244"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 2,
+      "time_utc": "2026-11-10T23:03:33Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the proposal",
+      "output": "corrections only",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:4ecd16783"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 3,
+      "time_utc": "2026-11-10T23:04:43Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "dev@'s build check",
+      "output": "folded into the proposal",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:a39ef9132"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 4,
+      "time_utc": "2026-11-10T23:14:22Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "the 14-topic proposal",
+      "output": "replaces it with broad categories of her own",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:df482a7f4"
+      ],
+      "hand_off": "person->agent (the person overrules the agents' proposal)"
+    },
+    {
+      "n": 5,
+      "time_utc": "2026-11-10T23:15:55Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's broad categories",
+      "output": "a categories proposal for the articles dropdown (classification only)",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:bed451ea1"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 6,
+      "time_utc": "2026-11-10T23:24:14Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "QA and Vicky's changes (Corporate, Startups & Scaleups)",
+      "output": "a consolidated recommendation",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:9a2046fa5",
+        "commit:39066259a"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 7,
+      "time_utc": "2026-11-10T23:31:35Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "the recommendation",
+      "output": "approves the 8 main categories",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3c30b6c36"
+      ],
+      "hand_off": "person->agent"
+    },
+    {
+      "n": 8,
+      "time_utc": "2026-11-10T23:33:34Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the approval",
+      "output": "categories.json: the 8 categories, every article, the secondary-tag map",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:46c0dc3bc"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 9,
+      "time_utc": "2026-11-10T23:34:51Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the approval",
+      "output": "rollout: every desk told, acknowledgements tracked",
+      "hand_off_to": [
+        {
+          "name": "Vicky's desks (weather, journalists, reviewer)",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:c12f585a3"
+      ],
+      "hand_off": "agent->agents (broadcast)"
+    },
+    {
+      "n": 10,
+      "time_utc": "2026-11-10T23:37:59Z",
+      "actor": {
+        "name": "Vicky's desks",
+        "kind": "agent"
+      },
+      "input": "the rollout",
+      "output": "the rules saved in each desk's standing notes: weather@ (23:34), journalist@ (23:35), journalist-ai@ (23:36), journalist-portugal@ (23:37), journalist-connections@ (23:37), journalist-europe@ (23:39), reviewer@ (23:47)",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:028d1f2a8",
+        "commit:6125a2244",
+        "commit:dd71208d1",
+        "commit:f10f04a72",
+        "commit:b65465eff",
+        "commit:15474ccd1",
+        "commit:c9894c557"
+      ],
+      "hand_off": "agents->agent (seven acknowledgements in 13 minutes)"
+    },
+    {
+      "n": 11,
+      "time_utc": "2026-11-11T00:02:21Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "categories.json",
+      "output": "the articles and lists filters show the eight categories; a gate check; bracket-safe tags",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:af1ca0ecd"
+      ],
+      "hand_off": "agent->agent (review)"
+    },
+    {
+      "n": 12,
+      "time_utc": "2026-11-11T00:06:48Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "v0.1.1107 live",
+      "output": "verified live: dropdown, counts, filter, URLs",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:c49051e6f"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 13,
+      "time_utc": "2026-11-11T00:17:00Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "the live filter",
+      "output": "approves the category labels on the articles page",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:8e9f20ecc"
+      ],
+      "hand_off": "person->agent"
+    }
+  ],
+  "hand_offs_person_agent": [
+    1,
+    4,
+    6,
+    7,
+    12,
+    13
+  ],
+  "speeds": [
+    {
+      "what": "audit to Vicky's approval",
+      "from_step": 1,
+      "to_step": 7,
+      "minutes": 30
+    },
+    {
+      "what": "approval to verified live",
+      "from_step": 7,
+      "to_step": 12,
+      "minutes": 35
+    },
+    {
+      "what": "audit to live",
+      "from_step": 1,
+      "to_step": 12,
+      "minutes": 65
+    }
+  ],
+  "pattern": "a person decides twice (overrules at step 4, approves at step 7); a conductor broadcasts once and collects seven acknowledgements; one data file (categories.json) is the hand-off to the developer. No architect: the curator's JSON plays the plan's part.",
+  "next_workflow_seen": {
+    "what": "a temporary discovery workflow (journalists' leads; the curator reads leads and social.watch@), approved by Vicky",
+    "from": "commit:9d47616e7 (00:22)",
+    "status": "rolling out at 00:28; to trace at the next wake"
+  }
+}

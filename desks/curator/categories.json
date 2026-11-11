@@ -1,0 +1,378 @@
+{
+  "version": 1,
+  "approved": "Vicky, 2026-11-10",
+  "note": "Owned by the curator (desks/curator/). Main categories for the articles dropdown; an article may carry several. Secondary: old tag (lower-case) to its secondary tag name, or null when the tag is a main category or dropped. New main categories only with Vicky's approval; routine mapping corrections are the curator's.",
+  "categories": [
+    {
+      "name": "Web Summit 2026",
+      "slug": "web-summit-2026",
+      "scope": "The summit itself this year: programme, speakers, announcements, venue, passes, practical help, the storm and the cancelled Day 2, and the past editions that explain this one. Not every story that merely happens at the summit."
+    },
+    {
+      "name": "Startups & Scaleups",
+      "slug": "startups-and-scaleups",
+      "scope": "Young companies and companies growing their business: launches, products, pilots, new markets, raising money to grow, and the programmes, competitions and investors around them."
+    },
+    {
+      "name": "AI",
+      "slug": "ai",
+      "scope": "AI as the subject: agents at work, models, research, robots, and the security of AI systems."
+    },
+    {
+      "name": "Portugal",
+      "slug": "portugal",
+      "scope": "Portugal's tech ecosystem: its companies, institutions, regions, universities and programmes, wherever the event."
+    },
+    {
+      "name": "The newsroom",
+      "slug": "the-newsroom",
+      "scope": "Articles about our own team, its work and how PrompTugal.news operates: the agents, the tools, the rules, the mistakes, the newsletter."
+    },
+    {
+      "name": "Brazil",
+      "slug": "brazil",
+      "scope": "Brazil at Web Summit and its links with Portugal and Europe: delegations, states, startup missions."
+    },
+    {
+      "name": "Europe",
+      "slug": "europe",
+      "scope": "The EU and its programmes and funding, and other European countries and their links with Portugal."
+    },
+    {
+      "name": "Corporate",
+      "slug": "corporate",
+      "scope": "Established-company news and enterprise adoption: what established companies do, and how organisations put technology such as AI agents into real work, including when a younger vendor tells the story."
+    }
+  ],
+  "articles": {
+    "agent-setup-guide": [
+      "AI",
+      "The newsroom"
+    ],
+    "angelos-communication-graph": [
+      "The newsroom",
+      "AI"
+    ],
+    "brazil-comes-to-lisbon-intuitivo-heads-to-brazil": [
+      "Brazil",
+      "Startups & Scaleups"
+    ],
+    "brazil-last-year-counts": [
+      "Brazil",
+      "Startups & Scaleups"
+    ],
+    "brazil-on-the-stages": [
+      "Brazil",
+      "Web Summit 2026"
+    ],
+    "brazil-startup-mission": [
+      "Brazil",
+      "Startups & Scaleups",
+      "Web Summit 2026"
+    ],
+    "brazils-doors-into-europe": [
+      "Brazil",
+      "Portugal",
+      "Startups & Scaleups"
+    ],
+    "brazils-startup-house-in-lisbon": [
+      "Brazil",
+      "Startups & Scaleups"
+    ],
+    "daily-newsletter": [
+      "The newsroom"
+    ],
+    "driving-to-web-summit": [
+      "Web Summit 2026"
+    ],
+    "europe-ai-help-and-portugal-ai-startups": [
+      "Europe",
+      "AI",
+      "Startups & Scaleups",
+      "Portugal"
+    ],
+    "europe-in-pavilion-4": [
+      "Europe",
+      "Web Summit 2026"
+    ],
+    "five-ai-builders-to-know": [
+      "AI",
+      "Startups & Scaleups",
+      "Web Summit 2026"
+    ],
+    "following-robotics-at-web-summit": [
+      "AI",
+      "Web Summit 2026"
+    ],
+    "from-pitch-to-new-markets": [
+      "Portugal",
+      "Startups & Scaleups"
+    ],
+    "gender-in-tech-report-2026": [
+      "Web Summit 2026"
+    ],
+    "glovo-restaurant-agents-getvocal": [
+      "Corporate",
+      "AI"
+    ],
+    "gravitee-agent-security-survey": [
+      "AI",
+      "Corporate"
+    ],
+    "health-startups-by-problem": [
+      "Startups & Scaleups",
+      "Web Summit 2026"
+    ],
+    "how-agents-avoid-collisions": [
+      "The newsroom",
+      "AI"
+    ],
+    "how-the-agents-talk": [
+      "The newsroom",
+      "AI"
+    ],
+    "ibm-sports-tech-challenge": [
+      "Corporate",
+      "Startups & Scaleups",
+      "Web Summit 2026"
+    ],
+    "italy-and-portugal-in-beato": [
+      "Europe",
+      "Portugal",
+      "Startups & Scaleups"
+    ],
+    "lisbon-awards-and-the-algarve-plan": [
+      "Portugal",
+      "Startups & Scaleups"
+    ],
+    "lisbon-universities-at-web-summit": [
+      "Portugal",
+      "Web Summit 2026"
+    ],
+    "mistakes-we-made": [
+      "The newsroom",
+      "AI"
+    ],
+    "newsroom-status-four-days-out": [
+      "The newsroom"
+    ],
+    "octo-health-launches": [
+      "Portugal",
+      "Startups & Scaleups"
+    ],
+    "pineapple-waste-to-fish-feed": [
+      "Portugal",
+      "Startups & Scaleups"
+    ],
+    "plan-your-week-by-field": [
+      "Web Summit 2026"
+    ],
+    "portugal-on-the-programme": [
+      "Portugal",
+      "Web Summit 2026"
+    ],
+    "press-conferences-day-by-day": [
+      "Web Summit 2026"
+    ],
+    "red-wind-warning-lisbon-wednesday": [
+      "Web Summit 2026"
+    ],
+    "rio-ten-startups-to-lisbon": [
+      "Brazil",
+      "Startups & Scaleups"
+    ],
+    "road-2-web-summit-2026": [
+      "Portugal",
+      "Startups & Scaleups",
+      "Web Summit 2026"
+    ],
+    "road-2-web-summit-beyond-lisbon": [
+      "Portugal",
+      "Startups & Scaleups"
+    ],
+    "speed-where-its-safe-control-where-it-matters": [
+      "The newsroom",
+      "AI"
+    ],
+    "teamworks-coaches-agent": [
+      "AI",
+      "Corporate"
+    ],
+    "the-first-night-of-promptugal-news": [
+      "The newsroom"
+    ],
+    "the-sign-in": [
+      "The newsroom",
+      "AI"
+    ],
+    "tuesday-10-november-three-ways-in": [
+      "Web Summit 2026",
+      "Europe",
+      "Portugal"
+    ],
+    "venue-map": [
+      "Web Summit 2026",
+      "The newsroom"
+    ],
+    "web-summit-2026-in-numbers": [
+      "Web Summit 2026"
+    ],
+    "web-summit-before-2026": [
+      "Web Summit 2026"
+    ],
+    "web-summit-day-2-refunds": [
+      "Web Summit 2026"
+    ],
+    "web-summit-passes-and-colours": [
+      "Web Summit 2026"
+    ],
+    "web-summit-ten-lisbon-years": [
+      "Portugal",
+      "Web Summit 2026"
+    ],
+    "web-summit-wristband-queues": [
+      "Web Summit 2026"
+    ],
+    "wednesday-11-november-going-abroad": [
+      "Europe",
+      "Startups & Scaleups",
+      "Web Summit 2026"
+    ],
+    "what-lovable-deleted": [
+      "AI",
+      "Startups & Scaleups"
+    ],
+    "what-the-agents-say-to-each-other": [
+      "The newsroom",
+      "AI"
+    ],
+    "where-to-find-portugal": [
+      "Portugal",
+      "Web Summit 2026"
+    ],
+    "who-builds-the-parts-of-an-ai-agent": [
+      "AI",
+      "Startups & Scaleups",
+      "Web Summit 2026"
+    ],
+    "who-does-the-work": [
+      "The newsroom",
+      "AI"
+    ],
+    "wpp-call-transcripts-to-jira": [
+      "Corporate",
+      "AI"
+    ],
+    "your-first-day-at-web-summit": [
+      "Web Summit 2026"
+    ]
+  },
+  "secondary": {
+    "3xp global": "3xP Global",
+    "agents": null,
+    "agents at work": "agents-at-work",
+    "agents in real work": "agents-at-work",
+    "agrogrintech": "AgroGrINTech",
+    "ai": null,
+    "ai agents": null,
+    "ai and robotics": null,
+    "aicep": "AICEP",
+    "algarve": "Algarve",
+    "announcements": "announcement",
+    "apexbrasil": "ApexBrasil",
+    "aquaculture": "ocean-and-circular-economy",
+    "aveiro": "Aveiro",
+    "azores": "Azores",
+    "blue bioeconomy pact": "ocean-and-circular-economy",
+    "braga": "Braga",
+    "brazil": null,
+    "circular economy": "ocean-and-circular-economy",
+    "coding agents": "agents-at-work",
+    "connections": null,
+    "counts": "survey-data",
+    "delegations": "delegation",
+    "delivery": "logistics",
+    "diagnostics": "health",
+    "discord": "Discord",
+    "economy": "economy",
+    "edtech": "education",
+    "eu-funding": "funding",
+    "eurohpc": "EuroHPC",
+    "europe": null,
+    "european commission": "European Commission",
+    "funding": "funding",
+    "getting there": "practical",
+    "getvocal": "GetVocal",
+    "glovo": "Glovo",
+    "granter": "Granter",
+    "guides": "guide",
+    "hadea": "HADEA",
+    "health": "health",
+    "healthtech": "health",
+    "history": "history",
+    "how this newsroom is made": null,
+    "ibm": "IBM",
+    "incubation": "funding",
+    "intuitivo": "Intuitivo",
+    "investment": "funding",
+    "ipma": "storm",
+    "italy": "Italy",
+    "jira": "Jira",
+    "lisbon": "Lisbon (not a category)",
+    "lovable": "Lovable",
+    "madeira": "Madeira",
+    "maia": "Maia",
+    "manus ai": "Manus AI",
+    "maps": "practical",
+    "mastra": "Mastra",
+    "minimax": "MiniMax",
+    "modelbest": "ModelBest",
+    "newsletter": null,
+    "octo health": "Octo Health",
+    "past events": "history",
+    "pavilion 1": "practical",
+    "pep4fish": "Pep4Fish",
+    "pitch": "PITCH",
+    "planning": "practical",
+    "porto": "Porto",
+    "portugal": null,
+    "portugal stand": "practical",
+    "practical": "practical",
+    "practical guide": "practical",
+    "press conferences": "press-conference",
+    "refunds": "practical",
+    "regions": "regions",
+    "registration": "practical",
+    "replit": "Replit",
+    "rio de janeiro": "Rio de Janeiro",
+    "road 2 web summit": "Road 2 Web Summit",
+    "road closures": "practical",
+    "robotics": "robotics",
+    "scaling": "funding",
+    "schedule": "schedule",
+    "sebrae": "Sebrae",
+    "security": "security",
+    "software delivery": "agents-at-work",
+    "speakers": "speakers",
+    "sport": "sport",
+    "sports tech": "sport",
+    "startup portugal": "Startup Portugal",
+    "startups": null,
+    "storm charles": "storm",
+    "survey": "survey-data",
+    "tecnico": "Técnico",
+    "telemedicine": "health",
+    "the summit": null,
+    "tickets": "practical",
+    "transport": "practical",
+    "unicorn factory lisboa": "Unicorn Factory Lisboa",
+    "universities": "education",
+    "weather": "storm",
+    "web summit": null,
+    "web summit speakers": "speakers",
+    "whatsapp": "WhatsApp",
+    "women in tech": "women-in-tech",
+    "wpp": "WPP",
+    "you.com": "You.com"
+  }
+}

@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART on account B: nine agents on (dev@, dev.pages@, designer@, ontologist@, dev.graphs@, dev.data@, correspondent@, sherpa@, librarian@); conductor.b@ hourly at :48",
- "updated": "2026-11-10T21:53Z",
+ "updated": "2026-11-10T23:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -104,11 +104,12 @@
   "18:48 wake: ledger 1156.59; nine agents on; Vicky's conductor briefly tasked two of B's agents (stood down): noted",
   "19:48 wake: dev@ and dev.pages@ ran on their first wakes after Dinis's 'Go dev': the theme's masthead site-wide, three workers' branches brought onto dev",
   "20:48 wake: the GAMMA-Ray cards live (/agentic/, the home strip, company cards); E's masthead passes; Day 2 cancelled, the front page follows",
-  "21:48 wake: ledger 1194.58; dev@ handled Day 2's cancellation on the site and /agentic/ A to Z"
+  "21:48 wake: ledger 1194.58; dev@ handled Day 2's cancellation on the site and /agentic/ A to Z",
+  "22:48 wake: account B running; the 10 November hand-over debrief",
+  "23:48 wake: dev@ ran (tags to companies by alias; three branches on); account B running"
  ],
  "next": [
-  "22:48 wake",
-  "before midnight: the 10 November hand-over debrief"
+  "00:48 wake with the ledger"
  ],
  "asks": [
   "Dinis: your 17:11 baseline (conductor, security, developer per team): account B now has its conductor and developer; its security agent is security@ on account A, which reviews this repository's commits; say if account B needs its own",
@@ -128,7 +129,7 @@
   "Dinis: dev.verify@'s OpenRouter credit is 1.19 USD; it makes no model calls until you top it up (the verification pipeline waits)",
   "Dinis: dev.pages@ asks whether workers now push to dev (your 14:05 'everybody pushes to dev') or keep to work/<worker> with dev@ reviewing (CLAUDE.md, its wake prompt); I keep the workers on their branches until you say"
  ],
- "debrief": "board/team/conductor.b/debriefs/2026-11-09-handover.md",
+ "debrief": "board/team/conductor.b/debriefs/2026-11-10-handover.md",
  "incidents": [
   {
    "at": "2026-11-06T22:20Z",

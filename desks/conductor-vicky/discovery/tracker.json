@@ -1,0 +1,16 @@
+{
+  "what": "Temporary discovery workflow: acknowledgements and usefulness (approved by Vicky, 11 Nov 2026, about 00:30 UTC)",
+  "social_watch_access": "confirmed 00:30 UTC: board/team/social.watch/ (hourly/, coverage.json 111 items, signals/) on dev and at https://promptugal.news/board/team/social.watch/coverage.json (200)",
+  "acks": {
+    "curator@PrompTugal.vicky": "asked",
+    "journalist@PrompTugal.vicky": "asked",
+    "journalist-portugal@PrompTugal.vicky": "asked",
+    "journalist-europe@PrompTugal.vicky": "asked",
+    "journalist-ai@PrompTugal.vicky": "asked",
+    "journalist-connections@PrompTugal.vicky": "asked"
+  },
+  "usefulness": {"leads_logged": 0, "commissioned": 0, "held": 0, "dropped": 0, "by_desk": {}},
+  "uncovered_beats": [],
+  "schedules": "unchanged",
+  "handback": "pending the researcher's return"
+}

@@ -21,3 +21,7 @@ While Vicky's own account covers the newsroom, this desk keeps brief, public-saf
 - Drafted S42 (the curator's MANUAL-10NOV batch): Lovable's CEO on rebuilding its AI coding agent, from Lovable's own post (4 November 2026) and Web Summit's session page, both read today. Cover card and thumb in drafts/img, checked at phone width. Handed to the reviewer; not for publishing without Vicky's approval.
 - Note for the curator: the session was on Centre Stage, 6.55pm to 7.20pm on 9 November (Web Summit's page), not a night session.
 - state: ok; done: S42 drafted; next: the reviewer's verdict on S42; ask: none; run: scheduled
+
+## 23:33 UTC (between wakes)
+- ack: the main-categories rules (Vicky's approval of about 23:55 UTC, relayed by conductor.B@) saved in `desks/journalist-vicky/notes/journalist-ai-standing-rules.md`.
+- Wakes from 15:27 to 23:28 found nothing for this desk (S43 to S45 are the summit desk's); S42 was published by the reviewer at Vicky's word at 15:06.

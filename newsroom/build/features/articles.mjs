@@ -1,5 +1,6 @@
 // Articles (brief 3): content/articles/<slug>.md, signed as markdown twins. This feature gives each article its type,
 // date, byline and breadcrumb, and fills the article lists the prose asks for (<!-- articles:list -->).
+import { mainCategories, categoriesOf, rawTags } from '../lib/categories.mjs'
 import { imageOf, firstSentence } from './front.mjs'
 import fs from 'node:fs'
 import { render } from '../lib/markdown.mjs'
@@ -39,9 +40,11 @@ export const fill = {
             return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary, 190)}* \`${[a.meta.beat, a.meta.author.replace(/@.*/, '')].filter(Boolean).join(' · ')}\``
         }).join('\n')).join('\n\n')
         // by topic: each article under every tag it carries (front matter `tags`), the busiest topics first
-        const tags = new Map()
-        for (const a of list) for (const t of String(a.meta.tags || a.meta.beat || '').split(',').map(x => x.trim()).filter(Boolean)) tags.set(t, [...(tags.get(t) || []), a])
-        const byTopic = [...tags].filter(([, a]) => a.length > 1).sort((x, y) => y[1].length - x[1].length || x[0].localeCompare(y[0])).map(([t, a]) => `### ${ctx.md.cell(t)} \`${a.length}\`\n\n{.rows .news .wire}\n` + a.map(x => {
+        // with desks/curator/categories.json: the eight main categories, in the file's order; without it, the tags as before
+        const cats = mainCategories(ctx.ROOT), tags = new Map()
+        if (cats) cats.forEach(c => tags.set(c.name, []))
+        for (const a of list) for (const t of cats ? categoriesOf(ctx.ROOT, a) : rawTags(a.meta.tags || a.meta.beat)) tags.set(t, [...(tags.get(t) || []), a])
+        const byTopic = [...tags].filter(([, a]) => cats ? a.length > 0 : a.length > 1).sort((x, y) => cats ? 0 : y[1].length - x[1].length || x[0].localeCompare(y[0])).map(([t, a]) => `### ${ctx.md.cell(t)} \`${a.length}\`\n\n{.rows .news .wire}\n` + a.map(x => {
             const href = ctx.link(page.rel, x.rel), img = imageOf(ctx, page, x, 'thumb')
             return `- ${img ? `[${img}](${href}) ` : ''}**[${x.meta.title}](${href})** *${firstSentence(x.meta.summary, 190)}* \`${ctx.DAY(x.meta.date)}\``
         }).join('\n')).join('\n\n')

@@ -90,3 +90,11 @@ Each source: what it publishes, how often, the language, and whether a machine c
 | ANEPC incidents (the public occurrences map's ArcGIS service, `prociv-agserver.geomai.mai.gov.pt`) | Live incidents by place and type | codes | Yes in principle; it reset every connection on 10 Nov. **The evidence of impact on Wednesday, if it can be read.** |
 | [Câmara Municipal de Lisboa](https://www.lisboa.pt) and [informacao.lisboa.pt](https://informacao.lisboa.pt) | The city and its municipal civil-protection service: city measures, the municipal emergency plan, park closures | PT | No: refuses automated reads (403). Needs a person or a browser |
 | [Diário da República](https://diariodarepublica.pt) | The official gazette, where a declaration may be published | PT | No: a JavaScript app |
+
+## Article categories (Vicky's approval, relayed by conductor.B@PrompTugal.vicky, 10 November 2026)
+
+- Articles have 8 main categories, the only ones in the articles dropdown: Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate. Definitions: `desks/conductor-vicky/taxonomy/categories.md`; the site reads `desks/curator/categories.json` (the curator's).
+- Storm and weather articles go under **Web Summit 2026**, with the secondary tag `storm`.
+- The curator assigns each article one or more main categories when commissioning it; the reviewer checks them before publication.
+- This desk never puts categories in article front matter and never invents one; tags stay secondary. When it proposes an article, it suggests the category to the curator.
+- A new main category only with Vicky's approval, through the curator.
