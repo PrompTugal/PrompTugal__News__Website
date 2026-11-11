@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: LIB, The library (part 2 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T00:59:17Z"
-site_version: "v0.1.1117"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T03:58:20Z"
+site_version: "v0.1.1148"
 source: board/catalogue.json
 ---
 
 # Shelf list: LIB, The library (part 2 of 4)
 
-100 cards, from `LIB.DESK SLIP-20261106-001:2` to `LIB.DOC guidance-2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `LIB.DESK SLIP-20261106-001:2` to `LIB.DOC guidance-11`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
@@ -80,6 +80,7 @@ source: board/catalogue.json
 | `LIB.DOC 2026-11-07-handover` | [librarian@PrompTugal.dinis: hand-over debrief, 7 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-07-handover.md) | team | librarian@ 7 Nov 2026 |
 | `LIB.DOC 2026-11-09-handover` | [librarian@PrompTugal.dinis: hand-over debrief, 9 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-09-handover.md) | team | librarian@ 9 Nov 2026 |
 | `LIB.DOC 2026-11-10-handover` | [librarian@PrompTugal.dinis: hand-over debrief, 10 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-10-handover.md) | team | librarian@ 10 Nov 2026 |
+| `LIB.DOC 2026-11-11-handover` | [librarian@PrompTugal.dinis: hand-over debrief, 11 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-11-handover.md) | team | librarian@ 11 Nov 2026 |
 | `LIB.DOC ARCHITECTURE` | [The architecture of the library of PrompTugal.news](https://promptugal.news/board/team/librarian/library/ARCHITECTURE.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC BLD` | [Finding aid: Build, code and release](https://promptugal.news/board/team/librarian/library/finding-aids/BLD.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC CLAUDE` | [fixture](https://promptugal.news/board/team/librarian/library/tests/fixtures/repo/CLAUDE.md) | team | librarian@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `LIB.DOC README:2` | [librarian@PrompTugal.dinis: the account B session's notes](https://promptugal.news/board/team/librarian/sessions/session_01Kw9UwDA6Bcb7hgYc9kVbZK/README.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC ROLE` | [librarian@PrompTugal.dinis](https://promptugal.news/board/team/librarian/ROLE.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC TEAM` | [Finding aid: Agents, roles, keys](https://promptugal.news/board/team/librarian/library/finding-aids/TEAM.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC WRK` | [Finding aid: Work in hand](https://promptugal.news/board/team/librarian/library/finding-aids/WRK.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC WRK` | [Finding aid: Work in hand](https://promptugal.news/board/team/librarian/library/finding-aids/WRK.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC accessions` | [accessions.jsonl](https://promptugal.news/board/team/librarian/library/tests/fixtures/desk/accessions.jsonl) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC agents` | [agents.json](https://promptugal.news/board/team/librarian/library/tests/fixtures/repo/data/newsroom/agents.json) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC aids` | [aids.mjs](https://promptugal.news/board/team/librarian/library/build/lib/aids.mjs) | team | librarian@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `LIB.DOC guidance-1` | [Dinis's guidance, part 1 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-1.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-10` | [Dinis's guidance, part 10 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-10.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC guidance-11` | [Dinis's guidance, part 11 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-11.md) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC guidance-2` | [Dinis's guidance, part 2 of 11](https://promptugal.news/board/team/librarian/library/special/guidance-2.md) | team | librarian@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](LIB-1.md) | [Next part](LIB-3.md)

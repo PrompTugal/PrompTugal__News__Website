@@ -10,7 +10,7 @@ const item = n => (T.split(`<!-- item:${n} -->`)[1] || '').split('\n')[0]
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const fill = (t, v) => t.replace(/\{\{(#?[a-z_]+)\}\}/g, (m, k) => v[k] ?? '')
 const cur = on => on ? ' aria-current="page"' : ''
-const links = (list, href, section) => list.map(n => fill(item('link'), { href: href(n.href), cur: cur(section === n.id), label: esc(n.label) })).join('')
+const links = (list, href, section) => list.map(n => fill(item('link'), { href: href(n.href), cur: cur(section === n.id), label: esc(n.label), id: esc(n.id || '') })).join('')
 
 function daysToGo(today, start) {
     const n = Math.round((Date.parse(String(start).slice(0, 10)) - Date.parse(today)) / 864e5)

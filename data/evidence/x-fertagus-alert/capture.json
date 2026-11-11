@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-fertagus-alert",
+  "type": "evidence",
+  "source_url": "https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico",
+  "beat": "The summit",
+  "group": "discovery leads",
+  "names": [
+    {
+      "as_listed": "Fertagus",
+      "ref": "organisation:fertagus"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-0300.json",
+  "run": "2026-11-11-0300 (discovery workflow: operators' notices, Konecta's own release)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0300.json"
+    ]
+  }
+}

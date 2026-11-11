@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+<title id="t">The AI Act's first harmonised standard: EN 18286</title>
+<desc id="d">A summary card: EN 18286, quality management for high-risk AI, gives a presumption of conformity with the Article 17 requirements it covers. High-risk rules in sensitive areas apply from 2 December 2027. Source: European Commission.</desc>
+<rect width="1200" height="630" fill="#f7f3ea"/>
+<rect x="0" y="0" width="1200" height="16" fill="#003399"/>
+<text x="60" y="96" font-family="Georgia, serif" font-size="42" fill="#003399">The AI Act's first harmonised standard</text>
+<text x="60" y="214" font-family="Helvetica, Arial, sans-serif" font-size="120" font-weight="700" fill="#1a1a1a">EN 18286</text>
+<text x="60" y="276" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1a1a1a">Quality management for high-risk AI</text>
+<g font-family="Helvetica, Arial, sans-serif" fill="#1a1a1a">
+<rect x="60" y="316" width="525" height="210" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
+<text x="88" y="378" font-size="42" font-weight="700">Presumed to meet</text>
+<text x="88" y="428" font-size="42" font-weight="700">Article 17 parts</text>
+<text x="88" y="480" font-size="42">it covers, if applied</text>
+<rect x="615" y="316" width="525" height="210" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
+<text x="643" y="378" font-size="42" font-weight="700">2 Dec 2027</text>
+<text x="643" y="428" font-size="42">high-risk rules in</text>
+<text x="643" y="480" font-size="42">sensitive areas</text>
+</g>
+<text x="60" y="590" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#444">Source: European Commission, Oct 2026</text>
+</svg>

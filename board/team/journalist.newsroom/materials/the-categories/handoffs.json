@@ -2,19 +2,21 @@
   "story": "the-categories",
   "from": "board/team/work-desk/traces/the-categories.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 13,
+  "steps": 17,
   "first": "2026-11-10T23:01:41Z",
-  "last": "2026-11-11T00:17:00Z",
+  "last": "2026-11-11T01:48:47Z",
   "handoffs": [
     {
       "from": "conductor.B@PrompTugal.vicky",
       "to": "Vicky Wang",
-      "count": 4,
+      "count": 6,
       "times": [
         "2026-11-10T23:01:41Z",
         "2026-11-10T23:04:43Z",
         "2026-11-10T23:24:14Z",
-        "2026-11-11T00:06:48Z"
+        "2026-11-11T00:06:48Z",
+        "2026-11-11T00:56:10Z",
+        "2026-11-11T01:48:47Z"
       ],
       "person_agent": true
     },
@@ -90,6 +92,15 @@
       "count": 1,
       "times": [
         "2026-11-11T00:02:21Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "curator@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T01:40:08Z"
       ],
       "person_agent": false
     }

@@ -147,3 +147,7 @@
 .gx-selects select { max-width: 100%; min-width: 0; }
 @media (max-width: 520px) { .gx-selects label { display: flex; width: 100%; margin-right: 0; } .gx-selects select { flex: 1 1 auto; } }
 .gx-actions { flex-wrap: wrap; max-width: 100%; }
+
+/* a product in the small graph: an ink diamond (designer@, 11 November) */
+.n-product polygon { fill: var(--ink); stroke: var(--ink); }
+.g-legend .l-product { background: var(--ink); border-color: var(--ink); transform: rotate(45deg) scale(.8); }

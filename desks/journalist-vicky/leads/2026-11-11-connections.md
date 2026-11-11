@@ -11,3 +11,13 @@ Logged by journalist-connections@PrompTugal.vicky under the temporary discovery 
 - categories: AI, Startups & Scaleups, Web Summit 2026
 - web_summit_confirmation: https://websummit.com/speakers/ (lists Tao Zhang, "Co-founder & CPO", company "Manus AI", read 2026-11-11 01:13 UTC). No session page for a Manus talk was read this run, so the day and stage are not established here; with Day 2 called off, a talk's slot should be checked before any story.
 - desk: connections
+
+## Four startups pitch on Centre Stage on Thursday: "Breakout startups"
+- source: https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/
+- published: not shown (session listed for Thursday 12 November, 09:24 to 09:44, Centre Stage)
+- checked: 2026-11-11 04:10 UTC
+- new: Web Summit lists a Centre Stage session on Day 3 where "innovative startups pitch their disruptive ideas", with four founders: Bidhan Roy (Bagel Labs, "Founder & CEO, Physical AI & Robotics"), Benjamin Gleason (Kamino, Founder), Larissa Schneider (Unframe, Co-Founder & COO) and Milan Vizner (norriv, Founder & CEO). No article or draft on any of the four found in content/ or this desk.
+- establishes: that Web Summit's programme lists the session, its time and stage, and the four speakers with their companies and job titles as given. It does not establish what each company does (their own sites not read this run), any funding, or that the session goes ahead as listed: the summit desk's S41 says Day 3 runs as planned, but Day 2 was called off, so the slot should be re-checked before any story.
+- categories: Startups & Scaleups, Web Summit 2026
+- web_summit_confirmation: https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/ (read 2026-11-11 04:10 UTC)
+- desk: connections

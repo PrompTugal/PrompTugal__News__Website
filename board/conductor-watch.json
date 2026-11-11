@@ -718,6 +718,28 @@
       "PrompTugal__App__iOS": "3ce861bf",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). iOS moved (74883a0b to 3ce861bf): the iOS/mobile conductors' area. The 22:24 and 23:24 wakes did not reach this session. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "1cd102d0",
+      "PrompTugal__News__Website": "f264c1f4",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "bb789e3a",
+      "PrompTugal__News__Storm-Charles": "8154498f",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-11T03:14Z",
+      "note": "Quiet night. Vicky's desk published S48 (Manus 2.0), S49 (the EU's Wednesday sessions) and S51 (getting around Lisbon on Wednesday). Incident team: no change to Day 3 at 02:34; the alert's legal text read at source. security@: 114 commits clean. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-11T03:25Z",
+      "SGit-AI__Website__Web-Summit": "14f538c1",
+      "PrompTugal__News__Website": "badc9b20",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). The 01:24 and 02:24 wakes did not reach this session. Team site and iOS read by ls-remote only."
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "konecta",
+  "type": "organisation",
+  "name": "Konecta",
+  "names_as_listed": [
+    "Konecta"
+  ],
+  "sources": [
+    {
+      "url": "https://konecta.com/news-insights/press-releases/konecta-announces-the-launch-of-a-next-generation-global-delivery-center-dedicated-to-ai-excellence-in-lisbon",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

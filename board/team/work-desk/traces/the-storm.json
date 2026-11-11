@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T00:45Z",
+  "updated": "2026-11-11T03:40Z",
   "covers": {
     "from": "2026-11-10T13:23:00Z",
-    "to": "2026-11-11T00:17:00Z",
-    "last_commit": "8e9f20ecc"
+    "to": "2026-11-11T03:11:29Z",
+    "last_commit": "f264c1f42"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -2211,6 +2211,153 @@
       ],
       "hand_off": "person->agent",
       "workflow_step": "5. the focused view, cleared to go out"
+    },
+    {
+      "n": 102,
+      "time_utc": "2026-11-11T00:35:09Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the storm page, third version (7f1e0b15a)",
+      "output": "/storm/charles/ verified",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:a2f85035f"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 103,
+      "time_utc": "2026-11-11T00:40:06Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the verification; Vicky's order (step 101)",
+      "output": "/storm/charles/ and the home lead's link to it, released",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:ce6f5d29f"
+      ],
+      "hand_off": "person->agent (Vicky's standing order)",
+      "workflow_step": "5. the focused view live"
+    },
+    {
+      "n": 104,
+      "time_utc": "2026-11-11T00:44:43Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "v0.1.1114",
+      "output": "/storm/charles/ verified live",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:e3eecbe22"
+      ],
+      "hand_off": "agent->person",
+      "note": "The focused view Dinis asked for at about 17:00 went live 7 h 44 min later, after three verification rounds."
+    },
+    {
+      "n": 105,
+      "time_utc": "2026-11-11T00:48:35Z",
+      "actor": {
+        "name": "writer@PrompTugal.jose",
+        "kind": "agent"
+      },
+      "input": "Jose",
+      "output": "two more imagery sites for the storm page: view.eumetsat.int and sat24.com",
+      "hand_off_to": [
+        {
+          "name": "weather@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:5e599916e"
+      ],
+      "hand_off": "person->agent->agents (Jose's team to Vicky's)"
+    },
+    {
+      "n": 106,
+      "time_utc": "2026-11-11T02:43:51Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the transport sources; S43",
+      "output": "S51 commissioned: the Wednesday transport guide, merging S43",
+      "hand_off_to": [
+        {
+          "name": "journalist@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3f7245e84"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 107,
+      "time_utc": "2026-11-11T03:07:12Z",
+      "actor": {
+        "name": "journalist@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Carris, Fertagus, the government",
+      "output": "S51 drafted",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3a89e4658"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 108,
+      "time_utc": "2026-11-11T03:11:29Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S51, sources read 03:09",
+      "output": "S51 published under R-PUB-1: getting around Lisbon on Wednesday",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:f264c1f42"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "note": "28 minutes from commission to published, with no person in the loop at the time: the standing rule did the approving."
     }
   ],
   "hand_offs_person_agent": [
@@ -2255,7 +2402,11 @@
     90,
     95,
     97,
-    101
+    101,
+    103,
+    104,
+    105,
+    108
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -2297,15 +2448,15 @@
       "evidence": "a verify-and-fix loop between reviewer@ and dev@PrompTugal.vicky: check 23:47, fix 23:55, check 00:00, fix 00:09"
     },
     "5_ui_signal": {
-      "status": "lead live; storm page in preview",
+      "status": "done: the lead, the satellite loop and /storm/charles/ are live",
       "steps": [
-        20,
-        29,
-        50,
-        52,
-        53
+        53,
+        71,
+        74,
+        103,
+        104
       ],
-      "evidence": "the S41 lead released at 18:54 UTC after Dinis widened reviewer@'s grant (step 47) and dev@ fixed the links (step 52)"
+      "evidence": "the storm page live at 00:40 (v0.1.1114)"
     }
   },
   "decision_graph_so_far": {
@@ -2494,6 +2645,12 @@
       "from_step": 94,
       "to_step": 96,
       "minutes": 8
+    },
+    {
+      "what": "Dinis's focused-view ask to /storm/charles/ live",
+      "from": "about 17:00 (memo)",
+      "to_step": 103,
+      "minutes": 460
     }
   ],
   "look_back": {
@@ -2524,6 +2681,7 @@
     "label": "from the record; the times of spoken remarks come from the press"
   },
   "related_traces": [
-    "the-categories.json"
+    "the-categories.json",
+    "the-discovery.json"
   ]
 }

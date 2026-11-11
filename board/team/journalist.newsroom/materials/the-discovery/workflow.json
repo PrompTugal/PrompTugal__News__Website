@@ -1,0 +1,71 @@
+{
+  "$comment": "The discovery workflow's shape, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis.",
+  "story": "the-discovery",
+  "from": "board/team/work-desk/traces/the-discovery.json (updated 2026-11-11T03:40Z)",
+  "funnel": {
+    "leads": 9,
+    "commissions": 7,
+    "published": 4,
+    "in_review": [
+      "S50 (fixed, back with the reviewer)",
+      "S52 (drafted)"
+    ],
+    "dropped_or_waiting": [
+      "Parloa's keynote listing",
+      "Site Selectors Guild 2027"
+    ],
+    "by_beat": {
+      "AI": 2,
+      "connections": 1,
+      "Portugal": 2,
+      "Europe": 2,
+      "plus": "S47 (figures) and S51 (storm transport) from the curator's own reading"
+    }
+  },
+  "speeds": [
+    {
+      "what": "approval to first lead",
+      "from_step": 1,
+      "to_step": 3,
+      "minutes": 10
+    },
+    {
+      "what": "S47 commission to published",
+      "minutes": 29
+    },
+    {
+      "what": "S46 and S49 commission to published",
+      "minutes": 60
+    },
+    {
+      "what": "S48 commission to published",
+      "minutes": 72
+    }
+  ],
+  "pattern": "one person approves once (step 1) and a standing rule (R-PUB-1) stands in for her at every publication: four articles reached readers between 01:14 and 02:56 with no person in the loop at the time. The reviewer's 'Fix first' and the curator's holds are the checks that remain.",
+  "checks": [
+    {
+      "step": 15,
+      "time": "02:16",
+      "what": "a curator's hold answered with a primary source"
+    },
+    {
+      "step": 19,
+      "time": "02:50",
+      "what": "reviewer's 'Fix first' on S50: three dates not on the cited page"
+    },
+    {
+      "step": 22,
+      "time": "03:19",
+      "what": "S50 revised, the dates quoted from the page"
+    }
+  ],
+  "tokens": {
+    "vickys_agents": null,
+    "the_trace_itself": {
+      "estimate": true,
+      "bytes": 13767,
+      "tokens_about": 4000
+    }
+  }
+}

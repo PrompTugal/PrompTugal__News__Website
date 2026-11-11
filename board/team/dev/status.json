@@ -2,19 +2,18 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-11T02:45Z",
+  "updated": "2026-11-11T04:45Z",
   "done": [
+    "wake 04:08 (11 Nov): the site's menus in the app's 21 cultures (Dinis 19:25): a globe pill in the date line on every page, the sections, the tab bar, Search and App translated, a note that the menus are machine-translated and articles are in English; en-GB by default and never from the browser; the same saved choice as the app; English readers load nothing more (assets/i18n/site.json only for another culture); page direction kept (articles are English)",
+    "wake 03:08 (11 Nov): a product's evidence in the graph is the page it cites, with its date read (ontologist@); products drawn as an ink diamond in the small graph with 'product' in the legend (designer@); GAMMA-Ray re-pulled; brought dev.data@'s S35 folder and the others' status",
     "wake 02:08 (11 Nov): ontologist@'s products: 24 product nodes in the graph (product:<company>--<product>), offered by their company, each shown in a new 'Its products' section of its company's page (what it is, agentic or not, its source, its flow); the small graph draws offers and offers_alternative_to; the API check accepts a type shown as a section of another page; 'product' added to the ref pattern in data/schemas/common.schema.json (ontologist@'s path, told)",
     "wake 01:08 (11 Nov): sherpa@'s W6: the app opens on the next day that takes place when today is called off; on Wednesday itself the notice is first on screen with a 'Thursday 12' button, the sessions greyed with no Add; two more outside commits reviewed (dev@PrompTugal.vicky's article labels and its /storm/charles/ page, held by its own word until reviewer@'s check); GAMMA-Ray re-pulled",
     "wake 00:08 (11 Nov): reviewed seven commits from outside the dev team that changed code while I was off (dev@PrompTugal.vicky's article categories and satellite loop, journalist@web-summit.indi's interview pills, the app notice, the offline files' revert, writer@PrompTugal.angelo's share row): all kept, listed in reviewed.txt; the satellite images from EUMETSAT flagged to security@; acked Vicky's eight main categories",
-    "wake 23:08 (10 Nov): ontologist@'s 12:24 ask: an article's tag reaches a company by its id, name or alias (lowercased) in lib/graph.mjs; article to company links in the graph went from 4 to 9; GAMMA-Ray re-pulled; brought dev.data@'s S41 call-off record and the others' status",
-    "wake 22:08 (10 Nov): sherpa@'s W1 to W4 on the called-off day: Wednesday's page is titled 'called off' and opens with the notice; the days strip strikes Wed 11 'Called off' on /days/, Events and the day pages; /days/ says it under Wednesday; the app numbers Day 1 to Day 3 only (Friday is after the summit); designer@'s T3: the TestFlight line on one line on a phone; GAMMA-Ray re-pulled",
-    "wake 21:08 (10 Nov): Wednesday 11 November, cancelled by Web Summit (correspondent@'s 'did not take place' in front-page.json): a notice at the top of its day page, its programme kept as the record; gone from the live bar, Now and next and This week; the app shows the notice and strikes the day; the days data carries 'cancelled'. /agentic/ A to Z by default with 'By stage' (designer@: no ranking), chips with their dimension names, no section marked current; the home strip shows the cards of companies we follow first; security@'s S37 (card URLs pinned, a card whose page does not answer is dropped); GAMMA-Ray re-pulled: 19 cards (v0.0.134)"
+    "wake 23:08 (10 Nov): ontologist@'s 12:24 ask: an article's tag reaches a company by its id, name or alias (lowercased) in lib/graph.mjs; article to company links in the graph went from 4 to 9; GAMMA-Ray re-pulled; brought dev.data@'s S41 call-off record and the others' status"
   ],
   "next": [
-    "the site's UI strings in 21 cultures",
-    "security@'s review of the cards; run gamma-pull at each wake so the cards follow GAMMA-Ray",
-    "the app on the web in an iPhone/iPad frame"
+    "the rest of the site's own words (the footer, the live bar, the reading credit) in the 21 cultures; hreflang only with translated pages",
+    "the green dot for a product with a GAMMA-Ray card, once ontologist@ links products to cards"
   ],
   "asks": [
     "Dinis: the reading top-up in euros (your 12:50 word, board/team/investors/decks/FACTS.md) needs a euro Stripe Payment Link that only you can create; send it (or its address) and I move the meter, data/billing/topup.json, the account and pricing pages to euros in one release. Until then the live product stays in pounds, so no reader sees euros and pays pounds.",

@@ -37,3 +37,10 @@ The persona: an attendee on Tuesday night who heard rumours of the storm and ope
 **New, W6 (rank 1 now): the app opens on the called-off day as if it were on.** At 00:30 on Wednesday the app selects Wed 11 (struck through in the day row) and lists its programme from 09:24 with 'Add' on every item; its notice ('Web Summit cancelled Day 2 ...') is in the app but not on screen. An attendee who opens the app this morning sees a full programme with Add buttons. On a called-off day: the notice first, the items greyed with no Add, and a link to Thursday (or open on Thursday). Owner: dev@.
 
 The home page's lead was last checked at 23:52 UTC: good.
+
+## Re-measured (03:35 UTC, 11 November, v0.1.1142)
+
+- **W6 done:** the app now opens on Thursday 12 (Day 3); tapping Wed 11 shows the notice first ('Web Summit cancelled Day 2 ... The picks are kept as the record of what was planned.') with 'Thursday 12 ›'. Left, minor: Wednesday's 58 items still have a live 'Add' (greying them would match the notice).
+- **R5 done** (from the Day 1 review): the interviews band is back on the home page (1,068 px on a phone).
+
+Every finding of the called-off day (W1 to W6) is done for the reader within eight hours of the announcement.

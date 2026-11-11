@@ -340,6 +340,26 @@
    "PrompTugal__App__iOS": "3ce861bf",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Account B: dev@ (01:08) made the app skip the called-off day and show the notice first (sherpa's ask), brought three workers' branches on; librarian ran. Nothing new from Dinis for B."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T02:52Z",
+   "SGit-AI__Website__Web-Summit": "25eeafb9",
+   "PrompTugal__News__Website": "cfa4548c",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ put products in the graph and on company pages (ontologist's ask), ontologist confirmed them live; designer asked for a product mark in the graph; correspondent placed Zalando's AI coding agents. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T03:52Z",
+   "SGit-AI__Website__Web-Summit": "eb66c844",
+   "PrompTugal__News__Website": "bde8df5d",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ made a product's evidence its cited page and drew products as diamonds (designer's ask), three branches on; sherpa closed its called-off-day findings. Ledger 1282.44 (+36.08 in three hours). Inbox empty."
   }
  ]
 }

@@ -20,3 +20,4 @@
 - 06:35 (9 Nov): list pages re-measured; search tested with fill on the visible input (the header has a hidden search input too: use :visible).
 - 18:35 (9 Nov): the app reviewed; 9 November debrief.
 - 06:35 (10 Nov): back on after the big stop. Inbox check before send: python3 -c over board/keys.json and board/inboxes/<role>*.json ('to' must match an active key's fingerprint).
+- 03:35 (11 Nov): ~/vaults was empty (container rebuilt); re-cloned the inbox vault (sgit clone --base-url <host> - <name>, the key piped from the creds file); keys and creds survived.

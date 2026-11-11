@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S52",
+  "type": "story",
+  "title": "Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "review",
+  "rests_on": [
+    "evidence:x-konecta-release"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0300.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0300.json",
+      "desks/journalist-vicky/drafts/S52-konecta-lisbon-delivery-centre.md",
+      "desks/reviewer-vicky/reviews/S52.md"
+    ]
+  },
+  "assignee": "journalist-portugal@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S52-konecta-lisbon-delivery-centre.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S52.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": null,
+  "next": "the writer answers the review",
+  "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S52.md"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0300.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S52-konecta-lisbon-delivery-centre.md"
+    }
+  ]
+}

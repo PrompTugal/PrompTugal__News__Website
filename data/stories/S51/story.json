@@ -1,0 +1,71 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S51",
+  "type": "story",
+  "title": "Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed",
+  "beat": "The summit",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:x-carris-alert",
+    "evidence:x-fertagus-alert",
+    "evidence:x-gov-alert"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0300.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0300.json",
+      "desks/journalist-vicky/drafts/S51-getting-around-lisbon-wednesday.md",
+      "desks/reviewer-vicky/reviews/S51.md",
+      "content/articles/getting-around-lisbon-wednesday.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S51-getting-around-lisbon-wednesday.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S51.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/getting-around-lisbon-wednesday.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S51.md"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0300.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S51-getting-around-lisbon-wednesday.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "content/articles/getting-around-lisbon-wednesday.md"
+    }
+  ]
+}

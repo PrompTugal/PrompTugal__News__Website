@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+  <title id="t">Manus 2.0, as Manus describes it</title>
+  <desc id="d">Cascade, a new agent harness; Automations, tasks that start when something happens; Manus Studio, the desktop app; Cue, agents with their own email, phone and wallet. Source: Manus, read 11 November 2026.</desc>
+  <rect width="1200" height="630" fill="#f7f4ee"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="60" y="100" font-size="58" font-weight="700" fill="#1a1a1a">Manus 2.0, in its own words</text>
+    <rect x="60" y="140" width="1080" height="92" rx="10" fill="#e8e2d6"/>
+    <text x="90" y="202" font-size="44" fill="#1a1a1a"><tspan font-weight="700">Cascade:</tspan> a new agent harness</text>
+    <rect x="60" y="246" width="1080" height="92" rx="10" fill="#e8e2d6"/>
+    <text x="90" y="308" font-size="44" fill="#1a1a1a"><tspan font-weight="700">Automations:</tspan> tasks start on events</text>
+    <rect x="60" y="352" width="1080" height="92" rx="10" fill="#e8e2d6"/>
+    <text x="90" y="414" font-size="44" fill="#1a1a1a"><tspan font-weight="700">Cue:</tspan> agents with email, phone, wallet</text>
+    <text x="60" y="540" font-size="42" fill="#555">Source: manus.im, read 11 Nov 2026</text>
+  </g>
+</svg>
