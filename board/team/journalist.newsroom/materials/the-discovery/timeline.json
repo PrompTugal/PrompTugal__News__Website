@@ -785,8 +785,98 @@
       "hand_off": null,
       "workflow_step": null,
       "minute": 538
+    },
+    {
+      "id": "s044",
+      "time": "2026-11-11T09:49:39Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's editorial call (step 24)",
+      "output": "S52 published: Konecta picks Lisbon, with its 30 October forbearance agreement mentioned",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:5671224df"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (Vicky decides what R-PUB-1 could not)",
+      "workflow_step": "published: 6 h 03 min after Ready, waiting for a person",
+      "minute": 567
+    },
+    {
+      "id": "s045",
+      "time": "2026-11-11T10:20:07Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its beat",
+      "output": "lead: the Digital Fairness Act proposal (AI agents shopping for consumers)",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:d7211442c"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 598
+    },
+    {
+      "id": "s046",
+      "time": "2026-11-11T10:46:16Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the lead",
+      "output": "S56 commissioned",
+      "handoff_to": [
+        "journalist-europe@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:7dbc36917"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "commission",
+      "minute": 624
+    },
+    {
+      "id": "s047",
+      "time": "2026-11-11T11:26:33Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S56",
+      "output": "drafted",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:915f180b2"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 664
+    },
+    {
+      "id": "s048",
+      "time": "2026-11-11T11:40:20Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S56 with its category line",
+      "output": "published under R-PUB-1",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:a10968776"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 54 min from commission",
+      "minute": 678
     }
   ],
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T09:20:19Z"
+  "last": "2026-11-11T11:40:20Z"
 }

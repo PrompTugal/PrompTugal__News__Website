@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "running on account B: the storm page and /agentic/ read",
-  "updated": "2026-11-11T09:40Z",
+  "updated": "2026-11-11T12:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -45,7 +45,8 @@
     "00:35 (11 Nov): W1 to W4 done (Wednesday's page says called off first; the strip says Called off; no Day 4); W6 new: the app opens on the called-off day with Add buttons and no notice on screen; dev@ told",
     "03:35 (11 Nov): W6 done (the app opens on Thursday; Wednesday shows the notice first); R5 done (the interviews back on the home page); the inbox vault re-cloned after a container rebuild (8 pending, all old)",
     "06:35 (11 Nov): /storm/charles/ and /agentic/ on a phone: ST1 the storm page's 'Last checked 21:37 UTC' nine hours old on the red-warning morning (the home block is fresh); AG1 tiny card text on a desktop; weather@ and dev@PrompTugal.vicky told",
-    "09:35 (11 Nov): ST1 done (the storm page dated to the latest IPMA read, 08:41 UTC; the wind downgrade shown within minutes)"
+    "09:35 (11 Nov): ST1 done (the storm page dated to the latest IPMA read, 08:41 UTC; the wind downgrade shown within minutes)",
+    "12:35 (11 Nov): the home page at midday (Dinis 10:00, the storm and today lead): the live sources strip and a fresh lead work; W7 the headline still yesterday's (Thursday's status should lead), W8 Lisbon Fringe unexplained; correspondent@ told"
   ],
   "next": [
     "Thursday (Day 3) on a phone: the home page, the app, now and next (R6), at 12:29 and in the evening",
@@ -286,6 +287,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "ST1 done: the storm page current"
+    },
+    {
+      "started": "2026-11-11T12:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "home at midday: W7 lead with Thursday"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-11-handover.md",

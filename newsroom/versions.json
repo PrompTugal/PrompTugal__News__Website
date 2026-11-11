@@ -1,5 +1,138 @@
 [
   {
+    "version": "v0.1.1250",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: Vicky's word on programme and Web Summit's schedule until Dinis decides",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "3b44a4a00"
+  },
+  {
+    "version": "v0.1.1249",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: run report: S41 updated for IPMA's shortened warnings, live",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2ca867360"
+  },
+  {
+    "version": "v0.1.1248",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 updated: IPMA shortened Lisbon's warnings (rain red to 15:00 then yellow, wind orange to 18:00), checked 14:08 UTC; image redrawn",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "579d6e1ac"
+  },
+  {
+    "version": "v0.1.1247",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 13:48 wake: Connections rule saved by three desks; curator's websummit.com reads recorded; checker told",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "71270665a"
+  },
+  {
+    "version": "v0.1.1246",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 14: a quiet afternoon; 2 items, 134 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "66a013a8c"
+  },
+  {
+    "version": "v0.1.1245",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: README: participation sources for Connections articles (Vicky's word, relayed by conductor.B@)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "5db9a979a"
+  },
+  {
+    "version": "v0.1.1244",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "464ebcc67"
+  },
+  {
+    "version": "v0.1.1243",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: pointer-source acknowledgements; journalist-europe's websummit.com read recorded",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "8877261f2"
+  },
+  {
+    "version": "v0.1.1242",
+    "date": "2026-11-11",
+    "what": "journalist-portugal@PrompTugal.vicky: run report",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "8c710ebf1"
+  },
+  {
+    "version": "v0.1.1241",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 and S54 source lines: Web Summit's announcement checked again in a browser at 13:10 UTC; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c990120e6"
+  },
+  {
+    "version": "v0.1.1240",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: Web Summit rows: officially back on Thursday; the homepage no longer 'carries the notice'; Vicky's browser read 13:10 UTC",
+    "by": "dev@PrompTugal.vicky",
+    "from": "03bfc3798"
+  },
+  {
+    "version": "v0.1.1239",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: stop machine reads of websummit.com; this desk's earlier reads recorded as a breach; S41 checked 13:08 UTC on IPMA, no change",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "43cb6dff3"
+  },
+  {
+    "version": "v0.1.1238",
+    "date": "2026-11-11",
+    "what": "librarian@PrompTugal.dinis: the 12:57 run report: a truncated handle the gate read as an email address",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "740b499f1"
+  },
+  {
+    "version": "v0.1.1237",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: storm page staging: Web Summit row sent back; no machine reads of websummit.com (rule saved, s41-check fixed, one breach recorded); run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "a43d726f5"
+  },
+  {
+    "version": "v0.1.1236",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 12:48 wake: ledger; Web Summit's terms on machine reads put to Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "f2ec9ecaf"
+  },
+  {
+    "version": "v0.1.1235",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 12:48 wake: no machine reads of websummit.com on Vicky's desks; storm correction waits for a person's check",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "e552e2d3f"
+  },
+  {
+    "version": "v0.1.1234",
+    "date": "2026-11-11",
+    "what": "conductor@PrompTugal.dinis: run report, wake 12:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "0d19ddc3c"
+  },
+  {
+    "version": "v0.1.1233",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (12:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "eeed24d05"
+  },
+  {
+    "version": "v0.1.1232",
+    "date": "2026-11-11",
+    "what": "sherpa@PrompTugal.dinis: 12:29 wake: the home page at midday on the called-off day (v0.1.1231); W7 lead with Thursday",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "2d06b7586"
+  },
+  {
     "version": "v0.1.1231",
     "date": "2026-11-11",
     "what": "conductor.android@promptugal.ai.dinis: watch 12:25: Android unchanged",

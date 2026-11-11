@@ -11,7 +11,7 @@ Yesterday's note, with every check and draft of 10 November: `2026-11-10-handove
 ## Where the desk stands
 - Published (by the reviewer, at Vicky's word): S41 (the storm and Day 2), S45 (refunds after Day 2). S40 earlier.
 - S44 (update note for the Wednesday guide): Ready; placement held for Vicky's approval and the guide's owner.
-- S41 watch (standing task from 10 Nov 14:55 UTC): each :05 wake, IPMA's warnings for the Lisbon district and Web Summit's own channels; a change goes to the reviewer with source and UTC time; this desk never edits S41. Ends when IPMA's warning has ended and Wednesday's programme is over.
+- S41 watch (standing task from 10 Nov 14:55 UTC): each :05 wake, IPMA's warnings for the Lisbon district (open data); Web Summit's side only by a person's browser read or the press (no machine reads, from 11 Nov 12:47 UTC); a change goes to the reviewer with source and UTC time; this desk never edits S41. Ends when IPMA's warning has ended and Wednesday's programme is over.
 
 ## Run summaries
 - S41 checked 00:06 UTC, no change against the live article: IPMA's rain is now orange 00:00 to 09:00 and red 09:00 to 18:00 (already in S41 via the reviewer's 23:51 update); wind red 12:00 to 21:00 and sea orange 12:00 to 21:00 unchanged; Web Summit's post unchanged since 19:25 on 10 Nov, no new post.
@@ -30,3 +30,14 @@ Pull dev; holds; "New from Dinis"; the curator's newest map; reviews for this de
 - S41 checked 10:06 UTC, no change. IPMA unchanged since 09:06. Web Summit's post now shows modified 2026-11-10 20:06:54 (was 19:25:44); its text is word for word the same (one markup space), so not material. No new assignment.
 - S41 checked 11:13 UTC, no change (IPMA and Web Summit's post as at 10:06). Read Dinis's 10:00 guidance (pt.news follows what is happening now; storm-charles.promptugal.news as a data source; Lisbon Fringe): no change to this watch, which reads the official sources. No new assignment.
 - S41 checked 12:07 UTC, no change. No new assignment.
+
+## Breach recorded: machine reads of websummit.com (13:08 UTC)
+- This desk read websummit.com by machine (curl) at every S41 check and discovery run from 10 November 14:23 UTC, and for S41, S44, S45 and S47 (the homepage, blog, news page, the "Important event update" post, the terms and conditions, and the 10 November figures post). The site's terms forbid automated reading (see `desks/conductor-vicky/sources/storm-charles.md`, recorded at about 12:47 UTC on 11 November).
+- The rule was not sent to this desk, and this desk did not see it until 13:08 UTC, so its 13:08 check also read websummit.com. The output of that read is not used. The local copies were deleted.
+- From 13:10 UTC: no automated reads of websummit.com by this desk (standing rules updated). The S41 watch now reads IPMA only; Web Summit's side waits for a person.
+- S41 checked 13:08 UTC on IPMA: no change (rain red until 18:00, wind orange until 21:00, sea orange 12:00 to 21:00).
+
+## 14:07 UTC run
+- S41 checked 14:07 UTC on IPMA: CHANGE. IPMA re-issued Lisbon's warnings from 12:34: rain red until 15:00, then yellow 15:00 to 18:00 (was red 09:00 to 18:00); wind orange until 18:00 (was until 21:00); sea orange until 21:00, then yellow to 03:00 Thursday. Sent to the reviewer at 14:08 UTC. Web Summit's side not checked (no machine reads).
+- Terms checked before machine reads: IPMA's API conditions allow automated use (they ask users to email IPMA about their use: a send for a person, not done). Elevon: robots.txt allows automated readers. Luma: terms ambiguous ("bona fide uses ... through our publicly supported interfaces").
+- S57 (Wednesday's side events, curator's STORM-11NOV): held, not drafted. Three of its four sources are Luma pages; asked Vicky through the conductor (14:10 UTC) whether machine reads of Luma are fine, or a person reads them, or they are dropped.

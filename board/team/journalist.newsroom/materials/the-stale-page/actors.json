@@ -2,9 +2,9 @@
   "story": "the-stale-page",
   "from": "board/team/work-desk/traces/the-stale-page.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 6,
+  "steps": 9,
   "first": "2026-11-10T22:45:47Z",
-  "last": "2026-11-11T09:16:17Z",
+  "last": "2026-11-11T12:06:43Z",
   "actors": [
     {
       "actor": "Vicky Wang",
@@ -14,17 +14,17 @@
       "last": "2026-11-10T22:45:47Z",
       "span_minutes": 0,
       "handoffs_out": 1,
-      "handoffs_in": 0,
+      "handoffs_in": 1,
       "tokens": null
     },
     {
       "actor": "conductor.B@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 2,
+      "steps": 3,
       "first": "2026-11-11T07:49:48Z",
-      "last": "2026-11-11T09:10:40Z",
-      "span_minutes": 81,
-      "handoffs_out": 2,
+      "last": "2026-11-11T09:34:22Z",
+      "span_minutes": 105,
+      "handoffs_out": 3,
       "handoffs_in": 2,
       "tokens": null
     },
@@ -42,11 +42,11 @@
     {
       "actor": "dev@PrompTugal.dinis",
       "kind": "agent",
-      "steps": 1,
+      "steps": 2,
       "first": "2026-11-11T09:16:17Z",
-      "last": "2026-11-11T09:16:17Z",
-      "span_minutes": 0,
-      "handoffs_out": 1,
+      "last": "2026-11-11T10:15:24Z",
+      "span_minutes": 59,
+      "handoffs_out": 2,
       "handoffs_in": 1,
       "tokens": null
     },
@@ -64,6 +64,28 @@
     {
       "actor": "readers (promptugal.news)",
       "kind": "public",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "security@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T12:06:43Z",
+      "last": "2026-11-11T12:06:43Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "Dinis Cruz",
+      "kind": "person",
       "steps": 0,
       "first": null,
       "last": null,

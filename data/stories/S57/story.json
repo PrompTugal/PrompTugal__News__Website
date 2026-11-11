@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S57",
+  "type": "story",
+  "title": "Wednesday's side events: which have been postponed, moved or taken online",
+  "beat": "The summit",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:x-side-open-mercato",
+    "evidence:x-side-elevon",
+    "evidence:x-side-altair",
+    "evidence:x-side-founderlink"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-1340.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-1340.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-1340.json"
+    }
+  ]
+}

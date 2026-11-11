@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-11T10:55Z",
+  "updated": "2026-11-11T12:45Z",
   "done": [
+    "12:45 The live sources strip checked live (v0.1.1231): L1 to L6 pass, the storm site's update time read from its data, Lisbon Fringe beside it now live",
     "10:55 The live sources strip (Dinis 10:00: the storm site at the top, Lisbon Fringe beside it once live): board/spec-the-live-sources-strip.md, L1 to L6, pictures on the live home page; the storm page's S1 to S4 re-checked: pass",
     "08:45 The 11 November hand-over debrief; nothing new to check (inbox, articles' images all present)",
     "06:55 /storm/charles/ read in E (live, light and dark): four polish notes for dev@PrompTugal.vicky (board/spec-the-storm-page-e.md): blue rules off-brand (colour only for IPMA's levels), the timeline folded after five, no 'Now' in the nav, one 'Last checked' with its age",
@@ -111,7 +112,6 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check the live sources strip (L1 to L6) when dev@ ships it; Lisbon Fringe's look if its team asks (its brief allows reusing E)",
     "Check the summit now and the newsroom at work (H11, H12) when built; the storm page's E polish when Vicky approves v1",
     "Re-check /contribute/'s og:image",
     "Images for any new article (a table from its own table where the story is numbers)",
@@ -586,6 +586,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the live sources strip; the storm page's notes pass"
+    },
+    {
+      "started": "2026-11-11T12:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "live sources strip checked: pass"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

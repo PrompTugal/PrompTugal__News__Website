@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 5 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T09:59:23Z"
-site_version: "v0.1.1206"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T12:59:33Z"
+site_version: "v0.1.1236"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 5 of 5)
 
-76 cards, from `PUB.SITE outreach:2` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+78 cards, from `PUB.SITE organisations` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE organisations` | [Portugal's ecosystem organisations](https://promptugal.news/portugal/organisations/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE outreach` | [Outreach, what to send and samples](https://promptugal.news/investors/outreach/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE outreach:2` | [Contacto, qué enviar y ejemplos](https://promptugal.news/investors/es/outreach/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE outreach:3` | [Prise de contact, quoi envoyer et exemples](https://promptugal.news/investors/fr/outreach/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE outreach:4` | [Contactos, o que enviar e exemplos](https://promptugal.news/investors/pt/outreach/) | site | investors@ 7 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `PUB.SITE personas:4` | [Versões pessoais](https://promptugal.news/investors/pt/personas/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pitch` | [El pitch completo](https://promptugal.news/investors/es/pitch/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pitch:2` | [Le pitch en entier](https://promptugal.news/investors/fr/pitch/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE pitch:3` | [The pitch in full](https://promptugal.news/investors/pitch/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE pitch:4` | [O pitch na íntegra](https://promptugal.news/investors/pt/pitch/) | site | investors@ 7 Nov 2026 |
 
 **Cards 426 to 450**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE pitch:3` | [The pitch in full](https://promptugal.news/investors/pitch/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE pitch:4` | [O pitch na íntegra](https://promptugal.news/investors/pt/pitch/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE portugal` | [Portugal](https://promptugal.news/portugal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE profile` | [Your profile](https://promptugal.news/profile/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE pt` | [PrompTugal: a tese de investimento](https://promptugal.news/investors/decks/1-the-investment-case/pt/) | site | investors@ 7 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `PUB.SITE rules-of-engagement:2` | [Cómo colaborar](https://promptugal.news/investors/es/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE rules-of-engagement:3` | [Comment nous engager](https://promptugal.news/investors/fr/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE rules-of-engagement:4` | [Como avançar](https://promptugal.news/investors/pt/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE search` | [Search](https://promptugal.news/search/) | site | newsroom-interact@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE sequence` | [Todas las diapositivas de un vistazo](https://promptugal.news/investors/es/sequence/) | site | investors@ 7 Nov 2026 |
 
 **Cards 451 to 475**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE search` | [Search](https://promptugal.news/search/) | site | newsroom-interact@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE sequence` | [Todas las diapositivas de un vistazo](https://promptugal.news/investors/es/sequence/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE sequence:2` | [Toutes les diapositives d’un coup d’œil](https://promptugal.news/investors/fr/sequence/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE sequence:3` | [Todos os diapositivos num relance](https://promptugal.news/investors/pt/sequence/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE sequence:4` | [Every slide at a glance](https://promptugal.news/investors/sequence/) | site | investors@ 7 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `PUB.SITE what-works:4` | [O que funciona hoje](https://promptugal.news/investors/pt/what-works/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE who-we-want-to-hear-from` | [Who I want to hear from, and why now](https://promptugal.news/investors/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE who-we-want-to-hear-from:2` | [De quién quiero saber, y por qué ahora](https://promptugal.news/investors/es/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE who-we-want-to-hear-from:3` | [De qui je veux avoir des nouvelles, et pourquoi maintenant](https://promptugal.news/investors/fr/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE who-we-want-to-hear-from:4` | [De quem quero ouvir, e porquê agora](https://promptugal.news/investors/pt/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |
 
-**Cards 476 to 476**
+**Cards 476 to 478**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE who-we-want-to-hear-from:3` | [De qui je veux avoir des nouvelles, et pourquoi maintenant](https://promptugal.news/investors/fr/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE who-we-want-to-hear-from:4` | [De quem quero ouvir, e porquê agora](https://promptugal.news/investors/pt/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE world` | [The world map](https://promptugal.news/graph/world/) | site | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-4.md)

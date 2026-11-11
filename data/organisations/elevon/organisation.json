@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "elevon",
+  "type": "organisation",
+  "name": "Elevon",
+  "names_as_listed": [
+    "Elevon"
+  ],
+  "sources": [
+    {
+      "url": "https://elevon.io/websummit/night",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

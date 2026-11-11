@@ -1,6 +1,6 @@
 # Materials for the visualisers: the stale page
 
-Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-stale-page.json`, 09:40 UTC on 11 November: 6 steps, 6 actors, 5 hand-off edges). The story: `../../stories/the-stale-page.md`.
+Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-stale-page.json`, 12:45 UTC on 11 November: 9 steps, 8 actors, 7 hand-off edges). The story: `../../stories/the-stale-page.md`.
 
 | File | What it holds |
 |---|---|

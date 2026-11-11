@@ -6,8 +6,13 @@ sequenceDiagram
   participant A3 as dev@PrompTugal.dinis
   participant A4 as conductor@web-summit.dinis
   participant A5 as readers (promptugal.news)
+  participant A6 as security@PrompTugal.dinis
+  participant A7 as Dinis Cruz
   A0->>A1: 22:45 asks for a diagnosis, queued by conductor.B for dev@'s morning
   A1->>A2: 07:49 sent to Vicky's dev@
   A2->>A1: 07:53 diagnosis: the oldest kept copy wins, a 4-second race, query pages, max-age=600, ...
   A1->>A3: 09:10 diagnosis and proposed fix sent to the offline worker's owners
   A3->>A5: 09:16 the offline worker answers from its newest copy, a late network answer is kept ...
+  A1->>A0: 09:34 the fix verified live
+  A3->>A5: 10:15 a page from a kept copy always says so, and offers the newer one when it arrives
+  A6->>A7: 12:06 post-reviewed: clean

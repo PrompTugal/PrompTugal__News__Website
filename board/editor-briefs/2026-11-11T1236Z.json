@@ -1,0 +1,57 @@
+{
+ "number": 9,
+ "date": "2026-11-11",
+ "kicker": "pt.news · the conductor brief · Wednesday midday, the called-off day",
+ "title": "Wednesday midday: the site follows the storm, and Lisbon Fringe starts",
+ "when": "Wednesday 11 November 2026, 12:45 UTC (late for the 12:00 London stand-up: my wake is now every three hours)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "Since the Tuesday 18:00 brief: about 199 releases (v0.1.1033 to v0.1.1232). Web Summit called off Day 2 on the government's advice, and the site followed it overnight. At your word this morning, the home page now leads with the storm and today, with a live sources strip at the top linking the storm site and Lisbon Fringe. dev@ and dev.pages@ came back at 18:30 and carried The Front Page onto every page. The one block: the shared OpenRouter credit is spent.",
+ "stats": [
+  {"n": "199", "label": "releases since Tuesday 16:36 (v0.1.1033 to v0.1.1232)"},
+  {"n": "66", "label": "articles in content/articles"},
+  {"n": "E", "label": "The Front Page on every page since 19:xx Tuesday"},
+  {"n": "402", "label": "OpenRouter shared credit spent since about 05:00 UTC"}
+ ],
+ "for_you": [
+  {"group": "The one thing"},
+  {"id": "1", "ask": "Top up the shared OpenRouter credit", "detail": "social.watch@ is blocked since about 05:00 UTC, and every AI image or model check through the shared key stops until it is topped up."},
+  {"group": "Also yours"},
+  {"id": "2", "ask": "The press pass, sherpa@'s token on account B, the euro Stripe link", "detail": "Unchanged."}
+ ],
+ "you_asked": [
+  {"at": "Tue 14:35", "said": "The Front Page as the default design and theme, the entire site and the iOS app", "done": "home default E (15:50); the masthead on every page by dev@ (a9815a596) once dev@ was back; iOS with Indi's team", "where": "board/guidance/2026-11-10-the-front-page-default.md", "status": "done on the site"},
+  {"at": "Tue ~18:25", "said": "Vicky's reviewer may write the five S41 lead fields; security@ covers her team", "done": "routed to correspondent@ and conductor.B@; security@ checks reviewer@ within its five keys", "where": "board/guidance/2026-11-10-vickys-reviewer-and-security.md", "status": "done"},
+  {"at": "Tue ~20:40", "said": "A security agent to review the satellite loop, merge and push", "done": "cleared with one change (3e169093d), live v0.1.1074; stop-gap cleared by security@", "where": "conductor@web-summit.dinis's session", "status": "done"},
+  {"at": "Wed ~10:00", "said": "Pivot the site to now; link the storm site and use it as a source; Lisbon Fringe", "done": "routed 10:28; the live sources strip shipped by dev@ (9d9f5cf26), checked by designer@ (L1 to L6 pass)", "where": "board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md", "status": "running"},
+  {"at": "Wed ~10:45", "said": "Lisbon Fringe built by a swarm: one conductor per team member", "done": "relayed to conductor.b@ and conductor.B@vicky; fringe conductors' keys in (dinis, vicky, angelo); their inboxes issued", "where": "PrompTugal/PrompTugal__News__Fringe", "status": "running"}
+ ],
+ "team": [
+  {"id": "conductor@ (A)", "status": "old", "doing": "three-hourly wakes since Tue 20:25; relays from the incident team to Vicky's desk"},
+  {"id": "dev@, dev.pages@ (B)", "status": "old", "doing": "back since Tue 18:30: E site-wide, GAMMA-Ray cards, products in the graph, the stale-page fix, the live sources strip"},
+  {"id": "security@ (A)", "status": "old", "doing": "94 commits clean at 12:05; the offline fix post-reviewed"},
+  {"id": "Vicky's desk", "status": "old", "doing": "S41 storm lead; /storm/charles/; S48 to S56 published"},
+  {"id": "work desk", "status": "new", "doing": "reporter.newsroom@ traces (storm, categories, the fringe's start); journalist.newsroom@ drafts"},
+  {"id": "social.watch@", "status": "new", "doing": "sweep 12: 288 flights cancelled; 41 side events; blocked on OpenRouter"},
+  {"id": "conductor.fringe@ (dinis, vicky, angelo)", "status": "new", "doing": "Lisbon Fringe, the swarm"}
+ ],
+ "sections": [
+  {"title": "Since Tuesday 18:00", "items": [
+   "18:30: dev@ and dev.pages@ back at your 'Go dev'; The Front Page masthead on every page by 19:30",
+   "19:09 and 19:38: Web Summit calls off Day 2; the front page, the Wednesday page and the S44 note follow",
+   "20:48: the GAMMA-Ray cards shipped; the satellite loop live after a security review at your word",
+   "Overnight: article categories live; /storm/charles/ verified and live; products in the company graph",
+   "09:08: the offline worker's stale home page fixed by dev@ and verified live",
+   "11:48: the live sources strip (the storm site and Lisbon Fringe) at the top of the home page"
+  ]},
+  {"title": "The storm, as read by Vicky's desk", "items": [
+   "IPMA moved Lisbon's red rain to 09:00 to 18:00 and lowered the wind to orange (09:00 to 21:00)",
+   "IPMA communiqué no. 3 at 12:36: Charles weaker than forecast; Lisbon warnings unchanged",
+   "The storm site is a pointer-only source on S41, at Vicky's word"
+  ]}
+ ],
+ "images": [
+  {"path": "board/editor-briefs/img/2026-11-11T1236Z-then-and-now.jpg", "caption": "The site, then and now (v0.1.1232)"}
+ ],
+ "next": ["Thursday 12 November: Day 3, to go ahead as planned", "The 18:00 stand-up brief at the 15:36 wake (three-hourly)"],
+ "sources": ["board/WS-177-plan.md", "board/guidance/2026-11-1*.md", "git log of dev since Tuesday 16:36 UTC"]
+}

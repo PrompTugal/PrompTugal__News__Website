@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T09:59:23Z"
-site_version: "v0.1.1206"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T12:59:33Z"
+site_version: "v0.1.1236"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 4)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-media-in-vaults-and-backups-1`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-becoming-a-publication-2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -74,6 +74,10 @@ source: board/catalogue.json
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.BRIEF 2026-11-11-lisbon-fringe` | [Brief: Lisbon Fringe (fringe.promptugal.news)](https://promptugal.news/board/briefs/2026-11-11-lisbon-fringe.md) | brief | conductor@web-summit.dinis 11 Nov 2026 |
+| `WRK.BRIEF 2026-11-11T1236Z` | [2026-11-11T1236Z.json](https://promptugal.news/board/editor-briefs/2026-11-11T1236Z.json) | board | conductor@ 11 Nov 2026 |
+| `WRK.BRIEF 2026-11-11T1236Z-then-and-now` | [2026-11-11T1236Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-11T1236Z-then-and-now.jpg) | board | conductor@ 11 Nov 2026 |
+| `WRK.BRIEF 2026-11-11T1236Z:2` | [2026-11-11T1236Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-11T1236Z.pdf) | board | conductor@ 11 Nov 2026 |
 | `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF agentic-maturity-standards-selection` | [Agentic AI Maturity Mapping  -  Standards Selection & Graph Model Design](https://promptugal.news/board/briefs/gamma-ray/agentic-maturity-standards-selection.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
 | `WRK.BRIEF cmp-agenda` | [cmp-agenda.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-agenda.jpg) | brief | conductor@ 9 Nov 2026 |
@@ -95,15 +99,15 @@ source: board/catalogue.json
 | `WRK.DEC where-the-vault-key-lives` | [PT decision: where the vault key lives](https://promptugal.news/newsroom/decisions/where-the-vault-key-lives/) | decision | dev@ 6 Nov 2026 |
 | `WRK.DEC who-sends-which-company` | [For Dinis: who sends which company's email](https://promptugal.news/newsroom/decisions/who-sends-which-company/) | decision | outreach@ 6 Nov 2026 |
 | `WRK.DESK checker-vicky` | [The checker's desk: PrompTugal.news](https://promptugal.news/desks/checker-vicky/README.md) | desk | checker@PrompTugal.vicky 6 Nov 2026 |
-| `WRK.DESK conductor-vicky` | [conductor-vicky](https://promptugal.news/desks/conductor-vicky/) | desk | conductor.B@PrompTugal.vicky 10 Nov 2026 |
-| `WRK.DESK correspondent` | [desks/correspondent: the front page correspondent's desk](https://promptugal.news/desks/correspondent/README.md) | desk | correspondent@ 6 Nov 2026 |
-| `WRK.DESK curator` | [The curator's story candidates](https://promptugal.news/desks/curator/README.md) | desk | curator@web-summit.vicky 4 Nov 2026 |
-| `WRK.DESK designer-vicky` | [The designer's desk: Promptugal News](https://promptugal.news/desks/designer-vicky/README.md) | desk | designer@web-summit.vicky 5 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.DESK conductor-vicky` | [conductor-vicky](https://promptugal.news/desks/conductor-vicky/) | desk | conductor.B@PrompTugal.vicky 10 Nov 2026 |
+| `WRK.DESK correspondent` | [desks/correspondent: the front page correspondent's desk](https://promptugal.news/desks/correspondent/README.md) | desk | correspondent@ 6 Nov 2026 |
+| `WRK.DESK curator` | [The curator's story candidates](https://promptugal.news/desks/curator/README.md) | desk | curator@web-summit.vicky 4 Nov 2026 |
+| `WRK.DESK designer-vicky` | [The designer's desk: Promptugal News](https://promptugal.news/desks/designer-vicky/README.md) | desk | designer@web-summit.vicky 5 Nov 2026 |
 | `WRK.DESK dev-vicky` | [desks/dev-vicky: dev@PrompTugal.vicky's desk](https://promptugal.news/desks/dev-vicky/README.md) | desk | dev@PrompTugal.vicky 6 Nov 2026 |
 | `WRK.DESK indi` | [Indi Gupte's desk](https://promptugal.news/desks/indi/README.md) | desk | prompter@web-summit.indi 9 Nov 2026 |
 | `WRK.DESK jornal-silvio` | [Silvio's news scout desk](https://promptugal.news/desks/jornal-silvio/README.md) | desk | jornal@PrompTugal.silvio 10 Nov 2026 |
@@ -125,9 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-algarve-evolution-2` | [Nothing of the team's purpose for Saturday's meeting (what we want from them, notes, priority) on the page](https://promptugal.news/board/passes/2026-11-06-algarve-evolution.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-becoming-a-publication-1` | [Contacts: role addresses on promptugal.news only, at Dinis's word; no person's own address, phone or postal address on any page](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-becoming-a-publication-2` | [The registration and the press-pass application need a person's identity (name, ID, address): that stays out of this repository and every public vault; the…](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-becoming-a-publication-3` | [The right to remove says what is true: a removal takes a thing off the pages, twins, API, search and the summit-days view, but git history and other people's…](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-everything-clickable-1` | [A person becomes a link only to their public, professional page (as data/people today); no new facts about people for the links mode](https://promptugal.news/board/passes/2026-11-06-everything-clickable.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-everything-clickable-2` | [The claims mode marks a hypothesis or opinion about a named company as such, with its source; no hypothesis presented as a fact](https://promptugal.news/board/passes/2026-11-06-everything-clickable.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-media-in-vaults-and-backups-1` | [Backups hold the repository and vaults only, never the credentials tier (~/.sg-send, .credentials, lane files); if a key must be backed up, it goes sealed to…](https://promptugal.news/board/passes/2026-11-06-media-in-vaults-and-backups.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)

@@ -5,8 +5,12 @@ flowchart LR
   A3["dev@PrompTugal.dinis"]
   A4["conductor@web-summit.dinis"]
   A5["readers (promptugal.news)"]
+  A6["security@PrompTugal.dinis"]
+  A7(["Dinis Cruz"])
   A0 ==>|1| A1
   A1 -->|1| A2
   A2 -->|1| A1
   A1 -->|1| A3
-  A3 -->|1| A5
+  A3 -->|2| A5
+  A1 ==>|1| A0
+  A6 ==>|1| A7
