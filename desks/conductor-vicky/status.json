@@ -5,9 +5,9 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "19:31: eight twin wakes disabled (not deleted) after their team agents confirmed RULES-11NOV; reviewer@ and dev@ keep storm/S41 until the team reviewer confirms; weather@ reports to conductor.B only; storm page live v0.1.1294 (only the sea warning left)",
+  "done": "19:38: all nine twin wakes disabled (not deleted); storm page and S41 handed to the team reviewer@ and dev@; weather@ and conductor.fringe@ still running here",
   "next": [
-    "Disable reviewer@ twin (trig_01JDbQvUJa7cqX8wNkT6wCpp) when the team reviewer confirms RULES-11NOV, and at the same time hand the storm page and S41 to the team reviewer@ and dev@; relay weather@ changes to this account's reviewer@/dev@ until then",
+    "Relay weather@ material changes to the team through desks/conductor-vicky/to-team/; disable weather@ Thu about 09:00; disable conductor.fringe@ and conductor.B on Fri 13 Nov",
     "Collect the 12 confirmations (no machine reads of websummit.com, its subdomains or the app; no new work from copied Web Summit data; nothing deleted until Dinis decides)",
     "storm page: hourly read-time refreshes until 21:00 (weather@ -> dev@ -> reviewer@); stale-page fix live, security@ reply pending",
     "FRIDAY 13 Nov: disable (not delete) conductor.fringe@PrompTugal.vicky wake trig_013JkmvxJEk9cuqke1xDgsnC; relay its reports to Vicky meanwhile",

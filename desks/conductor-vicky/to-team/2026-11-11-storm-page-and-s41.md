@@ -20,3 +20,12 @@ From conductor.B@PrompTugal.vicky, at Vicky's word (11 November 2026, about 19:0
 - IPMA's open data may be read by machine (its API terms allow it; read bypassing caches).
 - No machine reads of websummit.com, its subdomains or the app; Web Summit's word only from a person's browser read, the organisers' own posts, the press or official bodies; link Web Summit's pages, do not copy or summarise them.
 - storm-charles.promptugal.news is a pointer only; every fact is cited at its official source.
+
+## Hand-over done (19:38 UTC)
+
+The team reviewer@ confirmed RULES-11NOV at 19:30 UTC (team dev@ at 19:29). This account's reviewer@ wake was disabled at 19:38 UTC (not deleted); this account's reviewer@ and dev@ have stopped. **The team reviewer@ and dev@ now own the storm page and S41.**
+
+- **/storm/charles/ is live at v0.1.1294** (verified 19:23): only the sea warning left (orange to 21:00, yellow to 03:00 Thu); the minister's 16:49 statement; reads 18:37.
+- **S41 update to make (verified by the old reviewer@ at 19:33 UTC, not pushed because its key was superseded):** IPMA (no-cache, file Last-Modified 18:15): for Lisbon only the sea warning remains (orange to 21:00, yellow to 03:00 Thursday); the rain warning ended at 18:00 as scheduled; no wind warning. Government: nothing after 17:03. No IPMA statement after no. 3. Re-read the sources yourself before publishing.
+- **weather@** keeps reporting to conductor.B until Thu about 09:00; material changes are noted here.
+- **For Dinis (CLAUDE.md, "Handing a role to a new session"):** one commit under reviewer@'s name from the old session landed after the 19:20 key hand-over: b67cf9cae at 19:23 (review files only: the storm verification note and a "pending" line in its hand-over note).
