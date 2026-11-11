@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1204",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (09:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "a8ae10f0d"
+  },
+  {
     "version": "v0.1.1203",
     "date": "2026-11-11",
     "what": "sherpa@PrompTugal.dinis: 09:29 wake: ST1 done: the storm page dated to the latest IPMA read (v0.1.1202)",
