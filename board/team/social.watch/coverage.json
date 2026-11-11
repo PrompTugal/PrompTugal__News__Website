@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T11:52Z",
+  "updated": "2026-11-11T12:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -121,6 +121,14 @@
       "at": "2026-11-11T11:51Z",
       "families": [
         "my own check: MeteoAlarm CAP, Web Summit's blog, Mastodon, CNN Portugal live, the team's commits"
+      ],
+      "items": 1
+    },
+    {
+      "n": 13,
+      "at": "2026-11-11T12:51Z",
+      "families": [
+        "my own check: MeteoAlarm CAP, the press, Mastodon, the team's commits (websummit.com no longer read by machine)"
       ],
       "items": 1
     }
@@ -3320,7 +3328,32 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-11T11:52Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 12)"
+    },
+    {
+      "url": "https://24noticias.sapo.pt/atualidade/artigos/web-summit-confirma-regresso-na-quinta-feira-apos-cancelamento-devido-ao-mau-tempo",
+      "platform": "24 Notícias",
+      "author": "24 Notícias",
+      "kind": "article",
+      "title": "Web Summit confirma regresso na quinta-feira após cancelamento devido ao mau tempo",
+      "quote": "a quinta-feira mais movimentada de sempre da Web Summit",
+      "published": "2026-11-11T11:49",
+      "topics": [
+        "storm",
+        "summit"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "From Web Summit's message to participants: reopens Thursday 12 November for the last day; some of Wednesday's sessions rescheduled to Thursday (not listed); more speakers and meetings than any previous Thursday. Nothing on PITCH or refunds.",
+      "family": "news and blogs",
+      "found": "2026-11-11T12:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 13)"
     }
   ],
-  "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."
+  "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",
+  "websummit_terms": "Since 2026-11-11T12:53Z: websummit.com is no longer read by machine (Web Summit's Terms 48.2 and 52.1 forbid automated reading, found by Dinis's incident team, which stopped at 05:27 UTC on 11 November). Earlier items from websummit.com were read by machine between 10 November 18:45 and 11 November 12:52 UTC and stay as the record; new Web Summit word comes through the press and the organisers' public posts."
 }
