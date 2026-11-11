@@ -762,6 +762,18 @@
       "PrompTugal__App__iOS": "3ce861bf",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). Correction to the 00:25 and 03:25 lines: no wake was missed; this task's schedule was changed to every 3 hours (24 */3) at 20:25 UTC on 10 Nov. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "7baba27a",
+      "PrompTugal__News__Website": "3c71bc37",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "f8e5589a",
+      "PrompTugal__News__Storm-Charles": "d058ffb9",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-11T09:14Z",
+      "note": "Storm day: red rain window open (09:00); IPMA wind orange since 07:16 (CAP), now in open data too. No organisers' word on Day 3. Vicky's /storm/charles/ page updated; S55 published. conductor.B@.vicky diagnosed a stale home-page copy served by the offline worker (3c71bc37), proposed fix for dev@PrompTugal.dinis and security@. Lanes empty. Open for Dinis: OpenRouter credit (402), the websummit.com polling hold."
     }
   ]
 }
