@@ -5,7 +5,7 @@
   "title": "Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed",
   "beat": "The summit",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:x-carris-alert",
     "evidence:x-fertagus-alert",
@@ -17,23 +17,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-11-0300.json"
+      "desks/curator/2026-11-11-0300.json",
+      "desks/journalist-vicky/drafts/S51-getting-around-lisbon-wednesday.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S51-getting-around-lisbon-wednesday.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-11",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-11-0300.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S51-getting-around-lisbon-wednesday.md"
     }
   ]
 }
