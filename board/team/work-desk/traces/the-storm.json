@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T18:45Z",
+  "updated": "2026-11-11T21:50Z",
   "covers": {
     "from": "2026-11-10T13:23:00Z",
-    "to": "2026-11-11T18:15:47Z",
-    "last_commit": "2da26a1ea"
+    "to": "2026-11-11T20:43:04Z",
+    "last_commit": "3d5587c9e"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -3093,6 +3093,138 @@
       "evidence": [
         "commit:2da26a1ea"
       ]
+    },
+    {
+      "n": 143,
+      "time_utc": "2026-11-11T18:38:24Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "18:37 check",
+      "output": "only Lisbon's sea warning remains",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:f46f9f159",
+        "commit:9b45f0a5e (storm page staged)"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 144,
+      "time_utc": "2026-11-11T18:45:24Z",
+      "actor": {
+        "name": "correspondent@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "Thursday's edition",
+      "output": "S41 keeps the lead until the storm page has another link (moved at 20:41: the lead to Thursday, the storm to the top three)",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:a46125ffc",
+        "commit:3d5587c9e"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 145,
+      "time_utc": "2026-11-11T19:07:31Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's word",
+      "output": "weather@ reports to conductor.B only (from 19:05); the storm page and S41 move to the team account's reviewer@ and dev@, then (19:18, Vicky's correction) stay until the team ones confirm the rules; handed over at 19:39",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:379f8cd55",
+        "commit:0d082177c",
+        "commit:0f22d6eb3",
+        "commit:ceec6b648"
+      ],
+      "hand_off": "person->agent (the storm desk changes hands mid-story: the-handover.json)"
+    },
+    {
+      "n": 146,
+      "time_utc": "2026-11-11T19:25:16Z",
+      "actor": {
+        "name": "dev@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the lead moving off the storm",
+      "output": "the home page links the storm page from the live sources strip, whatever leads",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:87e0942d7"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 147,
+      "time_utc": "2026-11-11T19:51:10Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "IPMA, read 19:48 (the team account's reviewer)",
+      "output": "S41: only Lisbon's sea warning remains; rain ended at 18:00",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:641aa1ff1"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "the last warning update of the storm",
+      "note": "The first S41 update by the team account's session."
+    },
+    {
+      "n": 148,
+      "time_utc": "2026-11-11T20:36:56Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "20:36 check",
+      "output": "no material change; Fertagus expects no disruption for the rest of the day",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:be5c9845e"
+      ],
+      "hand_off": "agent->agent",
+      "note": "The storm's watch reduced to the sea warning; the weather desk's wake is due off on Thursday about 09:00 (step 125)."
     }
   ],
   "hand_offs_person_agent": [
@@ -3154,7 +3286,9 @@
     133,
     137,
     138,
-    140
+    140,
+    145,
+    147
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -3463,8 +3597,9 @@
   "related_traces": [
     "the-categories.json",
     "the-discovery.json",
-    "the-stale-page.json",
     "the-fringe.json",
+    "the-handover.json",
+    "the-stale-page.json",
     "the-terms.json"
   ],
   "lessons": [
@@ -3483,5 +3618,6 @@
       ],
       "lesson": "a cached read is a second kind of stale source: the weather desk caught its own at 16:45 and corrected it in a commit."
     }
-  ]
+  ],
+  "status": "winding down: only the sea warning; the lead moved to Thursday at 20:41"
 }

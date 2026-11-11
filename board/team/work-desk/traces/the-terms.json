@@ -5,11 +5,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T18:45Z",
+  "updated": "2026-11-11T21:50Z",
   "covers": {
     "from": "2026-11-11T05:27:00Z",
-    "to": "2026-11-11T15:58:07Z",
-    "last_commit": "24ca6656c"
+    "to": "2026-11-11T21:26:42Z",
+    "last_commit": "1649d9879"
   },
   "method": "commit subjects, a few bodies, conductor.B's status lines and the weather desk's README; commit times (UTC).",
   "steps": [
@@ -435,6 +435,91 @@
         "commit:9ea49958c"
       ],
       "note": "The rule crosses from Vicky's desks to Dinis's agent."
+    },
+    {
+      "n": 20,
+      "time_utc": "2026-11-11T18:50:00Z",
+      "actor": {
+        "name": "Dinis Cruz",
+        "kind": "person"
+      },
+      "input": "security@'s S39, after talking with Vicky",
+      "output": "what rests only on websummit.com comes off the site, with a note on each page; shadow sources and Dinis's own captures bring it back; a recovery page shows the path, Lisbon Fringe the showcase",
+      "hand_off_to": [
+        {
+          "name": "conductor@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
+        "board/passes/2026-11-11-only-websummit-sourced-comes-off.md"
+      ],
+      "hand_off": "person->agent",
+      "workflow_step": "the open question (S39) answered: 4 h 15 min after Dinis's first answer"
+    },
+    {
+      "n": 21,
+      "time_utc": "2026-11-11T21:13:22Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's word (about 21:20 by the team site's decisions file), relaying Dinis's decision",
+      "output": "S58 leads the front page in place of S54 before S54 comes down",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:19222f023"
+      ],
+      "hand_off": "person->person->agent (Dinis decides, Vicky orders the steps)"
+    },
+    {
+      "n": 22,
+      "time_utc": "2026-11-11T21:23:08Z",
+      "actor": {
+        "name": "conductor@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "Dinis's words",
+      "output": "guidance and a pass; routed to security@ (pre-review), ontologist@, dev@, dev.data@, dev.pages@, designer@, journalist@, researcher@, correspondent@, sherpa@, historian@, accountant@, conductor.B@vicky and conductor.fringe@",
+      "hand_off_to": [
+        {
+          "name": "fourteen agents",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:2bc009494"
+      ],
+      "hand_off": "agent->agents",
+      "note": "Recorded here 2 h 33 min after Dinis spoke; Vicky's desk had already begun (step 21)."
+    },
+    {
+      "n": 23,
+      "time_utc": "2026-11-11T21:26:42Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's task (step 2 of her takedown plan, group A)",
+      "output": "13 articles and story pages S44, S47, S49 withdrawn: 'Withdrawn on 11 November 2026.' at each of 16 addresses, noindex, out of every list, search, sitemap and llms.txt; nothing deleted",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:1649d9879",
+        "data/site/withdrawn.json"
+      ],
+      "hand_off": "person->agent",
+      "workflow_step": "the takedown, built as a feature with its own gate check"
     }
   ],
   "hand_offs_person_agent": [
@@ -448,7 +533,10 @@
     14,
     15,
     17,
-    19
+    19,
+    20,
+    21,
+    23
   ],
   "speeds": [
     {
@@ -468,6 +556,12 @@
       "from_step": 11,
       "to_step": 14,
       "minutes": 24
+    },
+    {
+      "what": "Dinis's takedown decision to the first withdrawal",
+      "from_step": 20,
+      "to_step": 23,
+      "minutes": 157
     }
   ],
   "pattern": "a compliance rule travels slowly between teams (7 h 19 min from the incident team to Vicky's desks, through a watch line nobody acted on) and fast within one (eleven confirmations in 24 minutes). Where the agents may not read, a person reads (Vicky, 13:10). The agents disclose their own earlier reads.",
@@ -477,7 +571,7 @@
     "the-fringe.json"
   ],
   "open": [
-    "S39: what to do with Web Summit data read before the terms were known (Dinis)",
+    "the shadow sources pass (board/passes/2026-11-11-only-websummit-sourced-comes-off.md)",
     "Luma, Meetup and Eventbrite terms (Dinis)"
   ]
 }
