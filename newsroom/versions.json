@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1271",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: correction: 16:36 IPMA read was cached; at 16:45 Lisbon wind green, rain yellow to 18:00, sea orange to 21:00",
+    "by": "weather@PrompTugal.vicky",
+    "from": "fec9e41eb"
+  },
+  {
     "version": "v0.1.1270",
     "date": "2026-11-11",
     "what": "correspondent@PrompTugal.dinis: wake 16:41: the storm easing; Thursday's swap set for 18:41",
