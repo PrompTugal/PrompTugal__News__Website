@@ -2116,7 +2116,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 38
+        "count": 39
       },
       {
         "as_listed": "Xiaomi",
@@ -2136,6 +2136,11 @@
       {
         "as_listed": "Xynova",
         "ref": "organisation:xynova",
+        "count": 1
+      },
+      {
+        "as_listed": "Zalando",
+        "ref": "organisation:zalando",
         "count": 1
       },
       {
