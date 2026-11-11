@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 11 Nov 19:37: checked 19:37 UTC (IPMA file modified 19:15, cache bypassed), no change since 18:37. Reported to conductor.B.
 - 11 Nov 18:37: checked 18:37 UTC (IPMA file modified 18:15, cache bypassed): the yellow rain warning ended at 18:00 as scheduled; Lisbon's only warning left is the sea, orange to 21:00 then yellow to Thursday 03:00. The government's alert, ANEPC and transport unchanged (Fertagus normal at 18:10). Read times sent to dev@ and the reviewer.
 - 11 Nov 17:41: checked 17:41 UTC (IPMA file modified 17:15, cache bypassed), no change since 16:45. Read times sent to dev@ and the reviewer.
 - 11 Nov 16:45: **correction**, IPMA re-read bypassing caches ([warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json), file modified 16:15 UTC): Lisbon **wind green (no wind warning)**; rain yellow 15:56 to 18:00; sea orange 15:56 to 21:00, then yellow to Thursday 03:00. Lisbon's warnings end at 18:00 apart from the sea. My 16:36 read was a cached copy; dev@'s 16:37 read was right. Reviewer, dev@ and conductor.B told.
