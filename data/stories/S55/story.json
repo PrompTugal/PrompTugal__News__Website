@@ -5,7 +5,7 @@
   "title": "The EU says TikTok's For You feed may breach its platform law: what it found, and what happens next",
   "beat": "Europe",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:x-eu-tiktok-prelim"
   ],
@@ -16,7 +16,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-11-0755.json",
-      "desks/journalist-vicky/drafts/S55-tiktok-for-you-dsa-preliminary-finding.md"
+      "desks/journalist-vicky/drafts/S55-tiktok-for-you-dsa-preliminary-finding.md",
+      "desks/reviewer-vicky/reviews/S55.md",
+      "content/articles/tiktok-for-you-dsa-preliminary-finding.md"
     ]
   },
   "assignee": "journalist-europe@PrompTugal.vicky",
@@ -24,10 +26,27 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S55-tiktok-for-you-dsa-preliminary-finding.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S55.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/tiktok-for-you-dsa-preliminary-finding.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S55.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-11",
@@ -39,6 +58,12 @@
       "at": "2026-11-11",
       "by": "journalist-europe@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S55-tiktok-for-you-dsa-preliminary-finding.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "content/articles/tiktok-for-you-dsa-preliminary-finding.md"
     }
   ]
 }
