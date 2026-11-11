@@ -108,8 +108,62 @@
       "hand_off": "agent->agent",
       "workflow_step": "the developer builds it: 6 minutes after the plan reached its owner",
       "minute": 631
+    },
+    {
+      "id": "s007",
+      "time": "2026-11-11T09:34:22Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "v-live",
+      "output": "the fix verified live",
+      "handoff_to": [
+        "Vicky Wang"
+      ],
+      "evidence": [
+        "commit:f6f1d1c44"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person",
+      "workflow_step": null,
+      "minute": 649
+    },
+    {
+      "id": "s008",
+      "time": "2026-11-11T10:15:24Z",
+      "actor": "dev@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "its own fix",
+      "output": "a page from a kept copy always says so, and offers the newer one when it arrives",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:a537fb5ea"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 690
+    },
+    {
+      "id": "s009",
+      "time": "2026-11-11T12:06:43Z",
+      "actor": "security@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "the fix",
+      "output": "post-reviewed: clean",
+      "handoff_to": [
+        "Dinis Cruz"
+      ],
+      "evidence": [
+        "commit:daa1650fa"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person",
+      "workflow_step": null,
+      "minute": 801
     }
   ],
   "first": "2026-11-10T22:45:47Z",
-  "last": "2026-11-11T09:16:17Z"
+  "last": "2026-11-11T12:06:43Z"
 }

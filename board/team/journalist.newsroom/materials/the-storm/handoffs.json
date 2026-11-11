@@ -2,9 +2,9 @@
   "story": "the-storm",
   "from": "board/team/work-desk/traces/the-storm.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 119,
+  "steps": 129,
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T09:12:07Z",
+  "last": "2026-11-11T11:52:33Z",
   "handoffs": [
     {
       "from": "Lisbon's mayor",
@@ -42,7 +42,7 @@
     {
       "from": "reviewer@PrompTugal.vicky",
       "to": "readers (promptugal.news)",
-      "count": 10,
+      "count": 11,
       "times": [
         "2026-11-10T14:36:22Z",
         "2026-11-10T17:27:34Z",
@@ -53,7 +53,8 @@
         "2026-11-10T22:10:27Z",
         "2026-11-10T23:56:45Z",
         "2026-11-11T03:11:29Z",
-        "2026-11-11T08:45:39Z"
+        "2026-11-11T08:45:39Z",
+        "2026-11-11T11:06:36Z"
       ],
       "person_agent": false
     },
@@ -81,18 +82,20 @@
     {
       "from": "conductor.B@PrompTugal.vicky",
       "to": "weather@PrompTugal.vicky",
-      "count": 3,
+      "count": 5,
       "times": [
         "2026-11-10T16:52:21Z",
         "2026-11-10T17:22:11Z",
-        "2026-11-10T17:50:12Z"
+        "2026-11-10T17:50:12Z",
+        "2026-11-11T10:40:08Z",
+        "2026-11-11T10:55:26Z"
       ],
       "person_agent": false
     },
     {
       "from": "weather@PrompTugal.vicky",
       "to": "reviewer@PrompTugal.vicky",
-      "count": 13,
+      "count": 14,
       "times": [
         "2026-11-10T16:56:01Z",
         "2026-11-10T17:02:30Z",
@@ -106,7 +109,8 @@
         "2026-11-10T21:38:00Z",
         "2026-11-10T22:36:43Z",
         "2026-11-10T23:41:00Z",
-        "2026-11-11T08:41:09Z"
+        "2026-11-11T08:41:09Z",
+        "2026-11-11T09:48:52Z"
       ],
       "person_agent": false
     },
@@ -232,9 +236,10 @@
     {
       "from": "conductor.B@PrompTugal.vicky",
       "to": "reviewer@PrompTugal.vicky",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-10T17:22:11Z"
+        "2026-11-10T17:22:11Z",
+        "2026-11-11T10:40:08Z"
       ],
       "person_agent": false
     },
@@ -397,9 +402,10 @@
     {
       "from": "Dinis Cruz",
       "to": "conductor@web-summit.dinis",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-10T18:25:00Z"
+        "2026-11-10T18:25:00Z",
+        "2026-11-11T10:00:00Z"
       ],
       "person_agent": true
     },
@@ -427,13 +433,14 @@
     {
       "from": "social.watch@PrompTugal.dinis",
       "to": "conductor@web-summit.dinis",
-      "count": 5,
+      "count": 6,
       "times": [
         "2026-11-10T18:50:58Z",
         "2026-11-10T19:53:26Z",
         "2026-11-10T20:57:17Z",
         "2026-11-11T07:52:27Z",
-        "2026-11-11T07:54:20Z"
+        "2026-11-11T07:54:20Z",
+        "2026-11-11T11:52:33Z"
       ],
       "person_agent": false
     },
@@ -450,13 +457,14 @@
     {
       "from": "dev@PrompTugal.vicky",
       "to": "reviewer@PrompTugal.vicky",
-      "count": 5,
+      "count": 6,
       "times": [
         "2026-11-10T18:51:50Z",
         "2026-11-10T22:22:50Z",
         "2026-11-10T23:55:44Z",
         "2026-11-11T00:09:38Z",
-        "2026-11-11T09:01:51Z"
+        "2026-11-11T09:01:51Z",
+        "2026-11-11T09:43:15Z"
       ],
       "person_agent": false
     },
@@ -611,9 +619,10 @@
     {
       "from": "dev@PrompTugal.vicky",
       "to": "readers (promptugal.news)",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-11T00:40:06Z"
+        "2026-11-11T00:40:06Z",
+        "2026-11-11T11:00:03Z"
       ],
       "person_agent": false
     },
@@ -647,9 +656,37 @@
     {
       "from": "weather@PrompTugal.vicky",
       "to": "dev@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-11T08:41:09Z",
+        "2026-11-11T09:48:52Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "designer@PrompTugal.dinis",
+      "to": "dev@PrompTugal.dinis",
       "count": 1,
       "times": [
-        "2026-11-11T08:41:09Z"
+        "2026-11-11T10:37:09Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "curator@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T10:40:08Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "dev@PrompTugal.dinis",
+      "to": "readers (promptugal.news)",
+      "count": 1,
+      "times": [
+        "2026-11-11T11:24:52Z"
       ],
       "person_agent": false
     }

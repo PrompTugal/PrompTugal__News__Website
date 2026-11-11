@@ -1,0 +1,131 @@
+{
+  "story": "the-fringe",
+  "from": "board/team/work-desk/traces/the-fringe.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 9,
+  "first": "2026-11-11T10:00:00Z",
+  "last": "2026-11-11T12:17:35Z",
+  "actors": [
+    {
+      "actor": "Dinis Cruz",
+      "kind": "person",
+      "steps": 1,
+      "first": "2026-11-11T10:00:00Z",
+      "last": "2026-11-11T10:00:00Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "conductor@web-summit.dinis",
+      "kind": "agent",
+      "steps": 2,
+      "first": "2026-11-11T10:28:45Z",
+      "last": "2026-11-11T12:17:35Z",
+      "span_minutes": 109,
+      "handoffs_out": 1,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.fringe@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T10:47:38Z",
+      "last": "2026-11-11T10:47:38Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "social.watch@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T10:30:42Z",
+      "last": "2026-11-11T10:30:42Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "Lisbon Fringe's team",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.B@ios.PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T10:40:00Z",
+      "last": "2026-11-11T10:40:00Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "conductor@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.B@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T11:02:52Z",
+      "last": "2026-11-11T11:02:52Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.fringe@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.fringe@PrompTugal.angelo",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T11:30:17Z",
+      "last": "2026-11-11T11:30:17Z",
+      "span_minutes": 0,
+      "handoffs_out": 0,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "security@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T12:06:43Z",
+      "last": "2026-11-11T12:06:43Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    }
+  ]
+}
