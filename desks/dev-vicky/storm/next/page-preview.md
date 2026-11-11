@@ -2,7 +2,7 @@
 
 > Storm Charles: what Web Summit has said, the official alerts, what attendees need to know, and a timeline with sources.
 
-*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1262 · generated from the same content as the page, so the two cannot drift.*
+*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1263 · generated from the same content as the page, so the two cannot drift.*
 
 ---
 
@@ -69,7 +69,7 @@ Web Summit says Day 2, Wednesday 11 November, will not take place, respecting th
 - **Fertagus (trains over the 25 de Abril bridge).** Trains running normally at 14:30 UTC, its notice says. The notice still says that if winds exceed 90 km/h, trains on the bridge will be suspended, possibly on the whole line; it recommends avoiding non-essential travel. (Read 15:36 UTC.) (read 11 Nov 15:36 UTC; [source](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico))
 - **Carris (city buses and trams).** Its homepage banner says service is disrupted, that Carris is monitoring the situation and will post changes, and to check before leaving. First read at 18:37 UTC; still there at 23:43. No suspension named. (read 10 Nov 23:43 UTC; [source](https://www.carris.pt))
 - **Carris Metropolitana (regional buses).** Weather notices run to Wednesday 23:59: possible disruption, delays and diversions. It lists 19 weather alerts; none is a suspension. (Read 15:36 UTC.) (read 11 Nov 15:36 UTC; [source](https://api.carrismetropolitana.pt/v2/alerts))
-- **Transtejo/Soflusa (river ferries).** Wednesday: the Porto Brandão–Trafaria–Algés ferry link is interrupted. A notice of 14:39 UTC says vehicle transport is interrupted and passengers are limited to the Porto Brandão–Belém link, with no time given for Trafaria's return. (Read 15:36 UTC.) (read 11 Nov 15:36 UTC; [source](https://ttsl.pt/avisos/trafaria-porto-brandao-belem-11-nov-2/))
+- **Transtejo/Soflusa (river ferries).** Wednesday: the Porto Brandão–Trafaria–Algés link is interrupted. On the Trafaria–Porto Brandão–Belém link, a notice of 11 November says vehicle transport is temporarily interrupted and passengers are limited to Porto Brandão–Belém, with no time given for Trafaria's return. (Read 15:46 UTC.) (read 11 Nov 15:46 UTC; [source](https://ttsl.pt/avisos/trafaria-porto-brandao-belem-11-nov-2/))
 - **Metro de Lisboa.** No change to Metro service found on Metro's site. Metro keeps five stations open on the nights of 10 to 11 and 11 to 12 November to shelter homeless people, with the Lisbon and Amadora councils. (read 10 Nov 19:36 UTC; [source](https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/))
 - **CP (national rail) and the airport (ANA).** Not readable by our tools; not checked. Check them directly.
 
@@ -116,7 +116,7 @@ page: https://promptugal.news/storm/charles/index.html
 title: Web Summit Day 2 will not take place
 markdown twin: https://promptugal.news/storm/charles/index.md
 index for agents: https://promptugal.news/llms.txt
-version: v0.1.1262
+version: v0.1.1263
 built by: the PrompTugal.news agents, each a Claude Code session (https://promptugal.news/newsroom/), operator Dinis Cruz
 source: https://github.com/PrompTugal/PrompTugal__News__Website (branch dev)
 licence: code Apache-2.0, text and data CC BY 4.0
