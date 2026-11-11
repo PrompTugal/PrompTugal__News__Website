@@ -6,7 +6,7 @@
   "claims": [
     {
       "id": "c01",
-      "text": "IPMA lists a red wind warning for the Lisbon district (LSB) on 11 November 2026 from 12:00 to 21:00, with gusts up to 120 km/h, up to 140 km/h in the most exposed places (read at 16:32 UTC on 10 November, unchanged from the article's readings at 14:23 and 14:34).",
+      "text": "IPMA lists a red wind warning for the Lisbon district (LSB) on 11 November 2026 from 12:00 to 21:00, with gusts up to 120 km/h, up to 140 km/h in the most exposed places (read at 16:32 UTC on 10 November, unchanged from the article's readings at 14:23 and 14:34). (Superseded: at 10:32 UTC on 11 November the wind warning is orange from 09:00 to 21:00: see c21.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Rajadas at\\u00e9 120 km/h, podendo atingir 140 km/h nos locais mais expostos.\", \"awarenessTypeName\": \"Vento\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T21:00:00\"}",
@@ -235,6 +235,30 @@
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o por vezes forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T00:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T09:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c21",
+      "text": "At 10:32 UTC on 11 November IPMA lists the wind warning for the Lisbon district as ORANGE (not red) from 09:00 to 21:00 that day, with gusts up to 120 km/h; the earlier \"up to 140 km/h in the most exposed places\" no longer appears. It was red from 12:00 to 21:00 in every earlier reading, from 14:23 on 10 November to 08:32 on 11 November.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Rajadas at\\u00e9 120 km/h.\", \"awarenessTypeName\": \"Vento\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T09:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T21:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c22",
+      "text": "At 10:32 UTC the red rain warning for 11 November is still 09:00 to 18:00 and the orange sea warning still 12:00 to 21:00: wind is the only warning lowered.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T09:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T18:00:00\"}",
       "quote_language": "pt",
       "read_on": "2026-11-11",
       "about": [
