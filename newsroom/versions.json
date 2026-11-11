@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1252",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41: ANEPC's 12:30 update (Lisbon impact reduced, 538 incidents, readiness level 4), checked 14:45 UTC; README: no machine reads of Luma, Meetup or Eventbrite; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "602051430"
+  },
+  {
     "version": "v0.1.1251",
     "date": "2026-11-11",
     "what": "weather@PrompTugal.vicky: Web Summit standing rules saved; source map row and tool usage line cleaned",
