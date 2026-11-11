@@ -4,7 +4,7 @@ date: 2026-11-11
 story: S56
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "The European Commission has proposed a Digital Fairness Act to update EU consumer law for online shopping. Besides bans on dark patterns and subscription traps, it sets rules for AI agents that buy on a consumer's behalf: the consumer chooses how much to confirm, and paid suggestions must be disclosed."
-status: draft
+status: published
 beat: Europe
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: Europe, Digital Fairness Act, European Commission, consumer law, AI agents, regulation
@@ -31,11 +31,9 @@ The newest part is about AI agents. The proposal calls them "automated systems" 
 
 On first use, the consumer must expressly choose one of three settings: confirm all purchases the agent proposes, confirm only certain ones, based on criteria such as a maximum price and a time limit, or confirm none. The choice is sent to the consumer on a durable medium, and it can be changed at any time with easy tools. When the consumer confirms, the agent must show the key information consumer law already requires.
 
-The agent must also disclose any payment received for proposing a contract, and any conflict of interest. In that case the consumer must confirm the purchase, whatever setting they chose. Traders could not force consumers to use an agent to shop on their sites. Consumer rights stay in place even if the consumer pre-approves nothing, the proposal says. Agents and traders could identify themselves through the planned European Business Wallets or the European Digital Identity Wallet. Financial services are excluded from these rules.
+The agent must also disclose any payment received for proposing a contract, and any conflict of interest. In that case the consumer must confirm the purchase, whatever setting they chose. Traders could not force consumers to use an agent to shop on their sites. Consumer rights stay in place even if the consumer pre-approves nothing, the proposal says. Traders and the providers of such systems could identify themselves through the planned European Business Wallets or the European Digital Identity Wallet. Financial services are excluded from these rules.
 
 The Commission says the package could save EU consumers "up to €13.7 billion a year". The Digital Fairness Act would apply 12 months after it enters into force, according to the draft. The European Parliament and the Council will now discuss it.
-
-Startups at Web Summit building shopping agents, or the payment and identity layers under them, may want to read Article 26 closely: it sketches the controls an agent would need in the EU.
 
 ## What this does not claim
 
@@ -50,4 +48,3 @@ Startups at Web Summit building shopping agents, or the payment and identity lay
 - [European Commission, "Proposal for a Digital Fairness Act", COM(2026) 1100 final](https://commission.europa.eu/document/0575d59f-554f-4a9e-b54b-e6b717175809_en) (PDF, 72 pages: recitals 77 and 78 on automated systems; Article 25, a human in customer service; Article 26, automated systems contracting on a consumer's behalf; Article 27, fully automated contracts; application 12 months after entry into force), dated 11 November 2026, read 11 November 2026
 - From the curator's map: S56 (LEADS-11NOV-8); lead: `desks/journalist-vicky/leads/2026-11-11-europe.md`
 
-<!-- Notes for the reviewer: the curator's brief said the AI-agent rights are only named in the sources; the proposal's own text (Article 26) details them, so the story rests on it. Quotes are word for word: "on the consumers' behalf" (Art. 26(1)), "up to €13.7 billion a year" (IP/26/2407). Recital 78 says consumer rights apply even if the consumer pre-approves nothing. The 12-month application is the draft's bracketed text "[12 months after the entry into force]". The new Commission enforcement powers come from the CPC revision, a separate proposal in the same package (from the press release). Category suggestion: Europe, AI (the curator's). Card checked at 390px. -->

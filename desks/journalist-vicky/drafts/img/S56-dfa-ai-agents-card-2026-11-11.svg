@@ -3,20 +3,20 @@
 <desc id="d">A summary card: under the proposed Digital Fairness Act, on first use of an AI agent a consumer chooses to confirm all purchases, only some (for example up to a maximum price), or none; paid or conflicted suggestions always need confirming. A proposal, not yet law. Source: European Commission, COM(2026) 1100.</desc>
 <rect width="1200" height="630" fill="#f7f3ea"/>
 <rect x="0" y="0" width="1200" height="16" fill="#003399"/>
-<text x="60" y="96" font-family="Georgia, serif" font-size="42" fill="#003399">Digital Fairness Act, a proposal</text>
+<text x="60" y="96" font-family="Georgia, serif" font-size="43" fill="#003399">Digital Fairness Act, a proposal</text>
 <text x="60" y="200" font-family="Helvetica, Arial, sans-serif" font-size="88" font-weight="700" fill="#1a1a1a">AI agents that shop</text>
-<text x="60" y="262" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1a1a1a">On first use, the consumer chooses:</text>
+<text x="60" y="262" font-family="Helvetica, Arial, sans-serif" font-size="43" fill="#1a1a1a">On first use, the consumer chooses:</text>
 <g font-family="Helvetica, Arial, sans-serif" fill="#1a1a1a">
 <rect x="60" y="300" width="340" height="190" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
-<text x="86" y="372" font-size="40" font-weight="700">Confirm all</text>
-<text x="86" y="424" font-size="38">purchases</text>
+<text x="86" y="372" font-size="43" font-weight="700">Confirm all</text>
+<text x="86" y="424" font-size="43">purchases</text>
 <rect x="430" y="300" width="340" height="190" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
-<text x="456" y="372" font-size="40" font-weight="700">Some</text>
-<text x="456" y="424" font-size="38">up to a price</text>
+<text x="456" y="372" font-size="43" font-weight="700">Some</text>
+<text x="456" y="424" font-size="43">up to a price</text>
 <rect x="800" y="300" width="340" height="190" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
-<text x="826" y="372" font-size="40" font-weight="700">None</text>
-<text x="826" y="424" font-size="38">no confirming</text>
+<text x="826" y="372" font-size="43" font-weight="700">None</text>
+<text x="826" y="424" font-size="43">no confirming</text>
 </g>
-<text x="60" y="556" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#1a1a1a">Paid suggestions always need a yes</text>
-<text x="60" y="606" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#444">Source: European Commission, COM(2026) 1100</text>
+<text x="60" y="556" font-family="Helvetica, Arial, sans-serif" font-size="43" fill="#1a1a1a">Paid suggestions always need a yes</text>
+<text x="60" y="606" font-family="Helvetica, Arial, sans-serif" font-size="43" fill="#444">Source: European Commission, COM(2026) 1100</text>
 </svg>
