@@ -5,7 +5,7 @@
   "title": "The EU asks for views on updating its election rules for the age of generative AI",
   "beat": "Europe",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:x-eu-dsa-election-guidelines"
   ],
@@ -17,7 +17,8 @@
     "from": [
       "desks/curator/2026-11-11-0455.json",
       "desks/journalist-vicky/drafts/S53-eu-election-guidelines-generative-ai.md",
-      "desks/reviewer-vicky/reviews/S53.md"
+      "desks/reviewer-vicky/reviews/S53.md",
+      "content/articles/eu-election-guidelines-generative-ai.md"
     ]
   },
   "assignee": "journalist-europe@PrompTugal.vicky",
@@ -33,8 +34,12 @@
       "at": null
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/eu-election-guidelines-generative-ai.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "review",
@@ -53,6 +58,12 @@
       "at": "2026-11-11",
       "by": "journalist-europe@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S53-eu-election-guidelines-generative-ai.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "content/articles/eu-election-guidelines-generative-ai.md"
     }
   ]
 }
