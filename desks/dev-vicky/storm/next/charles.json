@@ -91,9 +91,9 @@
   "transport": [
    {
     "name": "Fertagus (trains over the 25 de Abril bridge)",
-    "text": "Its notice says: if winds exceed 90 km/h, trains on the bridge will be suspended, possibly on the whole line; it recommends avoiding non-essential travel. A conditional rule; no suspension announced. (Read 21:37 UTC.)",
+    "text": "Trains running normally at 08:00 UTC, its notice says. The notice still says that if winds exceed 90 km/h, trains on the bridge will be suspended, possibly on the whole line; it recommends avoiding non-essential travel. (Read 09:05 UTC.)",
     "src": "https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico",
-    "read": "2026-11-10T21:37Z"
+    "read": "2026-11-11T09:05Z"
    },
    {
     "name": "Carris (city buses and trams)",
@@ -103,9 +103,9 @@
    },
    {
     "name": "Carris Metropolitana (regional buses)",
-    "text": "Four general weather notices run to Wednesday 23:59: possible disruption, delays and diversions. No suspension announced.",
+    "text": "Four general weather notices run to Wednesday 23:59: possible disruption, delays and diversions. Seven lines (4404, 4405, 4406, 4412, 4414, 4415, 4422) run shortened routes from 04:00 to 11:00 on Wednesday because of the weather. No suspension announced.",
     "src": "https://api.carrismetropolitana.pt/v2/alerts",
-    "read": "2026-11-10T23:43Z"
+    "read": "2026-11-11T09:05Z"
    },
    {
     "name": "Transtejo/Soflusa (river ferries)",
