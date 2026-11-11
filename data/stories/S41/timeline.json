@@ -159,6 +159,50 @@
         "c40",
         "c41"
       ]
+    },
+    {
+      "at": "2026-11-10",
+      "what": "About 7.30pm UTC on Tuesday Web Summit confirms that Wednesday's events are cancelled, after the Portuguese prime minister's recommendation (an hour earlier) and the mayor of Lisbon's remark that 'everything indicates' it could not function; Portugal is under a state of alert. Source: The Irish Times, not Web Summit's own pages.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ],
+      "source": "irishtimes-2026-11-10-state-of-alert",
+      "claim": [
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "Shortly after 11.30am UTC on Wednesday Web Summit emails ticket holders 'Web Summit is back tomorrow'. Source: The Irish Times.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ],
+      "source": "irishtimes-2026-11-11-web-summit-washout",
+      "claim": [
+        "c49",
+        "c50"
+      ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "By IPMA's file read at 22:32 UTC the orange sea warning has ended: the only warning left for the Lisbon district is yellow for the sea, 21:00 to 03:00 on 12 November.",
+      "kind": "change",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c51"
+      ]
     }
   ]
 }
