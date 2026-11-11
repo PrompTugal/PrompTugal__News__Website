@@ -9,6 +9,8 @@ beat: Europe
 license: https://creativecommons.org/licenses/by/4.0/
 tags: Europe, European Commission, the summit, funding
 ---
+> **Update, 11 November 2026, 02:42 UTC.** Web Summit [has said](https://websummit.com/blog/web-summit/important-event-update-2026/) that Day 2, Wednesday 11 November, will not take place, on the Portuguese government's advice. Four EU sessions in this article were on that day: EUIPO's panel on IP-backed finance (12:10), DG CONNECT's "Building AI in Europe" masterclass (14:30), HaDEA's EU funding workshop (15:30) and EuroHPC's masterclass on free supercomputing (16:00). The [Commission's agenda](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026), last updated on 3 November, still lists them, and does not say whether they move to Thursday. We do not know yet. Thursday's EUIPO and INPI meetup (13:00) is still listed. Web Summit says it aims to hold Day 3 as planned.
+
 ## In short
 
 - The European Commission brings a fireside chat, masterclasses, panels and stands to Web Summit Lisbon, from 10 to 12 November, according to the Commission.
@@ -48,6 +50,7 @@ Founders seeking EU funding could begin at HaDEA's stand E418. Those needing com
 
 ## Where this comes from
 
+- [Web Summit, "Important event update"](https://websummit.com/blog/web-summit/important-event-update-2026/) (Day 2 will not take place; the 11 November update), read 11 November 2026 at 02:42 UTC
 - European Commission, Shaping Europe's digital future, "DigitalEU at Web Summit 2026: Supporting businesses and startups to grow and innovate" (last updated 3 November 2026), read 5 November 2026: <https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate>
 - European Health and Digital Executive Agency (HaDEA), "Web Summit 2026", event page, read 5 November 2026: <https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en>
 - Netherlands Enterprise Agency (RVO), "Web Summit 2026 in Lisbon: Join the Dutch Delegation", read 5 November 2026: <https://english.rvo.nl/events/web-summit-2026-lisbon>
