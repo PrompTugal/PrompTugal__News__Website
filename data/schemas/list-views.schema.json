@@ -58,6 +58,12 @@
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "live_sources": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
     }
   },
   "additionalProperties": false

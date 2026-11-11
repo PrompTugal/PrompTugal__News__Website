@@ -77,5 +77,20 @@
     "title_was": "what was on",
     "summary_on": "five things to plan around, every session by time and by stage.",
     "summary_was": "the five things we picked, every session by time and by stage."
+  },
+  "live_sources": {
+    "storm_kicker": "Live source",
+    "storm_name": "Storm Charles: the weather, now",
+    "storm_line": "Warnings, decisions and the timeline, each with its source and the time read. Not a warning service: follow IPMA and ANEPC.",
+    "storm_url": "https://storm-charles.promptugal.news/",
+    "storm_host": "storm-charles.promptugal.news",
+    "fringe_live": "no",
+    "fringe_kicker": "New",
+    "fringe_name": "Lisbon Fringe",
+    "fringe_line": "The alternative and community events around the summit. Independent.",
+    "fringe_url": "https://fringe.promptugal.news/",
+    "fringe_host": "fringe.promptugal.news",
+    "updated": "updated",
+    "utc": "UTC"
   }
 }

@@ -7,6 +7,7 @@
 <div class="fe-w"><div class="fe-dl"><time datetime="{{today}}">{{date}}</time><span class="fe-cd" data-at="{{opening_at}}">Opening Night in <b data-cd>{{opening_in}}</b></span><span class="fe-where">Lisbon · Independent</span></div>
 <header class="fe-mast"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a></header>
 <nav class="fe-nav" aria-label="Sections">{{#nav}}</nav></div>
+{{live}}
 {{lead}}
 {{spectrum}}
 <section class="fe-live" aria-label="This week"><h2>This week</h2><div class="fe-tk" tabindex="0" aria-label="This week, scrolling; hover or focus to pause"><div class="fe-tk-in"><ul>{{#week}}</ul><ul aria-hidden="true">{{#week_again}}</ul></div></div></section>
@@ -47,4 +48,7 @@
 <!-- item:num --><div><b>{{value}}</b><span>{{label}}</span></div>
 <!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
 <!-- item:phone --><source media="(max-width: 599px) and (prefers-color-scheme: dark)" srcset="{{phone_ink}}"><source media="(max-width: 599px)" srcset="{{phone}}">
+<!-- part:live -->
+<section class="fe-ls" aria-label="Live sources"><div class="fe-ls-w">{{#sources}}</div></section>
+<!-- item:source --><a class="fe-ls-a" href="{{url}}" target="_blank" rel="noopener"><span class="fe-ls-k{{cls}}">{{kicker}}{{updated}}</span><span><b>{{name}}</b><small>{{line}}</small></span><span class="fe-ls-go">{{host}} ↗</span></a>
 <!-- end -->
