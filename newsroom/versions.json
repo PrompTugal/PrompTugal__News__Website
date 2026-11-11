@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1135",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "e72e1dc10"
+  },
+  {
     "version": "v0.1.1134",
     "date": "2026-11-11",
     "what": "reviewer@PrompTugal.vicky: S41 checked at 02:34 UTC, no change, time moved",
