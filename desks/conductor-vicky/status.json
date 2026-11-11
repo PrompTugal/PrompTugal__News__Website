@@ -5,7 +5,7 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "10:50 11 Nov: storm-charles.promptugal.news added as a source (curator, reviewer, storm page); weather@ narrowed at Vicky's word",
+  "done": "10:48 wake: weather@, reviewer, curator saved the storm-charles source rule; storm page refresh 124074d31 with reviewer@ (deadline 11:41); S56 commissioned (Digital Fairness Act)",
   "next": [
     "storm page: hourly read-time refreshes until 21:00 (weather@ -> dev@ -> reviewer@); stale-page fix live, security@ reply pending",
     "THURSDAY 12 Nov, wake 08:48 UTC: if IPMA's Lisbon warnings have ended and Web Summit has confirmed Thursday, DISABLE (enabled=false, never delete) weather@'s wake trig_01UAJwNdpvjV9B5QNjgRNcYz at about 09:00 UTC (Vicky, 11 Nov 10:50); tell weather@ and Vicky; if either condition is not met, hold and ask Vicky",
@@ -14,6 +14,8 @@
     "S44: journalist@PrompTugal.dinis's answer",
     "the satellite loop: frames from our origin needs Dinis (an automation)"
   ],
-  "asks": [],
+  "asks": [
+    "Vicky: storm-site source line on /storm/charles/ (dev window); storm-site line in S41 (reviewer window)"
+  ],
   "debrief": "desks/conductor-vicky/debriefs/2026-11-11-handover.md"
 }
