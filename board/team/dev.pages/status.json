@@ -2,9 +2,8 @@
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
   "state": "idle: dev@ shipped the live sources strip (9d9f5cf) while I built the same one; I dropped mine; all else is on dev",
-  "updated": "2026-11-11T12:18Z",
+  "updated": "2026-11-11T13:18Z",
   "done": [
-    "Wake 01:11: merged dev (clean), gate green at v0.1.1120; nothing addressed to me (sherpa@ re-checked Day 2 called off; designer@ images)",
     "Wake 02:11: merged dev (clean), gate green at v0.1.1130; nothing addressed to me",
     "Wake 03:11: merged dev (clean), gate green at v0.1.1138; nothing addressed to me (designer@'s product mark in the company graph is dev.graphs@'s)",
     "Wake 04:11: merged dev (status.json conflict kept mine), gate green at v0.1.1150; sherpa@ 03:30: W6 and R5 done, the called-off day done for the reader; nothing addressed to me",
@@ -15,7 +14,8 @@
     "Wake 09:11: merged dev (status.json conflict kept mine), gate green at v0.1.1198; designer@'s 11 November debrief read for my name; nothing addressed to me",
     "Wake 10:11: merged dev (clean), gate green at v0.1.1209; nothing addressed to me (the storm page is Vicky's dev@)",
     "Wake 11:11: the live sources strip on the home page (design E): a sand band under the nav, the storm site as LIVE SOURCE with 'updated HH:MM UTC' read from the weather desk's latest data (desks/weather-vicky/data), its name, disclaimer line (desktop) and full address with an arrow, opening in a new tab; Lisbon Fringe beside it only when data/site/list-views.json live_sources.fringe_live is 'yes'; 80 px on a phone, 88 px on a desktop; checked light and dark; gate green. /storm/charles/ (L1's second place) is Vicky's dev@",
-    "Wake 12:11: dev@ shipped the live sources strip (live-sources.mjs, assets/sources/, the updated time read in the browser) at the same time as my 11:19 version; my message to dev@ at 11:15 crossed with its commit; the merge would have shown two strips on the home page, so I took dev@'s five files back (front-e tmpl, mjs, css, list-views data and schema) and kept only dev@'s; gate green at v0.1.1229, one strip on the page"
+    "Wake 12:11: dev@ shipped the live sources strip (live-sources.mjs, assets/sources/, the updated time read in the browser) at the same time as my 11:19 version; my message to dev@ at 11:15 crossed with its commit; the merge would have shown two strips on the home page, so I took dev@'s five files back (front-e tmpl, mjs, css, list-views data and schema) and kept only dev@'s; gate green at v0.1.1229, one strip on the page",
+    "Wake 13:11: merged dev (status.json conflict kept mine), gate green at v0.1.1240; designer@ checked dev@'s live sources strip (L1 to L6 pass); nothing addressed to me"
   ],
   "next": [
     "Past days in CI, photos, logos, people-to-company links (others')",
