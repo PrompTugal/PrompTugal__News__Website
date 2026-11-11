@@ -18,7 +18,7 @@
     },
     {
       "id": "c02",
-      "text": "IPMA lists an orange rain warning for the Lisbon district on 11 November from 05:00 to 18:00, described as at times heavy and persistent. (Superseded: at 18:32 UTC the same file lists this warning as orange only until 12:00, then red: see c10 and c11.)",
+      "text": "IPMA lists an orange rain warning for the Lisbon district on 11 November from 05:00 to 18:00, described as at times heavy and persistent. (Superseded: at 18:32 UTC the same file lists this warning as orange only until 12:00, then red: see c10 and c11.) (Superseded at 14:32 UTC on 11 November: IPMA reissued the Lisbon warnings at 12:34 UTC with shorter, lower ones: see c26 to c29.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o por vezes forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T05:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T18:00:00\"}",
@@ -30,7 +30,7 @@
     },
     {
       "id": "c03",
-      "text": "IPMA lists an orange sea warning for the Lisbon district on 11 November from 12:00 to 21:00: south-westerly waves of 5 to 7 metres, up to 13 metres at most.",
+      "text": "IPMA lists an orange sea warning for the Lisbon district on 11 November from 12:00 to 21:00: south-westerly waves of 5 to 7 metres, up to 13 metres at most. (Superseded at 14:32 UTC on 11 November: IPMA reissued the Lisbon warnings at 12:34 UTC with shorter, lower ones: see c26 to c29.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Ondas de sudoeste com 5 a 7 metros e que poder\\u00e3o atingir at\\u00e9 13 metros de altura m\\u00e1xima.\", \"awarenessTypeName\": \"Agita\\u00e7\\u00e3o Mar\\u00edtima\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T21:00:00\"}",
@@ -114,7 +114,7 @@
     },
     {
       "id": "c10",
-      "text": "At 18:32 UTC on 10 November IPMA lists a RED rain warning for the Lisbon district on 11 November from 12:00 to 18:00 (persistent rain, at times heavy). At 16:32 UTC the file had listed rain as orange from 05:00 to 18:00 only. (Superseded for the red rain start: at 00:32 UTC on 11 November IPMA lists red rain from 09:00, not 12:00: see c19 and c20.)",
+      "text": "At 18:32 UTC on 10 November IPMA lists a RED rain warning for the Lisbon district on 11 November from 12:00 to 18:00 (persistent rain, at times heavy). At 16:32 UTC the file had listed rain as orange from 05:00 to 18:00 only. (Superseded for the red rain start: at 00:32 UTC on 11 November IPMA lists red rain from 09:00, not 12:00: see c19 and c20.) (Superseded at 14:32 UTC on 11 November: IPMA reissued the Lisbon warnings at 12:34 UTC with shorter, lower ones: see c26 to c29.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T18:00:00\"}",
@@ -126,7 +126,7 @@
     },
     {
       "id": "c11",
-      "text": "At 18:32 UTC the orange rain warning for 11 November runs from 05:00 to 12:00 (it ran to 18:00 at 16:32). (Superseded for the red rain start: at 00:32 UTC on 11 November IPMA lists red rain from 09:00, not 12:00: see c19 and c20.)",
+      "text": "At 18:32 UTC the orange rain warning for 11 November runs from 05:00 to 12:00 (it ran to 18:00 at 16:32). (Superseded for the red rain start: at 00:32 UTC on 11 November IPMA lists red rain from 09:00, not 12:00: see c19 and c20.) (Superseded at 14:32 UTC on 11 November: IPMA reissued the Lisbon warnings at 12:34 UTC with shorter, lower ones: see c26 to c29.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o por vezes forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T05:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T12:00:00\"}",
@@ -219,7 +219,7 @@
     },
     {
       "id": "c19",
-      "text": "At 00:32 UTC on 11 November IPMA lists the RED rain warning for the Lisbon district from 09:00 to 18:00 that day (persistent rain, at times heavy): three hours earlier than the 12:00 start listed from 18:32 UTC on 10 November until 22:32.",
+      "text": "At 00:32 UTC on 11 November IPMA lists the RED rain warning for the Lisbon district from 09:00 to 18:00 that day (persistent rain, at times heavy): three hours earlier than the 12:00 start listed from 18:32 UTC on 10 November until 22:32. (Superseded at 14:32 UTC on 11 November: IPMA reissued the Lisbon warnings at 12:34 UTC with shorter, lower ones: see c26 to c29.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T09:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T18:00:00\"}",
@@ -231,7 +231,7 @@
     },
     {
       "id": "c20",
-      "text": "At 00:32 UTC the orange rain warning for 11 November runs from 00:00 to 09:00 (it was 05:00 to 12:00 at 18:32 UTC on 10 November). The red wind (12:00 to 21:00) and orange sea (12:00 to 21:00) warnings are unchanged.",
+      "text": "At 00:32 UTC the orange rain warning for 11 November runs from 00:00 to 09:00 (it was 05:00 to 12:00 at 18:32 UTC on 10 November). The red wind (12:00 to 21:00) and orange sea (12:00 to 21:00) warnings are unchanged. (Superseded at 14:32 UTC on 11 November: IPMA reissued the Lisbon warnings at 12:34 UTC with shorter, lower ones: see c26 to c29.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o por vezes forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T00:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T09:00:00\"}",
@@ -243,7 +243,7 @@
     },
     {
       "id": "c21",
-      "text": "At 10:32 UTC on 11 November IPMA lists the wind warning for the Lisbon district as ORANGE (not red) from 09:00 to 21:00 that day, with gusts up to 120 km/h; the earlier \"up to 140 km/h in the most exposed places\" no longer appears. It was red from 12:00 to 21:00 in every earlier reading, from 14:23 on 10 November to 08:32 on 11 November.",
+      "text": "At 10:32 UTC on 11 November IPMA lists the wind warning for the Lisbon district as ORANGE (not red) from 09:00 to 21:00 that day, with gusts up to 120 km/h; the earlier \"up to 140 km/h in the most exposed places\" no longer appears. It was red from 12:00 to 21:00 in every earlier reading, from 14:23 on 10 November to 08:32 on 11 November. (Superseded at 14:32 UTC on 11 November: IPMA reissued the Lisbon warnings at 12:34 UTC with shorter, lower ones: see c26 to c29.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Rajadas at\\u00e9 120 km/h.\", \"awarenessTypeName\": \"Vento\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T09:00:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T21:00:00\"}",
@@ -255,7 +255,7 @@
     },
     {
       "id": "c22",
-      "text": "At 10:32 UTC the red rain warning for 11 November is still 09:00 to 18:00 and the orange sea warning still 12:00 to 21:00: wind is the only warning lowered.",
+      "text": "At 10:32 UTC the red rain warning for 11 November is still 09:00 to 18:00 and the orange sea warning still 12:00 to 21:00: wind is the only warning lowered. (Superseded at 14:32 UTC on 11 November: IPMA reissued the Lisbon warnings at 12:34 UTC with shorter, lower ones: see c26 to c29.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T09:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T18:00:00\"}",
@@ -291,10 +291,58 @@
     },
     {
       "id": "c25",
-      "text": "At 12:32 UTC IPMA's text for the red rain warning (09:00 to 18:00, 11 November) reads 'Precipitacao forte e persistente' (heavy and persistent); earlier readings gave 'persistent, at times heavy'. Times and level are unchanged.",
+      "text": "At 12:32 UTC IPMA's text for the red rain warning (09:00 to 18:00, 11 November) reads 'Precipitacao forte e persistente' (heavy and persistent); earlier readings gave 'persistent, at times heavy'. Times and level are unchanged. (Superseded at 14:32 UTC on 11 November: IPMA reissued the Lisbon warnings at 12:34 UTC with shorter, lower ones: see c26 to c29.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T09:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T18:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c26",
+      "text": "At 14:32 UTC on 11 November IPMA lists the RED rain warning for the Lisbon district only from 12:34 to 15:00 that day (heavy and persistent rain): shortened from 09:00 to 18:00 in every earlier reading since 00:32.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:34:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T15:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c27",
+      "text": "At 14:32 UTC IPMA lists a YELLOW rain warning from 15:00 to 18:00 (at times heavy): the afternoon part of what had been red.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o por vezes forte.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T15:00:00\", \"awarenessLevelID\": \"yellow\", \"endTime\": \"2026-11-11T18:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c28",
+      "text": "At 14:32 UTC IPMA lists the wind warning as ORANGE from 12:34 to 18:00 with gusts up to 90 km/h, up to 110 km/h in the most exposed places: lower and shorter than the orange 09:00 to 21:00, gusts up to 120 km/h, listed from 10:32.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Rajadas at\\u00e9 90 km/h, podendo atingir 110 km/h nos locais mais expostos.\", \"awarenessTypeName\": \"Vento\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:34:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T18:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c29",
+      "text": "At 14:32 UTC IPMA lists the sea warning as ORANGE from 12:34 to 21:00 (south-westerly waves of 5 to 7 metres, up to 13 metres at most): the same level and end time, with the start now 12:34.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Ondas de sudoeste com 5 a 7 metros e que poder\\u00e3o atingir at\\u00e9 13 metros de altura m\\u00e1xima.\", \"awarenessTypeName\": \"Agita\\u00e7\\u00e3o Mar\\u00edtima\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T12:34:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T21:00:00\"}",
       "quote_language": "pt",
       "read_on": "2026-11-11",
       "about": [

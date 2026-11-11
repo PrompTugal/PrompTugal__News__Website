@@ -1,0 +1,34 @@
+flowchart LR
+  A0["the incident team (account A)"]
+  A1["conductor@web-summit.dinis"]
+  A2["conductor@PrompTugal.dinis"]
+  A3["weather@PrompTugal.vicky"]
+  A4["conductor.B@PrompTugal.vicky"]
+  A5["dev@PrompTugal.vicky"]
+  A6["reviewer@PrompTugal.vicky"]
+  A7(["Vicky Wang"])
+  A8["social.watch@PrompTugal.dinis"]
+  A9["conductor.b@PrompTugal.dinis"]
+  A10(["Dinis Cruz"])
+  A11["journalist-connections@PrompTugal.vicky"]
+  A12["curator@PrompTugal.vicky"]
+  A13["Vicky's twelve agents"]
+  A14["security@PrompTugal.dinis"]
+  A15["Lisbon Fringe's conductors"]
+  A0 -->|1| A1
+  A1 -->|1| A2
+  A3 -->|1| A4
+  A4 -->|1| A5
+  A4 -->|1| A6
+  A4 ==>|2| A7
+  A9 ==>|1| A10
+  A7 ==>|2| A6
+  A7 ==>|2| A4
+  A7 ==>|1| A11
+  A7 ==>|1| A12
+  A4 ==>|1| A10
+  A13 -->|1| A4
+  A10 -->|1| A7
+  A10 ==>|1| A4
+  A14 ==>|1| A10
+  A1 -->|1| A15

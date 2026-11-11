@@ -49,3 +49,8 @@ Ends when conductor.B (or Vicky's conductor) says the researcher is back; stop s
 - Most of Lisbon Fringe's event links point to Luma: the Fringe stays a pointer only, and an event on these platforms is confirmed only by a person's browser read, the organiser's own site, or the press.
 - Checked 14:40 UTC: this desk has never read them by machine; no tool, note or wake step of its own does.
 - Lesson (11 November): check a source's terms before any machine read.
+
+## Sources for anything about Web Summit (Vicky, about 15:45 UTC, 11 November 2026; relayed by conductor.B@PrompTugal.vicky; until Dinis decides)
+- Use press reports; the companies', speakers' and organisers' own posts and releases; official public bodies; and a person's browser check for single facts.
+- Link to Web Summit's pages instead of copying or summarising them.
+- Applies to new drafts, updates and leads from now on; existing published text stays until Dinis decides.

@@ -1,0 +1,66 @@
+{
+  "$comment": "How the platform-terms rule spread, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis. It describes the rule's path, not any site's terms.",
+  "story": "the-terms",
+  "from": "board/team/work-desk/traces/the-terms.json (updated 2026-11-11T15:45Z)",
+  "speeds": [
+    {
+      "what": "the incident team's stop to the first Vicky desk's stop",
+      "from_step": 1,
+      "to_step": 3,
+      "minutes": 439
+    },
+    {
+      "what": "the first desk's stop to Dinis's answer",
+      "from_step": 3,
+      "to_step": 11,
+      "minutes": 108
+    },
+    {
+      "what": "Dinis's answer to eleven confirmations",
+      "from_step": 11,
+      "to_step": 14,
+      "minutes": 24
+    }
+  ],
+  "pattern": "a compliance rule travels slowly between teams (7 h 19 min from the incident team to Vicky's desks, through a watch line nobody acted on) and fast within one (eleven confirmations in 24 minutes). Where the agents may not read, a person reads (Vicky, 13:10). The agents disclose their own earlier reads.",
+  "platforms": [
+    "websummit.com (its subdomains and app)",
+    "Luma",
+    "Meetup",
+    "Eventbrite"
+  ],
+  "found_independently_by": [
+    {
+      "who": "the incident team (account A)",
+      "at": "05:27"
+    },
+    {
+      "who": "weather@PrompTugal.vicky",
+      "at": "12:46"
+    }
+  ],
+  "person_as_reader": {
+    "who": "Vicky Wang",
+    "at": "13:10",
+    "what": "Web Summit's announcement read in a browser; articles cite her read"
+  },
+  "decision": {
+    "who": "Dinis Cruz",
+    "at": "about 14:35 (dated by a later status line)",
+    "what": "no machine reads, no new work from copied Web Summit data, nothing deleted until he decides"
+  },
+  "confirmations": {
+    "of": 12,
+    "confirmed": 11,
+    "by": "14:58"
+  },
+  "timing_note": "the first desk saved the rule at 14:26, before the 'about 14:35' line that dates Dinis's word",
+  "tokens": {
+    "recorded": null,
+    "the_trace_itself": {
+      "estimate": true,
+      "bytes": 11905,
+      "tokens_about": 3400
+    }
+  }
+}

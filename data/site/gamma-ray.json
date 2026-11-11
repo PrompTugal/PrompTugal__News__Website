@@ -1,8 +1,8 @@
 {
  "about": "GAMMA-Ray Spectrum cards as gamma-ray.sgit.ai publishes them (beta; every rating experimental), read by newsroom/tools/gamma-pull.mjs. Levels: A autonomy, R reach, C control, O openness, 1 to 4, 0 where not yet evidenced. The source of every card is its page on gamma-ray.sgit.ai.",
  "source": "https://gamma-ray.sgit.ai/spectrum/",
- "version": "0.0.180",
- "read_at": "2026-11-11T13:14Z",
+ "version": "0.0.184",
+ "read_at": "2026-11-11T15:13Z",
  "cards": [
   {
    "id": "riskmandate-publisher",
@@ -143,6 +143,29 @@
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/automaise-conversational-ai/"
   },
   {
+   "id": "buzz-messaging-ai",
+   "name": "Buzz work agents",
+   "company": "buzz-messaging",
+   "ours": false,
+   "what": "AI agents added to team rooms that read and create in Notion, Google Drive and Google Calendar with the asker's access; anything they would create is made only after the asker confirms, and tasks created that way can sync to Jira or Linear.",
+   "levels": {
+    "A": 2,
+    "R": 2,
+    "C": 1,
+    "O": 1
+   },
+   "stage": "Building",
+   "n": 6,
+   "of": 16,
+   "modes": "Balanced",
+   "lit": "29 in 8 instruments",
+   "next": "Control 2",
+   "read": "2026-11-11",
+   "review": "approved",
+   "vendor_reviewed": false,
+   "card": "https://gamma-ray.sgit.ai/spectrum/cards/buzz-messaging-ai/"
+  },
+  {
    "id": "bythelaw-legal-chat",
    "name": "ByTheLaw",
    "company": "bythelaw",
@@ -210,6 +233,29 @@
    "review": "approved",
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/claude-code-local/"
+  },
+  {
+   "id": "emergence-craft",
+   "name": "CRAFT",
+   "company": "emergence",
+   "ours": false,
+   "what": "Enterprise platform of agents over company data, composed of Assess and Enrich modules (Toolkit planned), with solutions for Data Insights (talk-to-data), Data Governance and Semiconductor analytics; exposes a hosted MCP server that outside agents can call, and uses A2A between its own agents.",
+   "levels": {
+    "A": 4,
+    "R": 3,
+    "C": 2,
+    "O": 2
+   },
+   "stage": "Scaling",
+   "n": 11,
+   "of": 16,
+   "modes": "Open protocol",
+   "lit": "79 in 8 instruments",
+   "next": "Control 3",
+   "read": "2026-11-11",
+   "review": "approved",
+   "vendor_reviewed": false,
+   "card": "https://gamma-ray.sgit.ai/spectrum/cards/emergence-craft/"
   },
   {
    "id": "getvocal-agents",

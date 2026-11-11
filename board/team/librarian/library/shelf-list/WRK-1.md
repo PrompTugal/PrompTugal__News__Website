@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T12:59:33Z"
-site_version: "v0.1.1236"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T15:59:58Z"
+site_version: "v0.1.1263"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 4)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-becoming-a-publication-2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-algarve-evolution-1`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -78,6 +78,9 @@ source: board/catalogue.json
 | `WRK.BRIEF 2026-11-11T1236Z` | [2026-11-11T1236Z.json](https://promptugal.news/board/editor-briefs/2026-11-11T1236Z.json) | board | conductor@ 11 Nov 2026 |
 | `WRK.BRIEF 2026-11-11T1236Z-then-and-now` | [2026-11-11T1236Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-11T1236Z-then-and-now.jpg) | board | conductor@ 11 Nov 2026 |
 | `WRK.BRIEF 2026-11-11T1236Z:2` | [2026-11-11T1236Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-11T1236Z.pdf) | board | conductor@ 11 Nov 2026 |
+| `WRK.BRIEF 2026-11-11T1536Z` | [2026-11-11T1536Z.json](https://promptugal.news/board/editor-briefs/2026-11-11T1536Z.json) | board | conductor@ 11 Nov 2026 |
+| `WRK.BRIEF 2026-11-11T1536Z-then-and-now` | [2026-11-11T1536Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-11T1536Z-then-and-now.jpg) | board | conductor@ 11 Nov 2026 |
+| `WRK.BRIEF 2026-11-11T1536Z:2` | [2026-11-11T1536Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-11T1536Z.pdf) | board | conductor@ 11 Nov 2026 |
 | `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF agentic-maturity-standards-selection` | [Agentic AI Maturity Mapping  -  Standards Selection & Graph Model Design](https://promptugal.news/board/briefs/gamma-ray/agentic-maturity-standards-selection.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
 | `WRK.BRIEF cmp-agenda` | [cmp-agenda.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-agenda.jpg) | brief | conductor@ 9 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `WRK.DEC the-commercial-relation` | [For Dinis: how we say our commercial relation to the companies we write to](https://promptugal.news/newsroom/decisions/the-commercial-relation/) | decision | synthetic@ 6 Nov 2026 |
 | `WRK.DEC the-riskmandate-agent-ipad` | [For Dinis: two appliances for the summit, the RiskMandate Appliance and the PrompTugal Field Reporter](https://promptugal.news/newsroom/decisions/the-riskmandate-agent-ipad/) | decision | customers@ 8 Nov 2026 |
 | `WRK.DEC the-story-of-the-name` | [For Dinis: the story of the name, publish this text?](https://promptugal.news/newsroom/decisions/the-story-of-the-name/) | decision | journalist@ 6 Nov 2026 |
-| `WRK.DEC where-the-vault-key-lives` | [PT decision: where the vault key lives](https://promptugal.news/newsroom/decisions/where-the-vault-key-lives/) | decision | dev@ 6 Nov 2026 |
-| `WRK.DEC who-sends-which-company` | [For Dinis: who sends which company's email](https://promptugal.news/newsroom/decisions/who-sends-which-company/) | decision | outreach@ 6 Nov 2026 |
-| `WRK.DESK checker-vicky` | [The checker's desk: PrompTugal.news](https://promptugal.news/desks/checker-vicky/README.md) | desk | checker@PrompTugal.vicky 6 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.DEC where-the-vault-key-lives` | [PT decision: where the vault key lives](https://promptugal.news/newsroom/decisions/where-the-vault-key-lives/) | decision | dev@ 6 Nov 2026 |
+| `WRK.DEC who-sends-which-company` | [For Dinis: who sends which company's email](https://promptugal.news/newsroom/decisions/who-sends-which-company/) | decision | outreach@ 6 Nov 2026 |
+| `WRK.DESK checker-vicky` | [The checker's desk: PrompTugal.news](https://promptugal.news/desks/checker-vicky/README.md) | desk | checker@PrompTugal.vicky 6 Nov 2026 |
 | `WRK.DESK conductor-vicky` | [conductor-vicky](https://promptugal.news/desks/conductor-vicky/) | desk | conductor.B@PrompTugal.vicky 10 Nov 2026 |
 | `WRK.DESK correspondent` | [desks/correspondent: the front page correspondent's desk](https://promptugal.news/desks/correspondent/README.md) | desk | correspondent@ 6 Nov 2026 |
 | `WRK.DESK curator` | [The curator's story candidates](https://promptugal.news/desks/curator/README.md) | desk | curator@web-summit.vicky 4 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-agent-reads-and-visibility-2` | [The behaviour policy asks agents for their role and what they read, never a session URL, token or prompt; a human reader is never recorded as an agent](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-agent-reads-and-visibility-3` | [The lanes counted and sized feed my message map (my standing work (b))](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-algarve-evolution-1` | [People: public and professional facts only; our own team only with their recorded yes; no contact details (the invitation to correct goes to a role address)](https://promptugal.news/board/passes/2026-11-06-algarve-evolution.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-algarve-evolution-2` | [Nothing of the team's purpose for Saturday's meeting (what we want from them, notes, priority) on the page](https://promptugal.news/board/passes/2026-11-06-algarve-evolution.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-becoming-a-publication-1` | [Contacts: role addresses on promptugal.news only, at Dinis's word; no person's own address, phone or postal address on any page](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-becoming-a-publication-2` | [The registration and the press-pass application need a person's identity (name, ID, address): that stays out of this repository and every public vault; the…](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)

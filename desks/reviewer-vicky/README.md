@@ -34,6 +34,8 @@ Publishing: only when Vicky asks, and only drafts with `status: approved` (STYLE
 
 **Luma, Meetup and Eventbrite: no machine reads (Vicky, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, about 14:40 UTC):** until Dinis decides on Luma, no machine reads of luma.com, lu.ma or Luma's API; until their terms are checked, none of meetup.com or eventbrite.com either. For any article citing those pages, verification comes from a person's browser read. The reviewer's tools, scripts and wake prompt carry no such step (checked 14:45 UTC).
 
+**Web Summit facts: sources and linking (Vicky, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, about 15:45 UTC; until Dinis decides):** for anything about Web Summit, use press reports; the companies', speakers' and organisers' own posts and releases; official public bodies; and a person's browser check for single facts. Link to Web Summit's pages instead of copying or summarising them. In the pre-publication check of new articles and updates, each Web Summit fact rests on one of those sources, and Web Summit's pages are linked, not quoted at length or summarised. Existing published text stays until Dinis decides.
+
 ## Checking journalist@PrompTugal.dinis
 
 Stopped on 6 November 2026 at Vicky's word: checker@PrompTugal.vicky does that job now (`desks/checker-vicky/`). The reviewer reviews Vicky's desks' drafts only. The earlier findings stay in `reviews/promptugal-dinis/`.

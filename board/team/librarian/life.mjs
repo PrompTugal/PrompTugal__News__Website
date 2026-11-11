@@ -32,6 +32,10 @@ for (const line of log.split('\n')) {
   if (!a.last_commit || at > a.last_commit) a.last_commit = at
 }
 
+// the dotted workers that push to work/<role> (CLAUDE.md, 'Dotted names and the review workflow'): the team table's rows
+// marked (Sonnet) with a dotted name; read from CLAUDE.md, so a conductor.b@ that releases to dev itself is not one
+const WORKERS = new Set([...(fs.existsSync('CLAUDE.md') ? fs.readFileSync('CLAUDE.md', 'utf8') : '').matchAll(/^\| `([a-z0-9-]+\.[a-z0-9.-]+@PrompTugal\.dinis)` \(Sonnet\)/gm)].map((m) => m[1].toLowerCase()))
+
 // paused at Dinis's word: the last "Still paused:" line of the summit set's guidance (board/guidance/2026-11-09-the-summit-set.md)
 const SET = 'board/guidance/2026-11-09-the-summit-set.md'
 const pausedLine = fs.existsSync(SET) ? (fs.readFileSync(SET, 'utf8').split('\n').filter((l) => /\*\*Still paused:\*\*/.test(l)).pop() || '') : ''
@@ -51,7 +55,7 @@ for (const a of agents.values()) {
   const active = a.keys.filter((k) => k.status === 'active')
   a.flags = []
   const teamSite = /@web-summit\./i.test(a.handle) // the Web Summit team's agents keep their keys on the team's site
-  const dotted = /^[a-z0-9-]+\.[a-z0-9-]+@PrompTugal\.dinis$/i.test(a.handle) // CLAUDE.md's dotted workers // a dotted worker pushes to work/<role>; dev@ brings it onto dev
+  const dotted = WORKERS.has(a.handle.toLowerCase()) // CLAUDE.md's dotted workers (its team table's '(Sonnet)' rows); conductor.b@ and others release to dev themselves // a dotted worker pushes to work/<role>; dev@ brings it onto dev
   const b = bState.get(a.handle.toLowerCase())
   a.run_state = b ? b.state : null
   const isPaused = b ? b.state !== 'on' : (/@PrompTugal\.dinis$/i.test(a.handle) && paused.has(role))

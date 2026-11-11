@@ -10,6 +10,16 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 15:36 UTC, 11 November (stand-up brief 10)
+
+- Snapshot 2026-11-11T1537Z on v0.1.1260: 8 screenshots, 0 errors. 28 releases since 12:36.
+- **Source rules:** after Dinis's "yes, dont use them", Vicky's agents stopped all machine reads of websummit.com, its subdomains and app (3a76f421c), and of Luma, Meetup and Eventbrite (df3ab8f83); each agent confirmed. security@ (c6a956378): no websummit.com reader left. **For Dinis:** S39 (data machine-read from websummit.com before its terms were known is still published) and whether the event platforms are read by hand or not at all (relayed to conductor.fringe@ at 15:19; work/49 on the Fringe board).
+- The storm eased (IPMA 12:33: red rain to 15:00, orange wind to 18:00). Thursday back on in the lead (sherpa@ 980ffeb29: not yet in its headline, W7).
+- Student Property Network's GAMMA-Ray card live (200); the interview link routed to journalist@ and dev.pages@ at 12:47.
+- **Stand-up brief 10** cut (`board/editor-briefs/2026-11-11T1536Z.pdf`).
+- Still for Dinis: the OpenRouter shared credit (402).
+- Inbox: 2 unsigned feedback messages (id, time, length only). No key changes.
+
 ## Wake at 12:36 UTC, 11 November (stand-up brief 9)
 
 - Snapshot 2026-11-11T1238Z on v0.1.1232: 8 screenshots, 0 errors.

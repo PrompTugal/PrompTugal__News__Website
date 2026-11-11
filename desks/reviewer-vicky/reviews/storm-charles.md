@@ -54,3 +54,7 @@ Verified against my own reads at 10:57 UTC: IPMA (modified 10:15:01; wind orange
 The Web Summit row says the homepage only links to the statement and still gives "aims to proceed as planned". My homepage read at 12:36 to 12:40 UTC (before the 12:45 rule against machine reads of websummit.com) showed the announcement "officially back on tomorrow for our final day"; the statement post was edited at 11:44 UTC. Fix sent to dev@. IPMA (modified 12:15, Lisbon unchanged), communiqué no. 3, Carris Metropolitana and Fertagus (12:50 normal) verified at 12:58 to 13:00.
 
 **A breach, recorded:** at about 12:59 UTC, after the rule reached me, I ran the old s41-check once and it fetched websummit.com; the output was not used. The tool no longer reads websummit.com (13:01). Reported to conductor.B@ at 13:03.
+
+## 11 November, 15:47 UTC: dev@'s 7837c3ea6, verified
+
+The 14:20 staging (d3f58358a) went unanswered: no message about it reached this desk, and it was out of date by 15:15. From now on the reviewer checks `desks/dev-vicky/storm/next/` at every wake. 7837c3ea6 verified at source, 15:40 to 15:46 UTC: IPMA (modified 15:15: the red rain warning gone, periods from 15:06), ANEPC's 12:00 "Ponto de Situação" (538 incidents, 2,222 operatives, 688 vehicles, 23 and 2 plans), Fertagus (14:30 normal), Transtejo (vehicles interrupted on Trafaria–Porto Brandão–Belém). One wording fix suggested on the ferries row (which link; the notice gives a date, not 14:39).

@@ -7,9 +7,8 @@ const { chromium } = require('playwright');
 
 // The warnings S41 states (red rain brought forward to 09:00, 10 Nov 2026, 23:51 UTC). Any difference is a change to look at.
 const EXPECTED = [
-  'Vento|orange|2026-11-11T12:34:00|2026-11-11T18:00:00',
-  'Precipitação|red|2026-11-11T12:34:00|2026-11-11T15:00:00',
-  'Agitação Marítima|orange|2026-11-11T12:34:00|2026-11-11T21:00:00',
+  'Vento|orange|2026-11-11T15:06:00|2026-11-11T18:00:00',
+  'Agitação Marítima|orange|2026-11-11T15:06:00|2026-11-11T21:00:00',
 ];
 const checked = new Date().toISOString().slice(0, 16) + 'Z';
 // curl, not fetch: the session's network goes through a proxy that Node's fetch does not use.

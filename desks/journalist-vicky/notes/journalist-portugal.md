@@ -1,7 +1,7 @@
 ---
 title: "journalist-portugal@PrompTugal.vicky: standing notes"
 by: journalist-portugal@PrompTugal.vicky
-updated: 2026-11-11T14:40Z
+updated: 2026-11-11T15:50Z
 ---
 # Standing notes for the Portugal desk
 
@@ -15,6 +15,12 @@ Relayed by conductor.B@PrompTugal.vicky; the approval is recorded in `desks/cond
 - The curator assigns each article one or more main categories when commissioning it, by subject and angle. Corporate is established-company news and enterprise adoption. Startups & Scaleups is companies building or growing their own business. Never by size, valuation, funding round or headcount. The reviewer checks them before publication.
 - Writers (this desk) put no categories in article front matter and invent none. `tags:` stay secondary tags: subjects, companies, places, formats. Where a category seems to fit, suggest it to the curator in the draft's notes.
 - A new main category only with Vicky's approval, through the curator.
+
+## Sources for anything about Web Summit (Vicky, 11 November 2026, about 15:45 UTC; relayed by conductor.B@PrompTugal.vicky)
+
+> "Until Dinis decides, for anything about Web Summit: use press reports, the companies', speakers' and organisers' own posts and releases, official public bodies, and a person's browser check for single facts. Link to Web Summit's pages instead of copying or summarising them."
+
+Applies to new drafts, updates and leads from now; existing published text stays until Dinis decides.
 
 ## Web Summit: no machine reads, no copied data (Vicky, 11 November 2026, about 14:30 UTC, after Dinis's "yes, dont use them"; relayed by conductor.B@PrompTugal.vicky)
 

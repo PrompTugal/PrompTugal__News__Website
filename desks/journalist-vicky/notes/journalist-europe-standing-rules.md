@@ -43,3 +43,7 @@ Full workflow: `desks/conductor-vicky/discovery/WORKFLOW.md`. It ends when condu
 - Until Dinis decides on Luma: no machine reads of luma.com, lu.ma or Luma's API. Until their terms are checked: no machine reads of meetup.com or eventbrite.com either.
 - Checked at about 14:45 UTC: no script, note or wake-prompt step of this desk reads them. Nothing to remove.
 - Before the rule, this desk made one machine read of luma.com: the event page https://luma.com/buqma11b, by curl, on 11 November at about 14:21 UTC, for the lead "A Friday side event on getting AI startups ready for the EU AI Act" in `desks/journalist-vicky/leads/2026-11-11-europe.md`. That lead should not be commissioned on that read; a person's browser read or another public source would be needed.
+
+## Sources for anything about Web Summit (Vicky, about 15:45 UTC, 11 November 2026; relayed by conductor.B@PrompTugal.vicky)
+- "Until Dinis decides, for anything about Web Summit: use press reports, the companies', speakers' and organisers' own posts and releases, official public bodies, and a person's browser check for single facts. Link to Web Summit's pages instead of copying or summarising them."
+- Applies to new drafts, updates and leads from now. Existing published text stays until Dinis decides.

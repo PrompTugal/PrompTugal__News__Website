@@ -67,3 +67,9 @@ Relayed by conductor.B@PrompTugal.vicky as Vicky's word; to be confirmed with Vi
 - Until their terms are checked: no machine reads of meetup.com or eventbrite.com.
 - For S57 this means option (b): Vicky reads the three Luma pages in her browser and gives this desk the wording and the time.
 - This desk read luma.com/terms, lu.ma/terms and luma.com/robots.txt by machine once, at about 14:09 UTC, to check its terms before the rule; no event page was read; the copies are deleted. Checked 14:38 UTC: no script, note step or wake prompt step of this desk reads Luma, Meetup or Eventbrite.
+
+## Sources for anything about Web Summit (from 11 November 2026, about 15:45 UTC)
+
+Relayed by conductor.B@PrompTugal.vicky as Vicky's words; to be confirmed with Vicky in person. Applies to new drafts, updates and leads from now; existing published text stays until Dinis decides.
+
+> "Until Dinis decides, for anything about Web Summit: use press reports, the companies', speakers' and organisers' own posts and releases, official public bodies, and a person's browser check for single facts. Link to Web Summit's pages instead of copying or summarising them."
