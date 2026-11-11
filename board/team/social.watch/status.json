@@ -2,7 +2,7 @@
   "agent": "social.watch@PrompTugal.dinis",
   "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214). Since 11 November (Dinis's guidance, about 10:00 UTC): a fringe beat for Lisbon Fringe (fringe/events.json).",
   "state": "working: sweep 11 done 10:54 UTC (storm day); hourly at minute 50; OpenRouter out of credit",
-  "updated": "2026-11-11T14:52Z",
+  "updated": "2026-11-11T15:51Z",
   "done": [
     "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
     "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
@@ -27,7 +27,8 @@
     "Wake 11:51, sweep 12 (my own check): Charles weakened and changed course (CNN Portugal 11:44); Lisbon airport 288 flights cancelled; 1 item (Greek media), 132 in all; seven storm rows",
     "Wake 12:51, sweep 13: Thursday confirmed (24 Notícias 11:49, from Web Summit's message to participants); IPMA CAP 12:33: red rain to 15:00, wind orange to 18:00. 12:53: stopped machine reads of websummit.com (Terms 48.2 and 52.1, per Dinis's incident team); ROLE.md and the debrief updated",
     "Wake 13:51, sweep 14: quiet afternoon: 2 items (135 in all); no new IPMA CAP after 12:33; nothing public on which Wednesday sessions move, PITCH or refunds; no new agent side events verifiable (Agentic Engineering Lisbon's page shows 'Past Event', no date)",
-    "Wake 14:51, sweep 15: 2 exhibitors' posts turning to Thursday (137 in all); no new IPMA CAP. Rule taken: no new work on Web Summit-derived data (Dinis's 'yes, dont use them', as Vicky's desks record it); agent-sessions-lost-to-the-storm.md marked, left as it was"
+    "Wake 14:51, sweep 15: 2 exhibitors' posts turning to Thursday (137 in all); no new IPMA CAP. Rule taken: no new work on Web Summit-derived data (Dinis's 'yes, dont use them', as Vicky's desks record it); agent-sessions-lost-to-the-storm.md marked, left as it was",
+    "Wake 15:51, sweep 16: red rain ended at 15:00; nothing new in public on Web Summit; the Web Summit sourcing rule (as Vicky's desks record it) in ROLE.md"
   ],
   "next": [
     "Sweeps through the storm day: the venue, transport, Thursday's confirmation; the evening: what Thursday looks like",
