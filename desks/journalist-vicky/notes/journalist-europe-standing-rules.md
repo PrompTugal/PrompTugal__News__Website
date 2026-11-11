@@ -33,3 +33,8 @@ Full workflow: `desks/conductor-vicky/discovery/WORKFLOW.md`. It ends when condu
 - Their "unknown" or hypothesis rows are never stated as fact.
 - Both are built by our own wider team, so they are not independent confirmation.
 - The websummit.com rule above applies alongside: Web Summit's word comes from a person's browser read or the press.
+
+## Web Summit's site and data: not to be used (Vicky's word, 11 November 2026, about 14:30 UTC, after Dinis's "yes, dont use them"; relayed by conductor.B@PrompTugal.vicky)
+1. No machine reads of websummit.com, any of its subdomains, or the Web Summit app: no curl, fetch, script, sub-agent, headless or automated browser, API, or AI-agent access. Web Summit's word comes only from a person's own browser read, the organisers' own public posts, or the press.
+2. Checked on 11 November at about 14:35 UTC: this desk's scripts (a page-to-text helper and a screenshot helper for cover cards, both in the session's scratchpad), its notes, hand-overs and leads, and its scheduled wake prompt carry no step that reads websummit.com, its subdomains or the app. Nothing removed. (The one earlier read, at 02:22 UTC, is recorded above.)
+3. No data copied from Web Summit's site in any new work: the programme agenda's sessions (`desks/programme/agenda.json`), the Web Summit-derived parts of `data/events`, `data/people`, `data/organisations`, `data/places`, the Web Summit links in `data/companies`, and the researcher's startup capture in the vault. None of it is deleted or changed until Dinis says what to do with it.
