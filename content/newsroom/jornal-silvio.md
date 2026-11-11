@@ -5,6 +5,15 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 11 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 4 | **Bay raises $50m to check every AI agent action before it runs: allow, block or ask a person.** Tel Aviv; Battery Ventures leads; Micron, Peloton, ClickUp and Wix named as customers. Photo: link only (Bay). | AI agents | [The Next Web](https://thenextweb.com/news/bay-50m-ai-agent-security-stealth-battery-ventures), 10 Nov |
+| 3 | **OpenAI lets businesses claim ChatGPT profiles and run their own customer agents inside it.** Agents must say they are AI; purchases need the user's approval; US only for now. Photo: link only (OpenAI). | AI agents | [The Next Web](https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents), 10 Nov |
+
+Looked at and skipped this morning: the Storm Charles cancellation (already on promptugal.news), Gemini 4 Carbon, Kora's OS and Adobe Firefly (below the bar).
+
 ## 10 November 2026
 
 | Score | Candidate | Beat | Source |
