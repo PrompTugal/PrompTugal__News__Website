@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1304",
+    "date": "2026-11-11",
+    "what": "conductor@PrompTugal.dinis: run report, the websummit-only routing",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "6e5013221"
+  },
+  {
     "version": "v0.1.1303",
     "date": "2026-11-11",
     "what": "watch 21:14: quiet before Thursday; the demo screen live",
