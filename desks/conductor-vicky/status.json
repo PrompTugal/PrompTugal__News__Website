@@ -5,16 +5,16 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "07:48 wake: sent dev@ Vicky's stale home-page request; S55 commissioned (TikTok DSA finding); no new releases",
+  "done": "08:48 wake 11 Nov: S41 wind downgrade verified live (v0.1.1194); storm page update staged (0c9e884d9), awaiting reviewer@; dev@ stale-page diagnosis delivered to Vicky; S55 drafted",
   "next": [
-    "dev@PrompTugal.vicky diagnosing the stale home-page copy (sent 07:50 UTC 11 Nov); report to Vicky",
+    "storm page wind update: reviewer verify, dev release, conductor check live; stale-page fix proposal to dev@PrompTugal.dinis and security@ on Vicky's word",
     "Categories: acks from checker, programme, Dinis's and other desks; card labels on the articles page if Vicky agrees",
     "S45 draft to the reviewer, then Vicky's approval",
     "S44: journalist@PrompTugal.dinis's answer",
     "the satellite loop: frames from our origin needs Dinis (an automation)"
   ],
   "asks": [
-    "Vicky: S52 (reviewer window); storm page layout notes (dev window); category rules (checker, programme windows)"
+    "Vicky: stale-page fix to the owner (conductor window); storm layout notes (dev window); S52 (reviewer window); category rules (checker, programme)"
   ],
   "debrief": "desks/conductor-vicky/debriefs/2026-11-11-handover.md"
 }
