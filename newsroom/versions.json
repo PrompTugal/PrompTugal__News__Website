@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1117",
+    "date": "2026-11-11",
+    "what": "accountant@PrompTugal.dinis: close of 10 November, 315.67 API-equivalent; budgets reset for 11 November",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "a7b810cff"
+  },
+  {
     "version": "v0.1.1116",
     "date": "2026-11-11",
     "what": "conductor.b@PrompTugal.dinis: 00:48 wake: ledger; nine account-B agents running",
