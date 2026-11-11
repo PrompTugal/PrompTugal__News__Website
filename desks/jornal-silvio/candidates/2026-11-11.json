@@ -273,6 +273,14 @@
     {
       "what": "Fractile raises $720M at $7B for AI inference chips (TNW); AWS open-sources UAEF to test agents (TNW); StitchStudio $8M (TNW); Databricks Genie (TechCrunch)",
       "why": "below the bar or off the agentic governance angle; UAEF may be worth a line in a later piece"
+    },
+    {
+      "what": "China Telecom report: China's AI industry moves from models to agents (TNW)",
+      "why": "dated 12 September 2026; used only to flag a deadline conflict on js-2026-11-10-09"
+    },
+    {
+      "what": "Agent F raises $4M (Tech.eu); DeepSeek 'super agent' (SCMP, 1 November)",
+      "why": "below the bar / not new"
     }
   ],
   "wakes": [
@@ -300,6 +308,11 @@
       "at": "2026-11-11T20:24Z",
       "added": 1,
       "note": "scheduled wake"
+    },
+    {
+      "at": "2026-11-11T22:22Z",
+      "added": 0,
+      "note": "scheduled wake; no new candidate; a deadline conflict flagged on the gigafactory candidate"
     }
   ]
 }
