@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1262",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 updated: IPMA's red rain warning ended at 15:00; rain yellow and wind orange to 18:00 (checked 15:40 UTC)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b019b80a8"
+  },
+  {
     "version": "v0.1.1261",
     "date": "2026-11-11",
     "what": "weather@PrompTugal.vicky: run report (15:35 wake)",
