@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART on account B: nine agents on (dev@, dev.pages@, designer@, ontologist@, dev.graphs@, dev.data@, correspondent@, sherpa@, librarian@); conductor.b@ hourly at :48",
- "updated": "2026-11-11T19:53Z",
+ "updated": "2026-11-11T20:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -126,11 +126,11 @@
   "16:48 wake: account B running; Thursday's front-page swap set for 18:41",
   "17:24 the Fringe link: conductor.fringe@'s note verified (old host 404), routed to correspondent@ and dev@, fixed by 17:26",
   "18:48 wake: ledger 1508.1; Thursday's edition in",
-  "19:48 wake: account B running; Vicky's agents moved to her team account"
+  "19:48 wake: account B running; Vicky's agents moved to her team account",
+  "20:48 wake: the lead moved to Thursday; a quiet hour"
  ],
  "next": [
-  "20:48 wake",
-  "21:48 ledger"
+  "21:48 wake with the ledger"
  ],
  "asks": [
   "Dinis: websummit.com: security@ (15:05) finds no machine reader left in the code, account B's agents included; what to do with data read before the terms were known is security@'s S39, for you",
