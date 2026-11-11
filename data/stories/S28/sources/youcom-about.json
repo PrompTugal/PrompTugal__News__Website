@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "youcom-about",
+  "story": "S28",
+  "url": "https://you.com/about",
+  "title": "About Us | You.com",
+  "publisher": "You.com",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "You.com's own About page: its mission and leadership."
+}

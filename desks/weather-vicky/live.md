@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 11 Nov 05:36: checked 05:36 UTC, no change in the warnings, the alert, Web Summit or transport. Airport TAF reissued 05:00 UTC ([LPPT](https://aviationweather.gov/api/data/taf?ids=LPPT&format=raw)): at times 30 gusting 45 knots (about 83 km/h) 09:00 to 18:00 UTC; 30% chance of 43 gusting 58 knots (about 107 km/h) with thunderstorms 10:00 to 18:00 UTC; easing from 18:00. METAR 05:30 UTC: light rain, light wind, no gusts, 1003 hPa. Snapshot `data/2026-11-11T0536Z.json`.
 - 11 Nov 04:36: checked 04:36 UTC, no change. Airport METAR 04:30 UTC: light wind, low cloud, no gusts; pressure 1004 hPa and still falling. Snapshot `data/2026-11-11T0436Z.json`.
 - 11 Nov 03:36: checked 03:36 UTC, no change (ANEPC's site did not answer). Airport METAR 03:00 to 03:30 UTC: rain, visibility down to 3.5 km at 03:00, wind 7 to 11 knots, no gusts; pressure falling (1008 hPa at 23:00 to 1005 at 03:30). Snapshot `data/2026-11-11T0336Z.json`.
 - 11 Nov 02:36: checked 02:36 UTC, no change. Airport METAR 02:30 UTC: wind 8 knots, no gusts. Snapshot `data/2026-11-11T0236Z.json`.

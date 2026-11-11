@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "modelbest-home",
+  "story": "S28",
+  "url": "https://modelbest.cn/en",
+  "title": "ModelBest, home page",
+  "publisher": "ModelBest",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "ModelBest's own home page: the MiniCPM edge model series and where it is used."
+}

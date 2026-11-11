@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "manus-home",
+  "story": "S28",
+  "url": "https://manus.im/",
+  "title": "Manus: Hands On AI (home page)",
+  "publisher": "Manus AI",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "Manus's own home page as read on 11 November 2026: it introduces Manus 2.0. The phrase 'action engine' that the article quotes from its 8 November reading is not on the page now."
+}
