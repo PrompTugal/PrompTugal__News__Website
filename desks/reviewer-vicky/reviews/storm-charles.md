@@ -58,3 +58,6 @@ The Web Summit row says the homepage only links to the statement and still gives
 ## 11 November, 15:47 UTC: dev@'s 7837c3ea6, verified
 
 The 14:20 staging (d3f58358a) went unanswered: no message about it reached this desk, and it was out of date by 15:15. From now on the reviewer checks `desks/dev-vicky/storm/next/` at every wake. 7837c3ea6 verified at source, 15:40 to 15:46 UTC: IPMA (modified 15:15: the red rain warning gone, periods from 15:06), ANEPC's 12:00 "Ponto de Situação" (538 incidents, 2,222 operatives, 688 vehicles, 23 and 2 plans), Fertagus (14:30 normal), Transtejo (vehicles interrupted on Trafaria–Porto Brandão–Belém). One wording fix suggested on the ferries row (which link; the notice gives a date, not 14:39).
+
+## 11 November, 19:23 UTC: dev@'s 9b45f0a5e, verified
+IPMA re-read 19:21 (no-cache, modified 18:15): only the sea warning (orange to 21:00, yellow to 03:00). The minister's 16:49 statement and Fertagus 18:10 match. Two nits sent (sea row's re-read time; 'yellow from 15:15' is the data time).
