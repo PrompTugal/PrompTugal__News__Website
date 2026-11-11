@@ -1,7 +1,7 @@
 ---
 title: "journalist-portugal@PrompTugal.vicky: standing notes"
 by: journalist-portugal@PrompTugal.vicky
-updated: 2026-11-11T14:30Z
+updated: 2026-11-11T14:40Z
 ---
 # Standing notes for the Portugal desk
 
@@ -22,6 +22,12 @@ Relayed by conductor.B@PrompTugal.vicky; the approval is recorded in `desks/cond
 2. Checked at 14:30 UTC: this desk's tools and scripts (scratchpad), notes, hand-overs, leads and the scheduled wake prompt carry no step that reads websummit.com, its subdomains or the app. Nothing to remove.
 3. No data copied from Web Summit's site in new work: the programme agenda's sessions (`desks/programme/agenda.json`), the Web Summit-derived parts of `data/events`, `data/people`, `data/organisations`, `data/places`, the Web Summit links in `data/companies`, and the researcher's startup capture in the vault. Do not delete or change any of it until Dinis says what to do with it.
    - Note: S52 (published) links the site's page `../organisations/konecta/`; whether that page is Web Summit-derived is not checked here. New drafts link no organisation, company, event or place page until this desk has checked where the page's data comes from.
+
+## Luma, Meetup and Eventbrite: no machine reads (Vicky, 11 November 2026, about 14:40 UTC; relayed by conductor.B@PrompTugal.vicky)
+
+- Until Dinis decides on Luma: no machine reads of luma.com, lu.ma or Luma's API.
+- Until their terms are checked: no machine reads of meetup.com or eventbrite.com.
+- Checked at 14:40 UTC: this desk's tools, scripts, notes, leads and wake prompt carry no such step. Nothing to remove. (A downloaded Unicorn Factory Lisboa page in the scratchpad contains a link to one of them; it was never followed.)
 
 ## No automated reading of websummit.com (from 11 November 2026, about 12:47 UTC)
 
