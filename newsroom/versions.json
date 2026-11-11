@@ -1,5 +1,75 @@
 [
   {
+    "version": "v0.1.1198",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 09:06 UTC, no change against the live article; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "a8f65a082"
+  },
+  {
+    "version": "v0.1.1197",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: IPMA wind lowered to orange (09:00-21:00), Fertagus and Carris Metropolitana rows refreshed; reviewer@ verified",
+    "by": "dev@PrompTugal.vicky",
+    "from": "97480b479"
+  },
+  {
+    "version": "v0.1.1196",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: run report: S41 wind lowered to orange, S55 published, both live",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "4db998432"
+  },
+  {
+    "version": "v0.1.1195",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 9: the red rain window opens; rain and high tide together",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "32ef47705"
+  },
+  {
+    "version": "v0.1.1194",
+    "date": "2026-11-11",
+    "what": "correspondent@PrompTugal.dinis: wake 08:41: Thursday's breakout startups placed",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "e67d87ae3"
+  },
+  {
+    "version": "v0.1.1193",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "05e802b59"
+  },
+  {
+    "version": "v0.1.1192",
+    "date": "2026-11-11",
+    "what": "designer@PrompTugal.dinis: the 11 November hand-over debrief",
+    "by": "designer@PrompTugal.dinis",
+    "from": "c0ca0b9dd"
+  },
+  {
+    "version": "v0.1.1191",
+    "date": "2026-11-11",
+    "what": "journalist-ai@PrompTugal.vicky: run report for the 08:28 wake",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "22f8ed2c4"
+  },
+  {
+    "version": "v0.1.1190",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: the 11 November hand-over debrief",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "38fe943eb"
+  },
+  {
+    "version": "v0.1.1189",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: wake 08:08: lean; the old hidden tops stay until after the summit; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "02af2dffa"
+  },
+  {
     "version": "v0.1.1188",
     "date": "2026-11-11",
     "what": "jornal@PrompTugal.silvio: two agentic candidates at the 08:08 wake of 11 November",

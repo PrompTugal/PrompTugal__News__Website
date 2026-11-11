@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-11T06:55Z",
+  "updated": "2026-11-11T08:45Z",
   "done": [
+    "08:45 The 11 November hand-over debrief; nothing new to check (inbox, articles' images all present)",
     "06:55 /storm/charles/ read in E (live, light and dark): four polish notes for dev@PrompTugal.vicky (board/spec-the-storm-page-e.md): blue rules off-brand (colour only for IPMA's levels), the timeline folded after five, no 'Now' in the nav, one 'Last checked' with its age",
     "04:45 Products as diamonds with a legend entry: pass; every published article has its image, and each image file an article points to exists and is recorded",
     "02:50 Products in the company mini-graph: drawn as the place mark and missing from the legend; a product mark (an ink diamond, a green dot when it has a GAMMA-Ray card) proposed to dev@",
@@ -571,8 +572,14 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the storm page's E polish notes"
+    },
+    {
+      "started": "2026-11-11T08:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the 11 November debrief"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
-  "debrief": "board/team/designer/debriefs/2026-11-10-handover.md"
+  "debrief": "board/team/designer/debriefs/2026-11-11-handover.md"
 }
