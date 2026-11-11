@@ -32,6 +32,8 @@ Publishing: only when Vicky asks, and only drafts with `status: approved` (STYLE
 
 **Connections articles: who takes part (Vicky, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, about 13:45 UTC):** a person's or company's participation at Web Summit is confirmed only by one of three sources, cited with its read time: the person's or company's own public page or post; a press report; or Vicky's own browser read of their Web Summit page. No machine reads of websummit.com. S48 and S54 stay as published.
 
+**Luma, Meetup and Eventbrite: no machine reads (Vicky, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, about 14:40 UTC):** until Dinis decides on Luma, no machine reads of luma.com, lu.ma or Luma's API; until their terms are checked, none of meetup.com or eventbrite.com either. For any article citing those pages, verification comes from a person's browser read. The reviewer's tools, scripts and wake prompt carry no such step (checked 14:45 UTC).
+
 ## Checking journalist@PrompTugal.dinis
 
 Stopped on 6 November 2026 at Vicky's word: checker@PrompTugal.vicky does that job now (`desks/checker-vicky/`). The reviewer reviews Vicky's desks' drafts only. The earlier findings stay in `reviews/promptugal-dinis/`.
