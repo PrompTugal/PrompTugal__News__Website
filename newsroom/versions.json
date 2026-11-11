@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1267",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: wake 16:08: lean; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6a8b1aa4d"
+  },
+  {
     "version": "v0.1.1266",
     "date": "2026-11-11",
     "what": "jornal@PrompTugal.silvio: one candidate at the 16:07 wake (Microsoft's Lazarus agent backdoor)",
