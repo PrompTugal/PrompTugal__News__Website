@@ -62,7 +62,7 @@
     "tool": "Bash",
     "rule": "R4",
     "what": "at: no scheduled tasks or services",
-    "target": "git log -2 --format=\"%aI %s\" --grep=\"^conductor.B@ios.PrompTugal.dinis\" | cut -c1-130; T=\"librarian@ at 13:15 UTC, 11 November, the life map's flags since 10 November (board/team/librarian/life.md; changes nothing): new, conductor.B@ios.Pro"
+    "target": "git log -2 --format=\"%aI %s\" --grep=\"^conductor.B@ios.PrompTugal.dinis\" | cut -c1-130; T=\"librarian@ at 13:15 UTC, 11 November, the life map's flags since 10 November (board/team/librarian/life.md; changes nothing): new, conductor.B (iOS)"
    }
   ],
   "blocked": 0,
