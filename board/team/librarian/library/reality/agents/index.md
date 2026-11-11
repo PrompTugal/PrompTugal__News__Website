@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2991 cards (813 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-11T03:58:20Z at site v0.1.1148; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3007 cards (829 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-11T06:58:59Z at site v0.1.1177; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `RDR.SHERPA` | 26 |
+| `RDR.SHERPA` | 27 |
 | `RDR.SYN` | 5 |
 | `TEAM.ABP` | 53 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 81 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1618 |
+| `TEAM.ROLE` | 1633 |
 | `TEAM.RUN` | 1176 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261111-0052` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-categories/workflow.json) (`TEAM.ROLE workflow:3`)
-- `ACC-20261111-0051` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-categories/timeline.json) (`TEAM.ROLE timeline:4`)
-- `ACC-20261111-0050` [the-discovery.json](https://promptugal.news/board/team/work-desk/traces/the-discovery.md) (`TEAM.ROLE the-discovery:2`)
-- `ACC-20261111-0049` [the-discovery.json](https://promptugal.news/board/team/work-desk/traces/the-discovery.json) (`TEAM.ROLE the-discovery`)
-- `ACC-20261111-0048` [Eight categories in 65 minutes: how a person and her agents reorganised a newsroom at midnight](https://promptugal.news/board/team/journalist.newsroom/stories/the-categories.md) (`TEAM.ROLE the-categories:4`)
+- `ACC-20261111-0074` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-discovery/workflow.json) (`TEAM.ROLE workflow:4`)
+- `ACC-20261111-0073` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-discovery/timeline.json) (`TEAM.ROLE timeline:5`)
+- `ACC-20261111-0072` [The night shift: four articles published while their editor slept](https://promptugal.news/board/team/journalist.newsroom/stories/the-discovery.md) (`TEAM.ROLE the-discovery:4`)
+- `ACC-20261111-0071` [the-discovery.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-discovery/the-discovery.mmd) (`TEAM.ROLE the-discovery:3`)
+- `ACC-20261111-0070` [handoffs.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-discovery/handoffs.json) (`TEAM.ROLE handoffs:4`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

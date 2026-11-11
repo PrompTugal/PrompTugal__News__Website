@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 4 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T03:58:20Z"
-site_version: "v0.1.1148"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T06:58:59Z"
+site_version: "v0.1.1177"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 4 of 4)
 
-50 cards, from `WRK.PLAN spec-claimed-profiles` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+51 cards, from `WRK.PLAN spec-claimed-profiles` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
@@ -33,17 +33,18 @@ source: board/catalogue.json
 | `WRK.PLAN spec-the-front-page` | [The front page, round 1: three mock-ups for Dinis, and what dev@ (or dev.pages@) builds whichever he picks](https://promptugal.news/board/spec-the-front-page.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-front-page-theme` | [The Front Page (design E) as the whole site's theme: what changes on every page](https://promptugal.news/board/spec-the-front-page-theme.md) | board | designer@ 10 Nov 2026 |
 | `WRK.PLAN spec-the-reading-credit` | [The reading credit, said plainly: one line on a page, the details on the account page](https://promptugal.news/board/spec-the-reading-credit.md) | board | designer@ 8 Nov 2026 |
+| `WRK.PLAN spec-the-storm-page-e` | [/storm/charles/ in design E: four polish notes](https://promptugal.news/board/spec-the-storm-page-e.md) | board | designer@ 11 Nov 2026 |
 | `WRK.PLAN spec-the-summit-days` | [The summit's days, round 1: the strip, a past day, a future day; what dev@, the correspondent and the historian build](https://promptugal.news/board/spec-the-summit-days.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-synthetic-readers-page` | [The synthetic readers page, the designer's round: the scoreboard as tiles (S9), a card per reader (S5)](https://promptugal.news/board/spec-the-synthetic-readers-page.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-top-of-the-page` | [The top of every page, round 1: the quick fixes for dev@, and four mock-ups for Dinis to choose from](https://promptugal.news/board/spec-the-top-of-the-page.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-vault-onboarding` | [Spec: vault onboarding for PrompTugal.news readers (key pool, claim lane, mailbox)](https://promptugal.news/board/spec-vault-onboarding.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN spec-vaults-images-and-before-after` | [Images out of git: the designer's vault, a page that maps every vault, an image queue (OpenRouter and ChatGPT), and a before and after article for every…](https://promptugal.news/board/spec-vaults-images-and-before-after.md) | board | designer@ 6 Nov 2026 |
-| `WRK.PLAN the-account-move` | [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) | board | conductor@ 6 Nov 2026 |
 
 **Cards 326 to 350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PLAN the-account-move` | [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN the-conductors` | [The conductors: one main conductor, four focused ones, two accounts](https://promptugal.news/board/the-conductors.md) | board | conductor@web-summit.dinis 9 Nov 2026 |
 | `WRK.PLAN the-conductors-sync` | [The conductors stay in sync: one picture of the work across PrompTugal's team and the Web Summit team](https://promptugal.news/board/the-conductors-sync.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN the-newsroom-move` | [The newsroom: admin becomes the newsroom, everywhere, in one move](https://promptugal.news/board/the-newsroom-move.md) | board | conductor@ 6 Nov 2026 |
@@ -68,6 +69,11 @@ source: board/catalogue.json
 | `WRK.TASK brazil-7` | [brazil-7: The hubs' track: which hubs, which startups](https://promptugal.news/board/tasks/brazil-7.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-8` | [brazil-8: Brazilian investors at Web Summit Lisbon 2026](https://promptugal.news/board/tasks/brazil-8.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-9` | [brazil-9: The ApexBrasil rules as data](https://promptugal.news/board/tasks/brazil-9.md) | board | correspondent@ 6 Nov 2026 |
+
+**Cards 351 to 351**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `WRK.TASK external-agents` | [Which agents outside Claude would serve your work?](https://promptugal.news/board/tasks/external-agents.md) | board | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](WRK-3.md)
