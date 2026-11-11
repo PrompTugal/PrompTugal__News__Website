@@ -1,20 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-labelledby="t d">
   <title id="t">IPMA warnings for Lisbon, Wednesday 11 November 2026</title>
-  <desc id="d">As shortened on Wednesday afternoon: orange warning for wind until 18:00, gusts up to 90 km/h and up to 110 km/h in the most exposed places; red for rain until 15:00, then yellow until 18:00; orange for the sea until 21:00, then yellow until 03:00 on Thursday. Lisbon time. Source: IPMA open data and warnings page, read 11 November 2026 at 14:08 UTC.</desc>
+  <desc id="d">As shortened on Wednesday afternoon: orange warning for wind until 18:00, gusts up to 90 km/h and up to 110 km/h in the most exposed places; yellow for rain until 18:00 (the red rain warning ended at 15:00); orange for the sea until 21:00, then yellow until 03:00 on Thursday. Lisbon time. Source: IPMA open data and warnings page, read 11 November 2026 at 15:40 UTC.</desc>
   <rect width="800" height="420" fill="#f7f4ee"/>
   <g font-family="Helvetica, Arial, sans-serif">
     <text x="30" y="54" font-size="38" font-weight="700" fill="#1a1a1a">Lisbon, Wednesday 11 Nov</text>
-    <text x="30" y="92" font-size="28" fill="#444">IPMA warnings, shortened in the afternoon</text>
+    <text x="30" y="92" font-size="28" fill="#444">IPMA warnings, eased in the afternoon</text>
 
     <text x="30" y="166" font-size="29" font-weight="700" fill="#1a1a1a">Wind</text>
     <rect x="150" y="132" width="262" height="50" rx="7" fill="#ef8f00"/>
     <text x="281" y="166" text-anchor="middle" font-size="28" font-weight="700" fill="#1a1a1a">ORANGE to 18:00</text>
 
     <text x="30" y="236" font-size="29" font-weight="700" fill="#1a1a1a">Rain</text>
-    <rect x="150" y="202" width="262" height="50" rx="7" fill="#c62828"/>
-    <text x="281" y="236" text-anchor="middle" font-size="28" font-weight="700" fill="#fff">RED to 15:00</text>
-    <rect x="422" y="202" width="350" height="50" rx="7" fill="#f2d024"/>
-    <text x="597" y="236" text-anchor="middle" font-size="28" font-weight="700" fill="#111111">YELLOW to 18:00</text>
+    <rect x="150" y="202" width="262" height="50" rx="7" fill="#f2d024"/>
+    <text x="281" y="236" text-anchor="middle" font-size="28" font-weight="700" fill="#111111">YELLOW to 18:00</text>
 
     <text x="30" y="306" font-size="29" font-weight="700" fill="#1a1a1a">Sea</text>
     <rect x="150" y="272" width="262" height="50" rx="7" fill="#ef8f00"/>
@@ -23,6 +21,6 @@
     <text x="597" y="306" text-anchor="middle" font-size="28" font-weight="700" fill="#111111">YELLOW to 03:00 Thu</text>
 
     <text x="30" y="370" font-size="28" font-weight="700" fill="#1a1a1a">Wind gusts to 90 km/h, 110 where exposed</text>
-    <text x="30" y="406" font-size="28" fill="#555">Source: IPMA, read 11 Nov, 14:08 UTC</text>
+    <text x="30" y="406" font-size="28" fill="#555">Source: IPMA, read 11 Nov, 15:40 UTC</text>
   </g>
 </svg>

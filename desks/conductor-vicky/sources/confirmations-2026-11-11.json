@@ -1,0 +1,13 @@
+{
+  "what": "Agents' confirmations (Vicky's word, 11 Nov 2026, after Dinis's 'yes, dont use them'): no machine reads of websummit.com, its subdomains or the Web Summit app; no machine reads of Luma, Meetup or Eventbrite; no new work from Web Summit-copied data; nothing deleted until Dinis decides",
+  "confirmed_both": ["dev@", "weather@", "reviewer@", "curator@", "programme@", "journalist@", "journalist-connections@", "journalist-portugal@", "journalist-europe@", "journalist-ai@", "conductor.fringe@"],
+  "pending": ["checker@ (reminder sent 14:58 UTC)"],
+  "disclosed_luma_reads_before_the_rule": {
+    "curator@": "3 organiser pages, about 13:35 UTC, for S57",
+    "journalist-ai@": "3 event pages, about 13:45 UTC, for leads",
+    "journalist-europe@": "1 event page, about 14:21 UTC, for a lead (marked do not commission)",
+    "journalist@": "Luma terms and robots.txt, about 14:09 UTC (no event page)",
+    "conductor.fringe@": "30 pages by WebFetch sub-agent, one request each, about 11:20 to 13:30 UTC: 24 Luma, 2 Meetup, 2 Eventbrite, 2 organiser sites"
+  },
+  "published_articles_resting_on_earlier_websummit_reads": ["S41", "S42", "S44", "S45", "S47", "S48", "S49", "S50", "S54"]
+}

@@ -27,7 +27,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3032 cards (854 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-11T12:59:33Z at site v0.1.1236; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3046 cards (868 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-11T15:59:58Z at site v0.1.1263; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -38,17 +38,17 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 84 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1655 |
+| `TEAM.ROLE` | 1669 |
 | `TEAM.RUN` | 1176 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261111-0110` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-stale-page/workflow.json) (`TEAM.ROLE workflow:5`)
-- `ACC-20261111-0109` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-stale-page/timeline.json) (`TEAM.ROLE timeline:6`)
-- `ACC-20261111-0108` [An old page, two developers, two accounts: the fix that waited for its owner](https://promptugal.news/board/team/journalist.newsroom/stories/the-stale-page.md) (`TEAM.ROLE the-stale-page:4`)
-- `ACC-20261111-0107` [the-stale-page.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-stale-page/the-stale-page.mmd) (`TEAM.ROLE the-stale-page:3`)
-- `ACC-20261111-0106` [the-fringe.json](https://promptugal.news/board/team/work-desk/traces/the-fringe.md) (`TEAM.ROLE the-fringe:2`)
+- `ACC-20261111-0135` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-fringe/workflow.json) (`TEAM.ROLE workflow:6`)
+- `ACC-20261111-0134` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-fringe/timeline.json) (`TEAM.ROLE timeline:7`)
+- `ACC-20261111-0133` [the-terms.json](https://promptugal.news/board/team/work-desk/traces/the-terms.md) (`TEAM.ROLE the-terms:2`)
+- `ACC-20261111-0132` [the-terms.json](https://promptugal.news/board/team/work-desk/traces/the-terms.json) (`TEAM.ROLE the-terms`)
+- `ACC-20261111-0131` [A new team in two hours: Lisbon Fringe from one sentence to four conductors on three accounts](https://promptugal.news/board/team/journalist.newsroom/stories/the-fringe.md) (`TEAM.ROLE the-fringe:4`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

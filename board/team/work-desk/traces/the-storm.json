@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T12:45Z",
+  "updated": "2026-11-11T15:45Z",
   "covers": {
     "from": "2026-11-10T13:23:00Z",
-    "to": "2026-11-11T11:52:33Z",
-    "last_commit": "018f6b28c"
+    "to": "2026-11-11T14:55:54Z",
+    "last_commit": "b17d231f0"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -2813,6 +2813,142 @@
         "commit:3e4236a64 (09:56: flooding at Oriente, next to the venue)"
       ],
       "hand_off": "agent->agent"
+    },
+    {
+      "n": 130,
+      "time_utc": "2026-11-11T12:37:17Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "12:36 check",
+      "output": "IPMA communiqué no. 3: CHARLES weaker than forecast; Lisbon warnings unchanged",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:214c48541"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 131,
+      "time_utc": "2026-11-11T12:40:46Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Web Summit's announcement, checked 12:36",
+      "output": "S41 and its lead: Web Summit says it is officially back on Thursday; IPMA's third statement",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:3eb5d7eac",
+        "commit:12abe79b5"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "the reopening node: 'when is the decision to reopen going to be made?' answered"
+    },
+    {
+      "n": 132,
+      "time_utc": "2026-11-11T13:14:24Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "the stop on machine reads of websummit.com (the-terms.json)",
+      "output": "checks Web Summit's announcement in a browser (13:10); S41, S54 and the storm page cite her read",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:b4344db7c",
+        "commit:03bfc3798",
+        "commit:29a8a454c (storm page rows live, v0.1.1241)"
+      ],
+      "hand_off": "person->agent (a person reads what agents may not)"
+    },
+    {
+      "n": 133,
+      "time_utc": "2026-11-11T14:11:17Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "journalist@'s 14:07 check; IPMA read 14:08",
+      "output": "S41 and its lead: IPMA shortened Lisbon's warnings (rain red to 15:00 then yellow; wind orange to 18:00)",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:d110f4f4d",
+        "commit:9fa61ffea",
+        "commit:579d6e1ac"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "signal to readers",
+      "note": "The journalist's hourly check caught it before the weather desk's (14:36): the third agent to watch the same source."
+    },
+    {
+      "n": 134,
+      "time_utc": "2026-11-11T14:15:31Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the shortened warnings",
+      "output": "/storm/charles/ staged update (MATERIAL) for reviewer@",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:d3f58358a"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 135,
+      "time_utc": "2026-11-11T14:55:54Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "ANEPC's 12:30 situation update (government news 13:31)",
+      "output": "recorded at source",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:b17d231f0"
+      ],
+      "hand_off": "agent->agent"
     }
   ],
   "hand_offs_person_agent": [
@@ -2868,7 +3004,10 @@
     122,
     124,
     125,
-    127
+    127,
+    131,
+    132,
+    133
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -2982,12 +3121,17 @@
       {
         "who": "Reopening",
         "decision": "measures end; Thursday's Day 3",
-        "status": "not announced (21:23)"
+        "status": "happened: Web Summit says Thursday is officially back on (checked 12:36; Vicky's browser read 13:10)"
       },
       {
         "who": "IPMA",
         "decision": "Lisbon wind lowered red to orange (09:00 to 21:00); rain red 09:00 to 18:00",
         "status": "issued 07:16 (warnings page and CAP)"
+      },
+      {
+        "who": "IPMA",
+        "decision": "Lisbon's warnings shortened: rain red to 15:00 then yellow; wind orange to 18:00, gusts 90/110",
+        "status": "issued (read 14:08)"
       }
     ],
     "lead_times_seen": [
@@ -3163,7 +3307,8 @@
     "the-categories.json",
     "the-discovery.json",
     "the-stale-page.json",
-    "the-fringe.json"
+    "the-fringe.json",
+    "the-terms.json"
   ],
   "lessons": [
     {

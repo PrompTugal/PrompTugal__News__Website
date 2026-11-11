@@ -3,7 +3,7 @@ title: "Web Summit calls off Wednesday on the government's advice"
 date: 2026-11-10
 story: S41
 author: journalist@PrompTugal.vicky, for Vicky Wang
-summary: "Web Summit says Day 2, Wednesday 11 November, will not take place, after Portugal's government formally advised against it because of Storm Charles. On Wednesday it said it is officially back on Thursday for its final day. IPMA has since shortened its Lisbon warnings: red for rain until 15:00, orange for wind until 18:00."
+summary: "Web Summit says Day 2, Wednesday 11 November, will not take place, after Portugal's government formally advised against it because of Storm Charles. On Wednesday it said it is officially back on Thursday for its final day. IPMA has since eased its Lisbon warnings: rain down to yellow and wind orange, both until 18:00."
 status: published
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
@@ -11,7 +11,7 @@ tags: the summit, Lisbon, weather, IPMA, practical
 image: https://promptugal.news/design/infographics/out/red-wind-warning-lisbon-wednesday--paper--card.png
 image_width: 1200
 image_height: 630
-image_alt: "IPMA's warnings for the Lisbon district on Wednesday 11 November, as shortened on Wednesday afternoon: orange for wind until 18:00, red for rain until 15:00 then yellow until 18:00, orange for the sea until 21:00 then yellow until 03:00 Thursday"
+image_alt: "IPMA's warnings for the Lisbon district on Wednesday 11 November, as eased on Wednesday afternoon: orange for wind until 18:00, yellow for rain until 18:00 (the red rain warning ended at 15:00), orange for the sea until 21:00 then yellow until 03:00 Thursday"
 ---
 
 ## In short
@@ -19,7 +19,7 @@ image_alt: "IPMA's warnings for the Lisbon district on Wednesday 11 November, as
 - [Web Summit](../organisations/web-summit/index.html) [says](https://websummit.com/blog/web-summit/important-event-update-2026/) Day 2, Wednesday 11 November, will not take place. It says Portugal's government formally advised this because of Storm Charles, after talks with the government, ANEPC and the police (PSP).
 - On Wednesday, Web Summit [said](https://websummit.com/) it is "officially back on tomorrow" for its final day, Thursday 12 November, with many sessions rescheduled from Wednesday. It said to check [the schedule](https://websummit.com/schedule/date/2026-11-12/) later on Wednesday for updates.
 - [IPMA](../organisations/ipma/index.html), Portugal's weather institute, lowered its wind warning for the Lisbon district on Wednesday morning, from red to orange, then shortened it on Wednesday afternoon. Its data at 14:08 UTC shows orange until 18:00, with gusts up to 90 km/h and up to 110 km/h in the most exposed places. It had been red, from 12:00 to 21:00, with gusts up to 140 km/h in the most exposed places.
-- Rain is red until 15:00, then yellow until 18:00, IPMA's data showed at 14:08 UTC; it had been red from 09:00 to 18:00. An orange warning covers rough seas until 21:00.
+- Rain is now yellow, until 18:00: IPMA's red rain warning ended at 15:00, and its data at 15:40 UTC shows yellow for rain, at times heavy, until 18:00. It had been red from 09:00 to 18:00. An orange warning covers rough seas until 21:00.
 - Portugal's government has declared an [alert situation](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1) for all of mainland Portugal on Wednesday. Its measures include suspending outdoor events and closing schools and non-essential public services.
 - For a running record of what the authorities have said, see [storm-charles.promptugal.news](https://storm-charles.promptugal.news) (not a warning service: follow IPMA and ANEPC).
 
@@ -33,11 +33,13 @@ On Wednesday, Web Summit's [homepage](https://websummit.com/) announced: "Web Su
 
 Wednesday was to be Day 2 of [Web Summit Lisbon 2026](../events/web-summit-lisbon-2026/index.html). IPMA's open data, read at 14:23 UTC on Tuesday 10 November and unchanged at 07:33 UTC on Wednesday 11 November, showed a red warning for wind in the Lisbon district that day, IPMA's highest level, from 12:00 to 21:00, Lisbon time (the same as UTC in November), with gusts up to 120 km/h and up to 140 km/h in the most exposed places. At 08:40 UTC on Wednesday, IPMA's open data and its warnings page for Lisbon both showed the wind warning lowered to orange, from 09:00 to 21:00, with gusts up to 120 km/h. By 14:08 UTC, IPMA's data and warnings page showed it shortened to end at 18:00, with gusts up to 90 km/h and up to 110 km/h in the most exposed places. In its [third statement](https://www.ipma.pt/opencms/pt/otempo/comunicados/index.jsp) on the storm, edited at 12:16 UTC on Wednesday, IPMA said Charles had split into two separate lows, unlike the models first predicted, so it would deepen less and its wind would be weaker than forecast on Tuesday. It still expected persistent, at times heavy rain, and said it had adjusted its warnings (our translation).
 
-Rain was red: IPMA raised it at 17:43 UTC on Tuesday, for 12:00 to 18:00, then brought it forward. At 23:51 UTC its data showed red for heavy and persistent rain from 09:00 to 18:00, after orange from 00:00 to 09:00. On Wednesday afternoon IPMA shortened it: at 14:08 UTC its data showed red until 15:00, then yellow for rain, at times heavy, until 18:00. An orange warning for the sea runs from 12:00 to 21:00, with south-westerly waves of 5 to 7 metres that could reach 13 metres at most.
+Rain was red: IPMA raised it at 17:43 UTC on Tuesday, for 12:00 to 18:00, then brought it forward. At 23:51 UTC its data showed red for heavy and persistent rain from 09:00 to 18:00, after orange from 00:00 to 09:00. On Wednesday afternoon IPMA shortened it: at 14:08 UTC its data showed red until 15:00, then yellow for rain, at times heavy, until 18:00. By 15:40 UTC, its data (modified at 15:15) showed only the yellow rain warning, until 18:00. An orange warning for the sea runs from 12:00 to 21:00, with south-westerly waves of 5 to 7 metres that could reach 13 metres at most.
 
 Portugal's government has [declared](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1) a *situação de alerta* (alert situation) for all of mainland Portugal on Wednesday 11 November, from 00:00 to 23:59, because of the weather. Its exceptional measures include closing schools and non-essential public services, suspending outdoor events "whatever their nature", and closing parks, gardens and wooded areas at high risk of falling trees (our translation). The Internal Administration minister, Luís Neves, [asked people](https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-) to stay at home where possible and avoid unnecessary journeys.
 
 Portugal's civil protection authority, ANEPC, has [raised its special readiness state](https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/) and sent an SMS warning to the population about the strong wind and persistent rain on Wednesday.
+
+In an [update on the government's site](https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-protecao-civil-apela-a-adocao-de-medidas-de-seguranca) at 13:31 on Wednesday, ANEPC said the change in Charles's track had reduced the forecast impact on the Lisbon region and increased the exposure of the Alentejo and the Algarve. Between midnight and midday it recorded 538 incidents, mostly fallen trees, landslides, floods and road clearing, with Lisbon and Setúbal the most affected. Its special readiness state, at level 4, stays in force across the country (our translation).
 
 ## What this does not claim
 
@@ -46,9 +48,9 @@ Portugal's civil protection authority, ANEPC, has [raised its special readiness 
 - It gives no safety advice of its own. For that, follow IPMA, Portugal's civil protection authority and Web Summit.
 - It does not say what Thursday's programme will hold. Web Summit says schedule updates will follow.
 
-![IPMA's warnings for the Lisbon district on Wednesday 11 November, as shortened on Wednesday afternoon: orange for wind until 18:00, red for rain until 15:00 then yellow until 18:00, orange for the sea until 21:00 then yellow until 03:00 Thursday](https://promptugal.news/desks/journalist-vicky/drafts/img/S41-warnings-2026-11-10.svg)
+![IPMA's warnings for the Lisbon district on Wednesday 11 November, as eased on Wednesday afternoon: orange for wind until 18:00, yellow for rain until 18:00 (the red rain warning ended at 15:00), orange for the sea until 21:00 then yellow until 03:00 Thursday](https://promptugal.news/desks/journalist-vicky/drafts/img/S41-warnings-2026-11-10.svg)
 
-*IPMA's warnings for the Lisbon district on Wednesday 11 November, Lisbon time. Source: IPMA open data and warnings page, as read at 14:08 UTC on Wednesday 11 November.*
+*IPMA's warnings for the Lisbon district on Wednesday 11 November, Lisbon time. Source: IPMA open data, as read at 15:40 UTC on Wednesday 11 November.*
 
 ## Where this comes from
 
@@ -57,8 +59,9 @@ Portugal's civil protection authority, ANEPC, has [raised its special readiness 
 - Press coverage of the organisers' statement (secondary source): [Diário de Notícias, live page, entry "Segundo dia da Web Summit cancelado"](https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa), 10 November 2026 at 19:45, read 10 November 2026 at 19:53 UTC
 - [IPMA, warnings for Lisbon](https://www.ipma.pt/pt/otempo/prev-sam/) (the warnings page: the shortened warnings), read 11 November 2026 at 14:08 UTC
 - [IPMA, statement no. 3 on Storm Charles](https://www.ipma.pt/opencms/pt/otempo/comunicados/index.jsp) (the storm split into two lows, weaker wind than forecast), edited 11 November 2026 at 12:16 UTC, read 11 November 2026 at 13:33 UTC (statement no. 2 was issued 10 November at 17:07)
-- [IPMA, warnings open data (warnings_www.json)](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json) (the Lisbon district, area LSB: levels, times and descriptions), first read 10 November 2026 at 14:23 UTC, last checked 11 November 2026 at 14:08 UTC
-- [Government of Portugal, "Governo declara situação de alerta em todo o território continental"](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1) (the declaration and its measures), published 10 November 2026 at 12:10, read 10 November 2026 at 17:01 UTC, last checked 11 November 2026 at 13:33 UTC
-- [Government of Portugal, "Mau tempo: Governo declara situação de alerta"](https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-) (the minister's appeal), published 10 November 2026 at 10:33, read 10 November 2026 at 17:01 UTC, last checked 11 November 2026 at 13:33 UTC
+- [IPMA, warnings open data (warnings_www.json)](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json) (the Lisbon district, area LSB: levels, times and descriptions), first read 10 November 2026 at 14:23 UTC, last checked 11 November 2026 at 15:40 UTC
+- [Government of Portugal, "Governo declara situação de alerta em todo o território continental"](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1) (the declaration and its measures), published 10 November 2026 at 12:10, read 10 November 2026 at 17:01 UTC, last checked 11 November 2026 at 15:34 UTC
+- [Government of Portugal, "Mau tempo: Governo declara situação de alerta"](https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-) (the minister's appeal), published 10 November 2026 at 10:33, read 10 November 2026 at 17:01 UTC, last checked 11 November 2026 at 15:34 UTC
+- [Government of Portugal, "Mau tempo: Proteção Civil apela à adoção de medidas de segurança"](https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-protecao-civil-apela-a-adocao-de-medidas-de-seguranca) (ANEPC's 12:30 situation update: the Lisbon impact reduced, 538 incidents, readiness level 4), published 11 November 2026 at 13:31, read 11 November 2026 at 14:46 UTC
 - [ANEPC, "Depressão Charles: ANEPC avisa população por SMS"](https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/) (readiness and the SMS warning), dated 10 November 2026, read 10 November 2026 at 17:24 UTC
 - From the curator's map: S41 (MANUAL-10NOV), `desks/curator/2026-11-10-1410.json`

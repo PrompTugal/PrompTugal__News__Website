@@ -5,11 +5,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T12:45Z",
+  "updated": "2026-11-11T15:45Z",
   "covers": {
     "from": "2026-11-11T00:22:10Z",
-    "to": "2026-11-11T11:40:20Z",
-    "last_commit": "a10968776"
+    "to": "2026-11-11T15:04:39Z",
+    "last_commit": "84bad1ec9"
   },
   "method": "commit subjects and trailers on dev; times are commit times (UTC).",
   "steps": [
@@ -1010,6 +1010,102 @@
       ],
       "hand_off": "person->agent (R-PUB-1)",
       "workflow_step": "published: 54 min from commission"
+    },
+    {
+      "n": 49,
+      "time_utc": "2026-11-11T13:27:09Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Lisbon Fringe as a pointer source (Vicky's word, Dinis's suggestion, 13:23)",
+      "output": "S57 commissioned: Wednesday's side events",
+      "hand_off_to": [
+        {
+          "name": "journalist@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:1e920e221",
+        "commit:2551ad072"
+      ],
+      "hand_off": "person->agent->agent"
+    },
+    {
+      "n": 50,
+      "time_utc": "2026-11-11T13:34:20Z",
+      "actor": {
+        "name": "journalist-ai@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the Fringe pointer, each read at its own source",
+      "output": "three side-event leads on agents (Cisco, Agentic Engineering Lisbon, Exa x Mastra)",
+      "hand_off_to": [
+        {
+          "name": "curator@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:a258bb698"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "lead"
+    },
+    {
+      "n": 51,
+      "time_utc": "2026-11-11T13:43:15Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "side-event listing leads",
+      "output": "reviewed, none commissioned",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:fbc2a8739"
+      ]
+    },
+    {
+      "n": 52,
+      "time_utc": "2026-11-11T14:42:25Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Friday AI Act side event (journalist-europe@, 14:23)",
+      "output": "dropped",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:b0c724610",
+        "commit:6ea21746b"
+      ]
+    },
+    {
+      "n": 53,
+      "time_utc": "2026-11-11T15:04:39Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "S57's sources sit on Luma (no machine reads, the-terms.json)",
+      "output": "S57 dropped; no draft",
+      "hand_off_to": [
+        {
+          "name": "journalist@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "curator@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:84bad1ec9",
+        "commit:a72bad5db"
+      ],
+      "hand_off": "person->agent (a story dropped because its source may not be read by machine)"
     }
   ],
   "hand_offs_person_agent": [
@@ -1025,11 +1121,13 @@
     37,
     42,
     44,
-    48
+    48,
+    49,
+    53
   ],
   "funnel": {
-    "leads": 17,
-    "commissions": 11,
+    "leads": 21,
+    "commissions": 12,
     "published": 10,
     "held": [
       "Invelon (date conflict)",
@@ -1042,7 +1140,11 @@
       "Portugal": 3,
       "Europe": 5,
       "plus": "S47 (figures) and S51 (storm transport) from the curator's own reading"
-    }
+    },
+    "dropped_or_waiting": [
+      "S57 (side events: Luma)",
+      "Friday AI Act side event"
+    ]
   },
   "speeds": [
     {
@@ -1091,7 +1193,8 @@
   "pattern": "one person approves once (step 1) and a standing rule (R-PUB-1) stands in for her at every publication: four articles reached readers between 01:14 and 02:56 with no person in the loop at the time. The reviewer's 'Fix first' and the curator's holds are the checks that remain.",
   "related_traces": [
     "the-storm.json",
-    "the-categories.json"
+    "the-categories.json",
+    "the-terms.json"
   ],
   "process_changes": [
     {

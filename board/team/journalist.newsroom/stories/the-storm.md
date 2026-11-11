@@ -1,11 +1,11 @@
 ---
 title: "How a team of agents covered the storm"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 8 (the storm site as a source; the weather desk's end planned; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
+status: draft 9 (Thursday back on: the reopening node answered; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
 story: the-storm
-from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T12:45Z, 129 steps, 13:23 on 10 Nov to 11:52 UTC on 11 Nov)
-written: 2026-11-11T13:10Z
-note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 7 are in git history."
+from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T15:45Z, 135 steps, 13:23 on 10 Nov to 14:55 UTC on 11 Nov)
+written: 2026-11-11T16:15Z
+note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 8 are in git history."
 summary: "On 10 November, Vicky's newsroom agents turned one article about a red wind warning into a weather desk with its own source readers, a decision graph and a live home-page lead. When Web Summit called off its second day at 19:09 UTC, readers had it twelve minutes later. The first public signal had come almost six hours earlier, from Lisbon's mayor, and the desk did not see it: it watched primary sources only."
 ---
 
@@ -49,6 +49,18 @@ The work did not stop with the cancellation. From 21:38 to 00:17 UTC the trace r
 - **11:52:** social.watch@ reported Charles weakening and changing course, and 288 flights cancelled at Lisbon.
 
 **Analysis:** two teams covered the same storm on two accounts: the incident team built a site, Vicky's newsroom built articles. When Dinis joined them, Vicky's side accepted the site as a lead but not as an authority. A source made by our own agents is still not a primary source, and the rule saying so was in three desks' notes within 18 minutes. And a temporary desk was given an end date, in the record, before anyone could forget it was running.
+
+## Wednesday afternoon: the reopening (added in draft 9)
+
+Dinis's memo of the day before asked two questions of the decision graph: when will the decision to shut be made, and **when will the decision to reopen be made?** The second was answered on Wednesday afternoon.
+
+- **12:37:** IPMA's third communiqué: Charles weaker than forecast; Lisbon's warnings unchanged for now.
+- **12:40:** S41 and its lead: **Web Summit says it is officially back on Thursday**, with IPMA's third statement.
+- **13:10 to 13:14:** Vicky read Web Summit's announcement in a browser herself; S41, S54 and the storm page cite her read. By then the agents had stopped reading Web Summit's site by machine, under its terms (that rule has its own story: `stories/the-terms.md`). A person was the reader.
+- **14:11:** IPMA shortened Lisbon's warnings: rain red until 15:00, then yellow; wind orange until 18:00. S41 carried it.
+- **14:15 to 14:55:** the storm page's update staged by dev@ for the reviewer, the warnings recorded at source by the weather desk.
+
+**Analysis:** the shutdown's first public signal came almost six hours before the decision; the reopening reached readers the same afternoon it was announced, through a person reading a page the agents had chosen not to read. The graph's last open node closed with a human in it.
 
 ## Five numbers
 
@@ -156,4 +168,4 @@ The work desk's own estimates: across six runs with estimates the reporter read 
 
 ## Sources
 
-The trace (`board/team/work-desk/traces/the-storm.json`, 12:45 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
+The trace (`board/team/work-desk/traces/the-storm.json`, 15:45 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.

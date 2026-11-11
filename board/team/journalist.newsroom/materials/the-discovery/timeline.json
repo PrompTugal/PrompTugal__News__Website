@@ -875,8 +875,98 @@
       "hand_off": "person->agent (R-PUB-1)",
       "workflow_step": "published: 54 min from commission",
       "minute": 678
+    },
+    {
+      "id": "s049",
+      "time": "2026-11-11T13:27:09Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Lisbon Fringe as a pointer source (Vicky's word, Dinis's suggestion, 13:23)",
+      "output": "S57 commissioned: Wednesday's side events",
+      "handoff_to": [
+        "journalist@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:1e920e221",
+        "commit:2551ad072"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent->agent",
+      "workflow_step": null,
+      "minute": 785
+    },
+    {
+      "id": "s050",
+      "time": "2026-11-11T13:34:20Z",
+      "actor": "journalist-ai@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the Fringe pointer, each read at its own source",
+      "output": "three side-event leads on agents (Cisco, Agentic Engineering Lisbon, Exa x Mastra)",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:a258bb698"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 792
+    },
+    {
+      "id": "s051",
+      "time": "2026-11-11T13:43:15Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "side-event listing leads",
+      "output": "reviewed, none commissioned",
+      "handoff_to": [],
+      "evidence": [
+        "commit:fbc2a8739"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 801
+    },
+    {
+      "id": "s052",
+      "time": "2026-11-11T14:42:25Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Friday AI Act side event (journalist-europe@, 14:23)",
+      "output": "dropped",
+      "handoff_to": [],
+      "evidence": [
+        "commit:b0c724610",
+        "commit:6ea21746b"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 860
+    },
+    {
+      "id": "s053",
+      "time": "2026-11-11T15:04:39Z",
+      "actor": "Vicky Wang",
+      "actor_kind": "person",
+      "input": "S57's sources sit on Luma (no machine reads, the-terms.json)",
+      "output": "S57 dropped; no draft",
+      "handoff_to": [
+        "journalist@PrompTugal.vicky",
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:84bad1ec9",
+        "commit:a72bad5db"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (a story dropped because its source may not be read by machine)",
+      "workflow_step": null,
+      "minute": 882
     }
   ],
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T11:40:20Z"
+  "last": "2026-11-11T15:04:39Z"
 }

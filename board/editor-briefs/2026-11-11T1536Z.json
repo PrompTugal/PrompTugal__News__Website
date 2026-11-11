@@ -1,0 +1,51 @@
+{
+ "number": 10,
+ "date": "2026-11-11",
+ "kicker": "pt.news · the conductor brief · the Wednesday 18:00 stand-up, the called-off day",
+ "title": "Wednesday evening: Thursday is back on, and two questions on sources wait for you",
+ "when": "Wednesday 11 November 2026, 15:45 UTC (for the 18:00 London stand-up)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "Since the midday brief: 28 releases (v0.1.1232 to v0.1.1260). The storm eased: IPMA cut Lisbon's red rain to 15:00 and the orange wind to 18:00, and Thursday is back on in the lead. After your 'yes, don't use them', Vicky's agents stopped every machine read of websummit.com, its app, Luma, Meetup and Eventbrite, and security@ confirms no websummit.com reader is left. Two questions are yours: what happens to data already read from Web Summit's site, and whether the event platforms are read by hand or not at all.",
+ "stats": [
+  {"n": "28", "label": "releases since 12:36 (v0.1.1232 to v0.1.1260)"},
+  {"n": "66", "label": "articles in content/articles"},
+  {"n": "0", "label": "websummit.com readers left (security@, 15:05)"},
+  {"n": "402", "label": "OpenRouter shared credit still spent"}
+ ],
+ "for_you": [
+  {"group": "Two decisions on sources"},
+  {"id": "1", "ask": "S39: data machine-read from websummit.com before its terms were known is still published. Keep, re-source or take down?", "detail": "security@'s finding (medium, legal). Nothing existing is changed until you say, per Vicky's rule. The terms inventory is with Vicky to send to you privately."},
+  {"id": "2", "ask": "Luma, Meetup and Eventbrite: read by hand, or not at all?", "detail": "Vicky's team stopped machine reads at about 14:30 (their terms and robots.txt). Lisbon Fringe's brief lists them; its lead conductor has the question (work/49)."},
+  {"group": "Also yours"},
+  {"id": "3", "ask": "Top up the shared OpenRouter credit", "detail": "social.watch@ blocked since about 05:00 UTC."},
+  {"id": "4", "ask": "The press pass, sherpa@'s token on account B, the euro Stripe link", "detail": "Unchanged."}
+ ],
+ "you_asked": [
+  {"at": "Wed ~10:00", "said": "Pivot the site to now; link the storm site and use it as a source; Lisbon Fringe", "done": "the live sources strip live (9d9f5cf26); Thursday in the lead; sherpa@ asks for it in the headline too (W7)", "where": "board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md", "status": "done in part"},
+  {"at": "Wed ~10:45", "said": "Lisbon Fringe built by a swarm", "done": "three fringe conductors keyed and given inboxes; the source rule relayed to the lead", "where": "PrompTugal/PrompTugal__News__Fringe", "status": "running"},
+  {"at": "Wed ~14:30", "said": "'yes, dont use them' (Web Summit's site and data)", "done": "Vicky's twelve agents: no machine reads of websummit.com, its app, Luma, Meetup or Eventbrite; security@: no reader left", "where": "desks/conductor-vicky/standing-rules.md (3a76f421c, df3ab8f83)", "status": "done; S39 waits on you"}
+ ],
+ "team": [
+  {"id": "conductor@ (A)", "status": "old", "doing": "three-hourly wakes; relays from the incident team"},
+  {"id": "dev@, dev.pages@ (B)", "status": "old", "doing": "bringing dev.pages, dev.graphs and dev.data onto dev every hour"},
+  {"id": "security@ (A)", "status": "old", "doing": "134 commits clean at 15:05; S39 to you"},
+  {"id": "Vicky's desk", "status": "old", "doing": "the source rules saved by every agent; S57 dropped at Vicky's word"},
+  {"id": "sherpa@", "status": "old", "doing": "Thursday confirmed in the lead, not yet in its headline"},
+  {"id": "work desk", "status": "new", "doing": "reporter.newsroom@: Thursday back on; a new trace, the platform-terms rule"},
+  {"id": "conductor.fringe@ (dinis, vicky, angelo)", "status": "new", "doing": "Lisbon Fringe"}
+ ],
+ "sections": [
+  {"title": "Since 12:36", "items": [
+   "12:33: IPMA shortens Lisbon's red rain to 15:00 and the orange wind to 18:00",
+   "Público reports Thursday confirmed; the organisers' own word is still 'aims to proceed as planned'",
+   "13:00 to 15:00: the Web Summit data rule and the event-platform rule saved by each of Vicky's agents",
+   "Student Property Network's GAMMA-Ray card live; the interview link routed to journalist@ and dev.pages@",
+   "15:29: Thursday back on in the lead"
+  ]}
+ ],
+ "images": [
+  {"path": "board/editor-briefs/img/2026-11-11T1536Z-then-and-now.jpg", "caption": "The site, then and now (v0.1.1260)"}
+ ],
+ "next": ["Thursday 12 November: Day 3", "The next wake at 18:36 UTC; the Thursday midday brief at the 09:36 wake"],
+ "sources": ["board/WS-177-plan.md", "board/team/security/findings.md", "desks/conductor-vicky/standing-rules.md", "git log of dev since 12:36 UTC"]
+}
