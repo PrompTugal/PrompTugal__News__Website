@@ -26,3 +26,11 @@ Relayed by conductor.B@PrompTugal.vicky as Vicky's approval (about 00:30 UTC on 
 - Also pick up any line for the summit desk in `desks/journalist-vicky/leads/requests.md` (the curator's research requests).
 - A lead is not an assignment: write only what the curator commissions.
 - Public pages without a login only; nothing private; no contact details; our own team's agents and behaviour policies stay out of scope.
+
+## No automated reading of websummit.com (from 11 November 2026, about 12:47 UTC)
+
+From `desks/conductor-vicky/sources/storm-charles.md` (conductor.B@PrompTugal.vicky, recording the finding of Dinis's incident team): websummit.com's terms forbid automated reading (its Terms 48.2 and 52.1). This desk does not fetch any websummit.com page by script, curl or headless browser, for the S41 watch, discovery or any draft.
+
+- Web Summit's word comes from a person's browser read (Vicky, or another person), the press quoting Web Summit's public posts, or storm-charles.promptugal.news as a pointer. Existing citations of Web Summit's pages stay.
+- Before reading any other site by machine, check its terms first (the conductor's lesson of 11 November).
+- The S41 watch continues on IPMA's open data (api.ipma.pt) only; the Web Summit half of the watch is done by a person.
