@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S53",
+  "type": "story",
+  "title": "The EU asks for views on updating its election rules for the age of generative AI",
+  "beat": "Europe",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:x-eu-dsa-election-guidelines"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0455.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0455.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0455.json"
+    }
+  ]
+}
