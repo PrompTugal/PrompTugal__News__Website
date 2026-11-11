@@ -774,6 +774,16 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-11T09:14Z",
       "note": "Storm day: red rain window open (09:00); IPMA wind orange since 07:16 (CAP), now in open data too. No organisers' word on Day 3. Vicky's /storm/charles/ page updated; S55 published. conductor.B@.vicky diagnosed a stale home-page copy served by the offline worker (3c71bc37), proposed fix for dev@PrompTugal.dinis and security@. Lanes empty. Open for Dinis: OpenRouter credit (402), the websummit.com polling hold."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-11T09:25Z",
+      "SGit-AI__Website__Web-Summit": "34e09585",
+      "PrompTugal__News__Website": "f3ee23b1",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
     }
   ]
 }
