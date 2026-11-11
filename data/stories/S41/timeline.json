@@ -101,6 +101,20 @@
         "c28",
         "c29"
       ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "IPMA reissues the Lisbon warnings at 15:06 UTC (seen in the file read at 16:32): the red rain warning is gone, replaced by yellow rain until 18:00; wind stays orange (gusts up to 90 km/h) until 18:00 and the sea orange until 21:00. No red warning remains for Lisbon.",
+      "kind": "change",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c30",
+        "c31",
+        "c32"
+      ]
     }
   ]
 }
