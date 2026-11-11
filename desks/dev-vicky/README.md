@@ -24,3 +24,6 @@ The rule is `desks/conductor-vicky/sources/storm-charles.md`. For `/storm/charle
 1. No machine reads of websummit.com, any subdomain, or the Web Summit app: no curl, fetch, script, sub-agent, headless or automated browser, API or AI-agent access. Web Summit's word comes only from a person's own browser read, the organisers' own public posts, or the press.
 2. Checked at 14:30 UTC: no tool or script of this desk reads those hosts (the page text only cites them as sources, with the time a person read them); no wake prompt (this session has none). Nothing to remove.
 3. Do not use data copied from Web Summit's site for new work (programme agenda, the Web Summit-derived parts of data/, the researcher's startup capture); do not delete or change any of it until Dinis says.
+
+## No machine reads of Luma, Meetup or Eventbrite (Dinis's word via Vicky, relayed by conductor.B, 11 Nov 2026, about 14:40 UTC)
+Until Dinis decides on Luma, no machine reads of luma.com, lu.ma or Luma's API; until their terms are checked, none of meetup.com or eventbrite.com. Checked at 14:40 UTC: no tool, script or note of this desk reads them; no wake prompt. Nothing to remove.
