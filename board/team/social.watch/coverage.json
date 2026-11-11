@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T17:52Z",
+  "updated": "2026-11-11T19:52Z",
   "sweeps": [
     {
       "n": 1,
@@ -173,6 +173,14 @@
         "my own check: MeteoAlarm CAP, Mastodon, CNN Portugal live, the team's commits"
       ],
       "items": 0
+    },
+    {
+      "n": 20,
+      "at": "2026-11-11T19:51Z",
+      "families": [
+        "my own check: MeteoAlarm CAP, Mastodon, the team's commits"
+      ],
+      "items": 3
     }
   ],
   "items": [
@@ -3643,6 +3651,75 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-11T16:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 17)"
+    },
+    {
+      "url": "https://www.irishtimes.com/world/europe/2026/11/10/housing-crisis-anger-the-dominant-emotion-in-lisbon-as-web-summit-rolls-into-town/",
+      "platform": "The Irish Times",
+      "author": "Stephen Conneely",
+      "kind": "article",
+      "title": "Portugal's housing crisis spills on to the streets as Web Summit rolls into town",
+      "quote": "There's a major housing crisis in Portugal.",
+      "published": "2026-11-10T14:00",
+      "topics": [
+        "Portugal",
+        "housing",
+        "protest"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "The housing encampment in Rossio dismantled the night the summit began; organisers planned a protest outside the conference on Wednesday (moved to Thursday after the storm, per Rádio Comercial/Lusa). Quote from the encampment's named spokesperson, speaking publicly for it.",
+      "family": "news and blogs",
+      "found": "2026-11-11T19:52Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 20)"
+    },
+    {
+      "url": null,
+      "platform": "Mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T19:37:47Z",
+      "topics": [
+        "housing",
+        "protest"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "private_individual": true,
+      "note": "A private person posting as themselves: count, theme and platform only. Theme: shares press coverage of the housing crisis and the summit.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T19:52Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 20)"
+    },
+    {
+      "url": null,
+      "platform": "Mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T19:11:04Z",
+      "topics": [
+        "housing",
+        "protest"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "private_individual": true,
+      "note": "A private person posting as themselves: count, theme and platform only. Theme: a video addressed to attendees.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T19:52Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 20)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",
