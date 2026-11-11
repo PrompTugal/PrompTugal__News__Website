@@ -115,6 +115,19 @@
         "c31",
         "c32"
       ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "IPMA reissues the Lisbon warnings at 15:56 UTC (seen in the file read at 18:32): the wind warning is gone, rain stays yellow until 18:00 and the sea orange until 21:00, the only orange warning left. The file lists no wind warning for Lisbon at that reading (an absence, so no quote).",
+      "kind": "change",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c33",
+        "c34"
+      ]
     }
   ]
 }
