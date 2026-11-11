@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1128",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 01:48 wake: discovery 8 leads, 5 commissions, every beat contributing",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "f8b89a373"
+  },
+  {
     "version": "v0.1.1127",
     "date": "2026-11-11",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
