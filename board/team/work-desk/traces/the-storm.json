@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T06:40Z",
+  "updated": "2026-11-11T09:40Z",
   "covers": {
     "from": "2026-11-10T13:23:00Z",
-    "to": "2026-11-11T06:21:17Z",
-    "last_commit": "34bf8a68c"
+    "to": "2026-11-11T09:12:07Z",
+    "last_commit": "d9b257076"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -2401,6 +2401,194 @@
       ],
       "hand_off": "agent->agent",
       "note": "03:33 to 06:20: weather@ and reviewer@ checked hourly (03:36, 04:36, 05:36; 03:33, 04:33, 05:33), no change; the storm's watch on a quiet morning before the warnings start at 09:00."
+    },
+    {
+      "n": 111,
+      "time_utc": "2026-11-11T06:35:19Z",
+      "actor": {
+        "name": "designer@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "/storm/charles/ live",
+      "output": "four design-E polish notes for Vicky's dev@",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3d6aa1324"
+      ],
+      "hand_off": "agent->agent (across accounts)",
+      "workflow_step": "4. the designer maps it (after the build, not before)"
+    },
+    {
+      "n": 112,
+      "time_utc": "2026-11-11T07:16:30Z",
+      "actor": {
+        "name": "IPMA",
+        "kind": "public authority"
+      },
+      "input": "the storm's track",
+      "output": "Lisbon's wind lowered from red (12:00 to 21:00) to orange (09:00 to 21:00); rain red 09:00 to 18:00 unchanged (warnings page and CAP message 07:16)",
+      "hand_off_to": [
+        {
+          "name": "the public",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:dc64b96f4 (social.watch@, citing the CAP message 07:16:30)"
+      ],
+      "workflow_step": "the first downgrade"
+    },
+    {
+      "n": 113,
+      "time_utc": "2026-11-11T07:37:32Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "07:36 check (its connector: IPMA's open-data JSON)",
+      "output": "'no change'",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:7fe96be30"
+      ],
+      "workflow_step": "1. the connector misses it",
+      "note": "The open-data JSON still showed red wind: it lags IPMA's warnings page and CAP feed by hours. The desk's own source map had called the JSON 'the first place a level change shows'."
+    },
+    {
+      "n": 117,
+      "time_utc": "2026-11-11T07:52:27Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "sweep",
+      "output": "storm signal: flooding in Parque das Nações, the venue's district (07:24)",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:2df2f327f"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 114,
+      "time_utc": "2026-11-11T07:54:20Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "IPMA's warnings page (07:16), after conductor@web-summit.dinis pointed it out; its own 07:51 row had said 'unchanged' from the same JSON",
+      "output": "wind orange recorded; the 07:51 row relabelled; from 07:55 it reads IPMA's CAP messages through MeteoAlarm's feed at each sweep",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:dc64b96f4",
+        "commit:6de09dca2"
+      ],
+      "hand_off": "agent->agent (a conductor corrects an agent; the agent changes its connector)",
+      "workflow_step": "2. a new connector, from a miss: no request, no plan"
+    },
+    {
+      "n": 115,
+      "time_utc": "2026-11-11T08:41:09Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "08:40 check",
+      "output": "IPMA lowers Lisbon's wind from red to orange; rain stays red",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:d61038f73"
+      ],
+      "hand_off": "agent->agent",
+      "note": "84 minutes after IPMA's change, 46 minutes after social.watch@ recorded it; the two watches still do not share a feed."
+    },
+    {
+      "n": 116,
+      "time_utc": "2026-11-11T08:45:39Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the desk's hand-off, checked 08:40",
+      "output": "S41 and its lead updated: wind orange, rain red",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:221622183",
+        "commit:155b0b619"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "signal to readers: 89 minutes after IPMA"
+    },
+    {
+      "n": 118,
+      "time_utc": "2026-11-11T09:01:51Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the downgrade; reviewer@'s verification",
+      "output": "/storm/charles/: wind orange, Fertagus and Carris Metropolitana rows refreshed (read time corrected to 08:57 at 09:06)",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:0c9e884d9 (staged 08:44)",
+        "commit:97480b479",
+        "commit:7e3b7dde1"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 119,
+      "time_utc": "2026-11-11T09:12:07Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "v0.1.1198",
+      "output": "the storm page's wind downgrade verified live",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:d9b257076"
+      ],
+      "hand_off": "agent->person"
     }
   ],
   "hand_offs_person_agent": [
@@ -2450,7 +2638,9 @@
     104,
     105,
     108,
-    109
+    109,
+    116,
+    119
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -2565,6 +2755,11 @@
         "who": "Reopening",
         "decision": "measures end; Thursday's Day 3",
         "status": "not announced (21:23)"
+      },
+      {
+        "who": "IPMA",
+        "decision": "Lisbon wind lowered red to orange (09:00 to 21:00); rain red 09:00 to 18:00",
+        "status": "issued 07:16 (warnings page and CAP)"
       }
     ],
     "lead_times_seen": [
@@ -2695,6 +2890,18 @@
       "from": "about 17:00 (memo)",
       "to_step": 103,
       "minutes": 460
+    },
+    {
+      "what": "IPMA's downgrade to S41",
+      "from_step": 112,
+      "to_step": 116,
+      "minutes": 89
+    },
+    {
+      "what": "IPMA's downgrade to social.watch@'s record",
+      "from_step": 112,
+      "to_step": 114,
+      "minutes": 38
     }
   ],
   "look_back": {
@@ -2726,6 +2933,18 @@
   },
   "related_traces": [
     "the-categories.json",
-    "the-discovery.json"
+    "the-discovery.json",
+    "the-stale-page.json"
+  ],
+  "lessons": [
+    {
+      "steps": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "lesson": "a connector is only as fresh as its source: IPMA's open-data JSON lagged the warnings page and CAP feed by hours on the downgrade, so the weather desk's hourly watch missed it at 07:36. social.watch@ switched to the CAP feed at 07:55; the weather desk had not by 09:12."
+    }
   ]
 }

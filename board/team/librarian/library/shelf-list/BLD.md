@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: BLD, Build, code and release"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T06:58:59Z"
-site_version: "v0.1.1177"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T09:59:23Z"
+site_version: "v0.1.1206"
 source: board/catalogue.json
 ---
 

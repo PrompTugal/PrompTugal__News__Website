@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-11T06:30Z",
+  "updated": "2026-11-11T08:35Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -546,6 +546,12 @@
       "outcome": "ok",
       "release": "run report only",
       "line": "nothing new for me; two more rated companies outside our map"
+    },
+    {
+      "started": "2026-11-11T08:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "the 11 November debrief; nothing new in"
     }
   ],
   "decisions_on_findings": [
@@ -565,6 +571,6 @@
       "at": "2026-11-06T17:40Z"
     }
   ],
-  "debrief": "board/team/ontologist/debriefs/2026-11-10-handover.md",
+  "debrief": "board/team/ontologist/debriefs/2026-11-11-handover.md",
   "session": "board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/notes.md"
 }

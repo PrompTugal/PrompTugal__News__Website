@@ -69,6 +69,65 @@
         "licence": "none stated on the page",
         "reuse": "link only"
       }
+    },
+    {
+      "id": "js-2026-11-11-03",
+      "title": "EU's Digital Fairness Act, due today, would write the first consumer rules for AI shopping agents",
+      "summary": "A leaked draft of the Digital Fairness Act, which the European Commission is set to present on Wednesday 11 November, would ban ten manipulative online design 'traps' (from cancellation harder than signup to fake notifications) and, for the first time in EU consumer law, set rules for AI shopping agents: users choose which purchases need their approval, and agents must disclose sponsored suggestions. Fines could reach 6% of global turnover; Germany prefers amending existing directives.",
+      "why_it_matters": "Europe writing the mandate of a consumer's agent into law: which purchases it may make alone, and that it must say when it is paid to suggest. The same questions OpenAI answered by platform rule yesterday, now by regulation.",
+      "beat": "ai-regulation",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows",
+          "publisher": "Euronews",
+          "published": "2026-11-09 (updated 2026-11-11)",
+          "read": "2026-11-11T10:20Z"
+        }
+      ],
+      "claims_to_check": [
+        "The Commission's own proposal once presented today: the final text may differ from the leaked draft",
+        "The 12-month application period and the 6% fines, at the proposal"
+      ],
+      "importance": {
+        "score": 5,
+        "reason": "EU regulation of AI agents, presented today; the agentic edition's regulatory story of the week."
+      },
+      "photo": {
+        "url": "https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows",
+        "description": "lead photo of the Euronews article",
+        "credit": "AP Photo",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-11-04",
+      "title": "Defined.ai opens its AI training-data marketplace to partners at Web Summit, after cutting 30% of its staff",
+      "summary": "At Web Summit on 10 November, Defined.ai's founder and CEO Daniela Braga presented its data marketplace, a strategic access programme and a partnership model; she said over 280 companies joined the partner programme in two weeks, the company holds over 10 petabytes and 2,000 datasets, and data is now 70% of its revenue. She also said the company cut about 30% of its staff this year, mainly in Europe, as the market slowed.",
+      "why_it_matters": "A Portuguese AI company selling the data that frontier labs train on, with demand moving to physical tasks; and an honest read of the market cycle from inside the summit.",
+      "beat": "portugal",
+      "sources": [
+        {
+          "url": "https://tek.sapo.pt/noticias/negocios/artigos/defined-ai-quer-trazer-mais-dados-para-o-seu-marketplace-de-ia-e-simplificar-entrada-de-parceiros/",
+          "publisher": "Tek Notícias (SAPO)",
+          "published": "2026-11-10",
+          "read": "2026-11-11T10:22Z"
+        }
+      ],
+      "claims_to_check": [
+        "All figures are the company's, as told to Tek: 280 partners, 10 PB, 2,000 datasets, 70% of revenue, 30% staff cut"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "Portugal's best-known AI company at the summit; context more than breaking news."
+      },
+      "photo": {
+        "url": "https://tek.sapo.pt/noticias/negocios/artigos/defined-ai-quer-trazer-mais-dados-para-o-seu-marketplace-de-ia-e-simplificar-entrada-de-parceiros/",
+        "description": "Daniela Braga at Web Summit 2023 (lead photo)",
+        "credit": "Tyler Miller/Web Summit via Sportsfile",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
@@ -79,6 +138,14 @@
     {
       "what": "Google's Gemini 4 Carbon and its /swarm agent teams; Kora's agent-native desktop OS; Adobe Firefly's plan mode",
       "why": "below the bar this wake"
+    },
+    {
+      "what": "TiJUBU's platform for managing staff and AI agents (Jornal Económico)",
+      "why": "dated 6 June 2026, not new"
+    },
+    {
+      "what": "EU AI Office investigating OpenAI and Anthropic over agent escapes (TNW, Euronews)",
+      "why": "October, not new; context for the DFA candidate"
     }
   ],
   "wakes": [
@@ -86,6 +153,11 @@
       "at": "2026-11-11T08:24Z",
       "added": 2,
       "note": "scheduled wake; read social.watch@'s map (board/team/social.watch/coverage.json) first"
+    },
+    {
+      "at": "2026-11-11T10:24Z",
+      "added": 2,
+      "note": "scheduled wake; social.watch@'s map read first"
     }
   ]
 }

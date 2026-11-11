@@ -3409,6 +3409,118 @@
     "source": "desks/journalist-vicky/drafts/img/S54-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
     "checked": "every label against the article, Web Summit's session page and each company's site, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
    }
+  },
+  {
+   "slug": "tiktok-for-you-dsa-preliminary-finding",
+   "theme": "paper",
+   "layout": "text",
+   "size": "card",
+   "file": "tiktok-for-you-dsa-preliminary-finding--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S55-tiktok-dsa-card-2026-11-11.svg (drawn by journalist-europe@PrompTugal.vicky, text raised by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's release IP/26/2361, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "tiktok-for-you-dsa-preliminary-finding",
+   "theme": "ink",
+   "layout": "text",
+   "size": "card",
+   "file": "tiktok-for-you-dsa-preliminary-finding--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S55-tiktok-dsa-card-2026-11-11.svg (drawn by journalist-europe@PrompTugal.vicky, text raised by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's release IP/26/2361, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "tiktok-for-you-dsa-preliminary-finding",
+   "theme": "paper",
+   "layout": "text",
+   "size": "thumb",
+   "file": "tiktok-for-you-dsa-preliminary-finding--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S55-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's release IP/26/2361, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "tiktok-for-you-dsa-preliminary-finding",
+   "theme": "ink",
+   "layout": "text",
+   "size": "thumb",
+   "file": "tiktok-for-you-dsa-preliminary-finding--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S55-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's release IP/26/2361, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "konecta-lisbon-delivery-centre",
+   "theme": "paper",
+   "layout": "text",
+   "size": "card",
+   "file": "konecta-lisbon-delivery-centre--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S52-cover-card-2026-11-11.svg (drawn by journalist-portugal@PrompTugal.vicky, labels raised by the reviewer); ink from the drawing's own dark scheme; rendered with Chromium",
+    "checked": "every label against the article and Konecta's release of 10 November 2026, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "konecta-lisbon-delivery-centre",
+   "theme": "ink",
+   "layout": "text",
+   "size": "card",
+   "file": "konecta-lisbon-delivery-centre--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S52-cover-card-2026-11-11.svg (drawn by journalist-portugal@PrompTugal.vicky, labels raised by the reviewer); ink from the drawing's own dark scheme; rendered with Chromium",
+    "checked": "every label against the article and Konecta's release of 10 November 2026, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "konecta-lisbon-delivery-centre",
+   "theme": "paper",
+   "layout": "text",
+   "size": "thumb",
+   "file": "konecta-lisbon-delivery-centre--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S52-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink from the drawing's own dark scheme; rendered with Chromium",
+    "checked": "every label against the article and Konecta's release of 10 November 2026, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "konecta-lisbon-delivery-centre",
+   "theme": "ink",
+   "layout": "text",
+   "size": "thumb",
+   "file": "konecta-lisbon-delivery-centre--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S52-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink from the drawing's own dark scheme; rendered with Chromium",
+    "checked": "every label against the article and Konecta's release of 10 November 2026, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
   }
  ]
 }

@@ -1,11 +1,11 @@
 ---
 title: "How a team of agents covered the storm"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 6 (a quiet watch; the press watch stopped when its model credit ran out; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
+status: draft 7 (the first downgrade and the connector that missed it; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
 story: the-storm
-from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T06:40Z, 110 steps, 13:23 on 10 Nov to 06:21 UTC on 11 Nov)
-written: 2026-11-11T07:10Z
-note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 5 are in git history."
+from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T09:40Z, 119 steps, 13:23 on 10 Nov to 09:12 UTC on 11 Nov)
+written: 2026-11-11T10:10Z
+note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 6 are in git history."
 summary: "On 10 November, Vicky's newsroom agents turned one article about a red wind warning into a weather desk with its own source readers, a decision graph and a live home-page lead. When Web Summit called off its second day at 19:09 UTC, readers had it twelve minutes later. The first public signal had come almost six hours earlier, from Lisbon's mayor, and the desk did not see it: it watched primary sources only."
 ---
 
@@ -28,6 +28,16 @@ The work did not stop with the cancellation. From 21:38 to 00:17 UTC the trace r
 - **The transport guide.** At 02:43 the curator commissioned S51, getting around Lisbon on Wednesday (merging S43); it was drafted at 03:07 and published under R-PUB-1 at 03:11. The night's other articles are in the discovery workflow's own story (`stories/the-discovery.md`).
 
 **Analysis:** the night shows the controls tightening, not loosening, as the pace rose: a standing authorisation with conditions instead of a yes per update, and a page held for two verification rounds before it is allowed out.
+
+## Wednesday morning: the downgrade the connector missed (added in draft 7)
+
+- **06:35:** designer@PrompTugal.dinis sent Vicky's dev@ four polish notes for the storm page. It is the first designer step in the record, and it came after the build, not before.
+- **07:16:** IPMA lowered Lisbon's wind from red to orange (09:00 to 21:00); the rain stayed red, 09:00 to 18:00. Its warnings page and its CAP alert message carried it at 07:16.
+- **07:37:** the weather desk's watch reported **"no change"**. Its connector missed the downgrade.
+- **07:54:** social.watch@ recorded the orange wind, relabelled a row it had logged at 07:51, and **from 07:55 read IPMA's CAP messages through MeteoAlarm's feed at every sweep**: a new connector, built from a miss, with no request and no plan. Two minutes earlier it had relayed a press signal of flooding in Parque das Nações, the venue's district.
+- **08:41:** the weather desk caught the downgrade; **08:45:** S41 and its lead said wind orange, rain red, **89 minutes after IPMA**. The storm page followed at 09:01 and was verified live at 09:12.
+
+**Analysis:** the night's fastest update took 3 minutes; the morning's took 89. Same desk, same reviewer: the difference was one connector reading the wrong thing. The fix came from a different agent that noticed the gap and wired a better feed in a minute. That is step 2 of Dinis's path, a parser for the part that matters, prompted by a failure instead of a request.
 
 ## Five numbers
 
@@ -135,4 +145,4 @@ The work desk's own estimates: across six runs with estimates the reporter read 
 
 ## Sources
 
-The trace (`board/team/work-desk/traces/the-storm.json`, 06:40 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
+The trace (`board/team/work-desk/traces/the-storm.json`, 09:40 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.

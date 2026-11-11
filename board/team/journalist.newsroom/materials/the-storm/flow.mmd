@@ -31,14 +31,16 @@ flowchart LR
   A29["journalist@PrompTugal.dinis"]
   A30["the newsroom's pipeline"]
   A31["writer@PrompTugal.jose"]
+  A32["IPMA"]
+  A33["the public"]
   A0 -->|1| A1
   A2 -->|5| A3
   A3 -->|3| A4
-  A4 -->|9| A5
+  A4 -->|10| A5
   A6 -->|3| A7
   A8 ==>|2| A7
   A7 -->|3| A9
-  A9 -->|12| A4
+  A9 -->|13| A4
   A9 -->|1| A2
   A9 -->|4| A7
   A9 ==>|1| A10
@@ -63,7 +65,7 @@ flowchart LR
   A18 -->|1| A16
   A18 -->|1| A17
   A18 -->|1| A9
-  A7 ==>|2| A12
+  A7 ==>|3| A12
   A23 -->|1| A21
   A24 ==>|3| A8
   A7 -->|2| A25
@@ -71,9 +73,9 @@ flowchart LR
   A8 ==>|1| A6
   A4 -->|4| A14
   A13 ==>|1| A8
-  A27 -->|3| A6
+  A27 -->|5| A6
   A27 -->|2| A18
-  A14 -->|4| A4
+  A14 -->|5| A4
   A4 -->|1| A13
   A6 -->|3| A18
   A21 -->|1| A28
@@ -92,3 +94,6 @@ flowchart LR
   A31 -->|2| A4
   A14 -->|1| A5
   A27 ==>|1| A8
+  A26 -->|1| A14
+  A32 -->|1| A33
+  A9 -->|1| A14

@@ -662,8 +662,131 @@
       "hand_off": "agent->agent",
       "workflow_step": "lead",
       "minute": 361
+    },
+    {
+      "id": "s037",
+      "time": "2026-11-11T06:47:48Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S54 with its category line (slug from the curator, 06:42)",
+      "output": "published under R-PUB-1",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:1a3b1c88b",
+        "commit:32c34d623"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 64 min from commission",
+      "minute": 386
+    },
+    {
+      "id": "s038",
+      "time": "2026-11-11T07:20:30Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the curator's hold on TikTok",
+      "output": "the full press release found; TikTok's own response not found",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:bf03cc176"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 418
+    },
+    {
+      "id": "s039",
+      "time": "2026-11-11T07:43:33Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the press release",
+      "output": "S55 commissioned: the Commission's preliminary TikTok finding",
+      "handoff_to": [
+        "journalist-europe@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:d11ccec28"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "commission",
+      "minute": 441
+    },
+    {
+      "id": "s040",
+      "time": "2026-11-11T08:21:25Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S55",
+      "output": "drafted",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:df2fec5fc"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 479
+    },
+    {
+      "id": "s041",
+      "time": "2026-11-11T08:42:15Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "a weather angle",
+      "output": "not commissioned: covered by S41",
+      "handoff_to": [],
+      "evidence": [
+        "commit:f4bfc0972"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 500
+    },
+    {
+      "id": "s042",
+      "time": "2026-11-11T08:49:53Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S55 with its category line",
+      "output": "published under R-PUB-1",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:df5c4dd7f"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 66 min from commission",
+      "minute": 508
+    },
+    {
+      "id": "s043",
+      "time": "2026-11-11T09:20:19Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its night",
+      "output": "hand-over note: S49, S50, S53, S55 published; leads; lessons",
+      "handoff_to": [],
+      "evidence": [
+        "commit:bbb93827c"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 538
     }
   ],
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T06:23:31Z"
+  "last": "2026-11-11T09:20:19Z"
 }

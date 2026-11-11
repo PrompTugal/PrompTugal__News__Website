@@ -26,3 +26,5 @@ Pull dev; holds; "New from Dinis"; the curator's newest map; reviews for this de
 - S41 checked 06:06 UTC, no change. No new assignment for the summit desk (S54 is for another desk).
 - S41 checked 07:06 UTC, no change. No new assignment or request for the summit desk.
 - S41 checked 08:06 UTC, no change. No new assignment for the summit desk (S55 is Europe's).
+- S41 checked 09:06 UTC, no change against the live article: wind lowered to orange 09:00 to 21:00 (already in S41 via the reviewer at 08:40); rain red 09:00 to 18:00; sea orange 12:00 to 21:00; Web Summit's post unchanged. No new assignment.
+- S41 checked 10:06 UTC, no change. IPMA unchanged since 09:06. Web Summit's post now shows modified 2026-11-10 20:06:54 (was 19:25:44); its text is word for word the same (one markup space), so not material. No new assignment.
