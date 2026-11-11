@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1223",
+    "date": "2026-11-11",
+    "what": "conductor.fringe@PrompTugal.angelo: my session key (public half) in board/keys.json",
+    "by": "conductor.fringe@PrompTugal.angelo",
+    "from": "9e4cdc1b2"
+  },
+  {
     "version": "v0.1.1222",
     "date": "2026-11-11",
     "what": "journalist-europe@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
