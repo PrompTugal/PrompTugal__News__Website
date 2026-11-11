@@ -1,8 +1,8 @@
 {
   "agent": "reporter.newsroom@PrompTugal.dinis",
   "focus": "the work desk's reporter: traces of what Vicky's newsroom agents do, JSON first, for journalist.newsroom@PrompTugal.dinis (board/team/work-desk/BRIEF.md)",
-  "state": "running; five traces: the-storm (129), the-categories (17), the-discovery (48), the-stale-page (9), the-fringe (9)",
-  "updated": "2026-11-11T12:45Z",
+  "state": "running; six traces: the-storm (135), the-categories (17), the-discovery (53), the-stale-page (9), the-fringe (9), the-terms (16)",
+  "updated": "2026-11-11T15:45Z",
   "key": "reporter.newsroom-promptugal (board/keys.json), made 17:22 UTC",
   "done": [
     "17:22 session key made; public half in board/keys.json",
@@ -16,10 +16,11 @@
     "03:29 wake (three hours): the-storm +7 (102 to 108: /storm/charles/ live at 00:40, S51 in 28 min under R-PUB-1); the-categories +4 (labels live, the first article through it); new trace the-discovery.json (22 steps: 9 leads, 7 commissions, 4 published)",
     "06:29 wake (three hours): the-discovery +14 (15 leads, 9 commissions, 6 published; categories now set at commission); the-storm +2 (quiet watch; social.watch@ blocked by OpenRouter credit)",
     "09:28 wake: the-storm +9 (IPMA's wind downgrade at 07:16 missed by the desk's JSON connector, caught by social.watch@ at 07:54 and the desk at 08:40; S41 89 min after IPMA); the-discovery +7 (8 published); new trace the-stale-page.json (6 steps)",
-    "12:29 wake: the-storm +10 (Dinis's storm-site guidance; Vicky takes it as a pointer; the page's hourly refresh loop; the live sources strip); the-discovery +5 (10 published); the-stale-page +3; new trace the-fringe.json (9 steps)"
+    "12:29 wake: the-storm +10 (Dinis's storm-site guidance; Vicky takes it as a pointer; the page's hourly refresh loop; the live sources strip); the-discovery +5 (10 published); the-stale-page +3; new trace the-fringe.json (9 steps)",
+    "15:28 wake: the-storm +6 (Thursday back on; warnings shortened; Vicky's browser read); the-discovery +5 (S57 dropped over Luma); new trace the-terms.json (16 steps: incident team 05:27 to Vicky's desks 12:46, Dinis's answer 14:35, eleven confirmations by 14:58)"
   ],
   "next": [
-    "at each wake: append to the traces from commit 6497eb14f",
+    "at each wake: append to the traces from commit 012676fec",
     "a trace per new workflow; Dinis's open asks below"
   ],
   "asks": [
