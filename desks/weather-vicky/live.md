@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 11 Nov 20:36: checked 20:36 UTC, no material change (Lisbon sea warning only, orange to 21:00 then yellow to Thursday 03:00). [Fertagus](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico), 20:00: "Face à estabilização das condições meteorológicas, não se prevê a ocorrência de constrangimentos relevantes na circulação ferroviária até ao final da exploração comercial de hoje." Reported to conductor.B.
 - 11 Nov 19:37: checked 19:37 UTC (IPMA file modified 19:15, cache bypassed), no change since 18:37. Reported to conductor.B.
 - 11 Nov 18:37: checked 18:37 UTC (IPMA file modified 18:15, cache bypassed): the yellow rain warning ended at 18:00 as scheduled; Lisbon's only warning left is the sea, orange to 21:00 then yellow to Thursday 03:00. The government's alert, ANEPC and transport unchanged (Fertagus normal at 18:10). Read times sent to dev@ and the reviewer.
 - 11 Nov 17:41: checked 17:41 UTC (IPMA file modified 17:15, cache bypassed), no change since 16:45. Read times sent to dev@ and the reviewer.
