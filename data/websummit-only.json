@@ -72,14 +72,28 @@
     {
       "company": "company:0xbow",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
       ]
     },
     {
+      "company": "company:1password",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 10,
+      "other_sources_on_file": [
+        "fl1",
+        "fl2",
+        "mp1",
+        "own1"
+      ]
+    },
+    {
       "company": "company:ai-infinity",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -88,14 +102,25 @@
     {
       "company": "company:air-apps",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
       ]
     },
     {
+      "company": "company:akamai",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1"
+      ]
+    },
+    {
       "company": "company:altegio",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -104,6 +129,7 @@
     {
       "company": "company:arima",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -112,30 +138,73 @@
     {
       "company": "company:atlassian",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 5,
       "other_sources_on_file": [
         "own1"
       ]
     },
     {
+      "company": "company:cerebras",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:chatplace",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1"
+      ]
+    },
+    {
       "company": "company:cisco-outshift",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:cnext",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1",
         "own1"
       ]
     },
     {
       "company": "company:contents",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
       ]
     },
     {
+      "company": "company:datadog",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
       "company": "company:delinea",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -144,6 +213,7 @@
     {
       "company": "company:delta-labs",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -152,21 +222,43 @@
     {
       "company": "company:dig-in",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
       ]
     },
     {
+      "company": "company:elastic",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
       "company": "company:eversec",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 5,
       "other_sources_on_file": []
     },
     {
       "company": "company:fido",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:firefox-enterprise-mozilla",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
       "other_sources_on_file": [
         "own1"
       ]
@@ -174,6 +266,7 @@
     {
       "company": "company:fretefy",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -182,7 +275,26 @@
     {
       "company": "company:gcore",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:genspark",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "bo1"
+      ]
+    },
+    {
+      "company": "company:getvocal-ai",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
       "other_sources_on_file": [
         "own1"
       ]
@@ -190,14 +302,26 @@
     {
       "company": "company:google-cloud",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 5,
       "other_sources_on_file": [
         "own1"
       ]
     },
     {
+      "company": "company:ibm",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
       "company": "company:itrecruiter",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -206,7 +330,55 @@
     {
       "company": "company:just-travel",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:keewano",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:legalfly",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:manageengine",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:mastra",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1"
+      ]
+    },
+    {
+      "company": "company:melious-ai",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
       "other_sources_on_file": [
         "own1"
       ]
@@ -214,6 +386,7 @@
     {
       "company": "company:mobile-brain",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -222,6 +395,7 @@
     {
       "company": "company:naporta",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -230,12 +404,14 @@
     {
       "company": "company:nisos",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 5,
       "other_sources_on_file": []
     },
     {
       "company": "company:ola-doutor",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -244,6 +420,7 @@
     {
       "company": "company:orb",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -252,32 +429,65 @@
     {
       "company": "company:persona",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 7,
       "other_sources_on_file": []
     },
     {
       "company": "company:pitchbook",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": []
     },
     {
       "company": "company:polygraf-ai",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": []
     },
     {
+      "company": "company:prelude",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "own1",
+        "vs1"
+      ]
+    },
+    {
+      "company": "company:primitive",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "fl1"
+      ]
+    },
+    {
       "company": "company:prohound",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
       ]
     },
     {
+      "company": "company:qase",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1"
+      ]
+    },
+    {
       "company": "company:rapidoc",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -286,6 +496,7 @@
     {
       "company": "company:raras-health",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -294,14 +505,26 @@
     {
       "company": "company:risiq",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
       ]
     },
     {
+      "company": "company:runpod",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
       "company": "company:rws",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 5,
       "other_sources_on_file": [
         "own1"
@@ -310,6 +533,7 @@
     {
       "company": "company:sensay",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -318,6 +542,7 @@
     {
       "company": "company:shakers",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -326,6 +551,7 @@
     {
       "company": "company:sheerme",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -334,6 +560,7 @@
     {
       "company": "company:spacecomputer",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
@@ -342,14 +569,37 @@
     {
       "company": "company:sphere",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 4,
       "other_sources_on_file": [
         "own1"
       ]
     },
     {
+      "company": "company:twilio",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "bo1",
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:vtex",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
       "company": "company:whitespace",
       "left_with_nothing": true,
+      "facts_left": 0,
       "items": 5,
       "other_sources_on_file": []
     }

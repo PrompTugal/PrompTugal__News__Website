@@ -28,7 +28,10 @@ export function final(ctx) {
     for (const a of ctx.api || []) for (const m of (typeof a.data === 'string' ? a.data : JSON.stringify(a.data)).matchAll(BIN)) named.add(decodeURI(m[0]))
     const board = execFileSync('git', ['ls-files', 'board/'], { cwd: ctx.ROOT }).toString().split('\n').filter(f => /\.(png|jpe?g|gif|webp|pdf)$/i.test(f) && !named.has(f))
     // and the signed twins of withdrawn articles (data/site/withdrawn.json; standing answer 47 on the team site)
-    return [{ path: DROP, data: [...all.filter(f => !used.has(f)), ...board, ...sigsOf()].sort().map(f => '/' + f).join('\n') + '\n' }]
+    // and ontologist@'s websummit-only inventory: refs only, but it names every person and session that comes off (the
+    // pass 2026-11-11-only-websummit-sourced-comes-off, step 2)
+    const keep = ['data/websummit-only.json']
+    return [{ path: DROP, data: [...all.filter(f => !used.has(f)), ...board, ...sigsOf(), ...keep].sort().map(f => '/' + f).join('\n') + '\n' }]
 }
 
 export function validate(gate) {

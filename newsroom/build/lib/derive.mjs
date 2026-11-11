@@ -333,15 +333,15 @@ export function websummitOnly({ files, companies, places, handEvents, handOrgs, 
     for (const c of [...companies].sort((a, b) => byKey(a.id, b.id))) {
         const url = new Map(c.sources.map(s => [s.id, s.url]))
         const items = [['fact', 'facts', c.facts, x => x.id], ['edge', 'edges', c.edges, x => `${x.verb}>${x.to}`], ['flow', 'flows', c.flows, x => x.id], ['product', 'products', c.products, x => x.id]]
-        let kept = 0, any = 0
+        let kept = 0, any = 0, factsLeft = 0
         for (const [kind, plural, list, idOf] of items) for (const x of list) {
             const r = restsOn([].concat(x.source).map(id => url.get(id) || null)); add(counts[`company_${plural}`], r); any++
-            if (r === 'other') kept++
+            if (r === 'other') { kept++; if (kind === 'fact') factsLeft++ }
             if (r === 'websummit') out.company_items.push({ company: `company:${c.id}`, kind, id: idOf(x), source: x.source })
         }
         const shadows = c.sources.filter(s => s.url && !isWebSummit(s.url)).map(s => s.id).sort()
         const r = !any ? 'none' : kept ? 'other' : 'websummit'; add(counts.companies, r)
-        if (r !== 'other') out.companies.push({ company: `company:${c.id}`, left_with_nothing: true, items: any, other_sources_on_file: shadows })
+        if (r !== 'other' || !factsLeft) out.companies.push({ company: `company:${c.id}`, left_with_nothing: r !== 'other', facts_left: factsLeft, items: any, other_sources_on_file: shadows })
     }
     const handP = new Set(handPeople.map(p => p.id))
     for (const p of [...of('people'), ...handPeople].sort((a, b) => byKey(a.id, b.id))) {
