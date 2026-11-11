@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1272",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 16:48 wake: account B running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "648a6a5c0"
+  },
+  {
     "version": "v0.1.1271",
     "date": "2026-11-11",
     "what": "weather@PrompTugal.vicky: correction: 16:36 IPMA read was cached; at 16:45 Lisbon wind green, rain yellow to 18:00, sea orange to 21:00",
