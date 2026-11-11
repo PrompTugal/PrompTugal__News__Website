@@ -2,9 +2,9 @@
   "story": "the-storm",
   "from": "board/team/work-desk/traces/the-storm.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 110,
+  "steps": 119,
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T06:21:17Z",
+  "last": "2026-11-11T09:12:07Z",
   "actors": [
     {
       "actor": "Lisbon's mayor",
@@ -53,12 +53,12 @@
     {
       "actor": "reviewer@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 20,
+      "steps": 21,
       "first": "2026-11-10T14:36:22Z",
-      "last": "2026-11-11T03:11:29Z",
-      "span_minutes": 755,
-      "handoffs_out": 18,
-      "handoffs_in": 23,
+      "last": "2026-11-11T08:45:39Z",
+      "span_minutes": 1089,
+      "handoffs_out": 19,
+      "handoffs_in": 25,
       "tokens": null
     },
     {
@@ -69,7 +69,7 @@
       "last": null,
       "span_minutes": null,
       "handoffs_out": 0,
-      "handoffs_in": 11,
+      "handoffs_in": 12,
       "tokens": null
     },
     {
@@ -80,17 +80,17 @@
       "last": "2026-11-11T06:21:17Z",
       "span_minutes": 814,
       "handoffs_out": 15,
-      "handoffs_in": 4,
+      "handoffs_in": 6,
       "tokens": null
     },
     {
       "actor": "conductor.B@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 8,
+      "steps": 9,
       "first": "2026-11-10T16:52:21Z",
-      "last": "2026-11-11T00:44:43Z",
-      "span_minutes": 472,
-      "handoffs_out": 15,
+      "last": "2026-11-11T09:12:07Z",
+      "span_minutes": 980,
+      "handoffs_out": 16,
       "handoffs_in": 15,
       "tokens": null
     },
@@ -108,11 +108,11 @@
     {
       "actor": "weather@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 16,
+      "steps": 18,
       "first": "2026-11-10T16:56:01Z",
-      "last": "2026-11-10T23:41:00Z",
-      "span_minutes": 405,
-      "handoffs_out": 18,
+      "last": "2026-11-11T08:41:09Z",
+      "span_minutes": 945,
+      "handoffs_out": 20,
       "handoffs_in": 7,
       "tokens": null
     },
@@ -146,7 +146,7 @@
       "last": "2026-11-11T00:17:00Z",
       "span_minutes": 417,
       "handoffs_out": 5,
-      "handoffs_in": 7,
+      "handoffs_in": 8,
       "tokens": null
     },
     {
@@ -163,12 +163,12 @@
     {
       "actor": "dev@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 13,
+      "steps": 14,
       "first": "2026-11-10T17:29:39Z",
-      "last": "2026-11-11T00:40:06Z",
-      "span_minutes": 430,
-      "handoffs_out": 12,
-      "handoffs_in": 9,
+      "last": "2026-11-11T09:01:51Z",
+      "span_minutes": 932,
+      "handoffs_out": 13,
+      "handoffs_in": 11,
       "tokens": null
     },
     {
@@ -295,22 +295,22 @@
     {
       "actor": "designer@PrompTugal.dinis",
       "kind": "agent",
-      "steps": 0,
-      "first": null,
-      "last": null,
-      "span_minutes": null,
-      "handoffs_out": 0,
+      "steps": 1,
+      "first": "2026-11-11T06:35:19Z",
+      "last": "2026-11-11T06:35:19Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
       "handoffs_in": 2,
       "tokens": null
     },
     {
       "actor": "social.watch@PrompTugal.dinis",
       "kind": "agent",
-      "steps": 5,
+      "steps": 7,
       "first": "2026-11-10T18:50:58Z",
-      "last": "2026-11-11T05:52:00Z",
-      "span_minutes": 661,
-      "handoffs_out": 6,
+      "last": "2026-11-11T07:54:20Z",
+      "span_minutes": 783,
+      "handoffs_out": 8,
       "handoffs_in": 0,
       "tokens": null
     },
@@ -356,6 +356,28 @@
       "span_minutes": 57,
       "handoffs_out": 4,
       "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "IPMA",
+      "kind": "public authority",
+      "steps": 1,
+      "first": "2026-11-11T07:16:30Z",
+      "last": "2026-11-11T07:16:30Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "the public",
+      "kind": "public",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
       "tokens": null
     }
   ]

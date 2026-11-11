@@ -1,19 +1,17 @@
 {
   "$comment": "The discovery workflow's shape, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-discovery",
-  "from": "board/team/work-desk/traces/the-discovery.json (updated 2026-11-11T06:40Z)",
+  "from": "board/team/work-desk/traces/the-discovery.json (updated 2026-11-11T09:40Z)",
   "funnel": {
-    "leads": 15,
-    "commissions": 9,
-    "published": 6,
+    "leads": 16,
+    "commissions": 10,
+    "published": 8,
     "held": [
       "S52 (Vicky's editorial call)",
       "Invelon (date conflict)",
       "others held by the curator"
     ],
-    "in_review": [
-      "S54 (drafted)"
-    ],
+    "in_review": [],
     "by_beat": {
       "AI": 2,
       "connections": 3,
@@ -48,6 +46,14 @@
     {
       "what": "S50 commission to published (with a wrong fix request)",
       "minutes": 117
+    },
+    {
+      "what": "S54 commission to published",
+      "minutes": 64
+    },
+    {
+      "what": "S55 commission to published",
+      "minutes": 66
     }
   ],
   "pattern": "one person approves once (step 1) and a standing rule (R-PUB-1) stands in for her at every publication: four articles reached readers between 01:14 and 02:56 with no person in the loop at the time. The reviewer's 'Fix first' and the curator's holds are the checks that remain.",
@@ -82,8 +88,8 @@
     "vickys_agents": null,
     "the_trace_itself": {
       "estimate": true,
-      "bytes": 22094,
-      "tokens_about": 6000
+      "bytes": 25769,
+      "tokens_about": 7400
     }
   }
 }
