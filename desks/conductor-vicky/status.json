@@ -5,7 +5,7 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "08:48 wake 11 Nov: S41 wind downgrade verified live (v0.1.1194); storm page update staged (0c9e884d9), awaiting reviewer@; dev@ stale-page diagnosis delivered to Vicky; S55 drafted",
+  "done": "09:12 11 Nov: /storm/charles/ wind downgrade verified live by conductor (v0.1.1198: wind ORANGE, rain RED 09:00-18:00, downgrade in timeline, stale lines gone); stale-page proposal sent to its owners",
   "next": [
     "stale-page fix: proposal sent to dev@PrompTugal.dinis and security@PrompTugal.dinis 09:08 UTC (inbox + request file); tell Vicky when they reply",
     "Categories: acks from checker, programme, Dinis's and other desks; card labels on the articles page if Vicky agrees",
