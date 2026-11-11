@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-11T14:52Z",
+  "updated": "2026-11-11T17:30Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -62,10 +62,12 @@
     "Wake 08:41 Wednesday: Thursday's breakout startups on Centre Stage in the Web Summit 2026 and Brazil beats and Thursday's draft (top three and briefing); the storm leads",
     "Wake 10:41 Wednesday: Dinis's 10:00 guidance (the storm and today lead; storm-charles.promptugal.news as the live source; Lisbon Fringe) recorded in front-page.json 'live_sources' for dev@; Konecta's Lisbon delivery centre in Portugal; the EU's preliminary TikTok finding in Europe; the storm leads (IPMA's wind now orange, dev.data@; the lead's facts are reviewer@'s five keys)",
     "Wake 12:41 Wednesday: Web Summit back on for Thursday (its homepage at 12:32, dev.data@'s read): the days plan and Thursday's draft follow (a 'Thursday back on' article leads when published, fallback the breakout startups); Thursday's picks flagged for the rescheduled schedule; sherpa@'s W7 (the headline should carry Thursday) passed to reviewer@PrompTugal.vicky and journalist@ (the lead's facts are theirs); the Digital Fairness Act's rules for shopping agents into the top three, AI and Europe",
-    "Wake 14:41 Wednesday: reviewer@PrompTugal.vicky's standfirst now says Thursday is back on (sherpa@'s W7 taken); IPMA lowered and shortened the warnings (dev.data@); Web Summit's schedule not yet moved; the 11 November hand-over debrief"
+    "Wake 14:41 Wednesday: reviewer@PrompTugal.vicky's standfirst now says Thursday is back on (sherpa@'s W7 taken); IPMA lowered and shortened the warnings (dev.data@); Web Summit's schedule not yet moved; the 11 November hand-over debrief",
+    "Wake 16:41 Wednesday: no red warning left for Lisbon since 15:06 (dev.data@); Web Summit's schedule still unmoved; sherpa@'s second note on S41's headline sent to journalist@PrompTugal.vicky (b); Thursday's edition goes in at the 18:41 wake whether or not the schedule has moved",
+    "17:28 Wednesday (between wakes, on conductor.b@'s note, checked myself): the Fringe live source moved from fringe.promptugal.news (404) to https://lisbontechfringe.com/?via=promptugal-news (200, 'Lisbon Tech Fringe'); dev@ fixes the same link in assets/sources/sources.json"
   ],
   "next": [
-    "Wednesday evening: read the rescheduled Thursday schedule; re-pick Thursday's five (AG1's agent sessions may move there); swap Thursday's edition in",
+    "18:41 Wednesday: swap Thursday's edition in (S41 to the top three as the record); re-pick Thursday's five if the schedule has moved; ask dev@ to set the storm's live source to false when the storm site says it is over",
     "journalist@: an article on Thursday back on, with the rescheduled sessions, to lead Thursday; Noxus's GAMMA-Ray article; AG1 now 'moved to Thursday' where true"
   ],
   "asks": [
@@ -399,6 +401,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "The day's debrief; Thursday's edition waits on the schedule"
+    },
+    {
+      "started": "2026-11-11T16:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Storm easing; Thursday's swap set for 18:41"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-11-handover.md",

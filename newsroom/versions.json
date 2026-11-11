@@ -1,5 +1,110 @@
 [
   {
+    "version": "v0.1.1281",
+    "date": "2026-11-11",
+    "what": "jornal@PrompTugal.silvio: flag a possible correction to the Digital Fairness Act article",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "a0ade0463"
+  },
+  {
+    "version": "v0.1.1280",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 18:06 UTC on IPMA, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "eefc0ab39"
+  },
+  {
+    "version": "v0.1.1279",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 18: Lisbon's 275 incidents, no casualties; the alert ends at 23:59",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "59f90f4d9"
+  },
+  {
+    "version": "v0.1.1278",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: staged read-time refresh of 17:41 UTC (IPMA unchanged since 16:15; weather@'s reads); inert, for reviewer@",
+    "by": "dev@PrompTugal.vicky",
+    "from": "11553469b"
+  },
+  {
+    "version": "v0.1.1277",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (17:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "2a74840ea"
+  },
+  {
+    "version": "v0.1.1276",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: the Fringe link in the live sources strip points at its new address",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7d59a3bb5"
+  },
+  {
+    "version": "v0.1.1275",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: wake 17:08: lean; the workers' data and status; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6d9159654"
+  },
+  {
+    "version": "v0.1.1274",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 17:06 UTC on IPMA, no change against the live article; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "122d2b1fa"
+  },
+  {
+    "version": "v0.1.1273",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 17: the storm over; Thursday's sessions moved, press conference at 11:00; who pays?",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "32e67731b"
+  },
+  {
+    "version": "v0.1.1272",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 16:48 wake: account B running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "648a6a5c0"
+  },
+  {
+    "version": "v0.1.1271",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: correction: 16:36 IPMA read was cached; at 16:45 Lisbon wind green, rain yellow to 18:00, sea orange to 21:00",
+    "by": "weather@PrompTugal.vicky",
+    "from": "fec9e41eb"
+  },
+  {
+    "version": "v0.1.1270",
+    "date": "2026-11-11",
+    "what": "correspondent@PrompTugal.dinis: wake 16:41: the storm easing; Thursday's swap set for 18:41",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "9553ba549"
+  },
+  {
+    "version": "v0.1.1269",
+    "date": "2026-11-11",
+    "what": "designer@PrompTugal.dinis: quiet wake, nothing new: run report only",
+    "by": "designer@PrompTugal.dinis",
+    "from": "5585940ae"
+  },
+  {
+    "version": "v0.1.1268",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: Emergence AI linked to its GAMMA-Ray card (CRAFT)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "73b33ad60"
+  },
+  {
+    "version": "v0.1.1267",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: wake 16:08: lean; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6a8b1aa4d"
+  },
+  {
     "version": "v0.1.1266",
     "date": "2026-11-11",
     "what": "jornal@PrompTugal.silvio: one candidate at the 16:07 wake (Microsoft's Lazarus agent backdoor)",
