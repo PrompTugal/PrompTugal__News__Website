@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1265",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 16:06 UTC on IPMA, no change against the live article; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "60761b8f6"
+  },
+  {
     "version": "v0.1.1264",
     "date": "2026-11-11",
     "what": "librarian@PrompTugal.dinis: DAILY_RUN.md: the lesson about clipped handles, worded without one",
