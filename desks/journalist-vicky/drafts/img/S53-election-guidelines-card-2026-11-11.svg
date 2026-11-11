@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+<title id="t">The EU's draft election guidelines for the largest platforms</title>
+<desc id="d">A summary card: the Commission consults on draft revised election guidelines under the Digital Services Act until 23 November 2026. Deepfakes labelled, and keeping their label when shared; a report within 30 days of an election. Source: European Commission.</desc>
+<rect width="1200" height="630" fill="#f7f3ea"/>
+<rect x="0" y="0" width="1200" height="16" fill="#003399"/>
+<text x="60" y="96" font-family="Georgia, serif" font-size="42" fill="#003399">EU election guidelines, draft for consultation</text>
+<text x="60" y="206" font-family="Helvetica, Arial, sans-serif" font-size="96" font-weight="700" fill="#1a1a1a">Until 23 Nov</text>
+<text x="60" y="266" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1a1a1a">For the largest platforms and search engines</text>
+<g font-family="Helvetica, Arial, sans-serif" fill="#1a1a1a">
+<rect x="60" y="306" width="525" height="210" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
+<text x="88" y="372" font-size="40" font-weight="700">Deepfakes labelled</text>
+<text x="88" y="422" font-size="38">and keep the label</text>
+<text x="88" y="470" font-size="38">when shared</text>
+<rect x="615" y="306" width="525" height="210" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
+<text x="643" y="372" font-size="40" font-weight="700">30 days</text>
+<text x="643" y="422" font-size="38">to report after</text>
+<text x="643" y="470" font-size="38">an election</text>
+</g>
+<text x="60" y="586" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#444">Source: European Commission, 10 Nov 2026</text>
+</svg>
