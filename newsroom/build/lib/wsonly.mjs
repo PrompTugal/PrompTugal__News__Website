@@ -33,5 +33,16 @@ export function wsReport(store) {
     return r
 }
 export const wsLine = r => `company facts ${r.facts[1]} of ${r.facts[0]} (${r.companies_empty.length} companies left with none), people ${r.people[1]} of ${r.people[0]}, sessions ${r.events[1]} of ${r.events[0]}`
-// the gate's line (validate.js check 15)
-export const wsGate = store => `websummit-only (${wsSwitch().on ? 'on' : 'dry run, nothing taken off yet'}): ${wsLine(wsReport(store))}`
+// ontologist@'s inventory (data/websummit-only.json, derived by lib/derive.mjs), named by the switch; null when absent
+let I
+export function wsInventory() {
+    if (I !== undefined) return I
+    try { I = wsSwitch().inventory ? JSON.parse(fs.readFileSync(R(wsSwitch().inventory), 'utf8')) : null } catch { I = null }
+    return I
+}
+// the gate's line (validate.js check 15): the inventory's counts when it exists, else the host rule's
+export function wsGate(store) {
+    const i = wsInventory(), mode = wsSwitch().on ? 'on' : 'dry run, nothing taken off yet'
+    if (!i) return `websummit-only (${mode}): ${wsLine(wsReport(store))}`
+    return `websummit-only (${mode}; ${wsSwitch().inventory}): ` + Object.entries(i.counts).map(([k, c]) => `${k} ${c.websummit_only} of ${c.total}`).join(', ')
+}
