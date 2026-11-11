@@ -3,7 +3,7 @@
   "reference": "desks/conductor-vicky/taxonomy/categories.md; machine-readable desks/curator/categories.json",
   "steps": {
     "1 categories.json by curator": "done 23:4x UTC; checked by conductor: 8 categories in order, all 56 articles, none missing or unknown, counts 27/20/18/14/13/7/5/5, Teamworks AI+Corporate, 106 secondary tags (case-merged)",
-    "2 build change by dev@PrompTugal.vicky (For: dev@PrompTugal.dinis)": "blocked: dev@ asks Vicky to confirm in its window",
+    "2 build change by dev@PrompTugal.vicky (For: dev@PrompTugal.dinis)": "in progress 23:56: dev@ testing the categories gate",
     "3 publishing check (gate + reviewer)": "asked",
     "4 agents acknowledge and save the rules": "in progress",
     "5 verified live": "pending"
@@ -11,7 +11,7 @@
   "acks": {
     "curator@PrompTugal.vicky": "ack 23:33: desks/curator/README.md (commit 46c0dc3bc)",
     "reviewer@PrompTugal.vicky": "ack 23:42: desks/reviewer-vicky/README.md (Publishing, Categories); checked S41, S42, S45 have entries",
-    "dev@PrompTugal.vicky": "waiting for Vicky to confirm the change in its own window (23:51)",
+    "dev@PrompTugal.vicky": "working on it (rules to be saved in its desk README)",
     "journalist@PrompTugal.vicky": "ack 23:42: desks/journalist-vicky/notes/journalist-standing-rules.md",
     "journalist-connections@PrompTugal.vicky": "ack 23:42: desks/journalist-vicky/notes/journalist-connections-rules.md",
     "journalist-portugal@PrompTugal.vicky": "ack 23:42: desks/journalist-vicky/notes/journalist-portugal.md",
