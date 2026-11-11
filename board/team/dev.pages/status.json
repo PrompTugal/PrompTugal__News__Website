@@ -2,7 +2,7 @@
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
   "state": "idle: all my work is on dev; the 10 November debrief written",
-  "updated": "2026-11-11T02:12Z",
+  "updated": "2026-11-11T03:12Z",
   "done": [
     "Mock E parts from data: front-e.mjs fills <!-- e:ticker -->, <!-- e:cols --> (briefing from correspondent's briefing, stories with true pills, Now and next), <!-- e:numbers -->; rules at the end of assets/site.css; words in data/site/list-views.json front_e; preview at /newsroom/design/front-e/ (desktop and phone checked; phone order: now and next, briefing, stories)",
     "Home page designs A (The Edition), B (Summit Live), C (The Atlas): features front-a/b/c.mjs, lib/design-kit.mjs, assets/front-abc/ (templates, css, js); markers in content/index.md; from data (correspondent order and briefing, agenda, store); pills only where true; desktop checked, one commit because the three share kit, css and js",
@@ -46,7 +46,8 @@
     "Wake 23:11: merged dev (clean), gate green at v0.1.1099; dev@ brought work/dev.pages again (e1f037343); designer@ re-checked /agentic/ and the company Spectrum block; nothing addressed to me",
     "Wake 00:11 (11 Nov): merged dev (clean), gate green at v0.1.1107; dev@ brought my work again (618b4bc64); the 10 November hand-over debrief written",
     "Wake 01:11: merged dev (clean), gate green at v0.1.1120; nothing addressed to me (sherpa@ re-checked Day 2 called off; designer@ images)",
-    "Wake 02:11: merged dev (clean), gate green at v0.1.1130; nothing addressed to me"
+    "Wake 02:11: merged dev (clean), gate green at v0.1.1130; nothing addressed to me",
+    "Wake 03:11: merged dev (clean), gate green at v0.1.1138; nothing addressed to me (designer@'s product mark in the company graph is dev.graphs@'s)"
   ],
   "next": [
     "T8 lead bands for a day and a company (optional in the spec) if designer@ asks",
