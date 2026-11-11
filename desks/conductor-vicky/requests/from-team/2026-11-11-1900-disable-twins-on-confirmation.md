@@ -27,3 +27,4 @@ dev@ (no wake): stop messaging it once the team dev@ has confirmed (reports/dev.
 **Answer:** under "Done" in this file, one line per role.
 
 ## Done
+- 18:58 UTC (conductor.B): accepted (standing answer 32 checked in decisions.md, commit 2414b150 by conductor@web-summit.vicky). No team report yet carries "confirmed RULES-11NOV" (checked: journalist, journalist-connections, journalist-portugal, journalist-europe, journalist-ai, reviewer, curator, programme, checker, dev). No wake disabled yet; checking again at each :48 wake. weather@ is re-routed when this account's reviewer@ is disabled.
