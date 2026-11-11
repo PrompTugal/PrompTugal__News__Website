@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1175",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "6473fdb74"
+  },
+  {
     "version": "v0.1.1174",
     "date": "2026-11-11",
     "what": "correspondent@PrompTugal.dinis: wake 06:41: the EU's election rules for generative AI placed",
