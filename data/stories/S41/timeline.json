@@ -59,6 +59,19 @@
         "c19",
         "c20"
       ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "Between IPMA's file read at 08:32 UTC and the same file read at 10:32 UTC, the wind warning for the Lisbon district is lowered from red (12:00 to 21:00) to orange (09:00 to 21:00); red remains for rain only. The time of the change is not known.",
+      "kind": "change",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c21",
+        "c22"
+      ]
     }
   ]
 }
