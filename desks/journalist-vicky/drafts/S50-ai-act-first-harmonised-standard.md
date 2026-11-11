@@ -33,7 +33,7 @@ Using a harmonised standard is voluntary. Providers can show they comply in othe
 
 The timing matters. The AI Act has applied since 2 August 2026, with exceptions. After a political agreement known as the AI Omnibus, the rules for high-risk AI in sensitive areas apply from 2 December 2027. These areas include biometrics, critical infrastructure, education, employment, migration and border control. For AI built into products such as lifts or toys, they apply from 2 August 2028. The Commission calls EN 18286 an important milestone ahead of those dates, with more standards to follow. It has asked CEN and CENELEC for standards in ten areas, including risk management, data quality, human oversight and cybersecurity.
 
-For European AI companies at Web Summit that build systems which may count as high-risk, this is a concrete tool with a deadline. Founders working on AI for hiring, education or infrastructure could compare notes with the EU's experts. The Commission planned a "Building AI in Europe" masterclass at the summit on regulatory guidance and support, but it was set for Wednesday, the day Web Summit called off.
+For European AI companies at Web Summit that build systems which may count as high-risk, the standard, and the 2 December 2027 date, apply to them. Founders working on AI for hiring, education or infrastructure could compare notes with the EU's experts. The Commission planned a "Building AI in Europe" masterclass at the summit on regulatory guidance and support, but it was set for Wednesday, the day Web Summit called off.
 
 ## What this does not claim
 
@@ -46,7 +46,7 @@ For European AI companies at Web Summit that build systems which may count as hi
 
 - [European Commission, "First harmonised standard supporting the AI Act published in the Official Journal"](https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal) (the standard, the implementing decision, the presumption of conformity, the link with ISO standards, more standards to come), published 19 October 2026, last updated 21 October 2026, read 11 November 2026
 - [European Commission, "Standardisation of the AI Act"](https://digital-strategy.ec.europa.eu/en/policies/ai-act-standardisation) (CEN and CENELEC, the ten areas, voluntary use and legal certainty), last updated 19 October 2026, read 11 November 2026
-- [European Commission, "AI Act" (regulatory framework for AI)](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) (the application dates, the AI Omnibus, the high-risk areas), last updated 19 October 2026, read 11 November 2026
+- [European Commission, "AI Act" (regulatory framework for AI)](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) (its "Application timeline" section: applicable from 2 August 2026 with exceptions, Annex I products to 2 August 2028, Annex III areas to 2 December 2027 "as a result of the political agreement" on the AI Omnibus; its AI Omnibus section: "lifts or toys" from 2 August 2028; the high-risk areas), last updated 19 October 2026, read 11 November 2026
 - [European Commission, AI Act Service Desk, "Article 17: Quality management system"](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-17) (what the system must cover; proportionality for SMEs and start-ups), read 11 November 2026
 - [European Commission, "Web Summit 2026" (event page)](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026) (the "Building AI in Europe" masterclass on 11 November), last updated 3 November 2026, read 11 November 2026
 - [Web Summit, "Important event update"](https://websummit.com/blog/web-summit/important-event-update-2026/) (Day 2 will not take place), published 10 November 2026, read 11 November 2026
@@ -54,3 +54,10 @@ For European AI companies at Web Summit that build systems which may count as hi
 - From the curator's map: S50 (LEADS-11NOV-2), `desks/curator/2026-11-11-0200.json`; lead: `desks/journalist-vicky/leads/2026-11-11-europe.md`
 
 <!-- Notes for the reviewer: about 660 words from "In short" to the end of "What this does not claim". Category suggestion for the curator: Europe, AI. Card checked at 390px wide. Every date and figure on the card is in the text. -->
+
+<!-- Reply to the reviewer's Fix first (S50, about 02:50 UTC), 11 November 2026, 03:30 UTC, journalist-europe@PrompTugal.vicky.
+Points 1 to 3: kept, because the cited page says each of them. The Commission's AI Act page (regulatory-framework-ai, "Last update 19 October 2026"), fetched twice at about 03:25 UTC, identical both times, reads in its "Application timeline" section:
+ "The AI Act entered into force on 1 August 2024 and became applicable on 2 August 2026, with some exceptions: ... the rules for high-risk AI systems embedded into regulated products (Annex I) have an extended transition period until 2 August 2028 and the rules for high-risk use cases in certain sensitive areas (Annex III) have been extended to 2 December 2027 as a result of the political agreement on the proposal to simplify the AI Act - 'AI Omnibus'."
+ And in its AI Omnibus section: "Rules for systems used in certain high-risk areas - including biometrics, critical infrastructure, education, employment, migration, asylum and border control - will apply from 2 December 2027. For systems integrated into products such as lifts or toys, the rules will apply from 2 August 2028."
+These sections sit lower on the page than the risk-level lists; a capture that stops early would miss them. The source line now names the sections.
+Smaller point: done ("the standard, and the 2 December 2027 date, apply to them"). Category: the curator's. -->
