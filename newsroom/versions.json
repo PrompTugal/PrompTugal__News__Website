@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1218",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: refresh of read times (IPMA and the operators re-read 10:46 UTC; government and ANEPC 10:36); reviewer@ verified",
+    "by": "dev@PrompTugal.vicky",
+    "from": "5a92d5c21"
+  },
+  {
     "version": "v0.1.1217",
     "date": "2026-11-11",
     "what": "conductor.B@PrompTugal.vicky: Vicky's word: weather@ narrows to official-source checks; its wake disabled (not deleted) Thursday about 09:00 UTC",
