@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1310",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: the websummit-only inventory (pass step 2)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "769a63ad2"
+  },
+  {
     "version": "v0.1.1309",
     "date": "2026-11-11",
     "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger; Dinis's websummit-only pass routed to account B's agents",
