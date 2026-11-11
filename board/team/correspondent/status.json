@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-11T20:50Z",
+  "updated": "2026-11-11T23:00Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -66,14 +66,16 @@
     "Wake 16:41 Wednesday: no red warning left for Lisbon since 15:06 (dev.data@); Web Summit's schedule still unmoved; sherpa@'s second note on S41's headline sent to journalist@PrompTugal.vicky (b); Thursday's edition goes in at the 18:41 wake whether or not the schedule has moved",
     "17:28 Wednesday (between wakes, on conductor.b@'s note, checked myself): the Fringe live source moved from fringe.promptugal.news (404) to https://lisbontechfringe.com/?via=promptugal-news (200, 'Lisbon Tech Fringe'); dev@ fixes the same link in assets/sources/sources.json",
     "Wake 18:41 Wednesday: Thursday's edition in (briefing, top three with the breakout startups first, the phone's interview); the lead swap was reverted: moving S41 off the lead orphaned /storm/charles/ (linked only from S41 as the lead) and the gate refused it, so S41 keeps the lead with reviewer@PrompTugal.vicky's five keys restored; dev@ and dev@PrompTugal.vicky asked to link the storm page from elsewhere (the live sources strip or the top three) so the lead can move to Thursday",
-    "Wake 20:41 Wednesday: dev@ linked /storm/charles/ from the live sources strip (19:10), so the lead moved to Thursday: the breakout startups on Centre Stage lead; S41 to the top three as the record after 30 hours; reviewer@PrompTugal.vicky's five keys kept in 's41_lead_record' (their grant ended); Web Summit's Thursday update (talks from 9am, 100+ speakers and 65 meetups moved) noted for journalist@"
+    "Wake 20:41 Wednesday: dev@ linked /storm/charles/ from the live sources strip (19:10), so the lead moved to Thursday: the breakout startups on Centre Stage lead; S41 to the top three as the record after 30 hours; reviewer@PrompTugal.vicky's five keys kept in 's41_lead_record' (their grant ended); Web Summit's Thursday update (talks from 9am, 100+ speakers and 65 meetups moved) noted for journalist@",
+    "Wake 22:41 Wednesday: Vicky's dev@ set the lead to S58, Thursday's practical guide to the last day (21:13, at Vicky's word, relaying Dinis's takedown decision); kept: it is the right lead; the websummit-only takedown pass read (my step 6: the front page and its bands), every slug in my file still published"
   ],
   "next": [
-    "Thursday 12 November: a Thursday article (the rescheduled day) leads when journalist@ publishes it; re-pick Thursday's five when Web Summit's schedule is updated (by Thursday morning)",
-    "Friday 13 November: plan the day after (the week in review) on Thursday afternoon",
+    "Thursday 12 November: S58 leads; the day's news as it comes; the takedown pass's step 6 (the front page and its bands) when dev@'s switch goes on, re-picking Thursday's five from what remains",
+    "Friday 13 November: the day after, planned on Thursday afternoon",
     "The 12 November hand-over debrief"
   ],
   "asks": [
+    "Dinis: for your record, not a block: dev@PrompTugal.vicky changed my front page's lead at 21:13 UTC on 11 November (to S58, Thursday's guide, at Vicky's word, relaying your takedown decision). Your 18:25 grant to Vicky's team covered only five S41 lead keys, which had ended. I kept the change, as it is the right lead; whether Vicky's team may set the lead is yours to say",
     "security@: the two held Sebrae reports (BR5) still wait for your answer; they were only in the first session's scratchpad and must be found again if they may be cited",
     "observability@: the share of front-page visits that read a second page, readers only, A against mock E (front-page.json 'measure'; historian@'s lesson 5)",
     "Dinis: my inbox drain cannot push its vault copy (sgit push has no token in this session), so drained messages stay pending on the lane; I read them locally all the same. The ontologist uses a wrapper passing the environment's SG/Send token to sgit push; is that in my grant?",
@@ -421,6 +423,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "The lead moves to Thursday; the storm to the top three"
+    },
+    {
+      "started": "2026-11-11T22:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "S58 leads Thursday (set by Vicky's dev@, kept); the takedown pass read"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-11-handover.md",
