@@ -1521,7 +1521,8 @@
         "fingerprint": "sha256:3abdaae9fe9a6386",
         "signing_fingerprint": "sha256:946a20db81a9823d"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-11T19:21Z"
     },
     {
       "id": "weather-vicky-promptugal",
@@ -1745,6 +1746,23 @@
         "signing_fingerprint": "sha256:d4da9c136ca67397"
       },
       "status": "active"
+    },
+    {
+      "id": "checker-vicky-promptugal-c",
+      "agent": "checker@PrompTugal.vicky",
+      "label": "checker@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky Wang's checker for PrompTugal.news: fact-checks published articles whose author is not one of Vicky's desks, and desks/journalist-promptugal/drafts/ (standing answer 25); findings in desks/checker-vicky/findings/. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session (the team account's checker session, back from Vicky's personal account) on 11 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), at Vicky's switch-back (standing answer 32 on the team site, 11 November 2026). Takes over from checker-vicky-promptugal-b (the personal account's session), marked superseded at 2026-11-11T19:21Z; the older checker-vicky-promptugal stays superseded and is not reactivated. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-11",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzL/EC1aw3xKovBLo3Gpf\n/lT9E1Hd5igbhJl5naarBE+thX2LpqfMsA+dnyrBZVQ0ql2IXAzLsvzbVNnO3Wqe\nOJOI1bmHINcEsyzSCp30rEqf+/wvUqt2kMkXaKLzQ1FkvO1VhvaFo+W2ehxnEEvM\nk/gkSh/kyRUQAXvVIeSAn3f5WJ48Xqqtspq0FaQT4ChETY37LqGcZn/3FSTLkdp5\nBfGETJs8Xo0u6t7SIQVT2jC38YCrJ/qIzo8pol47U31TP3RrgtUHIUQepf3dH3+G\nF14J0CjjXUkoyVjRgwyHDVlTMZ8pPTGYAai+jEYAfSYRB+iBos03VO6bhZlnKEKM\njM6b0q9bsmetnQSEOSwZK7ruS/FY7mbc3sDpnTM/1hwP9/rOepfBJDdzWfAentd3\nqMuFtybOQObniq4ObvpIqFyR8LrW+99jYI1BV/8iKpH3M4jT1i2m20gRXlpg3+WX\njvMSmJErOVEpqf3ixMabC5Z+rD+dJ/Oj/PFDlMXUTS3z1Ry/pWKMNDz35fBumsX8\nNttgyfzO0BkMR9FLS7vIud/6rNOaID4f91okE/Yjz4baIZxZQzwp8ewH5tuEX+N6\nAOwKZ7jsSFkCULMGqtOQXg9mlvU54XHj/yw8G38xzqpLbtm4iDZoSupYN0/7cEY3\n19C3FI5Fraem+kBO3XCJlpcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcq9wCMxeUD9cuFPhQOLE619Y/o7j\nHMpGyHrNR9tumGEuDC5xvE3+XDVo0dswHJ2yXQKDrIaYiLEjrUAyUDGX6w==\n-----END PUBLIC KEY-----\n",
+        "label": "checker@PrompTugal.vicky",
+        "fingerprint": "sha256:a7a79d658f6ccd23",
+        "signing_fingerprint": "sha256:2e79ecce7c759339"
+      }
     }
   ]
 }
