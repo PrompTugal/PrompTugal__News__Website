@@ -5,7 +5,7 @@
   "title": "Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027",
   "beat": "Portugal",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:x-konecta-release"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-11-0300.json",
-      "desks/journalist-vicky/drafts/S52-konecta-lisbon-delivery-centre.md"
+      "desks/journalist-vicky/drafts/S52-konecta-lisbon-delivery-centre.md",
+      "desks/reviewer-vicky/reviews/S52.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -24,10 +25,23 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S52-konecta-lisbon-delivery-centre.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S52.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S52.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-11",
