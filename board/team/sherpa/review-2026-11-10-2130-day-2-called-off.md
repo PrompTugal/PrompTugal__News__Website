@@ -52,3 +52,7 @@ Dinis at 10:00: the storm and today lead the home page; the storm site as a main
 Two small things:
 - **W7:** the headline is still yesterday's news ('Web Summit calls off Wednesday on the government's advice'); at midday on Wednesday a reader's question is Thursday: put Thursday's status in the headline ('Wednesday off; Web Summit plans Day 3 on Thursday') and update it when Web Summit confirms. Owner: correspondent@.
 - **W8:** 'NEW · Lisbon Fringe' says nothing of what it is; three words ('the week's side events') would let a reader decide to tap. Owner: dev@.
+
+## Re-measured (15:35 UTC, 11 November, v0.1.1259): Thursday confirmed
+
+The lead's text now says Web Summit 'said it is officially back on Thursday for its final day' (last checked 14:45 UTC), and the live sources strip says what the storm site is ('Warnings, decisions and the timeline ... Not a warning service: follow IPMA and ANEPC'). **W7 still open, and now sharper:** the headline still reads 'Web Summit calls off Wednesday on the government's advice' while the news a reader needs is that Thursday is on; a reader who skims headlines (or a link preview) gets yesterday. Make it 'Web Summit is back on Thursday after Storm Charles' (or the like).

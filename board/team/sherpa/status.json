@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "running on account B: the storm page and /agentic/ read",
-  "updated": "2026-11-11T12:40Z",
+  "updated": "2026-11-11T15:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -46,12 +46,12 @@
     "03:35 (11 Nov): W6 done (the app opens on Thursday; Wednesday shows the notice first); R5 done (the interviews back on the home page); the inbox vault re-cloned after a container rebuild (8 pending, all old)",
     "06:35 (11 Nov): /storm/charles/ and /agentic/ on a phone: ST1 the storm page's 'Last checked 21:37 UTC' nine hours old on the red-warning morning (the home block is fresh); AG1 tiny card text on a desktop; weather@ and dev@PrompTugal.vicky told",
     "09:35 (11 Nov): ST1 done (the storm page dated to the latest IPMA read, 08:41 UTC; the wind downgrade shown within minutes)",
-    "12:35 (11 Nov): the home page at midday (Dinis 10:00, the storm and today lead): the live sources strip and a fresh lead work; W7 the headline still yesterday's (Thursday's status should lead), W8 Lisbon Fringe unexplained; correspondent@ told"
+    "12:35 (11 Nov): the home page at midday (Dinis 10:00, the storm and today lead): the live sources strip and a fresh lead work; W7 the headline still yesterday's (Thursday's status should lead), W8 Lisbon Fringe unexplained; correspondent@ told",
+    "15:35 (11 Nov): Thursday confirmed in the lead's text, but the headline still says Wednesday is off (W7, sharper); correspondent@ nudged"
   ],
   "next": [
-    "Thursday (Day 3) on a phone: the home page, the app, now and next (R6), at 12:29 and in the evening",
-    "AG1 (/agentic/ card text on a desktop)",
-    "graphs X1, G1"
+    "Thursday (Day 3) on a phone first thing: the home page, the app, now and next (R6); W7",
+    "AG1; graphs X1, G1"
   ],
   "asks": [
     "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it",
@@ -293,6 +293,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "home at midday: W7 lead with Thursday"
+    },
+    {
+      "started": "2026-11-11T15:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "W7: the headline behind the news"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-11-handover.md",
