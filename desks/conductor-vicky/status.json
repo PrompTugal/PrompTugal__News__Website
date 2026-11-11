@@ -5,9 +5,9 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "18:48 wake: hand-over pushed (desks/conductor-vicky/HANDOVER-to-team-conductor-2026-11-11.md); team conductor request (SA32) accepted: disable each twin when its team agent confirms RULES-11NOV; none confirmed yet",
+  "done": "19:48 wake: all nine twins off; team conductor already flagged b67cf9cae to conductor@PrompTugal.dinis (0e793ca2a); weather@ 19:37 no change; no new team requests",
   "next": [
-    "Each :48 wake: read people/vicky/reports/<role>.md on the team site for \"confirmed RULES-11NOV\"; disable that twin (never delete), tell it, log under Done in requests/from-team/2026-11-11-1900-...; re-route weather@ when reviewer@ twin is disabled",
+    "Relay weather@ material changes to the team through desks/conductor-vicky/to-team/; disable weather@ Thu about 09:00; disable conductor.fringe@ and conductor.B on Fri 13 Nov",
     "Collect the 12 confirmations (no machine reads of websummit.com, its subdomains or the app; no new work from copied Web Summit data; nothing deleted until Dinis decides)",
     "storm page: hourly read-time refreshes until 21:00 (weather@ -> dev@ -> reviewer@); stale-page fix live, security@ reply pending",
     "FRIDAY 13 Nov: disable (not delete) conductor.fringe@PrompTugal.vicky wake trig_013JkmvxJEk9cuqke1xDgsnC; relay its reports to Vicky meanwhile",

@@ -3,16 +3,6 @@
  "lines": [
   {
    "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-09T15:52Z",
-   "SGit-AI__Website__Web-Summit": "deed0350",
-   "PrompTugal__News__Website": "ee2243ed",
-   "PrompTugal__App__Android": "092a32a2",
-   "PrompTugal__App__iOS": "4c11461a",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Account B: twelve agents running, nothing blocked but dev.verify@ (OpenRouter top-up). iOS dev moved (194f9b65 -> 4c11461a); the iOS slot is still unheld (waits on Dinis, brief 37); not mine to promote. Nothing new from Dinis for account B."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
    "at": "2026-11-09T16:52Z",
    "SGit-AI__Website__Web-Summit": "de6b95a0",
    "PrompTugal__News__Website": "b2a0ab7c",
@@ -500,6 +490,16 @@
    "PrompTugal__App__iOS": "d5eae8b1",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Account B: correspondent put Thursday's edition in (S41 keeps the lead); designer's live-sources spec follows the Fringe's new name; sherpa and dev@ ran; ontologist nothing new again. Ledger 1508.1 (+54.47 in three hours). Inbox: 1 held."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T19:52Z",
+   "SGit-AI__Website__Web-Summit": "30b42c5a",
+   "PrompTugal__News__Website": "7373a379",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "c907c8bc",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ linked the storm page from the live-sources strip, re-pulled GAMMA-Ray, three branches on; librarian refreshed its 11 Nov debrief. Vicky's conductor handed her agents to her team account (twin wakes disabled). Inbox empty."
   }
  ]
 }

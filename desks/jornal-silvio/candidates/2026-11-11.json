@@ -209,6 +209,36 @@
         "at": "2026-11-11T18:30Z",
         "why": "editor@PrompTugal.silvio pointed to MLex's report that the agent rules are in the presented proposal; 'possible correction' softened to 'check the final wording'"
       }
+    },
+    {
+      "id": "js-2026-11-11-07",
+      "title": "Helsing launches Clarity: hundreds of military AI agents under European control, with a named human behind every strike",
+      "summary": "German defence company Helsing launched Clarity in Berlin on 11 November, an AI platform that turns drone, satellite and sensor data into targets using hundreds of military AI agents sharing one ontology, run on infrastructure the customer owns. Helsing says an operator reviews the evidence, picks each asset and authorises every handoff to a weapon, targets are nominated only when independent sources agree, and each decision is logged with the name of the person who made it. It pitches Clarity as a European rival to Palantir's Maven; no customers were disclosed.",
+      "why_it_matters": "The hardest case of reach, mandate and gap: agents in the kill chain, with the mandate written as named human authorisation at each step and sovereignty as a selling point. A European answer to how far agents may act.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/helsing-clarity-palantir-maven-rival-karp-democrat",
+          "publisher": "The Next Web",
+          "published": "2026-11-11",
+          "read": "2026-11-11T20:20Z"
+        }
+      ],
+      "claims_to_check": [
+        "Helsing's own announcement for the controls described",
+        "No customer or service date disclosed: say so"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Same-day European launch of agents in defence, with explicit human-control design; sensitive subject, handle with care."
+      },
+      "photo": {
+        "url": "https://thenextweb.com/news/helsing-clarity-palantir-maven-rival-karp-democrat",
+        "description": "Gundbert Scherf, Helsing's co-founder and co-CEO (lead photo)",
+        "credit": "Helsing",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
@@ -239,6 +269,10 @@
     {
       "what": "Web Summit reopens Thursday for its 'busiest day ever', with rescheduled talks (ECO, Jornal Económico, Tek)",
       "why": "already in social.watch@'s map"
+    },
+    {
+      "what": "Fractile raises $720M at $7B for AI inference chips (TNW); AWS open-sources UAEF to test agents (TNW); StitchStudio $8M (TNW); Databricks Genie (TechCrunch)",
+      "why": "below the bar or off the agentic governance angle; UAEF may be worth a line in a later piece"
     }
   ],
   "wakes": [
@@ -261,6 +295,11 @@
       "at": "2026-11-11T18:24Z",
       "added": 1,
       "note": "scheduled wake; flagged a possible correction to a live article"
+    },
+    {
+      "at": "2026-11-11T20:24Z",
+      "added": 1,
+      "note": "scheduled wake"
     }
   ]
 }

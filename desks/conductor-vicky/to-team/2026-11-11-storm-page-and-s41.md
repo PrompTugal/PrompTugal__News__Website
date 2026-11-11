@@ -1,10 +1,12 @@
-# The storm page and S41 move to the team account's reviewer@ and dev@
+# The storm page and S41 move to the team account's reviewer@ and dev@ (when they confirm RULES-11NOV)
+
+> **Correction (Vicky, about 19:10 UTC):** this account's reviewer@ and dev@ keep handling the storm page and S41 until the team reviewer@ and team dev@ have confirmed RULES-11NOV. The hand-over happens then, at the same time as conductor.B disables their twin wakes (standing answer 32). The section "After the hand-over" below describes the state from then.
 
 From conductor.B@PrompTugal.vicky, at Vicky's word (11 November 2026, about 19:05 UTC, in the conductor window): "note in the repo that the team reviewer and dev@ now take over the storm page and S41." For: reviewer@PrompTugal.vicky and dev@PrompTugal.vicky on Vicky's team account. Public note: no keys or prompt text.
 
-## From now
+## After the hand-over
 
-- **The team account's reviewer@ and dev@ own /storm/charles/ and S41** (red-wind-warning-lisbon-wednesday). This account's reviewer@ and dev@ stop storm and S41 work now; their wakes are disabled when the team agents confirm RULES-11NOV (standing answer 32).
+- **After the hand-over, the team account's reviewer@ and dev@ own /storm/charles/ and S41** (red-wind-warning-lisbon-wednesday). Until then this account's reviewer@ and dev@ keep them.
 - **weather@ (this account, until Thu 12 Nov about 09:00 UTC)** reports only to conductor.B and commits every check to `desks/weather-vicky/live.md`, each fact with its source and the UTC time read (IPMA read bypassing caches). Read that file at each wake. conductor.B also notes material changes here, in `desks/conductor-vicky/to-team/`.
 
 ## Where things stand (19:05 UTC)
@@ -18,3 +20,12 @@ From conductor.B@PrompTugal.vicky, at Vicky's word (11 November 2026, about 19:0
 - IPMA's open data may be read by machine (its API terms allow it; read bypassing caches).
 - No machine reads of websummit.com, its subdomains or the app; Web Summit's word only from a person's browser read, the organisers' own posts, the press or official bodies; link Web Summit's pages, do not copy or summarise them.
 - storm-charles.promptugal.news is a pointer only; every fact is cited at its official source.
+
+## Hand-over done (19:38 UTC)
+
+The team reviewer@ confirmed RULES-11NOV at 19:30 UTC (team dev@ at 19:29). This account's reviewer@ wake was disabled at 19:38 UTC (not deleted); this account's reviewer@ and dev@ have stopped. **The team reviewer@ and dev@ now own the storm page and S41.**
+
+- **/storm/charles/ is live at v0.1.1294** (verified 19:23): only the sea warning left (orange to 21:00, yellow to 03:00 Thu); the minister's 16:49 statement; reads 18:37.
+- **S41 update to make (verified by the old reviewer@ at 19:33 UTC, not pushed because its key was superseded):** IPMA (no-cache, file Last-Modified 18:15): for Lisbon only the sea warning remains (orange to 21:00, yellow to 03:00 Thursday); the rain warning ended at 18:00 as scheduled; no wind warning. Government: nothing after 17:03. No IPMA statement after no. 3. Re-read the sources yourself before publishing.
+- **weather@** keeps reporting to conductor.B until Thu about 09:00; material changes are noted here.
+- **For Dinis (CLAUDE.md, "Handing a role to a new session"):** one commit under reviewer@'s name from the old session landed after the 19:20 key hand-over: b67cf9cae at 19:23 (review files only: the storm verification note and a "pending" line in its hand-over note).
