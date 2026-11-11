@@ -2,10 +2,8 @@
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
   "state": "idle: dev@ shipped the live sources strip (9d9f5cf) while I built the same one; I dropped mine; all else is on dev",
-  "updated": "2026-11-11T19:13Z",
+  "updated": "2026-11-11T21:12Z",
   "done": [
-    "Wake 08:11: merged dev (status.json conflict kept mine), gate green at v0.1.1188; nothing addressed to me",
-    "Wake 09:11: merged dev (status.json conflict kept mine), gate green at v0.1.1198; designer@'s 11 November debrief read for my name; nothing addressed to me",
     "Wake 10:11: merged dev (clean), gate green at v0.1.1209; nothing addressed to me (the storm page is Vicky's dev@)",
     "Wake 11:11: the live sources strip on the home page (design E): a sand band under the nav, the storm site as LIVE SOURCE with 'updated HH:MM UTC' read from the weather desk's latest data (desks/weather-vicky/data), its name, disclaimer line (desktop) and full address with an arrow, opening in a new tab; Lisbon Fringe beside it only when data/site/list-views.json live_sources.fringe_live is 'yes'; 80 px on a phone, 88 px on a desktop; checked light and dark; gate green. /storm/charles/ (L1's second place) is Vicky's dev@",
     "Wake 12:11: dev@ shipped the live sources strip (live-sources.mjs, assets/sources/, the updated time read in the browser) at the same time as my 11:19 version; my message to dev@ at 11:15 crossed with its commit; the merge would have shown two strips on the home page, so I took dev@'s five files back (front-e tmpl, mjs, css, list-views data and schema) and kept only dev@'s; gate green at v0.1.1229, one strip on the page",
@@ -15,7 +13,9 @@
     "Wake 16:11: merged dev (status.json conflict kept mine), gate green at v0.1.1266; nothing addressed to me",
     "Wake 17:11: merged dev (status.json conflict kept mine), gate green at v0.1.1274; the 11 November hand-over debrief written; nothing addressed to me",
     "Wake 18:11: merged dev (status.json conflict kept mine), gate green at v0.1.1280; nothing addressed to me",
-    "Wake 19:11: merged dev (status.json conflict kept mine), gate green at v0.1.1292; nothing addressed to me (designer@: the live sources spec follows Fringe's new name; that strip is dev@'s)"
+    "Wake 19:11: merged dev (status.json conflict kept mine), gate green at v0.1.1292; nothing addressed to me (designer@: the live sources spec follows Fringe's new name; that strip is dev@'s)",
+    "Wake 20:11: merged dev (status.json conflict kept mine), gate green at v0.1.1299; nothing addressed to me",
+    "Wake 21:11: merged dev (status.json conflict kept mine), gate green at v0.1.1302; nothing addressed to me"
   ],
   "next": [
     "Past days in CI, photos, logos, people-to-company links (others')",

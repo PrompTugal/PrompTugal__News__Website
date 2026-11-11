@@ -1,0 +1,7723 @@
+{
+  "$schema": "schemas/websummit-only.schema.json",
+  "about": "What rests only on websummit.com, by ref; kept off the site until another source is cited.",
+  "hosts": [
+    "websummit.com",
+    "websummit.net"
+  ],
+  "rule": "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
+  "counts": {
+    "companies": {
+      "total": 120,
+      "websummit_only": 37,
+      "other_source": 83,
+      "no_source": 0
+    },
+    "company_facts": {
+      "total": 311,
+      "websummit_only": 239,
+      "other_source": 72,
+      "no_source": 0
+    },
+    "company_edges": {
+      "total": 307,
+      "websummit_only": 282,
+      "other_source": 25,
+      "no_source": 0
+    },
+    "company_flows": {
+      "total": 32,
+      "websummit_only": 0,
+      "other_source": 32,
+      "no_source": 0
+    },
+    "company_products": {
+      "total": 24,
+      "websummit_only": 0,
+      "other_source": 24,
+      "no_source": 0
+    },
+    "people": {
+      "total": 285,
+      "websummit_only": 285,
+      "other_source": 0,
+      "no_source": 0
+    },
+    "person_listings": {
+      "total": 390,
+      "websummit_only": 390,
+      "other_source": 0,
+      "no_source": 0
+    },
+    "events": {
+      "total": 248,
+      "websummit_only": 215,
+      "other_source": 33,
+      "no_source": 0
+    },
+    "organisations": {
+      "total": 269,
+      "websummit_only": 184,
+      "other_source": 85,
+      "no_source": 0
+    },
+    "places": {
+      "total": 85,
+      "websummit_only": 45,
+      "other_source": 40,
+      "no_source": 0
+    }
+  },
+  "companies": [
+    {
+      "company": "company:0xbow",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:1password",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 10,
+      "other_sources_on_file": [
+        "fl1",
+        "fl2",
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:ai-infinity",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:air-apps",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:akamai",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1"
+      ]
+    },
+    {
+      "company": "company:altegio",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:arima",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:atlassian",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:cerebras",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:chatplace",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1"
+      ]
+    },
+    {
+      "company": "company:cisco-outshift",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:cnext",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:contents",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:datadog",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:delinea",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:delta-labs",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:dig-in",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:elastic",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:eversec",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": []
+    },
+    {
+      "company": "company:fido",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:firefox-enterprise-mozilla",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:fretefy",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:gcore",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:genspark",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "bo1"
+      ]
+    },
+    {
+      "company": "company:getvocal-ai",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:google-cloud",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:ibm",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:itrecruiter",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:just-travel",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:keewano",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:legalfly",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:manageengine",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:mastra",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1"
+      ]
+    },
+    {
+      "company": "company:melious-ai",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:mobile-brain",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:naporta",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:nisos",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": []
+    },
+    {
+      "company": "company:ola-doutor",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:orb",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:persona",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 7,
+      "other_sources_on_file": []
+    },
+    {
+      "company": "company:pitchbook",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": []
+    },
+    {
+      "company": "company:polygraf-ai",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": []
+    },
+    {
+      "company": "company:prelude",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "own1",
+        "vs1"
+      ]
+    },
+    {
+      "company": "company:primitive",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "fl1"
+      ]
+    },
+    {
+      "company": "company:prohound",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:qase",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "fl1"
+      ]
+    },
+    {
+      "company": "company:rapidoc",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:raras-health",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:risiq",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:runpod",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:rws",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:sensay",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:shakers",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:sheerme",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:spacecomputer",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:sphere",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 4,
+      "other_sources_on_file": [
+        "own1"
+      ]
+    },
+    {
+      "company": "company:twilio",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 6,
+      "other_sources_on_file": [
+        "bo1",
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:vtex",
+      "left_with_nothing": false,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": [
+        "mp1",
+        "own1"
+      ]
+    },
+    {
+      "company": "company:whitespace",
+      "left_with_nothing": true,
+      "facts_left": 0,
+      "items": 5,
+      "other_sources_on_file": []
+    }
+  ],
+  "company_items": [
+    {
+      "company": "company:0xbow",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:0xbow",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:0xbow",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s1"
+    },
+    {
+      "company": "company:0xbow",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:1password",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:1password",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:1password",
+      "kind": "fact",
+      "id": "f-s3",
+      "source": "s3"
+    },
+    {
+      "company": "company:1password",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:1password",
+      "kind": "edge",
+      "id": "based_in>place:canada",
+      "source": "s1"
+    },
+    {
+      "company": "company:ai-infinity",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:ai-infinity",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:ai-infinity",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:ai-infinity",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:aicep",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:aicep",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:aicep",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "s2"
+    },
+    {
+      "company": "company:aicep",
+      "kind": "edge",
+      "id": "based_in>place:portugal",
+      "source": "s2"
+    },
+    {
+      "company": "company:aicep",
+      "kind": "edge",
+      "id": "hosts>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:air-apps",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:air-apps",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:air-apps",
+      "kind": "edge",
+      "id": "filed_under>topic:portugal-startup",
+      "source": "s2"
+    },
+    {
+      "company": "company:air-apps",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:airia",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:airia",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:airia",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s2"
+    },
+    {
+      "company": "company:airia",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:airia",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:aisle",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:aisle",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:aisle",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:aisle",
+      "kind": "edge",
+      "id": "based_in>place:czechia",
+      "source": "s2"
+    },
+    {
+      "company": "company:aisle",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:akamai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:akamai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:akamai",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:akamai",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:altegio",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:altegio",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:altegio",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:altegio",
+      "kind": "edge",
+      "id": "based_in>place:hungary",
+      "source": "s1"
+    },
+    {
+      "company": "company:andreessen-horowitz",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:arima",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:arima",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:arima",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s1"
+    },
+    {
+      "company": "company:arima",
+      "kind": "edge",
+      "id": "based_in>place:canada",
+      "source": "s1"
+    },
+    {
+      "company": "company:atlassian",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:atlassian",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:atlassian",
+      "kind": "fact",
+      "id": "f-s3",
+      "source": "s3"
+    },
+    {
+      "company": "company:atlassian",
+      "kind": "edge",
+      "id": "filed_under>topic:platform",
+      "source": "s1"
+    },
+    {
+      "company": "company:atlassian",
+      "kind": "edge",
+      "id": "based_in>place:australia",
+      "source": "s1"
+    },
+    {
+      "company": "company:austriacard",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:austriacard",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:austriacard",
+      "kind": "fact",
+      "id": "f-s3",
+      "source": "s3"
+    },
+    {
+      "company": "company:austriacard",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s3"
+    },
+    {
+      "company": "company:austriacard",
+      "kind": "edge",
+      "id": "based_in>place:austria",
+      "source": "s3"
+    },
+    {
+      "company": "company:austriacard",
+      "kind": "edge",
+      "id": "hosts>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:c4ail",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:c4ail",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:c4ail",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s2"
+    },
+    {
+      "company": "company:c4ail",
+      "kind": "edge",
+      "id": "based_in>place:singapore",
+      "source": "s2"
+    },
+    {
+      "company": "company:c4ail",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:cerebras",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:cerebras",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:cerebras",
+      "kind": "edge",
+      "id": "filed_under>topic:platform",
+      "source": "s1"
+    },
+    {
+      "company": "company:cerebras",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:chatplace",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:chatplace",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:chatplace",
+      "kind": "edge",
+      "id": "filed_under>topic:portugal-startup",
+      "source": "s1"
+    },
+    {
+      "company": "company:chatplace",
+      "kind": "edge",
+      "id": "based_in>place:portugal",
+      "source": "s1"
+    },
+    {
+      "company": "company:cisco-outshift",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:cisco-outshift",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:cisco-outshift",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:cisco-outshift",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:cloudflare",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:cloudflare",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:cloudflare",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:cloudflare",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:cnext",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:cnext",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:cnext",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:cnext",
+      "kind": "edge",
+      "id": "based_in>place:belgium",
+      "source": "s1"
+    },
+    {
+      "company": "company:cognizant",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:cognizant",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:cognizant",
+      "kind": "edge",
+      "id": "filed_under>topic:platform",
+      "source": "s2"
+    },
+    {
+      "company": "company:cognizant",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:cognizant",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:conscium",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:conscium",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:conscium",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s2"
+    },
+    {
+      "company": "company:conscium",
+      "kind": "edge",
+      "id": "based_in>place:united-kingdom",
+      "source": "s2"
+    },
+    {
+      "company": "company:conscium",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:contents",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:contents",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:contents",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s1"
+    },
+    {
+      "company": "company:contents",
+      "kind": "edge",
+      "id": "based_in>place:italy",
+      "source": "s1"
+    },
+    {
+      "company": "company:crowdstrike",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:crowdstrike",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:crowdstrike",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:crowdstrike",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:crystal-intelligence",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:crystal-intelligence",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:crystal-intelligence",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s2"
+    },
+    {
+      "company": "company:crystal-intelligence",
+      "kind": "edge",
+      "id": "based_in>place:netherlands",
+      "source": "s2"
+    },
+    {
+      "company": "company:crystal-intelligence",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:data-protection-commission",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:data-protection-commission",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:data-protection-commission",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s2"
+    },
+    {
+      "company": "company:data-protection-commission",
+      "kind": "edge",
+      "id": "based_in>place:ireland",
+      "source": "s2"
+    },
+    {
+      "company": "company:data-protection-commission",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:datadog",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:datadog",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:datadog",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:datadog",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:defined-ai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:defined-ai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:defined-ai",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "s2"
+    },
+    {
+      "company": "company:defined-ai",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:defined-ai",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:delinea",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:delinea",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:delinea",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:delinea",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:delta-labs",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:delta-labs",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:delta-labs",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:delta-labs",
+      "kind": "edge",
+      "id": "based_in>place:switzerland",
+      "source": "s1"
+    },
+    {
+      "company": "company:deque",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:deque",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:deque",
+      "kind": "fact",
+      "id": "f-s3",
+      "source": "s3"
+    },
+    {
+      "company": "company:deque",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s3"
+    },
+    {
+      "company": "company:deque",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s3"
+    },
+    {
+      "company": "company:deque",
+      "kind": "edge",
+      "id": "hosts>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:descope",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:descope",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:descope",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:descope",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:descope",
+      "kind": "edge",
+      "id": "hosts>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:dig-in",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:dig-in",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:dig-in",
+      "kind": "edge",
+      "id": "filed_under>topic:portugal-startup",
+      "source": "s1"
+    },
+    {
+      "company": "company:dig-in",
+      "kind": "edge",
+      "id": "based_in>place:portugal",
+      "source": "s1"
+    },
+    {
+      "company": "company:directus",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:directus",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:directus",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s2"
+    },
+    {
+      "company": "company:directus",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:directus",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:easydmarc",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:easydmarc",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:easydmarc",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:easydmarc",
+      "kind": "edge",
+      "id": "based_in>place:armenia",
+      "source": "s2"
+    },
+    {
+      "company": "company:easydmarc",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:elastic",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:elastic",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:elastic",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:elastic",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:emergence-ai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:emergence-ai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:emergence-ai",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s2"
+    },
+    {
+      "company": "company:emergence-ai",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:emergence-ai",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:eversec",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:eversec",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:eversec",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:eversec",
+      "kind": "edge",
+      "id": "based_in>place:china",
+      "source": "s2"
+    },
+    {
+      "company": "company:eversec",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:exa",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:exa",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:exa",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s2"
+    },
+    {
+      "company": "company:exa",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:exa",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:exein",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:exein",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:exein",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:exein",
+      "kind": "edge",
+      "id": "based_in>place:italy",
+      "source": "s2"
+    },
+    {
+      "company": "company:exein",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:factorial",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:factorial",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:factorial",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "s2"
+    },
+    {
+      "company": "company:factorial",
+      "kind": "edge",
+      "id": "based_in>place:spain",
+      "source": "s2"
+    },
+    {
+      "company": "company:factorial",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:feedzai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:feedzai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:feedzai",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:feedzai",
+      "kind": "edge",
+      "id": "based_in>place:portugal",
+      "source": "s2"
+    },
+    {
+      "company": "company:feedzai",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:fido",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:fido",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:fido",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:fido",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:firefox-enterprise-mozilla",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:firefox-enterprise-mozilla",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:firefox-enterprise-mozilla",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:firefox-enterprise-mozilla",
+      "kind": "edge",
+      "id": "based_in>place:netherlands",
+      "source": "s1"
+    },
+    {
+      "company": "company:fretefy",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:fretefy",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:fretefy",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:fretefy",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:gcore",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:gcore",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:gcore",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:gcore",
+      "kind": "edge",
+      "id": "based_in>place:luxembourg",
+      "source": "s1"
+    },
+    {
+      "company": "company:genspark",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:genspark",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:genspark",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:genspark",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:getvocal-ai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:getvocal-ai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:getvocal-ai",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:getvocal-ai",
+      "kind": "edge",
+      "id": "based_in>place:france",
+      "source": "s1"
+    },
+    {
+      "company": "company:google-cloud",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:google-cloud",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:google-cloud",
+      "kind": "edge",
+      "id": "filed_under>topic:platform",
+      "source": "s1"
+    },
+    {
+      "company": "company:google-cloud",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:google-cloud",
+      "kind": "edge",
+      "id": "partner_of>event:web-summit-lisbon-2026",
+      "source": "s2"
+    },
+    {
+      "company": "company:hablla",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:hablla",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:hablla",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:hablla",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:ibm",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:ibm",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:ibm",
+      "kind": "fact",
+      "id": "f-s3",
+      "source": "s3"
+    },
+    {
+      "company": "company:ibm",
+      "kind": "edge",
+      "id": "filed_under>topic:platform",
+      "source": "s1"
+    },
+    {
+      "company": "company:ibm",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:itrecruiter",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:itrecruiter",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:itrecruiter",
+      "kind": "edge",
+      "id": "filed_under>topic:portugal-startup",
+      "source": "s1"
+    },
+    {
+      "company": "company:itrecruiter",
+      "kind": "edge",
+      "id": "based_in>place:portugal",
+      "source": "s1"
+    },
+    {
+      "company": "company:jetbrains",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:jetbrains",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:jetbrains",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s2"
+    },
+    {
+      "company": "company:jetbrains",
+      "kind": "edge",
+      "id": "based_in>place:czechia",
+      "source": "s2"
+    },
+    {
+      "company": "company:jetbrains",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:just-travel",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:just-travel",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:just-travel",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:just-travel",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:keewano",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:keewano",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:keewano",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:keewano",
+      "kind": "edge",
+      "id": "based_in>place:israel",
+      "source": "s1"
+    },
+    {
+      "company": "company:kiggu",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:kiggu",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:kiggu",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:kiggu",
+      "kind": "edge",
+      "id": "based_in>place:colombia",
+      "source": "s1"
+    },
+    {
+      "company": "company:kpmg-portugal",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:kpmg-portugal",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:kpmg-portugal",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s1"
+    },
+    {
+      "company": "company:kpmg-portugal",
+      "kind": "edge",
+      "id": "based_in>place:portugal",
+      "source": "s1"
+    },
+    {
+      "company": "company:launchdarkly",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:launchdarkly",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:launchdarkly",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s2"
+    },
+    {
+      "company": "company:launchdarkly",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:launchdarkly",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:lawvu",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:lawvu",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:lawvu",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s2"
+    },
+    {
+      "company": "company:lawvu",
+      "kind": "edge",
+      "id": "based_in>place:new-zealand",
+      "source": "s2"
+    },
+    {
+      "company": "company:lawvu",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:ledger",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:ledger",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:ledger",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:ledger",
+      "kind": "edge",
+      "id": "based_in>place:france",
+      "source": "s2"
+    },
+    {
+      "company": "company:ledger",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:legalfly",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:legalfly",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:legalfly",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s1"
+    },
+    {
+      "company": "company:legalfly",
+      "kind": "edge",
+      "id": "based_in>place:belgium",
+      "source": "s1"
+    },
+    {
+      "company": "company:legora",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:legora",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:legora",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s2"
+    },
+    {
+      "company": "company:legora",
+      "kind": "edge",
+      "id": "based_in>place:sweden",
+      "source": "s2"
+    },
+    {
+      "company": "company:legora",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:linux-foundation-aaif",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:linux-foundation-aaif",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:linux-foundation-aaif",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s2"
+    },
+    {
+      "company": "company:linux-foundation-aaif",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:linux-foundation-aaif",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:make",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:make",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:make",
+      "kind": "fact",
+      "id": "f-s3",
+      "source": "s3"
+    },
+    {
+      "company": "company:make",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s3"
+    },
+    {
+      "company": "company:make",
+      "kind": "edge",
+      "id": "based_in>place:czechia",
+      "source": "s3"
+    },
+    {
+      "company": "company:make",
+      "kind": "edge",
+      "id": "hosts>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:manageengine",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:manageengine",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:manageengine",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:manageengine",
+      "kind": "edge",
+      "id": "based_in>place:india",
+      "source": "s1"
+    },
+    {
+      "company": "company:manus-ai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:manus-ai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:manus-ai",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:manus-ai",
+      "kind": "edge",
+      "id": "based_in>place:china",
+      "source": "s1"
+    },
+    {
+      "company": "company:mastra",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:mastra",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:mastra",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:mastra",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:melious-ai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:melious-ai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:melious-ai",
+      "kind": "edge",
+      "id": "filed_under>topic:platform",
+      "source": "s1"
+    },
+    {
+      "company": "company:melious-ai",
+      "kind": "edge",
+      "id": "based_in>place:germany",
+      "source": "s1"
+    },
+    {
+      "company": "company:meo",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:meo",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:meo",
+      "kind": "edge",
+      "id": "filed_under>topic:platform",
+      "source": "s2"
+    },
+    {
+      "company": "company:meo",
+      "kind": "edge",
+      "id": "based_in>place:portugal",
+      "source": "s2"
+    },
+    {
+      "company": "company:meo",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:mobile-brain",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:mobile-brain",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:mobile-brain",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:mobile-brain",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:naporta",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:naporta",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:naporta",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:naporta",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:ncsc-uk",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:ncsc-uk",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:ncsc-uk",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "s2"
+    },
+    {
+      "company": "company:ncsc-uk",
+      "kind": "edge",
+      "id": "based_in>place:united-kingdom",
+      "source": "s2"
+    },
+    {
+      "company": "company:ncsc-uk",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:neo",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:neo",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:neo",
+      "kind": "edge",
+      "id": "filed_under>topic:investor",
+      "source": "s1"
+    },
+    {
+      "company": "company:neo",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:neo4j",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:neo4j",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:neo4j",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s2"
+    },
+    {
+      "company": "company:neo4j",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:neo4j",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:nisos",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:nisos",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:nisos",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:nisos",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:nisos",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:nordvpn",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:nordvpn",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:nordvpn",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:nordvpn",
+      "kind": "edge",
+      "id": "based_in>place:lithuania",
+      "source": "s2"
+    },
+    {
+      "company": "company:nordvpn",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:ola-doutor",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:ola-doutor",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:ola-doutor",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:ola-doutor",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:open-vsx",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:open-vsx",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:open-vsx",
+      "kind": "fact",
+      "id": "f-s3",
+      "source": "s3"
+    },
+    {
+      "company": "company:open-vsx",
+      "kind": "fact",
+      "id": "f-s5",
+      "source": "s5"
+    },
+    {
+      "company": "company:open-vsx",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s3"
+    },
+    {
+      "company": "company:open-vsx",
+      "kind": "edge",
+      "id": "based_in>place:canada",
+      "source": "s3"
+    },
+    {
+      "company": "company:open-vsx",
+      "kind": "edge",
+      "id": "hosts>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:orb",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:orb",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:orb",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:orb",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:persona",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:persona",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:persona",
+      "kind": "fact",
+      "id": "f-s3",
+      "source": "s3"
+    },
+    {
+      "company": "company:persona",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:persona",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:persona",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:persona",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s3"
+    },
+    {
+      "company": "company:pitchbook",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:pitchbook",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:pitchbook",
+      "kind": "edge",
+      "id": "filed_under>topic:investor",
+      "source": "s1"
+    },
+    {
+      "company": "company:pitchbook",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:polyai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:polyai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:polyai",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s2"
+    },
+    {
+      "company": "company:polyai",
+      "kind": "edge",
+      "id": "based_in>place:united-kingdom",
+      "source": "s2"
+    },
+    {
+      "company": "company:polyai",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:polygraf-ai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:polygraf-ai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:polygraf-ai",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:polygraf-ai",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:prelude",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:prelude",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:prelude",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:prelude",
+      "kind": "edge",
+      "id": "based_in>place:france",
+      "source": "s1"
+    },
+    {
+      "company": "company:primitive",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:primitive",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:primitive",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:primitive",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:prisma",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:prisma",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:prisma",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s2"
+    },
+    {
+      "company": "company:prisma",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:prisma",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:prohound",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:prohound",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:prohound",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:prohound",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:proofpoint",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:proofpoint",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:proofpoint",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:proofpoint",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:proofpoint",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:proton",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:proton",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:proton",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:proton",
+      "kind": "edge",
+      "id": "based_in>place:france",
+      "source": "s2"
+    },
+    {
+      "company": "company:proton",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:qase",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:qase",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:qase",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:qase",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:qualcomm",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:qualcomm",
+      "kind": "edge",
+      "id": "filed_under>topic:platform",
+      "source": "s1"
+    },
+    {
+      "company": "company:qualcomm",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:qualcomm",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:rapidoc",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:rapidoc",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:rapidoc",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:rapidoc",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:raras-health",
+      "kind": "fact",
+      "id": "f-r1",
+      "source": "r1"
+    },
+    {
+      "company": "company:raras-health",
+      "kind": "fact",
+      "id": "f-ai",
+      "source": "c2"
+    },
+    {
+      "company": "company:raras-health",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "r1"
+    },
+    {
+      "company": "company:raras-health",
+      "kind": "edge",
+      "id": "based_in>place:brazil",
+      "source": "r1"
+    },
+    {
+      "company": "company:replit",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:replit",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:replit",
+      "kind": "fact",
+      "id": "f-s3",
+      "source": "s3"
+    },
+    {
+      "company": "company:replit",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:replit",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:risiq",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:risiq",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:risiq",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s1"
+    },
+    {
+      "company": "company:risiq",
+      "kind": "edge",
+      "id": "based_in>place:germany",
+      "source": "s1"
+    },
+    {
+      "company": "company:roost",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:roost",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:roost",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:roost",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:roost",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:runpod",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:runpod",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:runpod",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:runpod",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:rws",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:rws",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:rws",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s2"
+    },
+    {
+      "company": "company:rws",
+      "kind": "edge",
+      "id": "based_in>place:united-kingdom",
+      "source": "s2"
+    },
+    {
+      "company": "company:rws",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:sageox",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:sageox",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:sageox",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s2"
+    },
+    {
+      "company": "company:sageox",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:sageox",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:scrut-automation",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:scrut-automation",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:scrut-automation",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s2"
+    },
+    {
+      "company": "company:scrut-automation",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:scrut-automation",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:sensay",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:sensay",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:sensay",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:sensay",
+      "kind": "edge",
+      "id": "based_in>place:singapore",
+      "source": "s1"
+    },
+    {
+      "company": "company:shakers",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:shakers",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:shakers",
+      "kind": "edge",
+      "id": "filed_under>topic:other",
+      "source": "s1"
+    },
+    {
+      "company": "company:shakers",
+      "kind": "edge",
+      "id": "based_in>place:spain",
+      "source": "s1"
+    },
+    {
+      "company": "company:sheerme",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:sheerme",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:sheerme",
+      "kind": "edge",
+      "id": "filed_under>topic:portugal-startup",
+      "source": "s1"
+    },
+    {
+      "company": "company:sheerme",
+      "kind": "edge",
+      "id": "based_in>place:portugal",
+      "source": "s1"
+    },
+    {
+      "company": "company:spacecomputer",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:spacecomputer",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:spacecomputer",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s1"
+    },
+    {
+      "company": "company:spacecomputer",
+      "kind": "edge",
+      "id": "based_in>place:singapore",
+      "source": "s1"
+    },
+    {
+      "company": "company:sphere",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:sphere",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:sphere",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s1"
+    },
+    {
+      "company": "company:sphere",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:strawberry",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:strawberry",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:strawberry",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:strawberry",
+      "kind": "edge",
+      "id": "based_in>place:sweden",
+      "source": "s1"
+    },
+    {
+      "company": "company:sumsub",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:sumsub",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:sumsub",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:sumsub",
+      "kind": "edge",
+      "id": "based_in>place:united-kingdom",
+      "source": "s2"
+    },
+    {
+      "company": "company:sumsub",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:temporal",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:temporal",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:temporal",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:testmu-ai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:testmu-ai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:testmu-ai",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s2"
+    },
+    {
+      "company": "company:testmu-ai",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:testmu-ai",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:the-hacking-games",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:the-hacking-games",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:the-hacking-games",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:the-hacking-games",
+      "kind": "edge",
+      "id": "based_in>place:united-kingdom",
+      "source": "s2"
+    },
+    {
+      "company": "company:the-hacking-games",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:topsec-cloud-solutions",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:topsec-cloud-solutions",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:topsec-cloud-solutions",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:topsec-cloud-solutions",
+      "kind": "edge",
+      "id": "based_in>place:ireland",
+      "source": "s2"
+    },
+    {
+      "company": "company:topsec-cloud-solutions",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:trent-ai",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:trent-ai",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:trent-ai",
+      "kind": "edge",
+      "id": "filed_under>topic:security",
+      "source": "s2"
+    },
+    {
+      "company": "company:trent-ai",
+      "kind": "edge",
+      "id": "based_in>place:united-kingdom",
+      "source": "s2"
+    },
+    {
+      "company": "company:trent-ai",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:trustscale",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:trustscale",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:trustscale",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s2"
+    },
+    {
+      "company": "company:trustscale",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s2"
+    },
+    {
+      "company": "company:trustscale",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:twilio",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:twilio",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:twilio",
+      "kind": "edge",
+      "id": "filed_under>topic:devtools",
+      "source": "s1"
+    },
+    {
+      "company": "company:twilio",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    },
+    {
+      "company": "company:vtex",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:vtex",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:vtex",
+      "kind": "edge",
+      "id": "filed_under>topic:portugal-startup",
+      "source": "s1"
+    },
+    {
+      "company": "company:vtex",
+      "kind": "edge",
+      "id": "based_in>place:portugal",
+      "source": "s1"
+    },
+    {
+      "company": "company:whitespace",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:whitespace",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:whitespace",
+      "kind": "edge",
+      "id": "filed_under>topic:grc",
+      "source": "s2"
+    },
+    {
+      "company": "company:whitespace",
+      "kind": "edge",
+      "id": "based_in>place:united-kingdom",
+      "source": "s2"
+    },
+    {
+      "company": "company:whitespace",
+      "kind": "edge",
+      "id": "appears_in>undefined",
+      "source": "s1"
+    },
+    {
+      "company": "company:you-com",
+      "kind": "fact",
+      "id": "f-s1",
+      "source": "s1"
+    },
+    {
+      "company": "company:you-com",
+      "kind": "fact",
+      "id": "f-s2",
+      "source": "s2"
+    },
+    {
+      "company": "company:you-com",
+      "kind": "edge",
+      "id": "filed_under>topic:ai-agents",
+      "source": "s1"
+    },
+    {
+      "company": "company:you-com",
+      "kind": "edge",
+      "id": "based_in>place:united-states",
+      "source": "s1"
+    }
+  ],
+  "people": [
+    {
+      "person": "person:abhinav-gupta"
+    },
+    {
+      "person": "person:abigail-slater"
+    },
+    {
+      "person": "person:adam-kobeissi"
+    },
+    {
+      "person": "person:adam-leventhal"
+    },
+    {
+      "person": "person:adam-schwartz"
+    },
+    {
+      "person": "person:alan-shen"
+    },
+    {
+      "person": "person:albert-wenger"
+    },
+    {
+      "person": "person:alexandra-geese"
+    },
+    {
+      "person": "person:alexandre-neves"
+    },
+    {
+      "person": "person:alfonso-poncho-sandoval-rosas"
+    },
+    {
+      "person": "person:ali-partovi"
+    },
+    {
+      "person": "person:alvin-w-graylin"
+    },
+    {
+      "person": "person:amanda-aronczyk"
+    },
+    {
+      "person": "person:amilcar-queiroz"
+    },
+    {
+      "person": "person:amit-katwala"
+    },
+    {
+      "person": "person:amy-nordrum"
+    },
+    {
+      "person": "person:amy-o-brien"
+    },
+    {
+      "person": "person:andreas-blattmann"
+    },
+    {
+      "person": "person:andrew-sever"
+    },
+    {
+      "person": "person:andrew-sollinger"
+    },
+    {
+      "person": "person:ang-li"
+    },
+    {
+      "person": "person:ania-lichtarowicz"
+    },
+    {
+      "person": "person:anne-bertucio-de-hollembeak"
+    },
+    {
+      "person": "person:anni-chen"
+    },
+    {
+      "person": "person:anthony-grieco"
+    },
+    {
+      "person": "person:anton-osika"
+    },
+    {
+      "person": "person:arba-kokalari"
+    },
+    {
+      "person": "person:arjun-kharpal"
+    },
+    {
+      "person": "person:arvind-jain"
+    },
+    {
+      "person": "person:astrid-maier"
+    },
+    {
+      "person": "person:babak-hodjat"
+    },
+    {
+      "person": "person:bailey-pumfleet"
+    },
+    {
+      "person": "person:balazs-orban"
+    },
+    {
+      "person": "person:basma-albadi-aldhaheri"
+    },
+    {
+      "person": "person:benjamin-faes"
+    },
+    {
+      "person": "person:benjamin-gleason"
+    },
+    {
+      "person": "person:bernard-wolff"
+    },
+    {
+      "person": "person:bernardo-correia"
+    },
+    {
+      "person": "person:betsy-reed"
+    },
+    {
+      "person": "person:bidhan-roy"
+    },
+    {
+      "person": "person:bill-gross"
+    },
+    {
+      "person": "person:blake-montgomery"
+    },
+    {
+      "person": "person:brooke-hopkins"
+    },
+    {
+      "person": "person:burke-stephenson"
+    },
+    {
+      "person": "person:calum-chace"
+    },
+    {
+      "person": "person:carlos-moedas"
+    },
+    {
+      "person": "person:carmem-domingues"
+    },
+    {
+      "person": "person:carolin-wais"
+    },
+    {
+      "person": "person:casey-lau"
+    },
+    {
+      "person": "person:charles-pellegrin"
+    },
+    {
+      "person": "person:charlie-wells"
+    },
+    {
+      "person": "person:chon-tang"
+    },
+    {
+      "person": "person:christos-rizos"
+    },
+    {
+      "person": "person:chung-yan-chow"
+    },
+    {
+      "person": "person:ciara-haley"
+    },
+    {
+      "person": "person:clara-jacintho"
+    },
+    {
+      "person": "person:claudio-furtado"
+    },
+    {
+      "person": "person:conor-freeman"
+    },
+    {
+      "person": "person:cristina-ferreira"
+    },
+    {
+      "person": "person:cristina-nascimento"
+    },
+    {
+      "person": "person:dahai-li"
+    },
+    {
+      "person": "person:dan-neely"
+    },
+    {
+      "person": "person:daniela-braga"
+    },
+    {
+      "person": "person:david-rhodes"
+    },
+    {
+      "person": "person:dayana-sarkisova"
+    },
+    {
+      "person": "person:deli-zhao"
+    },
+    {
+      "person": "person:des-hogan"
+    },
+    {
+      "person": "person:diana-layfield"
+    },
+    {
+      "person": "person:diogo-guerra"
+    },
+    {
+      "person": "person:domininkas-virbickas"
+    },
+    {
+      "person": "person:don-mcguire"
+    },
+    {
+      "person": "person:dr-durga-malladi"
+    },
+    {
+      "person": "person:duncan-crabtree-ireland"
+    },
+    {
+      "person": "person:dylan-barrell"
+    },
+    {
+      "person": "person:edith-harbaugh"
+    },
+    {
+      "person": "person:eleanor-pringle"
+    },
+    {
+      "person": "person:elena-poughia"
+    },
+    {
+      "person": "person:erika-whitmore"
+    },
+    {
+      "person": "person:ethan-byrd"
+    },
+    {
+      "person": "person:fei-xu"
+    },
+    {
+      "person": "person:fernando-alexandre"
+    },
+    {
+      "person": "person:filipa-barreto"
+    },
+    {
+      "person": "person:galbot-g1"
+    },
+    {
+      "person": "person:georg-zoeller"
+    },
+    {
+      "person": "person:george-hayes"
+    },
+    {
+      "person": "person:george-kurtz"
+    },
+    {
+      "person": "person:georja-calvin-smith"
+    },
+    {
+      "person": "person:gerasim-hovhannisyan"
+    },
+    {
+      "person": "person:giacomo-ficari"
+    },
+    {
+      "person": "person:gian-m-volpicelli"
+    },
+    {
+      "person": "person:gigi-danziger"
+    },
+    {
+      "person": "person:gil-azevedo"
+    },
+    {
+      "person": "person:giovanni-alberto-falcione"
+    },
+    {
+      "person": "person:goncalo-matias"
+    },
+    {
+      "person": "person:gonzalo-vila"
+    },
+    {
+      "person": "person:grzegorz-lipke"
+    },
+    {
+      "person": "person:haakon-rlmann"
+    },
+    {
+      "person": "person:hanh-nguyen"
+    },
+    {
+      "person": "person:harry-mccracken"
+    },
+    {
+      "person": "person:haz-hubble"
+    },
+    {
+      "person": "person:henna-virkkunen"
+    },
+    {
+      "person": "person:henry-farrell"
+    },
+    {
+      "person": "person:ian-rogers"
+    },
+    {
+      "person": "person:idalia-friedson"
+    },
+    {
+      "person": "person:igor-ryabenkiy"
+    },
+    {
+      "person": "person:irene-long"
+    },
+    {
+      "person": "person:isobel-sita-lumsden"
+    },
+    {
+      "person": "person:ivan-mehta"
+    },
+    {
+      "person": "person:j-ofori-agboka"
+    },
+    {
+      "person": "person:jacob-lauritzen"
+    },
+    {
+      "person": "person:jacob-sever"
+    },
+    {
+      "person": "person:james-ball"
+    },
+    {
+      "person": "person:james-galbraith"
+    },
+    {
+      "person": "person:james-vowles"
+    },
+    {
+      "person": "person:jamie-ayala"
+    },
+    {
+      "person": "person:jan-lipavsky"
+    },
+    {
+      "person": "person:jeff-wilser"
+    },
+    {
+      "person": "person:jen-wong"
+    },
+    {
+      "person": "person:jeremy-fraenkel"
+    },
+    {
+      "person": "person:jeremy-goldman"
+    },
+    {
+      "person": "person:jianhua-li"
+    },
+    {
+      "person": "person:jill-kramer"
+    },
+    {
+      "person": "person:jim-edwards"
+    },
+    {
+      "person": "person:jimmy-douglas"
+    },
+    {
+      "person": "person:joao-leite"
+    },
+    {
+      "person": "person:joao-miguel-mesquita"
+    },
+    {
+      "person": "person:joao-moutao"
+    },
+    {
+      "person": "person:joao-nuno-ferreira"
+    },
+    {
+      "person": "person:joaquim-miranda-sarmento"
+    },
+    {
+      "person": "person:joe-mcelroy"
+    },
+    {
+      "person": "person:john-koetsier"
+    },
+    {
+      "person": "person:john-madelin"
+    },
+    {
+      "person": "person:jon-von-tetzchner"
+    },
+    {
+      "person": "person:jonathan-adashek"
+    },
+    {
+      "person": "person:jordi-romero"
+    },
+    {
+      "person": "person:jose-fonseca"
+    },
+    {
+      "person": "person:jose-pedro-nascimento"
+    },
+    {
+      "person": "person:joshua-wohle"
+    },
+    {
+      "person": "person:juan-mata"
+    },
+    {
+      "person": "person:julie-pace"
+    },
+    {
+      "person": "person:jurgen-griesbeck"
+    },
+    {
+      "person": "person:kamil-sindi"
+    },
+    {
+      "person": "person:kate-knibbs"
+    },
+    {
+      "person": "person:katie-collins"
+    },
+    {
+      "person": "person:kc-sullivan"
+    },
+    {
+      "person": "person:kevin-kiley"
+    },
+    {
+      "person": "person:kirill-skrygan"
+    },
+    {
+      "person": "person:kirsten-korosec"
+    },
+    {
+      "person": "person:kit-eaton"
+    },
+    {
+      "person": "person:larissa-schneider"
+    },
+    {
+      "person": "person:larry-aschebrook"
+    },
+    {
+      "person": "person:larry-li"
+    },
+    {
+      "person": "person:laura-greenhalgh"
+    },
+    {
+      "person": "person:laureen-meroueh"
+    },
+    {
+      "person": "person:lawrence-snapp"
+    },
+    {
+      "person": "person:ling-ge"
+    },
+    {
+      "person": "person:lisa-eadicicco"
+    },
+    {
+      "person": "person:louis-dreyfus"
+    },
+    {
+      "person": "person:luc-chenier"
+    },
+    {
+      "person": "person:lucinda-shen"
+    },
+    {
+      "person": "person:luiz-alberto-amorim"
+    },
+    {
+      "person": "person:mafalda-freire"
+    },
+    {
+      "person": "person:mahi-de-silva"
+    },
+    {
+      "person": "person:maike-kauffmann"
+    },
+    {
+      "person": "person:maju-kuruvilla"
+    },
+    {
+      "person": "person:marc-lacey"
+    },
+    {
+      "person": "person:margarida-david"
+    },
+    {
+      "person": "person:marijus-briedis"
+    },
+    {
+      "person": "person:marina-khaustova"
+    },
+    {
+      "person": "person:marta-dhanis"
+    },
+    {
+      "person": "person:mary-robinson"
+    },
+    {
+      "person": "person:mathias-stamm"
+    },
+    {
+      "person": "person:matt-murray"
+    },
+    {
+      "person": "person:matthew-prince"
+    },
+    {
+      "person": "person:mattias-ljungman"
+    },
+    {
+      "person": "person:maty-bohacek"
+    },
+    {
+      "person": "person:mauricio-sion"
+    },
+    {
+      "person": "person:max-schireson"
+    },
+    {
+      "person": "person:mazin-gilbert"
+    },
+    {
+      "person": "person:mehul-srivastava"
+    },
+    {
+      "person": "person:michael-du"
+    },
+    {
+      "person": "person:michael-howard"
+    },
+    {
+      "person": "person:michael-mcnamara"
+    },
+    {
+      "person": "person:michael-o-flaherty"
+    },
+    {
+      "person": "person:michele-catasta"
+    },
+    {
+      "person": "person:miguel-d-aguiar"
+    },
+    {
+      "person": "person:mikayel-vardanyan"
+    },
+    {
+      "person": "person:mike-benz"
+    },
+    {
+      "person": "person:mike-cannon-brookes"
+    },
+    {
+      "person": "person:mike-nguyen"
+    },
+    {
+      "person": "person:milan-vizner"
+    },
+    {
+      "person": "person:milkana-brace"
+    },
+    {
+      "person": "person:miroslav-wlachovsky"
+    },
+    {
+      "person": "person:mohammad-asad-khan"
+    },
+    {
+      "person": "person:nathan-j-robinson"
+    },
+    {
+      "person": "person:neha-mittal"
+    },
+    {
+      "person": "person:neil-lawrence"
+    },
+    {
+      "person": "person:niall-firth"
+    },
+    {
+      "person": "person:niall-mackey"
+    },
+    {
+      "person": "person:nicholas-johnston"
+    },
+    {
+      "person": "person:nicholas-muy"
+    },
+    {
+      "person": "person:nick-thompson"
+    },
+    {
+      "person": "person:nick-yu"
+    },
+    {
+      "person": "person:nicky-crosby"
+    },
+    {
+      "person": "person:nikola-mrksic"
+    },
+    {
+      "person": "person:ollie-whitehouse"
+    },
+    {
+      "person": "person:otto-costa-miranda"
+    },
+    {
+      "person": "person:paddy-cosgrave"
+    },
+    {
+      "person": "person:pascale-davies"
+    },
+    {
+      "person": "person:paul-bascobert"
+    },
+    {
+      "person": "person:paul-benigeri"
+    },
+    {
+      "person": "person:paul-jenkinson"
+    },
+    {
+      "person": "person:paul-santarelli"
+    },
+    {
+      "person": "person:paul-tighe"
+    },
+    {
+      "person": "person:pedro-zanetello"
+    },
+    {
+      "person": "person:peter-escher"
+    },
+    {
+      "person": "person:peter-koerte"
+    },
+    {
+      "person": "person:peter-ludwig"
+    },
+    {
+      "person": "person:philip-rathle"
+    },
+    {
+      "person": "person:philippe-botteri"
+    },
+    {
+      "person": "person:rainer-markle"
+    },
+    {
+      "person": "person:raphael-auphan"
+    },
+    {
+      "person": "person:rebecca-ruiz"
+    },
+    {
+      "person": "person:rene-haas"
+    },
+    {
+      "person": "person:renee-diresta"
+    },
+    {
+      "person": "person:renu-navale"
+    },
+    {
+      "person": "person:reya-el-salahi"
+    },
+    {
+      "person": "person:richard-socher"
+    },
+    {
+      "person": "person:rick-song"
+    },
+    {
+      "person": "person:rijk-van-zanten"
+    },
+    {
+      "person": "person:rob-pegoraro"
+    },
+    {
+      "person": "person:robert-booth"
+    },
+    {
+      "person": "person:rocio-wu"
+    },
+    {
+      "person": "person:rohit-sharma"
+    },
+    {
+      "person": "person:ronnie-sheth"
+    },
+    {
+      "person": "person:rory-blundell"
+    },
+    {
+      "person": "person:ryan-lasalle"
+    },
+    {
+      "person": "person:rytis-rudzinskas"
+    },
+    {
+      "person": "person:sahil-jain"
+    },
+    {
+      "person": "person:sam-kidd"
+    },
+    {
+      "person": "person:sam-liang"
+    },
+    {
+      "person": "person:sam-pasupalak"
+    },
+    {
+      "person": "person:sam-stephenson"
+    },
+    {
+      "person": "person:samudra-gupta"
+    },
+    {
+      "person": "person:sara-fischer"
+    },
+    {
+      "person": "person:sarah-kunst"
+    },
+    {
+      "person": "person:sarakshi-rai"
+    },
+    {
+      "person": "person:satya-nitta"
+    },
+    {
+      "person": "person:shrikesh-laxmidas"
+    },
+    {
+      "person": "person:simon-ince"
+    },
+    {
+      "person": "person:sinead-o-sullivan"
+    },
+    {
+      "person": "person:sren-bramer-schmidt"
+    },
+    {
+      "person": "person:stanislav-fort"
+    },
+    {
+      "person": "person:stanislav-vishnevskiy"
+    },
+    {
+      "person": "person:stavros-gadinis"
+    },
+    {
+      "person": "person:stephan-morais"
+    },
+    {
+      "person": "person:stephanie-liu"
+    },
+    {
+      "person": "person:steve-clemons"
+    },
+    {
+      "person": "person:steve-cortes"
+    },
+    {
+      "person": "person:steve-vassallo"
+    },
+    {
+      "person": "person:stewart-clarke"
+    },
+    {
+      "person": "person:sumit-dhawan"
+    },
+    {
+      "person": "person:tao-zhang"
+    },
+    {
+      "person": "person:tariq-al-tayer"
+    },
+    {
+      "person": "person:tariq-krim"
+    },
+    {
+      "person": "person:teresa-fiuza"
+    },
+    {
+      "person": "person:terry-martin"
+    },
+    {
+      "person": "person:thibaut-courtois"
+    },
+    {
+      "person": "person:thomas-froment"
+    },
+    {
+      "person": "person:timothy-young"
+    },
+    {
+      "person": "person:tom-stackpole"
+    },
+    {
+      "person": "person:tomas-klvana"
+    },
+    {
+      "person": "person:ubtech-u1-pro"
+    },
+    {
+      "person": "person:vahan-agopyan"
+    },
+    {
+      "person": "person:valery-mezencev"
+    },
+    {
+      "person": "person:victor-gao"
+    },
+    {
+      "person": "person:will-bryk"
+    },
+    {
+      "person": "person:william-shi"
+    },
+    {
+      "person": "person:wilton-itaiguara-goncalves-mota"
+    },
+    {
+      "person": "person:xavier-green"
+    },
+    {
+      "person": "person:xiaoguang-chen"
+    },
+    {
+      "person": "person:yannis-roussos"
+    },
+    {
+      "person": "person:yuli-zhao"
+    },
+    {
+      "person": "person:zach-coelius"
+    },
+    {
+      "person": "person:zeki-turedi"
+    }
+  ],
+  "person_listings": [
+    {
+      "person": "person:abhinav-gupta",
+      "event": "event:when-ai-leaves-the-screen"
+    },
+    {
+      "person": "person:abigail-slater",
+      "event": "event:regulating-big-tech"
+    },
+    {
+      "person": "person:abigail-slater",
+      "event": "event:guardrails-for-doomsday-can-ai-be-regulated-press-conference"
+    },
+    {
+      "person": "person:adam-kobeissi",
+      "event": "event:the-next-financial-crisis-are-we-ready-for-what-s-coming"
+    },
+    {
+      "person": "person:adam-leventhal",
+      "event": "event:building-the-operating-system-for-modern-sport"
+    },
+    {
+      "person": "person:adam-schwartz",
+      "event": "event:breakout-startups-6059c850"
+    },
+    {
+      "person": "person:alan-shen",
+      "event": "event:the-open-source-advantage"
+    },
+    {
+      "person": "person:albert-wenger",
+      "event": "event:building-a-star-trek-vision"
+    },
+    {
+      "person": "person:alexandra-geese",
+      "event": "event:free-or-controlled-internet-the-great-dsa-debate"
+    },
+    {
+      "person": "person:alexandre-neves",
+      "event": "event:outsmarting-ai-defence-at-machine-speed"
+    },
+    {
+      "person": "person:alfonso-poncho-sandoval-rosas",
+      "event": "event:democratising-ai-platform-engineering-with-open-source"
+    },
+    {
+      "person": "person:ali-partovi",
+      "event": "event:ai-doom-or-boom"
+    },
+    {
+      "person": "person:ali-partovi",
+      "event": "event:guardrails-for-doomsday-can-ai-be-regulated-press-conference"
+    },
+    {
+      "person": "person:ali-partovi",
+      "event": null
+    },
+    {
+      "person": "person:alvin-w-graylin",
+      "event": "event:open-vs-closed-the-debate-defining-the-ai-era"
+    },
+    {
+      "person": "person:amanda-aronczyk",
+      "event": "event:the-next-financial-crisis-are-we-ready-for-what-s-coming"
+    },
+    {
+      "person": "person:amilcar-queiroz",
+      "event": "event:press-conference-web-summit-spotlight-heads-to-paraiba-as"
+    },
+    {
+      "person": "person:amit-katwala",
+      "event": "event:who-wins-in-the-age-of-agentic-ai"
+    },
+    {
+      "person": "person:amit-katwala",
+      "event": "event:open-vs-closed-the-debate-defining-the-ai-era"
+    },
+    {
+      "person": "person:amy-nordrum",
+      "event": "event:ai-doom-or-boom"
+    },
+    {
+      "person": "person:amy-o-brien",
+      "event": "event:the-new-battle-for-brand-influence"
+    },
+    {
+      "person": "person:andreas-blattmann",
+      "event": "event:teaching-ai-to-see-the-world"
+    },
+    {
+      "person": "person:andrew-sever",
+      "event": "event:an-ai-identity-crisis"
+    },
+    {
+      "person": "person:andrew-sever",
+      "event": null
+    },
+    {
+      "person": "person:andrew-sollinger",
+      "event": "event:regulating-big-tech"
+    },
+    {
+      "person": "person:andrew-sollinger",
+      "event": "event:the-last-days-of-the-rules-based-order"
+    },
+    {
+      "person": "person:ang-li",
+      "event": "event:breakout-startups-6059c850"
+    },
+    {
+      "person": "person:ania-lichtarowicz",
+      "event": "event:coaching-an-ai-agent-like-human-talent"
+    },
+    {
+      "person": "person:anne-bertucio-de-hollembeak",
+      "event": "event:the-attackers-are-open-source-the-defences-aren-t"
+    },
+    {
+      "person": "person:anne-bertucio-de-hollembeak",
+      "event": null
+    },
+    {
+      "person": "person:anni-chen",
+      "event": "event:how-to-break-your-ai-phone-agent-before-your-customers"
+    },
+    {
+      "person": "person:anthony-grieco",
+      "event": "event:it-takes-two-to-trust-operationalizing-public-private"
+    },
+    {
+      "person": "person:anton-osika",
+      "event": "event:the-future-of-enterprise-software-has-no-middleman"
+    },
+    {
+      "person": "person:anton-osika",
+      "event": "event:the-future-of-ai"
+    },
+    {
+      "person": "person:arba-kokalari",
+      "event": "event:free-or-controlled-internet-the-great-dsa-debate"
+    },
+    {
+      "person": "person:arjun-kharpal",
+      "event": "event:navigating-today-s-ai-landscape"
+    },
+    {
+      "person": "person:arjun-kharpal",
+      "event": "event:the-future-of-ai"
+    },
+    {
+      "person": "person:arvind-jain",
+      "event": "event:the-ai-paradox-smarter-models-disappointing-results"
+    },
+    {
+      "person": "person:astrid-maier",
+      "event": "event:surviving-the-ai-shift-media-s-new-reality"
+    },
+    {
+      "person": "person:babak-hodjat",
+      "event": "event:be-part-of-history-help-build-the-first-pages-of-the"
+    },
+    {
+      "person": "person:babak-hodjat",
+      "event": null
+    },
+    {
+      "person": "person:bailey-pumfleet",
+      "event": "event:open-or-closed-ai-models-which-types-of-future-do-they"
+    },
+    {
+      "person": "person:balazs-orban",
+      "event": "event:free-or-controlled-internet-the-great-dsa-debate"
+    },
+    {
+      "person": "person:basma-albadi-aldhaheri",
+      "event": "event:press-conference-unicorn-factory-lisboa-hub-71-instituto"
+    },
+    {
+      "person": "person:benjamin-faes",
+      "event": "event:press-conference-rws-launches-the-world-s-first-culturally"
+    },
+    {
+      "person": "person:benjamin-faes",
+      "event": "event:your-ai-agent-just-got-a-passport"
+    },
+    {
+      "person": "person:benjamin-faes",
+      "event": null
+    },
+    {
+      "person": "person:benjamin-gleason",
+      "event": "event:breakout-startups-1b2f3f6c"
+    },
+    {
+      "person": "person:bernard-wolff",
+      "event": "event:building-a-secure-device-foundation-for-ai-hosted-by-lenovo"
+    },
+    {
+      "person": "person:bernardo-correia",
+      "event": "event:the-next-digital-frontier"
+    },
+    {
+      "person": "person:betsy-reed",
+      "event": "event:what-comes-after-the-blue-wave"
+    },
+    {
+      "person": "person:betsy-reed",
+      "event": "event:reporting-at-the-speed-of-news"
+    },
+    {
+      "person": "person:bidhan-roy",
+      "event": "event:breakout-startups-1b2f3f6c"
+    },
+    {
+      "person": "person:bill-gross",
+      "event": "event:reclaiming-human-agency-in-the-machine-era"
+    },
+    {
+      "person": "person:blake-montgomery",
+      "event": "event:reclaiming-human-agency-in-the-machine-era"
+    },
+    {
+      "person": "person:brooke-hopkins",
+      "event": "event:how-to-break-your-ai-phone-agent-before-your-customers"
+    },
+    {
+      "person": "person:burke-stephenson",
+      "event": "event:building-a-secure-device-foundation-for-ai-hosted-by-lenovo"
+    },
+    {
+      "person": "person:calum-chace",
+      "event": "event:the-biological-bottleneck"
+    },
+    {
+      "person": "person:calum-chace",
+      "event": null
+    },
+    {
+      "person": "person:carlos-moedas",
+      "event": "event:new-unicorn-in-lisbon-discord-announces-expansion-press"
+    },
+    {
+      "person": "person:carlos-moedas",
+      "event": "event:welcome-to-web-summit-2026"
+    },
+    {
+      "person": "person:carmem-domingues",
+      "event": "event:open-vs-closed-the-debate-defining-the-ai-era"
+    },
+    {
+      "person": "person:carmem-domingues",
+      "event": "event:the-biological-bottleneck"
+    },
+    {
+      "person": "person:carolin-wais",
+      "event": "event:pitch-semi-final"
+    },
+    {
+      "person": "person:casey-lau",
+      "event": "event:opening-remarks-405fbb59"
+    },
+    {
+      "person": "person:casey-lau",
+      "event": "event:opening-remarks-7332868f"
+    },
+    {
+      "person": "person:casey-lau",
+      "event": "event:the-age-of-agents"
+    },
+    {
+      "person": "person:charles-pellegrin",
+      "event": "event:do-we-need-a-un-ai-treaty"
+    },
+    {
+      "person": "person:charlie-wells",
+      "event": "event:next-generation-banking-with-global-ambition"
+    },
+    {
+      "person": "person:chon-tang",
+      "event": "event:open-vs-closed-the-debate-defining-the-ai-era"
+    },
+    {
+      "person": "person:christos-rizos",
+      "event": "event:ai-sovereignty-data-control-governance-and-predictable-ai"
+    },
+    {
+      "person": "person:christos-rizos",
+      "event": null
+    },
+    {
+      "person": "person:chung-yan-chow",
+      "event": "event:ai-your-new-news-editor"
+    },
+    {
+      "person": "person:ciara-haley",
+      "event": "event:opening-remarks-d52f1575"
+    },
+    {
+      "person": "person:clara-jacintho",
+      "event": "event:monitoring-in-the-age-of-genai-beyond-golden-signals-hosted"
+    },
+    {
+      "person": "person:claudio-furtado",
+      "event": "event:press-conference-web-summit-spotlight-heads-to-paraiba-as"
+    },
+    {
+      "person": "person:conor-freeman",
+      "event": "event:the-real-threat-isn-t-a-nation-state-it-s-a-teenager"
+    },
+    {
+      "person": "person:cristina-ferreira",
+      "event": "event:press-conference-rewriting-the-rules-of-female-longevity"
+    },
+    {
+      "person": "person:cristina-ferreira",
+      "event": "event:rewriting-the-rules-of-female-longevity"
+    },
+    {
+      "person": "person:cristina-nascimento",
+      "event": "event:beyond-the-front-door-identity-access-and-user-trust"
+    },
+    {
+      "person": "person:dahai-li",
+      "event": "event:the-open-source-advantage"
+    },
+    {
+      "person": "person:dan-neely",
+      "event": "event:hollywood-s-identity-crisis"
+    },
+    {
+      "person": "person:daniela-braga",
+      "event": "event:rewriting-the-rules-of-female-longevity"
+    },
+    {
+      "person": "person:daniela-braga",
+      "event": "event:press-conference-with-defined-ai-founder-daniela-braga"
+    },
+    {
+      "person": "person:daniela-braga",
+      "event": "event:give-me-a-brake-coding-without-crashing"
+    },
+    {
+      "person": "person:daniela-braga",
+      "event": null
+    },
+    {
+      "person": "person:david-rhodes",
+      "event": "event:reporting-at-the-speed-of-news"
+    },
+    {
+      "person": "person:dayana-sarkisova",
+      "event": "event:the-best-offense-is-a-machine-speed-defence"
+    },
+    {
+      "person": "person:dayana-sarkisova",
+      "event": "event:the-ai-agent-economy"
+    },
+    {
+      "person": "person:deli-zhao",
+      "event": "event:press-conference-with-xpeng-aridge-founder-and-president"
+    },
+    {
+      "person": "person:deli-zhao",
+      "event": "event:taking-the-flying-car-from-sci-fi-to-reality"
+    },
+    {
+      "person": "person:deli-zhao",
+      "event": "event:welcome-to-tomorrow"
+    },
+    {
+      "person": "person:des-hogan",
+      "event": "event:regulating-big-tech"
+    },
+    {
+      "person": "person:des-hogan",
+      "event": null
+    },
+    {
+      "person": "person:diana-layfield",
+      "event": "event:next-generation-banking-with-global-ambition"
+    },
+    {
+      "person": "person:diogo-guerra",
+      "event": "event:who-let-the-agent-in"
+    },
+    {
+      "person": "person:diogo-guerra",
+      "event": null
+    },
+    {
+      "person": "person:domininkas-virbickas",
+      "event": "event:press-conference-with-nordvpn-cpso-domininkas-virbickas"
+    },
+    {
+      "person": "person:domininkas-virbickas",
+      "event": "event:zombie-data-how-your-data-comes-back-to-haunt-you"
+    },
+    {
+      "person": "person:don-mcguire",
+      "event": "event:the-new-battle-for-brand-influence"
+    },
+    {
+      "person": "person:dr-durga-malladi",
+      "event": "event:press-conference-with-qualcomm-svp-general-manager-durga"
+    },
+    {
+      "person": "person:dr-durga-malladi",
+      "event": "event:the-ai-agent-economy"
+    },
+    {
+      "person": "person:duncan-crabtree-ireland",
+      "event": "event:hollywood-s-identity-crisis"
+    },
+    {
+      "person": "person:dylan-barrell",
+      "event": "event:can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque"
+    },
+    {
+      "person": "person:dylan-barrell",
+      "event": null
+    },
+    {
+      "person": "person:edith-harbaugh",
+      "event": "event:pricing-saas-when-users-are-agents"
+    },
+    {
+      "person": "person:edith-harbaugh",
+      "event": "event:give-me-a-brake-coding-without-crashing"
+    },
+    {
+      "person": "person:edith-harbaugh",
+      "event": "event:who-holds-the-kill-switch"
+    },
+    {
+      "person": "person:edith-harbaugh",
+      "event": null
+    },
+    {
+      "person": "person:eleanor-pringle",
+      "event": "event:the-next-digital-frontier"
+    },
+    {
+      "person": "person:elena-poughia",
+      "event": "event:your-ai-agent-just-got-a-passport"
+    },
+    {
+      "person": "person:erika-whitmore",
+      "event": "event:pitch-semi-final"
+    },
+    {
+      "person": "person:ethan-byrd",
+      "event": "event:connecting-the-bots-building-secure-infrastructure-for"
+    },
+    {
+      "person": "person:fei-xu",
+      "event": "event:build-for-people-a-human-x-car-x-home-approach"
+    },
+    {
+      "person": "person:fernando-alexandre",
+      "event": "event:campus-tejo-the-science-and-technology-ecosystem-of"
+    },
+    {
+      "person": "person:filipa-barreto",
+      "event": "event:pitch-semi-final"
+    },
+    {
+      "person": "person:galbot-g1",
+      "event": "event:welcome-to-tomorrow"
+    },
+    {
+      "person": "person:georg-zoeller",
+      "event": "event:beyond-the-ai-agent-hype"
+    },
+    {
+      "person": "person:georg-zoeller",
+      "event": null
+    },
+    {
+      "person": "person:george-hayes",
+      "event": "event:pitch-final"
+    },
+    {
+      "person": "person:george-kurtz",
+      "event": "event:the-best-offense-is-a-machine-speed-defence"
+    },
+    {
+      "person": "person:george-kurtz",
+      "event": null
+    },
+    {
+      "person": "person:georja-calvin-smith",
+      "event": "event:putting-human-rights-into-artificial-intelligence"
+    },
+    {
+      "person": "person:gerasim-hovhannisyan",
+      "event": "event:the-perimeter-is-dead-so-what-happens-to-trust"
+    },
+    {
+      "person": "person:gerasim-hovhannisyan",
+      "event": null
+    },
+    {
+      "person": "person:giacomo-ficari",
+      "event": "event:open-models-stronger-ecosystems"
+    },
+    {
+      "person": "person:gian-m-volpicelli",
+      "event": "event:building-the-infrastructure-for-ai-everywhere"
+    },
+    {
+      "person": "person:gigi-danziger",
+      "event": "event:building-a-star-trek-vision"
+    },
+    {
+      "person": "person:gil-azevedo",
+      "event": "event:press-conference-unicorn-factory-lisboa-hub-71-instituto"
+    },
+    {
+      "person": "person:gil-azevedo",
+      "event": "event:new-unicorn-in-lisbon-discord-announces-expansion-press"
+    },
+    {
+      "person": "person:giovanni-alberto-falcione",
+      "event": "event:securing-the-ai-frontline"
+    },
+    {
+      "person": "person:giovanni-alberto-falcione",
+      "event": null
+    },
+    {
+      "person": "person:goncalo-matias",
+      "event": "event:welcome-to-web-summit-2026"
+    },
+    {
+      "person": "person:gonzalo-vila",
+      "event": "event:building-the-operating-system-for-modern-sport"
+    },
+    {
+      "person": "person:gonzalo-vila",
+      "event": "event:press-conference-with-nxtplay-capital-co-founder"
+    },
+    {
+      "person": "person:grzegorz-lipke",
+      "event": "event:when-agents-write-the-code-does-a-framework-like-angular"
+    },
+    {
+      "person": "person:haakon-rlmann",
+      "event": "event:press-conference-with-vivaldi-ceo-jon-von-tetzchner"
+    },
+    {
+      "person": "person:hanh-nguyen",
+      "event": "event:breakout-startups-6059c850"
+    },
+    {
+      "person": "person:harry-mccracken",
+      "event": "event:maintaining-the-human-in-an-ai-world"
+    },
+    {
+      "person": "person:harry-mccracken",
+      "event": "event:the-future-of-enterprise-software-has-no-middleman"
+    },
+    {
+      "person": "person:harry-mccracken",
+      "event": "event:the-ai-paradox-smarter-models-disappointing-results"
+    },
+    {
+      "person": "person:haz-hubble",
+      "event": "event:breakout-startups-6059c850"
+    },
+    {
+      "person": "person:henna-virkkunen",
+      "event": "event:has-europe-s-tech-moment-arrived"
+    },
+    {
+      "person": "person:henry-farrell",
+      "event": "event:the-last-days-of-the-rules-based-order"
+    },
+    {
+      "person": "person:ian-rogers",
+      "event": "event:in-bots-we-trust-defending-money-against-ai-powered-fraud"
+    },
+    {
+      "person": "person:ian-rogers",
+      "event": null
+    },
+    {
+      "person": "person:idalia-friedson",
+      "event": "event:will-tech-save-the-energy-sector-or-break-it"
+    },
+    {
+      "person": "person:igor-ryabenkiy",
+      "event": "event:pitch-final"
+    },
+    {
+      "person": "person:irene-long",
+      "event": "event:chinamaxxing-the-new-era-of-made-in-china"
+    },
+    {
+      "person": "person:isobel-sita-lumsden",
+      "event": "event:the-new-battle-for-brand-influence"
+    },
+    {
+      "person": "person:ivan-mehta",
+      "event": "event:when-software-meets-matter"
+    },
+    {
+      "person": "person:j-ofori-agboka",
+      "event": "event:press-conference-with-amazon-vice-president-people"
+    },
+    {
+      "person": "person:jacob-lauritzen",
+      "event": "event:western-tech-all-is-not-lost"
+    },
+    {
+      "person": "person:jacob-lauritzen",
+      "event": "event:beyond-the-model-scaling-ai-agents-for-professional-work"
+    },
+    {
+      "person": "person:jacob-lauritzen",
+      "event": null
+    },
+    {
+      "person": "person:jacob-sever",
+      "event": "event:an-ai-identity-crisis"
+    },
+    {
+      "person": "person:james-ball",
+      "event": "event:the-perimeter-is-dead-so-what-happens-to-trust"
+    },
+    {
+      "person": "person:james-galbraith",
+      "event": "event:what-do-the-us-midterms-tell-us-about-the-future-of-america"
+    },
+    {
+      "person": "person:james-galbraith",
+      "event": "event:the-next-financial-crisis-are-we-ready-for-what-s-coming"
+    },
+    {
+      "person": "person:james-vowles",
+      "event": "event:ai-and-the-human-at-300km-h"
+    },
+    {
+      "person": "person:jamie-ayala",
+      "event": "event:building-ai-products-without-building-everything-hosted-by"
+    },
+    {
+      "person": "person:jamie-ayala",
+      "event": null
+    },
+    {
+      "person": "person:jan-lipavsky",
+      "event": "event:frontline-europe-ai-sovereignty-and-truth"
+    },
+    {
+      "person": "person:jeff-wilser",
+      "event": "event:beyond-the-ai-agent-hype"
+    },
+    {
+      "person": "person:jen-wong",
+      "event": "event:maintaining-the-human-in-an-ai-world"
+    },
+    {
+      "person": "person:jeremy-fraenkel",
+      "event": "event:ai-s-octopus-era"
+    },
+    {
+      "person": "person:jeremy-goldman",
+      "event": "event:pricing-saas-when-users-are-agents"
+    },
+    {
+      "person": "person:jianhua-li",
+      "event": "event:chinamaxxing-the-new-era-of-made-in-china"
+    },
+    {
+      "person": "person:jianhua-li",
+      "event": "event:taking-the-flying-car-from-sci-fi-to-reality"
+    },
+    {
+      "person": "person:jill-kramer",
+      "event": "event:the-new-battle-for-brand-influence"
+    },
+    {
+      "person": "person:jim-edwards",
+      "event": "event:ai-s-octopus-era"
+    },
+    {
+      "person": "person:jimmy-douglas",
+      "event": "event:breakout-startups-66205ff8"
+    },
+    {
+      "person": "person:joao-leite",
+      "event": "event:campus-tejo-the-science-and-technology-ecosystem-of"
+    },
+    {
+      "person": "person:joao-miguel-mesquita",
+      "event": "event:in-bots-we-trust-defending-money-against-ai-powered-fraud"
+    },
+    {
+      "person": "person:joao-moutao",
+      "event": "event:campus-tejo-the-science-and-technology-ecosystem-of"
+    },
+    {
+      "person": "person:joao-nuno-ferreira",
+      "event": "event:building-ai-on-your-own-terms-from-technology-discovery-to"
+    },
+    {
+      "person": "person:joaquim-miranda-sarmento",
+      "event": "event:the-portuguese-economic-success-story"
+    },
+    {
+      "person": "person:joe-mcelroy",
+      "event": "event:the-knowledge-your-agents-can-t-see-building-visual-context"
+    },
+    {
+      "person": "person:john-koetsier",
+      "event": "event:the-biological-bottleneck"
+    },
+    {
+      "person": "person:john-madelin",
+      "event": "event:the-real-threat-isn-t-a-nation-state-it-s-a-teenager"
+    },
+    {
+      "person": "person:john-madelin",
+      "event": null
+    },
+    {
+      "person": "person:jon-von-tetzchner",
+      "event": "event:press-conference-with-vivaldi-ceo-jon-von-tetzchner"
+    },
+    {
+      "person": "person:jon-von-tetzchner",
+      "event": "event:big-tech-detox"
+    },
+    {
+      "person": "person:jonathan-adashek",
+      "event": "event:the-enterprise-reality-check-who-s-controlling-data-and-ai"
+    },
+    {
+      "person": "person:jordi-romero",
+      "event": "event:double-agents-are-your-employees-ai-agents-working-for-or"
+    },
+    {
+      "person": "person:jordi-romero",
+      "event": null
+    },
+    {
+      "person": "person:jose-fonseca",
+      "event": "event:the-attack-has-started-now-what-see-log360-zia-ai-in-action"
+    },
+    {
+      "person": "person:jose-pedro-nascimento",
+      "event": "event:the-autonomous-enterprise-networks-cloud-and-ai-agents"
+    },
+    {
+      "person": "person:jose-pedro-nascimento",
+      "event": null
+    },
+    {
+      "person": "person:joshua-wohle",
+      "event": "event:pricing-saas-when-users-are-agents"
+    },
+    {
+      "person": "person:juan-mata",
+      "event": "event:who-gets-a-say-in-football-s-future"
+    },
+    {
+      "person": "person:julie-pace",
+      "event": "event:ai-your-new-news-editor"
+    },
+    {
+      "person": "person:jurgen-griesbeck",
+      "event": "event:who-gets-a-say-in-football-s-future"
+    },
+    {
+      "person": "person:kamil-sindi",
+      "event": "event:when-software-meets-matter"
+    },
+    {
+      "person": "person:kate-knibbs",
+      "event": "event:when-ai-builds-itself"
+    },
+    {
+      "person": "person:katie-collins",
+      "event": "event:western-tech-all-is-not-lost"
+    },
+    {
+      "person": "person:kc-sullivan",
+      "event": "event:surviving-the-ai-shift-media-s-new-reality"
+    },
+    {
+      "person": "person:kevin-kiley",
+      "event": "event:ai-sprawl-is-exploding-get-ahead-of-governance-and-security"
+    },
+    {
+      "person": "person:kevin-kiley",
+      "event": null
+    },
+    {
+      "person": "person:kirill-skrygan",
+      "event": "event:taming-the-agent-swarm"
+    },
+    {
+      "person": "person:kirill-skrygan",
+      "event": null
+    },
+    {
+      "person": "person:kirsten-korosec",
+      "event": "event:ai-and-the-human-at-300km-h"
+    },
+    {
+      "person": "person:kit-eaton",
+      "event": "event:give-me-a-brake-coding-without-crashing"
+    },
+    {
+      "person": "person:larissa-schneider",
+      "event": "event:breakout-startups-1b2f3f6c"
+    },
+    {
+      "person": "person:larry-aschebrook",
+      "event": "event:beyond-the-ipo-the-new-exit-playbook"
+    },
+    {
+      "person": "person:larry-li",
+      "event": "event:pitch-semi-final"
+    },
+    {
+      "person": "person:laura-greenhalgh",
+      "event": "event:has-europe-s-tech-moment-arrived"
+    },
+    {
+      "person": "person:laura-greenhalgh",
+      "event": "event:the-portuguese-economic-success-story"
+    },
+    {
+      "person": "person:laureen-meroueh",
+      "event": "event:will-tech-save-the-energy-sector-or-break-it"
+    },
+    {
+      "person": "person:lawrence-snapp",
+      "event": null
+    },
+    {
+      "person": "person:ling-ge",
+      "event": "event:who-wins-in-the-age-of-agentic-ai"
+    },
+    {
+      "person": "person:ling-ge",
+      "event": "event:pitch-semi-final"
+    },
+    {
+      "person": "person:lisa-eadicicco",
+      "event": "event:big-tech-detox"
+    },
+    {
+      "person": "person:louis-dreyfus",
+      "event": "event:ai-your-new-news-editor"
+    },
+    {
+      "person": "person:luc-chenier",
+      "event": "event:building-ai-on-your-own-terms-from-technology-discovery-to"
+    },
+    {
+      "person": "person:luc-chenier",
+      "event": "event:free-or-controlled-internet-the-great-dsa-debate"
+    },
+    {
+      "person": "person:lucinda-shen",
+      "event": "event:beyond-the-ipo-the-new-exit-playbook"
+    },
+    {
+      "person": "person:luiz-alberto-amorim",
+      "event": "event:press-conference-web-summit-spotlight-heads-to-paraiba-as"
+    },
+    {
+      "person": "person:mafalda-freire",
+      "event": "event:don-t-feed-shit-to-agents"
+    },
+    {
+      "person": "person:mahi-de-silva",
+      "event": "event:the-100-million-prompt"
+    },
+    {
+      "person": "person:maike-kauffmann",
+      "event": "event:who-takes-the-fall-for-autonomous-ai"
+    },
+    {
+      "person": "person:maju-kuruvilla",
+      "event": "event:press-conference-who-wins-when-ai-does-the-shopping"
+    },
+    {
+      "person": "person:marc-lacey",
+      "event": "event:reporting-at-the-speed-of-news"
+    },
+    {
+      "person": "person:margarida-david",
+      "event": "event:press-conference-road-2-web-summit-2026-winner"
+    },
+    {
+      "person": "person:marijus-briedis",
+      "event": null
+    },
+    {
+      "person": "person:marina-khaustova",
+      "event": "event:an-ai-identity-crisis"
+    },
+    {
+      "person": "person:marina-khaustova",
+      "event": null
+    },
+    {
+      "person": "person:marta-dhanis",
+      "event": "event:the-autonomous-enterprise-networks-cloud-and-ai-agents"
+    },
+    {
+      "person": "person:mary-robinson",
+      "event": "event:the-last-days-of-the-rules-based-order"
+    },
+    {
+      "person": "person:mary-robinson",
+      "event": "event:do-we-need-a-un-ai-treaty"
+    },
+    {
+      "person": "person:mathias-stamm",
+      "event": "event:chat-control-2-0-the-government-in-your-dms"
+    },
+    {
+      "person": "person:matt-murray",
+      "event": "event:surviving-the-ai-shift-media-s-new-reality"
+    },
+    {
+      "person": "person:matt-murray",
+      "event": "event:what-comes-after-the-blue-wave"
+    },
+    {
+      "person": "person:matthew-prince",
+      "event": "event:the-agentic-internet-who-controls-the-web"
+    },
+    {
+      "person": "person:matthew-prince",
+      "event": "event:the-future-of-ai"
+    },
+    {
+      "person": "person:matthew-prince",
+      "event": null
+    },
+    {
+      "person": "person:mattias-ljungman",
+      "event": "event:investing-in-zero-billion-dollar-markets"
+    },
+    {
+      "person": "person:maty-bohacek",
+      "event": "event:frontline-europe-ai-sovereignty-and-truth"
+    },
+    {
+      "person": "person:mauricio-sion",
+      "event": "event:the-autonomous-enterprise-networks-cloud-and-ai-agents"
+    },
+    {
+      "person": "person:max-schireson",
+      "event": "event:ai-s-octopus-era"
+    },
+    {
+      "person": "person:mazin-gilbert",
+      "event": "event:open-or-closed-ai-models-which-types-of-future-do-they"
+    },
+    {
+      "person": "person:mazin-gilbert",
+      "event": "event:why-ai-agents-stall-at-the-production-line"
+    },
+    {
+      "person": "person:mazin-gilbert",
+      "event": null
+    },
+    {
+      "person": "person:mehul-srivastava",
+      "event": "event:securing-the-ai-frontline"
+    },
+    {
+      "person": "person:michael-du",
+      "event": "event:press-conference-with-xpeng-aridge-founder-and-president"
+    },
+    {
+      "person": "person:michael-howard",
+      "event": "event:securing-the-ai-frontline"
+    },
+    {
+      "person": "person:michael-mcnamara",
+      "event": "event:chat-control-2-0-the-government-in-your-dms"
+    },
+    {
+      "person": "person:michael-o-flaherty",
+      "event": "event:putting-human-rights-into-artificial-intelligence"
+    },
+    {
+      "person": "person:michele-catasta",
+      "event": "event:press-conference-with-replit-president-michele-catasta"
+    },
+    {
+      "person": "person:michele-catasta",
+      "event": "event:making-useful-intelligence-accessible-to-everyone"
+    },
+    {
+      "person": "person:michele-catasta",
+      "event": "event:what-does-a-self-driving-company-look-like"
+    },
+    {
+      "person": "person:michele-catasta",
+      "event": null
+    },
+    {
+      "person": "person:miguel-d-aguiar",
+      "event": "event:press-conference-road-2-web-summit-2026-winner"
+    },
+    {
+      "person": "person:mikayel-vardanyan",
+      "event": "event:western-tech-all-is-not-lost"
+    },
+    {
+      "person": "person:mike-benz",
+      "event": "event:free-or-controlled-internet-the-great-dsa-debate"
+    },
+    {
+      "person": "person:mike-cannon-brookes",
+      "event": "event:ai-and-the-human-at-300km-h"
+    },
+    {
+      "person": "person:mike-cannon-brookes",
+      "event": null
+    },
+    {
+      "person": "person:mike-nguyen",
+      "event": "event:building-ai-on-your-own-terms-from-technology-discovery-to"
+    },
+    {
+      "person": "person:milan-vizner",
+      "event": "event:breakout-startups-1b2f3f6c"
+    },
+    {
+      "person": "person:milkana-brace",
+      "event": "event:agents-don-t-need-prompts-they-need-context"
+    },
+    {
+      "person": "person:milkana-brace",
+      "event": null
+    },
+    {
+      "person": "person:miroslav-wlachovsky",
+      "event": "event:frontline-europe-ai-sovereignty-and-truth"
+    },
+    {
+      "person": "person:mohammad-asad-khan",
+      "event": "event:when-ai-verifies-ai"
+    },
+    {
+      "person": "person:mohammad-asad-khan",
+      "event": null
+    },
+    {
+      "person": "person:nathan-j-robinson",
+      "event": "event:what-do-the-us-midterms-tell-us-about-the-future-of-america"
+    },
+    {
+      "person": "person:neha-mittal",
+      "event": "event:breakout-startups-66205ff8"
+    },
+    {
+      "person": "person:neil-lawrence",
+      "event": "event:open-vs-closed-the-debate-defining-the-ai-era"
+    },
+    {
+      "person": "person:neil-lawrence",
+      "event": "event:viable-systems-judgement-and-ai-safety"
+    },
+    {
+      "person": "person:neil-lawrence",
+      "event": null
+    },
+    {
+      "person": "person:niall-firth",
+      "event": "event:beyond-the-model-scaling-ai-agents-for-professional-work"
+    },
+    {
+      "person": "person:niall-mackey",
+      "event": "event:the-perimeter-is-dead-so-what-happens-to-trust"
+    },
+    {
+      "person": "person:niall-mackey",
+      "event": null
+    },
+    {
+      "person": "person:nicholas-johnston",
+      "event": "event:the-enterprise-reality-check-who-s-controlling-data-and-ai"
+    },
+    {
+      "person": "person:nicholas-johnston",
+      "event": "event:reporting-at-the-speed-of-news"
+    },
+    {
+      "person": "person:nicholas-muy",
+      "event": "event:the-biological-bottleneck"
+    },
+    {
+      "person": "person:nicholas-muy",
+      "event": null
+    },
+    {
+      "person": "person:nick-thompson",
+      "event": "event:the-agentic-internet-who-controls-the-web"
+    },
+    {
+      "person": "person:nick-yu",
+      "event": "event:chinamaxxing-the-new-era-of-made-in-china"
+    },
+    {
+      "person": "person:nicky-crosby",
+      "event": "event:who-gets-a-say-in-football-s-future"
+    },
+    {
+      "person": "person:nikola-mrksic",
+      "event": "event:coaching-an-ai-agent-like-human-talent"
+    },
+    {
+      "person": "person:nikola-mrksic",
+      "event": null
+    },
+    {
+      "person": "person:ollie-whitehouse",
+      "event": "event:it-takes-two-to-trust-operationalizing-public-private"
+    },
+    {
+      "person": "person:ollie-whitehouse",
+      "event": null
+    },
+    {
+      "person": "person:otto-costa-miranda",
+      "event": "event:breakout-startups-66205ff8"
+    },
+    {
+      "person": "person:paddy-cosgrave",
+      "event": "event:press-conference-web-summit-spotlight-heads-to-paraiba-as"
+    },
+    {
+      "person": "person:paddy-cosgrave",
+      "event": "event:press-conference-with-web-summit-ceo-and-founder-paddy"
+    },
+    {
+      "person": "person:paddy-cosgrave",
+      "event": "event:welcome-to-web-summit-2026"
+    },
+    {
+      "person": "person:pascale-davies",
+      "event": "event:will-tech-save-the-energy-sector-or-break-it"
+    },
+    {
+      "person": "person:paul-bascobert",
+      "event": "event:ai-your-new-news-editor"
+    },
+    {
+      "person": "person:paul-benigeri",
+      "event": "event:breakout-startups-66205ff8"
+    },
+    {
+      "person": "person:paul-jenkinson",
+      "event": null
+    },
+    {
+      "person": "person:paul-santarelli",
+      "event": "event:press-conference-pitchbook-goes-free-for-startups-new"
+    },
+    {
+      "person": "person:paul-tighe",
+      "event": "event:putting-human-rights-into-artificial-intelligence"
+    },
+    {
+      "person": "person:pedro-zanetello",
+      "event": "event:press-conference-unicorn-factory-lisboa-hub-71-instituto"
+    },
+    {
+      "person": "person:peter-escher",
+      "event": "event:press-conference-pitchbook-goes-free-for-startups-new"
+    },
+    {
+      "person": "person:peter-koerte",
+      "event": "event:the-race-for-industrial-ai-can-europe-win"
+    },
+    {
+      "person": "person:peter-ludwig",
+      "event": "event:when-software-meets-matter"
+    },
+    {
+      "person": "person:philip-rathle",
+      "event": "event:open-or-closed-ai-models-which-types-of-future-do-they"
+    },
+    {
+      "person": "person:philip-rathle",
+      "event": "event:why-your-ai-agents-don-t-understand-your-business-and-how"
+    },
+    {
+      "person": "person:philip-rathle",
+      "event": null
+    },
+    {
+      "person": "person:philippe-botteri",
+      "event": "event:navigating-today-s-ai-landscape"
+    },
+    {
+      "person": "person:rainer-markle",
+      "event": "event:pitch-final"
+    },
+    {
+      "person": "person:raphael-auphan",
+      "event": "event:big-tech-detox"
+    },
+    {
+      "person": "person:raphael-auphan",
+      "event": null
+    },
+    {
+      "person": "person:rebecca-ruiz",
+      "event": "event:it-takes-two-to-trust-operationalizing-public-private"
+    },
+    {
+      "person": "person:rebecca-ruiz",
+      "event": "event:the-attackers-are-open-source-the-defences-aren-t"
+    },
+    {
+      "person": "person:rene-haas",
+      "event": "event:building-the-infrastructure-for-ai-everywhere"
+    },
+    {
+      "person": "person:renee-diresta",
+      "event": "event:guardrails-for-doomsday-can-ai-be-regulated-press-conference"
+    },
+    {
+      "person": "person:renu-navale",
+      "event": "event:pitch-semi-final"
+    },
+    {
+      "person": "person:reya-el-salahi",
+      "event": "event:the-open-source-advantage"
+    },
+    {
+      "person": "person:richard-socher",
+      "event": "event:when-ai-builds-itself"
+    },
+    {
+      "person": "person:richard-socher",
+      "event": "event:the-future-of-ai"
+    },
+    {
+      "person": "person:richard-socher",
+      "event": null
+    },
+    {
+      "person": "person:rick-song",
+      "event": "event:beyond-the-front-door-identity-access-and-user-trust"
+    },
+    {
+      "person": "person:rick-song",
+      "event": "event:in-bots-we-trust-defending-money-against-ai-powered-fraud"
+    },
+    {
+      "person": "person:rick-song",
+      "event": null
+    },
+    {
+      "person": "person:rijk-van-zanten",
+      "event": "event:don-t-feed-shit-to-agents"
+    },
+    {
+      "person": "person:rijk-van-zanten",
+      "event": null
+    },
+    {
+      "person": "person:rob-pegoraro",
+      "event": "event:who-holds-the-kill-switch"
+    },
+    {
+      "person": "person:robert-booth",
+      "event": "event:an-ai-identity-crisis"
+    },
+    {
+      "person": "person:rocio-wu",
+      "event": "event:pitch-final"
+    },
+    {
+      "person": "person:rohit-sharma",
+      "event": "event:the-open-source-advantage"
+    },
+    {
+      "person": "person:ronnie-sheth",
+      "event": "event:building-ai-on-your-own-terms-from-technology-discovery-to"
+    },
+    {
+      "person": "person:rory-blundell",
+      "event": "event:press-conference-with-gravitee-ceo-rory-blundell-collapsing"
+    },
+    {
+      "person": "person:ryan-lasalle",
+      "event": "event:is-there-a-foreign-operative-on-your-payroll"
+    },
+    {
+      "person": "person:ryan-lasalle",
+      "event": null
+    },
+    {
+      "person": "person:rytis-rudzinskas",
+      "event": "event:the-perimeter-is-dead-so-what-happens-to-trust"
+    },
+    {
+      "person": "person:sahil-jain",
+      "event": "event:breakout-startups-6059c850"
+    },
+    {
+      "person": "person:sam-kidd",
+      "event": "event:who-takes-the-fall-for-autonomous-ai"
+    },
+    {
+      "person": "person:sam-kidd",
+      "event": null
+    },
+    {
+      "person": "person:sam-liang",
+      "event": "event:press-conference-otter-ai-announces-its-biggest"
+    },
+    {
+      "person": "person:sam-pasupalak",
+      "event": "event:press-conference-with-the-world-s-first-ai-ceo-co-founder"
+    },
+    {
+      "person": "person:sam-stephenson",
+      "event": "event:who-wins-in-the-age-of-agentic-ai"
+    },
+    {
+      "person": "person:samudra-gupta",
+      "event": "event:a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers"
+    },
+    {
+      "person": "person:sara-fischer",
+      "event": "event:the-100-million-prompt"
+    },
+    {
+      "person": "person:sara-fischer",
+      "event": "event:making-useful-intelligence-accessible-to-everyone"
+    },
+    {
+      "person": "person:sarah-kunst",
+      "event": "event:pitch-final"
+    },
+    {
+      "person": "person:sarah-kunst",
+      "event": "event:beyond-the-ipo-the-new-exit-playbook"
+    },
+    {
+      "person": "person:sarakshi-rai",
+      "event": "event:what-comes-after-the-blue-wave"
+    },
+    {
+      "person": "person:satya-nitta",
+      "event": "event:when-ai-agents-go-rogue"
+    },
+    {
+      "person": "person:satya-nitta",
+      "event": null
+    },
+    {
+      "person": "person:shrikesh-laxmidas",
+      "event": "event:who-let-the-agent-in"
+    },
+    {
+      "person": "person:simon-ince",
+      "event": "event:don-t-feed-shit-to-agents"
+    },
+    {
+      "person": "person:sinead-o-sullivan",
+      "event": "event:the-next-financial-crisis-are-we-ready-for-what-s-coming"
+    },
+    {
+      "person": "person:sinead-o-sullivan",
+      "event": "event:securing-the-ai-frontline"
+    },
+    {
+      "person": "person:sren-bramer-schmidt",
+      "event": "event:rebuilding-open-source-with-ai-lessons-learned"
+    },
+    {
+      "person": "person:sren-bramer-schmidt",
+      "event": null
+    },
+    {
+      "person": "person:stanislav-fort",
+      "event": "event:securing-the-software-foundation-of-civilisation-with-ai"
+    },
+    {
+      "person": "person:stanislav-fort",
+      "event": null
+    },
+    {
+      "person": "person:stanislav-vishnevskiy",
+      "event": "event:new-unicorn-in-lisbon-discord-announces-expansion-press"
+    },
+    {
+      "person": "person:stavros-gadinis",
+      "event": "event:who-takes-the-fall-for-autonomous-ai"
+    },
+    {
+      "person": "person:stephan-morais",
+      "event": "event:pitch-semi-final"
+    },
+    {
+      "person": "person:stephanie-liu",
+      "event": "event:the-100-million-prompt"
+    },
+    {
+      "person": "person:steve-clemons",
+      "event": "event:what-comes-after-the-blue-wave"
+    },
+    {
+      "person": "person:steve-cortes",
+      "event": "event:what-do-the-us-midterms-tell-us-about-the-future-of-america"
+    },
+    {
+      "person": "person:steve-vassallo",
+      "event": "event:investing-in-zero-billion-dollar-markets"
+    },
+    {
+      "person": "person:stewart-clarke",
+      "event": "event:hollywood-s-identity-crisis"
+    },
+    {
+      "person": "person:sumit-dhawan",
+      "event": "event:outsmarting-ai-defence-at-machine-speed"
+    },
+    {
+      "person": "person:sumit-dhawan",
+      "event": null
+    },
+    {
+      "person": "person:tao-zhang",
+      "event": "event:the-age-of-agents"
+    },
+    {
+      "person": "person:tao-zhang",
+      "event": null
+    },
+    {
+      "person": "person:tariq-al-tayer",
+      "event": "event:the-next-digital-frontier"
+    },
+    {
+      "person": "person:tariq-krim",
+      "event": "event:beyond-the-ai-agent-hype"
+    },
+    {
+      "person": "person:teresa-fiuza",
+      "event": "event:pitch-semi-final"
+    },
+    {
+      "person": "person:terry-martin",
+      "event": "event:investing-in-zero-billion-dollar-markets"
+    },
+    {
+      "person": "person:thibaut-courtois",
+      "event": "event:building-the-operating-system-for-modern-sport"
+    },
+    {
+      "person": "person:thibaut-courtois",
+      "event": "event:press-conference-with-nxtplay-capital-co-founder"
+    },
+    {
+      "person": "person:thomas-froment",
+      "event": "event:building-ai-products-without-building-everything-hosted-by"
+    },
+    {
+      "person": "person:thomas-froment",
+      "event": null
+    },
+    {
+      "person": "person:timothy-young",
+      "event": "event:western-tech-all-is-not-lost"
+    },
+    {
+      "person": "person:tom-stackpole",
+      "event": "event:why-ai-agents-stall-at-the-production-line"
+    },
+    {
+      "person": "person:tom-stackpole",
+      "event": "event:who-takes-the-fall-for-autonomous-ai"
+    },
+    {
+      "person": "person:tomas-klvana",
+      "event": "event:frontline-europe-ai-sovereignty-and-truth"
+    },
+    {
+      "person": "person:ubtech-u1-pro",
+      "event": "event:welcome-to-tomorrow"
+    },
+    {
+      "person": "person:vahan-agopyan",
+      "event": "event:the-next-digital-frontier"
+    },
+    {
+      "person": "person:valery-mezencev",
+      "event": "event:make-ai-agents-work-beyond-the-demo-hosted-by-make"
+    },
+    {
+      "person": "person:valery-mezencev",
+      "event": null
+    },
+    {
+      "person": "person:victor-gao",
+      "event": "event:the-last-days-of-the-rules-based-order"
+    },
+    {
+      "person": "person:will-bryk",
+      "event": "event:search-built-for-ai-agents"
+    },
+    {
+      "person": "person:will-bryk",
+      "event": null
+    },
+    {
+      "person": "person:william-shi",
+      "event": "event:introducing-the-next-billion-workers"
+    },
+    {
+      "person": "person:william-shi",
+      "event": "event:welcome-to-tomorrow"
+    },
+    {
+      "person": "person:wilton-itaiguara-goncalves-mota",
+      "event": "event:brazil-s-blueprint-for-cyber-resilience"
+    },
+    {
+      "person": "person:xavier-green",
+      "event": "event:breakout-startups-66205ff8"
+    },
+    {
+      "person": "person:xiaoguang-chen",
+      "event": "event:building-security-for-the-human-machine-era"
+    },
+    {
+      "person": "person:xiaoguang-chen",
+      "event": null
+    },
+    {
+      "person": "person:yannis-roussos",
+      "event": "event:the-knowledge-your-agents-can-t-see-building-visual-context"
+    },
+    {
+      "person": "person:yuli-zhao",
+      "event": "event:welcome-to-tomorrow"
+    },
+    {
+      "person": "person:zach-coelius",
+      "event": "event:pitch-semi-final"
+    },
+    {
+      "person": "person:zeki-turedi",
+      "event": "event:ai-vs-ai-the-battle-for-the-cyber-advantage"
+    }
+  ],
+  "events": [
+    {
+      "event": "event:a-guide-to-portugal-s-startup-scene-hosted-by-startup",
+      "kind": "session"
+    },
+    {
+      "event": "event:a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers",
+      "kind": "session"
+    },
+    {
+      "event": "event:agents-don-t-need-prompts-they-need-context",
+      "kind": "session"
+    },
+    {
+      "event": "event:ai-and-the-human-at-300km-h",
+      "kind": "session"
+    },
+    {
+      "event": "event:ai-build-sprint-ship-a-business-app-for-your-ops",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:ai-content-os-vip-dinner-costa-coffee-lessons",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:ai-doom-or-boom",
+      "kind": "session"
+    },
+    {
+      "event": "event:ai-s-octopus-era",
+      "kind": "session"
+    },
+    {
+      "event": "event:ai-sovereignty-data-control-governance-and-predictable-ai",
+      "kind": "session"
+    },
+    {
+      "event": "event:ai-sprawl-is-exploding-get-ahead-of-governance-and-security",
+      "kind": "session"
+    },
+    {
+      "event": "event:ai-vs-ai-the-battle-for-the-cyber-advantage",
+      "kind": "session"
+    },
+    {
+      "event": "event:ai-your-new-news-editor",
+      "kind": "session"
+    },
+    {
+      "event": "event:an-ai-identity-crisis",
+      "kind": "session"
+    },
+    {
+      "event": "event:asia-pacific-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:australia-new-zealand-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:austria-business-night-2026",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:balkans-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:baltics-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:be-part-of-history-help-build-the-first-pages-of-the",
+      "kind": "session"
+    },
+    {
+      "event": "event:benelux-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:beyond-the-ai-agent-hype",
+      "kind": "session"
+    },
+    {
+      "event": "event:beyond-the-front-door-identity-access-and-user-trust",
+      "kind": "session"
+    },
+    {
+      "event": "event:beyond-the-ipo-the-new-exit-playbook",
+      "kind": "session"
+    },
+    {
+      "event": "event:beyond-the-model-scaling-ai-agents-for-professional-work",
+      "kind": "session"
+    },
+    {
+      "event": "event:big-tech-detox",
+      "kind": "session"
+    },
+    {
+      "event": "event:brazil-s-blueprint-for-cyber-resilience",
+      "kind": "session"
+    },
+    {
+      "event": "event:breakout-startups-1b2f3f6c",
+      "kind": "session"
+    },
+    {
+      "event": "event:breakout-startups-6059c850",
+      "kind": "session"
+    },
+    {
+      "event": "event:breakout-startups-66205ff8",
+      "kind": "session"
+    },
+    {
+      "event": "event:build-for-people-a-human-x-car-x-home-approach",
+      "kind": "session"
+    },
+    {
+      "event": "event:building-a-secure-device-foundation-for-ai-hosted-by-lenovo",
+      "kind": "session"
+    },
+    {
+      "event": "event:building-a-star-trek-vision",
+      "kind": "session"
+    },
+    {
+      "event": "event:building-a-tech-hub-side-event-happy-hour-aubay-portugal-ibm",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:building-ai-in-europe-practical-support-for-innovators",
+      "kind": "session"
+    },
+    {
+      "event": "event:building-ai-on-your-own-terms-from-technology-discovery-to",
+      "kind": "session"
+    },
+    {
+      "event": "event:building-ai-products-without-building-everything-hosted-by",
+      "kind": "session"
+    },
+    {
+      "event": "event:building-security-for-the-human-machine-era",
+      "kind": "session"
+    },
+    {
+      "event": "event:building-the-infrastructure-for-ai-everywhere",
+      "kind": "session"
+    },
+    {
+      "event": "event:building-the-operating-system-for-modern-sport",
+      "kind": "session"
+    },
+    {
+      "event": "event:campus-tejo-the-science-and-technology-ecosystem-of",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque",
+      "kind": "session"
+    },
+    {
+      "event": "event:central-eastern-europe-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:chat-control-2-0-the-government-in-your-dms",
+      "kind": "session"
+    },
+    {
+      "event": "event:chinamaxxing-the-new-era-of-made-in-china",
+      "kind": "session"
+    },
+    {
+      "event": "event:coaching-an-ai-agent-like-human-talent",
+      "kind": "session"
+    },
+    {
+      "event": "event:coimbra-supernova-how-any-business-can-profit-from-the",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:connecting-the-bots-building-secure-infrastructure-for",
+      "kind": "session"
+    },
+    {
+      "event": "event:dach-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:democratising-ai-platform-engineering-with-open-source",
+      "kind": "session"
+    },
+    {
+      "event": "event:diaspora-leaders-a-global-innovationmeetup",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:do-we-need-a-un-ai-treaty",
+      "kind": "session"
+    },
+    {
+      "event": "event:dogfooding-ai-security-lessons-from-our-own-soc-hosted-by",
+      "kind": "session"
+    },
+    {
+      "event": "event:don-t-feed-shit-to-agents",
+      "kind": "session"
+    },
+    {
+      "event": "event:double-agents-are-your-employees-ai-agents-working-for-or",
+      "kind": "session"
+    },
+    {
+      "event": "event:east-asia-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:eit-jumpstarter-awards-ceremony",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:europe-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:founders-building-in-portugal-meetup",
+      "kind": "session"
+    },
+    {
+      "event": "event:free-or-controlled-internet-the-great-dsa-debate",
+      "kind": "session"
+    },
+    {
+      "event": "event:frontline-europe-ai-sovereignty-and-truth",
+      "kind": "session"
+    },
+    {
+      "event": "event:german-brazilian-startup-night",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:give-me-a-brake-coding-without-crashing",
+      "kind": "session"
+    },
+    {
+      "event": "event:guardrails-for-doomsday-can-ai-be-regulated-press-conference",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:gulf-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:has-europe-s-tech-moment-arrived",
+      "kind": "session"
+    },
+    {
+      "event": "event:hollywood-s-identity-crisis",
+      "kind": "session"
+    },
+    {
+      "event": "event:how-to-break-your-ai-phone-agent-before-your-customers",
+      "kind": "session"
+    },
+    {
+      "event": "event:iberia-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:in-bots-we-trust-defending-money-against-ai-powered-fraud",
+      "kind": "session"
+    },
+    {
+      "event": "event:introducing-the-next-billion-workers",
+      "kind": "session"
+    },
+    {
+      "event": "event:investing-in-zero-billion-dollar-markets",
+      "kind": "session"
+    },
+    {
+      "event": "event:is-there-a-foreign-operative-on-your-payroll",
+      "kind": "session"
+    },
+    {
+      "event": "event:it-takes-two-to-trust-operationalizing-public-private",
+      "kind": "session"
+    },
+    {
+      "event": "event:karaoke-night",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:latin-america-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:let-s-talk-ai-ethics-responsible-tech-meetup",
+      "kind": "session"
+    },
+    {
+      "event": "event:lisbon-founders-ceos-meetup",
+      "kind": "session"
+    },
+    {
+      "event": "event:maintaining-the-human-in-an-ai-world",
+      "kind": "session"
+    },
+    {
+      "event": "event:make-ai-agents-work-beyond-the-demo-hosted-by-make",
+      "kind": "session"
+    },
+    {
+      "event": "event:making-useful-intelligence-accessible-to-everyone",
+      "kind": "session"
+    },
+    {
+      "event": "event:mena-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:monitoring-in-the-age-of-genai-beyond-golden-signals-hosted",
+      "kind": "session"
+    },
+    {
+      "event": "event:music-lovers-meetup",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:navigating-today-s-ai-landscape",
+      "kind": "session"
+    },
+    {
+      "event": "event:new-unicorn-in-lisbon-discord-announces-expansion-press",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:next-generation-banking-with-global-ambition",
+      "kind": "session"
+    },
+    {
+      "event": "event:night-summit-2026-11-10",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:night-summit-2026-11-11",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:night-summit-a5e13950",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:night-summit-downtown-2026-11-10",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:night-summit-downtown-2026-11-11",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:nordics-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:north-america-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:open-models-stronger-ecosystems",
+      "kind": "session"
+    },
+    {
+      "event": "event:open-or-closed-ai-models-which-types-of-future-do-they",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:open-source-contributors-meetup",
+      "kind": "session"
+    },
+    {
+      "event": "event:open-vs-closed-the-debate-defining-the-ai-era",
+      "kind": "session"
+    },
+    {
+      "event": "event:opening-night",
+      "kind": "summit"
+    },
+    {
+      "event": "event:opening-remarks-405fbb59",
+      "kind": "session"
+    },
+    {
+      "event": "event:opening-remarks-7332868f",
+      "kind": "session"
+    },
+    {
+      "event": "event:opening-remarks-d52f1575",
+      "kind": "session"
+    },
+    {
+      "event": "event:outsmarting-ai-defence-at-machine-speed",
+      "kind": "session"
+    },
+    {
+      "event": "event:people-in-cybersecurity-meetup",
+      "kind": "session"
+    },
+    {
+      "event": "event:pitch-final",
+      "kind": "session"
+    },
+    {
+      "event": "event:pitch-group-round-1",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-10",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-11",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-12",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-13",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-14",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-15",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-2",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-3",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-4",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-5",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-6",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-7",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-8",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-group-round-9",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-results-announcement",
+      "kind": "pitch"
+    },
+    {
+      "event": "event:pitch-semi-final",
+      "kind": "session"
+    },
+    {
+      "event": "event:pitch-winner-announcement",
+      "kind": "session"
+    },
+    {
+      "event": "event:press-conference-otter-ai-announces-its-biggest",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-pitchbook-goes-free-for-startups-new",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-rewriting-the-rules-of-female-longevity",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-road-2-web-summit-2026-winner",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-rws-launches-the-world-s-first-culturally",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-unicorn-factory-lisboa-hub-71-instituto",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-web-summit-spotlight-heads-to-paraiba-as",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-who-wins-when-ai-does-the-shopping",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-amazon-vice-president-people",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-defined-ai-founder-daniela-braga",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-gravitee-ceo-rory-blundell-collapsing",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-nordvpn-cpso-domininkas-virbickas",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-nxtplay-capital-co-founder",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-qualcomm-svp-general-manager-durga",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-replit-president-michele-catasta",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-the-world-s-first-ai-ceo-co-founder",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-vivaldi-ceo-jon-von-tetzchner",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-web-summit-ceo-and-founder-paddy",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:press-conference-with-xpeng-aridge-founder-and-president",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:pricing-saas-when-users-are-agents",
+      "kind": "session"
+    },
+    {
+      "event": "event:putting-human-rights-into-artificial-intelligence",
+      "kind": "session"
+    },
+    {
+      "event": "event:rebuilding-open-source-with-ai-lessons-learned",
+      "kind": "session"
+    },
+    {
+      "event": "event:reclaiming-human-agency-in-the-machine-era",
+      "kind": "session"
+    },
+    {
+      "event": "event:registration-2026-11-10",
+      "kind": "registration"
+    },
+    {
+      "event": "event:registration-2026-11-10-pavilhao-de-portugal",
+      "kind": "registration"
+    },
+    {
+      "event": "event:registration-2026-11-11",
+      "kind": "registration"
+    },
+    {
+      "event": "event:registration-2026-11-12",
+      "kind": "registration"
+    },
+    {
+      "event": "event:regulating-big-tech",
+      "kind": "session"
+    },
+    {
+      "event": "event:reporting-at-the-speed-of-news",
+      "kind": "session"
+    },
+    {
+      "event": "event:rewriting-the-rules-of-female-longevity",
+      "kind": "session"
+    },
+    {
+      "event": "event:romanian-tech-night-at-web-summit-lisbon-2026",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:search-built-for-ai-agents",
+      "kind": "session"
+    },
+    {
+      "event": "event:securing-the-ai-frontline",
+      "kind": "session"
+    },
+    {
+      "event": "event:securing-the-software-foundation-of-civilisation-with-ai",
+      "kind": "session"
+    },
+    {
+      "event": "event:south-asia-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:southeast-asia-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:speed-networking",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:surviving-the-ai-shift-media-s-new-reality",
+      "kind": "session"
+    },
+    {
+      "event": "event:taking-the-flying-car-from-sci-fi-to-reality",
+      "kind": "session"
+    },
+    {
+      "event": "event:taming-the-agent-swarm",
+      "kind": "session"
+    },
+    {
+      "event": "event:teaching-ai-to-see-the-world",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-100-million-prompt",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-age-of-agents",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:the-agentic-internet-who-controls-the-web",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-ai-agent-economy",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-ai-paradox-smarter-models-disappointing-results",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-attack-has-started-now-what-see-log360-zia-ai-in-action",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-attackers-are-open-source-the-defences-aren-t",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-autonomous-enterprise-networks-cloud-and-ai-agents",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-best-offense-is-a-machine-speed-defence",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-biological-bottleneck",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-enterprise-reality-check-who-s-controlling-data-and-ai",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-future-of-ai",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:the-future-of-enterprise-software-has-no-middleman",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-knowledge-your-agents-can-t-see-building-visual-context",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-last-days-of-the-rules-based-order",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-new-battle-for-brand-influence",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-next-digital-frontier",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-next-financial-crisis-are-we-ready-for-what-s-coming",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-open-source-advantage",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-perimeter-is-dead-so-what-happens-to-trust",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-portuguese-economic-success-story",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-race-for-industrial-ai-can-europe-win",
+      "kind": "session"
+    },
+    {
+      "event": "event:the-real-threat-isn-t-a-nation-state-it-s-a-teenager",
+      "kind": "session"
+    },
+    {
+      "event": "event:trust-issues-letting-ai-agents-into-production-safely",
+      "kind": "session"
+    },
+    {
+      "event": "event:uk-meet-greet",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:ukrainian-community-networking",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:universe-2026-entrepreneurial-academy-where-innovation-is",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:viable-systems-judgement-and-ai-safety",
+      "kind": "session"
+    },
+    {
+      "event": "event:web-summit-lisbon-2026",
+      "kind": "summit",
+      "hand": true
+    },
+    {
+      "event": "event:welcome-to-tomorrow",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:welcome-to-web-summit-2026",
+      "kind": "night-summit"
+    },
+    {
+      "event": "event:western-tech-all-is-not-lost",
+      "kind": "session"
+    },
+    {
+      "event": "event:what-comes-after-the-blue-wave",
+      "kind": "session"
+    },
+    {
+      "event": "event:what-do-the-us-midterms-tell-us-about-the-future-of-america",
+      "kind": "announcement"
+    },
+    {
+      "event": "event:what-does-a-self-driving-company-look-like",
+      "kind": "session"
+    },
+    {
+      "event": "event:when-agents-write-the-code-does-a-framework-like-angular",
+      "kind": "session"
+    },
+    {
+      "event": "event:when-ai-agents-go-rogue",
+      "kind": "session"
+    },
+    {
+      "event": "event:when-ai-builds-itself",
+      "kind": "session"
+    },
+    {
+      "event": "event:when-ai-leaves-the-screen",
+      "kind": "session"
+    },
+    {
+      "event": "event:when-ai-verifies-ai",
+      "kind": "session"
+    },
+    {
+      "event": "event:when-software-meets-matter",
+      "kind": "session"
+    },
+    {
+      "event": "event:who-gets-a-say-in-football-s-future",
+      "kind": "session"
+    },
+    {
+      "event": "event:who-holds-the-kill-switch",
+      "kind": "session"
+    },
+    {
+      "event": "event:who-let-the-agent-in",
+      "kind": "session"
+    },
+    {
+      "event": "event:who-takes-the-fall-for-autonomous-ai",
+      "kind": "session"
+    },
+    {
+      "event": "event:who-wins-in-the-age-of-agentic-ai",
+      "kind": "session"
+    },
+    {
+      "event": "event:why-ai-agents-stall-at-the-production-line",
+      "kind": "session"
+    },
+    {
+      "event": "event:why-your-ai-agents-don-t-understand-your-business-and-how",
+      "kind": "session"
+    },
+    {
+      "event": "event:will-tech-save-the-energy-sector-or-break-it",
+      "kind": "session"
+    },
+    {
+      "event": "event:work-in-finland-side-event",
+      "kind": "side-event"
+    },
+    {
+      "event": "event:your-ai-agent-just-got-a-passport",
+      "kind": "session"
+    },
+    {
+      "event": "event:zombie-data-how-your-data-comes-back-to-haunt-you",
+      "kind": "session"
+    }
+  ],
+  "organisations": [
+    {
+      "organisation": "organisation:accel"
+    },
+    {
+      "organisation": "organisation:agibot"
+    },
+    {
+      "organisation": "organisation:agibot-europe"
+    },
+    {
+      "organisation": "organisation:ai-curious"
+    },
+    {
+      "organisation": "organisation:al-jazeera-english"
+    },
+    {
+      "organisation": "organisation:alqem"
+    },
+    {
+      "organisation": "organisation:amazon"
+    },
+    {
+      "organisation": "organisation:amino-capital"
+    },
+    {
+      "organisation": "organisation:applied-intuition"
+    },
+    {
+      "organisation": "organisation:archive"
+    },
+    {
+      "organisation": "organisation:arm"
+    },
+    {
+      "organisation": "organisation:aspen-institute-central-europe"
+    },
+    {
+      "organisation": "organisation:associated-press"
+    },
+    {
+      "organisation": "organisation:atlantic"
+    },
+    {
+      "organisation": "organisation:atlassian-williams-f1-team"
+    },
+    {
+      "organisation": "organisation:aws",
+      "hand": true
+    },
+    {
+      "organisation": "organisation:axios"
+    },
+    {
+      "organisation": "organisation:bagel-labs"
+    },
+    {
+      "organisation": "organisation:battery-ventures"
+    },
+    {
+      "organisation": "organisation:berkeley-center-for-law-and-business"
+    },
+    {
+      "organisation": "organisation:berkeley-skydeck-fund"
+    },
+    {
+      "organisation": "organisation:black-forest-labs"
+    },
+    {
+      "organisation": "organisation:bloomberg"
+    },
+    {
+      "organisation": "organisation:businessit-pc-guia"
+    },
+    {
+      "organisation": "organisation:c-lab"
+    },
+    {
+      "organisation": "organisation:cal-com"
+    },
+    {
+      "organisation": "organisation:center-for-china-and-globalization"
+    },
+    {
+      "organisation": "organisation:cgtn-europe"
+    },
+    {
+      "organisation": "organisation:city-of-lisbon"
+    },
+    {
+      "organisation": "organisation:cleo-capital"
+    },
+    {
+      "organisation": "organisation:cnbc"
+    },
+    {
+      "organisation": "organisation:cnet"
+    },
+    {
+      "organisation": "organisation:cnn"
+    },
+    {
+      "organisation": "organisation:coelius-capital"
+    },
+    {
+      "organisation": "organisation:council-of-europe"
+    },
+    {
+      "organisation": "organisation:coval"
+    },
+    {
+      "organisation": "organisation:current-affairs"
+    },
+    {
+      "organisation": "organisation:dataconomy-media"
+    },
+    {
+      "organisation": "organisation:deadline"
+    },
+    {
+      "organisation": "organisation:deutsche-presse-agentur"
+    },
+    {
+      "organisation": "organisation:deutsche-welle"
+    },
+    {
+      "organisation": "organisation:digital-inside"
+    },
+    {
+      "organisation": "organisation:discord"
+    },
+    {
+      "organisation": "organisation:eco"
+    },
+    {
+      "organisation": "organisation:elders"
+    },
+    {
+      "organisation": "organisation:enforceshield"
+    },
+    {
+      "organisation": "organisation:ephemeral"
+    },
+    {
+      "organisation": "organisation:euronews"
+    },
+    {
+      "organisation": "organisation:european-parliament"
+    },
+    {
+      "organisation": "organisation:eutopia"
+    },
+    {
+      "organisation": "organisation:f-prime-capital"
+    },
+    {
+      "organisation": "organisation:fapesq-pb"
+    },
+    {
+      "organisation": "organisation:fast-company"
+    },
+    {
+      "organisation": "organisation:financial-times"
+    },
+    {
+      "organisation": "organisation:forbes-freelance"
+    },
+    {
+      "organisation": "organisation:foreign-policy-magazine"
+    },
+    {
+      "organisation": "organisation:fortune"
+    },
+    {
+      "organisation": "organisation:foundation-capital"
+    },
+    {
+      "organisation": "organisation:foundation-for-freedom-online"
+    },
+    {
+      "organisation": "organisation:france-24"
+    },
+    {
+      "organisation": "organisation:free-agent"
+    },
+    {
+      "organisation": "organisation:fundamental"
+    },
+    {
+      "organisation": "organisation:future-government-institute"
+    },
+    {
+      "organisation": "organisation:g-squared"
+    },
+    {
+      "organisation": "organisation:galbot"
+    },
+    {
+      "organisation": "organisation:georgetown-university"
+    },
+    {
+      "organisation": "organisation:glean"
+    },
+    {
+      "organisation": "organisation:google",
+      "hand": true
+    },
+    {
+      "organisation": "organisation:government-of-czech-republic"
+    },
+    {
+      "organisation": "organisation:government-of-slovakia"
+    },
+    {
+      "organisation": "organisation:government-of-the-state-of-sao-paulo-brazil"
+    },
+    {
+      "organisation": "organisation:governo-do-estado-da-paraiba"
+    },
+    {
+      "organisation": "organisation:granola"
+    },
+    {
+      "organisation": "organisation:gravitee"
+    },
+    {
+      "organisation": "organisation:grupo-renascenca-multimedia"
+    },
+    {
+      "organisation": "organisation:guardian-uk"
+    },
+    {
+      "organisation": "organisation:guardian-us"
+    },
+    {
+      "organisation": "organisation:harvard-business-review"
+    },
+    {
+      "organisation": "organisation:harvard-business-school-harvard-business-review"
+    },
+    {
+      "organisation": "organisation:hertha-metals"
+    },
+    {
+      "organisation": "organisation:higgsfield"
+    },
+    {
+      "organisation": "organisation:hill"
+    },
+    {
+      "organisation": "organisation:house-of-angular"
+    },
+    {
+      "organisation": "organisation:hub71"
+    },
+    {
+      "organisation": "organisation:human-intention"
+    },
+    {
+      "organisation": "organisation:hv-capital"
+    },
+    {
+      "organisation": "organisation:idealab-ai-and-prorata"
+    },
+    {
+      "organisation": "organisation:inc"
+    },
+    {
+      "organisation": "organisation:indico-capital-partners"
+    },
+    {
+      "organisation": "organisation:inflect"
+    },
+    {
+      "organisation": "organisation:instituto-caldeira"
+    },
+    {
+      "organisation": "organisation:intel"
+    },
+    {
+      "organisation": "organisation:jasper"
+    },
+    {
+      "organisation": "organisation:john-hopkins-university"
+    },
+    {
+      "organisation": "organisation:justai"
+    },
+    {
+      "organisation": "organisation:kamino"
+    },
+    {
+      "organisation": "organisation:kobeissi-letter"
+    },
+    {
+      "organisation": "organisation:kyiv-post"
+    },
+    {
+      "organisation": "organisation:le-monde"
+    },
+    {
+      "organisation": "organisation:lenovo"
+    },
+    {
+      "organisation": "organisation:levitate-foundry"
+    },
+    {
+      "organisation": "organisation:lush"
+    },
+    {
+      "organisation": "organisation:mashable"
+    },
+    {
+      "organisation": "organisation:mastercard"
+    },
+    {
+      "organisation": "organisation:md-media-fusion"
+    },
+    {
+      "organisation": "organisation:microsoft",
+      "hand": true
+    },
+    {
+      "organisation": "organisation:mindstone"
+    },
+    {
+      "organisation": "organisation:minimax"
+    },
+    {
+      "organisation": "organisation:mit-technology-review"
+    },
+    {
+      "organisation": "organisation:modelbest"
+    },
+    {
+      "organisation": "organisation:monzo"
+    },
+    {
+      "organisation": "organisation:moonfire"
+    },
+    {
+      "organisation": "organisation:moonshot-ai"
+    },
+    {
+      "organisation": "organisation:national-centre-for-advanced-computing"
+    },
+    {
+      "organisation": "organisation:national-public-radio"
+    },
+    {
+      "organisation": "organisation:new-world"
+    },
+    {
+      "organisation": "organisation:new-york-times"
+    },
+    {
+      "organisation": "organisation:norriv"
+    },
+    {
+      "organisation": "organisation:nxtplay-capital"
+    },
+    {
+      "organisation": "organisation:omoway"
+    },
+    {
+      "organisation": "organisation:otter"
+    },
+    {
+      "organisation": "organisation:pally"
+    },
+    {
+      "organisation": "organisation:parable"
+    },
+    {
+      "organisation": "organisation:pcmag"
+    },
+    {
+      "organisation": "organisation:picsart"
+    },
+    {
+      "organisation": "organisation:plug"
+    },
+    {
+      "organisation": "organisation:plug-and-play-tech-center"
+    },
+    {
+      "organisation": "organisation:politico"
+    },
+    {
+      "organisation": "organisation:pony-ai"
+    },
+    {
+      "organisation": "organisation:purpose"
+    },
+    {
+      "organisation": "organisation:radio-renascenca"
+    },
+    {
+      "organisation": "organisation:reddit"
+    },
+    {
+      "organisation": "organisation:rethink-retail"
+    },
+    {
+      "organisation": "organisation:reuters-news"
+    },
+    {
+      "organisation": "organisation:rokid"
+    },
+    {
+      "organisation": "organisation:runway"
+    },
+    {
+      "organisation": "organisation:sag-aftra"
+    },
+    {
+      "organisation": "organisation:samepage-ai"
+    },
+    {
+      "organisation": "organisation:santarem-polytechnic-university"
+    },
+    {
+      "organisation": "organisation:scoreplay"
+    },
+    {
+      "organisation": "organisation:sebrae-paraiba"
+    },
+    {
+      "organisation": "organisation:senen"
+    },
+    {
+      "organisation": "organisation:serpro"
+    },
+    {
+      "organisation": "organisation:sgf-global"
+    },
+    {
+      "organisation": "organisation:siemens"
+    },
+    {
+      "organisation": "organisation:simular"
+    },
+    {
+      "organisation": "organisation:skild-ai"
+    },
+    {
+      "organisation": "organisation:sky-news"
+    },
+    {
+      "organisation": "organisation:sky-sports-and-noosphere"
+    },
+    {
+      "organisation": "organisation:sky-sports-news"
+    },
+    {
+      "organisation": "organisation:skyfall-ai"
+    },
+    {
+      "organisation": "organisation:somewhere-on-earth-the-tech-global-podcast"
+    },
+    {
+      "organisation": "organisation:south-china-morning-post"
+    },
+    {
+      "organisation": "organisation:spangle"
+    },
+    {
+      "organisation": "organisation:stanford-hai"
+    },
+    {
+      "organisation": "organisation:stanford-university"
+    },
+    {
+      "organisation": "organisation:sumcap"
+    },
+    {
+      "organisation": "organisation:sygaldry-technologies"
+    },
+    {
+      "organisation": "organisation:techcrunch"
+    },
+    {
+      "organisation": "organisation:tencent"
+    },
+    {
+      "organisation": "organisation:time"
+    },
+    {
+      "organisation": "organisation:true-ventures"
+    },
+    {
+      "organisation": "organisation:trump-and-vance-campaigns"
+    },
+    {
+      "organisation": "organisation:tvi"
+    },
+    {
+      "organisation": "organisation:uae-ministry-of-investment"
+    },
+    {
+      "organisation": "organisation:ubtech-robotics"
+    },
+    {
+      "organisation": "organisation:unframe"
+    },
+    {
+      "organisation": "organisation:union-square-ventures"
+    },
+    {
+      "organisation": "organisation:unitree"
+    },
+    {
+      "organisation": "organisation:university-of-austin-texas"
+    },
+    {
+      "organisation": "organisation:unleash-football"
+    },
+    {
+      "organisation": "organisation:us-government"
+    },
+    {
+      "organisation": "organisation:vatican"
+    },
+    {
+      "organisation": "organisation:vermillio"
+    },
+    {
+      "organisation": "organisation:vivaldi"
+    },
+    {
+      "organisation": "organisation:vogue-business"
+    },
+    {
+      "organisation": "organisation:washington-post"
+    },
+    {
+      "organisation": "organisation:web-summit",
+      "hand": true
+    },
+    {
+      "organisation": "organisation:wired"
+    },
+    {
+      "organisation": "organisation:xiaomi"
+    },
+    {
+      "organisation": "organisation:xpeng"
+    },
+    {
+      "organisation": "organisation:xpeng-aridge"
+    },
+    {
+      "organisation": "organisation:xpeng-aridge-flying-cars"
+    },
+    {
+      "organisation": "organisation:xynova"
+    }
+  ],
+  "places": [
+    {
+      "place": "place:centre-stage"
+    },
+    {
+      "place": "place:centro-de-congressos-ulisboa"
+    },
+    {
+      "place": "place:centro-vasco-de-gama"
+    },
+    {
+      "place": "place:developer-lounge"
+    },
+    {
+      "place": "place:disco-bar"
+    },
+    {
+      "place": "place:fil"
+    },
+    {
+      "place": "place:gale-patio"
+    },
+    {
+      "place": "place:humberto-delgado-airport-terminal-1"
+    },
+    {
+      "place": "place:ibm-portugal"
+    },
+    {
+      "place": "place:idb-rooftop-by-mirari"
+    },
+    {
+      "place": "place:lisbon"
+    },
+    {
+      "place": "place:masterclass-1"
+    },
+    {
+      "place": "place:masterclass-2"
+    },
+    {
+      "place": "place:masterclass-3"
+    },
+    {
+      "place": "place:masterclass-4"
+    },
+    {
+      "place": "place:meetup-1"
+    },
+    {
+      "place": "place:meetup-2"
+    },
+    {
+      "place": "place:meetup-3"
+    },
+    {
+      "place": "place:meetup-4"
+    },
+    {
+      "place": "place:meetup-5"
+    },
+    {
+      "place": "place:meetup-6"
+    },
+    {
+      "place": "place:meo-arena-and-fil"
+    },
+    {
+      "place": "place:olissippo"
+    },
+    {
+      "place": "place:palacete-dos-condes-de-monte-real"
+    },
+    {
+      "place": "place:parque-das-nacoes"
+    },
+    {
+      "place": "place:pavilhao-de-portugal"
+    },
+    {
+      "place": "place:pavilion-5"
+    },
+    {
+      "place": "place:quiosque-lisboa-praca-sao-paulo"
+    },
+    {
+      "place": "place:quiosque-lisboa-principe-real"
+    },
+    {
+      "place": "place:rua-das-portas-de-santo-antao"
+    },
+    {
+      "place": "place:social-club"
+    },
+    {
+      "place": "place:soul-kitchen-and-bar"
+    },
+    {
+      "place": "place:spaces-oriente"
+    },
+    {
+      "place": "place:speed-networking"
+    },
+    {
+      "place": "place:stage-10"
+    },
+    {
+      "place": "place:stage-11"
+    },
+    {
+      "place": "place:stage-12"
+    },
+    {
+      "place": "place:stage-13"
+    },
+    {
+      "place": "place:stage-2"
+    },
+    {
+      "place": "place:stage-4"
+    },
+    {
+      "place": "place:stage-6"
+    },
+    {
+      "place": "place:stage-7"
+    },
+    {
+      "place": "place:stage-8"
+    },
+    {
+      "place": "place:stage-9"
+    },
+    {
+      "place": "place:unicorn-factory-lisboa"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "data/companies/",
+      "data/events/",
+      "data/people/",
+      "data/organisations/",
+      "data/places/"
+    ]
+  }
+}

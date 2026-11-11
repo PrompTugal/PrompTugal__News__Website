@@ -1,0 +1,239 @@
+{
+  "story": "the-handover",
+  "from": "board/team/work-desk/traces/the-handover.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": [
+    {
+      "id": "s001",
+      "time": "2026-11-11T18:44:29Z",
+      "actor": "conductor@web-summit.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's word (about 18:55 by the commit body): 'all 17 return'; may push to requests/from-team/, a lane request and its own key",
+      "output": "its key conductor-vicky-2-promptugal in board/keys.json; a lane re-issue request to conductor@PrompTugal.dinis; asks conductor.B to disable each twin's wake once the team agent confirms",
+      "handoff_to": [
+        "conductor.B@PrompTugal.vicky",
+        "conductor@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:d94b808e2"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (Vicky moves her agents from the 'twin' sessions back to her team account)",
+      "workflow_step": null,
+      "minute": 0
+    },
+    {
+      "id": "s002",
+      "time": "2026-11-11T18:55:30Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the team conductor's request",
+      "output": "accepted (standing answer 32); no team agent confirmed yet, no wake disabled",
+      "handoff_to": [
+        "conductor@web-summit.vicky"
+      ],
+      "evidence": [
+        "commit:4064adb45"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent (one conductor hands its team to another)",
+      "workflow_step": null,
+      "minute": 11
+    },
+    {
+      "id": "s003",
+      "time": "2026-11-11T19:06:27Z",
+      "actor": "Vicky's team-account agents",
+      "actor_kind": "agent",
+      "input": "the handover rules (CLAUDE.md, 'Handing a role to a new session')",
+      "output": "a fresh session key each, the twin's '-b' entry marked superseded: curator 19:06, programme 19:08, journalist 19:11, journalist-portugal 19:12, journalist-europe 19:14, journalist-ai 19:15, journalist-connections 19:16, checker 19:21, dev 19:23, reviewer 19:24",
+      "handoff_to": [
+        "board/keys.json"
+      ],
+      "evidence": [
+        "commit:8b42680b3",
+        "commit:b055a4e7f",
+        "commit:3a83bf971",
+        "commit:5bef7d64e",
+        "commit:f7f9d9c1e",
+        "commit:174ff5b75",
+        "commit:6c07f1edb",
+        "commit:dd168f05b",
+        "commit:ea719cee7",
+        "commit:99d0a6132"
+      ],
+      "tokens": null,
+      "hand_off": "agents->record (ten keys in 18 minutes)",
+      "workflow_step": null,
+      "minute": 22
+    },
+    {
+      "id": "s004",
+      "time": "2026-11-11T19:07:31Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's word",
+      "output": "the storm page and S41 to move to the team reviewer@ and dev@",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky",
+        "dev@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:379f8cd55"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent",
+      "workflow_step": null,
+      "minute": 23
+    },
+    {
+      "id": "s005",
+      "time": "2026-11-11T19:18:34Z",
+      "actor": "Vicky Wang",
+      "actor_kind": "person",
+      "input": "the move",
+      "output": "correction: the storm page and S41 stay with the old reviewer@ and dev@ until the team ones confirm RULES-11NOV (the day's source rules)",
+      "handoff_to": [
+        "conductor.B@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:0d082177c"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (a person makes the rules a condition of the handover)",
+      "workflow_step": null,
+      "minute": 34
+    },
+    {
+      "id": "s007",
+      "time": "2026-11-11T19:23:02Z",
+      "actor": "reviewer@PrompTugal.vicky (old session)",
+      "actor_kind": "agent",
+      "input": "storm staging 9b45f0a5e",
+      "output": "verified; a hand-over note",
+      "handoff_to": [],
+      "evidence": [
+        "commit:b67cf9cae"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 39
+    },
+    {
+      "id": "s006",
+      "time": "2026-11-11T19:24:35Z",
+      "actor": "reviewer@PrompTugal.vicky (team account)",
+      "actor_kind": "agent",
+      "input": "its new key",
+      "output": "41 articles re-signed with reviewer-vicky-promptugal-3",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:5c672aca4"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 40
+    },
+    {
+      "id": "s008",
+      "time": "2026-11-11T19:33:02Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "team confirmations of RULES-11NOV (journalist-ai@ 19:30, others)",
+      "output": "eight twin wakes disabled; reviewer@ and dev@ keep the storm until the team reviewer confirms",
+      "handoff_to": [
+        "conductor@web-summit.vicky",
+        "Vicky Wang"
+      ],
+      "evidence": [
+        "commit:957b24aae",
+        "commit:9b7537ab3"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent and agent->person",
+      "workflow_step": null,
+      "minute": 49
+    },
+    {
+      "id": "s009",
+      "time": "2026-11-11T19:39:26Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the team reviewer's confirmation",
+      "output": "the reviewer twin disabled; the storm page and S41 handed to the team reviewer@ and dev@; all nine twins done",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky",
+        "dev@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:0f22d6eb3"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agents",
+      "workflow_step": null,
+      "minute": 55
+    },
+    {
+      "id": "s010",
+      "time": "2026-11-11T19:44:39Z",
+      "actor": "conductor@web-summit.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's word (about 19:50)",
+      "output": "tells conductor@PrompTugal.dinis of the old reviewer session's one commit after its hand-over; nothing asked",
+      "handoff_to": [
+        "conductor@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:0e793ca2a"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent->agent",
+      "workflow_step": null,
+      "minute": 60
+    },
+    {
+      "id": "s011",
+      "time": "2026-11-11T20:09:18Z",
+      "actor": "conductor@web-summit.vicky",
+      "actor_kind": "agent",
+      "input": "the keys file",
+      "output": "asks conductor.B to mark researcher-b-promptugal superseded",
+      "handoff_to": [
+        "conductor.B@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:40b9674c6"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 85
+    },
+    {
+      "id": "s012",
+      "time": "2026-11-11T20:53:10Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the request",
+      "output": "refused: researcher-b-promptugal is Dinis's researcher's key, not this account's; withdrawn by the team conductor at 21:08",
+      "handoff_to": [
+        "conductor@web-summit.vicky"
+      ],
+      "evidence": [
+        "commit:a5519dde3",
+        "commit:04ec52f6c",
+        "commit:7907823bc (security@: 'a cross-team supersede request rightly refused')"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent (a conductor refuses a change to another team's key)",
+      "workflow_step": null,
+      "minute": 129
+    }
+  ],
+  "first": "2026-11-11T18:44:29Z",
+  "last": "2026-11-11T20:53:10Z"
+}

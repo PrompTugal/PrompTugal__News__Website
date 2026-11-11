@@ -1,0 +1,5 @@
+{
+  "about": "The switch for the pass 2026-11-11-only-websummit-sourced-comes-off (newsroom/build/lib/wsonly.mjs). Off: the gate counts what rests only on websummit.com and nothing served changes. On, after security@'s pre-review and ontologist@'s inventory (steps 1 and 2): the build leaves those items out of every page, list, graph, served JSON and twin, with the note.",
+  "on": false,
+  "inventory": "data/websummit-only.json"
+}

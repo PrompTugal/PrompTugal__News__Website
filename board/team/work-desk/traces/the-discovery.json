@@ -5,11 +5,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T18:45Z",
+  "updated": "2026-11-11T21:50Z",
   "covers": {
     "from": "2026-11-11T00:22:10Z",
-    "to": "2026-11-11T18:14:49Z",
-    "last_commit": "a1c9f34dc"
+    "to": "2026-11-11T21:26:42Z",
+    "last_commit": "1649d9879"
   },
   "method": "commit subjects and trailers on dev; times are commit times (UTC).",
   "steps": [
@@ -1132,6 +1132,109 @@
       ],
       "hand_off": "agent->agents (across teams: Silvio's agent checks Vicky's published article)",
       "note": "The first outside check on a night-shift article; open at 18:28."
+    },
+    {
+      "n": 55,
+      "time_utc": "2026-11-11T20:22:28Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "THU-GUIDE",
+      "output": "S58 commissioned: Thursday's practical guide",
+      "hand_off_to": [
+        {
+          "name": "journalist@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:ee5e9ea65"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "commission"
+    },
+    {
+      "n": 56,
+      "time_utc": "2026-11-11T20:30:29Z",
+      "actor": {
+        "name": "journalist@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S58",
+      "output": "drafted",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:47e16e6a6"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 57,
+      "time_utc": "2026-11-11T20:48:50Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S58",
+      "output": "published under R-PUB-1",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:ae2d228bc"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 26 min from commission"
+    },
+    {
+      "n": 58,
+      "time_utc": "2026-11-11T21:07:51Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "Wednesday is over",
+      "output": "S44 dropped",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:00e9f0b2b"
+      ],
+      "hand_off": "person->agent"
+    },
+    {
+      "n": 59,
+      "time_utc": "2026-11-11T21:26:42Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the takedown (the-terms.json step 23)",
+      "output": "S47 and S49, night-shift stories, withdrawn with S44",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:1649d9879"
+      ],
+      "hand_off": "person->agent",
+      "note": "Two of the night's ten publications rested only on websummit.com."
     }
   ],
   "hand_offs_person_agent": [
@@ -1149,7 +1252,10 @@
     44,
     48,
     49,
-    53
+    53,
+    57,
+    58,
+    59
   ],
   "funnel": {
     "leads": 21,
@@ -1170,6 +1276,10 @@
     "dropped_or_waiting": [
       "S57 (side events: Luma)",
       "Friday AI Act side event"
+    ],
+    "withdrawn": [
+      "S47",
+      "S49"
     ]
   },
   "speeds": [

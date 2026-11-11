@@ -39,6 +39,7 @@ Vicky, 6 November 2026; the cover rule, 7 November 2026.
 - Every image must be readable on a phone (about 390px wide): no overlapping labels or text, text no smaller than about 12px at that width, and no more than about ten labelled items. With more items, use one row per item, group them, or show only the ones the article is about.
 - Before pushing, open your image at phone width and look at it yourself. If any label is hard to read, redraw it.
 - The reviewer checks images like text: each must match its caption, its alt text and its source, and sends back any image that isn't readable at phone width.
+- **Where the main image goes** (Vicky, 11 November 2026, about 21:45 UTC: "the main image goes directly under the "The story" heading, before the first paragraph of the story, with its caption under it."): put the article's main image directly under the `## The story` heading, before the story's first paragraph, with its caption directly under the image. The reviewer checks this on every draft and moves a misplaced image itself (standing answer 17).
 
 ## Style
 - Short, plain sentences. British spelling. No em-dashes.

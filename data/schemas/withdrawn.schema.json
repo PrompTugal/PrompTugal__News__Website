@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/withdrawn.schema.json",
+  "title": "Pages withdrawn from the site (data/site/withdrawn.json; newsroom/build/lib/withdrawn.mjs)",
+  "type": "object",
+  "required": ["about", "notice", "articles", "stories"],
+  "additionalProperties": false,
+  "properties": {
+    "about": { "type": "string" },
+    "notice": { "type": "string", "minLength": 1 },
+    "articles": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" } },
+    "stories": { "type": "array", "items": { "type": "string", "pattern": "^[A-Z]+[0-9]+$" } }
+  }
+}

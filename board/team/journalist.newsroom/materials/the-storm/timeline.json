@@ -2652,8 +2652,122 @@
       "hand_off": null,
       "workflow_step": null,
       "minute": 1733
+    },
+    {
+      "id": "s143",
+      "time": "2026-11-11T18:38:24Z",
+      "actor": "weather@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "18:37 check",
+      "output": "only Lisbon's sea warning remains",
+      "handoff_to": [
+        "dev@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:f46f9f159",
+        "commit:9b45f0a5e (storm page staged)"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1755
+    },
+    {
+      "id": "s144",
+      "time": "2026-11-11T18:45:24Z",
+      "actor": "correspondent@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "Thursday's edition",
+      "output": "S41 keeps the lead until the storm page has another link (moved at 20:41: the lead to Thursday, the storm to the top three)",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:a46125ffc",
+        "commit:3d5587c9e"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1762
+    },
+    {
+      "id": "s145",
+      "time": "2026-11-11T19:07:31Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's word",
+      "output": "weather@ reports to conductor.B only (from 19:05); the storm page and S41 move to the team account's reviewer@ and dev@, then (19:18, Vicky's correction) stay until the team ones confirm the rules; handed over at 19:39",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky",
+        "dev@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:379f8cd55",
+        "commit:0d082177c",
+        "commit:0f22d6eb3",
+        "commit:ceec6b648"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (the storm desk changes hands mid-story: the-handover.json)",
+      "workflow_step": null,
+      "minute": 1785
+    },
+    {
+      "id": "s146",
+      "time": "2026-11-11T19:25:16Z",
+      "actor": "dev@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "the lead moving off the storm",
+      "output": "the home page links the storm page from the live sources strip, whatever leads",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:87e0942d7"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1802
+    },
+    {
+      "id": "s147",
+      "time": "2026-11-11T19:51:10Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "IPMA, read 19:48 (the team account's reviewer)",
+      "output": "S41: only Lisbon's sea warning remains; rain ended at 18:00",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:641aa1ff1"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "the last warning update of the storm",
+      "minute": 1828
+    },
+    {
+      "id": "s148",
+      "time": "2026-11-11T20:36:56Z",
+      "actor": "weather@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "20:36 check",
+      "output": "no material change; Fertagus expects no disruption for the rest of the day",
+      "handoff_to": [
+        "conductor.B@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:be5c9845e"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1874
     }
   ],
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T18:15:47Z"
+  "last": "2026-11-11T20:36:56Z"
 }

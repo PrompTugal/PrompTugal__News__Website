@@ -1,7 +1,7 @@
 {
   "about": "Lisbon's alternative, unconference, community and side events around Web Summit 2026 (9 to 15 November), from public event pages, each with its URL and the time read; status says whether the storm (Wednesday 11 November) moved or cancelled it. For Lisbon Fringe's team (Dinis, 11 November 2026, about 10:00 UTC: board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md). Organisers as organisations; no private people, no contact details.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T16:53Z",
+  "updated": "2026-11-11T21:53Z",
   "notes": [
     "Unconference found (10:53 UTC): Lisbon Community Week (Led by Community) runs an unconference on Friday 13 November, 15:45 to 17:15, at Impact Hub Lisbon (Penha), in its conference pass (page opened 10:53). A separate 'Unconference Plus Lisbon' on Saturday 14 November appears in a search result only; no page opened, so it is recorded unverified. No barcamp or open-space event found.",
     "iproxy.online's side-events list now read in full (two passes); about 20 of some 80 Thursday-to-Saturday events opened so far."
@@ -24,7 +24,8 @@
         "web"
       ],
       "read_at": "2026-11-11T10:35:00Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Side Events Guide IRL (Wednesday)",
@@ -43,7 +44,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Meetup near Web Summit venue; the conference's Wednesday was cancelled but the page shows no note"
+      "note": "Meetup near Web Summit venue; the conference's Wednesday was cancelled but the page shows no note",
+      "machine_read_before_rule": true
     },
     {
       "name": "[CANCELLED] Proof of Run: rain edition (coffee, no run)",
@@ -63,7 +65,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Title marked cancelled; the coffee part remains on the page"
+      "note": "Title marked cancelled; the coffee part remains on the page",
+      "machine_read_before_rule": true
     },
     {
       "name": "Strength & Coffee for Founders & Builders",
@@ -83,7 +86,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Date from iproxy list; page itself gives no date"
+      "note": "Date from iproxy list; page itself gives no date",
+      "machine_read_before_rule": true
     },
     {
       "name": "Wet Summit (investor-only meetup, moved)",
@@ -143,7 +147,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Outdoor rooftop; page has no storm note, check before going"
+      "note": "Outdoor rooftop; page has no storm note, check before going",
+      "machine_read_before_rule": true
     },
     {
       "name": "Show What You Build: Makers & Doers",
@@ -163,7 +168,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Date from iproxy list; page gives no date"
+      "note": "Date from iproxy list; page gives no date",
+      "machine_read_before_rule": true
     },
     {
       "name": "AI Horizon Conference 2026",
@@ -183,7 +189,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Date from iproxy list"
+      "note": "Date from iproxy list",
+      "machine_read_before_rule": true
     },
     {
       "name": "DemoNightLx Web Summit Week Edition (Canopy Demo Night)",
@@ -203,7 +210,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Unclear whether fully online or hybrid; drinks after at Martinhal Hotel"
+      "note": "Unclear whether fully online or hybrid; drinks after at Martinhal Hotel",
+      "machine_read_before_rule": true
     },
     {
       "name": "KCD Warmup and Web Summit Side Event #29",
@@ -225,7 +233,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Marked canceled, no reason given"
+      "note": "Marked canceled, no reason given",
+      "machine_read_before_rule": true
     },
     {
       "name": "Kick off meeting WebSummit Lisbon",
@@ -245,7 +254,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Community's first in-person meetup; page shows no change, status as of read"
+      "note": "Community's first in-person meetup; page shows no change, status as of read",
+      "machine_read_before_rule": true
     },
     {
       "name": "Open Mercato Night: AI agents build a custom CRM, live",
@@ -267,7 +277,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Marked POSTPONED; status moved/unknown new date"
+      "note": "Marked POSTPONED; status moved/unknown new date",
+      "machine_read_before_rule": true
     },
     {
       "name": "IndieSummit Lisboa Meetup: Entrepreneur Social",
@@ -287,7 +298,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Informal no-agenda meetup; closest thing to an unconference format found, not billed as one"
+      "note": "Informal no-agenda meetup; closest thing to an unconference format found, not billed as one",
+      "machine_read_before_rule": true
     },
     {
       "name": "Tech Art Lisboa: PTW26 Edition",
@@ -308,7 +320,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": false,
-      "note": "Event page returned 404; details only from iproxy side-events list"
+      "note": "Event page returned 404; details only from iproxy side-events list",
+      "machine_read_before_rule": true
     },
     {
       "name": "Female Founders Breakfast: Websummit Special",
@@ -327,7 +340,8 @@
         "founders"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Open Coffee Lisbon Web Summit Special #53",
@@ -347,7 +361,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Venue changed to Impact Hub per page; not storm related"
+      "note": "Venue changed to Impact Hub per page; not storm related",
+      "machine_read_before_rule": true
     },
     {
       "name": "Founders, Builders & Community Pros Connect Day",
@@ -366,7 +381,8 @@
       ],
       "read_at": "2026-11-11T10:53:14Z",
       "verified": false,
-      "note": "Page marked Past Event and no date shown; date inferred, unverified."
+      "note": "Page marked Past Event and no date shown; date inferred, unverified.",
+      "machine_read_before_rule": true
     },
     {
       "name": "Cafe and Code: Developer Cafe Takeover",
@@ -385,7 +401,8 @@
         "AI"
       ],
       "read_at": "2026-11-11T10:35:00Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "staaake Thursday AI/Tech Lunch Dinner Club",
@@ -404,7 +421,8 @@
         "dinner"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Breaking into America: US Fundraising Playbook for European Founders",
@@ -423,7 +441,8 @@
         "fundraising"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "AfterWeb: Music & Connection Over Lisbon",
@@ -442,7 +461,8 @@
       ],
       "read_at": "2026-11-11T10:53:14Z",
       "verified": true,
-      "note": "Also shown as Music & Connection Over Lisbon, after WebSummit."
+      "note": "Also shown as Music & Connection Over Lisbon, after WebSummit.",
+      "machine_read_before_rule": true
     },
     {
       "name": "Camp Summit (Acampada de Lisboa counter-event: rally, debates, assembly)",
@@ -484,7 +504,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Existing registrations still count"
+      "note": "Existing registrations still count",
+      "machine_read_before_rule": true
     },
     {
       "name": "EIT Jumpstarter 2026 Awards Ceremony",
@@ -503,7 +524,8 @@
         "awards"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Disconnect 2 Connect",
@@ -523,7 +545,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Phones-away conversation per iproxy list"
+      "note": "Phones-away conversation per iproxy list",
+      "machine_read_before_rule": true
     },
     {
       "name": "Lisbon Digital Nomads After Hours @ PTW Palace",
@@ -542,7 +565,8 @@
         "nomads"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Founders (don't) cry",
@@ -561,7 +585,8 @@
         "founders"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Contracts & Cocktails: A Founder Legal Tech Mixer",
@@ -580,7 +605,8 @@
         "startups"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Match Me at Web Summit",
@@ -599,7 +625,8 @@
         "networking"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "MOON SUMMIT | Web Summit Closing Night",
@@ -617,7 +644,8 @@
         "party"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Get Down At The Dev House",
@@ -636,7 +664,8 @@
         "party"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Web Summit After Party",
@@ -656,7 +685,8 @@
       ],
       "read_at": "2026-11-11T10:53:14Z",
       "verified": true,
-      "note": "About 1,000 registered; no storm mention."
+      "note": "About 1,000 registered; no storm mention.",
+      "machine_read_before_rule": true
     },
     {
       "name": "Lisbon Community Week Conference 2026",
@@ -676,7 +706,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Community professionals' day with after party | Re-read 10:53: includes an unconference, Friday 13 November 15:45 to 17:15 ('A participant-led session shaped by the community'), in the same pass as the conference, workshop and after party (17:30 to 19:30). No Saturday day on this page."
+      "note": "Community professionals' day with after party | Re-read 10:53: includes an unconference, Friday 13 November 15:45 to 17:15 ('A participant-led session shaped by the community'), in the same pass as the conference, workshop and after party (17:30 to 19:30). No Saturday day on this page.",
+      "machine_read_before_rule": true
     },
     {
       "name": "PTW Classroom: Ladies Who Build, Lovable and Grok",
@@ -696,7 +727,8 @@
       ],
       "read_at": "2026-11-11T10:35:00Z",
       "verified": true,
-      "note": "Date and time from iproxy list"
+      "note": "Date and time from iproxy list",
+      "machine_read_before_rule": true
     },
     {
       "name": "Lisbon 2026 Venture Capital World Summit",
@@ -714,7 +746,8 @@
         "venture capital"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "People Pitch: After Summit, Before the Future",
@@ -733,7 +766,8 @@
         "startups"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Crypto Padel by WhiteBIT, Play Padel Club and Spredo",
@@ -752,7 +786,8 @@
         "sport"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Meetball After Hours @ PTW Palace",
@@ -770,7 +805,8 @@
         "community"
       ],
       "read_at": "2026-11-11T10:53:14Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Websummit After-party, Casual Socialising Evening, Rooftop DJ Party",
@@ -789,7 +825,8 @@
       ],
       "read_at": "2026-11-11T10:53:14Z",
       "verified": true,
-      "note": "Repeats every Friday to 19 Nov."
+      "note": "Repeats every Friday to 19 Nov.",
+      "machine_read_before_rule": true
     },
     {
       "name": "Unconference Plus Lisbon (closing day of Lisbon Community Week)",
@@ -809,7 +846,8 @@
       ],
       "read_at": "2026-11-11T10:53:14Z",
       "verified": false,
-      "note": "Saturday 14 Nov, attendee-driven day. Listed in search results; the fetched page showed only the Friday 13 Nov conference, no separate page, venue or time found. Treat as unconfirmed."
+      "note": "Saturday 14 Nov, attendee-driven day. Listed in search results; the fetched page showed only the Friday 13 Nov conference, no separate page, venue or time found. Treat as unconfirmed.",
+      "machine_read_before_rule": true
     },
     {
       "name": "AI Devs and Hoopers Morning Run",
@@ -828,7 +866,8 @@
         "run"
       ],
       "read_at": "2026-11-11T10:35:00Z",
-      "verified": true
+      "verified": true,
+      "machine_read_before_rule": true
     },
     {
       "name": "Web Summit Unwind: A Traditional Banya Experience",
@@ -847,7 +886,8 @@
       ],
       "read_at": "2026-11-11T10:53:14Z",
       "verified": true,
-      "note": "Date and time from iproxy list; page shows none."
+      "note": "Date and time from iproxy list; page shows none.",
+      "machine_read_before_rule": true
     },
     {
       "name": "Agents & APIs Lisbon Developer Meetup",
@@ -868,7 +908,8 @@
       ],
       "read_at": "2026-11-11T16:52:47Z",
       "verified": true,
-      "note": "Page gives no date; found by search for Lisbon agent events in Web Summit week, date unconfirmed."
+      "note": "Page gives no date; found by search for Lisbon agent events in Web Summit week, date unconfirmed.",
+      "machine_read_before_rule": true
     },
     {
       "name": "MCP (Model Context Protocol) Lisbon Meetup",
@@ -889,7 +930,8 @@
       ],
       "read_at": "2026-11-11T16:52:47Z",
       "verified": true,
-      "note": "Page gives no date; three lightning talks on MCP."
+      "note": "Page gives no date; three lightning talks on MCP.",
+      "machine_read_before_rule": true
     },
     {
       "name": "Lisbon AI Week: PagerDuty + Cloudflare Meetup",
@@ -910,7 +952,9 @@
       ],
       "read_at": "2026-11-11T16:52:47Z",
       "verified": true,
-      "note": "Page gives no date; agent topic not confirmed beyond the title."
+      "note": "Page gives no date; agent topic not confirmed beyond the title.",
+      "machine_read_before_rule": true
     }
-  ]
+  ],
+  "read_method_note": "Luma, Meetup and Eventbrite pages here were read by machine on 11 November before this agent knew of the rule that they are not (Vicky's rule, cited in Dinis's guidance of 18:50). Stopped at 21:53 UTC; the 43 such records are marked 'machine_read_before_rule' and kept until Dinis says what to do with them. New events come from organisers' own sites, the press and public posts."
 }

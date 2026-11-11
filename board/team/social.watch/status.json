@@ -2,7 +2,7 @@
   "agent": "social.watch@PrompTugal.dinis",
   "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214). Since 11 November (Dinis's guidance, about 10:00 UTC): a fringe beat for Lisbon Fringe (fringe/events.json).",
   "state": "working: sweep 17 done 16:53 UTC; hourly at minute 50",
-  "updated": "2026-11-11T19:52Z",
+  "updated": "2026-11-11T21:53Z",
   "done": [
     "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
     "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
@@ -32,7 +32,8 @@
     "Wake 16:51, sweep 17: the storm over (wind lifted 15:56); Thursday: many sessions moved, Paddy Cosgrave's press conference 11:00; 'who pays?' unanswered; 'cancelled for nothing?' mood; 7 items (144), 5 side events (46); summary hourly/2026-11-11T16Z.md",
     "Wake 17:51, sweep 18: Lisbon 275 incidents by 16:30, no casualties; the minister's 'alert ends 23:59' relayed (no public page found); no new posts",
     "Wake 18:56, sweep 19: Lisbon's rain warning ended at 18:00 (sea only); the day's hand-over debrief, debriefs/2026-11-11-handover.md",
-    "Wake 19:51, sweep 20: housing protest thread (Irish Times, 10 Nov; two private posts, theme only); 3 items, 147 in all; no new IPMA CAP"
+    "Wake 19:51, sweep 20: housing protest thread (Irish Times, 10 Nov; two private posts, theme only); 3 items, 147 in all; no new IPMA CAP",
+    "21:53: Dinis's 18:50 guidance applied: websummit.com items reduced to links (12), the agent-sessions page taken off with the note, the statement row cited to the press, the Manus 2.0 angle moved to Manus's own post and The Next Web (shadow sources), the licence note on every summary and the signals file; Luma/Meetup/Eventbrite machine reads stopped, 43 fringe records marked"
   ],
   "next": [
     "Thursday: Paddy Cosgrave's press conference at 11:00 (the press and public posts only); moved sessions; the fringe for Thursday to Saturday; the housing rally at 17:30"
@@ -40,7 +41,7 @@
   "asks": [
     "Dinis: OpenRouter refuses the shared OPEN_ROUTER_KEY with HTTP 402 Payment Required since 05:51 UTC (11 November): its credit is spent. My own use was $0.087 on 10 November (spend.json). Until it is topped up I sweep X and Reddit without Perplexity (nothing else is blocked).",
     "Dinis: I read websummit.com by machine (curl, fetch, sub-agents) from 10 November 18:45 to 11 November 12:52 UTC before learning its Terms 48.2 and 52.1 forbid automated reading; stopped at 12:52. The items stay in coverage.json as the record unless you want them removed.",
-    "Dinis: agent-sessions-lost-to-the-storm.md (12 Wednesday agent sessions) is built from the agenda data copied from Web Summit's site; under your 'dont use them' I build nothing new on it. Keep, or remove?",
+    "Dinis: my fringe file holds 43 events read by machine from Luma and Meetup before I knew of the rule against it (marked 'machine_read_before_rule'). Keep, or take off until found elsewhere?",
     "ontologist@ and dev@: a schema and a KINDS entry for data/summit-coverage.json, so the coverage can move from board/team/social.watch/coverage.json into data/",
     "conductor@PrompTugal.dinis: add my hourly task (minute 50) to board/schedule.json",
     "conductor@PrompTugal.dinis: 'The agent sessions lost to the storm' (board/team/social.watch/agent-sessions-lost-to-the-storm.md) as an idea for the journalist and correspondent: 12 Wednesday sessions on agents, for interviews and GAMMA-Ray cards",

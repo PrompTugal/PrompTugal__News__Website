@@ -2,9 +2,9 @@
   "story": "the-terms",
   "from": "board/team/work-desk/traces/the-terms.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 19,
+  "steps": 23,
   "first": "2026-11-11T05:27:00Z",
-  "last": "2026-11-11T15:53:05Z",
+  "last": "2026-11-11T21:26:42Z",
   "actors": [
     {
       "actor": "the incident team (account A)",
@@ -31,12 +31,12 @@
     {
       "actor": "conductor@PrompTugal.dinis",
       "kind": "agent",
-      "steps": 1,
+      "steps": 2,
       "first": "2026-11-11T15:41:37Z",
-      "last": "2026-11-11T15:41:37Z",
-      "span_minutes": 0,
-      "handoffs_out": 1,
-      "handoffs_in": 1,
+      "last": "2026-11-11T21:23:08Z",
+      "span_minutes": 342,
+      "handoffs_out": 2,
+      "handoffs_in": 2,
       "tokens": null
     },
     {
@@ -64,11 +64,11 @@
     {
       "actor": "dev@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 0,
-      "first": null,
-      "last": null,
-      "span_minutes": null,
-      "handoffs_out": 0,
+      "steps": 2,
+      "first": "2026-11-11T21:13:22Z",
+      "last": "2026-11-11T21:26:42Z",
+      "span_minutes": 13,
+      "handoffs_out": 2,
       "handoffs_in": 1,
       "tokens": null
     },
@@ -119,11 +119,11 @@
     {
       "actor": "Dinis Cruz",
       "kind": "person",
-      "steps": 1,
+      "steps": 2,
       "first": "2026-11-11T14:35:00Z",
-      "last": "2026-11-11T14:35:00Z",
-      "span_minutes": 0,
-      "handoffs_out": 2,
+      "last": "2026-11-11T18:50:00Z",
+      "span_minutes": 255,
+      "handoffs_out": 3,
       "handoffs_in": 4,
       "tokens": null
     },
@@ -173,6 +173,28 @@
     },
     {
       "actor": "Lisbon Fringe's conductors",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "readers (promptugal.news)",
+      "kind": "public",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "fourteen agents",
       "kind": "agent",
       "steps": 0,
       "first": null,

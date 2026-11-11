@@ -8,7 +8,8 @@ const SIGNED = fs.readFileSync(new URL('../../../assets/article/signed-line.md',
 export const order = 20
 const W = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).articles
 
-const isArticle = p => /^articles\/[^/]+\.html$/.test(p.rel) && p.rel !== 'articles/index.html'
+// a withdrawn article's notice page (features/withdrawn.mjs) keeps the address but is not an article
+const isArticle = p => /^articles\/[^/]+\.html$/.test(p.rel) && p.rel !== 'articles/index.html' && !p.withdrawn
 export const articlesOf = ctx => ctx.pages.filter(isArticle).sort((a, b) => (b.meta.date || '').localeCompare(a.meta.date || ''))
 
 export function decorate(p) {

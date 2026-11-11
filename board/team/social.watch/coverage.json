@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T19:52Z",
+  "updated": "2026-11-11T21:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -1826,8 +1826,8 @@
       "platform": "Web Summit",
       "author": "Web Summit",
       "kind": "article",
-      "title": "Web Summit 2026: Record number of investors at its most international event yet",
-      "quote": "Web Summit 2026: Record number of investors at its most international event yet",
+      "title": null,
+      "quote": null,
       "published": "2026-11-10",
       "topics": [
         "investment",
@@ -1840,23 +1840,22 @@
       "company_ids": [
         "ibm"
       ],
-      "sessions": [
-        "IBM Sports Tech Startup Prize Competition"
-      ],
+      "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Official blog; body text not retrievable, only headline and metadata. No weather mention.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "Web Summit's own channels",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "websummit_only": true
     },
     {
       "url": "https://websummit.com/blog/news/web-summits-first-state-of-the-industry-survey-finds-tech-torn-on-ai/",
       "platform": "Web Summit",
       "author": "Web Summit",
       "kind": "article",
-      "title": "Web Summit's first state of the industry survey finds tech torn on AI",
-      "quote": "Web Summit's first state of the industry survey finds tech torn on AI",
+      "title": null,
+      "quote": null,
       "published": "2026-10-22",
       "topics": [
         "AI",
@@ -1869,17 +1868,18 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Pre-event official post; body not retrievable.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "Web Summit's own channels",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "websummit_only": true
     },
     {
       "url": "https://websummit.com/",
       "platform": "Web Summit",
       "author": "Web Summit",
       "kind": "page",
-      "title": "Web Summit - The best tech conference on the planet | November 9-12, 2026",
+      "title": null,
       "quote": null,
       "published": null,
       "topics": [
@@ -1892,10 +1892,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Homepage fetched about 18:50 UTC 10 Nov: no weather banner or notice about Wednesday visible. Negative finding; may be cached.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "Web Summit's own channels",
       "found": "2026-11-10T18:48Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 1)",
+      "websummit_only": true
     },
     {
       "url": "https://eco.sapo.pt/2026/11/10/web-summit-vai-encerrar-esta-quarta-feira-devido-ao-mau-tempo/",
@@ -2484,7 +2485,7 @@
       "author": "Web Summit",
       "kind": "press-release",
       "title": "Important event update",
-      "quote": "Day 2 (Wednesday, November 11th) will not take place.",
+      "quote": null,
       "published": "2026-11-10T19:09",
       "topics": [
         "storm",
@@ -2497,10 +2498,11 @@
       "sessions": [],
       "storm_signal": true,
       "verified": true,
-      "note": "The organisers' public statement; body read from the page's HTML (the rendered page shows only the title to a text reader). Day 3 'as planned, following the passing of Storm Charles'; 'will communicate directly with those impacted'. Pointed to by conductor@web-summit.dinis.",
+      "note": "Link only. The same decision is reported by 24 Notícias, Jornal Económico, Jornal de Negócios and RTP (in coverage), which are its sources here.",
       "family": "Web Summit's own channels",
       "found": "2026-11-10T20:56Z",
-      "found_by": "social.watch@PrompTugal.dinis (wake 20:51, correction)"
+      "found_by": "social.watch@PrompTugal.dinis (wake 20:51, correction)",
+      "websummit_only": true
     },
     {
       "url": "https://pmemagazine.sapo.pt/web-summit-cancela-evento-desta-quarta-feira-em-lisboa-devido-a-tempestade/",
@@ -2578,8 +2580,8 @@
       "platform": "Web Summit",
       "author": "Web Summit",
       "kind": "page",
-      "title": "The age of agents",
-      "quote": "grants each agent its own email address, phone number, and digital wallet",
+      "title": null,
+      "quote": null,
       "published": "2026-11-09",
       "topics": [
         "agentic AI",
@@ -2592,15 +2594,14 @@
       "company_ids": [
         "manus-ai"
       ],
-      "sessions": [
-        "Manus AI, Tao Zhang (Co-founder and CPO)"
-      ],
+      "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Web Summit's own summary of the Manus AI talk; the page says it was generated with AI from an AI transcription of the talk. Body read from the page's HTML. Manus 2.0: a stand-alone personal agent app.",
+      "note": "Link only. Its facts on Manus 2.0 are cited instead to Manus's own post and The Next Web (in coverage).",
       "family": "news and blogs",
       "found": "2026-11-10T21:53Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 4)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 4)",
+      "websummit_only": true
     },
     {
       "url": "https://www.euronews.com/2026/11/09/web-summit-lisbon-2026-chinas-robotos-take-to-the-stage-as-tech-conference-launches",
@@ -2782,7 +2783,7 @@
       "platform": "Web Summit",
       "author": "Web Summit",
       "kind": "page",
-      "title": "Web Summit Lisbon 2026 summaries index (6 summaries dated 10 Nov)",
+      "title": null,
       "quote": null,
       "published": "2026-11-10",
       "topics": [
@@ -2791,24 +2792,21 @@
       ],
       "companies": [],
       "company_ids": [],
-      "sessions": [
-        "AI: doom or boom?",
-        "When AI leaves the screen",
-        "Surviving the AI shift: Media's new reality"
-      ],
+      "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "New summary pages since sweep 4 (listing only; bodies empty when fetched). None explicitly about AI agents.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "Web Summit's own channels",
       "found": "2026-11-10T22:53Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 5)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 5)",
+      "websummit_only": true
     },
     {
       "url": "https://websummit.com/summaries/lis26/when-ai-leaves-the-screen/",
       "platform": "Web Summit",
       "author": "Web Summit",
       "kind": "page",
-      "title": "When AI leaves the screen",
+      "title": null,
       "quote": null,
       "published": "2026-11-10",
       "topics": [
@@ -2820,10 +2818,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Body not retrievable; title only.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "Web Summit's own channels",
       "found": "2026-11-10T22:53Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 5)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 5)",
+      "websummit_only": true
     },
     {
       "url": "https://www.madeiraislandnews.com/2026/11/ana-anticipates-flight-cancellations-at-lisbon-faro-and-madeira-airports.html",
@@ -2998,8 +2997,8 @@
       "platform": "Web Summit (summaries)",
       "author": "Web Summit",
       "kind": "page",
-      "title": "AI: doom or boom?",
-      "quote": "AI: doom or boom?",
+      "title": null,
+      "quote": null,
       "published": "2026-11-10",
       "topics": [
         "agentic AI"
@@ -3011,18 +3010,19 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Body rendered by script: only title/date visible. Title-only record.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "news and blogs",
       "found": "2026-11-11T06:54Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 7)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 7)",
+      "websummit_only": true
     },
     {
       "url": "https://websummit.com/summaries/lis26/surviving-the-ai-shift-medias-new-reality-2/",
       "platform": "Web Summit (summaries)",
       "author": "Web Summit",
       "kind": "page",
-      "title": "Surviving the AI shift: Media's new reality",
-      "quote": "Surviving the AI shift: Media's new reality",
+      "title": null,
+      "quote": null,
       "published": "2026-11-10",
       "topics": [
         "AI",
@@ -3035,10 +3035,11 @@
       "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Body rendered by script: only title/date visible.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "news and blogs",
       "found": "2026-11-11T06:54Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 7)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 7)",
+      "websummit_only": true
     },
     {
       "url": "https://mastodon.social/@deadline/117597025710958878",
@@ -3201,7 +3202,7 @@
       "platform": "Web Summit",
       "author": "Web Summit",
       "kind": "page",
-      "title": "What comes after the Blue Wave?",
+      "title": null,
       "quote": null,
       "published": "2026-11-10",
       "topics": [
@@ -3209,22 +3210,21 @@
       ],
       "companies": [],
       "company_ids": [],
-      "sessions": [
-        "What comes after the Blue Wave?"
-      ],
+      "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Session summary; body text not retrievable, title only.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "news and blogs",
       "found": "2026-11-11T10:53Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)",
+      "websummit_only": true
     },
     {
       "url": "https://websummit.com/summaries/lis26/building-the-operating-system-for-modern-sport/",
       "platform": "Web Summit",
       "author": "Web Summit",
       "kind": "page",
-      "title": "Building the operating system for modern sport",
+      "title": null,
       "quote": null,
       "published": "2026-11-10",
       "topics": [
@@ -3232,22 +3232,21 @@
       ],
       "companies": [],
       "company_ids": [],
-      "sessions": [
-        "Building the operating system for modern sport"
-      ],
+      "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Session summary; title only retrievable.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "news and blogs",
       "found": "2026-11-11T10:53Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)",
+      "websummit_only": true
     },
     {
       "url": "https://websummit.com/summaries/lis26/building-a-star-trek-vision/",
       "platform": "Web Summit",
       "author": "Web Summit",
       "kind": "page",
-      "title": "Building a Star Trek vision",
+      "title": null,
       "quote": null,
       "published": "2026-11-10",
       "topics": [
@@ -3255,15 +3254,14 @@
       ],
       "companies": [],
       "company_ids": [],
-      "sessions": [
-        "Building a Star Trek vision"
-      ],
+      "sessions": [],
       "storm_signal": false,
       "verified": true,
-      "note": "Session summary; title only retrievable.",
+      "note": "Link only: nothing from Web Summit's site is republished here.",
       "family": "news and blogs",
       "found": "2026-11-11T10:53Z",
-      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)",
+      "websummit_only": true
     },
     {
       "url": "https://mastodon.social/@DiscoverHiddenPlaces/117597287829012398",
@@ -3720,9 +3718,60 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-11T19:52Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 20)"
+    },
+    {
+      "url": "https://manus.im/blog/introducing-manus-2-0",
+      "platform": "Manus (blog)",
+      "author": "Manus",
+      "kind": "article",
+      "title": "Introducing Manus 2.0",
+      "quote": "each agent has its own email, phone number, wallet, and computer",
+      "published": "2026-09-28",
+      "topics": [
+        "agentic AI"
+      ],
+      "companies": [
+        "Manus AI"
+      ],
+      "company_ids": [
+        "manus-ai"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Manus's own launch post: Manus 2.0 and Cue, the personal-agent app. The shadow source for the Manus 2.0 angle (replaces Web Summit's AI-written talk summary). Read 21:53.",
+      "family": "news and blogs",
+      "found": "2026-11-11T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (shadow sources)"
+    },
+    {
+      "url": "https://thenextweb.com/news/manus-2-0-cue-ai-agents-email-phone-wallet",
+      "platform": "The Next Web",
+      "author": "Ana Maria Constantin",
+      "kind": "article",
+      "title": "Manus 2.0 and Cue give AI agents their own email, phone and wallet",
+      "quote": "Manus 2.0 is not a version update.",
+      "published": "2026-09-29",
+      "topics": [
+        "agentic AI"
+      ],
+      "companies": [
+        "Manus AI"
+      ],
+      "company_ids": [
+        "manus-ai"
+      ],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "A second source: each Cue agent has a mailbox, a phone line, a wallet (paying within a budget the user sets) and its own computer; early access by invite. Read 21:53.",
+      "family": "news and blogs",
+      "found": "2026-11-11T21:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (shadow sources)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",
   "websummit_terms": "Since 2026-11-11T12:53Z: websummit.com is no longer read by machine (Web Summit's Terms 48.2 and 52.1 forbid automated reading, found by Dinis's incident team, which stopped at 05:27 UTC on 11 November). Earlier items from websummit.com were read by machine between 10 November 18:45 and 11 November 12:52 UTC and stay as the record; new Web Summit word comes through the press and the organisers' public posts.",
-  "web_summit_data_rule": "Since 2026-11-11T14:52Z: no new work built on Web Summit-derived data (its agenda's sessions, people, organisations, places; Vicky's desks record Dinis's 'yes, dont use them', about 14:30 UTC). Nothing earlier is deleted or changed until Dinis says what to do with it."
+  "web_summit_data_rule": "Since 2026-11-11T14:52Z: no new work built on Web Summit-derived data (its agenda's sessions, people, organisations, places; Vicky's desks record Dinis's 'yes, dont use them', about 14:30 UTC). Nothing earlier is deleted or changed until Dinis says what to do with it.",
+  "licence_note": "This is not everything. Web Summit's licence does not let us republish data from its site, so on 11 November 2026 we took off whatever rested only on it (Dinis, about 18:50 UTC: board/guidance/2026-11-11-only-websummit-sourced-comes-off.md). What remains has another public source, cited; an item comes back when we find one (the shadow method: https://newsroom.sgit.ai/articles/sources-and-shadows.html)."
 }

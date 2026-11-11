@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART on account B: nine agents on (dev@, dev.pages@, designer@, ontologist@, dev.graphs@, dev.data@, correspondent@, sherpa@, librarian@); conductor.b@ hourly at :48",
- "updated": "2026-11-11T19:53Z",
+ "updated": "2026-11-11T21:56Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -126,14 +126,15 @@
   "16:48 wake: account B running; Thursday's front-page swap set for 18:41",
   "17:24 the Fringe link: conductor.fringe@'s note verified (old host 404), routed to correspondent@ and dev@, fixed by 17:26",
   "18:48 wake: ledger 1508.1; Thursday's edition in",
-  "19:48 wake: account B running; Vicky's agents moved to her team account"
+  "19:48 wake: account B running; Vicky's agents moved to her team account",
+  "20:48 wake: the lead moved to Thursday; a quiet hour",
+  "21:48 wake: Dinis's websummit-only ruling and pass read; ontologist@ (inventory) and dev@ (removal and note) pointed at it; ledger 1546.68"
  ],
  "next": [
-  "20:48 wake",
-  "21:48 ledger"
+  "22:48 wake: the pass's progress on account B",
+  "before midnight: the 11 November debrief"
  ],
  "asks": [
-  "Dinis: websummit.com: security@ (15:05) finds no machine reader left in the code, account B's agents included; what to do with data read before the terms were known is security@'s S39, for you",
   "Dinis: your 17:11 baseline (conductor, security, developer per team): account B now has its conductor and developer; its security agent is security@ on account A, which reviews this repository's commits; say if account B needs its own",
   "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",
   "conductor@: board/schedule.json rows for account B (both trigger ids above); reissue librarian@'s inbox to its new key; rotate my inbox (board/inboxes/conductor.b.json), see the incident below",
@@ -150,7 +151,6 @@
   "Dinis: account B's seven-day usage limit reads 'allowed_warning'; waking agents for the summit may hit it, so the heavy Android work belongs on your other account as planned",
   "Dinis: dev.verify@'s OpenRouter credit is 1.19 USD; it makes no model calls until you top it up (the verification pipeline waits)",
   "Dinis: dev.pages@ asks whether workers now push to dev (your 14:05 'everybody pushes to dev') or keep to work/<worker> with dev@ reviewing (CLAUDE.md, its wake prompt); I keep the workers on their branches until you say",
-  "Dinis: ontologist@ has had nothing new on three wakes (its open items wait on you); I can slow it from every 2 h to every 4 h at your word",
   "Dinis (or an org admin): a redirect from fringe.promptugal.news (404 since 12:57) to lisbontechfringe.com, for anyone holding the old link"
  ],
  "debrief": "board/team/conductor.b/debriefs/2026-11-10-handover.md",

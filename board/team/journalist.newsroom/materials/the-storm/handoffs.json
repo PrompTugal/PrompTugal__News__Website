@@ -2,9 +2,9 @@
   "story": "the-storm",
   "from": "board/team/work-desk/traces/the-storm.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 142,
+  "steps": 148,
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T18:15:47Z",
+  "last": "2026-11-11T20:36:56Z",
   "handoffs": [
     {
       "from": "Lisbon's mayor",
@@ -42,7 +42,7 @@
     {
       "from": "reviewer@PrompTugal.vicky",
       "to": "readers (promptugal.news)",
-      "count": 16,
+      "count": 17,
       "times": [
         "2026-11-10T14:36:22Z",
         "2026-11-10T17:27:34Z",
@@ -59,7 +59,8 @@
         "2026-11-11T14:11:17Z",
         "2026-11-11T15:42:36Z",
         "2026-11-11T16:41:59Z",
-        "2026-11-11T17:39:45Z"
+        "2026-11-11T17:39:45Z",
+        "2026-11-11T19:51:10Z"
       ],
       "person_agent": false
     },
@@ -135,12 +136,13 @@
     {
       "from": "weather@PrompTugal.vicky",
       "to": "conductor.B@PrompTugal.vicky",
-      "count": 4,
+      "count": 5,
       "times": [
         "2026-11-10T17:04:39Z",
         "2026-11-10T17:52:24Z",
         "2026-11-10T17:54:59Z",
-        "2026-11-10T17:59:15Z"
+        "2026-11-10T17:59:15Z",
+        "2026-11-11T20:36:56Z"
       ],
       "person_agent": false
     },
@@ -193,11 +195,12 @@
     {
       "from": "conductor.B@PrompTugal.vicky",
       "to": "dev@PrompTugal.vicky",
-      "count": 3,
+      "count": 4,
       "times": [
         "2026-11-10T17:14:41Z",
         "2026-11-10T18:20:31Z",
-        "2026-11-10T20:50:01Z"
+        "2026-11-10T20:50:01Z",
+        "2026-11-11T19:07:31Z"
       ],
       "person_agent": false
     },
@@ -245,10 +248,11 @@
     {
       "from": "conductor.B@PrompTugal.vicky",
       "to": "reviewer@PrompTugal.vicky",
-      "count": 2,
+      "count": 3,
       "times": [
         "2026-11-10T17:22:11Z",
-        "2026-11-11T10:40:08Z"
+        "2026-11-11T10:40:08Z",
+        "2026-11-11T19:07:31Z"
       ],
       "person_agent": false
     },
@@ -602,9 +606,10 @@
     {
       "from": "correspondent@PrompTugal.dinis",
       "to": "readers (promptugal.news)",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-10T22:44:30Z"
+        "2026-11-10T22:44:30Z",
+        "2026-11-11T18:45:24Z"
       ],
       "person_agent": false
     },
@@ -668,12 +673,13 @@
     {
       "from": "weather@PrompTugal.vicky",
       "to": "dev@PrompTugal.vicky",
-      "count": 4,
+      "count": 5,
       "times": [
         "2026-11-11T08:41:09Z",
         "2026-11-11T09:48:52Z",
         "2026-11-11T12:37:17Z",
-        "2026-11-11T15:37:04Z"
+        "2026-11-11T15:37:04Z",
+        "2026-11-11T18:38:24Z"
       ],
       "person_agent": false
     },
@@ -698,9 +704,10 @@
     {
       "from": "dev@PrompTugal.dinis",
       "to": "readers (promptugal.news)",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-11T11:24:52Z"
+        "2026-11-11T11:24:52Z",
+        "2026-11-11T19:25:16Z"
       ],
       "person_agent": false
     },

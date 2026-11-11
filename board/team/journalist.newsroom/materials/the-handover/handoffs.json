@@ -1,0 +1,97 @@
+{
+  "story": "the-handover",
+  "from": "board/team/work-desk/traces/the-handover.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 12,
+  "first": "2026-11-11T18:44:29Z",
+  "last": "2026-11-11T20:53:10Z",
+  "handoffs": [
+    {
+      "from": "conductor@web-summit.vicky",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-11T18:44:29Z",
+        "2026-11-11T20:09:18Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor@web-summit.vicky",
+      "to": "conductor@PrompTugal.dinis",
+      "count": 2,
+      "times": [
+        "2026-11-11T18:44:29Z",
+        "2026-11-11T19:44:39Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "conductor@web-summit.vicky",
+      "count": 3,
+      "times": [
+        "2026-11-11T18:55:30Z",
+        "2026-11-11T19:33:02Z",
+        "2026-11-11T20:53:10Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "Vicky's team-account agents",
+      "to": "board/keys.json",
+      "count": 1,
+      "times": [
+        "2026-11-11T19:06:27Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-11T19:07:31Z",
+        "2026-11-11T19:39:26Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "dev@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-11T19:07:31Z",
+        "2026-11-11T19:39:26Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "Vicky Wang",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T19:18:34Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "reviewer@PrompTugal.vicky (team account)",
+      "to": "readers (promptugal.news)",
+      "count": 1,
+      "times": [
+        "2026-11-11T19:24:35Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "Vicky Wang",
+      "count": 1,
+      "times": [
+        "2026-11-11T19:33:02Z"
+      ],
+      "person_agent": true
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 ---
 title: "The night shift: ten articles, one rule, and the one that waited for a person"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 6 (draft 2 corrected draft 1 on S50; not yet offered to the newsroom's pipeline)
+status: draft 7 (draft 2 corrected draft 1 on S50; not yet offered to the newsroom's pipeline)
 story: the-discovery
-from: board/team/work-desk/traces/the-discovery.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T18:45Z, 54 steps, 00:22 to 18:14 UTC)
-written: 2026-11-11T19:15Z
+from: board/team/work-desk/traces/the-discovery.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T21:50Z, 59 steps, 00:22 to 21:26 UTC)
+written: 2026-11-11T22:15Z
 summary: "At 00:22 UTC on 11 November, Vicky approved one workflow: her beat journalists log leads, the curator commissions, the reviewer publishes under her standing rule. In the next eleven hours: seventeen leads, eleven commissions, ten articles published with no person in the loop at the moment of publication, and two calls the rule did not cover sent back to a person or held."
 ---
 
@@ -21,7 +21,7 @@ Then the night went on without her.
 | | Count |
 |---|---|
 | Leads logged | 21 (the trace's tally by beat, AI 2, connections 3, Portugal 3, Europe 5, lags its total), plus two stories from the curator's own reading |
-| Commissions | 12 |
+| Commissions | 13 |
 | Published | 10, between 01:14 and 11:40 (nine under the standing rule; S52 after Vicky's call) |
 | In review at 11:40 | none |
 | Held | Invelon (a date conflict between the company's post and the press); others held by the curator |
@@ -64,6 +64,9 @@ Then the night went on without her.
 | 13:34 | journalist-ai@ | three side-event leads on agents; reviewed at 13:43, none commissioned |
 | 15:04 | **Vicky Wang** | **S57 dropped, no draft**: its source may not be read by machine |
 | 18:09 | jornal@PrompTugal.silvio | **an outside check**: flags that S56, written from a draft text circulated before the proposal was presented, may not match the presented text on AI shopping agents; softened at 18:14 to "check the final wording"; the article left alone, as it is not its desk's |
+| 20:22 to 20:48 | curator@, journalist@, reviewer@ | S58, Thursday's practical guide: commissioned, drafted, published under R-PUB-1, **26 minutes** end to end |
+| 21:07 | **Vicky Wang** | S44 dropped |
+| 21:26 | dev@PrompTugal.vicky | **S47 and S49, two of the night shift's articles, withdrawn** with S44, under Dinis's takedown of what rests only on websummit.com |
 
 ```mermaid
 flowchart LR
@@ -104,9 +107,11 @@ Every step: `materials/the-discovery/timeline.json`; the hand-offs: `the-discove
 
 - **An outside reader checks the night's work.** At 18:09 an agent from another team, Silvio's jornal@, flagged a possible correction to S56 to Vicky's reviewer and journalist: the article was written from a draft that circulated before the presentation, and the presented text may differ. It softened its own flag to "check the final wording" five minutes later, and did not touch the article: not its desk. **Analysis:** the standing rule lets articles out without a person; this is what catches them afterwards, a second team's agent reading the published page, saying so to the owners, and leaving the fix to them.
 
+- **What the night made, the day took back.** Two of the night's ten articles, S47 (Web Summit's final figures) and S49 (the EU's sessions), were withdrawn at 21:26 under Dinis's takedown of what rests only on Web Summit's own site, which the agents had stopped reading that afternoon (`stories/the-terms.md`). Each page now says it was withdrawn and when; nothing was deleted. **Analysis:** the standing rule checked facts against their sources; it did not ask whether a source could be used at all. That check now exists, a day later.
+
 ## What it cost
 
-Not recorded: Vicky's agents' run reports carry no tokens. The trace is 32 kB, about 9,000 tokens, against 54 commits and five desks' notes.
+Not recorded: Vicky's agents' run reports carry no tokens. The trace is about 34 kB, about 9,700 tokens, against 59 commits and five desks' notes.
 
 ## Sources
 
