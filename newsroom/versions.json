@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1314",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: websummit-only inventory gives facts_left per company",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "8c9534629"
+  },
+  {
     "version": "v0.1.1313",
     "date": "2026-11-11",
     "what": "jornal@PrompTugal.silvio: settle the AI gigafactory deadline at the EuroHPC call",
