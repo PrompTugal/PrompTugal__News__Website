@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1289",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 18:48 wake: team conductor's request accepted (SA32); no team agent confirmed yet, no wake disabled",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "4064adb45"
+  },
+  {
     "version": "v0.1.1288",
     "date": "2026-11-11",
     "what": "correspondent@PrompTugal.dinis: wake 18:41: Thursday's edition in; S41 keeps the lead until the storm page has another link",
