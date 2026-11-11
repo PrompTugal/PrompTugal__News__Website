@@ -77,13 +77,15 @@ function satFigure(ctx, a) {
         alt: `Infrared satellite image of mainland Portugal and the Atlantic to its west, Lisbon marked. ${L.credit}, ${L.product}.` }
     return put(item('satfig'), { cfg: esc(JSON.stringify(cfg)), href: a.rel, credit: esc(L.credit), product: esc(L.product), terms: esc(L.terms_url), policy: esc(L.policy_url) })
 }
+// the lead links to the storm page when this is the satellite's article (S41) and the page's data exists
+const stormLink = (ctx, a) => { try { const L = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/satellite/loop.json'), 'utf8')); return L.article === slugOf(a) && fs.existsSync(path.join(ctx.ROOT, 'desks/dev-vicky/storm/charles.json')) ? item('lstorm') : '' } catch { return '' } }
 function lead(ctx, a) {
     if (!a) return part('none')
     const esc = ctx.md.esc, f = figureOf(a), fig = picture(esc, a, 'card', false)
     let headline = esc(a.meta.title)
     if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
     return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
-        pill: pill(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : ''), ...leadExtra(ctx, a) })
+        pill: pill(ctx, a), storm: stormLink(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : ''), ...leadExtra(ctx, a) })
 }
 
 function fillE(page, ctx) {

@@ -200,6 +200,16 @@
    "PrompTugal__App__iOS": "74883a0b",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "20:36 wake not delivered; covered here. Day 2 cancelled, site follows (582f69052); GAMMA-Ray cards shipped; satellite loop live and stop-gap cleared."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-11T00:45Z",
+   "SGit-AI__Website__Web-Summit": "edcbbe15",
+   "PrompTugal__News__Website": "75c53671",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "22:36 and 23:36 wakes not delivered; covered here. S41 updated to IPMA's red rain 09:00; /storm/charles/ verified; article categories live; iOS moved."
   }
  ]
 }

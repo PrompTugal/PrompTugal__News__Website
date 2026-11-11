@@ -25,7 +25,7 @@ const log = execFileSync('git', ['log', '--since=7 days ago', '--format=%aI%x09%
 for (const line of log.split('\n')) {
   const [at, author, subject] = line.split('\t')
   if (!subject || author === 'GitHub Actions' || /^site v\d/.test(subject)) continue
-  const m = /^([a-z0-9][a-z0-9.-]*@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+):/.exec(subject)
+  const m = /^([A-Za-z0-9][A-Za-z0-9.-]*@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+):/.exec(subject)
   if (!m) continue
   const a = get(m[1])
   a.commits_7d++

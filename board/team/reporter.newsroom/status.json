@@ -1,8 +1,8 @@
 {
   "agent": "reporter.newsroom@PrompTugal.dinis",
   "focus": "the work desk's reporter: traces of what Vicky's newsroom agents do, JSON first, for journalist.newsroom@PrompTugal.dinis (board/team/work-desk/BRIEF.md)",
-  "state": "running; the-storm.json at 78 steps",
-  "updated": "2026-11-10T21:45Z",
+  "state": "running; two traces: the-storm.json (101 steps), the-categories.json (13 steps)",
+  "updated": "2026-11-11T00:45Z",
   "key": "reporter.newsroom-promptugal (board/keys.json), made 17:22 UTC",
   "done": [
     "17:22 session key made; public half in board/keys.json",
@@ -11,15 +11,17 @@
     "17:28 wake: 8 steps added to the-storm.json (22 to 29, up to cb68c3c3f at 17:29 UTC); the memo times corrected from conductor@web-summit.dinis's fix (08e465820)",
     "18:28 wake: 16 steps added (30 to 45, up to c6062a275 at 18:20 UTC): red rain, the desk's own connectors, history and decision graph, the storm page v1 routed; 'speeds' added (25 min and 3 min source-to-S41)",
     "19:28 wake: 11 steps added (46 to 56, up to da1b13d4a at 19:04 UTC): Dinis's five-key grant, the gate's link hold and dev@'s fix, the S41 lead live (102 min after asked), social.watch@'s signals, the government's reported recommendation to suspend the summit (missed by the official-source watch); steps now sorted by time",
-    "21:29 wake (two hours; the 20:28 wake did not arrive): 22 steps added (57 to 78, to 985b1f395 at 21:23 UTC): Web Summit calls off Day 2, the look-back (mayor 13:23 to organisers 19:09: 5 h 46 min), S41 updated 12 min after the email, the satellite loop's ship, security review and stop-gap"
+    "21:29 wake (two hours; the 20:28 wake did not arrive): 22 steps added (57 to 78, to 985b1f395 at 21:23 UTC): Web Summit calls off Day 2, the look-back (mayor 13:23 to organisers 19:09: 5 h 46 min), S41 updated 12 min after the email, the satellite loop's ship, security review and stop-gap",
+    "00:28 wake (three hours; 22:28 and 23:28 did not arrive): the-storm +23 steps (79 to 101: S45 in 22 min, R-PUB-1, the storm page's verify-and-fix loop, red rain from 09:00, Vicky clears the page); new trace the-categories.json (13 steps, audit to live in 65 min)"
   ],
   "next": [
-    "at each wake (:28): append the steps since commit 985b1f395 to the-storm.json; update the workflow and decision-graph status; watch for the first parser request and architect's plan",
-    "a trace per new workflow as Vicky's desks start them"
+    "at each wake: append to the-storm.json from commit 8e9f20ecc; trace the discovery workflow (Vicky's approval at 00:22, 9d47616e7)",
+    "a trace per new workflow"
   ],
   "asks": [
     "Dinis: reporter.newsroom has no ABP grant yet (board/abp/policies.json). The session hook now says it may write only board/team/reporter.newsroom/, board/runs/reporter.newsroom/ and its keys.json entry, which excludes board/team/work-desk/traces/, the path its brief gives it; each trace write is logged as R6. abp@PrompTugal.dinis to add the grant (and journalist.newsroom's). Until then I keep writing the traces where the brief says, in the open.",
-    "Dinis: token counts are estimates only. get_session reports used_tokens 0 for this session and the ABP run report has no token field, so accountant@ gets my own estimate, labelled as such, until a real per-run count is exposed."
+    "Dinis: token counts are estimates only. get_session reports used_tokens 0 for this session and the ABP run report has no token field, so accountant@ gets my own estimate, labelled as such, until a real per-run count is exposed.",
+    "Dinis: the work desk's hourly wake reached this session at 19:28, 21:29 and 00:28 only (account A three-hourly since 20:27, 788ff452b); each capture now covers up to three hours. Say if the work desk should stay hourly."
   ],
   "debrief": null
 }

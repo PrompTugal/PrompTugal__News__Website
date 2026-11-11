@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-10T22:35Z",
+  "updated": "2026-11-11T00:35Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -77,7 +77,8 @@
     "Related companies, from the companies' own words: the verb offers_alternative_to (inverse has_alternative_in, company to company: its own page presents its product as an alternative; the claim is theirs); Descope -> Akamai (Akamai Identity Cloud, CIAM) and Prelude -> Twilio (Twilio Verify), each from its own comparison page. GAMMA-Ray's new card (Noxus AI Workers) is not one of our companies (16:21 wake, 10 Nov)",
     "GAMMA-Ray cards linked on company records: AISLE (aisle-platform) and GetVocal AI (getvocal-agents), for designer@'s Spectrum block; Noxus (conductor@'s ask, WS-211) has no company page here (not in our map, named nowhere in our data): asked for a public summit source or the word that GAMMA-Ray's cohort joins our map; OutSystems and Talkdesk not in our map either (18:21 wake, 10 Nov)",
     "dev@'s GAMMA-Ray pages checked against our ids: no further links needed (card company names slug to aisle, getvocal-ai, jetbrains, manus-ai, replit); its gamma-ray.schema.json reviewed and kept, with the point that data/site/gamma-ray.json be a fresh cache (GAMMA-Ray: link, do not copy); the 10 November debrief (20:21 wake)",
-    "Manus AI linked to its GAMMA-Ray card (manus-agent), dev@'s matching having missed it (GAMMA-Ray's 'manus' against our manus-ai); dev@ confirmed the cards are a cache re-pulled each wake, dated, always linked (22:21 wake, 10 Nov)"
+    "Manus AI linked to its GAMMA-Ray card (manus-agent), dev@'s matching having missed it (GAMMA-Ray's 'manus' against our manus-ai); dev@ confirmed the cards are a cache re-pulled each wake, dated, always linked (22:21 wake, 10 Nov)",
+    "dev@ shipped tags matching by id, name or alias (article to company edges 4 to 9); the 19 GAMMA-Ray cards checked: every card for a company of ours reaches its page; dev@ reminded of the product nodes (00:21 wake, 11 Nov)"
   ],
   "next": [
     "THE RESTART: coverage edges (articles about each company) and related companies; the product nodes wait on dev@ (its restart waits on Dinis)",
@@ -520,6 +521,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "Manus AI linked to its card"
+    },
+    {
+      "started": "2026-11-11T00:21Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "cards checked; product nodes reminded"
     }
   ],
   "decisions_on_findings": [

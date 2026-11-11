@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-10T22:50Z",
+  "updated": "2026-11-11T00:55Z",
   "done": [
+    "00:55 Images for the two published articles that had none, no AI: 'Speed where it's safe' as its own table (the table tool now reads 1,007 and empty cells, and shades each column on its own scale with --per-column), 'Web Summit's nineteen passes' as its own nineteen colour samples (design/infographics/passes/make.mjs; 256 colours, dithered, as 64 banded the gradients)",
     "22:50 Re-checked: /agentic/ A to Z with a stage switch, chips named, nav fixed (H3 passes); the company Spectrum block live on AISLE and GetVocal (H10 passes); TestFlight banner one line",
     "20:50 Checked dev@'s builds live: E's masthead on every page passes T1 to T8 (T3 near: Indi's two-line TestFlight banner makes the phone top 247 px); /agentic/ and the cards: ranked by stage against GAMMA-Ray's 'nothing is a judgement' and H3's alphabetical, chips without dimension names, 'Now' marked on /agentic/; the interviews after the lead with a real frame (R5 met)",
     "18:50 Checked live: the E theme is on the home page only (inner pages keep the old header, whose wordmark is 180 px, under the brand's 240 minimum; the 404's wordmark still broken), all for dev@ under T1 and T7; D6 (past days) passes, three wording slips to dev.pages@; the storm page handed to Vicky's dev@, stood down; debrief refreshed",
@@ -543,6 +544,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "/agentic/ and the company block re-checked: pass"
+    },
+    {
+      "started": "2026-11-11T00:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "images for two articles, from their own table and samples"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

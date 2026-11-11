@@ -2,9 +2,9 @@
   "story": "the-storm",
   "from": "board/team/work-desk/traces/the-storm.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 78,
+  "steps": 101,
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-10T21:23:05Z",
+  "last": "2026-11-11T00:17:00Z",
   "actors": [
     {
       "actor": "Lisbon's mayor",
@@ -31,34 +31,34 @@
     {
       "actor": "curator@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 5,
+      "steps": 6,
       "first": "2026-11-10T14:08:40Z",
-      "last": "2026-11-10T20:43:53Z",
-      "span_minutes": 395,
-      "handoffs_out": 3,
+      "last": "2026-11-10T21:48:10Z",
+      "span_minutes": 460,
+      "handoffs_out": 4,
       "handoffs_in": 1,
       "tokens": null
     },
     {
       "actor": "journalist@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 2,
+      "steps": 3,
       "first": "2026-11-10T14:25:37Z",
-      "last": "2026-11-10T17:06:40Z",
-      "span_minutes": 161,
-      "handoffs_out": 1,
-      "handoffs_in": 3,
+      "last": "2026-11-10T21:51:50Z",
+      "span_minutes": 446,
+      "handoffs_out": 2,
+      "handoffs_in": 4,
       "tokens": null
     },
     {
       "actor": "reviewer@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 12,
+      "steps": 18,
       "first": "2026-11-10T14:36:22Z",
-      "last": "2026-11-10T21:14:46Z",
-      "span_minutes": 398,
-      "handoffs_out": 10,
-      "handoffs_in": 12,
+      "last": "2026-11-11T00:00:47Z",
+      "span_minutes": 564,
+      "handoffs_out": 16,
+      "handoffs_in": 21,
       "tokens": null
     },
     {
@@ -69,7 +69,7 @@
       "last": null,
       "span_minutes": null,
       "handoffs_out": 0,
-      "handoffs_in": 6,
+      "handoffs_in": 9,
       "tokens": null
     },
     {
@@ -91,7 +91,7 @@
       "last": "2026-11-10T20:50:01Z",
       "span_minutes": 238,
       "handoffs_out": 14,
-      "handoffs_in": 13,
+      "handoffs_in": 15,
       "tokens": null
     },
     {
@@ -108,12 +108,12 @@
     {
       "actor": "weather@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 13,
+      "steps": 16,
       "first": "2026-11-10T16:56:01Z",
-      "last": "2026-11-10T20:02:57Z",
-      "span_minutes": 187,
-      "handoffs_out": 15,
-      "handoffs_in": 5,
+      "last": "2026-11-10T23:41:00Z",
+      "span_minutes": 405,
+      "handoffs_out": 18,
+      "handoffs_in": 6,
       "tokens": null
     },
     {
@@ -141,34 +141,34 @@
     {
       "actor": "Vicky Wang",
       "kind": "person",
-      "steps": 2,
+      "steps": 4,
       "first": "2026-11-10T17:20:00Z",
-      "last": "2026-11-10T18:08:00Z",
-      "span_minutes": 48,
-      "handoffs_out": 2,
-      "handoffs_in": 5,
+      "last": "2026-11-11T00:17:00Z",
+      "span_minutes": 417,
+      "handoffs_out": 5,
+      "handoffs_in": 6,
       "tokens": null
     },
     {
       "actor": "correspondent@PrompTugal.dinis",
       "kind": "agent",
-      "steps": 1,
+      "steps": 2,
       "first": "2026-11-10T18:44:24Z",
-      "last": "2026-11-10T18:44:24Z",
-      "span_minutes": 0,
-      "handoffs_out": 1,
+      "last": "2026-11-10T22:44:30Z",
+      "span_minutes": 240,
+      "handoffs_out": 2,
       "handoffs_in": 4,
       "tokens": null
     },
     {
       "actor": "dev@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 6,
+      "steps": 12,
       "first": "2026-11-10T17:29:39Z",
-      "last": "2026-11-10T21:23:05Z",
-      "span_minutes": 233,
-      "handoffs_out": 8,
-      "handoffs_in": 6,
+      "last": "2026-11-11T00:09:38Z",
+      "span_minutes": 400,
+      "handoffs_out": 11,
+      "handoffs_in": 8,
       "tokens": null
     },
     {
@@ -196,11 +196,11 @@
     {
       "actor": "journalist.newsroom@PrompTugal.dinis",
       "kind": "agent",
-      "steps": 3,
+      "steps": 4,
       "first": "2026-11-10T17:24:25Z",
-      "last": "2026-11-10T19:04:47Z",
-      "span_minutes": 100,
-      "handoffs_out": 1,
+      "last": "2026-11-10T22:01:39Z",
+      "span_minutes": 277,
+      "handoffs_out": 2,
       "handoffs_in": 4,
       "tokens": null
     },
@@ -306,10 +306,10 @@
     {
       "actor": "social.watch@PrompTugal.dinis",
       "kind": "agent",
-      "steps": 3,
+      "steps": 4,
       "first": "2026-11-10T18:50:58Z",
-      "last": "2026-11-10T20:57:17Z",
-      "span_minutes": 126,
+      "last": "2026-11-11T00:06:16Z",
+      "span_minutes": 315,
       "handoffs_out": 5,
       "handoffs_in": 0,
       "tokens": null
@@ -323,6 +323,39 @@
       "span_minutes": null,
       "handoffs_out": 0,
       "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "journalist@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "the newsroom's pipeline",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "writer@PrompTugal.jose",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-10T23:51:36Z",
+      "last": "2026-11-10T23:51:36Z",
+      "span_minutes": 0,
+      "handoffs_out": 2,
+      "handoffs_in": 0,
       "tokens": null
     }
   ]

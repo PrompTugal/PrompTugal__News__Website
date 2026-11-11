@@ -10,7 +10,7 @@
 //   actors.json     one row per actor: kind, steps, first and last time, span in minutes, hand-offs out and in, tokens if known
 //   handoffs.json   the edges: from, to, count, times, and whether a person and an agent meet (person_agent: true)
 //   timeline.json   the steps, sorted by time, with a stable id and the minutes since the first step
-//   the-storm.mmd   a Mermaid sequence diagram of the hand-offs (renders on GitHub)
+//   <story>.mmd     a Mermaid sequence diagram of the hand-offs (renders on GitHub)
 //   flow.mmd        a Mermaid flowchart of actors and hand-off counts
 // Field names are read loosely (time | time_utc | at; handoff_to | hand_off_to | to), so the reporter's
 // schema can move without breaking this. Nothing is invented: a value missing in the trace stays null.
@@ -100,6 +100,6 @@ const w = (f, v) => writeFileSync(join(outDir, f), typeof v === 'string' ? v + '
 w('actors.json', { ...meta, actors: [...actors.values()] });
 w('handoffs.json', { ...meta, handoffs: [...edges.values()] });
 w('timeline.json', { ...meta, steps });
-w('the-storm.mmd', seq.join('\n'));
+w(`${story}.mmd`, seq.join('\n'));
 w('flow.mmd', flow.join('\n'));
 console.log(`${story}: ${steps.length} steps, ${actors.size} actors, ${edges.size} hand-off edges -> ${outDir}`);

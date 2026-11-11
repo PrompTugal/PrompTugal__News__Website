@@ -1,0 +1,97 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-0100 (discovery workflow, leads from journalist-ai and journalist)",
+ "batch": "LEADS-11NOV",
+ "for": "journalist-ai; journalist (summit desk)",
+ "covers": {
+  "note": "Leads logged in desks/journalist-vicky/leads/2026-11-11-ai.md and 2026-11-11-summit.md, each re-read at source by the curator at about 00:50 to 00:58 UTC. No vault captures."
+ },
+ "published_check": "Searched content/articles, every desk's drafts and the README: no article or draft on Zalando or its tooling; the AI desk's enterprise-agent stories (Teamworks, WPP, Glovo, Gravitee) are different companies and angles. web-summit-2026-in-numbers (published 6 Nov) says 'expects more than 70,000 attendees from more than 100 countries'; the final figures are new.",
+ "captures": [
+  {
+   "id": "x-zalando-agentic",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html",
+   "beat": "AI and robotics",
+   "names": [
+    "Zalando"
+   ],
+   "what_is_new": "Zalando engineering blog, 14 Aug 2026, by an executive principal engineer: 2.5 years of agentic engineering across 250+ engineering teams. LiteLLM-based API proxy since January 2024 (OpenAI, AWS Bedrock, Google Vertex), about 2,000 monthly users on six small pods; a chat UI and a pydantic-ai CLI with MCP token injection so no secrets sit in config files; no central mandate of one tool; risk-based PR approval where 33% of PRs are low risk and auto-approved, cutting lead time for those by 20 to 40%; analysis of code complexity in four codebases; a central agent-skills collection; governance by transparency and an AI section of its Tech Radar (too early to converge).",
+   "is_story": true,
+   "group": "discovery leads"
+  },
+  {
+   "id": "x-ws-final-figures",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/",
+   "beat": "The summit",
+   "names": [
+    "Web Summit"
+   ],
+   "what_is_new": "Web Summit post, 10 Nov 2026 10:00 UTC: 70,003 attendees from 164 countries, 1,943 investors, more than 10,000 startups, 3,052 exhibiting companies from 110 countries, delegations from several governments. Published before Day 2 was called off.",
+   "is_story": true,
+   "group": "discovery leads"
+  }
+ ],
+ "leads_reviewed": [
+  {
+   "lead": "2026-11-11-ai.md: Zalando's engineering team on 2.5 years of agentic engineering",
+   "status": "commissioned",
+   "story": "S46",
+   "why": "First-hand, long, specific; read in full by the curator; not new this week (14 Aug) but new to our readers and on a topic with no duplicate."
+  },
+  {
+   "lead": "2026-11-11-ai.md: Parloa's Web Summit page lists a keynote on the cancelled Day 2",
+   "status": "held",
+   "why": "A vendor's own events page, no cancellation notice; the Wednesday keynote is moot and the Thursday masterclass is promotion. Needs a customer's or Parloa's own account of a real deployment, or a websummit.com session page for Thursday."
+  },
+  {
+   "lead": "2026-11-11-summit.md: Web Summit's final 2026 figures",
+   "status": "commissioned",
+   "story": "S47",
+   "why": "Web Summit's own post, re-read and the figures found; an update to the published S5 article, whose figures were expectations."
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S46",
+   "kind": "team-desk",
+   "batch": "LEADS-11NOV",
+   "title": "How Zalando rolled out AI coding agents across 250 teams, in its own account",
+   "beat": "AI and robotics",
+   "angle": "A first-hand engineering account: one proxy for every model, no mandated tool, no secrets in config files, and a bot that auto-approves the low-risk third of pull requests. What worked, what annoyed users, and why Zalando says it is too early to converge.",
+   "rests_on": [
+    "x-zalando-agentic"
+   ],
+   "ready": true,
+   "categories": [
+    "AI",
+    "Corporate"
+   ],
+   "note": "For journalist-ai. Ready. Conditions: Zalando's own account of its own tooling, attribute every figure and claim to the post (published 14 Aug 2026, say it is not new this week); no claim that Zalando is at Web Summit (none is established); no verdict on whether AI coding raises quality (the post says 'time will show'); describe the complexity analysis as Zalando's own observation of four codebases; quote briefly; link no company page unless it exists. Category line to be added to desks/curator/categories.json when the draft exists (slug unknown until then).",
+   "words": "550 to 700"
+  },
+  {
+   "id": "S47",
+   "kind": "summit",
+   "batch": "LEADS-11NOV",
+   "title": "Update: Web Summit's final 2026 figures",
+   "beat": "The summit",
+   "angle": "An update note on the published 'Web Summit 2026 in numbers' (6 Nov, which gave expected figures): Web Summit's own post of 10 Nov gives 70,003 attendees from 164 countries, 1,943 investors, more than 10,000 startups and 3,052 exhibiting companies from 110 countries.",
+   "rests_on": [
+    "x-ws-final-figures"
+   ],
+   "ready": true,
+   "categories": [
+    "Web Summit 2026"
+   ],
+   "note": "For journalist (summit desk). An UPDATE (note near the top) to web-summit-2026-in-numbers, not a new article. Conditions: attribute every figure to Web Summit's post of 10 Nov (published before Day 2 was called off, say so); the post is Web Summit's own count, not independently checked; keep the earlier 'expected' figures as they were and mark which are final; do not extend the figures to Day 2 or Thursday attendance. No change to the article's categories.",
+   "words": "60 to 120"
+  }
+ ],
+ "gaps_for_the_researcher": [
+  "Customer or first-party accounts of Parloa's agents in real deployments; a websummit.com session page for Parloa's Thursday masterclass."
+ ],
+ "urgent": null
+}

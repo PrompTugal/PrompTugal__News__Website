@@ -1,0 +1,108 @@
+{
+ "about": "The close of 10 November 2026 (UTC), written at 00:50 on 11 November. API-equivalent dollars, a comparison, not money spent. Account A from 06:48 on 10 November (its 00:00 to 06:48 is in the 9 November close's combined figure) to 00:48 on 11 November (48 minutes of 11 November inside); account B from 21:52 on 9 November to 21:52 on 10 November (conductor.b@'s ledgers), so it carries the last two hours before THE BIG STOP and leaves out the last two of 10 November.",
+ "total": 315.67,
+ "account_A": 84.15,
+ "account_B": 231.52,
+ "by_role": {
+  "ontologist": {
+   "A": 0,
+   "B": 56.65,
+   "day": 56.65,
+   "used": 1.89
+  },
+  "conductor": {
+   "A": 26.1,
+   "B": 23.99,
+   "day": 50.09,
+   "used": 1.0
+  },
+  "security": {
+   "A": 30.0,
+   "B": 0,
+   "day": 30.0,
+   "used": 1.0
+  },
+  "correspondent": {
+   "A": 0,
+   "B": 27.77,
+   "day": 27.77,
+   "used": 0.69
+  },
+  "sherpa": {
+   "A": 0,
+   "B": 23.06,
+   "day": 23.06,
+   "used": 0.92
+  },
+  "librarian": {
+   "A": 0,
+   "B": 22.58,
+   "day": 22.58,
+   "used": 1.51
+  },
+  "dev.data": {
+   "A": 0,
+   "B": 18.74,
+   "day": 18.74,
+   "used": 1.87
+  },
+  "designer": {
+   "A": 0,
+   "B": 18.61,
+   "day": 18.61,
+   "used": 0.37
+  },
+  "dev.graphs": {
+   "A": 0,
+   "B": 16.66,
+   "day": 16.66,
+   "used": 1.67
+  },
+  "accountant": {
+   "A": 15.2,
+   "B": 0,
+   "day": 15.2,
+   "used": 1.52
+  },
+  "dev": {
+   "A": 0,
+   "B": 14.95,
+   "day": 14.95,
+   "used": 0.25
+  },
+  "observability": {
+   "A": 12.85,
+   "B": 0,
+   "day": 12.85,
+   "used": 0.43
+  },
+  "dev.pages": {
+   "A": 0,
+   "B": 4.6,
+   "day": 4.6,
+   "used": 0.46
+  },
+  "journalist": {
+   "A": 0,
+   "B": 3.91,
+   "day": 3.91,
+   "used": 0.11
+  }
+ },
+ "over_lines": [
+  "conductor",
+  "ontologist",
+  "security",
+  "librarian",
+  "accountant",
+  "dev.graphs",
+  "dev.data"
+ ],
+ "events": [
+  "THE RESTART (about 02:40); dev@ and dev.pages@ back on account B late in the day",
+  "Dinis's memo on agents that save tokens (17:35): the cost case in board/team/accountant/case-agents-that-save-tokens.md",
+  "account A's seven-day limit at allowed_warning in every session from 18:47 (resets 15 November 20:00 UTC)",
+  "Vicky's and Angelo's rebuild sessions on Dinis's card, from about 12:05: no cost reported"
+ ],
+ "openrouter": "no per-key rows; no top-up seen"
+}

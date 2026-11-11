@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-151 cards (151 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-10T21:58:54Z at site v0.1.1085; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+154 cards (154 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-11T00:59:17Z at site v0.1.1117; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 151 |
+| `PUB.NEWS` | 154 |
 
 Newest five accessions:
 
+- `ACC-20261111-0007` [S47: Update: Web Summit's final 2026 figures](https://promptugal.news/newsroom/stories/S47/) (`PUB.NEWS S47`)
+- `ACC-20261111-0006` [S46: How Zalando rolled out AI coding agents across 250 teams, in its own account](https://promptugal.news/newsroom/stories/S46/) (`PUB.NEWS S46`)
+- `ACC-20261111-0005` [AG1: The agent conversation the storm postponed: twelve Wednesday sessions that did not happen](https://promptugal.news/newsroom/stories/AG1/) (`PUB.NEWS AG1`)
 - `ACC-20261110-0288` [How each piece is made](https://promptugal.news/newsroom/pieces/) (`PUB.NEWS pieces`)
 - `ACC-20261110-0287` [The decision graph (Storm Charles)](https://promptugal.news/newsroom/decision-graph/) (`PUB.NEWS decision-graph`)
-- `ACC-20261110-0286` [S45: Web Summit's cancelled Day 2: what is known about refunds](https://promptugal.news/newsroom/stories/S45/) (`PUB.NEWS S45`)
-- `ACC-20261110-0285` [S44: Update: Web Summit's Wednesday will not take place; it aims to hold Thursday](https://promptugal.news/newsroom/stories/S44/) (`PUB.NEWS S44`)
-- `ACC-20261110-0235` [S43: Wednesday's alert: what the government has closed across Portugal](https://promptugal.news/newsroom/stories/S43/) (`PUB.NEWS S43`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

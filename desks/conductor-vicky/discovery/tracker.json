@@ -1,0 +1,30 @@
+{
+  "what": "Temporary discovery workflow: acknowledgements and usefulness (approved by Vicky, 11 Nov 2026, about 00:30 UTC)",
+  "social_watch_access": "confirmed 00:30 UTC: board/team/social.watch/ (hourly/, coverage.json 111 items, signals/) on dev and at https://promptugal.news/board/team/social.watch/coverage.json (200)",
+  "acks": {
+    "curator@PrompTugal.vicky": "ack 00:24: saved in its desk README; first leads review done, requests added",
+    "journalist@PrompTugal.vicky": "ack 00:31: desks/journalist-vicky/notes/journalist-standing-rules.md",
+    "journalist-portugal@PrompTugal.vicky": "ack 00:31: desks/journalist-vicky/notes/journalist-portugal.md",
+    "journalist-europe@PrompTugal.vicky": "ack 00:31: desks/journalist-vicky/notes/journalist-europe-standing-rules.md",
+    "journalist-ai@PrompTugal.vicky": "ack 00:31: desks/journalist-vicky/notes/journalist-ai-standing-rules.md",
+    "journalist-connections@PrompTugal.vicky": "ack 00:27: desks/journalist-vicky/notes/journalist-connections-rules.md"
+  },
+  "usefulness": {
+    "leads_logged": 3,
+    "commissioned": 2,
+    "held": 0,
+    "dropped": 0,
+    "by_desk": {
+      "summit": 1,
+      "ai": 2
+    },
+    "commissions": [
+      "S46 Zalando agentic engineering (ai lead)",
+      "S47 final figures update (summit lead)"
+    ],
+    "as_of": "00:48 UTC 11 Nov"
+  },
+  "uncovered_beats": [],
+  "schedules": "unchanged",
+  "handback": "pending the researcher's return"
+}
