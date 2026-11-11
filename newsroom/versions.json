@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1241",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 and S54 source lines: Web Summit's announcement checked again in a browser at 13:10 UTC; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c990120e6"
+  },
+  {
     "version": "v0.1.1240",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.vicky: /storm/charles/: Web Summit rows: officially back on Thursday; the homepage no longer 'carries the notice'; Vicky's browser read 13:10 UTC",
