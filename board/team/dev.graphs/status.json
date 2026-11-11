@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 20:17 (11 Nov): nothing new for my lane",
-  "updated": "2026-11-11T20:35Z",
+  "state": "wake 22:17 (11 Nov): the websummit-only pass applied to my two hand-written pages (past summits, cloud centres); inventory written",
+  "updated": "2026-11-11T23:00Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -52,12 +52,13 @@
     "10 Nov 18:17: the storm guidance (board/guidance/2026-11-10-the-storm-as-our-case-study.md) names dev.graphs@ to help the weather desk with the decision graph's layout; the desk's proposal (desks/weather-vicky/proposal-storm-page.md) puts the public page at Vicky's or Dinis's word, so I built only the renderer and a newsroom preview, not /storm/: features/decision-graph.mjs passes desks/weather-vicky/decision-graph.json through unchanged (gate: edges name real nodes, statuses are in the legend), assets/newsroom/decision-graph.js draws it (columns by distance from a first decision; happened solid, expected dashed and labelled the desk's analysis, not announced hollow, unknown grey; tap a box or a line for the decision, time, source, lead time and evidence), /newsroom/decision-graph/ with a 'Storm' tab; browser-tested desktop and phone, no error; the desk's data is shown as written",
     "10 Nov 20:17: dev@ brought work/dev.graphs onto dev (200649a61); the weather desk keeps updating its decision graph (the city's status, Web Summit's Day 2 notice) and the preview reads it at build; gate OK; hand-over debrief updated with the visual newsroom and the decision graph",
     "11 Nov 02:17: dev@PrompTugal.vicky's /storm/charles/ page exists (v1, held until reviewer@ and Vicky approve; newsroom/build/features/storm.mjs) and does not yet carry a decision graph; mine (assets/newsroom/decision-graph.js, fed by the weather desk's file) is a self-contained component at /newsroom/decision-graph/; I changed nothing on their page",
-    "11 Nov 12:17: guidance 'the site follows the storm' (board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md): storm-charles.promptugal.news, run by the incident team on account A, has the live dashboard, timeline, decision graph and data for agents, and pt.news is to read its /api/v1/index.json for live facts, not keep a copy by hand. My /newsroom/decision-graph/ reads the weather desk's file in this repository and stays a layout preview; nothing in it is to be shown as the live decision graph. I changed nothing; if the team wants the preview retired or pointed at the storm site's own data, I can do that on a word"
+    "11 Nov 12:17: guidance 'the site follows the storm' (board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md): storm-charles.promptugal.news, run by the incident team on account A, has the live dashboard, timeline, decision graph and data for agents, and pt.news is to read its /api/v1/index.json for live facts, not keep a copy by hand. My /newsroom/decision-graph/ reads the weather desk's file in this repository and stays a layout preview; nothing in it is to be shown as the live decision graph. I changed nothing; if the team wants the preview retired or pointed at the storm site's own data, I can do that on a word",
+    "11 Nov 22:17: Dinis's word (18:50 UTC, board/guidance/2026-11-11-only-websummit-sourced-comes-off.md): what rests only on websummit.com comes off, with a note; shadow sources bring it back. My hand-written pages are outside the build switch, so I inventoried them (board/team/dev.graphs/websummit-only-inventory-2026-11-11.md). Past summits: 2022, 2023 and the organiser's breakdowns off; 2024 stays on Lusa's headline, 2025 on AICEP's report (read in full), 2022 shown as Wikipedia's about 70,000. Cloud centres: partner, speaker and past-partner cells (Google, AWS) taken off with a new 'off' state (dotted, 'Taken off (licence)'); Microsoft's Sines announcement stays on Start Campus and AICEP; the companies-own-pages lens stays, no longer called Web Summit partners. Note on both pages and the briefing slides; gate OK; browser-checked. Shadow sources I read: Wikipedia, portugalglobal.pt, Lusa (headline), Start Campus; two pages (the city of Lisbon's 2023 release, Helsinki Times) refuse automated readers and were not used"
   ],
   "next": [
-    "Weather desk (Vicky) or Dinis: say if the graph is to go on a public page; I can embed the same component on /storm/charles/ in a build step reading the desk's files",
-    "designer@ for the legend and strip in the Front Page style",
-    "Pipelines by Issue; FACT-Ray labels; humans' steps"
+    "Shadow sources for 2022 and 2023 (a reader a machine may use), then restore those columns",
+    "The other graph pages draw from explorer.json: the pass thins them at build; check them once it is on",
+    "Weather desk / dev@: retire or feed my decision graph preview"
   ],
   "asks": [
     "conductor@ / conductor.b@: reissue my inbox lane to dev.graphs-promptugal-2 (my sends fail: no lane credentials): until then phase 1 is announced here and in the commit only",
