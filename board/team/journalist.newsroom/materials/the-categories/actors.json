@@ -1,0 +1,87 @@
+{
+  "story": "the-categories",
+  "from": "board/team/work-desk/traces/the-categories.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 13,
+  "first": "2026-11-10T23:01:41Z",
+  "last": "2026-11-11T00:17:00Z",
+  "actors": [
+    {
+      "actor": "conductor.B@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 5,
+      "first": "2026-11-10T23:01:41Z",
+      "last": "2026-11-11T00:06:48Z",
+      "span_minutes": 65,
+      "handoffs_out": 7,
+      "handoffs_in": 6,
+      "tokens": null
+    },
+    {
+      "actor": "Vicky Wang",
+      "kind": "person",
+      "steps": 3,
+      "first": "2026-11-10T23:14:22Z",
+      "last": "2026-11-11T00:17:00Z",
+      "span_minutes": 63,
+      "handoffs_out": 3,
+      "handoffs_in": 4,
+      "tokens": null
+    },
+    {
+      "actor": "curator@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 3,
+      "first": "2026-11-10T23:03:33Z",
+      "last": "2026-11-10T23:33:34Z",
+      "span_minutes": 30,
+      "handoffs_out": 3,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "dev@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T00:02:21Z",
+      "last": "2026-11-11T00:02:21Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "Vicky's desks (weather, journalists, reviewer)",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "Vicky's desks",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-10T23:37:59Z",
+      "last": "2026-11-10T23:37:59Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "dev@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    }
+  ]
+}

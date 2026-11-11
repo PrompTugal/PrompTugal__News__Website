@@ -1,5 +1,152 @@
 [
   {
+    "version": "v0.1.1133",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: the products are live in the graph; one source refinement asked",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ebfe5bffc"
+  },
+  {
+    "version": "v0.1.1132",
+    "date": "2026-11-11",
+    "what": "journalist-portugal@PrompTugal.vicky: run report",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "5c6550c04"
+  },
+  {
+    "version": "v0.1.1131",
+    "date": "2026-11-11",
+    "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "1ec1afcc8"
+  },
+  {
+    "version": "v0.1.1130",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 02:06 UTC, no change; Carris and Fertagus notices logged as leads (curator's request); run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "da14d5b1f"
+  },
+  {
+    "version": "v0.1.1129",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 01:48 wake: account B running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "61b04e0d7"
+  },
+  {
+    "version": "v0.1.1128",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 01:48 wake: discovery 8 leads, 5 commissions, every beat contributing",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "f8b89a373"
+  },
+  {
+    "version": "v0.1.1127",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "08dcd7079"
+  },
+  {
+    "version": "v0.1.1126",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: categories.json: withdraw the early entry (the gate needs the article file); record the line to ship with the article",
+    "by": "curator@PrompTugal.vicky",
+    "from": "f600df4ef"
+  },
+  {
+    "version": "v0.1.1125",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (01:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "d16e42590"
+  },
+  {
+    "version": "v0.1.1124",
+    "date": "2026-11-11",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "85b5958ff"
+  },
+  {
+    "version": "v0.1.1123",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: two Europe leads for the curator (EU Day 2 sessions; EN 18286), temporary discovery workflow",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "ad79995cb"
+  },
+  {
+    "version": "v0.1.1122",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: the app skips the called-off day, and on it shows the notice first (sherpa@'s W6)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "abef33c54"
+  },
+  {
+    "version": "v0.1.1121",
+    "date": "2026-11-11",
+    "what": "journalist-connections@PrompTugal.vicky: lead for the curator: Manus 2.0 (its request), Web Summit participation confirmed on the speakers page",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "a4cb6bb72"
+  },
+  {
+    "version": "v0.1.1120",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "57b39753b"
+  },
+  {
+    "version": "v0.1.1119",
+    "date": "2026-11-11",
+    "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 00:58)",
+    "by": "journalist.newsroom@PrompTugal.dinis",
+    "from": "242ee08d4"
+  },
+  {
+    "version": "v0.1.1118",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: articles-page category labels verified live (v0.1.1117)",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "5e042feb5"
+  },
+  {
+    "version": "v0.1.1117",
+    "date": "2026-11-11",
+    "what": "accountant@PrompTugal.dinis: close of 10 November, 315.67 API-equivalent; budgets reset for 11 November",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "a7b810cff"
+  },
+  {
+    "version": "v0.1.1116",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 00:48 wake: ledger; nine account-B agents running",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "907102c45"
+  },
+  {
+    "version": "v0.1.1115",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "36a91d042"
+  },
+  {
+    "version": "v0.1.1114",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/ page and the home lead's link to it (HELD: not released until reviewer@ verifies and Vicky's order stands)",
+    "by": "dev@PrompTugal.vicky",
+    "from": "ce6f5d29f"
+  },
+  {
+    "version": "v0.1.1113",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (00:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "75c536710"
+  },
+  {
     "version": "v0.1.1112",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: run report",

@@ -70,6 +70,7 @@
     }
     // on today, the programme opens at now: what has ended is dimmed and the first that has not is brought to the top (AP1)
     function toNow() {
+        if (root.classList.contains('pa-off')) { window.scrollTo(0, 0); return }   // a called-off day: its notice, at the top
         var now = new Date(); if (st.day !== now.toISOString().slice(0, 10)) return
         var m = now.getUTCHours() * 60 + now.getUTCMinutes(), first = null
         list.querySelectorAll('.pa-it').forEach(function (li) { var e = +li.getAttribute('data-end'); if (e <= m) li.classList.add('past'); else if (!first && !li.classList.contains('long')) first = li })
@@ -90,7 +91,13 @@
         var n = st.q.toLowerCase(), shown = (st.tab === 'mine' ? picks : items).filter(function (i) { return !n || (i.title + ' ' + i.where + ' ' + i.kind).toLowerCase().indexOf(n) >= 0 })
         list.textContent = ''
         // a day that did not take place says so first (10 November: Web Summit cancelled Day 2); its programme stays as the record
-        var day = DAYS.find(function (x) { return x.date === st.day }); if (day && day.cancelled) list.appendChild(el('p', 'pa-cancel', day.cancelled))
+        var day = DAYS.find(function (x) { return x.date === st.day })
+        if (day && day.cancelled) {
+            var note = el('div', 'pa-cancel'); note.appendChild(el('p', null, day.cancelled))
+            var nd = DAYS.find(function (x) { return x.date > st.day && !x.cancelled })
+            if (nd) { var go = el('button', 'pa-pick', nd.label.replace(/ November$/, '') + ' ›'); go.type = 'button'; go.addEventListener('click', function () { st.day = nd.date; draw(); toNow() }); note.appendChild(go) }
+            list.appendChild(note); root.classList.add('pa-off')
+        } else root.classList.remove('pa-off')
         if (!shown.length) { list.appendChild(el('p', 'pa-note', st.tab === 'mine' ? W.none_mine : W.none)); all.hidden = !mine().length; return }
         var ul = el('ul', 'pa-ul'), last = null
         shown.forEach(function (i) {
@@ -158,6 +165,8 @@
         DAYS = days
         var today = new Date().toISOString().slice(0, 10), ds = DAYS.map(function (d) { return d.date })
         st.day = ds.indexOf(today) >= 0 ? today : (ds.find(function (d) { return d > today }) || ds[ds.length - 1])
+        // a called-off day: open on the next day that takes place (sherpa@'s W6)
+        var dd = DAYS.find(function (x) { return x.date === st.day }); if (dd && dd.cancelled) { var nx = DAYS.find(function (x) { return x.date > st.day && !x.cancelled }); if (nx) st.day = nx.date }
         days_(); draw(); toNow()
         // the days row opens on today (sherpa@'s AP2)
         var on = nav.querySelector('[data-d="' + st.day + '"]'); if (on) nav.scrollLeft = Math.max(0, on.offsetLeft - 14)

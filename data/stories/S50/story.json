@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S50",
+  "type": "story",
+  "title": "The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers",
+  "beat": "Europe",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:x-eu-en-18286"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0200.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0200.json",
+      "desks/journalist-vicky/drafts/S50-ai-act-first-harmonised-standard.md"
+    ]
+  },
+  "assignee": "journalist-europe@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S50-ai-act-first-harmonised-standard.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0200.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S50-ai-act-first-harmonised-standard.md"
+    }
+  ]
+}

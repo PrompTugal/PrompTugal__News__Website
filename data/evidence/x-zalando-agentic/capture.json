@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-zalando-agentic",
+  "type": "evidence",
+  "source_url": "https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html",
+  "beat": "AI and robotics",
+  "group": "discovery leads",
+  "names": [
+    {
+      "as_listed": "Zalando",
+      "ref": "organisation:zalando"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-0100.json",
+  "run": "2026-11-11-0100 (discovery workflow, leads from journalist-ai and journalist)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0100.json"
+    ]
+  }
+}

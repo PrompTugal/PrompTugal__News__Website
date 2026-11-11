@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S49",
+  "type": "story",
+  "title": "Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day",
+  "beat": "Europe",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:x-eu-web-summit-sessions"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0200.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0200.json",
+      "desks/journalist-vicky/drafts/S49-eu-sessions-day-2-update.md"
+    ]
+  },
+  "assignee": "journalist-europe@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S49-eu-sessions-day-2-update.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0200.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S49-eu-sessions-day-2-update.md"
+    }
+  ]
+}

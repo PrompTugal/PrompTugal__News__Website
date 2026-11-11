@@ -1,0 +1,24 @@
+sequenceDiagram
+  title the-categories: who handed what to whom
+  participant A0 as conductor.B@PrompTugal.vicky
+  participant A1 as Vicky Wang
+  participant A2 as curator@PrompTugal.vicky
+  participant A3 as dev@PrompTugal.vicky
+  participant A4 as Vicky's desks (weather, journalists, reviewer)
+  participant A5 as Vicky's desks
+  participant A6 as dev@PrompTugal.dinis
+  A0->>A1: 23:01 a full audit (113 tags, 56 articles) and a 14-topic proposal for Vicky, not ...
+  A0->>A2: 23:01 a full audit (113 tags, 56 articles) and a 14-topic proposal for Vicky, not ...
+  A0->>A3: 23:01 a full audit (113 tags, 56 articles) and a 14-topic proposal for Vicky, not ...
+  A2->>A0: 23:03 corrections only
+  A0->>A1: 23:04 folded into the proposal
+  A1->>A0: 23:14 replaces it with broad categories of her own
+  A2->>A0: 23:15 a categories proposal for the articles dropdown (classification only)
+  A0->>A1: 23:24 a consolidated recommendation
+  A1->>A0: 23:31 approves the 8 main categories
+  A2->>A3: 23:33 categories.json: the 8 categories, every article, the secondary-tag map
+  A0->>A4: 23:34 rollout: every desk told, acknowledgements tracked
+  A5->>A0: 23:37 the rules saved in each desk's standing notes: weather@ (23:34), journalist@ ...
+  A3->>A6: 00:02 the articles and lists filters show the eight categories, a gate check, ...
+  A0->>A1: 00:06 verified live: dropdown, counts, filter, URLs
+  A1->>A0: 00:17 approves the category labels on the articles page

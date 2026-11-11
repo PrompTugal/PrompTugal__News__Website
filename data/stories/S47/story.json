@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S47",
+  "type": "story",
+  "title": "Update: Web Summit's final 2026 figures",
+  "beat": "The summit",
+  "topic": null,
+  "status": "review",
+  "rests_on": [
+    "evidence:x-ws-final-figures"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0100.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0100.json",
+      "desks/journalist-vicky/drafts/S47-web-summit-2026-final-figures-update.md",
+      "desks/reviewer-vicky/reviews/S47.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S47-web-summit-2026-final-figures-update.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S47.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": null,
+  "next": "the writer answers the review",
+  "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S47.md"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0100.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S47-web-summit-2026-final-figures-update.md"
+    }
+  ]
+}

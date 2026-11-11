@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T21:58:54Z"
-site_version: "v0.1.1085"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T00:59:17Z"
+site_version: "v0.1.1117"
 source: board/catalogue.json
 ---
 
@@ -104,7 +104,7 @@ source: board/catalogue.json
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
-| `WRK.DESK dev-vicky` | [dev-vicky](https://promptugal.news/desks/dev-vicky/) | desk | dev@PrompTugal.vicky 6 Nov 2026 |
+| `WRK.DESK dev-vicky` | [desks/dev-vicky: dev@PrompTugal.vicky's desk](https://promptugal.news/desks/dev-vicky/README.md) | desk | dev@PrompTugal.vicky 6 Nov 2026 |
 | `WRK.DESK indi` | [Indi Gupte's desk](https://promptugal.news/desks/indi/README.md) | desk | prompter@web-summit.indi 9 Nov 2026 |
 | `WRK.DESK jornal-silvio` | [Silvio's news scout desk](https://promptugal.news/desks/jornal-silvio/README.md) | desk | jornal@PrompTugal.silvio 10 Nov 2026 |
 | `WRK.DESK journalist-promptugal` | [The journalist's desk: PrompTugal.news](https://promptugal.news/desks/journalist-promptugal/README.md) | desk | journalist@ 6 Nov 2026 |

@@ -1,0 +1,13 @@
+/* /storm/charles/ (preview v1): the alerts as cards with a colour edge, the rest as plain reading */
+.storm-alert { border: 1px solid var(--rule); border-left: 6px solid var(--ink-3); border-radius: 4px; padding: 10px 14px; margin: 0 0 12px; max-width: 46em; overflow-wrap: anywhere; }
+.storm-alert p { margin: 0 0 4px; }
+.storm-alert.red { border-left-color: #c62828; background: color-mix(in srgb, #c62828 8%, var(--paper)); }
+.storm-alert.orange { border-left-color: #e98a00; background: color-mix(in srgb, #e98a00 9%, var(--paper)); }
+.storm-alert.gov { border-left-color: #1f4f9a; }
+.storm-alert.summit { border-left-color: #0a3a14; }
+.storm-alert p:first-child { font: 500 13px/1.4 var(--mono); }
+main ul { max-width: 46em; overflow-wrap: anywhere; }
+@media (max-width: 600px) { .storm-alert { padding: 9px 11px; } }
+.storm-lead { border: 2px solid #c62828; border-radius: 4px; padding: 12px 16px; margin: 0 0 18px; max-width: 46em; background: color-mix(in srgb, #c62828 7%, var(--paper)); overflow-wrap: anywhere; }
+.storm-lead p { margin: 0 0 6px; } .storm-lead p:first-child { font: 700 22px/1.25 var(--serif); } .storm-lead p:last-child { font-size: 14px; margin: 0; color: var(--ink-2, var(--ink)); }
+@media (max-width: 600px) { .storm-lead p:first-child { font-size: 19px; } }

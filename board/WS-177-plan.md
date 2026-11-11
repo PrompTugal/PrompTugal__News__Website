@@ -10,6 +10,18 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 00:36 UTC, 11 November (covers 22:36 and 23:36, whose wakes were not delivered)
+
+- Snapshot 2026-11-11T0037Z on v0.1.1112: 8 screenshots, 0 errors.
+- **The storm:** IPMA brought Lisbon's red rain forward to Wednesday 09:00 to 18:00; S41 updated and verified (14b8bcad0, 2fec770f9); social.watch@ corrected (f692da023). /storm/charles/ verified in its third version (a2f85035f), to publish after review at Vicky's approval (8e9f20ecc). Relayed from the incident team (material): the rain change, and IPMA's spoken note of a more southerly track.
+- **Article categories live** (v0.1.1107): the curator's eight main categories as filters on the articles and lists pages (af1ca0ecd, c49051e6f).
+- Vicky's desk: a temporary discovery workflow (journalists' leads to the curator), approved by Vicky (9d47616e7); first leads logged.
+- ontologist@: GAMMA-Ray cards checked against our ids (c1778461e). designer@: images for two articles that had none (f75a09cac).
+- security@ 00:05: 134 commits clean; reviewer@vicky within its five keys.
+- reporter.newsroom@: storm trace 101 steps; a new trace, the categories rollout.
+- PrompTugal__App__iOS moved (3ce861bf).
+- Inbox: 3 unsigned feedback messages (id, time, length only). No key changes.
+
 ## Wake at 21:36 UTC, 10 November (covers 20:36, whose wake was not delivered)
 
 - Snapshot 2026-11-10T2137Z on v0.1.1081: 8 screenshots, 0 errors.

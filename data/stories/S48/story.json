@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S48",
+  "type": "story",
+  "title": "Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:x-manus-2-0",
+    "evidence:x-ws-speakers-manus"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0200.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0200.json",
+      "desks/journalist-vicky/drafts/S48-manus-2-0-agents-own-email-phone-wallet.md"
+    ]
+  },
+  "assignee": "journalist-connections@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S48-manus-2-0-agents-own-email-phone-wallet.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0200.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S48-manus-2-0-agents-own-email-phone-wallet.md"
+    }
+  ]
+}
