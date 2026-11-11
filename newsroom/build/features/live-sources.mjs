@@ -12,15 +12,17 @@ const put = (t, v) => t.replace(/\{\{(#?[a-z_]+)\}\}/g, (m, k) => v[k] ?? '')
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const PAGES = ['index.html', 'storm/charles/index.html']
 
-function strip() {
+function strip(rel) {
     let d; try { d = JSON.parse(fs.readFileSync(R('assets/sources/sources.json'), 'utf8')) } catch { return '' }
     const on = (d.sources || []).filter(s => s.live && /^https:\/\//.test(s.url)); if (!on.length) return ''
     return put(part('strip'), { '#items': on.map(s => put(item('source'), { tone: esc(s.tone), url: esc(s.url), kicker: esc(s.kicker), name: esc(s.name), line: esc(s.line),
-        host: esc(new URL(s.url).host), updated: s.updated ? ` data-updated="${esc(s.updated)}"` : '' })).join('') })
+        host: esc(new URL(s.url).host), updated: s.updated ? ` data-updated="${esc(s.updated)}"` : '' })
+        // our own page for the source, from every page but itself (the home page always links the storm page, whatever leads)
+        + (s.here && s.here !== rel ? put(item('here'), { href: esc(s.here), name: esc(s.here_name) }) : '')).join('') })
 }
 export function decorate(p) {
     if (!PAGES.includes(p.rel)) return
-    const s = strip(); if (!s) return
+    const s = strip(p.rel); if (!s) return
     p.assets = { ...(p.assets || {}), css: [...(p.assets?.css || []), 'assets/sources/sources.css'], js: [...(p.assets?.js || []), 'assets/sources/sources.js'] }
     p.before = s + (p.before || '')
 }
