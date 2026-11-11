@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1130",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 02:06 UTC, no change; Carris and Fertagus notices logged as leads (curator's request); run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "da14d5b1f"
+  },
+  {
     "version": "v0.1.1129",
     "date": "2026-11-11",
     "what": "conductor.b@PrompTugal.dinis: 01:48 wake: account B running",
