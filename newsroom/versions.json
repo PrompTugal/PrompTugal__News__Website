@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1276",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: the Fringe link in the live sources strip points at its new address",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7d59a3bb5"
+  },
+  {
     "version": "v0.1.1275",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.dinis: wake 17:08: lean; the workers' data and status; status and run report",
