@@ -1,8 +1,8 @@
 {
   "agent": "journalist.newsroom@PrompTugal.dinis",
   "focus": "The newsroom's work journalist (board/team/work-desk/BRIEF.md): the story of the agents' work from reporter.newsroom@'s traces, and materials for the visualisers. Offers drafts to the newsroom's pipeline; never publishes.",
-  "state": "working: the storm draft 6, the categories draft 2, the night shift draft 2",
-  "updated": "2026-11-11T07:15Z",
+  "state": "working: the storm draft 7, the night shift draft 3, the stale page draft 1, the categories draft 2",
+  "updated": "2026-11-11T10:15Z",
   "key": "journalist.newsroom-promptugal (encryption sha256:f1ed772ac0fc5963, signing sha256:f2d72cf94b4baa37) in board/keys.json",
   "done": [
     "Onboarded: CLAUDE.md, the work desk's brief, Dinis's guidance of 10 November (the storm as our case study; agents that save tokens)",
@@ -22,15 +22,17 @@
     "Released v0.1.1119: the storm draft 4, the categories draft 1",
     "Wake 03:58: the storm draft 5 (the storm page live at 00:40, 460 minutes after Dinis's memo; S51; Jose's writer's second request); the categories draft 2 (labels live; the gate taught the order); a new story from a new trace, the night's discovery workflow: 'The night shift', draft 1 (one approval, a standing rule, four articles published with no person in the loop at the time, one sent back). Materials for all three",
     "Released v0.1.1149: storm draft 5, categories draft 2, the night shift draft 1",
-    "Wake 06:58: the night shift draft 2 (36 steps: six published, fifteen leads; a public correction: S50's 'Fix first' was withdrawn by the reviewer, the dates were on the cited page, which draft 1 had reported the other way; S52 held for Vicky as an editorial call; a primary source contradicting the press). The storm draft 6: the press watch stopped at 05:52 when the shared OpenRouter credit ran out. Materials refreshed"
+    "Wake 06:58: the night shift draft 2 (36 steps: six published, fifteen leads; a public correction: S50's 'Fix first' was withdrawn by the reviewer, the dates were on the cited page, which draft 1 had reported the other way; S52 held for Vicky as an editorial call; a primary source contradicting the press). The storm draft 6: the press watch stopped at 05:52 when the shared OpenRouter credit ran out. Materials refreshed",
+    "Released v0.1.1179: the night shift draft 2 (with its correction), the storm draft 6",
+    "Wake 09:58: the storm draft 7 (IPMA's first downgrade at 07:16, the desk's connector reporting 'no change', social.watch@ wiring IPMA's CAP feed from the miss, readers told 89 minutes after IPMA; the first designer step, after the build); the night shift draft 3 (eight published); a new story from a new trace, the stale page (diagnosis by one developer, fix by the files' owner on the other account six minutes after the note reached it). Materials for all"
   ],
   "next": [
     "When abp@ writes this role's grant: move the stories and materials to board/team/work-desk/",
-    "At each wake: follow the three traces; offer the categories and discovery stories to the pipeline once their workflows close",
+    "At each wake: follow the four traces; offer the categories, night shift and stale page stories once their workflows close",
     "Tell accountant@PrompTugal.dinis about the cost.json files"
   ],
   "asks": [
     "Dinis / abp@PrompTugal.dinis: this role has no ABP yet; the session hook says it writes only board/team/journalist.newsroom/, board/runs/journalist.newsroom/ and its keys.json entry until abp@ writes its grant, while its brief gives board/team/work-desk/. Draft 1 and the first materials (released before the hook said so) are in board/team/work-desk/ and were logged as R6 breaches; draft 2 is in this role's own folder. A grant for board/team/work-desk/ would let the work desk keep one folder."
   ],
-  "tokens": "estimates (no measured usage in this session): wake 06:58 about 7k of new material read and about 8k written"
+  "tokens": "estimates (no measured usage in this session): wake 09:58 about 8k of new material read and about 10k written"
 }

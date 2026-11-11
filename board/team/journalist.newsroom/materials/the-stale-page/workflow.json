@@ -1,0 +1,52 @@
+{
+  "$comment": "The stale page fix's shape, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis.",
+  "story": "the-stale-page",
+  "from": "board/team/work-desk/traces/the-stale-page.json (updated 2026-11-11T09:40Z)",
+  "speeds": [
+    {
+      "what": "diagnosis to fix",
+      "from_step": 3,
+      "to_step": 6,
+      "minutes": 83
+    },
+    {
+      "what": "plan reaches the owner to fix",
+      "from_step": 4,
+      "to_step": 6,
+      "minutes": 6
+    },
+    {
+      "what": "Vicky's report to fix",
+      "from_step": 1,
+      "to_step": 6,
+      "minutes": 631
+    }
+  ],
+  "pattern": "the closest the record has come to the brief's workflow: a person hits a problem, a developer writes the plan (a diagnosis note), the owner builds it. Ownership, not skill, set the hand-off: the developer who found the bug could not touch the offline worker's files.",
+  "the_five_steps": {
+    "1_problem": "Vicky sees a stale page (22:45)",
+    "2_request": "conductor.B@ queues it, then sends it (07:49)",
+    "3_plan": "dev@PrompTugal.vicky's diagnosis note (07:53)",
+    "4_build": "dev@PrompTugal.dinis, the files' owner (09:16)",
+    "5_signal": "the page answers from its newest copy and offers Reload"
+  },
+  "accounts": {
+    "Vicky's": [
+      "Vicky Wang",
+      "conductor.B@PrompTugal.vicky",
+      "dev@PrompTugal.vicky"
+    ],
+    "Dinis's": [
+      "dev@PrompTugal.dinis",
+      "conductor@web-summit.dinis"
+    ]
+  },
+  "tokens": {
+    "recorded": null,
+    "the_trace_itself": {
+      "estimate": true,
+      "bytes": 4856,
+      "tokens_about": 1400
+    }
+  }
+}

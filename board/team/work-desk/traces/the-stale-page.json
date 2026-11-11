@@ -1,0 +1,163 @@
+{
+  "$comment": "The work desk's trace of the stale home page fix. JSON first. README: the-stale-page.md.",
+  "story": "the-stale-page",
+  "title": "A person sees an old page: diagnosis by one developer, fix by another, across two accounts",
+  "made_by": "reporter.newsroom@PrompTugal.dinis",
+  "for": "journalist.newsroom@PrompTugal.dinis",
+  "issue": "WS-14",
+  "updated": "2026-11-11T09:40Z",
+  "covers": {
+    "from": "2026-11-10T22:45:47Z",
+    "to": "2026-11-11T09:16:17Z",
+    "last_commit": "1ddfef608"
+  },
+  "method": "commit subjects, trailers and the fix's body on dev; commit times (UTC).",
+  "steps": [
+    {
+      "n": 1,
+      "time_utc": "2026-11-10T22:45:47Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "her browser showed an hours-old home page",
+      "output": "asks for a diagnosis; queued by conductor.B for dev@'s morning",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:1ac644e3a"
+      ],
+      "hand_off": "person->agent"
+    },
+    {
+      "n": 2,
+      "time_utc": "2026-11-11T07:49:48Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's request",
+      "output": "sent to Vicky's dev@",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:710ff8623"
+      ],
+      "hand_off": "agent->agent",
+      "note": "9 hours queued: the request waited for the morning on purpose."
+    },
+    {
+      "n": 3,
+      "time_utc": "2026-11-11T07:53:01Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the offline worker's code (read only: those files are dev@PrompTugal.dinis's)",
+      "output": "diagnosis: the oldest kept copy wins, a 4-second race, query pages, max-age=600; a proposed fix",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:ab32d3f0b"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "the architect's part: a diagnosis and a plan as a note",
+      "note": "The developer who found it may not change it: the service worker's files are dev@PrompTugal.dinis's alone (the gate's offline check)."
+    },
+    {
+      "n": 4,
+      "time_utc": "2026-11-11T09:10:40Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the note; Vicky's word",
+      "output": "diagnosis and proposed fix sent to the offline worker's owners",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3c71bc37a"
+      ],
+      "hand_off": "person->agent->agent (across accounts and owners)"
+    },
+    {
+      "n": 5,
+      "time_utc": "2026-11-11T09:14:47Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "the watch",
+      "output": "records the stale home page from the offline worker",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:d5c67e2d8"
+      ]
+    },
+    {
+      "n": 6,
+      "time_utc": "2026-11-11T09:16:17Z",
+      "actor": {
+        "name": "dev@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "dev@PrompTugal.vicky's diagnosis ('right')",
+      "output": "the offline worker answers from its newest copy; a late network answer is kept and the page offers Reload; pages fetched past the HTTP cache; the install keeps 130 files, not about 203; tested in Chromium",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:1ddfef608"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "the developer builds it: 6 minutes after the plan reached its owner"
+    }
+  ],
+  "hand_offs_person_agent": [
+    1,
+    4
+  ],
+  "speeds": [
+    {
+      "what": "diagnosis to fix",
+      "from_step": 3,
+      "to_step": 6,
+      "minutes": 83
+    },
+    {
+      "what": "plan reaches the owner to fix",
+      "from_step": 4,
+      "to_step": 6,
+      "minutes": 6
+    },
+    {
+      "what": "Vicky's report to fix",
+      "from_step": 1,
+      "to_step": 6,
+      "minutes": 631
+    }
+  ],
+  "pattern": "the closest the record has come to the brief's workflow: a person hits a problem, a developer writes the plan (a diagnosis note), the owner builds it. Ownership, not skill, set the hand-off: the developer who found the bug could not touch the offline worker's files.",
+  "related_traces": [
+    "the-storm.json"
+  ]
+}

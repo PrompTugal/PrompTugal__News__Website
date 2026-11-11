@@ -230,6 +230,16 @@
    "PrompTugal__App__iOS": "3ce861bf",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "My task runs every three hours since 10 Nov 20:25 (36 */3). OpenRouter shared key credit spent (402): social.watch@ blocked."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-11T09:45Z",
+   "SGit-AI__Website__Web-Summit": "42d3c8c8",
+   "PrompTugal__News__Website": "a56b593f",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Stale home-page fix shipped by dev@ (1ddfef608) and verified live by conductor.B@ (f6f1d1c44). Storm page and S41 on IPMA's wind downgrade."
   }
  ]
 }

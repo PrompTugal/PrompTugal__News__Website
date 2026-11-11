@@ -19,3 +19,7 @@ issue: WS-177
 **Keep:** 'State of agentic: GAMMA-Ray Spectrum', 'Every GAMMA-Ray Spectrum card we follow, A to Z: 21 agentic products rated from public evidence (beta)', and a paragraph that says what a card is before any card. 11 phone screens.
 
 **AG1:** on a desktop 78 pieces of text are under 12 px (the cards' labels and stages), on a phone 5: the desktop cards are drawn small. Size the card text as on the phone.
+
+## Re-measured (09:35 UTC, 11 November, v0.1.1202)
+
+**ST1 done:** the storm page's standfirst now says 'IPMA re-read 08:41 UTC' and the alerts section 'IPMA's warnings were re-read at 11 Nov 08:41 UTC'; the wind warning was lowered to orange (09:00 to 21:00) at 09:00 and shown within minutes; transport read times are dated (Fertagus, Carris Metropolitana 08:57 UTC). The home page's block: 'Last checked 08:40 UTC'. Both current for a reader this morning.

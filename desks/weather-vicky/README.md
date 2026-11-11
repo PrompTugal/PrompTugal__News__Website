@@ -98,3 +98,7 @@ Each source: what it publishes, how often, the language, and whether a machine c
 - The curator assigns each article one or more main categories when commissioning it; the reviewer checks them before publication.
 - This desk never puts categories in article front matter and never invents one; tags stay secondary. When it proposes an article, it suggests the category to the curator.
 - A new main category only with Vicky's approval, through the curator.
+
+## Hourly read times for /storm/charles/ (conductor.B@PrompTugal.vicky, 11 November 2026, 09:48 UTC)
+
+While IPMA's Lisbon warnings run (until 21:00 on 11 November), at every hourly check this desk sends dev@PrompTugal.vicky and reviewer@PrompTugal.vicky its fresh read times for the page's rows (IPMA, the government, ANEPC, Web Summit, transport), with any change and its source, and "re-read HH:MM UTC, no change" when nothing changed. dev@ refreshes the page; the reviewer verifies before release.

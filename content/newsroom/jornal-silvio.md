@@ -9,6 +9,8 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 
 | Score | Candidate | Beat | Source |
 |---|---|---|---|
+| 5 | **EU's Digital Fairness Act, due today, would write the first consumer rules for AI shopping agents.** Users choose which purchases need approval; agents disclose sponsored suggestions; ten design traps banned. From a leaked draft: check the Commission's text. Photo: link only (AP). | AI regulation | [Euronews](https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows), 9 Nov |
+| 3 | **Defined.ai opens its AI training-data marketplace to partners at Web Summit, after cutting 30% of its staff.** Daniela Braga's figures: 280 partners in two weeks, 10 PB, data 70% of revenue. Photo: link only. | Portugal | [Tek Notícias](https://tek.sapo.pt/noticias/negocios/artigos/defined-ai-quer-trazer-mais-dados-para-o-seu-marketplace-de-ia-e-simplificar-entrada-de-parceiros/), 10 Nov |
 | 4 | **Bay raises $50m to check every AI agent action before it runs: allow, block or ask a person.** Tel Aviv; Battery Ventures leads; Micron, Peloton, ClickUp and Wix named as customers. Photo: link only (Bay). | AI agents | [The Next Web](https://thenextweb.com/news/bay-50m-ai-agent-security-stealth-battery-ventures), 10 Nov |
 | 3 | **OpenAI lets businesses claim ChatGPT profiles and run their own customer agents inside it.** Agents must say they are AI; purchases need the user's approval; US only for now. Photo: link only (OpenAI). | AI agents | [The Next Web](https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents), 10 Nov |
 

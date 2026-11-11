@@ -1,8 +1,8 @@
 {
  "about": "GAMMA-Ray Spectrum cards as gamma-ray.sgit.ai publishes them (beta; every rating experimental), read by newsroom/tools/gamma-pull.mjs. Levels: A autonomy, R reach, C control, O openness, 1 to 4, 0 where not yet evidenced. The source of every card is its page on gamma-ray.sgit.ai.",
  "source": "https://gamma-ray.sgit.ai/spectrum/",
- "version": "0.0.166",
- "read_at": "2026-11-11T07:13Z",
+ "version": "0.0.173",
+ "read_at": "2026-11-11T10:14Z",
  "cards": [
   {
    "id": "riskmandate-publisher",
@@ -36,16 +36,16 @@
    "levels": {
     "A": 4,
     "R": 2,
-    "C": 3,
+    "C": 2,
     "O": 1
    },
-   "stage": "Scaling",
-   "n": 10,
+   "stage": "Building",
+   "n": 9,
    "of": 16,
    "modes": "In production",
-   "lit": "91 in 8 instruments",
+   "lit": "85 in 8 instruments",
    "next": "Openness 2",
-   "read": "2026-11-10",
+   "read": "2026-11-11",
    "review": "round-2",
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/promptugal-newsroom-team/"

@@ -5,16 +5,14 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "07:48 wake: sent dev@ Vicky's stale home-page request; S55 commissioned (TikTok DSA finding); no new releases",
+  "done": "09:48 wake: S52 published (Vicky's word, R-PUB-1) and checked live; storm layout live (v0.1.1205); categories acknowledged by all 11 Vicky agents; storm read-time refresh staged for reviewer@",
   "next": [
-    "dev@PrompTugal.vicky diagnosing the stale home-page copy (sent 07:50 UTC 11 Nov); report to Vicky",
+    "storm page: hourly read-time refreshes until 21:00 (weather@ -> dev@ -> reviewer@); stale-page fix live, security@ reply pending",
     "Categories: acks from checker, programme, Dinis's and other desks; card labels on the articles page if Vicky agrees",
     "S45 draft to the reviewer, then Vicky's approval",
     "S44: journalist@PrompTugal.dinis's answer",
     "the satellite loop: frames from our origin needs Dinis (an automation)"
   ],
-  "asks": [
-    "Vicky: S52 (reviewer window); storm page layout notes (dev window); category rules (checker, programme windows)"
-  ],
+  "asks": [],
   "debrief": "desks/conductor-vicky/debriefs/2026-11-11-handover.md"
 }

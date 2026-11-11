@@ -1,8 +1,8 @@
 {
   "$comment": "Dinis's five steps of the agentic workflow against what the record shows for the storm (S41), at 17:22 UTC on 10 November 2026. Copied from the trace's workflow_against_the_brief, with the times of each step's evidence. Made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-storm",
-  "from": "board/team/work-desk/traces/the-storm.json (updated 2026-11-11T03:40Z)",
-  "as_of": "2026-11-11T03:11Z",
+  "from": "board/team/work-desk/traces/the-storm.json (updated 2026-11-11T09:40Z)",
+  "as_of": "2026-11-11T09:12Z",
   "finding": "Steps 2 to 4 collapsed into the agent that needed them. What slowed the work was a grant (52 min), a gate (12 min) and a security review (stop-gap in 8 min), never a missing tool. The weak signal (the mayor, 13:23) came 5 h 46 min before the organisers' post and was missed: the desk watched primary sources only, and the press watch started at 18:46.",
   "against_the_brief": {
     "1_raw_source": {
@@ -31,27 +31,28 @@
       "evidence": "desks/weather-vicky/proposal-storm-page.md, for the page; no architect agent"
     },
     "4_developer_and_designer": {
-      "status": "page v1 with Vicky's dev@ (preview); designer on v2",
+      "status": "storm page built and verified twice, cleared by Vicky to publish after the last check",
       "steps": [
-        5,
-        17,
-        29,
-        32,
-        44,
-        45
+        45,
+        90,
+        94,
+        96,
+        98,
+        100,
+        101
       ],
-      "evidence": "lead display released; the storm page v1 handed to dev@PrompTugal.vicky at 18:20; dev.graphs@ and designer@ keep v2"
+      "evidence": "a verify-and-fix loop between reviewer@ and dev@PrompTugal.vicky: check 23:47, fix 23:55, check 00:00, fix 00:09"
     },
     "5_ui_signal": {
-      "status": "lead live; storm page in preview",
+      "status": "done: the lead, the satellite loop and /storm/charles/ are live",
       "steps": [
-        20,
-        29,
-        50,
-        52,
-        53
+        53,
+        71,
+        74,
+        103,
+        104
       ],
-      "evidence": "the S41 lead released at 18:54 UTC after Dinis widened reviewer@'s grant (step 47) and dev@ fixed the links (step 52)"
+      "evidence": "the storm page live at 00:40 (v0.1.1114)"
     }
   },
   "speeds": [
@@ -132,6 +133,18 @@
       "from": "about 17:00 (memo)",
       "to_step": 103,
       "minutes": 460
+    },
+    {
+      "what": "IPMA's downgrade to S41",
+      "from_step": 112,
+      "to_step": 116,
+      "minutes": 89
+    },
+    {
+      "what": "IPMA's downgrade to social.watch@'s record",
+      "from_step": 112,
+      "to_step": 114,
+      "minutes": 38
     }
   ],
   "look_back": {

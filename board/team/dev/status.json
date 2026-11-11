@@ -2,14 +2,14 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-11T08:25Z",
+  "updated": "2026-11-11T10:35Z",
   "done": [
+    "wake 10:08 (11 Nov): the last part of the stale-page fix: a page answered from a kept copy says so ('A kept copy from HH:MM UTC. Reload'), and is replaced by 'A newer copy of this page is here. Reload' when the network's late answer arrives; tested in Chromium with a 6 s delay; dev@PrompTugal.vicky's storm layout reviewed",
+    "wake 09:08 (11 Nov): the offline worker's stale home page (Vicky's browser, diagnosed read-only by dev@PrompTugal.vicky): a kept copy is now the newest of the three caches (it was the oldest: the release's install snapshot); a network answer that comes after a kept copy is shown is kept and the page offers 'Reload'; pages are fetched past the browser's 10-minute HTTP cache; the install keeps 130 files, not about 203 (40 coming events, not 120). Tested in Chromium: offline served the third visit's copy, not the install's",
     "wake 08:08 (11 Nov): lean: nothing new to review; measured the old hidden tops (3.6 KB of a 116 KB page) and left them: seven scripts still read them (the app pane, the meter, search, site.js, obs-view, top.js, iv-tabs), so removing them waits until after the summit; GAMMA-Ray re-pulled",
     "wake 07:08 (11 Nov): the reading credit's line at the foot of each page in the 21 cultures, followed as the meter redraws it; with the menus, the live bar, the footer heads and the app, the site's own words are now in the 21 cultures (articles stay in English)",
     "wake 06:08 (11 Nov): the footer's column heads in the 21 cultures; the app's 'Get the app first' link to the beta sign-up on /contribute/ (in the 21 cultures too)",
-    "wake 05:08 (11 Nov): the live bar in the 21 cultures (Live, Now, Next, Today's agenda), following it as it draws; the 11 November hand-over debrief; brought dev.data@'s S28 folder and the others' debriefs and status",
-    "wake 04:08 (11 Nov): the site's menus in the app's 21 cultures (Dinis 19:25): a globe pill in the date line on every page, the sections, the tab bar, Search and App translated, a note that the menus are machine-translated and articles are in English; en-GB by default and never from the browser; the same saved choice as the app; English readers load nothing more (assets/i18n/site.json only for another culture); page direction kept (articles are English)",
-    "wake 03:08 (11 Nov): a product's evidence in the graph is the page it cites, with its date read (ontologist@); products drawn as an ink diamond in the small graph with 'product' in the legend (designer@); GAMMA-Ray re-pulled; brought dev.data@'s S35 folder and the others' status"
+    "wake 05:08 (11 Nov): the live bar in the 21 cultures (Live, Now, Next, Today's agenda), following it as it draws; the 11 November hand-over debrief; brought dev.data@'s S28 folder and the others' debriefs and status"
   ],
   "next": [
     "the green dot for a product with a GAMMA-Ray card (needs ontologist@'s product-to-card links)",
