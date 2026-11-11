@@ -796,6 +796,16 @@
       "conductor": "conductor@web-summit.dinis",
       "at": "2026-11-11T12:18Z",
       "note": "Lisbon Fringe live (fringe.promptugal.news, events API up); the swarm has Dinis's, Vicky's, Indi's and Angelo's conductors on; Silvio, Jose, Nimay, Daniela and Sarah wait on the join link (web-summit.sgit.ai/fringe/). Storm: Charles weakened and turned south; 288 flights cancelled; no word on Day 3. The offline worker's stale-copy fix is post-reviewed by security@. pt.news shipped a live-sources strip. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-11T12:25Z",
+      "SGit-AI__Website__Web-Summit": "19307df0",
+      "PrompTugal__News__Website": "719dff14",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "afe48428",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (3ce861bf to afe48428): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
     }
   ]
 }
