@@ -1,19 +1,23 @@
 ---
 title: "Shelf list: PUB, The publication (part 3 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T21:58:54Z"
-site_version: "v0.1.1085"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T00:59:17Z"
+site_version: "v0.1.1117"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 3 of 5)
 
-100 cards, from `PUB.NEWS the-list-pages` to `PUB.SITE es:3`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.NEWS synthetic-round-1` to `PUB.SITE decks:4`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 201 to 225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS synthetic-round-1` | [Before and after: the synthetic readers page, tiles and cards](https://promptugal.news/newsroom/design/synthetic-round-1/) | newsroom | designer@ 6 Nov 2026 |
+| `PUB.NEWS the-design-flip` | [Decided: the design flip for the agentic edition, three Portuguese directions](https://promptugal.news/newsroom/design/decisions/the-design-flip/) | newsroom | designer@ 10 Nov 2026 |
+| `PUB.NEWS the-first-night-of-promptugal-news` | [the-first-night-of-promptugal-news: The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/newsroom/stories/the-first-night-of-promptugal-news/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS the-front-page` | [Decided: the front page (A, the newspaper, or C, the briefing first)](https://promptugal.news/newsroom/design/decisions/the-front-page/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS the-list-pages` | [Decided: how the companies, articles and people pages open](https://promptugal.news/newsroom/design/decisions/the-list-pages/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS the-name` | [the-name: How we found our name](https://promptugal.news/newsroom/stories/the-name/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS the-summit-days` | [Decided: the summit's days (the strip, the past and future days, and how one day reads)](https://promptugal.news/newsroom/design/decisions/the-summit-days/) | newsroom | designer@ 6 Nov 2026 |
@@ -35,21 +39,21 @@ source: board/catalogue.json
 | `PUB.SITE 2026-11-07` | [Saturday 7 November: what was on](https://promptugal.news/days/2026-11-07/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-07-evening` | [Evening edition: Saturday 7 November](https://promptugal.news/newsletter/2026-11-07-evening/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-07-morning` | [Morning edition: Saturday 7 November](https://promptugal.news/newsletter/2026-11-07-morning/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE 2026-11-08` | [Sunday 8 November: what was on](https://promptugal.news/days/2026-11-08/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE 2026-11-08-evening` | [Evening edition: Sunday 8 November](https://promptugal.news/newsletter/2026-11-08-evening/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE 2026-11-08-morning` | [Morning edition: Sunday 8 November](https://promptugal.news/newsletter/2026-11-08-morning/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE 2026-11-09` | [Monday 9 November: what was on](https://promptugal.news/days/2026-11-09/) | site | dev@ 6 Nov 2026 |
 
 **Cards 226 to 250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE 2026-11-08` | [Sunday 8 November: what was on](https://promptugal.news/days/2026-11-08/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE 2026-11-08-evening` | [Evening edition: Sunday 8 November](https://promptugal.news/newsletter/2026-11-08-evening/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE 2026-11-08-morning` | [Morning edition: Sunday 8 November](https://promptugal.news/newsletter/2026-11-08-morning/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE 2026-11-09` | [Monday 9 November: what was on](https://promptugal.news/days/2026-11-09/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-09-evening` | [Evening edition: Monday 9 November](https://promptugal.news/newsletter/2026-11-09-evening/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-09-morning` | [Morning edition: Monday 9 November](https://promptugal.news/newsletter/2026-11-09-morning/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE 2026-11-10` | [Tuesday 10 November: what is on](https://promptugal.news/days/2026-11-10/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE 2026-11-10` | [Tuesday 10 November: what was on](https://promptugal.news/days/2026-11-10/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-10-evening` | [Evening edition: Tuesday 10 November](https://promptugal.news/newsletter/2026-11-10-evening/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-10-morning` | [Morning edition: Tuesday 10 November](https://promptugal.news/newsletter/2026-11-10-morning/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE 2026-11-11` | [Wednesday 11 November: what is on](https://promptugal.news/days/2026-11-11/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE 2026-11-11` | [Wednesday 11 November: called off](https://promptugal.news/days/2026-11-11/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-12` | [Thursday 12 November: what is on](https://promptugal.news/days/2026-11-12/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-13` | [Friday 13 November: what is on](https://promptugal.news/days/2026-11-13/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 3-the-platform` | [PrompTugal: the platform](https://promptugal.news/investors/decks/3-the-platform/) | site | investors@ 7 Nov 2026 |
@@ -65,15 +69,15 @@ source: board/catalogue.json
 | `PUB.SITE agentic` | [State of agentic: GAMMA-Ray Spectrum](https://promptugal.news/agentic/) | site | dev@ 10 Nov 2026 |
 | `PUB.SITE algarve` | [An Algarvian company, in Portugal, in the European Union](https://promptugal.news/investors/algarve/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE algarve-evolution` | [Algarve Evolution](https://promptugal.news/portugal/algarve-evolution/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE algarve-evolution:2` | [Algarve Evolution, drawn](https://promptugal.news/graph/algarve-evolution/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE algarve:2` | [Una empresa del Algarve, en Portugal, en la Unión Europea](https://promptugal.news/investors/es/algarve/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE algarve:3` | [Une société de l'Algarve, au Portugal, dans l'Union européenne](https://promptugal.news/investors/fr/algarve/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE algarve:4` | [Uma empresa algarvia, em Portugal, na União Europeia](https://promptugal.news/investors/pt/algarve/) | site | investors@ 7 Nov 2026 |
 
 **Cards 251 to 275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE algarve-evolution:2` | [Algarve Evolution, drawn](https://promptugal.news/graph/algarve-evolution/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE algarve:2` | [Una empresa del Algarve, en Portugal, en la Unión Europea](https://promptugal.news/investors/es/algarve/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE algarve:3` | [Une société de l'Algarve, au Portugal, dans l'Union européenne](https://promptugal.news/investors/fr/algarve/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE algarve:4` | [Uma empresa algarvia, em Portugal, na União Europeia](https://promptugal.news/investors/pt/algarve/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE an-algarvian-newsroom` | [An Algarvian newsroom, for Portugal and for Europe](https://promptugal.news/investors/articles/an-algarvian-newsroom/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE an-algarvian-newsroom:2` | [Una redacción del Algarve, para Portugal y para Europa](https://promptugal.news/investors/es/articles/an-algarvian-newsroom/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE an-algarvian-newsroom:3` | [Une rédaction de l'Algarve, pour le Portugal et pour l'Europe](https://promptugal.news/investors/fr/articles/an-algarvian-newsroom/) | site | investors@ 7 Nov 2026 |
@@ -95,16 +99,17 @@ source: board/catalogue.json
 | `PUB.SITE business-plan` | [The business plan](https://promptugal.news/investors/business-plan/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE business-plan:2` | [El plan de negocio](https://promptugal.news/investors/es/business-plan/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE business-plan:3` | [Le business plan](https://promptugal.news/investors/fr/business-plan/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE business-plan:4` | [O plano de negócio](https://promptugal.news/investors/pt/business-plan/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE changelog` | [What changed in the decks](https://promptugal.news/investors/changelog/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE changelog:2` | [Qué ha cambiado en las presentaciones](https://promptugal.news/investors/es/changelog/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE changelog:3` | [Ce qui a changé dans les decks](https://promptugal.news/investors/fr/changelog/) | site | investors@ 7 Nov 2026 |
 
 **Cards 276 to 300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE business-plan:4` | [O plano de negócio](https://promptugal.news/investors/pt/business-plan/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE changelog` | [What changed in the decks](https://promptugal.news/investors/changelog/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE changelog:2` | [Qué ha cambiado en las presentaciones](https://promptugal.news/investors/es/changelog/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE changelog:3` | [Ce qui a changé dans les decks](https://promptugal.news/investors/fr/changelog/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE changelog:4` | [O que mudou nas apresentações](https://promptugal.news/investors/pt/changelog/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE charles` | [Web Summit Day 2 will not take place](https://promptugal.news/storm/charles/) | site | dev@PrompTugal.vicky 10 Nov 2026 |
 | `PUB.SITE cloud-centres` | [The cloud centres](https://promptugal.news/graph/cloud-centres/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE competition` | [Where we stand](https://promptugal.news/investors/competition/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE competition:2` | [Dónde estamos](https://promptugal.news/investors/es/competition/) | site | investors@ 7 Nov 2026 |
@@ -124,10 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE decks:2` | [Las presentaciones](https://promptugal.news/investors/es/decks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE decks:3` | [Les decks](https://promptugal.news/investors/fr/decks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE decks:4` | [As apresentações](https://promptugal.news/investors/pt/decks/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE es` | [PrompTugal: la tesis de inversión](https://promptugal.news/investors/decks/1-the-investment-case/es/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE es:10` | [PrompTugal: el mapa de los decks](https://promptugal.news/investors/decks/0-the-map/es/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE es:11` | [PrompTugal para inversores y socios](https://promptugal.news/investors/es/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE es:2` | [PrompTugal: la industria, y la dirección correcta](https://promptugal.news/investors/decks/2-the-industry/es/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE es:3` | [PrompTugal: la plataforma](https://promptugal.news/investors/decks/3-the-platform/es/) | site | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-2.md) | [Next part](PUB-4.md)
