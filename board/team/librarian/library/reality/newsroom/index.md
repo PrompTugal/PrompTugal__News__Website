@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-154 cards (154 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-11T00:59:17Z at site v0.1.1117; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+159 cards (159 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-11T03:58:20Z at site v0.1.1148; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 154 |
+| `PUB.NEWS` | 159 |
 
 Newest five accessions:
 
-- `ACC-20261111-0007` [S47: Update: Web Summit's final 2026 figures](https://promptugal.news/newsroom/stories/S47/) (`PUB.NEWS S47`)
-- `ACC-20261111-0006` [S46: How Zalando rolled out AI coding agents across 250 teams, in its own account](https://promptugal.news/newsroom/stories/S46/) (`PUB.NEWS S46`)
-- `ACC-20261111-0005` [AG1: The agent conversation the storm postponed: twelve Wednesday sessions that did not happen](https://promptugal.news/newsroom/stories/AG1/) (`PUB.NEWS AG1`)
-- `ACC-20261110-0288` [How each piece is made](https://promptugal.news/newsroom/pieces/) (`PUB.NEWS pieces`)
-- `ACC-20261110-0287` [The decision graph (Storm Charles)](https://promptugal.news/newsroom/decision-graph/) (`PUB.NEWS decision-graph`)
+- `ACC-20261111-0035` [S52: Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027](https://promptugal.news/newsroom/stories/S52/) (`PUB.NEWS S52`)
+- `ACC-20261111-0034` [S51: Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed](https://promptugal.news/newsroom/stories/S51/) (`PUB.NEWS S51`)
+- `ACC-20261111-0033` [S50: The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers](https://promptugal.news/newsroom/stories/S50/) (`PUB.NEWS S50`)
+- `ACC-20261111-0032` [S49: Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day](https://promptugal.news/newsroom/stories/S49/) (`PUB.NEWS S49`)
+- `ACC-20261111-0031` [S48: Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words](https://promptugal.news/newsroom/stories/S48/) (`PUB.NEWS S48`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
