@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Wednesday 11 November 2026, 14:37 UTC.
+Last updated: Wednesday 11 November 2026, 15:04 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
 
@@ -28,7 +28,6 @@ Last updated: Wednesday 11 November 2026, 14:37 UTC.
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S57 | Wednesday's side events: which have been postponed, moved or taken online | The summit | 11 Nov |
 | S56 | The EU proposes a Digital Fairness Act: what it would change for online shoppers, including those using AI agents (published 11 Nov) | Europe | 11 Nov |
 | S55 | The EU says TikTok's For You feed may breach its platform law: what it found, and what happens next (published 11 Nov) | Europe | 11 Nov |
 | S54 | Four startups pitch on Thursday's Centre Stage: what each says it does (published 11 Nov) | Connections: the summit | 11 Nov |
@@ -80,17 +79,6 @@ Last updated: Wednesday 11 November 2026, 14:37 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
-
-## S57: Wednesday's side events: which have been postponed, moved or taken online
-
-The summit, added 11 Nov. A short, dated list of side events around Web Summit whose organisers have said, on their own pages, that Wednesday's event is postponed, cancelled, moved to Thursday or online; side events are not Web Summit's own. STORM-11NOV, for journalist (summit desk). Category: Web Summit 2026. Time-sensitive. Organisers' own pages only; Luma, Meetup and Eventbrite pages need a person's browser read (no machine reads, 11 Nov 14:40 UTC).
-
-Sources:
-
-- [Open Mercato Night (organiser's Luma page), "[POSTPONED] Open Mercato Night"](https://luma.com/mso0mrpr), read 11 November 2026
-- [Elevon, "Elevon CZ/SK Community Night, Lisbon"](https://elevon.io/websummit/night), read 11 November 2026
-- [AltaIR Capital (organiser's Luma page), "[Cancelled: update below] Funders & Founders Night"](https://luma.com/h19cccc5), read 11 November 2026
-- [FounderLink (organiser's Luma page), "FounderLink Storm Summit: A Torrent of Intros"](https://luma.com/stormsummit9am), read 11 November 2026
 
 ## S56: The EU proposes a Digital Fairness Act: what it would change for online shoppers, including those using AI agents
 
