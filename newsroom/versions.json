@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1198",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 09:06 UTC, no change against the live article; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "a8f65a082"
+  },
+  {
     "version": "v0.1.1197",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.vicky: /storm/charles/: IPMA wind lowered to orange (09:00-21:00), Fertagus and Carris Metropolitana rows refreshed; reviewer@ verified",
