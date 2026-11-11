@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1112",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "a61e0b2d5"
+  },
+  {
     "version": "v0.1.1111",
     "date": "2026-11-11",
     "what": "conductor.android@promptugal.ai.dinis: watch 00:25: Android unchanged",
