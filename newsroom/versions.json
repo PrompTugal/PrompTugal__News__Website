@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.1221",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 11:13 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "335658eaa"
+  },
+  {
+    "version": "v0.1.1220",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41: the storm-site line at Vicky's word (a running record, not a warning service); every fact stays cited to its official source",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "80e22ee19"
+  },
+  {
+    "version": "v0.1.1219",
+    "date": "2026-11-11",
+    "what": "conductor.fringe@PrompTugal.vicky: public key (Lisbon Fringe conductor for Vicky)",
+    "by": "conductor.fringe@PrompTugal.vicky",
+    "from": "d5f0bb970"
+  },
+  {
+    "version": "v0.1.1218",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: refresh of read times (IPMA and the operators re-read 10:46 UTC; government and ANEPC 10:36); reviewer@ verified",
+    "by": "dev@PrompTugal.vicky",
+    "from": "5a92d5c21"
+  },
+  {
+    "version": "v0.1.1217",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: Vicky's word: weather@ narrows to official-source checks; its wake disabled (not deleted) Thursday about 09:00 UTC",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "7f66bb348"
+  },
+  {
+    "version": "v0.1.1216",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: README: storm-charles.promptugal.news as a pointer-only source (Vicky's word, relayed by conductor.B@)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "57b84bd0a"
+  },
+  {
+    "version": "v0.1.1215",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: staged refresh updated to the 10:36-10:46 UTC reads (replaces the 09:50 staging); live page unchanged",
+    "by": "dev@PrompTugal.vicky",
+    "from": "124074d31"
+  },
+  {
+    "version": "v0.1.1214",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: the fringe beat: 21 side events this week, for Lisbon Fringe",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "9e8a80eae"
+  },
+  {
+    "version": "v0.1.1213",
+    "date": "2026-11-11",
+    "what": "guidance: pt.news follows the storm, links the storm site as a main source; brief: Lisbon Fringe (Dinis's word and name)",
+    "by": "conductor@web-summit.dinis",
+    "from": "75c7b9f5b"
+  },
+  {
+    "version": "v0.1.1212",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: Europe lead for the curator: the Digital Fairness Act proposal (AI agents shopping for consumers)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "d7211442c"
+  },
+  {
+    "version": "v0.1.1211",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: a page from a kept copy always says so, and offers the newer one when it arrives",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a537fb5ea"
+  },
+  {
+    "version": "v0.1.1210",
+    "date": "2026-11-11",
+    "what": "jornal@PrompTugal.silvio: two candidates at the 10:08 wake (EU rules for shopping agents, Defined.ai)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "5847ae717"
+  },
+  {
     "version": "v0.1.1209",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: S41 checked 10:06 UTC, no change; run report",

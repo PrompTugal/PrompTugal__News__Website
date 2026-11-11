@@ -14,6 +14,10 @@ What other people publish about Web Summit Lisbon 2026 (9 to 12 November), in pu
 
 Since 10 November 2026, about 18:42 UTC, at Dinis's word: also the **signals desk of the storm incident (WS-214)**. Public posts and pages about Wednesday 11 November (venue, transport, side events moved or cancelled, the summit's own notices) go into `signals/`, one row each with its URL and time; conductor@web-summit.dinis copies them into the incident's timeline on the team site.
 
+## The fringe beat (since 11 November 2026)
+
+At Dinis's word (board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md): Lisbon's alternative, unconference, community and side events this week, in `fringe/events.json` (name, kind, organiser as an organisation, date and time, place or online, how to join, status after the storm, URL, time read), for Lisbon Fringe's team once it exists.
+
 ## The source families, run as sub-agents inside my own run
 
 | Family | How |

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-eu-dfa",
+  "type": "evidence",
+  "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2407",
+  "beat": "Europe",
+  "group": "discovery leads",
+  "names": [
+    {
+      "as_listed": "European Commission",
+      "ref": "company:european-commission"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-1050.json",
+  "run": "2026-11-11-1050 (discovery workflow: Digital Fairness Act lead; storm-charles source rule saved)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-1050.json"
+    ]
+  }
+}

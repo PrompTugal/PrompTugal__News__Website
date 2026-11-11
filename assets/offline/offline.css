@@ -11,3 +11,4 @@ a.pt-kept::after { content: " kept"; font: 600 11px var(--sans); color: var(--ok
 
 /* a newer copy arrived after a kept one was shown (assets/offline/offline.js) */
 .pt-newer { position: sticky; top: 0; z-index: 80; margin: 0; padding: 8px 16px; text-align: center; font: 600 14px var(--sans); background: var(--brand-green, #006600); color: #fff; } .pt-newer a { color: #fff; }
+.pt-kept { background: var(--ink, #121317); }

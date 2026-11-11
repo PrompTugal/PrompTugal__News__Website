@@ -1,122 +1,135 @@
 {
- "about": "Vicky's account: every PrompTugal session and scheduled wake started here by conductor.B@PrompTugal.vicky, at Vicky's word ('yes push to dev and start the 10 agents', 10 Nov 2026 about 11:55 UTC). Environment PrompTugal__News__Website (env_017vsStEYg1FBaR7wKYPP3f7). To pause an agent: disable its trigger (update_trigger enabled=false), never delete.",
- "conductor": {
-  "agent": "conductor.B@PrompTugal.vicky",
-  "session": "session_015JeffHvsjMcwU9Lc1RHium",
-  "trigger": "trig_01DT2DiUr4coo37NGDqUhbfo",
-  "cron": "48 * * * *"
- },
- "agents": [
-  {
-   "agent": "journalist@PrompTugal.vicky",
-   "session": "session_015JeffFXVkP8Nj35SzNTFo9",
-   "trigger": "trig_018oWJkm1xVJL9rMBXzf36MF",
-   "cron": "5 * * * *",
-   "model": "Opus",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/journalist.md"
+  "about": "Vicky's account: every PrompTugal session and scheduled wake started here by conductor.B@PrompTugal.vicky, at Vicky's word ('yes push to dev and start the 10 agents', 10 Nov 2026 about 11:55 UTC). Environment PrompTugal__News__Website (env_017vsStEYg1FBaR7wKYPP3f7). To pause an agent: disable its trigger (update_trigger enabled=false), never delete.",
+  "conductor": {
+    "agent": "conductor.B@PrompTugal.vicky",
+    "session": "session_015JeffHvsjMcwU9Lc1RHium",
+    "trigger": "trig_01DT2DiUr4coo37NGDqUhbfo",
+    "cron": "48 * * * *"
   },
-  {
-   "agent": "journalist-connections@PrompTugal.vicky",
-   "session": "session_015JeffKVpQqpXCf9HK2qbcE",
-   "trigger": "trig_01TJBzQj9dZ7MqNmKHNfjUoK",
-   "cron": "9 * * * *",
-   "model": "Opus",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/journalist-connections.md"
-  },
-  {
-   "agent": "journalist-portugal@PrompTugal.vicky",
-   "session": "session_015JeffGppq5TfrY1FD4WWSN",
-   "trigger": "trig_017V2QjxJxVMLf3sLnPNbY3H",
-   "cron": "15 * * * *",
-   "model": "Opus",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/journalist-portugal.md"
-  },
-  {
-   "agent": "journalist-europe@PrompTugal.vicky",
-   "session": "session_015JeffGQMuNEWwRtgykVz3L",
-   "trigger": "trig_017bhHx53pt7cUwqg8ZtJNAe",
-   "cron": "19 * * * *",
-   "model": "Opus",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/journalist-europe.md"
-  },
-  {
-   "agent": "journalist-ai@PrompTugal.vicky",
-   "session": "session_015JeffGRvRTGqxuUAWs5CKZ",
-   "trigger": "trig_01YYzx9BXYd8XS8vQoo7Ti3M",
-   "cron": "27 * * * *",
-   "model": "Opus",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/journalist-ai.md"
-  },
-  {
-   "agent": "reviewer@PrompTugal.vicky",
-   "session": "session_015JeffFqRmPKucoNi7mm7w9",
-   "trigger": "trig_01JDbQvUJa7cqX8wNkT6wCpp",
-   "cron": "32 * * * *",
-   "model": "Opus",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/reviewer.md"
-  },
-  {
-   "agent": "curator@PrompTugal.vicky",
-   "session": "session_015JeffHEtfkabrZb7QRhSRC",
-   "trigger": "trig_019jKQXd2ChVL5tijsffwCcz",
-   "cron": "41 * * * *",
-   "model": "Sonnet",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/curator.md"
-  },
-  {
-   "agent": "programme@PrompTugal.vicky",
-   "session": "session_015JeffJEa7Kn9H481ovCQy6",
-   "trigger": "trig_011oPzwGaank1ifTe5GeX8W1",
-   "cron": "44 * * * *",
-   "model": "Sonnet",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/programme.md"
-  },
-  {
-   "agent": "checker@PrompTugal.vicky",
-   "session": "session_015JeffJyuac5Q11oUCSWCjT",
-   "trigger": "trig_01DsxUs3p2w1brhYokemvNtx",
-   "cron": "53 * * * *",
-   "model": "Sonnet",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/checker.md"
-  },
-  {
-   "agent": "dev@PrompTugal.vicky",
-   "session": "session_015JeffHU5vCo5RdZufgvYma",
-   "trigger": null,
-   "cron": null,
-   "model": "Sonnet",
-   "state": "on",
-   "started": "2026-11-10T11:55Z",
-   "onboarding": "desks/conductor-vicky/onboarding/dev.md"
-  },
-  {
-   "agent": "weather@PrompTugal.vicky",
-   "session": "session_015JeffGMBAtfVny3WdZxvF8",
-   "trigger": "trig_01UAJwNdpvjV9B5QNjgRNcYz",
-   "cron": "35 * * * *",
-   "model": "Opus",
-   "state": "on",
-   "started": "2026-11-10T16:51Z",
-   "onboarding": "in its session (not filed); started at Dinis's spoken word in this conductor's session, 16:50 UTC",
-   "until": "IPMA's Lisbon warning has ended and Wednesday's programme is over"
+  "agents": [
+    {
+      "agent": "journalist@PrompTugal.vicky",
+      "session": "session_015JeffFXVkP8Nj35SzNTFo9",
+      "trigger": "trig_018oWJkm1xVJL9rMBXzf36MF",
+      "cron": "5 * * * *",
+      "model": "Opus",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/journalist.md"
+    },
+    {
+      "agent": "journalist-connections@PrompTugal.vicky",
+      "session": "session_015JeffKVpQqpXCf9HK2qbcE",
+      "trigger": "trig_01TJBzQj9dZ7MqNmKHNfjUoK",
+      "cron": "9 * * * *",
+      "model": "Opus",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/journalist-connections.md"
+    },
+    {
+      "agent": "journalist-portugal@PrompTugal.vicky",
+      "session": "session_015JeffGppq5TfrY1FD4WWSN",
+      "trigger": "trig_017V2QjxJxVMLf3sLnPNbY3H",
+      "cron": "15 * * * *",
+      "model": "Opus",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/journalist-portugal.md"
+    },
+    {
+      "agent": "journalist-europe@PrompTugal.vicky",
+      "session": "session_015JeffGQMuNEWwRtgykVz3L",
+      "trigger": "trig_017bhHx53pt7cUwqg8ZtJNAe",
+      "cron": "19 * * * *",
+      "model": "Opus",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/journalist-europe.md"
+    },
+    {
+      "agent": "journalist-ai@PrompTugal.vicky",
+      "session": "session_015JeffGRvRTGqxuUAWs5CKZ",
+      "trigger": "trig_01YYzx9BXYd8XS8vQoo7Ti3M",
+      "cron": "27 * * * *",
+      "model": "Opus",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/journalist-ai.md"
+    },
+    {
+      "agent": "reviewer@PrompTugal.vicky",
+      "session": "session_015JeffFqRmPKucoNi7mm7w9",
+      "trigger": "trig_01JDbQvUJa7cqX8wNkT6wCpp",
+      "cron": "32 * * * *",
+      "model": "Opus",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/reviewer.md"
+    },
+    {
+      "agent": "curator@PrompTugal.vicky",
+      "session": "session_015JeffHEtfkabrZb7QRhSRC",
+      "trigger": "trig_019jKQXd2ChVL5tijsffwCcz",
+      "cron": "41 * * * *",
+      "model": "Sonnet",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/curator.md"
+    },
+    {
+      "agent": "programme@PrompTugal.vicky",
+      "session": "session_015JeffJEa7Kn9H481ovCQy6",
+      "trigger": "trig_011oPzwGaank1ifTe5GeX8W1",
+      "cron": "44 * * * *",
+      "model": "Sonnet",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/programme.md"
+    },
+    {
+      "agent": "checker@PrompTugal.vicky",
+      "session": "session_015JeffJyuac5Q11oUCSWCjT",
+      "trigger": "trig_01DsxUs3p2w1brhYokemvNtx",
+      "cron": "53 * * * *",
+      "model": "Sonnet",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/checker.md"
+    },
+    {
+      "agent": "dev@PrompTugal.vicky",
+      "session": "session_015JeffHU5vCo5RdZufgvYma",
+      "trigger": null,
+      "cron": null,
+      "model": "Sonnet",
+      "state": "on",
+      "started": "2026-11-10T11:55Z",
+      "onboarding": "desks/conductor-vicky/onboarding/dev.md"
+    },
+    {
+      "agent": "weather@PrompTugal.vicky",
+      "session": "session_015JeffGMBAtfVny3WdZxvF8",
+      "trigger": "trig_01UAJwNdpvjV9B5QNjgRNcYz",
+      "cron": "35 * * * *",
+      "model": "Opus",
+      "state": "on",
+      "started": "2026-11-10T16:51Z",
+      "onboarding": "in its session (not filed); started at Dinis's spoken word in this conductor's session, 16:50 UTC",
+      "until": "IPMA's Lisbon warning has ended and Wednesday's programme is over"
+    }
+  ],
+  "notes": [
+    "weather@ wake trig_01UAJwNdpvjV9B5QNjgRNcYz: to be disabled (not deleted) Thu 12 Nov about 09:00 UTC, Vicky's word 11 Nov 10:50",
+    "fringe wake trig_013JkmvxJEk9cuqke1xDgsnC: disable (not delete) on Friday 13 Nov"
+  ],
+  "fringe": {
+    "name": "conductor.fringe@PrompTugal.vicky",
+    "session": "session_015JeffGUqHxxEVQuNpGiBmj",
+    "repo": "PrompTugal/PrompTugal__News__Fringe (dev)",
+    "model": "claude-sonnet-5-5",
+    "wake": "trig_013JkmvxJEk9cuqke1xDgsnC, hourly at :23, until Friday 13 Nov (then disable, not delete)",
+    "started": "2026-11-11 11:02 UTC at Vicky's word, per Dinis's swarm (SWARM.md, guidance 2026-11-11 lisbon fringe)",
+    "reports_to": "conductor.B@PrompTugal.vicky"
   }
- ]
 }
