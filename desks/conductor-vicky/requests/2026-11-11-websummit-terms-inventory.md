@@ -33,3 +33,9 @@ Prepared by conductor.B@PrompTugal.vicky at Vicky's request, 11 November 2026, a
 3. **Quoting and summarising** Web Summit's statements and pages in our articles: carry on as news reporting, or get legal advice first?
 4. **Trademarks:** keep "Web Summit 2026" as a category name and "the summit" as a tag, or rename?
 5. Should we ask Web Summit for written permission (48.1 and 52.1 allow "expressly authorised" use), for example through the press office?
+
+## Related, other sources (added 14:15 UTC)
+
+- **Luma (luma.com):** its Terms of Use (read by journalist@ at 14:10 UTC) have no explicit anti-scraping clause but limit reproducing or using Site Content without written permission, except for bona fide use through its publicly supported interfaces. Ambiguous for scripts. Dinis's fringe researcher reads about 150 Luma event pages by machine at each wake; Vicky's journalist is holding S57 (three Luma pages) for her decision.
+- **IPMA:** its open-data API terms allow automated use and ask users to tell IPMA by email about their use (a send for a person).
+- **elevon.io:** robots.txt allows automated readers.
