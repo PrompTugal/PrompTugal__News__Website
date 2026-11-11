@@ -1,0 +1,314 @@
+{
+  "read_at": "2026-11-11T10:36Z",
+  "by": "weather@PrompTugal.vicky",
+  "sources": {
+    "ipma": {
+      "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+      "status": 200,
+      "lisbon": [
+        {
+          "type": "Precipitação",
+          "level": "red",
+          "start": "2026-11-11T09:00:00",
+          "end": "2026-11-11T18:00:00",
+          "text": "Precipitação forte e persistente."
+        },
+        {
+          "type": "Vento",
+          "level": "orange",
+          "start": "2026-11-11T09:00:00",
+          "end": "2026-11-11T21:00:00",
+          "text": "Rajadas até 120 km/h."
+        },
+        {
+          "type": "Agitação Marítima",
+          "level": "orange",
+          "start": "2026-11-11T12:00:00",
+          "end": "2026-11-11T21:00:00",
+          "text": "Ondas de sudoeste com 5 a 7 metros e que poderão atingir até 13 metros de altura máxima."
+        },
+        {
+          "type": "Agitação Marítima",
+          "level": "yellow",
+          "start": "2026-11-11T21:00:00",
+          "end": "2026-11-12T03:00:00",
+          "text": "Ondas de sudoeste com 4 a 5 metros."
+        }
+      ],
+      "red_areas": {
+        "Precipitação": [
+          "BJA",
+          "CBO",
+          "FAR",
+          "LRA",
+          "LSB",
+          "PTG",
+          "STB",
+          "STM"
+        ],
+        "Vento": [
+          "FAR"
+        ]
+      }
+    },
+    "communiques": {
+      "url": "https://www.ipma.pt/resources.www/rss/comunicados.xml",
+      "status": 200,
+      "built": "2026-11-11 10:08:32",
+      "items": [
+        {
+          "date": "2026-11-10 17:07:58",
+          "title": "Chuva, vento e agitação marítima - Depressão CHARLES - Continente e Madeira - Comunicado nº2"
+        },
+        {
+          "date": "2026-11-01 23:11:06",
+          "title": "Aviso de Sismo Sentido no Arquipélago dos Açores  01-11-2026  21:36"
+        },
+        {
+          "date": "2026-10-29 08:45:37",
+          "title": "Aviso de Sismo Sentido no Arquipélago dos Açores  29-10-2026  06:59"
+        }
+      ]
+    },
+    "stations": {
+      "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
+      "status": 200,
+      "note": "hourly mean wind, km/h; -99 means no data",
+      "stations": {
+        "Lisboa (Geofísico)": [
+          {
+            "hour": "2026-11-11T04:00",
+            "wind_kmh": 8.3,
+            "rain_mm": -99
+          },
+          {
+            "hour": "2026-11-11T05:00",
+            "wind_kmh": 8.6,
+            "rain_mm": -99
+          },
+          {
+            "hour": "2026-11-11T06:00",
+            "wind_kmh": 5,
+            "rain_mm": -99
+          },
+          {
+            "hour": "2026-11-11T07:00",
+            "wind_kmh": 4.7,
+            "rain_mm": -99
+          },
+          {
+            "hour": "2026-11-11T08:00",
+            "wind_kmh": 10.1,
+            "rain_mm": -99
+          },
+          {
+            "hour": "2026-11-11T09:00",
+            "wind_kmh": 17.3,
+            "rain_mm": -99
+          }
+        ],
+        "Lisboa, Relógio": [
+          {
+            "hour": "2026-11-11T04:00",
+            "wind_kmh": 9.7,
+            "rain_mm": 1.4
+          },
+          {
+            "hour": "2026-11-11T05:00",
+            "wind_kmh": 10.1,
+            "rain_mm": 0.1
+          },
+          {
+            "hour": "2026-11-11T06:00",
+            "wind_kmh": 6.1,
+            "rain_mm": 2.2
+          },
+          {
+            "hour": "2026-11-11T07:00",
+            "wind_kmh": 5.8,
+            "rain_mm": 5.1
+          },
+          {
+            "hour": "2026-11-11T08:00",
+            "wind_kmh": 9,
+            "rain_mm": 4.9
+          },
+          {
+            "hour": "2026-11-11T09:00",
+            "wind_kmh": 11.5,
+            "rain_mm": 6.4
+          }
+        ],
+        "Lisboa, Tapada da Ajuda": [
+          {
+            "hour": "2026-11-11T04:00",
+            "wind_kmh": 5.4,
+            "rain_mm": 1.1
+          },
+          {
+            "hour": "2026-11-11T05:00",
+            "wind_kmh": 3.6,
+            "rain_mm": 0.4
+          },
+          {
+            "hour": "2026-11-11T06:00",
+            "wind_kmh": 3.2,
+            "rain_mm": 2.4
+          },
+          {
+            "hour": "2026-11-11T07:00",
+            "wind_kmh": 2.2,
+            "rain_mm": 4.4
+          },
+          {
+            "hour": "2026-11-11T08:00",
+            "wind_kmh": 7.2,
+            "rain_mm": 3.7
+          },
+          {
+            "hour": "2026-11-11T09:00",
+            "wind_kmh": 10.8,
+            "rain_mm": 4.9
+          }
+        ],
+        "Lisboa, Carnide (CML)": [
+          {
+            "hour": "2026-11-11T04:00",
+            "wind_kmh": 5.4,
+            "rain_mm": 2.3
+          },
+          {
+            "hour": "2026-11-11T05:00",
+            "wind_kmh": 8.3,
+            "rain_mm": 0.2
+          },
+          {
+            "hour": "2026-11-11T06:00",
+            "wind_kmh": 9.7,
+            "rain_mm": 2.1
+          },
+          {
+            "hour": "2026-11-11T07:00",
+            "wind_kmh": 8.6,
+            "rain_mm": 4.3
+          },
+          {
+            "hour": "2026-11-11T08:00",
+            "wind_kmh": 13,
+            "rain_mm": 4.4
+          },
+          {
+            "hour": "2026-11-11T09:00",
+            "wind_kmh": 18.4,
+            "rain_mm": 4.4
+          }
+        ],
+        "Lisboa, Amoreiras": [
+          {
+            "hour": "2026-11-11T04:00",
+            "wind_kmh": 4.3,
+            "rain_mm": 1
+          },
+          {
+            "hour": "2026-11-11T05:00",
+            "wind_kmh": 5.8,
+            "rain_mm": 0.2
+          },
+          {
+            "hour": "2026-11-11T06:00",
+            "wind_kmh": 4.3,
+            "rain_mm": 1.6
+          },
+          {
+            "hour": "2026-11-11T07:00",
+            "wind_kmh": 3.2,
+            "rain_mm": 3.1
+          },
+          {
+            "hour": "2026-11-11T08:00",
+            "wind_kmh": 5.8,
+            "rain_mm": 3.2
+          },
+          {
+            "hour": "2026-11-11T09:00",
+            "wind_kmh": 7.6,
+            "rain_mm": 3.6
+          }
+        ]
+      }
+    },
+    "lppt": {
+      "url": "https://aviationweather.gov/api/data/taf?ids=LPPT&format=raw",
+      "status": 200,
+      "taf": "TAF AMD LPPT 111008Z 1110/1212 16015KT 4000 RA BR SCT004 BKN008 \n  TEMPO 1110/1116 16020G35KT 2000 RA BR SCT002 BKN004 FEW016CB \n  PROB30 \n  TEMPO 1110/1116 16040G55KT 1200 +TSRA SCT015CB \n  BECMG 1118/1120 26012KT BKN020",
+      "metar": [
+        "METAR LPPT 111030Z 14011KT 120V180 3000 +RA BR FEW002 BKN006 FEW016CB 16/16 Q0999 NOSIG",
+        "METAR LPPT 111000Z 15011KT 110V180 4000 RA BR FEW003 BKN007 FEW016TCU 17/16 Q0999 NOSIG",
+        "METAR LPPT 110930Z 16012KT 6000 -RA FEW002 BKN010 FEW016TCU 17/16 Q1000 RERA NOSIG",
+        "METAR LPPT 110900Z 16011KT 3000 RA BR FEW002 BKN006 FEW016TCU 17/16 Q1001 NOSIG",
+        "METAR LPPT 110830Z 17011KT 140V200 4000 RA BR FEW002 BKN006 FEW016TCU 17/16 Q1001 NOSIG",
+        "METAR LPPT 110800Z 16011KT 6000 RA FEW002 SCT006 FEW016TCU BKN018 17/16 Q1002 NOSIG"
+      ],
+      "metar_gusts": []
+    },
+    "carrismet": {
+      "url": "https://api.carrismetropolitana.pt/v2/alerts",
+      "status": 200,
+      "total": 96,
+      "weather": 6,
+      "by_header_and_effect": {
+        "Aviso Geral | Mau tempo | SIGNIFICANT_DELAYS": 4,
+        "Linhas 4404, 4405, 4406, 4412, 4414, 4415, 4422: Percurso encurtado | REDUCED_SERVICE": 1,
+        "4512, 4600, 4708: Desvio de Percurso | DETOUR": 1
+      },
+      "suspensions": 0
+    },
+    "ttsl": {
+      "url": "https://ttsl.pt/avisos/feed/",
+      "status": 200,
+      "items": [
+        {
+          "date": "Tue, 10 Nov 2026 22:28:53 +0000",
+          "title": "Porto Brandão &#8211; Trafaria &#8211; Algés &#124; 11 nov.",
+          "link": "https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/"
+        },
+        {
+          "date": "Tue, 10 Nov 2026 13:24:43 +0000",
+          "title": "Trafaria &#8211; Porto Brandão &#8211; Belém &#124; 10 nov.",
+          "link": "https://ttsl.pt/avisos/trafaria-porto-brandao-belem-10-nov-2/"
+        },
+        {
+          "date": "Mon, 09 Nov 2026 16:06:44 +0000",
+          "title": "Porto Brandão &#8211; Trafaria &#8211; Algés &#124; 9 nov.",
+          "link": "https://ttsl.pt/avisos/porto-brandao-trafaria-alges-9-nov/"
+        },
+        {
+          "date": "Mon, 09 Nov 2026 13:19:01 +0000",
+          "title": "Trafaria &#8211; Porto Brandão &#8211; Belém &#124; 9 nov.",
+          "link": "https://ttsl.pt/avisos/trafaria-porto-brandao-belem-9-nov-2/"
+        }
+      ]
+    },
+    "gov": {
+      "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
+      "status": 200,
+      "period": "entre as 00h00 do dia 11 de novembro de 2026 e as 23h59 do dia 11 de novembro de 2026",
+      "mentions_contingencia": false,
+      "mentions_calamidade": false
+    },
+    "websummit": {
+      "https://websummit.com/": {
+        "status": 200,
+        "bytes": 392574,
+        "weather_words": [
+          "weather"
+        ]
+      },
+      "https://websummit.com/blog/news/": {
+        "status": 200,
+        "bytes": 138238,
+        "weather_words": []
+      }
+    }
+  }
+}

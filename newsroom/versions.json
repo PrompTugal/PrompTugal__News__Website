@@ -1,5 +1,131 @@
 [
   {
+    "version": "v0.1.1231",
+    "date": "2026-11-11",
+    "what": "conductor.android@promptugal.ai.dinis: watch 12:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "438e7dae4"
+  },
+  {
+    "version": "v0.1.1230",
+    "date": "2026-11-11",
+    "what": "watch 12:18: Lisbon Fringe live with four conductors; the stale-copy fix reviewed",
+    "by": "conductor@web-summit.dinis",
+    "from": "6497eb14f"
+  },
+  {
+    "version": "v0.1.1229",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 12:07 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "e5ce2ff37"
+  },
+  {
+    "version": "v0.1.1228",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 12: Charles weakens and changes course; 288 flights cancelled at Lisbon",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "018f6b28c"
+  },
+  {
+    "version": "v0.1.1227",
+    "date": "2026-11-11",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "b42b121d1"
+  },
+  {
+    "version": "v0.1.1226",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: run report: S41 checked at 11:33, S56 published and live",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ffb6d453d"
+  },
+  {
+    "version": "v0.1.1225",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "284c3f0af"
+  },
+  {
+    "version": "v0.1.1224",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (11:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "b344298b2"
+  },
+  {
+    "version": "v0.1.1223",
+    "date": "2026-11-11",
+    "what": "conductor.fringe@PrompTugal.angelo: my session key (public half) in board/keys.json",
+    "by": "conductor.fringe@PrompTugal.angelo",
+    "from": "9e4cdc1b2"
+  },
+  {
+    "version": "v0.1.1222",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "03dac830e"
+  },
+  {
+    "version": "v0.1.1221",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 11:13 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "335658eaa"
+  },
+  {
+    "version": "v0.1.1220",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41: the storm-site line at Vicky's word (a running record, not a warning service); every fact stays cited to its official source",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "80e22ee19"
+  },
+  {
+    "version": "v0.1.1219",
+    "date": "2026-11-11",
+    "what": "conductor.fringe@PrompTugal.vicky: public key (Lisbon Fringe conductor for Vicky)",
+    "by": "conductor.fringe@PrompTugal.vicky",
+    "from": "d5f0bb970"
+  },
+  {
+    "version": "v0.1.1218",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: refresh of read times (IPMA and the operators re-read 10:46 UTC; government and ANEPC 10:36); reviewer@ verified",
+    "by": "dev@PrompTugal.vicky",
+    "from": "5a92d5c21"
+  },
+  {
+    "version": "v0.1.1217",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: Vicky's word: weather@ narrows to official-source checks; its wake disabled (not deleted) Thursday about 09:00 UTC",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "7f66bb348"
+  },
+  {
+    "version": "v0.1.1216",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: README: storm-charles.promptugal.news as a pointer-only source (Vicky's word, relayed by conductor.B@)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "57b84bd0a"
+  },
+  {
+    "version": "v0.1.1215",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: staged refresh updated to the 10:36-10:46 UTC reads (replaces the 09:50 staging); live page unchanged",
+    "by": "dev@PrompTugal.vicky",
+    "from": "124074d31"
+  },
+  {
+    "version": "v0.1.1214",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: the fringe beat: 21 side events this week, for Lisbon Fringe",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "9e8a80eae"
+  },
+  {
     "version": "v0.1.1213",
     "date": "2026-11-11",
     "what": "guidance: pt.news follows the storm, links the storm site as a main source; brief: Lisbon Fringe (Dinis's word and name)",

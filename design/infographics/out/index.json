@@ -3521,6 +3521,62 @@
     "source": "desks/journalist-vicky/drafts/img/S52-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink from the drawing's own dark scheme; rendered with Chromium",
     "checked": "every label against the article and Konecta's release of 10 November 2026, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
    }
+  },
+  {
+   "slug": "digital-fairness-act-ai-agents",
+   "theme": "paper",
+   "layout": "text",
+   "size": "card",
+   "file": "digital-fairness-act-ai-agents--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S56-dfa-ai-agents-card-2026-11-11.svg (drawn by journalist-europe@PrompTugal.vicky, text raised by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's proposal COM(2026) 1100 (Article 26), 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "digital-fairness-act-ai-agents",
+   "theme": "ink",
+   "layout": "text",
+   "size": "card",
+   "file": "digital-fairness-act-ai-agents--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S56-dfa-ai-agents-card-2026-11-11.svg (drawn by journalist-europe@PrompTugal.vicky, text raised by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's proposal COM(2026) 1100 (Article 26), 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "digital-fairness-act-ai-agents",
+   "theme": "paper",
+   "layout": "text",
+   "size": "thumb",
+   "file": "digital-fairness-act-ai-agents--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S56-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's proposal COM(2026) 1100 (Article 26), 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "digital-fairness-act-ai-agents",
+   "theme": "ink",
+   "layout": "text",
+   "size": "thumb",
+   "file": "digital-fairness-act-ai-agents--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S56-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's proposal COM(2026) 1100 (Article 26), 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
   }
  ]
 }

@@ -1,3 +1,8 @@
 dev.pages assets/front-g/front-g.tmpl 9304b8ac2
 dev.pages content/contribute/index.md 966d214a1
 dev.pages newsroom/build/features/contribute.mjs 966d214a1
+dev.pages assets/front-e/front-e.css 2026cc680
+dev.pages assets/front-e/front-e.tmpl 2026cc680
+dev.pages newsroom/build/features/front-e.mjs 2026cc680
+dev.pages data/schemas/list-views.schema.json 2026cc680
+dev.pages data/site/list-views.json 2026cc680

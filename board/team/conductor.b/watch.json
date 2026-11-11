@@ -420,6 +420,26 @@
    "PrompTugal__App__iOS": "3ce861bf",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Account B: dev@ fixed the stale home page (the offline worker answers from its newest copy; Vicky's request via her conductor, live), three branches on; sherpa dated the storm page to the latest IPMA read. Ledger 1366.21 (+31.87 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T10:52Z",
+   "SGit-AI__Website__Web-Summit": "616de3e7",
+   "PrompTugal__News__Website": "0ced7148",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "0d2182bc",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Read Dinis's 10:22 guidance (pt.news follows the storm, links the storm site as a main source): already in hand on account B (designer's live-sources strip with the storm site at the top of the home page; correspondent recorded the live sources). dev@ made a page from a kept copy say so and offer the newer one. ontologist: nothing new again (third time). Inbox: 2 held (unregistered signer)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T11:52Z",
+   "SGit-AI__Website__Web-Summit": "6c36d73e",
+   "PrompTugal__News__Website": "b42b121d",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "0d2182bc",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ shipped the live-sources strip (the storm site and Lisbon Fringe at the top of the home page), two branches on. Inbox empty."
   }
  ]
 }

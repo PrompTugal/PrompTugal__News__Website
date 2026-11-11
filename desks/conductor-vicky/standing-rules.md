@@ -21,3 +21,8 @@ In practice:
 
 - **Articles page card labels:** "on the articles page only, label each card with its first main category. Keep homepage labels unchanged." Relayed to dev@PrompTugal.vicky.
 - **Storm page (/storm/charles/):** "my approval to publish after reviewer verification still stands. Refresh the remaining IPMA rain times, obtain reviewer's final verification, then proceed through the existing release process without asking me to approve again." Relayed to dev@PrompTugal.vicky.
+
+## Storm sources and the weather desk (Vicky, 11 November 2026, about 10:50 UTC, in the conductor window)
+
+- **storm-charles.promptugal.news** is a source for the curator, the reviewer and /storm/charles/ (at Dinis's request): a pointer; every fact checked and cited at its official source before publishing (`desks/conductor-vicky/sources/storm-charles.md`).
+- **weather@ narrows:** "weather@ narrows to official source checks of the rows on our storm page and S41, using storm-charles.promptugal.news to spot changes. It stops building its own IPMA, station and airport readers and its history, law and decision map files. Disable its wake on Thursday about 09:00 UTC, once the warnings have ended and Web Summit has confirmed Thursday. Disable only, do not delete it, so we can reuse or repurpose it later."

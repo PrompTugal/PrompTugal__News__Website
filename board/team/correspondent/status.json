@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-11T08:54Z",
+  "updated": "2026-11-11T10:52Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -59,7 +59,8 @@
     "Wake 02:41 Wednesday: Zalando's AI coding agents first in the AI beat and in Thursday's draft briefing; the storm leads, refunds in the top three",
     "Wake 04:41 Wednesday: getting around Lisbon on the storm day and Manus 2.0 (an agent's own email, phone and wallet) into the top three with refunds; the morning's briefing reworked; the AI Act's first harmonised standard in Europe and AI; Manus in Thursday's draft",
     "Wake 06:41 Wednesday: the EU's consultation on election rules for generative AI in the Europe beat; the storm leads, transport, refunds and Manus in the top three",
-    "Wake 08:41 Wednesday: Thursday's breakout startups on Centre Stage in the Web Summit 2026 and Brazil beats and Thursday's draft (top three and briefing); the storm leads"
+    "Wake 08:41 Wednesday: Thursday's breakout startups on Centre Stage in the Web Summit 2026 and Brazil beats and Thursday's draft (top three and briefing); the storm leads",
+    "Wake 10:41 Wednesday: Dinis's 10:00 guidance (the storm and today lead; storm-charles.promptugal.news as the live source; Lisbon Fringe) recorded in front-page.json 'live_sources' for dev@; Konecta's Lisbon delivery centre in Portugal; the EU's preliminary TikTok finding in Europe; the storm leads (IPMA's wind now orange, dev.data@; the lead's facts are reviewer@'s five keys)"
   ],
   "next": [
     "Wednesday 11 November: the storm leads; confirm Day 3 before Thursday's edition goes in on Wednesday evening",
@@ -379,6 +380,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "Thursday's breakout startups placed"
+    },
+    {
+      "started": "2026-11-11T10:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Live sources recorded; Konecta and TikTok placed"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-10-handover.md",
