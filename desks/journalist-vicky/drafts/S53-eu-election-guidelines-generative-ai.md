@@ -4,7 +4,7 @@ date: 2026-11-11
 story: S53
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "The European Commission is consulting until 23 November on revised election guidelines under the Digital Services Act. The draft asks the largest platforms to label deepfakes, test their algorithms before elections and report within 30 days of a vote."
-status: draft
+status: ready
 beat: Europe
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: Europe, Digital Services Act, European Commission, elections, generative AI, deepfakes, consultation

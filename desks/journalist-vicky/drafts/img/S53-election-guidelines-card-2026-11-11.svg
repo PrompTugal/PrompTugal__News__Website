@@ -8,13 +8,13 @@
 <text x="60" y="266" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1a1a1a">For the largest platforms and search engines</text>
 <g font-family="Helvetica, Arial, sans-serif" fill="#1a1a1a">
 <rect x="60" y="306" width="525" height="210" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
-<text x="88" y="372" font-size="40" font-weight="700">Deepfakes labelled</text>
-<text x="88" y="422" font-size="38">and keep the label</text>
-<text x="88" y="470" font-size="38">when shared</text>
+<text x="88" y="372" font-size="42" font-weight="700">Deepfakes labelled</text>
+<text x="88" y="422" font-size="42">and keep the label</text>
+<text x="88" y="470" font-size="42">when shared</text>
 <rect x="615" y="306" width="525" height="210" rx="12" fill="#ffffff" stroke="#003399" stroke-width="4"/>
-<text x="643" y="372" font-size="40" font-weight="700">30 days</text>
-<text x="643" y="422" font-size="38">to report after</text>
-<text x="643" y="470" font-size="38">an election</text>
+<text x="643" y="372" font-size="42" font-weight="700">30 days</text>
+<text x="643" y="422" font-size="42">to report after</text>
+<text x="643" y="470" font-size="42">an election</text>
 </g>
-<text x="60" y="586" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#444">Source: European Commission, 10 Nov 2026</text>
+<text x="60" y="586" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#444">Source: European Commission, 10 Nov 2026</text>
 </svg>
