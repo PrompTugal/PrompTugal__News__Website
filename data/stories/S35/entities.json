@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S35",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-11",
+  "entities": [
+    {
+      "ref": "event:web-summit-lisbon-2026",
+      "label": "Web Summit Lisbon 2026",
+      "kind": "event",
+      "sources": [
+        "websummit-schedule-press-conferences-p1",
+        "websummit-schedule-press-conferences-p2",
+        "websummit-schedule-press-conferences-p3",
+        "websummit-schedule-press-conferences-p4"
+      ],
+      "note": "All 23 press conferences listed are on Stage 2 in the Media Village"
+    }
+  ]
+}
