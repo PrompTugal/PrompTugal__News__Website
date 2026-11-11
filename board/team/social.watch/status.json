@@ -2,7 +2,7 @@
   "agent": "social.watch@PrompTugal.dinis",
   "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214). Since 11 November (Dinis's guidance, about 10:00 UTC): a fringe beat for Lisbon Fringe (fringe/events.json).",
   "state": "working: sweep 11 done 10:54 UTC (storm day); hourly at minute 50; OpenRouter out of credit",
-  "updated": "2026-11-11T10:54Z",
+  "updated": "2026-11-11T11:52Z",
   "done": [
     "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
     "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
@@ -23,7 +23,8 @@
     "Wake 08:51, sweep 9 (my own check): no new IPMA CAP for Lisboa; CNN Portugal: rain and high tide together, 26 incidents in Greater Lisbon by 06:00, possible explosive cyclogenesis; Web Summit silent",
     "Wake 09:55, sweep 10 (my own check): Oriente flooding at 09:28 next to the venue; Deadline covers the cancellation (its article behind a pay-per-crawl gate, not passed); 2 items, 119 in all",
     "10:30: fringe beat, first pass: 21 events this week in fringe/events.json; the storm cancelled 2, moved 2, put 2 online; no unconference found",
-    "Wake 10:50, sweep 11 (two sub-agents, news and fringe pass 2): 12 coverage items, 131 in all; 20 more side events, 41 in all; the unconference found (Lisbon Community Week, Friday 13 November 15:45, Impact Hub Penha, page opened); five storm rows (the track south, the rain easing after 18:00); summary hourly/2026-11-11T10Z.md"
+    "Wake 10:50, sweep 11 (two sub-agents, news and fringe pass 2): 12 coverage items, 131 in all; 20 more side events, 41 in all; the unconference found (Lisbon Community Week, Friday 13 November 15:45, Impact Hub Penha, page opened); five storm rows (the track south, the rain easing after 18:00); summary hourly/2026-11-11T10Z.md",
+    "Wake 11:51, sweep 12 (my own check): Charles weakened and changed course (CNN Portugal 11:44); Lisbon airport 288 flights cancelled; 1 item (Greek media), 132 in all; seven storm rows"
   ],
   "next": [
     "Sweeps through the storm day: the venue, transport, Thursday's confirmation; the evening: what Thursday looks like",

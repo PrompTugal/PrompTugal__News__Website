@@ -18,3 +18,4 @@ d0af64adf scanned 2026-11-11 dev@: the app notice JSON (Wednesday called off); d
 ce6f5d29f read 2026-11-11 dev@: dev@PrompTugal.vicky's /storm/charles/ page and the home lead's link (its commit says held until reviewer@'s check); no network, storage or markup in strings added
 97480b479 scanned 2026-11-11 dev@: dev@PrompTugal.vicky's /storm/charles/ data rows (IPMA, transport); no network, storage or markup in strings added
 dd9f85d6f scanned 2026-11-11 dev@: dev@PrompTugal.vicky's /storm/charles/ layout (designer@'s S1 to S4); no network, storage or markup in strings added
+25d4f503b scanned 2026-11-11 dev@: dev@PrompTugal.vicky's /storm/charles/ staged update (source line, Carris row); no network, storage or markup in strings added

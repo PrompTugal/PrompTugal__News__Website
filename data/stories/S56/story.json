@@ -5,7 +5,7 @@
   "title": "The EU proposes a Digital Fairness Act: what it would change for online shoppers, including those using AI agents",
   "beat": "Europe",
   "topic": null,
-  "status": "idea",
+  "status": "published",
   "rests_on": [
     "evidence:x-eu-dfa"
   ],
@@ -15,23 +15,55 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-11-1050.json"
+      "desks/curator/2026-11-11-1050.json",
+      "desks/journalist-vicky/drafts/S56-digital-fairness-act-ai-agents.md",
+      "desks/reviewer-vicky/reviews/S56.md",
+      "content/articles/digital-fairness-act-ai-agents.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-europe@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S56-digital-fairness-act-ai-agents.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S56.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/digital-fairness-act-ai-agents.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S56.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-11",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-11-1050.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S56-digital-fairness-act-ai-agents.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "content/articles/digital-fairness-act-ai-agents.md"
     }
   ]
 }

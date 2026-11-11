@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T10:53Z",
+  "updated": "2026-11-11T11:52Z",
   "sweeps": [
     {
       "n": 1,
@@ -115,6 +115,14 @@
         "fringe beat (fringe/events.json)"
       ],
       "items": 12
+    },
+    {
+      "n": 12,
+      "at": "2026-11-11T11:51Z",
+      "families": [
+        "my own check: MeteoAlarm CAP, Web Summit's blog, Mastodon, CNN Portugal live, the team's commits"
+      ],
+      "items": 1
     }
   ],
   "items": [
@@ -3291,6 +3299,27 @@
       "found": "2026-11-11T10:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 11)",
       "private_individual": true
+    },
+    {
+      "url": "https://mastodon.social/@pieria24/117597483699197505",
+      "platform": "Mastodon",
+      "author": "Pieria24 (pieria24, mastodon.social)",
+      "kind": "post",
+      "title": "Ακυρώθηκε η δεύτερη ημέρα του Web Summit λόγω της καταιγίδας Charles",
+      "quote": null,
+      "published": "2026-11-11T11:06:38Z",
+      "topics": [
+        "storm"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "A Greek regional news outlet's post linking its article (pieria24.gr): the cancellation reaches Greek media.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T11:52Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 12)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."

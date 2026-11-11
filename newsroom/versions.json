@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.1229",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 12:07 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "e5ce2ff37"
+  },
+  {
+    "version": "v0.1.1228",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 12: Charles weakens and changes course; 288 flights cancelled at Lisbon",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "018f6b28c"
+  },
+  {
+    "version": "v0.1.1227",
+    "date": "2026-11-11",
+    "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "programme@PrompTugal.vicky",
+    "from": "b42b121d1"
+  },
+  {
+    "version": "v0.1.1226",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: run report: S41 checked at 11:33, S56 published and live",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ffb6d453d"
+  },
+  {
+    "version": "v0.1.1225",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "284c3f0af"
+  },
+  {
+    "version": "v0.1.1224",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (11:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "b344298b2"
+  },
+  {
+    "version": "v0.1.1223",
+    "date": "2026-11-11",
+    "what": "conductor.fringe@PrompTugal.angelo: my session key (public half) in board/keys.json",
+    "by": "conductor.fringe@PrompTugal.angelo",
+    "from": "9e4cdc1b2"
+  },
+  {
+    "version": "v0.1.1222",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "03dac830e"
+  },
+  {
     "version": "v0.1.1221",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: S41 checked 11:13 UTC, no change; run report",
