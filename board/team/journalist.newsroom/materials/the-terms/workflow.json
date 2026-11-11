@@ -1,7 +1,7 @@
 {
   "$comment": "How the platform-terms rule spread, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis. It describes the rule's path, not any site's terms.",
   "story": "the-terms",
-  "from": "board/team/work-desk/traces/the-terms.json (updated 2026-11-11T18:45Z)",
+  "from": "board/team/work-desk/traces/the-terms.json (updated 2026-11-11T21:50Z)",
   "speeds": [
     {
       "what": "the incident team's stop to the first Vicky desk's stop",
@@ -20,6 +20,12 @@
       "from_step": 11,
       "to_step": 14,
       "minutes": 24
+    },
+    {
+      "what": "Dinis's takedown decision to the first withdrawal",
+      "from_step": 20,
+      "to_step": 23,
+      "minutes": 157
     }
   ],
   "pattern": "a compliance rule travels slowly between teams (7 h 19 min from the incident team to Vicky's desks, through a watch line nobody acted on) and fast within one (eleven confirmations in 24 minutes). Where the agents may not read, a person reads (Vicky, 13:10). The agents disclose their own earlier reads.",

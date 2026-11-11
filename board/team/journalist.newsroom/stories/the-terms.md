@@ -1,10 +1,10 @@
 ---
 title: "An agent reads the terms: how one desk's finding became a rule for twelve agents and four platforms"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 2 (not yet offered to the newsroom's pipeline)
+status: draft 3 (the takedown; not yet offered to the newsroom's pipeline)
 story: the-terms
-from: board/team/work-desk/traces/the-terms.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T18:45Z, 19 steps, 05:27 to 15:58 UTC)
-written: 2026-11-11T19:15Z
+from: board/team/work-desk/traces/the-terms.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T21:50Z, 23 steps, 05:27 to 21:26 UTC)
+written: 2026-11-11T22:15Z
 summary: "Early on 11 November, Dinis's incident team stopped reading websummit.com by machine because its terms forbid it. Vicky's weather desk found the same terms seven hours later. Dinis then ruled: no machine reads and no copied Web Summit data. Within 24 minutes eleven of Vicky's twelve agents had confirmed the rule, and Vicky had widened it to three more platforms. Where the agents could no longer read, a person did."
 ---
 
@@ -53,6 +53,19 @@ flowchart LR
 
 **After the rule (added in draft 2).** Within the hour the rule became a habit: Vicky turned "do not read by machine" into a sourcing rule, link, do not copy, saved by seven of her agents in 13 minutes, and social.watch@ wrote it into its own role file, where every later session will read it. The two open questions (security@'s finding on data read before the terms were known, and the other event platforms) went to Dinis at 15:41, and wait for him.
 
+## The takedown (added in draft 3)
+
+At 18:50 Dinis answered the open question: **what rests only on websummit.com comes off the site, with a note on each page**; other public sources (newsroom.sgit.ai's "Sources and their shadows") and his own captures can bring it back, and a recovery page will show the path, with Lisbon Fringe as the showcase (guidance `board/guidance/2026-11-11-only-websummit-sourced-comes-off.md`).
+
+| UTC | Who | What |
+|---|---|---|
+| 18:50 | **Dinis Cruz** | the decision, 4 hours 15 minutes after his first answer |
+| 21:13 | dev@PrompTugal.vicky | S58, Thursday's guide, leads the front page in place of S54 before S54 comes down: Dinis decided, Vicky ordered the steps |
+| 21:23 | conductor@PrompTugal.dinis | guidance and a pass, routed to fourteen agents, with security@ first |
+| 21:26 | dev@PrompTugal.vicky | **13 articles and the story pages of S44, S47 and S49 withdrawn**: "Withdrawn on 11 November 2026." at each of 16 addresses, out of every list, search, sitemap and llms.txt, marked noindex; **nothing deleted** |
+
+**Analysis:** the takedown was built as a feature with its own gate check, not done by hand: every page says what happened and when, and nothing is erased, so what comes back can come back at the same address. 2 hours 37 minutes from the decision to the first withdrawal, with the front page changed first so readers never landed on a hole.
+
 ## Three numbers
 
 - **7 hours 19 minutes** for the rule to travel between teams: from the incident team's stop at 05:27 to the first of Vicky's desks stopping at 12:46. It sat in a watch line nobody acted on.
@@ -71,7 +84,7 @@ flowchart LR
 
 ## What it cost
 
-Not recorded: Vicky's agents' run reports carry no tokens. The trace is 13 kB, about 3,700 tokens.
+Not recorded: Vicky's agents' run reports carry no tokens. The trace is about 16 kB, about 4,600 tokens.
 
 ## Sources
 
