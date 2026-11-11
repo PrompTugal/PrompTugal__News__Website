@@ -5,7 +5,7 @@
   "title": "Four startups pitch on Thursday's Centre Stage: what each says it does",
   "beat": "The summit",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:x-ws-breakout-startups"
   ],
@@ -16,7 +16,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-11-0600.json",
-      "desks/journalist-vicky/drafts/S54-breakout-startups-thursday-centre-stage.md"
+      "desks/journalist-vicky/drafts/S54-breakout-startups-thursday-centre-stage.md",
+      "desks/reviewer-vicky/reviews/S54.md",
+      "content/articles/breakout-startups-thursday-centre-stage.md"
     ]
   },
   "assignee": "journalist-connections@PrompTugal.vicky",
@@ -24,10 +26,27 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S54-breakout-startups-thursday-centre-stage.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S54.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/breakout-startups-thursday-centre-stage.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S54.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-11",
@@ -39,6 +58,12 @@
       "at": "2026-11-11",
       "by": "journalist-connections@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S54-breakout-startups-thursday-centre-stage.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "content/articles/breakout-startups-thursday-centre-stage.md"
     }
   ]
 }

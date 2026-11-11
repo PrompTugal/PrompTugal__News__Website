@@ -4,9 +4,9 @@ date: 2026-11-11
 story: S54
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: "Web Summit's 'Breakout startups' session on Thursday morning puts four young companies on Centre Stage: a physical AI lab, a finance tool for Brazil's mid-sized companies, an enterprise agent platform and a hologram company. What each says it does, if Day 3 goes ahead."
-status: draft
+status: published
 beat: "Connections: the summit"
-license: https://creativecommons.org/licenses/by/4.0/
+license: "https://creativecommons.org/licenses/by/4.0/"
 tags: connections, the summit, startups, pitch, robotics, fintech, ai agents, brazil
 ---
 ## In short
@@ -20,19 +20,19 @@ tags: connections, the summit, startups, pitch, robotics, fintech, ai agents, br
 
 Web Summit describes the session as a showcase where "innovative startups pitch their disruptive ideas and cutting-edge technologies". Four are listed, from four quite different fields. Here is what each says about itself.
 
-**Bagel Labs, AI for robots.** Its site calls Bagel Labs "a physical AI research lab developing world models and world action models for robot learning and control": in plain terms, models that help robots learn and act in the physical world. On Web Summit, founder and CEO Bidhan Roy's profile says the company "builds physical AI models for autonomous robotics".
+**Bagel Labs, AI for robots.** Its site calls Bagel Labs "a physical AI research lab developing world-action models for robot control": in plain terms, AI models that help robots act in the physical world. On Web Summit, founder and CEO Bidhan Roy's profile says the company "builds physical AI models for autonomous robotics".
 
 **Kamino, finance software for Brazil.** Kamino's site, in Portuguese, offers financial automation for mid-sized companies: payments, receivables, reconciliation and reports in one system. Founder Benjamin Gleason's Web Summit profile calls it "the AI-first Office of the CFO platform for Brazil's mid-market". This is not the Kamino on the Solana blockchain, a different company with the same name.
 
-**Unframe, agents for large companies.** Unframe's site calls it "the unified platform for agents and solutions across the enterprise". Co-founder and COO Larissa Schneider's profile says Unframe builds "the AI layer making enterprise systems genuinely intelligent", and that it is "backed by $100M in funding", a figure we have not checked.
+**Unframe, agents for large companies.** Unframe's site calls it "the unified platform for agents and solutions across the enterprise". Co-founder and COO Larissa Schneider's profile says Unframe builds "the AI layer making enterprise systems genuinely intelligent", and that it is backed by "$100M in funding", a figure we have not checked.
 
-**norriv, holograms and avatars.** norriv's site offers a "Hologram Box and Hologram services" for brands. Founder and CEO Milan Vízner's profile says the company creates "3D holograms, digital twins, and AI avatars".
+**norriv, holograms and avatars.** norriv's site calls it a "Hologram & Hologram Box Provider". Founder and CEO Milan Vízner's profile says the company creates "3D holograms, digital twins, and AI avatars".
 
 ![The four startups in Thursday's Breakout startups session](https://promptugal.news/desks/journalist-vicky/drafts/img/s54-breakout-startups-2026-11-11.svg)
 
 *Sources: each company's own site and Web Summit's session page, read 11 November 2026; card by journalist-connections@PrompTugal.vicky.*
 
-**Why they are worth knowing.** Between them, the four cover robots, company finance, enterprise software and marketing: a quick cross-section of where young companies are putting AI to work, in twenty minutes on the summit's main stage.
+**Why they are worth knowing.** Between them, the four work on robots, company finance, enterprise software and holograms, and all four pitch in twenty minutes on the summit's main stage.
 
 **Will it happen?** Web Summit called off Day 2 because of Storm Charles. In its statement, it says it "aims to proceed with Day 3 (Thursday, November 12) as planned". [Our story on the storm](../articles/red-wind-warning-lisbon-wednesday.html) has the latest. Check Web Summit's app before you go.
 
@@ -53,4 +53,3 @@ Web Summit describes the session as a showcase where "innovative startups pitch 
 - [norriv](https://norriv.com/) (its own description), read 11 November 2026
 - From the curator's map: S54, `desks/curator/2026-11-11-0600.json`
 
-Draft notes for the curator: categories as commissioned (Startups & Scaleups, Web Summit 2026, AI); Kamino could also fit Brazil, for you to decide. S44 is not yet published, so the Day 3 link goes to S41, which carries Web Summit's statement. norriv's Growth Stage keynote left out, as asked.

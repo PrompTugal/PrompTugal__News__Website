@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-159 cards (159 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-11T03:58:20Z at site v0.1.1148; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+161 cards (161 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-11T06:58:59Z at site v0.1.1177; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 159 |
+| `PUB.NEWS` | 161 |
 
 Newest five accessions:
 
+- `ACC-20261111-0058` [S54: Four startups pitch on Thursday's Centre Stage: what each says it does](https://promptugal.news/newsroom/stories/S54/) (`PUB.NEWS S54`)
+- `ACC-20261111-0057` [S53: The EU asks for views on updating its election rules for the age of generative AI](https://promptugal.news/newsroom/stories/S53/) (`PUB.NEWS S53`)
 - `ACC-20261111-0035` [S52: Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027](https://promptugal.news/newsroom/stories/S52/) (`PUB.NEWS S52`)
 - `ACC-20261111-0034` [S51: Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed](https://promptugal.news/newsroom/stories/S51/) (`PUB.NEWS S51`)
 - `ACC-20261111-0033` [S50: The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers](https://promptugal.news/newsroom/stories/S50/) (`PUB.NEWS S50`)
-- `ACC-20261111-0032` [S49: Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day](https://promptugal.news/newsroom/stories/S49/) (`PUB.NEWS S49`)
-- `ACC-20261111-0031` [S48: Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words](https://promptugal.news/newsroom/stories/S48/) (`PUB.NEWS S48`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

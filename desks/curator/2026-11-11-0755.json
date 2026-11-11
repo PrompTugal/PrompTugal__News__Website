@@ -1,0 +1,55 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-0755 (discovery workflow: TikTok follow-up)",
+ "batch": "LEADS-11NOV-7",
+ "for": "journalist-europe",
+ "covers": {
+  "note": "Follow-up in desks/journalist-vicky/leads/2026-11-11-europe.md (the full press release, IP/26/2361), re-read by the curator through the Commission press corner's document API at 07:55 UTC. No vault captures."
+ },
+ "published_check": "No article or draft on TikTok or the DSA proceedings; S53 (election guidelines consultation) is a different DSA subject; nothing on recommender systems beyond a line in S53.",
+ "captures": [
+  {
+   "id": "x-eu-tiktok-prelim",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2361",
+   "beat": "Europe",
+   "names": [
+    "European Commission",
+    "TikTok"
+   ],
+   "what_is_new": "Commission press release IP/26/2361, 6 Nov 2026: preliminary finding that TikTok is in breach of the Digital Services Act over the 'rabbit hole effect' of its 'For You' feed: it did not adequately assess the risk, and its existing mitigation measures are 'not effective'; the Commission considers TikTok needs to change the feed's design (for example rely more on explicit preferences, disable viewing time as a signal, better controls, regular testing). Next: TikTok may examine the file and reply in writing; the European Board for Digital Services is consulted; if confirmed, a non-compliance decision can trigger a fine of up to 6% of total worldwide annual turnover. 'These preliminary findings do not prejudge the outcome of the investigation.' Ireland's Coimisiun na Mean supported the investigation.",
+   "is_story": true,
+   "group": "discovery leads"
+  }
+ ],
+ "leads_reviewed": [
+  {
+   "lead": "europe.md follow-up: the full press release on TikTok, TikTok's response not found",
+   "status": "commissioned",
+   "story": "S55",
+   "why": "Full release re-read at the Commission's press corner; the earlier hold (summary only) is cleared; TikTok's own channels show no response."
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S55",
+   "kind": "europe",
+   "batch": "LEADS-11NOV-7",
+   "title": "The EU says TikTok's For You feed may breach its platform law: what it found, and what happens next",
+   "beat": "Europe",
+   "angle": "The Commission's preliminary view that TikTok did not adequately assess, and has not effectively reduced, the 'rabbit hole' effect of its recommender system, the changes it says are needed, and the procedure that follows.",
+   "rests_on": [
+    "x-eu-tiktok-prelim"
+   ],
+   "ready": true,
+   "categories": [
+    "Europe"
+   ],
+   "note": "For journalist-europe. Ready. Conditions: the Commission's account only, attributed (press release IP/26/2361, 6 Nov); say 'preliminary findings' throughout and quote that they do not prejudge the outcome; no fine has been imposed, up to 6% of worldwide annual turnover is the legal ceiling if a breach is confirmed; say plainly that TikTok's own channels show no response (checked 07:28 UTC by journalist-europe) and say nothing about what TikTok will do; treat the mental-health wording as the Commission's, no health claims or advice of our own; no tie to Web Summit. Category line to ship with the article (slug of the draft file without the S-number); send it to reviewer@ when the draft reaches review.",
+   "words": "400 to 550"
+  }
+ ],
+ "gaps_for_the_researcher": [],
+ "urgent": null
+}

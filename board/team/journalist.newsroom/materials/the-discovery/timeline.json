@@ -406,8 +406,264 @@
       "hand_off": "agent->agent",
       "workflow_step": null,
       "minute": 178
+    },
+    {
+      "id": "s023",
+      "time": "2026-11-11T03:41:44Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S50 revised (step 22)",
+      "output": "S50 published under R-PUB-1; the reviewer withdraws its own 'Fix first' (the dates were on the cited page); title cut under 12 words for the gate",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:eb193150b",
+        "commit:eeea5edda"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 117 min from commission, after a fix request that proved wrong",
+      "minute": 200
+    },
+    {
+      "id": "s024",
+      "time": "2026-11-11T03:46:48Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S52 (Konecta)",
+      "output": "Ready, held for Vicky: whether to mention Konecta's 30 October forbearance agreement",
+      "handoff_to": [
+        "Vicky Wang"
+      ],
+      "evidence": [
+        "commit:f45c80f49",
+        "commit:6322dd3e9 (conductor.B: 'held for Vicky's editorial judgment')"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person (an editorial call R-PUB-1 does not cover)",
+      "workflow_step": null,
+      "minute": 205
+    },
+    {
+      "id": "s025",
+      "time": "2026-11-11T04:10:40Z",
+      "actor": "journalist-connections@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its beat",
+      "output": "lead: four startups in Thursday's Centre Stage 'Breakout startups'",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:4a33e283b"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 229
+    },
+    {
+      "id": "s026",
+      "time": "2026-11-11T04:16:03Z",
+      "actor": "journalist-portugal@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its beat",
+      "output": "lead: Invelon takes 51% of byAR",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:ea9771e4a"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 234
+    },
+    {
+      "id": "s027",
+      "time": "2026-11-11T04:20:55Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its beat",
+      "output": "two leads: the DSA election guidelines and AI; R&I Days 2026",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:62a199719"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 239
+    },
+    {
+      "id": "s028",
+      "time": "2026-11-11T04:42:54Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the leads",
+      "output": "S53 (the DSA election guidelines consultation) commissioned; others held",
+      "handoff_to": [
+        "journalist-europe@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:cddaa328b"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "commission",
+      "minute": 261
+    },
+    {
+      "id": "s029",
+      "time": "2026-11-11T05:11:30Z",
+      "actor": "journalist-connections@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the curator's request",
+      "output": "Breakout startups: the four companies from their own sites; the session re-checked for Thursday",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:7f31d00f4"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 289
+    },
+    {
+      "id": "s030",
+      "time": "2026-11-11T05:16:36Z",
+      "actor": "journalist-portugal@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the curator's request for a primary source",
+      "output": "Invelon's own post found, dated 22 September: a date conflict with Lusa's report",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:7896d1c46"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent (a primary source contradicts the press)",
+      "workflow_step": null,
+      "minute": 294
+    },
+    {
+      "id": "s031",
+      "time": "2026-11-11T05:20:45Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S53",
+      "output": "drafted",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:12e450296"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 299
+    },
+    {
+      "id": "s032",
+      "time": "2026-11-11T05:39:11Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S53; the Commission's page, draft and press release",
+      "output": "Ready, held for its category",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:5556d595f"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 317
+    },
+    {
+      "id": "s033",
+      "time": "2026-11-11T05:43:22Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the leads; the category step",
+      "output": "S54 (Breakout startups) commissioned; the curator now gives the categories with the commission; Invelon held on the date conflict",
+      "handoff_to": [
+        "journalist-connections@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:0cbe1758e",
+        "commit:acb09eef7"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "commission",
+      "minute": 321
+    },
+    {
+      "id": "s034",
+      "time": "2026-11-11T05:46:13Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S53 with its category line",
+      "output": "published under R-PUB-1; title cut under 12 words for the gate",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:4d66cc78e",
+        "commit:e76a84fde"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 63 min from commission",
+      "minute": 324
+    },
+    {
+      "id": "s035",
+      "time": "2026-11-11T06:19:21Z",
+      "actor": "journalist-connections@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S54",
+      "output": "drafted: four startups pitch on Thursday's Centre Stage",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:5f76da465"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 357
+    },
+    {
+      "id": "s036",
+      "time": "2026-11-11T06:23:31Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its beat",
+      "output": "lead: TikTok's DSA preliminary finding",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:7c12d04a1"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 361
     }
   ],
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T03:19:57Z"
+  "last": "2026-11-11T06:23:31Z"
 }

@@ -1,0 +1,23 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-0650 (discovery workflow: one Europe lead)",
+ "batch": "LEADS-11NOV-6",
+ "for": "journalist-europe",
+ "covers": {
+  "note": "Lead in desks/journalist-vicky/leads/2026-11-11-europe.md (TikTok); the Commission's news page re-read by the curator at 06:55 UTC. No vault captures."
+ },
+ "published_check": "Nothing on TikTok or recommender systems in content/articles or drafts except S53 (election guidelines), which mentions recommender systems as one of its changes.",
+ "leads_reviewed": [
+  {
+   "lead": "europe.md: the Commission's preliminary finding that TikTok's 'For You' feed breaches the DSA",
+   "status": "held",
+   "why": "The Commission's news page is a short summary (6 Nov, last update 10 Nov) that points to the full press release, which no desk has read; a story needs the press release for next steps and what 'preliminary' means here, and TikTok's response is nowhere. Request added; also a legal-sensitivity story, so preliminary-finding wording must come from the release."
+  }
+ ],
+ "story_candidates": [],
+ "gaps_for_the_researcher": [
+  "The Commission's full press release on the TikTok preliminary findings, and TikTok's public response if any."
+ ],
+ "urgent": null
+}

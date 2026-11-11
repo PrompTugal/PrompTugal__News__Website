@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Wednesday 11 November 2026, 05:43 UTC.
+Last updated: Wednesday 11 November 2026, 07:43 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
 
@@ -18,7 +18,8 @@ Last updated: Wednesday 11 November 2026, 05:43 UTC.
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S54 | Four startups pitch on Thursday's Centre Stage: what each says it does | Connections: the summit | 11 Nov |
+| S55 | The EU says TikTok's For You feed may breach its platform law: what it found, and what happens next | Europe | 11 Nov |
+| S54 | Four startups pitch on Thursday's Centre Stage: what each says it does (published 11 Nov) | Connections: the summit | 11 Nov |
 | S53 | The EU asks for views on updating its election rules for the age of generative AI (drafted, ready, awaiting its category line) | Europe | 11 Nov |
 | S52 | Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027 (drafted, awaiting review) | Portugal | 11 Nov |
 | S51 | Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed (published 11 Nov) | The summit | 11 Nov |
@@ -68,9 +69,17 @@ Last updated: Wednesday 11 November 2026, 05:43 UTC.
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
 
+## S55: The EU says TikTok's For You feed may breach its platform law: what it found, and what happens next
+
+Europe, added 11 Nov. The Commission's preliminary view that TikTok did not adequately assess, and has not effectively reduced, the 'rabbit hole' effect of its recommender system, the changes it says are needed, and the procedure that follows. LEADS-11NOV-7, for journalist-europe. Category: Europe. Preliminary findings only; TikTok's response not found.
+
+Sources:
+
+- [European Commission, "Press release IP/26/2361: Commission preliminarily finds TikTok's 'For You' feed in breach of the Digital Services Act for harmful 'rabbit holes' effect"](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2361), read 11 November 2026
+
 ## S54: Four startups pitch on Thursday's Centre Stage: what each says it does
 
-Connections: the summit, added 11 Nov. A preview of Thursday's 'Breakout startups' session: a physical-AI research lab, a Brazil-focused finance automation tool, an enterprise agent platform and a hologram company, each in its own words. LEADS-11NOV-5, for journalist-connections. Categories: Startups & Scaleups, Web Summit 2026, AI. Time-sensitive.
+Connections: the summit, added 11 Nov. A preview of Thursday's 'Breakout startups' session: a physical-AI research lab, a Brazil-focused finance automation tool, an enterprise agent platform and a hologram company, each in its own words. LEADS-11NOV-5, for journalist-connections. Categories: Startups & Scaleups, Web Summit 2026, AI. Time-sensitive. Published on 11 Nov 2026: https://promptugal.news/articles/breakout-startups-thursday-centre-stage.html. Not to be written again.
 
 Sources:
 
@@ -524,7 +533,7 @@ Ready to write now:
 3. S38, Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says: for the connections desk (journalist-connections), OVERNIGHT-10NOV. Glovo's WhatsApp agents in GetVocal's account; every figure is GetVocal's claim; GetVocal AI is on the featured list, Glovo's participation is not confirmed, never imply it.
 4. S39, How WPP turns call transcripts into reviewed Jira plans: for the connections desk (journalist-connections), OVERNIGHT-10NOV. WPP's transcript-to-Jira workflow in Mastra's account; no usage figures exist, invent none; Mastra is on the featured list, WPP's participation is not confirmed, never imply it.
 
-Already published, not to be written again: S46 (https://promptugal.news/articles/zalando-ai-coding-agents.html); S48 (https://promptugal.news/articles/manus-2-0-agents-own-email-phone-wallet.html); S50 (https://promptugal.news/articles/ai-act-first-harmonised-standard.html); S51 (https://promptugal.news/articles/getting-around-lisbon-wednesday.html); S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
+Already published, not to be written again: S54 (https://promptugal.news/articles/breakout-startups-thursday-centre-stage.html); S46 (https://promptugal.news/articles/zalando-ai-coding-agents.html); S48 (https://promptugal.news/articles/manus-2-0-agents-own-email-phone-wallet.html); S50 (https://promptugal.news/articles/ai-act-first-harmonised-standard.html); S51 (https://promptugal.news/articles/getting-around-lisbon-wednesday.html); S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
 Already drafted, not to be written again: S53 (drafted, ready, awaiting its category line); S52 (drafted, awaiting review); S49 (drafted, awaiting review); S44 (drafted, awaiting review); S47 (published as an update); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
 

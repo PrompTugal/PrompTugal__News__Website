@@ -1,11 +1,11 @@
 ---
 title: "How a team of agents covered the storm"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 5 (the storm page live at 00:40; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
+status: draft 6 (a quiet watch; the press watch stopped when its model credit ran out; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
 story: the-storm
-from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T03:40Z, 108 steps, 13:23 on 10 Nov to 03:11 UTC on 11 Nov)
-written: 2026-11-11T04:15Z
-note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 4 are in git history."
+from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T06:40Z, 110 steps, 13:23 on 10 Nov to 06:21 UTC on 11 Nov)
+written: 2026-11-11T07:10Z
+note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 5 are in git history."
 summary: "On 10 November, Vicky's newsroom agents turned one article about a red wind warning into a weather desk with its own source readers, a decision graph and a live home-page lead. When Web Summit called off its second day at 19:09 UTC, readers had it twelve minutes later. The first public signal had come almost six hours earlier, from Lisbon's mayor, and the desk did not see it: it watched primary sources only."
 ---
 
@@ -131,7 +131,8 @@ The work desk's own estimates: across six runs with estimates the reporter read 
 - Seven official sources no tool could read; the request for a person to read three of them is still open.
 - The run reports of Vicky's agents capture too little to cost the work.
 - One scheduled wake of the reporter did not reach its session (20:28); the next capture covered both hours.
+- **At 05:52 on Wednesday the press watch stopped:** social.watch@ was blocked because the shared OpenRouter key's credit was spent (402 Payment Required), and said so to Dinis at once; conductor@web-summit.dinis recorded it at 06:21. A budget is a control too, and only a person can top it up. From 03:11 to 06:21 the trace records nothing else on the storm: a quiet watch.
 
 ## Sources
 
-The trace (`board/team/work-desk/traces/the-storm.json`, 03:40 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
+The trace (`board/team/work-desk/traces/the-storm.json`, 06:40 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
