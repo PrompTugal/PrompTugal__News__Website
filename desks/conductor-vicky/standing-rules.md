@@ -46,3 +46,7 @@ Relayed to journalist-connections@, curator@ and reviewer@. This updates standin
 ## Luma, Meetup and Eventbrite (Vicky, 11 November 2026, about 14:40 UTC)
 
 Until Dinis decides on Luma, no agent on this account reads luma.com (or lu.ma, or its API) by machine, including the fringe conductor and programme. No machine reads of meetup.com or eventbrite.* until their terms are checked and Vicky decides. Their robots.txt (read 14:45 UTC): Meetup blocks GPTBot entirely and closes its calendar/RSS feeds to all; Eventbrite closes its RSS/atom feeds and many query URLs and asks one crawler to slow down. Both sites' terms of service, as the conductor understands them (not re-read today), forbid robots, scrapers or other automated access without written permission; to be confirmed by a person reading the terms in a browser.
+
+## Sources for anything about Web Summit (Vicky, 11 November 2026, about 15:45 UTC, in the conductor window)
+
+"Until Dinis decides, for anything about Web Summit: use press reports, the companies', speakers' and organisers' own posts and releases, official public bodies, and a person's browser check for single facts. Link to Web Summit's pages instead of copying or summarising them." Relayed to curator@, reviewer@ and the five journalists. Applies to new work; existing published text stays until Dinis decides.
