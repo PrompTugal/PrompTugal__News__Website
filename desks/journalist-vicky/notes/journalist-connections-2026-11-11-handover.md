@@ -20,7 +20,7 @@ written: 2026-11-11T07:15Z
 
 ## What I learnt
 - Check a company's identity before quoting its site: Web Summit's "Kamino" is kamino.com.br (Brazil, finance automation), not kamino.com (a Solana DeFi protocol). The speakers' Web Summit profiles (linked from each session page) carry a one-line company description that settles it.
-- Web Summit pages hold their data in embedded JSON (`starts_at`, `company_name`, `bio`); a session page's speakers link to their profiles, whose own bio is the one naming the company.
+- (Withdrawn 11 November, 14:30 UTC: a note here on reading Web Summit's pages by machine. Its terms forbid automated reading; never do it. See the rules file.)
 - `release.sh` can give up after five attempts when many agents push at once; a short retry loop around it works.
 - The curator's commission notes (in its map JSON, `story_candidates[].note`) carry conditions the README does not; read them before drafting.
 
@@ -33,4 +33,4 @@ written: 2026-11-11T07:15Z
 ## What the next session does first
 1. Pull dev; check both holds, "New from Dinis", Vicky's decisions and prompts file on the team site (read-only), this desk.
 2. Fix any of this desk's drafts with open review findings; then write only what the curator assigns to Connections.
-3. In spare runs, while the discovery workflow lasts: the curator's requests first, then up to 5 Connections leads, each with a public Web Summit URL.
+3. In spare runs, while the discovery workflow lasts: the curator's requests first, then up to 5 Connections leads, participation confirmed under the rules file's participation rule (never a machine read of websummit.com, its subdomains or the app).

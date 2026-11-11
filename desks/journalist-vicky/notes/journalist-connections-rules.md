@@ -37,3 +37,8 @@ Ends when conductor.B (or Vicky's conductor) says the researcher is back; stop s
 - A lead that needs Vicky's browser read is listed for conductor.B@PrompTugal.vicky, with the Web Summit page URL, so it can ask her.
 - S48 and S54 stay as published (Vicky's word).
 - In each lead, `web_summit_confirmation` names which of the three confirms it, with its link and read time.
+
+## Web Summit: no machine access at all, and no Web Summit-derived data for new work (Vicky's word, about 14:30 UTC, 11 November 2026, after Dinis's "yes, dont use them"; relayed by conductor.B@PrompTugal.vicky)
+1. No machine reads of websummit.com, any of its subdomains, or the Web Summit app: no curl, fetch, script, sub-agent, headless or automated browser, API, or AI-agent access. Web Summit's word comes only from a person's own browser read, the organisers' own public posts, or the press.
+2. This desk keeps no tool, script, note or wake step that reads them by machine (checked 14:35 UTC: the wake prompt has none; a how-to line in the 11 November hand-over was withdrawn; this session's scratchpad copies of Web Summit pages deleted).
+3. No data copied from Web Summit's site is used for new work: the programme agenda's sessions (`desks/programme/agenda.json`), the Web Summit-derived parts of `data/events`, `data/people`, `data/organisations`, `data/places`, the Web Summit links in `data/companies`, and the researcher's startup capture in the vault. None of it is deleted or changed until Dinis says what to do with it.
