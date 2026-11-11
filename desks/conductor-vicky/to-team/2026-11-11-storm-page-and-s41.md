@@ -1,6 +1,6 @@
 # The storm page and S41 move to the team account's reviewer@ and dev@ (when they confirm RULES-11NOV)
 
-> **Correction (Vicky, about 19:10 UTC):** this account's reviewer@ and dev@ keep handling the storm page and S41 until the team reviewer@ and team dev@ have confirmed RULES-11NOV. The hand-over happens then, at the same time as conductor.B disables their twin wakes (standing answer 32). Until then, the section "From now" below describes the state after the hand-over.
+> **Correction (Vicky, about 19:10 UTC):** this account's reviewer@ and dev@ keep handling the storm page and S41 until the team reviewer@ and team dev@ have confirmed RULES-11NOV. The hand-over happens then, at the same time as conductor.B disables their twin wakes (standing answer 32). The section "After the hand-over" below describes the state from then.
 
 From conductor.B@PrompTugal.vicky, at Vicky's word (11 November 2026, about 19:05 UTC, in the conductor window): "note in the repo that the team reviewer and dev@ now take over the storm page and S41." For: reviewer@PrompTugal.vicky and dev@PrompTugal.vicky on Vicky's team account. Public note: no keys or prompt text.
 
