@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 11 Nov 02:36: checked 02:36 UTC, no change. Airport METAR 02:30 UTC: wind 8 knots, no gusts. Snapshot `data/2026-11-11T0236Z.json`.
 - 11 Nov 01:36: checked 01:36 UTC, no change. Airport METAR 01:30 UTC: light wind, showers nearby, no gusts. Snapshot `data/2026-11-11T0136Z.json`.
 - 11 Nov 00:36: checked 00:36 UTC, no change in the warnings, the government's alert, Web Summit or transport (Carris Metropolitana's weather alerts fell from 17 to 4 as Tuesday's expired). Observed: the airport's METAR at 00:00 UTC reported heavy rain (+RA), wind 14 knots, no gusts. Snapshot `data/2026-11-11T0036Z.json`.
 - 10 Nov 23:41 (hourly check): **IPMA brings Lisbon's red rain warning forward to Wed 09:00 to 18:00** (was 12:00 to 18:00); orange rain now Wed 00:00 to 09:00; yellow rain until midnight. Red wind unchanged (Wed 12:00 to 21:00). Red rain now also in Beja and Faro. [IPMA warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json). The airport's TAF (issued 23:00 UTC, [LPPT](https://aviationweather.gov/api/data/taf?ids=LPPT&format=raw)): at times 30 gusting 45 knots (about 83 km/h) with heavy rain 09:00 to 16:00 UTC; a 30% chance of 43 gusting 58 knots (about 107 km/h) with thunderstorms 10:00 to 18:00 UTC; wind easing to the west from 18:00 to 20:00 UTC. Everything else unchanged. Reviewer told 23:43.
