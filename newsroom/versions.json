@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1200",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: the offline worker answers from its newest copy, not the install's (the stale home page)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "1ddfef608"
+  },
+  {
     "version": "v0.1.1199",
     "date": "2026-11-11",
     "what": "conductor.B@PrompTugal.vicky: storm page wind downgrade verified live (v0.1.1198)",
