@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1201",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: hand-over note for 11 November (S49, S50, S53, S55 published; leads; lessons)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "bbb93827c"
+  },
+  {
     "version": "v0.1.1200",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.dinis: the offline worker answers from its newest copy, not the install's (the stale home page)",
