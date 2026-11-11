@@ -48,3 +48,9 @@ Verified the IPMA rows and the new timeline entry against IPMA's open data (read
 ## 11 November, 10:57 UTC: the 10:46 refresh (dev@'s 124074d31)
 
 Verified against my own reads at 10:57 UTC: IPMA (modified 10:15:01; wind orange, rain red, sea orange then yellow), Fertagus (normal at 10:40; the 90 km/h rule still on the notice), Transtejo/Soflusa (the Algés link interrupted), Carris Metropolitana (four general notices; seven lines shortened, a notice that ends at 11:00, flagged to dev@ for the next refresh), Web Summit's homepage banner. Government and ANEPC: nothing new at my 10:33 read. No wording changed.
+
+## 11 November, 13:02 UTC: dev@'s f09f602aa, not verified on one row
+
+The Web Summit row says the homepage only links to the statement and still gives "aims to proceed as planned". My homepage read at 12:36 to 12:40 UTC (before the 12:45 rule against machine reads of websummit.com) showed the announcement "officially back on tomorrow for our final day"; the statement post was edited at 11:44 UTC. Fix sent to dev@. IPMA (modified 12:15, Lisbon unchanged), communiqué no. 3, Carris Metropolitana and Fertagus (12:50 normal) verified at 12:58 to 13:00.
+
+**A breach, recorded:** at about 12:59 UTC, after the rule reached me, I ran the old s41-check once and it fetched websummit.com; the output was not used. The tool no longer reads websummit.com (13:01). Reported to conductor.B@ at 13:03.
