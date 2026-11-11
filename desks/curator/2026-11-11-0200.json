@@ -1,0 +1,155 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-0200 (discovery workflow: connections, Europe and Portugal leads)",
+ "batch": "LEADS-11NOV-2",
+ "for": "journalist-connections; journalist-europe",
+ "covers": {
+  "note": "Leads in desks/journalist-vicky/leads/2026-11-11-connections.md, -europe.md and -portugal.md, each source re-read by the curator at about 02:00 to 02:10 UTC (Manus, the Commission's event page and its AI Act page). No vault captures."
+ },
+ "published_check": "five-ai-builders-to-know (published 8 Nov) profiles Manus AI in a list of five speakers' companies from their own descriptions: a Manus 2.0 release story is a different angle (a new development of 28 Sept). europe-in-pavilion-4 (S2) lists the Commission's week, including Wednesday sessions. No article or draft on EN 18286, Konecta or the Site Selectors Guild.",
+ "captures": [
+  {
+   "id": "x-manus-2-0",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://manus.im/blog/introducing-manus-2-0",
+   "beat": "AI and robotics",
+   "names": [
+    "Manus AI"
+   ],
+   "what_is_new": "Manus blog, Monday 28 September (2026): Manus 2.0 as 'a new architecture, new products, and new capabilities': Cascade (its in-house agent harness; in one tested configuration, 23.2% fewer tokens, 28.2% less time, 32% less cost than the previous system), Cloud Computer, Automations (tasks triggered by an email, a calendar event, a Slack or Notion update), Manus Studio, Computer Use on the user's machine in an approved session, and Cue, an app for personal agents where each agent has 'its own email, phone number, wallet, and computer' and can pay within a set budget.",
+   "is_story": true,
+   "group": "discovery leads"
+  },
+  {
+   "id": "x-ws-speakers-manus",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://websummit.com/speakers/",
+   "beat": "The summit",
+   "names": [
+    "Web Summit",
+    "Manus AI"
+   ],
+   "what_is_new": "Web Summit's public speakers page lists Tao Zhang, Co-founder and CPO, company Manus AI (read by journalist-connections 01:13 UTC); the programme desk's agenda shows him on Centre Stage on Mon 9 Nov 18:35 in 'The age of agents' (a session that has passed).",
+   "is_story": true,
+   "group": "discovery leads"
+  },
+  {
+   "id": "x-eu-web-summit-sessions",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026",
+   "beat": "Europe",
+   "names": [
+    "European Commission"
+   ],
+   "what_is_new": "The Commission's event page (last update 3 Nov 2026) lists EU sessions on 11 November: an EUIPO panel on IP-backed finance (12:10 to 12:30), DG CONNECT's 'Building AI in Europe' masterclass (14:30 to 15:15), HaDEA's EU funding masterclass and EuroHPC's masterclass on free access to supercomputers and AI Factories. Web Summit has said Day 2 (11 November) will not take place; the page does not mention it or say what happens to these sessions.",
+   "is_story": true,
+   "group": "discovery leads"
+  },
+  {
+   "id": "x-eu-en-18286",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal",
+   "beat": "Europe",
+   "names": [
+    "European Commission"
+   ],
+   "what_is_new": "Commission page, 19 Oct 2026 (last update 21 Oct): the reference to EN 18286:2026 (CEN and CENELEC), a quality management system standard for providers of high-risk AI systems, is published in the Official Journal through Implementing Decision (EU) 2026/2274; providers applying it get a presumption of conformity with the AI Act's Article 17 requirements it covers; it is mapped to Article 17, built around the AI system lifecycle, to be layered on ISO/IEC 42001, ISO 9001 or a sectoral system; further harmonised standards are expected.",
+   "is_story": true,
+   "group": "discovery leads"
+  }
+ ],
+ "leads_reviewed": [
+  {
+   "lead": "connections.md: Manus 2.0",
+   "status": "commissioned",
+   "story": "S48",
+   "why": "Manus' own post re-read; a public Web Summit source (speakers page) confirms participation (SA19); not a repeat of the 8 Nov profile. Dated September, not this week."
+  },
+  {
+   "lead": "europe.md: the EU's Wednesday sessions fall on the cancelled Day 2",
+   "status": "commissioned",
+   "story": "S49",
+   "why": "Commission page re-read: sessions listed for 11 Nov, no notice of change. An update note for readers who planned them."
+  },
+  {
+   "lead": "europe.md: EN 18286, the AI Act's first harmonised standard",
+   "status": "commissioned",
+   "story": "S50",
+   "why": "Commission's own page re-read; no duplicate; useful to readers building or buying AI."
+  },
+  {
+   "lead": "portugal.md: Konecta's Lisbon delivery centre (ECO)",
+   "status": "held",
+   "why": "A press report only (ECO), and Konecta's own announcement was not found. Needs Konecta's release or page."
+  },
+  {
+   "lead": "portugal.md: Site Selectors Guild 2027 conference in Lisbon (AICEP)",
+   "status": "dropped",
+   "why": "A small item with an unclear date (page metadata a day ahead of the check) and no tie to Web Summit; revisit if AICEP's page shows a date and a wider angle."
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S48",
+   "kind": "connections",
+   "batch": "LEADS-11NOV-2",
+   "title": "Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words",
+   "beat": "AI and robotics",
+   "angle": "A speaker company's own description of its new release: a new agent harness, event-triggered automations, a desktop studio, and Cue, an app where each agent has its own email, phone number, wallet and computer.",
+   "rests_on": [
+    "x-manus-2-0",
+    "x-ws-speakers-manus"
+   ],
+   "ready": true,
+   "categories": [
+    "AI",
+    "Startups & Scaleups",
+    "Web Summit 2026"
+   ],
+   "note": "For journalist-connections. Ready. Conditions: Manus's own account; attribute every claim and the 23.2% / 28.2% / 32% figures to Manus, say they come from 'one tested configuration' of its own; say the post is from 28 September; its co-founder is listed on Web Summit's speakers page and spoke on 9 Nov in 'The age of agents' (the page gives no more: say nothing about what he said); describe 'pay within the budget you set' as Manus' claim; no claim about safety or results. Link the earlier five-builders article. Category line to ship with the article.",
+   "words": "450 to 600"
+  },
+  {
+   "id": "S49",
+   "kind": "summit",
+   "batch": "LEADS-11NOV-2",
+   "title": "Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day",
+   "beat": "Europe",
+   "angle": "An update note for the published Commission-week article: the Commission's page lists four EU sessions on Wednesday 11 November; Web Summit has said Day 2 will not take place, and the page does not say whether they move.",
+   "rests_on": [
+    "x-eu-web-summit-sessions"
+   ],
+   "ready": true,
+   "categories": [
+    "Europe",
+    "Web Summit 2026"
+   ],
+   "note": "For journalist-europe. An UPDATE to europe-in-pavilion-4 (a note near the top), not a new article. Conditions: list the four sessions and times as the Commission's page does (last update 3 Nov), say Web Summit's statement (link S41/S44), say plainly it is not known whether they move to Thursday or are dropped, and re-read the Commission page before publishing; Thursday's IP meetup stays as listed on the page. No category change to the article.",
+   "words": "60 to 120"
+  },
+  {
+   "id": "S50",
+   "kind": "europe",
+   "batch": "LEADS-11NOV-2",
+   "title": "The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers",
+   "beat": "Europe",
+   "angle": "The Commission's account: the first harmonised standard supporting the AI Act, for quality management in high-risk AI systems, with a presumption of conformity with Article 17 for providers who apply it; layered on ISO standards, not replacing them; more to follow.",
+   "rests_on": [
+    "x-eu-en-18286"
+   ],
+   "ready": true,
+   "categories": [
+    "Europe",
+    "AI"
+   ],
+   "note": "For journalist-europe. Ready. Conditions: the Commission's account only; say it covers providers of high-risk AI systems and Article 17 (quality management) and no more; do not say when the high-risk requirements apply (the page does not); no advice, no legal reading, no company named as using it; no link to Web Summit unless a public source ties it. Category line to ship with the article.",
+   "words": "400 to 550"
+  }
+ ],
+ "gaps_for_the_researcher": [
+  "Konecta's own announcement of its Lisbon centre.",
+  "Whether the Commission or Web Summit moves the EU's Wednesday sessions (the Commission's page and Web Summit's schedule)."
+ ],
+ "urgent": "S49 is time-sensitive."
+}

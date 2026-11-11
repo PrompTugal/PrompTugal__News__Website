@@ -330,6 +330,16 @@
    "PrompTugal__App__iOS": "3ce861bf",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Account B: dev@ reviewed and kept seven outside commits; ontologist confirmed dev@'s tag matching; designer drew images for two articles from their own tables; sherpa re-checked Day 2; correspondent aligned beat names to categories. Ledger 1246.36 (+51.78 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T01:52Z",
+   "SGit-AI__Website__Web-Summit": "c5a400f7",
+   "PrompTugal__News__Website": "72e749b6",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ (01:08) made the app skip the called-off day and show the notice first (sherpa's ask), brought three workers' branches on; librarian ran. Nothing new from Dinis for B."
   }
  ]
 }
