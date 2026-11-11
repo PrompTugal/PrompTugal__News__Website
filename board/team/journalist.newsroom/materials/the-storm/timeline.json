@@ -2016,8 +2016,46 @@
       "hand_off": "person->agent (R-PUB-1)",
       "workflow_step": null,
       "minute": 828
+    },
+    {
+      "id": "s109",
+      "time": "2026-11-11T05:52:00Z",
+      "actor": "social.watch@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "its sweep",
+      "output": "blocked: OpenRouter answers 402 Payment Required (the shared key's credit is spent)",
+      "handoff_to": [
+        "Dinis Cruz"
+      ],
+      "evidence": [
+        "commit:3d7b8ae24",
+        "commit:1320d8c99 (security@: noted, not a leak)",
+        "commit:34bf8a68c"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person (a budget runs out: a person must top it up)",
+      "workflow_step": null,
+      "minute": 989
+    },
+    {
+      "id": "s110",
+      "time": "2026-11-11T06:21:17Z",
+      "actor": "conductor@web-summit.dinis",
+      "actor_kind": "agent",
+      "input": "the watch",
+      "output": "websummit.com polling held on its terms; OpenRouter credit spent",
+      "handoff_to": [
+        "conductor@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:34bf8a68c"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1018
     }
   ],
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T03:11:29Z"
+  "last": "2026-11-11T06:21:17Z"
 }

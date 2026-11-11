@@ -1,24 +1,24 @@
 {
   "$comment": "The discovery workflow's shape, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-discovery",
-  "from": "board/team/work-desk/traces/the-discovery.json (updated 2026-11-11T03:40Z)",
+  "from": "board/team/work-desk/traces/the-discovery.json (updated 2026-11-11T06:40Z)",
   "funnel": {
-    "leads": 9,
-    "commissions": 7,
-    "published": 4,
-    "in_review": [
-      "S50 (fixed, back with the reviewer)",
-      "S52 (drafted)"
+    "leads": 15,
+    "commissions": 9,
+    "published": 6,
+    "held": [
+      "S52 (Vicky's editorial call)",
+      "Invelon (date conflict)",
+      "others held by the curator"
     ],
-    "dropped_or_waiting": [
-      "Parloa's keynote listing",
-      "Site Selectors Guild 2027"
+    "in_review": [
+      "S54 (drafted)"
     ],
     "by_beat": {
       "AI": 2,
-      "connections": 1,
-      "Portugal": 2,
-      "Europe": 2,
+      "connections": 3,
+      "Portugal": 3,
+      "Europe": 5,
       "plus": "S47 (figures) and S51 (storm transport) from the curator's own reading"
     }
   },
@@ -40,6 +40,14 @@
     {
       "what": "S48 commission to published",
       "minutes": 72
+    },
+    {
+      "what": "S53 commission to published",
+      "minutes": 63
+    },
+    {
+      "what": "S50 commission to published (with a wrong fix request)",
+      "minutes": 117
     }
   ],
   "pattern": "one person approves once (step 1) and a standing rule (R-PUB-1) stands in for her at every publication: four articles reached readers between 01:14 and 02:56 with no person in the loop at the time. The reviewer's 'Fix first' and the curator's holds are the checks that remain.",
@@ -47,25 +55,35 @@
     {
       "step": 15,
       "time": "02:16",
-      "what": "a curator's hold answered with a primary source"
+      "what": "a curator's hold answered with a primary source (Konecta's press release)"
     },
     {
       "step": 19,
       "time": "02:50",
-      "what": "reviewer's 'Fix first' on S50: three dates not on the cited page"
+      "what": "reviewer's 'Fix first' on S50"
     },
     {
-      "step": 22,
-      "time": "03:19",
-      "what": "S50 revised, the dates quoted from the page"
+      "step": 23,
+      "time": "03:41",
+      "what": "the reviewer withdraws its 'Fix first': the dates were on the cited page; S50 published, 51 minutes after the request"
+    },
+    {
+      "step": 24,
+      "time": "03:46",
+      "what": "S52 held for Vicky: an editorial call R-PUB-1 does not cover"
+    },
+    {
+      "step": 30,
+      "time": "05:16",
+      "what": "a company's own post contradicts the press (Invelon vs Lusa): lead held"
     }
   ],
   "tokens": {
     "vickys_agents": null,
     "the_trace_itself": {
       "estimate": true,
-      "bytes": 13767,
-      "tokens_about": 4000
+      "bytes": 22094,
+      "tokens_about": 6000
     }
   }
 }
