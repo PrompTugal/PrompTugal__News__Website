@@ -33,7 +33,7 @@
   },
   {
    "who": "The government",
-   "what": "Alert situation (situação de alerta) for all of mainland Portugal, 00:00 to 23:59 on Wednesday: schools and non-essential public services closed; outdoor events suspended, whatever their nature; no access to parks and wooded areas at risk of falling trees; no access to the shoreline, rivers and flood-prone areas.",
+   "what": "Alert situation (situação de alerta) for all of mainland Portugal, 00:00 to 23:59 on Wednesday: schools and non-essential public services closed; outdoor events suspended, whatever their nature; no access to parks and wooded areas at risk of falling trees; no access to the shoreline, rivers and flood-prone areas. At ANEPC's briefing (reported on the government's site at 16:49 UTC) the Minister of Internal Administration said the alert situation stays in force until 23:59 on Wednesday and that keeping it on Thursday 12 November is not planned, though repair work may be needed and some services may stay limited. (Our translation.)",
    "level": "gov",
    "read": "2026-11-11T17:41Z",
    "src": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1"
@@ -133,6 +133,11 @@
   ]
  },
  "timeline": [
+  {
+   "t": "2026-11-11T16:49Z",
+   "text": "The Minister of Internal Administration, at ANEPC's briefing: the alert situation stays in force until 23:59 on Wednesday; keeping it on Thursday 12 November is not planned, though repair work may be needed and some services may stay limited (our translation; the government's site, published 16:49 UTC).",
+   "src": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a-proatividade-da-nos-tranquilidade-1"
+  },
   {
    "t": "2026-11-11T15:56Z",
    "text": "IPMA's data for Lisbon no longer lists a wind warning: only rain (yellow until 18:00) and the sea (orange until 21:00, then yellow until Thursday 03:00) remain. The periods now start at 15:56 UTC; IPMA's data file was modified at 16:15 UTC; we read it at 16:37 UTC.",

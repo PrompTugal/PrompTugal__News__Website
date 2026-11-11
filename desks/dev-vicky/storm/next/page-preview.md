@@ -2,7 +2,7 @@
 
 > Storm Charles: what Web Summit has said, the official alerts, what attendees need to know, and a timeline with sources.
 
-*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1276 · generated from the same content as the page, so the two cannot drift.*
+*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1277 · generated from the same content as the page, so the two cannot drift.*
 
 ---
 
@@ -30,7 +30,7 @@ Sea: ORANGE, Wed 11 Nov 15:56 to 21:00, south-west waves of 5 to 7 m, up to 13 m
 
 **The government** · read 11 Nov 17:41 UTC · [source](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1)
 
-Alert situation (situação de alerta) for all of mainland Portugal, 00:00 to 23:59 on Wednesday: schools and non-essential public services closed; outdoor events suspended, whatever their nature; no access to parks and wooded areas at risk of falling trees; no access to the shoreline, rivers and flood-prone areas.
+Alert situation (situação de alerta) for all of mainland Portugal, 00:00 to 23:59 on Wednesday: schools and non-essential public services closed; outdoor events suspended, whatever their nature; no access to parks and wooded areas at risk of falling trees; no access to the shoreline, rivers and flood-prone areas. At ANEPC's briefing (reported on the government's site at 16:49 UTC) the Minister of Internal Administration said the alert situation stays in force until 23:59 on Wednesday and that keeping it on Thursday 12 November is not planned, though repair work may be needed and some services may stay limited. (Our translation.)
 
 **The Minister of Internal Administration** · read 10 Nov 17:01 UTC · [source](https://portugal.gov.pt/gc25/comunicacao/noticias/mau-tempo-governo-declara-situacao-alerta-)
 
@@ -83,12 +83,13 @@ Web Summit says Day 2, Wednesday 11 November, will not take place, respecting th
 
 Newest first. Every line has its source.
 
+- **11 Nov 16:49 UTC.** The Minister of Internal Administration, at ANEPC's briefing: the alert situation stays in force until 23:59 on Wednesday; keeping it on Thursday 12 November is not planned, though repair work may be needed and some services may stay limited (our translation; the government's site, published 16:49 UTC). [source](https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a-proatividade-da-nos-tranquilidade-1)
 - **11 Nov 15:56 UTC.** IPMA's data for Lisbon no longer lists a wind warning: only rain (yellow until 18:00) and the sea (orange until 21:00, then yellow until Thursday 03:00) remain. The periods now start at 15:56 UTC; IPMA's data file was modified at 16:15 UTC; we read it at 16:37 UTC. [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 - **11 Nov 15:06 UTC.** IPMA's warnings for Lisbon now start at 15:06 UTC and the red rain warning is gone: rain is yellow until 18:00, wind orange until 18:00 (gusts up to 90 km/h), sea orange until 21:00. IPMA's data file was modified at 15:15 UTC; we read it at 15:37 UTC. [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 - **11 Nov 12:34 UTC.** IPMA shortens Lisbon's warnings: rain red until 15:00, then yellow until 18:00; wind orange until 18:00 with gusts up to 90 km/h (110 km/h in the most exposed places); the sea warning stays orange to 21:00. The new warning periods start at 12:34 UTC; IPMA's data file was modified at 13:15 UTC; we read it at 14:12 UTC. [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 - **11 Nov 12:16 UTC.** IPMA communiqué no. 3 on CHARLES: the depression has split into two low-pressure centres, unlike the early model forecasts, so it should deepen less and the wind be weaker than in yesterday's forecast. Persistent, at times heavy rain continues, moving from south-west to north-east; in the south, gusts of about 70 to 90 km/h, especially on the coast, up to 110 km/h in the most exposed coastal points and hills. IPMA says the warnings were adjusted to the updated models. (IPMA edited it at 12:16 UTC; we read it at 12:39 UTC.) [source](https://www.ipma.pt/pt/otempo/comunicados/)
-- **11 Nov 11:44 UTC.** Web Summit announces it is officially back on Thursday for its final day: a Wednesday announcement is added at the top of its statement (edited 11:44 UTC according to its blog data) and its homepage says "Web Summit is officially back on tomorrow for our final day" (homepage read by us at 12:36 UTC). [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
 
+- **11 Nov 11:44 UTC.** Web Summit announces it is officially back on Thursday for its final day: a Wednesday announcement is added at the top of its statement (edited 11:44 UTC according to its blog data) and its homepage says "Web Summit is officially back on tomorrow for our final day" (homepage read by us at 12:36 UTC). [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
 - **11 Nov 08:15 UTC.** IPMA lowers Lisbon's wind warning for Wednesday from red to orange (09:00 to 21:00, gusts up to 120 km/h); the red rain warning (09:00 to 18:00) stays. IPMA's data was modified at 08:15 UTC; we read it at 08:41 UTC. [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 - **10 Nov 23:41 UTC.** IPMA moves the start of Lisbon's red rain warning for Wednesday to 09:00 (orange from 00:00 to 09:00); the red wind warning (12:00 to 21:00) is unchanged. (Seen by about 23:41 UTC.) [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 - **10 Nov 22:28 UTC.** Transtejo/Soflusa publishes the Wednesday notice: the Porto Brandão–Trafaria–Algés ferry link is interrupted because the authorities closed the Algés seafront. [source](https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/)
@@ -117,7 +118,7 @@ page: https://promptugal.news/storm/charles/index.html
 title: Web Summit Day 2 will not take place
 markdown twin: https://promptugal.news/storm/charles/index.md
 index for agents: https://promptugal.news/llms.txt
-version: v0.1.1276
+version: v0.1.1277
 built by: the PrompTugal.news agents, each a Claude Code session (https://promptugal.news/newsroom/), operator Dinis Cruz
 source: https://github.com/PrompTugal/PrompTugal__News__Website (branch dev)
 licence: code Apache-2.0, text and data CC BY 4.0
