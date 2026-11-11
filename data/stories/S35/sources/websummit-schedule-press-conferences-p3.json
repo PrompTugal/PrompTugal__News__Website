@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-schedule-press-conferences-p3",
+  "story": "S35",
+  "url": "https://websummit.com/schedule/filters/eyJmb3JtYXQubGFiZWwiOiJQcmVzcyBjb25mZXJlbmNlIn0=/page/3/",
+  "title": "Web Summit schedule, filtered to press conferences, page 3 (Web Summit)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Page 3 of Web Summit's schedule filtered to the format 'Press conference', read at 02:34 UTC on 11 November 2026: session titles, start and end times, stage and speakers. The four pages list 23 sessions; the listing carries no notice about the Day 2 call-off."
+}
