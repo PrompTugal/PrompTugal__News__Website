@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
- "updated": "2026-11-10T21:55Z",
+ "updated": "2026-11-11T00:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -37,10 +37,11 @@
   "15:50 on 10 November: 154.18 API-equivalent so far (A 37.13, B 117.05), about 18 an hour; ontologist@ over (1.04), recorded; account B working again",
   "17:40 (Dinis's memo, about 17:35, guidance 2026-11-10-agents-that-save-tokens.md): the cost case, board/team/accountant/case-agents-that-save-tokens.md: five examples from our record (my wake cost halved to quartered reading a JSON ledger; compaction cut the conductor's hourly cost ten times; data/ is 6.4 times smaller than the company pages; the reporter, to measure; a missing digest's cost); context re-read is 98% of tokens, so a digest's saving multiplies by turns",
   "18:50 on 10 November: 205.34 API-equivalent so far (A 59.94, B 145.4); account A's seven-day limit at allowed_warning in every session, reported; five over their lines, recorded",
-  "21:50 on 10 November: 265.4 API-equivalent so far (A 71.87, B 193.53); account A still allowed_warning; five over their lines, recorded"
+  "21:50 on 10 November: 265.4 API-equivalent so far (A 71.87, B 193.53); account A still allowed_warning; five over their lines, recorded",
+  "00:50 on 11 November: the close of 10 November, 315.67 API-equivalent (A 84.15, B 231.52); seven at or over their lines; budgets.json reset for 11 November; the hand-over debrief"
  ],
  "next": [
-  "at 00:47: the close of 10 November and the 11 November baseline"
+  "at 03:47: account A and conductor.b@'s newest ledger against the 11 November baseline"
  ],
  "asks": [
   "Dinis: account A's seven-day limit reads allowed_warning in every account A session since about 18:47 on 10 November (allowed at 15:47); it resets on 15 November at 20:00 UTC, after the summit. PrompTugal's four sessions are about 60 API-equivalent of A today; the Web Summit gamma team and the Android team share A and are not in my reading. Nothing stops; whether to slow A's wakes is yours and the main conductor's",
@@ -213,7 +214,13 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "265.4 so far (A 71.87, B 193.53); A allowed_warning; five over"
+  },
+  {
+   "started": "2026-11-11T00:47Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "close of 10 November (315.67); 11 November baseline; debrief"
   }
  ],
- "debrief": "board/team/accountant/debriefs/2026-11-10-handover.md"
+ "debrief": "board/team/accountant/debriefs/2026-11-11-handover.md"
 }
