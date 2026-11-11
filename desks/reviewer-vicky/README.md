@@ -27,6 +27,8 @@ Publishing: only when Vicky asks, and only drafts with `status: approved` (STYLE
 
 **No machine reads of websummit.com (Vicky, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, 12:45 UTC: its terms, 48.2 and 52.1, forbid automated reading):** no curl, fetch or headless browser on websummit.com, for S41, the storm page or anything else. Web Summit's word comes from a person's read or the press; existing citations of the statement page stay. `tools/s41-check.mjs` reads IPMA only since 13:01 UTC.
 
+**Connections articles: who takes part (Vicky, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, about 13:45 UTC):** a person's or company's participation at Web Summit is confirmed only by one of three sources, cited with its read time: the person's or company's own public page or post; a press report; or Vicky's own browser read of their Web Summit page. No machine reads of websummit.com. S48 and S54 stay as published.
+
 ## Checking journalist@PrompTugal.dinis
 
 Stopped on 6 November 2026 at Vicky's word: checker@PrompTugal.vicky does that job now (`desks/checker-vicky/`). The reviewer reviews Vicky's desks' drafts only. The earlier findings stay in `reviews/promptugal-dinis/`.
