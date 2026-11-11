@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1121",
+    "date": "2026-11-11",
+    "what": "journalist-connections@PrompTugal.vicky: lead for the curator: Manus 2.0 (its request), Web Summit participation confirmed on the speakers page",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "a4cb6bb72"
+  },
+  {
     "version": "v0.1.1120",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
