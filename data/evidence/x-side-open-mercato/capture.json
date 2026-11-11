@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-side-open-mercato",
+  "type": "evidence",
+  "source_url": "https://luma.com/mso0mrpr",
+  "beat": "The summit",
+  "group": "side events",
+  "names": [
+    {
+      "as_listed": "Open Mercato Night",
+      "ref": "organisation:open-mercato-night"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-1340.json",
+  "run": "2026-11-11-1340 (side-event angle from the Lisbon Fringe pointer; organisers' own pages read)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-1340.json"
+    ]
+  }
+}

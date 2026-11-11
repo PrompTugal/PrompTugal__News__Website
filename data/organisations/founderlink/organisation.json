@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "founderlink",
+  "type": "organisation",
+  "name": "FounderLink",
+  "names_as_listed": [
+    "FounderLink"
+  ],
+  "sources": [
+    {
+      "url": "https://luma.com/stormsummit9am",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

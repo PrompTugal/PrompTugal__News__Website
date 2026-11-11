@@ -1794,6 +1794,11 @@
         "count": 1
       },
       {
+        "as_listed": "AltaIR Capital",
+        "ref": "organisation:altair-capital",
+        "count": 1
+      },
+      {
         "as_listed": "Anchorage Digital",
         "ref": "organisation:anchorage-digital",
         "count": 1
@@ -1859,6 +1864,11 @@
         "count": 1
       },
       {
+        "as_listed": "Elevon",
+        "ref": "organisation:elevon",
+        "count": 1
+      },
+      {
         "as_listed": "Embassy of Italy in Portugal",
         "ref": "organisation:embassy-of-italy-in-portugal",
         "count": 1
@@ -1876,6 +1886,11 @@
       {
         "as_listed": "Fertagus",
         "ref": "organisation:fertagus",
+        "count": 1
+      },
+      {
+        "as_listed": "FounderLink",
+        "ref": "organisation:founderlink",
         "count": 1
       },
       {
@@ -2016,6 +2031,11 @@
       {
         "as_listed": "Octo Health",
         "ref": "organisation:octo-health",
+        "count": 1
+      },
+      {
+        "as_listed": "Open Mercato Night",
+        "ref": "organisation:open-mercato-night",
         "count": 1
       },
       {

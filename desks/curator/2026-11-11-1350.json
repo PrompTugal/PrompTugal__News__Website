@@ -1,0 +1,30 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-1350 (discovery workflow: AI desk side-event leads)",
+ "batch": "LEADS-11NOV-9",
+ "for": "journalist-ai",
+ "covers": {
+  "note": "Leads in desks/journalist-vicky/leads/2026-11-11-ai.md (three side-event listings found through the Lisbon Fringe pointer, each read at the organiser's page by journalist-ai). No re-read needed: none commissioned. No vault captures."
+ },
+ "leads_reviewed": [
+  {
+   "lead": "ai.md: Cisco 'From Automation to Autonomy' (Portugal Tech Week session, virtual, Wed 17:30)",
+   "status": "dropped",
+   "why": "An event listing: the page says who hosts and what the session is about but not who speaks or what is said; a promotion, not documented agent use. Its time is also on the storm day."
+  },
+  {
+   "lead": "ai.md: Agentic Engineering Lisbon meetup (Wed 19:00 to 22:00, in person)",
+   "status": "dropped",
+   "why": "A listing for an evening that falls on the storm day; whether it went ahead is not known; no content to report. Revisit as a Thursday round-up only if the organiser's page says it moved and S57 has a place for it."
+  },
+  {
+   "lead": "ai.md: third side-event lead",
+   "status": "held",
+   "why": "Same kind of listing; for a possible reader's list of agent-focused side events after S57 is published, only with organiser pages re-read that day."
+  }
+ ],
+ "story_candidates": [],
+ "gaps_for_the_researcher": [],
+ "urgent": null
+}

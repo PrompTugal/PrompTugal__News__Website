@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "open-mercato-night",
+  "type": "organisation",
+  "name": "Open Mercato Night",
+  "names_as_listed": [
+    "Open Mercato Night"
+  ],
+  "sources": [
+    {
+      "url": "https://luma.com/mso0mrpr",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

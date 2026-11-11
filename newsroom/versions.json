@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.1248",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 updated: IPMA shortened Lisbon's warnings (rain red to 15:00 then yellow, wind orange to 18:00), checked 14:08 UTC; image redrawn",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "579d6e1ac"
+  },
+  {
+    "version": "v0.1.1247",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 13:48 wake: Connections rule saved by three desks; curator's websummit.com reads recorded; checker told",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "71270665a"
+  },
+  {
+    "version": "v0.1.1246",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 14: a quiet afternoon; 2 items, 134 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "66a013a8c"
+  },
+  {
+    "version": "v0.1.1245",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: README: participation sources for Connections articles (Vicky's word, relayed by conductor.B@)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "5db9a979a"
+  },
+  {
+    "version": "v0.1.1244",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "464ebcc67"
+  },
+  {
+    "version": "v0.1.1243",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: pointer-source acknowledgements; journalist-europe's websummit.com read recorded",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "8877261f2"
+  },
+  {
+    "version": "v0.1.1242",
+    "date": "2026-11-11",
+    "what": "journalist-portugal@PrompTugal.vicky: run report",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "8c710ebf1"
+  },
+  {
+    "version": "v0.1.1241",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 and S54 source lines: Web Summit's announcement checked again in a browser at 13:10 UTC; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c990120e6"
+  },
+  {
     "version": "v0.1.1240",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.vicky: /storm/charles/: Web Summit rows: officially back on Thursday; the homepage no longer 'carries the notice'; Vicky's browser read 13:10 UTC",

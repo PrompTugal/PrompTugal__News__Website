@@ -1,0 +1,93 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-1340 (side-event angle from the Lisbon Fringe pointer; organisers' own pages read)",
+ "batch": "STORM-11NOV",
+ "for": "journalist (summit desk)",
+ "covers": {
+  "note": "lisbontechfringe.com's events.json used as a pointer (177 rows; 11 moved/cancelled, 18 online). For four events whose status it gives with a storm note, the curator read the organiser's own page and found the change stated there. Other rows not used (organiser pages not read, or no notice found: e.g. Defense Tech Meetup #9, DemoNightLx). No vault captures."
+ },
+ "published_check": "No article or draft on side events (grep of content/articles and drafts for 'side event' found only guide wording); S41 and S54 are about Web Summit's own days.",
+ "captures": [
+  {
+   "id": "x-side-open-mercato",
+   "file": "organiser's own event page, read 11 November 2026 about 13:35 UTC by the curator (not a vault capture)",
+   "source_url": "https://luma.com/mso0mrpr",
+   "beat": "The summit",
+   "names": [
+    "Open Mercato Night"
+   ],
+   "what_is_new": "Organiser's Luma page, title '[POSTPONED] Open Mercato Night: AI agents build a custom CRM, live to enterprise standards' (event listed for 11 Nov).",
+   "is_story": true,
+   "group": "side events"
+  },
+  {
+   "id": "x-side-elevon",
+   "file": "organiser's own event page, read 11 November 2026 about 13:35 UTC by the curator (not a vault capture)",
+   "source_url": "https://elevon.io/websummit/night",
+   "beat": "The summit",
+   "names": [
+    "Elevon"
+   ],
+   "what_is_new": "Organiser's own page: Elevon CZ/SK Community Night, catamaran on the Tagus, Lisbon: 'Thursday, 12 November 2026, 17:00 to 19:00 (moved from Wednesday due to extreme weather)'; registration required.",
+   "is_story": true,
+   "group": "side events"
+  },
+  {
+   "id": "x-side-altair",
+   "file": "organiser's own event page, read 11 November 2026 about 13:35 UTC by the curator (not a vault capture)",
+   "source_url": "https://luma.com/h19cccc5",
+   "beat": "The summit",
+   "names": [
+    "AltaIR Capital"
+   ],
+   "what_is_new": "Organiser's Luma page, title '[Cancelled: update below] Funders & Founders Night by AltaIR Capital: The New Shape of Early Stage'.",
+   "is_story": true,
+   "group": "side events"
+  },
+  {
+   "id": "x-side-founderlink",
+   "file": "organiser's own event page, read 11 November 2026 about 13:35 UTC by the curator (not a vault capture)",
+   "source_url": "https://luma.com/stormsummit9am",
+   "beat": "The summit",
+   "names": [
+    "FounderLink"
+   ],
+   "what_is_new": "Organiser's Luma page: 'FounderLink Storm Summit: A Torrent of Intros - Morning Session (Web Summit 2026 Lisbon Side Event)', listed as a Zoom event (the Fringe pointer lists morning, afternoon and evening sessions; only the morning page was read).",
+   "is_story": true,
+   "group": "side events"
+  }
+ ],
+ "leads_reviewed": [
+  {
+   "lead": "lisbontechfringe.com/api/v1/events.json: side events moved, postponed, cancelled or taken online by the storm",
+   "status": "commissioned",
+   "story": "S57",
+   "why": "Four changes confirmed on the organisers' own pages; the rest of the 11 moved/cancelled and 18 online rows are not used until each organiser page is read."
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S57",
+   "kind": "summit",
+   "batch": "STORM-11NOV",
+   "title": "Wednesday's side events: which have been postponed, moved or taken online",
+   "beat": "The summit",
+   "angle": "A short, dated list of side events around Web Summit whose organisers have said, on their own pages, that Wednesday's event is postponed, cancelled, moved to Thursday or online, so readers with plans know to check; side events are not Web Summit's own.",
+   "rests_on": [
+    "x-side-open-mercato",
+    "x-side-elevon",
+    "x-side-altair",
+    "x-side-founderlink"
+   ],
+   "ready": true,
+   "categories": [
+    "Web Summit 2026"
+   ],
+   "note": "For journalist (summit desk). Ready; time-sensitive (today). Conditions: list only events whose organiser's own page you re-read, each with the page, the wording the organiser uses (quote the title or sentence) and the time read; say pages change and readers should check each organiser; side events are run by their organisers, not by Web Summit; the Elevon and 'Cancelled: update below' wording as the pages give it (read the 'update' of the AltaIR page: the curator did not); you may add further events from lisbontechfringe.com only after reading their organiser pages (a pointer, never the citation), and never an 'unknown' row; no contact details, no attendee names, no hosts' personal details (event pages show host and guest names: leave them out); do not say why an event changed unless the page does. Link S41, S54. Category line to ship with the article (slug of the draft file without the S-number); send it to reviewer@ when the draft reaches review.",
+   "words": "250 to 400"
+  }
+ ],
+ "gaps_for_the_researcher": [],
+ "urgent": "S57 is time-sensitive: it is about today's events."
+}

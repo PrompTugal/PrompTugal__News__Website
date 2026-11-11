@@ -26,3 +26,9 @@ In practice:
 
 - **storm-charles.promptugal.news** is a source for the curator, the reviewer and /storm/charles/ (at Dinis's request): a pointer; every fact checked and cited at its official source before publishing (`desks/conductor-vicky/sources/storm-charles.md`).
 - **weather@ narrows:** "weather@ narrows to official source checks of the rows on our storm page and S41, using storm-charles.promptugal.news to spot changes. It stops building its own IPMA, station and airport readers and its history, law and decision map files. Disable its wake on Thursday about 09:00 UTC, once the warnings have ended and Web Summit has confirmed Thursday. Disable only, do not delete it, so we can reuse or repurpose it later."
+
+## Connections participation, and S48/S54 (Vicky, 11 November 2026, about 13:45 UTC, in the conductor window)
+
+"For Connections, participation may be confirmed by the person's or company's own public page or post, a press report, or my browser read of their Web Summit page. No machine reads of websummit.com. Keep S48 and S54 as published."
+
+Relayed to journalist-connections@, curator@ and reviewer@. This updates standing answer 19's confirmation step (decisions.md) while this account covers; carry it to decisions.md at switch-back.
