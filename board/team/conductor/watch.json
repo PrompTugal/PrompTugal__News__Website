@@ -250,6 +250,16 @@
    "PrompTugal__App__iOS": "afe48428",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Live sources strip shipped (9d9f5cf26). Fringe conductors' keys in; lanes issued. Brief 9 cut."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-11T15:45Z",
+   "SGit-AI__Website__Web-Summit": "8ca7da36",
+   "PrompTugal__News__Website": "d45af831",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "eb113986",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "No machine reads of websummit.com, Luma, Meetup, Eventbrite (Vicky after Dinis). S39 to Dinis. Brief 10."
   }
  ]
 }
