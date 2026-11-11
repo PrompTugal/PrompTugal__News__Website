@@ -1,5 +1,5 @@
 ---
-title: "The AI Act's first harmonised standard is out: what EN 18286 changes"
+title: "The AI Act's first harmonised standard: what EN 18286 changes"
 date: 2026-11-11
 story: S50
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
