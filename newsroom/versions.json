@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1122",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: the app skips the called-off day, and on it shows the notice first (sherpa@'s W6)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "abef33c54"
+  },
+  {
     "version": "v0.1.1121",
     "date": "2026-11-11",
     "what": "journalist-connections@PrompTugal.vicky: lead for the curator: Manus 2.0 (its request), Web Summit participation confirmed on the speakers page",
