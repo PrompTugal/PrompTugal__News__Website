@@ -12,23 +12,23 @@
  "alerts": [
   {
    "who": "IPMA, Lisbon district",
-   "what": "Wind: RED, Wed 11 Nov 12:00 to 21:00. Gusts up to 120 km/h, possibly 140 km/h in the most exposed places.",
+   "what": "Wind: RED, Wed 11 Nov 12:00 to 21:00. Gusts up to 120 km/h, possibly 140 km/h in the most exposed places. Re-read at 00:05 UTC: unchanged.",
    "level": "red",
-   "read": "2026-11-10T23:43Z",
+   "read": "2026-11-11T00:05Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
    "who": "IPMA, Lisbon district",
-   "what": "Rain: RED, Wed 12:00 to 18:00 (raised from orange at 17:42). Heavy and persistent rain. Orange from 05:00 to 12:00.",
+   "what": "Rain: RED, Wed 11 Nov 09:00 to 18:00. Heavy and persistent rain. Orange from 00:00 to 09:00 (yellow until 00:00). IPMA moved the start of the red warning earlier from 12:00 to 09:00 on Tuesday evening.",
    "level": "red",
-   "read": "2026-11-10T23:43Z",
+   "read": "2026-11-11T00:05Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
    "who": "IPMA, Lisbon district",
-   "what": "Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 23:43 UTC: unchanged.",
+   "what": "Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 00:05 UTC: unchanged.",
    "level": "orange",
-   "read": "2026-11-10T23:43Z",
+   "read": "2026-11-11T00:05Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
@@ -134,6 +134,11 @@
  },
  "timeline": [
   {
+   "t": "2026-11-10T23:41Z",
+   "text": "IPMA moves the start of Lisbon's red rain warning for Wednesday to 09:00 (orange from 00:00 to 09:00); the red wind warning (12:00 to 21:00) is unchanged. (Seen by about 23:41 UTC.)",
+   "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
+  },
+  {
    "t": "2026-11-10T22:28Z",
    "text": "Transtejo/Soflusa publishes the Wednesday notice: the Porto Brandão–Trafaria–Algés ferry link is interrupted because the authorities closed the Algés seafront.",
    "src": "https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/"
@@ -155,7 +160,7 @@
   },
   {
    "t": "2026-11-10T17:42Z",
-   "text": "IPMA raises Lisbon's rain warning to red for Wednesday 12:00 to 18:00; the red wind warning is unchanged.",
+   "text": "IPMA raises Lisbon's rain warning to red for Wednesday 12:00 to 18:00 (later moved to start at 09:00); the red wind warning is unchanged.",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {

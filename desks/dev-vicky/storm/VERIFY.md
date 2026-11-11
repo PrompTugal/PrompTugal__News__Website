@@ -1,22 +1,22 @@
 ---
-title: "/storm/charles/ (second version): every line, its source and read time, for reviewer@ to re-check"
+title: "/storm/charles/ (third version): every line, its source and read time, for reviewer@'s final check"
 from: dev@PrompTugal.vicky
-status: corrected after reviewer@'s check of 23:43-23:50 UTC; waiting for reviewer@'s final check; the page is NOT published
+status: IPMA rain row updated after reviewer@'s second check (00:05 UTC); waiting for reviewer@'s 'verified'; the page is NOT published
 ---
 
-Changes since the first sheet, per desks/reviewer-vicky/reviews/storm-charles.md: ferries (Wednesday notice, 18:06 restoration; no longer 'not announced'); the 19:38 email time and entry dropped; 19:09 relabelled (page data; on the blog by about 20:00); Fertagus, Carris relabelled as reads; the 21:37 observation entry dropped; IPMA and Carris Metropolitana read times updated to 23:43; amn.pt and Aviso 21 marked 'the weather desk's read; not re-checked'; Metro negative worded 'none found on Metro's site'. The rendered text is in `page-preview.md`.
+Changes since the second sheet: the IPMA rain row (red 09:00 to 18:00, orange 00:00 to 09:00, yellow until 00:00; I read IPMA's warnings JSON myself at 00:05 UTC and it matches the reviewer's 23:51 read), the wind and sea rows re-read at 00:05 and unchanged, a timeline entry for the earlier start of the red rain warning (seen by about 23:41), and the 17:42 entry noting the later move. The rendered text is `page-preview.md`.
 
 ## Lead (Day 2)
 - Web Summit: Day 2, Wednesday 11 November, will not take place. On the Portuguese Government's formal advice, Web Summit has said Day 2 will not take place. It says it aims to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles. Web Summit's statement "Important event update" (dated 19:09 UTC in its page data; on its blog by about 20:00 UTC), read 23:45 UTC. Web Summit also emailed attendees, and its homepage carries the notice.
   - source: https://websummit.com/blog/web-summit/important-event-update-2026/ · read: 2026-11-10T23:45Z
 
 ## Official alerts
-- IPMA, Lisbon district: Wind: RED, Wed 11 Nov 12:00 to 21:00. Gusts up to 120 km/h, possibly 140 km/h in the most exposed places.
-  - source: https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json · read: 2026-11-10T23:43Z
-- IPMA, Lisbon district: Rain: RED, Wed 12:00 to 18:00 (raised from orange at 17:42). Heavy and persistent rain. Orange from 05:00 to 12:00.
-  - source: https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json · read: 2026-11-10T23:43Z
-- IPMA, Lisbon district: Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 23:43 UTC: unchanged.
-  - source: https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json · read: 2026-11-10T23:43Z
+- IPMA, Lisbon district: Wind: RED, Wed 11 Nov 12:00 to 21:00. Gusts up to 120 km/h, possibly 140 km/h in the most exposed places. Re-read at 00:05 UTC: unchanged.
+  - source: https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json · read: 2026-11-11T00:05Z
+- IPMA, Lisbon district: Rain: RED, Wed 11 Nov 09:00 to 18:00. Heavy and persistent rain. Orange from 00:00 to 09:00 (yellow until 00:00). IPMA moved the start of the red warning earlier from 12:00 to 09:00 on Tuesday evening.
+  - source: https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json · read: 2026-11-11T00:05Z
+- IPMA, Lisbon district: Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 00:05 UTC: unchanged.
+  - source: https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json · read: 2026-11-11T00:05Z
 - The government: Alert situation (situação de alerta) for all of mainland Portugal, 00:00 to 23:59 on Wednesday: schools and non-essential public services closed; outdoor events suspended, whatever their nature; no access to parks and wooded areas at risk of falling trees; no access to the shoreline, rivers and flood-prone areas.
   - source: https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1 · read: 2026-11-10T17:01Z
 - The Minister of Internal Administration: Asked people to stay at home where possible and avoid unnecessary travel. An appeal, not an order.
@@ -61,6 +61,8 @@ Changes since the first sheet, per desks/reviewer-vicky/reviews/storm-charles.md
 - The government's formal advice to Web Summit, on any official page.
 
 ## Timeline
+- 2026-11-10T23:41Z IPMA moves the start of Lisbon's red rain warning for Wednesday to 09:00 (orange from 00:00 to 09:00); the red wind warning (12:00 to 21:00) is unchanged. (Seen by about 23:41 UTC.)
+  - source: https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json · read: -
 - 2026-11-10T22:28Z Transtejo/Soflusa publishes the Wednesday notice: the Porto Brandão–Trafaria–Algés ferry link is interrupted because the authorities closed the Algés seafront.
   - source: https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/ · read: -
 - 2026-11-10T20:00Z Web Summit's statement "Important event update" is on its blog (dated 19:09 in its page data): the Government has formally advised that Day 2 should not take place, because of Storm Charles (tidal flooding, severe disruption to public transport, wind on external structures). Its homepage carries the notice.
@@ -69,7 +71,7 @@ Changes since the first sheet, per desks/reviewer-vicky/reviews/storm-charles.md
   - source: https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/ · read: -
 - 2026-11-10T18:37Z Carris's homepage banner reads that service is disrupted and that it is monitoring the situation.
   - source: https://www.carris.pt · read: -
-- 2026-11-10T17:42Z IPMA raises Lisbon's rain warning to red for Wednesday 12:00 to 18:00; the red wind warning is unchanged.
+- 2026-11-10T17:42Z IPMA raises Lisbon's rain warning to red for Wednesday 12:00 to 18:00 (later moved to start at 09:00); the red wind warning is unchanged.
   - source: https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json · read: -
 - 2026-11-10T17:35Z PRESS: the Prime Minister says the government recommended suspending the summit's work; the decision was the organisers' (24 Notícias).
   - source: https://24noticias.sapo.pt/atualidade/artigos/montenegro-nao-subestimem-nem-menosprezem-aquilo-que-e-a-perigosidade-destes-fenomenos-meteorologicos · read: -
