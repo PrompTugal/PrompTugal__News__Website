@@ -4,9 +4,9 @@ date: 2026-11-11
 story: S52
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: Konecta, a customer experience company based in Madrid, is opening a new Global Delivery Center in Lisbon in early 2027. It says the centre will focus on AI and digital transformation and that its Lisbon staff will grow from about 1,300 to about 2,000 by the end of 2027.
-status: draft
+status: ready
 beat: Portugal
-license: https://creativecommons.org/licenses/by/4.0/
+license: "https://creativecommons.org/licenses/by/4.0/"
 tags: [Portugal, Lisbon, Konecta, jobs, customer experience, investment]
 image: https://promptugal.news/desks/journalist-vicky/drafts/img/S52-cover-card-2026-11-11.svg
 image_alt: "Konecta in Lisbon: about 1,300 staff now, about 2,000 by the end of 2027; about 700 new jobs; a new Global Delivery Center opening in Q1 2027; 680 workstations over 4,900 square metres"
@@ -42,7 +42,7 @@ People looking at customer service and AI careers in Lisbon may want to follow K
 
 - **The AI work is Konecta's description.** The release does not say which AI tools or services the centre will run.
 - **The figures are Konecta's targets**, not independent numbers.
-- **The client quote and the award** are as Konecta's release gives them; Vorwerk's own statement has not been read.
+- **The award** is as Konecta's release gives it; Vorwerk's own statement has not been read.
 
 ## Where this comes from
 
