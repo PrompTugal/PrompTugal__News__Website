@@ -310,7 +310,64 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
         ...report,
         derived: { by: BY, from: ['desks/', 'data/companies/', 'data/places/', 'data/topics/', 'data/curation/'] },
     }
+    files['data/websummit-only.json'] = websummitOnly({ files, companies, places, handEvents, handOrgs, handPeople })
     return { files }
+}
+
+// What rests only on websummit.com (Dinis, 11 Nov 2026 ~18:50; board/passes/2026-11-11-only-websummit-sourced-comes-off.md):
+// every fact, edge, flow, product, listing and entity whose sources are all on Web Summit's hosts. Refs and ids only,
+// never the facts themselves. An entity is "left with nothing" when none of its items has another public source.
+export const WS_HOSTS = ['websummit.com', 'websummit.net']
+export function isWebSummit(url) {
+    let h; try { h = new URL(url).hostname.toLowerCase() } catch { return false }
+    return WS_HOSTS.some(d => h === d || h.endsWith('.' + d))
+}
+// 'websummit' (all its sources are Web Summit's), 'other' (at least one is not), or 'none' (no source)
+const restsOn = urls => { const u = urls.filter(Boolean); return !u.length ? 'none' : u.every(isWebSummit) ? 'websummit' : 'other' }
+export function websummitOnly({ files, companies, places, handEvents, handOrgs, handPeople }) {
+    const of = dir => Object.entries(files).filter(([k]) => k.startsWith(`data/${dir}/`) && !k.endsWith('/capture.json')).map(([, v]) => v)
+    const tally = () => ({ total: 0, websummit_only: 0, other_source: 0, no_source: 0 })
+    const add = (t, r) => { t.total++; t[{ websummit: 'websummit_only', other: 'other_source', none: 'no_source' }[r]]++ }
+    const counts = { companies: tally(), company_facts: tally(), company_edges: tally(), company_flows: tally(), company_products: tally(), people: tally(), person_listings: tally(), events: tally(), organisations: tally(), places: tally() }
+    const out = { companies: [], company_items: [], people: [], person_listings: [], events: [], organisations: [], places: [] }
+    for (const c of [...companies].sort((a, b) => byKey(a.id, b.id))) {
+        const url = new Map(c.sources.map(s => [s.id, s.url]))
+        const items = [['fact', 'facts', c.facts, x => x.id], ['edge', 'edges', c.edges, x => `${x.verb}>${x.to}`], ['flow', 'flows', c.flows, x => x.id], ['product', 'products', c.products, x => x.id]]
+        let kept = 0, any = 0
+        for (const [kind, plural, list, idOf] of items) for (const x of list) {
+            const r = restsOn([].concat(x.source).map(id => url.get(id) || null)); add(counts[`company_${plural}`], r); any++
+            if (r === 'other') kept++
+            if (r === 'websummit') out.company_items.push({ company: `company:${c.id}`, kind, id: idOf(x), source: x.source })
+        }
+        const shadows = c.sources.filter(s => s.url && !isWebSummit(s.url)).map(s => s.id).sort()
+        const r = !any ? 'none' : kept ? 'other' : 'websummit'; add(counts.companies, r)
+        if (r !== 'other') out.companies.push({ company: `company:${c.id}`, left_with_nothing: true, items: any, other_sources_on_file: shadows })
+    }
+    const handP = new Set(handPeople.map(p => p.id))
+    for (const p of [...of('people'), ...handPeople].sort((a, b) => byKey(a.id, b.id))) {
+        const ls = p.listings || []
+        for (const l of ls) { const r = restsOn([l.source]); add(counts.person_listings, r); if (r === 'websummit') out.person_listings.push({ person: `person:${p.id}`, event: l.event || null }) }
+        const r = restsOn([...ls.map(l => l.source), ...(p.sources || []).map(s => s.url || s), p.source].filter(x => typeof x === 'string')); add(counts.people, r)
+        if (r === 'websummit') out.people.push({ person: `person:${p.id}`, ...(handP.has(p.id) ? { hand: true } : {}) })
+    }
+    for (const e of [...of('events'), ...handEvents].sort((a, b) => byKey(a.id, b.id))) {
+        const r = restsOn([e.source_url, e.session_url, ...(e.hosted_by || []).map(h => h.source), ...(e.sources || []).map(s => s.url || s)].filter(x => typeof x === 'string')); add(counts.events, r)
+        if (r === 'websummit') out.events.push({ event: `event:${e.id}`, kind: e.kind || null, ...(e.derived ? {} : { hand: true }) })
+    }
+    for (const o of [...of('organisations'), ...handOrgs].sort((a, b) => byKey(a.id, b.id))) {
+        const r = restsOn((o.sources || []).map(s => s.url)); add(counts.organisations, r)
+        if (r === 'websummit') out.organisations.push({ organisation: `organisation:${o.id}`, ...(o.derived ? {} : { hand: true }) })
+    }
+    for (const pl of [...places].sort((a, b) => byKey(a.id, b.id))) {
+        const r = restsOn([pl.source, ...(pl.sources || []).map(s => s.url || s)].filter(x => typeof x === 'string')); add(counts.places, r)
+        if (r === 'websummit') out.places.push({ place: `place:${pl.id}` })
+    }
+    return {
+        $schema: 'schemas/websummit-only.schema.json',
+        about: 'What rests only on websummit.com, by ref; kept off the site until another source is cited.',
+        hosts: WS_HOSTS, rule: 'board/guidance/2026-11-11-only-websummit-sourced-comes-off.md', counts, ...out,
+        derived: { by: BY, from: ['desks/programme/agenda.json', 'data/companies/', 'data/events/', 'data/people/', 'data/organisations/', 'data/places/'] },
+    }
 }
 
 // ---- the story pipeline (board/the-story-pipeline.md): each story's column follows its files, never a hand edit.

@@ -42,6 +42,7 @@ export const KINDS = [
     [/^data\/translations\/(events|articles|companies)\/[^/]+\/[a-z]{2,3}-[A-Z]{2}\.json$/, 'translation'],   // machine translations (Dinis, 9 Nov 19:25; the ontologist's schema)
     [/^data\/concepts\.json$/, 'concepts'],
     [/^data\/matching\.json$/, 'matching'],
+    [/^data\/websummit-only\.json$/, 'websummit-only'],   // what rests only on websummit.com (derive.mjs)
     [/^data\/ontology\.json$/, 'ontology'],
     [/^data\/site\/site\.json$/, 'site'],
     [/^data\/site\/nav\.json$/, 'nav'],

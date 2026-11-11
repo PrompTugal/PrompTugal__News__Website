@@ -84,6 +84,7 @@ export function derivedOnDisk() {
         }
     }
     if (fs.existsSync(R('data/matching.json'))) out.push('data/matching.json')
+    if (fs.existsSync(R('data/websummit-only.json'))) out.push('data/websummit-only.json')
     return out.sort()
 }
 
