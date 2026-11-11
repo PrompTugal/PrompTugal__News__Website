@@ -87,6 +87,12 @@ function relatedSection(ctx, rel, c) {
 // { id, name, summary?, source, steps: [{ what, actor?, agent?, source }] }; a step's agent, when present, says what
 // an AI agent does at that step, as the source says it. Every flow and step cites a source in sources.json (the gate
 // checks it). Without a mapped flow the section says so and asks; it never guesses one.
+// its products (ontologist@'s data/companies/<id>/products.json, c.products): each with what it is and its source
+function productsSection(ctx, c) {
+    const cell = ctx.md.cell, src = new Map(c.sources.map(s => [s.id, s]))
+    const cite = ids => [ids].flat().filter(Boolean).map(id => src.get(id)).filter(Boolean).map(s => sourceLine(s.url, s.read_on)).join('; ')
+    return c.products.map(p => `- **${cell(p.name)}**${p.agentic ? ' (agentic)' : ''}: ${cell(p.what || '')}${p.source ? ` (${cite(p.source)})` : ''}${(p.flows || []).length ? ` · [its flow](#flow-${p.flows[0]})` : ''}`).join('\n')
+}
 function flowsSection(ctx, c) {
     const cell = ctx.md.cell, src = new Map(c.sources.map(s => [s.id, s]))
     const cite = ids => [ids].flat().filter(Boolean).map(id => src.get(id)).filter(Boolean).map(s => sourceLine(s.url, s.read_on)).join('; ')
@@ -127,6 +133,7 @@ export function pages(ctx) {
                 `::: nv\n## People {#people}\n\nPeople the summit's pages list under ${cell(x.name)}, by name, role and organisation only.\n\n${peopleSection(ctx, rel, x)}\n:::\n` +
                 `::: nv\n## Related companies {#related}\n\n${relatedSection(ctx, rel, x)}\n:::\n:::\n\n` +
                 (news ? `## From the newsroom {#newsroom}\n\n${news}\n\n` : '') +
+                (x.products.length ? `## Its products {#products}\n\n${productsSection(ctx, x)}\n\n` : '') +
                 `## Its flows, and where AI agents are in them {#flows}\n\n${flowsSection(ctx, x)}\n\n` +
                 `## Our question for them {#question}\n\nAs for every company we follow, three questions, not claims. We have not asked ${cell(x.name)} yet. When they answer, it goes here.\n\n{.lens}\n1. **Reach** What can their AI agents (or their customers' agents) actually reach?\n2. **Mandate** What were they authorised to do?\n3. **Gap** Who controls the gap between the two?\n\n` +
                 `## Where this comes from {#sources}\n\n{.sources}\n` +
