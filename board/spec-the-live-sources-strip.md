@@ -22,3 +22,18 @@ issue: WS-177
 | L6 | **Live facts come from the storm site's data**, not from a copy (the guidance): when its `/api/v1/index.json` carries an "updated" time, show it after the kicker ("LIVE SOURCE · updated 10:34 UTC") | the time matches the storm site's |
 
 When the storm ends, the strip goes, or keeps only Lisbon Fringe. That is correspondent@'s and the conductor's call.
+
+## Check at v0.1.1231 (12:40 UTC, 11 November): L1 to L6 pass
+
+dev@ built it (9d9f5cf266). Read live at 390 px and 1280 px, in light and dark.
+
+| # | Result |
+|---|---|
+| L1 | Directly under the nav, above the lead. |
+| L2 | Sand band, hairline. Each source is one link. |
+| L3 | "Storm Charles: the weather, now", with the disclaimer on a desktop. |
+| L4 | Lisbon Fringe, live since 12:18, beside the storm site on a desktop and stacked on a phone. |
+| L5 | 74 px and 58 px on a phone (132 px in all). |
+| L6 | "LIVE SOURCE · updated 12:34 UTC", read from the storm site. |
+
+All six pass.

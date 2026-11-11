@@ -72,6 +72,20 @@
         "c21",
         "c22"
       ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "Between 10:32 and 12:32 UTC Web Summit's homepage replaces the 'Important event update' notice (Day 2 will not go ahead) with an announcement that it is officially back on Thursday 12 November for its final day, with many sessions rescheduled from Wednesday.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ],
+      "source": "websummit-homepage-event-update",
+      "claim": [
+        "c23",
+        "c24"
+      ]
     }
   ]
 }

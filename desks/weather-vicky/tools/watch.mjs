@@ -100,16 +100,8 @@ const readers = {
     const period = (t.match(/entre as 00h00[^;]{10,160}?23h59 do dia \d+ de novembro de \d{4}/) || [])[0] || null;
     return { url, status: 200, period, mentions_contingencia: /situação de contingência/i.test(t), mentions_calamidade: /situação de calamidade/i.test(t) };
   },
-  // Web Summit: any weather word on the homepage or the news page (raw page, including its data)
-  async websummit() {
-    const out = {};
-    for (const url of ['https://websummit.com/', 'https://websummit.com/blog/news/']) {
-      const r = await get(url);
-      const hits = [...new Set((r.text.match(/\b(weather|storm|charles|red warning|ipma|alert situation|wind warning|cancel+ed due|postponed due|closed due)\b/gi) || []).map(s => s.toLowerCase()))];
-      out[url] = { status: r.status, bytes: r.text.length, weather_words: hits };
-    }
-    return out;
-  },
+  // Web Summit: removed 11 Nov 2026. Its terms forbid automated reading (Terms 48.2 and 52.1, found by Dinis's incident team);
+  // Web Summit rows rely on a person's browser read, press quotes of its public posts, and storm-charles.promptugal.news as a pointer.
 };
 
 const args = process.argv.slice(2);

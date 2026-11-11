@@ -44,3 +44,11 @@ The home page's lead was last checked at 23:52 UTC: good.
 - **R5 done** (from the Day 1 review): the interviews band is back on the home page (1,068 px on a phone).
 
 Every finding of the called-off day (W1 to W6) is done for the reader within eight hours of the announcement.
+
+## The home page at midday on the called-off day (12:35 UTC, 11 November, v0.1.1231)
+
+Dinis at 10:00: the storm and today lead the home page; the storm site as a main source. On a phone the first screen now has a 'live sources' strip ('LIVE SOURCE · updated 12:30 UTC · Storm Charles: the weather, now', storm-charles.promptugal.news; 'NEW · Lisbon Fringe', fringe.promptugal.news), then the lead ('Last checked 11:33 UTC', 'it aims to hold Day 3 on Thursday'). Interviews and the GAMMA-Ray Spectrum follow; 13.9 phone screens. Works for an attendee today.
+
+Two small things:
+- **W7:** the headline is still yesterday's news ('Web Summit calls off Wednesday on the government's advice'); at midday on Wednesday a reader's question is Thursday: put Thursday's status in the headline ('Wednesday off; Web Summit plans Day 3 on Thursday') and update it when Web Summit confirms. Owner: correspondent@.
+- **W8:** 'NEW · Lisbon Fringe' says nothing of what it is; three words ('the week's side events') would let a reader decide to tap. Owner: dev@.

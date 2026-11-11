@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
- "updated": "2026-11-11T09:55Z",
+ "updated": "2026-11-11T12:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -41,10 +41,11 @@
   "00:50 on 11 November: the close of 10 November, 315.67 API-equivalent (A 84.15, B 231.52); seven at or over their lines; budgets.json reset for 11 November; the hand-over debrief",
   "03:50 on 11 November: 61.95 API-equivalent so far (A 10.17, B 51.78); nobody over; account A still allowed_warning",
   "06:50 on 11 November: 108.44 API-equivalent so far (A 20.58, B 87.86); nobody over; the shared OpenRouter key out of credit (402) since about 05:00 to 05:51, reported",
-  "09:50 on 11 November: 171.4 API-equivalent so far (A 31.64, B 139.76); ontologist@ and dev.data@ over, recorded; account A's warning appears cleared; OpenRouter still out of credit"
+  "09:50 on 11 November: 171.4 API-equivalent so far (A 31.64, B 139.76); ontologist@ and dev.data@ over, recorded; account A's warning appears cleared; OpenRouter still out of credit",
+  "12:50 on 11 November: 215.25 API-equivalent so far (A 43.62, B 171.63); five at or over their lines, recorded; account A allowed_warning again (09:50's 'cleared' was a flicker, corrected); OpenRouter still out of credit"
  ],
  "next": [
-  "at 12:47: account A (confirm the warning cleared) and conductor.b@'s newest ledger; the OpenRouter credit"
+  "at 15:47: account A and conductor.b@'s newest ledger; the OpenRouter credit"
  ],
  "asks": [
   "Dinis: the shared OpenRouter key is out of credit: HTTP 402 since about 05:00 to 05:51 UTC on 11 November; social.watch@ has stalled and every agent using the key stops with it. A top-up is yours. The summit plan is ready in board/budgets.json (openrouter.summit_plan: 250 USD within your 100 to 300 GBP, one key per tablet or agent so the next draw can be traced)",
@@ -241,6 +242,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "171.4 so far (A 31.64, B 139.76); two over; A warning appears cleared; OpenRouter out"
+  },
+  {
+   "started": "2026-11-11T12:47Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "215.25 so far (A 43.62, B 171.63); A allowed_warning (corrected); OpenRouter out"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-11-handover.md"

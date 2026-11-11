@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T09:40Z",
+  "updated": "2026-11-11T12:45Z",
   "covers": {
     "from": "2026-11-10T13:23:00Z",
-    "to": "2026-11-11T09:12:07Z",
-    "last_commit": "d9b257076"
+    "to": "2026-11-11T11:52:33Z",
+    "last_commit": "018f6b28c"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -2589,6 +2589,230 @@
         "commit:d9b257076"
       ],
       "hand_off": "agent->person"
+    },
+    {
+      "n": 120,
+      "time_utc": "2026-11-11T09:43:15Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "designer@'s four notes (step 111)",
+      "output": "/storm/charles/ layout updated (S1 to S4); no wording changes",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:dd9f85d6f"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "4. designer to developer: 3 h 08 min"
+    },
+    {
+      "n": 121,
+      "time_utc": "2026-11-11T09:48:52Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the storm page's refresh loop",
+      "output": "hourly read times handed to dev@ and the reviewer for /storm/charles/",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:443106b29"
+      ],
+      "hand_off": "agent->agents",
+      "note": "From here the page refreshes in a loop each hour: weather@ reads, dev@ stages (09:50, 10:48, 11:03, 11:39), reviewer@ verifies, dev@ releases (11:00)."
+    },
+    {
+      "n": 122,
+      "time_utc": "2026-11-11T10:00:00Z",
+      "actor": {
+        "name": "Dinis Cruz",
+        "kind": "person"
+      },
+      "input": "the storm day",
+      "output": "pt.news follows what is happening now; link storm-charles.promptugal.news (the incident team's site, account A) and use it as a main data source; start Lisbon Fringe",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:75c7b9f5b",
+        "board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md"
+      ],
+      "hand_off": "person->agent",
+      "workflow_step": "the two storm workflows meet: the incident team's site becomes a source for Vicky's desk"
+    },
+    {
+      "n": 123,
+      "time_utc": "2026-11-11T10:37:09Z",
+      "actor": {
+        "name": "designer@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "Dinis's guidance",
+      "output": "the live sources strip: the storm site at the top of the home page, Lisbon Fringe beside it once live",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:d07bd6b94"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "4. designer first, then developer (the brief's order, for once)"
+    },
+    {
+      "n": 124,
+      "time_utc": "2026-11-11T10:40:08Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Dinis's guidance; Vicky's word",
+      "output": "storm-charles.promptugal.news added as a source: a pointer only, every fact checked at the official source; rule saved by weather@, reviewer@ and the curator (10:46 to 10:58)",
+      "hand_off_to": [
+        {
+          "name": "weather@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "curator@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:1df6dc4a3",
+        "commit:57b84bd0a",
+        "commit:7dbc36917",
+        "commit:c9e7d1194"
+      ],
+      "hand_off": "person->agent->agents (Vicky narrows Dinis's 'main data source' to 'pointer')",
+      "note": "Dinis's guidance said 'main data source'; Vicky's desk takes it as a pointer and keeps citing the official sources. The guidance itself says the desk decides."
+    },
+    {
+      "n": 125,
+      "time_utc": "2026-11-11T10:55:26Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's word",
+      "output": "weather@ narrows to official-source checks; its wake to be disabled (not deleted) on Thursday about 09:00 UTC",
+      "hand_off_to": [
+        {
+          "name": "weather@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:7f66bb348",
+        "commit:e70e01a40"
+      ],
+      "hand_off": "person->agent (a temporary desk's end planned)"
+    },
+    {
+      "n": 126,
+      "time_utc": "2026-11-11T11:00:03Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "reads 10:36 to 10:46; reviewer@'s verification",
+      "output": "/storm/charles/ read times refreshed, released",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:5a92d5c21"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 127,
+      "time_utc": "2026-11-11T11:06:36Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's word",
+      "output": "S41 carries a line on the storm site (a running record, not a warning service); every fact stays cited to its official source",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:80e22ee19"
+      ],
+      "hand_off": "person->agent (Vicky)"
+    },
+    {
+      "n": 128,
+      "time_utc": "2026-11-11T11:24:52Z",
+      "actor": {
+        "name": "dev@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "designer@'s strip (step 123)",
+      "output": "the live sources strip on the home page: the storm site and Lisbon Fringe",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:9d9f5cf26"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "5. the UI: 1 h 25 min from Dinis's word"
+    },
+    {
+      "n": 129,
+      "time_utc": "2026-11-11T11:52:33Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "sweep 12",
+      "output": "Charles weakens and changes course; 288 flights cancelled at Lisbon",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:018f6b28c",
+        "commit:3e4236a64 (09:56: flooding at Oriente, next to the venue)"
+      ],
+      "hand_off": "agent->agent"
     }
   ],
   "hand_offs_person_agent": [
@@ -2640,7 +2864,11 @@
     108,
     109,
     116,
-    119
+    119,
+    122,
+    124,
+    125,
+    127
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -2934,7 +3162,8 @@
   "related_traces": [
     "the-categories.json",
     "the-discovery.json",
-    "the-stale-page.json"
+    "the-stale-page.json",
+    "the-fringe.json"
   ],
   "lessons": [
     {

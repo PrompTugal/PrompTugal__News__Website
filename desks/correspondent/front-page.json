@@ -1,45 +1,45 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-11T10:50Z",
+  "updated": "2026-11-11T12:52Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
-    "why": "S41, the storm: Web Summit says Day 2, Wednesday 11 November, will not take place (announced 19:38 UTC Tuesday, at the Government of Portugal's formal advice; Storm Charles) and aims to hold Day 3 on Thursday. Leads until the storm passes and Thursday is confirmed. reviewer@PrompTugal.vicky keeps the five S41 keys (Dinis, 18:25); I keep 'article' and 'why'. Updated 20:52 UTC Tuesday.",
-    "standfirst": "Web Summit has called off Day 2, Wednesday 11 November, on the government's advice because of Storm Charles; it aims to hold Day 3 on Thursday.",
+    "why": "S41, the storm: Day 2 was called off; at 12:32 UTC Wednesday Web Summit's homepage says it is 'officially back on tomorrow for our final day', with sessions rescheduled from Wednesday (dev.data@'s read). Leads until Thursday's edition goes in this evening; the headline's Thursday status is S41's owners' (reviewer@PrompTugal.vicky's five keys; asked). Updated 12:52 UTC.",
+    "standfirst": "Web Summit called off Day 2 on the government's advice because of Storm Charles; on Wednesday it said it is officially back on Thursday for its final day.",
     "developments": [
       {
-        "text": "IPMA, Lisbon, Wednesday: rain red 09:00 to 18:00; wind lowered to orange, 09:00 to 21:00.",
+        "text": "IPMA, Lisbon: rain red until 15:00, then yellow to 18:00; wind orange until 18:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-11T11:33Z"
+        "checked": "2026-11-11T14:08Z"
       },
       {
         "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-11T11:33Z"
+        "checked": "2026-11-11T13:33Z"
       }
     ],
     "programme": {
-      "label": "Web Summit, Wednesday",
-      "text": "Day 2 cancelled; Day 3 planned for Thursday.",
-      "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-      "checked": "2026-11-11T11:33Z"
+      "label": "Web Summit, Thursday",
+      "text": "Day 2 cancelled; Web Summit says it is officially back on Thursday.",
+      "source": "https://websummit.com/",
+      "checked": "2026-11-11T12:36Z"
     },
-    "last_checked": "2026-11-11T11:33Z",
+    "last_checked": "2026-11-11T14:08Z",
     "live": null
   },
   "top": [
     {
       "article": "getting-around-lisbon-wednesday",
-      "why": "New: transport in Lisbon on the storm day (Carris's shuttle cancelled, Fertagus's wind limit on the bridge, the government's advice): the service a reader in Lisbon needs this morning."
+      "why": "transport on the storm day"
     },
     {
-      "article": "web-summit-day-2-refunds",
-      "why": "What is known about refunds for the cancelled Day 2."
+      "article": "digital-fairness-act-ai-agents",
+      "why": "New: the EU proposes rules for AI agents that shop on a consumer's behalf: the agent's mandate, written into consumer law."
     },
     {
       "article": "manus-2-0-agents-own-email-phone-wallet",
-      "why": "New: each agent gets its own email, phone and wallet: the agent's reach in one headline, from the company of a Centre Stage speaker."
+      "why": "each agent with its own email, phone and wallet"
     }
   ],
   "service": {
@@ -55,6 +55,7 @@
     {
       "beat": "AI",
       "articles": [
+        "digital-fairness-act-ai-agents",
         "ai-act-first-harmonised-standard",
         "manus-2-0-agents-own-email-phone-wallet",
         "zalando-ai-coding-agents",
@@ -127,6 +128,7 @@
     {
       "beat": "Europe",
       "articles": [
+        "digital-fairness-act-ai-agents",
         "ai-act-first-harmonised-standard",
         "tiktok-for-you-dsa-preliminary-finding",
         "eu-election-guidelines-generative-ai",
@@ -296,8 +298,8 @@
       {
         "date": "2026-11-12",
         "day": "Thursday 12 November",
-        "phase": "summit day 3, the last",
-        "know": "48 official items: AI and cyber (AI agents going rogue, defence at machine speed); Serpro on cyber resilience; the Road 2 Web Summit winner (road-2-web-summit-2026). Web Summit aims to hold Day 3 as planned (its announcement of 10 November, 19:38 UTC); confirm before it leads.",
+        "phase": "summit day 3 (confirmed): the final day, with rescheduled Wednesday sessions",
+        "know": "Web Summit's homepage, 12:32 UTC Wednesday: 'officially back on tomorrow for our final day ... our busiest Thursday ever with more speakers and meetups than ever, including many rescheduled from Wednesday'; the schedule updates later on Wednesday.",
         "lead": "the day's news, up to the last minute",
         "also": [
           "now and next",
@@ -361,8 +363,8 @@
         "why": "refunds: what is known"
       },
       {
-        "article": "manus-2-0-agents-own-email-phone-wallet",
-        "why": "an agent with its own email, phone and wallet"
+        "article": "digital-fairness-act-ai-agents",
+        "why": "rules for agents that shop"
       },
       {
         "article": "ai-act-first-harmonised-standard",
@@ -429,7 +431,8 @@
           "taming-the-agent-swarm": "many agents at once",
           "a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers": "the reach: how an agent and its MCP servers prove who they are",
           "who-holds-the-kill-switch": "who can stop an agent"
-        }
+        },
+        "note": "To re-check against the updated schedule on Wednesday evening: rescheduled Wednesday agent sessions (AG1's list) may join Thursday."
       }
     }
   },
@@ -453,12 +456,12 @@
     ]
   },
   "next_edition": {
-    "about": "Thursday 12 November (Day 3, which Web Summit aims to hold), drafted at 20:52 UTC Tuesday. Swapped in on Wednesday evening if Day 3 is confirmed; the storm keeps the lead if it is not.",
+    "about": "Thursday 12 November, Day 3, confirmed by Web Summit at 12:32 UTC Wednesday. Swapped in on Wednesday evening, once the rescheduled schedule is read; the storm moves to the top three.",
     "for_date": "2026-11-12",
     "lead": {
-      "article": "<Day 3 confirmed: an article on what Thursday holds, when published>",
-      "fallback": "plan-your-week-by-field",
-      "why": "The day the summit resumes; the Cybersecurity Summit is all on Thursday."
+      "article": "<an article on Thursday back on, with the rescheduled sessions, when published>",
+      "fallback": "breakout-startups-thursday-centre-stage",
+      "why": "The final day, back on after the storm: what is on, including sessions moved from Wednesday."
     },
     "top": [
       {
@@ -470,8 +473,8 @@
         "why": "the agent's reach; Noxus's GAMMA-Ray article takes this slot when published"
       },
       {
-        "article": "breakout-startups-thursday-centre-stage",
-        "why": "Day 3's Centre Stage: four startups, one an enterprise agent platform"
+        "article": "red-wind-warning-lisbon-wednesday",
+        "why": "S41, the storm and the cancelled day, as the record"
       }
     ],
     "briefing": [

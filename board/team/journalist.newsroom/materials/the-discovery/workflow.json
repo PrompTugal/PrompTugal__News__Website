@@ -1,13 +1,12 @@
 {
   "$comment": "The discovery workflow's shape, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-discovery",
-  "from": "board/team/work-desk/traces/the-discovery.json (updated 2026-11-11T09:40Z)",
+  "from": "board/team/work-desk/traces/the-discovery.json (updated 2026-11-11T12:45Z)",
   "funnel": {
-    "leads": 16,
-    "commissions": 10,
-    "published": 8,
+    "leads": 17,
+    "commissions": 11,
+    "published": 10,
     "held": [
-      "S52 (Vicky's editorial call)",
       "Invelon (date conflict)",
       "others held by the curator"
     ],
@@ -54,6 +53,14 @@
     {
       "what": "S55 commission to published",
       "minutes": 66
+    },
+    {
+      "what": "S56 commission to published",
+      "minutes": 54
+    },
+    {
+      "what": "S52 Ready to published (waiting for Vicky's call)",
+      "minutes": 363
     }
   ],
   "pattern": "one person approves once (step 1) and a standing rule (R-PUB-1) stands in for her at every publication: four articles reached readers between 01:14 and 02:56 with no person in the loop at the time. The reviewer's 'Fix first' and the curator's holds are the checks that remain.",

@@ -264,6 +264,42 @@
       "about": [
         "organisation:ipma"
       ]
+    },
+    {
+      "id": "c23",
+      "text": "At 12:32 UTC on 11 November Web Summit's homepage announcement reads: it is officially back on tomorrow (Thursday 12 November) for its final day, its busiest Thursday ever, with more speakers and meetups than ever, including many rescheduled from Wednesday. The 'Important event update' notice that the homepage carried at 10:32 UTC is no longer there.",
+      "kind": "fact",
+      "source": "websummit-homepage-event-update",
+      "quote": "Web Summit is officially back on tomorrow for our final day. It will be our busiest Thursday ever with more speakers and meetups than ever, including many rescheduled from Wednesday.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c24",
+      "text": "The same announcement tells readers to keep an eye on the schedule later that day for updates.",
+      "kind": "fact",
+      "source": "websummit-homepage-event-update",
+      "quote": "Keep an eye on the schedule later today for updates.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c25",
+      "text": "At 12:32 UTC IPMA's text for the red rain warning (09:00 to 18:00, 11 November) reads 'Precipitacao forte e persistente' (heavy and persistent); earlier readings gave 'persistent, at times heavy'. Times and level are unchanged.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o forte e persistente.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T09:00:00\", \"awarenessLevelID\": \"red\", \"endTime\": \"2026-11-11T18:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
+      ]
     }
   ]
 }

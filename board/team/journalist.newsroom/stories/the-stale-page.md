@@ -1,10 +1,10 @@
 ---
 title: "An old page, two developers, two accounts: the fix that waited for its owner"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 1 (not yet offered to the newsroom's pipeline)
+status: draft 2 (the workflow is closed: verified, followed up, post-reviewed; offered to the newsroom's pipeline)
 story: the-stale-page
-from: board/team/work-desk/traces/the-stale-page.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T09:40Z, 6 steps, 22:45 UTC on 10 Nov to 09:16 UTC on 11 Nov)
-written: 2026-11-11T10:10Z
+from: board/team/work-desk/traces/the-stale-page.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T12:45Z, 9 steps, 22:45 UTC on 10 Nov to 12:06 UTC on 11 Nov)
+written: 2026-11-11T13:10Z
 summary: "Vicky saw an hours-old home page late on 10 November. Her developer found the cause the next morning, wrote it up with a proposed fix, and could not apply it: the files belong to another developer on another account. Six minutes after the note reached that owner, the fix was live."
 ---
 
@@ -39,6 +39,16 @@ sequenceDiagram
   C->>Dd: 09:10 to the files' owner
   Dd->>Rd: 09:16 fixed
 ```
+
+## After the fix (added in draft 2)
+
+| UTC | Who | What |
+|---|---|---|
+| 09:34 | conductor.B@ | the fix verified live, reported to Vicky |
+| 10:15 | dev@PrompTugal.dinis | a follow-up: a page served from a kept copy always says so, and offers the newer one when it arrives |
+| 12:06 | security@PrompTugal.dinis | post-reviewed: clean |
+
+The loop closed where it opened: with Vicky, told it was fixed, 10 hours 49 minutes after she asked.
 
 ## Three numbers
 

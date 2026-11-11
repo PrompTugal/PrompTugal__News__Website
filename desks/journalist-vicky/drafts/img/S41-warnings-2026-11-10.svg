@@ -1,42 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-labelledby="t d">
   <title id="t">IPMA warnings for Lisbon, Wednesday 11 November 2026</title>
-  <desc id="d">Orange warning for wind 09:00 to 21:00, gusts up to 120 km/h (lowered from red on Wednesday morning); red for rain 09:00 to 18:00 (orange 00:00 to 09:00); orange for the sea 12:00 to 21:00. Lisbon time. Source: IPMA open data, read 11 November 2026 at 08:40 UTC.</desc>
+  <desc id="d">As shortened on Wednesday afternoon: orange warning for wind until 18:00, gusts up to 90 km/h and up to 110 km/h in the most exposed places; red for rain until 15:00, then yellow until 18:00; orange for the sea until 21:00, then yellow until 03:00 on Thursday. Lisbon time. Source: IPMA open data and warnings page, read 11 November 2026 at 14:08 UTC.</desc>
   <rect width="800" height="420" fill="#f7f4ee"/>
   <g font-family="Helvetica, Arial, sans-serif">
     <text x="30" y="54" font-size="38" font-weight="700" fill="#1a1a1a">Lisbon, Wednesday 11 Nov</text>
-    <text x="30" y="92" font-size="28" fill="#444">IPMA warnings, Lisbon district, local time</text>
+    <text x="30" y="92" font-size="28" fill="#444">IPMA warnings, shortened in the afternoon</text>
 
-    <!-- time axis: 00:00 at x=190, 24:00 at x=770 (24.17 px per hour) -->
-    <g font-size="28" fill="#555" text-anchor="middle">
-      <text x="190" y="140">00</text>
-      <text x="335" y="140">06</text>
-      <text x="480" y="140">12</text>
-      <text x="625" y="140">18</text>
-      <text x="770" y="140" text-anchor="end">24</text>
-    </g>
-    <g stroke="#d6d0c4" stroke-width="2">
-      <line x1="190" y1="150" x2="190" y2="345"/>
-      <line x1="335" y1="150" x2="335" y2="345"/>
-      <line x1="480" y1="150" x2="480" y2="345"/>
-      <line x1="625" y1="150" x2="625" y2="345"/>
-      <line x1="770" y1="150" x2="770" y2="345"/>
-    </g>
+    <text x="30" y="166" font-size="29" font-weight="700" fill="#1a1a1a">Wind</text>
+    <rect x="150" y="132" width="262" height="50" rx="7" fill="#ef8f00"/>
+    <text x="281" y="166" text-anchor="middle" font-size="28" font-weight="700" fill="#1a1a1a">ORANGE to 18:00</text>
 
-    <text x="30" y="194" font-size="29" font-weight="700" fill="#1a1a1a">Wind</text>
-    <rect x="408" y="160" width="289" height="50" rx="7" fill="#ef8f00"/>
-    <text x="552" y="194" text-anchor="middle" font-size="28" font-weight="700" fill="#1a1a1a">ORANGE 09-21</text>
+    <text x="30" y="236" font-size="29" font-weight="700" fill="#1a1a1a">Rain</text>
+    <rect x="150" y="202" width="262" height="50" rx="7" fill="#c62828"/>
+    <text x="281" y="236" text-anchor="middle" font-size="28" font-weight="700" fill="#fff">RED to 15:00</text>
+    <rect x="422" y="202" width="350" height="50" rx="7" fill="#f2d024"/>
+    <text x="597" y="236" text-anchor="middle" font-size="28" font-weight="700" fill="#111111">YELLOW to 18:00</text>
 
-    <text x="30" y="258" font-size="29" font-weight="700" fill="#1a1a1a">Rain</text>
-    <rect x="190" y="224" width="216" height="50" rx="7" fill="#ef8f00"/>
-    <text x="298" y="258" text-anchor="middle" font-size="28" font-weight="700" fill="#1a1a1a">ORANGE 00-09</text>
-    <rect x="408" y="224" width="217" height="50" rx="7" fill="#c62828"/>
-    <text x="516" y="258" text-anchor="middle" font-size="28" font-weight="700" fill="#fff">RED 09-18</text>
+    <text x="30" y="306" font-size="29" font-weight="700" fill="#1a1a1a">Sea</text>
+    <rect x="150" y="272" width="262" height="50" rx="7" fill="#ef8f00"/>
+    <text x="281" y="306" text-anchor="middle" font-size="28" font-weight="700" fill="#1a1a1a">ORANGE to 21:00</text>
+    <rect x="422" y="272" width="350" height="50" rx="7" fill="#f2d024"/>
+    <text x="597" y="306" text-anchor="middle" font-size="28" font-weight="700" fill="#111111">YELLOW to 03:00 Thu</text>
 
-    <text x="30" y="322" font-size="29" font-weight="700" fill="#1a1a1a">Sea</text>
-    <rect x="480" y="288" width="217" height="50" rx="7" fill="#ef8f00"/>
-    <text x="588" y="322" text-anchor="middle" font-size="28" font-weight="700" fill="#1a1a1a">ORANGE 12-21</text>
-
-    <text x="30" y="380" font-size="28" font-weight="700" fill="#1a1a1a">Wind gusts to 120 km/h</text>
-    <text x="30" y="410" font-size="28" fill="#555">Source: IPMA open data, read 11 Nov, 08:40 UTC</text>
+    <text x="30" y="370" font-size="28" font-weight="700" fill="#1a1a1a">Wind gusts to 90 km/h, 110 where exposed</text>
+    <text x="30" y="406" font-size="28" fill="#555">Source: IPMA, read 11 Nov, 14:08 UTC</text>
   </g>
 </svg>

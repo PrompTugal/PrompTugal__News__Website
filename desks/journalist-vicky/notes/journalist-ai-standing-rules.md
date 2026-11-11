@@ -23,3 +23,11 @@ Full workflow: `desks/conductor-vicky/discovery/WORKFLOW.md`. It stops when cond
 - Also pick up any line for this desk in `desks/journalist-vicky/leads/requests.md` (the curator's research requests).
 - A lead is not an assignment: write only what the curator commissions.
 - Public pages without a login only; nothing private, no contact details; our own team's agents and behaviour policies stay out of scope.
+
+## Pointer sources, and no machine reads of websummit.com (Vicky's word, 11 November 2026, 13:20 UTC, at Dinis's suggestion; relayed by conductor.B@PrompTugal.vicky)
+
+- Two pointer sources for drafts and discovery scans: https://lisbontechfringe.com (the Lisbon Fringe site: side events, including AI meetups and agent talks; `/api/v1/events.json`) and https://storm-charles.promptugal.news (the storm).
+- A pointer, never the citation: every fact is read and cited at its own source (for an event, the organiser's own page), with the read time, before anything is published.
+- Their "unknown" or hypothesis rows are never stated as fact.
+- Both are built by our own wider team, so they are not independent confirmation.
+- From 11 November 2026, 12:45 UTC: no machine reads of websummit.com (its terms forbid them). Web Summit's word comes from a person's browser read or the press. (S42 cited a websummit.com session page read by this desk on 10 November, before this rule.)

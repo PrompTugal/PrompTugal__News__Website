@@ -2,9 +2,9 @@
   "story": "the-discovery",
   "from": "board/team/work-desk/traces/the-discovery.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 43,
+  "steps": 48,
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T09:20:19Z",
+  "last": "2026-11-11T11:40:20Z",
   "actors": [
     {
       "actor": "Vicky Wang",
@@ -53,12 +53,12 @@
     {
       "actor": "curator@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 7,
+      "steps": 8,
       "first": "2026-11-11T00:45:44Z",
-      "last": "2026-11-11T08:42:15Z",
-      "span_minutes": 477,
-      "handoffs_out": 8,
-      "handoffs_in": 13,
+      "last": "2026-11-11T10:46:16Z",
+      "span_minutes": 601,
+      "handoffs_out": 9,
+      "handoffs_in": 14,
       "tokens": null
     },
     {
@@ -75,12 +75,12 @@
     {
       "actor": "reviewer@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 11,
+      "steps": 13,
       "first": "2026-11-11T01:14:26Z",
-      "last": "2026-11-11T08:49:53Z",
-      "span_minutes": 455,
-      "handoffs_out": 11,
-      "handoffs_in": 9,
+      "last": "2026-11-11T11:40:20Z",
+      "span_minutes": 626,
+      "handoffs_out": 13,
+      "handoffs_in": 10,
       "tokens": null
     },
     {
@@ -91,7 +91,7 @@
       "last": null,
       "span_minutes": null,
       "handoffs_out": 0,
-      "handoffs_in": 8,
+      "handoffs_in": 10,
       "tokens": null
     },
     {
@@ -119,12 +119,12 @@
     {
       "actor": "journalist-europe@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 9,
+      "steps": 11,
       "first": "2026-11-11T01:24:26Z",
-      "last": "2026-11-11T09:20:19Z",
-      "span_minutes": 476,
-      "handoffs_out": 8,
-      "handoffs_in": 4,
+      "last": "2026-11-11T11:26:33Z",
+      "span_minutes": 602,
+      "handoffs_out": 10,
+      "handoffs_in": 5,
       "tokens": null
     }
   ]

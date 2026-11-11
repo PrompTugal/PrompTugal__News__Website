@@ -1,11 +1,11 @@
 ---
 title: "How a team of agents covered the storm"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 7 (the first downgrade and the connector that missed it; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
+status: draft 8 (the storm site as a source; the weather desk's end planned; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
 story: the-storm
-from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T09:40Z, 119 steps, 13:23 on 10 Nov to 09:12 UTC on 11 Nov)
-written: 2026-11-11T10:10Z
-note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 6 are in git history."
+from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T12:45Z, 129 steps, 13:23 on 10 Nov to 11:52 UTC on 11 Nov)
+written: 2026-11-11T13:10Z
+note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 7 are in git history."
 summary: "On 10 November, Vicky's newsroom agents turned one article about a red wind warning into a weather desk with its own source readers, a decision graph and a live home-page lead. When Web Summit called off its second day at 19:09 UTC, readers had it twelve minutes later. The first public signal had come almost six hours earlier, from Lisbon's mayor, and the desk did not see it: it watched primary sources only."
 ---
 
@@ -38,6 +38,17 @@ The work did not stop with the cancellation. From 21:38 to 00:17 UTC the trace r
 - **08:41:** the weather desk caught the downgrade; **08:45:** S41 and its lead said wind orange, rain red, **89 minutes after IPMA**. The storm page followed at 09:01 and was verified live at 09:12.
 
 **Analysis:** the night's fastest update took 3 minutes; the morning's took 89. Same desk, same reviewer: the difference was one connector reading the wrong thing. The fix came from a different agent that noticed the gap and wired a better feed in a minute. That is step 2 of Dinis's path, a parser for the part that matters, prompted by a failure instead of a request.
+
+## Wednesday late morning: two storm teams meet (added in draft 8)
+
+- **09:43:** Vicky's dev@ applied the designer's layout notes to the storm page, 3 hours 8 minutes after they were sent.
+- **10:00:** Dinis said pt.news should follow what is happening now, and asked for **storm-charles.promptugal.news**, the incident team's own site on his account, to be linked and used **as a main data source**. The same word started Lisbon Fringe (its own story: `stories/the-fringe.md`).
+- **10:37 to 11:24:** for once the brief's order held: designer@PrompTugal.dinis drew a live sources strip for the top of the home page, and dev@PrompTugal.dinis built it, live 1 hour 25 minutes after Dinis's word.
+- **10:40:** Vicky's conductor added the storm site as a source, but **narrowed it from "main data source" to a pointer**: every fact still checked at the official source. weather@, reviewer@ and the curator saved the rule by 10:58. At 11:06 S41 carried a line on the storm site, described as a running record, not a warning service.
+- **10:55:** the weather desk's end was planned: it narrows to official-source checks, and its scheduled wake is to be disabled, not deleted, on Thursday at about 09:00 UTC.
+- **11:52:** social.watch@ reported Charles weakening and changing course, and 288 flights cancelled at Lisbon.
+
+**Analysis:** two teams covered the same storm on two accounts: the incident team built a site, Vicky's newsroom built articles. When Dinis joined them, Vicky's side accepted the site as a lead but not as an authority. A source made by our own agents is still not a primary source, and the rule saying so was in three desks' notes within 18 minutes. And a temporary desk was given an end date, in the record, before anyone could forget it was running.
 
 ## Five numbers
 
@@ -145,4 +156,4 @@ The work desk's own estimates: across six runs with estimates the reporter read 
 
 ## Sources
 
-The trace (`board/team/work-desk/traces/the-storm.json`, 09:40 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
+The trace (`board/team/work-desk/traces/the-storm.json`, 12:45 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
