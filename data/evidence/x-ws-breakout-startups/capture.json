@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-ws-breakout-startups",
+  "type": "evidence",
+  "source_url": "https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/",
+  "beat": "The summit",
+  "group": "discovery leads",
+  "names": [
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    },
+    {
+      "as_listed": "Bagel Labs",
+      "ref": "organisation:bagel-labs"
+    },
+    {
+      "as_listed": "Kamino",
+      "ref": "organisation:kamino"
+    },
+    {
+      "as_listed": "Unframe",
+      "ref": "organisation:unframe"
+    },
+    {
+      "as_listed": "norriv",
+      "ref": "organisation:norriv"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-0600.json",
+  "run": "2026-11-11-0600 (discovery workflow: follow-ups to the curator's requests)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0600.json"
+    ]
+  }
+}

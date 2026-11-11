@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-labelledby="t d">
+  <title id="t">EU election guidelines: views until 23 November</title>
+  <desc id="d">The European Commission's draft election guidelines under the Digital Services Act are open for consultation until 23 November 2026. Source: European Commission.</desc>
+  <rect width="480" height="480" fill="#f7f3ea"/>
+  <rect x="0" y="0" width="480" height="12" fill="#003399"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="36" y="96" font-size="34" fill="#003399">EU election rules</text>
+    <text x="36" y="200" font-size="72" font-weight="700" fill="#1a1a1a">23 Nov</text>
+    <text x="36" y="270" font-size="36" fill="#1a1a1a">Views invited on</text>
+    <text x="36" y="316" font-size="36" fill="#1a1a1a">deepfake labels</text>
+    <text x="36" y="430" font-size="30" fill="#444">Source: European Commission</text>
+  </g>
+</svg>

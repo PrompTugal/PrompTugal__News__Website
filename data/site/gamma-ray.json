@@ -1,8 +1,8 @@
 {
  "about": "GAMMA-Ray Spectrum cards as gamma-ray.sgit.ai publishes them (beta; every rating experimental), read by newsroom/tools/gamma-pull.mjs. Levels: A autonomy, R reach, C control, O openness, 1 to 4, 0 where not yet evidenced. The source of every card is its page on gamma-ray.sgit.ai.",
  "source": "https://gamma-ray.sgit.ai/spectrum/",
- "version": "0.0.155",
- "read_at": "2026-11-11T04:12Z",
+ "version": "0.0.160",
+ "read_at": "2026-11-11T06:17Z",
  "cards": [
   {
    "id": "riskmandate-publisher",
@@ -20,7 +20,7 @@
    "n": 9,
    "of": 16,
    "modes": "In production",
-   "lit": "72 in 8 instruments",
+   "lit": "67 in 8 instruments",
    "next": "Openness 2",
    "read": "2026-11-10",
    "review": "round-2",
@@ -46,7 +46,7 @@
    "lit": "91 in 8 instruments",
    "next": "Openness 2",
    "read": "2026-11-10",
-   "review": "round-1",
+   "review": "round-2",
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/promptugal-newsroom-team/"
   },
@@ -371,6 +371,29 @@
    "review": "approved",
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/outsystems-agent-workbench/"
+  },
+  {
+   "id": "pebl-alfie",
+   "name": "Pebl Alfie",
+   "company": "pebl",
+   "ours": false,
+   "what": "An AI assistant embedded in Pebl's employer-of-record platform that answers global employment questions, builds workforce reports from the customer's Pebl data, and submits or approves time-off requests for the user who asks.",
+   "levels": {
+    "A": 0,
+    "R": 1,
+    "C": 1,
+    "O": 2
+   },
+   "stage": "Exploring",
+   "n": 4,
+   "of": 16,
+   "modes": "none yet",
+   "lit": "49 in 8 instruments",
+   "next": "Autonomy 3",
+   "read": "2026-11-10",
+   "review": "approved",
+   "vendor_reviewed": false,
+   "card": "https://gamma-ray.sgit.ai/spectrum/cards/pebl-alfie/"
   },
   {
    "id": "replit-agent",

@@ -21,3 +21,17 @@ Logged by journalist-connections@PrompTugal.vicky under the temporary discovery 
 - categories: Startups & Scaleups, Web Summit 2026
 - web_summit_confirmation: https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/ (read 2026-11-11 04:10 UTC)
 - desk: connections
+
+## Follow-up: "Breakout startups", the four companies from their own pages (the curator's request)
+- source: the session page https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/ ; each speaker's Web Summit profile (linked from it); the companies' own sites, below
+- published: not shown
+- checked: 2026-11-11 05:10 UTC
+- new: the session page still lists Thursday 12 November, 09:24 to 09:44, Centre Stage (re-read 05:10 UTC; Web Summit's 10 November "Important event update" concerns Day 2). What each company says it does:
+  - Bagel Labs: its site (https://bagel.com/) calls it "a physical AI research lab developing world models and world action models for robot learning and control"; its founder's Web Summit profile says it "builds physical AI models for autonomous robotics". The site's title and description match the profile; no other link between them read.
+  - Kamino: its site (https://kamino.com.br/, in Portuguese) offers financial automation software for mid-sized companies ("Software de automação financeira para médias empresas": payments, receivables, reconciliation and reports); its founder's Web Summit profile calls it "the AI-first Office of the CFO platform for Brazil's mid-market". Not the Kamino at kamino.com, a Solana DeFi protocol: a different company with the same name.
+  - Unframe: its site (https://unframe.ai/) calls it "the unified platform for agents and solutions across the enterprise"; its co-founder's profile says Unframe builds "the AI layer making enterprise systems genuinely intelligent" and is "backed by $100M in funding" (the profile's claim, not checked).
+  - norriv: its site (https://norriv.com/) offers a "Hologram Box and Hologram services"; its CEO's profile says it creates "3D holograms, digital twins, and AI avatars" and that he also gives a keynote on the Growth Stage with his own "3D AI hologram clone" (that session not read).
+- establishes: the session's listing, and each company's own one-line description plus Web Summit's profile line. Nothing about results, customers or funding beyond the profiles' own words; the speakers' profiles are public and professional only. Kamino adds a Brazil link (its founder is "now based in Cascais", the profile says).
+- categories: Startups & Scaleups, Web Summit 2026 (Kamino also Brazil; Bagel Labs and Unframe also AI)
+- web_summit_confirmation: https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/ (read 2026-11-11 05:10 UTC)
+- desk: connections

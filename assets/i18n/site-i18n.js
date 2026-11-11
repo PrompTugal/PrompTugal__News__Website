@@ -22,9 +22,29 @@
         })
         var more = document.querySelector('.ctabs-more span'); if (more) { if (!('more' in EN)) EN.more = more.textContent; more.textContent = W && W.more || EN.more }
         var app = document.querySelector('.pt-app-btn'); if (app) { if (!('app' in EN)) EN.app = app.textContent; app.textContent = W && W.app || EN.app }
+        live(c, W)
+        // the footer's column heads, by their English words (the shell's markup stays as it is)
+        var FOOT = { 'Find': 'foot_find', 'The newsroom': 'foot_newsroom', 'Read': 'foot_read', 'For agents': 'foot_agents' }
+        document.querySelectorAll('.foot-cols h3').forEach(function (h) {
+            if (!h.hasAttribute('data-en')) h.setAttribute('data-en', h.textContent)
+            var k = FOOT[h.getAttribute('data-en')]; if (k) h.textContent = W && W[k] ? W[k] : h.getAttribute('data-en') })
         if (btn) btn.querySelector('span').textContent = c.split('-')[0].toUpperCase()
         var note = document.querySelector('.em-i18n-note'); if (note) note.remove()
         if (W && W.note) { var n = el('p', 'em-i18n-note', W.note); n.lang = c; var dl = document.querySelector('.em-dl'); if (dl) dl.parentNode.insertBefore(n, dl.nextSibling) }
+    }
+    // the live bar's own words (assets/live/live.js draws it after the page loads, so it is followed as it appears)
+    var LIVE = [['.live-tag', 'live'], ['.live-strip .more', 'live_agenda']], cur = ['en-GB', null]
+    function live(c, W) {
+        cur = [c, W]
+        LIVE.forEach(function (x) { var e = document.querySelector(x[0]); if (!e) return
+            var t = x[0] === '.live-tag' ? e.lastChild : e; if (!t) return
+            if (!e.hasAttribute('data-en')) e.setAttribute('data-en', t.textContent)
+            t.textContent = W && W[x[1]] ? W[x[1]] : e.getAttribute('data-en') })
+        // Now and Next by their English word (the next item takes .live-now when nothing is on)
+        document.querySelectorAll('.live-now > b, .live-next > b').forEach(function (b) {
+            if (!b.hasAttribute('data-en')) b.setAttribute('data-en', b.textContent)
+            var en = b.getAttribute('data-en'), k = /next/i.test(en) ? 'live_next' : 'live_now'
+            b.textContent = W && W[k] ? W[k] : en })
     }
     function choose(c) {
         put(c); close()
@@ -47,6 +67,8 @@
         btn.hidden = false
         btn.addEventListener('click', function () { if (menu && !menu.hidden) close(); else open() })
         document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close() })
+        var box = document.getElementById('nr-live')
+        if (box && window.MutationObserver) new MutationObserver(function () { if (cur[1]) live(cur[0], cur[1]) }).observe(box, { childList: true })
         var c = get()
         if (c && c !== 'en-GB') load().then(function (j) { if (j.words[c]) apply(c, j.words[c]) }).catch(function () { })
     }

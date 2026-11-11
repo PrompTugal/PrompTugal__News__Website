@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-11T02:48Z",
+  "updated": "2026-11-11T04:50Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
@@ -11,35 +11,35 @@
       {
         "text": "IPMA red warnings for Lisbon on Wednesday: rain 09:00 to 18:00, wind 12:00 to 21:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-11T03:33Z"
+        "checked": "2026-11-11T05:33Z"
       },
       {
         "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-11T03:33Z"
+        "checked": "2026-11-11T05:33Z"
       }
     ],
     "programme": {
       "label": "Web Summit, Wednesday",
       "text": "Day 2 cancelled; Day 3 planned for Thursday.",
       "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-      "checked": "2026-11-11T03:33Z"
+      "checked": "2026-11-11T05:33Z"
     },
-    "last_checked": "2026-11-11T03:33Z",
+    "last_checked": "2026-11-11T05:33Z",
     "live": null
   },
   "top": [
     {
+      "article": "getting-around-lisbon-wednesday",
+      "why": "New: transport in Lisbon on the storm day (Carris's shuttle cancelled, Fertagus's wind limit on the bridge, the government's advice): the service a reader in Lisbon needs this morning."
+    },
+    {
       "article": "web-summit-day-2-refunds",
-      "why": "New: what is known about refunds for the cancelled Day 2 (as of 22:07 UTC, none announced; the published terms): every ticket-holder's question tonight."
+      "why": "What is known about refunds for the cancelled Day 2."
     },
     {
-      "article": "gravitee-agent-security-survey",
-      "why": "agents outpace their security"
-    },
-    {
-      "article": "what-lovable-deleted",
-      "why": "an agent rebuilt by deletion, from a summit speaker"
+      "article": "manus-2-0-agents-own-email-phone-wallet",
+      "why": "New: each agent gets its own email, phone and wallet: the agent's reach in one headline, from the company of a Centre Stage speaker."
     }
   ],
   "service": {
@@ -55,6 +55,8 @@
     {
       "beat": "AI",
       "articles": [
+        "ai-act-first-harmonised-standard",
+        "manus-2-0-agents-own-email-phone-wallet",
         "zalando-ai-coding-agents",
         "what-lovable-deleted",
         "gravitee-agent-security-survey",
@@ -72,6 +74,7 @@
     {
       "beat": "Web Summit 2026",
       "articles": [
+        "getting-around-lisbon-wednesday",
         "red-wind-warning-lisbon-wednesday",
         "web-summit-day-2-refunds",
         "plan-your-week-by-field",
@@ -121,6 +124,7 @@
     {
       "beat": "Europe",
       "articles": [
+        "ai-act-first-harmonised-standard",
         "europe-ai-help-and-portugal-ai-startups",
         "italy-and-portugal-in-beato",
         "europe-in-pavilion-4",
@@ -344,24 +348,24 @@
     "for_date": "2026-11-11",
     "items": [
       {
+        "article": "getting-around-lisbon-wednesday",
+        "why": "transport on the storm day"
+      },
+      {
         "article": "web-summit-day-2-refunds",
-        "why": "refunds for the cancelled day: what is known"
+        "why": "refunds: what is known"
       },
       {
-        "article": "plan-your-week-by-field",
-        "why": "Thursday still runs: the Cybersecurity Summit is all on Thursday"
+        "article": "manus-2-0-agents-own-email-phone-wallet",
+        "why": "an agent with its own email, phone and wallet"
       },
       {
-        "article": "what-lovable-deleted",
-        "why": "an agent rebuilt by deletion"
+        "article": "ai-act-first-harmonised-standard",
+        "why": "the AI Act's first harmonised standard"
       },
       {
-        "article": "teamworks-coaches-agent",
-        "why": "what failed first"
-      },
-      {
-        "article": "wpp-call-transcripts-to-jira",
-        "why": "a person reviews what the agents plan"
+        "article": "zalando-ai-coding-agents",
+        "why": "agents across an engineering organisation"
       }
     ]
   },
@@ -457,8 +461,8 @@
         "why": "agents outpace their security, on security's day"
       },
       {
-        "article": "<Noxus's GAMMA-Ray article, when published>",
-        "why": "the agentic edition's centrepiece"
+        "article": "manus-2-0-agents-own-email-phone-wallet",
+        "why": "the agent's reach; Noxus's GAMMA-Ray article takes this slot when published"
       },
       {
         "article": "red-wind-warning-lisbon-wednesday",

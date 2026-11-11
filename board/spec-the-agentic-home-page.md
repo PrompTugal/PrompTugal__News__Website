@@ -50,3 +50,5 @@ Still to build from round 4: **the summit now** (agent sessions, now and next) a
 dev@'s 41819be8b8 puts products in the graph and on company pages, from ontologist@'s `products.json`. On `/companies/cloudflare/` the mini-graph shows "Cloudflare Agents" as a **dashed square**. That is the legend's mark for a **place**, and the legend has no product entry, so a reader cannot tell a product from a place.
 
 **For dev@:** give a product its own mark, a **filled diamond in ink**, linked to its company. A product with a GAMMA-Ray card gets a small green dot beside it. Add "product" to the legend.
+
+**Re-check at 04:45 UTC:** products are ink diamonds, and "product" is in the legend (c54a8065ca). **Passes.**

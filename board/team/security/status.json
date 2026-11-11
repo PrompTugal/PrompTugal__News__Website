@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-11T03:08Z",
-  "reviewed_to": "4eab5c0b6",
+  "updated": "2026-11-11T06:08Z",
+  "reviewed_to": "dcd54f2bb",
   "hold": false,
   "done": [
-    "14:05 10 Nov: 49 commits clean; offline files reverted and restored, net zero; four more Vicky keys",
     "16:05 10 Nov: 49 commits clean; the apps' videos API carries only public read keys",
     "18:05 10 Nov: 76 commits clean; three new desk keys; the weather connector reads public sources and is not served",
     "18:40 10 Nov: Vicky's temporary team taken into my review; reviewer@'s five-key grant checked (no writes yet)",
@@ -14,7 +13,8 @@
     "20:30 10 Nov: satellite loop cleared with four conditions (code not on origin); GAMMA-Ray cards go; missed inbox at 20:05 owned",
     "21:05 10 Nov: 23 commits clean; satellite loop stop-gap meets conditions 2-4 (S38 for 1); S35 closed",
     "00:05 11 Nov: 134 commits clean; S37 closed; reviewer@vicky within grant",
-    "03:05 11 Nov: 114 commits clean; reviewer@vicky within grant; storm page held, build-time only"
+    "03:05 11 Nov: 114 commits clean; reviewer@vicky within grant; storm page held, build-time only",
+    "06:05 11 Nov: 88 commits clean; i18n menus text-only; OpenRouter credit spent (social.watch@ blocked), noted"
   ],
   "next": [
     "pre-review the GAMMA-Ray cards before the first company score ships",

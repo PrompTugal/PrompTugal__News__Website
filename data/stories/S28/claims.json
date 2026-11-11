@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S28",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-11",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Replit says its platform lets you describe what you want in natural language, then create, launch and grow apps, sites, tools and businesses in one place.",
+      "kind": "fact",
+      "source": "replit-home",
+      "quote": "Describe what you want in natural language, then create, launch, and grow apps, sites, tools, and businesses in one place.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:replit"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "On 11 November 2026 Manus's home page introduces Manus 2.0 with the line 'Less structure, more intelligence.'",
+      "kind": "fact",
+      "source": "manus-home",
+      "quote": "Introducing Manus 2.0",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:manus-ai"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "MiniMax says it develops a family of proprietary foundation models across text and multimodal capabilities.",
+      "kind": "fact",
+      "source": "minimax-home",
+      "quote": "MiniMax develops a family of proprietary foundation models across text and multimodal capabilities.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:minimax"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "MiniMax says its AI-native products include MiniMax Code and MiniMax Design.",
+      "kind": "fact",
+      "source": "minimax-home",
+      "quote": "we offer AI-native products, including MiniMax Code and MiniMax Design",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:minimax"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "MiniMax's home page gives 300 M+ global individual users (its own figure; PrompTugal has not checked it).",
+      "kind": "fact",
+      "source": "minimax-home",
+      "quote": "300 M+ Global Individual Users",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:minimax"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "ModelBest describes its MiniCPM edge model series as a lightweight, high-performance LLM.",
+      "kind": "fact",
+      "source": "modelbest-home",
+      "quote": "The MiniCPM® edge model series is a world-leading, lightweight, and high-performance LLM.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:modelbest"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "ModelBest names phones, AI PCs, intelligent cabins, embodied robots and wearable devices as places MiniCPM runs.",
+      "kind": "fact",
+      "source": "modelbest-home",
+      "quote": "MiniCPM Inside Phones MiniCPM Inside AIPC MiniCPM Inside Intelligent Cabins MiniCPM Inside Embodied Robots MiniCPM Inside Wearable Devices",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:modelbest"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "You.com says its mission is to help people move faster, stay grounded and do more with AI via Web Search APIs.",
+      "kind": "fact",
+      "source": "youcom-about",
+      "quote": "We’re on a mission to help people move faster, stay grounded, and do more with AI via Web Search APIs.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:you-com"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "You.com's About page names Richard Socher as CEO and founder of You.com and CEO and co-founder of Recursive.",
+      "kind": "fact",
+      "source": "youcom-about",
+      "quote": "Richard Socher is the CEO and founder of You.com and the CEO and co-founder of Recursive.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:you-com"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "The About page says Richard Socher previously served as chief scientist and EVP at Salesforce, having joined through the 2016 acquisition of his first AI startup, MetaMind.",
+      "kind": "fact",
+      "source": "youcom-about",
+      "quote": "Richard previously served as chief scientist and EVP at Salesforce, having joined through the 2016 acquisition of his first AI startup MetaMind.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:you-com"
+      ]
+    }
+  ]
+}

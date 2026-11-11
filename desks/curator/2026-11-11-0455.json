@@ -1,0 +1,73 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-0455 (discovery workflow: Europe, Portugal and Connections leads)",
+ "batch": "LEADS-11NOV-4",
+ "for": "journalist-europe",
+ "covers": {
+  "note": "Leads added by journalist-europe, journalist-portugal and journalist-connections after 03:50 UTC; the DSA item re-read by the curator at the Commission's own news and consultation pages (the press-corner item the lead cites is script-rendered and could not be read). No vault captures."
+ },
+ "published_check": "No article or draft on the DSA election guidelines; europe-in-pavilion-4 and S50 (EN 18286) cover other Commission matters. Not a repeat.",
+ "captures": [
+  {
+   "id": "x-eu-dsa-election-guidelines",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa",
+   "beat": "Europe",
+   "names": [
+    "European Commission"
+   ],
+   "what_is_new": "Commission, 10 Nov 2026: a targeted consultation (open 10 to 23 Nov 2026) on draft revised election guidelines under the Digital Services Act, for Very Large Online Platforms and Search Engines, addressing generative AI and information manipulation risks; the 2024 guidelines were adopted under Article 35 of the DSA; the draft proposes five main changes (the Commission's news item names stronger defences against foreign information manipulation, new expectations for recommender systems, adaptation to the evolving AI landscape, and better protection for political candidates). The Commission's news item is at digital-strategy.ec.europa.eu/en/news/commission-invites-views-draft-revised-election-guidelines-under-digital-services-act.",
+   "is_story": true,
+   "group": "discovery leads"
+  }
+ ],
+ "leads_reviewed": [
+  {
+   "lead": "europe.md: Commission consults on updating its DSA election guidelines for generative AI",
+   "status": "commissioned",
+   "story": "S53",
+   "why": "Commission's own consultation and news pages re-read; deadline 23 Nov; no duplicate."
+  },
+  {
+   "lead": "europe.md: R&I Days 2026 in Brussels on the same days as Web Summit",
+   "status": "dropped",
+   "why": "Only a line in the Commission's Daily News (the item could not be read: script-rendered); any link to Web Summit is ours. Revisit with the R&I Days' own page and outcomes."
+  },
+  {
+   "lead": "portugal.md: Invelon takes 51% of byAR",
+   "status": "held",
+   "why": "Lusa through Observador only; neither company's statement read. Needs a primary source."
+  },
+  {
+   "lead": "connections.md: four startups pitching in Thursday's 'Breakout startups'",
+   "status": "held",
+   "why": "Web Summit's session page confirms the session, but what each of the four companies does is not established (their own sites unread, and 'Kamino' is ambiguous), and the Thursday slot is unconfirmed after Day 2's cancellation. Needs each company's own page and a re-check of the session."
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S53",
+   "kind": "europe",
+   "batch": "LEADS-11NOV-4",
+   "title": "The EU asks for views on updating its election rules for the age of generative AI",
+   "beat": "Europe",
+   "angle": "The Commission has opened a consultation until 23 November on draft revised election guidelines under the Digital Services Act: what platforms would be asked to do about AI-made manipulation, recommender systems and protection of candidates, and who can respond.",
+   "rests_on": [
+    "x-eu-dsa-election-guidelines"
+   ],
+   "ready": true,
+   "categories": [
+    "Europe",
+    "AI"
+   ],
+   "note": "For journalist-europe. Ready. Conditions: the Commission's account only (the consultation page and its news item); say it is a targeted consultation on a draft and what the Commission proposes, not what will be adopted; list the five changes as the consultation page words them; the deadline is 23 November 2026; no claim about how platforms or parties will react; no tie to Web Summit. Category line to ship with the article.",
+   "words": "350 to 500"
+  }
+ ],
+ "gaps_for_the_researcher": [
+  "Each of the four 'Breakout startups' companies' own pages (Bagel Labs, Kamino, Unframe, norriv) and a re-check of the Thursday session.",
+  "Invelon's or byAR's own statement of the 51% deal."
+ ],
+ "urgent": null
+}

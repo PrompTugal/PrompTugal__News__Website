@@ -740,6 +740,18 @@
       "PrompTugal__App__iOS": "3ce861bf",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). The 01:24 and 02:24 wakes did not reach this session. Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "eacd2b5e",
+      "PrompTugal__News__Website": "5f76da46",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "7b611bc1",
+      "PrompTugal__News__Storm-Charles": "bfadc616",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-11T06:20Z",
+      "note": "Storm day. No change to Day 3 (05:33). Lisbon airport TAF: strong SSE gusts 45 kt to 18:00. The incident team stopped polling websummit.com at 05:27, on its Terms (48.2, 52.1); a hold for Dinis to confirm. OpenRouter's shared key is out of credit (402) since the night: social.watch@ and any OpenRouter user blocked on that path; ask for Dinis. GAMMA-Ray: Ethiack live (15). Lanes empty."
     }
   ]
 }
