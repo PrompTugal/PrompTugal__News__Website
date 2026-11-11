@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S46",
+  "type": "story",
+  "title": "How Zalando rolled out AI coding agents across 250 teams, in its own account",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:x-zalando-agentic"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0100.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0100.json",
+      "desks/journalist-vicky/drafts/S46-zalando-ai-coding-agents.md",
+      "desks/reviewer-vicky/reviews/S46.md",
+      "content/articles/zalando-ai-coding-agents.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S46-zalando-ai-coding-agents.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S46.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/zalando-ai-coding-agents.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S46.md"
+    },
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0100.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S46-zalando-ai-coding-agents.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/zalando-ai-coding-agents.md"
+    }
+  ]
+}

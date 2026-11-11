@@ -1,6 +1,6 @@
 // Articles (brief 3): content/articles/<slug>.md, signed as markdown twins. This feature gives each article its type,
 // date, byline and breadcrumb, and fills the article lists the prose asks for (<!-- articles:list -->).
-import { mainCategories, categoriesOf, rawTags } from '../lib/categories.mjs'
+import { mainCategories, categoriesOf, rawTags, firstCategory } from '../lib/categories.mjs'
 import { imageOf, firstSentence } from './front.mjs'
 import fs from 'node:fs'
 import { render } from '../lib/markdown.mjs'
@@ -32,12 +32,12 @@ export const fill = {
         if (!list.length) return '- Our first articles are on the way. They will appear here, newest first.'
         const wire = `{.rows .news .wire}\n` + list.map(a => {
             const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'thumb')
-            return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${a.meta.summary.replace(/[*`]/g, '')}* \`${[a.meta.beat, ctx.DAY(a.meta.date), a.meta.author.replace(/@.*/, '')].filter(Boolean).join(' · ')}\``
+            return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${a.meta.summary.replace(/[*`]/g, '')}* \`${[firstCategory(ctx.ROOT, a) || a.meta.beat, ctx.DAY(a.meta.date), a.meta.author.replace(/@.*/, '')].filter(Boolean).join(' · ')}\``
         }).join('\n')
         const days = [...new Set(list.map(a => a.meta.date))]
         const byDay = days.map(d => `### ${ctx.DAY(d)} {#d-${d}}\n\n{.cards}\n` + list.filter(a => a.meta.date === d).map(a => {
             const href = ctx.link(page.rel, a.rel), img = imageOf(ctx, page, a, 'card')
-            return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary, 190)}* \`${[a.meta.beat, a.meta.author.replace(/@.*/, '')].filter(Boolean).join(' · ')}\``
+            return `- ${img ? `[${img}](${href}) ` : ''}**[${a.meta.title}](${href})** *${firstSentence(a.meta.summary, 190)}* \`${[firstCategory(ctx.ROOT, a) || a.meta.beat, a.meta.author.replace(/@.*/, '')].filter(Boolean).join(' · ')}\``
         }).join('\n')).join('\n\n')
         // by topic: each article under every tag it carries (front matter `tags`), the busiest topics first
         // with desks/curator/categories.json: the eight main categories, in the file's order; without it, the tags as before

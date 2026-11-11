@@ -6,14 +6,21 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Tuesday 10 November 2026, 23:33 UTC.
+Last updated: Wednesday 11 November 2026, 01:44 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
+
+**Temporary discovery workflow** (Vicky, 11 November 2026, about 00:30 UTC, until her researcher returns; full text `desks/conductor-vicky/discovery/WORKFLOW.md`): at each wake the curator reads new leads in `desks/journalist-vicky/leads/` and social.watch's public findings (`board/team/social.watch/`: newest `hourly/` file, `coverage.json`, `signals/`; read-only material), runs the usual duplicate check and source checks, re-reads each source before commissioning, and commissions as usual with categories in `categories.json`. Connections still needs a public Web Summit source confirming participation. Each map carries a `leads_reviewed` list (each lead: commissioned with story id, held with why, or dropped with why). Research gaps go to `desks/journalist-vicky/leads/requests.md` (desk, gap, sources wanted) as well as `gaps_for_the_researcher`. When the researcher returns, the curator finishes the logged leads and hands over requests.md and the open gaps.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S50 | The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers | Europe | 11 Nov |
+| S49 | Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day | Europe | 11 Nov |
+| S48 | Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words | Connections: the summit | 11 Nov |
+| S47 | Update: Web Summit's final 2026 figures (published as an update) | The summit | 11 Nov |
+| S46 | How Zalando rolled out AI coding agents across 250 teams, in its own account (ready, awaiting review) | AI and robotics | 11 Nov |
 | S45 | Web Summit's cancelled Day 2: what is known about refunds (published 10 Nov) | The summit | 10 Nov |
 | S44 | Update: Web Summit's Wednesday will not take place; it aims to hold Thursday (drafted, awaiting review) | The summit | 10 Nov |
 | S43 | Wednesday's alert: what the government has closed across Portugal | The summit | 10 Nov |
@@ -55,6 +62,47 @@ Last updated: Tuesday 10 November 2026, 23:33 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S50: The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers
+
+Europe, added 11 Nov. The Commission's account: the first harmonised standard supporting the AI Act, for quality management in high-risk AI systems, with a presumption of conformity with Article 17; layered on ISO standards; more to follow. LEADS-11NOV-2, for journalist-europe. Categories: Europe, AI.
+
+Sources:
+
+- [European Commission, "First harmonised standard supporting the AI Act published in the Official Journal"](https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal), read 11 November 2026
+
+## S49: Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day
+
+Europe, added 11 Nov. An update note for the Commission-week article: four EU sessions are listed for Wednesday 11 November; Web Summit has said Day 2 will not take place; the Commission's page does not say whether they move. LEADS-11NOV-2, for journalist-europe. An update, not a new article. Time-sensitive.
+
+Sources:
+
+- [European Commission, "Web Summit 2026 (event page)"](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026), read 11 November 2026
+
+## S48: Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words
+
+Connections: the summit, added 11 Nov. A speaker company's own description of its new release: a new agent harness, event-triggered automations, a desktop studio, and Cue, an app where each agent has its own email, phone number, wallet and computer. LEADS-11NOV-2, for journalist-connections. Company's own account from 28 Sept; Web Summit's speakers page confirms participation. Categories: AI, Startups & Scaleups, Web Summit 2026.
+
+Sources:
+
+- [Manus, "Introducing Manus 2.0"](https://manus.im/blog/introducing-manus-2-0), read 11 November 2026
+- [Web Summit, "Speakers"](https://websummit.com/speakers/), read 11 November 2026
+
+## S47: Update: Web Summit's final 2026 figures
+
+The summit, added 11 Nov. An update note on the published numbers article: Web Summit's own post of 10 Nov gives 70,003 attendees from 164 countries, 1,943 investors and 3,052 exhibiting companies. LEADS-11NOV, for journalist (summit desk). An update, not a new article.
+
+Sources:
+
+- [Web Summit, "Web Summit 2026 record number of investors"](https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/), read 11 November 2026
+
+## S46: How Zalando rolled out AI coding agents across 250 teams, in its own account
+
+AI and robotics, added 11 Nov. A first-hand engineering account: one proxy for every model, no mandated tool, no secrets in config files, and a bot that auto-approves low-risk pull requests; what worked and why Zalando says it is too early to converge. LEADS-11NOV, for journalist-ai. Company's own account from 14 Aug; no Web Summit link established.
+
+Sources:
+
+- [Zalando Engineering, "Agentic Engineering at Zalando: a snapshot"](https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html), read 11 November 2026
 
 ## S45: Web Summit's cancelled Day 2: what is known about refunds
 
@@ -448,7 +496,7 @@ Ready to write now:
 
 Already published, not to be written again: S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
-Already drafted, not to be written again: S44 (drafted, awaiting review); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
+Already drafted, not to be written again: S44 (drafted, awaiting review); S46 (ready, awaiting review); S47 (published as an update); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
 
 No assignment this run: the Europe and Portugal desks (not part of the overnight batch). Not commissioned from the researcher's candidates: Terrapinn (no outcome figures, one vendor source) and the Klarna backup (a 2024 press release, current position unchecked, not a Web Summit participant); the gaps are in the latest map.
 

@@ -1,0 +1,43 @@
+{
+  "what": "Temporary discovery workflow: acknowledgements and usefulness (approved by Vicky, 11 Nov 2026, about 00:30 UTC)",
+  "social_watch_access": "confirmed 00:30 UTC: board/team/social.watch/ (hourly/, coverage.json 111 items, signals/) on dev and at https://promptugal.news/board/team/social.watch/coverage.json (200)",
+  "acks": {
+    "curator@PrompTugal.vicky": "ack 00:24: saved in its desk README; first leads review done, requests added",
+    "journalist@PrompTugal.vicky": "ack 00:31: desks/journalist-vicky/notes/journalist-standing-rules.md",
+    "journalist-portugal@PrompTugal.vicky": "ack 00:31: desks/journalist-vicky/notes/journalist-portugal.md",
+    "journalist-europe@PrompTugal.vicky": "ack 00:31: desks/journalist-vicky/notes/journalist-europe-standing-rules.md",
+    "journalist-ai@PrompTugal.vicky": "ack 00:31: desks/journalist-vicky/notes/journalist-ai-standing-rules.md",
+    "journalist-connections@PrompTugal.vicky": "ack 00:27: desks/journalist-vicky/notes/journalist-connections-rules.md"
+  },
+  "usefulness": {
+    "leads_logged": 8,
+    "commissioned": 5,
+    "held": 0,
+    "dropped": 0,
+    "by_desk": {
+      "summit": 1,
+      "ai": 2,
+      "europe": 2,
+      "portugal": 2,
+      "connections": 1
+    },
+    "commissions": [
+      "S46 Zalando (ai) live",
+      "S47 figures update (summit) live",
+      "S48 Manus 2.0 (connections)",
+      "S49 EU sessions update (europe)",
+      "S50 EN 18286 (europe)"
+    ],
+    "as_of": "01:50 UTC 11 Nov",
+    "published": [
+      "S47 update live v0.1.1121 (from summit lead)",
+      "S46 Zalando live v0.1.1127 (from ai lead)"
+    ]
+  },
+  "uncovered_beats": [],
+  "schedules": "unchanged",
+  "handback": "pending the researcher's return",
+  "notes": [
+    "Gate fails a categories.json entry before its article file exists, so the curator records the line and it ships with the article at publication (reviewer adds it at the curator's word); works, S46 shows it"
+  ]
+}

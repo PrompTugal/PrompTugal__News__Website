@@ -46,6 +46,19 @@
         "c15",
         "c16"
       ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "Between IPMA's file read at 22:32 UTC on 10 November and the same file read at 00:32 UTC, the red rain warning for Wednesday 11 November moves three hours earlier, to 09:00 to 18:00 (orange 00:00 to 09:00). The time of the change is not known.",
+      "kind": "change",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c19",
+        "c20"
+      ]
     }
   ]
 }

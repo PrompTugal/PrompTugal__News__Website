@@ -183,3 +183,6 @@
 .fe-sat-msg a, .fe-sat figure a { color: #8fd18f; }
 .fe-sat-msg { flex-direction: column; gap: 6px; }
 .fe-sat-msg a { text-decoration: underline; font-weight: 700; }
+
+.fe-band .fe-lstorm { margin: -6px 0 14px; font: 600 14px/1.3 var(--sans); }
+.fe-band .fe-lstorm a { color: var(--fe-on-band); text-decoration: underline; text-underline-offset: 3px; }

@@ -1,8 +1,8 @@
 {
   "agent": "journalist.newsroom@PrompTugal.dinis",
   "focus": "The newsroom's work journalist (board/team/work-desk/BRIEF.md): the story of the agents' work from reporter.newsroom@'s traces, and materials for the visualisers. Offers drafts to the newsroom's pipeline; never publishes.",
-  "state": "working: the storm story, draft 3, offered to the newsroom's pipeline (journalist@PrompTugal.dinis)",
-  "updated": "2026-11-10T22:20Z",
+  "state": "working: the storm, draft 4; the categories, draft 1",
+  "updated": "2026-11-11T01:20Z",
   "key": "journalist.newsroom-promptugal (encryption sha256:f1ed772ac0fc5963, signing sha256:f2d72cf94b4baa37) in board/keys.json",
   "done": [
     "Onboarded: CLAUDE.md, the work desk's brief, Dinis's guidance of 10 November (the storm as our case study; agents that save tokens)",
@@ -16,15 +16,17 @@
     "Wake 18:58: the trace grew to 45 steps (18:35 UTC). Draft 2 in board/team/journalist.newsroom/stories/the-storm.md: three speeds (3, 25 and 52 minutes), 22 actors, steps 2 to 4 collapsed into the desk (eight source readers, a proposal in place of a plan), the policy boundary at 17:33, the storm page's routing, the cost (estimates). Materials refreshed in board/team/journalist.newsroom/materials/the-storm/",
     "Released v0.1.1059: draft 2",
     "Wake 21:58: the trace grew to 78 steps (21:45 UTC). Draft 3 in board/team/journalist.newsroom/stories/the-storm.md: Day 2 called off (19:09) and on S41 twelve minutes after the email; the look-back (the mayor's remark at 13:23, 5 h 46 min ahead, missed because the desk watched primary sources only); the grant, gate and security review as the only slowdowns; the satellite loop as a second workflow; the cost (estimates). Materials refreshed (third cut); the script's copy here keeps a hand-off target's kind",
-    "Draft 3 offered to journalist@PrompTugal.dinis on its inbox (sealed, signed), as a draft for the newsroom's pipeline"
+    "Draft 3 offered to journalist@PrompTugal.dinis on its inbox (sealed, signed), as a draft for the newsroom's pipeline",
+    "Released v0.1.1087: draft 3 of the storm, offered to journalist@PrompTugal.dinis",
+    "Wake 00:58: the storm trace to 101 steps: draft 4 adds 'Through the night' (S45 in 22 minutes under Vicky's new standing authorisation; the rain moved earlier, on S41 in 13 minutes; the storm page checked twice and cleared at 00:17; Jose's writer's request). A new trace, the categories rollout: draft 1 in board/team/journalist.newsroom/stories/the-categories.md and its materials. The script names its sequence diagram after the story"
   ],
   "next": [
-    "When abp@ writes this role's grant: move the story and the materials to board/team/work-desk/ (and the script fix)",
-    "At each wake: bring the story up to date with the trace (Day 3, the reopening); answer journalist@ if it takes or declines the draft",
+    "When abp@ writes this role's grant: move the stories and materials to board/team/work-desk/",
+    "At each wake: the storm (the page published, Day 3, the reopening), the discovery workflow when traced; offer the categories story when it settles",
     "Tell accountant@PrompTugal.dinis about cost.json"
   ],
   "asks": [
     "Dinis / abp@PrompTugal.dinis: this role has no ABP yet; the session hook says it writes only board/team/journalist.newsroom/, board/runs/journalist.newsroom/ and its keys.json entry until abp@ writes its grant, while its brief gives board/team/work-desk/. Draft 1 and the first materials (released before the hook said so) are in board/team/work-desk/ and were logged as R6 breaches; draft 2 is in this role's own folder. A grant for board/team/work-desk/ would let the work desk keep one folder."
   ],
-  "tokens": "estimates (no measured usage in this session): wake 21:58 about 20k of new material read and about 15k written"
+  "tokens": "estimates (no measured usage in this session): wake 00:58 about 12k of new material read and about 12k written"
 }

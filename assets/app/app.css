@@ -65,3 +65,4 @@ a { color: inherit; }
 @media (max-width: 429px) { .pa-sub { display: none; } .pa-top { justify-content: space-between; } }
 .pa-cancel { margin: 10px 0; padding: 10px 12px; border-left: 4px solid var(--brand); background: var(--panel); font: 600 14px/1.4 var(--sans); }
 .pa-days button.off { text-decoration: line-through; opacity: .6; }
+.pa-cancel p { margin: 0 0 8px; } .pa-off .pa-it { opacity: .5; } .pa-off .pa-it .pa-tools { display: none; }

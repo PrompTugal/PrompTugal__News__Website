@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2961 cards (783 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-10T21:58:54Z at site v0.1.1085; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2974 cards (796 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-11T00:59:17Z at site v0.1.1117; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `RDR.SHERPA` | 25 |
+| `RDR.SHERPA` | 26 |
 | `RDR.SYN` | 5 |
 | `TEAM.ABP` | 53 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 81 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1589 |
+| `TEAM.ROLE` | 1601 |
 | `TEAM.RUN` | 1176 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261110-0315` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/workflow.json) (`TEAM.ROLE workflow:2`)
-- `ACC-20261110-0314` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/timeline.json) (`TEAM.ROLE timeline:3`)
-- `ACC-20261110-0313` [How a team of agents covered the storm](https://promptugal.news/board/team/journalist.newsroom/stories/the-storm.md) (`TEAM.ROLE the-storm:6`)
-- `ACC-20261110-0312` [the-storm.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/the-storm.mmd) (`TEAM.ROLE the-storm:5`)
-- `ACC-20261110-0311` [handoffs.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/handoffs.json) (`TEAM.ROLE handoffs:2`)
+- `ACC-20261111-0021` [trace-to-materials.mjs](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/code/trace-to-materials.mjs) (`TEAM.ROLE trace-to-materials:2`)
+- `ACC-20261111-0020` [the-categories.json](https://promptugal.news/board/team/work-desk/traces/the-categories.md) (`TEAM.ROLE the-categories:2`)
+- `ACC-20261111-0019` [the-categories.json](https://promptugal.news/board/team/work-desk/traces/the-categories.json) (`TEAM.ROLE the-categories`)
+- `ACC-20261111-0018` [2026-11-11T0052Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-11T0052Z.json) (`TEAM.ROLE 2026-11-11T0052Z`)
+- `ACC-20261111-0017` [2026-11-11T0050Z-closing-reading.json](https://promptugal.news/board/team/accountant/ledger/2026-11-11T0050Z-closing-reading.json) (`TEAM.ROLE 2026-11-11T0050Z-closing-reading`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

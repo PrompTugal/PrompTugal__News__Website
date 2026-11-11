@@ -9,6 +9,8 @@ beat: Announcements
 license: https://creativecommons.org/licenses/by/4.0/
 tags: announcements, the summit, Web Summit, survey
 ---
+> **Update, 11 November 2026, 01:12 UTC.** Web Summit has published new figures for this edition. In [a post on 10 November](https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/), before Day 2 was called off, it says tickets sold out at 70,003 attendees from 164 countries. It counts 1,943 investors, a record for the second year running, and says more than 10,000 startups will attend and 3,052 companies from 110 countries will exhibit. These are Web Summit's own figures, not checked independently. The figures below were those expected before the event; the ones in this note are Web Summit's latest, from 10 November.
+
 ## In short
 
 - Web Summit expects more than 70,000 attendees from more than 100 countries in Lisbon, from 9 to 12 November, including 10,000 startups.
@@ -52,6 +54,7 @@ Web Summit's SVP of Technology Operations, Nidhi Naithani, said the study shows 
 
 ## Where this comes from
 
+- [Web Summit, "Web Summit 2026: Record number of investors at its most international event yet"](https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/) (the figures in the 11 November update), published 10 November 2026, read 11 November 2026 at 01:10 UTC
 - Web Summit, "Web Summit's first state of the industry survey finds tech torn on AI", 22 October 2026, read 5 November 2026: <https://websummit.com/blog/news/web-summits-first-state-of-the-industry-survey-finds-tech-torn-on-ai/>
 - Web Summit, tracks, read 5 November 2026: <https://websummit.com/tracks/>
 - Web Summit, "How we select our startups", read 5 November 2026: <https://websummit.com/blog/startups-investors/how-we-select-our-startups/>

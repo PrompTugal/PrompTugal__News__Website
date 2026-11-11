@@ -54,6 +54,8 @@ function rowsFor(g, ref) {
         if (field) put(4, inn(field, 'filed_under').sort(byDeg).map(id => ({ id, parent: field })), 5)
         // what it is built on, what is built on it, where it sells (ontologist@'s built_on and sells_on, 7 November)
         put(3, [...out(ref, 'built_on'), ...inn(ref, 'built_on'), ...out(ref, 'sells_on'), ...inn(ref, 'sells_on')].map(id => ({ id, parent: ref })), 7)
+        // its products and the companies it is an alternative to (ontologist@'s offers and offers_alternative_to, 10 November)
+        put(3, [...out(ref, 'offers'), ...out(ref, 'offers_alternative_to'), ...inn(ref, 'offers_alternative_to')].map(id => ({ id, parent: ref })), 7)
     } else if (t === 'event') {
         put(0, [...out(ref, 'part_of'), ...out(ref, 'in_track')].map(id => ({ id, parent: ref })), 4)
         put(1, [...inn(ref, 'speaks_at'), ...inn(ref, 'hosts'), ...out(ref, 'organised_by')].map(id => ({ id, parent: ref })), 5)

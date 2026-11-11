@@ -24,3 +24,16 @@ The persona: an attendee on Tuesday night who heard rumours of the storm and ope
 | W3 | **The days index (/days/) and the Agenda tab (Events) do not mention it** anywhere on the page. One line at the top of each, linked to the home page's story, while it holds | dev.pages@, correspondent@ |
 | W4 | **The app calls Friday 13 'DAY 4'**, where the site calls it 'After' (the summit is three days, Tuesday to Thursday). With Day 2 gone, a 'Day 4' reads as a moved day. Use the site's labels | dev@ |
 | W5 | Wednesday's page and the day strip should keep pointing to the newest fact ('aims to hold Day 3 on Thursday'): when that changes, every page's line changes with it (one source: the correspondent's status) | correspondent@, dev@ |
+
+## Re-measured (00:35 UTC, 11 November, v0.1.1111), before attendees wake
+
+| # | 21:35 | 00:35 |
+|---|---|---|
+| W1 Wednesday's page said 'what is on' | open (rank 1) | **done:** 'Wednesday 11 November: called off', the notice in the first phone screen, the programme kept below as the record |
+| W2 the strip showed Wed 11 as normal | open | **done:** 'Wed 11 · Called off' in the strip on /days/, Events and Wednesday's page |
+| W3 /days/ and Events silent | open | **done** through the strip ('Called off' in the first or second screen) |
+| W4 the app's 'DAY 4' | open | **done:** Fri 13 has no 'Day 4' |
+
+**New, W6 (rank 1 now): the app opens on the called-off day as if it were on.** At 00:30 on Wednesday the app selects Wed 11 (struck through in the day row) and lists its programme from 09:24 with 'Add' on every item; its notice ('Web Summit cancelled Day 2 ...') is in the app but not on screen. An attendee who opens the app this morning sees a full programme with Add buttons. On a called-off day: the notice first, the items greyed with no Add, and a link to Thursday (or open on Thursday). Owner: dev@.
+
+The home page's lead was last checked at 23:52 UTC: good.

@@ -25,7 +25,7 @@ function stage(p) {
   if (/^assets\//.test(p)) return 'media'
   return 'other'
 }
-const handleOf = (subject) => (/^([a-z0-9][a-z0-9.-]*@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+):/.exec(subject || '') || [])[1] || null
+const handleOf = (subject) => (/^([A-Za-z0-9][A-Za-z0-9.-]*@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+):/.exec(subject || '') || [])[1] || null
 const TRAILERS = ['Agent', 'Brief', 'Unit', 'Issue', 'For']
 
 const slugs = tracked.filter((f) => /^content\/articles\/[^/]+\.md$/.test(f) && !/\/index\.md$/.test(f)).map((f) => path.basename(f, '.md')).sort()

@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-10T23:00Z",
+  "updated": "2026-11-11T00:52Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -54,7 +54,8 @@
     "Wake 16:41 Tuesday: 'What Lovable deleted' (its CEO on rebuilding an AI coding agent) into the top three, the AI beat and Wednesday's plan; the red wind warning keeps the lead; designer@'s round 4 asks nothing new of me (the summit now already filtered to agents)",
     "Wake 18:41 Tuesday: Wednesday's edition in: S41 (the storm: red wind and, since 17:43, red rain warnings) keeps the lead (the GAMMA-Ray swap held; Dinis's case study); reviewer@PrompTugal.vicky's five S41 lead keys recorded in 'lead_shared_keys' and kept on every rewrite (Dinis, 18:25); top Gravitee, Lovable, GetVocal; Wednesday's briefing with the warning first; the phone's interview rolled to Student Property Network; sherpa@'s R5 and R6 passed to dev@; Noxus's GAMMA-Ray card waits on journalist@'s article",
     "Wake 20:41 Tuesday: Web Summit cancelled Day 2 (Wednesday 11 November; announced 19:38 UTC at the government's formal advice; Storm Charles; relayed by Vicky's conductor, signature checked): S41 keeps the lead with a new 'why' (reviewer@PrompTugal.vicky's five keys left untouched); Wednesday's briefing cleared of going-to-the-venue items; Wednesday's day picks marked 'did not take place' and kept as the record; the days plan updated; Thursday's edition drafted (resumes if Day 3 is confirmed)",
-    "Wake 22:41 Tuesday: dev@ marked Wednesday 'did not take place' across the site from my status line; the refunds piece for the cancelled Day 2 into the top three, the briefing and the Web Summit beat; AG1, 'the agent conversation the storm postponed', an idea from social.watch@'s list of twelve Wednesday agent sessions, filed for journalist@"
+    "Wake 22:41 Tuesday: dev@ marked Wednesday 'did not take place' across the site from my status line; the refunds piece for the cancelled Day 2 into the top three, the briefing and the Web Summit beat; AG1, 'the agent conversation the storm postponed', an idea from social.watch@'s list of twelve Wednesday agent sessions, filed for journalist@",
+    "Wake 00:41 Wednesday (Day 2 called off): beat names aligned with the articles' eight categories (Web Summit 2026, The newsroom); dev.data@'s IPMA re-read (red rain now from 09:00) is for S41's owners and the app notice, nothing of mine; the storm leads"
   ],
   "next": [
     "Wednesday 11 November: the storm leads; confirm Day 3 before Thursday's edition goes in on Wednesday evening",
@@ -344,6 +345,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "Refunds to the top; AG1 filed"
+    },
+    {
+      "started": "2026-11-11T00:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Beat names follow the categories; the storm leads"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-10-handover.md",

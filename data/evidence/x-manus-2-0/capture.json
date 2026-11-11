@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-manus-2-0",
+  "type": "evidence",
+  "source_url": "https://manus.im/blog/introducing-manus-2-0",
+  "beat": "AI and robotics",
+  "group": "discovery leads",
+  "names": [
+    {
+      "as_listed": "Manus AI",
+      "ref": "company:manus-ai"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-0200.json",
+  "run": "2026-11-11-0200 (discovery workflow: connections, Europe and Portugal leads)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0200.json"
+    ]
+  }
+}

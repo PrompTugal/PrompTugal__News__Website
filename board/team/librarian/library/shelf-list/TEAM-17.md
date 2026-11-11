@@ -1,19 +1,30 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 17 of 30)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T21:58:54Z"
-site_version: "v0.1.1085"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T00:59:17Z"
+site_version: "v0.1.1117"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 17 of 30)
 
-100 cards, from `TEAM.ROLE tour-company` to `TEAM.ROLE verified:25`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE thinking.en` to `TEAM.ROLE verified:14`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1601 to 1625**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE thinking.en` | [Investors: what we think](https://promptugal.news/board/team/investors/site/md/thinking.en.md) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE thinking.es` | [Inversores: lo que pensamos](https://promptugal.news/board/team/investors/site/md/thinking.es.md) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE thinking.fr` | [Investisseurs : ce que nous pensons](https://promptugal.news/board/team/investors/site/md/thinking.fr.md) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE thinking.pt` | [Investidores: o que pensamos](https://promptugal.news/board/team/investors/site/md/thinking.pt.md) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE timeline` | [PrompTugal.news, a timeline: 4 to 6 November 2026](https://promptugal.news/board/team/historian/timeline.md) | team | historian@ 6 Nov 2026 |
+| `TEAM.ROLE timeline:2` | [timeline.json](https://promptugal.news/board/team/work-desk/materials/the-storm/timeline.json) | team | journalist.newsroom@ 10 Nov 2026 |
+| `TEAM.ROLE timeline:3` | [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/timeline.json) | team | journalist.newsroom@ 10 Nov 2026 |
+| `TEAM.ROLE tour-account` | [tour-account.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-account.jpg) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE tour-article` | [tour-article.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-article.jpg) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE tour-article-sources` | [tour-article-sources.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-article-sources.jpg) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE tour-ask` | [tour-ask.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-ask.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-company` | [tour-company.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-company.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-decisions` | [tour-decisions.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-decisions.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-graph` | [tour-graph.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-graph.jpg) | team | investors@ 7 Nov 2026 |
@@ -28,22 +39,23 @@ source: board/catalogue.json
 | `TEAM.ROLE tour-player` | [tour-player.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-player.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-search` | [tour-search.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-search.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-summit` | [tour-summit.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-summit.jpg) | team | investors@ 7 Nov 2026 |
+
+**Cards 1626 to 1650**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE tour-topup` | [tour-topup.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-topup.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-twin` | [tour-twin.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-twin.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-vault` | [tour-vault.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-vault.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tpl` | [team/investors/site/tpl/](https://promptugal.news/board/team/investors/site/tpl/) | series | investors@ 7 Nov 2026 |
 | `TEAM.ROLE trace-to-materials` | [trace-to-materials.mjs](https://promptugal.news/board/team/work-desk/materials/the-storm/code/trace-to-materials.mjs) | team | journalist.newsroom@ 10 Nov 2026 |
+| `TEAM.ROLE trace-to-materials:2` | [trace-to-materials.mjs](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/code/trace-to-materials.mjs) | team | journalist.newsroom@ 10 Nov 2026 |
 | `TEAM.ROLE transcript_extract` | [transcript_extract.py](https://promptugal.news/board/team/security/tools/transcript_extract.py) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE vault` | [vault.jpg](https://promptugal.news/board/team/investors/decks/shots/vault.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE vaults` | [vaults.json](https://promptugal.news/board/team/designer/vaults.json) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE verified` | [verified.json](https://promptugal.news/board/team/dev.verify/records/brazil-startup-mission/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/brazil-startup-mission/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block:10` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/web-summit-2026-in-numbers/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
-
-**Cards 1626 to 1650**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE verified-block:11` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/your-first-day-at-web-summit/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block:12` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/0xbow/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block:13` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/1password/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
@@ -57,6 +69,11 @@ source: board/catalogue.json
 | `TEAM.ROLE verified-block:20` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/italy-and-portugal-in-beato/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block:21` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/newsroom-status-four-days-out/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block:22` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/octo-health-launches/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
+
+**Cards 1651 to 1675**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE verified-block:23` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/pineapple-waste-to-fish-feed/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block:24` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/web-summit-before-2026/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified-block:25` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/web-summit-ten-lisbon-years/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
@@ -69,11 +86,6 @@ source: board/catalogue.json
 | `TEAM.ROLE verified-block:31` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/rio-ten-startups-to-lisbon/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:32` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/who-does-the-work/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:33` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/ai-infinity/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
-
-**Cards 1651 to 1675**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE verified-block:34` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/airia/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:35` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/aisle/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:36` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/akamai/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
@@ -87,6 +99,11 @@ source: board/catalogue.json
 | `TEAM.ROLE verified-block:43` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/atlassian/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:44` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/cerebras/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:45` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/chatplace/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
+
+**Cards 1676 to 1700**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE verified-block:46` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/cisco-outshift/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:47` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/cloudflare/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:48` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/brazils-doors-into-europe/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
@@ -99,11 +116,6 @@ source: board/catalogue.json
 | `TEAM.ROLE verified-block:54` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/conscium/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:55` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/contents/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:56` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/plan-your-week-by-field/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
-
-**Cards 1676 to 1700**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE verified-block:57` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/crowdstrike/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:58` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records-companies/crystal-intelligence/verified-block.md) (withdrawn) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE verified-block:59` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/daily-newsletter/verified-block.md) (withdrawn) | team | dev@ 8 Nov 2026 |
@@ -117,17 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE verified:12` | [verified.json](https://promptugal.news/board/team/dev.verify/records-companies/0xbow/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified:13` | [verified.json](https://promptugal.news/board/team/dev.verify/records-companies/1password/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE verified:14` | [verified.json](https://promptugal.news/board/team/dev.verify/records-companies/aicep/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:15` | [verified.json](https://promptugal.news/board/team/dev.verify/records-companies/air-apps/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:16` | [verified.json](https://promptugal.news/board/team/dev.verify/records/brazil-comes-to-lisbon-intuitivo-heads-to-brazil/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:17` | [verified.json](https://promptugal.news/board/team/dev.verify/records/brazil-on-the-stages/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:18` | [verified.json](https://promptugal.news/board/team/dev.verify/records/brazils-startup-house-in-lisbon/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:19` | [verified.json](https://promptugal.news/board/team/dev.verify/records/europe-ai-help-and-portugal-ai-startups/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:2` | [verified.json](https://promptugal.news/board/team/dev.verify/records/europe-in-pavilion-4/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:20` | [verified.json](https://promptugal.news/board/team/dev.verify/records/italy-and-portugal-in-beato/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:21` | [verified.json](https://promptugal.news/board/team/dev.verify/records/newsroom-status-four-days-out/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:22` | [verified.json](https://promptugal.news/board/team/dev.verify/records/octo-health-launches/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:23` | [verified.json](https://promptugal.news/board/team/dev.verify/records/pineapple-waste-to-fish-feed/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:24` | [verified.json](https://promptugal.news/board/team/dev.verify/records/web-summit-before-2026/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified:25` | [verified.json](https://promptugal.news/board/team/dev.verify/records/web-summit-ten-lisbon-years/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-16.md) | [Next part](TEAM-18.md)

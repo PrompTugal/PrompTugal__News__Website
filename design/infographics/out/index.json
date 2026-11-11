@@ -2985,6 +2985,150 @@
     "source": "desks/journalist-vicky/drafts/img/S45-cover-thumb-2026-11-10.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
     "checked": "every label against the article, Web Summit's statement and its terms (read 22:07 UTC), 10 November 2026, by reviewer@PrompTugal.vicky, at Vicky Wang's word"
    }
+  },
+  {
+   "slug": "speed-where-its-safe-control-where-it-matters",
+   "theme": "paper",
+   "layout": "table",
+   "size": "thumb",
+   "file": "speed-where-its-safe-control-where-it-matters--paper--thumb.png",
+   "auto": true,
+   "made": "2026-11-11",
+   "tool": "design/infographics/table/make.mjs --heading 'What speed bought' --label 'By the end of' --per-column",
+   "checked": "drawn from the article's own table, no AI; every number checked against it; each column on its own scale"
+  },
+  {
+   "slug": "speed-where-its-safe-control-where-it-matters",
+   "theme": "ink",
+   "layout": "table",
+   "size": "thumb",
+   "file": "speed-where-its-safe-control-where-it-matters--ink--thumb.png",
+   "auto": true,
+   "made": "2026-11-11",
+   "tool": "design/infographics/table/make.mjs --heading 'What speed bought' --label 'By the end of' --per-column",
+   "checked": "drawn from the article's own table, no AI; every number checked against it; each column on its own scale"
+  },
+  {
+   "slug": "speed-where-its-safe-control-where-it-matters",
+   "theme": "paper",
+   "layout": "table",
+   "size": "card",
+   "file": "speed-where-its-safe-control-where-it-matters--paper--card.png",
+   "auto": true,
+   "made": "2026-11-11",
+   "tool": "design/infographics/table/make.mjs --heading 'What speed bought' --label 'By the end of' --per-column",
+   "checked": "drawn from the article's own table, no AI; every number checked against it; each column on its own scale"
+  },
+  {
+   "slug": "speed-where-its-safe-control-where-it-matters",
+   "theme": "ink",
+   "layout": "table",
+   "size": "card",
+   "file": "speed-where-its-safe-control-where-it-matters--ink--card.png",
+   "auto": true,
+   "made": "2026-11-11",
+   "tool": "design/infographics/table/make.mjs --heading 'What speed bought' --label 'By the end of' --per-column",
+   "checked": "drawn from the article's own table, no AI; every number checked against it; each column on its own scale"
+  },
+  {
+   "slug": "web-summit-passes-and-colours",
+   "theme": "paper",
+   "layout": "samples",
+   "size": "thumb",
+   "file": "web-summit-passes-and-colours--paper--thumb.png",
+   "auto": true,
+   "made": "2026-11-11",
+   "tool": "design/infographics/passes/make.mjs",
+   "checked": "the article's own nineteen colour samples and pass names, no AI; 256 colours, dithered, so the gradients keep their shape (64 banded them)"
+  },
+  {
+   "slug": "web-summit-passes-and-colours",
+   "theme": "ink",
+   "layout": "samples",
+   "size": "thumb",
+   "file": "web-summit-passes-and-colours--ink--thumb.png",
+   "auto": true,
+   "made": "2026-11-11",
+   "tool": "design/infographics/passes/make.mjs",
+   "checked": "the article's own nineteen colour samples and pass names, no AI; 256 colours, dithered, so the gradients keep their shape (64 banded them)"
+  },
+  {
+   "slug": "web-summit-passes-and-colours",
+   "theme": "paper",
+   "layout": "samples",
+   "size": "card",
+   "file": "web-summit-passes-and-colours--paper--card.png",
+   "auto": true,
+   "made": "2026-11-11",
+   "tool": "design/infographics/passes/make.mjs",
+   "checked": "the article's own nineteen colour samples and pass names, no AI; 256 colours, dithered, so the gradients keep their shape (64 banded them)"
+  },
+  {
+   "slug": "web-summit-passes-and-colours",
+   "theme": "ink",
+   "layout": "samples",
+   "size": "card",
+   "file": "web-summit-passes-and-colours--ink--card.png",
+   "auto": true,
+   "made": "2026-11-11",
+   "tool": "design/infographics/passes/make.mjs",
+   "checked": "the article's own nineteen colour samples and pass names, no AI; 256 colours, dithered, so the gradients keep their shape (64 banded them)"
+  },
+  {
+   "slug": "zalando-ai-coding-agents",
+   "theme": "paper",
+   "layout": "list",
+   "size": "card",
+   "file": "zalando-ai-coding-agents--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S46-cover-card-2026-11-11.svg (drawn by journalist-ai@PrompTugal.vicky, card labels raised by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Zalando's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "zalando-ai-coding-agents",
+   "theme": "ink",
+   "layout": "list",
+   "size": "card",
+   "file": "zalando-ai-coding-agents--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S46-cover-card-2026-11-11.svg (drawn by journalist-ai@PrompTugal.vicky, card labels raised by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Zalando's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "zalando-ai-coding-agents",
+   "theme": "paper",
+   "layout": "list",
+   "size": "thumb",
+   "file": "zalando-ai-coding-agents--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S46-cover-thumb-2026-11-11.svg (drawn by journalist-ai@PrompTugal.vicky, card labels raised by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Zalando's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "zalando-ai-coding-agents",
+   "theme": "ink",
+   "layout": "list",
+   "size": "thumb",
+   "file": "zalando-ai-coding-agents--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S46-cover-thumb-2026-11-11.svg (drawn by journalist-ai@PrompTugal.vicky, card labels raised by the reviewer); its own light and dark styles; rendered with Chromium",
+    "checked": "every label against the article and Zalando's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
   }
  ]
 }

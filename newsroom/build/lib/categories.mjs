@@ -31,3 +31,10 @@ export function categoriesOf(root, a) {
     const known = new Set(c.categories.map(x => x.name))
     return (c.articles[slugOf(a)] || []).filter(n => known.has(n))
 }
+// the label on an article's card on the articles page: its first main category from the file ('' with no file or no entry, so the caller
+// keeps today's label). Homepage labels (kickers) never use this.
+export function firstCategory(root, a) {
+    const c = loadCategories(root); if (!c) return ''
+    const known = new Set(c.categories.map(x => x.name))
+    return (c.articles[slugOf(a)] || []).find(n => known.has(n)) || ''
+}

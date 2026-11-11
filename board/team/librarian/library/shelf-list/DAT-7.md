@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 7 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-10T21:58:54Z"
-site_version: "v0.1.1085"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T00:59:17Z"
+site_version: "v0.1.1117"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 7 of 11)
 
-100 cards, from `DAT.ORG sky-news` to `DAT.PE carlos-moedas`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG sky-news` to `DAT.PE calum-chace`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
@@ -76,6 +76,7 @@ source: board/catalogue.json
 |---|---|---|---|
 | `DAT.ORG xpeng-aridge-flying-cars` | [XPENG Aridge Flying Cars](https://promptugal.news/organisations/xpeng-aridge-flying-cars/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG xynova` | [Xynova](https://promptugal.news/organisations/xynova/) | organisation | curator@PrompTugal.vicky 8 Nov 2026 |
+| `DAT.ORG zalando` | [Zalando](https://promptugal.news/organisations/zalando/) | organisation | curator@PrompTugal.vicky 11 Nov 2026 |
 | `DAT.PE abhinav-gupta` | [Abhinav Gupta](https://promptugal.news/people/abhinav-gupta/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE abigail-slater` | [Abigail Slater](https://promptugal.news/people/abigail-slater/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE adam-kobeissi` | [Adam Kobeissi](https://promptugal.news/people/adam-kobeissi/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.PE andrew-sollinger` | [Andrew Sollinger](https://promptugal.news/people/andrew-sollinger/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE ang-li` | [Ang Li](https://promptugal.news/people/ang-li/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE ania-lichtarowicz` | [Ania Lichtarowicz](https://promptugal.news/people/ania-lichtarowicz/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE anne-bertucio-de-hollembeak` | [Anne Bertucio de Hollembeak](https://promptugal.news/people/anne-bertucio-de-hollembeak/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 676 to 700**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE anne-bertucio-de-hollembeak` | [Anne Bertucio de Hollembeak](https://promptugal.news/people/anne-bertucio-de-hollembeak/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE anni-chen` | [Anni Chen](https://promptugal.news/people/anni-chen/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE anthony-grieco` | [Anthony Grieco](https://promptugal.news/people/anthony-grieco/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE anton-osika` | [Anton Osika](https://promptugal.news/people/anton-osika/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.PE brooke-hopkins` | [Brooke Hopkins](https://promptugal.news/people/brooke-hopkins/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE burke-stephenson` | [Burke Stephenson](https://promptugal.news/people/burke-stephenson/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE calum-chace` | [Calum Chace](https://promptugal.news/people/calum-chace/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE carlos-moedas` | [Carlos Moedas](https://promptugal.news/people/carlos-moedas/) | person | programme@web-summit.vicky 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-6.md) | [Next part](DAT-8.md)

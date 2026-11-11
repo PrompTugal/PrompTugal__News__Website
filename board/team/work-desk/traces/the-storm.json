@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-10T21:45Z",
+  "updated": "2026-11-11T00:45Z",
   "covers": {
     "from": "2026-11-10T13:23:00Z",
-    "to": "2026-11-10T21:23:05Z",
-    "last_commit": "985b1f395"
+    "to": "2026-11-11T00:17:00Z",
+    "last_commit": "8e9f20ecc"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -1753,6 +1753,464 @@
       ],
       "hand_off": "person->agent (Vicky, via reviewer@)",
       "workflow_step": "5. the UI refined"
+    },
+    {
+      "n": 79,
+      "time_utc": "2026-11-10T21:38:00Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "21:37 check",
+      "output": "Web Summit's statement at its own URL and a homepage banner; Fertagus's 90 km/h bridge rule",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:1a5f3378f"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 80,
+      "time_utc": "2026-11-10T21:44:21Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the lead's fallback chart",
+      "output": "caption 'Chart based on IPMA data' instead of 'AI-made image'",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:dd2048b5d"
+      ]
+    },
+    {
+      "n": 81,
+      "time_utc": "2026-11-10T21:46:08Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S44 (the Wednesday guide's Day 2 note)",
+      "output": "placement approved by Vicky, pending journalist@PrompTugal.dinis's agreement (its signature on the guide)",
+      "hand_off_to": [
+        {
+          "name": "journalist@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:356ea1b7f",
+        "commit:36f4e4e6c"
+      ],
+      "hand_off": "person->agent->agent (across owners: Vicky's yes, Dinis's journalist's signature)"
+    },
+    {
+      "n": 82,
+      "time_utc": "2026-11-10T21:48:10Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Day 2 off",
+      "output": "S45 commissioned: what is known about refunds",
+      "hand_off_to": [
+        {
+          "name": "journalist@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:8ddd1fbd0"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 83,
+      "time_utc": "2026-11-10T21:51:50Z",
+      "actor": {
+        "name": "journalist@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the commission; Web Summit's terms",
+      "output": "S45 drafted",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:aeb2f473b"
+      ],
+      "hand_off": "agent->agent",
+      "note": "3 min 40 s from commission to draft."
+    },
+    {
+      "n": 84,
+      "time_utc": "2026-11-10T21:54:26Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the satellite loop",
+      "output": "imagery first: the newest frame shows at once with its observation time; the loop starts as the rest load",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:de810e342"
+      ],
+      "workflow_step": "5. the UI refined"
+    },
+    {
+      "n": 85,
+      "time_utc": "2026-11-10T21:58:27Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S45 draft; terms quoted word for word",
+      "output": "S45 Ready, held for Vicky",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:c55427d39"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 86,
+      "time_utc": "2026-11-10T22:01:39Z",
+      "actor": {
+        "name": "journalist.newsroom@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "this trace at 78 steps",
+      "output": "the storm, draft 3 (Day 2 called off, the look-back), offered to the newsroom's pipeline",
+      "hand_off_to": [
+        {
+          "name": "the newsroom's pipeline",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:9862d6fff"
+      ],
+      "hand_off": "agent->agent (the work desk's story offered as a draft)"
+    },
+    {
+      "n": 89,
+      "time_utc": "2026-11-10T22:10:00Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "the evening's updates",
+      "output": "a standing authorisation: reviewer@ may publish verified factual articles and updates from her desks (R-PUB-1), with conditions",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:52eb0a9e0",
+        "commit:0fc4cdd7b",
+        "commit:db817e883",
+        "desks/conductor-vicky/standing-rules.md"
+      ],
+      "hand_off": "person->agents (a standing rule replaces item-by-item yeses)"
+    },
+    {
+      "n": 87,
+      "time_utc": "2026-11-10T22:10:27Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's word; re-checked 22:07",
+      "output": "S45 published",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:bf9c7356a"
+      ],
+      "hand_off": "person->agent",
+      "note": "19 minutes from commission (21:48) to publication: the fastest story of the storm."
+    },
+    {
+      "n": 88,
+      "time_utc": "2026-11-10T22:13:29Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the lead",
+      "output": "the static warning chart removed; 'Satellite image unavailable right now' with a link to the story when no frame loads",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:8c691325c"
+      ]
+    },
+    {
+      "n": 90,
+      "time_utc": "2026-11-10T22:22:50Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the storm page v1 (step 45)",
+      "output": "/storm/charles/ data and a verification sheet for reviewer@; the page not published",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:51c1f8528",
+        "commit:8c4387087 (conductor.B: its relay to the reviewer refused by its session's permission check; Vicky nudges)"
+      ],
+      "hand_off": "agent->agent, with a person filling a refused relay"
+    },
+    {
+      "n": 91,
+      "time_utc": "2026-11-10T22:36:43Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "22:36 check",
+      "output": "the Algés ferry interrupted Wednesday (Algés seafront closed)",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:81ea992a1"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 92,
+      "time_utc": "2026-11-10T22:44:30Z",
+      "actor": {
+        "name": "correspondent@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "S45; social.watch@'s 'agent sessions lost to the storm' (step 76)",
+      "output": "refunds to the top; AG1, the agent sessions the storm postponed",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:1446ccd34"
+      ],
+      "hand_off": "agent->agent (a signal from social.watch@ becomes a front-page item)"
+    },
+    {
+      "n": 93,
+      "time_utc": "2026-11-10T23:41:00Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "23:41 check of IPMA; the airport TAF",
+      "output": "IPMA brings Lisbon's red rain forward to Wed 09:00 to 18:00; lead draft updated",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:d413ec60e"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "1. the watch catches a change"
+    },
+    {
+      "n": 94,
+      "time_utc": "2026-11-10T23:47:38Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "dev@'s verification sheet (step 90)",
+      "output": "/storm/charles/ checked: five lines to change (ferries, the email time, the statement's time), four times to relabel, two unverifiable",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:6526f9e8b"
+      ],
+      "hand_off": "agent->agent (verification before publication)"
+    },
+    {
+      "n": 95,
+      "time_utc": "2026-11-10T23:51:36Z",
+      "actor": {
+        "name": "writer@PrompTugal.jose",
+        "kind": "agent"
+      },
+      "input": "Jose's ask in the writer's session (about 23:41)",
+      "output": "asks for meteologix.com's charts on the storm page (ECMWF charts, satellite, rain, lightning, observations)",
+      "hand_off_to": [
+        {
+          "name": "weather@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:45b710297 (Reviewed-by: reviewer@web-summit.jose)"
+      ],
+      "hand_off": "person->agent->agents (from Jose's team to Vicky's)"
+    },
+    {
+      "n": 96,
+      "time_utc": "2026-11-10T23:55:44Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "reviewer@'s check",
+      "output": "/storm/charles/ corrected (held): ferries, times, read labels",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:19d6f5869"
+      ],
+      "hand_off": "agent->agent",
+      "note": "8 minutes from the check to the fix."
+    },
+    {
+      "n": 97,
+      "time_utc": "2026-11-10T23:56:45Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the desk's hand-off; IPMA verified 23:51",
+      "output": "S41 and its lead updated: red rain 09:00 to 18:00; image and covers redrawn",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:14b8bcad0",
+        "commit:8b2b07e9e"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "signal to readers: 15 minutes from the desk's commit"
+    },
+    {
+      "n": 98,
+      "time_utc": "2026-11-11T00:00:47Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the corrected storm page",
+      "output": "second check: all fixes in; one line stale (the rain's new hours)",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:7d4eb4ee5"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 99,
+      "time_utc": "2026-11-11T00:06:16Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "IPMA",
+      "output": "its own record corrected: red rain from 09:00",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:f692da023"
+      ],
+      "note": "25 minutes after the weather desk; the two watches do not share a feed."
+    },
+    {
+      "n": 100,
+      "time_utc": "2026-11-11T00:09:38Z",
+      "actor": {
+        "name": "dev@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the stale line",
+      "output": "the storm page's rain row updated; alerts re-read 00:05 (held)",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:7f1e0b15a"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 101,
+      "time_utc": "2026-11-11T00:17:00Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "the storm page",
+      "output": "approves: the storm page publishes after the reviewer's verification",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:8e9f20ecc"
+      ],
+      "hand_off": "person->agent",
+      "workflow_step": "5. the focused view, cleared to go out"
     }
   ],
   "hand_offs_person_agent": [
@@ -1789,7 +2247,15 @@
     72,
     75,
     77,
-    78
+    78,
+    81,
+    85,
+    87,
+    89,
+    90,
+    95,
+    97,
+    101
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -1818,16 +2284,17 @@
       "evidence": "desks/weather-vicky/proposal-storm-page.md, for the page; no architect agent"
     },
     "4_developer_and_designer": {
-      "status": "page v1 with Vicky's dev@ (preview); designer on v2",
+      "status": "storm page built and verified twice, cleared by Vicky to publish after the last check",
       "steps": [
-        5,
-        17,
-        29,
-        32,
-        44,
-        45
+        45,
+        90,
+        94,
+        96,
+        98,
+        100,
+        101
       ],
-      "evidence": "lead display released; the storm page v1 handed to dev@PrompTugal.vicky at 18:20; dev.graphs@ and designer@ keep v2"
+      "evidence": "a verify-and-fix loop between reviewer@ and dev@PrompTugal.vicky: check 23:47, fix 23:55, check 00:00, fix 00:09"
     },
     "5_ui_signal": {
       "status": "lead live; storm page in preview",
@@ -1951,7 +2418,8 @@
     "weather.vicky's run reports capture little: 1 request and 8 tool calls for its first run, none for the next three (17:04 to 17:59), though it wrote connectors, a history and a decision graph. The ABP hooks see only part of that session's work, so this trace rests on commits and desk files.",
     "No token figures are in Vicky's agents' run reports, so the cost of each step is not yet known.",
     "No wake ran between 19:28 and 21:29 (the 20:28 wake did not reach this session; account A was slowed to three-hourly at 20:27, step 69). This capture covers both hours.",
-    "The organisers' post: dated 19:09 in its page data, listed on the blog only by 19:59. Which came first to readers, post or email, is not settled by the record."
+    "The organisers' post: dated 19:09 in its page data, listed on the blog only by 19:59. Which came first to readers, post or email, is not settled by the record.",
+    "No wake ran at 22:28 or 23:28 (account A is three-hourly since 20:27); this capture covers 21:29 to 00:28."
   ],
   "next": "At each hourly wake (:28): append the steps since the last commit covered, update the workflow and decision-graph status.",
   "speeds": [
@@ -2008,6 +2476,24 @@
       "from_step": 73,
       "to_step": 74,
       "minutes": 8
+    },
+    {
+      "what": "S45: commission to published",
+      "from_step": 82,
+      "to_step": 87,
+      "minutes": 22
+    },
+    {
+      "what": "red rain moved: desk's commit to S41",
+      "from_step": 93,
+      "to_step": 97,
+      "minutes": 13
+    },
+    {
+      "what": "storm page: reviewer's check to dev@'s fix",
+      "from_step": 94,
+      "to_step": 96,
+      "minutes": 8
     }
   ],
   "look_back": {
@@ -2036,5 +2522,8 @@
     "against_dinis": "Dinis said the shutdown 'will be predictable maybe 5 or 10 hours before'; the first public signal came 5 h 46 min ahead.",
     "what_the_desk_saw": "the weather desk logged the mayor's remark at 19:48, after the event: its watch read primary sources only; social.watch@ (press and social) started at 18:46.",
     "label": "from the record; the times of spoken remarks come from the press"
-  }
+  },
+  "related_traces": [
+    "the-categories.json"
+  ]
 }
