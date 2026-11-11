@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T12:53Z",
+  "updated": "2026-11-11T13:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -131,6 +131,15 @@
         "my own check: MeteoAlarm CAP, the press, Mastodon, the team's commits (websummit.com no longer read by machine)"
       ],
       "items": 1
+    },
+    {
+      "n": 14,
+      "at": "2026-11-11T13:51Z",
+      "families": [
+        "my own check (MeteoAlarm CAP, Mastodon, the team's commits)",
+        "one sub-agent (news, Thursday, agent side events)"
+      ],
+      "items": 2
     }
   ],
   "items": [
@@ -3352,6 +3361,51 @@
       "family": "news and blogs",
       "found": "2026-11-11T12:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 13)"
+    },
+    {
+      "url": "https://www.forbespt.com/web-summit-cancelada-esta-quarta-feira-por-causa-do-mau-tempo/",
+      "platform": "Forbes Portugal",
+      "author": "Forbes Portugal Staff",
+      "kind": "article",
+      "title": "Web Summit cancelada esta quarta-feira por causa do mau tempo",
+      "quote": null,
+      "published": "2026-11-10T21:14",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Thursday 12 Nov goes ahead as planned; says organisers will contact those affected directly; does not say Wednesday sessions are rescheduled. Published 10 Nov 21:14 (timezone as shown).",
+      "family": "news and blogs",
+      "found": "2026-11-11T13:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 14)"
+    },
+    {
+      "url": null,
+      "platform": "Mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T13:27:43Z",
+      "topics": [
+        "networking",
+        "attendees"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "private_individual": true,
+      "note": "A private person posting as themselves: kept as count, theme and platform only (a networking video filmed at Web Summit this week).",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T13:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 14)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",
