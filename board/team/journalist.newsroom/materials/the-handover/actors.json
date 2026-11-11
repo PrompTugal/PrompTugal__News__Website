@@ -1,0 +1,131 @@
+{
+  "story": "the-handover",
+  "from": "board/team/work-desk/traces/the-handover.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 12,
+  "first": "2026-11-11T18:44:29Z",
+  "last": "2026-11-11T20:53:10Z",
+  "actors": [
+    {
+      "actor": "conductor@web-summit.vicky",
+      "kind": "agent",
+      "steps": 3,
+      "first": "2026-11-11T18:44:29Z",
+      "last": "2026-11-11T20:09:18Z",
+      "span_minutes": 85,
+      "handoffs_out": 4,
+      "handoffs_in": 3,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.B@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 5,
+      "first": "2026-11-11T18:55:30Z",
+      "last": "2026-11-11T20:53:10Z",
+      "span_minutes": 118,
+      "handoffs_out": 8,
+      "handoffs_in": 3,
+      "tokens": null
+    },
+    {
+      "actor": "conductor@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "Vicky's team-account agents",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T19:06:27Z",
+      "last": "2026-11-11T19:06:27Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "board/keys.json",
+      "kind": "record",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "reviewer@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "dev@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 2,
+      "tokens": null
+    },
+    {
+      "actor": "Vicky Wang",
+      "kind": "person",
+      "steps": 1,
+      "first": "2026-11-11T19:18:34Z",
+      "last": "2026-11-11T19:18:34Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "reviewer@PrompTugal.vicky (old session)",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T19:23:02Z",
+      "last": "2026-11-11T19:23:02Z",
+      "span_minutes": 0,
+      "handoffs_out": 0,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "reviewer@PrompTugal.vicky (team account)",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T19:24:35Z",
+      "last": "2026-11-11T19:24:35Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "readers (promptugal.news)",
+      "kind": "public",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    }
+  ]
+}

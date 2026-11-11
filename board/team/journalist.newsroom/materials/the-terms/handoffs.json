@@ -2,9 +2,9 @@
   "story": "the-terms",
   "from": "board/team/work-desk/traces/the-terms.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 19,
+  "steps": 23,
   "first": "2026-11-11T05:27:00Z",
-  "last": "2026-11-11T15:53:05Z",
+  "last": "2026-11-11T21:26:42Z",
   "handoffs": [
     {
       "from": "the incident team (account A)",
@@ -171,6 +171,34 @@
         "2026-11-11T15:41:37Z"
       ],
       "person_agent": true
+    },
+    {
+      "from": "Dinis Cruz",
+      "to": "conductor@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-11T18:50:00Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "dev@PrompTugal.vicky",
+      "to": "readers (promptugal.news)",
+      "count": 2,
+      "times": [
+        "2026-11-11T21:13:22Z",
+        "2026-11-11T21:26:42Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor@PrompTugal.dinis",
+      "to": "fourteen agents",
+      "count": 1,
+      "times": [
+        "2026-11-11T21:23:08Z"
+      ],
+      "person_agent": false
     }
   ]
 }

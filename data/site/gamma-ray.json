@@ -1,8 +1,8 @@
 {
  "about": "GAMMA-Ray Spectrum cards as gamma-ray.sgit.ai publishes them (beta; every rating experimental), read by newsroom/tools/gamma-pull.mjs. Levels: A autonomy, R reach, C control, O openness, 1 to 4, 0 where not yet evidenced. The source of every card is its page on gamma-ray.sgit.ai.",
  "source": "https://gamma-ray.sgit.ai/spectrum/",
- "version": "0.0.198",
- "read_at": "2026-11-11T19:13Z",
+ "version": "0.0.200",
+ "read_at": "2026-11-11T21:10Z",
  "cards": [
   {
    "id": "riskmandate-publisher",

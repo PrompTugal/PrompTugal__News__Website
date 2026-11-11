@@ -20,7 +20,8 @@
       "kind": "organisation",
       "sources": [
         "websummit-homepage-event-update",
-        "websummit-important-event-update-2026"
+        "websummit-important-event-update-2026",
+        "websummit-thursday-schedule-update"
       ]
     },
     {
@@ -28,7 +29,8 @@
       "label": "Web Summit Lisbon 2026",
       "kind": "event",
       "sources": [
-        "websummit-important-event-update-2026"
+        "websummit-important-event-update-2026",
+        "websummit-thursday-schedule-update"
       ]
     }
   ]

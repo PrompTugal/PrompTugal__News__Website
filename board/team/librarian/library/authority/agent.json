@@ -140,11 +140,12 @@
    "forms": [
     "checker-vicky-promptugal",
     "checker-vicky-promptugal-b",
+    "checker-vicky-promptugal-c",
     "checker@PrompTugal.vicky"
    ],
    "heading": "checker@PrompTugal.vicky",
    "id": "auth:agent:checker-promptugal-vicky",
-   "key_id": "checker-vicky-promptugal-b",
+   "key_id": "checker-vicky-promptugal-c",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -158,6 +159,13 @@
      "fingerprint": "sha256:3abdaae9fe9a6386",
      "id": "checker-vicky-promptugal-b",
      "signing_fingerprint": "sha256:946a20db81a9823d",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-11",
+     "fingerprint": "sha256:a7a79d658f6ccd23",
+     "id": "checker-vicky-promptugal-c",
+     "signing_fingerprint": "sha256:2e79ecce7c759339",
      "status": "active"
     }
    ],
@@ -170,7 +178,8 @@
    "see_also": [],
    "see_from": [
     "checker-vicky-promptugal",
-    "checker-vicky-promptugal-b"
+    "checker-vicky-promptugal-b",
+    "checker-vicky-promptugal-c"
    ]
   },
   {
@@ -307,13 +316,6 @@
    "id": "auth:agent:conductor-fringe",
    "key_id": "conductor.fringe-promptugal",
    "key_ids": [
-    {
-     "added": "2026-11-11",
-     "fingerprint": "sha256:823d0d38f31d4f8c",
-     "id": "conductor.fringe-promptugal",
-     "signing_fingerprint": "sha256:2f7b009fb8c94153",
-     "status": "superseded"
-    },
     {
      "added": "2026-11-11",
      "fingerprint": "sha256:0fa7162784a49b23",
@@ -555,13 +557,14 @@
    },
    "forms": [
     "curator-vicky-2-promptugal",
+    "curator-vicky-3-promptugal",
     "curator-vicky-promptugal",
     "curator-vicky-promptugal-b",
     "curator@PrompTugal.vicky"
    ],
    "heading": "curator@PrompTugal.vicky",
    "id": "auth:agent:curator-promptugal-vicky",
-   "key_id": "curator-vicky-promptugal-b",
+   "key_id": "curator-vicky-3-promptugal",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -569,6 +572,13 @@
      "id": "curator-vicky-2-promptugal",
      "signing_fingerprint": "sha256:785c4b7b689e6c29",
      "status": "superseded"
+    },
+    {
+     "added": "2026-11-11",
+     "fingerprint": "sha256:320fdb3f9a5d7e44",
+     "id": "curator-vicky-3-promptugal",
+     "signing_fingerprint": "sha256:5dafc1e9f41c9c9f",
+     "status": "active"
     },
     {
      "added": "2026-11-06",
@@ -582,7 +592,7 @@
      "fingerprint": "sha256:2f705b240d5dd2a7",
      "id": "curator-vicky-promptugal-b",
      "signing_fingerprint": "sha256:4530ecf3e6c1d594",
-     "status": "active"
+     "status": "superseded"
     }
    ],
    "kind": "agent",
@@ -594,6 +604,7 @@
    "see_also": [],
    "see_from": [
     "curator-vicky-2-promptugal",
+    "curator-vicky-3-promptugal",
     "curator-vicky-promptugal",
     "curator-vicky-promptugal-b"
    ]
@@ -1086,11 +1097,12 @@
    "forms": [
     "dev-vicky-promptugal",
     "dev-vicky-promptugal-b",
+    "dev-vicky-promptugal-c",
     "dev@PrompTugal.vicky"
    ],
    "heading": "dev@PrompTugal.vicky",
    "id": "auth:agent:dev-promptugal-vicky",
-   "key_id": "dev-vicky-promptugal-b",
+   "key_id": "dev-vicky-promptugal-c",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -1104,6 +1116,13 @@
      "fingerprint": "sha256:b96073571bc796a5",
      "id": "dev-vicky-promptugal-b",
      "signing_fingerprint": "sha256:2b712d4526d1b16e",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-11T19:21Z",
+     "fingerprint": "sha256:6fe728601c6d089f",
+     "id": "dev-vicky-promptugal-c",
+     "signing_fingerprint": "sha256:beac4728d9e041b1",
      "status": "active"
     }
    ],
@@ -1116,7 +1135,8 @@
    "see_also": [],
    "see_from": [
     "dev-vicky-promptugal",
-    "dev-vicky-promptugal-b"
+    "dev-vicky-promptugal-b",
+    "dev-vicky-promptugal-c"
    ]
   },
   {
@@ -1539,12 +1559,13 @@
    },
    "forms": [
     "journalist-ai-vicky-promptugal",
+    "journalist-ai-vicky-promptugal-2",
     "journalist-ai-vicky-promptugal-b",
     "journalist-ai@PrompTugal.vicky"
    ],
    "heading": "journalist-ai@PrompTugal.vicky",
    "id": "auth:agent:journalist-ai-promptugal-vicky",
-   "key_id": "journalist-ai-vicky-promptugal-b",
+   "key_id": "journalist-ai-vicky-promptugal-2",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -1554,11 +1575,18 @@
      "status": "superseded"
     },
     {
+     "added": "2026-11-11",
+     "fingerprint": "sha256:b8c3958efddef919",
+     "id": "journalist-ai-vicky-promptugal-2",
+     "signing_fingerprint": "sha256:d4da9c136ca67397",
+     "status": "active"
+    },
+    {
      "added": "2026-11-10",
      "fingerprint": "sha256:bae85a7ae49bbecc",
      "id": "journalist-ai-vicky-promptugal-b",
      "signing_fingerprint": "sha256:2b029ce91ac9f6db",
-     "status": null
+     "status": "superseded"
     }
    ],
    "kind": "agent",
@@ -1570,6 +1598,7 @@
    "see_also": [],
    "see_from": [
     "journalist-ai-vicky-promptugal",
+    "journalist-ai-vicky-promptugal-2",
     "journalist-ai-vicky-promptugal-b"
    ]
   },
@@ -1584,11 +1613,12 @@
    "forms": [
     "journalist-connections-vicky-promptugal",
     "journalist-connections-vicky-promptugal-b",
+    "journalist-connections-vicky-promptugal-c",
     "journalist-connections@PrompTugal.vicky"
    ],
    "heading": "journalist-connections@PrompTugal.vicky",
    "id": "auth:agent:journalist-connections-promptugal-vicky",
-   "key_id": "journalist-connections-vicky-promptugal-b",
+   "key_id": "journalist-connections-vicky-promptugal-c",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -1602,6 +1632,13 @@
      "fingerprint": "sha256:df15b988aae18556",
      "id": "journalist-connections-vicky-promptugal-b",
      "signing_fingerprint": "sha256:62410c7458f3ff31",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-11T19:16Z",
+     "fingerprint": "sha256:92237cc974db3b73",
+     "id": "journalist-connections-vicky-promptugal-c",
+     "signing_fingerprint": "sha256:913e64060343b6a4",
      "status": "active"
     }
    ],
@@ -1614,7 +1651,8 @@
    "see_also": [],
    "see_from": [
     "journalist-connections-vicky-promptugal",
-    "journalist-connections-vicky-promptugal-b"
+    "journalist-connections-vicky-promptugal-b",
+    "journalist-connections-vicky-promptugal-c"
    ]
   },
   {
@@ -1628,11 +1666,12 @@
    "forms": [
     "journalist-europe-vicky-promptugal",
     "journalist-europe-vicky-promptugal-b",
+    "journalist-europe-vicky-promptugal-c",
     "journalist-europe@PrompTugal.vicky"
    ],
    "heading": "journalist-europe@PrompTugal.vicky",
    "id": "auth:agent:journalist-europe-promptugal-vicky",
-   "key_id": "journalist-europe-vicky-promptugal-b",
+   "key_id": "journalist-europe-vicky-promptugal-c",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -1646,6 +1685,13 @@
      "fingerprint": "sha256:35f2f014e1320086",
      "id": "journalist-europe-vicky-promptugal-b",
      "signing_fingerprint": "sha256:8517bd6929939b29",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-11T19:13Z",
+     "fingerprint": "sha256:9c1241ebec41035b",
+     "id": "journalist-europe-vicky-promptugal-c",
+     "signing_fingerprint": "sha256:c0f5ab57ec129c61",
      "status": "active"
     }
    ],
@@ -1658,7 +1704,8 @@
    "see_also": [],
    "see_from": [
     "journalist-europe-vicky-promptugal",
-    "journalist-europe-vicky-promptugal-b"
+    "journalist-europe-vicky-promptugal-b",
+    "journalist-europe-vicky-promptugal-c"
    ]
   },
   {
@@ -1713,11 +1760,12 @@
    "forms": [
     "journalist-portugal-vicky-promptugal",
     "journalist-portugal-vicky-promptugal-b",
+    "journalist-portugal-vicky-promptugal-c",
     "journalist-portugal@PrompTugal.vicky"
    ],
    "heading": "journalist-portugal@PrompTugal.vicky",
    "id": "auth:agent:journalist-portugal-promptugal-vicky",
-   "key_id": "journalist-portugal-vicky-promptugal-b",
+   "key_id": "journalist-portugal-vicky-promptugal-c",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -1731,6 +1779,13 @@
      "fingerprint": "sha256:ff8f6751039ff0d5",
      "id": "journalist-portugal-vicky-promptugal-b",
      "signing_fingerprint": "sha256:87a4ab3d4d231bb0",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-11T19:12Z",
+     "fingerprint": "sha256:c90f2ba467ecb9ee",
+     "id": "journalist-portugal-vicky-promptugal-c",
+     "signing_fingerprint": "sha256:794aa3e9ad59c7de",
      "status": "active"
     }
    ],
@@ -1743,7 +1798,8 @@
    "see_also": [],
    "see_from": [
     "journalist-portugal-vicky-promptugal",
-    "journalist-portugal-vicky-promptugal-b"
+    "journalist-portugal-vicky-promptugal-b",
+    "journalist-portugal-vicky-promptugal-c"
    ]
   },
   {
@@ -1757,11 +1813,12 @@
    "forms": [
     "journalist-vicky-promptugal",
     "journalist-vicky-promptugal-b",
+    "journalist-vicky-promptugal-c",
     "journalist@PrompTugal.vicky"
    ],
    "heading": "journalist@PrompTugal.vicky",
    "id": "auth:agent:journalist-promptugal-vicky",
-   "key_id": "journalist-vicky-promptugal-b",
+   "key_id": "journalist-vicky-promptugal-c",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -1775,6 +1832,13 @@
      "fingerprint": "sha256:ab3227edf3948717",
      "id": "journalist-vicky-promptugal-b",
      "signing_fingerprint": "sha256:8dd04b857a2b77c9",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-11",
+     "fingerprint": "sha256:6c3714526c6ab772",
+     "id": "journalist-vicky-promptugal-c",
+     "signing_fingerprint": "sha256:962def922dc5c2b7",
      "status": "active"
     }
    ],
@@ -1787,7 +1851,8 @@
    "see_also": [],
    "see_from": [
     "journalist-vicky-promptugal",
-    "journalist-vicky-promptugal-b"
+    "journalist-vicky-promptugal-b",
+    "journalist-vicky-promptugal-c"
    ]
   },
   {
@@ -2196,14 +2261,22 @@
     "on": "2026-11-06"
    },
    "forms": [
+    "programme-vicky-2-promptugal",
     "programme-vicky-promptugal",
     "programme-vicky-promptugal-b",
     "programme@PrompTugal.vicky"
    ],
    "heading": "programme@PrompTugal.vicky",
    "id": "auth:agent:programme-promptugal-vicky",
-   "key_id": "programme-vicky-promptugal-b",
+   "key_id": "programme-vicky-2-promptugal",
    "key_ids": [
+    {
+     "added": "2026-11-11",
+     "fingerprint": "sha256:5bb88b6372b3037c",
+     "id": "programme-vicky-2-promptugal",
+     "signing_fingerprint": "sha256:24432a32ed38b108",
+     "status": "active"
+    },
     {
      "added": "2026-11-06",
      "fingerprint": "sha256:d43b8829162e23a0",
@@ -2216,7 +2289,7 @@
      "fingerprint": "sha256:d72f55c4768fb16e",
      "id": "programme-vicky-promptugal-b",
      "signing_fingerprint": "sha256:2eed10be14b79312",
-     "status": "active"
+     "status": "superseded"
     }
    ],
    "kind": "agent",
@@ -2227,6 +2300,7 @@
    "role_file": null,
    "see_also": [],
    "see_from": [
+    "programme-vicky-2-promptugal",
     "programme-vicky-promptugal",
     "programme-vicky-promptugal-b"
    ]
@@ -2383,12 +2457,13 @@
    "forms": [
     "reviewer-vicky-promptugal",
     "reviewer-vicky-promptugal-2",
+    "reviewer-vicky-promptugal-3",
     "reviewer-vicky-promptugal-b",
     "reviewer@PrompTugal.vicky"
    ],
    "heading": "reviewer@PrompTugal.vicky",
    "id": "auth:agent:reviewer-promptugal-vicky",
-   "key_id": "reviewer-vicky-promptugal-b",
+   "key_id": "reviewer-vicky-promptugal-3",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -2405,11 +2480,18 @@
      "status": "superseded"
     },
     {
+     "added": "2026-11-11T19:20Z",
+     "fingerprint": "sha256:6926af01300de37e",
+     "id": "reviewer-vicky-promptugal-3",
+     "signing_fingerprint": "sha256:9bdecdbf857ccf8b",
+     "status": "active"
+    },
+    {
      "added": "2026-11-10T11:57Z",
      "fingerprint": "sha256:437a69c08a59193c",
      "id": "reviewer-vicky-promptugal-b",
      "signing_fingerprint": "sha256:efd76bbe0f59fd99",
-     "status": "active"
+     "status": "superseded"
     }
    ],
    "kind": "agent",
@@ -2422,6 +2504,7 @@
    "see_from": [
     "reviewer-vicky-promptugal",
     "reviewer-vicky-promptugal-2",
+    "reviewer-vicky-promptugal-3",
     "reviewer-vicky-promptugal-b"
    ]
   },

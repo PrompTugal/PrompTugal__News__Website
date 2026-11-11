@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-thursday-schedule-update",
+  "story": "S41",
+  "url": "https://websummit.com/blog/web-summit/web-summit-2026-thursday-schedule-update/",
+  "title": "Arrive early tomorrow: stage talks start at 9am (Web Summit, 11 November 2026)",
+  "publisher": "Web Summit",
+  "published": "2026-11-11",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "organiser",
+  "what_it_says": "Web Summit's post, published at 18:10 UTC on 11 November 2026 (its page data; modified 18:54), on Thursday 12 November: stage content starts at 9am and runs to 5.30pm, talks are rescheduled from Wednesday, 65 meetups are moved to Thursday, and the schedule will be updated by the morning. Read at 20:36 UTC."
+}

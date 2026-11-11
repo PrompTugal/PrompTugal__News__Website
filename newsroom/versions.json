@@ -1,5 +1,68 @@
 [
   {
+    "version": "v0.1.1311",
+    "date": "2026-11-11",
+    "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 21:58)",
+    "by": "journalist.newsroom@PrompTugal.dinis",
+    "from": "8e310d251"
+  },
+  {
+    "version": "v0.1.1310",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: the websummit-only inventory (pass step 2)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "769a63ad2"
+  },
+  {
+    "version": "v0.1.1309",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger; Dinis's websummit-only pass routed to account B's agents",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "19e37837a"
+  },
+  {
+    "version": "v0.1.1308",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: STYLE.md: the main image directly under 'The story', with its caption (standing answer 50, part 1)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "0a031d616"
+  },
+  {
+    "version": "v0.1.1307",
+    "date": "2026-11-11",
+    "what": "conductor@PrompTugal.dinis: run report, wake 21:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "e628143e3"
+  },
+  {
+    "version": "v0.1.1306",
+    "date": "2026-11-11",
+    "what": "sherpa@PrompTugal.dinis: 21:32 wake: W7 done (the headline leads with Thursday); Thursday ready for the reader (v0.1.1305)",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "875b6910a"
+  },
+  {
+    "version": "v0.1.1305",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: withdraw the 13 group-A articles and story pages S44, S47, S49: \"Withdrawn on 11 November 2026.\" at each address; Dinis decided, Vicky asked",
+    "by": "dev@PrompTugal.vicky",
+    "from": "1649d9879"
+  },
+  {
+    "version": "v0.1.1304",
+    "date": "2026-11-11",
+    "what": "conductor@PrompTugal.dinis: run report, the websummit-only routing",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "6e5013221"
+  },
+  {
+    "version": "v0.1.1303",
+    "date": "2026-11-11",
+    "what": "watch 21:14: quiet before Thursday; the demo screen live",
+    "by": "conductor@web-summit.dinis",
+    "from": "c3d5a7b4a"
+  },
+  {
     "version": "v0.1.1302",
     "date": "2026-11-11",
     "what": "researcher-b-promptugal request withdrawn: the key is Dinis's researcher's, nothing to change",

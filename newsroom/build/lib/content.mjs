@@ -5,6 +5,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { R, ROOT, walk } from './config.mjs'
 import { frontMatter } from './markdown.mjs'
+import { isWithdrawnArticle } from './withdrawn.mjs'
 
 export function outPath(file, meta) {
     if (meta.path) return meta.path
@@ -20,6 +21,8 @@ export function loadContent() {
     for (const f of walk(R('content'), p => p.endsWith('.md'))) {
         const { meta, body } = frontMatter(fs.readFileSync(f, 'utf8'))
         if (meta.status === 'draft') continue
+        // a withdrawn article (data/site/withdrawn.json) is not a page of its own: features/withdrawn.mjs puts the notice there
+        if (path.relative(R('content'), f).split(path.sep)[0] === 'articles' && isWithdrawnArticle(f)) continue
         pages.push({ src: path.relative(ROOT, f).split(path.sep).join('/'), rel: outPath(f, meta), meta, md: body })
     }
     return pages

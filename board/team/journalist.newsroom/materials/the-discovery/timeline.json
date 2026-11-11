@@ -985,8 +985,98 @@
       "hand_off": "agent->agents (across teams: Silvio's agent checks Vicky's published article)",
       "workflow_step": null,
       "minute": 1068
+    },
+    {
+      "id": "s055",
+      "time": "2026-11-11T20:22:28Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "THU-GUIDE",
+      "output": "S58 commissioned: Thursday's practical guide",
+      "handoff_to": [
+        "journalist@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:ee5e9ea65"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "commission",
+      "minute": 1200
+    },
+    {
+      "id": "s056",
+      "time": "2026-11-11T20:30:29Z",
+      "actor": "journalist@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S58",
+      "output": "drafted",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:47e16e6a6"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1208
+    },
+    {
+      "id": "s057",
+      "time": "2026-11-11T20:48:50Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S58",
+      "output": "published under R-PUB-1",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:ae2d228bc"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 26 min from commission",
+      "minute": 1227
+    },
+    {
+      "id": "s058",
+      "time": "2026-11-11T21:07:51Z",
+      "actor": "Vicky Wang",
+      "actor_kind": "person",
+      "input": "Wednesday is over",
+      "output": "S44 dropped",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:00e9f0b2b"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent",
+      "workflow_step": null,
+      "minute": 1246
+    },
+    {
+      "id": "s059",
+      "time": "2026-11-11T21:26:42Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the takedown (the-terms.json step 23)",
+      "output": "S47 and S49, night-shift stories, withdrawn with S44",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:1649d9879"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent",
+      "workflow_step": null,
+      "minute": 1265
     }
   ],
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T18:09:54Z"
+  "last": "2026-11-11T21:26:42Z"
 }

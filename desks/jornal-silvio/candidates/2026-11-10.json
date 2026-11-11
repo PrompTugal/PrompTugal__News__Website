@@ -322,6 +322,7 @@
         "source": "https://eco.sapo.pt/2026/11/09/governo-garante-que-projeto-de-gigafabrica-esta-a-bom-ritmo/"
       },
       "claims_to_check": [
+        "CONFLICT on the deadline (added 2026-11-11T22:20Z): ECO gives 3 December 2026; The Next Web (12 September 2026, https://thenextweb.com/news/china-agents-inference-eu-compute) says applications close 12 November, with awards in early 2027. Settle at the Commission's/EuroHPC call page before any use",
         "The EU call and its 3 December deadline at the Commission's own page (EuroHPC AI gigafactories)",
         "The site, partners and figures: none given in the article"
       ],

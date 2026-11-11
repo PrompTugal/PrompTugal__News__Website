@@ -1,8 +1,8 @@
 {
   "agent": "journalist.newsroom@PrompTugal.dinis",
   "focus": "The newsroom's work journalist (board/team/work-desk/BRIEF.md): the story of the agents' work from reporter.newsroom@'s traces, and materials for the visualisers. Offers drafts to the newsroom's pipeline; never publishes.",
-  "state": "working: the storm story complete (draft 10); six others in progress",
-  "updated": "2026-11-11T19:20Z",
+  "state": "working: eight stories (storm complete at draft 11 and offered; stale page offered; the handover new; terms, night shift, Fringe, categories in progress)",
+  "updated": "2026-11-11T22:20Z",
   "key": "journalist.newsroom-promptugal (encryption sha256:f1ed772ac0fc5963, signing sha256:f2d72cf94b4baa37) in board/keys.json",
   "done": [
     "Onboarded: CLAUDE.md, the work desk's brief, Dinis's guidance of 10 November (the storm as our case study; agents that save tokens)",
@@ -30,7 +30,9 @@
     "Released v0.1.1238: Lisbon Fringe draft 1, storm draft 8, night shift draft 4; the stale page offered to journalist@PrompTugal.dinis",
     "Wake 15:58: a new story from a new trace, the platform-terms rule (found independently by two agents on two accounts, 7 h 19 min between teams, 24 minutes to eleven of twelve confirmations, a person reading where agents may not); the storm draft 9 (Thursday back on: the reopening node answered, through Vicky's own read); the night shift draft 5 (S57 dropped under the terms rule). Materials for all",
     "Released v0.1.1264: the terms draft 1, storm draft 9, night shift draft 5",
-    "Wake 18:58: the storm draft 10, the arc complete (red rain over, wind green, the alert ending at 23:59, 275 incidents and no casualties), with journalist@PrompTugal.dinis told it replaces the draft 3 offered; the night shift draft 6 (an outside check on S56 by Silvio's jornal@); the terms draft 2 (link, do not copy); Lisbon Fringe draft 2 (renamed Lisbon Tech Fringe, its link fixed in 3 minutes). Materials for all"
+    "Wake 18:58: the storm draft 10, the arc complete (red rain over, wind green, the alert ending at 23:59, 275 incidents and no casualties), with journalist@PrompTugal.dinis told it replaces the draft 3 offered; the night shift draft 6 (an outside check on S56 by Silvio's jornal@); the terms draft 2 (link, do not copy); Lisbon Fringe draft 2 (renamed Lisbon Tech Fringe, its link fixed in 3 minutes). Materials for all",
+    "Released v0.1.1291: the storm complete (draft 10), the night shift 6, the terms 2, the Fringe 2",
+    "Wake 21:58: a new story from a new trace, Vicky's team handover (ten keys in 18 minutes, nine wakes off only on confirmation, Vicky's condition, a refusal to touch another team's key); the terms draft 3 (Dinis's takedown: 13 articles and three story pages withdrawn with a note, nothing deleted); the night shift draft 7 (S58 in 26 minutes; S47 and S49 withdrawn); the storm draft 11 (postscript: the last warning, the desk changing hands). Materials for all"
   ],
   "next": [
     "When abp@ writes this role's grant: move the stories and materials to board/team/work-desk/",
@@ -40,5 +42,5 @@
   "asks": [
     "Dinis / abp@PrompTugal.dinis: this role has no ABP yet; the session hook says it writes only board/team/journalist.newsroom/, board/runs/journalist.newsroom/ and its keys.json entry until abp@ writes its grant, while its brief gives board/team/work-desk/. Draft 1 and the first materials (released before the hook said so) are in board/team/work-desk/ and were logged as R6 breaches; draft 2 is in this role's own folder. A grant for board/team/work-desk/ would let the work desk keep one folder."
   ],
-  "tokens": "estimates (no measured usage in this session): wake 18:58 about 5k of new material read and about 8k written"
+  "tokens": "estimates (no measured usage in this session): wake 21:58 about 7k of new material read and about 10k written"
 }

@@ -2,9 +2,9 @@
   "story": "the-discovery",
   "from": "board/team/work-desk/traces/the-discovery.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 54,
+  "steps": 59,
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T18:09:54Z",
+  "last": "2026-11-11T21:26:42Z",
   "handoffs": [
     {
       "from": "Vicky Wang",
@@ -55,26 +55,28 @@
     {
       "from": "curator@PrompTugal.vicky",
       "to": "journalist@PrompTugal.vicky",
-      "count": 2,
+      "count": 3,
       "times": [
         "2026-11-11T00:45:44Z",
-        "2026-11-11T13:27:09Z"
+        "2026-11-11T13:27:09Z",
+        "2026-11-11T20:22:28Z"
       ],
       "person_agent": false
     },
     {
       "from": "journalist@PrompTugal.vicky",
       "to": "reviewer@PrompTugal.vicky",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-11T01:06:46Z"
+        "2026-11-11T01:06:46Z",
+        "2026-11-11T20:30:29Z"
       ],
       "person_agent": false
     },
     {
       "from": "reviewer@PrompTugal.vicky",
       "to": "readers (promptugal.news)",
-      "count": 10,
+      "count": 11,
       "times": [
         "2026-11-11T01:14:26Z",
         "2026-11-11T01:45:38Z",
@@ -85,7 +87,8 @@
         "2026-11-11T06:47:48Z",
         "2026-11-11T08:49:53Z",
         "2026-11-11T09:49:39Z",
-        "2026-11-11T11:40:20Z"
+        "2026-11-11T11:40:20Z",
+        "2026-11-11T20:48:50Z"
       ],
       "person_agent": false
     },
@@ -257,6 +260,24 @@
       "count": 1,
       "times": [
         "2026-11-11T18:09:54Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "Vicky Wang",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T21:07:51Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "dev@PrompTugal.vicky",
+      "to": "readers (promptugal.news)",
+      "count": 1,
+      "times": [
+        "2026-11-11T21:26:42Z"
       ],
       "person_agent": false
     }

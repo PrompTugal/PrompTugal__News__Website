@@ -1,0 +1,20 @@
+{
+  "about": "Pages withdrawn from promptugal.news. Each is replaced at its own address by the notice below (nothing else), marked noindex, and left out of the articles index, the front page, search, the sitemap, llms.txt, the company pages, the story board and every list of articles; its signed twin (.md.sig) is left out of the deploy. Nothing is deleted: the articles, their signatures and the story data stay in the repository as they are. At Vicky's word (the team site's people/vicky/decisions.md, standing answer 47, 11 Nov 2026, about 21:20 UTC), relaying Dinis's decision on the Web Summit takedown; the list is group A of people/vicky/plans/2026-11-11-web-summit-takedown.md, with the story pages S44, S47 and S49. Read by newsroom/build/lib/withdrawn.mjs.",
+  "notice": "Withdrawn on 11 November 2026.",
+  "articles": [
+    "health-startups-by-problem",
+    "who-builds-the-parts-of-an-ai-agent",
+    "rio-ten-startups-to-lisbon",
+    "press-conferences-day-by-day",
+    "plan-your-week-by-field",
+    "following-robotics-at-web-summit",
+    "portugal-on-the-programme",
+    "five-ai-builders-to-know",
+    "breakout-startups-thursday-centre-stage",
+    "europe-in-pavilion-4",
+    "tuesday-10-november-three-ways-in",
+    "brazil-on-the-stages",
+    "teamworks-coaches-agent"
+  ],
+  "stories": ["S44", "S47", "S49"]
+}
