@@ -1,5 +1,5 @@
 ---
-title: "The EU asks for views on election rules for the age of generative AI"
+title: "The EU asks for views on election rules for generative AI"
 date: 2026-11-11
 story: S53
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
