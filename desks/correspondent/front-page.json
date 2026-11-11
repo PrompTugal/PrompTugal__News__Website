@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-11T08:52Z",
+  "updated": "2026-11-11T10:50Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
@@ -110,6 +110,7 @@
     {
       "beat": "Portugal",
       "articles": [
+        "konecta-lisbon-delivery-centre",
         "portugal-on-the-programme",
         "where-to-find-portugal",
         "road-2-web-summit-beyond-lisbon",
@@ -127,6 +128,7 @@
       "beat": "Europe",
       "articles": [
         "ai-act-first-harmonised-standard",
+        "tiktok-for-you-dsa-preliminary-finding",
         "eu-election-guidelines-generative-ai",
         "europe-ai-help-and-portugal-ai-startups",
         "italy-and-portugal-in-beato",
@@ -495,5 +497,22 @@
       }
     ],
     "rule": "At the swap, every '<...>' slot takes the published slug or its fallback; a slot with neither is dropped. While S41 leads, edit 'lead' in place (lead_shared_keys)."
+  },
+  "live_sources": {
+    "about": "Dinis, 11 November about 10:00 UTC (board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md): pt.news follows what is happening now; the storm and today lead. Links the home page shows at the top, named as the live source (dev@ builds them).",
+    "items": [
+      {
+        "name": "Storm Charles, live",
+        "url": "https://storm-charles.promptugal.news",
+        "data": "https://storm-charles.promptugal.news/api/v1/index.json",
+        "why": "the live source for warnings, decisions and the organisers' statements while S41 leads"
+      },
+      {
+        "name": "Lisbon Fringe",
+        "url": "https://fringe.promptugal.news",
+        "when": "once its first version is live",
+        "why": "the alternative and community events around the summit"
+      }
+    ]
   }
 }
