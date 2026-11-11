@@ -21,6 +21,7 @@ image_alt: "IPMA's warnings for the Lisbon district on Wednesday 11 November: or
 - [IPMA](../organisations/ipma/index.html), Portugal's weather institute, lowered its wind warning for the Lisbon district on Wednesday morning, from red to orange. Its data at 10:33 UTC shows orange from 09:00 to 21:00, with gusts up to 120 km/h. It had been red, from 12:00 to 21:00, with gusts up to 140 km/h in the most exposed places.
 - Rain is still at red, from 09:00 to 18:00 (orange before 09:00), after IPMA brought it forward late on Tuesday. An orange warning covers rough seas from 12:00 to 21:00.
 - Portugal's government has declared an [alert situation](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1) for all of mainland Portugal on Wednesday. Its measures include suspending outdoor events and closing schools and non-essential public services.
+- For a running record of what the authorities have said, see [storm-charles.promptugal.news](https://storm-charles.promptugal.news) (not a warning service: follow IPMA and ANEPC).
 
 ## The story
 
