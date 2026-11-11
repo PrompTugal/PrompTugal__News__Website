@@ -387,7 +387,7 @@
     },
     {
       "id": "c33",
-      "text": "At 18:32 UTC rain is YELLOW only, from 15:56 to 18:00 that day (at times heavy), the warnings reissued at 15:56 UTC.",
+      "text": "At 18:32 UTC rain is YELLOW only, from 15:56 to 18:00 that day (at times heavy), the warnings reissued at 15:56 UTC. (Superseded at 20:32 UTC on 11 November: IPMA reissued at 19:09 UTC; see c35.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Precipita\\u00e7\\u00e3o por vezes forte.\", \"awarenessTypeName\": \"Precipita\\u00e7\\u00e3o\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T15:56:00\", \"awarenessLevelID\": \"yellow\", \"endTime\": \"2026-11-11T18:00:00\"}",
@@ -399,7 +399,7 @@
     },
     {
       "id": "c34",
-      "text": "At 18:32 UTC the sea warning is ORANGE from 15:56 to 21:00 (south-westerly waves of 5 to 7 metres, up to 13 metres at most), then yellow from 21:00 to 03:00 on 12 November: the only orange warning left for Lisbon.",
+      "text": "At 18:32 UTC the sea warning is ORANGE from 15:56 to 21:00 (south-westerly waves of 5 to 7 metres, up to 13 metres at most), then yellow from 21:00 to 03:00 on 12 November: the only orange warning left for Lisbon. (Superseded at 20:32 UTC on 11 November: IPMA reissued at 19:09 UTC; see c35.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Ondas de sudoeste com 5 a 7 metros e que poder\\u00e3o atingir at\\u00e9 13 metros de altura m\\u00e1xima.\", \"awarenessTypeName\": \"Agita\\u00e7\\u00e3o Mar\\u00edtima\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T15:56:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T21:00:00\"}",
@@ -407,6 +407,102 @@
       "read_on": "2026-11-11",
       "about": [
         "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c35",
+      "text": "At 20:32 UTC on 11 November the only warnings IPMA's file lists for the Lisbon district are the sea: ORANGE from 19:09 to 21:00 (south-westerly waves of 5 to 7 metres, up to 13 metres at most), then yellow from 21:00 to 03:00 on 12 November. No rain, wind or other warning above green is listed.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Ondas de sudoeste com 5 a 7 metros e que poder\\u00e3o atingir at\\u00e9 13 metros de altura m\\u00e1xima.\", \"awarenessTypeName\": \"Agita\\u00e7\\u00e3o Mar\\u00edtima\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T19:09:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T21:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c36",
+      "text": "Web Summit says stage content on Thursday 12 November will now start at 9am.",
+      "kind": "fact",
+      "source": "websummit-thursday-schedule-update",
+      "quote": "Stage content will now start at 9am.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c37",
+      "text": "Stage talks will run to 5.30pm and keep going through lunchtime.",
+      "kind": "fact",
+      "source": "websummit-thursday-schedule-update",
+      "quote": "Stage talks will also run to 5.30pm, and keep going all through lunchtime.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c38",
+      "text": "Web Summit is rescheduling talks from Wednesday into Thursday, alongside Thursday's previously planned content.",
+      "kind": "fact",
+      "source": "websummit-thursday-schedule-update",
+      "quote": "We’re rescheduling talks from Wednesday into tomorrow – alongside an incredible lineup of Thursday’s previously planned content.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c39",
+      "text": "Web Summit says more than 100 speakers whose Wednesday talks were cancelled will speak on Thursday.",
+      "kind": "fact",
+      "source": "websummit-thursday-schedule-update",
+      "quote": "That means more than 100 speakers you might have thought you’d missed will be there tomorrow",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c40",
+      "text": "Web Summit has moved 65 community and partner meetups to Thursday, with more than 125 meetups taking place that day.",
+      "kind": "fact",
+      "source": "websummit-thursday-schedule-update",
+      "quote": "We’ve also moved 65 of our community and partner meetups over to Thursday, with more than 125 meetups taking place tomorrow.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c41",
+      "text": "Web Summit says the new lineup will be reflected in the schedule by Thursday morning (so the schedule read on the evening of 11 November is not yet final).",
+      "kind": "fact",
+      "source": "websummit-thursday-schedule-update",
+      "quote": "The new lineup will be reflected in your schedule by tomorrow morning.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c42",
+      "text": "On Wednesday 11 November Web Summit added an announcement to the top of its Important event update statement: it is officially back on Thursday for its final day (the page was modified at 14:26 UTC).",
+      "kind": "fact",
+      "source": "websummit-important-event-update-2026",
+      "quote": "Announcement (Wednesday, November 11) Web Summit is officially back on tomorrow – Thursday – for our final day.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
       ]
     }
   ]
