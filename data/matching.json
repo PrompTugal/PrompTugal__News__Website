@@ -1804,6 +1804,11 @@
         "count": 1
       },
       {
+        "as_listed": "Bagel Labs",
+        "ref": "organisation:bagel-labs",
+        "count": 1
+      },
+      {
         "as_listed": "Banco Português de Fomento",
         "ref": "organisation:banco-portugues-de-fomento",
         "count": 1
@@ -1969,6 +1974,11 @@
         "count": 1
       },
       {
+        "as_listed": "Kamino",
+        "ref": "organisation:kamino",
+        "count": 1
+      },
+      {
         "as_listed": "Keel",
         "ref": "organisation:keel",
         "count": 1
@@ -2104,6 +2114,11 @@
         "count": 1
       },
       {
+        "as_listed": "Unframe",
+        "ref": "organisation:unframe",
+        "count": 1
+      },
+      {
         "as_listed": "Unicorn Factory Lisboa",
         "ref": "organisation:unicorn-factory-lisboa",
         "count": 2
@@ -2131,7 +2146,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 40
+        "count": 41
       },
       {
         "as_listed": "Xiaomi",
@@ -2161,6 +2176,11 @@
       {
         "as_listed": "knok",
         "ref": "organisation:knok",
+        "count": 1
+      },
+      {
+        "as_listed": "norriv",
+        "ref": "organisation:norriv",
         "count": 1
       }
     ]
