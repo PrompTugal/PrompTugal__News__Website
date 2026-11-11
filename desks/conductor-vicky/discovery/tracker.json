@@ -10,17 +10,23 @@
     "journalist-connections@PrompTugal.vicky": "ack 00:27: desks/journalist-vicky/notes/journalist-connections-rules.md"
   },
   "usefulness": {
-    "leads_logged": 3,
-    "commissioned": 2,
+    "leads_logged": 8,
+    "commissioned": 5,
     "held": 0,
     "dropped": 0,
     "by_desk": {
       "summit": 1,
-      "ai": 2
+      "ai": 2,
+      "europe": 2,
+      "portugal": 2,
+      "connections": 1
     },
     "commissions": [
-      "S46 Zalando agentic engineering (ai lead)",
-      "S47 final figures update (summit lead)"
+      "S46 Zalando (ai) live",
+      "S47 figures update (summit) live",
+      "S48 Manus 2.0 (connections)",
+      "S49 EU sessions update (europe)",
+      "S50 EN 18286 (europe)"
     ],
     "as_of": "01:50 UTC 11 Nov",
     "published": [
@@ -30,5 +36,8 @@
   },
   "uncovered_beats": [],
   "schedules": "unchanged",
-  "handback": "pending the researcher's return"
+  "handback": "pending the researcher's return",
+  "notes": [
+    "Gate fails a categories.json entry before its article file exists, so the curator records the line and it ships with the article at publication (reviewer adds it at the curator's word); works, S46 shows it"
+  ]
 }
