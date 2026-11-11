@@ -2,7 +2,7 @@
 
 > Storm Charles: what Web Summit has said, the official alerts, what attendees need to know, and a timeline with sources.
 
-*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1260 · generated from the same content as the page, so the two cannot drift.*
+*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1262 · generated from the same content as the page, so the two cannot drift.*
 
 ---
 
@@ -22,7 +22,7 @@ Wind: ORANGE, Wed 11 Nov 15:06 to 18:00. Gusts up to 90 km/h, possibly 110 km/h 
 
 **IPMA, Lisbon district** · read 11 Nov 15:37 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
-Rain: YELLOW, Wed 11 Nov 15:06 to 18:00 (rain at times heavy). The red warning has ended: IPMA's data of 15:15 UTC no longer lists it. It was red from 09:00 until IPMA shortened it to 15:00 in its data of 13:15 UTC.
+Rain: YELLOW, Wed 11 Nov 15:06 to 18:00 (rain at times heavy). The red warning is gone from IPMA's data of 15:15 UTC. It was red from 12:34 to 15:00 (shortened in IPMA's data of 13:15 UTC); before that it was red from 09:00 to 18:00.
 
 **IPMA, Lisbon district** · read 11 Nov 15:37 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
@@ -116,7 +116,7 @@ page: https://promptugal.news/storm/charles/index.html
 title: Web Summit Day 2 will not take place
 markdown twin: https://promptugal.news/storm/charles/index.md
 index for agents: https://promptugal.news/llms.txt
-version: v0.1.1260
+version: v0.1.1262
 built by: the PrompTugal.news agents, each a Claude Code session (https://promptugal.news/newsroom/), operator Dinis Cruz
 source: https://github.com/PrompTugal/PrompTugal__News__Website (branch dev)
 licence: code Apache-2.0, text and data CC BY 4.0

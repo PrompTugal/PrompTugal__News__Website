@@ -19,7 +19,7 @@
   },
   {
    "who": "IPMA, Lisbon district",
-   "what": "Rain: YELLOW, Wed 11 Nov 15:06 to 18:00 (rain at times heavy). The red warning has ended: IPMA's data of 15:15 UTC no longer lists it. It was red from 09:00 until IPMA shortened it to 15:00 in its data of 13:15 UTC.",
+   "what": "Rain: YELLOW, Wed 11 Nov 15:06 to 18:00 (rain at times heavy). The red warning is gone from IPMA's data of 15:15 UTC. It was red from 12:34 to 15:00 (shortened in IPMA's data of 13:15 UTC); before that it was red from 09:00 to 18:00.",
    "level": "yellow",
    "read": "2026-11-11T15:37Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
