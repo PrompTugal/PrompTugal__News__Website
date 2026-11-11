@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T03:40Z",
+  "updated": "2026-11-11T06:40Z",
   "covers": {
     "from": "2026-11-10T13:23:00Z",
-    "to": "2026-11-11T03:11:29Z",
-    "last_commit": "f264c1f42"
+    "to": "2026-11-11T06:21:17Z",
+    "last_commit": "34bf8a68c"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -2358,6 +2358,49 @@
       ],
       "hand_off": "person->agent (R-PUB-1)",
       "note": "28 minutes from commission to published, with no person in the loop at the time: the standing rule did the approving."
+    },
+    {
+      "n": 109,
+      "time_utc": "2026-11-11T05:52:00Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "its sweep",
+      "output": "blocked: OpenRouter answers 402 Payment Required (the shared key's credit is spent)",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:3d7b8ae24",
+        "commit:1320d8c99 (security@: noted, not a leak)",
+        "commit:34bf8a68c"
+      ],
+      "hand_off": "agent->person (a budget runs out: a person must top it up)"
+    },
+    {
+      "n": 110,
+      "time_utc": "2026-11-11T06:21:17Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "the watch",
+      "output": "websummit.com polling held on its terms; OpenRouter credit spent",
+      "hand_off_to": [
+        {
+          "name": "conductor@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:34bf8a68c"
+      ],
+      "hand_off": "agent->agent",
+      "note": "03:33 to 06:20: weather@ and reviewer@ checked hourly (03:36, 04:36, 05:36; 03:33, 04:33, 05:33), no change; the storm's watch on a quiet morning before the warnings start at 09:00."
     }
   ],
   "hand_offs_person_agent": [
@@ -2406,7 +2449,8 @@
     103,
     104,
     105,
-    108
+    108,
+    109
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {

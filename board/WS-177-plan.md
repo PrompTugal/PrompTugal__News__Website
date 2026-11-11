@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 06:36 UTC, 11 November
+
+- Snapshot 2026-11-11T0638Z on v0.1.1171: 8 screenshots, 0 errors.
+- **My wakes are three-hourly:** the scheduled task reads `36 */3 * * *` since 10 November 20:25 UTC (not changed by this session). The "missed" 20:36 to 05:36 wakes were never scheduled. `board/schedule.json` corrected.
+- **For Dinis: the shared OpenRouter key's credit is spent** (402 Payment Required): social.watch@ is blocked (3d7b8ae24); security@ noted it (1320d8c99). Anyone using AI images or LLM checks through OpenRouter stops until it is topped up.
+- Vicky's desk: S53 published (the EU asks for views on election rules for generative AI); S54 drafted (four startups on Thursday's Centre Stage); S52 waits on Vicky.
+- dev@: the footer's heads in 21 cultures, the app links to the beta sign-up (3a4ed9e28); work/dev.pages, dev.graphs, dev.data brought onto dev.
+- designer@: four polish notes on /storm/charles/ in design E; sherpa@: a nine-hour-old 'Last checked' on the storm page (ST1).
+- security@ 06:05: 88 commits clean. Account B running.
+- Inbox: empty. No key changes.
+
 ## Wake at 03:36 UTC, 11 November (covers 01:36 and 02:36, whose wakes were not delivered)
 
 - Snapshot 2026-11-11T0337Z on v0.1.1144: 8 screenshots, 0 errors.

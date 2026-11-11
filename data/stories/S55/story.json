@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S55",
+  "type": "story",
+  "title": "The EU says TikTok's For You feed may breach its platform law: what it found, and what happens next",
+  "beat": "Europe",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:x-eu-tiktok-prelim"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0755.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0755.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0755.json"
+    }
+  ]
+}

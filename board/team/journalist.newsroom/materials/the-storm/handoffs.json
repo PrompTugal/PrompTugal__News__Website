@@ -2,9 +2,9 @@
   "story": "the-storm",
   "from": "board/team/work-desk/traces/the-storm.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 108,
+  "steps": 110,
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T03:11:29Z",
+  "last": "2026-11-11T06:21:17Z",
   "handoffs": [
     {
       "from": "Lisbon's mayor",
@@ -466,10 +466,11 @@
     {
       "from": "conductor@web-summit.dinis",
       "to": "conductor@PrompTugal.dinis",
-      "count": 2,
+      "count": 3,
       "times": [
         "2026-11-10T19:01:00Z",
-        "2026-11-10T20:27:33Z"
+        "2026-11-10T20:27:33Z",
+        "2026-11-11T06:21:17Z"
       ],
       "person_agent": false
     },
@@ -609,6 +610,15 @@
         "2026-11-11T00:40:06Z"
       ],
       "person_agent": false
+    },
+    {
+      "from": "social.watch@PrompTugal.dinis",
+      "to": "Dinis Cruz",
+      "count": 1,
+      "times": [
+        "2026-11-11T05:52:00Z"
+      ],
+      "person_agent": true
     }
   ]
 }

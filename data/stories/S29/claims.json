@@ -1,0 +1,184 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S29",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-11",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Mastra describes itself on its Web Summit page as an open source TypeScript framework and enterprise platform for building, iterating and managing production-grade agents.",
+      "kind": "fact",
+      "source": "websummit-appearance-mastra",
+      "quote": "for building, iterating, and managing production-grade agents",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:mastra"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "Web Summit's page lists Mastra from United States.",
+      "kind": "fact",
+      "source": "websummit-appearance-mastra",
+      "quote": "\"country\":\"United States\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:mastra"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "Keewano says it is building the first database for AI agents; KeewanoDB keeps every event across users, devices and agents as an ordered history so agents can reason over massive volumes of event data.",
+      "kind": "fact",
+      "source": "websummit-appearance-keewano",
+      "quote": "enabling AI agents to reason directly over massive volumes of event data",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:keewano"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "Web Summit's page lists Keewano from Israel.",
+      "kind": "fact",
+      "source": "websummit-appearance-keewano",
+      "quote": "\"country\":\"Israel\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:keewano"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "Acrab says it builds computing infrastructure for agentic AI (chips, edge models, software and orchestration) to run intelligent agents on devices.",
+      "kind": "fact",
+      "source": "websummit-appearance-acrab",
+      "quote": "to run intelligent agents on devices",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:acrab-ai"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "Web Summit's page lists Acrab AI from Singapore.",
+      "kind": "fact",
+      "source": "websummit-appearance-acrab",
+      "quote": "\"country\":\"Singapore\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:acrab-ai"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "Humanos says it is building the risk and reputation network for AI agents: each agent gets a persistent identity and a Risk Passport reflecting its behaviour, permissions and track record.",
+      "kind": "fact",
+      "source": "websummit-appearance-humanos",
+      "quote": "building the risk and reputation network for AI agents",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:humanos"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "Web Summit's page lists Humanos from United States.",
+      "kind": "fact",
+      "source": "websummit-appearance-humanos",
+      "quote": "\"country\":\"United States\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:humanos"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "Polygraf AI says its AI Behavioral Control Plane delivers real-time visibility, governance and inline enforcement across human and agentic AI interactions.",
+      "kind": "fact",
+      "source": "websummit-appearance-polygraf",
+      "quote": "inline enforcement across human and agentic AI interactions",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:polygraf-ai"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "Web Summit's page lists Polygraf AI from United States.",
+      "kind": "fact",
+      "source": "websummit-appearance-polygraf",
+      "quote": "\"country\":\"United States\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:polygraf-ai"
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "GetVocal says its platform orchestrates an AI fleet across every channel for enterprise contact centres.",
+      "kind": "fact",
+      "source": "websummit-appearance-getvocal",
+      "quote": "orchestrates an AI fleet across every channel",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:getvocal-ai"
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "Web Summit's page lists GetVocal AI from France.",
+      "kind": "fact",
+      "source": "websummit-appearance-getvocal",
+      "quote": "\"country\":\"France\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:getvocal-ai"
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "Beyond Presence says it makes real-time AI avatars for enterprise conversations; its description does not mention agents.",
+      "kind": "fact",
+      "source": "websummit-appearance-beyond",
+      "quote": "Real-time AI avatars for enterprise conversations",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:beyond-presence"
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "Web Summit's page lists Beyond Presence from Germany.",
+      "kind": "fact",
+      "source": "websummit-appearance-beyond",
+      "quote": "\"country\":\"Germany\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:beyond-presence"
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "Cnext says it builds agentic AI solutions for European businesses on its own Kairos platform.",
+      "kind": "fact",
+      "source": "websummit-appearance-cnext",
+      "quote": "We build agentic AI solutions for European businesses",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:cnext"
+      ]
+    },
+    {
+      "id": "c16",
+      "text": "Web Summit's page lists Cnext from Belgium.",
+      "kind": "fact",
+      "source": "websummit-appearance-cnext",
+      "quote": "\"country\":\"Belgium\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:cnext"
+      ]
+    }
+  ]
+}

@@ -67,12 +67,12 @@
   },
   {
    "agent": "conductor@PrompTugal.dinis",
-   "minute": 52,
-   "cron": "52 * * * *",
+   "minute": 36,
+   "cron": "36 */3 * * *",
    "trigger": "trig_01X8SF35DkefoBeVgKyWYbWx",
    "state": "enabled",
-   "since": "2026-11-06T00:35Z",
-   "note": "checks hourly; reports to Dinis every three hours (05:52, 08:52, ...) or at once when something needs him"
+   "since": "2026-11-10T20:25Z",
+   "note": "every three hours at :36 (00:36, 03:36, ...), as the scheduled task reads since 10 Nov 20:25 UTC (its updated_at; not changed by this session); each wake reports to Dinis"
   },
   {
    "agent": "security@PrompTugal.dinis",

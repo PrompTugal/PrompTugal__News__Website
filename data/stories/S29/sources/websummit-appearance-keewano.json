@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-appearance-keewano",
+  "story": "S29",
+  "url": "https://websummit.com/appearances/lis26/1e5dae43-571a-4a71-af0c-420f9d9ef6df/keewano",
+  "title": "Keewano (Web Summit LIS26 startup page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Keewano's startup page on Web Summit's site: its own description (the elevatorPitch field), country Israel, industry and stage."
+}

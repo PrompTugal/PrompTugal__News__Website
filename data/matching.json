@@ -1719,7 +1719,7 @@
       {
         "as_listed": "European Commission",
         "ref": "company:european-commission",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "European Commission (DG CONNECT, DG GROW)",
@@ -2101,6 +2101,11 @@
       {
         "as_listed": "Testwaves",
         "ref": "organisation:testwaves",
+        "count": 1
+      },
+      {
+        "as_listed": "TikTok",
+        "ref": "organisation:tiktok",
         "count": 1
       },
       {

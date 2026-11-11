@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-appearance-polygraf",
+  "story": "S29",
+  "url": "https://websummit.com/appearances/lis26/45b9b830-84f5-4355-be30-9ae4f5704946/polygraf-ai",
+  "title": "Polygraf AI (Web Summit LIS26 startup page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Polygraf AI's startup page on Web Summit's site: its own description (the elevatorPitch field), country United States, industry and stage."
+}

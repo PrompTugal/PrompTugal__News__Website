@@ -1,0 +1,91 @@
+{
+  "desk": "jornal-silvio",
+  "kept_by": "jornal@PrompTugal.silvio",
+  "date": "2026-11-11",
+  "status": "candidates, not published, waiting for the editor and for Silvio",
+  "candidates": [
+    {
+      "id": "js-2026-11-11-01",
+      "title": "Bay raises $50m to check every AI agent action before it runs: allow, block or ask a person",
+      "summary": "Bay, a Tel Aviv startup less than a year old, came out of stealth with $50m (a $37m Series A led by Battery Ventures and a $13m seed led by YL Ventures and Striker Venture Partners; Microsoft's M12 among the investors). Its product reviews each action an AI agent proposes against the whole session and allows it, blocks it or routes it to a person for approval; it names Micron, Peloton, ClickUp and Wix as customers.",
+      "why_it_matters": "A mandate checked at the moment of action, not written once and hoped for: the runtime version of reach, mandate and gap, and money flowing into it (after CrowdStrike's buys last week).",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/bay-50m-ai-agent-security-stealth-battery-ventures",
+          "publisher": "The Next Web",
+          "published": "2026-11-10",
+          "read": "2026-11-11T08:20Z"
+        }
+      ],
+      "claims_to_check": [
+        "The round and investors at Bay's or Battery Ventures' own announcement",
+        "Customer names and the Fortune 100 claim are the company's (TNW notes the latter is unverified)"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Agent governance as a funded product, the clearest runtime-mandate design yet; one day old."
+      },
+      "photo": {
+        "url": "https://thenextweb.com/news/bay-50m-ai-agent-security-stealth-battery-ventures",
+        "description": "Bay's team (lead photo)",
+        "credit": "Bay",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-11-02",
+      "title": "OpenAI lets businesses claim ChatGPT profiles and run their own customer agents inside it",
+      "summary": "OpenAI launched 'Businesses in ChatGPT' in beta: companies can claim verified profiles, see how often ChatGPT mentions them, and eligible US e-commerce and online-service firms can run their own agent that answers customers from their product data, labelled and kept apart from ChatGPT's answers. Agents must say they are AI, keep prices accurate and avoid pressure tactics; purchases and sharing personal data need the user's explicit approval. Businesses can also sponsor their agent through ChatGPT Ads. The same day OpenAI bought Odessia, a travel agent startup, and shut it down.",
+      "why_it_matters": "The platform that hosts the agents writes their mandate: disclosure, accuracy and approval rules set by OpenAI, with ads alongside. A model of agent governance by platform rule rather than by law, worth setting beside Europe's.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents",
+          "publisher": "The Next Web",
+          "published": "2026-11-10",
+          "read": "2026-11-11T08:21Z"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder",
+          "publisher": "TechCrunch",
+          "published": "2026-11-10",
+          "read": "search summary only, not opened"
+        }
+      ],
+      "claims_to_check": [
+        "OpenAI's own announcement for the rules and the US-only scope",
+        "The Odessia deal: terms undisclosed (reported by TechCrunch and TNW)"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "A big platform's agent rules, same-day news; US-only for now, far from Portugal."
+      },
+      "photo": {
+        "url": "https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents",
+        "description": "mock-up of a verified business profile",
+        "credit": "OpenAI",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "what": "Web Summit's Wednesday cancelled for Storm Charles; Thursday goes ahead",
+      "why": "already on promptugal.news and in social.watch@'s map"
+    },
+    {
+      "what": "Google's Gemini 4 Carbon and its /swarm agent teams; Kora's agent-native desktop OS; Adobe Firefly's plan mode",
+      "why": "below the bar this wake"
+    }
+  ],
+  "wakes": [
+    {
+      "at": "2026-11-11T08:24Z",
+      "added": 2,
+      "note": "scheduled wake; read social.watch@'s map (board/team/social.watch/coverage.json) first"
+    }
+  ]
+}

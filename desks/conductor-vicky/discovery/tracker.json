@@ -11,7 +11,7 @@
   },
   "usefulness": {
     "leads_logged": 13,
-    "commissioned": 9,
+    "commissioned": 10,
     "held": 0,
     "dropped": 0,
     "by_desk": {
@@ -29,9 +29,10 @@
       "S50 EN 18286 (europe) drafted",
       "S52 Konecta (portugal)",
       "S53 DSA election guidelines consultation (europe)",
-      "S54 Breakout startups (connections)"
+      "S54 Breakout startups (connections)",
+      "S55 TikTok DSA preliminary finding (europe)"
     ],
-    "as_of": "05:55 UTC 11 Nov",
+    "as_of": "07:50 UTC 11 Nov",
     "published": [
       "S47",
       "S46",
@@ -39,7 +40,8 @@
       "S48",
       "S51",
       "S50",
-      "S53"
+      "S53",
+      "S54"
     ],
     "held_for_vicky": [
       "S52 Konecta: whether to mention its 30 Oct forbearance agreement"

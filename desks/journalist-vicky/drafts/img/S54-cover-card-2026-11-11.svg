@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+  <title id="t">Four startups pitch on Thursday's Centre Stage</title>
+  <desc id="d">Web Summit's Breakout startups session, Thursday 12 November at 09:24 if Day 3 runs: Bagel Labs, Kamino, Unframe and norriv. Source: Web Summit and each company's site.</desc>
+  <rect width="1200" height="630" fill="#f7f3ea"/>
+  <rect x="0" y="0" width="1200" height="16" fill="#003399"/>
+  <g font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <text x="64" y="112" font-size="66" font-weight="700" fill="#1a1a1a">Breakout startups, Centre Stage</text>
+    <text x="64" y="180" font-size="44" fill="#444">Thursday 12 November, 09:24, if Day 3 runs</text>
+    <rect x="64" y="216" width="10" height="320" fill="#003399"/>
+    <text x="100" y="268" font-size="46" fill="#1a1a1a"><tspan font-weight="700">Bagel Labs</tspan>: AI for robots</text>
+    <text x="100" y="350" font-size="46" fill="#1a1a1a"><tspan font-weight="700">Kamino</tspan>: finance software for Brazil</text>
+    <text x="100" y="432" font-size="46" fill="#1a1a1a"><tspan font-weight="700">Unframe</tspan>: AI agents for large companies</text>
+    <text x="100" y="514" font-size="46" fill="#1a1a1a"><tspan font-weight="700">norriv</tspan>: holograms and AI avatars</text>
+    <text x="64" y="596" font-size="42" fill="#444">PrompTugal.news</text>
+  </g>
+</svg>
