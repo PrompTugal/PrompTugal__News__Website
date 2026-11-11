@@ -1,10 +1,10 @@
 {
-  "standfirst": "Web Summit's Day 2, Wednesday 11 November, does not take place, after the Government of Portugal formally advised it not to because of Storm Charles. IPMA has a red rain warning for the Lisbon district from 09:00 to 18:00; its wind warning was lowered from red to orange on Wednesday morning.",
+  "standfirst": "Web Summit's Day 2, Wednesday 11 November, does not take place, after the Government of Portugal formally advised it not to because of Storm Charles. IPMA has since eased its Lisbon warnings: red rain until 15:00 and orange wind until 18:00.",
   "developments": [
     {
-      "text": "IPMA lowered its wind warning for the Lisbon district from red to orange on Wednesday morning (09:00 to 21:00, gusts up to 120 km/h); the red rain warning, 09:00 to 18:00, stands.",
+      "text": "IPMA eased its Lisbon warnings on Wednesday: rain red until 15:00 (was 18:00), wind orange until 18:00 with gusts up to 90 km/h, up to 110 km/h in exposed places.",
       "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-      "checked": "2026-11-11T08:40Z"
+      "checked": "2026-11-11T14:36Z"
     },
     {
       "text": "Web Summit says Day 2 (Wednesday) will not take place: the Government of Portugal formally advised it not to, after talks with the government, ANEPC and the PSP, and it aims to go ahead with Day 3 on Thursday.",
@@ -23,5 +23,5 @@
     "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
     "checked": "2026-11-10T21:37Z"
   },
-  "last_checked": "2026-11-11T08:40Z"
+  "last_checked": "2026-11-11T14:36Z"
 }

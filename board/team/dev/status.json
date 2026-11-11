@@ -2,14 +2,14 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-11T13:25Z",
+  "updated": "2026-11-11T14:25Z",
   "done": [
+    "wake 14:08 (11 Nov): lean: nothing new to review; GAMMA-Ray re-pulled",
     "wake 13:08 (11 Nov): lean: dev.pages@ dropped its strip; brought dev.data@'s S41 (Web Summit back on Thursday) and the others' status; GAMMA-Ray re-pulled",
     "wake 12:08 (11 Nov): security@ passed the offline worker fix and the storm site read (12:05); dev.pages@'s second live-sources strip (2026cc680) declined as a duplicate of mine, with a rule agreed for the home page: say on the other's lane before starting, whoever says first takes it; told Vicky's dev the strip shows on /storm/charles/",
     "wake 11:08 (11 Nov): the live sources strip (Dinis 10:00; designer@'s L1 to L6): under the masthead on the home page and /storm/charles/, the storm site as LIVE SOURCE with its own updated time read live from its /api/v1/index.json, and Lisbon Fringe (live) as NEW, each with its address in full; sources in assets/sources/sources.json (live: false hides one); another storm-page commit reviewed",
     "wake 10:08 (11 Nov): the last part of the stale-page fix: a page answered from a kept copy says so ('A kept copy from HH:MM UTC. Reload'), and is replaced by 'A newer copy of this page is here. Reload' when the network's late answer arrives; tested in Chromium with a 6 s delay; dev@PrompTugal.vicky's storm layout reviewed",
-    "wake 09:08 (11 Nov): the offline worker's stale home page (Vicky's browser, diagnosed read-only by dev@PrompTugal.vicky): a kept copy is now the newest of the three caches (it was the oldest: the release's install snapshot); a network answer that comes after a kept copy is shown is kept and the page offers 'Reload'; pages are fetched past the browser's 10-minute HTTP cache; the install keeps 130 files, not about 203 (40 coming events, not 120). Tested in Chromium: offline served the third visit's copy, not the install's",
-    "wake 08:08 (11 Nov): lean: nothing new to review; measured the old hidden tops (3.6 KB of a 116 KB page) and left them: seven scripts still read them (the app pane, the meter, search, site.js, obs-view, top.js, iv-tabs), so removing them waits until after the summit; GAMMA-Ray re-pulled"
+    "wake 09:08 (11 Nov): the offline worker's stale home page (Vicky's browser, diagnosed read-only by dev@PrompTugal.vicky): a kept copy is now the newest of the three caches (it was the oldest: the release's install snapshot); a network answer that comes after a kept copy is shown is kept and the page offers 'Reload'; pages are fetched past the browser's 10-minute HTTP cache; the install keeps 130 files, not about 203 (40 coming events, not 120). Tested in Chromium: offline served the third visit's copy, not the install's"
   ],
   "next": [
     "the green dot for a product with a GAMMA-Ray card (needs ontologist@'s product-to-card links)",

@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T13:53Z",
+  "updated": "2026-11-11T14:52Z",
   "sweeps": [
     {
       "n": 1,
@@ -138,6 +138,14 @@
       "families": [
         "my own check (MeteoAlarm CAP, Mastodon, the team's commits)",
         "one sub-agent (news, Thursday, agent side events)"
+      ],
+      "items": 2
+    },
+    {
+      "n": 15,
+      "at": "2026-11-11T14:51Z",
+      "families": [
+        "my own check: MeteoAlarm CAP, Mastodon, the team's commits"
       ],
       "items": 2
     }
@@ -3406,8 +3414,55 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-11T13:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 14)"
+    },
+    {
+      "url": "https://mastodon.social/@linkie/117598321645483491",
+      "platform": "Mastodon",
+      "author": "Linkie (linkie, mastodon.social)",
+      "kind": "post",
+      "title": null,
+      "quote": "Thursday is going ahead, and we'd love to make it a little better",
+      "published": "2026-11-11T14:39:44Z",
+      "topics": [
+        "storm",
+        "startups",
+        "exhibitors"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "An exhibitor adapts: Linkie (with Publer and Kibo at the Kalemi booth) invites attendees to Thursday.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T14:52Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 15)"
+    },
+    {
+      "url": "https://mastodon.social/@Publer/117598281382723270",
+      "platform": "Mastodon",
+      "author": "Publer (Publer, mastodon.social)",
+      "kind": "post",
+      "title": null,
+      "quote": "How to make the most of #WebSummit Day 2 being cancelled",
+      "published": "2026-11-11T14:29:29Z",
+      "topics": [
+        "storm",
+        "startups",
+        "exhibitors"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "A company's post: tips for attendees stuck in their hotel rooms on the cancelled day.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T14:52Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 15)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",
-  "websummit_terms": "Since 2026-11-11T12:53Z: websummit.com is no longer read by machine (Web Summit's Terms 48.2 and 52.1 forbid automated reading, found by Dinis's incident team, which stopped at 05:27 UTC on 11 November). Earlier items from websummit.com were read by machine between 10 November 18:45 and 11 November 12:52 UTC and stay as the record; new Web Summit word comes through the press and the organisers' public posts."
+  "websummit_terms": "Since 2026-11-11T12:53Z: websummit.com is no longer read by machine (Web Summit's Terms 48.2 and 52.1 forbid automated reading, found by Dinis's incident team, which stopped at 05:27 UTC on 11 November). Earlier items from websummit.com were read by machine between 10 November 18:45 and 11 November 12:52 UTC and stay as the record; new Web Summit word comes through the press and the organisers' public posts.",
+  "web_summit_data_rule": "Since 2026-11-11T14:52Z: no new work built on Web Summit-derived data (its agenda's sessions, people, organisations, places; Vicky's desks record Dinis's 'yes, dont use them', about 14:30 UTC). Nothing earlier is deleted or changed until Dinis says what to do with it."
 }

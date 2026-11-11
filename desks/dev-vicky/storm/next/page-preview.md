@@ -2,7 +2,7 @@
 
 > Storm Charles: what Web Summit has said, the official alerts, what attendees need to know, and a timeline with sources.
 
-*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1242 · generated from the same content as the page, so the two cannot drift.*
+*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1247 · generated from the same content as the page, so the two cannot drift.*
 
 ---
 
@@ -12,21 +12,21 @@ On the Portuguese Government's formal advice, Web Summit has said Day 2 will not
 
 *Web Summit's statement "Important event update" (dated 19:09 UTC in its page data; on its blog by about 20:00 UTC; an announcement for Thursday was added at its top, edited 11:44 UTC according to its blog data), read 12:36 UTC, and checked again in a browser at 13:10 UTC. Web Summit also emailed attendees. The government's formal advice itself has not been found on an official page.*  [Web Summit's statement](https://websummit.com/blog/web-summit/important-event-update-2026/)
 
-IPMA's warnings were re-read at 11 Nov 13:37 UTC; every other line carries the time it was read (the weather desk's last full check was 11 Nov 13:36 UTC). Lisbon time is UTC in November. Everything below is what the official sources say, with the time we read each one; we make no forecast of our own and give no advice beyond the authorities'. Where we cite the press, it is labelled.
+IPMA's warnings were re-read at 11 Nov 14:12 UTC; every other line carries the time it was read (the weather desk's last full check was 11 Nov 13:36 UTC). Lisbon time is UTC in November. Everything below is what the official sources say, with the time we read each one; we make no forecast of our own and give no advice beyond the authorities'. Where we cite the press, it is labelled.
 
 ## The official alerts
 
-**IPMA, Lisbon district** · read 11 Nov 13:37 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
+**IPMA, Lisbon district** · read 11 Nov 14:12 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
-Wind: ORANGE, Wed 11 Nov 09:00 to 21:00. Gusts up to 120 km/h. IPMA lowered it from red (12:00 to 21:00, gusts up to 120 km/h, possibly 140 km/h in the most exposed places) in its update of 08:15 UTC on Wednesday.
+Wind: ORANGE, Wed 11 Nov 12:34 to 18:00. Gusts up to 90 km/h, possibly 110 km/h in the most exposed places. IPMA lowered the wind warning from red this morning (its data of 08:15 UTC) and has since shortened it and lowered the gusts (its data of 13:15 UTC); before that it was orange from 09:00 to 21:00 with gusts up to 120 km/h.
 
-**IPMA, Lisbon district** · read 11 Nov 13:37 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
+**IPMA, Lisbon district** · read 11 Nov 14:12 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
-Rain: RED, Wed 11 Nov 09:00 to 18:00 (in force). Heavy and persistent rain. IPMA moved the start of the red warning earlier from 12:00 to 09:00 on Tuesday evening.
+Rain: RED, Wed 11 Nov 12:34 to 15:00, then YELLOW from 15:00 to 18:00 (rain at times heavy). IPMA shortened the red warning in its data of 13:15 UTC; before that it was red from 09:00 to 18:00 (heavy and persistent rain).
 
-**IPMA, Lisbon district** · read 11 Nov 13:37 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
+**IPMA, Lisbon district** · read 11 Nov 14:12 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
-Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 13:37 UTC: unchanged.
+Sea: ORANGE, Wed 11 Nov 12:34 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 14:12 UTC: otherwise unchanged.
 
 **The government** · read 11 Nov 13:36 UTC · [source](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1)
 
@@ -83,12 +83,13 @@ Web Summit says Day 2, Wednesday 11 November, will not take place, respecting th
 
 Newest first. Every line has its source.
 
+- **11 Nov 12:34 UTC.** IPMA shortens Lisbon's warnings: rain red until 15:00, then yellow until 18:00; wind orange until 18:00 with gusts up to 90 km/h (110 km/h in the most exposed places); the sea warning stays orange to 21:00. The new warning periods start at 12:34 UTC; IPMA's data file was modified at 13:15 UTC; we read it at 14:12 UTC. [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 - **11 Nov 12:16 UTC.** IPMA communiqué no. 3 on CHARLES: the depression has split into two low-pressure centres, unlike the early model forecasts, so it should deepen less and the wind be weaker than in yesterday's forecast. Persistent, at times heavy rain continues, moving from south-west to north-east; in the south, gusts of about 70 to 90 km/h, especially on the coast, up to 110 km/h in the most exposed coastal points and hills. IPMA says the warnings were adjusted to the updated models. (IPMA edited it at 12:16 UTC; we read it at 12:39 UTC.) [source](https://www.ipma.pt/pt/otempo/comunicados/)
 - **11 Nov 11:44 UTC.** Web Summit announces it is officially back on Thursday for its final day: a Wednesday announcement is added at the top of its statement (edited 11:44 UTC according to its blog data) and its homepage says "Web Summit is officially back on tomorrow for our final day" (homepage read by us at 12:36 UTC). [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
 - **11 Nov 08:15 UTC.** IPMA lowers Lisbon's wind warning for Wednesday from red to orange (09:00 to 21:00, gusts up to 120 km/h); the red rain warning (09:00 to 18:00) stays. IPMA's data was modified at 08:15 UTC; we read it at 08:41 UTC. [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 - **10 Nov 23:41 UTC.** IPMA moves the start of Lisbon's red rain warning for Wednesday to 09:00 (orange from 00:00 to 09:00); the red wind warning (12:00 to 21:00) is unchanged. (Seen by about 23:41 UTC.) [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
-- **10 Nov 22:28 UTC.** Transtejo/Soflusa publishes the Wednesday notice: the Porto Brandão–Trafaria–Algés ferry link is interrupted because the authorities closed the Algés seafront. [source](https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/)
 
+- **10 Nov 22:28 UTC.** Transtejo/Soflusa publishes the Wednesday notice: the Porto Brandão–Trafaria–Algés ferry link is interrupted because the authorities closed the Algés seafront. [source](https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/)
 - **10 Nov 20:00 UTC.** Web Summit's statement "Important event update" is on its blog (dated 19:09 in its page data): the Government has formally advised that Day 2 should not take place, because of Storm Charles (tidal flooding, severe disruption to public transport, wind on external structures). [source](https://websummit.com/blog/web-summit/important-event-update-2026/)
 - **10 Nov 19:36 UTC.** Metro de Lisboa keeps five stations open overnight on 10 to 11 and 11 to 12 November for homeless people, citing the forecast worsening of the weather. [source](https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/)
 - **10 Nov 18:37 UTC.** Carris's homepage banner reads that service is disrupted and that it is monitoring the situation. [source](https://www.carris.pt)
@@ -114,7 +115,7 @@ page: https://promptugal.news/storm/charles/index.html
 title: Web Summit Day 2 will not take place
 markdown twin: https://promptugal.news/storm/charles/index.md
 index for agents: https://promptugal.news/llms.txt
-version: v0.1.1242
+version: v0.1.1247
 built by: the PrompTugal.news agents, each a Claude Code session (https://promptugal.news/newsroom/), operator Dinis Cruz
 source: https://github.com/PrompTugal/PrompTugal__News__Website (branch dev)
 licence: code Apache-2.0, text and data CC BY 4.0

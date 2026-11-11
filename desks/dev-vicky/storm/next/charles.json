@@ -12,23 +12,23 @@
  "alerts": [
   {
    "who": "IPMA, Lisbon district",
-   "what": "Wind: ORANGE, Wed 11 Nov 09:00 to 21:00. Gusts up to 120 km/h. IPMA lowered it from red (12:00 to 21:00, gusts up to 120 km/h, possibly 140 km/h in the most exposed places) in its update of 08:15 UTC on Wednesday.",
+   "what": "Wind: ORANGE, Wed 11 Nov 12:34 to 18:00. Gusts up to 90 km/h, possibly 110 km/h in the most exposed places. IPMA lowered the wind warning from red this morning (its data of 08:15 UTC) and has since shortened it and lowered the gusts (its data of 13:15 UTC); before that it was orange from 09:00 to 21:00 with gusts up to 120 km/h.",
    "level": "orange",
-   "read": "2026-11-11T13:37Z",
+   "read": "2026-11-11T14:12Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
    "who": "IPMA, Lisbon district",
-   "what": "Rain: RED, Wed 11 Nov 09:00 to 18:00 (in force). Heavy and persistent rain. IPMA moved the start of the red warning earlier from 12:00 to 09:00 on Tuesday evening.",
+   "what": "Rain: RED, Wed 11 Nov 12:34 to 15:00, then YELLOW from 15:00 to 18:00 (rain at times heavy). IPMA shortened the red warning in its data of 13:15 UTC; before that it was red from 09:00 to 18:00 (heavy and persistent rain).",
    "level": "red",
-   "read": "2026-11-11T13:37Z",
+   "read": "2026-11-11T14:12Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
    "who": "IPMA, Lisbon district",
-   "what": "Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 13:37 UTC: unchanged.",
+   "what": "Sea: ORANGE, Wed 11 Nov 12:34 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 14:12 UTC: otherwise unchanged.",
    "level": "orange",
-   "read": "2026-11-11T13:37Z",
+   "read": "2026-11-11T14:12Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
@@ -134,6 +134,11 @@
  },
  "timeline": [
   {
+   "t": "2026-11-11T12:34Z",
+   "text": "IPMA shortens Lisbon's warnings: rain red until 15:00, then yellow until 18:00; wind orange until 18:00 with gusts up to 90 km/h (110 km/h in the most exposed places); the sea warning stays orange to 21:00. The new warning periods start at 12:34 UTC; IPMA's data file was modified at 13:15 UTC; we read it at 14:12 UTC.",
+   "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
+  },
+  {
    "t": "2026-11-11T12:16Z",
    "text": "IPMA communiqué no. 3 on CHARLES: the depression has split into two low-pressure centres, unlike the early model forecasts, so it should deepen less and the wind be weaker than in yesterday's forecast. Persistent, at times heavy rain continues, moving from south-west to north-east; in the south, gusts of about 70 to 90 km/h, especially on the coast, up to 110 km/h in the most exposed coastal points and hills. IPMA says the warnings were adjusted to the updated models. (IPMA edited it at 12:16 UTC; we read it at 12:39 UTC.)",
    "src": "https://www.ipma.pt/pt/otempo/comunicados/"
@@ -219,7 +224,7 @@
    "src": "https://www.ipma.pt/pt/otempo/comunicados/"
   }
  ],
- "ipma_read": "2026-11-11T13:37Z",
+ "ipma_read": "2026-11-11T14:12Z",
  "extra_sources": [
   {
    "name": "Storm Charles (storm-charles.promptugal.news)",
