@@ -1004,7 +1004,10 @@
         "label": "journalist-ai@PrompTugal.vicky",
         "fingerprint": "sha256:bae85a7ae49bbecc",
         "signing_fingerprint": "sha256:2b029ce91ac9f6db"
-      }
+      },
+      "status": "superseded",
+      "superseded_at": "2026-11-11T19:16Z",
+      "superseded_by": "journalist-ai-vicky-promptugal-2"
     },
     {
       "id": "checker-vicky-promptugal",
@@ -1705,6 +1708,23 @@
         "label": "journalist-europe@PrompTugal.vicky",
         "fingerprint": "sha256:9c1241ebec41035b",
         "signing_fingerprint": "sha256:c0f5ab57ec129c61"
+      },
+      "status": "active"
+    },
+    {
+      "id": "journalist-ai-vicky-promptugal-2",
+      "agent": "journalist-ai@PrompTugal.vicky",
+      "label": "journalist-ai@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky Wang's AI and robotics journalist for PrompTugal.news (journalist-ai@PrompTugal.vicky): the technology itself, AI companies and robots at the summit; drafts in desks/journalist-vicky/drafts/, from the curator's assignments. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on the team account on 11 November 2026 at 19:15 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), at the switch-back to the team account (standing answer 32 on the team site, Vicky's word, 11 November about 18:45 UTC). Replaces journalist-ai-vicky-promptugal-b, marked superseded. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-11",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAv0WUzXwB0sQOTStAks+t\nsnpA9Q0fTzA8NKhpTZZiCfYFWuk6Qa3hQID3279gLs/8BL34aQQB4C2/v3SLtHgc\nHDN2JdNRrtTR7MPUy3dyouaVE+Y5J0b637wL+v3/Mg8wBMiV5yaB2eGejgLXomd0\ncosesJ0Ofpu56dhj1MalniEje9K10cPqn5cecBKIjmHrkYafaDJbm/r3SOET1iTt\nDTbRjGb7CNmaRocTpdeOet0+DycIrCbN42Iwtgk8Z4yqBgg1UQXESh/uD/H64ffI\nRnRgIwQTYsa7CV+R5TgB8tP5TXuLwd/C0Spj+SeD2wiy/XggvWDf0EYIdLIU2XxQ\neSw/t9NaPR7QtxV1bgRjw2Ro9Xs0+AOZIDAMIN4lboeOCwp072UuLlQ5MKMOeF9I\nMebY9q2yqVwiMRyv7xV7oBMJM1cPkh10IQ85GYdmmZMSw5w8FP5eMzSQ/cfNuJXN\n4Xq2UEleH4ZY7mQpkb/h/FFhWdhntN9M8aE+ehEcXWiAwC8g5FKpXBlAUwDRSEyy\npW3EaUmZMV1U0Hvhmg1u9leQHvrGsfzc9i4dmhmUi+vP0sR66mXGAOVzYqQLuavz\nLd08N594rcmqd2HQxnzPo/catfRS1o7jkyy53qMS0r9aeM+xPauqB/4OGZJ+yfpo\nC+KKPcOpk9KkLwFupkHfcBECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEu8pi8BxzF/977LiCfiMCtTVIlYtW\nY/h5rQ3UO58KC3PNmpZhQyF1HtnMk2qhNX0kn2MTDu8xM3O1ASbeEdK4MA==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist-ai@PrompTugal.vicky",
+        "fingerprint": "sha256:b8c3958efddef919",
+        "signing_fingerprint": "sha256:d4da9c136ca67397"
       },
       "status": "active"
     }
