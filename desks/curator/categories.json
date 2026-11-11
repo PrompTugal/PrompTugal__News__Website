@@ -265,6 +265,10 @@
     ],
     "your-first-day-at-web-summit": [
       "Web Summit 2026"
+    ],
+    "zalando-ai-coding-agents": [
+      "AI",
+      "Corporate"
     ]
   },
   "secondary": {
@@ -287,6 +291,7 @@
     "braga": "Braga",
     "brazil": null,
     "circular economy": "ocean-and-circular-economy",
+    "code review": "code review",
     "coding agents": "agents-at-work",
     "connections": null,
     "counts": "survey-data",
@@ -296,6 +301,7 @@
     "discord": "Discord",
     "economy": "economy",
     "edtech": "education",
+    "enterprise adoption": null,
     "eu-funding": "funding",
     "eurohpc": "EuroHPC",
     "europe": null,
@@ -325,6 +331,7 @@
     "manus ai": "Manus AI",
     "maps": "practical",
     "mastra": "Mastra",
+    "mcp": "MCP",
     "minimax": "MiniMax",
     "modelbest": "ModelBest",
     "newsletter": null,
@@ -373,6 +380,7 @@
     "whatsapp": "WhatsApp",
     "women in tech": "women-in-tech",
     "wpp": "WPP",
-    "you.com": "You.com"
+    "you.com": "You.com",
+    "zalando": "Zalando"
   }
 }
