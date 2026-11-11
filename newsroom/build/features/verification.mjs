@@ -3,13 +3,15 @@
 // content/newsroom/verification.md. The articles themselves are not touched: their signatures cover their twins.
 import fs from 'node:fs'
 import path from 'node:path'
+import { isWithdrawnArticle } from '../lib/withdrawn.mjs'
 export const order = 96
 const DIR = 'board/team/dev.verify/records'
 const records = ROOT => {
     const d = path.join(ROOT, DIR)
     if (!fs.existsSync(d)) return []
     return fs.readdirSync(d).map(s => path.join(d, s, 'verified.json')).filter(f => fs.existsSync(f))
-        .map(f => JSON.parse(fs.readFileSync(f, 'utf8'))).sort((a, b) => a.article.localeCompare(b.article))
+        .map(f => JSON.parse(fs.readFileSync(f, 'utf8'))).filter(r => !isWithdrawnArticle(r.article))   // a withdrawn article is listed nowhere (data/site/withdrawn.json)
+        .sort((a, b) => a.article.localeCompare(b.article))
 }
 const done = r => r.claims.filter(c => c.consensus !== 'unchecked' && c.consensus !== 'incomplete')
 const short = m => m.replace(/^.*\//, '')

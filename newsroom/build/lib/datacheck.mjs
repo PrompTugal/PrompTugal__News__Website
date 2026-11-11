@@ -46,6 +46,7 @@ export const KINDS = [
     [/^data\/site\/site\.json$/, 'site'],
     [/^data\/site\/nav\.json$/, 'nav'],
     [/^data\/site\/list-views\.json$/, 'list-views'],
+    [/^data\/site\/withdrawn\.json$/, 'withdrawn'],   // the withdrawn pages (lib/withdrawn.mjs, features/withdrawn.mjs)
     [/^data\/site\/contributors\.json$/, 'contributors'],
     [/^data\/site\/gamma-ray\.json$/, 'gamma-ray'],   // GAMMA-Ray's cards (newsroom/tools/gamma-pull.mjs; features/gamma.mjs)   // the collaborators' wall (features/contribute.mjs)
     [/^data\/front\/days\.json$/, 'front-days'],

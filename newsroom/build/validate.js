@@ -60,6 +60,10 @@ try {
 
 const files = walk(ROOT)
 const html = files.filter(f => f.endsWith('.html'))
+// withdrawn pages (data/site/withdrawn.json; features/withdrawn.mjs checks each shows only the notice, is noindex, is in
+// neither llms.txt nor the sitemap, and that its .sig is left out of the deploy): like the 404, deliberately unlisted
+const WD = (() => { try { return JSON.parse(read('data/site/withdrawn.json')) } catch { return {} } })()
+const WITHDRAWN = new Set(WD.articles || []), WITHDRAWN_PAGES = new Set([...(WD.articles || []).map(s => `articles/${s}.html`), ...(WD.stories || []).map(id => `newsroom/stories/${id}/index.html`)])
 
 // 2. version agreement
 const VERSION = read('newsroom/build/version.txt').trim()
@@ -88,7 +92,7 @@ while (queue.length) {
         if (!seen.has(t)) { seen.add(t); queue.push(t) }
     }
 }
-for (const f of html) if (rel(f) !== '404.html' && !seen.has(rel(f))) errors.push(`${rel(f)}: an orphan (no link reaches it from index.html)`)
+for (const f of html) if (rel(f) !== '404.html' && !WITHDRAWN_PAGES.has(rel(f)) && !seen.has(rel(f))) errors.push(`${rel(f)}: an orphan (no link reaches it from index.html)`)
 
 // 4. canonical host
 if (!/^[a-z0-9.-]+$/.test(HOST)) errors.push(`CNAME does not carry a hostname: "${HOST}"`)
@@ -107,7 +111,7 @@ for (const f of html) {
     const r = rel(f), t = text(f)
     if (!exists(r.replace(/\.html$/, '.md'))) errors.push(`${r}: no markdown twin`)
     if (!/class="agent-block"[\s\S]*<\/div>\s*<\/body>/.test(t)) errors.push(`${r}: does not end with an agent block`)
-    if (r === '404.html') continue
+    if (r === '404.html' || WITHDRAWN_PAGES.has(r)) continue
     // a page kept out of search (<meta name="robots" content="noindex...">, newsroom/build/lib/seo.mjs) stays out of the sitemap too
     if (!listed.includes(r) && !/<meta name="robots" content="noindex/.test(t)) errors.push(`sitemap.xml is missing ${r}`)
     if (!llms.includes(r.replace(/\.html$/, '.md'))) errors.push(`llms.txt does not name ${r.replace(/\.html$/, '.md')}`)
@@ -144,7 +148,9 @@ for (const f of files.filter(f => /^(content|data|desks|board)\//.test(rel(f)) &
 
 // 8. articles (signatures checked against board/keys.json; see newsroom/build/signed-form.cjs)
 const KEYS = (() => { try { return JSON.parse(read('board/keys.json')).keys || [] } catch { errors.push('board/keys.json: missing or not JSON'); return [] } })()
-for (const f of files.filter(f => /^content\/articles\/[^/]+\.md$/.test(rel(f)) && !rel(f).endsWith('/index.md'))) {
+// a withdrawn article (WITHDRAWN, above) is no longer published: its page is the notice and its .sig is left out of the
+// deploy (features/withdrawn.mjs checks both); its source and signature stay in the repository untouched
+for (const f of files.filter(f => /^content\/articles\/[^/]+\.md$/.test(rel(f)) && !rel(f).endsWith('/index.md') && !WITHDRAWN.has(path.basename(f, '.md')))) {
     const fm = (text(f).match(/^---\n([\s\S]*?)\n---/) || [, ''])[1]
     if (/^status:\s*draft/m.test(fm)) continue
     for (const k of ['title', 'date', 'author', 'summary', 'license']) if (!new RegExp(`^${k}:\\s*\\S`, 'm').test(fm)) errors.push(`${rel(f)}: front matter has no ${k}`)

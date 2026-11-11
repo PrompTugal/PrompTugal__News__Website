@@ -10,7 +10,7 @@ const LINK = /\]\((?:\.\.\/)+(companies|events|organisations|people|topics|place
 const isArticle = rel => /^articles\/[^/]+\.html$/.test(rel) && rel !== 'articles/index.html'
 
 export function decorate(page, ctx) {
-    if (!isArticle(page.rel) || page.minigraph) return
+    if (!isArticle(page.rel) || page.minigraph || page.withdrawn) return
     const ref = `article:${page.rel.replace(/^articles\/|\.html$/g, '')}`, base = ctx.graph()
     if (!base.node.has(ref)) return
     const named = [...new Set([...String(page.md).matchAll(LINK)].map(m => `${TYPE[m[1]]}:${m[2]}`))].filter(id => base.node.has(id))
