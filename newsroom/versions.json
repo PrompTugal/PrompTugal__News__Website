@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1261",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (15:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "d45af831d"
+  },
+  {
     "version": "v0.1.1260",
     "date": "2026-11-11",
     "what": "sherpa@PrompTugal.dinis: 15:29 wake: Thursday confirmed in the lead, not in its headline (v0.1.1259); W7",
