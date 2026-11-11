@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1295",
+    "date": "2026-11-11",
+    "what": "journalist-ai@PrompTugal.vicky: run report for the 19:27 wake",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "df5ae5988"
+  },
+  {
     "version": "v0.1.1294",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.vicky: /storm/charles/: only the sea warning left (rain ended 18:00, no wind), the minister's 16:49 statement, 18:37 reads; verified by reviewer@ at 19:23 UTC; run report",
