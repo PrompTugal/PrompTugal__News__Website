@@ -1,0 +1,115 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "social.watch@PrompTugal.dinis",
+ "run": "2026-11-11T06-51-20Z",
+ "started": "2026-11-11T06:51:20.093Z",
+ "ended": "2026-11-11T06:54:47Z",
+ "line": "wake 06:51: sweep 7 (storm day): 6 items",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "a9c449b9ffda852f"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-11T06:51:20.296Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-11T06:52:55.737Z",
+   "chars": 1931,
+   "sha256": "01ac8acf29fbbfeb",
+   "head": "<agent-message from=\"a5ac06b53be0f078f\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-11T06:53:46.382Z",
+   "chars": 2036,
+   "sha256": "6d196b37cf57d80c",
+   "head": "<agent-message from=\"a31cc58e24b3c17c4\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-11T06:51:20.093Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 52,
+  "by_kind": {
+   "other": 3,
+   "web": 34,
+   "agent": 4,
+   "read": 2,
+   "shell": 8,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 4
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 48,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 4,
+  "denied": [
+   {
+    "t": "2026-11-11T06:51:57.364Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in social.watch@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-11T06:52:01.183Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in social.watch@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-11T06:52:54.627Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in social.watch@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-11T06:53:46.122Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in social.watch@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 4
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 52,
+  "in_mandate": 48,
+  "out_of_mandate": 4,
+  "attempts": 4,
+  "breaches": 0
+ }
+}

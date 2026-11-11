@@ -1,11 +1,11 @@
 ---
-title: "The night shift: four articles published while their editor slept"
+title: "The night shift: six articles published while their editor slept"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 1 (not yet offered to the newsroom's pipeline)
+status: draft 2 (corrects draft 1 on S50; not yet offered to the newsroom's pipeline)
 story: the-discovery
-from: board/team/work-desk/traces/the-discovery.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T03:40Z, 22 steps, 00:22 to 03:19 UTC)
-written: 2026-11-11T04:15Z
-summary: "At 00:22 UTC on 11 November, Vicky approved one workflow: her beat journalists log leads, the curator commissions, the reviewer publishes under her standing rule. In the next three hours: nine leads, seven commissions, four articles published, and one sent back because three dates were not on the page it cited. No person was in the loop at the moment of publication."
+from: board/team/work-desk/traces/the-discovery.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T06:40Z, 36 steps, 00:22 to 06:23 UTC)
+written: 2026-11-11T07:10Z
+summary: "At 00:22 UTC on 11 November, Vicky approved one workflow: her beat journalists log leads, the curator commissions, the reviewer publishes under her standing rule. In the next six hours: fifteen leads, nine commissions, six articles published with no person in the loop at the moment of publication, and two calls the rule did not cover sent back to a person or held."
 ---
 
 # The night shift
@@ -20,11 +20,11 @@ Then the night went on without her.
 
 | | Count |
 |---|---|
-| Leads logged by the beat journalists | 9 (AI 2, connections 1, Portugal 2, Europe 2, plus two from the curator's own reading) |
-| Commissions | 7 |
-| Published | 4, between 01:14 and 02:56 |
-| In review at 03:19 | 2 (S50 fixed and back with the reviewer; S52 drafted) |
-| Dropped or waiting | 2 (a keynote listing; a 2027 conference) |
+| Leads logged by the beat journalists | 15 (AI 2, connections 3, Portugal 3, Europe 5), plus two stories from the curator's own reading |
+| Commissions | 9 |
+| Published | 6, between 01:14 and 05:46 |
+| In review at 06:23 | 1 (S54, drafted) |
+| Held | S52 (an editorial call for Vicky); Invelon (a date conflict between the company's post and the press); others held by the curator |
 
 ## What happened
 
@@ -42,7 +42,15 @@ Then the night went on without her.
 | 02:43 | curator@ | S52 (Konecta in Lisbon) commissioned, with S51 (the storm's transport guide) |
 | 02:44, 02:56 | reviewer@ | S49 and S48 published under R-PUB-1 (S48 after a hold for its category) |
 | 02:50 | reviewer@ | S50 sent back, **"Fix first"**: three AI Act dates not on the Commission pages it cited |
-| 03:19 | journalist-europe@ | S50 revised, the three dates quoted from the cited page |
+| 03:19 | journalist-europe@ | S50 revised, quoting the three dates from the cited page for the reviewer |
+| 03:41 | reviewer@ | S50 published; **the reviewer withdraws its own "Fix first"**: the dates were on the cited page after all (117 minutes from commission) |
+| 03:46 | reviewer@ | S52 Ready but **held for Vicky**: whether to mention Konecta's forbearance agreement of 30 October is an editorial call R-PUB-1 does not cover |
+| 04:10 to 04:20 | three beat journalists | four more leads |
+| 04:42 | curator@ | S53 (the DSA election guidelines consultation) commissioned |
+| 05:16 | journalist-portugal@ | finds Invelon's own post, dated 22 September, contradicting the date in Lusa's report; the curator holds the lead |
+| 05:43 | curator@ | S54 (Thursday's breakout startups) commissioned; from now the curator gives the categories with the commission |
+| 05:46 | reviewer@ | S53 published under R-PUB-1 (63 minutes from commission) |
+| 06:19 | journalist-connections@ | S54 drafted |
 
 ```mermaid
 flowchart LR
@@ -55,8 +63,9 @@ flowchart LR
   C -- 7 commissions --> J["the journalists draft"]
   J --> Rv["reviewer@"]
   R1 -.-> Rv
-  Rv -- 4 published --> Rd(["readers"])
-  Rv -- "Fix first (S50)" --> B4
+  Rv -- 6 published --> Rd(["readers"])
+  Rv -- "Fix first (S50, withdrawn)" --> B4
+  Rv -- "held: editorial call (S52)" --> V
 ```
 
 Every step: `materials/the-discovery/timeline.json`; the hand-offs: `the-discovery.mmd`, `flow.mmd`.
@@ -64,20 +73,22 @@ Every step: `materials/the-discovery/timeline.json`; the hand-offs: `the-discove
 ## How long it took
 
 - **10 minutes** from Vicky's approval to the first lead.
-- From commission to published: **29 minutes** (S47), **60 minutes** (S46 and S49), **72 minutes** (S48).
+- From commission to published: **29 minutes** (S47), **60 minutes** (S46 and S49), **63 minutes** (S53), **72 minutes** (S48), and **117 minutes** (S50, with the fix request that proved wrong).
 
 ## What it shows
 
 **Analysis:**
 
-- **One approval, then a rule.** Of the 22 steps, only one is Vicky's. The other moments where a person's authority acts are the four publications, each made by the reviewer under her standing rule: four articles reached readers with no person in the loop at that moment. The trace marks them as person-to-agent hand-offs because the authority is hers; the time is the agent's.
-- **The checks that remain are agents checking agents.** The reviewer's "Fix first" on S50 (a fact not on its cited page) and the curator's hold on a lead until a primary source turned up are what stood between a lead and a reader. Both worked: S50 came back at 03:19 with the dates quoted from the page.
+- **One approval, then a rule.** Of the 36 steps, only one is Vicky's. The other moments where a person's authority acts are the six publications, each made by the reviewer under her standing rule: six articles reached readers with no person in the loop at that moment. The trace marks them as person-to-agent hand-offs because the authority is hers; the time is the agent's.
+- **The checks that remain are agents checking agents, and they can be wrong.** The reviewer sent S50 back because three dates were not, it said, on the cited page. They were: the journalist quoted them back, and the reviewer withdrew its own objection. The check cost 51 minutes (S50 took 117 minutes, against about 60 for the others) and stopped nothing that was false. **Correction:** draft 1 of this story said the dates were missing and the fix had worked; the trace now shows the request itself was wrong.
+- **The rule knows its edge.** S52 was ready, but whether to mention a company's debt forbearance agreement is a judgement, not a fact check, and R-PUB-1 covers only verified factual articles. The reviewer held it for Vicky rather than publish.
+- **Primary sources beat the press.** journalist-portugal@ twice went to the company's own page: once to answer a hold (Konecta's press release), once to catch a date in Lusa's report that the company's own post contradicts (Invelon). The second lead is held, not published.
 - **Compared with the two other traces of the night:** the storm was many sources and one desk; the categories were one decision and many desks; the discovery is many desks and one rule.
 
 ## What it cost
 
-Not recorded: Vicky's agents' run reports carry no tokens. The trace is 13.8 kB, about 4,000 tokens, against 22 commits and five desks' notes.
+Not recorded: Vicky's agents' run reports carry no tokens. The trace is 22 kB, about 6,000 tokens, against 36 commits and five desks' notes.
 
 ## Sources
 
-`board/team/work-desk/traces/the-discovery.json` and the commits it cites, from `9d47616e7` (00:22) to `a64d10d7f` (03:19).
+`board/team/work-desk/traces/the-discovery.json` and the commits it cites, from `9d47616e7` (00:22) to `7c12d04a1` (06:23).

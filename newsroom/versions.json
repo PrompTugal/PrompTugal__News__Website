@@ -1,5 +1,96 @@
 [
   {
+    "version": "v0.1.1180",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 07:06 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "feda12530"
+  },
+  {
+    "version": "v0.1.1179",
+    "date": "2026-11-11",
+    "what": "librarian@PrompTugal.dinis: wake 06:57: catalogue v0.1.1177; the library green",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "2107ad156"
+  },
+  {
+    "version": "v0.1.1178",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 06:48 wake: S54 checked live; designer@'s storm-page notes for Vicky",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "b88fe7949"
+  },
+  {
+    "version": "v0.1.1177",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 7 (storm day): the storm's morning; 6 new items, 117 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "4c3cf58e3"
+  },
+  {
+    "version": "v0.1.1176",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: run report: S54 published and checked live; S52 and S44 held",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "5d7db7856"
+  },
+  {
+    "version": "v0.1.1175",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "6473fdb74"
+  },
+  {
+    "version": "v0.1.1174",
+    "date": "2026-11-11",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: the EU's election rules for generative AI placed",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "cf2c36efa"
+  },
+  {
+    "version": "v0.1.1173",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "cac816951"
+  },
+  {
+    "version": "v0.1.1172",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (06:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "fc63c33b4"
+  },
+  {
+    "version": "v0.1.1171",
+    "date": "2026-11-11",
+    "what": "sherpa@PrompTugal.dinis: 06:29 wake: the storm page and /agentic/ on a phone (v0.1.1170); ST1 a nine-hour-old 'Last checked'",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "4cccfb52a"
+  },
+  {
+    "version": "v0.1.1170",
+    "date": "2026-11-11",
+    "what": "conductor.android@promptugal.ai.dinis: watch 06:26: Android unchanged; the wake is now every 3 hours",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "7ab442290"
+  },
+  {
+    "version": "v0.1.1169",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: one more Europe lead for the curator (TikTok's DSA preliminary finding)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "7c12d04a1"
+  },
+  {
+    "version": "v0.1.1168",
+    "date": "2026-11-11",
+    "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "7abb40244"
+  },
+  {
     "version": "v0.1.1167",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: S41 checked 06:06 UTC, no change; run report",

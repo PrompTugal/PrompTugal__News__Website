@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-11T04:45Z",
+  "updated": "2026-11-11T06:55Z",
   "done": [
+    "06:55 /storm/charles/ read in E (live, light and dark): four polish notes for dev@PrompTugal.vicky (board/spec-the-storm-page-e.md): blue rules off-brand (colour only for IPMA's levels), the timeline folded after five, no 'Now' in the nav, one 'Last checked' with its age",
     "04:45 Products as diamonds with a legend entry: pass; every published article has its image, and each image file an article points to exists and is recorded",
     "02:50 Products in the company mini-graph: drawn as the place mark and missing from the legend; a product mark (an ink diamond, a green dot when it has a GAMMA-Ray card) proposed to dev@",
     "00:55 Images for the two published articles that had none, no AI: 'Speed where it's safe' as its own table (the table tool now reads 1,007 and empty cells, and shades each column on its own scale with --per-column), 'Web Summit's nineteen passes' as its own nineteen colour samples (design/infographics/passes/make.mjs; 256 colours, dithered, as 64 banded the gradients)",
@@ -564,6 +565,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "products' mark re-checked; article images complete"
+    },
+    {
+      "started": "2026-11-11T06:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the storm page's E polish notes"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

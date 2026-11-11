@@ -175,7 +175,8 @@
    "back": "Back to the site",
    "lang_label": "Language",
    "lang_en": "Back to English",
-   "mt_note": ""
+   "mt_note": "",
+   "beta": "Get the app first"
   },
   "en-US": {
    "sub": "Web Summit Lisbon",
@@ -222,7 +223,8 @@
    "back": "Back to the site",
    "lang_label": "Language",
    "lang_en": "Back to English",
-   "mt_note": ""
+   "mt_note": "",
+   "beta": "Get the app first"
   },
   "pt-PT": {
    "sub": "Web Summit Lisboa",
@@ -269,7 +271,8 @@
    "back": "Voltar ao site",
    "lang_label": "Idioma",
    "lang_en": "Voltar ao inglês",
-   "mt_note": "Tradução automática do inglês."
+   "mt_note": "Tradução automática do inglês.",
+   "beta": "Receba a app primeiro"
   },
   "pt-BR": {
    "sub": "Web Summit Lisboa",
@@ -316,7 +319,8 @@
    "back": "Voltar ao site",
    "lang_label": "Idioma",
    "lang_en": "Voltar para o inglês",
-   "mt_note": "Tradução automática do inglês."
+   "mt_note": "Tradução automática do inglês.",
+   "beta": "Receba o app primeiro"
   },
   "de-DE": {
    "sub": "Web Summit Lissabon",
@@ -363,7 +367,8 @@
    "back": "Zurück zur Website",
    "lang_label": "Sprache",
    "lang_en": "Zurück zu Englisch",
-   "mt_note": "Maschinell aus dem Englischen übersetzt."
+   "mt_note": "Maschinell aus dem Englischen übersetzt.",
+   "beta": "Die App zuerst bekommen"
   },
   "de-CH": {
    "sub": "Web Summit Lissabon",
@@ -410,7 +415,8 @@
    "back": "Zurück zur Website",
    "lang_label": "Sprache",
    "lang_en": "Zurück zu Englisch",
-   "mt_note": "Maschinell aus dem Englischen übersetzt."
+   "mt_note": "Maschinell aus dem Englischen übersetzt.",
+   "beta": "Die App zuerst bekommen"
   },
   "es-ES": {
    "sub": "Web Summit Lisboa",
@@ -457,7 +463,8 @@
    "back": "Volver al sitio",
    "lang_label": "Idioma",
    "lang_en": "Volver al inglés",
-   "mt_note": "Traducción automática del inglés."
+   "mt_note": "Traducción automática del inglés.",
+   "beta": "Consigue la app primero"
   },
   "es-AR": {
    "sub": "Web Summit Lisboa",
@@ -504,7 +511,8 @@
    "back": "Volver al sitio",
    "lang_label": "Idioma",
    "lang_en": "Volver al inglés",
-   "mt_note": "Traducción automática del inglés."
+   "mt_note": "Traducción automática del inglés.",
+   "beta": "Conseguí la app primero"
   },
   "es-MX": {
    "sub": "Web Summit Lisboa",
@@ -551,7 +559,8 @@
    "back": "Volver al sitio",
    "lang_label": "Idioma",
    "lang_en": "Volver al inglés",
-   "mt_note": "Traducción automática del inglés."
+   "mt_note": "Traducción automática del inglés.",
+   "beta": "Consigue la app primero"
   },
   "fr-FR": {
    "sub": "Web Summit Lisbonne",
@@ -598,7 +607,8 @@
    "back": "Retour au site",
    "lang_label": "Langue",
    "lang_en": "Revenir à l'anglais",
-   "mt_note": "Traduction automatique de l'anglais."
+   "mt_note": "Traduction automatique de l'anglais.",
+   "beta": "Recevoir l'app en premier"
   },
   "fr-CA": {
    "sub": "Web Summit Lisbonne",
@@ -645,7 +655,8 @@
    "back": "Retour au site",
    "lang_label": "Langue",
    "lang_en": "Revenir à l'anglais",
-   "mt_note": "Traduction automatique de l'anglais."
+   "mt_note": "Traduction automatique de l'anglais.",
+   "beta": "Recevoir l'appli en premier"
   },
   "it-IT": {
    "sub": "Web Summit Lisbona",
@@ -692,7 +703,8 @@
    "back": "Torna al sito",
    "lang_label": "Lingua",
    "lang_en": "Torna all'inglese",
-   "mt_note": "Traduzione automatica dall'inglese."
+   "mt_note": "Traduzione automatica dall'inglese.",
+   "beta": "Ricevi l'app per primo"
   },
   "nl-NL": {
    "sub": "Web Summit Lissabon",
@@ -739,7 +751,8 @@
    "back": "Terug naar de site",
    "lang_label": "Taal",
    "lang_en": "Terug naar Engels",
-   "mt_note": "Automatisch vertaald uit het Engels."
+   "mt_note": "Automatisch vertaald uit het Engels.",
+   "beta": "Krijg de app als eerste"
   },
   "pl-PL": {
    "sub": "Web Summit Lizbona",
@@ -786,7 +799,8 @@
    "back": "Wróć do strony",
    "lang_label": "Język",
    "lang_en": "Wróć do angielskiego",
-   "mt_note": "Tłumaczenie maszynowe z angielskiego."
+   "mt_note": "Tłumaczenie maszynowe z angielskiego.",
+   "beta": "Zdobądź aplikację jako pierwszy"
   },
   "hr-HR": {
    "sub": "Web Summit Lisabon",
@@ -833,7 +847,8 @@
    "back": "Natrag na stranicu",
    "lang_label": "Jezik",
    "lang_en": "Natrag na engleski",
-   "mt_note": "Strojni prijevod s engleskog."
+   "mt_note": "Strojni prijevod s engleskog.",
+   "beta": "Prvi dobijte aplikaciju"
   },
   "ro-RO": {
    "sub": "Web Summit Lisabona",
@@ -880,7 +895,8 @@
    "back": "Înapoi la site",
    "lang_label": "Limbă",
    "lang_en": "Înapoi la engleză",
-   "mt_note": "Traducere automată din engleză."
+   "mt_note": "Traducere automată din engleză.",
+   "beta": "Primește aplicația primul"
   },
   "zh-Hans": {
    "sub": "里斯本 Web Summit",
@@ -927,7 +943,8 @@
    "back": "返回网站",
    "lang_label": "语言",
    "lang_en": "切换回英语",
-   "mt_note": "由英文机器翻译。"
+   "mt_note": "由英文机器翻译。",
+   "beta": "抢先获取应用"
   },
   "ja-JP": {
    "sub": "Web Summit リスボン",
@@ -974,7 +991,8 @@
    "back": "サイトに戻る",
    "lang_label": "言語",
    "lang_en": "英語に戻す",
-   "mt_note": "英語からの機械翻訳です。"
+   "mt_note": "英語からの機械翻訳です。",
+   "beta": "いち早くアプリを入手"
   },
   "ko-KR": {
    "sub": "웹 서밋 리스본",
@@ -1021,7 +1039,8 @@
    "back": "사이트로 돌아가기",
    "lang_label": "언어",
    "lang_en": "영어로 돌아가기",
-   "mt_note": "영어에서 기계 번역되었습니다."
+   "mt_note": "영어에서 기계 번역되었습니다.",
+   "beta": "앱 먼저 받기"
   },
   "hi-IN": {
    "sub": "वेब समिट लिस्बन",
@@ -1068,7 +1087,8 @@
    "back": "साइट पर वापस",
    "lang_label": "भाषा",
    "lang_en": "अंग्रेज़ी पर वापस",
-   "mt_note": "अंग्रेज़ी से मशीनी अनुवाद।"
+   "mt_note": "अंग्रेज़ी से मशीनी अनुवाद।",
+   "beta": "ऐप सबसे पहले पाएँ"
   },
   "ar": {
    "sub": "قمة الويب لشبونة",
@@ -1115,7 +1135,8 @@
    "back": "العودة إلى الموقع",
    "lang_label": "اللغة",
    "lang_en": "العودة إلى الإنجليزية",
-   "mt_note": "ترجمة آلية من الإنجليزية."
+   "mt_note": "ترجمة آلية من الإنجليزية.",
+   "beta": "احصل على التطبيق أولًا"
   }
  }
 }

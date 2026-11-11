@@ -23,6 +23,11 @@
         var more = document.querySelector('.ctabs-more span'); if (more) { if (!('more' in EN)) EN.more = more.textContent; more.textContent = W && W.more || EN.more }
         var app = document.querySelector('.pt-app-btn'); if (app) { if (!('app' in EN)) EN.app = app.textContent; app.textContent = W && W.app || EN.app }
         live(c, W)
+        // the footer's column heads, by their English words (the shell's markup stays as it is)
+        var FOOT = { 'Find': 'foot_find', 'The newsroom': 'foot_newsroom', 'Read': 'foot_read', 'For agents': 'foot_agents' }
+        document.querySelectorAll('.foot-cols h3').forEach(function (h) {
+            if (!h.hasAttribute('data-en')) h.setAttribute('data-en', h.textContent)
+            var k = FOOT[h.getAttribute('data-en')]; if (k) h.textContent = W && W[k] ? W[k] : h.getAttribute('data-en') })
         if (btn) btn.querySelector('span').textContent = c.split('-')[0].toUpperCase()
         var note = document.querySelector('.em-i18n-note'); if (note) note.remove()
         if (W && W.note) { var n = el('p', 'em-i18n-note', W.note); n.lang = c; var dl = document.querySelector('.em-dl'); if (dl) dl.parentNode.insertBefore(n, dl.nextSibling) }

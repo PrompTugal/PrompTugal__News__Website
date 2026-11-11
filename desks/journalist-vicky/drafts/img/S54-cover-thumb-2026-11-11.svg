@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-labelledby="t d">
+  <title id="t">Breakout startups, Thursday on Centre Stage</title>
+  <desc id="d">Bagel Labs, Kamino, Unframe and norriv pitch on Web Summit's Centre Stage on Thursday 12 November, if Day 3 runs. Source: Web Summit.</desc>
+  <rect width="480" height="480" fill="#f7f3ea"/>
+  <rect x="0" y="0" width="480" height="12" fill="#003399"/>
+  <g font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <text x="36" y="92" font-size="50" font-weight="700" fill="#1a1a1a">Breakout</text>
+    <text x="36" y="148" font-size="50" font-weight="700" fill="#1a1a1a">startups</text>
+    <text x="36" y="196" font-size="30" fill="#444">Thursday, Centre Stage</text>
+    <rect x="36" y="226" width="8" height="208" fill="#003399"/>
+    <text x="62" y="268" font-size="40" fill="#1a1a1a">Bagel Labs</text>
+    <text x="62" y="320" font-size="40" fill="#1a1a1a">Kamino</text>
+    <text x="62" y="372" font-size="40" fill="#1a1a1a">Unframe</text>
+    <text x="62" y="424" font-size="40" fill="#1a1a1a">norriv</text>
+  </g>
+</svg>

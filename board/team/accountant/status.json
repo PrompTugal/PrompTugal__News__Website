@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
- "updated": "2026-11-11T03:55Z",
+ "updated": "2026-11-11T06:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -39,15 +39,16 @@
   "18:50 on 10 November: 205.34 API-equivalent so far (A 59.94, B 145.4); account A's seven-day limit at allowed_warning in every session, reported; five over their lines, recorded",
   "21:50 on 10 November: 265.4 API-equivalent so far (A 71.87, B 193.53); account A still allowed_warning; five over their lines, recorded",
   "00:50 on 11 November: the close of 10 November, 315.67 API-equivalent (A 84.15, B 231.52); seven at or over their lines; budgets.json reset for 11 November; the hand-over debrief",
-  "03:50 on 11 November: 61.95 API-equivalent so far (A 10.17, B 51.78); nobody over; account A still allowed_warning"
+  "03:50 on 11 November: 61.95 API-equivalent so far (A 10.17, B 51.78); nobody over; account A still allowed_warning",
+  "06:50 on 11 November: 108.44 API-equivalent so far (A 20.58, B 87.86); nobody over; the shared OpenRouter key out of credit (402) since about 05:00 to 05:51, reported"
  ],
  "next": [
-  "at 06:47: account A and conductor.b@'s newest ledger against the 11 November baseline"
+  "at 09:47: account A and conductor.b@'s newest ledger; the OpenRouter credit"
  ],
  "asks": [
+  "Dinis: the shared OpenRouter key is out of credit: HTTP 402 since about 05:00 to 05:51 UTC on 11 November; social.watch@ has stalled and every agent using the key stops with it. A top-up is yours. The summit plan is ready in board/budgets.json (openrouter.summit_plan: 250 USD within your 100 to 300 GBP, one key per tablet or agent so the next draw can be traced)",
   "Dinis: account A's seven-day limit reads allowed_warning in every account A session since about 18:47 on 10 November (allowed at 15:47); it resets on 15 November at 20:00 UTC, after the summit. PrompTugal's four sessions are about 60 API-equivalent of A today; the Web Summit gamma team and the Android team share A and are not in my reading. Nothing stops; whether to slow A's wakes is yours and the main conductor's",
   "Dinis: the cost case 'agents that pay for themselves' is in board/team/accountant/case-agents-that-save-tokens.md (five examples from our own record, estimates labelled). Whether it is Thursday's message is yours; on yes, I measure the reporter and the named candidates (raw run against digest run) before Thursday",
-  "Dinis: the OpenRouter plan for the summit is in board/budgets.json (openrouter.summit_plan), from your word as relayed by conductor@web-summit.dinis at about 13:25: 250 USD (about 197 GBP) of your 100 to 300 GBP, one key per tablet at 5 USD, 25 USD per app team for the cloud comparison, one key per agent, 60 USD reserve. Making the keys and setting their limits in OpenRouter is yours (or whoever you name); change any number and it is written as you say. The credit is at 1.19 USD now (dev.verify@)",
   "Dinis: Vicky's and Angelo's rebuild sessions on your card each have a line in board/budgets.json (rebuild_sessions), but they are not on account A or B, so I cannot read their cost. Their agents are asked (through the conductor) to report it daily; if you prefer, tell me the card's figure",
   "Dinis: I could not tell conductor.android@ and conductor@web-summit.dinis myself: my grant sends only to the agent inboxes, and they have none here; conductor@ and conductor.b@ were asked to pass the plan on",
   "Dinis: my session was down from 18:47 on 7 November to 03:47 on 9 November (a worker restart; nine wakes missed); the close of 7 and 8 November is written late, account A as one figure",
@@ -227,6 +228,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "61.95 so far (A 10.17, B 51.78); nobody over; A allowed_warning"
+  },
+  {
+   "started": "2026-11-11T06:47Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "108.44 so far (A 20.58, B 87.86); OpenRouter out of credit, reported"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-11-handover.md"

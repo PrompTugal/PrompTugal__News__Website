@@ -147,7 +147,11 @@
    "live": "Live",
    "live_now": "Now",
    "live_next": "Next",
-   "live_agenda": "Today's agenda"
+   "live_agenda": "Today's agenda",
+   "foot_find": "Find",
+   "foot_newsroom": "The newsroom",
+   "foot_read": "Read",
+   "foot_agents": "For agents"
   },
   "en-US": {
    "now": "Now",
@@ -167,7 +171,11 @@
    "live": "Live",
    "live_now": "Now",
    "live_next": "Next",
-   "live_agenda": "Today's agenda"
+   "live_agenda": "Today's agenda",
+   "foot_find": "Find",
+   "foot_newsroom": "The newsroom",
+   "foot_read": "Read",
+   "foot_agents": "For agents"
   },
   "pt-PT": {
    "now": "Agora",
@@ -187,7 +195,11 @@
    "live": "Ao vivo",
    "live_now": "Agora",
    "live_next": "A seguir",
-   "live_agenda": "A agenda de hoje"
+   "live_agenda": "A agenda de hoje",
+   "foot_find": "Encontrar",
+   "foot_newsroom": "A redação",
+   "foot_read": "Ler",
+   "foot_agents": "Para agentes"
   },
   "pt-BR": {
    "now": "Agora",
@@ -207,7 +219,11 @@
    "live": "Ao vivo",
    "live_now": "Agora",
    "live_next": "A seguir",
-   "live_agenda": "A agenda de hoje"
+   "live_agenda": "A agenda de hoje",
+   "foot_find": "Encontrar",
+   "foot_newsroom": "A redação",
+   "foot_read": "Ler",
+   "foot_agents": "Para agentes"
   },
   "de-DE": {
    "now": "Jetzt",
@@ -227,7 +243,11 @@
    "live": "Live",
    "live_now": "Jetzt",
    "live_next": "Danach",
-   "live_agenda": "Die Agenda von heute"
+   "live_agenda": "Die Agenda von heute",
+   "foot_find": "Finden",
+   "foot_newsroom": "Die Redaktion",
+   "foot_read": "Lesen",
+   "foot_agents": "Für Agenten"
   },
   "de-CH": {
    "now": "Jetzt",
@@ -247,7 +267,11 @@
    "live": "Live",
    "live_now": "Jetzt",
    "live_next": "Danach",
-   "live_agenda": "Die Agenda von heute"
+   "live_agenda": "Die Agenda von heute",
+   "foot_find": "Finden",
+   "foot_newsroom": "Die Redaktion",
+   "foot_read": "Lesen",
+   "foot_agents": "Für Agenten"
   },
   "es-ES": {
    "now": "Ahora",
@@ -267,7 +291,11 @@
    "live": "En directo",
    "live_now": "Ahora",
    "live_next": "Después",
-   "live_agenda": "La agenda de hoy"
+   "live_agenda": "La agenda de hoy",
+   "foot_find": "Encontrar",
+   "foot_newsroom": "La redacción",
+   "foot_read": "Leer",
+   "foot_agents": "Para agentes"
   },
   "es-AR": {
    "now": "Ahora",
@@ -287,7 +315,11 @@
    "live": "En vivo",
    "live_now": "Ahora",
    "live_next": "Después",
-   "live_agenda": "La agenda de hoy"
+   "live_agenda": "La agenda de hoy",
+   "foot_find": "Encontrar",
+   "foot_newsroom": "La redacción",
+   "foot_read": "Leer",
+   "foot_agents": "Para agentes"
   },
   "es-MX": {
    "now": "Ahora",
@@ -307,7 +339,11 @@
    "live": "En vivo",
    "live_now": "Ahora",
    "live_next": "Después",
-   "live_agenda": "La agenda de hoy"
+   "live_agenda": "La agenda de hoy",
+   "foot_find": "Encontrar",
+   "foot_newsroom": "La redacción",
+   "foot_read": "Leer",
+   "foot_agents": "Para agentes"
   },
   "fr-FR": {
    "now": "Maintenant",
@@ -327,7 +363,11 @@
    "live": "En direct",
    "live_now": "Maintenant",
    "live_next": "Ensuite",
-   "live_agenda": "L'agenda du jour"
+   "live_agenda": "L'agenda du jour",
+   "foot_find": "Trouver",
+   "foot_newsroom": "La rédaction",
+   "foot_read": "Lire",
+   "foot_agents": "Pour les agents"
   },
   "fr-CA": {
    "now": "Maintenant",
@@ -347,7 +387,11 @@
    "live": "En direct",
    "live_now": "Maintenant",
    "live_next": "Ensuite",
-   "live_agenda": "L'agenda du jour"
+   "live_agenda": "L'agenda du jour",
+   "foot_find": "Trouver",
+   "foot_newsroom": "La rédaction",
+   "foot_read": "Lire",
+   "foot_agents": "Pour les agents"
   },
   "it-IT": {
    "now": "Ora",
@@ -367,7 +411,11 @@
    "live": "In diretta",
    "live_now": "Ora",
    "live_next": "Dopo",
-   "live_agenda": "L'agenda di oggi"
+   "live_agenda": "L'agenda di oggi",
+   "foot_find": "Trova",
+   "foot_newsroom": "La redazione",
+   "foot_read": "Leggi",
+   "foot_agents": "Per gli agenti"
   },
   "nl-NL": {
    "now": "Nu",
@@ -387,7 +435,11 @@
    "live": "Live",
    "live_now": "Nu",
    "live_next": "Hierna",
-   "live_agenda": "De agenda van vandaag"
+   "live_agenda": "De agenda van vandaag",
+   "foot_find": "Vinden",
+   "foot_newsroom": "De redactie",
+   "foot_read": "Lezen",
+   "foot_agents": "Voor agents"
   },
   "pl-PL": {
    "now": "Teraz",
@@ -407,7 +459,11 @@
    "live": "Na żywo",
    "live_now": "Teraz",
    "live_next": "Następnie",
-   "live_agenda": "Dzisiejsza agenda"
+   "live_agenda": "Dzisiejsza agenda",
+   "foot_find": "Znajdź",
+   "foot_newsroom": "Redakcja",
+   "foot_read": "Czytaj",
+   "foot_agents": "Dla agentów"
   },
   "hr-HR": {
    "now": "Sada",
@@ -427,7 +483,11 @@
    "live": "Uživo",
    "live_now": "Sada",
    "live_next": "Sljedeće",
-   "live_agenda": "Današnji raspored"
+   "live_agenda": "Današnji raspored",
+   "foot_find": "Pronađi",
+   "foot_newsroom": "Redakcija",
+   "foot_read": "Čitaj",
+   "foot_agents": "Za agente"
   },
   "ro-RO": {
    "now": "Acum",
@@ -447,7 +507,11 @@
    "live": "În direct",
    "live_now": "Acum",
    "live_next": "Urmează",
-   "live_agenda": "Agenda de azi"
+   "live_agenda": "Agenda de azi",
+   "foot_find": "Găsește",
+   "foot_newsroom": "Redacția",
+   "foot_read": "Citește",
+   "foot_agents": "Pentru agenți"
   },
   "zh-Hans": {
    "now": "现在",
@@ -467,7 +531,11 @@
    "live": "直播",
    "live_now": "现在",
    "live_next": "接下来",
-   "live_agenda": "今日议程"
+   "live_agenda": "今日议程",
+   "foot_find": "查找",
+   "foot_newsroom": "编辑部",
+   "foot_read": "阅读",
+   "foot_agents": "面向智能体"
   },
   "ja-JP": {
    "now": "今",
@@ -487,7 +555,11 @@
    "live": "ライブ",
    "live_now": "今",
    "live_next": "次",
-   "live_agenda": "今日のアジェンダ"
+   "live_agenda": "今日のアジェンダ",
+   "foot_find": "探す",
+   "foot_newsroom": "編集部",
+   "foot_read": "読む",
+   "foot_agents": "エージェント向け"
   },
   "ko-KR": {
    "now": "지금",
@@ -507,7 +579,11 @@
    "live": "라이브",
    "live_now": "지금",
    "live_next": "다음",
-   "live_agenda": "오늘의 일정"
+   "live_agenda": "오늘의 일정",
+   "foot_find": "찾기",
+   "foot_newsroom": "편집국",
+   "foot_read": "읽기",
+   "foot_agents": "에이전트용"
   },
   "hi-IN": {
    "now": "अभी",
@@ -527,7 +603,11 @@
    "live": "लाइव",
    "live_now": "अभी",
    "live_next": "आगे",
-   "live_agenda": "आज का एजेंडा"
+   "live_agenda": "आज का एजेंडा",
+   "foot_find": "खोजें",
+   "foot_newsroom": "न्यूज़रूम",
+   "foot_read": "पढ़ें",
+   "foot_agents": "एजेंटों के लिए"
   },
   "ar": {
    "now": "الآن",
@@ -547,7 +627,11 @@
    "live": "مباشر",
    "live_now": "الآن",
    "live_next": "التالي",
-   "live_agenda": "جدول أعمال اليوم"
+   "live_agenda": "جدول أعمال اليوم",
+   "foot_find": "ابحث",
+   "foot_newsroom": "غرفة الأخبار",
+   "foot_read": "اقرأ",
+   "foot_agents": "للوكلاء"
   }
  }
 }

@@ -1,14 +1,14 @@
 ---
 title: "The library of PrompTugal.news"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T03:58:20Z"
-site_version: "v0.1.1148"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T06:58:59Z"
+site_version: "v0.1.1177"
 source: board/catalogue.json
 ---
 
 # The library of PrompTugal.news
 
-Everything in this repository and on this site in one place: 3542 cards, who made each, and when.
+Everything in this repository and on this site in one place: 3565 cards, who made each, and when.
 
 Find something: open [the reading room](reading-room.htm) and type the first letters of a title, a call number or a kind. It also draws the library as a graph.
 
@@ -16,17 +16,17 @@ Three doors: [Find a page](reading-room.htm) | [What is new](notice-board.md) | 
 
 ## New this hour (new accessions: the newest things added)
 
-- `ACC-20261111-0052` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-categories/workflow.json)
-- `ACC-20261111-0051` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-categories/timeline.json)
-- `ACC-20261111-0050` [the-discovery.json](https://promptugal.news/board/team/work-desk/traces/the-discovery.md)
-- `ACC-20261111-0049` [the-discovery.json](https://promptugal.news/board/team/work-desk/traces/the-discovery.json)
-- `ACC-20261111-0048` [Eight categories in 65 minutes: how a person and her agents reorganised a newsroom at midnight](https://promptugal.news/board/team/journalist.newsroom/stories/the-categories.md)
+- `ACC-20261111-0075` [/storm/charles/ in design E: four polish notes](https://promptugal.news/board/spec-the-storm-page-e.md)
+- `ACC-20261111-0074` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-discovery/workflow.json)
+- `ACC-20261111-0073` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-discovery/timeline.json)
+- `ACC-20261111-0072` [The night shift: four articles published while their editor slept](https://promptugal.news/board/team/journalist.newsroom/stories/the-discovery.md)
+- `ACC-20261111-0071` [the-discovery.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-discovery/the-discovery.mmd)
 
 (All of them: [the accession register](accession-register.jsonl).)
 
 ## The collections (each has a finding aid, a short guide)
 
-[Build, code and release](finding-aids/BLD.md) (4) | [Data and the ontology](finding-aids/DAT.md) (1052) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (635) | [The repository](finding-aids/GEN.md) (43) | [The library](finding-aids/LIB.md) (336) | [The publication](finding-aids/PUB.md) (468) | [Readers and observability](finding-aids/RDR.md) (37) | [Agents, roles, keys](finding-aids/TEAM.md) (2960) | [Work in hand](finding-aids/WRK.md) (350)
+[Build, code and release](finding-aids/BLD.md) (4) | [Data and the ontology](finding-aids/DAT.md) (1052) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (635) | [The repository](finding-aids/GEN.md) (43) | [The library](finding-aids/LIB.md) (338) | [The publication](finding-aids/PUB.md) (472) | [Readers and observability](finding-aids/RDR.md) (38) | [Agents, roles, keys](finding-aids/TEAM.md) (2975) | [Work in hand](finding-aids/WRK.md) (351)
 
 Also: [every pass and its findings](finding-aids/index.md) | [Dinis's guidance, his words](special/guidance.md) | [the reality tree](reality/index.md) (what exists and what is only proposed) | [the shelf list](shelf-list.md)
 

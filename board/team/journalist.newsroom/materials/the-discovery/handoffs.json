@@ -2,9 +2,9 @@
   "story": "the-discovery",
   "from": "board/team/work-desk/traces/the-discovery.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 22,
+  "steps": 36,
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T03:19:57Z",
+  "last": "2026-11-11T06:23:31Z",
   "handoffs": [
     {
       "from": "Vicky Wang",
@@ -72,40 +72,48 @@
     {
       "from": "reviewer@PrompTugal.vicky",
       "to": "readers (promptugal.news)",
-      "count": 4,
+      "count": 6,
       "times": [
         "2026-11-11T01:14:26Z",
         "2026-11-11T01:45:38Z",
         "2026-11-11T02:44:45Z",
-        "2026-11-11T02:56:31Z"
+        "2026-11-11T02:56:31Z",
+        "2026-11-11T03:41:44Z",
+        "2026-11-11T05:46:13Z"
       ],
       "person_agent": false
     },
     {
       "from": "journalist-connections@PrompTugal.vicky",
       "to": "curator@PrompTugal.vicky",
-      "count": 1,
+      "count": 3,
       "times": [
-        "2026-11-11T01:15:41Z"
+        "2026-11-11T01:15:41Z",
+        "2026-11-11T04:10:40Z",
+        "2026-11-11T05:11:30Z"
       ],
       "person_agent": false
     },
     {
       "from": "journalist-portugal@PrompTugal.vicky",
       "to": "curator@PrompTugal.vicky",
-      "count": 2,
+      "count": 4,
       "times": [
         "2026-11-11T01:20:45Z",
-        "2026-11-11T02:16:33Z"
+        "2026-11-11T02:16:33Z",
+        "2026-11-11T04:16:03Z",
+        "2026-11-11T05:16:36Z"
       ],
       "person_agent": false
     },
     {
       "from": "journalist-europe@PrompTugal.vicky",
       "to": "curator@PrompTugal.vicky",
-      "count": 1,
+      "count": 3,
       "times": [
-        "2026-11-11T01:24:26Z"
+        "2026-11-11T01:24:26Z",
+        "2026-11-11T04:20:55Z",
+        "2026-11-11T06:23:31Z"
       ],
       "person_agent": false
     },
@@ -121,37 +129,41 @@
     {
       "from": "curator@PrompTugal.vicky",
       "to": "journalist-connections@PrompTugal.vicky",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-11T01:44:40Z"
+        "2026-11-11T01:44:40Z",
+        "2026-11-11T05:43:22Z"
       ],
       "person_agent": false
     },
     {
       "from": "curator@PrompTugal.vicky",
       "to": "journalist-europe@PrompTugal.vicky",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-11T01:44:40Z"
+        "2026-11-11T01:44:40Z",
+        "2026-11-11T04:42:54Z"
       ],
       "person_agent": false
     },
     {
       "from": "journalist-connections@PrompTugal.vicky",
       "to": "reviewer@PrompTugal.vicky",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-11T02:11:40Z"
+        "2026-11-11T02:11:40Z",
+        "2026-11-11T06:19:21Z"
       ],
       "person_agent": false
     },
     {
       "from": "journalist-europe@PrompTugal.vicky",
       "to": "reviewer@PrompTugal.vicky",
-      "count": 2,
+      "count": 3,
       "times": [
         "2026-11-11T02:21:52Z",
-        "2026-11-11T03:19:57Z"
+        "2026-11-11T03:19:57Z",
+        "2026-11-11T05:20:45Z"
       ],
       "person_agent": false
     },
@@ -179,6 +191,24 @@
       "count": 1,
       "times": [
         "2026-11-11T03:17:03Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "reviewer@PrompTugal.vicky",
+      "to": "Vicky Wang",
+      "count": 1,
+      "times": [
+        "2026-11-11T03:46:48Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "reviewer@PrompTugal.vicky",
+      "to": "curator@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T05:39:11Z"
       ],
       "person_agent": false
     }

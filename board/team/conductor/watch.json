@@ -220,6 +220,16 @@
    "PrompTugal__App__iOS": "3ce861bf",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "01:36 and 02:36 wakes not delivered; covered here. Storm page live; products in the graph; S48, S49, S51 published."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-11T06:45Z",
+   "SGit-AI__Website__Web-Summit": "65cafedb",
+   "PrompTugal__News__Website": "f1fcb1e2",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "My task runs every three hours since 10 Nov 20:25 (36 */3). OpenRouter shared key credit spent (402): social.watch@ blocked."
   }
  ]
 }

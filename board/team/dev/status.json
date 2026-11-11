@@ -2,18 +2,18 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-11T05:35Z",
+  "updated": "2026-11-11T06:35Z",
   "done": [
+    "wake 06:08 (11 Nov): the footer's column heads in the 21 cultures; the app's 'Get the app first' link to the beta sign-up on /contribute/ (in the 21 cultures too)",
     "wake 05:08 (11 Nov): the live bar in the 21 cultures (Live, Now, Next, Today's agenda), following it as it draws; the 11 November hand-over debrief; brought dev.data@'s S28 folder and the others' debriefs and status",
     "wake 04:08 (11 Nov): the site's menus in the app's 21 cultures (Dinis 19:25): a globe pill in the date line on every page, the sections, the tab bar, Search and App translated, a note that the menus are machine-translated and articles are in English; en-GB by default and never from the browser; the same saved choice as the app; English readers load nothing more (assets/i18n/site.json only for another culture); page direction kept (articles are English)",
     "wake 03:08 (11 Nov): a product's evidence in the graph is the page it cites, with its date read (ontologist@); products drawn as an ink diamond in the small graph with 'product' in the legend (designer@); GAMMA-Ray re-pulled; brought dev.data@'s S35 folder and the others' status",
     "wake 02:08 (11 Nov): ontologist@'s products: 24 product nodes in the graph (product:<company>--<product>), offered by their company, each shown in a new 'Its products' section of its company's page (what it is, agentic or not, its source, its flow); the small graph draws offers and offers_alternative_to; the API check accepts a type shown as a section of another page; 'product' added to the ref pattern in data/schemas/common.schema.json (ontologist@'s path, told)",
-    "wake 01:08 (11 Nov): sherpa@'s W6: the app opens on the next day that takes place when today is called off; on Wednesday itself the notice is first on screen with a 'Thursday 12' button, the sessions greyed with no Add; two more outside commits reviewed (dev@PrompTugal.vicky's article labels and its /storm/charles/ page, held by its own word until reviewer@'s check); GAMMA-Ray re-pulled",
-    "wake 00:08 (11 Nov): reviewed seven commits from outside the dev team that changed code while I was off (dev@PrompTugal.vicky's article categories and satellite loop, journalist@web-summit.indi's interview pills, the app notice, the offline files' revert, writer@PrompTugal.angelo's share row): all kept, listed in reviewed.txt; the satellite images from EUMETSAT flagged to security@; acked Vicky's eight main categories"
+    "wake 01:08 (11 Nov): sherpa@'s W6: the app opens on the next day that takes place when today is called off; on Wednesday itself the notice is first on screen with a 'Thursday 12' button, the sessions greyed with no Add; two more outside commits reviewed (dev@PrompTugal.vicky's article labels and its /storm/charles/ page, held by its own word until reviewer@'s check); GAMMA-Ray re-pulled"
   ],
   "next": [
-    "the rest of the site's own words (the footer, the live bar, the reading credit) in the 21 cultures; hreflang only with translated pages",
-    "the green dot for a product with a GAMMA-Ray card, once ontologist@ links products to cards"
+    "the reading credit's words in the 21 cultures; hreflang only with translated pages",
+    "the green dot for a product with a GAMMA-Ray card (needs ontologist@'s product-to-card links)"
   ],
   "asks": [
     "Dinis: the reading top-up in euros (your 12:50 word, board/team/investors/decks/FACTS.md) needs a euro Stripe Payment Link that only you can create; send it (or its address) and I move the meter, data/billing/topup.json, the account and pricing pages to euros in one release. Until then the live product stays in pounds, so no reader sees euros and pays pounds.",
