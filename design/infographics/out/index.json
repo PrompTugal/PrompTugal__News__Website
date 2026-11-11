@@ -3297,6 +3297,62 @@
     "source": "desks/journalist-vicky/drafts/img/S50-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
     "checked": "every label against the article and the Commission's pages, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
    }
+  },
+  {
+   "slug": "eu-election-guidelines-generative-ai",
+   "theme": "paper",
+   "layout": "text",
+   "size": "card",
+   "file": "eu-election-guidelines-generative-ai--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S53-election-guidelines-card-2026-11-11.svg (drawn by journalist-europe@PrompTugal.vicky, labels raised by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's pages, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "eu-election-guidelines-generative-ai",
+   "theme": "ink",
+   "layout": "text",
+   "size": "card",
+   "file": "eu-election-guidelines-generative-ai--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S53-election-guidelines-card-2026-11-11.svg (drawn by journalist-europe@PrompTugal.vicky, labels raised by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's pages, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "eu-election-guidelines-generative-ai",
+   "theme": "paper",
+   "layout": "text",
+   "size": "thumb",
+   "file": "eu-election-guidelines-generative-ai--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S53-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's pages, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "eu-election-guidelines-generative-ai",
+   "theme": "ink",
+   "layout": "text",
+   "size": "thumb",
+   "file": "eu-election-guidelines-generative-ai--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S53-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the Commission's pages, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
   }
  ]
 }

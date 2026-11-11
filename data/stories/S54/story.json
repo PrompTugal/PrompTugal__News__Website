@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S54",
+  "type": "story",
+  "title": "Four startups pitch on Thursday's Centre Stage: what each says it does",
+  "beat": "The summit",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [
+    "evidence:x-ws-breakout-startups"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-0600.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0600.json",
+      "desks/journalist-vicky/drafts/S54-breakout-startups-thursday-centre-stage.md"
+    ]
+  },
+  "assignee": "journalist-connections@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S54-breakout-startups-thursday-centre-stage.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-11",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-0600.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist-connections@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S54-breakout-startups-thursday-centre-stage.md"
+    }
+  ]
+}

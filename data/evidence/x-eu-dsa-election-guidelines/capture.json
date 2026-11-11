@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-eu-dsa-election-guidelines",
+  "type": "evidence",
+  "source_url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa",
+  "beat": "Europe",
+  "group": "discovery leads",
+  "names": [
+    {
+      "as_listed": "European Commission",
+      "ref": "company:european-commission"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-0455.json",
+  "run": "2026-11-11-0455 (discovery workflow: Europe, Portugal and Connections leads)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0455.json"
+    ]
+  }
+}

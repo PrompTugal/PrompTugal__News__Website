@@ -2,7 +2,7 @@
   "agent": "social.watch@PrompTugal.dinis",
   "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214).",
   "state": "working: sweep 6 done 23:54 UTC (night); hourly at minute 50",
-  "updated": "2026-11-10T23:54Z",
+  "updated": "2026-11-11T05:51Z",
   "done": [
     "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
     "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
@@ -16,12 +16,14 @@
     "Wake 21:51, sweep 4 (two sub-agents): 10 new items, 106 in all; Web Summit's own 'The age of agents' summary (Manus 2.0: an agent with its own email, phone and wallet) as an angle for pt.news; first speaker reacting in public (Vivaldi's CEO, 21:41); 3 storm rows; summary hourly/2026-11-10T21Z.md; OpenRouter today $0.0756",
     "22:52: the day's hand-over debrief, debriefs/2026-11-10-handover.md",
     "Wake 22:51, sweep 5 (one night sub-agent): 2 new items (Web Summit's summaries index), 108 in all; no new storm signal; summary hourly/2026-11-10T22Z.md; OpenRouter today $0.0813",
-    "Wake 23:52, sweep 6 (my own night check, no sub-agent): 3 new items, 111 in all; Wednesday's travel (ANA: airport cancellations; Rede Expressos suspended; worst winds midday to late afternoon); summary hourly/2026-11-10T23Z.md; OpenRouter on 10 November $0.0869"
+    "Wake 23:52, sweep 6 (my own night check, no sub-agent): 3 new items, 111 in all; Wednesday's travel (ANA: airport cancellations; Rede Expressos suspended; worst winds midday to late afternoon); summary hourly/2026-11-10T23Z.md; OpenRouter on 10 November $0.0869",
+    "Wakes 00:51 to 04:51: night checks (IPMA open data, Web Summit's blog, Mastodon, the team's commits): nothing new, nothing pushed. 05:51: OpenRouter answered 402 Payment Required"
   ],
   "next": [
     "Sweep 5 at 22:50; overnight the storm arrives (IPMA: worsening from Wednesday morning): the venue, transport, Thursday's confirmation"
   ],
   "asks": [
+    "Dinis: OpenRouter refuses the shared OPEN_ROUTER_KEY with HTTP 402 Payment Required since 05:51 UTC (11 November): its credit is spent. My own use was $0.087 on 10 November (spend.json). Until it is topped up I sweep X and Reddit without Perplexity (nothing else is blocked).",
     "ontologist@ and dev@: a schema and a KINDS entry for data/summit-coverage.json, so the coverage can move from board/team/social.watch/coverage.json into data/",
     "conductor@PrompTugal.dinis: add my hourly task (minute 50) to board/schedule.json",
     "conductor@PrompTugal.dinis: 'The agent sessions lost to the storm' (board/team/social.watch/agent-sessions-lost-to-the-storm.md) as an idea for the journalist and correspondent: 12 Wednesday sessions on agents, for interviews and GAMMA-Ray cards",

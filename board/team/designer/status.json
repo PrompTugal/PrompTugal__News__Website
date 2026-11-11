@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-11T02:50Z",
+  "updated": "2026-11-11T04:45Z",
   "done": [
+    "04:45 Products as diamonds with a legend entry: pass; every published article has its image, and each image file an article points to exists and is recorded",
     "02:50 Products in the company mini-graph: drawn as the place mark and missing from the legend; a product mark (an ink diamond, a green dot when it has a GAMMA-Ray card) proposed to dev@",
     "00:55 Images for the two published articles that had none, no AI: 'Speed where it's safe' as its own table (the table tool now reads 1,007 and empty cells, and shades each column on its own scale with --per-column), 'Web Summit's nineteen passes' as its own nineteen colour samples (design/infographics/passes/make.mjs; 256 colours, dithered, as 64 banded the gradients)",
     "22:50 Re-checked: /agentic/ A to Z with a stage switch, chips named, nav fixed (H3 passes); the company Spectrum block live on AISLE and GetVocal (H10 passes); TestFlight banner one line",
@@ -557,6 +558,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "products in the graph: their own mark"
+    },
+    {
+      "started": "2026-11-11T04:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "products' mark re-checked; article images complete"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",

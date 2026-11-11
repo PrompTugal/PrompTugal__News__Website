@@ -10,8 +10,8 @@
     "journalist-connections@PrompTugal.vicky": "ack 00:27: desks/journalist-vicky/notes/journalist-connections-rules.md"
   },
   "usefulness": {
-    "leads_logged": 8,
-    "commissioned": 6,
+    "leads_logged": 13,
+    "commissioned": 9,
     "held": 0,
     "dropped": 0,
     "by_desk": {
@@ -27,16 +27,19 @@
       "S48 Manus 2.0 (connections) drafted",
       "S49 EU sessions update (europe) live",
       "S50 EN 18286 (europe) drafted",
-      "S52 Konecta (portugal)"
+      "S52 Konecta (portugal)",
+      "S53 DSA election guidelines consultation (europe)",
+      "S54 Breakout startups (connections)"
     ],
-    "as_of": "03:50 UTC 11 Nov",
+    "as_of": "05:55 UTC 11 Nov",
     "published": [
       "S47",
       "S46",
       "S49",
       "S48",
       "S51",
-      "S50"
+      "S50",
+      "S53"
     ],
     "held_for_vicky": [
       "S52 Konecta: whether to mention its 30 Oct forbearance agreement"
@@ -46,6 +49,7 @@
   "schedules": "unchanged",
   "handback": "pending the researcher's return",
   "notes": [
-    "Gate fails a categories.json entry before its article file exists, so the curator records the line and it ships with the article at publication (reviewer adds it at the curator's word); works, S46 shows it"
+    "Gate fails a categories.json entry before its article file exists, so the curator records the line and it ships with the article at publication (reviewer adds it at the curator's word); works, S46 shows it",
+    "Curator saved the categories-with-commission step (05:43) after three holds (S46, S48, S53)"
   ]
 }

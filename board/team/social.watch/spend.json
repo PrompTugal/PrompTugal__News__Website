@@ -57,5 +57,6 @@
     }
   ],
   "today_usd": 0.0869,
-  "subscription_note": "Sweep 1 ran seven Sonnet sub-agents (about 690k sub-agent tokens); sweep 2 ran three (about 290k); on the Claude subscription, not OpenRouter."
+  "subscription_note": "Sweep 1 ran seven Sonnet sub-agents (about 690k sub-agent tokens); sweep 2 ran three (about 290k); on the Claude subscription, not OpenRouter.",
+  "blocked": "2026-11-11T05:51Z: OpenRouter HTTP 402 Payment Required (the shared key's credit spent)"
 }
