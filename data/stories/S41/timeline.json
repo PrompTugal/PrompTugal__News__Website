@@ -86,6 +86,21 @@
         "c23",
         "c24"
       ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "IPMA reissues the Lisbon warnings at 12:34 UTC (seen in the file read at 14:32): red rain now 12:34 to 15:00 with yellow to 18:00, wind orange 12:34 to 18:00 with gusts up to 90 km/h, sea orange 12:34 to 21:00; all lower or shorter than the 09:00 to 21:00 warnings listed before.",
+      "kind": "change",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c26",
+        "c27",
+        "c28",
+        "c29"
+      ]
     }
   ]
 }
