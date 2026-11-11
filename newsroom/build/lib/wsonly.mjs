@@ -46,3 +46,24 @@ export function wsGate(store) {
     if (!i) return `websummit-only (${mode}): ${wsLine(wsReport(store))}`
     return `websummit-only (${mode}; ${wsSwitch().inventory}): ` + Object.entries(i.counts).map(([k, c]) => `${k} ${c.websummit_only} of ${c.total}`).join(', ')
 }
+// the switch on: the store as the site may serve it (loadData calls this last). Company facts and edges in the inventory
+// go; a company left with nothing goes; one with no fact left keeps its name and its own site and loses the fields that
+// rested on the facts (ontologist@, 22:22: company.json fields have no per-field source); the people, sessions,
+// organisations and places in the inventory go. Returns what it took, by kind, for the note and the recovery page.
+export function wsApply(store) {
+    const i = wsInventory(); if (!wsSwitch().on || !i) return null
+    const id = r => String(r).replace(/^[a-z]+:/, ''), gone = { companies: new Set(), people: new Set(), events: new Set(), organisations: new Set(), places: new Set() }
+    const items = new Set(i.company_items.map(x => `${id(x.company)}|${x.kind}|${x.id}`))
+    for (const c of i.companies) if (c.left_with_nothing) gone.companies.add(id(c.company))
+    const bare = new Set(i.companies.filter(c => !c.left_with_nothing && c.facts_left === 0).map(c => id(c.company)))
+    for (const [k, list] of [['people', i.people.map(x => x.person)], ['events', i.events.map(x => x.event)], ['organisations', i.organisations.map(x => x.organisation)], ['places', i.places.map(x => x.place)]]) for (const r of list) gone[k].add(id(r))
+    store.companies = store.companies.filter(c => !gone.companies.has(c.id)).map(c => {
+        const k = (kind, x) => !items.has(`${c.id}|${kind}|${x.id}`)
+        const out = { ...c, facts: c.facts.filter(x => k('fact', x)), edges: c.edges.filter(x => k('edge', x)), flows: c.flows.filter(x => k('flow', x)), products: c.products.filter(x => k('product', x)), ws_taken: c.facts.length - c.facts.filter(x => k('fact', x)).length }
+        if (bare.has(c.id)) for (const f of ['what', 'country', 'attending', 'attending_as']) out[f] = ''   // the category is ours, not a fact
+        return out
+    })
+    for (const k of ['people', 'events', 'organisations', 'places']) store[k] = store[k].filter(x => !gone[k].has(x.id))
+    store.wsGone = gone
+    return gone
+}

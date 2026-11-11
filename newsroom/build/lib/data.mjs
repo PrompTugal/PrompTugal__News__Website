@@ -6,6 +6,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { R, readJSON, walk } from './config.mjs'
 import { withdrawn } from './withdrawn.mjs'
+import { wsApply } from './wsonly.mjs'
 
 export const TYPES = {   // type -> its folder under data/ and its main file
     company: { dir: 'companies', file: 'company.json' },
@@ -88,7 +89,7 @@ export function derivedOnDisk() {
     return out.sort()
 }
 
-export function loadData() {
+export function loadData({ raw = false } = {}) {
     const store = {
         ontology: readJSON('data/ontology.json'),
         matching: fs.existsSync(R('data/matching.json')) ? strip(readJSON('data/matching.json')) : null,
@@ -96,6 +97,7 @@ export function loadData() {
         events: readFolder('event'), people: readFolder('person'), organisations: readFolder('organisation'),
         places: readFolder('place'), topics: readFolder('topic'), stories: readFolder('story').filter(s => !withdrawn().stories.has(s.id)), evidence: readFolder('evidence'),
     }
+    if (!raw) wsApply(store)   // the websummit-only pass (the data check reads raw): a no-op while its switch is off (lib/wsonly.mjs)
     store.topics.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))
     const byRef = new Map()
     const plural = { company: 'companies', event: 'events', person: 'people', organisation: 'organisations', place: 'places', topic: 'topics', story: 'stories', evidence: 'evidence' }
