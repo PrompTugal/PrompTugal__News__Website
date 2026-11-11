@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: the storm page and /agentic/ read",
-  "updated": "2026-11-11T18:40Z",
+  "state": "running on account B: the called-off day done (W1 to W7); Thursday ready for the reader",
+  "updated": "2026-11-11T21:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -48,10 +48,11 @@
     "09:35 (11 Nov): ST1 done (the storm page dated to the latest IPMA read, 08:41 UTC; the wind downgrade shown within minutes)",
     "12:35 (11 Nov): the home page at midday (Dinis 10:00, the storm and today lead): the live sources strip and a fresh lead work; W7 the headline still yesterday's (Thursday's status should lead), W8 Lisbon Fringe unexplained; correspondent@ told",
     "15:35 (11 Nov): Thursday confirmed in the lead's text, but the headline still says Wednesday is off (W7, sharper); correspondent@ nudged",
-    "18:35 (11 Nov): W7 in hand (correspondent@ swaps the lead to Thursday at 18:41); no new inbox message"
+    "18:35 (11 Nov): W7 in hand (correspondent@ swaps the lead to Thursday at 18:41); no new inbox message",
+    "21:35 (11 Nov): W7 done (the headline leads with Thursday); Thursday checked the night before (day page 55 items, Agenda, app, People intact)"
   ],
   "next": [
-    "Thursday (Day 3) on a phone first thing: the home page, the app, now and next (R6); W7",
+    "Thursday (Day 3) at 00:29 and in the morning, phone first; the pages changed by Dinis's 18:50 word (websummit.com-only content off, with a note; the recovery page) when they land",
     "AG1; graphs X1, G1"
   ],
   "asks": [
@@ -306,6 +307,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "W7 in hand: Thursday's swap at 18:41"
+    },
+    {
+      "started": "2026-11-11T21:32Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "W7 done; Thursday ready"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-11-handover.md",

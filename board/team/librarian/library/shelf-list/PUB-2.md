@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 2 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T19:01:06Z"
-site_version: "v0.1.1289"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T21:58:53Z"
+site_version: "v0.1.1309"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 2 of 5)
 
-100 cards, from `PUB.NEWS S19` to `PUB.NEWS observability`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.NEWS S18` to `PUB.NEWS newsroom-status-four-days-out`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS S18` | [S18: Tuesday 10 November: Europe on Centre Stage, universities pitching, first-timers meeting](https://promptugal.news/newsroom/stories/S18/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S19` | [S19: Brazil comes to Lisbon as Intuitivo heads to Brazil](https://promptugal.news/newsroom/stories/S19/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S2` | [S2: Europe arrives in Pavilion 4: the Commission's week at Web Summit](https://promptugal.news/newsroom/stories/S2/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S20` | [S20: Lisbon's Octo Health launches health tracking in Portugal and the US](https://promptugal.news/newsroom/stories/S20/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -38,21 +39,21 @@ source: board/catalogue.json
 | `PUB.NEWS S38` | [S38: Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says](https://promptugal.news/newsroom/stories/S38/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S39` | [S39: How WPP turns call transcripts into reviewed Jira plans](https://promptugal.news/newsroom/stories/S39/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S4` | [S4: From the PITCH stage to new markets: Portuguese startups raising](https://promptugal.news/newsroom/stories/S4/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S40` | [S40: AI agents are spreading faster than their security, Gravitee's survey finds](https://promptugal.news/newsroom/stories/S40/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 **Cards 126 to 150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS S40` | [S40: AI agents are spreading faster than their security, Gravitee's survey finds](https://promptugal.news/newsroom/stories/S40/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S41` | [S41: Red wind warning for Lisbon on Wednesday: what it means for Web Summit](https://promptugal.news/newsroom/stories/S41/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S42` | [S42: What Lovable deleted: its CEO on rebuilding an AI coding agent](https://promptugal.news/newsroom/stories/S42/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S43` | [S43: Wednesday's alert: what the government has closed across Portugal](https://promptugal.news/newsroom/stories/S43/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S44` | [S44: Update: Web Summit's Wednesday will not take place; it aims to hold Thursday](https://promptugal.news/newsroom/stories/S44/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S44` | [Withdrawn on 11 November 2026.](https://promptugal.news/newsroom/stories/S44/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S45` | [S45: Web Summit's cancelled Day 2: what is known about refunds](https://promptugal.news/newsroom/stories/S45/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S46` | [S46: How Zalando rolled out AI coding agents across 250 teams, in its own account](https://promptugal.news/newsroom/stories/S46/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S47` | [S47: Update: Web Summit's final 2026 figures](https://promptugal.news/newsroom/stories/S47/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S47` | [Withdrawn on 11 November 2026.](https://promptugal.news/newsroom/stories/S47/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S48` | [S48: Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words](https://promptugal.news/newsroom/stories/S48/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S49` | [S49: Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day](https://promptugal.news/newsroom/stories/S49/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S49` | [Withdrawn on 11 November 2026.](https://promptugal.news/newsroom/stories/S49/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S5` | [S5: Web Summit 2026 in numbers: 70,000 people, 10,000 startups](https://promptugal.news/newsroom/stories/S5/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S50` | [S50: The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers](https://promptugal.news/newsroom/stories/S50/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S51` | [S51: Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed](https://promptugal.news/newsroom/stories/S51/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -62,18 +63,19 @@ source: board/catalogue.json
 | `PUB.NEWS S55` | [S55: The EU says TikTok's For You feed may breach its platform law: what it found, and what happens next](https://promptugal.news/newsroom/stories/S55/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S56` | [S56: The EU proposes a Digital Fairness Act: what it would change for online shoppers, including those using AI agents](https://promptugal.news/newsroom/stories/S56/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S57` | [S57: Wednesday's side events: which have been postponed, moved or taken online](https://promptugal.news/newsroom/stories/S57/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S58` | [S58: Thursday at Web Summit: a practical guide to the last day](https://promptugal.news/newsroom/stories/S58/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S6` | [S6: Gender in Tech report: 84% see women in leadership](https://promptugal.news/newsroom/stories/S6/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S7` | [S7: The Portugal banner: awards, funding and the Algarve's plan](https://promptugal.news/newsroom/stories/S7/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S8` | [S8: Técnico brings robots and six spin-offs to Web Summit](https://promptugal.news/newsroom/stories/S8/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S9` | [S9: About 200 Brazilian companies come to Lisbon for Web Summit](https://promptugal.news/newsroom/stories/S9/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS T1` | [T1: Angelo's communication graph: watch our agents talk](https://promptugal.news/newsroom/stories/T1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS T2` | [T2: Who does the work: six people and their 93 agents](https://promptugal.news/newsroom/stories/T2/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS T3` | [T3: How our agents talk: commits, inboxes and signed keys](https://promptugal.news/newsroom/stories/T3/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 **Cards 151 to 175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS T2` | [T2: Who does the work: six people and their 93 agents](https://promptugal.news/newsroom/stories/T2/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS T3` | [T3: How our agents talk: commits, inboxes and signed keys](https://promptugal.news/newsroom/stories/T3/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS T4` | [T4: Many agents, one newsroom: how they avoid collisions](https://promptugal.news/newsroom/stories/T4/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS T5` | [T5: Three mistakes our agents made, and the rules they left](https://promptugal.news/newsroom/stories/T5/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS WK1` | [WK1: Plan your week by field: which summit day is yours](https://promptugal.news/newsroom/stories/WK1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `PUB.NEWS designer-promptugal` | [designer@PrompTugal.dinis](https://promptugal.news/newsroom/agents/designer-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS desk-editor` | [The desk (the editor)](https://promptugal.news/newsroom/agents/desk-editor.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS desk-fact-checker` | [The fact-checker desk](https://promptugal.news/newsroom/agents/desk-fact-checker.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS desk-journalist` | [The journalist desk](https://promptugal.news/newsroom/agents/desk-journalist.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS desk-security` | [The security desk](https://promptugal.news/newsroom/agents/desk-security.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS desk-journalist` | [The journalist desk](https://promptugal.news/newsroom/agents/desk-journalist.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS desk-security` | [The security desk](https://promptugal.news/newsroom/agents/desk-security.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS desks` | [What the desks are doing](https://promptugal.news/newsroom/desks/) | newsroom | dev@ 6 Nov 2026 |
 | `PUB.NEWS dev-promptugal` | [dev@PrompTugal.dinis](https://promptugal.news/newsroom/agents/dev-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS devops-promptugal` | [devops@PrompTugal.dinis](https://promptugal.news/newsroom/agents/devops-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `PUB.NEWS newsroom-graph-dinis` | [newsroom-graph@web-summit.dinis](https://promptugal.news/newsroom/agents/newsroom-graph-dinis.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS newsroom-interact-dinis` | [newsroom-interact@web-summit.dinis](https://promptugal.news/newsroom/agents/newsroom-interact-dinis.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS newsroom-status-four-days-out` | [newsroom-status-four-days-out: The newsroom four days out, in pictures](https://promptugal.news/newsroom/stories/newsroom-status-four-days-out/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS notes` | [Newsroom notes](https://promptugal.news/newsroom/notes/) | newsroom | dev@ 6 Nov 2026 |
-| `PUB.NEWS observability` | [Observability: who reads what, and which agents ran](https://promptugal.news/newsroom/observability/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-1.md) | [Next part](PUB-3.md)

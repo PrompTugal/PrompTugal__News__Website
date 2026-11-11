@@ -374,8 +374,82 @@
       "hand_off": null,
       "workflow_step": null,
       "minute": 626
+    },
+    {
+      "id": "s020",
+      "time": "2026-11-11T18:50:00Z",
+      "actor": "Dinis Cruz",
+      "actor_kind": "person",
+      "input": "security@'s S39, after talking with Vicky",
+      "output": "what rests only on websummit.com comes off the site, with a note on each page; shadow sources and Dinis's own captures bring it back; a recovery page shows the path, Lisbon Fringe the showcase",
+      "handoff_to": [
+        "conductor@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
+        "board/passes/2026-11-11-only-websummit-sourced-comes-off.md"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent",
+      "workflow_step": "the open question (S39) answered: 4 h 15 min after Dinis's first answer",
+      "minute": 803
+    },
+    {
+      "id": "s021",
+      "time": "2026-11-11T21:13:22Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's word (about 21:20 by the team site's decisions file), relaying Dinis's decision",
+      "output": "S58 leads the front page in place of S54 before S54 comes down",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:19222f023"
+      ],
+      "tokens": null,
+      "hand_off": "person->person->agent (Dinis decides, Vicky orders the steps)",
+      "workflow_step": null,
+      "minute": 946
+    },
+    {
+      "id": "s022",
+      "time": "2026-11-11T21:23:08Z",
+      "actor": "conductor@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "Dinis's words",
+      "output": "guidance and a pass; routed to security@ (pre-review), ontologist@, dev@, dev.data@, dev.pages@, designer@, journalist@, researcher@, correspondent@, sherpa@, historian@, accountant@, conductor.B@vicky and conductor.fringe@",
+      "handoff_to": [
+        "fourteen agents"
+      ],
+      "evidence": [
+        "commit:2bc009494"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agents",
+      "workflow_step": null,
+      "minute": 956
+    },
+    {
+      "id": "s023",
+      "time": "2026-11-11T21:26:42Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's task (step 2 of her takedown plan, group A)",
+      "output": "13 articles and story pages S44, S47, S49 withdrawn: 'Withdrawn on 11 November 2026.' at each of 16 addresses, noindex, out of every list, search, sitemap and llms.txt; nothing deleted",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:1649d9879",
+        "data/site/withdrawn.json"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent",
+      "workflow_step": "the takedown, built as a feature with its own gate check",
+      "minute": 960
     }
   ],
   "first": "2026-11-11T05:27:00Z",
-  "last": "2026-11-11T15:53:05Z"
+  "last": "2026-11-11T21:26:42Z"
 }

@@ -1,17 +1,19 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "working",
-  "updated": "2026-11-11T20:15Z",
+  "state": "websummit-only pass, step 3: groundwork shipped; the filter waits on security@'s pre-review",
+  "updated": "2026-11-11T22:25Z",
   "done": [
+    "wake 22:09 (11 Nov): websummit-only pass: the gate reads ontologist@'s inventory (counts in check 15, a dry run); the inventory itself was served at /data/websummit-only.json and is now kept out of the deploy; reviews brought dev.pages@'s status; GAMMA-Ray re-pulled (v0.0.204)",
+    "21:55 (11 Nov): websummit-only pass step 3 groundwork: lib/wsonly.mjs, the rule and its count, the switch off (v0.1.1310)",
+    "wake 21:09 (11 Nov): lean: inbox empty; brought dev.data@ (S35 claims and sources), dev.graphs@ and dev.pages@ status; GAMMA-Ray re-pulled (v0.0.200)",
     "wake 20:09 (11 Nov): lean: inbox empty; brought dev.pages@'s status; GAMMA-Ray unchanged",
     "wake 19:10 (11 Nov): correspondent@'s ask: the home page links /storm/charles/ from the live sources strip ('Our storm page'), so the lead can leave S41 (gate checked with the lead link removed); reviews brought dev.data@ (S35 claims), dev.graphs@ and dev.pages@ status; GAMMA-Ray re-pulled (v0.0.198)",
     "wake 18:08 (11 Nov): lean: brought dev.pages@'s debrief; nothing else new; GAMMA-Ray re-pulled",
-    "17:25 (11 Nov), between wakes: the live sources strip's Fringe link was broken (fringe.promptugal.news answers 404, checked): it now points at https://lisbontechfringe.com/?via=promptugal-news (200) as 'Lisbon Tech Fringe' (relayed by conductor.b@, verified)",
-    "wake 17:08 (11 Nov): lean: brought dev.data@'s S41 (no red warning remains for Lisbon) and the others' status; GAMMA-Ray re-pulled",
-    "wake 16:08 (11 Nov): lean: nothing new to review; GAMMA-Ray re-pulled"
+    "17:25 (11 Nov), between wakes: the live sources strip's Fringe link was broken (fringe.promptugal.news answers 404, checked): it now points at https://lisbontechfringe.com/?via=promptugal-news (200) as 'Lisbon Tech Fringe' (relayed by conductor.b@, verified)"
   ],
   "next": [
+    "websummit-only pass step 3, on security@'s pre-review: the build leaves the inventory's items out of pages, lists, graphs, served JSON (and the raw data/ files) and twins; no page for an entity left with nothing; the note on every affected page (with designer@); a gate check that fails if one is served; the recovery page (Lisbon Fringe as the showcase)",
     "the green dot for a product with a GAMMA-Ray card (needs ontologist@'s product-to-card links)",
     "hreflang only when a page has a translated twin (content translation is ontologist@'s and accountant@'s to plan)"
   ],

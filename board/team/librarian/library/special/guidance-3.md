@@ -1,8 +1,8 @@
 ---
 title: "Dinis's guidance, part 3 of 11"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T19:01:06Z"
-site_version: "v0.1.1289"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T21:58:53Z"
+site_version: "v0.1.1309"
 source: board/catalogue.json
 special: S1
 ---

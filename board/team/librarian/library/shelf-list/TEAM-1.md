@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 1 of 31)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T19:01:06Z"
-site_version: "v0.1.1289"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T21:58:53Z"
+site_version: "v0.1.1309"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 1 of 31)
 
-100 cards, from `TEAM.ABP 2026-11-06-04` to `TEAM.INBOX customers`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ABP 2026-11-06-04` to `TEAM.INBOX curator-vicky-2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -117,8 +117,10 @@ source: board/catalogue.json
 | `TEAM.INBOX backup-b` | [backup-b.json](https://promptugal.news/board/inboxes/backup-b.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX checker-vicky` | [checker-vicky.json](https://promptugal.news/board/inboxes/checker-vicky.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX checker-vicky-b` | [checker-vicky-b.json](https://promptugal.news/board/inboxes/checker-vicky-b.json) | board | conductor@ 10 Nov 2026 |
+| `TEAM.INBOX checker-vicky-c` | [checker-vicky-c.json](https://promptugal.news/board/inboxes/checker-vicky-c.json) | board | conductor@ 11 Nov 2026 |
 | `TEAM.INBOX claims-issuer` | [claims-issuer.json](https://promptugal.news/board/inboxes/claims-issuer.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX conductor` | [conductor.json](https://promptugal.news/board/inboxes/conductor.json) | board | conductor@ 6 Nov 2026 |
+| `TEAM.INBOX conductor-vicky-2` | [conductor-vicky-2.json](https://promptugal.news/board/inboxes/conductor-vicky-2.json) | board | conductor@ 11 Nov 2026 |
 | `TEAM.INBOX conductor.B.vicky` | [conductor.B.vicky.json](https://promptugal.news/board/inboxes/conductor.B.vicky.json) | board | conductor@ 10 Nov 2026 |
 | `TEAM.INBOX conductor.b` | [conductor.b.json](https://promptugal.news/board/inboxes/conductor.b.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX conductor.fringe` | [conductor.fringe.json](https://promptugal.news/board/inboxes/conductor.fringe.json) | board | conductor@ 11 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `TEAM.INBOX correspondent` | [correspondent.json](https://promptugal.news/board/inboxes/correspondent.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX curator-vicky` | [curator-vicky.json](https://promptugal.news/board/inboxes/curator-vicky.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX curator-vicky-2` | [curator-vicky-2.json](https://promptugal.news/board/inboxes/curator-vicky-2.json) | board | conductor@ 6 Nov 2026 |
-| `TEAM.INBOX curator-vicky-b` | [curator-vicky-b.json](https://promptugal.news/board/inboxes/curator-vicky-b.json) | board | conductor@ 10 Nov 2026 |
-| `TEAM.INBOX customers` | [customers.json](https://promptugal.news/board/inboxes/customers.json) | board | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](TEAM-2.md)

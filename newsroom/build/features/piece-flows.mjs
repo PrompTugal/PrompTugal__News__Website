@@ -8,6 +8,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { execFileSync } from 'node:child_process'
+import { isWithdrawnArticle } from '../lib/withdrawn.mjs'
 export const order = 94
 const API = 'api/v1/newsroom/piece-flows.json', PAGE = 'newsroom/pieces/index.html', REPO = 'https://github.com/promptugal/promptugal__news__website'
 const ID = /^[a-z][a-z0-9.\-]*@[a-z][a-z0-9\-]*(\.[a-z][a-z0-9\-]*)+$/i
@@ -35,7 +36,7 @@ function pieces(root) {
     const out = []
     const dir = path.join(root, 'content/articles')
     for (const f of fs.existsSync(dir) ? fs.readdirSync(dir) : []) {
-        if (!f.endsWith('.md') || f === 'index.md') continue
+        if (!f.endsWith('.md') || f === 'index.md' || isWithdrawnArticle(f)) continue
         const slug = f.replace(/\.md$/, ''), fm = front(path.join(dir, f))
         out.push({ id: slug, kind: 'article', slug, story: /^[A-Za-z]+\d+$/.test(fm.story || '') ? fm.story : null, title: fm.title || slug, date: fm.date || '' })
     }
@@ -110,7 +111,7 @@ export function api(ctx) {
 const isArticle = rel => /^articles\/[^/]+\.html$/.test(rel) && rel !== 'articles/index.html'
 export function decorate(page, ctx) {
     let html = null
-    if (isArticle(page.rel)) html = `<section class="pf-wrap"><h2>How this piece was made</h2><div class="pf" data-piece="${page.rel.replace(/^articles\/|\.html$/g, '')}" data-data="${'../'.repeat(page.rel.split('/').length - 1)}${API}"></div></section>`
+    if (isArticle(page.rel) && !page.withdrawn) html = `<section class="pf-wrap"><h2>How this piece was made</h2><div class="pf" data-piece="${page.rel.replace(/^articles\/|\.html$/g, '')}" data-data="${'../'.repeat(page.rel.split('/').length - 1)}${API}"></div></section>`
     else if (page.rel === PAGE) html = `<div class="pf" data-all="1" data-data="../../${API}"></div>`
     if (!html) return
     page.assets = { css: [...(page.assets && page.assets.css || []), 'assets/newsroom/flow.css'], js: [...(page.assets && page.assets.js || []), 'assets/newsroom/flow.js'] }

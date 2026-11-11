@@ -2,18 +2,18 @@
   "story": "the-discovery",
   "from": "board/team/work-desk/traces/the-discovery.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 54,
+  "steps": 59,
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T18:09:54Z",
+  "last": "2026-11-11T21:26:42Z",
   "actors": [
     {
       "actor": "Vicky Wang",
       "kind": "person",
-      "steps": 2,
+      "steps": 3,
       "first": "2026-11-11T00:22:10Z",
-      "last": "2026-11-11T15:04:39Z",
-      "span_minutes": 882,
-      "handoffs_out": 3,
+      "last": "2026-11-11T21:07:51Z",
+      "span_minutes": 1246,
+      "handoffs_out": 4,
       "handoffs_in": 2,
       "tokens": null
     },
@@ -53,34 +53,34 @@
     {
       "actor": "curator@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 11,
+      "steps": 12,
       "first": "2026-11-11T00:45:44Z",
-      "last": "2026-11-11T14:42:25Z",
-      "span_minutes": 837,
-      "handoffs_out": 10,
+      "last": "2026-11-11T20:22:28Z",
+      "span_minutes": 1177,
+      "handoffs_out": 11,
       "handoffs_in": 16,
       "tokens": null
     },
     {
       "actor": "journalist@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 1,
+      "steps": 2,
       "first": "2026-11-11T01:06:46Z",
-      "last": "2026-11-11T01:06:46Z",
-      "span_minutes": 0,
-      "handoffs_out": 1,
-      "handoffs_in": 3,
+      "last": "2026-11-11T20:30:29Z",
+      "span_minutes": 1164,
+      "handoffs_out": 2,
+      "handoffs_in": 4,
       "tokens": null
     },
     {
       "actor": "reviewer@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 13,
+      "steps": 14,
       "first": "2026-11-11T01:14:26Z",
-      "last": "2026-11-11T11:40:20Z",
-      "span_minutes": 626,
-      "handoffs_out": 13,
-      "handoffs_in": 11,
+      "last": "2026-11-11T20:48:50Z",
+      "span_minutes": 1174,
+      "handoffs_out": 14,
+      "handoffs_in": 13,
       "tokens": null
     },
     {
@@ -91,7 +91,7 @@
       "last": null,
       "span_minutes": null,
       "handoffs_out": 0,
-      "handoffs_in": 10,
+      "handoffs_in": 12,
       "tokens": null
     },
     {
@@ -135,6 +135,17 @@
       "last": "2026-11-11T18:09:54Z",
       "span_minutes": 0,
       "handoffs_out": 2,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "dev@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T21:26:42Z",
+      "last": "2026-11-11T21:26:42Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
       "handoffs_in": 0,
       "tokens": null
     }

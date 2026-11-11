@@ -5,6 +5,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { R, readJSON, walk } from './config.mjs'
+import { withdrawn } from './withdrawn.mjs'
 
 export const TYPES = {   // type -> its folder under data/ and its main file
     company: { dir: 'companies', file: 'company.json' },
@@ -83,6 +84,7 @@ export function derivedOnDisk() {
         }
     }
     if (fs.existsSync(R('data/matching.json'))) out.push('data/matching.json')
+    if (fs.existsSync(R('data/websummit-only.json'))) out.push('data/websummit-only.json')
     return out.sort()
 }
 
@@ -92,7 +94,7 @@ export function loadData() {
         matching: fs.existsSync(R('data/matching.json')) ? strip(readJSON('data/matching.json')) : null,
         companies: readCompanies(),
         events: readFolder('event'), people: readFolder('person'), organisations: readFolder('organisation'),
-        places: readFolder('place'), topics: readFolder('topic'), stories: readFolder('story'), evidence: readFolder('evidence'),
+        places: readFolder('place'), topics: readFolder('topic'), stories: readFolder('story').filter(s => !withdrawn().stories.has(s.id)), evidence: readFolder('evidence'),
     }
     store.topics.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))
     const byRef = new Map()

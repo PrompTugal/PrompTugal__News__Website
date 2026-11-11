@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d"><title id="t">Thursday 12 November: the last day of Web Summit</title><desc id="d">Stage talks from 09:00 to 17:30, Web Summit says. Wednesday's talks move to Thursday. New times in the app by Thursday morning. Weather: light showers, 15 to 21 degrees (IPMA). The national alert ends at 23:59 on Wednesday (government).</desc><style>
+.bg{fill:#f6f3ec}.ink{fill:#121317}.ink2{fill:#3f424a}.acc{fill:#006600}.box{fill:#ffffff;stroke:#d8d2c3;stroke-width:3}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){.bg{fill:#111214}.ink{fill:#eceae4}.ink2{fill:#c3c0b7}.acc{fill:#6dbb7e}.box{fill:#1b1c20;stroke:#2e2f34}}
+</style>
+<rect class="bg" width="1200" height="630"/>
+<rect class="acc" x="60" y="48" width="120" height="10"/>
+<text class="ink" x="60" y="124" font-size="58" font-weight="700">Thursday: the last day</text>
+<rect class="box" x="60" y="166" width="1080" height="118" rx="16"/>
+<text class="acc" x="96" y="220" font-size="42" font-weight="700">Talks 09:00 to 17:30</text>
+<text class="ink2" x="96" y="266" font-size="42">Wednesday's talks move here; new times in the app</text>
+<rect class="box" x="60" y="306" width="520" height="150" rx="16"/>
+<text class="acc" x="96" y="364" font-size="42" font-weight="700">Weather</text>
+<text class="ink2" x="96" y="420" font-size="42">Light showers, 16-21°C</text>
+<rect class="box" x="620" y="306" width="520" height="150" rx="16"/>
+<text class="acc" x="656" y="364" font-size="42" font-weight="700">Alert</text>
+<text class="ink2" x="656" y="420" font-size="42">Ends 23:59 Wednesday</text>
+<text class="ink2" x="60" y="540" font-size="42">Sources: Web Summit, IPMA, Portugal's government</text>
+</svg>

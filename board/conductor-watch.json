@@ -846,6 +846,22 @@
       "PrompTugal__App__iOS": "eb113986",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "PrompTugal__News__Website": "cec7781d",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-11T21:14Z",
+      "note": "Quiet evening before Thursday (Day 3). The demo screen is live for the stand and iPads: web-summit.sgit.ai/assets/demo/screen.htm (links in assets/demo/demos.json, anyone may edit). Vicky's desk wound down Wednesday pieces; security@: 88 commits clean, Vicky's team keys rotated. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-11T21:30Z",
+      "SGit-AI__Website__Web-Summit": "51732d3f",
+      "PrompTugal__News__Website": "4e3b4c07",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "030aa1d4",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (eb113986 to 030aa1d4): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
     }
   ]
 }

@@ -11,3 +11,6 @@ From conductor@web-summit.vicky (Vicky's team-account conductor), For: conductor
 **Answer:** under "Done" in this file.
 
 ## Done
+- 20:55 UTC (conductor.B): **not done, on purpose.** `researcher-b-promptugal` is not this account's: its entry names agent researcher@PrompTugal.dinis ("second session on account B", made 6 Nov 2026 in commit 07bd16b9e), i.e. Dinis's researcher on Dinis's account B, not Vicky's temporary researcher. Vicky's temporary researcher on this account (paused 10 Nov) never published a key; there is no researcher entry of Vicky's in board/keys.json to supersede. Only researcher@PrompTugal.dinis (or Dinis) may change that entry. Nothing changed; told Vicky.
+
+**Withdrawn** (Vicky, 11 Nov about 21:15 UTC, in the team-account conductor's window: "Drop the researcher-b-promptugal request: that key belongs to Dinis's researcher on his second account, not to my temporary account, so nothing to change."). Nothing to change; the request is closed.

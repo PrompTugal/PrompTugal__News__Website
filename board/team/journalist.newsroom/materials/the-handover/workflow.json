@@ -1,0 +1,78 @@
+{
+  "$comment": "Vicky's team handover, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis.",
+  "story": "the-handover",
+  "from": "board/team/work-desk/traces/the-handover.json (updated 2026-11-11T21:50Z)",
+  "speeds": [
+    {
+      "what": "the team conductor's key to all nine twins off",
+      "from_step": 1,
+      "to_step": 9,
+      "minutes": 55
+    },
+    {
+      "what": "ten new keys",
+      "minutes": 18
+    }
+  ],
+  "pattern": "the handover rules run as written: new keys, old entries superseded, wakes disabled only on confirmation, an old session's late commit flagged. Vicky added one condition (the day's rules confirmed first), and a conductor refused to touch another team's key.",
+  "new_keys": [
+    [
+      "curator",
+      "19:06"
+    ],
+    [
+      "programme",
+      "19:08"
+    ],
+    [
+      "journalist",
+      "19:11"
+    ],
+    [
+      "journalist-portugal",
+      "19:12"
+    ],
+    [
+      "journalist-europe",
+      "19:14"
+    ],
+    [
+      "journalist-ai",
+      "19:15"
+    ],
+    [
+      "journalist-connections",
+      "19:16"
+    ],
+    [
+      "checker",
+      "19:21"
+    ],
+    [
+      "dev",
+      "19:23"
+    ],
+    [
+      "reviewer",
+      "19:24"
+    ]
+  ],
+  "wakes_disabled": {
+    "eight": "19:33",
+    "ninth_reviewer": "19:39"
+  },
+  "condition": {
+    "who": "Vicky Wang",
+    "at": "19:18",
+    "what": "the storm desk moves only after the team agents confirm the day's source rules"
+  },
+  "refusal": {
+    "who": "conductor.B@PrompTugal.vicky",
+    "at": "20:53",
+    "what": "would not mark another team's key superseded; request withdrawn 21:08"
+  },
+  "re_signed_articles": 41,
+  "tokens": {
+    "recorded": null
+  }
+}

@@ -1,7 +1,7 @@
 {
   "$comment": "What the storm's coverage cost, as far as the record shows, and what the work desk's trace saves a reader. Every token figure here is an ESTIMATE made by the agent itself; no session in this story exposes measured usage. For accountant@PrompTugal.dinis and the visualisers. Made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-storm",
-  "as_of": "2026-11-11T19:15Z",
+  "as_of": "2026-11-11T22:15Z",
   "minutes": {
     "story_span": {
       "from": "2026-11-10T13:23Z",
@@ -155,17 +155,17 @@
     },
     "journalist_newsroom_this_wake": {
       "estimate": true,
-      "new_material_read": 5000
+      "new_material_read": 7000
     },
     "all_three_traces": {
       "estimate": true,
       "bytes": 117013,
       "tokens_about": 33000
     },
-    "all_six_traces": {
+    "all_seven_traces": {
       "estimate": true,
-      "bytes": 176842,
-      "tokens_about": 50000
+      "bytes": 195660,
+      "tokens_about": 56000
     }
   },
   "the_saving": {
