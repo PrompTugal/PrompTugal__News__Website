@@ -1,0 +1,283 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S30",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-11",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "AURIMOD GmbH describes itself on its Web Summit page: AURIMOD is a Vienna-based, commercial-stage MedTech pioneering a new approach to treating chronic pain.",
+      "kind": "fact",
+      "source": "websummit-appearance-aurimod",
+      "quote": "AURIMOD is a Vienna-based, commercial-stage MedTech pioneering a new approach to treating chronic pain.",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:aurimod"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "AURIMOD GmbH also says: Its CE-marked wearable VIVO® sits behind the ear and activates the body’s own pain regulation, offering a drug-free alternative.",
+      "kind": "fact",
+      "source": "websummit-appearance-aurimod",
+      "quote": "Its CE-marked wearable VIVO® sits behind the ear and activates the body’s own pain regulation, offering a drug-free alternative.",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:aurimod"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "Web Summit's page lists AURIMOD GmbH from Austria, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-aurimod",
+      "quote": "\"country\":\"Austria\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:aurimod"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "Igloo describes itself on its Web Summit page: igloo.today brings blood diagnostics to the pharmacy counter.",
+      "kind": "fact",
+      "source": "websummit-appearance-igloo",
+      "quote": "igloo.today brings blood diagnostics to the pharmacy counter.",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:igloo"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "Igloo also says: Live in 300 pharmacies across 10 countries with 37,000+ tests run, riding Germany's new pharmacy reform.",
+      "kind": "fact",
+      "source": "websummit-appearance-igloo",
+      "quote": "Live in 300 pharmacies across 10 countries with 37,000+ tests run, riding Germany's new pharmacy reform.",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:igloo"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "Web Summit's page lists Igloo from Germany, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-igloo",
+      "quote": "\"country\":\"Germany\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:igloo"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "Mobile Brain describes itself on its Web Summit page: Mobile Brain is an AI deep tech in computational neuroscience democratizing access to cognitive assessments by turning spontaneous speech into objective metrics.",
+      "kind": "fact",
+      "source": "websummit-appearance-mobilebrain",
+      "quote": "Mobile Brain is an AI deep tech in computational neuroscience democratizing access to cognitive assessments by turning spontaneous speech into objective metrics.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:mobile-brain"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "Web Summit's page lists Mobile Brain from Brazil, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-mobilebrain",
+      "quote": "\"country\":\"Brazil\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:mobile-brain"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "NeoCannBio Co., Ltd. describes itself on its Web Summit page: NeoCannBio is a KIST-backed Korean biopharma building a full-spectrum value chain for medical cannabinoids—from GACP cultivation and bGMP API manufacturing to CDMO and finished products.",
+      "kind": "fact",
+      "source": "websummit-appearance-neocannbio",
+      "quote": "NeoCannBio is a KIST-backed Korean biopharma building a full-spectrum value chain for medical cannabinoids—from GACP cultivation and bGMP API manufacturing to CDMO and finished products.",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:neocannbio"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "Web Summit's page lists NeoCannBio Co., Ltd. from Korea (Republic of), in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-neocannbio",
+      "quote": "\"country\":\"Korea (Republic of)\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:neocannbio"
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "Nice Deer describes itself on its Web Summit page: Nice Deer is a healthcare infrastructure company connecting payers, providers and beneficiaries through one digital ecosystem.",
+      "kind": "fact",
+      "source": "websummit-appearance-nicedeer",
+      "quote": "Nice Deer is a healthcare infrastructure company connecting payers, providers and beneficiaries through one digital ecosystem.",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:nice-deer"
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "Web Summit's page lists Nice Deer from Egypt, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-nicedeer",
+      "quote": "\"country\":\"Egypt\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:nice-deer"
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "Olá Doutor describes itself on its Web Summit page: Olá Doutor is a healthcare app that connects patients with licensed doctors through instant chat consultations, eliminating the need for appointments.",
+      "kind": "fact",
+      "source": "websummit-appearance-oladoutor",
+      "quote": "Olá Doutor is a healthcare app that connects patients with licensed doctors through instant chat consultations, eliminating the need for appointments.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:ola-doutor"
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "Web Summit's page lists Olá Doutor from Brazil, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-oladoutor",
+      "quote": "\"country\":\"Brazil\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:ola-doutor"
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "Rapidoc describes itself on its Web Summit page: Launch telemedicine in your country with your brand.",
+      "kind": "fact",
+      "source": "websummit-appearance-rapidoc",
+      "quote": "Launch telemedicine in your country with your brand.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:rapidoc"
+      ]
+    },
+    {
+      "id": "c16",
+      "text": "Rapidoc also says: Rapidoc provides the technology, 24/7 medical services and dedicated medical teams, with operations in Brazil, the US and Angola.",
+      "kind": "fact",
+      "source": "websummit-appearance-rapidoc",
+      "quote": "Rapidoc provides the technology, 24/7 medical services and dedicated medical teams, with operations in Brazil, the US and Angola.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:rapidoc"
+      ]
+    },
+    {
+      "id": "c17",
+      "text": "Web Summit's page lists Rapidoc from Brazil, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-rapidoc",
+      "quote": "\"country\":\"Brazil\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:rapidoc"
+      ]
+    },
+    {
+      "id": "c18",
+      "text": "Raras Health describes itself on its Web Summit page: More than 300 million people live with a rare disease, and most wait years for a diagnosis.",
+      "kind": "fact",
+      "source": "websummit-appearance-rarashealth",
+      "quote": "More than 300 million people live with a rare disease, and most wait years for a diagnosis.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:raras-health"
+      ]
+    },
+    {
+      "id": "c19",
+      "text": "Web Summit's page lists Raras Health from Brazil, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-rarashealth",
+      "quote": "\"country\":\"Brazil\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:raras-health"
+      ]
+    },
+    {
+      "id": "c20",
+      "text": "Seroton GmbH describes itself on its Web Summit page: Seroton is a health and wellbeing technology company building Physical AI for human recovery.",
+      "kind": "fact",
+      "source": "websummit-appearance-seroton",
+      "quote": "Seroton is a health and wellbeing technology company building Physical AI for human recovery.",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:seroton"
+      ]
+    },
+    {
+      "id": "c21",
+      "text": "Web Summit's page lists Seroton GmbH from Germany, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-seroton",
+      "quote": "\"country\":\"Germany\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:seroton"
+      ]
+    },
+    {
+      "id": "c22",
+      "text": "sheerME describes itself on its Web Summit page: sheerME is the beauty & wellness super app connecting customers with services.",
+      "kind": "fact",
+      "source": "websummit-appearance-sheerme",
+      "quote": "sheerME is the beauty & wellness super app connecting customers with services.",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:sheerme"
+      ]
+    },
+    {
+      "id": "c23",
+      "text": "Web Summit's page lists sheerME from Portugal, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-sheerme",
+      "quote": "\"country\":\"Portugal\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "company:sheerme"
+      ]
+    },
+    {
+      "id": "c24",
+      "text": "SPRYT describes itself on its Web Summit page: SPRYT is a healthtech company building Asa, an AI agent that helps healthcare providers improve patient engagement, reduce missed appointments and simplify access to care.",
+      "kind": "fact",
+      "source": "websummit-appearance-spryt",
+      "quote": "SPRYT is a healthtech company building Asa, an AI agent that helps healthcare providers improve patient engagement, reduce missed appointments and simplify access to care.",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:spryt"
+      ]
+    },
+    {
+      "id": "c25",
+      "text": "Web Summit's page lists SPRYT from Ireland, in its Healthtech & wellness industry, GROWTH stage.",
+      "kind": "fact",
+      "source": "websummit-appearance-spryt",
+      "quote": "\"country\":\"Ireland\"",
+      "read_on": "2026-11-11",
+      "about": [
+        "local:spryt"
+      ]
+    }
+  ]
+}
