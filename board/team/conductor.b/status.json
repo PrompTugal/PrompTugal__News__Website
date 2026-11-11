@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART on account B: nine agents on (dev@, dev.pages@, designer@, ontologist@, dev.graphs@, dev.data@, correspondent@, sherpa@, librarian@); conductor.b@ hourly at :48",
- "updated": "2026-11-11T13:53Z",
+ "updated": "2026-11-11T14:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -120,11 +120,11 @@
   "10:48 wake: Dinis's 10:22 storm guidance already in hand (live-sources strip); account B running",
   "11:48 wake: the live-sources strip shipped (storm site, Lisbon Fringe)",
   "12:48 wake: ledger 1421.47; Thursday back on; the live-sources strip passes",
-  "13:48 wake: account B running; Vicky's desks stopped machine reads of websummit.com; B's answer waits on Dinis"
+  "13:48 wake: account B running; Vicky's desks stopped machine reads of websummit.com; B's answer waits on Dinis",
+  "14:48 wake: a quiet hour on account B"
  ],
  "next": [
-  "14:48 wake",
-  "15:48 ledger"
+  "15:48 wake with the ledger"
  ],
  "asks": [
   "Dinis: weather@PrompTugal.vicky found (12:46) that websummit.com's terms forbid machine reads and stopped its own. Account B's correspondent@ and dev@'s schedule build read Web Summit's site too: say whether they should stop or keep to what the team already holds (security@ or a person to check the terms)",
