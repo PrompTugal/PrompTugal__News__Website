@@ -2,9 +2,9 @@
   "story": "the-fringe",
   "from": "board/team/work-desk/traces/the-fringe.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 9,
+  "steps": 12,
   "first": "2026-11-11T10:00:00Z",
-  "last": "2026-11-11T12:17:35Z",
+  "last": "2026-11-11T17:27:04Z",
   "actors": [
     {
       "actor": "Dinis Cruz",
@@ -125,6 +125,50 @@
       "span_minutes": 0,
       "handoffs_out": 1,
       "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "correspondent@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T17:24:36Z",
+      "last": "2026-11-11T17:24:36Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "dev@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T17:27:04Z",
+      "last": "2026-11-11T17:27:04Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "curator@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T17:25:59Z",
+      "last": "2026-11-11T17:25:59Z",
+      "span_minutes": 0,
+      "handoffs_out": 0,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "readers (promptugal.news)",
+      "kind": "public",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
       "tokens": null
     }
   ]

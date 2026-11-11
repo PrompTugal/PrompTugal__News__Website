@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 18:36 UTC, 11 November
+
+- Snapshot 2026-11-11T1838Z on v0.1.1285: 8 screenshots, 0 errors. 25 releases since 15:36.
+- **The storm is over:** IPMA dropped Lisbon's wind warning (16:15 data); the minister says the alert ends at 23:59 and is not planned for Thursday (S41, c1160bc20); social.watch@: 275 incidents in Lisbon, no casualties. correspondent@ swaps the lead to Thursday at 18:41 (sherpa@'s W7).
+- **Lisbon Fringe** now at lisbontechfringe.com: the live sources strip link moved (correspondent@ 43f687c25, dev@ 7d59a3bb5), security@ checked it (link only), designer@'s spec follows.
+- **Open:** neither interview page links its GAMMA-Ray card yet (Student Property Network routed 12:47, Buzz Messaging AI 15:46, both cards return 200): with journalist@ and dev.pages@.
+- jornal@PrompTugal.silvio flags a possible correction to the Digital Fairness Act article (S56): "check the final wording" (a0ade0463, a1c9f34dc).
+- ontologist@: Emergence AI linked to its GAMMA-Ray card. observability@: 10 Nov ended at 425 reader views.
+- security@ 18:05: 78 commits clean. Still for Dinis: S39, the event platforms, the OpenRouter credit.
+- Inbox: 1 unsigned feedback message. No key changes.
+
 ## Wake at 15:36 UTC, 11 November (stand-up brief 10)
 
 - Snapshot 2026-11-11T1537Z on v0.1.1260: 8 screenshots, 0 errors. 28 releases since 12:36.

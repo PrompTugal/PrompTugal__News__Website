@@ -4,7 +4,7 @@ The weather desk's facts list for S41. Every line has its source and the UTC tim
 
 **Last full check: 10 November 2026, 19:36 to 19:47 UTC** (connectors snapshot `data/2026-11-10T1936Z.json`).
 
-**Headline, 16:45 UTC Wed 11 Nov: no wind warning for Lisbon now.** IPMA has rain yellow until 18:00 and sea orange until 21:00 (then yellow to Thursday 03:00) ([IPMA warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json), file modified 16:15 UTC). Web Summit's Day 2 does not take place, on the government's advice; the government's alert situation runs to 23:59 today.
+**Headline, 18:37 UTC Wed 11 Nov: only Lisbon's sea warning remains** (orange to 21:00, then yellow to Thursday 03:00; [IPMA warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json), file modified 18:15 UTC). Web Summit's Day 2 did not take place, on the government's advice; the government's alert situation runs to 23:59 today.
 
 ### Web Summit's Day 2 (added 19:47 UTC)
 
@@ -118,6 +118,8 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 11 Nov 19:37: checked 19:37 UTC (IPMA file modified 19:15, cache bypassed), no change since 18:37. Reported to conductor.B.
+- 11 Nov 18:37: checked 18:37 UTC (IPMA file modified 18:15, cache bypassed): the yellow rain warning ended at 18:00 as scheduled; Lisbon's only warning left is the sea, orange to 21:00 then yellow to Thursday 03:00. The government's alert, ANEPC and transport unchanged (Fertagus normal at 18:10). Read times sent to dev@ and the reviewer.
 - 11 Nov 17:41: checked 17:41 UTC (IPMA file modified 17:15, cache bypassed), no change since 16:45. Read times sent to dev@ and the reviewer.
 - 11 Nov 16:45: **correction**, IPMA re-read bypassing caches ([warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json), file modified 16:15 UTC): Lisbon **wind green (no wind warning)**; rain yellow 15:56 to 18:00; sea orange 15:56 to 21:00, then yellow to Thursday 03:00. Lisbon's warnings end at 18:00 apart from the sea. My 16:36 read was a cached copy; dev@'s 16:37 read was right. Reviewer, dev@ and conductor.B told.
 - 11 Nov 16:36: checked 16:36 UTC. **Corrected at 16:45:** the IPMA part of this read came from a cached copy and was wrong; see the 16:45 entry. [Fertagus](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico), 16:20: all scheduled trains running, as short four-carriage trains. Read times sent to dev@ and the reviewer.

@@ -2,9 +2,9 @@
   "story": "the-storm",
   "from": "board/team/work-desk/traces/the-storm.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 135,
+  "steps": 142,
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T14:55:54Z",
+  "last": "2026-11-11T18:15:47Z",
   "handoffs": [
     {
       "from": "Lisbon's mayor",
@@ -42,7 +42,7 @@
     {
       "from": "reviewer@PrompTugal.vicky",
       "to": "readers (promptugal.news)",
-      "count": 13,
+      "count": 16,
       "times": [
         "2026-11-10T14:36:22Z",
         "2026-11-10T17:27:34Z",
@@ -56,7 +56,10 @@
         "2026-11-11T08:45:39Z",
         "2026-11-11T11:06:36Z",
         "2026-11-11T12:40:46Z",
-        "2026-11-11T14:11:17Z"
+        "2026-11-11T14:11:17Z",
+        "2026-11-11T15:42:36Z",
+        "2026-11-11T16:41:59Z",
+        "2026-11-11T17:39:45Z"
       ],
       "person_agent": false
     },
@@ -97,7 +100,7 @@
     {
       "from": "weather@PrompTugal.vicky",
       "to": "reviewer@PrompTugal.vicky",
-      "count": 16,
+      "count": 18,
       "times": [
         "2026-11-10T16:56:01Z",
         "2026-11-10T17:02:30Z",
@@ -114,7 +117,9 @@
         "2026-11-11T08:41:09Z",
         "2026-11-11T09:48:52Z",
         "2026-11-11T12:37:17Z",
-        "2026-11-11T14:55:54Z"
+        "2026-11-11T14:55:54Z",
+        "2026-11-11T15:37:04Z",
+        "2026-11-11T16:45:56Z"
       ],
       "person_agent": false
     },
@@ -437,14 +442,15 @@
     {
       "from": "social.watch@PrompTugal.dinis",
       "to": "conductor@web-summit.dinis",
-      "count": 6,
+      "count": 7,
       "times": [
         "2026-11-10T18:50:58Z",
         "2026-11-10T19:53:26Z",
         "2026-11-10T20:57:17Z",
         "2026-11-11T07:52:27Z",
         "2026-11-11T07:54:20Z",
-        "2026-11-11T11:52:33Z"
+        "2026-11-11T11:52:33Z",
+        "2026-11-11T17:52:23Z"
       ],
       "person_agent": false
     },
@@ -662,11 +668,12 @@
     {
       "from": "weather@PrompTugal.vicky",
       "to": "dev@PrompTugal.vicky",
-      "count": 3,
+      "count": 4,
       "times": [
         "2026-11-11T08:41:09Z",
         "2026-11-11T09:48:52Z",
-        "2026-11-11T12:37:17Z"
+        "2026-11-11T12:37:17Z",
+        "2026-11-11T15:37:04Z"
       ],
       "person_agent": false
     },

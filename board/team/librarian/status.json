@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B, back on at THE RESTART, every three hours)",
-  "updated": "2026-11-11T16:20Z",
+  "updated": "2026-11-11T19:15Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -50,7 +50,8 @@
     "Wake of 06:57: light; inbox drained (nothing new); no new word from Dinis since 18:25 on 10 November; catalogue v0.1.1177 (1,517 pages, 177 findings); provenance 62 pieces, one with no check on record; library 5,909 cards, check OK, 0 warnings, 12.9 MB of a 14 MB cap; life map 4 flags",
     "Wake of 09:57: light; inbox drained (nothing new); no new word from Dinis since 18:25 on 10 November; catalogue v0.1.1206 (1,521 pages, 177 findings); provenance 64 pieces, one with no check on record; library 5,921 cards, check OK, 0 warnings; life map 5 flags (new: writer@PrompTugal.angelo silent 25 h)",
     "Wake of 12:57: inbox drained (nothing new); Dinis's 10:00 word read (pt.news follows what is happening now; the storm site, a separate repository, as a main source): nothing for the library; the life map's flags batched to both conductors (new: conductor.B@ios.PrompTugal.dinis commits with no key here; writer@PrompTugal.angelo silent 28 h); catalogue v0.1.1236 (1,523 pages, 177 findings); provenance 65 pieces, one with no check on record; library 5,949 cards, check OK, 0 warnings; life map 77 agents, 89 keys, 6 flags",
-    "Wake of 15:57: inbox drained: 1 new, conductor.b@ (14:50, verified): the life map wrongly said it works on work/conductor.b; fixed: the dotted workers now come from CLAUDE.md's team table ('(Sonnet)' rows), answered on its inbox; catalogue v0.1.1263 (1,527 pages, 177 findings); provenance 65 pieces, one with no check on record; library 5,972 cards, check OK, 0 warnings; life map 77 agents, 89 keys, 6 flags"
+    "Wake of 15:57: inbox drained: 1 new, conductor.b@ (14:50, verified): the life map wrongly said it works on work/conductor.b; fixed: the dotted workers now come from CLAUDE.md's team table ('(Sonnet)' rows), answered on its inbox; catalogue v0.1.1263 (1,527 pages, 177 findings); provenance 65 pieces, one with no check on record; library 5,972 cards, check OK, 0 warnings; life map 77 agents, 89 keys, 6 flags",
+    "Wake of 18:58: light; inbox drained (nothing new); no new word from Dinis since 10:00; today's debrief refreshed; catalogue v0.1.1289 (1,527 pages, 177 findings); provenance 65 pieces, one with no check on record; library 5,988 cards, check OK, 0 warnings, 13.1 MB of 14; life map 6 flags"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -275,6 +276,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: conductor.b@'s correction to the life map taken; catalogue v0.1.1263; library 5,972 cards green"
+    },
+    {
+      "started": "2026-11-11T18:58Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: light; debrief refreshed; catalogue v0.1.1289; library 5,988 cards green"
     }
   ],
   "notes": [

@@ -1,6 +1,6 @@
 # Materials for the visualisers: Lisbon Fringe's start
 
-Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-fringe.json`, 12:45 UTC on 11 November: 9 steps, 11 actors, 7 hand-off edges, 10:00 to 12:17 UTC). The story: `../../stories/the-fringe.md`.
+Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-fringe.json`, 18:45 UTC on 11 November: 12 steps, 15 actors, 9 hand-off edges, 10:00 to 17:27 UTC). The story: `../../stories/the-fringe.md`.
 
 | File | What it holds |
 |---|---|

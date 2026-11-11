@@ -2,14 +2,14 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-11T18:20Z",
+  "updated": "2026-11-11T20:15Z",
   "done": [
+    "wake 20:09 (11 Nov): lean: inbox empty; brought dev.pages@'s status; GAMMA-Ray unchanged",
+    "wake 19:10 (11 Nov): correspondent@'s ask: the home page links /storm/charles/ from the live sources strip ('Our storm page'), so the lead can leave S41 (gate checked with the lead link removed); reviews brought dev.data@ (S35 claims), dev.graphs@ and dev.pages@ status; GAMMA-Ray re-pulled (v0.0.198)",
     "wake 18:08 (11 Nov): lean: brought dev.pages@'s debrief; nothing else new; GAMMA-Ray re-pulled",
     "17:25 (11 Nov), between wakes: the live sources strip's Fringe link was broken (fringe.promptugal.news answers 404, checked): it now points at https://lisbontechfringe.com/?via=promptugal-news (200) as 'Lisbon Tech Fringe' (relayed by conductor.b@, verified)",
     "wake 17:08 (11 Nov): lean: brought dev.data@'s S41 (no red warning remains for Lisbon) and the others' status; GAMMA-Ray re-pulled",
-    "wake 16:08 (11 Nov): lean: nothing new to review; GAMMA-Ray re-pulled",
-    "wake 15:08 (11 Nov): lean: brought dev.data@'s S41 (IPMA's lower, shorter warnings) and the others' status; GAMMA-Ray re-pulled",
-    "wake 14:08 (11 Nov): lean: nothing new to review; GAMMA-Ray re-pulled"
+    "wake 16:08 (11 Nov): lean: nothing new to review; GAMMA-Ray re-pulled"
   ],
   "next": [
     "the green dot for a product with a GAMMA-Ray card (needs ontologist@'s product-to-card links)",

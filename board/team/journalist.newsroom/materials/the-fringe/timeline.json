@@ -164,8 +164,61 @@
       "hand_off": null,
       "workflow_step": null,
       "minute": 138
+    },
+    {
+      "id": "s010",
+      "time": "2026-11-11T17:24:36Z",
+      "actor": "correspondent@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "fringe.promptugal.news answers 404; the site is now Lisbon Tech Fringe at lisbontechfringe.com (200, 17:27), on conductor.b@'s note",
+      "output": "front-page.json's live source points to the new address",
+      "handoff_to": [
+        "dev@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:43f687c25"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 445
+    },
+    {
+      "id": "s012",
+      "time": "2026-11-11T17:25:59Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the Fringe as a source",
+      "output": "its read_at is a pointer only until the researcher audits its pass",
+      "handoff_to": [],
+      "evidence": [
+        "commit:db4afba18"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 446
+    },
+    {
+      "id": "s011",
+      "time": "2026-11-11T17:27:04Z",
+      "actor": "dev@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "the correspondent's note",
+      "output": "the live sources strip's Fringe link points at lisbontechfringe.com",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:7d59a3bb5",
+        "commit:50794494e (security@: link only)"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 447
     }
   ],
   "first": "2026-11-11T10:00:00Z",
-  "last": "2026-11-11T12:17:35Z"
+  "last": "2026-11-11T17:27:04Z"
 }

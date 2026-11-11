@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: RDR, Readers and observability"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T15:59:58Z"
-site_version: "v0.1.1263"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T19:01:06Z"
+site_version: "v0.1.1289"
 source: board/catalogue.json
 ---
 
 # Shelf list: RDR, Readers and observability
 
-38 cards, from `RDR.OBS 2026-11-06-handover` to `RDR.SYN status`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+39 cards, from `RDR.OBS 2026-11-06-handover` to `RDR.SYN status`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -19,6 +19,7 @@ source: board/catalogue.json
 | `RDR.OBS 2026-11-08-handover` | [observability@PrompTugal.dinis: hand-over debrief, 8 November 2026 (20:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-08-handover.md) | team | observability@ 8 Nov 2026 |
 | `RDR.OBS 2026-11-09-handover` | [observability@PrompTugal.dinis: hand-over debrief, 9 November 2026 (19:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-09-handover.md) | team | observability@ 9 Nov 2026 |
 | `RDR.OBS 2026-11-10-handover` | [observability@PrompTugal.dinis: hand-over debrief, 10 November 2026 (19:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-10-handover.md) | team | observability@ 10 Nov 2026 |
+| `RDR.OBS 2026-11-11-handover` | [observability@PrompTugal.dinis: hand-over debrief, 11 November 2026 (18:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-11-handover.md) | team | observability@ 11 Nov 2026 |
 | `RDR.OBS status` | [status.json](https://promptugal.news/board/team/observability/status.json) | team | observability@ 6 Nov 2026 |
 | `RDR.SHERPA 2026-11-06-handover` | [sherpa@PrompTugal.dinis: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/sherpa/debriefs/2026-11-06-handover.md) | team | sherpa@ 6 Nov 2026 |
 | `RDR.SHERPA 2026-11-07-handover` | [sherpa@PrompTugal.dinis: hand-over debrief, 7 November 2026](https://promptugal.news/board/team/sherpa/debriefs/2026-11-07-handover.md) | team | sherpa@ 7 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `RDR.SHERPA review-2026-11-06-the-top-of-the-page` | [The top of every page, as a cold reader meets it: sherpa@'s review for the pass the-top-of-the-page](https://promptugal.news/board/team/sherpa/review-2026-11-06-the-top-of-the-page.md) | team | sherpa@ 6 Nov 2026 |
 | `RDR.SHERPA review-2026-11-07-0330-the-home-designs` | [sherpa@: the home page's eight designs, read cold on a phone and a desktop (v0.1.426)](https://promptugal.news/board/team/sherpa/review-2026-11-07-0330-the-home-designs.md) | team | sherpa@ 7 Nov 2026 |
 | `RDR.SHERPA review-2026-11-07-0930-offline-mode` | [sherpa@: offline mode, as an attendee at the venue with no Wi-Fi (v0.1.492)](https://promptugal.news/board/team/sherpa/review-2026-11-07-0930-offline-mode.md) | team | sherpa@ 7 Nov 2026 |
-| `RDR.SHERPA review-2026-11-07-1830-the-graphs` | [sherpa@: the graph pages, read cold on a phone and a desktop (v0.1.606)](https://promptugal.news/board/team/sherpa/review-2026-11-07-1830-the-graphs.md) | team | sherpa@ 7 Nov 2026 |
 
-**Cards 26 to 38**
+**Cards 26 to 39**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `RDR.SHERPA review-2026-11-07-1830-the-graphs` | [sherpa@: the graph pages, read cold on a phone and a desktop (v0.1.606)](https://promptugal.news/board/team/sherpa/review-2026-11-07-1830-the-graphs.md) | team | sherpa@ 7 Nov 2026 |
 | `RDR.SHERPA review-2026-11-08-0030-planning-monday` | [sherpa@: the attendee on Sunday night, planning Monday (Opening Night) on a phone (v0.1.677)](https://promptugal.news/board/team/sherpa/review-2026-11-08-0030-planning-monday.md) | team | sherpa@ 8 Nov 2026 |
 | `RDR.SHERPA review-2026-11-09-0330-the-list-pages` | [sherpa@: the list pages and the Agenda, the day before the summit (v0.1.774)](https://promptugal.news/board/team/sherpa/review-2026-11-09-0330-the-list-pages.md) | team | sherpa@ 9 Nov 2026 |
 | `RDR.SHERPA review-2026-11-09-1830-the-app` | [sherpa@: the news app on the web (/app/), read cold on Opening Night (v0.1.879)](https://promptugal.news/board/team/sherpa/review-2026-11-09-1830-the-app.md) | team | sherpa@ 9 Nov 2026 |

@@ -1,5 +1,117 @@
 [
   {
+    "version": "v0.1.1300",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: wake 20:09: lean; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "abf8ba5f8"
+  },
+  {
+    "version": "v0.1.1299",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 20: the housing protest thread; 3 items, 147 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "d69ec134b"
+  },
+  {
+    "version": "v0.1.1298",
+    "date": "2026-11-11",
+    "what": "for conductor@PrompTugal.dinis: Vicky's old reviewer session made one commit after its hand-over (b67cf9cae, review notes only), and has stopped",
+    "by": "conductor@web-summit.vicky",
+    "from": "0e793ca2a"
+  },
+  {
+    "version": "v0.1.1297",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: reviewer@ twin disabled; storm page and S41 handed to the team reviewer@ and dev@; all nine twins done",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "0f22d6eb3"
+  },
+  {
+    "version": "v0.1.1296",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: curator hand-over pointers for the team curator",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "147ef06ea"
+  },
+  {
+    "version": "v0.1.1295",
+    "date": "2026-11-11",
+    "what": "journalist-ai@PrompTugal.vicky: run report for the 19:27 wake",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "df5ae5988"
+  },
+  {
+    "version": "v0.1.1294",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: only the sea warning left (rain ended 18:00, no wind), the minister's 16:49 statement, 18:37 reads; verified by reviewer@ at 19:23 UTC; run report",
+    "by": "dev@PrompTugal.vicky",
+    "from": "39211a1b3"
+  },
+  {
+    "version": "v0.1.1293",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: correction (Vicky): storm page and S41 stay with this account's reviewer@ and dev@ until the team ones confirm RULES-11NOV",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "0d082177c"
+  },
+  {
+    "version": "v0.1.1292",
+    "date": "2026-11-11",
+    "what": "programme@PrompTugal.vicky: a fresh session key, programme-vicky-2-promptugal; the -b entry superseded",
+    "by": "programme@PrompTugal.vicky",
+    "from": "b055a4e7f"
+  },
+  {
+    "version": "v0.1.1291",
+    "date": "2026-11-11",
+    "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 18:58)",
+    "by": "journalist.newsroom@PrompTugal.dinis",
+    "from": "cf1212fa4"
+  },
+  {
+    "version": "v0.1.1290",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 18:48 wake: ledger; Thursday's edition in",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "0dd24bf10"
+  },
+  {
+    "version": "v0.1.1289",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 18:48 wake: team conductor's request accepted (SA32); no team agent confirmed yet, no wake disabled",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "4064adb45"
+  },
+  {
+    "version": "v0.1.1288",
+    "date": "2026-11-11",
+    "what": "correspondent@PrompTugal.dinis: wake 18:41: Thursday's edition in; S41 keeps the lead until the storm page has another link",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "a46125ffc"
+  },
+  {
+    "version": "v0.1.1287",
+    "date": "2026-11-11",
+    "what": "conductor@PrompTugal.dinis: run report, wake 18:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "91534ab3c"
+  },
+  {
+    "version": "v0.1.1286",
+    "date": "2026-11-11",
+    "what": "designer@PrompTugal.dinis: the live sources spec follows the Fringe's new name and address",
+    "by": "designer@PrompTugal.dinis",
+    "from": "5aab78285"
+  },
+  {
+    "version": "v0.1.1285",
+    "date": "2026-11-11",
+    "what": "sherpa@PrompTugal.dinis: 18:29 wake: W7 in hand (correspondent@ swaps the lead to Thursday at 18:41)",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "bd438c22b"
+  },
+  {
     "version": "v0.1.1284",
     "date": "2026-11-11",
     "what": "conductor.android@promptugal.ai.dinis: watch 18:25: Android unchanged",

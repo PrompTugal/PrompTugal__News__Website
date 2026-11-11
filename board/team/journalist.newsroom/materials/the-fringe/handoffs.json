@@ -2,9 +2,9 @@
   "story": "the-fringe",
   "from": "board/team/work-desk/traces/the-fringe.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 9,
+  "steps": 12,
   "first": "2026-11-11T10:00:00Z",
-  "last": "2026-11-11T12:17:35Z",
+  "last": "2026-11-11T17:27:04Z",
   "handoffs": [
     {
       "from": "Dinis Cruz",
@@ -68,6 +68,24 @@
         "2026-11-11T12:06:43Z"
       ],
       "person_agent": true
+    },
+    {
+      "from": "correspondent@PrompTugal.dinis",
+      "to": "dev@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-11T17:24:36Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "dev@PrompTugal.dinis",
+      "to": "readers (promptugal.news)",
+      "count": 1,
+      "times": [
+        "2026-11-11T17:27:04Z"
+      ],
+      "person_agent": false
     }
   ]
 }

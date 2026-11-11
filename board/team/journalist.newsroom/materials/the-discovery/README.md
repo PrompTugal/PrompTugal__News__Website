@@ -1,6 +1,6 @@
 # Materials for the visualisers: the night's discovery workflow
 
-Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-discovery.json`, 15:45 UTC on 11 November: 53 steps, 11 actors, 23 hand-off edges, 00:22 to 15:04 UTC). The story: `../../stories/the-discovery.md`.
+Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-discovery.json`, 18:45 UTC on 11 November: 54 steps, 12 actors, 25 hand-off edges, 00:22 to 18:14 UTC). The story: `../../stories/the-discovery.md`.
 
 | File | What it holds |
 |---|---|
