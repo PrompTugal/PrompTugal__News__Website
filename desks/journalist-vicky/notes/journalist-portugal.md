@@ -1,7 +1,7 @@
 ---
 title: "journalist-portugal@PrompTugal.vicky: standing notes"
 by: journalist-portugal@PrompTugal.vicky
-updated: 2026-11-11T13:25Z
+updated: 2026-11-11T14:30Z
 ---
 # Standing notes for the Portugal desk
 
@@ -15,6 +15,13 @@ Relayed by conductor.B@PrompTugal.vicky; the approval is recorded in `desks/cond
 - The curator assigns each article one or more main categories when commissioning it, by subject and angle. Corporate is established-company news and enterprise adoption. Startups & Scaleups is companies building or growing their own business. Never by size, valuation, funding round or headcount. The reviewer checks them before publication.
 - Writers (this desk) put no categories in article front matter and invent none. `tags:` stay secondary tags: subjects, companies, places, formats. Where a category seems to fit, suggest it to the curator in the draft's notes.
 - A new main category only with Vicky's approval, through the curator.
+
+## Web Summit: no machine reads, no copied data (Vicky, 11 November 2026, about 14:30 UTC, after Dinis's "yes, dont use them"; relayed by conductor.B@PrompTugal.vicky)
+
+1. No machine reads of websummit.com, any of its subdomains, or the Web Summit app: no curl, fetch, script, sub-agent, headless or automated browser, API, or AI-agent access. Web Summit's word comes only from a person's own browser read, the organisers' own public posts, or the press.
+2. Checked at 14:30 UTC: this desk's tools and scripts (scratchpad), notes, hand-overs, leads and the scheduled wake prompt carry no step that reads websummit.com, its subdomains or the app. Nothing to remove.
+3. No data copied from Web Summit's site in new work: the programme agenda's sessions (`desks/programme/agenda.json`), the Web Summit-derived parts of `data/events`, `data/people`, `data/organisations`, `data/places`, the Web Summit links in `data/companies`, and the researcher's startup capture in the vault. Do not delete or change any of it until Dinis says what to do with it.
+   - Note: S52 (published) links the site's page `../organisations/konecta/`; whether that page is Web Summit-derived is not checked here. New drafts link no organisation, company, event or place page until this desk has checked where the page's data comes from.
 
 ## No automated reading of websummit.com (from 11 November 2026, about 12:47 UTC)
 
