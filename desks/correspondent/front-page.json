@@ -9,9 +9,9 @@
     "standfirst": "Web Summit called off Day 2 on the government's advice because of Storm Charles; on Wednesday it said it is officially back on Thursday for its final day.",
     "developments": [
       {
-        "text": "IPMA, Lisbon: red rain ended at 15:00; rain yellow and wind orange until 18:00.",
+        "text": "IPMA, Lisbon: no wind warning now; rain yellow until 18:00; sea orange until 21:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-11T16:33Z"
+        "checked": "2026-11-11T16:39Z"
       },
       {
         "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
@@ -25,7 +25,7 @@
       "source": "https://websummit.com/",
       "checked": "2026-11-11T12:36Z"
     },
-    "last_checked": "2026-11-11T16:33Z",
+    "last_checked": "2026-11-11T16:39Z",
     "live": null
   },
   "top": [
