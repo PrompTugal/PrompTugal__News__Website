@@ -11,12 +11,12 @@
       {
         "text": "IPMA, Lisbon: red rain ended at 15:00; rain yellow and wind orange until 18:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-11T15:40Z"
+        "checked": "2026-11-11T16:33Z"
       },
       {
         "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-11T15:40Z"
+        "checked": "2026-11-11T16:33Z"
       }
     ],
     "programme": {
@@ -25,7 +25,7 @@
       "source": "https://websummit.com/",
       "checked": "2026-11-11T12:36Z"
     },
-    "last_checked": "2026-11-11T15:40Z",
+    "last_checked": "2026-11-11T16:33Z",
     "live": null
   },
   "top": [
