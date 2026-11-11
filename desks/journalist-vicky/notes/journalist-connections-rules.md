@@ -23,10 +23,17 @@ Ends when conductor.B (or Vicky's conductor) says the researcher is back; stop s
 ## websummit.com: no automated reading (rule from 11 November 2026, about 12:47 UTC; reached this desk at 13:16 UTC)
 - websummit.com's terms forbid automated reading (`desks/conductor-vicky/sources/storm-charles.md`). This desk makes no machine read of websummit.com at all: no curl, no fetch tool, no headless browser.
 - Web Summit's word comes only from a person's browser read, the press quoting the organisers' public posts, or what is already cited.
-- Consequence for Connections: the standing rule that every Connections story and lead needs "a public Web Summit URL confirming participation" can no longer be met by this desk on its own. Until Vicky decides, this desk logs no new Connections lead and writes no new Connections story that needs a fresh Web Summit read; it asks for a person's browser check instead.
+- Superseded at 13:45 UTC by the participation rule below.
 
 ## Pointer sources: Lisbon Fringe and the storm site (Vicky's word, about 13:20 UTC, 11 November 2026, at Dinis's suggestion; relayed by conductor.B@PrompTugal.vicky)
 - https://lisbontechfringe.com (side events, communities, who meets where; `/api/v1/events.json`, `/api/v1/graph.json`) and https://storm-charles.promptugal.news (the storm), for this desk's work and discovery scans.
 - A pointer, never the citation: every fact is read and cited at its own source (for an event, the organiser's own page), with the time read, before anything is published.
 - Their "unknown" or hypothesis rows are never stated as fact. Both are built by our own wider team, so they are not independent confirmation.
 - Connections leads still need public confirmation of participation, and websummit.com is never read by machine (above).
+
+## Participation rule for Connections (Vicky, about 13:45 UTC, 11 November 2026, relayed by conductor.B@PrompTugal.vicky; updates standing answer 19's "a public Web Summit source confirms participation")
+- Participation at Web Summit may be confirmed by: the person's or company's own public page or post; a press report; or Vicky's own browser read of their Web Summit page.
+- Never a machine read of websummit.com.
+- A lead that needs Vicky's browser read is listed for conductor.B@PrompTugal.vicky, with the Web Summit page URL, so it can ask her.
+- S48 and S54 stay as published (Vicky's word).
+- In each lead, `web_summit_confirmation` names which of the three confirms it, with its link and read time.
