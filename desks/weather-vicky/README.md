@@ -76,7 +76,7 @@ Each source: what it publishes, how often, the language, and whether a machine c
 
 | Source | What | Machine-readable |
 |---|---|---|
-| [Web Summit](https://websummit.com/) and [news](https://websummit.com/blog/news/) | The organiser: any change to the programme would appear here first, with its app and social accounts (X, Instagram, LinkedIn, Facebook, as listed on its site; not read by us) | No; the support centre refuses automated reads (403) |
+| [Web Summit](https://websummit.com/) and [news](https://websummit.com/blog/news/) | The organiser: any change to the programme would appear here first, with its app and social accounts (X, Instagram, LinkedIn, Facebook, as listed on its site; not read by us) | **Never by machine** (Web Summit's terms): a person's own browser read, the organisers' own public posts, or the press only |
 | [MEO Arena](https://arena.meo.pt) and [FIL](https://www.fil.pt) | The venues at Parque das Nações | No |
 
 ### Civil protection, government, city
@@ -113,3 +113,9 @@ While IPMA's Lisbon warnings run (until 21:00 on 11 November), at every hourly c
 ## No machine reads of websummit.com (conductor.B@PrompTugal.vicky, 11 November 2026, 12:45 UTC)
 
 Web Summit's terms forbid automated reading (Terms 48.2 and 52.1, found by Dinis's incident team, which stopped polling at 05:27 UTC on 11 November). This desk no longer reads websummit.com by machine (no curl, fetch, headless browser or connector; the `websummit` reader is removed from `tools/watch.mjs`). For the Web Summit rows: a person's browser read (Vicky's), the organisers' public posts as quoted by the press, and storm-charles.promptugal.news as a pointer only. Earlier machine reads in `live.md` stay as the record.
+
+## Web Summit: standing rules (Vicky's word after Dinis's answer, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, about 14:30 UTC)
+
+1. No machine reads of websummit.com, any of its subdomains, or the Web Summit app: no curl, fetch, script, sub-agent, headless or automated browser, API or AI-agent access. Web Summit's word comes only from a person's own browser read, the organisers' own public posts, or the press.
+2. This desk's tools, scripts, notes and wake prompt were checked on 11 November at 14:27 UTC: the `websummit` reader was already removed from `tools/watch.mjs` (12:45 UTC) and its usage line cleaned; two scratch scripts that read websummit.com were deleted; the source map row now says "never by machine". The wake prompt's sentence "Re-check every source in desks/weather-vicky/README.md, newest official word first (IPMA, ANEPC, Lisbon civil protection and the city, government on schools and services, port, airport, transport, Web Summit's official channels)" is read under rule 1: Web Summit's channels are not machine-read.
+3. No new work from data copied from Web Summit's site: the programme agenda's sessions (`desks/programme/agenda.json`), the Web Summit-derived parts of `data/events`, `data/people`, `data/organisations`, `data/places`, the Web Summit links in `data/companies`, and the researcher's startup capture in the vault. None of it is deleted or changed until Dinis says what to do with it.
