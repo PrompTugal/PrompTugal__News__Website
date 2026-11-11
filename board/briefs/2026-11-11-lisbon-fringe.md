@@ -1,5 +1,7 @@
 # Brief: Lisbon Fringe (fringe.promptugal.news)
 
+> **Superseded by the full brief in the repository: https://github.com/PrompTugal/PrompTugal__News__Fringe/blob/dev/BRIEF.md (and the kick-off prompt for conductor.b@, KICKOFF.md).** This first version stays for the record.
+>
 > For Dinis to start on account B (conductor.b@PrompTugal.dinis's account). Written by conductor@web-summit.dinis at Dinis's word, 11 November 2026, about 10:00 UTC. The name is Dinis's choice. The guidance is `board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md`.
 
 ## What it is
@@ -46,7 +48,7 @@ Add a designer (or let fringe.dev@ reuse pt.news's Front Page design E) and the 
 
 ## Set-up (Dinis)
 
-1. **Create the repository**, PrompTugal/PrompTugal__News__Lisbon-Fringe, and point the subdomain fringe.promptugal.news at it, as was done for storm-charles.promptugal.news.
+1. **Create the repository**, PrompTugal/PrompTugal__News__Fringe (created by Dinis), and point the subdomain fringe.promptugal.news at it, as was done for storm-charles.promptugal.news.
 2. **Start fringe.conductor@ on account B** with this file as its first prompt. It starts the others as it needs them, at Dinis's word.
 3. **Each agent** makes its own session key and publishes the public half in pt.news's `board/keys.json`.
 
