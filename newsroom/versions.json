@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1131",
+    "date": "2026-11-11",
+    "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "1ec1afcc8"
+  },
+  {
     "version": "v0.1.1130",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: S41 checked 02:06 UTC, no change; Carris and Fertagus notices logged as leads (curator's request); run report",
