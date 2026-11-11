@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-10T23:53Z",
+  "updated": "2026-11-11T06:54Z",
   "sweeps": [
     {
       "n": 1,
@@ -71,6 +71,16 @@
         "night check by the agent itself: Web Summit's blog, Mastodon, the team's commits, one Sonar query"
       ],
       "items": 3
+    },
+    {
+      "n": 7,
+      "at": "2026-11-11T06:51Z",
+      "families": [
+        "news with Web Summit's channels",
+        "social and video"
+      ],
+      "items": 6,
+      "note": "Storm day; social added nothing usable (an off-topic private post and a 2023 video dropped); OpenRouter out of credit"
     }
   ],
   "items": [
@@ -2779,6 +2789,156 @@
       "family": "news and blogs",
       "found": "2026-11-10T23:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 6)"
+    },
+    {
+      "url": "https://observador.pt/2026/11/10/numa-web-summit-de-elogios-a-china-discutiu-se-a-crise-no-casamento-transatlantico-e-um-ocidente-em-declinio/",
+      "platform": "Observador",
+      "author": "Cátia Rocha",
+      "kind": "article",
+      "title": "Numa Web Summit de elogios à China, discutiu-se 'a crise no casamento transatlântico' e um Ocidente 'em declínio'",
+      "quote": "o passado não espera por nós",
+      "published": "2026-11-10T21:18:22Z",
+      "topics": [
+        "policy",
+        "speakers",
+        "Europe"
+      ],
+      "companies": [
+        "Fire Point",
+        "Nordic Compass"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Bruno Maçães",
+        "Maria Tarp",
+        "Iryna Terekh",
+        "Alberto Alemanno",
+        "Owen Jones",
+        "Henry Farrell"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": null,
+      "family": "news and blogs",
+      "found": "2026-11-11T06:54Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 7)"
+    },
+    {
+      "url": "https://4gnews.pt/web-summit-cancela-2-dia-em-lisboa-devido-a-tempestade-charles/",
+      "platform": "4gnews",
+      "author": null,
+      "kind": "article",
+      "title": "Web Summit cancela 2.º dia em Lisboa devido à tempestade Charles",
+      "quote": "A intenção da Web Summit é retomar os trabalhos no terceiro dia",
+      "published": "2026-11-10",
+      "topics": [
+        "storm"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Cites government, ANEPC and PSP recommendation; eight districts red; gusts to 120 km/h forecast. No time on page.",
+      "family": "news and blogs",
+      "found": "2026-11-11T06:54Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 7)"
+    },
+    {
+      "url": "https://jornalonline.pt/web-summit-evento-cancelado-devido-ao-mau-tempo/",
+      "platform": "Jornal Online",
+      "author": "Jornal Online (cites Lusa)",
+      "kind": "article",
+      "title": "WEB SUMMIT CANCELADA DEVIDO AO MAU TEMPO",
+      "quote": "perante o agravamento severo do estado do tempo decorrente da depressão Charles",
+      "published": "2026-11-10",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Also: Lisbon tunnels, parks closed from midnight; Metro stations opened as shelter; airports (Lisbon, Faro, Madeira) expect cancellations. No time on page.",
+      "family": "news and blogs",
+      "found": "2026-11-11T06:54Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 7)"
+    },
+    {
+      "url": "https://www.nit.pt/fora-de-casa/na-cidade/web-summit-a-meter-agua-apos-inundacoes-governo-recomenda-suspensao-do-evento",
+      "platform": "NiT",
+      "author": "Pedro Castro",
+      "kind": "article",
+      "title": "Web Summit a meter água. Após inundações, governo recomenda suspensão do evento",
+      "quote": "A decisão cabe-lhes a eles",
+      "published": "2026-11-10T19:16:00Z",
+      "topics": [
+        "storm"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Water entered walkway between pavilions 4 and 5 on Tuesday afternoon; PM Montenegro quoted (final decision with organisers).",
+      "family": "news and blogs",
+      "found": "2026-11-11T06:54Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 7)"
+    },
+    {
+      "url": "https://websummit.com/summaries/lis26/ai-doom-or-boom/",
+      "platform": "Web Summit (summaries)",
+      "author": "Web Summit",
+      "kind": "page",
+      "title": "AI: doom or boom?",
+      "quote": "AI: doom or boom?",
+      "published": "2026-11-10",
+      "topics": [
+        "agentic AI"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Body rendered by script: only title/date visible. Title-only record.",
+      "family": "news and blogs",
+      "found": "2026-11-11T06:54Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 7)"
+    },
+    {
+      "url": "https://websummit.com/summaries/lis26/surviving-the-ai-shift-medias-new-reality-2/",
+      "platform": "Web Summit (summaries)",
+      "author": "Web Summit",
+      "kind": "page",
+      "title": "Surviving the AI shift: Media's new reality",
+      "quote": "Surviving the AI shift: Media's new reality",
+      "published": "2026-11-10",
+      "topics": [
+        "AI",
+        "media"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Body rendered by script: only title/date visible.",
+      "family": "news and blogs",
+      "found": "2026-11-11T06:54Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 7)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."
