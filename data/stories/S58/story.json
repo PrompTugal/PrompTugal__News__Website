@@ -5,7 +5,7 @@
   "title": "Thursday at Web Summit: a practical guide to the last day",
   "beat": "The summit",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:x-web-summit-thursday-facts"
   ],
@@ -15,23 +15,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-11-2030.json"
+      "desks/curator/2026-11-11-2030.json",
+      "desks/journalist-vicky/drafts/S58-thursday-last-day-guide.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S58-thursday-last-day-guide.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-11T20:25Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-11-2030.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S58-thursday-last-day-guide.md"
     }
   ]
 }
