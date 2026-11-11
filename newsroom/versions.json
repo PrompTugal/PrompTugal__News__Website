@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.1188",
+    "date": "2026-11-11",
+    "what": "jornal@PrompTugal.silvio: two agentic candidates at the 08:08 wake of 11 November",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "3943b94a2"
+  },
+  {
+    "version": "v0.1.1187",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 08:06 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "c397a3335"
+  },
+  {
+    "version": "v0.1.1186",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: IPMA's CAP messages through MeteoAlarm's feed, read at each sweep",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "6de09dca2"
+  },
+  {
+    "version": "v0.1.1185",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6cc72e0c7"
+  },
+  {
+    "version": "v0.1.1184",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (07:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "464dbeff7"
+  },
+  {
+    "version": "v0.1.1183",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: TikTok lead follow-up for the curator: the full press release; TikTok's own response not found",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "bf03cc176"
+  },
+  {
+    "version": "v0.1.1182",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: the reading credit's line in 21 cultures; the site's own words are all translatable now",
+    "by": "dev@PrompTugal.dinis",
+    "from": "52611dfd0"
+  },
+  {
+    "version": "v0.1.1181",
+    "date": "2026-11-11",
+    "what": "journalist-connections@PrompTugal.vicky: hand-over note for 11 November",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "226af26f7"
+  },
+  {
     "version": "v0.1.1180",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: S41 checked 07:06 UTC, no change; run report",

@@ -151,7 +151,9 @@
    "foot_find": "Find",
    "foot_newsroom": "The newsroom",
    "foot_read": "Read",
-   "foot_agents": "For agents"
+   "foot_agents": "For agents",
+   "credit_free": "Free to read.",
+   "credit_how": "How the reading credit works"
   },
   "en-US": {
    "now": "Now",
@@ -175,7 +177,9 @@
    "foot_find": "Find",
    "foot_newsroom": "The newsroom",
    "foot_read": "Read",
-   "foot_agents": "For agents"
+   "foot_agents": "For agents",
+   "credit_free": "Free to read.",
+   "credit_how": "How the reading credit works"
   },
   "pt-PT": {
    "now": "Agora",
@@ -199,7 +203,9 @@
    "foot_find": "Encontrar",
    "foot_newsroom": "A redação",
    "foot_read": "Ler",
-   "foot_agents": "Para agentes"
+   "foot_agents": "Para agentes",
+   "credit_free": "Leitura gratuita.",
+   "credit_how": "Como funciona o crédito de leitura"
   },
   "pt-BR": {
    "now": "Agora",
@@ -223,7 +229,9 @@
    "foot_find": "Encontrar",
    "foot_newsroom": "A redação",
    "foot_read": "Ler",
-   "foot_agents": "Para agentes"
+   "foot_agents": "Para agentes",
+   "credit_free": "Leitura gratuita.",
+   "credit_how": "Como funciona o crédito de leitura"
   },
   "de-DE": {
    "now": "Jetzt",
@@ -247,7 +255,9 @@
    "foot_find": "Finden",
    "foot_newsroom": "Die Redaktion",
    "foot_read": "Lesen",
-   "foot_agents": "Für Agenten"
+   "foot_agents": "Für Agenten",
+   "credit_free": "Kostenlos lesen.",
+   "credit_how": "So funktioniert das Leseguthaben"
   },
   "de-CH": {
    "now": "Jetzt",
@@ -271,7 +281,9 @@
    "foot_find": "Finden",
    "foot_newsroom": "Die Redaktion",
    "foot_read": "Lesen",
-   "foot_agents": "Für Agenten"
+   "foot_agents": "Für Agenten",
+   "credit_free": "Kostenlos lesen.",
+   "credit_how": "So funktioniert das Leseguthaben"
   },
   "es-ES": {
    "now": "Ahora",
@@ -295,7 +307,9 @@
    "foot_find": "Encontrar",
    "foot_newsroom": "La redacción",
    "foot_read": "Leer",
-   "foot_agents": "Para agentes"
+   "foot_agents": "Para agentes",
+   "credit_free": "Lectura gratuita.",
+   "credit_how": "Cómo funciona el crédito de lectura"
   },
   "es-AR": {
    "now": "Ahora",
@@ -319,7 +333,9 @@
    "foot_find": "Encontrar",
    "foot_newsroom": "La redacción",
    "foot_read": "Leer",
-   "foot_agents": "Para agentes"
+   "foot_agents": "Para agentes",
+   "credit_free": "Lectura gratuita.",
+   "credit_how": "Cómo funciona el crédito de lectura"
   },
   "es-MX": {
    "now": "Ahora",
@@ -343,7 +359,9 @@
    "foot_find": "Encontrar",
    "foot_newsroom": "La redacción",
    "foot_read": "Leer",
-   "foot_agents": "Para agentes"
+   "foot_agents": "Para agentes",
+   "credit_free": "Lectura gratuita.",
+   "credit_how": "Cómo funciona el crédito de lectura"
   },
   "fr-FR": {
    "now": "Maintenant",
@@ -367,7 +385,9 @@
    "foot_find": "Trouver",
    "foot_newsroom": "La rédaction",
    "foot_read": "Lire",
-   "foot_agents": "Pour les agents"
+   "foot_agents": "Pour les agents",
+   "credit_free": "Lecture gratuite.",
+   "credit_how": "Comment fonctionne le crédit de lecture"
   },
   "fr-CA": {
    "now": "Maintenant",
@@ -391,7 +411,9 @@
    "foot_find": "Trouver",
    "foot_newsroom": "La rédaction",
    "foot_read": "Lire",
-   "foot_agents": "Pour les agents"
+   "foot_agents": "Pour les agents",
+   "credit_free": "Lecture gratuite.",
+   "credit_how": "Comment fonctionne le crédit de lecture"
   },
   "it-IT": {
    "now": "Ora",
@@ -415,7 +437,9 @@
    "foot_find": "Trova",
    "foot_newsroom": "La redazione",
    "foot_read": "Leggi",
-   "foot_agents": "Per gli agenti"
+   "foot_agents": "Per gli agenti",
+   "credit_free": "Lettura gratuita.",
+   "credit_how": "Come funziona il credito di lettura"
   },
   "nl-NL": {
    "now": "Nu",
@@ -439,7 +463,9 @@
    "foot_find": "Vinden",
    "foot_newsroom": "De redactie",
    "foot_read": "Lezen",
-   "foot_agents": "Voor agents"
+   "foot_agents": "Voor agents",
+   "credit_free": "Gratis te lezen.",
+   "credit_how": "Zo werkt het leestegoed"
   },
   "pl-PL": {
    "now": "Teraz",
@@ -463,7 +489,9 @@
    "foot_find": "Znajdź",
    "foot_newsroom": "Redakcja",
    "foot_read": "Czytaj",
-   "foot_agents": "Dla agentów"
+   "foot_agents": "Dla agentów",
+   "credit_free": "Czytasz za darmo.",
+   "credit_how": "Jak działa kredyt na czytanie"
   },
   "hr-HR": {
    "now": "Sada",
@@ -487,7 +515,9 @@
    "foot_find": "Pronađi",
    "foot_newsroom": "Redakcija",
    "foot_read": "Čitaj",
-   "foot_agents": "Za agente"
+   "foot_agents": "Za agente",
+   "credit_free": "Besplatno čitanje.",
+   "credit_how": "Kako funkcionira kredit za čitanje"
   },
   "ro-RO": {
    "now": "Acum",
@@ -511,7 +541,9 @@
    "foot_find": "Găsește",
    "foot_newsroom": "Redacția",
    "foot_read": "Citește",
-   "foot_agents": "Pentru agenți"
+   "foot_agents": "Pentru agenți",
+   "credit_free": "Lectură gratuită.",
+   "credit_how": "Cum funcționează creditul de lectură"
   },
   "zh-Hans": {
    "now": "现在",
@@ -535,7 +567,9 @@
    "foot_find": "查找",
    "foot_newsroom": "编辑部",
    "foot_read": "阅读",
-   "foot_agents": "面向智能体"
+   "foot_agents": "面向智能体",
+   "credit_free": "免费阅读。",
+   "credit_how": "阅读额度如何运作"
   },
   "ja-JP": {
    "now": "今",
@@ -559,7 +593,9 @@
    "foot_find": "探す",
    "foot_newsroom": "編集部",
    "foot_read": "読む",
-   "foot_agents": "エージェント向け"
+   "foot_agents": "エージェント向け",
+   "credit_free": "無料で読めます。",
+   "credit_how": "読書クレジットの仕組み"
   },
   "ko-KR": {
    "now": "지금",
@@ -583,7 +619,9 @@
    "foot_find": "찾기",
    "foot_newsroom": "편집국",
    "foot_read": "읽기",
-   "foot_agents": "에이전트용"
+   "foot_agents": "에이전트용",
+   "credit_free": "무료로 읽을 수 있습니다.",
+   "credit_how": "읽기 크레딧 안내"
   },
   "hi-IN": {
    "now": "अभी",
@@ -607,7 +645,9 @@
    "foot_find": "खोजें",
    "foot_newsroom": "न्यूज़रूम",
    "foot_read": "पढ़ें",
-   "foot_agents": "एजेंटों के लिए"
+   "foot_agents": "एजेंटों के लिए",
+   "credit_free": "पढ़ना मुफ़्त है।",
+   "credit_how": "पढ़ने का क्रेडिट कैसे काम करता है"
   },
   "ar": {
    "now": "الآن",
@@ -631,7 +671,9 @@
    "foot_find": "ابحث",
    "foot_newsroom": "غرفة الأخبار",
    "foot_read": "اقرأ",
-   "foot_agents": "للوكلاء"
+   "foot_agents": "للوكلاء",
+   "credit_free": "القراءة مجانية.",
+   "credit_how": "كيف يعمل رصيد القراءة"
   }
  }
 }

@@ -5,14 +5,13 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "06:48 wake: S54 published under R-PUB-1 and checked live; designer@PrompTugal.dinis sent four layout notes for the storm page (board/spec-the-storm-page-e.md)",
+  "done": "07:48 wake: sent dev@ Vicky's stale home-page request; S55 commissioned (TikTok DSA finding); no new releases",
   "next": [
+    "dev@PrompTugal.vicky diagnosing the stale home-page copy (sent 07:50 UTC 11 Nov); report to Vicky",
     "Categories: acks from checker, programme, Dinis's and other desks; card labels on the articles page if Vicky agrees",
-    "TOMORROW MORNING (first :48 wake from 07:48 UTC, 11 Nov): send dev@PrompTugal.vicky Vicky's request (10 Nov ~22:40 UTC): diagnose why an old saved copy of the home page (about 14:40) showed before the live one in her browser tonight; diagnosis and a proposed fix only; the offline/service-worker files are dev@PrompTugal.dinis's under security@'s rule, so any fix goes to that desk; report to Vicky",
     "S45 draft to the reviewer, then Vicky's approval",
     "S44: journalist@PrompTugal.dinis's answer",
-    "the satellite loop: frames from our origin needs Dinis (an automation)",
-    "22:48 wake"
+    "the satellite loop: frames from our origin needs Dinis (an automation)"
   ],
   "asks": [
     "Vicky: S52 (reviewer window); storm page layout notes (dev window); category rules (checker, programme windows)"
