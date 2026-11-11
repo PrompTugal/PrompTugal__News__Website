@@ -1,0 +1,72 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-11T20:25Z",
+  "batch": "THU-GUIDE",
+  "for": "journalist (summit desk), writing from 20:40 UTC; reviewer publishes under R-PUB-1 from 21:25",
+  "covers": {
+    "wake": "One-off wake THU-GUIDE (Vicky's word, 11 Nov about 20:12 UTC; standing answer 40, the conductor's commit 8c1cea1a). Nothing else commissioned.",
+    "overlap_checked": "Published articles and every desk's drafts on 11 Nov, 20:25 UTC: S41 and the red-wind-warning article cover the storm itself; S51 and 'getting around Lisbon on Wednesday' cover Wednesday's travel; S44 is the update note to the Wednesday guide; S54 covers Thursday's Centre Stage breakout startups; S45 covers refunds. None is a practical guide to Thursday."
+  },
+  "rules": "RULES-11NOV applies: nobody reads websummit.com by machine; Web Summit's facts below are Vicky's own browser read, attributed to Web Summit; no Luma, Meetup or Eventbrite by machine; lisbontechfringe.com is a pointer only.",
+  "captures": [
+    {
+      "id": "x-web-summit-thursday-facts",
+      "file": "Vicky's own browser read of Web Summit's website at 20:15 UTC on 11 November 2026 (RULES-11NOV rule 4, a person's browser check); her source text is not committed; not a vault capture and not a machine read",
+      "source_url": "https://websummit.com/schedule/",
+      "beat": "The summit",
+      "names": [
+        "Web Summit"
+      ],
+      "what_is_new": "Web Summit's changes for Thursday 12 November, as Vicky read them: stage talks run 09:00 to 17:30 on Thursday, through lunch; talks from Wednesday move to Thursday, with more than 100 of those speakers; 65 community and partner meetups move to Thursday, over 125 meetups in total; the app and the online schedule will show the new times by Thursday morning.",
+      "is_story": true,
+      "group": "THU-GUIDE"
+    }
+  ],
+  "groups": {
+    "THU-GUIDE": [
+      "x-web-summit-thursday-facts"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "S41, S51, S44, S54, S45",
+      "verdict": "linked, not repeated",
+      "why": "They cover the storm, Wednesday's travel, the Day 2 update, Thursday's breakout startups and refunds; the new guide is what the last day looks like."
+    }
+  ],
+  "story_candidates": [
+    {
+      "id": "S58",
+      "kind": "summit",
+      "batch": "THU-GUIDE",
+      "title": "Thursday at Web Summit: a practical guide to the last day",
+      "beat": "The summit",
+      "categories": [
+        "Web Summit 2026"
+      ],
+      "angle": "A practical guide for attendees, and for anyone following from afar, to the last summit day after Wednesday's cancellation: what Web Summit says has changed (stage talks 09:00 to 17:30 through lunch; Wednesday's talks moved to Thursday, with more than 100 of those speakers; 65 community and partner meetups moved, over 125 in total; the app and online schedule to show the new times by Thursday morning), plus Lisbon's weather, how to get there, whether the storm alert has ended, and which side events are on, each checked at its own source.",
+      "rests_on": [
+        "x-web-summit-thursday-facts"
+      ],
+      "ready": true,
+      "note": "For journalist (summit desk). Ready; time-sensitive: write tonight (20:40), the reviewer checks and publishes from 21:25. Category 'Web Summit 2026' (send the category line with the draft as before). Conditions: (a) The Web Summit facts are Web Summit's, as Vicky read them on websummit.com in her own browser at 20:15 UTC on 11 Nov: attribute each to Web Summit, do not quote Web Summit or its email at length, never read websummit.com by machine, link to Web Summit's schedule page (https://websummit.com/schedule/) instead of copying the schedule, and tell readers the app and online schedule are the place to check times. (b) Check at their own sources, each with its read time: IPMA's outlook for Lisbon on Thursday (IPMA's own data or pages); transport from the operators' own pages or posts (Metro de Lisboa, Carris, CP and others as relevant), saying what each says and when you read it; the end of the alert from the government's or ANEPC's own pages; side events on Thursday using lisbontechfringe.com only as a pointer, each checked at its organiser's own page, and never Luma, Meetup or Eventbrite by machine (an event whose only page is on one of those is left out unless a person has read it). Say what you could not confirm. Link S41, S51, S44 and S54; do not repeat the storm story or the refunds. No contact details, no names of attendees or hosts, no unsupported inference stated as fact; confirmed facts and unknowns apart.",
+      "words": "350 to 550"
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S58",
+      "what": "The four Web Summit facts rest on Vicky's browser read at 20:15 UTC, attributed to Web Summit; the journalist cannot re-read them by machine. Every other fact is checked at its own source with a read time."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S37 to S40",
+      "change": "Published on 10 November; the README's ready list had still shown them, now corrected."
+    }
+  ],
+  "gaps_for_the_researcher": [],
+  "urgent": "None"
+}
