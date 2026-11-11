@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1107",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: article categories: the articles and lists filters show the curator's eight main categories; gate check; bracket-safe tags",
+    "by": "dev@PrompTugal.vicky",
+    "from": "af1ca0ecd"
+  },
+  {
     "version": "v0.1.1106",
     "date": "2026-11-10",
     "what": "conductor.B@PrompTugal.vicky: categories rollout: journalist-ai and reviewer acknowledgements confirmed",
