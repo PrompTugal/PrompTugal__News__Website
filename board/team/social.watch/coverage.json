@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T06:54Z",
+  "updated": "2026-11-11T07:51Z",
   "sweeps": [
     {
       "n": 1,
@@ -81,6 +81,15 @@
       ],
       "items": 6,
       "note": "Storm day; social added nothing usable (an off-topic private post and a 2023 video dropped); OpenRouter out of credit"
+    },
+    {
+      "n": 8,
+      "at": "2026-11-11T07:51Z",
+      "families": [
+        "my own check: IPMA, Web Summit's blog, Mastodon, CNN Portugal's live blog, the team's commits"
+      ],
+      "items": 0,
+      "updated": 1
     }
   ],
   "items": [
@@ -143,7 +152,7 @@
       "kind": "article",
       "title": "Mau tempo AO MINUTO | Governo declara situação de alerta: escolas e serviços públicos não essenciais encerrados",
       "quote": null,
-      "published": "2026-11-10T17:49",
+      "published": "2026-11-11T07:25",
       "topics": [
         "storm",
         "Portugal",
@@ -156,7 +165,7 @@
       ],
       "storm_signal": true,
       "verified": true,
-      "note": "Entry 17:49: government recommends the organisers suspend activities on Wednesday due to storm Charles; PM: the decision is theirs. Page last update seen 18:42.",
+      "note": "Entry 17:49: government recommends the organisers suspend activities on Wednesday due to storm Charles; PM: the decision is theirs. Page last update seen 18:42. | Re-read 07:51: 07:24, about ten cars partly submerged in Parque das Nações (the venue's district).",
       "family": "news and blogs",
       "found": "2026-11-10T18:48Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 1)"
