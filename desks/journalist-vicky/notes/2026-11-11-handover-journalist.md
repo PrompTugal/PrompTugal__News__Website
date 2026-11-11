@@ -20,3 +20,4 @@ Yesterday's note, with every check and draft of 10 November: `2026-11-10-handove
 Pull dev; holds; "New from Dinis"; the curator's newest map; reviews for this desk; then the S41 watch.
 - S41 checked 01:06 UTC, no change. S47 (curator's LEADS-11NOV, from this desk's lead): update note with Web Summit's final 2026 figures for 'Web Summit 2026 in numbers', drafted and handed to the reviewer; placing it needs Vicky's approval.
 - S41 checked 02:06 UTC, no change. S47 published by the reviewer (01:15). Curator's request (operators' notices): Carris and Fertagus logged as leads at 02:07 UTC.
+- S41 checked 03:06 UTC, no change. S51 (getting around Lisbon on Wednesday; curator's LEADS-11NOV-3, from this desk's leads): drafted and handed to the reviewer; Carris, Fertagus and the government's declaration re-read at 03:06 UTC.

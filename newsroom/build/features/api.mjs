@@ -149,7 +149,10 @@ export function validate(gate) {
     }
     for (const g of [...gate.generated].filter(p => p.startsWith('api/v1/') && p !== 'api/v1/manifest.json')) if (!manifest.files.some(f => f.path === g)) errors.push(`manifest does not list ${g}`)
     // every entity that has a page in the ontology has its page and its API file
-    for (const t of ont.types.filter(t => t.page && t.id !== 'article')) for (const n of whole.nodes.filter(n => n.type === t.id)) {
+    // (a type shown as a section of another page, like a product on its company's page, needs that page, not one of its own)
+    for (const t of ont.types.filter(t => t.page && t.page.includes('#'))) for (const n of whole.nodes.filter(n => n.type === t.id))
+        if (!n.page || !gate.generated.has(n.page.split('#')[0])) errors.push(`${n.id} has no page to be shown on (${n.page || t.page})`)
+    for (const t of ont.types.filter(t => t.page && t.id !== 'article' && !t.page.includes('#'))) for (const n of whole.nodes.filter(n => n.type === t.id)) {
         const slug = n.id.slice(t.id.length + 1)
         if (!gate.generated.has(t.page.replace('{slug}', slug))) errors.push(`${n.id} has no page (${t.page.replace('{slug}', slug)})`)
         if (!gate.generated.has(`api/v1/${PLURAL[t.id]}/${slug}.json`)) errors.push(`${n.id} has no API file`)

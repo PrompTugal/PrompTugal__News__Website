@@ -146,3 +146,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 00:21 wake (11 November)
 - Inbox: dev@ (active): tags by id/name/alias live, 4 -> 9 edges. 19 cards: ours all reach their pages. Reminded dev@ of products.
+
+## 02:21 wake
+- Container restarted; state intact. Inbox: dev@ (active): products live. Checked; asked for the source URL on product nodes and edges.

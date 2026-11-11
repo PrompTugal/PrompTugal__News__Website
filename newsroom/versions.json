@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.1138",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "2001d6d3c"
+  },
+  {
+    "version": "v0.1.1137",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "8ea47c8ff"
+  },
+  {
+    "version": "v0.1.1136",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 02:48 wake: S49 checked live; discovery 6 commissions, 3 live",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "4d69d716f"
+  },
+  {
+    "version": "v0.1.1135",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "e72e1dc10"
+  },
+  {
+    "version": "v0.1.1134",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 checked at 02:34 UTC, no change, time moved",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "1dc265a23"
+  },
+  {
+    "version": "v0.1.1133",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: the products are live in the graph; one source refinement asked",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ebfe5bffc"
+  },
+  {
+    "version": "v0.1.1132",
+    "date": "2026-11-11",
+    "what": "journalist-portugal@PrompTugal.vicky: run report",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "5c6550c04"
+  },
+  {
+    "version": "v0.1.1131",
+    "date": "2026-11-11",
+    "what": "journalist-connections@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "1ec1afcc8"
+  },
+  {
     "version": "v0.1.1130",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: S41 checked 02:06 UTC, no change; Carris and Fertagus notices logged as leads (curator's request); run report",

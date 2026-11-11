@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420" role="img" aria-label="Manus 2.0 in five parts, as Manus describes them"><style>
+.bg{fill:#f6f3ec}.ink{fill:#121317}.ink2{fill:#3f424a}.ink3{fill:#595c64}.box{fill:#ece7db;stroke:#9d9580}.acc{fill:#006600}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){.bg{fill:#111214}.ink{fill:#eceae4}.ink2{fill:#c3c0b7}.ink3{fill:#a6a39a}.box{fill:#1a1b1e;stroke:#5f5b51}.acc{fill:#6dbb7e}}</style>
+<rect class="bg" width="420" height="420"/>
+<text class="ink" x="14" y="30" font-size="19" font-weight="700">Manus 2.0, in five parts</text>
+<text class="ink3" x="14" y="50" font-size="16">As Manus describes its release (28 September)</text>
+<rect class="box" x="14" y="66" width="392" height="58" rx="7"/><rect class="acc" x="14" y="66" width="6" height="58" rx="2"/>
+<text class="ink" x="30" y="89" font-size="16" font-weight="700">Cascade</text><text class="ink2" x="30" y="110" font-size="16">its new in-house agent harness</text>
+<rect class="box" x="14" y="132" width="392" height="58" rx="7"/><rect class="acc" x="14" y="132" width="6" height="58" rx="2"/>
+<text class="ink" x="30" y="155" font-size="16" font-weight="700">Automations</text><text class="ink2" x="30" y="176" font-size="16">tasks that start when something happens</text>
+<rect class="box" x="14" y="198" width="392" height="58" rx="7"/><rect class="acc" x="14" y="198" width="6" height="58" rx="2"/>
+<text class="ink" x="30" y="221" font-size="16" font-weight="700">Cloud Computer</text><text class="ink2" x="30" y="242" font-size="16">a machine of its own for a project, bought</text>
+<rect class="box" x="14" y="264" width="392" height="58" rx="7"/><rect class="acc" x="14" y="264" width="6" height="58" rx="2"/>
+<text class="ink" x="30" y="287" font-size="16" font-weight="700">Manus Studio</text><text class="ink2" x="30" y="308" font-size="16">the desktop app, with video and game tools</text>
+<rect class="box" x="14" y="330" width="392" height="58" rx="7"/><rect class="acc" x="14" y="330" width="6" height="58" rx="2"/>
+<text class="ink" x="30" y="353" font-size="16" font-weight="700">Cue</text><text class="ink2" x="30" y="374" font-size="16">agents with their own email, phone, wallet</text>
+<text class="ink3" x="14" y="408" font-size="16">Source: manus.im, read 11 Nov 2026</text>
+</svg>

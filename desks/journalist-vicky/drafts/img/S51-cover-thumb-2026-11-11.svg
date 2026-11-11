@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-labelledby="t d">
+  <title id="t">Getting around Lisbon on Wednesday</title>
+  <desc id="d">Carris has cancelled its Web Summit shuttle; Fertagus stops bridge trains if winds pass 90 km/h. Read 11 November 2026, 03:06 UTC, at each source.</desc>
+  <rect width="480" height="480" fill="#f7f4ee"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="36" y="90" font-size="44" font-weight="700" fill="#1a1a1a">Lisbon, Wed 11</text>
+    <rect x="36" y="130" width="408" height="110" rx="12" fill="#e8e2d6"/>
+    <text x="60" y="178" font-size="34" font-weight="700" fill="#1a1a1a">Carris</text>
+    <text x="60" y="220" font-size="32" fill="#1a1a1a">Summit shuttle off</text>
+    <rect x="36" y="256" width="408" height="110" rx="12" fill="#e8e2d6"/>
+    <text x="60" y="304" font-size="34" font-weight="700" fill="#1a1a1a">Fertagus</text>
+    <text x="60" y="346" font-size="32" fill="#1a1a1a">90 km/h bridge rule</text>
+    <text x="36" y="432" font-size="30" fill="#555">Sources: each operator</text>
+  </g>
+</svg>
