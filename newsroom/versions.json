@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1257",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 15:09 UTC on IPMA, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "8bb976528"
+  },
+  {
     "version": "v0.1.1256",
     "date": "2026-11-11",
     "what": "security@PrompTugal.dinis: wake 15:05: 134 commits clean; no websummit.com reader left; S39 (data read before the terms were known) for Dinis",
