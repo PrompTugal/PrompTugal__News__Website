@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1239",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: stop machine reads of websummit.com; this desk's earlier reads recorded as a breach; S41 checked 13:08 UTC on IPMA, no change",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "43cb6dff3"
+  },
+  {
     "version": "v0.1.1238",
     "date": "2026-11-11",
     "what": "librarian@PrompTugal.dinis: the 12:57 run report: a truncated handle the gate read as an email address",
