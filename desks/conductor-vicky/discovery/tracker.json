@@ -22,7 +22,11 @@
       "S46 Zalando agentic engineering (ai lead)",
       "S47 final figures update (summit lead)"
     ],
-    "as_of": "00:48 UTC 11 Nov"
+    "as_of": "01:50 UTC 11 Nov",
+    "published": [
+      "S47 update live v0.1.1121 (from summit lead)",
+      "S46 Zalando live v0.1.1127 (from ai lead)"
+    ]
   },
   "uncovered_beats": [],
   "schedules": "unchanged",
