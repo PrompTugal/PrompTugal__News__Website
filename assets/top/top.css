@@ -116,3 +116,11 @@ main .body h2:not([class]) { border-top: 3px solid var(--ink); padding-top: 8px;
 main .kicker, main .eyebrow { font: 700 12px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--brand-red); }
 /* T3: the TestFlight line on one line on a phone (designer@, 10 November: two lines made the top 247 px) */
 @media (max-width: 599px) { .getapp a { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }
+/* the language picker of the site's menus (assets/i18n/site-i18n.js) */
+.em-lang { gap: 5px; font-family: var(--mono); }
+.em-langs { position: absolute; right: max(10px, calc((100vw - var(--page)) / 2 + var(--gutter))); z-index: 70; width: min(280px, calc(100vw - 20px)); max-height: 70vh; overflow-y: auto; background: var(--panel); color: var(--ink); border: 1px solid var(--rule-2); border-radius: 8px; box-shadow: var(--shadow); padding: 6px; }
+.em-langs[hidden] { display: none; }
+.em-langs button { display: block; width: 100%; text-align: start; font: 15px var(--sans); padding: 9px 10px; border: 0; background: none; color: inherit; border-radius: 4px; cursor: pointer; }
+.em-langs button:hover, .em-langs button.on { background: var(--paper); } .em-langs button.on, .em-langs .em-lang-back { font-weight: 600; }
+.em-langs .em-lang-back { border-bottom: 1px solid var(--rule); border-radius: 0; margin-bottom: 4px; }
+.em-i18n-note { margin: 0 0 4px; font: italic 12.5px var(--sans); color: var(--ink-3); text-align: center; }

@@ -10,8 +10,8 @@
     "journalist-connections@PrompTugal.vicky": "ack 00:27: desks/journalist-vicky/notes/journalist-connections-rules.md"
   },
   "usefulness": {
-    "leads_logged": 8,
-    "commissioned": 6,
+    "leads_logged": 13,
+    "commissioned": 8,
     "held": 0,
     "dropped": 0,
     "by_desk": {
@@ -27,9 +27,10 @@
       "S48 Manus 2.0 (connections) drafted",
       "S49 EU sessions update (europe) live",
       "S50 EN 18286 (europe) drafted",
-      "S52 Konecta (portugal)"
+      "S52 Konecta (portugal)",
+      "S53 DSA election guidelines consultation (europe)"
     ],
-    "as_of": "03:50 UTC 11 Nov",
+    "as_of": "04:50 UTC 11 Nov",
     "published": [
       "S47",
       "S46",

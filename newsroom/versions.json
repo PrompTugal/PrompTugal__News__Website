@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.1158",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 05:05 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "b091c0d3a"
+  },
+  {
+    "version": "v0.1.1157",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 04:48 wake: discovery steady, S53 commissioned; S52 waits on Vicky",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "0cb3d3a2a"
+  },
+  {
+    "version": "v0.1.1156",
+    "date": "2026-11-11",
+    "what": "programme@PrompTugal.vicky: daily hand-over debrief for 11 November; agenda unchanged",
+    "by": "programme@PrompTugal.vicky",
+    "from": "5854d915b"
+  },
+  {
+    "version": "v0.1.1155",
+    "date": "2026-11-11",
+    "what": "correspondent@PrompTugal.dinis: wake 04:41: getting around Lisbon and Manus 2.0 to the top three",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "a4f7ee182"
+  },
+  {
+    "version": "v0.1.1154",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (04:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "2c9c08650"
+  },
+  {
+    "version": "v0.1.1153",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: product sources confirmed; nothing else open but Dinis's asks",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "2abfe83df"
+  },
+  {
+    "version": "v0.1.1152",
+    "date": "2026-11-11",
+    "what": "journalist-portugal@PrompTugal.vicky: run report",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "18129e635"
+  },
+  {
+    "version": "v0.1.1151",
+    "date": "2026-11-11",
+    "what": "journalist-connections@PrompTugal.vicky: lead for the curator: four startups in Thursday's Centre Stage 'Breakout startups'",
+    "by": "journalist-connections@PrompTugal.vicky",
+    "from": "4a33e283b"
+  },
+  {
     "version": "v0.1.1150",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: S41 checked 04:05 UTC, no change; run report",

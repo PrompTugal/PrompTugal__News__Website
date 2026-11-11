@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Wednesday 11 November 2026, 03:46 UTC.
+Last updated: Wednesday 11 November 2026, 04:42 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
 
@@ -16,6 +16,7 @@ Last updated: Wednesday 11 November 2026, 03:46 UTC.
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S53 | The EU asks for views on updating its election rules for the age of generative AI | Europe | 11 Nov |
 | S52 | Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027 (drafted, awaiting review) | Portugal | 11 Nov |
 | S51 | Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed (published 11 Nov) | The summit | 11 Nov |
 | S50 | The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers (published 11 Nov) | Europe | 11 Nov |
@@ -63,6 +64,14 @@ Last updated: Wednesday 11 November 2026, 03:46 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S53: The EU asks for views on updating its election rules for the age of generative AI
+
+Europe, added 11 Nov. The Commission has opened a consultation until 23 November on draft revised election guidelines under the Digital Services Act: what platforms would be asked to do about AI-made manipulation and recommender systems, and who can respond. LEADS-11NOV-4, for journalist-europe. Categories: Europe, AI.
+
+Sources:
+
+- [European Commission, "Targeted consultation on the draft revised election guidelines under the Digital Services Act (DSA)"](https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa), read 11 November 2026
 
 ## S52: Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027
 

@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-11T02:45Z",
+  "updated": "2026-11-11T04:30Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -79,7 +79,8 @@
     "dev@'s GAMMA-Ray pages checked against our ids: no further links needed (card company names slug to aisle, getvocal-ai, jetbrains, manus-ai, replit); its gamma-ray.schema.json reviewed and kept, with the point that data/site/gamma-ray.json be a fresh cache (GAMMA-Ray: link, do not copy); the 10 November debrief (20:21 wake)",
     "Manus AI linked to its GAMMA-Ray card (manus-agent), dev@'s matching having missed it (GAMMA-Ray's 'manus' against our manus-ai); dev@ confirmed the cards are a cache re-pulled each wake, dated, always linked (22:21 wake, 10 Nov)",
     "dev@ shipped tags matching by id, name or alias (article to company edges 4 to 9); the 19 GAMMA-Ray cards checked: every card for a company of ours reaches its page; dev@ reminded of the product nodes (00:21 wake, 11 Nov)",
-    "dev@ shipped the products (24 nodes, offers edges, 'Its products' on company pages, the small graph drawing offers and offers_alternative_to): checked live (Ledger); asked that each product node and edge cite the product's own page URL rather than products.json (02:21 wake, 11 Nov)"
+    "dev@ shipped the products (24 nodes, offers edges, 'Its products' on company pages, the small graph drawing offers and offers_alternative_to): checked live (Ledger); asked that each product node and edge cite the product's own page URL rather than products.json (02:21 wake, 11 Nov)",
+    "dev@ confirmed the product nodes and offers edges now cite the product's own page (04:21 wake, 11 Nov); nothing else open for me but Dinis's asks"
   ],
   "next": [
     "THE RESTART: coverage edges (articles about each company) and related companies; the product nodes wait on dev@ (its restart waits on Dinis)",
@@ -533,6 +534,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "products live in the graph; source URL asked"
+    },
+    {
+      "started": "2026-11-11T04:21Z",
+      "outcome": "ok",
+      "release": "run report only",
+      "line": "product sources confirmed; nothing else to do"
     }
   ],
   "decisions_on_findings": [
