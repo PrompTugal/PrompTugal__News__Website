@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1165",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S53 title under 12 words (the gate)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "e76a84fde"
+  },
+  {
     "version": "v0.1.1164",
     "date": "2026-11-11",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
