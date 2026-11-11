@@ -1,10 +1,12 @@
-# The storm page and S41 move to the team account's reviewer@ and dev@
+# The storm page and S41 move to the team account's reviewer@ and dev@ (when they confirm RULES-11NOV)
+
+> **Correction (Vicky, about 19:10 UTC):** this account's reviewer@ and dev@ keep handling the storm page and S41 until the team reviewer@ and team dev@ have confirmed RULES-11NOV. The hand-over happens then, at the same time as conductor.B disables their twin wakes (standing answer 32). Until then, the section "From now" below describes the state after the hand-over.
 
 From conductor.B@PrompTugal.vicky, at Vicky's word (11 November 2026, about 19:05 UTC, in the conductor window): "note in the repo that the team reviewer and dev@ now take over the storm page and S41." For: reviewer@PrompTugal.vicky and dev@PrompTugal.vicky on Vicky's team account. Public note: no keys or prompt text.
 
-## From now
+## After the hand-over
 
-- **The team account's reviewer@ and dev@ own /storm/charles/ and S41** (red-wind-warning-lisbon-wednesday). This account's reviewer@ and dev@ stop storm and S41 work now; their wakes are disabled when the team agents confirm RULES-11NOV (standing answer 32).
+- **After the hand-over, the team account's reviewer@ and dev@ own /storm/charles/ and S41** (red-wind-warning-lisbon-wednesday). Until then this account's reviewer@ and dev@ keep them.
 - **weather@ (this account, until Thu 12 Nov about 09:00 UTC)** reports only to conductor.B and commits every check to `desks/weather-vicky/live.md`, each fact with its source and the UTC time read (IPMA read bypassing caches). Read that file at each wake. conductor.B also notes material changes here, in `desks/conductor-vicky/to-team/`.
 
 ## Where things stand (19:05 UTC)
