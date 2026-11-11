@@ -28,14 +28,17 @@ flowchart LR
   A26["designer@PrompTugal.dinis"]
   A27["social.watch@PrompTugal.dinis"]
   A28["attendees"]
+  A29["journalist@PrompTugal.dinis"]
+  A30["the newsroom's pipeline"]
+  A31["writer@PrompTugal.jose"]
   A0 -->|1| A1
-  A2 -->|3| A3
-  A3 -->|1| A4
-  A4 -->|6| A5
+  A2 -->|4| A3
+  A3 -->|2| A4
+  A4 -->|8| A5
   A6 -->|3| A7
   A8 ==>|2| A7
   A7 -->|3| A9
-  A9 -->|9| A4
+  A9 -->|12| A4
   A9 -->|1| A2
   A9 -->|4| A7
   A9 ==>|1| A10
@@ -45,7 +48,7 @@ flowchart LR
   A7 -->|2| A13
   A7 -->|3| A14
   A6 -->|3| A15
-  A12 ==>|2| A7
+  A12 ==>|4| A7
   A6 -->|1| A16
   A6 -->|1| A17
   A7 -->|1| A4
@@ -56,7 +59,7 @@ flowchart LR
   A14 -->|1| A13
   A20 -->|1| A21
   A17 -->|1| A22
-  A4 ==>|2| A12
+  A4 ==>|3| A12
   A18 -->|1| A16
   A18 -->|1| A17
   A18 -->|1| A9
@@ -66,11 +69,11 @@ flowchart LR
   A7 -->|2| A25
   A7 -->|2| A26
   A8 ==>|1| A6
-  A4 -->|1| A14
+  A4 -->|3| A14
   A13 ==>|1| A8
   A27 -->|3| A6
   A27 -->|2| A18
-  A14 -->|1| A4
+  A14 -->|4| A4
   A4 -->|1| A13
   A6 -->|2| A18
   A21 -->|1| A28
@@ -81,3 +84,9 @@ flowchart LR
   A6 -->|1| A14
   A6 -->|1| A24
   A14 -->|1| A24
+  A4 -->|1| A29
+  A17 -->|1| A30
+  A12 ==>|1| A4
+  A13 -->|1| A5
+  A31 -->|1| A9
+  A31 -->|1| A4

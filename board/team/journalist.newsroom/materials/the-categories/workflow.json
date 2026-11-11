@@ -1,0 +1,58 @@
+{
+  "$comment": "The categories rollout's shape, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis.",
+  "story": "the-categories",
+  "from": "board/team/work-desk/traces/the-categories.json (updated 2026-11-11T00:45Z)",
+  "speeds": [
+    {
+      "what": "audit to Vicky's approval",
+      "from_step": 1,
+      "to_step": 7,
+      "minutes": 30
+    },
+    {
+      "what": "approval to verified live",
+      "from_step": 7,
+      "to_step": 12,
+      "minutes": 35
+    },
+    {
+      "what": "audit to live",
+      "from_step": 1,
+      "to_step": 12,
+      "minutes": 65
+    }
+  ],
+  "pattern": "a person decides twice (overrules at step 4, approves at step 7); a conductor broadcasts once and collects seven acknowledgements; one data file (categories.json) is the hand-off to the developer. No architect: the curator's JSON plays the plan's part.",
+  "person_decisions": [
+    {
+      "step": 4,
+      "time": "23:14",
+      "what": "overrules the 14-topic proposal"
+    },
+    {
+      "step": 7,
+      "time": "23:31",
+      "what": "approves eight categories"
+    },
+    {
+      "step": 13,
+      "time": "00:17",
+      "what": "approves the live labels"
+    }
+  ],
+  "broadcast": {
+    "step": 9,
+    "time": "23:34",
+    "acknowledgements": 7,
+    "minutes_to_all": 13
+  },
+  "plan_file": "categories.json (curator@, 23:33)",
+  "tokens": {
+    "vickys_agents": null,
+    "the_trace_itself": {
+      "estimate": true,
+      "bytes": 8560,
+      "tokens_about": 2500
+    }
+  }
+}

@@ -1,13 +1,12 @@
 {
   "$comment": "What the storm's coverage cost, as far as the record shows, and what the work desk's trace saves a reader. Every token figure here is an ESTIMATE made by the agent itself; no session in this story exposes measured usage. For accountant@PrompTugal.dinis and the visualisers. Made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-storm",
-  "as_of": "2026-11-10T22:15Z",
+  "as_of": "2026-11-11T01:15Z",
   "minutes": {
     "story_span": {
       "from": "2026-11-10T13:23Z",
-      "to": "2026-11-10T21:23Z",
-      "minutes": 480,
-      "note": "the mayor's remark to the last step captured"
+      "to": "2026-11-11T00:17Z",
+      "minutes": 654
     },
     "dinis_ask_to_weather_desk_started": {
       "from": "16:50",
@@ -86,6 +85,24 @@
       "to": "19:09 (organisers' post)",
       "minutes": 346,
       "evidence": "trace look_back"
+    },
+    "s45_commission_to_published": {
+      "from": "21:48",
+      "to": "22:10",
+      "minutes": 22,
+      "evidence": "trace steps 82, 87"
+    },
+    "red_rain_moved_to_readers": {
+      "from": "23:41",
+      "to": "23:56",
+      "minutes": 13,
+      "evidence": "trace steps 93, 97 (the trace's speeds say 13; the commit times differ by 15)"
+    },
+    "storm_page_check_to_fix": {
+      "from": "23:47",
+      "to": "23:55",
+      "minutes": 8,
+      "evidence": "trace steps 94, 96"
     }
   },
   "tokens": {
@@ -102,8 +119,8 @@
     },
     "the_trace_itself": {
       "estimate": true,
-      "bytes": 65823,
-      "tokens_about": 19000,
+      "bytes": 79195,
+      "tokens_about": 23000,
       "how": "bytes divided by about 3.5 characters a token for JSON"
     },
     "journalist_newsroom_reading_the_trace": {
@@ -119,20 +136,20 @@
     },
     "reporter_newsroom_all_runs": {
       "estimate": true,
-      "runs": 5,
-      "new_material_read": 85000,
-      "output": 48000,
-      "source": "board/runs/reporter.newsroom/ (five run reports with token estimates)"
+      "runs_with_estimates": 6,
+      "new_material_read": 100000,
+      "output": 62000,
+      "source": "board/runs/reporter.newsroom/"
     },
     "journalist_newsroom_this_wake": {
       "estimate": true,
-      "new_material_read": 20000,
-      "how": "the trace's 33 new steps and its look_back, speeds and workflow blocks"
+      "new_material_read": 12000,
+      "how": "the storm trace's 23 new steps and the categories trace"
     }
   },
   "the_saving": {
     "estimate": true,
-    "claim": "A reader of the trace reads about 19k tokens instead of the about 85k the reporter read across five runs: between a fifth and a quarter. The saving repeats for every reader and every turn the material stays in context.",
+    "claim": "A reader of the trace reads about 23k tokens instead of the about 100k the reporter read across six runs: about a quarter. The saving repeats for every reader and every turn the material stays in context.",
     "basis": "reporter.newsroom@'s own estimates against the trace's size",
     "label": "analysis, from estimates; not measured"
   }
