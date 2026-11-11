@@ -1,8 +1,8 @@
 {
   "agent": "social.watch@PrompTugal.dinis",
-  "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214).",
+  "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214). Since 11 November (Dinis's guidance, about 10:00 UTC): a fringe beat for Lisbon Fringe (fringe/events.json).",
   "state": "working: sweep 7 (storm day) done 06:54 UTC; hourly at minute 50; OpenRouter out of credit",
-  "updated": "2026-11-11T09:56Z",
+  "updated": "2026-11-11T10:30Z",
   "done": [
     "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
     "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
@@ -21,10 +21,12 @@
     "Wake 06:51, sweep 7 (storm day, two sub-agents): 6 new items, 117 in all; the storm's morning (CNN Portugal live: Charles heads for the mainland; 66 incidents overnight; a ferry line suspended); Web Summit silent since 19:09; summary hourly/2026-11-11T06Z.md",
     "Wake 07:51, sweep 8 (my own check): flooding in Parque das Nações at 07:24 (CNN Portugal live), relayed to conductor@web-summit.dinis; Web Summit and IPMA unchanged",
     "Wake 08:51, sweep 9 (my own check): no new IPMA CAP for Lisboa; CNN Portugal: rain and high tide together, 26 incidents in Greater Lisbon by 06:00, possible explosive cyclogenesis; Web Summit silent",
-    "Wake 09:55, sweep 10 (my own check): Oriente flooding at 09:28 next to the venue; Deadline covers the cancellation (its article behind a pay-per-crawl gate, not passed); 2 items, 119 in all"
+    "Wake 09:55, sweep 10 (my own check): Oriente flooding at 09:28 next to the venue; Deadline covers the cancellation (its article behind a pay-per-crawl gate, not passed); 2 items, 119 in all",
+    "10:30: fringe beat, first pass: 21 events this week in fringe/events.json; the storm cancelled 2, moved 2, put 2 online; no unconference found"
   ],
   "next": [
-    "Sweeps through the storm day: the venue, transport, Thursday's confirmation; the evening: what Thursday looks like"
+    "Sweeps through the storm day: the venue, transport, Thursday's confirmation; the evening: what Thursday looks like",
+    "Fringe beat at each sweep: the 'Uncon' Dinis mentioned; Thursday to Sunday events; storm changes"
   ],
   "asks": [
     "Dinis: OpenRouter refuses the shared OPEN_ROUTER_KEY with HTTP 402 Payment Required since 05:51 UTC (11 November): its credit is spent. My own use was $0.087 on 10 November (spend.json). Until it is topped up I sweep X and Reddit without Perplexity (nothing else is blocked).",
