@@ -5,7 +5,7 @@
   "title": "Update: Web Summit's final 2026 figures",
   "beat": "The summit",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:x-ws-final-figures"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-11-0100.json",
-      "desks/journalist-vicky/drafts/S47-web-summit-2026-final-figures-update.md"
+      "desks/journalist-vicky/drafts/S47-web-summit-2026-final-figures-update.md",
+      "desks/reviewer-vicky/reviews/S47.md"
     ]
   },
   "assignee": "journalist@PrompTugal.vicky",
@@ -24,10 +25,23 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S47-web-summit-2026-final-figures-update.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S47.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S47.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-11",
