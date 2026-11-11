@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 04:17 (11 Nov): nothing new for my lane; hand-over debrief for 11 Nov written",
-  "updated": "2026-11-11T04:35Z",
+  "state": "wake 06:17 (11 Nov): nothing new for my lane",
+  "updated": "2026-11-11T06:35Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
