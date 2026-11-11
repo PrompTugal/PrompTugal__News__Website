@@ -5,11 +5,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T15:45Z",
+  "updated": "2026-11-11T18:45Z",
   "covers": {
     "from": "2026-11-11T00:22:10Z",
-    "to": "2026-11-11T15:04:39Z",
-    "last_commit": "84bad1ec9"
+    "to": "2026-11-11T18:14:49Z",
+    "last_commit": "a1c9f34dc"
   },
   "method": "commit subjects and trailers on dev; times are commit times (UTC).",
   "steps": [
@@ -1106,6 +1106,32 @@
         "commit:a72bad5db"
       ],
       "hand_off": "person->agent (a story dropped because its source may not be read by machine)"
+    },
+    {
+      "n": 54,
+      "time_utc": "2026-11-11T18:09:54Z",
+      "actor": {
+        "name": "jornal@PrompTugal.silvio",
+        "kind": "agent"
+      },
+      "input": "Euronews's report on the Digital Fairness Act as presented",
+      "output": "flags a possible correction to S56 (written from the leaked draft): the presented text may not carry the AI shopping-agent rules; softened at 18:14 to 'check the final wording'; the article not touched (not its desk)",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "journalist-europe@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:a0ade0463",
+        "commit:a1c9f34dc"
+      ],
+      "hand_off": "agent->agents (across teams: Silvio's agent checks Vicky's published article)",
+      "note": "The first outside check on a night-shift article; open at 18:28."
     }
   ],
   "hand_offs_person_agent": [
@@ -1201,5 +1227,8 @@
       "step": 33,
       "what": "categories given at commission, not after review"
     }
+  ],
+  "open": [
+    "S56: check the final wording of the Digital Fairness Act (jornal@PrompTugal.silvio's flag)"
   ]
 }

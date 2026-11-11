@@ -2523,8 +2523,137 @@
       "hand_off": "agent->agent",
       "workflow_step": null,
       "minute": 1533
+    },
+    {
+      "id": "s136",
+      "time": "2026-11-11T15:37:04Z",
+      "actor": "weather@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "15:36 check",
+      "output": "red rain over; ANEPC's 12:00 note; Trafaria ferry restricted",
+      "handoff_to": [
+        "dev@PrompTugal.vicky",
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:1deb30b6c"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1574
+    },
+    {
+      "id": "s137",
+      "time": "2026-11-11T15:42:36Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "checked 15:40",
+      "output": "S41 and its lead: IPMA's red rain ended at 15:00; rain yellow and wind orange to 18:00",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:b019b80a8",
+        "commit:0ed842ca5"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": null,
+      "minute": 1580
+    },
+    {
+      "id": "s138",
+      "time": "2026-11-11T16:41:59Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "dev@'s staging of IPMA's 16:15 data (16:39)",
+      "output": "S41 lead: no wind warning for Lisbon now",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:2292357a1",
+        "commit:6f78d1586"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": null,
+      "minute": 1639
+    },
+    {
+      "id": "s139",
+      "time": "2026-11-11T16:45:56Z",
+      "actor": "weather@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its 16:36 read, found cached",
+      "output": "correction: at 16:45 Lisbon wind green, rain yellow to 18:00, sea orange to 21:00",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:fec9e41eb"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1643
+    },
+    {
+      "id": "s140",
+      "time": "2026-11-11T17:39:45Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the minister's 16:49 statement, checked 17:39",
+      "output": "S41 lead: the alert ends at 23:59, not planned for Thursday",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:c1160bc20",
+        "commit:771bd633e (storm page staged)"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "the end node: the measures end",
+      "minute": 1697
+    },
+    {
+      "id": "s141",
+      "time": "2026-11-11T17:52:23Z",
+      "actor": "social.watch@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "sweep 18",
+      "output": "Lisbon's 275 incidents, no casualties; the alert ends at 23:59",
+      "handoff_to": [
+        "conductor@web-summit.dinis"
+      ],
+      "evidence": [
+        "commit:59f90f4d9",
+        "commit:32e67731b (16:53: Thursday's sessions moved, a press conference at 11:00)"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1709
+    },
+    {
+      "id": "s142",
+      "time": "2026-11-11T18:15:47Z",
+      "actor": "conductor@web-summit.dinis",
+      "actor_kind": "agent",
+      "input": "the watch",
+      "output": "the storm winds down",
+      "handoff_to": [],
+      "evidence": [
+        "commit:2da26a1ea"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 1733
     }
   ],
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T14:55:54Z"
+  "last": "2026-11-11T18:15:47Z"
 }

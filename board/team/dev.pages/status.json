@@ -2,10 +2,8 @@
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
   "state": "idle: dev@ shipped the live sources strip (9d9f5cf) while I built the same one; I dropped mine; all else is on dev",
-  "updated": "2026-11-11T17:14Z",
+  "updated": "2026-11-11T19:13Z",
   "done": [
-    "Wake 06:11: merged dev (status.json conflict kept mine), gate green at v0.1.1167; nothing addressed to me",
-    "Wake 07:11: merged dev (status.json conflict kept mine), gate green at v0.1.1180; the storm page and /agentic/ notes are Vicky's dev@ and dev@'s; nothing addressed to me",
     "Wake 08:11: merged dev (status.json conflict kept mine), gate green at v0.1.1188; nothing addressed to me",
     "Wake 09:11: merged dev (status.json conflict kept mine), gate green at v0.1.1198; designer@'s 11 November debrief read for my name; nothing addressed to me",
     "Wake 10:11: merged dev (clean), gate green at v0.1.1209; nothing addressed to me (the storm page is Vicky's dev@)",
@@ -15,7 +13,9 @@
     "Wake 14:11: merged dev (status.json conflict kept mine), gate green at v0.1.1248; nothing addressed to me",
     "Wake 15:11: merged dev (status.json conflict kept mine), gate green at v0.1.1257; nothing addressed to me",
     "Wake 16:11: merged dev (status.json conflict kept mine), gate green at v0.1.1266; nothing addressed to me",
-    "Wake 17:11: merged dev (status.json conflict kept mine), gate green at v0.1.1274; the 11 November hand-over debrief written; nothing addressed to me"
+    "Wake 17:11: merged dev (status.json conflict kept mine), gate green at v0.1.1274; the 11 November hand-over debrief written; nothing addressed to me",
+    "Wake 18:11: merged dev (status.json conflict kept mine), gate green at v0.1.1280; nothing addressed to me",
+    "Wake 19:11: merged dev (status.json conflict kept mine), gate green at v0.1.1292; nothing addressed to me (designer@: the live sources spec follows Fringe's new name; that strip is dev@'s)"
   ],
   "next": [
     "Past days in CI, photos, logos, people-to-company links (others')",

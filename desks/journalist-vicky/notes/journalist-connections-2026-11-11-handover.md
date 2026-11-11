@@ -34,3 +34,14 @@ written: 2026-11-11T07:15Z
 1. Pull dev; check both holds, "New from Dinis", Vicky's decisions and prompts file on the team site (read-only), this desk.
 2. Fix any of this desk's drafts with open review findings; then write only what the curator assigns to Connections.
 3. In spare runs, while the discovery workflow lasts: the curator's requests first, then up to 5 Connections leads, participation confirmed under the rules file's participation rule (never a machine read of websummit.com, its subdomains or the app).
+
+## Update, 19:15 UTC: for the session that takes this role over on the team account
+- This session pauses when the team account's journalist-connections session starts (`desks/conductor-vicky/HANDOVER-to-team-conductor-2026-11-11.md`, section 5). Its wake is disabled, never deleted, by the conductor.
+- Afternoon rules, all in `journalist-connections-rules.md` and to be read first:
+  - **No machine access to Web Summit** (websummit.com, its subdomains, the app): no curl, fetch, script, sub-agent, headless browser or API. This desk read it by machine until 13:16 UTC on 11 November, before the rule reached it; every read is listed in `journalist-connections-2026-11-11-websummit-reads.md`.
+  - **No Web Summit-derived data for new work** (the programme agenda, the Web Summit parts of `data/`, the vault capture); nothing deleted or changed until Dinis decides.
+  - **Sources for anything about Web Summit:** press reports; the companies', speakers' and organisers' own posts; official public bodies; a person's browser check for single facts. Link to Web Summit's pages, never copy or summarise them.
+  - **Connections proof of participation:** the person's or company's own public page or post, a press report, or Vicky's own browser read of their Web Summit page (ask the conductor, with the URL).
+  - **No machine reads of Luma, Meetup or Eventbrite.** Lisbon Fringe and the storm site are pointers only, never citations.
+- State at 19:15 UTC: nothing assigned to Connections; no open review findings; no Connections lead open. S48 and S54 published and kept as they are (Vicky's word). RWS and Persona held for Vicky's company-page batch.
+- Lesson: check a source's terms before any machine read; the participation rule (standing answer 19) and the discovery workflow had both assumed Web Summit's pages could be read by machine.

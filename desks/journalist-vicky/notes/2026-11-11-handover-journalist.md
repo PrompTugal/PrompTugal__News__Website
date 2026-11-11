@@ -46,3 +46,11 @@ Pull dev; holds; "New from Dinis"; the curator's newest map; reviews for this de
 - S41 checked 16:06 UTC on IPMA, no change against the live article: re-issued 15:06, no red left (rain yellow to 18:00, wind orange to 18:00, sea orange to 21:00, then yellow to 03:00); S41's rain update was checked live by the conductor at 15:48. No new assignment.
 - S41 checked 17:06 UTC on IPMA, no change against the live article: no wind warning for Lisbon (already in S41 via the reviewer at 16:39); rain yellow 15:56 to 18:00; sea orange to 21:00, then yellow to 03:00. The watch ends once IPMA's warnings end and Wednesday is over. No new assignment.
 - S41 checked 18:06 UTC on IPMA, no change since 17:06 (rain yellow to 18:00, now ending; sea orange to 21:00, then yellow to 03:00). S41 also carries the minister's word that the alert ends at 23:59 (reviewer, 17:39). No new assignment.
+- S41 checked 19:07 UTC on IPMA: only the sea warning is left (orange to 21:00, then yellow to 03:00); the rain warning ended at 18:00. dev@ has staged that for the reviewer; S41 itself is the reviewer's. No new assignment.
+
+## For the hand-back (Vicky's team agents returning, 11 Nov about 18:55 UTC)
+Vicky's original team agents are returning; conductor.B disables each twin's wake once its team agent confirms (this session is the summit journalist's twin). If this desk's wake is disabled, the returning journalist should know:
+- Open: S41 watch (IPMA only; Web Summit's side by a person); S44 (Wednesday guide note) Ready, placement held for Vicky and the guide's owner.
+- Rules saved this session: `journalist-standing-rules.md` (categories; temporary discovery; no machine reads of websummit.com, its subdomains or the app; no Web Summit-derived data for new work; Luma, Meetup, Eventbrite off; sources for Web Summit facts; pointer sources; terms checked per source).
+- Breach to know: this desk read websummit.com by machine from 10 Nov 14:23 to 11 Nov 13:08 UTC (recorded above).
+- Published from this desk in this session: S41, S44 (held), S45, S47, S51; S57 dropped.

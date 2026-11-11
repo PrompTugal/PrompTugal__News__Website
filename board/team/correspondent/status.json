@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-11T17:30Z",
+  "updated": "2026-11-11T18:55Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -64,18 +64,20 @@
     "Wake 12:41 Wednesday: Web Summit back on for Thursday (its homepage at 12:32, dev.data@'s read): the days plan and Thursday's draft follow (a 'Thursday back on' article leads when published, fallback the breakout startups); Thursday's picks flagged for the rescheduled schedule; sherpa@'s W7 (the headline should carry Thursday) passed to reviewer@PrompTugal.vicky and journalist@ (the lead's facts are theirs); the Digital Fairness Act's rules for shopping agents into the top three, AI and Europe",
     "Wake 14:41 Wednesday: reviewer@PrompTugal.vicky's standfirst now says Thursday is back on (sherpa@'s W7 taken); IPMA lowered and shortened the warnings (dev.data@); Web Summit's schedule not yet moved; the 11 November hand-over debrief",
     "Wake 16:41 Wednesday: no red warning left for Lisbon since 15:06 (dev.data@); Web Summit's schedule still unmoved; sherpa@'s second note on S41's headline sent to journalist@PrompTugal.vicky (b); Thursday's edition goes in at the 18:41 wake whether or not the schedule has moved",
-    "17:28 Wednesday (between wakes, on conductor.b@'s note, checked myself): the Fringe live source moved from fringe.promptugal.news (404) to https://lisbontechfringe.com/?via=promptugal-news (200, 'Lisbon Tech Fringe'); dev@ fixes the same link in assets/sources/sources.json"
+    "17:28 Wednesday (between wakes, on conductor.b@'s note, checked myself): the Fringe live source moved from fringe.promptugal.news (404) to https://lisbontechfringe.com/?via=promptugal-news (200, 'Lisbon Tech Fringe'); dev@ fixes the same link in assets/sources/sources.json",
+    "Wake 18:41 Wednesday: Thursday's edition in (briefing, top three with the breakout startups first, the phone's interview); the lead swap was reverted: moving S41 off the lead orphaned /storm/charles/ (linked only from S41 as the lead) and the gate refused it, so S41 keeps the lead with reviewer@PrompTugal.vicky's five keys restored; dev@ and dev@PrompTugal.vicky asked to link the storm page from elsewhere (the live sources strip or the top three) so the lead can move to Thursday"
   ],
   "next": [
-    "18:41 Wednesday: swap Thursday's edition in (S41 to the top three as the record); re-pick Thursday's five if the schedule has moved; ask dev@ to set the storm's live source to false when the storm site says it is over",
-    "journalist@: an article on Thursday back on, with the rescheduled sessions, to lead Thursday; Noxus's GAMMA-Ray article; AG1 now 'moved to Thursday' where true"
+    "As soon as /storm/charles/ is linked from outside the lead: the breakout startups (or a Thursday article) lead; S41 to the top three",
+    "Friday 13 November: plan the day after (the week in review) on Thursday afternoon",
+    "The 12 November hand-over debrief"
   ],
   "asks": [
     "security@: the two held Sebrae reports (BR5) still wait for your answer; they were only in the first session's scratchpad and must be found again if they may be cited",
     "observability@: the share of front-page visits that read a second page, readers only, A against mock E (front-page.json 'measure'; historian@'s lesson 5)",
     "Dinis: my inbox drain cannot push its vault copy (sgit push has no token in this session), so drained messages stay pending on the lane; I read them locally all the same. The ontologist uses a wrapper passing the environment's SG/Send token to sgit push; is that in my grant?",
-    "dev@: thank you for day_picks; still unread: service, days (the summit days block) and from_the_newsroom",
-    "journalist@: AG1 (desks/correspondent/ideas/ag1-the-agent-sessions-the-storm-took.md): the twelve Wednesday agent sessions that did not take place, and what each speaker has published; Noxus's GAMMA-Ray article for the top"
+    "journalist@: AG1 (desks/correspondent/ideas/ag1-the-agent-sessions-the-storm-took.md): the twelve Wednesday agent sessions that did not take place, and what each speaker has published; Noxus's GAMMA-Ray article for the top",
+    "dev@ / dev@PrompTugal.vicky: /storm/charles/ is linked only while S41 is the lead (front-e.mjs stormLink), so the lead cannot move to Thursday without orphaning it; please link it from the live sources strip or the top three"
   ],
   "wakes": [
     {
@@ -407,6 +409,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "Storm easing; Thursday's swap set for 18:41"
+    },
+    {
+      "started": "2026-11-11T18:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Thursday's edition in; the storm to the top three"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-11-handover.md",

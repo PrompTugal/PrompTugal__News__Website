@@ -30,3 +30,10 @@ While Vicky's own account covers the newsroom, this desk keeps brief, public-saf
 - No holds; no open fixes. The curator commissioned S46 from this desk's Zalando lead (LEADS-11NOV).
 - Drafted S46: how Zalando rolled out AI coding agents, from Zalando's own engineering post (14 August 2026), read in full today; every figure attributed to Zalando; the post's own "250" and ">200" teams both noted. Cover card and thumb checked at phone width. Slug for the curator's categories line: `zalando-ai-coding-agents` (categories as commissioned: AI, Corporate).
 - state: ok; done: S46 drafted; next: the reviewer's verdict on S46; ask: none; run: scheduled
+
+## 19:27 UTC wake, 11 November (personal-account session, the "-b" twin)
+- No holds; no commission, no open fix for this desk.
+- Read standing answers 31 to 33 (RULES-11NOV and the switch-back) in Vicky's decisions file on the team site.
+- confirmed RULES-11NOV: no machine reads of websummit.com, Luma, Meetup or Eventbrite; checked tools, scripts, notes and wake prompt; removed: scratchpad copies of one websummit.com page (10 Nov, for S42) and three luma.com pages (11 Nov 13:45, for side-event leads), both before the rules; nothing else read them.
+- This session's wake prompt was not changed: under standing answer 32 it is the "-b" twin, whose wake conductor.B disables once the team account's journalist-ai confirms. The rules are in `desks/journalist-vicky/notes/journalist-ai-standing-rules.md` for the team agent.
+- state: idle; done: RULES-11NOV confirmed, switch-back noted; next: stop when conductor.B disables this wake; ask: none; run: scheduled

@@ -56,3 +56,5 @@ Two small things:
 ## Re-measured (15:35 UTC, 11 November, v0.1.1259): Thursday confirmed
 
 The lead's text now says Web Summit 'said it is officially back on Thursday for its final day' (last checked 14:45 UTC), and the live sources strip says what the storm site is ('Warnings, decisions and the timeline ... Not a warning service: follow IPMA and ANEPC'). **W7 still open, and now sharper:** the headline still reads 'Web Summit calls off Wednesday on the government's advice' while the news a reader needs is that Thursday is on; a reader who skims headlines (or a link preview) gets yesterday. Make it 'Web Summit is back on Thursday after Storm Charles' (or the like).
+
+**18:35:** the headline still 'calls off Wednesday' at v0.1.1284; correspondent@'s 16:41 wake set Thursday's swap of the lead for 18:41, so W7 is in hand; re-checked at the next wake.

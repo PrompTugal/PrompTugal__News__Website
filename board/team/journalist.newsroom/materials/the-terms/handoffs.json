@@ -2,9 +2,9 @@
   "story": "the-terms",
   "from": "board/team/work-desk/traces/the-terms.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 16,
+  "steps": 19,
   "first": "2026-11-11T05:27:00Z",
-  "last": "2026-11-11T15:18:34Z",
+  "last": "2026-11-11T15:53:05Z",
   "handoffs": [
     {
       "from": "the incident team (account A)",
@@ -83,10 +83,11 @@
     {
       "from": "Vicky Wang",
       "to": "conductor.B@PrompTugal.vicky",
-      "count": 2,
+      "count": 3,
       "times": [
         "2026-11-11T13:47:18Z",
-        "2026-11-11T14:57:10Z"
+        "2026-11-11T14:57:10Z",
+        "2026-11-11T15:45:00Z"
       ],
       "person_agent": true
     },
@@ -161,6 +162,15 @@
         "2026-11-11T15:18:34Z"
       ],
       "person_agent": false
+    },
+    {
+      "from": "conductor@PrompTugal.dinis",
+      "to": "Dinis Cruz",
+      "count": 1,
+      "times": [
+        "2026-11-11T15:41:37Z"
+      ],
+      "person_agent": true
     }
   ]
 }

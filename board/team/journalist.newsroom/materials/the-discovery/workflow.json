@@ -1,7 +1,7 @@
 {
   "$comment": "The discovery workflow's shape, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-discovery",
-  "from": "board/team/work-desk/traces/the-discovery.json (updated 2026-11-11T15:45Z)",
+  "from": "board/team/work-desk/traces/the-discovery.json (updated 2026-11-11T18:45Z)",
   "funnel": {
     "leads": 21,
     "commissions": 12,

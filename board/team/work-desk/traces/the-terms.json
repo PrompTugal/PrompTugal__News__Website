@@ -5,11 +5,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T15:45Z",
+  "updated": "2026-11-11T18:45Z",
   "covers": {
     "from": "2026-11-11T05:27:00Z",
-    "to": "2026-11-11T15:18:34Z",
-    "last_commit": "012676fec"
+    "to": "2026-11-11T15:58:07Z",
+    "last_commit": "24ca6656c"
   },
   "method": "commit subjects, a few bodies, conductor.B's status lines and the weather desk's README; commit times (UTC).",
   "steps": [
@@ -229,33 +229,6 @@
       "hand_off": "agent->person"
     },
     {
-      "n": 11,
-      "time_utc": "2026-11-11T14:35:00Z",
-      "actor": {
-        "name": "Dinis Cruz",
-        "kind": "person"
-      },
-      "input": "the question (step 6) and the inventory",
-      "output": "'don't use Web Summit's data': no machine reads of websummit.com, its subdomains or the app; no new work from copied Web Summit data; nothing deleted until he decides",
-      "hand_off_to": [
-        {
-          "name": "Vicky Wang",
-          "kind": "person"
-        },
-        {
-          "name": "conductor.B@PrompTugal.vicky",
-          "kind": "agent"
-        }
-      ],
-      "evidence": [
-        "commit:3a76f421c (conductor.B status: '14:35: Dinis said don't use Web Summit's data')",
-        "commit:3b44a4a00",
-        "commit:e5ca2e336 (reviewer: 'Vicky's word after Dinis's answer')"
-      ],
-      "hand_off": "person->person->agent",
-      "note": "1 h 40 min from conductor.b@'s question."
-    },
-    {
       "n": 12,
       "time_utc": "2026-11-11T14:31:00Z",
       "actor": {
@@ -282,6 +255,33 @@
       ],
       "hand_off": "agents->agent",
       "note": "Several commits precede the 14:35 time in conductor.B's status: the rule was relayed before that line was written."
+    },
+    {
+      "n": 11,
+      "time_utc": "2026-11-11T14:35:00Z",
+      "actor": {
+        "name": "Dinis Cruz",
+        "kind": "person"
+      },
+      "input": "the question (step 6) and the inventory",
+      "output": "'don't use Web Summit's data': no machine reads of websummit.com, its subdomains or the app; no new work from copied Web Summit data; nothing deleted until he decides",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        },
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3a76f421c (conductor.B status: '14:35: Dinis said don't use Web Summit's data')",
+        "commit:3b44a4a00",
+        "commit:e5ca2e336 (reviewer: 'Vicky's word after Dinis's answer')"
+      ],
+      "hand_off": "person->person->agent",
+      "note": "1 h 40 min from conductor.b@'s question."
     },
     {
       "n": 13,
@@ -371,6 +371,70 @@
         "commit:012676fec"
       ],
       "hand_off": "agent->agents"
+    },
+    {
+      "n": 19,
+      "time_utc": "2026-11-11T15:41:37Z",
+      "actor": {
+        "name": "conductor@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "security@'s S39 and the event platforms",
+      "output": "both asked of Dinis",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:09e027aef",
+        "commit:0af3fa255"
+      ],
+      "hand_off": "agent->person",
+      "note": "Open at 18:28: S39 (data read before the terms were known) and the Luma, Meetup and Eventbrite terms wait on Dinis."
+    },
+    {
+      "n": 17,
+      "time_utc": "2026-11-11T15:45:00Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "Dinis's answer (step 11), until he decides",
+      "output": "a sources rule for anything about Web Summit: link, do not copy; saved by six desks and the reviewer (15:45 to 15:58)",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:782ebac47",
+        "commit:353a319a4",
+        "commit:a62678dbe",
+        "commit:039dc0e2b",
+        "commit:8427a1d26",
+        "commit:d3b12c377",
+        "commit:c15e5cefe",
+        "commit:24ca6656c"
+      ],
+      "hand_off": "person->agents"
+    },
+    {
+      "n": 18,
+      "time_utc": "2026-11-11T15:53:05Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the rule",
+      "output": "the Web Summit sourcing rule written into its ROLE.md",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:9ea49958c"
+      ],
+      "note": "The rule crosses from Vicky's desks to Dinis's agent."
     }
   ],
   "hand_offs_person_agent": [
@@ -382,7 +446,9 @@
     11,
     13,
     14,
-    15
+    15,
+    17,
+    19
   ],
   "speeds": [
     {
@@ -409,5 +475,9 @@
     "the-storm.json",
     "the-discovery.json",
     "the-fringe.json"
+  ],
+  "open": [
+    "S39: what to do with Web Summit data read before the terms were known (Dinis)",
+    "Luma, Meetup and Eventbrite terms (Dinis)"
   ]
 }

@@ -1,15 +1,15 @@
 {
   "$comment": "The work desk's trace of Lisbon Fringe's start, as seen from this repository (its work lives in PrompTugal__News__Fringe). JSON first. README: the-fringe.md.",
   "story": "the-fringe",
-  "title": "A new team in two hours: Lisbon Fringe from Dinis's word to four conductors on three accounts",
+  "title": "A new team in two hours: Lisbon Fringe (now Lisbon Tech Fringe) from Dinis's word to four conductors on three accounts",
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T12:45Z",
+  "updated": "2026-11-11T18:45Z",
   "covers": {
     "from": "2026-11-11T10:00:00Z",
-    "to": "2026-11-11T12:17:35Z",
-    "last_commit": "6497eb14f"
+    "to": "2026-11-11T17:27:04Z",
+    "last_commit": "7d59a3bb5"
   },
   "method": "commit subjects and bodies on this repository's dev only; the Fringe's own repository is not read (scope and tokens).",
   "steps": [
@@ -184,6 +184,62 @@
       "evidence": [
         "commit:6497eb14f"
       ]
+    },
+    {
+      "n": 10,
+      "time_utc": "2026-11-11T17:24:36Z",
+      "actor": {
+        "name": "correspondent@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "fringe.promptugal.news answers 404; the site is now Lisbon Tech Fringe at lisbontechfringe.com (200, 17:27), on conductor.b@'s note",
+      "output": "front-page.json's live source points to the new address",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:43f687c25"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 12,
+      "time_utc": "2026-11-11T17:25:59Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the Fringe as a source",
+      "output": "its read_at is a pointer only until the researcher audits its pass",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:db4afba18"
+      ]
+    },
+    {
+      "n": 11,
+      "time_utc": "2026-11-11T17:27:04Z",
+      "actor": {
+        "name": "dev@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the correspondent's note",
+      "output": "the live sources strip's Fringe link points at lisbontechfringe.com",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:7d59a3bb5",
+        "commit:50794494e (security@: link only)"
+      ],
+      "hand_off": "agent->agent",
+      "note": "3 minutes from the correspondent's commit to the fix."
     }
   ],
   "hand_offs_person_agent": [
