@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1217",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: Vicky's word: weather@ narrows to official-source checks; its wake disabled (not deleted) Thursday about 09:00 UTC",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "7f66bb348"
+  },
+  {
     "version": "v0.1.1216",
     "date": "2026-11-11",
     "what": "reviewer@PrompTugal.vicky: README: storm-charles.promptugal.news as a pointer-only source (Vicky's word, relayed by conductor.B@)",
