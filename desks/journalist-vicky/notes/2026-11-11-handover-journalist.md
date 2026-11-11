@@ -18,3 +18,4 @@ Yesterday's note, with every check and draft of 10 November: `2026-11-10-handove
 
 ## Next session first
 Pull dev; holds; "New from Dinis"; the curator's newest map; reviews for this desk; then the S41 watch.
+- S41 checked 01:06 UTC, no change. S47 (curator's LEADS-11NOV, from this desk's lead): update note with Web Summit's final 2026 figures for 'Web Summit 2026 in numbers', drafted and handed to the reviewer; placing it needs Vicky's approval.
