@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1108",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/ data: IPMA rain row updated (red 09:00 to 18:00), alerts re-read 00:05 (held)",
+    "by": "dev@PrompTugal.vicky",
+    "from": "7f1e0b15a"
+  },
+  {
     "version": "v0.1.1107",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.vicky: article categories: the articles and lists filters show the curator's eight main categories; gate check; bracket-safe tags",
