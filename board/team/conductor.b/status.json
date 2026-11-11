@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART on account B: nine agents on (dev@, dev.pages@, designer@, ontologist@, dev.graphs@, dev.data@, correspondent@, sherpa@, librarian@); conductor.b@ hourly at :48",
- "updated": "2026-11-11T01:53Z",
+ "updated": "2026-11-11T02:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -108,11 +108,11 @@
   "22:48 wake: account B running; the 10 November hand-over debrief",
   "23:48 wake: dev@ ran (tags to companies by alias; three branches on); account B running",
   "00:48 wake (11 Nov): ledger 1246.36; nine agents running",
-  "01:48 wake: dev@ fixed the app for the called-off day; account B running"
+  "01:48 wake: dev@ fixed the app for the called-off day; account B running",
+  "02:48 wake: products live in the graph and on company pages; account B running"
  ],
  "next": [
-  "02:48 wake",
-  "03:48 ledger"
+  "03:48 wake with the ledger"
  ],
  "asks": [
   "Dinis: your 17:11 baseline (conductor, security, developer per team): account B now has its conductor and developer; its security agent is security@ on account A, which reviews this repository's commits; say if account B needs its own",
