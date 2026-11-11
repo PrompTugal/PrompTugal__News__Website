@@ -3577,6 +3577,62 @@
     "source": "desks/journalist-vicky/drafts/img/S56-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
     "checked": "every label against the article and the Commission's proposal COM(2026) 1100 (Article 26), 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
    }
+  },
+  {
+   "slug": "thursday-last-day-guide",
+   "theme": "paper",
+   "layout": "summary",
+   "size": "thumb",
+   "file": "thursday-last-day-guide--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S58-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article's talk times); rendered with Chromium",
+    "checked": "every label against the article, 11 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "thursday-last-day-guide",
+   "theme": "ink",
+   "layout": "summary",
+   "size": "thumb",
+   "file": "thursday-last-day-guide--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S58-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article's talk times); rendered with Chromium",
+    "checked": "every label against the article, 11 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "thursday-last-day-guide",
+   "theme": "paper",
+   "layout": "summary",
+   "size": "card",
+   "file": "thursday-last-day-guide--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S58-thursday-2026-11-11.svg (drawn by journalist@PrompTugal.vicky; text raised and temperatures updated by the reviewer); rendered with Chromium",
+    "checked": "every label against the article, 11 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "thursday-last-day-guide",
+   "theme": "ink",
+   "layout": "summary",
+   "size": "card",
+   "file": "thursday-last-day-guide--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S58-thursday-2026-11-11.svg (drawn by journalist@PrompTugal.vicky; text raised and temperatures updated by the reviewer); rendered with Chromium",
+    "checked": "every label against the article, 11 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }
