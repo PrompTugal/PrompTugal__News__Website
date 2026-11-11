@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-labelledby="t d">
   <title id="t">IPMA warnings for Lisbon, Wednesday 11 November 2026</title>
-  <desc id="d">Red warning for wind 12:00 to 21:00, gusts up to 120 km/h and up to 140 km/h in exposed places; red for rain 09:00 to 18:00 (orange 00:00 to 09:00); orange for the sea 12:00 to 21:00. Lisbon time. Source: IPMA open data, read 10 November 2026 at 23:51 UTC.</desc>
+  <desc id="d">Orange warning for wind 09:00 to 21:00, gusts up to 120 km/h (lowered from red on Wednesday morning); red for rain 09:00 to 18:00 (orange 00:00 to 09:00); orange for the sea 12:00 to 21:00. Lisbon time. Source: IPMA open data, read 11 November 2026 at 08:40 UTC.</desc>
   <rect width="800" height="420" fill="#f7f4ee"/>
   <g font-family="Helvetica, Arial, sans-serif">
     <text x="30" y="54" font-size="38" font-weight="700" fill="#1a1a1a">Lisbon, Wednesday 11 Nov</text>
@@ -23,8 +23,8 @@
     </g>
 
     <text x="30" y="194" font-size="29" font-weight="700" fill="#1a1a1a">Wind</text>
-    <rect x="480" y="160" width="217" height="50" rx="7" fill="#c62828"/>
-    <text x="588" y="194" text-anchor="middle" font-size="28" font-weight="700" fill="#fff">RED 12-21</text>
+    <rect x="408" y="160" width="289" height="50" rx="7" fill="#ef8f00"/>
+    <text x="552" y="194" text-anchor="middle" font-size="28" font-weight="700" fill="#1a1a1a">ORANGE 09-21</text>
 
     <text x="30" y="258" font-size="29" font-weight="700" fill="#1a1a1a">Rain</text>
     <rect x="190" y="224" width="216" height="50" rx="7" fill="#ef8f00"/>
@@ -36,7 +36,7 @@
     <rect x="480" y="288" width="217" height="50" rx="7" fill="#ef8f00"/>
     <text x="588" y="322" text-anchor="middle" font-size="28" font-weight="700" fill="#1a1a1a">ORANGE 12-21</text>
 
-    <text x="30" y="380" font-size="28" font-weight="700" fill="#1a1a1a">Gusts to 120 km/h, 140 where exposed</text>
-    <text x="30" y="410" font-size="28" fill="#555">Source: IPMA open data, read 10 Nov, 23:51 UTC</text>
+    <text x="30" y="380" font-size="28" font-weight="700" fill="#1a1a1a">Wind gusts to 120 km/h</text>
+    <text x="30" y="410" font-size="28" fill="#555">Source: IPMA open data, read 11 Nov, 08:40 UTC</text>
   </g>
 </svg>
