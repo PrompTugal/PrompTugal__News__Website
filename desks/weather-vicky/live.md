@@ -4,7 +4,7 @@ The weather desk's facts list for S41. Every line has its source and the UTC tim
 
 **Last full check: 10 November 2026, 19:36 to 19:47 UTC** (connectors snapshot `data/2026-11-10T1936Z.json`).
 
-**Headline, 08:40 UTC Wed 11 Nov: IPMA has lowered Lisbon's wind warning from red to orange** (09:00 to 21:00, gusts up to 120 km/h; [IPMA warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json), feed modified 08:15 UTC). **Rain stays red, 09:00 to 18:00.** Web Summit's Day 2 does not take place, on the government's advice ([statement](https://websummit.com/blog/web-summit/important-event-update-2026/)); the government's alert situation runs to 23:59 today.
+**Headline, 14:36 UTC Wed 11 Nov: IPMA has eased Lisbon's warnings.** Red rain now ends at 15:00 (then yellow to 18:00); orange wind now ends at 18:00, with gusts up to 90 km/h, up to 110 km/h in the most exposed places ([IPMA warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)). IPMA's communiqué no. 3 (12:16 UTC) says the storm split in two and is weaker than forecast. Web Summit's Day 2 does not take place, on the government's advice; the government's alert situation runs to 23:59 today.
 
 ### Web Summit's Day 2 (added 19:47 UTC)
 
@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 11 Nov 14:36 (hourly check): **IPMA eases Lisbon's warnings** (new periods from 12:34): rain red until 15:00 (was 18:00), then yellow "Precipitação por vezes forte" 15:00 to 18:00; wind orange until 18:00 (was 21:00), "Rajadas até 90 km/h, podendo atingir 110 km/h nos locais mais expostos" (was 120 km/h); sea orange to 21:00. The government's alert unchanged; Fertagus 14:30 running normally; no transport suspension; ANEPC did not answer. Reviewer, dev@ and conductor.B told 14:37.
 - 11 Nov 13:36: checked 13:36 UTC at the official sources, no change (IPMA warnings and communiqué no. 3; the government's alert; ANEPC; transport, Fertagus normal at 12:50). Web Summit not machine-read (its terms forbid it, from 12:45 UTC). Read times sent to dev@ and the reviewer.
 - 11 Nov 12:36 (hourly check): **IPMA communiqué no. 3** ([comunicados](https://www.ipma.pt/pt/otempo/comunicados/), edited 12:16 UTC): CHARLES "se dividiu em dois núcleos de baixa pressão distintos, diferente do previsto inicialmente", so "uma diminuição do cavamento da depressão, e consequentemente da intensidade do vento, face à previsão do dia de ontem" (the low split in two and deepened less, so the wind is weaker than yesterday's forecast); persistent, at times heavy rain continues; gusts of 70 to 90 km/h in the South, up to 110 km/h at exposed points; "Os avisos meteorológicos foram ajustados". Lisbon warnings unchanged since 08:40 (wind orange 09:00 to 21:00, rain red 09:00 to 18:00). The government's alert, ANEPC, Web Summit and transport unchanged. Reviewer, dev@ and conductor.B told 12:37.
 - 11 Nov 11:36: checked 11:36 UTC at the official sources, no change (IPMA: wind orange 09:00 to 21:00, rain red 09:00 to 18:00; the government's alert; ANEPC; Web Summit; transport, Fertagus normal at 10:40). Narrowed scope from 10:50 (README). Read times sent to dev@ and the reviewer.
