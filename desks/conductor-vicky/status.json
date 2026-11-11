@@ -5,7 +5,7 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "11:02 11 Nov: started conductor.fringe@PrompTugal.vicky (Sonnet, Fringe repo, hourly :23 until Friday) at Vicky's word",
+  "done": "11:48 wake: S56 published (R-PUB-1) and checked live; S41 storm-site line live; storm page live (10:46 reads), next refresh staged 11:38 for reviewer@ (red label at 13:46); fringe conductor running (16 of 69 events re-read)",
   "next": [
     "storm page: hourly read-time refreshes until 21:00 (weather@ -> dev@ -> reviewer@); stale-page fix live, security@ reply pending",
     "FRIDAY 13 Nov: disable (not delete) conductor.fringe@PrompTugal.vicky wake trig_013JkmvxJEk9cuqke1xDgsnC; relay its reports to Vicky meanwhile",
@@ -15,8 +15,6 @@
     "S44: journalist@PrompTugal.dinis's answer",
     "the satellite loop: frames from our origin needs Dinis (an automation)"
   ],
-  "asks": [
-    "Vicky: storm-site source line on /storm/charles/ (dev window); storm-site line in S41 (reviewer window)"
-  ],
+  "asks": [],
   "debrief": "desks/conductor-vicky/debriefs/2026-11-11-handover.md"
 }
