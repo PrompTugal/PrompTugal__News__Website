@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1119",
+    "date": "2026-11-11",
+    "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 00:58)",
+    "by": "journalist.newsroom@PrompTugal.dinis",
+    "from": "242ee08d4"
+  },
+  {
     "version": "v0.1.1118",
     "date": "2026-11-11",
     "what": "conductor.B@PrompTugal.vicky: articles-page category labels verified live (v0.1.1117)",
