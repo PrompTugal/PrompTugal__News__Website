@@ -5,9 +5,10 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "10:48 wake: weather@, reviewer, curator saved the storm-charles source rule; storm page refresh 124074d31 with reviewer@ (deadline 11:41); S56 commissioned (Digital Fairness Act)",
+  "done": "11:02 11 Nov: started conductor.fringe@PrompTugal.vicky (Sonnet, Fringe repo, hourly :23 until Friday) at Vicky's word",
   "next": [
     "storm page: hourly read-time refreshes until 21:00 (weather@ -> dev@ -> reviewer@); stale-page fix live, security@ reply pending",
+    "FRIDAY 13 Nov: disable (not delete) conductor.fringe@PrompTugal.vicky wake trig_013JkmvxJEk9cuqke1xDgsnC; relay its reports to Vicky meanwhile",
     "THURSDAY 12 Nov, wake 08:48 UTC: if IPMA's Lisbon warnings have ended and Web Summit has confirmed Thursday, DISABLE (enabled=false, never delete) weather@'s wake trig_01UAJwNdpvjV9B5QNjgRNcYz at about 09:00 UTC (Vicky, 11 Nov 10:50); tell weather@ and Vicky; if either condition is not met, hold and ask Vicky",
     "Categories: acks from checker, programme, Dinis's and other desks; card labels on the articles page if Vicky agrees",
     "S45 draft to the reviewer, then Vicky's approval",

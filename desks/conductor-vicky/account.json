@@ -120,6 +120,16 @@
     }
   ],
   "notes": [
-    "weather@ wake trig_01UAJwNdpvjV9B5QNjgRNcYz: to be disabled (not deleted) Thu 12 Nov about 09:00 UTC, Vicky's word 11 Nov 10:50"
-  ]
+    "weather@ wake trig_01UAJwNdpvjV9B5QNjgRNcYz: to be disabled (not deleted) Thu 12 Nov about 09:00 UTC, Vicky's word 11 Nov 10:50",
+    "fringe wake trig_013JkmvxJEk9cuqke1xDgsnC: disable (not delete) on Friday 13 Nov"
+  ],
+  "fringe": {
+    "name": "conductor.fringe@PrompTugal.vicky",
+    "session": "session_015JeffGUqHxxEVQuNpGiBmj",
+    "repo": "PrompTugal/PrompTugal__News__Fringe (dev)",
+    "model": "claude-sonnet-5-5",
+    "wake": "trig_013JkmvxJEk9cuqke1xDgsnC, hourly at :23, until Friday 13 Nov (then disable, not delete)",
+    "started": "2026-11-11 11:02 UTC at Vicky's word, per Dinis's swarm (SWARM.md, guidance 2026-11-11 lisbon fringe)",
+    "reports_to": "conductor.B@PrompTugal.vicky"
+  }
 }
