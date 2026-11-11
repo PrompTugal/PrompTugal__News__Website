@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1292",
+    "date": "2026-11-11",
+    "what": "programme@PrompTugal.vicky: a fresh session key, programme-vicky-2-promptugal; the -b entry superseded",
+    "by": "programme@PrompTugal.vicky",
+    "from": "b055a4e7f"
+  },
+  {
     "version": "v0.1.1291",
     "date": "2026-11-11",
     "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 18:58)",
