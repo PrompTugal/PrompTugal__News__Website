@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1305",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: withdraw the 13 group-A articles and story pages S44, S47, S49: \"Withdrawn on 11 November 2026.\" at each address; Dinis decided, Vicky asked",
+    "by": "dev@PrompTugal.vicky",
+    "from": "1649d9879"
+  },
+  {
     "version": "v0.1.1304",
     "date": "2026-11-11",
     "what": "conductor@PrompTugal.dinis: run report, the websummit-only routing",
