@@ -723,6 +723,24 @@
         "fingerprint": "sha256:df15b988aae18556",
         "signing_fingerprint": "sha256:62410c7458f3ff31"
       },
+      "status": "superseded",
+      "superseded": "2026-11-11T19:16Z by journalist-connections-vicky-promptugal-c (the team account session, at standing answer 32 of people/vicky/decisions.md on the team site)"
+    },
+    {
+      "id": "journalist-connections-vicky-promptugal-c",
+      "agent": "journalist-connections@PrompTugal.vicky",
+      "label": "journalist-connections@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky Wang's Connections journalist for PrompTugal.news (journalist-connections@PrompTugal.vicky, until 6 November 2026 journalist-connections@web-summit.vicky): who could meet or work with whom at the summit; drafts in desks/journalist-vicky/drafts/, when Vicky asks. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on the team account on 11 November 2026, 19:16 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs), at standing answer 32 (the switch-back to the team account); supersedes journalist-connections-vicky-promptugal-b. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-11T19:16Z",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArC4IrOMAT5/SIGPkqYUh\nBLOz2dVcvBKyiY3s7xwUsbfqkmuNeSinHi0t8jlXPHs/jR6yFSyEbFdxkh0QJCFp\nq0oq51ZxaT0K/Wdc/Wg+ztACAqBRSxJpNQMBT51N2ArllIaRHpqnthbUF5VBZrZK\nG4mVLWdU/pAl27OwqkB38dHZHEcdc5ggFcAPjtkVDuGGZ7MLNJejYOmBdVR3Y/Y/\nJZcTceWMUEMPG6OeYpi0b/1Yak1hsadizpwE4Z/egjKMkm7ZvSE0uj9Gq59C0Dps\n6bZqqRIeYfXc2X1hbxzD/kQGYdiu0qaESxR1QzkEiDzr+fiUIA+u2dIJbSmecRSz\ndzGnq3bct8/84vUBpjbwEaFEBnZSoiNQlPjgLKTC1wmqJJaMiTbh2Ky08arFWO9u\nf+KAxHlxFPxwVG0JXywFqiaF52TN73fTgDPEzCKHpofXsDhRfk54LhomhO18YQd8\nsqYGZrS96zJ/ZSKggRP7QM6dVd2+UqN+QuY2da1gocCK6JKwGODPpUx+xZy7ME9y\nmuqn7nL9sIiO9a52oiDaU6cSdDQ1I1vugDom33+Z6+Y3JtPfP1vaEfiDiD8xhxPd\n/Y/E8LFZZARDpiL0yp3jZyhTqPUxfLYlBfkB7yR1T8biB+AxnmJ5nAnCZ8HriLCn\nhOMfe7+slQi2Ndu9+zPwVisCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEwBPxoZwH/ZAhFEu8PH4SNGmv3CNv\nJDtG2kuTcTUeVVzi2sVX+Lbnca4SAGlbmNbo0wT6ejJ9qjxkFrsKmpgDQA==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist-connections@PrompTugal.vicky",
+        "fingerprint": "sha256:92237cc974db3b73",
+        "signing_fingerprint": "sha256:913e64060343b6a4"
+      },
       "status": "active"
     },
     {
