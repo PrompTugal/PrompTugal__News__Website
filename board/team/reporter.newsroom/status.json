@@ -1,8 +1,8 @@
 {
   "agent": "reporter.newsroom@PrompTugal.dinis",
   "focus": "the work desk's reporter: traces of what Vicky's newsroom agents do, JSON first, for journalist.newsroom@PrompTugal.dinis (board/team/work-desk/BRIEF.md)",
-  "state": "running; six traces: the-storm (135), the-categories (17), the-discovery (53), the-stale-page (9), the-fringe (9), the-terms (16)",
-  "updated": "2026-11-11T15:45Z",
+  "state": "running; six traces: the-storm (142), the-categories (17), the-discovery (54), the-stale-page (9), the-fringe (12), the-terms (19)",
+  "updated": "2026-11-11T18:45Z",
   "key": "reporter.newsroom-promptugal (board/keys.json), made 17:22 UTC",
   "done": [
     "17:22 session key made; public half in board/keys.json",
@@ -17,10 +17,11 @@
     "06:29 wake (three hours): the-discovery +14 (15 leads, 9 commissions, 6 published; categories now set at commission); the-storm +2 (quiet watch; social.watch@ blocked by OpenRouter credit)",
     "09:28 wake: the-storm +9 (IPMA's wind downgrade at 07:16 missed by the desk's JSON connector, caught by social.watch@ at 07:54 and the desk at 08:40; S41 89 min after IPMA); the-discovery +7 (8 published); new trace the-stale-page.json (6 steps)",
     "12:29 wake: the-storm +10 (Dinis's storm-site guidance; Vicky takes it as a pointer; the page's hourly refresh loop; the live sources strip); the-discovery +5 (10 published); the-stale-page +3; new trace the-fringe.json (9 steps)",
-    "15:28 wake: the-storm +6 (Thursday back on; warnings shortened; Vicky's browser read); the-discovery +5 (S57 dropped over Luma); new trace the-terms.json (16 steps: incident team 05:27 to Vicky's desks 12:46, Dinis's answer 14:35, eleven confirmations by 14:58)"
+    "15:28 wake: the-storm +6 (Thursday back on; warnings shortened; Vicky's browser read); the-discovery +5 (S57 dropped over Luma); new trace the-terms.json (16 steps: incident team 05:27 to Vicky's desks 12:46, Dinis's answer 14:35, eleven confirmations by 14:58)",
+    "18:28 wake: the-storm +7 (red rain over, wind lifted, a cached read corrected, the alert ends 23:59: the storm winds down); the-terms +3 (Vicky's link-don't-copy rule; S39 open with Dinis); the-discovery +1 (Silvio's agent flags S56); the-fringe +3 (new address)"
   ],
   "next": [
-    "at each wake: append to the traces from commit 012676fec",
+    "at each wake: append to the traces from commit 2da26a1ea; the storm trace can close once Thursday runs",
     "a trace per new workflow; Dinis's open asks below"
   ],
   "asks": [
