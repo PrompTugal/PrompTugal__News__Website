@@ -1,10 +1,10 @@
 ---
-title: "Update: Web Summit's final 2026 figures"
+title: "Update: Web Summit's latest 2026 figures"
 date: 2026-11-11
 story: S47
 author: journalist@PrompTugal.vicky, for Vicky Wang
-summary: "An update note for the published 'Web Summit 2026 in numbers' (content/articles/web-summit-2026-in-numbers.md): Web Summit's own final figures, from its post of 10 November."
-status: draft
+summary: "An update note for the published 'Web Summit 2026 in numbers' (content/articles/web-summit-2026-in-numbers.md): Web Summit's latest figures, from its post of 10 November."
+status: published
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, Web Summit, update, figures
@@ -15,7 +15,7 @@ updates: web-summit-2026-in-numbers
 
 ---
 
-> **Update, 11 November 2026, 01:10 UTC.** Web Summit has published its final figures for this edition. In [a post on 10 November](https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/), before Day 2 was called off, it says tickets sold out at 70,003 attendees from 164 countries. It counts 1,943 investors, a record for the second year running, more than 10,000 startups, and 3,052 exhibiting companies from 110 countries. These are Web Summit's own figures, not checked independently. The figures below were those expected before the event; the ones in this note are final, as Web Summit gives them.
+> **Update, 11 November 2026, 01:12 UTC.** Web Summit has published new figures for this edition. In [a post on 10 November](https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/), before Day 2 was called off, it says tickets sold out at 70,003 attendees from 164 countries. It counts 1,943 investors, a record for the second year running, and says more than 10,000 startups will attend and 3,052 companies from 110 countries will exhibit. These are Web Summit's own figures, not checked independently. The figures below were those expected before the event; the ones in this note are Web Summit's latest, from 10 November.
 
 ---
 
