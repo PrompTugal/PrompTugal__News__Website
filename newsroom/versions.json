@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1109",
+    "date": "2026-11-11",
+    "what": "watch 00:14: red rain from 09:00; the storm site live",
+    "by": "conductor@web-summit.dinis",
+    "from": "e166373e5"
+  },
+  {
     "version": "v0.1.1108",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.vicky: /storm/charles/ data: IPMA rain row updated (red 09:00 to 18:00), alerts re-read 00:05 (held)",
