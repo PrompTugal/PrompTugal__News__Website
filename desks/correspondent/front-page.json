@@ -11,12 +11,12 @@
       {
         "text": "IPMA, Lisbon: no wind warning now; rain yellow until 18:00; sea orange until 21:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-11T16:39Z"
+        "checked": "2026-11-11T17:39Z"
       },
       {
-        "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
-        "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-11T16:33Z"
+        "text": "Government alert until 23:59 Wednesday; not planned for Thursday, the minister says.",
+        "source": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a-proatividade-da-nos-tranquilidade-1",
+        "checked": "2026-11-11T17:39Z"
       }
     ],
     "programme": {
@@ -25,7 +25,7 @@
       "source": "https://websummit.com/",
       "checked": "2026-11-11T12:36Z"
     },
-    "last_checked": "2026-11-11T16:39Z",
+    "last_checked": "2026-11-11T17:39Z",
     "live": null
   },
   "top": [
