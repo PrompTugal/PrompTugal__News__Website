@@ -3185,6 +3185,62 @@
     "source": "desks/journalist-vicky/drafts/img/S48-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
     "checked": "every label against the article and Manus's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
    }
+  },
+  {
+   "slug": "getting-around-lisbon-wednesday",
+   "theme": "paper",
+   "layout": "list",
+   "size": "card",
+   "file": "getting-around-lisbon-wednesday--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S51-getting-around-2026-11-11.svg (drawn by journalist@PrompTugal.vicky, labels adjusted by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the operators' and government's notices (read 03:09 UTC), 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "getting-around-lisbon-wednesday",
+   "theme": "ink",
+   "layout": "list",
+   "size": "card",
+   "file": "getting-around-lisbon-wednesday--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S51-getting-around-2026-11-11.svg (drawn by journalist@PrompTugal.vicky, labels adjusted by the reviewer); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the operators' and government's notices (read 03:09 UTC), 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "getting-around-lisbon-wednesday",
+   "theme": "paper",
+   "layout": "text",
+   "size": "thumb",
+   "file": "getting-around-lisbon-wednesday--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S51-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the operators' and government's notices (read 03:09 UTC), 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "getting-around-lisbon-wednesday",
+   "theme": "ink",
+   "layout": "text",
+   "size": "thumb",
+   "file": "getting-around-lisbon-wednesday--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S51-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and the operators' and government's notices (read 03:09 UTC), 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
   }
  ]
 }

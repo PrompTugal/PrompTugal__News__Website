@@ -4,7 +4,7 @@ date: 2026-11-11
 story: S51
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "With Web Summit's Day 2 off and a red weather warning for Lisbon, Carris has cancelled its Web Summit shuttle and warns of disruption, Fertagus says it will stop trains on the 25 de Abril bridge if winds pass 90 km/h, and the government's alert closes schools and suspends outdoor events. What each has said, as read at 03:06 UTC."
-status: draft
+status: published
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, Storm Charles, Lisbon, transport, practical
@@ -19,7 +19,7 @@ tags: the summit, Storm Charles, Lisbon, transport, practical
 
 ## The story
 
-[Web Summit](../organisations/web-summit/index.html) says its Day 2, today, will not take place, and IPMA has red warnings for wind and rain in Lisbon (see [our storm article](red-wind-warning-lisbon-wednesday.html) and the note on [our Wednesday guide](wednesday-11-november-going-abroad.html)). Here is what the people who run the city's transport and the government have published for today.
+[Web Summit](../organisations/web-summit/index.html) says its Day 2, today, will not take place, and IPMA has red warnings for wind and rain in Lisbon (see [our storm article](red-wind-warning-lisbon-wednesday.html)). Here is what the people who run the city's transport and the government have published for today.
 
 **Carris.** Its [service notice](https://www.carris.pt/viaje/alteracoes-de-servico/alerta-circulacao/) lists "Carreiras Shuttle Web Summit - cancelado, devido à suspensão do evento" (the Web Summit shuttle routes, cancelled because the event is suspended). Carris says it will try to keep public service running, but there may be delays, diversions, temporary interruptions, route changes or cancelled services. Its priority, it says, is essential journeys, including links to health care and transport for emergency workers. Two ticket points are closed, at Saldanha and Cais do Sodré.
 
