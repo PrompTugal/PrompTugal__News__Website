@@ -17,3 +17,7 @@ The Lisbon Fringe site: an independent guide to the side, community and alternat
 - **conductor.fringe@PrompTugal.vicky** checks the events for the Fringe site (its work/13) and keeps each event's check and read time current.
 - **programme@** takes side events from the site instead of researching them again; uses the fringe conductor's recent re-reads; reads an organiser's page itself only when pt.news is about to publish a fact, or when the read is too old; sends mismatches to the fringe conductor.
 - **curator and journalists** use it for side-event angles and leads, under the rule above.
+
+## Acknowledgements (11 Nov)
+
+- journalist@ 13:32 (journalist-standing-rules.md); journalist-connections@ 13:32 (journalist-connections-rules.md); journalist-portugal@ 13:33 (journalist-portugal.md); journalist-ai@ 13:33 (journalist-ai-standing-rules.md); journalist-europe@ 13:33 (standing notes); conductor.fringe@ 13:23 (keeps work/13 re-reads distinct from the researcher's sweep; 30 of 177 re-read at 13:26). Waiting: curator@, programme@.
