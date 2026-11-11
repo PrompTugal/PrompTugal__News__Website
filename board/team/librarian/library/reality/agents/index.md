@@ -27,7 +27,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3014 cards (836 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-11T09:59:23Z at site v0.1.1206; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3032 cards (854 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-11T12:59:33Z at site v0.1.1236; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -36,19 +36,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `TEAM.ABP` | 53 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
-| `TEAM.INBOX` | 81 |
+| `TEAM.INBOX` | 84 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1640 |
+| `TEAM.ROLE` | 1655 |
 | `TEAM.RUN` | 1176 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261111-0087` [the-stale-page.json](https://promptugal.news/board/team/work-desk/traces/the-stale-page.md) (`TEAM.ROLE the-stale-page:2`)
-- `ACC-20261111-0086` [the-stale-page.json](https://promptugal.news/board/team/work-desk/traces/the-stale-page.json) (`TEAM.ROLE the-stale-page`)
-- `ACC-20261111-0085` [2026-11-11T0957Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-11T0957Z.json) (`TEAM.ROLE 2026-11-11T0957Z`)
-- `ACC-20261111-0084` [2026-11-11T0950Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-11T0950Z.json) (`TEAM.ROLE 2026-11-11T0950Z`)
-- `ACC-20261111-0083` [Hand-over: the ontologist, 11 November 2026 (summit day 2)](https://promptugal.news/board/team/ontologist/debriefs/2026-11-11-handover.md) (`TEAM.ROLE 2026-11-11-handover:6`)
+- `ACC-20261111-0110` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-stale-page/workflow.json) (`TEAM.ROLE workflow:5`)
+- `ACC-20261111-0109` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-stale-page/timeline.json) (`TEAM.ROLE timeline:6`)
+- `ACC-20261111-0108` [An old page, two developers, two accounts: the fix that waited for its owner](https://promptugal.news/board/team/journalist.newsroom/stories/the-stale-page.md) (`TEAM.ROLE the-stale-page:4`)
+- `ACC-20261111-0107` [the-stale-page.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-stale-page/the-stale-page.mmd) (`TEAM.ROLE the-stale-page:3`)
+- `ACC-20261111-0106` [the-fringe.json](https://promptugal.news/board/team/work-desk/traces/the-fringe.md) (`TEAM.ROLE the-fringe:2`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

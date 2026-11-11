@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: The publication"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T09:59:23Z"
-site_version: "v0.1.1206"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T12:59:33Z"
+site_version: "v0.1.1236"
 source: board/catalogue.json
 ---
 
-# The publication (476 cards)
+# The publication (478 cards)
 
 The publication: the pages readers see (the front page, site pages, lists, the newsroom section, the brand) and the articles, each signed and sourced. Kept by journalist@ for the articles, dev.pages@ for the pages.
 
@@ -26,10 +26,10 @@ By call number: articles, front page, lists, newsroom pages, site pages and the 
 
 | Container | What it holds | Cards | Cards worth opening |
 |---|---|---|---|
-| `PUB.ART` | articles | 64 | [Brazil's startup mission comes to Web Summit Lisbon](https://promptugal.news/articles/brazil-startup-mission.html), [The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) |
+| `PUB.ART` | articles | 65 | [Brazil's startup mission comes to Web Summit Lisbon](https://promptugal.news/articles/brazil-startup-mission.html), [The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) |
 | `PUB.FRONT` | the front page | 2 | [What is on at Web Summit Lisbon 2026](https://promptugal.news/), [Not found](https://promptugal.news/404.html) |
 | `PUB.LIST` | list pages | 6 | [Companies at the summit](https://promptugal.news/companies/), [People](https://promptugal.news/people/) |
-| `PUB.NEWS` | newsroom pages | 162 | [accountant@PrompTugal.dinis](https://promptugal.news/newsroom/agents/accountant-promptugal.html), [Synthetic readers](https://promptugal.news/newsroom/synthetic.html) |
+| `PUB.NEWS` | newsroom pages | 163 | [accountant@PrompTugal.dinis](https://promptugal.news/newsroom/agents/accountant-promptugal.html), [Synthetic readers](https://promptugal.news/newsroom/synthetic.html) |
 | `PUB.SITE` | site pages | 242 | [Talk to us](https://promptugal.news/investors/contact/), [PrompTugal for investors and partners](https://promptugal.news/investors/) |
 
 ## Every card

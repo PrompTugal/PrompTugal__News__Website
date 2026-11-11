@@ -27,20 +27,20 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-75 cards (75 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-11T09:59:23Z at site v0.1.1206; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+76 cards (76 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-11T12:59:33Z at site v0.1.1236; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GEN.BRIEF` | 11 |
-| `PUB.ART` | 64 |
+| `PUB.ART` | 65 |
 
 Newest five accessions:
 
+- `ACC-20261111-0091` [The EU's Digital Fairness Act: rules for AI agents that shop](https://promptugal.news/articles/digital-fairness-act-ai-agents.html) (`PUB.ART digital-fairness-act-ai-agents`)
 - `ACC-20261111-0078` [EU says TikTok's For You feed may breach its platform law](https://promptugal.news/articles/tiktok-for-you-dsa-preliminary-finding.html) (`PUB.ART tiktok-for-you-dsa-preliminary-finding`)
 - `ACC-20261111-0077` [Konecta picks Lisbon for a delivery centre and 700 jobs](https://promptugal.news/articles/konecta-lisbon-delivery-centre.html) (`PUB.ART konecta-lisbon-delivery-centre`)
 - `ACC-20261111-0056` [The EU asks for views on election rules for generative AI](https://promptugal.news/articles/eu-election-guidelines-generative-ai.html) (`PUB.ART eu-election-guidelines-generative-ai`)
 - `ACC-20261111-0055` [Four startups pitch on Thursday's Centre Stage: what each does](https://promptugal.news/articles/breakout-startups-thursday-centre-stage.html) (`PUB.ART breakout-startups-thursday-centre-stage`)
-- `ACC-20261111-0030` [How Zalando rolled out AI coding agents across its engineering teams](https://promptugal.news/articles/zalando-ai-coding-agents.html) (`PUB.ART zalando-ai-coding-agents`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
