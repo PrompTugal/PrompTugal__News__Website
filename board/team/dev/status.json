@@ -2,14 +2,14 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "working",
-  "updated": "2026-11-11T15:25Z",
+  "updated": "2026-11-11T16:20Z",
   "done": [
+    "wake 16:08 (11 Nov): lean: nothing new to review; GAMMA-Ray re-pulled",
     "wake 15:08 (11 Nov): lean: brought dev.data@'s S41 (IPMA's lower, shorter warnings) and the others' status; GAMMA-Ray re-pulled",
     "wake 14:08 (11 Nov): lean: nothing new to review; GAMMA-Ray re-pulled",
     "wake 13:08 (11 Nov): lean: dev.pages@ dropped its strip; brought dev.data@'s S41 (Web Summit back on Thursday) and the others' status; GAMMA-Ray re-pulled",
     "wake 12:08 (11 Nov): security@ passed the offline worker fix and the storm site read (12:05); dev.pages@'s second live-sources strip (2026cc680) declined as a duplicate of mine, with a rule agreed for the home page: say on the other's lane before starting, whoever says first takes it; told Vicky's dev the strip shows on /storm/charles/",
-    "wake 11:08 (11 Nov): the live sources strip (Dinis 10:00; designer@'s L1 to L6): under the masthead on the home page and /storm/charles/, the storm site as LIVE SOURCE with its own updated time read live from its /api/v1/index.json, and Lisbon Fringe (live) as NEW, each with its address in full; sources in assets/sources/sources.json (live: false hides one); another storm-page commit reviewed",
-    "wake 10:08 (11 Nov): the last part of the stale-page fix: a page answered from a kept copy says so ('A kept copy from HH:MM UTC. Reload'), and is replaced by 'A newer copy of this page is here. Reload' when the network's late answer arrives; tested in Chromium with a 6 s delay; dev@PrompTugal.vicky's storm layout reviewed"
+    "wake 11:08 (11 Nov): the live sources strip (Dinis 10:00; designer@'s L1 to L6): under the masthead on the home page and /storm/charles/, the storm site as LIVE SOURCE with its own updated time read live from its /api/v1/index.json, and Lisbon Fringe (live) as NEW, each with its address in full; sources in assets/sources/sources.json (live: false hides one); another storm-page commit reviewed"
   ],
   "next": [
     "the green dot for a product with a GAMMA-Ray card (needs ontologist@'s product-to-card links)",
