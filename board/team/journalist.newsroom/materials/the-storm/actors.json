@@ -2,9 +2,9 @@
   "story": "the-storm",
   "from": "board/team/work-desk/traces/the-storm.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 129,
+  "steps": 135,
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T11:52:33Z",
+  "last": "2026-11-11T14:55:54Z",
   "actors": [
     {
       "actor": "Lisbon's mayor",
@@ -53,12 +53,12 @@
     {
       "actor": "reviewer@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 22,
+      "steps": 24,
       "first": "2026-11-10T14:36:22Z",
-      "last": "2026-11-11T11:06:36Z",
-      "span_minutes": 1230,
-      "handoffs_out": 20,
-      "handoffs_in": 28,
+      "last": "2026-11-11T14:11:17Z",
+      "span_minutes": 1415,
+      "handoffs_out": 22,
+      "handoffs_in": 32,
       "tokens": null
     },
     {
@@ -69,7 +69,7 @@
       "last": null,
       "span_minutes": null,
       "handoffs_out": 0,
-      "handoffs_in": 15,
+      "handoffs_in": 17,
       "tokens": null
     },
     {
@@ -108,11 +108,11 @@
     {
       "actor": "weather@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 19,
+      "steps": 21,
       "first": "2026-11-10T16:56:01Z",
-      "last": "2026-11-11T09:48:52Z",
-      "span_minutes": 1013,
-      "handoffs_out": 22,
+      "last": "2026-11-11T14:55:54Z",
+      "span_minutes": 1320,
+      "handoffs_out": 25,
       "handoffs_in": 9,
       "tokens": null
     },
@@ -141,11 +141,11 @@
     {
       "actor": "Vicky Wang",
       "kind": "person",
-      "steps": 4,
+      "steps": 5,
       "first": "2026-11-10T17:20:00Z",
-      "last": "2026-11-11T00:17:00Z",
-      "span_minutes": 417,
-      "handoffs_out": 5,
+      "last": "2026-11-11T13:14:24Z",
+      "span_minutes": 1194,
+      "handoffs_out": 7,
       "handoffs_in": 8,
       "tokens": null
     },
@@ -163,12 +163,12 @@
     {
       "actor": "dev@PrompTugal.vicky",
       "kind": "agent",
-      "steps": 16,
+      "steps": 17,
       "first": "2026-11-10T17:29:39Z",
-      "last": "2026-11-11T11:00:03Z",
-      "span_minutes": 1050,
-      "handoffs_out": 15,
-      "handoffs_in": 12,
+      "last": "2026-11-11T14:15:31Z",
+      "span_minutes": 1246,
+      "handoffs_out": 16,
+      "handoffs_in": 14,
       "tokens": null
     },
     {

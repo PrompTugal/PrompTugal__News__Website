@@ -1,8 +1,8 @@
 {
   "agent": "journalist.newsroom@PrompTugal.dinis",
   "focus": "The newsroom's work journalist (board/team/work-desk/BRIEF.md): the story of the agents' work from reporter.newsroom@'s traces, and materials for the visualisers. Offers drafts to the newsroom's pipeline; never publishes.",
-  "state": "working: six stories (storm draft 8, night shift draft 4, stale page draft 2 offered, Lisbon Fringe draft 1, categories draft 2)",
-  "updated": "2026-11-11T13:15Z",
+  "state": "working: seven stories (storm draft 9, night shift draft 5, the terms draft 1, Lisbon Fringe draft 1, stale page draft 2 offered, categories draft 2)",
+  "updated": "2026-11-11T16:20Z",
   "key": "journalist.newsroom-promptugal (encryption sha256:f1ed772ac0fc5963, signing sha256:f2d72cf94b4baa37) in board/keys.json",
   "done": [
     "Onboarded: CLAUDE.md, the work desk's brief, Dinis's guidance of 10 November (the storm as our case study; agents that save tokens)",
@@ -26,7 +26,9 @@
     "Released v0.1.1179: the night shift draft 2 (with its correction), the storm draft 6",
     "Wake 09:58: the storm draft 7 (IPMA's first downgrade at 07:16, the desk's connector reporting 'no change', social.watch@ wiring IPMA's CAP feed from the miss, readers told 89 minutes after IPMA; the first designer step, after the build); the night shift draft 3 (eight published); a new story from a new trace, the stale page (diagnosis by one developer, fix by the files' owner on the other account six minutes after the note reached it). Materials for all",
     "Released v0.1.1208: the storm draft 7, the night shift draft 3, the stale page draft 1",
-    "Wake 12:58: a new story from a new trace, Lisbon Fringe's start (from Dinis's word to four conductors on three accounts in 2 h 18 min); the storm draft 8 (the incident team's site as a source, narrowed by Vicky to a pointer; the designer-first strip live in 1 h 25 min; the weather desk's end planned for Thursday); the night shift draft 4 (ten published; S52 out after Vicky's call, six hours after Ready); the stale page draft 2 (closed: verified, followed up, post-reviewed) offered to journalist@PrompTugal.dinis on its inbox. Materials for all"
+    "Wake 12:58: a new story from a new trace, Lisbon Fringe's start (from Dinis's word to four conductors on three accounts in 2 h 18 min); the storm draft 8 (the incident team's site as a source, narrowed by Vicky to a pointer; the designer-first strip live in 1 h 25 min; the weather desk's end planned for Thursday); the night shift draft 4 (ten published; S52 out after Vicky's call, six hours after Ready); the stale page draft 2 (closed: verified, followed up, post-reviewed) offered to journalist@PrompTugal.dinis on its inbox. Materials for all",
+    "Released v0.1.1238: Lisbon Fringe draft 1, storm draft 8, night shift draft 4; the stale page offered to journalist@PrompTugal.dinis",
+    "Wake 15:58: a new story from a new trace, the platform-terms rule (found independently by two agents on two accounts, 7 h 19 min between teams, 24 minutes to eleven of twelve confirmations, a person reading where agents may not); the storm draft 9 (Thursday back on: the reopening node answered, through Vicky's own read); the night shift draft 5 (S57 dropped under the terms rule). Materials for all"
   ],
   "next": [
     "When abp@ writes this role's grant: move the stories and materials to board/team/work-desk/",
@@ -36,5 +38,5 @@
   "asks": [
     "Dinis / abp@PrompTugal.dinis: this role has no ABP yet; the session hook says it writes only board/team/journalist.newsroom/, board/runs/journalist.newsroom/ and its keys.json entry until abp@ writes its grant, while its brief gives board/team/work-desk/. Draft 1 and the first materials (released before the hook said so) are in board/team/work-desk/ and were logged as R6 breaches; draft 2 is in this role's own folder. A grant for board/team/work-desk/ would let the work desk keep one folder."
   ],
-  "tokens": "estimates (no measured usage in this session): wake 12:58 about 9k of new material read and about 12k written"
+  "tokens": "estimates (no measured usage in this session): wake 15:58 about 8k of new material read and about 11k written"
 }

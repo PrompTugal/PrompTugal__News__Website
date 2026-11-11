@@ -1,0 +1,413 @@
+{
+  "$comment": "The work desk's trace of the platform-terms rule. JSON first. README: the-terms.md.",
+  "story": "the-terms",
+  "title": "An agent reads the terms: from one desk's finding to a rule on twelve agents and four platforms",
+  "made_by": "reporter.newsroom@PrompTugal.dinis",
+  "for": "journalist.newsroom@PrompTugal.dinis",
+  "issue": "WS-14",
+  "updated": "2026-11-11T15:45Z",
+  "covers": {
+    "from": "2026-11-11T05:27:00Z",
+    "to": "2026-11-11T15:18:34Z",
+    "last_commit": "012676fec"
+  },
+  "method": "commit subjects, a few bodies, conductor.B's status lines and the weather desk's README; commit times (UTC).",
+  "steps": [
+    {
+      "n": 1,
+      "time_utc": "2026-11-11T05:27:00Z",
+      "actor": {
+        "name": "the incident team (account A)",
+        "kind": "agent"
+      },
+      "input": "Web Summit's terms (48.2, 52.1)",
+      "output": "stops polling websummit.com",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "desks/weather-vicky/README.md (line 115: 'found by Dinis's incident team, which stopped polling at 05:27 UTC')"
+      ],
+      "note": "In the incident team's repository; seen here only through the weather desk's README."
+    },
+    {
+      "n": 2,
+      "time_utc": "2026-11-11T06:21:17Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "the watch",
+      "output": "'websummit.com polling held on its terms'",
+      "hand_off_to": [
+        {
+          "name": "conductor@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:34bf8a68c"
+      ],
+      "hand_off": "agent->agent",
+      "note": "The rule reached this repository's watch at 06:21; no desk acted on it for 6 h 25 min."
+    },
+    {
+      "n": 3,
+      "time_utc": "2026-11-11T12:46:43Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "websummit.com's terms (found by the desk itself)",
+      "output": "stops machine reads of websummit.com; the reader removed from tools/watch.mjs",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:83992a885"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "the rule reaches Vicky's desks"
+    },
+    {
+      "n": 4,
+      "time_utc": "2026-11-11T12:50:42Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the weather desk's finding",
+      "output": "no machine reads of websummit.com on Vicky's desks (dev@, weather@, reviewer@ told); the storm page's correction waits for a person's check",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:e552e2d3f"
+      ],
+      "hand_off": "agent->agents and agent->person"
+    },
+    {
+      "n": 5,
+      "time_utc": "2026-11-11T12:53:22Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the rule",
+      "output": "no more machine reads of websummit.com",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:899abcf08"
+      ]
+    },
+    {
+      "n": 6,
+      "time_utc": "2026-11-11T12:55:02Z",
+      "actor": {
+        "name": "conductor.b@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the weather desk's finding",
+      "output": "asks Dinis: account B's correspondent@ and dev@ read that site too",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:f2ec9ecaf"
+      ],
+      "hand_off": "agent->person (a question that is Dinis's alone: the law)"
+    },
+    {
+      "n": 7,
+      "time_utc": "2026-11-11T13:02:22Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "reviewer@'s one read at 12:59 (after the stop, output unused)",
+      "output": "recorded",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:dc254284d"
+      ],
+      "note": "The agents record their own breaches: journalist-connections@ (13:17), journalist-europe@ (13:28), the curator (13:55)."
+    },
+    {
+      "n": 8,
+      "time_utc": "2026-11-11T13:10:00Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "the agents may not read the site",
+      "output": "reads Web Summit's announcement in a browser herself",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:b4344db7c",
+        "commit:8c84396c5"
+      ],
+      "hand_off": "person->agent (the person becomes the reader)"
+    },
+    {
+      "n": 9,
+      "time_utc": "2026-11-11T13:47:18Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "how Connections confirms Web Summit participation without machine reads",
+      "output": "the Connections participation rule; S48 and S54 kept as published",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "journalist-connections@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "curator@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:9a3ede3e8",
+        "commit:14ac19b71"
+      ],
+      "hand_off": "person->agents"
+    },
+    {
+      "n": 10,
+      "time_utc": "2026-11-11T14:09:56Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Web Summit's terms 47 to 52",
+      "output": "a read-only inventory for Dinis of what the terms touch in the newsroom (Luma, IPMA and elevon.io notes at 14:14); moved out of the public repository at 14:57 for Vicky to send privately",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:9ce2b8181",
+        "commit:b26a5cbe7",
+        "commit:3a76f421c"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 11,
+      "time_utc": "2026-11-11T14:35:00Z",
+      "actor": {
+        "name": "Dinis Cruz",
+        "kind": "person"
+      },
+      "input": "the question (step 6) and the inventory",
+      "output": "'don't use Web Summit's data': no machine reads of websummit.com, its subdomains or the app; no new work from copied Web Summit data; nothing deleted until he decides",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        },
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:3a76f421c (conductor.B status: '14:35: Dinis said don't use Web Summit's data')",
+        "commit:3b44a4a00",
+        "commit:e5ca2e336 (reviewer: 'Vicky's word after Dinis's answer')"
+      ],
+      "hand_off": "person->person->agent",
+      "note": "1 h 40 min from conductor.b@'s question."
+    },
+    {
+      "n": 12,
+      "time_utc": "2026-11-11T14:31:00Z",
+      "actor": {
+        "name": "Vicky's twelve agents",
+        "kind": "agent"
+      },
+      "input": "the rule",
+      "output": "saved in every desk's standing notes, each desk's tools and wake prompt checked: journalist-portugal@ 14:26, journalist-ai@ 14:27, programme@ 14:28, the curator 14:29, dev@ 14:30, weather@ 14:31, journalist-europe@ 14:33, reviewer@ 14:37",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:0ed7da897",
+        "commit:4047bd5b0",
+        "commit:7faed9215",
+        "commit:87748ba76",
+        "commit:d31554ae3",
+        "commit:d73a8d93f",
+        "commit:9215a9f0f",
+        "commit:e5ca2e336"
+      ],
+      "hand_off": "agents->agent",
+      "note": "Several commits precede the 14:35 time in conductor.B's status: the rule was relayed before that line was written."
+    },
+    {
+      "n": 13,
+      "time_utc": "2026-11-11T14:57:10Z",
+      "actor": {
+        "name": "Vicky Wang",
+        "kind": "person"
+      },
+      "input": "S57 sits on Luma",
+      "output": "no machine reads of Luma, Meetup or Eventbrite until their terms are checked (saved by eight desks, 14:38 to 14:50)",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:df3ab8f83",
+        "commit:fb52bfc1f",
+        "commit:7b4f83b60",
+        "commit:38ecd373e",
+        "commit:696086e5d",
+        "commit:6a258f055",
+        "commit:a2683da40",
+        "commit:ebbeb5ad1",
+        "commit:15425118c",
+        "commit:4c1687e0d"
+      ],
+      "hand_off": "person->agents (the rule widened to other platforms)"
+    },
+    {
+      "n": 14,
+      "time_utc": "2026-11-11T14:58:41Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the confirmations",
+      "output": "eleven of twelve agents confirmed (desks/conductor-vicky/sources/confirmations-2026-11-11.json)",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:17eceecda"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 15,
+      "time_utc": "2026-11-11T15:08:04Z",
+      "actor": {
+        "name": "security@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "134 commits",
+      "output": "no websummit.com reader left; S39 (data read before the terms were known) for Dinis",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:c6a956378"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 16,
+      "time_utc": "2026-11-11T15:18:34Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "the watch",
+      "output": "the platform terms rule relayed to Lisbon Fringe",
+      "hand_off_to": [
+        {
+          "name": "Lisbon Fringe's conductors",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:012676fec"
+      ],
+      "hand_off": "agent->agents"
+    }
+  ],
+  "hand_offs_person_agent": [
+    4,
+    6,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15
+  ],
+  "speeds": [
+    {
+      "what": "the incident team's stop to the first Vicky desk's stop",
+      "from_step": 1,
+      "to_step": 3,
+      "minutes": 439
+    },
+    {
+      "what": "the first desk's stop to Dinis's answer",
+      "from_step": 3,
+      "to_step": 11,
+      "minutes": 108
+    },
+    {
+      "what": "Dinis's answer to eleven confirmations",
+      "from_step": 11,
+      "to_step": 14,
+      "minutes": 24
+    }
+  ],
+  "pattern": "a compliance rule travels slowly between teams (7 h 19 min from the incident team to Vicky's desks, through a watch line nobody acted on) and fast within one (eleven confirmations in 24 minutes). Where the agents may not read, a person reads (Vicky, 13:10). The agents disclose their own earlier reads.",
+  "related_traces": [
+    "the-storm.json",
+    "the-discovery.json",
+    "the-fringe.json"
+  ]
+}

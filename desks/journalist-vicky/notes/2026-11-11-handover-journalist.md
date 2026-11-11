@@ -11,7 +11,7 @@ Yesterday's note, with every check and draft of 10 November: `2026-11-10-handove
 ## Where the desk stands
 - Published (by the reviewer, at Vicky's word): S41 (the storm and Day 2), S45 (refunds after Day 2). S40 earlier.
 - S44 (update note for the Wednesday guide): Ready; placement held for Vicky's approval and the guide's owner.
-- S41 watch (standing task from 10 Nov 14:55 UTC): each :05 wake, IPMA's warnings for the Lisbon district and Web Summit's own channels; a change goes to the reviewer with source and UTC time; this desk never edits S41. Ends when IPMA's warning has ended and Wednesday's programme is over.
+- S41 watch (standing task from 10 Nov 14:55 UTC): each :05 wake, IPMA's warnings for the Lisbon district (open data); Web Summit's side only by a person's browser read or the press (no machine reads, from 11 Nov 12:47 UTC); a change goes to the reviewer with source and UTC time; this desk never edits S41. Ends when IPMA's warning has ended and Wednesday's programme is over.
 
 ## Run summaries
 - S41 checked 00:06 UTC, no change against the live article: IPMA's rain is now orange 00:00 to 09:00 and red 09:00 to 18:00 (already in S41 via the reviewer's 23:51 update); wind red 12:00 to 21:00 and sea orange 12:00 to 21:00 unchanged; Web Summit's post unchanged since 19:25 on 10 Nov, no new post.
@@ -41,3 +41,6 @@ Pull dev; holds; "New from Dinis"; the curator's newest map; reviews for this de
 - S41 checked 14:07 UTC on IPMA: CHANGE. IPMA re-issued Lisbon's warnings from 12:34: rain red until 15:00, then yellow 15:00 to 18:00 (was red 09:00 to 18:00); wind orange until 18:00 (was until 21:00); sea orange until 21:00, then yellow to 03:00 Thursday. Sent to the reviewer at 14:08 UTC. Web Summit's side not checked (no machine reads).
 - Terms checked before machine reads: IPMA's API conditions allow automated use (they ask users to email IPMA about their use: a send for a person, not done). Elevon: robots.txt allows automated readers. Luma: terms ambiguous ("bona fide uses ... through our publicly supported interfaces").
 - S57 (Wednesday's side events, curator's STORM-11NOV): held, not drafted. Three of its four sources are Luma pages; asked Vicky through the conductor (14:10 UTC) whether machine reads of Luma are fine, or a person reads them, or they are dropped.
+- S57 dropped at Vicky's word (about 15:05 UTC, relayed by conductor.B): she checked the three Luma pages; one ended at 10:00 and two are not open to readers directly; lisbontechfringe.com already lists today's side events. No draft written.
+- S41 checked 15:09 UTC on IPMA, no change since 14:07 (rain red to 15:00 then yellow to 18:00; wind orange to 18:00; sea orange to 21:00). No new assignment.
+- S41 checked 16:06 UTC on IPMA, no change against the live article: re-issued 15:06, no red left (rain yellow to 18:00, wind orange to 18:00, sea orange to 21:00, then yellow to 03:00); S41's rain update was checked live by the conductor at 15:48. No new assignment.

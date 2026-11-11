@@ -19,3 +19,11 @@ Vicky Wang's developer for PrompTugal.news: small changes to the site when Vicky
 ## Source rule: storm-charles.promptugal.news (11 November 2026, at Vicky's word, at Dinis's request)
 
 The rule is `desks/conductor-vicky/sources/storm-charles.md`. For `/storm/charles/`: the site (the PrompTugal incident team's aggregator of public sources on Storm Charles; JSON at `/api/v1/index.json`) is **a pointer, never the source we cite**: use it to find and time a change, then read the fact at the official source (IPMA, ANEPC, the government, the operator, Web Summit) and cite that with our own read time; do not cite it back to ourselves (it reads our weather desk); its hypotheses and analysis are never stated as fact; check its read times. The page carries one line naming it (the `extra_sources` field of `desks/dev-vicky/storm/charles.json`, drawn by `newsroom/build/features/storm.mjs`). Every refresh still goes to reviewer@ before it is live (staged in `desks/dev-vicky/storm/next/`, rule R-PUB-1).
+
+## No machine reads of websummit.com (Dinis's word, relayed by conductor.B, 11 Nov 2026, about 14:30 UTC)
+1. No machine reads of websummit.com, any subdomain, or the Web Summit app: no curl, fetch, script, sub-agent, headless or automated browser, API or AI-agent access. Web Summit's word comes only from a person's own browser read, the organisers' own public posts, or the press.
+2. Checked at 14:30 UTC: no tool or script of this desk reads those hosts (the page text only cites them as sources, with the time a person read them); no wake prompt (this session has none). Nothing to remove.
+3. Do not use data copied from Web Summit's site for new work (programme agenda, the Web Summit-derived parts of data/, the researcher's startup capture); do not delete or change any of it until Dinis says.
+
+## No machine reads of Luma, Meetup or Eventbrite (Dinis's word via Vicky, relayed by conductor.B, 11 Nov 2026, about 14:40 UTC)
+Until Dinis decides on Luma, no machine reads of luma.com, lu.ma or Luma's API; until their terms are checked, none of meetup.com or eventbrite.com. Checked at 14:40 UTC: no tool, script or note of this desk reads them; no wake prompt. Nothing to remove.

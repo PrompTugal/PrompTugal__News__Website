@@ -32,3 +32,21 @@ In practice:
 "For Connections, participation may be confirmed by the person's or company's own public page or post, a press report, or my browser read of their Web Summit page. No machine reads of websummit.com. Keep S48 and S54 as published."
 
 Relayed to journalist-connections@, curator@ and reviewer@. This updates standing answer 19's confirmation step (decisions.md) while this account covers; carry it to decisions.md at switch-back.
+
+## Programme and Web Summit's schedule (Vicky, 11 November 2026, about 14:20 UTC, in the conductor window)
+
+"Until Dinis decides, programme adds no new items copied from Web Summit's schedule. For Thursday it only updates the status of items already listed and links to Web Summit's own schedule. No schedule capture needed for now." Status comes from sources programme may read (speakers' or organisers' own pages or posts, the press, a person's browser read); no machine reads of websummit.com; nothing deleted.
+
+## Web Summit's site and data (Vicky, 11 November 2026, about 14:30 UTC, after Dinis's answer "yes, dont use them")
+
+- No agent on this account reads websummit.com, its subdomains or the Web Summit app by machine; each agent confirms it has checked its tools, scripts, notes and wake prompt.
+- Data copied from Web Summit's site is not used for new work, and nothing existing is deleted or changed until Dinis says what to do with it.
+- The terms inventory prepared for Dinis is kept out of the public repository; Vicky sends it to him.
+
+## Luma, Meetup and Eventbrite (Vicky, 11 November 2026, about 14:40 UTC)
+
+Until Dinis decides on Luma, no agent on this account reads luma.com (or lu.ma, or its API) by machine, including the fringe conductor and programme. No machine reads of meetup.com or eventbrite.* until their terms are checked and Vicky decides. Their robots.txt (read 14:45 UTC): Meetup blocks GPTBot entirely and closes its calendar/RSS feeds to all; Eventbrite closes its RSS/atom feeds and many query URLs and asks one crawler to slow down. Both sites' terms of service, as the conductor understands them (not re-read today), forbid robots, scrapers or other automated access without written permission; to be confirmed by a person reading the terms in a browser.
+
+## Sources for anything about Web Summit (Vicky, 11 November 2026, about 15:45 UTC, in the conductor window)
+
+"Until Dinis decides, for anything about Web Summit: use press reports, the companies', speakers' and organisers' own posts and releases, official public bodies, and a person's browser check for single facts. Link to Web Summit's pages instead of copying or summarising them." Relayed to curator@, reviewer@ and the five journalists. Applies to new work; existing published text stays until Dinis decides.

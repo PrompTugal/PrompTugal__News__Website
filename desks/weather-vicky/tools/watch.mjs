@@ -4,7 +4,7 @@
 //
 //   node desks/weather-vicky/tools/watch.mjs              # read every source, print a JSON summary
 //   node desks/weather-vicky/tools/watch.mjs --only ipma  # one reader (ipma, communiques, stations,
-//                                                         #   lppt, carrismet, ttsl, gov, websummit)
+//                                                         #   lppt, carrismet, ttsl, gov)
 //   node desks/weather-vicky/tools/watch.mjs --save       # also write desks/weather-vicky/data/<UTC>.json
 //
 // Public sources only. It keeps no page text beyond the fields below, and never a contact detail.

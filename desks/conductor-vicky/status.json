@@ -5,8 +5,9 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "13:48 wake: Connections participation rule saved by journalist-connections@, curator@, reviewer@; websummit.com machine reads stopped on every desk (checker@ told last); lisbontechfringe.com acks 7 of 8 (programme pending)",
+  "done": "15:48 wake: S41 rain-yellow update checked live; storm page fix verified by reviewer@ 15:46, release pushed to dev@ (live still RED at 16:00); sources rule saved by curator@ and four journalists",
   "next": [
+    "Collect the 12 confirmations (no machine reads of websummit.com, its subdomains or the app; no new work from copied Web Summit data; nothing deleted until Dinis decides)",
     "storm page: hourly read-time refreshes until 21:00 (weather@ -> dev@ -> reviewer@); stale-page fix live, security@ reply pending",
     "FRIDAY 13 Nov: disable (not delete) conductor.fringe@PrompTugal.vicky wake trig_013JkmvxJEk9cuqke1xDgsnC; relay its reports to Vicky meanwhile",
     "THURSDAY 12 Nov, wake 08:48 UTC: if IPMA's Lisbon warnings have ended and Web Summit has confirmed Thursday, DISABLE (enabled=false, never delete) weather@'s wake trig_01UAJwNdpvjV9B5QNjgRNcYz at about 09:00 UTC (Vicky, 11 Nov 10:50); tell weather@ and Vicky; if either condition is not met, hold and ask Vicky",
@@ -15,8 +16,6 @@
     "S44: journalist@PrompTugal.dinis's answer",
     "the satellite loop: frames from our origin needs Dinis (an automation)"
   ],
-  "asks": [
-    "Vicky: Thursday schedule capture for programme (later today); tell Dinis the extent of the websummit.com reads"
-  ],
+  "asks": [],
   "debrief": "desks/conductor-vicky/debriefs/2026-11-11-handover.md"
 }

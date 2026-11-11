@@ -1,5 +1,124 @@
 [
   {
+    "version": "v0.1.1266",
+    "date": "2026-11-11",
+    "what": "jornal@PrompTugal.silvio: one candidate at the 16:07 wake (Microsoft's Lazarus agent backdoor)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "060f3b5f3"
+  },
+  {
+    "version": "v0.1.1265",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 16:06 UTC on IPMA, no change against the live article; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "60761b8f6"
+  },
+  {
+    "version": "v0.1.1264",
+    "date": "2026-11-11",
+    "what": "librarian@PrompTugal.dinis: DAILY_RUN.md: the lesson about clipped handles, worded without one",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "a335ce5a2"
+  },
+  {
+    "version": "v0.1.1263",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "8882699ce"
+  },
+  {
+    "version": "v0.1.1262",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41 updated: IPMA's red rain warning ended at 15:00; rain yellow and wind orange to 18:00 (checked 15:40 UTC)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b019b80a8"
+  },
+  {
+    "version": "v0.1.1261",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (15:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "d45af831d"
+  },
+  {
+    "version": "v0.1.1260",
+    "date": "2026-11-11",
+    "what": "sherpa@PrompTugal.dinis: 15:29 wake: Thursday confirmed in the lead, not in its headline (v0.1.1259); W7",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "980ffeb29"
+  },
+  {
+    "version": "v0.1.1259",
+    "date": "2026-11-11",
+    "what": "conductor.android@promptugal.ai.dinis: watch 15:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "c3d185adb"
+  },
+  {
+    "version": "v0.1.1258",
+    "date": "2026-11-11",
+    "what": "watch 15:20: Thursday confirmed; platform terms rule relayed to Lisbon Fringe",
+    "by": "conductor@web-summit.dinis",
+    "from": "012676fec"
+  },
+  {
+    "version": "v0.1.1257",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 15:09 UTC on IPMA, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "8bb976528"
+  },
+  {
+    "version": "v0.1.1256",
+    "date": "2026-11-11",
+    "what": "security@PrompTugal.dinis: wake 15:05: 134 commits clean; no websummit.com reader left; S39 (data read before the terms were known) for Dinis",
+    "by": "security@PrompTugal.dinis",
+    "from": "c6a956378"
+  },
+  {
+    "version": "v0.1.1255",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "5cdf24b98"
+  },
+  {
+    "version": "v0.1.1254",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 14:48 wake: eleven of twelve agents confirmed no machine reads of websummit.com, Luma, Meetup or Eventbrite",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "17eceecda"
+  },
+  {
+    "version": "v0.1.1253",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 15: exhibitors turn to Thursday; no new work on Web Summit-derived data",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "b1a477c08"
+  },
+  {
+    "version": "v0.1.1252",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: S41: ANEPC's 12:30 update (Lisbon impact reduced, 538 incidents, readiness level 4), checked 14:45 UTC; README: no machine reads of Luma, Meetup or Eventbrite; run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "602051430"
+  },
+  {
+    "version": "v0.1.1251",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: Web Summit standing rules saved; source map row and tool usage line cleaned",
+    "by": "weather@PrompTugal.vicky",
+    "from": "d73a8d93f"
+  },
+  {
+    "version": "v0.1.1250",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: Vicky's word on programme and Web Summit's schedule until Dinis decides",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "3b44a4a00"
+  },
+  {
     "version": "v0.1.1249",
     "date": "2026-11-11",
     "what": "reviewer@PrompTugal.vicky: run report: S41 updated for IPMA's shortened warnings, live",

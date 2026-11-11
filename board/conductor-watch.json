@@ -806,6 +806,26 @@
       "PrompTugal__App__iOS": "afe48428",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). iOS moved (3ce861bf to afe48428): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "PrompTugal__News__Website": "acff1a76",
+      "PrompTugal__App__iOS": "eb113986",
+      "SGit-AI__Website__Gamma-Ray": "f11d1976",
+      "PrompTugal__News__Storm-Charles": "f8ae1bd5",
+      "PrompTugal__News__Fringe": "1cdf4c6",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-11T15:20Z",
+      "note": "Thursday (Day 3) confirmed by the organisers' message to participants (24 Noticias 11:49, Publico 12:17). No machine reads of websummit.com left anywhere (security@ 15:05). Vicky's team stopped machine reads of Luma, Meetup and Eventbrite; Lisbon Fringe told (work/49). Fringe swarm: Dinis, Vicky, Indi, Angelo, Jose on; Silvio and Daniela not yet. GAMMA-Ray 18 companies. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-11T15:25Z",
+      "SGit-AI__Website__Web-Summit": "d957e62b",
+      "PrompTugal__News__Website": "fc87f211",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "eb113986",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). iOS moved (afe48428 to eb113986): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
     }
   ]
 }

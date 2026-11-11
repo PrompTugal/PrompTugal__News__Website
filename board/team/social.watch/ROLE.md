@@ -38,7 +38,11 @@ At Dinis's word (board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon
 
 ## Rules
 
-Credit every item to its author with a link, when the author is a public figure, a journalist, an official or speaks for an organisation; a private person posting as themselves is kept as count, theme and platform only, with no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC); quote under 15 words; never copy a photo or video into this repository; nothing about a private person beyond their public post; no contact details ever. Public only: no login walls, no machine reads of websummit.com (its Terms 48.2 and 52.1 forbid automated reading; stopped 11 November 2026, 12:52 UTC), no pay-per-crawl gates, no bypassing robots.txt or terms, no private accounts. Every item verified by opening its URL, or marked unverified with the reason. OPEN_ROUTER_KEY is read from the environment only; every call is logged by cost in `spend.json` for accountant@ (about $20 a day, Dinis, 10 November).
+Credit every item to its author with a link, when the author is a public figure, a journalist, an official or speaks for an organisation; a private person posting as themselves is kept as count, theme and platform only, with no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC); quote under 15 words; never copy a photo or video into this repository; nothing about a private person beyond their public post; no contact details ever. Public only: no login walls, no machine reads of websummit.com (its Terms 48.2 and 52.1 forbid automated reading; stopped 11 November 2026, 12:52 UTC), no new work built on Web Summit-derived data (the agenda's sessions, people, places: Dinis, about 14:30 UTC, 11 November), no pay-per-crawl gates, no bypassing robots.txt or terms, no private accounts. Every item verified by opening its URL, or marked unverified with the reason. OPEN_ROUTER_KEY is read from the environment only; every call is logged by cost in `spend.json` for accountant@ (about $20 a day, Dinis, 10 November).
+
+## Sources for anything about Web Summit (from 11 November 2026)
+
+Until Dinis decides (as Vicky's desks record it, about 15:45 UTC): press reports, the companies', speakers' and organisers' own posts and releases, official public bodies, and a person's browser check for single facts. Link to Web Summit's pages; never copy or summarise them, and never read them by machine.
 
 ## Never
 

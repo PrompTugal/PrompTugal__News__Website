@@ -1,0 +1,166 @@
+{
+  "story": "the-terms",
+  "from": "board/team/work-desk/traces/the-terms.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 16,
+  "first": "2026-11-11T05:27:00Z",
+  "last": "2026-11-11T15:18:34Z",
+  "handoffs": [
+    {
+      "from": "the incident team (account A)",
+      "to": "conductor@web-summit.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-11T05:27:00Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor@web-summit.dinis",
+      "to": "conductor@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-11T06:21:17Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "weather@PrompTugal.vicky",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T12:46:43Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "dev@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T12:50:42Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T12:50:42Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "Vicky Wang",
+      "count": 2,
+      "times": [
+        "2026-11-11T12:50:42Z",
+        "2026-11-11T14:58:41Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "conductor.b@PrompTugal.dinis",
+      "to": "Dinis Cruz",
+      "count": 1,
+      "times": [
+        "2026-11-11T12:55:02Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "Vicky Wang",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-11T13:10:00Z",
+        "2026-11-11T13:47:18Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "Vicky Wang",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-11T13:47:18Z",
+        "2026-11-11T14:57:10Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "Vicky Wang",
+      "to": "journalist-connections@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T13:47:18Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "Vicky Wang",
+      "to": "curator@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T13:47:18Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "Dinis Cruz",
+      "count": 1,
+      "times": [
+        "2026-11-11T14:09:56Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "Vicky's twelve agents",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T14:31:00Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "Dinis Cruz",
+      "to": "Vicky Wang",
+      "count": 1,
+      "times": [
+        "2026-11-11T14:35:00Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "Dinis Cruz",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T14:35:00Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "security@PrompTugal.dinis",
+      "to": "Dinis Cruz",
+      "count": 1,
+      "times": [
+        "2026-11-11T15:08:04Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "conductor@web-summit.dinis",
+      "to": "Lisbon Fringe's conductors",
+      "count": 1,
+      "times": [
+        "2026-11-11T15:18:34Z"
+      ],
+      "person_agent": false
+    }
+  ]
+}

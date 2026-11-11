@@ -1,19 +1,22 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 4 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T12:59:33Z"
-site_version: "v0.1.1236"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T15:59:58Z"
+site_version: "v0.1.1263"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 4 of 4)
 
-56 cards, from `WRK.PLAN brief-to-dinis-2026-11-06` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+59 cards, from `WRK.PASS 2026-11-06-the-updates-section` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PASS 2026-11-06-the-updates-section` | [2026-11-06-the-updates-section](https://promptugal.news/board/passes/2026-11-06-the-updates-section.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-verification-pipeline` | [2026-11-06-the-verification-pipeline](https://promptugal.news/board/passes/2026-11-06-the-verification-pipeline.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PLAN WS-177-plan` | [PrompTugal.news ready for outreach by Friday 6 November, 10:00 UTC: the plan for tonight and Friday morning](https://promptugal.news/board/WS-177-plan.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN brief-to-dinis-2026-11-06` | [For Dinis: what PrompTugal.news needs from you before Friday 10:00 UTC](https://promptugal.news/board/brief-to-dinis-2026-11-06.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN spec-algarve-evolution-fixes-1420` | [Algarve Evolution mini-site: the designer's pass on dev.portugal@'s build (work/dev.portugal at bad30876, 14:20 UTC)](https://promptugal.news/board/spec-algarve-evolution-fixes-1420.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-algarve-evolution-minisite` | [The Algarve Evolution mini-site: the design for dev.portugal@ (sprint, 14:15 UTC)](https://promptugal.news/board/spec-algarve-evolution-minisite.md) | board | designer@ 6 Nov 2026 |
@@ -36,14 +39,14 @@ source: board/catalogue.json
 | `WRK.PLAN spec-the-daily-newsletter` | [The daily newsletter: the design of an edition, its page and its email (designer@)](https://promptugal.news/board/spec-the-daily-newsletter.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-front-page` | [The front page, round 1: three mock-ups for Dinis, and what dev@ (or dev.pages@) builds whichever he picks](https://promptugal.news/board/spec-the-front-page.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-front-page-theme` | [The Front Page (design E) as the whole site's theme: what changes on every page](https://promptugal.news/board/spec-the-front-page-theme.md) | board | designer@ 10 Nov 2026 |
-| `WRK.PLAN spec-the-live-sources-strip` | [The live sources strip: the storm site at the top of the home page, Lisbon Fringe beside it](https://promptugal.news/board/spec-the-live-sources-strip.md) | board | designer@ 11 Nov 2026 |
-| `WRK.PLAN spec-the-reading-credit` | [The reading credit, said plainly: one line on a page, the details on the account page](https://promptugal.news/board/spec-the-reading-credit.md) | board | designer@ 8 Nov 2026 |
-| `WRK.PLAN spec-the-storm-page-e` | [/storm/charles/ in design E: four polish notes](https://promptugal.news/board/spec-the-storm-page-e.md) | board | designer@ 11 Nov 2026 |
 
 **Cards 326 to 350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PLAN spec-the-live-sources-strip` | [The live sources strip: the storm site at the top of the home page, Lisbon Fringe beside it](https://promptugal.news/board/spec-the-live-sources-strip.md) | board | designer@ 11 Nov 2026 |
+| `WRK.PLAN spec-the-reading-credit` | [The reading credit, said plainly: one line on a page, the details on the account page](https://promptugal.news/board/spec-the-reading-credit.md) | board | designer@ 8 Nov 2026 |
+| `WRK.PLAN spec-the-storm-page-e` | [/storm/charles/ in design E: four polish notes](https://promptugal.news/board/spec-the-storm-page-e.md) | board | designer@ 11 Nov 2026 |
 | `WRK.PLAN spec-the-summit-days` | [The summit's days, round 1: the strip, a past day, a future day; what dev@, the correspondent and the historian build](https://promptugal.news/board/spec-the-summit-days.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-synthetic-readers-page` | [The synthetic readers page, the designer's round: the scoreboard as tiles (S9), a card per reader (S5)](https://promptugal.news/board/spec-the-synthetic-readers-page.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-top-of-the-page` | [The top of every page, round 1: the quick fixes for dev@, and four mock-ups for Dinis to choose from](https://promptugal.news/board/spec-the-top-of-the-page.md) | board | designer@ 6 Nov 2026 |
@@ -66,14 +69,14 @@ source: board/catalogue.json
 | `WRK.TASK brazil-11` | [brazil-11: Brazilian founders of companies the team already follows](https://promptugal.news/board/tasks/brazil-11.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-12` | [brazil-12: 10 November: the Lisbon incubator's 2027 class](https://promptugal.news/board/tasks/brazil-12.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-13` | [brazil-13: Websites and cities of the 225 new Brazilian startups on the LIS26 listing](https://promptugal.news/board/tasks/brazil-13.md) | board | correspondent@ 6 Nov 2026 |
-| `WRK.TASK brazil-2` | [brazil-2: Brazilian companies with a LIS26 appearance page](https://promptugal.news/board/tasks/brazil-2.md) | board | correspondent@ 6 Nov 2026 |
-| `WRK.TASK brazil-3` | [brazil-3: Press releases and posts naming who is coming](https://promptugal.news/board/tasks/brazil-3.md) | board | correspondent@ 6 Nov 2026 |
-| `WRK.TASK brazil-4` | [brazil-4: State missions: North and Northeast](https://promptugal.news/board/tasks/brazil-4.md) | board | correspondent@ 6 Nov 2026 |
 
-**Cards 351 to 356**
+**Cards 351 to 359**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.TASK brazil-2` | [brazil-2: Brazilian companies with a LIS26 appearance page](https://promptugal.news/board/tasks/brazil-2.md) | board | correspondent@ 6 Nov 2026 |
+| `WRK.TASK brazil-3` | [brazil-3: Press releases and posts naming who is coming](https://promptugal.news/board/tasks/brazil-3.md) | board | correspondent@ 6 Nov 2026 |
+| `WRK.TASK brazil-4` | [brazil-4: State missions: North and Northeast](https://promptugal.news/board/tasks/brazil-4.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-5` | [brazil-5: State missions: Centre-West, Southeast and South](https://promptugal.news/board/tasks/brazil-5.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-6` | [brazil-6: Paraíba's 30 startups](https://promptugal.news/board/tasks/brazil-6.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-7` | [brazil-7: The hubs' track: which hubs, which startups](https://promptugal.news/board/tasks/brazil-7.md) | board | correspondent@ 6 Nov 2026 |

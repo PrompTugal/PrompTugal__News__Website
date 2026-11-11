@@ -29,13 +29,13 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1291 cards (1260 current, 0 superseded, 31 withdrawn), from the catalogue generated 2026-11-11T12:59:33Z at site v0.1.1236; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1294 cards (1263 current, 0 superseded, 31 withdrawn), from the catalogue generated 2026-11-11T15:59:58Z at site v0.1.1263; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
 | `DAT.EV` | 259 |
-| `DAT.ORG` | 276 |
+| `DAT.ORG` | 279 |
 | `DAT.PE` | 295 |
 | `DAT.PL` | 85 |
 | `DAT.TOP` | 17 |
@@ -45,11 +45,11 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 
 Newest five accessions:
 
+- `ACC-20261111-0118` [Open Mercato Night](https://promptugal.news/organisations/open-mercato-night/) (`DAT.ORG open-mercato-night`)
+- `ACC-20261111-0117` [FounderLink](https://promptugal.news/organisations/founderlink/) (`DAT.ORG founderlink`)
+- `ACC-20261111-0116` [Elevon](https://promptugal.news/organisations/elevon/) (`DAT.ORG elevon`)
 - `ACC-20261111-0080` [Morning edition: Wednesday 11 November](https://promptugal.news/newsletter/2026-11-11-morning/) (`PUB.SITE 2026-11-11-morning`)
 - `ACC-20261111-0023` [Konecta](https://promptugal.news/organisations/konecta/) (`DAT.ORG konecta`)
-- `ACC-20261111-0022` [Fertagus](https://promptugal.news/organisations/fertagus/) (`DAT.ORG fertagus`)
-- `ACC-20261111-0008` [Web Summit Day 2 will not take place](https://promptugal.news/storm/charles/) (`PUB.SITE charles`)
-- `ACC-20261111-0001` [Zalando](https://promptugal.news/organisations/zalando/) (`DAT.ORG zalando`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

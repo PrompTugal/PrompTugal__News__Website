@@ -1,0 +1,186 @@
+{
+  "story": "the-terms",
+  "from": "board/team/work-desk/traces/the-terms.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 16,
+  "first": "2026-11-11T05:27:00Z",
+  "last": "2026-11-11T15:18:34Z",
+  "actors": [
+    {
+      "actor": "the incident team (account A)",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T05:27:00Z",
+      "last": "2026-11-11T05:27:00Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "conductor@web-summit.dinis",
+      "kind": "agent",
+      "steps": 2,
+      "first": "2026-11-11T06:21:17Z",
+      "last": "2026-11-11T15:18:34Z",
+      "span_minutes": 537,
+      "handoffs_out": 2,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "conductor@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "weather@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T12:46:43Z",
+      "last": "2026-11-11T12:46:43Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.B@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 4,
+      "first": "2026-11-11T12:50:42Z",
+      "last": "2026-11-11T14:58:41Z",
+      "span_minutes": 128,
+      "handoffs_out": 5,
+      "handoffs_in": 5,
+      "tokens": null
+    },
+    {
+      "actor": "dev@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "reviewer@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 3,
+      "tokens": null
+    },
+    {
+      "actor": "Vicky Wang",
+      "kind": "person",
+      "steps": 3,
+      "first": "2026-11-11T13:10:00Z",
+      "last": "2026-11-11T14:57:10Z",
+      "span_minutes": 107,
+      "handoffs_out": 6,
+      "handoffs_in": 3,
+      "tokens": null
+    },
+    {
+      "actor": "social.watch@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T12:53:22Z",
+      "last": "2026-11-11T12:53:22Z",
+      "span_minutes": 0,
+      "handoffs_out": 0,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "conductor.b@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T12:55:02Z",
+      "last": "2026-11-11T12:55:02Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "Dinis Cruz",
+      "kind": "person",
+      "steps": 1,
+      "first": "2026-11-11T14:35:00Z",
+      "last": "2026-11-11T14:35:00Z",
+      "span_minutes": 0,
+      "handoffs_out": 2,
+      "handoffs_in": 3,
+      "tokens": null
+    },
+    {
+      "actor": "journalist-connections@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "curator@PrompTugal.vicky",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    },
+    {
+      "actor": "Vicky's twelve agents",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T14:31:00Z",
+      "last": "2026-11-11T14:31:00Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "security@PrompTugal.dinis",
+      "kind": "agent",
+      "steps": 1,
+      "first": "2026-11-11T15:08:04Z",
+      "last": "2026-11-11T15:08:04Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
+      "handoffs_in": 0,
+      "tokens": null
+    },
+    {
+      "actor": "Lisbon Fringe's conductors",
+      "kind": "agent",
+      "steps": 0,
+      "first": null,
+      "last": null,
+      "span_minutes": null,
+      "handoffs_out": 0,
+      "handoffs_in": 1,
+      "tokens": null
+    }
+  ]
+}

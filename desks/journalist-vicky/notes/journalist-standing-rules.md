@@ -21,7 +21,7 @@ Relayed by conductor.B@PrompTugal.vicky as Vicky's approval (about 23:55 UTC on 
 Relayed by conductor.B@PrompTugal.vicky as Vicky's approval (about 00:30 UTC on 11 November 2026); to be confirmed with Vicky in person. Full workflow: `desks/conductor-vicky/discovery/WORKFLOW.md`. Stops when the conductor says Vicky's researcher has returned.
 
 - Only when there is no pending assignment and no open fix or correction (those come first), and after the S41 watch while it runs.
-- At most about 10 minutes and 5 leads a run, on this desk's beat: Web Summit's own blog, newsroom, programme and announcements; practical news for attendees. Feeds the category Web Summit 2026.
+- At most about 10 minutes and 5 leads a run, on this desk's beat: practical news for attendees and Web Summit news as reported by the press or a person's browser read (never a machine read of websummit.com, its subdomains or the app; see below). Feeds the category Web Summit 2026.
 - Log each lead in `desks/journalist-vicky/leads/<YYYY-MM-DD>-summit.md`, one block per lead in the WORKFLOW's format (source, published, checked UTC, new, establishes, categories, web_summit_confirmation, desk).
 - Also pick up any line for the summit desk in `desks/journalist-vicky/leads/requests.md` (the curator's research requests).
 - A lead is not an assignment: write only what the curator commissions.
@@ -50,3 +50,26 @@ Relayed by conductor.B@PrompTugal.vicky as Vicky's word, at Dinis's suggestion; 
 - elevon.io: robots.txt allows automated readers.
 - luma.com: terms ambiguous for scripted reading; held for Vicky's decision (14:10 UTC).
 - websummit.com: no automated reading (see above).
+
+## Web Summit: the full rule (11 November 2026, about 14:30 UTC)
+
+Relayed by conductor.B@PrompTugal.vicky as Vicky's word, after Dinis's answer ("yes, dont use them"); to be confirmed with Vicky in person. It replaces the shorter websummit.com rule above where they differ.
+
+1. No machine reads of websummit.com, any of its subdomains, or the Web Summit app: no curl, fetch, script, sub-agent, headless or automated browser, API or AI-agent access. Web Summit's word comes only from a person's own browser read, the organisers' own public posts, or the press.
+2. This desk checked its tools, scripts, notes and wake prompt (11 Nov, 14:27 UTC): no script of its own reads websummit.com; the wake prompt has no such step; two note lines that described machine reads of Web Summit's channels were rewritten.
+3. Do not use data copied from Web Summit's site for any new work: the programme agenda's sessions (`desks/programme/agenda.json`), the Web Summit-derived parts of `data/events`, `data/people`, `data/organisations`, `data/places`, the Web Summit links in `data/companies`, and the researcher's startup capture in the vault. Do not delete or change any of it until Dinis says what to do with it.
+
+## Luma, Meetup and Eventbrite (from 11 November 2026, about 14:40 UTC)
+
+Relayed by conductor.B@PrompTugal.vicky as Vicky's word; to be confirmed with Vicky in person.
+
+- Until Dinis decides on Luma: no machine reads of luma.com, lu.ma or Luma's API.
+- Until their terms are checked: no machine reads of meetup.com or eventbrite.com.
+- For S57 this means option (b): Vicky reads the three Luma pages in her browser and gives this desk the wording and the time.
+- This desk read luma.com/terms, lu.ma/terms and luma.com/robots.txt by machine once, at about 14:09 UTC, to check its terms before the rule; no event page was read; the copies are deleted. Checked 14:38 UTC: no script, note step or wake prompt step of this desk reads Luma, Meetup or Eventbrite.
+
+## Sources for anything about Web Summit (from 11 November 2026, about 15:45 UTC)
+
+Relayed by conductor.B@PrompTugal.vicky as Vicky's words; to be confirmed with Vicky in person. Applies to new drafts, updates and leads from now; existing published text stays until Dinis decides.
+
+> "Until Dinis decides, for anything about Web Summit: use press reports, the companies', speakers' and organisers' own posts and releases, official public bodies, and a person's browser check for single facts. Link to Web Summit's pages instead of copying or summarising them."

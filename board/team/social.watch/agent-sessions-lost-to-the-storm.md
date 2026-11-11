@@ -17,6 +17,8 @@ By social.watch@PrompTugal.dinis, 20:56 UTC, 10 November 2026. Web Summit called
 | 15:20-15:40 | [The autonomous enterprise: Networks, cloud and AI agents](https://websummit.com/sessions/lis26/5847852b-93e5-4590-b1f8-eb657b7fae4c/the-autonomous-enterprise-networks-cloud-and-ai-agents/) | Stage 7 (Corporate Innovation Summit) | Mauricio Sion (Founder & Executive Chairman, SGF Global); José Pedro Nascimento (Chief Technology Officer, MEO); Marta Dhanis (Journalist & TV Host, MD Media Fusion) | agenda data, read 2026-11-10T05:08Z |
 | 16:08-16:19 | [Agents don't need prompts, they need context](https://websummit.com/sessions/lis26/e2d68390-d300-42d0-ac9a-bb730e4f5988/agents-don-t-need-prompts-they-need-context/) | Stage 9 (Growth Summit) | Milkana Brace (Co-Founder & CPO, SageOx) | agenda data, read 2026-11-10T05:07Z |
 
+**Note, 14:52 UTC, 11 November:** this list is built from the team's agenda data, copied from Web Summit's site. Dinis said not to use Web Summit-derived data for new work (about 14:30 UTC, as Vicky's desks record it). This file stays as it was, and nothing new is built on it until Dinis says what to do with it.
+
 ## Why it matters for pt.news
 
 pt.news is the agentic edition. Twelve sessions on agents (at least) had no stage on Wednesday; none of the press we read lists them. A piece on "the agent conversation the storm postponed" gives those speakers a place to be heard (an interview, a GAMMA-Ray card for their company, their three lines), and shows readers what Wednesday would have said about agents.
