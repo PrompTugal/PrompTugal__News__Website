@@ -1,6 +1,6 @@
 {
  "about": "Data for /storm/charles/. Every line is taken from the weather desk's sourced facts (desks/weather-vicky/live.md, s41-lead.json, as of its 21:37 UTC check) and Web Summit's public statement; nothing is added. Refresh from live.md each time the desk changes it; reviewer@ verifies before publication. Times are UTC = Lisbon time in November.",
- "desk_last_check": "2026-11-11T13:36Z",
+ "desk_last_check": "2026-11-11T15:36Z",
  "lead": {
   "headline": "Web Summit: Day 2, Wednesday 11 November, will not take place",
   "text": "On the Portuguese Government's formal advice, Web Summit has said Day 2 will not take place. On Wednesday it said it is officially back on Thursday 12 November for its final day.",
@@ -12,30 +12,30 @@
  "alerts": [
   {
    "who": "IPMA, Lisbon district",
-   "what": "Wind: ORANGE, Wed 11 Nov 12:34 to 18:00. Gusts up to 90 km/h, possibly 110 km/h in the most exposed places. IPMA lowered the wind warning from red this morning (its data of 08:15 UTC) and has since shortened it and lowered the gusts (its data of 13:15 UTC); before that it was orange from 09:00 to 21:00 with gusts up to 120 km/h.",
+   "what": "Wind: ORANGE, Wed 11 Nov 15:06 to 18:00. Gusts up to 90 km/h, possibly 110 km/h in the most exposed places. IPMA lowered it from red this morning (its data of 08:15 UTC), then shortened it and lowered the gusts (its data of 13:15 UTC); it was orange from 09:00 to 21:00 with gusts up to 120 km/h before that.",
    "level": "orange",
-   "read": "2026-11-11T14:12Z",
+   "read": "2026-11-11T15:37Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
    "who": "IPMA, Lisbon district",
-   "what": "Rain: RED, Wed 11 Nov 12:34 to 15:00, then YELLOW from 15:00 to 18:00 (rain at times heavy). IPMA shortened the red warning in its data of 13:15 UTC; before that it was red from 09:00 to 18:00 (heavy and persistent rain).",
-   "level": "red",
-   "read": "2026-11-11T14:12Z",
+   "what": "Rain: YELLOW, Wed 11 Nov 15:06 to 18:00 (rain at times heavy). The red warning has ended: IPMA's data of 15:15 UTC no longer lists it. It was red from 09:00 until IPMA shortened it to 15:00 in its data of 13:15 UTC.",
+   "level": "yellow",
+   "read": "2026-11-11T15:37Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
    "who": "IPMA, Lisbon district",
-   "what": "Sea: ORANGE, Wed 11 Nov 12:34 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 14:12 UTC: otherwise unchanged.",
+   "what": "Sea: ORANGE, Wed 11 Nov 15:06 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 15:37 UTC: otherwise unchanged.",
    "level": "orange",
-   "read": "2026-11-11T14:12Z",
+   "read": "2026-11-11T15:37Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
    "who": "The government",
    "what": "Alert situation (situação de alerta) for all of mainland Portugal, 00:00 to 23:59 on Wednesday: schools and non-essential public services closed; outdoor events suspended, whatever their nature; no access to parks and wooded areas at risk of falling trees; no access to the shoreline, rivers and flood-prone areas.",
    "level": "gov",
-   "read": "2026-11-11T13:36Z",
+   "read": "2026-11-11T15:36Z",
    "src": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1"
   },
   {
@@ -47,10 +47,10 @@
   },
   {
    "who": "ANEPC (civil protection)",
-   "what": "Raised the special readiness state and sent a public SMS warning about Wednesday.",
+   "what": "Raised the special readiness state and sent a public SMS warning about Wednesday. Its situation update of 12:00 (\"Depressão Charles | Ponto de Situação\") counts 538 incidents, none significant, with Greater Lisbon, the Setúbal peninsula and the Algarve most affected; 2,222 operatives and 688 vehicles are deployed, and 23 municipal and 2 district emergency plans are active.",
    "level": "gov",
-   "read": "2026-11-11T13:36Z",
-   "src": "https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/"
+   "read": "2026-11-11T15:36Z",
+   "src": "https://prociv.gov.pt/pt/noticias/"
   },
   {
    "who": "Maritime Authority and the Navy (the weather desk's read; not re-checked)",
@@ -91,9 +91,9 @@
   "transport": [
    {
     "name": "Fertagus (trains over the 25 de Abril bridge)",
-    "text": "Trains running normally at 12:50 UTC, its notice says. The notice still says that if winds exceed 90 km/h, trains on the bridge will be suspended, possibly on the whole line; it recommends avoiding non-essential travel. (Read 13:37 UTC.)",
+    "text": "Trains running normally at 14:30 UTC, its notice says. The notice still says that if winds exceed 90 km/h, trains on the bridge will be suspended, possibly on the whole line; it recommends avoiding non-essential travel. (Read 15:36 UTC.)",
     "src": "https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico",
-    "read": "2026-11-11T13:37Z"
+    "read": "2026-11-11T15:36Z"
    },
    {
     "name": "Carris (city buses and trams)",
@@ -103,15 +103,15 @@
    },
    {
     "name": "Carris Metropolitana (regional buses)",
-    "text": "Four general weather notices run to Wednesday 23:59: possible disruption, delays and diversions. A notice says twenty lines (including 4405, 4406, 4412 and 4422) detour from 11:40 to 20:00 today because of the weather, and its feed lists other detours for road closures and a fallen tree. The notice about seven lines on shortened routes (04:00 to 11:00) has ended. No suspension announced.",
+    "text": "Weather notices run to Wednesday 23:59: possible disruption, delays and diversions. It lists 19 weather alerts; none is a suspension. (Read 15:36 UTC.)",
     "src": "https://api.carrismetropolitana.pt/v2/alerts",
-    "read": "2026-11-11T13:37Z"
+    "read": "2026-11-11T15:36Z"
    },
    {
     "name": "Transtejo/Soflusa (river ferries)",
-    "text": "Wednesday: the Porto Brandão–Trafaria–Algés ferry link is interrupted, because the authorities have closed the Algés seafront promenade; passengers use the Trafaria–Porto Brandão–Belém link (notice of 22:28 UTC on Tuesday). Tuesday's 13:24 suspension of car transport was lifted at 18:06.",
-    "src": "https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/",
-    "read": "2026-11-11T13:37Z"
+    "text": "Wednesday: the Porto Brandão–Trafaria–Algés ferry link is interrupted. A notice of 14:39 UTC says vehicle transport is interrupted and passengers are limited to the Porto Brandão–Belém link, with no time given for Trafaria's return. (Read 15:36 UTC.)",
+    "src": "https://ttsl.pt/avisos/trafaria-porto-brandao-belem-11-nov-2/",
+    "read": "2026-11-11T15:36Z"
    },
    {
     "name": "Metro de Lisboa",
@@ -133,6 +133,11 @@
   ]
  },
  "timeline": [
+  {
+   "t": "2026-11-11T15:06Z",
+   "text": "IPMA's warnings for Lisbon now start at 15:06 UTC and the red rain warning is gone: rain is yellow until 18:00, wind orange until 18:00 (gusts up to 90 km/h), sea orange until 21:00. IPMA's data file was modified at 15:15 UTC; we read it at 15:37 UTC.",
+   "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
+  },
   {
    "t": "2026-11-11T12:34Z",
    "text": "IPMA shortens Lisbon's warnings: rain red until 15:00, then yellow until 18:00; wind orange until 18:00 with gusts up to 90 km/h (110 km/h in the most exposed places); the sea warning stays orange to 21:00. The new warning periods start at 12:34 UTC; IPMA's data file was modified at 13:15 UTC; we read it at 14:12 UTC.",
@@ -224,7 +229,7 @@
    "src": "https://www.ipma.pt/pt/otempo/comunicados/"
   }
  ],
- "ipma_read": "2026-11-11T14:12Z",
+ "ipma_read": "2026-11-11T15:37Z",
  "extra_sources": [
   {
    "name": "Storm Charles (storm-charles.promptugal.news)",
