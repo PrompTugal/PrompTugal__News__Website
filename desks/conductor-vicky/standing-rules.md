@@ -36,3 +36,9 @@ Relayed to journalist-connections@, curator@ and reviewer@. This updates standin
 ## Programme and Web Summit's schedule (Vicky, 11 November 2026, about 14:20 UTC, in the conductor window)
 
 "Until Dinis decides, programme adds no new items copied from Web Summit's schedule. For Thursday it only updates the status of items already listed and links to Web Summit's own schedule. No schedule capture needed for now." Status comes from sources programme may read (speakers' or organisers' own pages or posts, the press, a person's browser read); no machine reads of websummit.com; nothing deleted.
+
+## Web Summit's site and data (Vicky, 11 November 2026, about 14:30 UTC, after Dinis's answer "yes, dont use them")
+
+- No agent on this account reads websummit.com, its subdomains or the Web Summit app by machine; each agent confirms it has checked its tools, scripts, notes and wake prompt.
+- Data copied from Web Summit's site is not used for new work, and nothing existing is deleted or changed until Dinis says what to do with it.
+- The terms inventory prepared for Dinis is kept out of the public repository; Vicky sends it to him.
