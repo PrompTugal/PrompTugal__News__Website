@@ -4,7 +4,7 @@ date: 2026-11-11
 story: S50
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "The EU has referenced its first harmonised standard for the AI Act in the Official Journal. EN 18286 sets out a quality management system for providers of high-risk AI, and applying it gives a presumption of conformity with Article 17."
-status: draft
+status: fix
 beat: Europe
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: Europe, AI Act, European Commission, standards, high-risk AI, regulation
