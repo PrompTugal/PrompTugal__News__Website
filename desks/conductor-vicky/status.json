@@ -5,7 +5,7 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "13:25: storm page Web Summit rows live (v0.1.1241, Vicky's 13:10 browser check); lisbontechfringe.com added as a pointer source; websummit.com machine reads stopped on every Vicky desk (extent recorded)",
+  "done": "13:48 wake: Connections participation rule saved by journalist-connections@, curator@, reviewer@; websummit.com machine reads stopped on every desk (checker@ told last); lisbontechfringe.com acks 7 of 8 (programme pending)",
   "next": [
     "storm page: hourly read-time refreshes until 21:00 (weather@ -> dev@ -> reviewer@); stale-page fix live, security@ reply pending",
     "FRIDAY 13 Nov: disable (not delete) conductor.fringe@PrompTugal.vicky wake trig_013JkmvxJEk9cuqke1xDgsnC; relay its reports to Vicky meanwhile",
