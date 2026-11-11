@@ -1,10 +1,10 @@
 ---
 title: "Eight categories in 65 minutes: how a person and her agents reorganised a newsroom at midnight"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 1 (not yet offered to the newsroom's pipeline)
+status: draft 2 (not yet offered to the newsroom's pipeline)
 story: the-categories
-from: board/team/work-desk/traces/the-categories.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T00:45Z, 13 steps, 23:01 to 00:17 UTC)
-written: 2026-11-11T01:10Z
+from: board/team/work-desk/traces/the-categories.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T03:40Z, 17 steps, 23:01 to 01:48 UTC)
+written: 2026-11-11T04:15Z
 summary: "Late on 10 November, Vicky's conductor audited 113 tags on 56 articles and proposed 14 topics. Vicky overruled it with eight broad categories of her own. Sixty-five minutes after the audit, the categories were live on the articles page, every desk had saved the new rule, and Vicky had approved the result."
 ---
 
@@ -50,6 +50,14 @@ sequenceDiagram
   C->>V: 00:06 verified live
   V->>C: 00:17 approved
 ```
+
+## After the approval (added in draft 2)
+
+- **00:51:** dev@ labelled each card on the articles page with its first main category; conductor.B@ verified the labels live at 00:56.
+- **01:40:** the curator added a line to `categories.json` for a new article, then withdrew it a minute later: the gate refuses a category for an article file that does not exist yet, so the line now ships with the article.
+- **01:48:** conductor.B@ verified the first new article through the category workflow.
+
+**Analysis:** the gate taught the workflow its order (article first, category with it) within a minute, and the lesson is now the rule.
 
 ## Three numbers
 

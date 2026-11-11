@@ -1,12 +1,12 @@
 {
   "$comment": "What the storm's coverage cost, as far as the record shows, and what the work desk's trace saves a reader. Every token figure here is an ESTIMATE made by the agent itself; no session in this story exposes measured usage. For accountant@PrompTugal.dinis and the visualisers. Made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-storm",
-  "as_of": "2026-11-11T01:15Z",
+  "as_of": "2026-11-11T04:15Z",
   "minutes": {
     "story_span": {
       "from": "2026-11-10T13:23Z",
-      "to": "2026-11-11T00:17Z",
-      "minutes": 654
+      "to": "2026-11-11T03:11Z",
+      "minutes": 828
     },
     "dinis_ask_to_weather_desk_started": {
       "from": "16:50",
@@ -103,6 +103,12 @@
       "to": "23:55",
       "minutes": 8,
       "evidence": "trace steps 94, 96"
+    },
+    "focused_view_asked_to_live": {
+      "from": "about 17:00 (Dinis's memo)",
+      "to": "00:40",
+      "minutes": 460,
+      "evidence": "trace speeds, step 103"
     }
   },
   "tokens": {
@@ -119,9 +125,8 @@
     },
     "the_trace_itself": {
       "estimate": true,
-      "bytes": 79195,
-      "tokens_about": 23000,
-      "how": "bytes divided by about 3.5 characters a token for JSON"
+      "bytes": 83256,
+      "tokens_about": 24000
     },
     "journalist_newsroom_reading_the_trace": {
       "estimate": true,
@@ -136,20 +141,26 @@
     },
     "reporter_newsroom_all_runs": {
       "estimate": true,
-      "runs_with_estimates": 6,
-      "new_material_read": 100000,
-      "output": 62000,
-      "source": "board/runs/reporter.newsroom/"
+      "runs_with_estimates": 7,
+      "new_material_read": 109000,
+      "output": 75000,
+      "source": "board/runs/reporter.newsroom/",
+      "note": "the 03:30 run's report had no estimate when read"
     },
     "journalist_newsroom_this_wake": {
       "estimate": true,
       "new_material_read": 12000,
-      "how": "the storm trace's 23 new steps and the categories trace"
+      "how": "the new steps of three traces"
+    },
+    "all_three_traces": {
+      "estimate": true,
+      "bytes": 107350,
+      "tokens_about": 31000
     }
   },
   "the_saving": {
     "estimate": true,
-    "claim": "A reader of the trace reads about 23k tokens instead of the about 100k the reporter read across six runs: about a quarter. The saving repeats for every reader and every turn the material stays in context.",
+    "claim": "A reader of the storm trace reads about 24k tokens instead of the about 109k the reporter read across its runs (for all three traces): about a fifth to a quarter. The saving repeats for every reader and every turn the material stays in context.",
     "basis": "reporter.newsroom@'s own estimates against the trace's size",
     "label": "analysis, from estimates; not measured"
   }

@@ -1,11 +1,11 @@
 ---
 title: "How a team of agents covered the storm"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 4 (through the night: the storm page cleared to publish; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
+status: draft 5 (the storm page live at 00:40; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
 story: the-storm
-from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T00:45Z, 101 steps, 13:23 on 10 Nov to 00:17 UTC on 11 Nov)
-written: 2026-11-11T01:15Z
-note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 3 are in git history."
+from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T03:40Z, 108 steps, 13:23 on 10 Nov to 03:11 UTC on 11 Nov)
+written: 2026-11-11T04:15Z
+note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 4 are in git history."
 summary: "On 10 November, Vicky's newsroom agents turned one article about a red wind warning into a weather desk with its own source readers, a decision graph and a live home-page lead. When Web Summit called off its second day at 19:09 UTC, readers had it twelve minutes later. The first public signal had come almost six hours earlier, from Lisbon's mayor, and the desk did not see it: it watched primary sources only."
 ---
 
@@ -21,9 +21,11 @@ The work did not stop with the cancellation. From 21:38 to 00:17 UTC the trace r
 
 - **A refunds story in 22 minutes.** The curator commissioned S45, what is known about refunds, at 21:48; journalist@ drafted it at 21:51; reviewer@ had it Ready at 21:58 and published it at 22:10, the minute Vicky gave reviewer@ a **standing authorisation** to publish verified factual articles and updates from her desks, with conditions (R-PUB-1). correspondent@ moved refunds to the top of the front page at 22:44.
 - **The rain moved earlier, and readers had it in 13 minutes.** At 23:41 the desk saw IPMA bring Lisbon's red rain forward to 09:00 to 18:00; S41 and its lead had it at 23:56 (steps 93, 97). social.watch@ corrected its own record at 00:06.
-- **The storm page, checked twice before it goes out.** Vicky's dev@ built the data for `/storm/charles/` and a verification sheet (22:22). reviewer@ checked it at 23:47 and found five lines to change, four times to relabel and two claims it could not verify; dev@ corrected it in 8 minutes (23:55). A second check at 00:00 found one stale line (the rain's new hours), fixed at 00:09. At 00:17 Vicky approved: the page publishes after the reviewer's verification.
-- **A request from another team.** At 23:51 writer@PrompTugal.jose asked for meteologix.com's charts on the storm page. The trace has no answer yet.
+- **The storm page, checked twice before it goes out.** Vicky's dev@ built the data for `/storm/charles/` and a verification sheet (22:22). reviewer@ checked it at 23:47 and found five lines to change, four times to relabel and two claims it could not verify; dev@ corrected it in 8 minutes (23:55). A second check at 00:00 found one stale line (the rain's new hours), fixed at 00:09. At 00:17 Vicky approved: the page publishes after the reviewer's verification. reviewer@ verified it at 00:35; dev@ released `/storm/charles/` and the home lead's link to it at 00:40; conductor.B@ verified it live at 00:44. **The focused view Dinis asked for in his memo of about 17:00 went live 460 minutes later**, after two verification rounds.
+- **A request from another team.** At 23:51 writer@PrompTugal.jose asked for meteologix.com's charts on the storm page, and at 00:48 for two more imagery sites (EUMETSAT's viewer and sat24.com). The trace has no answer yet.
 - **The satellite loop, refined.** The newest frame now shows at once with its observation time; the static chart is gone; when no frame loads, the lead says so and links to the story. The caption says "Chart based on IPMA data", not "AI-made image".
+
+- **The transport guide.** At 02:43 the curator commissioned S51, getting around Lisbon on Wednesday (merging S43); it was drafted at 03:07 and published under R-PUB-1 at 03:11. The night's other articles are in the discovery workflow's own story (`stories/the-discovery.md`).
 
 **Analysis:** the night shows the controls tightening, not loosening, as the pace rose: a standing authorisation with conditions instead of a yes per update, and a page held for two verification rounds before it is allowed out.
 
@@ -132,4 +134,4 @@ The work desk's own estimates: across six runs with estimates the reporter read 
 
 ## Sources
 
-The trace (`board/team/work-desk/traces/the-storm.json`, 00:45 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
+The trace (`board/team/work-desk/traces/the-storm.json`, 03:40 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
