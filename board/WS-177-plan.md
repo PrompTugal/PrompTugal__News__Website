@@ -10,6 +10,16 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 21:36 UTC, 11 November
+
+- Snapshot 2026-11-11T2137Z on v0.1.1305: 8 screenshots, 0 errors. 21 releases since 18:36.
+- **Dinis's word at ~18:50: what rests only on websummit.com comes off, with a note; shadow sources bring it back.** The guidance and the pass were routed to 14 agents and are live in v0.1.1304. At 21:45 no owner had started: security@'s 21:05 review lists S39 open; ontologist@ and dev@ had not acted. Addendum on how this fits Vicky's takedown: her 13 group-A articles and S44, S47, S49 are withdrawn with a bare notice (1649d9879); her step 2 leaves Dinis's agents' data to this pass; lisbontechfringe.com counts as a pointer source for events.
+- Thursday leads: S58 (the last-day guide) at Vicky's word; sherpa@'s W7 done (the headline leads with Thursday). S41: only Lisbon's sea warning remained (the rain warning ended at 18:00).
+- **Vicky's team moved to the team account:** fresh keys for 11 agents, the old ones superseded; inbox lanes issued to all 11.
+- security@ 21:05: 88 commits clean.
+- Still for Dinis: the event platforms (by hand or not at all), the OpenRouter credit.
+- Inbox: empty.
+
 ## Wake at 18:36 UTC, 11 November
 
 - Snapshot 2026-11-11T1838Z on v0.1.1285: 8 screenshots, 0 errors. 25 releases since 15:36.

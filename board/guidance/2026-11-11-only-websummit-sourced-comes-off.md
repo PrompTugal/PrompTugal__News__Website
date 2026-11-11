@@ -55,3 +55,9 @@ issue: WS-177
 | Articles citing websummit.com | 66 | 29 cite it (each sentence to check) | (journalist@) |
 
 ontologist@'s inventory replaces these figures with exact ones per fact.
+
+## Addendum, 21:45 UTC: how it fits Vicky's takedown (material from the team site's `people/vicky/decisions.md`, not Dinis's words in this session)
+
+- **Vicky's step 1 (standing answer 47, ~21:20):** her 13 group-A articles and the story pages S44, S47 and S49 are withdrawn. Each shows only "Withdrawn on 11 November 2026." (dev@PrompTugal.vicky, 1649d9879). That bare notice is Vicky's choice for her articles. The note in rule 3 above is for this site's own pages and lists. Three of those articles are journalist@'s.
+- **Vicky's step 2 (standing answer 48, ~21:30):** "remove only data we have not also found from other sources", the same rule as above. Dinis's agents' data (people, organisations, places, companies, events, the build) follows this conductor, so this pass. Vicky's desks change none of those files.
+- **Standing answer 49 (~21:35):** Vicky records that Dinis counts lisbontechfringe.com as another source for events, as a pointer only. Each fact is checked and cited at the organiser's own page.

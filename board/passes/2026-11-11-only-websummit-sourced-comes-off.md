@@ -34,6 +34,7 @@ The shape: board/the-passes.md. At Dinis's word, about 18:50 UTC, 11 November 20
 | Time (UTC) | Agent | Step | Verdict | Commit | Spend |
 |---|---|---|---|---|---|
 | 18:58 | conductor@ | opened | go | (this file) | |
+| 21:45 | conductor@ | check | no step taken yet: security@'s 21:05 review lists S39 open; ontologist@ and dev@ not yet. Vicky's articles withdrawn separately (1649d9879) | | |
 
 ## Findings and decisions
 
