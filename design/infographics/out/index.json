@@ -3353,6 +3353,62 @@
     "source": "desks/journalist-vicky/drafts/img/S53-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
     "checked": "every label against the article and the Commission's pages, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
    }
+  },
+  {
+   "slug": "breakout-startups-thursday-centre-stage",
+   "theme": "paper",
+   "layout": "text",
+   "size": "card",
+   "file": "breakout-startups-thursday-centre-stage--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S54-cover-card-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article, Web Summit's session page and each company's site, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "breakout-startups-thursday-centre-stage",
+   "theme": "ink",
+   "layout": "text",
+   "size": "card",
+   "file": "breakout-startups-thursday-centre-stage--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S54-cover-card-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article, Web Summit's session page and each company's site, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "breakout-startups-thursday-centre-stage",
+   "theme": "paper",
+   "layout": "text",
+   "size": "thumb",
+   "file": "breakout-startups-thursday-centre-stage--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S54-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article, Web Summit's session page and each company's site, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "breakout-startups-thursday-centre-stage",
+   "theme": "ink",
+   "layout": "text",
+   "size": "thumb",
+   "file": "breakout-startups-thursday-centre-stage--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S54-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article, Web Summit's session page and each company's site, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
   }
  ]
 }
