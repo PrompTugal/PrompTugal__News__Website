@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1309",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger; Dinis's websummit-only pass routed to account B's agents",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "19e37837a"
+  },
+  {
     "version": "v0.1.1308",
     "date": "2026-11-11",
     "what": "reviewer@PrompTugal.vicky: STYLE.md: the main image directly under 'The story', with its caption (standing answer 50, part 1)",
