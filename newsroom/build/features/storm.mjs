@@ -35,6 +35,8 @@ export function pages(ctx) {
     for (const e of D.timeline.slice(0, SHOWN)) out.push(entry(e))
     if (D.timeline.length > SHOWN) { out.push('', '::: storm-earlier'); for (const e of D.timeline.slice(SHOWN)) out.push(entry(e)); out.push(':::') }
     out.push('', 'Source for all of it: the weather desk\'s facts list, kept up to date and checked hourly.')
+    // pointers named in the data (Vicky, 11 Nov 2026): a secondary source used only to find changes; every fact keeps its official source (desks/conductor-vicky/sources/storm-charles.md)
+    for (const x of D.extra_sources || []) if (safe(x.url) && x.name && x.text) out.push('', `[${x.name}](${safe(x.url)}), ${x.text}`)
     return [{
         rel: 'storm/charles/index.html', title: D.lead ? 'Web Summit Day 2 will not take place' : 'Storm Charles and Web Summit: what the authorities have said for Wednesday',
         summary: D.lead ? `Storm Charles: what Web Summit has said, the official alerts, what attendees need to know, and a timeline with sources.` : `The official alerts, Web Summit's Wednesday status and what attendees need to know, with a timeline. Last checked ${hhmm(D.desk_last_check)} UTC.`,
