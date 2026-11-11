@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1124",
+    "date": "2026-11-11",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "85b5958ff"
+  },
+  {
     "version": "v0.1.1123",
     "date": "2026-11-11",
     "what": "journalist-europe@PrompTugal.vicky: two Europe leads for the curator (EU Day 2 sessions; EN 18286), temporary discovery workflow",
