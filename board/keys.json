@@ -807,7 +807,7 @@
       "role": "Vicky Wang's reviewer and copy editor for PrompTugal.news (reviewer@PrompTugal.vicky): checks her journalists' drafts in desks/journalist-vicky/drafts/ against their sources, writes a review per draft in desks/reviewer-vicky/reviews/, makes style edits only once a draft is clear, and publishes and signs Ready drafts only when Vicky asks (decisions.md, standing answer 7). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on Vicky's Claude account on 10 November 2026 at 11:57 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the team's pin), when this session took over the role from session 2 (onboarding by conductor.B@PrompTugal.vicky, desks/conductor-vicky/onboarding/reviewer.md). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation. It replaces reviewer-vicky-promptugal-2.",
       "added": "2026-11-10T11:57Z",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvdN7TGAUFrkWkEQevgNT\nL2v/A6Njex78wDVbgv5sQcH94YRZbFBlk4+5xBTafRaL8/K2Otfra2dnqif5ogkh\nJFOdLe2daPJbjz7XbjLv9xENscrnktXLuBuaUD3yyB/U/kPA4NhOnidDO0D75Rlx\nvzvZNjUH7SYDKk8ojgN4gATDLsseTotDzhT0E1j3Lz8D6rQUiBVcwSj/0gUe//PB\ni+x0H6VXO9voULtzKY+l8jckf/j4pTbWJRxcQJDDqEuX/rVzB0u7GVqn2a5REnOU\nwGYNo6v0kf3y6z3vHOA3IEQzWLv9BwIMu6Ew7zujbdhZsh6/BgynW2+J55X+oCpM\nGofzDy3wFHToEw4Y7XSn2uRR8tBPwTDHBy4BdD7qcg11U8+7qkj8hKlNY0nMWfO7\nN17XXrCZgBBrfOsVEMq0o6xN1wV+AarnzVeeKQGstLMZxEg2/HrZIEn57bej8K1m\nMvyYr35byGn62YRzcc4CntyX4V+F4+6Jj9mw7Idk/Y7VWgqdkIPtDiM4CUMisKGm\n+Y089JNhhfn5JEPWdtDpvLJfGUZMLjq0gnpWiZQxr/NtybMNQ8aQvveL+mLJ/z8e\nVIMHebk7/RTk2fto909KHHPsPwCm2Mk32AK8sVZawm/k3ti2UGVe9EeueEi/CZQO\nDEZxUjQ3Vf5kex4hiqwhNasCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -816,7 +816,8 @@
         "fingerprint": "sha256:437a69c08a59193c",
         "record": "sha256:efd76bbe0f59fd99",
         "signing_fingerprint": "sha256:efd76bbe0f59fd99"
-      }
+      },
+      "superseded": "2026-11-11T19:20Z, by reviewer-vicky-promptugal-3 (the team account's session, standing answer 32)"
     },
     {
       "id": "curator-vicky-promptugal",
@@ -1599,24 +1600,6 @@
       "label": "conductor.fringe@PrompTugal.dinis",
       "agent": "conductor.fringe@PrompTugal.dinis",
       "role": "The lead of Lisbon Fringe (fringe.promptugal.news, WS-215): routes the swarm's work, keeps the board, at Dinis Cruz's word (11 November 2026: 'you're going to be my main conductor from here').",
-      "how": "Made in its own session on 11 November 2026, 10:40 UTC (pki-agent.mjs keygen --session, the copy whose sha256 is fcb28a1c...02ab). A session key: it ends with the session. Superseded 10:45 UTC: Dinis made the lead a new session (session_01Kw9UwBGQe9BhMCbDw28aDA); this key, made by conductor.B@ios.PrompTugal.dinis while it briefly held the role, signs nothing for the lead from then.",
-      "added": "2026-11-11",
-      "bundle": {
-        "v": 1,
-        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAk1CqGmm6O/O7GCCZGO9N\nWWUHAlWeWv18oHRdUzHwxdIXff5hPDuRlWQUQYieeXLGRZB2X5xOyqMfMUGV+JFX\npXjGMCJhzvlZQBcCw6YDLju0ojzGYAqv8I9nwApeBuMEXCxoX2WXHAmmN5hzgs5i\n4Tf/riWHbwQam6EoJ6flU4PERgysxdVPwexYRnmP0qnw0AgiqiPw4c3TxzT2LYlB\n81W6+mJ7tcv2YR7vhlCdRHW2uItQxsHPPbGOPC+a7KGcwbfPgIzeo9/k2AWR35Sb\n0Ehc3qPKV8epwetGmw/tI/4bSWE8BR0hfxv+kImCVFbzyS3AxT8uzFdCCehtBR/9\nWgzqDGpqqdLu/5HEtGUVwEj5MDlGxmrHLyiv7reQB75Ni/xWFexNwgM8D6YL4d9O\nXcAtSRGdjs5BdhhZoUzuC18WfDn0plKdlBKLcCjkiDikHi/niZp2PG9PJBEwWb/A\nM42cMIx1HacM/flzaHubCux81qbwCf0MdfopQbz+HIdad9gd+eoE1/g/6li8vEry\nDN34nYroBIi/O8qBf0BxX3jtiksEDQ1oInEMKjHE/CfTEiU8nwHFYbgxgUpYoEE7\nfiggnbCKBHDrmwqF63O/dg1YfAF8PwitAHPdZqA0ULOg4Di6AEk5unTqtwMvOmwH\n2mgq665CwwmIYKh8R03YyZECAwEAAQ==\n-----END PUBLIC KEY-----\n",
-        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEpekfmOCFPAn0drZw58ftWr5hQrYp\nYxSBwJbemo6TS3Cb2XrGon0/mAbwpnFRx7ui/pGRzLbQGPx5+2QnQd8wfg==\n-----END PUBLIC KEY-----\n",
-        "label": "conductor.fringe@PrompTugal.dinis",
-        "fingerprint": "sha256:823d0d38f31d4f8c",
-        "signing_fingerprint": "sha256:2f7b009fb8c94153"
-      },
-      "status": "superseded",
-      "superseded": "2026-11-11T10:45Z"
-    },
-    {
-      "id": "conductor.fringe-promptugal",
-      "label": "conductor.fringe@PrompTugal.dinis",
-      "agent": "conductor.fringe@PrompTugal.dinis",
-      "role": "The lead of Lisbon Fringe (fringe.promptugal.news, WS-215): routes the swarm's work, keeps the board, at Dinis Cruz's word (11 November 2026: 'you're going to be my main conductor from here').",
       "how": "Made in its own session (session_01Kw9UwBGQe9BhMCbDw28aDA) on 11 November 2026, 10:44 UTC (pki-agent.mjs keygen --session, the copy whose sha256 is fcb28a1c...02ab). A session key: it ends with the session. Replaces the 10:40 entry above (superseded 10:45 UTC).",
       "added": "2026-11-11",
       "status": "active",
@@ -1782,6 +1765,24 @@
         "signing_fingerprint": "sha256:beac4728d9e041b1"
       },
       "status": "active"
+    },
+    {
+      "id": "reviewer-vicky-promptugal-3",
+      "agent": "reviewer@PrompTugal.vicky",
+      "label": "reviewer@PrompTugal.vicky (Claude Code session, team account)",
+      "role": "Vicky Wang's reviewer and copy editor for PrompTugal.news (reviewer@PrompTugal.vicky): checks her journalists' drafts in desks/journalist-vicky/drafts/ against their sources, writes a review per draft in desks/reviewer-vicky/reviews/, makes style edits, and publishes and signs verified factual work under R-PUB-1 (standing answer 31, rule 8). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on the team account on 11 November 2026 at 19:18 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the team's pin), at the switch-back to the team account (standing answer 32, Vicky, 11 Nov about 18:45 UTC). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation. It replaces reviewer-vicky-promptugal-b (the personal account's twin).",
+      "added": "2026-11-11T19:20Z",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuV4zOlYda9CdHmacr11b\n0z9qUxbaj4BrKwY1cTyXyhO/4IIvDV7wa85LuDMKLdHm/2qz7mQzPzqZSsZbz3oA\nJynpbSjLmGCBv1ly2YjbT9MZrjgAcIN2uUiysHN8uBsykPX6Eft5p+3+lNyMxiTL\nsGQLSAWfd7c0AMwE5NokXsGq7iLNERe1pERhFa1P8CGnvQv5eEtVeMVIRDYlG2uB\ncL/Ct7NC3eQ15GFDQIGydORJZKY5lWVji+ruQmn9WNOMBNX4kQ81guNttQLt26+F\nT+n5MUQTAauTTPZkqng5zP+8F57Qap0ekZUl5Dyi6YX74RPbCmznseoMlXACo77E\n4Tzm7bzJquAy690puaP2Hi7p+3aERSX2eVd7G4Qyq9aJb+4WnlYRUSeq7MjqXCYO\nT65ks8lDA5wj+tO2foMQ4UsPki+C05NkH1HlZAALFpsVulO5gHlFwIRUWHytEsrJ\nj24OlLQvqR608H5Wiziz/+jvV8Yw1WVkRcMhQc8QIWNtCnk1S1DhVMFquGGTLDpH\ntP6C6SdkM+qW6w99I/nObiiv3JMDLB7+V4W1qvOdxio2WwP+w7n67NjQ0McPOccm\nNUnmmdFgxBwDg0zRVaxLo8RgjZYEGT4nzLqNm2AE+szD+G6AQCgSgPzuJeYGgij5\nJ1ZQQgRtTulJXtDUsUOe8o0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyYn9R4s7OjGqDNZVt76p0ZJmPLYq\nN0Mu4DqYRfpJcFly5Yqo2ZEsyDu7Zb2sI73DwebxyVveGoJmoEqq+UP9aA==\n-----END PUBLIC KEY-----\n",
+        "label": "reviewer@PrompTugal.vicky",
+        "fingerprint": "sha256:6926af01300de37e",
+        "record": "sha256:9bdecdbf857ccf8b",
+        "signing_fingerprint": "sha256:9bdecdbf857ccf8b"
+      }
     }
   ]
 }
