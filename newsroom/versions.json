@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1219",
+    "date": "2026-11-11",
+    "what": "conductor.fringe@PrompTugal.vicky: public key (Lisbon Fringe conductor for Vicky)",
+    "by": "conductor.fringe@PrompTugal.vicky",
+    "from": "d5f0bb970"
+  },
+  {
     "version": "v0.1.1218",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.vicky: /storm/charles/: refresh of read times (IPMA and the operators re-read 10:46 UTC; government and ANEPC 10:36); reviewer@ verified",
