@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-11T10:25Z",
+  "updated": "2026-11-11T12:30Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -90,7 +90,7 @@
     "A crm field from each company to its record in the team CRM"
   ],
   "asks": [
-    "Dinis: GAMMA-Ray has rated companies that are not in our company map (Noxus, OutSystems, Talkdesk, Codacy, Automaise, ByTheLaw, Visor.ai, Granter, Spinnable, Ethiack, Pebl): should they join it, so their pages carry their cards? Noxus first, as conductor@ asked.",
+    "Dinis: GAMMA-Ray has rated companies that are not in our company map (Noxus, OutSystems, Talkdesk, Codacy, Automaise, ByTheLaw, Visor.ai, Granter, Spinnable, Ethiack, Pebl, Student Property Network): should they join it, so their pages carry their cards? Noxus first, as conductor@ asked.",
     "Dinis: to make the translations (your 19:25 brief: events first, then articles and company pages) I need openrouter.ai in my ABP grant (R7: I may send only to dev.send.sgraph.ai) and a line in accountant@'s OpenRouter plan; events are 249 x 20 cultures. Yes, or should another agent (dev@) run the calls into data/translations/?",
     "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
     "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?",
@@ -558,6 +558,12 @@
       "outcome": "ok",
       "release": "run report only",
       "line": "nothing new"
+    },
+    {
+      "started": "2026-11-11T12:23Z",
+      "outcome": "ok",
+      "release": "run report only",
+      "line": "LEGALFLY's card reaches its page by id; nothing to change"
     }
   ],
   "decisions_on_findings": [

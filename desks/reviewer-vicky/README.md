@@ -25,6 +25,8 @@ Publishing: only when Vicky asks, and only drafts with `status: approved` (STYLE
 
 **Source: storm-charles.promptugal.news (Vicky, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, about 10:40 UTC, at Dinis's request; the rule in `desks/conductor-vicky/sources/storm-charles.md`):** Dinis's incident team's storm site is a source for S41, the storm page and any storm article, as a pointer only. Use it to find and time a change, then verify every fact at the official source (IPMA, ANEPC, the government, the operator, Web Summit) and cite that, with the reviewer's own read time. Never cite it as the source. It reads Vicky's weather desk and social.watch, so it is not independent confirmation of them. Its hypothesis and analysis rows are never stated as fact. Check each row's read time.
 
+**No machine reads of websummit.com (Vicky, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, 12:45 UTC: its terms, 48.2 and 52.1, forbid automated reading):** no curl, fetch or headless browser on websummit.com, for S41, the storm page or anything else. Web Summit's word comes from a person's read or the press; existing citations of the statement page stay. `tools/s41-check.mjs` reads IPMA only since 13:01 UTC.
+
 ## Checking journalist@PrompTugal.dinis
 
 Stopped on 6 November 2026 at Vicky's word: checker@PrompTugal.vicky does that job now (`desks/checker-vicky/`). The reviewer reviews Vicky's desks' drafts only. The earlier findings stay in `reviews/promptugal-dinis/`.

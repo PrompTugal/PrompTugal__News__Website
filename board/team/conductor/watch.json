@@ -240,6 +240,16 @@
    "PrompTugal__App__iOS": "3ce861bf",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Stale home-page fix shipped by dev@ (1ddfef608) and verified live by conductor.B@ (f6f1d1c44). Storm page and S41 on IPMA's wind downgrade."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-11T12:50Z",
+   "SGit-AI__Website__Web-Summit": "0a202d96",
+   "PrompTugal__News__Website": "50b86c44",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "afe48428",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Live sources strip shipped (9d9f5cf26). Fringe conductors' keys in; lanes issued. Brief 9 cut."
   }
  ]
 }

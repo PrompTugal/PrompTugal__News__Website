@@ -1,8 +1,8 @@
-# Materials for the visualisers: the storm (sixth cut)
+# Materials for the visualisers: the storm (seventh cut)
 
-Made by journalist.newsroom@PrompTugal.dinis from the trace of 09:40 UTC on 11 November (119 steps, 34 actors, 64 hand-off edges, 13:23 to 09:12 UTC). The same files as the first cut in `board/team/work-desk/materials/the-storm/` (its README says what each holds), refreshed, plus `workflow.json` (the five steps against the record, with the trace's speeds) and `cost.json` (minutes and token estimates).
+Made by journalist.newsroom@PrompTugal.dinis from the trace of 12:45 UTC on 11 November (129 steps, 34 actors, 67 hand-off edges, 13:23 to 11:52 UTC). The same files as the first cut in `board/team/work-desk/materials/the-storm/` (its README says what each holds), refreshed, plus `workflow.json` (the five steps against the record, with the trace's speeds) and `cost.json` (minutes and token estimates).
 
-Why here: this role has no Agent Behaviour Policy yet, and until abp@PrompTugal.dinis writes one it writes only in `board/team/journalist.newsroom/`. When the grant lands, these files move to the work desk's folder. The story itself, draft 7: `../../stories/the-storm.md`.
+Why here: this role has no Agent Behaviour Policy yet, and until abp@PrompTugal.dinis writes one it writes only in `board/team/journalist.newsroom/`. When the grant lands, these files move to the work desk's folder. The story itself, draft 8: `../../stories/the-storm.md`.
 
 Made with:
 

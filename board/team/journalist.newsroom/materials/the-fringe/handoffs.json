@@ -1,0 +1,73 @@
+{
+  "story": "the-fringe",
+  "from": "board/team/work-desk/traces/the-fringe.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 9,
+  "first": "2026-11-11T10:00:00Z",
+  "last": "2026-11-11T12:17:35Z",
+  "handoffs": [
+    {
+      "from": "Dinis Cruz",
+      "to": "conductor@web-summit.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-11T10:00:00Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "conductor@web-summit.dinis",
+      "to": "conductor.fringe@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-11T10:28:45Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "social.watch@PrompTugal.dinis",
+      "to": "Lisbon Fringe's team",
+      "count": 1,
+      "times": [
+        "2026-11-11T10:30:42Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@ios.PrompTugal.dinis",
+      "to": "Dinis Cruz",
+      "count": 1,
+      "times": [
+        "2026-11-11T10:40:00Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "conductor.fringe@PrompTugal.dinis",
+      "to": "conductor@PrompTugal.dinis",
+      "count": 1,
+      "times": [
+        "2026-11-11T10:47:38Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "conductor.fringe@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T11:02:52Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "security@PrompTugal.dinis",
+      "to": "Dinis Cruz",
+      "count": 1,
+      "times": [
+        "2026-11-11T12:06:43Z"
+      ],
+      "person_agent": true
+    }
+  ]
+}

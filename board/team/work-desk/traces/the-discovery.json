@@ -5,11 +5,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T09:40Z",
+  "updated": "2026-11-11T12:45Z",
   "covers": {
     "from": "2026-11-11T00:22:10Z",
-    "to": "2026-11-11T09:20:19Z",
-    "last_commit": "bbb93827c"
+    "to": "2026-11-11T11:40:20Z",
+    "last_commit": "a10968776"
   },
   "method": "commit subjects and trailers on dev; times are commit times (UTC).",
   "steps": [
@@ -906,6 +906,110 @@
         "commit:bbb93827c"
       ],
       "note": "The journalists close the night shift with hand-over notes (connections 07:12, AI 08:28, Europe 09:20)."
+    },
+    {
+      "n": 44,
+      "time_utc": "2026-11-11T09:49:39Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's editorial call (step 24)",
+      "output": "S52 published: Konecta picks Lisbon, with its 30 October forbearance agreement mentioned",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:5671224df"
+      ],
+      "hand_off": "person->agent (Vicky decides what R-PUB-1 could not)",
+      "workflow_step": "published: 6 h 03 min after Ready, waiting for a person"
+    },
+    {
+      "n": 45,
+      "time_utc": "2026-11-11T10:20:07Z",
+      "actor": {
+        "name": "journalist-europe@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "its beat",
+      "output": "lead: the Digital Fairness Act proposal (AI agents shopping for consumers)",
+      "hand_off_to": [
+        {
+          "name": "curator@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:d7211442c"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "lead"
+    },
+    {
+      "n": 46,
+      "time_utc": "2026-11-11T10:46:16Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the lead",
+      "output": "S56 commissioned",
+      "hand_off_to": [
+        {
+          "name": "journalist-europe@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:7dbc36917"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "commission"
+    },
+    {
+      "n": 47,
+      "time_utc": "2026-11-11T11:26:33Z",
+      "actor": {
+        "name": "journalist-europe@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S56",
+      "output": "drafted",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:915f180b2"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 48,
+      "time_utc": "2026-11-11T11:40:20Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S56 with its category line",
+      "output": "published under R-PUB-1",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:a10968776"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 54 min from commission"
     }
   ],
   "hand_offs_person_agent": [
@@ -919,14 +1023,15 @@
     24,
     34,
     37,
-    42
+    42,
+    44,
+    48
   ],
   "funnel": {
-    "leads": 16,
-    "commissions": 10,
-    "published": 8,
+    "leads": 17,
+    "commissions": 11,
+    "published": 10,
     "held": [
-      "S52 (Vicky's editorial call)",
       "Invelon (date conflict)",
       "others held by the curator"
     ],
@@ -973,6 +1078,14 @@
     {
       "what": "S55 commission to published",
       "minutes": 66
+    },
+    {
+      "what": "S56 commission to published",
+      "minutes": 54
+    },
+    {
+      "what": "S52 Ready to published (waiting for Vicky's call)",
+      "minutes": 363
     }
   ],
   "pattern": "one person approves once (step 1) and a standing rule (R-PUB-1) stands in for her at every publication: four articles reached readers between 01:14 and 02:56 with no person in the loop at the time. The reviewer's 'Fix first' and the curator's holds are the checks that remain.",

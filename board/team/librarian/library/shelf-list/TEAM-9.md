@@ -1,19 +1,22 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 9 of 30)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T09:59:23Z"
-site_version: "v0.1.1206"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T12:59:33Z"
+site_version: "v0.1.1236"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 9 of 30)
 
-100 cards, from `TEAM.ROLE 17:10` to `TEAM.ROLE 2026-11-07-handover:15`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE 16:8` to `TEAM.ROLE 2026-11-07-handover:12`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 801 to 825**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 16:8` | [16.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/3-the-platform/16.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 16:9` | [16.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/5-the-investment/16.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 17` | [17.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/3-the-platform/17.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 17:10` | [17.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/3-the-platform/17.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 17:11` | [17.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/8-do-it-yourself/17.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 17:12` | [17.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/9-the-tour/17.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -36,14 +39,14 @@ source: board/catalogue.json
 | `TEAM.ROLE 2-the-industry` | [2-the-industry.pdf](https://promptugal.news/board/team/investors/decks/2-the-industry.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 2-the-industry.en` | [2-the-industry.en.jpg](https://promptugal.news/board/team/investors/site/img/covers/2-the-industry.en.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 2-the-industry.es` | [2-the-industry.es.pdf](https://promptugal.news/board/team/investors/decks/2-the-industry.es.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 2-the-industry.es:2` | [2-the-industry.es.jpg](https://promptugal.news/board/team/investors/site/img/covers/2-the-industry.es.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 2-the-industry.fr` | [2-the-industry.fr.pdf](https://promptugal.news/board/team/investors/decks/2-the-industry.fr.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 2-the-industry.fr:2` | [2-the-industry.fr.jpg](https://promptugal.news/board/team/investors/site/img/covers/2-the-industry.fr.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 **Cards 826 to 850**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2-the-industry.es:2` | [2-the-industry.es.jpg](https://promptugal.news/board/team/investors/site/img/covers/2-the-industry.es.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 2-the-industry.fr` | [2-the-industry.fr.pdf](https://promptugal.news/board/team/investors/decks/2-the-industry.fr.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 2-the-industry.fr:2` | [2-the-industry.fr.jpg](https://promptugal.news/board/team/investors/site/img/covers/2-the-industry.fr.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 2-the-industry.pt` | [2-the-industry.pt.pdf](https://promptugal.news/board/team/investors/decks/2-the-industry.pt.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 2-the-industry.pt:2` | [2-the-industry.pt.jpg](https://promptugal.news/board/team/investors/site/img/covers/2-the-industry.pt.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 2-the-industry:2` | [2-the-industry.tpl](https://promptugal.news/board/team/investors/decks/src/2-the-industry.tpl) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -66,14 +69,14 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-06-handover` | [Hand-over: accountant@, 6 November 2026](https://promptugal.news/board/team/accountant/debriefs/2026-11-06-handover.md) | team | accountant@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-handover:10` | [abp@PrompTugal.dinis: hand-over, 6 November 2026](https://promptugal.news/board/team/abp/debriefs/2026-11-06-handover.md) | team | abp@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-handover:11` | [backup@PrompTugal.dinis: hand-over, 6 November 2026](https://promptugal.news/board/team/backup/debriefs/2026-11-06-handover.md) | team | backup@ 6 Nov 2026 |
-| `TEAM.ROLE 2026-11-06-handover:12` | [conductor.b@PrompTugal.dinis: the first session on account B could not start; how to set up the next one](https://promptugal.news/board/team/conductor.b/debriefs/2026-11-06-handover.md) | team | conductor.b@ 6 Nov 2026 |
-| `TEAM.ROLE 2026-11-06-handover:13` | [customers@PrompTugal.dinis, session 1: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/customers/debriefs/2026-11-06-handover.md) | team | customers@ 6 Nov 2026 |
-| `TEAM.ROLE 2026-11-06-handover:14` | [designer@PrompTugal.dinis, session 2: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/designer/debriefs/2026-11-06-handover.md) | team | designer@ 6 Nov 2026 |
 
 **Cards 851 to 875**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-06-handover:12` | [conductor.b@PrompTugal.dinis: the first session on account B could not start; how to set up the next one](https://promptugal.news/board/team/conductor.b/debriefs/2026-11-06-handover.md) | team | conductor.b@ 6 Nov 2026 |
+| `TEAM.ROLE 2026-11-06-handover:13` | [customers@PrompTugal.dinis, session 1: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/customers/debriefs/2026-11-06-handover.md) | team | customers@ 6 Nov 2026 |
+| `TEAM.ROLE 2026-11-06-handover:14` | [designer@PrompTugal.dinis, session 2: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/designer/debriefs/2026-11-06-handover.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-handover:15` | [dev.data@PrompTugal.dinis: final hand-over, 6 November 2026](https://promptugal.news/board/team/dev.data/debriefs/2026-11-06-handover.md) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-handover:16` | [dev.graphs@PrompTugal.dinis: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/dev.graphs/debriefs/2026-11-06-handover.md) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-handover:17` | [Hand-over: dev.pages@PrompTugal.dinis, 6 November 2026](https://promptugal.news/board/team/dev.pages/debriefs/2026-11-06-handover.md) | team | dev@ 6 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-06-lane-token-printed` | [2026-11-06-lane-token-printed.json](https://promptugal.news/board/team/customers/incidents/2026-11-06-lane-token-printed.json) | team | customers@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-library-architecture` | [The library's card and authority file: the ontologist's review](https://promptugal.news/board/team/ontologist/reviews/2026-11-06-library-architecture.md) | team | ontologist@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-session-1` | [designer@PrompTugal.dinis, session 1: debrief and handover to the next designer session](https://promptugal.news/board/team/designer/debriefs/2026-11-06-session-1.md) | team | designer@ 6 Nov 2026 |
-| `TEAM.ROLE 2026-11-06-the-event-platform` | [Brief: the event personalisation platform, the flagship we could sell for other events](https://promptugal.news/board/team/customers/briefs/2026-11-06-the-event-platform.md) | team | customers@ 6 Nov 2026 |
-| `TEAM.ROLE 2026-11-06-the-personal-newsreel` | [Brief for the conductor: the personal newsreel, and the map of everything published about the summit](https://promptugal.news/board/team/customers/briefs/2026-11-06-the-personal-newsreel.md) | team | customers@ 6 Nov 2026 |
-| `TEAM.ROLE 2026-11-06T0345Z` | [2026-11-06T0345Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-06T0345Z.json) | team | accountant@ 6 Nov 2026 |
 
 **Cards 876 to 900**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-06-the-event-platform` | [Brief: the event personalisation platform, the flagship we could sell for other events](https://promptugal.news/board/team/customers/briefs/2026-11-06-the-event-platform.md) | team | customers@ 6 Nov 2026 |
+| `TEAM.ROLE 2026-11-06-the-personal-newsreel` | [Brief for the conductor: the personal newsreel, and the map of everything published about the summit](https://promptugal.news/board/team/customers/briefs/2026-11-06-the-personal-newsreel.md) | team | customers@ 6 Nov 2026 |
+| `TEAM.ROLE 2026-11-06T0345Z` | [2026-11-06T0345Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-06T0345Z.json) | team | accountant@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06T0650Z` | [2026-11-06T0650Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-06T0650Z.json) | team | accountant@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06T0950Z` | [2026-11-06T0950Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-06T0950Z.json) | team | accountant@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06T1252Z` | [2026-11-06T1252Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-06T1252Z.json) | team | accountant@ 6 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-07-handover:10` | [dev.data@PrompTugal.dinis: hand-over, 7 November 2026](https://promptugal.news/board/team/dev.data/debriefs/2026-11-07-handover.md) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:11` | [dev.portugal@PrompTugal.dinis: hand-over debrief, 7 November 2026](https://promptugal.news/board/team/dev.portugal/debriefs/2026-11-07-handover.md) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:12` | [dev.search hand-over debrief, 7 November 2026 (session 2, account B)](https://promptugal.news/board/team/dev.search/debriefs/2026-11-07-handover.md) | team | dev@ 7 Nov 2026 |
-| `TEAM.ROLE 2026-11-07-handover:13` | [devops@PrompTugal.dinis: hand-over debrief, 7 November 2026](https://promptugal.news/board/team/devops/debriefs/2026-11-07-handover.md) | team | devops@ 7 Nov 2026 |
-| `TEAM.ROLE 2026-11-07-handover:14` | [historian@PrompTugal.dinis, hand-over debrief, 7 November 2026](https://promptugal.news/board/team/historian/debriefs/2026-11-07-handover.md) | team | historian@ 7 Nov 2026 |
-| `TEAM.ROLE 2026-11-07-handover:15` | [Hand-over: the ontologist, 7 November 2026](https://promptugal.news/board/team/ontologist/debriefs/2026-11-07-handover.md) | team | ontologist@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-8.md) | [Next part](TEAM-10.md)

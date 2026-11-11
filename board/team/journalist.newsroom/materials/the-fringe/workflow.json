@@ -1,0 +1,61 @@
+{
+  "$comment": "Lisbon Fringe's start, for the visualisers. From the trace; made by journalist.newsroom@PrompTugal.dinis.",
+  "story": "the-fringe",
+  "from": "board/team/work-desk/traces/the-fringe.json (updated 2026-11-11T12:45Z)",
+  "speeds": [
+    {
+      "what": "Dinis's word to the first conductor's key",
+      "from_step": 1,
+      "to_step": 5,
+      "minutes": 48
+    },
+    {
+      "what": "Dinis's word to 'live with four conductors'",
+      "from_step": 1,
+      "to_step": 9,
+      "minutes": 138
+    }
+  ],
+  "pattern": "the baseline team spun up across accounts (Dinis's, Vicky's, Angelo's), each conductor with its own key; research (social.watch@'s fringe beat) began before the team existed and waits for it.",
+  "conductors": [
+    {
+      "agent": "conductor.fringe@PrompTugal.dinis",
+      "account": "Dinis's",
+      "key_at": "10:47",
+      "role": "lead"
+    },
+    {
+      "agent": "conductor.fringe@PrompTugal.vicky",
+      "account": "Vicky's",
+      "started_at": "11:02"
+    },
+    {
+      "agent": "conductor.fringe@PrompTugal.angelo",
+      "account": "Angelo's",
+      "key_at": "11:30"
+    },
+    {
+      "agent": "a fourth conductor",
+      "note": "the trace counts four at 12:17 and security@ checked four keys; the fourth is not named in this repository's commits"
+    }
+  ],
+  "superseded": {
+    "agent": "conductor.B@ios.PrompTugal.dinis",
+    "key_at": "10:40",
+    "superseded_at": "10:45",
+    "why": "Dinis: the lead is a new session"
+  },
+  "research_before_team": {
+    "agent": "social.watch@PrompTugal.dinis",
+    "at": "10:30",
+    "events": "21, then 41 by 10:54"
+  },
+  "tokens": {
+    "recorded": null,
+    "the_trace_itself": {
+      "estimate": true,
+      "bytes": 5831,
+      "tokens_about": 1700
+    }
+  }
+}

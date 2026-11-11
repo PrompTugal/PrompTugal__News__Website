@@ -2219,8 +2219,197 @@
       "hand_off": "agent->person",
       "workflow_step": null,
       "minute": 1189
+    },
+    {
+      "id": "s120",
+      "time": "2026-11-11T09:43:15Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "designer@'s four notes (step 111)",
+      "output": "/storm/charles/ layout updated (S1 to S4); no wording changes",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:dd9f85d6f"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "4. designer to developer: 3 h 08 min",
+      "minute": 1220
+    },
+    {
+      "id": "s121",
+      "time": "2026-11-11T09:48:52Z",
+      "actor": "weather@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the storm page's refresh loop",
+      "output": "hourly read times handed to dev@ and the reviewer for /storm/charles/",
+      "handoff_to": [
+        "dev@PrompTugal.vicky",
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:443106b29"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agents",
+      "workflow_step": null,
+      "minute": 1226
+    },
+    {
+      "id": "s122",
+      "time": "2026-11-11T10:00:00Z",
+      "actor": "Dinis Cruz",
+      "actor_kind": "person",
+      "input": "the storm day",
+      "output": "pt.news follows what is happening now; link storm-charles.promptugal.news (the incident team's site, account A) and use it as a main data source; start Lisbon Fringe",
+      "handoff_to": [
+        "conductor@web-summit.dinis"
+      ],
+      "evidence": [
+        "commit:75c7b9f5b",
+        "board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent",
+      "workflow_step": "the two storm workflows meet: the incident team's site becomes a source for Vicky's desk",
+      "minute": 1237
+    },
+    {
+      "id": "s123",
+      "time": "2026-11-11T10:37:09Z",
+      "actor": "designer@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "Dinis's guidance",
+      "output": "the live sources strip: the storm site at the top of the home page, Lisbon Fringe beside it once live",
+      "handoff_to": [
+        "dev@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:d07bd6b94"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "4. designer first, then developer (the brief's order, for once)",
+      "minute": 1274
+    },
+    {
+      "id": "s124",
+      "time": "2026-11-11T10:40:08Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Dinis's guidance; Vicky's word",
+      "output": "storm-charles.promptugal.news added as a source: a pointer only, every fact checked at the official source; rule saved by weather@, reviewer@ and the curator (10:46 to 10:58)",
+      "handoff_to": [
+        "weather@PrompTugal.vicky",
+        "reviewer@PrompTugal.vicky",
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:1df6dc4a3",
+        "commit:57b84bd0a",
+        "commit:7dbc36917",
+        "commit:c9e7d1194"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent->agents (Vicky narrows Dinis's 'main data source' to 'pointer')",
+      "workflow_step": null,
+      "minute": 1277
+    },
+    {
+      "id": "s125",
+      "time": "2026-11-11T10:55:26Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's word",
+      "output": "weather@ narrows to official-source checks; its wake to be disabled (not deleted) on Thursday about 09:00 UTC",
+      "handoff_to": [
+        "weather@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:7f66bb348",
+        "commit:e70e01a40"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (a temporary desk's end planned)",
+      "workflow_step": null,
+      "minute": 1292
+    },
+    {
+      "id": "s126",
+      "time": "2026-11-11T11:00:03Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "reads 10:36 to 10:46; reviewer@'s verification",
+      "output": "/storm/charles/ read times refreshed, released",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:5a92d5c21"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1297
+    },
+    {
+      "id": "s127",
+      "time": "2026-11-11T11:06:36Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's word",
+      "output": "S41 carries a line on the storm site (a running record, not a warning service); every fact stays cited to its official source",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:80e22ee19"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (Vicky)",
+      "workflow_step": null,
+      "minute": 1304
+    },
+    {
+      "id": "s128",
+      "time": "2026-11-11T11:24:52Z",
+      "actor": "dev@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "designer@'s strip (step 123)",
+      "output": "the live sources strip on the home page: the storm site and Lisbon Fringe",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:9d9f5cf26"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "5. the UI: 1 h 25 min from Dinis's word",
+      "minute": 1322
+    },
+    {
+      "id": "s129",
+      "time": "2026-11-11T11:52:33Z",
+      "actor": "social.watch@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "sweep 12",
+      "output": "Charles weakens and changes course; 288 flights cancelled at Lisbon",
+      "handoff_to": [
+        "conductor@web-summit.dinis"
+      ],
+      "evidence": [
+        "commit:018f6b28c",
+        "commit:3e4236a64 (09:56: flooding at Oriente, next to the venue)"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 1350
     }
   ],
   "first": "2026-11-10T13:23:00Z",
-  "last": "2026-11-11T09:12:07Z"
+  "last": "2026-11-11T11:52:33Z"
 }

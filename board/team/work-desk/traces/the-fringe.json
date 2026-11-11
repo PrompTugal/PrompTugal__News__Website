@@ -1,0 +1,213 @@
+{
+  "$comment": "The work desk's trace of Lisbon Fringe's start, as seen from this repository (its work lives in PrompTugal__News__Fringe). JSON first. README: the-fringe.md.",
+  "story": "the-fringe",
+  "title": "A new team in two hours: Lisbon Fringe from Dinis's word to four conductors on three accounts",
+  "made_by": "reporter.newsroom@PrompTugal.dinis",
+  "for": "journalist.newsroom@PrompTugal.dinis",
+  "issue": "WS-14",
+  "updated": "2026-11-11T12:45Z",
+  "covers": {
+    "from": "2026-11-11T10:00:00Z",
+    "to": "2026-11-11T12:17:35Z",
+    "last_commit": "6497eb14f"
+  },
+  "method": "commit subjects and bodies on this repository's dev only; the Fringe's own repository is not read (scope and tokens).",
+  "steps": [
+    {
+      "n": 1,
+      "time_utc": "2026-11-11T10:00:00Z",
+      "actor": {
+        "name": "Dinis Cruz",
+        "kind": "person"
+      },
+      "input": "'there seems to be like an Uncon event going on'",
+      "output": "a new site for the alternative and community events around the summit; the name Lisbon Fringe; started on account B",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:75c7b9f5b",
+        "board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md"
+      ],
+      "hand_off": "person->agent"
+    },
+    {
+      "n": 2,
+      "time_utc": "2026-11-11T10:28:45Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "the brief",
+      "output": "the brief moves to its own repository, PrompTugal__News__Fringe (BRIEF.md, KICKOFF.md)",
+      "hand_off_to": [
+        {
+          "name": "conductor.fringe@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:ba5c20f12"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 3,
+      "time_utc": "2026-11-11T10:30:42Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the guidance's new beat",
+      "output": "the fringe beat: 21 side events this week (41 by 10:54, the unconference found)",
+      "hand_off_to": [
+        {
+          "name": "Lisbon Fringe's team",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:9e8a80eae",
+        "commit:74411ea39"
+      ],
+      "hand_off": "agent->agent (research before the team exists)"
+    },
+    {
+      "n": 4,
+      "time_utc": "2026-11-11T10:40:00Z",
+      "actor": {
+        "name": "conductor.B@ios.PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the start",
+      "output": "makes a lead key, superseded at 10:45: Dinis says the lead is a new session",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:f6de53a38"
+      ],
+      "hand_off": "person->agent (Dinis corrects who leads)"
+    },
+    {
+      "n": 5,
+      "time_utc": "2026-11-11T10:47:38Z",
+      "actor": {
+        "name": "conductor.fringe@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "a new session at Dinis's word",
+      "output": "its session key in board/keys.json (lead of Lisbon Fringe, WS-215)",
+      "hand_off_to": [
+        {
+          "name": "conductor@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:a444de670",
+        "commit:c96f6613f"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 6,
+      "time_utc": "2026-11-11T11:02:52Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "Vicky's word, Dinis's 'swarm'",
+      "output": "starts conductor.fringe@PrompTugal.vicky",
+      "hand_off_to": [
+        {
+          "name": "conductor.fringe@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:2345e0dcf",
+        "commit:d5f0bb970 (its key, 11:04)"
+      ],
+      "hand_off": "person->agent->agent"
+    },
+    {
+      "n": 7,
+      "time_utc": "2026-11-11T11:30:17Z",
+      "actor": {
+        "name": "conductor.fringe@PrompTugal.angelo",
+        "kind": "agent"
+      },
+      "input": "Angelo's account",
+      "output": "its session key in board/keys.json",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:9e4cdc1b2"
+      ]
+    },
+    {
+      "n": 8,
+      "time_utc": "2026-11-11T12:06:43Z",
+      "actor": {
+        "name": "security@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the new keys",
+      "output": "four Fringe keys checked",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:daa1650fa"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 9,
+      "time_utc": "2026-11-11T12:17:35Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "the watch",
+      "output": "Lisbon Fringe live with four conductors",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:6497eb14f"
+      ]
+    }
+  ],
+  "hand_offs_person_agent": [
+    1,
+    4,
+    6,
+    8
+  ],
+  "speeds": [
+    {
+      "what": "Dinis's word to the first conductor's key",
+      "from_step": 1,
+      "to_step": 5,
+      "minutes": 48
+    },
+    {
+      "what": "Dinis's word to 'live with four conductors'",
+      "from_step": 1,
+      "to_step": 9,
+      "minutes": 138
+    }
+  ],
+  "pattern": "the baseline team spun up across accounts (Dinis's, Vicky's, Angelo's), each conductor with its own key; research (social.watch@'s fringe beat) began before the team existed and waits for it.",
+  "related_traces": [
+    "the-storm.json"
+  ]
+}

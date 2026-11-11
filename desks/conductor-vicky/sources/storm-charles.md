@@ -13,3 +13,8 @@ An aggregator of public sources on Storm Charles (10 to 12 November 2026), as pa
 - **Hypotheses stay hypotheses.** Its rows labelled hypothesis or analysis are never stated as fact.
 - **Check its read times.** Some files lag (its Web Summit channel watch read at 21:34 UTC on 10 Nov, checked 10:40 on 11 Nov).
 - Public pages only; nothing private.
+
+## websummit.com: no automated reading (from 11 Nov, about 12:47 UTC)
+
+Dinis's incident team found that websummit.com's terms forbid automated reading (Terms 48.2 and 52.1) and stopped its own polling at 05:27 UTC on 11 Nov. Vicky's desks had been reading it by machine (dev@, and probably weather@'s connector and reviewer@'s headless reads) until about 12:45 UTC on 11 Nov; all three were told to stop then. Web Summit's word now comes from a person's browser read, the press quoting the organisers' public posts, or storm-charles.promptugal.news as a pointer. Existing citations of the statement page stay.
+- Record: reviewer@ ran its old check tool once at about 12:59 UTC, after the rule reached it, fetching websummit.com's homepage, blog and statement page; it did not use that output and changed the tool at 13:01. Its 12:36 to 12:40 reads (before the rule) underlie the live S41, S54 and S49 Thursday updates, pending Vicky's browser check; reviewer@ rolls them back if the announcement is not there.

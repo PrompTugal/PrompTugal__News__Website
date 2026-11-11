@@ -5,11 +5,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T09:40Z",
+  "updated": "2026-11-11T12:45Z",
   "covers": {
     "from": "2026-11-10T22:45:47Z",
-    "to": "2026-11-11T09:16:17Z",
-    "last_commit": "1ddfef608"
+    "to": "2026-11-11T12:06:43Z",
+    "last_commit": "daa1650fa"
   },
   "method": "commit subjects, trailers and the fix's body on dev; commit times (UTC).",
   "steps": [
@@ -130,11 +130,73 @@
       ],
       "hand_off": "agent->agent",
       "workflow_step": "the developer builds it: 6 minutes after the plan reached its owner"
+    },
+    {
+      "n": 7,
+      "time_utc": "2026-11-11T09:34:22Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "v-live",
+      "output": "the fix verified live",
+      "hand_off_to": [
+        {
+          "name": "Vicky Wang",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:f6f1d1c44"
+      ],
+      "hand_off": "agent->person"
+    },
+    {
+      "n": 8,
+      "time_utc": "2026-11-11T10:15:24Z",
+      "actor": {
+        "name": "dev@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "its own fix",
+      "output": "a page from a kept copy always says so, and offers the newer one when it arrives",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:a537fb5ea"
+      ]
+    },
+    {
+      "n": 9,
+      "time_utc": "2026-11-11T12:06:43Z",
+      "actor": {
+        "name": "security@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the fix",
+      "output": "post-reviewed: clean",
+      "hand_off_to": [
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:daa1650fa"
+      ],
+      "hand_off": "agent->person",
+      "note": "Security reviewed after the ship (the 'ship on security's pass' order allows a post-review), 2 h 50 min later."
     }
   ],
   "hand_offs_person_agent": [
     1,
-    4
+    4,
+    7,
+    9
   ],
   "speeds": [
     {

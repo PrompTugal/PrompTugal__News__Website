@@ -22,36 +22,8 @@ const gustsSame = !!wind && /120 km\/h/.test(wind.text) && !/140 km\/h/.test(win
 const ipmaSame = gustsSame && EXPECTED.every(e => ipma.includes(e)) && ipma.filter(s => ['red', 'orange'].includes(s.split('|')[1])).length === EXPECTED.length;
 
 const words = /(weather|wind|storm|IPMA|civil protection|cancel|postpone|closed|suspend|Wednesday|11 November|Day 3|Thursday|12 November|event update)/i;
-const websummit = {};
-const b = await chromium.launch();
-const p = await b.newPage();
-// /blog/ is where Web Summit posted its Day 2 statement (10 Nov); watched for Day 3 updates too
-for (const u of ['https://websummit.com/', 'https://websummit.com/blog/', 'https://websummit.com/blog/news/']) {
-  try {
-    await p.goto(u, { waitUntil: 'networkidle', timeout: 60000 });
-    const t = (await p.innerText('body')).replace(/\s+/g, ' ')
-      .replace(/Join the Web Summit network[^.]*\./g, '')
-      // Web Summit's own statement of 10 Nov (Day 2 will not take place), already in S41: not a new change
-      // its homepage banner (21:32 UTC, 10 Nov) pointing to that statement: also known
-      .replace(/Important event update On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings\. Please read statement here\./g, '')
-      .replace(/Important event update The Government of Portugal has formally advised Web Summit that, due to the risks posed by Storm[^.]*\.{0,3}/g, '');
-    const m = t.match(words);
-    websummit[u] = m ? t.slice(Math.max(0, m.index - 200), m.index + 300) : null;
-  } catch (e) { websummit[u] = 'ERROR ' + e.message.split('\n')[0]; }
-}
-// Web Summit's statement itself: any edit (a Day 3 update added to it, say) is a change
-const POST = 'https://websummit.com/blog/web-summit/important-event-update-2026/';
-const KNOWN = "The Government of Portugal has formally advised Web Summit that, due to the risks posed by Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures, Day 2 of Web Summit should not take place. This follows discussions with the Portuguese Government, the National Emergency and Civil Protection Authority (ANEPC), and the Public Security Police (PSP). Web Summit will of course respect the Government’s direction, and accordingly, Day 2 (Wednesday, November 11th) will not take place. The safety and security of our attendees, staff and contractors is always our absolute priority. Web Summit aims to proceed with Day 3 (Thursday, November 12) as planned, following the passing of Storm Charles. We will continue to work closely with the relevant authorities and emergency services, monitor conditions and provide further updates as soon as confirmed information becomes available. Web Summit will communicate directly with those impacted.";
-try {
-  await p.goto(POST, { waitUntil: 'networkidle', timeout: 60000 });
-  const t = (await p.innerText('body')).replace(/\s+/g, ' ');
-  // unchanged = the known text, followed directly by the related posts or the footer
-  const k = t.indexOf(KNOWN);
-  const after = k >= 0 ? t.slice(k + KNOWN.length).trim() : '';
-  const same = k >= 0 && /^(Related|Web Summit ©)/.test(after);
-  const i = t.indexOf('Web Summit Share');
-  websummit[POST] = same ? null : 'STATEMENT CHANGED: ' + t.slice(Math.max(0, (i >= 0 ? i : t.indexOf('Important event update'))), (i >= 0 ? i : 0) + 2500);
-} catch (e) { websummit[POST] = 'ERROR ' + e.message.split('\n')[0]; }
-await b.close();
-const change = !ipmaSame || Object.values(websummit).some(v => v !== null);
+// websummit.com is not read by machine (its terms forbid automated reading; Vicky's rule via conductor.B@, 11 Nov 2026, 12:45 UTC).
+// Web Summit's word comes from a person's read or the press.
+const websummit = { note: 'not read by machine' };
+const change = !ipmaSame || false;
 console.log(JSON.stringify({ checked, ipma, ipmaSame, websummit, change }, null, 1));

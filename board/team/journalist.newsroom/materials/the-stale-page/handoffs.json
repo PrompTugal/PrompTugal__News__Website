@@ -2,9 +2,9 @@
   "story": "the-stale-page",
   "from": "board/team/work-desk/traces/the-stale-page.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 6,
+  "steps": 9,
   "first": "2026-11-10T22:45:47Z",
-  "last": "2026-11-11T09:16:17Z",
+  "last": "2026-11-11T12:06:43Z",
   "handoffs": [
     {
       "from": "Vicky Wang",
@@ -45,11 +45,30 @@
     {
       "from": "dev@PrompTugal.dinis",
       "to": "readers (promptugal.news)",
-      "count": 1,
+      "count": 2,
       "times": [
-        "2026-11-11T09:16:17Z"
+        "2026-11-11T09:16:17Z",
+        "2026-11-11T10:15:24Z"
       ],
       "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "Vicky Wang",
+      "count": 1,
+      "times": [
+        "2026-11-11T09:34:22Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "security@PrompTugal.dinis",
+      "to": "Dinis Cruz",
+      "count": 1,
+      "times": [
+        "2026-11-11T12:06:43Z"
+      ],
+      "person_agent": true
     }
   ]
 }
