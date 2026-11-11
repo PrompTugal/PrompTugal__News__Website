@@ -3,15 +3,15 @@
   "reference": "desks/conductor-vicky/taxonomy/categories.md; machine-readable desks/curator/categories.json",
   "steps": {
     "1 categories.json by curator": "done 23:4x UTC; checked by conductor: 8 categories in order, all 56 articles, none missing or unknown, counts 27/20/18/14/13/7/5/5, Teamworks AI+Corporate, 106 secondary tags (case-merged)",
-    "2 build change by dev@PrompTugal.vicky (For: dev@PrompTugal.dinis)": "in progress 23:56: dev@ testing the categories gate",
-    "3 publishing check (gate + reviewer)": "asked",
+    "2 build change by dev@PrompTugal.vicky (For: dev@PrompTugal.dinis)": "done: af1ca0ecd, live v0.1.1107; note in dev@PrompTugal.dinis inbox",
+    "3 publishing check (gate + reviewer)": "done: gate FAILs unknown category or entry without article, WARNs article without entry; node newsroom/tools/categories-check.mjs <slug> (tested by conductor: exit 0 / exit 1); reviewer README has the check",
     "4 agents acknowledge and save the rules": "in progress",
-    "5 verified live": "pending"
+    "5 verified live": "verified by conductor 00:15 UTC 11 Nov on v0.1.1107: dropdown = All topics + the 8 with counts 27/20/18/14/13/7/5/5; By topic list same order; filter shows \"5 of 56\" for Corporate; no bracketed topics; all 56 article URLs 200; the change touched no article or signature file; CI deploy (gate incl. signatures) success"
   },
   "acks": {
     "curator@PrompTugal.vicky": "ack 23:33: desks/curator/README.md (commit 46c0dc3bc)",
     "reviewer@PrompTugal.vicky": "ack 23:42: desks/reviewer-vicky/README.md (Publishing, Categories); checked S41, S42, S45 have entries",
-    "dev@PrompTugal.vicky": "working on it (rules to be saved in its desk README)",
+    "dev@PrompTugal.vicky": "ack 00:05: desks/dev-vicky/README.md",
     "journalist@PrompTugal.vicky": "ack 23:42: desks/journalist-vicky/notes/journalist-standing-rules.md",
     "journalist-connections@PrompTugal.vicky": "ack 23:42: desks/journalist-vicky/notes/journalist-connections-rules.md",
     "journalist-portugal@PrompTugal.vicky": "ack 23:42: desks/journalist-vicky/notes/journalist-portugal.md",
@@ -32,5 +32,8 @@
     "reporter.newsroom": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)"
   },
   "schedules": "unchanged",
-  "switch_back": "When Vicky returns to her original account, her @web-summit.vicky and original @PrompTugal.vicky sessions get the same rules (listed in the conductor handover)"
+  "switch_back": "When Vicky returns to her original account, her @web-summit.vicky and original @PrompTugal.vicky sessions get the same rules (listed in the conductor handover)",
+  "open": [
+    "Articles page cards still show the old beat label (e.g. Glovo under Corporate labelled THE SUMMIT); recommendation to Vicky: label cards on the articles page with the first main category, homepage unchanged"
+  ]
 }

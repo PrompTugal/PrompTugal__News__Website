@@ -5,9 +5,9 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "23:48 wake: categories rollout tracked (curator file checked; 8 of 11 Vicky agents acknowledged); storm page verified by reviewer with corrections for dev@; 00:00: S41 update (IPMA red rain 09:00-18:00) verified live v0.1.1106; storm page corrected by dev@ (held, 19d6f5869), back with reviewer@",
+  "done": "00:15 11 Nov: article categories live and verified (v0.1.1107); 9 of 11 Vicky agents acknowledged",
   "next": [
-    "Categories: dev@ build change once Vicky confirms in dev@ window; then verify live (dropdown, counts, lists page, bracket fix, signatures); acks from checker, programme, journalist-ai standing notes, Dinis and other desks",
+    "Categories: acks from checker, programme, Dinis's and other desks; card labels on the articles page if Vicky agrees",
     "TOMORROW MORNING (first :48 wake from 07:48 UTC, 11 Nov): send dev@PrompTugal.vicky Vicky's request (10 Nov ~22:40 UTC): diagnose why an old saved copy of the home page (about 14:40) showed before the live one in her browser tonight; diagnosis and a proposed fix only; the offline/service-worker files are dev@PrompTugal.dinis's under security@'s rule, so any fix goes to that desk; report to Vicky",
     "S45 draft to the reviewer, then Vicky's approval",
     "S44: journalist@PrompTugal.dinis's answer",
