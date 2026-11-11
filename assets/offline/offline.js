@@ -113,6 +113,13 @@
         clearButton()
         badge(); button(); list(); marks()
         addEventListener('online', function () { badge(); marks() }); addEventListener('offline', function () { badge(); marks() })
+        // the worker showed a kept copy, then the network answered: offer the newer page (11 November, the stale home page)
+        navigator.serviceWorker.addEventListener('message', function (ev) {
+            if (!ev.data || ev.data.type !== 'pt-newer' || document.querySelector('.pt-newer')) return
+            var bar = document.createElement('p'), a = document.createElement('a'); bar.className = 'pt-newer'; bar.setAttribute('role', 'status')
+            bar.appendChild(document.createTextNode('A newer copy of this page is here. ')); a.href = location.href; a.textContent = 'Reload'
+            a.addEventListener('click', function (e) { e.preventDefault(); location.reload() }); bar.appendChild(a); document.body.insertBefore(bar, document.body.firstChild)
+        })
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start()
 })()

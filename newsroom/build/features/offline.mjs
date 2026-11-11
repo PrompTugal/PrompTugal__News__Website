@@ -41,9 +41,10 @@ export async function keep(ctx) {
     // dev.pages@'s offline-first data: the index of the days and one JSON per day (features/days.mjs)
     const dayData = ['api/v1/days.json', ...days.map(d => `api/v1/days/${d.split('/')[1]}.json`)]
     // the tab bar's sections (sherpa@'s O1: Agenda, News and Companies said 'not kept' offline) and the coming events'
-    // pages, at most 120, nearest first
+    // pages, at most 40, nearest first (11 November: 120 made each release's install about 5.6 MB, which a weak phone
+    // link could stall, leaving the older worker in charge)
     const tabs = ['agenda', 'news', 'companies'].map(id => ctx.NAV.nav.find(n => n.id === id)?.href).filter(Boolean).map(dir)
-    const events = ctx.store.events.filter(e => e.listed_as && (e.end_date || e.date) >= ctx.TODAY).sort((a, b) => (a.date + (a.start || '')).localeCompare(b.date + (b.start || ''))).slice(0, 120)
+    const events = ctx.store.events.filter(e => e.listed_as && (e.end_date || e.date) >= ctx.TODAY).sort((a, b) => (a.date + (a.start || '')).localeCompare(b.date + (b.start || ''))).slice(0, 40)
         .map(e => `events/${e.id}/`).filter(r => ctx.pages.some(p => p.rel === r + 'index.html'))
     return [...new Set(['', 'offline/', 'summit/', ...tabs, ...days, ...news, ...events, ...await shellOf(ctx), ...DATA, ...dayData, MANIFEST, ...APP])]
 }
