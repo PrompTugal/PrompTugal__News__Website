@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1186",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: IPMA's CAP messages through MeteoAlarm's feed, read at each sweep",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "6de09dca2"
+  },
+  {
     "version": "v0.1.1185",
     "date": "2026-11-11",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
