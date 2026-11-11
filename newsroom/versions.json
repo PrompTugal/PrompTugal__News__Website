@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1126",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: categories.json: withdraw the early entry (the gate needs the article file); record the line to ship with the article",
+    "by": "curator@PrompTugal.vicky",
+    "from": "f600df4ef"
+  },
+  {
     "version": "v0.1.1125",
     "date": "2026-11-11",
     "what": "weather@PrompTugal.vicky: run report (01:35 wake)",
