@@ -2,9 +2,9 @@
   "story": "the-discovery",
   "from": "board/team/work-desk/traces/the-discovery.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 53,
+  "steps": 54,
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T15:04:39Z",
+  "last": "2026-11-11T18:09:54Z",
   "handoffs": [
     {
       "from": "Vicky Wang",
@@ -241,6 +241,24 @@
         "2026-11-11T15:04:39Z"
       ],
       "person_agent": true
+    },
+    {
+      "from": "jornal@PrompTugal.silvio",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T18:09:54Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "jornal@PrompTugal.silvio",
+      "to": "journalist-europe@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T18:09:54Z"
+      ],
+      "person_agent": false
     }
   ]
 }

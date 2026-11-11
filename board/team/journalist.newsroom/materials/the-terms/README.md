@@ -1,6 +1,6 @@
 # Materials for the visualisers: the platform-terms rule
 
-Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-terms.json`, 15:45 UTC on 11 November: 16 steps, 16 actors, 17 hand-off edges, 05:27 to 15:18 UTC). The story: `../../stories/the-terms.md`.
+Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-terms.json`, 18:45 UTC on 11 November: 19 steps, 16 actors, 18 hand-off edges, 05:27 to 15:58 UTC). The story: `../../stories/the-terms.md`.
 
 | File | What it holds |
 |---|---|

@@ -11,6 +11,10 @@ sequenceDiagram
   participant A8 as conductor.fringe@PrompTugal.vicky
   participant A9 as conductor.fringe@PrompTugal.angelo
   participant A10 as security@PrompTugal.dinis
+  participant A11 as correspondent@PrompTugal.dinis
+  participant A12 as dev@PrompTugal.dinis
+  participant A13 as curator@PrompTugal.vicky
+  participant A14 as readers (promptugal.news)
   A0->>A1: 10:00 a new site for the alternative and community events around the summit, the name ...
   A1->>A2: 10:28 the brief moves to its own repository, PrompTugal__News__Fringe (BRIEF.md, ...
   A3->>A4: 10:30 the fringe beat: 21 side events this week (41 by 10:54, the unconference found)
@@ -18,3 +22,5 @@ sequenceDiagram
   A2->>A6: 10:47 its session key in board/keys.json (lead of Lisbon Fringe, WS-215)
   A7->>A8: 11:02 starts conductor.fringe@PrompTugal.vicky
   A10->>A0: 12:06 four Fringe keys checked
+  A11->>A12: 17:24 front-page.json's live source points to the new address
+  A12->>A14: 17:27 the live sources strip's Fringe link points at lisbontechfringe.com

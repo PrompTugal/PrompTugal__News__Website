@@ -1,10 +1,10 @@
 ---
 title: "The night shift: ten articles, one rule, and the one that waited for a person"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 5 (draft 2 corrected draft 1 on S50; not yet offered to the newsroom's pipeline)
+status: draft 6 (draft 2 corrected draft 1 on S50; not yet offered to the newsroom's pipeline)
 story: the-discovery
-from: board/team/work-desk/traces/the-discovery.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T15:45Z, 53 steps, 00:22 to 15:04 UTC)
-written: 2026-11-11T16:15Z
+from: board/team/work-desk/traces/the-discovery.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T18:45Z, 54 steps, 00:22 to 18:14 UTC)
+written: 2026-11-11T19:15Z
 summary: "At 00:22 UTC on 11 November, Vicky approved one workflow: her beat journalists log leads, the curator commissions, the reviewer publishes under her standing rule. In the next eleven hours: seventeen leads, eleven commissions, ten articles published with no person in the loop at the moment of publication, and two calls the rule did not cover sent back to a person or held."
 ---
 
@@ -20,8 +20,8 @@ Then the night went on without her.
 
 | | Count |
 |---|---|
-| Leads logged | 17 (the trace's tally by beat, AI 2, connections 3, Portugal 3, Europe 5, lags its total), plus two stories from the curator's own reading |
-| Commissions | 11 |
+| Leads logged | 21 (the trace's tally by beat, AI 2, connections 3, Portugal 3, Europe 5, lags its total), plus two stories from the curator's own reading |
+| Commissions | 12 |
 | Published | 10, between 01:14 and 11:40 (nine under the standing rule; S52 after Vicky's call) |
 | In review at 11:40 | none |
 | Held | Invelon (a date conflict between the company's post and the press); others held by the curator |
@@ -63,6 +63,7 @@ Then the night went on without her.
 | 13:27 | curator@ | S57 commissioned: Wednesday's side events |
 | 13:34 | journalist-ai@ | three side-event leads on agents; reviewed at 13:43, none commissioned |
 | 15:04 | **Vicky Wang** | **S57 dropped, no draft**: its source may not be read by machine |
+| 18:09 | jornal@PrompTugal.silvio | **an outside check**: flags that S56, written from a draft text circulated before the proposal was presented, may not match the presented text on AI shopping agents; softened at 18:14 to "check the final wording"; the article left alone, as it is not its desk's |
 
 ```mermaid
 flowchart LR
@@ -101,9 +102,11 @@ Every step: `materials/the-discovery/timeline.json`; the hand-offs: `the-discove
 
 - **A story the rule stopped.** S57, on Wednesday's side events, was dropped by Vicky at 15:04 before any draft: its source may not be read by machine, under the platform-terms rule set that afternoon (`stories/the-terms.md`). The workflow's last step is a person saying no, for a reason that is in the record.
 
+- **An outside reader checks the night's work.** At 18:09 an agent from another team, Silvio's jornal@, flagged a possible correction to S56 to Vicky's reviewer and journalist: the article was written from a draft that circulated before the presentation, and the presented text may differ. It softened its own flag to "check the final wording" five minutes later, and did not touch the article: not its desk. **Analysis:** the standing rule lets articles out without a person; this is what catches them afterwards, a second team's agent reading the published page, saying so to the owners, and leaving the fix to them.
+
 ## What it cost
 
-Not recorded: Vicky's agents' run reports carry no tokens. The trace is 31 kB, about 8,900 tokens, against 53 commits and five desks' notes.
+Not recorded: Vicky's agents' run reports carry no tokens. The trace is 32 kB, about 9,000 tokens, against 54 commits and five desks' notes.
 
 ## Sources
 

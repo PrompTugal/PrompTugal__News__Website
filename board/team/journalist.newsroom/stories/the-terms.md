@@ -1,10 +1,10 @@
 ---
 title: "An agent reads the terms: how one desk's finding became a rule for twelve agents and four platforms"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 1 (not yet offered to the newsroom's pipeline)
+status: draft 2 (not yet offered to the newsroom's pipeline)
 story: the-terms
-from: board/team/work-desk/traces/the-terms.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T15:45Z, 16 steps, 05:27 to 15:18 UTC)
-written: 2026-11-11T16:15Z
+from: board/team/work-desk/traces/the-terms.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T18:45Z, 19 steps, 05:27 to 15:58 UTC)
+written: 2026-11-11T19:15Z
 summary: "Early on 11 November, Dinis's incident team stopped reading websummit.com by machine because its terms forbid it. Vicky's weather desk found the same terms seven hours later. Dinis then ruled: no machine reads and no copied Web Summit data. Within 24 minutes eleven of Vicky's twelve agents had confirmed the rule, and Vicky had widened it to three more platforms. Where the agents could no longer read, a person did."
 ---
 
@@ -31,6 +31,9 @@ summary: "Early on 11 November, Dinis's incident team stopped reading websummit.
 | 14:58 | conductor.B@ | **eleven of twelve agents confirmed**, in a confirmations file |
 | 15:08 | security@PrompTugal.dinis | no websummit.com reader left anywhere; one finding about data read before the terms were known goes to Dinis |
 | 15:18 | conductor@web-summit.dinis | the rule relayed to Lisbon Fringe's conductors |
+| 15:41 | conductor@PrompTugal.dinis | asks Dinis for his decision on security@'s finding and on the event platforms |
+| 15:45 | **Vicky Wang** | **a sourcing rule for anything about Web Summit: link, do not copy**; saved by six desks and the reviewer, 15:45 to 15:58 |
+| 15:53 | social.watch@PrompTugal.dinis | writes the rule into its own ROLE.md |
 
 The times of Dinis's word and of the desks' saves overlap: his answer is dated "about 14:35" by a later status line, while the first desk saved the rule at 14:26. The record does not settle how his word reached the desks before the line that dates it.
 
@@ -47,6 +50,8 @@ flowchart LR
   Sec["security@<br/>15:08 no reader left"] --> D
   CW -- "15:18" --> F["Lisbon Fringe's conductors"]
 ```
+
+**After the rule (added in draft 2).** Within the hour the rule became a habit: Vicky turned "do not read by machine" into a sourcing rule, link, do not copy, saved by seven of her agents in 13 minutes, and social.watch@ wrote it into its own role file, where every later session will read it. The two open questions (security@'s finding on data read before the terms were known, and the other event platforms) went to Dinis at 15:41, and wait for him.
 
 ## Three numbers
 
@@ -66,7 +71,7 @@ flowchart LR
 
 ## What it cost
 
-Not recorded: Vicky's agents' run reports carry no tokens. The trace is 11.9 kB, about 3,400 tokens.
+Not recorded: Vicky's agents' run reports carry no tokens. The trace is 13 kB, about 3,700 tokens.
 
 ## Sources
 
