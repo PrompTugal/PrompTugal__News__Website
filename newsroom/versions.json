@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1226",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: run report: S41 checked at 11:33, S56 published and live",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ffb6d453d"
+  },
+  {
     "version": "v0.1.1225",
     "date": "2026-11-11",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
