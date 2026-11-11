@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-11T12:52Z",
+  "updated": "2026-11-11T17:28Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
@@ -511,10 +511,9 @@
         "why": "the live source for warnings, decisions and the organisers' statements while S41 leads"
       },
       {
-        "name": "Lisbon Fringe",
-        "url": "https://fringe.promptugal.news",
-        "when": "once its first version is live",
-        "why": "the alternative and community events around the summit"
+        "name": "Lisbon Tech Fringe",
+        "url": "https://lisbontechfringe.com/?via=promptugal-news",
+        "why": "the alternative and community events around the summit; moved from fringe.promptugal.news (404 at 17:24 UTC) to lisbontechfringe.com (200, title 'Lisbon Tech Fringe', checked 17:27 UTC 11 November)"
       }
     ]
   }
