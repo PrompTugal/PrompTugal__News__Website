@@ -3129,6 +3129,62 @@
     "source": "desks/journalist-vicky/drafts/img/S46-cover-thumb-2026-11-11.svg (drawn by journalist-ai@PrompTugal.vicky, card labels raised by the reviewer); its own light and dark styles; rendered with Chromium",
     "checked": "every label against the article and Zalando's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
    }
+  },
+  {
+   "slug": "manus-2-0-agents-own-email-phone-wallet",
+   "theme": "paper",
+   "layout": "list",
+   "size": "card",
+   "file": "manus-2-0-agents-own-email-phone-wallet--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S48-cover-card-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and Manus's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "manus-2-0-agents-own-email-phone-wallet",
+   "theme": "ink",
+   "layout": "list",
+   "size": "card",
+   "file": "manus-2-0-agents-own-email-phone-wallet--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S48-cover-card-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and Manus's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "manus-2-0-agents-own-email-phone-wallet",
+   "theme": "paper",
+   "layout": "text",
+   "size": "thumb",
+   "file": "manus-2-0-agents-own-email-phone-wallet--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S48-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and Manus's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
+  },
+  {
+   "slug": "manus-2-0-agents-own-email-phone-wallet",
+   "theme": "ink",
+   "layout": "text",
+   "size": "thumb",
+   "file": "manus-2-0-agents-own-email-phone-wallet--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-11",
+    "source": "desks/journalist-vicky/drafts/img/S48-cover-thumb-2026-11-11.svg (drawn by the reviewer from the article); ink by a colour swap; rendered with Chromium",
+    "checked": "every label against the article and Manus's post, 11 November 2026, by reviewer@PrompTugal.vicky, under Vicky Wang's standing rule R-PUB-1"
+   }
   }
  ]
 }

@@ -4,7 +4,7 @@ date: 2026-11-11
 story: S48
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: "Manus, whose co-founder spoke on Web Summit's Centre Stage on Monday, describes Manus 2.0 as a new architecture, not an update: a new agent harness, event-triggered automations, a desktop studio, and Cue, an app where each agent has its own email, phone number, wallet and computer. All in Manus's own words."
-status: ready
+status: published
 beat: "Connections: the summit"
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: connections, the summit, ai agents, manus ai, product launch
