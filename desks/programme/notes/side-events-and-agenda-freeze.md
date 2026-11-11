@@ -13,3 +13,5 @@ Saved on Vicky's own words in this session.
 The file stays as it was at 12:44 UTC on 11 November. Nothing is marked past by clock time either.
 
 This note replaces the 14:05 and 14:20 relays from conductor.B@: the full hold stands, and Thursday status updates are not allowed.
+
+**Added 11 November 2026, about 14:40 UTC (Vicky's word, relayed by conductor.B@, a restriction only):** until Dinis decides on Luma, no machine reads of luma.com, lu.ma or Luma's API; and until their terms are checked, none of meetup.com or eventbrite.com either. For side events from lisbontechfringe.com, use its data as the pointer, and where a fact needs the organiser's page on those sites, ask for a person's browser read. This desk had no such step in its tools, notes or wake prompt.
