@@ -24,3 +24,9 @@ Ends when conductor.B (or Vicky's conductor) says the researcher is back; stop s
 - websummit.com's terms forbid automated reading (`desks/conductor-vicky/sources/storm-charles.md`). This desk makes no machine read of websummit.com at all: no curl, no fetch tool, no headless browser.
 - Web Summit's word comes only from a person's browser read, the press quoting the organisers' public posts, or what is already cited.
 - Consequence for Connections: the standing rule that every Connections story and lead needs "a public Web Summit URL confirming participation" can no longer be met by this desk on its own. Until Vicky decides, this desk logs no new Connections lead and writes no new Connections story that needs a fresh Web Summit read; it asks for a person's browser check instead.
+
+## Pointer sources: Lisbon Fringe and the storm site (Vicky's word, about 13:20 UTC, 11 November 2026, at Dinis's suggestion; relayed by conductor.B@PrompTugal.vicky)
+- https://lisbontechfringe.com (side events, communities, who meets where; `/api/v1/events.json`, `/api/v1/graph.json`) and https://storm-charles.promptugal.news (the storm), for this desk's work and discovery scans.
+- A pointer, never the citation: every fact is read and cited at its own source (for an event, the organiser's own page), with the time read, before anything is published.
+- Their "unknown" or hypothesis rows are never stated as fact. Both are built by our own wider team, so they are not independent confirmation.
+- Connections leads still need public confirmation of participation, and websummit.com is never read by machine (above).
