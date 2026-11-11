@@ -16,3 +16,8 @@ In practice:
 - **When it may publish without asking:** every material claim checked at an accessible source and cross-checked; independence means separate origins (copies of one report count once); claims attributed; confirmed facts and unknowns kept apart; editorial, image, signature and release checks passed; no unsupported inference, opinion, prediction or interpretation stated as fact.
 - **When it still asks Vicky:** any material uncertainty or editorial judgment, brought as that specific point with a recommendation; anything touching other desks' work (for example a guide signed by another desk) or private material, under the existing permissions.
 - **After publishing:** reviewer@ sends Vicky (through this conductor) the headline, the live link and a short verification summary; this conductor lists every such release in its next "For Vicky" update.
+
+## Approvals of 11 November, about 00:20 UTC (Vicky, in the conductor window)
+
+- **Articles page card labels:** "on the articles page only, label each card with its first main category. Keep homepage labels unchanged." Relayed to dev@PrompTugal.vicky.
+- **Storm page (/storm/charles/):** "my approval to publish after reviewer verification still stands. Refresh the remaining IPMA rain times, obtain reviewer's final verification, then proceed through the existing release process without asking me to approve again." Relayed to dev@PrompTugal.vicky.
