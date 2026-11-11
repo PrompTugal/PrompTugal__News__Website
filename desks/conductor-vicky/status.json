@@ -5,7 +5,7 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "14:35: Dinis said don't use Web Summit's data; rule sent to all 12 of Vicky's agents for confirmation; terms inventory moved out of the public repo (held privately by the conductor for Vicky)",
+  "done": "14:48 wake: 11 of 12 agents confirmed the Web Summit and Luma/Meetup/Eventbrite rules (desks/conductor-vicky/sources/confirmations-2026-11-11.json); inventory out of the repo; S41 ANEPC update checked live",
   "next": [
     "Collect the 12 confirmations (no machine reads of websummit.com, its subdomains or the app; no new work from copied Web Summit data; nothing deleted until Dinis decides)",
     "storm page: hourly read-time refreshes until 21:00 (weather@ -> dev@ -> reviewer@); stale-page fix live, security@ reply pending",
@@ -17,7 +17,7 @@
     "the satellite loop: frames from our origin needs Dinis (an automation)"
   ],
   "asks": [
-    "Vicky: Thursday schedule capture for programme (later today); tell Dinis the extent of the websummit.com reads"
+    "Vicky: S57 Luma browser read (journalist window)"
   ],
   "debrief": "desks/conductor-vicky/debriefs/2026-11-11-handover.md"
 }
