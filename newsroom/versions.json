@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1278",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: staged read-time refresh of 17:41 UTC (IPMA unchanged since 16:15; weather@'s reads); inert, for reviewer@",
+    "by": "dev@PrompTugal.vicky",
+    "from": "11553469b"
+  },
+  {
     "version": "v0.1.1277",
     "date": "2026-11-11",
     "what": "weather@PrompTugal.vicky: run report (17:35 wake)",
