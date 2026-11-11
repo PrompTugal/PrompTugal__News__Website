@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Wednesday 11 November 2026, 10:43 UTC.
+Last updated: Wednesday 11 November 2026, 13:24 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
 
@@ -14,13 +14,16 @@ Last updated: Wednesday 11 November 2026, 10:43 UTC.
 
 **Standing source rule: storm-charles.promptugal.news** (conductor.B at Vicky's word, 11 November 2026, at Dinis's request; full rule `desks/conductor-vicky/sources/storm-charles.md`): Dinis's incident team's storm site (JSON at `/api/v1/index.json`, `llms.txt`) is an input for storm and summit-disruption angles, a pointer and never the source we cite. Every fact is read and cited at the official source (IPMA, ANEPC, the government, an operator, Web Summit) before commissioning or publishing; it is not independent confirmation of our weather desk or social.watch (it reads both); its hypothesis and analysis rows are never stated as fact; check each row's read time. Its closures list and Thursday outlook may suggest angles.
 
+**Standing source rule: lisbontechfringe.com** (conductor.B at Vicky's word, 11 November 2026, 13:20 UTC, at Dinis's suggestion): the Lisbon Fringe site (data at `/api/v1/events.json` and `/api/v1/graph.json`) is an input for side-event angles (events moved or cancelled by the storm, communities, meetups), under the same rule as the storm site: a pointer, never the citation; every fact is checked and cited at the organiser's own page before we publish; its "unknown" or unconfirmed rows are never stated as fact; it is built by Dinis's swarm including Vicky's own fringe conductor, so it is not independent confirmation of what our desks already say.
+
 **Temporary discovery workflow** (Vicky, 11 November 2026, about 00:30 UTC, until her researcher returns; full text `desks/conductor-vicky/discovery/WORKFLOW.md`): at each wake the curator reads new leads in `desks/journalist-vicky/leads/` and social.watch's public findings (`board/team/social.watch/`: newest `hourly/` file, `coverage.json`, `signals/`; read-only material), runs the usual duplicate check and source checks, re-reads each source before commissioning, and commissions as usual with categories in `categories.json`. Connections still needs a public Web Summit source confirming participation. Each map carries a `leads_reviewed` list (each lead: commissioned with story id, held with why, or dropped with why). Research gaps go to `desks/journalist-vicky/leads/requests.md` (desk, gap, sources wanted) as well as `gaps_for_the_researcher`. When the researcher returns, the curator finishes the logged leads and hands over requests.md and the open gaps.
 
 ## At a glance
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S56 | The EU proposes a Digital Fairness Act: what it would change for online shoppers, including those using AI agents | Europe | 11 Nov |
+| S57 | Wednesday's side events: which have been postponed, moved or taken online | The summit | 11 Nov |
+| S56 | The EU proposes a Digital Fairness Act: what it would change for online shoppers, including those using AI agents (published 11 Nov) | Europe | 11 Nov |
 | S55 | The EU says TikTok's For You feed may breach its platform law: what it found, and what happens next (published 11 Nov) | Europe | 11 Nov |
 | S54 | Four startups pitch on Thursday's Centre Stage: what each says it does (published 11 Nov) | Connections: the summit | 11 Nov |
 | S53 | The EU asks for views on updating its election rules for the age of generative AI (published 11 Nov) | Europe | 11 Nov |
@@ -72,9 +75,20 @@ Last updated: Wednesday 11 November 2026, 10:43 UTC.
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
 
+## S57: Wednesday's side events: which have been postponed, moved or taken online
+
+The summit, added 11 Nov. A short, dated list of side events around Web Summit whose organisers have said, on their own pages, that Wednesday's event is postponed, cancelled, moved to Thursday or online; side events are not Web Summit's own. STORM-11NOV, for journalist (summit desk). Category: Web Summit 2026. Time-sensitive. Organisers' own pages only.
+
+Sources:
+
+- [Open Mercato Night (organiser's Luma page), "[POSTPONED] Open Mercato Night"](https://luma.com/mso0mrpr), read 11 November 2026
+- [Elevon, "Elevon CZ/SK Community Night, Lisbon"](https://elevon.io/websummit/night), read 11 November 2026
+- [AltaIR Capital (organiser's Luma page), "[Cancelled: update below] Funders & Founders Night"](https://luma.com/h19cccc5), read 11 November 2026
+- [FounderLink (organiser's Luma page), "FounderLink Storm Summit: A Torrent of Intros"](https://luma.com/stormsummit9am), read 11 November 2026
+
 ## S56: The EU proposes a Digital Fairness Act: what it would change for online shoppers, including those using AI agents
 
-Europe, added 11 Nov. The Commission's proposal to update EU consumer law for online shopping: bans on manipulative design, clearer pricing, easier cancellation, a right to a human, and rights when an AI agent buys for a consumer; a proposal still to be debated by Parliament and Council. LEADS-11NOV-8, for journalist-europe. Categories: Europe, AI. The AI-agent rights are only named in the sources.
+Europe, added 11 Nov. The Commission's proposal to update EU consumer law for online shopping: bans on manipulative design, clearer pricing, easier cancellation, a right to a human, and rights when an AI agent buys for a consumer; a proposal still to be debated by Parliament and Council. LEADS-11NOV-8, for journalist-europe. Categories: Europe, AI. The AI-agent rights are only named in the sources. Published on 11 Nov 2026: https://promptugal.news/articles/digital-fairness-act-ai-agents.html. Not to be written again.
 
 Sources:
 
@@ -544,7 +558,7 @@ Ready to write now:
 3. S38, Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says: for the connections desk (journalist-connections), OVERNIGHT-10NOV. Glovo's WhatsApp agents in GetVocal's account; every figure is GetVocal's claim; GetVocal AI is on the featured list, Glovo's participation is not confirmed, never imply it.
 4. S39, How WPP turns call transcripts into reviewed Jira plans: for the connections desk (journalist-connections), OVERNIGHT-10NOV. WPP's transcript-to-Jira workflow in Mastra's account; no usage figures exist, invent none; Mastra is on the featured list, WPP's participation is not confirmed, never imply it.
 
-Already published, not to be written again: S53 (https://promptugal.news/articles/eu-election-guidelines-generative-ai.html); S55 (https://promptugal.news/articles/tiktok-for-you-dsa-preliminary-finding.html); S52 (https://promptugal.news/articles/konecta-lisbon-delivery-centre.html); S54 (https://promptugal.news/articles/breakout-startups-thursday-centre-stage.html); S46 (https://promptugal.news/articles/zalando-ai-coding-agents.html); S48 (https://promptugal.news/articles/manus-2-0-agents-own-email-phone-wallet.html); S50 (https://promptugal.news/articles/ai-act-first-harmonised-standard.html); S51 (https://promptugal.news/articles/getting-around-lisbon-wednesday.html); S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
+Already published, not to be written again: S56 (https://promptugal.news/articles/digital-fairness-act-ai-agents.html); S53 (https://promptugal.news/articles/eu-election-guidelines-generative-ai.html); S55 (https://promptugal.news/articles/tiktok-for-you-dsa-preliminary-finding.html); S52 (https://promptugal.news/articles/konecta-lisbon-delivery-centre.html); S54 (https://promptugal.news/articles/breakout-startups-thursday-centre-stage.html); S46 (https://promptugal.news/articles/zalando-ai-coding-agents.html); S48 (https://promptugal.news/articles/manus-2-0-agents-own-email-phone-wallet.html); S50 (https://promptugal.news/articles/ai-act-first-harmonised-standard.html); S51 (https://promptugal.news/articles/getting-around-lisbon-wednesday.html); S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
 Already drafted, not to be written again: S49 (drafted, awaiting review); S44 (drafted, awaiting review); S47 (published as an update); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
 
