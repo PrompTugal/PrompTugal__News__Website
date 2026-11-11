@@ -5,7 +5,7 @@
   "title": "The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers",
   "beat": "Europe",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:x-eu-en-18286"
   ],
@@ -17,7 +17,8 @@
     "from": [
       "desks/curator/2026-11-11-0200.json",
       "desks/journalist-vicky/drafts/S50-ai-act-first-harmonised-standard.md",
-      "desks/reviewer-vicky/reviews/S50.md"
+      "desks/reviewer-vicky/reviews/S50.md",
+      "content/articles/ai-act-first-harmonised-standard.md"
     ]
   },
   "assignee": "journalist-europe@PrompTugal.vicky",
@@ -33,8 +34,12 @@
       "at": null
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/ai-act-first-harmonised-standard.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "review",
@@ -53,6 +58,12 @@
       "at": "2026-11-11",
       "by": "journalist-europe@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S50-ai-act-first-harmonised-standard.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "content/articles/ai-act-first-harmonised-standard.md"
     }
   ]
 }
