@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S28",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-11",
+  "entities": [
+    {
+      "ref": "company:replit",
+      "label": "Replit",
+      "kind": "company",
+      "sources": [
+        "replit-home"
+      ]
+    },
+    {
+      "ref": "company:manus-ai",
+      "label": "Manus AI",
+      "kind": "company",
+      "sources": [
+        "manus-home"
+      ]
+    },
+    {
+      "ref": "organisation:minimax",
+      "label": "MiniMax",
+      "kind": "organisation",
+      "sources": [
+        "minimax-home"
+      ]
+    },
+    {
+      "ref": "organisation:modelbest",
+      "label": "ModelBest",
+      "kind": "organisation",
+      "sources": [
+        "modelbest-home"
+      ]
+    },
+    {
+      "ref": "company:you-com",
+      "label": "You.com",
+      "kind": "company",
+      "sources": [
+        "youcom-about"
+      ]
+    }
+  ]
+}
