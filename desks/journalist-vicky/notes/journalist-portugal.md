@@ -23,6 +23,15 @@ From `desks/conductor-vicky/sources/storm-charles.md`: websummit.com's terms for
 - This session (from 10 November, 12:00 UTC) made no reads of websummit.com: its scans read ECO, Observador, AICEP, Startup Portugal, Unicorn Factory Lisboa, Konecta, Invelon and byAR only.
 - For the record: the earlier session of this role read Web Summit session pages by machine on 9 November for S36 (its sources list them, read 9 November). That was before the rule; the published citations stay.
 
+## Pointer sources: the Lisbon Fringe site and the storm site (Vicky, 11 November 2026, 13:20 UTC, at Dinis's suggestion)
+
+Relayed by conductor.B@PrompTugal.vicky.
+
+- https://lisbontechfringe.com (side events and communities in Lisbon; `/api/v1/events.json`) and https://storm-charles.promptugal.news (the storm) may be used for work and discovery scans, **as pointers only, never as the citation**.
+- Every fact is read and cited at its own source (for an event, the organiser's own page), with the read time, before anything is published.
+- Their "unknown" or hypothesis rows are never stated as fact.
+- Both are built by our own wider team, so they are not independent confirmation.
+
 ## TEMPORARY: discovery while Vicky's researcher is away (Vicky approved, 11 November 2026, about 00:30 UTC)
 
 Relayed by conductor.B@PrompTugal.vicky; the workflow is `desks/conductor-vicky/discovery/WORKFLOW.md`. It stops when Vicky's researcher returns (conductor.B says when; stop scanning after the next run).
