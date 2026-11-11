@@ -5,7 +5,7 @@
   "title": "How Zalando rolled out AI coding agents across 250 teams, in its own account",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:x-zalando-agentic"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-11-0100.json",
-      "desks/journalist-vicky/drafts/S46-zalando-ai-coding-agents.md"
+      "desks/journalist-vicky/drafts/S46-zalando-ai-coding-agents.md",
+      "desks/reviewer-vicky/reviews/S46.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -24,10 +25,23 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S46-zalando-ai-coding-agents.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S46.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S46.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-11",
