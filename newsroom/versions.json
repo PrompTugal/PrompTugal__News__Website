@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1166",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: blocked: OpenRouter answers 402 Payment Required (the shared key's credit is spent)",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "3d7b8ae24"
+  },
+  {
     "version": "v0.1.1165",
     "date": "2026-11-11",
     "what": "reviewer@PrompTugal.vicky: S53 title under 12 words (the gate)",
