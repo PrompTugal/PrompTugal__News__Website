@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1203",
+    "date": "2026-11-11",
+    "what": "sherpa@PrompTugal.dinis: 09:29 wake: ST1 done: the storm page dated to the latest IPMA read (v0.1.1202)",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "767450c6a"
+  },
+  {
     "version": "v0.1.1202",
     "date": "2026-11-11",
     "what": "conductor.android@promptugal.ai.dinis: watch 09:25: Android unchanged",
