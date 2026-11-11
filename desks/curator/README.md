@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Wednesday 11 November 2026, 01:44 UTC.
+Last updated: Wednesday 11 November 2026, 02:42 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
 
@@ -16,14 +16,15 @@ Last updated: Wednesday 11 November 2026, 01:44 UTC.
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S50 | The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers | Europe | 11 Nov |
-| S49 | Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day | Europe | 11 Nov |
-| S48 | Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words | Connections: the summit | 11 Nov |
+| S52 | Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027 | Portugal | 11 Nov |
+| S51 | Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed | The summit | 11 Nov |
+| S50 | The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers (drafted, awaiting review) | Europe | 11 Nov |
+| S49 | Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day (drafted, awaiting review) | Europe | 11 Nov |
+| S48 | Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words (drafted, awaiting review) | Connections: the summit | 11 Nov |
 | S47 | Update: Web Summit's final 2026 figures (published as an update) | The summit | 11 Nov |
 | S46 | How Zalando rolled out AI coding agents across 250 teams, in its own account (ready, awaiting review) | AI and robotics | 11 Nov |
 | S45 | Web Summit's cancelled Day 2: what is known about refunds (published 10 Nov) | The summit | 10 Nov |
 | S44 | Update: Web Summit's Wednesday will not take place; it aims to hold Thursday (drafted, awaiting review) | The summit | 10 Nov |
-| S43 | Wednesday's alert: what the government has closed across Portugal | The summit | 10 Nov |
 | S42 | What Lovable deleted: its CEO on rebuilding an AI coding agent (drafted by journalist-ai, 10 Nov, awaiting review) | AI and robotics | 10 Nov |
 | S41 | Red wind warning for Lisbon on Wednesday: what it means for Web Summit (published 10 Nov) | The summit | 10 Nov |
 | S40 | AI agents are spreading faster than their security, Gravitee's survey finds (published 10 Nov) | The summit | 10 Nov |
@@ -62,6 +63,24 @@ Last updated: Wednesday 11 November 2026, 01:44 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S52: Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027
+
+Portugal, added 11 Nov. Konecta's own release: a new Global Delivery Center in Lisbon opening in Q1 2027, positioned as a centre of excellence in AI and digital transformation, from about 1,300 to about 2,000 staff. LEADS-11NOV-3, for journalist-portugal. Categories: Portugal, Corporate. Do not state a Web Summit tie.
+
+Sources:
+
+- [Konecta, "Konecta announces the launch of a next-generation Global Delivery Center dedicated to AI excellence in Lisbon"](https://konecta.com/news-insights/press-releases/konecta-announces-the-launch-of-a-next-generation-global-delivery-center-dedicated-to-ai-excellence-in-lisbon), read 11 November 2026
+
+## S51: Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed
+
+The summit, added 11 Nov. A short practical guide for a day when Web Summit's Day 2 is off: Carris cancelled its Web Summit shuttle, Fertagus will suspend the 25 de Abril bridge crossing above 90 km/h, and the government's alert closes schools and non-essential services, suspends outdoor events and bars the waterfront and high-risk parks. LEADS-11NOV-3, for journalist (summit desk). Time-sensitive; replaces S43. Categories: Web Summit 2026, Portugal.
+
+Sources:
+
+- [Carris, "Alerta de circulacao (alert notice)"](https://www.carris.pt/viaje/alteracoes-de-servico/alerta-circulacao/), read 11 November 2026
+- [Fertagus, "Informacao ao Publico (red alert notice)"](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico), read 11 November 2026
+- [Government of Portugal, "Governo declara situacao de alerta em todo o territorio continental"](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1), read 10 November 2026
 
 ## S50: The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers
 
@@ -120,15 +139,6 @@ The summit, added 10 Nov. An update note for the published Wednesday 11 November
 Sources:
 
 - [Web Summit, "Important event update"](https://websummit.com/blog/web-summit/important-event-update-2026/), read 10 November 2026
-
-## S43: Wednesday's alert: what the government has closed across Portugal
-
-The summit, added 10 Nov. The government's situation of alert for all mainland Portugal on Wed 11 Nov: schools and non-essential public services closed, outdoor events suspended, parks and waterfront off limits where risk is high; IPMA red wind in eight districts. STORM-10NOV, for journalist (summit desk). Time-sensitive. Do not infer anything about Web Summit's venue.
-
-Sources:
-
-- [Government of Portugal, "Governo declara situacao de alerta em todo o territorio continental"](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1), read 10 November 2026
-- [IPMA (Portugal's weather and sea institute), "Weather warnings by district, open data (red wind, eight mainland districts)"](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json), read 10 November 2026
 
 ## S42: What Lovable deleted: its CEO on rebuilding an AI coding agent
 
@@ -496,7 +506,7 @@ Ready to write now:
 
 Already published, not to be written again: S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
-Already drafted, not to be written again: S44 (drafted, awaiting review); S46 (ready, awaiting review); S47 (published as an update); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
+Already drafted, not to be written again: S48 (drafted, awaiting review); S49 (drafted, awaiting review); S50 (drafted, awaiting review); S44 (drafted, awaiting review); S46 (ready, awaiting review); S47 (published as an update); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
 
 No assignment this run: the Europe and Portugal desks (not part of the overnight batch). Not commissioned from the researcher's candidates: Terrapinn (no outcome figures, one vendor source) and the Klarna backup (a 2024 press release, current position unchecked, not a Web Summit participant); the gaps are in the latest map.
 

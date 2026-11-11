@@ -1,0 +1,124 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-0300 (discovery workflow: operators' notices, Konecta's own release)",
+ "batch": "LEADS-11NOV-3",
+ "for": "journalist (summit desk); journalist-portugal",
+ "covers": {
+  "note": "Leads added by journalist (Carris, Fertagus) and journalist-portugal (Konecta's release) after the curator's requests; each source re-read by the curator at about 02:50 to 02:58 UTC. No vault captures."
+ },
+ "published_check": "No article or draft on Wednesday's transport or on Konecta. S43 (the government's alert) never reached a draft and its content belongs in the transport guide: merged into S51. S41 and S44 cover Web Summit's status and the warnings, not operators' notices.",
+ "captures": [
+  {
+   "id": "x-carris-alert",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://www.carris.pt/viaje/alteracoes-de-servico/alerta-circulacao/",
+   "beat": "The summit",
+   "names": [
+    "Carris"
+   ],
+   "what_is_new": "Carris notice (refers to the alert situation of 11 Nov): delays, diversions, interruptions or cancellations may occur; priority to essential journeys (health-care links, emergency workers); service change: 'Carreiras Shuttle Web Summit - cancelado, devido a suspensao do evento'; two ticket points out of service (Saldanha, Cais do Sodre).",
+   "is_story": true,
+   "group": "discovery leads"
+  },
+  {
+   "id": "x-fertagus-alert",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico",
+   "beat": "The summit",
+   "names": [
+    "Fertagus"
+   ],
+   "what_is_new": "Fertagus notice for 11 Nov (red alert): significant disruption possible through the day; if winds pass 90 km/h, rail traffic across the 25 de Abril bridge is suspended, possibly on the whole line; avoid non-essential journeys and check its official channels. Cites gusts up to 120 km/h and above 150 km/h if a sting jet forms. (The page also carries customer-service numbers and an email: not to be published.)",
+   "is_story": true,
+   "group": "discovery leads"
+  },
+  {
+   "id": "x-konecta-release",
+   "file": "public page, read 11 November 2026 by the curator (not a vault capture)",
+   "source_url": "https://konecta.com/news-insights/press-releases/konecta-announces-the-launch-of-a-next-generation-global-delivery-center-dedicated-to-ai-excellence-in-lisbon",
+   "beat": "Portugal",
+   "names": [
+    "Konecta"
+   ],
+   "what_is_new": "Konecta press release, Lisbon, 10 Nov 2026: a new Global Delivery Center in a new building, due to open officially in Q1 2027, positioned as a centre of excellence in AI and digital transformation, joining Cairo, Casablanca and Lima; about 1,300 staff in Lisbon now, a target of about 700 new jobs to reach 2,000 by the end of 2027 (about 55% growth); a client award from Vorwerk (October 2026) quoted.",
+   "is_story": true,
+   "group": "discovery leads"
+  }
+ ],
+ "leads_reviewed": [
+  {
+   "lead": "summit.md: Carris notice",
+   "status": "commissioned",
+   "story": "S51",
+   "why": "Carris' own page re-read: shuttle cancelled, possible disruption."
+  },
+  {
+   "lead": "summit.md: Fertagus notice",
+   "status": "commissioned",
+   "story": "S51",
+   "why": "Fertagus' own page re-read: 90 km/h bridge threshold; the contact details on the page stay out."
+  },
+  {
+   "lead": "summit.md: request status (Metro, Carris Metropolitana, CP, Rede Expressos, ANA, airlines not read)",
+   "status": "held",
+   "why": "Not read at source; S51 says which operators were not checked."
+  },
+  {
+   "lead": "portugal.md: Konecta's Lisbon delivery centre",
+   "status": "commissioned",
+   "story": "S52",
+   "why": "Konecta's own release found and re-read; ECO is the secondary source."
+  },
+  {
+   "lead": "portugal.md: Konecta's Web Summit masterclass (10 Nov)",
+   "status": "held",
+   "why": "From Konecta's own page; not yet confirmed on a websummit.com page: S52 does not state participation."
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S51",
+   "kind": "summit",
+   "batch": "LEADS-11NOV-3",
+   "title": "Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed",
+   "beat": "The summit",
+   "angle": "A short practical guide for a day when Web Summit's Day 2 is off: Carris cancelled the Web Summit shuttle and warns of disruption, Fertagus will suspend the 25 de Abril bridge crossing above 90 km/h, and the government's alert closes schools and non-essential public services, suspends outdoor events and bars the waterfront and high-risk parks.",
+   "rests_on": [
+    "x-carris-alert",
+    "x-fertagus-alert",
+    "x-gov-alert"
+   ],
+   "ready": true,
+   "categories": [
+    "Web Summit 2026",
+    "Portugal"
+   ],
+   "note": "For journalist (summit desk). Ready; time-sensitive (Wednesday is today). Replaces S43, merged here. Conditions: each notice attributed to its operator with the time read; quote the government's measures as the declaration words them and do NOT say whether they touch any Web Summit venue (no official source says); the 150 km/h figure is conditional on a sting jet; say plainly which operators were not checked (Metro, CP, Carris Metropolitana, Rede Expressos, airport and airlines); no contact numbers or emails from any page; no advice of our own beyond what the operators and the authorities say. Link S41, S44. Category line to ship with the article.",
+   "words": "350 to 500"
+  },
+  {
+   "id": "S52",
+   "kind": "portugal",
+   "batch": "LEADS-11NOV-3",
+   "title": "Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027",
+   "beat": "Portugal",
+   "angle": "Konecta's own release: a new Global Delivery Center in Lisbon opening in Q1 2027, positioned as a centre of excellence in AI and digital transformation, from about 1,300 to about 2,000 staff.",
+   "rests_on": [
+    "x-konecta-release"
+   ],
+   "ready": true,
+   "categories": [
+    "Portugal",
+    "Corporate"
+   ],
+   "note": "For journalist-portugal. Ready. Conditions: Konecta's own release is the primary source, ECO's report secondary and labelled; the AI positioning and the growth targets are Konecta's own; the client quote is Konecta's; do NOT state that Konecta takes part in Web Summit (its own page lists a masterclass on 10 Nov but no websummit.com page has been read); the street address only if from the release, not from ECO alone. Category line to ship with the article.",
+   "words": "300 to 450"
+  }
+ ],
+ "gaps_for_the_researcher": [
+  "Operators' own Wednesday notices not yet read: Metro de Lisboa, CP, Carris Metropolitana, Rede Expressos, ANA and airlines.",
+  "A websummit.com page for Konecta's 10 Nov masterclass."
+ ],
+ "urgent": "S51 is time-sensitive: Wednesday is today."
+}
