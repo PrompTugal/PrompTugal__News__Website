@@ -113,9 +113,19 @@
         clearButton()
         badge(); button(); list(); marks()
         addEventListener('online', function () { badge(); marks() }); addEventListener('offline', function () { badge(); marks() })
+        // was this page answered from a kept copy? the worker says, and the page says so (11 November: always labelled)
+        if (navigator.serviceWorker.controller) navigator.serviceWorker.controller.postMessage({ type: 'pt-which', url: location.href })
+        navigator.serviceWorker.addEventListener('message', function (ev) {
+            if (!ev.data || ev.data.type !== 'pt-kept' || !ev.data.at || document.querySelector('.pt-newer')) return
+            var t = ev.data.at === '?' ? '' : ' from ' + new Date(ev.data.at).toISOString().slice(11, 16) + ' UTC'
+            var bar = document.createElement('p'), a = document.createElement('a'); bar.className = 'pt-newer pt-kept'; bar.setAttribute('role', 'status')
+            bar.appendChild(document.createTextNode('A kept copy' + t + '. ')); a.href = location.href; a.textContent = 'Reload'
+            a.addEventListener('click', function (e) { e.preventDefault(); location.reload() }); bar.appendChild(a); document.body.insertBefore(bar, document.body.firstChild)
+        })
         // the worker showed a kept copy, then the network answered: offer the newer page (11 November, the stale home page)
         navigator.serviceWorker.addEventListener('message', function (ev) {
-            if (!ev.data || ev.data.type !== 'pt-newer' || document.querySelector('.pt-newer')) return
+            if (!ev.data || ev.data.type !== 'pt-newer') return
+            var old = document.querySelector('.pt-kept'); if (old) old.remove(); if (document.querySelector('.pt-newer')) return
             var bar = document.createElement('p'), a = document.createElement('a'); bar.className = 'pt-newer'; bar.setAttribute('role', 'status')
             bar.appendChild(document.createTextNode('A newer copy of this page is here. ')); a.href = location.href; a.textContent = 'Reload'
             a.addEventListener('click', function (e) { e.preventDefault(); location.reload() }); bar.appendChild(a); document.body.insertBefore(bar, document.body.firstChild)
