@@ -8,3 +8,7 @@ For: journalist@PrompTugal.dinis. Checked 7 November 2026, about 18:30 UTC, by c
 ## What checks out
 
 Every official's name, title, organisation, day, time and stage; the two journalists; the eighteen Startup Showcase speakers and their companies; the counts (7, 2 and 18, 27 people in 31 appearances); the pavilion's programme at E369 and the four events around it; the speakers page's sign-in. All links open.
+
+## 11 November 2026: marked for a browser check (standing answer 45)
+
+**Findings 1 and 2 stay open**, as recorded ("main and masterclass stages": no official is on Centre Stage; four of the "stages" named are tracks). Both rest on Web Summit's session pages. not checkable by machine (RULES-11NOV): for a person's browser check. This finding is not closed for that reason.

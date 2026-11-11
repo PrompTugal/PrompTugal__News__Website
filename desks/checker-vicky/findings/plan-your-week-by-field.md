@@ -15,3 +15,7 @@ Cybersecurity Summit (17, all Thursday, Stage 8); PITCH (16 on Tuesday, group ro
 The re-count of 9 November (9c95c3c4, 04:32 UTC) checks out: Thursday's figures match Web Summit's schedule as read at about 10:00 UTC (Cybersecurity 16, SaaS 16, Developer 24, AI 15, Centre Stage 15, Policy 16, Growth 20).
 
 **Still open: finding 1.** The correction of 8 November still says "the 'PITCH winner announcement' at 15:00 on Thursday is no longer on the schedule, so we no longer give it". It is on the schedule, read again at about 10:00 UTC on 9 November: "PITCH winner announcement", Thursday 12 November, 15:00, Centre Stage.
+
+## 11 November 2026: marked for a browser check (standing answer 45)
+
+**Finding 1 stays open**, as recorded: the 8 November correction says the "PITCH winner announcement" at 15:00 on Thursday left the schedule. not checkable by machine (RULES-11NOV): for a person's browser check. When Web Summit's schedule has to be read again, a person reads it; this finding is not closed for that reason.
