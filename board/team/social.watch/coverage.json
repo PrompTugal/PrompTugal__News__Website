@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T09:56Z",
+  "updated": "2026-11-11T10:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -106,6 +106,15 @@
         "my own check: MeteoAlarm CAP, Web Summit's blog, Mastodon, CNN Portugal live, the team's commits"
       ],
       "items": 2
+    },
+    {
+      "n": 11,
+      "at": "2026-11-11T10:51Z",
+      "families": [
+        "news with Web Summit's channels and Mastodon",
+        "fringe beat (fringe/events.json)"
+      ],
+      "items": 12
     }
   ],
   "items": [
@@ -3010,6 +3019,278 @@
       "family": "news and blogs",
       "found": "2026-11-11T09:56Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 10)"
+    },
+    {
+      "url": "https://hotnews.pt/tecnologia/web-summit-tempestade-charles-anula-2-o-dia-em-lisboa/",
+      "platform": "Hotnews.pt",
+      "author": "Hotnews.pt",
+      "kind": "article",
+      "title": "Web Summit: Tempestade Charles anula 2.º dia em Lisboa",
+      "quote": null,
+      "published": "2026-11-11",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Says resumption planned for Thursday 12 Nov but depends on weather; 8 districts under red alert. No time on page.",
+      "family": "news and blogs",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+    },
+    {
+      "url": "https://businessplus.ie/news/paddy-cosgrave-web-summit-massive-blow",
+      "platform": "Business Plus",
+      "author": "Cormac Cahill",
+      "kind": "article",
+      "title": "Paddy Cosgrave's Web Summit dealt a massive blow",
+      "quote": "The Portuguese government instructed organisers to suspend all activities on Wednesday",
+      "published": "2026-11-11",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Irish business angle; about 70,000 attendees expected; Thursday resumption depends on weather. No time on page.",
+      "family": "news and blogs",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+    },
+    {
+      "url": "https://www.abola.pt/liveblog/portugal-em-alerta-vermelho-siga-aqui-ao-minuto-tudo-sobre-o-mau-tempo",
+      "platform": "A Bola",
+      "author": "A Bola",
+      "kind": "article",
+      "title": "Portugal em alerta vermelho: siga aqui ao minuto tudo sobre o mau tempo",
+      "quote": null,
+      "published": "2026-11-11T07:55:00",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Live blog header 07:55 on 11 Nov (timezone not stated). Lisbon firefighters over 130 incidents overnight; about 2,000 E-Redes customers without power; bridges limited to 60 km/h; Rede Expressos suspended 10:00-23:59; Moedas said Web Summit likely not to run (older entry, since superseded).",
+      "family": "news and blogs",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+    },
+    {
+      "url": "https://observador.pt/2026/11/11/mau-tempo-regulador-dos-seguros-recomenda-verificar-cobertura-e-conservar-provas-em-caso-de-danos/",
+      "platform": "Observador",
+      "author": "Observador",
+      "kind": "article",
+      "title": "Mau tempo. Regulador dos seguros recomenda verificar cobertura e conservar provas em caso de danos",
+      "quote": null,
+      "published": "2026-11-11T10:36:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Not about Web Summit directly; storm context. Does not report actual damage in Lisbon.",
+      "family": "news and blogs",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+    },
+    {
+      "url": "https://observador.pt/programas/resposta-pronta/tempestade-as-decisoes-foram-tomadas-pensando-no-pior/",
+      "platform": "Rádio Observador",
+      "author": "Jorge Silva (Asprocivil), via Rádio Observador",
+      "kind": "podcast",
+      "title": "Tempestade. \"As decisões foram tomadas pensando no pior\"",
+      "quote": null,
+      "published": "2026-11-11T10:38:00Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Civil protection expert: midnight reassessment shifted Charles' track further south toward the Algarve; heavy rain expected about 11:00-15:00, easing after about 18:00. Auto-generated transcript, may contain errors. Web Summit not mentioned.",
+      "family": "news and blogs",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+    },
+    {
+      "url": "https://websummit.com/summaries/lis26/what-comes-after-the-blue-wave/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "page",
+      "title": "What comes after the Blue Wave?",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "policy"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "What comes after the Blue Wave?"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Session summary; body text not retrievable, title only.",
+      "family": "news and blogs",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+    },
+    {
+      "url": "https://websummit.com/summaries/lis26/building-the-operating-system-for-modern-sport/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "page",
+      "title": "Building the operating system for modern sport",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "sport tech"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Building the operating system for modern sport"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Session summary; title only retrievable.",
+      "family": "news and blogs",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+    },
+    {
+      "url": "https://websummit.com/summaries/lis26/building-a-star-trek-vision/",
+      "platform": "Web Summit",
+      "author": "Web Summit",
+      "kind": "page",
+      "title": "Building a Star Trek vision",
+      "quote": null,
+      "published": "2026-11-10",
+      "topics": [
+        "speakers"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Building a Star Trek vision"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Session summary; title only retrievable.",
+      "family": "news and blogs",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+    },
+    {
+      "url": "https://mastodon.social/@DiscoverHiddenPlaces/117597287829012398",
+      "platform": "Mastodon",
+      "author": "@DiscoverHiddenPlaces (Hidden Places)",
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T10:16:49Z",
+      "topics": [
+        "storm",
+        "speakers",
+        "AI",
+        "robotics"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "Center Stage"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Promotional post on Center Stage themes. Time from the tag RSS feed; page itself showed truncated text, so the claim that today's sessions were cancelled comes from the feed summary only.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)"
+    },
+    {
+      "url": null,
+      "platform": "Mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-10T18:06:41Z",
+      "topics": [
+        "storm"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": null,
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "Mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-10T16:52:32Z",
+      "topics": [
+        "storm",
+        "Portugal"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": null,
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "Mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-10T12:21:40Z",
+      "topics": [
+        "storm"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": null,
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T10:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 11)",
+      "private_individual": true
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."
