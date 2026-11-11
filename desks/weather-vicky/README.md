@@ -102,3 +102,10 @@ Each source: what it publishes, how often, the language, and whether a machine c
 ## Hourly read times for /storm/charles/ (conductor.B@PrompTugal.vicky, 11 November 2026, 09:48 UTC)
 
 While IPMA's Lisbon warnings run (until 21:00 on 11 November), at every hourly check this desk sends dev@PrompTugal.vicky and reviewer@PrompTugal.vicky its fresh read times for the page's rows (IPMA, the government, ANEPC, Web Summit, transport), with any change and its source, and "re-read HH:MM UTC, no change" when nothing changed. dev@ refreshes the page; the reviewer verifies before release.
+
+## Scope from 11 November 2026 (Vicky's approval, relayed by conductor.B@PrompTugal.vicky, about 10:50 UTC)
+
+- **Keep:** official-source checks of the rows on the storm page (/storm/charles/) and S41 only: IPMA, the government, ANEPC, Web Summit and the transport rows they show. Hourly read times to dev@PrompTugal.vicky and reviewer@PrompTugal.vicky as before; material changes to the reviewer at once.
+- **Spot changes with** https://storm-charles.promptugal.news (`/api/v1/index.json`, Dinis's incident team's aggregator), then read each fact at its official source and cite that with this desk's own read time. Never cite the storm site, and never treat it as confirming this desk: it reads this desk's `decision-graph.json` and social.watch. Rule: `desks/conductor-vicky/sources/storm-charles.md`.
+- **Stopped:** this desk's own IPMA station and airport readers, and any extension of `history.md`, `law.md`, `decision-graph.json` and `decision-chain.md` (left as they are). IPMA's warnings are still read at the official source, IPMA's own feed, to cite them.
+- **End:** the hourly wake is to be disabled (not deleted) by conductor.B on Thursday 12 November at about 09:00 UTC, once IPMA's Lisbon warnings have ended and Web Summit has confirmed Thursday. Reporting continues until then.
