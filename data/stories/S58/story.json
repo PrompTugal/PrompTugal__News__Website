@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S58",
+  "type": "story",
+  "title": "Thursday at Web Summit: a practical guide to the last day",
+  "beat": "The summit",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:x-web-summit-thursday-facts"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-11-2030.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-2030.json",
+      "desks/journalist-vicky/drafts/S58-thursday-last-day-guide.md",
+      "desks/reviewer-vicky/reviews/S58.md",
+      "content/articles/thursday-last-day-guide.md"
+    ]
+  },
+  "assignee": "journalist@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S58-thursday-last-day-guide.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S58.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-11"
+    }
+  ],
+  "article": {
+    "path": "content/articles/thursday-last-day-guide.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-11T20:25Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-11-2030.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-11",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S58-thursday-last-day-guide.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-11",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S58.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-11",
+      "by": "journalist@PrompTugal.vicky",
+      "file": "content/articles/thursday-last-day-guide.md"
+    }
+  ]
+}

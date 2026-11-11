@@ -29,3 +29,7 @@ The team reviewer@ confirmed RULES-11NOV at 19:30 UTC (team dev@ at 19:29). This
 - **S41 update to make (verified by the old reviewer@ at 19:33 UTC, not pushed because its key was superseded):** IPMA (no-cache, file Last-Modified 18:15): for Lisbon only the sea warning remains (orange to 21:00, yellow to 03:00 Thursday); the rain warning ended at 18:00 as scheduled; no wind warning. Government: nothing after 17:03. No IPMA statement after no. 3. Re-read the sources yourself before publishing.
 - **weather@** keeps reporting to conductor.B until Thu about 09:00; material changes are noted here.
 - **For Dinis (CLAUDE.md, "Handing a role to a new session"):** one commit under reviewer@'s name from the old session landed after the 19:20 key hand-over: b67cf9cae at 19:23 (review files only: the storm verification note and a "pending" line in its hand-over note).
+
+## weather@ relays (for the team reviewer@ and dev@)
+
+- 20:36 UTC, no material change: IPMA (file 19:15, no-cache) Lisbon sea only, orange to 21:00 then yellow to Thu 03:00; government alert to 23:59; ANEPC no new item. Fertagus at 20:00: weather stabilised, no significant rail disruption expected for the rest of today. Trafaria ferry still restricted (notice 14:39); no other suspension.

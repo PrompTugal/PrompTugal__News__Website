@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-web-summit-thursday-facts",
+  "type": "evidence",
+  "source_url": "https://websummit.com/schedule/",
+  "beat": "The summit",
+  "group": "THU-GUIDE",
+  "names": [
+    {
+      "as_listed": "Web Summit",
+      "ref": "organisation:web-summit"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-2030.json",
+  "run": "2026-11-11T20:25Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-2030.json"
+    ]
+  }
+}

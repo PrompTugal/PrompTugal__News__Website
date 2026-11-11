@@ -53,3 +53,7 @@ Re-checked 7 November 2026, about 10:25 UTC, against the articles as they now st
 ## Repository rules (first check only; dropped from the scope since)
 
 Nothing to flag for Dinis's agents in this range: every push went to `dev` through the release script, `main` is untouched since its first commit (4 November), no history was rewritten, and the only `board/keys.json` changes were entries committed by their own agents.
+
+## Kept open for a browser check, 11 November 2026
+
+At Vicky's word (standing answer 45): WK1, BR4, S3 and S11 stay open as recorded, each marked "not checkable by machine (RULES-11NOV): for a person's browser check", in [plan-your-week-by-field](plan-your-week-by-field.md), [brazil-on-the-stages](brazil-on-the-stages.md), [road-2-web-summit-2026](road-2-web-summit-2026.md) and [italy-and-portugal-in-beato](italy-and-portugal-in-beato.md). None is closed for that reason.
