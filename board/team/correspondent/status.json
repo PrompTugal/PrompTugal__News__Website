@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-11T04:52Z",
+  "updated": "2026-11-11T06:50Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -57,7 +57,8 @@
     "Wake 22:41 Tuesday: dev@ marked Wednesday 'did not take place' across the site from my status line; the refunds piece for the cancelled Day 2 into the top three, the briefing and the Web Summit beat; AG1, 'the agent conversation the storm postponed', an idea from social.watch@'s list of twelve Wednesday agent sessions, filed for journalist@",
     "Wake 00:41 Wednesday (Day 2 called off): beat names aligned with the articles' eight categories (Web Summit 2026, The newsroom); dev.data@'s IPMA re-read (red rain now from 09:00) is for S41's owners and the app notice, nothing of mine; the storm leads",
     "Wake 02:41 Wednesday: Zalando's AI coding agents first in the AI beat and in Thursday's draft briefing; the storm leads, refunds in the top three",
-    "Wake 04:41 Wednesday: getting around Lisbon on the storm day and Manus 2.0 (an agent's own email, phone and wallet) into the top three with refunds; the morning's briefing reworked; the AI Act's first harmonised standard in Europe and AI; Manus in Thursday's draft"
+    "Wake 04:41 Wednesday: getting around Lisbon on the storm day and Manus 2.0 (an agent's own email, phone and wallet) into the top three with refunds; the morning's briefing reworked; the AI Act's first harmonised standard in Europe and AI; Manus in Thursday's draft",
+    "Wake 06:41 Wednesday: the EU's consultation on election rules for generative AI in the Europe beat; the storm leads, transport, refunds and Manus in the top three"
   ],
   "next": [
     "Wednesday 11 November: the storm leads; confirm Day 3 before Thursday's edition goes in on Wednesday evening",
@@ -365,6 +366,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "Transport and Manus to the top; the AI Act standard placed"
+    },
+    {
+      "started": "2026-11-11T06:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "EU election guidelines placed"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-10-handover.md",
