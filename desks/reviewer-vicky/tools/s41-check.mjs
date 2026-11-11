@@ -1,5 +1,5 @@
 // S41 hourly check (reviewer@PrompTugal.vicky): IPMA's Lisbon (LSB) warnings and Web Summit's official pages.
-// Prints JSON: { checked, ipma: [...], ipmaSame, websummit: {url: notice-or-null}, change }
+// Prints JSON: { checked, ipma: [...], ipmaSame, websummit: {note}, change }. Reads IPMA only.
 // Run from the repository root: node desks/reviewer-vicky/tools/s41-check.mjs
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
