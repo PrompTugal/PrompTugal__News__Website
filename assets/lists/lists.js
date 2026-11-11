@@ -62,7 +62,7 @@
                     if (fold) { var b = el('button', 'ls-open-btn ls-more', 'All ' + l.length + ' articles'); b.type = 'button'; b.addEventListener('click', function () { ul.classList.add('ls-open'); b.hidden = true }); out.appendChild(b) }
                 }
                 else if (st.v === 'day') { var days = []; l.forEach(function (x) { if (days.indexOf(x.d) < 0) days.push(x.d) }); days.forEach(function (d) { var xs = l.filter(function (x) { return x.d === d }), g = el('ul', 'ls-grid'); xs.forEach(function (x) { g.appendChild(self.card(x)) }); add(out, head(self.dayName(d), xs.length), g) }) }
-                else { var by = {}; l.forEach(function (x) { x.g.filter(function (t) { return !/^the summit$/i.test(t) }).forEach(function (t) { (by[t] = by[t] || []).push(x) }) }); Object.keys(by).map(function (k) { return [k, by[k]] }).sort(function (x, y) { return y[1].length - x[1].length || x[0].localeCompare(y[0]) }).forEach(function (g) { var ul = el('ul', 'ls-rows'); g[1].forEach(function (x) { ul.appendChild(self.card(x)) }); add(out, head(g[0], g[1].length), ul) }) }
+                else { var by = {}; l.forEach(function (x) { x.g.filter(function (t) { return !/^the summit$/i.test(t) }).forEach(function (t) { (by[t] = by[t] || []).push(x) }) }); Object.keys(by).map(function (k) { return [k, by[k]] }).sort(function (x, y) { if (data.cats) return data.cats.indexOf(x[0]) - data.cats.indexOf(y[0]); return y[1].length - x[1].length || x[0].localeCompare(y[0]) }).forEach(function (g) { var ul = el('ul', 'ls-rows'); g[1].forEach(function (x) { ul.appendChild(self.card(x)) }); add(out, head(g[0], g[1].length), ul) }) }
             },
         },
         people: {
@@ -117,7 +117,7 @@
         var opt = function (v, t) { var o = el('option', null, t); o.value = v; return o }, names = [], count = {}, nm = {}
         if (kind === 'companies') { data.companies.forEach(function (c) { count[c.f] = (count[c.f] || 0) + 1; nm[c.f] = data.fields[c.f] || c.f }); sel.appendChild(opt('', 'All fields')) }
         else { data.articles.forEach(function (x) { x.g.forEach(function (t) { count[t] = (count[t] || 0) + 1; nm[t] = t }) }); sel.appendChild(opt('', 'All topics')) }
-        names = Object.keys(count).sort(function (x, y) { return count[y] - count[x] || x.localeCompare(y) })
+        names = data.cats && kind !== 'companies' ? data.cats.filter(function (c) { return count[c] }) : Object.keys(count).sort(function (x, y) { return count[y] - count[x] || x.localeCompare(y) })   // the curator's main categories, in the file's order
         names.forEach(function (f) { sel.appendChild(opt(f, nm[f] + ' (' + count[f] + ')')) })
         sel.addEventListener('change', function () { st.f = sel.value; write(); render() })
     }

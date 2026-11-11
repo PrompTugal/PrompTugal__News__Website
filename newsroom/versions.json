@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.1107",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: article categories: the articles and lists filters show the curator's eight main categories; gate check; bracket-safe tags",
+    "by": "dev@PrompTugal.vicky",
+    "from": "af1ca0ecd"
+  },
+  {
+    "version": "v0.1.1106",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: categories rollout: journalist-ai and reviewer acknowledgements confirmed",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "95c84afaa"
+  },
+  {
+    "version": "v0.1.1105",
+    "date": "2026-11-10",
+    "what": "social.watch@PrompTugal.dinis: sweep 6 (night): Wednesday's travel picture; 3 new items, 111 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "52f680550"
+  },
+  {
+    "version": "v0.1.1104",
+    "date": "2026-11-10",
+    "what": "reviewer@PrompTugal.vicky: run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b0b594557"
+  },
+  {
+    "version": "v0.1.1103",
+    "date": "2026-11-10",
+    "what": "conductor.B@PrompTugal.vicky: categories rollout: curator's categories.json checked",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "05082cffb"
+  },
+  {
+    "version": "v0.1.1102",
+    "date": "2026-11-10",
+    "what": "journalist-europe@PrompTugal.vicky: standing rules in my desk: article categories, routing",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "15474ccd1"
+  },
+  {
+    "version": "v0.1.1101",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "786bba3f4"
+  },
+  {
+    "version": "v0.1.1100",
+    "date": "2026-11-10",
+    "what": "curator@PrompTugal.vicky: run report",
+    "by": "curator@PrompTugal.vicky",
+    "from": "03c7bd461"
+  },
+  {
     "version": "v0.1.1099",
     "date": "2026-11-10",
     "what": "journalist@PrompTugal.vicky: S41 checked 23:06 UTC, no change; run report",

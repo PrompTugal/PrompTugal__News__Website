@@ -13,6 +13,23 @@
         "ipma-lisbon-daily-forecast"
       ],
       "note": "Portugal's weather institute (Instituto Portugues do Mar e da Atmosfera)"
+    },
+    {
+      "ref": "organisation:web-summit",
+      "label": "Web Summit",
+      "kind": "organisation",
+      "sources": [
+        "websummit-homepage-event-update",
+        "websummit-important-event-update-2026"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2026",
+      "label": "Web Summit Lisbon 2026",
+      "kind": "event",
+      "sources": [
+        "websummit-important-event-update-2026"
+      ]
     }
   ]
 }

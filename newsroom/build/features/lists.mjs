@@ -4,6 +4,7 @@
 // assets/lists/lists.js draws it; without script the page keeps its static views, and the markdown twin is unchanged.
 // The marker <!-- companies:app --> in content/companies/index.md places it before the static list.
 // dev.pages@PrompTugal.dinis, 9 November 2026.
+import { mainCategories, categoriesOf } from '../lib/categories.mjs'
 import fs from 'node:fs'
 import { articlesOf } from './articles.mjs'
 import { imageFile, byline, firstSentence } from './front.mjs'
@@ -44,8 +45,8 @@ const partA = n => (TA.split(`<!-- part:${n} -->\n`)[1] || '').split('\n<!-- ')[
 function articlesApp(p, ctx) {
     const list = articlesOf(ctx).map(a => { const im = imageFile(a, 'thumb'), slug = a.rel.replace(/^articles\//, '').replace(/\.html$/, '')
         return { s: slug, t: a.meta.title, sum: firstSentence(a.meta.summary || '', 200), d: a.meta.date, b: String(a.meta.beat || String(a.meta.tags || 'News').split(',')[0]).replace(/^connections:\s*/i, '').trim(),
-            g: String(a.meta.tags || a.meta.beat || '').split(',').map(x => x.trim()).filter(Boolean), by: byline(a.meta.author), i: im ? `../${im.src}` : '', ia: im ? im.alt : '' } })
-    const html = put(partA('app'), { data: json({ articles: list }) }), prev = p.postHtml
+            g: categoriesOf(ctx.ROOT, a), by: byline(a.meta.author), i: im ? `../${im.src}` : '', ia: im ? im.alt : '' } })
+    const cats = mainCategories(ctx.ROOT), html = put(partA('app'), { data: json(cats ? { articles: list, cats: cats.map(c => c.name) } : { articles: list }) }), prev = p.postHtml
     p.postHtml = h => { const out = prev ? prev(h) : h, i = out.indexOf(MOUNT); const at = i < 0 ? -1 : out.lastIndexOf('<', i); return at < 0 ? out : out.slice(0, at) + html + '\n' + out.slice(at) }
 }
 export function decorate(p, ctx) {

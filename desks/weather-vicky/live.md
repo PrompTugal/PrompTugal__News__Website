@@ -4,7 +4,7 @@ The weather desk's facts list for S41. Every line has its source and the UTC tim
 
 **Last full check: 10 November 2026, 19:36 to 19:47 UTC** (connectors snapshot `data/2026-11-10T1936Z.json`).
 
-**Headline, 21:37 UTC: Web Summit's Day 2 (Wednesday 11 November) will not take place, on the Portuguese Government's formal advice ([its statement](https://websummit.com/blog/web-summit/important-event-update-2026/), published 19:09 UTC, read 21:37 UTC).** "Web Summit will of course respect the Government's direction, and accordingly, Day 2 (Wednesday, November 11th) will not take place. [...] Web Summit aims to proceed with Day 3 (Thursday, November 12) as planned, following the passing of Storm Charles." Its [homepage](https://websummit.com/) now says: "On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings." IPMA's red warnings for Lisbon (wind 12:00 to 21:00, rain 12:00 to 18:00 Wednesday) and the government's alert situation stand.
+**Headline, 21:37 UTC: Web Summit's Day 2 (Wednesday 11 November) will not take place, on the Portuguese Government's formal advice ([its statement](https://websummit.com/blog/web-summit/important-event-update-2026/), published 19:09 UTC, read 21:37 UTC).** "Web Summit will of course respect the Government's direction, and accordingly, Day 2 (Wednesday, November 11th) will not take place. [...] Web Summit aims to proceed with Day 3 (Thursday, November 12) as planned, following the passing of Storm Charles." Its [homepage](https://websummit.com/) now says: "On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings." IPMA's red warnings for Lisbon (wind 12:00 to 21:00, and rain from 09:00 to 18:00 since 23:41 UTC) and the government's alert situation stand.
 
 ### Web Summit's Day 2 (added 19:47 UTC)
 
@@ -30,8 +30,8 @@ Read from [IPMA's warnings open data](https://api.ipma.pt/open-data/forecast/war
 | Lisbon district (LSB) | Level | From | To | IPMA's text (PT) | In English |
 |---|---|---|---|---|---|
 | Wind (Vento) | **red** | Wed 11 Nov 12:00 | Wed 11 Nov 21:00 | "Rajadas até 120 km/h, podendo atingir 140 km/h nos locais mais expostos." | Gusts up to 120 km/h, possibly 140 km/h in the most exposed places. |
-| Rain (Precipitação) | **red** (new, 17:42) | Wed 12:00 | Wed 18:00 | "Precipitação forte e persistente." | Heavy and persistent rain. |
-| Rain | orange | Wed 05:00 | Wed 12:00 | "Precipitação por vezes forte e persistente." | Rain at times heavy and persistent. |
+| Rain (Precipitação) | **red** (from 17:42; **from 09:00 since 23:41**) | Wed 09:00 | Wed 18:00 | "Precipitação forte e persistente." | Heavy and persistent rain. |
+| Rain | orange (changed 23:41) | Wed 00:00 | Wed 09:00 | "Precipitação por vezes forte e persistente." | Rain at times heavy and persistent. |
 | Sea (Agitação Marítima) | orange | Wed 12:00 | Wed 21:00 | "Ondas de sudoeste com 5 a 7 metros e que poderão atingir até 13 metros de altura máxima." | South-west waves of 5 to 7 m, up to 13 m maximum height. |
 | Sea | yellow | Wed 21:00 | Thu 12 Nov 03:00 | "Ondas de sudoeste com 4 a 5 metros." | South-west waves of 4 to 5 m. |
 | Sea | yellow | Tue 10 Nov 16:31 | Wed 06:00 | "Ondas do quadrante oeste com 4 a 5 metros." | Westerly waves of 4 to 5 m. |
@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 10 Nov 23:41 (hourly check): **IPMA brings Lisbon's red rain warning forward to Wed 09:00 to 18:00** (was 12:00 to 18:00); orange rain now Wed 00:00 to 09:00; yellow rain until midnight. Red wind unchanged (Wed 12:00 to 21:00). Red rain now also in Beja and Faro. [IPMA warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json). The airport's TAF (issued 23:00 UTC, [LPPT](https://aviationweather.gov/api/data/taf?ids=LPPT&format=raw)): at times 30 gusting 45 knots (about 83 km/h) with heavy rain 09:00 to 16:00 UTC; a 30% chance of 43 gusting 58 knots (about 107 km/h) with thunderstorms 10:00 to 18:00 UTC; wind easing to the west from 18:00 to 20:00 UTC. Everything else unchanged. Reviewer told 23:43.
 - 10 Nov 22:36 (hourly check): Transtejo/Soflusa interrupts the Porto Brandão to Trafaria to Algés ferry on Wednesday (Algés seafront closed by the authorities; notice 22:28). Everything else unchanged. Reviewer told 22:37.
 - 10 Nov 21:37 (hourly check): Web Summit's full statement opens at its own URL (https://websummit.com/blog/web-summit/important-event-update-2026/), and its homepage carries the Day 2 notice. Fertagus: trains on the 25 de Abril bridge stop if winds exceed 90 km/h, possibly the whole line. IPMA and the government unchanged. Reviewer told 21:38.
 - 10 Nov 20:39: checked 20:39 UTC, no change (IPMA Lisbon red wind 12:00 to 21:00 and red rain 12:00 to 18:00; the government's alert; Web Summit's post, same excerpt, modified 19:58, its own URL still 404; Fertagus, Carris, Carris Metropolitana, ferries: no suspension). Snapshot `data/2026-11-10T2039Z.json`.

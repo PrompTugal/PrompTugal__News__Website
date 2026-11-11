@@ -4,31 +4,31 @@
  "lead": {
   "headline": "Web Summit: Day 2, Wednesday 11 November, will not take place",
   "text": "On the Portuguese Government's formal advice, Web Summit has said Day 2 will not take place. It says it aims to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles.",
-  "source_label": "Web Summit's statement \"Important event update\", published 19:09 UTC on 10 November, read 21:37 UTC. Web Summit also emailed attendees at 19:38 UTC, and its homepage now carries the notice.",
+  "source_label": "Web Summit's statement \"Important event update\" (dated 19:09 UTC in its page data; on its blog by about 20:00 UTC), read 23:45 UTC. Web Summit also emailed attendees, and its homepage carries the notice.",
   "source_note": "The government's formal advice itself has not been found on an official page.",
   "src": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-  "read": "2026-11-10T21:37Z"
+  "read": "2026-11-10T23:45Z"
  },
  "alerts": [
   {
    "who": "IPMA, Lisbon district",
-   "what": "Wind: RED, Wed 11 Nov 12:00 to 21:00. Gusts up to 120 km/h, possibly 140 km/h in the most exposed places.",
+   "what": "Wind: RED, Wed 11 Nov 12:00 to 21:00. Gusts up to 120 km/h, possibly 140 km/h in the most exposed places. Re-read at 00:05 UTC: unchanged.",
    "level": "red",
-   "read": "2026-11-10T17:42Z",
+   "read": "2026-11-11T00:05Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
    "who": "IPMA, Lisbon district",
-   "what": "Rain: RED, Wed 12:00 to 18:00 (raised from orange at 17:42). Heavy and persistent rain. Orange from 05:00 to 12:00.",
+   "what": "Rain: RED, Wed 11 Nov 09:00 to 18:00. Heavy and persistent rain. Orange from 00:00 to 09:00 (yellow until 00:00). IPMA moved the start of the red warning earlier from 12:00 to 09:00 on Tuesday evening.",
    "level": "red",
-   "read": "2026-11-10T17:42Z",
+   "read": "2026-11-11T00:05Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
    "who": "IPMA, Lisbon district",
-   "what": "Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. The weather desk's later checks (to 21:37 UTC) found IPMA's warnings unchanged.",
+   "what": "Sea: ORANGE, Wed 12:00 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 00:05 UTC: unchanged.",
    "level": "orange",
-   "read": "2026-11-10T17:42Z",
+   "read": "2026-11-11T00:05Z",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
@@ -53,7 +53,7 @@
    "src": "https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/"
   },
   {
-   "who": "Maritime Authority and the Navy",
+   "who": "Maritime Authority and the Navy (the weather desk's read; not re-checked)",
    "what": "Considerable worsening of the weather and the sea on the mainland from 06:00 on Wednesday to midday on Thursday. This is their forecast for the sea and the coast, not IPMA's land warning for Lisbon; the two figures are not the same.",
    "level": "gov",
    "read": "2026-11-10T16:58Z",
@@ -62,7 +62,7 @@
  ],
  "summit": {
   "status": "Web Summit says Day 2, Wednesday 11 November, will not take place, respecting the Government's direction, and that it aims to proceed with Day 3, Thursday 12 November, as planned, following the passing of Storm Charles. Its homepage says: \"On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings.\"",
-  "read": "2026-11-10T21:37Z",
+  "read": "2026-11-10T23:45Z",
   "src": "https://websummit.com/blog/web-summit/important-event-update-2026/",
   "open": [
    "What Day 3 will look like beyond \"aims to proceed as planned\": not announced.",
@@ -91,31 +91,31 @@
   "transport": [
    {
     "name": "Fertagus (trains over the 25 de Abril bridge)",
-    "text": "Rule announced at 21:37: if winds exceed 90 km/h, trains on the bridge will be suspended, possibly on the whole line; it recommends avoiding non-essential travel. A conditional rule; no suspension yet.",
+    "text": "Its notice says: if winds exceed 90 km/h, trains on the bridge will be suspended, possibly on the whole line; it recommends avoiding non-essential travel. A conditional rule; no suspension announced. (Read 21:37 UTC.)",
     "src": "https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico",
     "read": "2026-11-10T21:37Z"
    },
    {
     "name": "Carris (city buses and trams)",
-    "text": "Banner at 18:37: disruption to service; Carris is monitoring and will post changes; check before leaving. No suspension named.",
+    "text": "Its homepage banner says service is disrupted, that Carris is monitoring the situation and will post changes, and to check before leaving. First read at 18:37 UTC; still there at 23:43. No suspension named.",
     "src": "https://www.carris.pt",
-    "read": "2026-11-10T18:37Z"
+    "read": "2026-11-10T23:43Z"
    },
    {
     "name": "Carris Metropolitana (regional buses)",
-    "text": "Four general weather notices run to Wednesday 23:59: possible disruption, delays and diversions. No suspension announced (the desk's checks to 20:39 UTC).",
+    "text": "Four general weather notices run to Wednesday 23:59: possible disruption, delays and diversions. No suspension announced.",
     "src": "https://api.carrismetropolitana.pt/v2/alerts",
-    "read": "2026-11-10T20:39Z"
+    "read": "2026-11-10T23:43Z"
    },
    {
     "name": "Transtejo/Soflusa (river ferries)",
-    "text": "Latest notice (Tuesday 13:24) suspended car transport on Trafaria to Porto Brandão to Belém for rough seas. No notice yet for Wednesday.",
-    "src": "https://ttsl.pt/avisos/feed/",
-    "read": "2026-11-10T20:39Z"
+    "text": "Wednesday: the Porto Brandão–Trafaria–Algés ferry link is interrupted, because the authorities have closed the Algés seafront promenade; passengers use the Trafaria–Porto Brandão–Belém link (notice of 22:28 UTC on Tuesday). Tuesday's 13:24 suspension of car transport was lifted at 18:06.",
+    "src": "https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/",
+    "read": "2026-11-10T23:45Z"
    },
    {
     "name": "Metro de Lisboa",
-    "text": "No change to Metro service announced. Metro keeps five stations open on the nights of 10 to 11 and 11 to 12 November to shelter homeless people, with the Lisbon and Amadora councils.",
+    "text": "No change to Metro service found on Metro's site. Metro keeps five stations open on the nights of 10 to 11 and 11 to 12 November to shelter homeless people, with the Lisbon and Amadora councils.",
     "src": "https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/",
     "read": "2026-11-10T19:36Z"
    },
@@ -127,20 +127,25 @@
    }
   ],
   "not_announced": [
-   "Any suspension of Metro, Carris, Carris Metropolitana or the ferries for Wednesday, or a closure of the Tagus bar.",
+   "Any suspension of Metro, Carris or Carris Metropolitana for Wednesday, or a closure of the Tagus bar.",
    "The City of Lisbon's own measures (its sites refuse automated reads).",
    "The government's formal advice to Web Summit, on any official page."
   ]
  },
  "timeline": [
   {
-   "t": "2026-11-10T21:37Z",
-   "text": "Web Summit's full statement opens at its own address and its homepage carries the Day 2 notice. Fertagus announces that trains on the 25 de Abril bridge stop if winds exceed 90 km/h.",
-   "src": "https://websummit.com/blog/web-summit/important-event-update-2026/"
+   "t": "2026-11-10T23:41Z",
+   "text": "IPMA moves the start of Lisbon's red rain warning for Wednesday to 09:00 (orange from 00:00 to 09:00); the red wind warning (12:00 to 21:00) is unchanged. (Seen by about 23:41 UTC.)",
+   "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
-   "t": "2026-11-10T19:38Z",
-   "text": "Web Summit emails attendees: Day 2, Wednesday, will not take place; it aims to hold Day 3 as planned (the email as received; the same news as its public statement).",
+   "t": "2026-11-10T22:28Z",
+   "text": "Transtejo/Soflusa publishes the Wednesday notice: the Porto Brandão–Trafaria–Algés ferry link is interrupted because the authorities closed the Algés seafront.",
+   "src": "https://ttsl.pt/avisos/porto-brandao-trafaria-alges-11-nov/"
+  },
+  {
+   "t": "2026-11-10T20:00Z",
+   "text": "Web Summit's statement \"Important event update\" is on its blog (dated 19:09 in its page data): the Government has formally advised that Day 2 should not take place, because of Storm Charles (tidal flooding, severe disruption to public transport, wind on external structures). Its homepage carries the notice.",
    "src": "https://websummit.com/blog/web-summit/important-event-update-2026/"
   },
   {
@@ -149,18 +154,13 @@
    "src": "https://www.metrolisboa.pt/2026/11/10/metro-abre-estacoes-para-pessoas-em-situacao-de-sem-abrigo-2/"
   },
   {
-   "t": "2026-11-10T19:09Z",
-   "text": "Web Summit publishes \"Important event update\": the Government has formally advised that Day 2 should not take place, because of Storm Charles (tidal flooding, severe disruption to public transport, wind on external structures).",
-   "src": "https://websummit.com/blog/web-summit/important-event-update-2026/"
-  },
-  {
    "t": "2026-11-10T18:37Z",
    "text": "Carris's homepage banner reads that service is disrupted and that it is monitoring the situation.",
    "src": "https://www.carris.pt"
   },
   {
    "t": "2026-11-10T17:42Z",
-   "text": "IPMA raises Lisbon's rain warning to red for Wednesday 12:00 to 18:00; the red wind warning is unchanged.",
+   "text": "IPMA raises Lisbon's rain warning to red for Wednesday 12:00 to 18:00 (later moved to start at 09:00); the red wind warning is unchanged.",
    "src": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
   },
   {
@@ -180,12 +180,12 @@
   },
   {
    "t": "2026-11-10T13:24Z",
-   "text": "Transtejo/Soflusa suspends car transport on Trafaria to Porto Brandão to Belém for rough seas.",
+   "text": "Transtejo/Soflusa suspends car transport on Trafaria to Porto Brandão to Belém for rough seas; service is restored at 18:06 UTC.",
    "src": "https://ttsl.pt/avisos/trafaria-porto-brandao-belem-10-nov-2/"
   },
   {
    "t": "2026-11-10T12:15Z",
-   "text": "The Maritime Authority and the Navy warn of a considerable worsening at sea from Wednesday 06:00 to Thursday midday.",
+   "text": "The Maritime Authority and the Navy warn of a considerable worsening at sea from Wednesday 06:00 to Thursday midday. (The weather desk's read; not re-checked.)",
    "src": "https://www.amn.pt/Media/Paginas/DetalheNoticia.aspx?nid=7101"
   },
   {
@@ -195,7 +195,7 @@
   },
   {
    "t": "2026-11-09T20:30Z",
-   "text": "ANEPC's Aviso 21 on CHARLES: gusts to 120 km/h; avoid unnecessary travel.",
+   "text": "ANEPC's Aviso 21 on CHARLES: gusts to 120 km/h; avoid unnecessary travel. (The weather desk's read; not re-checked.)",
    "src": "https://prociv.gov.pt/pt/avisos-a-populacao/aviso-21-depressao-charles-agravamento-da-situacao-meteorologica-chuva-e-vento-forte-medidas-preventivas/"
   },
   {

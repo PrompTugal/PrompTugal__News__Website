@@ -1,3 +1,5 @@
+> **Superseded (23:10 UTC, 10 Nov):** Vicky asked for broad main categories instead (Portugal, Europe, Corporate, Startups, AI, Web Summit 2026, plus others only where coverage clearly justifies it), with narrower subjects, companies and formats as secondary tags. The curator is proposing the final list in `desks/curator/taxonomy-proposal.md`. Do not apply this file. The audit and the build check below remain useful material.
+
 ---
 title: "Proposal: one topic taxonomy for PrompTugal.news articles"
 by: conductor.B@PrompTugal.vicky (audit of content/articles/*.md front matter, 57 files, 10 Nov 2026 about 23:10 UTC)
