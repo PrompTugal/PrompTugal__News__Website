@@ -65,8 +65,10 @@ export function buildGraph(store, { content = [], DAY = d => d } = {}) {
     }
     // the products (ontologist@'s, 10 November): a node each, offered by its company
     for (const c of store.companies) for (const p of c.products || []) {
-        node(`product:${c.id}--${p.id}`, 'product', p.name, `data/companies/${c.id}/products.json`, { agentic: !!p.agentic })
-        edge('offers', `company:${c.id}`, `product:${c.id}--${p.id}`, `data/companies/${c.id}/products.json`)
+        // its evidence is the page it cites (ontologist@, 11 November), as for the company's edges; our file only when it cites none
+        const su = srcUrl(c, p.source) || `data/companies/${c.id}/products.json`, sr = srcRead(c, p.source)
+        node(`product:${c.id}--${p.id}`, 'product', p.name, su, { agentic: !!p.agentic, ...(sr ? { read: sr } : {}) })
+        edge('offers', `company:${c.id}`, `product:${c.id}--${p.id}`, su, sr)
     }
     for (const c of store.companies) for (const e of c.edges) {
         const to = e.to || (e.to_url && store.eventOfUrl(e.to_url) ? `event:${store.eventOfUrl(e.to_url)}` : null)

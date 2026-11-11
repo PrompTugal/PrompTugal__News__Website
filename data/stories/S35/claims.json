@@ -1,0 +1,261 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S35",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-11",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Web Summit's schedule lists the press conference 'Press conference: PitchBook Goes Free for Startups + New Platform for Finding Them First' on 2026-11-10 from 10:30 to 10:50 on Stage 2, with Peter Escher (Chief Data Operations Officer, PItchBook); Paul Santarelli (Chief Solutions Officer, PitchBook Data); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p1",
+      "quote": "Press conference: PitchBook Goes Free for Startups + New Platform for Finding Them First",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "Web Summit's schedule lists the press conference 'Guardrails for Doomsday: Can AI be regulated? (Press conference)' on 2026-11-10 from 11:00 to 11:20 on Stage 2, with Ali Partovi (Founding Partner, Neo); Abigail Slater (Former Assistant Attorney General, The US Government); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p1",
+      "quote": "Guardrails for Doomsday: Can AI be regulated? (Press conference)",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "Web Summit's schedule lists the press conference 'Press conference: RWS launches the world’s first culturally intelligent content platform' on 2026-11-10 from 11:30 to 11:50 on Stage 2, with Benjamin Faes (CEO, RWS Group); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p1",
+      "quote": "Press conference: RWS launches the world’s first culturally intelligent content platform",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "Web Summit's schedule lists the press conference 'What do the US midterms tell us about the future of America? (Press conference)' on 2026-11-10 from 12:00 to 12:20 on Stage 2, with James Galbraith (Lloyd M. Bentsen, jr. Chair in Government/Business Relations, LBJ School of Public Affairs, The University of Texas at Austin, and Member, Lisbon Academy of Sciences, Lyndon B. Johnson Schoo of Public Affairs, University of Austin Texas); Steve Cortes (Campaign Strategist, Media Spokesman, Trump & Vance Campaigns); Nathan J Robinson (English American writer, editor of Current Affairs Magazine whose latest book is couathored with Noam Chomsky, Current Affairs); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p1",
+      "quote": "What do the US midterms tell us about the future of America? (Press conference)",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with Xpeng Aridge Founder and President, Deli Zhao, and Xpeng Aridge CFO, Michael Du' on 2026-11-10 from 14:00 to 14:20 on Stage 2, with Deli Zhao (Founder and President, Xpeng Aridge); Michael Du (CFO, XPENG Aridge Flying Cars); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p1",
+      "quote": "Press conference with Xpeng Aridge Founder and President, Deli Zhao, and Xpeng Aridge CFO, Michael Du",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with Gravitee CEO Rory Blundell: Collapsing confidence in agent AI security after six months of reality' on 2026-11-10 from 14:30 to 14:50 on Stage 2, with Rory Blundell (CEO, Gravitee); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p1",
+      "quote": "Press conference with Gravitee CEO Rory Blundell: Collapsing confidence in agent AI security after six months of reality",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with Replit President Michele Catasta' on 2026-11-10 from 15:00 to 15:20 on Stage 2, with Michele Catasta (President, Replit); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p1",
+      "quote": "Press conference with Replit President Michele Catasta",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "Web Summit's schedule lists the press conference 'Press conference: Otter.ai Announces Its Biggest Multilingual Leap Yet ' on 2026-11-10 from 15:30 to 15:50 on Stage 2, with Sam Liang (CEO and Co-Founder, Otter); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p2",
+      "quote": "Press conference: Otter.ai Announces Its Biggest Multilingual Leap Yet ",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with Defined AI Founder Daniela Braga' on 2026-11-10 from 16:00 to 16:20 on Stage 2, with Daniela Braga (Founder & CEO, Defined.ai); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p2",
+      "quote": "Press conference with Defined AI Founder Daniela Braga",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with NXTPLAY Capital Co-Founder & Professional Football Player, Thibaut Courtois, and NXTPLAY Co-founder & Managing Partner, Gonzalo Vila' on 2026-11-10 from 16:30 to 16:50 on Stage 2, with Thibaut Courtois (Real Madrid Footballer & Investor, NXTPLAY Capital); Gonzalo Vila (Co-Founder & CEO, NXTPLAY Capital); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p2",
+      "quote": "Press conference with NXTPLAY Capital Co-Founder \\u0026 Professional Football Player, Thibaut Courtois, and NXTPLAY Co-founder \\u0026 Managing Partner, Gonzalo Vila",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "Web Summit's schedule lists the press conference 'New Unicorn in Lisbon: Discord Announces Expansion (Press conference)' on 2026-11-11 from 10:30 to 10:50 on Stage 2, with Carlos Moedas (Mayor, City of Lisbon); Stanislav Vishnevskiy (Co-founder & CTO, Discord); Gil Azevedo (Executive Director, Unicorn Factory Lisboa); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p2",
+      "quote": "New Unicorn in Lisbon: Discord Announces Expansion (Press conference)",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with Web Summit CEO and Founder Paddy Cosgrave' on 2026-11-11 from 11:00 to 11:20 on Stage 2, with Paddy Cosgrave (CEO & Founder, Web Summit); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p2",
+      "quote": "Press conference with Web Summit CEO and Founder Paddy Cosgrave",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with Qualcomm SVP & General Manager, Durga Malladi' on 2026-11-11 from 11:30 to 11:50 on Stage 2, with Dr. Durga Malladi (EVP and GM, Technology Planning, Edge Solutions & Data Center, Qualcomm Technologies, Inc., Qualcomm); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p2",
+      "quote": "Press conference with Qualcomm SVP \\u0026 General Manager, Durga Malladi",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "Web Summit's schedule lists the press conference 'Open or Closed AI models: which types of future do they represent? (Press conference)' on 2026-11-11 from 12:30 to 12:50 on Stage 2, with Philip Rathle (CTO, Neo4j); Mazin Gilbert (Executive Director, Agentic AI Foundation); Bailey Pumfleet (CEO & Co-founder, Cal.com); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p2",
+      "quote": "Open or Closed AI models: which types of future do they represent? (Press conference)",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "Web Summit's schedule lists the press conference 'Campus Tejo, the science and technology ecosystem of Santarém (Press conference)' on 2026-11-11 from 14:30 to 14:50 on Stage 2, with Fernando Alexandre (Minister of Education, Science and Innovation of Portugal, Government of Portugal); João Leite (Mayor of Santarém and President of the Intermunicipal Community of the Lezíria do Tejo, Sumcap); João Moutão (Professor, Santarém Polytechnic University); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p3",
+      "quote": "Campus Tejo, the science and technology ecosystem of Santarém (Press conference)",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c16",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with NordVPN CPSO Domininkas Virbickas' on 2026-11-11 from 15:00 to 15:20 on Stage 2, with Domininkas Virbickas (Chief Product Strategy Officer, NordVPN); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p3",
+      "quote": "Press conference with NordVPN CPSO Domininkas Virbickas",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c17",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with the world's first AI CEO co-founder Sam Pasupalak' on 2026-11-11 from 15:30 to 15:50 on Stage 2, with Sam Pasupalak (Co-founder & CEO, Skyfall AI); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p3",
+      "quote": "Press conference with the world's first AI CEO co-founder Sam Pasupalak",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c18",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with Amazon Vice President People Experience & Technology, J. Ofori Agboka' on 2026-11-11 from 16:00 to 16:20 on Stage 2, with J. Ofori Agboka (Vice President People, Experience & Technology, Amazon); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p3",
+      "quote": "Press conference with Amazon Vice President People Experience \\u0026 Technology, J. Ofori Agboka",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c19",
+      "text": "Web Summit's schedule lists the press conference 'Press conference: Rewriting the Rules of Female Longevity' on 2026-11-11 from 16:30 to 16:50 on Stage 2, with Cristina Ferreira (TV Host, Executive, TVI); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p3",
+      "quote": "Press conference: Rewriting the Rules of Female Longevity",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c20",
+      "text": "Web Summit's schedule lists the press conference 'Press conference with Vivaldi CEO Jon von Tetzchner' on 2026-11-12 from 10:30 to 10:50 on Stage 2, with Jon von Tetzchner (Co-founder & CEO, Vivaldi); Haakon Rølmann (Head of communications, Vivaldi); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p3",
+      "quote": "Press conference with Vivaldi CEO Jon von Tetzchner",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c21",
+      "text": "Web Summit's schedule lists the press conference 'Press conference: Unicorn Factory Lisboa, Hub 71, Instituto Caldeira & Q Branch launch a Global Program for Scaleups' on 2026-11-12 from 11:00 to 11:20 on Stage 2, with Gil Azevedo (Executive Director, Unicorn Factory Lisboa); Basma Albadi AlDhaheri (Head of Growth & Value Creation, Hub71); Pedro Zanetello (Head of International Projects, Instituto Caldeira); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p3",
+      "quote": "Press conference: Unicorn Factory Lisboa, Hub 71, Instituto Caldeira \\u0026 Q Branch launch a Global Program for Scaleups",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c22",
+      "text": "Web Summit's schedule lists the press conference 'Press conference: Who Wins When AI Does the Shopping? ' on 2026-11-12 from 11:30 to 11:50 on Stage 2, with Maju Kuruvilla (CEO and Founder, Spangle); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p4",
+      "quote": "Press conference: Who Wins When AI Does the Shopping? ",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c23",
+      "text": "Web Summit's schedule lists the press conference 'Press conference: Road 2 Web Summit 2026 Winner' on 2026-11-12 from 12:30 to 12:50 on Stage 2, with Margarida David (Startups Manager, Web Summit); Miguel d'Aguiar (Executive Director, Startup Portugal); the page says 'Media event only'.",
+      "kind": "fact",
+      "source": "websummit-schedule-press-conferences-p4",
+      "quote": "Press conference: Road 2 Web Summit 2026 Winner",
+      "read_on": "2026-11-11",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    }
+  ]
+}

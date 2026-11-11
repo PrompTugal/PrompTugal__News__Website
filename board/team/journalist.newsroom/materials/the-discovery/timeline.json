@@ -1,0 +1,413 @@
+{
+  "story": "the-discovery",
+  "from": "board/team/work-desk/traces/the-discovery.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": [
+    {
+      "id": "s001",
+      "time": "2026-11-11T00:22:10Z",
+      "actor": "Vicky Wang",
+      "actor_kind": "person",
+      "input": "a quiet night after Day 2 was called off",
+      "output": "approves a temporary discovery workflow: the beat journalists log leads; the curator reads the leads and social.watch@ and commissions",
+      "handoff_to": [
+        "conductor.B@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:9d47616e7"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent",
+      "workflow_step": null,
+      "minute": 0
+    },
+    {
+      "id": "s002",
+      "time": "2026-11-11T00:28:00Z",
+      "actor": "Vicky's desks",
+      "actor_kind": "agent",
+      "input": "the workflow",
+      "output": "saved in the standing notes of journalist-connections@ (00:24), the curator (00:24), journalist-ai@ (00:26), journalist-portugal@ (00:27), journalist-europe@ (00:27)",
+      "handoff_to": [
+        "conductor.B@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:8d06fb931",
+        "commit:2ac6ed9b6",
+        "commit:b7dadf71a",
+        "commit:848163959",
+        "commit:e869fa580"
+      ],
+      "tokens": null,
+      "hand_off": "agents->agent",
+      "workflow_step": null,
+      "minute": 6
+    },
+    {
+      "id": "s003",
+      "time": "2026-11-11T00:32:18Z",
+      "actor": "journalist-ai@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its beat",
+      "output": "two leads: Zalando's agentic engineering; Parloa's Day 2 keynote listing",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:058a06cd7"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 10
+    },
+    {
+      "id": "s004",
+      "time": "2026-11-11T00:34:06Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "six desks",
+      "output": "all six acknowledged; first lead logged",
+      "handoff_to": [
+        "Vicky Wang"
+      ],
+      "evidence": [
+        "commit:174f7aecf",
+        "commit:93de9c995"
+      ],
+      "tokens": null,
+      "hand_off": "agent->person",
+      "workflow_step": null,
+      "minute": 12
+    },
+    {
+      "id": "s005",
+      "time": "2026-11-11T00:45:44Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the logged leads",
+      "output": "S46 (Zalando) and S47 (Web Summit's final figures) commissioned",
+      "handoff_to": [
+        "journalist-ai@PrompTugal.vicky",
+        "journalist@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:8018eab16"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "commission",
+      "minute": 24
+    },
+    {
+      "id": "s006",
+      "time": "2026-11-11T01:06:46Z",
+      "actor": "journalist@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S47",
+      "output": "drafted (an update note)",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:1f597af66"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 45
+    },
+    {
+      "id": "s007",
+      "time": "2026-11-11T01:14:26Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S47, verified 01:10",
+      "output": "published under R-PUB-1",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:3d93bcf6d"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 29 min from commission",
+      "minute": 52
+    },
+    {
+      "id": "s008",
+      "time": "2026-11-11T01:15:41Z",
+      "actor": "journalist-connections@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its beat",
+      "output": "lead: Manus 2.0",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:a4cb6bb72"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 54
+    },
+    {
+      "id": "s009",
+      "time": "2026-11-11T01:20:45Z",
+      "actor": "journalist-portugal@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its beat",
+      "output": "two leads: Konecta's Lisbon centre; the Site Selectors Guild's 2027 conference",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:8c108a2fd"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 59
+    },
+    {
+      "id": "s010",
+      "time": "2026-11-11T01:24:26Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "its beat",
+      "output": "two leads: the EU's Day 2 sessions; EN 18286",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:ad79995cb"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "lead",
+      "minute": 62
+    },
+    {
+      "id": "s011",
+      "time": "2026-11-11T01:29:12Z",
+      "actor": "journalist-ai@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S46",
+      "output": "drafted: how Zalando rolled out AI coding agents",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:e33845c10"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 67
+    },
+    {
+      "id": "s013",
+      "time": "2026-11-11T01:44:40Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the leads",
+      "output": "S48 (Manus 2.0), S49 (EU sessions update), S50 (EN 18286) commissioned",
+      "handoff_to": [
+        "journalist-connections@PrompTugal.vicky",
+        "journalist-europe@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:54f73ec5f"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "commission",
+      "minute": 83
+    },
+    {
+      "id": "s012",
+      "time": "2026-11-11T01:45:38Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S46; six wording fixes against Zalando's post; the curator's category line",
+      "output": "published under R-PUB-1",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:bfc5587a6",
+        "commit:9e7d561ed"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 60 min from commission",
+      "minute": 83
+    },
+    {
+      "id": "s014",
+      "time": "2026-11-11T02:11:40Z",
+      "actor": "journalist-connections@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S48",
+      "output": "drafted",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:92e144f3b"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 110
+    },
+    {
+      "id": "s015",
+      "time": "2026-11-11T02:16:33Z",
+      "actor": "journalist-portugal@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the curator's hold on Konecta",
+      "output": "Konecta's own press release found",
+      "handoff_to": [
+        "curator@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:a26a6072f"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent (a hold answered with a primary source)",
+      "workflow_step": null,
+      "minute": 114
+    },
+    {
+      "id": "s016",
+      "time": "2026-11-11T02:21:52Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S49, S50",
+      "output": "drafted",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:a2e5c3e32"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 120
+    },
+    {
+      "id": "s017",
+      "time": "2026-11-11T02:43:51Z",
+      "actor": "curator@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the Konecta source",
+      "output": "S52 (Konecta) commissioned (with S51, the storm's transport guide)",
+      "handoff_to": [
+        "journalist-portugal@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:3f7245e84"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "commission",
+      "minute": 142
+    },
+    {
+      "id": "s018",
+      "time": "2026-11-11T02:44:45Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S49",
+      "output": "published under R-PUB-1",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:f5de1bae3"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 60 min from commission",
+      "minute": 143
+    },
+    {
+      "id": "s019",
+      "time": "2026-11-11T02:50:09Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S48, S50",
+      "output": "S48 Ready (held for its category); S50 'Fix first': three AI Act dates not on the cited Commission pages",
+      "handoff_to": [
+        "journalist-europe@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:989b0caae"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent (a fact sent back)",
+      "workflow_step": null,
+      "minute": 148
+    },
+    {
+      "id": "s020",
+      "time": "2026-11-11T02:56:31Z",
+      "actor": "reviewer@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S48 with the curator's category line",
+      "output": "published under R-PUB-1",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:5773f9e65"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 72 min from commission",
+      "minute": 154
+    },
+    {
+      "id": "s021",
+      "time": "2026-11-11T03:17:03Z",
+      "actor": "journalist-portugal@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "S52",
+      "output": "drafted: Konecta picks Lisbon (395 words, cover card)",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:02b0b04eb"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 175
+    },
+    {
+      "id": "s022",
+      "time": "2026-11-11T03:19:57Z",
+      "actor": "journalist-europe@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the 'Fix first'",
+      "output": "S50 revised: the three dates quoted from the cited page for the reviewer",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:a64d10d7f"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 178
+    }
+  ],
+  "first": "2026-11-11T00:22:10Z",
+  "last": "2026-11-11T03:19:57Z"
+}

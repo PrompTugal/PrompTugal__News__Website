@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 11 Nov 03:36: checked 03:36 UTC, no change (ANEPC's site did not answer). Airport METAR 03:00 to 03:30 UTC: rain, visibility down to 3.5 km at 03:00, wind 7 to 11 knots, no gusts; pressure falling (1008 hPa at 23:00 to 1005 at 03:30). Snapshot `data/2026-11-11T0336Z.json`.
 - 11 Nov 02:36: checked 02:36 UTC, no change. Airport METAR 02:30 UTC: wind 8 knots, no gusts. Snapshot `data/2026-11-11T0236Z.json`.
 - 11 Nov 01:36: checked 01:36 UTC, no change. Airport METAR 01:30 UTC: light wind, showers nearby, no gusts. Snapshot `data/2026-11-11T0136Z.json`.
 - 11 Nov 00:36: checked 00:36 UTC, no change in the warnings, the government's alert, Web Summit or transport (Carris Metropolitana's weather alerts fell from 17 to 4 as Tuesday's expired). Observed: the airport's METAR at 00:00 UTC reported heavy rain (+RA), wind 14 knots, no gusts. Snapshot `data/2026-11-11T0036Z.json`.

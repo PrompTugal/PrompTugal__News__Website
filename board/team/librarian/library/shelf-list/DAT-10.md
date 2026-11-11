@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 10 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T00:59:17Z"
-site_version: "v0.1.1117"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T03:58:20Z"
+site_version: "v0.1.1148"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 10 of 11)
 
-100 cards, from `DAT.PE sam-liang` to `DAT.PL olissippo`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.PE sahil-jain` to `DAT.PL netherlands`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 901 to 925**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE sahil-jain` | [Sahil Jain](https://promptugal.news/people/sahil-jain/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE sam-kidd` | [Sam Kidd](https://promptugal.news/people/sam-kidd/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE sam-liang` | [Sam Liang](https://promptugal.news/people/sam-liang/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE sam-pasupalak` | [Sam Pasupalak](https://promptugal.news/people/sam-pasupalak/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE sam-stephenson` | [Sam Stephenson](https://promptugal.news/people/sam-stephenson/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `DAT.PE steve-vassallo` | [Steve Vassallo](https://promptugal.news/people/steve-vassallo/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE stewart-clarke` | [Stewart Clarke](https://promptugal.news/people/stewart-clarke/) | person | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.PE sumit-dhawan` | [Sumit Dhawan](https://promptugal.news/people/sumit-dhawan/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE tao-zhang` | [Tao Zhang](https://promptugal.news/people/tao-zhang/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE tariq-al-tayer` | [Tariq Al Tayer](https://promptugal.news/people/tariq-al-tayer/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 926 to 950**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE tao-zhang` | [Tao Zhang](https://promptugal.news/people/tao-zhang/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE tariq-al-tayer` | [Tariq Al Tayer](https://promptugal.news/people/tariq-al-tayer/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE tariq-krim` | [Tariq Krim](https://promptugal.news/people/tariq-krim/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE teresa-fiuza` | [Teresa Fiuza](https://promptugal.news/people/teresa-fiuza/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE terry-martin` | [Terry Martin](https://promptugal.news/people/terry-martin/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `DAT.PE yuli-zhao` | [Yuli Zhao](https://promptugal.news/people/yuli-zhao/) | person | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.PE zach-coelius` | [Zach Coelius](https://promptugal.news/people/zach-coelius/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE zeki-turedi` | [Zeki Turedi](https://promptugal.news/people/zeki-turedi/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL albufeira` | [Albufeira](https://promptugal.news/places/albufeira/) | place | ontologist@ 6 Nov 2026 |
-| `DAT.PL algarve` | [Algarve](https://promptugal.news/places/algarve/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 951 to 975**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL albufeira` | [Albufeira](https://promptugal.news/places/albufeira/) | place | ontologist@ 6 Nov 2026 |
+| `DAT.PL algarve` | [Algarve](https://promptugal.news/places/algarve/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL almancil` | [Almancil](https://promptugal.news/places/almancil/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL armenia` | [Armenia](https://promptugal.news/places/armenia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL australia` | [Australia](https://promptugal.news/places/australia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `DAT.PL france` | [France](https://promptugal.news/places/france/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL gale-patio` | [Gale patio](https://promptugal.news/places/gale-patio/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL germany` | [Germany](https://promptugal.news/places/germany/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL hotel-pestana-alvor-praia` | [Hotel Pestana Alvor Praia](https://promptugal.news/places/hotel-pestana-alvor-praia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL humberto-delgado-airport-terminal-1` | [Humberto Delgado Airport, Terminal 1](https://promptugal.news/places/humberto-delgado-airport-terminal-1/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 976 to 1000**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL hotel-pestana-alvor-praia` | [Hotel Pestana Alvor Praia](https://promptugal.news/places/hotel-pestana-alvor-praia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL humberto-delgado-airport-terminal-1` | [Humberto Delgado Airport, Terminal 1](https://promptugal.news/places/humberto-delgado-airport-terminal-1/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL hungary` | [Hungary](https://promptugal.news/places/hungary/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL ibm-portugal` | [IBM Portugal](https://promptugal.news/places/ibm-portugal/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL idb-rooftop-by-mirari` | [IDB Rooftop by Mīrārī](https://promptugal.news/places/idb-rooftop-by-mirari/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `DAT.PL meetup-6` | [Meetup 6](https://promptugal.news/places/meetup-6/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meo-arena-and-fil` | [MEO Arena and FIL](https://promptugal.news/places/meo-arena-and-fil/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL netherlands` | [Netherlands](https://promptugal.news/places/netherlands/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL new-zealand` | [New Zealand](https://promptugal.news/places/new-zealand/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL olissippo` | [Olissippo](https://promptugal.news/places/olissippo/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-9.md) | [Next part](DAT-11.md)

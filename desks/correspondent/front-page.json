@@ -11,21 +11,21 @@
       {
         "text": "IPMA red warnings for Lisbon on Wednesday: rain 09:00 to 18:00, wind 12:00 to 21:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-11T02:34Z"
+        "checked": "2026-11-11T03:33Z"
       },
       {
         "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
         "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-11T02:34Z"
+        "checked": "2026-11-11T03:33Z"
       }
     ],
     "programme": {
       "label": "Web Summit, Wednesday",
       "text": "Day 2 cancelled; Day 3 planned for Thursday.",
       "source": "https://websummit.com/blog/web-summit/important-event-update-2026/",
-      "checked": "2026-11-11T02:34Z"
+      "checked": "2026-11-11T03:33Z"
     },
-    "last_checked": "2026-11-11T02:34Z",
+    "last_checked": "2026-11-11T03:33Z",
     "live": null
   },
   "top": [

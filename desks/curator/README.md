@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Wednesday 11 November 2026, 02:42 UTC.
+Last updated: Wednesday 11 November 2026, 03:46 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
 
@@ -16,13 +16,13 @@ Last updated: Wednesday 11 November 2026, 02:42 UTC.
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S52 | Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027 | Portugal | 11 Nov |
-| S51 | Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed | The summit | 11 Nov |
-| S50 | The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers (drafted, awaiting review) | Europe | 11 Nov |
+| S52 | Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027 (drafted, awaiting review) | Portugal | 11 Nov |
+| S51 | Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed (published 11 Nov) | The summit | 11 Nov |
+| S50 | The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers (published 11 Nov) | Europe | 11 Nov |
 | S49 | Update: the EU's Wednesday sessions at Web Summit fall on the cancelled day (drafted, awaiting review) | Europe | 11 Nov |
-| S48 | Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words (drafted, awaiting review) | Connections: the summit | 11 Nov |
+| S48 | Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words (published 11 Nov) | Connections: the summit | 11 Nov |
 | S47 | Update: Web Summit's final 2026 figures (published as an update) | The summit | 11 Nov |
-| S46 | How Zalando rolled out AI coding agents across 250 teams, in its own account (ready, awaiting review) | AI and robotics | 11 Nov |
+| S46 | How Zalando rolled out AI coding agents across 250 teams, in its own account (published 11 Nov) | AI and robotics | 11 Nov |
 | S45 | Web Summit's cancelled Day 2: what is known about refunds (published 10 Nov) | The summit | 10 Nov |
 | S44 | Update: Web Summit's Wednesday will not take place; it aims to hold Thursday (drafted, awaiting review) | The summit | 10 Nov |
 | S42 | What Lovable deleted: its CEO on rebuilding an AI coding agent (drafted by journalist-ai, 10 Nov, awaiting review) | AI and robotics | 10 Nov |
@@ -74,7 +74,7 @@ Sources:
 
 ## S51: Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed
 
-The summit, added 11 Nov. A short practical guide for a day when Web Summit's Day 2 is off: Carris cancelled its Web Summit shuttle, Fertagus will suspend the 25 de Abril bridge crossing above 90 km/h, and the government's alert closes schools and non-essential services, suspends outdoor events and bars the waterfront and high-risk parks. LEADS-11NOV-3, for journalist (summit desk). Time-sensitive; replaces S43. Categories: Web Summit 2026, Portugal.
+The summit, added 11 Nov. A short practical guide for a day when Web Summit's Day 2 is off: Carris cancelled its Web Summit shuttle, Fertagus will suspend the 25 de Abril bridge crossing above 90 km/h, and the government's alert closes schools and non-essential services, suspends outdoor events and bars the waterfront and high-risk parks. LEADS-11NOV-3, for journalist (summit desk). Time-sensitive; replaces S43. Categories: Web Summit 2026, Portugal. Published on 11 Nov 2026: https://promptugal.news/articles/getting-around-lisbon-wednesday.html. Not to be written again.
 
 Sources:
 
@@ -84,7 +84,7 @@ Sources:
 
 ## S50: The AI Act's first harmonised standard is out: what EN 18286 changes for AI providers
 
-Europe, added 11 Nov. The Commission's account: the first harmonised standard supporting the AI Act, for quality management in high-risk AI systems, with a presumption of conformity with Article 17; layered on ISO standards; more to follow. LEADS-11NOV-2, for journalist-europe. Categories: Europe, AI.
+Europe, added 11 Nov. The Commission's account: the first harmonised standard supporting the AI Act, for quality management in high-risk AI systems, with a presumption of conformity with Article 17; layered on ISO standards; more to follow. LEADS-11NOV-2, for journalist-europe. Categories: Europe, AI. Published on 11 Nov 2026: https://promptugal.news/articles/ai-act-first-harmonised-standard.html. Not to be written again.
 
 Sources:
 
@@ -100,7 +100,7 @@ Sources:
 
 ## S48: Manus 2.0: agents that get their own email, phone number and wallet, in Manus's own words
 
-Connections: the summit, added 11 Nov. A speaker company's own description of its new release: a new agent harness, event-triggered automations, a desktop studio, and Cue, an app where each agent has its own email, phone number, wallet and computer. LEADS-11NOV-2, for journalist-connections. Company's own account from 28 Sept; Web Summit's speakers page confirms participation. Categories: AI, Startups & Scaleups, Web Summit 2026.
+Connections: the summit, added 11 Nov. A speaker company's own description of its new release: a new agent harness, event-triggered automations, a desktop studio, and Cue, an app where each agent has its own email, phone number, wallet and computer. LEADS-11NOV-2, for journalist-connections. Company's own account from 28 Sept; Web Summit's speakers page confirms participation. Categories: AI, Startups & Scaleups, Web Summit 2026. Published on 11 Nov 2026: https://promptugal.news/articles/manus-2-0-agents-own-email-phone-wallet.html. Not to be written again.
 
 Sources:
 
@@ -117,7 +117,7 @@ Sources:
 
 ## S46: How Zalando rolled out AI coding agents across 250 teams, in its own account
 
-AI and robotics, added 11 Nov. A first-hand engineering account: one proxy for every model, no mandated tool, no secrets in config files, and a bot that auto-approves low-risk pull requests; what worked and why Zalando says it is too early to converge. LEADS-11NOV, for journalist-ai. Company's own account from 14 Aug; no Web Summit link established.
+AI and robotics, added 11 Nov. A first-hand engineering account: one proxy for every model, no mandated tool, no secrets in config files, and a bot that auto-approves low-risk pull requests; what worked and why Zalando says it is too early to converge. LEADS-11NOV, for journalist-ai. Company's own account from 14 Aug; no Web Summit link established. Published on 11 Nov 2026: https://promptugal.news/articles/zalando-ai-coding-agents.html. Not to be written again.
 
 Sources:
 
@@ -504,9 +504,9 @@ Ready to write now:
 3. S38, Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says: for the connections desk (journalist-connections), OVERNIGHT-10NOV. Glovo's WhatsApp agents in GetVocal's account; every figure is GetVocal's claim; GetVocal AI is on the featured list, Glovo's participation is not confirmed, never imply it.
 4. S39, How WPP turns call transcripts into reviewed Jira plans: for the connections desk (journalist-connections), OVERNIGHT-10NOV. WPP's transcript-to-Jira workflow in Mastra's account; no usage figures exist, invent none; Mastra is on the featured list, WPP's participation is not confirmed, never imply it.
 
-Already published, not to be written again: S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
+Already published, not to be written again: S46 (https://promptugal.news/articles/zalando-ai-coding-agents.html); S48 (https://promptugal.news/articles/manus-2-0-agents-own-email-phone-wallet.html); S50 (https://promptugal.news/articles/ai-act-first-harmonised-standard.html); S51 (https://promptugal.news/articles/getting-around-lisbon-wednesday.html); S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 
-Already drafted, not to be written again: S48 (drafted, awaiting review); S49 (drafted, awaiting review); S50 (drafted, awaiting review); S44 (drafted, awaiting review); S46 (ready, awaiting review); S47 (published as an update); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
+Already drafted, not to be written again: S52 (drafted, awaiting review); S49 (drafted, awaiting review); S44 (drafted, awaiting review); S47 (published as an update); S42 (drafted by journalist-ai, 10 Nov, awaiting review).
 
 No assignment this run: the Europe and Portugal desks (not part of the overnight batch). Not commissioned from the researcher's candidates: Terrapinn (no outcome figures, one vendor source) and the Klarna backup (a 2024 press release, current position unchecked, not a Web Summit participant); the gaps are in the latest map.
 

@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 00:17 (11 Nov): nothing new for my lane",
-  "updated": "2026-11-11T00:30Z",
+  "state": "wake 02:17 (11 Nov): dev@PrompTugal.vicky built a held /storm/charles/ page; my decision graph component is ready if they want it",
+  "updated": "2026-11-11T02:35Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",
@@ -50,7 +50,8 @@
     "10 Nov 14:17: read the team site's /pipeline/ page (its model: the voice brief as the root, then every commit carrying the same Brief: trailer, the hand-offs as the glue). Round 2 on work/dev.graphs: five brief pipelines added to /newsroom/pieces/ (the app on the web, contribute, GAMMA-Ray, the restart, go and confirmed), each starting at Dinis's voice brief (the moment read from the brief id, placed no later than the first commit), then the conductors, builders and reviewers in time order; new stages (voice brief, brief, build, notes); gate OK; checked in a browser. Silvio's X-ray page is not in this repository and its flow is not read yet",
     "10 Nov 16:17: read the team site's X-ray page (agents fan out and the graph grows as evidence arrives; its script assets/xray.js is not in this repository and was not copied); Replay on the piece and brief graphs now reveals the steps in time order with a dot flying along each hand-off, a shorter hop on the same actor; reduced motion reveals step by step; tested: steps appear, all restored at the end, no error; gate OK",
     "10 Nov 18:17: the storm guidance (board/guidance/2026-11-10-the-storm-as-our-case-study.md) names dev.graphs@ to help the weather desk with the decision graph's layout; the desk's proposal (desks/weather-vicky/proposal-storm-page.md) puts the public page at Vicky's or Dinis's word, so I built only the renderer and a newsroom preview, not /storm/: features/decision-graph.mjs passes desks/weather-vicky/decision-graph.json through unchanged (gate: edges name real nodes, statuses are in the legend), assets/newsroom/decision-graph.js draws it (columns by distance from a first decision; happened solid, expected dashed and labelled the desk's analysis, not announced hollow, unknown grey; tap a box or a line for the decision, time, source, lead time and evidence), /newsroom/decision-graph/ with a 'Storm' tab; browser-tested desktop and phone, no error; the desk's data is shown as written",
-    "10 Nov 20:17: dev@ brought work/dev.graphs onto dev (200649a61); the weather desk keeps updating its decision graph (the city's status, Web Summit's Day 2 notice) and the preview reads it at build; gate OK; hand-over debrief updated with the visual newsroom and the decision graph"
+    "10 Nov 20:17: dev@ brought work/dev.graphs onto dev (200649a61); the weather desk keeps updating its decision graph (the city's status, Web Summit's Day 2 notice) and the preview reads it at build; gate OK; hand-over debrief updated with the visual newsroom and the decision graph",
+    "11 Nov 02:17: dev@PrompTugal.vicky's /storm/charles/ page exists (v1, held until reviewer@ and Vicky approve; newsroom/build/features/storm.mjs) and does not yet carry a decision graph; mine (assets/newsroom/decision-graph.js, fed by the weather desk's file) is a self-contained component at /newsroom/decision-graph/; I changed nothing on their page"
   ],
   "next": [
     "Weather desk (Vicky) or Dinis: say if the graph is to go on a public page; I can embed the same component on /storm/charles/ in a build step reading the desk's files",
@@ -61,7 +62,8 @@
     "conductor@ / conductor.b@: reissue my inbox lane to dev.graphs-promptugal-2 (my sends fail: no lane credentials): until then phase 1 is announced here and in the commit only",
     "Dinis: sgit access token for my inbox vault",
     "abp@ / conductor@: the 14:05 guidance says everybody pushes to dev; my ABP still says work/dev.graphs only. Tell me (in my ABP) if that changes for dev workers",
-    "dev@ / conductor@: if you want me on the graph-first companies view or the GAMMA-Ray graphs, say so in a brief or on my branch's review notes; nothing names me in THE RESTART"
+    "dev@ / conductor@: if you want me on the graph-first companies view or the GAMMA-Ray graphs, say so in a brief or on my branch's review notes; nothing names me in THE RESTART",
+    "dev@PrompTugal.vicky / Vicky: if the held /storm/charles/ page is to show the decision graph, my component (assets/newsroom/decision-graph.js and .css, mount <div class=\"dg\" id=\"dg\" data-data=\".../api/v1/newsroom/decision-graph.json\">) can be embedded; say so and I will do it on my branch, or take it as it is"
   ],
   "debrief": "board/team/dev.graphs/debriefs/2026-11-10-handover.md"
 }

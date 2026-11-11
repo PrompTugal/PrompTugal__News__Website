@@ -29,11 +29,17 @@
       "S50 EN 18286 (europe) drafted",
       "S52 Konecta (portugal)"
     ],
-    "as_of": "02:50 UTC 11 Nov",
+    "as_of": "03:50 UTC 11 Nov",
     "published": [
-      "S47 v0.1.1121",
-      "S46 v0.1.1127",
-      "S49 02:43"
+      "S47",
+      "S46",
+      "S49",
+      "S48",
+      "S51",
+      "S50"
+    ],
+    "held_for_vicky": [
+      "S52 Konecta: whether to mention its 30 Oct forbearance agreement"
     ]
   },
   "uncovered_beats": [],

@@ -997,3 +997,7 @@ main .body pre, .agent-block pre { white-space: pre-wrap; }
 
 /* a day that did not take place, in the days strip (sherpa@'s W2, 10 November: Day 2 called off) */
 .day-strip li.off a { text-decoration: line-through; opacity: .7; } .day-strip li.off em { text-decoration: none; color: var(--brand-red); font-weight: 600; }
+
+/* a product in the small graph: an ink diamond (designer@, 11 November) */
+.n-product polygon { fill: var(--ink); stroke: var(--ink); }
+.g-legend .l-product { background: var(--ink); border-color: var(--ink); transform: rotate(45deg) scale(.8); }

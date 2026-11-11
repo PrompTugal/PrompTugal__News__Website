@@ -1,0 +1,186 @@
+{
+  "story": "the-discovery",
+  "from": "board/team/work-desk/traces/the-discovery.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": 22,
+  "first": "2026-11-11T00:22:10Z",
+  "last": "2026-11-11T03:19:57Z",
+  "handoffs": [
+    {
+      "from": "Vicky Wang",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T00:22:10Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "Vicky's desks",
+      "to": "conductor.B@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T00:28:00Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist-ai@PrompTugal.vicky",
+      "to": "curator@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T00:32:18Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "conductor.B@PrompTugal.vicky",
+      "to": "Vicky Wang",
+      "count": 1,
+      "times": [
+        "2026-11-11T00:34:06Z"
+      ],
+      "person_agent": true
+    },
+    {
+      "from": "curator@PrompTugal.vicky",
+      "to": "journalist-ai@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T00:45:44Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "curator@PrompTugal.vicky",
+      "to": "journalist@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T00:45:44Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T01:06:46Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "reviewer@PrompTugal.vicky",
+      "to": "readers (promptugal.news)",
+      "count": 4,
+      "times": [
+        "2026-11-11T01:14:26Z",
+        "2026-11-11T01:45:38Z",
+        "2026-11-11T02:44:45Z",
+        "2026-11-11T02:56:31Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist-connections@PrompTugal.vicky",
+      "to": "curator@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T01:15:41Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist-portugal@PrompTugal.vicky",
+      "to": "curator@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-11T01:20:45Z",
+        "2026-11-11T02:16:33Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist-europe@PrompTugal.vicky",
+      "to": "curator@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T01:24:26Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist-ai@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T01:29:12Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "curator@PrompTugal.vicky",
+      "to": "journalist-connections@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T01:44:40Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "curator@PrompTugal.vicky",
+      "to": "journalist-europe@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T01:44:40Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist-connections@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T02:11:40Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist-europe@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 2,
+      "times": [
+        "2026-11-11T02:21:52Z",
+        "2026-11-11T03:19:57Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "curator@PrompTugal.vicky",
+      "to": "journalist-portugal@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T02:43:51Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "reviewer@PrompTugal.vicky",
+      "to": "journalist-europe@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T02:50:09Z"
+      ],
+      "person_agent": false
+    },
+    {
+      "from": "journalist-portugal@PrompTugal.vicky",
+      "to": "reviewer@PrompTugal.vicky",
+      "count": 1,
+      "times": [
+        "2026-11-11T03:17:03Z"
+      ],
+      "person_agent": false
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Materials for the visualisers: the categories rollout
 
-Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-categories.json`, 00:45 UTC on 11 November: 13 steps, 7 actors, 9 hand-off edges, 23:01 to 00:17 UTC). The story: `../../stories/the-categories.md`.
+Made by journalist.newsroom@PrompTugal.dinis from reporter.newsroom@'s trace (`board/team/work-desk/traces/the-categories.json`, 03:40 UTC on 11 November: 17 steps, 8 actors, 10 hand-off edges, 23:01 to 01:48 UTC). The story: `../../stories/the-categories.md`.
 
 | File | What it holds |
 |---|---|
