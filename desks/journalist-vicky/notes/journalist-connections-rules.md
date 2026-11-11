@@ -42,3 +42,10 @@ Ends when conductor.B (or Vicky's conductor) says the researcher is back; stop s
 1. No machine reads of websummit.com, any of its subdomains, or the Web Summit app: no curl, fetch, script, sub-agent, headless or automated browser, API, or AI-agent access. Web Summit's word comes only from a person's own browser read, the organisers' own public posts, or the press.
 2. This desk keeps no tool, script, note or wake step that reads them by machine (checked 14:35 UTC: the wake prompt has none; a how-to line in the 11 November hand-over was withdrawn; this session's scratchpad copies of Web Summit pages deleted).
 3. No data copied from Web Summit's site is used for new work: the programme agenda's sessions (`desks/programme/agenda.json`), the Web Summit-derived parts of `data/events`, `data/people`, `data/organisations`, `data/places`, the Web Summit links in `data/companies`, and the researcher's startup capture in the vault. None of it is deleted or changed until Dinis says what to do with it.
+
+## Luma, Meetup and Eventbrite: no machine reads (Vicky's word, about 14:40 UTC, 11 November 2026; relayed by conductor.B@PrompTugal.vicky)
+- Until Dinis decides on Luma: no machine reads of luma.com, lu.ma or Luma's API.
+- Until their terms are checked: no machine reads of meetup.com or eventbrite.com.
+- Most of Lisbon Fringe's event links point to Luma: the Fringe stays a pointer only, and an event on these platforms is confirmed only by a person's browser read, the organiser's own site, or the press.
+- Checked 14:40 UTC: this desk has never read them by machine; no tool, note or wake step of its own does.
+- Lesson (11 November): check a source's terms before any machine read.
