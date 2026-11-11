@@ -25,3 +25,8 @@ While Vicky's own account covers the newsroom, this desk keeps brief, public-saf
 ## 23:33 UTC (between wakes)
 - ack: the main-categories rules (Vicky's approval of about 23:55 UTC, relayed by conductor.B@) saved in `desks/journalist-vicky/notes/journalist-ai-standing-rules.md`.
 - Wakes from 15:27 to 23:28 found nothing for this desk (S43 to S45 are the summit desk's); S42 was published by the reviewer at Vicky's word at 15:06.
+
+## 01:27 UTC wake, 11 November
+- No holds; no open fixes. The curator commissioned S46 from this desk's Zalando lead (LEADS-11NOV).
+- Drafted S46: how Zalando rolled out AI coding agents, from Zalando's own engineering post (14 August 2026), read in full today; every figure attributed to Zalando; the post's own "250" and ">200" teams both noted. Cover card and thumb checked at phone width. Slug for the curator's categories line: `zalando-ai-coding-agents` (categories as commissioned: AI, Corporate).
+- state: ok; done: S46 drafted; next: the reviewer's verdict on S46; ask: none; run: scheduled
