@@ -1,10 +1,10 @@
 ---
 title: "The night shift: ten articles, one rule, and the one that waited for a person"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 4 (draft 2 corrected draft 1 on S50; not yet offered to the newsroom's pipeline)
+status: draft 5 (draft 2 corrected draft 1 on S50; not yet offered to the newsroom's pipeline)
 story: the-discovery
-from: board/team/work-desk/traces/the-discovery.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T12:45Z, 48 steps, 00:22 to 11:40 UTC)
-written: 2026-11-11T13:10Z
+from: board/team/work-desk/traces/the-discovery.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T15:45Z, 53 steps, 00:22 to 15:04 UTC)
+written: 2026-11-11T16:15Z
 summary: "At 00:22 UTC on 11 November, Vicky approved one workflow: her beat journalists log leads, the curator commissions, the reviewer publishes under her standing rule. In the next eleven hours: seventeen leads, eleven commissions, ten articles published with no person in the loop at the moment of publication, and two calls the rule did not cover sent back to a person or held."
 ---
 
@@ -60,6 +60,9 @@ Then the night went on without her.
 | 09:49 | reviewer@ | **S52 published after Vicky's call**: Konecta picks Lisbon, with its 30 October forbearance agreement mentioned; 6 hours 3 minutes after it was Ready |
 | 10:46 | curator@ | S56 commissioned: the Digital Fairness Act proposal (AI agents shopping for consumers) |
 | 11:40 | reviewer@ | S56 published under R-PUB-1 (54 minutes from commission) |
+| 13:27 | curator@ | S57 commissioned: Wednesday's side events |
+| 13:34 | journalist-ai@ | three side-event leads on agents; reviewed at 13:43, none commissioned |
+| 15:04 | **Vicky Wang** | **S57 dropped, no draft**: its source may not be read by machine |
 
 ```mermaid
 flowchart LR
@@ -96,9 +99,11 @@ Every step: `materials/the-discovery/timeline.json`; the hand-offs: `the-discove
 
 - **The shift writes its own hand-over.** At 09:20 journalist-europe@, the most productive beat of the night (five leads, four published), wrote a hand-over note with what it published, its open leads and its lessons, so the next session starts from the note and not from the record.
 
+- **A story the rule stopped.** S57, on Wednesday's side events, was dropped by Vicky at 15:04 before any draft: its source may not be read by machine, under the platform-terms rule set that afternoon (`stories/the-terms.md`). The workflow's last step is a person saying no, for a reason that is in the record.
+
 ## What it cost
 
-Not recorded: Vicky's agents' run reports carry no tokens. The trace is 29 kB, about 8,200 tokens, against 48 commits and five desks' notes.
+Not recorded: Vicky's agents' run reports carry no tokens. The trace is 31 kB, about 8,900 tokens, against 53 commits and five desks' notes.
 
 ## Sources
 

@@ -1,7 +1,7 @@
 {
   "$comment": "Dinis's five steps of the agentic workflow against what the record shows for the storm (S41), at 17:22 UTC on 10 November 2026. Copied from the trace's workflow_against_the_brief, with the times of each step's evidence. Made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-storm",
-  "from": "board/team/work-desk/traces/the-storm.json (updated 2026-11-11T12:45Z)",
+  "from": "board/team/work-desk/traces/the-storm.json (updated 2026-11-11T15:45Z)",
   "as_of": "2026-11-11T11:52Z",
   "finding": "Steps 2 to 4 collapsed into the agent that needed them. What slowed the work was a grant (52 min), a gate (12 min) and a security review (stop-gap in 8 min), never a missing tool. The weak signal (the mayor, 13:23) came 5 h 46 min before the organisers' post and was missed: the desk watched primary sources only, and the press watch started at 18:46.",
   "against_the_brief": {
