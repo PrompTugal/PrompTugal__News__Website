@@ -4,7 +4,7 @@ date: 2026-11-11
 story: S46
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "In a post on its engineering blog, Zalando describes two and a half years of agentic engineering: one proxy for every model, no single mandated tool, no secrets in configuration files, and a bot that approves the low-risk third of its pull requests."
-status: ready
+status: published
 beat: AI and robotics
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: ai and robotics, ai agents, agents at work, coding agents, enterprise adoption, zalando, code review, mcp
