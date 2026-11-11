@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1141",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: S50 revised after Fix first: the three dates are on the cited page (quoted for the reviewer); wording point fixed",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "a64d10d7f"
+  },
+  {
     "version": "v0.1.1140",
     "date": "2026-11-11",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
