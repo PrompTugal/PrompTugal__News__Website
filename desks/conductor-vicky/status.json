@@ -5,7 +5,7 @@
   "updated": "2026-11-10T22:55Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "00:45 11 Nov: /storm/charles/ verified live by conductor (v0.1.1114; title, rain row red 09:00-18:00, no 19:38 time, homepage link, no overflow at 390 px)",
+  "done": "00:48 wake 11 Nov: storm page verified live (v0.1.1114); discovery leads produced S46 and S47; no hold, decisions unchanged",
   "next": [
     "Categories: acks from checker, programme, Dinis's and other desks; card labels on the articles page if Vicky agrees",
     "TOMORROW MORNING (first :48 wake from 07:48 UTC, 11 Nov): send dev@PrompTugal.vicky Vicky's request (10 Nov ~22:40 UTC): diagnose why an old saved copy of the home page (about 14:40) showed before the live one in her browser tonight; diagnosis and a proposed fix only; the offline/service-worker files are dev@PrompTugal.dinis's under security@'s rule, so any fix goes to that desk; report to Vicky",
@@ -15,7 +15,7 @@
     "22:48 wake"
   ],
   "asks": [
-    "Vicky: confirm the articles-page card labels in the dev window"
+    "Vicky: confirm card labels in the dev window; confirm categories rules in the checker window"
   ],
-  "debrief": "desks/conductor-vicky/debriefs/2026-11-10-handover.md"
+  "debrief": "desks/conductor-vicky/debriefs/2026-11-11-handover.md"
 }
