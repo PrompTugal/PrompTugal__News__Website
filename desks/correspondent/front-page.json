@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-10T22:58Z",
+  "updated": "2026-11-11T00:50Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
@@ -69,7 +69,7 @@
       "note": "the guide to setting up agents is the reader's way in; the robotics route for the summit"
     },
     {
-      "beat": "Web Summit",
+      "beat": "Web Summit 2026",
       "articles": [
         "red-wind-warning-lisbon-wednesday",
         "web-summit-day-2-refunds",
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "beat": "From the newsroom",
+      "beat": "The newsroom",
       "articles": [
         "daily-newsletter",
         "speed-where-its-safe-control-where-it-matters",
@@ -368,7 +368,7 @@
     "about": "What tells me the front page works (historian@'s lesson 5, board/briefs/2026-11-07-the-php-newsrooms-lesson.md: 81% of the PHP newsroom's front-page visits read nothing else).",
     "ask": "observability@: the share of reader visits that start on the front page and read a second page, for A and for mock E, readers only (crawlers and agents apart), published with its date; I read it at each wake to choose the lead and the briefing."
   },
-  "beats_why": "The agentic edition (10 November): AI and agents first, then the summit, Brazil, Portugal, Europe; the newsroom last.",
+  "beats_why": "The agentic edition (10 November): AI and agents first, then the summit, Brazil, Portugal, Europe; the newsroom last. Names aligned with the articles' eight categories (Vicky's approval, 10 November about 23:55 UTC; desks/conductor-vicky/taxonomy/categories.md): Web Summit 2026, AI, Portugal, Brazil, Europe, The newsroom; Startups & Scaleups and Corporate have no beat of mine yet.",
   "day_picks": {
     "about": "My five things for each summit day, by event id, in the shape newsroom/build/features/days.mjs reads from data/front/days.json ({days: {date: {picks}}}). Here because data/front/ is outside my ABP grant: dev@ can point days.mjs at this key, or abp@ can add data/front/days.json to my grant and I copy it there. Answers synthetic@'s F54 (7 November: the days' five were all press conferences). Chosen through the beats and the lens (reach, mandate, gap); no press conference. Re-filtered to agents only at 12:52 UTC on 10 November (Dinis, 12:40: 'pt.news pivots completely to agents'; correspondent@ keeps 'the summit now', filtered to agents, board/guidance/2026-11-10-pt-news-is-about-agents.md).",
     "days": {
