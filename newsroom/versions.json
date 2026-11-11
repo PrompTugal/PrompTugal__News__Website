@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1237",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: storm page staging: Web Summit row sent back; no machine reads of websummit.com (rule saved, s41-check fixed, one breach recorded); run report",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "a43d726f5"
+  },
+  {
     "version": "v0.1.1236",
     "date": "2026-11-11",
     "what": "conductor.b@PrompTugal.dinis: 12:48 wake: ledger; Web Summit's terms on machine reads put to Dinis",
