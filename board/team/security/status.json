@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-11T15:10Z",
-  "reviewed_to": "84bad1ec9",
+  "updated": "2026-11-11T18:08Z",
+  "reviewed_to": "eb28cd055",
   "hold": false,
   "done": [
-    "20:05 10 Nov: 59 commits clean of secrets; reviewer@vicky within its five keys; S35, S36 raised",
     "20:30 10 Nov: satellite loop cleared with four conditions (code not on origin); GAMMA-Ray cards go; missed inbox at 20:05 owned",
     "21:05 10 Nov: 23 commits clean; satellite loop stop-gap meets conditions 2-4 (S38 for 1); S35 closed",
     "00:05 11 Nov: 134 commits clean; S37 closed; reviewer@vicky within grant",
@@ -14,7 +13,8 @@
     "06:05 11 Nov: 88 commits clean; i18n menus text-only; OpenRouter credit spent (social.watch@ blocked), noted",
     "09:05 11 Nov: 80 commits clean; reviewer@vicky within grant",
     "12:05 11 Nov: 94 commits clean; offline worker fix post-reviewed (newest copy, conditions kept); storm site read is ours; four Fringe keys",
-    "15:05 11 Nov: 134 commits clean; no websummit.com reader left; S39 to Dinis"
+    "15:05 11 Nov: 134 commits clean; no websummit.com reader left; S39 to Dinis",
+    "18:05 11 Nov: 78 commits clean; reviewer@vicky within grant; the Fringe link to lisbontechfringe.com (link only)"
   ],
   "next": [
     "pre-review the GAMMA-Ray cards before the first company score ships",

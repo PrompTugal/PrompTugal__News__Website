@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T15:45Z",
+  "updated": "2026-11-11T18:45Z",
   "covers": {
     "from": "2026-11-10T13:23:00Z",
-    "to": "2026-11-11T14:55:54Z",
-    "last_commit": "b17d231f0"
+    "to": "2026-11-11T18:15:47Z",
+    "last_commit": "2da26a1ea"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -2949,6 +2949,150 @@
         "commit:b17d231f0"
       ],
       "hand_off": "agent->agent"
+    },
+    {
+      "n": 136,
+      "time_utc": "2026-11-11T15:37:04Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "15:36 check",
+      "output": "red rain over; ANEPC's 12:00 note; Trafaria ferry restricted",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:1deb30b6c"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 137,
+      "time_utc": "2026-11-11T15:42:36Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "checked 15:40",
+      "output": "S41 and its lead: IPMA's red rain ended at 15:00; rain yellow and wind orange to 18:00",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:b019b80a8",
+        "commit:0ed842ca5"
+      ],
+      "hand_off": "person->agent (R-PUB-1)"
+    },
+    {
+      "n": 138,
+      "time_utc": "2026-11-11T16:41:59Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "dev@'s staging of IPMA's 16:15 data (16:39)",
+      "output": "S41 lead: no wind warning for Lisbon now",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:2292357a1",
+        "commit:6f78d1586"
+      ],
+      "hand_off": "person->agent (R-PUB-1)"
+    },
+    {
+      "n": 139,
+      "time_utc": "2026-11-11T16:45:56Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "its 16:36 read, found cached",
+      "output": "correction: at 16:45 Lisbon wind green, rain yellow to 18:00, sea orange to 21:00",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:fec9e41eb"
+      ],
+      "hand_off": "agent->agent",
+      "note": "A second freshness slip (after step 113): this time a cached read; the reviewer's 16:41 line agreed with the corrected read."
+    },
+    {
+      "n": 140,
+      "time_utc": "2026-11-11T17:39:45Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the minister's 16:49 statement, checked 17:39",
+      "output": "S41 lead: the alert ends at 23:59, not planned for Thursday",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:c1160bc20",
+        "commit:771bd633e (storm page staged)"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "the end node: the measures end"
+    },
+    {
+      "n": 141,
+      "time_utc": "2026-11-11T17:52:23Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "sweep 18",
+      "output": "Lisbon's 275 incidents, no casualties; the alert ends at 23:59",
+      "hand_off_to": [
+        {
+          "name": "conductor@web-summit.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:59f90f4d9",
+        "commit:32e67731b (16:53: Thursday's sessions moved, a press conference at 11:00)"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 142,
+      "time_utc": "2026-11-11T18:15:47Z",
+      "actor": {
+        "name": "conductor@web-summit.dinis",
+        "kind": "agent"
+      },
+      "input": "the watch",
+      "output": "the storm winds down",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:2da26a1ea"
+      ]
     }
   ],
   "hand_offs_person_agent": [
@@ -3007,7 +3151,10 @@
     127,
     131,
     132,
-    133
+    133,
+    137,
+    138,
+    140
   ],
   "workflow_against_the_brief": {
     "1_raw_source": {
@@ -3132,6 +3279,16 @@
         "who": "IPMA",
         "decision": "Lisbon's warnings shortened: rain red to 15:00 then yellow; wind orange to 18:00, gusts 90/110",
         "status": "issued (read 14:08)"
+      },
+      {
+        "who": "Government (Internal Administration)",
+        "decision": "the alert situation ends at 23:59 Wednesday; no extension to Thursday",
+        "status": "stated 16:49 (read 17:39)"
+      },
+      {
+        "who": "IPMA",
+        "decision": "red rain ended 15:00; Lisbon wind warning lifted (data 16:15)",
+        "status": "issued"
       }
     ],
     "lead_times_seen": [
@@ -3319,6 +3476,12 @@
         115
       ],
       "lesson": "a connector is only as fresh as its source: IPMA's open-data JSON lagged the warnings page and CAP feed by hours on the downgrade, so the weather desk's hourly watch missed it at 07:36. social.watch@ switched to the CAP feed at 07:55; the weather desk had not by 09:12."
+    },
+    {
+      "steps": [
+        139
+      ],
+      "lesson": "a cached read is a second kind of stale source: the weather desk caught its own at 16:45 and corrected it in a commit."
     }
   ]
 }

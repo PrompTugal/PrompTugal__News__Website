@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-11T12:52Z",
+  "updated": "2026-11-11T17:28Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
@@ -9,14 +9,14 @@
     "standfirst": "Web Summit called off Day 2 on the government's advice because of Storm Charles; on Wednesday it said it is officially back on Thursday for its final day.",
     "developments": [
       {
-        "text": "IPMA, Lisbon: red rain ended at 15:00; rain yellow and wind orange until 18:00.",
+        "text": "IPMA, Lisbon: no wind warning now; rain yellow until 18:00; sea orange until 21:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-11T15:40Z"
+        "checked": "2026-11-11T17:39Z"
       },
       {
-        "text": "Government alert situation all Wednesday: schools closed, outdoor events suspended.",
-        "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1",
-        "checked": "2026-11-11T15:40Z"
+        "text": "Government alert until 23:59 Wednesday; not planned for Thursday, the minister says.",
+        "source": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a-proatividade-da-nos-tranquilidade-1",
+        "checked": "2026-11-11T17:39Z"
       }
     ],
     "programme": {
@@ -25,7 +25,7 @@
       "source": "https://websummit.com/",
       "checked": "2026-11-11T12:36Z"
     },
-    "last_checked": "2026-11-11T15:40Z",
+    "last_checked": "2026-11-11T17:39Z",
     "live": null
   },
   "top": [
@@ -511,10 +511,9 @@
         "why": "the live source for warnings, decisions and the organisers' statements while S41 leads"
       },
       {
-        "name": "Lisbon Fringe",
-        "url": "https://fringe.promptugal.news",
-        "when": "once its first version is live",
-        "why": "the alternative and community events around the summit"
+        "name": "Lisbon Tech Fringe",
+        "url": "https://lisbontechfringe.com/?via=promptugal-news",
+        "why": "the alternative and community events around the summit; moved from fringe.promptugal.news (404 at 17:24 UTC) to lisbontechfringe.com (200, title 'Lisbon Tech Fringe', checked 17:27 UTC 11 November)"
       }
     ]
   }

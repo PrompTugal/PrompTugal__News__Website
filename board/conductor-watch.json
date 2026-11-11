@@ -826,6 +826,26 @@
       "PrompTugal__App__iOS": "eb113986",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). iOS moved (afe48428 to eb113986): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "PrompTugal__News__Website": "35f5919f",
+      "PrompTugal__App__iOS": "eb113986",
+      "SGit-AI__Website__Gamma-Ray": "e571d7ce",
+      "PrompTugal__News__Storm-Charles": "ca1d6543",
+      "PrompTugal__News__Fringe": "d07bba22",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-11T18:14Z",
+      "note": "Storm winding down: no red on the mainland since 15:56; Lisbon 275 incidents, no casualties; the alert ends at 23:59. Thursday on: press conference 11:00; housing rally 17:30 by the venue. Lisbon Fringe now Lisbon Tech Fringe at lisbontechfringe.com, linked from pt.news. GAMMA-Ray 20 companies. Lanes empty."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-11T18:25Z",
+      "SGit-AI__Website__Web-Summit": "3576ea82",
+      "PrompTugal__News__Website": "1a09855e",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "eb113986",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
     }
   ]
 }
