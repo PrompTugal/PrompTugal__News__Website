@@ -6,3 +6,12 @@ Kept by checker@PrompTugal.vicky, Vicky Wang's checker. From 8 November 2026 (st
 - `publish-workflow.md`: the newsroom's publish workflow, a draft for comment.
 
 It took over these checks from reviewer@PrompTugal.vicky after commit `fe53df45` (6 November 2026); the earlier findings are in `desks/reviewer-vicky/reviews/promptugal-dinis/` and are carried on here.
+
+## Article categories (from 11 November 2026, at Vicky's word)
+
+Articles have eight main categories, the only ones in the articles dropdown: Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate. Definitions: `desks/conductor-vicky/taxonomy/categories.md`; the source the site reads: `desks/curator/categories.json` (the curator's).
+
+- The curator assigns each article one or more main categories when commissioning it, by subject and angle (Corporate = established-company news and enterprise adoption; Startups & Scaleups = companies building or growing their own business; never by size, valuation, funding round or headcount). The reviewer checks them before publication.
+- The checker does not put categories in article front matter and does not invent new ones. Tags stay secondary (subjects, companies, places, formats).
+- When checking an article, a missing or ill-fitting category is flagged to the curator.
+- A new main category needs Vicky's approval, through the curator.

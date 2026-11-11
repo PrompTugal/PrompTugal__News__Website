@@ -5,11 +5,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T06:40Z",
+  "updated": "2026-11-11T09:40Z",
   "covers": {
     "from": "2026-11-11T00:22:10Z",
-    "to": "2026-11-11T06:23:31Z",
-    "last_commit": "7c12d04a1"
+    "to": "2026-11-11T09:20:19Z",
+    "last_commit": "bbb93827c"
   },
   "method": "commit subjects and trailers on dev; times are commit times (UTC).",
   "steps": [
@@ -772,6 +772,140 @@
       ],
       "hand_off": "agent->agent",
       "workflow_step": "lead"
+    },
+    {
+      "n": 37,
+      "time_utc": "2026-11-11T06:47:48Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S54 with its category line (slug from the curator, 06:42)",
+      "output": "published under R-PUB-1",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:1a3b1c88b",
+        "commit:32c34d623"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 64 min from commission"
+    },
+    {
+      "n": 38,
+      "time_utc": "2026-11-11T07:20:30Z",
+      "actor": {
+        "name": "journalist-europe@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the curator's hold on TikTok",
+      "output": "the full press release found; TikTok's own response not found",
+      "hand_off_to": [
+        {
+          "name": "curator@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:bf03cc176"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 39,
+      "time_utc": "2026-11-11T07:43:33Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the press release",
+      "output": "S55 commissioned: the Commission's preliminary TikTok finding",
+      "hand_off_to": [
+        {
+          "name": "journalist-europe@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:d11ccec28"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "commission"
+    },
+    {
+      "n": 40,
+      "time_utc": "2026-11-11T08:21:25Z",
+      "actor": {
+        "name": "journalist-europe@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S55",
+      "output": "drafted",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:df2fec5fc"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 41,
+      "time_utc": "2026-11-11T08:42:15Z",
+      "actor": {
+        "name": "curator@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "a weather angle",
+      "output": "not commissioned: covered by S41",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:f4bfc0972"
+      ],
+      "note": "The curator keeps the discovery workflow off the storm desk's story."
+    },
+    {
+      "n": 42,
+      "time_utc": "2026-11-11T08:49:53Z",
+      "actor": {
+        "name": "reviewer@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "S55 with its category line",
+      "output": "published under R-PUB-1",
+      "hand_off_to": [
+        {
+          "name": "readers (promptugal.news)",
+          "kind": "public"
+        }
+      ],
+      "evidence": [
+        "commit:df5c4dd7f"
+      ],
+      "hand_off": "person->agent (R-PUB-1)",
+      "workflow_step": "published: 66 min from commission"
+    },
+    {
+      "n": 43,
+      "time_utc": "2026-11-11T09:20:19Z",
+      "actor": {
+        "name": "journalist-europe@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "its night",
+      "output": "hand-over note: S49, S50, S53, S55 published; leads; lessons",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:bbb93827c"
+      ],
+      "note": "The journalists close the night shift with hand-over notes (connections 07:12, AI 08:28, Europe 09:20)."
     }
   ],
   "hand_offs_person_agent": [
@@ -783,20 +917,20 @@
     20,
     23,
     24,
-    34
+    34,
+    37,
+    42
   ],
   "funnel": {
-    "leads": 15,
-    "commissions": 9,
-    "published": 6,
+    "leads": 16,
+    "commissions": 10,
+    "published": 8,
     "held": [
       "S52 (Vicky's editorial call)",
       "Invelon (date conflict)",
       "others held by the curator"
     ],
-    "in_review": [
-      "S54 (drafted)"
-    ],
+    "in_review": [],
     "by_beat": {
       "AI": 2,
       "connections": 3,
@@ -831,6 +965,14 @@
     {
       "what": "S50 commission to published (with a wrong fix request)",
       "minutes": 117
+    },
+    {
+      "what": "S54 commission to published",
+      "minutes": 64
+    },
+    {
+      "what": "S55 commission to published",
+      "minutes": 66
     }
   ],
   "pattern": "one person approves once (step 1) and a standing rule (R-PUB-1) stands in for her at every publication: four articles reached readers between 01:14 and 02:56 with no person in the loop at the time. The reviewer's 'Fix first' and the curator's holds are the checks that remain.",

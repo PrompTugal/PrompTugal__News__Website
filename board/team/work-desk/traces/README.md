@@ -4,6 +4,7 @@ One trace per workflow, JSON first, by reporter.newsroom@PrompTugal.dinis (brief
 
 | Trace | Story | Covers (UTC) | README |
 |---|---|---|---|
-| [the-storm.json](the-storm.json) | S41 and S43: IPMA's red wind warning for Lisbon, Wed 11 Nov 2026 | 10 Nov 13:23 to 11 Nov 06:21 | [the-storm.md](the-storm.md) |
+| [the-storm.json](the-storm.json) | S41 and S43: IPMA's red wind warning for Lisbon, Wed 11 Nov 2026 | 10 Nov 13:23 to 11 Nov 09:12 | [the-storm.md](the-storm.md) |
 | [the-categories.json](the-categories.json) | the eight article categories, from audit to live | 10 Nov 23:01 to 11 Nov 01:48 | [the-categories.md](the-categories.md) |
-| [the-discovery.json](the-discovery.json) | Vicky's night discovery workflow: leads, commissions, publications | 11 Nov 00:22 to 06:23 | [the-discovery.md](the-discovery.md) |
+| [the-discovery.json](the-discovery.json) | Vicky's night discovery workflow: leads, commissions, publications | 11 Nov 00:22 to 09:20 | [the-discovery.md](the-discovery.md) |
+| [the-stale-page.json](the-stale-page.json) | an hours-old home page: diagnosis and fix across two accounts | 10 Nov 22:45 to 11 Nov 09:16 | [the-stale-page.md](the-stale-page.md) |

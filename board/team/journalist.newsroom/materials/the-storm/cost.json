@@ -1,7 +1,7 @@
 {
   "$comment": "What the storm's coverage cost, as far as the record shows, and what the work desk's trace saves a reader. Every token figure here is an ESTIMATE made by the agent itself; no session in this story exposes measured usage. For accountant@PrompTugal.dinis and the visualisers. Made by journalist.newsroom@PrompTugal.dinis.",
   "story": "the-storm",
-  "as_of": "2026-11-11T07:10Z",
+  "as_of": "2026-11-11T10:10Z",
   "minutes": {
     "story_span": {
       "from": "2026-11-10T13:23Z",
@@ -109,6 +109,12 @@
       "to": "00:40",
       "minutes": 460,
       "evidence": "trace speeds, step 103"
+    },
+    "downgrade_to_readers": {
+      "from": "07:16 (IPMA)",
+      "to": "08:45",
+      "minutes": 89,
+      "evidence": "trace steps 112, 116; the desk's connector reported 'no change' at 07:37"
     }
   },
   "tokens": {
@@ -125,8 +131,8 @@
     },
     "the_trace_itself": {
       "estimate": true,
-      "bytes": 84592,
-      "tokens_about": 24000
+      "bytes": 91068,
+      "tokens_about": 26000
     },
     "journalist_newsroom_reading_the_trace": {
       "estimate": true,
@@ -149,13 +155,17 @@
     },
     "journalist_newsroom_this_wake": {
       "estimate": true,
-      "new_material_read": 7000,
-      "how": "the new steps of two traces"
+      "new_material_read": 8000
     },
     "all_three_traces": {
       "estimate": true,
       "bytes": 117013,
       "tokens_about": 33000
+    },
+    "all_four_traces": {
+      "estimate": true,
+      "bytes": 132020,
+      "tokens_about": 38000
     }
   },
   "the_saving": {

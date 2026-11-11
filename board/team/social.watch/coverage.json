@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T08:51Z",
+  "updated": "2026-11-11T09:56Z",
   "sweeps": [
     {
       "n": 1,
@@ -98,6 +98,14 @@
         "my own check: MeteoAlarm CAP, Web Summit's blog, Mastodon, CNN Portugal live, the team's commits"
       ],
       "items": 0
+    },
+    {
+      "n": 10,
+      "at": "2026-11-11T09:55Z",
+      "families": [
+        "my own check: MeteoAlarm CAP, Web Summit's blog, Mastodon, CNN Portugal live, the team's commits"
+      ],
+      "items": 2
     }
   ],
   "items": [
@@ -2956,6 +2964,52 @@
       "family": "news and blogs",
       "found": "2026-11-11T06:54Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 7)"
+    },
+    {
+      "url": "https://mastodon.social/@deadline/117597025710958878",
+      "platform": "Mastodon",
+      "author": "Deadline (deadline, mastodon.social)",
+      "kind": "post",
+      "title": "Web Summit Cancels Day Two As Storm Charles Hits Lisbon",
+      "quote": null,
+      "published": "2026-11-11T09:10:09Z",
+      "topics": [
+        "storm",
+        "speakers"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "SAG-AFTRA, Duncan Crabtree-Ireland (hashtags on the post)"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Deadline's own public post, opened through Mastodon's API; hashtags name SAG-AFTRA and Duncan Crabtree-Ireland, so Hollywood's trade press covers the cancellation.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-11T09:56Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 10)"
+    },
+    {
+      "url": "https://deadline.com/2026/11/web-summit-cancels-day-two-as-storm-charles-hits-lisbon-1237220064/",
+      "platform": "Deadline",
+      "author": "Deadline",
+      "kind": "article",
+      "title": "Web Summit Cancels Day Two As Storm Charles Hits Lisbon",
+      "quote": null,
+      "published": "2026-11-11",
+      "topics": [
+        "storm",
+        "speakers"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": false,
+      "note": "Not opened: the site sends automated readers to a pay-per-crawl gate (TollBit); we do not pass it. Title from Deadline's own post.",
+      "family": "news and blogs",
+      "found": "2026-11-11T09:56Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 10)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC)."

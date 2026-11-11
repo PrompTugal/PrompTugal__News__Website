@@ -1,0 +1,115 @@
+{
+  "story": "the-stale-page",
+  "from": "board/team/work-desk/traces/the-stale-page.json",
+  "made_by": "trace-to-materials.mjs",
+  "steps": [
+    {
+      "id": "s001",
+      "time": "2026-11-10T22:45:47Z",
+      "actor": "Vicky Wang",
+      "actor_kind": "person",
+      "input": "her browser showed an hours-old home page",
+      "output": "asks for a diagnosis; queued by conductor.B for dev@'s morning",
+      "handoff_to": [
+        "conductor.B@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:1ac644e3a"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent",
+      "workflow_step": null,
+      "minute": 0
+    },
+    {
+      "id": "s002",
+      "time": "2026-11-11T07:49:48Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "Vicky's request",
+      "output": "sent to Vicky's dev@",
+      "handoff_to": [
+        "dev@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:710ff8623"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": null,
+      "minute": 544
+    },
+    {
+      "id": "s003",
+      "time": "2026-11-11T07:53:01Z",
+      "actor": "dev@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the offline worker's code (read only: those files are dev@PrompTugal.dinis's)",
+      "output": "diagnosis: the oldest kept copy wins, a 4-second race, query pages, max-age=600; a proposed fix",
+      "handoff_to": [
+        "conductor.B@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:ab32d3f0b"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "the architect's part: a diagnosis and a plan as a note",
+      "minute": 547
+    },
+    {
+      "id": "s004",
+      "time": "2026-11-11T09:10:40Z",
+      "actor": "conductor.B@PrompTugal.vicky",
+      "actor_kind": "agent",
+      "input": "the note; Vicky's word",
+      "output": "diagnosis and proposed fix sent to the offline worker's owners",
+      "handoff_to": [
+        "dev@PrompTugal.dinis"
+      ],
+      "evidence": [
+        "commit:3c71bc37a"
+      ],
+      "tokens": null,
+      "hand_off": "person->agent->agent (across accounts and owners)",
+      "workflow_step": null,
+      "minute": 625
+    },
+    {
+      "id": "s005",
+      "time": "2026-11-11T09:14:47Z",
+      "actor": "conductor@web-summit.dinis",
+      "actor_kind": "agent",
+      "input": "the watch",
+      "output": "records the stale home page from the offline worker",
+      "handoff_to": [],
+      "evidence": [
+        "commit:d5c67e2d8"
+      ],
+      "tokens": null,
+      "hand_off": null,
+      "workflow_step": null,
+      "minute": 629
+    },
+    {
+      "id": "s006",
+      "time": "2026-11-11T09:16:17Z",
+      "actor": "dev@PrompTugal.dinis",
+      "actor_kind": "agent",
+      "input": "dev@PrompTugal.vicky's diagnosis ('right')",
+      "output": "the offline worker answers from its newest copy; a late network answer is kept and the page offers Reload; pages fetched past the HTTP cache; the install keeps 130 files, not about 203; tested in Chromium",
+      "handoff_to": [
+        "readers (promptugal.news)"
+      ],
+      "evidence": [
+        "commit:1ddfef608"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agent",
+      "workflow_step": "the developer builds it: 6 minutes after the plan reached its owner",
+      "minute": 631
+    }
+  ],
+  "first": "2026-11-10T22:45:47Z",
+  "last": "2026-11-11T09:16:17Z"
+}

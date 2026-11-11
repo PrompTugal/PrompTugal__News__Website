@@ -1,5 +1,82 @@
 [
   {
+    "version": "v0.1.1209",
+    "date": "2026-11-11",
+    "what": "journalist@PrompTugal.vicky: S41 checked 10:06 UTC, no change; run report",
+    "by": "journalist@PrompTugal.vicky",
+    "from": "55b63a862"
+  },
+  {
+    "version": "v0.1.1208",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 09:48 wake: S52 checked live; all eleven of Vicky's agents acknowledged the categories",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "04a829650"
+  },
+  {
+    "version": "v0.1.1207",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 10: flooding at Oriente, next to the venue; Deadline covers the cancellation",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "3e4236a64"
+  },
+  {
+    "version": "v0.1.1206",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.vicky: /storm/charles/: staged refresh of read times (09:36-09:50 UTC) for reviewer@; live page unchanged",
+    "by": "dev@PrompTugal.vicky",
+    "from": "7aae49558"
+  },
+  {
+    "version": "v0.1.1205",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: categories: programme acknowledged",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "3d215a142"
+  },
+  {
+    "version": "v0.1.1204",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (09:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "a8ae10f0d"
+  },
+  {
+    "version": "v0.1.1203",
+    "date": "2026-11-11",
+    "what": "sherpa@PrompTugal.dinis: 09:29 wake: ST1 done: the storm page dated to the latest IPMA read (v0.1.1202)",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "767450c6a"
+  },
+  {
+    "version": "v0.1.1202",
+    "date": "2026-11-11",
+    "what": "conductor.android@promptugal.ai.dinis: watch 09:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "a4940999c"
+  },
+  {
+    "version": "v0.1.1201",
+    "date": "2026-11-11",
+    "what": "journalist-europe@PrompTugal.vicky: hand-over note for 11 November (S49, S50, S53, S55 published; leads; lessons)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "bbb93827c"
+  },
+  {
+    "version": "v0.1.1200",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: the offline worker answers from its newest copy, not the install's (the stale home page)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "1ddfef608"
+  },
+  {
+    "version": "v0.1.1199",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: storm page wind downgrade verified live (v0.1.1198)",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "d9b257076"
+  },
+  {
     "version": "v0.1.1198",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: S41 checked 09:06 UTC, no change against the live article; run report",
