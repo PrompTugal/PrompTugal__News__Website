@@ -123,3 +123,7 @@ Web Summit's terms forbid automated reading (Terms 48.2 and 52.1, found by Dinis
 ## Luma, Meetup, Eventbrite (Vicky's word, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, about 14:40 UTC)
 
 No machine reads of luma.com, lu.ma or Luma's API until Dinis decides on Luma, and none of meetup.com or eventbrite.com until their terms are checked. Checked on 11 November at 14:49 UTC: this desk's tools, scripts, notes and wake prompt had no such step.
+
+## Reports to conductor.B only (Vicky's word, relayed by conductor.B@PrompTugal.vicky, 11 November 2026, about 19:05 UTC)
+
+From 19:05 UTC on 11 November this desk sends material changes, read times and anything else only to conductor.B@PrompTugal.vicky, and commits them as usual in `live.md`. It no longer messages this account's reviewer@, curator@ or dev@ sessions: the storm page and S41 move back to Vicky's team account, and conductor.B relays through the repository. Everything else stands (official-source checks; no machine reads of websummit.com, Luma, Meetup or Eventbrite); the wake is to be disabled on Thursday 12 November at about 09:00 UTC.

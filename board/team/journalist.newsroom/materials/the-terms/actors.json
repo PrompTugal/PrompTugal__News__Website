@@ -2,9 +2,9 @@
   "story": "the-terms",
   "from": "board/team/work-desk/traces/the-terms.json",
   "made_by": "trace-to-materials.mjs",
-  "steps": 16,
+  "steps": 19,
   "first": "2026-11-11T05:27:00Z",
-  "last": "2026-11-11T15:18:34Z",
+  "last": "2026-11-11T15:53:05Z",
   "actors": [
     {
       "actor": "the incident team (account A)",
@@ -31,11 +31,11 @@
     {
       "actor": "conductor@PrompTugal.dinis",
       "kind": "agent",
-      "steps": 0,
-      "first": null,
-      "last": null,
-      "span_minutes": null,
-      "handoffs_out": 0,
+      "steps": 1,
+      "first": "2026-11-11T15:41:37Z",
+      "last": "2026-11-11T15:41:37Z",
+      "span_minutes": 0,
+      "handoffs_out": 1,
       "handoffs_in": 1,
       "tokens": null
     },
@@ -58,7 +58,7 @@
       "last": "2026-11-11T14:58:41Z",
       "span_minutes": 128,
       "handoffs_out": 5,
-      "handoffs_in": 5,
+      "handoffs_in": 6,
       "tokens": null
     },
     {
@@ -86,21 +86,21 @@
     {
       "actor": "Vicky Wang",
       "kind": "person",
-      "steps": 3,
+      "steps": 4,
       "first": "2026-11-11T13:10:00Z",
-      "last": "2026-11-11T14:57:10Z",
-      "span_minutes": 107,
-      "handoffs_out": 6,
+      "last": "2026-11-11T15:45:00Z",
+      "span_minutes": 155,
+      "handoffs_out": 7,
       "handoffs_in": 3,
       "tokens": null
     },
     {
       "actor": "social.watch@PrompTugal.dinis",
       "kind": "agent",
-      "steps": 1,
+      "steps": 2,
       "first": "2026-11-11T12:53:22Z",
-      "last": "2026-11-11T12:53:22Z",
-      "span_minutes": 0,
+      "last": "2026-11-11T15:53:05Z",
+      "span_minutes": 180,
       "handoffs_out": 0,
       "handoffs_in": 0,
       "tokens": null
@@ -124,7 +124,7 @@
       "last": "2026-11-11T14:35:00Z",
       "span_minutes": 0,
       "handoffs_out": 2,
-      "handoffs_in": 3,
+      "handoffs_in": 4,
       "tokens": null
     },
     {

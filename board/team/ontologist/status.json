@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-11T16:30Z",
+  "updated": "2026-11-11T18:25Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -577,6 +577,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "Emergence AI linked to its card"
+    },
+    {
+      "started": "2026-11-11T18:21Z",
+      "outcome": "ok",
+      "release": "run report only",
+      "line": "nothing new"
     }
   ],
   "decisions_on_findings": [

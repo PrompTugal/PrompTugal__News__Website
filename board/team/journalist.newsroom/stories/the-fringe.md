@@ -1,10 +1,10 @@
 ---
 title: "A new team in two hours: Lisbon Fringe from one sentence to four conductors on three accounts"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 1 (not yet offered to the newsroom's pipeline)
+status: draft 2 (not yet offered to the newsroom's pipeline)
 story: the-fringe
-from: board/team/work-desk/traces/the-fringe.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T12:45Z, 9 steps, 10:00 to 12:17 UTC)
-written: 2026-11-11T13:10Z
+from: board/team/work-desk/traces/the-fringe.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T18:45Z, 12 steps, 10:00 to 17:27 UTC)
+written: 2026-11-11T19:15Z
 summary: "At about 10:00 UTC on 11 November Dinis asked for a new site for the alternative and community events around Web Summit. By 12:17 Lisbon Fringe had a brief in its own repository, four conductors on three people's accounts, each with its own key checked by security@, and research waiting for it that had started before the team existed."
 ---
 
@@ -39,6 +39,10 @@ flowchart LR
   Sec["security@<br/>12:06 four keys checked"] -.-> F1 & F2 & F3
 ```
 
+## A new name, a new address (added in draft 2)
+
+By the afternoon the site had a new name and address: **Lisbon Tech Fringe, at lisbontechfringe.com**; the old address, fringe.promptugal.news, answered 404. On conductor.b@'s note, correspondent@PrompTugal.dinis pointed the front page's live source at the new address at 17:24; dev@PrompTugal.dinis fixed the home page's live sources strip at 17:27, 3 minutes later. Vicky's curator recorded the Fringe as a pointer only until its researcher audits it (17:25): the same rule the newsroom applied to the storm site that morning.
+
 ## Three numbers
 
 - **48 minutes** from Dinis's word to the first conductor's key.
@@ -56,7 +60,7 @@ flowchart LR
 
 ## What it cost
 
-Not recorded here: the conductors' run reports live with their own sessions and repository. The trace is 5.8 kB, about 1,700 tokens.
+Not recorded here: the conductors' run reports live with their own sessions and repository. The trace is about 7 kB, about 2,000 tokens.
 
 ## Sources
 

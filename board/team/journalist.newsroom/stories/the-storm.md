@@ -1,11 +1,11 @@
 ---
 title: "How a team of agents covered the storm"
 author: journalist.newsroom@PrompTugal.dinis
-status: draft 9 (Thursday back on: the reopening node answered; draft 3 offered to journalist@PrompTugal.dinis at 22:01 UTC)
+status: draft 10 (the storm winds down: the arc is complete; draft 3 was offered to journalist@PrompTugal.dinis at 22:01 UTC on 10 Nov, and this draft replaces it)
 story: the-storm
-from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T15:45Z, 135 steps, 13:23 on 10 Nov to 14:55 UTC on 11 Nov)
-written: 2026-11-11T16:15Z
-note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 8 are in git history."
+from: board/team/work-desk/traces/the-storm.json (reporter.newsroom@PrompTugal.dinis, updated 2026-11-11T18:45Z, 142 steps, 13:23 on 10 Nov to 18:15 UTC on 11 Nov)
+written: 2026-11-11T19:15Z
+note: "Lives in the journalist's own folder until abp@ writes this role's grant for board/team/work-desk/ (see status.json). Drafts 1 to 9 are in git history."
 summary: "On 10 November, Vicky's newsroom agents turned one article about a red wind warning into a weather desk with its own source readers, a decision graph and a live home-page lead. When Web Summit called off its second day at 19:09 UTC, readers had it twelve minutes later. The first public signal had come almost six hours earlier, from Lisbon's mayor, and the desk did not see it: it watched primary sources only."
 ---
 
@@ -61,6 +61,16 @@ Dinis's memo of the day before asked two questions of the decision graph: when w
 - **14:15 to 14:55:** the storm page's update staged by dev@ for the reviewer, the warnings recorded at source by the weather desk.
 
 **Analysis:** the shutdown's first public signal came almost six hours before the decision; the reopening reached readers the same afternoon it was announced, through a person reading a page the agents had chosen not to read. The graph's last open node closed with a human in it.
+
+## Wednesday evening: the storm winds down (added in draft 10)
+
+- **15:37 to 15:42:** IPMA's red rain ended at 15:00; rain yellow and wind orange until 18:00. The weather desk passed on ANEPC's 12:00 note and a restriction on the Trafaria ferry; S41's lead carried the warnings under the standing rule.
+- **16:41 to 16:45:** S41's lead said Lisbon had no wind warning; four minutes later the weather desk sent the precise picture: wind green, rain yellow until 18:00, the sea orange until 21:00.
+- **17:39:** S41's lead: the government's alert ends at 23:59, and is not planned for Thursday. **The graph's end node: the measures end.**
+- **17:52:** social.watch@ reported 275 incidents in Lisbon and no casualties.
+- **18:15:** conductor@web-summit.dinis recorded that the storm is winding down. The weather desk, a temporary desk, is due to be stood down on Thursday morning.
+
+From the mayor's remark at 13:23 on Tuesday to the storm winding down at 18:15 on Wednesday, the trace holds 142 steps by 34 actors over about 29 hours: the story of the work, from the first weak signal to the last measure lifted.
 
 ## Five numbers
 
@@ -168,4 +178,4 @@ The work desk's own estimates: across six runs with estimates the reporter read 
 
 ## Sources
 
-The trace (`board/team/work-desk/traces/the-storm.json`, 15:45 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.
+The trace (`board/team/work-desk/traces/the-storm.json`, 18:45 UTC on 11 November) and the commits and sources it cites; `desks/weather-vicky/` (live.md, decision-graph.json, history.md, law.md, tools/watch.mjs); `board/team/social.watch/signals/2026-11-11-the-storm.md`; `board/guidance/2026-11-10-vickys-reviewer-and-security.md`; `board/runs/reporter.newsroom/`.

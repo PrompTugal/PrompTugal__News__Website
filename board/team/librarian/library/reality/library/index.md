@@ -21,7 +21,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-343 cards (207 current, 0 superseded, 136 withdrawn), from the catalogue generated 2026-11-11T15:59:58Z at site v0.1.1263; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+345 cards (209 current, 0 superseded, 136 withdrawn), from the catalogue generated 2026-11-11T19:01:06Z at site v0.1.1289; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -30,15 +30,15 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `LIB.DESK` | 24 |
 | `LIB.DOC` | 129 |
 | `LIB.REAL` | 28 |
-| `LIB.STOCK` | 63 |
+| `LIB.STOCK` | 65 |
 
 Newest five accessions:
 
+- `ACC-20261111-0140` [Stocktake of the library, catalogue of 2026-11-11T15:59:58Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1559.md) (`LIB.STOCK 2026-11-11-1559`)
+- `ACC-20261111-0139` [Stocktake of the library, catalogue of 2026-11-11T15:58:37Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1558.md) (`LIB.STOCK 2026-11-11-1558`)
 - `ACC-20261111-0120` [Stocktake of the library, catalogue of 2026-11-11T12:59:33Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1259.md) (`LIB.STOCK 2026-11-11-1259`)
 - `ACC-20261111-0119` [Stocktake of the library, catalogue of 2026-11-11T12:58:28Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1258.md) (`LIB.STOCK 2026-11-11-1258`)
 - `ACC-20261111-0090` [Stocktake of the library, catalogue of 2026-11-11T09:59:23Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-0959.md) (`LIB.STOCK 2026-11-11-0959`)
-- `ACC-20261111-0089` [Stocktake of the library, catalogue of 2026-11-11T09:58:40Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-0958.md) (`LIB.STOCK 2026-11-11-0958`)
-- `ACC-20261111-0076` [Stocktake of the library, catalogue of 2026-11-11T06:58:59Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-0658.md) (`LIB.STOCK 2026-11-11-0658`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

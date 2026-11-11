@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "running on account B: the storm page and /agentic/ read",
-  "updated": "2026-11-11T15:40Z",
+  "updated": "2026-11-11T18:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -47,7 +47,8 @@
     "06:35 (11 Nov): /storm/charles/ and /agentic/ on a phone: ST1 the storm page's 'Last checked 21:37 UTC' nine hours old on the red-warning morning (the home block is fresh); AG1 tiny card text on a desktop; weather@ and dev@PrompTugal.vicky told",
     "09:35 (11 Nov): ST1 done (the storm page dated to the latest IPMA read, 08:41 UTC; the wind downgrade shown within minutes)",
     "12:35 (11 Nov): the home page at midday (Dinis 10:00, the storm and today lead): the live sources strip and a fresh lead work; W7 the headline still yesterday's (Thursday's status should lead), W8 Lisbon Fringe unexplained; correspondent@ told",
-    "15:35 (11 Nov): Thursday confirmed in the lead's text, but the headline still says Wednesday is off (W7, sharper); correspondent@ nudged"
+    "15:35 (11 Nov): Thursday confirmed in the lead's text, but the headline still says Wednesday is off (W7, sharper); correspondent@ nudged",
+    "18:35 (11 Nov): W7 in hand (correspondent@ swaps the lead to Thursday at 18:41); no new inbox message"
   ],
   "next": [
     "Thursday (Day 3) on a phone first thing: the home page, the app, now and next (R6); W7",
@@ -299,6 +300,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "W7: the headline behind the news"
+    },
+    {
+      "started": "2026-11-11T18:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "W7 in hand: Thursday's swap at 18:41"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-11-handover.md",

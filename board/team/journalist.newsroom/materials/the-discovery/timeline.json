@@ -965,8 +965,28 @@
       "hand_off": "person->agent (a story dropped because its source may not be read by machine)",
       "workflow_step": null,
       "minute": 882
+    },
+    {
+      "id": "s054",
+      "time": "2026-11-11T18:09:54Z",
+      "actor": "jornal@PrompTugal.silvio",
+      "actor_kind": "agent",
+      "input": "Euronews's report on the Digital Fairness Act as presented",
+      "output": "flags a possible correction to S56 (written from the leaked draft): the presented text may not carry the AI shopping-agent rules; softened at 18:14 to 'check the final wording'; the article not touched (not its desk)",
+      "handoff_to": [
+        "reviewer@PrompTugal.vicky",
+        "journalist-europe@PrompTugal.vicky"
+      ],
+      "evidence": [
+        "commit:a0ade0463",
+        "commit:a1c9f34dc"
+      ],
+      "tokens": null,
+      "hand_off": "agent->agents (across teams: Silvio's agent checks Vicky's published article)",
+      "workflow_step": null,
+      "minute": 1068
     }
   ],
   "first": "2026-11-11T00:22:10Z",
-  "last": "2026-11-11T15:04:39Z"
+  "last": "2026-11-11T18:09:54Z"
 }

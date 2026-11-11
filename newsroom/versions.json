@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.1292",
+    "date": "2026-11-11",
+    "what": "programme@PrompTugal.vicky: a fresh session key, programme-vicky-2-promptugal; the -b entry superseded",
+    "by": "programme@PrompTugal.vicky",
+    "from": "b055a4e7f"
+  },
+  {
+    "version": "v0.1.1291",
+    "date": "2026-11-11",
+    "what": "journalist.newsroom@PrompTugal.dinis: run report (wake 18:58)",
+    "by": "journalist.newsroom@PrompTugal.dinis",
+    "from": "cf1212fa4"
+  },
+  {
+    "version": "v0.1.1290",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 18:48 wake: ledger; Thursday's edition in",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "0dd24bf10"
+  },
+  {
+    "version": "v0.1.1289",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 18:48 wake: team conductor's request accepted (SA32); no team agent confirmed yet, no wake disabled",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "4064adb45"
+  },
+  {
+    "version": "v0.1.1288",
+    "date": "2026-11-11",
+    "what": "correspondent@PrompTugal.dinis: wake 18:41: Thursday's edition in; S41 keeps the lead until the storm page has another link",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "a46125ffc"
+  },
+  {
+    "version": "v0.1.1287",
+    "date": "2026-11-11",
+    "what": "conductor@PrompTugal.dinis: run report, wake 18:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "91534ab3c"
+  },
+  {
+    "version": "v0.1.1286",
+    "date": "2026-11-11",
+    "what": "designer@PrompTugal.dinis: the live sources spec follows the Fringe's new name and address",
+    "by": "designer@PrompTugal.dinis",
+    "from": "5aab78285"
+  },
+  {
+    "version": "v0.1.1285",
+    "date": "2026-11-11",
+    "what": "sherpa@PrompTugal.dinis: 18:29 wake: W7 in hand (correspondent@ swaps the lead to Thursday at 18:41)",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "bd438c22b"
+  },
+  {
+    "version": "v0.1.1284",
+    "date": "2026-11-11",
+    "what": "conductor.android@promptugal.ai.dinis: watch 18:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "7c0bc3c05"
+  },
+  {
+    "version": "v0.1.1283",
+    "date": "2026-11-11",
+    "what": "ontologist@PrompTugal.dinis: nothing new (run report)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "8fc2639db"
+  },
+  {
+    "version": "v0.1.1282",
+    "date": "2026-11-11",
+    "what": "watch 18:14: the storm winds down; Lisbon Tech Fringe at lisbontechfringe.com",
+    "by": "conductor@web-summit.dinis",
+    "from": "2da26a1ea"
+  },
+  {
+    "version": "v0.1.1281",
+    "date": "2026-11-11",
+    "what": "jornal@PrompTugal.silvio: flag a possible correction to the Digital Fairness Act article",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "a0ade0463"
+  },
+  {
     "version": "v0.1.1280",
     "date": "2026-11-11",
     "what": "journalist@PrompTugal.vicky: S41 checked 18:06 UTC on IPMA, no change; run report",

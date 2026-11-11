@@ -1,22 +1,22 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-11T17:28Z",
+  "updated": "2026-11-11T19:02Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "red-wind-warning-lisbon-wednesday",
-    "why": "S41, the storm: Day 2 was called off; at 12:32 UTC Wednesday Web Summit's homepage says it is 'officially back on tomorrow for our final day', with sessions rescheduled from Wednesday (dev.data@'s read). Leads until Thursday's edition goes in this evening; the headline's Thursday status is S41's owners' (reviewer@PrompTugal.vicky's five keys; asked). Updated 12:52 UTC.",
+    "why": "S41 keeps the lead (restored 19:02 UTC Wednesday): the Thursday swap at 18:52 orphaned /storm/charles/, which is linked only from S41 as the lead (newsroom/build/features/front-e.mjs, stormLink), and the gate refused it. The storm is over (no red or wind warning since 15:56) and Web Summit is back on Thursday; the breakout startups take the lead as soon as the storm page is linked from elsewhere (asked of dev@ and dev@PrompTugal.vicky).",
     "standfirst": "Web Summit called off Day 2 on the government's advice because of Storm Charles; on Wednesday it said it is officially back on Thursday for its final day.",
     "developments": [
       {
         "text": "IPMA, Lisbon: no wind warning now; rain yellow until 18:00; sea orange until 21:00.",
         "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-        "checked": "2026-11-11T17:39Z"
+        "checked": "2026-11-11T18:33Z"
       },
       {
         "text": "Government alert until 23:59 Wednesday; not planned for Thursday, the minister says.",
         "source": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a-proatividade-da-nos-tranquilidade-1",
-        "checked": "2026-11-11T17:39Z"
+        "checked": "2026-11-11T18:33Z"
       }
     ],
     "programme": {
@@ -25,21 +25,21 @@
       "source": "https://websummit.com/",
       "checked": "2026-11-11T12:36Z"
     },
-    "last_checked": "2026-11-11T17:39Z",
+    "last_checked": "2026-11-11T18:33Z",
     "live": null
   },
   "top": [
     {
-      "article": "getting-around-lisbon-wednesday",
-      "why": "transport on the storm day"
+      "article": "breakout-startups-thursday-centre-stage",
+      "why": "Thursday's lead in waiting: four startups on the final day's Centre Stage, one an enterprise agent platform."
     },
     {
-      "article": "digital-fairness-act-ai-agents",
-      "why": "New: the EU proposes rules for AI agents that shop on a consumer's behalf: the agent's mandate, written into consumer law."
+      "article": "gravitee-agent-security-survey",
+      "why": "agents outpace their security, on security's day"
     },
     {
       "article": "manus-2-0-agents-own-email-phone-wallet",
-      "why": "each agent with its own email, phone and wallet"
+      "why": "the agent's reach"
     }
   ],
   "service": {
@@ -352,27 +352,27 @@
   "newsletter": "From Saturday 7 November (Dinis, 16:20 UTC): the morning and evening editions can take each day's 'know', 'lead' and 'also' from 'days' below (the morning: what is on; the evening: what happened). For whoever builds the editions.",
   "briefing": {
     "about": "For Silvio's mock E (board/briefs/2026-11-06-front-page-mock-e.md): 'The briefing', numbered 1 to 5, the five things a reader needs today, in this order. Article slugs; dev.pages@ shows the headline and the section. Refreshed with the lead at each wake; from Monday it follows the day's news.",
-    "for_date": "2026-11-11",
+    "for_date": "2026-11-12",
     "items": [
       {
-        "article": "getting-around-lisbon-wednesday",
-        "why": "transport on the storm day"
+        "article": "plan-your-week-by-field",
+        "why": "security all on Thursday"
       },
       {
-        "article": "web-summit-day-2-refunds",
-        "why": "refunds: what is known"
+        "article": "breakout-startups-thursday-centre-stage",
+        "why": "four startups on Centre Stage on Thursday morning"
       },
       {
-        "article": "digital-fairness-act-ai-agents",
-        "why": "rules for agents that shop"
-      },
-      {
-        "article": "ai-act-first-harmonised-standard",
-        "why": "the AI Act's first harmonised standard"
+        "article": "what-lovable-deleted",
+        "why": "an agent rebuilt by deletion"
       },
       {
         "article": "zalando-ai-coding-agents",
-        "why": "agents across an engineering organisation"
+        "why": "agents across an engineering organisation, with the controls"
+      },
+      {
+        "article": "press-conferences-day-by-day",
+        "why": "Thursday's press conferences"
       }
     ]
   },
@@ -439,67 +439,22 @@
   "phone_interview": {
     "about": "H2 of board/spec-the-agentic-home-page.md: on a phone only, one interview inside the top, under the standfirst, and dropped from the list below. My pick per day; dev.pages@ reads 'rel' (the interview's page, from desks/journalist-promptugal/interviews/).",
     "today": {
-      "for_date": "2026-11-11",
-      "interview": "student-property-network--leo-tashev-and-fraser-lloyd--2026-11-09",
-      "rel": "interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html",
-      "why": "The other authorised interview, with the AI agent that sorts the graduate job market; rotates in on Wednesday unless a new interview is published. Rolled in at 18:52 UTC Tuesday for Wednesday."
+      "for_date": "2026-11-12",
+      "interview": "buzz-messaging-ai--guy-ben-zvi--2026-11-09",
+      "rel": "interviews/buzz-messaging-ai/guy-ben-zvi/index.html",
+      "why": "No new interview published; Buzz Messaging AI returns for the final day (agents in a European messaging platform)."
     }
   },
   "lead_shared_keys": {
-    "about": "While S41 leads, reviewer@PrompTugal.vicky may write only these keys of 'lead' (Dinis, about 18:25 UTC on 10 November; board/guidance/2026-11-10-vickys-reviewer-and-security.md). I never overwrite them; it ends when S41 leaves the lead.",
+    "about": "While S41 leads, reviewer@PrompTugal.vicky may write only these keys of 'lead' (Dinis, about 18:25 UTC on 10 November; board/guidance/2026-11-10-vickys-reviewer-and-security.md). I never overwrite them; it ends when S41 leaves the lead. Still active: the swap at 18:52 UTC on 11 November was reverted at 19:02 (the storm page's link depends on S41 leading).",
     "keys": [
       "standfirst",
       "developments",
       "programme",
       "last_checked",
       "live"
-    ]
-  },
-  "next_edition": {
-    "about": "Thursday 12 November, Day 3, confirmed by Web Summit at 12:32 UTC Wednesday. Swapped in on Wednesday evening, once the rescheduled schedule is read; the storm moves to the top three.",
-    "for_date": "2026-11-12",
-    "lead": {
-      "article": "<an article on Thursday back on, with the rescheduled sessions, when published>",
-      "fallback": "breakout-startups-thursday-centre-stage",
-      "why": "The final day, back on after the storm: what is on, including sessions moved from Wednesday."
-    },
-    "top": [
-      {
-        "article": "gravitee-agent-security-survey",
-        "why": "agents outpace their security, on security's day"
-      },
-      {
-        "article": "manus-2-0-agents-own-email-phone-wallet",
-        "why": "the agent's reach; Noxus's GAMMA-Ray article takes this slot when published"
-      },
-      {
-        "article": "red-wind-warning-lisbon-wednesday",
-        "why": "S41, the storm and the cancelled day, as the record"
-      }
     ],
-    "briefing": [
-      {
-        "article": "plan-your-week-by-field",
-        "why": "security all on Thursday"
-      },
-      {
-        "article": "breakout-startups-thursday-centre-stage",
-        "why": "four startups on Centre Stage on Thursday morning"
-      },
-      {
-        "article": "what-lovable-deleted",
-        "why": "an agent rebuilt by deletion"
-      },
-      {
-        "article": "zalando-ai-coding-agents",
-        "why": "agents across an engineering organisation, with the controls"
-      },
-      {
-        "article": "press-conferences-day-by-day",
-        "why": "Thursday's press conferences"
-      }
-    ],
-    "rule": "At the swap, every '<...>' slot takes the published slug or its fallback; a slot with neither is dropped. While S41 leads, edit 'lead' in place (lead_shared_keys)."
+    "active": true
   },
   "live_sources": {
     "about": "Dinis, 11 November about 10:00 UTC (board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md): pt.news follows what is happening now; the storm and today lead. Links the home page shows at the top, named as the live source (dev@ builds them).",
