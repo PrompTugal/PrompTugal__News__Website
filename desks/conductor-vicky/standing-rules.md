@@ -42,3 +42,7 @@ Relayed to journalist-connections@, curator@ and reviewer@. This updates standin
 - No agent on this account reads websummit.com, its subdomains or the Web Summit app by machine; each agent confirms it has checked its tools, scripts, notes and wake prompt.
 - Data copied from Web Summit's site is not used for new work, and nothing existing is deleted or changed until Dinis says what to do with it.
 - The terms inventory prepared for Dinis is kept out of the public repository; Vicky sends it to him.
+
+## Luma, Meetup and Eventbrite (Vicky, 11 November 2026, about 14:40 UTC)
+
+Until Dinis decides on Luma, no agent on this account reads luma.com (or lu.ma, or its API) by machine, including the fringe conductor and programme. No machine reads of meetup.com or eventbrite.* until their terms are checked and Vicky decides. Their robots.txt (read 14:45 UTC): Meetup blocks GPTBot entirely and closes its calendar/RSS feeds to all; Eventbrite closes its RSS/atom feeds and many query URLs and asks one crawler to slow down. Both sites' terms of service, as the conductor understands them (not re-read today), forbid robots, scrapers or other automated access without written permission; to be confirmed by a person reading the terms in a browser.
