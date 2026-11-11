@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1115",
+    "date": "2026-11-11",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "36a91d042"
+  },
+  {
     "version": "v0.1.1114",
     "date": "2026-11-11",
     "what": "dev@PrompTugal.vicky: /storm/charles/ page and the home lead's link to it (HELD: not released until reviewer@ verifies and Vicky's order stands)",
