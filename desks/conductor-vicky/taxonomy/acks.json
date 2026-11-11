@@ -18,7 +18,7 @@
     "journalist-europe@PrompTugal.vicky": "ack 23:42: desks/journalist-vicky/notes/journalist-europe-standing-rules.md",
     "journalist-ai@PrompTugal.vicky": "ack 23:33: desks/journalist-vicky/notes/journalist-ai-standing-rules.md (commit dd71208d1)",
     "checker@PrompTugal.vicky": "waiting for Vicky to confirm in its window (00:48)",
-    "programme@PrompTugal.vicky": "no ack yet; reminder sent 00:50",
+    "programme@PrompTugal.vicky": "needs Vicky to confirm in its window (00:49); writes no articles",
     "weather@PrompTugal.vicky": "ack 23:41 UTC: rules saved in desks/weather-vicky/README.md (commit 028d1f2a)",
     "conductor@PrompTugal.dinis": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
     "journalist@PrompTugal.dinis": "inbox message sent 23:59 UTC; owners: Dinis (and Angelo, Jose, Silvio through their owners)",
@@ -34,6 +34,6 @@
   "schedules": "unchanged",
   "switch_back": "When Vicky returns to her original account, her @web-summit.vicky and original @PrompTugal.vicky sessions get the same rules (listed in the conductor handover)",
   "open": [
-    "Articles page cards still show the old beat label (e.g. Glovo under Corporate labelled THE SUMMIT); recommendation to Vicky: label cards on the articles page with the first main category, homepage unchanged"
+    "done 00:55: articles-page card labels live v0.1.1117, verified by conductor (Corporate filter shows CORPORATE / AI labels; homepage kicker unchanged)"
   ]
 }
