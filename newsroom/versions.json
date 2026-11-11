@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1298",
+    "date": "2026-11-11",
+    "what": "for conductor@PrompTugal.dinis: Vicky's old reviewer session made one commit after its hand-over (b67cf9cae, review notes only), and has stopped",
+    "by": "conductor@web-summit.vicky",
+    "from": "0e793ca2a"
+  },
+  {
     "version": "v0.1.1297",
     "date": "2026-11-11",
     "what": "conductor.B@PrompTugal.vicky: reviewer@ twin disabled; storm page and S41 handed to the team reviewer@ and dev@; all nine twins done",
