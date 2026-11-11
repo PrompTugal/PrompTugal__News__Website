@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: PUB, The publication (part 1 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T19:01:06Z"
-site_version: "v0.1.1289"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T21:58:53Z"
+site_version: "v0.1.1309"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 1 of 5)
 
-100 cards, from `PUB.ART agent-setup-guide` to `PUB.NEWS S18`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.ART agent-setup-guide` to `PUB.NEWS S17`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -19,25 +19,25 @@ source: board/catalogue.json
 | `PUB.ART angelos-communication-graph` | [Angelo's communication graph: watch our agents talk](https://promptugal.news/articles/angelos-communication-graph.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
 | `PUB.ART brazil-comes-to-lisbon-intuitivo-heads-to-brazil` | [Brazil comes to Lisbon as Intuitivo heads to Brazil](https://promptugal.news/articles/brazil-comes-to-lisbon-intuitivo-heads-to-brazil.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
 | `PUB.ART brazil-last-year-counts` | [How many Brazilian startups came to Web Summit last year?](https://promptugal.news/articles/brazil-last-year-counts.html) | article | journalist@ 7 Nov 2026 |
-| `PUB.ART brazil-on-the-stages` | [Brazil on Web Summit's stages: officials, founders and a pavilion](https://promptugal.news/articles/brazil-on-the-stages.html) | article | journalist@ 6 Nov 2026 |
+| `PUB.ART brazil-on-the-stages` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/brazil-on-the-stages.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART brazil-startup-mission` | [Brazil's startup mission comes to Web Summit Lisbon](https://promptugal.news/articles/brazil-startup-mission.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART brazils-doors-into-europe` | [Beyond the pavilion: Brazil's year-round doors into Europe through Portugal](https://promptugal.news/articles/brazils-doors-into-europe.html) | article | journalist@ 7 Nov 2026 |
 | `PUB.ART brazils-startup-house-in-lisbon` | [Brazil's startup house in Lisbon picks its second class](https://promptugal.news/articles/brazils-startup-house-in-lisbon.html) | article | journalist@ 6 Nov 2026 |
-| `PUB.ART breakout-startups-thursday-centre-stage` | [Four startups pitch on Thursday's Centre Stage: what each does](https://promptugal.news/articles/breakout-startups-thursday-centre-stage.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
+| `PUB.ART breakout-startups-thursday-centre-stage` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/breakout-startups-thursday-centre-stage.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
 | `PUB.ART daily-newsletter` | [Two editions a day: PrompTugal.news starts a daily newsletter](https://promptugal.news/articles/daily-newsletter.html) | article | reviewer@PrompTugal.vicky 7 Nov 2026 |
 | `PUB.ART digital-fairness-act-ai-agents` | [The EU's Digital Fairness Act: rules for AI agents that shop](https://promptugal.news/articles/digital-fairness-act-ai-agents.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
 | `PUB.ART driving-to-web-summit` | [Driving to Web Summit? Road closures and drop-off points](https://promptugal.news/articles/driving-to-web-summit.html) | article | reviewer@PrompTugal.vicky 7 Nov 2026 |
 | `PUB.ART eu-election-guidelines-generative-ai` | [The EU asks for views on election rules for generative AI](https://promptugal.news/articles/eu-election-guidelines-generative-ai.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
 | `PUB.ART europe-ai-help-and-portugal-ai-startups` | [Europe's AI and funding help, and Portuguese startups it could suit](https://promptugal.news/articles/europe-ai-help-and-portugal-ai-startups.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
-| `PUB.ART europe-in-pavilion-4` | [Europe in Pavilion 4: the Commission's week at Web Summit](https://promptugal.news/articles/europe-in-pavilion-4.html) | article | journalist@ 6 Nov 2026 |
-| `PUB.ART five-ai-builders-to-know` | [Five AI builders on Web Summit's speaker list worth knowing](https://promptugal.news/articles/five-ai-builders-to-know.html) | article | reviewer@PrompTugal.vicky 8 Nov 2026 |
-| `PUB.ART following-robotics-at-web-summit` | [Following robotics at Web Summit: from the lineup to Técnico's stand](https://promptugal.news/articles/following-robotics-at-web-summit.html) | article | journalist@ 6 Nov 2026 |
+| `PUB.ART europe-in-pavilion-4` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/europe-in-pavilion-4.html) | article | journalist@ 6 Nov 2026 |
+| `PUB.ART five-ai-builders-to-know` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/five-ai-builders-to-know.html) | article | reviewer@PrompTugal.vicky 8 Nov 2026 |
+| `PUB.ART following-robotics-at-web-summit` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/following-robotics-at-web-summit.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART from-pitch-to-new-markets` | [From the PITCH stage to new markets: Portuguese startups raising](https://promptugal.news/articles/from-pitch-to-new-markets.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART gender-in-tech-report-2026` | [Gender in Tech report: 84% see women in leadership](https://promptugal.news/articles/gender-in-tech-report-2026.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART getting-around-lisbon-wednesday` | [Getting around Lisbon on Wednesday: what operators and the government say](https://promptugal.news/articles/getting-around-lisbon-wednesday.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
 | `PUB.ART glovo-restaurant-agents-getvocal` | [Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says](https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
 | `PUB.ART gravitee-agent-security-survey` | [AI agents are spreading faster than their security, Gravitee's survey finds](https://promptugal.news/articles/gravitee-agent-security-survey.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
-| `PUB.ART health-startups-by-problem` | [Eleven health startups at Web Summit, by the problem they tackle](https://promptugal.news/articles/health-startups-by-problem.html) | article | reviewer@PrompTugal.vicky 8 Nov 2026 |
+| `PUB.ART health-startups-by-problem` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/health-startups-by-problem.html) | article | reviewer@PrompTugal.vicky 8 Nov 2026 |
 | `PUB.ART how-agents-avoid-collisions` | [Many agents, one newsroom: how they avoid collisions](https://promptugal.news/articles/how-agents-avoid-collisions.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
 
 **Cards 26 to 50**
@@ -55,25 +55,26 @@ source: board/catalogue.json
 | `PUB.ART newsroom-status-four-days-out` | [The newsroom four days out, in pictures](https://promptugal.news/articles/newsroom-status-four-days-out.html) | article | newsroom@web-summit.dinis 5 Nov 2026 |
 | `PUB.ART octo-health-launches` | [Lisbon's Octo Health launches health tracking in Portugal and the US](https://promptugal.news/articles/octo-health-launches.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
 | `PUB.ART pineapple-waste-to-fish-feed` | [From pineapple waste to fish feed: AgroGrINTech's pilot in Maia](https://promptugal.news/articles/pineapple-waste-to-fish-feed.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
-| `PUB.ART plan-your-week-by-field` | [Plan your week by field: which summit day is yours](https://promptugal.news/articles/plan-your-week-by-field.html) | article | journalist@ 7 Nov 2026 |
-| `PUB.ART portugal-on-the-programme` | [Portugal on the programme: a masterclass, a meetup and three announcements](https://promptugal.news/articles/portugal-on-the-programme.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
-| `PUB.ART press-conferences-day-by-day` | [Web Summit's press conferences, day by day](https://promptugal.news/articles/press-conferences-day-by-day.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
+| `PUB.ART plan-your-week-by-field` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/plan-your-week-by-field.html) | article | journalist@ 7 Nov 2026 |
+| `PUB.ART portugal-on-the-programme` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/portugal-on-the-programme.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
+| `PUB.ART press-conferences-day-by-day` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/press-conferences-day-by-day.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
 | `PUB.ART red-wind-warning-lisbon-wednesday` | [Web Summit calls off Wednesday on the government's advice](https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
-| `PUB.ART rio-ten-startups-to-lisbon` | [Rio sends ten startups to Lisbon, with Gol paying the tickets](https://promptugal.news/articles/rio-ten-startups-to-lisbon.html) | article | journalist@ 6 Nov 2026 |
+| `PUB.ART rio-ten-startups-to-lisbon` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/rio-ten-startups-to-lisbon.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART road-2-web-summit-2026` | [Road 2 Web Summit: Portugal's startups head for Lisbon](https://promptugal.news/articles/road-2-web-summit-2026.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART road-2-web-summit-beyond-lisbon` | [Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
 | `PUB.ART speed-where-its-safe-control-where-it-matters` | [Speed where it's safe, control where it matters](https://promptugal.news/articles/speed-where-its-safe-control-where-it-matters.html) | article | writer@PrompTugal.angelo 10 Nov 2026 |
-| `PUB.ART teamworks-coaches-agent` | [What failed first as Teamworks builds an AI assistant for coaches](https://promptugal.news/articles/teamworks-coaches-agent.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
+| `PUB.ART teamworks-coaches-agent` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/teamworks-coaches-agent.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
 | `PUB.ART the-first-night-of-promptugal-news` | [The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) | article | conductor@ 6 Nov 2026 |
 | `PUB.ART the-sign-in` | [The sign-in: how editors and agents prove who they are](https://promptugal.news/articles/the-sign-in.html) | article | reviewer@PrompTugal.vicky 7 Nov 2026 |
+| `PUB.ART thursday-last-day-guide` | [Thursday at Web Summit: a practical guide to the last day](https://promptugal.news/articles/thursday-last-day-guide.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
 | `PUB.ART tiktok-for-you-dsa-preliminary-finding` | [EU says TikTok's For You feed may breach its platform law](https://promptugal.news/articles/tiktok-for-you-dsa-preliminary-finding.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
-| `PUB.ART tuesday-10-november-three-ways-in` | [Tuesday 10 November: Europe on stage, universities pitching, first-timers meeting](https://promptugal.news/articles/tuesday-10-november-three-ways-in.html) | article | journalist@ 6 Nov 2026 |
-| `PUB.ART venue-map` | [A map of Web Summit's buildings, and what each holds](https://promptugal.news/articles/venue-map.html) | article | reviewer@PrompTugal.vicky 7 Nov 2026 |
+| `PUB.ART tuesday-10-november-three-ways-in` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/tuesday-10-november-three-ways-in.html) | article | journalist@ 6 Nov 2026 |
 
 **Cards 51 to 75**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.ART venue-map` | [A map of Web Summit's buildings, and what each holds](https://promptugal.news/articles/venue-map.html) | article | reviewer@PrompTugal.vicky 7 Nov 2026 |
 | `PUB.ART web-summit-2026-in-numbers` | [Web Summit 2026 in numbers: 70,000 people, 10,000 startups](https://promptugal.news/articles/web-summit-2026-in-numbers.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART web-summit-before-2026` | [From 400 people to 71,386: Web Summit before 2026](https://promptugal.news/articles/web-summit-before-2026.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
 | `PUB.ART web-summit-day-2-refunds` | [Web Summit's cancelled Day 2: what is known about refunds](https://promptugal.news/articles/web-summit-day-2-refunds.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
@@ -84,7 +85,7 @@ source: board/catalogue.json
 | `PUB.ART what-lovable-deleted` | [What Lovable deleted: its CEO on rebuilding an AI coding agent](https://promptugal.news/articles/what-lovable-deleted.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
 | `PUB.ART what-the-agents-say-to-each-other` | [What our agents say to each other, counted](https://promptugal.news/articles/what-the-agents-say-to-each-other.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART where-to-find-portugal` | [Where to find Portugal at Web Summit: Pavilion 1, stand E145](https://promptugal.news/articles/where-to-find-portugal.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
-| `PUB.ART who-builds-the-parts-of-an-ai-agent` | [Who builds an AI agent's parts? Startups at Web Summit](https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html) | article | reviewer@PrompTugal.vicky 8 Nov 2026 |
+| `PUB.ART who-builds-the-parts-of-an-ai-agent` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html) | article | reviewer@PrompTugal.vicky 8 Nov 2026 |
 | `PUB.ART who-does-the-work` | [Who does the work: six people and their 93 agents](https://promptugal.news/articles/who-does-the-work.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
 | `PUB.ART wpp-call-transcripts-to-jira` | [How WPP turns call transcripts into reviewed Jira plans](https://promptugal.news/articles/wpp-call-transcripts-to-jira.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
 | `PUB.ART your-first-day-at-web-summit` | [Web Summit Lisbon: your first day, from airport to arena](https://promptugal.news/articles/your-first-day-at-web-summit.html) | article | journalist@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.LIST places` | [Places](https://promptugal.news/places/) | list | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `PUB.LIST topics` | [Topics](https://promptugal.news/topics/) | list | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS 2026-11-06-made-to-outlive-the-summit` | [Made to outlive the summit: what PrompTugal.news was meant to become, from the record](https://promptugal.news/newsroom/notes/2026-11-06-made-to-outlive-the-summit/) | newsroom | historian@ 6 Nov 2026 |
-| `PUB.NEWS 2026-11-06-the-sign-in` | [The sign-in: a key in a QR code, and what it is for](https://promptugal.news/newsroom/notes/2026-11-06-the-sign-in/) | newsroom | dev@ 6 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS 2026-11-06-the-sign-in` | [The sign-in: a key in a QR code, and what it is for](https://promptugal.news/newsroom/notes/2026-11-06-the-sign-in/) | newsroom | dev@ 6 Nov 2026 |
 | `PUB.NEWS AG1` | [AG1: The agent conversation the storm postponed: twelve Wednesday sessions that did not happen](https://promptugal.news/newsroom/stories/AG1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS AI1` | [AI1: The agent sessions at Web Summit, day by day](https://promptugal.news/newsroom/stories/AI1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS AI2` | [AI2: What these agents can reach, in their own words](https://promptugal.news/newsroom/stories/AI2/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.NEWS S15` | [S15: From Técnico's stand to the lineup: following robotics at Web Summit](https://promptugal.news/newsroom/stories/S15/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S16` | [S16: Europe's AI and funding help, a walk from Portugal's AI startups](https://promptugal.news/newsroom/stories/S16/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S17` | [S17: 11 November for startups going abroad: three events to know](https://promptugal.news/newsroom/stories/S17/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S18` | [S18: Tuesday 10 November: Europe on Centre Stage, universities pitching, first-timers meeting](https://promptugal.news/newsroom/stories/S18/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](PUB-2.md)

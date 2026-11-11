@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T19:01:06Z"
-site_version: "v0.1.1289"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T21:58:53Z"
+site_version: "v0.1.1309"
 source: board/catalogue.json
 ---
 
@@ -17,13 +17,13 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [Build, code and release](BLD.md) | `BLD` | 4 |
 | [Data and the ontology](DAT.md) | `DAT` | 1055 |
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
-| [Guidance (special)](GDN.md) | `GDN` | 636 |
-| [The repository](GEN.md) | `GEN` | 43 |
-| [The library](LIB.md) | `LIB` | 345 |
-| [The publication](PUB.md) | `PUB` | 479 |
+| [Guidance (special)](GDN.md) | `GDN` | 637 |
+| [The repository](GEN.md) | `GEN` | 44 |
+| [The library](LIB.md) | `LIB` | 347 |
+| [The publication](PUB.md) | `PUB` | 482 |
 | [Readers and observability](RDR.md) | `RDR` | 39 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 3027 |
-| [Work in hand](WRK.md) | `WRK` | 359 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 3044 |
+| [Work in hand](WRK.md) | `WRK` | 360 |
 
 ## Passes
 
@@ -55,7 +55,7 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [2026-11-06-the-site-over-time](passes/2026-11-06-the-site-over-time.md) | open | 1 |
 | [2026-11-06-the-summit-days](passes/2026-11-06-the-summit-days.md) | open | 18 |
 
-(continued, rows 26 to 29)
+(continued, rows 26 to 30)
 
 | Pass | State | Findings |
 |---|---|---|
@@ -63,6 +63,7 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [2026-11-06-the-top-of-the-page](passes/2026-11-06-the-top-of-the-page.md) | open | 30 |
 | [2026-11-06-the-updates-section](passes/2026-11-06-the-updates-section.md) | queued | 2 |
 | [2026-11-06-the-verification-pipeline](passes/2026-11-06-the-verification-pipeline.md) | open | 2 |
+| [2026-11-11-only-websummit-sourced-comes-off](passes/2026-11-11-only-websummit-sourced-comes-off.md) | open | 0 |
 
 ## Special
 
