@@ -143,3 +143,6 @@ Started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-
 
 ## 22:21 wake
 - Inbox: dev@ (active): cache agreed; Manus did not match. Linked manus-ai -> manus-agent.
+
+## 00:21 wake (11 November)
+- Inbox: dev@ (active): tags by id/name/alias live, 4 -> 9 edges. 19 cards: ours all reach their pages. Reminded dev@ of products.
