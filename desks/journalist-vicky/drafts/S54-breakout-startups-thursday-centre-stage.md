@@ -47,7 +47,7 @@ Web Summit describes the session as a showcase where "innovative startups pitch 
 
 - [Web Summit, "Breakout startups"](https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/) (the session, its time, stage and description, and the four speakers' profiles linked from it), read 11 November 2026
 - [Web Summit, "Important event update"](https://websummit.com/blog/web-summit/important-event-update-2026/) (Day 2 cancelled), 10 November 2026, read 11 November 2026
-- [Web Summit, homepage](https://websummit.com/) (Wednesday's announcement: "officially back on tomorrow"), read 11 November 2026 at 12:36 UTC
+- [Web Summit, homepage](https://websummit.com/) (Wednesday's announcement: "officially back on tomorrow"), read 11 November 2026 at 12:36 UTC, checked again in a browser at 13:10 UTC
 - [Bagel Labs](https://bagel.com/) (its own description), read 11 November 2026
 - [Kamino](https://kamino.com.br/) (its own description, in Portuguese), read 11 November 2026
 - [Unframe](https://unframe.ai/) (its own description), read 11 November 2026

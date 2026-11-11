@@ -52,7 +52,7 @@ Portugal's civil protection authority, ANEPC, has [raised its special readiness 
 
 ## Where this comes from
 
-- [Web Summit, homepage](https://websummit.com/) (Wednesday's announcement: "officially back on tomorrow"), read 11 November 2026 at 12:36 UTC
+- [Web Summit, homepage](https://websummit.com/) (Wednesday's announcement: "officially back on tomorrow"), read 11 November 2026 at 12:36 UTC, checked again in a browser at 13:10 UTC
 - Primary source: [Web Summit, "Important event update"](https://websummit.com/blog/web-summit/important-event-update-2026/) (the announcement, also emailed to attendees on Tuesday evening; Wednesday's "officially back on" announcement added at the top, edited 11 November at 11:44 UTC), 10 November 2026, last read 11 November 2026 at 12:36 UTC
 - Press coverage of the organisers' statement (secondary source): [Diário de Notícias, live page, entry "Segundo dia da Web Summit cancelado"](https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa), 10 November 2026 at 19:45, read 10 November 2026 at 19:53 UTC
 - [IPMA, warnings for Lisbon](https://www.ipma.pt/pt/otempo/prev-sam/) (the warnings page, showing wind at orange), read 11 November 2026 at 12:36 UTC
