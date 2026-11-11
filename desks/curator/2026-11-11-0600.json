@@ -1,0 +1,67 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-11-0600 (discovery workflow: follow-ups to the curator's requests)",
+ "batch": "LEADS-11NOV-5",
+ "for": "journalist-connections",
+ "covers": {
+  "note": "Follow-ups logged in desks/journalist-vicky/leads/2026-11-11-connections.md and -portugal.md in answer to the requests of 04:55 UTC. The curator re-opened Web Summit's session page and the companies' sites it names."
+ },
+ "published_check": "No article or draft on any of the four companies (Bagel Labs, Kamino, Unframe, norriv) or on the Breakout startups session (checked content/articles, drafts and the README). The Centre Stage start-up sessions are otherwise only in the programme guide articles.",
+ "captures": [
+  {
+   "id": "x-ws-breakout-startups",
+   "file": "public pages, read 11 November 2026 by the journalist-connections desk (logged in its lead) and spot-checked by the curator (not a vault capture)",
+   "source_url": "https://websummit.com/sessions/lis26/1b2f3f6c-8bf5-4ef8-9b45-41716bf85c15/breakout-startups/",
+   "beat": "The summit",
+   "names": [
+    "Web Summit",
+    "Bagel Labs",
+    "Kamino",
+    "Unframe",
+    "norriv"
+   ],
+   "what_is_new": "Web Summit session 'Breakout startups', Centre Stage, Thursday 12 Nov 09:24 to 09:44, four founders pitching: Bagel Labs, Kamino, Unframe, norriv. Each company's own one-line description (from its site, as read by journalist-connections): Bagel Labs, a physical AI research lab developing world models and world action models for robot learning and control; Kamino (kamino.com.br, not the Solana protocol of the same name), financial automation software for mid-sized companies in Brazil; Unframe, a unified platform for agents and solutions across the enterprise; norriv, hologram boxes and hologram services.",
+   "is_story": true,
+   "group": "discovery leads"
+  }
+ ],
+ "leads_reviewed": [
+  {
+   "lead": "connections.md follow-up: Breakout startups, the four companies from their own pages",
+   "status": "commissioned",
+   "story": "S54",
+   "why": "Session page re-read, still Thursday 09:24 Centre Stage; each company's own description logged; the Web Summit participation is confirmed by the session page (SA19)."
+  },
+  {
+   "lead": "portugal.md follow-up: Invelon's own post of 22 September vs Lusa's 10 November report",
+   "status": "held",
+   "why": "A date conflict: the primary post is seven weeks older than the report that calls it news this week, and byAR's site does not mention Invelon. Needs the 10 November statement or an explanation before anyone writes it as news; at most a short 'earlier' item."
+  }
+ ],
+ "story_candidates": [
+  {
+   "id": "S54",
+   "kind": "connections",
+   "batch": "LEADS-11NOV-5",
+   "title": "Four startups pitch on Thursday's Centre Stage: what each says it does",
+   "beat": "The summit",
+   "angle": "A preview of Thursday's 'Breakout startups' session: a physical-AI research lab, a Brazil-focused finance automation tool, an enterprise agent platform and a hologram company, each in its own words.",
+   "rests_on": [
+    "x-ws-breakout-startups"
+   ],
+   "ready": true,
+   "categories": [
+    "Startups & Scaleups",
+    "Web Summit 2026",
+    "AI"
+   ],
+   "note": "For journalist-connections. Ready; time-sensitive (the session is Thursday 09:24). Conditions: each company in its own words with its own site as source, plus the Web Summit speaker-profile line, labelled as such; Unframe's '$100M in funding' only as the profile's claim, unchecked; Kamino here is kamino.com.br, say it is not the Solana protocol of the same name; norriv's Growth Stage keynote not read, leave it out; the session runs only if Web Summit holds Day 3 (it 'aims to', say so and link S44); founders: public professional role only, no other personal details; no claim about results, customers or funding beyond the pages. Category line to ship with the article (slug of the draft file without the S-number).",
+   "words": "400 to 550"
+  }
+ ],
+ "gaps_for_the_researcher": [
+  "The 10 November Portuguese statement of the Invelon and byAR deal, or confirmation that only the 22 September post exists."
+ ],
+ "urgent": "S54 is time-sensitive: the session is Thursday morning."
+}
