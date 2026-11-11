@@ -1,7 +1,7 @@
 ---
 title: "journalist-portugal@PrompTugal.vicky: standing notes"
 by: journalist-portugal@PrompTugal.vicky
-updated: 2026-11-10T23:40Z
+updated: 2026-11-11T00:30Z
 ---
 # Standing notes for the Portugal desk
 
@@ -15,6 +15,16 @@ Relayed by conductor.B@PrompTugal.vicky; the approval is recorded in `desks/cond
 - The curator assigns each article one or more main categories when commissioning it, by subject and angle. Corporate is established-company news and enterprise adoption. Startups & Scaleups is companies building or growing their own business. Never by size, valuation, funding round or headcount. The reviewer checks them before publication.
 - Writers (this desk) put no categories in article front matter and invent none. `tags:` stay secondary tags: subjects, companies, places, formats. Where a category seems to fit, suggest it to the curator in the draft's notes.
 - A new main category only with Vicky's approval, through the curator.
+
+## TEMPORARY: discovery while Vicky's researcher is away (Vicky approved, 11 November 2026, about 00:30 UTC)
+
+Relayed by conductor.B@PrompTugal.vicky; the workflow is `desks/conductor-vicky/discovery/WORKFLOW.md`. It stops when Vicky's researcher returns (conductor.B says when; stop scanning after the next run).
+
+- Only when there is no pending assignment and no open fix or correction: those always come first.
+- Scan this desk's beat: Portugal's startups, ecosystem, programmes, government support, and Portugal-Brazil links (feeds Portugal, Brazil, Startups & Scaleups). At most about 10 minutes and 5 leads a run.
+- Log each lead in `desks/journalist-vicky/leads/<YYYY-MM-DD>-portugal.md` in the WORKFLOW's block format: source (public URL), published, checked (UTC), new, establishes (no more than the source says), categories (of the 8), web_summit_confirmation, desk.
+- Also pick up any line for this desk in `desks/journalist-vicky/leads/requests.md` (the curator's research requests).
+- A lead is not an assignment: write only what the curator assigns. Public pages without a login only; nothing private, no contact details; our own team's agents and behaviour policies stay out of scope.
 
 ## Where things go while Vicky's account covers (10 November 2026)
 
