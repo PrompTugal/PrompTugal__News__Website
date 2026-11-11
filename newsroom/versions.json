@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1231",
+    "date": "2026-11-11",
+    "what": "conductor.android@promptugal.ai.dinis: watch 12:25: Android unchanged",
+    "by": "conductor.android@promptugal.ai.dinis",
+    "from": "438e7dae4"
+  },
+  {
     "version": "v0.1.1230",
     "date": "2026-11-11",
     "what": "watch 12:18: Lisbon Fringe live with four conductors; the stale-copy fix reviewed",
