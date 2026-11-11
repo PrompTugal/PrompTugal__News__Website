@@ -1717,6 +1717,11 @@
         "count": 2
       },
       {
+        "as_listed": "European Commission",
+        "ref": "company:european-commission",
+        "count": 2
+      },
+      {
         "as_listed": "European Commission (DG CONNECT, DG GROW)",
         "ref": "company:european-commission",
         "count": 1
@@ -1734,7 +1739,7 @@
       {
         "as_listed": "Manus AI",
         "ref": "company:manus-ai",
-        "count": 2
+        "count": 4
       },
       {
         "as_listed": "Replit",
@@ -2116,7 +2121,7 @@
       {
         "as_listed": "Web Summit",
         "ref": "organisation:web-summit",
-        "count": 39
+        "count": 40
       },
       {
         "as_listed": "Xiaomi",

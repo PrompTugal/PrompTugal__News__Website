@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-eu-en-18286",
+  "type": "evidence",
+  "source_url": "https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal",
+  "beat": "Europe",
+  "group": "discovery leads",
+  "names": [
+    {
+      "as_listed": "European Commission",
+      "ref": "company:european-commission"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-0200.json",
+  "run": "2026-11-11-0200 (discovery workflow: connections, Europe and Portugal leads)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0200.json"
+    ]
+  }
+}
