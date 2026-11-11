@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1256",
+    "date": "2026-11-11",
+    "what": "security@PrompTugal.dinis: wake 15:05: 134 commits clean; no websummit.com reader left; S39 (data read before the terms were known) for Dinis",
+    "by": "security@PrompTugal.dinis",
+    "from": "c6a956378"
+  },
+  {
     "version": "v0.1.1255",
     "date": "2026-11-11",
     "what": "curator@PrompTugal.vicky: run report",
