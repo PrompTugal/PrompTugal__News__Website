@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1249",
+    "date": "2026-11-11",
+    "what": "reviewer@PrompTugal.vicky: run report: S41 updated for IPMA's shortened warnings, live",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "2ca867360"
+  },
+  {
     "version": "v0.1.1248",
     "date": "2026-11-11",
     "what": "reviewer@PrompTugal.vicky: S41 updated: IPMA shortened Lisbon's warnings (rain red to 15:00 then yellow, wind orange to 18:00), checked 14:08 UTC; image redrawn",
