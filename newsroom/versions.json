@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1228",
+    "date": "2026-11-11",
+    "what": "social.watch@PrompTugal.dinis: sweep 12: Charles weakens and changes course; 288 flights cancelled at Lisbon",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "018f6b28c"
+  },
+  {
     "version": "v0.1.1227",
     "date": "2026-11-11",
     "what": "programme@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
