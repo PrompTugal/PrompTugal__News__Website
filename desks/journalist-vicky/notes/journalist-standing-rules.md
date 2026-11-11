@@ -44,3 +44,9 @@ Relayed by conductor.B@PrompTugal.vicky as Vicky's word, at Dinis's suggestion; 
 - Their "unknown" or hypothesis rows are never stated as fact.
 - They are built by our own wider team, so they are not independent confirmation of anything.
 - The websummit.com rule above still holds: Web Summit's word comes from a person's browser read or the press.
+
+## Sources whose terms were checked (11 November 2026)
+- api.ipma.pt: automated use allowed (an API for applications); IPMA asks users to read its conditions and email it about their use (not done; a person's send).
+- elevon.io: robots.txt allows automated readers.
+- luma.com: terms ambiguous for scripted reading; held for Vicky's decision (14:10 UTC).
+- websummit.com: no automated reading (see above).
