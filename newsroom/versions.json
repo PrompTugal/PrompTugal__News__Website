@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1307",
+    "date": "2026-11-11",
+    "what": "conductor@PrompTugal.dinis: run report, wake 21:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "e628143e3"
+  },
+  {
     "version": "v0.1.1306",
     "date": "2026-11-11",
     "what": "sherpa@PrompTugal.dinis: 21:32 wake: W7 done (the headline leads with Thursday); Thursday ready for the reader (v0.1.1305)",
