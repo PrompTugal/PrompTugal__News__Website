@@ -1,19 +1,22 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 7 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T12:59:33Z"
-site_version: "v0.1.1236"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T15:59:58Z"
+site_version: "v0.1.1263"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 7 of 11)
 
-100 cards, from `DAT.ORG simular` to `DAT.PE brooke-hopkins`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG sgf-global` to `DAT.PE bidhan-roy`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG sgf-global` | [SGF Global](https://promptugal.news/organisations/sgf-global/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG shine-technologies` | [SHINE Technologies](https://promptugal.news/organisations/shine-technologies/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG siemens` | [Siemens AG](https://promptugal.news/organisations/siemens/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG simular` | [Simular](https://promptugal.news/organisations/simular/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG skild-ai` | [Skild AI](https://promptugal.news/organisations/skild-ai/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sky-news` | [Sky News](https://promptugal.news/organisations/sky-news/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -36,14 +39,14 @@ source: board/catalogue.json
 | `DAT.ORG tekever` | [TEKEVER](https://promptugal.news/organisations/tekever/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG tencent` | [Tencent](https://promptugal.news/organisations/tencent/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG testwaves` | [Testwaves](https://promptugal.news/organisations/testwaves/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG tiktok` | [TikTok](https://promptugal.news/organisations/tiktok/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG time` | [TIME](https://promptugal.news/organisations/time/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG true-ventures` | [True Ventures](https://promptugal.news/organisations/true-ventures/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 626 to 650**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG tiktok` | [TikTok](https://promptugal.news/organisations/tiktok/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG time` | [TIME](https://promptugal.news/organisations/time/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG true-ventures` | [True Ventures](https://promptugal.news/organisations/true-ventures/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG trump-and-vance-campaigns` | [Trump & Vance Campaigns](https://promptugal.news/organisations/trump-and-vance-campaigns/) | organisation | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.ORG turismo-de-portugal` | [Turismo de Portugal](https://promptugal.news/organisations/turismo-de-portugal/) | organisation | ontologist@ 7 Nov 2026 |
 | `DAT.ORG tvi` | [TVI](https://promptugal.news/organisations/tvi/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -66,14 +69,14 @@ source: board/catalogue.json
 | `DAT.ORG vivaldi` | [Vivaldi](https://promptugal.news/organisations/vivaldi/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG vogue-business` | [Vogue Business](https://promptugal.news/organisations/vogue-business/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG washington-post` | [The Washington Post](https://promptugal.news/organisations/washington-post/) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
-| `DAT.ORG web-summit` | [Web Summit](https://promptugal.news/organisations/web-summit/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG wired` | [Wired](https://promptugal.news/organisations/wired/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG xiaomi` | [Xiaomi](https://promptugal.news/organisations/xiaomi/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 651 to 675**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG web-summit` | [Web Summit](https://promptugal.news/organisations/web-summit/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG wired` | [Wired](https://promptugal.news/organisations/wired/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG xiaomi` | [Xiaomi](https://promptugal.news/organisations/xiaomi/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG xpeng` | [Xpeng](https://promptugal.news/organisations/xpeng/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG xpeng-aridge` | [Xpeng Aridge](https://promptugal.news/organisations/xpeng-aridge/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG xpeng-aridge-flying-cars` | [XPENG Aridge Flying Cars](https://promptugal.news/organisations/xpeng-aridge-flying-cars/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `DAT.PE amit-katwala` | [Amit Katwala](https://promptugal.news/people/amit-katwala/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE amy-nordrum` | [Amy Nordrum](https://promptugal.news/people/amy-nordrum/) | person | programme@web-summit.vicky 5 Nov 2026 |
 | `DAT.PE amy-o-brien` | [Amy O'Brien](https://promptugal.news/people/amy-o-brien/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE andreas-blattmann` | [Andreas Blattmann](https://promptugal.news/people/andreas-blattmann/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE andrew-sever` | [Andrew Sever](https://promptugal.news/people/andrew-sever/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE andrew-sollinger` | [Andrew Sollinger](https://promptugal.news/people/andrew-sollinger/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 676 to 700**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE andreas-blattmann` | [Andreas Blattmann](https://promptugal.news/people/andreas-blattmann/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE andrew-sever` | [Andrew Sever](https://promptugal.news/people/andrew-sever/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE andrew-sollinger` | [Andrew Sollinger](https://promptugal.news/people/andrew-sollinger/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE ang-li` | [Ang Li](https://promptugal.news/people/ang-li/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE ania-lichtarowicz` | [Ania Lichtarowicz](https://promptugal.news/people/ania-lichtarowicz/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE anne-bertucio-de-hollembeak` | [Anne Bertucio de Hollembeak](https://promptugal.news/people/anne-bertucio-de-hollembeak/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `DAT.PE bernardo-correia` | [Bernardo Correia](https://promptugal.news/people/bernardo-correia/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE betsy-reed` | [Betsy Reed](https://promptugal.news/people/betsy-reed/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE bidhan-roy` | [Bidhan Roy](https://promptugal.news/people/bidhan-roy/) | person | programme@PrompTugal.vicky 7 Nov 2026 |
-| `DAT.PE bill-gross` | [Bill Gross](https://promptugal.news/people/bill-gross/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE blake-montgomery` | [Blake Montgomery](https://promptugal.news/people/blake-montgomery/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE brooke-hopkins` | [Brooke Hopkins](https://promptugal.news/people/brooke-hopkins/) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-6.md) | [Next part](DAT-8.md)
