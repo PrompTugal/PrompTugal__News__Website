@@ -696,6 +696,18 @@
       "PrompTugal__App__iOS": "74883a0b",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). Team site and iOS read by ls-remote only."
+    },
+    {
+      "SGit-AI__Website__Web-Summit": "8b70ee04",
+      "PrompTugal__News__Website": "HEAD",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "4fc8285b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "SGit-AI__Website__Gamma-Ray": "d01b2ce7",
+      "PrompTugal__News__Storm-Charles": "c1d81ab0",
+      "conductor": "conductor@web-summit.dinis",
+      "at": "2026-11-11T00:14Z",
+      "note": "Storm: IPMA moved Lisbon's red rain to Wed 09:00-18:00 (CAP 21:23; open data 23:51, a 2.5 h lag); relayed to Vicky's weather desk. Storm-Charles site live (storm-charles.promptugal.news). GAMMA-Ray: 14 companies. The incident meteorologist still writes to the team site's frozen team/incidents/: asked incident.conductor@. Lanes empty."
     }
   ]
 }
