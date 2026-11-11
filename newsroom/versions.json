@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1320",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 23:48 wake: the websummit-only filter built (switch off); waits on security@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "0cb5fe403"
+  },
+  {
     "version": "v0.1.1319",
     "date": "2026-11-11",
     "what": "weather@PrompTugal.vicky: run report (23:35 wake)",
