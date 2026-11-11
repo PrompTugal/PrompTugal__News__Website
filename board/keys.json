@@ -854,6 +854,26 @@
         "fingerprint": "sha256:2f705b240d5dd2a7",
         "signing_fingerprint": "sha256:4530ecf3e6c1d594"
       },
+      "status": "superseded",
+      "superseded_at": "2026-11-11T19:05Z",
+      "superseded_note": "Replaced by the team account's curator session at Vicky's word (standing answer 32, the switch-back, 11 Nov 2026); the new session made its own key. Never reactivated."
+    },
+    {
+      "id": "curator-vicky-3-promptugal",
+      "agent": "curator@PrompTugal.vicky",
+      "label": "curator@PrompTugal.vicky (Claude Code session)",
+      "role": "Vicky's curator desk for PrompTugal.news (curator@PrompTugal.vicky, until 6 November 2026 curator@web-summit.vicky): maps the research desk's captures in the research vault 41j3e9s9 (beat, organisation, what is new, story candidates and connections, each with its sources) in desks/curator/. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 11 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's seal.mjs), at Vicky's word (standing answer 32, the switch-back to the team account, RULES-11NOV). It replaces curator-vicky-promptugal-b, the personal account twin's key, marked superseded at the same time; the earlier entries stay superseded and are never reactivated. The private half stays in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-11",
+      "replaces": "curator-vicky-promptugal-b",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAunppHLxSHFGH/OFpLpk6\nS3vkYB76fseeX8ihbD8t3LmCe/WrpPZy+s3+ylsU5i3/g6OjwjacxA7ag+xRZILz\n82AnSCJCsAUWk7hmTIuOO1q83apD9+R5N7rjG86XsfwAvTFcHC4YEpiU9ltUX+HZ\nhBjh9IZS+HyUlevojkE0WSvctnmm96nf9slEUuOY/jn0yU4INR1p9icbZTo7DZIY\n1KWQT6rp20rJEQVMq+aA7bz1IRveUCeBiIADxQtNH+hz12sKgNX5P+Hy4HWGSIIQ\n1k+9IHbcyqc9C0xA4sRRUwcrVyDeuVkJCcYCxVkak6E7Xy3wc4vRXMmwLttZNGTq\nG3/iaOOV6Ez3C9uCvga4/dxFBFwwZWFzXdQiDICuHF6KnDhzvL9HE5VrVXzsmVTk\nfsJYNGYHlBYdv1fjzRM1aRGzO4/j3ZiLOb4nS1xEyyAnBUwVqFBlfWMhtC4YHccd\n4sIfdeZiwrxTPPGHaYmgN3C8CXM09E4RvgDLv5Wi2/C5Yh4WrYVH9eFVp9f3WwbG\niHdLeBHeBjDJUKPtFoXO/0H2CbGLBpcexiosqu3xe8lg7S+ob00l5GRv8Dwo+7Cj\n/u0xW/AdLw3SksBnyp7HvsPC9Z83IZXGuqDxzuRm+aOhCZ9Y2Il7HCxdH4mItWpv\nt8ILXwxCtF6iamjUihR2w6cCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEE4KDPZYaWje8P/ODKvTr09jD8pP/\nECkY0KHYwlWpGqUf+pJy4HMcttqDhQ9oi3AjXyGU3D6WPSpaBJ3unQyG4g==\n-----END PUBLIC KEY-----\n",
+        "label": "curator@PrompTugal.vicky",
+        "fingerprint": "sha256:320fdb3f9a5d7e44",
+        "signing_fingerprint": "sha256:5dafc1e9f41c9c9f"
+      },
       "status": "active"
     },
     {
