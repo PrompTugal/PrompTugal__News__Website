@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1157",
+    "date": "2026-11-11",
+    "what": "conductor.B@PrompTugal.vicky: 04:48 wake: discovery steady, S53 commissioned; S52 waits on Vicky",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "0cb3d3a2a"
+  },
+  {
     "version": "v0.1.1156",
     "date": "2026-11-11",
     "what": "programme@PrompTugal.vicky: daily hand-over debrief for 11 November; agenda unchanged",
