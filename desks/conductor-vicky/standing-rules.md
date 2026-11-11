@@ -32,3 +32,7 @@ In practice:
 "For Connections, participation may be confirmed by the person's or company's own public page or post, a press report, or my browser read of their Web Summit page. No machine reads of websummit.com. Keep S48 and S54 as published."
 
 Relayed to journalist-connections@, curator@ and reviewer@. This updates standing answer 19's confirmation step (decisions.md) while this account covers; carry it to decisions.md at switch-back.
+
+## Programme and Web Summit's schedule (Vicky, 11 November 2026, about 14:20 UTC, in the conductor window)
+
+"Until Dinis decides, programme adds no new items copied from Web Summit's schedule. For Thursday it only updates the status of items already listed and links to Web Summit's own schedule. No schedule capture needed for now." Status comes from sources programme may read (speakers' or organisers' own pages or posts, the press, a person's browser read); no machine reads of websummit.com; nothing deleted.
