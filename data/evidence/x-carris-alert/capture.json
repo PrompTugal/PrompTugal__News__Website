@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "x-carris-alert",
+  "type": "evidence",
+  "source_url": "https://www.carris.pt/viaje/alteracoes-de-servico/alerta-circulacao/",
+  "beat": "The summit",
+  "group": "discovery leads",
+  "names": [
+    {
+      "as_listed": "Carris",
+      "ref": "organisation:carris"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-11-0300.json",
+  "run": "2026-11-11-0300 (discovery workflow: operators' notices, Konecta's own release)",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-11-0300.json"
+    ]
+  }
+}
