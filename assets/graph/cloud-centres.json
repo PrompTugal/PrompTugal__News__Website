@@ -1,5 +1,5 @@
 {
-  "about": "Where Google, Amazon (and AWS) and Microsoft stand among the summit's companies, from desks/researcher/centres-of-gravity-evidence-round-1.md (researcher@PrompTugal.dinis, read 6 November 2026, public pages only). Each cell is one relation to one centre with one of three states: found (with its source), searched and not found (with where it was searched), not looked at yet. A list read in full is dated: it changes before the summit. By dev.graphs@PrompTugal.dinis.",
+  "about": "Where Google, Amazon (and AWS) and Microsoft stand among the companies in the newsroom's data, from public pages other than websummit.com. On 11 November 2026 whatever rested only on websummit.com (its partners list, its speakers page, its press releases and posts) was taken off; those cells say so, and each comes back when another public source we may read carries it. Each remaining cell is one relation to one centre with one state: found (with its source), searched and not found, taken off, or not looked at yet. By dev.graphs@PrompTugal.dinis.",
   "ui": {
     "png": "Save as PNG",
     "source": "Source (new tab)",
@@ -8,32 +8,13 @@
     "states": {
       "found": "Found",
       "none": "Nothing found",
-      "todo": "Not looked at"
+      "todo": "Not looked at",
+      "off": "Taken off (licence)"
     },
-    "caption": "Three centres, five relations. Filled: found, with a source. Dashed: searched and nothing found. Empty: not looked at yet. Absence on a list is dated (read 7 November) and is not absence at the summit: lists change, and the other relations show other ties.",
+    "caption": "Three centres, five relations. Filled: found, with a source. Dashed: searched and nothing found. Dotted: taken off on 11 November 2026 because it rested only on websummit.com, whose licence does not let us republish data from its site. Empty: not looked at yet.",
     "fail": "The data could not be loaded."
   },
   "sources": {
-    "partners": {
-      "label": "websummit.com, event partners 2026 (whole page, 292 entries, loaded in a browser; researcher@, 7 Nov 2026)",
-      "url": "https://websummit.com/partners/event-partners/"
-    },
-    "amazon": {
-      "label": "websummit.com, press conference with Amazon's Vice President, People Experience and Technology",
-      "url": "https://websummit.com/sessions/lis26/3f2286e3-46c8-46a8-8900-692ca0c3a8f9/press-conference-with-amazon-vice-president-people-experience-technology-j-ofori-agboka/"
-    },
-    "saas": {
-      "label": "websummit.com, SaaS Summit track",
-      "url": "https://websummit.com/tracks/saas-summit"
-    },
-    "press22": {
-      "label": "Web Summit, 2022 numbers press release",
-      "url": "https://websummit.com/wp-media/2024/10/Web-Summit-2022-Numbers-Press-Release.pdf"
-    },
-    "pastpartners": {
-      "label": "websummit.com, partners (\"Some partners from our past events\")",
-      "url": "https://websummit.com/partners/"
-    },
     "cerebras": {
       "label": "cerebras.ai (its own page)",
       "url": "https://www.cerebras.ai"
@@ -70,17 +51,9 @@
       "label": "AWS Marketplace search by company name (public, no sign-in; researcher@, read 7 Nov 2026)",
       "url": "https://aws.amazon.com/marketplace/search/results"
     },
-    "blog24": {
-      "label": "websummit.com, blog: Web Summit 2024 takeaways (12 Nov 2024)",
-      "url": "https://websummit.com/blog/web-summit/web-summit-2024-hosts-sold-out-event-with-record-breaking-71528-attendees/"
-    },
-    "blog25": {
-      "label": "websummit.com, blog: Web Summit 2025 takeaways (13 Nov 2025)",
-      "url": "https://websummit.com/blog/news/record-investors-at-web-summit-2025-bucking-industry-trends/"
-    },
-    "speakers": {
-      "label": "websummit.com, 2026 speakers (loaded in a browser until it stopped growing; researcher@, 7 Nov 2026)",
-      "url": "https://websummit.com/speakers/"
+    "startcampus": {
+      "label": "Start Campus, 'Microsoft makes one of its largest investments in Europe at Start Campus in Portugal' (11 Nov 2025, read in full)",
+      "url": "https://www.startcampus.pt/microsoft-makes-one-of-its-largest-investments-in-europe-at-start-campus-in-portugal"
     }
   },
   "relations": [
@@ -112,22 +85,17 @@
       "color": "#1f6feb",
       "cells": {
         "partner": {
-          "state": "found",
-          "text": "Google Cloud is the first company on the organiser's 2026 partners page (category AI and machine learning), which says 'With Google, OpenAI and Intel all on board'; the newsroom's data has it as a confirmed partner. Read in full by researcher@ on 7 November 2026: 292 entries, partners first then exhibitors alphabetically; the page does not mark where partners end. It will change; repeat before the summit.",
-          "src": "partners",
-          "page": "companies/google-cloud/index.html",
-          "label": "Google Cloud"
+          "state": "off",
+          "text": "Taken off on 11 November 2026: this rested only on websummit.com, whose licence does not let us republish data from its site. It comes back when another public source we may read carries it."
         },
         "speaker": {
-          "state": "none",
-          "text": "No speaker from Google or Google Cloud found in the 2026 speakers page as loaded. Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); the page says 800 speakers and the scrolled page held 941 profile links (an upper figure), so the list looks fully loaded; it will change as speakers are announced, so a miss holds for the page as read and is not proof of absence. Roles only, no names.",
-          "src": "speakers",
-          "label": "Google"
+          "state": "off",
+          "text": "Taken off on 11 November 2026: this rested only on websummit.com, whose licence does not let us republish data from its site. It comes back when another public source we may read carries it."
         },
         "builton": {
           "state": "found",
           "label": "3 of 14 read",
-          "text": "Of the 14 partner companies' pages read, three name Google Cloud: Elastic (on its cloud marketplace), Datadog (a monitoring product page; no partnership claimed) and ManageEngine (cloud security for Azure, AWS and GCP as a product area; coverage, not a partnership). Fourteen of the 17 other companies our data lists as Web Summit partners have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
+          "text": "Of the 14 companies' own pages read, three name Google Cloud: Elastic (on its cloud marketplace), Datadog (a monitoring product page; no partnership claimed) and ManageEngine (cloud security for Azure, AWS and GCP as a product area; coverage, not a partnership). Fourteen of the 17 other companies in the newsroom's data have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
           "links": [
             {
               "label": "Elastic: on the Google Cloud marketplace",
@@ -151,10 +119,8 @@
           "text": "The data has no such field yet."
         },
         "past": {
-          "state": "found",
-          "text": "Google is named among the 2022 edition's top partners in Web Summit's own numbers release (the ontologist's graph holds it as a partner of the 2022 edition; the 2026 partner on the list is Google Cloud). The organiser's own 2024 and 2025 takeaway posts name the partners exhibiting; neither list names AWS, Google or Microsoft (2025 names Alibaba Cloud), so the 2022 naming did not repeat in those lists. Those lists are short and mid-event, so this is not absence.",
-          "src": "press22",
-          "label": "Google, 2022"
+          "state": "off",
+          "text": "Taken off on 11 November 2026: this rested only on websummit.com, whose licence does not let us republish data from its site. It comes back when another public source we may read carries it."
         }
       }
     },
@@ -164,20 +130,17 @@
       "color": "#bf8700",
       "cells": {
         "partner": {
-          "state": "none",
-          "text": "Neither Amazon nor AWS appears among the 292 entries of the organiser's 2026 partners page. Amazon is present in other ways (a press conference, one speaker; AWS Marketplace sellers among the partners). Read in full by researcher@ on 7 November 2026: 292 entries, partners first then exhibitors alphabetically; the page does not mark where partners end. It will change; repeat before the summit.",
-          "src": "partners"
+          "state": "off",
+          "text": "Taken off on 11 November 2026: this rested only on websummit.com, whose licence does not let us republish data from its site. It comes back when another public source we may read carries it."
         },
         "speaker": {
-          "state": "found",
-          "text": "A press conference with Amazon's Vice President, People Experience and Technology: 11 November 2026, 16:00 to 16:20, Stage 2. The 2026 speakers page as loaded lists that one Amazon speaker (a vice president, people, experience and technology, United States) and no speaker from AWS or Amazon Web Services; the job title only, not a cloud division. Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); the page says 800 speakers and the scrolled page held 941 profile links (an upper figure), so the list looks fully loaded; it will change as speakers are announced, so a miss holds for the page as read and is not proof of absence. Roles only, no names.",
-          "src": "speakers",
-          "label": "Amazon"
+          "state": "off",
+          "text": "Taken off on 11 November 2026: this rested only on websummit.com, whose licence does not let us republish data from its site. It comes back when another public source we may read carries it."
         },
         "builton": {
           "state": "found",
           "label": "11 of 17 sell on AWS Marketplace",
-          "text": "Two lenses. Front pages (14 of the 17 other partner companies read): five name AWS, in different ways: Cerebras (a testimonial by an AWS vice president on a joint inference setup, not called a partnership), Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage) and Runpod (a customer compares AWS as the more expensive rival). AWS Marketplace search by company name (all 17, first results only): 11 have a listing of their own, nine under their own name (1Password, Akamai, Cerebras, Datadog, Elastic, IBM, Runpod, Twilio, VTEX) and two under a parent (Cisco for Cisco Outshift, Zoho for ManageEngine); several hold an AWS Specialization badge. A listing shows the company sells there; it is not a stated partnership. A front page understates the tie (Twilio and VTEX said nothing on theirs yet both sell there), so the marketplace is the better first source. Not found in the first results: Mozilla, Gcore, Genspark, KPMG and PitchBook, and the search is fuzzy, so that is not proof of none. Delinea appears only through resellers. The Google Cloud and Microsoft marketplaces could not be read (one shows nothing without interaction, the other refuses automated readers), so only AWS has a marketplace lens.",
+          "text": "Two lenses. Front pages (14 of the 17 other companies in the newsroom's data read): five name AWS, in different ways: Cerebras (a testimonial by an AWS vice president on a joint inference setup, not called a partnership), Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage) and Runpod (a customer compares AWS as the more expensive rival). AWS Marketplace search by company name (all 17, first results only): 11 have a listing of their own, nine under their own name (1Password, Akamai, Cerebras, Datadog, Elastic, IBM, Runpod, Twilio, VTEX) and two under a parent (Cisco for Cisco Outshift, Zoho for ManageEngine); several hold an AWS Specialization badge. A listing shows the company sells there; it is not a stated partnership. A front page understates the tie (Twilio and VTEX said nothing on theirs yet both sell there), so the marketplace is the better first source. Not found in the first results: Mozilla, Gcore, Genspark, KPMG and PitchBook, and the search is fuzzy, so that is not proof of none. Delinea appears only through resellers. The Google Cloud and Microsoft marketplaces could not be read (one shows nothing without interaction, the other refuses automated readers), so only AWS has a marketplace lens.",
           "links": [
             {
               "label": "Cerebras: an AWS executive's testimonial, a joint inference setup",
@@ -241,10 +204,8 @@
           "text": "The data has no such field yet."
         },
         "past": {
-          "state": "found",
-          "text": "AWS is named among the 2022 edition's top partners, with Figma, Stripe and Binance, in Web Summit's own numbers release. The organiser's own 2024 and 2025 takeaway posts name the partners exhibiting; neither list names AWS, Google or Microsoft (2025 names Alibaba Cloud), so the 2022 naming did not repeat in those lists. Those lists are short and mid-event, so this is not absence.",
-          "src": "press22",
-          "label": "AWS, 2022"
+          "state": "off",
+          "text": "Taken off on 11 November 2026: this rested only on websummit.com, whose licence does not let us republish data from its site. It comes back when another public source we may read carries it."
         }
       }
     },
@@ -254,20 +215,17 @@
       "color": "#1a7f37",
       "cells": {
         "partner": {
-          "state": "none",
-          "text": "Neither Microsoft nor Azure appears among the 292 entries of the organiser's 2026 partners page. Microsoft is present in other ways (one corporate speaker; KPMG's Microsoft alliance; several partners name it). Read in full by researcher@ on 7 November 2026: 292 entries, partners first then exhibitors alphabetically; the page does not mark where partners end. It will change; repeat before the summit.",
-          "src": "partners"
+          "state": "off",
+          "text": "Taken off on 11 November 2026: this rested only on websummit.com, whose licence does not let us republish data from its site. It comes back when another public source we may read carries it."
         },
         "speaker": {
-          "state": "found",
-          "text": "One speaker listed as a global director of creative at Microsoft, United States, on the 2026 speakers page as loaded: a corporate role, not from the Azure cloud division. None named Azure. (A Web Summit SaaS Summit page names a Microsoft executive in the past tense: not 2026 evidence.) Read by researcher@ on 7 November 2026 in a browser, loading the whole page (about 71,000 characters); the page says 800 speakers and the scrolled page held 941 profile links (an upper figure), so the list looks fully loaded; it will change as speakers are announced, so a miss holds for the page as read and is not proof of absence. Roles only, no names.",
-          "src": "speakers",
-          "label": "Microsoft"
+          "state": "off",
+          "text": "Taken off on 11 November 2026: this rested only on websummit.com, whose licence does not let us republish data from its site. It comes back when another public source we may read carries it."
         },
         "builton": {
           "state": "found",
           "label": "6 of 14 read",
-          "text": "Of the 14 partner companies' pages read, six name Microsoft or Azure, in different ways: Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage), Gcore (Microsoft quoted as a customer of its CDN), KPMG Portugal (a stated alliance with Microsoft on its own page, headed 'KPMG e Microsoft': it names Azure, Azure OpenAI, Fabric, Microsoft 365, Dynamics 365 and Security, and says Microsoft awarded KPMG a supplier-of-the-year prize; the year and category are not on the part read; the strongest tie found) and Delinea (a comparison page against Microsoft, a rival). Fourteen of the 17 other companies our data lists as Web Summit partners have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
+          "text": "Of the 14 companies' own pages read, six name Microsoft or Azure, in different ways: Elastic (on its cloud marketplace), Datadog (a monitoring product page, no partnership claimed), ManageEngine (product coverage), Gcore (Microsoft quoted as a customer of its CDN), KPMG Portugal (a stated alliance with Microsoft on its own page, headed 'KPMG e Microsoft': it names Azure, Azure OpenAI, Fabric, Microsoft 365, Dynamics 365 and Security, and says Microsoft awarded KPMG a supplier-of-the-year prize; the year and category are not on the part read; the strongest tie found) and Delinea (a comparison page against Microsoft, a rival). Fourteen of the 17 other companies in the newsroom's data have now had their front page read (researcher@, batches 1 and 2); three (Akamai, Genspark, PitchBook) refuse a plain fetch and are not read. A page not showing something does not mean the tie is absent. A menu link, a customer story or a rival comparison is not a partnership, and each line says which it is.",
           "links": [
             {
               "label": "Elastic: on the Azure marketplace",
@@ -307,9 +265,9 @@
         },
         "past": {
           "state": "found",
-          "text": "Microsoft is shown under \"Some partners from our past events\" on Web Summit's partners page; the edition is not given, and no 2026 listing was found. The organiser's own 2024 and 2025 takeaway posts name the partners exhibiting; neither list names AWS, Google or Microsoft (2025 names Alibaba Cloud), so the 2022 naming did not repeat in those lists. Those lists are short and mid-event, so this is not absence. Separately, Start Campus, the operator of the Sines data centre campus, reported on 11 November 2025 an announcement by Microsoft of USD 10 billion for that campus, after remarks by Microsoft's president at the opening of Web Summit Lisbon: Microsoft's largest Portugal announcement, made in Web Summit week. Portugal's trade agency AICEP also records it (Portugalglobal, 11 December 2025). Microsoft's own page was not read, and he is not on the organiser's listed line-up for that opening night, so he is not described here as a listed speaker; no stage or time is given. Nscale's releases (15 October 2025, 5 May 2026) describe the deliveries to Microsoft at that campus; its own spending is a different figure from Microsoft's USD 10 billion. The relation is 'announced at the summit's opening': neither partner, exhibitor nor speaker's employer in the lists.",
-          "src": "pastpartners",
-          "label": "Past partner; Sines, 2025 opening"
+          "label": "Sines, Nov 2025",
+          "src": "startcampus",
+          "text": "Start Campus, the operator of the Sines data centre campus in Portugal, reported on 11 November 2025 an announcement by Microsoft of USD 10 billion for that campus, after remarks by Microsoft's president at the opening of Web Summit Lisbon: Microsoft's largest Portugal announcement, made in Web Summit week. Portugal's trade agency AICEP also records it (Portugalglobal, 11 December 2025). Microsoft's own page was not read, so he is not described here as a listed speaker, and no stage or time is given. Nscale's releases (15 October 2025, 5 May 2026) describe the deliveries to Microsoft at that campus; its own spending is a different figure from Microsoft's USD 10 billion. The relation is 'announced at the summit's opening', which is neither a partner nor an exhibitor nor a speaker's employer."
         }
       }
     }

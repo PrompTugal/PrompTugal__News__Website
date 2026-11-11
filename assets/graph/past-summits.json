@@ -1,17 +1,17 @@
 {
-  "about": "Web Summit's editions in Lisbon, 2016 to 2025, with the attendance figure where a source gives one, from desks/researcher/past-summits-round-1.md (researcher@PrompTugal.dinis, read 6 November 2026). The figures are the organiser's claims as the sources report them; status says how far we read: read (a page read at source), tertiary (Wikipedia's table), summary (only a search summary: not to be treated as read), none (no figure found). By dev.graphs@PrompTugal.dinis.",
+  "about": "Web Summit's editions in Lisbon, 2016 to 2025, with the attendance figure where a public source other than websummit.com gives one. On 11 November 2026 whatever rested only on websummit.com was taken off (its licence does not let us republish data from its site); each figure here has another public source, cited; each comes back when one is found. Status says how far we read: read (a public page read), tertiary (Wikipedia's table), none (no figure we may show).",
   "ui": {
     "png": "Save as PNG",
     "source": "Source (new tab)",
-    "empty": "Tap an edition to see its dates, venue, figure and where the figure comes from.",
-    "caption": "Attendance at Web Summit in Lisbon, as the organiser reports it. Solid: read at source (the organiser's own releases for 2022 and 2023; the organiser's own headline for 2024; a news report of its figure for 2025). Paler: from Wikipedia's table. Dashed: a summary only, not yet read. Marked n/a: no figure found. The organiser's figures are claims, and the sources do not always agree.",
+    "empty": "Tap an edition to see its dates, the figure and where it comes from.",
+    "caption": "Attendance at Web Summit in Lisbon, as public sources report it. Solid: read in a public source (a news agency's headline for 2024; Portugal's trade agency for 2025). Paler: from Wikipedia's table (2016 to 2018, and about 70,000 for 2022). Marked n/a: no figure we may show. Web Summit's own releases are not used: its licence does not let us republish data from its site, so on 11 November 2026 we took off whatever rested only on it.",
     "legend": {
-      "read": "Read at source",
+      "read": "Read in a public source",
       "tertiary": "Wikipedia's table",
       "summary": "Summary only",
       "none": "No figure found"
     },
-    "cautions": "2025's 71,386 is below 2024's 71,528 (both the organiser's own, announced mid-event), so 'record attendance' does not hold for 2025 in these sources; the records the sources claim are for investors (1,857) and startups. The organiser's own 2025 post gives 71,386, below 2024's; the record it claims is for investors (1,857, up 74%). One recap says 71,368. Web Summit Qatar (2024) is not a Lisbon edition.",
+    "cautions": "2025's 71,386 is below 2024's 71,528, so 'record attendance' does not hold for 2025 in these sources; the record claimed for 2025 is for investors (1,857, up 74%). One recap gives 71,368.",
     "fail": "The data could not be loaded."
   },
   "sources": {
@@ -20,28 +20,12 @@
       "url": "https://en.wikipedia.org/wiki/Web_Summit"
     },
     "pg25": {
-      "label": "portugalglobal.pt, 12 Nov 2025",
+      "label": "portugalglobal.pt (Portugal's trade agency, AICEP; a Lusa report), 12 Nov 2025, read in full",
       "url": "https://portugalglobal.pt/noticias/2025/novembro/web-summit-evento-tecnologico-com-recorde-de-71386-participantes/"
     },
-    "blog23": {
-      "label": "websummit.com, Web Summit 2023 numbers (not yet read)",
-      "url": "https://websummit.com/blog/web-summit/web-summit-2023-numbers/"
-    },
-    "press22": {
-      "label": "Web Summit, 2022 numbers press release (read at source)",
-      "url": "https://websummit.com/wp-media/2024/10/Web-Summit-2022-Numbers-Press-Release.pdf"
-    },
-    "num23": {
-      "label": "Web Summit, 2023 numbers (read at source)",
-      "url": "https://websummit.com/wp-media/2024/09/Web-Summit-2023-Numbers.pdf"
-    },
-    "blog24": {
-      "label": "websummit.com, blog: 'Web Summit 2024 hosts sold out event with record breaking 71,528 attendees' (12 Nov 2024; headline and date read)",
-      "url": "https://websummit.com/blog/web-summit/web-summit-2024-hosts-sold-out-event-with-record-breaking-71528-attendees/"
-    },
-    "blog25": {
-      "label": "websummit.com, blog: 'Record investors at Web Summit 2025, bucking industry trends' (13 Nov 2025; read in full)",
-      "url": "https://websummit.com/blog/news/record-investors-at-web-summit-2025-bucking-industry-trends/"
+    "lusa24": {
+      "label": "Lusa, 'Portugal: Web Summit has record-breaking 71,528 participants' (12 Nov 2024; the headline is read, the body is for subscribers and was not read around)",
+      "url": "https://www.lusa.pt/lusanews/article/2024-11-12/43898895/portugal-web-summit-has-record-breaking-71-528-participants"
     }
   },
   "editions": [
@@ -109,41 +93,41 @@
       "year": 2022,
       "dates": "1 to 4 Nov",
       "venue": "Lisbon",
-      "value": 71033,
-      "label": "71,033",
-      "status": "read",
-      "note": "As the organiser announced it on 2 November 2022: 71,033 attendees from 160 countries, sold out three weeks ahead; 2,296 startups and 342 partners from 94 countries; 1,050 speakers (34% women); 1,081 investors from 60 countries. This replaces Wikipedia's 'about 70,000'.",
-      "src": "press22"
+      "value": 70000,
+      "label": "about 70,000",
+      "status": "tertiary",
+      "note": "Wikipedia's table gives about 70,000. The organiser's own, more exact figure rested only on websummit.com and was taken off on 11 November 2026 (licence); it comes back when another public source carries it.",
+      "src": "wiki"
     },
     {
       "year": 2023,
-      "dates": "13 to 16 Nov",
-      "venue": "not listed in the table",
-      "value": 70236,
-      "label": "70,236",
-      "status": "read",
-      "note": "As the organiser announced it on 14 November 2023: 70,236 attendees from 153 countries; 2,608 startups from 93 countries; 321 partners; 43% of attendees and 38% of speakers women. The dates are from Wikipedia's table.",
-      "src": "num23"
+      "dates": "November",
+      "venue": "not listed here",
+      "value": null,
+      "label": "",
+      "status": "none",
+      "note": "No figure here. The organiser's own figure rested only on websummit.com and was taken off on 11 November 2026 (licence); a city release that carries it could not be read by a machine (it refuses automated readers), so it is not used. It comes back when another public source we may read carries it.",
+      "src": "wiki"
     },
     {
       "year": 2024,
-      "dates": "11 to 14 Nov",
-      "venue": "MEO Arena and FIL, Parque das Nações",
+      "dates": "November",
+      "venue": "not listed here",
       "value": 71528,
       "label": "71,528",
       "status": "read",
-      "note": "The organiser's own post (12 November 2024, midweek), read at source: sold out, 71,528 attendees from 153 countries; 3,050 companies exhibiting, 1,066 investors, 953 speakers, 2,005 media; 62 trade delegations from 36 countries. Its list of exhibiting partners does not name AWS, Google or Microsoft. An in-event figure; a final number may differ. Compared with 2025 (same organiser): investors 1,066 vs 1,857; speakers 953 vs 869; media 2,005 vs 1,519.",
-      "src": "blog24"
+      "note": "Lusa, the Portuguese news agency, headlined 'Web Summit has record-breaking 71,528 participants' on 12 November 2024 (midweek; the body is for subscribers and was not read). The organiser's own breakdown (countries, investors, speakers, media, delegations) rested only on websummit.com and was taken off on 11 November 2026 (licence).",
+      "src": "lusa24"
     },
     {
       "year": 2025,
-      "dates": "10 to 13 Nov",
-      "venue": "MEO Arena and FIL",
+      "dates": "November",
+      "venue": "not listed here",
       "value": 71386,
       "label": "71,386",
       "status": "read",
-      "note": "The organiser's own post (13 November 2025, midweek), read in full: 71,386 attendees from 157 countries; 1,857 investors from 86 countries, up 74% from 1,066; 2,725 startups from 108 countries; 869 speakers; 1,519 media; 268 government delegations from 82 countries. 'The largest number ever to attend' follows the investors sentence, so the record is for investors. 71,386 is below the organiser's own 71,528 for 2024. An in-event figure; one recap gives 71,368.",
-      "src": "blog25"
+      "note": "Portugal's trade agency AICEP (portugalglobal.pt, a Lusa report of 12 November 2025, midweek) says the organiser reported 71,386 participants from 157 countries; 1,857 investors from 86 countries, up 74% from 1,066 the year before; and 2,725 startups from 108 countries, 40% with women among the founders. The organiser's longer breakdown rested only on websummit.com and was taken off on 11 November 2026 (licence). 71,386 is below Lusa's 71,528 for 2024, so 'record attendance' does not hold for 2025; the record the organiser claims is for investors. One recap gives 71,368.",
+      "src": "pg25"
     }
   ]
 }

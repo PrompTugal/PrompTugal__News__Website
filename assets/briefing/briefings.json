@@ -226,15 +226,15 @@
       "slides": [
         {
           "title": "The question",
-          "text": "Where are the Google, Amazon (AWS) and Microsoft centres of gravity among the summit's companies? This page sets three centres against five relations and marks each cell found, searched and not found, or not looked at yet."
+          "text": "Where are the Google, Amazon (AWS) and Microsoft centres of gravity among the companies around Web Summit? This page sets three centres against five relations and marks each cell found, searched and not found, taken off, or not looked at yet."
         },
         {
           "title": "What is known",
-          "text": "Google Cloud is the first company on the 2026 partners page. Google and AWS were named top partners of the 2022 edition, and Microsoft is on Web Summit's list of past partners. Amazon has a press conference on 11 November, given by job title only; the 2026 speakers page as loaded lists one Amazon and one Microsoft corporate speaker and none from AWS, Google or Azure. Of 14 partner companies' own pages read, five name AWS, three name Google Cloud and six name Microsoft or Azure, each in a different way (a marketplace, a customer, a rival, product coverage)."
+          "text": "Of 14 companies' own pages read, five name AWS, three name Google Cloud and six name Microsoft or Azure, each in a different way (a marketplace, a customer, a rival, product coverage); 11 of the 17 other companies sell on AWS Marketplace. Microsoft announced USD 10 billion for the Sines data centre campus in Web Summit week 2025, as the campus operator Start Campus reports."
         },
         {
-          "title": "What is not",
-          "text": "Nothing found for AWS or Microsoft on the organiser's 2026 partners page (292 entries, read in full on 7 November; it will change), though both are present in other ways, and three of the 17 other partner companies' pages could not be read and the rest are only front pages. Which companies each centre invests in is not looked at. None of this is absence at the summit.",
+          "title": "What is not here",
+          "text": "It is not everything, on purpose: Web Summit's licence does not let us republish data from its site, so on 11 November 2026 we took off whatever rested only on websummit.com (its partners list, speakers page and releases). Those cells say so and come back when another public source carries them. Which companies each centre invests in is not looked at.",
           "href": "graph/world/index.html",
           "link": "See the companies on the world map"
         }
@@ -249,15 +249,15 @@
       "slides": [
         {
           "title": "Ten Lisbon editions",
-          "text": "Web Summit has been in Lisbon since 2016. Each column is one edition, as tall as the attendance the organiser reported, with its dates, venue and source on tap."
+          "text": "Web Summit has been in Lisbon since 2016. Each column is one edition, as tall as the attendance public sources report, with its date and source on tap."
         },
         {
           "title": "How far each figure was read",
-          "text": "Solid: read at source (2022 and 2023 from the organiser's own releases, 2024 and 2025 from its own posts). Paler: Wikipedia's table (2016, 2017, 2018). Marked n/a: no figure found (2019, 2021), and 2020 was held online."
+          "text": "Solid: read in a public source (a news agency's headline for 2024, Portugal's trade agency for 2025). Paler: Wikipedia's table (2016 to 2018, and about 70,000 for 2022). n/a: no figure we may show. Web Summit's own releases are not used: its licence does not let us republish data from its site, so on 11 November 2026 we took off whatever rested only on it."
         },
         {
           "title": "A caution",
-          "text": "The figures are the organiser's claims and the sources do not always agree. 2025's 71,386 is below 2024's 71,528 (both the organiser's own, announced mid-event), so 'record attendance' does not hold for 2025; the records claimed are for investors and startups. The organiser's own 2025 post gives 71,386, below 2024's; the record it claims is for investors (1,857, up 74%). One recap says 71,368.",
+          "text": "The sources do not always agree. 2025's 71,386 is below 2024's 71,528, so 'record attendance' does not hold for 2025; the record the organiser claims for 2025 is for investors (1,857, up 74%). One recap gives 71,368.",
           "href": "articles/web-summit-ten-lisbon-years.html",
           "link": "Read the ten Lisbon years"
         }
