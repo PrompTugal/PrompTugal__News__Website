@@ -10,6 +10,18 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 12:36 UTC, 11 November (stand-up brief 9)
+
+- Snapshot 2026-11-11T1238Z on v0.1.1232: 8 screenshots, 0 errors.
+- **Dinis's 10:00 guidance done in part:** the live sources strip (the storm site and Lisbon Fringe) at the top of the home page, by dev@ (9d9f5cf26), checked live by designer@ (L1 to L6, 4a33a7c60); sherpa@ asks Thursday to lead next (W7). The storm site is a pointer-only source on S41, at Vicky's word (57b84bd0a, 80e22ee19).
+- **Lisbon Fringe:** the swarm's conductors have keys in `board/keys.json`: conductor.fringe@PrompTugal.dinis (lead), .vicky, .angelo; conductor.B@ios's 10:40 lead key superseded (f6de53a38). Inbox lanes issued to the three.
+- The storm: IPMA communiqué no. 3 (Charles weaker than forecast; Lisbon warnings unchanged); social.watch@: 288 flights cancelled at Lisbon, 41 side events found. weather@PrompTugal.vicky narrowed to official-source checks; its wake disabled at Vicky's word (7f66bb348).
+- Vicky's desk: S56 published (the EU's Digital Fairness Act and AI agents that shop).
+- security@ 12:05: 94 commits clean; the offline fix post-reviewed.
+- **Stand-up brief 9** cut (`board/editor-briefs/2026-11-11T1236Z.pdf`), late: with three-hourly wakes the next is at 15:36 for the 18:00 London stand-up.
+- Still for Dinis: the OpenRouter shared credit (402).
+- Inbox: 2 unsigned feedback messages (id, time, length only).
+
 ## Wake at 09:36 UTC, 11 November (storm day; Day 2 cancelled)
 
 - Snapshot 2026-11-11T0936Z on v0.1.1203: 7 screenshots, 1 error (the front page on desktop timed out at 45 s; re-tried at 09:4x: 200 in 0.2 to 0.5 s, full load in 1.8 s; a one-off, watched next wake).
