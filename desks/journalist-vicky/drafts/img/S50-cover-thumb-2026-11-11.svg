@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-labelledby="t d">
+  <title id="t">EN 18286, the AI Act's first harmonised standard</title>
+  <desc id="d">EN 18286: quality management for high-risk AI. Source: European Commission, October 2026.</desc>
+  <rect width="480" height="480" fill="#f7f3ea"/>
+  <rect x="0" y="0" width="480" height="12" fill="#003399"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="36" y="96" font-size="34" fill="#003399">AI Act standard</text>
+    <text x="36" y="200" font-size="84" font-weight="700" fill="#1a1a1a">EN 18286</text>
+    <text x="36" y="270" font-size="36" fill="#1a1a1a">Quality management</text>
+    <text x="36" y="316" font-size="36" fill="#1a1a1a">for high-risk AI</text>
+    <text x="36" y="430" font-size="30" fill="#444">Source: European Commission</text>
+  </g>
+</svg>
