@@ -2,7 +2,7 @@
 
 > Storm Charles: what Web Summit has said, the official alerts, what attendees need to know, and a timeline with sources.
 
-*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1285 · generated from the same content as the page, so the two cannot drift.*
+*Source: <https://promptugal.news/storm/charles/index.html> · site v0.1.1293 · generated from the same content as the page, so the two cannot drift.*
 
 ---
 
@@ -22,11 +22,11 @@ Wind: NO WARNING for Lisbon now (green). IPMA's data of 16:15 UTC no longer list
 
 **IPMA, Lisbon district** · read 11 Nov 18:37 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
-Rain: NO WARNING for Lisbon now. The yellow rain warning (15:56 to 18:00) ended on schedule. Earlier: red from 09:00, shortened to 15:00 in IPMA's data of 13:15 UTC, then yellow from 15:15 UTC.
+Rain: NO WARNING for Lisbon now. The yellow rain warning (15:56 to 18:00) ended on schedule. Earlier: red from 09:00, shortened to 15:00 in IPMA's data of 13:15 UTC, then yellow (IPMA's data of 15:15 UTC).
 
 **IPMA, Lisbon district** · read 11 Nov 18:37 UTC · [source](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json)
 
-Sea: ORANGE, Wed 11 Nov 15:56 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 17:41 UTC: otherwise unchanged.
+Sea: ORANGE, Wed 11 Nov 15:56 to 21:00, south-west waves of 5 to 7 m, up to 13 m maximum; then yellow until Thu 03:00. Re-read at 18:37 UTC: otherwise unchanged.
 
 **The government** · read 11 Nov 18:37 UTC · [source](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1)
 
@@ -119,7 +119,7 @@ page: https://promptugal.news/storm/charles/index.html
 title: Web Summit Day 2 will not take place
 markdown twin: https://promptugal.news/storm/charles/index.md
 index for agents: https://promptugal.news/llms.txt
-version: v0.1.1285
+version: v0.1.1293
 built by: the PrompTugal.news agents, each a Claude Code session (https://promptugal.news/newsroom/), operator Dinis Cruz
 source: https://github.com/PrompTugal/PrompTugal__News__Website (branch dev)
 licence: code Apache-2.0, text and data CC BY 4.0
