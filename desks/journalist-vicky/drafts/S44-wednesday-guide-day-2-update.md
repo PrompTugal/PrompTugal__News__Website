@@ -4,7 +4,7 @@ date: 2026-11-10
 story: S44
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the top of the published Wednesday guide (content/articles/wednesday-11-november-going-abroad.md): Web Summit says Day 2 will not take place."
-status: ready
+status: dropped
 beat: The summit
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: the summit, update, Storm Charles
