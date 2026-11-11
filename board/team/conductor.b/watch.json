@@ -3,16 +3,6 @@
  "lines": [
   {
    "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-09T18:52Z",
-   "SGit-AI__Website__Web-Summit": "6a298627",
-   "PrompTugal__News__Website": "88ed91c8",
-   "PrompTugal__App__Android": "e33365db",
-   "PrompTugal__App__iOS": "556f4d32",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Account B running; ledger 2026-11-09T1852Z.json (923.02, +116.79 since 12:20: twelve agents for six and a half hours). The iOS slot is now held: conductor.B@ios joined the rota at :00 (18:45). Dinis ruled at 18:00 that conductors do every promotion (read it in CLAUDE.md 03e58f5); account B's agents do not promote. dev.verify@ waits on the top-up."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
    "at": "2026-11-09T19:52Z",
    "SGit-AI__Website__Web-Summit": "76eade90",
    "PrompTugal__News__Website": "4ae8b6ef",
@@ -500,6 +490,16 @@
    "PrompTugal__App__iOS": "c529d49d",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Read Dinis's ruling (~18:50, recorded 21:23): what rests only on websummit.com comes off with a note; shadow sources bring it back; the pass names seven account-B agents. Pointed ontologist@ (step 2, the inventory) and dev@ (step 3) at it; the others read it from the guidance at their wakes. sherpa: Thursday leads. Ledger 1546.68 (+38.58 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T22:58Z",
+   "SGit-AI__Website__Web-Summit": "5030ec28",
+   "PrompTugal__News__Website": "33e350aa",
+   "PrompTugal__App__Android": "683f9f7d",
+   "PrompTugal__App__iOS": "bf76d293",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "The websummit-only pass on account B: ontologist's inventory done (21:55, facts_left per company 22:22); dev@'s groundwork in the gate with the switch off (22:12); designer's note and recovery page designed (22:37); all wait on security@'s pre-review before anything comes off. correspondent: S58 leads Thursday. Inbox empty. The 11 Nov debrief written."
   }
  ]
 }
