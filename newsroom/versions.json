@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1341",
+    "date": "2026-11-12",
+    "what": "conductor@PrompTugal.dinis: run report, wake 03:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ea7304900"
+  },
+  {
     "version": "v0.1.1340",
     "date": "2026-11-12",
     "what": "sherpa@PrompTugal.dinis: 03:29 wake: NE1 to NE3 in designer@'s spec; Thursday morning ready (v0.1.1339)",
