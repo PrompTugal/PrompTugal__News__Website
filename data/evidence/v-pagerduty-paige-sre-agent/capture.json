@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-pagerduty-paige-sre-agent",
+  "type": "evidence",
+  "source_url": "https://www.pagerduty.com/blog/ai/meet-paige-sre-agent/",
+  "beat": "AI and robotics",
+  "group": "AI",
+  "names": [
+    {
+      "as_listed": "PagerDuty",
+      "ref": "organisation:pagerduty"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-12-1140.json",
+  "run": "2026-11-12T11:40Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-12-1140.json"
+    ]
+  }
+}

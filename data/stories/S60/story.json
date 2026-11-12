@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S60",
+  "type": "story",
+  "title": "What PagerDuty says it learned running AI agents in production",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-pagerduty-production-agents",
+    "evidence:v-pagerduty-paige-sre-agent"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-12-1140.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-12-1140.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-12T11:40Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-12-1140.json"
+    }
+  ]
+}
