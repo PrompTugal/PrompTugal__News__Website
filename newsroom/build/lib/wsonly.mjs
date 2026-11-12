@@ -65,7 +65,7 @@ export function wsApply(store) {
     })
     // evidence captures are not in the inventory: one whose source is websummit.com is a copy of its page (the speakers,
     // the featured startups, the updates), so it comes off by the host rule
-    gone.evidence = new Set((store.evidence || []).filter(e => isWs(e.source_url)).map(e => e.id))
+    gone.evidence = new Set([...(store.evidence || []).filter(e => isWs(e.source_url)).map(e => e.id), ...(i.evidence || []).map(x => id(x.evidence))])   // the inventory's list too (ontologist@, 12 November 02:33)
     for (const k of ['people', 'events', 'organisations', 'places', 'evidence']) store[k] = store[k].filter(x => !gone[k].has(x.id))
     // what stays may not point at what came off: a ref to it is dropped from a list (or the list's object that carries it),
     // and a field that is only that ref is emptied

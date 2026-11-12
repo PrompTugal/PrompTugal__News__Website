@@ -29,7 +29,7 @@ import { execFileSync } from 'node:child_process'
 export function validate(gate) {
     const i = wsInventory(); if (!wsSwitch().on || !i) return []
     const out = [], strip = r => String(r).replace(/^[a-z]+:/, '')
-    const G = { person: new Set(i.people.map(x => strip(x.person))), event: new Set(i.events.map(x => strip(x.event))), organisation: new Set(i.organisations.map(x => strip(x.organisation))), place: new Set(i.places.map(x => strip(x.place))), company: new Set(i.companies.filter(c => c.left_with_nothing).map(c => strip(c.company))), evidence: new Set(evGone(gate)) }
+    const G = { person: new Set(i.people.map(x => strip(x.person))), event: new Set(i.events.map(x => strip(x.event))), organisation: new Set(i.organisations.map(x => strip(x.organisation))), place: new Set(i.places.map(x => strip(x.place))), company: new Set(i.companies.filter(c => c.left_with_nothing).map(c => strip(c.company))), evidence: new Set([...evGone(gate), ...(i.evidence || []).map(x => strip(x.evidence))]) }
     const DIR = { people: 'person', events: 'event', organisations: 'organisation', places: 'place', companies: 'company', evidence: 'evidence' }
     const drop = new Set(gate.text('api/v1/deploy-exclude.txt').split('\n').filter(Boolean).map(l => l.slice(1)))
     const hit = t => { for (const m of t.matchAll(/\b(person|event|organisation|place|company|evidence):([a-z0-9-]+)/g)) if (G[m[1]].has(m[2])) return m[0]
