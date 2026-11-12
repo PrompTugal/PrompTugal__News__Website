@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: The repository"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T21:58:53Z"
-site_version: "v0.1.1309"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T00:58:33Z"
+site_version: "v0.1.1328"
 source: board/catalogue.json
 ---
 
@@ -38,8 +38,8 @@ Special collection: S2 (11 cards). Dinis's guidance has its own guide: [guidance
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (80 connections from this collection)
-- [Work in hand](WRK.md) (78 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (84 connections from this collection)
+- [Work in hand](WRK.md) (84 connections from this collection)
 - [Readers and observability](RDR.md) (56 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 

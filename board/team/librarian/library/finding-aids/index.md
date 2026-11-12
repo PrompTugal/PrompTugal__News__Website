@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T21:58:53Z"
-site_version: "v0.1.1309"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T00:58:33Z"
+site_version: "v0.1.1328"
 source: board/catalogue.json
 ---
 
@@ -19,11 +19,11 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
 | [Guidance (special)](GDN.md) | `GDN` | 637 |
 | [The repository](GEN.md) | `GEN` | 44 |
-| [The library](LIB.md) | `LIB` | 347 |
+| [The library](LIB.md) | `LIB` | 349 |
 | [The publication](PUB.md) | `PUB` | 482 |
-| [Readers and observability](RDR.md) | `RDR` | 39 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 3044 |
-| [Work in hand](WRK.md) | `WRK` | 360 |
+| [Readers and observability](RDR.md) | `RDR` | 41 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 3064 |
+| [Work in hand](WRK.md) | `WRK` | 361 |
 
 ## Passes
 
