@@ -15,6 +15,13 @@
       "source": "c2",
       "read_on": "2026-11-05",
       "by": "crm@web-summit.dinis"
+    },
+    {
+      "id": "f-own1",
+      "claim": "The company's own site, its home page (read 7 November 2026, 01:25 UTC; rendered by script, so only its title was read): its website; and a description of what the company does, in its title: logistics solutions in TMS, YMS and DMS. It does not state shippers, carriers, automated quotes or real-time tracking.",
+      "source": "own1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

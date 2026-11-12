@@ -106,9 +106,13 @@ function sourceOf(rel) {
     const c = cands.find(exists)
     const kind = rel.startsWith('articles/') && rel !== 'articles/index.html' ? 'article' : rel.startsWith('newsroom/decisions/') ? 'decision' : rel.startsWith('newsroom/') ? 'newsroom' : /^(companies|events|people|organisations|places|topics)\/index\.html$/.test(rel) ? 'list' : 'site'
     // the feature that makes it: one that sets `rel: '<rel>'`, else the feature named after its section
-    const lit = new RegExp(`rel:\\s*['"\`]${rel.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')}['"\`]`)
+    const esc = rel.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')
+    const lit = new RegExp(`rel:\\s*['"\`]${esc}['"\`]`)
+    // last resort (12 November 2026, ws-note.mjs's const REL = '...'): a feature that names the path as a quoted string; only
+    // after the explicit rel: and the section's own feature, since many features merely link to a page
+    const quoted = new RegExp(`['"\`]${esc}['"\`]`)
     const sec = rel === '404.html' ? 'notfound' : rel.split('/')[0].replace(/\.html$/, '')
-    const feat = features.find(x => lit.test(x.src)) || features.find(x => path.basename(x.f, '.mjs') === sec)
+    const feat = features.find(x => lit.test(x.src)) || features.find(x => path.basename(x.f, '.mjs') === sec) || features.find(x => quoted.test(x.src))
     return { kind, paths: c ? [c] : feat ? [feat.f] : [], feature: c ? undefined : feat?.f }
 }
 const gen = fs.readFileSync('.generated.txt', 'utf8').split('\n').filter(l => l.endsWith('.html')).sort()

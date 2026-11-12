@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-sections-as-sub-sites"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T04:01:34Z"
-site_version: "v0.1.1343"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T07:00:01Z"
+site_version: "v0.1.1361"
 source: board/catalogue.json
 ---
 

@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
- "updated": "2026-11-12T03:55Z",
+ "updated": "2026-11-12T06:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -47,10 +47,11 @@
   "18:50 on 11 November: 329.49 API-equivalent so far (A 70.44, B 259.05); seven over their lines, recorded; account A's limit flickering at the warning; OpenRouter still out",
   "21:50 on 11 November: 397.75 API-equivalent so far (A 84.23, B 313.52), the busiest day since 7 November; nine over their lines, recorded; account A allowed in every session again",
   "00:50 on 12 November: the close of 11 November, 449.7 API-equivalent (A 97.6, B 352.1), the busiest day since 7 November; nine over their lines; budgets.json reset for 12 November; the hand-over debrief",
-  "03:50 on 12 November: 69.86 API-equivalent so far (A 13.64, B 56.22); nobody over; account A allowed"
+  "03:50 on 12 November: 69.86 API-equivalent so far (A 13.64, B 56.22); nobody over; account A allowed",
+  "06:50 on 12 November: 116.21 API-equivalent so far (A 27.52, B 88.69); dev.data@ over, recorded; account A allowed"
  ],
  "next": [
-  "at 06:47: a reading against the 12 November baseline; on 13 November the summit close"
+  "at 09:47: a reading against the 12 November baseline; on 13 November the summit close"
  ],
  "asks": [
   "Dinis: the shared OpenRouter key is out of credit: HTTP 402 since about 05:00 to 05:51 UTC on 11 November; social.watch@ has stalled and every agent using the key stops with it. A top-up is yours. The summit plan is ready in board/budgets.json (openrouter.summit_plan: 250 USD within your 100 to 300 GBP, one key per tablet or agent so the next draw can be traced)",
@@ -282,6 +283,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "69.86 so far (A 13.64, B 56.22); nobody over; A allowed"
+  },
+  {
+   "started": "2026-11-12T06:47Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "116.21 so far (A 27.52, B 88.69); dev.data@ over; A allowed"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-12-handover.md"

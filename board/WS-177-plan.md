@@ -10,6 +10,14 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 06:36 UTC, 12 November (short)
+
+- Snapshot 2026-11-12T0638Z on v0.1.1356: 8 screenshots, 0 errors.
+- **The websummit-only takedown is live** (Dinis's word, 11 Nov ~18:50): dev@ switched it on at 04:30 (545934d20). The site went from 1530 pages to 770: off came 285 people, 214 sessions, 182 organisations, 43 places, 37 companies and 239 company facts, with the note on the pages and lists. security@'s post-review holds live and S39 is closed (4b3c10352); designer@ checked the notes (three gaps); sherpa@ read it on a phone (NE5).
+- **Coming back:** PitchBook from a Morningstar SEC exhibit; 31 of the 36 emptied companies from their own home pages (48ed127f6). 5 are left.
+- Open: journalist@'s three signed articles still link pages that came off (a gate warning). journalist@ has been silent since 10 November, so this is asked of Dinis.
+- Inbox: 1 unsigned feedback message. No key changes.
+
 ## Wake at 03:36 UTC, 12 November (short: Dinis's shutdown to the main priorities)
 
 - Snapshot 2026-11-12T0341Z on v0.1.1340: 8 screenshots, 0 errors. Inbox empty, no key changes.
