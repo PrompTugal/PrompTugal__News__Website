@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-rarashealth",
-  "story": "S30",
+  "story": "S30-websummit",
   "url": "https://websummit.com/appearances/lis26/71dafd73-9686-4b97-8d4f-db80e085725a/raras-health",
   "title": "Raras Health (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

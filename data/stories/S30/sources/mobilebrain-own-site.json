@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "mobilebrain-own-site",
+  "story": "S30",
+  "url": "https://www.mobilebrain.com.br/",
+  "title": "Mobile Brain home page (the company's own site)",
+  "publisher": "Mobile Brain",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "The company's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+}

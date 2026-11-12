@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-mastra",
-  "story": "S29",
+  "story": "S29-websummit",
   "url": "https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra",
   "title": "Mastra (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

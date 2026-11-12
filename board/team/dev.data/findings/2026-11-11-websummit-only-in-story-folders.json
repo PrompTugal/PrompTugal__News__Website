@@ -1,12 +1,12 @@
 {
  "about": "Which source files and claims in data/stories/<id>/ rest only on websummit.com (hosts websummit.com and websummit.net with subdomains). Computed by dev.data@PrompTugal.dinis at 22:50 UTC on 11 November 2026 from the files, to complement ontologist@'s data/websummit-only.json, which does not cover the story folders. A claim has one source, so a claim whose source is on websummit.com has no other source yet. Nothing was removed. The folders are served today (for example /data/stories/BR4/claims.json answered 200 at 22:40 UTC).",
  "rule": "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
- "regenerated": "2026-11-12T04:34Z",
+ "regenerated": "2026-11-12T08:35Z",
  "regenerated_by": "board/team/dev.data/tools/ws_story_inventory.py",
  "entirely_websummit": [
   "BR4",
-  "S29",
-  "S30",
+  "S29-websummit",
+  "S30-websummit",
   "S35",
   "S41-websummit",
   "S5-websummit",
@@ -237,7 +237,7 @@
     "c10"
    ]
   },
-  "S29": {
+  "S29-websummit": {
    "sources_total": 8,
    "sources_on_websummit": [
     "websummit-appearance-acrab",
@@ -270,7 +270,23 @@
    ],
    "claims_with_another_source": []
   },
-  "S30": {
+  "S29": {
+   "sources_total": 7,
+   "sources_on_websummit": [],
+   "claims_total": 8,
+   "claims_resting_only_on_websummit": [],
+   "claims_with_another_source": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08"
+   ]
+  },
+  "S30-websummit": {
    "sources_total": 11,
    "sources_on_websummit": [
     "websummit-appearance-aurimod",
@@ -314,6 +330,18 @@
     "c25"
    ],
    "claims_with_another_source": []
+  },
+  "S30": {
+   "sources_total": 4,
+   "sources_on_websummit": [],
+   "claims_total": 4,
+   "claims_resting_only_on_websummit": [],
+   "claims_with_another_source": [
+    "s01",
+    "s02",
+    "s03",
+    "s04"
+   ]
   },
   "S35": {
    "sources_total": 4,
@@ -454,13 +482,17 @@
    "claims_with_another_source": []
   },
   "S5": {
-   "sources_total": 1,
+   "sources_total": 3,
    "sources_on_websummit": [],
-   "claims_total": 2,
+   "claims_total": 6,
    "claims_resting_only_on_websummit": [],
    "claims_with_another_source": [
     "c15",
-    "c16"
+    "c16",
+    "c17",
+    "c18",
+    "c19",
+    "c20"
    ]
   },
   "S9-websummit": {
@@ -636,10 +668,10 @@
   }
  },
  "totals": {
-  "folders": 21,
-  "sources": 149,
+  "folders": 23,
+  "sources": 162,
   "ws_sources": 71,
-  "claims": 374,
+  "claims": 390,
   "ws_claims": 144
  }
 }

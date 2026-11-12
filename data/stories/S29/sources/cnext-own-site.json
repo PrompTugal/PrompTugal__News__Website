@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "cnext-own-site",
+  "story": "S29",
+  "url": "https://cnext.eu/",
+  "title": "Cnext (the company's own site)",
+  "publisher": "Cnext",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "Cnext's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+}

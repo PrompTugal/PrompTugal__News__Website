@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-polygraf",
-  "story": "S29",
+  "story": "S29-websummit",
   "url": "https://websummit.com/appearances/lis26/45b9b830-84f5-4355-be30-9ae4f5704946/polygraf-ai",
   "title": "Polygraf AI (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "humanos-own-site",
+  "story": "S29",
+  "url": "https://www.humanos.tech/",
+  "title": "Humanos | The Risk Network for AI (the company's own site)",
+  "publisher": "Humanos",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "Humanos's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+}

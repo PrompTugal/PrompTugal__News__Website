@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-keewano",
-  "story": "S29",
+  "story": "S29-websummit",
   "url": "https://websummit.com/appearances/lis26/1e5dae43-571a-4a71-af0c-420f9d9ef6df/keewano",
   "title": "Keewano (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

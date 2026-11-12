@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-aurimod",
-  "story": "S30",
+  "story": "S30-websummit",
   "url": "https://websummit.com/appearances/lis26/2b6e3701-ca50-4d2d-b05b-05cbd6aef7e5/aurimod-gmbh",
   "title": "AURIMOD GmbH (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

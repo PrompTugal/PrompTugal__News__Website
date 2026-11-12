@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "startups-com-br-what-to-expect-2026",
+  "story": "S5",
+  "url": "https://startups.com.br/eventos/web-summit/o-que-esperar-do-web-summit-lisboa-2026/",
+  "title": "Startups.com.br, O que esperar do Web Summit Lisboa 2026",
+  "publisher": "Startups.com.br",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Startups.com.br reports about 70,000 expected at FIL and MEO Arena on 9 to 12 November 2026, citing Paddy Cosgrave, and gives 2025 as 71,386 participants from 157 countries."
+}
