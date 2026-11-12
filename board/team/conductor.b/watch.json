@@ -536,6 +536,18 @@
         "PrompTugal__App__Mobile": "7f59d911"
       },
       "note": "quiet hour: dev@ brought dev.data/dev.graphs/dev.pages 05:10-05:11; dev.pages@ on the recovery page showcase (work branch 05:13); nothing from the other conductors or Dinis; inbox empty"
+    },
+    {
+      "at": "2026-11-12T06:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "heads": {
+        "SGit-AI__Website__Web-Summit": "f0afca6f",
+        "PrompTugal__News__Website": "a11d9efd",
+        "PrompTugal__App__Android": "2cd4cd75",
+        "PrompTugal__App__iOS": "bf76d293",
+        "PrompTugal__App__Mobile": "7f59d911"
+      },
+      "note": "ledger wake: B total 1676.73 (+41.36 in 3h); the websummit-only takedown live and post-reviewed by security@ (conductor@ 06:39); ontologist@ brought 31 companies back from their own home pages; inbox empty"
     }
   ]
 }
