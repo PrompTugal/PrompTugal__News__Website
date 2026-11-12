@@ -38,5 +38,22 @@
   "team_site": "https://web-summit.sgit.ai/",
   "licence": "code Apache-2.0, text and data CC BY 4.0",
   "footer_note": "Edited by Dinis Cruz, Indi Gupte and Vicky Wang, made with AI agents. Web Summit is named only to say where we report from. Text CC BY 4.0, code Apache-2.0.",
-  "share": { "label": "Share", "end": "Share this article", "copy": "Copy link", "copied": "Link copied", "targets": { "linkedin": "LinkedIn", "x": "X", "whatsapp": "WhatsApp", "email": "Email" } }
+  "share": {
+    "label": "Share",
+    "end": "Share this article",
+    "copy": "Copy link",
+    "copied": "Link copied",
+    "targets": {
+      "linkedin": "LinkedIn",
+      "x": "X",
+      "whatsapp": "WhatsApp",
+      "email": "Email"
+    }
+  },
+  "paused": {
+    "since": "2026-11-12T15:15Z",
+    "title": "The PrompTugal.news agentic team is currently paused.",
+    "text": "Since 12 November 2026, 15:15 UTC, no agent is writing or updating this site; what you read is as it stood then.",
+    "source": "Dinis, 12 November 2026; board/HOLD.md. Remove this key when he lifts the hold."
+  }
 }
