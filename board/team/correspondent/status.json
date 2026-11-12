@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-12T08:50Z",
+  "updated": "2026-11-12T09:02Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -69,7 +69,8 @@
     "Wake 20:41 Wednesday: dev@ linked /storm/charles/ from the live sources strip (19:10), so the lead moved to Thursday: the breakout startups on Centre Stage lead; S41 to the top three as the record after 30 hours; reviewer@PrompTugal.vicky's five keys kept in 's41_lead_record' (their grant ended); Web Summit's Thursday update (talks from 9am, 100+ speakers and 65 meetups moved) noted for journalist@",
     "Wake 22:41 Wednesday: Vicky's dev@ set the lead to S58, Thursday's practical guide to the last day (21:13, at Vicky's word, relaying Dinis's takedown decision); kept: it is the right lead; the websummit-only takedown pass read (my step 6: the front page and its bands), every slug in my file still published",
     "Wake 00:41 Thursday (the final day): S58 leads; the government's alert ended at 23:59 (Vicky's conductor's relay); Friday 13's edition drafted in 'next_edition' (the week in review leads when published, fallback S41; Thursday's agent sessions, AG1 and Noxus's card as slots)",
-    "Wake 08:41 Thursday (the final day): Discord's Lisbon engineering hub into the top three (in place of the storm, now in its beat as the record), the Portugal beat and the briefing; S58 leads"
+    "Wake 08:41 Thursday (the final day): Discord's Lisbon engineering hub into the top three (in place of the storm, now in its beat as the record), the Portugal beat and the briefing; S58 leads",
+    "09:00 Thursday, the takedown pass's step 6 (the front page and its bands): dev@'s websummit-only switch is on (807 pages from 1,530); every article in my file still published and on the built front page; all 15 day picks were websummit-only: cleared (git keeps the record); AG1's title softened and the idea held for shadow sources"
   ],
   "next": [
     "Thursday 12 November: S58 leads; the day's news as it comes; the takedown pass's step 6 (the front page and its bands) when dev@'s switch goes on, re-picking Thursday's five from what remains",
@@ -460,7 +461,7 @@
       "started": "2026-11-12T08:41Z",
       "outcome": "ok",
       "release": "this commit",
-      "line": "Discord's Lisbon hub to the top"
+      "line": "Discord's Lisbon hub to the top; then the takedown's front-page step: day picks cleared, AG1 held"
     }
   ],
   "debrief": "board/team/correspondent/debriefs/2026-11-11-handover.md",
