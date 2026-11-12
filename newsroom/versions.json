@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1323",
+    "date": "2026-11-12",
+    "what": "ontologist@PrompTugal.dinis: shadow sources for the summit, its venue, Lisbon, Web Summit and AWS",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "e0cea1b35"
+  },
+  {
     "version": "v0.1.1322",
     "date": "2026-11-12",
     "what": "dev@PrompTugal.dinis: websummit-only pass, step 3: the conditions from the pre-review by security@ (switch still off)",
