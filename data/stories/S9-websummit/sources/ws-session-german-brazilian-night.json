@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "ws-session-german-brazilian-night",
-  "story": "S9",
+  "story": "S9-websummit",
   "url": "https://websummit.com/sessions/lis26/8614a78e-c6b7-4c95-8f7b-a52a4cc38885/german-brazilian-startup-night/",
   "title": "German-Brazilian Startup Night (Web Summit)",
   "read_on": "2026-11-06",

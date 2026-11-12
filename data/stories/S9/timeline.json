@@ -4,26 +4,204 @@
   "kept_by": "dev.data@PrompTugal.dinis",
   "updated": "2026-11-06",
   "events": [
-    {"at": "2022-11", "what": "The Brazil Pavilion debuts at Web Summit Lisbon; ApexBrasil's delegation that year is put at 80 companies.", "kind": "event", "about": ["organisation:apexbrasil"], "source": "forbespt-2023-11-07", "claim": "c28"},
-    {"at": "2023-11-07", "what": "Forbes Portugal reports that ApexBrasil plans a record delegation of 85 startups and 100 companies for Web Summit Lisbon 2023.", "kind": "publication", "about": ["organisation:apexbrasil"], "source": "forbespt-2023-11-07", "claim": "c28"},
-    {"at": "2024-11-10", "what": "Brazil's ambassador to Portugal writes, in an opinion piece in Diario de Noticias, that about 600 Brazilians took part in Web Summit Lisbon in 2022 and about 1,000 in 2023 (his figures, an opinion, not a count).", "kind": "publication", "source": "dn-2024-11-10-ambassador", "claim": "c29"},
-    {"at": "2025-11-03", "what": "Startups.com.br reports 340 Brazilian startups at Web Summit Lisbon 2025: 256 selected by ApexBrasil and Sebrae, 84 by Softex, Anprotec and Serpro.", "kind": "publication", "about": ["organisation:apexbrasil", "organisation:sebrae-startups", "organisation:serpro"], "source": "startups-2025-11-03-340", "claim": "c17"},
-    {"at": "2025-11-10", "what": "DN Brasil reports more than 370 Brazil-based startups at the 2025 edition, 151 of them selected by ApexBrasil.", "kind": "publication", "about": ["organisation:apexbrasil"], "source": "dnbrasil-2025-11-10-370", "claim": "c18"},
-    {"at": "2025-11", "what": "Web Summit Lisbon 2025 runs on 10 to 13 November; the 2026 hub rules later put the 2025 Brazilian delegation at almost 380 companies, 247 supported by ApexBrasil, Sebrae Nacional and partners (the rules' own estimate).", "kind": "event", "source": "apexbrasil-hub-rules-2026", "claim": "c15"},
-    {"at": "2025-11-12", "what": "Startups.com.br names ten startups for the first Lisbon incubation house, chosen from 112 exhibitors with Plug and Play: Aiper, Biolinker, Beeviral, 593ican, Hope, SST, Just Travel, SleepUp, Wood Chat, PixNow.", "kind": "selection", "about": ["company:just-travel"], "source": "startups-2025-11-12-incubator", "claim": "c19"},
-    {"at": "2026-08-21", "what": "ABES publishes an ApexBrasil survey: over 13,000 Brazilian startups, more than 120 investment funds, over 250 innovation hubs; ApexBrasil supported nearly 100 startups at Web Summit Rio 2026.", "kind": "publication", "about": ["organisation:apexbrasil"], "source": "abes-2026-08-21-apexbrasil-survey", "claim": "c27"},
-    {"at": "2026-08-28", "what": "Status date of ApexBrasil's results page: 188 approved companies listed by tax number only (105 confirmed, 33 on the waiting list, 26 awaiting confirmation, 24 withdrawn).", "kind": "other", "about": ["organisation:apexbrasil"], "source": "apexbrasil-results-page", "claim": "c06"},
-    {"at": "2026-08-30", "what": "Deadline to register in ApexBrasil's 2026 innovation-environment call (up to 10 hubs, each nominating 5 startups).", "kind": "deadline", "about": ["organisation:apexbrasil"], "source": "apexbrasil-hub-rules-2026", "claim": "c14"},
-    {"at": "2026-09-04", "what": "DN Brasil reports the 2027 cycle of the Lisbon incubation programme: up to 40 startups to a strategic exploration stage, the top 20 onward.", "kind": "announcement", "source": "dnbrasil-2026-09-04-incubation", "claim": "c20"},
-    {"at": "2026-09-18", "what": "Invest.Rio and the Maravalley hub announce ten Rio de Janeiro startups for Web Summit Lisboa 2026, the second year.", "kind": "announcement", "about": ["local:invest-rio", "local:maravalley"], "source": "startups-2026-09-18-invest-rio", "claim": "c21"},
-    {"at": "2026-09-30", "what": "Sebrae and ApexBrasil announce that 100 Brazilian startups were chosen for the official delegation to Web Summit Lisboa 2026; the 40 best ranked get financial support from Sebrae. The announcement does not list them.", "kind": "selection", "about": ["organisation:apexbrasil", "organisation:sebrae-startups"], "source": "sebrae-2026-09-30-selected", "claim": ["c01", "c02", "c05"]},
-    {"at": "2026-10-02", "what": "Date by which the startups nominated by hubs in ApexBrasil's 2026 call are named, per the rules.", "kind": "deadline", "about": ["organisation:apexbrasil"], "source": "apexbrasil-hub-rules-2026", "claim": "c14"},
-    {"at": "2026-10-25", "what": "Correio da Manhã gives the same ten Rio startups and dates the event 8 to 12 November 2026.", "kind": "publication", "source": "correio-2026-10-25-invest-rio", "claim": "c23"},
-    {"at": "2026-10-26", "what": "Startups.com.br reports that Gol pays the flights of the ten Rio startups.", "kind": "announcement", "about": ["local:gol", "company:mobile-brain", "company:sheerme"], "source": "startups-2026-10-26-gol", "claim": "c22"},
-    {"at": "2026-11-03", "what": "Brasil 247 quotes Sebrae's head of Startups on Brazil's strengths for the summit.", "kind": "publication", "about": ["organisation:sebrae-startups"], "source": "brasil247-2026-11-03", "claim": "c13"},
-    {"at": "2026-11-04", "what": "Lusa reports ApexBrasil's figure of about 200 Brazilian companies and a 324 m2 pavilion in the MEO Arena; Sebrae says the same day that about 300 startups are expected in Lisbon.", "kind": "publication", "about": ["organisation:apexbrasil", "organisation:sebrae-startups"], "source": ["lusa-2026-11-04-200-companies", "starten-2026-11-04"], "claim": ["c07", "c12"]},
-    {"at": "2026-11-10", "what": "German-Brazilian Startup Night, 17:30 to 22:30 at the Gale patio (the programme page names no hosts); also the day of an AI pitch competition with Brazil, France, Portugal and Germany, and the announcement of the second Lisbon Incubation Programme's startups.", "kind": "event", "about": ["event:german-brazilian-startup-night"], "source": ["ws-session-german-brazilian-night", "iol-brasil-chega-a-lisboa"], "claim": ["c26", "c11"]},
-    {"at": "2026-11-11T10:30Z", "what": "Session 'The next digital frontier' on Stage 11 (Policy Summit), with the Secretary of Science, Technology and Innovation of the State of Sao Paulo (time as listed on the programme page).", "kind": "event", "about": ["event:the-next-digital-frontier"], "source": "ws-session-next-digital-frontier", "claim": "c25"},
-    {"at": "2026-11-12T16:10Z", "what": "Session 'Brazil's blueprint for cyber resilience' on Stage 8 (Cybersecurity Summit), with the President and CEO of Serpro (time as listed on the programme page).", "kind": "event", "about": ["event:brazil-s-blueprint-for-cyber-resilience", "organisation:serpro"], "source": "ws-session-brazil-cyber-resilience", "claim": "c24"}
+    {
+      "at": "2022-11",
+      "what": "The Brazil Pavilion debuts at Web Summit Lisbon; ApexBrasil's delegation that year is put at 80 companies.",
+      "kind": "event",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "forbespt-2023-11-07",
+      "claim": "c28"
+    },
+    {
+      "at": "2023-11-07",
+      "what": "Forbes Portugal reports that ApexBrasil plans a record delegation of 85 startups and 100 companies for Web Summit Lisbon 2023.",
+      "kind": "publication",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "forbespt-2023-11-07",
+      "claim": "c28"
+    },
+    {
+      "at": "2024-11-10",
+      "what": "Brazil's ambassador to Portugal writes, in an opinion piece in Diario de Noticias, that about 600 Brazilians took part in Web Summit Lisbon in 2022 and about 1,000 in 2023 (his figures, an opinion, not a count).",
+      "kind": "publication",
+      "source": "dn-2024-11-10-ambassador",
+      "claim": "c29"
+    },
+    {
+      "at": "2025-11-03",
+      "what": "Startups.com.br reports 340 Brazilian startups at Web Summit Lisbon 2025: 256 selected by ApexBrasil and Sebrae, 84 by Softex, Anprotec and Serpro.",
+      "kind": "publication",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups",
+        "organisation:serpro"
+      ],
+      "source": "startups-2025-11-03-340",
+      "claim": "c17"
+    },
+    {
+      "at": "2025-11-10",
+      "what": "DN Brasil reports more than 370 Brazil-based startups at the 2025 edition, 151 of them selected by ApexBrasil.",
+      "kind": "publication",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "dnbrasil-2025-11-10-370",
+      "claim": "c18"
+    },
+    {
+      "at": "2025-11",
+      "what": "Web Summit Lisbon 2025 runs on 10 to 13 November; the 2026 hub rules later put the 2025 Brazilian delegation at almost 380 companies, 247 supported by ApexBrasil, Sebrae Nacional and partners (the rules' own estimate).",
+      "kind": "event",
+      "source": "apexbrasil-hub-rules-2026",
+      "claim": "c15"
+    },
+    {
+      "at": "2025-11-12",
+      "what": "Startups.com.br names ten startups for the first Lisbon incubation house, chosen from 112 exhibitors with Plug and Play: Aiper, Biolinker, Beeviral, 593ican, Hope, SST, Just Travel, SleepUp, Wood Chat, PixNow.",
+      "kind": "selection",
+      "about": [
+        "company:just-travel"
+      ],
+      "source": "startups-2025-11-12-incubator",
+      "claim": "c19"
+    },
+    {
+      "at": "2026-08-21",
+      "what": "ABES publishes an ApexBrasil survey: over 13,000 Brazilian startups, more than 120 investment funds, over 250 innovation hubs; ApexBrasil supported nearly 100 startups at Web Summit Rio 2026.",
+      "kind": "publication",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "abes-2026-08-21-apexbrasil-survey",
+      "claim": "c27"
+    },
+    {
+      "at": "2026-08-28",
+      "what": "Status date of ApexBrasil's results page: 188 approved companies listed by tax number only (105 confirmed, 33 on the waiting list, 26 awaiting confirmation, 24 withdrawn).",
+      "kind": "other",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "apexbrasil-results-page",
+      "claim": "c06"
+    },
+    {
+      "at": "2026-08-30",
+      "what": "Deadline to register in ApexBrasil's 2026 innovation-environment call (up to 10 hubs, each nominating 5 startups).",
+      "kind": "deadline",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "apexbrasil-hub-rules-2026",
+      "claim": "c14"
+    },
+    {
+      "at": "2026-09-04",
+      "what": "DN Brasil reports the 2027 cycle of the Lisbon incubation programme: up to 40 startups to a strategic exploration stage, the top 20 onward.",
+      "kind": "announcement",
+      "source": "dnbrasil-2026-09-04-incubation",
+      "claim": "c20"
+    },
+    {
+      "at": "2026-09-18",
+      "what": "Invest.Rio and the Maravalley hub announce ten Rio de Janeiro startups for Web Summit Lisboa 2026, the second year.",
+      "kind": "announcement",
+      "about": [
+        "local:invest-rio",
+        "local:maravalley"
+      ],
+      "source": "startups-2026-09-18-invest-rio",
+      "claim": "c21"
+    },
+    {
+      "at": "2026-09-30",
+      "what": "Sebrae and ApexBrasil announce that 100 Brazilian startups were chosen for the official delegation to Web Summit Lisboa 2026; the 40 best ranked get financial support from Sebrae. The announcement does not list them.",
+      "kind": "selection",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups"
+      ],
+      "source": "sebrae-2026-09-30-selected",
+      "claim": [
+        "c01",
+        "c02",
+        "c05"
+      ]
+    },
+    {
+      "at": "2026-10-02",
+      "what": "Date by which the startups nominated by hubs in ApexBrasil's 2026 call are named, per the rules.",
+      "kind": "deadline",
+      "about": [
+        "organisation:apexbrasil"
+      ],
+      "source": "apexbrasil-hub-rules-2026",
+      "claim": "c14"
+    },
+    {
+      "at": "2026-10-25",
+      "what": "Correio da Manhã gives the same ten Rio startups and dates the event 8 to 12 November 2026.",
+      "kind": "publication",
+      "source": "correio-2026-10-25-invest-rio",
+      "claim": "c23"
+    },
+    {
+      "at": "2026-10-26",
+      "what": "Startups.com.br reports that Gol pays the flights of the ten Rio startups.",
+      "kind": "announcement",
+      "about": [
+        "local:gol",
+        "company:mobile-brain",
+        "company:sheerme"
+      ],
+      "source": "startups-2026-10-26-gol",
+      "claim": "c22"
+    },
+    {
+      "at": "2026-11-03",
+      "what": "Brasil 247 quotes Sebrae's head of Startups on Brazil's strengths for the summit.",
+      "kind": "publication",
+      "about": [
+        "organisation:sebrae-startups"
+      ],
+      "source": "brasil247-2026-11-03",
+      "claim": "c13"
+    },
+    {
+      "at": "2026-11-04",
+      "what": "Lusa reports ApexBrasil's figure of about 200 Brazilian companies and a 324 m2 pavilion in the MEO Arena; Sebrae says the same day that about 300 startups are expected in Lisbon.",
+      "kind": "publication",
+      "about": [
+        "organisation:apexbrasil",
+        "organisation:sebrae-startups"
+      ],
+      "source": [
+        "lusa-2026-11-04-200-companies",
+        "starten-2026-11-04"
+      ],
+      "claim": [
+        "c07",
+        "c12"
+      ]
+    },
+    {
+      "at": "2026-11-10",
+      "what": "German-Brazilian Startup Night, 17:30 to 22:30 at the Gale patio (the programme page names no hosts); also the day of an AI pitch competition with Brazil, France, Portugal and Germany, and the announcement of the second Lisbon Incubation Programme's startups.",
+      "kind": "event",
+      "about": [
+        "event:german-brazilian-startup-night"
+      ],
+      "source": [
+        "iol-brasil-chega-a-lisboa"
+      ],
+      "claim": [
+        "c11"
+      ]
+    }
   ]
 }

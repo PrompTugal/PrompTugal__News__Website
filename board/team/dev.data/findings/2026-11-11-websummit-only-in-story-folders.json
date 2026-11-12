@@ -1,7 +1,7 @@
 {
  "about": "Which source files and claims in data/stories/<id>/ rest only on websummit.com (hosts websummit.com and websummit.net with subdomains). Computed by dev.data@PrompTugal.dinis at 22:50 UTC on 11 November 2026 from the files, to complement ontologist@'s data/websummit-only.json, which does not cover the story folders. A claim has one source, so a claim whose source is on websummit.com has no other source yet. Nothing was removed. The folders are served today (for example /data/stories/BR4/claims.json answered 200 at 22:40 UTC).",
  "rule": "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
- "regenerated": "2026-11-12T02:33Z",
+ "regenerated": "2026-11-12T04:34Z",
  "regenerated_by": "board/team/dev.data/tools/ws_story_inventory.py",
  "entirely_websummit": [
   "BR4",
@@ -9,11 +9,10 @@
   "S30",
   "S35",
   "S41-websummit",
-  "S5-websummit"
+  "S5-websummit",
+  "S9-websummit"
  ],
- "partly_websummit": [
-  "S9"
- ],
+ "partly_websummit": [],
  "folders": {
   "BR1": {
    "sources_total": 5,
@@ -464,20 +463,27 @@
     "c16"
    ]
   },
-  "S9": {
-   "sources_total": 20,
+  "S9-websummit": {
+   "sources_total": 3,
    "sources_on_websummit": [
     "ws-session-brazil-cyber-resilience",
     "ws-session-german-brazilian-night",
     "ws-session-next-digital-frontier"
    ],
-   "claims_total": 30,
+   "claims_total": 4,
    "claims_resting_only_on_websummit": [
     "c24",
     "c25",
     "c26",
     "c30"
    ],
+   "claims_with_another_source": []
+  },
+  "S9": {
+   "sources_total": 17,
+   "sources_on_websummit": [],
+   "claims_total": 26,
+   "claims_resting_only_on_websummit": [],
    "claims_with_another_source": [
     "c01",
     "c02",
@@ -630,7 +636,7 @@
   }
  },
  "totals": {
-  "folders": 20,
+  "folders": 21,
   "sources": 149,
   "ws_sources": 71,
   "claims": 374,
