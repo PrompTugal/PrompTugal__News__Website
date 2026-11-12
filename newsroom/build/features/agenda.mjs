@@ -76,7 +76,10 @@ export const fill = {
 let CANCELLED
 export function cancelledDays() {
     if (CANCELLED) return CANCELLED
+    // the build's own record first (newsroom/build/cancelled-days.json: the correspondent cleared its day picks on 12 November
+    // and Wednesday stopped reading as called off), then the correspondent's status, which wins
     CANCELLED = {}
+    try { Object.assign(CANCELLED, JSON.parse(fs.readFileSync(new URL('../cancelled-days.json', import.meta.url), 'utf8')).days || {}) } catch { }
     try { const j = JSON.parse(fs.readFileSync(new URL('../../../desks/correspondent/front-page.json', import.meta.url), 'utf8'))
         for (const [d, v] of Object.entries(j.day_picks?.days || {})) if (/^did not take place/i.test(v?.status || '')) CANCELLED[d] = String(v.status).replace(/^did not take place:\s*/i, '') } catch { }
     return CANCELLED

@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-12T07:51Z",
+  "updated": "2026-11-12T11:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -197,6 +197,14 @@
         "my own check: Mastodon, the team's commits"
       ],
       "items": 3
+    },
+    {
+      "n": 23,
+      "at": "2026-11-12T11:51Z",
+      "families": [
+        "one sub-agent: press (the press conference)"
+      ],
+      "items": 7
     }
   ],
   "items": [
@@ -4188,6 +4196,189 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-12T07:51Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 22)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/12/tomaram-a-decisao-certa-paddy-cosgrave-elogia-decisao-do-governo-sobre-suspensao-da-web-summit/",
+      "platform": "web",
+      "author": "ECO",
+      "kind": "press_report",
+      "title": "Tomaram a decisao certa: Paddy Cosgrave elogia decisao do Governo sobre suspensao da Web Summit",
+      "quote": "Nestas situações, é melhor ser-se extremamente cauteloso.",
+      "published": "2026-11-12T11:21",
+      "topics": [
+        "press conference",
+        "storm decision",
+        "government"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Press conference report, live-updated. Cosgrave: government and authorities made the right call suspending Wednesday. No attendance figure, refunds, post-2028 deal or 2027 dates in the article.",
+      "family": "news and blogs",
+      "found": "2026-11-12T11:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 23)"
+    },
+    {
+      "url": "https://dinheirovivo.dn.pt/empresas/depresso-charles-interrompeu-web-summit-mas-ceo-diz-que-lisboa-beneficiou-duas-vezes",
+      "platform": "web",
+      "author": "Dinheiro Vivo (Tomás Gonçalves Pereira)",
+      "kind": "press_report",
+      "title": "Depressão Charles interrompeu Web Summit mas CEO diz que Lisboa beneficiou duas vezes",
+      "quote": "Lisboa beneficiou duas vezes",
+      "published": "2026-11-12T11:48",
+      "topics": [
+        "press conference",
+        "storm decision",
+        "hotels",
+        "Lisbon economy"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Cosgrave lamented losing a day, backed government decision, said attendees spent elsewhere in Lisbon, joked hotels must be happy. No refunds, 2028 deal or 2027 dates in the text.",
+      "family": "news and blogs",
+      "found": "2026-11-12T11:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 23)"
+    },
+    {
+      "url": "https://tek.sapo.pt/noticias/negocios/artigos/impacto-da-interrupcao-do-web-summit-esta-a-ser-calculado-paddy-cosgrave-admite-que-ainda-e-cedo-para-estimativas-sobre-prejuizos/",
+      "platform": "web",
+      "author": "Tek Notícias",
+      "kind": "press_report",
+      "title": "Impacto da interrupção do Web Summit está a ser calculado",
+      "quote": "Ainda é quinta-feira. Os contabilistas vão tratar disso",
+      "published": "2026-11-12T11:38",
+      "topics": [
+        "press conference",
+        "losses",
+        "compensation",
+        "moved sessions",
+        "AI agents"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Thursday programme redesigned with more sessions; humanoid robots, AI agents, digital sovereignty, human rights"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Cosgrave: financial impact still being calculated; possible compensation for startups, companies, participants to be handled directly by the team. No attendance figure. Many meetings moved online, programme starts earlier.",
+      "family": "news and blogs",
+      "found": "2026-11-12T11:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 23)"
+    },
+    {
+      "url": "https://www.forbespt.com/web-summit-organizacao-concentrada-na-realizacao-do-ultimo-dia-que-sera-o-mais-intenso/",
+      "platform": "web",
+      "author": "Forbes Portugal (Lusa)",
+      "kind": "press_report",
+      "title": "Web Summit: Organização concentrada na realização do último dia, que será o mais intenso",
+      "quote": "a quinta-feira mais intensa que já tivemos",
+      "published": "2026-11-11T17:25",
+      "topics": [
+        "last day",
+        "moved sessions",
+        "press conference announced"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Many Wednesday sessions rescheduled to Thursday"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Published 11 Nov 17:25, before the sweep window; kept as context for the moved sessions and the 11:00 press conference announcement. No PITCH mention.",
+      "family": "news and blogs",
+      "found": "2026-11-12T11:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 23)"
+    },
+    {
+      "url": "https://diariodistrito.sapo.pt/web-summit-supera-desafios-climaticos-e-promete-inovacao",
+      "platform": "web",
+      "author": "Diário do Distrito",
+      "kind": "press_report",
+      "title": "Web Summit supera desafios climáticos e promete inovação",
+      "quote": null,
+      "published": "2026-11-12",
+      "topics": [
+        "storm",
+        "last day",
+        "rescheduled speakers"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "No time shown. Wednesday cancelled, over 200 storm incidents, record speakers and sessions expected Thursday. Does not quote Cosgrave.",
+      "family": "news and blogs",
+      "found": "2026-11-12T11:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 23)"
+    },
+    {
+      "url": "https://www.kucoin.com/news/flash/ibm-announces-winner-of-web-summit-lisbon-2026-sports-tech-startup-challenge",
+      "platform": "web",
+      "author": "KuCoin News (IBM release)",
+      "kind": "company_release",
+      "title": "IBM announces winner of Web Summit Lisbon 2026 Sports Tech Startup Challenge",
+      "quote": null,
+      "published": "2026-11-12T09:05",
+      "topics": [
+        "IBM",
+        "sports tech",
+        "AI agents",
+        "startup challenge"
+      ],
+      "companies": [
+        "IBM",
+        "LivXP"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "IBM release relayed: LivXP (Swiss-American) won; agent-based AI for fan engagement; seven finalists; prize up to $100,000 proof-of-concept. Not PITCH.",
+      "family": "news and blogs",
+      "found": "2026-11-12T11:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 23)"
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-12T06:51",
+      "topics": [
+        "robots",
+        "AI replacing humans",
+        "Web Summit TV coverage"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Portuguese-language personal blog post mirrored on Fediverse, sceptical of robots and AI hype at Web Summit.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T11:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 23)",
+      "private_individual": true
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",

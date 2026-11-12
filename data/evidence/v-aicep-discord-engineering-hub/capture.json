@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-aicep-discord-engineering-hub",
+  "type": "evidence",
+  "source_url": "https://www.portugalglobal.pt/en/news/2026/novembro/discord-opens-first-european-engineering-hub-in-lisbon/",
+  "beat": "Portugal",
+  "group": "Portugal, already published (S59)",
+  "names": [
+    {
+      "as_listed": "Discord",
+      "ref": "organisation:discord"
+    },
+    {
+      "as_listed": "AICEP Portugal Global",
+      "ref": "organisation:aicep-portugal-global"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-12-1140.json",
+  "run": "2026-11-12T11:40Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-12-1140.json"
+    ]
+  }
+}
