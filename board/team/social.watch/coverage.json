@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-12T12:53Z",
+  "updated": "2026-11-12T14:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -213,6 +213,14 @@
         "my own check: Mastodon, the team's commits, one organiser's site"
       ],
       "items": 1
+    },
+    {
+      "n": 26,
+      "at": "2026-11-12T14:51Z",
+      "families": [
+        "one sub-agent: press and public posts"
+      ],
+      "items": 10
     }
   ],
   "items": [
@@ -4411,6 +4419,259 @@
       "family": "X, Bluesky, Mastodon, Threads",
       "found": "2026-11-12T12:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 24)"
+    },
+    {
+      "url": "https://observador.pt/2026/11/12/tempestade-charles-fechou-a-web-summit-mas-os-hoteis-ficaram-satisfeitos-compensacoes-serao-decididas-caso-a-caso/",
+      "platform": "web",
+      "author": "Observador",
+      "kind": "news",
+      "title": "Tempestade Charles fechou a Web Summit mas os hoteis ficaram satisfeitos; compensacoes caso a caso",
+      "quote": "vai lidar com as situacoes caso a caso",
+      "published": "2026-11-12T12:11:00Z",
+      "topics": [
+        "press conference",
+        "compensation",
+        "storm",
+        "rescheduling",
+        "venue"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Wednesday sessions moved to Thursday"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Cosgrave press conference: government decision correct; case-by-case compensation; startups with Wednesday exhibition space offered 2027 spot; 100+ speakers moved to Thursday; losses not calculated; insurance to be checked; uneasy about FIL pavilion leak; no attendance figures.",
+      "family": "news and blogs",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)"
+    },
+    {
+      "url": "https://jornaleconomico.sapo.pt/noticias/paddy-cosgrave-pedidos-de-startups-e-expositores-apos-reducao-da-web-summit-serao-vistos-caso-a-caso/",
+      "platform": "web",
+      "author": "Jornal Economico (Filipe Gil)",
+      "kind": "news",
+      "title": "Paddy Cosgrave: pedidos de startups e expositores serao vistos caso a caso",
+      "quote": "caso a caso",
+      "published": "2026-11-12T12:24:00Z",
+      "topics": [
+        "press conference",
+        "compensation",
+        "exhibitors",
+        "startups"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Requests from startups and exhibitors handled case by case; economic impact to be known in coming days; Thursday stages start earlier and run later, some to about 17h.",
+      "family": "news and blogs",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)"
+    },
+    {
+      "url": "https://executivedigest.sapo.pt/mau-tempo-web-summit-admite-impacto-do-cancelamento-que-vai-ser-contabilizado/",
+      "platform": "web",
+      "author": "Executive Digest",
+      "kind": "news",
+      "title": "Mau tempo: Web Summit admite impacto do cancelamento que vai ser contabilizado",
+      "quote": "Ainda e quinta-feira. Os contabilistas vao apurar isso",
+      "published": "2026-11-12T13:18:00Z",
+      "topics": [
+        "press conference",
+        "financial impact",
+        "compensation",
+        "Lisbon venue to 2028"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Cosgrave: financial impact not yet calculated; compensation for companies, startups, participants case by case; temporary structures rebuilt with PSP and Civil Protection; Thursday called busiest ever; event guaranteed in Lisbon until 2028 (no 2027 dates given in the piece).",
+      "family": "news and blogs",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)"
+    },
+    {
+      "url": "https://www.sabado.pt/dinheiro/detalhe/mau-tempo-web-summit-admite-impacto-do-cancelamento-que-vai-ser-contabilizado",
+      "platform": "web",
+      "author": "Sabado",
+      "kind": "news",
+      "title": "Mau tempo: Web Summit admite impacto do cancelamento que vai ser contabilizado",
+      "quote": "Nestes momentos ha que ter uma abundancia de precaucao",
+      "published": "2026-11-12T13:42:00Z",
+      "topics": [
+        "press conference",
+        "financial impact",
+        "compensation"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Same press conference; time shown 13:42, date inferred.",
+      "family": "news and blogs",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)"
+    },
+    {
+      "url": "https://www.publico.pt/2026/11/12/enter/noticia/robos-humanoides-tomam-palco-ultimo-dia-web-summit-2194709",
+      "platform": "web",
+      "author": "Publico (Laura Ferreira)",
+      "kind": "news",
+      "title": "Robos humanoides tomam palco no ultimo dia da Web Summit",
+      "quote": "Estamos aqui para trabalhar com os humanos",
+      "published": "2026-11-12T13:57:00Z",
+      "topics": [
+        "humanoid robots",
+        "physical AI",
+        "AI perception"
+      ],
+      "companies": [
+        "AgiBot",
+        "Sdata.ai"
+      ],
+      "company_ids": [],
+      "sessions": [
+        "Meo Arena main stage"
+      ],
+      "storm_signal": false,
+      "verified": true,
+      "note": "AgiBot robot Luka (A3) opened session; X2, Q1, T1 shown; article does not use the term AI agents.",
+      "family": "news and blogs",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)"
+    },
+    {
+      "url": "https://tek.sapo.pt/noticias/internet/artigos/web-summit-2026-volta-a-abrir-portas-com-uma-agenda-preenchida-10-sessoes-a-nao-perder-no-ultimo-dia/",
+      "platform": "web",
+      "author": "Tek Noticias",
+      "kind": "news",
+      "title": "Web Summit 2026 volta a abrir portas: 10 sessoes a nao perder no ultimo dia",
+      "quote": "",
+      "published": "2026-11-12T09:03:00Z",
+      "topics": [
+        "Thursday agenda",
+        "AI agents",
+        "PITCH",
+        "cybersecurity"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [
+        "When AI agents go rogue (Stage 13, 10:10)",
+        "PITCH winner announcement (Centre, 15:00)",
+        "Chinamaxxing (Centre, 15:35)"
+      ],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Programme listing only; PITCH winner announcement scheduled 15:00 local, so not yet reported at sweep time. Published before the 11:45 cutoff, recorded for the schedule.",
+      "family": "news and blogs",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)"
+    },
+    {
+      "url": "https://lapatilla.com/2026/11/12/luka-el-robot-que-puede-ser-recepcionista-guia-o-guardia-de-seguridad/",
+      "platform": "mastodon (bridged)",
+      "author": "lapatilla.com",
+      "kind": "post",
+      "title": "Luka, el robot que puede ser recepcionista, guia o guardia de seguridad",
+      "quote": "",
+      "published": "2026-11-12T13:00:04Z",
+      "topics": [
+        "humanoid robot",
+        "AgiBot"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Outlet feed, bridged to fediverse; mentions robot Luka.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)"
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-12T12:29:33Z",
+      "topics": [
+        "side event",
+        "WebSummit"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Private individual recommending a side event on Thursday.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-12T14:25:08Z",
+      "topics": [
+        "side event",
+        "community"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Private individual, reply about a side event.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-12T06:51:31Z",
+      "topics": [
+        "robots",
+        "criticism"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Published before cutoff; private individual commenting on robots at summit.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T14:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 26)",
+      "private_individual": true
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",
