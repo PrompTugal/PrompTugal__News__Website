@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1352",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 05:48 wake: quiet hour; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "63231d3b4"
+  },
+  {
     "version": "v0.1.1351",
     "date": "2026-11-12",
     "what": "weather@PrompTugal.vicky: run report (05:35 wake)",
