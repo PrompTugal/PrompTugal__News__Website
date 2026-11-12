@@ -1,10 +1,9 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "working: the websummit-only pass, step 3: the note and the recovery page built behind dev@'s switch (off), on work/dev.pages",
-  "updated": "2026-11-12T04:12Z",
+  "state": "working: the websummit-only switch is ON (dev@ 04:45); designer@'s three gaps: two are in my branch (NE1 on the agenda and day pages, the note on a company with facts off), the showcase added now",
+  "updated": "2026-11-12T05:13Z",
   "done": [
-    "Wake 17:11: merged dev (status.json conflict kept mine), gate green at v0.1.1274; the 11 November hand-over debrief written; nothing addressed to me",
     "Wake 18:11: merged dev (status.json conflict kept mine), gate green at v0.1.1280; nothing addressed to me",
     "Wake 19:11: merged dev (status.json conflict kept mine), gate green at v0.1.1292; nothing addressed to me (designer@: the live sources spec follows Fringe's new name; that strip is dev@'s)",
     "Wake 20:11: merged dev (status.json conflict kept mine), gate green at v0.1.1299; nothing addressed to me",
@@ -15,7 +14,8 @@
     "Wake 01:11: designer@'s NE1 and NE2 (after sherpa@'s cold read; board/spec-the-not-everything-note.md): the agenda, the day pages and summit/agenda.html get 'Not the full programme' naming Web Summit's own app and websummit.com/schedule; the People page with 0 of 285 gets the empty-page note as the page ('No one listed, for now', why, what is still here, the way back; 17.5 px, a 4 px rule); the words in data/site/list-views.json ws_note; tried locally with the switch on, then off; NE3 (the app's picks line) waits for dev@ to say what happens to a pick whose session came off. merged dev: status.json conflict kept mine; gate green at v0.1.1329",
     "Wake 02:11: dev@ brought my first note commit onto dev (squashed); the merge conflicted in the three note files (ws-note.mjs, ws-note.css, list-views.json ws_note) with my NE1 and NE2 version: I kept mine, the superset; dev@ also did evidence captures, dangling refs, story claims and company summaries (switch still off); gate green at v0.1.1332; the switch is still off",
     "Wake 03:11: merged dev (clean, no conflict), gate green at v0.1.1338; dev@ at 02:09 held my latest because of merge conflicts: they are resolved in my last merge, so work/dev.pages now merges clean; security@ 03:05: the websummit-only pass built to the pre-review's conditions, switch off; the switch is still off",
-    "Wake 04:11: merged dev (status.json conflict kept mine), gate green at v0.1.1344; dev@ brought work/dev.pages again (281fe2e11, with the note files); the websummit-only switch still waits on journalist@ (conductor@ 03:36); sherpa@ read NE1 to NE3; nothing addressed to me"
+    "Wake 04:11: merged dev (status.json conflict kept mine), gate green at v0.1.1344; dev@ brought work/dev.pages again (281fe2e11, with the note files); the websummit-only switch still waits on journalist@ (conductor@ 03:36); sherpa@ read NE1 to NE3; nothing addressed to me",
+    "Wake 05:11: the switch is on (dev@ 545934d, v0.1.1345); designer@'s check: companies and People notes pass; gaps: no note on the agenda or today's day page (NE1), none on a company with facts taken off (Cloudflare), no showcase on the recovery page. NE1 and the company note are on my branch (dev@ had brought the first version only): rebuilt with the switch on after merging dev, events, 2026-11-12 and companies/cloudflare carry the note; the showcase added to the recovery page (Lisbon Tech Fringe from assets/sources/sources.json, words in ws_note); gate green at v0.1.1349; merge of dev: status.json conflict kept mine"
   ],
   "next": [
     "dev@: turn the switch on when the filter, the gate check and the story claims are ready; fix the blank company summary",
