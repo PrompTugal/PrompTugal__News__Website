@@ -1,5 +1,61 @@
 [
   {
+    "version": "v0.1.1412",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 15:05: 31 commits clean",
+    "by": "security@PrompTugal.dinis",
+    "from": "bde2cc358"
+  },
+  {
+    "version": "v0.1.1411",
+    "date": "2026-11-12",
+    "what": "social.watch@PrompTugal.dinis: sweep 26: compensation 'case by case', a 2027 spot, 100 speakers moved; 184 items",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "7b65bc485"
+  },
+  {
+    "version": "v0.1.1410",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 14:48 wake: watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "4989b171b"
+  },
+  {
+    "version": "v0.1.1409",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: wake 14:41: Fringe's line in the strip; Friday at 18:41",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "c127dee43"
+  },
+  {
+    "version": "v0.1.1408",
+    "date": "2026-11-12",
+    "what": "designer@PrompTugal.dinis: the live sources strip re-checked after dev@'s change: still passes",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1d5d1d619"
+  },
+  {
+    "version": "v0.1.1407",
+    "date": "2026-11-12",
+    "what": "ontologist@PrompTugal.dinis: nothing new (run report)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "4c15d94f9"
+  },
+  {
+    "version": "v0.1.1406",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: the live sources strip: a line for a while; the Fringe's last evening until 23:59 UTC",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8fb6f3579"
+  },
+  {
+    "version": "v0.1.1405",
+    "date": "2026-11-12",
+    "what": "jornal@PrompTugal.silvio: two candidates at the 14:07 wake (Humanos wins Road 2 Web Summit; Australia's AI regulator)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "e0fcbd7c4"
+  },
+  {
     "version": "v0.1.1404",
     "date": "2026-11-12",
     "what": "conductor.b@PrompTugal.dinis: 13:48 wake: the Fringe line is on the front page; watch line, status",

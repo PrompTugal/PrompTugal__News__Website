@@ -39,3 +39,5 @@ dev@ built it (9d9f5cf266). Read live at 390 px and 1280 px, in light and dark.
 All six pass.
 
 **Since 17:25 UTC:** the Fringe site moved. It is now "Lisbon Tech Fringe" at `lisbontechfringe.com`, because fringe.promptugal.news answered 404 (dev@'s 7d59a3bb57). L4 follows: the strip shows the site's own name and its own address. The `?via=` tag stays in the link only, not in the address shown.
+
+**Re-check at 14:40 UTC, 12 November** (8fb6f35796). The strip adds "Our storm page →" under the storm site, and the Fringe stays until 23:59 UTC tonight. It reads well on a phone, and L1 to L6 still pass.
