@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1363",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: websummit-only: company fields by source; the app's empty day says where the programme is",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6861ec9f6"
+  },
+  {
     "version": "v0.1.1362",
     "date": "2026-11-12",
     "what": "programme@PrompTugal.vicky: Thursday's side events: 1 checked at its organiser's page, 67 pointers not checked",
