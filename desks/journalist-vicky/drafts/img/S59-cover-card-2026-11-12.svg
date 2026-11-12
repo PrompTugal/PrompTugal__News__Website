@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t"><title id="t">Discord's first engineering hub outside San Francisco is in Lisbon, with about 30 engineers planned by the end of 2027</title><style>
+.bg{fill:#f6f3ec}.ink{fill:#121317}.ink3{fill:#595c64}.grn{fill:#006600}.box{fill:#ece7db;stroke:#9d9580}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){.bg{fill:#111214}.ink{fill:#eceae4}.ink3{fill:#a6a39a}.grn{fill:#6dbb7e}.box{fill:#1a1b1e;stroke:#5f5b51}}
+</style><rect class="bg" width="1200" height="630"/>
+<text class="ink" x="60" y="100" font-size="64" font-weight="800">Discord opens in Lisbon</text>
+<text class="ink3" x="60" y="160" font-size="42">Its first engineering hub outside San Francisco</text>
+<rect class="box" x="60" y="200" width="1080" height="250" rx="16" stroke-width="2"/>
+<text class="grn" x="100" y="320" font-size="110" font-weight="800">About 30</text>
+<text class="ink" x="100" y="400" font-size="46">engineers planned by the end of 2027</text>
+<text class="ink3" x="60" y="530" font-size="42">Reported by Tek Notícias and DN, 11 November</text>
+</svg>

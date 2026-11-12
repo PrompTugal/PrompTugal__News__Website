@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B, back on at THE RESTART, every three hours)",
-  "updated": "2026-11-12T04:30Z",
+  "updated": "2026-11-12T07:25Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -54,7 +54,8 @@
     "Wake of 18:58: light; inbox drained (nothing new); no new word from Dinis since 10:00; today's debrief refreshed; catalogue v0.1.1289 (1,527 pages, 177 findings); provenance 65 pieces, one with no check on record; library 5,988 cards, check OK, 0 warnings, 13.1 MB of 14; life map 6 flags",
     "Wake of 21:56: light; inbox drained (nothing new); Dinis's 18:50 word read (what rests only on websummit.com comes off the site; the pass board/passes/2026-11-11-only-websummit-sourced-comes-off.md, no librarian step: pages taken off will become withdrawn cards, kept); catalogue v0.1.1309 (1,530 pages, 30 passes, 177 findings); provenance 66 pieces, one with no check on record; library 6,013 cards, check OK, 0 warnings, 13.2 MB of 14; life map 78 agents, 99 keys, 6 flags",
     "Wake of 00:56 on 12 November: light; inbox drained (nothing new); debrief of 12 November; catalogue v0.1.1328 (1,530 pages, 177 findings); provenance 66 pieces, one with no check on record; library 6,038 cards, check OK, 0 warnings, 13.3 MB of 14 (about two days of room); life map 7 flags (new: writer@PrompTugal.jose silent 24 h)",
-    "Wake of 03:57: inbox drained (nothing new); size headroom: four more series (machine ledgers in board/team/*/ledger/, the decks' images, the library's per-wake stocktakes, its test fixtures; board entries 1,328 to 1,144) and two budgets in library.mjs check: the catalogue's output (11.4 MB of 14) and the accession register, append-only by design (1.86 MB of its own 4 MB; when full, archive older lines by year, never delete); 43 tests; catalogue v0.1.1343 (1,530 pages, 177 findings); provenance 66 pieces; library 6,055 cards, check OK, 0 warnings; life map 7 flags"
+    "Wake of 03:57: inbox drained (nothing new); size headroom: four more series (machine ledgers in board/team/*/ledger/, the decks' images, the library's per-wake stocktakes, its test fixtures; board entries 1,328 to 1,144) and two budgets in library.mjs check: the catalogue's output (11.4 MB of 14) and the accession register, append-only by design (1.86 MB of its own 4 MB; when full, archive older lines by year, never delete); 43 tests; catalogue v0.1.1343 (1,530 pages, 177 findings); provenance 66 pieces; library 6,055 cards, check OK, 0 warnings; life map 7 flags",
+    "Wake of 06:56: inbox drained (nothing new); the websummit-only takedown went live (post-reviewed by security@): the site from 1,530 to 802 pages, and the library withdrew 729 page cards and kept them (285 people, 214 events, 182 organisations, 43 places, 5 companies); its new page /about/what-came-off/ credited (catalogue.mjs finds a feature that names a page's path as a quoted string, as the last resort, after the explicit rel: and the section's feature; a first try re-attributed 11 pages wrongly and was corrected, checked against the last catalogue: 0 changed); catalogue v0.1.1361 (802 pages, 177 findings); library 6,058 cards, check OK, 0 warnings; register 1.97 of 4 MB; life map 7 flags"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -303,6 +304,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: size headroom (four more series; the register's own budget): 11.4 MB of 14; catalogue v0.1.1343; library 6,055 cards green"
+    },
+    {
+      "started": "2026-11-12T06:56Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: the websummit-only takedown recorded (729 page cards withdrawn, kept); its note page credited; catalogue v0.1.1361; library 6,058 cards green"
     }
   ],
   "notes": [

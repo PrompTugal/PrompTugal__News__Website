@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-discord-lisbon-engineering-hub",
+  "type": "evidence",
+  "source_url": "https://jobs.generalcatalyst.com/companies/discord-2/jobs/96245323-it-ops-engineer-lisbon",
+  "beat": "Portugal",
+  "group": "Portugal",
+  "names": [
+    {
+      "as_listed": "Discord",
+      "ref": "organisation:discord"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-12-0740.json",
+  "run": "2026-11-12T07:40Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-12-0740.json"
+    ]
+  }
+}

@@ -29,7 +29,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1295 cards (1264 current, 0 superseded, 31 withdrawn), from the catalogue generated 2026-11-12T04:01:34Z at site v0.1.1343; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1296 cards (536 current, 0 superseded, 760 withdrawn), from the catalogue generated 2026-11-12T07:00:01Z at site v0.1.1361; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -41,15 +41,15 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 232 |
+| `PUB.SITE` | 233 |
 
 Newest five accessions:
 
+- `ACC-20261112-0043` [What came off the site, and how it comes back](https://promptugal.news/about/what-came-off/) (`PUB.SITE what-came-off`)
 - `ACC-20261111-0161` [Evening edition: Wednesday 11 November](https://promptugal.news/newsletter/2026-11-11-evening/) (`PUB.SITE 2026-11-11-evening`)
 - `ACC-20261111-0118` [Open Mercato Night](https://promptugal.news/organisations/open-mercato-night/) (`DAT.ORG open-mercato-night`)
 - `ACC-20261111-0117` [FounderLink](https://promptugal.news/organisations/founderlink/) (`DAT.ORG founderlink`)
 - `ACC-20261111-0116` [Elevon](https://promptugal.news/organisations/elevon/) (`DAT.ORG elevon`)
-- `ACC-20261111-0080` [Morning edition: Wednesday 11 November](https://promptugal.news/newsletter/2026-11-11-morning/) (`PUB.SITE 2026-11-11-morning`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

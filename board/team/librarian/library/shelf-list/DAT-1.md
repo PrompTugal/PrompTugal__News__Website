@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 1 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T04:01:34Z"
-site_version: "v0.1.1343"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T07:00:01Z"
+site_version: "v0.1.1361"
 source: board/catalogue.json
 ---
 
@@ -56,7 +56,7 @@ source: board/catalogue.json
 | `DAT.CO elastic` | [Elastic](https://promptugal.news/companies/elastic/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO emergence-ai` | [Emergence](https://promptugal.news/companies/emergence-ai/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO european-commission` | [European Commission](https://promptugal.news/companies/european-commission/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.CO eversec` | [Eversec Technology](https://promptugal.news/companies/eversec/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.CO eversec` | [Eversec Technology](https://promptugal.news/companies/eversec/) (withdrawn) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO exa` | [Exa](https://promptugal.news/companies/exa/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO exein` | [Exein](https://promptugal.news/companies/exein/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO factorial` | [Factorial](https://promptugal.news/companies/factorial/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -105,15 +105,15 @@ source: board/catalogue.json
 | Call number | Title | Kind | Made |
 |---|---|---|---|
 | `DAT.CO neo4j` | [Neo4j](https://promptugal.news/companies/neo4j/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.CO nisos` | [Nisos](https://promptugal.news/companies/nisos/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.CO nisos` | [Nisos](https://promptugal.news/companies/nisos/) (withdrawn) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO nordvpn` | [NordVPN](https://promptugal.news/companies/nordvpn/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO ola-doutor` | [Olá Doutor](https://promptugal.news/companies/ola-doutor/) | company | ontologist@ 6 Nov 2026 |
 | `DAT.CO open-vsx` | [Open VSX (Eclipse Foundation)](https://promptugal.news/companies/open-vsx/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO orb` | [Orb](https://promptugal.news/companies/orb/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.CO persona` | [Persona](https://promptugal.news/companies/persona/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.CO persona` | [Persona](https://promptugal.news/companies/persona/) (withdrawn) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO pitchbook` | [PitchBook](https://promptugal.news/companies/pitchbook/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO polyai` | [PolyAI](https://promptugal.news/companies/polyai/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.CO polygraf-ai` | [Polygraf AI](https://promptugal.news/companies/polygraf-ai/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.CO polygraf-ai` | [Polygraf AI](https://promptugal.news/companies/polygraf-ai/) (withdrawn) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO prelude` | [Prelude](https://promptugal.news/companies/prelude/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO primitive` | [Primitive](https://promptugal.news/companies/primitive/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.CO prisma` | [Prisma](https://promptugal.news/companies/prisma/) | company | newsroom-dev@web-summit.dinis 5 Nov 2026 |

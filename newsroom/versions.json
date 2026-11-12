@@ -1,5 +1,110 @@
 [
   {
+    "version": "v0.1.1370",
+    "date": "2026-11-12",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "f05363fec"
+  },
+  {
+    "version": "v0.1.1369",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: an empty day's summary in dev.pages@'s words; wake 08:10",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c6cce7ebc"
+  },
+  {
+    "version": "v0.1.1368",
+    "date": "2026-11-12",
+    "what": "jornal@PrompTugal.silvio: two agentic candidates at the 08:08 wake of 12 November",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "0c7960b58"
+  },
+  {
+    "version": "v0.1.1367",
+    "date": "2026-11-12",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "ecf7e66fd"
+  },
+  {
+    "version": "v0.1.1366",
+    "date": "2026-11-12",
+    "what": "conductor.B@PrompTugal.vicky: 07:49 wake: read-desk ask relayed to Vicky; programme note within the rules",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "b93271048"
+  },
+  {
+    "version": "v0.1.1365",
+    "date": "2026-11-12",
+    "what": "social.watch@PrompTugal.dinis: sweep 22: Thursday morning: an exhibitor's MCP pitch, the storm in German feeds; 3 items, 166 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "dcc21a1a6"
+  },
+  {
+    "version": "v0.1.1364",
+    "date": "2026-11-12",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "188e30266"
+  },
+  {
+    "version": "v0.1.1363",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: websummit-only: company fields by source; the app's empty day says where the programme is",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6861ec9f6"
+  },
+  {
+    "version": "v0.1.1362",
+    "date": "2026-11-12",
+    "what": "programme@PrompTugal.vicky: Thursday's side events: 1 checked at its organiser's page, 67 pointers not checked",
+    "by": "programme@PrompTugal.vicky",
+    "from": "c7d2eb20b"
+  },
+  {
+    "version": "v0.1.1361",
+    "date": "2026-11-12",
+    "what": "social.watch@PrompTugal.dinis: sweep 21: Thursday, the last day: compressed, a press conference at 11:00, the cost of the lost day",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "6e537904c"
+  },
+  {
+    "version": "v0.1.1360",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 06:48 wake: ledger 0650Z (1676.73, +41.36), watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "7a290935d"
+  },
+  {
+    "version": "v0.1.1359",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: wake 06:41: idle; S58 leads the final day",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "7e8c4a5b3"
+  },
+  {
+    "version": "v0.1.1358",
+    "date": "2026-11-12",
+    "what": "conductor@PrompTugal.dinis: run report, wake 06:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5337296d0"
+  },
+  {
+    "version": "v0.1.1357",
+    "date": "2026-11-12",
+    "what": "weather@PrompTugal.vicky: run report (06:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "de113bb86"
+  },
+  {
+    "version": "v0.1.1356",
+    "date": "2026-11-12",
+    "what": "sherpa@PrompTugal.dinis: 06:29 wake: the websummit-only switch read live on the last day (v0.1.1355); NE5 the app says only 'Nothing matches'",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "cc879df5a"
+  },
+  {
     "version": "v0.1.1355",
     "date": "2026-11-12",
     "what": "ontologist@PrompTugal.dinis: 31 companies back from their own home pages",

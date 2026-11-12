@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T21:53Z",
+  "updated": "2026-11-12T07:51Z",
   "sweeps": [
     {
       "n": 1,
@@ -179,6 +179,22 @@
       "at": "2026-11-11T19:51Z",
       "families": [
         "my own check: MeteoAlarm CAP, Mastodon, the team's commits"
+      ],
+      "items": 3
+    },
+    {
+      "n": 21,
+      "at": "2026-11-12T06:51Z",
+      "families": [
+        "one sub-agent: press and public posts"
+      ],
+      "items": 14
+    },
+    {
+      "n": 22,
+      "at": "2026-11-12T07:51Z",
+      "families": [
+        "my own check: Mastodon, the team's commits"
       ],
       "items": 3
     }
@@ -3768,6 +3784,410 @@
       "family": "news and blogs",
       "found": "2026-11-11T21:53Z",
       "found_by": "social.watch@PrompTugal.dinis (shadow sources)"
+    },
+    {
+      "url": "https://www.irishtimes.com/business/2026/11/11/as-heavy-rain-lashes-lisbon-web-summits-wednesday-schedule-is-washed-away/",
+      "platform": "web",
+      "author": "Stephen Conneely",
+      "kind": "press",
+      "title": "Web Summit a washout as attendees count the cost of unused €1,595 tickets",
+      "quote": "It will be the busiest Thursday ever",
+      "published": "2026-11-11T16:33",
+      "topics": [
+        "reopening",
+        "tickets",
+        "storm",
+        "Cosgrave"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Quote is from organisers' email to attendees. Site made safe by production team until 3am per Cosgrave. No refunds mentioned; no attendance figures.",
+      "family": "news and blogs",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)"
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/11/11/web-summit-garante-reabertura-quinta-feira-com-dia-mais-preenchido-de-sempre/",
+      "platform": "web",
+      "author": "ECO",
+      "kind": "press",
+      "title": "Web Summit garante reabertura quinta-feira com dia mais preenchido de sempre",
+      "quote": "a quinta-feira mais preenchida de sempre",
+      "published": "2026-11-11",
+      "topics": [
+        "reopening",
+        "rescheduled sessions",
+        "attendance"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Cites about 70,000 visitors from 160 countries. Cosgrave announced on X. Press conference, PITCH, refunds not mentioned.",
+      "family": "news and blogs",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)"
+    },
+    {
+      "url": "https://www.noticiasaominuto.com/tech/3082553/web-summit-organizacao-totalmente-concentrada-na-realizacao-do-ultimo-dia",
+      "platform": "web",
+      "author": "Lusa via Notícias ao Minuto",
+      "kind": "press",
+      "title": "Web Summit retoma atividade com último dia de programação reforçada",
+      "quote": "apesar dos transtornos causados pela tempestade",
+      "published": "2026-11-11T17:14",
+      "topics": [
+        "press conference",
+        "reopening",
+        "Lisbon City Council"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Cosgrave press conference Thursday 11:00 on the event's success. Lusa asked about amounts agreed with Lisbon council, no reply. No PITCH or refund mention.",
+      "family": "news and blogs",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)"
+    },
+    {
+      "url": "https://holanews.com/la-web-summit-reanuda-su-actividad-tras-cancelar-una-jornada-por-el-temporal-en-portugal/",
+      "platform": "web",
+      "author": "HolaNews",
+      "kind": "press",
+      "title": "La Web Summit reanuda su actividad tras cancelar una jornada por el temporal en Portugal",
+      "quote": null,
+      "published": "2026-11-11",
+      "topics": [
+        "reopening",
+        "storm Charles",
+        "164 countries"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Government recommendation cited; event runs through Thursday.",
+      "family": "news and blogs",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)"
+    },
+    {
+      "url": "https://jornalonline.pt/web-summit-retoma-trabalhos-na-quinta-feira-apos-mau-tempo/",
+      "platform": "web",
+      "author": "JornalOnline",
+      "kind": "press",
+      "title": "Web Summit retoma trabalhos na quinta-feira após mau tempo",
+      "quote": "a quinta-feira será a jornada mais intensa de sempre",
+      "published": "2026-11-11",
+      "topics": [
+        "reopening",
+        "press conference",
+        "housing protests"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Talks compressed into final day at FIL and Altice Arena; Cosgrave press conference Thursday morning; housing gatherings near venue.",
+      "family": "news and blogs",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)"
+    },
+    {
+      "url": "https://radioregional.pt/web-summit-retoma-trabalhos-na-quinta-feira-apos-mau-tempo/",
+      "platform": "web",
+      "author": "Rádio Regional",
+      "kind": "press",
+      "title": "Web Summit retoma trabalhos na quinta-feira após mau tempo",
+      "quote": null,
+      "published": "2026-11-11",
+      "topics": [
+        "reopening"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "Same text as JornalOnline item.",
+      "family": "news and blogs",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)"
+    },
+    {
+      "url": "https://www.noticiasaominuto.com/pais/3082543/acampada-de-lisboa-marca-concentracao-frente-a-web-summit",
+      "platform": "web",
+      "author": "Lusa via Notícias ao Minuto",
+      "kind": "press",
+      "title": "Acampada de Lisboa marca concentração frente à Web Summit",
+      "quote": "Entrada livre. A renda, infelizmente, continua cara",
+      "published": "2026-11-11T16:07",
+      "topics": [
+        "housing protest",
+        "Camp Summit",
+        "Thursday rally"
+      ],
+      "companies": [
+        "Web Summit"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "Rally 17:30 at Alameda dos Oceanos Thursday; housing march Saturday 14 Nov.",
+      "family": "news and blogs",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)"
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-12T06:51",
+      "topics": [
+        "robots replacing people",
+        "Web Summit satire"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "kolektiva.social",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "blog cross-post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-12T06:51",
+      "topics": [
+        "robots replacing people"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "fediverse blog cross-post",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "reply",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T19:37",
+      "topics": [
+        "housing crisis anger",
+        "news link"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "coletivos.org",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T19:11",
+      "topics": [
+        "Web Summit attendees",
+        "video"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "coletivos.org",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T16:49",
+      "topics": [
+        "storm cancellation",
+        "joke"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "hortensia.social",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T15:54",
+      "topics": [
+        "storm",
+        "did Web Summit happen"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "coletivos.org",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)",
+      "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-11T13:27",
+      "topics": [
+        "conference networking tips"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "mastodon.social",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T06:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 21)",
+      "private_individual": true
+    },
+    {
+      "url": "https://mastodon.social/@linkie/117602219746448691",
+      "platform": "Mastodon",
+      "author": "Linkie (linkie, mastodon.social)",
+      "kind": "post",
+      "title": null,
+      "quote": "With Publer's MCP, schedule and post across your socials in one prompt.",
+      "published": "2026-11-12T07:11:04Z",
+      "topics": [
+        "agentic AI",
+        "startups",
+        "exhibitors"
+      ],
+      "companies": [
+        "Publer",
+        "Linkie"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "An exhibitor on Thursday morning; an agent-tool angle (an MCP server that posts to social networks from one prompt).",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T07:51Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 22)"
+    },
+    {
+      "url": "https://mastodon.social/@notexx/117602178976796413",
+      "platform": "Mastodon",
+      "author": "NOTEXX | Nachrichten (notexx, mastodon.social)",
+      "kind": "post",
+      "title": null,
+      "quote": "Sturm Charles legt Portugal lahm",
+      "published": "2026-11-12T07:00:42Z",
+      "topics": [
+        "storm"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "A German news account's storm round-up (over 300 flights cancelled, schools closed); the story reaches German-language feeds.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T07:51Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 22)"
+    },
+    {
+      "url": null,
+      "platform": "Mastodon / personal blog",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-12T06:51:31Z",
+      "topics": [
+        "robots",
+        "AI",
+        "reaction"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "private_individual": true,
+      "note": "A private person writing as themselves: count, theme and platform only. Theme: a sceptical reflection on TV coverage of the summit's dancing robots and 'robots may replace us'.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T07:51Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 22)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",
