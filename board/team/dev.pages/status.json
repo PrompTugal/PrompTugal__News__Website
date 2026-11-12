@@ -1,11 +1,9 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "idle: the websummit-only note, page and showcase are on dev; security@ closed S39; nothing addressed to me",
-  "updated": "2026-11-12T06:12Z",
+  "state": "idle: the websummit-only work is on dev; dev@ and I both did sherpa@'s NE4 again at the same time; its version is on the page",
+  "updated": "2026-11-12T08:14Z",
   "done": [
-    "Wake 19:11: merged dev (status.json conflict kept mine), gate green at v0.1.1292; nothing addressed to me (designer@: the live sources spec follows Fringe's new name; that strip is dev@'s)",
-    "Wake 20:11: merged dev (status.json conflict kept mine), gate green at v0.1.1299; nothing addressed to me",
     "Wake 21:11: merged dev (status.json conflict kept mine), gate green at v0.1.1302; nothing addressed to me",
     "Wake 22:11: merged dev (status.json conflict kept mine), gate green at v0.1.1311; sherpa@ 21:32: W7 done, Thursday ready for the reader; nothing addressed to me",
     "Wake 23:11: merged dev (status.json conflict kept mine), gate green at v0.1.1317; read the websummit-only pass (Dinis 18:50): dev@, dev.data@ and dev.pages@ build step 3; designer@ designed the note and the recovery page (board/spec-the-not-everything-note.md), which wait on security@'s pre-review; I asked dev@ on its inbox to split: I take the note component and the recovery page, dev@ keeps the rule, the gate check and the build; I start only after security@'s go and dev@'s answer",
@@ -15,7 +13,9 @@
     "Wake 03:11: merged dev (clean, no conflict), gate green at v0.1.1338; dev@ at 02:09 held my latest because of merge conflicts: they are resolved in my last merge, so work/dev.pages now merges clean; security@ 03:05: the websummit-only pass built to the pre-review's conditions, switch off; the switch is still off",
     "Wake 04:11: merged dev (status.json conflict kept mine), gate green at v0.1.1344; dev@ brought work/dev.pages again (281fe2e11, with the note files); the websummit-only switch still waits on journalist@ (conductor@ 03:36); sherpa@ read NE1 to NE3; nothing addressed to me",
     "Wake 05:11: the switch is on (dev@ 545934d, v0.1.1345); designer@'s check: companies and People notes pass; gaps: no note on the agenda or today's day page (NE1), none on a company with facts taken off (Cloudflare), no showcase on the recovery page. NE1 and the company note are on my branch (dev@ had brought the first version only): rebuilt with the switch on after merging dev, events, 2026-11-12 and companies/cloudflare carry the note; the showcase added to the recovery page (Lisbon Tech Fringe from assets/sources/sources.json, words in ws_note); gate green at v0.1.1349; merge of dev: status.json conflict kept mine",
-    "Wake 06:11: merged dev (status.json conflict kept mine), gate green at v0.1.1353; dev@ 05:08 brought work/dev.pages (the note files, the showcase) and checked the note; security@ 06:05: the switch holds on the live site, S39 closed; nothing addressed to me"
+    "Wake 06:11: merged dev (status.json conflict kept mine), gate green at v0.1.1353; dev@ 05:08 brought work/dev.pages (the note files, the showcase) and checked the note; security@ 06:05: the switch holds on the live site, S39 closed; nothing addressed to me",
+    "Wake 07:11: designer@ 06:33 re-checked the notes (all in place) and backed sherpa@'s NE4 (drop 'five things to plan around' on a day with 0 items) and NE5 (the app's empty day shows the note: dev@'s app); NE4 done: a day with no items says nothing from our programme is listed and the full programme is in Web Summit's own app (words in data/site/list-views.json days_page.summary_none); two small asks from designer@ not done: put the company note under the lede (needs the shell to place a block between the lede and the page's table of contents: dev@'s) and link the schedule's address (it is a link in the note already); merge dev: status.json conflict kept mine; gate green at v0.1.1362",
+    "Wake 08:11: merged dev; the merge conflicted in days.mjs and list-views.json: dev@ (06:09) did the same NE4 as my 07:11 commit (a day with no items), I took dev@'s words and code; the fourth double build in four days; gate green at v0.1.1367"
   ],
   "next": [
     "dev@: turn the switch on when the filter, the gate check and the story claims are ready; fix the blank company summary",
