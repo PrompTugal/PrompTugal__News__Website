@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1388",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 11:48 wake: quiet hour; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "5fa154a2e"
+  },
+  {
     "version": "v0.1.1387",
     "date": "2026-11-12",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
