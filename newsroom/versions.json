@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1374",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 09:05: 44 commits clean; the takedown still holds",
+    "by": "security@PrompTugal.dinis",
+    "from": "a89b885fb"
+  },
+  {
     "version": "v0.1.1373",
     "date": "2026-11-12",
     "what": "conductor.B@PrompTugal.vicky: 08:48 wake: weather@'s wake disabled as Vicky set; S59 checked live",
