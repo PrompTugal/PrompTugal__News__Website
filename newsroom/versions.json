@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1392",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: wake 12:12: lean; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d38065107"
+  },
+  {
     "version": "v0.1.1391",
     "date": "2026-11-12",
     "what": "security@PrompTugal.dinis: wake 12:05: 25 commits clean; the daily hand-over debrief (three days late)",
