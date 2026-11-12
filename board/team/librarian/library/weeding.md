@@ -2,14 +2,14 @@
 title: "Weeding: superseded and withdrawn holdings"
 by: librarian@PrompTugal.dinis
 generated: "by library.mjs 0.2.0 from the cards"
-site_version: "v0.1.1328"
+site_version: "v0.1.1343"
 ---
 
 # Weeding
 
 Weeding is a status, never a deletion. A **superseded** card is a holding a later one replaces (a `supersedes` link: front matter, a versioned name, or the owner's word in `authority/forms.json`); a **withdrawn** card is a holding that has left the repository, with its register line. Both stay in the catalogue and the shelf list, shown marked, and are hidden from default views. The library proposes; the owner decides.
 
-1 superseded, 2344 withdrawn.
+1 superseded, 2533 withdrawn.
 
 | Card | Call number | Status | Reason | Successor |
 |---|---|---|---|---|
@@ -134,7 +134,7 @@ Weeding is a status, never a deletion. A **superseded** card is a holding a late
 | Shelf list: WRK, Work in hand (part 3 of 4) (`board:board/team/librarian/library/shelf-list/WRK-3.md`) | `LIB.CAT WRK-3` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
 | Shelf list: WRK, Work in hand (part 4 of 4) (`board:board/team/librarian/library/shelf-list/WRK-4.md`) | `LIB.CAT WRK-4` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
 
-... and 2225 more in the catalogue.
+... and 2414 more in the catalogue.
 
 ## Candidates for weeding
 

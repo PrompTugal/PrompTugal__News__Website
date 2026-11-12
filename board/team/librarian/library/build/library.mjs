@@ -140,7 +140,7 @@ async function main() {
     if (r.warnings.length > 20) console.log(`warning: ... and ${r.warnings.length - 20} more`)
     for (const e of r.errors.slice(0, 50)) console.error(`error: ${e}`)
     if (r.errors.length > 50) console.error(`error: ... and ${r.errors.length - 50} more`)
-    console.log(`library check: ${r.errors.length ? 'FAILED' : 'OK'} (${r.stats.cards} cards, ${r.stats.files} files, ${r.stats.bytes} bytes, ${r.stats.register} register lines, ${r.errors.length} errors, ${r.warnings.length} warnings)`)
+    console.log(`library check: ${r.errors.length ? 'FAILED' : 'OK'} (${r.stats.cards} cards, ${r.stats.files} files, ${r.stats.bytes} bytes, ${r.stats.register} register lines (${r.stats.register_bytes} bytes), ${r.errors.length} errors, ${r.warnings.length} warnings)`)
     process.exit(r.errors.length ? 1 : 0)
   }
   console.error('usage: library.mjs build|check [--root DIR] [--out DIR]')

@@ -11,6 +11,7 @@ import { REL, INVERSE, ontologyOf } from './linktypes.mjs'
 import { loadDomains, readExists, MARK_BEGIN, MARK_END } from './reality.mjs'
 import { validateShape, checkPresets } from './graph.mjs'
 
+const REGISTER_LIMIT = 4 * 1024 * 1024  // the accession register's own budget (1.8 MB on 12 November, about 0.25 MB a day)
 const SIZE_LIMIT = 14 * 1024 * 1024  // raised from 7 MB (6 November, 16:40) to 12, then to 14 on 10 November, 13:30, only after bulk machine-made board material was described per series that morning: what grows now is real holdings and the pieces' provenance
 
 export function libraryFiles(libDir) {
@@ -33,17 +34,22 @@ export function check(ctx) {
   const stats = {}
   const rel = (p) => path.relative(libDir, p)
   const files = libraryFiles(libDir)
-  let total = 0
+  // two budgets (12 November 2026): the catalogue's output, and the accession register, which is append-only by design
+  // (every accession and every withdrawal is a line, kept for good), so it grows with the library's whole history
+  let total = 0, register = 0
   for (const f of files) {
     const text = fs.readFileSync(f, 'utf8')
-    total += Buffer.byteLength(text)
+    if (path.basename(f) === 'accession-register.jsonl') register += Buffer.byteLength(text)
+    else total += Buffer.byteLength(text)
     if (/\.json$/.test(f)) { try { JSON.parse(text) } catch (e) { errors.push(`${rel(f)}: not valid JSON (${e.message})`) } }
     if (/\.jsonl$/.test(f)) { readLines(f).forEach((l, i) => { try { JSON.parse(l) } catch { errors.push(`${rel(f)} line ${i + 1}: not valid JSON`) } }) }
     scanSecrets(rel(f), text, errors, root)
   }
   stats.files = files.length
   stats.bytes = total
+  stats.register_bytes = register
   if (total > SIZE_LIMIT) errors.push(`generated files total ${total} bytes, over the ${SIZE_LIMIT} limit`)
+  if (register > REGISTER_LIMIT) errors.push(`accession-register.jsonl is ${register} bytes, over its ${REGISTER_LIMIT} budget: archive its older lines by year (a register volume), never delete them`)
 
   // cards
   const cards = []
