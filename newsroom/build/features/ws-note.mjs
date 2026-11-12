@@ -18,10 +18,15 @@ const link = (ctx, from) => `[${W.link}](${ctx.link(from, REL)})`
 // the note, as the markdown the page and its twin carry: a sand band by class hook, one component in two lengths
 const note = (ctx, rel, text, tail = '') => `::: ws-note\n{.ws-kicker}\n${W.kicker}\n\n${text}${tail} ${link(ctx, rel)}\n:::\n\n`
 
+const PROGRAMME = p => p.rel === 'events/index.html' || p.rel === 'summit/agenda.html' || /^days\//.test(p.rel)
 export function decorate(p, ctx) {
     if (!on() || !ctx) return
     const i = wsInventory(), kind = LISTS[p.rel]
-    if (kind) {
+    if (PROGRAMME(p)) {   // sherpa@'s NE1 (designer@'s spec): the programme's pages say where the full programme still is
+        p.md = `::: ws-note\n{.ws-kicker}\n${W.prog_kicker}\n\n${W.prog} ${link(ctx, p.rel)}\n:::\n\n` + p.md
+    } else if (p.rel === 'people/index.html' && i.counts.people && i.counts.people.other_source === 0) {   // NE2: a page left with nothing: the note is the page
+        p.md = `::: ws-note ws-empty\n{.ws-kicker}\n${W.empty_kicker}\n\n${W.empty_why}\n\n${W.empty_still}\n\n- ${W.empty_li_1}\n- ${W.empty_li_2}\n\n${W.empty_back} ${link(ctx, p.rel)}\n:::\n\n`
+    } else if (kind) {
         const c = i.counts[kind === 'companies' ? 'companies' : kind]
         p.md = note(ctx, p.rel, W.list, c ? ` *${c.total - c.websummit_only} of ${c.total} ${W.shown}.*` : '') + p.md
     } else if (p.type === 'company') {
