@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1322",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: websummit-only pass, step 3: the conditions from the pre-review by security@ (switch still off)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f90b00661"
+  },
+  {
     "version": "v0.1.1321",
     "date": "2026-11-12",
     "what": "security@PrompTugal.dinis: pre-review of the websummit-only pass: go, raw data files in scope; S39 decided; S40 (low)",
