@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "dn-2026-11-11-discord-polo",
+  "story": "S59",
+  "url": "https://www.dn.pt/economia/discord-escolhe-lisboa-para-abrir-o-seu-primeiro-polo-de-engenharia-fora-dos-eua",
+  "title": "Diario de Noticias, Discord escolhe Lisboa para abrir o seu primeiro polo de engenharia fora dos EUA (11 November 2026)",
+  "publisher": "Diário de Notícias",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "DN reports the first engineering centre outside the US, about 30 engineers to 2027, work on audio, video and data infrastructure, hybrid three to four office days."
+}

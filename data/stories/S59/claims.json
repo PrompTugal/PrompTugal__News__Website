@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S59",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-12",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Discord says in its own job posting that it is opening an engineering hub in Lisbon, its first dedicated one outside its San Francisco headquarters.",
+      "kind": "fact",
+      "source": "discord-job-it-ops-lisbon",
+      "quote": "Discord is opening an engineering hub in Lisbon, our first dedicated one outside of our San Francisco HQ.",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "Observador reports, from a Discord posting, that the Lisbon office will not be a satellite office but a place with real technical autonomy (Portuguese original quoted).",
+      "kind": "fact",
+      "source": "observador-2026-11-06-discord-lisboa",
+      "quote": "não será um escritório satélite, mas sim um local com verdadeira autonomia técnica",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "Observador reports that candidates are asked to be in the office three to four times a week.",
+      "kind": "fact",
+      "source": "observador-2026-11-06-discord-lisboa",
+      "quote": "ir ao escritório três a quatro vezes por semana",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "Observador reports that Discord left the details of the Lisbon office to a press conference the following Wednesday.",
+      "kind": "fact",
+      "source": "observador-2026-11-06-discord-lisboa",
+      "quote": "A Discord remeteu detalhes sobre este escritório em Lisboa para uma conferência na próxima quarta-feira.",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "Tek Notícias reports that the hub is meant to employ about 30 workers by the end of 2027, as the company confirms.",
+      "kind": "fact",
+      "source": "tek-2026-11-11-discord-hub",
+      "quote": "O objetivo é que o hub possa empregar cerca de 30 trabalhadores até final de 2027, confirma a empresa.",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "Tek Notícias reports that Discord already has a European headquarters in Amsterdam and that this is its first engineering hub outside the United States.",
+      "kind": "fact",
+      "source": "tek-2026-11-11-discord-hub",
+      "quote": "A empresa já tem uma sede europeia em Amesterdão.",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "Tek Notícias reports that the announcement was planned for a press conference at Web Summit and the closure for bad weather changed the plans.",
+      "kind": "fact",
+      "source": "tek-2026-11-11-discord-hub",
+      "quote": "O anúncio estava previsto para uma conferência de imprensa no Web Summit mas o encerramento devido ao mau tempo acabou por mudar os planos",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "Tek Notícias quotes Discord's CTO and co-founder Stanislav Vishnevskiy (in Portuguese): Lisbon has established itself as one of Europe's main centres of talent and innovation.",
+      "kind": "fact",
+      "source": "tek-2026-11-11-discord-hub",
+      "quote": "Lisboa consolidou-se como um dos principais centros de talento e inovação da Europa",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "Diário de Notícias reports that the Lisbon centre will have direct responsibility for the platform's core tech: network reliability, low-latency audio and video, data management, and moderation and safety tools.",
+      "kind": "fact",
+      "source": "dn-2026-11-11-discord-polo",
+      "quote": "o polo de Lisboa terá responsabilidades diretas sobre a chamada \" core tech \" da plataforma",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "Diário de Notícias reports that Discord plans to hire about 30 engineers by 2027 for audio, video and data infrastructure from Lisbon.",
+      "kind": "fact",
+      "source": "dn-2026-11-11-discord-polo",
+      "quote": "planeia contratar cerca de 30 engenheiros até 2027",
+      "read_on": "2026-11-12",
+      "about": [
+        "local:discord"
+      ]
+    }
+  ]
+}
