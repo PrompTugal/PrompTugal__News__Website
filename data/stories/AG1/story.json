@@ -2,7 +2,7 @@
   "$schema": "../../schemas/story.schema.json",
   "id": "AG1",
   "type": "story",
-  "title": "The agent conversation the storm postponed: twelve Wednesday sessions that did not happen",
+  "title": "The agent conversation the storm postponed",
   "beat": "AI",
   "topic": null,
   "status": "idea",
