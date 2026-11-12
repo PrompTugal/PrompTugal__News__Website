@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1338",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 03:05: 35 commits clean; the websummit-only pass built to the pre-review's conditions, switch off",
+    "by": "security@PrompTugal.dinis",
+    "from": "66c7c19f1"
+  },
+  {
     "version": "v0.1.1337",
     "date": "2026-11-12",
     "what": "conductor.b@PrompTugal.dinis: 02:48 wake: the pass's switch waits on four items",
