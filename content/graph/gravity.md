@@ -1,6 +1,6 @@
 ---
 title: "Centres of gravity"
-summary: "Where the companies going to Web Summit Lisbon 2026 gather: each field, or each country, as a well, and every company orbiting it."
+summary: "Where the companies in the newsroom's data gather: each field, or each country, as a well, and every company orbiting it."
 empty: "Tap a company to see what it does and open its page."
 fail: "The graph data could not be loaded."
 by_field: "By field"
@@ -10,6 +10,13 @@ group: "Group by"
 canvas: "Companies orbiting the centres of gravity of their field or country"
 noscript: "The infographic needs JavaScript. The same data is published as graph/explorer.json."
 ---
+::: ws-note
+{.ws-kicker}
+Not everything
+
+This picture is not everything. Web Summit's licence does not let us republish data from its site, so on 11 November 2026 we took off whatever rested only on it: a company left with nothing is not drawn, and each comes back when we find another public source. [How items come back](../../about/what-came-off/index.html)
+:::
+
 Every dot is a company from the newsroom's graph. A well is a field (security, AI agents, GRC and so on) or, if you switch, a country; its size is the combined PageRank of its companies, and each dot's size is how many connections that company has in the graph. The dots turn slowly so the heavy wells read first.
 
 ## How to read it {#read}

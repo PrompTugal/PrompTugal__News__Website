@@ -10,6 +10,7 @@
 //   entity pages                     a prerendered <figure class="minigraph"> (company, event, person, organisation,
 //                                    topic), with "Open in the graph" to /graph/?focus=<ref>
 //   every page                       assets/graph/commands.js registers graph.* commands on window.__toolQueue
+import { graphNote } from './graph/note.mjs'
 import { pageOf } from '../lib/graph.mjs'
 import { rank } from './graph/rank.mjs'
 import { forceLayout } from './graph/layout.mjs'
@@ -105,7 +106,7 @@ function explorerHtml(ctx) {
 
 function explorerMd(ctx) {
     const ont = ctx.store.ontology, g = ctx.graph()
-    return `The newsroom's graph, to explore: ${g.nodes.length.toLocaleString('en-GB')} nodes and ${g.edges.length.toLocaleString('en-GB')} edges in four worlds (the summit's programme, the people, the industry, the evidence), joined by named verbs, each with its inverse. It starts from a question, never from the whole: a company, a session, a person, or the most important nodes by a ranking you choose.\n\n` +
+    return graphNote(ctx, REL) + `The newsroom's graph, to explore: ${g.nodes.length.toLocaleString('en-GB')} nodes and ${g.edges.length.toLocaleString('en-GB')} edges in four worlds (the summit's programme, the people, the industry, the evidence), joined by named verbs, each with its inverse. It starts from a question, never from the whole: a company, a session, a person, or the most important nodes by a ranking you choose.\n\n` +
         `## How to use it {#how}\n\n` +
         `- **Find** a node by name, then **expand** it one hop at a time, or set the **depth** of the walk around it (the explore stepper of graphs.sgit.ai's reader).\n` +
         `- **Anchor** the nodes you start from: anchors are pinned to the edges of the canvas and held through every layout, so a path between two anchors reads left to right.\n` +

@@ -1,6 +1,6 @@
 ---
 title: "The world map"
-summary: "Where the companies going to Web Summit Lisbon 2026 come from: every country with a bubble sized by how many, and a line from each to Lisbon."
+summary: "Where the companies in the newsroom's data come from: every country with a bubble sized by how many, and a line from each to Lisbon."
 all: "All fields"
 png: "Save as PNG"
 canvas: "A world map: a bubble on every country with companies in the graph, sized by how many, each joined to Lisbon"
@@ -13,6 +13,13 @@ count: "{n} companies in the graph"
 europe: "Zoom to Europe"
 worldv: "Back to the world"
 ---
+::: ws-note
+{.ws-kicker}
+Not everything
+
+This picture is not everything. Web Summit's licence does not let us republish data from its site, so on 11 November 2026 we took off whatever rested only on it: a company left with nothing is not drawn, and each comes back when we find another public source. [How items come back](../../about/what-came-off/index.html)
+:::
+
 Each bubble sits on a country and its area grows with the number of companies from that country in the newsroom's graph. A line runs from every country to Lisbon, where Web Summit is held on 9 to 12 November 2026. Pick a field to see only its companies: the bubbles shrink and some countries drop away.
 
 ## How to read it {#read}
