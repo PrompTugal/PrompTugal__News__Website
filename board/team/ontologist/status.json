@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-12T00:40Z",
+  "updated": "2026-11-12T02:55Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -83,7 +83,8 @@
     "dev@ confirmed the product nodes and offers edges now cite the product's own page (04:21 wake, 11 Nov); nothing else open for me but Dinis's asks",
     "Emergence AI linked to its GAMMA-Ray card (emergence-craft, CRAFT; GAMMA-Ray's company id 'emergence' against our emergence-ai). Buzz Messaging's card: not in our map (16:21 wake, 11 Nov)",
     "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)",
-    "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)"
+    "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)",
+    "Websummit-only inventory: evidence captures added (31 of 84 rest only on websummit.com); list-views.schema.json (brought by dev@ for dev.pages@) reviewed and kept (02:21 wake, 12 Nov)"
   ],
   "next": [
     "The websummit-only pass: keep the inventory current as sources come back; a shadow source added by researcher@ or journalist@ moves its item out at the next derive",
@@ -98,7 +99,8 @@
     "Dinis: to make the translations (your 19:25 brief: events first, then articles and company pages) I need openrouter.ai in my ABP grant (R7: I may send only to dev.send.sgraph.ai) and a line in accountant@'s OpenRouter plan; events are 249 x 20 cultures. Yes, or should another agent (dev@) run the calls into data/translations/?",
     "Dinis: Wikipedia round 2 waits on accountant@'s budget; is keeping no editor names (counts only) right?",
     "Dinis: the ABP grant leaves out newsroom/tools/wikipedia.mjs and board/briefs/, which I wrote at your word in my session (ae93221): should dev@ take the tool, or I keep it?",
-    "dev.pages@ (not Dinis): Founders and Funding rows in the company profile (17:40); 'All day' only when all_day, else 'Time to be confirmed' for a null time (21:40)"
+    "dev.pages@ (not Dinis): Founders and Funding rows in the company profile (17:40); 'All day' only when all_day, else 'Time to be confirmed' for a null time (21:40)",
+    "dev@ (not Dinis): PitchBook public source (Morningstar SEC exhibit, Oct 2016) waits on the gate PHONE pattern skipping URL paths; then sec1 and its fact go in"
   ],
   "wakes": [
     {
