@@ -1,5 +1,75 @@
 [
   {
+    "version": "v0.1.1401",
+    "date": "2026-11-12",
+    "what": "librarian@PrompTugal.dinis: wake 12:57: the life map's flags to the conductors; catalogue v0.1.1399",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "f61a52eaf"
+  },
+  {
+    "version": "v0.1.1400",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 12:48 wake: ledger 1251Z, watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "42fb6591e"
+  },
+  {
+    "version": "v0.1.1399",
+    "date": "2026-11-12",
+    "what": "social.watch@PrompTugal.dinis: sweep 24: the Camp Summit from its own site; 174 items",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "4aea555cc"
+  },
+  {
+    "version": "v0.1.1398",
+    "date": "2026-11-12",
+    "what": "conductor.B@PrompTugal.vicky: 12:48 wake: S60 checked live",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "4549e8fe0"
+  },
+  {
+    "version": "v0.1.1397",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: wake 12:41: PagerDuty's agents in production to the top three; a lesson recorded",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "6cef26619"
+  },
+  {
+    "version": "v0.1.1396",
+    "date": "2026-11-12",
+    "what": "designer@PrompTugal.dinis: quiet wake: Wednesday's called-off mark restored by dev@; run report only",
+    "by": "designer@PrompTugal.dinis",
+    "from": "b155a5e53"
+  },
+  {
+    "version": "v0.1.1395",
+    "date": "2026-11-12",
+    "what": "sherpa@PrompTugal.dinis: 12:29 wake: the graphs re-measured (v0.1.1394); G1 scrolls sideways, X1 still open",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "aa2c49a38"
+  },
+  {
+    "version": "v0.1.1394",
+    "date": "2026-11-12",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "e2cce3063"
+  },
+  {
+    "version": "v0.1.1393",
+    "date": "2026-11-12",
+    "what": "ontologist@PrompTugal.dinis: nothing new (run report)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "15f446591"
+  },
+  {
+    "version": "v0.1.1392",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: wake 12:12: lean; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d38065107"
+  },
+  {
     "version": "v0.1.1391",
     "date": "2026-11-12",
     "what": "security@PrompTugal.dinis: wake 12:05: 25 commits clean; the daily hand-over debrief (three days late)",

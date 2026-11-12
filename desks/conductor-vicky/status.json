@@ -2,10 +2,10 @@
   "agent": "conductor.B@PrompTugal.vicky",
   "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
   "state": "ok",
-  "updated": "2026-11-12T09:50:00Z",
+  "updated": "2026-11-12T12:52:00Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "09:50 UTC Thu 12 Nov: relayed the team conductor's request (programme's Thursday side events) to the fringe conductor; request file marked done.",
+  "done": "12:52 UTC Thu 12 Nov: S60 (PagerDuty, published under R-PUB-1 by the reviewer) checked live at /articles/pagerduty-agents-in-production.html.",
   "next": "Vicky's answer on a read-desk block goes to the fringe conductor; Friday 13 Nov: disable the fringe conductor's wake, then this account's own.",
   "asks": [
     "Vicky: whether her team takes a block of the fringe site's Thursday read desk (browser checks).",
