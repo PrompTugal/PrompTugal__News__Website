@@ -584,6 +584,18 @@
         "PrompTugal__App__Mobile": "7f59d911"
       },
       "note": "ledger wake: B total 1705.21 (+28.48 in 3h); the takedown holds and its follow-ups shipped (conductor@ 09:40); sherpa@ NE4/NE5 done; dev@ brought the three workers; inbox empty"
+    },
+    {
+      "at": "2026-11-12T10:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "heads": {
+        "SGit-AI__Website__Web-Summit": "4324b300",
+        "PrompTugal__News__Website": "4fc70be4",
+        "PrompTugal__App__Android": "2cd4cd75",
+        "PrompTugal__App__iOS": "bf76d293",
+        "PrompTugal__App__Mobile": "7f59d911"
+      },
+      "note": "lean hour: dev@, dev.pages@, dev.graphs@, ontologist@ report nothing new; correspondent@ and designer@ wrote their 12 Nov debriefs; librarian@ green; inbox empty"
     }
   ]
 }
