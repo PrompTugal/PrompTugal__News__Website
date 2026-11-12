@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-nicedeer",
-  "story": "S30",
+  "story": "S30-websummit",
   "url": "https://websummit.com/appearances/lis26/66472617-e165-4d64-bb9e-3970bb6db0d8/nice-deer",
   "title": "Nice Deer (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

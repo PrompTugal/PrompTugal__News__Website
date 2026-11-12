@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-acrab",
-  "story": "S29",
+  "story": "S29-websummit",
   "url": "https://websummit.com/appearances/lis26/cd80be9e-4aa2-4c1c-b77e-90e9cd8e6a7d/acrab-ai",
   "title": "Acrab AI (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

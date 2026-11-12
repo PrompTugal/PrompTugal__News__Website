@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-sheerme",
-  "story": "S30",
+  "story": "S30-websummit",
   "url": "https://websummit.com/appearances/lis26/f139c5b3-528e-4542-9a51-1fe1a99c1fed/sheerme",
   "title": "sheerME (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

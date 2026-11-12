@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-seroton",
-  "story": "S30",
+  "story": "S30-websummit",
   "url": "https://websummit.com/appearances/lis26/c3dd9efb-9dc4-4784-899b-ddfdaf1449b2/seroton-gmbh",
   "title": "Seroton GmbH (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

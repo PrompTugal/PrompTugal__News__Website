@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-humanos",
-  "story": "S29",
+  "story": "S29-websummit",
   "url": "https://websummit.com/appearances/lis26/9bb06d38-6e33-4cc6-9c93-4936e1154da9/humanos",
   "title": "Humanos (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

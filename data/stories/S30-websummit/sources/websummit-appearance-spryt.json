@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-spryt",
-  "story": "S30",
+  "story": "S30-websummit",
   "url": "https://websummit.com/appearances/lis26/09d20ca2-0711-41f5-9955-7bbc0a88b99c/spryt",
   "title": "SPRYT (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-mobilebrain",
-  "story": "S30",
+  "story": "S30-websummit",
   "url": "https://websummit.com/appearances/lis26/91093bb6-fa22-477c-9a74-7bd74cd93ae8/mobile-brain",
   "title": "Mobile Brain (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

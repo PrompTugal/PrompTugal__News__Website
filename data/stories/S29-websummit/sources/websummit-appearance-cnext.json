@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-cnext",
-  "story": "S29",
+  "story": "S29-websummit",
   "url": "https://websummit.com/appearances/lis26/7650eb03-7f70-4275-a9c7-4dee4e4258e4/cnext",
   "title": "Cnext (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-beyond",
-  "story": "S29",
+  "story": "S29-websummit",
   "url": "https://websummit.com/appearances/lis26/8d22a993-9782-4d52-a3b8-68f120166cc6/beyond-presence",
   "title": "Beyond Presence (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

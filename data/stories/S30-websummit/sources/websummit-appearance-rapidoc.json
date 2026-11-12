@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-rapidoc",
-  "story": "S30",
+  "story": "S30-websummit",
   "url": "https://websummit.com/appearances/lis26/f8b1c16b-ba5d-40d8-883b-2f14ed61fb4e/rapidoc",
   "title": "Rapidoc (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",

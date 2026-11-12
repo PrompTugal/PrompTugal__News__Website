@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-appearance-igloo",
-  "story": "S30",
+  "story": "S30-websummit",
   "url": "https://websummit.com/appearances/lis26/e24de2fd-fb4f-4d21-876b-af1b44e6fc55/igloo",
   "title": "Igloo (Web Summit LIS26 startup page)",
   "publisher": "Web Summit",
