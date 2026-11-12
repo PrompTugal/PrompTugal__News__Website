@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1375",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: the app's empty-day note in the note's look; websummit story folders always kept out",
+    "by": "dev@PrompTugal.dinis",
+    "from": "eb113eabb"
+  },
+  {
     "version": "v0.1.1374",
     "date": "2026-11-12",
     "what": "security@PrompTugal.dinis: wake 09:05: 44 commits clean; the takedown still holds",
