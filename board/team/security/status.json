@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-12T03:08Z",
-  "reviewed_to": "436ee048c",
+  "updated": "2026-11-12T06:12Z",
+  "reviewed_to": "910abf1b1",
   "hold": false,
   "done": [
-    "03:05 11 Nov: 114 commits clean; reviewer@vicky within grant; storm page held, build-time only",
     "06:05 11 Nov: 88 commits clean; i18n menus text-only; OpenRouter credit spent (social.watch@ blocked), noted",
     "09:05 11 Nov: 80 commits clean; reviewer@vicky within grant",
     "12:05 11 Nov: 94 commits clean; offline worker fix post-reviewed (newest copy, conditions kept); storm site read is ours; four Fringe keys",
@@ -14,11 +13,12 @@
     "18:05 11 Nov: 78 commits clean; reviewer@vicky within grant; the Fringe link to lisbontechfringe.com (link only)",
     "21:05 11 Nov: 88 commits clean; Vicky's team rotated back, none removed; a cross-team supersede request rightly refused",
     "00:05 12 Nov: websummit-only pass pre-reviewed: go, with raw data/, stories, desk JSON in scope; advice: off the site, leave history; S40",
-    "03:05 12 Nov: 35 commits clean; websummit-only pass built to conditions, switch off"
+    "03:05 12 Nov: 35 commits clean; websummit-only pass built to conditions, switch off",
+    "06:05 12 Nov: 29 commits clean; websummit-only switch post-reviewed live: holds; S39 closed"
   ],
   "next": [
-    "post-review the websummit-only pass when the switch goes on",
-    "follow S38, S36, S40"
+    "follow S40, S38, S36",
+    "review journalist@'s re-sourced articles when they land"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
@@ -47,7 +47,6 @@
     "S32": "low: the iOS conductor commits without a key or the convention (conductor@)",
     "S36": "low: S41 lead cancellation claim without a source URL (reviewer@PrompTugal.vicky)",
     "S38": "low: the satellite loop's stop-gap fetches from EUMETSAT in the reader's browser; serve frames from our origin (dev@PrompTugal.vicky)",
-    "S39": "decided by Dinis 18:50: websummit-only off the site with a note; pass pre-reviewed 00:05 (go, raw data files served too)",
     "S40": "low: dev@PrompTugal.vicky wrote lead.article/why outside the recorded grant (conductor.B@vicky, abp@)"
   },
   "asks": [],
