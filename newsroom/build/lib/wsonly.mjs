@@ -8,7 +8,7 @@
 import fs from 'node:fs'
 import { R } from './config.mjs'
 
-export const isWs = u => { try { return /(^|\.)websummit\.com$/i.test(new URL(String(u)).hostname) } catch { return false } }
+export const isWs = u => { try { return /(^|\.)websummit\.(com|net)$/i.test(new URL(String(u)).hostname) } catch { return false } }
 // every source given is websummit.com (no source at all counts as resting on nothing else)
 const only = urls => urls.filter(Boolean).every(isWs)
 
@@ -52,7 +52,7 @@ export function wsGate(store) {
 // organisations and places in the inventory go. Returns what it took, by kind, for the note and the recovery page.
 export function wsApply(store) {
     const i = wsInventory(); if (!wsSwitch().on || !i) return null
-    const id = r => String(r).replace(/^[a-z]+:/, ''), gone = { companies: new Set(), people: new Set(), events: new Set(), organisations: new Set(), places: new Set() }
+    const id = r => String(r).replace(/^[a-z]+:/, ''), gone = { companies: new Set(), people: new Set(), events: new Set(), organisations: new Set(), places: new Set(), evidence: new Set() }
     const items = new Set(i.company_items.map(x => `${id(x.company)}|${x.kind}|${x.id}`))
     for (const c of i.companies) if (c.left_with_nothing) gone.companies.add(id(c.company))
     const bare = new Set(i.companies.filter(c => !c.left_with_nothing && c.facts_left === 0).map(c => id(c.company)))
@@ -63,7 +63,21 @@ export function wsApply(store) {
         if (bare.has(c.id)) for (const f of ['what', 'country', 'attending', 'attending_as']) out[f] = ''   // the category is ours, not a fact
         return out
     })
-    for (const k of ['people', 'events', 'organisations', 'places']) store[k] = store[k].filter(x => !gone[k].has(x.id))
+    // evidence captures are not in the inventory: one whose source is websummit.com is a copy of its page (the speakers,
+    // the featured startups, the updates), so it comes off by the host rule
+    gone.evidence = new Set((store.evidence || []).filter(e => isWs(e.source_url)).map(e => e.id))
+    for (const k of ['people', 'events', 'organisations', 'places', 'evidence']) store[k] = store[k].filter(x => !gone[k].has(x.id))
+    // what stays may not point at what came off: a ref to it is dropped from a list (or the list's object that carries it),
+    // and a field that is only that ref is emptied
+    const P = { companies: 'company', people: 'person', events: 'event', organisations: 'organisation', places: 'place', evidence: 'evidence' }
+    const refs = new Set(Object.entries(gone).flatMap(([k, ids]) => [...ids].map(x => `${P[k]}:${x}`)))
+    const bad = v => typeof v === 'string' ? refs.has(v) : v && typeof v === 'object' && !Array.isArray(v) && Object.values(v).some(x => typeof x === 'string' && refs.has(x))
+    const scrub = o => { for (const [k, v] of Object.entries(o)) {
+        if (Array.isArray(v)) o[k] = v.filter(x => !bad(x)).map(x => x && typeof x === 'object' ? scrub({ ...x }) : x)
+        else if (typeof v === 'string' && refs.has(v)) o[k] = null
+        else if (v && typeof v === 'object') o[k] = scrub({ ...v }) }
+        return o }
+    for (const k of ['companies', 'events', 'people', 'organisations', 'places', 'topics', 'stories', 'evidence']) store[k] = (store[k] || []).map(x => scrub({ ...x }))
     store.wsGone = gone
     return gone
 }
