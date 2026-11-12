@@ -10,6 +10,13 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 09:36 UTC, 12 November (short; no stand-up PDF in the shutdown)
+
+- Snapshot 2026-11-12T0938Z on v0.1.1376: 8 screenshots, 0 errors.
+- **The takedown holds** (security@ 09:05); its follow-ups shipped: NE3 to NE5 pass live (designer@, sherpa@); the app's empty-day note (dev@); correspondent@ cleared the day picks.
+- S59 published (Discord's first engineering hub outside San Francisco is in Lisbon); it is in the top three.
+- Inbox: 1 unsigned feedback message. No key changes.
+
 ## Wake at 06:36 UTC, 12 November (short)
 
 - Snapshot 2026-11-12T0638Z on v0.1.1356: 8 screenshots, 0 errors.
