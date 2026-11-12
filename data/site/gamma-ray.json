@@ -1,8 +1,8 @@
 {
  "about": "GAMMA-Ray Spectrum cards as gamma-ray.sgit.ai publishes them (beta; every rating experimental), read by newsroom/tools/gamma-pull.mjs. Levels: A autonomy, R reach, C control, O openness, 1 to 4, 0 where not yet evidenced. The source of every card is its page on gamma-ray.sgit.ai.",
  "source": "https://gamma-ray.sgit.ai/spectrum/",
- "version": "0.0.215",
- "read_at": "2026-11-12T04:09Z",
+ "version": "0.0.216",
+ "read_at": "2026-11-12T06:09Z",
  "cards": [
   {
    "id": "riskmandate-publisher",
@@ -187,6 +187,29 @@
    "review": "approved",
    "vendor_reviewed": false,
    "card": "https://gamma-ray.sgit.ai/spectrum/cards/bythelaw-legal-chat/"
+  },
+  {
+   "id": "crowdstrike-charlotte-ai",
+   "name": "Charlotte AI",
+   "company": "crowdstrike",
+   "ours": false,
+   "what": "AI agents in the Falcon platform for security operations: conversational AI, prebuilt agents (for example Detection Triage), multi-agent investigations, and AgentWorks for custom agents.",
+   "levels": {
+    "A": 3,
+    "R": 3,
+    "C": 2,
+    "O": 2
+   },
+   "stage": "Scaling",
+   "n": 10,
+   "of": 16,
+   "modes": "Balanced, Open protocol",
+   "lit": "39 in 8 instruments",
+   "next": "Autonomy 4",
+   "read": "2026-11-11",
+   "review": "approved",
+   "vendor_reviewed": false,
+   "card": "https://gamma-ray.sgit.ai/spectrum/cards/crowdstrike-charlotte-ai/"
   },
   {
    "id": "claude-code-web",

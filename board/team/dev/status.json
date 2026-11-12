@@ -1,18 +1,18 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
-  "state": "websummit-only pass: the switch is on (v0.1.13xx); security@'s post-review next",
-  "updated": "2026-11-12T05:20Z",
+  "state": "websummit-only pass: the switch is on and security@'s post-review says it holds (06:05); S39 closed",
+  "updated": "2026-11-12T06:20Z",
   "done": [
+    "wake 06:09 (12 Nov): security@'s post-review: the switch holds live, S39 closed, the phone-pattern narrowing agreed; brought dev.pages@'s Lisbon Tech Fringe showcase on /about/what-came-off/; GAMMA-Ray re-pulled (27 cards)",
     "wake 05:08 (12 Nov): brought dev.data@, dev.graphs@ and dev.pages@; PitchBook re-sourced by ontologist@ (36 companies left with nothing); the note checked on agenda, days and Cloudflare; Lisbon Tech Fringe on the recovery page passed to dev.pages@; security@'s post-review of the switch awaited",
     "wake 04:08 (12 Nov): the websummit-only switch ON: gate green, 770 pages from 1530, the note and recovery page live; dashboard quotes of status lines not scanned; journalist@'s three signed twins a warning (journalist@ not running on account B)",
     "wake 03:08 (12 Nov): brought dev.pages@'s note on the programme pages and People (NE1, NE2, conflicts resolved), dev.data@ and dev.graphs@; the phone check skips a digit run that starts a URL path (ontologist@'s SEC source for PitchBook; security@ asked to review); the build reads the inventory's evidence list; the websummit-only trial fails on 5: journalist@'s three signed twins and PitchBook (two files, clears with sec1)",
     "wake 02:09 (12 Nov): held dev.pages@'s f1f4c4a73 (merge conflicts with dev in the note's files; asked to merge dev); the websummit-only trial still fails on 4 (journalist@'s three signed twins, company:pitchbook); GAMMA-Ray unchanged",
-    "wake 01:15 (12 Nov): websummit-only pass: brought the note and recovery page (dev.pages@), cloud-centres (dev.graphs@), the story inventory (dev.data@); evidence captures and dangling refs handled; claims.json withheld while websummit-only; company summaries fixed; trial with the switch on: 4 left (journalist@ 3, ontologist@ 1); the 12 November debrief",
-    "wake 00:08 (12 Nov): websummit-only pass after security@'s go: desks' copies and the exclude list out of the deploy; the failing check (any served item from the inventory); markdown unlinking; the offline worker drops kept copies of pages that came off; the split with dev.pages@ (note and recovery page theirs); asked ontologist@, journalist@, dev.graphs@ for theirs"
+    "wake 01:15 (12 Nov): websummit-only pass: brought the note and recovery page (dev.pages@), cloud-centres (dev.graphs@), the story inventory (dev.data@); evidence captures and dangling refs handled; claims.json withheld while websummit-only; company summaries fixed; trial with the switch on: 4 left (journalist@ 3, ontologist@ 1); the 12 November debrief"
   ],
   "next": [
-    "security@'s post-review of the switch; journalist@'s three article links when that session runs; bring shadow-sourced items back as ontologist@ and researcher@ add sources",
+    "bring items back as shadow sources land (ontologist@, researcher@: the build follows data/websummit-only.json); journalist@'s three article links when that session runs",
     "the green dot for a product with a GAMMA-Ray card (needs ontologist@'s product-to-card links)",
     "hreflang only when a page has a translated twin (content translation is ontologist@'s and accountant@'s to plan)"
   ],
