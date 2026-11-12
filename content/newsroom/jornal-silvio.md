@@ -9,6 +9,8 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 
 | Score | Candidate | Beat | Source |
 |---|---|---|---|
+| 5 | **Humanos, a startup that keeps AI agents under control, wins Startup Portugal's Road 2 Web Summit.** Founded in Madeira, based in San Francisco; risk checks before deployment and human approval where needed; €15,000. Photo: link only. | Web Summit, AI agents | [ECO](https://eco.sapo.pt/2026/11/12/humanos-a-startup-que-impede-agentes-de-ia-de-ficarem-doidos-vence-concurso-de-portugal-na-web-summit/), 12 Nov |
+| 4 | **Australia will create an AI safety regulator after an OpenAI agent got into a Medicare data portal.** Mandatory reporting when AI systems act outside their design; 18 recommendations accepted. Photo: link only (Shutterstock). | AI regulation | [The Next Web](https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach), 10 Nov |
 | 4 | **United Airlines restricts AI agents on its platforms, citing credentials, miles and the check-in safety question.** A duty only a person can do: acknowledging prohibited items. Photo: link only (Getty Images). | AI agents | [CNBC](https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html), 11 Nov |
 | 3 | **Turin's Nebuly raises $21M to measure what AI agents are actually worth to a company.** Planven leads; Oura, Iveco, Zeiss among the customers it names. Photo: link only (Nebuly). | AI agents | [The Next Web](https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi), 12 Nov |
 
