@@ -27,7 +27,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3112 cards (824 current, 1 superseded, 2287 withdrawn), from the catalogue generated 2026-11-12T07:00:01Z at site v0.1.1361; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3115 cards (827 current, 1 superseded, 2287 withdrawn), from the catalogue generated 2026-11-12T09:59:04Z at site v0.1.1379; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -38,17 +38,17 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 95 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1722 |
+| `TEAM.ROLE` | 1725 |
 | `TEAM.RUN` | 1176 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
+- `ACC-20261112-0052` [S30.shadow.json](https://promptugal.news/board/team/dev.data/shadow/S30.shadow.json) (`TEAM.ROLE S30.shadow`)
+- `ACC-20261112-0051` [dev.graphs@ hand-over debrief, 12 November 2026 (session 2, account B)](https://promptugal.news/board/team/dev.graphs/debriefs/2026-11-12-handover.md) (`TEAM.ROLE 2026-11-12-handover:5`)
+- `ACC-20261112-0050` [Wake 09:05, 12 November: 44 commits since 4b3c10352, clean; the takedown still holds](https://promptugal.news/board/team/security/reviews/2026-11-12-0905-wake.md) (`TEAM.ROLE 2026-11-12-0905-wake`)
 - `ACC-20261112-0045` [What people are talking about: Web Summit Lisbon 2026, Thursday 12 November (the last day), 06:53 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-12T06Z.md) (`TEAM.ROLE 2026-11-12T06Z`)
 - `ACC-20261112-0044` [Post-review, 12 November 06:05: the websummit-only switch is on and holds on the live site](https://promptugal.news/board/team/security/reviews/2026-11-12-0605-websummit-only-post-review.md) (`TEAM.ROLE 2026-11-12-0605-websummit-only-post-review`)
-- `ACC-20261112-0042` [team/conductor.b/ledger/](https://promptugal.news/board/team/conductor.b/ledger/) (`TEAM.ROLE ledger:2`)
-- `ACC-20261112-0041` [team/accountant/ledger/](https://promptugal.news/board/team/accountant/ledger/) (`TEAM.ROLE ledger`)
-- `ACC-20261112-0040` [team/investors/decks/img/](https://promptugal.news/board/team/investors/decks/img/) (`TEAM.ROLE img:2`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

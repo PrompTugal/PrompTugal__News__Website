@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 6 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T07:00:01Z"
-site_version: "v0.1.1361"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T09:59:04Z"
+site_version: "v0.1.1379"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 6 of 11)
 
-100 cards, from `DAT.ORG hill` to `DAT.ORG serpro`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG hill` to `DAT.ORG senen`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 501 to 525**
 
@@ -92,18 +92,19 @@ source: board/catalogue.json
 | `DAT.ORG opsivision-ai` | [Opsivision.ai](https://promptugal.news/organisations/opsivision-ai/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG otter` | [Otter](https://promptugal.news/organisations/otter/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG outsystems` | [OutSystems](https://promptugal.news/organisations/outsystems/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
+| `DAT.ORG pagerduty` | [PagerDuty](https://promptugal.news/organisations/pagerduty/) | organisation | curator@PrompTugal.vicky 12 Nov 2026 |
 | `DAT.ORG pally` | [Pally](https://promptugal.news/organisations/pally/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG parable` | [Parable](https://promptugal.news/organisations/parable/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG pcmag` | [PCMag](https://promptugal.news/organisations/pcmag/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG pep4fish` | [Pep4Fish](https://promptugal.news/organisations/pep4fish/) | organisation | curator@PrompTugal.vicky 6 Nov 2026 |
 | `DAT.ORG picsart` | [Picsart](https://promptugal.news/organisations/picsart/) (withdrawn) | organisation | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.ORG pitchbook-data` | [PitchBook Data](https://promptugal.news/organisations/pitchbook-data/) (withdrawn) | organisation | programme@web-summit.vicky 6 Nov 2026 |
-| `DAT.ORG plug` | [Plug](https://promptugal.news/organisations/plug/) (withdrawn) | organisation | programme@PrompTugal.vicky 7 Nov 2026 |
 
 **Cards 576 to 600**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG plug` | [Plug](https://promptugal.news/organisations/plug/) (withdrawn) | organisation | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.ORG plug-and-play-tech-center` | [Plug and Play Tech Center](https://promptugal.news/organisations/plug-and-play-tech-center/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG politico` | [POLITICO](https://promptugal.news/organisations/politico/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG pony-ai` | [Pony.ai](https://promptugal.news/organisations/pony-ai/) (withdrawn) | organisation | curator@web-summit.vicky 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG sebrae-paraiba` | [SEBRAE PARAIBA](https://promptugal.news/organisations/sebrae-paraiba/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.ORG sebrae-startups` | [Sebrae Startups](https://promptugal.news/organisations/sebrae-startups/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG senen` | [SENEN GROUP](https://promptugal.news/organisations/senen/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG serpro` | [Serpro](https://promptugal.news/organisations/serpro/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-5.md) | [Next part](DAT-7.md)
