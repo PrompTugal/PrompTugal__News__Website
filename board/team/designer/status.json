@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-12T00:50Z",
+  "updated": "2026-11-12T04:50Z",
   "done": [
+    "04:50 The websummit-only switch checked live: the companies note and the empty People page pass, the recovery page passes in substance (no Fringe showcase); no note on the agenda, the day pages (NE1) or a company with facts taken off: to dev@",
     "00:50 sherpa@'s NE1 to NE3 on the note: the agenda's version names where the full programme is (Web Summit's app and schedule), the empty page's version (People, 0 of 285: why, what is still there, the way back), the app's picks line pending dev@'s answer; pictures added",
     "23:00 The websummit-only pass, my step: the note (sand, an ink rule, not red; two lengths, Dinis's five points in order) and the recovery page (by kind, the route for one fact, the method, the Fringe as showcase): board/spec-the-not-everything-note.md, pictures on the live companies list and Cloudflare's page; logged in the pass",
     "12:45 The live sources strip checked live (v0.1.1231): L1 to L6 pass, the storm site's update time read from its data, Lisbon Fringe beside it now live",
@@ -114,7 +115,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check the note and the recovery page when dev@ builds them (after security@'s pre-review)",
+    "Re-check the note on the agenda, the day pages and a company page, and the recovery page's showcase, when dev@ ships them",
     "Check the summit now and the newsroom at work (H11, H12) when built; the storm page's E polish when Vicky approves v1",
     "Re-check /contribute/'s og:image",
     "Images for any new article (a table from its own table where the story is numbers)",
@@ -607,6 +608,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "the note's agenda, empty and app versions"
+    },
+    {
+      "started": "2026-11-12T04:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the websummit-only switch checked: three gaps"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
