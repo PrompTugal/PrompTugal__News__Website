@@ -14,7 +14,7 @@ def ws(u):
     return h in ('websummit.com', 'websummit.net') or h.endswith('.websummit.com') or h.endswith('.websummit.net')
 sid = sys.argv[1]; src = f'data/stories/{sid}/'; dst = f'data/stories/{sid}-websummit/'
 assert not os.path.exists(dst), dst + ' exists'
-for f in os.listdir(src): assert f in ('claims.json', 'entities.json', 'sources', 'story.json', 'timeline.json'), 'unsupported file ' + f
+for f in os.listdir(src): assert f in ('claims.json', 'entities.json', 'sources', 'story.json', 'timeline.json', 'graph.json', 'blocks.json'), 'unsupported file ' + f
 S = {}
 for f in glob.glob(src + 'sources/*.json'):
     o = json.load(open(f)); S[o['id']] = (f, o)
@@ -33,12 +33,17 @@ json.dump({**hdr(cl, sid + '-websummit'), 'claims': wsc}, open(dst + 'claims.jso
 json.dump({**cl, 'claims': pub}, open(src + 'claims.json', 'w'), indent=2, ensure_ascii=False)
 # timeline
 tws = []; tpub = []
+def srcs(ev): return ev['source'] if isinstance(ev['source'], list) else [ev['source']]
+def keep(ev, ok_src, ok_cl):
+    ev = dict(ev); l = [x for x in srcs(ev) if x in ok_src]
+    cl = ev['claim'] if isinstance(ev['claim'], list) else [ev['claim']]; cl = [c for c in cl if c in ok_cl]
+    if not l or not cl: return None
+    ev['claim'] = cl if isinstance(ev['claim'], list) else cl[0]
+    ev['source'] = l if isinstance(ev['source'], list) else l[0]; return ev
 for ev in T:
-    if ev['source'] in wsids:
-        ev = dict(ev); ev['claim'] = [c for c in ev['claim'] if c in wscids]; tws.append(ev)
-    else:
-        ev = dict(ev); ev['claim'] = [c for c in ev['claim'] if c in pubids]
-        if ev['claim']: tpub.append(ev)
+    a = keep(ev, wsids, wscids); b = keep(ev, set(S) - wsids, pubids)
+    if a: tws.append(a)
+    if b: tpub.append(b)
 json.dump({**hdr(tl, sid + '-websummit'), 'events': tws}, open(dst + 'timeline.json', 'w'), indent=2, ensure_ascii=False)
 json.dump({**tl, 'events': tpub}, open(src + 'timeline.json', 'w'), indent=2, ensure_ascii=False)
 # entities: a ref stays where a claim of that folder is about it
