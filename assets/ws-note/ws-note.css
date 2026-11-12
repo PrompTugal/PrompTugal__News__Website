@@ -5,3 +5,5 @@
 .ws-note a { color: var(--brand); font-weight: 600; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]):not([data-theme="paper"]) .ws-note { background: #1d1f25; } }
 :root[data-theme="ink"] .ws-note, :root[data-theme="dark"] .ws-note { background: #1d1f25; }
+/* NE2 (designer@): a page left with nothing: the note becomes the page, larger, a 4 px rule */
+.ws-note.ws-empty { border-top-width: 4px; font-size: 17.5px; padding: 18px 20px 20px; } .ws-note.ws-empty ul { margin: 6px 0 12px 1.2em; padding: 0; } .ws-note.ws-empty li { margin: 4px 0; }

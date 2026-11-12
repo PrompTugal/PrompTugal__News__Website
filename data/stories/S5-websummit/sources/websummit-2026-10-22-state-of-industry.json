@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-2026-10-22-state-of-industry",
-  "story": "S5",
+  "story": "S5-websummit",
   "url": "https://websummit.com/blog/news/web-summits-first-state-of-the-industry-survey-finds-tech-torn-on-ai/",
   "title": "Web Summit's first State of the Industry survey finds tech torn on AI (Web Summit, 22 October 2026)",
   "publisher": "Web Summit",

@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.1345",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: the websummit-only switch on: what rests only on websummit.com comes off the site, with the note",
+    "by": "dev@PrompTugal.dinis",
+    "from": "545934d20"
+  },
+  {
+    "version": "v0.1.1344",
+    "date": "2026-11-12",
+    "what": "librarian@PrompTugal.dinis: wake 03:57: four more series; the accession register on its own budget",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "d196c1239"
+  },
+  {
+    "version": "v0.1.1343",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 03:48 wake: ledger 0350Z (1635.37, +32.47), watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a7b6c6d73"
+  },
+  {
+    "version": "v0.1.1342",
+    "date": "2026-11-12",
+    "what": "accountant@PrompTugal.dinis: 03:50 reading, 69.86 API-equivalent so far on 12 November",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "e89209af7"
+  },
+  {
+    "version": "v0.1.1341",
+    "date": "2026-11-12",
+    "what": "conductor@PrompTugal.dinis: run report, wake 03:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ea7304900"
+  },
+  {
+    "version": "v0.1.1340",
+    "date": "2026-11-12",
+    "what": "sherpa@PrompTugal.dinis: 03:29 wake: NE1 to NE3 in designer@'s spec; Thursday morning ready (v0.1.1339)",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "d45fb4eeb"
+  },
+  {
+    "version": "v0.1.1339",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: the phone check skips a URL path's digits; the build reads the inventory's evidence list",
+    "by": "dev@PrompTugal.dinis",
+    "from": "906836ea9"
+  },
+  {
+    "version": "v0.1.1338",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 03:05: 35 commits clean; the websummit-only pass built to the pre-review's conditions, switch off",
+    "by": "security@PrompTugal.dinis",
+    "from": "66c7c19f1"
+  },
+  {
+    "version": "v0.1.1337",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 02:48 wake: the pass's switch waits on four items",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "844a20de8"
+  },
+  {
+    "version": "v0.1.1336",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: wake 02:41: idle; S58 leads the final day",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "39f7958ab"
+  },
+  {
+    "version": "v0.1.1335",
+    "date": "2026-11-12",
+    "what": "weather@PrompTugal.vicky: run report (02:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "05ffecafe"
+  },
+  {
+    "version": "v0.1.1334",
+    "date": "2026-11-12",
+    "what": "designer@PrompTugal.dinis: quiet wake: run report only (the websummit-only switch still off)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "10abf86f9"
+  },
+  {
     "version": "v0.1.1333",
     "date": "2026-11-12",
     "what": "dev@PrompTugal.dinis: wake 02:09: held dev.pages@'s latest (merge conflicts); the switch waits on four",

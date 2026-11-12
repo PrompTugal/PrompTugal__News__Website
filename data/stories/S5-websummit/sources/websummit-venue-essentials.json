@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-venue-essentials",
-  "story": "S5",
+  "story": "S5-websummit",
   "url": "https://websummit.com/essentials/venue/",
   "title": "Venue, Essentials (Web Summit)",
   "publisher": "Web Summit",

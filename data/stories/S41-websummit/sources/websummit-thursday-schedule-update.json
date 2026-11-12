@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-thursday-schedule-update",
-  "story": "S41",
+  "story": "S41-websummit",
   "url": "https://websummit.com/blog/web-summit/web-summit-2026-thursday-schedule-update/",
   "title": "Arrive early tomorrow: stage talks start at 9am (Web Summit, 11 November 2026)",
   "publisher": "Web Summit",

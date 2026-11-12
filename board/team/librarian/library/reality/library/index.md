@@ -21,24 +21,24 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-349 cards (213 current, 0 superseded, 136 withdrawn), from the catalogue generated 2026-11-12T00:58:33Z at site v0.1.1328; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+354 cards (139 current, 0 superseded, 215 withdrawn), from the catalogue generated 2026-11-12T04:01:34Z at site v0.1.1343; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `LIB.AUTH` | 18 |
 | `LIB.CAT` | 81 |
 | `LIB.DESK` | 24 |
-| `LIB.DOC` | 129 |
+| `LIB.DOC` | 131 |
 | `LIB.REAL` | 28 |
-| `LIB.STOCK` | 69 |
+| `LIB.STOCK` | 72 |
 
 Newest five accessions:
 
-- `ACC-20261112-0002` [Stocktake of the library, catalogue of 2026-11-11T21:58:53Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-2158.md) (`LIB.STOCK 2026-11-11-2158`)
-- `ACC-20261112-0001` [Stocktake of the library, catalogue of 2026-11-11T21:57:53Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-2157.md) (`LIB.STOCK 2026-11-11-2157`)
-- `ACC-20261111-0158` [Stocktake of the library, catalogue of 2026-11-11T19:01:06Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1901.md) (`LIB.STOCK 2026-11-11-1901`)
-- `ACC-20261111-0157` [Stocktake of the library, catalogue of 2026-11-11T19:00:03Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1900.md) (`LIB.STOCK 2026-11-11-1900`)
-- `ACC-20261111-0140` [Stocktake of the library, catalogue of 2026-11-11T15:59:58Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1559.md) (`LIB.STOCK 2026-11-11-1559`)
+- `ACC-20261112-0039` [team/librarian/library/stocktake/](https://promptugal.news/board/team/librarian/library/stocktake/) (`LIB.STOCK stocktake`)
+- `ACC-20261112-0038` [team/librarian/library/tests/fixtures/](https://promptugal.news/board/team/librarian/library/tests/fixtures/) (`LIB.DOC fixtures`)
+- `ACC-20261112-0026` [librarian@PrompTugal.dinis: hand-over debrief, 12 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-12-handover.md) (`LIB.DOC 2026-11-12-handover`)
+- `ACC-20261111-0024` [librarian@PrompTugal.dinis: hand-over debrief, 11 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-11-handover.md) (`LIB.DOC 2026-11-11-handover`)
+- `ACC-20261110-0282` [The librarian's data: what each file holds, so an agent reads the JSON and not the pages](https://promptugal.news/board/team/librarian/DATA.md) (`LIB.DOC DATA`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

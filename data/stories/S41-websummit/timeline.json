@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "S41-websummit",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "events": [
+    {
+      "at": "2026-11-10",
+      "what": "At 19:09 UTC Web Summit posts that, on the Portuguese Government's formal advice because of Storm Charles, Day 2 (Wednesday 11 November) will not take place; it aims to hold Day 3 on Thursday 12 November.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ],
+      "source": "websummit-important-event-update-2026",
+      "claim": [
+        "c13",
+        "c14",
+        "c15",
+        "c16"
+      ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "Between 10:32 and 12:32 UTC Web Summit's homepage replaces the 'Important event update' notice (Day 2 will not go ahead) with an announcement that it is officially back on Thursday 12 November for its final day, with many sessions rescheduled from Wednesday.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ],
+      "source": "websummit-homepage-event-update",
+      "claim": [
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "at": "2026-11-11",
+      "what": "At 18:10 UTC Web Summit posts the Thursday plan: stage talks from 9am to 5.30pm, talks rescheduled from Wednesday (more than 100 speakers), 65 meetups moved to Thursday (more than 125 in all), and the schedule to be updated by the morning. Earlier (14:26 UTC) its Important event update statement gained an announcement that it is officially back on Thursday.",
+      "kind": "announcement",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ],
+      "source": "websummit-thursday-schedule-update",
+      "claim": [
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41"
+      ]
+    }
+  ]
+}
