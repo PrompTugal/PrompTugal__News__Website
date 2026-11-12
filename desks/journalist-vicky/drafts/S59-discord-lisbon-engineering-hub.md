@@ -4,7 +4,7 @@ date: 2026-11-12
 story: S59
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: Discord is opening an engineering hub in Lisbon, its first dedicated one outside San Francisco. The company says it plans about 30 workers there by the end of 2027, working on the core of its platform.
-status: draft
+status: published
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: [Portugal, Discord, Lisbon, engineering, jobs, investment, Web Summit]
@@ -20,11 +20,11 @@ image_alt: "Discord's first engineering hub outside San Francisco is in Lisbon, 
 
 ## The story
 
-A well-known gaming and chat platform is putting down roots in Lisbon.
-
 ![Discord's first engineering hub outside San Francisco is in Lisbon, with about 30 engineers planned by the end of 2027](https://promptugal.news/desks/journalist-vicky/drafts/img/S59-cover-card-2026-11-12.svg)
 
 *From Tek Notícias and DN, 11 November 2026, read 12 November 2026.*
+
+A well-known gaming and chat platform is putting down roots in Lisbon.
 
 Discord's own job postings said it first. "Discord is opening an engineering hub in Lisbon, our first dedicated one outside of our San Francisco HQ," one reads, adding that it is "building it from the ground up". Observador reported it on 6 November, from the company's jobs pages.
 

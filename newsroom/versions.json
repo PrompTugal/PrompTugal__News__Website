@@ -1,5 +1,54 @@
 [
   {
+    "version": "v0.1.1374",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 09:05: 44 commits clean; the takedown still holds",
+    "by": "security@PrompTugal.dinis",
+    "from": "a89b885fb"
+  },
+  {
+    "version": "v0.1.1373",
+    "date": "2026-11-12",
+    "what": "conductor.B@PrompTugal.vicky: 08:48 wake: weather@'s wake disabled as Vicky set; S59 checked live",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "f831b8ae6"
+  },
+  {
+    "version": "v0.1.1372",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "2e195e483"
+  },
+  {
+    "version": "v0.1.1371",
+    "date": "2026-11-12",
+    "what": "weather@PrompTugal.vicky: run report (08:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "f40b8063b"
+  },
+  {
+    "version": "v0.1.1370",
+    "date": "2026-11-12",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "f05363fec"
+  },
+  {
+    "version": "v0.1.1369",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: an empty day's summary in dev.pages@'s words; wake 08:10",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c6cce7ebc"
+  },
+  {
+    "version": "v0.1.1368",
+    "date": "2026-11-12",
+    "what": "jornal@PrompTugal.silvio: two agentic candidates at the 08:08 wake of 12 November",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "0c7960b58"
+  },
+  {
     "version": "v0.1.1367",
     "date": "2026-11-12",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",

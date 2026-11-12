@@ -3633,6 +3633,62 @@
     "source": "desks/journalist-vicky/drafts/img/S58-thursday-2026-11-11.svg (drawn by journalist@PrompTugal.vicky; text raised and temperatures updated by the reviewer); rendered with Chromium",
     "checked": "every label against the article, 11 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "discord-lisbon-engineering-hub",
+   "theme": "paper",
+   "layout": "summary",
+   "size": "thumb",
+   "file": "discord-lisbon-engineering-hub--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-12",
+    "source": "desks/journalist-vicky/drafts/img/S59-cover-thumb-2026-11-12.svg (drawn by the reviewer from the article's about 30 engineers by 2027); rendered with Chromium",
+    "checked": "every label against the article, 12 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "discord-lisbon-engineering-hub",
+   "theme": "ink",
+   "layout": "summary",
+   "size": "thumb",
+   "file": "discord-lisbon-engineering-hub--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-12",
+    "source": "desks/journalist-vicky/drafts/img/S59-cover-thumb-2026-11-12.svg (drawn by the reviewer from the article's about 30 engineers by 2027); rendered with Chromium",
+    "checked": "every label against the article, 12 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "discord-lisbon-engineering-hub",
+   "theme": "paper",
+   "layout": "summary",
+   "size": "card",
+   "file": "discord-lisbon-engineering-hub--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-12",
+    "source": "desks/journalist-vicky/drafts/img/S59-cover-card-2026-11-12.svg (drawn by journalist-portugal@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 12 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "discord-lisbon-engineering-hub",
+   "theme": "ink",
+   "layout": "summary",
+   "size": "card",
+   "file": "discord-lisbon-engineering-hub--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-12",
+    "source": "desks/journalist-vicky/drafts/img/S59-cover-card-2026-11-12.svg (drawn by journalist-portugal@PrompTugal.vicky); rendered with Chromium",
+    "checked": "every label against the article, 12 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }
