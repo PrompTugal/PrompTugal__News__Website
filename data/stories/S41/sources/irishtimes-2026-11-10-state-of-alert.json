@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "irishtimes-2026-11-10-state-of-alert",
+  "story": "S41",
+  "url": "https://www.irishtimes.com/business/2026/11/10/everything-indicates-web-summit-will-be-called-off-tomorrow-says-lisbon-mayor/",
+  "title": "Web Summit cancels events as Portugal issues 'state of alert' amid storm warnings (The Irish Times, 10 November 2026)",
+  "publisher": "The Irish Times",
+  "published": "2026-11-10",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "The Irish Times reports that Web Summit cancelled Wednesday's events as Portugal was placed under a state of alert, the prime minister's recommendation, Web Summit's email to ticket holders and IPMA's warnings. A shadow source for the call-off facts that otherwise rest on websummit.com."
+}

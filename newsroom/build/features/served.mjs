@@ -31,6 +31,20 @@ export function final(ctx) {
     // and ontologist@'s websummit-only inventory: refs only, but it names every person and session that comes off (the
     // pass 2026-11-11-only-websummit-sourced-comes-off, step 2)
     const keep = ['data/websummit-only.json']
+    // the switch on (lib/wsonly.mjs): the raw files of every entity that came off, the raw company files that still hold a
+    // websummit-only fact, edge or source, and the story files dev.data@ found resting only on websummit.com
+    const g = ctx.store.wsGone
+    if (g) {
+        const D = { companies: 'companies', people: 'people', events: 'events', organisations: 'organisations', places: 'places' }
+        const files = execFileSync('git', ['ls-files', 'data/'], { cwd: ctx.ROOT }).toString().split('\n').filter(Boolean)
+        const partial = new Set(ctx.store.companies.filter(c => c.ws_taken).map(c => c.id))
+        let story = {}; try { story = JSON.parse(fs.readFileSync(ctx.R('board/team/dev.data/findings/2026-11-11-websummit-only-in-story-folders.json'), 'utf8')) } catch { }
+        const whole = new Set(story.entirely_websummit || []), part = new Map(Object.entries(story.folders || {}).map(([k, v]) => [k, new Set((v.sources_on_websummit || []).map(x => String(x).replace(/\.json$/, '')))]))
+        for (const f of files) { const m = f.match(/^data\/([a-z]+)\/([^/]+)\/(.+)$/); if (!m) continue
+            if (D[m[1]] && g[D[m[1]]].has(m[2])) keep.push(f)
+            else if (m[1] === 'companies' && partial.has(m[2]) && /^(facts|edges|sources)\.json$/.test(m[3])) keep.push(f)
+            else if (m[1] === 'stories' && (whole.has(m[2]) || (part.get(m[2])?.has(m[3].replace(/^sources\//, '').replace(/\.json$/, '')) && m[3].startsWith('sources/')))) keep.push(f) }
+    }
     return [{ path: DROP, data: [...all.filter(f => !used.has(f)), ...board, ...sigsOf(), ...keep].sort().map(f => '/' + f).join('\n') + '\n' }]
 }
 

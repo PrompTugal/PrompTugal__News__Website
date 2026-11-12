@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1321",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: pre-review of the websummit-only pass: go, raw data files in scope; S39 decided; S40 (low)",
+    "by": "security@PrompTugal.dinis",
+    "from": "6bdf0e08b"
+  },
+  {
+    "version": "v0.1.1320",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 23:48 wake: the websummit-only filter built (switch off); waits on security@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "0cb5fe403"
+  },
+  {
+    "version": "v0.1.1319",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (23:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "4af950ef4"
+  },
+  {
+    "version": "v0.1.1318",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: websummit-only pass, step 3: the filter, behind its switch (still off)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c6f61f2fc"
+  },
+  {
     "version": "v0.1.1317",
     "date": "2026-11-11",
     "what": "conductor.b@PrompTugal.dinis: 22:48 wake: the websummit-only pass ready on account B; the 11 November debrief",

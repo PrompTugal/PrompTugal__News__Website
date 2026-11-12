@@ -50,7 +50,7 @@ export const fill = {
     'venue:map': () => TOKEN,
     'venue:table': (page, ctx) => {
         const { by } = litOf(ctx), days = list => { const m = {}; for (const e of list) m[e.date] = (m[e.date] || 0) + 1; return Object.keys(m).sort().map(d => `${ctx.DAY(d)}: ${m[d]}`).join('; ') }
-        return `| Building | Sessions in our programme, by day |\n|---|---|\n` + ROWS.map(([k, p]) => `| [${ctx.md.cell(ctx.store.get(p).name)}](${ctx.link(PAGE, `places/${p.slice(6)}/index.html`)}) | ${by(k).length ? ctx.md.cell(`${by(k).length} (${days(by(k))})`) : 'none listed'} |`).join('\n')
+        return `| Building | Sessions in our programme, by day |\n|---|---|\n` + ROWS.filter(([, p]) => ctx.store.get(p)).map(([k, p]) => `| [${ctx.md.cell(ctx.store.get(p).name)}](${ctx.link(PAGE, `places/${p.slice(6)}/index.html`)}) | ${by(k).length ? ctx.md.cell(`${by(k).length} (${days(by(k))})`) : 'none listed'} |`).join('\n')
     },
 }
 export function decorate(page, ctx) {

@@ -411,7 +411,7 @@
     },
     {
       "id": "c35",
-      "text": "At 20:32 UTC on 11 November the only warnings IPMA's file lists for the Lisbon district are the sea: ORANGE from 19:09 to 21:00 (south-westerly waves of 5 to 7 metres, up to 13 metres at most), then yellow from 21:00 to 03:00 on 12 November. No rain, wind or other warning above green is listed.",
+      "text": "At 20:32 UTC on 11 November the only warnings IPMA's file lists for the Lisbon district are the sea: ORANGE from 19:09 to 21:00 (south-westerly waves of 5 to 7 metres, up to 13 metres at most), then yellow from 21:00 to 03:00 on 12 November. No rain, wind or other warning above green is listed. (At 22:32 UTC the orange part has ended: see c51.)",
       "kind": "fact",
       "source": "ipma-warnings-open-data",
       "quote": "{\"text\": \"Ondas de sudoeste com 5 a 7 metros e que poder\\u00e3o atingir at\\u00e9 13 metros de altura m\\u00e1xima.\", \"awarenessTypeName\": \"Agita\\u00e7\\u00e3o Mar\\u00edtima\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T19:09:00\", \"awarenessLevelID\": \"orange\", \"endTime\": \"2026-11-11T21:00:00\"}",
@@ -503,6 +503,113 @@
       "about": [
         "organisation:web-summit",
         "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c43",
+      "text": "The Irish Times reports that Web Summit cancelled its Wednesday events as Portugal was placed under a state of alert.",
+      "kind": "fact",
+      "source": "irishtimes-2026-11-10-state-of-alert",
+      "quote": "has cancelled its events organised to take place on Wednesday as Portugal is placed under a “state of alert”",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c44",
+      "text": "Web Summit confirmed the decision shortly after 7.30pm on Tuesday 10 November, by the Irish Times' account.",
+      "kind": "fact",
+      "source": "irishtimes-2026-11-10-state-of-alert",
+      "quote": "The company confirmed the decision shortly after 7.30pm Tuesday evening",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c45",
+      "text": "Portugal's prime minister said at a press conference an hour earlier that his office had issued its recommendation that the event's activities be suspended the next day.",
+      "kind": "fact",
+      "source": "irishtimes-2026-11-10-state-of-alert",
+      "quote": "already issued our recommendation that the event’s activities be suspended for tomorrow",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c46",
+      "text": "An email to ticket holders sent at 7.38pm said Web Summit would respect the Government's direction and Day 2 would not take place.",
+      "kind": "fact",
+      "source": "irishtimes-2026-11-10-state-of-alert",
+      "quote": "Web Summit will of course respect the Government’s direction, and accordingly, Day 2 will not take place.",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c47",
+      "text": "The same email said Web Summit aimed to proceed with Day 3 as planned after Storm Charles had passed.",
+      "kind": "fact",
+      "source": "irishtimes-2026-11-10-state-of-alert",
+      "quote": "aims to proceed with Day 3 as planned, following the passing of Storm Charles",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c48",
+      "text": "The Irish Times reports that on Tuesday IPMA placed the southern half of Portugal, including Lisbon, under a red wind warning.",
+      "kind": "fact",
+      "source": "irishtimes-2026-11-10-state-of-alert",
+      "quote": "with the southern half of the country, including Lisbon, under a red warning for wind",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
+      ]
+    },
+    {
+      "id": "c49",
+      "text": "The Irish Times reports that shortly after 11.30am on Wednesday Web Summit emailed all ticket holders under the subject 'Web Summit is back tomorrow'.",
+      "kind": "fact",
+      "source": "irishtimes-2026-11-11-web-summit-washout",
+      "quote": "“Web Summit is back tomorrow” was the title of the email",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c50",
+      "text": "The email said Thursday would be the busiest ever, with more speakers and meetups than ever, many rescheduled from Wednesday (the quoted sentence continues after an en dash).",
+      "kind": "fact",
+      "source": "irishtimes-2026-11-11-web-summit-washout",
+      "quote": "It will be the busiest Thursday ever, with more speakers and more meetups than ever before",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c51",
+      "text": "At 22:32 UTC on 11 November the only warning above green that IPMA's file lists for the Lisbon district is a YELLOW sea warning from 21:00 to 03:00 on 12 November (south-westerly waves of 4 to 5 metres). Nothing for rain or wind, and nothing orange or red.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"Ondas de sudoeste com 4 a 5 metros.\", \"awarenessTypeName\": \"Agita\\u00e7\\u00e3o Mar\\u00edtima\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-11T21:00:00\", \"awarenessLevelID\": \"yellow\", \"endTime\": \"2026-11-12T03:00:00\"}",
+      "quote_language": "pt",
+      "read_on": "2026-11-11",
+      "about": [
+        "organisation:ipma"
       ]
     }
   ]

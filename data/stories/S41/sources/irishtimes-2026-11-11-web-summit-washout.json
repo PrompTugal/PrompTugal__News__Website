@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "irishtimes-2026-11-11-web-summit-washout",
+  "story": "S41",
+  "url": "https://www.irishtimes.com/business/2026/11/11/as-heavy-rain-lashes-lisbon-web-summits-wednesday-schedule-is-washed-away/",
+  "title": "Web Summit a washout as attendees count the cost of unused tickets (The Irish Times, 11 November 2026)",
+  "publisher": "The Irish Times",
+  "published": "2026-11-11",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "The Irish Times reports from the Lisbon venue on Wednesday 11 November and quotes Web Summit's email 'Web Summit is back tomorrow'. A shadow source for the Thursday return."
+}
