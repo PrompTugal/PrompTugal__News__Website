@@ -1,5 +1,11 @@
 [
   {
+    "version": "v0.1.1413",
+    "date": "2026-11-12",
+    "what": "hold: all scheduled agents paused by Dinis (hand brake, 15:15 UTC)",
+    "from": "f6a2c429a"
+  },
+  {
     "version": "v0.1.1412",
     "date": "2026-11-12",
     "what": "security@PrompTugal.dinis: wake 15:05: 31 commits clean",
