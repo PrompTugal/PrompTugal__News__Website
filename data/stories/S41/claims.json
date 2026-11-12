@@ -446,6 +446,17 @@
       "about": [
         "organisation:ipma"
       ]
+    },
+    {
+      "id": "c52",
+      "text": "By IPMA's file read at 10:32 UTC on 12 November every warning for the Lisbon district is green (wind, rain, sea, fog, thunderstorm, heat, cold, snow), from 06:35 UTC to 15 November.",
+      "kind": "fact",
+      "source": "ipma-warnings-open-data",
+      "quote": "{\"text\": \"\", \"awarenessTypeName\": \"Vento\", \"idAreaAviso\": \"LSB\", \"startTime\": \"2026-11-12T06:35:00\", \"awarenessLevelID\": \"green\", \"endTime\": \"2026-11-15T06:00:00\"}",
+      "read_on": "2026-11-12",
+      "about": [
+        "organisation:ipma"
+      ]
     }
   ]
 }
