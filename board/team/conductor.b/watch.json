@@ -3,16 +3,6 @@
  "lines": [
   {
    "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-09T22:52Z",
-   "SGit-AI__Website__Web-Summit": "07264726",
-   "PrompTugal__News__Website": "0e7ce3cb",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "77a95682",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Account B running (dev, ontologist, librarian, journalist, designer, correspondent since 21:52); dev.verify@ waits on the top-up. Nothing new from Dinis for account B. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
    "at": "2026-11-09T23:59Z",
    "SGit-AI__Website__Web-Summit": "8232c109",
    "PrompTugal__News__Website": "1ecd1178",
@@ -500,6 +490,16 @@
    "PrompTugal__App__iOS": "bf76d293",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "The websummit-only pass, 01:30: dev@ 'nearly ready', brought dev.pages@'s note and recovery page, dev.graphs@'s cloud-centres fix and dev.data@'s story inventory; evidence captures sourced on websummit.com come off by the host rule; switch still off. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-12T02:52Z",
+   "SGit-AI__Website__Web-Summit": "af4a941d",
+   "PrompTugal__News__Website": "ef4fa83e",
+   "PrompTugal__App__Android": "2cd4cd75",
+   "PrompTugal__App__iOS": "bf76d293",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "The websummit-only pass: the switch still waits on four items (journalist@'s three signed twins, outside account B, and company:pitchbook for ontologist@, who added evidence captures to the inventory at 02:33). dev@ held dev.pages@'s latest for merge conflicts (dev.pages@ rebases at its hourly wake). correspondent: S58 leads the final day. Inbox empty."
   }
  ]
 }

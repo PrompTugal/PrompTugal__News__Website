@@ -7,6 +7,12 @@
   ],
   "rule": "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
   "counts": {
+    "evidence": {
+      "total": 84,
+      "websummit_only": 31,
+      "other_source": 53,
+      "no_source": 0
+    },
     "companies": {
       "total": 120,
       "websummit_only": 37,
@@ -68,6 +74,101 @@
       "no_source": 0
     }
   },
+  "evidence": [
+    {
+      "evidence": "evidence:r1255-01"
+    },
+    {
+      "evidence": "evidence:r1255-02"
+    },
+    {
+      "evidence": "evidence:r1255-03"
+    },
+    {
+      "evidence": "evidence:r1255-04"
+    },
+    {
+      "evidence": "evidence:r1255-05"
+    },
+    {
+      "evidence": "evidence:r1255-06"
+    },
+    {
+      "evidence": "evidence:r1255-07"
+    },
+    {
+      "evidence": "evidence:r1255-08"
+    },
+    {
+      "evidence": "evidence:r1255-09"
+    },
+    {
+      "evidence": "evidence:r1255-10"
+    },
+    {
+      "evidence": "evidence:r1255-11"
+    },
+    {
+      "evidence": "evidence:r1546-03"
+    },
+    {
+      "evidence": "evidence:v-session-ceo-press-conference"
+    },
+    {
+      "evidence": "evidence:v-session-discord-lisbon-press"
+    },
+    {
+      "evidence": "evidence:v-session-founders-in-portugal-meetup"
+    },
+    {
+      "evidence": "evidence:v-session-gravitee-press"
+    },
+    {
+      "evidence": "evidence:v-session-road-2-web-summit-winner-press"
+    },
+    {
+      "evidence": "evidence:v-session-spotlight-paraiba-press"
+    },
+    {
+      "evidence": "evidence:v-session-startup-portugal-guide"
+    },
+    {
+      "evidence": "evidence:v-session-unicorn-factory-scaleups-press"
+    },
+    {
+      "evidence": "evidence:v-websummit-featured-startups-p1"
+    },
+    {
+      "evidence": "evidence:v-websummit-speakers"
+    },
+    {
+      "evidence": "evidence:v-websummit-speakers-by-theme"
+    },
+    {
+      "evidence": "evidence:x-web-summit-thursday-facts"
+    },
+    {
+      "evidence": "evidence:x-websummit-future-of-ai"
+    },
+    {
+      "evidence": "evidence:x-ws-breakout-startups"
+    },
+    {
+      "evidence": "evidence:x-ws-event-update"
+    },
+    {
+      "evidence": "evidence:x-ws-event-update-refunds"
+    },
+    {
+      "evidence": "evidence:x-ws-final-figures"
+    },
+    {
+      "evidence": "evidence:x-ws-speakers-manus"
+    },
+    {
+      "evidence": "evidence:x-ws-terms"
+    }
+  ],
   "companies": [
     {
       "company": "company:0xbow",
