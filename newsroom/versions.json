@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1414",
+    "date": "2026-11-12",
+    "what": "a \"team paused\" banner on every page; observability excepted from the hold",
+    "by": "conductor@web-summit.dinis",
+    "from": "1d9536925"
+  },
+  {
     "version": "v0.1.1413",
     "date": "2026-11-12",
     "what": "hold: all scheduled agents paused by Dinis (hand brake, 15:15 UTC)",
