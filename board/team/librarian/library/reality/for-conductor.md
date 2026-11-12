@@ -1,8 +1,8 @@
 ---
 title: "For the conductor: where REALITY.md and the evidence disagree"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from REALITY.md, the repository and reality/changelog.md; catalogue as generated 2026-11-11T21:58:53Z"
-site_version: "v0.1.1309"
+generated: "by library.mjs 0.2.0 from REALITY.md, the repository and reality/changelog.md; catalogue as generated 2026-11-12T00:58:33Z"
+site_version: "v0.1.1328"
 for: conductor@PrompTugal.dinis
 ---
 

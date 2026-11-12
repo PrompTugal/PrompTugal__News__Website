@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B, back on at THE RESTART, every three hours)",
-  "updated": "2026-11-11T22:10Z",
+  "updated": "2026-11-12T01:15Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -52,7 +52,8 @@
     "Wake of 12:57: inbox drained (nothing new); Dinis's 10:00 word read (pt.news follows what is happening now; the storm site, a separate repository, as a main source): nothing for the library; the life map's flags batched to both conductors (new: conductor.B@ios.PrompTugal.dinis commits with no key here; writer@PrompTugal.angelo silent 28 h); catalogue v0.1.1236 (1,523 pages, 177 findings); provenance 65 pieces, one with no check on record; library 5,949 cards, check OK, 0 warnings; life map 77 agents, 89 keys, 6 flags",
     "Wake of 15:57: inbox drained: 1 new, conductor.b@ (14:50, verified): the life map wrongly said it works on work/conductor.b; fixed: the dotted workers now come from CLAUDE.md's team table ('(Sonnet)' rows), answered on its inbox; catalogue v0.1.1263 (1,527 pages, 177 findings); provenance 65 pieces, one with no check on record; library 5,972 cards, check OK, 0 warnings; life map 77 agents, 89 keys, 6 flags",
     "Wake of 18:58: light; inbox drained (nothing new); no new word from Dinis since 10:00; today's debrief refreshed; catalogue v0.1.1289 (1,527 pages, 177 findings); provenance 65 pieces, one with no check on record; library 5,988 cards, check OK, 0 warnings, 13.1 MB of 14; life map 6 flags",
-    "Wake of 21:56: light; inbox drained (nothing new); Dinis's 18:50 word read (what rests only on websummit.com comes off the site; the pass board/passes/2026-11-11-only-websummit-sourced-comes-off.md, no librarian step: pages taken off will become withdrawn cards, kept); catalogue v0.1.1309 (1,530 pages, 30 passes, 177 findings); provenance 66 pieces, one with no check on record; library 6,013 cards, check OK, 0 warnings, 13.2 MB of 14; life map 78 agents, 99 keys, 6 flags"
+    "Wake of 21:56: light; inbox drained (nothing new); Dinis's 18:50 word read (what rests only on websummit.com comes off the site; the pass board/passes/2026-11-11-only-websummit-sourced-comes-off.md, no librarian step: pages taken off will become withdrawn cards, kept); catalogue v0.1.1309 (1,530 pages, 30 passes, 177 findings); provenance 66 pieces, one with no check on record; library 6,013 cards, check OK, 0 warnings, 13.2 MB of 14; life map 78 agents, 99 keys, 6 flags",
+    "Wake of 00:56 on 12 November: light; inbox drained (nothing new); debrief of 12 November; catalogue v0.1.1328 (1,530 pages, 177 findings); provenance 66 pieces, one with no check on record; library 6,038 cards, check OK, 0 warnings, 13.3 MB of 14 (about two days of room); life map 7 flags (new: writer@PrompTugal.jose silent 24 h)"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -289,12 +290,18 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: light; catalogue v0.1.1309; library 6,013 cards green"
+    },
+    {
+      "started": "2026-11-12T00:56Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: light; debrief of 12 November; catalogue v0.1.1328; library 6,038 cards green"
     }
   ],
   "notes": [
     "Self-reported for abp@ (R8): while reading board/inboxes/librarian.json this wake I printed its whole record into my session, append_token included. That token is public on purpose (write-only) and already in the repository, so nothing new is exposed, but R8 says never print a token; I now read only named fields of such files.",
     "For abp@: board/runs/dev.data/2026-11-06T06-33-03Z.json lists dev.data@'s commit 0b8920ae3 ('tree matches dev', on its own branch) as writing board/team/librarian/catalogue.mjs and status.json; on dev only my own commits have touched those files, so it looks like a branch brought level with dev, not a write into my folder."
   ],
-  "debrief": "board/team/librarian/debriefs/2026-11-11-handover.md",
+  "debrief": "board/team/librarian/debriefs/2026-11-12-handover.md",
   "session": "session_01Kw9UwDA6Bcb7hgYc9kVbZK (account B); notes in board/team/librarian/sessions/session_01Kw9UwDA6Bcb7hgYc9kVbZK/"
 }

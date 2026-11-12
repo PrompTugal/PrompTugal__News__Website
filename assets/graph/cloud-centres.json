@@ -99,17 +99,14 @@
           "links": [
             {
               "label": "Elastic: on the Google Cloud marketplace",
-              "page": "companies/elastic/index.html",
               "src": "elastic"
             },
             {
               "label": "Datadog: monitoring product page, no partnership claimed",
-              "page": "companies/datadog/index.html",
               "src": "datadog"
             },
             {
               "label": "ManageEngine: cloud security for Azure, AWS and GCP as a product area (coverage, not a stated partnership)",
-              "page": "companies/manageengine/index.html",
               "src": "manageengine"
             }
           ]
@@ -144,57 +141,46 @@
           "links": [
             {
               "label": "Cerebras: an AWS executive's testimonial, a joint inference setup",
-              "page": "companies/cerebras/index.html",
               "src": "cerebras"
             },
             {
               "label": "Elastic: on the AWS marketplace",
-              "page": "companies/elastic/index.html",
               "src": "elastic"
             },
             {
               "label": "Datadog: monitoring product page, no partnership claimed",
-              "page": "companies/datadog/index.html",
               "src": "datadog"
             },
             {
               "label": "Runpod: AWS as the rival, in a customer's comparison (not a tie)",
-              "page": "companies/runpod/index.html",
               "src": "runpod"
             },
             {
               "label": "ManageEngine: cloud security for Azure, AWS and GCP as a product area (coverage, not a stated partnership)",
-              "page": "companies/manageengine/index.html",
               "src": "manageengine"
             },
             {
               "label": "1Password: AWS Marketplace, own listing, with an AWS Specialization badge",
-              "page": "companies/1password/index.html",
               "src": "awsmp"
             },
             {
               "label": "Akamai: AWS Marketplace, own listings (API security)",
-              "page": "companies/akamai/index.html",
               "src": "awsmp"
             },
             {
               "label": "IBM: AWS Marketplace, own listings (IBM MQ)",
-              "page": "companies/ibm/index.html",
               "src": "awsmp"
             },
             {
               "label": "Twilio: AWS Marketplace, own listing (Twilio Segment), with a badge",
-              "page": "companies/twilio/index.html",
               "src": "awsmp"
             },
             {
               "label": "VTEX: AWS Marketplace, own listings, with a badge",
-              "page": "companies/vtex/index.html",
               "src": "awsmp"
             },
             {
               "label": "Cisco Outshift: AWS Marketplace, Cisco Systems sells there; nothing specific to Outshift",
-              "page": "companies/cisco-outshift/index.html",
               "src": "awsmp"
             }
           ]
@@ -229,32 +215,26 @@
           "links": [
             {
               "label": "Elastic: on the Azure marketplace",
-              "page": "companies/elastic/index.html",
               "src": "elastic"
             },
             {
               "label": "Datadog: monitoring product page, no partnership claimed",
-              "page": "companies/datadog/index.html",
               "src": "datadog"
             },
             {
               "label": "ManageEngine: cloud security for Azure, AWS and GCP as a product area (coverage, not a stated partnership)",
-              "page": "companies/manageengine/index.html",
               "src": "manageengine"
             },
             {
               "label": "Gcore: Microsoft quoted as a customer of its CDN (a customer, not a partnership)",
-              "page": "companies/gcore/index.html",
               "src": "gcore"
             },
             {
               "label": "KPMG Portugal: a stated alliance with Microsoft, on its own alliance page (the strongest tie found)",
-              "page": "companies/kpmg-portugal/index.html",
               "src": "kpmg"
             },
             {
               "label": "Delinea: a comparison page against Microsoft (a rival, not a tie)",
-              "page": "companies/delinea/index.html",
               "src": "delinea"
             }
           ]

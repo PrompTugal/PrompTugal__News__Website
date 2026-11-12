@@ -35,7 +35,7 @@ export function final(ctx) {
     // websummit-only fact, edge or source, and the story files dev.data@ found resting only on websummit.com
     const g = ctx.store.wsGone
     if (g) {
-        const D = { companies: 'companies', people: 'people', events: 'events', organisations: 'organisations', places: 'places' }
+        const D = { companies: 'companies', people: 'people', events: 'events', organisations: 'organisations', places: 'places', evidence: 'evidence' }
         const files = execFileSync('git', ['ls-files', 'data/'], { cwd: ctx.ROOT }).toString().split('\n').filter(Boolean)
         const partial = new Set(ctx.store.companies.filter(c => c.ws_taken).map(c => c.id))
         let story = {}; try { story = JSON.parse(fs.readFileSync(ctx.R('board/team/dev.data/findings/2026-11-11-websummit-only-in-story-folders.json'), 'utf8')) } catch { }
@@ -43,7 +43,10 @@ export function final(ctx) {
         for (const f of files) { const m = f.match(/^data\/([a-z]+)\/([^/]+)\/(.+)$/); if (!m) continue
             if (D[m[1]] && g[D[m[1]]].has(m[2])) keep.push(f)
             else if (m[1] === 'companies' && partial.has(m[2]) && /^(facts|edges|sources)\.json$/.test(m[3])) keep.push(f)
-            else if (m[1] === 'stories' && (whole.has(m[2]) || (part.get(m[2])?.has(m[3].replace(/^sources\//, '').replace(/\.json$/, '')) && m[3].startsWith('sources/')))) keep.push(f) }
+            else if (m[1] === 'stories' && (whole.has(m[2]) || (part.get(m[2])?.has(m[3].replace(/^sources\//, '').replace(/\.json$/, '')) && m[3].startsWith('sources/')))) keep.push(f)
+            // a story's claims.json while it still holds a claim resting only on websummit.com, and any file a story keeps
+            // its websummit-only claims in (claims-websummit.json: dev.data@ moves them there to serve the rest)
+            else if (m[1] === 'stories' && ((m[3] === 'claims.json' && (story.folders?.[m[2]]?.claims_resting_only_on_websummit || []).length) || /websummit/.test(m[3]))) keep.push(f) }
         // the desks' copies of websummit.com (security@'s pre-review, 12 November 00:05, condition 1): the programme, the
         // curator's reads and the beats' found lists
         for (const f of execFileSync('git', ['ls-files', 'desks/'], { cwd: ctx.ROOT }).toString().split('\n'))

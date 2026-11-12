@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: Guidance (special)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-11T21:58:53Z"
-site_version: "v0.1.1309"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T00:58:33Z"
+site_version: "v0.1.1328"
 source: board/catalogue.json
 ---
 
@@ -16,7 +16,7 @@ Guidance, a special collection: Dinis's night memos, the ideas ledger with each 
 
 - [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) (`GDN.MEMO README`): Dinis's own words to the team about what this site is, the thinking behind it and where it is going, one file per piece (YYYY-MM-DD-<topic>.md)…
 - [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) (`GDN.MEMO 2026-11-06-the-ideas-ledger`): Every distinct idea Dinis gave in the night's memos and in the 18:00 stand-up of 5 November, one row each, with when it is meant…
-- [The summit set: which agents run in the summit week](https://promptugal.news/board/guidance/2026-11-09-the-summit-set.md) (`GDN.MEMO 2026-11-09-the-summit-set`): Dinis stopped every agent at 20:42 UTC on 8 November. On 9 November, about 02:30 UTC, he chose this set to come back for the…
+- [What rests only on websummit.com comes off the site, with a note; shadow sources bring it back](https://promptugal.news/board/guidance/2026-11-11-only-websummit-sourced-comes-off.md) (`GDN.MEMO 2026-11-11-only-websummit-sourced-comes-off`): "We have an interesting curveball, but actually that's not that bad. I was just talking to Vicky, and she was saying that according to the…
 
 ## How it is arranged
 
@@ -39,8 +39,8 @@ Special collection: S1 (549 cards). Dinis's guidance has its own guide: [guidanc
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (168 connections from this collection)
-- [Work in hand](WRK.md) (129 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (173 connections from this collection)
+- [Work in hand](WRK.md) (130 connections from this collection)
 - [The library](LIB.md) (29 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 

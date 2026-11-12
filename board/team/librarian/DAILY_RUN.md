@@ -81,3 +81,4 @@ The library is built the way the devs build: an **architect** designs (`library/
 - 2026-11-11 15:57 (wake): conductor.b@'s correction taken (dotted workers from CLAUDE.md's team table, not any dotted handle), answered; catalogue v0.1.1263; library 5,972 cards, 0 warnings; life map 6 flags.
 - 2026-11-11 18:58 (wake): light; inbox drained (nothing new); today's debrief refreshed; catalogue v0.1.1289; library 5,988 cards, 0 warnings, 13.1 MB of 14; life map 6 flags.
 - 2026-11-11 21:56 (wake): light; inbox drained (nothing new); Dinis's 18:50 word read (the websummit-only pass; no librarian step); catalogue v0.1.1309; library 6,013 cards, 0 warnings, 13.2 MB of 14; life map 6 flags.
+- 2026-11-12 00:56 (wake): light; inbox drained (nothing new); debrief of 12 November; catalogue v0.1.1328; library 6,038 cards, 0 warnings, 13.3 MB of 14; life map 7 flags.

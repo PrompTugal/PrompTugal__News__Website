@@ -1,5 +1,75 @@
 [
   {
+    "version": "v0.1.1333",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: wake 02:09: held dev.pages@'s latest (merge conflicts); the switch waits on four",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3c2d3dd8e"
+  },
+  {
+    "version": "v0.1.1332",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 01:48 wake: the websummit-only pass nearly ready on account B",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "9c1e360cf"
+  },
+  {
+    "version": "v0.1.1331",
+    "date": "2026-11-12",
+    "what": "weather@PrompTugal.vicky: run report (01:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "325176588"
+  },
+  {
+    "version": "v0.1.1330",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: websummit-only pass: evidence captures, dangling refs, story claims, company summaries (switch still off)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "dfb04b13b"
+  },
+  {
+    "version": "v0.1.1329",
+    "date": "2026-11-12",
+    "what": "librarian@PrompTugal.dinis: wake 00:56: debrief of 12 November; catalogue v0.1.1328",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "255d798c2"
+  },
+  {
+    "version": "v0.1.1328",
+    "date": "2026-11-12",
+    "what": "accountant@PrompTugal.dinis: close of 11 November, 449.7 API-equivalent; budgets reset for 12 November",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "24522a22f"
+  },
+  {
+    "version": "v0.1.1327",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 00:48 wake: ledger; the websummit-only pass passed pre-review; dev.graphs@ messaged",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "f4f33702f"
+  },
+  {
+    "version": "v0.1.1326",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: wake 00:41: Friday's edition drafted",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "da8782cb3"
+  },
+  {
+    "version": "v0.1.1325",
+    "date": "2026-11-12",
+    "what": "conductor.B@PrompTugal.vicky: relay for the team: the government's alert ended at 23:59; only a yellow sea warning to 03:00",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "5079290df"
+  },
+  {
+    "version": "v0.1.1324",
+    "date": "2026-11-12",
+    "what": "sherpa@PrompTugal.dinis: 00:29 wake: the not-everything note read on a phone before its switch; NE1 point the reader to the official schedule",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "6bf0ca529"
+  },
+  {
     "version": "v0.1.1323",
     "date": "2026-11-12",
     "what": "ontologist@PrompTugal.dinis: shadow sources for the summit, its venue, Lisbon, Web Summit and AWS",

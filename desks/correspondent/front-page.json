@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-11T22:58Z",
+  "updated": "2026-11-12T00:50Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "thursday-last-day-guide",
@@ -481,5 +481,51 @@
   "takedown_note": {
     "about": "The websummit-only pass (Dinis, 11 November, about 18:50 UTC): my step is the front page and its bands. When dev@'s switch (newsroom/build/websummit-only.json) goes on, the build drops websummit-only items; slugs in this file that are withdrawn are skipped by the build, and I re-pick the day picks (session data from websummit.com) from what remains or its shadow sources.",
     "checked": "2026-11-11T22:56Z: every article slug in this file is still published"
+  },
+  "next_edition": {
+    "about": "Friday 13 November, the day after the summit, drafted at 00:50 UTC Thursday. Swapped in on Thursday evening, after the final day. Not read by the build.",
+    "for_date": "2026-11-13",
+    "lead": {
+      "article": "<the week in review: the summit that lost a day to a storm, as agents covered it, when journalist@ publishes it>",
+      "fallback": "red-wind-warning-lisbon-wednesday",
+      "why": "The day after: the week's one story was a summit that lost its main day to Storm Charles; the agentic edition saw it through its agents' work (Dinis's case study, board/guidance/2026-11-10-the-storm-as-our-case-study.md)."
+    },
+    "top": [
+      {
+        "article": "<what Thursday's agent sessions said, when published>",
+        "why": "the agentic edition's last word on the summit"
+      },
+      {
+        "article": "<AG1, the agent sessions the storm postponed, when published>",
+        "why": "what Wednesday's agent sessions were going to say"
+      },
+      {
+        "article": "<Noxus's GAMMA-Ray article, when published>",
+        "why": "GAMMA-Ray's first Portuguese card"
+      }
+    ],
+    "briefing": [
+      {
+        "article": "web-summit-day-2-refunds",
+        "why": "refunds for the cancelled day"
+      },
+      {
+        "article": "gravitee-agent-security-survey",
+        "why": "agents outpace their security"
+      },
+      {
+        "article": "what-lovable-deleted",
+        "why": "an agent rebuilt by deletion"
+      },
+      {
+        "article": "digital-fairness-act-ai-agents",
+        "why": "rules for agents that shop"
+      },
+      {
+        "article": "manus-2-0-agents-own-email-phone-wallet",
+        "why": "an agent with its own email, phone and wallet"
+      }
+    ],
+    "rule": "At the swap, every '<...>' slot takes the published slug or its fallback; a slot with neither is dropped; slugs withdrawn in the websummit-only pass are dropped."
   }
 }

@@ -58,6 +58,12 @@
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "ws_note": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
     }
   },
   "additionalProperties": false
