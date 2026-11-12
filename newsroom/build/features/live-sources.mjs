@@ -12,10 +12,14 @@ const put = (t, v) => t.replace(/\{\{(#?[a-z_]+)\}\}/g, (m, k) => v[k] ?? '')
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const PAGES = ['index.html', 'storm/charles/index.html']
 
+// a line for a while (correspondent@, 12 November: the Fringe's last evening): shown until its time, with the usual line kept
+// in data-line so sources.js puts it back in the reader's browser once the time has passed, even with no new build
+const lineOf = s => { const f = s.line_for; if (!f || !(Date.now() < Date.parse(f.until))) return { line: esc(s.line), until: '' }
+    return { line: esc(f.line), until: ` data-until="${esc(f.until)}" data-line="${esc(s.line)}"` } }
 function strip(rel) {
     let d; try { d = JSON.parse(fs.readFileSync(R('assets/sources/sources.json'), 'utf8')) } catch { return '' }
     const on = (d.sources || []).filter(s => s.live && /^https:\/\//.test(s.url)); if (!on.length) return ''
-    return put(part('strip'), { '#items': on.map(s => put(item('source'), { tone: esc(s.tone), url: esc(s.url), kicker: esc(s.kicker), name: esc(s.name), line: esc(s.line),
+    return put(part('strip'), { '#items': on.map(s => put(item('source'), { tone: esc(s.tone), url: esc(s.url), kicker: esc(s.kicker), name: esc(s.name), ...lineOf(s),
         host: esc(new URL(s.url).host), updated: s.updated ? ` data-updated="${esc(s.updated)}"` : '' })
         // our own page for the source, from every page but itself (the home page always links the storm page, whatever leads)
         + (s.here && s.here !== rel ? put(item('here'), { href: esc(s.here), name: esc(s.here_name) }) : '')).join('') })

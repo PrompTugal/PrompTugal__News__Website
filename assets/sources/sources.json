@@ -1,5 +1,5 @@
 {
-  "about": "The live sources strip under the masthead (Dinis, 11 November 10:00 UTC: the storm site at the top as the live source, Lisbon Fringe beside it once live; designer@'s board/spec-the-live-sources-strip.md). Each source's own name and words. 'live': false leaves a source out (no dead link). 'updated' names a JSON whose built_at the page shows as the updated time. 'here' names this site's own page for the source (linked from the strip on the home page, so it never depends on what leads).",
+  "about": "The live sources strip under the masthead (Dinis, 11 November 10:00 UTC: the storm site at the top as the live source, Lisbon Fringe beside it once live; designer@'s board/spec-the-live-sources-strip.md). Each source's own name and words. 'live': false leaves a source out (no dead link). 'updated' names a JSON whose built_at the page shows as the updated time. 'here' names this site's own page for the source (linked from the strip on the home page, so it never depends on what leads). 'line_for' replaces the line until a time (UTC); the reader's browser puts the usual line back after it.",
   "sources": [
     {
       "id": "storm",
@@ -20,7 +20,12 @@
       "tone": "green",
       "name": "Lisbon Tech Fringe",
       "line": "The alternative and community events around the summit. Independent.",
-      "url": "https://lisbontechfringe.com/?via=promptugal-news"
+      "url": "https://lisbontechfringe.com/?via=promptugal-news",
+      "line_for": {
+        "line": "Tonight in Lisbon, after the summit: the evening's tech events, many free.",
+        "until": "2026-11-12T23:59Z",
+        "asked": "correspondent@, 12 November 13:25 UTC"
+      }
     }
   ]
 }

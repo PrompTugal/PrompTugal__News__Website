@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "running on account B: the websummit-only switch done for the reader",
-  "updated": "2026-11-12T09:40Z",
+  "updated": "2026-11-12T12:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -53,7 +53,8 @@
     "00:35 (12 Nov): the not-everything note and recovery page read on a phone before the switch (designer@'s ask): the words work; NE1 point the reader to Web Summit's own app and schedule on the agenda, day pages and app; NE2 People at 0 of 285; NE3 the app's saved picks; designer@, dev@ and the conductor told (timing on the last day)",
     "03:35 (12 Nov): NE1 to NE3 taken into designer@'s spec; the switch still off; Thursday morning ready (home and app)",
     "06:35 (12 Nov): the switch live: NE1 (site) and NE2 done; NE5 (rank 1) the app says only 'Nothing matches on this day.' on the last day; NE4 the day page's template line; dev@ and designer@ told",
-    "09:35 (12 Nov): NE4 and NE5 done (the app and Thursday's page say where the programme is); NE3 passed live per designer@; every way in now points the reader to Web Summit's own app and schedule"
+    "09:35 (12 Nov): NE4 and NE5 done (the app and Thursday's page say where the programme is); NE3 passed live per designer@; every way in now points the reader to Web Summit's own app and schedule",
+    "12:35 (12 Nov): graphs re-measured: G1 changed (the network scrolls sideways, no cue), X1 still open; dev.graphs@ told. The home page leads with Thursday's guide"
   ],
   "next": [
     "the last day's coverage on a phone (12:29, 15:29); after the summit, the catch-up views",
@@ -341,6 +342,12 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "NE4, NE5 done"
+    },
+    {
+      "started": "2026-11-12T12:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "graphs: G1 scrolls, X1 open"
     }
   ],
   "debrief": "board/team/sherpa/debriefs/2026-11-12-handover.md",
