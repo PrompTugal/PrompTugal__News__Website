@@ -512,6 +512,18 @@
         "PrompTugal__App__Mobile": "7f59d911"
       },
       "note": "ledger wake: B total 1635.37 (+32.47 in 3h); dev@ brought dev.data/dev.graphs/dev.pages 03:10-03:12; switch waits on journalist@'s 3 twins (outside B) and company:pitchbook; inbox empty"
+    },
+    {
+      "at": "2026-11-12T04:52Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "heads": {
+        "SGit-AI__Website__Web-Summit": "0e2425bc",
+        "PrompTugal__News__Website": "663d9fc8",
+        "PrompTugal__App__Android": "2cd4cd75",
+        "PrompTugal__App__iOS": "bf76d293",
+        "PrompTugal__App__Mobile": "7f59d911"
+      },
+      "note": "the websummit-only switch is on (dev@ 04:13); ontologist@ kept PitchBook from a Morningstar SEC exhibit (04:23); designer@ checked it live, three gaps (04:36); dev.data@ split S9 (work branch 04:34); all nine B agents active; inbox empty"
     }
   ]
 }
