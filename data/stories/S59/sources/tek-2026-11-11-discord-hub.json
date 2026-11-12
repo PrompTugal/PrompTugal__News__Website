@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "tek-2026-11-11-discord-hub",
+  "story": "S59",
+  "url": "https://tek.sapo.pt/noticias/negocios/artigos/discord-abre-em-lisboa-o-primeiro-hub-de-engenharia-fora-dos-eua/",
+  "title": "Tek Noticias (SAPO), Discord abre em Lisboa o primeiro hub de engenharia fora dos EUA (11 November 2026)",
+  "publisher": "Tek Notícias (SAPO)",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Tek reports the hub, about 30 workers by the end of 2027 as the company confirms, the CTO's quotes, and that the announcement had been planned for a Web Summit press conference."
+}

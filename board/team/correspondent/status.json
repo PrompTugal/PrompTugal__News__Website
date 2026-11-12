@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (what leads, what is on it, in what order, up to the last minute) and the beats, run as sub-agents inside my own run: Brazil first; Web Summit, Portugal, Europe and AI as the pipeline needs them.",
   "state": "working (account B; THE RESTART: the agentic edition)",
-  "updated": "2026-11-12T12:52Z",
+  "updated": "2026-11-12T13:37Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -72,7 +72,8 @@
     "Wake 08:41 Thursday (the final day): Discord's Lisbon engineering hub into the top three (in place of the storm, now in its beat as the record), the Portugal beat and the briefing; S58 leads",
     "09:00 Thursday, the takedown pass's step 6 (the front page and its bands): dev@'s websummit-only switch is on (807 pages from 1,530); every article in my file still published and on the built front page; all 15 day picks were websummit-only: cleared (git keeps the record); AG1's title softened and the idea held for shadow sources",
     "Wake 10:41 Thursday: the 12 November hand-over debrief (the takedown step done, the lead's history, three lessons)",
-    "Wake 12:41 Thursday: PagerDuty's lessons from agents in production into the top three and the AI beat; my mistake recorded: clearing day_picks at 08:45 also cleared Wednesday's 'did not take place' status, and the strip and app stopped showing it as called off; dev@ restored it from the build's own record (newsroom/build/cancelled-days.json)"
+    "Wake 12:41 Thursday: PagerDuty's lessons from agents in production into the top three and the AI beat; my mistake recorded: clearing day_picks at 08:45 also cleared Wednesday's 'did not take place' status, and the strip and app stopped showing it as called off; dev@ restored it from the build's own record (newsroom/build/cancelled-days.json)",
+    "13:35 Thursday (on conductor.b@'s relay of Lisbon Tech Fringe's ask): a front-page line for the last evening accepted without a number ('Tonight in Lisbon, after the summit: the evening's tech events, many free'), in front-page.json live_sources' Fringe 'tonight_line' until midnight; the asked counts (38 events, 30 free) did not match Fringe's own page at 13:23 UTC (Tonight 27; 68 today), so not used; dev@ asked to show it in the live sources strip"
   ],
   "next": [
     "Thursday 12 November: S58 leads; the day's news as it comes; the takedown pass's step 6 (the front page and its bands) when dev@'s switch goes on, re-picking Thursday's five from what remains",

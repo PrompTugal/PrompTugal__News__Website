@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S59",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-12",
+  "entities": [
+    {
+      "ref": "local:discord",
+      "label": "Discord",
+      "kind": "company",
+      "sources": [
+        "observador-2026-11-06-discord-lisboa",
+        "tek-2026-11-11-discord-hub",
+        "dn-2026-11-11-discord-polo",
+        "discord-job-it-ops-lisbon"
+      ]
+    }
+  ]
+}

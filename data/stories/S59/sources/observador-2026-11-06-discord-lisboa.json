@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "observador-2026-11-06-discord-lisboa",
+  "story": "S59",
+  "url": "https://observador.pt/2026/11/06/norte-americana-discord-vai-abrir-centro-de-engenharia-em-lisboa/",
+  "title": "Observador, Norte-americana Discord vai abrir centro de engenharia em Lisboa (6 November 2026)",
+  "publisher": "Observador",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Observador reports, from Discord's job postings, an engineering hub in Lisbon with a founding site lead, no satellite office, three to four office days a week; details were left to a press conference."
+}

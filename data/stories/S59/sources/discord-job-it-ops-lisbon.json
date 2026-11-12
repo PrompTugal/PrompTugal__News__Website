@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "discord-job-it-ops-lisbon",
+  "story": "S59",
+  "url": "https://jobs.generalcatalyst.com/companies/discord-2/jobs/96245323-it-ops-engineer-lisbon",
+  "title": "Discord, IT Ops Engineer - Lisbon (job posting on General Catalyst's job board)",
+  "publisher": "Discord (job posting)",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "Discord's own posting states it is opening an engineering hub in Lisbon, its first dedicated one outside San Francisco."
+}
