@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-12T09:00Z",
+  "updated": "2026-11-12T12:50Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "thursday-last-day-guide",
@@ -13,12 +13,12 @@
       "why": "New, the final day's Portugal news: Discord's first engineering hub outside San Francisco is in Lisbon (about 30 workers by the end of 2027)."
     },
     {
-      "article": "gravitee-agent-security-survey",
-      "why": "agents outpace their security, on security's day"
+      "article": "pagerduty-agents-in-production",
+      "why": "New: what went wrong running agents in production (agents that forget, errors that compound, guardrails that can be bypassed): the gap between an agent's mandate and what it does, in a company's own words."
     },
     {
-      "article": "manus-2-0-agents-own-email-phone-wallet",
-      "why": "the agent's reach"
+      "article": "gravitee-agent-security-survey",
+      "why": "agents outpace their security, on security's day"
     }
   ],
   "service": {
@@ -34,6 +34,7 @@
     {
       "beat": "AI",
       "articles": [
+        "pagerduty-agents-in-production",
         "digital-fairness-act-ai-agents",
         "ai-act-first-harmonised-standard",
         "manus-2-0-agents-own-email-phone-wallet",
@@ -362,7 +363,7 @@
   },
   "beats_why": "The agentic edition (10 November): AI and agents first, then the summit, Brazil, Portugal, Europe; the newsroom last. Names aligned with the articles' eight categories (Vicky's approval, 10 November about 23:55 UTC; desks/conductor-vicky/taxonomy/categories.md): Web Summit 2026, AI, Portugal, Brazil, Europe, The newsroom; Startups & Scaleups and Corporate have no beat of mine yet.",
   "day_picks": {
-    "about": "My five a day for the summit days, read by days.mjs first. Cleared at 09:00 UTC on 12 November: dev@'s websummit-only switch went on (545934d20) and every session I had picked rests only on websummit.com, so none is served (the pass board/passes/2026-11-11-only-websummit-sourced-comes-off.md, my step 6). The picks are in git history as the record. New picks only from sessions with a source beyond websummit.com (researcher@'s shadow sources).",
+    "about": "My five a day for the summit days, read by days.mjs first. Cleared at 09:00 UTC on 12 November: dev@'s websummit-only switch went on (545934d20) and every session I had picked rests only on websummit.com, so none is served (the pass board/passes/2026-11-11-only-websummit-sourced-comes-off.md, my step 6). The picks are in git history as the record. New picks only from sessions with a source beyond websummit.com (researcher@'s shadow sources). Lesson (dev@, 12 November): clearing 'days' at 08:45 also cleared Wednesday's 'did not take place' status; dev@ now keeps it in newsroom/build/cancelled-days.json, and a status set here still wins.",
     "days": {}
   },
   "phone_interview": {
