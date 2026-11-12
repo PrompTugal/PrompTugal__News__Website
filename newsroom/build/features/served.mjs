@@ -43,6 +43,7 @@ export function final(ctx) {
         for (const f of files) { const m = f.match(/^data\/([a-z]+)\/([^/]+)\/(.+)$/); if (!m) continue
             if (D[m[1]] && g[D[m[1]]].has(m[2])) keep.push(f)
             else if (m[1] === 'companies' && partial.has(m[2]) && /^(facts|edges|sources)\.json$/.test(m[3])) keep.push(f)
+            else if (m[1] === 'stories' && /websummit/.test(m[2])) keep.push(f)   // dev.data@'s <id>-websummit folders, always
             else if (m[1] === 'stories' && (whole.has(m[2]) || (part.get(m[2])?.has(m[3].replace(/^sources\//, '').replace(/\.json$/, '')) && m[3].startsWith('sources/')))) keep.push(f)
             // a story's claims.json while it still holds a claim resting only on websummit.com, and any file a story keeps
             // its websummit-only claims in (claims-websummit.json: dev.data@ moves them there to serve the rest)

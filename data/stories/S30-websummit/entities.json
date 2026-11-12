@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S30-websummit",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-11",
+  "entities": [
+    {
+      "ref": "local:aurimod",
+      "label": "AURIMOD GmbH",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-aurimod"
+      ]
+    },
+    {
+      "ref": "local:igloo",
+      "label": "Igloo",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-igloo"
+      ]
+    },
+    {
+      "ref": "company:mobile-brain",
+      "label": "Mobile Brain",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-mobilebrain"
+      ]
+    },
+    {
+      "ref": "local:neocannbio",
+      "label": "NeoCannBio Co., Ltd.",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-neocannbio"
+      ]
+    },
+    {
+      "ref": "local:nice-deer",
+      "label": "Nice Deer",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-nicedeer"
+      ]
+    },
+    {
+      "ref": "company:ola-doutor",
+      "label": "Olá Doutor",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-oladoutor"
+      ]
+    },
+    {
+      "ref": "company:rapidoc",
+      "label": "Rapidoc",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-rapidoc"
+      ]
+    },
+    {
+      "ref": "company:raras-health",
+      "label": "Raras Health",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-rarashealth"
+      ]
+    },
+    {
+      "ref": "local:seroton",
+      "label": "Seroton GmbH",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-seroton"
+      ]
+    },
+    {
+      "ref": "company:sheerme",
+      "label": "sheerME",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-sheerme"
+      ]
+    },
+    {
+      "ref": "local:spryt",
+      "label": "SPRYT",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-spryt"
+      ]
+    }
+  ]
+}

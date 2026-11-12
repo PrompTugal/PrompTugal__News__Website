@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-appearance-cnext",
+  "story": "S29-websummit",
+  "url": "https://websummit.com/appearances/lis26/7650eb03-7f70-4275-a9c7-4dee4e4258e4/cnext",
+  "title": "Cnext (Web Summit LIS26 startup page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Cnext's startup page on Web Summit's site: its own description (the elevatorPitch field), country Belgium, industry and stage."
+}

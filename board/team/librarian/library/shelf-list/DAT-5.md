@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 5 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T07:00:01Z"
-site_version: "v0.1.1361"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T09:59:04Z"
+site_version: "v0.1.1379"
 source: board/catalogue.json
 ---
 
@@ -59,7 +59,7 @@ source: board/catalogue.json
 | `DAT.ORG deutsche-presse-agentur` | [Deutsche Presse-Agentur](https://promptugal.news/organisations/deutsche-presse-agentur/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG deutsche-welle` | [Deutsche Welle](https://promptugal.news/organisations/deutsche-welle/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG digital-inside` | [Digital Inside](https://promptugal.news/organisations/digital-inside/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG discord` | [Discord](https://promptugal.news/organisations/discord/) (withdrawn) | organisation | programme@web-summit.vicky 6 Nov 2026 |
+| `DAT.ORG discord` | [Discord](https://promptugal.news/organisations/discord/) | organisation | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.ORG dutch-ministry-of-foreign-affairs` | [Dutch Ministry of Foreign Affairs](https://promptugal.news/organisations/dutch-ministry-of-foreign-affairs/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG eco` | [ECO](https://promptugal.news/organisations/eco/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG elders` | [The Elders](https://promptugal.news/organisations/elders/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |

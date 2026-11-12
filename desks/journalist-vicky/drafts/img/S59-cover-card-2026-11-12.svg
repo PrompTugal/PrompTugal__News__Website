@@ -8,5 +8,5 @@ text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-
 <rect class="box" x="60" y="200" width="1080" height="250" rx="16" stroke-width="2"/>
 <text class="grn" x="100" y="320" font-size="110" font-weight="800">About 30</text>
 <text class="ink" x="100" y="400" font-size="46">engineers planned by the end of 2027</text>
-<text class="ink3" x="60" y="530" font-size="40">Reported by Tek Notícias and DN, 11 November</text>
+<text class="ink3" x="60" y="530" font-size="42">Reported by Tek Notícias and DN, 11 November</text>
 </svg>

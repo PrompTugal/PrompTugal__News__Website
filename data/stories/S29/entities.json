@@ -5,43 +5,11 @@
   "updated": "2026-11-11",
   "entities": [
     {
-      "ref": "company:mastra",
-      "label": "Mastra",
+      "ref": "company:cnext",
+      "label": "Cnext",
       "kind": "company",
       "sources": [
-        "websummit-appearance-mastra"
-      ]
-    },
-    {
-      "ref": "company:keewano",
-      "label": "Keewano",
-      "kind": "company",
-      "sources": [
-        "websummit-appearance-keewano"
-      ]
-    },
-    {
-      "ref": "local:acrab-ai",
-      "label": "Acrab AI",
-      "kind": "company",
-      "sources": [
-        "websummit-appearance-acrab"
-      ]
-    },
-    {
-      "ref": "local:humanos",
-      "label": "Humanos",
-      "kind": "company",
-      "sources": [
-        "websummit-appearance-humanos"
-      ]
-    },
-    {
-      "ref": "company:polygraf-ai",
-      "label": "Polygraf AI",
-      "kind": "company",
-      "sources": [
-        "websummit-appearance-polygraf"
+        "cnext-own-site"
       ]
     },
     {
@@ -49,7 +17,31 @@
       "label": "GetVocal AI",
       "kind": "company",
       "sources": [
-        "websummit-appearance-getvocal"
+        "getvocal-own-site"
+      ]
+    },
+    {
+      "ref": "company:keewano",
+      "label": "Keewano",
+      "kind": "company",
+      "sources": [
+        "keewano-own-site"
+      ]
+    },
+    {
+      "ref": "company:mastra",
+      "label": "Mastra",
+      "kind": "company",
+      "sources": [
+        "mastra-own-site"
+      ]
+    },
+    {
+      "ref": "local:acrab-ai",
+      "label": "Acrab AI",
+      "kind": "company",
+      "sources": [
+        "acrab-own-site"
       ]
     },
     {
@@ -57,15 +49,15 @@
       "label": "Beyond Presence",
       "kind": "company",
       "sources": [
-        "websummit-appearance-beyond"
+        "beyondpresence-own-site"
       ]
     },
     {
-      "ref": "company:cnext",
-      "label": "Cnext",
+      "ref": "local:humanos",
+      "label": "Humanos",
       "kind": "company",
       "sources": [
-        "websummit-appearance-cnext"
+        "humanos-own-site"
       ]
     }
   ]

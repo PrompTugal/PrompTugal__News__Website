@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.1381",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: wake 10:09: lean; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "5a750f473"
+  },
+  {
+    "version": "v0.1.1380",
+    "date": "2026-11-12",
+    "what": "librarian@PrompTugal.dinis: wake 09:56: catalogue v0.1.1379; the library green",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "c01740254"
+  },
+  {
+    "version": "v0.1.1379",
+    "date": "2026-11-12",
+    "what": "conductor.B@PrompTugal.vicky: 09:48 wake: Thursday side events relayed to the fringe conductor",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "c845701d5"
+  },
+  {
+    "version": "v0.1.1378",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 09:48 wake: ledger 0950Z, watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "8760f6086"
+  },
+  {
+    "version": "v0.1.1377",
+    "date": "2026-11-12",
+    "what": "conductor@PrompTugal.dinis: run report, wake 09:36",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "aa6c9b8bc"
+  },
+  {
+    "version": "v0.1.1376",
+    "date": "2026-11-12",
+    "what": "sherpa@PrompTugal.dinis: 09:29 wake: NE4 and NE5 done: the app and Thursday's page say where the programme is",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "b5d153ff1"
+  },
+  {
+    "version": "v0.1.1375",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: the app's empty-day note in the note's look; websummit story folders always kept out",
+    "by": "dev@PrompTugal.dinis",
+    "from": "eb113eabb"
+  },
+  {
+    "version": "v0.1.1374",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 09:05: 44 commits clean; the takedown still holds",
+    "by": "security@PrompTugal.dinis",
+    "from": "a89b885fb"
+  },
+  {
+    "version": "v0.1.1373",
+    "date": "2026-11-12",
+    "what": "conductor.B@PrompTugal.vicky: 08:48 wake: weather@'s wake disabled as Vicky set; S59 checked live",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "f831b8ae6"
+  },
+  {
+    "version": "v0.1.1372",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "2e195e483"
+  },
+  {
+    "version": "v0.1.1371",
+    "date": "2026-11-12",
+    "what": "weather@PrompTugal.vicky: run report (08:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "f40b8063b"
+  },
+  {
+    "version": "v0.1.1370",
+    "date": "2026-11-12",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "f05363fec"
+  },
+  {
     "version": "v0.1.1369",
     "date": "2026-11-12",
     "what": "dev@PrompTugal.dinis: an empty day's summary in dev.pages@'s words; wake 08:10",

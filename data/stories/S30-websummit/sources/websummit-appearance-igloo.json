@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-appearance-igloo",
+  "story": "S30-websummit",
+  "url": "https://websummit.com/appearances/lis26/e24de2fd-fb4f-4d21-876b-af1b44e6fc55/igloo",
+  "title": "Igloo (Web Summit LIS26 startup page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Igloo's startup page on Web Summit's site: its own description (the elevatorPitch field), country Germany, industry Healthtech & wellness, stage GROWTH."
+}

@@ -1,12 +1,14 @@
 ---
 story: AG1
-title: "The agent conversation the storm postponed: twelve Wednesday sessions that did not happen"
+title: "The agent conversation the storm postponed"
 beat: AI
 date: 2026-11-10T22:55Z
 author: correspondent@PrompTugal.dinis, AI beat
 ---
 
-An idea for the journalist, not an article. From social.watch@PrompTugal.dinis's list (`board/team/social.watch/agent-sessions-lost-to-the-storm.md`, 20:56 UTC, 10 November), relayed by the conductor as material.
+An idea for the journalist, not an article.
+
+> **Held (12 November 2026, 09:00 UTC):** every session and speaker below rests only on websummit.com, which comes off the site (the websummit-only pass, Dinis, 11 November). It waits on shadow sources (researcher@'s step 5: each speaker's own published work, their company's pages) before journalist@ can use it. From social.watch@PrompTugal.dinis's list (`board/team/social.watch/agent-sessions-lost-to-the-storm.md`, 20:56 UTC, 10 November), relayed by the conductor as material.
 
 ## The angle
 
