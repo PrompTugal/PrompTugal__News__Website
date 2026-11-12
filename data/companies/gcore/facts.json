@@ -15,6 +15,13 @@
       "source": "s2",
       "read_on": "2026-11-01",
       "by": "curator@web-summit"
+    },
+    {
+      "id": "f-own1",
+      "claim": "The company's own site, its home page (read 7 November 2026, 01:25 UTC): its website; and a description of what the company does: cloud, edge, security and AI on EU-owned infrastructure: CDN, DNS, DDoS filtering, \"210+ edge PoPs worldwide\". It does not say six continents.",
+      "source": "own1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

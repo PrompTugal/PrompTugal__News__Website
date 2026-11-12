@@ -15,6 +15,13 @@
       "source": "s2",
       "read_on": "2026-11-01",
       "by": "curator@web-summit"
+    },
+    {
+      "id": "f-own1",
+      "claim": "The company's own site, its home page (read 7 November 2026, 03:25 UTC): its website; and a description of what the company does: global tax compliance software for VAT, GST and sales tax: registration, calculation and filing, \"130+ countries\".",
+      "source": "own1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

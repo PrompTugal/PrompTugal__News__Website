@@ -3,7 +3,7 @@
   "$id": "https://promptugal.news/data/schemas/websummit-only.schema.json",
   "title": "What rests only on websummit.com (data/websummit-only.json)",
   "type": "object",
-  "required": ["about", "hosts", "rule", "counts", "evidence", "companies", "company_items", "people", "person_listings", "events", "organisations", "places", "derived"],
+  "required": ["about", "hosts", "rule", "counts", "evidence", "companies", "company_fields", "company_items", "people", "person_listings", "events", "organisations", "places", "derived"],
   "properties": {
     "$schema": { "$ref": "common.schema.json#/$defs/schema_link" },
     "hosts": { "type": "array", "items": { "type": "string" } },

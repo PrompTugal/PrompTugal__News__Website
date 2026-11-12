@@ -12,6 +12,7 @@ export const assets = { css: ['assets/ws-note/ws-note.css'] }
 const W = JSON.parse(fs.readFileSync(new URL('../../../data/site/list-views.json', import.meta.url), 'utf8')).ws_note
 const on = () => !!(wsSwitch().on && wsInventory())
 const REL = 'about/what-came-off/index.html'
+const FRINGE = (() => { try { return JSON.parse(fs.readFileSync(new URL('../../../assets/sources/sources.json', import.meta.url), 'utf8')).sources.find(x => x.id === 'fringe' && x.live) } catch { return null } })()
 const LISTS = { 'companies/index.html': 'companies', 'people/index.html': 'people', 'events/index.html': 'events' }
 const link = (ctx, from) => `[${W.link}](${ctx.link(from, REL)})`
 
@@ -42,6 +43,7 @@ export function pages(ctx) {
     const kinds = ['companies', 'company_facts', 'company_edges', 'people', 'events', 'organisations', 'places'].map(row).filter(Boolean)
     const md = `## ${W.by_kind} {#kinds}\n\n${W.read}\n\n` +
         `| ${W.kind_head} | ${W.total_head} | ${W.off_head} | ${W.kept_head} | ${W.back_head} |\n|---|---|---|---|---|\n${kinds.join('\n')}\n\n${W.back_note}\n\n` +
-        `## ${W.route} {#route}\n\n1. ${W.route_1}\n2. ${W.route_2}\n3. ${W.route_3}\n\n## ${W.method} {#method}\n\n${W.method_text}\n`
+        `## ${W.route} {#route}\n\n1. ${W.route_1}\n2. ${W.route_2}\n3. ${W.route_3}\n\n## ${W.method} {#method}\n\n${W.method_text}\n` +
+        (FRINGE ? `\n## ${W.showcase} {#showcase}\n\n${W.showcase_text.replace('{name}', FRINGE.name).replace('{url}', FRINGE.url)}\n` : '')
     return [{ src: 'data/websummit-only.json', rel, type: 'site', layout: 'wide', title: W.title, summary: W.summary, crumbs: [['about/index.html', 'About'], [null, W.title]], md }]
 }

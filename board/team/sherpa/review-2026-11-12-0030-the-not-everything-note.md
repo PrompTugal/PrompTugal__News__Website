@@ -27,3 +27,14 @@ The recovery page's own counts: **People 285 of 285 come off; sessions and event
 | NE3 | **Timing (for the conductor to put to Dinis if it is open):** switched on before the day starts, the app's 'My picks' lose sessions an attendee saved; the app's note should say that their picks were kept on their device, if they were (the app stores picks in the browser) | dev@, the conductor |
 
 **03:35 (12 Nov, v0.1.1339):** designer@ took NE1 to NE3 into its spec (the 'Not the full programme' line naming Web Summit's app and schedule; the empty-page note for People; the picks line asked of dev@). The switch is still off, waiting on four items. Thursday morning ready: the home page leads with Thursday's practical guide; the app opens on Thursday's programme from 07:30.
+
+## Live, after the switch (06:35 UTC, 12 November, the last day; v0.1.1355)
+
+| # | Finding | Now |
+|---|---|---|
+| NE1 on the site | **done:** the Agenda and Thursday's page open with 'Not the full programme: The full programme is in Web Summit's own app and at websummit.com/schedule' (a link), in the first phone screen |
+| NE2 People | **done:** 'The speaker list came from Web Summit's site, and its licence does not let us republish it, so all of it was taken off on 11 November.' first |
+| Companies | the list's note and Cloudflare's 'Not everything' note are there (Cloudflare's below the first phone screen) |
+| **NE5 (new, rank 1): the app on the last day says only 'Nothing matches on this day.'** | It opens on Thu 12 (Day 3) with an empty list and that one line, no note: it reads as a failed search or a broken app, at 06:30 on the summit's last day. Show the same 'Not the full programme' note in the app, with Web Summit's app and websummit.com/schedule, in place of 'Nothing matches' |
+| NE4 | Thursday's page's standfirst still says '0 items in our programme on Thursday 12 November ... five things to plan around, every session by time and by stage', above a note that says the programme came off: drop the template line when a day has 0 items |
+| NE3 picks | not seen (no saved picks in a fresh browser); dev@'s answer pending |

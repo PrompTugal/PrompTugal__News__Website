@@ -15,6 +15,13 @@
       "source": "s2",
       "read_on": "2026-11-01",
       "by": "curator@web-summit"
+    },
+    {
+      "id": "f-own1",
+      "claim": "The company's own site, its Co-Ventures page (read 7 November 2026, 00:25 UTC): its website (the page recorded); and a description of what the company does: it \"builds bespoke synthetic populations, thematic or geographic\", described as privacy-safe.",
+      "source": "own1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

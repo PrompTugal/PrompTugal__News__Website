@@ -15,6 +15,13 @@
       "source": "c2",
       "read_on": "2026-11-05",
       "by": "crm@web-summit.dinis"
+    },
+    {
+      "id": "f-own1",
+      "claim": "The company's own site, its home page (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: in Portuguese, a social-impact startup delivering online purchases to communities, rural and riverside areas, \"chegamos onde o GPS desiste\" (we go where GPS gives up), with last-mile solutions and a digital postcode.",
+      "source": "own1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

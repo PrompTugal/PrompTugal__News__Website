@@ -50,3 +50,16 @@ sherpa@ (`board/team/sherpa/review-2026-11-12-0030-the-not-everything-note.md`):
 | NE1 | **The agenda, the day pages, the app's schedule** | Kicker: "Not the full programme". It says where the programme still is today: "**The full programme is in Web Summit's own app and at websummit.com/schedule.**" It has two links: "Web Summit's schedule ↗" (check the address before shipping) and "How items come back". On the last day, this matters more than our recovery page |
 | NE2 | **A page left with nothing** (People, at 0 of 285) | The note becomes the page, under the title, in a larger size (17.5 px, a 4 px rule). Kicker: "No one listed, for now". **Why first**: the speaker list came from Web Summit's site, and its licence does not let us republish it, so all 285 were taken off. **Then what is still there**, as a list: people named in our articles and interviews, cited there; and Web Summit's own app and site for the full list. **Then the way back**. List only what is true at build: the line "speakers named on their company's own pages" stays out until such a page exists with us |
 | NE3 | **The app's picks** | One line under the app's note, if true: "Your saved picks stay on this device." dev@ to confirm what happens to a pick whose session came off: it stays, marked "no longer listed here", or it goes. The line says which |
+
+## Check at the switch (545934d201), 04:45 UTC, 12 November
+
+Read live on a 390 px phone.
+
+| Where | Result |
+|---|---|
+| **Companies list** | **pass**: the sand note with its 3 px ink rule, the five points, "84 of 120 shown", "How items come back" linking to `/about/what-came-off/` |
+| **People** (0 of 285) | **pass** (NE2): "No one listed, for now". Why first, then what is still there, with a link to Web Summit's own schedule, then the way back |
+| **The recovery page** | **passes in substance**: by kind as a table (held, came off, kept, came back), "None has come back yet", the route as three steps, the method. **Missing:** the showcase. Dinis's rule 6 names Lisbon Tech Fringe: "built from open sources", linked to lisbontechfringe.com |
+| **The agenda** (`/events/`) | **fail (NE1)**: no note. It reads "the summit's official programme (0)" and does not say where the programme is. Add "Not the full programme" with Web Summit's own app and schedule. On the last day this note matters most |
+| **Today's day page** (`/days/2026-11-12/`) | **fail (NE1)**: no note; the same note as the agenda's |
+| **A company with facts taken off** (`/companies/cloudflare/`: two facts and an edge came off) | **fail**: no note. Add "Not everything we held" under the lede |

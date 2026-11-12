@@ -15,6 +15,13 @@
       "source": "c2",
       "read_on": "2026-11-05",
       "by": "crm@web-summit.dinis"
+    },
+    {
+      "id": "f-own1",
+      "claim": "The company's own site, its home page (read 7 November 2026, 03:25 UTC): its website; and a description of what the company does: in Portuguese, telemedicine and digital health with a 24-hour service, tailored solutions \"com a sua marca\" (under your brand) for employers, health plans and insurers, partners in Brazil and the world. It does not mention Angola or the US.",
+      "source": "own1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

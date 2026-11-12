@@ -1,6 +1,6 @@
 ---
 title: "RiskMandate's ring"
-summary: "RiskMandate's three questions at the centre, and every company going to Web Summit Lisbon 2026 around them on equal terms: the question asked of each, none yet answered."
+summary: "RiskMandate's three questions at the centre, and every company in the newsroom's data around them on equal terms: the question asked of each, none yet answered."
 replay: "Replay"
 png: "Save as PNG"
 canvas: "RiskMandate's three questions, reach, mandate and gap, at the centre; every company of the graph on the outer ring"
@@ -14,6 +14,13 @@ notasked: "We have not asked {name} yet. When they answer, it goes on their page
 fail: "The graph data could not be loaded."
 noscript: "The ring needs JavaScript. The same data is published as graph/explorer.json."
 ---
+::: ws-note
+{.ws-kicker}
+Not everything
+
+This picture is not everything. Web Summit's licence does not let us republish data from its site, so on 11 November 2026 we took off whatever rested only on it: a company left with nothing is not drawn, and each comes back when we find another public source. [How items come back](../../about/what-came-off/index.html)
+:::
+
 [PrompTugal.news is powered by RiskMandate](../../riskmandate/index.html), and this is not independent of it: we say so on every page. RiskMandate gives the newsroom three questions, and this picture shows them at the centre: **reach** (what can the agent actually do?), **mandate** (what was it authorised to do?) and **gap** (who controls the difference?). Around them, on equal terms, is every company of the newsroom's graph, grouped by field.
 
 ## What this picture does not show {#not}

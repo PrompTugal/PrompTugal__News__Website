@@ -115,6 +115,8 @@
     "empty_still": "What is still here:",
     "empty_li_1": "People named in our articles and interviews, cited there.",
     "empty_li_2": "The full list, in [Web Summit's own app and site](https://websummit.com/schedule/).",
-    "empty_back": "A person comes back when we find another public source for them."
+    "empty_back": "A person comes back when we find another public source for them.",
+    "showcase": "The showcase",
+    "showcase_text": "What a licence-free site can be: [{name}]({url}), built from open sources."
   }
 }
