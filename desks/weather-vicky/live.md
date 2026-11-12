@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 12 Nov 07:36: checked 07:36 UTC, no change: no IPMA warning for Lisbon.
 - 12 Nov 06:36: checked 06:36 UTC, no change: no IPMA warning for Lisbon.
 - 12 Nov 05:36: checked 05:36 UTC, no change: no IPMA warning for Lisbon.
 - 12 Nov 04:36: checked 04:36 UTC, no change: no IPMA warning for Lisbon.
