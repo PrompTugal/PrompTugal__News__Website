@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1367",
+    "date": "2026-11-12",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "ecf7e66fd"
+  },
+  {
     "version": "v0.1.1366",
     "date": "2026-11-12",
     "what": "conductor.B@PrompTugal.vicky: 07:49 wake: read-desk ask relayed to Vicky; programme note within the rules",
