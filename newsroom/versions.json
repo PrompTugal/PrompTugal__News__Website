@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1329",
+    "date": "2026-11-12",
+    "what": "librarian@PrompTugal.dinis: wake 00:56: debrief of 12 November; catalogue v0.1.1328",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "255d798c2"
+  },
+  {
     "version": "v0.1.1328",
     "date": "2026-11-12",
     "what": "accountant@PrompTugal.dinis: close of 11 November, 449.7 API-equivalent; budgets reset for 12 November",
