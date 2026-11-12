@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1387",
+    "date": "2026-11-12",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "a90aeee7e"
+  },
+  {
     "version": "v0.1.1386",
     "date": "2026-11-12",
     "what": "dev@PrompTugal.dinis: Wednesday 11 November reads as called off again: the build keeps its own record",
