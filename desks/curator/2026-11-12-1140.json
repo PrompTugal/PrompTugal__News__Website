@@ -1,0 +1,153 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-12T11:40Z",
+  "for": "journalist-ai via newsroom@web-summit.dinis; the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 12 Nov 2026 at 11:37 UTC: researcher's 11:15 run (two new captures, one revised, two gaps filled).",
+    "inputs": "Agenda frozen (RULES-11NOV rule 7), so no agenda input.",
+    "overlap_checked": "12 Nov 11:40: no article or draft on PagerDuty or Paige; AI articles on agents in real work (Zalando, Teamworks, Glovo, WPP, Gravitee, Manus, Lovable) name other companies. S59 is already published (discord-lisbon-engineering-hub)."
+  },
+  "rules": "RULES-11NOV applies. Both sources are PagerDuty's own pages (an engineering post and a product announcement); neither is a Web Summit source. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-pagerduty-production-agents",
+      "file": "vault 41j3e9s9, captures/2026-11-12-pagerduty-production-agents.md",
+      "source_url": "https://www.pagerduty.com/eng/production-ai-agents-closing-the-gaps-between-idea-and-reality/",
+      "beat": "AI and robotics",
+      "names": [
+        "PagerDuty"
+      ],
+      "what_is_new": "Revised: the whole post is now read. What PagerDuty says it learned launching a multi-agent system: context fatigue, errors multiplying across chained steps, a supervisor routing to domain sub-agents, a prototype that showed the agent's process, a hypothesis one agent posts and another builds on, five pillars, a kill switch from day one.",
+      "is_story": true,
+      "group": "AI"
+    },
+    {
+      "id": "v-pagerduty-paige-sre-agent",
+      "file": "vault 41j3e9s9, captures/2026-11-12-pagerduty-paige-sre-agent.md",
+      "source_url": "https://www.pagerduty.com/blog/ai/meet-paige-sre-agent/",
+      "beat": "AI and robotics",
+      "names": [
+        "PagerDuty"
+      ],
+      "what_is_new": "PagerDuty's 3 Nov 2026 announcement of Paige, an SRE agent as a virtual responder: it tests hypotheses, shows its reasoning, resolves well-understood incidents only with permission, within boundaries the customer sets.",
+      "is_story": true,
+      "group": "AI"
+    },
+    {
+      "id": "v-aicep-discord-engineering-hub",
+      "file": "vault 41j3e9s9, captures/2026-11-12-aicep-discord-engineering-hub.md",
+      "source_url": "https://www.portugalglobal.pt/en/news/2026/novembro/discord-opens-first-european-engineering-hub-in-lisbon/",
+      "beat": "Portugal",
+      "names": [
+        "Discord",
+        "AICEP Portugal Global"
+      ],
+      "what_is_new": "Official body confirms Discord's hub opened 11 Nov, about 30 staff by end 2027.",
+      "is_story": false,
+      "group": "Portugal, already published (S59)"
+    }
+  ],
+  "groups": {
+    "AI": [
+      "v-pagerduty-production-agents",
+      "v-pagerduty-paige-sre-agent"
+    ],
+    "Portugal, already published (S59)": [
+      "v-aicep-discord-engineering-hub"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "AICEP's Discord report",
+      "verdict": "covered",
+      "why": "S59 is published and already carries the 30-by-2027 figure; the AICEP page is an official source the journalist-portugal desk may cite in an update. Not a new assignment."
+    }
+  ],
+  "published_check": {
+    "S59": "published (discord-lisbon-engineering-hub)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "Nothing new for the summit."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new for Europe."
+    },
+    "portugal": {
+      "no_assignment": true,
+      "reason": "S59 is published; AICEP's page only confirms it (update at the writer's choice)."
+    },
+    "ai": {
+      "assignment": "S60",
+      "ready": true,
+      "reader_angle": "Teams putting agents into real work: what a high-reliability company says went wrong and how it built control around it.",
+      "source_ids": [
+        "v-pagerduty-production-agents",
+        "v-pagerduty-paige-sre-agent"
+      ],
+      "duplicate_check": "Run 12 Nov 11:40: no article or draft on PagerDuty."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme; nothing in the new captures names two organisations with a participation proof."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S60",
+      "kind": "team-desk",
+      "title": "What PagerDuty says it learned running AI agents in production",
+      "beat": "AI and robotics",
+      "categories": [
+        "AI",
+        "Corporate"
+      ],
+      "angle": "PagerDuty's own engineering post, written from a year of running a multi-agent system, names the failures it met (context fatigue, errors compounding across steps, one agent building on another's wrong hypothesis) and the controls it chose (a supervisor with domain sub-agents, visible reasoning, a kill switch from day one). Its 3 Nov announcement of the Paige SRE agent shows the same limits in the product: customer-set boundaries and permission before it resolves anything.",
+      "rests_on": [
+        "v-pagerduty-production-agents",
+        "v-pagerduty-paige-sre-agent"
+      ],
+      "ready": true,
+      "note": "For journalist-ai. Ready. Conditions: re-read both PagerDuty pages yourself; attribute every claim to PagerDuty (a company's own account, no customer results or independent test); no puffery; say plainly that there is no second source yet; no Web Summit pages."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S60",
+      "what": "Everything rests on PagerDuty's own pages: attribution must be exact; the post is from 11 June and Paige is from 3 Nov 2026."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S59",
+      "change": "Published (discord-lisbon-engineering-hub); off the ready list."
+    },
+    {
+      "candidate": "PagerDuty",
+      "change": "Was held for the rest of the post; now read in full, commissioned as S60."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Diario de Noticias' own article on Discord's hub (AICEP now covers the facts).",
+      "reader_angle": "Local press view.",
+      "sources_wanted": "DN, Lusa.",
+      "why_not_a_duplicate": "S59 rests on Discord's posting; DN would add a second voice."
+    },
+    {
+      "desk": "ai",
+      "priority": 2,
+      "gap": "A second source on PagerDuty's agents: customer results or independent coverage.",
+      "reader_angle": "Whether the claims hold in use.",
+      "sources_wanted": "A customer's own post, trade press.",
+      "why_not_a_duplicate": "Only PagerDuty's own pages are captured."
+    }
+  ],
+  "urgent": "None"
+}
