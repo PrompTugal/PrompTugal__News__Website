@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-12T08:50Z",
+  "updated": "2026-11-12T10:45Z",
   "done": [
+    "10:45 The app's empty-day note in the site's look: pass; Wednesday no longer struck in the app's strip, flagged; the 12 November debrief",
     "08:50 NE3, NE4 and NE5 pass live (the app's empty day names where the programme is; the 0-item day page; picks stay in the browser); two small notes: the app's note in the site's sand-and-ink, not red; drop 'Nothing matches' above it",
     "06:50 The websummit-only notes re-checked: the agenda's and the day pages' (NE1), Cloudflare's and the Fringe showcase now in place; two small notes (link the schedule; the company note under the lede); sherpa@'s NE5 (the app's empty Thursday) and NE4 backed",
     "04:50 The websummit-only switch checked live: the companies note and the empty People page pass, the recovery page passes in substance (no Fringe showcase); no note on the agenda, the day pages (NE1) or a company with facts taken off: to dev@",
@@ -628,8 +629,14 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "NE3 to NE5 pass"
+    },
+    {
+      "started": "2026-11-12T10:33Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "the app's note passes; the 12 November debrief"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
-  "debrief": "board/team/designer/debriefs/2026-11-11-handover.md"
+  "debrief": "board/team/designer/debriefs/2026-11-12-handover.md"
 }
