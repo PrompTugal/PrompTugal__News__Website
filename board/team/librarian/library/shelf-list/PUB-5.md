@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 5 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T09:59:04Z"
-site_version: "v0.1.1379"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T13:00:00Z"
+site_version: "v0.1.1399"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 5 of 5)
 
-86 cards, from `PUB.SITE my-feeds:4` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+88 cards, from `PUB.SITE my-feeds:2` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE my-feeds:2` | [My Feeds, la idea que hace funcionar PrompTugal](https://promptugal.news/investors/es/my-feeds/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE my-feeds:3` | [My Feeds, l'idée que fait tourner PrompTugal](https://promptugal.news/investors/fr/my-feeds/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE my-feeds:4` | [A My Feeds, a ideia que o PrompTugal põe a funcionar](https://promptugal.news/investors/pt/my-feeds/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE newsletter` | [The daily newsletter](https://promptugal.news/newsletter/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE nine-decks-one-story` | [Nine decks, one story: from the problem to the product](https://promptugal.news/investors/articles/nine-decks-one-story/) | site | investors@ 7 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `PUB.SITE partners:4` | [Com quem queremos trabalhar](https://promptugal.news/investors/pt/partners/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE past-summits` | [Web Summit in Lisbon, edition by edition](https://promptugal.news/graph/past-summits/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE pay-after-the-value` | [Pay after the value: a business model without ads](https://promptugal.news/investors/articles/pay-after-the-value/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE pay-after-the-value:2` | [Pagar después del valor: un modelo de negocio sin publicidad](https://promptugal.news/investors/es/articles/pay-after-the-value/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE pay-after-the-value:3` | [Payer après la valeur : un modèle économique sans publicité](https://promptugal.news/investors/fr/articles/pay-after-the-value/) | site | investors@ 7 Nov 2026 |
 
 **Cards 426 to 450**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE pay-after-the-value:2` | [Pagar después del valor: un modelo de negocio sin publicidad](https://promptugal.news/investors/es/articles/pay-after-the-value/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE pay-after-the-value:3` | [Payer après la valeur : un modèle économique sans publicité](https://promptugal.news/investors/fr/articles/pay-after-the-value/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pay-after-the-value:4` | [Pagar depois do valor: um modelo de negócio sem publicidade](https://promptugal.news/investors/pt/articles/pay-after-the-value/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE personas` | [Versiones personales](https://promptugal.news/investors/es/personas/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE personas:2` | [Versions personnelles](https://promptugal.news/investors/fr/personas/) | site | investors@ 7 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `PUB.SITE pt:8` | [PrompTugal: fazer por conta própria](https://promptugal.news/investors/decks/8-do-it-yourself/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pt:9` | [PrompTugal: o que está no ar, uma visita guiada](https://promptugal.news/investors/decks/9-the-tour/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE publishers` | [Las noticias se estancaron. He aquí una salida que funciona.](https://promptugal.news/investors/es/publishers/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE publishers:2` | [L'information s'est enlisée. Voici une issue qui fonctionne.](https://promptugal.news/investors/fr/publishers/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE publishers:3` | [As notícias ficaram encalhadas. Eis uma saída que funciona.](https://promptugal.news/investors/pt/publishers/) | site | investors@ 7 Nov 2026 |
 
 **Cards 451 to 475**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE publishers:2` | [L'information s'est enlisée. Voici une issue qui fonctionne.](https://promptugal.news/investors/fr/publishers/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE publishers:3` | [As notícias ficaram encalhadas. Eis uma saída que funciona.](https://promptugal.news/investors/pt/publishers/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE publishers:4` | [News got stuck. Here is a way out that runs.](https://promptugal.news/investors/publishers/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE riskmandate` | [RiskMandate's ring](https://promptugal.news/graph/riskmandate/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE riskmandate:2` | [Powered by RiskMandate](https://promptugal.news/riskmandate/) | site | newsroom@web-summit.dinis 5 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `PUB.SITE thinking:3` | [Ce que nous pensons](https://promptugal.news/investors/fr/thinking/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thinking:4` | [O que pensamos](https://promptugal.news/investors/pt/thinking/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE top-up` | [Top up](https://promptugal.news/account/top-up.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE topped-up` | [Topped up](https://promptugal.news/account/topped-up.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE vault` | [Your vault](https://promptugal.news/account/vault.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
 
-**Cards 476 to 486**
+**Cards 476 to 488**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE topped-up` | [Topped up](https://promptugal.news/account/topped-up.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE vault` | [Your vault](https://promptugal.news/account/vault.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE venue` | [The venue map](https://promptugal.news/summit/venue/) | site | dev.venues@PrompTugal.angelo 7 Nov 2026 |
 | `PUB.SITE what-came-off` | [What came off the site, and how it comes back](https://promptugal.news/about/what-came-off/) | site | dev@ 12 Nov 2026 |
 | `PUB.SITE what-works` | [What works today](https://promptugal.news/investors/what-works/) | site | investors@ 7 Nov 2026 |

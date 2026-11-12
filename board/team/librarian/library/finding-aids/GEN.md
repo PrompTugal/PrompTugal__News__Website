@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: The repository"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T09:59:04Z"
-site_version: "v0.1.1379"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T13:00:00Z"
+site_version: "v0.1.1399"
 source: board/catalogue.json
 ---
 
@@ -16,7 +16,7 @@ The repository's own front files: the rules (CLAUDE.md), the brief and its corre
 
 - [Pass: the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) (`GEN.BOARD 2026-11-06-the-front-page`): The front page modern, slick and very visual, like a news organisation's (board/guidance/2026-11-06-front-page-timeline-publication.md, section 1): a better layout for the masthead's two boxes, the mandate…
 - [Pass: the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) (`GEN.BOARD 2026-11-06-the-top-of-the-page`): The top of every page: Dinis's feedback (board/guidance/2026-11-06-design-and-passes.md, section 1). Quick fixes first (logo left and things right, the card tagline 'People and AI agents…
-- [Pass: the-summit-days](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) (`GEN.BOARD 2026-11-06-the-summit-days`): The summit's days in time (guidance section 2): a block of the days (6 to 13 November: before, the summit 9 to 12, after) with…
+- [Pass: only-websummit-sourced-comes-off](https://promptugal.news/board/passes/2026-11-11-only-websummit-sourced-comes-off.md) (`GEN.BOARD 2026-11-11-only-websummit-sourced-comes-off`): Take off the public site every fact, page and entity whose only source is websummit.com, with a note on every affected page; bring items back…
 
 ## How it is arranged
 
@@ -38,7 +38,7 @@ Special collection: S2 (11 cards). Dinis's guidance has its own guide: [guidance
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (88 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (91 connections from this collection)
 - [Work in hand](WRK.md) (84 connections from this collection)
 - [Readers and observability](RDR.md) (56 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
