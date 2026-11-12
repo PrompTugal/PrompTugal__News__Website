@@ -2,7 +2,7 @@
   "agent": "social.watch@PrompTugal.dinis",
   "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214). Since 11 November (Dinis's guidance, about 10:00 UTC): a fringe beat for Lisbon Fringe (fringe/events.json).",
   "state": "working: sweep 21 done 06:53 UTC (Thursday, the last day); hourly at minute 50",
-  "updated": "2026-11-12T06:53Z",
+  "updated": "2026-11-12T07:51Z",
   "done": [
     "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
     "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
@@ -35,7 +35,8 @@
     "Wake 19:51, sweep 20: housing protest thread (Irish Times, 10 Nov; two private posts, theme only); 3 items, 147 in all; no new IPMA CAP",
     "21:53: Dinis's 18:50 guidance applied: websummit.com items reduced to links (12), the agent-sessions page taken off with the note, the statement row cited to the press, the Manus 2.0 angle moved to Manus's own post and The Next Web (shadow sources), the licence note on every summary and the signals file; Luma/Meetup/Eventbrite machine reads stopped, 43 fringe records marked",
     "Wake 03:51: the storm's close: no IPMA warning in force for Lisboa (checked 03:52); last row in the signals file",
-    "Wake 06:51, sweep 21: Thursday's press: the compressed last day, Cosgrave's 11:00 press conference, the €1,595 tickets with no refunds mentioned, the housing rally at 17:30; 14 items (163); summary hourly/2026-11-12T06Z.md"
+    "Wake 06:51, sweep 21: Thursday's press: the compressed last day, Cosgrave's 11:00 press conference, the €1,595 tickets with no refunds mentioned, the housing rally at 17:30; 14 items (163); summary hourly/2026-11-12T06Z.md",
+    "Wake 07:51, sweep 22: 3 items (166): an exhibitor's MCP agent-tool post, a German news storm round-up, a private sceptical take on the robots"
   ],
   "next": [
     "Sweeps through Thursday: what Cosgrave says at 11:00 (press only), reactions, the close of the summit; the fringe for Friday and Saturday"

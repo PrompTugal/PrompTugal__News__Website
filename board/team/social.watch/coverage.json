@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-12T06:53Z",
+  "updated": "2026-11-12T07:51Z",
   "sweeps": [
     {
       "n": 1,
@@ -189,6 +189,14 @@
         "one sub-agent: press and public posts"
       ],
       "items": 14
+    },
+    {
+      "n": 22,
+      "at": "2026-11-12T07:51Z",
+      "families": [
+        "my own check: Mastodon, the team's commits"
+      ],
+      "items": 3
     }
   ],
   "items": [
@@ -4109,6 +4117,77 @@
       "found": "2026-11-12T06:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 21)",
       "private_individual": true
+    },
+    {
+      "url": "https://mastodon.social/@linkie/117602219746448691",
+      "platform": "Mastodon",
+      "author": "Linkie (linkie, mastodon.social)",
+      "kind": "post",
+      "title": null,
+      "quote": "With Publer's MCP, schedule and post across your socials in one prompt.",
+      "published": "2026-11-12T07:11:04Z",
+      "topics": [
+        "agentic AI",
+        "startups",
+        "exhibitors"
+      ],
+      "companies": [
+        "Publer",
+        "Linkie"
+      ],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "note": "An exhibitor on Thursday morning; an agent-tool angle (an MCP server that posts to social networks from one prompt).",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T07:51Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 22)"
+    },
+    {
+      "url": "https://mastodon.social/@notexx/117602178976796413",
+      "platform": "Mastodon",
+      "author": "NOTEXX | Nachrichten (notexx, mastodon.social)",
+      "kind": "post",
+      "title": null,
+      "quote": "Sturm Charles legt Portugal lahm",
+      "published": "2026-11-12T07:00:42Z",
+      "topics": [
+        "storm"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": true,
+      "verified": true,
+      "note": "A German news account's storm round-up (over 300 flights cancelled, schools closed); the story reaches German-language feeds.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T07:51Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 22)"
+    },
+    {
+      "url": null,
+      "platform": "Mastodon / personal blog",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-12T06:51:31Z",
+      "topics": [
+        "robots",
+        "AI",
+        "reaction"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "private_individual": true,
+      "note": "A private person writing as themselves: count, theme and platform only. Theme: a sceptical reflection on TV coverage of the summit's dancing robots and 'robots may replace us'.",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T07:51Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 22)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",
