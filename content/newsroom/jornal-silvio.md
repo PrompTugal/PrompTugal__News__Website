@@ -5,6 +5,13 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 12 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 4 | **United Airlines restricts AI agents on its platforms, citing credentials, miles and the check-in safety question.** A duty only a person can do: acknowledging prohibited items. Photo: link only (Getty Images). | AI agents | [CNBC](https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html), 11 Nov |
+| 3 | **Turin's Nebuly raises $21M to measure what AI agents are actually worth to a company.** Planven leads; Oura, Iveco, Zeiss among the customers it names. Photo: link only (Nebuly). | AI agents | [The Next Web](https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi), 12 Nov |
+
 ## 11 November 2026
 
 | Score | Candidate | Beat | Source |
