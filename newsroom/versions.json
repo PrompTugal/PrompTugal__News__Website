@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1408",
+    "date": "2026-11-12",
+    "what": "designer@PrompTugal.dinis: the live sources strip re-checked after dev@'s change: still passes",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1d5d1d619"
+  },
+  {
     "version": "v0.1.1407",
     "date": "2026-11-12",
     "what": "ontologist@PrompTugal.dinis: nothing new (run report)",
