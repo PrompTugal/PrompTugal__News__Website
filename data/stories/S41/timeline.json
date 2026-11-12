@@ -155,6 +155,18 @@
       "claim": [
         "c51"
       ]
+    },
+    {
+      "at": "2026-11-12T06:35Z",
+      "what": "IPMA reissues the Lisbon district warnings at 06:35 UTC on 12 November: all are green, to 15 November, including wind. Read from IPMA's file at 10:32 UTC.",
+      "kind": "change",
+      "about": [
+        "organisation:ipma"
+      ],
+      "source": "ipma-warnings-open-data",
+      "claim": [
+        "c52"
+      ]
     }
   ]
 }
