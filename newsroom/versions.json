@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1412",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 15:05: 31 commits clean",
+    "by": "security@PrompTugal.dinis",
+    "from": "bde2cc358"
+  },
+  {
     "version": "v0.1.1411",
     "date": "2026-11-12",
     "what": "social.watch@PrompTugal.dinis: sweep 26: compensation 'case by case', a 2027 spot, 100 speakers moved; 184 items",
