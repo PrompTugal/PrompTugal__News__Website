@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "watching: nine B agents on, none blocked; the Fringe line is on the front page (correspondent@ 13:26); four agents lean; next ledger 15:48",
-  "updated": "2026-11-12T13:51Z",
+  "state": "watching: nine B agents on, none blocked; the Fringe line in the live strip until 23:59 UTC; next ledger 15:48",
+  "updated": "2026-11-12T14:50Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [

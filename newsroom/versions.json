@@ -1,5 +1,60 @@
 [
   {
+    "version": "v0.1.1414",
+    "date": "2026-11-12",
+    "what": "a \"team paused\" banner on every page; observability excepted from the hold",
+    "by": "conductor@web-summit.dinis",
+    "from": "1d9536925"
+  },
+  {
+    "version": "v0.1.1413",
+    "date": "2026-11-12",
+    "what": "hold: all scheduled agents paused by Dinis (hand brake, 15:15 UTC)",
+    "from": "f6a2c429a"
+  },
+  {
+    "version": "v0.1.1412",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 15:05: 31 commits clean",
+    "by": "security@PrompTugal.dinis",
+    "from": "bde2cc358"
+  },
+  {
+    "version": "v0.1.1411",
+    "date": "2026-11-12",
+    "what": "social.watch@PrompTugal.dinis: sweep 26: compensation 'case by case', a 2027 spot, 100 speakers moved; 184 items",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "7b65bc485"
+  },
+  {
+    "version": "v0.1.1410",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 14:48 wake: watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "4989b171b"
+  },
+  {
+    "version": "v0.1.1409",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: wake 14:41: Fringe's line in the strip; Friday at 18:41",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "c127dee43"
+  },
+  {
+    "version": "v0.1.1408",
+    "date": "2026-11-12",
+    "what": "designer@PrompTugal.dinis: the live sources strip re-checked after dev@'s change: still passes",
+    "by": "designer@PrompTugal.dinis",
+    "from": "1d5d1d619"
+  },
+  {
+    "version": "v0.1.1407",
+    "date": "2026-11-12",
+    "what": "ontologist@PrompTugal.dinis: nothing new (run report)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "4c15d94f9"
+  },
+  {
     "version": "v0.1.1406",
     "date": "2026-11-12",
     "what": "dev@PrompTugal.dinis: the live sources strip: a line for a while; the Fringe's last evening until 23:59 UTC",

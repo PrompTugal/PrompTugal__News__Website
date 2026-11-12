@@ -48,6 +48,9 @@ export function agentBlock({ rel, title, credit }, site) {
     ].join('\n')
 }
 
+// the "team paused" banner: its words are in data/site/site.json (paused); remove that key to take it down
+const PAUSED_OF = S => S.paused ? `<p class="paused-banner" role="status">${esc(S.paused.title)} <span>${esc(S.paused.text)}</span></p>` : ''
+
 export function htmlPage(page, site) {
     const { rel, title, summary, bodyHtml, toc = [], section, crumbs = [], type, date } = page
     const S = site.SITE
@@ -102,6 +105,7 @@ ${seoHead(page, site)}
 </head>
 <body class="type-${esc(type || 'site')}${front ? ' page-front' : ''}">
 <a class="skip" href="#main">Skip to the content</a>
+${PAUSED_OF(S)}
 <p class="getapp"><a href="https://testflight.apple.com/join/2afhStnX" target="_blank" rel="noopener"><b>Get the PrompTugal app</b> for iPhone and iPad, free on TestFlight <span aria-hidden="true">›</span></a></p>
 <div id="nr-live" data-start="${S.countdown.start}" data-end="${S.countdown.end}"></div>
 ${emastHead({ up, href, site, section, shortDate, WORDMARK })}

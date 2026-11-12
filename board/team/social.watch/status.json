@@ -2,7 +2,7 @@
   "agent": "social.watch@PrompTugal.dinis",
   "focus": "Public coverage of Web Summit Lisbon 2026 by others, credited and verified, with an hourly 'what people are talking about' summary; the signals desk of the storm incident (WS-214). Since 11 November (Dinis's guidance, about 10:00 UTC): a fringe beat for Lisbon Fringe (fringe/events.json).",
   "state": "working: sweep 21 done 06:53 UTC (Thursday, the last day); hourly at minute 50",
-  "updated": "2026-11-12T12:53Z",
+  "updated": "2026-11-12T14:53Z",
   "done": [
     "04:20 to 18:40 UTC: held at every hourly wake, because the brief came relayed from conductor@web-summit.dinis without Dinis's own word",
     "18:42 UTC: Dinis confirmed in this session: the name social.watch@PrompTugal.dinis, OPEN_ROUTER_KEY at about $20 a day tracked with accountant@, the seven sub-agents, and the storm signals desk (WS-214) written here",
@@ -38,10 +38,11 @@
     "Wake 06:51, sweep 21: Thursday's press: the compressed last day, Cosgrave's 11:00 press conference, the €1,595 tickets with no refunds mentioned, the housing rally at 17:30; 14 items (163); summary hourly/2026-11-12T06Z.md",
     "Wake 07:51, sweep 22: 3 items (166): an exhibitor's MCP agent-tool post, a German news storm round-up, a private sceptical take on the robots",
     "Wake 11:51, sweep 23: Cosgrave's press conference as the press reports it ('the right decision'; Lisbon 'benefited twice'; losses being calculated, 'the accountants will deal with it'); PITCH result not public; 7 items (173); two aftermath rows in the signals; summary hourly/2026-11-12T11Z.md",
-    "Wake 12:52, sweep 24: Camp Summit confirmed from its organiser's own site (campsummit.pt: today 17:30 by the venue, free); 1 private post (174)"
+    "Wake 12:52, sweep 24: Camp Summit confirmed from its organiser's own site (campsummit.pt: today 17:30 by the venue, free); 1 private post (174)",
+    "Wake 14:51, sweep 26: compensation 'case by case', a 2027 spot for startups, 100+ speakers moved, losses and insurance unchecked; humanoid robots on the last day; PITCH winner due 15:00; 10 items (184); summary hourly/2026-11-12T14Z.md"
   ],
   "next": [
-    "Sweeps through Thursday: what Cosgrave says at 11:00 (press only), reactions, the close of the summit; the fringe for Friday and Saturday"
+    "Sweep at 15:50: PITCH 2026's winner (press), the closing, next year's dates; then the debrief and the end of the summit"
   ],
   "asks": [
     "Dinis: OpenRouter refuses the shared OPEN_ROUTER_KEY with HTTP 402 Payment Required since 05:51 UTC (11 November): its credit is spent. My own use was $0.087 on 10 November (spend.json). Until it is topped up I sweep X and Reddit without Perplexity (nothing else is blocked).",
@@ -52,7 +53,7 @@
     "conductor@PrompTugal.dinis: 'The agent sessions lost to the storm' (board/team/social.watch/agent-sessions-lost-to-the-storm.md) as an idea for the journalist and correspondent: 12 Wednesday sessions on agents, for interviews and GAMMA-Ray cards",
     "Dinis: the inbox drain cannot mark messages processed: sgit push to my inbox vault needs an access token this session does not have (sgit auth); the message was read, the lane copy stays pending"
   ],
-  "latest_summary": "board/team/social.watch/hourly/2026-11-12T11Z.md",
+  "latest_summary": "board/team/social.watch/hourly/2026-11-12T14Z.md",
   "signals": "board/team/social.watch/signals/2026-11-11-the-storm.md",
   "latest_debrief": "board/team/social.watch/debriefs/2026-11-11-handover.md"
 }

@@ -198,6 +198,29 @@
           }
         }
       }
+    },
+    "paused": {
+      "type": "object",
+      "description": "While Dinis has the agentic team on hold: the banner at the top of every page. Remove the key to take it down.",
+      "properties": {
+        "since": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "text"
+      ],
+      "additionalProperties": false
     }
   },
   "additionalProperties": false
