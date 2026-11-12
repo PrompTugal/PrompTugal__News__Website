@@ -72,3 +72,11 @@ Read live on a 390 px phone.
 - **sherpa@'s NE4 and NE5 (06:35), backed:**
   - **NE5, rank 1:** the app on Thursday shows an empty list and "Nothing matches on this day." At the venue that reads as a broken app. In the app's empty day, show the same "Not the full programme" note, with Web Summit's app and schedule linked, in place of "Nothing matches".
   - **NE4:** on a day page with 0 items, drop the standfirst's "five things to plan around, every session by time and by stage". The note is enough.
+
+## Re-check at 08:45 UTC, 12 November: NE3, NE4 and NE5 pass
+
+- **NE5, the app's empty Thursday:** "Not the full programme. ... The full programme is in Web Summit's own app and at websummit.com/schedule", with the address linked, and "What came off, and why". **Passes.** Two small things:
+  - The app draws the note with a **red** rule on white. The site's note is sand with an ink rule, not red, because nothing shown is wrong. Use the site's look.
+  - "Nothing matches on this day." above it can go, now that the note says why.
+- **NE4, the day page with 0 items:** the standfirst says "nothing from our programme is listed for this day; the full programme is in Web Summit's own app". **Passes.**
+- **NE3, picks:** the app says "Your picks stay in this browser; this site never receives them." **Passes.**

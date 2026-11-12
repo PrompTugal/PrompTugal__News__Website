@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
   "state": "working",
-  "updated": "2026-11-12T06:50Z",
+  "updated": "2026-11-12T08:50Z",
   "done": [
+    "08:50 NE3, NE4 and NE5 pass live (the app's empty day names where the programme is; the 0-item day page; picks stay in the browser); two small notes: the app's note in the site's sand-and-ink, not red; drop 'Nothing matches' above it",
     "06:50 The websummit-only notes re-checked: the agenda's and the day pages' (NE1), Cloudflare's and the Fringe showcase now in place; two small notes (link the schedule; the company note under the lede); sherpa@'s NE5 (the app's empty Thursday) and NE4 backed",
     "04:50 The websummit-only switch checked live: the companies note and the empty People page pass, the recovery page passes in substance (no Fringe showcase); no note on the agenda, the day pages (NE1) or a company with facts taken off: to dev@",
     "00:50 sherpa@'s NE1 to NE3 on the note: the agenda's version names where the full programme is (Web Summit's app and schedule), the empty page's version (People, 0 of 285: why, what is still there, the way back), the app's picks line pending dev@'s answer; pictures added",
@@ -116,7 +117,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Re-check NE5 (the app's empty day) and NE4 when shipped",
+    "The day's hand-over debrief; re-check the app note's look when changed",
     "Check the summit now and the newsroom at work (H11, H12) when built; the storm page's E polish when Vicky approves v1",
     "Re-check /contribute/'s og:image",
     "Images for any new article (a table from its own table where the story is numbers)",
@@ -621,6 +622,12 @@
       "outcome": "ok",
       "release": "this commit's",
       "line": "websummit-only notes re-checked: in place"
+    },
+    {
+      "started": "2026-11-12T08:34Z",
+      "outcome": "ok",
+      "release": "this commit's",
+      "line": "NE3 to NE5 pass"
     }
   ],
   "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
