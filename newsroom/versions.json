@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1409",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: wake 14:41: Fringe's line in the strip; Friday at 18:41",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "c127dee43"
+  },
+  {
     "version": "v0.1.1408",
     "date": "2026-11-12",
     "what": "designer@PrompTugal.dinis: the live sources strip re-checked after dev@'s change: still passes",
