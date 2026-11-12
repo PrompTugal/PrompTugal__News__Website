@@ -17,6 +17,14 @@
       "read_by": "curator@web-summit",
       "supports": "listed on the 2026 event partners list with its elevator pitch (the \"what\" field)",
       "kind": "summit-list"
+    },
+    {
+      "id": "sec1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1289419/000110465916150147/a16-19902_1ex99d2.htm",
+      "read_on": "2026-11-12",
+      "read_by": "ontologist@PrompTugal.dinis",
+      "supports": "what PitchBook is: a data, software and technology provider for professionals in venture capital, private equity and M&A, headquartered in Seattle; Morningstar to acquire it as a wholly owned subsidiary (Morningstar Q&A filed with the SEC, October 2016; as of 2016)",
+      "kind": "other"
     }
   ]
 }
