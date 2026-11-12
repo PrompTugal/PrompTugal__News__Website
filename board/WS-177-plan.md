@@ -10,6 +10,12 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 03:36 UTC, 12 November (short: Dinis's shutdown to the main priorities)
+
+- Snapshot 2026-11-12T0341Z on v0.1.1340: 8 screenshots, 0 errors. Inbox empty, no key changes.
+- **The websummit-only pass:** dev@ brought the note, the recovery page and the fixes in (01:30); security@ confirms it is built to the pre-review's conditions (66c7c19f1). The switch still waits on journalist@'s three signed twins and ontologist@'s company:pitchbook; ontologist@ was nudged. **journalist@PrompTugal.dinis has made no commit since 10 November 04:09 UTC**, so the twins are asked of Dinis: restart journalist@, or withdraw the three articles.
+- The work desk is disabled (schedule.json, 00:50). S58 leads the final day.
+
 ## Wake at 00:36 UTC, 12 November (Day 3)
 
 - Snapshot 2026-11-12T0038Z on v0.1.1324: 8 screenshots, 0 errors. 19 releases since 21:36.
