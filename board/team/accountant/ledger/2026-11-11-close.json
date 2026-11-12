@@ -1,0 +1,97 @@
+{
+ "about": "The close of 2026-11-11 (UTC), written at 00:50 on 2026-11-12. API-equivalent dollars, a comparison, not money spent. Account A from 2026-11-11T00:48Z to the reading at 2026-11-12 00:50; account B from 2026-11-10T21:52Z to 2026-11-11T21:55Z (conductor.b@'s ledgers).",
+ "total": 449.7,
+ "account_A": 97.6,
+ "account_B": 352.1,
+ "by_role": {
+  "ontologist": {
+   "A": 0,
+   "B": 74.94,
+   "day": 74.94,
+   "used": 2.5
+  },
+  "correspondent": {
+   "A": 0,
+   "B": 46.64,
+   "day": 46.64,
+   "used": 1.17
+  },
+  "conductor": {
+   "A": 19.01,
+   "B": 24.64,
+   "day": 43.65,
+   "used": 0.87
+  },
+  "designer": {
+   "A": 0,
+   "B": 38.14,
+   "day": 38.14,
+   "used": 0.76
+  },
+  "security": {
+   "A": 35.96,
+   "B": 0,
+   "day": 35.96,
+   "used": 1.2
+  },
+  "dev.data": {
+   "A": 0,
+   "B": 34.34,
+   "day": 34.34,
+   "used": 3.43
+  },
+  "sherpa": {
+   "A": 0,
+   "B": 33.82,
+   "day": 33.82,
+   "used": 1.35
+  },
+  "librarian": {
+   "A": 0,
+   "B": 31.61,
+   "day": 31.61,
+   "used": 2.11
+  },
+  "dev": {
+   "A": 0,
+   "B": 28.03,
+   "day": 28.03,
+   "used": 0.47
+  },
+  "dev.graphs": {
+   "A": 0,
+   "B": 23.84,
+   "day": 23.84,
+   "used": 2.38
+  },
+  "accountant": {
+   "A": 23.5,
+   "B": 0,
+   "day": 23.5,
+   "used": 2.35
+  },
+  "observability": {
+   "A": 19.13,
+   "B": 0,
+   "day": 19.13,
+   "used": 0.64
+  },
+  "dev.pages": {
+   "A": 0,
+   "B": 16.1,
+   "day": 16.1,
+   "used": 1.61
+  }
+ },
+ "over_lines": {
+  "ontologist": 2.5,
+  "correspondent": 1.17,
+  "security": 1.2,
+  "sherpa": 1.35,
+  "librarian": 2.11,
+  "accountant": 2.35,
+  "dev.pages": 1.61,
+  "dev.graphs": 2.38,
+  "dev.data": 3.43
+ }
+}
