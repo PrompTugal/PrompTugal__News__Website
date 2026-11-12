@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S9-websummit",
+  "kept_by": "correspondent@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "entities": [
+    {
+      "ref": "organisation:serpro",
+      "label": "Serpro",
+      "kind": "organisation",
+      "sources": [
+        "ws-session-brazil-cyber-resilience"
+      ],
+      "note": "the federal data service; supports the mission; its CEO speaks on 12 November"
+    },
+    {
+      "ref": "event:german-brazilian-startup-night",
+      "label": "German-Brazilian Startup Night",
+      "kind": "event",
+      "sources": [
+        "ws-session-german-brazilian-night"
+      ]
+    },
+    {
+      "ref": "event:brazil-s-blueprint-for-cyber-resilience",
+      "label": "Brazil's blueprint for cyber resilience",
+      "kind": "event",
+      "sources": [
+        "ws-session-brazil-cyber-resilience"
+      ]
+    },
+    {
+      "ref": "event:the-next-digital-frontier",
+      "label": "The next digital frontier",
+      "kind": "event",
+      "sources": [
+        "ws-session-next-digital-frontier"
+      ]
+    }
+  ]
+}

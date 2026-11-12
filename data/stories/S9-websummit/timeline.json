@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "S9-websummit",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-06",
+  "events": [
+    {
+      "at": "2026-11-10",
+      "what": "German-Brazilian Startup Night, 17:30 to 22:30 at the Gale patio (the programme page names no hosts); also the day of an AI pitch competition with Brazil, France, Portugal and Germany, and the announcement of the second Lisbon Incubation Programme's startups.",
+      "kind": "event",
+      "about": [
+        "event:german-brazilian-startup-night"
+      ],
+      "source": [
+        "ws-session-german-brazilian-night"
+      ],
+      "claim": [
+        "c26"
+      ]
+    },
+    {
+      "at": "2026-11-11T10:30Z",
+      "what": "Session 'The next digital frontier' on Stage 11 (Policy Summit), with the Secretary of Science, Technology and Innovation of the State of Sao Paulo (time as listed on the programme page).",
+      "kind": "event",
+      "about": [
+        "event:the-next-digital-frontier"
+      ],
+      "source": "ws-session-next-digital-frontier",
+      "claim": "c25"
+    },
+    {
+      "at": "2026-11-12T16:10Z",
+      "what": "Session 'Brazil's blueprint for cyber resilience' on Stage 8 (Cybersecurity Summit), with the President and CEO of Serpro (time as listed on the programme page).",
+      "kind": "event",
+      "about": [
+        "event:brazil-s-blueprint-for-cyber-resilience",
+        "organisation:serpro"
+      ],
+      "source": "ws-session-brazil-cyber-resilience",
+      "claim": "c24"
+    }
+  ]
+}

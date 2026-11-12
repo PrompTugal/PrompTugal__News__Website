@@ -40,8 +40,7 @@
       "kind": "organisation",
       "sources": [
         "apexbrasil-hub-rules-2026",
-        "startups-2025-11-03-340",
-        "ws-session-brazil-cyber-resilience"
+        "startups-2025-11-03-340"
       ],
       "note": "the federal data service; supports the mission; its CEO speaks on 12 November"
     },
@@ -71,30 +70,6 @@
         "startups-2026-10-26-gol"
       ],
       "note": "named among Rio's ten startups; the team's record has it as Portuguese"
-    },
-    {
-      "ref": "event:german-brazilian-startup-night",
-      "label": "German-Brazilian Startup Night",
-      "kind": "event",
-      "sources": [
-        "ws-session-german-brazilian-night"
-      ]
-    },
-    {
-      "ref": "event:brazil-s-blueprint-for-cyber-resilience",
-      "label": "Brazil's blueprint for cyber resilience",
-      "kind": "event",
-      "sources": [
-        "ws-session-brazil-cyber-resilience"
-      ]
-    },
-    {
-      "ref": "event:the-next-digital-frontier",
-      "label": "The next digital frontier",
-      "kind": "event",
-      "sources": [
-        "ws-session-next-digital-frontier"
-      ]
     },
     {
       "ref": "organisation:invest-rio",

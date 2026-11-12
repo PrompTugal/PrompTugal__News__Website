@@ -295,46 +295,6 @@
       "published": "2026-10-25"
     },
     {
-      "id": "c24",
-      "text": "Session 'Brazil's blueprint for cyber resilience', 12 November 16:10 to 16:20, Stage 8 (Cybersecurity Summit), speaker Wilton Itaiguara Gonçalves Mota, President and CEO, Serpro. (Superseded: on 9 November Web Summit's page lists it on 11 November at 14:32, Stage 7: see c30.)",
-      "kind": "fact",
-      "source": "ws-session-brazil-cyber-resilience",
-      "read_on": "2026-11-06",
-      "by": "correspondent@PrompTugal.dinis",
-      "quote": "Wilton Itaiguara Gonçalves Mota, President and CEO, Serpro",
-      "note": "published: programme page",
-      "about": [
-        "event:brazil-s-blueprint-for-cyber-resilience",
-        "organisation:serpro"
-      ]
-    },
-    {
-      "id": "c25",
-      "text": "Session 'The next digital frontier', 11 November 10:30, Stage 11 (Policy Summit): Vahan Agopyan (Secretary of Science, Technology and Innovation, State of São Paulo), with Bernardo Correia (Secretary of State for Digitalisation, Portugal), Tariq Al Tayer (UAE) and Eleanor Pringle (Fortune). Read by the programme desk 5 Nov.",
-      "kind": "fact",
-      "source": "ws-session-next-digital-frontier",
-      "read_on": "2026-11-06",
-      "by": "correspondent@PrompTugal.dinis",
-      "quote": "Vahan Agopyan",
-      "note": "published: programme page",
-      "about": [
-        "event:the-next-digital-frontier"
-      ]
-    },
-    {
-      "id": "c26",
-      "text": "'German-Brazilian Startup Night', a meetup on 10 November 17:30 to 22:30 at the Gale patio; no hosts, speakers or description on the page.",
-      "kind": "fact",
-      "source": "ws-session-german-brazilian-night",
-      "read_on": "2026-11-06",
-      "by": "correspondent@PrompTugal.dinis",
-      "quote": "German-Brazilian Startup Night",
-      "note": "published: programme page",
-      "about": [
-        "event:german-brazilian-startup-night"
-      ]
-    },
-    {
       "id": "c27",
       "text": "ApexBrasil survey: over 13,000 startups, more than 120 investment funds, over 250 innovation hubs, over 30 unicorns; US$2.135 billion VC in 2024 across 386 deals; ApexBrasil supported nearly 100 startups at Web Summit Rio 2026.",
       "kind": "estimate",
@@ -369,19 +329,6 @@
       "by": "correspondent@PrompTugal.dinis",
       "quote": "Porto Digital Europa",
       "published": "2024-11-10"
-    },
-    {
-      "id": "c30",
-      "text": "On 9 November 2026 Web Summit's session page for 'Brazil's blueprint for cyber resilience' lists it on 11 November from 14:32 to 14:40 on Stage 7 (Corporate Innovation Summit), with Serpro's President and CEO as speaker; it was read on 6 November as 12 November, 16:10, Stage 8.",
-      "kind": "fact",
-      "source": "ws-session-brazil-cyber-resilience",
-      "quote": "\"starts_at\":\"2026-11-11T14:32:00Z\"",
-      "read_on": "2026-11-09",
-      "by": "dev.data@PrompTugal.dinis",
-      "about": [
-        "event:brazil-s-blueprint-for-cyber-resilience",
-        "organisation:serpro"
-      ]
     }
   ]
 }
