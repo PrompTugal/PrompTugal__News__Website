@@ -5,7 +5,7 @@
   "title": "Discord is opening its first engineering hub outside San Francisco, in Lisbon",
   "beat": "Portugal",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-discord-lisbon-engineering-hub"
   ],
@@ -16,7 +16,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-12-0740.json",
-      "desks/journalist-vicky/drafts/S59-discord-lisbon-engineering-hub.md"
+      "desks/journalist-vicky/drafts/S59-discord-lisbon-engineering-hub.md",
+      "desks/reviewer-vicky/reviews/S59.md",
+      "content/articles/discord-lisbon-engineering-hub.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -24,9 +26,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S59-discord-lisbon-engineering-hub.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S59.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-12"
+    }
+  ],
+  "article": {
+    "path": "content/articles/discord-lisbon-engineering-hub.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -39,6 +52,18 @@
       "at": "2026-11-12",
       "by": "journalist-portugal@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S59-discord-lisbon-engineering-hub.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-12",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S59.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-12",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/discord-lisbon-engineering-hub.md"
     }
   ]
 }
