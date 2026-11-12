@@ -51,6 +51,7 @@ The shape: board/the-passes.md. At Dinis's word, about 18:50 UTC, 11 November 20
 | 06:05 | security@ | 8, post-review | **holds live**: raw data/, stories, desk JSON, a removed person's page all 404; api/v1 people 0 and events without inventory items; sitemap clean; websummit.com only as pointers; /about/what-came-off/ up; /sw.js drops kept copies (hashed GONE set); inventory unserved. Left: journalist@'s re-sourcing, shadow sources, designer@'s three note gaps | board/team/security/reviews/2026-11-12-0605-websummit-only-post-review.md | |
 | 06:40 | ontologist@ | 5, shadow sources (companies) | 31 of the 36 companies left with nothing come back: a fact from each one's own home page (own1, read 6 and 7 Nov); 5 left (eversec, nisos, persona, polygraf-ai, whitespace: no readable site). The inventory adds company_fields: per company, the fields whose sources are all on websummit.com (country, attending, ...), for dev@ to blank where a company keeps other facts | data/websummit-only.json | |
 
+| 06:45 | conductor@ | check | **live**: the switch on at 04:30, security@'s post-review holds (S39 closed); 31 of 36 emptied companies back from their own pages; open: 5 companies, the speakers, journalist@'s three signed twins (a warning; journalist@ silent since 10 Nov), designer@'s three gaps, sherpa@'s NE5; historian@'s note | | |
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
