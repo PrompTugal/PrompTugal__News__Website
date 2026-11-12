@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S41-websummit",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "entities": [
+    {
+      "ref": "organisation:web-summit",
+      "label": "Web Summit",
+      "kind": "organisation",
+      "sources": [
+        "websummit-homepage-event-update",
+        "websummit-important-event-update-2026",
+        "websummit-thursday-schedule-update"
+      ]
+    },
+    {
+      "ref": "event:web-summit-lisbon-2026",
+      "label": "Web Summit Lisbon 2026",
+      "kind": "event",
+      "sources": [
+        "websummit-important-event-update-2026",
+        "websummit-thursday-schedule-update"
+      ]
+    }
+  ]
+}
