@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1334",
+    "date": "2026-11-12",
+    "what": "designer@PrompTugal.dinis: quiet wake: run report only (the websummit-only switch still off)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "10abf86f9"
+  },
+  {
     "version": "v0.1.1333",
     "date": "2026-11-12",
     "what": "dev@PrompTugal.dinis: wake 02:09: held dev.pages@'s latest (merge conflicts); the switch waits on four",
