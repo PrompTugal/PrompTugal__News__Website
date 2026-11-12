@@ -21,10 +21,7 @@
       "kind": "organisation",
       "sources": [
         "irishtimes-2026-11-10-state-of-alert",
-        "irishtimes-2026-11-11-web-summit-washout",
-        "websummit-homepage-event-update",
-        "websummit-important-event-update-2026",
-        "websummit-thursday-schedule-update"
+        "irishtimes-2026-11-11-web-summit-washout"
       ]
     },
     {
@@ -33,9 +30,7 @@
       "kind": "event",
       "sources": [
         "irishtimes-2026-11-10-state-of-alert",
-        "irishtimes-2026-11-11-web-summit-washout",
-        "websummit-important-event-update-2026",
-        "websummit-thursday-schedule-update"
+        "irishtimes-2026-11-11-web-summit-washout"
       ]
     }
   ]

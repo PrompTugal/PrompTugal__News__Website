@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-homepage-event-update",
-  "story": "S41",
+  "story": "S41-websummit",
   "url": "https://websummit.com/",
   "title": "Web Summit, homepage (the 'Important event update' notice)",
   "publisher": "Web Summit",

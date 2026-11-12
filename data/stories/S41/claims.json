@@ -149,63 +149,6 @@
       ]
     },
     {
-      "id": "c13",
-      "text": "Web Summit's statement says Day 2, Wednesday 11 November, will not take place.",
-      "kind": "fact",
-      "source": "websummit-important-event-update-2026",
-      "quote": "Web Summit will of course respect the Government’s direction, and accordingly, Day 2 (Wednesday, November 11th) will not take place.",
-      "read_on": "2026-11-10",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
-      ]
-    },
-    {
-      "id": "c14",
-      "text": "The statement says the Government of Portugal formally advised Web Summit that, because of the risks posed by Storm Charles (tidal flooding, severe disruption to public transport, high winds on external structures), Day 2 should not take place.",
-      "kind": "fact",
-      "source": "websummit-important-event-update-2026",
-      "quote": "The Government of Portugal has formally advised Web Summit that, due to the risks posed by Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures, Day 2 of Web Summit should not take place.",
-      "read_on": "2026-11-10",
-      "about": [
-        "organisation:web-summit"
-      ]
-    },
-    {
-      "id": "c15",
-      "text": "The advice followed discussions with the Portuguese Government, the National Emergency and Civil Protection Authority (ANEPC) and the Public Security Police (PSP), as Web Summit describes it.",
-      "kind": "fact",
-      "source": "websummit-important-event-update-2026",
-      "quote": "This follows discussions with the Portuguese Government, the National Emergency and Civil Protection Authority (ANEPC), and the Public Security Police (PSP).",
-      "read_on": "2026-11-10",
-      "about": [
-        "organisation:web-summit"
-      ]
-    },
-    {
-      "id": "c16",
-      "text": "Web Summit aims to proceed with Day 3, Thursday 12 November, as planned, after Storm Charles has passed.",
-      "kind": "fact",
-      "source": "websummit-important-event-update-2026",
-      "quote": "Web Summit aims to proceed with Day 3 (Thursday, November 12) as planned, following the passing of Storm Charles.",
-      "read_on": "2026-11-10",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
-      ]
-    },
-    {
-      "id": "c17",
-      "text": "At 22:33 UTC on 10 November Web Summit's homepage carries a notice that, on the Portuguese Government's advice, Day 2 will not be going ahead because of severe weather warnings.",
-      "kind": "fact",
-      "source": "websummit-homepage-event-update",
-      "quote": "On the advice of the Portuguese Government, Day 2 of Web Summit will not be going ahead due to severe weather warnings.",
-      "read_on": "2026-11-10",
-      "about": [
-        "organisation:web-summit"
-      ]
-    },
-    {
       "id": "c18",
       "text": "At 22:32 UTC on 10 November IPMA's file still lists the red rain warning (12:00 to 18:00) for Wednesday 11 November, with the red wind and orange sea warnings: unchanged since 18:32. (Superseded for the red rain start: at 00:32 UTC on 11 November IPMA lists red rain from 09:00, not 12:00: see c19 and c20.)",
       "kind": "fact",
@@ -263,30 +206,6 @@
       "read_on": "2026-11-11",
       "about": [
         "organisation:ipma"
-      ]
-    },
-    {
-      "id": "c23",
-      "text": "At 12:32 UTC on 11 November Web Summit's homepage announcement reads: it is officially back on tomorrow (Thursday 12 November) for its final day, its busiest Thursday ever, with more speakers and meetups than ever, including many rescheduled from Wednesday. The 'Important event update' notice that the homepage carried at 10:32 UTC is no longer there.",
-      "kind": "fact",
-      "source": "websummit-homepage-event-update",
-      "quote": "Web Summit is officially back on tomorrow for our final day. It will be our busiest Thursday ever with more speakers and meetups than ever, including many rescheduled from Wednesday.",
-      "read_on": "2026-11-11",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
-      ]
-    },
-    {
-      "id": "c24",
-      "text": "The same announcement tells readers to keep an eye on the schedule later that day for updates.",
-      "kind": "fact",
-      "source": "websummit-homepage-event-update",
-      "quote": "Keep an eye on the schedule later today for updates.",
-      "read_on": "2026-11-11",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
       ]
     },
     {
@@ -419,90 +338,6 @@
       "read_on": "2026-11-11",
       "about": [
         "organisation:ipma"
-      ]
-    },
-    {
-      "id": "c36",
-      "text": "Web Summit says stage content on Thursday 12 November will now start at 9am.",
-      "kind": "fact",
-      "source": "websummit-thursday-schedule-update",
-      "quote": "Stage content will now start at 9am.",
-      "read_on": "2026-11-11",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
-      ]
-    },
-    {
-      "id": "c37",
-      "text": "Stage talks will run to 5.30pm and keep going through lunchtime.",
-      "kind": "fact",
-      "source": "websummit-thursday-schedule-update",
-      "quote": "Stage talks will also run to 5.30pm, and keep going all through lunchtime.",
-      "read_on": "2026-11-11",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
-      ]
-    },
-    {
-      "id": "c38",
-      "text": "Web Summit is rescheduling talks from Wednesday into Thursday, alongside Thursday's previously planned content.",
-      "kind": "fact",
-      "source": "websummit-thursday-schedule-update",
-      "quote": "We’re rescheduling talks from Wednesday into tomorrow – alongside an incredible lineup of Thursday’s previously planned content.",
-      "read_on": "2026-11-11",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
-      ]
-    },
-    {
-      "id": "c39",
-      "text": "Web Summit says more than 100 speakers whose Wednesday talks were cancelled will speak on Thursday.",
-      "kind": "fact",
-      "source": "websummit-thursday-schedule-update",
-      "quote": "That means more than 100 speakers you might have thought you’d missed will be there tomorrow",
-      "read_on": "2026-11-11",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
-      ]
-    },
-    {
-      "id": "c40",
-      "text": "Web Summit has moved 65 community and partner meetups to Thursday, with more than 125 meetups taking place that day.",
-      "kind": "fact",
-      "source": "websummit-thursday-schedule-update",
-      "quote": "We’ve also moved 65 of our community and partner meetups over to Thursday, with more than 125 meetups taking place tomorrow.",
-      "read_on": "2026-11-11",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
-      ]
-    },
-    {
-      "id": "c41",
-      "text": "Web Summit says the new lineup will be reflected in the schedule by Thursday morning (so the schedule read on the evening of 11 November is not yet final).",
-      "kind": "fact",
-      "source": "websummit-thursday-schedule-update",
-      "quote": "The new lineup will be reflected in your schedule by tomorrow morning.",
-      "read_on": "2026-11-11",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
-      ]
-    },
-    {
-      "id": "c42",
-      "text": "On Wednesday 11 November Web Summit added an announcement to the top of its Important event update statement: it is officially back on Thursday for its final day (the page was modified at 14:26 UTC).",
-      "kind": "fact",
-      "source": "websummit-important-event-update-2026",
-      "quote": "Announcement (Wednesday, November 11) Web Summit is officially back on tomorrow – Thursday – for our final day.",
-      "read_on": "2026-11-11",
-      "about": [
-        "organisation:web-summit",
-        "event:web-summit-lisbon-2026"
       ]
     },
     {

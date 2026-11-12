@@ -13,24 +13,11 @@
       ]
     },
     {
-      "ref": "event:web-summit-lisbon-2026",
-      "label": "Web Summit Lisbon 2026",
-      "kind": "event",
-      "sources": [
-        "websummit-2026-10-22-state-of-industry",
-        "websummit-speakers",
-        "websummit-tracks",
-        "websummit-venue-essentials"
-      ]
-    },
-    {
       "ref": "organisation:web-summit",
       "label": "Web Summit",
       "kind": "organisation",
       "sources": [
-        "apexbrasil-mission-rules-2026",
-        "websummit-2026-10-22-state-of-industry",
-        "websummit-how-we-select-startups"
+        "apexbrasil-mission-rules-2026"
       ]
     }
   ]
