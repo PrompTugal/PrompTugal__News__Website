@@ -328,8 +328,8 @@ export function websummitOnly({ files, companies, places, handEvents, handOrgs, 
     const of = dir => Object.entries(files).filter(([k]) => k.startsWith(`data/${dir}/`) && !k.endsWith('/capture.json')).map(([, v]) => v)
     const tally = () => ({ total: 0, websummit_only: 0, other_source: 0, no_source: 0 })
     const add = (t, r) => { t.total++; t[{ websummit: 'websummit_only', other: 'other_source', none: 'no_source' }[r]]++ }
-    const counts = { companies: tally(), company_facts: tally(), company_edges: tally(), company_flows: tally(), company_products: tally(), people: tally(), person_listings: tally(), events: tally(), organisations: tally(), places: tally() }
-    const out = { companies: [], company_items: [], people: [], person_listings: [], events: [], organisations: [], places: [] }
+    const counts = { evidence: tally(), companies: tally(), company_facts: tally(), company_edges: tally(), company_flows: tally(), company_products: tally(), people: tally(), person_listings: tally(), events: tally(), organisations: tally(), places: tally() }
+    const out = { evidence: [], companies: [], company_items: [], people: [], person_listings: [], events: [], organisations: [], places: [] }
     for (const c of [...companies].sort((a, b) => byKey(a.id, b.id))) {
         const url = new Map(c.sources.map(s => [s.id, s.url]))
         const items = [['fact', 'facts', c.facts, x => x.id], ['edge', 'edges', c.edges, x => `${x.verb}>${x.to}`], ['flow', 'flows', c.flows, x => x.id], ['product', 'products', c.products, x => x.id]]
@@ -357,6 +357,10 @@ export function websummitOnly({ files, companies, places, handEvents, handOrgs, 
     for (const o of [...of('organisations'), ...handOrgs].sort((a, b) => byKey(a.id, b.id))) {
         const r = restsOn((o.sources || []).map(s => s.url)); add(counts.organisations, r)
         if (r === 'websummit') out.organisations.push({ organisation: `organisation:${o.id}`, ...(o.derived ? {} : { hand: true }) })
+    }
+    for (const e of Object.entries(files).filter(([k]) => k.endsWith('/capture.json')).map(([, v]) => v).sort((a, b) => byKey(a.id, b.id))) {
+        const r = restsOn([e.source_url].filter(x => typeof x === 'string')); add(counts.evidence, r)
+        if (r === 'websummit') out.evidence.push({ evidence: `evidence:${e.id}` })
     }
     for (const pl of [...places].sort((a, b) => byKey(a.id, b.id))) {
         const r = restsOn([pl.source, ...(pl.sources || []).map(s => s.url || s)].filter(x => typeof x === 'string')); add(counts.places, r)

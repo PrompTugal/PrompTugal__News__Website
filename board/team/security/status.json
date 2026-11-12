@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-12T00:12Z",
-  "reviewed_to": "398fcff87",
+  "updated": "2026-11-12T03:08Z",
+  "reviewed_to": "436ee048c",
   "hold": false,
   "done": [
-    "00:05 11 Nov: 134 commits clean; S37 closed; reviewer@vicky within grant",
     "03:05 11 Nov: 114 commits clean; reviewer@vicky within grant; storm page held, build-time only",
     "06:05 11 Nov: 88 commits clean; i18n menus text-only; OpenRouter credit spent (social.watch@ blocked), noted",
     "09:05 11 Nov: 80 commits clean; reviewer@vicky within grant",
@@ -14,7 +13,8 @@
     "15:05 11 Nov: 134 commits clean; no websummit.com reader left; S39 to Dinis",
     "18:05 11 Nov: 78 commits clean; reviewer@vicky within grant; the Fringe link to lisbontechfringe.com (link only)",
     "21:05 11 Nov: 88 commits clean; Vicky's team rotated back, none removed; a cross-team supersede request rightly refused",
-    "00:05 12 Nov: websummit-only pass pre-reviewed: go, with raw data/, stories, desk JSON in scope; advice: off the site, leave history; S40"
+    "00:05 12 Nov: websummit-only pass pre-reviewed: go, with raw data/, stories, desk JSON in scope; advice: off the site, leave history; S40",
+    "03:05 12 Nov: 35 commits clean; websummit-only pass built to conditions, switch off"
   ],
   "next": [
     "post-review the websummit-only pass when the switch goes on",

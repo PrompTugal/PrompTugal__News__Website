@@ -1,8 +1,8 @@
 {
   "agent": "dev.graphs@PrompTugal.dinis",
   "focus": "The big graphs and animated infographics in ruv.sgit's style; the explorer's next level.",
-  "state": "wake 00:17 (12 Nov): cloud centres no longer names company pages that come off; the websummit-only switch no longer waits on my file",
-  "updated": "2026-11-12T01:10Z",
+  "state": "wake 02:17 (12 Nov): my cloud-centres fix is on dev (4e9ebcd51); the websummit-only switch is dev@'s and conductor@'s to turn on",
+  "updated": "2026-11-12T02:35Z",
   "done": [
     "Session key dev.graphs-promptugal in board/keys.json (public half; tool sha256 matches the pin)",
     "Centres of gravity, round 1: /graph/gravity/ (canvas, companies orbiting wells by field or country, tap for record, Save as PNG, reduced-motion respected), linked from the explorer page",

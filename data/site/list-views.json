@@ -107,6 +107,14 @@
     "people": "People",
     "events": "Sessions and events",
     "organisations": "Organisations",
-    "places": "Places"
+    "places": "Places",
+    "prog_kicker": "Not the full programme",
+    "prog": "The full programme is in Web Summit's own app and at [websummit.com/schedule](https://websummit.com/schedule/). We took off the sessions that rested only on Web Summit's site, which we may not republish.",
+    "empty_kicker": "No one listed, for now",
+    "empty_why": "The speaker list came from Web Summit's site, and its licence does not let us republish it, so all of it was taken off on 11 November.",
+    "empty_still": "What is still here:",
+    "empty_li_1": "People named in our articles and interviews, cited there.",
+    "empty_li_2": "The full list, in [Web Summit's own app and site](https://websummit.com/schedule/).",
+    "empty_back": "A person comes back when we find another public source for them."
   }
 }

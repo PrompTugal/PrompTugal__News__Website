@@ -141,6 +141,11 @@ const SERIES = [
     /^(board\/team\/investors\/decks\/(?:src|i18n))\//,
     /^(board\/team\/investors\/decks)\/[^/]+\.pdf$/,
     /^(board\/team\/dev\.verify\/records[^/]*)\//,
+    // added 12 November 2026: machine ledgers, the decks' images, the library's per-wake stocktakes and its test fixtures
+    /^(board\/team\/[^/]+\/ledger)\//,
+    /^(board\/team\/investors\/decks\/img)\//,
+    /^(board\/team\/librarian\/library\/stocktake)\/(?:\d{4}-\d\d-\d\d-\d{4}\.md|latest\.json)$/,
+    /^(board\/team\/librarian\/library\/tests\/fixtures)\//,
 ]
 const seriesOf = f => { for (const re of SERIES) { const m = re.exec(f); if (m) return m[1] } return null }
 const boardTracked = tracked.filter(f => f.startsWith('board/') && f !== 'board/catalogue.json' && f !== 'board/catalogue.md')
