@@ -1,0 +1,161 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-12T15:40Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis; the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 12 Nov 2026 at 15:37 UTC: researcher's 15:15 run (three new captures, one gap filled).",
+    "inputs": "Agenda frozen (RULES-11NOV rule 7), so no agenda input. No new decisions since the 11:40 run.",
+    "overlap_checked": "12 Nov 15:40: road-2-web-summit-2026 (the programme, says the winner is announced 12 Nov) and road-2-web-summit-beyond-lisbon (lists Humanos among the Madeira startups) exist; neither reports the winners. who-builds-the-parts-of-an-ai-agent describes Humanos from a Web Summit page and says it is from the United States. S60 is published (pagerduty-agents-in-production)."
+  },
+  "rules": "RULES-11NOV applies. The sources are Tek Notícias (press) and Portugal Startup News relaying Sifted (press); no Web Summit page. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-tek-road-2-winner",
+      "file": "vault 41j3e9s9, captures/2026-11-12-tek-road-2-web-summit-winner.md",
+      "source_url": "https://tek.sapo.pt/noticias/negocios/artigos/humanos-e-a-startup-vencedora-do-road-2-web-summit-2026-e-defende-mais-aposta-na-engenharia-e-menos-em-fundadores-pavoes/",
+      "beat": "Portugal",
+      "names": [
+        "Humanos",
+        "eDynamics",
+        "Startup Portugal",
+        "Galp"
+      ],
+      "what_is_new": "Press report of the 11th Road 2 Web Summit results: Humanos won Most Promising Startup (15,000 euros, with Galp), eDynamics Best Performance (5,000 euros); 78 startups took part; Humanos created in 2025 in Madeira.",
+      "is_story": true,
+      "group": "Portugal"
+    },
+    {
+      "id": "v-psn-humanos-seed",
+      "file": "vault 41j3e9s9, captures/2026-11-12-psn-humanos-seed.md",
+      "source_url": "https://portugalstartupnews.com/2026/09/28/humanos-raises-3-2m-to-build-risk-infrastructure-for-ai-agents/",
+      "beat": "Portugal",
+      "names": [
+        "Humanos",
+        "Anthemis",
+        "Sifted"
+      ],
+      "what_is_new": "Humanos raised 3.2 million dollars seed led by Anthemis (a Sifted report relayed); live risk score 0 to 100 and a risk passport for agents; Lisbon-based; Portuguese hospitals use it for patient consent.",
+      "is_story": true,
+      "group": "Portugal"
+    },
+    {
+      "id": "v-itpro-pagerduty-paige",
+      "file": "vault 41j3e9s9, captures/2026-11-12-itpro-pagerduty-paige.md",
+      "source_url": "https://www.itpro.com/business/data-and-insights/this-is-a-massive-change-pagerduty-wants-to-supercharge-incident-response-with-a-new-sre-agent-and-command-center",
+      "beat": "AI and robotics",
+      "names": [
+        "PagerDuty"
+      ],
+      "what_is_new": "Trade-press second source on Paige (interview with a PagerDuty vice president; relays the company's account, no measured results).",
+      "is_story": false,
+      "group": "AI, already published (S60)"
+    }
+  ],
+  "groups": {
+    "Portugal": [
+      "v-tek-road-2-winner",
+      "v-psn-humanos-seed"
+    ],
+    "AI, already published (S60)": [
+      "v-itpro-pagerduty-paige"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "ITPro on PagerDuty's Paige",
+      "verdict": "covered",
+      "why": "S60 is published; the ITPro report is a second source the reviewer or journalist-ai may add in an update. Not a new assignment."
+    }
+  ],
+  "published_check": {
+    "S60": "published (pagerduty-agents-in-production)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "Nothing new for the summit beyond Road 2's results, which sit with Portugal."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new for Europe."
+    },
+    "portugal": {
+      "assignment": "S61",
+      "ready": true,
+      "reader_angle": "Portuguese founders and anyone following the Road 2 prizes: who won, what the winner says it builds, and what is on record about it.",
+      "source_ids": [
+        "v-tek-road-2-winner",
+        "v-psn-humanos-seed"
+      ],
+      "duplicate_check": "Run 12 Nov 15:40: the winners are not reported in any article or draft; the programme article only says the winner would be announced."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "S60 is published; ITPro is an update source only."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme; Humanos's participation is a press report, but its angle is S61."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S61",
+      "kind": "team-desk",
+      "title": "Humanos wins Road 2 Web Summit's top prize, 15,000 euros",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "Startups & Scaleups"
+      ],
+      "angle": "Tek Notícias reports that Humanos won Most Promising Startup at the 11th Road 2 Web Summit (15,000 euros, with Galp's support) and eDynamics won Best Performance (5,000 euros), out of 78 startups. What the press says Humanos builds (a live risk score and a risk passport for AI agents, 3.2 million dollars seed led by Anthemis in September), and what is attributed to the company, not confirmed.",
+      "rests_on": [
+        "v-tek-road-2-winner",
+        "v-psn-humanos-seed"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal. Ready. Conditions: re-read both pages yourself; attribute the figures (350 organisations, hospitals' use) to the press and the company; Humanos is described as Madeira-born and Lisbon-based; our published S29 article says United States from a Web Summit page, so flag that difference rather than repeat it; do not link Humanos to RiskMandate; no Web Summit pages; short and plain."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S61",
+      "what": "Humanos's country: Tek (created 2025 in Madeira) and Portugal Startup News (Lisbon-based) against our published S29 (from the United States, from a Web Summit page). Whether S29 needs a correction is for the reviewer."
+    },
+    {
+      "item": "S61",
+      "what": "The seed round is a Sifted report relayed by Portugal Startup News; Sifted's original is not read."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S60",
+      "change": "Published (pagerduty-agents-in-production); the second-source gap is filled by ITPro."
+    },
+    {
+      "candidate": "Portuguese angle on AI trust",
+      "change": "Held item folded into S61 now that two press reports place Humanos in Portugal."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Humanos's own pages or Sifted's original, and eDynamics's own page (what it does).",
+      "reader_angle": "What the winners say they build.",
+      "sources_wanted": "Company pages, Sifted, Startup Portugal's release.",
+      "why_not_a_duplicate": "Only press relays are captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "Diario de Noticias' own Discord article (still open).",
+      "reader_angle": "Local press voice on S59.",
+      "sources_wanted": "DN, Lusa.",
+      "why_not_a_duplicate": "S59 rests on Discord and AICEP."
+    }
+  ],
+  "urgent": "None"
+}
