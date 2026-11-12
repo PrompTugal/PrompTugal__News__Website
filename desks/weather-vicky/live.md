@@ -118,6 +118,8 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 11 Nov 23:36: checked 23:36 UTC (IPMA file modified 22:15, cache bypassed), no change: Lisbon only a yellow sea warning to Thursday 03:00; the government's alert ends at 23:59, no extension on its page. Reported to conductor.B.
+- 11 Nov 22:36: checked 22:36 UTC (IPMA file modified 21:15, cache bypassed), no change: Lisbon only a yellow sea warning to Thursday 03:00. Reported to conductor.B.
 - 11 Nov 21:36 (hourly check): [ANEPC](https://prociv.gov.pt/pt/noticias/), "Ponto de Situação - 18h00": to 18:00, 1,630 non-significant incidents (881 floods, 312 road clearances, 203 fallen trees, 133 fallen structures, 100 landslips, 1 land rescue); Grande Lisboa, Península de Setúbal and the Algarve most affected; 6,669 operatives with 2,046 land vehicles; 34 municipal and 2 district emergency plans active. IPMA (file modified 20:15, cache bypassed): Lisbon sea warning yellow to Thursday 03:00 (orange ended 21:00). The government's alert to 23:59. Reported to conductor.B.
 - 11 Nov 20:36: checked 20:36 UTC, no material change (Lisbon sea warning only, orange to 21:00 then yellow to Thursday 03:00). [Fertagus](https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico), 20:00: "Face à estabilização das condições meteorológicas, não se prevê a ocorrência de constrangimentos relevantes na circulação ferroviária até ao final da exploração comercial de hoje." Reported to conductor.B.
 - 11 Nov 19:37: checked 19:37 UTC (IPMA file modified 19:15, cache bypassed), no change since 18:37. Reported to conductor.B.

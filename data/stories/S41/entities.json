@@ -9,8 +9,9 @@
       "label": "IPMA",
       "kind": "organisation",
       "sources": [
+        "ipma-lisbon-daily-forecast",
         "ipma-warnings-open-data",
-        "ipma-lisbon-daily-forecast"
+        "irishtimes-2026-11-10-state-of-alert"
       ],
       "note": "Portugal's weather institute (Instituto Portugues do Mar e da Atmosfera)"
     },
@@ -19,6 +20,8 @@
       "label": "Web Summit",
       "kind": "organisation",
       "sources": [
+        "irishtimes-2026-11-10-state-of-alert",
+        "irishtimes-2026-11-11-web-summit-washout",
         "websummit-homepage-event-update",
         "websummit-important-event-update-2026",
         "websummit-thursday-schedule-update"
@@ -29,6 +32,8 @@
       "label": "Web Summit Lisbon 2026",
       "kind": "event",
       "sources": [
+        "irishtimes-2026-11-10-state-of-alert",
+        "irishtimes-2026-11-11-web-summit-washout",
         "websummit-important-event-update-2026",
         "websummit-thursday-schedule-update"
       ]

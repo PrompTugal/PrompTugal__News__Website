@@ -1,11 +1,11 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-11T20:48Z",
+  "updated": "2026-11-11T22:58Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "thursday-last-day-guide",
-    "why": "S58, Thursday's practical guide to the last day, leads at Vicky's word (standing answer 47 on the team site, 11 Nov about 21:20 UTC): Dinis decided the Web Summit takedown, and S58 leads before S54 comes down. Set by dev@PrompTugal.vicky, 11 Nov 2026."
+    "why": "S58, Thursday's practical guide to the last day, leads at Vicky's word (standing answer 47 on the team site, 11 Nov about 21:20 UTC): Dinis decided the Web Summit takedown, and S58 leads before S54 comes down. Set by dev@PrompTugal.vicky, 11 Nov 2026. Kept by correspondent@ at 22:58 UTC: the right lead for the final day (what changed, weather, transport, each from its own source); the breakout startups (S54) come down in the websummit-only takedown (board/passes/2026-11-11-only-websummit-sourced-comes-off.md)."
   },
   "top": [
     {
@@ -477,5 +477,9 @@
       "last_checked": "2026-11-11T18:33Z",
       "live": null
     }
+  },
+  "takedown_note": {
+    "about": "The websummit-only pass (Dinis, 11 November, about 18:50 UTC): my step is the front page and its bands. When dev@'s switch (newsroom/build/websummit-only.json) goes on, the build drops websummit-only items; slugs in this file that are withdrawn are skipped by the build, and I re-pick the day picks (session data from websummit.com) from what remains or its shadow sources.",
+    "checked": "2026-11-11T22:56Z: every article slug in this file is still published"
   }
 }

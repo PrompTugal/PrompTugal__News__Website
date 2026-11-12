@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART on account B: nine agents on (dev@, dev.pages@, designer@, ontologist@, dev.graphs@, dev.data@, correspondent@, sherpa@, librarian@); conductor.b@ hourly at :48",
- "updated": "2026-11-11T21:56Z",
+ "updated": "2026-11-11T23:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -128,11 +128,12 @@
   "18:48 wake: ledger 1508.1; Thursday's edition in",
   "19:48 wake: account B running; Vicky's agents moved to her team account",
   "20:48 wake: the lead moved to Thursday; a quiet hour",
-  "21:48 wake: Dinis's websummit-only ruling and pass read; ontologist@ (inventory) and dev@ (removal and note) pointed at it; ledger 1546.68"
+  "21:48 wake: Dinis's websummit-only ruling and pass read; ontologist@ (inventory) and dev@ (removal and note) pointed at it; ledger 1546.68",
+  "22:48 wake: the websummit-only pass's account-B steps ready (inventory, gate, note), waiting on security@'s pre-review; the 11 Nov debrief",
+  "23:48 wake: dev@'s websummit-only filter built, switch off; waits on security@"
  ],
  "next": [
-  "22:48 wake: the pass's progress on account B",
-  "before midnight: the 11 November debrief"
+  "00:48 wake with the ledger"
  ],
  "asks": [
   "Dinis: your 17:11 baseline (conductor, security, developer per team): account B now has its conductor and developer; its security agent is security@ on account A, which reviews this repository's commits; say if account B needs its own",
@@ -153,7 +154,7 @@
   "Dinis: dev.pages@ asks whether workers now push to dev (your 14:05 'everybody pushes to dev') or keep to work/<worker> with dev@ reviewing (CLAUDE.md, its wake prompt); I keep the workers on their branches until you say",
   "Dinis (or an org admin): a redirect from fringe.promptugal.news (404 since 12:57) to lisbontechfringe.com, for anyone holding the old link"
  ],
- "debrief": "board/team/conductor.b/debriefs/2026-11-10-handover.md",
+ "debrief": "board/team/conductor.b/debriefs/2026-11-11-handover.md",
  "incidents": [
   {
    "at": "2026-11-06T22:20Z",
