@@ -5,7 +5,7 @@
   "title": "What PagerDuty says it learned running AI agents in production",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-pagerduty-production-agents",
     "evidence:v-pagerduty-paige-sre-agent"
@@ -17,7 +17,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-12-1140.json",
-      "desks/journalist-vicky/drafts/s60-pagerduty-agents-in-production.md"
+      "desks/journalist-vicky/drafts/s60-pagerduty-agents-in-production.md",
+      "desks/reviewer-vicky/reviews/S60.md",
+      "content/articles/pagerduty-agents-in-production.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -25,9 +27,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s60-pagerduty-agents-in-production.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S60.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-12"
+    }
+  ],
+  "article": {
+    "path": "content/articles/pagerduty-agents-in-production.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -40,6 +53,18 @@
       "at": "2026-11-12",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/s60-pagerduty-agents-in-production.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-12",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S60.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-12",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/pagerduty-agents-in-production.md"
     }
   ]
 }
