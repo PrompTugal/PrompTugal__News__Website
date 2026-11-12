@@ -1,0 +1,186 @@
+{
+ "about": "Shadow sources for data/stories/S29 (who builds an AI agent's parts), read from the companies' own sites on 12 November 2026, not from websummit.com. STAGED here, not yet merged into data/stories/S29/, because the build treats S29 as entirely websummit-only (board/team/dev.data/findings/2026-11-11-websummit-only-in-story-folders.json) and keeps the whole folder out; adding these claims to the folder would change that classification before the build filters claims one by one. Merge them (sources into sources/, claims renumbered after c16) once dev@ confirms claim-level filtering. Not covered: Polygraf AI, whose site is behind a bot challenge (not read around), and the article's exact phrases (the own-site wording differs, noted in each claim).",
+ "sources": [
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "mastra-own-site",
+   "story": "S29",
+   "url": "https://mastra.ai/",
+   "title": "Mastra, home page (the company's own site)",
+   "publisher": "Mastra",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "Mastra's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  },
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "keewano-own-site",
+   "story": "S29",
+   "url": "https://www.keewano.com/",
+   "title": "Keewano | The Database for Machine Reasoning at Scale (the company's own site)",
+   "publisher": "Keewano",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "Keewano's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  },
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "acrab-own-site",
+   "story": "S29",
+   "url": "https://acrab.ai/",
+   "title": "Acrab (the company's own site)",
+   "publisher": "Acrab AI",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "Acrab AI's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  },
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "humanos-own-site",
+   "story": "S29",
+   "url": "https://www.humanos.tech/",
+   "title": "Humanos | The Risk Network for AI (the company's own site)",
+   "publisher": "Humanos",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "Humanos's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  },
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "getvocal-own-site",
+   "story": "S29",
+   "url": "https://www.getvocal.ai/",
+   "title": "Governed AI agents for enterprise CX | GetVocal (the company's own site)",
+   "publisher": "GetVocal AI",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "GetVocal AI's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  },
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "beyondpresence-own-site",
+   "story": "S29",
+   "url": "https://www.beyondpresence.ai/",
+   "title": "Real-Time AI Avatars for Enterprise | Beyond Presence (the company's own site)",
+   "publisher": "Beyond Presence",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "Beyond Presence's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  },
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "cnext-own-site",
+   "story": "S29",
+   "url": "https://cnext.eu/",
+   "title": "Cnext (the company's own site)",
+   "publisher": "Cnext",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "Cnext's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  }
+ ],
+ "claims": [
+  {
+   "id": "s01",
+   "text": "Mastra's own site says its core framework is open source under the Apache 2.0 licence (the Web Summit page calls it an open source TypeScript framework; the home page title is 'TypeScript AI Framework for Agents and Apps').",
+   "kind": "fact",
+   "source": "mastra-own-site",
+   "quote": "Mastra's core framework is open source under the Apache 2.0 license.",
+   "read_on": "2026-11-12",
+   "about": [
+    "company:mastra"
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "Keewano's own site describes KeewanoDB as the database for machine reasoning over complete event sequences (it says 'machine reasoning'; the Web Summit page says 'for AI agents').",
+   "kind": "fact",
+   "source": "keewano-own-site",
+   "quote": "KeewanoDB The database for machine reasoning over complete event sequences.",
+   "read_on": "2026-11-12",
+   "about": [
+    "company:keewano"
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "Acrab's own site gives its vision as defining the infrastructure for agentic AI compute.",
+   "kind": "fact",
+   "source": "acrab-own-site",
+   "quote": "Defining the Infrastructure for Agentic AI Compute",
+   "read_on": "2026-11-12",
+   "about": [
+    "local:acrab-ai"
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "Humanos's own site says every AI agent builds a continuously evolving risk profile from its identity, authority, controls and runtime activity (it speaks of a Risk Score; the term 'Risk Passport' is not on the home page).",
+   "kind": "fact",
+   "source": "humanos-own-site",
+   "quote": "Every AI agent builds a continuously evolving risk profile from its identity, authority, controls and runtime activity.",
+   "read_on": "2026-11-12",
+   "about": [
+    "local:humanos"
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "GetVocal's own site describes its control layer as air-traffic control for an AI fleet: monitor live, enforce policies, override any agent and audit every decision.",
+   "kind": "fact",
+   "source": "getvocal-own-site",
+   "quote": "Air-traffic control for your AI fleet: monitor live, enforce policies, override any agent and audit every decision.",
+   "read_on": "2026-11-12",
+   "about": [
+    "company:getvocal-ai"
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "Beyond Presence's own site is titled 'Real-Time AI Avatars for Enterprise'; the home page does not describe agents in the sense of the article.",
+   "kind": "fact",
+   "source": "beyondpresence-own-site",
+   "quote": "Real-Time AI Avatars for Enterprise",
+   "read_on": "2026-11-12",
+   "about": [
+    "local:beyond-presence"
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "Cnext's own site says it helps businesses in regulated industries build and implement agentic AI in their processes.",
+   "kind": "fact",
+   "source": "cnext-own-site",
+   "quote": "Cnext helps businesses in regulated industries build and implement agentic AI in their processes.",
+   "read_on": "2026-11-12",
+   "about": [
+    "company:cnext"
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "Cnext's own site says it all runs on Kairos, its own engine.",
+   "kind": "fact",
+   "source": "cnext-own-site",
+   "quote": "it all runs on Kairos, our own engine",
+   "read_on": "2026-11-12",
+   "about": [
+    "company:cnext"
+   ]
+  }
+ ]
+}
