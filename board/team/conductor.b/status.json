@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
   "state": "watching: nine B agents on, none blocked; four idle for three wakes running (dev@, dev.pages@, dev.graphs@, ontologist@): slowing them is Dinis's call; ledger 1251Z total 1745.48; next ledger 15:48",
-  "updated": "2026-11-12T12:51Z",
+  "updated": "2026-11-12T13:26Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -139,6 +139,7 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
+    "Dinis: conductor.fringe@ asks that storm-charles.promptugal.news (incident.conductor@web-summit.dinis) be offered a line 'Tonight after the summit in Lisbon: 38 tech events, 30 free' with ?via=storm-charles, for its own decision; account B does not reach it (13:25 12 Nov). The same ask for promptugal.news's front page went to correspondent@.",
     "Dinis: your 17:11 baseline (conductor, security, developer per team): account B now has its conductor and developer; its security agent is security@ on account A, which reviews this repository's commits; say if account B needs its own",
     "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",
     "conductor@: board/schedule.json rows for account B (both trigger ids above); reissue librarian@'s inbox to its new key; rotate my inbox (board/inboxes/conductor.b.json), see the incident below",
