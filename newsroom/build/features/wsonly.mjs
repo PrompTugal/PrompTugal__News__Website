@@ -26,21 +26,30 @@ export function decorate(p, ctx) {
 // a raw file under data/ or desks/ the deploy still copies may not be one of theirs.
 import { wsSwitch, wsInventory } from '../lib/wsonly.mjs'
 import { execFileSync } from 'node:child_process'
-export function validate(gate) {
-    const i = wsInventory(); if (!wsSwitch().on || !i) return []
-    const out = [], strip = r => String(r).replace(/^[a-z]+:/, '')
+let SCAN = null
+export const validate = gate => scan(gate).out
+export const warn = gate => scan(gate).warns
+function scan(gate) {
+    if (SCAN) return SCAN
+    const i = wsInventory(); if (!wsSwitch().on || !i) return (SCAN = { out: [], warns: [] })
+    const out = [], warns = [], strip = r => String(r).replace(/^[a-z]+:/, '')
     const G = { person: new Set(i.people.map(x => strip(x.person))), event: new Set(i.events.map(x => strip(x.event))), organisation: new Set(i.organisations.map(x => strip(x.organisation))), place: new Set(i.places.map(x => strip(x.place))), company: new Set(i.companies.filter(c => c.left_with_nothing).map(c => strip(c.company))), evidence: new Set([...evGone(gate), ...(i.evidence || []).map(x => strip(x.evidence))]) }
     const DIR = { people: 'person', events: 'event', organisations: 'organisation', places: 'place', companies: 'company', evidence: 'evidence' }
     const drop = new Set(gate.text('api/v1/deploy-exclude.txt').split('\n').filter(Boolean).map(l => l.slice(1)))
     const hit = t => { for (const m of t.matchAll(/\b(person|event|organisation|place|company|evidence):([a-z0-9-]+)/g)) if (G[m[1]].has(m[2])) return m[0]
         for (const m of t.matchAll(/(?<=^|["'(\s=]|\.\.\/|promptugal\.news\/)\/?(people|events|organisations|places|companies|evidence)\/([a-z0-9-]+)\//gm)) if (G[DIR[m[1]]].has(m[2])) return m[0]
         return null }
-    for (const f of gate.generated) { if (!/\.(html|md|json|txt|xml)$/.test(f) || drop.has(f)) continue
-        const h = hit(gate.text(f)); if (h) out.push(`${f}: serves ${h}, which rests only on websummit.com (the pass 2026-11-11-only-websummit-sourced-comes-off)`) }
+    // the newsroom's dashboard quotes the agents' own status lines (a ref named in a sentence, not a fact republished)
+    const QUOTES = /^(newsroom\/dashboard\/|api\/v1\/newsroom\/(dashboard|live-details)\.json$)/
+    for (const f of gate.generated) { if (!/\.(html|md|json|txt|xml)$/.test(f) || drop.has(f) || QUOTES.test(f)) continue
+        const h = hit(gate.text(f)); if (!h) continue
+        // a signed article's twin is the article as signed: its links are the pass's step 4 (journalist@), named here, not failed
+        if (/^articles\/[^/]+\.md$/.test(f)) warns.push(`${f}: links ${h}, which came off; journalist@ to re-source or take out and sign again (step 4)`)
+        else out.push(`${f}: serves ${h}, which rests only on websummit.com (the pass 2026-11-11-only-websummit-sourced-comes-off)`) }
     for (const f of execFileSync('git', ['ls-files', 'data/', 'desks/'], { cwd: gate.ROOT }).toString().split('\n')) {
         const m = f.match(/^data\/(people|events|organisations|places|companies|evidence)\/([^/]+)\//)
         if (m && G[DIR[m[1]]].has(m[2]) && !drop.has(f)) out.push(`${f}: served raw, and it rests only on websummit.com`) }
-    return out
+    return (SCAN = { out, warns })
 }
 // the evidence captures whose source is websummit.com (lib/wsonly.mjs wsApply takes them by the host rule)
 import fs from 'node:fs'
