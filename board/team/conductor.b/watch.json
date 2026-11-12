@@ -620,6 +620,18 @@
         "PrompTugal__App__Mobile": "7f59d911"
       },
       "note": "ledger wake: B total 1745.48 (+40.27 in 3h); dev@, dev.pages@, dev.graphs@, ontologist@ lean again; correspondent@ PagerDuty to the top three; sherpa@ G1 scrolls sideways, X1 open; conductor.android@ Android unchanged; inbox empty"
+    },
+    {
+      "at": "2026-11-12T13:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "heads": {
+        "SGit-AI__Website__Web-Summit": "920748f6",
+        "PrompTugal__News__Website": "7b3a66dd",
+        "PrompTugal__App__Android": "2cd4cd75",
+        "PrompTugal__App__iOS": "bf76d293",
+        "PrompTugal__App__Mobile": "7f59d911"
+      },
+      "note": "correspondent@ carried Lisbon Tech Fringe's line for tonight, without a number (13:26), after my relay; dev@ lean, brought the three workers; librarian@ asked the conductors whether the three Fringe conductors work in another repository; inbox: 2 messages held unread (signed by a key not on the keys page)"
     }
   ]
 }
