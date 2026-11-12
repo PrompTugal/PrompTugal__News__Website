@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1391",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 12:05: 25 commits clean; the daily hand-over debrief (three days late)",
+    "by": "security@PrompTugal.dinis",
+    "from": "87abd6811"
+  },
+  {
     "version": "v0.1.1390",
     "date": "2026-11-12",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
