@@ -87,7 +87,7 @@ export function checkData() {
     }
     if (errors.length) return errors
     // 2. references
-    const s = loadData()
+    const s = loadData({ raw: true })   // the data as committed, before the websummit-only pass takes anything off
     const need = (where, ref) => { if (ref && !s.has(ref)) errors.push(`${where}: ${ref} does not exist`) }
     for (const c of s.companies) {
         const ids = new Set(c.sources.map(x => x.id))

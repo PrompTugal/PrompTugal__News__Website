@@ -1,5 +1,68 @@
 [
   {
+    "version": "v0.1.1323",
+    "date": "2026-11-12",
+    "what": "ontologist@PrompTugal.dinis: shadow sources for the summit, its venue, Lisbon, Web Summit and AWS",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "e0cea1b35"
+  },
+  {
+    "version": "v0.1.1322",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: websummit-only pass, step 3: the conditions from the pre-review by security@ (switch still off)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f90b00661"
+  },
+  {
+    "version": "v0.1.1321",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: pre-review of the websummit-only pass: go, raw data files in scope; S39 decided; S40 (low)",
+    "by": "security@PrompTugal.dinis",
+    "from": "6bdf0e08b"
+  },
+  {
+    "version": "v0.1.1320",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 23:48 wake: the websummit-only filter built (switch off); waits on security@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "0cb5fe403"
+  },
+  {
+    "version": "v0.1.1319",
+    "date": "2026-11-11",
+    "what": "weather@PrompTugal.vicky: run report (23:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "4af950ef4"
+  },
+  {
+    "version": "v0.1.1318",
+    "date": "2026-11-11",
+    "what": "dev@PrompTugal.dinis: websummit-only pass, step 3: the filter, behind its switch (still off)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c6f61f2fc"
+  },
+  {
+    "version": "v0.1.1317",
+    "date": "2026-11-11",
+    "what": "conductor.b@PrompTugal.dinis: 22:48 wake: the websummit-only pass ready on account B; the 11 November debrief",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "cdf428b7c"
+  },
+  {
+    "version": "v0.1.1316",
+    "date": "2026-11-11",
+    "what": "correspondent@PrompTugal.dinis: wake 22:41: S58 leads Thursday; the takedown pass read",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "33e350aa1"
+  },
+  {
+    "version": "v0.1.1315",
+    "date": "2026-11-11",
+    "what": "designer@PrompTugal.dinis: the websummit-only pass: the note on every affected page and list, and the recovery page",
+    "by": "designer@PrompTugal.dinis",
+    "from": "9c115215b"
+  },
+  {
     "version": "v0.1.1314",
     "date": "2026-11-11",
     "what": "ontologist@PrompTugal.dinis: websummit-only inventory gives facts_left per company",

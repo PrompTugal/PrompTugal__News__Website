@@ -14,6 +14,7 @@ import { loadData } from './lib/data.mjs'
 import { loadFeatures } from './lib/features.mjs'
 import { buildGraph } from './lib/graph.mjs'
 import { htmlPage, twinPage, twinOf } from './lib/shell.mjs'
+import { unlinkMd } from './features/wsonly.mjs'
 import { rawPage } from './lib/raw.mjs'
 import { write, json, llmsTxt, finish, written } from './lib/writers.mjs'
 import { sitemapXml, newsSitemapXml, rssXml, robotsTxt } from './lib/seo.mjs'
@@ -68,6 +69,9 @@ for (const p of pages) p.md = p.md.replace(/<!-- ([a-z0-9:-]+) -->/g, (m, name) 
     if (!fills[name]) throw new Error(`${p.src || p.rel}: no feature fills the marker ${m}`)
     return fills[name](p, ctx)
 })
+
+// 4b. the websummit-only pass (features/wsonly.mjs): with its switch on, a link to a page that came off is plain text
+if (ctx.store.wsGone) for (const p of pages.filter(p => !p.rel.startsWith("articles/"))) { p.md = unlinkMd(p.md, p.rel, ctx.store.wsGone); const d = Object.getOwnPropertyDescriptor(p, "twinMd"); if (p.twinMd && (!d || d.writable)) p.twinMd = unlinkMd(p.twinMd, p.rel, ctx.store.wsGone) }
 
 // 5. write every page and its twin
 const site = {

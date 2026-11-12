@@ -51,20 +51,20 @@
     },
     "events": {
       "total": 248,
-      "websummit_only": 215,
-      "other_source": 33,
+      "websummit_only": 214,
+      "other_source": 34,
       "no_source": 0
     },
     "organisations": {
       "total": 269,
-      "websummit_only": 184,
-      "other_source": 85,
+      "websummit_only": 182,
+      "other_source": 87,
       "no_source": 0
     },
     "places": {
       "total": 85,
-      "websummit_only": 45,
-      "other_source": 40,
+      "websummit_only": 43,
+      "other_source": 42,
       "no_source": 0
     }
   },
@@ -6917,11 +6917,6 @@
       "kind": "session"
     },
     {
-      "event": "event:web-summit-lisbon-2026",
-      "kind": "summit",
-      "hand": true
-    },
-    {
       "event": "event:welcome-to-tomorrow",
       "kind": "night-summit"
     },
@@ -7059,10 +7054,6 @@
     },
     {
       "organisation": "organisation:atlassian-williams-f1-team"
-    },
-    {
-      "organisation": "organisation:aws",
-      "hand": true
     },
     {
       "organisation": "organisation:axios"
@@ -7550,10 +7541,6 @@
       "organisation": "organisation:washington-post"
     },
     {
-      "organisation": "organisation:web-summit",
-      "hand": true
-    },
-    {
       "organisation": "organisation:wired"
     },
     {
@@ -7604,9 +7591,6 @@
       "place": "place:idb-rooftop-by-mirari"
     },
     {
-      "place": "place:lisbon"
-    },
-    {
       "place": "place:masterclass-1"
     },
     {
@@ -7635,9 +7619,6 @@
     },
     {
       "place": "place:meetup-6"
-    },
-    {
-      "place": "place:meo-arena-and-fil"
     },
     {
       "place": "place:olissippo"

@@ -120,7 +120,7 @@ function explorerMd(ctx) {
         `| \`view\` | \`whole\`, \`industry\`, \`summit\`, \`people\`, \`companies/replit\`, \`events/<slug>\`, \`people/<slug>\` | the universe: a view of the whole graph from [/api/v1/graph/](${ctx.link(REL, 'api/index.html')}) |\n` +
         `| \`focus\`, \`depth\` | \`company:replit\`, \`2\` | the node to explore from and how many hops (\`max\` for all) |\n` +
         `| \`anchors\` | \`company:replit,company:cloudflare\` | pinned start nodes |\n` +
-        `| \`expand\` | \`person:michele-catasta\` | nodes expanded by one hop |\n` +
+        `| \`expand\` | \`company:1password\` | nodes expanded by one hop |\n` +
         `| \`path\` | \`company:replit~company:cloudflare\` | the paths between two nodes |\n` +
         `| \`top\`, \`by\`, \`what\` | \`60\`, \`betweenness\`, \`edges\` | the top N nodes (or edges) by a ranking |\n` +
         `| \`worlds\`, \`types\`, \`verbs\` | \`industry,people\`, \`company,person\`, \`speaks_at\` | what to show (default: all) |\n` +

@@ -862,6 +862,16 @@
       "PrompTugal__App__iOS": "030aa1d4",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android: no change (main 67bb936). iOS moved (eb113986 to 030aa1d4): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-12T00:32Z",
+      "SGit-AI__Website__Web-Summit": "a185596d",
+      "PrompTugal__News__Website": "f90b0066",
+      "PrompTugal__App__Android": "5badadaa",
+      "PrompTugal__App__iOS": "bf76d293",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android moved (653320a to 5badada): X-Ray feature by Angelo's agents, CI 166 green; sent to security.android; main 67bb936 unchanged. iOS moved (030aa1d4 to bf76d293): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
     }
   ]
 }
