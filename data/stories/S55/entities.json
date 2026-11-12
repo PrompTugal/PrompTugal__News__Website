@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S55",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-12",
+  "entities": [
+    {
+      "ref": "organisation:tiktok",
+      "label": "TikTok",
+      "kind": "organisation",
+      "sources": [
+        "ec-digital-strategy-tiktok-dsa-2026-11-06"
+      ]
+    },
+    {
+      "ref": "company:european-commission",
+      "label": "European Commission",
+      "kind": "organisation",
+      "sources": [
+        "ec-digital-strategy-tiktok-dsa-2026-11-06"
+      ]
+    }
+  ]
+}

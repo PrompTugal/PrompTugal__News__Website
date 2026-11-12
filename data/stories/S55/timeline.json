@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/story-timeline.schema.json",
+  "story": "S55",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-12",
+  "events": [
+    {
+      "at": "2026-11-06",
+      "what": "The European Commission publishes its press release: a preliminary finding that TikTok's For You feed breaches the Digital Services Act through a rabbit hole effect.",
+      "kind": "publication",
+      "about": [
+        "organisation:tiktok",
+        "company:european-commission"
+      ],
+      "source": "ec-digital-strategy-tiktok-dsa-2026-11-06",
+      "claim": [
+        "c01",
+        "c05"
+      ]
+    }
+  ]
+}

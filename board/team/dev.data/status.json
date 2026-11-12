@@ -2,7 +2,7 @@
   "agent": "dev.data@PrompTugal.dinis",
   "focus": "Articles and companies as data folders; past summits; media in vaults.",
   "state": "running on account B (session 2d7ed5e8), every two hours at :31 UTC, back on from 9 Nov at Dinis's word (board/guidance/2026-11-09-the-summit-set.md); past summits and S9 in progress",
-  "updated": "2026-11-12T12:34Z",
+  "updated": "2026-11-12T14:35Z",
   "done": [
     "Wake 16:31 (11 Nov): merged dev cleanly, no hold. IPMA REISSUED the Lisbon warnings at 15:06 UTC (seen at 16:32): NO RED WARNING REMAINS; rain yellow 15:06 to 18:00, wind orange 15:06 to 18:00 (gusts up to 90 km/h, 110 in exposed places), sea orange 15:06 to 21:00. S41: claims c30 to c32 with the exact IPMA objects, c26 to c29 marked superseded, a timeline event; told weather-vicky, correspondent and conductor.B.vicky. Web Summit's homepage still announces it is back on Thursday; S35's four pages re-read at 16:33: still the same 23 sessions, nothing rescheduled. Gate OK (v0.1.1268)",
     "Wake 18:31 (11 Nov): merged dev cleanly, no hold. IPMA reissued the Lisbon warnings at 15:56 UTC (seen at 18:32): the WIND warning is gone, rain yellow until 18:00, sea orange until 21:00 (the only orange left); no red. S41: claims c33 and c34 (I dropped a claim that tried to quote an absence; the absence is in the timeline event and source note), c30 to c32 superseded, timeline event. Web Summit's homepage unchanged (back on Thursday). S35's four pages at 18:33: 'Campus Tejo' (Wed 14:30) gone; 'Open or Closed AI models' appears twice with the same id (page 2 Wed 12:30, page 3 Thu 10:00), so the listing disagrees with itself: I first called this a move and corrected it before committing; 22 distinct sessions (23 entries). Told weather-vicky, correspondent, conductor.B.vicky and journalist-vicky-b. Gate OK (v0.1.1284)",
@@ -14,11 +14,13 @@
     "12 Nov 06:31 wake: staged S30 shadow sources (board/team/dev.data/shadow/S30.shadow.json): 4 company sites (AURIMOD, Mobile Brain, Nice Deer, Spryt), 4 claims with quotes asserted against the fetched pages; 7 of 11 companies not covered (reasons in the file). Not merged. No websummit.com reads.",
     "12 Nov 08:31 wake: the websummit-only switch is on and the gate is green. S5 gained news/official shadow sources (HaDEA listing, Startups.com.br: dates, venue, ~70,000 expected, 2025 figures; claims c17-c20). S29 and S30 now each split: public folder holds the shadow claims (S29: 8 claims from 7 company sites; S30: 4 from 4), the websummit-only material moved whole to S29-websummit and S30-websummit. Inventory: 23 folders, 7 wholly websummit. No websummit.com reads.",
     "12 Nov 10:31 wake: S41 storm record: IPMA's open data (read 10:32 UTC) shows every Lisbon-district warning green from 06:35 UTC to 15 Nov, wind included; claim c52 and a timeline event added (public sources only). Gate green. No websummit.com reads.",
-    "12 Nov 12:31 wake: new data folder S59 (Discord's Lisbon engineering hub): 4 public sources (Observador, Tek Notícias, DN, Discord's own job posting), 10 claims with quotes asserted against the fetched pages. No websummit.com reads. Gate green."
+    "12 Nov 12:31 wake: new data folder S59 (Discord's Lisbon engineering hub): 4 public sources (Observador, Tek Notícias, DN, Discord's own job posting), 10 claims with quotes asserted against the fetched pages. No websummit.com reads. Gate green.",
+    "12 Nov 14:31 wake: new data folder S55 (the Commission's preliminary finding on TikTok's For You feed): 1 official source (the Commission's digital-strategy page, 6 Nov release summary), 5 claims with quotes asserted, 1 timeline event. The full press release IP/26/2361 is script-rendered and was not read; the article's remaining claims (examples, next steps, 6% fine) rest on it, so they are not in the folder yet. No websummit.com reads. Gate green."
   ],
   "next": [
-    "More published stories with only a story.json whose sources are not websummit.com (S60, S58, S57 ...: check each article's source list)",
-    "S5-websummit c03-c14 shadow (press on the State of the Industry survey)",
+    "S55: the press release's other claims if a readable copy turns up",
+    "More published stories with only story.json (S56 Digital Fairness Act, S60 PagerDuty, S58 Thursday guide: check sources)",
+    "S5-websummit c03-c14 shadow",
     "Interview-transcript folders when pages exist",
     "Storm record from IPMA/news only"
   ],

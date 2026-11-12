@@ -1,0 +1,68 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S55",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-12",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "On 6 November 2026 the European Commission published a press release saying it has preliminarily found TikTok in breach of the Digital Services Act over the 'rabbit hole effect' of its recommender system.",
+      "kind": "fact",
+      "source": "ec-digital-strategy-tiktok-dsa-2026-11-06",
+      "quote": "Publication 06 November 2026 The European Commission has preliminarily found TikTok in breach of the Digital Services Act (DSA) for the so-called ‘rabbit hole effect’ of its recommender system.",
+      "read_on": "2026-11-12",
+      "about": [
+        "organisation:tiktok",
+        "company:european-commission"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "The Commission says the For You feed shows a continuous stream of personalised videos, even when they relate to mental health struggles and body image.",
+      "kind": "fact",
+      "source": "ec-digital-strategy-tiktok-dsa-2026-11-06",
+      "quote": "TikTok's ‘For You' feed shows users a continuous stream of personalised videos, even when those are related to mental health struggles and body image.",
+      "read_on": "2026-11-12",
+      "about": [
+        "organisation:tiktok",
+        "company:european-commission"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "The Commission says the more a user interacts with a type of content, the more the For You algorithm recommends similar content.",
+      "kind": "fact",
+      "source": "ec-digital-strategy-tiktok-dsa-2026-11-06",
+      "quote": "The more a user interacts with a certain type of content, the more TikTok's ‘For You' feed algorithm recommends similar content.",
+      "read_on": "2026-11-12",
+      "about": [
+        "organisation:tiktok",
+        "company:european-commission"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "The Commission says endless and repeated exposure, for example to content about sadness, isolation or body image, can have a detrimental impact on mental health, especially for vulnerable adults and minors.",
+      "kind": "fact",
+      "source": "ec-digital-strategy-tiktok-dsa-2026-11-06",
+      "quote": "These ‘rabbit holes' can have a detrimental impact on users' mental health, especially that of vulnerable adults and minors.",
+      "read_on": "2026-11-12",
+      "about": [
+        "organisation:tiktok",
+        "company:european-commission"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "The Commission says the preliminary findings focus on both risk assessment and mitigation measures.",
+      "kind": "fact",
+      "source": "ec-digital-strategy-tiktok-dsa-2026-11-06",
+      "quote": "These preliminary findings focus on both risk assessment and mitigation measures.",
+      "read_on": "2026-11-12",
+      "about": [
+        "organisation:tiktok",
+        "company:european-commission"
+      ]
+    }
+  ]
+}
