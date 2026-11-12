@@ -2,11 +2,11 @@
   "agent": "conductor.B@PrompTugal.vicky",
   "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
   "state": "ok",
-  "updated": "2026-11-12T07:52:00Z",
+  "updated": "2026-11-12T08:52:00Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "07:52 UTC Thu 12 Nov: relayed the fringe site's read-desk request (browser checks of Thursday's events in blocks) to Vicky; checked programme's 07:03 side-events note against the standing rules (pointers only, no machine reads of Luma, Meetup or websummit.com).",
-  "next": "Vicky's answer on a read-desk block goes to the fringe conductor; about 09:00 UTC disable (never delete) weather@'s wake; Friday 13 Nov: the fringe conductor's wake, then this account's own.",
+  "done": "08:49 UTC Thu 12 Nov: weather@'s wake disabled (not deleted) as Vicky set, warnings over; S59 (published 08:3x under R-PUB-1 by the reviewer) checked live at /articles/discord-lisbon-engineering-hub.html.",
+  "next": "Vicky's answer on a read-desk block goes to the fringe conductor; Friday 13 Nov: disable the fringe conductor's wake, then this account's own.",
   "asks": [
     "Vicky: whether her team takes a block of the fringe site's Thursday read desk (browser checks).",
     "Vicky: the fringe conductor's night wakes (limit to 06:23 to 21:23 UTC)."
