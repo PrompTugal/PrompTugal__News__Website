@@ -4,7 +4,7 @@ The weather desk's facts list for S41. Every line has its source and the UTC tim
 
 **Last full check: 10 November 2026, 19:36 to 19:47 UTC** (connectors snapshot `data/2026-11-10T1936Z.json`).
 
-**Headline, 18:37 UTC Wed 11 Nov: only Lisbon's sea warning remains** (orange to 21:00, then yellow to Thursday 03:00; [IPMA warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json), file modified 18:15 UTC). Web Summit's Day 2 did not take place, on the government's advice; the government's alert situation runs to 23:59 today.
+**Closed, 03:40 UTC Thu 12 Nov: IPMA has no warning in force for the Lisbon district** ([IPMA warnings](https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json), file modified 03:15 UTC, cache bypassed). The government's alert situation ended at 23:59 on 11 November. Web Summit's Day 2 did not take place, on the government's advice; Day 3 (Thursday) was confirmed by a person's browser read of Web Summit's channels. This desk's watch ends here.
 
 ### Web Summit's Day 2 (added 19:47 UTC)
 
@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 12 Nov 03:40: **no IPMA warning for Lisbon** (the yellow sea warning ended at 03:00). Both conditions for ending this desk's wake are met. Reported to conductor.B with the request to disable the wake.
 - 12 Nov 02:36: checked 02:36 UTC (IPMA file modified 02:15, cache bypassed), no change: Lisbon only a yellow sea warning to 03:00. Reported to conductor.B.
 - 12 Nov 01:36: checked 01:36 UTC (IPMA file modified 00:15, cache bypassed), no change: Lisbon only a yellow sea warning to 03:00. Reported to conductor.B.
 - 12 Nov 00:42: Web Summit's Day 3 (Thursday): confirmed by a person's browser read (Vicky, 11 Nov 13:10 UTC: "officially back on tomorrow for our final day"), as relayed by conductor.B; not machine-read by this desk. The last remaining condition for ending this desk's wake is IPMA's Lisbon sea warning, which ends at 03:00.
