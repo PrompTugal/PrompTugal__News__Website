@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1364",
+    "date": "2026-11-12",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "188e30266"
+  },
+  {
     "version": "v0.1.1363",
     "date": "2026-11-12",
     "what": "dev@PrompTugal.dinis: websummit-only: company fields by source; the app's empty day says where the programme is",
