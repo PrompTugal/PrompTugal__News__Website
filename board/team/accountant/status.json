@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
- "updated": "2026-11-12T09:55Z",
+ "updated": "2026-11-12T12:55Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -49,10 +49,11 @@
   "00:50 on 12 November: the close of 11 November, 449.7 API-equivalent (A 97.6, B 352.1), the busiest day since 7 November; nine over their lines; budgets.json reset for 12 November; the hand-over debrief",
   "03:50 on 12 November: 69.86 API-equivalent so far (A 13.64, B 56.22); nobody over; account A allowed",
   "06:50 on 12 November: 116.21 API-equivalent so far (A 27.52, B 88.69); dev.data@ over, recorded; account A allowed",
-  "09:50 on 12 November: 171.17 API-equivalent so far (A 41.12, B 130.05); three over, recorded; account A allowed; OpenRouter still out"
+  "09:50 on 12 November: 171.17 API-equivalent so far (A 41.12, B 130.05); three over, recorded; account A allowed; OpenRouter still out",
+  "12:50 on 12 November: 213.44 API-equivalent so far (A 54.91, B 158.53), about 14 an hour; four over, recorded; account A allowed"
  ],
  "next": [
-  "at 12:47: a reading against the 12 November baseline; on 13 November the summit close"
+  "at 15:47: a reading against the 12 November baseline; on 13 November the summit close"
  ],
  "asks": [
   "Dinis: the shared OpenRouter key is out of credit: HTTP 402 since about 05:00 to 05:51 UTC on 11 November; social.watch@ has stalled and every agent using the key stops with it. A top-up is yours. The summit plan is ready in board/budgets.json (openrouter.summit_plan: 250 USD within your 100 to 300 GBP, one key per tablet or agent so the next draw can be traced)",
@@ -296,6 +297,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "171.17 so far (A 41.12, B 130.05); three over; A allowed"
+  },
+  {
+   "started": "2026-11-12T12:48Z",
+   "outcome": "ok",
+   "release": "this wake's",
+   "line": "213.44 so far (A 54.91, B 158.53); four over; A allowed"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-12-handover.md"
