@@ -12,6 +12,9 @@
 const V = '__VERSION__', SHELL = 'pt-shell-' + V, PAGES = 'pt-pages', SAVED = 'pt-saved', MAX = 150, WAIT = 4000
 const KEEP = __PRECACHE__
 const NEVER = __NEVER__   // the pages that use a person's key (security@): never kept, never answered from a copy
+// pages taken off the site (the websummit-only pass): the first 16 hex of SHA-256 of '<kind>/<id>', so this file names
+// nobody; a kept or saved copy of one is dropped when this worker takes over
+const GONE = new Set(__GONE__)
 const scope = self.registration.scope
 // a page is one key whether asked as <path>/ or <path>/index.html (sherpa@'s O6: the tabs ask for index.html)
 const keyOf = u => u.origin + u.pathname.replace(/\/index\.html$/, '/')
@@ -41,6 +44,10 @@ self.addEventListener('install', e => e.waitUntil((async () => {
 
 self.addEventListener('activate', e => e.waitUntil((async () => {
     for (const k of await caches.keys()) if (k.startsWith('pt-shell-') && k !== SHELL) await caches.delete(k)
+    if (GONE.size) for (const name of [PAGES, SAVED]) { const c = await caches.open(name)
+        for (const r of await c.keys()) { const m = new URL(r.url).pathname.match(/\/(people|events|organisations|places|companies)\/([^/]+)\//); if (!m) continue
+            const h = [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(m[1] + '/' + m[2])))].map(b => b.toString(16).padStart(2, '0')).join('').slice(0, 16)
+            if (GONE.has(h)) await c.delete(r) } }
     await self.clients.claim()
 })()))
 
