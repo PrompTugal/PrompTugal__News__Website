@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1339",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: the phone check skips a URL path's digits; the build reads the inventory's evidence list",
+    "by": "dev@PrompTugal.dinis",
+    "from": "906836ea9"
+  },
+  {
     "version": "v0.1.1338",
     "date": "2026-11-12",
     "what": "security@PrompTugal.dinis: wake 03:05: 35 commits clean; the websummit-only pass built to the pre-review's conditions, switch off",
