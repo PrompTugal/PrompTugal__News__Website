@@ -632,6 +632,18 @@
         "PrompTugal__App__Mobile": "7f59d911"
       },
       "note": "correspondent@ carried Lisbon Tech Fringe's line for tonight, without a number (13:26), after my relay; dev@ lean, brought the three workers; librarian@ asked the conductors whether the three Fringe conductors work in another repository; inbox: 2 messages held unread (signed by a key not on the keys page)"
+    },
+    {
+      "at": "2026-11-12T14:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "heads": {
+        "SGit-AI__Website__Web-Summit": "b0fc64cd",
+        "PrompTugal__News__Website": "fcb92667",
+        "PrompTugal__App__Android": "2cd4cd75",
+        "PrompTugal__App__iOS": "bf76d293",
+        "PrompTugal__App__Mobile": "7f59d911"
+      },
+      "note": "dev@ gave the live sources strip a timed line: the Fringe's last evening until 23:59 UTC; designer@ re-checked, passes; correspondent@ moved the Fringe line into the strip; ontologist@, dev.pages@, dev.graphs@ idle; inbox empty"
     }
   ]
 }
