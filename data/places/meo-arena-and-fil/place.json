@@ -7,5 +7,19 @@
   "located_in": "place:parque-das-nacoes",
   "matches": [],
   "source": "https://websummit.com/essentials/venue-essentials/",
-  "note": "The summit's venue, as the summit names it: the MEO Arena (once called Altice Arena) and FIL, Rossio dos Olivais, Parque das Nações."
+  "note": "The summit's venue, as the summit names it: the MEO Arena (once called Altice Arena) and FIL, Rossio dos Olivais, Parque das Nações.",
+  "sources": [
+    {
+      "url": "https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en",
+      "read_on": "2026-11-12",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "the HaDEA event page gives the 2026 venue as MEO Arena and FIL, Rossio dos Olivais, 1990-231 Lisbon"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_Summit",
+      "read_on": "2026-11-12",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Wikipedia (revision 1383690798): earlier editions at the Altice Arena (now MEO Arena) and the Lisbon Exhibition and Congress Centre"
+    }
+  ]
 }

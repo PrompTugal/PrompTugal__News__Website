@@ -3,9 +3,22 @@
   "id": "web-summit",
   "type": "organisation",
   "name": "Web Summit",
-  "names_as_listed": ["Web Summit"],
+  "names_as_listed": [
+    "Web Summit"
+  ],
   "sources": [
-    { "url": "https://websummit.com/essentials/venue-essentials/", "read_on": "2026-11-01", "by": "curator@web-summit", "how": "the organiser of Web Summit Lisbon 2026, on its own site" }
+    {
+      "url": "https://websummit.com/essentials/venue-essentials/",
+      "read_on": "2026-11-01",
+      "by": "curator@web-summit",
+      "how": "the organiser of Web Summit Lisbon 2026, on its own site"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_Summit",
+      "read_on": "2026-11-12",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Wikipedia (revision 1383690798): an annual technology conference held in Lisbon, founded in 2009, in Dublin until 2016"
+    }
   ],
   "note": "Hand-written: the organiser of the official programme. The derivation links every official event to it (organised_by), and every capture that names it."
 }

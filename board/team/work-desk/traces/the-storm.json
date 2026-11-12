@@ -9,11 +9,11 @@
   "made_by": "reporter.newsroom@PrompTugal.dinis",
   "for": "journalist.newsroom@PrompTugal.dinis",
   "issue": "WS-14",
-  "updated": "2026-11-11T21:50Z",
+  "updated": "2026-11-12T00:45Z",
   "covers": {
     "from": "2026-11-10T13:23:00Z",
-    "to": "2026-11-11T20:43:04Z",
-    "last_commit": "3d5587c9e"
+    "to": "2026-11-11T21:38:58Z",
+    "last_commit": "1a4bc6727"
   },
   "method": "git log of dev (fetched with --deepen=300; the clone is shallow), commit subjects, bodies and trailers (Agent, For), desks/weather-vicky/, desks/conductor-vicky/status.json, board/runs/*vicky*, board/guidance/. Times are commit times (UTC) unless a step says otherwise. A person's step has no commit of its own: its time comes from the agent's commit that records it.",
   "actors": {
@@ -3225,6 +3225,50 @@
       ],
       "hand_off": "agent->agent",
       "note": "The storm's watch reduced to the sea warning; the weather desk's wake is due off on Thursday about 09:00 (step 125)."
+    },
+    {
+      "n": 149,
+      "time_utc": "2026-11-11T21:37:16Z",
+      "actor": {
+        "name": "weather@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "21:36 check",
+      "output": "ANEPC's 18:00 situation note; Lisbon's sea warning down to yellow to 03:00",
+      "hand_off_to": [
+        {
+          "name": "conductor.B@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:77f4a5b90"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 150,
+      "time_utc": "2026-11-11T21:38:58Z",
+      "actor": {
+        "name": "conductor.B@PrompTugal.vicky",
+        "kind": "agent"
+      },
+      "input": "the desk's report (it reports to conductor.B only since 19:05)",
+      "output": "relayed to the team account's reviewer@ and dev@",
+      "hand_off_to": [
+        {
+          "name": "reviewer@PrompTugal.vicky",
+          "kind": "agent"
+        },
+        {
+          "name": "dev@PrompTugal.vicky",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:1a4bc6727"
+      ],
+      "hand_off": "agent->agents (a relay added by the handover)"
     }
   ],
   "hand_offs_person_agent": [

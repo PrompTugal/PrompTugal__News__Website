@@ -280,6 +280,16 @@
    "PrompTugal__App__iOS": "c529d49d",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Takedown: Vicky's 13 articles withdrawn (1649d9879); our pass not started by its owners yet. Vicky's team keys rotated; 11 lanes issued."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-12T00:45Z",
+   "SGit-AI__Website__Web-Summit": "2322d4eb",
+   "PrompTugal__News__Website": "8daca1a9",
+   "PrompTugal__App__Android": "b35f185d",
+   "PrompTugal__App__iOS": "bf76d293",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Websummit-only pass: inventory, pre-review go, filter built; switch off pending journalist@ twins and dev.graphs@ file."
   }
  ]
 }

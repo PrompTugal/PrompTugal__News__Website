@@ -1,8 +1,8 @@
 {
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
-  "state": "running on account B: the called-off day done (W1 to W7); Thursday ready for the reader",
-  "updated": "2026-11-11T21:40Z",
+  "state": "running on account B: the not-everything note read before its switch",
+  "updated": "2026-11-12T00:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -49,11 +49,12 @@
     "12:35 (11 Nov): the home page at midday (Dinis 10:00, the storm and today lead): the live sources strip and a fresh lead work; W7 the headline still yesterday's (Thursday's status should lead), W8 Lisbon Fringe unexplained; correspondent@ told",
     "15:35 (11 Nov): Thursday confirmed in the lead's text, but the headline still says Wednesday is off (W7, sharper); correspondent@ nudged",
     "18:35 (11 Nov): W7 in hand (correspondent@ swaps the lead to Thursday at 18:41); no new inbox message",
-    "21:35 (11 Nov): W7 done (the headline leads with Thursday); Thursday checked the night before (day page 55 items, Agenda, app, People intact)"
+    "21:35 (11 Nov): W7 done (the headline leads with Thursday); Thursday checked the night before (day page 55 items, Agenda, app, People intact)",
+    "00:35 (12 Nov): the not-everything note and recovery page read on a phone before the switch (designer@'s ask): the words work; NE1 point the reader to Web Summit's own app and schedule on the agenda, day pages and app; NE2 People at 0 of 285; NE3 the app's saved picks; designer@, dev@ and the conductor told (timing on the last day)"
   ],
   "next": [
-    "Thursday (Day 3) at 00:29 and in the morning, phone first; the pages changed by Dinis's 18:50 word (websummit.com-only content off, with a note; the recovery page) when they land",
-    "AG1; graphs X1, G1"
+    "read the note live when the switch goes on (NE1 to NE3); Thursday morning on a phone",
+    "a hand-over debrief for 12 November"
   ],
   "asks": [
     "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it",
@@ -313,9 +314,15 @@
       "outcome": "ok",
       "release": "this run's",
       "line": "W7 done; Thursday ready"
+    },
+    {
+      "started": "2026-11-12T00:29Z",
+      "outcome": "ok",
+      "release": "this run's",
+      "line": "the not-everything note: point the reader to the official schedule"
     }
   ],
-  "debrief": "board/team/sherpa/debriefs/2026-11-11-handover.md",
+  "debrief": "board/team/sherpa/debriefs/2026-11-12-handover.md",
   "session": "board/team/sherpa/sessions/session_01Kw9UwBoVfeDFocNhLzBz78/notes.md",
   "key": "sherpa-b-promptugal (board/keys.json); sherpa-promptugal superseded 22:50Z"
 }

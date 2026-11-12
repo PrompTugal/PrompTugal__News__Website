@@ -7,6 +7,7 @@
 //   Save       /sw.js (at the root: a worker controls only the pages under it); assets/offline/ holds the page side
 //              (offline.js on every page: the worker, the manifest, the offline note, "Save for offline")
 import fs from 'node:fs'
+import crypto from 'node:crypto'
 import { execFileSync } from 'node:child_process'
 import { articlesOf } from './articles.mjs'
 import { KEYRING_PAGES } from './login.mjs'
@@ -48,9 +49,12 @@ export async function keep(ctx) {
         .map(e => `events/${e.id}/`).filter(r => ctx.pages.some(p => p.rel === r + 'index.html'))
     return [...new Set(['', 'offline/', 'summit/', ...tabs, ...days, ...news, ...events, ...await shellOf(ctx), ...DATA, ...dayData, MANIFEST, ...APP])]
 }
+// the pages the websummit-only pass took off (ctx.store.wsGone; empty while its switch is off), hashed for sw.tmpl
+const gone = ctx => { const g = ctx.store.wsGone; if (!g) return []
+    return Object.entries(g).flatMap(([k, ids]) => [...ids].map(id => crypto.createHash('sha256').update(`${k}/${id}`).digest('hex').slice(0, 16))).sort() }
 export const api = async ctx => {
     const on = JSON.parse(fs.readFileSync(ctx.R(SWITCH), 'utf8')).enabled !== false
-    const data = on ? fs.readFileSync(ctx.R(TMPL), 'utf8').replace(/__VERSION__/g, ctx.VERSION).replace('__PRECACHE__', JSON.stringify(await keep(ctx), null, 1)).replace('__NEVER__', JSON.stringify(NEVER))
+    const data = on ? fs.readFileSync(ctx.R(TMPL), 'utf8').replace(/__VERSION__/g, ctx.VERSION).replace('__PRECACHE__', JSON.stringify(await keep(ctx), null, 1)).replace('__NEVER__', JSON.stringify(NEVER)).replace('__GONE__', JSON.stringify(gone(ctx)))
         : fs.readFileSync(ctx.R(OFF), 'utf8').replace(/__VERSION__/g, ctx.VERSION)
     return [{ path: SW, schema: null, data }]
 }

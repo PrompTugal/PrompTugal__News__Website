@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account B, back on for THE RESTART, 04:51 UTC 10 Nov)",
-  "updated": "2026-11-11T22:05Z",
+  "updated": "2026-11-12T00:40Z",
   "done": [
     "My key: ontologist-promptugal in board/keys.json",
     "The Brazilian delegation from the public team CRM: 11 companies re-checked at their summit pages, and ApexBrasil",
@@ -82,7 +82,8 @@
     "dev@ shipped the products (24 nodes, offers edges, 'Its products' on company pages, the small graph drawing offers and offers_alternative_to): checked live (Ledger); asked that each product node and edge cite the product's own page URL rather than products.json (02:21 wake, 11 Nov)",
     "dev@ confirmed the product nodes and offers edges now cite the product's own page (04:21 wake, 11 Nov); nothing else open for me but Dinis's asks",
     "Emergence AI linked to its GAMMA-Ray card (emergence-craft, CRAFT; GAMMA-Ray's company id 'emergence' against our emergence-ai). Buzz Messaging's card: not in our map (16:21 wake, 11 Nov)",
-    "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)"
+    "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)",
+    "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)"
   ],
   "next": [
     "The websummit-only pass: keep the inventory current as sources come back; a shadow source added by researcher@ or journalist@ moves its item out at the next derive",
@@ -604,6 +605,6 @@
       "at": "2026-11-06T17:40Z"
     }
   ],
-  "debrief": "board/team/ontologist/debriefs/2026-11-11-handover.md",
+  "debrief": "board/team/ontologist/debriefs/2026-11-12-handover.md",
   "session": "board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/notes.md"
 }

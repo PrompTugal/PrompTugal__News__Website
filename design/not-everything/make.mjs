@@ -37,6 +37,21 @@ async function inject(url, note, name) {
     await p.waitForTimeout(200); await p.screenshot({ path: path.join(OUT, `note-${name}--${d}.png`) }); await p.close() } }
 await inject('https://promptugal.news/companies/', noteList, 'list')
 await inject('https://promptugal.news/companies/cloudflare/', noteEntity, 'entity')
+// sherpa@'s NE1 (12 Nov 00:35): on the agenda, the day pages and the app, the note says where the full programme still is
+const noteAgenda = `<aside class=ne aria-label="About this list"><p class=k>Not the full programme</p><p>Web Summit's licence does not let us republish its programme, so on 11 November we took off the sessions that rested only on its site. <b>The full programme is in Web Summit's own app and at websummit.com/schedule.</b> What is here has another public source; the rest comes back as we find one.</p><p><a href="#">Web Summit's schedule ↗</a> &nbsp; <a href="#">How items come back</a></p></aside>`
+await inject('https://promptugal.news/events/', noteAgenda, 'agenda')
+// sherpa@'s NE2: People at 0 of 285: the note is the page. Why first, then what is still there, then the way back.
+const emptyCss = noteCss + `.ne.big{border-top-width:4px;padding:18px 16px}.ne.big .k{font-size:12px}.ne.big p{font-size:17.5px}.ne.big ul{margin:8px 0 0 18px;font:16px/1.5 Newsreader}`
+const noteEmpty = `<aside class="ne big" aria-label="About this page"><p class=k>No one listed, for now</p><p>Every person on this page came from Web Summit's speaker list, which its licence does not let us republish. On 11 November we took all 285 off.</p><p>What is still here:</p><ul><li>people named in our articles and interviews, cited there;</li><li>speakers named on their company's own pages, on that company's page with us;</li><li>Web Summit's own app and site, for the full speaker list.</li></ul><p style="margin-top:8px">A person comes back when we find a public source of their own. <a href="#">How items come back</a></p></aside>`
+for (const [d, vp] of [['phone', { width: 390, height: 844 }], ['desktop', { width: 1280, height: 900 }]]) {
+  const p = await br.newPage({ viewport: vp }); await p.goto('https://promptugal.news/people/', { waitUntil: 'load' }); await p.waitForTimeout(1200)
+  await p.evaluate(({ css, note }) => { const s = document.createElement('style'); s.textContent = css; document.head.append(s)
+    const h1 = document.querySelector('main h1'); const main = h1.closest('main'); [...main.children].forEach(c => { if (!c.contains(h1) && !c.matches('nav,.crumbs')) c.style.display = 'none' })
+    let host = h1; while (host.parentElement !== main) host = host.parentElement; [...host.children].forEach(c => { if (c !== h1 && !c.contains(h1) && !c.matches('nav,.crumbs')) c.style.display = 'none' })
+    const el = document.createElement('div'); el.innerHTML = note; h1.after(el.firstChild)
+    const t = document.createElement('span'); t.className = 'ne-tag'; t.textContent = 'Design · the empty page'; document.body.append(t)
+    scrollTo(0, Math.max(0, h1.getBoundingClientRect().top + scrollY - 200)) }, { css: emptyCss, note: noteEmpty })
+  await p.waitForTimeout(200); await p.screenshot({ path: path.join(OUT, `note-empty--${d}.png`) }); await p.close() }
 
 // the recovery page
 const kinds = [['Company facts', 311, 239, 0], ['People', 285, 285, 0], ['Sessions and events', 248, 215, 0]]

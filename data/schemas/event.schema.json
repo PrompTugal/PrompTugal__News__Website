@@ -68,7 +68,10 @@
     },
     "shows_as": {
       "description": "How a calendar should count the event: free for presence events (registration, the summit and its opening nights, festivals, programmes, competitions, conferences, all-day or multi-day events, over two hours), busy for the rest (talks, panels, workshops). Derived by newsroom/build/lib/derive.mjs (showsAs); set by the same rule on hand-kept events. Asked by the iOS app, 9 November.",
-      "enum": ["free", "busy"]
+      "enum": [
+        "free",
+        "busy"
+      ]
     },
     "all_day": {
       "description": "True only when the source says the event runs all day; a null time without it means the time is not yet known (synthetic@'s F60).",
@@ -234,6 +237,38 @@
     },
     "derived": {
       "$ref": "common.schema.json#/$defs/derived"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "by",
+          "how"
+        ],
+        "properties": {
+          "url": {
+            "$ref": "common.schema.json#/$defs/url"
+          },
+          "read_at": {
+            "$ref": "common.schema.json#/$defs/read_at"
+          },
+          "read_on": {
+            "$ref": "common.schema.json#/$defs/date"
+          },
+          "by": {
+            "$ref": "common.schema.json#/$defs/agent"
+          },
+          "how": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "Further public sources (the websummit-only pass, 11 Nov 2026): a fact with one of these is not websummit-only."
     }
   },
   "additionalProperties": false

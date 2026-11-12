@@ -9,5 +9,13 @@
     "Lisbon (venue not given on the page)",
     "Centre of Lisbon"
   ],
-  "source": "https://websummit.com/essentials/venue-essentials/"
+  "source": "https://websummit.com/essentials/venue-essentials/",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Lisbon",
+      "read_on": "2026-11-12",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "Wikipedia (revision 1384546981): the capital of Portugal"
+    }
+  ]
 }
