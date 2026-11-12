@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1353",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: post-review: the websummit-only switch holds on the live site; S39 closed",
+    "by": "security@PrompTugal.dinis",
+    "from": "4b3c10352"
+  },
+  {
     "version": "v0.1.1352",
     "date": "2026-11-12",
     "what": "conductor.b@PrompTugal.dinis: 05:48 wake: quiet hour; watch line, status",
