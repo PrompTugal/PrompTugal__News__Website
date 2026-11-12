@@ -329,7 +329,7 @@ export function websummitOnly({ files, companies, places, handEvents, handOrgs, 
     const tally = () => ({ total: 0, websummit_only: 0, other_source: 0, no_source: 0 })
     const add = (t, r) => { t.total++; t[{ websummit: 'websummit_only', other: 'other_source', none: 'no_source' }[r]]++ }
     const counts = { evidence: tally(), companies: tally(), company_facts: tally(), company_edges: tally(), company_flows: tally(), company_products: tally(), people: tally(), person_listings: tally(), events: tally(), organisations: tally(), places: tally() }
-    const out = { evidence: [], companies: [], company_items: [], people: [], person_listings: [], events: [], organisations: [], places: [] }
+    const out = { evidence: [], companies: [], company_fields: [], company_items: [], people: [], person_listings: [], events: [], organisations: [], places: [] }
     for (const c of [...companies].sort((a, b) => byKey(a.id, b.id))) {
         const url = new Map(c.sources.map(s => [s.id, s.url]))
         const items = [['fact', 'facts', c.facts, x => x.id], ['edge', 'edges', c.edges, x => `${x.verb}>${x.to}`], ['flow', 'flows', c.flows, x => x.id], ['product', 'products', c.products, x => x.id]]
@@ -340,6 +340,8 @@ export function websummitOnly({ files, companies, places, handEvents, handOrgs, 
             if (r === 'websummit') out.company_items.push({ company: `company:${c.id}`, kind, id: idOf(x), source: x.source })
         }
         const shadows = c.sources.filter(s => s.url && !isWebSummit(s.url)).map(s => s.id).sort()
+        const wsFields = Object.entries(c.field_sources || {}).filter(([, ids]) => restsOn([].concat(ids).map(id => url.get(id) || null)) === 'websummit').map(([f]) => f).sort()
+        if (wsFields.length) out.company_fields.push({ company: `company:${c.id}`, fields: wsFields })
         const r = !any ? 'none' : kept ? 'other' : 'websummit'; add(counts.companies, r)
         if (r !== 'other' || !factsLeft) out.companies.push({ company: `company:${c.id}`, left_with_nothing: r !== 'other', facts_left: factsLeft, items: any, other_sources_on_file: shadows })
     }

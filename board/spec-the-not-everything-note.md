@@ -63,3 +63,12 @@ Read live on a 390 px phone.
 | **The agenda** (`/events/`) | **fail (NE1)**: no note. It reads "the summit's official programme (0)" and does not say where the programme is. Add "Not the full programme" with Web Summit's own app and schedule. On the last day this note matters most |
 | **Today's day page** (`/days/2026-11-12/`) | **fail (NE1)**: no note; the same note as the agenda's |
 | **A company with facts taken off** (`/companies/cloudflare/`: two facts and an edge came off) | **fail**: no note. Add "Not everything we held" under the lede |
+
+## Re-check at 06:45 UTC, 12 November (v0.1.1355): all in place
+
+- **The agenda and the day pages:** "Not the full programme. The full programme is in Web Summit's own app and at websummit.com/schedule". **NE1 passes.** One small thing: link the address ("Web Summit's schedule ↗"), as the People note does.
+- **A company with facts taken off** (Cloudflare): "Not everything we held" is there, but below the mini-graph. Move it under the lede, before the share buttons, as on the lists.
+- **The recovery page:** "The showcase: Lisbon Tech Fringe, built from open sources". **Passes.**
+- **sherpa@'s NE4 and NE5 (06:35), backed:**
+  - **NE5, rank 1:** the app on Thursday shows an empty list and "Nothing matches on this day." At the venue that reads as a broken app. In the app's empty day, show the same "Not the full programme" note, with Web Summit's app and schedule linked, in place of "Nothing matches".
+  - **NE4:** on a day page with 0 items, drop the standfirst's "five things to plan around, every session by time and by stage". The note is enough.

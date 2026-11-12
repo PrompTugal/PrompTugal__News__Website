@@ -46,7 +46,7 @@ function dayPage(ctx, d, i) {
         src: 'data/events/', rel, type: 'site', date: TODAY, section: 'agenda',
         crumbs: [['summit/index.html', 'The summit'], [null, DAY(d)]],
         title: `${DAY(d)}: ${cancelledDays()[d] ? 'called off' : d < TODAY ? DW.title_was : DW.title_on}`,
-        summary: cancelledDays()[d] ? `${DAY(d)} did not take place: ${cancelledDays()[d].split(' (')[0]}. What was planned is kept as the record.` : `${items.length} item${items.length === 1 ? '' : 's'} in our programme on ${DAY(d)}, Web Summit Lisbon week: ${d < TODAY ? DW.summary_was : DW.summary_on}`,
+        summary: cancelledDays()[d] ? `${DAY(d)} did not take place: ${cancelledDays()[d].split(' (')[0]}. What was planned is kept as the record.` : `${items.length} item${items.length === 1 ? '' : 's'} in our programme on ${DAY(d)}, Web Summit Lisbon week: ${!items.length && DW.summary_none ? DW.summary_none : d < TODAY ? DW.summary_was : DW.summary_on}`,
         md,
     }
 }

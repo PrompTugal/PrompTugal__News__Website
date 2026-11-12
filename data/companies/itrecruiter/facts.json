@@ -15,6 +15,13 @@
       "source": "s2",
       "read_on": "2026-11-01",
       "by": "curator@web-summit"
+    },
+    {
+      "id": "f-own1",
+      "claim": "The recorded website now redirects to its group's site, iTRTech Group (read 7 November 2026, 02:25 UTC): its website; and a description of what the company does: a technology group operating in Portugal and Brazil (software, automation and AI), of which iTRecruiter is the IT recruitment company (outsourcing and talent). It does not use the words \"where technology meets people\".",
+      "source": "own1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

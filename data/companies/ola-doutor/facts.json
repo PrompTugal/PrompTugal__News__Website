@@ -15,6 +15,13 @@
       "source": "c2",
       "read_on": "2026-11-05",
       "by": "crm@web-summit.dinis"
+    },
+    {
+      "id": "f-own1",
+      "claim": "The company's own Web Summit page (read 7 November 2026, 02:25 UTC): its website (the page recorded); and a description of what the company does: Brazil's asynchronous, chat-first medical care, 2M+ consultations, looking for partners for a first European pilot. It does not mention prescriptions.",
+      "source": "own1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

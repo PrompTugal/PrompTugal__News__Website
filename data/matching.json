@@ -1849,6 +1849,11 @@
         "count": 1
       },
       {
+        "as_listed": "Discord",
+        "ref": "organisation:discord",
+        "count": 1
+      },
+      {
         "as_listed": "Dutch Ministry of Foreign Affairs",
         "ref": "organisation:dutch-ministry-of-foreign-affairs",
         "count": 1
@@ -2046,6 +2051,11 @@
       {
         "as_listed": "OutSystems",
         "ref": "organisation:outsystems",
+        "count": 1
+      },
+      {
+        "as_listed": "PagerDuty",
+        "ref": "organisation:pagerduty",
         "count": 1
       },
       {

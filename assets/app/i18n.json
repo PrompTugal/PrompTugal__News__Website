@@ -176,7 +176,9 @@
    "lang_label": "Language",
    "lang_en": "Back to English",
    "mt_note": "",
-   "beta": "Get the app first"
+   "beta": "Get the app first",
+   "not_full": "Not the full programme. Web Summit's licence does not let us republish its schedule, so we show only the sessions with another public source. The full programme is in Web Summit's own app and at",
+   "not_full_more": "What came off, and why"
   },
   "en-US": {
    "sub": "Web Summit Lisbon",

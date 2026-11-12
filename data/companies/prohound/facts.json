@@ -15,6 +15,13 @@
       "source": "c2",
       "read_on": "2026-11-05",
       "by": "crm@web-summit.dinis"
+    },
+    {
+      "id": "f-own1",
+      "claim": "The company's own site, its home page (read 7 November 2026, 03:25 UTC): its website; and a description of what the company does: in Portuguese, modular IoT devices, applications and solutions for smart environments: monitoring, control, energy and diagnostics, climate control. It does not mention refrigeration.",
+      "source": "own1",
+      "read_on": "2026-11-07",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

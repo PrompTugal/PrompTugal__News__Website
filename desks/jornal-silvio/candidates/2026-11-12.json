@@ -1,0 +1,88 @@
+{
+  "desk": "jornal-silvio",
+  "kept_by": "jornal@PrompTugal.silvio",
+  "date": "2026-11-12",
+  "status": "candidates, not published, waiting for the editor and for Silvio",
+  "candidates": [
+    {
+      "id": "js-2026-11-12-01",
+      "title": "United Airlines restricts AI agents on its platforms, citing credentials, miles and the check-in safety question",
+      "summary": "United Airlines said it will restrict AI bots' access to its digital platforms, directly and through travel agencies and aggregators, by updating its booking, ticketing and distribution policies. It warned that sharing account credentials with third-party AI assistants could expose sensitive data and lead to unintended purchases, account changes or misuse of frequent-flyer miles, and that automated check-in raises a regulatory problem because a person must acknowledge prohibited items. Amazon has blocked Meta's Muse while Walmart partnered with it; Expedia and Booking work with OpenAI.",
+      "why_it_matters": "After the banks, an airline: the gate keeps closing on agents that act with a customer's credentials, and United names a duty only a human can discharge (the prohibited-items acknowledgement), a clean example of a mandate an agent cannot hold.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html",
+          "publisher": "CNBC",
+          "published": "2026-11-11",
+          "read": "2026-11-12T08:20Z"
+        }
+      ],
+      "claims_to_check": [
+        "United's own statement or policy update (effective date not given)",
+        "Which agents are targeted: not named"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Continues the week's 'who lets agents in' thread with a new sector and a human-only duty; one day old."
+      },
+      "photo": {
+        "url": "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html",
+        "description": "United Airlines (lead photo)",
+        "credit": "Christopher Beckett | Nurphoto | Getty Images",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-12-02",
+      "title": "Turin's Nebuly raises $21M to measure what AI agents are actually worth to a company",
+      "summary": "Nebuly, a Turin company founded in 2022, raised a $21M Series A led by Planven, with Exor Ventures, CDP Venture Capital and others. Its platform tracks what AI agents do across an organisation (built on Claude, ChatGPT or Copilot) and links it to results: time saved for staff, AI-influenced revenue and churn signals for customer-facing assistants, with finance teams able to adjust the assumptions. Customers named include Oura, Iveco Group, Fastweb+Vodafone, CNH and Zeiss.",
+      "why_it_matters": "A European answer to the question Cloudflare and Lovable raised on stage this week: what value companies really get from AI. Watching what agents do is also the first half of governing them.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi",
+          "publisher": "The Next Web",
+          "published": "2026-11-12",
+          "read": "2026-11-12T08:22Z"
+        }
+      ],
+      "claims_to_check": [
+        "The round and investors at Nebuly's or Planven's announcement; customers are the company's claim"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "European, same-day, on the agents' ROI question; a funding round rather than news of consequence."
+      },
+      "photo": {
+        "url": "https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi",
+        "description": "Nebuly's three co-founders",
+        "credit": "Nebuly",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "what": "Web Summit's last day, with talks rescheduled from Wednesday; Cosgrave's press conference at 11:00",
+      "why": "no coverage yet at 08:08; in social.watch@'s remit"
+    },
+    {
+      "what": "Autark, a 14-year-old's tool for agent teams with no sandbox or approval gates (The Register, 10 November)",
+      "why": "held: a good illustration for a piece on agent teams, below the bar alone"
+    },
+    {
+      "what": "Fractile $720M; Databricks Genie",
+      "why": "already skipped yesterday"
+    }
+  ],
+  "wakes": [
+    {
+      "at": "2026-11-12T08:24Z",
+      "added": 2,
+      "note": "scheduled wake; new guidance read (what rests only on websummit.com comes off the site): no candidate here rests on websummit.com"
+    }
+  ]
+}

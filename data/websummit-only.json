@@ -8,21 +8,21 @@
   "rule": "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
   "counts": {
     "evidence": {
-      "total": 84,
+      "total": 86,
       "websummit_only": 31,
-      "other_source": 53,
+      "other_source": 55,
       "no_source": 0
     },
     "companies": {
       "total": 120,
-      "websummit_only": 36,
-      "other_source": 84,
+      "websummit_only": 5,
+      "other_source": 115,
       "no_source": 0
     },
     "company_facts": {
-      "total": 312,
+      "total": 343,
       "websummit_only": 239,
-      "other_source": 73,
+      "other_source": 104,
       "no_source": 0
     },
     "company_edges": {
@@ -62,9 +62,9 @@
       "no_source": 0
     },
     "organisations": {
-      "total": 269,
-      "websummit_only": 182,
-      "other_source": 87,
+      "total": 270,
+      "websummit_only": 181,
+      "other_source": 89,
       "no_source": 0
     },
     "places": {
@@ -171,15 +171,6 @@
   ],
   "companies": [
     {
-      "company": "company:0xbow",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
       "company": "company:1password",
       "left_with_nothing": false,
       "facts_left": 0,
@@ -192,57 +183,12 @@
       ]
     },
     {
-      "company": "company:ai-infinity",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:air-apps",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
       "company": "company:akamai",
       "left_with_nothing": false,
       "facts_left": 0,
       "items": 5,
       "other_sources_on_file": [
         "mp1"
-      ]
-    },
-    {
-      "company": "company:altegio",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:arima",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:atlassian",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 5,
-      "other_sources_on_file": [
-        "own1"
       ]
     },
     {
@@ -265,15 +211,6 @@
       ]
     },
     {
-      "company": "company:cisco-outshift",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
       "company": "company:cnext",
       "left_with_nothing": false,
       "facts_left": 0,
@@ -284,48 +221,12 @@
       ]
     },
     {
-      "company": "company:contents",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
       "company": "company:datadog",
       "left_with_nothing": false,
       "facts_left": 0,
       "items": 5,
       "other_sources_on_file": [
         "mp1",
-        "own1"
-      ]
-    },
-    {
-      "company": "company:delinea",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:delta-labs",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:dig-in",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
         "own1"
       ]
     },
@@ -347,37 +248,10 @@
       "other_sources_on_file": []
     },
     {
-      "company": "company:fido",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
       "company": "company:firefox-enterprise-mozilla",
       "left_with_nothing": false,
       "facts_left": 0,
       "items": 6,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:fretefy",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:gcore",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
       "other_sources_on_file": [
         "own1"
       ]
@@ -401,39 +275,12 @@
       ]
     },
     {
-      "company": "company:google-cloud",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 5,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
       "company": "company:ibm",
       "left_with_nothing": false,
       "facts_left": 0,
       "items": 6,
       "other_sources_on_file": [
         "mp1",
-        "own1"
-      ]
-    },
-    {
-      "company": "company:itrecruiter",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:just-travel",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
         "own1"
       ]
     },
@@ -485,47 +332,11 @@
       ]
     },
     {
-      "company": "company:mobile-brain",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:naporta",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
       "company": "company:nisos",
       "left_with_nothing": true,
       "facts_left": 0,
       "items": 5,
       "other_sources_on_file": []
-    },
-    {
-      "company": "company:ola-doutor",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:orb",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
     },
     {
       "company": "company:persona",
@@ -561,15 +372,6 @@
       ]
     },
     {
-      "company": "company:prohound",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
       "company": "company:qase",
       "left_with_nothing": false,
       "facts_left": 0,
@@ -579,93 +381,12 @@
       ]
     },
     {
-      "company": "company:rapidoc",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:raras-health",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:risiq",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
       "company": "company:runpod",
       "left_with_nothing": false,
       "facts_left": 0,
       "items": 5,
       "other_sources_on_file": [
         "mp1",
-        "own1"
-      ]
-    },
-    {
-      "company": "company:rws",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 5,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:sensay",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:shakers",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:sheerme",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:spacecomputer",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
-        "own1"
-      ]
-    },
-    {
-      "company": "company:sphere",
-      "left_with_nothing": true,
-      "facts_left": 0,
-      "items": 4,
-      "other_sources_on_file": [
         "own1"
       ]
     },
@@ -696,6 +417,1171 @@
       "facts_left": 0,
       "items": 5,
       "other_sources_on_file": []
+    }
+  ],
+  "company_fields": [
+    {
+      "company": "company:0xbow",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:1password",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:ai-infinity",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:aicep",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:air-apps",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:airia",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:aisle",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:akamai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:altegio",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:andreessen-horowitz",
+      "fields": [
+        "attending",
+        "attending_as"
+      ]
+    },
+    {
+      "company": "company:arima",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:atlassian",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:austriacard",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:c4ail",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:cerebras",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:chatplace",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:cisco-outshift",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:cloudflare",
+      "fields": [
+        "attending",
+        "attending_as"
+      ]
+    },
+    {
+      "company": "company:cnext",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:cognizant",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:conscium",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:contents",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:crowdstrike",
+      "fields": [
+        "attending",
+        "attending_as"
+      ]
+    },
+    {
+      "company": "company:crystal-intelligence",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:data-protection-commission",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:datadog",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:defined-ai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:delinea",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:delta-labs",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:deque",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:descope",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:dig-in",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:directus",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:easydmarc",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:elastic",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:emergence-ai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:eversec",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:exa",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:exein",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:factorial",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:feedzai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:fido",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:firefox-enterprise-mozilla",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:fretefy",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:gcore",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:genspark",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:getvocal-ai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:google-cloud",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:hablla",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:ibm",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:itrecruiter",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:jetbrains",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:just-travel",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:keewano",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:kiggu",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:kpmg-portugal",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "what"
+      ]
+    },
+    {
+      "company": "company:launchdarkly",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:lawvu",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:ledger",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:legalfly",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:legora",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:linux-foundation-aaif",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:make",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:manageengine",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:manus-ai",
+      "fields": [
+        "attending",
+        "attending_as"
+      ]
+    },
+    {
+      "company": "company:mastra",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:melious-ai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:meo",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:mobile-brain",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:naporta",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:ncsc-uk",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:neo",
+      "fields": [
+        "attending",
+        "attending_as"
+      ]
+    },
+    {
+      "company": "company:neo4j",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:nisos",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:nordvpn",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:ola-doutor",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:open-vsx",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:orb",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:persona",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:pitchbook",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:polyai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:polygraf-ai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:prelude",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:primitive",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:prisma",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:prohound",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:proofpoint",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:proton",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:qase",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:qualcomm",
+      "fields": [
+        "attending",
+        "attending_as"
+      ]
+    },
+    {
+      "company": "company:rapidoc",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:raras-health",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:replit",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:risiq",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:roost",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:runpod",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:rws",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:sageox",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:scrut-automation",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:sensay",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:shakers",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:sheerme",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:spacecomputer",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:sphere",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:strawberry",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:sumsub",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:temporal",
+      "fields": [
+        "attending",
+        "attending_as"
+      ]
+    },
+    {
+      "company": "company:testmu-ai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:the-hacking-games",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:topsec-cloud-solutions",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:trent-ai",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:trustscale",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:twilio",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:vtex",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name"
+      ]
+    },
+    {
+      "company": "company:whitespace",
+      "fields": [
+        "attending",
+        "attending_as",
+        "category",
+        "country",
+        "name",
+        "website",
+        "what"
+      ]
+    },
+    {
+      "company": "company:you-com",
+      "fields": [
+        "attending",
+        "attending_as"
+      ]
     }
   ],
   "company_items": [
@@ -7226,9 +8112,6 @@
     },
     {
       "organisation": "organisation:digital-inside"
-    },
-    {
-      "organisation": "organisation:discord"
     },
     {
       "organisation": "organisation:eco"
