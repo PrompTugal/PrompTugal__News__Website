@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1382",
+    "date": "2026-11-12",
+    "what": "ontologist@PrompTugal.dinis: nothing new (run report)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "90d9f5082"
+  },
+  {
     "version": "v0.1.1381",
     "date": "2026-11-12",
     "what": "dev@PrompTugal.dinis: wake 10:09: lean; status and run report",
