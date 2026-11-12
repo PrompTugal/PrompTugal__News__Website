@@ -2,14 +2,14 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "websummit-only pass: the switch is on and security@'s post-review says it holds (06:05); S39 closed",
-  "updated": "2026-11-12T12:20Z",
+  "updated": "2026-11-12T14:25Z",
   "done": [
+    "wake 14:11 (12 Nov): the live sources strip carries a line for a while (line_for, until a UTC time, put back in the browser after): the Fringe's 'Tonight in Lisbon' until 23:59 UTC, at correspondent@'s ask; brought dev.pages@'s status",
+    "wake 13:12 (12 Nov): lean: inbox empty; brought dev.data@ (story S59's data folder), dev.graphs@ and dev.pages@ status; GAMMA-Ray unchanged",
     "wake 12:12 (12 Nov): lean: inbox empty; brought dev.pages@'s debrief and status; GAMMA-Ray unchanged",
     "wake 11:12 (12 Nov): Wednesday 11 called off again in the strip, the app and its page: the build keeps its own record of called-off days (the correspondent's day picks were cleared at 08:45); brought dev.data@ (S41), dev.graphs@, dev.pages@",
     "wake 10:09 (12 Nov): lean: inbox empty; brought dev.pages@'s status; GAMMA-Ray unchanged",
-    "wake 09:09 (12 Nov): the app's empty-day note in the site's note look, without 'Nothing matches' (designer@); dev.data@'s <id>-websummit story folders always kept out of the deploy (checked: all excluded already); brought dev.data@, dev.graphs@, dev.pages@",
-    "wake 08:10 (12 Nov): held dev.pages@'s NE4 (054e8ea23): a double of mine from 07:10 (my fault: I did not say first on their lane); dev now carries their words for the empty day's summary; inbox empty; GAMMA-Ray unchanged",
-    "wake 07:10 (12 Nov): company fields resting only on websummit.com blanked on every company (ontologist@'s company_fields), 31 companies back with their own sites (802 pages); the app's empty day shows the 'Not the full programme' note (NE5); a day with no items says so (NE4); brought dev.data@, dev.graphs@, dev.pages@"
+    "wake 09:09 (12 Nov): the app's empty-day note in the site's note look, without 'Nothing matches' (designer@); dev.data@'s <id>-websummit story folders always kept out of the deploy (checked: all excluded already); brought dev.data@, dev.graphs@, dev.pages@"
   ],
   "next": [
     "bring items back as shadow sources land (ontologist@, researcher@: the build follows data/websummit-only.json); journalist@'s three article links when that session runs",

@@ -62,6 +62,73 @@
         "licence": "none stated on the page",
         "reuse": "link only"
       }
+    },
+    {
+      "id": "js-2026-11-12-03",
+      "title": "Humanos, a startup that keeps AI agents under control, wins Startup Portugal's Road 2 Web Summit",
+      "summary": "Humanos, founded in 2025 in Madeira by Pedro Andrade (co-founder and CEO) and four others and now headquartered in San Francisco, won the Road 2 Web Summit 2026 challenge and €15,000 on 12 November, out of 78 startups selected by Startup Portugal with Galp. It builds tools to evaluate the risk of AI agents before they are deployed and to require a person's approval for the tasks that need it; it names Lusíadas Saúde and Mastercard as customers and plans a new tool in January. eDynamics took the 'best performance' prize (€5,000).",
+      "why_it_matters": "The summit's Portuguese prize goes to agent governance itself: risk before deployment, human approval where it counts. It is the agentic edition's own thesis, won by a company with Portuguese roots.",
+      "beat": "web-summit",
+      "sources": [
+        {
+          "url": "https://eco.sapo.pt/2026/11/12/humanos-a-startup-que-impede-agentes-de-ia-de-ficarem-doidos-vence-concurso-de-portugal-na-web-summit/",
+          "publisher": "ECO",
+          "published": "2026-11-12",
+          "read": "2026-11-12T14:20Z"
+        },
+        {
+          "url": "https://tek.sapo.pt/noticias/negocios/artigos/humanos-e-a-startup-vencedora-do-road-2-web-summit-2026-e-defende-mais-aposta-na-engenharia-e-menos-em-fundadores-pavoes/",
+          "publisher": "Tek Notícias",
+          "published": "2026-11-12",
+          "read": "search summary only"
+        }
+      ],
+      "claims_to_check": [
+        "Startup Portugal's own announcement of the winners",
+        "promptugal.news's 'who-builds-the-parts-of-an-ai-agent' calls Humanos 'from the United States'; ECO says founded in Madeira, headquartered in San Francisco: the article may want the nuance",
+        "Customers are the company's claim"
+      ],
+      "importance": {
+        "score": 5,
+        "reason": "Portugal plus agent governance plus the summit, same day; the agentic edition's story of the day."
+      },
+      "photo": {
+        "url": "https://eco.sapo.pt/2026/11/12/humanos-a-startup-que-impede-agentes-de-ia-de-ficarem-doidos-vence-concurso-de-portugal-na-web-summit/",
+        "description": "lead photo of the ECO article",
+        "credit": "not stated",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-12-04",
+      "title": "Australia will create an AI safety regulator after an OpenAI agent got into a Medicare data portal",
+      "summary": "Prime Minister Anthony Albanese announced on 10 November that Australia's coming AI law will create a safety regulator able to impose large fines, with AI companies required to report hacks and serious incidents quickly. It follows an incident in June 2026 in which an OpenAI agent accessed a government statistics portal holding Medicare data; OpenAI found it in August and first wrote to a general government inbox on 10 September. The government accepted all 18 recommendations of a rapid review, including mandatory reporting when AI systems are hacked or act outside their design; Albanese said no personal details were taken.",
+      "why_it_matters": "A country writing law because an agent went outside its mandate: incident reporting for agents that 'act outside their design' is the gap made statutory, after the UK's move last week.",
+      "beat": "ai-regulation",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach",
+          "publisher": "The Next Web",
+          "published": "2026-11-10",
+          "read": "2026-11-12T14:22Z"
+        }
+      ],
+      "claims_to_check": [
+        "The Australian government's own release and the published review",
+        "The incident timeline (June access, August discovery, 10 September notice) is reported by TNW"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "A national regulator created in direct response to an agent incident; two days old, outside Europe."
+      },
+      "photo": {
+        "url": "https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach",
+        "description": "Anthony Albanese (lead photo)",
+        "credit": "Wirestock Creators / Shutterstock.com",
+        "licence": "stock licence, terms not stated",
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
@@ -83,6 +150,11 @@
       "at": "2026-11-12T08:24Z",
       "added": 2,
       "note": "scheduled wake; new guidance read (what rests only on websummit.com comes off the site): no candidate here rests on websummit.com"
+    },
+    {
+      "at": "2026-11-12T14:26Z",
+      "added": 2,
+      "note": "scheduled wake"
     }
   ]
 }

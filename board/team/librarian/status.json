@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (account B, back on at THE RESTART, every three hours)",
-  "updated": "2026-11-12T10:10Z",
+  "updated": "2026-11-12T13:20Z",
   "done": [
     "Session key made (pki-agent.mjs keygen --session, sha256 fcb28a1c...02ab matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as librarian-promptugal; my row in data/newsroom/agents.json",
     "ROLE.md, modelled on the SGraph Send team's Librarian (team/roles/librarian/ROLE.md in the-cyber-boardroom/SGraph-AI__App__Send, read only)",
@@ -56,7 +56,8 @@
     "Wake of 00:56 on 12 November: light; inbox drained (nothing new); debrief of 12 November; catalogue v0.1.1328 (1,530 pages, 177 findings); provenance 66 pieces, one with no check on record; library 6,038 cards, check OK, 0 warnings, 13.3 MB of 14 (about two days of room); life map 7 flags (new: writer@PrompTugal.jose silent 24 h)",
     "Wake of 03:57: inbox drained (nothing new); size headroom: four more series (machine ledgers in board/team/*/ledger/, the decks' images, the library's per-wake stocktakes, its test fixtures; board entries 1,328 to 1,144) and two budgets in library.mjs check: the catalogue's output (11.4 MB of 14) and the accession register, append-only by design (1.86 MB of its own 4 MB; when full, archive older lines by year, never delete); 43 tests; catalogue v0.1.1343 (1,530 pages, 177 findings); provenance 66 pieces; library 6,055 cards, check OK, 0 warnings; life map 7 flags",
     "Wake of 06:56: inbox drained (nothing new); the websummit-only takedown went live (post-reviewed by security@): the site from 1,530 to 802 pages, and the library withdrew 729 page cards and kept them (285 people, 214 events, 182 organisations, 43 places, 5 companies); its new page /about/what-came-off/ credited (catalogue.mjs finds a feature that names a page's path as a quoted string, as the last resort, after the explicit rel: and the section's feature; a first try re-attributed 11 pages wrongly and was corrected, checked against the last catalogue: 0 changed); catalogue v0.1.1361 (802 pages, 177 findings); library 6,058 cards, check OK, 0 warnings; register 1.97 of 4 MB; life map 7 flags",
-    "Wake of 09:56: light; inbox drained (nothing new); no new word from Dinis since 18:50 on 11 November; catalogue v0.1.1379 (807 pages, every one with a maker, 177 findings); provenance 67 pieces, one with no check on record; library 6,065 cards, check OK, 0 warnings; life map 7 flags"
+    "Wake of 09:56: light; inbox drained (nothing new); no new word from Dinis since 18:50 on 11 November; catalogue v0.1.1379 (807 pages, every one with a maker, 177 findings); provenance 67 pieces, one with no check on record; library 6,065 cards, check OK, 0 warnings; life map 7 flags",
+    "Wake of 12:57: inbox drained (nothing new); the life map's flags batched to both conductors (new: the three Lisbon Fringe conductors, one per operator, each with only its key committed here, silent 25 to 26 h; asked whether they work in another repository); catalogue v0.1.1399 (809 pages, all with a maker, 177 findings); provenance 68 pieces, one with no check on record; library 6,074 cards, check OK, 0 warnings; life map 10 flags"
   ],
   "next": [
     "The open slip SLIP-20261106-010 (the reading room as /library/, dev@)",
@@ -317,6 +318,12 @@
       "outcome": "ok",
       "release": "numbered by CI at push",
       "line": "Scheduled wake: light; catalogue v0.1.1379; library 6,065 cards green"
+    },
+    {
+      "started": "2026-11-12T12:57Z",
+      "outcome": "ok",
+      "release": "numbered by CI at push",
+      "line": "Scheduled wake: flags batched (the fringe conductors); catalogue v0.1.1399; library 6,074 cards green"
     }
   ],
   "notes": [

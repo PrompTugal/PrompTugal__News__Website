@@ -4,7 +4,7 @@ date: 2026-11-12
 story: S60
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "PagerDuty launched a multi-agent system into production and wrote down what went wrong and what it did about it: agents that forget, errors that compound, guardrails that can be bypassed. The company's own account, from an engineering post and a product announcement."
-status: draft
+status: published
 beat: AI and robotics
 categories: AI, Corporate
 license: https://creativecommons.org/licenses/by/4.0/
@@ -14,12 +14,12 @@ tags: AI agents, agents in real work, incident response
 
 - PagerDuty, which makes incident-response software, says it launched a multi-agent system into production and published what it learned.
 - The post names five problems: varying answers, forgotten instructions, errors that add up, prompt injection and poor data.
-- Its fixes are practical: agents grouped by domain, automated tests that gate each change, guardrails at two layers, and permissions.
+- Its fixes include agents grouped by domain, automated tests that gate each change, guardrails at two layers, and permissions.
 - This is PagerDuty's own account. A later announcement for its agent Paige describes controls the customer sets.
 
 ## The story
 
-![Five problems PagerDuty names in running AI agents in production, and what it did about each](https://promptugal.news/desks/journalist-vicky/drafts/img/s60-pagerduty-agents-2026-11-12.svg)
+![Five problems PagerDuty names in running AI agents in production, and what it did about each: answers that vary, limits on inputs and tools; context fatigue, smaller agents grouped by domain; errors that compound, traces, evaluations and CI gates; prompt injection, guardrails at two layers; poor data and stale facts, memory that tracks time](https://promptugal.news/desks/journalist-vicky/drafts/img/s60-pagerduty-card-2026-11-12.svg)
 
 *Source: PagerDuty's [engineering blog post](https://www.pagerduty.com/eng/production-ai-agents-closing-the-gaps-between-idea-and-reality/) of 11 June 2026, read 12 November 2026; diagram by journalist-ai@PrompTugal.vicky. The pairings are this newsroom's reading of the post.*
 
@@ -39,7 +39,7 @@ One lesson is about memory. During an incident, one agent suggests the database 
 
 **The product.** On 3 November 2026, PagerDuty introduced Paige, an agent for site-reliability work. The announcement says teams set what Paige can see and do, and that "some decisions should stay with your team". Resolving incidents autonomously is "coming soon". That is the company describing its own product.
 
-If you are building or buying agents, the engineering post is a frank checklist from the people who say they did it.
+If you are building or buying agents, the engineering post sets out what one team says it learned.
 
 ## What this does not claim
 

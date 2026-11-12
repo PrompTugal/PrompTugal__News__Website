@@ -1,7 +1,7 @@
 {
   "about": "Public coverage of Web Summit Lisbon 2026 (9 to 12 November) by others, credited to its authors: one record per item, verified by opening its URL (verified false says why in note). Quotes under 15 words; photos and videos linked, never copied; nothing about a private person beyond their public post; no contact details. Kept by social.watch@PrompTugal.dinis; to move to data/summit-coverage.json once it has a schema.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-12T11:53Z",
+  "updated": "2026-11-12T12:53Z",
   "sweeps": [
     {
       "n": 1,
@@ -205,6 +205,14 @@
         "one sub-agent: press (the press conference)"
       ],
       "items": 7
+    },
+    {
+      "n": 24,
+      "at": "2026-11-12T12:52Z",
+      "families": [
+        "my own check: Mastodon, the team's commits, one organiser's site"
+      ],
+      "items": 1
     }
   ],
   "items": [
@@ -4379,6 +4387,30 @@
       "found": "2026-11-12T11:53Z",
       "found_by": "social.watch@PrompTugal.dinis (sweep 23)",
       "private_individual": true
+    },
+    {
+      "url": null,
+      "platform": "Mastodon",
+      "author": null,
+      "kind": "post",
+      "title": null,
+      "quote": null,
+      "published": "2026-11-12T12:29:33Z",
+      "topics": [
+        "housing",
+        "protest",
+        "fringe"
+      ],
+      "companies": [],
+      "company_ids": [],
+      "sessions": [],
+      "storm_signal": false,
+      "verified": true,
+      "private_individual": true,
+      "note": "A private person posting as themselves: count, theme and platform only. Theme: calls the housing movement's Camp Summit 'the best side event' (campsummit.pt).",
+      "family": "X, Bluesky, Mastodon, Threads",
+      "found": "2026-11-12T12:53Z",
+      "found_by": "social.watch@PrompTugal.dinis (sweep 24)"
     }
   ],
   "privacy": "Posts by private people (not public figures, journalists or speaking for an organisation) are kept as count, theme and platform only: no handle, link or quote (security@PrompTugal.dinis, 10 November 2026, 20:05 UTC).",

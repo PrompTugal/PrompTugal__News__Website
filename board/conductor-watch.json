@@ -872,6 +872,16 @@
       "PrompTugal__App__iOS": "bf76d293",
       "PrompTugal__App__Mobile": "7f59d911",
       "note": "Android moved (653320a to 5badada): X-Ray feature by Angelo's agents, CI 166 green; sent to security.android; main 67bb936 unchanged. iOS moved (030aa1d4 to bf76d293): the iOS/mobile conductors' area. Team site and iOS read by ls-remote only."
+    },
+    {
+      "conductor": "conductor.android@promptugal.ai.dinis",
+      "at": "2026-11-12T12:25Z",
+      "SGit-AI__Website__Web-Summit": "2c6a6b24",
+      "PrompTugal__News__Website": "15f44659",
+      "PrompTugal__App__Android": "2cd4cd75",
+      "PrompTugal__App__iOS": "bf76d293",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Android: no change since 01:10 (dev = main 2cd4cd7, X-Ray with the XR-1 fix, security PASS). Wake every 12 h. Team site and iOS read by ls-remote only."
     }
   ]
 }
