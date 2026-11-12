@@ -1,505 +1,517 @@
 {
- "about": "conductor.b@'s watch lines (the conductors' rota, board/the-conductors.md), kept in its own grant because board/conductor-watch.json is outside it (ABP R6, breach in run 2026-11-09T15-49-35Z). The main conductor may copy them across; abp@ is asked to add board/conductor-watch.json to conductor.b@'s grant.",
- "lines": [
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-09T23:59Z",
-   "SGit-AI__Website__Web-Summit": "8232c109",
-   "PrompTugal__News__Website": "1ecd1178",
-   "PrompTugal__App__Android": "9bfd28b0",
-   "PrompTugal__App__iOS": "87211d14",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "THE BIG STOP applied on account B: twelve wakes paused 23:49:31-35, conductor.b@ every 2 h; the iOS conductor's :00 wake is not visible to me, its session told at 23:50. Stop report board/team/conductor.b/stop-report-2026-11-09.md."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T00:52Z",
-   "SGit-AI__Website__Web-Summit": "d88895ee",
-   "PrompTugal__News__Website": "ed7bd6e1",
-   "PrompTugal__App__Android": "9bfd28b0",
-   "PrompTugal__App__iOS": "3dcc0b13",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "THE BIG STOP holds on account B: only conductor.b@'s wake is enabled; no account-B agent committed since 23:49. The iOS conductor's :00 wake paused at 00:03 (its own report). Still active on dev: writer@PrompTugal.angelo (Angelo's agent, not on account B) and gamma-ray@web-summit.dinis (the stop's one exception). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T02:52Z",
-   "SGit-AI__Website__Web-Summit": "900eea80",
-   "PrompTugal__News__Website": "c1209558",
-   "PrompTugal__App__Android": "9bfd28b0",
-   "PrompTugal__App__iOS": "3dcc0b13",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "THE BIG STOP holds on account B: only conductor.b@'s wake enabled; every account-B session idle. journalist@PrompTugal.dinis committed at 02:33 (a vault video experiment) but NOT from account B's journalist session (idle since 22:34): another session runs under that name, outside account B (any person may override the stop; Dinis to confirm who). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T04:55Z",
-   "SGit-AI__Website__Web-Summit": "843af9c7",
-   "PrompTugal__News__Website": "d5aede6d",
-   "PrompTugal__App__Android": "521dd2cb",
-   "PrompTugal__App__iOS": "b7d17d14",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "THE RESTART (Dinis 02:40, relayed 03:58, For: conductor.b@) read at 04:49. Account B: designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian back on at 04:51; dev@ and dev.pages@ still paused (re-enabling refused by this session's safety check, waiting for Dinis); journalist@, dev.verify@, dev.portugal@ kept paused. conductor.b@ back to hourly at :48."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T05:52Z",
-   "SGit-AI__Website__Web-Summit": "10ed6822",
-   "PrompTugal__News__Website": "6ffa8458",
-   "PrompTugal__App__Android": "29a6389e",
-   "PrompTugal__App__iOS": "bd4eab05",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B after the restart: the seven are on; their first wakes fall 06:17 to 06:56 (none due yet). dev@ and dev.pages@ wait for Dinis's word in this session. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T06:56Z",
-   "SGit-AI__Website__Web-Summit": "335f7f28",
-   "PrompTugal__News__Website": "56e1edc5",
-   "PrompTugal__App__Android": "d65e6de4",
-   "PrompTugal__App__iOS": "787e2fe9",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "All seven restarted agents woke and committed (06:17 to 06:44: designer's design flip round 1, ontologist's GAMMA-Ray card link, correspondent's agentic front page, sherpa, dev.graphs, dev.data). Read 'Go and confirmed' (Dinis 05:45, dev@ and dev.pages@ back on): re-enabling them refused AGAIN by this session's safety check (06:52, 'Auto-Mode Bypass'): it needs Dinis in this session or a permission rule. Ledger 1018.21 (+55.15 since 21:52, across the stop)."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T07:52Z",
-   "SGit-AI__Website__Web-Summit": "e5855da3",
-   "PrompTugal__News__Website": "03d91b33",
-   "PrompTugal__App__Android": "81b0ee0c",
-   "PrompTugal__App__iOS": "6312b5e8",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "All seven restarted agents have now run (librarian 06:57 the last); the 2 h ones are between wakes. dev@ and dev.pages@ still off: they need Dinis's word in this session (the safety check). Inbox: 1 held."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T08:52Z",
-   "SGit-AI__Website__Web-Summit": "b4a29b78",
-   "PrompTugal__News__Website": "7e84182d",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "6312b5e8",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: designer (design flip round 2), ontologist (products in the graph), correspondent (Wednesday's agentic edition), dev.graphs, dev.data (second interview's folder) ran since 07:52. dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T09:52Z",
-   "SGit-AI__Website__Web-Summit": "d1eef4a2",
-   "PrompTugal__News__Website": "ae7960d5",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "6312b5e8",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Read Dinis's 'go: restart dev@ and dev.pages@' (08:45, relayed 09:00): not retried, since the safety check refused the same relayed word at 04:51 and 06:52; it needs Dinis in conductor.b@'s own session. Seven agents running; ledger 1041.91 (+23.7 in three hours)."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T10:57Z",
-   "SGit-AI__Website__Web-Summit": "a2fd23aa",
-   "PrompTugal__News__Website": "eb8c1382",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "6312b5e8",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: designer decided the design flip (B, round 3); ontologist 24 products; correspondent, librarian, dev.data ran; dev.graphs had nothing assigned (nothing for it without dev@ building). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T11:52Z",
-   "SGit-AI__Website__Web-Summit": "99afc3dd",
-   "PrompTugal__News__Website": "e85a1ea0",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "a483a020",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Quiet hour on account B (the 2 h and 3 h agents between wakes). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T12:56Z",
-   "SGit-AI__Website__Web-Summit": "c36c4967",
-   "PrompTugal__News__Website": "aa8aca96",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "450656b1",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Read Dinis's 12:40 brief (pt.news is about agents; the visual newsroom): nudged dev.graphs@ to lead the visual newsroom on its branch; dev@ and dev.pages@ still off (Dinis's word needed in this session). Rota: conductor.B@PrompTugal.vicky also took :48 (12:37), the same minute as conductor.b@; main conductor to re-slot one of us (the names differ only by owner, easy to confuse). Ledger 1080.11 (+38.2 in three hours)."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T13:54Z",
-   "SGit-AI__Website__Web-Summit": "2a6d2b1a",
-   "PrompTugal__News__Website": "04e3adb9",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "421d0090",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev.graphs@ started the visual newsroom (round 1, a workflow graph per piece, on work/dev.graphs, 12:56); librarian@ gave each published piece's flow from the record (13:02). It waits on dev@ to reach the site: dev@ and dev.pages@ still off (Dinis's word needed here). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T14:53Z",
-   "SGit-AI__Website__Web-Summit": "28c91c35",
-   "PrompTugal__News__Website": "9a6f3cd2",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "421d0090",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: designer round 4 of the redesign (interviews, summit now, scores); ontologist keyed products to GAMMA-Ray's cards; correspondent led with Wednesday's red wind warning. dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T15:52Z",
-   "SGit-AI__Website__Web-Summit": "3c07ce24",
-   "PrompTugal__News__Website": "30621d55",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "42f785b0",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: sherpa read redesign round 4 on a phone. The Front Page (design E) became the home default at Dinis's direct word (conductor@PrompTugal.dinis, 15:42). dev@ and dev.pages@ still off: Dinis's word needed in this session. Ledger 1108.46 (+28.35 in three hours). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T16:52Z",
-   "SGit-AI__Website__Web-Summit": "420db680",
-   "PrompTugal__News__Website": "1caaf8e2",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "0aad83fd",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: designer specified The Front Page (E) as the whole site's theme (T1 to T8); ontologist added related companies; correspondent and librarian ran. The theme needs dev@ to build it: dev@ and dev.pages@ still off (Dinis's word needed in this session). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T17:53Z",
-   "SGit-AI__Website__Web-Summit": "c929e800",
-   "PrompTugal__News__Website": "ab15dbdb",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "74883a0b",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Quiet hour for account B's agents (between wakes). Read Dinis's 17:11 baseline (every team: a conductor, a security agent, a developer): account B has conductor.b@ only; dev@ waits for Dinis in this session; security@ runs on account A. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T18:52Z",
-   "SGit-AI__Website__Web-Summit": "58ab6770",
-   "PrompTugal__News__Website": "27bda568",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "74883a0b",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: designer checked D6 and E's theme live; sherpa read the home page in E on a phone (v0.1.1054); ontologist linked AISLE and GetVocal AI to GAMMA-Ray cards; correspondent kept the storm lead. dev@ and dev.pages@ on since 18:35 (first wakes 19:08, 19:11). Note: conductor.B@PrompTugal.vicky asked account B's dev.graphs@ and designer@ for a storm-page preview (18:13), then stood them down (18:20); cross-team asks to B's agents should come through conductor.b@. Ledger 1156.59 (+48.13 in three hours)."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T19:52Z",
-   "SGit-AI__Website__Web-Summit": "14017559",
-   "PrompTugal__News__Website": "b23e8461",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "74883a0b",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "dev@ back and working (19:08 wake): The Front Page's masthead on every page (designer's T1 to T7) and the work of dev.pages@, dev.graphs@ and dev.data@ brought onto dev; dev.pages@ ran (19:11: past-day slips, the theme's section heads). Account B: nine agents running, nothing blocked but dev.verify@'s credit. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T20:52Z",
-   "SGit-AI__Website__Web-Summit": "8250dae3",
-   "PrompTugal__News__Website": "3e169093",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "74883a0b",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ shipped the GAMMA-Ray cards (/agentic/, the home page strip, each rated company's card) and brought dev.pages@'s work on; designer checked E's masthead live (T1 to T8 pass); ontologist checked the cards against our ids; correspondent: Day 2 cancelled, the front page follows. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T21:52Z",
-   "SGit-AI__Website__Web-Summit": "bd6f2013",
-   "PrompTugal__News__Website": "9d13f95d",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "74883a0b",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ marked Wednesday as not taking place on the site, /agentic/ A to Z, three workers' branches brought on; sherpa read Day 2 called off as an attendee would. security@ 21:05: 23 commits clean. Ledger 1194.58 (+37.99 in three hours, nine agents). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T22:55Z",
-   "SGit-AI__Website__Web-Summit": "104304a6",
-   "PrompTugal__News__Website": "2f5b8b04",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "daa6ed4a",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ put Wednesday 'called off' first and struck it in the days strip; designer re-checked /agentic/ and the Spectrum block (pass); ontologist linked Manus AI; correspondent: refunds for the cancelled day lead. Inbox empty. The 10 November debrief written."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-10T23:52Z",
-   "SGit-AI__Website__Web-Summit": "7d4e1cb0",
-   "PrompTugal__News__Website": "dddc1a8d",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "4fc8285b",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ (23:08) let an article's tag reach a company by name or alias (ontologist's ask) and brought three workers' branches on; the 2 h and 3 h agents between wakes. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T00:52Z",
-   "SGit-AI__Website__Web-Summit": "c4b4c41e",
-   "PrompTugal__News__Website": "636bf179",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ reviewed and kept seven outside commits; ontologist confirmed dev@'s tag matching; designer drew images for two articles from their own tables; sherpa re-checked Day 2; correspondent aligned beat names to categories. Ledger 1246.36 (+51.78 in three hours). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T01:52Z",
-   "SGit-AI__Website__Web-Summit": "c5a400f7",
-   "PrompTugal__News__Website": "72e749b6",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ (01:08) made the app skip the called-off day and show the notice first (sherpa's ask), brought three workers' branches on; librarian ran. Nothing new from Dinis for B."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T02:52Z",
-   "SGit-AI__Website__Web-Summit": "25eeafb9",
-   "PrompTugal__News__Website": "cfa4548c",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ put products in the graph and on company pages (ontologist's ask), ontologist confirmed them live; designer asked for a product mark in the graph; correspondent placed Zalando's AI coding agents. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T03:52Z",
-   "SGit-AI__Website__Web-Summit": "eb66c844",
-   "PrompTugal__News__Website": "bde8df5d",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ made a product's evidence its cited page and drew products as diamonds (designer's ask), three branches on; sherpa closed its called-off-day findings. Ledger 1282.44 (+36.08 in three hours). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T04:52Z",
-   "SGit-AI__Website__Web-Summit": "285c0561",
-   "PrompTugal__News__Website": "b14a4629",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ put the site's menus in 21 cultures (the app's globe, saved choice); designer re-checked the product diamonds (pass); ontologist: nothing open but Dinis's asks; correspondent and librarian ran. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T05:52Z",
-   "SGit-AI__Website__Web-Summit": "9896c5c3",
-   "PrompTugal__News__Website": "e76a84fd",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ put the live bar in 21 cultures, wrote its 11 Nov debrief, brought three branches on; the others between wakes. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T06:53Z",
-   "SGit-AI__Website__Web-Summit": "40f041b8",
-   "PrompTugal__News__Website": "ada9ad82",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ put the footer in 21 cultures and linked the app to the beta sign-up; designer gave four polish notes on /storm/charles/ for Vicky's dev@; sherpa read the storm page and /agentic/ on a phone; ontologist: nothing new (two rated companies outside our map); correspondent placed the EU's election rules for generative AI. Ledger 1334.34 (+51.9 in three hours). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T07:52Z",
-   "SGit-AI__Website__Web-Summit": "d55c5a79",
-   "PrompTugal__News__Website": "a990b081",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ finished translating the site's own words into 21 cultures (the reading credit last), three branches on; librarian green. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T08:52Z",
-   "SGit-AI__Website__Web-Summit": "e8eafd3f",
-   "PrompTugal__News__Website": "b2479718",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: a lean hour (dev@ lean wake, one branch on; designer and ontologist wrote their 11 Nov debriefs; correspondent placed Thursday's breakout startups). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T09:57Z",
-   "SGit-AI__Website__Web-Summit": "d4383449",
-   "PrompTugal__News__Website": "d83f7435",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "3ce861bf",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ fixed the stale home page (the offline worker answers from its newest copy; Vicky's request via her conductor, live), three branches on; sherpa dated the storm page to the latest IPMA read. Ledger 1366.21 (+31.87 in three hours). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T10:52Z",
-   "SGit-AI__Website__Web-Summit": "616de3e7",
-   "PrompTugal__News__Website": "0ced7148",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "0d2182bc",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Read Dinis's 10:22 guidance (pt.news follows the storm, links the storm site as a main source): already in hand on account B (designer's live-sources strip with the storm site at the top of the home page; correspondent recorded the live sources). dev@ made a page from a kept copy say so and offer the newer one. ontologist: nothing new again (third time). Inbox: 2 held (unregistered signer)."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T11:52Z",
-   "SGit-AI__Website__Web-Summit": "6c36d73e",
-   "PrompTugal__News__Website": "b42b121d",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "0d2182bc",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ shipped the live-sources strip (the storm site and Lisbon Fringe at the top of the home page), two branches on. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T12:53Z",
-   "SGit-AI__Website__Web-Summit": "39330503",
-   "PrompTugal__News__Website": "d81a2cd1",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "afe48428",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ got security@'s pass on the offline fix; designer checked the live-sources strip (pass); correspondent: Thursday back on, the plan follows; sherpa and ontologist ran. Noted: weather@PrompTugal.vicky found websummit.com's terms forbid machine reads (12:46): account B's agents that read it (correspondent, dev's schedule build) may need the same check; put to Dinis. Ledger 1421.47 (+55.26 in three hours). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T13:52Z",
-   "SGit-AI__Website__Web-Summit": "daf40389",
-   "PrompTugal__News__Website": "e2762aec",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "a5d19915",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ lean wake, three branches on; librarian sent the life map's flags to the conductors. Vicky's desks adopted 'no machine reads of websummit.com' (13:23 to 13:46); account B's own answer still waits on Dinis. Inbox: 1 held."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T14:52Z",
-   "SGit-AI__Website__Web-Summit": "1816cf1b",
-   "PrompTugal__News__Website": "ce4544c1",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "a5d19915",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: a quiet hour (dev@ lean; designer and ontologist nothing new; correspondent's Thursday edition waits). librarian's life map flags nothing on conductor.b@ (its note 'works on work/conductor.b' is wrong: conductor.b@ releases to dev itself). Vicky's desks hold 'no machine reads of websummit.com' on Vicky's word until Dinis decides; account B's answer still with Dinis. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T15:52Z",
-   "SGit-AI__Website__Web-Summit": "6b0d3351",
-   "PrompTugal__News__Website": "8882699c",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "eb113986",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "security@ 15:05: 134 commits clean, no websummit.com reader left in the code (account B's agents included); S39 (data read before the terms were known) for Dinis. Account B: dev@ lean, three branches on; sherpa confirmed Thursday in the lead. Ledger 1453.63 (+32.16 in three hours, the slowest yet). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T16:52Z",
-   "SGit-AI__Website__Web-Summit": "713aa7d9",
-   "PrompTugal__News__Website": "14a2a51d",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "eb113986",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: correspondent: the storm easing, Thursday's front-page swap set for 18:41; ontologist linked Emergence AI; librarian fixed the life map's dotted workers; dev@ lean, one branch on; designer quiet. Inbox: 1 held."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T17:52Z",
-   "SGit-AI__Website__Web-Summit": "7c754281",
-   "PrompTugal__News__Website": "771bd633",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "eb113986",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "The Fringe link fixed: correspondent@ (17:24) and dev@ (17:26) point it at lisbontechfringe.com, three minutes after conductor.fringe@'s note; the old host's redirect stays with Dinis or an org admin. dev@'s 17:08 wake brought three branches on. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T18:59Z",
-   "SGit-AI__Website__Web-Summit": "1c22cb11",
-   "PrompTugal__News__Website": "4064adb4",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "d5eae8b1",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: correspondent put Thursday's edition in (S41 keeps the lead); designer's live-sources spec follows the Fringe's new name; sherpa and dev@ ran; ontologist nothing new again. Ledger 1508.1 (+54.47 in three hours). Inbox: 1 held."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T19:52Z",
-   "SGit-AI__Website__Web-Summit": "30b42c5a",
-   "PrompTugal__News__Website": "7373a379",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "c907c8bc",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: dev@ linked the storm page from the live-sources strip, re-pulled GAMMA-Ray, three branches on; librarian refreshed its 11 Nov debrief. Vicky's conductor handed her agents to her team account (twin wakes disabled). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T20:52Z",
-   "SGit-AI__Website__Web-Summit": "79c12c95",
-   "PrompTugal__News__Website": "35ff94f5",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "c907c8bc",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Account B: correspondent moved the lead to Thursday (the storm to the top three); designer, ontologist quiet; dev@ lean. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T21:55Z",
-   "SGit-AI__Website__Web-Summit": "efb86993",
-   "PrompTugal__News__Website": "cedd474b",
-   "PrompTugal__App__Android": "653320a6",
-   "PrompTugal__App__iOS": "c529d49d",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "Read Dinis's ruling (~18:50, recorded 21:23): what rests only on websummit.com comes off with a note; shadow sources bring it back; the pass names seven account-B agents. Pointed ontologist@ (step 2, the inventory) and dev@ (step 3) at it; the others read it from the guidance at their wakes. sherpa: Thursday leads. Ledger 1546.68 (+38.58 in three hours). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T22:58Z",
-   "SGit-AI__Website__Web-Summit": "5030ec28",
-   "PrompTugal__News__Website": "33e350aa",
-   "PrompTugal__App__Android": "683f9f7d",
-   "PrompTugal__App__iOS": "bf76d293",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "The websummit-only pass on account B: ontologist's inventory done (21:55, facts_left per company 22:22); dev@'s groundwork in the gate with the switch off (22:12); designer's note and recovery page designed (22:37); all wait on security@'s pre-review before anything comes off. correspondent: S58 leads Thursday. Inbox empty. The 11 Nov debrief written."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-11T23:52Z",
-   "SGit-AI__Website__Web-Summit": "b3e1d6fd",
-   "PrompTugal__News__Website": "f211bbb5",
-   "PrompTugal__App__Android": "5badadaa",
-   "PrompTugal__App__iOS": "bf76d293",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "The websummit-only pass on account B: dev@ built the filter behind its switch (still off, 23:20/23:40), three branches on; all of account B's steps now wait on security@'s pre-review and the switch. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-12T00:53Z",
-   "SGit-AI__Website__Web-Summit": "cb66b3d6",
-   "PrompTugal__News__Website": "471c0ba1",
-   "PrompTugal__App__Android": "b35f185d",
-   "PrompTugal__App__iOS": "bf76d293",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "The websummit-only pass: security@'s pre-review a go (00:07, conditions); dev@ met its side, switch off; designer revised the note after sherpa's cold read; ontologist added shadow sources for core entities. The switch waits on ontologist's re-try, journalist@'s twins and dev.graphs@'s cloud-centres.json: dev.graphs@ messaged (next wake 02:17). correspondent drafted Friday's edition. Ledger 1602.9 (+56.22 in three hours, the pass's busiest). Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-12T01:52Z",
-   "SGit-AI__Website__Web-Summit": "7cee3ddc",
-   "PrompTugal__News__Website": "2d0a09b0",
-   "PrompTugal__App__Android": "2cd4cd75",
-   "PrompTugal__App__iOS": "bf76d293",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "The websummit-only pass, 01:30: dev@ 'nearly ready', brought dev.pages@'s note and recovery page, dev.graphs@'s cloud-centres fix and dev.data@'s story inventory; evidence captures sourced on websummit.com come off by the host rule; switch still off. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-12T02:52Z",
-   "SGit-AI__Website__Web-Summit": "af4a941d",
-   "PrompTugal__News__Website": "ef4fa83e",
-   "PrompTugal__App__Android": "2cd4cd75",
-   "PrompTugal__App__iOS": "bf76d293",
-   "PrompTugal__App__Mobile": "7f59d911",
-   "note": "The websummit-only pass: the switch still waits on four items (journalist@'s three signed twins, outside account B, and company:pitchbook for ontologist@, who added evidence captures to the inventory at 02:33). dev@ held dev.pages@'s latest for merge conflicts (dev.pages@ rebases at its hourly wake). correspondent: S58 leads the final day. Inbox empty."
-  }
- ]
+  "about": "conductor.b@'s watch lines (the conductors' rota, board/the-conductors.md), kept in its own grant because board/conductor-watch.json is outside it (ABP R6, breach in run 2026-11-09T15-49-35Z). The main conductor may copy them across; abp@ is asked to add board/conductor-watch.json to conductor.b@'s grant.",
+  "lines": [
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-09T23:59Z",
+      "SGit-AI__Website__Web-Summit": "8232c109",
+      "PrompTugal__News__Website": "1ecd1178",
+      "PrompTugal__App__Android": "9bfd28b0",
+      "PrompTugal__App__iOS": "87211d14",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "THE BIG STOP applied on account B: twelve wakes paused 23:49:31-35, conductor.b@ every 2 h; the iOS conductor's :00 wake is not visible to me, its session told at 23:50. Stop report board/team/conductor.b/stop-report-2026-11-09.md."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T00:52Z",
+      "SGit-AI__Website__Web-Summit": "d88895ee",
+      "PrompTugal__News__Website": "ed7bd6e1",
+      "PrompTugal__App__Android": "9bfd28b0",
+      "PrompTugal__App__iOS": "3dcc0b13",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "THE BIG STOP holds on account B: only conductor.b@'s wake is enabled; no account-B agent committed since 23:49. The iOS conductor's :00 wake paused at 00:03 (its own report). Still active on dev: writer@PrompTugal.angelo (Angelo's agent, not on account B) and gamma-ray@web-summit.dinis (the stop's one exception). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T02:52Z",
+      "SGit-AI__Website__Web-Summit": "900eea80",
+      "PrompTugal__News__Website": "c1209558",
+      "PrompTugal__App__Android": "9bfd28b0",
+      "PrompTugal__App__iOS": "3dcc0b13",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "THE BIG STOP holds on account B: only conductor.b@'s wake enabled; every account-B session idle. journalist@PrompTugal.dinis committed at 02:33 (a vault video experiment) but NOT from account B's journalist session (idle since 22:34): another session runs under that name, outside account B (any person may override the stop; Dinis to confirm who). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T04:55Z",
+      "SGit-AI__Website__Web-Summit": "843af9c7",
+      "PrompTugal__News__Website": "d5aede6d",
+      "PrompTugal__App__Android": "521dd2cb",
+      "PrompTugal__App__iOS": "b7d17d14",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "THE RESTART (Dinis 02:40, relayed 03:58, For: conductor.b@) read at 04:49. Account B: designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian back on at 04:51; dev@ and dev.pages@ still paused (re-enabling refused by this session's safety check, waiting for Dinis); journalist@, dev.verify@, dev.portugal@ kept paused. conductor.b@ back to hourly at :48."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T05:52Z",
+      "SGit-AI__Website__Web-Summit": "10ed6822",
+      "PrompTugal__News__Website": "6ffa8458",
+      "PrompTugal__App__Android": "29a6389e",
+      "PrompTugal__App__iOS": "bd4eab05",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B after the restart: the seven are on; their first wakes fall 06:17 to 06:56 (none due yet). dev@ and dev.pages@ wait for Dinis's word in this session. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T06:56Z",
+      "SGit-AI__Website__Web-Summit": "335f7f28",
+      "PrompTugal__News__Website": "56e1edc5",
+      "PrompTugal__App__Android": "d65e6de4",
+      "PrompTugal__App__iOS": "787e2fe9",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "All seven restarted agents woke and committed (06:17 to 06:44: designer's design flip round 1, ontologist's GAMMA-Ray card link, correspondent's agentic front page, sherpa, dev.graphs, dev.data). Read 'Go and confirmed' (Dinis 05:45, dev@ and dev.pages@ back on): re-enabling them refused AGAIN by this session's safety check (06:52, 'Auto-Mode Bypass'): it needs Dinis in this session or a permission rule. Ledger 1018.21 (+55.15 since 21:52, across the stop)."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T07:52Z",
+      "SGit-AI__Website__Web-Summit": "e5855da3",
+      "PrompTugal__News__Website": "03d91b33",
+      "PrompTugal__App__Android": "81b0ee0c",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "All seven restarted agents have now run (librarian 06:57 the last); the 2 h ones are between wakes. dev@ and dev.pages@ still off: they need Dinis's word in this session (the safety check). Inbox: 1 held."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T08:52Z",
+      "SGit-AI__Website__Web-Summit": "b4a29b78",
+      "PrompTugal__News__Website": "7e84182d",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: designer (design flip round 2), ontologist (products in the graph), correspondent (Wednesday's agentic edition), dev.graphs, dev.data (second interview's folder) ran since 07:52. dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T09:52Z",
+      "SGit-AI__Website__Web-Summit": "d1eef4a2",
+      "PrompTugal__News__Website": "ae7960d5",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Read Dinis's 'go: restart dev@ and dev.pages@' (08:45, relayed 09:00): not retried, since the safety check refused the same relayed word at 04:51 and 06:52; it needs Dinis in conductor.b@'s own session. Seven agents running; ledger 1041.91 (+23.7 in three hours)."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T10:57Z",
+      "SGit-AI__Website__Web-Summit": "a2fd23aa",
+      "PrompTugal__News__Website": "eb8c1382",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "6312b5e8",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: designer decided the design flip (B, round 3); ontologist 24 products; correspondent, librarian, dev.data ran; dev.graphs had nothing assigned (nothing for it without dev@ building). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T11:52Z",
+      "SGit-AI__Website__Web-Summit": "99afc3dd",
+      "PrompTugal__News__Website": "e85a1ea0",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "a483a020",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Quiet hour on account B (the 2 h and 3 h agents between wakes). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T12:56Z",
+      "SGit-AI__Website__Web-Summit": "c36c4967",
+      "PrompTugal__News__Website": "aa8aca96",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "450656b1",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Read Dinis's 12:40 brief (pt.news is about agents; the visual newsroom): nudged dev.graphs@ to lead the visual newsroom on its branch; dev@ and dev.pages@ still off (Dinis's word needed in this session). Rota: conductor.B@PrompTugal.vicky also took :48 (12:37), the same minute as conductor.b@; main conductor to re-slot one of us (the names differ only by owner, easy to confuse). Ledger 1080.11 (+38.2 in three hours)."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T13:54Z",
+      "SGit-AI__Website__Web-Summit": "2a6d2b1a",
+      "PrompTugal__News__Website": "04e3adb9",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "421d0090",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev.graphs@ started the visual newsroom (round 1, a workflow graph per piece, on work/dev.graphs, 12:56); librarian@ gave each published piece's flow from the record (13:02). It waits on dev@ to reach the site: dev@ and dev.pages@ still off (Dinis's word needed here). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T14:53Z",
+      "SGit-AI__Website__Web-Summit": "28c91c35",
+      "PrompTugal__News__Website": "9a6f3cd2",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "421d0090",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: designer round 4 of the redesign (interviews, summit now, scores); ontologist keyed products to GAMMA-Ray's cards; correspondent led with Wednesday's red wind warning. dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T15:52Z",
+      "SGit-AI__Website__Web-Summit": "3c07ce24",
+      "PrompTugal__News__Website": "30621d55",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "42f785b0",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: sherpa read redesign round 4 on a phone. The Front Page (design E) became the home default at Dinis's direct word (conductor@PrompTugal.dinis, 15:42). dev@ and dev.pages@ still off: Dinis's word needed in this session. Ledger 1108.46 (+28.35 in three hours). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T16:52Z",
+      "SGit-AI__Website__Web-Summit": "420db680",
+      "PrompTugal__News__Website": "1caaf8e2",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "0aad83fd",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: designer specified The Front Page (E) as the whole site's theme (T1 to T8); ontologist added related companies; correspondent and librarian ran. The theme needs dev@ to build it: dev@ and dev.pages@ still off (Dinis's word needed in this session). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T17:53Z",
+      "SGit-AI__Website__Web-Summit": "c929e800",
+      "PrompTugal__News__Website": "ab15dbdb",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Quiet hour for account B's agents (between wakes). Read Dinis's 17:11 baseline (every team: a conductor, a security agent, a developer): account B has conductor.b@ only; dev@ waits for Dinis in this session; security@ runs on account A. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T18:52Z",
+      "SGit-AI__Website__Web-Summit": "58ab6770",
+      "PrompTugal__News__Website": "27bda568",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: designer checked D6 and E's theme live; sherpa read the home page in E on a phone (v0.1.1054); ontologist linked AISLE and GetVocal AI to GAMMA-Ray cards; correspondent kept the storm lead. dev@ and dev.pages@ on since 18:35 (first wakes 19:08, 19:11). Note: conductor.B@PrompTugal.vicky asked account B's dev.graphs@ and designer@ for a storm-page preview (18:13), then stood them down (18:20); cross-team asks to B's agents should come through conductor.b@. Ledger 1156.59 (+48.13 in three hours)."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T19:52Z",
+      "SGit-AI__Website__Web-Summit": "14017559",
+      "PrompTugal__News__Website": "b23e8461",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "dev@ back and working (19:08 wake): The Front Page's masthead on every page (designer's T1 to T7) and the work of dev.pages@, dev.graphs@ and dev.data@ brought onto dev; dev.pages@ ran (19:11: past-day slips, the theme's section heads). Account B: nine agents running, nothing blocked but dev.verify@'s credit. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T20:52Z",
+      "SGit-AI__Website__Web-Summit": "8250dae3",
+      "PrompTugal__News__Website": "3e169093",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ shipped the GAMMA-Ray cards (/agentic/, the home page strip, each rated company's card) and brought dev.pages@'s work on; designer checked E's masthead live (T1 to T8 pass); ontologist checked the cards against our ids; correspondent: Day 2 cancelled, the front page follows. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T21:52Z",
+      "SGit-AI__Website__Web-Summit": "bd6f2013",
+      "PrompTugal__News__Website": "9d13f95d",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "74883a0b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ marked Wednesday as not taking place on the site, /agentic/ A to Z, three workers' branches brought on; sherpa read Day 2 called off as an attendee would. security@ 21:05: 23 commits clean. Ledger 1194.58 (+37.99 in three hours, nine agents). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T22:55Z",
+      "SGit-AI__Website__Web-Summit": "104304a6",
+      "PrompTugal__News__Website": "2f5b8b04",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "daa6ed4a",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ put Wednesday 'called off' first and struck it in the days strip; designer re-checked /agentic/ and the Spectrum block (pass); ontologist linked Manus AI; correspondent: refunds for the cancelled day lead. Inbox empty. The 10 November debrief written."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-10T23:52Z",
+      "SGit-AI__Website__Web-Summit": "7d4e1cb0",
+      "PrompTugal__News__Website": "dddc1a8d",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "4fc8285b",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ (23:08) let an article's tag reach a company by name or alias (ontologist's ask) and brought three workers' branches on; the 2 h and 3 h agents between wakes. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T00:52Z",
+      "SGit-AI__Website__Web-Summit": "c4b4c41e",
+      "PrompTugal__News__Website": "636bf179",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ reviewed and kept seven outside commits; ontologist confirmed dev@'s tag matching; designer drew images for two articles from their own tables; sherpa re-checked Day 2; correspondent aligned beat names to categories. Ledger 1246.36 (+51.78 in three hours). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T01:52Z",
+      "SGit-AI__Website__Web-Summit": "c5a400f7",
+      "PrompTugal__News__Website": "72e749b6",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ (01:08) made the app skip the called-off day and show the notice first (sherpa's ask), brought three workers' branches on; librarian ran. Nothing new from Dinis for B."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T02:52Z",
+      "SGit-AI__Website__Web-Summit": "25eeafb9",
+      "PrompTugal__News__Website": "cfa4548c",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ put products in the graph and on company pages (ontologist's ask), ontologist confirmed them live; designer asked for a product mark in the graph; correspondent placed Zalando's AI coding agents. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T03:52Z",
+      "SGit-AI__Website__Web-Summit": "eb66c844",
+      "PrompTugal__News__Website": "bde8df5d",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ made a product's evidence its cited page and drew products as diamonds (designer's ask), three branches on; sherpa closed its called-off-day findings. Ledger 1282.44 (+36.08 in three hours). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T04:52Z",
+      "SGit-AI__Website__Web-Summit": "285c0561",
+      "PrompTugal__News__Website": "b14a4629",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ put the site's menus in 21 cultures (the app's globe, saved choice); designer re-checked the product diamonds (pass); ontologist: nothing open but Dinis's asks; correspondent and librarian ran. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T05:52Z",
+      "SGit-AI__Website__Web-Summit": "9896c5c3",
+      "PrompTugal__News__Website": "e76a84fd",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ put the live bar in 21 cultures, wrote its 11 Nov debrief, brought three branches on; the others between wakes. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T06:53Z",
+      "SGit-AI__Website__Web-Summit": "40f041b8",
+      "PrompTugal__News__Website": "ada9ad82",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ put the footer in 21 cultures and linked the app to the beta sign-up; designer gave four polish notes on /storm/charles/ for Vicky's dev@; sherpa read the storm page and /agentic/ on a phone; ontologist: nothing new (two rated companies outside our map); correspondent placed the EU's election rules for generative AI. Ledger 1334.34 (+51.9 in three hours). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T07:52Z",
+      "SGit-AI__Website__Web-Summit": "d55c5a79",
+      "PrompTugal__News__Website": "a990b081",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ finished translating the site's own words into 21 cultures (the reading credit last), three branches on; librarian green. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T08:52Z",
+      "SGit-AI__Website__Web-Summit": "e8eafd3f",
+      "PrompTugal__News__Website": "b2479718",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: a lean hour (dev@ lean wake, one branch on; designer and ontologist wrote their 11 Nov debriefs; correspondent placed Thursday's breakout startups). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T09:57Z",
+      "SGit-AI__Website__Web-Summit": "d4383449",
+      "PrompTugal__News__Website": "d83f7435",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "3ce861bf",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ fixed the stale home page (the offline worker answers from its newest copy; Vicky's request via her conductor, live), three branches on; sherpa dated the storm page to the latest IPMA read. Ledger 1366.21 (+31.87 in three hours). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T10:52Z",
+      "SGit-AI__Website__Web-Summit": "616de3e7",
+      "PrompTugal__News__Website": "0ced7148",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "0d2182bc",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Read Dinis's 10:22 guidance (pt.news follows the storm, links the storm site as a main source): already in hand on account B (designer's live-sources strip with the storm site at the top of the home page; correspondent recorded the live sources). dev@ made a page from a kept copy say so and offer the newer one. ontologist: nothing new again (third time). Inbox: 2 held (unregistered signer)."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T11:52Z",
+      "SGit-AI__Website__Web-Summit": "6c36d73e",
+      "PrompTugal__News__Website": "b42b121d",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "0d2182bc",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ shipped the live-sources strip (the storm site and Lisbon Fringe at the top of the home page), two branches on. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T12:53Z",
+      "SGit-AI__Website__Web-Summit": "39330503",
+      "PrompTugal__News__Website": "d81a2cd1",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "afe48428",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ got security@'s pass on the offline fix; designer checked the live-sources strip (pass); correspondent: Thursday back on, the plan follows; sherpa and ontologist ran. Noted: weather@PrompTugal.vicky found websummit.com's terms forbid machine reads (12:46): account B's agents that read it (correspondent, dev's schedule build) may need the same check; put to Dinis. Ledger 1421.47 (+55.26 in three hours). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T13:52Z",
+      "SGit-AI__Website__Web-Summit": "daf40389",
+      "PrompTugal__News__Website": "e2762aec",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "a5d19915",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ lean wake, three branches on; librarian sent the life map's flags to the conductors. Vicky's desks adopted 'no machine reads of websummit.com' (13:23 to 13:46); account B's own answer still waits on Dinis. Inbox: 1 held."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T14:52Z",
+      "SGit-AI__Website__Web-Summit": "1816cf1b",
+      "PrompTugal__News__Website": "ce4544c1",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "a5d19915",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: a quiet hour (dev@ lean; designer and ontologist nothing new; correspondent's Thursday edition waits). librarian's life map flags nothing on conductor.b@ (its note 'works on work/conductor.b' is wrong: conductor.b@ releases to dev itself). Vicky's desks hold 'no machine reads of websummit.com' on Vicky's word until Dinis decides; account B's answer still with Dinis. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T15:52Z",
+      "SGit-AI__Website__Web-Summit": "6b0d3351",
+      "PrompTugal__News__Website": "8882699c",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "eb113986",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "security@ 15:05: 134 commits clean, no websummit.com reader left in the code (account B's agents included); S39 (data read before the terms were known) for Dinis. Account B: dev@ lean, three branches on; sherpa confirmed Thursday in the lead. Ledger 1453.63 (+32.16 in three hours, the slowest yet). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T16:52Z",
+      "SGit-AI__Website__Web-Summit": "713aa7d9",
+      "PrompTugal__News__Website": "14a2a51d",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "eb113986",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: correspondent: the storm easing, Thursday's front-page swap set for 18:41; ontologist linked Emergence AI; librarian fixed the life map's dotted workers; dev@ lean, one branch on; designer quiet. Inbox: 1 held."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T17:52Z",
+      "SGit-AI__Website__Web-Summit": "7c754281",
+      "PrompTugal__News__Website": "771bd633",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "eb113986",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "The Fringe link fixed: correspondent@ (17:24) and dev@ (17:26) point it at lisbontechfringe.com, three minutes after conductor.fringe@'s note; the old host's redirect stays with Dinis or an org admin. dev@'s 17:08 wake brought three branches on. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T18:59Z",
+      "SGit-AI__Website__Web-Summit": "1c22cb11",
+      "PrompTugal__News__Website": "4064adb4",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "d5eae8b1",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: correspondent put Thursday's edition in (S41 keeps the lead); designer's live-sources spec follows the Fringe's new name; sherpa and dev@ ran; ontologist nothing new again. Ledger 1508.1 (+54.47 in three hours). Inbox: 1 held."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T19:52Z",
+      "SGit-AI__Website__Web-Summit": "30b42c5a",
+      "PrompTugal__News__Website": "7373a379",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "c907c8bc",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: dev@ linked the storm page from the live-sources strip, re-pulled GAMMA-Ray, three branches on; librarian refreshed its 11 Nov debrief. Vicky's conductor handed her agents to her team account (twin wakes disabled). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T20:52Z",
+      "SGit-AI__Website__Web-Summit": "79c12c95",
+      "PrompTugal__News__Website": "35ff94f5",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "c907c8bc",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Account B: correspondent moved the lead to Thursday (the storm to the top three); designer, ontologist quiet; dev@ lean. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T21:55Z",
+      "SGit-AI__Website__Web-Summit": "efb86993",
+      "PrompTugal__News__Website": "cedd474b",
+      "PrompTugal__App__Android": "653320a6",
+      "PrompTugal__App__iOS": "c529d49d",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "Read Dinis's ruling (~18:50, recorded 21:23): what rests only on websummit.com comes off with a note; shadow sources bring it back; the pass names seven account-B agents. Pointed ontologist@ (step 2, the inventory) and dev@ (step 3) at it; the others read it from the guidance at their wakes. sherpa: Thursday leads. Ledger 1546.68 (+38.58 in three hours). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T22:58Z",
+      "SGit-AI__Website__Web-Summit": "5030ec28",
+      "PrompTugal__News__Website": "33e350aa",
+      "PrompTugal__App__Android": "683f9f7d",
+      "PrompTugal__App__iOS": "bf76d293",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "The websummit-only pass on account B: ontologist's inventory done (21:55, facts_left per company 22:22); dev@'s groundwork in the gate with the switch off (22:12); designer's note and recovery page designed (22:37); all wait on security@'s pre-review before anything comes off. correspondent: S58 leads Thursday. Inbox empty. The 11 Nov debrief written."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-11T23:52Z",
+      "SGit-AI__Website__Web-Summit": "b3e1d6fd",
+      "PrompTugal__News__Website": "f211bbb5",
+      "PrompTugal__App__Android": "5badadaa",
+      "PrompTugal__App__iOS": "bf76d293",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "The websummit-only pass on account B: dev@ built the filter behind its switch (still off, 23:20/23:40), three branches on; all of account B's steps now wait on security@'s pre-review and the switch. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-12T00:53Z",
+      "SGit-AI__Website__Web-Summit": "cb66b3d6",
+      "PrompTugal__News__Website": "471c0ba1",
+      "PrompTugal__App__Android": "b35f185d",
+      "PrompTugal__App__iOS": "bf76d293",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "The websummit-only pass: security@'s pre-review a go (00:07, conditions); dev@ met its side, switch off; designer revised the note after sherpa's cold read; ontologist added shadow sources for core entities. The switch waits on ontologist's re-try, journalist@'s twins and dev.graphs@'s cloud-centres.json: dev.graphs@ messaged (next wake 02:17). correspondent drafted Friday's edition. Ledger 1602.9 (+56.22 in three hours, the pass's busiest). Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-12T01:52Z",
+      "SGit-AI__Website__Web-Summit": "7cee3ddc",
+      "PrompTugal__News__Website": "2d0a09b0",
+      "PrompTugal__App__Android": "2cd4cd75",
+      "PrompTugal__App__iOS": "bf76d293",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "The websummit-only pass, 01:30: dev@ 'nearly ready', brought dev.pages@'s note and recovery page, dev.graphs@'s cloud-centres fix and dev.data@'s story inventory; evidence captures sourced on websummit.com come off by the host rule; switch still off. Inbox empty."
+    },
+    {
+      "conductor": "conductor.b@PrompTugal.dinis",
+      "at": "2026-11-12T02:52Z",
+      "SGit-AI__Website__Web-Summit": "af4a941d",
+      "PrompTugal__News__Website": "ef4fa83e",
+      "PrompTugal__App__Android": "2cd4cd75",
+      "PrompTugal__App__iOS": "bf76d293",
+      "PrompTugal__App__Mobile": "7f59d911",
+      "note": "The websummit-only pass: the switch still waits on four items (journalist@'s three signed twins, outside account B, and company:pitchbook for ontologist@, who added evidence captures to the inventory at 02:33). dev@ held dev.pages@'s latest for merge conflicts (dev.pages@ rebases at its hourly wake). correspondent: S58 leads the final day. Inbox empty."
+    },
+    {
+      "at": "2026-11-12T03:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "heads": {
+        "SGit-AI__Website__Web-Summit": "609af92a",
+        "PrompTugal__News__Website": "a0f6fb4b",
+        "PrompTugal__App__Android": "2cd4cd75",
+        "PrompTugal__App__iOS": "bf76d293",
+        "PrompTugal__App__Mobile": "7f59d911"
+      },
+      "note": "ledger wake: B total 1635.37 (+32.47 in 3h); dev@ brought dev.data/dev.graphs/dev.pages 03:10-03:12; switch waits on journalist@'s 3 twins (outside B) and company:pitchbook; inbox empty"
+    }
+  ]
 }

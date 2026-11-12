@@ -27,7 +27,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3098 cards (920 current, 1 superseded, 2177 withdrawn), from the catalogue generated 2026-11-12T00:58:33Z at site v0.1.1328; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3110 cards (822 current, 1 superseded, 2287 withdrawn), from the catalogue generated 2026-11-12T04:01:34Z at site v0.1.1343; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -38,17 +38,17 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 95 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1708 |
+| `TEAM.ROLE` | 1720 |
 | `TEAM.RUN` | 1176 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261112-0024` [workflow.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-handover/workflow.json) (`TEAM.ROLE workflow:8`)
-- `ACC-20261112-0023` [dev.graphs@: what rested only on websummit.com, 11 November 2026](https://promptugal.news/board/team/dev.graphs/websummit-only-inventory-2026-11-11.md) (`TEAM.ROLE websummit-only-inventory-2026-11-11`)
-- `ACC-20261112-0022` [timeline.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-handover/timeline.json) (`TEAM.ROLE timeline:9`)
-- `ACC-20261112-0021` [the-pass.json](https://promptugal.news/board/team/work-desk/traces/the-pass.md) (`TEAM.ROLE the-pass:2`)
-- `ACC-20261112-0020` [the-pass.json](https://promptugal.news/board/team/work-desk/traces/the-pass.json) (`TEAM.ROLE the-pass`)
+- `ACC-20261112-0042` [team/conductor.b/ledger/](https://promptugal.news/board/team/conductor.b/ledger/) (`TEAM.ROLE ledger:2`)
+- `ACC-20261112-0041` [team/accountant/ledger/](https://promptugal.news/board/team/accountant/ledger/) (`TEAM.ROLE ledger`)
+- `ACC-20261112-0040` [team/investors/decks/img/](https://promptugal.news/board/team/investors/decks/img/) (`TEAM.ROLE img:2`)
+- `ACC-20261112-0037` [ws_story_inventory.py](https://promptugal.news/board/team/dev.data/tools/ws_story_inventory.py) (`TEAM.ROLE ws_story_inventory`)
+- `ACC-20261112-0036` [ws_split_story.py](https://promptugal.news/board/team/dev.data/tools/ws_split_story.py) (`TEAM.ROLE ws_split_story`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

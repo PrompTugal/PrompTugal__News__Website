@@ -1,0 +1,162 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S5-websummit",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-10",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Web Summit Lisbon 2026 is held in the MEO Arena and FIL.",
+      "kind": "fact",
+      "source": "websummit-venue-essentials",
+      "quote": "Web Summit will be held in the MEO Arena and FIL, Rossio dos Olivais, 1990-231 Lisbon, Portugal.",
+      "read_on": "2026-11-10",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c02",
+      "text": "Web Summit's venue page gives the dates as 9 to 12 November 2026.",
+      "kind": "fact",
+      "source": "websummit-venue-essentials",
+      "quote": "Venue | Essentials | Web Summit | November 9-12, 2026",
+      "read_on": "2026-11-10",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c03",
+      "text": "Web Summit expects more than 70,000 attendees from more than 100 countries, including 10,000 startups.",
+      "kind": "fact",
+      "source": "websummit-2026-10-22-state-of-industry",
+      "quote": "more than 70,000 attendees from more than 100 countries, including 10,000 startups",
+      "read_on": "2026-11-10",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c04",
+      "text": "Web Summit's speakers page describes 800 speakers.",
+      "kind": "fact",
+      "source": "websummit-speakers",
+      "quote": "Learn from 800 speakers redefining tech",
+      "read_on": "2026-11-10",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c05",
+      "text": "Web Summit's tracks page: 17 tracks, four days.",
+      "kind": "fact",
+      "source": "websummit-tracks",
+      "quote": "Discover all 17 tracks. Four days. One event.",
+      "read_on": "2026-11-10",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "In 2025 over 22,000 startups applied to Web Summit and about 2,700 got in, by its own account.",
+      "kind": "fact",
+      "source": "websummit-how-we-select-startups",
+      "quote": "In 2025, over 22,000 startups applied and about 2,700 got in.",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c07",
+      "text": "Early-stage startups, under 1 million dollars raised, go into ALPHA.",
+      "kind": "fact",
+      "source": "websummit-how-we-select-startups",
+      "quote": "Early-stage startups (under $1M raised) go into ALPHA",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c08",
+      "text": "GROWTH is for companies growing considerably and expanding globally, often with over 3 million dollars raised.",
+      "kind": "fact",
+      "source": "websummit-how-we-select-startups",
+      "quote": "GROWTH – Your company is experiencing considerable growth and expanding globally. Often you have raised over $3 million.",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c09",
+      "text": "The first State of the Industry survey polled 1,455 founders, investors, engineers and creators across Web Summit's community.",
+      "kind": "fact",
+      "source": "websummit-2026-10-22-state-of-industry",
+      "quote": "polled 1,455 founders, investors, engineers, and creators across its global community",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "In the survey 55% say AI strengthens their critical thinking, 19% see no difference and 26% say it weakens it.",
+      "kind": "fact",
+      "source": "websummit-2026-10-22-state-of-industry",
+      "quote": "55% say AI strengthens their critical thinking, 19% see no difference and 26% say it weakens it",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "Engineers are the most sceptical: 37% say AI weakens their thinking.",
+      "kind": "fact",
+      "source": "websummit-2026-10-22-state-of-industry",
+      "quote": "Engineers are the most sceptical, with 37% saying it’s weakening their thinking.",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "60% say AI has increased their workload; 20% say it has reduced it.",
+      "kind": "fact",
+      "source": "websummit-2026-10-22-state-of-industry",
+      "quote": "60% say AI has increased their workload, while 20% say it has reduced it",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "39% expect headcount in their field to grow over the next two years and 33% expect it to fall.",
+      "kind": "fact",
+      "source": "websummit-2026-10-22-state-of-industry",
+      "quote": "39% expect headcount in their field to grow over the next two years, and 33% expect it to fall",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "For entry-level jobs 42% expect fewer.",
+      "kind": "fact",
+      "source": "websummit-2026-10-22-state-of-industry",
+      "quote": "For entry-level jobs, the outlook is more negative: 42% expect fewer",
+      "read_on": "2026-11-10",
+      "about": [
+        "organisation:web-summit"
+      ]
+    }
+  ]
+}

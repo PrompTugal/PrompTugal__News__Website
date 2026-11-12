@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/story-source.schema.json",
   "id": "websummit-speakers",
-  "story": "S5",
+  "story": "S5-websummit",
   "url": "https://websummit.com/speakers/",
   "title": "Speakers (Web Summit)",
   "publisher": "Web Summit",

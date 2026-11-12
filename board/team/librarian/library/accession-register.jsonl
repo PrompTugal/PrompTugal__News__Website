@@ -8388,3 +8388,209 @@
 {"acc":"ACC-20261112-0023","id":"board:board/team/dev.graphs/websummit-only-inventory-2026-11-11.md","call":"TEAM.ROLE websummit-only-inventory-2026-11-11","at":"2026-11-12T00:57:53Z","wake":"2026-11-12T00:57","retro":false,"made_on":"2026-11-11T23:11:45Z","commit":"c44e1da"}
 {"acc":"ACC-20261112-0024","id":"board:board/team/journalist.newsroom/materials/the-handover/workflow.json","call":"TEAM.ROLE workflow:8","at":"2026-11-12T00:57:53Z","wake":"2026-11-12T00:57","retro":false,"made_on":"2026-11-11T22:01:25Z","commit":"f5a2eb6"}
 {"acc":"ACC-20261112-0025","id":"board:board/spec-the-not-everything-note.md","call":"WRK.PLAN spec-the-not-everything-note","at":"2026-11-12T00:57:53Z","wake":"2026-11-12T00:57","retro":false,"made_on":"2026-11-11T22:37:17Z","commit":"9c11521"}
+{"acc":"ACC-20261112-0026","id":"board:board/team/librarian/debriefs/2026-11-12-handover.md","call":"LIB.DOC 2026-11-12-handover","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T00:59:35Z","commit":"255d798"}
+{"acc":"ACC-20261112-0027","id":"board:board/team/librarian/library/stocktake/2026-11-12-0057.md","call":"LIB.STOCK 2026-11-12-0057","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T00:59:35Z","commit":"255d798"}
+{"acc":"ACC-20261112-0028","id":"board:board/team/librarian/library/stocktake/2026-11-12-0058.md","call":"LIB.STOCK 2026-11-12-0058","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T00:59:35Z","commit":"255d798"}
+{"acc":"ACC-20261112-0029","id":"board:board/team/security/reviews/2026-11-12-0305-wake.md","call":"TEAM.ROLE 2026-11-12-0305-wake","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T03:05:39Z","commit":"66c7c19"}
+{"acc":"ACC-20261112-0030","id":"board:board/team/dev.data/debriefs/2026-11-12-handover.md","call":"TEAM.ROLE 2026-11-12-handover:3","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T01:17:04Z","commit":"ed88436"}
+{"acc":"ACC-20261112-0031","id":"board:board/team/dev/debriefs/2026-11-12-handover.md","call":"TEAM.ROLE 2026-11-12-handover:4","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T01:26:09Z","commit":"dfb04b1"}
+{"acc":"ACC-20261112-0032","id":"board:board/team/accountant/ledger/2026-11-12T0350Z.json","call":"TEAM.ROLE 2026-11-12T0350Z","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T03:48:36Z","commit":"e89209a"}
+{"acc":"ACC-20261112-0033","id":"board:board/team/conductor.b/ledger/2026-11-12T0350Z.json","call":"TEAM.ROLE 2026-11-12T0350Z:2","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T03:53:10Z","commit":"a7b6c6d"}
+{"acc":"ACC-20261112-0034","id":"board:board/team/dev.data/shadow/S29.shadow.json","call":"TEAM.ROLE S29.shadow","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T01:17:04Z","commit":"ed88436"}
+{"acc":"ACC-20261112-0035","id":"board:board/team/accountant/report-2026-11-12.md","call":"TEAM.ROLE report-2026-11-12","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T03:48:36Z","commit":"e89209a"}
+{"acc":"ACC-20261112-0036","id":"board:board/team/dev.data/tools/ws_split_story.py","call":"TEAM.ROLE ws_split_story","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T03:10:15Z","commit":"64d3263"}
+{"acc":"ACC-20261112-0037","id":"board:board/team/dev.data/tools/ws_story_inventory.py","call":"TEAM.ROLE ws_story_inventory","at":"2026-11-12T03:58:55Z","wake":"2026-11-12T03:58","retro":false,"made_on":"2026-11-12T01:17:04Z","commit":"ed88436"}
+{"acc":"ACC-20261112-0038","id":"board:board/team/librarian/library/tests/fixtures/","call":"LIB.DOC fixtures","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59","retro":false,"made_on":"2026-11-06T13:29:54Z","commit":"d5b59ea"}
+{"acc":"ACC-20261112-0039","id":"board:board/team/librarian/library/stocktake/","call":"LIB.STOCK stocktake","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59","retro":false,"made_on":"2026-11-06T13:45:48Z","commit":"3ac972a"}
+{"acc":"ACC-20261112-0040","id":"board:board/team/investors/decks/img/","call":"TEAM.ROLE img:2","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59","retro":false,"made_on":"2026-11-07T03:17:36Z","commit":"43c83f9"}
+{"acc":"ACC-20261112-0041","id":"board:board/team/accountant/ledger/","call":"TEAM.ROLE ledger","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59","retro":false,"made_on":"2026-11-06T03:48:09Z","commit":"fe3c049"}
+{"acc":"ACC-20261112-0042","id":"board:board/team/conductor.b/ledger/","call":"TEAM.ROLE ledger:2","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59","retro":false,"made_on":"2026-11-06T23:11:29Z","commit":"3d099e3"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-06-close.json","acc":"ACC-20261107-0041","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-06T0345Z.json","acc":"ACC-20261106-1917","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-06T0650Z.json","acc":"ACC-20261106-1918","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-06T0950Z.json","acc":"ACC-20261106-1919","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-06T1252Z.json","acc":"ACC-20261106-1920","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-06T1552Z.json","acc":"ACC-20261106-2651","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-06T1850Z.json","acc":"ACC-20261106-2814","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-06T2150Z.json","acc":"ACC-20261106-2957","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-07-08-close.json","acc":"ACC-20261109-0034","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-07T0350Z.json","acc":"ACC-20261107-0232","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-07T0650Z.json","acc":"ACC-20261107-0359","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-07T0950Z.json","acc":"ACC-20261107-0446","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-07T1250Z.json","acc":"ACC-20261107-0524","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-07T1550Z.json","acc":"ACC-20261107-0677","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-09-close.json","acc":"ACC-20261110-0041","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-09T0650Z.json","acc":"ACC-20261109-0249","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-09T0950Z.json","acc":"ACC-20261109-0295","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-09T1250Z.json","acc":"ACC-20261109-0341","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-09T1550Z.json","acc":"ACC-20261109-0392","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-09T1850Z.json","acc":"ACC-20261109-0433","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-09T2150Z.json","acc":"ACC-20261109-0481","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-10-close.json","acc":"ACC-20261111-0010","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-10T0950Z.json","acc":"ACC-20261110-0107","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-10T1250Z.json","acc":"ACC-20261110-0194","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-10T1550Z.json","acc":"ACC-20261110-0227","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-10T1850Z.json","acc":"ACC-20261110-0243","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-10T2150Z.json","acc":"ACC-20261110-0303","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-11-close.json","acc":"ACC-20261112-0005","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-11T0050Z-closing-reading.json","acc":"ACC-20261111-0017","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-11T0350Z.json","acc":"ACC-20261111-0040","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-11T0650Z.json","acc":"ACC-20261111-0064","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-11T0950Z.json","acc":"ACC-20261111-0084","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-11T1250Z.json","acc":"ACC-20261111-0098","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-11T1550Z.json","acc":"ACC-20261111-0124","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-11T1850Z.json","acc":"ACC-20261111-0146","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-11T2150Z.json","acc":"ACC-20261111-0175","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-12T0050Z-closing-reading.json","acc":"ACC-20261112-0012","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/accountant/ledger/2026-11-12T0350Z.json","acc":"ACC-20261112-0032","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-06T2312Z.json","acc":"ACC-20261107-0043","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-07T0015Z.json","acc":"ACC-20261107-0052","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-07T0312Z.json","acc":"ACC-20261107-0231","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-07T0612Z.json","acc":"ACC-20261107-0358","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-07T0912Z.json","acc":"ACC-20261107-0445","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-07T1212Z.json","acc":"ACC-20261107-0523","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-07T1512Z.json","acc":"ACC-20261107-0676","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-07T1812Z.json","acc":"ACC-20261107-1589","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-07T2112Z.json","acc":"ACC-20261107-1854","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-08T0012Z.json","acc":"ACC-20261109-0066","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-08T0312Z.json","acc":"ACC-20261109-0067","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-08T1812Z.json","acc":"ACC-20261109-0068","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-08T2110Z.json","acc":"ACC-20261109-0069","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-09T0010Z.json","acc":"ACC-20261109-0071","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-09T0616Z.json","acc":"ACC-20261109-0248","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-09T0912Z.json","acc":"ACC-20261109-0294","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-09T1220Z.json","acc":"ACC-20261109-0340","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-09T1852Z.json","acc":"ACC-20261109-0434","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-09T2152Z.json","acc":"ACC-20261109-0482","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-10T0655Z.json","acc":"ACC-20261110-0050","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-10T0952Z.json","acc":"ACC-20261110-0108","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-10T1255Z.json","acc":"ACC-20261110-0195","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-10T1552Z.json","acc":"ACC-20261110-0228","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-10T1852Z.json","acc":"ACC-20261110-0244","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-10T2152Z.json","acc":"ACC-20261110-0304","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-11T0052Z.json","acc":"ACC-20261111-0018","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-11T0352Z.json","acc":"ACC-20261111-0041","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-11T0653Z.json","acc":"ACC-20261111-0065","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-11T0957Z.json","acc":"ACC-20261111-0085","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-11T1253Z.json","acc":"ACC-20261111-0099","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-11T1552Z.json","acc":"ACC-20261111-0125","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-11T1859Z.json","acc":"ACC-20261111-0174","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-11T2155Z.json","acc":"ACC-20261111-0176","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-12T0053Z.json","acc":"ACC-20261112-0013","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/conductor.b/ledger/2026-11-12T0350Z.json","acc":"ACC-20261112-0033","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/card-brazil.png","acc":"ACC-20261107-0242","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/hero-algarve.jpg","acc":"ACC-20261107-0251","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/hero-diy.jpg","acc":"ACC-20261107-0555","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/hero-explorers.jpg","acc":"ACC-20261107-0556","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/hero-industry.jpg","acc":"ACC-20261107-0252","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/hero-lanes.jpg","acc":"ACC-20261107-0557","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/hero-newsroom.jpg","acc":"ACC-20261107-0253","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/hero-provenance.jpg","acc":"ACC-20261107-0254","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/hero-time.jpg","acc":"ACC-20261107-0255","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/join-seat.jpg","acc":"ACC-20261107-0558","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d1-01.jpg","acc":"ACC-20261107-1643","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d1-04.jpg","acc":"ACC-20261107-1644","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d1-07.jpg","acc":"ACC-20261107-1645","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d2-01.jpg","acc":"ACC-20261107-1646","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d2-05.jpg","acc":"ACC-20261107-1647","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d2-07.jpg","acc":"ACC-20261107-1648","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d3-01.jpg","acc":"ACC-20261107-1649","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d3-03.jpg","acc":"ACC-20261107-1650","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d3-17.jpg","acc":"ACC-20261107-1651","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d4-01.jpg","acc":"ACC-20261107-1652","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d4-15.jpg","acc":"ACC-20261107-1653","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d5-01.jpg","acc":"ACC-20261107-1654","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d5-11.jpg","acc":"ACC-20261107-1655","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d5-15.jpg","acc":"ACC-20261107-1656","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d6-01.jpg","acc":"ACC-20261107-1657","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d6-02.jpg","acc":"ACC-20261107-1658","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d6-08.jpg","acc":"ACC-20261107-1659","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d7-01.jpg","acc":"ACC-20261107-1660","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d7-07.jpg","acc":"ACC-20261107-1661","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d7-10.jpg","acc":"ACC-20261107-1662","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d8-01.jpg","acc":"ACC-20261107-1663","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d8-13.jpg","acc":"ACC-20261107-1664","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d8-15.jpg","acc":"ACC-20261107-1665","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d9-01.jpg","acc":"ACC-20261107-1666","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d9-04.jpg","acc":"ACC-20261107-1667","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/map/d9-06.jpg","acc":"ACC-20261107-1668","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/investors/decks/img/talent-algarve.jpg","acc":"ACC-20261107-0278","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-06-1322.md","acc":"ACC-20261106-2628","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-06-1345.md","acc":"ACC-20261106-2629","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-06-1606.md","acc":"ACC-20261106-2787","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-06-1858.md","acc":"ACC-20261106-2918","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-06-2225.md","acc":"ACC-20261107-0004","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-06-2226.md","acc":"ACC-20261107-0005","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-0058.md","acc":"ACC-20261107-0205","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-0059.md","acc":"ACC-20261107-0206","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-0357.md","acc":"ACC-20261107-0350","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-0358.md","acc":"ACC-20261107-0351","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-0659.md","acc":"ACC-20261107-0437","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-0700.md","acc":"ACC-20261107-0438","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-0957.md","acc":"ACC-20261107-0508","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-0959.md","acc":"ACC-20261107-0509","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-1258.md","acc":"ACC-20261107-0627","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-1259.md","acc":"ACC-20261107-0628","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-1558.md","acc":"ACC-20261107-0794","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-1559.md","acc":"ACC-20261107-0795","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-1600.md","acc":"ACC-20261107-0796","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-1857.md","acc":"ACC-20261107-1848","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-1859.md","acc":"ACC-20261107-1849","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-2157.md","acc":"ACC-20261109-0014","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-07-2158.md","acc":"ACC-20261109-0015","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-0357.md","acc":"ACC-20261109-0239","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-0359.md","acc":"ACC-20261109-0240","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-0658.md","acc":"ACC-20261109-0284","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-0701.md","acc":"ACC-20261109-0285","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-0957.md","acc":"ACC-20261109-0329","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-1000.md","acc":"ACC-20261109-0330","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-1259.md","acc":"ACC-20261109-0383","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-1301.md","acc":"ACC-20261109-0384","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-1557.md","acc":"ACC-20261109-0423","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-1558.md","acc":"ACC-20261109-0424","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-1857.md","acc":"ACC-20261109-0472","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-1858.md","acc":"ACC-20261109-0473","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-09-2157.md","acc":"ACC-20261110-0021","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-0658.md","acc":"ACC-20261110-0101","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-0659.md","acc":"ACC-20261110-0102","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-0957.md","acc":"ACC-20261110-0179","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-0958.md","acc":"ACC-20261110-0180","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-1000.md","acc":"ACC-20261110-0181","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-1258.md","acc":"ACC-20261110-0216","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-1302.md","acc":"ACC-20261110-0217","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-1557.md","acc":"ACC-20261110-0233","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-1558.md","acc":"ACC-20261110-0234","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-1903.md","acc":"ACC-20261110-0283","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-1904.md","acc":"ACC-20261110-0284","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-2157.md","acc":"ACC-20261111-0002","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-10-2158.md","acc":"ACC-20261111-0003","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-0057.md","acc":"ACC-20261111-0025","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-0059.md","acc":"ACC-20261111-0026","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-0357.md","acc":"ACC-20261111-0053","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-0358.md","acc":"ACC-20261111-0054","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-0658.md","acc":"ACC-20261111-0076","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-0958.md","acc":"ACC-20261111-0089","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-0959.md","acc":"ACC-20261111-0090","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-1258.md","acc":"ACC-20261111-0119","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-1259.md","acc":"ACC-20261111-0120","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-1558.md","acc":"ACC-20261111-0139","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-1559.md","acc":"ACC-20261111-0140","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-1900.md","acc":"ACC-20261111-0157","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-1901.md","acc":"ACC-20261111-0158","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-2157.md","acc":"ACC-20261112-0001","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-11-2158.md","acc":"ACC-20261112-0002","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-12-0057.md","acc":"ACC-20261112-0027","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/2026-11-12-0058.md","acc":"ACC-20261112-0028","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/stocktake/latest.json","acc":"ACC-20261106-2630","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/desk/accessions.jsonl","acc":"ACC-20261106-2478","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/desk/answer.md","acc":"ACC-20261106-2480","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/desk/cards.json","acc":"ACC-20261106-2483","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/desk/catalogue.json","acc":"ACC-20261106-2484","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/desk/keys.json","acc":"ACC-20261106-2491","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/desk/messages/2026-11-06/m1.json","acc":"ACC-20261106-2495","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/desk/messages/2026-11-06/m2.json","acc":"ACC-20261106-2496","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/desk/waits.json","acc":"ACC-20261106-2500","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/repo/CLAUDE.md","acc":"ACC-20261106-2477","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/repo/board/catalogue.json","acc":"ACC-20261106-2485","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/repo/board/keys.json","acc":"ACC-20261106-2492","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}
+{"event":"withdrawn","id":"board:board/team/librarian/library/tests/fixtures/repo/data/newsroom/agents.json","acc":"ACC-20261106-2479","at":"2026-11-12T03:59:42Z","wake":"2026-11-12T03:59"}

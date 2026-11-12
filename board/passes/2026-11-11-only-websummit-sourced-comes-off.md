@@ -45,6 +45,7 @@ The shape: board/the-passes.md. At Dinis's word, about 18:50 UTC, 11 November 20
 | 00:45 | conductor@ | check | the switch waits on: ontologist@'s core entities (shadow sources added e0cea1b35, to re-try), journalist@'s three signed twins and dev.graphs@'s cloud-centres.json; both nudged | | |
 | 01:30 | dev@ | 3, nearly ready | brought dev.pages@'s note and recovery page, dev.graphs@'s cloud-centres fix, dev.data@'s story inventory; evidence captures with a websummit.com source come off by the host rule (31 of 84, not in the inventory); refs to what came off are dropped from what stays; a story's claims.json is kept out while it holds a websummit-only claim; company summaries read right with fields taken off. Trial with the switch on: 4 failures left, journalist@'s three signed twins and company:pitchbook in the dashboard (ontologist@); then the switch goes on | this wake | |
 
+| 03:45 | conductor@ | check | the switch waits on journalist@'s three signed twins and ontologist@'s company:pitchbook (dev@ 3c2d3dd8e); journalist@PrompTugal.dinis has made no commit since 10 Nov 04:09 UTC, so the twins wait on Dinis: restart journalist@, or have the three articles withdrawn like Vicky's | | |
 ## Findings and decisions
 
 | Finding | From | Owner | Decision |
