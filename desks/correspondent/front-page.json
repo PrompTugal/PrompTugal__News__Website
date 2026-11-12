@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-12T00:50Z",
+  "updated": "2026-11-12T08:48Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
     "article": "thursday-last-day-guide",
@@ -9,8 +9,8 @@
   },
   "top": [
     {
-      "article": "red-wind-warning-lisbon-wednesday",
-      "why": "S41, the storm and the cancelled Wednesday, as the record (no warning above yellow since 15:56)."
+      "article": "discord-lisbon-engineering-hub",
+      "why": "New, the final day's Portugal news: Discord's first engineering hub outside San Francisco is in Lisbon (about 30 workers by the end of 2027)."
     },
     {
       "article": "gravitee-agent-security-survey",
@@ -90,6 +90,7 @@
     {
       "beat": "Portugal",
       "articles": [
+        "discord-lisbon-engineering-hub",
         "konecta-lisbon-delivery-centre",
         "portugal-on-the-programme",
         "where-to-find-portugal",
@@ -350,8 +351,8 @@
         "why": "agents across an engineering organisation, with the controls"
       },
       {
-        "article": "press-conferences-day-by-day",
-        "why": "Thursday's press conferences"
+        "article": "discord-lisbon-engineering-hub",
+        "why": "Discord's engineering hub in Lisbon"
       }
     ]
   },
