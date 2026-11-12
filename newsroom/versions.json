@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1343",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 03:48 wake: ledger 0350Z (1635.37, +32.47), watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a7b6c6d73"
+  },
+  {
     "version": "v0.1.1342",
     "date": "2026-11-12",
     "what": "accountant@PrompTugal.dinis: 03:50 reading, 69.86 API-equivalent so far on 12 November",
