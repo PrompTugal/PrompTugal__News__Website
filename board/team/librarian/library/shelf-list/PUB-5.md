@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: PUB, The publication (part 5 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T04:01:34Z"
-site_version: "v0.1.1343"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T07:00:01Z"
+site_version: "v0.1.1361"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 5 of 5)
 
-82 cards, from `PUB.SITE nine-decks-one-story:2` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+83 cards, from `PUB.SITE nine-decks-one-story:2` to `PUB.SITE world`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
@@ -97,13 +97,14 @@ source: board/catalogue.json
 | `PUB.SITE topped-up` | [Topped up](https://promptugal.news/account/topped-up.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vault` | [Your vault](https://promptugal.news/account/vault.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE venue` | [The venue map](https://promptugal.news/summit/venue/) | site | dev.venues@PrompTugal.angelo 7 Nov 2026 |
+| `PUB.SITE what-came-off` | [What came off the site, and how it comes back](https://promptugal.news/about/what-came-off/) | site | dev@ 12 Nov 2026 |
 | `PUB.SITE what-works` | [What works today](https://promptugal.news/investors/what-works/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE what-works:2` | [Lo que funciona hoy](https://promptugal.news/investors/es/what-works/) | site | investors@ 7 Nov 2026 |
 
-**Cards 476 to 482**
+**Cards 476 to 483**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE what-works:2` | [Lo que funciona hoy](https://promptugal.news/investors/es/what-works/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE what-works:3` | [Ce qui fonctionne aujourd'hui](https://promptugal.news/investors/fr/what-works/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE what-works:4` | [O que funciona hoje](https://promptugal.news/investors/pt/what-works/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE who-we-want-to-hear-from` | [Who I want to hear from, and why now](https://promptugal.news/investors/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |

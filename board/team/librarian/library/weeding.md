@@ -2,139 +2,139 @@
 title: "Weeding: superseded and withdrawn holdings"
 by: librarian@PrompTugal.dinis
 generated: "by library.mjs 0.2.0 from the cards"
-site_version: "v0.1.1343"
+site_version: "v0.1.1361"
 ---
 
 # Weeding
 
 Weeding is a status, never a deletion. A **superseded** card is a holding a later one replaces (a `supersedes` link: front matter, a versioned name, or the owner's word in `authority/forms.json`); a **withdrawn** card is a holding that has left the repository, with its register line. Both stay in the catalogue and the shelf list, shown marked, and are hidden from default views. The library proposes; the owner decides.
 
-1 superseded, 2533 withdrawn.
+1 superseded, 3262 withdrawn.
 
 | Card | Call number | Status | Reason | Successor |
 |---|---|---|---|---|
-| Portugal Tech Week 2026 begins (6 to 15 November): a decentralised festival of tech and innovation events across Portugal (`page:events/portugal-tech-week-2026-begins/index.html`) | `DAT.EV portugal-tech-week-2026-begins` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
-| Press conference with NordVPN CTO Marijus Briedis (`page:events/press-conference-with-nordvpn-cto-marijus-briedis/index.html`) | `DAT.EV press-conference-with-nordvpn-cto-marijus-briedis` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID) (`page:events/registration-2026-11-07/index.html`) | `DAT.EV registration-2026-11-07` | withdrawn | left the repository (register: 9 Nov 2026) | none named |
-| Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID) (`page:events/registration-2026-11-07-pavilhao-de-portugal/index.html`) | `DAT.EV registration-2026-11-07-pavilhao-de-portugal` | withdrawn | left the repository (register: 9 Nov 2026) | none named |
-| Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID) (`page:events/registration-2026-11-08/index.html`) | `DAT.EV registration-2026-11-08` | withdrawn | left the repository (register: 9 Nov 2026) | none named |
-| Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID) (`page:events/registration-2026-11-08-pavilhao-de-portugal/index.html`) | `DAT.EV registration-2026-11-08-pavilhao-de-portugal` | withdrawn | left the repository (register: 9 Nov 2026) | none named |
-| Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID) (`page:events/registration-2026-11-09/index.html`) | `DAT.EV registration-2026-11-09` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Registration: collect your lanyard and wristband (bring your ticket QR from the Web Summit app and photo ID) (`page:events/registration-2026-11-09-pavilhao-de-portugal/index.html`) | `DAT.EV registration-2026-11-09-pavilhao-de-portugal` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| The race for compute, agentic AI, and ROI (`page:events/the-race-for-compute-agentic-ai-and-roi/index.html`) | `DAT.EV the-race-for-compute-agentic-ai-and-roi` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| The techstyle stack (`page:events/the-techstyle-stack/index.html`) | `DAT.EV the-techstyle-stack` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Who Wins When AI Does the Shopping? (Press conference) (`page:events/who-wins-when-ai-does-the-shopping-press-conference/index.html`) | `DAT.EV who-wins-when-ai-does-the-shopping-press-conference` | withdrawn | left the repository (register: 9 Nov 2026) | none named |
-| Build Collective (`page:organisations/build-collective/index.html`) | `DAT.ORG build-collective` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| F-Prime Capital Partners (`page:organisations/f-prime-capital-partners/index.html`) | `DAT.ORG f-prime-capital-partners` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| FUTUREPROOF Podcast (`page:organisations/futureproof-podcast/index.html`) | `DAT.ORG futureproof-podcast` | withdrawn | left the repository (register: 9 Nov 2026) | none named |
-| H&M Group (`page:organisations/h-and-m/index.html`) | `DAT.ORG h-and-m` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| iBanFirst (`page:organisations/ibanfirst/index.html`) | `DAT.ORG ibanfirst` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
-| PitchBook Data (`page:organisations/pitchbook-data/index.html`) | `DAT.ORG pitchbook-data` | withdrawn | left the repository (register: 9 Nov 2026) | none named |
-| SHINE Technologies (`page:organisations/shine-technologies/index.html`) | `DAT.ORG shine-technologies` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
-| SkyDeck Ventures (`page:organisations/skydeck-ventures/index.html`) | `DAT.ORG skydeck-ventures` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Smartex.ai (`page:organisations/smartex-ai/index.html`) | `DAT.ORG smartex-ai` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| UnHerd (`page:organisations/unherd/index.html`) | `DAT.ORG unherd` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Art Gilliland (`page:people/art-gilliland/index.html`) | `DAT.PE art-gilliland` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
-| BASMA AHMED ALBADI (`page:people/basma-ahmed-albadi/index.html`) | `DAT.PE basma-ahmed-albadi` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Giovanna Faggionato (`page:people/giovanna-faggionato/index.html`) | `DAT.PE giovanna-faggionato` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
-| Greg Piefer (`page:people/greg-piefer/index.html`) | `DAT.PE greg-piefer` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
-| Jeff D'Onofrio (`page:people/jeff-d-onofrio/index.html`) | `DAT.PE jeff-d-onofrio` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
-| Max Easton (`page:people/max-easton/index.html`) | `DAT.PE max-easton` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Nanna Andersen (`page:people/nanna-andersen/index.html`) | `DAT.PE nanna-andersen` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Sonia Azzouzi Boudie (`page:people/sonia-azzouzi-boudie/index.html`) | `DAT.PE sonia-azzouzi-boudie` | withdrawn | left the repository (register: 7 Nov 2026) | none named |
-| Thomas Fazi (`page:people/thomas-fazi/index.html`) | `DAT.PE thomas-fazi` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Tony Fadell (`page:people/tony-fadell/index.html`) | `DAT.PE tony-fadell` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| agent.json (`board:board/team/librarian/library/authority/agent.json`) | `LIB.AUTH agent` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| agent.json (`board:board/team/librarian/library/indexes/agent.json`) | `LIB.AUTH agent:2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| company.json (`board:board/team/librarian/library/authority/company.json`) | `LIB.AUTH company` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| concepts.json (`board:board/team/librarian/library/authority/concepts.json`) | `LIB.AUTH concepts` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| forms.json (`board:board/team/librarian/library/authority/forms.json`) | `LIB.AUTH forms` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| links.json (`board:board/team/librarian/library/vocabulary/links.json`) | `LIB.AUTH links` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| organisation.json (`board:board/team/librarian/library/authority/organisation.json`) | `LIB.AUTH organisation` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| person.json (`board:board/team/librarian/library/authority/person.json`) | `LIB.AUTH person` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| place.json (`board:board/team/librarian/library/authority/place.json`) | `LIB.AUTH place` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| series.json (`board:board/team/librarian/library/indexes/series.json`) | `LIB.AUTH series` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| subject.json (`board:board/team/librarian/library/indexes/subject.json`) | `LIB.AUTH subject` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| subjects.json (`board:board/team/librarian/library/vocabulary/subjects.json`) | `LIB.AUTH subjects` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| team-headings.json (`board:board/team/librarian/library/vocabulary/team-headings.json`) | `LIB.AUTH team-headings` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| title.json (`board:board/team/librarian/library/indexes/title.json`) | `LIB.AUTH title` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| topic.json (`board:board/team/librarian/library/authority/topic.json`) | `LIB.AUTH topic` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| BLD.jsonl (`board:board/team/librarian/library/catalogue/BLD.jsonl`) | `LIB.CAT BLD` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: BLD, Build, code and release (`board:board/team/librarian/library/shelf-list/BLD.md`) | `LIB.CAT BLD:2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| DAT.jsonl (`board:board/team/librarian/library/catalogue/DAT.jsonl`) | `LIB.CAT DAT` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 1 of 11) (`board:board/team/librarian/library/shelf-list/DAT-1.md`) | `LIB.CAT DAT-1` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 10 of 11) (`board:board/team/librarian/library/shelf-list/DAT-10.md`) | `LIB.CAT DAT-10` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 11 of 11) (`board:board/team/librarian/library/shelf-list/DAT-11.md`) | `LIB.CAT DAT-11` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 2 of 11) (`board:board/team/librarian/library/shelf-list/DAT-2.md`) | `LIB.CAT DAT-2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 3 of 11) (`board:board/team/librarian/library/shelf-list/DAT-3.md`) | `LIB.CAT DAT-3` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 4 of 11) (`board:board/team/librarian/library/shelf-list/DAT-4.md`) | `LIB.CAT DAT-4` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 5 of 11) (`board:board/team/librarian/library/shelf-list/DAT-5.md`) | `LIB.CAT DAT-5` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 6 of 11) (`board:board/team/librarian/library/shelf-list/DAT-6.md`) | `LIB.CAT DAT-6` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 7 of 11) (`board:board/team/librarian/library/shelf-list/DAT-7.md`) | `LIB.CAT DAT-7` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 8 of 11) (`board:board/team/librarian/library/shelf-list/DAT-8.md`) | `LIB.CAT DAT-8` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: DAT, Data and the ontology (part 9 of 11) (`board:board/team/librarian/library/shelf-list/DAT-9.md`) | `LIB.CAT DAT-9` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| EVD.jsonl (`board:board/team/librarian/library/catalogue/EVD.jsonl`) | `LIB.CAT EVD` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: EVD, Evidence and sources (`board:board/team/librarian/library/shelf-list/EVD.md`) | `LIB.CAT EVD:2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| GDN.jsonl (`board:board/team/librarian/library/catalogue/GDN.jsonl`) | `LIB.CAT GDN` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: GDN, Guidance (special) (part 1 of 7) (`board:board/team/librarian/library/shelf-list/GDN-1.md`) | `LIB.CAT GDN-1` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: GDN, Guidance (special) (part 2 of 7) (`board:board/team/librarian/library/shelf-list/GDN-2.md`) | `LIB.CAT GDN-2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: GDN, Guidance (special) (part 3 of 7) (`board:board/team/librarian/library/shelf-list/GDN-3.md`) | `LIB.CAT GDN-3` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: GDN, Guidance (special) (part 4 of 7) (`board:board/team/librarian/library/shelf-list/GDN-4.md`) | `LIB.CAT GDN-4` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: GDN, Guidance (special) (part 5 of 7) (`board:board/team/librarian/library/shelf-list/GDN-5.md`) | `LIB.CAT GDN-5` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: GDN, Guidance (special) (part 6 of 7) (`board:board/team/librarian/library/shelf-list/GDN-6.md`) | `LIB.CAT GDN-6` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: GDN, Guidance (special) (part 7 of 7) (`board:board/team/librarian/library/shelf-list/GDN-7.md`) | `LIB.CAT GDN-7` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| GEN.jsonl (`board:board/team/librarian/library/catalogue/GEN.jsonl`) | `LIB.CAT GEN` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: GEN, The repository (`board:board/team/librarian/library/shelf-list/GEN.md`) | `LIB.CAT GEN:2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| LIB.jsonl (`board:board/team/librarian/library/catalogue/LIB.jsonl`) | `LIB.CAT LIB` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: LIB, The library (part 1 of 4) (`board:board/team/librarian/library/shelf-list/LIB-1.md`) | `LIB.CAT LIB-1` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: LIB, The library (part 2 of 4) (`board:board/team/librarian/library/shelf-list/LIB-2.md`) | `LIB.CAT LIB-2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: LIB, The library (part 3 of 4) (`board:board/team/librarian/library/shelf-list/LIB-3.md`) | `LIB.CAT LIB-3` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: LIB, The library (part 4 of 4) (`board:board/team/librarian/library/shelf-list/LIB-4.md`) | `LIB.CAT LIB-4` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: LIB, The library (`board:board/team/librarian/library/shelf-list/LIB.md`) | `LIB.CAT LIB:2` | withdrawn | left the repository (register: 6 Nov 2026) | none named |
-| PUB.jsonl (`board:board/team/librarian/library/catalogue/PUB.jsonl`) | `LIB.CAT PUB` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: PUB, The publication (part 1 of 5) (`board:board/team/librarian/library/shelf-list/PUB-1.md`) | `LIB.CAT PUB-1` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: PUB, The publication (part 2 of 5) (`board:board/team/librarian/library/shelf-list/PUB-2.md`) | `LIB.CAT PUB-2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: PUB, The publication (part 3 of 5) (`board:board/team/librarian/library/shelf-list/PUB-3.md`) | `LIB.CAT PUB-3` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: PUB, The publication (part 4 of 5) (`board:board/team/librarian/library/shelf-list/PUB-4.md`) | `LIB.CAT PUB-4` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: PUB, The publication (part 5 of 5) (`board:board/team/librarian/library/shelf-list/PUB-5.md`) | `LIB.CAT PUB-5` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| RDR.jsonl (`board:board/team/librarian/library/catalogue/RDR.jsonl`) | `LIB.CAT RDR` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: RDR, Readers and observability (`board:board/team/librarian/library/shelf-list/RDR.md`) | `LIB.CAT RDR:2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| TEAM.jsonl (`board:board/team/librarian/library/catalogue/TEAM.jsonl`) | `LIB.CAT TEAM` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 1 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-1.md`) | `LIB.CAT TEAM-1` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 10 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-10.md`) | `LIB.CAT TEAM-10` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 11 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-11.md`) | `LIB.CAT TEAM-11` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 12 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-12.md`) | `LIB.CAT TEAM-12` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 13 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-13.md`) | `LIB.CAT TEAM-13` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 14 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-14.md`) | `LIB.CAT TEAM-14` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 15 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-15.md`) | `LIB.CAT TEAM-15` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 16 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-16.md`) | `LIB.CAT TEAM-16` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 17 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-17.md`) | `LIB.CAT TEAM-17` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 18 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-18.md`) | `LIB.CAT TEAM-18` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 19 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-19.md`) | `LIB.CAT TEAM-19` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 2 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-2.md`) | `LIB.CAT TEAM-2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 20 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-20.md`) | `LIB.CAT TEAM-20` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 21 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-21.md`) | `LIB.CAT TEAM-21` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 22 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-22.md`) | `LIB.CAT TEAM-22` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 23 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-23.md`) | `LIB.CAT TEAM-23` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 24 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-24.md`) | `LIB.CAT TEAM-24` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 25 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-25.md`) | `LIB.CAT TEAM-25` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 26 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-26.md`) | `LIB.CAT TEAM-26` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 27 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-27.md`) | `LIB.CAT TEAM-27` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 28 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-28.md`) | `LIB.CAT TEAM-28` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 3 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-3.md`) | `LIB.CAT TEAM-3` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 4 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-4.md`) | `LIB.CAT TEAM-4` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 5 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-5.md`) | `LIB.CAT TEAM-5` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 6 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-6.md`) | `LIB.CAT TEAM-6` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 7 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-7.md`) | `LIB.CAT TEAM-7` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 8 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-8.md`) | `LIB.CAT TEAM-8` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: TEAM, Agents, roles, keys (part 9 of 28) (`board:board/team/librarian/library/shelf-list/TEAM-9.md`) | `LIB.CAT TEAM-9` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| WRK.jsonl (`board:board/team/librarian/library/catalogue/WRK.jsonl`) | `LIB.CAT WRK` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: WRK, Work in hand (part 1 of 4) (`board:board/team/librarian/library/shelf-list/WRK-1.md`) | `LIB.CAT WRK-1` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: WRK, Work in hand (part 2 of 4) (`board:board/team/librarian/library/shelf-list/WRK-2.md`) | `LIB.CAT WRK-2` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: WRK, Work in hand (part 3 of 4) (`board:board/team/librarian/library/shelf-list/WRK-3.md`) | `LIB.CAT WRK-3` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
-| Shelf list: WRK, Work in hand (part 4 of 4) (`board:board/team/librarian/library/shelf-list/WRK-4.md`) | `LIB.CAT WRK-4` | withdrawn | left the repository (register: 10 Nov 2026) | none named |
+| Eversec Technology (`page:companies/eversec/index.html`) | `DAT.CO eversec` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Nisos (`page:companies/nisos/index.html`) | `DAT.CO nisos` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Persona (`page:companies/persona/index.html`) | `DAT.CO persona` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Polygraf AI (`page:companies/polygraf-ai/index.html`) | `DAT.CO polygraf-ai` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Whitespace (`page:companies/whitespace/index.html`) | `DAT.CO whitespace` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| A guide to Portugal's startup scene [Hosted by Startup Portugal] (`page:events/a-guide-to-portugal-s-startup-scene-hosted-by-startup/index.html`) | `DAT.EV a-guide-to-portugal-s-startup-scene-hosted-by-startup` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| (A)Identity: Auth tips to secure AI agents and MCP servers (`page:events/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/index.html`) | `DAT.EV a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Agents don't need prompts, they need context (`page:events/agents-don-t-need-prompts-they-need-context/index.html`) | `DAT.EV agents-don-t-need-prompts-they-need-context` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AI and the human at 300km/h (`page:events/ai-and-the-human-at-300km-h/index.html`) | `DAT.EV ai-and-the-human-at-300km-h` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AI Build Sprint: Ship a Business App for Your Ops (`page:events/ai-build-sprint-ship-a-business-app-for-your-ops/index.html`) | `DAT.EV ai-build-sprint-ship-a-business-app-for-your-ops` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AI Content OS VIP Dinner: Costa Coffee lessons (`page:events/ai-content-os-vip-dinner-costa-coffee-lessons/index.html`) | `DAT.EV ai-content-os-vip-dinner-costa-coffee-lessons` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AI: doom or boom? (`page:events/ai-doom-or-boom/index.html`) | `DAT.EV ai-doom-or-boom` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AI’s octopus era (`page:events/ai-s-octopus-era/index.html`) | `DAT.EV ai-s-octopus-era` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AI sovereignty: Data control, governance and predictable AI costs [Hosted by Austriacard Holdings] (`page:events/ai-sovereignty-data-control-governance-and-predictable-ai/index.html`) | `DAT.EV ai-sovereignty-data-control-governance-and-predictable-ai` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AI sprawl is exploding. Get ahead of governance and security challenges before it’s boo late (`page:events/ai-sprawl-is-exploding-get-ahead-of-governance-and-security/index.html`) | `DAT.EV ai-sprawl-is-exploding-get-ahead-of-governance-and-security` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AI vs. AI: The battle for the cyber advantage (`page:events/ai-vs-ai-the-battle-for-the-cyber-advantage/index.html`) | `DAT.EV ai-vs-ai-the-battle-for-the-cyber-advantage` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AI: your new news editor? (`page:events/ai-your-new-news-editor/index.html`) | `DAT.EV ai-your-new-news-editor` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| An AI identity crisis (`page:events/an-ai-identity-crisis/index.html`) | `DAT.EV an-ai-identity-crisis` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Asia-Pacific meet & greet (`page:events/asia-pacific-meet-greet/index.html`) | `DAT.EV asia-pacific-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Australia & New Zealand meet & greet (`page:events/australia-new-zealand-meet-greet/index.html`) | `DAT.EV australia-new-zealand-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| AUSTRIA BUSINESS NIGHT 2026 (`page:events/austria-business-night-2026/index.html`) | `DAT.EV austria-business-night-2026` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Balkans meet & greet (`page:events/balkans-meet-greet/index.html`) | `DAT.EV balkans-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Baltics meet & greet (`page:events/baltics-meet-greet/index.html`) | `DAT.EV baltics-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Be part of history: help build the first pages of the agentic web (`page:events/be-part-of-history-help-build-the-first-pages-of-the/index.html`) | `DAT.EV be-part-of-history-help-build-the-first-pages-of-the` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Benelux meet & greet (`page:events/benelux-meet-greet/index.html`) | `DAT.EV benelux-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Beyond the AI agent hype (`page:events/beyond-the-ai-agent-hype/index.html`) | `DAT.EV beyond-the-ai-agent-hype` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Beyond the front door: Identity, access, and user trust (`page:events/beyond-the-front-door-identity-access-and-user-trust/index.html`) | `DAT.EV beyond-the-front-door-identity-access-and-user-trust` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Beyond the IPO: The new exit playbook (`page:events/beyond-the-ipo-the-new-exit-playbook/index.html`) | `DAT.EV beyond-the-ipo-the-new-exit-playbook` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Beyond the model: Scaling AI agents for professional work (`page:events/beyond-the-model-scaling-ai-agents-for-professional-work/index.html`) | `DAT.EV beyond-the-model-scaling-ai-agents-for-professional-work` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Big Tech detox (`page:events/big-tech-detox/index.html`) | `DAT.EV big-tech-detox` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Brazil's blueprint for cyber resilience (`page:events/brazil-s-blueprint-for-cyber-resilience/index.html`) | `DAT.EV brazil-s-blueprint-for-cyber-resilience` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Breakout startups (`page:events/breakout-startups-1b2f3f6c/index.html`) | `DAT.EV breakout-startups-1b2f3f6c` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Breakout startups (`page:events/breakout-startups-6059c850/index.html`) | `DAT.EV breakout-startups-6059c850` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Breakout startups (`page:events/breakout-startups-66205ff8/index.html`) | `DAT.EV breakout-startups-66205ff8` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Build for people: A ‘human x car x home’ approach (`page:events/build-for-people-a-human-x-car-x-home-approach/index.html`) | `DAT.EV build-for-people-a-human-x-car-x-home-approach` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Building a secure device foundation for AI [Hosted by Lenovo] (`page:events/building-a-secure-device-foundation-for-ai-hosted-by-lenovo/index.html`) | `DAT.EV building-a-secure-device-foundation-for-ai-hosted-by-lenovo` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Building a Star Trek vision (`page:events/building-a-star-trek-vision/index.html`) | `DAT.EV building-a-star-trek-vision` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Building a Tech Hub / Side Event & Happy Hour / Aubay Portugal + IBM (`page:events/building-a-tech-hub-side-event-happy-hour-aubay-portugal-ibm/index.html`) | `DAT.EV building-a-tech-hub-side-event-happy-hour-aubay-portugal-ibm` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Building AI in Europe: Practical support for innovators [Hosted by European Commission - DG Connect] (`page:events/building-ai-in-europe-practical-support-for-innovators/index.html`) | `DAT.EV building-ai-in-europe-practical-support-for-innovators` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Building AI on your own terms: From technology discovery to real-world scale (`page:events/building-ai-on-your-own-terms-from-technology-discovery-to/index.html`) | `DAT.EV building-ai-on-your-own-terms-from-technology-discovery-to` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Building AI products without building everything [Hosted by Open VSX] (`page:events/building-ai-products-without-building-everything-hosted-by/index.html`) | `DAT.EV building-ai-products-without-building-everything-hosted-by` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Building security for the human-machine era (`page:events/building-security-for-the-human-machine-era/index.html`) | `DAT.EV building-security-for-the-human-machine-era` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Building the infrastructure for AI everywhere (`page:events/building-the-infrastructure-for-ai-everywhere/index.html`) | `DAT.EV building-the-infrastructure-for-ai-everywhere` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Building the operating system for modern sport (`page:events/building-the-operating-system-for-modern-sport/index.html`) | `DAT.EV building-the-operating-system-for-modern-sport` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Campus Tejo, the science and technology ecosystem of Santarém (Press conference) (`page:events/campus-tejo-the-science-and-technology-ecosystem-of/index.html`) | `DAT.EV campus-tejo-the-science-and-technology-ecosystem-of` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Can you trust your AI agent's accessibility? [Hosted by Deque] (`page:events/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/index.html`) | `DAT.EV can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Central & Eastern Europe meet & greet (`page:events/central-eastern-europe-meet-greet/index.html`) | `DAT.EV central-eastern-europe-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Chat Control 2.0: The government in your DMs? (`page:events/chat-control-2-0-the-government-in-your-dms/index.html`) | `DAT.EV chat-control-2-0-the-government-in-your-dms` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Chinamaxxing: The new era of Made in China (`page:events/chinamaxxing-the-new-era-of-made-in-china/index.html`) | `DAT.EV chinamaxxing-the-new-era-of-made-in-china` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Coaching an AI agent like human talent (`page:events/coaching-an-ai-agent-like-human-talent/index.html`) | `DAT.EV coaching-an-ai-agent-like-human-talent` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Coimbra Supernova: How Any Business Can Profit from the Space Economy (`page:events/coimbra-supernova-how-any-business-can-profit-from-the/index.html`) | `DAT.EV coimbra-supernova-how-any-business-can-profit-from-the` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Connecting the bots: Building secure infrastructure for inter-agent communication (`page:events/connecting-the-bots-building-secure-infrastructure-for/index.html`) | `DAT.EV connecting-the-bots-building-secure-infrastructure-for` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| DACH meet & greet (`page:events/dach-meet-greet/index.html`) | `DAT.EV dach-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Democratising AI platform engineering with open-source [Hosted by Cisco Systems] (`page:events/democratising-ai-platform-engineering-with-open-source/index.html`) | `DAT.EV democratising-ai-platform-engineering-with-open-source` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Diaspora Leaders: A Global InnovationMeetup (`page:events/diaspora-leaders-a-global-innovationmeetup/index.html`) | `DAT.EV diaspora-leaders-a-global-innovationmeetup` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Do we need a UN AI treaty? (`page:events/do-we-need-a-un-ai-treaty/index.html`) | `DAT.EV do-we-need-a-un-ai-treaty` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Dogfooding AI security: Lessons from our own SOC [Hosted by Elastic] (`page:events/dogfooding-ai-security-lessons-from-our-own-soc-hosted-by/index.html`) | `DAT.EV dogfooding-ai-security-lessons-from-our-own-soc-hosted-by` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Don’t feed shit to agents (`page:events/don-t-feed-shit-to-agents/index.html`) | `DAT.EV don-t-feed-shit-to-agents` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Double agents: Are your employees' AI agents working for or against your business? (`page:events/double-agents-are-your-employees-ai-agents-working-for-or/index.html`) | `DAT.EV double-agents-are-your-employees-ai-agents-working-for-or` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| East Asia meet & greet (`page:events/east-asia-meet-greet/index.html`) | `DAT.EV east-asia-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| EIT Jumpstarter Awards Ceremony (`page:events/eit-jumpstarter-awards-ceremony/index.html`) | `DAT.EV eit-jumpstarter-awards-ceremony` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Europe meet & greet (`page:events/europe-meet-greet/index.html`) | `DAT.EV europe-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Founders building in Portugal meetup (`page:events/founders-building-in-portugal-meetup/index.html`) | `DAT.EV founders-building-in-portugal-meetup` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Free or controlled internet? The great DSA debate (`page:events/free-or-controlled-internet-the-great-dsa-debate/index.html`) | `DAT.EV free-or-controlled-internet-the-great-dsa-debate` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Frontline Europe: AI, sovereignty and truth (`page:events/frontline-europe-ai-sovereignty-and-truth/index.html`) | `DAT.EV frontline-europe-ai-sovereignty-and-truth` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| German-Brazilian Startup Night (`page:events/german-brazilian-startup-night/index.html`) | `DAT.EV german-brazilian-startup-night` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Give me a brake: Coding without crashing (`page:events/give-me-a-brake-coding-without-crashing/index.html`) | `DAT.EV give-me-a-brake-coding-without-crashing` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Guardrails for Doomsday: Can AI be regulated? (Press conference) (`page:events/guardrails-for-doomsday-can-ai-be-regulated-press-conference/index.html`) | `DAT.EV guardrails-for-doomsday-can-ai-be-regulated-press-conference` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Gulf meet & greet (`page:events/gulf-meet-greet/index.html`) | `DAT.EV gulf-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Has Europe’s tech moment arrived? (`page:events/has-europe-s-tech-moment-arrived/index.html`) | `DAT.EV has-europe-s-tech-moment-arrived` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Hollywood's identity crisis (`page:events/hollywood-s-identity-crisis/index.html`) | `DAT.EV hollywood-s-identity-crisis` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| How to break your AI phone agent before your customers [Hosted by Twilio] (`page:events/how-to-break-your-ai-phone-agent-before-your-customers/index.html`) | `DAT.EV how-to-break-your-ai-phone-agent-before-your-customers` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Iberia meet & greet (`page:events/iberia-meet-greet/index.html`) | `DAT.EV iberia-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| In bots we trust: Defending money against AI-powered fraud (`page:events/in-bots-we-trust-defending-money-against-ai-powered-fraud/index.html`) | `DAT.EV in-bots-we-trust-defending-money-against-ai-powered-fraud` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Introducing: The next billion workers (`page:events/introducing-the-next-billion-workers/index.html`) | `DAT.EV introducing-the-next-billion-workers` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Investing in zero billion dollar markets (`page:events/investing-in-zero-billion-dollar-markets/index.html`) | `DAT.EV investing-in-zero-billion-dollar-markets` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Is there a foreign operative on your payroll? (`page:events/is-there-a-foreign-operative-on-your-payroll/index.html`) | `DAT.EV is-there-a-foreign-operative-on-your-payroll` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| It takes two to trust: Operationalizing public-private security (`page:events/it-takes-two-to-trust-operationalizing-public-private/index.html`) | `DAT.EV it-takes-two-to-trust-operationalizing-public-private` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Karaoke Night (`page:events/karaoke-night/index.html`) | `DAT.EV karaoke-night` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Latin America meet & greet (`page:events/latin-america-meet-greet/index.html`) | `DAT.EV latin-america-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Let's talk AI ethics & responsible tech meetup (`page:events/let-s-talk-ai-ethics-responsible-tech-meetup/index.html`) | `DAT.EV let-s-talk-ai-ethics-responsible-tech-meetup` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Lisbon founders & CEOs meetup (`page:events/lisbon-founders-ceos-meetup/index.html`) | `DAT.EV lisbon-founders-ceos-meetup` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Maintaining the human in an AI world (`page:events/maintaining-the-human-in-an-ai-world/index.html`) | `DAT.EV maintaining-the-human-in-an-ai-world` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Make AI agents work beyond the demo [Hosted by Make] (`page:events/make-ai-agents-work-beyond-the-demo-hosted-by-make/index.html`) | `DAT.EV make-ai-agents-work-beyond-the-demo-hosted-by-make` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Making useful intelligence accessible to everyone (`page:events/making-useful-intelligence-accessible-to-everyone/index.html`) | `DAT.EV making-useful-intelligence-accessible-to-everyone` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| MENA meet & greet (`page:events/mena-meet-greet/index.html`) | `DAT.EV mena-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Monitoring in the age of GenAI: Beyond golden signals [Hosted by Datadog] (`page:events/monitoring-in-the-age-of-genai-beyond-golden-signals-hosted/index.html`) | `DAT.EV monitoring-in-the-age-of-genai-beyond-golden-signals-hosted` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Music lovers meetup (`page:events/music-lovers-meetup/index.html`) | `DAT.EV music-lovers-meetup` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Navigating today's AI landscape (`page:events/navigating-today-s-ai-landscape/index.html`) | `DAT.EV navigating-today-s-ai-landscape` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| New Unicorn in Lisbon: Discord Announces Expansion (Press conference) (`page:events/new-unicorn-in-lisbon-discord-announces-expansion-press/index.html`) | `DAT.EV new-unicorn-in-lisbon-discord-announces-expansion-press` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Next generation banking with global ambition (`page:events/next-generation-banking-with-global-ambition/index.html`) | `DAT.EV next-generation-banking-with-global-ambition` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Night Summit: speed networking, 100+ meetups, games (accredited attendees) (`page:events/night-summit-2026-11-10/index.html`) | `DAT.EV night-summit-2026-11-10` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Night Summit: speed networking, 100+ meetups, games (accredited attendees) (`page:events/night-summit-2026-11-11/index.html`) | `DAT.EV night-summit-2026-11-11` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Night Summit (`page:events/night-summit-a5e13950/index.html`) | `DAT.EV night-summit-a5e13950` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Night Summit Downtown (bars open to the public; bring your lanyard to find each other) (`page:events/night-summit-downtown-2026-11-10/index.html`) | `DAT.EV night-summit-downtown-2026-11-10` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Night Summit Downtown (bars open to the public; bring your lanyard to find each other) (`page:events/night-summit-downtown-2026-11-11/index.html`) | `DAT.EV night-summit-downtown-2026-11-11` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Nordics meet & greet (`page:events/nordics-meet-greet/index.html`) | `DAT.EV nordics-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| North America meet & greet (`page:events/north-america-meet-greet/index.html`) | `DAT.EV north-america-meet-greet` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Open models, stronger ecosystems (`page:events/open-models-stronger-ecosystems/index.html`) | `DAT.EV open-models-stronger-ecosystems` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Open or Closed AI models: which types of future do they represent? (Press conference) (`page:events/open-or-closed-ai-models-which-types-of-future-do-they/index.html`) | `DAT.EV open-or-closed-ai-models-which-types-of-future-do-they` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Open source & contributors meetup (`page:events/open-source-contributors-meetup/index.html`) | `DAT.EV open-source-contributors-meetup` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Open vs closed: The debate defining the AI era (`page:events/open-vs-closed-the-debate-defining-the-ai-era/index.html`) | `DAT.EV open-vs-closed-the-debate-defining-the-ai-era` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Opening Night 🎉 (`page:events/opening-night/index.html`) | `DAT.EV opening-night` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Opening remarks (`page:events/opening-remarks-405fbb59/index.html`) | `DAT.EV opening-remarks-405fbb59` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Opening remarks (`page:events/opening-remarks-7332868f/index.html`) | `DAT.EV opening-remarks-7332868f` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Opening remarks (`page:events/opening-remarks-d52f1575/index.html`) | `DAT.EV opening-remarks-d52f1575` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| Outsmarting AI: Defence at machine speed (`page:events/outsmarting-ai-defence-at-machine-speed/index.html`) | `DAT.EV outsmarting-ai-defence-at-machine-speed` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| People in cybersecurity meetup (`page:events/people-in-cybersecurity-meetup/index.html`) | `DAT.EV people-in-cybersecurity-meetup` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH final (`page:events/pitch-final/index.html`) | `DAT.EV pitch-final` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 1 (`page:events/pitch-group-round-1/index.html`) | `DAT.EV pitch-group-round-1` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 10 (`page:events/pitch-group-round-10/index.html`) | `DAT.EV pitch-group-round-10` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 11 (`page:events/pitch-group-round-11/index.html`) | `DAT.EV pitch-group-round-11` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 12 (`page:events/pitch-group-round-12/index.html`) | `DAT.EV pitch-group-round-12` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 13 (`page:events/pitch-group-round-13/index.html`) | `DAT.EV pitch-group-round-13` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 14 (`page:events/pitch-group-round-14/index.html`) | `DAT.EV pitch-group-round-14` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 15 (`page:events/pitch-group-round-15/index.html`) | `DAT.EV pitch-group-round-15` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 2 (`page:events/pitch-group-round-2/index.html`) | `DAT.EV pitch-group-round-2` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 3 (`page:events/pitch-group-round-3/index.html`) | `DAT.EV pitch-group-round-3` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 4 (`page:events/pitch-group-round-4/index.html`) | `DAT.EV pitch-group-round-4` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
+| PITCH group round 5 (`page:events/pitch-group-round-5/index.html`) | `DAT.EV pitch-group-round-5` | withdrawn | left the repository (register: 12 Nov 2026) | none named |
 
-... and 2414 more in the catalogue.
+... and 3143 more in the catalogue.
 
 ## Candidates for weeding
 
