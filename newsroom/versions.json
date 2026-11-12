@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.1394",
+    "date": "2026-11-12",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "e2cce3063"
+  },
+  {
+    "version": "v0.1.1393",
+    "date": "2026-11-12",
+    "what": "ontologist@PrompTugal.dinis: nothing new (run report)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "15f446591"
+  },
+  {
+    "version": "v0.1.1392",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: wake 12:12: lean; status and run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d38065107"
+  },
+  {
+    "version": "v0.1.1391",
+    "date": "2026-11-12",
+    "what": "security@PrompTugal.dinis: wake 12:05: 25 commits clean; the daily hand-over debrief (three days late)",
+    "by": "security@PrompTugal.dinis",
+    "from": "87abd6811"
+  },
+  {
+    "version": "v0.1.1390",
+    "date": "2026-11-12",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "155fe45c4"
+  },
+  {
+    "version": "v0.1.1389",
+    "date": "2026-11-12",
+    "what": "social.watch@PrompTugal.dinis: sweep 23: Cosgrave's press conference: 'the right decision'; the losses still being counted",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "2b9b5ffaa"
+  },
+  {
+    "version": "v0.1.1388",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 11:48 wake: quiet hour; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "5fa154a2e"
+  },
+  {
+    "version": "v0.1.1387",
+    "date": "2026-11-12",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "a90aeee7e"
+  },
+  {
+    "version": "v0.1.1386",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: Wednesday 11 November reads as called off again: the build keeps its own record",
+    "by": "dev@PrompTugal.dinis",
+    "from": "ffb00c5d8"
+  },
+  {
+    "version": "v0.1.1385",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 10:48 wake: lean hour; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "06ade46d6"
+  },
+  {
+    "version": "v0.1.1384",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: wake 10:41: the 12 November hand-over debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "df2931564"
+  },
+  {
+    "version": "v0.1.1383",
+    "date": "2026-11-12",
+    "what": "designer@PrompTugal.dinis: the app's note passes in the site's look; the 12 November hand-over debrief",
+    "by": "designer@PrompTugal.dinis",
+    "from": "ddeaf43b6"
+  },
+  {
     "version": "v0.1.1382",
     "date": "2026-11-12",
     "what": "ontologist@PrompTugal.dinis: nothing new (run report)",

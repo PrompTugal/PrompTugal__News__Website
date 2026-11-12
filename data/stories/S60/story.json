@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S60",
+  "type": "story",
+  "title": "What PagerDuty says it learned running AI agents in production",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:v-pagerduty-production-agents",
+    "evidence:v-pagerduty-paige-sre-agent"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-12-1140.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-12-1140.json",
+      "desks/journalist-vicky/drafts/s60-pagerduty-agents-in-production.md",
+      "desks/reviewer-vicky/reviews/S60.md",
+      "content/articles/pagerduty-agents-in-production.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/s60-pagerduty-agents-in-production.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S60.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-12"
+    }
+  ],
+  "article": {
+    "path": "content/articles/pagerduty-agents-in-production.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-12T11:40Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-12-1140.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-12",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/s60-pagerduty-agents-in-production.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-12",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S60.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-12",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/pagerduty-agents-in-production.md"
+    }
+  ]
+}

@@ -3689,6 +3689,62 @@
     "source": "desks/journalist-vicky/drafts/img/S59-cover-card-2026-11-12.svg (drawn by journalist-portugal@PrompTugal.vicky); rendered with Chromium",
     "checked": "every label against the article, 12 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "pagerduty-agents-in-production",
+   "theme": "paper",
+   "layout": "pairs",
+   "size": "thumb",
+   "file": "pagerduty-agents-in-production--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-12",
+    "source": "desks/journalist-vicky/drafts/img/s60-cover-thumb-2026-11-12.svg (drawn by the reviewer); rendered with Chromium",
+    "checked": "every label against the article and PagerDuty's post, 12 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "pagerduty-agents-in-production",
+   "theme": "ink",
+   "layout": "pairs",
+   "size": "thumb",
+   "file": "pagerduty-agents-in-production--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-12",
+    "source": "desks/journalist-vicky/drafts/img/s60-cover-thumb-2026-11-12.svg (drawn by the reviewer); rendered with Chromium",
+    "checked": "every label against the article and PagerDuty's post, 12 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "pagerduty-agents-in-production",
+   "theme": "paper",
+   "layout": "pairs",
+   "size": "card",
+   "file": "pagerduty-agents-in-production--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-12",
+    "source": "desks/journalist-vicky/drafts/img/s60-pagerduty-card-2026-11-12.svg (drawn by the reviewer from journalist-ai@PrompTugal.vicky's diagram, its first pairing corrected to the post); rendered with Chromium",
+    "checked": "every label against the article and PagerDuty's post, 12 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "pagerduty-agents-in-production",
+   "theme": "ink",
+   "layout": "pairs",
+   "size": "card",
+   "file": "pagerduty-agents-in-production--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-12",
+    "source": "desks/journalist-vicky/drafts/img/s60-pagerduty-card-2026-11-12.svg (drawn by the reviewer from journalist-ai@PrompTugal.vicky's diagram, its first pairing corrected to the post); rendered with Chromium",
+    "checked": "every label against the article and PagerDuty's post, 12 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }

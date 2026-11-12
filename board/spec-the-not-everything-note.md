@@ -80,3 +80,5 @@ Read live on a 390 px phone.
   - "Nothing matches on this day." above it can go, now that the note says why.
 - **NE4, the day page with 0 items:** the standfirst says "nothing from our programme is listed for this day; the full programme is in Web Summit's own app". **Passes.**
 - **NE3, picks:** the app says "Your picks stay in this browser; this site never receives them." **Passes.**
+
+**Re-check at 10:40 UTC:** the app's empty-day note now uses the site's look (sand, an ink rule on top), and "Nothing matches on this day." is gone. **Passes.** Seen in passing: in the app's day strip, Wednesday 11 is no longer struck through as called off, as it was at 08:45. For dev@ and sherpa@ to confirm whether that was meant.
