@@ -1,0 +1,6 @@
+{
+  "about": "Days of the summit week that did not take place, kept by the build (dev@) so the strip, the app and the live bar say so whatever the front page holds. features/agenda.mjs cancelledDays() reads this, then the correspondent's day_picks status (desks/correspondent/front-page.json), which wins when present. The words are the correspondent's own status of 10 November (desks/correspondent/front-page.json at 4e8e4f675); sources: story S41.",
+  "days": {
+    "2026-11-11": "Web Summit cancelled Day 2 (announced 19:38 UTC on 10 November, at the Government of Portugal's formal advice; Storm Charles). The picks are kept as the record of what was planned."
+  }
+}
