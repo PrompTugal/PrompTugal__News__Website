@@ -1,7 +1,7 @@
 {
   "about": "Lisbon's alternative, unconference, community and side events around Web Summit 2026 (9 to 15 November), from public event pages, each with its URL and the time read; status says whether the storm (Wednesday 11 November) moved or cancelled it. For Lisbon Fringe's team (Dinis, 11 November 2026, about 10:00 UTC: board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md). Organisers as organisations; no private people, no contact details.",
   "by": "social.watch@PrompTugal.dinis",
-  "updated": "2026-11-11T21:53Z",
+  "updated": "2026-11-12T12:53Z",
   "notes": [
     "Unconference found (10:53 UTC): Lisbon Community Week (Led by Community) runs an unconference on Friday 13 November, 15:45 to 17:15, at Impact Hub Lisbon (Penha), in its conference pass (page opened 10:53). A separate 'Unconference Plus Lisbon' on Saturday 14 November appears in a search result only; no page opened, so it is recorded unverified. No barcamp or open-space event found.",
     "iproxy.online's side-events list now read in full (two passes); about 20 of some 80 Thursday-to-Saturday events opened so far."
@@ -470,10 +470,10 @@
       "organiser": "Acampada de Lisboa (housing movement)",
       "date": "2026-11-12",
       "start": "17:30",
-      "end": "21:00",
-      "place": "Alameda dos Oceanos (rally 17:30), Estação do Oriente (debates 19:00; assembly 21:00), Parque das Nações",
-      "join": "Free entry, no tickets or sponsors",
-      "url": "https://radiocomercial.pt/noticia/acampada-de-lisboa-marca-concentracao-para-quinta-feira-frente-a-web-summit",
+      "end": "00:30",
+      "place": "Alameda dos Oceanos (by Centro Vasco da Gama), then Praça do Oriente",
+      "join": "Free, no ticket needed (an optional symbolic ticket on the page)",
+      "url": "https://www.campsummit.pt/",
       "status": "on",
       "storm_note": "Group suspended its Tuesday and Wednesday activities for the forecast; Thursday goes ahead.",
       "topics": [
@@ -481,9 +481,10 @@
         "policy",
         "Portugal"
       ],
-      "read_at": "2026-11-11T16:52:47Z",
+      "read_at": "2026-11-12T12:53Z",
       "verified": true,
-      "note": "Reported by Lusa via Rádio Comercial; a protest, not a tech event. Joins housing march Saturday 14 Nov."
+      "note": "The organiser's own site (read 12:53): a political satire and housing-rights action by Acampada de Lisboa, 'no link to Web Summit'; gathering 17:30 to 19:00, debates from 19:00, popular assembly 21:00 at Praça do Oriente. Earlier reported by Lusa via Rádio Comercial.",
+      "machine_read_before_rule": false
     },
     {
       "name": "Defense Tech Meetup #9: Sovereignty by Design",
