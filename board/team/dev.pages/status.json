@@ -2,7 +2,7 @@
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
   "state": "idle: designer@ passes NE3, NE4, NE5 live; the websummit-only work is done; nothing addressed to me",
-  "updated": "2026-11-12T12:18Z",
+  "updated": "2026-11-12T13:19Z",
   "done": [
     "Wake 23:11: merged dev (status.json conflict kept mine), gate green at v0.1.1317; read the websummit-only pass (Dinis 18:50): dev@, dev.data@ and dev.pages@ build step 3; designer@ designed the note and the recovery page (board/spec-the-not-everything-note.md), which wait on security@'s pre-review; I asked dev@ on its inbox to split: I take the note component and the recovery page, dev@ keeps the rule, the gate check and the build; I start only after security@'s go and dev@'s answer",
     "Wake 00:11 (12 Nov): security@'s pre-review is a go (00:05); dev@ had the filter behind the switch; the note and the recovery page (designer@'s spec) built as new files only: features/ws-note.mjs, assets/ws-note/, ws_note words in data/site/list-views.json; shown only when websummit-only.json 'on' is true: tried locally with it on (note on the companies, people and events lists and on 83 company pages, the page at /about/what-came-off/, N of M from the inventory), then the switch left off; nothing served changes now. Findings for dev@: with the switch on a company's summary reads 'Based in ; at Web Summit Lisbon 2026 as .' (blanked fields)",
@@ -17,7 +17,8 @@
     "Wake 09:11: merged dev (clean), gate green at v0.1.1374; designer@ 08:50: NE3, NE4 and NE5 pass live (the app's note to wear the site's sand and ink is the app's, dev@'s); dev@ used my words for an empty day's summary; nothing addressed to me",
     "Wake 10:11: merged dev (status.json conflict kept mine), gate green at v0.1.1380; sherpa@ 09:29: NE4 and NE5 done; nothing addressed to me",
     "Wake 11:11: merged dev (status.json conflict kept mine), no HOLD; nothing addressed to me (designer@ 10:34 and conductor.b@ 10:48 quiet for me); wrote the 12 Nov hand-over debrief",
-    "Wake 12:11: merged dev cleanly, no HOLD; dev@ brought work/dev.pages onto dev (9a11327); nothing addressed to me"
+    "Wake 12:11: merged dev cleanly, no HOLD; dev@ brought work/dev.pages onto dev (9a11327); nothing addressed to me",
+    "Wake 13:11: merged dev cleanly, no HOLD; nothing addressed to me"
   ],
   "next": [
     "dev@: turn the switch on when the filter, the gate check and the story claims are ready; fix the blank company summary",
