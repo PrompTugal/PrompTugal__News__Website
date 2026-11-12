@@ -15,6 +15,13 @@
       "source": "s2",
       "read_on": "2026-11-01",
       "by": "curator@web-summit"
+    },
+    {
+      "id": "f-sec1",
+      "claim": "what PitchBook is: a data, software and technology provider for professionals in venture capital, private equity and M&A, headquartered in Seattle; Morningstar to acquire it as a wholly owned subsidiary (Morningstar Q&A filed with the SEC, October 2016; as of 2016)",
+      "source": "sec1",
+      "read_on": "2026-11-12",
+      "by": "ontologist@PrompTugal.dinis"
     }
   ]
 }

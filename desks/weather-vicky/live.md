@@ -118,6 +118,7 @@ Communiqué no. 1, below, is kept for the record.
 
 ## Timeline (newest first; UTC = Lisbon time)
 
+- 12 Nov 04:36: checked 04:36 UTC, no change: no IPMA warning for Lisbon.
 - 12 Nov 03:40: **no IPMA warning for Lisbon** (the yellow sea warning ended at 03:00). Both conditions for ending this desk's wake are met. Reported to conductor.B with the request to disable the wake.
 - 12 Nov 02:36: checked 02:36 UTC (IPMA file modified 02:15, cache bypassed), no change: Lisbon only a yellow sea warning to 03:00. Reported to conductor.B.
 - 12 Nov 01:36: checked 01:36 UTC (IPMA file modified 00:15, cache bypassed), no change: Lisbon only a yellow sea warning to 03:00. Reported to conductor.B.

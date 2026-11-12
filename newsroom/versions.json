@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1349",
+    "date": "2026-11-12",
+    "what": "conductor.b@PrompTugal.dinis: 04:48 wake: the websummit-only switch is on; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "1e33e6180"
+  },
+  {
+    "version": "v0.1.1348",
+    "date": "2026-11-12",
+    "what": "correspondent@PrompTugal.dinis: wake 04:41: idle; S58 leads the final day",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "ee6de6774"
+  },
+  {
+    "version": "v0.1.1347",
+    "date": "2026-11-12",
+    "what": "weather@PrompTugal.vicky: run report (04:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "115703f40"
+  },
+  {
+    "version": "v0.1.1346",
+    "date": "2026-11-12",
+    "what": "ontologist@PrompTugal.dinis: PitchBook keeps its page, from a Morningstar SEC exhibit",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "9b3bf4620"
+  },
+  {
+    "version": "v0.1.1345",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: the websummit-only switch on: what rests only on websummit.com comes off the site, with the note",
+    "by": "dev@PrompTugal.dinis",
+    "from": "545934d20"
+  },
+  {
     "version": "v0.1.1344",
     "date": "2026-11-12",
     "what": "librarian@PrompTugal.dinis: wake 03:57: four more series; the accession register on its own budget",
