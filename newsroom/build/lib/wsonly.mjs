@@ -55,12 +55,15 @@ export function wsApply(store) {
     const id = r => String(r).replace(/^[a-z]+:/, ''), gone = { companies: new Set(), people: new Set(), events: new Set(), organisations: new Set(), places: new Set(), evidence: new Set() }
     const items = new Set(i.company_items.map(x => `${id(x.company)}|${x.kind}|${x.id}`))
     for (const c of i.companies) if (c.left_with_nothing) gone.companies.add(id(c.company))
+    const fields = new Map((i.company_fields || []).map(x => [id(x.company), x.fields]))
     const bare = new Set(i.companies.filter(c => !c.left_with_nothing && c.facts_left === 0).map(c => id(c.company)))
     for (const [k, list] of [['people', i.people.map(x => x.person)], ['events', i.events.map(x => x.event)], ['organisations', i.organisations.map(x => x.organisation)], ['places', i.places.map(x => x.place)]]) for (const r of list) gone[k].add(id(r))
     store.companies = store.companies.filter(c => !gone.companies.has(c.id)).map(c => {
         const k = (kind, x) => !items.has(`${c.id}|${kind}|${x.id}`)
         const out = { ...c, facts: c.facts.filter(x => k('fact', x)), edges: c.edges.filter(x => k('edge', x)), flows: c.flows.filter(x => k('flow', x)), products: c.products.filter(x => k('product', x)), ws_taken: c.facts.length - c.facts.filter(x => k('fact', x)).length }
-        if (bare.has(c.id)) for (const f of ['what', 'country', 'attending', 'attending_as']) out[f] = ''   // the category is ours, not a fact
+        // the fields whose sources are all on websummit.com (the inventory's company_fields, ontologist@ 12 November 06:25);
+        // the name stays (it is how we refer to it) and so does the category (ours, not a fact)
+        for (const f of fields.get(c.id) || (bare.has(c.id) ? ['what', 'country', 'attending', 'attending_as'] : [])) if (f !== 'name' && f !== 'category') out[f] = ''
         return out
     })
     // evidence captures are not in the inventory: one whose source is websummit.com is a copy of its page (the speakers,
