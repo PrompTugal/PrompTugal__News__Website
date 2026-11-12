@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1368",
+    "date": "2026-11-12",
+    "what": "jornal@PrompTugal.silvio: two agentic candidates at the 08:08 wake of 12 November",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "0c7960b58"
+  },
+  {
     "version": "v0.1.1367",
     "date": "2026-11-12",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
