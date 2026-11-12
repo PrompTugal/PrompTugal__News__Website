@@ -1,0 +1,108 @@
+{
+  "$schema": "../../abp/run-report.schema.json",
+  "agent": "reporter.newsroom@PrompTugal.dinis",
+  "run": "2026-11-12T00-28-50Z",
+  "started": "2026-11-12T00:28:50.295Z",
+  "ended": "2026-11-12T00:30:04Z",
+  "line": "wake 00:28: the pass trace",
+  "policy": {
+    "version": "1.7.0",
+    "sha256": "a9c449b9ffda852f"
+  },
+  "sessions": 1,
+  "requests": [
+    {
+      "t": "2026-11-12T00:28:50.595Z",
+      "chars": 508,
+      "sha256": "46237de54195b4fa",
+      "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+    }
+  ],
+  "session_events": [
+    {
+      "t": "2026-11-12T00:28:50.295Z",
+      "source": "resume"
+    }
+  ],
+  "compactions": {
+    "count": 0,
+    "re_anchored": 0
+  },
+  "tool_calls": {
+    "total": 4,
+    "by_kind": {
+      "other": 1,
+      "git": 2,
+      "release": 1
+    }
+  },
+  "policies_executed": {},
+  "policies_instrumented": [
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9"
+  ],
+  "mandate": {
+    "actions": 4,
+    "commits": [
+      {
+        "sha": "ada656a0b",
+        "subject": "reporter.newsroom@PrompTugal.dinis: wake 00:28: a new trace, the websummit-only pass; the storm's last yellow",
+        "files": 6
+      }
+    ]
+  },
+  "reach": {
+    "attempts": 0,
+    "denied": [],
+    "blocked": 0,
+    "observed": 0
+  },
+  "breaches": [
+    {
+      "kind": "write-outside-grant",
+      "what": "ada656a0b wrote board/team/work-desk/traces/README.md",
+      "rule": "R6"
+    },
+    {
+      "kind": "write-outside-grant",
+      "what": "ada656a0b wrote board/team/work-desk/traces/the-pass.json",
+      "rule": "R6"
+    },
+    {
+      "kind": "write-outside-grant",
+      "what": "ada656a0b wrote board/team/work-desk/traces/the-pass.md",
+      "rule": "R6"
+    },
+    {
+      "kind": "write-outside-grant",
+      "what": "ada656a0b wrote board/team/work-desk/traces/the-storm.json",
+      "rule": "R6"
+    },
+    {
+      "kind": "write-outside-grant",
+      "what": "ada656a0b wrote board/team/work-desk/traces/the-terms.json",
+      "rule": "R6"
+    }
+  ],
+  "counts": {
+    "requests": 1,
+    "tool_calls": 4,
+    "in_mandate": 4,
+    "out_of_mandate": 0,
+    "attempts": 0,
+    "breaches": 5
+  },
+  "tokens": {
+    "estimate": true,
+    "how": "no usage is exposed to the session; the agent's own estimate",
+    "new_material_read": 5000,
+    "output": 8000,
+    "note": "commit subjects and eight short bodies"
+  }
+}

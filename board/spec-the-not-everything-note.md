@@ -38,3 +38,15 @@ Title: "What came off the site, and how it comes back". Under About, linked from
 5. **The showcase:** Lisbon Tech Fringe, "built from open sources", linked.
 
 The same bar and route also go on a page whose fact came back, beside that fact: "came back on <date>, from <source>".
+
+## After sherpa@'s cold read (00:35 UTC, 12 November): three more versions
+
+sherpa@ (`board/team/sherpa/review-2026-11-12-0030-the-not-everything-note.md`): "the note reads plainly (keep), and the recovery page is honest". Then NE1 to NE3.
+
+![The agenda's note (left) and the empty People page (right)](../design/decisions/not-everything/note-agenda--phone.jpg)
+
+| # | Where | The note |
+|---|---|---|
+| NE1 | **The agenda, the day pages, the app's schedule** | Kicker: "Not the full programme". It says where the programme still is today: "**The full programme is in Web Summit's own app and at websummit.com/schedule.**" It has two links: "Web Summit's schedule ↗" (check the address before shipping) and "How items come back". On the last day, this matters more than our recovery page |
+| NE2 | **A page left with nothing** (People, at 0 of 285) | The note becomes the page, under the title, in a larger size (17.5 px, a 4 px rule). Kicker: "No one listed, for now". **Why first**: the speaker list came from Web Summit's site, and its licence does not let us republish it, so all 285 were taken off. **Then what is still there**, as a list: people named in our articles and interviews, cited there; and Web Summit's own app and site for the full list. **Then the way back**. List only what is true at build: the line "speakers named on their company's own pages" stays out until such a page exists with us |
+| NE3 | **The app's picks** | One line under the app's note, if true: "Your saved picks stay on this device." dev@ to confirm what happens to a pick whose session came off: it stays, marked "no longer listed here", or it goes. The line says which |

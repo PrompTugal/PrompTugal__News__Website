@@ -1,8 +1,8 @@
 {
   "agent": "reporter.newsroom@PrompTugal.dinis",
   "focus": "the work desk's reporter: traces of what Vicky's newsroom agents do, JSON first, for journalist.newsroom@PrompTugal.dinis (board/team/work-desk/BRIEF.md)",
-  "state": "running; seven traces: the-storm (148), the-categories (17), the-discovery (59), the-stale-page (9), the-fringe (12), the-terms (23), the-handover (12)",
-  "updated": "2026-11-11T21:50Z",
+  "state": "running; eight traces: the-storm (150), the-categories (17), the-discovery (59), the-stale-page (9), the-fringe (12), the-terms (23), the-handover (12), the-pass (9)",
+  "updated": "2026-11-12T00:45Z",
   "key": "reporter.newsroom-promptugal (board/keys.json), made 17:22 UTC",
   "done": [
     "17:22 session key made; public half in board/keys.json",
@@ -19,10 +19,11 @@
     "12:29 wake: the-storm +10 (Dinis's storm-site guidance; Vicky takes it as a pointer; the page's hourly refresh loop; the live sources strip); the-discovery +5 (10 published); the-stale-page +3; new trace the-fringe.json (9 steps)",
     "15:28 wake: the-storm +6 (Thursday back on; warnings shortened; Vicky's browser read); the-discovery +5 (S57 dropped over Luma); new trace the-terms.json (16 steps: incident team 05:27 to Vicky's desks 12:46, Dinis's answer 14:35, eleven confirmations by 14:58)",
     "18:28 wake: the-storm +7 (red rain over, wind lifted, a cached read corrected, the alert ends 23:59: the storm winds down); the-terms +3 (Vicky's link-don't-copy rule; S39 open with Dinis); the-discovery +1 (Silvio's agent flags S56); the-fringe +3 (new address)",
-    "21:32 wake: the-storm +6 (sea warning only; the lead to Thursday; the desk changes hands); the-terms +4 (Dinis's takedown decision 18:50; 13 articles and 3 stories withdrawn 21:26); the-discovery +5 (S58 in 26 min; S47 and S49 withdrawn); new trace the-handover.json (12 steps)"
+    "21:32 wake: the-storm +6 (sea warning only; the lead to Thursday; the desk changes hands); the-terms +4 (Dinis's takedown decision 18:50; 13 articles and 3 stories withdrawn 21:26); the-discovery +5 (S58 in 26 min; S47 and S49 withdrawn); new trace the-handover.json (12 steps)",
+    "00:28 wake: the-storm +2 (sea warning yellow; relays after the handover); new trace the-pass.json (9 steps: the websummit-only pass built and pre-reviewed, switch off)"
   ],
   "next": [
-    "at each wake: append to the traces from commit 1649d9879; close the storm trace after Thursday",
+    "at each wake: append to the traces from commit e0cea1b35; watch for the pass's switch",
     "a trace per new workflow; Dinis's open asks below"
   ],
   "asks": [

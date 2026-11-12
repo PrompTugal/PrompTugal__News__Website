@@ -1,0 +1,223 @@
+{
+  "$comment": "The work desk's trace of the websummit-only pass. JSON first. README: the-pass.md.",
+  "story": "the-pass",
+  "title": "A pass in the night: inventory, gate, note, filter, pre-review and shadow sources, with the switch still off",
+  "made_by": "reporter.newsroom@PrompTugal.dinis",
+  "for": "journalist.newsroom@PrompTugal.dinis",
+  "issue": "WS-14",
+  "updated": "2026-11-12T00:45Z",
+  "covers": {
+    "from": "2026-11-11T18:50:00Z",
+    "to": "2026-11-12T00:26:50Z",
+    "last_commit": "e0cea1b35"
+  },
+  "method": "commit subjects and bodies on dev; commit times (UTC).",
+  "steps": [
+    {
+      "n": 1,
+      "time_utc": "2026-11-11T18:50:00Z",
+      "actor": {
+        "name": "Dinis Cruz",
+        "kind": "person"
+      },
+      "input": "S39",
+      "output": "the rule and its pass: what rests only on websummit.com comes off, with a note; shadow sources bring it back",
+      "hand_off_to": [
+        {
+          "name": "conductor@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
+        "board/passes/2026-11-11-only-websummit-sourced-comes-off.md",
+        "commit:2bc009494 (routed 21:23)"
+      ],
+      "hand_off": "person->agent"
+    },
+    {
+      "n": 2,
+      "time_utc": "2026-11-11T21:53:32Z",
+      "actor": {
+        "name": "social.watch@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the rule",
+      "output": "what rests only on websummit.com comes off its own files, with the note; shadow sources for Manus 2.0",
+      "hand_off_to": [],
+      "evidence": [
+        "commit:d16488fa4"
+      ]
+    },
+    {
+      "n": 3,
+      "time_utc": "2026-11-11T21:54:10Z",
+      "actor": {
+        "name": "dev@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the pass, step 3 groundwork",
+      "output": "newsroom/build/lib/wsonly.mjs and a gate count, a dry run (company facts 239 of 311, 59 companies left with none, people 285 of 285, sessions 215 of 248); switch off",
+      "hand_off_to": [
+        {
+          "name": "security@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:8153faf84"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "the measure before the change"
+    },
+    {
+      "n": 4,
+      "time_utc": "2026-11-11T21:55:51Z",
+      "actor": {
+        "name": "ontologist@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the pass, step 2",
+      "output": "data/websummit-only.json: the inventory of every fact, edge, product, person, event and place whose every source is on websummit.com (facts_left per company at 22:22)",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:769a63ad2",
+        "commit:8c9534629"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "the plan as data: an inventory, not a document",
+      "note": "Steps 3 and 4 landed a minute apart: developer and ontologist worked in parallel, the inventory then becoming the gate's input (22:13, a65448874)."
+    },
+    {
+      "n": 5,
+      "time_utc": "2026-11-11T22:37:57Z",
+      "actor": {
+        "name": "designer@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the pass, step 3; Dinis's rules 3 and 6",
+      "output": "the note as one component in two lengths, on every affected page and list, and the recovery page (board/spec-the-not-everything-note.md)",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:9c115215b"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "the designer maps it"
+    },
+    {
+      "n": 6,
+      "time_utc": "2026-11-11T23:20:56Z",
+      "actor": {
+        "name": "dev@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the inventory and the note",
+      "output": "the filter behind its switch (still off): items out of the store, links to removed pages as plain text, raw files out of the deploy",
+      "hand_off_to": [
+        {
+          "name": "security@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:c6f61f2fc",
+        "commit:0cb5fe403 (conductor.b@: waits on security@)"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "the developer builds it, switched off"
+    },
+    {
+      "n": 7,
+      "time_utc": "2026-11-12T00:07:25Z",
+      "actor": {
+        "name": "security@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "the pass",
+      "output": "pre-review: go, with raw data files in scope; S39 decided; S40 (low)",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        },
+        {
+          "name": "Dinis Cruz",
+          "kind": "person"
+        }
+      ],
+      "evidence": [
+        "commit:6bdf0e08b"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "security's pre-review, after the build and before the switch"
+    },
+    {
+      "n": 8,
+      "time_utc": "2026-11-12T00:21:57Z",
+      "actor": {
+        "name": "dev@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "security@'s conditions",
+      "output": "the deploy also leaves out the desks' copies of websummit.com; the gate fails, with the switch on, if any served file names an item of the inventory (switch still off)",
+      "hand_off_to": [
+        {
+          "name": "ontologist@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:f90b00661"
+      ],
+      "hand_off": "agent->agent"
+    },
+    {
+      "n": 9,
+      "time_utc": "2026-11-12T00:26:50Z",
+      "actor": {
+        "name": "ontologist@PrompTugal.dinis",
+        "kind": "agent"
+      },
+      "input": "dev@'s trial of the switch: 135 of 149 leaks were five shared entities",
+      "output": "each given a public source read on 12 November (Wikipedia: Web Summit, AWS, Lisbon, the venue)",
+      "hand_off_to": [
+        {
+          "name": "dev@PrompTugal.dinis",
+          "kind": "agent"
+        }
+      ],
+      "evidence": [
+        "commit:e0cea1b35"
+      ],
+      "hand_off": "agent->agent",
+      "workflow_step": "shadow sources bring it back"
+    }
+  ],
+  "hand_offs_person_agent": [
+    1,
+    7
+  ],
+  "status": "built and pre-reviewed; the switch is off at 00:28",
+  "pattern": "the brief's workflow, nearly as drawn: the ontologist's inventory is the plan (as data), the developer builds behind a switch, the designer maps the note, security reviews before the switch is thrown, and a trial run finds what the plan missed (five shared entities). Two agents on Dinis's account and the pass file coordinate it; no conductor relays between steps.",
+  "speeds": [
+    {
+      "what": "routing to built and pre-reviewed",
+      "from": "21:23 (routed)",
+      "to_step": 7,
+      "minutes": 164
+    }
+  ],
+  "related_traces": [
+    "the-terms.json"
+  ]
+}
