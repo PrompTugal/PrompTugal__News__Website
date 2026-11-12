@@ -1,0 +1,93 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-12T01-15-25Z",
+ "started": "2026-11-12T01:15:25.841Z",
+ "ended": "2026-11-12T01:26:09Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "a9c449b9ffda852f"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-12T01:15:26.056Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-12T01:15:25.841Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 22,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 18,
+   "message": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 22,
+  "commits": [
+   {
+    "sha": "1c9ad8892",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.pages's new work onto dev (one commit)",
+    "files": 6
+   },
+   {
+    "sha": "4e9ebcd51",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.graphs's new work onto dev (one commit)",
+    "files": 5
+   },
+   {
+    "sha": "ed8843633",
+    "subject": "dev@PrompTugal.dinis: review: bring work/dev.data's new work onto dev (one commit)",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "1c9ad8892 wrote data/schemas/list-views.schema.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 22,
+  "in_mandate": 22,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}

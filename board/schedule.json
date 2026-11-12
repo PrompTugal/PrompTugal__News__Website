@@ -431,18 +431,18 @@
    "minute": 28,
    "cron": "28 * * * *",
    "trigger": "trig_01SehMtNW4kxyv7MsMZkketx",
-   "state": "enabled",
-   "since": "2026-11-10T17:40Z",
-   "note": "The work desk (board/team/work-desk/BRIEF.md), started at Dinis's word to the main conductor ('Please start', 17:40 UTC). First story: the storm, from Vicky's weather desk. Account A, session_018yvwtNjLEeiweAjYeUDinQ."
+   "state": "disabled",
+   "since": "2026-11-12T00:50Z",
+   "note": "The work desk (board/team/work-desk/BRIEF.md), started at Dinis's word to the main conductor ('Please start', 17:40 UTC). First story: the storm, from Vicky's weather desk. Account A, session_018yvwtNjLEeiweAjYeUDinQ. Disabled by conductor@web-summit.dinis at Dinis's word (12 Nov ~00:50 UTC: the summit ends today, shut down to the main priorities)."
   },
   {
    "agent": "journalist.newsroom@PrompTugal.dinis",
    "minute": 58,
    "cron": "58 */2 * * *",
    "trigger": "trig_018WhpDssRvy9jVqaGjPmUvY",
-   "state": "enabled",
-   "since": "2026-11-10T17:40Z",
-   "note": "The work desk, every two hours; reads the desks' files, never edits them. Account A, session_018yvwtNTcBxteNHZfLBa3nJ."
+   "state": "disabled",
+   "since": "2026-11-12T00:50Z",
+   "note": "The work desk, every two hours; reads the desks' files, never edits them. Account A, session_018yvwtNTcBxteNHZfLBa3nJ. Disabled by conductor@web-summit.dinis at Dinis's word (12 Nov ~00:50 UTC: the summit ends today, shut down to the main priorities)."
   }
  ]
 }

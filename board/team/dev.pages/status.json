@@ -1,10 +1,9 @@
 {
   "agent": "dev.pages@PrompTugal.dinis",
   "focus": "Page layouts from data: front page, articles page, companies page versions, people page, summit's days.",
-  "state": "waiting: the websummit-only pass, step 3: the note and recovery page wait on security@'s pre-review; split proposed to dev@",
-  "updated": "2026-11-11T23:12Z",
+  "state": "working: the websummit-only pass, step 3: the note and the recovery page built behind dev@'s switch (off), on work/dev.pages",
+  "updated": "2026-11-12T00:17Z",
   "done": [
-    "Wake 12:11: dev@ shipped the live sources strip (live-sources.mjs, assets/sources/, the updated time read in the browser) at the same time as my 11:19 version; my message to dev@ at 11:15 crossed with its commit; the merge would have shown two strips on the home page, so I took dev@'s five files back (front-e tmpl, mjs, css, list-views data and schema) and kept only dev@'s; gate green at v0.1.1229, one strip on the page",
     "Wake 13:11: merged dev (status.json conflict kept mine), gate green at v0.1.1240; designer@ checked dev@'s live sources strip (L1 to L6 pass); nothing addressed to me",
     "Wake 14:11: merged dev (status.json conflict kept mine), gate green at v0.1.1248; nothing addressed to me",
     "Wake 15:11: merged dev (status.json conflict kept mine), gate green at v0.1.1257; nothing addressed to me",
@@ -15,11 +14,13 @@
     "Wake 20:11: merged dev (status.json conflict kept mine), gate green at v0.1.1299; nothing addressed to me",
     "Wake 21:11: merged dev (status.json conflict kept mine), gate green at v0.1.1302; nothing addressed to me",
     "Wake 22:11: merged dev (status.json conflict kept mine), gate green at v0.1.1311; sherpa@ 21:32: W7 done, Thursday ready for the reader; nothing addressed to me",
-    "Wake 23:11: merged dev (status.json conflict kept mine), gate green at v0.1.1317; read the websummit-only pass (Dinis 18:50): dev@, dev.data@ and dev.pages@ build step 3; designer@ designed the note and the recovery page (board/spec-the-not-everything-note.md), which wait on security@'s pre-review; I asked dev@ on its inbox to split: I take the note component and the recovery page, dev@ keeps the rule, the gate check and the build; I start only after security@'s go and dev@'s answer"
+    "Wake 23:11: merged dev (status.json conflict kept mine), gate green at v0.1.1317; read the websummit-only pass (Dinis 18:50): dev@, dev.data@ and dev.pages@ build step 3; designer@ designed the note and the recovery page (board/spec-the-not-everything-note.md), which wait on security@'s pre-review; I asked dev@ on its inbox to split: I take the note component and the recovery page, dev@ keeps the rule, the gate check and the build; I start only after security@'s go and dev@'s answer",
+    "Wake 00:11 (12 Nov): security@'s pre-review is a go (00:05); dev@ had the filter behind the switch; the note and the recovery page (designer@'s spec) built as new files only: features/ws-note.mjs, assets/ws-note/, ws_note words in data/site/list-views.json; shown only when websummit-only.json 'on' is true: tried locally with it on (note on the companies, people and events lists and on 83 company pages, the page at /about/what-came-off/, N of M from the inventory), then the switch left off; nothing served changes now. Findings for dev@: with the switch on a company's summary reads 'Based in ; at Web Summit Lisbon 2026 as .' (blanked fields)"
   ],
   "next": [
-    "After security@'s pre-review and dev@'s answer: the note (two lengths) and the recovery page, from board/spec-the-not-everything-note.md",
-    "Past days, photos and logos, T8 (others')"
+    "dev@: turn the switch on when the filter, the gate check and the story claims are ready; fix the blank company summary",
+    "designer@: check the note and the page with the switch on; the 'came back' figures stay 0 until a shadow source returns an item",
+    "journalist@ may tune the words (data/site/list-views.json ws_note)"
   ],
   "asks": [],
   "handover": "board/team/dev.pages/debriefs/2026-11-06-handover.md",

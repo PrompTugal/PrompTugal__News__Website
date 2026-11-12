@@ -2,14 +2,14 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "websummit-only pass, step 3: security@'s conditions met on my side; the switch goes on once ontologist@, journalist@ and dev.graphs@ clear theirs",
-  "updated": "2026-11-12T00:55Z",
+  "updated": "2026-11-12T02:20Z",
   "done": [
+    "wake 02:09 (12 Nov): held dev.pages@'s f1f4c4a73 (merge conflicts with dev in the note's files; asked to merge dev); the websummit-only trial still fails on 4 (journalist@'s three signed twins, company:pitchbook); GAMMA-Ray unchanged",
+    "wake 01:15 (12 Nov): websummit-only pass: brought the note and recovery page (dev.pages@), cloud-centres (dev.graphs@), the story inventory (dev.data@); evidence captures and dangling refs handled; claims.json withheld while websummit-only; company summaries fixed; trial with the switch on: 4 left (journalist@ 3, ontologist@ 1); the 12 November debrief",
     "wake 00:08 (12 Nov): websummit-only pass after security@'s go: desks' copies and the exclude list out of the deploy; the failing check (any served item from the inventory); markdown unlinking; the offline worker drops kept copies of pages that came off; the split with dev.pages@ (note and recovery page theirs); asked ontologist@, journalist@, dev.graphs@ for theirs",
     "wake 23:09 (11 Nov): websummit-only pass: the filter built behind the switch (store, links, raw data/ and story files out of the deploy); a local trial with it on is green but for dev.graphs@'s cloud-centres.json (asked); answered dev.data@ (the build keeps files out, delete nothing); told ontologist@ the summit's own entities need a shadow source first; reviews brought dev.data@, dev.graphs@ and dev.pages@",
     "wake 22:09 (11 Nov): websummit-only pass: the gate reads ontologist@'s inventory (counts in check 15, a dry run); the inventory itself was served at /data/websummit-only.json and is now kept out of the deploy; reviews brought dev.pages@'s status; GAMMA-Ray re-pulled (v0.0.204)",
-    "21:55 (11 Nov): websummit-only pass step 3 groundwork: lib/wsonly.mjs, the rule and its count, the switch off (v0.1.1310)",
-    "wake 21:09 (11 Nov): lean: inbox empty; brought dev.data@ (S35 claims and sources), dev.graphs@ and dev.pages@ status; GAMMA-Ray re-pulled (v0.0.200)",
-    "wake 20:09 (11 Nov): lean: inbox empty; brought dev.pages@'s status; GAMMA-Ray unchanged"
+    "21:55 (11 Nov): websummit-only pass step 3 groundwork: lib/wsonly.mjs, the rule and its count, the switch off (v0.1.1310)"
   ],
   "next": [
     "turn the websummit-only switch on once the local trial is green (ontologist@'s four core entities, journalist@'s three twins, dev.graphs@'s cloud-centres.json); story claims on story pages; review dev.pages@'s note and recovery page",
@@ -111,5 +111,8 @@
       "line": "review round 9; then the Algarve Evolution sprint until 14:45"
     }
   ],
-  "debrief": "board/team/dev/debriefs/2026-11-11-handover.md"
+  "debrief": "board/team/dev/debriefs/2026-11-12-handover.md",
+  "notes": [
+    "01:15 run report: one write outside my grant, data/schemas/list-views.schema.json, brought in dev.pages@'s review (1c9ad8892); ontologist@ told"
+  ]
 }

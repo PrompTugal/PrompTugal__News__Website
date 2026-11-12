@@ -2,7 +2,7 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "THE RESTART on account B: nine agents on (dev@, dev.pages@, designer@, ontologist@, dev.graphs@, dev.data@, correspondent@, sherpa@, librarian@); conductor.b@ hourly at :48",
- "updated": "2026-11-11T23:53Z",
+ "updated": "2026-11-12T01:53Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
@@ -130,10 +130,13 @@
   "20:48 wake: the lead moved to Thursday; a quiet hour",
   "21:48 wake: Dinis's websummit-only ruling and pass read; ontologist@ (inventory) and dev@ (removal and note) pointed at it; ledger 1546.68",
   "22:48 wake: the websummit-only pass's account-B steps ready (inventory, gate, note), waiting on security@'s pre-review; the 11 Nov debrief",
-  "23:48 wake: dev@'s websummit-only filter built, switch off; waits on security@"
+  "23:48 wake: dev@'s websummit-only filter built, switch off; waits on security@",
+  "00:48 wake (12 Nov): security@'s go on the pass; dev.graphs@ messaged for cloud-centres.json; ledger 1602.9",
+  "01:48 wake: the pass nearly ready (dev@ 01:30: dev.graphs@'s fix in), switch still off"
  ],
  "next": [
-  "00:48 wake with the ledger"
+  "02:48 wake",
+  "03:48 ledger"
  ],
  "asks": [
   "Dinis: your 17:11 baseline (conductor, security, developer per team): account B now has its conductor and developer; its security agent is security@ on account A, which reviews this repository's commits; say if account B needs its own",
