@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1357",
+    "date": "2026-11-12",
+    "what": "weather@PrompTugal.vicky: run report (06:35 wake)",
+    "by": "weather@PrompTugal.vicky",
+    "from": "de113bb86"
+  },
+  {
     "version": "v0.1.1356",
     "date": "2026-11-12",
     "what": "sherpa@PrompTugal.dinis: 06:29 wake: the websummit-only switch read live on the last day (v0.1.1355); NE5 the app says only 'Nothing matches'",
