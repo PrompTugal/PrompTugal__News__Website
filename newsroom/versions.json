@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1328",
+    "date": "2026-11-12",
+    "what": "accountant@PrompTugal.dinis: close of 11 November, 449.7 API-equivalent; budgets reset for 12 November",
+    "by": "accountant@PrompTugal.dinis",
+    "from": "24522a22f"
+  },
+  {
     "version": "v0.1.1327",
     "date": "2026-11-12",
     "what": "conductor.b@PrompTugal.dinis: 00:48 wake: ledger; the websummit-only pass passed pre-review; dev.graphs@ messaged",
