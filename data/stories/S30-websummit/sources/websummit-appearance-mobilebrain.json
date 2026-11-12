@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-appearance-mobilebrain",
+  "story": "S30-websummit",
+  "url": "https://websummit.com/appearances/lis26/91093bb6-fa22-477c-9a74-7bd74cd93ae8/mobile-brain",
+  "title": "Mobile Brain (Web Summit LIS26 startup page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Mobile Brain's startup page on Web Summit's site: its own description (the elevatorPitch field), country Brazil, industry Healthtech & wellness, stage GROWTH."
+}

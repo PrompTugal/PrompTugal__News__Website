@@ -9326,3 +9326,11 @@
 {"event":"withdrawn","id":"page:places/stage-8/index.html","acc":"ACC-20261106-0920","at":"2026-11-12T06:58:18Z","wake":"2026-11-12T06:58"}
 {"event":"withdrawn","id":"page:places/stage-9/index.html","acc":"ACC-20261106-0921","at":"2026-11-12T06:58:18Z","wake":"2026-11-12T06:58"}
 {"event":"withdrawn","id":"page:places/unicorn-factory-lisboa/index.html","acc":"ACC-20261106-0924","at":"2026-11-12T06:58:18Z","wake":"2026-11-12T06:58"}
+{"acc":"ACC-20261112-0046","id":"page:organisations/pagerduty/index.html","call":"DAT.ORG pagerduty","at":"2026-11-12T09:58:25Z","wake":"2026-11-12T09:58","retro":false,"made_on":"2026-11-12T07:38:33Z","commit":"188e302"}
+{"acc":"ACC-20261112-0047","id":"page:articles/discord-lisbon-engineering-hub.html","call":"PUB.ART discord-lisbon-engineering-hub","at":"2026-11-12T09:58:25Z","wake":"2026-11-12T09:58","retro":false,"made_on":"2026-11-12T08:25:37Z","commit":"d36bfa7"}
+{"acc":"ACC-20261112-0048","id":"page:newsroom/stories/S59/index.html","call":"PUB.NEWS S59","at":"2026-11-12T09:58:25Z","wake":"2026-11-12T09:58","retro":false,"made_on":"2026-11-05T03:30:15Z","commit":"68d6b99"}
+{"acc":"ACC-20261112-0049","id":"page:newsletter/2026-11-12-morning/index.html","call":"PUB.SITE 2026-11-12-morning","at":"2026-11-12T09:58:25Z","wake":"2026-11-12T09:58","retro":false,"made_on":"2026-11-06T16:16:59Z","commit":"a7c84df"}
+{"acc":"ACC-20261112-0050","id":"board:board/team/security/reviews/2026-11-12-0905-wake.md","call":"TEAM.ROLE 2026-11-12-0905-wake","at":"2026-11-12T09:58:25Z","wake":"2026-11-12T09:58","retro":false,"made_on":"2026-11-12T09:05:49Z","commit":"a89b885"}
+{"acc":"ACC-20261112-0051","id":"board:board/team/dev.graphs/debriefs/2026-11-12-handover.md","call":"TEAM.ROLE 2026-11-12-handover:5","at":"2026-11-12T09:58:25Z","wake":"2026-11-12T09:58","retro":false,"made_on":"2026-11-12T07:12:42Z","commit":"7a2a74b"}
+{"acc":"ACC-20261112-0052","id":"board:board/team/dev.data/shadow/S30.shadow.json","call":"TEAM.ROLE S30.shadow","at":"2026-11-12T09:58:25Z","wake":"2026-11-12T09:58","retro":false,"made_on":"2026-11-12T07:11:51Z","commit":"1bd5c8a"}
+{"event":"restored","id":"page:organisations/discord/index.html","acc":"ACC-20261106-0412","at":"2026-11-12T09:58:25Z","wake":"2026-11-12T09:58"}

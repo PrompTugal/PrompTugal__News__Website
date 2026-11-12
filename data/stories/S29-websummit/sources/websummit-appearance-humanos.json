@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-appearance-humanos",
+  "story": "S29-websummit",
+  "url": "https://websummit.com/appearances/lis26/9bb06d38-6e33-4cc6-9c93-4936e1154da9/humanos",
+  "title": "Humanos (Web Summit LIS26 startup page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Humanos's startup page on Web Summit's site: its own description (the elevatorPitch field), country United States, industry and stage."
+}

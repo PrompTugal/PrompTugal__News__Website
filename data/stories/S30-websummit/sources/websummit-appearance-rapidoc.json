@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-appearance-rapidoc",
+  "story": "S30-websummit",
+  "url": "https://websummit.com/appearances/lis26/f8b1c16b-ba5d-40d8-883b-2f14ed61fb4e/rapidoc",
+  "title": "Rapidoc (Web Summit LIS26 startup page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Rapidoc's startup page on Web Summit's site: its own description (the elevatorPitch field), country Brazil, industry Healthtech & wellness, stage GROWTH."
+}

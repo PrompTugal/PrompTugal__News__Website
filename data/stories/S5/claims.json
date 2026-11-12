@@ -27,6 +27,51 @@
         "organisation:web-summit",
         "event:web-summit-lisbon-2025"
       ]
+    },
+    {
+      "id": "c17",
+      "text": "The European Commission agency HaDEA lists Web Summit 2026 as running from 9 to 12 November 2026 at MEO Arena and FIL, Lisbon.",
+      "kind": "fact",
+      "source": "hadea-web-summit-2026-listing",
+      "quote": "Where MEO Arena and FIL Rossio dos Olivais, 1990-231 Lisbon, Portugal",
+      "read_on": "2026-11-12",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c18",
+      "text": "Startups.com.br reports that, according to Paddy Cosgrave, about 70,000 people are expected at FIL and MEO Arena from 9 to 12 November 2026, about the same as 2025.",
+      "kind": "fact",
+      "source": "startups-com-br-what-to-expect-2026",
+      "quote": "devem receber cerca de 70 mil pessoas, segundo Paddy Cosgrave, fundador e CEO do Web Summit",
+      "read_on": "2026-11-12",
+      "about": [
+        "organisation:web-summit",
+        "event:web-summit-lisbon-2026"
+      ]
+    },
+    {
+      "id": "c19",
+      "text": "Startups.com.br gives Web Summit 2025 as 71,386 participants from 157 countries, 2,725 startups and 1,857 investors.",
+      "kind": "fact",
+      "source": "startups-com-br-what-to-expect-2026",
+      "quote": "quando o evento reuniu 71.386 participantes de 157 países, 2.725 startups e 1.857 investidores",
+      "read_on": "2026-11-12",
+      "about": [
+        "event:web-summit-lisbon-2025"
+      ]
+    },
+    {
+      "id": "c20",
+      "text": "Startups.com.br says more than 700 founders and executives are on stage this year, across 17 thematic areas.",
+      "kind": "fact",
+      "source": "startups-com-br-what-to-expect-2026",
+      "quote": "são mais de 700 fundadores e executivos no palco, em 17 áreas temáticas",
+      "read_on": "2026-11-12",
+      "about": [
+        "event:web-summit-lisbon-2026"
+      ]
     }
   ]
 }

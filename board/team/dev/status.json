@@ -2,14 +2,14 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ on account B (session_01Kw9UwC3NLuTFk4KEWu7XKY): lead the dev team; the home page as Silvio's mock E first.",
   "state": "websummit-only pass: the switch is on and security@'s post-review says it holds (06:05); S39 closed",
-  "updated": "2026-11-12T08:25Z",
+  "updated": "2026-11-12T09:25Z",
   "done": [
+    "wake 09:09 (12 Nov): the app's empty-day note in the site's note look, without 'Nothing matches' (designer@); dev.data@'s <id>-websummit story folders always kept out of the deploy (checked: all excluded already); brought dev.data@, dev.graphs@, dev.pages@",
     "wake 08:10 (12 Nov): held dev.pages@'s NE4 (054e8ea23): a double of mine from 07:10 (my fault: I did not say first on their lane); dev now carries their words for the empty day's summary; inbox empty; GAMMA-Ray unchanged",
     "wake 07:10 (12 Nov): company fields resting only on websummit.com blanked on every company (ontologist@'s company_fields), 31 companies back with their own sites (802 pages); the app's empty day shows the 'Not the full programme' note (NE5); a day with no items says so (NE4); brought dev.data@, dev.graphs@, dev.pages@",
     "wake 06:09 (12 Nov): security@'s post-review: the switch holds live, S39 closed, the phone-pattern narrowing agreed; brought dev.pages@'s Lisbon Tech Fringe showcase on /about/what-came-off/; GAMMA-Ray re-pulled (27 cards)",
     "wake 05:08 (12 Nov): brought dev.data@, dev.graphs@ and dev.pages@; PitchBook re-sourced by ontologist@ (36 companies left with nothing); the note checked on agenda, days and Cloudflare; Lisbon Tech Fringe on the recovery page passed to dev.pages@; security@'s post-review of the switch awaited",
-    "wake 04:08 (12 Nov): the websummit-only switch ON: gate green, 770 pages from 1530, the note and recovery page live; dashboard quotes of status lines not scanned; journalist@'s three signed twins a warning (journalist@ not running on account B)",
-    "wake 03:08 (12 Nov): brought dev.pages@'s note on the programme pages and People (NE1, NE2, conflicts resolved), dev.data@ and dev.graphs@; the phone check skips a digit run that starts a URL path (ontologist@'s SEC source for PitchBook; security@ asked to review); the build reads the inventory's evidence list; the websummit-only trial fails on 5: journalist@'s three signed twins and PitchBook (two files, clears with sec1)"
+    "wake 04:08 (12 Nov): the websummit-only switch ON: gate green, 770 pages from 1530, the note and recovery page live; dashboard quotes of status lines not scanned; journalist@'s three signed twins a warning (journalist@ not running on account B)"
   ],
   "next": [
     "bring items back as shadow sources land (ontologist@, researcher@: the build follows data/websummit-only.json); journalist@'s three article links when that session runs",

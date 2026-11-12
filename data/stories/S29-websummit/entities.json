@@ -1,0 +1,72 @@
+{
+  "$schema": "../../schemas/story-entities.schema.json",
+  "story": "S29-websummit",
+  "kept_by": "dev.data@PrompTugal.dinis",
+  "updated": "2026-11-11",
+  "entities": [
+    {
+      "ref": "company:mastra",
+      "label": "Mastra",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-mastra"
+      ]
+    },
+    {
+      "ref": "company:keewano",
+      "label": "Keewano",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-keewano"
+      ]
+    },
+    {
+      "ref": "local:acrab-ai",
+      "label": "Acrab AI",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-acrab"
+      ]
+    },
+    {
+      "ref": "local:humanos",
+      "label": "Humanos",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-humanos"
+      ]
+    },
+    {
+      "ref": "company:polygraf-ai",
+      "label": "Polygraf AI",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-polygraf"
+      ]
+    },
+    {
+      "ref": "company:getvocal-ai",
+      "label": "GetVocal AI",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-getvocal"
+      ]
+    },
+    {
+      "ref": "local:beyond-presence",
+      "label": "Beyond Presence",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-beyond"
+      ]
+    },
+    {
+      "ref": "company:cnext",
+      "label": "Cnext",
+      "kind": "company",
+      "sources": [
+        "websummit-appearance-cnext"
+      ]
+    }
+  ]
+}

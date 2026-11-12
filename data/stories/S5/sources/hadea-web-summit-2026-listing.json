@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "hadea-web-summit-2026-listing",
+  "story": "S5",
+  "url": "https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en",
+  "title": "European Commission HaDEA, events listing: Web Summit 2026",
+  "publisher": "HaDEA (European Commission)",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "official",
+  "what_it_says": "The EC agency HaDEA's events listing gives Web Summit 2026 as 9 to 12 November 2026 at MEO Arena and FIL Rossio dos Olivais, Lisbon."
+}

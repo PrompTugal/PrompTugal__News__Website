@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-12T06:50Z",
+ "updated": "2026-11-12T09:50Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -26,17 +26,17 @@
    "usd": 500
   },
   "spent_today": {
-   "releases": 39,
-   "usd": 116.21,
-   "read_at": "2026-11-12T06:50Z",
+   "releases": 57,
+   "usd": 171.17,
+   "read_at": "2026-11-12T09:50Z",
    "usd_by_account": {
-    "A": 27.52,
-    "B": 88.69
+    "A": 41.12,
+    "B": 130.05
    }
   },
   "state": "ok",
-  "used": 0.23,
-  "rate": "API-equivalent, 2026-11-12: 116.21 by 06:50 (A 27.52, B 88.69); 46.35 since the reading before"
+  "used": 0.34,
+  "rate": "API-equivalent, 2026-11-12: 171.17 by 09:50 (A 41.12, B 130.05); 54.96 since the reading before"
  },
  "agents": [
   {
@@ -47,16 +47,16 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 2,
-    "usd": 11.67,
-    "output_tokens": 9114,
-    "read_at": "2026-11-12T06:50Z",
+    "releases": 3,
+    "usd": 15.65,
+    "output_tokens": 11345,
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
-     "A": 5.43,
-     "B": 6.24
+     "A": 7.94,
+     "B": 7.71
     }
    },
-   "used": 0.23,
+   "used": 0.31,
    "state": "ok",
    "why": "one release per hourly wake; it opens and closes every pass; account A: stays (board/the-account-move.md)",
    "yesterday_usd": 90.75
@@ -72,7 +72,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -92,15 +92,15 @@
    },
    "spent_today": {
     "releases": 1,
-    "usd": 11.43,
+    "usd": 19.46,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
-     "B": 11.43
+     "B": 19.46
     }
    },
-   "used": 0.23,
+   "used": 0.39,
    "state": "ok",
    "why": "eight pass rounds today (3, 3 and 2) and its own line; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 75.92
@@ -113,16 +113,16 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 7,
-    "usd": 7.84,
+    "releases": 10,
+    "usd": 9.73,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
-     "B": 7.84
+     "B": 9.73
     }
    },
-   "used": 0.13,
+   "used": 0.16,
    "state": "ok",
    "why": "account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B)",
    "yesterday_usd": 75.1
@@ -138,7 +138,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -158,15 +158,15 @@
    },
    "spent_today": {
     "releases": 3,
-    "usd": 5.75,
+    "usd": 8.9,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
-     "B": 5.75
+     "B": 8.9
     }
    },
-   "used": 0.19,
+   "used": 0.3,
    "state": "ok",
    "why": "side effect seen: it stopped for the day on its budget before Dinis's 10:10 word; the conductor nudged it back; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 45.1
@@ -182,7 +182,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -202,15 +202,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 5.05,
-    "output_tokens": 1833,
-    "read_at": "2026-11-12T06:50Z",
+    "usd": 7.61,
+    "output_tokens": 2480,
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
-     "A": 5.05,
+     "A": 7.61,
      "B": 0
     }
    },
-   "used": 0.17,
+   "used": 0.25,
    "state": "ok",
    "why": "account A: stays (board/the-account-move.md)",
    "yesterday_usd": 37.96
@@ -226,7 +226,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -245,16 +245,16 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 4,
-    "usd": 13.13,
+    "releases": 5,
+    "usd": 21.82,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
-     "B": 13.13
+     "B": 21.82
     }
    },
-   "used": 0.33,
+   "used": 0.55,
    "state": "ok",
    "why": "every two hours; its beat correspondents run as sub-agents inside its session, so their spend is inside its own figure; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 45.15
@@ -267,16 +267,16 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 3,
-    "usd": 10.09,
-    "output_tokens": 10284,
-    "read_at": "2026-11-12T06:50Z",
+    "releases": 4,
+    "usd": 15.04,
+    "output_tokens": 13675,
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
-     "A": 10.09,
+     "A": 15.04,
      "B": 0
     }
    },
-   "used": 0.34,
+   "used": 0.5,
    "state": "ok",
    "why": "account A: stays (board/the-account-move.md)",
    "yesterday_usd": 104.16
@@ -289,16 +289,16 @@
     "output_tokens": 350000
    },
    "spent_today": {
-    "releases": 3,
-    "usd": 8.98,
+    "releases": 4,
+    "usd": 13.73,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
-     "B": 8.98
+     "B": 13.73
     }
    },
-   "used": 0.36,
+   "used": 0.55,
    "state": "ok",
    "why": "three pass reviews and eight round re-reviews; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 28.37
@@ -312,16 +312,16 @@
    },
    "spent_today": {
     "releases": 2,
-    "usd": 8.41,
+    "usd": 13.59,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
-     "B": 8.41
+     "B": 13.59
     }
    },
-   "used": 0.56,
-   "state": "ok",
+   "used": 0.91,
+   "state": "warn",
    "why": "account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 47.14
   },
@@ -336,7 +336,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -356,17 +356,17 @@
    },
    "spent_today": {
     "releases": 2,
-    "usd": 6.95,
-    "output_tokens": 8422,
-    "read_at": "2026-11-12T06:50Z",
+    "usd": 10.53,
+    "output_tokens": 10944,
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
-     "A": 6.95,
+     "A": 10.53,
      "B": 0
     }
    },
-   "used": 0.7,
-   "state": "ok",
-   "why": "account A: stays (board/the-account-move.md)",
+   "used": 1.05,
+   "state": "warn",
+   "why": "account A: stays (board/the-account-move.md); OVER at 09:50 UTC on usd (used 1.05); keeps working (capture, not block)",
    "yesterday_usd": 37.32
   },
   {
@@ -380,7 +380,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0.0,
      "B": 0
@@ -402,7 +402,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -424,7 +424,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -446,7 +446,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -468,7 +468,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -488,15 +488,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 6.35,
+    "usd": 7.69,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
-     "B": 6.35
+     "B": 7.69
     }
    },
-   "used": 0.64,
+   "used": 0.77,
    "state": "ok",
    "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B)",
    "yesterday_usd": 10.32
@@ -510,17 +510,17 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 9.36,
+    "usd": 15.37,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
-     "B": 9.36
+     "B": 15.37
     }
    },
-   "used": 0.94,
+   "used": 1.54,
    "state": "warn",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B)",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B); OVER at 09:50 UTC on usd (used 1.54); keeps working (capture, not block)",
    "yesterday_usd": 14.67
   },
   {
@@ -534,7 +534,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -554,17 +554,17 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 11.2,
+    "usd": 12.05,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
-     "B": 11.2
+     "B": 12.05
     }
    },
-   "used": 1.12,
+   "used": 1.21,
    "state": "warn",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B); OVER at 06:50 UTC on usd (used 1.12); keeps working (capture, not block)",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B); OVER at 09:50 UTC on usd (used 1.21); keeps working (capture, not block)",
    "yesterday_usd": 6.38
   },
   {
@@ -578,7 +578,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -600,7 +600,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -622,7 +622,7 @@
     "releases": 0,
     "usd": 0.0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T06:50Z",
+    "read_at": "2026-11-12T09:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0.0
@@ -1290,16 +1290,16 @@
   "measured": "not yet: the accountant has no reading of vault sizes; asked of backup@ and observability@ for one number a day"
  },
  "real_limits": {
-  "read_at": "2026-11-12T06:50Z",
+  "read_at": "2026-11-12T09:50Z",
   "subscription": {
    "A": {
     "rate_limit_type": "seven_day",
-    "status": "allowed in every account A session at 06:47 on 12 November",
+    "status": "allowed in every account A session at 09:47 on 12 November",
     "resets": "2026-11-15T20:00Z"
    },
    "B": {
     "status": "not read this wake",
-    "source": "conductor.b@'s ledger at 2026-11-12T03:50Z"
+    "source": "conductor.b@'s ledger at 2026-11-12T06:50Z"
    }
   },
   "openrouter": {

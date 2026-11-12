@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "acrab-own-site",
+  "story": "S29",
+  "url": "https://acrab.ai/",
+  "title": "Acrab (the company's own site)",
+  "publisher": "Acrab AI",
+  "read_on": "2026-11-12",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "company",
+  "what_it_says": "Acrab AI's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-appearance-mastra",
+  "story": "S29-websummit",
+  "url": "https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra",
+  "title": "Mastra (Web Summit LIS26 startup page)",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-11",
+  "read_by": "dev.data@PrompTugal.dinis",
+  "access": "public",
+  "kind": "programme",
+  "what_it_says": "Mastra's startup page on Web Summit's site: its own description (the elevatorPitch field), country United States, industry and stage."
+}

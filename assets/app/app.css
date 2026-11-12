@@ -67,3 +67,7 @@ a { color: inherit; }
 .pa-days button.off { text-decoration: line-through; opacity: .6; }
 .pa-cancel p { margin: 0 0 8px; } .pa-off .pa-it { opacity: .5; } .pa-off .pa-it .pa-tools { display: none; }
 .pa-beta { display: inline-block; font: 600 14px var(--sans); padding: 8px 14px; border-radius: 4px; background: var(--ok); color: var(--paper) !important; text-decoration: none; }
+/* the 'not the full programme' note (designer@'s note look: sand, a 3 px ink rule; not red, nothing shown is wrong) */
+.pa-wsnote { margin: 12px 0; padding: 12px 14px; background: #efe6d2; border-top: 3px solid var(--ink); font: 15px/1.5 var(--serif); color: var(--ink); }
+.pa-wsnote p { margin: 0 0 6px; } .pa-wsnote a { color: var(--ok); font-weight: 600; }
+@media (prefers-color-scheme: dark) { .pa-wsnote { background: #1d1f25; } }

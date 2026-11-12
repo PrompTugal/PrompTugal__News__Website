@@ -1,14 +1,14 @@
 ---
 title: "The library of PrompTugal.news"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T07:00:01Z"
-site_version: "v0.1.1361"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T09:59:04Z"
+site_version: "v0.1.1379"
 source: board/catalogue.json
 ---
 
 # The library of PrompTugal.news
 
-Everything in this repository and on this site in one place: 2796 cards, who made each, and when.
+Everything in this repository and on this site in one place: 2804 cards, who made each, and when.
 
 Find something: open [the reading room](reading-room.htm) and type the first letters of a title, a call number or a kind. It also draws the library as a graph.
 
@@ -16,17 +16,17 @@ Three doors: [Find a page](reading-room.htm) | [What is new](notice-board.md) | 
 
 ## New this hour (new accessions: the newest things added)
 
-- `ACC-20261112-0045` [What people are talking about: Web Summit Lisbon 2026, Thursday 12 November (the last day), 06:53 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-12T06Z.md)
-- `ACC-20261112-0044` [Post-review, 12 November 06:05: the websummit-only switch is on and holds on the live site](https://promptugal.news/board/team/security/reviews/2026-11-12-0605-websummit-only-post-review.md)
-- `ACC-20261112-0043` [What came off the site, and how it comes back](https://promptugal.news/about/what-came-off/)
-- `ACC-20261112-0042` [team/conductor.b/ledger/](https://promptugal.news/board/team/conductor.b/ledger/)
-- `ACC-20261112-0041` [team/accountant/ledger/](https://promptugal.news/board/team/accountant/ledger/)
+- `ACC-20261112-0052` [S30.shadow.json](https://promptugal.news/board/team/dev.data/shadow/S30.shadow.json)
+- `ACC-20261112-0051` [dev.graphs@ hand-over debrief, 12 November 2026 (session 2, account B)](https://promptugal.news/board/team/dev.graphs/debriefs/2026-11-12-handover.md)
+- `ACC-20261112-0050` [Wake 09:05, 12 November: 44 commits since 4b3c10352, clean; the takedown still holds](https://promptugal.news/board/team/security/reviews/2026-11-12-0905-wake.md)
+- `ACC-20261112-0049` [Morning edition: Thursday 12 November](https://promptugal.news/newsletter/2026-11-12-morning/)
+- `ACC-20261112-0048` [S59: Discord is opening its first engineering hub outside San Francisco, in Lisbon](https://promptugal.news/newsroom/stories/S59/)
 
 (All of them: [the accession register](accession-register.jsonl).)
 
 ## The collections (each has a finding aid, a short guide)
 
-[Build, code and release](finding-aids/BLD.md) (4) | [Data and the ontology](finding-aids/DAT.md) (1055) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (637) | [The repository](finding-aids/GEN.md) (44) | [The library](finding-aids/LIB.md) (354) | [The publication](finding-aids/PUB.md) (483) | [Readers and observability](finding-aids/RDR.md) (41) | [Agents, roles, keys](finding-aids/TEAM.md) (3078) | [Work in hand](finding-aids/WRK.md) (361)
+[Build, code and release](finding-aids/BLD.md) (4) | [Data and the ontology](finding-aids/DAT.md) (1056) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (637) | [The repository](finding-aids/GEN.md) (44) | [The library](finding-aids/LIB.md) (354) | [The publication](finding-aids/PUB.md) (486) | [Readers and observability](finding-aids/RDR.md) (41) | [Agents, roles, keys](finding-aids/TEAM.md) (3081) | [Work in hand](finding-aids/WRK.md) (361)
 
 Also: [every pass and its findings](finding-aids/index.md) | [Dinis's guidance, his words](special/guidance.md) | [the reality tree](reality/index.md) (what exists and what is only proposed) | [the shelf list](shelf-list.md)
 
