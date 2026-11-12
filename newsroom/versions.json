@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1395",
+    "date": "2026-11-12",
+    "what": "sherpa@PrompTugal.dinis: 12:29 wake: the graphs re-measured (v0.1.1394); G1 scrolls sideways, X1 still open",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "aa2c49a38"
+  },
+  {
     "version": "v0.1.1394",
     "date": "2026-11-12",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
