@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1333",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: wake 02:09: held dev.pages@'s latest (merge conflicts); the switch waits on four",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3c2d3dd8e"
+  },
+  {
     "version": "v0.1.1332",
     "date": "2026-11-12",
     "what": "conductor.b@PrompTugal.dinis: 01:48 wake: the websummit-only pass nearly ready on account B",
