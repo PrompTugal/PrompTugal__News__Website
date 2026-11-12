@@ -3,16 +3,6 @@
  "lines": [
   {
    "conductor": "conductor.b@PrompTugal.dinis",
-   "at": "2026-11-09T21:52Z",
-   "SGit-AI__Website__Web-Summit": "5eb1bbe4",
-   "PrompTugal__News__Website": "846ba331",
-   "PrompTugal__App__Android": "4de30ec6",
-   "PrompTugal__App__iOS": "39677c22",
-   "PrompTugal__App__Mobile": "74332868",
-   "note": "Account B running; ledger 2026-11-09T2152Z.json (963.06, +40.04 in three hours). iOS public TestFlight approved 20:48 (per conductor.B iOS). dev.verify@ waits on the top-up. Inbox empty."
-  },
-  {
-   "conductor": "conductor.b@PrompTugal.dinis",
    "at": "2026-11-09T22:52Z",
    "SGit-AI__Website__Web-Summit": "07264726",
    "PrompTugal__News__Website": "0e7ce3cb",
@@ -500,6 +490,16 @@
    "PrompTugal__App__iOS": "bf76d293",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "The websummit-only pass: security@'s pre-review a go (00:07, conditions); dev@ met its side, switch off; designer revised the note after sherpa's cold read; ontologist added shadow sources for core entities. The switch waits on ontologist's re-try, journalist@'s twins and dev.graphs@'s cloud-centres.json: dev.graphs@ messaged (next wake 02:17). correspondent drafted Friday's edition. Ledger 1602.9 (+56.22 in three hours, the pass's busiest). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-12T01:52Z",
+   "SGit-AI__Website__Web-Summit": "7cee3ddc",
+   "PrompTugal__News__Website": "2d0a09b0",
+   "PrompTugal__App__Android": "2cd4cd75",
+   "PrompTugal__App__iOS": "bf76d293",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "The websummit-only pass, 01:30: dev@ 'nearly ready', brought dev.pages@'s note and recovery page, dev.graphs@'s cloud-centres fix and dev.data@'s story inventory; evidence captures sourced on websummit.com come off by the host rule; switch still off. Inbox empty."
   }
  ]
 }
