@@ -560,6 +560,18 @@
         "PrompTugal__App__Mobile": "7f59d911"
       },
       "note": "quiet hour: dev@ brought the three workers 07:11-07:13 and split company fields by source; librarian@ recorded the takedown; nothing from the other conductors or Dinis; inbox empty"
+    },
+    {
+      "at": "2026-11-12T08:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "heads": {
+        "SGit-AI__Website__Web-Summit": "433ad5f9",
+        "PrompTugal__News__Website": "5ab23318",
+        "PrompTugal__App__Android": "2cd4cd75",
+        "PrompTugal__App__iOS": "bf76d293",
+        "PrompTugal__App__Mobile": "7f59d911"
+      },
+      "note": "correspondent@ cleared the takedown's day picks, Discord's Lisbon hub to the top three; designer@ NE3-NE5 pass live; ontologist@ handed the last 5 companies to researcher@ (not running on B: noted to Dinis); inbox empty"
     }
   ]
 }
