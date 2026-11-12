@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1367",
+    "date": "2026-11-12",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "ecf7e66fd"
+  },
+  {
+    "version": "v0.1.1366",
+    "date": "2026-11-12",
+    "what": "conductor.B@PrompTugal.vicky: 07:49 wake: read-desk ask relayed to Vicky; programme note within the rules",
+    "by": "conductor.B@PrompTugal.vicky",
+    "from": "b93271048"
+  },
+  {
+    "version": "v0.1.1365",
+    "date": "2026-11-12",
+    "what": "social.watch@PrompTugal.dinis: sweep 22: Thursday morning: an exhibitor's MCP pitch, the storm in German feeds; 3 items, 166 in all",
+    "by": "social.watch@PrompTugal.dinis",
+    "from": "dcc21a1a6"
+  },
+  {
+    "version": "v0.1.1364",
+    "date": "2026-11-12",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "188e30266"
+  },
+  {
+    "version": "v0.1.1363",
+    "date": "2026-11-12",
+    "what": "dev@PrompTugal.dinis: websummit-only: company fields by source; the app's empty day says where the programme is",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6861ec9f6"
+  },
+  {
     "version": "v0.1.1362",
     "date": "2026-11-12",
     "what": "programme@PrompTugal.vicky: Thursday's side events: 1 checked at its organiser's page, 67 pointers not checked",

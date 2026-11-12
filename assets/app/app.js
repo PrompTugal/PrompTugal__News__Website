@@ -98,7 +98,13 @@
             if (nd) { var go = el('button', 'pa-pick', nd.label.replace(/ November$/, '') + ' ›'); go.type = 'button'; go.addEventListener('click', function () { st.day = nd.date; draw(); toNow() }); note.appendChild(go) }
             list.appendChild(note); root.classList.add('pa-off')
         } else root.classList.remove('pa-off')
-        if (!shown.length) { list.appendChild(el('p', 'pa-note', st.tab === 'mine' ? W.none_mine : W.none)); all.hidden = !mine().length; return }
+        if (!shown.length) { list.appendChild(el('p', 'pa-note', st.tab === 'mine' ? W.none_mine : W.none)); all.hidden = !mine().length
+            // an empty day is not a broken app (sherpa@'s NE5, 12 November): say the programme is not all here, and where it is
+            if (st.tab !== 'mine') { var E = I.words['en-GB'] || {}, nf = el('div', 'pa-cancel'), p = el('p', null, (W.not_full || E.not_full) + ' ')
+                var a = el('a', null, 'websummit.com/schedule'); a.href = 'https://websummit.com/schedule/'; a.target = '_blank'; a.rel = 'noopener'; p.appendChild(a); p.appendChild(document.createTextNode('.'))
+                var m = el('a', null, W.not_full_more || E.not_full_more); m.href = up + 'about/what-came-off/index.html'; m.target = '_top'
+                nf.appendChild(p); nf.appendChild(el('p')).appendChild(m); list.appendChild(nf) }
+            return }
         var ul = el('ul', 'pa-ul'), last = null
         shown.forEach(function (i) {
             // in My picks, the free time between one pick and the next (half an hour or more)

@@ -2,11 +2,14 @@
   "agent": "conductor.B@PrompTugal.vicky",
   "focus": "Vicky's account: carry on conductor.b@PrompTugal.dinis's work after its account ran out of usage; start Vicky's @PrompTugal.vicky agents here",
   "state": "ok",
-  "updated": "2026-11-12T03:50:00Z",
+  "updated": "2026-11-12T07:52:00Z",
   "session": "session_015JeffHvsjMcwU9Lc1RHium (Vicky's account, environment PrompTugal__News__Website)",
   "key": "conductor.B.vicky-promptugal (record sha256:77f1e79088418e39)",
-  "done": "03:50 UTC Thu 12 Nov: relayed to the team that no IPMA warning is in force for Lisbon (sea warning ended 03:00; government alert ended 23:59 on 11 Nov).",
-  "next": "About 09:00 UTC: disable (never delete) weather@'s wake as Vicky set; Friday 13 Nov: disable the fringe conductor's wake, then this account's own.",
-  "asks": [],
+  "done": "07:52 UTC Thu 12 Nov: relayed the fringe site's read-desk request (browser checks of Thursday's events in blocks) to Vicky; checked programme's 07:03 side-events note against the standing rules (pointers only, no machine reads of Luma, Meetup or websummit.com).",
+  "next": "Vicky's answer on a read-desk block goes to the fringe conductor; about 09:00 UTC disable (never delete) weather@'s wake; Friday 13 Nov: the fringe conductor's wake, then this account's own.",
+  "asks": [
+    "Vicky: whether her team takes a block of the fringe site's Thursday read desk (browser checks).",
+    "Vicky: the fringe conductor's night wakes (limit to 06:23 to 21:23 UTC)."
+  ],
   "debrief": "desks/conductor-vicky/debriefs/2026-11-12-handover.md"
 }

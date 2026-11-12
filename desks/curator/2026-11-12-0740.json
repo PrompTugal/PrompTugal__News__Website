@@ -1,0 +1,135 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-12T07:40Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis; the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 12 Nov 2026 at 07:36 UTC: new commit 0480b13d093c (researcher's 07:15 run, two captures).",
+    "inputs": "Agenda frozen (RULES-11NOV rule 7), so no agenda input. Decisions 43 to 50 read: this run is one of Thursday's four; from Friday 13 Nov the curator runs at 07:35 and 15:35 and messages the conductor's session after each run (standing answer 43).",
+    "overlap_checked": "Published articles and every desk's drafts on 12 Nov: no article or draft about Discord's Lisbon hub or PagerDuty. Discord appears only as one line in S35 and S36 (the press-conference and Portugal-programme guides, both in the Web Summit takedown's A group)."
+  },
+  "rules": "RULES-11NOV applies. Discord's text is a company's recruiting text; PagerDuty's is a company's own engineering post; neither is a Web Summit source. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-discord-lisbon-engineering-hub",
+      "file": "vault 41j3e9s9, captures/2026-11-12-discord-lisbon-engineering-hub.md",
+      "source_url": "https://jobs.generalcatalyst.com/companies/discord-2/jobs/96245323-it-ops-engineer-lisbon",
+      "beat": "Portugal",
+      "names": [
+        "Discord"
+      ],
+      "what_is_new": "Discord's own job posting (shown on the General Catalyst job board, read 12 Nov 07:24 UTC) says Discord is opening an engineering hub in Lisbon, its first dedicated one outside its San Francisco headquarters, building it from the ground up with teams across Core Technology; the posting is for a founding IT Operations Engineer, described as Discord's first IT hire in EMEA, based in the Lisbon office. It establishes what Discord says it is doing, not the hub's size, timing or location beyond Lisbon. Diario de Noticias headlined it on 11 Nov (listed in a news search, not read).",
+      "is_story": true,
+      "group": "Portugal"
+    },
+    {
+      "id": "v-pagerduty-production-agents",
+      "file": "vault 41j3e9s9, captures/2026-11-12-pagerduty-production-agents.md",
+      "source_url": "https://www.pagerduty.com/eng/production-ai-agents-closing-the-gaps-between-idea-and-reality/",
+      "beat": "AI and robotics",
+      "names": [
+        "PagerDuty"
+      ],
+      "what_is_new": "PagerDuty's engineering post on what its team learned launching a multi-agent system into production over the past year: non-deterministic outputs, 'context fatigue' on long tasks, small errors compounding across multi-step workflows, agents as an attack surface, poor enterprise data quality; five pillars (reliability, control, visibility, integration, economics); a kill switch from day one. A company's own general-lessons account: no named customer workflow, no results; only the first part was read. Not a Web Summit participant as far as captured.",
+      "is_story": false,
+      "group": "AI, held"
+    }
+  ],
+  "groups": {
+    "Portugal": [
+      "v-discord-lisbon-engineering-hub"
+    ],
+    "AI, held": [
+      "v-pagerduty-production-agents"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "Discord's expansion press conference (a Web Summit session, Wednesday 11 Nov, the cancelled day)",
+      "verdict": "not used",
+      "why": "It rests on a Web Summit page; the hub rests on Discord's own posting. Do not say the press conference took place."
+    }
+  ],
+  "published_check": {
+    "S58": "published (thursday-last-day-guide)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "S58 is published; the summit ends today and nothing new for it came in."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new for Europe."
+    },
+    "portugal": {
+      "assignment": "S59",
+      "ready": true,
+      "reader_angle": "People working in or hiring for tech in Portugal, and anyone following which companies are putting engineering teams in Lisbon.",
+      "source_ids": [
+        "v-discord-lisbon-engineering-hub"
+      ],
+      "duplicate_check": "Run 12 Nov 07:40: no article or draft covers Discord's Lisbon hub; S35 and S36 list the press conference as one line each."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "PagerDuty's post is a company's general-lessons account from June with no named workflow or result, and only its first part was read; held for the rest of the post and a second source.",
+      "gap_for_researcher": "The rest of PagerDuty's post, and PagerDuty's own page on the agent system it launched (what it does, what the human decides)."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "Nothing new that is ready."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S59",
+      "kind": "team-desk",
+      "title": "Discord is opening its first engineering hub outside San Francisco, in Lisbon",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "Corporate"
+      ],
+      "angle": "Discord's own recruiting text says the company is opening an engineering hub in Lisbon, its first dedicated one outside San Francisco, building it from the ground up with teams across Core Technology, and that its first IT hire in EMEA there is a founding role. What that says, and does not yet say, about Portugal's tech jobs.",
+      "rests_on": [
+        "v-discord-lisbon-engineering-hub"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal. Ready. Conditions: the primary source is Discord's own job posting (re-read it yourself at its address, read time stated); read the press report that is said to cover it (Diario de Noticias of 11 Nov, or Lusa or Discord's own newsroom) at its source before writing, and state only what each source says; the posting gives no size, timing, number of jobs or location beyond Lisbon, so give none; do not quote the posting at length; no names or contact details of anyone hiring; Discord's Wednesday press conference was a Web Summit listing on the cancelled day: do not say it took place and do not cite Web Summit's pages by machine. If no second source can be found, run it short as 'Discord says' on the posting alone. Category line: Portugal, Corporate.",
+      "words": "250 to 400"
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S59",
+      "what": "The hub rests on Discord's recruiting text; the press report is not yet read by anyone on the team. A job posting says what the company intends, not what exists."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S58",
+      "change": "Published (thursday-last-day-guide); off the ready list."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Diario de Noticias' article of 11 November on Discord's Lisbon hub, and Discord's own announcement or newsroom page if there is one.",
+      "reader_angle": "What Discord has said publicly about the Lisbon hub: size, timing, roles.",
+      "sources_wanted": "DN, Lusa, Discord's own pages, read directly with read times.",
+      "why_not_a_duplicate": "Only the job posting is captured."
+    },
+    {
+      "desk": "ai",
+      "priority": 2,
+      "gap": "The rest of PagerDuty's post, and PagerDuty's own page on the agent system it launched: what the agent does and where a person decides.",
+      "reader_angle": "What a high-reliability company learned about running agents in production.",
+      "sources_wanted": "PagerDuty's engineering post (all of it) and its product pages, read directly.",
+      "why_not_a_duplicate": "Not covered by any article or draft."
+    }
+  ],
+  "urgent": "None"
+}

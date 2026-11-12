@@ -1,0 +1,99 @@
+{
+ "about": "Shadow sources for data/stories/S30 (healthtech companies at Web Summit Lisbon 2026), read from the companies' own sites on 12 November 2026, not from websummit.com. STAGED, not merged: the build treats S30 as entirely websummit-only and keeps the folder out; merge when claims are filtered one by one. Not covered: Igloo (site read but no matching self-description quote), Seroton (shop front, no matching text), sheerME (page title only), NeoCannBio, Olá Doutor, Rapidoc, Raras Health (sites not reachable from here).",
+ "sources": [
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "aurimod-own-site",
+   "story": "S30",
+   "url": "https://aurimod.com/",
+   "title": "AURIMOD home page (the company's own site)",
+   "publisher": "AURIMOD GmbH",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "The company's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  },
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "mobilebrain-own-site",
+   "story": "S30",
+   "url": "https://www.mobilebrain.com.br/",
+   "title": "Mobile Brain home page (the company's own site)",
+   "publisher": "Mobile Brain",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "The company's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  },
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "nicedeer-own-site",
+   "story": "S30",
+   "url": "https://www.nicedeer.com/",
+   "title": "Nice Deer home page (the company's own site)",
+   "publisher": "Nice Deer",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "The company's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  },
+  {
+   "$schema": "../../../schemas/story-source.schema.json",
+   "id": "spryt-own-site",
+   "story": "S30",
+   "url": "https://spryt.com/",
+   "title": "Spryt home page (the company's own site)",
+   "publisher": "SPRYT",
+   "read_on": "2026-11-12",
+   "read_by": "dev.data@PrompTugal.dinis",
+   "access": "public",
+   "kind": "company",
+   "what_it_says": "The company's own home page, read on 12 November 2026 as a shadow source for what its Web Summit page says."
+  }
+ ],
+ "claims": [
+  {
+   "id": "s01",
+   "text": "AURIMOD says on its own site that its product VIVO uses auricular vagus nerve stimulation (aVNS) for pain relief without medication.",
+   "kind": "fact",
+   "source": "aurimod-own-site",
+   "quote": "VIVO setzt durch aurikuläre Vagus-Nerv-Stimulation (aVNS) einen neuen Maßstab in der Schmerzbehandlung",
+   "about": [
+    "local:aurimod-gmbh"
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "Mobile Brain says on its own site that it is a platform that turns spontaneous language into evidence for schools, workplaces and health systems (Portuguese original).",
+   "kind": "fact",
+   "source": "mobilebrain-own-site",
+   "quote": "Somos uma plataforma que transforma linguagem espontânea em evidências que apoiam instituições de ensino, ambientes de trabalho e sistemas de saúde",
+   "about": [
+    "local:mobile-brain"
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "Nice Deer says on its own site that it has developed an integrated digital ecosystem for the health insurance industry in Egypt.",
+   "kind": "fact",
+   "source": "nicedeer-own-site",
+   "quote": "Nice Deer Has Developed a Comprehensive Integrated Digital Ecosystem for The Health Insurance Industry in Egypt.",
+   "about": [
+    "local:nice-deer"
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "Spryt says on its own site that Asa is an AI agent that gets patients to care, predicting patient drop-off.",
+   "kind": "fact",
+   "source": "spryt-own-site",
+   "quote": "Meet Asa. The AI agent that gets patients to care.",
+   "about": [
+    "local:spryt"
+   ]
+  }
+ ]
+}

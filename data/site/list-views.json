@@ -76,8 +76,8 @@
     "title_on": "what is on",
     "title_was": "what was on",
     "summary_on": "five things to plan around, every session by time and by stage.",
-    "summary_was": "the five things we picked, every session by time and by stage.",
-    "summary_none": "nothing from our programme is listed for this day; the full programme is in Web Summit's own app."
+    "summary_none": "no session we can show: the programme rested on Web Summit's site, which we may not republish (the note below says where it is).",
+    "summary_was": "the five things we picked, every session by time and by stage."
   },
   "ws_note": {
     "kicker": "Not everything",
