@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-12T06:12Z",
-  "reviewed_to": "910abf1b1",
+  "updated": "2026-11-12T09:08Z",
+  "reviewed_to": "39f720c0a",
   "hold": false,
   "done": [
-    "06:05 11 Nov: 88 commits clean; i18n menus text-only; OpenRouter credit spent (social.watch@ blocked), noted",
     "09:05 11 Nov: 80 commits clean; reviewer@vicky within grant",
     "12:05 11 Nov: 94 commits clean; offline worker fix post-reviewed (newest copy, conditions kept); storm site read is ours; four Fringe keys",
     "15:05 11 Nov: 134 commits clean; no websummit.com reader left; S39 to Dinis",
@@ -14,7 +13,8 @@
     "21:05 11 Nov: 88 commits clean; Vicky's team rotated back, none removed; a cross-team supersede request rightly refused",
     "00:05 12 Nov: websummit-only pass pre-reviewed: go, with raw data/, stories, desk JSON in scope; advice: off the site, leave history; S40",
     "03:05 12 Nov: 35 commits clean; websummit-only pass built to conditions, switch off",
-    "06:05 12 Nov: 29 commits clean; websummit-only switch post-reviewed live: holds; S39 closed"
+    "06:05 12 Nov: 29 commits clean; websummit-only switch post-reviewed live: holds; S39 closed",
+    "09:05 12 Nov: 44 commits clean; takedown holds; side events as unread pointers"
   ],
   "next": [
     "follow S40, S38, S36",

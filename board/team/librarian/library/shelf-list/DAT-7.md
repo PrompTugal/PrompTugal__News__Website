@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 7 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T07:00:01Z"
-site_version: "v0.1.1361"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T09:59:04Z"
+site_version: "v0.1.1379"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 7 of 11)
 
-100 cards, from `DAT.ORG sgf-global` to `DAT.PE bidhan-roy`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG serpro` to `DAT.PE betsy-reed`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG serpro` | [Serpro](https://promptugal.news/organisations/serpro/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sgf-global` | [SGF Global](https://promptugal.news/organisations/sgf-global/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG shine-technologies` | [SHINE Technologies](https://promptugal.news/organisations/shine-technologies/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG siemens` | [Siemens AG](https://promptugal.news/organisations/siemens/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.ORG tecnico-venture-lab` | [Técnico Venture Lab](https://promptugal.news/organisations/tecnico-venture-lab/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG tekever` | [TEKEVER](https://promptugal.news/organisations/tekever/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG tencent` | [Tencent](https://promptugal.news/organisations/tencent/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG testwaves` | [Testwaves](https://promptugal.news/organisations/testwaves/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 626 to 650**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG testwaves` | [Testwaves](https://promptugal.news/organisations/testwaves/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG tiktok` | [TikTok](https://promptugal.news/organisations/tiktok/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG time` | [TIME](https://promptugal.news/organisations/time/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG true-ventures` | [True Ventures](https://promptugal.news/organisations/true-ventures/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.ORG vermillio` | [Vermillio](https://promptugal.news/organisations/vermillio/) (withdrawn) | organisation | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.ORG vivaldi` | [Vivaldi](https://promptugal.news/organisations/vivaldi/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG vogue-business` | [Vogue Business](https://promptugal.news/organisations/vogue-business/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG washington-post` | [The Washington Post](https://promptugal.news/organisations/washington-post/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
 
 **Cards 651 to 675**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG washington-post` | [The Washington Post](https://promptugal.news/organisations/washington-post/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.ORG web-summit` | [Web Summit](https://promptugal.news/organisations/web-summit/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG wired` | [Wired](https://promptugal.news/organisations/wired/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG xiaomi` | [Xiaomi](https://promptugal.news/organisations/xiaomi/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.PE amilcar-queiroz` | [Amilcar Queiroz](https://promptugal.news/people/amilcar-queiroz/) (withdrawn) | person | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.PE amit-katwala` | [Amit Katwala](https://promptugal.news/people/amit-katwala/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE amy-nordrum` | [Amy Nordrum](https://promptugal.news/people/amy-nordrum/) (withdrawn) | person | programme@web-summit.vicky 5 Nov 2026 |
-| `DAT.PE amy-o-brien` | [Amy O'Brien](https://promptugal.news/people/amy-o-brien/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 676 to 700**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE amy-o-brien` | [Amy O'Brien](https://promptugal.news/people/amy-o-brien/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE andreas-blattmann` | [Andreas Blattmann](https://promptugal.news/people/andreas-blattmann/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE andrew-sever` | [Andrew Sever](https://promptugal.news/people/andrew-sever/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE andrew-sollinger` | [Andrew Sollinger](https://promptugal.news/people/andrew-sollinger/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.PE bernard-wolff` | [Bernard Wolff](https://promptugal.news/people/bernard-wolff/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE bernardo-correia` | [Bernardo Correia](https://promptugal.news/people/bernardo-correia/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE betsy-reed` | [Betsy Reed](https://promptugal.news/people/betsy-reed/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE bidhan-roy` | [Bidhan Roy](https://promptugal.news/people/bidhan-roy/) (withdrawn) | person | programme@PrompTugal.vicky 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-6.md) | [Next part](DAT-8.md)

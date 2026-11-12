@@ -1,0 +1,90 @@
+{
+ "about": "A reading of the day: account A's sessions (get_session) and account B from conductor.b@'s ledger (board/team/conductor.b/ledger/2026-11-12T0650Z.json), minus the day's baseline. API-equivalent.",
+ "read_at": "2026-11-12T09:50Z",
+ "rows": [
+  {
+   "agent": "correspondent@PrompTugal.dinis",
+   "A": 0,
+   "B": 21.82,
+   "today": 21.82
+  },
+  {
+   "agent": "designer@PrompTugal.dinis",
+   "A": 0,
+   "B": 19.46,
+   "today": 19.46
+  },
+  {
+   "agent": "conductor@PrompTugal.dinis",
+   "A": 7.94,
+   "B": 7.71,
+   "today": 15.65
+  },
+  {
+   "agent": "dev.graphs@PrompTugal.dinis",
+   "A": 0,
+   "B": 15.37,
+   "today": 15.37
+  },
+  {
+   "agent": "security@PrompTugal.dinis",
+   "A": 15.04,
+   "B": 0,
+   "today": 15.04
+  },
+  {
+   "agent": "sherpa@PrompTugal.dinis",
+   "A": 0,
+   "B": 13.73,
+   "today": 13.73
+  },
+  {
+   "agent": "librarian@PrompTugal.dinis",
+   "A": 0,
+   "B": 13.59,
+   "today": 13.59
+  },
+  {
+   "agent": "dev.data@PrompTugal.dinis",
+   "A": 0,
+   "B": 12.05,
+   "today": 12.05
+  },
+  {
+   "agent": "accountant@PrompTugal.dinis",
+   "A": 10.53,
+   "B": 0,
+   "today": 10.53
+  },
+  {
+   "agent": "dev@PrompTugal.dinis",
+   "A": 0,
+   "B": 9.73,
+   "today": 9.73
+  },
+  {
+   "agent": "ontologist@PrompTugal.dinis",
+   "A": 0,
+   "B": 8.9,
+   "today": 8.9
+  },
+  {
+   "agent": "dev.pages@PrompTugal.dinis",
+   "A": 0,
+   "B": 7.69,
+   "today": 7.69
+  },
+  {
+   "agent": "observability@PrompTugal.dinis",
+   "A": 7.61,
+   "B": 0,
+   "today": 7.61
+  }
+ ],
+ "total": {
+  "A": 41.12,
+  "B": 130.05,
+  "today": 171.17,
+  "since_previous": 54.96
+ }
+}

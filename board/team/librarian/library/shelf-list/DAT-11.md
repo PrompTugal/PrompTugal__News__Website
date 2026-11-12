@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 11 of 11)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T07:00:01Z"
-site_version: "v0.1.1361"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T09:59:04Z"
+site_version: "v0.1.1379"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 11 of 11)
 
-55 cards, from `DAT.PL meetup-6` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+56 cards, from `DAT.PL meetup-5` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1001 to 1025**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL meetup-5` | [Meetup 5](https://promptugal.news/places/meetup-5/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meetup-6` | [Meetup 6](https://promptugal.news/places/meetup-6/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meo-arena-and-fil` | [MEO Arena and FIL](https://promptugal.news/places/meo-arena-and-fil/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL netherlands` | [Netherlands](https://promptugal.news/places/netherlands/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.PL speed-networking` | [Speed Networking](https://promptugal.news/places/speed-networking/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-10` | [Stage 10](https://promptugal.news/places/stage-10/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-11` | [Stage 11](https://promptugal.news/places/stage-11/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL stage-12` | [Stage 12](https://promptugal.news/places/stage-12/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1026 to 1050**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL stage-12` | [Stage 12](https://promptugal.news/places/stage-12/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-13` | [Stage 13](https://promptugal.news/places/stage-13/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-2` | [Stage 2](https://promptugal.news/places/stage-2/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-4` | [Stage 4](https://promptugal.news/places/stage-4/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.TOP investor` | [Investors](https://promptugal.news/topics/investor/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP other` | [Other](https://promptugal.news/topics/other/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP platform` | [Platforms](https://promptugal.news/topics/platform/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.TOP policy` | [Policy and regulation](https://promptugal.news/topics/policy/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
-**Cards 1051 to 1055**
+**Cards 1051 to 1056**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.TOP policy` | [Policy and regulation](https://promptugal.news/topics/policy/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP portugal` | [Portugal](https://promptugal.news/topics/portugal/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP portugal-startup` | [Portuguese startups](https://promptugal.news/topics/portugal-startup/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP security` | [Security](https://promptugal.news/topics/security/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
