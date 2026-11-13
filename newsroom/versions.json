@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1425",
+    "date": "2026-11-13",
+    "what": "reviewer@PrompTugal.vicky: three withdrawn articles edited without Web Summit material (still withdrawn, pending the source re-check)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "9cfb3b442"
+  },
+  {
     "version": "v0.1.1424",
     "date": "2026-11-13",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
