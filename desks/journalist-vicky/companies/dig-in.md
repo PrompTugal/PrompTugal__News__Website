@@ -9,12 +9,11 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-DIG-IN collects data on restaurants and other hospitality venues: menus, prices, locations and how each venue shows up online (1, 2). Its site says it holds data on more than 2.5 million European restaurants (2). It says it serves large consumer goods brands, local producers, retailers and restaurant chains, who use it to see where they stand in the market (1, 2).
+DIG-IN collects data on restaurants and other hospitality venues: menus, prices, locations and how each venue shows up online (1). Its site says it holds data on more than 2.5 million European restaurants (1). It says it serves large consumer goods brands, local producers, retailers and restaurant chains, who use it to see where they stand in the market (1).
 
 Sources for this section:
 
-1. [Web Summit, "DIG-IN"](https://websummit.com/appearances/lis26/05980d1e-1823-4436-bfd7-bb9dbe52be76/dig-in) (based in Portugal; its pitch), read 8 November 2026
-2. [DIG-IN, "HORECA Intelligence Platform"](https://www.dig-in.io/), read 8 November 2026
+1. [DIG-IN, "HORECA Intelligence Platform"](https://www.dig-in.io/), read 8 November 2026
 
 ## At Web Summit 2026
 

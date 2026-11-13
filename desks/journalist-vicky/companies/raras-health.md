@@ -9,12 +9,11 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Raras Health uses AI and genomics to find and diagnose people with rare diseases (1, 2). It says it confirms diagnoses through genomic testing and follows patients through treatment and care (1, 2). Its AI assistant, Rara, talks to families on WhatsApp (1, 2), and it offers an AI tool for physicians, Pascal (2).
+Raras Health uses AI and genomics to find and diagnose people with rare diseases (1). It says it confirms diagnoses through genomic testing and follows patients through treatment and care (1). Its AI assistant, Rara, talks to families on WhatsApp (1), and it offers an AI tool for physicians, Pascal (1).
 
 Sources for this section:
 
-1. [Web Summit, "Raras Health"](https://websummit.com/appearances/lis26/71dafd73-9686-4b97-8d4f-db80e085725a/raras-health) (based in Brazil; its pitch), read 9 November 2026
-2. [Raras, "Rare disease diagnosis and care, with AI"](https://raras.health/en/), read 9 November 2026
+1. [Raras, "Rare disease diagnosis and care, with AI"](https://raras.health/en/), read 9 November 2026
 
 ## At Web Summit 2026
 

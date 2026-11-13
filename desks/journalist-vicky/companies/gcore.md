@@ -9,9 +9,8 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Gcore runs a global network and cloud for websites, apps and AI (1, 2). It offers content delivery, cloud servers, GPUs for training and running AI models, and protection against attacks such as DDoS (2). It says it runs on EU-owned infrastructure (2).
+Gcore runs a global network and cloud for websites, apps and AI (1). It offers content delivery, cloud servers, GPUs for training and running AI models, and protection against attacks such as DDoS (1). It says it runs on EU-owned infrastructure (1).
 
 Sources for this section:
 
-1. [Web Summit, "Gcore"](https://websummit.com/appearances/lis26/eeaeca9e-530a-4d95-a9f9-c24309f42ca0/gcore) (based in Luxembourg; its pitch), read 9 November 2026
-2. [Gcore, "Gcore: Cloud, Edge, Security, and AI. Unified to the core."](https://gcore.com/), read 9 November 2026
+1. [Gcore, "Gcore: Cloud, Edge, Security, and AI. Unified to the core."](https://gcore.com/), read 9 November 2026

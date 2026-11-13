@@ -9,9 +9,8 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-naPorta delivers online orders to places traditional delivery networks struggle to reach, such as favelas, rural areas and riverside communities (1, 2). Its CEP Digital service creates working addresses from map coordinates, built with the communities themselves (2).
+naPorta delivers online orders to places traditional delivery networks struggle to reach, such as favelas, rural areas and riverside communities (1). Its CEP Digital service creates working addresses from map coordinates, built with the communities themselves (1).
 
 Sources for this section:
 
-1. [Web Summit, "naPorta"](https://websummit.com/appearances/lis26/3751780f-874a-4893-8fd1-41d6a155f4fa/naporta) (based in Brazil; its pitch), read 9 November 2026
-2. [naPorta, home page](https://naporta.digital/) (in Portuguese), read 9 November 2026
+1. [naPorta, home page](https://naporta.digital/) (in Portuguese), read 9 November 2026

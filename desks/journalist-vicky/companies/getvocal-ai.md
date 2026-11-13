@@ -9,9 +9,8 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-GetVocal AI makes AI agents that answer customers for large companies' contact centres (1, 2). Its agents handle the conversation and pass a case to a human supervisor when it needs approval, it says (2). It says every interaction can be traced and audited, and a person can step in at any point (2).
+GetVocal AI makes AI agents that answer customers for large companies' contact centres (1). Its agents handle the conversation and pass a case to a human supervisor when it needs approval, it says (1). It says every interaction can be traced and audited, and a person can step in at any point (1).
 
 Sources for this section:
 
-1. [Web Summit, "GetVocal AI"](https://websummit.com/appearances/lis26/caa1775e-c9d9-4186-b906-626c4aa6455c/getvocal-ai) (based in France; its pitch), read 9 November 2026
-2. [GetVocal, "Governed AI agents for enterprise CX"](https://www.getvocal.ai/), read 9 November 2026
+1. [GetVocal, "Governed AI agents for enterprise CX"](https://www.getvocal.ai/), read 9 November 2026

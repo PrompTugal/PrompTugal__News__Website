@@ -9,12 +9,11 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-VTEX makes a commerce platform for large companies, which it describes as AI-native (1, 2). Its software lets businesses build and run online sales for consumers, other businesses and marketplaces, along with customer service with AI agents and retail media advertising (2).
+VTEX makes a commerce platform for large companies, which it describes as AI-native (1). Its software lets businesses build and run online sales for consumers, other businesses and marketplaces, along with customer service with AI agents and retail media advertising (1).
 
 Sources for this section:
 
-1. [Web Summit, "VTEX"](https://websummit.com/appearances/lis26/9681fb72-1cd3-485c-88f5-e92b7cd7c19e/vtex) (based in Portugal; its pitch), read 9 November 2026
-2. [VTEX, home page](https://vtex.com/en-us/), read 9 November 2026
+1. [VTEX, home page](https://vtex.com/en-us/), read 9 November 2026
 
 ## At Web Summit 2026
 

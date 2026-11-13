@@ -9,9 +9,8 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Mobile Brain turns spontaneous speech into measures of cognition and wellbeing (1, 2). People record a spoken narrative on its platform; models the company says were built over more than 15 years of research turn it into indicators that its specialists interpret (2). It works with schools, workplaces and health services, for early screening and follow-up (1, 2).
+Mobile Brain turns spontaneous speech into measures of cognition and wellbeing (1). People record a spoken narrative on its platform; models the company says were built over more than 15 years of research turn it into indicators that its specialists interpret (1). It works with schools, workplaces and health services, for early screening and follow-up (1).
 
 Sources for this section:
 
-1. [Web Summit, "Mobile Brain"](https://websummit.com/appearances/lis26/91093bb6-fa22-477c-9a74-7bd74cd93ae8/mobile-brain) (based in Brazil; its pitch), read 8 November 2026
-2. [Mobile Brain, home page](https://www.mobilebrain.com.br/) (in Portuguese), read 8 November 2026
+1. [Mobile Brain, home page](https://www.mobilebrain.com.br/) (in Portuguese), read 8 November 2026

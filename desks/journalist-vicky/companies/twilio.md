@@ -9,12 +9,11 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Twilio runs a platform that lets businesses talk to their customers in software, with APIs for SMS, voice, email and other channels (1, 2). It also offers conversational AI and identity checks, and connects channels, customer data and AI in one place, the company says (2).
+Twilio runs a platform that lets businesses talk to their customers in software, with APIs for SMS, voice, email and other channels (1). It also offers conversational AI and identity checks, and connects channels, customer data and AI in one place, the company says (1).
 
 Sources for this section:
 
-1. [Web Summit, "Twilio"](https://websummit.com/appearances/lis26/fc4af8fa-8be5-4d3e-921f-31b3ccdac456/twilio) (based in the United States; its pitch), read 9 November 2026
-2. [Twilio, "Conversational AI and APIs for SMS, Email, Voice"](https://www.twilio.com/en-us), read 9 November 2026
+1. [Twilio, "Conversational AI and APIs for SMS, Email, Voice"](https://www.twilio.com/en-us), read 9 November 2026
 
 ## At Web Summit 2026
 

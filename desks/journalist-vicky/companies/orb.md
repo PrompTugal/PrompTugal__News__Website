@@ -9,12 +9,11 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Orb makes billing software for companies that charge by usage, including AI companies (1, 2). It meters usage, runs billing and helps teams test and change their prices, it says (2).
+Orb makes billing software for companies that charge by usage, including AI companies (1). It meters usage, runs billing and helps teams test and change their prices, it says (1).
 
 Sources for this section:
 
-1. [Web Summit, "Orb"](https://websummit.com/appearances/lis26/7e0253ff-de6e-44fa-b878-e7256e0d817b/orb) (based in the United States; its pitch), read 9 November 2026
-2. [Orb, "The revenue design company"](https://www.withorb.com/), read 9 November 2026
+1. [Orb, "The revenue design company"](https://www.withorb.com/), read 9 November 2026
 
 ## At Web Summit 2026
 

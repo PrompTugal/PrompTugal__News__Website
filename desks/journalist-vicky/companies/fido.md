@@ -9,9 +9,8 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-FIDO builds the technology for businesses to offer credit and other financial services under their own brand (1, 2). Its platform connects origination, analysis, the credit decision, the contract and settlement in one place, the company says (2). Its site also lists a peer-to-peer (P2P) product, and counts credit borrowers and registered investors among its figures (2).
+FIDO builds the technology for businesses to offer credit and other financial services under their own brand (1). Its platform connects origination, analysis, the credit decision, the contract and settlement in one place, the company says (1). Its site also lists a peer-to-peer (P2P) product, and counts credit borrowers and registered investors among its figures (1).
 
 Sources for this section:
 
-1. [Web Summit, "FIDO"](https://websummit.com/appearances/lis26/c0a7d7f7-26b0-41ba-816b-8560a0ec93e2/fido) (based in Brazil; its pitch), read 8 November 2026
-2. [Fido, home page](https://www.fido.com.vc/) (in Portuguese), read 8 and 13 November 2026
+1. [Fido, home page](https://www.fido.com.vc/) (in Portuguese), read 8 and 13 November 2026

@@ -9,12 +9,11 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Sphere makes software that handles sales tax, VAT and GST for companies selling across borders (1, 2).
+Sphere makes software that handles sales tax, VAT and GST for companies selling across borders (1).
 
 Sources for this section:
 
-1. [Web Summit, "Sphere"](https://websummit.com/appearances/lis26/1d6f471a-acc2-4613-8156-8789238bbcf7/sphere) (Sphere's own description on its Web Summit page), read 9 November 2026
-2. [Sphere, "Global Tax Compliance Software for VAT, GST & Sales Tax"](https://www.getsphere.com/), read 9 November 2026
+1. [Sphere, "Global Tax Compliance Software for VAT, GST & Sales Tax"](https://www.getsphere.com/), read 9 November 2026
 
 ## At Web Summit 2026
 

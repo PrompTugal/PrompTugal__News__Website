@@ -9,12 +9,11 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-It offers an AI content studio, an AI manager that answers messages and comments around the clock, and chatbot funnels with rewards for followers (1, 2). Its site says it helps users grow followers, engage and sell on Instagram and TikTok (2).
+It offers an AI content studio, an AI manager that answers messages and comments around the clock, and chatbot funnels with rewards for followers (1). Its site says it helps users grow followers, engage and sell on Instagram and TikTok (1).
 
 Sources for this section:
 
-1. [Web Summit, "ChatPlace"](https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace) (based in Portugal; its pitch), read 8 November 2026
-2. [ChatPlace, "Unlock the Power of Your Content and Chats with ChatPlace"](https://chatplace.io/), read 8 November 2026
+1. [ChatPlace, "Unlock the Power of Your Content and Chats with ChatPlace"](https://chatplace.io/), read 8 November 2026
 
 ## At Web Summit 2026
 

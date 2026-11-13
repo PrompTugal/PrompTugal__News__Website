@@ -9,12 +9,11 @@ license: "https://creativecommons.org/licenses/by/4.0/"
 ---
 ## About
 
-Atlassian makes software that helps teams plan, track and deliver work together, including Jira, Confluence and Loom (1, 2). Its AI agents, called Rovo, work across these tools, the company says (1, 2). Its website says 350,000+ teams use its platform (2).
+Atlassian makes software that helps teams plan, track and deliver work together, including Jira, Confluence and Loom (1). Its AI agents, called Rovo, work across these tools, the company says (1). Its website says 350,000+ teams use its platform (1).
 
 Sources for this section:
 
-1. [Web Summit, "Atlassian"](https://websummit.com/appearances/lis26/6cce6c44-be71-48b5-814e-b320efc7cb7e/atlassian) (based in Australia; industry SaaS; the company's own description), read 9 November 2026
-2. [Atlassian, "Collaboration software for software, IT and business teams"](https://www.atlassian.com/), read 9 November 2026
+1. [Atlassian, "Collaboration software for software, IT and business teams"](https://www.atlassian.com/), read 9 November 2026
 
 ## At Web Summit 2026
 

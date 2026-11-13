@@ -9,9 +9,8 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Melious AI says it offers more than 60 open-weight AI models running on European infrastructure (2). Developers reach them through one API that works with OpenAI's and Anthropic's formats (1, 2). It says requests are processed in the EU and that customers' data is never used to train models (2).
+Melious AI says it offers more than 60 open-weight AI models running on European infrastructure (1). Developers reach them through one API that works with OpenAI's and Anthropic's formats (1). It says requests are processed in the EU and that customers' data is never used to train models (1).
 
 Sources for this section:
 
-1. [Web Summit, "Melious AI GmbH"](https://websummit.com/appearances/lis26/b28bfd6e-6182-4f6f-8de8-72b5caa57097/melious-ai-gmbh) (based in Germany; its pitch), read 9 November 2026
-2. [Melious, "Melious: Sovereign AI Infrastructure for Europe"](https://melious.ai/), read 9 November 2026
+1. [Melious, "Melious: Sovereign AI Infrastructure for Europe"](https://melious.ai/), read 9 November 2026
