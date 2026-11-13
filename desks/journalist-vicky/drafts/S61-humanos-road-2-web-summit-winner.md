@@ -4,7 +4,7 @@ date: 2026-11-13
 story: S61
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: Humanos, which builds a risk network for AI agents, won the Most Promising Startup prize at Road 2 Web Summit 2026, worth 15,000 euros, the press reports. eDynamics, from Braga, took the Best Performance prize. Sources differ on where Humanos is based.
-status: draft
+status: published
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: [Portugal, Humanos, eDynamics, Road 2 Web Summit, Startup Portugal, Galp, AI agents, prizes]
@@ -20,17 +20,17 @@ image_alt: "Road 2 Web Summit 2026 winners: Humanos, Most Promising Startup, 15,
 
 ## The story
 
-A young startup working on a new problem, how to measure the risk of AI agents, took the top prize in Startup Portugal's programme for startups based in Portugal.
-
 ![Road 2 Web Summit 2026 winners: Humanos, Most Promising Startup, 15,000 euros; eDynamics, Best Performance, 5,000 euros](https://promptugal.news/desks/journalist-vicky/drafts/img/S61-cover-card-2026-11-13.svg)
 
 *From Tek Notícias, Jornal Económico, JM Madeira and PCGuia, 12 and 13 November 2026, read 13 November 2026.*
 
-Road 2 Web Summit is run by [Startup Portugal](../companies/startup-portugal/index.html) with Web Summit. This year's 11th edition had 78 startups, fewer than last year, Tek Notícias reports. Startup Portugal's executive director said the startups had to hold recognised startup status this year, and that numbers matter less than companies built for the long term.
+A young startup working on a new problem, how to measure the risk of AI agents, took the top prize in Startup Portugal's programme for startups based in Portugal.
+
+Road 2 Web Summit is an initiative of [Startup Portugal](../companies/startup-portugal/index.html), Tek Notícias says. This year's 11th edition had 78 startups, fewer than last year, Tek Notícias reports. Startup Portugal's executive director said the startups had to hold recognised startup status this year, and that numbers matter less than companies built for the long term.
 
 Humanos won the Most Promising Startup prize, worth 15,000 euros with the support of Galp, according to Tek Notícias, Jornal Económico, JM Madeira and PCGuia. eDynamics took the Best Performance prize, 5,000 euros, for its work during the bootcamps and the summit, Tek Notícias says. Tek Notícias reports it is based in Braga and makes smart insoles with sensors and AI to spot fatigue and injury risk.
 
-Humanos builds what it calls "the risk network for AI". It monitors AI agents and gives each a live risk score from 0 to 100, based on who controls the agent, what it can do and how it has behaved, according to Sifted, as relayed by Portugal Startup News in September. The company plans for these scores to help financial providers decide when to offer agents insurance, credit or capital. Its site says it helps companies "measure, control and transfer AI risk".
+Humanos builds what it calls "the risk network for AI". It monitors AI agents and gives each a live risk score from 0 to 100, based on who controls the agent, what it can do and how it has behaved, according to Sifted, as relayed by Portugal Startup News in September. The company plans for these scores to help financial providers decide when to offer agents insurance, credit or capital. Its site calls it "The Risk Network for AI", with services to measure and to control agents' risk.
 
 The press gives these figures, attributed to the company: its technology is used by more than 350 organisations, including fintechs, hospitals and insurers. Jornal Económico adds banks. In September it raised 3.2 million dollars in seed funding led by Anthemis, Sifted reported.
 
@@ -41,7 +41,6 @@ Pedro Andrade, named as its founder and CEO, told Tek Notícias that founders "s
 - Tek Notícias, Jornal Económico, JM Madeira and PCGuia say it was created in Madeira.
 - Sifted, via Portugal Startup News, calls it "Lisbon-based".
 - Humanos's own site is signed "Humanos Labs, Inc.", with no country or address given on the page.
-- Our own earlier article on AI-agent builders said "from the United States", as Web Summit lists it.
 
 Our [article on the Road 2 class](road-2-web-summit-beyond-lisbon.html) places it in Madeira, from Startup Portugal's own booklet.
 
