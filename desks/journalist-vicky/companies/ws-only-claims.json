@@ -1,0 +1,2282 @@
+{
+  "about": "Company About claims whose only support is a websummit.com page (takedown step 2; standing answers 48 and 49 on the team site; task people/vicky/tasks/2026-11-13-about-claims.md). Made by desks/dev-vicky/tools/ws-only-claims.mjs from the files in this folder; no file was changed. Each journalist takes its own part: for each claim, re-cite it to another source (the company's own site or posts, the press, an official body; never websummit.com, Luma, Meetup or Eventbrite by machine) with the date read, or cut it; leave the rest of the About as it is; set the file's status to fix for the reviewer. 'unmarked' lists About sentences with no source marker, for information only.",
+  "rule": "a claim is listed when every source it cites is a websummit.com page",
+  "counts": {
+    "files": 101,
+    "files_with_claims": 101,
+    "claims": 183,
+    "about_claims": 47,
+    "at_web_summit_lines": 136,
+    "unmarked": 0
+  },
+  "parts": {
+    "journalist-portugal@PrompTugal.vicky": [
+      "desks/journalist-vicky/companies/0xbow.md",
+      "desks/journalist-vicky/companies/1password.md",
+      "desks/journalist-vicky/companies/ai-infinity.md",
+      "desks/journalist-vicky/companies/air-apps.md",
+      "desks/journalist-vicky/companies/airia.md",
+      "desks/journalist-vicky/companies/aisle.md",
+      "desks/journalist-vicky/companies/akamai.md",
+      "desks/journalist-vicky/companies/altegio.md",
+      "desks/journalist-vicky/companies/arima.md",
+      "desks/journalist-vicky/companies/atlassian.md",
+      "desks/journalist-vicky/companies/austriacard.md",
+      "desks/journalist-vicky/companies/c4ail.md",
+      "desks/journalist-vicky/companies/cerebras.md",
+      "desks/journalist-vicky/companies/chatplace.md",
+      "desks/journalist-vicky/companies/cisco-outshift.md",
+      "desks/journalist-vicky/companies/cloudflare.md",
+      "desks/journalist-vicky/companies/cognizant.md",
+      "desks/journalist-vicky/companies/conscium.md",
+      "desks/journalist-vicky/companies/contents.md",
+      "desks/journalist-vicky/companies/crowdstrike.md",
+      "desks/journalist-vicky/companies/crystal-intelligence.md",
+      "desks/journalist-vicky/companies/data-protection-commission.md",
+      "desks/journalist-vicky/companies/datadog.md",
+      "desks/journalist-vicky/companies/defined-ai.md",
+      "desks/journalist-vicky/companies/delinea.md",
+      "desks/journalist-vicky/companies/delta-labs.md",
+      "desks/journalist-vicky/companies/deque.md",
+      "desks/journalist-vicky/companies/descope.md",
+      "desks/journalist-vicky/companies/dig-in.md",
+      "desks/journalist-vicky/companies/directus.md",
+      "desks/journalist-vicky/companies/easydmarc.md",
+      "desks/journalist-vicky/companies/elastic.md",
+      "desks/journalist-vicky/companies/emergence-ai.md",
+      "desks/journalist-vicky/companies/exa.md"
+    ],
+    "journalist-europe@PrompTugal.vicky": [
+      "desks/journalist-vicky/companies/exein.md",
+      "desks/journalist-vicky/companies/factorial.md",
+      "desks/journalist-vicky/companies/fido.md",
+      "desks/journalist-vicky/companies/firefox-enterprise-mozilla.md",
+      "desks/journalist-vicky/companies/fretefy.md",
+      "desks/journalist-vicky/companies/gcore.md",
+      "desks/journalist-vicky/companies/genspark.md",
+      "desks/journalist-vicky/companies/getvocal-ai.md",
+      "desks/journalist-vicky/companies/google-cloud.md",
+      "desks/journalist-vicky/companies/hablla.md",
+      "desks/journalist-vicky/companies/ibm.md",
+      "desks/journalist-vicky/companies/itrecruiter.md",
+      "desks/journalist-vicky/companies/jetbrains.md",
+      "desks/journalist-vicky/companies/just-travel.md",
+      "desks/journalist-vicky/companies/keewano.md",
+      "desks/journalist-vicky/companies/kiggu.md",
+      "desks/journalist-vicky/companies/kpmg-portugal.md",
+      "desks/journalist-vicky/companies/launchdarkly.md",
+      "desks/journalist-vicky/companies/lawvu.md",
+      "desks/journalist-vicky/companies/ledger.md",
+      "desks/journalist-vicky/companies/legalfly.md",
+      "desks/journalist-vicky/companies/legora.md",
+      "desks/journalist-vicky/companies/linux-foundation-aaif.md",
+      "desks/journalist-vicky/companies/make.md",
+      "desks/journalist-vicky/companies/manageengine.md",
+      "desks/journalist-vicky/companies/manus-ai.md",
+      "desks/journalist-vicky/companies/mastra.md",
+      "desks/journalist-vicky/companies/melious-ai.md",
+      "desks/journalist-vicky/companies/meo.md",
+      "desks/journalist-vicky/companies/mobile-brain.md",
+      "desks/journalist-vicky/companies/naporta.md",
+      "desks/journalist-vicky/companies/ncsc-uk.md",
+      "desks/journalist-vicky/companies/neo.md",
+      "desks/journalist-vicky/companies/neo4j.md"
+    ],
+    "journalist-ai@PrompTugal.vicky": [
+      "desks/journalist-vicky/companies/nordvpn.md",
+      "desks/journalist-vicky/companies/ola-doutor.md",
+      "desks/journalist-vicky/companies/open-vsx.md",
+      "desks/journalist-vicky/companies/orb.md",
+      "desks/journalist-vicky/companies/persona.md",
+      "desks/journalist-vicky/companies/polyai.md",
+      "desks/journalist-vicky/companies/prelude.md",
+      "desks/journalist-vicky/companies/primitive.md",
+      "desks/journalist-vicky/companies/prisma.md",
+      "desks/journalist-vicky/companies/prohound.md",
+      "desks/journalist-vicky/companies/proofpoint.md",
+      "desks/journalist-vicky/companies/proton.md",
+      "desks/journalist-vicky/companies/raras-health.md",
+      "desks/journalist-vicky/companies/replit.md",
+      "desks/journalist-vicky/companies/risiq.md",
+      "desks/journalist-vicky/companies/roost.md",
+      "desks/journalist-vicky/companies/runpod.md",
+      "desks/journalist-vicky/companies/rws.md",
+      "desks/journalist-vicky/companies/sageox.md",
+      "desks/journalist-vicky/companies/scrut-automation.md",
+      "desks/journalist-vicky/companies/shakers.md",
+      "desks/journalist-vicky/companies/sheerme.md",
+      "desks/journalist-vicky/companies/spacecomputer.md",
+      "desks/journalist-vicky/companies/sphere.md",
+      "desks/journalist-vicky/companies/strawberry.md",
+      "desks/journalist-vicky/companies/sumsub.md",
+      "desks/journalist-vicky/companies/testmu-ai.md",
+      "desks/journalist-vicky/companies/the-hacking-games.md",
+      "desks/journalist-vicky/companies/topsec-cloud-solutions.md",
+      "desks/journalist-vicky/companies/trent-ai.md",
+      "desks/journalist-vicky/companies/twilio.md",
+      "desks/journalist-vicky/companies/vtex.md",
+      "desks/journalist-vicky/companies/you-com.md"
+    ]
+  },
+  "files": [
+    {
+      "file": "desks/journalist-vicky/companies/0xbow.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH stage**, in Web3: [Web Summit, \"0xbow\"](https://websummit.com/appearances/lis26/d7b617c6-9510-47f4-8325-96053a07d258/0xbow-), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/d7b617c6-9510-47f4-8325-96053a07d258/0xbow-"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**On Web Summit's featured startups list:** [Web Summit, \"Featured startups\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/1password.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "More than 150,000 businesses use it, according to the company (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/3ba8a8ea-2e10-48d9-84e3-fada56f21fd4/1password"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**, in security: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, \"1Password\"](https://websummit.com/appearances/lis26/3ba8a8ea-2e10-48d9-84e3-fada56f21fd4/1password), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/",
+            "https://websummit.com/appearances/lis26/3ba8a8ea-2e10-48d9-84e3-fada56f21fd4/1password"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/ai-infinity.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in AI and machine learning: [Web Summit, \"AI Infinity\"](https://websummit.com/appearances/lis26/bb1ea8a4-b831-4875-8d07-dfae3296cef1/ai-infinity), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/bb1ea8a4-b831-4875-8d07-dfae3296cef1/ai-infinity"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/air-apps.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "The company says it has roots in Portugal and grew through a hub in San Francisco; Web Summit lists it as based in the United States (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/20796bb4-829f-43c0-86a1-a2137ee08072/air-apps"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH stage**, in telecommunications and IT: [Web Summit, \"Air Apps\"](https://websummit.com/appearances/lis26/20796bb4-829f-43c0-86a1-a2137ee08072/air-apps), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/20796bb4-829f-43c0-86a1-a2137ee08072/air-apps"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**On Web Summit's featured startups list:** [Web Summit, \"Featured startups\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/airia.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 15:26 to 15:37, Stage 9 (Growth Summit):** \"AI sprawl is exploding. Get ahead of governance and security challenges before it's boo late\" (the title as Web Summit lists it), with Kevin Kiley, CEO of Airia AI: [Web Summit, \"AI sprawl is exploding\"](https://websummit.com/sessions/lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/0753d94e-3227-408e-b04d-a095ee327061/ai-sprawl-is-exploding-get-ahead-of-governance-and-security-challenges-before-it-s-boo-late/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/aisle.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 13:40 to 14:00, Stage 13 (AI Summit):** \"Securing the software foundation of civilisation with AI\", with Stanislav Fort, Founder, CTO and Chief Scientist of AISLE: [Web Summit, \"Securing the software foundation of civilisation with AI\"](https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/7e66baa2-493f-4228-90d9-42861cd46717/securing-the-software-foundation-of-civilisation-with-ai/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/akamai.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Akamai, a US company (1), runs a cloud platform that spreads computing from large data centres out to the edge of the network, close to users (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/610a96ea-3d4e-43c1-91d1-2ff8fe4e8d87/akamai"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "Businesses use it to build and run AI applications and to protect themselves against cyber attacks, the company says (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/610a96ea-3d4e-43c1-91d1-2ff8fe4e8d87/akamai"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**, in telecommunications and IT: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, \"Akamai\"](https://websummit.com/appearances/lis26/610a96ea-3d4e-43c1-91d1-2ff8fe4e8d87/akamai), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/",
+            "https://websummit.com/appearances/lis26/610a96ea-3d4e-43c1-91d1-2ff8fe4e8d87/akamai"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/altegio.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in SaaS: [Web Summit, \"Altegio\"](https://websummit.com/appearances/lis26/3af72fd8-cd39-4b01-8f6f-58c181fa4e1f/altegio), read 8 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/3af72fd8-cd39-4b01-8f6f-58c181fa4e1f/altegio",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/arima.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Arima, a Canadian company (1), builds privacy-first synthetic data for marketing: simulated people and households that keep the statistical shape of the real data they come from (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/4a538f1a-6bad-403e-98cd-8a57d5c6a4e0/arima"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "Its main product, the Synthetic Society, models a real population, built from several data sources, the company says (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/4a538f1a-6bad-403e-98cd-8a57d5c6a4e0/arima"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH stage**, in data and analytics: [Web Summit, \"Arima\"](https://websummit.com/appearances/lis26/4a538f1a-6bad-403e-98cd-8a57d5c6a4e0/arima), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/4a538f1a-6bad-403e-98cd-8a57d5c6a4e0/arima"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**On Web Summit's featured startups list:** [Web Summit, \"Featured startups\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/atlassian.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "It says it has more than 350,000 customers (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/6cce6c44-be71-48b5-814e-b320efc7cb7e/atlassian"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**, in software as a service: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, \"Atlassian\"](https://websummit.com/appearances/lis26/6cce6c44-be71-48b5-814e-b320efc7cb7e/atlassian), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/",
+            "https://websummit.com/appearances/lis26/6cce6c44-be71-48b5-814e-b320efc7cb7e/atlassian"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 14:20 to 14:40, Centre Stage:** \"AI and the human at 300km/h\", with Mike Cannon-Brookes, Co-founder and CEO of Atlassian, and James Vowles, Team Principal of the Atlassian Williams F1 Team, and Kirsten Korosec, business tech editor at TechCrunch: [Web Summit, \"AI and the human at 300km/h\"](https://websummit.com/sessions/lis26/a6d3c49d-4442-4cc6-88ce-ec0882f245d1/ai-and-the-human-at-300km-h/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/a6d3c49d-4442-4cc6-88ce-ec0882f245d1/ai-and-the-human-at-300km-h/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/austriacard.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "AustriaCard is based in Austria, according to Web Summit (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/c6e69b87-de24-4f2b-895c-8e7f00ea209e/austriacard-holdings/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Partner**, in AI and machine learning: [Web Summit, \"AUSTRIACARD HOLDINGS\"](https://websummit.com/appearances/lis26/c6e69b87-de24-4f2b-895c-8e7f00ea209e/austriacard-holdings/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/c6e69b87-de24-4f2b-895c-8e7f00ea209e/austriacard-holdings/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 11:30 to 12:15, Masterclass 3:** \"AI sovereignty: Data control, governance and predictable AI costs\", hosted by Christos Rizos, Group Business Development Director, AI & Digital Solutions, AustriaCard: [Web Summit, \"AI sovereignty: Data control, governance and predictable AI costs [Hosted by Austriacard Holdings]\"](https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/2230e1d4-188d-4ab0-9f3d-a418dff6c20b/ai-sovereignty-data-control-governance-and-predictable-ai-costs-hosted-by-austriacard-holdings/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/c4ail.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 11:30 to 11:50, Stage 13 (AI Summit):** \"Beyond the AI agent hype\", with Georg Zoeller, Co-founder of C4AIL, Tariq Krim, Founder of Human intention, and Jeff Wilser, podcast host and book author (AI-Curious): [Web Summit, \"Beyond the AI agent hype\"](https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/9351ba39-a48a-45c4-b147-8688ea48ba4a/beyond-the-ai-agent-hype/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/cerebras.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Customers can use them on their own premises or in the cloud, the company says (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/e19b58c2-c945-4334-98e8-8a1299527397/cerebras"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**, in AI and machine learning: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, \"Cerebras\"](https://websummit.com/appearances/lis26/e19b58c2-c945-4334-98e8-8a1299527397/cerebras), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/",
+            "https://websummit.com/appearances/lis26/e19b58c2-c945-4334-98e8-8a1299527397/cerebras"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/chatplace.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "ChatPlace, a Portuguese company (1), makes software that helps creators and small businesses grow and sell on social media (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "It works on Instagram, TikTok, Telegram and WhatsApp, the company says (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in SaaS: [Web Summit, \"ChatPlace\"](https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/8a78bc00-b4d9-40dd-a6e6-c77d5039a057/chatplace"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/cisco-outshift.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Outshift is Cisco's unit for emerging technology, which Cisco calls its \"incubation engine\" (2).",
+          "markers": [
+            2
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/00e7c159-84fb-4ba2-9413-e075b2d9f87a/cisco-systems%2C-inc."
+          ]
+        },
+        {
+          "section": "About",
+          "text": "Cisco Systems is a US company (2).",
+          "markers": [
+            2
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/00e7c159-84fb-4ba2-9413-e075b2d9f87a/cisco-systems%2C-inc."
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**, as Cisco Systems, Inc., in AI and machine learning: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, \"Cisco Systems, Inc.\"](https://websummit.com/appearances/lis26/00e7c159-84fb-4ba2-9413-e075b2d9f87a/cisco-systems%2C-inc.), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/",
+            "https://websummit.com/appearances/lis26/00e7c159-84fb-4ba2-9413-e075b2d9f87a/cisco-systems%2C-inc."
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 12:10 to 12:30, Stage 8 (Cybersecurity Summit):** \"It takes two to trust: Operationalizing public-private security\", with Anthony Grieco, SVP, Chief Security and Trust Officer of Cisco Systems: [Web Summit, \"It takes two to trust: Operationalizing public-private security\"](https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 13:00 to 13:45, Masterclass 1:** \"Democratising AI platform engineering with open-source [Hosted by Cisco Systems]\", with Alfonso (Poncho) Sandoval Rosas, Senior Developer Advocate: [Web Summit, \"Democratising AI platform engineering with open-source\"](https://websummit.com/sessions/lis26/5f4ac039-83e3-4b2b-9415-3efa64804ee1/democratising-ai-platform-engineering-with-open-source-hosted-by-cisco-systems/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/5f4ac039-83e3-4b2b-9415-3efa64804ee1/democratising-ai-platform-engineering-with-open-source-hosted-by-cisco-systems/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/cloudflare.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Speaker:** Matthew Prince, Co-founder and CEO of Cloudflare: [Web Summit, \"Meet our 2026 speakers\"](https://websummit.com/speakers/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/speakers/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 11:50 to 12:10, Centre Stage:** \"The agentic internet: Who controls the web?\", with Matthew Prince: [Web Summit, \"The agentic internet: Who controls the web?\"](https://websummit.com/sessions/lis26/4421ffa8-97ef-4466-8669-31c47cff3b5a/the-agentic-internet-who-controls-the-web/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/4421ffa8-97ef-4466-8669-31c47cff3b5a/the-agentic-internet-who-controls-the-web/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/cognizant.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 15:00 to 15:55, Developer Lounge (Developer Summit):** \"Be part of history: help build the first pages of the agentic web\", with Babak Hodjat, Chief AI Officer of Cognizant: [Web Summit, \"Be part of history: help build the first pages of the agentic web\"](https://websummit.com/sessions/lis26/e6276948-d2f7-4565-95e4-9caccd1a5211/be-part-of-history-help-build-the-first-pages-of-the-agentic-web/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/e6276948-d2f7-4565-95e4-9caccd1a5211/be-part-of-history-help-build-the-first-pages-of-the-agentic-web/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/conscium.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 10:45 to 11:10, Stage 8 (Cybersecurity Summit):** \"The biological bottleneck\", with Calum Chace, Co-founder of Conscium: [Web Summit, \"The biological bottleneck\"](https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/contents.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in AI and machine learning: [Web Summit, \"Contents\"](https://websummit.com/appearances/lis26/3e6c8ced-8628-4d44-b35a-326bcd921879/contents-), read 8 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/3e6c8ced-8628-4d44-b35a-326bcd921879/contents-",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/crowdstrike.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 14:25 to 14:45, Centre Stage:** \"The best offense is a machine-speed defence\", with George Kurtz, Co-founder and CEO of CrowdStrike: [Web Summit, \"The best offense is a machine-speed defence\"](https://websummit.com/sessions/lis26/6f0e0dd5-bb66-4e98-8edd-46ae99310f08/the-best-offense-is-a-machine-speed-defence/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/6f0e0dd5-bb66-4e98-8edd-46ae99310f08/the-best-offense-is-a-machine-speed-defence/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 10:05 to 10:25, Stage 8 (Cybersecurity Summit):** \"AI vs. AI: The battle for the cyber advantage\", with Zeki Turedi, Field CTO for Europe, Middle East and Africa at CrowdStrike: [Web Summit, \"AI vs. AI: The battle for the cyber advantage\"](https://websummit.com/sessions/lis26/26295ff3-84c1-4329-84cb-7ca7aaa18fac/ai-vs-ai-the-battle-for-the-cyber-advantage/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/26295ff3-84c1-4329-84cb-7ca7aaa18fac/ai-vs-ai-the-battle-for-the-cyber-advantage/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/crystal-intelligence.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 11:50 to 12:10, Stage 8 (Cybersecurity Summit):** \"An AI identity crisis\", with Marina Khaustova, COO and Executive Director of Crystal Intelligence: [Web Summit, \"An AI identity crisis\"](https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/data-protection-commission.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 12:30 to 12:50, Centre Stage:** \"Regulating big tech\", with Des Hogan, Commissioner, Data Protection Commission: [Web Summit, \"Regulating big tech\"](https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/datadog.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**, in SaaS: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, \"Datadog\"](https://websummit.com/appearances/lis26/1723d098-ce93-4dab-8da9-0920b6fea1b4/datadog), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/",
+            "https://websummit.com/appearances/lis26/1723d098-ce93-4dab-8da9-0920b6fea1b4/datadog"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 10:00 to 10:45, Masterclass 2:** \"Monitoring in the age of GenAI: Beyond golden signals [Hosted by Datadog]\", with Clara Jacintho, Software Engineer: [Web Summit, \"Monitoring in the age of GenAI: Beyond golden signals\"](https://websummit.com/sessions/lis26/3fec214a-c6f3-41bb-ace2-b45b50f6d964/monitoring-in-the-age-of-genai-beyond-golden-signals-hosted-by-datadog/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/3fec214a-c6f3-41bb-ace2-b45b50f6d964/monitoring-in-the-age-of-genai-beyond-golden-signals-hosted-by-datadog/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/defined-ai.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 16:00 to 16:20, Stage 2: Media only.** \"Press conference with Defined AI Founder Daniela Braga\": [Web Summit, \"Press conference with Defined AI Founder Daniela Braga\"](https://websummit.com/sessions/lis26/f46b8d29-7a22-40ed-b8b3-48a7cab5e9a7/press-conference-with-defined-ai-founder-daniela-braga/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/f46b8d29-7a22-40ed-b8b3-48a7cab5e9a7/press-conference-with-defined-ai-founder-daniela-braga/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 12:10 to 12:30, Stage 10 (Developer Summit):** \"Give me a brake: Coding without crashing\", with Daniela Braga, Founder and CEO of Defined.ai: [Web Summit, \"Give me a brake: Coding without crashing\"](https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 15:10 to 15:30, Centre Stage:** \"Rewriting the rules of female longevity\", with Daniela Braga: [Web Summit, \"Rewriting the rules of female longevity\"](https://websummit.com/sessions/lis26/79f1c8b1-4453-46c1-a37f-cb614d082cb8/rewriting-the-rules-of-female-longevity/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/79f1c8b1-4453-46c1-a37f-cb614d082cb8/rewriting-the-rules-of-female-longevity/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/delinea.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Delinea makes identity security software (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/96f4d2e8-4e7e-4204-bf7d-0c1b9ad6983d/delinea"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "The company says it controls what people, machines and AI agents can do once they have access to a company's systems, giving access only when it is needed (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/96f4d2e8-4e7e-4204-bf7d-0c1b9ad6983d/delinea"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 12:30 to 13:15, Masterclass 3:** \"Trust issues: Letting AI agents into production safely [Hosted by Delinea]\": [Web Summit, \"Trust issues: Letting AI agents into production safely [Hosted by Delinea]\"](https://websummit.com/sessions/lis26/31ab2f9b-f8b1-4b73-b1e8-f686507c3aab/trust-issues-letting-ai-agents-into-production-safely-hosted-by-delinea/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/31ab2f9b-f8b1-4b73-b1e8-f686507c3aab/trust-issues-letting-ai-agents-into-production-safely-hosted-by-delinea/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/delta-labs.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in AI and machine learning: [Web Summit, \"Delta Labs\"](https://websummit.com/appearances/lis26/bd5d6340-e86f-42c3-9f55-1f9ad5d24172/delta-labs), read 8 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/bd5d6340-e86f-42c3-9f55-1f9ad5d24172/delta-labs",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/deque.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 12:00 to 12:45, Masterclass 2:** \"Can you trust your AI agent's accessibility? [Hosted by Deque]\", with Dylan Barrell, CTO of Deque Systems: [Web Summit, \"Can you trust your AI agent's accessibility?\"](https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/74aa4557-4a99-4624-b2e7-0e1ca1b388d4/can-you-trust-your-ai-agent-s-accessibility-hosted-by-deque/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/descope.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 14:00 to 14:45, Developer Lounge:** \"(A)Identity: Auth tips to secure AI agents and MCP servers\", with Samudra Gupta, Solutions Engineer at Descope: [Web Summit, \"(A)Identity: Auth tips to secure AI agents and MCP servers\"](https://websummit.com/sessions/lis26/2701a938-524f-4c24-b0da-cb8fdd4e030b/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/2701a938-524f-4c24-b0da-cb8fdd4e030b/a-identity-auth-tips-to-secure-ai-agents-and-mcp-servers/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/dig-in.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "It says it tracks millions of venues across Europe and Brazil (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/05980d1e-1823-4436-bfd7-bb9dbe52be76/dig-in"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in data and analytics: [Web Summit, \"DIG-IN\"](https://websummit.com/appearances/lis26/05980d1e-1823-4436-bfd7-bb9dbe52be76/dig-in), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/05980d1e-1823-4436-bfd7-bb9dbe52be76/dig-in"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/directus.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 11:10 to 11:30, Stage 10 (Developer Summit):** \"Don’t feed shit to agents\", with Rijk van Zanten, Co-Founder and CTO of Directus: [Web Summit, \"Don’t feed shit to agents\"](https://websummit.com/sessions/lis26/858c105c-7c26-4196-bbc1-5a6ef6a35f55/don-t-feed-shit-to-agents/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/858c105c-7c26-4196-bbc1-5a6ef6a35f55/don-t-feed-shit-to-agents/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/easydmarc.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 10:00 to 11:00, Stage 6 (PITCH):** \"PITCH group round 1\", where Web Summit lists Gerasim Hovhannisyan, Co-founder and CEO of EasyDMARC, among the speakers; the page does not say his role in the round: [Web Summit, \"PITCH group round 1\"](https://websummit.com/sessions/lis26/c3703a46-e6a5-4106-a8ec-0c7777160569/pitch-group-round-1/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/c3703a46-e6a5-4106-a8ec-0c7777160569/pitch-group-round-1/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 15:25 to 15:50, Stage 8 (Cybersecurity Summit):** \"The perimeter is dead. So what happens to trust?\", with Gerasim Hovhannisyan: [Web Summit, \"The perimeter is dead. So what happens to trust?\"](https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/elastic.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**, in AI and machine learning: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, \"Elastic\"](https://websummit.com/appearances/lis26/56cb06d1-4424-4110-95ab-326957470b08/elastic), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/",
+            "https://websummit.com/appearances/lis26/56cb06d1-4424-4110-95ab-326957470b08/elastic"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 11:30 to 12:15, Masterclass 4:** \"Dogfooding AI security: Lessons from our own SOC [Hosted by Elastic]\": [Web Summit, \"Dogfooding AI security: Lessons from our own SOC\"](https://websummit.com/sessions/lis26/212f884a-834e-4db2-b5f3-9ea3ef39a0ed/dogfooding-ai-security-lessons-from-our-own-soc-hosted-by-elastic/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/212f884a-834e-4db2-b5f3-9ea3ef39a0ed/dogfooding-ai-security-lessons-from-our-own-soc-hosted-by-elastic/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 14:00 to 14:45, Developer Lounge (Developer Summit):** \"The knowledge your agents can't see: Building visual context\", with Joe McElroy, Tech lead, Agents & Context, and Yannis Roussos, Principal Product Manager, both of Elastic: [Web Summit, \"The knowledge your agents can't see: Building visual context\"](https://websummit.com/sessions/lis26/3be06034-1c23-4797-bb86-232cbd450d8d/the-knowledge-your-agents-can-t-see-building-visual-context/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/3be06034-1c23-4797-bb86-232cbd450d8d/the-knowledge-your-agents-can-t-see-building-visual-context/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/emergence-ai.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 10:30 to 10:50, Stage 13 (AI Summit):** \"When AI agents go rogue\", with Emergence AI co-founder Satya Nitta: [Web Summit, \"When AI agents go rogue\"](https://websummit.com/sessions/lis26/afe1fd71-2a98-41e4-8707-9101353797b3/when-ai-agents-go-rogue/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/afe1fd71-2a98-41e4-8707-9101353797b3/when-ai-agents-go-rogue/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/exa.md",
+      "part": "journalist-portugal@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 15:40 to 16:00, Stage 13 (AI Summit):** \"Search built for AI agents\", with Will Bryk, Co-founder and CEO of Exa: [Web Summit, \"Search built for AI agents\"](https://websummit.com/sessions/lis26/a433a1bc-b53a-4689-a8f8-c7eb8088148c/search-built-for-ai-agents/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/a433a1bc-b53a-4689-a8f8-c7eb8088148c/search-built-for-ai-agents/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/exein.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 14:30 to 14:55, Stage 8 (Cybersecurity Summit):** \"Securing the AI frontline\", with Giovanni Alberto Falcione, Co-founder and CTO of Exein: [Web Summit, \"Securing the AI frontline\"](https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/e1587abd-ee14-4af3-8703-d02df1ba1f78/securing-the-ai-frontline/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/factorial.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 11:25 to 11:45, Stage 4 (Future of Work Summit):** \"Double agents: Are your employees' AI agents working for or against your business?\", with Jordi Romero, Co-founder and CEO of Factorial: [Web Summit, \"Double agents: Are your employees' AI agents working for or against your business?\"](https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/106fd2e8-f41f-4e52-85d7-ed6d0e5ecd9f/double-agents-are-your-employees-ai-agents-working-for-or-against-your-business/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/fido.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "It describes itself as connecting brands, borrowers and investors (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/c0a7d7f7-26b0-41ba-816b-8560a0ec93e2/fido"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in fintech and financial services: [Web Summit, \"FIDO\"](https://websummit.com/appearances/lis26/c0a7d7f7-26b0-41ba-816b-8560a0ec93e2/fido), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/c0a7d7f7-26b0-41ba-816b-8560a0ec93e2/fido"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/firefox-enterprise-mozilla.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Partner**, in Security: [Web Summit, \"Firefox Enterprise by Mozilla\"](https://websummit.com/appearances/lis26/5e33ad8b-d0fc-4103-9e74-9f8b73e464ac/firefox-enterprise-by-mozilla), read 8 November 2026. It is also on [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/5e33ad8b-d0fc-4103-9e74-9f8b73e464ac/firefox-enterprise-by-mozilla",
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/fretefy.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Fretefy, a Brazilian company (1), makes logistics software that connects shippers with carriers, with freight management, automatic quotes and real-time tracking of shipments, the company says (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/c8356c12-968b-49a3-b910-a599c7b6658c/fretefy-tecnologia-s.a."
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in SaaS: [Web Summit, \"FRETEFY TECNOLOGIA S.A.\"](https://websummit.com/appearances/lis26/c8356c12-968b-49a3-b910-a599c7b6658c/fretefy-tecnologia-s.a.), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/c8356c12-968b-49a3-b910-a599c7b6658c/fretefy-tecnologia-s.a."
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/gcore.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Partner**, in Security: [Web Summit, \"Gcore\"](https://websummit.com/appearances/lis26/eeaeca9e-530a-4d95-a9f9-c24309f42ca0/gcore), read 9 November 2026. It is also on [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/eeaeca9e-530a-4d95-a9f9-c24309f42ca0/gcore",
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/genspark.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Genspark, a US company, calls itself an all-in-one AI workspace (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/6cfaa9bf-3e59-4b76-83a2-0cb735fdedff/genspark"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "Its aim, it says, is to take routine busywork off the hands of knowledge workers (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/6cfaa9bf-3e59-4b76-83a2-0cb735fdedff/genspark"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**, in AI and machine learning: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/) and [Web Summit, \"Genspark\"](https://websummit.com/appearances/lis26/6cfaa9bf-3e59-4b76-83a2-0cb735fdedff/genspark), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/",
+            "https://websummit.com/appearances/lis26/6cfaa9bf-3e59-4b76-83a2-0cb735fdedff/genspark"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/getvocal-ai.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH**, in AI and machine learning: [Web Summit, \"GetVocal AI\"](https://websummit.com/appearances/lis26/caa1775e-c9d9-4186-b906-626c4aa6455c/getvocal-ai), read 9 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/caa1775e-c9d9-4186-b906-626c4aa6455c/getvocal-ai",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/google-cloud.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Google Cloud provides cloud computing and AI services to organisations (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/2362e911-24df-49f6-894e-b608c3b25106/google-cloud"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "Its offer covers AI infrastructure, models such as Gemini, data management, security and tools for developers (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/2362e911-24df-49f6-894e-b608c3b25106/google-cloud"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "It says customers in more than 200 countries and territories use it (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/2362e911-24df-49f6-894e-b608c3b25106/google-cloud"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/hablla.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Hablla, a Brazilian company (1), makes Hablla One, a self-service platform that uses AI to automate conversations with customers on WhatsApp, Instagram, Messenger, email and phone (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/77006d8a-9361-4846-9f4b-2773290d495c/hablla"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "Hablla says it handles more than 2 million WhatsApp conversations a day (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/77006d8a-9361-4846-9f4b-2773290d495c/hablla"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in advertising, content and marketing: [Web Summit, \"Hablla\"](https://websummit.com/appearances/lis26/77006d8a-9361-4846-9f4b-2773290d495c/hablla), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/77006d8a-9361-4846-9f4b-2773290d495c/hablla"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/ibm.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "IBM offers AI products and services to businesses (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/87920939-b4c2-454b-80e7-5aa9c33397ee/ibm"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "They include watsonx, its data and AI platform, the work of IBM Research and consultants who help companies use AI (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/87920939-b4c2-454b-80e7-5aa9c33397ee/ibm"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 15:50 to 16:10, Centre Stage:** \"The enterprise reality check: Who's controlling data and AI?\", with Jonathan Adashek, Senior Vice President and Chief Global Affairs Officer of IBM: [Web Summit, \"The enterprise reality check: Who's controlling data and AI?\"](https://websummit.com/sessions/lis26/b216ce91-8a19-4296-bfb7-37b9efcb8a52/the-enterprise-reality-check-who-s-controlling-data-and-ai/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/b216ce91-8a19-4296-bfb7-37b9efcb8a52/the-enterprise-reality-check-who-s-controlling-data-and-ai/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/itrecruiter.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in AI and machine learning: [Web Summit, \"iTRTech Group\"](https://websummit.com/appearances/lis26/7bb34358-e824-4ba9-8230-b5224117d717/), read 9 November 2026. Web Summit now lists the group, iTRTech Group, under this entry; its earlier page for iTRecruiter returns \"not found\".",
+          "sources": [
+            "https://websummit.com/appearances/lis26/7bb34358-e824-4ba9-8230-b5224117d717/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/jetbrains.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 10:30 to 10:50, Stage 10 (Developer Summit):** \"Taming the agent swarm\", with Kirill Skrygan, CEO of JetBrains: [Web Summit, \"Taming the agent swarm\"](https://websummit.com/sessions/lis26/9fd40607-9fe9-4805-9831-dfffb69c5e35/taming-the-agent-swarm/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/9fd40607-9fe9-4805-9831-dfffb69c5e35/taming-the-agent-swarm/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/just-travel.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Just Travel, a Brazilian company (1), runs a travel technology platform for travel agencies, creators and businesses (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/1c3a556f-ae2c-4d1e-9ac3-4e41936761a7/just-travel"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "Through white-label online shops, travel inventory, payments, automation and AI, it lets each partner sell travel under its own brand, the company says (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/1c3a556f-ae2c-4d1e-9ac3-4e41936761a7/just-travel"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in travel and hospitality: [Web Summit, \"Just Travel\"](https://websummit.com/appearances/lis26/1c3a556f-ae2c-4d1e-9ac3-4e41936761a7/just-travel), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/1c3a556f-ae2c-4d1e-9ac3-4e41936761a7/just-travel"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/keewano.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "It stores every event across users, devices and agents as an ordered history, so that AI agents can reason over large volumes of event data, the company says (2).",
+          "markers": [
+            2
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/1e5dae43-571a-4a71-af0c-420f9d9ef6df/keewano"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Featured startup**, in AI and machine learning: [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/) and [Web Summit, \"Keewano\"](https://websummit.com/appearances/lis26/1e5dae43-571a-4a71-af0c-420f9d9ef6df/keewano), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/startups/featured-startups/",
+            "https://websummit.com/appearances/lis26/1e5dae43-571a-4a71-af0c-420f9d9ef6df/keewano"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/kiggu.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Kiggu works in offensive cybersecurity (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/ec0a4a3b-e56e-4ddc-9f13-c5b178c0b777/kiggu"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "Its platform, Kiggu Pro, brings automated security, AI agents and human experts together in one place, and the company says it can act as a company's security team (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/ec0a4a3b-e56e-4ddc-9f13-c5b178c0b777/kiggu"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH stage**: [Web Summit, \"Kiggu\"](https://websummit.com/appearances/lis26/ec0a4a3b-e56e-4ddc-9f13-c5b178c0b777/kiggu), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/ec0a4a3b-e56e-4ddc-9f13-c5b178c0b777/kiggu"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/kpmg-portugal.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "KPMG is a global network of professional services firms providing audit, tax and advisory services, it says (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/b7f3c3ff-d492-4ff5-9f12-68116e3ecd81/kpmg"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner** (Partner track, in fintech and financial services): [Web Summit, \"KPMG\"](https://websummit.com/appearances/lis26/b7f3c3ff-d492-4ff5-9f12-68116e3ecd81/kpmg) and [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/b7f3c3ff-d492-4ff5-9f12-68116e3ecd81/kpmg",
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/launchdarkly.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 12:10 to 12:30, Stage 10 (Developer Summit):** \"Give me a brake: Coding without crashing\", with Edith Harbaugh, Co-founder and CEO of LaunchDarkly: [Web Summit, \"Give me a brake: Coding without crashing\"](https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/c23c0b87-7b82-492f-a46b-af652fe6529e/give-me-a-brake-coding-without-crashing/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 12:40 to 13:00, Stage 10 (Developer Summit):** \"Who holds the kill switch?\", with Edith Harbaugh: [Web Summit, \"Who holds the kill switch?\"](https://websummit.com/sessions/lis26/53d083ac-79f1-48e0-8862-e236167233d8/who-holds-the-kill-switch/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/53d083ac-79f1-48e0-8862-e236167233d8/who-holds-the-kill-switch/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 14:45 to 15:05, Stage 7 (SaaS Summit):** \"Pricing SaaS when users are agents\", with Edith Harbaugh: [Web Summit, \"Pricing SaaS when users are agents\"](https://websummit.com/sessions/lis26/9e5469da-4430-430f-9ada-277e3d2dc715/pricing-saas-when-users-are-agents/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/9e5469da-4430-430f-9ada-277e3d2dc715/pricing-saas-when-users-are-agents/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/lawvu.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 14:25 to 14:50, Stage 4 (Future of Work Summit):** \"Who takes the fall for autonomous AI?\", with Sam Kidd, CEO and Co-Founder of LawVu: [Web Summit, \"Who takes the fall for autonomous AI?\"](https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/0d8d5be9-0778-4aa5-833b-e112a669ecfa/who-takes-the-fall-for-autonomous-ai/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/ledger.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 11:25 to 11:50, Stage 8 (MoneyConf):** \"In bots we trust: Defending money against AI-powered fraud\", with Ian Rogers, Chief Human Agency Officer and Board Member of Ledger: [Web Summit, \"In bots we trust: Defending money against AI-powered fraud\"](https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/legalfly.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH**, in AI and machine learning: [Web Summit, \"LEGALFLY\"](https://websummit.com/appearances/lis26/56337323-b24b-4068-ba23-ea8dcae6d580/legalfly), read 9 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/56337323-b24b-4068-ba23-ea8dcae6d580/legalfly",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/legora.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 11:50 to 12:10, Stage 13 (AI Summit):** \"Beyond the model: Scaling AI agents for professional work\", with Jacob Lauritzen, CTO of Legora: [Web Summit, \"Beyond the model: Scaling AI agents for professional work\"](https://websummit.com/sessions/lis26/fad36198-b0af-4295-bec3-b7671b62e786/beyond-the-model-scaling-ai-agents-for-professional-work/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/fad36198-b0af-4295-bec3-b7671b62e786/beyond-the-model-scaling-ai-agents-for-professional-work/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 14:40 to 15:00, Centre Stage:** \"Western tech: All is not lost\", with Jacob Lauritzen: [Web Summit, \"Western tech: All is not lost\"](https://websummit.com/sessions/lis26/f37463f8-5aab-4dfa-9c95-2c91596ebd38/western-tech-all-is-not-lost/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/f37463f8-5aab-4dfa-9c95-2c91596ebd38/western-tech-all-is-not-lost/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/linux-foundation-aaif.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 11:10 to 11:30, Stage 13 (AI Summit):** \"Why AI agents stall at the production line\", with Mazin Gilbert, Executive Director of the Agentic AI Foundation: [Web Summit, \"Why AI agents stall at the production line\"](https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/1520fda2-92bb-4e9c-8843-1582aa04c031/why-ai-agents-stall-at-the-production-line/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 12:30 to 12:50, Stage 2: Media only.** \"Open or Closed AI models: which types of future do they represent? (Press conference)\", held in the Media Village, with Mazin Gilbert: [Web Summit, \"Open or Closed AI models: which types of future do they represent?\"](https://websummit.com/sessions/lis26/2465ed74-ae9c-4705-93dc-54bb7f8ae26d/open-or-closed-ai-models-which-types-of-future-do-they-represent-press-conference/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/2465ed74-ae9c-4705-93dc-54bb7f8ae26d/open-or-closed-ai-models-which-types-of-future-do-they-represent-press-conference/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/make.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Partner**, in AI and machine learning: [Web Summit, \"Make\"](https://websummit.com/appearances/lis26/d3c491fd-2366-4215-b0c7-ce696b56f590/make/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/d3c491fd-2366-4215-b0c7-ce696b56f590/make/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 14:00 to 14:45, Masterclass 2:** \"Make AI agents work beyond the demo\", hosted by Valery Mezencev, Senior Product Marketing Manager, Make: [Web Summit, \"Make AI agents work beyond the demo [Hosted by Make]\"](https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/65eb8e8f-60b8-4772-ab2a-d1a11807aa33/make-ai-agents-work-beyond-the-demo-hosted-by-make/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/manageengine.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "ManageEngine is a division of Zoho Corporation that makes IT management software for organisations (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/03d140bc-e8a7-4097-ac20-a5158f797a90/manageengine"
+          ]
+        },
+        {
+          "section": "About",
+          "text": "It describes its platform as AI-powered (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/03d140bc-e8a7-4097-ac20-a5158f797a90/manageengine"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 12:30 to 13:15, Masterclass 4:** \"The attack has started, now what? See Log360 & Zia AI in action [Hosted by ManageEngine]\": [Web Summit, \"The attack has started, now what? See Log360 & Zia AI in action [Hosted by ManageEngine]\"](https://websummit.com/sessions/lis26/2ac488bf-54c0-4eaa-bedc-5dd271625643/the-attack-has-started-now-what-see-log360-zia-ai-in-action-hosted-by-manageengine/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/2ac488bf-54c0-4eaa-bedc-5dd271625643/the-attack-has-started-now-what-see-log360-zia-ai-in-action-hosted-by-manageengine/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/manus-ai.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Speaker:** Tao Zhang, Co-founder and CPO of Manus AI: [Web Summit, \"Meet our 2026 speakers\"](https://websummit.com/speakers/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/speakers/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/mastra.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Web Summit's page describes it as open source (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH**, in AI and machine learning: [Web Summit, \"Mastra\"](https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra), read 9 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/melious-ai.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH**, in AI and machine learning: [Web Summit, \"Melious AI GmbH\"](https://websummit.com/appearances/lis26/b28bfd6e-6182-4f6f-8de8-72b5caa57097/melious-ai-gmbh), read 9 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/b28bfd6e-6182-4f6f-8de8-72b5caa57097/melious-ai-gmbh",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/meo.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 15:20 to 15:40, Stage 7 (Corporate Innovation Summit):** \"The autonomous enterprise: Networks, cloud and AI agents\", with José Pedro Nascimento, Chief Technology Officer of MEO: [Web Summit, \"The autonomous enterprise: Networks, cloud and AI agents\"](https://websummit.com/sessions/lis26/5847852b-93e5-4590-b1f8-eb657b7fae4c/the-autonomous-enterprise-networks-cloud-and-ai-agents/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/5847852b-93e5-4590-b1f8-eb657b7fae4c/the-autonomous-enterprise-networks-cloud-and-ai-agents/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/mobile-brain.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in healthtech and wellness: [Web Summit, \"Mobile Brain\"](https://websummit.com/appearances/lis26/91093bb6-fa22-477c-9a74-7bd74cd93ae8/mobile-brain), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/91093bb6-fa22-477c-9a74-7bd74cd93ae8/mobile-brain"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/naporta.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "It combines technology, local delivery partners and its own operations, the company says (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/3751780f-874a-4893-8fd1-41d6a155f4fa/naporta"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in mobility, transportation and logistics: [Web Summit, \"naPorta\"](https://websummit.com/appearances/lis26/3751780f-874a-4893-8fd1-41d6a155f4fa/naporta), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/3751780f-874a-4893-8fd1-41d6a155f4fa/naporta"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/ncsc-uk.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 12:10 to 12:30, Stage 8 (Cybersecurity Summit):** \"It takes two to trust: Operationalizing public-private security\", with Ollie Whitehouse, Chief Technology Officer of the National Cyber Security Centre: [Web Summit, \"It takes two to trust: Operationalizing public-private security\"](https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/060f80ea-044f-46f2-a67d-e6c9dc67b106/it-takes-two-to-trust-operationalizing-public-private-security/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/neo.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 11:00 to 11:20, Stage 2: Media only.** \"Guardrails for Doomsday: Can AI be regulated? (Press conference)\", with Ali Partovi, Founding Partner of Neo: [Web Summit, \"Guardrails for Doomsday: Can AI be regulated? (Press conference)\"](https://websummit.com/sessions/lis26/c83b83a7-f04d-44b4-8760-08c086752eb1/guardrails-for-doomsday-can-ai-be-regulated-press-conference/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/c83b83a7-f04d-44b4-8760-08c086752eb1/guardrails-for-doomsday-can-ai-be-regulated-press-conference/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 16:20 to 16:40, Centre Stage:** \"AI: doom or boom?\", with Ali Partovi: [Web Summit, \"AI: doom or boom?\"](https://websummit.com/sessions/lis26/9b2f78b9-3828-4bbe-9e0a-8c092d39e0f6/ai-doom-or-boom/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/9b2f78b9-3828-4bbe-9e0a-8c092d39e0f6/ai-doom-or-boom/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/neo4j.md",
+      "part": "journalist-europe@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 10:30 to 10:50, Stage 10 (Developer Summit):** \"Why your AI agents don’t understand your business – and how to fix it\", with Philip Rathle, CTO of Neo4j: [Web Summit, \"Why your AI agents don’t understand your business – and how to fix it\"](https://websummit.com/sessions/lis26/52d3afb3-f921-4a73-9284-4ee6593e11d9/why-your-ai-agents-don-t-understand-your-business-and-how-to-fix-it/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/52d3afb3-f921-4a73-9284-4ee6593e11d9/why-your-ai-agents-don-t-understand-your-business-and-how-to-fix-it/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 12:30 to 12:50, Stage 2: Media only.** \"Open or Closed AI models: which types of future do they represent? (Press conference)\", with Philip Rathle, held in the Media Village: [Web Summit, \"Open or Closed AI models: which types of future do they represent? (Press conference)\"](https://websummit.com/sessions/lis26/2465ed74-ae9c-4705-93dc-54bb7f8ae26d/open-or-closed-ai-models-which-types-of-future-do-they-represent-press-conference/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/2465ed74-ae9c-4705-93dc-54bb7f8ae26d/open-or-closed-ai-models-which-types-of-future-do-they-represent-press-conference/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/nordvpn.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 15:00 to 15:20, Stage 2: Media only.** \"Press conference with NordVPN CTO Marijus Briedis\", held in the Media Village: [Web Summit, \"Press conference with NordVPN CTO Marijus Briedis\"](https://websummit.com/sessions/lis26/f3712e6e-481b-47b6-b43e-69a312c07ef2/press-conference-with-nordvpn-cto-marijus-briedis/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/f3712e6e-481b-47b6-b43e-69a312c07ef2/press-conference-with-nordvpn-cto-marijus-briedis/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 14:10 to 14:30, Stage 8 (Cybersecurity Summit):** \"Zombie data: How your data comes back to haunt you\", with Marijus Briedis, CTO of NordVPN: [Web Summit, \"Zombie data: How your data comes back to haunt you\"](https://websummit.com/sessions/lis26/2fad9e2b-9933-4f05-a09e-d4dda60587cb/zombie-data-how-your-data-comes-back-to-haunt-you/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/2fad9e2b-9933-4f05-a09e-d4dda60587cb/zombie-data-how-your-data-comes-back-to-haunt-you/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/ola-doutor.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in healthtech and wellness: [Web Summit, \"Olá Doutor\"](https://websummit.com/appearances/lis26/2709a39c-3dfa-427e-ad7c-aebbdc052024/ol%C3%A1-doutor), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/2709a39c-3dfa-427e-ad7c-aebbdc052024/ol%C3%A1-doutor"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/open-vsx.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Its Web Summit page presents Open VSX Managed Registry, a platform for companies to govern, secure and distribute developer extensions and AI artifacts (2).",
+          "markers": [
+            2
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/3c2bc007-b2ef-4663-afc4-784153c25194/open-vsx-/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Partner**, in AI and machine learning: [Web Summit, \"Open VSX\"](https://websummit.com/appearances/lis26/3c2bc007-b2ef-4663-afc4-784153c25194/open-vsx-/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/3c2bc007-b2ef-4663-afc4-784153c25194/open-vsx-/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 14:30 to 15:15, Masterclass 3:** \"Building AI products without building everything\", hosted by Thomas Froment, Program Lead, Development Tools, Eclipse Foundation, and Jamie Ayala, Senior Product Marketing Manager, Open VSX: [Web Summit, \"Building AI products without building everything [Hosted by Open VSX]\"](https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/828790e8-5f4b-4869-bb79-e1114cbd9365/building-ai-products-without-building-everything-hosted-by-open-vsx/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/orb.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Its Web Summit page says Orb is now part of Adyen (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/7e0253ff-de6e-44fa-b878-e7256e0d817b/orb"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH**, in fintech and financial services: [Web Summit, \"Orb\"](https://websummit.com/appearances/lis26/7e0253ff-de6e-44fa-b878-e7256e0d817b/orb), read 9 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/7e0253ff-de6e-44fa-b878-e7256e0d817b/orb",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/persona.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 11:25 to 11:50, Stage 8 (MoneyConf):** \"In bots we trust: Defending money against AI-powered fraud\", with Rick Song, CEO of Persona: [Web Summit, \"In bots we trust: Defending money against AI-powered fraud\"](https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/fee750f6-f935-464b-a11d-aebd458d9805/in-bots-we-trust-defending-money-against-ai-powered-fraud/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 15:50 to 16:10, Stage 8 (Cybersecurity Summit):** \"Beyond the front door: Identity, access, and user trust\", with Rick Song: [Web Summit, \"Beyond the front door: Identity, access, and user trust\"](https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/5a32be7c-7846-4880-be27-d0782c3b83dc/beyond-the-front-door-identity-access-and-user-trust/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/polyai.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 15:00 to 15:20, Stage 13 (AI Summit):** \"Coaching an AI agent like human talent\", with Nikola Mrkšić, Co-founder and CEO of PolyAI: [Web Summit, \"Coaching an AI agent like human talent\"](https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/prelude.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Its APIs handle phone verification, authentication and messaging, it says (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/c5a14901-4123-46e4-95fa-b3e552f719fa/prelude"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH**, in SaaS: [Web Summit, \"Prelude\"](https://websummit.com/appearances/lis26/c5a14901-4123-46e4-95fa-b3e552f719fa/prelude), read 9 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/c5a14901-4123-46e4-95fa-b3e552f719fa/prelude",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/primitive.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH**, in SaaS: [Web Summit, \"Primitive makes enterprise email AI-ready.\"](https://websummit.com/appearances/lis26/bd878c73-f795-4ed0-b16a-2e029d608813/primitive-makes-enterprise-email-ai-ready.), read 9 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/bd878c73-f795-4ed0-b16a-2e029d608813/primitive-makes-enterprise-email-ai-ready.",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/prisma.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 12:00 to 12:45, Developer Lounge (Developer Summit):** \"We are all developers now\", a live demo with Søren Bramer Schmidt, CEO of Prisma: [Web Summit, \"We are all developers now\"](https://websummit.com/sessions/lis26/b96e54bd-1262-4ab1-9939-577336979057/we-are-all-developers-now/) and [Web Summit, \"Søren Bramer Schmidt\"](https://websummit.com/attendees/lis26/3f19cc38-1d8a-4c9d-ab2c-b00e61d2c17f/s%C3%B8ren-bramer-schmidt/) (CEO, Prisma), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/b96e54bd-1262-4ab1-9939-577336979057/we-are-all-developers-now/",
+            "https://websummit.com/attendees/lis26/3f19cc38-1d8a-4c9d-ab2c-b00e61d2c17f/s%C3%B8ren-bramer-schmidt/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 15:45 to 16:05, Stage 10 (Developer Summit):** \"Rebuilding open source with AI: Lessons Learned\", with Søren Bramer Schmidt: [Web Summit, \"Rebuilding open source with AI: Lessons Learned\"](https://websummit.com/sessions/lis26/b742e8f7-343c-4868-8eac-4b488f1351d9/rebuilding-open-source-with-ai-lessons-learned/) and [Web Summit, \"Søren Bramer Schmidt\"](https://websummit.com/attendees/lis26/3f19cc38-1d8a-4c9d-ab2c-b00e61d2c17f/s%C3%B8ren-bramer-schmidt/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/b742e8f7-343c-4868-8eac-4b488f1351d9/rebuilding-open-source-with-ai-lessons-learned/",
+            "https://websummit.com/attendees/lis26/3f19cc38-1d8a-4c9d-ab2c-b00e61d2c17f/s%C3%B8ren-bramer-schmidt/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/prohound.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in hardware, robotics and IoT: [Web Summit, \"ProHound\"](https://websummit.com/appearances/lis26/9baf44c9-b8a2-42db-8bb2-25c1c9e8f16f/prohound), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/9baf44c9-b8a2-42db-8bb2-25c1c9e8f16f/prohound"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/proofpoint.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 10:25 to 10:45, Stage 8 (Cybersecurity Summit):** \"Outsmarting AI: Defence at machine speed\", with Proofpoint CEO Sumit Dhawan: [Web Summit, \"Outsmarting AI: Defence at machine speed\"](https://websummit.com/sessions/lis26/9374ad36-05ca-4ed0-8f48-b86c09fca8ff/outsmarting-ai-defence-at-machine-speed/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/9374ad36-05ca-4ed0-8f48-b86c09fca8ff/outsmarting-ai-defence-at-machine-speed/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/proton.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 11:30 to 11:50, Stage 8 (Cybersecurity Summit):** \"Big Tech detox\", with Proton COO Raphael Auphan and Vivaldi CEO Jon von Tetzchner: [Web Summit, \"Big Tech detox\"](https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/e8ad3cf3-06b8-451a-bc7f-0ba6786588dc/big-tech-detox/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/raras-health.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in healthtech and wellness: [Web Summit, \"Raras Health\"](https://websummit.com/appearances/lis26/71dafd73-9686-4b97-8d4f-db80e085725a/raras-health), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/71dafd73-9686-4b97-8d4f-db80e085725a/raras-health"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/replit.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner**, in AI and machine learning: [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 14:00 to 14:20, Centre Stage:** \"Making useful intelligence accessible to everyone\", with Michele Catasta, President of Replit: [Web Summit, \"Making useful intelligence accessible to everyone\"](https://websummit.com/sessions/lis26/dae7352a-b9b1-41d0-b3d8-d2713e9fef4e/making-useful-intelligence-accessible-to-everyone/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/dae7352a-b9b1-41d0-b3d8-d2713e9fef4e/making-useful-intelligence-accessible-to-everyone/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 15:00 to 15:20, Stage 2: Media only.** \"Press conference with Replit President Michele Catasta\", held in the Media Village: [Web Summit, \"Press conference with Replit President Michele Catasta\"](https://websummit.com/sessions/lis26/947f0d95-5912-4432-9c09-807239d19ec5/press-conference-with-replit-president-michele-catasta/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/947f0d95-5912-4432-9c09-807239d19ec5/press-conference-with-replit-president-michele-catasta/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 16:00 to 16:20, Stage 13 (AI Summit):** \"What does a self-driving company look like?\", with Michele Catasta: [Web Summit, \"What does a self-driving company look like?\"](https://websummit.com/sessions/lis26/a54a6d5f-1f53-43fd-93c6-dd2c3d63a4fe/what-does-a-self-driving-company-look-like/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/a54a6d5f-1f53-43fd-93c6-dd2c3d63a4fe/what-does-a-self-driving-company-look-like/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/risiq.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Risiq, based in Germany according to Web Summit (1), advises banks on risk, governance and regulation (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/cb076b37-5421-4866-acb9-2b6ce756c78b/risiq-gmbh"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH**, in fintech and financial services: [Web Summit, \"Risiq GmbH\"](https://websummit.com/appearances/lis26/cb076b37-5421-4866-acb9-2b6ce756c78b/risiq-gmbh), read 9 November 2026. It is also on [Web Summit, \"Featured startups at Web Summit\"](https://websummit.com/startups/featured-startups/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/cb076b37-5421-4866-acb9-2b6ce756c78b/risiq-gmbh",
+            "https://websummit.com/startups/featured-startups/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/roost.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 11:10 to 11:30, Stage 8 (Cybersecurity Summit):** \"The attackers are open source. The defences aren't.\", with Anne Bertucio de Hollembeak, COO of ROOST: [Web Summit, \"The attackers are open source. The defences aren't.\"](https://websummit.com/sessions/lis26/913b8fc9-7e6c-4a2f-96a4-df52b6bd2942/the-attackers-are-open-source-the-defences-aren-t/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/913b8fc9-7e6c-4a2f-96a4-df52b6bd2942/the-attackers-are-open-source-the-defences-aren-t/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/runpod.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner** (Partner track, in AI and machine learning): [Web Summit, \"Runpod\"](https://websummit.com/appearances/lis26/9a5f1290-6af8-4650-b689-a4dcae084ec2/runpod) and [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/9a5f1290-6af8-4650-b689-a4dcae084ec2/runpod",
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/rws.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 10:50 to 11:10, Stage 7 (Corporate Innovation Summit):** \"Your AI agent just got a passport\", with Benjamin Faes, CEO of RWS Group: [Web Summit, \"Your AI agent just got a passport\"](https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 11:30 to 11:50, Stage 2: Media only.** \"Press conference: RWS launches the world's first culturally intelligent content platform\", with Benjamin Faes: [Web Summit, \"Press conference: RWS launches the world's first culturally intelligent content platform\"](https://websummit.com/sessions/lis26/c1fc9b24-b85a-4ca3-8e14-11c3454a34a2/press-conference-rws-launches-the-world-s-first-culturally-intelligent-content-platform/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/c1fc9b24-b85a-4ca3-8e14-11c3454a34a2/press-conference-rws-launches-the-world-s-first-culturally-intelligent-content-platform/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/sageox.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 16:08 to 16:19, Stage 9 (Growth Summit):** \"Agents don't need prompts, they need context\", with Milkana Brace, Co-Founder and CPO of SageOx: [Web Summit, \"Agents don't need prompts, they need context\"](https://websummit.com/sessions/lis26/e2d68390-d300-42d0-ac9a-bb730e4f5988/agents-don-t-need-prompts-they-need-context/) and [Web Summit, \"Milkana Brace\"](https://websummit.com/attendees/lis26/c5e41921-a8cd-43e9-a98e-284d83105a39/milkana-brace/) (Co-Founder & CPO, SageOx), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/e2d68390-d300-42d0-ac9a-bb730e4f5988/agents-don-t-need-prompts-they-need-context/",
+            "https://websummit.com/attendees/lis26/c5e41921-a8cd-43e9-a98e-284d83105a39/milkana-brace/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/scrut-automation.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 10:45 to 11:10, Stage 8 (Cybersecurity Summit):** \"The biological bottleneck\", with Nicholas Muy, CISO of Scrut Automation: [Web Summit, \"The biological bottleneck\"](https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/553f8328-1300-406a-887a-b139455238c7/the-biological-bottleneck/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/shakers.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "It says only 4% of those who apply pass its certification (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/0b7766b0-b604-4039-a223-3c04d0e43848/shakers"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH stage:** [Web Summit, \"Shakers\"](https://websummit.com/appearances/lis26/0b7766b0-b604-4039-a223-3c04d0e43848/shakers), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/0b7766b0-b604-4039-a223-3c04d0e43848/shakers"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/sheerme.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "sheerME, a Portuguese company (1), runs an app for beauty and wellness services (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/f139c5b3-528e-4542-9a51-1fe1a99c1fed/sheerme"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH track**, in healthtech and wellness: [Web Summit, \"sheerME\"](https://websummit.com/appearances/lis26/f139c5b3-528e-4542-9a51-1fe1a99c1fed/sheerme), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/f139c5b3-528e-4542-9a51-1fe1a99c1fed/sheerme"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/spacecomputer.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "SpaceComputer describes itself as a cybersecurity company that protects digital assets, AI systems and critical infrastructure, on Earth and in orbit (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/d170ac4a-9284-428c-992b-ea8a8cb57dde/spacecomputer"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH stage:** [Web Summit, \"SpaceComputer\"](https://websummit.com/appearances/lis26/d170ac4a-9284-428c-992b-ea8a8cb57dde/spacecomputer), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/d170ac4a-9284-428c-992b-ea8a8cb57dde/spacecomputer"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/sphere.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "It says it covers more than 130 regions, from registration to filing and payment (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/1d6f471a-acc2-4613-8156-8789238bbcf7/sphere"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH stage:** [Web Summit, \"Sphere\"](https://websummit.com/appearances/lis26/1d6f471a-acc2-4613-8156-8789238bbcf7/sphere), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/1d6f471a-acc2-4613-8156-8789238bbcf7/sphere"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/strawberry.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Strawberry makes a web browser built around AI (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/46a776cb-d22c-4ec6-8e89-f39fcb51ed40/strawberry"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Startup, GROWTH stage:** [Web Summit, \"Strawberry\"](https://websummit.com/appearances/lis26/46a776cb-d22c-4ec6-8e89-f39fcb51ed40/strawberry), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/46a776cb-d22c-4ec6-8e89-f39fcb51ed40/strawberry"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/sumsub.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 11:50 to 12:10, Stage 8 (Cybersecurity Summit):** \"An AI identity crisis\", with Andrew Sever, Co-founder and CEO, and Jacob Sever, Co-founder and Chief Innovation Officer, of Sumsub: [Web Summit, \"An AI identity crisis\"](https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/e76fb932-a260-464d-b56a-cf6af8c4b271/an-ai-identity-crisis/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/testmu-ai.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 11:50 to 12:10, Stage 10 (Developer Summit):** \"When AI verifies AI\", with Mohammad Asad Khan, Co-founder and CEO of TestMu AI: [Web Summit, \"When AI verifies AI\"](https://websummit.com/sessions/lis26/159fe8f9-7900-4f36-93e1-8b794cd11949/when-ai-verifies-ai/) and [Web Summit, \"Mohammad Asad Khan\"](https://websummit.com/attendees/lis26/e5edf282-d6f3-4748-a063-2adab06d7e92/mohammad-asad-khan/) (Co-founder & CEO, TestMu AI), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/159fe8f9-7900-4f36-93e1-8b794cd11949/when-ai-verifies-ai/",
+            "https://websummit.com/attendees/lis26/e5edf282-d6f3-4748-a063-2adab06d7e92/mohammad-asad-khan/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/the-hacking-games.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 14:55 to 15:25, Stage 8 (Cybersecurity Summit):** \"The real threat isn't a nation-state, it's a teenager.\", with John Madelin, Chief Product Officer, and Conor Freeman, Former Black Hat Hacker and Offensive Security Lead, of The Hacking Games: [Web Summit, \"The real threat isn't a nation-state, it's a teenager.\"](https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/topsec-cloud-solutions.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Thursday 12 November, 15:25 to 15:50, Stage 8 (Cybersecurity Summit):** \"The perimeter is dead. So what happens to trust?\", with Niall Mackey, Managing Director of Topsec Cloud Solutions: [Web Summit, \"The perimeter is dead. So what happens to trust?\"](https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/trent-ai.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 11:55 to 12:25, Stage 11 (Policy Summit):** \"Open vs closed: The debate defining the AI era\", with Neil Lawrence, Co-founder and Chief Scientist of Trent AI: [Web Summit, \"Open vs closed: The debate defining the AI era\"](https://websummit.com/sessions/lis26/0a834d30-6d0c-49ed-986c-6e2eed88f8ab/open-vs-closed-the-debate-defining-the-ai-era/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/0a834d30-6d0c-49ed-986c-6e2eed88f8ab/open-vs-closed-the-debate-defining-the-ai-era/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Wednesday 11 November, 15:20 to 15:40, Stage 13 (AI Summit):** \"Viable systems, judgement, and AI safety\", with Neil Lawrence: [Web Summit, \"Viable systems, judgement, and AI safety\"](https://websummit.com/sessions/lis26/3c980247-e062-492c-823a-11d388db1439/viable-systems-judgement-and-ai-safety/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/3c980247-e062-492c-823a-11d388db1439/viable-systems-judgement-and-ai-safety/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/twilio.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner** (Partner track, in telecommunications and IT): [Web Summit, \"Twilio\"](https://websummit.com/appearances/lis26/fc4af8fa-8be5-4d3e-921f-31b3ccdac456/twilio) and [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/fc4af8fa-8be5-4d3e-921f-31b3ccdac456/twilio",
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/vtex.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "About",
+          "text": "Web Summit lists this entry as based in Portugal (1).",
+          "markers": [
+            1
+          ],
+          "sources": [
+            "https://websummit.com/appearances/lis26/9681fb72-1cd3-485c-88f5-e92b7cd7c19e/vtex"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Event partner** (Partner track, in e-commerce and retail): [Web Summit, \"VTEX\"](https://websummit.com/appearances/lis26/9681fb72-1cd3-485c-88f5-e92b7cd7c19e/vtex) and [Web Summit, \"Meet our global partners\"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.",
+          "sources": [
+            "https://websummit.com/appearances/lis26/9681fb72-1cd3-485c-88f5-e92b7cd7c19e/vtex",
+            "https://websummit.com/partners/event-partners-2026/"
+          ]
+        }
+      ],
+      "unmarked": []
+    },
+    {
+      "file": "desks/journalist-vicky/companies/you-com.md",
+      "part": "journalist-ai@PrompTugal.vicky",
+      "claims": [
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Speaker:** Richard Socher, Co-founder and CEO of Recursive and You.com: [Web Summit, \"Meet our 2026 speakers\"](https://websummit.com/speakers/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/speakers/"
+          ]
+        },
+        {
+          "section": "At Web Summit 2026",
+          "text": "**Tuesday 10 November, 10:00 to 10:20, Centre Stage:** \"When AI builds itself\", with Richard Socher: [Web Summit, \"When AI builds itself\"](https://websummit.com/sessions/lis26/e7e83ab8-8381-419f-a688-23025a1c8422/when-ai-builds-itself/), read 8 November 2026.",
+          "sources": [
+            "https://websummit.com/sessions/lis26/e7e83ab8-8381-419f-a688-23025a1c8422/when-ai-builds-itself/"
+          ]
+        }
+      ],
+      "unmarked": []
+    }
+  ]
+}
