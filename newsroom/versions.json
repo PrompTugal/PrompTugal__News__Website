@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1416",
+    "date": "2026-11-13",
+    "what": "the hold is lifted on PrompTugal.news; the \"team paused\" banner comes down",
+    "by": "conductor@web-summit.dinis",
+    "from": "f2687c2a5"
+  },
+  {
     "version": "v0.1.1415",
     "date": "2026-11-13",
     "what": "HOLD: one exception, recovering each session's local data",
