@@ -4,12 +4,12 @@ company: raras-health
 date: 2026-11-09
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Raras Health and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: fix
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Raras Health, a Brazilian company (1), uses AI and genomics to find and diagnose people with rare diseases (1, 2). It says it confirms diagnoses through genomic testing and follows patients through treatment and care (1, 2). Its AI assistant, Rara, talks to families on WhatsApp (1, 2), and it offers an AI tool for physicians, Pascal (2).
+Raras Health uses AI and genomics to find and diagnose people with rare diseases (1, 2). It says it confirms diagnoses through genomic testing and follows patients through treatment and care (1, 2). Its AI assistant, Rara, talks to families on WhatsApp (1, 2), and it offers an AI tool for physicians, Pascal (2).
 
 Sources for this section:
 

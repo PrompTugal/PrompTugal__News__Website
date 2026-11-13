@@ -4,12 +4,12 @@ company: runpod
 date: 2026-11-09
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Runpod and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: fix
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Runpod, a US company (1), runs a cloud for building and running AI on GPUs (1, 2). Developers use it to train, fine-tune and deploy AI models, with GPUs on demand, serverless endpoints and multi-node clusters (1, 2). It says its GPUs are deployed across 31 regions worldwide (2).
+Runpod runs a cloud for building and running AI on GPUs (1, 2). Developers use it to train, fine-tune and deploy AI models, with GPUs on demand, serverless endpoints and multi-node clusters (1, 2). It says its GPUs are deployed across 31 regions worldwide (2).
 
 Sources for this section:
 

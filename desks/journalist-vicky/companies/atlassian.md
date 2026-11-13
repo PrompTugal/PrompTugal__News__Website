@@ -4,7 +4,7 @@ company: atlassian
 date: 2026-11-09
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Atlassian and how it takes part in Web Summit 2026."
-status: fix
+status: ready
 license: "https://creativecommons.org/licenses/by/4.0/"
 ---
 ## About
@@ -18,6 +18,6 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Tuesday 10 November, Centre Stage:** "AI and the human at 300km/h", with Mike Cannon-Brookes, Atlassian's CEO, and James Vowles, moderated by Kirsten Korosec of TechCrunch, as reported by Central do Varejo: [Central do Varejo, "Fim do SaaS por causa da IA é exagero, diz CEO da Atlassian"](https://centraldovarejo.com.br/saas-atlassian-diz-que-a-vantagem-esta-em-pessoas-e-velocidade-e-nao-em-tecnologia-que-outros-nao-tenham/), no date shown, read 13 November 2026.
+- **Tuesday 10 November, Centre Stage:** "AI and the human at 300km/h", with Mike Cannon-Brookes, Atlassian's CEO, and James Vowles, moderated by Kirsten Korosec of TechCrunch, as reported by Central do Varejo: [Central do Varejo, "Fim do SaaS por causa da IA é exagero, diz CEO da Atlassian"](https://centraldovarejo.com.br/saas-atlassian-diz-que-a-vantagem-esta-em-pessoas-e-velocidade-e-nao-em-tecnologia-que-outros-nao-tenham/), 12 November 2026, read 13 November 2026.
 
 This list holds what the sources named above show. Times are as those sources give them; schedules can change.

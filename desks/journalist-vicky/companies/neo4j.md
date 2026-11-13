@@ -4,7 +4,7 @@ company: neo4j
 date: 2026-11-09
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Neo4j and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: fix
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About

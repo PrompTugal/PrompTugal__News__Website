@@ -4,12 +4,12 @@ company: gcore
 date: 2026-11-09
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Gcore and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: fix
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Gcore, based in Luxembourg according to Web Summit (1), runs a global network and cloud for websites, apps and AI (1, 2). It offers content delivery, cloud servers, GPUs for training and running AI models, and protection against attacks such as DDoS (2). It says its network has more than 210 points of presence (1) and that it runs on EU-owned infrastructure (2).
+Gcore runs a global network and cloud for websites, apps and AI (1, 2). It offers content delivery, cloud servers, GPUs for training and running AI models, and protection against attacks such as DDoS (2). It says it runs on EU-owned infrastructure (2).
 
 Sources for this section:
 

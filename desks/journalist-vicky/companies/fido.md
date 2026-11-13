@@ -4,12 +4,12 @@ company: fido
 date: 2026-11-08
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to FIDO and its confirmed place at Web Summit 2026, for its existing company page (batch P1, standing answers 23 and 24)."
-status: fix
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-FIDO, a Brazilian company (1), builds the technology for businesses to offer credit and other financial services under their own brand (1, 2). Its platform connects origination, analysis, the credit decision, the contract and settlement in one place, the company says (2). Its site also lists a peer-to-peer (P2P) product, and counts credit borrowers and registered investors among its figures (2).
+FIDO builds the technology for businesses to offer credit and other financial services under their own brand (1, 2). Its platform connects origination, analysis, the credit decision, the contract and settlement in one place, the company says (2). Its site also lists a peer-to-peer (P2P) product, and counts credit borrowers and registered investors among its figures (2).
 
 Sources for this section:
 

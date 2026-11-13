@@ -4,12 +4,12 @@ company: prohound
 date: 2026-11-09
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to ProHound and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: fix
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-ProHound, a Brazilian company (1), makes modular IoT devices that plug into existing air-conditioning and refrigeration equipment (1, 2). They let businesses monitor and control that equipment remotely, measure its energy use and spot faults before a breakdown, the company says (1, 2). ProHound designs and makes the devices, called SmartModules, itself (2).
+ProHound makes modular IoT devices that plug into existing air-conditioning and refrigeration equipment (1, 2). They let businesses monitor and control that equipment remotely, measure its energy use and spot faults before a breakdown, the company says (1, 2). ProHound designs and makes the devices, called SmartModules, itself (2).
 
 Sources for this section:
 

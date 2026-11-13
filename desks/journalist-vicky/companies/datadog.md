@@ -4,7 +4,7 @@ company: datadog
 date: 2026-11-09
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Datadog and its confirmed participation at Web Summit 2026, for its company page (overnight batch A1)."
-status: fix
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About

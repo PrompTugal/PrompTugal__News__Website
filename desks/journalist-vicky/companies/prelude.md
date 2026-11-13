@@ -4,12 +4,12 @@ company: prelude
 date: 2026-11-09
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Prelude and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: fix
+status: ready
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Prelude, based in France according to Web Summit (1), makes tools that help apps check that new sign-ups are genuine (1, 2). It combines device, network and sign-up signals into one decision, to block fake accounts and SMS fraud, the company says (1, 2).
+Prelude makes tools that help apps check that new sign-ups are genuine (1, 2). It combines device, network and sign-up signals into one decision, to block fake accounts and SMS fraud, the company says (1, 2).
 
 Sources for this section:
 
