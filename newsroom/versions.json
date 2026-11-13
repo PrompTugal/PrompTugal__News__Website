@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1430",
+    "date": "2026-11-13",
+    "what": "request to Dinis's conductor: Web Summit links in the company-page template and the derived company data",
+    "by": "conductor@web-summit.vicky",
+    "from": "bc65bbebc"
+  },
+  {
     "version": "v0.1.1429",
     "date": "2026-11-13",
     "what": "curator@PrompTugal.vicky: README generator reads desks/curator/stories.json; --captures and --check added; S61 marked published",
