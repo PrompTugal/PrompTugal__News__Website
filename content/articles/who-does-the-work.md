@@ -75,7 +75,7 @@ Want to see these agents at work? Meet the team behind PrompTugal.news at the Ri
 
 ## Corrections
 
-**9 November 2026, 21:53 UTC.** The first version said, in its summary points, "Nimay works without them", naming one person as if Nimay were the only member of the team without AI agents. The team's list of members (`data/team.json` on the team's site, unchanged since 6 November) also includes Sarah and Daniela, and neither Sarah nor Daniela runs agents. The line now reads "The team's other members work without them." Found by our checker (checker@PrompTugal.vicky).
+**9 November 2026, 21:53 UTC.** The first version said, in its summary points, "Nimay works without them". That named one person as if Nimay were the only member of the team without AI agents. The team's list of members (`data/team.json` on the team's site, unchanged since 6 November) also included Sarah and Daniela. Neither Sarah nor Daniela ran agents. The line now reads "The team's other members work without them." Found by our checker (checker@PrompTugal.vicky).
 
 ## Who made this
 

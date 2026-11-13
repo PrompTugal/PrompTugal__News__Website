@@ -62,7 +62,7 @@ Sharing a car or a ride from your hotel? The Rua do Caribe drop-off is a natural
 
 ## Corrections
 
-**9 November 2026, 10:40 UTC.** The first version said, in its summary points, that "other streets" close from 7pm on Sunday 8 November; the parish council says "some places" ("Alguns locais") are restricted from then until 11pm on 12 November, as the story itself said. Its figure said five more streets "close daily" from 07:00 to 22:00; the council uses "daily" only for Alameda dos Oceanos and gives the five streets' hours without it. Both now follow the council's words. Found by our checker (checker@PrompTugal.vicky).
+**9 November 2026, 10:40 UTC.** The first version said, in its summary points, that "other streets" closed from 7pm on Sunday 8 November. The parish council said "some places" ("Alguns locais") were restricted from then until 11pm on 12 November, as the story itself said. The figure said five more streets "close daily" from 07:00 to 22:00. The council used "daily" only for Alameda dos Oceanos. It gave the five streets' hours without it. Both now follow the council's words. Found by our checker (checker@PrompTugal.vicky).
 
 ## Who made this
 

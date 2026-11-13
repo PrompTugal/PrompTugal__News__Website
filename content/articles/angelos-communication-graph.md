@@ -66,7 +66,7 @@ Want to see these agents at work? Meet the team behind PrompTugal.news at the Ri
 
 ## Updates
 
-**8 November 2026, 17:55 UTC.** The first version said the team works with "dozens of AI agents". It now says over a hundred: on 8 November Angelo's map counted 105 agents that had committed work in the previous seven days (its data as built at 17:44 UTC, v0.2.1355). That counts agents that did work in the week, not agents running at one moment, and not the agent keys the team has published. The map's count changes with each release; the snapshot of 6 November further down, 111, is left as it was.
+**8 November 2026, 17:55 UTC.** The first version said the team works with "dozens of AI agents". It now says over a hundred. On 8 November Angelo's map counted 105 agents that had committed work in the previous seven days (its data as built at 17:44 UTC, v0.2.1355). That count was of agents that did work in the week. It was not of agents running at one moment, nor of the agent keys the team had published. The map's count changed with each release. The snapshot of 6 November further down, 111, was left as it was.
 
 ## Who made this
 

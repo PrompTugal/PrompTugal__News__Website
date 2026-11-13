@@ -9,7 +9,7 @@ beat: Announcements
 license: https://creativecommons.org/licenses/by/4.0/
 tags: announcements, the summit, Web Summit, survey
 ---
-> **Update, 11 November 2026, 01:12 UTC.** Web Summit has published new figures for this edition. In [a post on 10 November](https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/), before Day 2 was called off, it says tickets sold out at 70,003 attendees from 164 countries. It counts 1,943 investors, a record for the second year running, and says more than 10,000 startups will attend and 3,052 companies from 110 countries will exhibit. These are Web Summit's own figures, not checked independently. The figures below were those expected before the event; the ones in this note are Web Summit's latest, from 10 November.
+> **Update, 11 November 2026, 01:12 UTC.** Web Summit published new figures for this edition. In [a post on 10 November](https://websummit.com/blog/news/web-summit-2026-record-number-of-investors/), before Day 2 was called off, it said tickets sold out at 70,003 attendees from 164 countries. It counted 1,943 investors, a record for the second year running. It said more than 10,000 startups would attend and 3,052 companies from 110 countries would exhibit. These are Web Summit's own figures, not checked independently. The figures below were those expected before the event. The ones in this note are Web Summit's latest, from 10 November.
 
 ## In short
 

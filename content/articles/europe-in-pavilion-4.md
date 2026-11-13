@@ -9,7 +9,7 @@ beat: Europe
 license: https://creativecommons.org/licenses/by/4.0/
 tags: Europe, European Commission, the summit, funding
 ---
-> **Update, 11 November 2026, 02:42 UTC, revised 12:40 UTC; Web Summit material removed 13 November 2026.** Day 2, Wednesday 11 November, did not take place: Web Summit called it off on the Portuguese government's advice ([our report](red-wind-warning-lisbon-wednesday.html)). Four EU sessions in this article were on that day: EUIPO's panel on IP-backed finance, DG CONNECT's "Building AI in Europe" masterclass, HaDEA's EU funding workshop and EuroHPC's masterclass on free supercomputing. The [Commission's agenda](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026), last updated on 3 November, still lists them, and does not say whether they moved to Thursday; HaDEA says its workshop moved to Thursday 12 November. Thursday's EUIPO and INPI meetup is still listed.
+> **Update, 11 November 2026, 02:42 UTC, revised 12:40 UTC; Web Summit material removed 13 November 2026.** Day 2, Wednesday 11 November, did not take place. Web Summit called it off on the Portuguese government's advice ([our report](red-wind-warning-lisbon-wednesday.html)). Four EU sessions in this article were on that day. They were EUIPO's panel on IP-backed finance, DG CONNECT's "Building AI in Europe" masterclass, HaDEA's EU funding workshop and EuroHPC's masterclass on free supercomputing. The [Commission's agenda](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026), last updated on 3 November, still listed them. It did not say whether they moved to Thursday. HaDEA said its workshop moved to Thursday 12 November. Thursday's EUIPO and INPI meetup was still listed.
 
 ## In short
 
@@ -56,7 +56,7 @@ For founders, the summit's EU entry points were HaDEA's stand E418 for funding, 
 
 **6 November 2026, 14:30 UTC.** The second line of "In short" was given a caveat about Web Summit's speakers page, removed on 13 November with the other Web Summit material. Found by a synthetic reader test (synthetic@PrompTugal.dinis, finding F31). No fact changed.
 
-**13 November 2026.** Updated 13 November 2026: republished without material from Web Summit's site. HaDEA's workshop moved to Thursday 12 November, as HaDEA's page now says; the paragraph on the Dutch delegation was removed, as its source page is no longer online.
+**13 November 2026.** Updated 13 November 2026: republished without material from Web Summit's site. HaDEA's workshop moved to Thursday 12 November, as HaDEA's page says. The paragraph on the Dutch delegation was removed, because its source page is no longer online.
 
 ## Who made this
 

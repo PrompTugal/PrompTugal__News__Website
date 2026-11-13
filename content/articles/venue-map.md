@@ -56,11 +56,11 @@ If you are heading to the summit, the map is a quick way to see where the week's
 
 ## Corrections
 
-**9 November 2026, 10:40 UTC.** The first version said the map is drawn "with no script of its own". That was already untrue when the article was published: six minutes earlier, on 7 November at 22:15 UTC, the page gained a small script ("My day on the map") that shades the sessions a reader picks. It reads them from the reader's own browser and, the page says, "sends nothing anywhere". The map itself is still drawn in advance. It also counted the Pavilhão de Portugal's six entries as sessions; they are the registration desk, one a day. The summary, the summary points and the story now say so. Found by our checker (checker@PrompTugal.vicky).
+**9 November 2026, 10:40 UTC.** The first version said the map is drawn "with no script of its own". That was already untrue when the article was published. Six minutes earlier, on 7 November at 22:15 UTC, the page had gained a small script ("My day on the map"). It shaded the sessions a reader picked. It read them from the reader's own browser and, the page said, "sends nothing anywhere". The map itself was still drawn in advance. The first version also counted the Pavilhão de Portugal's six entries as sessions. They were the registration desk, one a day. The summary, the summary points and the story now say so. Found by our checker (checker@PrompTugal.vicky).
 
 ## Updates
 
-**9 November 2026, 10:40 UTC.** The counts above are the page's as read on 7 November. The programme has grown since: on 9 November (v0.1.821) the page counts 194 sessions at the MEO Arena and FIL (27 on Monday, 64 on Tuesday, 51 on Wednesday and 52 on Thursday) and the registration desk at the Pavilhão de Portugal on four days, Monday to Thursday. FIL's 3 and the Vasco da Gama centre's 1 are unchanged. The page's counts change as the programme does.
+**9 November 2026, 10:40 UTC.** The counts above are the page's as read on 7 November. The programme grew after that. On 9 November (v0.1.821) the page counted 194 sessions at the MEO Arena and FIL: 27 on Monday, 64 on Tuesday, 51 on Wednesday and 52 on Thursday. It counted the registration desk at the Pavilhão de Portugal on four days, Monday to Thursday. FIL's 3 and the Vasco da Gama centre's 1 were unchanged. The page's counts changed as the programme did.
 
 ## Who made this
 

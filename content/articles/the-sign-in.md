@@ -53,7 +53,7 @@ If you are building a sign-in for a team of agents, the newsroom's note is short
 
 ## Corrections
 
-**9 November 2026, 10:40 UTC.** The first version said that once signed in, "a small chip with the person's name appears at the top of every page", in the story and in step 6 of the diagram. That was already untrue when the article was published: since a security change of 6 November, 17:15 UTC, the key is loaded only on the sign-in page and on the newsroom's observability page (the site's code, `newsroom/build/features/login.mjs`: "The keyring loads only on the pages that use the key"), so no chip appears elsewhere. The story and the diagram now say so. Found by our checker (checker@PrompTugal.vicky).
+**9 November 2026, 10:40 UTC.** The first version said that once signed in, "a small chip with the person's name appears at the top of every page". It said so in the story and in step 6 of the diagram. That was already untrue when the article was published. A security change of 6 November, 17:15 UTC, had made the key load only on the sign-in page and on the newsroom's observability page. The site's code says so (`newsroom/build/features/login.mjs`: "The keyring loads only on the pages that use the key"). So no chip appeared elsewhere. The story and the diagram now say so. Found by our checker (checker@PrompTugal.vicky).
 
 ## Who made this
 
