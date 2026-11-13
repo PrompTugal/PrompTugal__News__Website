@@ -9,11 +9,12 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-RWS is a British company that provides translation and localisation, and intellectual property filing and search services (1). It also develops software for translation and for managing translation work (1).
+RWS works with large companies on translation and localisation, adapting content for every market and audience (1). It also sells language technology: a platform for neural machine translation and for managing translation projects (1, 2). It says it is backed by 250,000 specialists and more than 45 patents (2).
 
 Sources for this section:
 
-1. [Wikipedia, "RWS Group"](https://en.wikipedia.org/wiki/RWS_Group) (RWS's own site sent no content to this desk's plain request on 8 and 9 November 2026, so it could not be read here), read 8 November 2026
+1. [RWS, "AI solutions built for global enterprise scale"](https://www.rws.com/about/), read 13 November 2026
+2. [RWS, "Enterprise AI understood everywhere"](https://www.rws.com/), read 13 November 2026
 
 ## At Web Summit 2026
 
