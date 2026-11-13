@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-itpro-pagerduty-paige",
+  "type": "evidence",
+  "source_url": "https://www.itpro.com/business/data-and-insights/this-is-a-massive-change-pagerduty-wants-to-supercharge-incident-response-with-a-new-sre-agent-and-command-center",
+  "beat": "AI and robotics",
+  "group": "AI, already published (S60)",
+  "names": [
+    {
+      "as_listed": "PagerDuty",
+      "ref": "organisation:pagerduty"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-12-1540.json",
+  "run": "2026-11-12T15:40Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-12-1540.json"
+    ]
+  }
+}

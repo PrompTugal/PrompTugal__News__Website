@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-tek-road-2-winner",
+  "type": "evidence",
+  "source_url": "https://tek.sapo.pt/noticias/negocios/artigos/humanos-e-a-startup-vencedora-do-road-2-web-summit-2026-e-defende-mais-aposta-na-engenharia-e-menos-em-fundadores-pavoes/",
+  "beat": "Portugal",
+  "group": "Portugal",
+  "names": [
+    {
+      "as_listed": "Humanos",
+      "ref": "organisation:humanos"
+    },
+    {
+      "as_listed": "eDynamics",
+      "ref": "organisation:edynamics"
+    },
+    {
+      "as_listed": "Startup Portugal",
+      "ref": "company:startup-portugal"
+    },
+    {
+      "as_listed": "Galp",
+      "ref": "organisation:galp"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-12-1540.json",
+  "run": "2026-11-12T15:40Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-12-1540.json"
+    ]
+  }
+}

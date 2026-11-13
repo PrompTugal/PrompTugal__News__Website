@@ -1749,7 +1749,7 @@
       {
         "as_listed": "Startup Portugal",
         "ref": "company:startup-portugal",
-        "count": 4
+        "count": 5
       },
       {
         "as_listed": "You.com",
@@ -1801,6 +1801,11 @@
       {
         "as_listed": "Anchorage Digital",
         "ref": "organisation:anchorage-digital",
+        "count": 1
+      },
+      {
+        "as_listed": "Anthemis",
+        "ref": "organisation:anthemis",
         "count": 1
       },
       {
@@ -1911,7 +1916,7 @@
       {
         "as_listed": "Galp",
         "ref": "organisation:galp",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Go Coimbra",
@@ -1937,6 +1942,11 @@
         "as_listed": "HaDEA (European Health and Digital Executive Agency)",
         "ref": "organisation:hadea",
         "count": 1
+      },
+      {
+        "as_listed": "Humanos",
+        "ref": "organisation:humanos",
+        "count": 2
       },
       {
         "as_listed": "IPMA",
@@ -2056,7 +2066,7 @@
       {
         "as_listed": "PagerDuty",
         "ref": "organisation:pagerduty",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Pep4Fish",
@@ -2111,6 +2121,11 @@
       {
         "as_listed": "Sebrae Startups",
         "ref": "organisation:sebrae-startups",
+        "count": 1
+      },
+      {
+        "as_listed": "Sifted",
+        "ref": "organisation:sifted",
         "count": 1
       },
       {
@@ -2206,6 +2221,11 @@
       {
         "as_listed": "Zalando",
         "ref": "organisation:zalando",
+        "count": 1
+      },
+      {
+        "as_listed": "eDynamics",
+        "ref": "organisation:edynamics",
         "count": 1
       },
       {

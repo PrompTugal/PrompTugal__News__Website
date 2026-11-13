@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-psn-humanos-seed",
+  "type": "evidence",
+  "source_url": "https://portugalstartupnews.com/2026/09/28/humanos-raises-3-2m-to-build-risk-infrastructure-for-ai-agents/",
+  "beat": "Portugal",
+  "group": "Portugal",
+  "names": [
+    {
+      "as_listed": "Humanos",
+      "ref": "organisation:humanos"
+    },
+    {
+      "as_listed": "Anthemis",
+      "ref": "organisation:anthemis"
+    },
+    {
+      "as_listed": "Sifted",
+      "ref": "organisation:sifted"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-12-1540.json",
+  "run": "2026-11-12T15:40Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-12-1540.json"
+    ]
+  }
+}
