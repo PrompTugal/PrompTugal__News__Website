@@ -4,7 +4,7 @@ company: easydmarc
 date: 2026-11-08
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to EasyDMARC and its confirmed place at Web Summit 2026, for its existing company page (batch E1, standing answers 23 and 24)."
-status: ready
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
@@ -17,7 +17,6 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Tuesday 10 November, 10:00 to 11:00, Stage 6 (PITCH):** "PITCH group round 1", where Web Summit lists Gerasim Hovhannisyan, Co-founder and CEO of EasyDMARC, among the speakers; the page does not say his role in the round: [Web Summit, "PITCH group round 1"](https://websummit.com/sessions/lis26/c3703a46-e6a5-4106-a8ec-0c7777160569/pitch-group-round-1/), read 8 November 2026.
-- **Thursday 12 November, 15:25 to 15:50, Stage 8 (Cybersecurity Summit):** "The perimeter is dead. So what happens to trust?", with Gerasim Hovhannisyan: [Web Summit, "The perimeter is dead. So what happens to trust?"](https://websummit.com/sessions/lis26/d0816a68-eabc-4539-89dc-483c4eed929a/the-perimeter-is-dead-so-what-happens-to-trust/), read 8 November 2026.
+- **Thursday 12 November, 15:35 to 16:00 WET, Stage 8:** "The Perimeter Is Dead. So What Happens to Trust?", with CEO Gerasim Hovhannisyan, according to EasyDMARC's own release: [EasyDMARC, "EasyDMARC Releases 2026 DNS Health & Resilience Report, Revealing Significant Gaps in DNS Reliability and Security"](https://easydmarc.com/blog/easydmarc-releases-2026-dns-health-resilience-report-revealing-significant-gaps-in-dns-reliability-and-security/), 4 November 2026, read 13 November 2026.
 
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
+This list holds what the sources named above show. Times are as those sources give them; schedules can change.

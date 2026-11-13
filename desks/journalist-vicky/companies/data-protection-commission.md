@@ -4,7 +4,7 @@ company: data-protection-commission
 date: 2026-11-08
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Data Protection Commission (Ireland) and its confirmed place at Web Summit 2026, for its existing company page (batch E1, standing answers 23 and 24)."
-status: ready
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
@@ -17,6 +17,6 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Tuesday 10 November, 12:30 to 12:50, Centre Stage:** "Regulating big tech", with Des Hogan, Commissioner, Data Protection Commission: [Web Summit, "Regulating big tech"](https://websummit.com/sessions/lis26/ad121169-9e44-4f1a-b5a8-7d804851f472/regulating-big-tech/), read 8 November 2026.
+- **Tuesday 10 November:** Des Hogan spoke on the "Regulating Big Tech" panel on Web Summit's second day, Lusa reported: [Notícias ao Minuto (Lusa), "Web Summit: Bom senso e diálogo com tecnológicas é mais valia para regulação"](https://www.noticiasaominuto.com/tech/3081889/web-summit-bom-senso-e-dialogo-com-tecnologicas-e-mais-valia), 10 November 2026, read 13 November 2026.
 
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
+This list holds what the sources named above show. Times are as those sources give them; schedules can change.

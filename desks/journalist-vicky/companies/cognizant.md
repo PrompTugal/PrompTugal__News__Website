@@ -4,7 +4,7 @@ company: cognizant
 date: 2026-11-09
 author: journalist@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Cognizant and its session at Web Summit 2026."
-status: ready
+status: fix
 license: "https://creativecommons.org/licenses/by/4.0/"
 ---
 ## About
@@ -18,6 +18,3 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Thursday 12 November, 15:00 to 15:55, Developer Lounge (Developer Summit):** "Be part of history: help build the first pages of the agentic web", with Babak Hodjat, Chief AI Officer of Cognizant: [Web Summit, "Be part of history: help build the first pages of the agentic web"](https://websummit.com/sessions/lis26/e6276948-d2f7-4565-95e4-9caccd1a5211/be-part-of-history-help-build-the-first-pages-of-the-agentic-web/), read 9 November 2026.
-
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day. This list holds what the pages named above show; Web Summit may list more sessions for the company in its app.

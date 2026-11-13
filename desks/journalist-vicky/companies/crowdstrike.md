@@ -4,7 +4,7 @@ company: crowdstrike
 date: 2026-11-09
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to CrowdStrike and its confirmed participation at Web Summit 2026, for its company page (overnight batch S2)."
-status: ready
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
@@ -17,7 +17,6 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Wednesday 11 November, 14:25 to 14:45, Centre Stage:** "The best offense is a machine-speed defence", with George Kurtz, Co-founder and CEO of CrowdStrike: [Web Summit, "The best offense is a machine-speed defence"](https://websummit.com/sessions/lis26/6f0e0dd5-bb66-4e98-8edd-46ae99310f08/the-best-offense-is-a-machine-speed-defence/), read 9 November 2026.
-- **Thursday 12 November, 10:05 to 10:25, Stage 8 (Cybersecurity Summit):** "AI vs. AI: The battle for the cyber advantage", with Zeki Turedi, Field CTO for Europe, Middle East and Africa at CrowdStrike: [Web Summit, "AI vs. AI: The battle for the cyber advantage"](https://websummit.com/sessions/lis26/26295ff3-84c1-4329-84cb-7ca7aaa18fac/ai-vs-ai-the-battle-for-the-cyber-advantage/), read 9 November 2026.
+- **Speaker:** George Kurtz, co-founder and CEO of CrowdStrike, is named as a confirmed speaker in a preview of Web Summit 2026: [Link to Leaders, "Da inteligência artificial à robótica: os grandes nomes que vão marcar a Web Summit 2026 em Lisboa"](https://linktoleaders.com/da-inteligencia-artificial-a-robotica-os-grandes-nomes-que-vao-marcar-o-web-summit-2026-em-lisboa/), no date shown, read 13 November 2026.
 
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
+This list holds what the sources named above show. Times are as those sources give them; schedules can change.

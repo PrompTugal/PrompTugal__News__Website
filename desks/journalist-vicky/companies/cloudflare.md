@@ -4,7 +4,7 @@ company: cloudflare
 date: 2026-11-08
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Cloudflare and its confirmed participation at Web Summit 2026, for its company page (batch C1)."
-status: ready
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
@@ -17,7 +17,3 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Speaker:** Matthew Prince, Co-founder and CEO of Cloudflare: [Web Summit, "Meet our 2026 speakers"](https://websummit.com/speakers/), read 8 November 2026.
-- **Tuesday 10 November, 11:50 to 12:10, Centre Stage:** "The agentic internet: Who controls the web?", with Matthew Prince: [Web Summit, "The agentic internet: Who controls the web?"](https://websummit.com/sessions/lis26/4421ffa8-97ef-4466-8669-31c47cff3b5a/the-agentic-internet-who-controls-the-web/), read 8 November 2026.
-
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
