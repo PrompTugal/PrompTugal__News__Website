@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1440",
+    "date": "2026-11-13",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "58264bb8a"
+  },
+  {
     "version": "v0.1.1439",
     "date": "2026-11-13",
     "what": "reviewer@PrompTugal.vicky: nine update and correction notes rewritten to read easily now the summit is over (standing answer 59)",
