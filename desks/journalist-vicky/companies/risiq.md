@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-Risiq is based in Germany, according to Web Summit (1). Its software, Ribeca, helps banks measure, manage and report environmental, social and governance (ESG) risks under supervisory rules such as MaRisk, it says (1, 2). It covers risk inventories, assessments, stress tests and reporting (2).
+Risiq's software, Ribeca, helps banks measure, manage and report environmental, social and governance (ESG) risks under supervisory rules such as MaRisk, it says (1, 2). It covers risk inventories, assessments, stress tests and reporting (2).
 
 Sources for this section:
 
