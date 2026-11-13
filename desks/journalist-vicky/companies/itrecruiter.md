@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-iTRecruiter recruits technology talent, offering outsourcing and headhunting to companies (1). It is one of the companies of iTRTech Group, which Web Summit now lists in its place: a group founded in Portugal in 2021 that combines recruitment, technology services and AI, it says, and works in Portugal and Brazil (1).
+iTRecruiter recruits technology talent, offering outsourcing and headhunting to companies (1). It was the first company of iTRTech Group, founded in 2021; the group combines talent, technology and AI and works in Portugal and Brazil, it says (1).
 
 Sources for this section:
 
