@@ -1,0 +1,178 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-13T16:35Z",
+  "for": "conductor@web-summit.vicky; newsroom@web-summit.dinis",
+  "kind": "evidence-marking",
+  "task": "people/vicky/tasks/2026-11-13-curator-evidence.md (standing answers 48 and 49, Vicky 11 Nov 2026)",
+  "covers": "The 31 evidence captures in data/evidence/ whose source is a Web Summit page. This file adds no capture and changes no other file; it marks status only.",
+  "rules": "RULES-11NOV: no machine reads of websummit.com were made. Nothing deleted.",
+  "captures": [],
+  "counts": {
+    "re_cited": 0,
+    "marked_withdrawn": 17,
+    "left_with_withdrawn_stories": 13,
+    "left_person_browser_read": 1,
+    "total": 31
+  },
+  "re_cited": [],
+  "marked_withdrawn": [
+    {
+      "id": "r1255-01",
+      "story": "S1",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "r1255-02",
+      "story": "S1",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "r1255-03",
+      "story": "S1",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "r1255-04",
+      "story": "S1",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "r1255-05",
+      "story": "S1",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "r1255-06",
+      "story": null,
+      "why": "No story rests on it; marked withdrawn with the rest."
+    },
+    {
+      "id": "r1255-07",
+      "story": "S5",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "r1255-08",
+      "story": "S1",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "r1255-09",
+      "story": "S5",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "r1255-10",
+      "story": null,
+      "why": "No story rests on it; marked withdrawn with the rest."
+    },
+    {
+      "id": "r1255-11",
+      "story": "S5",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "r1546-03",
+      "story": "S6",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "v-session-gravitee-press",
+      "story": "S40",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "x-websummit-future-of-ai",
+      "story": "S42",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "x-ws-event-update-refunds",
+      "story": "S45",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "x-ws-speakers-manus",
+      "story": "S48",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    },
+    {
+      "id": "x-ws-terms",
+      "story": "S45",
+      "why": "No other cited source could be read for it: the curator does not open or check sources, and the other pages the story's article cites were not read for this fact, so re-citing would invent provenance. Marked withdrawn here (nothing deleted); a reader (the researcher or the fact-checker) can re-cite it to the story's own sources and the mark lifts."
+    }
+  ],
+  "left_with_withdrawn_stories": [
+    {
+      "id": "v-session-ceo-press-conference",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "v-session-discord-lisbon-press",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "v-session-founders-in-portugal-meetup",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "v-session-road-2-web-summit-winner-press",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "v-session-spotlight-paraiba-press",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "v-session-startup-portugal-guide",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "v-session-unicorn-factory-scaleups-press",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "v-websummit-featured-startups-p1",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "v-websummit-speakers-by-theme",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "v-websummit-speakers",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "x-ws-breakout-startups",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "x-ws-event-update",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    },
+    {
+      "id": "x-ws-final-figures",
+      "why": "left: its story is withdrawn (standing answer 47); capture unchanged"
+    }
+  ],
+  "left_person_browser_read": [
+    {
+      "id": "x-web-summit-thursday-facts",
+      "story": "S58",
+      "why": "Vicky's own browser read of 11 Nov 20:15 UTC, which RULES-11NOV rule 4 allows; not a machine read; left as it is."
+    }
+  ],
+  "story_candidates": [],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "all",
+      "priority": 3,
+      "gap": "Re-cite the 17 captures marked withdrawn to the live articles' other sources (company, press, official body) with a read time.",
+      "why_not_a_duplicate": "Evidence only; no new story."
+    }
+  ],
+  "note_for_dev": "data/schemas/evidence.schema.json has no withdrawn field (additionalProperties false), so data/evidence/ does not show this mark; dev can read this file's marked_withdrawn list if the mark should appear on the evidence pages.",
+  "urgent": "None"
+}
