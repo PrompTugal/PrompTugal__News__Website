@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1417",
+    "date": "2026-11-13",
+    "what": "dev@PrompTugal.vicky: ws-only-claims.json, the company claims whose only source is websummit.com, in three parts",
+    "by": "dev@PrompTugal.vicky",
+    "from": "6dc76824a"
+  },
+  {
     "version": "v0.1.1416",
     "date": "2026-11-13",
     "what": "the hold is lifted on PrompTugal.news; the \"team paused\" banner comes down",
