@@ -5,7 +5,7 @@
   "title": "Humanos wins Road 2 Web Summit's top prize, 15,000 euros",
   "beat": "Portugal",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:v-tek-road-2-winner",
     "evidence:v-psn-humanos-seed"
@@ -16,23 +16,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-12-1540.json"
+      "desks/curator/2026-11-12-1540.json",
+      "desks/journalist-vicky/drafts/S61-humanos-road-2-web-summit-winner.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-portugal@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S61-humanos-road-2-web-summit-winner.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-12T15:40Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-12-1540.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-13",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S61-humanos-road-2-web-summit-winner.md"
     }
   ]
 }
