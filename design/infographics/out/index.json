@@ -3857,6 +3857,62 @@
     "source": "desks/journalist-vicky/drafts/img/s62-card-2026-11-13.svg (redrawn by the reviewer from journalist-ai@PrompTugal.vicky's chart); rendered with Chromium",
     "checked": "every figure against the article and the BBC and Ipsos report, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "women-learning-and-building-ai-in-portugal",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "women-learning-and-building-ai-in-portugal--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-13",
+    "source": "desks/journalist-vicky/drafts/img/s63-thumb-2026-11-13.svg (drawn by the reviewer); rendered with Chromium",
+    "checked": "every figure against the article and PME Magazine, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "women-learning-and-building-ai-in-portugal",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "women-learning-and-building-ai-in-portugal--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-13",
+    "source": "desks/journalist-vicky/drafts/img/s63-thumb-2026-11-13.svg (drawn by the reviewer); rendered with Chromium",
+    "checked": "every figure against the article and PME Magazine, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "women-learning-and-building-ai-in-portugal",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "women-learning-and-building-ai-in-portugal--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-13",
+    "source": "desks/journalist-vicky/drafts/img/s63-card-2026-11-13.svg (redrawn by the reviewer from journalist-ai@PrompTugal.vicky's chart); rendered with Chromium",
+    "checked": "every figure against the article and PME Magazine, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "women-learning-and-building-ai-in-portugal",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "women-learning-and-building-ai-in-portugal--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-13",
+    "source": "desks/journalist-vicky/drafts/img/s63-card-2026-11-13.svg (redrawn by the reviewer from journalist-ai@PrompTugal.vicky's chart); rendered with Chromium",
+    "checked": "every figure against the article and PME Magazine, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }

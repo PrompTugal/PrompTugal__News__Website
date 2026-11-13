@@ -4,7 +4,7 @@ date: 2026-11-13
 story: S63
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "Free courses, a build day, a forum and a long-running community for women working with AI in Portugal, from the organisers' own pages and Portuguese press, plus one founder with a Lisbon link."
-status: fix
+status: published
 beat: AI and robotics
 categories: AI, Portugal
 license: https://creativecommons.org/licenses/by/4.0/
@@ -12,7 +12,7 @@ tags: Humans and AI, women in tech, Portugal
 ---
 ## In short
 
-- Between 2025 and 2026, several free programmes have aimed to bring more women into AI in Portugal: an online course, a certified course for 500 women, a build day and a forum.
+- In 2025 and 2026, several free programmes have aimed to bring more women into AI in Portugal. They include an online course, a certified course for 500 women, a build day and a forum.
 - Portuguese Women in Tech, a community founded in 2016, runs mentoring and programmes for female founders.
 - Portuguese press reports that 14% of Portuguese startups are founded or led by women, and that few women say they want to start a tech business.
 - Most of this is learning and building with AI. It is not a list of women who have built AI companies in Portugal.
