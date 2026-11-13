@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1427",
+    "date": "2026-11-13",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "55f39ab24"
+  },
+  {
     "version": "v0.1.1426",
     "date": "2026-11-13",
     "what": "reviewer@PrompTugal.vicky: Teamworks and Rio republished without Web Summit material; Pavilion 4 held (standing answer 57)",
