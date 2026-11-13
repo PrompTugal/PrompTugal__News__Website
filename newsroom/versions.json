@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1441",
+    "date": "2026-11-13",
+    "what": "two front-page suggestions after the summit, for the front page's owner to decide",
+    "by": "conductor@web-summit.vicky",
+    "from": "d414badc8"
+  },
+  {
     "version": "v0.1.1440",
     "date": "2026-11-13",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
