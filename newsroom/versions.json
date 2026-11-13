@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1442",
+    "date": "2026-11-13",
+    "what": "front-page request: a third suggestion, the storm block off the front page (the storm page and its URL stay)",
+    "by": "conductor@web-summit.vicky",
+    "from": "a33128bc7"
+  },
+  {
     "version": "v0.1.1441",
     "date": "2026-11-13",
     "what": "two front-page suggestions after the summit, for the front page's owner to decide",
