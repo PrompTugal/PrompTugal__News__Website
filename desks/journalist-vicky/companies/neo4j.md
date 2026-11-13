@@ -14,9 +14,3 @@ Neo4j makes graph database software, which stores and queries connected data (1)
 Sources for this section:
 
 1. [Neo4j, "Neo4j Graph Intelligence Platform"](https://neo4j.com/), read 9 November 2026
-
-## At Web Summit 2026
-
-- **Wednesday 11 November, 12:30 to 12:50, Stage 2: Media only.** "Open or Closed AI models: which types of future do they represent? (Press conference)", with Philip Rathle, held in the Media Village: [Web Summit, "Open or Closed AI models: which types of future do they represent? (Press conference)"](https://websummit.com/sessions/lis26/2465ed74-ae9c-4705-93dc-54bb7f8ae26d/open-or-closed-ai-models-which-types-of-future-do-they-represent-press-conference/), read 9 November 2026.
-
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
