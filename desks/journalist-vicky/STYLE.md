@@ -48,6 +48,16 @@ Vicky, 6 November 2026; the cover rule, 7 November 2026.
 - Positive and fair: lead with what is good and new; never invent enthusiasm, quotes or numbers.
 - End the story with one line on who could connect with whom at the summit, or where to find them, as a suggestion.
 
+## Write like a person (Vicky, 13 Nov 2026)
+
+- Say each fact once. "In short" sums up; "The story" does not repeat it. No closing paragraph that restates the piece.
+- Short sentences, one idea each. Split long ones. No semicolons.
+- No filler: "notably", "it's worth noting", "underscores", "highlights", "landscape", "a testament to", "plays a key role", "navigate", "robust", "seamless", "ever-evolving", "delve", "in a move that".
+- No sentences ending in a trailing "-ing" clause (", highlighting ...").
+- No lists of three just for rhythm. No stacked adjectives.
+- Names, numbers and dates instead of adjectives.
+- Caveats once, in "What this does not claim", not repeated through the text.
+
 ## Safety
 - Nothing about a person beyond what is public and professional. No contact details, ever.
 - No claims for RiskMandate beyond riskmandate.ai and the team's site. Nothing private from the team.
