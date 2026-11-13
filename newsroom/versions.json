@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1431",
+    "date": "2026-11-13",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "77beb6065"
+  },
+  {
     "version": "v0.1.1430",
     "date": "2026-11-13",
     "what": "request to Dinis's conductor: Web Summit links in the company-page template and the derived company data",
