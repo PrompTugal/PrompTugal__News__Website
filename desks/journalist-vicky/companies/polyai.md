@@ -4,7 +4,7 @@ company: polyai
 date: 2026-11-09
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to PolyAI and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: ready
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
@@ -17,6 +17,4 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Wednesday 11 November, 15:00 to 15:20, Stage 13 (AI Summit):** "Coaching an AI agent like human talent", with Nikola Mrkšić, Co-founder and CEO of PolyAI: [Web Summit, "Coaching an AI agent like human talent"](https://websummit.com/sessions/lis26/8c1c7b41-7711-424d-9214-20d2d29d32f0/coaching-an-ai-agent-like-human-talent/), read 9 November 2026.
-
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
+No detail of its participation is given here: the only source found was Web Summit's own listing, which this newsroom no longer relies on alone.

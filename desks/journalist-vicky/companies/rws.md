@@ -17,7 +17,4 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Tuesday 10 November, 10:50 to 11:10, Stage 7 (Corporate Innovation Summit):** "Your AI agent just got a passport", with Benjamin Faes, CEO of RWS Group: [Web Summit, "Your AI agent just got a passport"](https://websummit.com/sessions/lis26/9c3c972f-ab62-4fe3-ab66-9e98d3017168/your-ai-agent-just-got-a-passport/), read 8 November 2026.
-- **Tuesday 10 November, 11:30 to 11:50, Stage 2: Media only.** "Press conference: RWS launches the world's first culturally intelligent content platform", with Benjamin Faes: [Web Summit, "Press conference: RWS launches the world's first culturally intelligent content platform"](https://websummit.com/sessions/lis26/c1fc9b24-b85a-4ca3-8e14-11c3454a34a2/press-conference-rws-launches-the-world-s-first-culturally-intelligent-content-platform/), read 8 November 2026.
-
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
+- **Tuesday 10 November, 11.00, Corporate Innovation Stage:** the keynote "Your AI Agent Just Got a Passport", with Benjamin Faes, CEO of RWS: [RWS, "Meet RWS at Web Summit Lisbon, 9-12 November 2026"](https://www.rws.com/about/events/2026/web-summit-2026/), read 13 November 2026.

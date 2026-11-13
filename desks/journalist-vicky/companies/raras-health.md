@@ -4,7 +4,7 @@ company: raras-health
 date: 2026-11-09
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Raras Health and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: ready
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
@@ -18,6 +18,4 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Startup, GROWTH track**, in healthtech and wellness: [Web Summit, "Raras Health"](https://websummit.com/appearances/lis26/71dafd73-9686-4b97-8d4f-db80e085725a/raras-health), read 9 November 2026.
-
-Web Summit's page gives no session or exhibition day for it.
+No detail of its participation is given here: the only source found was Web Summit's own listing, which this newsroom no longer relies on alone.

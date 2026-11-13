@@ -4,7 +4,7 @@ company: the-hacking-games
 date: 2026-11-08
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to The Hacking Games and its confirmed participation at Web Summit 2026, for its company page (batch C2)."
-status: ready
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
@@ -17,6 +17,4 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Thursday 12 November, 14:55 to 15:25, Stage 8 (Cybersecurity Summit):** "The real threat isn't a nation-state, it's a teenager.", with John Madelin, Chief Product Officer, and Conor Freeman, Former Black Hat Hacker and Offensive Security Lead, of The Hacking Games: [Web Summit, "The real threat isn't a nation-state, it's a teenager."](https://websummit.com/sessions/lis26/e70c32c5-0639-4bde-b105-f77b39b49419/the-real-threat-isn-t-a-nation-state-it-s-a-teenager/), read 8 November 2026.
-
-Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
+No detail of its participation is given here: the only source found was Web Summit's own listing, which this newsroom no longer relies on alone.

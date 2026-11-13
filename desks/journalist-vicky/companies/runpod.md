@@ -4,7 +4,7 @@ company: runpod
 date: 2026-11-09
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to Runpod and its confirmed place at Web Summit 2026, for its existing company page (overnight batch, 9 November; standing answers 23 and 24)."
-status: ready
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
@@ -18,6 +18,4 @@ Sources for this section:
 
 ## At Web Summit 2026
 
-- **Event partner** (Partner track, in AI and machine learning): [Web Summit, "Runpod"](https://websummit.com/appearances/lis26/9a5f1290-6af8-4650-b689-a4dcae084ec2/runpod) and [Web Summit, "Meet our global partners"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.
-
-Web Summit's pages give no session or stand for it.
+No detail of its participation is given here: the only source found was Web Summit's own listing, which this newsroom no longer relies on alone.
