@@ -5,7 +5,7 @@
   "title": "Where women in Portugal can learn and build with AI",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/journalist-vicky/drafts/s63-women-learning-and-building-ai-in-portugal.md"
@@ -14,7 +14,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/journalist-vicky/drafts/s63-women-learning-and-building-ai-in-portugal.md",
-      "desks/reviewer-vicky/reviews/S63.md"
+      "desks/reviewer-vicky/reviews/S63.md",
+      "content/articles/women-learning-and-building-ai-in-portugal.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -25,13 +26,17 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S63.md",
-      "verdict": "Fix first",
+      "verdict": "Ready",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-13"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/women-learning-and-building-ai-in-portugal.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "draft",
@@ -40,10 +45,16 @@
       "file": "desks/journalist-vicky/drafts/s63-women-learning-and-building-ai-in-portugal.md"
     },
     {
-      "column": "review",
+      "column": "ready",
       "at": "2026-11-13",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S63.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-13",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/women-learning-and-building-ai-in-portugal.md"
     }
   ]
 }
