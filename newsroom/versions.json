@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1428",
+    "date": "2026-11-13",
+    "what": "reviewer@PrompTugal.vicky: RWS released (About on rws.com); dev's link removal spot-checked; iTRecruiter's group sentence corrected to its site",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "e3ed252e0"
+  },
+  {
     "version": "v0.1.1427",
     "date": "2026-11-13",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
