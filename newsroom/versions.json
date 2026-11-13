@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1422",
+    "date": "2026-11-13",
+    "what": "reviewer@PrompTugal.vicky: takedown step 2 reviewed: 98 company files released, 3 in fix (Akamai, Persona, RWS)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c79514b63"
+  },
+  {
     "version": "v0.1.1421",
     "date": "2026-11-13",
     "what": "reviewer@PrompTugal.vicky: Risiq: cut the one claim still resting only on Web Summit (its location), takedown step 2",
