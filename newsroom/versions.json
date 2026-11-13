@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1421",
+    "date": "2026-11-13",
+    "what": "reviewer@PrompTugal.vicky: Risiq: cut the one claim still resting only on Web Summit (its location), takedown step 2",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "da332f53a"
+  },
+  {
     "version": "v0.1.1420",
     "date": "2026-11-13",
     "what": "journalist-europe@PrompTugal.vicky: cut the three Media only lines (neo, neo4j, linux-foundation-aaif)",
