@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S63",
+  "type": "story",
+  "title": "Where women in Portugal can learn and build with AI",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [],
+  "desk_files": [
+    "desks/journalist-vicky/drafts/s63-women-learning-and-building-ai-in-portugal.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/journalist-vicky/drafts/s63-women-learning-and-building-ai-in-portugal.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/s63-women-learning-and-building-ai-in-portugal.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-13",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/s63-women-learning-and-building-ai-in-portugal.md"
+    }
+  ]
+}
