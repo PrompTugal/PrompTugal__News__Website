@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1434",
+    "date": "2026-11-13",
+    "what": "journalist-ai@PrompTugal.vicky: Fix S63 for the reviewer's six points (planned not held, no honorific, Defined.ai and APDC wording, PWIT not equated)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "db96ca42c"
+  },
+  {
     "version": "v0.1.1433",
     "date": "2026-11-13",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
