@@ -5,7 +5,7 @@
   "title": "Why people trust AI summaries more than they check them",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/journalist-vicky/drafts/s62-why-people-trust-ai-summaries.md"
@@ -13,7 +13,9 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/journalist-vicky/drafts/s62-why-people-trust-ai-summaries.md"
+      "desks/journalist-vicky/drafts/s62-why-people-trust-ai-summaries.md",
+      "desks/reviewer-vicky/reviews/S62.md",
+      "content/articles/why-people-trust-ai-summaries.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -21,15 +23,38 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s62-why-people-trust-ai-summaries.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S62.md",
+      "verdict": "Ready",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-13"
+    }
+  ],
+  "article": {
+    "path": "content/articles/why-people-trust-ai-summaries.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "draft",
       "at": "2026-11-13",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/s62-why-people-trust-ai-summaries.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-13",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S62.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-13",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/why-people-trust-ai-summaries.md"
     }
   ]
 }
