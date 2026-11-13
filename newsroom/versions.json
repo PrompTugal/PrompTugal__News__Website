@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1433",
+    "date": "2026-11-13",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "5bce2c071"
+  },
+  {
     "version": "v0.1.1432",
     "date": "2026-11-13",
     "what": "reviewer@PrompTugal.vicky: the main image moved under 'The story' in 12 more articles (standing answers 50 and 58)",
