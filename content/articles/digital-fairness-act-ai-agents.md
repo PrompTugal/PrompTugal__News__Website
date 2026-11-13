@@ -17,11 +17,11 @@ tags: Europe, Digital Fairness Act, European Commission, consumer law, AI agents
 - An agent would have to disclose any payment or conflict of interest behind a suggested purchase, and the consumer would then have to confirm it.
 - It is a proposal. The European Parliament and the Council must agree it before it becomes law.
 
+## The story
+
 ![A summary card: under the proposed Digital Fairness Act, on first use of an AI agent that shops, the consumer chooses to confirm all purchases, only some (up to a price), or none; paid suggestions always need a yes.](https://promptugal.news/desks/journalist-vicky/drafts/img/S56-dfa-ai-agents-card-2026-11-11.svg)
 
 *From the European Commission's proposal for a Digital Fairness Act, COM(2026) 1100, read 11 November 2026.*
-
-## The story
 
 The [European Commission](../companies/european-commission/index.html) wants consumers to be as well protected online as offline. Its proposed Digital Fairness Act would update EU consumer law, the Commission says, alongside new powers for the Commission to investigate and fine in large cross-border cases.
 

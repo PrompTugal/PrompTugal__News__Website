@@ -21,11 +21,11 @@ image_alt: "Glovo's restaurant partners and GetVocal's WhatsApp agents, in GetVo
 - Every figure here is GetVocal's own. Glovo has published no account of its own that we found.
 - GetVocal AI is a startup on Web Summit's featured list. We know of no Glovo presence at the summit.
 
+## The story
+
 ![Glovo's restaurant partners and GetVocal's WhatsApp agents, in GetVocal's account: check-in before opening, uptime checks through the day, onboarding new restaurants, checking product photos](https://promptugal.news/desks/journalist-vicky/drafts/img/S38-cover-card-2026-11-10.svg)
 
 *The four jobs GetVocal says its agents do for Glovo. Source: GetVocal's case study, read 10 November 2026.*
-
-## The story
 
 A delivery app only works if the restaurants in it are open and taking orders. Glovo, part of the Delivery Hero group, has tens of thousands of restaurant partners, GetVocal says. Keeping them all ready is a daily job.
 

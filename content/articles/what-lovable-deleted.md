@@ -21,11 +21,11 @@ image_alt: "Three changes Lovable describes in its own post: almost all agent co
 - It built sandboxes that save and restore a whole running computer, so an agent can try several approaches from the same starting point.
 - Osika was on Web Summit's Centre Stage on Monday 9 November, in a session called "The future of AI".
 
+## The story
+
 ![Three changes Lovable describes in its own post: almost all agent code deleted, knowledge files instead of fine-tuning, and saving and restoring a running computer](https://promptugal.news/desks/journalist-vicky/drafts/img/S42-cover-card-2026-11-10.svg)
 
 *The three changes Osika describes. Source: Lovable's technical blog, published 4 November 2026, read 10 November 2026.*
-
-## The story
 
 Lovable lets people who cannot code describe an app in a chat and see it built. On its newly launched technical blog, Anton Osika writes about what the team kept and what it threw away. By Lovable's own figures, users have created more than 70 million projects, and its codebase has had more than 100,000 pull requests.
 

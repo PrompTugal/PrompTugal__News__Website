@@ -21,11 +21,11 @@ image_alt: "EU election guidelines, draft for consultation until 23 November, fo
 - It also asks them to test their recommender systems before every national election, and to report to the Commission within 30 days of a vote.
 - Anyone with relevant experience and expertise can respond, through an online form.
 
+## The story
+
 ![A summary card: EU election guidelines, draft for consultation until 23 November, for the largest platforms and search engines; deepfakes labelled and keep the label when shared; 30 days to report after an election.](https://promptugal.news/desks/journalist-vicky/drafts/img/S53-election-guidelines-card-2026-11-11.svg)
 
 *From the European Commission's consultation page and draft guidelines, read 11 November 2026.*
-
-## The story
 
 The [European Commission](../companies/european-commission/index.html) wants to update its rules of thumb for elections online, with generative AI in mind. On 10 November it opened a targeted consultation on draft revised election guidelines under the Digital Services Act (DSA). Views are invited until 23 November 2026.
 

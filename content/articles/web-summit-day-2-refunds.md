@@ -23,6 +23,10 @@ image_alt: "What Web Summit has published about Day 2 and refunds: its statement
 
 ## The story
 
+![What Web Summit has published about Day 2 and refunds: its statement announces no refund; its terms cover cancellation (10.4) and events beyond its control (23)](https://promptugal.news/desks/journalist-vicky/drafts/img/S45-refunds-2026-11-10.svg)
+
+*What Web Summit's statement and terms say, as read on 10 November 2026 at 22:07 UTC. Sources: Web Summit's "Important event update" and its terms and conditions.*
+
 Web Summit announced on Tuesday evening, in [a post on its website](https://websummit.com/blog/web-summit/important-event-update-2026/) also emailed to attendees, that "Day 2 of Web Summit should not take place". It says Portugal's government formally advised this because of the risks from Storm Charles, after talks with the government, ANEPC and the PSP. It "aims to proceed with Day 3 (Thursday, November 12) as planned". Our article [Web Summit calls off Wednesday on the government's advice](red-wind-warning-lisbon-wednesday.html) follows the storm.
 
 We re-read the post at 22:07 UTC on Tuesday. It does not mention refunds, credits or compensation. Web Summit's homepage, blog and news page, read at the same time, said nothing about them either.
@@ -44,10 +48,6 @@ As general information, the EU's [Your Europe](https://europa.eu/youreurope/citi
 - It is not legal or consumer advice.
 - It does not cover hotels, flights, trains or side events: none of their notices was read for this article.
 - Portugal's consumer portal opened, but we found no page on cancelled events in it; the European Consumer Centre Portugal did not open. Neither is used. No press report on refunds was found or used, and nothing from private channels.
-
-![What Web Summit has published about Day 2 and refunds: its statement announces no refund; its terms cover cancellation (10.4) and events beyond its control (23)](https://promptugal.news/desks/journalist-vicky/drafts/img/S45-refunds-2026-11-10.svg)
-
-*What Web Summit's statement and terms say, as read on 10 November 2026 at 22:07 UTC. Sources: Web Summit's "Important event update" and its terms and conditions.*
 
 ## Where this comes from
 

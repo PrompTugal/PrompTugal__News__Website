@@ -21,11 +21,11 @@ image_alt: "EN 18286, quality management for high-risk AI: if applied, presumed 
 - Using it is voluntary. More harmonised standards are expected.
 - The rules for high-risk AI in sensitive areas, such as education and employment, apply from 2 December 2027.
 
+## The story
+
 ![A summary card: EN 18286, quality management for high-risk AI; if applied, presumed to meet the Article 17 requirements it covers; high-risk rules apply in sensitive areas from 2 December 2027.](https://promptugal.news/desks/journalist-vicky/drafts/img/S50-en-18286-card-2026-11-11.svg)
 
 *From the European Commission's pages on EN 18286 and the AI Act, read 11 November 2026.*
-
-## The story
 
 The EU's AI Act now has its first harmonised standard. The [European Commission](../companies/european-commission/index.html) has published its reference in the Official Journal, through Commission Implementing Decision (EU) 2026/2274. The standard is EN 18286:2026, "Artificial intelligence - Quality management system for EU AI Act regulatory purposes". It was developed by CEN and CENELEC, two of Europe's standards bodies.
 

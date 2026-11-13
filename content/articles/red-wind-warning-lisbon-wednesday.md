@@ -25,6 +25,10 @@ image_alt: "IPMA's warnings for the Lisbon district on Wednesday 11 November, as
 
 ## The story
 
+![IPMA's warnings for the Lisbon district on Wednesday 11 November, as eased on Wednesday afternoon: no wind warning (gone from IPMA's 16:15 data), yellow for rain until 18:00 (the red rain warning ended at 15:00), orange for the sea until 21:00 then yellow until 03:00 Thursday](https://promptugal.news/desks/journalist-vicky/drafts/img/S41-warnings-2026-11-10.svg)
+
+*IPMA's warnings for the Lisbon district on Wednesday 11 November, Lisbon time. Source: IPMA open data and warnings page, as read at 16:39 UTC on Wednesday 11 November.*
+
 Web Summit has called off Wednesday. In a statement on its website on Tuesday evening, ["Important event update"](https://websummit.com/blog/web-summit/important-event-update-2026/), also sent to attendees by email, it wrote: "The Government of Portugal has formally advised Web Summit that, due to the risks posed by Storm Charles, including tidal flooding, severe disruption to public transport and the impact of high winds on external structures, Day 2 of Web Summit should not take place." It said this followed discussions with the government, ANEPC and the Public Security Police (PSP), and that "Day 2 (Wednesday, November 11th) will not take place."
 
 "Web Summit aims to proceed with Day 3 (Thursday, November 12) as planned, following the passing of Storm Charles," the statement said. Web Summit said it would keep monitoring conditions with the authorities, give further updates "as soon as confirmed information becomes available", and "communicate directly with those impacted." [Diário de Notícias](https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa) reported the cancellation on its live page at 19:45, citing a note from the organisers that said the decision was coordinated directly with ANEPC and the PSP.
@@ -49,10 +53,6 @@ In a [briefing](https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a
 - It uses one press report, as a secondary source only: Diário de Notícias' coverage of the organisers' note. Earlier press reports about what the authorities might decide are not used.
 - It gives no safety advice of its own. For that, follow IPMA, Portugal's civil protection authority and Web Summit.
 - It does not say what Thursday's programme will hold. Web Summit says schedule updates will follow.
-
-![IPMA's warnings for the Lisbon district on Wednesday 11 November, as eased on Wednesday afternoon: no wind warning (gone from IPMA's 16:15 data), yellow for rain until 18:00 (the red rain warning ended at 15:00), orange for the sea until 21:00 then yellow until 03:00 Thursday](https://promptugal.news/desks/journalist-vicky/drafts/img/S41-warnings-2026-11-10.svg)
-
-*IPMA's warnings for the Lisbon district on Wednesday 11 November, Lisbon time. Source: IPMA open data and warnings page, as read at 16:39 UTC on Wednesday 11 November.*
 
 ## Where this comes from
 

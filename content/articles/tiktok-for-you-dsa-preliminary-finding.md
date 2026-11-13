@@ -17,11 +17,11 @@ tags: Europe, Digital Services Act, European Commission, TikTok, recommender sys
 - This is not a final decision. TikTok can reply in writing. If the finding is confirmed, a fine of up to 6% of worldwide annual turnover is possible.
 - We found no public response from TikTok on its own newsroom.
 
+## The story
+
 ![A summary card: Digital Services Act, preliminary finding on TikTok's For You feed and the "rabbit hole" effect, 6 November 2026; not final, TikTok can reply in writing; up to 6% of worldwide turnover, if confirmed.](https://promptugal.news/desks/journalist-vicky/drafts/img/S55-tiktok-dsa-card-2026-11-11.svg)
 
 *From the European Commission's press release IP/26/2361, read 11 November 2026.*
-
-## The story
 
 The [European Commission](../companies/european-commission/index.html) has told TikTok, in a preliminary view, that its For You feed breaks the EU's platform law. The concern is what the Commission calls the "rabbit hole" effect. The more a user watches or likes a kind of video, the more of the same the feed recommends. That can be harmful when the videos are about sadness, isolation or body image, the Commission says, especially for minors and vulnerable adults.
 

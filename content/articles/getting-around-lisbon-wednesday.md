@@ -23,6 +23,10 @@ image_alt: "Getting around Lisbon on Wednesday 11 November: Carris has cancelled
 
 ## The story
 
+![Getting around Lisbon on Wednesday 11 November: Carris has cancelled its Web Summit shuttle; Fertagus suspends the 25 de Abril bridge crossing if winds pass 90 km/h; the government's alert closes schools and suspends outdoor events](https://promptugal.news/desks/journalist-vicky/drafts/img/S51-getting-around-2026-11-11.svg)
+
+*What Carris, Fertagus and the government said for Wednesday 11 November, as read at 03:06 UTC. Sources: each one's own notice.*
+
 [Web Summit](../organisations/web-summit/index.html) says its Day 2, today, will not take place, and IPMA has red warnings for wind and rain in Lisbon (see [our storm article](red-wind-warning-lisbon-wednesday.html)). Here is what the people who run the city's transport and the government have published for today.
 
 **Carris.** Its [service notice](https://www.carris.pt/viaje/alteracoes-de-servico/alerta-circulacao/) lists "Carreiras Shuttle Web Summit - cancelado, devido à suspensão do evento" (the Web Summit shuttle routes, cancelled because the event is suspended). Carris says it will try to keep public service running, but there may be delays, diversions, temporary interruptions, route changes or cancelled services. Its priority, it says, is essential journeys, including links to health care and transport for emergency workers. Two ticket points are closed, at Saldanha and Cais do Sodré.
@@ -44,10 +48,6 @@ Anyone moving around Lisbon today can follow Carris, Fertagus and the authoritie
 - It does not say whether Fertagus has suspended the bridge crossing. As of 03:06 UTC, its notice gave the 90 km/h threshold, not a suspension.
 - It does not cover Metro de Lisboa, CP, Carris Metropolitana, Rede Expressos, the river ferries, the airport or airlines: we did not read their notices.
 - It gives no advice of its own beyond what the operators and the government say.
-
-![Getting around Lisbon on Wednesday 11 November: Carris has cancelled its Web Summit shuttle; Fertagus suspends the 25 de Abril bridge crossing if winds pass 90 km/h; the government's alert closes schools and suspends outdoor events](https://promptugal.news/desks/journalist-vicky/drafts/img/S51-getting-around-2026-11-11.svg)
-
-*What Carris, Fertagus and the government said for Wednesday 11 November, as read at 03:06 UTC. Sources: each one's own notice.*
 
 ## Where this comes from
 

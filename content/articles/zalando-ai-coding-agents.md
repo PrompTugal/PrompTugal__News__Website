@@ -20,11 +20,11 @@ image_alt: "Zalando's approach to AI coding agents, in its own account: one prox
 - A bot rates each pull request by risk. Zalando says a third are low risk and auto-approved, cutting their lead time by 20 to 40% compared with all pull requests.
 - Zalando also names the downsides: bigger pull requests, code complexity that builds up quickly, and a warning that coding agents usually get in the way of learning.
 
+## The story
+
 ![Zalando's approach to AI coding agents, in its own account: one proxy for every model, no mandated tool, no secrets in configuration files, a third of pull requests auto-approved as low risk](https://promptugal.news/desks/journalist-vicky/drafts/img/S46-cover-card-2026-11-11.svg)
 
 *Four choices Zalando describes. Source: Zalando Engineering blog, published 14 August 2026, read 11 November 2026.*
-
-## The story
 
 Zalando's post, by its executive principal engineer Bartosz Ocytko, opens with scale: more than 250 engineering teams, using AI "in different forms and at different paces". Its answer to that variety is plumbing, not a single product.
 

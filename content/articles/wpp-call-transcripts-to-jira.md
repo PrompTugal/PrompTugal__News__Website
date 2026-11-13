@@ -21,11 +21,11 @@ image_alt: "How WPP's Developer Studio turns a call into Jira work, in Mastra's 
 - Mastra says the platform runs in internal production at WPP. The case study gives no usage or time-saved figures.
 - Mastra is a startup on Web Summit's featured list. We know of no WPP presence at the summit.
 
+## The story
+
 ![How WPP's Developer Studio turns a call into Jira work, in Mastra's account: an analyst uploads a transcript, a workflow proposes the plan, a person reviews it, the approved plan goes to Jira](https://promptugal.news/desks/journalist-vicky/drafts/img/S39-cover-card-2026-11-10.svg)
 
 *The four steps, as Mastra's case study describes them. Source: Mastra, read 10 November 2026.*
-
-## The story
 
 WPP builds more than campaigns. Its agencies also build commerce platforms, digital experiences and supporting software for clients, Mastra's case study says. That work produces workshops, documents, tickets and code, and turning it into tasks for engineers took many manual hand-offs.
 
