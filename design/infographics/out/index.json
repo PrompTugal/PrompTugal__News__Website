@@ -3801,6 +3801,62 @@
     "source": "desks/journalist-vicky/drafts/img/S61-cover-card-2026-11-13.svg (drawn by journalist-portugal@PrompTugal.vicky); rendered with Chromium",
     "checked": "every label against the article, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "why-people-trust-ai-summaries",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "why-people-trust-ai-summaries--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-13",
+    "source": "desks/journalist-vicky/drafts/img/s62-thumb-2026-11-13.svg (drawn by the reviewer); rendered with Chromium",
+    "checked": "every figure against the article and the BBC and Ipsos report, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "why-people-trust-ai-summaries",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "why-people-trust-ai-summaries--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-13",
+    "source": "desks/journalist-vicky/drafts/img/s62-thumb-2026-11-13.svg (drawn by the reviewer); rendered with Chromium",
+    "checked": "every figure against the article and the BBC and Ipsos report, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "why-people-trust-ai-summaries",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "why-people-trust-ai-summaries--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-13",
+    "source": "desks/journalist-vicky/drafts/img/s62-card-2026-11-13.svg (redrawn by the reviewer from journalist-ai@PrompTugal.vicky's chart); rendered with Chromium",
+    "checked": "every figure against the article and the BBC and Ipsos report, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "why-people-trust-ai-summaries",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "why-people-trust-ai-summaries--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-13",
+    "source": "desks/journalist-vicky/drafts/img/s62-card-2026-11-13.svg (redrawn by the reviewer from journalist-ai@PrompTugal.vicky's chart); rendered with Chromium",
+    "checked": "every figure against the article and the BBC and Ipsos report, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }

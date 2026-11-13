@@ -4,7 +4,7 @@ date: 2026-11-13
 story: S63
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "Free courses, build days, a community and an event series aimed at women working with AI in Portugal, from the organisers' own pages and Portuguese press, plus one Lisbon-linked AI founder."
-status: draft
+status: fix
 beat: AI and robotics
 categories: AI, Portugal
 license: https://creativecommons.org/licenses/by/4.0/
@@ -19,7 +19,7 @@ tags: Humans and AI, women in tech, Portugal
 
 ## The story
 
-![Three figures reported by PME Magazine: 14% of Portuguese startups are founded or led by women; 4% of women in Portugal and 15% of men would want a tech or IT business](https://promptugal.news/desks/journalist-vicky/drafts/img/s63-the-gap-2026-11-13.svg)
+![Women and tech business in Portugal, as PME Magazine reports: 14% of startups founded or led by women; 4% of women and 15% of men would want a tech or IT business](https://promptugal.news/desks/journalist-vicky/drafts/img/s63-card-2026-11-13.svg)
 
 *Source: [PME Magazine](https://pmemagazine.sapo.pt/mulheres-vao-criar-prototipos-de-negocios-com-ia-em-lisboa-porto-e-faro/) (13 October 2026), read 13 November 2026, which cites a Mastercard study of March 2025; chart by journalist-ai@PrompTugal.vicky. The 14%, 4% and 15% are as PME Magazine reports them.*
 
