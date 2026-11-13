@@ -2,14 +2,14 @@
 title: "Europe in Pavilion 4: the Commission's week at Web Summit"
 date: 2026-11-06
 author: journalist-europe@web-summit.vicky, for Vicky Wang
-summary: The European Commission brings a fireside chat, four masterclasses, an IP panel and stands in Pavilion 4 to Web Summit Lisbon, on AI, data, funding and free supercomputing. The Netherlands brings a national delegation with the help of its embassy in Lisbon.
+summary: The European Commission brings a fireside chat, four masterclasses, an IP panel and stands in Pavilion 4 to Web Summit Lisbon, on AI, data, funding and free supercomputing.
 status: published
 story: S2
 beat: Europe
 license: https://creativecommons.org/licenses/by/4.0/
 tags: Europe, European Commission, the summit, funding
 ---
-> **Update, 11 November 2026, 02:42 UTC, revised 12:40 UTC; Web Summit material removed 13 November 2026.** Day 2, Wednesday 11 November, did not take place: Web Summit called it off on the Portuguese government's advice ([our report](red-wind-warning-lisbon-wednesday.html)). Four EU sessions in this article were on that day: EUIPO's panel on IP-backed finance, DG CONNECT's "Building AI in Europe" masterclass, HaDEA's EU funding workshop and EuroHPC's masterclass on free supercomputing. The [Commission's agenda](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026), last updated on 3 November, still lists them, and does not say whether they moved to Thursday. Thursday's EUIPO and INPI meetup is still listed.
+> **Update, 11 November 2026, 02:42 UTC, revised 12:40 UTC; Web Summit material removed 13 November 2026.** Day 2, Wednesday 11 November, did not take place: Web Summit called it off on the Portuguese government's advice ([our report](red-wind-warning-lisbon-wednesday.html)). Four EU sessions in this article were on that day: EUIPO's panel on IP-backed finance, DG CONNECT's "Building AI in Europe" masterclass, HaDEA's EU funding workshop and EuroHPC's masterclass on free supercomputing. The [Commission's agenda](https://digital-strategy.ec.europa.eu/en/events/web-summit-2026), last updated on 3 November, still lists them, and does not say whether they moved to Thursday; HaDEA says its workshop moved to Thursday 12 November. Thursday's EUIPO and INPI meetup is still listed.
 
 ## In short
 
@@ -17,7 +17,6 @@ tags: Europe, European Commission, the summit, funding
 - Executive Vice-President Henna Virkkunen speaks on Centre Stage on 10 November, on Europe's tech sovereignty, according to the Commission's agenda.
 - Sessions cover EU help for AI businesses, data spaces, EU funding, IP-backed finance and free supercomputing.
 - DG GROW (E415) and HaDEA (E418) are in Pavilion 4; EuroHPC is at stand E405.
-- The Netherlands brings a national delegation, with its Ministry of Foreign Affairs and its embassy in Lisbon.
 
 ## The story
 
@@ -27,7 +26,7 @@ On 10 November, Executive Vice-President Henna Virkkunen has a fireside chat on 
 
 On 10 November, a DG CONNECT masterclass asks how Europe's data spaces can help small and medium-sized firms grow, and explains EU support under the Data Act for using data from connected products. On 11 November, "Building AI in Europe" covers EU help for AI businesses: regulatory guidance, testing facilities, infrastructure, expertise, funding and tools.
 
-On 11 November, HaDEA, the EU's health and digital executive agency, runs a workshop, "Investing in technological sovereignty: EU funding for your project". Four EU-funded projects join it, according to HaDEA: PERSEPHONE (robots for safer mining of critical raw materials), RISER (energy-efficient cloud infrastructure based on open-source RISC-V technology), AI-TranspWood (transparent wood, developed with AI) and GreenChips-EDU (training Europe's next microelectronics experts).
+HaDEA, the EU's health and digital executive agency, was to run a workshop on 11 November, "Investing in technological sovereignty: EU funding for your project". Because of the severe weather and the suspension of public events in Lisbon that day, HaDEA says, it moved to Thursday 12 November at 16:00. Four EU-funded projects join it, according to HaDEA: PERSEPHONE (robots for safer mining of critical raw materials), RISER (energy-efficient cloud infrastructure based on open-source RISC-V technology), AI-TranspWood (transparent wood, developed with AI) and GreenChips-EDU (training Europe's next microelectronics experts).
 
 EuroHPC runs a masterclass on 11 November on how industry can use Europe's supercomputers, AI Factories and quantum computers for free. Places are first-come, first-served, the Commission notes.
 
@@ -35,24 +34,20 @@ The EU's intellectual property office, EUIPO, holds a panel on 11 November on ho
 
 DG GROW is at stand E415 and HaDEA at E418, both in Pavilion 4, and EuroHPC is at E405, says the Commission. HaDEA's stand is staffed throughout the summit, HaDEA says, with people from EU-funded projects.
 
-The Netherlands Enterprise Agency, RVO, organises a Dutch delegation with the Dutch Ministry of Foreign Affairs and the Embassy of the Netherlands in Lisbon. Members get an NL Lounge, matchmaking sessions, and access to the Dutch economic team and diplomatic network in Portugal, says RVO. Its provisional programme lists a Dutch networking event on 11 November. Registration is closed.
-
-Founders seeking EU funding could begin at HaDEA's stand E418. Those needing computing power could try EuroHPC's masterclass. Startups with IP to protect could go to the EUIPO and INPI meetup on 12 November.
+For founders, the summit's EU entry points were HaDEA's stand E418 for funding, EuroHPC's masterclass for computing power (on 11 November, the day that did not take place) and the EUIPO and INPI meetup on 12 November for intellectual property.
 
 ## What this does not claim
 
 - **The days and stands are the organisers' own.** Every session, day and stand number comes from the Commission's and HaDEA's pages. Times are not given here.
 - **Which INPI.** The Commission's agenda says "EUIPO & INPI" and does not say which INPI. Portugal's industrial property institute is called INPI, and so is France's. This article does not say which one hosts the meetup.
 - **The projects are described in HaDEA's words.** PrompTugal.news has not read the projects' own pages or checked what they have achieved. Who speaks for each project is on HaDEA's page and is not repeated here.
-- **The Dutch programme is provisional.** RVO's page says the programme was still being developed and may change; the page was last checked by RVO on 25 June 2026. How many Dutch companies come is not known.
 - **No link is claimed** between any of these sessions and a Portuguese company or programme. Nothing here says that any organisation will meet or work with another.
 - **The EUIPO's own site** refused our request on 5 November, so the panel and meetup are described only from the Commission's agenda.
 
 ## Where this comes from
 
 - European Commission, Shaping Europe's digital future, "DigitalEU at Web Summit 2026: Supporting businesses and startups to grow and innovate" (last updated 3 November 2026), read 5 November 2026: <https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate>
-- European Health and Digital Executive Agency (HaDEA), "Web Summit 2026", event page, read 5 November 2026: <https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en>
-- Netherlands Enterprise Agency (RVO), "Web Summit 2026 in Lisbon: Join the Dutch Delegation", read 5 November 2026: <https://english.rvo.nl/events/web-summit-2026-lisbon>
+- European Health and Digital Executive Agency (HaDEA), "Web Summit 2026", event page (its update: the workshop moved to Thursday 12 November at 16:00), read 5 and 13 November 2026: <https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en>
 - Instituto Nacional da Propriedade Industrial (INPI, Portugal), home page, read 5 November 2026: <https://inpi.justica.gov.pt/>
 - Tried and not reached on 5 November 2026: EUIPO news (<https://www.euipo.europa.eu/en/news>, which refused our request).
 - Found by our research desk (Vicky Wang's curator agent), 5 November 2026.
@@ -61,7 +56,7 @@ Founders seeking EU funding could begin at HaDEA's stand E418. Those needing com
 
 **6 November 2026, 14:30 UTC.** The second line of "In short" was given a caveat about Web Summit's speakers page, removed on 13 November with the other Web Summit material. Found by a synthetic reader test (synthetic@PrompTugal.dinis, finding F31). No fact changed.
 
-**13 November 2026.** Updated 13 November 2026: republished without material from Web Summit's site.
+**13 November 2026.** Updated 13 November 2026: republished without material from Web Summit's site. HaDEA's workshop moved to Thursday 12 November, as HaDEA's page now says; the paragraph on the Dutch delegation was removed, as its source page is no longer online.
 
 ## Who made this
 
