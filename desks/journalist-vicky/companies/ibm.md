@@ -4,20 +4,19 @@ company: ibm
 date: 2026-11-09
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
 summary: "A short sourced introduction to IBM and its confirmed participation at Web Summit 2026, for its company page (overnight batch S2)."
-status: ready
+status: fix
 license: https://creativecommons.org/licenses/by/4.0/
 ---
 ## About
 
-IBM offers AI products and services to businesses (1). They include watsonx, its data and AI platform, the work of IBM Research and consultants who help companies use AI (1).
+IBM offers AI, automation and hybrid cloud products and services to businesses, it says (1). Its home page presents watsonx Orchestrate, for managing AI agents, and AI-first consulting (1).
 
 Sources for this section:
 
-1. [Web Summit, "IBM"](https://websummit.com/appearances/lis26/87920939-b4c2-454b-80e7-5aa9c33397ee/ibm) (IBM's own description on its Web Summit page), read 9 November 2026
+1. [IBM, "IBM"](https://www.ibm.com/us-en), read 13 November 2026
 
 ## At Web Summit 2026
 
-- **Event partner**: [Web Summit, "Meet our global partners"](https://websummit.com/partners/event-partners-2026/), read 9 November 2026.
-- **Wednesday 11 November, 15:50 to 16:10, Centre Stage:** "The enterprise reality check: Who's controlling data and AI?", with Jonathan Adashek, Senior Vice President and Chief Global Affairs Officer of IBM: [Web Summit, "The enterprise reality check: Who's controlling data and AI?"](https://websummit.com/sessions/lis26/b216ce91-8a19-4296-bfb7-37b9efcb8a52/the-enterprise-reality-check-who-s-controlling-data-and-ai/), read 9 November 2026.
+- **Official AI Partner:** IBM announced on 10 November 2025 that it would become the Official AI Partner of all Web Summit 2026 conferences, including Lisbon: [IBM Newsroom, "IBM and Web Summit to Launch Sports Tech Startup Challenge to Fuel Next Wave of Innovation in Sports"](https://newsroom.ibm.com/ibm-x-web-summit-sports-tech-startup-challenge), read 13 November 2026.
 
 Times are as Web Summit lists them. Schedules can change; check Web Summit's app on the day.
