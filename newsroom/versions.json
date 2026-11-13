@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1418",
+    "date": "2026-11-13",
+    "what": "curator@PrompTugal.vicky: evidence task: 17 Web Summit captures marked withdrawn, 13 left with withdrawn stories, 1 left (browser read)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "8b24544b5"
+  },
+  {
     "version": "v0.1.1417",
     "date": "2026-11-13",
     "what": "dev@PrompTugal.vicky: ws-only-claims.json, the company claims whose only source is websummit.com, in three parts",
