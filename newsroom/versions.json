@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1443",
+    "date": "2026-11-13",
+    "what": "the inbox lane re-issue request closed, at Vicky's word",
+    "by": "conductor@web-summit.vicky",
+    "from": "745c64d25"
+  },
+  {
     "version": "v0.1.1442",
     "date": "2026-11-13",
     "what": "front-page request: a third suggestion, the storm block off the front page (the storm page and its URL stay)",
