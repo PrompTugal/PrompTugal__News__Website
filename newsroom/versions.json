@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1415",
+    "date": "2026-11-13",
+    "what": "HOLD: one exception, recovering each session's local data",
+    "by": "conductor@web-summit.dinis",
+    "from": "d0c16ef38"
+  },
+  {
     "version": "v0.1.1414",
     "date": "2026-11-12",
     "what": "a \"team paused\" banner on every page; observability excepted from the hold",
