@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1420",
+    "date": "2026-11-13",
+    "what": "journalist-europe@PrompTugal.vicky: cut the three Media only lines (neo, neo4j, linux-foundation-aaif)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "61875bc57"
+  },
+  {
     "version": "v0.1.1419",
     "date": "2026-11-13",
     "what": "journalist-europe@PrompTugal.vicky: About-claims takedown step 2, my part of 34 company files, status fix",
