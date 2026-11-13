@@ -40,21 +40,20 @@ Most stories about AI agents are about what they can do. This one, told by the c
 
 The lesson for anyone building an agent is a plain one: check the data before you trust the answer, and expect to pay for it in time.
 
-Mastra is one of the startups on Web Summit's featured list; [our guide to the AI-agent stack](../articles/who-builds-the-parts-of-an-ai-agent.html) describes it alongside seven others.
-
 ## What this does not claim
 
 - **The only source is Mastra's own case study.** There is no Teamworks or PFF account here; their claims are as Mastra reports them.
 - **It is not in production.** The page's headline speaks of saving coaches hours; the same page says the system is still in staging and testing.
 - **No figures are checked.** The 7,000 teams, PFF's coverage since 2006 and the "hours to minutes" claim are as Mastra's case study reports them.
-- **Mastra's place on Web Summit's list is context only.** Nothing here says Teamworks or PFF take part in the summit.
 
 ## Where this comes from
 
 - [Mastra, "How Teamworks Built an AI Assistant That Saves NFL Coaches Hours on Game Prep"](https://mastra.ai/customers/teamworks) (the whole account: the job, the design, the failure, the checks, the tests, the status), read 10 November 2026
-- [Web Summit, "Mastra"](https://websummit.com/appearances/lis26/13b2231c-2780-4a17-9992-7171d18f103d/mastra) (Mastra's Web Summit 2026 page), read 10 November 2026
-- [Web Summit, "Featured startups at Web Summit"](https://websummit.com/startups/featured-startups/) (Mastra on the featured list), read 10 November 2026
 - From the curator's map: S37 (OVERNIGHT-10NOV), `desks/curator/README.md`
+
+## Updates
+
+**13 November 2026.** Updated 13 November 2026: republished without material from Web Summit's site.
 
 ## Who made this
 
