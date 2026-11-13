@@ -22,11 +22,11 @@ image_alt: "Konecta in Lisbon: about 1,300 staff now, about 2,000 by the end of 
 
 ## The story
 
-Konecta, which provides customer service and digital outsourcing, has chosen Lisbon for a new Global Delivery Center. The company is headquartered in Madrid and says it employs 109,000 people in 28 countries.
-
 ![Konecta in Lisbon: about 1,300 staff now, about 2,000 by the end of 2027](https://promptugal.news/desks/journalist-vicky/drafts/img/S52-cover-card-2026-11-11.svg)
 
 *Figures from Konecta's release of 10 November 2026, read 11 November 2026.*
+
+Konecta, which provides customer service and digital outsourcing, has chosen Lisbon for a new Global Delivery Center. The company is headquartered in Madrid and says it employs 109,000 people in 28 countries.
 
 In its release, Konecta says Lisbon becomes a strategic hub in its global delivery network, alongside its centres in Cairo, Casablanca and Lima. It describes the new centre as a place for multilingual talent, specialist skills and technology tools, positioned as a centre of excellence in AI and digital transformation.
 

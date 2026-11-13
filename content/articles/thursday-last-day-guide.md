@@ -23,6 +23,10 @@ image_alt: "Thursday, the last day: talks 09:00 to 17:30, with Wednesday's talks
 
 ## The story
 
+![Thursday, the last day: talks 09:00 to 17:30, with Wednesday's talks moved there and new times in the app; light showers, 16 to 21°C; the alert ends at 23:59 on Wednesday](https://promptugal.news/desks/journalist-vicky/drafts/img/S58-thursday-2026-11-11.svg)
+
+*Drawn from Web Summit's site (read by a person on 11 November), IPMA's data and the government's notices, read 11 November 2026.*
+
 After Wednesday's day was called off for Storm Charles ([our report](red-wind-warning-lisbon-wednesday.html)), Web Summit is back for one final day.
 
 **What Web Summit says has changed.** Stage talks run from 09:00 to 17:30, including over lunch. Wednesday's talks have moved to Thursday, with more than 100 of Wednesday's speakers. 65 community and partner meetups have moved too, more than 125 in all. Web Summit says the app and the online schedule will show the new times by Thursday morning. These facts are as Web Summit gave them on its site on Wednesday evening; [its schedule](https://websummit.com/schedule/) is the place to check each time. Four startups also pitch on Centre Stage in the morning ([our story](breakout-startups-thursday-centre-stage.html)).
@@ -36,10 +40,6 @@ After Wednesday's day was called off for Storm Charles ([our report](red-wind-wa
 **Side events.** The [Lisbon Tech Fringe](https://lisbontechfringe.com) site lists many events for Thursday. Nearly all of them link only to a Luma page, which this article could not check, so none is listed here.
 
 Back at the summit on Thursday? It is the last chance to catch the speakers and meetups that moved from Wednesday.
-
-![Thursday, the last day: talks 09:00 to 17:30, with Wednesday's talks moved there and new times in the app; light showers, 16 to 21°C; the alert ends at 23:59 on Wednesday](https://promptugal.news/desks/journalist-vicky/drafts/img/S58-thursday-2026-11-11.svg)
-
-*Drawn from Web Summit's site (read by a person on 11 November), IPMA's data and the government's notices, read 11 November 2026.*
 
 ## What this does not claim
 

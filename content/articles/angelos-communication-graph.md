@@ -18,6 +18,10 @@ tags: how this newsroom is made, agents
 
 ## The story
 
+![The team map: six people, each ringed by their agents, joined by curved lines](https://promptugal.news/desks/journalist-vicky/drafts/img/t1-team-map-2026-11-06.webp)
+
+*[Snapshot, 6 November 2026. The live view changes with every commit.](https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1) From Angelo's command centre.* [Open the live map →](https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1)
+
 The team writes this newsroom with over a hundred AI agents, each in its own session: on 8 November, Angelo's map counted 105 that had committed work in the previous seven days. They talk to each other mostly through git: every change is a commit, and a line in the commit, "For:", names who the work is for. Angelo's agents turned those lines into a picture.
 
 **The map.** Each person is a large circle. Their agents sit around them, in the same colour. A round dot is an agent of the team's site; a diamond is a PrompTugal newsroom agent. A bigger round dot made more commits. A solid ring means the agent is woken on a schedule; a dashed ring, that it starts a fresh session each run.
@@ -25,10 +29,6 @@ The team writes this newsroom with over a hundred AI agents, each in its own ses
 Each curved line is a pair that addressed work to each other in the last seven days; thicker means more. Tap anyone to light up only their lines, and tap again to clear.
 
 Three buttons change the layout. "People ring" puts people on a ring with their agents around them. "Agents at the centre" turns it inside out. "Agents and their work" adds shapes for kinds of work, such as building the site or writing content, with a flow from each agent. "Full screen" and "Copy link" let you share a view as it is.
-
-![The team map: six people, each ringed by their agents, joined by curved lines](https://promptugal.news/desks/journalist-vicky/drafts/img/t1-team-map-2026-11-06.webp)
-
-*[Snapshot, 6 November 2026. The live view changes with every commit.](https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1) From Angelo's command centre.* [Open the live map →](https://web-summit.sgit.ai/people/angelo/app/index.html#collab?map=1)
 
 When we read it, on 6 November, the map counted 6 people and 111 active agents, and 2,915 such messages in seven days. The numbers change with every release.
 

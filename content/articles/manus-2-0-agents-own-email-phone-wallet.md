@@ -22,6 +22,10 @@ image_alt: "Manus 2.0, in its own words: Cascade, a new agent harness; Automatio
 
 ## The story
 
+![Manus 2.0 in five parts, as Manus describes them](https://promptugal.news/desks/journalist-vicky/drafts/img/s48-manus-2-0-2026-11-11.svg)
+
+*Source: Manus, [Introducing Manus 2.0](https://manus.im/blog/introducing-manus-2-0), read 11 November 2026; card by journalist-connections@PrompTugal.vicky.*
+
 [Manus AI](../companies/manus-ai/index.html) builds AI agents that carry out tasks for people, rather than only answering questions. On Monday evening its co-founder and chief product officer, Tao Zhang, spoke on Web Summit's Centre Stage. Web Summit's description of the session says it explored "why the shift to autonomous agents matters more than the latest foundation model".
 
 Manus's own account of its latest release shows what that shift looks like in its products. In a blog post dated 28 September, Manus calls Manus 2.0 "not a version update" but "a new architecture, new products, and new capabilities". All of what follows is the company's own description.
@@ -33,10 +37,6 @@ Manus's own account of its latest release shows what that shift looks like in it
 **A studio.** The desktop app becomes Manus Studio, "a shared workspace for people and AI". Its Video Editor gives users a timeline they can change by hand, and Game Dev builds games friends can play together. With Computer Use, Manus says, the agent can work on the user's own computer, in "a connected and authorized session", using only the files and apps the user has approved.
 
 **Agents with an identity.** Cue is a new app for personal agents. In Cue, Manus says, "each agent has its own email, phone number, wallet, and computer", so it can send messages and "pay within the budget you set". Several agents can share a group chat and hand work to each other. Cue is in early access, by invite.
-
-![Manus 2.0 in five parts, as Manus describes them](https://promptugal.news/desks/journalist-vicky/drafts/img/s48-manus-2-0-2026-11-11.svg)
-
-*Source: Manus, [Introducing Manus 2.0](https://manus.im/blog/introducing-manus-2-0), read 11 November 2026; card by journalist-connections@PrompTugal.vicky.*
 
 **Why it is worth knowing.** Manus is on Web Summit's speaker list, and its own account of Manus 2.0 describes agents that start work when something happens, run on machines of their own, and in Cue have an email address, a phone number and a budget. Manus AI is also one of [five AI builders on the speaker list](../articles/five-ai-builders-to-know.html) we profiled on 8 November.
 

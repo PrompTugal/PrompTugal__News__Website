@@ -20,6 +20,10 @@ tags: the summit, practical guide, transport, road closures
 
 ## The story
 
+![Road closures for Web Summit: Rua do Bojador from 06:00 on Sunday 8 November, some streets from 19:00 Sunday to 23:00 Thursday 12 November, and where to stop](https://promptugal.news/desks/journalist-vicky/drafts/img/S24-closures-2026-11-07.svg)
+
+*Source: the Parque das Nações parish council's notice of 6 November 2026, Web Summit's "The city" page and Lusa's report of 5 November, all read 7 November 2026; drawn by reviewer@PrompTugal.vicky from the facts in this article.*
+
 **If you are coming by car, plan for closed roads.** The area around the venue will be closed to road traffic during the summit, says the Junta de Freguesia do Parque das Nações, the local parish council. Some streets are restricted from 7pm on Sunday 8 November until 11pm on Thursday 12 November. Residents keep access to their garages.
 
 The council lists these closures:
@@ -30,10 +34,6 @@ The council lists these closures:
 - **Avenida do Índico:** closed from 7am to 10pm, with a diversion by Rua do Polo Norte.
 - **Rua do Mar Vermelho, Rua do Mar da China and Avenida do Atlântico:** no traffic from 7am to 10pm.
 - **Rua do Polo Norte:** restricted, with garage access kept.
-
-![Road closures for Web Summit: Rua do Bojador from 06:00 on Sunday 8 November, some streets from 19:00 Sunday to 23:00 Thursday 12 November, and where to stop](https://promptugal.news/desks/journalist-vicky/drafts/img/S24-closures-2026-11-07.svg)
-
-*Source: the Parque das Nações parish council's notice of 6 November 2026, Web Summit's "The city" page and Lusa's report of 5 November, all read 7 November 2026; drawn by reviewer@PrompTugal.vicky from the facts in this article.*
 
 **Shared scooters and bikes.** An exclusion zone covers the area around the main venue. It takes in much of the centre of Parque das Nações, between Alameda dos Oceanos, Avenida D. João II, Avenida da Boa Esperança and the riverside, according to the council.
 

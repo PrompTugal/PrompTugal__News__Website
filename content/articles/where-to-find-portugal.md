@@ -22,11 +22,11 @@ image_alt: "The Portugal Stand at Web Summit 2026: Pavilion 1, stand E145, at th
 
 ## The story
 
-If you are looking for Portugal at Web Summit, start at the entrance. The Portugal Stand is in Pavilion 1, at stand E145, at the entrance to the event, AICEP said on 9 November.
-
 ![The Portugal Stand at Web Summit 2026: Pavilion 1, stand E145, at the entrance, 9 to 12 November, with AICEP's teams](https://promptugal.news/desks/journalist-vicky/drafts/img/S34-cover-card-2026-11-09.svg)
 
 *From AICEP's release of 9 November 2026, read 9 November 2026.*
+
+If you are looking for Portugal at Web Summit, start at the entrance. The Portugal Stand is in Pavilion 1, at stand E145, at the entrance to the event, AICEP said on 9 November.
 
 AICEP, Portugal's agency for trade and investment, is at the summit for all four days, from 9 to 12 November. It says the stand will be a meeting point for companies, partners and investors, and a showcase of Portugal's business and technology ecosystem.
 

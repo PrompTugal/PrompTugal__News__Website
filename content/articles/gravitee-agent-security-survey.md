@@ -23,6 +23,10 @@ image_alt: "Gravitee's survey: 80.9% past planning, 88% reported incidents, 21.9
 
 ## The story
 
+![Gravitee's survey: 80.9% past planning, 88% reported incidents, 21.9% treat agents as identities, 14.4% have full security approval](https://promptugal.news/desks/journalist-vicky/drafts/img/S40-gravitee-survey-2026-11-10.svg)
+
+*Figures from Gravitee's blog post on its State of AI Agent Security 2026 report, read 10 November 2026.*
+
 AI agents, the software that takes actions on its own, have moved from trials into real work, a vendor survey says. Gravitee says it surveyed over 900 executives and technical practitioners on how their organisations are managing the move to AI agents. It published the results on 4 February 2026 and updated the page on 2 November.
 
 Adoption is fast, Gravitee reports: 80.9% of technical teams have moved past planning into testing or production.
@@ -36,10 +40,6 @@ Executives feel safer than the numbers suggest: 82% feel confident that their po
 Gravitee's CEO, Rory Blundell, holds a press conference on Stage 2, in the Media Village, today from 14:30 to 14:50, titled "Collapsing confidence in agent AI security after six months of reality". The session page gives only the title. Our [guide to the week's press conferences](press-conferences-day-by-day.html) lists the others.
 
 Running AI agents in production? The questions in this survey, who approved an agent and how it proves who it is, are good ones to compare with other security and platform teams at the summit.
-
-![Gravitee's survey: 80.9% past planning, 88% reported incidents, 21.9% treat agents as identities, 14.4% have full security approval](https://promptugal.news/desks/journalist-vicky/drafts/img/S40-gravitee-survey-2026-11-10.svg)
-
-*Figures from Gravitee's blog post on its State of AI Agent Security 2026 report, read 10 November 2026.*
 
 ## What this does not claim
 

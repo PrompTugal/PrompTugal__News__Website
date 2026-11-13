@@ -23,6 +23,10 @@ image_alt: "IBM's sports tech challenge ends in Lisbon: a showcase of six startu
 
 ## The story
 
+![IBM's sports tech challenge ends in Lisbon: a showcase of six startups on Tuesday 10 November, and an invitation-only prize challenge with six finalists on Wednesday 11 November](https://promptugal.news/desks/journalist-vicky/drafts/img/S33-two-days-2026-11-09.svg)
+
+*Drawn from IBM's post and Web Summit's challenge page, both read 9 November 2026.*
+
 IBM's challenge was built to find growth-stage startups making AI products for the business of sport. It started at Web Summit Lisbon 2025. Through 2026, IBM Ventures, the company's venture arm, held showcases at Web Summit's events in Vancouver and Rio and at other technology events, IBM says.
 
 Lisbon hosts the last round, over two days.
@@ -42,10 +46,6 @@ Sameer Patel of FIFA and Jose Chieira of TalentAlert.App are among the judges. I
 The judges include Sarah Meron, IBM's Chief Communications and Brand Officer, and Marc Gené, Ferrari Ambassador for Scuderia Ferrari HP, with CNN's Brad Smith moderating, according to IBM.
 
 Interested in AI for sport? On Tuesday the six startups present on stage before the Web Summit audience, IBM says.
-
-![IBM's sports tech challenge ends in Lisbon: a showcase of six startups on Tuesday 10 November, and an invitation-only prize challenge with six finalists on Wednesday 11 November](https://promptugal.news/desks/journalist-vicky/drafts/img/S33-two-days-2026-11-09.svg)
-
-*Drawn from IBM's post and Web Summit's challenge page, both read 9 November 2026.*
 
 ## What this does not claim
 

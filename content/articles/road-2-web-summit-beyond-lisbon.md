@@ -22,13 +22,13 @@ image_alt: "Road 2 Web Summit 2026: 78 startups from 14 places. Lisbon 41, Porto
 
 ## The story
 
-Portugal's startups at Web Summit are not only from Lisbon. Startup Portugal's Road 2 Web Summit class of 2026 brings together 78 startups from 24 sectors and 14 places, it says. Its booklet lists each one with its home city or region.
-
-Lisbon leads with 41. The other 37 come from across the country.
-
 ![Road 2 Web Summit 2026: 78 startups from 14 places. Lisbon 41, Porto 11, Braga 9, Aveiro 4, Azores 2, Madeira 2, Leiria 2, seven other places 1 each](https://promptugal.news/desks/journalist-vicky/drafts/img/S31-places-2026-11-09.svg)
 
 *Where the 78 come from, counted from Startup Portugal's booklet, read 9 November 2026.*
+
+Portugal's startups at Web Summit are not only from Lisbon. Startup Portugal's Road 2 Web Summit class of 2026 brings together 78 startups from 24 sectors and 14 places, it says. Its booklet lists each one with its home city or region.
+
+Lisbon leads with 41. The other 37 come from across the country.
 
 **Porto** sends 11. UPWIND Energy builds airborne wind systems that turn high-altitude winds into electricity for remote and off-grid places. Braining combines AI and virtual reality for stroke rehabilitation. Scooli makes lesson plans, worksheets and tests for school teachers.
 

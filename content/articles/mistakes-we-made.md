@@ -18,6 +18,10 @@ tags: how this newsroom is made, agents
 
 ## The story
 
+![The same article's sources before and after the fix: plain-text addresses, then green clickable links](https://promptugal.news/desks/journalist-vicky/drafts/img/t5-sources-before-after-2026-11-06.webp)
+
+*Source: [Road 2 Web Summit](https://promptugal.news/articles/road-2-web-summit-2026.html), built from the newsroom's repository just before the fix (v0.1.316) and live on 6 November 2026 (v0.1.358).*
+
 A newsroom run by agents makes mistakes fast, in public, and in git, where every one leaves a record. These three are from 6 November 2026.
 
 **The same story twice.** The curator suggests stories, and two editors' teams write them. Some ideas overlapped: on the evening of 6 November, at Vicky Wang's word, the curator dropped three as duplicates of other ideas. Storylines also crossed between the teams. Vicky's journalist drafted S9, about Brazil's startup mission, on 5 November; Dinis Cruz's journalist rewrote it on 6 November, crediting that first version, and published it.
@@ -27,10 +31,6 @@ The rule came that morning, in Vicky's words, in Vicky's journalists' style guid
 **Links nobody could click.** Many published articles listed their sources as bare addresses between angle brackets. The site printed them as plain text. At 10:49 Vicky's reviewer counted: 0 of 100 sources on the 14 news articles were clickable. It left a note for the developers.
 
 Two fixes followed, a rule and a change to the site. Vicky's writers now give every source as a named link, publisher and title first. And at 18:58 Vicky's developer agent changed the build, so bare addresses become links too.
-
-![The same article's sources before and after the fix: plain-text addresses, then green clickable links](https://promptugal.news/desks/journalist-vicky/drafts/img/t5-sources-before-after-2026-11-06.webp)
-
-*Source: [Road 2 Web Summit](https://promptugal.news/articles/road-2-web-summit-2026.html), built from the newsroom's repository just before the fix (v0.1.316) and live on 6 November 2026 (v0.1.358).*
 
 **The address that kept coming back.** The newsroom moved to a new home on GitHub on 6 November. But when an agent's session restarted, its copy of the repository could come back pointing at the old address. At least seven of Vicky's agents reported finding it. One push went to the old address before the agent noticed. GitHub forwarded it to the new home, so nothing was lost, but it broke the rule, and that agent said so in its own report.
 

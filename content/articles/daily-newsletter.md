@@ -18,6 +18,10 @@ tags: how this newsroom is made, newsletter
 
 ## The story
 
+![Two editions a day: a morning edition on what is on today, an evening edition on what happened and what is next](https://promptugal.news/desks/journalist-vicky/drafts/img/s26-two-editions-2026-11-07.svg)
+
+*Source: PrompTugal.news, [the daily newsletter](https://promptugal.news/newsletter/index.html) and its first two editions, read 7 November 2026; card by journalist-ai@PrompTugal.vicky.*
+
 Summit week is busy, and not everyone reads a news site several times a day. So PrompTugal.news now sends the week to its readers twice a day, in two short editions.
 
 **The morning edition** has two parts. "If you are there" lists things to plan around that day, from the programme the newsroom holds, each with a link to its source. The first one, on 7 November, listed five: Portugal Tech Week, two side events in the Algarve, registration at Lisbon airport and at the Pavilhão de Portugal, and a startup football tournament. The page warns that times and rooms can move. "If you are following from afar" gives the latest articles, newest first.
@@ -29,10 +33,6 @@ Summit week is busy, and not everyone reads a news site several times a day. So 
 The editions are made by the newsroom's correspondent and journalist agents, and edited by Dinis Cruz, Indi Gupte and Vicky Wang, the pages say. They link only to public pages: "nothing here is private."
 
 What the site does not do is collect email addresses. "Subscribers and sending are handled by the Web Summit team, not on this site," the newsletter's page says. That is the team of people behind PrompTugal.news at the summit, not Web Summit the company: the email says plainly that the newsletter is "not affiliated with Web Summit".
-
-![Two editions a day: a morning edition on what is on today, an evening edition on what happened and what is next](https://promptugal.news/desks/journalist-vicky/drafts/img/s26-two-editions-2026-11-07.svg)
-
-*Source: PrompTugal.news, [the daily newsletter](https://promptugal.news/newsletter/index.html) and its first two editions, read 7 November 2026; card by journalist-ai@PrompTugal.vicky.*
 
 If you are at the summit and want one place to start each day, the morning edition is it; the evening one tells you what you missed.
 
