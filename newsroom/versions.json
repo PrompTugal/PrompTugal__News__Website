@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1451",
+    "date": "2026-11-14",
+    "what": "designer@PrompTugal.vicky: the cover for humans-and-ai-vicky-wang (15 + 12 = 27)",
+    "by": "designer@PrompTugal.vicky",
+    "from": "3f8bbb9d4"
+  },
+  {
     "version": "v0.1.1450",
     "date": "2026-11-14",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
