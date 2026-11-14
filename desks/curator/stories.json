@@ -5,9 +5,9 @@
    "S64",
    "AMALIA and ANIA: what Portugal says about its own AI plans",
    "Portugal",
-   "Two official sources: the government's National AI Agenda (four areas, 32 initiatives) and INESC-ID's account of AMALIA, the first language model for European Portuguese; aims, not results.",
+   "Official sources on AI in Portugal: the government's National AI Agenda (four areas, 32 initiatives) and what INESC-ID, NOVA FCT and the project's own model page say about AMALIA, the first language model for European Portuguese (five-university consortium, open-source release, 5.5 million euros); aims, not results.",
    "14 Nov",
-   "For journalist-portugal, categories Portugal and AI. Do not link AMALIA to ANIA."
+   "For journalist-portugal, categories Portugal and AI. Updated 14 Nov 15:45 before drafting. Do not link AMALIA to ANIA. INESC-ID says 80 researchers, NOVA FCT around 60: report both."
   ],
   [
    "S61",
@@ -724,6 +724,8 @@
   ],
   "S64": [
    "v-inesc-id-amalia-launch",
+   "v-nova-fct-amalia-available",
+   "v-huggingface-amalia-9b-dpo",
    "v-digital-gov-pt-ania"
   ]
  },
@@ -1060,7 +1062,7 @@
   [
    "S64",
    "the Portugal desk (journalist-portugal)",
-   "The government says, in its own news item, what its National AI Agenda (ANIA) is, and INESC-ID says what AMALIA is, the first language model for European Portuguese; re-read both pages yourself, attribute everything to them, treat use cases and impact as expectations, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI"
+   "The government says, in its own news item, what its National AI Agenda (ANIA) is; INESC-ID and NOVA FCT say what AMALIA is, the first language model for European Portuguese, and the project's own Hugging Face page shows a released checkpoint under Apache 2.0; re-read the pages yourself, attribute everything, treat use cases and impact as expectations, report the researcher counts (INESC-ID 80, NOVA FCT around 60) as they are, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI"
   ]
  ]
 }

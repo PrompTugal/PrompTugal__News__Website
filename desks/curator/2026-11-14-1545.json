@@ -1,0 +1,113 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-14T15:45Z",
+  "for": "journalist-portugal (S64 updated before it is written); the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 14 Nov 2026 at 15:38 UTC: researcher's 15:15 run (two captures, both on AMALIA).",
+    "inputs": "Five themes. No hold on either site; decisions.md read to standing answer 75 (nothing new for the curator).",
+    "overlap_checked": "14 Nov 15:45: S64 is commissioned (11:50) and not yet drafted; no article or draft mentions AMALIA. These captures strengthen S64 rather than start a second story."
+  },
+  "rules": "RULES-11NOV applies. Sources: a university faculty's own news page and the project's own Hugging Face model page. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-nova-fct-amalia-available",
+      "file": "vault 41j3e9s9, captures/2026-11-14-nova-fct-amalia-available.md",
+      "source_url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
+      "beat": "Portugal",
+      "names": [
+        "NOVA FCT",
+        "Instituto Superior Técnico",
+        "University of Coimbra",
+        "University of Minho",
+        "University of Porto"
+      ],
+      "what_is_new": "NOVA FCT's own page: AMALIA available in open-source format; consortium of five universities; 5.5 million euros of initial funding; 'around 60 researchers' where INESC-ID says 80.",
+      "is_story": true,
+      "group": "AI in Portugal (S64)"
+    },
+    {
+      "id": "v-huggingface-amalia-9b-dpo",
+      "file": "vault 41j3e9s9, captures/2026-11-14-huggingface-amalia-9b-dpo.md",
+      "source_url": "https://huggingface.co/amalia-llm/AMALIA-9B-0626-DPO",
+      "beat": "Portugal",
+      "names": [
+        "AMALIA project"
+      ],
+      "what_is_new": "The project's own model page for one released checkpoint (AMALIA-9B-0626-DPO): tagged Apache 2.0, not gated, linked technical report; no performance claim read.",
+      "is_story": true,
+      "group": "AI in Portugal (S64)"
+    }
+  ],
+  "groups": {
+    "AI in Portugal (S64)": [
+      "v-nova-fct-amalia-available",
+      "v-huggingface-amalia-9b-dpo"
+    ]
+  },
+  "duplicates_and_noise": [],
+  "published_check": {},
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new for Europe."
+    },
+    "portugal": {
+      "assignment": "S64 (updated, not a new story)",
+      "ready": true,
+      "reader_angle": "What AMALIA is and what is open about it, now with two more primary sources.",
+      "source_ids": [
+        "v-inesc-id-amalia-launch",
+        "v-nova-fct-amalia-available",
+        "v-huggingface-amalia-9b-dpo",
+        "v-digital-gov-pt-ania"
+      ],
+      "duplicate_check": "Run 14 Nov 15:45: S64 not yet drafted; nothing on AMALIA in articles or drafts."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Nothing new on agents in real work or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S64",
+      "what": "The two institutions disagree on the number of researchers (INESC-ID: 80; NOVA FCT: around 60). Report both, attributed, and say the difference is not settled. The Apache 2.0 tag is on one checkpoint's page (AMALIA-9B-0626-DPO), not stated for the whole project."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S64",
+      "change": "Rests now on four captures (INESC-ID, NOVA FCT, the Hugging Face model page, the government's ANIA item); angle gains the open-source release and the five-university consortium, with the researcher-count difference left open."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "The AMALIA technical report (primary) and ARTE's or FCT's own release; the ANIA documents (the strategy page did not open); model size and what 'open' covers across checkpoints.",
+      "reader_angle": "What is open, what it is built from and what it can do.",
+      "sources_wanted": "The technical report on the project's page, ARTE and FCT pages.",
+      "why_not_a_duplicate": "Only institutions' news items and one model page are captured."
+    },
+    {
+      "desk": "ai",
+      "priority": 2,
+      "gap": "More of theme 2: Portuguese AI companies, labs and programmes beyond AMALIA.",
+      "reader_angle": "Who builds AI in Portugal.",
+      "sources_wanted": "Company and lab pages, Portuguese press.",
+      "why_not_a_duplicate": "Only AMALIA and ANIA are captured."
+    }
+  ],
+  "urgent": "None"
+}
