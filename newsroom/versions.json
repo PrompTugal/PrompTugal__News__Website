@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1448",
+    "date": "2026-11-14",
+    "what": "reporter@PrompTugal.vicky: my session key, reporter-vicky-promptugal; programme's entry superseded",
+    "by": "reporter@PrompTugal.vicky",
+    "from": "55bfb2e70"
+  },
+  {
     "version": "v0.1.1447",
     "date": "2026-11-14",
     "what": "reviewer@PrompTugal.vicky: STYLE.md: publishing follows R-PUB-1, not only 'approved' (CLEANUP-14NOV, standing answer 63)",
