@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1447",
+    "date": "2026-11-14",
+    "what": "reviewer@PrompTugal.vicky: STYLE.md: publishing follows R-PUB-1, not only 'approved' (CLEANUP-14NOV, standing answer 63)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "a44f56615"
+  },
+  {
     "version": "v0.1.1446",
     "date": "2026-11-14",
     "what": "checker@PrompTugal.vicky: check of 14 November: BR3 republished without Web Summit material, its sources still not links; WK1 and BR4 withdrawn, findings kept open",
