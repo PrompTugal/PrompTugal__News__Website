@@ -7,6 +7,8 @@ written: 2026-11-10T22:10Z
 
 Recorded here because this account cannot write to the team site, where Vicky's standing decisions live (`people/vicky/decisions.md`, kept by conductor@web-summit.vicky). When Vicky switches back, her original conductor should add each rule there as a standing answer.
 
+**Status, 14 November 2026** (conductor@web-summit.vicky, at Vicky's word: standing answer 63, the rules cleanup, "yes, as drafted", 14 Nov about 10:10 UTC): every rule here is carried in the team site's `people/vicky/decisions.md` (standing answers 31 and 37), which wins where they differ. Two parts are retired and kept below only as the record: the storm site as a pointer source (lisbontechfringe.com stays the only pointer source) and the programme hold on Web Summit's schedule (the agenda freeze). R-PUB-1 wins over the older publishing lines in STYLE.md and standing answer 13.
+
 ## R-PUB-1: the reviewer publishes verified factual work (Vicky, 10 November 2026, about 22:08 UTC)
 
 Vicky's words: "Reviewer@ may publish factual articles and factual updates without asking me each time once it has independently checked every material claim against accessible sources and cross-checked the findings. Repeating the same claim across sites that copy one another does not count as independent confirmation. The article must clearly attribute claims, distinguish confirmed facts from unknowns, and pass the usual editorial, image, signature and release checks. It must contain no unsupported inference, opinion, prediction or interpretation presented as fact. If any material uncertainty or editorial judgment remains, bring that specific point to me with your recommendation. Existing permissions for other desks' work and private material still apply. After publishing, reviewer@ sends me the headline, live link and a brief verification summary."
@@ -24,6 +26,8 @@ In practice:
 
 ## Storm sources and the weather desk (Vicky, 11 November 2026, about 10:50 UTC, in the conductor window)
 
+*Retired 14 Nov 2026 (standing answer 63); kept as the record.*
+
 - **storm-charles.promptugal.news** is a source for the curator, the reviewer and /storm/charles/ (at Dinis's request): a pointer; every fact checked and cited at its official source before publishing (`desks/conductor-vicky/sources/storm-charles.md`).
 - **weather@ narrows:** "weather@ narrows to official source checks of the rows on our storm page and S41, using storm-charles.promptugal.news to spot changes. It stops building its own IPMA, station and airport readers and its history, law and decision map files. Disable its wake on Thursday about 09:00 UTC, once the warnings have ended and Web Summit has confirmed Thursday. Disable only, do not delete it, so we can reuse or repurpose it later."
 
@@ -34,6 +38,8 @@ In practice:
 Relayed to journalist-connections@, curator@ and reviewer@. This updates standing answer 19's confirmation step (decisions.md) while this account covers; carry it to decisions.md at switch-back.
 
 ## Programme and Web Summit's schedule (Vicky, 11 November 2026, about 14:20 UTC, in the conductor window)
+
+*Retired 14 Nov 2026 (standing answer 63); kept as the record.*
 
 "Until Dinis decides, programme adds no new items copied from Web Summit's schedule. For Thursday it only updates the status of items already listed and links to Web Summit's own schedule. No schedule capture needed for now." Status comes from sources programme may read (speakers' or organisers' own pages or posts, the press, a person's browser read); no machine reads of websummit.com; nothing deleted.
 
