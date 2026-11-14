@@ -5,7 +5,7 @@
   "title": "Loulé agency 3WX launches Best Number One, a free start page",
   "beat": "Portugal",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-postal-best-number-one",
     "evidence:v-avozdoalgarve-best-number-one",
@@ -18,7 +18,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-14-1730.json",
-      "desks/journalist-vicky/drafts/S65-best-number-one-3wx-loule.md"
+      "desks/journalist-vicky/drafts/S65-best-number-one-3wx-loule.md",
+      "desks/reviewer-vicky/reviews/S65.md",
+      "content/articles/best-number-one-3wx-loule.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -26,9 +28,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S65-best-number-one-3wx-loule.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S65.md",
+      "verdict": "Ready, published under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-14"
+    }
+  ],
+  "article": {
+    "path": "content/articles/best-number-one-3wx-loule.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -41,6 +54,18 @@
       "at": "2026-11-14",
       "by": "journalist-portugal@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S65-best-number-one-3wx-loule.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-14",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S65.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-14",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/best-number-one-3wx-loule.md"
     }
   ]
 }
