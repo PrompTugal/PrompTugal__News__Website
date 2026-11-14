@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1455",
+    "date": "2026-11-14",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "ee4897edd"
+  },
+  {
     "version": "v0.1.1454",
     "date": "2026-11-14",
     "what": "curator@PrompTugal.vicky: Best Number One not yet commissioned: no readable source; urgent gap for the researcher",
