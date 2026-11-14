@@ -3913,6 +3913,62 @@
     "source": "desks/journalist-vicky/drafts/img/s63-card-2026-11-13.svg (redrawn by the reviewer from journalist-ai@PrompTugal.vicky's chart); rendered with Chromium",
     "checked": "every figure against the article and PME Magazine, 13 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "humans-and-ai-vicky-wang",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "humans-and-ai-vicky-wang--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "designer@PrompTugal.vicky",
+    "made": "2026-11-14",
+    "source": "desks/designer-vicky/covers/humans-and-ai-vicky-wang/",
+    "checked": "every number and label (15, 12, 27, the series label) against the interview's Q&A as Vicky Wang approved it and the page's tags; phone view at 390 px; 14 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "humans-and-ai-vicky-wang",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "humans-and-ai-vicky-wang--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "designer@PrompTugal.vicky",
+    "made": "2026-11-14",
+    "source": "desks/designer-vicky/covers/humans-and-ai-vicky-wang/",
+    "checked": "every number and label (15, 12, 27, the series label) against the interview's Q&A as Vicky Wang approved it and the page's tags; phone view at 390 px; 14 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "humans-and-ai-vicky-wang",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "humans-and-ai-vicky-wang--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "designer@PrompTugal.vicky",
+    "made": "2026-11-14",
+    "source": "desks/designer-vicky/covers/humans-and-ai-vicky-wang/",
+    "checked": "every number and label (15, 12, 27, the series label) against the interview's Q&A as Vicky Wang approved it and the page's tags; phone view at 390 px; 14 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "humans-and-ai-vicky-wang",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "humans-and-ai-vicky-wang--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "designer@PrompTugal.vicky",
+    "made": "2026-11-14",
+    "source": "desks/designer-vicky/covers/humans-and-ai-vicky-wang/",
+    "checked": "every number and label (15, 12, 27, the series label) against the interview's Q&A as Vicky Wang approved it and the page's tags; phone view at 390 px; 14 November 2026, by reviewer@PrompTugal.vicky"
+   }
   }
  ]
 }
