@@ -1,3 +1,5 @@
+**No longer applies to covers (standing answer 82, 14 Nov 2026): the reviewer draws covers; see desks/reviewer-vicky/covers/STYLE.md.**
+
 # One cover style for Vicky's desks
 
 **Approved by Vicky, 14 Nov 2026** (standing answer 79: "Approve the cover style with all four of the reviewer's changes."). The four changes are written into the sections below; the "Reviewer's notes" section at the end stays as the record.
