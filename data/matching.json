@@ -1759,6 +1759,11 @@
     ],
     "unmatched": [
       {
+        "as_listed": "3WX",
+        "ref": "organisation:3wx",
+        "count": 3
+      },
+      {
         "as_listed": "3xP Global",
         "ref": "organisation:3xp-global",
         "count": 1
@@ -1766,6 +1771,11 @@
       {
         "as_listed": "3xP Global (Impact Innovation Fund)",
         "ref": "organisation:3xp-global",
+        "count": 1
+      },
+      {
+        "as_listed": "A Voz do Algarve",
+        "ref": "organisation:a-voz-do-algarve",
         "count": 1
       },
       {
@@ -1837,6 +1847,11 @@
         "as_listed": "Banco Português de Fomento",
         "ref": "organisation:banco-portugues-de-fomento",
         "count": 1
+      },
+      {
+        "as_listed": "Best Number One",
+        "ref": "organisation:best-number-one",
+        "count": 3
       },
       {
         "as_listed": "BloodFlow",
@@ -2131,6 +2146,11 @@
       {
         "as_listed": "Portuguese government",
         "ref": "organisation:portuguese-government",
+        "count": 1
+      },
+      {
+        "as_listed": "Postal do Algarve",
+        "ref": "organisation:postal-do-algarve",
         "count": 1
       },
       {

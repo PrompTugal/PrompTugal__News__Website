@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-avozdoalgarve-best-number-one",
+  "type": "evidence",
+  "source_url": "https://www.avozdoalgarve.pt/d/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-2026/98951",
+  "beat": "Portugal",
+  "group": "Best Number One",
+  "names": [
+    {
+      "as_listed": "3WX",
+      "ref": "organisation:3wx"
+    },
+    {
+      "as_listed": "Best Number One",
+      "ref": "organisation:best-number-one"
+    },
+    {
+      "as_listed": "A Voz do Algarve",
+      "ref": "organisation:a-voz-do-algarve"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-14-1730.json",
+  "run": "2026-11-14T17:30Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-14-1730.json"
+    ]
+  }
+}

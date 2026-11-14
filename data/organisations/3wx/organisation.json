@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "3wx",
+  "type": "organisation",
+  "name": "3WX",
+  "names_as_listed": [
+    "3WX"
+  ],
+  "sources": [
+    {
+      "url": "https://postal.pt/algarve/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-e-ultrapassa-300-inscricoes/",
+      "read_at": "2026-11-14T17:30Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://www.avozdoalgarve.pt/d/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-2026/98951",
+      "read_at": "2026-11-14T17:30Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://www.bestnumberone.com/",
+      "read_at": "2026-11-14T17:30Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

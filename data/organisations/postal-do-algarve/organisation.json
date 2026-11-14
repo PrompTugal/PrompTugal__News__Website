@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "postal-do-algarve",
+  "type": "organisation",
+  "name": "Postal do Algarve",
+  "names_as_listed": [
+    "Postal do Algarve"
+  ],
+  "sources": [
+    {
+      "url": "https://postal.pt/algarve/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-e-ultrapassa-300-inscricoes/",
+      "read_at": "2026-11-14T17:30Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

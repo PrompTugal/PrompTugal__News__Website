@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S65",
+  "type": "story",
+  "title": "Loulé agency 3WX launches Best Number One, a free start page",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-postal-best-number-one",
+    "evidence:v-avozdoalgarve-best-number-one",
+    "evidence:v-best-number-one-own-site"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-14-1730.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-14-1730.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-14T17:30Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-14-1730.json"
+    }
+  ]
+}
