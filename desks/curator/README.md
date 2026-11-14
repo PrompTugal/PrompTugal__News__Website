@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Saturday 14 November 2026, 15:37 UTC.
+Last updated: Saturday 14 November 2026, 17:18 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
 
@@ -30,6 +30,7 @@ Last updated: Saturday 14 November 2026, 15:37 UTC.
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
+| S65 | Loulé agency 3WX launches Best Number One, a free start page | Portugal | 14 Nov |
 | S64 | AMALIA and ANIA: what Portugal says about its own AI plans | Portugal | 14 Nov |
 | S61 | Humanos wins Road 2 Web Summit's top prize, 15,000 euros (published 13 Nov) | Portugal | 12 Nov |
 | S60 | What PagerDuty says it learned running AI agents in production (published 12 Nov) | AI and robotics | 12 Nov |
@@ -86,6 +87,16 @@ Last updated: Saturday 14 November 2026, 15:37 UTC.
 | S3 | Road 2 Web Summit: Portugal's startups head for Lisbon | Portugal | 4 Nov |
 | S2 | Europe arrives in Pavilion 4: the Commission's week at Web Summit (withdrawn 11 Nov) | Europe | 4 Nov |
 | S1 | Web Summit Lisbon: your first day, from airport to arena | The summit | 4 Nov |
+
+## S65: Loulé agency 3WX launches Best Number One, a free start page
+
+Portugal, added 14 Nov. A Loulé agency, 3WX, says it presented Best Number One, a free start page for organising links, at Web Summit 2026 and passed 300 sign-ups; the figures and the launch claim are the company's, relayed by two regional papers. For journalist-portugal (Vicky's urgent request), categories Web Summit 2026 and Portugal. The two papers count as one source: attribute everything.
+
+Sources:
+
+- [Postal do Algarve (regional newspaper), "Empresa de Loulé lança plataforma Best Number One no Web Summit e ultrapassa 300 inscrições"](https://postal.pt/algarve/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-e-ultrapassa-300-inscricoes/), read 14 November 2026
+- [A Voz do Algarve (regional news site), "Empresa de Loulé lança plataforma Best Number One no Web Summit 2026"](https://www.avozdoalgarve.pt/d/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-2026/98951), read 14 November 2026
+- [Best Number One (the platform's own site, a project of the agency 3WX), "Best Number One: Página inicial grátis para organizar os seus links"](https://www.bestnumberone.com/), read 14 November 2026
 
 ## S64: AMALIA and ANIA: what Portugal says about its own AI plans
 
@@ -600,6 +611,7 @@ For the five journalists, in priority order (standing answers 20 and 22, the des
 Ready to write now:
 
 1. S64, AMALIA and ANIA: what Portugal says about its own AI plans: for the Portugal desk (journalist-portugal). The government says, in its own news item, what its National AI Agenda (ANIA) is; INESC-ID and NOVA FCT say what AMALIA is, the first language model for European Portuguese, and the project's own Hugging Face page shows a released checkpoint under Apache 2.0; re-read the pages yourself, attribute everything, treat use cases and impact as expectations, report the researcher counts (INESC-ID 80, NOVA FCT around 60) as they are, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI.
+2. S65, Loulé agency 3WX launches Best Number One, a free start page: for the Portugal desk (journalist-portugal). 3WX says it launched the free start page Best Number One at Web Summit 2026 and passed 300 sign-ups; re-read the three pages yourself, count the two newspapers as one source, attribute the sign-ups and the launch to the company, give no founder name or contact details, cite no Web Summit page, do not call it a startup or exhibitor; short and plain; categories Web Summit 2026 and Portugal.
 
 Already published, not to be written again: S61 (https://promptugal.news/articles/humanos-road-2-web-summit-winner.html); S60 (https://promptugal.news/articles/pagerduty-agents-in-production.html); S59 (https://promptugal.news/articles/discord-lisbon-engineering-hub.html); S58 (https://promptugal.news/articles/thursday-last-day-guide.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S42 (https://promptugal.news/articles/what-lovable-deleted.html); S49 (https://promptugal.news/articles/europe-in-pavilion-4.html); S56 (https://promptugal.news/articles/digital-fairness-act-ai-agents.html); S53 (https://promptugal.news/articles/eu-election-guidelines-generative-ai.html); S55 (https://promptugal.news/articles/tiktok-for-you-dsa-preliminary-finding.html); S52 (https://promptugal.news/articles/konecta-lisbon-delivery-centre.html); S54 (https://promptugal.news/articles/breakout-startups-thursday-centre-stage.html); S46 (https://promptugal.news/articles/zalando-ai-coding-agents.html); S48 (https://promptugal.news/articles/manus-2-0-agents-own-email-phone-wallet.html); S50 (https://promptugal.news/articles/ai-act-first-harmonised-standard.html); S51 (https://promptugal.news/articles/getting-around-lisbon-wednesday.html); S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html).
 

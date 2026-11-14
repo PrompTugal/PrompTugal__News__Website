@@ -1,0 +1,122 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-14T17:30Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9, pulled 14 Nov 2026 at 17:25 UTC: the researcher's three captures on Best Number One (team-site commit 0413e963b).",
+    "inputs": "Vicky's urgent request (14 Nov about 15:05 and 15:10 UTC, standing answer 76), tasks 2026-11-14-1505 and 2026-11-14-1720.",
+    "overlap_checked": "14 Nov 17:30: no article, draft, map or capture other than these three mentions Best Number One or 3WX."
+  },
+  "rules": "RULES-11NOV applies. Sources: two regional newspapers and the platform's own page; no Web Summit page was read or is cited. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-postal-best-number-one",
+      "file": "vault 41j3e9s9, captures/2026-11-14-postal-best-number-one.md",
+      "source_url": "https://postal.pt/algarve/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-e-ultrapassa-300-inscricoes/",
+      "beat": "Portugal",
+      "names": [
+        "3WX",
+        "Best Number One",
+        "Postal do Algarve"
+      ],
+      "what_is_new": "Postal do Algarve (12 Nov): the Loulé agency 3WX presented the free platform Best Number One at Web Summit 2026 and it passed 300 sign-ups in the first hours; what it does; the chief executive's quote.",
+      "is_story": true,
+      "group": "Best Number One"
+    },
+    {
+      "id": "v-avozdoalgarve-best-number-one",
+      "file": "vault 41j3e9s9, captures/2026-11-14-avozdoalgarve-best-number-one.md",
+      "source_url": "https://www.avozdoalgarve.pt/d/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-2026/98951",
+      "beat": "Portugal",
+      "names": [
+        "3WX",
+        "Best Number One",
+        "A Voz do Algarve"
+      ],
+      "what_is_new": "A Voz do Algarve's earlier version of the same story, drawn from the same company wording; same quote; counts with Postal as one source.",
+      "is_story": true,
+      "group": "Best Number One"
+    },
+    {
+      "id": "v-best-number-one-own-site",
+      "file": "vault 41j3e9s9, captures/2026-11-14-best-number-one-own-site.md",
+      "source_url": "https://www.bestnumberone.com/",
+      "beat": "Portugal",
+      "names": [
+        "3WX",
+        "Best Number One"
+      ],
+      "what_is_new": "The platform's own home page: free start page, panels and blocks by theme, ten templates, widgets, bookmark import; 'free forever', no tracking, no ads, made in Portugal; a project of 3WX.",
+      "is_story": true,
+      "group": "Best Number One"
+    }
+  ],
+  "groups": {
+    "Best Number One": [
+      "v-postal-best-number-one",
+      "v-avozdoalgarve-best-number-one",
+      "v-best-number-one-own-site"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "Postal do Algarve and A Voz do Algarve",
+      "verdict": "one source",
+      "why": "They share the chief executive's quote and look drawn from the same company wording, so they count once."
+    }
+  ],
+  "published_check": {},
+  "desk_review": {
+    "portugal": {
+      "assignment": "S65",
+      "ready": true,
+      "reader_angle": "People in the Algarve and anyone looking for a free way to organise their links: who made it, what it does, and what its makers say about its launch.",
+      "source_ids": [
+        "v-postal-best-number-one",
+        "v-avozdoalgarve-best-number-one",
+        "v-best-number-one-own-site"
+      ],
+      "duplicate_check": "Run 14 Nov 17:30: nothing on Best Number One or 3WX in articles, drafts, maps or the vault before the three captures."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S65",
+      "kind": "team-desk",
+      "title": "Loulé agency 3WX launches Best Number One, a free start page",
+      "beat": "Portugal",
+      "categories": [
+        "Web Summit 2026",
+        "Portugal"
+      ],
+      "angle": "A Loulé digital agency, 3WX, says it presented Best Number One, a free start page for organising favourite links, at Web Summit 2026 on 12 November, and that it passed 300 sign-ups in the first hours. What the platform does, in its own words, and who says what: the figures and the launch claim come from the company, relayed by two regional papers.",
+      "rests_on": [
+        "v-postal-best-number-one",
+        "v-avozdoalgarve-best-number-one",
+        "v-best-number-one-own-site"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal (Vicky's urgent request, standing answer 76). Ready. Conditions: re-read the three pages yourself; the two newspapers count as one source (same quote, same company wording); attribute the 300 sign-ups and the launch at Web Summit to the company, as the reports give them (3WX says, according to Postal do Algarve), never as fact; the platform's description is from its own page; no founder's name, no contact details; no Web Summit page cited (link to Web Summit's own pages only if needed, do not copy); no claim that it is a startup or an exhibitor; short and plain (STYLE.md); categories Web Summit 2026 and Portugal (Startups & Scaleups is not supported by the sources)."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S65",
+      "what": "The 300 sign-ups and the presentation at Web Summit 2026 come from the company through two papers drawn from one wording; no independent report or count was found. The platform's own page counts its links (642 selected sites): do not present that as users."
+    }
+  ],
+  "revisions": [],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "Any independent report or Web Summit-side acknowledgement of the presentation (press or the organisers' own posts, not websummit.com by machine); 3WX's own page on the launch.",
+      "reader_angle": "Whether the launch is confirmed beyond the company.",
+      "sources_wanted": "Press, 3WX's own site or posts.",
+      "why_not_a_duplicate": "Only the company's wording, twice, and its own page are captured."
+    }
+  ],
+  "urgent": "None"
+}
