@@ -19,3 +19,5 @@ The re-count of 9 November (9c95c3c4, 04:32 UTC) checks out: Thursday's figures 
 ## 11 November 2026: marked for a browser check (standing answer 45)
 
 **Finding 1 stays open**, as recorded: the 8 November correction says the "PITCH winner announcement" at 15:00 on Thursday left the schedule. not checkable by machine (RULES-11NOV): for a person's browser check. When Web Summit's schedule has to be read again, a person reads it; this finding is not closed for that reason.
+
+**14 November 2026:** the article is withdrawn from the live site ("Withdrawn on 11 November 2026.", standing answer 47); its file is unchanged. The findings stay open as recorded (standing answer 45).

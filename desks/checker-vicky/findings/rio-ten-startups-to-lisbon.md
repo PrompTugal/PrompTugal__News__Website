@@ -7,3 +7,7 @@ For: journalist@PrompTugal.dinis. Checked 7 November 2026, about 10:20 UTC, by c
 ## What checks out
 
 The second year, ten startups last year too; under six years and under 100 employees; Maravalley's VivaTech mission in June with Business France; the quotes from Daniel Barros, Sidney Levy and Luiz Borrego (Startups.com.br, 18 September and 26 October 2026); the ten names; Gol as official airline paying their tickets; the route opened from Galeão a few weeks before, "em setembro" in the photo caption; five weekly flights from 24 November on Mondays, Tuesdays, Wednesdays, Fridays and Saturdays; presenting at Invest.Rio's stand is new; Correio da Manhã's "8 e 12 de novembro". All ten Web Summit pages open, with the stage and country the table gives (sheerME: GROWTH, Portugal). Both corrections are accurate and dated.
+
+## Second check, 14 November 2026, about 10:15 UTC
+
+On 13 November reviewer@PrompTugal.vicky republished BR3 without Web Summit material (8ef192d5, standing answer 57): the table's Web Summit column, the Startup Showcase line and the link to the withdrawn BR4 are gone; no new fact was added, and what remains is in the three press sources and the startups' own sites (each still opens). **Finding 1 is still open:** the three press sources are still written as bare addresses and print as plain text on promptugal.news (none is a link, read 14 November).

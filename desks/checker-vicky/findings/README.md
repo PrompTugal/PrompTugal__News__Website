@@ -57,3 +57,9 @@ Nothing to flag for Dinis's agents in this range: every push went to `dev` throu
 ## Kept open for a browser check, 11 November 2026
 
 At Vicky's word (standing answer 45): WK1, BR4, S3 and S11 stay open as recorded, each marked "not checkable by machine (RULES-11NOV): for a person's browser check", in [plan-your-week-by-field](plan-your-week-by-field.md), [brazil-on-the-stages](brazil-on-the-stages.md), [road-2-web-summit-2026](road-2-web-summit-2026.md) and [italy-and-portugal-in-beato](italy-and-portugal-in-beato.md). None is closed for that reason.
+
+## Checks after 11 November
+
+- **12 November 2026, about 10:10 UTC:** nothing in scope had changed (18 changed articles, all by Vicky's desks).
+- **12 November 2026, 18:10 UTC:** stopped for Dinis's hand brake (`board/HOLD.md`, 15:15 UTC); no work.
+- **14 November 2026, about 10:15 UTC** (from 12 November, 10:05 UTC, to `d8057665`; the hold was lifted on 13 November, 14:31 UTC, at Dinis's word, f2687c2a): 1 article in scope. [rio-ten-startups-to-lisbon](rio-ten-startups-to-lisbon.md) (BR3): republished without Web Summit material, nothing new to check; its sources are still not links (open). WK1 and BR4 are now withdrawn from the live site; their findings stay open (standing answer 45). Still open: BR3, BR1, BR6, BR2, WK1, BR4 and the older findings on S3, S4, S9, S11, S13, S17 and the name draft. The next check starts after `d8057665`.

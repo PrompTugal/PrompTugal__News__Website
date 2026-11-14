@@ -12,3 +12,5 @@ Every official's name, title, organisation, day, time and stage; the two journal
 ## 11 November 2026: marked for a browser check (standing answer 45)
 
 **Findings 1 and 2 stay open**, as recorded ("main and masterclass stages": no official is on Centre Stage; four of the "stages" named are tracks). Both rest on Web Summit's session pages. not checkable by machine (RULES-11NOV): for a person's browser check. This finding is not closed for that reason.
+
+**14 November 2026:** the article is withdrawn from the live site ("Withdrawn on 11 November 2026.", standing answer 47); its file is unchanged. The findings stay open as recorded (standing answer 45).
