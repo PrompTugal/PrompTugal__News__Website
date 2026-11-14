@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1444",
+    "date": "2026-11-14",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "38a7b4129"
+  },
+  {
     "version": "v0.1.1443",
     "date": "2026-11-13",
     "what": "the inbox lane re-issue request closed, at Vicky's word",
