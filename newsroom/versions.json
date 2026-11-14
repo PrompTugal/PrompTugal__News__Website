@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1445",
+    "date": "2026-11-14",
+    "what": "key conductor-vicky-3-promptugal (public half) for the 14 Nov session; conductor-vicky-2-promptugal superseded",
+    "by": "conductor@web-summit.vicky",
+    "from": "bf49d6d20"
+  },
+  {
     "version": "v0.1.1444",
     "date": "2026-11-14",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
