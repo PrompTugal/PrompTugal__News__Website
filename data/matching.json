@@ -1719,7 +1719,7 @@
       {
         "as_listed": "European Commission",
         "ref": "company:european-commission",
-        "count": 5
+        "count": 6
       },
       {
         "as_listed": "European Commission (DG CONNECT, DG GROW)",
@@ -1841,6 +1841,11 @@
       {
         "as_listed": "Caixa Capital",
         "ref": "organisation:caixa-capital",
+        "count": 1
+      },
+      {
+        "as_listed": "Carevision",
+        "ref": "organisation:carevision",
         "count": 1
       },
       {
@@ -2016,7 +2021,7 @@
       {
         "as_listed": "Konecta",
         "ref": "organisation:konecta",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Lovable",
@@ -2037,6 +2042,11 @@
         "as_listed": "ModelBest",
         "ref": "organisation:modelbest",
         "count": 2
+      },
+      {
+        "as_listed": "Moola",
+        "ref": "organisation:moola",
+        "count": 1
       },
       {
         "as_listed": "Netherlands Enterprise Agency (RVO)",
@@ -2221,6 +2231,11 @@
       {
         "as_listed": "Zalando",
         "ref": "organisation:zalando",
+        "count": 1
+      },
+      {
+        "as_listed": "Zoyk",
+        "ref": "organisation:zoyk",
         "count": 1
       },
       {

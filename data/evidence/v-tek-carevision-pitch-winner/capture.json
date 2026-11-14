@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-tek-carevision-pitch-winner",
+  "type": "evidence",
+  "source_url": "https://tek.sapo.pt/noticias/internet/artigos/carevision-vence-pitch-do-web-summit-2026-com-tecnologia-que-transforma-a-camara-do-telemovel-num-scanner-de-saude/",
+  "beat": "Portugal",
+  "group": "summit news, held",
+  "names": [
+    {
+      "as_listed": "Carevision",
+      "ref": "organisation:carevision"
+    },
+    {
+      "as_listed": "Zoyk",
+      "ref": "organisation:zoyk"
+    },
+    {
+      "as_listed": "Moola",
+      "ref": "organisation:moola"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-14-0745.json",
+  "run": "2026-11-14T07:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-14-0745.json"
+    ]
+  }
+}

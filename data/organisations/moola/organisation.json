@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "moola",
+  "type": "organisation",
+  "name": "Moola",
+  "names_as_listed": [
+    "Moola"
+  ],
+  "sources": [
+    {
+      "url": "https://tek.sapo.pt/noticias/internet/artigos/carevision-vence-pitch-do-web-summit-2026-com-tecnologia-que-transforma-a-camara-do-telemovel-num-scanner-de-saude/",
+      "read_at": "2026-11-14T07:45Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

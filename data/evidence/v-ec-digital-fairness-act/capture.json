@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-ec-digital-fairness-act",
+  "type": "evidence",
+  "source_url": "https://commission.europa.eu/news-and-media/news/making-your-online-experience-fairer-2026-11-11_en",
+  "beat": "Europe",
+  "group": "Europe, already published (S56)",
+  "names": [
+    {
+      "as_listed": "European Commission",
+      "ref": "company:european-commission"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-14-0745.json",
+  "run": "2026-11-14T07:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-14-0745.json"
+    ]
+  }
+}
