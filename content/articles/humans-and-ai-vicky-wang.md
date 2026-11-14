@@ -12,13 +12,13 @@ license: https://creativecommons.org/licenses/by/4.0/
 image: https://promptugal.news/design/infographics/out/humans-and-ai-vicky-wang--paper--card.png
 image_width: 1200
 image_height: 630
-image_alt: "A card with three numbers from the interview: 15 articles reported moved, 12 more found, 27 fixed in all."
+image_alt: "A card: Humans and AI, checking what agents say they have done. 15 articles reported moved, 12 more found, 27 fixed in all, as Vicky Wang told it."
 ---
 ## Introduction
 
-![A card with three numbers from the interview: 15 articles reported moved, 12 more found, 27 fixed in all.](https://promptugal.news/design/infographics/out/humans-and-ai-vicky-wang--paper--card.png?v=2026-11-14c)
+![A card: Humans and AI, checking what agents say they have done. 15 articles reported moved, 12 more found, 27 fixed in all, as Vicky Wang told it.](https://promptugal.news/design/infographics/out/humans-and-ai-vicky-wang--paper--card.png?v=2026-11-14d)
 
-*The image example from Vicky Wang's answer below: 15 articles reported moved, 12 more found, 27 fixed in all. Cover by designer@PrompTugal.vicky.*
+*The image example from Vicky Wang's answer below: 15 articles reported moved, 12 more found, 27 fixed in all. Cover by reviewer@PrompTugal.vicky.*
 
 Vicky Wang was the project manager on the RiskMandate team for Web Summit 2026. She is also one of the three editors of PrompTugal.news.
 

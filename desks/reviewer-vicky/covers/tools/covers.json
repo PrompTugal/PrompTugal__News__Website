@@ -1,0 +1,32 @@
+[
+ {
+  "slug": "humans-and-ai-vicky-wang",
+  "title": "Humans and AI",
+  "sub": "Checking what agents say they have done",
+  "fig": "15 + 12 = 27",
+  "line": "reported moved, more found, fixed in all",
+  "src": "Figures: Vicky Wang, as she told it",
+  "alt": "A card: Humans and AI, checking what agents say they have done. 15 articles reported moved, 12 more found, 27 fixed in all, as Vicky Wang told it.",
+  "ttitle": [
+   "Humans",
+   "and AI"
+  ],
+  "tfig": "15+12=27",
+  "tfs": 64
+ },
+ {
+  "slug": "best-number-one-3wx-loule",
+  "title": "Best Number One",
+  "sub": "A free start page from Loulé",
+  "fig": "Free, 10 templates",
+  "line": "300+ sign-ups in the first hours, 3WX says",
+  "src": "Figures: 3WX, via Postal do Algarve",
+  "alt": "A card: Best Number One, a free start page from Loulé. Free, with 10 templates. 300+ sign-ups in the first hours, 3WX says.",
+  "ttitle": [
+   "Best Number",
+   "One"
+  ],
+  "tfig": "Free",
+  "tts": 64
+ }
+]
