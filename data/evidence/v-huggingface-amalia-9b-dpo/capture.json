@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-huggingface-amalia-9b-dpo",
+  "type": "evidence",
+  "source_url": "https://huggingface.co/amalia-llm/AMALIA-9B-0626-DPO",
+  "beat": "Portugal",
+  "group": "AI in Portugal (S64)",
+  "names": [
+    {
+      "as_listed": "AMALIA project",
+      "ref": "organisation:amalia-project"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-14-1545.json",
+  "run": "2026-11-14T15:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-14-1545.json"
+    ]
+  }
+}

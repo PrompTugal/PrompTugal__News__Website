@@ -1779,6 +1779,11 @@
         "count": 1
       },
       {
+        "as_listed": "AMALIA project",
+        "ref": "organisation:amalia-project",
+        "count": 1
+      },
+      {
         "as_listed": "ARTE",
         "ref": "organisation:arte",
         "count": 1
@@ -2001,7 +2006,7 @@
       {
         "as_listed": "Instituto Superior Técnico",
         "ref": "organisation:instituto-superior-tecnico",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Instituto Superior Técnico (Universidade de Lisboa)",
@@ -2066,6 +2071,11 @@
       {
         "as_listed": "Moola",
         "ref": "organisation:moola",
+        "count": 1
+      },
+      {
+        "as_listed": "NOVA FCT",
+        "ref": "organisation:nova-fct",
         "count": 1
       },
       {
@@ -2221,12 +2231,17 @@
       {
         "as_listed": "University of Coimbra",
         "ref": "organisation:university-of-coimbra",
+        "count": 2
+      },
+      {
+        "as_listed": "University of Minho",
+        "ref": "organisation:university-of-minho",
         "count": 1
       },
       {
         "as_listed": "University of Porto",
         "ref": "organisation:university-of-porto",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Web Summit",

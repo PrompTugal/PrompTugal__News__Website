@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-nova-fct-amalia-available",
+  "type": "evidence",
+  "source_url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
+  "beat": "Portugal",
+  "group": "AI in Portugal (S64)",
+  "names": [
+    {
+      "as_listed": "NOVA FCT",
+      "ref": "organisation:nova-fct"
+    },
+    {
+      "as_listed": "Instituto Superior Técnico",
+      "ref": "organisation:instituto-superior-tecnico"
+    },
+    {
+      "as_listed": "University of Coimbra",
+      "ref": "organisation:university-of-coimbra"
+    },
+    {
+      "as_listed": "University of Minho",
+      "ref": "organisation:university-of-minho"
+    },
+    {
+      "as_listed": "University of Porto",
+      "ref": "organisation:university-of-porto"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-14-1545.json",
+  "run": "2026-11-14T15:45Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-14-1545.json"
+    ]
+  }
+}
