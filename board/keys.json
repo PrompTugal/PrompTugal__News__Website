@@ -1714,7 +1714,8 @@
         "fingerprint": "sha256:6c3714526c6ab772",
         "signing_fingerprint": "sha256:962def922dc5c2b7"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-14T10:40Z by internal-vicky in the team site's data/keys.json (the same session, repurposed as internal@web-summit.vicky at Vicky's word, 14 November 2026, standing answer 34)"
     },
     {
       "id": "journalist-europe-vicky-promptugal-c",
