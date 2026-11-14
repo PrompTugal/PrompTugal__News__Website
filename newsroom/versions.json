@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1449",
+    "date": "2026-11-14",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "032c0e32d"
+  },
+  {
     "version": "v0.1.1448",
     "date": "2026-11-14",
     "what": "reporter@PrompTugal.vicky: my session key, reporter-vicky-promptugal; programme's entry superseded",
