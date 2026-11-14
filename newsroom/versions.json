@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1465",
+    "date": "2026-11-14",
+    "what": "designer@PrompTugal.vicky: the cover style approved with the reviewer's four changes; the interview and S65 covers redrawn",
+    "by": "designer@PrompTugal.vicky",
+    "from": "898cfe9dc"
+  },
+  {
     "version": "v0.1.1464",
     "date": "2026-11-14",
     "what": "request to dev@PrompTugal.dinis: height: auto on img in assets/site.css, so body cover images are not stretched on a phone",
