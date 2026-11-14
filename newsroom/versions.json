@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1446",
+    "date": "2026-11-14",
+    "what": "checker@PrompTugal.vicky: check of 14 November: BR3 republished without Web Summit material, its sources still not links; WK1 and BR4 withdrawn, findings kept open",
+    "by": "checker@PrompTugal.vicky",
+    "from": "0dcba84e7"
+  },
+  {
     "version": "v0.1.1445",
     "date": "2026-11-14",
     "what": "key conductor-vicky-3-promptugal (public half) for the 14 Nov session; conductor-vicky-2-promptugal superseded",
