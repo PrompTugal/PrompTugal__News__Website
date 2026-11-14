@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`.",
  "stories": [
   [
+   "S64",
+   "AMALIA and ANIA: what Portugal says about its own AI plans",
+   "Portugal",
+   "Two official sources: the government's National AI Agenda (four areas, 32 initiatives) and INESC-ID's account of AMALIA, the first language model for European Portuguese; aims, not results.",
+   "14 Nov",
+   "For journalist-portugal, categories Portugal and AI. Do not link AMALIA to ANIA."
+  ],
+  [
    "S61",
    "Humanos wins Road 2 Web Summit's top prize, 15,000 euros",
    "Portugal",
@@ -713,6 +721,10 @@
   "S61": [
    "v-tek-road-2-winner",
    "v-psn-humanos-seed"
+  ],
+  "S64": [
+   "v-inesc-id-amalia-launch",
+   "v-digital-gov-pt-ania"
   ]
  },
  "DROPPED": {
@@ -855,7 +867,9 @@
   "S49",
   "S54"
  ],
- "READY": [],
+ "READY": [
+  "S64"
+ ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
   "S47": "published as an update"
@@ -1042,5 +1056,11 @@
    "2026-11-07 11:55"
   ]
  },
- "ASSIGN": []
+ "ASSIGN": [
+  [
+   "S64",
+   "the Portugal desk (journalist-portugal)",
+   "The government says, in its own news item, what its National AI Agenda (ANIA) is, and INESC-ID says what AMALIA is, the first language model for European Portuguese; re-read both pages yourself, attribute everything to them, treat use cases and impact as expectations, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI"
+  ]
+ ]
 }

@@ -1,0 +1,125 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-14T11:50Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis; the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 14 Nov 2026 at 11:37 UTC: researcher's 11:15 run (two captures on the map of AI in Portugal, theme 2 of standing answer 58).",
+    "inputs": "Five themes (SA58-THEMES). No hold on either site. Story ids S62 and S63 belong to the Humans and AI pieces (journalist-ai); this run continues from S64.",
+    "overlap_checked": "14 Nov 11:50: no article or draft mentions AMALIA or the National AI Agenda (ANIA); the Portugal AI articles (Discord S59, Humanos S61) are single companies."
+  },
+  "rules": "RULES-11NOV applies. Both sources are official (a research institute's own news page and the government's digital portal). The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-inesc-id-amalia-launch",
+      "file": "vault 41j3e9s9, captures/2026-11-14-inesc-id-amalia-launch.md",
+      "source_url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+      "beat": "Portugal",
+      "names": [
+        "INESC-ID",
+        "AMALIA",
+        "ARTE",
+        "FCT"
+      ],
+      "what_is_new": "INESC-ID's own account of AMALIA, the first large language model for European Portuguese (presented 1 July 2026): built on EuroLLM, 80 researchers, 5.5 million euros of Recovery and Resilience funding; use cases are expectations, not results.",
+      "is_story": true,
+      "group": "AI in Portugal"
+    },
+    {
+      "id": "v-digital-gov-pt-ania",
+      "file": "vault 41j3e9s9, captures/2026-11-14-digital-gov-pt-ania.md",
+      "source_url": "https://digital.gov.pt/en/noticias/publicada-a-agenda-nacional-de-ia-ania-portugal-reforca-compromisso-com-ia-responsavel-e-competitiva",
+      "beat": "Portugal",
+      "names": [
+        "Portuguese government"
+      ],
+      "what_is_new": "The government's own item on the National AI Agenda (ANIA): four areas, 32 initiatives, in force from publication; no budget figure and no company or lab named.",
+      "is_story": true,
+      "group": "AI in Portugal"
+    }
+  ],
+  "groups": {
+    "AI in Portugal": [
+      "v-inesc-id-amalia-launch",
+      "v-digital-gov-pt-ania"
+    ]
+  },
+  "duplicates_and_noise": [],
+  "published_check": {
+    "S61": "published (humanos-road-2-web-summit-winner)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new on the AI Act, the Digital Fairness Act or the Digital Services Act."
+    },
+    "portugal": {
+      "assignment": "S64",
+      "ready": true,
+      "reader_angle": "Anyone following AI in Portugal: what the government says its national plan is, and what the country's first language model for European Portuguese is, in the sources' own words.",
+      "source_ids": [
+        "v-inesc-id-amalia-launch",
+        "v-digital-gov-pt-ania"
+      ],
+      "duplicate_check": "Run 14 Nov 11:50: no article or draft on AMALIA or ANIA."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "S64 is Portuguese-desk (map of AI in Portugal); nothing new on agents in real work or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S64",
+      "kind": "team-desk",
+      "title": "AMALIA and ANIA: what Portugal says about its own AI plans",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "AI"
+      ],
+      "angle": "Two official sources on AI in Portugal. The government says its National AI Agenda (ANIA) has four areas and 32 initiatives and is in force from publication. INESC-ID says AMALIA, presented on 1 July 2026, is the first large language model built for European Portuguese, built on EuroLLM, with 80 researchers and 5.5 million euros of Recovery and Resilience funding. Neither page says AMALIA is one of ANIA's 32 initiatives, and both give aims, not results.",
+      "rests_on": [
+        "v-inesc-id-amalia-launch",
+        "v-digital-gov-pt-ania"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal. Ready. Conditions: re-read both pages yourself; attribute everything to the institute and the government; use cases and impact are their expectations; do not link AMALIA to ANIA; no budget figure for ANIA (the page gives none); no company or lab beyond those named; short and plain (STYLE.md); categories Portugal and AI."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S64",
+      "what": "The AMALIA page is the institute's own account: the consortium, the model's size and its licence are not on it. ANIA's documents and funding were not read by the researcher."
+    }
+  ],
+  "revisions": [],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "AMALIA's own pages (the consortium, model size, licence, where to use it) and ARTE's or FCT's release; the ANIA documents themselves and any official funding total.",
+      "reader_angle": "What the first European Portuguese model is and what the national plan commits.",
+      "sources_wanted": "The official pages the sources point to.",
+      "why_not_a_duplicate": "Only INESC-ID's page and the government's news item are captured."
+    },
+    {
+      "desk": "ai",
+      "priority": 2,
+      "gap": "More of theme 2: Portuguese AI companies, labs and programmes, from their own sites and the press.",
+      "reader_angle": "Who builds AI in Portugal.",
+      "sources_wanted": "Company and lab pages, Portuguese press.",
+      "why_not_a_duplicate": "S64 covers two official items only."
+    }
+  ],
+  "urgent": "None"
+}
