@@ -1,0 +1,37 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-14T17:15Z",
+  "for": "conductor@web-summit.vicky (task 2026-11-14-1505-curator-best-number-one); the researcher for the gap",
+  "covers": {
+    "vault": "41j3e9s9 not re-pulled; no new capture on Best Number One.",
+    "inputs": "Vicky's urgent request quoted in the task file (14 Nov about 15:05 UTC) with a screenshot of a Postal do Algarve Facebook post (not committed). The post is a pointer, not a source.",
+    "overlap_checked": "14 Nov 17:15: no article, draft, map or vault capture mentions Best Number One or 3WX."
+  },
+  "rules": "RULES-11NOV applies. The curator opens no sources; the sandbox's proxy also refused postal.pt (HTTP 403 on the connection), and Facebook and LinkedIn are not read by machine.",
+  "captures": [],
+  "groups": {},
+  "duplicates_and_noise": [],
+  "published_check": {},
+  "desk_review": {
+    "portugal": {
+      "no_assignment": true,
+      "reason": "Best Number One (3WX, Loule) cannot be commissioned yet: no readable source. The only item is a pointer (a Facebook post shown in a screenshot), and a story must rest on a capture of the full article at its own site."
+    }
+  },
+  "story_candidates": [],
+  "connections_priority": [],
+  "for_the_fact_checker": [],
+  "revisions": [],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 0,
+      "gap": "URGENT, Vicky's request: the full Postal do Algarve article on Best Number One, the platform from the Loule agency 3WX said to have passed 300 sign-ups after launching at Web Summit 2026, read on postal.pt (not Facebook); plus 3WX's and Best Number One's own pages or posts, or another press report.",
+      "reader_angle": "A Loule company launching a platform at the summit, and what it says it does (Vicky wants coverage).",
+      "sources_wanted": "postal.pt article, 3WX and Best Number One own sites, other Portuguese press; each read with a read time. No Facebook or LinkedIn by machine; no websummit.com.",
+      "why_not_a_duplicate": "Nothing on it in articles, drafts, maps or the vault."
+    }
+  ],
+  "urgent": "The request is Vicky's and urgent: once a capture of the postal.pt article exists, commission for journalist-portugal (categories Web Summit 2026, Portugal; Startups & Scaleups if the sources support it), every claim attributed if it stays one source."
+}
