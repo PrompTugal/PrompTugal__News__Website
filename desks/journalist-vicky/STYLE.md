@@ -70,7 +70,7 @@ The `status:` in a draft's front matter, and who sets each one (Vicky, 6 Novembe
 - `published`: the publisher.
 - `dropped`: the editor, or a reviewer at the editor's word. The file stays.
 
-On Vicky's desks, nothing is published without `approved`.
+On Vicky's desks, the reviewer publishes factual work that passes its source checks under R-PUB-1 (standing answer 31, rule 8); only material uncertainty or editorial judgment goes to Vicky, and such a draft is published only once she sets `approved`.
 
 ## Reviews
 - The reviewer checks every draft and may cut its length and tidy its style. Journalists don't rewrite finished drafts for length.
