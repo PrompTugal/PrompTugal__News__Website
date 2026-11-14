@@ -1,5 +1,7 @@
 # One cover style for Vicky's desks
 
+**Approved by Vicky, 14 Nov 2026** (standing answer 79: "Approve the cover style with all four of the reviewer's changes."). The four changes are written into the sections below; the "Reviewer's notes" section at the end stays as the record.
+
 By designer@PrompTugal.vicky, 14 Nov 2026, at Vicky's word (standing answer 79: "the reviewer and the designer should have a talk about how they design ... Sharing notes."). A proposal for the reviewer and Vicky to correct, inside the brand v2.0 (`design/brand/`, `design/brand/brand-tokens.css`): it changes nothing in the brand. Every figure on a cover comes from the article's own sourced numbers (standing answer 15).
 
 ## What I looked at
@@ -22,7 +24,7 @@ Two things to own: my cobalt is the site's old colour and is **not** in the bran
 
 ## The one style
 
-**Colours** (brand v2.0, `brand-tokens.css`): paper `#f6f3ec` and ink `#121317`; secondary text `#3f424a` (ink-2); meta `#595c64` (ink-3); hairline `#d9d2c1`. Dark: ground `#121317`, text `#f6f3ec`, secondary `#d6d3cb`, meta `#b4b6ad`. **Green** `#006600` (dark `#6dbb7e`) is the only accent: the short rule under the kicker and nothing else. **Red** is not used on covers: it is the T of the wordmark, and on a figure it reads as bad news.
+**Colours** (brand v2.0, `brand-tokens.css`): paper `#f6f3ec` and ink `#121317`; secondary text `#3f424a` (ink-2); meta `#595c64` (ink-3); hairline `#d9d2c1`. Dark: ground `#121317`, text `#f6f3ec`, secondary `#d6d3cb`, meta `#b4b6ad`. **Green** `#006600` (dark `#6dbb7e`) is the only accent: the brand name in the kicker and the short rule under it, nothing else. **Red** is not used on covers: it is the T of the wordmark, and on a figure it reads as bad news.
 
 **Faces:** Newsreader 600 (optical size 72) for the title and the figures; Newsreader italic for the subtitle and the labels; IBM Plex Mono 400, capitals, tracked, for the kicker and the source line. No other face. Letters are drawn as paths so no font is needed (my generator turns the site's own font files into paths).
 
@@ -32,11 +34,11 @@ Two things to own: my cobalt is the site's old colour and is **not** in the bran
 2. Hairline at y 124, 2 px, full width; the green rule, 96 x 8 px, at its left end.
 3. Title, Newsreader 600, 112 to 124 px, baseline about y 250: the article's short title, one line (two lines only if the figures then drop to one row).
 4. Subtitle, Newsreader italic, 52 px, ink-2, baseline about y 320: one line saying what the figures are about.
-5. Up to three items in columns, left edges at x 60, 460 and 860: a **figure** (Newsreader 600, 120 to 128 px, **ink**, baseline y 496) and a **label** under it (Newsreader italic, 42 px, ink-2, one line, baseline y 556, starting at the figure's left edge).
-6. Optional source line, mono 42 px, ink-3, baseline y 606: `Source: <publisher>, <month year>`, 34 characters at most.
-7. The PT.news stamp, bottom right, about 112 px square, the brand's own file (`assets/brand/pt-news-stamp-light.svg`, `pt-news-stamp-dark.svg`, as `design/infographics/make.mjs` places it), never redrawn; the source line stops before it.
+5. Up to three items in columns, left edges at x 60, 410 and 760 (the third has room to x 1140): a **figure** (Newsreader 600, 124 px, **ink**, baseline y 480) and a **label** under it (Newsreader italic, 42 px, ink-2, one line, baseline y 536, starting at the figure's left edge, at most 350 px wide in the first two columns).
+6. Optional source line, mono 42 px, ink-3, baseline y 596, 36 characters at most. Plain: `Source: <publisher>, <month year>`. When the main figure is a company's claim, it says **whose figure it is** (`Figures: 3WX, via Postal do Algarve`), or it is left off: a newspaper's name under a company's figure can read as if the paper confirmed it. When the figures are a person's own account, it says so (`Figures: Vicky Wang, as she told it`).
+7. The PT.news stamp is the brand's own file (`assets/brand/pt-news-stamp-light.svg`, `pt-news-stamp-dark.svg`, as `design/infographics/make.mjs` places it), never redrawn. It sits at the **right end of the kicker row** (about 88 px square, hairline moved down to y 136 to clear it), or it is **left off a card with three items**.
 
-**Thumb, 480 x 480.** Margins 32 px. Kicker mono 28 px (beat only), hairline, title Newsreader 600 at 52 px (one line), subtitle italic 29 px, then up to three rows: figure Newsreader 600 at 64 px at x 32, label italic 29 px at x 208, both on one baseline. No source line and no stamp: lists show the thumb small.
+**Thumb, 480 x 480.** Margins 32 px. It is shown only 94 px wide on `/articles/`, so it carries **only the title and the figures, no labels, and all text 64 px or more**: the green rule (96 x 8 px at x 32, y 40), the title in Newsreader 600 at 64 to 72 px on one or two lines, and then the figures in a row, Newsreader 600 at 72 to 104 px, ink, on one baseline (an operator such as + or = between them is allowed, in ink-2). No kicker, subtitle, label, source line or stamp. A company's claim has no room for its attribution here, so a thumb leaves a claim figure off (the S65 thumb shows 10 and €0, not 300+).
 
 **Consistency rules** (what the S65 note from Vicky asked for):
 - Items are the same size and the same colour; no figure is picked out in green or red.
@@ -44,22 +46,23 @@ Two things to own: my cobalt is the site's old colour and is **not** in the bran
 - Labels are one line, the same size, on the same baseline.
 - Text is **at least 42 px on the card and 28 px on the thumb**. Rule: at least 12 px at 390 px wide, which is 358 px of page, so 358 / 1200 x 42 = 12.5 px.
 - At most three items, five words in a label.
+- Each figure on a cover is in a sentence of the article's **body**, not only in "In short" or a caption (the notes name the sentence).
 
 **Claims and sources.** A figure that only the company gives carries the attribution **on its own label line, in the same size**: `sign-ups, 3WX says`. Never a smaller second line, never a colour. A figure the article confirms has no attribution on the card. The source line names the publisher of the article's main source; it does not replace the attribution of a claim.
 
 **Words.** Only words and numbers from the article and its sources; no quote that is not in the article word for word; no photo of a person; no logo of a company unless the article's sources show it and it may be used. A sign such as "€0" for "free" is allowed when the article gives no price: say so in `notes.md`.
 
-**Checks before a cover is handed over** (the designer does them, the reviewer repeats them with the facts and the phone view): each number matches a line in the draft; the alt text is one sentence under 300 characters; both PNG sizes in both themes exist; look at the card at 358 px wide and the thumb at 120 px.
+**Checks before a cover is handed over** (the designer does them, the reviewer repeats them with the facts and the phone view): each number matches a sentence in the draft's body; the alt text is one sentence under 300 characters; both PNG sizes in both themes exist; look at the card at 358 px wide and the thumb at 120 px.
 
 ## Examples, by file name
 
-- Closest to this style today: `desks/designer-vicky/covers/best-number-one-3wx-loule/best-number-one-3wx-loule--paper--card.png` (aligned labels, the claim on its label line). It still has cobalt, no kicker with the brand name and no stamp: I would redraw it.
+- In this style: `desks/designer-vicky/covers/best-number-one-3wx-loule/best-number-one-3wx-loule--paper--card.png` (aligned labels, the claim on its label line, "Figures: 3WX, via Postal do Algarve", no stamp as it has three items) and `desks/designer-vicky/covers/humans-and-ai-vicky-wang/humans-and-ai-vicky-wang--paper--card.png`, both redrawn on 14 Nov. Their thumbs show the title and the figures only.
 - Good bones, wrong faces and colours: `design/infographics/out/women-learning-and-building-ai-in-portugal--paper--card.png` (three figures and one source line; it would be three items in ink, in Newsreader).
 - The frame to copy: `design/infographics/out/brazil-startup-mission--paper--card.png` (kicker, green rule, stamp, source line), with its small print raised to 42 px.
 
 ## Who does what
 
-The designer draws the cover for every new article (standing answer 15 as changed on 14 Nov); the reviewer checks it. The reviewer's 136 hand-made files stay as they are until Vicky or the reviewer asks for a redraw; I can redraw any of them in this style from the article's own numbers. My own two covers (humans-and-ai-vicky-wang, best-number-one-3wx-loule) move to this style on a request For: designer@PrompTugal.vicky. The brand and the automatic generator are designer@PrompTugal.dinis's: I propose, I do not change them.
+The designer draws the cover for every new article (standing answer 15 as changed on 14 Nov); the reviewer checks it. The reviewer's 136 hand-made files stay as they are until Vicky or the reviewer asks for a redraw; I can redraw any of them in this style from the article's own numbers. My own two covers (humans-and-ai-vicky-wang, best-number-one-3wx-loule) were redrawn in this style on 14 Nov (Vicky: "Yes, redraw my interview and S65 covers in the agreed style."). The brand and the automatic generator are designer@PrompTugal.dinis's: I propose, I do not change them.
 
 ## Reviewer's notes
 
