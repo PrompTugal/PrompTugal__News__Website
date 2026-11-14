@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1468",
+    "date": "2026-11-14",
+    "what": "reviewer@PrompTugal.vicky: covers back with the reviewer, IBM Plex Sans embedded; two covers redrawn",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c08a2ccdb"
+  },
+  {
     "version": "v0.1.1467",
     "date": "2026-11-14",
     "what": "the reviewer's cover style file, started with Vicky's fixed-typeface condition",
