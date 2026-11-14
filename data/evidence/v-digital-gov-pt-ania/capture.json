@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-digital-gov-pt-ania",
+  "type": "evidence",
+  "source_url": "https://digital.gov.pt/en/noticias/publicada-a-agenda-nacional-de-ia-ania-portugal-reforca-compromisso-com-ia-responsavel-e-competitiva",
+  "beat": "Portugal",
+  "group": "AI in Portugal",
+  "names": [
+    {
+      "as_listed": "Portuguese government",
+      "ref": "organisation:portuguese-government"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-14-1150.json",
+  "run": "2026-11-14T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-14-1150.json"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S64",
+  "type": "story",
+  "title": "AMALIA and ANIA: what Portugal says about its own AI plans",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-inesc-id-amalia-launch",
+    "evidence:v-digital-gov-pt-ania"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-14-1150.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-14-1150.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-14T11:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-14-1150.json"
+    }
+  ]
+}

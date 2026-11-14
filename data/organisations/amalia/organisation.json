@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "amalia",
+  "type": "organisation",
+  "name": "AMALIA",
+  "names_as_listed": [
+    "AMALIA"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+      "read_at": "2026-11-14T11:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

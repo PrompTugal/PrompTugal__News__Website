@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-inesc-id-amalia-launch",
+  "type": "evidence",
+  "source_url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+  "beat": "Portugal",
+  "group": "AI in Portugal",
+  "names": [
+    {
+      "as_listed": "INESC-ID",
+      "ref": "organisation:inesc-id"
+    },
+    {
+      "as_listed": "AMALIA",
+      "ref": "organisation:amalia"
+    },
+    {
+      "as_listed": "ARTE",
+      "ref": "organisation:arte"
+    },
+    {
+      "as_listed": "FCT",
+      "ref": "organisation:fct"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-14-1150.json",
+  "run": "2026-11-14T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-14-1150.json"
+    ]
+  }
+}

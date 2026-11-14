@@ -1774,6 +1774,16 @@
         "count": 4
       },
       {
+        "as_listed": "AMALIA",
+        "ref": "organisation:amalia",
+        "count": 1
+      },
+      {
+        "as_listed": "ARTE",
+        "ref": "organisation:arte",
+        "count": 1
+      },
+      {
         "as_listed": "Acubic",
         "ref": "organisation:acubic",
         "count": 1
@@ -1899,6 +1909,11 @@
         "count": 1
       },
       {
+        "as_listed": "FCT",
+        "ref": "organisation:fct",
+        "count": 1
+      },
+      {
         "as_listed": "Fertagus",
         "ref": "organisation:fertagus",
         "count": 1
@@ -1952,6 +1967,11 @@
         "as_listed": "Humanos",
         "ref": "organisation:humanos",
         "count": 2
+      },
+      {
+        "as_listed": "INESC-ID",
+        "ref": "organisation:inesc-id",
+        "count": 1
       },
       {
         "as_listed": "IPMA",
@@ -2096,6 +2116,11 @@
       {
         "as_listed": "Portuguese Catholic University",
         "ref": "organisation:portuguese-catholic-university",
+        "count": 1
+      },
+      {
+        "as_listed": "Portuguese government",
+        "ref": "organisation:portuguese-government",
         "count": 1
       },
       {
