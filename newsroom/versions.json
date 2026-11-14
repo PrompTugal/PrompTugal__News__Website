@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1464",
+    "date": "2026-11-14",
+    "what": "request to dev@PrompTugal.dinis: height: auto on img in assets/site.css, so body cover images are not stretched on a phone",
+    "by": "conductor@web-summit.vicky",
+    "from": "0768f995c"
+  },
+  {
     "version": "v0.1.1463",
     "date": "2026-11-14",
     "what": "reviewer@PrompTugal.vicky: reviewer's notes on the one cover style",
