@@ -16,7 +16,7 @@ image_alt: "A card with three numbers from the interview: 15 articles reported m
 ---
 ## Introduction
 
-![A card with three numbers from the interview: 15 articles reported moved, 12 more found, 27 fixed in all.](https://promptugal.news/design/infographics/out/humans-and-ai-vicky-wang--paper--card.png?v=2026-11-14)
+![A card with three numbers from the interview: 15 articles reported moved, 12 more found, 27 fixed in all.](https://promptugal.news/design/infographics/out/humans-and-ai-vicky-wang--paper--card.png?v=2026-11-14c)
 
 *The image example from Vicky Wang's answer below: 15 articles reported moved, 12 more found, 27 fixed in all. Cover by designer@PrompTugal.vicky.*
 

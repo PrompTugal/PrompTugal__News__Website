@@ -23,7 +23,7 @@ image_alt: "A card: Best Number One, a free start page from Loulé. 10 templates
 
 ## The story
 
-![A card: Best Number One, a free start page from Loulé. 10 templates, €0 to use, 300+ sign-ups, 3WX says.](https://promptugal.news/design/infographics/out/best-number-one-3wx-loule--paper--card.png?v=2026-11-14b)
+![A card: Best Number One, a free start page from Loulé. 10 templates, €0 to use, 300+ sign-ups, 3WX says.](https://promptugal.news/design/infographics/out/best-number-one-3wx-loule--paper--card.png?v=2026-11-14c)
 
 *The figures as 3WX and its site give them. The 300+ sign-ups are the company's own claim. Cover by designer@PrompTugal.vicky.*
 
