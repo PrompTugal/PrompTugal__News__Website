@@ -1,0 +1,129 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-14T07:45Z",
+  "for": "the researcher for the gaps; no assignment this run",
+  "covers": {
+    "vault": "41j3e9s9, pulled 14 Nov 2026 at 07:38 UTC: researcher's 12 Nov 15:15 run (Humanos, Carevision, already mapped as S61 or read) and the 14 Nov 07:15 run (two captures).",
+    "inputs": "SA58-THEMES applied from this run: the five themes replace the summit focus. No agenda input (frozen; the summit beat is finished).",
+    "overlap_checked": "14 Nov 07:45: Konecta's release is already covered by konecta-lisbon-delivery-centre (S52: 1,300 staff, 2,000 by end 2027, 680 workstations, the Malhoa building); the Commission's explainer on the Digital Fairness Act adds no new angle to digital-fairness-act-ai-agents (S56: dark patterns, subscription cancellation, pricing, AI-agent rules); S61, S60 and S59 are published."
+  },
+  "rules": "RULES-11NOV applies. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-konecta-lisbon-delivery-center",
+      "file": "vault 41j3e9s9, captures/2026-11-14-konecta-lisbon-delivery-center.md",
+      "source_url": "https://konecta.com/news-insights/press-releases/konecta-announces-the-launch-of-a-next-generation-global-delivery-center-dedicated-to-ai-excellence-in-lisbon",
+      "beat": "Portugal",
+      "names": [
+        "Konecta"
+      ],
+      "what_is_new": "Konecta's own 10 Nov release on the Lisbon Global Delivery Center; same release as S52.",
+      "is_story": false,
+      "group": "Portugal, already published (S52)"
+    },
+    {
+      "id": "v-ec-digital-fairness-act",
+      "file": "vault 41j3e9s9, captures/2026-11-14-ec-digital-fairness-act.md",
+      "source_url": "https://commission.europa.eu/news-and-media/news/making-your-online-experience-fairer-2026-11-11_en",
+      "beat": "Europe",
+      "names": [
+        "European Commission"
+      ],
+      "what_is_new": "The Commission's consumer explainer on the proposed Digital Fairness Act; same proposal as S56.",
+      "is_story": false,
+      "group": "Europe, already published (S56)"
+    },
+    {
+      "id": "v-tek-carevision-pitch-winner",
+      "file": "vault 41j3e9s9, captures/2026-11-12-tek-carevision-pitch-winner.md",
+      "source_url": "https://tek.sapo.pt/noticias/internet/artigos/carevision-vence-pitch-do-web-summit-2026-com-tecnologia-que-transforma-a-camara-do-telemovel-num-scanner-de-saude/",
+      "beat": "Portugal",
+      "names": [
+        "Carevision",
+        "Zoyk",
+        "Moola"
+      ],
+      "what_is_new": "Press report: Carevision won the PITCH 2026 final; the jury went against the audience vote.",
+      "is_story": false,
+      "group": "summit news, held"
+    }
+  ],
+  "groups": {
+    "Already published": [
+      "v-konecta-lisbon-delivery-center",
+      "v-ec-digital-fairness-act"
+    ],
+    "Held": [
+      "v-tek-carevision-pitch-winner"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "Konecta release and the Commission's explainer",
+      "verdict": "covered",
+      "why": "S52 and S56 already carry the facts; no genuinely new development or different angle."
+    }
+  ],
+  "published_check": {
+    "S61": "published (humanos-road-2-web-summit-winner)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished (SA58-THEMES); Carevision's PITCH win is one press report of a summit result, and the angle for the five themes (what it does, whether AI is involved) needs the company's own page."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "The Commission's explainer repeats the proposal S56 covers; nothing new on the AI Act or the Digital Services Act in the captures."
+    },
+    "portugal": {
+      "no_assignment": true,
+      "reason": "Konecta is covered by S52; nothing new on Discord or Humanos beyond S59 and S61."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "No new capture on agents in real work, Portuguese AI companies or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme in the captures."
+    }
+  },
+  "story_candidates": [],
+  "connections_priority": [],
+  "for_the_fact_checker": [],
+  "revisions": [
+    {
+      "candidate": "S61",
+      "change": "Published (humanos-road-2-web-summit-winner); already off the ready list."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Carevision's own page and what its screening does (and whether it uses AI), and where the company is based.",
+      "reader_angle": "A Portuguese or European health-tech winner: what it does and who it is for (theme 5, health tech).",
+      "sources_wanted": "Carevision's own site or posts, a second press report.",
+      "why_not_a_duplicate": "Only one press report is captured; no article covers it."
+    },
+    {
+      "desk": "ai",
+      "priority": 2,
+      "gap": "Theme 2, the map of AI in Portugal: Portuguese AI companies, labs and programmes, from their own sites and the press.",
+      "reader_angle": "Who builds AI in Portugal.",
+      "sources_wanted": "Companies', labs' and programmes' own pages; Portuguese press.",
+      "why_not_a_duplicate": "No article maps the sector; Humanos (S61) and Discord (S59) are single items."
+    },
+    {
+      "desk": "all",
+      "priority": 3,
+      "gap": "Theme 1, what happened next: follow-ups since publication on Octo Health, Manus, Zalando, WPP, Lovable, PagerDuty and the EU items, from the press and the companies' own posts.",
+      "reader_angle": "What changed after the announcements we covered.",
+      "sources_wanted": "Companies' own posts, press.",
+      "why_not_a_duplicate": "Only the originals are captured."
+    }
+  ],
+  "urgent": "None"
+}
