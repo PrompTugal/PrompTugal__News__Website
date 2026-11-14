@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1459",
+    "date": "2026-11-14",
+    "what": "reviewer@PrompTugal.vicky: covers in S65 and Vicky's page scale on a phone",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "0f8d6f524"
+  },
+  {
     "version": "v0.1.1458",
     "date": "2026-11-14",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
