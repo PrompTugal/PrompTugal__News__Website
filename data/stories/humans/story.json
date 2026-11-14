@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "humans",
+  "type": "story",
+  "title": "When an agent says it's done, check a few things yourself",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [],
+  "desk_files": [
+    "desks/journalist-vicky/drafts/humans-and-ai-vicky-wang.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/journalist-vicky/drafts/humans-and-ai-vicky-wang.md"
+    ]
+  },
+  "assignee": "journalist-ai@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/humans-and-ai-vicky-wang.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-14",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/humans-and-ai-vicky-wang.md"
+    }
+  ]
+}
