@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## Wake at 22:36 UTC, 15 November (the by-place team, first hour)
+
+- Snapshot 2026-11-15T2236Z on v0.1.1490: 8 screenshots, 0 errors.
+- **All 19 places** have an agent key, a site key (`site.<id>-promptugal`) and a signed file. Together: 89 local AI stories and 128 organisations on the AI map. Live so far: Faro, Tavira, Lagos and Vila do Bispo; the rest are researching. Richest: the Algarve (15 stories, 20 on the map), Portugal (12, 26), Faro (10, 12), Portimão (8, 13).
+- abp@: 19 place ABPs are in `board/abp/`, with the site-identity check in the gate as a warning (dev.places@, 272a95168).
+- Dinis's bug report: "This site can't be reached" on /algarve. Every slashless address failed once the offline worker was installed. Fixed by dev.places@ (552068a56), live and checked.
+- Schedules on at Dinis's word: mine and security@ hourly, accountant@ every three hours, and the 22 new agents hourly, staggered (`board/schedule.json`).
+- Inbox lanes issued for the new keys (94 agent lanes). Inbox: 3 unsigned feedback messages.
+
 ## 15 November, ~21:55 UTC: PrompTugal.news by place, built and staffed (Dinis's word: "go aggressive", for Algarve Evolution on 16 Nov)
 
 - **The frame is live (v0.1.1479):** `/algarve/` and 17 town sites, made from `data/by-place/places.json`, one research file per place, the AI map, and the Algarvio voice toggle. I built it at Dinis's word, outside my usual grant.
