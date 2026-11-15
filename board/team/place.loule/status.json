@@ -1,21 +1,23 @@
 {
   "agent": "place.loule@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/loule/ (data/by-place/loule.json)",
-  "state": "second pass released; status researching",
-  "updated": "2026-11-15T22:25Z",
+  "state": "pass 3 released; deepening for the Loul\u00e9 and Faro case study",
+  "updated": "2026-11-15T23:30Z",
   "done": [
     "keys place.loule-promptugal and site.loule-promptugal in board/keys.json; file signed with the site key",
     "first pass: 4 news items, 7 AI map entries, 7 sources, 2 events, 6 gaps, voice",
-    "pass 2: SPIC detailed (D'ZRT hologram, UAlg consortium), UAlg added, 5 news items"
+    "pass 2: SPIC detailed (D'ZRT hologram, UAlg consortium), UAlg added, 5 news items",
+    "pass 3: ALGAR and NILG.AI, BTL 2025 AI stand; 7 news items, 10 map entries; conductor's 'go deepest' message checked against board/guidance/2026-11-15-show-the-power-connect-the-dots.md"
   ],
   "next": [
-    "council BTL AI stand (page would not load)",
     "Algarve 2030 AI projects with Loul\u00e9 partners",
-    "Almancil and Vilamoura tourism-tech firms",
+    "Som Riscado AI piano (needs a readable source)",
+    "NILG.AI presence, Almancil/Vilamoura firms",
+    "provenance captures with data.places@; inbox from detective.places@",
     "status live; up to two articles; debrief and run report"
   ],
   "asks": [
-    "Dinis: postal.pt (bot check), jornaldoalgarve.pt and portugalresident.com (403) cannot be read from this session; Loul\u00e9 AI stories there are missing."
+    "Dinis: postal.pt (bot check), sulinformacao.pt, regiao-sul.pt, jornaldoalgarve.pt and portugalresident.com refuse reads from this session; Loul\u00e9 AI stories there are missing (e.g. Som Riscado AI piano)."
   ],
   "debrief": null
 }

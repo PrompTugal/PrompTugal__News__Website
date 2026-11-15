@@ -35,16 +35,6 @@
   },
   "ai_news": [
     {
-      "title": "Loulé council says it has already bought AI tools for urban planning",
-      "summary": "The president of the municipality told urban planning professionals on 27 July 2026 that the council has already contracted AI tools to support how planning cases are processed, and warned that technology alone will not fix internal bureaucratic obstacles.",
-      "date": "2026-07-28",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=405832",
-      "read_on": "2026-11-15",
-      "ai_path": "The council itself uses AI tools in its planning process.",
-      "steps": 0
-    },
-    {
       "title": "Loulé and Faro tender a technology centre at the Estádio Algarve that lists AI among its themes",
       "summary": "The Associação de Municípios Loulé/Faro launched a 3 million euro tender in September 2026 for a multi-technology centre for companies and startups at the stadium, half funded under Algarve 2030. Proposals were due on 2 November. The article names AI among the technologies it may host.",
       "date": "2026-09-24",
@@ -53,6 +43,16 @@
       "read_on": "2026-11-15",
       "ai_path": "A centre for tech firms jointly run by the Loulé and Faro councils that names AI as one of its themes: the centre, then the AI firms it may host.",
       "steps": 1
+    },
+    {
+      "title": "Loulé council says it has already bought AI tools for urban planning",
+      "summary": "The president of the municipality told urban planning professionals on 27 July 2026 that the council has already contracted AI tools to support how planning cases are processed, and warned that technology alone will not fix internal bureaucratic obstacles.",
+      "date": "2026-07-28",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/?p=405832",
+      "read_on": "2026-11-15",
+      "ai_path": "The council itself uses AI tools in its planning process.",
+      "steps": 0
     },
     {
       "title": "Algarve Evolution opens an AI and robotics call for tourism firms, in a consortium led by Loulé-based NERA",
@@ -65,14 +65,24 @@
       "steps": 1
     },
     {
-      "title": "A Faro software firm tested its smart irrigation in Loulé, with an AI module planned",
-      "summary": "Visualforma, a Faro company, described a green-spaces irrigation control system developed with Itelmatis and the University of Algarve and tested in Loulé, using field data to optimise watering, with an AI and machine learning module planned. This is older news, from April 2023.",
-      "date": "2023-04-14",
+      "title": "Loulé's council takes an AI immersive experience to the BTL tourism fair",
+      "summary": "At the BTL in Lisbon (12 to 16 March 2025) the Loulé municipal stand offered visitors an immersive experience of the territory built with artificial intelligence. The article does not say who made it.",
+      "date": "2025-03-11",
       "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/visualforma-abre-caminho-as-novas-tecnologias-para-smart-cities/",
+      "url": "https://www.barlavento.pt/loule-leva-a-btl-2025-experiencia-imersiva-atraves-de-inteligencia-artificial/",
       "read_on": "2026-11-15",
-      "ai_path": "Loulé was the test site for a smart irrigation system, and its planned AI module is the AI step.",
-      "steps": 1
+      "ai_path": "The council used AI in its tourism promotion.",
+      "steps": 0
+    },
+    {
+      "title": "ALGAR and NILG.AI win an award for an AI tool that picks sites for recycling points",
+      "summary": "ALGAR, the Algarve's waste-management company headquartered in Almancil, built a tool with the start-up NILG.AI that uses AI to choose where to put recycling points, piloted in Lagoa. It pre-selected 14 sites in four hours and cut the time to a final proposal by 83%, and won the Data Changemaker of the Year award. These are the partners' reported results.",
+      "date": "2025-01-23",
+      "publisher": "Algarve Primeiro",
+      "url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+      "read_on": "2026-11-15",
+      "ai_path": "A company based in the Loulé municipality built and uses an AI tool.",
+      "steps": 0
     },
     {
       "title": "A Loulé studio put a band's late member back on stage with an AI hologram",
@@ -83,6 +93,16 @@
       "read_on": "2026-11-15",
       "ai_path": "A Loulé company built an AI system.",
       "steps": 0
+    },
+    {
+      "title": "A Faro software firm tested its smart irrigation in Loulé, with an AI module planned",
+      "summary": "Visualforma, a Faro company, described a green-spaces irrigation control system developed with Itelmatis and the University of Algarve and tested in Loulé, using field data to optimise watering, with an AI and machine learning module planned. This is older news, from April 2023.",
+      "date": "2023-04-14",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/visualforma-abre-caminho-as-novas-tecnologias-para-smart-cities/",
+      "read_on": "2026-11-15",
+      "ai_path": "Loulé was the test site for a smart irrigation system, and its planned AI module is the AI step.",
+      "steps": 1
     }
   ],
   "sources": [
@@ -139,6 +159,24 @@
       "url": "https://www.ualg.pt",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "Algarve Primeiro",
+      "url": "https://www.algarveprimeiro.com",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "ALGAR",
+      "url": "https://www.algar.com.pt",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Regiao Sul",
+      "url": "https://regiao-sul.pt",
+      "kind": "press",
+      "feed": null
     }
   ],
   "events": [
@@ -166,6 +204,16 @@
       "source_url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
       "read_on": "2026-11-15",
       "ai_path": "It builds an AI product.",
+      "steps": 0
+    },
+    {
+      "name": "ALGAR, Valorização e Tratamento de Resíduos Sólidos",
+      "type": "company",
+      "url": "https://www.algar.com.pt/en/algar/history/",
+      "what": "Waste company founded in 1995 and headquartered in Almancil, which serves the whole Algarve. With the start-up NILG.AI it built an AI tool that chooses sites for recycling points, piloted in Lagoa.",
+      "source_url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+      "read_on": "2026-11-15",
+      "ai_path": "It builds and runs an AI tool for site selection.",
       "steps": 0
     },
     {
@@ -237,6 +285,16 @@
       "read_on": "2026-11-15",
       "ai_path": "UAlg co-develops AI projects with a Loulé company.",
       "steps": 1
+    },
+    {
+      "name": "NILG.AI (partner of ALGAR)",
+      "type": "startup",
+      "url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+      "what": "Start-up that co-built ALGAR's AI recycling-point tool. We have not confirmed where it is based, so it is listed as ALGAR's partner, not as a Loulé firm.",
+      "source_url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+      "read_on": "2026-11-15",
+      "ai_path": "It builds AI for a Loulé-municipality company.",
+      "steps": 1
     }
   ],
   "extras": [],
@@ -251,7 +309,10 @@
     "Algardata, Shiji Portugal, Lazer Telecom and Innuos are tech firms listed in Loulé by Algarve Tech Hub or older press, but we found no AI link for them, so they are not on the map.",
     "The Algarve AI Agents community has no page we could read. We should look for its own site or a public repository.",
     "Still to look for: the council's LouleXLab (2020), Algarve 2030 AI projects with Loulé partners, UAlg Tec Campus links, and Almancil and Vilamoura tourism-tech firms.",
-    "Search results say the Loulé council's BTL tourism stand used AI-made gifts and an immersive AI experience, but we could not open the page, so it is not yet a news item."
+    "The council's 2026 BTL stand (144 m2, 10 stations) is described without any mention of AI, so only the 2025 stand is a news item.",
+    "Loulé's 2.5 million euro digital programme for the interior, with 5G elderly teleassistance by NOS and HopeCare, is left out: the articles we read mention no AI.",
+    "A Sul Informação and a Regiao Sul item say the Som Riscado festival in Loulé (November 2026) uses an AI piano. Both sites refused our read, so it is not yet an event.",
+    "Almancil is in the municipality, so ALGAR counts for Loulé. We have not yet checked whether NILG.AI has a Loulé presence."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",
