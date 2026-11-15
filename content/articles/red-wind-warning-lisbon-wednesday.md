@@ -22,6 +22,7 @@ image_alt: "IPMA's warnings for the Lisbon district on Wednesday 11 November, as
 - Only the sea warning remains for Lisbon: IPMA's data at 19:48 UTC (modified at 19:15) shows orange for rough seas until 21:00, then yellow until 03:00 on Thursday. The rain warning ended at 18:00: IPMA's red rain warning had ended at 15:00, followed by yellow until 18:00. It had been red from 09:00 to 18:00.
 - Portugal's government has declared an [alert situation](https://portugal.gov.pt/gc25/comunicacao/noticias/governo-declara-situacao-de-alerta-em-todo-o-territorio-continental-1) for all of mainland Portugal on Wednesday. Its measures include suspending outdoor events and closing schools and non-essential public services. The Internal Administration minister [said](https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a-proatividade-da-nos-tranquilidade-1) on Wednesday afternoon that keeping it on Thursday is not planned.
 - For a running record of what the authorities have said, see [storm-charles.promptugal.news](https://storm-charles.promptugal.news) (not a warning service: follow IPMA and ANEPC).
+- Our storm page: [promptugal.news/storm/charles/](../storm/charles/index.html)
 
 ## The story
 
@@ -68,3 +69,7 @@ In a [briefing](https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a
 - [Government of Portugal, "Mau tempo: A proatividade dá-nos tranquilidade"](https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a-proatividade-da-nos-tranquilidade-1) (the minister's briefing: the alert until 23:59 on Wednesday, not planned for Thursday), published 11 November 2026 at 16:49, read 11 November 2026 at 17:40 UTC; the government's news list checked 11 November 2026 at 19:50 UTC: nothing newer than its 17:03 page
 - [ANEPC, "Depressão Charles: ANEPC avisa população por SMS"](https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/) (readiness and the SMS warning), dated 10 November 2026, read 10 November 2026 at 17:24 UTC
 - From the curator's map: S41 (MANUAL-10NOV), `desks/curator/2026-11-10-1410.json`
+
+## Update
+
+**15 November 2026.** Updated 15 November 2026: added a link to our storm page.
