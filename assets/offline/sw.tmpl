@@ -87,6 +87,9 @@ self.addEventListener('fetch', e => {
         const go = r.mode === 'navigate' ? fetch(r.url, { cache: 'no-cache', credentials: 'same-origin' }) : fetch(r)
         let late = false
         const net = go.then(async res => {
+            // a navigation refetched with fetch(r.url) follows the host's 301 (/algarve to /algarve/); a redirected
+            // response to a navigation is refused (net::ERR_FAILED, "This site can't be reached"): send the redirect on
+            if (res.redirected && r.mode === 'navigate') return Response.redirect(res.url, 301)
             if (res.ok && res.type === 'basic') { if (!late) KEPT.delete(key); const c = await caches.open(PAGES); await c.put(key, await stamp(res.clone())); trim(c)
                 // the network came after a kept copy was shown: the page is told a newer copy is here
                 if (late && r.mode === 'navigate') { const cl = await self.clients.get(e.resultingClientId || e.clientId); if (cl) cl.postMessage({ type: 'pt-newer' }) } }
