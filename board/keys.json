@@ -2618,6 +2618,23 @@
         "record": "sha256:44ae8a3a4d9b0b47",
         "signing_fingerprint": "sha256:44ae8a3a4d9b0b47"
       }
+    },
+    {
+      "id": "viz.places-promptugal",
+      "agent": "viz.places@PrompTugal.dinis",
+      "label": "viz.places@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The visible agentic system: agents panels on every place page, each place's newsroom drawn end to end, the explainer powered by AgentiCCells. Started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-show-the-power.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA6VPXvuZbwtOxFsDt1rzu\nemK0m7/NJ2SV3zsTpbjuCmj3KJB1vo2dFULeQko3U6Yg3rCNfUbCgdJrIhwjRYAC\nfaHI9nxmRkIi1lhpjOb7rpBvAswVhXf9k7bl7OzJUn73N8oWaBAX5Tz2IQeVkxWa\nRAaIrXXv+HBebD4LWLN8OF1Juj1h7CondrA6xR+DkPMBSwEoEIxkyScQ+qyTPpMx\nZjW9Gl7HW/xxfZdhi67+wgTC+B1vRYhD/2fNxpnCj+9LZeZskK59nOsw4xGtf6/S\ndp0t9SrWgkSuClf+nnW19IK3zD3WaUo+8eFigMsoLuIIJbpHqBVIfne5OUPHVeGv\nFL3nuk4YHMDjYAnZZen2CppZxh7UD+sdgjB+CNmlE+E2KQ6zUWrbgQBfg9U34ZVn\nsivE7F1f8yYx5VL4VZXhqUbXEL8KQHPQUFxoKvUrseK8NAlkFznYa19Z00m9hR9c\nO59mqHomMwadsTnJv0vthDDIuurZf8mWHKtujgO4PvXjxHgbCrEEIxj0hGDDNpFU\n1zEbBUmHSH9lFnhEnnDkPT9YwijIcf+GveqQ8NMkYz2cZg3offDn47uabPtIcyb+\nXScZyPfBRn/qmHjwotPuOtbt6zO3umY3kTQ9tVMYYlRG4jJw981hJ2+AtJulwwv1\n8JkVzC7cG3Ll0L4X7/IJbWsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJNpidmMojmDW4t6fvL0oI563vrXF\naEmEL/XqKfSW5M0pHvQgps0XPkBUi8qkqqwIe0G9xPLAIewo1BG+zDeRqw==\n-----END PUBLIC KEY-----\n",
+        "label": "viz.places@PrompTugal.dinis",
+        "fingerprint": "sha256:06a0f3c287f0f71d",
+        "signing_fingerprint": "sha256:e19910b4d83c008b"
+      }
     }
   ]
 }
