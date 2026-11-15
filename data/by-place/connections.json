@@ -1,0 +1,413 @@
+{
+  "$schema": "../schemas/by-place-connections.schema.json",
+  "updated": "2026-11-15",
+  "by": "detective.places@PrompTugal.dinis",
+  "links": [
+    {
+      "id": "algar-nilgai-ecorouteai",
+      "from": {
+        "name": "ALGAR",
+        "type": "public body",
+        "place": "algarve"
+      },
+      "to": {
+        "name": "NILG.AI",
+        "type": "startup",
+        "place": "portugal"
+      },
+      "relation": "builds_with",
+      "what": "ALGAR, the Algarve's waste operator, built EcoRouteAI with the Portuguese AI startup NILG.AI to choose sites for recycling points.",
+      "ai_path": "The tool is machine learning on collection records and street and satellite imagery.",
+      "steps": 0,
+      "source_url": "https://nilg.ai/202409/ai-waste-management/",
+      "source_title": "EcoRouteAI: Otimizacao de Ecopontos com Inteligencia Artificial (NILG.AI)",
+      "source_date": "2024-09-30",
+      "read_on": "2026-11-15",
+      "verified": "read",
+      "places": [
+        "algarve",
+        "lagoa",
+        "sao-bras-de-alportel"
+      ]
+    },
+    {
+      "id": "ecorouteai-pilot-lagoa-sbas",
+      "from": {
+        "name": "EcoRouteAI",
+        "type": "product",
+        "place": "algarve"
+      },
+      "to": {
+        "name": "Lagoa and Sao Bras de Alportel (pilot municipalities)",
+        "type": "public body",
+        "place": "lagoa"
+      },
+      "relation": "piloted_in",
+      "what": "The pilots were run in Lagoa and Sao Bras de Alportel; the article says the plan is to expand across the Algarve.",
+      "ai_path": "An AI product piloted in two councils' areas.",
+      "steps": 1,
+      "source_url": "https://nilg.ai/202409/ai-waste-management/",
+      "source_title": "EcoRouteAI (NILG.AI)",
+      "source_date": "2024-09-30",
+      "read_on": "2026-11-15",
+      "verified": "read",
+      "places": [
+        "lagoa",
+        "sao-bras-de-alportel"
+      ]
+    },
+    {
+      "id": "ecorouteai-resource-pontoverde",
+      "from": {
+        "name": "EcoRouteAI",
+        "type": "product",
+        "place": "algarve"
+      },
+      "to": {
+        "name": "Re-Source 3.0 (Sociedade Ponto Verde)",
+        "type": "programme",
+        "place": "portugal"
+      },
+      "relation": "funded_by",
+      "what": "Ambiente Online reports the tool is developed under Sociedade Ponto Verde's Re-Source 3.0 programme and that ALGAR leads the project (16 Algarve municipalities served since 1995).",
+      "ai_path": "The programme funds an AI tool.",
+      "steps": 1,
+      "source_url": "https://www.ambienteonline.pt/destaques/inovacao-com-ia-na-otimizacao-de-ecopontos-aumenta-reciclagem-no-algarve",
+      "source_title": "Inovacao com IA na otimizacao de ecopontos aumenta reciclagem no Algarve (Ambiente Online)",
+      "source_date": "2025-01-23",
+      "read_on": "2026-11-15",
+      "verified": "read",
+      "places": [
+        "algarve",
+        "lagoa"
+      ]
+    },
+    {
+      "id": "witflow-flowproductions",
+      "from": {
+        "name": "Witflow",
+        "type": "startup",
+        "place": "algarve"
+      },
+      "to": {
+        "name": "Flow Productions",
+        "type": "company",
+        "place": "faro"
+      },
+      "relation": "founded_with",
+      "what": "Witflow is described as a collaboration between Flow Productions and Witfy, an AI platform for content planning and distribution; it helps brands be found on search engines and AI platforms.",
+      "ai_path": "Witflow sells visibility on AI platforms and uses Witfy's AI platform.",
+      "steps": 0,
+      "source_url": "https://www.sulinformacao.pt/en/2026/04/startup-algarvia-witflow-selecionada-para-ser-incubada-pela-unicorn-factory-lisboa/",
+      "source_title": "Algarve-based startup Witflow selected for incubation at Unicorn Factory Lisbon (Sul Informacao)",
+      "source_date": "2026-04",
+      "read_on": "2026-11-15",
+      "verified": "search_extract",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "id": "witflow-unicornfactory",
+      "from": {
+        "name": "Witflow",
+        "type": "startup",
+        "place": "algarve"
+      },
+      "to": {
+        "name": "Unicorn Factory Lisboa",
+        "type": "programme",
+        "place": "portugal"
+      },
+      "relation": "incubated_by",
+      "what": "Selected for the Spring 2026 incubation; Unicorn Factory Lisboa is a Lisbon City Hall initiative from 2022. Witflow says it works from the Algarve (town not stated in what was read).",
+      "ai_path": "An AI-visibility startup in a national incubator.",
+      "steps": 1,
+      "source_url": "https://www.sulinformacao.pt/en/2026/04/startup-algarvia-witflow-selecionada-para-ser-incubada-pela-unicorn-factory-lisboa/",
+      "source_title": "Sul Informacao, April 2026",
+      "source_date": "2026-04",
+      "read_on": "2026-11-15",
+      "verified": "search_extract",
+      "places": [
+        "algarve",
+        "portugal"
+      ]
+    },
+    {
+      "id": "dengun-aihub-faro",
+      "from": {
+        "name": "Dengun",
+        "type": "company",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Dengun AI Hub",
+        "type": "product",
+        "place": "faro"
+      },
+      "relation": "part_of",
+      "what": "A Faro digital agency launched an AI Hub in February 2025 (chat and voice assistants, agents for internal processes, AI-first products with startups). Sectors named by the company: real estate, tourism, e-commerce, fintech. These are the company's own claims.",
+      "ai_path": "The company sells AI automation to firms.",
+      "steps": 0,
+      "source_url": "https://www.sulinformacao.pt/2025/02/dengun-lanca-hub-de-inteligencia-artificial-para-acelerar-crescimento-empresarial/",
+      "source_title": "Dengun lanca hub de Inteligencia Artificial (Sul Informacao)",
+      "source_date": "2025-02",
+      "read_on": "2026-11-15",
+      "verified": "search_extract",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "dengun-ualgtec-studio",
+      "from": {
+        "name": "Dengun",
+        "type": "company",
+        "place": "faro"
+      },
+      "to": {
+        "name": "UALG TEC Campus",
+        "type": "institution",
+        "place": "faro"
+      },
+      "relation": "hosted_at",
+      "what": "A directory and search extract list a Dengun startup studio at the UALG TEC Campus in Faro. Weak source; to confirm on the campus or company page.",
+      "ai_path": "An AI agency tied to the university's tech campus.",
+      "steps": 1,
+      "source_url": "https://www.dengun.com/digital-agency/ai-solutions/",
+      "source_title": "AI Digital Marketing Services (Dengun)",
+      "source_date": "",
+      "read_on": "2026-11-15",
+      "verified": "search_extract",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "aths2022-ualg-nera",
+      "from": {
+        "name": "Algarve Tech Hub Summit (2022 edition)",
+        "type": "event",
+        "place": "faro"
+      },
+      "to": {
+        "name": "NERA, Associacao Empresarial da Regiao do Algarve",
+        "type": "organisation",
+        "place": "loule"
+      },
+      "relation": "hosted_at",
+      "what": "In 2022 the summit opened at the University of the Algarve's Campus da Penha (Faro) and continued the next day at NERA in Loule, so it ties Faro's university to Loule's business association. Algarve Evolution, Algarve STP, CCDR Algarve and the national innovation agency took part in the opening. AI appeared as a theme in one talk only: an old edition, not 2026.",
+      "ai_path": "A technology summit with AI as one theme.",
+      "steps": 2,
+      "source_url": "https://www.barlavento.pt/algarve-tech-hub-summit-arrancou-para-impulsionar-a-inovacao/",
+      "source_title": "Algarve Tech Hub Summit arrancou para impulsionar a inovacao na regiao algarvia (Barlavento)",
+      "source_date": "2022-03-29",
+      "read_on": "2026-11-15",
+      "verified": "read",
+      "places": [
+        "faro",
+        "loule",
+        "algarve"
+      ]
+    },
+    {
+      "id": "dengun-founders-program",
+      "from": {
+        "name": "Dengun",
+        "type": "company",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Dengun Founders Program",
+        "type": "programme",
+        "place": "albufeira"
+      },
+      "relation": "organises",
+      "what": "Dengun runs a founders programme; its 2025 pitch day (30 January 2025, Le Club, Albufeira) had 12 startups chosen from about 400 applicants, finalists able to seek up to 300,000 euros. AI is one of the sectors covered.",
+      "ai_path": "A startup programme with AI among its sectors, run by an agency with an AI Hub.",
+      "steps": 1,
+      "source_url": "https://www.barlavento.pt/albufeira-startups-tecnologicas-internacionais-apresentam-projetos-a-potenciais-investidores/",
+      "source_title": "Startups tecnologicas internacionais apresentam projetos a investidores em Albufeira (Barlavento)",
+      "source_date": "2025-01-10",
+      "read_on": "2026-11-15",
+      "verified": "read",
+      "places": [
+        "albufeira",
+        "faro"
+      ]
+    },
+    {
+      "id": "ualg-dengun-founders",
+      "from": {
+        "name": "Universidade do Algarve (UAlg)",
+        "type": "institution",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Dengun Founders Program",
+        "type": "programme",
+        "place": "albufeira"
+      },
+      "relation": "builds_with",
+      "what": "The article names the University of the Algarve as a partner of the programme, co-financed by the EU through the Recovery and Resilience Plan (PRR).",
+      "ai_path": "University partner of a programme with AI among its sectors.",
+      "steps": 2,
+      "source_url": "https://www.barlavento.pt/albufeira-startups-tecnologicas-internacionais-apresentam-projetos-a-potenciais-investidores/",
+      "source_title": "Barlavento, 10 January 2025",
+      "source_date": "2025-01-10",
+      "read_on": "2026-11-15",
+      "verified": "read",
+      "places": [
+        "faro",
+        "albufeira"
+      ]
+    },
+    {
+      "id": "portimao-council-ai-licensing",
+      "from": {
+        "name": "Camara Municipal de Portimao",
+        "type": "public body",
+        "place": "portimao"
+      },
+      "to": {
+        "name": "ePaper urban management platform, with an AI online-service module",
+        "type": "product",
+        "place": "portimao"
+      },
+      "relation": "builds_with",
+      "what": "In July 2026 the council began a phased roll-out of an urban management platform evolved from ePaper, with a module that uses AI to check documents at submission and flag what is missing. About 5,000 licensing requests a year; seven in ten dispatches of its case section are correction requests. The article does not name a vendor.",
+      "ai_path": "The council uses an AI module in licensing.",
+      "steps": 0,
+      "source_url": "https://www.barlavento.pt/portimao-inteligencia-artificial-urbanismo/",
+      "source_title": "Portimao usa inteligencia artificial para agilizar urbanismo (Barlavento)",
+      "source_date": "2026-07-03",
+      "read_on": "2026-11-15",
+      "verified": "read",
+      "places": [
+        "portimao"
+      ]
+    },
+    {
+      "id": "omnisinal-seminar-portimao",
+      "from": {
+        "name": "OmniSinal",
+        "type": "organisation"
+      },
+      "to": {
+        "name": "XXXV International Seminar on Municipal Communication, 'Challenges in the Age of AI'",
+        "type": "event",
+        "place": "portimao"
+      },
+      "relation": "organises",
+      "what": "Held 29 and 30 October 2026 at TEMPO, Portimao's municipal theatre, in partnership with the Municipality of Portimao; seven modules on AI in municipal administration, disinformation and crisis communication.",
+      "ai_path": "An event whose theme is AI in public administration.",
+      "steps": 0,
+      "source_url": "https://www.barlavento.pt/portimao-seminario-inteligencia-artificial-comunicacao-municipal/",
+      "source_title": "Portimao acolhe seminario internacional sobre Inteligencia Artificial e Comunicacao Municipal (Barlavento)",
+      "source_date": "2026-10-19",
+      "read_on": "2026-11-15",
+      "verified": "read",
+      "places": [
+        "portimao"
+      ]
+    },
+    {
+      "id": "seminar-universities",
+      "from": {
+        "name": "Universidade de Vigo (FAKELocal project)",
+        "type": "institution"
+      },
+      "to": {
+        "name": "XXXV International Seminar on Municipal Communication, 'Challenges in the Age of AI'",
+        "type": "event",
+        "place": "portimao"
+      },
+      "relation": "participates_in",
+      "what": "Speakers are affiliated with the Universidade de Vigo (linked to the FAKELocal project), the Universidade de Evora and Spain's Council of Transparency and Good Governance.",
+      "ai_path": "Speakers on AI in public communication.",
+      "steps": 1,
+      "source_url": "https://www.barlavento.pt/portimao-seminario-inteligencia-artificial-comunicacao-municipal/",
+      "source_title": "Barlavento, 19 October 2026",
+      "source_date": "2026-10-19",
+      "read_on": "2026-11-15",
+      "verified": "read",
+      "places": [
+        "portimao"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "what": "Dengun's CEO and a representative of Algarve Evolution at the 2022 summit opening have the same name in two sources (Sul Informacao 2025, Barlavento 2022). If it is the same person, Dengun (Faro) is linked to Algarve Evolution through a public professional role. Not confirmed; no name is recorded here until confirmed.",
+      "url": "https://www.barlavento.pt/algarve-tech-hub-summit-arrancou-para-impulsionar-a-inovacao/",
+      "why_open": "Identity not independently confirmed",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "what": "Algarve Tech Hub Summit 2026: an Instagram post says dates soon; a Barlavento page dated 2026 describes a Loule/NERA edition but its text matches 2022. Not claimed.",
+      "url": "https://www.barlavento.pt/algarve-tech-hub-summit-arrancou-para-impulsionar-a-inovacao/",
+      "why_open": "Need the organisers' own 2026 announcement",
+      "places": [
+        "loule",
+        "faro"
+      ]
+    },
+    {
+      "what": "DevFest 2026 (GDG Faro, Campus da Penha) on 27 and 28 November per a Barlavento search extract; place.faro@ lists it. Also ULS Algarve conference on 14 October with an AI block, and an ACRAL session on AI for SMEs on 20 January 2026 in Faro.",
+      "url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
+      "why_open": "Seen in search extracts only",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "what": "Other Algarve AI names seen in a search extract, not yet read at source: Invisible CFO (fintech), Visualforma (smart cities), Algarve 2030 funds for 15 tourism SMEs adopting AI and robotics, Microsoft and UAlg executive AI course.",
+      "url": "https://amal.pt/images/2026/AE_SumarioExec_24jun.pdf",
+      "why_open": "Source pages for each still to be opened",
+      "places": [
+        "algarve"
+      ]
+    },
+    {
+      "what": "Albufeira council plans to contract an AI-enabled platform for urban planning processes, said by the mayor to be a first in the Algarve (Algarve Marafado, 29 May 2026). Page returned a bot check; known only from a search extract.",
+      "url": "https://www.algarvemarafado.com/2026/05/29/inteligencia-artificial-vai-ajudar-rui-cristina-a-combater-o-caos-que-diz-ter-encontrado-na-camara-de-albufeira/",
+      "why_open": "Page not readable from this session",
+      "places": [
+        "albufeira"
+      ]
+    },
+    {
+      "what": "Probey Services, an AI-focused software firm listed as based in Lagos in a business directory (DesignRush). Directory only.",
+      "url": "https://www.designrush.com/agency/ai-companies/pt",
+      "why_open": "Needs the company's own page",
+      "places": [
+        "lagos"
+      ]
+    },
+    {
+      "what": "No AI project found for Tavira, Olhao or Silves in a first search (results were generic or Brazilian). A finding for those towns' gaps, not proof of absence.",
+      "why_open": "Try each council's news page and regional press by town",
+      "places": [
+        "tavira",
+        "olhao",
+        "silves"
+      ]
+    }
+  ],
+  "social": [
+    {
+      "network": "Mastodon (mastodon.social, masto.pt hashtag timelines, no login)",
+      "finding": "Hashtags algarve, faro, loule, lagos, tavira, portimao, olhao, albufeira, ia: no Algarve AI post found; hits are generic or other places (Faro the lighthouse, Lagos in Nigeria). Not a useful source for the region on its own.",
+      "read_on": "2026-11-15"
+    },
+    {
+      "network": "Bluesky",
+      "finding": "The public search API returns 403 from this session; no readable posts. Needs a route Dinis approves.",
+      "read_on": "2026-11-15"
+    }
+  ]
+}

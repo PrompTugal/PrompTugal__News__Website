@@ -18,7 +18,7 @@ const PTGraph = require('../../../assets/query/graph.js')
 
 export const order = 86
 const LIST = 'data/by-place/places.json'
-const CONNECTIONS = 'data/by-place/connections/connections.json'
+const CONNECTIONS = 'data/by-place/connections.json'
 const BANNED = /(^|\.)(websummit\.com|websummit\.net|lu\.ma|luma\.com|meetup\.com|eventbrite\.[a-z.]+)$/i
 const ASSETS = { css: ['assets/query/query.css'], js: ['assets/query/sql.js', 'assets/query/graph.js', 'assets/query/query.js'] }
 const CASES = ['loule', 'faro']   // Dinis's case studies, deepest first
@@ -164,7 +164,7 @@ export function database(ctx) {
         for (const pl of [m.town, m.region].filter(Boolean).map(String)) if (nodes.has(`place:${pl}`)) E('about_place', id, `place:${pl}`, { source: `content/articles/${s}.md`, read: String(m.date).slice(0, 10), note: W.note_tagged })
         for (const who of named(`${m.title} ${m.summary || ''}`)) E('mentions', id, who, { source: `content/articles/${s}.md`, note: W.note_article })
     }
-    // detective.places@'s connections (data/by-place/connections/connections.json, its schema by-place-connections):
+    // detective.places@'s connections (data/by-place/connections.json, its schema by-place-connections):
     // a link's two ends are {name, type, place}; each is resolved like a map entry (by name, the aliases, then the graph)
     if (ctx.exists(CONNECTIONS)) {
         let cf = {}; try { cf = ctx.readJSON(CONNECTIONS) } catch {}

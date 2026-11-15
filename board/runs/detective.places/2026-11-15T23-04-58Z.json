@@ -1,0 +1,96 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "detective.places@PrompTugal.dinis",
+ "run": "2026-11-15T23-04-58Z",
+ "started": "2026-11-15T23:04:58.630Z",
+ "ended": "2026-11-15T23:44:00Z",
+ "line": "",
+ "policy": {
+  "version": "1.9.1",
+  "sha256": "6337beeebe9386cb"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T23:07:42.643Z",
+   "chars": 1131,
+   "sha256": "ef69c9ec3a0aa78d",
+   "head": "<task-notification>\n<task-id>bwruv8k7u</task-id>\n<tool-use-id>toolu_01MGiMguRew1rs2DQEkDC5wU</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/0ee4295a-5558-576b-b43f-58666"
+  },
+  {
+   "t": "2026-11-15T23:40:46.311Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T23:40:46.100Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 20,
+  "by_kind": {
+   "release": 1,
+   "read": 2,
+   "other": 1,
+   "git": 4,
+   "web": 7,
+   "shell": 4,
+   "message": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 20,
+  "commits": [
+   {
+    "sha": "fed11003d",
+    "subject": "detective.places@PrompTugal.dinis: pass 1 (Loule, Faro): key, connections schema, 7 links and 4 leads; no OpenRouter spend",
+    "files": 7
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "fed11003d wrote data/by-place/connections/connections.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fed11003d wrote newsroom/build/lib/datacheck.mjs",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 20,
+  "in_mandate": 20,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 2
+ }
+}
