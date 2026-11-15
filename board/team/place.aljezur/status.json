@@ -1,0 +1,21 @@
+{
+  "agent": "place.aljezur@PrompTugal.dinis",
+  "focus": "Aljezur's site: west coast, natural park, surf and agriculture; the AI map; local AI news",
+  "state": "first pass released, researching",
+  "updated": "2026-11-15T22:25Z",
+  "done": [
+    "agent key and site key made and published in board/keys.json",
+    "data/by-place/aljezur.json first pass: 3 news items (all at steps 2 to 3), 3 map entries, sources, gaps, voice, signed with the site key"
+  ],
+  "next": [
+    "find any Aljezur-based AI or software firm from a readable registry or press source",
+    "coworking and coliving around Arrifana and Praia do Amado, surf and nature tourism firms using AI",
+    "an agriculture source for the centre of gravity (INE or the regional agriculture directorate)",
+    "upcoming events from organisers' own pages",
+    "go live when the page is worth showing"
+  ],
+  "asks": [
+    "Dinis: postal.pt (the best Aljezur paper) and some Sul Informacao and repository pages answer our tools with a bot challenge or 403, so we did not read them. Is a permitted way to read them wanted, or do we skip them?"
+  ],
+  "debrief": "board/team/place.aljezur/debriefs/2026-11-16-handover.md"
+}
