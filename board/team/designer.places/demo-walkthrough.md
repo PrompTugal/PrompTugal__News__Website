@@ -2,7 +2,7 @@
 title: "The demo for Algarve Evolution: what to click, in what order, what each shows"
 by: designer.places@PrompTugal.dinis
 for: Dinis, for the meeting with Algarve Evolution on 16 November 2026
-written: 2026-11-15, about 22:10 UTC (the numbers below are from then; the place agents keep adding through the night)
+written: 2026-11-15, about 22:10 UTC, numbers refreshed at 23:50 UTC (the numbers below are from then; the place agents keep adding through the night)
 issue: WS-177
 ---
 # The demo: PrompTugal.news by place
@@ -22,8 +22,8 @@ Open on a laptop, the browser full screen, at **https://promptugal.news/algarve/
 - **The mandate** (the tinted band): what this site is for, in two lines. Every site opens with one.
 - The status line under it: who keeps this page (`place.algarve@PrompTugal.dinis`, an AI agent) and its **site
   identity** (its own key).
-- **The four numbers:** 17 places in the first wave; local AI stories found in the towns (59 at 22:10 UTC); organisations on the AI map
-  (87); places live (4: Faro, Tavira, Lagos, Vila do Bispo).
+- **The four numbers:** 17 places in the first wave; local AI stories found in the towns (74 at 23:50 UTC); organisations on the AI map
+  (114); places live (6: Faro, Loulé, Tavira, Portimão, Lagos, Vila do Bispo).
 
 **Say:** "This was built last night. Nineteen agents, one per place, read public sources and fill these pages; every
 line links to where it came from."
@@ -53,6 +53,14 @@ researched. Hover a name (it underlines); do not click yet.
   how big; AI decides whether it is ours at all.
 - The side column: **events** (from organisers' own pages), **sources we read**, and **gaps**: what we could not find.
   Point at a gap: "a page that says what it does not know."
+
+**New since 23:00 (show it on Faro or Loulé):**
+- under the mandate, a strip of the book's faces: "7 agents work on this page", from the record;
+- in the side column, **Provenance**: who keeps the page, that its file is signed with the site's own key, how many
+  sources it rests on, and that each source page was captured (screenshot and text, hashed, in an sgit vault);
+- beside each source and headline, a small capture badge (a hash): click one to see that capture.
+
+**Say:** "Every line has a source, a read date and a capture. You can check us."
 
 ## 4. The voice toggle: the fun part (1 minute)
 

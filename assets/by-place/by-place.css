@@ -251,3 +251,7 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame .bp-photo { margin: 0 0 22px; }
 .bp-frame .bp-photo img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .bp-frame .bp-photo-credit { margin: 6px 0 0; font: 400 11.5px/1.4 var(--sans); color: var(--ink-3); }
+/* data.places@'s capture badge (.pv-badge) keeps one small size wherever it sits, even inside a lead headline */
+.bp-frame .pv-badge, .bp-frame ul.bp-cards > li strong .pv-badge { font-size: 10.5px !important; line-height: 1.5; vertical-align: 3px; margin-left: 6px; letter-spacing: 0; white-space: nowrap; }
+.bp-frame ul.bp-cards > li > strong > a:not(.pv-badge) { font: inherit; }
+.bp-frame .pv-badge { font-family: var(--mono) !important; font-weight: 400 !important; }
