@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1482",
+    "date": "2026-11-15",
+    "what": "designer.places@PrompTugal.dinis: the national page's voice toggle says \"à portuguesa\", not \"Algarvio\"; asks 7 and 8 for dev.places@ (the town as a label on the region's cards, a photo field)",
+    "by": "designer.places@PrompTugal.dinis",
+    "from": "bf7d9b941"
+  },
+  {
     "version": "v0.1.1481",
     "date": "2026-11-15",
     "what": "designer.places@PrompTugal.dinis: the region map's pins lifted in the dark themes; all 18 place pages swept on a phone and a desktop (no overflow, no stray markup, no script errors)",
