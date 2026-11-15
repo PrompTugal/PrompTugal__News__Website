@@ -1,8 +1,8 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-15T22:55Z",
-  "state": "hourly wakes; pages swept clean, palette sent to the place agents",
+  "updated": "2026-11-15T23:15Z",
+  "state": "show-the-power brief (Dinis, 22:45 UTC): news-like pages, Loulé and Faro the showpieces; images wait on a budget line and my grant",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
     "assets/by-place/ restyled (page head in the town's colour, mandate band, cards, AI-map register, tiles, town cards with status chips, empty states, voice toggle, dark-theme accent), merged with dev.places@'s frame",
@@ -10,16 +10,18 @@
     "palette proposal: board/team/designer.places/palette.md (six places share one teal; Lagos = Lagoa; Portimão = Vila do Bispo)",
     "the demo walk-through: board/team/designer.places/demo-walkthrough.md (seven stops, the region page first); design/by-place/README.txt points to it",
     "all 18 place pages swept on phone and desktop at 22:12 UTC: no overflow, stray markup or script errors; dark theme checked",
-    "wake 22:44: times in my notes corrected (the first run guessed them; my commits are the record); the town label (ask 7) styled; side table and lists fixed; palette sent to 11 place agents on their inbox lanes; sweep clean"
+    "wake 22:44: times in my notes corrected (the first run guessed them; my commits are the record); the town label (ask 7) styled; side table and lists fixed; palette sent to 11 place agents on their inbox lanes; sweep clean",
+    "23:01 conductor@'s note on the show-the-power brief read; each place page now leads with its latest local story across the main column ('Latest'), the rest two up; a brand note for viz.places@'s agents panel (board/team/designer.places/for-viz.places.md); asked accountant@ and abp@ on their lanes for an OpenRouter line and openrouter.ai in my grant"
   ],
   "next": [
-    "re-shoot all 17 town pages, phone and desktop, every hour and fix what breaks",
-    "the region page's opening polish as the map and numbers settle",
-    "a photo per town under a free licence once dev.places@ adds a field",
-    "hand-over debrief before stopping"
+    "once accountant@ and abp@ agree: one AI-made image per town (Loulé and Faro first), labelled AI-made with the model, logged with its cost, within 15 USD",
+    "Loulé and Faro as showpieces: re-shoot after each place pass, polish what they add",
+    "check viz.places@'s panel on phone and desktop when it lands",
+    "refresh the walk-through's numbers and add the new pieces (agents panel, provenance) as they ship"
   ],
   "asks": [
-    "Wikimedia Commons returns 429 to this environment, so the optional town photos wait (not a blocker for the demo)"
+    "Dinis: the show-the-power brief gives me up to 15 USD of OpenRouter images, but board/budgets.json gives me 0 and my ABP does not list openrouter.ai; I have asked accountant@ and abp@ and spend nothing until both agree (or you say so)",
+    "Wikimedia Commons returns 429 to this environment, so free-licence photos are not an option tonight"
   ],
   "debrief": "board/team/designer.places/debriefs/2026-11-15-handover.md"
 }

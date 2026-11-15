@@ -234,3 +234,16 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-locator .sea-l, .bp-locator .es-l { display: none; }
 .bp-frame figure.bp-locator figcaption { padding: 6px 10px; font: 400 12.5px/1.4 var(--sans); border-top: 1px solid var(--hair); }
 .bp-locator .bp-pin.focus circle { fill: var(--accent); stroke: var(--paper); stroke-width: 4; }
+
+/* designer.places@, 15 Nov 2026 (Dinis: "running stories, very news-like"): the first local story leads, across the
+   main column, with a bigger headline; the rest follow two up */
+.bp-frame ul.bp-cards.bp-big > li:first-child > strong { font-size: 21px; }
+@media (min-width: 960px) {
+    .bp-frame ul.bp-cards.bp-big > li:first-child { grid-column: 1 / -1; padding: 18px 22px 16px; border-top-width: 4px; }
+    .bp-frame ul.bp-cards.bp-big > li:first-child > strong { font-size: clamp(24px, 2.6vw, 30px); line-height: 1.2; margin-bottom: 10px; max-width: 26em; }
+    .bp-frame ul.bp-cards.bp-big > li:first-child { font-size: 16px; line-height: 1.55; }
+}
+.bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "Latest"; display: inline-block; margin: 0 0 8px; padding: 2px 7px; font: 700 10px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--paper); background: var(--accent); }
+.bp-frame ul.bp-cards.bp-big > li:first-child:has(> em.bp-town)::before { margin-right: 8px; }
+.bp-frame ul.bp-cards.bp-big > li:first-child > em.bp-town { display: inline-block; }
+.bp-frame ul.bp-cards.bp-big > li:first-child > strong, .bp-frame ul.bp-cards.bp-big > li:first-child > strong > a { line-height: 1.2; }
