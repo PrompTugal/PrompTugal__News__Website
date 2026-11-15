@@ -68,6 +68,16 @@
       "read_on": "2026-11-15",
       "ai_path": "A Portuguese council plans a public service that uses AI, and its current step is the software that prepares for it. Source is the vendor, not independent press.",
       "steps": 1
+    },
+    {
+      "title": "Eurocidade do Guadiana tourism pitch made with AI avatars of three mayors, Castro Marim's among them",
+      "summary": "In January 2024 Ayamonte presented a pilot AI video that recreates the mayors of Ayamonte, Vila Real de Santo António and Castro Marim promoting the cross-border area in several languages at once. Older than our usual window but the only cross-border AI project that includes Castro Marim.",
+      "date": "2024-01-25",
+      "publisher": "Ayuntamiento de Ayamonte",
+      "url": "https://ayamonte.es/en/ayamonte-presenta-en-fitur-su-nueva-herramienta-creada-con-ia/",
+      "read_on": "2026-11-15",
+      "ai_path": "Three councils, Castro Marim's included, used generative AI to promote tourism. The page is partly garbled, so details are limited.",
+      "steps": 0
     }
   ],
   "sources": [
@@ -112,6 +122,18 @@
       "url": "https://cm-castromarim.pt/info/sites/cm-castromarim.pt/files/eventos/documentos/flyer_concurso_de_ideias_inov_atazul.pdf",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "Câmara Municipal de Castro Marim, Apoio a Empresas (the Edifício Multifuncional de Empresas incubation space)",
+      "url": "https://cm-castromarim.pt/site/conteudo/apoio-empresas",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Ayuntamiento de Ayamonte (the Eurocidade do Guadiana's lead partner on the AI tourism video)",
+      "url": "https://ayamonte.es/en/ayamonte-presenta-en-fitur-su-nueva-herramienta-creada-con-ia/",
+      "kind": "council",
+      "feed": null
     }
   ],
   "events": [],
@@ -145,6 +167,16 @@
       "read_on": "2026-11-15",
       "ai_path": "Vendor of an AI agent product and of the AI-ready software the council is adopting. Not based in Castro Marim as far as we saw, listed because it supplies the town.",
       "steps": 1
+    },
+    {
+      "name": "Eurocidade do Guadiana (Ayamonte, Vila Real de Santo António, Castro Marim)",
+      "type": "organisation",
+      "url": "https://ayamonte.es/en/ayamonte-presenta-en-fitur-su-nueva-herramienta-creada-con-ia/",
+      "what": "Cross-border grouping of three councils that presented a pilot AI avatar video for tourism in January 2024, led by Ayamonte. Castro Marim's council president took part.",
+      "source_url": "https://ayamonte.es/en/ayamonte-presenta-en-fitur-su-nueva-herramienta-creada-con-ia/",
+      "read_on": "2026-11-15",
+      "ai_path": "A grouping that includes Castro Marim used generative AI for tourism promotion.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -161,12 +193,13 @@
   },
   "gaps": [
     "AI news is thin: in a search of the council's news pages (September to November 2026) we found no headline about AI or technology. The two local AI stories both come from July 2026 and one rests on the vendor's own page.",
-    "The press claims an AI assistant in SalOS (Marnoto AI), but SalOS's own Spanish page does not describe one. We should read its Portuguese and English pages and ask the company before treating the AI claim as settled.",
-    "We could not open Jornal do Algarve (it refused our request) or Postal do Algarve (bot challenge), so their Castro Marim coverage is missing. Sul Informação and the council's Apoio a Empresas section are the next sources to read.",
+    "SalOS's press coverage (Barlavento, Jornal Económico) reports an AI assistant (Marnoto AI) and a water support tool, but neither salos.net's Spanish page nor its main page mentions AI (they list automatic DOP validation and FIFO allocation). We should ask the company before treating the AI claim as settled.",
+    "We could not open Jornal do Algarve (403), Postal do Algarve (bot challenge) or Sul Informação (403), so their Castro Marim coverage is missing. Search results point to Sul Informação items we have not read: a robotics and programming holiday camp run by a youth association in August 2026, and an Algarve dementia congress held in Castro Marim on 12 and 13 November 2026 with an AI and neurostimulation session. Both are leads, not facts, until a page we can open confirms them.",
     "The council site has no RSS or Atom feed that we could find, so Castro Marim cannot be followed automatically yet.",
     "University of Algarve work in the salt pans (CCMAR's SAL+) and CRIA's 2022 blue innovation contest are real local innovation but we saw no AI in them, so they stay out of the map for now.",
     "No AI or tech events found in Castro Marim: the council agenda lists only cultural, sporting and local events. No Algarve Evolution member or startup base found in the municipality yet.",
-    "We have not found a data centre, an AI research group, an AI training course or an AI investor in the municipality."
+    "We have not found a data centre, an AI research group, an AI training course or an AI investor in the municipality.",
+    "The council's incubation space (Edifício Multifuncional de Empresas) describes itself as for innovative, scalable projects but its page mentions no digital, tech or AI focus, and we found no company in it with an AI link."
   ],
   "voice": {
     "lede": "Cá em Castro Marim the salt dries in the sun and the AI, ó pá, still has to be asked to come up from the car park.",
