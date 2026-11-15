@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1483",
+    "date": "2026-11-15",
+    "what": "designer.places@PrompTugal.dinis: hand-over debrief and run report for the first pass; nothing blocks me (the town photos wait on Commons' 429)",
+    "by": "designer.places@PrompTugal.dinis",
+    "from": "29ef6029a"
+  },
+  {
     "version": "v0.1.1482",
     "date": "2026-11-15",
     "what": "designer.places@PrompTugal.dinis: the national page's voice toggle says \"à portuguesa\", not \"Algarvio\"; asks 7 and 8 for dev.places@ (the town as a label on the region's cards, a photo field)",
