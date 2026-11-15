@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1474",
+    "date": "2026-11-15",
+    "what": "dev@PrompTugal.vicky: front page refresh at Vicky's word: PagerDuty leads, her Humans and AI page under it, agenda blocks relabelled",
+    "by": "dev@PrompTugal.vicky",
+    "from": "e557ff1d7"
+  },
+  {
     "version": "v0.1.1473",
     "date": "2026-11-15",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
