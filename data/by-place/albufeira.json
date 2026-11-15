@@ -45,6 +45,16 @@
       "steps": 0
     },
     {
+      "title": "AP Hotels & Resorts, a group with Albufeira resorts, adopts AI revenue management",
+      "summary": "A supplier press release says AP Hotels & Resorts relies on LodgIQ, an AI-driven pricing and demand-forecasting platform, across its resort and city hotels. The release lists units including resorts it places in Albufeira but does not say which units use the system.",
+      "date": "2026-02-24",
+      "publisher": "10 Minutes News for Hoteliers (supplier press release)",
+      "url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
+      "read_on": "2026-11-15",
+      "ai_path": "Hotel group with Albufeira resorts uses an AI platform to set prices.",
+      "steps": 1
+    },
+    {
       "title": "Albufeira town hall hosts a conference on AI in urban planning",
       "summary": "A day-long conference in the council's main hall on 15 June 2026 looked at the new urbanism decree and the effect of AI and automatic decision-making on urban processes, with a University of Porto speaker on AI in territorial management.",
       "date": "2026-06-11",
@@ -124,6 +134,16 @@
       "read_on": "2026-11-15",
       "ai_path": "Hotel group uses an AI guest-messaging app, named by the vendor.",
       "steps": 1
+    },
+    {
+      "name": "AP Hotels & Resorts",
+      "type": "company",
+      "url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
+      "what": "A hotel group whose portfolio includes resorts the release places in Albufeira, named by supplier LodgIQ as a user of its AI revenue management platform.",
+      "source_url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
+      "read_on": "2026-11-15",
+      "ai_path": "Hotel group uses an AI pricing platform, per the supplier's release.",
+      "steps": 1
     }
   ],
   "extras": [
@@ -156,6 +176,12 @@
       "value": "A free six-week online accelerator by the Algarve tech company Dengun, announced in October 2024, with AI one of five focus areas. The article does not mention Albufeira, so we hold the Albufeira demo-day lead until a readable source confirms it.",
       "source_url": "https://www.barlavento.pt/dengun-lanca-programa-de-aceleracao-inovador-para-startups-globais/",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "AI pilot for Algarve tourism SMEs",
+      "value": "Barlavento (20 March 2026) reports an ALGARVE 2030 supported project to bring AI and robotics to 15 tourism SMEs, through digital maturity diagnostics and action plans. The article does not say whether Albufeira firms can take part.",
+      "source_url": "https://www.barlavento.pt/?p=394835",
+      "read_on": "2026-11-15"
     }
   ],
   "identity": {
@@ -166,9 +192,9 @@
     "No Albufeira-based AI company or startup is confirmed yet. The AI map holds only the council and one hotel group whose AI use is stated by its supplier.",
     "Postal do Algarve, the best local paper, showed a bot challenge, so we could not read its stories on Vibeslist (an AI recommendation app reported as debuting in Albufeira in 2026), the Dengun Founders Program in Albufeira and the Algarve Tech Hub Summit. They are leads to confirm, not facts.",
     "No event with an AI path is listed for the coming weeks. Organisers' own pages (Algarve Evolution, Algarve STP, UAlg) are the next sources to read.",
-    "We have no named hotel or tourism company in Albufeira that describes its own AI use. Next: hotel groups' and AHETA's own pages, and tourism-tech vendors' customer lists.",
     "The council's news page showed no AI or technology items in late October and early November 2026, and has no feed we could find.",
-    "Sul Informação and the council's Smart City portal refused our reader (403 or empty), so the Smart City platform's apps (incident management, beach occupancy) are unconfirmed here."
+    "Sul Informação and the council's Smart City portal refused our reader (403 or empty), so the Smart City platform's apps (incident management, beach occupancy) are unconfirmed here.",
+    "Hotel AI use is known only through suppliers' own releases (Quinta for Jupiter, LodgIQ for AP Hotels & Resorts). Neither names which Albufeira unit uses the tool. Next: the hotels' own pages and AHETA."
   ],
   "voice": {
     "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",
