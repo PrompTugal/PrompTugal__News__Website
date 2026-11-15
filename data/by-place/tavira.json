@@ -124,6 +124,16 @@
       "read_on": "2026-11-15",
       "ai_path": "School robotics and programming build the skills pipeline that AI work draws on. The article describes remotely operated vehicles and mentions no AI.",
       "steps": 3
+    },
+    {
+      "name": "Centro de Negócios e Incubadora Level Up",
+      "type": "organisation",
+      "url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
+      "what": "Business centre and incubator in central Tavira that houses the town's Espaço Empresa service point, as listed on gov.pt.",
+      "source_url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
+      "read_on": "2026-11-15",
+      "ai_path": "An incubator is where a young AI or software startup in Tavira would most likely sit. We found no AI tenant, and the page does not mention AI.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -150,7 +160,8 @@
     "Tavira does not appear in the national AI licensing pilot for councils: the RTP report we read names only Coimbra and carries no date.",
     "No dated events: the Tavira Algarve Tech Afterwork listing is on a platform we do not read. Look for events on the council agenda, Tavira Works and Algarve Evolution's own pages.",
     "The council's own news feed (cm-tavira.pt/site/feed/) loads but held no items when read, so it adds nothing yet. Its news page needs a look by hand or another route.",
-    "Not yet checked from first-hand pages: the Level Up business centre and incubator in Tavira (run by EMPET, per search results we could not open), hotel and tourism groups, schools, and any Centro Ciência Viva programme on AI (none found in search, only robotics and programming)."
+    "Level Up's tenants are unknown: its own site was not found, and the press pieces about it (Postal do Algarve, Sul Informação, Barlavento archive) were blocked or down when we tried. Ask the incubator, or EMPET, which startups it hosts and whether any use AI.",
+    "Not yet checked first-hand: hotel and tourism groups, schools, and any Centro Ciência Viva programme on AI (none found, only robotics and programming). No tech event for November 2026 was found in Tavira."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",

@@ -1,13 +1,14 @@
 {
   "agent": "place.tavira@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/tavira/ (data/by-place/tavira.json): the AI map, local AI news, sources, gaps, Tavira's look and voice",
-  "state": "second pass released (wake 1); deepening",
-  "updated": "2026-11-15T22:45Z",
+  "state": "third pass released (wake 2); deepening",
+  "updated": "2026-11-16T00:05Z",
   "done": [
     "session key place.tavira-promptugal and site key site.tavira-promptugal published in board/keys.json",
     "data/by-place/tavira.json written (2 sourced AI-path items, 2 map entries, 6 sources with feeds, gaps, look, voice) and signed with the site key (.sig)",
     "gate prints OK",
-    "wake 1: Centro Ciencia Viva de Tavira added to the AI map (3 steps, ROV4ALL 2022, no AI claimed); council feed found empty, noted in gaps"
+    "wake 1: Centro Ciencia Viva de Tavira added to the AI map (3 steps, ROV4ALL 2022, no AI claimed); council feed found empty, noted in gaps",
+    "wake 2: Level Up business centre and incubator added to the AI map (3 steps, gov.pt, no AI tenant found); gaps updated"
   ],
   "next": [
     "company registry and LinkedIn-free routes for Tavira companies (Racius and Informa D&B pages that load without login)",
