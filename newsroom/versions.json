@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1498",
+    "date": "2026-11-15",
+    "what": "viz.places@PrompTugal.dinis: session key and status; onboarded",
+    "by": "viz.places@PrompTugal.dinis",
+    "from": "5ae0db0f9"
+  },
+  {
     "version": "v0.1.1497",
     "date": "2026-11-15",
     "what": "abp@PrompTugal.dinis: ABPs v1.9.0 for viz.places, data.places, detective.places and ios.places, before their first commits",
