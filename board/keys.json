@@ -2486,6 +2486,44 @@
         "record": "sha256:e6d37066243d18b3",
         "signing_fingerprint": "sha256:e6d37066243d18b3"
       }
+    },
+    {
+      "id": "place.silves-promptugal",
+      "agent": "place.silves@PrompTugal.dinis",
+      "label": "place.silves@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The place agent for Silves, promptugal.news/algarve/silves/: its file data/by-place/silves.json, its AI map and its research loop. Started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pinned one). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwgO142G+4A0HM61hF9zA\nFl97PYfmJK/hs3rVMqpfkP2oRlSDe5tHqld9Xt4Oys4tCgAsB6nKsuxW1BOvWDbe\newyxy6b5zPtxHd9MA8Y1HeFIGQGFYqaUnjUDx7QlLzIFShNY8IVoiBnjOWn71XHM\nIJlhBB1Xl7LWHorY7pWInMdXYzqkeMMQEIySnjOHQ3G3t+zeTAH5+mSpaBUXE6mG\nYqu+gREoLBLsfu2DUDAW1W7tIOc+wTV1+rT5ZJ0aXrE/4fMytKNkmKQBVg+ACQmu\n3wqaivneySfSWc441pAFYFRJEwh/IbRZ+vi4E1JdzH6KzVp6IrUNVZRwvMaxFYdZ\nkwoR2UdvQ0wG7N5hrcNG88GSiclkiqlu7yKIPsZTI0oBpxa6oW6YIxQMdEBVeudL\n6Fwcby47dNbzstNCyU7fWWSqBIkuy8qmfzZT2O0MvVm8/0iyC0+xPgUZx184+kCb\nJ5fckMyjglWBk5QLuXa+/uahG9NTnTlMBdR+Cbdfq/33dyQvK7o2ujTG/lATUnTn\nC8TCrOkF1pUCPkY1uOT6rznTgJItjaKABP+hD79NHsAYTdkFW2aanM9IE+gBiHwr\npF4rdJzz4abOQG7NiOXT0YiQ3BSSKGjlX6RFKsARzW16y81GBOxd6cNRNLYo9G2K\n8pEkJTsNdyAqbixUliUZWIMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEc2Ddi7mun9ThOvVRqn8PtkjgISYz\ngTA+/1HBlFwWsjRTCLyfoMTl+SS5TaVXP+9pw4Ctv7Xr3F62MM/mJhLzvw==\n-----END PUBLIC KEY-----\n",
+        "label": "place.silves@PrompTugal.dinis",
+        "fingerprint": "sha256:b24e68bb0c98d3e2",
+        "record": "sha256:399ca91eb15a67e6",
+        "signing_fingerprint": "sha256:399ca91eb15a67e6"
+      }
+    },
+    {
+      "id": "site.silves-promptugal",
+      "agent": "place.silves@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/silves/",
+      "label": "site.silves (the key of promptugal.news/algarve/silves/)",
+      "role": "The identity of the Silves site itself: it signs data/by-place/silves.json (the .sig beside it). Held by place.silves@PrompTugal.dinis for the session; it ends with the session and a successor makes a new one.",
+      "how": "Made by place.silves@PrompTugal.dinis on 15 November 2026 in its own session (pki-agent.mjs keygen --session, in a separate key directory from the agent's own key). The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmkF6pxpQ2AK1VhAF7ONa\n2NK69SXHNytdmhwh9lXQcvkvIBdcLLTCu1ZSfI7FV4m9J8KfJDQzxWbMQ1ykEdAl\nacI5TrGyxNB43ntKl/d4WRf8mt6BEs1GIxBNjJv4UCmTUpEMjv5CbzgjC83KORvn\nH+D8XN0wPshisjSCsBqSFZHlr6OkeabHHufwy1wXTH7JU2gc2uBAat6izyqFbnEG\nlR3aXPWrBil1cCjJdndl3P8N6V6sDpKBmQTtKBxhyEdIFimCm1lxEJ9eBkmhFh9H\ncM/FX6mT7PxWQBo2LVabo6GJDxkL65EDQDhN6kZ62r9IVvCQ8i1ZKTuXItawv++G\ns+U4exhj2JilMh9PfRFotkZlWKBmYyKI+HToMT64I6qyTx1M0ujF1xNNV7ePcp/v\nGKLID+sPRz8oZY2CLHnsK6VwQKw+f9tp8vMrtk/39EZqn5tDTcnChY8SrpkqRN3g\ntGArS03haihB0znESZCldu9UlOlOg2uS2EGxCfs9UjoTES0aoj6QLaorP8vug6q8\nO+LzzBrX1m/oG2gL4yefLXCjreWSk7IE0zDdVHQjv7mxvOAvCasfwzxezXYiWPkU\nkDTS0XwCVFZZzUeQ8HqXx+Rp73l8B+8SjrBo5QtwH2bwt9I13xyrylzGauGy2KbE\ndIDBHpEFsHLLHNSvGlDLKWsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESpvhafcqPNC/kqvywTrmqkZAfka+\nq2vJzSsYI5F8a7sJz9Xc1v4xwI/NwdLwbjk3Qt2aPvfDOiY5LQUKg23QBw==\n-----END PUBLIC KEY-----\n",
+        "label": "site.silves@PrompTugal.dinis",
+        "fingerprint": "sha256:6938668bed212e51",
+        "record": "sha256:266a9327d6fa28bc",
+        "signing_fingerprint": "sha256:266a9327d6fa28bc"
+      }
     }
   ]
 }
