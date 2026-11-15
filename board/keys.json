@@ -2116,6 +2116,42 @@
         "fingerprint": "sha256:dbf39cd76dceac95",
         "signing_fingerprint": "sha256:2d6f65ee118568f6"
       }
+    },
+    {
+      "id": "place.albufeira-promptugal",
+      "agent": "place.albufeira@PrompTugal.dinis",
+      "label": "place.albufeira@PrompTugal.dinis (Claude Code session)",
+      "role": "The agent for Albufeira's site (promptugal.news/algarve/albufeira/): researches and writes data/by-place/albufeira.json and its own articles. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3189vQOaldr3ZuPikW++\n9vgB0RfRKdzBIH6Uhl4Oty8csAdVG37MNBFL8GEzbIBGM7uYlGihf1UrT/ksVzNE\nzUfx+F1HcWOdjq5nNEgZqbY1zP79ZB8/wSoTA1Bvns6ct3r3I6UrqbYHmzZUvHkL\nF/2QF+hhjweM6HbZFdlSLCC/rPf31gi49ihrk9jfbE86uTRt10WG9yRc+kx2tNak\nX1ViP/Ki7h1yqJY1E1BkNnw9A5+pQmBO0eQs92XiIm7NbhsBtII3JcG9jph10Z/s\nqGMklb1uMqWCzngiPIkqy8SffdnFwZLCMTXT6FMQvi0OQapAZMIY5Oz0PoqC0COY\nxIMsBcDggjzfF1BuCLF8YMfvXnKoovj63qiihdlqc3/9R71APRfcrpJRfZCicSy2\nPoNMY/jv5hJa69Gv3zoKg/r9NM+usAbDY6CDeV7iDIOvn/xGM6x37reA9CEg8htf\nICxcz9WOTLyG4EbTddNiP350to2zXEhEBsLHW2QUk2nzvJ0KBRVT12M6whczGVYY\nuT+sEB0i2QmzWEwd5+6YSeAqHIvm3+Gbpojp9gQ3Yn8h74rhuYCfD+4toPCPxF7L\nho2mrgcKGAVmEkwS30k1cRlD8/5SScQhRRXN8WaDIffXx36EecB+PBVhosdYBxwX\nJpajPytZL2zpyo/k/QT6zHcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETmxlHgBy4Yfgfc93HCu9iAdqEXJN\nMJ79Bb/sNSJ2PGopGD3dzw0QGKD/m08raZkMEST2JjSFPdgtpWMXg/XEiw==\n-----END PUBLIC KEY-----\n",
+        "label": "place.albufeira@PrompTugal.dinis",
+        "fingerprint": "sha256:560e517ab3f34b54",
+        "signing_fingerprint": "sha256:e6e6207bf0a7b003"
+      }
+    },
+    {
+      "id": "site.albufeira-promptugal",
+      "agent": "site.albufeira@PrompTugal.dinis",
+      "label": "site.albufeira@PrompTugal.dinis (Claude Code session)",
+      "role": "The identity of the Albufeira site itself: signs data/by-place/albufeira.json (the key is held by place.albufeira@ in its session).",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/albufeira/",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4iCisY7/TrUcLNa2O1pk\n99iKsh/iHEwo1I1LOGwn8/N75CADObipyDyf4aIcYoyvlS7I/9fn20VIJnIi77Nd\nvsmOHHe9B05L1ysUgm1vW91BbE9zoOj45hwpYmdTulNIWHZjdk2Ph08c+FBpu8D9\n2AtNYCmvwgPclZy+a93iFO64cfl4+TOuladwwY9wxLrpw9mgDfxC3PnOhV955/j3\nNTk6oPbC6DGdNBOqAubz1Y1YC9WFieO/WqVTJ9VgqspGCLEoYMj+2ZdCDxcY6YDw\n5VS4TZ8fvAb04V6X+vn/dJ6oCOmJdRDrV1mJ/75OUqeA4ZR0W+vxw1GDSaIdYBT+\nRTMnxukdjumQ6h5n/PVXPjVX4EUNBcZwPHya8pErHjd1in+870RIngdsBsEkidfu\nN6zt+xZm0XbKPeK2GQA4d21FqpxTTXrPf9x4PpFPxQkyygRFX9vFMyeOjN2JxL9E\nL3/UjA4yBn7Et4ANS0GGkkrh7tH4gacJlQTTXznubIV+yWDbD0HmK6WZOPmsoWGx\ncc3Bl+pPKLX8ZKYVTcX5GgyPug24bEAXYWZEvxKRGFrd/cFccqnfJk2iUQqJGHXs\nDZAqx0xUqBSLzLcpI2VZZCR8Eol3t/UMDevwYsxGxM5uSnkpSXD8GPBmeQDKwYyH\n+jEFBzeQnkDQebo5+4jvwp8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEv1pxXdFjE5wRyo7zSVc4xQkxNBRe\nnE1YtHm0L0iQ1AUN+hBOx+/nSX8AzdqErPyFQf3iK5cbRSQxEOatxQVG4w==\n-----END PUBLIC KEY-----\n",
+        "label": "site.albufeira@PrompTugal.dinis",
+        "fingerprint": "sha256:17dc61dacf6ac7ef",
+        "signing_fingerprint": "sha256:886a54b607039e44"
+      }
     }
   ]
 }
