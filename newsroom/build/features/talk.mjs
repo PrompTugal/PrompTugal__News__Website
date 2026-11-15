@@ -24,7 +24,7 @@ export function api(ctx) {
     const t = words(ctx), inbox = ctx.readJSON(INBOX)
     return [
         { path: 'api/v1/talk/config.json', schema: null, data: { about: t.about, enabled: t.enabled !== false, version: ctx.VERSION, endpoint: inbox.endpoint, vault_id: inbox.vault_id,
-            append_token: inbox.public_lane && inbox.public_lane.append_token, recipient: { agent: inbox.agent, fingerprint: inbox.recipient.fingerprint, encrypt: inbox.recipient.encrypt }, words: t.words } },
+            append_token: inbox.public_lane && inbox.public_lane.append_token, format: 'promptugal/comment/v1', replies: 'api/v1/talk/replies.json', recipient: { agent: inbox.agent, fingerprint: inbox.recipient.fingerprint, encrypt: inbox.recipient.encrypt }, words: t.words } },
         { path: 'api/v1/talk/replies.json', schema: null, data: { version: ctx.VERSION, replies: replies(ctx).map(r => ({ to: r.to, about: r.about, at: r.at || null, envelope: r.envelope })) } },
     ]
 }

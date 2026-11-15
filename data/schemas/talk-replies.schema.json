@@ -21,7 +21,7 @@
             "type": "object",
             "required": ["key", "epk", "iv", "ct"],
             "properties": { "key": { "type": "string" }, "epk": { "type": "object" }, "iv": { "type": "string" }, "ct": { "type": "string" } },
-            "description": "ws-ecies-1: ECDH P-256 with an ephemeral key, HKDF-SHA256 (empty salt, info ws-ecies-1), AES-256-GCM; the plaintext is JSON { text }"
+            "description": "ws-ecies-1: ECDH P-256 with an ephemeral key, HKDF-SHA256 (empty salt, info ws-ecies-1), AES-256-GCM; the plaintext is JSON { text, place, item, by, at } (one reply format for the website and the app)"
           }
         }
       }

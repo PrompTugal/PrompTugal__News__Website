@@ -40,7 +40,14 @@
             headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ append_token: c.append_token, payload }) })
         if (!r.ok) throw new Error('lane ' + r.status)
     }
-    const body = (d, version) => ({ v: 1, type: 'talk', page: d.page, kind: d.kind, text: d.text, quote: d.quote || null, at: new Date().toISOString(), site_version: version || null })
+    // one comment format for the website and the app (promptugal/comment/v1, ios.places@'s proposal relayed by conductor@):
+    // the signature, when there is one, is ECDSA P-256 SHA-256 raw r||s over kind\nperson\nat\nplace\nitem\ntext, checked
+    // against the person's sign key in board/person-keys.json (newsroom/tools/person-key.mjs verify)
+    const KIND = 'promptugal/comment/v1'
+    const placeId = () => { const f = document.querySelector('.bp-frame[data-place]'); return f ? f.dataset.place : '' }
+    const body = (d, version) => ({ kind: KIND, person: '', key: '', signing_key: '', at: new Date().toISOString(), place: d.place || '', item: d.item || '',
+        title: d.title || '', page: d.page, text: d.text, feedback: '', from: 'web', topic: d.kind, quote: d.quote || null, site_version: version || null, signature: '' })
+    const signedText = m => [m.kind, m.person, m.at, m.place, m.item, m.text].join('\n')
 
     // a passage the reader selected in the main column, quoted with the comment
     let quote = ''
@@ -79,12 +86,12 @@
             if (!t) { msg.textContent = W.empty; return null }
             if (t.length > 4000) { msg.textContent = W.too_long; return null }
             if (CONTACT.test(t)) { msg.textContent = W.contact; return null }
-            return { page, kind: kind.value, text: t, quote: q.hidden ? null : q.dataset.quote }
+            return { page, place: placeId(), title: document.title.replace(/\s*[·|].*$/, ''), item: '', kind: kind.value, text: t, quote: q.hidden ? null : q.dataset.quote }
         }
         form.onsubmit = async e => {
             e.preventDefault(); const d = draft(); if (!d) return
             anon.disabled = true
-            try { await send({ body: body(d, c.version) }); msg.textContent = W.sent; text.value = ''; SS.set('text.' + page, null); q.hidden = true }
+            try { await send(body(d, c.version)); msg.textContent = W.sent; text.value = ''; SS.set('text.' + page, null); q.hidden = true }
             catch { msg.textContent = W.failed } finally { anon.disabled = false }
         }
         form.addEventListener('click', e => {
@@ -120,8 +127,11 @@
             b.onclick = async () => {
                 b.disabled = true
                 try {
-                    const bd = body(d, c.version), signature = await KR.sign(JSON.stringify(bd))
-                    await send({ body: bd, signed: { person: KR.person, fingerprint: KR.fingerprint, alg: 'ECDSA-P256-SHA256', over: 'JSON.stringify(body)', signature } })
+                    const reg = await fetch(root + 'board/person-keys.json').then(r => r.json()).catch(() => ({ keys: [] }))
+                    const k = (reg.keys || []).find(x => x.fingerprint === KR.fingerprint) || {}
+                    const m = Object.assign(body(d, c.version), { person: KR.person, key: KR.fingerprint, signing_key: k.signing_fingerprint || '' })
+                    m.signature = await KR.sign(signedText(m))
+                    await send(m)
                     SS.set('draft', null); msg.textContent = W.sent_signed
                 } catch { msg.textContent = W.failed; b.disabled = false }
             }
