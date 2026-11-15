@@ -1,0 +1,81 @@
+/* The visible agentic system (viz.places@PrompTugal.dinis, 15 November 2026): the cast drawn in code, the agents panel
+   on every place page, each place's newsroom and the explainer. Colours from assets/tokens.css; an agent's own colour
+   is set on its figure. */
+
+:root { --vz-ink: #1d2433; --vz-head: #eef1f6; --vz-paper: #ffffff; --vz-cell: var(--c, #1f5f3f); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --vz-ink: #d6dae3; --vz-head: #2a2f3a; --vz-paper: #1b1f27; } }
+:root[data-theme="dark"] { --vz-ink: #d6dae3; --vz-head: #2a2f3a; --vz-paper: #1b1f27; }
+
+/* the figures */
+.vz-fig, .vz-headonly { display: inline-block; vertical-align: middle; overflow: visible; }
+.vz-fig .vz-ink, .vz-headonly .vz-ink { stroke: var(--vz-ink); }
+.vz-fig .vz-none, .vz-headonly .vz-none { fill: none; }
+.vz-fig .vz-head, .vz-headonly .vz-head { fill: var(--vz-head); }
+.vz-fig .vz-paper, .vz-headonly .vz-paper { fill: var(--vz-paper); }
+.vz-fig .vz-fill-ink, .vz-headonly .vz-fill-ink { fill: var(--vz-ink); }
+.vz-fig .vz-hand2, .vz-headonly .vz-hand2 { stroke: #c52830; }
+.vz-fig .vz-sweat, .vz-headonly .vz-sweat { fill: #5aa9e6; }
+.vz-fig .vz-gold, .vz-headonly .vz-gold { fill: #d9a520; }
+.vz-fig.vz-happy { animation: vz-bob 2.8s ease-in-out infinite; }
+.vz-fig.vz-stressed { animation: vz-shake 1.6s ease-in-out infinite; }
+@keyframes vz-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
+@keyframes vz-shake { 0%, 90%, 100% { transform: rotate(0); } 93% { transform: rotate(-2deg); } 96% { transform: rotate(2deg); } }
+@media (prefers-reduced-motion: reduce) { .vz-fig.vz-happy, .vz-fig.vz-stressed { animation: none; } }
+
+/* the strip under a place page's masthead */
+.vz-strip { margin: 10px 0 0; font: 500 13px/1.4 var(--sans); }
+.vz-strip a { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; color: var(--ink-2); text-decoration: none; padding: 4px 10px 4px 6px; border: 1px solid var(--hair); border-radius: 999px; background: var(--panel); }
+.vz-strip a:hover { border-color: var(--c, var(--accent, var(--brand))); color: var(--ink); }
+.vz-heads { display: inline-flex; }
+.vz-heads svg { margin-right: -5px; }
+
+/* the panel */
+.vz-panel { margin: 8px 0 28px; }
+.vz-count { font: 400 14px/1.5 var(--sans); color: var(--ink-2); margin: 0 0 14px; }
+.vz-count strong { font: 700 22px/1 var(--serif); color: var(--ink); }
+.vz-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 14px; }
+.vz-card { position: relative; background: var(--panel); border: 1px solid var(--hair); border-top: 4px solid var(--rule-2); border-radius: 6px; padding: 12px 14px 12px; font: 400 13.5px/1.45 var(--sans); color: var(--ink-2); min-width: 0; }
+.vz-card.vz-own { border-top-color: var(--c, var(--brand)); box-shadow: 0 1px 0 var(--hair); }
+.vz-card-top { display: flex; gap: 10px; align-items: flex-end; margin-bottom: 6px; }
+.vz-figwrap { flex: none; width: 74px; display: flex; justify-content: center; }
+.vz-who { min-width: 0; }
+.vz-name { margin: 0; font: 600 15px/1.2 var(--mono); color: var(--ink); overflow-wrap: anywhere; }
+.vz-role { margin: 2px 0 0; font: 400 12px/1.3 var(--sans); color: var(--ink-3); }
+.vz-mood { margin: 4px 0 0; font: 600 12px/1.3 var(--sans); color: var(--ink-2); }
+.vz-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; background: var(--rule-2); vertical-align: 0; }
+.vz-m-happy .vz-dot { background: var(--ok); box-shadow: 0 0 0 3px var(--ok-soft); }
+.vz-m-stressed .vz-dot { background: var(--warn); box-shadow: 0 0 0 3px var(--warn-soft); }
+.vz-m-worried .vz-dot { background: #b8a160; }
+.vz-m-unhappy .vz-dot { background: var(--ink-3); }
+.vz-card p { margin: 6px 0 0; }
+.vz-card b { font-weight: 600; color: var(--ink); margin-right: 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+.vz-job { color: var(--ink); }
+.vz-ask { color: var(--warn); }
+.vz-last a { color: var(--ink-2); }
+.vz-rel { font: 500 11px/1 var(--mono); background: var(--paper-2); padding: 2px 5px; border-radius: 3px; white-space: nowrap; }
+.vz-score { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; margin: 10px 0 0; padding: 8px 0 0; border-top: 1px solid var(--hair); }
+.vz-score div { min-width: 0; }
+.vz-score dt { font: 500 9.5px/1.2 var(--sans); text-transform: uppercase; letter-spacing: .04em; color: var(--ink-3); }
+.vz-score dd { margin: 1px 0 0; font: 600 14px/1.2 var(--mono); color: var(--ink); }
+.vz-key { font: 400 10.5px/1.4 var(--mono); color: var(--ink-3); overflow-wrap: anywhere; }
+.vz-key code { font: inherit; background: none; padding: 0; }
+
+/* on stage: hours by agent */
+.vz-stage { margin: 18px 0 0; overflow-x: auto; }
+.vz-stage figcaption { font: 400 12.5px/1.4 var(--sans); color: var(--ink-3); margin-bottom: 8px; }
+.vz-stage-grid { display: grid; gap: 3px; min-width: max-content; }
+.vz-stage-row { display: grid; grid-template-columns: 190px repeat(var(--n), 16px); gap: 3px; align-items: center; }
+.vz-stage-who { display: flex; align-items: center; gap: 6px; font: 500 11.5px/1 var(--mono); color: var(--ink-2); white-space: nowrap; overflow: hidden; }
+.vz-cell { display: block; height: 16px; border-radius: 3px; background: color-mix(in srgb, var(--vz-cell) calc(var(--k) * 100%), var(--paper-2)); }
+.vz-stage-axis i { font: 400 9.5px/1 var(--mono); color: var(--ink-3); font-style: normal; white-space: nowrap; overflow: visible; }
+
+.vz-how { margin: 14px 0 0; font: 400 13.5px/1.5 var(--sans); color: var(--ink-2); }
+.vz-how summary { cursor: pointer; font-weight: 600; color: var(--ink); }
+.vz-how ul { list-style: none; padding: 0; }
+.vz-how li { margin: 4px 0; }
+
+@media (max-width: 600px) {
+    .vz-cards { grid-template-columns: 1fr; }
+    .vz-stage-row { grid-template-columns: 120px repeat(var(--n), 12px); }
+    .vz-cell { height: 12px; }
+}

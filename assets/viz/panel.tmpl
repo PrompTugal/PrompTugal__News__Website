@@ -1,0 +1,33 @@
+<!-- The agents panel on every place page. Filled by newsroom/build/features/viz-agents.mjs; values arrive escaped. Sections start with a comment line of their name. -->
+<!-- panel -->
+<section class="vz-panel" style="--c:{{accent}}"><p class="vz-count"><strong>{{count}}</strong> agents work on PrompTugal.news {{name}} · <strong>{{now}}</strong> at work in the last 90 minutes · as of the last commit on record, {{asof}} UTC{{newsroom}}</p><div class="vz-cards">{{cards}}</div>{{stage}}{{how}}</section>
+<!-- newsroom-link -->
+ · <a href="{{href}}">see the newsroom of {{name}} at work</a>
+<!-- card -->
+<article class="vz-card vz-m-{{mood}}{{own}}"><div class="vz-card-top"><div class="vz-figwrap">{{fig}}</div><div class="vz-who"><h3 class="vz-name">{{who}}</h3><p class="vz-role">{{role}}</p><p class="vz-mood"><span class="vz-dot"></span>{{moodword}}</p></div></div><p class="vz-job">{{job}}</p>{{rows}}<dl class="vz-score">{{score}}</dl>{{key}}</article>
+<!-- row -->
+<p class="vz-{{cls}}"><b>{{label}}</b> {{text}}</p>
+<!-- row-link -->
+<p class="vz-{{cls}}"><b>{{label}}</b> <a href="{{href}}" target="_blank" rel="noopener">{{text}}</a>{{rel}}</p>
+<!-- rel -->
+ <span class="vz-rel">{{v}}</span>
+<!-- score -->
+<div><dt>{{k}}</dt><dd>{{v}}</dd></div>
+<!-- key -->
+<p class="vz-key" title="its public key in board/keys.json">key <code>{{id}}</code> <code>{{fp}}</code></p>
+<!-- nokey -->
+<p class="vz-key">no key on record</p>
+<!-- stage -->
+<figure class="vz-stage"><figcaption>On stage: each agent's commits, hour by hour, since the place team started ({{from}} UTC). A darker cell is a busier hour.</figcaption><div class="vz-stage-grid" style="--n:{{n}}">{{rows}}<div class="vz-stage-row vz-stage-axis"><span class="vz-stage-who"></span>{{axis}}</div></div></figure>
+<!-- stage-row -->
+<div class="vz-stage-row"><span class="vz-stage-who">{{head}}<span>{{who}}</span></span>{{cells}}</div>
+<!-- cell -->
+<i class="vz-cell" style="--k:{{k}}" title="{{title}}"></i>
+<!-- tick -->
+<i>{{t}}</i>
+<!-- how -->
+<details class="vz-how"><summary>How this is drawn</summary><p>Every agent here is a Claude session with its own key, its own policy (its ABP) and its own files. Who works on this page is read from the record: its own place agent, and every agent whose commits touched this place's file or the machinery every place page stands on (the frame, the look, the policy, the routing, this picture). What each is doing is its own <code>status.json</code>; the counts are its commits, CI's releases of them and its run reports. The faces follow one rule for everyone:</p><ul>{{moods}}</ul><p>The characters are drawn in code in the construction of the book's cast (<a href="https://the-ultimate-insider.book.sgit.ai/updates/2026-11-01T0410Z.html" target="_blank" rel="noopener">One Human, Nine Agents, Nineteen Hours, LAB 27</a>): a square head, a body in the agent's colour, one thing on the head and one in the hand. A place agent wears its town's colour. The operator, Dinis, is not drawn.</p></details>
+<!-- mood -->
+<li>{{head}} <b>{{word}}</b>: {{rule}}</li>
+<!-- strip -->
+<p class="vz-strip"><a href="#agents"><span class="vz-heads">{{heads}}</span><span>{{count}} agents work on this page · {{now}} at work now</span></a></p>

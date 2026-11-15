@@ -1,0 +1,222 @@
+{
+  "about": "The cast of PrompTugal.news: how each agent is drawn and what its commits mean on a place page. Read by newsroom/build/features/viz-agents.mjs at every build. Kept by viz.places@PrompTugal.dinis.",
+  "after": "One construction for every agent, after the book's cast (One Human, Nine Agents, Nineteen Hours, LAB 27: https://the-ultimate-insider.book.sgit.ai/updates/2026-11-01T0410Z.html): a square head with a face, a body in the agent's own colour, one thing on the head and one in the hand, four moods. The conductor, researcher, dev, designer, storyteller and deck looks are the book's; the others are new, in the same construction. A place agent wears its town's own accent.",
+  "moods": [
+    {
+      "id": "happy",
+      "rule": "committed in the last 90 minutes and asks Dinis for nothing",
+      "word": "at work"
+    },
+    {
+      "id": "stressed",
+      "rule": "committed in the last 90 minutes, and its status.json asks Dinis for something (working around a block)",
+      "word": "at work, with an ask for Dinis"
+    },
+    {
+      "id": "worried",
+      "rule": "quiet for 90 minutes to 6 hours",
+      "word": "quiet"
+    },
+    {
+      "id": "unhappy",
+      "rule": "quiet for more than 6 hours, or no commit on record",
+      "word": "silent"
+    }
+  ],
+  "looks": [
+    {
+      "match": "^conductor",
+      "look": "conductor",
+      "colour": "#b5471b",
+      "said": "a clock for a face, a baton"
+    },
+    {
+      "match": "^place\\.",
+      "look": "place",
+      "colour": "accent",
+      "said": "a map pin on the head, a notebook, in its town's colour"
+    },
+    {
+      "match": "^dev",
+      "look": "dev",
+      "colour": "#3d7a3a",
+      "said": "a hard hat, a spanner"
+    },
+    {
+      "match": "^designer",
+      "look": "designer",
+      "colour": "#c0406a",
+      "said": "a beret, a pencil"
+    },
+    {
+      "match": "^abp",
+      "look": "abp",
+      "colour": "#44508f",
+      "said": "a peaked cap, a rule book"
+    },
+    {
+      "match": "^security",
+      "look": "security",
+      "colour": "#5a5f6b",
+      "said": "a helmet, a shield"
+    },
+    {
+      "match": "^viz",
+      "look": "deck",
+      "colour": "#b8860b",
+      "said": "a bow tie, a slide on a stick"
+    },
+    {
+      "match": "^data",
+      "look": "data",
+      "colour": "#1f7a7a",
+      "said": "a cap on backwards, a database"
+    },
+    {
+      "match": "^detective",
+      "look": "detective",
+      "colour": "#7a5230",
+      "said": "a deerstalker, a magnifier"
+    },
+    {
+      "match": "^research",
+      "look": "researcher",
+      "colour": "#2c6e8f",
+      "said": "round glasses, a lab coat, a magnifier"
+    },
+    {
+      "match": "^(journalist|writer|reporter|storyteller)",
+      "look": "storyteller",
+      "colour": "#6f4a9a",
+      "said": "wavy hair, a long scarf, an open book"
+    },
+    {
+      "match": "^(curator|correspondent)",
+      "look": "curator",
+      "colour": "#9a6a1f",
+      "said": "a bow tie, a card"
+    },
+    {
+      "match": "^(reviewer|checker|synthetic|sherpa)",
+      "look": "reviewer",
+      "colour": "#4f6f52",
+      "said": "round glasses, a tick on a card"
+    },
+    {
+      "match": "^ontologist",
+      "look": "ontologist",
+      "colour": "#3f4fa0",
+      "said": "a headband, a little graph"
+    },
+    {
+      "match": "^ios",
+      "look": "ios",
+      "colour": "#2f6fb0",
+      "said": "a cap on backwards, a phone"
+    },
+    {
+      "match": ".",
+      "look": "plain",
+      "colour": "#6b7280",
+      "said": "the plain construction"
+    }
+  ],
+  "jobs": [
+    {
+      "path": "^data/by-place/{id}\\.json(\\.sig)?$",
+      "job": "researches the place and keeps its file: the mandate, the AI map, the local news, the sources",
+      "stage": "research",
+      "own": true
+    },
+    {
+      "path": "^board/team/place\\.{id}/",
+      "job": "keeps its own status and debriefs",
+      "stage": "record",
+      "own": true
+    },
+    {
+      "path": "^content/articles/",
+      "job": "writes and signs the articles",
+      "stage": "write",
+      "own": false
+    },
+    {
+      "path": "^newsroom/build/features/by-place\\.mjs$",
+      "job": "builds the frame every place page stands in",
+      "stage": "build"
+    },
+    {
+      "path": "^data/schemas/by-place",
+      "job": "keeps the place files' schema",
+      "stage": "build"
+    },
+    {
+      "path": "^data/by-place/places\\.json$",
+      "job": "keeps the list of places",
+      "stage": "build"
+    },
+    {
+      "path": "^(assets/by-place/|design/by-place/)",
+      "job": "gives each place its look",
+      "stage": "design"
+    },
+    {
+      "path": "^board/abp/(place\\.{id}\\.md|tools/site-identity\\.mjs|policies\\.json)",
+      "job": "writes the policy each agent works under and checks each site's identity",
+      "stage": "policy"
+    },
+    {
+      "path": "^board/team/conductor/place-agents\\.json$|^board/briefs/2026-11-15-",
+      "job": "started the place team and routes the work",
+      "stage": "route"
+    },
+    {
+      "path": "^data/by-place/connections\\.json$",
+      "job": "connects the dots between the places' companies and people",
+      "stage": "research"
+    },
+    {
+      "path": "^(newsroom/build/features/viz-|assets/viz/)",
+      "job": "draws this panel and each place's newsroom from the record",
+      "stage": "show"
+    }
+  ],
+  "copy": {
+    "twin_lede": "**{count} agents** work on PrompTugal.news {name}, {now} of them at work in the last 90 minutes, as of the last commit on record ({asof} UTC). Each is drawn from the record: its commits, its status file, its run reports and its key. Nothing here is typed in by hand.",
+    "twin_item": "**{who}**{model}, {mood}: {job}. {last}.{state}",
+    "twin_last": "last commit {ago}: {subject}{release}",
+    "twin_state": " Now: {state}.",
+    "no_commit": "no commit on record yet",
+    "place_job": "the place agent: {job}",
+    "place_role": "the place agent",
+    "ask": "{n} for Dinis in its status.json",
+    "labels": {
+      "now": "Now",
+      "said": "Last said",
+      "next": "Next",
+      "ask": "Asks",
+      "last": "Last commit",
+      "none": "none on record yet"
+    },
+    "score": {
+      "first": "first commit",
+      "here": "commits here",
+      "total": "commits",
+      "releases": "releases",
+      "runs": "run reports",
+      "tools": "tool calls",
+      "web": "pages read"
+    },
+    "stages": {
+      "build": "the frame",
+      "design": "the look",
+      "policy": "the policy",
+      "route": "the conductor",
+      "show": "the picture",
+      "research": "research",
+      "write": "writing",
+      "record": "the record"
+    },
+    "cell_title": "{who}: {k} commits, {from} to {to} UTC"
+  }
+}
