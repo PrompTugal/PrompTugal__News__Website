@@ -1,0 +1,72 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-15T22-28-48Z",
+ "started": "2026-11-15T22:28:48.149Z",
+ "ended": "2026-11-15T23:02:04Z",
+ "line": "ABPs for the four of show the power (v1.9.0)",
+ "policy": {
+  "version": "1.9.0",
+  "sha256": "156211e35e347db4"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T23:00:55.023Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "write": 1,
+   "release": 2,
+   "other": 1,
+   "git": 3,
+   "shell": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "0223a9b7e",
+    "subject": "abp@PrompTugal.dinis: the hand-over debrief follows the 22:30 round",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 8,
+  "in_mandate": 8,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
