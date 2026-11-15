@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/by-place-connections.schema.json",
+  "title": "Connecting the dots: links between companies, institutions, events and programmes across places (data/by-place/connections.json)",
+  "description": "Written by detective.places@PrompTugal.dinis. Each link has its source URL and read date; 'verified' says whether the page itself was opened ('read') or only seen in a search extract ('search_extract'). Public and professional facts only; people appear by role, never by contact detail. Proposed with data.places@ and ontologist@ for the graph: a link is an edge, a node is {name, type, place}.",
+  "type": "object",
+  "required": ["updated", "by", "links"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "updated": { "type": "string" },
+    "by": { "type": "string" },
+    "links": { "type": "array", "items": { "type": "object", "required": ["id", "from", "to", "relation", "source_url", "read_on", "verified"], "properties": {
+      "id": { "type": "string" },
+      "from": { "$ref": "#/$defs/node" },
+      "to": { "$ref": "#/$defs/node" },
+      "relation": { "enum": ["builds_with", "funded_by", "piloted_in", "hosted_at", "part_of", "incubated_by", "founded_with", "holds_role_at", "organises", "participates_in", "serves"] },
+      "what": { "type": "string" },
+      "ai_path": { "type": "string" },
+      "steps": { "type": "integer", "minimum": 0, "maximum": 3 },
+      "source_url": { "type": "string" },
+      "source_title": { "type": "string" },
+      "source_date": { "type": "string" },
+      "read_on": { "type": "string" },
+      "verified": { "enum": ["read", "search_extract"] },
+      "places": { "type": "array", "items": { "type": "string" } },
+      "sent_to": { "type": "array", "items": { "type": "string" } }
+    } } },
+    "leads": { "type": "array", "items": { "type": "object", "required": ["what", "why_open"], "properties": { "what": { "type": "string" }, "url": { "type": "string" }, "why_open": { "type": "string" }, "places": { "type": "array", "items": { "type": "string" } } } } },
+    "social": { "type": "array", "items": { "type": "object", "properties": { "network": { "type": "string" }, "finding": { "type": "string" }, "read_on": { "type": "string" } } } }
+  },
+  "$defs": { "node": { "type": "object", "required": ["name", "type"], "properties": { "name": { "type": "string" }, "type": { "enum": ["company", "startup", "organisation", "institution", "community", "public body", "investor", "event", "programme", "product", "role"] }, "place": { "type": "string" } } } }
+}

@@ -2635,6 +2635,24 @@
         "fingerprint": "sha256:06a0f3c287f0f71d",
         "signing_fingerprint": "sha256:e19910b4d83c008b"
       }
+    },
+    {
+      "id": "detective.places-promptugal",
+      "agent": "detective.places@PrompTugal.dinis",
+      "label": "detective.places@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The detective for the places: finds AI-related activity in the Algarve from public social posts, public pages and regional news, and connects the dots (data/by-place/connections.json). Started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-show-the-power.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0JlLYA6KdC2ZB15rI+2A\nFVrYj8CVOtvYknklgfp2k+nGYYDfr8AAp761Zy4LXCOYEIs3FvBYGV0ZPCMZIrb7\n736tzlo1eyl9uiNx75quHFCdA3YIbRTI3wZh5oLBbaa66HA8kZmQQ89uTroNtKdz\nr5FkS08cJ6JukF0n3wE8sgdY6FCAMyAfwXCuuXyT0vsWq1CxQ74l3J8nQy/2zqpA\n6MMMiXpSXJSzkoK1ceqAA831L6Q98U4mwNCOrsC/UGaAVaoKgfn1U2J2qzYNxe19\nAnMn5cZuhQYSYCsqsYF0M2PH8DMm4kT84EQTSo4OBVNTjkFMTGBiswykDGboppYF\nLSRUUCQ8+70TA/iG1WgftVAv5Js0JZhJsY/Zf5IccPSrcx6tE0TCLDDWLuhbFoPr\nJZ788YR6JTFCISzduakLG8r+VUnyDb5TjoSABBPPGi0sag2eK8wIYy93G5mbJckP\nqwyWhvw8ExHtviMRBSBlcl3QmN1stlf89lGUNtwK8QcxJzrz+OGTKQitxkcOYU7b\nz2XF5EBVZRZATZutYRJ4Jtw1otJ91yZ2hBNxAhrJ7FSFzOxfh96tX6b0Yw7wld8t\n4k6KRyTYH3sU4vx8L6kMAiH9AjCXSdB4n+GXD8AVBrMKu6qoBfo5avDM0DKtmd4v\n7Y9MozlZonJCbubjLWvhaWMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmKTnGq2Izb4ZqenX7C8CtfXruKR4\nm9MtmwymkSbqduaU0wd2YIDElxKI+UqAQWlE3OZT/g2luRQGNgGrWUDuXg==\n-----END PUBLIC KEY-----\n",
+        "label": "detective.places@PrompTugal.dinis",
+        "fingerprint": "sha256:06f9d15ec5ac4558",
+        "record": "sha256:d2cad3fd7010adf8",
+        "signing_fingerprint": "sha256:d2cad3fd7010adf8"
+      }
     }
   ]
 }
