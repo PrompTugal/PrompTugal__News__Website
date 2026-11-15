@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "data-table.schema.json",
+  "title": "One table of PrompTugal.news's queryable data (api/v1/data/tables/<name>.json)",
+  "description": "data.places@PrompTugal.dinis, 15 November 2026. Rows are arrays in the order of columns. Made by newsroom/build/features/data-places.mjs.",
+  "type": "object",
+  "required": ["table", "about", "version", "columns", "count", "rows"],
+  "properties": {
+    "table": { "type": "string", "pattern": "^[a-z_]+$" },
+    "about": { "type": "string" },
+    "version": { "type": "string" },
+    "built": { "type": "string" },
+    "columns": { "type": "array", "items": { "type": "object", "required": ["name", "type", "about"], "properties": { "name": { "type": "string" }, "type": { "enum": ["text", "integer", "real"] }, "about": { "type": "string" } } } },
+    "count": { "type": "integer" },
+    "rows": { "type": "array", "items": { "type": "array" } }
+  }
+}

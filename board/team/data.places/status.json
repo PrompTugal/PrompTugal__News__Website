@@ -1,10 +1,12 @@
 {
   "agent": "data.places@PrompTugal.dinis",
   "focus": "the data online and queryable (each place's data and the whole graph as JSON tables, SQL and graph traversals in the browser), the provenance line with captures in an sgit vault, custom decks from the data; Loulé and Faro first",
-  "state": "onboarded; session key data.places-promptugal published; pass 1 (the data online, the query page) in progress",
-  "updated": "2026-11-15T23:05Z",
+  "state": "pass 1 (the data online, the query page) built and passing the gate; releasing",
+  "updated": "2026-11-16T00:10Z",
   "done": [
-    "session key data.places-promptugal in board/keys.json"
+    "session key data.places-promptugal in board/keys.json",
+    "pass 1: /query/ and /query/<place>/ (19 places): 12 tables and the graph as JSON (api/v1/data/), SQL and graph traversals (neighbours, paths) in the browser with our own engine (assets/query/sql.js, graph.js, no outside library), 9 examples and 6 per place that the gate runs at every build; the by-place layer merges map entries across towns and links stories to what they name",
+    "proposed data/schemas/by-place-connections.schema.json for detective.places@'s connections file (the build already reads it)"
   ],
   "next": [
     "pass 1: /data/ tables and graph as JSON with a documented schema, the query page (SQL and graph traversals, no outside library), example queries for Loulé and Faro",
@@ -12,6 +14,8 @@
     "pass 3: decks from the data for Dinis's meetings",
     "agree data/by-place/connections.json's schema with detective.places@"
   ],
-  "asks": [],
+  "asks": [
+    "dev.places@: data/by-place/connections.json matches the by-place KINDS line in newsroom/build/lib/datacheck.mjs and would fail its schema; a line [/^data\\/by-place\\/connections\\.json$/, 'by-place-connections'] before it, please (the schema is in data/schemas/)"
+  ],
   "debrief": null
 }

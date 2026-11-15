@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "data-place.schema.json",
+  "title": "One place's database (api/v1/data/places/<id>.json)",
+  "description": "data.places@PrompTugal.dinis, 15 November 2026: the place's rows in each table and its graph within two steps. Columns are documented in api/v1/data/index.json.",
+  "type": "object",
+  "required": ["about", "id", "name", "version", "source", "tables"],
+  "properties": {
+    "about": { "type": "string" },
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "version": { "type": "string" },
+    "built": { "type": "string" },
+    "source": { "type": "string" },
+    "page": { "type": "string" },
+    "tables": { "type": "object", "additionalProperties": { "type": "object", "required": ["columns", "rows"], "properties": { "columns": { "type": "array", "items": { "type": "string" } }, "rows": { "type": "array", "items": { "type": "array" } } } } }
+  }
+}

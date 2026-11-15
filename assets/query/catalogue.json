@@ -1,0 +1,729 @@
+{
+  "about": "The query page's catalogue (data.places@PrompTugal.dinis): the tables' documentation, the example queries the gate runs, and the words of the place pages. {place} and {name} are filled for each place.",
+  "tables": {
+    "places": {
+      "about": "One row per place of PrompTugal.news by place (data/by-place/places.json and each place's file): the country, the Algarve and its towns.",
+      "columns": [
+        {
+          "name": "id",
+          "type": "text",
+          "about": "the place's id, as in data/by-place/<id>.json"
+        },
+        {
+          "name": "name",
+          "type": "text",
+          "about": "its name"
+        },
+        {
+          "name": "kind",
+          "type": "text",
+          "about": "country, region or municipality"
+        },
+        {
+          "name": "parent",
+          "type": "text",
+          "about": "the id of the place it is in"
+        },
+        {
+          "name": "node",
+          "type": "text",
+          "about": "its node in the graph (place:<id>)"
+        },
+        {
+          "name": "page",
+          "type": "text",
+          "about": "its page on the site"
+        },
+        {
+          "name": "agent",
+          "type": "text",
+          "about": "the agent that keeps its file"
+        },
+        {
+          "name": "status",
+          "type": "text",
+          "about": "stub, researching or live"
+        },
+        {
+          "name": "updated",
+          "type": "text",
+          "about": "when its agent last changed it"
+        },
+        {
+          "name": "lon",
+          "type": "real",
+          "about": "longitude of its seat"
+        },
+        {
+          "name": "lat",
+          "type": "real",
+          "about": "latitude of its seat"
+        },
+        {
+          "name": "key_id",
+          "type": "text",
+          "about": "the site's own key in board/keys.json"
+        },
+        {
+          "name": "news",
+          "type": "integer",
+          "about": "local AI stories"
+        },
+        {
+          "name": "map",
+          "type": "integer",
+          "about": "organisations on its AI map"
+        },
+        {
+          "name": "events",
+          "type": "integer",
+          "about": "events"
+        },
+        {
+          "name": "sources",
+          "type": "integer",
+          "about": "sources read"
+        },
+        {
+          "name": "gaps",
+          "type": "integer",
+          "about": "gaps written down"
+        },
+        {
+          "name": "mandate",
+          "type": "text",
+          "about": "its mandate, in its agent's words"
+        }
+      ]
+    },
+    "news": {
+      "about": "Every local AI story on a place's page (ai_news), with its source, when it was read and its path to AI.",
+      "columns": [
+        {
+          "name": "place",
+          "type": "text",
+          "about": "the place's id"
+        },
+        {
+          "name": "n",
+          "type": "integer",
+          "about": "its position in the place's file"
+        },
+        {
+          "name": "node",
+          "type": "text",
+          "about": "its node in the graph (news:<hash of its URL>)"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "about": "the headline, in the agent's words"
+        },
+        {
+          "name": "date",
+          "type": "text",
+          "about": "the story's date"
+        },
+        {
+          "name": "publisher",
+          "type": "text",
+          "about": "who published it"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "about": "the source"
+        },
+        {
+          "name": "host",
+          "type": "text",
+          "about": "the source's web host"
+        },
+        {
+          "name": "read_on",
+          "type": "text",
+          "about": "when it was read"
+        },
+        {
+          "name": "steps",
+          "type": "integer",
+          "about": "steps from AI (0: about AI directly)"
+        },
+        {
+          "name": "ai_path",
+          "type": "text",
+          "about": "the path to AI, written down"
+        },
+        {
+          "name": "summary",
+          "type": "text",
+          "about": "the summary"
+        }
+      ]
+    },
+    "map": {
+      "about": "Every entry of a place's AI map (ai_map): companies, startups, institutions, communities and public bodies, with the source that supports it.",
+      "columns": [
+        {
+          "name": "place",
+          "type": "text",
+          "about": "the place's id"
+        },
+        {
+          "name": "n",
+          "type": "integer",
+          "about": "its position in the place's file"
+        },
+        {
+          "name": "node",
+          "type": "text",
+          "about": "the node it resolves to: a company:, organisation: of the graph, or local:<slug>"
+        },
+        {
+          "name": "name",
+          "type": "text",
+          "about": "the name, as the agent wrote it"
+        },
+        {
+          "name": "kind",
+          "type": "text",
+          "about": "company, startup, institution, organisation, public body, community or investor"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "about": "its own site, where given"
+        },
+        {
+          "name": "source_url",
+          "type": "text",
+          "about": "the source that supports the entry"
+        },
+        {
+          "name": "host",
+          "type": "text",
+          "about": "the source's web host"
+        },
+        {
+          "name": "read_on",
+          "type": "text",
+          "about": "when the source was read"
+        },
+        {
+          "name": "steps",
+          "type": "integer",
+          "about": "steps from AI"
+        },
+        {
+          "name": "ai_path",
+          "type": "text",
+          "about": "the path to AI"
+        },
+        {
+          "name": "what",
+          "type": "text",
+          "about": "what it is and does"
+        }
+      ]
+    },
+    "events": {
+      "about": "Events on the places' pages (the place files' events) and the summit's agenda in the graph, one table.",
+      "columns": [
+        {
+          "name": "place",
+          "type": "text",
+          "about": "the place's id (null for an agenda item of the graph)"
+        },
+        {
+          "name": "node",
+          "type": "text",
+          "about": "its node in the graph"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "about": "its title"
+        },
+        {
+          "name": "date",
+          "type": "text",
+          "about": "its date"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "about": "the organiser's page"
+        },
+        {
+          "name": "read_on",
+          "type": "text",
+          "about": "when it was read"
+        },
+        {
+          "name": "ai_path",
+          "type": "text",
+          "about": "the path to AI (place events)"
+        },
+        {
+          "name": "layer",
+          "type": "text",
+          "about": "by-place or graph"
+        }
+      ]
+    },
+    "sources": {
+      "about": "The sources and feeds each place's agent reads (sources), and how many of the place's items rest on each host.",
+      "columns": [
+        {
+          "name": "place",
+          "type": "text",
+          "about": "the place's id"
+        },
+        {
+          "name": "n",
+          "type": "integer",
+          "about": "its position"
+        },
+        {
+          "name": "name",
+          "type": "text",
+          "about": "its name"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "about": "its address"
+        },
+        {
+          "name": "host",
+          "type": "text",
+          "about": "its web host"
+        },
+        {
+          "name": "kind",
+          "type": "text",
+          "about": "council, news, university, feed and so on"
+        },
+        {
+          "name": "feed",
+          "type": "text",
+          "about": "its feed, where it has one"
+        },
+        {
+          "name": "items",
+          "type": "integer",
+          "about": "stories and map entries of this place whose source is on this host"
+        }
+      ]
+    },
+    "gaps": {
+      "about": "What each place's agent says it has not found or could not check (gaps): the honest edge of the data.",
+      "columns": [
+        {
+          "name": "place",
+          "type": "text",
+          "about": "the place's id"
+        },
+        {
+          "name": "n",
+          "type": "integer",
+          "about": "its position"
+        },
+        {
+          "name": "text",
+          "type": "text",
+          "about": "the gap, in the agent's words"
+        }
+      ]
+    },
+    "companies": {
+      "about": "The companies of the graph (data/companies/), public fields only, after the websummit-only pass.",
+      "columns": [
+        {
+          "name": "id",
+          "type": "text",
+          "about": "its id"
+        },
+        {
+          "name": "node",
+          "type": "text",
+          "about": "company:<id>"
+        },
+        {
+          "name": "name",
+          "type": "text",
+          "about": "its name"
+        },
+        {
+          "name": "category",
+          "type": "text",
+          "about": "its field"
+        },
+        {
+          "name": "country",
+          "type": "text",
+          "about": "its country"
+        },
+        {
+          "name": "website",
+          "type": "text",
+          "about": "its site"
+        },
+        {
+          "name": "attending",
+          "type": "integer",
+          "about": "1 if it is listed at Web Summit 2026"
+        },
+        {
+          "name": "what",
+          "type": "text",
+          "about": "what it does"
+        },
+        {
+          "name": "sources",
+          "type": "integer",
+          "about": "how many sources support it"
+        },
+        {
+          "name": "page",
+          "type": "text",
+          "about": "its page"
+        }
+      ]
+    },
+    "articles": {
+      "about": "PrompTugal.news articles (content/articles/), with the region and town they are tagged with.",
+      "columns": [
+        {
+          "name": "slug",
+          "type": "text",
+          "about": "its slug"
+        },
+        {
+          "name": "node",
+          "type": "text",
+          "about": "article:<slug>"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "about": "its title"
+        },
+        {
+          "name": "date",
+          "type": "text",
+          "about": "its date"
+        },
+        {
+          "name": "author",
+          "type": "text",
+          "about": "its byline"
+        },
+        {
+          "name": "region",
+          "type": "text",
+          "about": "the region it is tagged with"
+        },
+        {
+          "name": "town",
+          "type": "text",
+          "about": "the town it is tagged with"
+        },
+        {
+          "name": "page",
+          "type": "text",
+          "about": "its page"
+        }
+      ]
+    },
+    "nodes": {
+      "about": "Every node of the graph: the shared graph and the by-place layer, one id space (<type>:<slug>).",
+      "columns": [
+        {
+          "name": "id",
+          "type": "text",
+          "about": "the node's id"
+        },
+        {
+          "name": "type",
+          "type": "text",
+          "about": "company, organisation, place, event, news, article, topic, product, source, fact, evidence, story, day, track"
+        },
+        {
+          "name": "kind",
+          "type": "text",
+          "about": "a finer kind (a place's kind, a map entry's kind, an event's kind)"
+        },
+        {
+          "name": "label",
+          "type": "text",
+          "about": "its name or title"
+        },
+        {
+          "name": "page",
+          "type": "text",
+          "about": "its page on the site, where it has one"
+        },
+        {
+          "name": "source",
+          "type": "text",
+          "about": "the URL or repository file it comes from"
+        },
+        {
+          "name": "read",
+          "type": "text",
+          "about": "when its source was read, where known"
+        },
+        {
+          "name": "layer",
+          "type": "text",
+          "about": "graph, by-place or connections"
+        },
+        {
+          "name": "places",
+          "type": "text",
+          "about": "the places whose files name it (by-place layer), comma-separated"
+        }
+      ]
+    },
+    "edges": {
+      "about": "Every edge of the graph: a verb from one node to another, with its source and when it was read.",
+      "columns": [
+        {
+          "name": "id",
+          "type": "text",
+          "about": "verb:src:dst"
+        },
+        {
+          "name": "src",
+          "type": "text",
+          "about": "the node it goes from"
+        },
+        {
+          "name": "verb",
+          "type": "text",
+          "about": "the relation: the ontology's verbs, and on_ai_map_of, reported_in, mentions, held_in, about_place (by-place layer)"
+        },
+        {
+          "name": "dst",
+          "type": "text",
+          "about": "the node it goes to"
+        },
+        {
+          "name": "source",
+          "type": "text",
+          "about": "the URL or file that supports it"
+        },
+        {
+          "name": "read",
+          "type": "text",
+          "about": "when that source was read"
+        },
+        {
+          "name": "layer",
+          "type": "text",
+          "about": "graph, by-place or connections"
+        },
+        {
+          "name": "note",
+          "type": "text",
+          "about": "the path to AI, or how the edge was derived"
+        }
+      ]
+    },
+    "merges": {
+      "about": "How the by-place layer resolved each map entry to a node: matched to the graph, merged with another town's entry, or new. So a merge can be checked, and refused.",
+      "columns": [
+        {
+          "name": "node",
+          "type": "text",
+          "about": "the node"
+        },
+        {
+          "name": "how",
+          "type": "text",
+          "about": "graph-name (matched to a company or organisation of the graph by name), graph-site (by its home page), same-name (the same name in several places), alias (names merged by hand in the catalogue) or new"
+        },
+        {
+          "name": "names",
+          "type": "text",
+          "about": "the names it was written as, | separated"
+        },
+        {
+          "name": "places",
+          "type": "text",
+          "about": "the places that list it"
+        },
+        {
+          "name": "entries",
+          "type": "integer",
+          "about": "how many map entries"
+        }
+      ]
+    },
+    "connections": {
+      "about": "Connections between organisations, events and public people in their professional role, found by detective.places@ (data/by-place/connections.json), each with its source.",
+      "columns": [
+        {
+          "name": "id",
+          "type": "text",
+          "about": "its id"
+        },
+        {
+          "name": "src",
+          "type": "text",
+          "about": "from (a node id)"
+        },
+        {
+          "name": "verb",
+          "type": "text",
+          "about": "the relation"
+        },
+        {
+          "name": "dst",
+          "type": "text",
+          "about": "to (a node id)"
+        },
+        {
+          "name": "source",
+          "type": "text",
+          "about": "its source"
+        },
+        {
+          "name": "read_on",
+          "type": "text",
+          "about": "when it was read"
+        },
+        {
+          "name": "note",
+          "type": "text",
+          "about": "what the source says"
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "map-by-town",
+      "title": "The AI map of the Algarve, by town and kind",
+      "about": "How many organisations each place's agent has mapped, by kind.",
+      "sql": "SELECT p.name AS place, m.kind, count(*) AS entries\nFROM map m JOIN places p ON p.id = m.place\nGROUP BY p.name, m.kind\nORDER BY entries DESC, place\nLIMIT 20"
+    },
+    {
+      "id": "shared",
+      "title": "Who is on more than one town's AI map",
+      "about": "Connecting the dots: the organisations that several place agents found on their own, merged by name.",
+      "sql": "SELECT n.label AS organisation, n.kind, count(DISTINCT e.dst) AS towns,\n       group_concat(DISTINCT replace(e.dst, 'place:', '')) AS places\nFROM edges e JOIN nodes n ON n.id = e.src\nWHERE e.verb = 'on_ai_map_of'\nGROUP BY n.id\nHAVING towns > 1\nORDER BY towns DESC, organisation"
+    },
+    {
+      "id": "ualg-two-steps",
+      "title": "Every company and organisation within two steps of the Universidade do Algarve, through the stories",
+      "about": "A graph traversal inside SQL: neighbours(start, depth, verbs) walks the edges both ways. Through mentions, two steps is \"named in the same story\": the university, a story that names it, and who else that story names.",
+      "sql": "SELECT n.depth, n.label, n.type, n.path\nFROM neighbours((SELECT id FROM nodes WHERE label LIKE 'Universidade do Algarve%' ORDER BY id LIMIT 1), 2, 'mentions') n\nWHERE n.type IN ('company', 'organisation') AND n.depth > 0\nORDER BY n.depth, n.label\nLIMIT 40"
+    },
+    {
+      "id": "loule-faro-paths",
+      "title": "How Loulé connects to Faro, not counting the region",
+      "about": "paths(from, to, max_depth, verbs) finds the shortest paths; '-located_in' skips the trivial path through the Algarve.",
+      "sql": "SELECT hops, path, verbs\nFROM paths('place:loule', 'place:faro', 4, '-located_in')\nLIMIT 10"
+    },
+    {
+      "id": "newest",
+      "title": "The newest local AI stories, and how far each is from AI",
+      "about": "Every story carries its source, the day it was read and its path to AI (steps 0 is about AI directly).",
+      "sql": "SELECT date, place, title, publisher, steps, ai_path\nFROM news\nORDER BY date DESC\nLIMIT 15"
+    },
+    {
+      "id": "who-is-named",
+      "title": "Which stories name an organisation on the map",
+      "about": "The mentions edges join a story to the organisations whose names are in its headline or summary.",
+      "sql": "SELECT s.label AS story, o.label AS names, group_concat(DISTINCT replace(r.dst, 'place:', '')) AS reported_in\nFROM edges m\nJOIN nodes s ON s.id = m.src AND s.type = 'news'\nJOIN nodes o ON o.id = m.dst\nJOIN edges r ON r.src = s.id AND r.verb = 'reported_in'\nWHERE m.verb = 'mentions'\nGROUP BY s.id, o.id\nORDER BY o.label\nLIMIT 25"
+    },
+    {
+      "id": "hosts",
+      "title": "What the places rest on: the sources by web host",
+      "about": "Every story and map entry by the host of its source: a newsroom's dependency on a few outlets, in one query.",
+      "sql": "SELECT host, count(*) AS items, count(DISTINCT place) AS places\nFROM (SELECT place, host FROM news UNION ALL SELECT place, host FROM map) x\nWHERE host IS NOT NULL\nGROUP BY host\nORDER BY items DESC\nLIMIT 15"
+    },
+    {
+      "id": "freshness",
+      "title": "How fresh each place is",
+      "about": "When each place's items were read, and its status.",
+      "sql": "SELECT p.name, p.status, p.updated, p.news, p.map, p.gaps,\n       (SELECT max(read_on) FROM map WHERE place = p.id) AS map_read\nFROM places p\nORDER BY p.news + p.map DESC"
+    },
+    {
+      "id": "graph-shape",
+      "title": "The shape of the whole graph",
+      "about": "Nodes by type and layer: the shared graph and the by-place layer in one id space.",
+      "sql": "SELECT layer, type, count(*) AS nodes\nFROM nodes\nGROUP BY layer, type\nORDER BY layer, nodes DESC"
+    }
+  ],
+  "place_examples": [
+    {
+      "id": "map",
+      "title": "{name}'s AI map, with the path to AI",
+      "about": "Each entry, its kind, its source's host and the day it was read.",
+      "sql": "SELECT name, kind, steps, ai_path, host, read_on\nFROM map\nWHERE place = '{place}'\nORDER BY steps, name"
+    },
+    {
+      "id": "news",
+      "title": "{name}'s local AI stories",
+      "about": "Newest first, with the publisher and the path to AI.",
+      "sql": "SELECT date, title, publisher, steps, ai_path\nFROM news\nWHERE place = '{place}'\nORDER BY date DESC"
+    },
+    {
+      "id": "two-steps",
+      "title": "Everything within two steps of {name}",
+      "about": "A traversal from the place's node; the path shows how each is reached.",
+      "sql": "SELECT depth, type, label, path\nFROM neighbours('place:{place}', 2, '-located_in')\nWHERE depth > 0 AND type NOT IN ('source', 'fact', 'evidence')\nORDER BY depth, type, label\nLIMIT 40"
+    },
+    {
+      "id": "elsewhere",
+      "title": "Who on {name}'s map is also on another place's map",
+      "about": "The organisations this place shares with the rest of the Algarve.",
+      "sql": "SELECT n.label, group_concat(DISTINCT replace(e2.dst, 'place:', '')) AS also_in\nFROM edges e1\nJOIN nodes n ON n.id = e1.src\nJOIN edges e2 ON e2.src = e1.src AND e2.verb = 'on_ai_map_of' AND e2.dst != 'place:{place}'\nWHERE e1.verb = 'on_ai_map_of' AND e1.dst = 'place:{place}'\nGROUP BY n.id\nORDER BY n.label"
+    },
+    {
+      "id": "sources",
+      "title": "What {name}'s page rests on",
+      "about": "The sources its agent reads, and how many of its items rest on each host.",
+      "sql": "SELECT name, kind, host, items\nFROM sources\nWHERE place = '{place}'\nORDER BY items DESC, name"
+    },
+    {
+      "id": "gaps",
+      "title": "What {name}'s agent has not found yet",
+      "about": "The gaps, in the agent's words.",
+      "sql": "SELECT n, text FROM gaps WHERE place = '{place}' ORDER BY n"
+    }
+  ],
+  "words": {
+    "mount": "The query box runs in your browser and needs JavaScript. Every example below shows its query and the answer the build got from today's data.",
+    "place_intro": "{name}'s data as tables and a graph: its AI map, its stories, its events, its sources and gaps, and everything they connect to across the Algarve. Run your own SQL, or read the answers below.",
+    "place_summary": "{name} on PrompTugal.news as data: its AI map, stories, events, sources and connections, queryable with SQL and graph traversals in the browser.",
+    "place_json": "its rows and its graph within two steps",
+    "place_link": "{name} as data: query its AI map, stories and connections",
+    "index_summary": "Every place, organisation, story, source and connection of PrompTugal.news as tables and a graph: run SQL and graph traversals in your browser, or take the JSON.",
+    "no_rows": "No rows on today's data.",
+    "failed": "This query failed at build:",
+    "note_story": "its name is in the story's headline or summary (derived by name)",
+    "note_story_town": "the town's name is in the story's headline or summary (derived by name)",
+    "note_event": "its name is in the event's title (derived by name)",
+    "note_article": "its name is in the article's title or summary (derived by name)",
+    "note_tagged": "tagged in its front matter",
+    "api_index_about": "PrompTugal.news as data: every table, its columns and where to fetch it; the graph traversals the query page offers; the example queries. Rows are arrays in the order of `columns`.",
+    "api_place_about": "{name} on PrompTugal.news as data: its rows in each table, and its graph within two steps (not counting located_in). Rows are arrays in the order of `columns`; the columns are documented in api/v1/data/index.json."
+  },
+  "aliases": {
+    "about": "Names that are one organisation in two languages or spellings, merged by hand (data.places@, with the reason). A key is a name key: accents and case folded, what follows a bracket or comma dropped.",
+    "same": [
+      {
+        "names": [
+          "university-of-the-algarve",
+          "universidade-do-algarve",
+          "ualg"
+        ],
+        "why": "the University of the Algarve's English and Portuguese names, and its acronym"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "data-index.schema.json",
+  "title": "The index of PrompTugal.news's queryable data (api/v1/data/index.json)",
+  "description": "data.places@PrompTugal.dinis, 15 November 2026: every table with its columns and address, the graph functions, the places and the example queries.",
+  "type": "object",
+  "required": ["about", "version", "tables", "functions", "places", "examples"],
+  "properties": {
+    "about": { "type": "string" },
+    "version": { "type": "string" },
+    "built": { "type": "string" },
+    "by": { "type": "string" },
+    "page": { "type": "string" },
+    "engine": { "type": "array", "items": { "type": "string" } },
+    "tables": { "type": "array", "items": { "type": "object", "required": ["name", "about", "url", "count", "columns"], "properties": { "name": { "type": "string" }, "about": { "type": "string" }, "url": { "type": "string" }, "count": { "type": "integer" }, "columns": { "type": "array" } } } },
+    "functions": { "type": "array", "items": { "type": "object", "required": ["name", "args", "columns"] } },
+    "places": { "type": "array", "items": { "type": "object", "required": ["id", "name", "url", "page"] } },
+    "examples": { "type": "array", "items": { "type": "object", "required": ["id", "title", "sql"] } }
+  }
+}
