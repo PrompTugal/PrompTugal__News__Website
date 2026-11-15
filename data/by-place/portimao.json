@@ -4,12 +4,12 @@
   "name": "Portimão",
   "kind": "municipality",
   "parent": "algarve",
-  "status": "researching",
+  "status": "live",
   "updated": "2026-11-15",
   "by": "place.portimao@PrompTugal.dinis",
   "mandate": "PrompTugal.news Portimão: AI and technology in Portimão, a council and a water company putting AI to work in public services, a smart-city incubator and a private higher-education institute, and what reaches Portimão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
-    "text": "On the public record, Portimão's AI centre of gravity is its own public sector. The council is rolling out an AI-checked online urban-licensing platform and has a digital-transformation grant that lists AI among its areas, and the municipal water company EMARP is using AI acoustic loggers to find leaks. Around that sit a smart-city incubator at the Autódromo Internacional do Algarve, the ISMAT higher-education institute with an AI course unit, and a steady run of local AI talks, books and seminars.",
+    "text": "On the public record, Portimão's AI centre of gravity is its own public sector and its university plans. The council is rolling out an AI-checked online urban-licensing platform and has a digital-transformation grant that lists AI among its areas, the municipal water company EMARP is using AI acoustic loggers to find leaks, and the council and the University of Algarve have agreed a technology campus with digital, data and AI as focus areas. Around that sit a smart-city incubator at the Autódromo Internacional do Algarve, the ISMAT higher-education institute with an AI course unit, and a steady run of local AI talks, books and seminars.",
     "sources": [
       {
         "title": "Portimão usa inteligência artificial para agilizar urbanismo (Barlavento, 3 July 2026)",
@@ -24,6 +24,11 @@
       {
         "title": "StartUP Portimão assinala 5º aniversário (Barlavento, 12 August 2022)",
         "url": "https://www.barlavento.pt/startup-portimao-assinala-5o-aniversario-com-olhos-postos-no-futuro/",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "Campus Universitário da UAlg pronto em 2028 (Barlavento, 22 January 2025)",
+        "url": "https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/",
         "read_on": "2026-11-15"
       }
     ]
@@ -113,6 +118,16 @@
       "read_on": "2026-11-15",
       "ai_path": "A municipal utility has bought AI-driven monitoring hardware.",
       "steps": 0
+    },
+    {
+      "title": "Portimão and the University of Algarve plan a technology campus with AI at its core",
+      "summary": "The council signed a protocol with UAlg for a new campus at Barranco do Rodrigo, on land and with a design provided by the council. Its focus areas are digital, data and artificial intelligence, with completion targeted for 2028 and courses from 2029, at an estimated total of about 15 million euros that was not fully secured at the time. UAlg then had more than 400 students in Portimão and aims for about 1,500 after three years.",
+      "date": "2025-01-22",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/",
+      "read_on": "2026-11-15",
+      "ai_path": "A planned university campus whose stated focus areas include artificial intelligence.",
+      "steps": 1
     }
   ],
   "sources": [
@@ -215,6 +230,16 @@
       "steps": 2
     },
     {
+      "name": "Universidade do Algarve (UAlg), Portimão campus",
+      "type": "institution",
+      "url": "https://www.ualg.pt",
+      "what": "Has a small existing campus in Portimão and a signed protocol with the council for a new technology-focused campus at Barranco do Rodrigo, with digital, data and AI as focus areas, linked by its rector to research with the Autódromo and Celerator technology park.",
+      "source_url": "https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/",
+      "read_on": "2026-11-15",
+      "ai_path": "Plans a Portimão campus focused on digital, data and AI.",
+      "steps": 1
+    },
+    {
       "name": "ISMAT, Instituto Superior Manuel Teixeira Gomes",
       "type": "institution",
       "url": "https://www.ismat.pt",
@@ -296,6 +321,15 @@
       "read_on": "2026-11-15",
       "ai_path": "Hosted a public launch and debate on using generative AI at work.",
       "steps": 1
+    },
+    {
+      "name": "Celerator, Parque Tecnológico do Algarve",
+      "type": "organisation",
+      "what": "Association of Parkalgar and UAlg behind a technology hub beside the Autódromo, on mobility and energy research. Its rector links the planned UAlg campus to it for technology transfer. No AI work of its own is stated in the sources read.",
+      "source_url": "https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/",
+      "read_on": "2026-11-15",
+      "ai_path": "The planned AI-focused UAlg campus is meant to work with it on research and technology transfer.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -320,15 +354,15 @@
     "No AI company or startup headquartered in Portimão turned up in the sources read: the AI map is mostly public bodies, an incubator and a school. A company search (a business register and the StartUP Portimão member list) is the next step.",
     "Speakers named at the June 2026 AI panel came from Tecnologias Imaginadas, JFA Training and Thinkerdots, but no source read places those firms in Portimão, so they are not on the map yet.",
     "postal.pt, Sul Informação, Visit Portimão, Algarve Vivo and EMARP's own site showed a bot challenge or refused access, so they were not used. Their Portimão AI stories (the Filosofia na Cidade talk on 6 March 2026, the council's earlier AI items) need a source we can open.",
-    "The Celerator technology park beside the Autódromo (a 7.2 million euro mobility and energy hub, 2022 report) and the UAlg and Microsoft AI course have no confirmed Portimão AI path yet, so they are left out.",
     "The council's own site shows no news feed or RSS: Viva Portimão is the place to watch, and we found no feed there.",
     "No dated AI event after 15 November 2026 was found in Portimão. The two ISMAT workshops listed are general technology events.",
-    "Reports of the TMCT conference give different dates (4 to 6 and 5 to 7 November), so the page says early November. Algarve Evolution's exact role in it is not stated."
+    "Reports of the TMCT conference give different dates (4 to 6 and 5 to 7 November), so the page says early November. Algarve Evolution's exact role in it is not stated.",
+    "The UAlg campus plan is from January 2025 (completion 2028, courses 2029, funding not secured then). Its current status and any AI courses are not confirmed, and UAlg's own site and the council should be checked."
   ],
   "voice": {
     "lede": "Ó pá, Portimão: sardines on the grill, sun on the cliffs and, believe it or not, a council that lets a robot check your building papers.",
     "mandate": "PrompTugal.news Portimão: the AI and tech news of the town where the Arade meets the sea, from a council with a clever licensing robot to a water company with ears for leaks, plus what reaches us from the Algarve, Portugal and the world. We are independent, and every fact has its source, pá.",
-    "gravity": "Portimão's brainpower is, chiça, mostly public. The câmara is teaching a robot to read licensing papers and has a grant with AI in the small print, EMARP has AI ears on the pipes, and the incubator at the racetrack and ISMAT keep the young ones busy. The rest is talks, books and seminars, and we like a good tertúlia.",
+    "gravity": "Portimão's brainpower is, chiça, mostly public. The câmara is teaching a robot to read licensing papers, has a grant with AI in the small print and has shaken hands with the university on a campus for digital, data and AI. EMARP has AI ears on the pipes, and the incubator at the racetrack and ISMAT keep the young ones busy. The rest is talks, books and seminars, and we like a good tertúlia.",
     "gaps_intro": "Here is what we could not find, and no, we did not look under the sardines."
   }
 }
