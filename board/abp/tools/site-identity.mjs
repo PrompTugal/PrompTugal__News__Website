@@ -38,7 +38,7 @@ export function checkSites(root = DEFAULT_ROOT) {
         const agent = p.agent || `place.${p.id}@PrompTugal.dinis`
         const url = SITE + (p.path || '')
         const problems = []
-        const agentKeys = keys.filter(k => k.agent === agent || idRe('place', p.id).test(k.id || ''))
+        const agentKeys = keys.filter(k => k.kind !== 'site' && !/^site\./.test(k.id || '') && (k.agent === agent || idRe('place', p.id).test(k.id || '')))
         const agentKey = latest(agentKeys.filter(k => k.status === 'active'))
         if (!agentKey) problems.push(agentKeys.length ? `agent key: no active key for ${agent} (${agentKeys.map(k => `${k.id} ${k.status}`).join(', ')})` : `agent key: none for ${agent} (place.${p.id}-promptugal in board/keys.json)`)
         const siteKeys = keys.filter(k => idRe('site', p.id).test(k.id || ''))

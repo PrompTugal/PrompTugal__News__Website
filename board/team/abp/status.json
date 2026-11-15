@@ -1,8 +1,8 @@
 {
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
-  "state": "running: every two hours at :37 UTC on account A (the account move); observe mode; hook and policy edits refused as self-modification since 13:5x",
-  "updated": "2026-11-08T20:50Z",
+  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.8.0",
+  "updated": "2026-11-15T22:00Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -15,18 +15,21 @@
     "v1.4.0: push check ignores redirects (7 false positives); review commits judged against the worker's grant (dev@'s ask); workers' paths; conductor's snapshots.json applied (CLAUDE.md, Dinis's word)",
     "08:37 wake: a clean hour, nothing pushed. v1.5.0 (09:37): relative paths follow each cd (outreach@'s false positive); SubagentHandback with sub-agents",
     "v1.6.0 (10:37): the grep pattern is not a path (security@'s false positive); conductor's editor-briefs; Vicky's renamed agents' keys; accountant@ sub-agents proposed",
-    "v1.7.0 (12:38): content/newsroom/decisions/ for every agent (CLAUDE.md, Decisions are pages); dev@'s tests; hook pin checked"
+    "v1.7.0 (12:38): content/newsroom/decisions/ for every agent (CLAUDE.md, Decisions are pages); dev@'s tests; hook pin checked",
+    "15 Nov (new session): key abp-promptugal-b, the old abp-promptugal superseded",
+    "v1.8.0: ABPs for place.portugal, place.algarve, the 17 towns, dev.places, designer.places; dotted names with their own grant release to dev (hook fixed, 167 fixtures)",
+    "site_identity rule and board/abp/tools/site-identity.mjs; first run 1 of 19 places pass (portugal)",
+    "First review of the new agents: 10 commits, 0 files outside a grant (board/abp/reports/2026-11-15-21.md)"
   ],
   "next": [
-    "investors@'s ABP (the conductor's ask, 20:03), with the queued edits",
-    "R12, the comms protocol (Dinis ~16:00): into policies.json and every ABP once edits are allowed again",
-    "Write abp@'s open questions as one decision page under content/newsroom/decisions/",
-    "Move /newsroom/abp/ into content/ once dev@ adds its nav line",
-    "Read the first run reports at 05:37; tighten and propose relaxations",
-    "ABPs for Dinis's @web-summit.dinis agents, from the team site's content/abp/",
-    "Move /newsroom/abp/ into content/ once dev@ adds its nav line"
+    "Review every place agent's commits against its grant each hour until each has been reviewed once, articles checked for their own town",
+    "Re-run the site-identity check each hour and list the places still without a site key or a valid signature",
+    "Check that dev.places@ wired the check into the gate (warning)",
+    "Read the place agents' run reports as they file them"
   ],
   "asks": [
+    "Dinis: board/team/conductor.b/ and board/team/journalist.newsroom/ look like dotted workers to the ABP generator; are they workers (work/<name> only) or roles of their own? Until you say, they have no ABP of their own",
+    "Dinis: when should the site-identity check fail the gate instead of warning (after the demo on 16 November?)",
     "Dinis: this session's worker kept restarting and missed thirteen wakes (7 Nov 18:37 to 8 Nov 18:37); if it continues, hand abp@ to a fresh session (the hand-over is ready)",
     "Dinis: allow abp@ to edit .claude/** and board/abp/** in its session (refused as self-modification at 13:5x), or apply the pending grants yourself: backup@ Google Drive (your 'Go'), Vicky's agents publishing (12:00), dev.pages the index pages (13:20)",
     "Dinis: who may change newsroom/build/ (CI runs it with write tokens)? investors@ added investors-site.mjs (558c7f81); dev@PrompTugal.vicky added how-we-publish.mjs (d187fc32)",
@@ -178,7 +181,14 @@
       "outcome": "partial",
       "release": "this wake's",
       "line": "catch-up after thirteen missed wakes: 146 runs, 994 actions in mandate, 0 breaches; account B paused at Dinis's word"
+    },
+    {
+      "started": "2026-11-15T21:45Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "new session: key, v1.8.0 place ABPs, site-identity check, first review"
     }
   ],
-  "debrief": "board/team/abp/debriefs/2026-11-08-handover.md"
+  "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",
+  "latest_debrief": "board/team/abp/debriefs/2026-11-15-handover.md"
 }

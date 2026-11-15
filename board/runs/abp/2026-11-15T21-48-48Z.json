@@ -1,0 +1,82 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-15T21-48-48Z",
+ "started": "2026-11-15T21:48:48.023Z",
+ "ended": "2026-11-15T21:55:59Z",
+ "line": "new session: key, v1.8.0 place ABPs, site-identity check, first review",
+ "policy": {
+  "version": "1.8.0",
+  "sha256": "4f01ee1ba62d2eb8"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T21:48:48.258Z",
+   "chars": 2436,
+   "sha256": "2c50314085f13e15",
+   "head": "You are abp@PrompTugal.dinis, a new session of the ABP role (Agent Behaviour Policies) for PrompTugal.news. Dinis started you on 15 November 2026 (via his conductor's session, at his word: \"key agent "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:48:48.023Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 51,
+  "by_kind": {
+   "git": 11,
+   "shell": 33,
+   "web": 1,
+   "release": 5,
+   "write": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 51,
+  "commits": [
+   {
+    "sha": "55159ec7c",
+    "subject": "abp@PrompTugal.dinis: ABPs v1.8.0 for the 21 place agents, and the site-identity check",
+    "files": 52
+   },
+   {
+    "sha": "da4f980c8",
+    "subject": "abp@PrompTugal.dinis: my session key, abp-promptugal-b (the old abp-promptugal superseded)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 51,
+  "in_mandate": 51,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
