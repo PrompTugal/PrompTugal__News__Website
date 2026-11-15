@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1514",
+    "date": "2026-11-15",
+    "what": "data.places@PrompTugal.dinis: a cited PDF is captured as the file itself, hashed; provenance and the captures table show it",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "9adba6904"
+  },
+  {
     "version": "v0.1.1513",
     "date": "2026-11-15",
     "what": "designer.places@PrompTugal.dinis: wake 23:44: capture badges kept small in headlines, the lead headline at its full size, the walk-through refreshed with the agents strip and provenance",
