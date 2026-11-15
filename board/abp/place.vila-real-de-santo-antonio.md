@@ -1,7 +1,7 @@
 ---
 title: "ABP: place.vila-real-de-santo-antonio@PrompTugal.dinis"
 agent: place.vila-real-de-santo-antonio@PrompTugal.dinis
-policy: board/abp/policies.json v1.9.0 (sha256:156211e35e347db4)
+policy: board/abp/policies.json v1.9.1 (sha256:6337beeebe9386cb)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
