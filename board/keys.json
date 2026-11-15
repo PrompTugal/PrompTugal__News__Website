@@ -1968,6 +1968,44 @@
       },
       "kind": "site",
       "site": "https://promptugal.news/algarve/vila-do-bispo/"
+    },
+    {
+      "id": "place.alcoutim-promptugal",
+      "agent": "place.alcoutim@PrompTugal.dinis",
+      "label": "place.alcoutim@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The agent for Alcoutim's site, promptugal.news/algarve/alcoutim/ (data/by-place/alcoutim.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmY6TkshkiK+G9RatEZzu\nPuAJUtRpOcMhd/zGRxA6HEAWUQbnaV31j0LutdpWxOw1NfaDonfdHlafTjapolQq\nqvNfLhHf7S/79YTlphgfV2PghiFYwU8T9kgH5ucuKTlEKC8r0Tq0aufpxmWsskKH\nI0UFQ5246pfK5TfzguoJIeovHnOHHHTT1KkQggk87yvWHlrGXoAInKNP1s1Y0IgC\nR9VWmszhneaXYpSQLe/paQaU6YXqOwUrGTDFk3m05jxRznLl9nQyt3U16QW+csP5\nrM8Nyv9vxZjZ8KYdszCYnEr5Wssafud3GRsEtZm42UJrUqdS/hW4lRwUceIPLCgD\ndhr0kQX1LGZqYPU9+OwbPW4NjMQDpyHuRn/I2Mk0IQzDoxNACWg6eZ0dH+4jUMLF\nNCTyjc/usI2xVBjTxbQTU98JNDh+q/6mhB9GiV0IBx30wSzJqqfQCPHY0zfO048G\nMW9NEkq1URF9rnN/VbcX/LhM50LDqkzMOeD7ECr1m9OoR6eGqFCOZbskCbP8vfn5\nNmou9Fsdni/bw867jScCzIhY60VxKG5yYLeJUdpbRwasiQ4kNitUcR92BE03Jiie\n6GutUS4u/R1dxy703Ybrfnkauzeww7djRPbAnhNuIvs3YGR1npBcISNhmhnfogzc\nYNlRga4lFxv3BdBi7sF+4dMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmPKMP677cE8vxbYzwuhUmAYfmlWM\nXRMzjJBB49aF38rx/DlsMkpptoDUQMMFq8xMblpuQnpBybABJV3UW7CdMw==\n-----END PUBLIC KEY-----\n",
+        "label": "place.alcoutim@PrompTugal.dinis",
+        "fingerprint": "sha256:084df5f21ead08a2",
+        "record": "sha256:3474d6d58ab3d873",
+        "signing_fingerprint": "sha256:3474d6d58ab3d873"
+      }
+    },
+    {
+      "id": "site.alcoutim-promptugal",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/alcoutim/",
+      "agent": "place.alcoutim@PrompTugal.dinis",
+      "label": "site.alcoutim-promptugal (identity of the Alcoutim site)",
+      "role": "The identity of the site promptugal.news/algarve/alcoutim/. It signs data/by-place/alcoutim.json; held in the session of place.alcoutim@PrompTugal.dinis.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArT/W0RZUQRXccSkENwwY\nIaLy2jnNKSdhwowdaAmPO0ot0iaubeiA0u/VS/srwfhFDkUEpM117mHP3OeYfxc3\nYr9hOi8QrSD8wl01xB4yw97qQKYJIO58TzmTBLYTDjNhPg8tuEa0XvuWZtsTo7S2\nTEdyznVQY/8e6QwzJEMcA2U6PZYHkaGfjxDBVmMoj0VBRxHn1hsBMgTLokzfo/UL\nR31QttQtXMyTSwlrVap1o+V5JumE6EKnYZrbMIzs3UHC7ZHvrfDmZaNw4roAWk/U\nWUXL+wb9xToOITelWaRJvYbef0GUyjdlTe7QY0CbVzBhhzQJ0YxiT62YyPq0yzTa\n45wNsWtkmHtWfs7ChD9Ma2XJ1XFF+BAsbW9uxIRNmWdsYURLO8XhKBVZpV0eWyHC\nFtpR/yiG82Zq3PHs0wjJwF5+X/nDAgbsB0Nmiqdt9T1lGQqkHit8YHxh5L0Owc+d\n3NtCcQuGzmPH6UrD7E6E3iIhcuXnodgZpFKntXZ8/NXwb9SJ9PIIpicMkvMfQs1B\nDpQqFanarsiu2GVWfkCmevSUHe1f4vcXoVJy9qvxgIkCoqvHLTiq8zShT0GFGz01\nW/fMhK1L4BqjaHaLdtKgQTUFXEBxlqCI1OOGhX0/7OntxgFcpiM52yMGQc0IdsfZ\nnwF8QNDAU+FtmS8BFsTj3ZMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEF/XMrsTfNN3kh8LZzeyPe7v05uWZ\naA0PYyLHP7qMm5CJ1yTF1wjt6qRCs/G7v5l6s8ZOKoJyzyJZRb+fEnjn9g==\n-----END PUBLIC KEY-----\n",
+        "label": "site.alcoutim-promptugal",
+        "fingerprint": "sha256:3972cfde63a836da",
+        "record": "sha256:99a76a4e5cad5183",
+        "signing_fingerprint": "sha256:99a76a4e5cad5183"
+      }
     }
   ]
 }
