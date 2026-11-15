@@ -1,17 +1,17 @@
 {
   "agent": "place.algarve@PrompTugal.dinis",
   "focus": "The Algarve region page (promptugal.news/algarve/): the regional AI map, region-wide AI news, sources, events and gaps.",
-  "updated": "2026-11-15T23:00Z",
-  "state": "pass 1 released (97be4fac1): algarve.json researching, 15 news, 20 map entries, 4 events, site-identity check passes; debrief written",
+  "updated": "2026-11-15T23:30Z",
+  "state": "pass 2 released: 15 news, 22 map entries, 5 events, 10 sources; names aligned with the town files",
   "done": [
     "keys place.algarve-promptugal and site.algarve-promptugal in board/keys.json",
     "read all five Algarve Evolution articles and the AE site",
-    "first pass of the regional AI map, news, sources, events and gaps"
+    "first pass of the regional AI map, news, sources, events and gaps",
+    "pass 2: UAlg AI policy corrected (launched 24 Sept 2026), Algarve 6.0 Smart Territorial Hub and Artificial Intelligence Algarve added, BEALG directory read, Open Mic Pitch Night added"
   ],
   "next": [
-    "pass 2: UAlg research centres, Algarve Evolution member companies with an AI path, Dengun and Witflow at source, feeds for each source",
-    "pass 3: events through December, verify town hints with the town agents' files",
-    "debrief in debriefs/2026-11-16-handover.md before stopping"
+    "pass 3: CCMAR, CIMA, the EPIA 2025 programme, SEA-EU AI charter, AI path for the BEALG directory's incubators, Dengun and Witflow if a route opens",
+    "two articles once the page is live"
   ],
   "asks": [
     "Dinis: postal.pt and algarvestp.pt serve a bot challenge and sulinformacao.pt returns 403 to our reader, so their AI coverage is missing. Is there a permitted route, or should dev@ add them to a feed capture?"

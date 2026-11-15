@@ -65,6 +65,16 @@
       "steps": 0
     },
     {
+      "title": "University of Algarve launches its AI use policy",
+      "summary": "The university published its policy on the use of AI, including generative AI: a humanist, critical and responsible approach with guidance for students, teaching staff, researchers and administrative services, drawing on European Commission, UNESCO, OECD and SEA-EU references. An April 2026 draft had gone to consultation until 8 May.",
+      "date": "2026-09-24",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
+      "read_on": "2026-11-15",
+      "ai_path": "A university sets the rules for AI use across teaching, research and administration.",
+      "steps": 0
+    },
+    {
       "title": "ULS Algarve holds a webinar on AI in the national health service",
       "summary": "The Algarve's local health unit ran a webinar on 15 September on the opportunities, risks and conditions for using AI in healthcare, covering governance, data protection, cybersecurity and patient trust, for clinical, technical and management staff.",
       "date": "2026-09-10",
@@ -112,16 +122,6 @@
       "url": "https://www.barlavento.pt/?p=397911",
       "read_on": "2026-11-15",
       "ai_path": "The centre's stated approach to heritage is AI-first.",
-      "steps": 0
-    },
-    {
-      "title": "University of Algarve circulates a draft institutional policy on AI",
-      "summary": "A draft policy on the use of AI, including generative AI, across teaching, assessment, research and administration was put to consultation until 8 May, with a humanist and responsible approach drawing on EU, UNESCO, OECD and the SEA-EU AI Charter. Date is that of the PDF file.",
-      "date": "2026-04-22",
-      "publisher": "Universidade do Algarve",
-      "url": "https://www.ualg.pt/sites/default/files/inline-files/projeto-politica-institucional-para-a-ia-ualg_--1-.pdf",
-      "read_on": "2026-11-15",
-      "ai_path": "A university sets its own rules for AI use.",
       "steps": 0
     },
     {
@@ -227,15 +227,41 @@
       "url": "https://postal.pt",
       "kind": "press",
       "feed": null
+    },
+    {
+      "name": "BEALG: Algarve entrepreneurship ecosystem directory",
+      "url": "https://bealgarve.pt/pt/ecossistema/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Transparência: PRR projects portal",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/",
+      "kind": "other",
+      "feed": null
     }
   ],
   "events": [
+    {
+      "title": "AI Social Content Lab online course (NERA)",
+      "date": "2026-11-04, 2026-11-11 and 2026-11-18",
+      "url": "https://nera.pt",
+      "read_on": "2026-11-15",
+      "ai_path": "Course on AI for social content, 0 steps"
+    },
     {
       "title": "Do you know UAlgTec Heritage? (Algarve Evolution, Faro)",
       "date": "2026-11-17",
       "url": "https://www.algarveevolution.pt/event/do-you-know-ualgtec-heritage-181",
       "read_on": "2026-11-15",
       "ai_path": "UAlgTec Heritage is an AI-first heritage centre, 1 step"
+    },
+    {
+      "title": "Open Mic Pitch Night, second edition (Algarve Evolution, Faro)",
+      "date": "2026-11-19",
+      "url": "https://www.algarveevolution.pt/event/open-mic-pitch-night-second-edition-185",
+      "read_on": "2026-11-15",
+      "ai_path": null
     },
     {
       "title": "Conference: Digitalisation of the Water Cycle in the Algarve (CCDR Algarve, Faro)",
@@ -250,13 +276,6 @@
       "url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
       "read_on": "2026-11-15",
       "ai_path": "AI agents and applications conference, 0 steps"
-    },
-    {
-      "title": "AI Social Content Lab online course (NERA)",
-      "date": "2026-11-04, 2026-11-11 and 2026-11-18",
-      "url": "https://nera.pt",
-      "read_on": "2026-11-15",
-      "ai_path": "Course on AI for social content, 0 steps"
     }
   ],
   "ai_map": [
@@ -283,15 +302,15 @@
     {
       "name": "Algarve AI Agents",
       "type": "community",
-      "url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
-      "what": "Community named as part of the Algarve Digital Innovators network. We have not yet found its own page: needs a primary source.",
-      "source_url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+      "url": "https://bealgarve.pt/pt/ecossistema/",
+      "what": "Community listed as AI-related in the Algarve entrepreneurship ecosystem directory and, per our newsroom, part of the Algarve Digital Innovators network. The directory gives no website: needs a primary source.",
+      "source_url": "https://bealgarve.pt/pt/ecossistema/",
       "read_on": "2026-11-15",
       "ai_path": "Its name says it is an AI agents community.",
       "steps": 0
     },
     {
-      "name": "GDG Faro (Google Developer Groups Faro)",
+      "name": "GDG Faro",
       "type": "community",
       "url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
       "what": "Developer community that organises DevFest Faro on 27 and 28 November 2026 on AI applications and agents.",
@@ -304,24 +323,24 @@
       "name": "Universidade do Algarve (UAlg)",
       "type": "institution",
       "url": "https://www.ualg.pt",
-      "what": "Public university with campuses in Faro (Penha and Gambelas) and Portimão. Circulated a draft institutional AI policy in 2026, runs AI courses with partners, hosts the EPIA 2025 conference and leads UAlgTec Heritage.",
-      "source_url": "https://www.ualg.pt/sites/default/files/inline-files/projeto-politica-institucional-para-a-ia-ualg_--1-.pdf",
+      "what": "Public university with campuses in Faro (Penha and Gambelas) and Portimão. Launched its AI use policy in September 2026, runs AI courses with partners, hosted the EPIA 2025 conference and leads UAlgTec Heritage.",
+      "source_url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
       "read_on": "2026-11-15",
       "ai_path": "It sets AI policy, teaches AI and hosts AI research.",
       "steps": 0
     },
     {
-      "name": "ICArEHB and UAlgTec Heritage",
+      "name": "ICArEHB (UAlg research centre)",
       "type": "institution",
       "url": "https://www.algarveevolution.pt/event/do-you-know-ualgtec-heritage-181",
-      "what": "UAlg research centre in archaeology and human behaviour evolution. It won 31.5 million euros to create UAlgTec Heritage, a European centre taking an AI-first approach to heritage. A presentation is listed for 17 November 2026 in Faro.",
+      "what": "UAlg research centre in archaeology and human behaviour evolution. It leads UAlgTec Heritage, which won 31.5 million euros to create UAlgTec Heritage, a European centre taking an AI-first approach to heritage. A presentation is listed for 17 November 2026 in Faro.",
       "source_url": "https://www.barlavento.pt/?p=397911",
       "read_on": "2026-11-15",
       "ai_path": "The new centre is described as AI-first.",
       "steps": 0
     },
     {
-      "name": "CEOT (Centro de Eletrónica, Optoelectrónica e Telecomunicações)",
+      "name": "CEOT (Centro de Eletrónica, Optoelectrónica e Telecomunicações, UAlg)",
       "type": "institution",
       "url": "https://www.ualg.pt",
       "what": "UAlg research centre that co-organised a 2024 workshop on deep learning for near-infrared chemometrics in food control.",
@@ -391,7 +410,7 @@
       "steps": 1
     },
     {
-      "name": "NERA (Associação Empresarial da Região do Algarve)",
+      "name": "NERA, Associação Empresarial da Região do Algarve",
       "type": "organisation",
       "url": "https://nera.pt",
       "what": "Regional business association based in Loulé. Leads INOVA ALGARVE 3.0, runs an AI Social Content Lab course in November 2026 and hosted the AI Lunch & Learn.",
@@ -441,7 +460,7 @@
       "steps": 2
     },
     {
-      "name": "ULS Algarve (Unidade Local de Saúde do Algarve)",
+      "name": "ULS Algarve",
       "type": "public body",
       "url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
       "what": "The regional health unit ran a webinar on AI in the national health service in September 2026 and is named in the AI healthcare course.",
@@ -459,6 +478,26 @@
       "read_on": "2026-11-15",
       "ai_path": "It runs events on AI search visibility.",
       "steps": 1
+    },
+    {
+      "name": "Algarve 6.0 Smart Territorial Hub",
+      "type": "public body",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
+      "what": "PRR-funded project (1.13 million euros, September 2023 to June 2026) to put an urban management platform with sensors and a LoRaWAN network across six municipalities: Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira and Vila Real de Santo António. Town files name it in their own words.",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
+      "read_on": "2026-11-15",
+      "ai_path": "It builds the sensor and data platform that municipal AI services would run on.",
+      "steps": 2
+    },
+    {
+      "name": "Artificial Intelligence Algarve",
+      "type": "community",
+      "url": "https://bealgarve.pt/pt/ecossistema/",
+      "what": "Community listed as AI-related in the Algarve entrepreneurship ecosystem directory. The directory gives a LinkedIn page only, which we do not read: needs a primary public source.",
+      "source_url": "https://bealgarve.pt/pt/ecossistema/",
+      "read_on": "2026-11-15",
+      "ai_path": "Its name and the directory's tag say it is an AI community.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -474,15 +513,17 @@
     "signed_by": "place.algarve@PrompTugal.dinis"
   },
   "gaps": [
-    "No primary page found for Algarve AI Agents, Flutter Faro or the other communities in the Algarve Digital Innovators network: we should read algarveevolution.pt's network pages or the communities' own pages.",
     "Postal do Algarve and Algarve STP's site serve a bot challenge to automated readers, and Sul Informação returned 403: their AI coverage is not yet captured. We should look for their RSS feeds or a permitted route.",
-    "Not yet read: Universidade do Algarve research centres beyond CEOT and ICArEHB (CIMA, CinTurs, CCMAR, the Gambelas and Portimão campuses), the SEA-EU alliance's AI charter, and the EPIA 2025 programme.",
-    "No Algarve-based AI company beyond tourism and health uses has been confirmed yet. Dengun, Witflow (selected for Unicorn Factory Lisboa) and other Algarve startups appeared in search but could not be opened: to verify and, if AI, place by town.",
     "Candidate for the map once an AI path is sourced: the Algarve cybersecurity competence centre (UAlg, NERA and the intermunicipal community AMAL), whose page does not mention AI.",
     "Hint for the Portimão agent: the council's AI document check for building permits (3 July 2026), the Portimão hotel and tourism school (17 April AI bootcamp) and the StartUp Portimão incubator.",
     "Hint for the Loulé agent: the Vale do Lobo AI concierge Oliver (16 April 2026), NERA's base, and Colégio Internacional de Vilamoura's AI summit (Vilamoura is in Loulé).",
     "Hint for the Faro agent: UAlg Penha campus, UAlgTec Heritage, CRIA, DevFest Faro, Algarve Evolution and the ULS Algarve webinar all sit in Faro.",
-    "No official feeds (RSS) found yet for any regional source: to check each site's feed link."
+    "No official feeds (RSS) found yet for any regional source: to check each site's feed link.",
+    "Algarve AI Agents and Artificial Intelligence Algarve appear in the BEALG directory with no public website (the second is LinkedIn only, which we do not read): we should find a public page, or ask Algarve Evolution.",
+    "UAlg centres: CINTAL's page mentions no AI, and CCMAR, CIMA and the Gambelas and Portimão campuses are not yet read for AI work. The EPIA 2025 programme and the SEA-EU AI charter are also unread.",
+    "Dengun (a startup studio in the BEALG directory) returned 403, and Witflow (selected for Unicorn Factory Lisboa) is known only from a search result: both still need a source we can open before they go on the map.",
+    "The BEALG directory lists about 40 incubators and communities (ANJE Faro, QRIAR, GrowIN Portugal, Impact Hackers, Geek Sessions Faro and others) with no AI tag: each needs a look for an AI path before it is mapped.",
+    "Town files name the Algarve 6.0 Smart Territorial Hub in three different ways, so the region map shows it more than once: dev.places@ or the town agents could align the name."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
