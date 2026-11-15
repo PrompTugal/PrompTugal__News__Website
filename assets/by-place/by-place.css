@@ -214,3 +214,6 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame .col + .col > ul:not([class]) { list-style: none; padding: 0; }
 .bp-frame .col + .col > ul:not([class]) > li { padding: 6px 0; border-bottom: 1px solid var(--hair); font-weight: 600; }
 .bp-frame .col + .col > ul:not([class]) > li:last-child { border-bottom: 0; }
+/* dark themes: the pins and the town cards' rules lifted so each place's colour still reads on the dark paper */
+:root[data-theme="ink"] .bp-svgmap .bp-pin circle, :root[data-theme="dark"] .bp-svgmap .bp-pin circle, :root[data-theme="azulejo"] .bp-svgmap .bp-pin circle { filter: brightness(1.7) saturate(1.1); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme]) .bp-svgmap .bp-pin circle { filter: brightness(1.7) saturate(1.1); } }
