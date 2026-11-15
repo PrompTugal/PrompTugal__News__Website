@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.8.1",
-  "updated": "2026-11-15T22:12Z",
+  "updated": "2026-11-15T22:31Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -20,14 +20,16 @@
     "v1.8.0: ABPs for place.portugal, place.algarve, the 17 towns, dev.places, designer.places; dotted names with their own grant release to dev (hook fixed, 167 fixtures)",
     "site_identity rule and board/abp/tools/site-identity.mjs; first run 1 of 19 places pass (portugal)",
     "First review of the new agents: 10 commits, 0 files outside a grant (board/abp/reports/2026-11-15-21.md)",
-    "22:10: every one of the 21 new agents reviewed once, 0 files outside a grant; site identity 17 of 19; v1.8.1: own site-key label not an R9 (board/abp/reports/2026-11-15-22.md)"
+    "22:10: every one of the 21 new agents reviewed once, 0 files outside a grant; site identity 17 of 19; v1.8.1: own site-key label not an R9 (board/abp/reports/2026-11-15-22.md)",
+    "22:30 (first hourly wake): 19 of 19 sites pass; the check is in the gate (dev.places@ 272a951, by-place.mjs warn); one relaxation proposed (board/abp/reports/2026-11-15-22b.md)"
   ],
   "next": [
-    "Hourly: the site-identity check (quarteira and vila-real-de-santo-antonio missing their identity block and .sig) and a review of new commits, articles checked for their own town",
-    "Check that dev.places@ wired the check into the gate",
-    "Read the place agents' run reports as they file them"
+    "Hourly: the site-identity check and a review of new commits; the place agents' first articles checked for their own town",
+    "Keep site-identity.mjs's export checkSites and its shape: the build imports it"
   ],
   "asks": [
+    "Dinis: may dev.places@ write data/by-place/places.json (the list: map coordinates, labels), never a place's own file? It already did three times (board/abp/reports/2026-11-15-22b.md)",
+    "Dinis: gamma-ray, investors, reporter.newsroom, social.watch and work-desk (board/team/, since 14 November) have no ABP; should they?",
     "Dinis: board/team/conductor.b/ and board/team/journalist.newsroom/ look like dotted workers to the ABP generator; are they workers (work/<name> only) or roles of their own? Until you say, they have no ABP of their own",
     "Dinis: when should the site-identity check fail the gate instead of warning (after the demo on 16 November?)",
     "Dinis: conductor@'s by-place frame (87730aa) wrote 27 files in dev@'s, ontologist@'s and now the place agents' paths, at your word; may the conductor write such a frame again, or route it to dev?",
@@ -194,6 +196,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "every place agent reviewed once; 17 of 19 sites pass; v1.8.1"
+    },
+    {
+      "started": "2026-11-15T22:27Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "19 of 19 sites signed; check in the gate; one relaxation proposed"
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",
