@@ -2653,6 +2653,23 @@
         "record": "sha256:d2cad3fd7010adf8",
         "signing_fingerprint": "sha256:d2cad3fd7010adf8"
       }
+    },
+    {
+      "id": "datasci.places-promptugal",
+      "agent": "datasci.places@PrompTugal.dinis",
+      "label": "datasci.places@PrompTugal.dinis (Claude Code cloud session)",
+      "role": "The data scientist of PrompTugal.news: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) and the Swagger pages, the gate checks that a page shows nothing its JSON lacks, and the data quality numbers per place. Started 15 November 2026 at Dinis's word via the conductor. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxXrJUq1cIlz4GNRWXebv\nJR96XJ1B7oEJlg9PTQnqEnHdUVzZsnhwtAj0UxPBbfwZUoV52RdtUXDbyKN83rrW\n9W/eaDycLXG6PrQBJrh3l94O3TFBhx5K/1KMXrkx1JDNZ7ueQtpgXYdv+Ge987Ly\nwqF+umi2yvWKMwOHgqxwzYKHvg7D5pXCHUzbXBthwIov76PPy31H2ERCKXz5DwVx\nsUOm+I0hXV/MGJ2aOuIDEU+Baq1AUoKYSqHhaDEVVcFhjvlGG4JImQJa4kfgLSRr\nmHCZAUeVaxepwU9+sQR1bjU8AN+JhEA7OhkPnPljZX/JBluqF8nV3YK4tEsSUdKJ\nnj8/p5HKmtwgUalWcQyufozwRoal93m1edT79DUrdqdOb9LFusCAmDWSY17rNZ6t\nUc5UiFmtjEuWaiollF3OquEAX3HVYYPVbfGAGXte7fjbyezXbNj6zPFe7Y7jtWmK\nIcUtcm5POnlkZHcMglrkwPC4yl66UI+c+dzQMq9yr6u5fANVBOQW1KiawkR5CgTu\nx4Wf0sF9Crahp3nwNTfo/31ly67qJ2T1LTZcgsnIPA8ffG0cT75IDRZ2lh1kyOoz\nZgO1IbbwPThXB1p6NU1KV3hO+v8CIY6LxVitAdwS7ZsYX2NL1bfJkOgwYK/ch8m1\nGjpqAVzum4RjSDnCJcqWwcUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErnesFECS7+6gc5Kq4vvUuOxJ5wjP\njVA/YF9n7xiS8cwyQdTuejiXE4p5lorJT/glZ4IF8cauEQrCxXHCvoXwlg==\n-----END PUBLIC KEY-----\n",
+        "label": "datasci.places@PrompTugal.dinis",
+        "fingerprint": "sha256:75d5acf723332fb2",
+        "signing_fingerprint": "sha256:943b31bbe841bc1a"
+      }
     }
   ]
 }
