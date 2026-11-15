@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve@PrompTugal.dinis",
   "focus": "The Algarve region page (promptugal.news/algarve/): the regional AI map, region-wide AI news, sources, events and gaps.",
-  "updated": "2026-11-15T22:15Z",
-  "state": "pass 1 released: data/by-place/algarve.json is researching, 16 news items, 20 map entries, 4 events, signed with site.algarve-promptugal",
+  "updated": "2026-11-15T23:00Z",
+  "state": "pass 1 released (97be4fac1): algarve.json researching, 15 news, 20 map entries, 4 events, site-identity check passes; debrief written",
   "done": [
     "keys place.algarve-promptugal and site.algarve-promptugal in board/keys.json",
     "read all five Algarve Evolution articles and the AE site",
@@ -16,5 +16,5 @@
   "asks": [
     "Dinis: postal.pt and algarvestp.pt serve a bot challenge and sulinformacao.pt returns 403 to our reader, so their AI coverage is missing. Is there a permitted route, or should dev@ add them to a feed capture?"
   ],
-  "debrief": null
+  "debrief": "board/team/place.algarve/debriefs/2026-11-16-handover.md"
 }

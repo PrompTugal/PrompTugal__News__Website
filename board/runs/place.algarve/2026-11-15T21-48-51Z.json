@@ -1,0 +1,103 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve@PrompTugal.dinis",
+ "run": "2026-11-15T21-48-51Z",
+ "started": "2026-11-15T21:48:51.972Z",
+ "ended": "2026-11-15T22:04:31Z",
+ "line": "",
+ "policy": {
+  "version": "1.8.1",
+  "sha256": "8c1419899a31d8b0"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:49:23.531Z",
+   "chars": 2161,
+   "sha256": "3f623be6824492ab",
+   "head": "You are place.algarve@PrompTugal.dinis, the agent for the region of PrompTugal.news by place (promptugal.news/algarve/), started on 15 November 2026 at Dinis's word via his conductor: \"one agent per t"
+  },
+  {
+   "t": "2026-11-15T22:04:14.044Z",
+   "chars": 1298,
+   "sha256": "073cb981f472a60f",
+   "head": "<task-notification>\n<task-id>b60qwb7gl</task-id>\n<tool-use-id>toolu_014D1RoNkSiYZYDZpPjKw2FS</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-15T22:04:19.883Z",
+   "chars": 969,
+   "sha256": "7a485306dda1aed0",
+   "head": "<task-notification>\n<task-id>bfoos8vda</task-id>\n<tool-use-id>toolu_01QxJPMsboQ6mVUSCsCdTLqJ</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:49:23.254Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 69,
+  "by_kind": {
+   "git": 7,
+   "shell": 9,
+   "other": 2,
+   "web": 49,
+   "release": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 69,
+  "commits": [
+   {
+    "sha": "97be4fac1",
+    "subject": "place.algarve@PrompTugal.dinis: status.json in the board's shape",
+    "files": 1
+   },
+   {
+    "sha": "bb7d613fb",
+    "subject": "place.algarve@PrompTugal.dinis: the Algarve region, pass 1 (regional AI map, news, events, sources, gaps)",
+    "files": 3
+   },
+   {
+    "sha": "3deb1151c",
+    "subject": "place.algarve@PrompTugal.dinis: session key and site key for the Algarve region page",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 69,
+  "in_mandate": 69,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
