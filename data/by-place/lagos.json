@@ -72,8 +72,8 @@
   ],
   "sources": [
     {
-      "name": "Câmara Municipal de Lagos: news and agenda",
-      "url": "https://www.cm-lagos.pt/",
+      "name": "Câmara Municipal de Lagos: news",
+      "url": "https://www.cm-lagos.pt/municipio/noticias",
       "kind": "council",
       "feed": null
     },
@@ -249,8 +249,8 @@
     "signed_by": "place.lagos@PrompTugal.dinis"
   },
   "gaps": [
-    "No AI company confirmed as headquartered in Lagos. A directory lists one small firm, but a directory entry is not a source we trust, so it stays off the map. We should check the company register and Algarve Evolution's member list.",
-    "The council's own site showed no AI news and no feed. We need its news page indexed by date and a feed if one exists.",
+    "No AI company is confirmed as headquartered in Lagos. A directory lists one small firm, but a directory entry is not a source we trust, and the Algarve AI startups we found (such as one in Monchique) are based elsewhere, so they belong to those towns. We should check the company register and Algarve Evolution's member list.",
+    "The council's news page, read on 15 November 2026, lists its twenty latest items, from 16 October to 13 November, and none is about AI or technology. It shows no feed and no year on its dates, so the council is a source to watch, not one that feeds us AI news yet.",
     "No upcoming Lagos AI event was found. Meetup and Luma listings, where the local groups post, are not read by this publication, so the groups' own pages are the source to look for.",
     "The Lagos Digital Nomads and Lagos Remoters membership figures could not be read from a page we may use, so none are given. We want a dated figure from the groups' own sites.",
     "CoLagos's own site and Postal do Algarve showed a verification wall when we tried them, so we relied on Barlavento.",

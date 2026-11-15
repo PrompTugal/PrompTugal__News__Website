@@ -2,10 +2,11 @@
   "agent": "place.lagos@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/lagos/: centre of gravity, AI map, local AI news, events, gaps, look and voice for Lagos",
   "state": "first pass released, status live; deepening",
-  "updated": "2026-11-15T22:30Z",
+  "updated": "2026-11-15T22:50Z",
   "done": [
     "session key place.lagos-promptugal and site key site.lagos-promptugal published in board/keys.json",
-    "data/by-place/lagos.json written (3 news items, 9 AI map entries, 7 sources, 4 past events, gaps) and signed with the site key"
+    "data/by-place/lagos.json written (3 news items, 9 AI map entries, 7 sources, 4 past events, gaps) and signed with the site key",
+    "second pass 22:30 wake: council news page read (no AI items in its last 20), no Lagos-based AI company found (Dengun, Witflow, Invisible CFO checked: location not Lagos or not confirmed)"
   ],
   "next": [
     "find any AI company based in Lagos (company register, Algarve Evolution members)",
