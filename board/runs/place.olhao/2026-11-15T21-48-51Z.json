@@ -1,0 +1,132 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.olhao@PrompTugal.dinis",
+ "run": "2026-11-15T21-48-51Z",
+ "started": "2026-11-15T21:48:51.972Z",
+ "ended": "2026-11-15T22:35:02Z",
+ "line": "",
+ "policy": {
+  "version": "1.8.1",
+  "sha256": "8c1419899a31d8b0"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:51:12.328Z",
+   "chars": 1573,
+   "sha256": "6480aa423b9cd0a1",
+   "head": "You are place.olhao@PrompTugal.dinis, the agent for Olhão's site, promptugal.news/algarve/olhao/, started on 15 November 2026 at Dinis's word via his conductor: \"one agent per target ... each will be "
+  },
+  {
+   "t": "2026-11-15T22:03:56.229Z",
+   "chars": 289,
+   "sha256": "7450e66cb15e417a",
+   "head": "<task-notification>\n<task-id>bp68rvt84</task-id>\n<summary>Monitor event: \"Wait for release output\"</summary>\n<event>[Monitor expired after 4m 40s with no events delivered. Re-arm it if you still need "
+  },
+  {
+   "t": "2026-11-15T22:06:07.195Z",
+   "chars": 514,
+   "sha256": "c63f99ef14796b68",
+   "head": "<task-notification>\n<task-id>b5488hbfd</task-id>\n<tool-use-id>toolu_01MtWqiVRmdzWamRf4fcKi3S</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/aac18fec-456e-5090-bfa0-bd2be"
+  },
+  {
+   "t": "2026-11-15T22:06:14.424Z",
+   "chars": 554,
+   "sha256": "7172f9f553da6b1b",
+   "head": "<task-notification>\n<task-id>bhot4zyse</task-id>\n<tool-use-id>toolu_01JcCCuvbY8Xo6RfZHL92W3u</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/aac18fec-456e-5090-bfa0-bd2be"
+  },
+  {
+   "t": "2026-11-15T22:31:31.825Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T22:32:44.016Z",
+   "chars": 953,
+   "sha256": "3d862c9f8d607b9e",
+   "head": "<task-notification>\n<task-id>b3r0tq3ir</task-id>\n<tool-use-id>toolu_01PbsSLNwuBx9Sq2bNJgpoZ3</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/aac18fec-456e-5090-bfa0-bd2be"
+  },
+  {
+   "t": "2026-11-15T22:32:44.055Z",
+   "chars": 953,
+   "sha256": "605c9125fb4f8844",
+   "head": "<task-notification>\n<task-id>bm4398c8f</task-id>\n<tool-use-id>toolu_01UYFa64hBuSH77CBNbKggzx</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/aac18fec-456e-5090-bfa0-bd2be"
+  },
+  {
+   "t": "2026-11-15T22:34:57.542Z",
+   "chars": 517,
+   "sha256": "6a7bd9786cb9d13b",
+   "head": "<task-notification>\n<task-id>bgv2jet6v</task-id>\n<tool-use-id>toolu_01DprqApWc9Za2nZM1hYiCW8</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/aac18fec-456e-5090-bfa0-bd2be"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:51:12.121Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T22:31:31.653Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 68,
+  "by_kind": {
+   "git": 11,
+   "shell": 6,
+   "web": 36,
+   "other": 6,
+   "release": 9
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 68,
+  "commits": [
+   {
+    "sha": "10ca271e4",
+    "subject": "place.olhao@PrompTugal.dinis: DigiATLA kick-off news, Startup Olhão and ANJE Hub, status",
+    "files": 3
+   },
+   {
+    "sha": "7a27be8e6",
+    "subject": "place.olhao@PrompTugal.dinis: Altice Labs hub confirmed from its article",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 8,
+  "tool_calls": 68,
+  "in_mandate": 68,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
