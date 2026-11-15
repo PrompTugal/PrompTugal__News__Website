@@ -75,7 +75,7 @@ export function database(ctx) {
     for (const o of ctx.store.organisations) if (nodes.has(`organisation:${o.id}`) && !o.marker && !byName.has(nameKey(o.name))) byName.set(nameKey(o.name), `organisation:${o.id}`)
 
     // the places
-    const rows = { places: [], news: [], map: [], events: [], sources: [], gaps: [], companies: [], articles: [], merges: [], connections: [] }
+    const rows = { places: [], news: [], map: [], events: [], sources: [], gaps: [], companies: [], articles: [], merges: [], connections: [], captures: [] }
     for (const p of places) {
         const id = `place:${p.id}`, f = p.file
         N(id, { type: 'place', kind: p.kind, label: p.name, page: `${p.path}index.html`, source: `data/by-place/${p.id}.json`, read: str(f.updated), layer: nodes.has(id) ? 'graph' : 'by-place' })
@@ -187,6 +187,11 @@ export function database(ctx) {
             E(c.relation, a, b, { source: c.source_url, read: str(c.read_on), layer: 'connections', note: str(c.what) })
         }
     }
+    // the captures (board/team/data.places/tools/capture.mjs; the index in data/query/ or, until the gate knows it, board/team/data.places/)
+    for (const f of ['data/query/captures.json', 'board/team/data.places/captures.json']) { if (!ctx.exists(f)) continue
+        let ci = {}; try { ci = ctx.readJSON(f) } catch {}
+        for (const k of arr(ci.captures)) if (k && okUrl(k.url)) rows.captures.push([k.url, hostOf(k.url), str(k.captured_at), k.ok ? 1 : 0, int(k.status), str(k.title), str(k.note), k.image ? k.image.sha256 : null, k.image ? k.image.path : null, k.text ? k.text.sha256 : null, k.text ? k.text.path : null, arr(k.cited_by).length, [...new Set(arr(k.cited_by).map(r => r.place))].join(',') || null])
+        break }
     // only edges whose two ends exist
     const tables = {}
     for (const [name, def] of Object.entries(cat.tables)) tables[name] = { about: def.about, columns: def.columns.map(c => c.name), types: def.columns.map(c => c.type), docs: def.columns.map(c => c.about), rows: rows[name] || [] }

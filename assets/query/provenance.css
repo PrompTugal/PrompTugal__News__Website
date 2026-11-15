@@ -1,0 +1,14 @@
+/* The provenance line (data.places@PrompTugal.dinis): the box beside a story or a place, the capture badges. */
+.pv-box { border: 1px solid var(--rule); border-left: 3px solid var(--brand); border-radius: var(--radius); background: var(--paper-2); padding: var(--s2) var(--s3); margin: 0 0 var(--s4); font: var(--fs-meta) / 1.45 var(--sans); }
+.pv-box .pv-h { font: 600 var(--fs-label) var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--brand); margin: 0 0 var(--s1); }
+.pv-box ul { list-style: none; padding: 0; margin: 0; }
+.pv-box li { padding: 0.25em 0; border-bottom: 1px solid var(--hair, var(--rule)); }
+.pv-box li:last-child { border-bottom: 0; }
+.pv-box strong { font-weight: 600; color: var(--ink); margin-right: 0.25em; }
+.pv-box .more-line { margin: var(--s1) 0 0; }
+@media (min-width: 1100px) { .type-article .pv-side { float: right; width: 17rem; margin: 0 0 var(--s3) var(--s4); } }
+a.pv-badge { display: inline-block; margin-left: 0.35em; padding: 0 0.4em; font: 0.72rem / 1.5 var(--mono); color: var(--ink-2); background: var(--paper-2); border: 1px solid var(--rule); border-radius: var(--radius-pill); text-decoration: none; vertical-align: 0.1em; }
+a.pv-badge::before { content: "\25C9\00a0"; color: var(--ok, var(--brand)); }
+a.pv-badge:hover { border-color: var(--brand); color: var(--ink); }
+.pv-table td { font-size: var(--fs-meta); overflow-wrap: anywhere; }
+.pv-table code { font-size: 0.78em; }

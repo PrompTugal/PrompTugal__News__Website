@@ -1,21 +1,27 @@
 {
   "agent": "data.places@PrompTugal.dinis",
   "focus": "the data online and queryable (each place's data and the whole graph as JSON tables, SQL and graph traversals in the browser), the provenance line with captures in an sgit vault, custom decks from the data; Loulé and Faro first",
-  "state": "pass 1 (the data online, the query page) built and passing the gate; releasing",
-  "updated": "2026-11-16T00:10Z",
+  "state": "pass 1 live (v0.1.1503); pass 2 (the provenance line, captures in an sgit vault) built for Loulé and Faro and releasing",
+  "updated": "2026-11-15T23:45Z",
   "done": [
     "session key data.places-promptugal in board/keys.json",
     "pass 1: /query/ and /query/<place>/ (19 places): 12 tables and the graph as JSON (api/v1/data/), SQL and graph traversals (neighbours, paths) in the browser with our own engine (assets/query/sql.js, graph.js, no outside library), 9 examples and 6 per place that the gate runs at every build; the by-place layer merges map entries across towns and links stories to what they name",
-    "proposed data/schemas/by-place-connections.schema.json for detective.places@'s connections file (the build already reads it)"
+    "/query/ reads detective.places@'s connections file in its own schema (data/by-place/connections/connections.json); an example for it",
+    "pass 2: the provenance line. A box at the top of each place page's side column (who keeps it and its commits, the site signature, what it rests on and when it was read, how much is captured); a capture badge with its SHA-256 beside every cited link that has a capture; 'How this story was made' on every article (author, git history, the signing key, sources, captures, the build); a provenance page per place (query/<place>/provenance/) and api/v1/data/provenance/<place>.json; a captures table in /query/",
+    "captures: the sgit vault promptugal-captures (8pvcgf0m, dev.send.sgraph.ai) made and pushed; 47 source pages of Loulé and Faro captured (42 ok, 5 refused: three cm-faro.pt and cm-loule.pt 502s, one bot challenge at regiao-sul.pt, recorded as such), each a screenshot and its text with SHA-256 (board/team/data.places/tools/capture.mjs)"
   ],
   "next": [
-    "pass 1: /data/ tables and graph as JSON with a documented schema, the query page (SQL and graph traversals, no outside library), example queries for Loulé and Faro",
-    "pass 2: the provenance line beside every story and place item, with captures in an sgit vault",
-    "pass 3: decks from the data for Dinis's meetings",
-    "agree data/by-place/connections.json's schema with detective.places@"
+    "pass 2 for the other 17 places (the same tool, a run per batch)",
+    "pass 3: decks from the data for Dinis's meetings (Loulé and Faro first)",
+    "move the captures index to data/query/captures.json once the gate knows that file",
+    "re-capture the council pages that answered 502"
   ],
   "asks": [
-    "dev.places@: data/by-place/connections.json matches the by-place KINDS line in newsroom/build/lib/datacheck.mjs and would fail its schema; a line [/^data\\/by-place\\/connections\\.json$/, 'by-place-connections'] before it, please (the schema is in data/schemas/)"
+    "Dinis: may the captures vault's read key be published, as promptugal-snapshots' is in board/snapshots.json, so a reader can open each capture? My ABP says never to put a vault key in the repository, so until you say, captures are linked by vault id, path and SHA-256 only. Note: the screenshots show third-party pages as they are, publishers' mastheads included (some print their own phone numbers and emails)",
+    "Dinis (abp@): my grant has data/query/** but not content/query/**; the query page's words are content/query/index.md (the quality gate moved them out of the code). Please add content/query/** or say where they should live",
+    "dev.places@: a KINDS line in newsroom/build/lib/datacheck.mjs for [/^data\\/query\\/captures\\.json$/, 'provenance-captures'] (the schema is in data/schemas/); the index sits in board/team/data.places/captures.json until then",
+    "dev.places@: data-provenance.mjs adds a provenance box at the top of each place page's side column and capture badges after cited links (decorate and postHtml); move or restyle it as you see fit, or tell me where you want it",
+    "security@: please review assets/query/ (our own SQL engine and graph functions, no outside library; cells rendered as text, links only http(s) and site pages) and board/team/data.places/tools/capture.mjs (public pages only, a challenge recorded not got round)"
   ],
   "debrief": null
 }

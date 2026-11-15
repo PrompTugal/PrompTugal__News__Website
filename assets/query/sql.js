@@ -139,7 +139,7 @@
             }
             let alias = null
             if (eat('kw', 'as')) alias = ident(); else if (is('id')) alias = ident()
-            src.alias = alias || src.table || src.func || fail('a subquery in FROM needs an alias')
+            src.alias = alias || src.table || src.func || 'subquery'
             return src
         }
         // precedence: OR < AND < NOT < comparison < || < + - < * / % < unary

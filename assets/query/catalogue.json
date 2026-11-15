@@ -620,6 +620,76 @@
           "about": "the places it concerns, comma-separated"
         }
       ]
+    },
+    "captures": {
+      "about": "Captures of the third-party pages the place files cite: a screenshot and the visible text of each, hashed (SHA-256), kept in the sgit vault promptugal-captures (board/team/data.places/tools/capture.mjs).",
+      "columns": [
+        {
+          "name": "url",
+          "type": "text",
+          "about": "the page cited"
+        },
+        {
+          "name": "host",
+          "type": "text",
+          "about": "its web host"
+        },
+        {
+          "name": "captured_at",
+          "type": "text",
+          "about": "when it was captured (UTC)"
+        },
+        {
+          "name": "ok",
+          "type": "integer",
+          "about": "1 if the page was captured as a reader sees it"
+        },
+        {
+          "name": "status",
+          "type": "integer",
+          "about": "the HTTP status"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "about": "the page's title"
+        },
+        {
+          "name": "note",
+          "type": "text",
+          "about": "why it was not captured, where it was not"
+        },
+        {
+          "name": "image_sha256",
+          "type": "text",
+          "about": "the screenshot's SHA-256"
+        },
+        {
+          "name": "image_path",
+          "type": "text",
+          "about": "the screenshot's path in the vault"
+        },
+        {
+          "name": "text_sha256",
+          "type": "text",
+          "about": "the text's SHA-256"
+        },
+        {
+          "name": "text_path",
+          "type": "text",
+          "about": "the text's path in the vault"
+        },
+        {
+          "name": "cited_by",
+          "type": "integer",
+          "about": "how many items of the places cite it"
+        },
+        {
+          "name": "places",
+          "type": "text",
+          "about": "the places whose items cite it"
+        }
+      ]
     }
   },
   "examples": [
@@ -682,6 +752,12 @@
       "title": "The shape of the whole graph",
       "about": "Nodes by type and layer: the shared graph and the by-place layer in one id space.",
       "sql": "SELECT layer, type, count(*) AS nodes\nFROM nodes\nGROUP BY layer, type\nORDER BY layer, nodes DESC"
+    },
+    {
+      "id": "captures",
+      "title": "Which sources are captured, and their hashes",
+      "about": "Every cited page and its capture: join the stories to the captures by URL to see what each story rests on, and the SHA-256 that proves what the page said when it was read.",
+      "sql": "SELECT n.place, n.title, c.host, c.captured_at, substr(c.image_sha256, 1, 16) AS image_sha256\nFROM news n JOIN captures c ON c.url = n.url\nWHERE c.ok = 1\nORDER BY n.place, n.date DESC"
     }
   ],
   "place_examples": [
@@ -737,7 +813,55 @@
     "note_article": "its name is in the article's title or summary (derived by name)",
     "note_tagged": "tagged in its front matter",
     "api_index_about": "PrompTugal.news as data: every table, its columns and where to fetch it; the graph traversals the query page offers; the example queries. Rows are arrays in the order of `columns`.",
-    "api_place_about": "{name} on PrompTugal.news as data: its rows in each table, and its graph within two steps (not counting located_in). Rows are arrays in the order of `columns`; the columns are documented in api/v1/data/index.json."
+    "api_place_about": "{name} on PrompTugal.news as data: its rows in each table, and its graph within two steps (not counting located_in). Rows are arrays in the order of `columns`; the columns are documented in api/v1/data/index.json.",
+    "pv_title": "Provenance",
+    "pv_art_title": "How this story was made",
+    "pv_kept": "Kept by",
+    "pv_commits": "in {n} commits, from {first} to {last}",
+    "pv_signed": "Signed",
+    "pv_sig_valid": "with the site's own key {key}; the signature checks",
+    "pv_sig_other": "signature {state} (key {key})",
+    "pv_sig_none": "not yet",
+    "pv_rests": "Rests on",
+    "pv_rests_text": "{items} items citing {urls} pages on {hosts} sites",
+    "pv_read": "read {first} to {last}",
+    "pv_captured": "Captured",
+    "pv_captured_text": "{n} of {of} source pages, screenshot and text, hashed, in an sgit vault (latest {at})",
+    "pv_none": "nothing cited",
+    "pv_every": "Every item, its source, its read date and its capture",
+    "pv_badge_title": "Captured {at}; screenshot SHA-256 {sha}",
+    "pv_made": "Made by",
+    "pv_art_git": "first committed {first} by {who}, {n} commits, last {last}",
+    "pv_art_signed": "its markdown twin is signed by {who} ({key} in board/keys.json)",
+    "pv_art_unsigned": "no signature found",
+    "pv_collected": "Collected",
+    "pv_art_sources": "{n} outside sources linked, on {hosts} sites",
+    "pv_built": "Built",
+    "pv_page_intro": "Where every item on {name}'s page comes from: the page it cites, the day that page was read, and a capture of it (a screenshot and its visible text, each with its SHA-256), kept in an sgit vault so the page can be shown as it was, even after it changes.",
+    "pv_page_summary": "Every item on {name}'s page with its source, its read date and its capture: {n} of {of} source pages captured, each with its SHA-256.",
+    "pv_vault": "Vault",
+    "pv_access": "Access",
+    "pv_how": "How to check",
+    "pv_tool": "Taken by",
+    "pv_data": "The data",
+    "pv_how_text": "Clone the vault with its read key, then sha256sum the file at the path below: it must give the hash printed here. A capture is the page as the browser saw it, the top 1280 by 1600 pixels, with its text in full.",
+    "pv_k_story": "Local AI stories",
+    "pv_k_map": "The AI map",
+    "pv_k_event": "Events",
+    "pv_k_gravity": "The centre of gravity",
+    "pv_k_source": "Sources the agent reads",
+    "pv_col_item": "Item",
+    "pv_col_source": "Source",
+    "pv_col_read": "Read",
+    "pv_col_capture": "Capture",
+    "pv_col_path": "Path in the vault",
+    "pv_not_yet": "not captured yet",
+    "pv_failed": "not captured",
+    "pv_hashes_h": "Every capture's hashes",
+    "pv_hashes_text": "The full SHA-256 of each screenshot and each text, and where each sits in the vault.",
+    "pv_api_about": "Where every item on {name}'s page comes from: its source, its read date and its capture (screenshot and text, each with its SHA-256 and its path in the sgit vault).",
+    "pv_last": "last changed {last} by {who}",
+    "pv_captured_zero": "none of its {of} source pages yet"
   },
   "aliases": {
     "about": "Names that are one organisation in two languages or spellings, merged by hand (data.places@, with the reason). A key is a name key: accents and case folded, what follows a bracket or comma dropped.",

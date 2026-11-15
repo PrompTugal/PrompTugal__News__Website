@@ -1,0 +1,1716 @@
+{
+  "$schema": "../schemas/provenance-captures.schema.json",
+  "about": "Captures of the third-party pages that PrompTugal.news's place files cite: a screenshot and the visible text of each, hashed, kept in the sgit vault promptugal-captures. Made by data.places@PrompTugal.dinis with board/team/data.places/tools/capture.mjs; shown beside each item by newsroom/build/features/data-places.mjs.",
+  "vault": {
+    "name": "promptugal-captures",
+    "vault_id": "8pvcgf0m",
+    "endpoint": "https://dev.send.sgraph.ai",
+    "access": "private for now: the read key is held by data.places@ and given to Dinis; whether to publish it is Dinis's decision (see board/team/data.places/status.json)"
+  },
+  "captures": [
+    {
+      "url": "http://www.algarveevolution.pt",
+      "host": "algarveevolution.pt",
+      "captured_at": "2026-11-15T23:22:28Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.algarveevolution.pt/pt",
+      "title": "Algarve Evolution",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/algarveevolution.pt/39eea339f13f.jpg",
+        "sha256": "e8a58c2bc41e0c228d7f0a5e392a6c078a10715c0efd82218efd1a93a77290a0",
+        "bytes": 129011,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/algarveevolution.pt/39eea339f13f.txt",
+        "sha256": "7fb14f769c0d1ba3ab73947807cc24ebdbc803ac946a69f02b79062778547118",
+        "chars": 3629
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "map-site",
+          "n": 6,
+          "label": "Algarve Evolution"
+        },
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 5,
+          "label": "Algarve Evolution"
+        }
+      ]
+    },
+    {
+      "url": "https://algarvetechhub.com/taxonomy/term/63",
+      "host": "algarvetechhub.com",
+      "captured_at": "2026-11-15T23:21:02Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://algarvetechhub.com/taxonomy/term/63",
+      "title": "Loulé | Algarve Tech Hub International Platform",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/algarvetechhub.com/d15b07f82479.jpg",
+        "sha256": "6cd60a94715d171eb5b823fcb8a766a957f8451f971a4bc7f519a72afcc56551",
+        "bytes": 210832,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/algarvetechhub.com/d15b07f82479.txt",
+        "sha256": "153938ff16e62dba8377dc78801c4c0b3b6566b72ed58369c979cfe452e2544a",
+        "chars": 13562
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 6,
+          "label": "Algarve Tech Hub"
+        }
+      ]
+    },
+    {
+      "url": "https://bealgarve.pt/pt/ecossistema/",
+      "host": "bealgarve.pt",
+      "captured_at": "2026-11-15T23:20:27Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://bealgarve.pt/pt/ecossistema/",
+      "title": "BeAlgarve — Barómetro para o Empreendedorismo do Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/bealgarve.pt/4d823df59916.jpg",
+        "sha256": "ce5bf3b3d44175873789d9c4e5a251bb03a505076f5abef65578282dd9e976ee",
+        "bytes": 104561,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/bealgarve.pt/4d823df59916.txt",
+        "sha256": "7e48c09457e57dc4bd7f47cfdf34e73f0bddbf92b6be666093d5848a3198b527",
+        "chars": 13690
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 5,
+          "label": "Algarve AI Agents"
+        },
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 6,
+          "label": "Loulé Design Lab (Loulé Criativo)"
+        },
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 7,
+          "label": "Ninho de Empresas de Loulé (IEFP)"
+        },
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 7,
+          "label": "BeAlgarve ecosystem map"
+        }
+      ]
+    },
+    {
+      "url": "https://fct.ualg.pt/workshop-inteligencia-artificial-aplicada-ao-controlo-alimentar",
+      "host": "fct.ualg.pt",
+      "captured_at": "2026-11-15T23:22:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://fct.ualg.pt/workshop-inteligencia-artificial-aplicada-ao-controlo-alimentar",
+      "title": "Workshop: Inteligência Artificial aplicada ao controlo alimentar | Faculdade de Ciências e Tecnologia",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/fct.ualg.pt/e2b045a59877.jpg",
+        "sha256": "06cec0a6c684db2f4f02431a5c32f2396bdfbdeb46c216eb51371a6e6414c039",
+        "bytes": 330064,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/fct.ualg.pt/e2b045a59877.txt",
+        "sha256": "53b183bd88be556e473a5f48a2714ac6333de0036d2f42d99e4ecc3b5b8b87dd",
+        "chars": 10070
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 14,
+          "label": "CEOT (Centro de Eletrónica, Optoelectrónica e Telecomunicações, UAlg)"
+        }
+      ]
+    },
+    {
+      "url": "https://gdg.community.dev/gdg-faro/",
+      "host": "gdg.community.dev",
+      "captured_at": "2026-11-15T23:22:23Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://gdg.community.dev/gdg-faro/",
+      "title": "Google Developer Groups GDG Faro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/gdg.community.dev/6babb09c7c40.jpg",
+        "sha256": "03e99bf585069334f67f3adebf07ed2a2bb18bfb832872882a1cbc550f763f6e",
+        "bytes": 167349,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/gdg.community.dev/6babb09c7c40.txt",
+        "sha256": "fce423b1393e6f874d988de9ab49be59e5575d4c15207d0d44a9c12695e6f074",
+        "chars": 2922
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 5,
+          "label": "GDG Faro"
+        },
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 6,
+          "label": "GDG Faro"
+        }
+      ]
+    },
+    {
+      "url": "https://nera.pt",
+      "host": "nera.pt",
+      "captured_at": "2026-11-15T23:20:24Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://nera.pt/",
+      "title": "Página Inicial - NERA Associação Empresarial Região do Algarve - Cursos Formação - Apoio aos Empresários - LOULÉ",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/nera.pt/c2ea01a72d36.jpg",
+        "sha256": "79649bddb449536ac8ef2944d78af5cc3e0d7add9b3aff1874afe7370854df2d",
+        "bytes": 210605,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/nera.pt/c2ea01a72d36.txt",
+        "sha256": "a31ffcc9e071e048f5513ebcdc8fb2c4ab51c46ccd2ad6cfa4e924937dd116f3",
+        "chars": 3381
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 4,
+          "label": "NERA, Associação Empresarial da Região do Algarve"
+        },
+        {
+          "place": "loule",
+          "kind": "event",
+          "n": 1,
+          "label": "NERA Lunch & Learn on AI tools for analysis (held 10 November 2026 at CRIA, University of the Algarve, Faro)"
+        },
+        {
+          "place": "loule",
+          "kind": "event",
+          "n": 2,
+          "label": "NERA online course: AI Social Content Lab (November 2026)"
+        },
+        {
+          "place": "loule",
+          "kind": "gravity",
+          "n": 2,
+          "label": "NERA, Associação Empresarial da Região do Algarve (home page)"
+        }
+      ]
+    },
+    {
+      "url": "https://nera.pt/noticias",
+      "host": "nera.pt",
+      "captured_at": "2026-11-15T23:20:53Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://nera.pt/noticias",
+      "title": "Notícias Archives - NERA Associação Empresarial Região do Algarve - Cursos Formação - Apoio aos Empresários - LOULÉ",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/nera.pt/26f575c03a6e.jpg",
+        "sha256": "35b2ffd4850f880ef79ef33fee75dab70834a7e528cddc27210ac9835840503c",
+        "bytes": 221371,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/nera.pt/26f575c03a6e.txt",
+        "sha256": "2582e47acfea6b841f807c5eca5c69a5b6241811ae3f351cab9edda46b634e23",
+        "chars": 19750
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 4,
+          "label": "NERA news"
+        }
+      ]
+    },
+    {
+      "url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+      "host": "newsroom.sgit.ai",
+      "captured_at": "2026-11-15T23:21:28Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+      "title": "Vibathon Algarve 2026: a sold-out day of building with AI at the University of the Algarve, and Algarve Evolution, the movement that wants the region to be an innovation hub, SGit Newsroom",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/newsroom.sgit.ai/e4b3fb005774.jpg",
+        "sha256": "70a1f019b06e5d64d4e0d32271594441362b8e2b1826724bb2dcf7c7d7255a35",
+        "bytes": 249877,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/newsroom.sgit.ai/e4b3fb005774.txt",
+        "sha256": "6604d08fb735565cf729acac92260ce386c28be91132dea5042219818dcd168f",
+        "chars": 16458
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 2,
+          "label": "Vibathon Algarve 2026 fills UALG TEC Campus with people building apps with AI"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 6,
+          "label": "Algarve Evolution"
+        },
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 9,
+          "label": "SGit Newsroom (Algarve Evolution coverage, insider)"
+        }
+      ]
+    },
+    {
+      "url": "https://regiao-sul.pt",
+      "host": "regiao-sul.pt",
+      "captured_at": "2026-11-15T23:21:21Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 403,
+      "final_url": "https://regiao-sul.pt/",
+      "title": "Attention Required! | Cloudflare",
+      "note": "a bot challenge or an access page was served; recorded as such, not got round",
+      "image": {
+        "path": "captures/2026-11-15/regiao-sul.pt/6c20a464b928.jpg",
+        "sha256": "b303998558704510e0d4fda1de98060ad5a266d990a6c3e702befc320ae00228",
+        "bytes": 72728,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/regiao-sul.pt/6c20a464b928.txt",
+        "sha256": "044b781c4f16a5f68a7aab1bba0d0f63e03d5ac2a58588e1d311cf3eac96af7c",
+        "chars": 690
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 12,
+          "label": "Regiao Sul"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/noticias-e-media/noticias/nilgai-vence-premio-nacional-com-projeto-de-ia-para-gestao-de-residuos",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-15T23:20:33Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/noticias-e-media/noticias/nilgai-vence-premio-nacional-com-projeto-de-ia-para-gestao-de-residuos",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/uptec.up.pt/571824e34a5e.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/uptec.up.pt/571824e34a5e.txt",
+        "sha256": "65171a0508712a8f498da2eb439ed4eb6039174dbf5395ac3cdc49d8622dfde2",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 10,
+          "label": "NILG.AI (partner of ALGAR)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.algar.com.pt",
+      "host": "algar.com.pt",
+      "captured_at": "2026-11-15T23:21:19Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.algar.com.pt/",
+      "title": "PT | ALGAR",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/algar.com.pt/19d5853ff98e.jpg",
+        "sha256": "d6fe3d8e91909a1ef5bead111d90975ccb8fc3572881b3b8d362cb042849b5bf",
+        "bytes": 209855,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/algar.com.pt/19d5853ff98e.txt",
+        "sha256": "b61fc0a068f3f52896a8ff343751d20c4b7c4cf9c651cc3c8414c6944f6f3525",
+        "chars": 8034
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 11,
+          "label": "ALGAR"
+        }
+      ]
+    },
+    {
+      "url": "https://www.algar.com.pt/en/algar/history/",
+      "host": "algar.com.pt",
+      "captured_at": "2026-11-15T23:20:04Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.algar.com.pt/en/algar/history/",
+      "title": "HISTORY | ALGAR",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/algar.com.pt/d8eaa8c3d8f5.jpg",
+        "sha256": "c4c8b2b308b70a895f7dd6344fa7d49e3848a5f840bfdb14b1de32be2c2fc4da",
+        "bytes": 172031,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/algar.com.pt/d8eaa8c3d8f5.txt",
+        "sha256": "4108c27f5171e7b8b2bf0068c30f4f8616b0bcc15bd9f6569ff24716698e5eca",
+        "chars": 14854
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "map-site",
+          "n": 2,
+          "label": "ALGAR, Valorização e Tratamento de Resíduos Sólidos"
+        }
+      ]
+    },
+    {
+      "url": "https://www.algarveevolution.pt",
+      "host": "algarveevolution.pt",
+      "captured_at": "2026-11-15T23:20:58Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.algarveevolution.pt/pt",
+      "title": "Algarve Evolution",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/algarveevolution.pt/b27f2e31d5ec.jpg",
+        "sha256": "6c62ee7a04a053f229a31f692ca662da52d375be6f33e36f2babe57f27a34907",
+        "bytes": 114216,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/algarveevolution.pt/b27f2e31d5ec.txt",
+        "sha256": "850b5de2d12e26bd70b0e88d19b3d749e11cc14f960df7cb128cea947796a534",
+        "chars": 2204
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 5,
+          "label": "Algarve Evolution"
+        }
+      ]
+    },
+    {
+      "url": "https://www.algarveevolution.pt/blog/ae-articles-8/algarve-evolution-opens-call-for-algarvian-tourism-smes-13",
+      "host": "algarveevolution.pt",
+      "captured_at": "2026-11-15T23:19:17Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.algarveevolution.pt/pt/blog/artigos-ae-8/estao-abertas-as-candidaturas-para-acelerar-a-transicao-digital-do-turismo-no-algarve-prazos-e-condicoes-13",
+      "title": "Estão abertas as candidaturas para acelerar a transição digital do turismo no Algarve: Prazos e Condições | Algarve Evolution",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/algarveevolution.pt/b1c6cd8743fc.jpg",
+        "sha256": "912b9058287920892dae17ebce2e92192f630693bbd5cda341ed17a44ac75add",
+        "bytes": 199927,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/algarveevolution.pt/b1c6cd8743fc.txt",
+        "sha256": "7dcb94931c1ae5a34ef686bf355a5f3c1b5d6b27a12df89020493522b947f628",
+        "chars": 2431
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "news",
+          "n": 3,
+          "label": "Algarve Evolution opens an AI and robotics call for tourism firms, in a consortium led by Loulé-based NERA"
+        }
+      ]
+    },
+    {
+      "url": "https://www.algarveevolution.pt/event",
+      "host": "algarveevolution.pt",
+      "captured_at": "2026-11-15T23:23:12Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.algarveevolution.pt/pt/event",
+      "title": "Events | Algarve Evolution",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/algarveevolution.pt/2dc6f9532ffe.jpg",
+        "sha256": "864361c64b270fc04d956c0e19ba8a28f0e9758e8e61af2dc318db5b9bdd442b",
+        "bytes": 229101,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/algarveevolution.pt/2dc6f9532ffe.txt",
+        "sha256": "187268be6d4d3dd9de4352eac6ee3ae4090f7387af4754eedc003a1e580ed34a",
+        "chars": 1353
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "event",
+          "n": 3,
+          "label": "Do you know UAlgTec Heritage? (Algarve Evolution, Faro)"
+        },
+        {
+          "place": "faro",
+          "kind": "event",
+          "n": 4,
+          "label": "Open Mic Pitch Night, second edition (Algarve Evolution, Faro)"
+        },
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 8,
+          "label": "Algarve Evolution: events"
+        }
+      ]
+    },
+    {
+      "url": "https://www.algarveprimeiro.com",
+      "host": "algarveprimeiro.com",
+      "captured_at": "2026-11-15T23:21:12Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.algarveprimeiro.com/",
+      "title": "Algarve Primeiro - As últimas da região",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/algarveprimeiro.com/005db5714e81.jpg",
+        "sha256": "0d726572aab2c69e4e6c88ae26d2119bf72a209e13f099a6ecdb1b941a2d185e",
+        "bytes": 234306,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/algarveprimeiro.com/005db5714e81.txt",
+        "sha256": "d4cde0221589d2e51726e96d910a8d0838cb8fce197c112e9537af8b257e81b3",
+        "chars": 5525
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 10,
+          "label": "Algarve Primeiro"
+        }
+      ]
+    },
+    {
+      "url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+      "host": "algarveprimeiro.com",
+      "captured_at": "2026-11-15T23:19:43Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+      "title": "Algar e NILG.AI recebem prémio com projeto inovador na gestão de resíduos",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/algarveprimeiro.com/3d8d5b91d4fe.jpg",
+        "sha256": "a1248910fba8cca5bede482941a04612a94a671176f8888bf6173e8adcb3da18",
+        "bytes": 213894,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/algarveprimeiro.com/3d8d5b91d4fe.txt",
+        "sha256": "b6a31ddb4acfc03eb39a8e6d9db43d09837fdd50c59af8b50127d552100793f6",
+        "chars": 2747
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "news",
+          "n": 5,
+          "label": "ALGAR and NILG.AI win an award for an AI tool that picks sites for recycling points"
+        },
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 2,
+          "label": "ALGAR, Valorização e Tratamento de Resíduos Sólidos"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:20:37Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/",
+      "title": "Barlavento – Notícias diárias do Algarve e de Portugal",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/d0138edc23b2.jpg",
+        "sha256": "0ba6074edf23b5bc1eee3edd22d65c6edca94c575098f3891f0a8da45381c06c",
+        "bytes": 227323,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/d0138edc23b2.txt",
+        "sha256": "7a3310dbefec29691da80d65615f1d2fde07bd0460d707bd65773aba78bdad9f",
+        "chars": 10707
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 2,
+          "label": "Barlavento"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/?p=397911",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:22:01Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/ualg-capta-315-milhoes-centro-europeu-inovacao-arqueologica/",
+      "title": "UAlg capta 31,5 milhões para criar o primeiro centro europeu de inovação arqueológica",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/1525bd8682a5.jpg",
+        "sha256": "ec972f18abcd0a558e10d9a9959e0045714f735fed363e5deef26f641fc783cd",
+        "bytes": 308448,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/1525bd8682a5.txt",
+        "sha256": "762ae95e2f264e4cee56c7ec351ba650bc7b2b4a31e009bfe9b253891f503b3c",
+        "chars": 9400
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 11,
+          "label": "University of Algarve wins 31.5 million euros for an AI-using archaeology centre"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 2,
+          "label": "ICArEHB (UAlg research centre)"
+        },
+        {
+          "place": "faro",
+          "kind": "gravity",
+          "n": 1,
+          "label": "UAlg secures 31.5 million euros for an archaeological innovation centre using AI (Barlavento, 23 April 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/?p=404460",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:21:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+      "title": "Escolhidas as 12 empresas do primeiro Venture Lab by AlgarveSTP",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/c70eaeeb7ac7.jpg",
+        "sha256": "4bbcf368c588f2218abca9737e2e99c8d23bf6f9208fad9082c05c35cc21d192",
+        "bytes": 237386,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/c70eaeeb7ac7.txt",
+        "sha256": "43b0c32f390e4ed74841eb2780ee7035d59ca363b5d27d18a5736b2ff095be76",
+        "chars": 10994
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 9,
+          "label": "Algarve STP picks 12 firms for its first Venture Lab, AI among the sectors"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 7,
+          "label": "Algarve STP"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/?p=405832",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:19:11Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/loule-mudar-paradigma-urbanismo-acelerar-respostas/",
+      "title": "Loulé quer mudar paradigma no Urbanismo e acelerar respostas",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/4fa96cbae2d9.jpg",
+        "sha256": "1f608e9ef51eb599a7872a72ab88ee5feb695e481a9c9e559d367639243211e3",
+        "bytes": 247049,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/4fa96cbae2d9.txt",
+        "sha256": "28c11e5f1f206ab1defa5a7aac0c45aa0ee4e5c7bbe643b9abbc1ca602563953",
+        "chars": 9330
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "news",
+          "n": 2,
+          "label": "Loulé council says it has already bought AI tools for urban planning"
+        },
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 3,
+          "label": "Câmara Municipal de Loulé"
+        },
+        {
+          "place": "loule",
+          "kind": "gravity",
+          "n": 1,
+          "label": "Loulé quer mudar paradigma no Urbanismo e acelerar respostas (Barlavento, 28 July 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/algarve/faro/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:23:15Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/algarve/faro/",
+      "title": "Arquivo de Faro - Barlavento",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/205c0632ee9f.jpg",
+        "sha256": "cadb11ed5c68719f149dc9a1045d2836257c58ead17b60d0319bb0f0da3babe3",
+        "bytes": 249565,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/205c0632ee9f.txt",
+        "sha256": "e956d34c2379daa3ff13f688da12f9cbf33e78ce0d67c4d5e7d362ef18894c92",
+        "chars": 7376
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 2,
+          "label": "Barlavento: Faro section"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:22:11Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+      "title": "AuroraMed lança curso de IA na saúde com a UAlg",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/2a138d8e1650.jpg",
+        "sha256": "397dd3baea4507698d1b7727f6a225df05c461701b60b7a5413053ad233d0e02",
+        "bytes": 227041,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/2a138d8e1650.txt",
+        "sha256": "6ab91fd20092abf6b6839856b5c2a7f5a3b2fb67904ecd2f089daab4ea6d47d1",
+        "chars": 8016
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 14,
+          "label": "AuroraMed and UAlg launch an AI course for health leaders"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 8,
+          "label": "AuroraMed"
+        },
+        {
+          "place": "faro",
+          "kind": "gravity",
+          "n": 3,
+          "label": "AuroraMed launches an AI in health course with UAlg (Barlavento, 19 March 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/bernardo-correia-algarve-tecnologias-do-futuro/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:21:57Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/bernardo-correia-algarve-tecnologias-do-futuro/",
+      "title": "Bernardo Correia desafia o Algarve a focar-se em tecnologias do futuro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/95d9f0f30078.jpg",
+        "sha256": "7634280658200a1da116f48ee6b706a95e4df492ba4361acaf1621f01206b4bd",
+        "bytes": 267670,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/95d9f0f30078.txt",
+        "sha256": "d9d4aff4328d9f257c16bf96eca3823650b2193bec33b6a014d7c7b5a38b59e9",
+        "chars": 15596
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 10,
+          "label": "Digitalisation secretary tells the Algarve to pick robotics and AI as its hub focus"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 13,
+          "label": "Dengun"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/caritas-inteligencia-artificial-dignidade-humana-justica-social-faro/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:21:32Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/caritas-inteligencia-artificial-dignidade-humana-justica-social-faro/",
+      "title": "Cáritas debate Inteligência Artificial, dignidade humana e justiça social em Faro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/f6d566100ab8.jpg",
+        "sha256": "e292c55dd559d2dc2baafe6785a61e9cdfc6222a35aad29ed0fa79d249e1c832",
+        "bytes": 237431,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/f6d566100ab8.txt",
+        "sha256": "4455a6892fbbe6205466b6dec74b1017027a63b4d747496d51c7445bfb5d5480",
+        "chars": 8189
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 3,
+          "label": "Faro's Cáritas asks who benefits from AI"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 12,
+          "label": "Cáritas Diocesana do Algarve"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:21:25Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
+      "title": "DevFest dedica dois dias à Inteligência Artificial na prática em Faro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/3d36b291316b.jpg",
+        "sha256": "08aab7de1a8879da98abdafbad498f562f4d55b020e4c132064def7062190bb2",
+        "bytes": 215499,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/3d36b291316b.txt",
+        "sha256": "b92db27b0d00040b62f7341a0d5bb78f047b456e1d89346a45b4491dac39e424",
+        "chars": 7741
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 1,
+          "label": "DevFest in Faro spends two days on agentic AI"
+        },
+        {
+          "place": "faro",
+          "kind": "event",
+          "n": 5,
+          "label": "DevFest 2026: Build, Secure and Scale in the Agentic Era (GDG Faro, Campus da Penha)"
+        },
+        {
+          "place": "faro",
+          "kind": "gravity",
+          "n": 4,
+          "label": "DevFest dedicates two days to practical AI in Faro (Barlavento, 6 November 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/etiquetas/inteligencia-artificial/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:23:19Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/etiquetas/inteligencia-artificial/",
+      "title": "Arquivo de Inteligência Artificial - Barlavento",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/4f01a9b868e5.jpg",
+        "sha256": "ddb2a3758954a66c086be10c4a94762105c81cb34595cd7e9d231a7a88f83687",
+        "bytes": 244052,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/4f01a9b868e5.txt",
+        "sha256": "bda8a632f09f9fb9fb45488da381356f747038984d4e8b5ab3aecb069f2b1361",
+        "chars": 6581
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 3,
+          "label": "Barlavento: AI tag"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:21:49Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
+      "title": "Faro acolhe debate sobre impacto da Inteligência Artificial nas empresas",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/a873b1e16417.jpg",
+        "sha256": "b46fee7c60d6622547bf4ce87fc45765d451ccfd220470dcc6f98576dc7f3ea0",
+        "bytes": 260034,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/a873b1e16417.txt",
+        "sha256": "683537be73586f03b135521958eb279cf38bb9468d6d5762ef625cc7d3117532",
+        "chars": 8025
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 8,
+          "label": "Faro panel asks how AI search decides which businesses to show"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 3,
+          "label": "UALG TEC Campus"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 9,
+          "label": "Flow Productions"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/fundos-europeus-ia-robotica-15-empresas-turismo-algarve/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:22:07Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/fundos-europeus-ia-robotica-15-empresas-turismo-algarve/",
+      "title": "Fundos europeus vão levar IA e robótica a 15 empresas de turismo do Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/be48986b6d1e.jpg",
+        "sha256": "7508c9e497184419f4552d639a73715cb02e13c6b920f11f3cc933fd87dd5171",
+        "bytes": 252849,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/be48986b6d1e.txt",
+        "sha256": "3d3382b34a473a8f2c31687bc744603f0a46fb72e18db7376e52f58aaa318464",
+        "chars": 8658
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 13,
+          "label": "European funds to bring AI and robotics to 15 Algarve tourism firms"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/geek-girls-de-faro-provam-que-a-tecnologia-e-para-todas/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:22:57Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/geek-girls-de-faro-provam-que-a-tecnologia-e-para-todas/",
+      "title": "Geek Girls de Faro provam que a tecnologia é para todas - Barlavento",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/ac25c3ff6205.jpg",
+        "sha256": "4887cfb8db62658d1ee0c83962a5c4631f40a717073c33a8a823e548c9034f86",
+        "bytes": 222884,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/ac25c3ff6205.txt",
+        "sha256": "e693aca4aeb1b3edb738f7b75707776dad24829f3dbd57a295db97bf836e49c8",
+        "chars": 12044
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 16,
+          "label": "Geek Girls Faro"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/lancado-concurso-instalar-centro-multitecnologico-estadio-algarve/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:19:07Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/lancado-concurso-instalar-centro-multitecnologico-estadio-algarve/",
+      "title": "Lançado concurso para instalar centro multitecnológico no Estádio Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/8c462955a742.jpg",
+        "sha256": "4f9cd3dc6cb1d671172242a41765b3cda81040c3af3b1c450b529ba934c3d8db",
+        "bytes": 282321,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/8c462955a742.txt",
+        "sha256": "50b7f231f55cf08f1cad6e61bb591f0138102b87b441345db61dc212d8ce87e7",
+        "chars": 9160
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "news",
+          "n": 1,
+          "label": "Loulé and Faro tender a technology centre at the Estádio Algarve that lists AI among its themes"
+        },
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 8,
+          "label": "Associação de Municípios Loulé/Faro (Estádio Algarve centre)"
+        },
+        {
+          "place": "loule",
+          "kind": "gravity",
+          "n": 3,
+          "label": "Lançado concurso para instalar centro multitecnológico no Estádio Algarve (Barlavento, 24 September 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/livro-ia-criacao-startups-ualg-tec-campus/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:21:34Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/livro-ia-criacao-startups-ualg-tec-campus/",
+      "title": "Livro sobre IA e criação de startups reúne mais de 50 pessoas no UAlg Tec Campus",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/96d1b49b3291.jpg",
+        "sha256": "3e8473de402c9e42418bf3b798df77f873d0dbdf8cfc0738fcfd7e9017aa1a9c",
+        "bytes": 204472,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/96d1b49b3291.txt",
+        "sha256": "46c761361b85ead59fa9c3e1add78ec7cd209fc0d879d51ce6c8f7041fef5400",
+        "chars": 7655
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 4,
+          "label": "A book on starting a company in 30 days with AI prompts is presented at UALG TEC Campus"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 15,
+          "label": "Edit'AI"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/loule-leva-a-btl-2025-experiencia-imersiva-atraves-de-inteligencia-artificial/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:19:38Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/loule-leva-a-btl-2025-experiencia-imersiva-atraves-de-inteligencia-artificial/",
+      "title": "Loulé leva à BTL 2025 experiência imersiva através de inteligência artificial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/302b6ae03098.jpg",
+        "sha256": "aff730eb92bb9333a224a025f9eb12af35e46ee9cdeda98dce048aed7cf847a5",
+        "bytes": 260243,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/302b6ae03098.txt",
+        "sha256": "6dfeea30adaff898d773b085fdba99950ea6483cdd17abcf76056b069cad6466",
+        "chars": 6850
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "news",
+          "n": 4,
+          "label": "Loulé's council takes an AI immersive experience to the BTL tourism fair"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/teste-inovador-desenvolvido-no-algarve-vai-ajudar-a-escolher-terapias-mais-eficazes-contra-o-cancro/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:22:14Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/teste-inovador-desenvolvido-no-algarve-vai-ajudar-a-escolher-terapias-mais-eficazes-contra-o-cancro/",
+      "title": "Teste inovador desenvolvido no Algarve vai ajudar a escolher terapias mais eficazes contra o cancro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/e78a39590dff.jpg",
+        "sha256": "f0ea62750596a22d2fffee375f23f7c01d98ac4e140bb327d38a5153547b66fd",
+        "bytes": 235748,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/e78a39590dff.txt",
+        "sha256": "0073a1908d65f00bd5d83ae148348fb84659d6b1c2c3daad140cf4cdb065ca26",
+        "chars": 19518
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 4,
+          "label": "expressTEC"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:22:04Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
+      "title": "Turismo do Algarve lança bootcamps de eficiência hídrica e inteligência artificial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/46ff42193848.jpg",
+        "sha256": "c0ab7d39eee9afb49ccc2c18a6bb1bcdf0612c50bb392f2585ad76a5347567b8",
+        "bytes": 253946,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/46ff42193848.txt",
+        "sha256": "add7e0afc46d8fbc7243f08f39b4abe9b914da8774ed9d5c9452b708a543da49",
+        "chars": 8032
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 12,
+          "label": "Turismo do Algarve schedules AI and water bootcamps with hospitality schools, Faro included"
+        },
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 7,
+          "label": "Turismo do Algarve"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/visualforma-abre-caminho-as-novas-tecnologias-para-smart-cities/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:19:53Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/visualforma-abre-caminho-as-novas-tecnologias-para-smart-cities/",
+      "title": "Visualforma abre caminho às novas tecnologias para smart cities",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/0f869084eb06.jpg",
+        "sha256": "9d872b04189285a032adf8575a1444f686141e5a582db7e5ca7ab598d9e74e7b",
+        "bytes": 216554,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/0f869084eb06.txt",
+        "sha256": "665c672f0bc0f7367a4508f81c894a03546c9a29b3d2ba4e8ace3770b6c1c98b",
+        "chars": 19310
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "news",
+          "n": 7,
+          "label": "A Faro software firm tested its smart irrigation in Loulé, with an AI module planned"
+        }
+      ]
+    },
+    {
+      "url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-15T23:21:46Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
+      "title": "Webseminário da ULS Algarve discute impacto da Inteligência Artificial no SNS",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/barlavento.pt/5e4f4c1692a6.jpg",
+        "sha256": "6e767ae392b017fe50213dc0bbb6eb81b34b211719ac2cc31d9f6f0638e5977b",
+        "bytes": 208554,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/barlavento.pt/5e4f4c1692a6.txt",
+        "sha256": "f234a8ac1be842c0e69f792a87a1dc449ed0b71ec30f52f451610bb52fe25204",
+        "chars": 7356
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 7,
+          "label": "Regional health unit holds a webinar on AI in the health service"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 10,
+          "label": "ULS Algarve"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-faro.pt",
+      "host": "cm-faro.pt",
+      "captured_at": "2026-11-15T23:22:48Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.cm-faro.pt/",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-15/cm-faro.pt/84e31a59ba2c.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/cm-faro.pt/84e31a59ba2c.txt",
+        "sha256": "258c049c6e47fd6a7419587fb3a9d8b4f782257788ba5886451bc62084fd1caf",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "map-site",
+          "n": 11,
+          "label": "Câmara Municipal de Faro"
+        },
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 1,
+          "label": "Câmara Municipal de Faro"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
+      "host": "cm-faro.pt",
+      "captured_at": "2026-11-15T23:23:08Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-15/cm-faro.pt/7d5343a84f4e.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/cm-faro.pt/7d5343a84f4e.txt",
+        "sha256": "9c2947f12ad0145f59fd0cdd9881252d88e90210a7ea21cb18e90ace021ffbed",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "event",
+          "n": 2,
+          "label": "Novembro Digital, an exhibition on artificial intelligence (Alliance Française de l'Algarve, IPDJ Faro)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-faro.pt/pt/agenda/91716/mentes-artificiais-ola-futuro.aspx",
+      "host": "cm-faro.pt",
+      "captured_at": "2026-11-15T23:22:38Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.cm-faro.pt/pt/agenda/91716/mentes-artificiais-ola-futuro.aspx",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-15/cm-faro.pt/2681dadf602c.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/cm-faro.pt/2681dadf602c.txt",
+        "sha256": "fd755d10e5372fa8a4bf7b23f97d0b337957851f2324aefb74784c70374d5c2a",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 11,
+          "label": "Câmara Municipal de Faro"
+        },
+        {
+          "place": "faro",
+          "kind": "event",
+          "n": 1,
+          "label": "Mentes artificiais, olá Futuro (Faro municipal library, council)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-loule.pt",
+      "host": "cm-loule.pt",
+      "captured_at": "2026-11-15T23:20:14Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.cm-loule.pt/",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-15/cm-loule.pt/d87d10e974b3.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/cm-loule.pt/d87d10e974b3.txt",
+        "sha256": "f2b404b97c4897b806f93287e61cc216e0518e7a3ac576a42b73349aed73db93",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "map-site",
+          "n": 3,
+          "label": "Câmara Municipal de Loulé"
+        },
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 1,
+          "label": "Câmara Municipal de Loulé"
+        }
+      ]
+    },
+    {
+      "url": "https://www.spic.pt",
+      "host": "spic.pt",
+      "captured_at": "2026-11-15T23:19:57Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.spic.pt/",
+      "title": "What we do",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/spic.pt/51c3d2fdbc1b.jpg",
+        "sha256": "890d7f162cc1aa00cd178285069794afb02d19c456e72d8dc116b7f56884da1d",
+        "bytes": 150294,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/spic.pt/51c3d2fdbc1b.txt",
+        "sha256": "0900422865fb4b1d0b9c6bfc4e4875dfd951aa4d41d7f37e7738f23bd6fe190e",
+        "chars": 573
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "map-site",
+          "n": 1,
+          "label": "SPIC"
+        },
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 8,
+          "label": "SPIC"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sulinformacao.pt",
+      "host": "sulinformacao.pt",
+      "captured_at": "2026-11-15T23:20:47Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.sulinformacao.pt/",
+      "title": "Sul Informação | Destaque das principais notícias do Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/sulinformacao.pt/ce71a6a2d95d.jpg",
+        "sha256": "b785eaf54c2c9a996bc7a58950fa2b2a1ad36407a3eb1aa2ae92e947e63b0e4b",
+        "bytes": 143206,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/sulinformacao.pt/ce71a6a2d95d.txt",
+        "sha256": "997963155de567118164b8d60de5b59edd2bf2e8789e0709887fc8b7b2bcb5cd",
+        "chars": 8223
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 3,
+          "label": "Sul Informação"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ualg.pt",
+      "host": "ualg.pt",
+      "captured_at": "2026-11-15T23:21:07Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ualg.pt/",
+      "title": "Estudar onde é bom viver | Universidade do Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/ualg.pt/2cd5e056fb3f.jpg",
+        "sha256": "9e96ffed3e40bef2065bd5ecb83855df5b9eb27847eb56e52334707409f223bf",
+        "bytes": 224535,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/ualg.pt/2cd5e056fb3f.txt",
+        "sha256": "0d300aa110db4550f16eb12c25eb473a29bc6c5ab26fa7be38dad9b118dca8f6",
+        "chars": 9829
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 9,
+          "label": "Universidade do Algarve news"
+        },
+        {
+          "place": "faro",
+          "kind": "map-site",
+          "n": 1,
+          "label": "Universidade do Algarve (UAlg)"
+        },
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 4,
+          "label": "Universidade do Algarve"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
+      "host": "ualg.pt",
+      "captured_at": "2026-11-15T23:19:49Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
+      "title": "Banda D’ZRT regressou aos palcos com tecnologia de IA desenvolvida pela SPIC | Universidade do Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/ualg.pt/977d19051ecc.jpg",
+        "sha256": "0ddcebcb41e4f30e0d3805c0d482b0f6829e5d83ae34ee8cc84ed7580897bc62",
+        "bytes": 216659,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/ualg.pt/977d19051ecc.txt",
+        "sha256": "3130ed2b5cd4b94a6c7de1eaffddea4e064ce94ea7e61ffb149c31e16287bc16",
+        "chars": 9876
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "news",
+          "n": 6,
+          "label": "A Loulé studio put a band's late member back on stage with an AI hologram"
+        },
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 1,
+          "label": "SPIC"
+        },
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 9,
+          "label": "University of the Algarve (R&D consortium with SPIC)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ualg.pt/confoa-2026-ciencia-aberta-na-era-da-inteligencia-artificial",
+      "host": "ualg.pt",
+      "captured_at": "2026-11-15T23:21:39Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ualg.pt/confoa-2026-ciencia-aberta-na-era-da-inteligencia-artificial",
+      "title": "ConfOA 2026: Ciência Aberta na Era da Inteligência Artificial | Universidade do Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/ualg.pt/57edef7531c0.jpg",
+        "sha256": "af8305a4f84492b45810adcd2648b769ca1fd4e4a64da79207d9b2b9d8fdf2a7",
+        "bytes": 261283,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/ualg.pt/57edef7531c0.txt",
+        "sha256": "d64864ce7ea53f04d9aaa88a04ec529b001e2f044899ab20bba83ac473dc7fb9",
+        "chars": 2429
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 5,
+          "label": "Open science meets AI at the University of Algarve's ConfOA 2026"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
+      "host": "ualg.pt",
+      "captured_at": "2026-11-15T23:21:43Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
+      "title": "UAlg define regras e princípios para a utilização da Inteligência Artificial | Universidade do Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-15/ualg.pt/42ab7a17fb1c.jpg",
+        "sha256": "a620c36758469339e60c8eac88ee1014b7cee700a8699c5bafa276d339f0f5ac",
+        "bytes": 247576,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-15/ualg.pt/42ab7a17fb1c.txt",
+        "sha256": "5cfa194866a34cfc5ffd3b3068391af65c2f6d84f3e8e6e326229656575a18ad",
+        "chars": 9635
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "news",
+          "n": 6,
+          "label": "University of Algarve publishes its AI policy"
+        },
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 1,
+          "label": "Universidade do Algarve (UAlg)"
+        },
+        {
+          "place": "faro",
+          "kind": "gravity",
+          "n": 2,
+          "label": "UAlg defines rules and principles for the use of AI (Universidade do Algarve, 24 September 2026)"
+        }
+      ]
+    }
+  ],
+  "updated": "2026-11-15T23:23:19Z"
+}

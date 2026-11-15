@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "provenance-place.schema.json",
+  "title": "Where every item on a place's page comes from (api/v1/data/provenance/<id>.json)",
+  "description": "data.places@PrompTugal.dinis, 15 November 2026: each item's source, read date and capture (screenshot and text, each with its SHA-256 and its path in the sgit vault promptugal-captures).",
+  "type": "object",
+  "required": ["about", "id", "version", "page", "summary", "items"],
+  "properties": {
+    "about": { "type": "string" }, "id": { "type": "string" }, "version": { "type": "string" }, "built": { "type": "string" }, "page": { "type": "string" },
+    "vault": { "type": ["object", "null"] },
+    "summary": { "type": "object" },
+    "items": { "type": "array", "items": { "type": "object", "required": ["kind", "label", "url", "capture"], "properties": {
+      "kind": { "enum": ["story", "map", "event", "gravity", "source"] }, "label": { "type": "string" }, "date": { "type": ["string", "null"] }, "url": { "type": ["string", "null"] }, "read_on": { "type": ["string", "null"] },
+      "capture": { "type": ["object", "null"] } } } }
+  }
+}
