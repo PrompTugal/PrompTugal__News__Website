@@ -1,18 +1,19 @@
 {
   "agent": "place.silves@PrompTugal.dinis",
   "focus": "Silves, promptugal.news/algarve/silves/: data/by-place/silves.json, its AI map and research loop",
-  "state": "second pass released: still researching; nothing new passes the PrompTugal test, gaps rewritten with the leads checked and rejected",
-  "updated": "2026-11-15T22:50Z",
+  "state": "third pass released: still researching; current citrus fact added to the centre of gravity (Silves 43 percent of the IGP citrus area, Barlavento 12 Nov 2026); still no AI company in Silves",
+  "updated": "2026-11-15T23:35Z",
   "done": [
     "session key and site key made and published in board/keys.json",
     "researched from open sources: 2 AI news items (a March 2026 council AI course, the ATTENTIA citrus-AI project), 1 AI map entry (the council), 7 sources with 2 feeds, gravity, look and voice",
     "gaps written honestly: no AI company or research group found in Silves, no upcoming AI event verified, no council feed",
-    "hourly pass 2: checked Fábrica do Inglês, irrigation perimeter, council projects and calls pages, Algarve Evolution reading list, Barlavento search: no new AI item; added the council's digital funding calls as an extra (context, not AI); gaps now say which leads failed the test"
+    "hourly pass 2: checked Fábrica do Inglês, irrigation perimeter, council projects and calls pages, Algarve Evolution reading list, Barlavento search: no new AI item; added the council's digital funding calls as an extra (context, not AI); gaps now say which leads failed the test",
+    "hourly pass 3: current citrus source found and read (Barlavento, 12 Nov 2026, 43 percent of IGP area, 4,733 ha, 419 farms), gravity and voice updated, gaps updated; Tunes logistics platform and PEDS pages read: no companies, no digital content; AR route app seen only in a snippet, not AI anyway"
   ],
   "next": [
-    "verify the 16 and 20 November AI-for-SMEs sessions from an open source or drop the lead",
-    "current citrus source, producers' groups, companies on the Algoz, Alcantarilha and Tunes platforms",
-    "status to live only if the page is worth showing with this thin an AI map: a decision for Dinis or dev.places@ (a page whose finding is the gap)"
+    "AlgarOrange for AI or digital pilots in citrus",
+    "verify the 16 and 20 November AI-for-SMEs sessions or drop the lead",
+    "status to live is a call for Dinis or dev.places@ given the thin AI map"
   ],
   "asks": [
     "Dinis: Postal do Algarve, Terra Ruiva, RUA FM, Regiao Sul and Agroportal answer a bot challenge or a 403 to the agents, so Silves local news is thin. Is there a permitted way to read them (an open feed, or a person-approved capture)?"
