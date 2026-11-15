@@ -71,6 +71,14 @@ function voiceBlock(std, voice) {
 
 const statusWord = (L, st) => W(L, `status_${['live', 'researching'].includes(st) ? st : 'stub'}`)
 
+// the place's picture (look.photo, designer.places@'s ask 8): a band with its credit, nothing when absent or missing
+function photoBand(ctx, L, p, rel) {
+    const ph = p.look && p.look.photo
+    if (!ph || !ph.file || !/^assets\/by-place\/photos\/[a-z0-9._-]+\.(jpe?g|png|webp)$/.test(ph.file) || !ctx.exists(ph.file)) return ''
+    const credit = [ph.author && esc(ctx, ph.author), ph.licence && (okUrl(ph.licence_url) ? `[${esc(ctx, ph.licence)}](${url(ph.licence_url)})` : esc(ctx, ph.licence)), okUrl(ph.source) ? `[${esc(ctx, W(L, 'photo_source'))}](${url(ph.source)})` : ''].filter(Boolean).join(' · ')
+    return `\n::: bp-photo\n![${esc(ctx, ph.alt || p.name)}](${ctx.link(rel, ph.file)})\n\n{.bp-photo-credit}\n${credit}\n:::\n`
+}
+
 function mast(ctx, L, p, parentName) {
     const v = p.voice || {}
     return `::: bp-mast\n{.bp-kicker}\nPrompTugal.news · ${esc(ctx, p.name)}${p.look && p.look.landmark ? ` · ${esc(ctx, p.look.landmark)}` : ''}\n\n` +
@@ -134,7 +142,7 @@ function townPage(ctx, L, p) {
     const wider = (region ? region.ai_news : []).slice(0, 4)
     const ours = tagged(ctx, m => m.town === p.id || inside.some(x => m.town === x.id))
     const latest = tagged(ctx, m => !ours.some(o => o.meta === m)).slice(0, 4)
-    let md = mast(ctx, L, p, parentLink)
+    let md = mast(ctx, L, p, parentLink) + photoBand(ctx, L, p, rel)
     md += `\n::: cols-8-4\n::: col\n`
     md += gravityBlock(ctx, L, p)
     md += `## AI in ${esc(ctx, p.name)} {#local}\n\n` + (local.length ? newsCards(ctx, local, 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'

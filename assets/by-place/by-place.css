@@ -247,3 +247,7 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame ul.bp-cards.bp-big > li:first-child:has(> em.bp-town)::before { margin-right: 8px; }
 .bp-frame ul.bp-cards.bp-big > li:first-child > em.bp-town { display: inline-block; }
 .bp-frame ul.bp-cards.bp-big > li:first-child > strong, .bp-frame ul.bp-cards.bp-big > li:first-child > strong > a { line-height: 1.2; }
+/* the place's picture (look.photo): a 16:9 band under the page head, its credit below */
+.bp-frame .bp-photo { margin: 0 0 22px; }
+.bp-frame .bp-photo img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.bp-frame .bp-photo-credit { margin: 6px 0 0; font: 400 11.5px/1.4 var(--sans); color: var(--ink-3); }
