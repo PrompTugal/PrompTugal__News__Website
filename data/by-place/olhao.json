@@ -190,6 +190,16 @@
       "read_on": "2026-11-15",
       "ai_path": "Stated use of AI for waste collection routes (2023).",
       "steps": 0
+    },
+    {
+      "name": "FULGUR-IT",
+      "type": "company",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/pt2020/beneficiarios-projetos/projeto/ALG-02-0752-FEDER-072316/",
+      "what": "Technology-based company in Olhão with solutions for agriculture, industry and smart cities, per its Portugal 2020 funding record for an internationalisation diagnosis.",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/pt2020/beneficiarios-projetos/projeto/ALG-02-0752-FEDER-072316/",
+      "read_on": "2026-11-15",
+      "ai_path": "Sensor and smart-city platforms generate the data that AI analytics runs on. We found no claim of AI in its own products: a weak, 3-step entry kept until its site is read.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -234,7 +244,9 @@
     "No upcoming AI events found in Olhão; the council's agenda and the Blue Hub's opening should be checked.",
     "Whether the Blue Hub opened as planned in June 2026 is not confirmed by any source we found.",
     "Altice Labs Olhão: confirmed as of 2021 only; no current update found on its AI work.",
-    "A Startup Olhão scheme and an ANJE Hub are planned (June 2026): once they publish members or programmes, any AI startups there belong on the map."
+    "A Startup Olhão scheme and an ANJE Hub are planned (June 2026): once they publish members or programmes, any AI startups there belong on the map.",
+    "FULGUR-IT is on the map at 3 steps only: we have not read the company site or found an AI claim.",
+    "Not verified: a NOVA IMS training programme with AMAL and the Olhão council (smart governance, mobility data) and an Erasmus school project in Olhão using AI (Postal, October 2026, blocked to us). Both need a readable source before they count."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",
