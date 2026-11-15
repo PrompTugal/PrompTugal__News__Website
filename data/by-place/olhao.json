@@ -35,6 +35,16 @@
   },
   "ai_news": [
     {
+      "title": "DigiATLA kicks off in Olhão: seven partners start work on digital aquaculture",
+      "summary": "Partners from Portugal, Spain, France and Ireland met at the S2AQUA facilities in Olhão on 3 and 4 February 2026 and visited the fish-farming pilot station. The project plans digital training, an online knowledge repository and pilot demonstrations of Industry 4.0 tools.",
+      "date": "2026-02-09",
+      "publisher": "Interreg Atlantic Area programme",
+      "url": "https://www.atlanticarea.eu/news-events/news/digiatla-project-holds-kick-off-meeting-in-olhao-portugal",
+      "read_on": "2026-11-15",
+      "ai_path": "Digital and Industry 4.0 tools for fish farms, led from Olhão with SPAROS (which runs its own AI project) as a partner. Neither the programme nor Barlavento mentions AI.",
+      "steps": 2
+    },
+    {
       "title": "Olhão's aquaculture lab leads a EUR 2.1 million digital project and awaits its new Blue Hub home",
       "summary": "S2AQUAcoLAB marked five years in 2026. It leads DigiATLA, a European project on digital skills and precision nutrition in Atlantic aquaculture, and its new headquarters is under construction at the Hub Azul in Olhão's fishing port.",
       "date": "2026-02-25",
@@ -206,6 +216,12 @@
       "value": "First edition held in Olhão on 28 to 30 April 2023, with about 400 participants. No later edition found.",
       "source_url": "https://www.barlavento.pt/olhao-estreou-primeira-iberian-technology-summit/",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Startup Olhão and ANJE Hub",
+      "value": "The council and ANJE signed a three-year protocol in June 2026 to launch a Startup Olhão project and an ANJE Hub, with the sea economy as a target sector. The article does not mention technology or AI.",
+      "source_url": "https://www.barlavento.pt/olhao-anje-criar-startup-hub-empresarial/",
+      "read_on": "2026-11-15"
     }
   ],
   "identity": {
@@ -217,7 +233,8 @@
     "Postal do Algarve blocks bots and the council site (cm-olhao.pt) showed only a loading screen, so neither was read. No RSS feeds found.",
     "No upcoming AI events found in Olhão; the council's agenda and the Blue Hub's opening should be checked.",
     "Whether the Blue Hub opened as planned in June 2026 is not confirmed by any source we found.",
-    "Altice Labs Olhão: confirmed as of 2021 only; no current update found on its AI work."
+    "Altice Labs Olhão: confirmed as of 2021 only; no current update found on its AI work.",
+    "A Startup Olhão scheme and an ANJE Hub are planned (June 2026): once they publish members or programmes, any AI startups there belong on the map."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",
