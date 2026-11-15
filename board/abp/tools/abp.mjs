@@ -50,9 +50,9 @@ authority: Dinis Cruz, operator
 - **Writes (repository):** ${g.writes.map(w => '`' + w.replace('{role}', role) + '`').join(', ')}.
 - **Writes (outside):** ${P.common.writes_outside_repo.map(w => '`' + w.replace('{home}', '~') + '`').join(', ')} (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (\`${P.tools.github_repos.join('`, `')}\`); the cloud session's documentation and \`add_repo\` for reading.${flags.length ? '\n- **Also granted:** ' + flags.join('; ') + '.' : ''}
-- **Sends to:** ${g.send.map(h => '`' + h + '`').join(', ')} only (the agents' inboxes${g.send.length > 1 ? ', and the hosts named' : ''}). ${role.includes('.') ? `Push only to your branch: \`git push -u origin work/${role}\`; never \`release.sh\`, never \`dev\`.` : `Release with \`AGENT=${role}@PrompTugal.dinis newsroom/tools/release.sh\`.`}
+- **Sends to:** ${g.send.map(h => '`' + h + '`').join(', ')} only (the agents' inboxes${g.send.length > 1 ? ', and the hosts named' : ''}). ${g.worker ? `Push only to your branch: \`git push -u origin work/${role}\`; never \`release.sh\`, never \`dev\`.` : `Release with \`AGENT=${role}@PrompTugal.dinis newsroom/tools/release.sh\`.`}
 - **Never:** ${r.never}.
-
+${r.place && P.site_identity ? `\n## Site identity (since ${P.site_identity.since})\n\n${P.site_identity.rule.replace(/<id>/g, r.place)}\n\n${P.site_identity.how.map(h => '- ' + h.replace(/<id>/g, r.place).replace(/<path>/g, r.site.replace('https://promptugal.news/', ''))).join('\n')}\n\nChecked by \`node board/abp/tools/site-identity.mjs\` (a warning in the gate tonight, a failure later at Dinis's word).\n` : ''}
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
 
 - Any connector: Gmail, Google Drive, Calendar, Claude Docs, any MCP server but GitHub's read tools (R3).
@@ -187,6 +187,29 @@ function test() {
         [T('dev.portugal'), w('content/portugal/algarve-evolution.md'), 'allow', 'dev.portugal writes the Portugal section'],
         [T('dev.pages'), w('content/index.md'), 'deny', 'dev.pages writes the front page words (correspondent desk, dev builds)'],
         [T('conductor'), w('board/snapshots.json'), 'allow', 'conductor writes the snapshots index (CLAUDE.md)'],
+        // v1.8.0: the place agents and dev.places, designer.places (board/briefs/2026-11-15-the-place-agents.md)
+        [T('place.faro'), w('data/by-place/faro.json'), 'allow', 'a place agent writes its own place'],
+        [T('place.faro'), w('data/by-place/faro.json.sig'), 'allow', "a place agent writes its file's signature"],
+        [T('place.faro'), w('data/by-place/loule.json'), 'deny', "a place agent writes another place"],
+        [T('place.faro'), w('data/by-place/places.json'), 'deny', 'a place agent writes the list'],
+        [T('place.faro'), w('newsroom/build/features/by-place.mjs'), 'deny', 'a place agent writes code'],
+        [T('place.faro'), w('content/articles/faro-ai.md'), 'allow', 'a place agent writes an article'],
+        [T('place.faro'), w('articles/faro-ai.md.sig'), 'allow', "a place agent writes its article's signature"],
+        [T('place.faro'), w('board/team/place.faro/status.json'), 'allow', 'a place agent writes its own folder'],
+        [T('place.faro'), w('board/team/place.tavira/status.json'), 'deny', "a place agent writes another's folder"],
+        [T('place.faro'), bash('AGENT=place.faro@PrompTugal.dinis newsroom/tools/release.sh'), 'allow', 'a place agent releases to dev'],
+        [T('place.faro'), bash('git push origin dev'), 'allow', 'a place agent pushes dev (release_to_dev, not a worker)'],
+        [T('place.faro'), bash('AGENT=place.tavira@PrompTugal.dinis newsroom/tools/release.sh'), 'deny', 'a place agent releases as another'],
+        [T('place.faro'), { tool_name: 'Agent', tool_input: {} }, 'deny', 'a place agent starts a sub-agent'],
+        [T('place.sao-bras-de-alportel'), w('data/by-place/sao-bras-de-alportel.json'), 'allow', 'a hyphenated place id'],
+        [T('dev.places'), w('newsroom/build/features/by-place.mjs'), 'allow', 'dev.places writes the feature'],
+        [T('dev.places'), w('data/schemas/by-place.schema.json'), 'allow', 'dev.places writes the schemas'],
+        [T('dev.places'), w('data/by-place/faro.json'), 'deny', "dev.places writes a place's research"],
+        [T('dev.places'), bash('git push origin dev'), 'allow', 'dev.places pushes dev'],
+        [T('designer.places'), w('assets/by-place/town.css'), 'allow', 'designer.places writes the by-place assets'],
+        [T('designer.places'), w('design/places/faro.md'), 'allow', 'designer.places writes design'],
+        [T('designer.places'), w('design/brand/logo.svg'), 'deny', 'designer.places writes the brand'],
+        [T('designer.places'), w('newsroom/build/build.mjs'), 'deny', 'designer.places writes build code'],
         [T('outreach'), { ...bash('cd /home/user/PrompTugal__News__Website && sed -n 1,20p desks/synthetic/to/x.md'), cwd: os.homedir() + '/.sg-send/lanes' }, 'allow', 'a cd into the repo first (08:39 false positive)'],
         [T('outreach'), { ...bash('cat inbox.json'), cwd: os.homedir() + '/.sg-send/lanes' }, 'deny', 'a relative read inside ~/.sg-send/lanes'],
         [T('correspondent'), { tool_name: 'SubagentHandback', tool_input: {} }, 'allow', 'a sub-agent hands back (correspondent)'],
@@ -350,7 +373,7 @@ function hourly() {
     // c.at is the author date in ISO with offset; compare as UTC
     for (const c of commits) {
         if (/^site v\d/.test(c.subject)) continue
-        const m = /^([a-z][a-z0-9-]*)@([A-Za-z0-9.-]+):/.exec(c.subject)
+        const m = /^([a-z][a-z0-9.-]*?)@([A-Za-z0-9.-]+):/.exec(c.subject)
         if (!m) { findings.push({ sev: 'attempt', what: `${c.sha} has no agent name in its subject (${c.subject.slice(0, 60)})` }); continue }
         const label = `${m[1]}@${m[2]}`
         const who = /^PrompTugal\.dinis$/.test(m[2]) ? { kind: 'team', role: m[1], agent: label } : { kind: 'external', role: m[1], agent: label }

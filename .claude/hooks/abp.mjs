@@ -88,7 +88,8 @@ export function grantOf(who, P = loadPolicy()) {
     if (who.kind === 'team') {
         const base = who.role.includes('.') ? who.role.split('.')[0] : null
         const r = P.roles[who.role] || (base && P.roles[base] && { ...P.roles[base], writes: [...(P.roles[base].writes || []), ...((P.workers && P.workers.extra_writes && P.workers.extra_writes[who.role]) || [])], subagents: false, notify_dinis: false, remote_read: false }) || {}
-        g.worker = !!base
+        // a dotted name with its own grant (releases_to_dev: dev.places, designer.places, place.<id>) is a role, not a worker
+        g.worker = !!base && !(P.roles[who.role] && P.roles[who.role].releases_to_dev)
         g.writes = [...P.common.writes, ...(r.writes || [])]
         g.send.push(...(r.send_hosts || []))
         g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read
