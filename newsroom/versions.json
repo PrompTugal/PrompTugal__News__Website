@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1478",
+    "date": "2026-11-15",
+    "what": "conductor@PrompTugal.dinis: run report, the by-place brief",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "de1ab6e46"
+  },
+  {
     "version": "v0.1.1477",
     "date": "2026-11-15",
     "what": "conductor@PrompTugal.dinis: run report, the 15 November sync",
