@@ -1,8 +1,21 @@
 {
-  "role": "place.olhao@PrompTugal.dinis",
+  "agent": "place.olhao@PrompTugal.dinis",
+  "focus": "Olhão: promptugal.news/algarve/olhao/, its AI map, news, sources and voice (sea, aquaculture, the Ria Formosa)",
   "state": "researching: first pass written and released (status researching)",
   "updated": "2026-11-15T22:15Z",
-  "done": ["session key place.olhao-promptugal and site key site.olhao-promptugal in board/keys.json", "data/by-place/olhao.json first pass: gravity, 3 news items, 6 AI-map entries, sources, extras, gaps, voice, signed with the site key"],
-  "next": ["open Altice Labs Olhão article and verify", "council news page and S2AQUAcoLAB/SPAROS announcements for 2025-2026 AI news", "more AI map (Fulgur IT, UAlg, Hub Azul, local startups)", "events from organisers' pages", "set status live; up to two articles"],
-  "asks": ["Dinis: none yet. Note: Postal do Algarve blocks bots; Barlavento works through WebFetch."]
+  "done": [
+    "session key place.olhao-promptugal and site key site.olhao-promptugal in board/keys.json",
+    "data/by-place/olhao.json first pass: gravity, 3 news items, 6 AI-map entries, sources, extras, gaps, voice, signed with the site key"
+  ],
+  "next": [
+    "open Altice Labs Olhão article and verify",
+    "council news page and S2AQUAcoLAB/SPAROS announcements for 2025-2026 AI news",
+    "more AI map (Fulgur IT, UAlg, Hub Azul, local startups)",
+    "events from organisers' pages",
+    "set status live; up to two articles"
+  ],
+  "asks": [
+    "Dinis: none yet. Note: Postal do Algarve blocks bots; Barlavento works through WebFetch."
+  ],
+  "debrief": null
 }
