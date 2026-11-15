@@ -239,7 +239,9 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
         if (ag && /release\.sh/.test(verbOf(seg).verb + ' ' + verbOf(seg).args.slice(0, 2).join(' ')) && who.kind === 'team' && ag[1].toLowerCase() !== who.role) return deny('R9', `AGENT=${ag[1]}@PrompTugal.dinis from ${who.agent}: release only under your own name`, 'release')
         if (/pki-agent\.mjs/.test(seg) && /\bkeygen\b/.test(seg) && who.kind === 'team') {
             const n = /--name\s+["']?([a-z][a-z0-9.-]*)@PrompTugal\.dinis/i.exec(seg)
-            if (n && n[1].toLowerCase() !== who.role) return deny('R9', `a key labelled ${n[1]}@PrompTugal.dinis from ${who.agent}`, 'key')
+            // a place agent's own site key (site.<id>, policies.json site_identity) is not another agent's name
+            const ownSite = P.roles[who.role] && P.roles[who.role].place && n && n[1].toLowerCase() === `site.${P.roles[who.role].place}`
+            if (n && !ownSite && n[1].toLowerCase() !== who.role) return deny('R9', `a key labelled ${n[1]}@PrompTugal.dinis from ${who.agent}`, 'key')
         }
         // R4: no sessions, schedules or daemons from the shell
         if (verb === 'claude' && !args.every(a => /^(--version|-v|--help)$/.test(a))) return deny('R4', 'the claude CLI starts sessions and changes settings: not from an agent', 'session')

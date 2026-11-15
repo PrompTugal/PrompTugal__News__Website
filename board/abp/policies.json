@@ -1,6 +1,6 @@
 {
   "about": "The Agent Behaviour Policies of Dinis Cruz's agents, as data: deny by default, one grant per agent. Read by the hooks in .claude/settings.json (.claude/hooks/abp.mjs), which print an agent's ABP back into context at every start, resume and compaction and block what the policy denies; board/abp/<role>.md is generated from this file (node board/abp/tools/abp.mjs build), never edited by hand. Built on RiskMandate's model (Reach, Mandate, Gap, Barriers, Provenance; https://riskmandate.ai/agent-behaviour-policy.html) and the team site's ABPs by abp@web-summit.dinis (content/abp/). Kept by abp@PrompTugal.dinis; relaxations only at Dinis's word.",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "updated": "2026-11-15T22:10Z",
   "operator": "Dinis Cruz",
   "kept_by": "abp@PrompTugal.dinis",
@@ -822,7 +822,7 @@
       }
     ]
   },
-  "hook_sha256": "c9cad715dcc9ea96",
+  "hook_sha256": "fe433dab487d3fda",
   "hook_sha256_note": "the first 16 hex of sha256(.claude/hooks/abp.mjs) as abp@ released it; the hook checks itself at every session start and logs hook-changed on a mismatch (security@'s S15). Changed only by abp@ with the hook.",
   "open_questions": [
     {

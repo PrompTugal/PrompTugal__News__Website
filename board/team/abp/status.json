@@ -1,8 +1,8 @@
 {
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
-  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.8.0",
-  "updated": "2026-11-15T22:00Z",
+  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.8.1",
+  "updated": "2026-11-15T22:12Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -19,17 +19,18 @@
     "15 Nov (new session): key abp-promptugal-b, the old abp-promptugal superseded",
     "v1.8.0: ABPs for place.portugal, place.algarve, the 17 towns, dev.places, designer.places; dotted names with their own grant release to dev (hook fixed, 167 fixtures)",
     "site_identity rule and board/abp/tools/site-identity.mjs; first run 1 of 19 places pass (portugal)",
-    "First review of the new agents: 10 commits, 0 files outside a grant (board/abp/reports/2026-11-15-21.md)"
+    "First review of the new agents: 10 commits, 0 files outside a grant (board/abp/reports/2026-11-15-21.md)",
+    "22:10: every one of the 21 new agents reviewed once, 0 files outside a grant; site identity 17 of 19; v1.8.1: own site-key label not an R9 (board/abp/reports/2026-11-15-22.md)"
   ],
   "next": [
-    "Review every place agent's commits against its grant each hour until each has been reviewed once, articles checked for their own town",
-    "Re-run the site-identity check each hour and list the places still without a site key or a valid signature",
-    "Check that dev.places@ wired the check into the gate (warning)",
+    "Hourly: the site-identity check (quarteira and vila-real-de-santo-antonio missing their identity block and .sig) and a review of new commits, articles checked for their own town",
+    "Check that dev.places@ wired the check into the gate",
     "Read the place agents' run reports as they file them"
   ],
   "asks": [
     "Dinis: board/team/conductor.b/ and board/team/journalist.newsroom/ look like dotted workers to the ABP generator; are they workers (work/<name> only) or roles of their own? Until you say, they have no ABP of their own",
     "Dinis: when should the site-identity check fail the gate instead of warning (after the demo on 16 November?)",
+    "Dinis: conductor@'s by-place frame (87730aa) wrote 27 files in dev@'s, ontologist@'s and now the place agents' paths, at your word; may the conductor write such a frame again, or route it to dev?",
     "Dinis: this session's worker kept restarting and missed thirteen wakes (7 Nov 18:37 to 8 Nov 18:37); if it continues, hand abp@ to a fresh session (the hand-over is ready)",
     "Dinis: allow abp@ to edit .claude/** and board/abp/** in its session (refused as self-modification at 13:5x), or apply the pending grants yourself: backup@ Google Drive (your 'Go'), Vicky's agents publishing (12:00), dev.pages the index pages (13:20)",
     "Dinis: who may change newsroom/build/ (CI runs it with write tokens)? investors@ added investors-site.mjs (558c7f81); dev@PrompTugal.vicky added how-we-publish.mjs (d187fc32)",
@@ -187,6 +188,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "new session: key, v1.8.0 place ABPs, site-identity check, first review"
+    },
+    {
+      "started": "2026-11-15T22:01Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "every place agent reviewed once; 17 of 19 sites pass; v1.8.1"
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",
