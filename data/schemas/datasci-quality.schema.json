@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "datasci-quality.schema.json",
+  "title": "A place's data quality (api/v1/places/<id>/quality.json)",
+  "description": "datasci.places@PrompTugal.dinis, 15 November 2026: coverage of the fields each fact should carry, freshness of the reads, and the sources the facts rest on, with the method.",
+  "type": "object",
+  "required": ["id", "name", "version", "counts", "coverage", "freshness", "sources", "score", "method"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "version": { "type": "string" },
+    "counts": { "type": "object", "required": ["facts"], "properties": { "facts": { "type": "integer", "minimum": 0 } } },
+    "coverage": { "type": "object", "required": ["overall", "fields_filled", "fields_expected", "by_kind"], "properties": { "overall": { "anyOf": [{ "type": "number", "minimum": 0 }, { "type": "null" }] }, "fields_filled": { "type": "integer", "minimum": 0 }, "fields_expected": { "type": "integer", "minimum": 0 }, "by_kind": { "type": "object" } } },
+    "freshness": { "type": "object", "required": ["median_read_age_days"], "properties": { "median_read_age_days": { "anyOf": [{ "type": "number" }, { "type": "null" }] } } },
+    "sources": { "type": "object", "required": ["distinct_hosts", "by_host"], "properties": { "distinct_hosts": { "type": "integer", "minimum": 0 }, "by_host": { "type": "array", "items": { "type": "object", "required": ["host", "facts"], "properties": { "host": { "type": "string" }, "facts": { "type": "integer", "minimum": 1 } } } } } },
+    "score": { "type": "object", "required": ["value", "parts"], "properties": { "value": { "type": "integer", "minimum": 0 }, "parts": { "type": "object" } } },
+    "method": { "type": "object", "required": ["coverage", "freshness", "sources", "score"] }
+  }
+}

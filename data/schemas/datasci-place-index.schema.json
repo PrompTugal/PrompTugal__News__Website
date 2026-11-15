@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "datasci-place-index.schema.json",
+  "title": "A place's REST root (api/v1/places/<id>/index.json)",
+  "description": "datasci.places@PrompTugal.dinis, 15 November 2026: what the place is, its counts, its quality score and every GET endpoint that serves its data.",
+  "type": "object",
+  "required": ["id", "name", "about", "version", "kind", "agent", "status", "page", "counts", "score", "swagger", "endpoints"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "about": { "type": "string" },
+    "version": { "type": "string" },
+    "built": { "type": "string", "format": "date" },
+    "place": { "type": "string", "format": "uri" },
+    "kind": { "enum": ["country", "region", "municipality", "city"] },
+    "parent": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+    "inside": { "type": "array", "items": { "type": "string" } },
+    "agent": { "type": "string" },
+    "status": { "enum": ["live", "researching", "stub"] },
+    "updated": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+    "page": { "type": "string", "format": "uri" },
+    "at": { "anyOf": [{ "type": "null" }, { "type": "object", "required": ["lon", "lat"], "properties": { "lon": { "type": "number" }, "lat": { "type": "number" } } }] },
+    "accent": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+    "counts": { "type": "object", "required": ["ai_news", "ai_map", "events", "sources", "articles", "facts"], "properties": { "ai_news": { "type": "integer", "minimum": 0 }, "ai_map": { "type": "integer", "minimum": 0 }, "events": { "type": "integer", "minimum": 0 }, "sources": { "type": "integer", "minimum": 0 }, "articles": { "type": "integer", "minimum": 0 }, "facts": { "type": "integer", "minimum": 0 } } },
+    "score": { "type": "integer", "minimum": 0 },
+    "swagger": { "type": "string", "format": "uri" },
+    "endpoints": { "type": "object", "required": ["index", "page", "stories", "ai_map", "events", "sources", "agents", "provenance", "quality", "openapi", "record"], "additionalProperties": { "type": "string", "format": "uri" } }
+  }
+}

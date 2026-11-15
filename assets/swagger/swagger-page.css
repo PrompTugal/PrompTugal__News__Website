@@ -1,0 +1,11 @@
+/* The Swagger pages: the vendored Swagger UI inside the site's shell (datasci.places@PrompTugal.dinis) */
+#swagger-ui { margin: 1.5rem 0 2rem; background: #fff; color: #3b4151; border-radius: 6px; padding: 0.25rem 0.5rem; min-height: 12rem; }
+#swagger-ui .swagger-ui .info { margin: 1rem 0; }
+#swagger-ui .swagger-ui .scheme-container { box-shadow: none; padding: 0.75rem 0; }
+#swagger-ui .swagger-ui table { margin: 0; }
+#swagger-ui .swagger-ui a { text-decoration: none; }
+#swagger-ui .swagger-ui .opblock-summary-path { word-break: break-all; }
+/* the quality dashboard's score bars (datasci/index.html) */
+.ds-bar { display: inline-block; position: relative; width: 6rem; height: 1.1rem; background: color-mix(in srgb, currentColor 10%, transparent); border-radius: 3px; vertical-align: middle; }
+.ds-bar::before { content: ""; position: absolute; inset: 0 auto 0 0; width: calc(var(--v) * 1%); background: var(--accent, #1f5f3f); border-radius: 3px; opacity: .8; }
+.ds-bar span { position: relative; padding-left: .35rem; font-size: .8rem; font-weight: 600; color: #fff; mix-blend-mode: difference; }
