@@ -12,7 +12,8 @@
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: 64px; }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 400 var(--fs-body)/var(--lh-body) var(--serif); font-optical-sizing: auto; overflow-x: hidden; }
-img, svg { max-width: 100%; }
+img { max-width: 100%; height: auto; }
+svg { max-width: 100%; }
 a { color: var(--brand); text-underline-offset: 3px; text-decoration-thickness: 1px; }
 a:hover { color: var(--brand-2); text-decoration-thickness: 2px; }
 button, input, select, textarea { font: inherit; color: inherit; }

@@ -60,7 +60,7 @@ function summitSection(ctx, rel, c, desk) {
     })
     const unresolved = (ctx.store.matching?.company_sessions?.unresolved || []).filter(u => u.company === cid)
     const gone = unresolved.map(u => `- A session page in its sources that is not in our programme: ${sourceLine(u.url)}. The programme desk found it answering 404 on 4 November, so it is left out until it is found again.`)
-    if (!lines.length && !gone.length) return `No session in our programme names ${cell(c.name)} yet. Our programme holds the summit's Centre Stage, PITCH, press conferences, Night Summit and the sessions the team picked; the full schedule is at [websummit.com/schedule](https://websummit.com/schedule/).`
+    if (!lines.length && !gone.length) return `No session in our programme names ${cell(c.name)} yet. Our programme holds the summit's Centre Stage, PITCH, press conferences, Night Summit and the sessions the team picked; the full schedule is on Web Summit's own site.`
     return [slotList(lines), gone.length ? `{.rows}\n${gone.join('\n')}` : ''].filter(Boolean).join('\n\n')
 }
 
@@ -114,6 +114,9 @@ function aboutSection(ctx, rel, c) {
         `- **More.** [About ${cell(S.name)}](${ctx.link(rel, 'about/index.html')}), [all the companies](${ctx.link(rel, 'companies/index.html')}), [the summit](${ctx.link(rel, 'summit/index.html')}).`
 }
 
+const unlinkWebSummit = h => h.replace(/<a\b[^>]*\bhref="https?:\/\/(?:[a-z0-9-]+\.)*websummit\.com[^"]*"[^>]*>([\s\S]*?)<\/a>/gi, '$1')
+const unlinkWebSummitMd = md => md.replace(/(?<!!)\[([^\]]*)\]\(https?:\/\/(?:[a-z0-9-]+\.)*websummit\.com[^)\s]*\)/gi, '$1')
+
 export function pages(ctx) {
     const { AGENT, TEAM_SITE } = ctx, cell = ctx.md.cell
     return ctx.store.companies.map(x => {
@@ -124,6 +127,9 @@ export function pages(ctx) {
         // both sections only on a page whose company has a Ready file (Replit, for now): every other page is unchanged
         const desk = deskOf(ctx, x.id), news = desk ? newsroomSection(ctx, rel, x) : ''
         return {
+            // Vicky's request (desks/conductor-vicky/requests/2026-11-13-1810-company-pages-web-summit-links.md, Dinis's takedown
+            // decision): no link to websummit.com from a company page; a source that rests on it shows as plain text
+            postHtml: unlinkWebSummit,
             src: `data/companies/${x.id}/company.json`, rel, type: 'company', date: maxDate(x.sources.map(s => s.read_on), x.recheck.map(r => r.checked_at)),
             crumbs: [['companies/index.html', 'Companies'], [null, x.name]],
             title: x.name, summary: [x.country && `Based in ${cell(x.country)}`, x.attending_as && `at Web Summit Lisbon 2026 as ${ATTENDING(x.attending_as, cell)}`].filter(Boolean).join('; ').replace(/^b/, 'B') + (x.country || x.attending_as ? '. ' : '') + 'Public facts only, each with its source.',
@@ -145,7 +151,7 @@ export function pages(ctx) {
                 `## About ${cell(ctx.SITE.name)} {#about}\n\n${aboutSection(ctx, rel, x)}\n\n` +
                 `${dataLinks(ctx, rel, 'companies', x.id)}\n\n[All companies](../index.md)`,
         }
-    })
+    }).map(pg => ({ ...pg, md: unlinkWebSummitMd(pg.md) }))
 }
 
 export const fill = {
