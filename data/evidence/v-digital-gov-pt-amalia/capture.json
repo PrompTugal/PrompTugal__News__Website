@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-digital-gov-pt-amalia",
+  "type": "evidence",
+  "source_url": "https://digital.gov.pt/en/noticias/amalia-versao-multimodal-lancada-no-dia-1-de-julho",
+  "beat": "Portugal",
+  "group": "S64",
+  "names": [
+    {
+      "as_listed": "AMALIA",
+      "ref": "organisation:amalia"
+    },
+    {
+      "as_listed": "NOVA FCT",
+      "ref": "organisation:nova-fct"
+    },
+    {
+      "as_listed": "Instituto Superior Técnico",
+      "ref": "organisation:instituto-superior-tecnico"
+    },
+    {
+      "as_listed": "FCT",
+      "ref": "organisation:fct"
+    },
+    {
+      "as_listed": "ARTE",
+      "ref": "organisation:arte"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-15-1150.json",
+  "run": "2026-11-15T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-15-1150.json"
+    ]
+  }
+}

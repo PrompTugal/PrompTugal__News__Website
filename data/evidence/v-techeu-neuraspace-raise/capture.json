@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-techeu-neuraspace-raise",
+  "type": "evidence",
+  "source_url": "https://tech.eu/2026/08/05/neuraspace-lands-eur156m-to-expand-ai-space-intelligence-platform/",
+  "beat": "Portugal",
+  "group": "S66",
+  "names": [
+    {
+      "as_listed": "Neuraspace",
+      "ref": "organisation:neuraspace"
+    },
+    {
+      "as_listed": "Lince Capital",
+      "ref": "organisation:lince-capital"
+    },
+    {
+      "as_listed": "Explorer Investments",
+      "ref": "organisation:explorer-investments"
+    },
+    {
+      "as_listed": "Armilar Venture Partners",
+      "ref": "organisation:armilar-venture-partners"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-15-1150.json",
+  "run": "2026-11-15T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-15-1150.json"
+    ]
+  }
+}

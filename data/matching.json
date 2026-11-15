@@ -1786,7 +1786,7 @@
       {
         "as_listed": "AMALIA",
         "ref": "organisation:amalia",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "AMALIA project",
@@ -1796,7 +1796,7 @@
       {
         "as_listed": "ARTE",
         "ref": "organisation:arte",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Acubic",
@@ -1841,7 +1841,7 @@
       {
         "as_listed": "Armilar Venture Partners",
         "ref": "organisation:armilar-venture-partners",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Bagel Labs",
@@ -1941,12 +1941,12 @@
       {
         "as_listed": "Explorer Investments",
         "ref": "organisation:explorer-investments",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "FCT",
         "ref": "organisation:fct",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Fertagus",
@@ -2036,7 +2036,7 @@
       {
         "as_listed": "Instituto Superior Técnico",
         "ref": "organisation:instituto-superior-tecnico",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Instituto Superior Técnico (Universidade de Lisboa)",
@@ -2081,7 +2081,7 @@
       {
         "as_listed": "Lince Capital",
         "ref": "organisation:lince-capital",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Lovable",
@@ -2111,7 +2111,7 @@
       {
         "as_listed": "NOVA FCT",
         "ref": "organisation:nova-fct",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Netherlands Enterprise Agency (RVO)",
@@ -2121,7 +2121,7 @@
       {
         "as_listed": "Neuraspace",
         "ref": "organisation:neuraspace",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Octo Health",
