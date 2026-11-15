@@ -115,6 +115,16 @@
       "steps": 0
     },
     {
+      "title": "FuriosaAI, a South Korean AI chip start-up, sets up its European flagship office in Lisbon",
+      "summary": "The office will coordinate commercial and technical support across Europe and do R&D in compilers and chip and PCB design.",
+      "date": "2026-04",
+      "publisher": "Portugal Global newsletter",
+      "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-april-2026/",
+      "read_on": "2026-11-15",
+      "ai_path": "An AI chip company based in Lisbon, so one step: hardware AI runs on.",
+      "steps": 1
+    },
+    {
       "title": "Government puts up to 19.3 million euros into two supercomputing and AI projects",
       "summary": "Up to 3.7 million euros for the Deucalion supercomputer in Guimarães and up to 15.6 million euros to upgrade MareNostrum 5 in Barcelona into an AI platform, both managed by FCT.",
       "date": "2026-04-08",
@@ -132,6 +142,26 @@
       "url": "https://pulse2.com/sybilion-e3-6-million-raised-to-build-ai-decision-layer-for-industrial-companies/amp/",
       "read_on": "2026-11-15",
       "ai_path": "An AI decision-intelligence product, so directly AI.",
+      "steps": 0
+    },
+    {
+      "title": "BSC AI Factory opens a second call for AI startups, with incubation spaces in Lisbon and Guimarães",
+      "summary": "Early-stage startups building or intensively using AI could apply for incubation from April to September 2026, with technical AI support and mentoring. Portugal takes part through FCT and the National Center for Advanced Computing.",
+      "date": "2026-03-03",
+      "publisher": "FCT",
+      "url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+      "read_on": "2026-11-15",
+      "ai_path": "A programme that incubates AI startups, so directly AI.",
+      "steps": 0
+    },
+    {
+      "title": "Champalimaud Foundation and Técnico open a Neurorobotics Laboratory",
+      "summary": "A five-year agreement signed on 18 February 2026 creates a lab covering embodied AI, social robotics, neurorehabilitation and biomimetic robots, with Técnico's Institute for Systems and Robotics.",
+      "date": "2026-02-26",
+      "publisher": "Champalimaud Foundation",
+      "url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+      "read_on": "2026-11-15",
+      "ai_path": "A lab with an embodied AI research area, so directly AI.",
       "steps": 0
     },
     {
@@ -153,6 +183,16 @@
       "read_on": "2026-11-15",
       "ai_path": "The State adopting AI in services, so directly AI.",
       "steps": 0
+    },
+    {
+      "title": "Portugal's new Agency for Research and Innovation (AI²) was due to start on 1 January 2026",
+      "summary": "It merges FCT and the National Innovation Agency into one public body for the whole innovation chain. This single article described it before its decree-law was published, so treat the details as provisional.",
+      "date": "2025-12-14",
+      "publisher": "The Portugal Post",
+      "url": "https://theportugalpost.com/posts/portugals-new-ai-agency-to-streamline-grants-and-fund-innovation",
+      "read_on": "2026-11-15",
+      "ai_path": "The funder that will pay for national AI research and startups, so one step.",
+      "steps": 1
     }
   ],
   "sources": [
@@ -474,6 +514,66 @@
       "read_on": "2026-11-15",
       "ai_path": "Backs AI startups, so one step.",
       "steps": 1
+    },
+    {
+      "name": "Champalimaud Foundation (Lisbon)",
+      "type": "institution",
+      "url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+      "what": "Research foundation whose Neurotechnology Warehouse runs the new Neurorobotics Laboratory with Técnico, including an Embodied AI area.",
+      "source_url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+      "read_on": "2026-11-15",
+      "ai_path": "AI research, so directly AI.",
+      "steps": 0
+    },
+    {
+      "name": "Institute for Systems and Robotics, Técnico (ISR/LARSyS, Lisbon)",
+      "type": "institution",
+      "url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+      "what": "Técnico's partner in the Neurorobotics Laboratory, a five-year agreement signed 18 February 2026.",
+      "source_url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+      "read_on": "2026-11-15",
+      "ai_path": "AI and robotics research, so directly AI.",
+      "steps": 0
+    },
+    {
+      "name": "BSC AI Factory, Portuguese nodes (Lisbon and Guimarães)",
+      "type": "public body",
+      "url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+      "what": "EuroHPC-style AI incubation programme led by the Barcelona Supercomputing Center, with Portugal taking part through FCT and the National Center for Advanced Computing.",
+      "source_url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+      "read_on": "2026-11-15",
+      "ai_path": "Incubates AI startups, so directly AI.",
+      "steps": 0
+    },
+    {
+      "name": "National Center for Advanced Computing (CNCA)",
+      "type": "public body",
+      "url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+      "what": "Portugal's partner, with FCT, in the BSC AI Factory.",
+      "source_url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+      "read_on": "2026-11-15",
+      "ai_path": "Compute for AI, so one step.",
+      "steps": 1
+    },
+    {
+      "name": "FuriosaAI (Lisbon)",
+      "type": "company",
+      "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-april-2026/",
+      "what": "South Korean AI chip start-up with its European flagship office in Lisbon since April 2026.",
+      "source_url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-april-2026/",
+      "read_on": "2026-11-15",
+      "ai_path": "An AI chip company, so one step.",
+      "steps": 1
+    },
+    {
+      "name": "AI² (Agency for Research and Innovation)",
+      "type": "public body",
+      "url": "https://theportugalpost.com/posts/portugals-new-ai-agency-to-streamline-grants-and-fund-innovation",
+      "what": "New public funder merging FCT and ANI, due to start on 1 January 2026 per one press article, details provisional.",
+      "source_url": "https://theportugalpost.com/posts/portugals-new-ai-agency-to-streamline-grants-and-fund-innovation",
+      "read_on": "2026-11-15",
+      "ai_path": "Funds national AI research, so one step.",
+      "steps": 1
     }
   ],
   "extras": [
@@ -495,11 +595,13 @@
     "signed_by": "place.portugal@PrompTugal.dinis"
   },
   "gaps": [
-    "First pass of 15 November: about 28 map entries from pages opened tonight. Still to map: AI communities, Lisbon and Porto accelerators, Champalimaud, Instituto de Telecomunicações and more of the university labs.",
+    "Second pass of 15 November: 32 map entries and 16 news items, all from pages opened tonight. Still to map: AI communities, more Lisbon and Porto accelerators, Instituto de Telecomunicações and the other university labs (search results only so far, no official page opened).",
     "No page we opened states the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai or Feedzai, so their region is left out until a source says it.",
     "The gigafactory bid has no confirmed site or date in our sources, and the National Data Centre Plan is still being finalised.",
     "Sword Health and Unbabel have no page of their own read tonight (the company site refused or redirected), their entries rest on one press article.",
-    "No Algarve entry yet at national level: the region's AI map belongs to place.algarve@, and flows up from its file."
+    "No Algarve entry yet at national level: the region's AI map belongs to place.algarve@, and flows up from its file.",
+    "Tech Foundry Portugal (a deep tech accelerator announced in May 2026) was left out: the page we read does not mention AI, so it fails the PrompTugal test for now.",
+    "Leads not yet opened: Nscale's announced GPU plan at Sines, CGI's generative AI centre, UJET's Porto hub, the DemocracI.A. conference in Porto on 25 November. Each goes in once its own page is read."
   ],
   "voice": {
     "lede": "A country on the Atlantic edge of Europe that wrote itself a language model of its own, and would like you to try it.",
