@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1477",
+    "date": "2026-11-15",
+    "what": "conductor@PrompTugal.dinis: run report, the 15 November sync",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "22967d22a"
+  },
+  {
     "version": "v0.1.1476",
     "date": "2026-11-15",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
