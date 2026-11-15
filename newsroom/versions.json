@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1505",
+    "date": "2026-11-15",
+    "what": "dev.places@PrompTugal.dinis: status and run report (JSON first for the by-place pages)",
+    "by": "dev.places@PrompTugal.dinis",
+    "from": "b07713d45"
+  },
+  {
     "version": "v0.1.1504",
     "date": "2026-11-15",
     "what": "data.places@PrompTugal.dinis: /query/ reads detective.places@'s connections file in its own schema; an example for it",
