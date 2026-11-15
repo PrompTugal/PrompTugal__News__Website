@@ -562,7 +562,7 @@
       ]
     },
     "connections": {
-      "about": "Connections between organisations, events and public people in their professional role, found by detective.places@ (data/by-place/connections.json), each with its source.",
+      "about": "Links between companies, institutions, events and programmes across the places, found by detective.places@PrompTugal.dinis (data/by-place/connections/connections.json), each with its source and whether the page itself was read.",
       "columns": [
         {
           "name": "id",
@@ -572,12 +572,12 @@
         {
           "name": "src",
           "type": "text",
-          "about": "from (a node id)"
+          "about": "from (a node id, resolved by name as a map entry is)"
         },
         {
           "name": "verb",
           "type": "text",
-          "about": "the relation"
+          "about": "the relation: builds_with, funded_by, piloted_in, hosted_at, part_of, incubated_by, founded_with, holds_role_at, organises, participates_in, serves"
         },
         {
           "name": "dst",
@@ -595,9 +595,29 @@
           "about": "when it was read"
         },
         {
-          "name": "note",
+          "name": "verified",
+          "type": "text",
+          "about": "read (the page itself was opened) or search_extract (seen only in a search result)"
+        },
+        {
+          "name": "steps",
+          "type": "integer",
+          "about": "steps from AI"
+        },
+        {
+          "name": "what",
           "type": "text",
           "about": "what the source says"
+        },
+        {
+          "name": "ai_path",
+          "type": "text",
+          "about": "the path to AI"
+        },
+        {
+          "name": "places",
+          "type": "text",
+          "about": "the places it concerns, comma-separated"
         }
       ]
     }
@@ -614,6 +634,12 @@
       "title": "Who is on more than one town's AI map",
       "about": "Connecting the dots: the organisations that several place agents found on their own, merged by name.",
       "sql": "SELECT n.label AS organisation, n.kind, count(DISTINCT e.dst) AS towns,\n       group_concat(DISTINCT replace(e.dst, 'place:', '')) AS places\nFROM edges e JOIN nodes n ON n.id = e.src\nWHERE e.verb = 'on_ai_map_of'\nGROUP BY n.id\nHAVING towns > 1\nORDER BY towns DESC, organisation"
+    },
+    {
+      "id": "detectives",
+      "title": "What the detectives connected, and how sure they are",
+      "about": "detective.places@'s links, each end resolved to a node of the graph; 'read' means the page itself was opened, 'search_extract' only a search result.",
+      "sql": "SELECT a.label AS from_node, c.verb, b.label AS to_node, c.verified, c.places\nFROM connections c\nJOIN nodes a ON a.id = c.src\nJOIN nodes b ON b.id = c.dst\nORDER BY c.verified, a.label"
     },
     {
       "id": "ualg-two-steps",

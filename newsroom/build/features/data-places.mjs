@@ -18,7 +18,7 @@ const PTGraph = require('../../../assets/query/graph.js')
 
 export const order = 86
 const LIST = 'data/by-place/places.json'
-const CONNECTIONS = 'data/by-place/connections.json'
+const CONNECTIONS = 'data/by-place/connections/connections.json'
 const BANNED = /(^|\.)(websummit\.com|websummit\.net|lu\.ma|luma\.com|meetup\.com|eventbrite\.[a-z.]+)$/i
 const ASSETS = { css: ['assets/query/query.css'], js: ['assets/query/sql.js', 'assets/query/graph.js', 'assets/query/query.js'] }
 const CASES = ['loule', 'faro']   // Dinis's case studies, deepest first
@@ -164,15 +164,27 @@ export function database(ctx) {
         for (const pl of [m.town, m.region].filter(Boolean).map(String)) if (nodes.has(`place:${pl}`)) E('about_place', id, `place:${pl}`, { source: `content/articles/${s}.md`, read: String(m.date).slice(0, 10), note: W.note_tagged })
         for (const who of named(`${m.title} ${m.summary || ''}`)) E('mentions', id, who, { source: `content/articles/${s}.md`, note: W.note_article })
     }
-    // detective.places@'s connections, once the file exists (schema data/schemas/by-place-connections.schema.json)
+    // detective.places@'s connections (data/by-place/connections/connections.json, its schema by-place-connections):
+    // a link's two ends are {name, type, place}; each is resolved like a map entry (by name, the aliases, then the graph)
     if (ctx.exists(CONNECTIONS)) {
         let cf = {}; try { cf = ctx.readJSON(CONNECTIONS) } catch {}
-        for (const c of arr(cf.connections)) {
-            if (!c || !c.from || !c.to || !c.verb || !okUrl(c.source_url)) continue
-            for (const ref of [c.from, c.to]) if (!nodes.has(ref)) N(ref, { type: ref.split(':')[0], label: (c.labels && c.labels[ref]) || ref.split(':').slice(1).join(':'), layer: 'connections', source: c.source_url, read: str(c.read_on) })
-            const id = c.id || `${c.verb}:${c.from}:${c.to}`
-            rows.connections.push([id, c.from, c.verb, c.to, c.source_url, str(c.read_on), str(c.note)])
-            E(c.verb, c.from, c.to, { source: c.source_url, read: str(c.read_on), layer: 'connections', note: str(c.note) })
+        const byKey = new Map()
+        for (const x of entries) byKey.set(find(x.keys[0]), x.node)
+        const resolveEnd = e => {
+            const k = `name:${nameKey(e.name)}`
+            if (parent.has(k) && byKey.has(find(k))) return byKey.get(find(k))
+            for (const a of arr(cat.aliases && cat.aliases.same)) if (arr(a.names).includes(nameKey(e.name))) for (const n of a.names) { const kk = `name:${n}`; if (parent.has(kk) && byKey.has(find(kk))) return byKey.get(find(kk)) }
+            return byName.get(nameKey(e.name)) || `local:${nameKey(e.name)}`
+        }
+        for (const c of arr(cf.links)) {
+            if (!c || !c.from || !c.to || !c.from.name || !c.to.name || !c.relation || !okUrl(c.source_url)) continue
+            const [a, b] = [resolveEnd(c.from), resolveEnd(c.to)]
+            for (const [ref, end] of [[a, c.from], [b, c.to]]) {
+                const n = N(ref, { type: KIND_TO_TYPE[end.type] || end.type || 'organisation', kind: str(end.type), label: String(end.name).split(/\s*\(/)[0], layer: 'connections', source: c.source_url, read: str(c.read_on) })
+                for (const pl of [end.place, ...arr(c.places)].filter(Boolean)) if (n.layer === 'connections') n.places.add(pl)
+            }
+            rows.connections.push([str(c.id), a, c.relation, b, c.source_url, str(c.read_on), str(c.verified), int(c.steps), str(c.what), str(c.ai_path), arr(c.places).join(',') || null])
+            E(c.relation, a, b, { source: c.source_url, read: str(c.read_on), layer: 'connections', note: str(c.what) })
         }
     }
     // only edges whose two ends exist
