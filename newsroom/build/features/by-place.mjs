@@ -74,7 +74,7 @@ const statusWord = (L, st) => W(L, `status_${['live', 'researching'].includes(st
 function mast(ctx, L, p, parentName) {
     const v = p.voice || {}
     return `::: bp-mast\n{.bp-kicker}\nPrompTugal.news · ${esc(ctx, p.name)}${p.look && p.look.landmark ? ` · ${esc(ctx, p.look.landmark)}` : ''}\n\n` +
-        voiceBlock(`{.bp-mandate}\n${esc(ctx, p.mandate)}`, v.mandate ? `{.bp-mandate}\n${esc(ctx, v.lede ? v.lede + ' ' : '')}${esc(ctx, v.mandate)}` : null) +
+        voiceBlock(`{.bp-mandate}\n${esc(ctx, p.mandate)}`, v.mandate ? `{.bp-mandate}\n${v.lede ? esc(ctx, v.lede) + ' ' : ''}${esc(ctx, v.mandate)}` : null) +
         (p._broken ? `\n{.bp-empty}\n${W(L, 'map_unreadable')}\n` : '') +
         `\n{.bp-meta}\n${statusWord(L, p.status)} · updated ${esc(ctx, dmy(p.updated))} by \`${esc(ctx, p.agent)}\`${p.identity && p.identity.key_id ? ` · site identity \`${esc(ctx, p.identity.key_id)}\`` : ''}${parentName ? ` · part of ${parentName}` : ''}\n:::\n`
 }
@@ -215,16 +215,17 @@ function regionPage(ctx, L) {
         T.map(t => `- [**${esc(ctx, t.name)}**](${ctx.link(rel, `${t.path}index.html`)})${t.look && t.look.landmark ? ` *${esc(ctx, t.look.landmark)}*` : ''} \`${statusWord(L, t.status)}\` ${n(t.ai_news.length, 'story', 'stories')} · ${n(t.ai_map.length, 'on the map', 'on the map')}`).join('\n') + '\n\n'
     md += `::: cols-8-4\n::: col\n`
     md += `## The latest from the towns {#latest}\n\n` + (latestLocal.length ? newsCards(ctx, latestLocal, 'bp-big') : `{.bp-empty}\nThe towns' agents are starting their research.`) + '\n\n'
-    if ((p.ai_news || []).length) md += `## Across the region {#region}\n\n${newsCards(ctx, p.ai_news, 'bp-small')}\n\n`
+    if ((p.ai_news || []).length) md += `## Across the region {#region}\n\n${newsCards(ctx, p.ai_news.slice(0, 10), 'bp-small')}\n\n`
     const ours = tagged(ctx, m => m.region === 'algarve' || T.some(t => m.town === t.id))
     if (ours.length) md += `## ${W(L, 'articles_h', { name: 'the Algarve' })} {#ours}\n\n${articleList(ctx, rel, ours.slice(0, 10))}`
-    md += `## The AI map of the Algarve {#map}\n\n${W(L, 'region_map_intro', { ae: ctx.link(rel, 'portugal/algarve-evolution/index.html') })}\n\n` + (mapRows(ctx, map, true) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
     md += `:::\n::: col\n`
     md += `{.mini-h}\nOne publication, three levels\n\n${W(L, 'levels', { portugal: ctx.link(rel, 'portugal/index.html'), count: T.length })}\n\n`
     md += `{.mini-h}\nThe first wave\n\n{.bp-status}\n| Place | Status | Stories | Map |\n|---|---|---|---|\n${T.map(t => `| [${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)}) | ${t.status || 'stub'} | ${(t.ai_news || []).length} | ${(t.ai_map || []).length} |`).join('\n')}\n\n`
     if ((p.sources || []).length) md += `{.mini-h}\nRegional sources\n\n{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}\n\n`
     if ((p.gaps || []).length) md += `{.mini-h}\nGaps\n\n{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}\n\n`
-    md += `:::\n:::\n\n` + testNote(ctx, L, rel, p)
+    md += `:::\n:::\n\n`
+    md += `## The AI map of the Algarve {#map}\n\n${W(L, 'region_map_intro', { ae: ctx.link(rel, 'portugal/algarve-evolution/index.html') })}\n\n` + (mapRows(ctx, map, true) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
+    md += testNote(ctx, L, rel, p)
     return {
         src: LIST, rel, type: 'place', layout: 'wide', date: ctx.TODAY, section: 'portugal', group: 'Portugal',
         crumbs: [['portugal/index.html', 'Portugal'], [null, 'The Algarve']],
