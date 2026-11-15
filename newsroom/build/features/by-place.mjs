@@ -6,6 +6,8 @@
 // word (15 Nov 2026, for his meeting with Algarve Evolution); dev@ owns it from here.
 export const order = 69
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
+import { execFileSync } from 'node:child_process'
+import fs from 'node:fs'
 
 const LIST = 'data/by-place/places.json'
 const DEF_ACCENT = '#1f5f3f'
@@ -295,16 +297,16 @@ const SITE_URL = 'https://promptugal.news/'
 function placeRecord(ctx, L, p) {
     const r = identityOf(ctx, p.id) || {}
     const inside = L.list.filter(x => x.parent === p.id).map(x => x.id)
-    const arts = tagged(ctx, m => m.town === p.id || m.region === p.id || inside.includes(m.town)).map(c => ({ title: c.meta.title, date: dmy(String(c.meta.date)), url: SITE_URL + c.rel.replace(/index\.html$/, ''), md: SITE_URL + c.rel.replace(/\.html$/, '.md') }))
+    const arts = tagged(ctx, m => m.town === p.id || m.region === p.id || inside.includes(m.town)).map(c => ({ title: c.meta.title, summary: c.meta.summary || null, author: c.meta.author || null, date: dmy(String(c.meta.date)), town: c.meta.town || null, region: c.meta.region || null, signature: `${SITE_URL}${c.rel.replace(/\.html$/, '.md')}.sig`, url: SITE_URL + c.rel.replace(/index\.html$/, ''), md: SITE_URL + c.rel.replace(/\.html$/, '.md') }))
     return {
         id: p.id, name: p.name, kind: p.kind, parent: p.parent || null, inside, agent: p.agent,
         status: ['live', 'researching'].includes(p.status) ? p.status : 'stub', updated: p.updated || null, by: p.by || null,
         page: SITE_URL + p.path, twin: SITE_URL + p.path + 'index.md', raw: `${SITE_URL}data/by-place/${p.id}.json`,
         at: Array.isArray(p.at) ? { lon: p.at[0], lat: p.at[1] } : null,
-        look: { accent: (p.look && p.look.accent) || DEF_ACCENT, landmark: (p.look && p.look.landmark) || null, motif: (p.look && p.look.motif) || null },
+        look: { image: p.look && p.look.photo && p.look.photo.file && ctx.exists(p.look.photo.file) ? { url: SITE_URL + p.look.photo.file, ...p.look.photo } : null, accent: (p.look && p.look.accent) || DEF_ACCENT, landmark: (p.look && p.look.landmark) || null, motif: (p.look && p.look.motif) || null },
         mandate: p.mandate, gravity: p.gravity || null,
         counts: { ai_news: p.ai_news.length, ai_map: p.ai_map.length, events: p.events.length, sources: p.sources.length, articles: arts.length },
-        ai_news: p.ai_news, ai_map: p.ai_map, events: p.events, sources: p.sources, extras: p.extras, gaps: p.gaps, voice: p.voice || null,
+        ai_news: p.ai_news.map(a => ({ ...a, provenance: provenance(p, r, a, 'story') })), ai_map: p.ai_map.map(m => ({ ...m, provenance: provenance(p, r, { ...m, url: m.source_url }, 'map entry') })), events: p.events, sources: p.sources, extras: p.extras, gaps: p.gaps, voice: p.voice || null,
         articles: arts,
         team: { agent: p.agent, status: `${SITE_URL}board/team/${p.agent.split('@')[0]}/status.json`, debriefs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/team/${p.agent.split('@')[0]}/debriefs`, runs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/runs/${p.agent.split('@')[0]}` },
         ...(p.id === 'algarve' ? (() => { const g = regionAgg(L); return { region: {
@@ -316,6 +318,30 @@ function placeRecord(ctx, L, p) {
     }
 }
 
+// the agents behind a place, from the record only (status.json, git, run reports), for the app (ios.places@) and the
+// agents panel: the place's own agent first, then the shared agents who build every place
+const SHARED = ['conductor@PrompTugal.dinis', 'abp@PrompTugal.dinis', 'dev.places@PrompTugal.dinis', 'designer.places@PrompTugal.dinis', 'viz.places@PrompTugal.dinis', 'data.places@PrompTugal.dinis', 'detective.places@PrompTugal.dinis']
+const readJ = (ctx, f) => { try { return ctx.readJSON(f) } catch { return null } }
+function commitsOf(ctx, paths, n = 10) {
+    try {
+        return execFileSync('git', ['log', `-${n}`, '--format=%H%x1f%cI%x1f%s', '--', ...paths], { cwd: ctx.ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] })
+            .trim().split('\n').filter(Boolean).map(l => { const [hash, date, subject] = l.split('\x1f'); return { hash: hash.slice(0, 9), date, subject, url: `https://github.com/PrompTugal/PrompTugal__News__Website/commit/${hash}` } })
+    } catch { return [] }
+}
+function agentRecord(ctx, agent, role, paths) {
+    const r = agent.split('@')[0], st = readJ(ctx, `board/team/${r}/status.json`) || {}
+    let runs = 0; try { runs = fs.readdirSync(ctx.R(`board/runs/${r}`)).filter(f => f.endsWith('.json')).length } catch { }
+    return { agent, role, state: st.state || null, updated: st.updated || null, focus: st.focus || null, done: st.done || [], next: st.next || [], asks: (st.asks || []).filter(a => /^Dinis:/.test(a)), run_reports: runs, status: `${SITE_URL}board/team/${r}/status.json`, commits: commitsOf(ctx, paths) }
+}
+function agentsFile(ctx, L, p) {
+    const roles = readJ(ctx, 'board/team/conductor/place-agents.json')
+    const own = agentRecord(ctx, p.agent, 'place', [`data/by-place/${p.id}.json`, `board/team/${p.agent.split('@')[0]}/`])
+    const shared = SHARED.map(a => agentRecord(ctx, a, 'shared', [`board/team/${a.split('@')[0]}/`]))
+    return { about: W(L, 'api_agents_about', { name: p.name }), place: p.id, version: ctx.VERSION, built: ctx.TODAY, count: 1 + shared.length, roster: roles ? `${SITE_URL}board/team/conductor/place-agents.json` : null, agents: [own, ...shared] }
+}
+// a story's provenance: where it was read, when, by whom, and the signed file it lives in
+const provenance = (p, r, item, src) => ({ source_url: item.url || item.source_url || null, publisher: item.publisher || null, published: item.date || null, read_on: item.read_on || null, read_by: p.agent, file: `${SITE_URL}data/by-place/${p.id}.json`, signature: r.signature || 'unchecked', site_key: r.site_key || null, ...(src ? { kind: src } : {}) })
+
 export function api(ctx) {
     const L = load(ctx)
     const recs = L.list.map(p => placeRecord(ctx, L, p))
@@ -323,6 +349,8 @@ export function api(ctx) {
         { path: 'api/v1/by-place/index.json', schema: null, data: { about: W(L, 'api_index_about'), version: ctx.VERSION, built: ctx.TODAY,
             places: recs.map(r => ({ id: r.id, name: r.name, kind: r.kind, parent: r.parent, path: L.byId.get(r.id).path, agent: r.agent, status: r.status, updated: r.updated, ai_news: r.counts.ai_news, ai_map: r.counts.ai_map, articles: r.counts.articles, page: r.page, api: `${SITE_URL}api/v1/by-place/${r.id}.json`, at: r.at, accent: r.look.accent, landmark: r.look.landmark, identity: L.byId.get(r.id).identity || null, signature: r.identity.signature })) } },
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}.json`, schema: null, data: { about: W(L, 'api_place_about', { name: r.name }), version: ctx.VERSION, ...r } })),
+        ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/agents.json`, schema: null, data: agentsFile(ctx, L, L.byId.get(r.id)) })),
+        ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/articles.json`, schema: null, data: { about: W(L, 'api_articles_about', { name: r.name }), place: r.id, version: ctx.VERSION, articles: r.articles } })),
     ]
 }
 
