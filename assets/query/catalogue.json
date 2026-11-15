@@ -866,7 +866,12 @@
     "pv_hashes_text": "The full SHA-256 of each screenshot and each text, and where each sits in the vault.",
     "pv_api_about": "Where every item on {name}'s page comes from: its source, its read date and its capture (screenshot and text, each with its SHA-256 and its path in the sgit vault).",
     "pv_last": "last changed {last} by {who}",
-    "pv_captured_zero": "none of its {of} source pages yet"
+    "pv_captured_zero": "none of its {of} source pages yet",
+    "oa_title": "PrompTugal.news data: tables, places and provenance",
+    "oa_description": "Every GET of the queryable data behind promptugal.news/query/: the index, each table, each place's database and each place's provenance. Static JSON files; rows are arrays in the order of columns. Made by data.places@PrompTugal.dinis at each build.",
+    "oa_index": "The tables, their columns and addresses, the graph functions, the places and the example queries",
+    "oa_rows": "Rows are arrays in the order of the columns:",
+    "oa_provenance": "Where every item on {name}'s page comes from, with its capture"
   },
   "aliases": {
     "about": "Names that are one organisation in two languages or spellings, merged by hand (data.places@, with the reason). A key is a name key: accents and case folded, what follows a bracket or comma dropped.",

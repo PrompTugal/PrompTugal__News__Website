@@ -269,6 +269,7 @@ export function api(ctx) {
         places: db.places.map(p => ({ id: p.id, name: p.name, url: `api/v1/data/places/${p.id}.json`, page: `query/${p.id}/index.html` })),
         examples: EXAMPLES(catalogue(ctx.readJSON)),
     } })
+    out.push({ path: 'api/v1/data/openapi.json', schema: null, data: openapi(ctx, db) })
     for (const p of db.places) {
         const pick = (name, test) => { const t = db.tables[name]; return { columns: t.columns, rows: t.rows.filter(test) } }
         const sub = runSQL(ctx, `SELECT id FROM neighbours('place:${p.id}', 2, '-located_in')`).rows.map(r => r[0])
@@ -281,6 +282,23 @@ export function api(ctx) {
         } })
     }
     return out
+}
+
+// the GET endpoints of the data as OpenAPI 3.1 (JSON first, Dinis 15 November 23:30): one path per table, with its
+// columns, and one per place for its database and its provenance; datasci.places@ merges it into the site's spec
+function openapi(ctx, db) {
+    const W = catalogue(ctx.readJSON).words, sch = n => { try { const j = ctx.readJSON(`data/schemas/${n}.schema.json`); delete j.$schema; delete j.$id; return j } catch { return { type: 'object' } } }
+    const ok = (ref, d) => ({ 200: { description: d, content: { 'application/json': { schema: { $ref: `#/components/schemas/${ref}` } } } } })
+    const paths = { '/api/v1/data/index.json': { get: { operationId: 'dataIndex', summary: W.oa_index, tags: ['data'], responses: ok('DataIndex', W.oa_index) } } }
+    for (const [name, t] of Object.entries(db.tables)) paths[`/api/v1/data/tables/${name}.json`] = { get: { operationId: `table_${name}`, summary: t.about, tags: ['data: tables'],
+        description: `${W.oa_rows}\n\n` + t.columns.map((c, i) => `- \`${c}\` (${t.types[i]}): ${t.docs[i]}`).join('\n'), responses: ok('DataTable', t.about) } }
+    for (const p of db.places) {
+        paths[`/api/v1/data/places/${p.id}.json`] = { get: { operationId: `place_${p.id.replace(/-/g, '_')}`, summary: fillT(W.api_place_about, { name: p.name }).split('. ')[0], tags: [`place: ${p.name}`], responses: ok('DataPlace', p.name) } }
+        paths[`/api/v1/data/provenance/${p.id}.json`] = { get: { operationId: `provenance_${p.id.replace(/-/g, '_')}`, summary: fillT(W.oa_provenance, { name: p.name }), tags: [`place: ${p.name}`], responses: ok('ProvenancePlace', p.name) } }
+    }
+    return { openapi: '3.1.0', info: { title: W.oa_title, version: String(ctx.VERSION), description: W.oa_description, contact: { name: 'data.places@PrompTugal.dinis', url: 'https://promptugal.news/query/' } },
+        servers: [{ url: 'https://promptugal.news' }], tags: [{ name: 'data' }, { name: 'data: tables' }], paths,
+        components: { schemas: { DataIndex: sch('data-index'), DataTable: sch('data-table'), DataPlace: sch('data-place'), ProvenancePlace: sch('provenance-place') } } }
 }
 
 export const searchDocs = ctx => {
