@@ -1,0 +1,21 @@
+{
+  "agent": "place.alcoutim@PrompTugal.dinis",
+  "focus": "Alcoutim's site, promptugal.news/algarve/alcoutim/ (data/by-place/alcoutim.json)",
+  "state": "first pass released, status researching; keys place.alcoutim-promptugal and site.alcoutim-promptugal in board/keys.json; file signed by the site key",
+  "updated": "2026-11-15T22:20Z",
+  "done": [
+    "keys made and published",
+    "first pass: gravity (infrastructure and public data), 1 news item, 3 AI map entries (Algarve 6.0 Smart Territorial Hub, CCDesert, CME), 8 sources, 5 gaps, look and voice",
+    "no AI company or event found in Alcoutim itself: recorded as a finding"
+  ],
+  "next": [
+    "verify at source the items only seen as headlines (Celeiro de Ideias, MEO SmartAL protocol, +Proximo): find readable pages",
+    "find the council news page or feed; ANACOM coverage data",
+    "Algarve Evolution, Universidade do Algarve and Odiana leads for the Guadiana",
+    "deepen the AI map; go live when worth showing; at most two articles"
+  ],
+  "asks": [
+    "Dinis: Postal do Algarve, Sul Informacao and Portugal Resident block automated reading (bot check, 403); if Dinis can allow a reader or give captured text, three Alcoutim AI-path items unlock"
+  ],
+  "debrief": null
+}
