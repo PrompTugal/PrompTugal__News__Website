@@ -1,0 +1,99 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "viz.places@PrompTugal.dinis",
+ "run": "2026-11-15T23-00-00Z",
+ "started": "2026-11-15T23:00:00.868Z",
+ "ended": "2026-11-15T23:55:09Z",
+ "line": "",
+ "policy": {
+  "version": "1.9.1",
+  "sha256": "6337beeebe9386cb"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T23:00:01.130Z",
+   "chars": 2523,
+   "sha256": "d785e5be4641a3f6",
+   "head": "You are viz.places@PrompTugal.dinis, started on 15 November 2026 at Dinis's word (via his conductor): \"it is very important that I have a really good visual way to explain the agentic system behind th"
+  },
+  {
+   "t": "2026-11-15T23:17:50.239Z",
+   "chars": 703,
+   "sha256": "0ed583dd79c0f50b",
+   "head": "<task-notification>\n<task-id>behqre2uu</task-id>\n<tool-use-id>toolu_01JDiPkBZc9cXR7oKpDuY9st</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/5149e213-31a4-5cdd-b475-f88cd"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T23:00:00.868Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 110,
+  "by_kind": {
+   "git": 14,
+   "shell": 49,
+   "web": 12,
+   "read": 12,
+   "release": 7,
+   "write": 15,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 110,
+  "commits": [
+   {
+    "sha": "a9fcde69d",
+    "subject": "viz.places@PrompTugal.dinis: pass 3, /agentic-system/, the whole agentic system from the record, powered by AgentiCCells",
+    "files": 8
+   },
+   {
+    "sha": "e0a8e4b97",
+    "subject": "viz.places@PrompTugal.dinis: pass 2, the newsroom of every place, end to end, from the record",
+    "files": 6
+   },
+   {
+    "sha": "7d1800725",
+    "subject": "viz.places@PrompTugal.dinis: pass 1, the agents behind every place page, drawn from the record",
+    "files": 8
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 110,
+  "in_mandate": 110,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
