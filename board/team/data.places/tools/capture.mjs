@@ -3,7 +3,7 @@
 // the places named: a screenshot (JPEG, the top 1280x1600 of the page) and the page's visible text, each hashed
 // (SHA-256), written to the sgit vault promptugal-captures (images live in vaults, not git), and an index entry in the
 // repository that the build shows beside each item (newsroom/build/features/data-places.mjs).
-//   node board/team/data.places/tools/capture.mjs --places loule,faro [--vault ~/.sg-send/vaults/promptugal-captures]
+//   node board/team/data.places/tools/capture.mjs --places loule,faro [--articles] [--vault ~/.sg-send/vaults/promptugal-captures]
 //        [--index data/query/captures.json] [--max 60] [--refresh] [--no-push]
 // Public pages only: no login, no paywall, no bot challenge passed (a challenge is recorded as such, not got round).
 // Never websummit.com, lu.ma, luma.com, meetup.com or eventbrite. Prints no key.
@@ -17,7 +17,8 @@ const require = createRequire(import.meta.url)
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../../../..')
 const arg = (k, d) => { const i = process.argv.indexOf(`--${k}`); return i < 0 ? d : (process.argv[i + 1] && !process.argv[i + 1].startsWith('--') ? process.argv[i + 1] : true) }
-const PLACES = String(arg('places', 'loule,faro')).split(',').filter(Boolean)
+const PLACES = arg('places', null) === null ? (arg('articles', false) ? [] : ['loule', 'faro']) : String(arg('places')).split(',').filter(Boolean)
+const ARTICLES = !!arg('articles', false)   // also every outside link of the published articles (content/articles/*.md)
 const VAULT = String(arg('vault', path.join(os.homedir(), '.sg-send/vaults/promptugal-captures'))).replace(/^~/, os.homedir())
 const INDEX = path.join(ROOT, String(arg('index', 'data/query/captures.json')))
 const MAX = +arg('max', 60), REFRESH = !!arg('refresh', false), PUSH = !arg('no-push', false)
@@ -38,6 +39,11 @@ for (const id of PLACES) {
     ;(d.events || []).forEach((e, i) => add(e.url, { place: id, kind: 'event', n: i + 1, label: e.title }))
     ;(d.gravity && d.gravity.sources || []).forEach((s, i) => add(s.url, { place: id, kind: 'gravity', n: i + 1, label: s.title }))
     ;(d.sources || []).forEach((s, i) => add(s.url, { place: id, kind: 'source', n: i + 1, label: s.name }))
+}
+if (ARTICLES) for (const f of fs.readdirSync(path.join(ROOT, 'content/articles')).filter(f => f.endsWith('.md'))) {
+    const t = fs.readFileSync(path.join(ROOT, 'content/articles', f), 'utf8')
+    if (/^status:\s*draft/m.test(t.split(/\n---\n/)[0])) continue
+    for (const m of t.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)) add(m[1], { place: null, article: f.replace(/\.md$/, ''), kind: 'article', label: f.replace(/\.md$/, '') })
 }
 const index = fs.existsSync(INDEX) ? JSON.parse(fs.readFileSync(INDEX, 'utf8')) : { $schema: '../schemas/provenance-captures.schema.json', about: '', vault: {}, captures: [] }
 const have = new Map(index.captures.map(c => [c.url, c]))
@@ -85,7 +91,7 @@ for (const url of todo) {
 await browser.close()
 
 // the refs are recomputed for every capture of these places (an item may have moved)
-for (const [url, c] of have) { const r = want.get(url); if (r) c.cited_by = r }
+for (const [url, c] of have) { const kept = (c.cited_by || []).filter(x => !(x.place && PLACES.includes(x.place)) && !(ARTICLES && x.kind === 'article')); c.cited_by = [...kept, ...(want.get(url) || [])] }
 index.about = 'Captures of the third-party pages that PrompTugal.news\'s place files cite: a screenshot and the visible text of each, hashed, kept in the sgit vault promptugal-captures. Made by data.places@PrompTugal.dinis with board/team/data.places/tools/capture.mjs; shown beside each item by newsroom/build/features/data-places.mjs.'
 index.vault = { name: 'promptugal-captures', vault_id: '8pvcgf0m', endpoint: 'https://dev.send.sgraph.ai', access: 'private for now: the read key is held by data.places@ and given to Dinis; whether to publish it is Dinis\'s decision (see board/team/data.places/status.json)' }
 index.updated = new Date().toISOString().replace(/\.\d+Z$/, 'Z')

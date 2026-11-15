@@ -24,3 +24,5 @@
 pre.pq-example { margin-bottom: var(--s1); }
 .pq-try { margin: 0 0 var(--s3); }
 @media (max-width: 640px) { .pq-status { margin-left: 0; width: 100%; } .pq-hint { display: none; } }
+.pq-graphbar { margin: 0 0 var(--s2); }
+.pq-graph { height: 520px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--paper); margin-bottom: var(--s3); }

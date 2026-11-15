@@ -89,6 +89,7 @@
             for (const row of r.rows.slice(0, MAX)) { const tr = el('tr'); row.forEach((v, i) => tr.append(cell(r.columns[i], v))); body.append(tr) }
             tbl.append(body)
             out.append(el('div', { class: 'pq-scroll' }, tbl))
+            graphButton(r)
             status.textContent = `${r.rows.length} row${r.rows.length === 1 ? '' : 's'}${r.rows.length > MAX ? `, the first ${MAX} shown` : ''}, ${r.ms} ms`
             csvBtn.removeAttribute('disabled'); jsonBtn.removeAttribute('disabled')
             if (history.replaceState) history.replaceState(null, '', '#sql=' + encodeURIComponent(sql))
@@ -98,6 +99,38 @@
             status.textContent = 'Error'
             csvBtn.setAttribute('disabled', ''); jsonBtn.setAttribute('disabled', '')
         } finally { runBtn.disabled = false }
+    }
+    // a result that holds paths (path_ids) or edges (src and dst) can be drawn, with the vendored Cytoscape.js (MIT)
+    const COLOURS = { place: '#0b6b2e', company: '#1f5fae', organisation: '#c46a12', news: '#6b6b6b', event: '#7a3fa0', article: '#222', topic: '#2a8a8a', local: '#c46a12' }
+    let CY = null
+    const loadCy = () => window.cytoscape ? Promise.resolve() : new Promise((ok, no) => { const sc = document.createElement('script'); sc.src = ROOT + 'assets/vendor/cytoscape/cytoscape.min.js'; sc.onload = ok; sc.onerror = no; document.head.append(sc) })
+    function graphButton(r) {
+        const ci = c => r.columns.indexOf(c), pi = ci('path_ids'), si = ci('src'), di = ci('dst')
+        if (pi < 0 && (si < 0 || di < 0)) return
+        const b = el('button', { type: 'button', class: 'pq-btn', onclick: () => drawGraph(r, b) }, 'Show as a graph')
+        out.prepend(el('div', { class: 'pq-graphbar' }, b))
+    }
+    async function drawGraph(r, b) {
+        b.disabled = true
+        try {
+            await Promise.all([loadCy(), table('nodes')])
+            const N = TABLES.nodes, ix = N.columns.indexOf('id'), it = N.columns.indexOf('type'), il = N.columns.indexOf('label')
+            const info = new Map(N.rows.map(x => [x[ix], { type: x[it], label: x[il] }]))
+            const nodes = new Map(), edges = new Map(), ci = c => r.columns.indexOf(c)
+            const node = id => { if (!nodes.has(id)) { const n = info.get(id) || { type: String(id).split(':')[0], label: id }; nodes.set(id, { data: { id, label: String(n.label).length > 34 ? String(n.label).slice(0, 32) + '…' : String(n.label), colour: COLOURS[n.type] || '#888', size: nodes.size ? 14 : 26 } }) } }
+            const edge = (a, z, verb) => { node(a); node(z); const id = a + '|' + z + '|' + (verb || ''); if (!edges.has(id)) edges.set(id, { data: { id, source: a, target: z, label: verb || '' } }) }
+            for (const row of r.rows.slice(0, 400)) {
+                if (ci('path_ids') >= 0 && row[ci('path_ids')]) { const ids = String(row[ci('path_ids')]).split(' > '); ids.forEach(node); for (let k = 1; k < ids.length; k++) edge(ids[k - 1], ids[k], '') }
+                else if (ci('src') >= 0) edge(row[ci('src')], row[ci('dst')], ci('verb') >= 0 ? row[ci('verb')] : '')
+            }
+            const box = el('div', { class: 'pq-graph', role: 'img', 'aria-label': `A graph of ${nodes.size} nodes and ${edges.size} edges` })
+            out.querySelector('.pq-graph')?.remove(); b.parentNode.after(box)
+            if (CY) CY.destroy()
+            CY = window.cytoscape({ container: box, elements: [...nodes.values(), ...edges.values()], layout: { name: 'cose', animate: false, nodeRepulsion: 60000, idealEdgeLength: 140, nodeOverlap: 40, padding: 24 },
+                style: [{ selector: 'node', style: { 'background-color': 'data(colour)', label: 'data(label)', 'font-size': 10, 'text-wrap': 'wrap', 'text-max-width': 110, color: getComputedStyle(document.body).color, width: 'data(size)', height: 'data(size)' } },
+                    { selector: 'edge', style: { width: 1, 'line-color': '#aaa', 'curve-style': 'bezier', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#aaa', 'arrow-scale': 0.6, label: 'data(label)', 'font-size': 8, color: '#888' } }] })
+            CY.on('tap', 'node', e => { box.title = e.target.id() })
+        } catch (e) { status.textContent = 'The graph could not be drawn: ' + (e.message || e) } finally { b.disabled = false }
     }
     function share() {
         const u = location.href.split('#')[0] + '#sql=' + encodeURIComponent(box.value)
