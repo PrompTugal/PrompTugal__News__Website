@@ -2226,6 +2226,44 @@
         "fingerprint": "sha256:e84421933bc896bf",
         "signing_fingerprint": "sha256:865bf0cbd6862c05"
       }
+    },
+    {
+      "id": "place.lagos-promptugal",
+      "agent": "place.lagos@PrompTugal.dinis",
+      "label": "place.lagos@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The Lagos place agent: data/by-place/lagos.json and promptugal.news/algarve/lagos/, started 15 November 2026 at Dinis's word. A session key: it ends with its session.",
+      "how": "Made in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAv/nh29NZFVFyMMzmQQum\nII1HGMYgpVIQyyIFxCQcN+gY+fpFVsfddmSqZebhHTg38KPhpuxf97xZw8l7OvPq\nvertdF0E6iDDV1D3VyZKXNjMUAswRNG3/GJ+BwV6b11wjTtYQMfVizpBB+jBLTWl\n6VotMH4shu8iXc29Zt6wQjPwyzCnbhLp29Z0TBlXCfnk7qrLDgTrPQVuIb9UrYCm\ng5XYIe6aTYBx2Eof5RcGvhn3pk/a5XQv3sJMOiDcp4PlaopB/J7WvTVg52z0nSY9\n3TzsQraYLxlZnJ5g/dJii6yTr8bCR7EyH2AIdq8+McqA8ludKqD0w7Rv79JVZZWW\nrMSdNVchAGuO9i9mTFauuM8zJdbRK6MvOPhl/v2Z6JpH3tjxm2UGz5EQqBvNCYpd\nNKc8W3lk/vMNBnZZQu9zlNiktz3v5sso6VQ/peFCSUD2nsNh1c+wFBD1Z6YxsTi+\n60t2bt8joAfevoCFxZqNd6oovKGLmfrgdVRXyv80cwBcWd2MImXg1wF0mySHekED\n/TelDYf3v8cwg70AzEDJjzRzasHtVSb3AVwSgbKcRt9ByYUqAliryv3kbhNN8Jy2\nNe2NVBne1RmnzWxZZDqs4/qDZ6CShxf25ihAE5fo2Xc2iMKp8B7QnFhyCgFjlg3C\nK+R6fRCNPB1q8YSIIWKA3IUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE813g5mC8QgT4tVMR2s9W3npU47Uk\njUN56seQ2ESmEO70ZZFWctplqXKUNdGC7vYny0QD/6QHreAtaxqGMgTSdw==\n-----END PUBLIC KEY-----\n",
+        "label": "place.lagos@PrompTugal.dinis",
+        "fingerprint": "sha256:91aba709fb382854",
+        "record": "sha256:351f334954892055",
+        "signing_fingerprint": "sha256:351f334954892055"
+      }
+    },
+    {
+      "id": "site.lagos-promptugal",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/lagos/",
+      "agent": "place.lagos@PrompTugal.dinis",
+      "label": "site.lagos-promptugal (the key of promptugal.news/algarve/lagos/)",
+      "role": "The identity of the Lagos site: signs data/by-place/lagos.json. Held in the place.lagos agent's session.",
+      "how": "Made in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsfo72U7jaAdOyVu09BCy\nJR++faUhxpU+vTX7NWZ918pNdalCUgRT5nuNDsaz2PtyLLBHC7mamCzCeDTNfn7K\nX90ejTifR5RRndEvYhlZdHvkYDjc6u8aM5HzEo8Qs08Wb8k5tBh2vhzmNh1lC6LT\n1jcC8iwPZfJXIMoH6ogOs9kBd8OXepCyykzQMHr9D35EDzzJ9NpwcyX2yabExVg4\ni02Il0pQHYm3QYaES93t9lUKLzsn9dWbQ9mNZshNLj3ccWhB/us0V6ZfsqAoEzkn\nU1tlgOMMPcwtBQSD4skpo2EXfs8ulO6EwzDwee1tjePJiVtqCjD7g4fEM2cnY/D6\nwZarvL31WnkJI8YfB2x02o2GyeSkOQeTCmt7AFXKEcc5ZyW2E+i7YRt3al9W3L0e\n41HU+un8mMOIOOioE1B4EmKoy7p161ytQ4Uk/8vY3+cP/O5dwBOfAKj+yvE9R7zL\n7SYrnDK1YwvRmJZ56jXojJRfvE5GWmQ/dH43Z9BppteIm0OuMadKj/tib/edeQXZ\nR+Wc4ecVnarpEyvvLcUyt+f9Uk4Us8KmLF9nfYiX+c1r27athIQFFOYfVXQXtKwj\niQ1J1wtvDL3GR93AYl2BZAk2zMuLn2bb0MEx1x8J59wyOD//Ax1LoGnyeNxComzH\nKcPWyL20cZzQjGpaBIRQ8ZMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEH1COZtZTbwyDz0DrxPTxsk/AsZyC\n37NTjba2PkhPL7M/xjFYI6vdVMaJfi6xZHfrhGkIGSz+LuxwByjO0K8ogg==\n-----END PUBLIC KEY-----\n",
+        "label": "site.lagos-promptugal",
+        "fingerprint": "sha256:9028e7ddc451f63c",
+        "record": "sha256:fddd18190dbf778c",
+        "signing_fingerprint": "sha256:fddd18190dbf778c"
+      }
     }
   ]
 }
