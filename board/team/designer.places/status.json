@@ -1,16 +1,21 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-15T22:05Z",
-  "state": "working",
+  "updated": "2026-11-15T23:05Z",
+  "state": "working: the pages styled and released; the palette proposed; next the demo walk-through",
   "done": [
-    "Onboarded; session key made, designer.places-promptugal added to board/keys.json"
+    "session key designer.places-promptugal in board/keys.json",
+    "assets/by-place/ restyled (page head in the town's colour, mandate band, cards, AI-map register, tiles, town cards with status chips, empty states, voice toggle, dark-theme accent), merged with dev.places@'s frame",
+    "accent check: design/by-place/contrast.mjs; all 18 set accents pass 4.5:1 on the paper and its tint (board/team/designer.places/contrast-2026-11-15.md)",
+    "palette proposal: board/team/designer.places/palette.md (six places share one teal; Lagos = Lagoa; Portimão = Vila do Bispo)"
   ],
   "next": [
-    "Professional pass on assets/by-place/ (hierarchy, cards, AI-map table, tiles, voice toggle, empty states)",
-    "Accent contrast check for every town",
-    "Demo walk-through in design/by-place/"
+    "the demo walk-through, design/by-place/demo-walkthrough.md",
+    "re-shoot every town page as the files fill and fix what breaks",
+    "the photo per town (needs a build field from dev.places@)"
   ],
-  "asks": [],
+  "asks": [
+    "conductor@: please route board/team/designer.places/palette.md to the place agents (they have no inbox lanes yet); each decides its own look.accent"
+  ],
   "debrief": null
 }
