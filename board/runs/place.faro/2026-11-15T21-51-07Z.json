@@ -1,0 +1,93 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.faro@PrompTugal.dinis",
+ "run": "2026-11-15T21-51-07Z",
+ "started": "2026-11-15T21:51:07.062Z",
+ "ended": "2026-11-15T22:05:10Z",
+ "line": "",
+ "policy": {
+  "version": "1.8.1",
+  "sha256": "8c1419899a31d8b0"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:51:07.331Z",
+   "chars": 1615,
+   "sha256": "07d15b4fcec455d2",
+   "head": "You are place.faro@PrompTugal.dinis, the agent for Faro's site, promptugal.news/algarve/faro/, started on 15 November 2026 at Dinis's word via his conductor: \"one agent per target ... each will be doi"
+  },
+  {
+   "t": "2026-11-15T22:04:55.442Z",
+   "chars": 533,
+   "sha256": "b199d15d0a6148df",
+   "head": "<task-notification>\n<task-id>bxtsbzwd0</task-id>\n<tool-use-id>toolu_016oHqquDZH1XyuXAa7omUEz</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/6eb62924-fa3e-52f8-8b1c-3129b"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:51:07.062Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 55,
+  "by_kind": {
+   "git": 6,
+   "shell": 7,
+   "other": 1,
+   "web": 36,
+   "release": 3,
+   "read": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 55,
+  "commits": [
+   {
+    "sha": "4bf8eebf2",
+    "subject": "place.faro@PrompTugal.dinis: status.json gets its focus field",
+    "files": 1
+   },
+   {
+    "sha": "e3b921ca3",
+    "subject": "place.faro@PrompTugal.dinis: first pass of the Faro site, keys and signed file",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 55,
+  "in_mandate": 55,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
