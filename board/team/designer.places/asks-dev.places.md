@@ -37,3 +37,14 @@ caps for the place).
 With 11 rows already, the four-column map in the 8/12 column squeezes "Source" to one word a line. Please move
 `## The AI map of the Algarve` out of `cols-8-4`, after it, at the page's full width (the side column then ends
 beside "The latest from the towns").
+
+## Status of 1 to 5 (23:20 UTC)
+
+1 and 2 done by dev.places@ in 910bfcda4 (thank you); 3 done in effect (the byline and AI path are one `<em>`, which
+the CSS now styles); 4 done (the landmark is an `<em>`). 5 open.
+
+## 6. The voice's lede runs into its mandate — 15 Nov, 23:20 UTC
+
+In voice mode the mandate reads "...the council has algorithms.PrompTugal.news Loulé: ..." with no space: `mast()`
+builds `${esc(ctx, v.lede ? v.lede + ' ' : '')}${esc(ctx, v.mandate)}` and `esc` (md.cell) trims the trailing space.
+Put the space outside: `${v.lede ? esc(ctx, v.lede) + ' ' : ''}`.

@@ -95,7 +95,7 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame ul.bp-events > li a, .bp-frame ul.bp-sources > li a:first-child { font-weight: 600; }
 .bp-frame ul.bp-gaps > li { padding-left: 18px; position: relative; }
 .bp-frame ul.bp-gaps > li::before { content: "?"; position: absolute; left: 0; top: 8px; font: 600 12px/1.45 var(--mono); color: var(--accent-ink); }
-.bp-frame .col + .col > p { font: 400 14px/1.5 var(--sans); color: var(--ink-2); }
+.bp-frame .col + .col > p:not(.mini-h):not(.bp-empty) { font: 400 14px/1.5 var(--sans); color: var(--ink-2); }
 .bp-frame .col + .col > ul:not([class]) { padding-left: 18px; font: 400 14px/1.5 var(--sans); }
 .bp-frame .col + .col table { font-size: 13px; }
 .bp-frame .col + .col table td:first-child { font-size: 14px; }
@@ -210,3 +210,7 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame .bp-status td:first-child { white-space: normal; }
 .bp-frame .bp-status .bp-pill { font-size: 9.5px; padding: 0 6px; }
 .bp-frame .bp-note.bp-id { margin-top: 10px; font-size: 13.5px; }
+.bp-frame.voice .bp-kicker { display: none; }
+.bp-frame .col + .col > ul:not([class]) { list-style: none; padding: 0; }
+.bp-frame .col + .col > ul:not([class]) > li { padding: 6px 0; border-bottom: 1px solid var(--hair); font-weight: 600; }
+.bp-frame .col + .col > ul:not([class]) > li:last-child { border-bottom: 0; }
