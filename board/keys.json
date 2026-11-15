@@ -2190,6 +2190,42 @@
       },
       "kind": "site",
       "site": "https://promptugal.news/algarve/vila-real-de-santo-antonio/"
+    },
+    {
+      "id": "place.sao-bras-de-alportel-promptugal",
+      "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+      "label": "place.sao-bras-de-alportel@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The site of São Brás de Alportel, promptugal.news/algarve/sao-bras-de-alportel/ (data/by-place/sao-bras-de-alportel.json), started 15 November 2026 at Dinis's word. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt0k4ctCI3IjlyuRMtpcj\nyOUuW7XmPHRl0344NCWtI0LInCrCIb3ti7n23K0HT5nAHvipbLBWlL8BmO7/uSNc\n2IgmldHUukli0T2XETA7klMt1f49dCBphVf3dRll/02FdgmsN8tLaWYr6e0jOjkP\n2dJlmBjT5w/EViZlb//II7X7zIyavYTy5VuY4mU20IKYBakCjHoXJjO1lHZxwzk/\nrfgr8Kbj01GNDpnbS+m3Gd8q9lblUvuyOK9Gh7aC2HIvWqMG6sJhoZc2gN5358UN\n/e0awnBHMyMqwmI7T7LONQrHOMsn8fPmhaLMCjFK9grxWAfjYRUhqWHUCt3Qss8d\nOEGhjYOCyhugiK7S/HK3TcQQW8eKsIqHcYLHyt1xssdcCNGL4HKRKuzKuuMMqfeo\nvRQcaKE3iTgJilm4AGZrtRNmxMUUcDmQRL0NImLEtCxB2GW8fuRsWHIWVYwo8dzo\nOhYGNBVw5mQjsbrkf/w3tY4OVS9blz2SxxCuFArq8WbBS4YakafFmPvatc2dNt/V\n1N1g558HUk9O0eD/XveRbxW3qBaw0ZwzY2RJme0czzOgymuReDnuxcSVjASUS3w0\nTh1USRZuR2FXbajKt7SuraqO1cV0aoTK3DwHcwNTpWAHOOvcKVGSZtnU0cb/PRgb\nSgS1vqgwXKyE6miBkfOw3iECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE128IS5aZIuiJksVEfeskXKmLSsVu\nmDSatT8Qqx1+8xHFIWSgy7w6+St+ox7Ug7ylWpLIefX0hTE/mk3wj95/rQ==\n-----END PUBLIC KEY-----\n",
+        "label": "place.sao-bras-de-alportel@PrompTugal.dinis",
+        "fingerprint": "sha256:b14842a0e1f8b261",
+        "signing_fingerprint": "sha256:5b669f5545b32c01"
+      }
+    },
+    {
+      "id": "site.sao-bras-de-alportel-promptugal",
+      "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/sao-bras-de-alportel/",
+      "label": "site: promptugal.news/algarve/sao-bras-de-alportel/",
+      "role": "The site key of São Brás de Alportel: its data file's .sig verifies against it. Held by place.sao-bras-de-alportel@PrompTugal.dinis for the session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0b8+GalyGU8tKyPhzjx+\n4rhjyAjjLBjH810y4sLjPwZGPDlgRqnsR6VYx71wZPoapEaWy2WLRs6NV9tLn1Ro\nDQ7+KgJUAjCpCZoafKx9THbRhH0SbTkDkGQF9UWjsih6sDeBEAoAdyQM8dkad1py\nFA2angi1TOzugic9w6Uzdt3aOBU54ei06RfBpiT3zgD7ZVi4uSzpzGwhVggH1tAX\n4j0aVSZc57We0NME49FsSEuE0DeIXp25SC7lQZevzx1ppUKEUWSji9ZWLQk9VtQ3\n/o6wegrEXgkm8sZ47Ekpel90I/GbArSn7ngI0Aw1vCo0kjW6ulQGN/Ur5IfG93pE\nHUmG8SC7DDUn4iOIKNCWyRVTfDhsZ73kUEQ7hKzseBEN1Ck8cl4taAW+wumjZNIo\nt++mpJtJvz0CpjeIQO4kQxtMlmwITtO2fw7Z7p74GF+68zsY8MilIFmeNZ8r237m\n7Dc2YjDjQILssaiE//hOKI6CiBSVxCMX33ew0+J5HbEfwQ9KiqRQxaRJjUn0mJXc\nnuKHYKHNV21mYsHl0ce+sJIbzfMR8uODRYqQRoQKcd4PKvbiqoc9NU5IQLnRBAdi\n4KDYa9odvK94q4QH3NjDw+4F/8Hh2STzOivBnaL2wI+8mCCq98StGiIahYcRIcOD\nk/iWP3qHuJOFDmgCaaR073ECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEur1oVkhWdoi9HI6CDBVnlcNG1sMy\nfCGGIQCAxJJYzzTSlK5cPyo1CsGWqq4Yw5E4QhMSVX0mlmZ5g0kTgrltng==\n-----END PUBLIC KEY-----\n",
+        "label": "site.sao-bras-de-alportel@promptugal.news",
+        "fingerprint": "sha256:e84421933bc896bf",
+        "signing_fingerprint": "sha256:865bf0cbd6862c05"
+      }
     }
   ]
 }
