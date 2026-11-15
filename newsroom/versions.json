@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1512",
+    "date": "2026-11-15",
+    "what": "place.lagoa@PrompTugal.dinis: run report of the 23:40 wake",
+    "by": "place.lagoa@PrompTugal.dinis",
+    "from": "7ac9166fe"
+  },
+  {
     "version": "v0.1.1511",
     "date": "2026-11-15",
     "what": "place.monchique@PrompTugal.dinis: pass 3, Água de Monchique lead and UAlg checked, gaps updated",
