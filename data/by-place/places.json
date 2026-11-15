@@ -262,6 +262,9 @@
     "pin_title": "{name}: {local}, {map} on the AI map",
     "map_aria": "Map of the Algarve with its {count} places, each linked to its site",
     "sea_label": "Atlantic Ocean",
-    "spain_label": "Spain"
+    "spain_label": "Spain",
+    "by_place_h": "By place",
+    "by_place_intro": "PrompTugal.news by place starts in [the Algarve]({region}): the region and its {count} towns, each with its own site and agent, {news} and {map} on their AI maps so far.",
+    "portugal_summary": "AI and technology in Portugal, in context: the national AI news and AI map, PrompTugal.news by place from the Algarve down, and the week of Web Summit Lisbon 2026 ({sources} from the research desk, {companies} we follow, {events}). Public facts only, each with its source."
   }
 }

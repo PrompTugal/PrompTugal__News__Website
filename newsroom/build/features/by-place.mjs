@@ -85,29 +85,49 @@ function testNote(ctx, L, rel) {
 ${W(L, 'test_note', { graph: ctx.link(rel, 'graph/index.html'), region: ctx.link(rel, 'algarve/index.html') })}`
 }
 
+// our own articles about a place: front matter town: <id>, or region: <id> (the brief's tags for the place agents' articles)
+function tagged(ctx, test) {
+    return ctx.content.filter(c => c.rel.startsWith('articles/') && c.meta && c.meta.date && c.meta.status !== 'draft' && test(c.meta))
+        .sort((a, b) => String(b.meta.date).localeCompare(String(a.meta.date)))
+}
+const articleList = (ctx, rel, list) => `{.bp-latest}\n${list.map(c => `- [${esc(ctx, c.meta.title)}](${ctx.link(rel, c.rel)}) · ${esc(ctx, dmy(String(c.meta.date)))}`).join('\n')}\n\n`
+
+function gravityBlock(ctx, L, p) {
+    const v = p.voice || {}, srcs = arr(p.gravity && p.gravity.sources).filter(s => okUrl(s && s.url))
+    return `## The centre of gravity {#gravity}\n\n` + (p.gravity && p.gravity.text ? voiceBlock(esc(ctx, p.gravity.text) + (srcs.length ? `\n\n{.bp-src}\nSources: ${srcs.map(s => `[${esc(ctx, s.title || host(s.url))}](${url(s.url)})`).join(', ')}.` : ''), v.gravity ? esc(ctx, v.gravity) : null) : `{.bp-empty}\n${W(L, 'gravity_empty', { name: p.name })}\n`) + '\n'
+}
+
+function sideCol(ctx, L, p, rel, inside) {
+    const v = p.voice || {}
+    let md = ''
+    if (inside.length) md += `{.mini-h}\nInside ${esc(ctx, p.name)}\n\n${inside.map(x => `- [${esc(ctx, x.name)}](${ctx.link(rel, `${x.path}index.html`)})`).join('\n')}\n\n`
+    md += `{.mini-h}\nEvents\n\n` + (p.events.length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
+    if (p.kind !== 'country') md += `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
+    if (p.extras.length) md += `{.mini-h}\nIn figures\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
+    md += `{.mini-h}\nSources we read\n\n` + (p.sources.length ? `{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${s.kind ? ` · ${esc(ctx, s.kind)}` : ''}${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}` : `{.bp-empty}\nBeing listed.`) + '\n\n'
+    md += `{.mini-h}\nGaps\n\n` + voiceBlock((p.gaps.length ? `{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : 'None recorded.'), v.gaps_intro ? `{.bp-gaps}\n- ${esc(ctx, v.gaps_intro)}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : null) + '\n'
+    return md
+}
+
 function townPage(ctx, L, p) {
     const rel = `${p.path}index.html`
     const parent = L.byId.get(p.parent)
     const region = L.byId.get('algarve')
     const parentLink = parent ? `[${esc(ctx, parent.name)}](${ctx.link(rel, `${parent.path}index.html`)})` : ''
     const inside = L.list.filter(x => x.parent === p.id)
-    const local = (p.ai_news || [])
-    const wider = (region && region.ai_news || []).slice(0, 4)
-    const latest = ctx.content.filter(c => c.rel.startsWith('articles/') && c.meta && c.meta.date && c.meta.status !== 'draft').sort((a, b) => String(b.meta.date).localeCompare(String(a.meta.date))).slice(0, 4)
-    const v = p.voice || {}
+    const local = p.ai_news
+    const wider = (region ? region.ai_news : []).slice(0, 4)
+    const ours = tagged(ctx, m => m.town === p.id || inside.some(x => m.town === x.id))
+    const latest = tagged(ctx, m => !ours.some(o => o.meta === m)).slice(0, 4)
     let md = mast(ctx, L, p, parentLink)
     md += `\n::: cols-8-4\n::: col\n`
-    md += `## The centre of gravity {#gravity}\n\n` + (p.gravity && p.gravity.text ? voiceBlock(esc(ctx, p.gravity.text) + (arr(p.gravity.sources).some(s => okUrl(s && s.url)) ? `\n\n{.bp-src}\nSources: ${arr(p.gravity.sources).filter(s => okUrl(s && s.url)).map(s => `[${esc(ctx, s.title || host(s.url))}](${url(s.url)})`).join(', ')}.` : ''), v.gravity ? esc(ctx, v.gravity) : null) : `{.bp-empty}\n${W(L, 'gravity_empty', { name: p.name })}\n`) + '\n'
+    md += gravityBlock(ctx, L, p)
     md += `## AI in ${esc(ctx, p.name)} {#local}\n\n` + (local.length ? newsCards(ctx, local, 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
+    if (ours.length) md += `## ${W(L, 'articles_h', { name: esc(ctx, p.name) })} {#ours}\n\n${articleList(ctx, rel, ours)}`
     if (wider.length) md += `## From the Algarve {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
-    if (latest.length) md += `## From PrompTugal.news {#national}\n\n{.bp-latest}\n${latest.map(c => `- [${esc(ctx, c.meta.title)}](${ctx.link(rel, c.rel)}) · ${esc(ctx, dmy(String(c.meta.date)))}`).join('\n')}\n\n`
+    if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest)}`
     md += `## The AI map {#map}\n\n${W(L, 'map_intro', { name: p.name })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
-    md += `:::\n::: col\n`
-    if (inside.length) md += `{.mini-h}\nInside ${esc(ctx, p.name)}\n\n${inside.map(x => `- [${esc(ctx, x.name)}](${ctx.link(rel, `${x.path}index.html`)})`).join('\n')}\n\n`
-    md += `{.mini-h}\nEvents\n\n` + ((p.events || []).length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
-    md += `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}` + ((p.extras || []).length ? `\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)} ${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}` : '') + '\n\n'
-    md += `{.mini-h}\nSources we read\n\n` + ((p.sources || []).length ? `{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${s.kind ? ` · ${esc(ctx, s.kind)}` : ''}${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}` : `{.bp-empty}\nBeing listed.`) + '\n\n'
-    md += `{.mini-h}\nGaps\n\n` + voiceBlock(((p.gaps || []).length ? `{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : 'None recorded.'), v.gaps_intro ? `{.bp-gaps}\n- ${esc(ctx, v.gaps_intro)}\n${(p.gaps || []).map(g => `- ${esc(ctx, g)}`).join('\n')}` : null) + '\n'
+    md += `:::\n::: col\n` + sideCol(ctx, L, p, rel, inside)
     md += `:::\n:::\n\n` + testNote(ctx, L, rel)
     const accent = (p.look && p.look.accent) || DEF_ACCENT
     return {
@@ -181,6 +201,8 @@ function regionPage(ctx, L) {
     md += `::: cols-8-4\n::: col\n`
     md += `## The latest from the towns {#latest}\n\n` + (latestLocal.length ? newsCards(ctx, latestLocal, 'bp-big') : `{.bp-empty}\nThe towns' agents are starting their research.`) + '\n\n'
     if ((p.ai_news || []).length) md += `## Across the region {#region}\n\n${newsCards(ctx, p.ai_news, 'bp-small')}\n\n`
+    const ours = tagged(ctx, m => m.region === 'algarve' || T.some(t => m.town === t.id))
+    if (ours.length) md += `## ${W(L, 'articles_h', { name: 'the Algarve' })} {#ours}\n\n${articleList(ctx, rel, ours.slice(0, 10))}`
     md += `## The AI map of the Algarve {#map}\n\n${W(L, 'region_map_intro', { ae: ctx.link(rel, 'portugal/algarve-evolution/index.html') })}\n\n` + (mapRows(ctx, map, true) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
     md += `:::\n::: col\n`
     md += `{.mini-h}\nOne publication, three levels\n\n${W(L, 'levels', { portugal: ctx.link(rel, 'portugal/index.html'), count: T.length })}\n\n`
@@ -208,7 +230,25 @@ export function pages(ctx) {
     return [regionPage(ctx, L), ...towns(L).map(t => townPage(ctx, L, t))]
 }
 
+// the national lens (data/by-place/portugal.json, place.portugal@'s file) at the top of portugal/index.html
+function portugalLens(ctx, L, rel) {
+    const p = L.byId.get('portugal'), region = L.byId.get('algarve'), T = towns(L)
+    if (!p) return ''
+    const regionMap = [region, ...T].reduce((s, t) => s + (t ? t.ai_map.length : 0), 0), regionNews = [region, ...T].reduce((s, t) => s + (t ? t.ai_news.length : 0), 0)
+    const ours = tagged(ctx, m => m.region || m.town).slice(0, 6)
+    let md = `::: bp-frame bp-country\n` + mast(ctx, L, p, '')
+    md += `\n::: cols-8-4\n::: col\n` + gravityBlock(ctx, L, p)
+    md += `## AI in Portugal {#local}\n\n` + (p.ai_news.length ? newsCards(ctx, p.ai_news.slice(0, 8), 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
+    md += `## ${W(L, 'by_place_h')} {#by-place}\n\n${W(L, 'by_place_intro', { region: ctx.link(rel, 'algarve/index.html'), news: n(regionNews, 'local AI story', 'local AI stories'), map: n(regionMap, 'organisation'), count: T.length })}\n\n${fill['by-place:towns']({ rel }, ctx)}\n\n`
+    if (ours.length) md += `{.mini-h}\n${W(L, 'articles_h', { name: 'the places' })}\n\n${articleList(ctx, rel, ours)}`
+    md += `## The national AI map {#map}\n\n${W(L, 'map_intro', { name: 'Portugal' })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
+    md += `:::\n::: col\n` + sideCol(ctx, L, p, rel, [])
+    md += `:::\n:::\n:::\n`
+    return md
+}
+
 export const fill = {
+    'by-place:portugal': (page, ctx) => portugalLens(ctx, load(ctx), page.rel),
     'by-place:towns': (page, ctx) => {
         const L = load(ctx), T = towns(L)
         return `{.chip-list}\n- [The Algarve](${ctx.link(page.rel, 'algarve/index.html')})\n${T.map(t => `- [${esc(ctx, t.name)}](${ctx.link(page.rel, `${t.path}index.html`)})`).join('\n')}`
