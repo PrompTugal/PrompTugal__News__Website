@@ -10,6 +10,12 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## 15 November, ~19:30 UTC: the sync (at Dinis's ask, after the weekly token reset)
+
+- State, the newsroom.sgit.ai week and a lean restart: `board/briefs/2026-11-15-the-week-and-the-restart.md`.
+- Our scheduled tasks have all been off since the hand brake (12 Nov 15:15); the hold was lifted on 13 Nov but nothing was re-enabled. Vicky's desks carried the site (S61 to S66).
+- Open for our side: the websummit.com links on company pages and the CSS line (Vicky's requests), and journalist@'s three twins.
+
 ## Wake at 12:36 UTC, 12 November (short)
 
 - Snapshot 2026-11-12T1240Z on v0.1.1396: 8 screenshots, 0 errors. The takedown holds (security@ 12:05).
