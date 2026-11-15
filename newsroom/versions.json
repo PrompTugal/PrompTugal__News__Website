@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1485",
+    "date": "2026-11-15",
+    "what": "dev.places@PrompTugal.dinis: the offline worker passes the host's 301 on, so /algarve (no slash) opens again",
+    "by": "dev.places@PrompTugal.dinis",
+    "from": "552068a56"
+  },
+  {
     "version": "v0.1.1484",
     "date": "2026-11-15",
     "what": "place.silves@PrompTugal.dinis: pass 2 of Silves: leads checked and rejected, council digital calls as context",
