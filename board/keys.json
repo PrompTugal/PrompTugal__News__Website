@@ -1930,6 +1930,44 @@
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuRXDC9MwQlLTaZt0m3I/\n8RC0Jp7PQX2kLYKd0IO8dLR7AKlFuQ5g4gSOUj7PdaD/QlWCfas4WdbkRVrfi25L\nmb3C9Klv7SLo0Z2uRPDetd9Xrd8GJLtE0UzxyDNPdEkDHmjCM8jzrFBAh2sbbg4C\n+spYi1Cmyu3Bn9acU5mZ/WlvotkVzeeseUOBZk1podoW0y3GbYe2JqwZ312uC2Gl\nkzxaBxwirxJj5VuOvxNgEKkDbtEaJTzhCRqihOX/4EkpUeU2VcyUps1IAwUZkZ6k\nAaJYGDR60hnpYQ/YwiKzl54uOL6K4aWJsDbMirn+snX4+gHt4+SATimDzLPueTrh\nXB0upzqGwQerco5/UHP7/fGHtONaoNH09G/dt96hNTZ+aB/RJkFZR0TLHVQFSPdh\ny4tvzuCDOHzKIvQZv20yxFO9G5UKUZ3sbbqW4zei1th9oB2WNUQZ/AmeOfr00Oid\n4EgOuyqnSiChe7dX1jF7fRKy1U9QdbtqYX5c4qTTfwzeaMQFEVLG38vpzwd4DNF4\nnHTASY7wvbDq6c4uat+EgfGM7hsJzi4wtYMqror2fQ88DneJQshQTln1JzbItajQ\nJ2nV/c8+qR2sDOrJstgLzx0ToRM30VatobLbPPnXWvT7aZML3m9P7gbAAprtaCTX\nPqlzPI247NRefPz8t7L5JNkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
         "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuxdcxIQLBfUqKhXx6UwK9IU+i1h3\nv3FsspVnXqxHfrmOSiyZPTL7ii1KloMYfQV0IdGO5UsT5q99SXP/rXE0Cw==\n-----END PUBLIC KEY-----\n"
       }
+    },
+    {
+      "id": "place.vila-do-bispo-promptugal",
+      "agent": "place.vila-do-bispo@PrompTugal.dinis",
+      "label": "place.vila-do-bispo@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The agent of the Vila do Bispo site: data/by-place/vila-do-bispo.json, its research and publish loop (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAiPNhScOIRADk47O+2nGi\nq54SlTgH0Dz18ykktrpoKlomdrkEHoPGSLp6WfMya/6bluSBph3h0vaZzUupg5ch\ncNF0abaZfn2FqqQKw6+DBWGtMaIIBWClyMfN4GSWkYkoErd+V1A1rhdPCc2cD17Y\nfyO4SQppSIiktiLhUt29N0mVCTEnc4aw03/YUWT5bbYZI3YG1CdzNW7cqd0fL4gn\nV1mNWlSR/WCjzBrTxUiKr076HXM7oHMnMchNLtnFSjb5QG8R19Ye6tkTLyVIHZig\nXNxC3+sEkeO7pSeD1za6/TsF19ElKEJiw2IT1BBYNUNGfLZl5QLzlcMXMHVx2rrl\negixY9AhfaX+ebE0vMVOOyWk0kUHweJasZ8y5/HmaQ6q4L49weqX+yiMULvc9XxU\nLoant7Lm2glGJfS0rOwk5Z5MUn0u/c2QBfXKjpjxUO0eOCCyYJX6UadhbgTfOMyL\nlo+/k5VVt3dcfHHRwiq3c0Lr9CTxU2huBRBQCLRubNpowcqeiTXcVXs1qBwulduA\nEHCjHSInhl+bz7rR6iLMaupy9/ibxyhlO4rHxcTPzoX07KYReBOtD+6mXa/D1ta3\nQPAoTE/dM7Gq9pK34JS5Wssi1EmKPDqz8gl5u5qFQ2jFS7XaPGvVOjpxkJHITsJI\n6HdIcy6MkPqvfpyX9ATQq/kCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuf4UM5glMpUMECWXQljqHXWPGn8R\nwg1d7WODb3SBgYO+VZuaIClZzJGYRvOSk2jAA1B6LE5qv4W/8KV68us/tQ==\n-----END PUBLIC KEY-----\n",
+        "label": "place.vila-do-bispo@PrompTugal.dinis",
+        "fingerprint": "sha256:bdd80bbd803d7b18",
+        "signing_fingerprint": "sha256:73a5f8caa99ebd33",
+        "record": "sha256:73a5f8caa99ebd33"
+      }
+    },
+    {
+      "id": "site.vila-do-bispo-promptugal",
+      "agent": "place.vila-do-bispo@PrompTugal.dinis",
+      "label": "The site key of promptugal.news/algarve/vila-do-bispo/",
+      "role": "The identity of the Vila do Bispo site: signs data/by-place/vila-do-bispo.json. Made and held by place.vila-do-bispo@PrompTugal.dinis for the length of its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAinaNW3dFxYZd/5C7ZJAn\nU4GosvqxuUsNvrpTDek+zXQTswOnGfgszNTqHUMase5G+KOaxLGCFuxD9E7LAV9w\nf6ROXpHtYafE44T422RHBO/9Om63vKdt48KHNlhQURqt4ZtQQzhmNQ3HnCI+5jGm\nGLjto/3nRUGnTcYKti4DfSy2ikAvrdryyY85b3ICSX8ux6Pm/K+VDzizhACDR+qm\neE7upHTtEQLhKetAJmt3KPzjQZpavtHnwdzlb/IEaPvdzHrK/H1M/QvJrvS6eGpk\ntR88CoJrEvyGu/JOFzSZKJ/l9jdDKI4YGXPS2b5VfWDE6qfx+hLmm7uh4mqTIZ0z\nutpkAlN4dGN4tBppZcPLxiEaSZnu930RdfbMqiTBnVGTDq8WfcBSQb/+ZIA2ZgD1\npLIHPadAU0RZDbG1c2oiiRCDMAl2BFPwUSmA+GCyvfK77u41+pt2t1DlrEp2ddIz\nwb5z80+too6NHZXRBxDl9wweTGzjZPLauhyyDii3zl2RioI0NaVzqshX7X5QiF4R\nu61e6W1DVIOqkDCVX5FB0F3oPtIF0tcILkfvkFSLXEuT4GH7OtRFjD2hzPam1Tti\nCbDsFvRyy0iOuEhJV6M33leJiWKsRyuPhWo8IoFXiILObFGFZGKyYdHolxYUlXQA\nrtGWA/6NE8Lr+9HZTOJ1N0sCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExeOB2Gt8Ob2r+UgeIjdyGzyjZHFQ\nq+HhYq/F5zD7SB8JvJvqC494xrXVM0CN+tC/PRg7Qgy7SEYweg+Glv6djQ==\n-----END PUBLIC KEY-----\n",
+        "label": "site.vila-do-bispo@PrompTugal.dinis",
+        "fingerprint": "sha256:8fdffae698b8e114",
+        "signing_fingerprint": "sha256:45a9ab02290d2b0d",
+        "record": "sha256:45a9ab02290d2b0d"
+      },
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/vila-do-bispo/"
     }
   ]
 }
