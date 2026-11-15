@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/by-place.schema.json",
+  "title": "One place's site: its research (data/by-place/<id>.json)",
+  "description": "Written by the place's own agent (place.<id>@PrompTugal.dinis), every fact with its URL and the date read. Passes the PrompTugal test: AI directly or within two or three steps, the path written down.",
+  "type": "object",
+  "required": ["id", "name", "kind", "parent", "mandate", "status", "updated", "by"],
+  "properties": {
+    "$schema": { "$ref": "common.schema.json#/$defs/schema_link" },
+    "id": { "$ref": "common.schema.json#/$defs/slug" },
+    "name": { "type": "string", "minLength": 1 },
+    "kind": { "enum": ["country", "region", "municipality", "city"] },
+    "parent": { "type": "string" },
+    "status": { "enum": ["stub", "researching", "live"] },
+    "updated": { "type": "string" },
+    "by": { "type": "string" },
+    "mandate": { "type": "string", "minLength": 10 },
+    "gravity": { "type": "object", "properties": { "text": { "type": "string" }, "sources": { "type": "array", "items": { "type": "object", "required": ["url"], "properties": { "title": { "type": "string" }, "url": { "type": "string" }, "read_on": { "type": "string" } } } } } },
+    "look": { "type": "object", "properties": { "accent": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" }, "landmark": { "type": "string" }, "motif": { "type": "string" } } },
+    "ai_news": { "type": "array", "items": { "type": "object", "required": ["title", "url", "read_on", "ai_path"], "properties": { "title": { "type": "string" }, "summary": { "type": "string" }, "date": { "type": "string" }, "publisher": { "type": "string" }, "url": { "type": "string" }, "read_on": { "type": "string" }, "ai_path": { "type": "string" }, "steps": { "type": "integer", "minimum": 0, "maximum": 3 } } } },
+    "ai_map": { "type": "array", "items": { "type": "object", "required": ["name", "source_url", "read_on"], "properties": { "name": { "type": "string" }, "type": { "enum": ["company", "startup", "organisation", "institution", "community", "public body", "investor"] }, "url": { "type": "string" }, "what": { "type": "string" }, "source_url": { "type": "string" }, "read_on": { "type": "string" }, "ai_path": { "type": "string" }, "steps": { "type": "integer", "minimum": 0, "maximum": 3 } } } },
+    "sources": { "type": "array", "items": { "type": "object", "required": ["name", "url"], "properties": { "name": { "type": "string" }, "url": { "type": "string" }, "kind": { "type": "string" }, "feed": {} } } },
+    "events": { "type": "array", "items": { "type": "object", "required": ["title", "url"], "properties": { "title": { "type": "string" }, "date": { "type": "string" }, "url": { "type": "string" }, "read_on": { "type": "string" }, "ai_path": {} } } },
+    "extras": { "type": "array", "items": { "type": "object", "required": ["label", "value", "source_url"], "properties": { "label": { "type": "string" }, "value": { "type": "string" }, "source_url": { "type": "string" }, "read_on": { "type": "string" } } } },
+    "gaps": { "type": "array", "items": { "type": "string" } },
+    "voice": { "type": "object", "properties": { "lede": { "type": "string" }, "mandate": { "type": "string" }, "gravity": { "type": "string" }, "gaps_intro": { "type": "string" } } },
+    "identity": { "type": "object", "properties": { "key_id": { "type": "string" }, "signed_by": { "type": "string" } } }
+  }
+}

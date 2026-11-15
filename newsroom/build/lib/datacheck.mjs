@@ -10,6 +10,8 @@ import { derivationInputs, derivedOnDisk, loadData } from './data.mjs'
 
 // which schema a data file follows, by its path
 export const KINDS = [
+    [/^data\/by-place\/places\.json$/, 'by-place-list'],   // PrompTugal.news by place: the list of places (Dinis's brief, 14 Nov)
+    [/^data\/by-place\/[^/]+\.json$/, 'by-place'],           // one place's research, kept by its agent
     [/^data\/companies\/[^/]+\/company\.json$/, 'company'],
     [/^data\/companies\/[^/]+\/sources\.json$/, 'company-sources'],
     [/^data\/companies\/[^/]+\/facts\.json$/, 'company-facts'],

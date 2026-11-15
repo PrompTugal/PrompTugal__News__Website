@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/by-place-list.schema.json",
+  "title": "The list of places with a site of their own (data/by-place/places.json)",
+  "description": "PrompTugal.news by place (Dinis's brief, 14 November 2026): making a place is one entry in this list. The build makes a page per place at its path; each place's research is data/by-place/<id>.json.",
+  "type": "object",
+  "required": [
+    "places"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "about": {
+      "type": "string"
+    },
+    "places": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "kind",
+          "parent",
+          "path",
+          "agent"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/slug"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "country",
+              "region",
+              "municipality",
+              "city"
+            ]
+          },
+          "parent": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^[a-z0-9/-]+/$"
+          },
+          "agent": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "copy": {
+      "type": "object",
+      "description": "The pages' words (the quality gate keeps prose out of code); {name}-style placeholders are filled by the build."
+    }
+  }
+}

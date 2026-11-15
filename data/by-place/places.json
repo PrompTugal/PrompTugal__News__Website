@@ -1,0 +1,171 @@
+{
+  "$schema": "../schemas/by-place-list.schema.json",
+  "about": "PrompTugal.news by place (Dinis's brief, 14 November 2026; board/guidance/2026-11-14-promptugal-by-place.md). One entry makes a place; its research is data/by-place/<id>.json, kept by its agent.",
+  "places": [
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "kind": "country",
+      "parent": "",
+      "path": "portugal/",
+      "agent": "place.portugal@PrompTugal.dinis"
+    },
+    {
+      "id": "algarve",
+      "name": "The Algarve",
+      "kind": "region",
+      "parent": "portugal",
+      "path": "algarve/",
+      "agent": "place.algarve@PrompTugal.dinis"
+    },
+    {
+      "id": "faro",
+      "name": "Faro",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/faro/",
+      "agent": "place.faro@PrompTugal.dinis"
+    },
+    {
+      "id": "loule",
+      "name": "Loulé",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/loule/",
+      "agent": "place.loule@PrompTugal.dinis"
+    },
+    {
+      "id": "quarteira",
+      "name": "Quarteira",
+      "kind": "city",
+      "parent": "loule",
+      "path": "algarve/quarteira/",
+      "agent": "place.quarteira@PrompTugal.dinis"
+    },
+    {
+      "id": "silves",
+      "name": "Silves",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/silves/",
+      "agent": "place.silves@PrompTugal.dinis"
+    },
+    {
+      "id": "tavira",
+      "name": "Tavira",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/tavira/",
+      "agent": "place.tavira@PrompTugal.dinis"
+    },
+    {
+      "id": "vila-real-de-santo-antonio",
+      "name": "Vila Real de Santo António",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/vila-real-de-santo-antonio/",
+      "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis"
+    },
+    {
+      "id": "portimao",
+      "name": "Portimão",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/portimao/",
+      "agent": "place.portimao@PrompTugal.dinis"
+    },
+    {
+      "id": "lagos",
+      "name": "Lagos",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/lagos/",
+      "agent": "place.lagos@PrompTugal.dinis"
+    },
+    {
+      "id": "olhao",
+      "name": "Olhão",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/olhao/",
+      "agent": "place.olhao@PrompTugal.dinis"
+    },
+    {
+      "id": "albufeira",
+      "name": "Albufeira",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/albufeira/",
+      "agent": "place.albufeira@PrompTugal.dinis"
+    },
+    {
+      "id": "lagoa",
+      "name": "Lagoa",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/lagoa/",
+      "agent": "place.lagoa@PrompTugal.dinis"
+    },
+    {
+      "id": "monchique",
+      "name": "Monchique",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/monchique/",
+      "agent": "place.monchique@PrompTugal.dinis"
+    },
+    {
+      "id": "aljezur",
+      "name": "Aljezur",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/aljezur/",
+      "agent": "place.aljezur@PrompTugal.dinis"
+    },
+    {
+      "id": "vila-do-bispo",
+      "name": "Vila do Bispo",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/vila-do-bispo/",
+      "agent": "place.vila-do-bispo@PrompTugal.dinis"
+    },
+    {
+      "id": "castro-marim",
+      "name": "Castro Marim",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/castro-marim/",
+      "agent": "place.castro-marim@PrompTugal.dinis"
+    },
+    {
+      "id": "alcoutim",
+      "name": "Alcoutim",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/alcoutim/",
+      "agent": "place.alcoutim@PrompTugal.dinis"
+    },
+    {
+      "id": "sao-bras-de-alportel",
+      "name": "São Brás de Alportel",
+      "kind": "municipality",
+      "parent": "algarve",
+      "path": "algarve/sao-bras-de-alportel/",
+      "agent": "place.sao-bras-de-alportel@PrompTugal.dinis"
+    }
+  ],
+  "copy": {
+    "test_note": "Every story here passes **the PrompTugal test**: it is about AI, directly or within two or three steps, and the path is written down with it. Place decides where a story shows and how big; AI decides whether it is ours at all. Every fact links to its source with the date it was read. Nothing comes from Web Summit's website, and no contact details are published. This page is one lens on [the publication's shared graph]({graph}); [PrompTugal.news by place]({region}) explains the levels.",
+    "gravity_empty": "The place's agent is finding what {name} is about, from sources.",
+    "local_empty": "No local AI story found yet. A town with no AI news is a finding in itself: it tells us which sources and connections to look for.",
+    "map_intro": "The companies, institutions and communities in {name} with a path to AI, each from a public source.",
+    "weather": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.pt/en/), Portugal's weather service.",
+    "towns_intro": "The 16 municipalities of the Algarve and the city of Quarteira, each with its own site and its own agent. Each site is a lens on the same stories: local news big, national and international AI news picked for what it means there.",
+    "region_map_intro": "Every company, institution and community with a path to AI that the places' agents have mapped, each from a public source. [Algarve Evolution]({ae}), the association building the region's innovation ecosystem, is one of them.",
+    "levels": "- **Portugal:** [promptugal.news]({portugal}), with Europe and the world\n- **The Algarve:** this page\n- **The towns:** {count} sites below it\n\nNews flows **down** (national and international AI news, picked for what it means here) and **up** (local sources, rising when they matter).",
+    "town_summary": "AI and technology in {name}, in the Algarve: {local}, {map} on the AI map, every fact sourced.",
+    "region_summary": "AI and technology across the Algarve and its {count} towns: {local} and {map} on the region's AI map, every fact sourced.",
+    "voice_label": "Playful local voice: same facts, said the Algarvio way"
+  }
+}
