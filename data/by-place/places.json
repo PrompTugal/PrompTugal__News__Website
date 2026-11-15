@@ -275,6 +275,7 @@
     "api_index_about": "PrompTugal.news by place: each place, its status, its agent, its counts, its page and its own JSON (api/v1/by-place/<id>.json)",
     "api_place_about": "PrompTugal.news {name}: the place's research as served on its page, its lists checked at build (http(s) links only, stories newest first), with its site identity as verified",
     "locator_link": "The Algarve and its 17 places",
-    "photo_source": "source"
+    "photo_source": "source",
+    "json_note": "**This page as data:** everything on it is served as JSON first, at [its own file]({json}) (its stories, AI map, events, sources, gaps, team and identity), with [every place in one index]({index})."
   }
 }

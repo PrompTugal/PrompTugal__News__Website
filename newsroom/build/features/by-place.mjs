@@ -105,7 +105,7 @@ function testNote(ctx, L, rel, p) {
     return `## How this page is made {#how}
 
 {.bp-note}
-${W(L, 'test_note', { graph: ctx.link(rel, 'graph/index.html'), region: ctx.link(rel, 'algarve/index.html') })}${identityNote(ctx, L, p)}`
+${W(L, 'test_note', { graph: ctx.link(rel, 'graph/index.html'), region: ctx.link(rel, 'algarve/index.html') })}${identityNote(ctx, L, p)}${p ? `\n\n{.bp-note .bp-id}\n${W(L, 'json_note', { json: ctx.link(rel, `api/v1/by-place/${p.id}.json`), index: ctx.link(rel, 'api/v1/by-place/index.json') })}` : ''}`
 }
 
 // our own articles about a place: front matter town: <id>, or region: <id> (the brief's tags for the place agents' articles)
@@ -208,14 +208,20 @@ function townStyles(ctx, T) {
     return T.map((t, i) => fillT(TMPL.card, { i: i + 1, accent: (t.look && t.look.accent) || DEF_ACCENT }) + (TMPL[`card-${t.status}`] ? fillT(TMPL[`card-${t.status}`], { i: i + 1 }) : '')).join('')
 }
 
+// what the region page computes from the towns' files, shared with its JSON (JSON first: nothing only in the HTML)
+function regionAgg(L) {
+    const p = L.byId.get('algarve'), T = towns(L), allMap = []
+    for (const t of [p, ...T]) for (const m of t.ai_map) allMap.push({ ...m, _place: t.id === 'algarve' ? 'the region' : t.name, _place_id: t.id })
+    const seen = new Set(), map = allMap.filter(m => { const k = m.name.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true })
+    const localCount = T.reduce((s, t) => s + t.ai_news.length, 0)
+    const latestLocal = T.flatMap(t => t.ai_news.map(a => ({ ...a, _town: t.name, _town_id: t.id }))).sort((a, b) => String(b.date || '').localeCompare(String(a.date || ''))).slice(0, 8)
+    return { map, localCount, latestLocal, live: T.filter(t => t.status === 'live').length, places: T.length }
+}
+
 function regionPage(ctx, L) {
     const p = L.byId.get('algarve'), rel = 'algarve/index.html'
     const T = towns(L)
-    const allMap = []
-    for (const t of [p, ...T]) for (const m of (t.ai_map || [])) allMap.push({ ...m, _place: t.id === 'algarve' ? 'the region' : t.name })
-    const seen = new Set(), map = allMap.filter(m => { const k = m.name.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true })
-    const localCount = T.reduce((s, t) => s + (t.ai_news || []).length, 0)
-    const latestLocal = T.flatMap(t => t.ai_news.map(a => ({ ...a, _town: t.name }))).sort((a, b) => String(b.date || '').localeCompare(String(a.date || ''))).slice(0, 8)
+    const { map, localCount, latestLocal } = regionAgg(L)
     let md = mast(ctx, L, p, `[Portugal](${ctx.link(rel, 'portugal/index.html')})`)
     md += `\n{.bp-tiles}\n- **${T.length}** places in the first wave\n- **${localCount}** local AI stories\n- **${map.length}** on the AI map\n- **${T.filter(t => t.status === 'live').length}** places live\n\n`
     md += `## The map {#places}\n\n{.bp-lede}\n${W(L, 'region_map_lede')}\n\n{.bp-svgmap}\n${T.map(t => `[${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)})`).join(' · ')}\n\n`
@@ -270,7 +276,7 @@ function portugalLens(ctx, L, rel) {
     if (ours.length) md += `{.mini-h}\n${W(L, 'articles_h', { name: 'the places' })}\n\n${articleList(ctx, rel, ours)}`
     md += `## The national AI map {#map}\n\n${W(L, 'map_intro', { name: 'Portugal' })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
     md += `:::\n::: col\n` + sideCol(ctx, L, p, rel, [])
-    md += `:::\n:::\n${identityNote(ctx, L, p)}\n:::\n`
+    md += `:::\n:::\n${identityNote(ctx, L, p)}\n\n{.bp-note .bp-id}\n${W(L, 'json_note', { json: ctx.link(rel, 'api/v1/by-place/portugal.json'), index: ctx.link(rel, 'api/v1/by-place/index.json') })}\n:::\n`
     return md
 }
 
@@ -300,6 +306,12 @@ function placeRecord(ctx, L, p) {
         counts: { ai_news: p.ai_news.length, ai_map: p.ai_map.length, events: p.events.length, sources: p.sources.length, articles: arts.length },
         ai_news: p.ai_news, ai_map: p.ai_map, events: p.events, sources: p.sources, extras: p.extras, gaps: p.gaps, voice: p.voice || null,
         articles: arts,
+        team: { agent: p.agent, status: `${SITE_URL}board/team/${p.agent.split('@')[0]}/status.json`, debriefs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/team/${p.agent.split('@')[0]}/debriefs`, runs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/runs/${p.agent.split('@')[0]}` },
+        ...(p.id === 'algarve' ? (() => { const g = regionAgg(L); return { region: {
+            places: g.places, live: g.live, local_ai_news: g.localCount,
+            latest_from_towns: g.latestLocal.map(({ _town, _town_id, ...a }) => ({ ...a, town: _town_id })),
+            ai_map: g.map.map(({ _place, _place_id, ...m }) => ({ ...m, place: _place_id })),
+        } } })() : {}),
         identity: { key_id: r.site_key || (p.identity && p.identity.key_id) || null, signed_by: r.agent || null, signature: r.signature || 'unchecked', keys: SITE_URL + 'board/keys.json' },
     }
 }
