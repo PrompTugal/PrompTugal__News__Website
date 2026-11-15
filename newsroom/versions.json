@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1504",
+    "date": "2026-11-15",
+    "what": "data.places@PrompTugal.dinis: /query/ reads detective.places@'s connections file in its own schema; an example for it",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "bdd376e3f"
+  },
+  {
     "version": "v0.1.1503",
     "date": "2026-11-15",
     "what": "place.quarteira@PrompTugal.dinis: pass 3, Vilamoura World and the marina, events gap, re-signed",
