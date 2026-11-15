@@ -1,0 +1,94 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-15T20-57-45Z",
+ "started": "2026-11-15T20:57:45.786Z",
+ "ended": "2026-11-15T21:08:07Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "a9c449b9ffda852f"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T20:57:59.316Z",
+   "chars": 66,
+   "sha256": "a14b805197e70ea7",
+   "head": "ok, have you seen the plan to run the multiple regional newsrooms?"
+  },
+  {
+   "t": "2026-11-15T20:58:38.659Z",
+   "chars": 22,
+   "sha256": "5088ae54f7e9c8e3",
+   "head": "namely in the algarve?"
+  },
+  {
+   "t": "2026-11-15T21:05:58.206Z",
+   "chars": 156,
+   "sha256": "d2f90d7225f6b7f3",
+   "head": "@\"/root/.claude/uploads/d568dcd9-060a-5265-b188-12677bff3903/2e7fbc31-PrompTugal-by-place-brief.pdf\" ok, it is on web-summit.sgit.ai and on the attached pdf"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T20:57:45.786Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T21:05:48.329Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 14,
+  "by_kind": {
+   "web": 3,
+   "remote-read": 2,
+   "git": 4,
+   "read": 1,
+   "shell": 3,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 14,
+  "commits": [
+   {
+    "sha": "263f2e711",
+    "subject": "conductor@PrompTugal.dinis: Dinis's brief 'PrompTugal.news by place' recorded for this repository's agents; the address question asked",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 14,
+  "in_mandate": 14,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
