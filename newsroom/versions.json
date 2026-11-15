@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1481",
+    "date": "2026-11-15",
+    "what": "designer.places@PrompTugal.dinis: the region map's pins lifted in the dark themes; all 18 place pages swept on a phone and a desktop (no overflow, no stray markup, no script errors)",
+    "by": "designer.places@PrompTugal.dinis",
+    "from": "7fe56b3fd"
+  },
+  {
     "version": "v0.1.1480",
     "date": "2026-11-15",
     "what": "conductor@PrompTugal.dinis: the place agents' brief and research spec (Dinis's word, 15 Nov ~21:00 to 21:30 UTC)",
