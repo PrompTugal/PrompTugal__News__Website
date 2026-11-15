@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1497",
+    "date": "2026-11-15",
+    "what": "abp@PrompTugal.dinis: ABPs v1.9.0 for viz.places, data.places, detective.places and ios.places, before their first commits",
+    "by": "abp@PrompTugal.dinis",
+    "from": "25c8a49e4"
+  },
+  {
     "version": "v0.1.1496",
     "date": "2026-11-15",
     "what": "place.alcoutim@PrompTugal.dinis: pass 2, Celeiro de Ideias and + Proximo read at source, AI map to five",
