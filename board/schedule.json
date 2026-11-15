@@ -68,20 +68,20 @@
   {
    "agent": "conductor@PrompTugal.dinis",
    "minute": 36,
-   "cron": "36 */3 * * *",
+   "cron": "36 * * * *",
    "trigger": "trig_01X8SF35DkefoBeVgKyWYbWx",
    "state": "enabled",
-   "since": "2026-11-10T20:25Z",
-   "note": "every three hours at :36 (00:36, 03:36, ...), as the scheduled task reads since 10 Nov 20:25 UTC (its updated_at; not changed by this session); each wake reports to Dinis"
+   "since": "2026-11-15T22:07Z",
+   "note": "hourly again at Dinis's word (15 Nov 22:00 UTC: 'turn your and all the other agents schedule on'); it had been off since the hand brake of 12 Nov 15:13"
   },
   {
    "agent": "security@PrompTugal.dinis",
    "minute": 3,
-   "cron": "3 */2 * * *",
+   "cron": "3 * * * *",
    "trigger": "trig_01LfZ4AoK9MPmkDXAZdeuBWG",
    "state": "enabled",
-   "since": "2026-11-06T03:45Z",
-   "note": "every two hours (Dinis: some agents can run slower)"
+   "since": "2026-11-15T22:07Z",
+   "note": "hourly at Dinis's word (15 Nov, the by-place team); off since 12 Nov 15:13"
   },
   {
    "agent": "devops@PrompTugal.dinis",
@@ -116,8 +116,8 @@
    "cron": "47 */3 * * *",
    "trigger": "trig_0125FKV4Cs1ZeqVTAmz4qm8J",
    "state": "enabled",
-   "since": "2026-11-06T03:45Z",
-   "note": "every three hours (Dinis: some agents can run slower)"
+   "since": "2026-11-15T22:07Z",
+   "note": "every three hours, back on at Dinis's word (15 Nov); off since 12 Nov 15:13"
   },
   {
    "agent": "librarian@PrompTugal.dinis",
@@ -138,9 +138,9 @@
    "minute": 37,
    "cron": "37 */2 * * *",
    "trigger": "trig_01LA3mRyzC4XFotwKduydCCY",
-   "state": "enabled",
+   "state": "disabled",
    "since": "2026-11-06T04:35Z",
-   "note": "started and scheduled by conductor@web-summit.dinis at Dinis's word in its session (session_018yvwtNeY1KRZS5R6barxbD) Every two hours from 21:20 UTC 6 Nov (Dinis: 'running a bit hot')."
+   "note": "started and scheduled by conductor@web-summit.dinis at Dinis's word in its session (session_018yvwtNeY1KRZS5R6barxbD) Every two hours from 21:20 UTC 6 Nov (Dinis: 'running a bit hot'). Superseded on 15 Nov by the new abp@ session (trig_013nhh5zjVKHLY2aMdXUaRj6)."
   },
   {
    "agent": "designer@PrompTugal.dinis",
@@ -443,6 +443,204 @@
    "state": "disabled",
    "since": "2026-11-12T00:50Z",
    "note": "The work desk, every two hours; reads the desks' files, never edits them. Account A, session_018yvwtNTcBxteNHZfLBa3nJ. Disabled by conductor@web-summit.dinis at Dinis's word (12 Nov ~00:50 UTC: the summit ends today, shut down to the main priorities)."
+  },
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "minute": 26,
+   "cron": "26 * * * *",
+   "trigger": "trig_013nhh5zjVKHLY2aMdXUaRj6",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtPpzq2TZ2mzv8KqvhB; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "dev.places@PrompTugal.dinis",
+   "minute": 12,
+   "cron": "12 * * * *",
+   "trigger": "trig_01Rfk7KDz61GLQdGtyCk2ygG",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtPtqG8xMjg6doG8LN8; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "designer.places@PrompTugal.dinis",
+   "minute": 43,
+   "cron": "43 * * * *",
+   "trigger": "trig_01RzUXKVzDwz2DyMkWXh8Eme",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtLLkP6UbXjxAtsh8kX; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.portugal@PrompTugal.dinis",
+   "minute": 1,
+   "cron": "1 * * * *",
+   "trigger": "trig_014GRQBB87Fd6WBGYGP4nKVn",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtQMswuohj7TZhuRqwN; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.algarve@PrompTugal.dinis",
+   "minute": 4,
+   "cron": "4 * * * *",
+   "trigger": "trig_01KD78pWiPyHcz2zKYtZgCbn",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtLTJn45Db2SGJBzXmw; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.faro@PrompTugal.dinis",
+   "minute": 7,
+   "cron": "7 * * * *",
+   "trigger": "trig_01JZXPpjhoDFMr3kmebTmoKF",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtPjUwRsetQiSLBQBTu; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.loule@PrompTugal.dinis",
+   "minute": 10,
+   "cron": "10 * * * *",
+   "trigger": "trig_01P4DC8FagpkR3rL94bbrqGC",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtQPs255S3SPETugRtR; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.quarteira@PrompTugal.dinis",
+   "minute": 13,
+   "cron": "13 * * * *",
+   "trigger": "trig_01MbXag8U3fqVP2DMraNzZZ6",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtNGuzmR7dq3K9e2YMc; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.silves@PrompTugal.dinis",
+   "minute": 16,
+   "cron": "16 * * * *",
+   "trigger": "trig_014St6sJoq3MLr8VZ4TDqVZp",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtPhm1gah2zqGN1Lebj; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.tavira@PrompTugal.dinis",
+   "minute": 19,
+   "cron": "19 * * * *",
+   "trigger": "trig_01Fcm6hudzjjhvFv8NHD28wD",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtLZHSCwXAdyKBBTsCq; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+   "minute": 22,
+   "cron": "22 * * * *",
+   "trigger": "trig_01AuGqk1G2EpEr4ZpcvdyyRe",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtMMtcT4wdywX8B6rwk; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.portimao@PrompTugal.dinis",
+   "minute": 25,
+   "cron": "25 * * * *",
+   "trigger": "trig_01X9cCJ1jKVBaREPaySxc5gw",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtQmDejkkS843ECrbiZ; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.lagos@PrompTugal.dinis",
+   "minute": 28,
+   "cron": "28 * * * *",
+   "trigger": "trig_01YcNDQQsMZsRi93NcnTyrJr",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtQA15qdFx8KGy92rpU; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.olhao@PrompTugal.dinis",
+   "minute": 31,
+   "cron": "31 * * * *",
+   "trigger": "trig_01WtGE5jF4SEnugXVf6UzaJD",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtPX93Z3eeQ9HGboHE3; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.albufeira@PrompTugal.dinis",
+   "minute": 34,
+   "cron": "34 * * * *",
+   "trigger": "trig_01PmGn84kNW32dkQZjWtLcRg",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtLs2J9CZhHmNhnZ1ux; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.lagoa@PrompTugal.dinis",
+   "minute": 39,
+   "cron": "39 * * * *",
+   "trigger": "trig_01VaeAHzZwPrDsxE8wUUcdGN",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtLM8hoDk5hbo2UfLsp; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.monchique@PrompTugal.dinis",
+   "minute": 42,
+   "cron": "42 * * * *",
+   "trigger": "trig_01RiNrHLc6k6tt4E68JTCyoi",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtNVyZYcMYhNzVchYbV; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.aljezur@PrompTugal.dinis",
+   "minute": 45,
+   "cron": "45 * * * *",
+   "trigger": "trig_019KFG4rpE9RF9aonFDvkTjJ",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtPJ4F9WCQw7EEfvea4; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.vila-do-bispo@PrompTugal.dinis",
+   "minute": 49,
+   "cron": "49 * * * *",
+   "trigger": "trig_013ZRB5kXfioTyJaC2ZWjG1K",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtLqcx5B1Xjvqa7Cd2y; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.castro-marim@PrompTugal.dinis",
+   "minute": 52,
+   "cron": "52 * * * *",
+   "trigger": "trig_015T4WReLf1817U2xogME1Xa",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtMB3koAPcSwDALGuBo; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.alcoutim@PrompTugal.dinis",
+   "minute": 55,
+   "cron": "55 * * * *",
+   "trigger": "trig_018D4Wi6kSgS9abs6m5Ei7W3",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtLhJ9VfGB3NHZBjxna; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+   "minute": 58,
+   "cron": "58 * * * *",
+   "trigger": "trig_01XUX6b5jswamznqVdEMupZV",
+   "state": "enabled",
+   "since": "2026-11-15T22:08Z",
+   "note": "by-place team, account A, session session_018yvwtNtzuuJqbDtP9VfwsZ; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
   }
  ]
 }
