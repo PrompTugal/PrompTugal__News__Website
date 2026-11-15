@@ -2562,6 +2562,44 @@
         "signing_fingerprint": "sha256:4a39174bcb538ae2",
         "record": "sha256:4a39174bcb538ae2"
       }
+    },
+    {
+      "id": "place.loule-promptugal",
+      "agent": "place.loule@PrompTugal.dinis",
+      "label": "place.loule@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The agent for Loulé's site, promptugal.news/algarve/loule/ (data/by-place/loule.json): research, writing and release, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAl+5sQnnAKkn30pMC69M0\n5nzrdmnIbDN4GQS2covqNwEIOhIrN6epXsvdeXp23gvDtrpSGd7StHb2oeXYxngW\nqkhbGUmQqc0yFwDfktteCKBsGzRFQ2L+nP8NYKPY6mvBARWT9AGbfxVsh3oVhX+e\ncdKxoFc9SpsAMnbjjrmQpYB4RA/QR1MeStNiCBCBlHmD9BCNKS8aUzv07P0wCI2G\n2cH1gLcCthNaYcEyQWBVnIvbFkoZIYKPThFfIlE5abIAwz6hTtAvtpvkjF+M16IF\nNj2Lmg3g1Y+uSQ/tpqeh5AQHIJoyrupU8805Hd3uJoQw8n+OOQ25G6rztIBzVWNT\nI+ws+Ny4hHmVNJua4tgVcwbhZDkIJxPGyfI+oPIblBC+ERKLcrCqAFtjBgn32j7J\n+4pa7DpjrnTDo74JRbq6prAy/DVeN5a0m+tSFMUIfCUpa4sqyRg+ma4clk89Qciy\nRfi7JGcOubIOWIhc7pB3Hu1PKFR+6G6J0NOpySY1++etvy2keCkyJuvTjtPZp0np\njKg2NOGvyvHx+ctMSK5No+gKlFtFUJou/gh6RkRRdgJHzF5Yr4SYz6ronjnW01Tn\njPABrCkMVn1stWP5PfZz7Nmmf26/3u6yP3AuO2VizQ5IBr2hFiv3MfsQdTV+3PB9\nXDakwlUrqTXgKHn9iAznwFUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmpfB6nqeSeLMf2lGFDFnLQwAVjSO\nXg8CkB2319NJvCk1GEmKqcxDDe+90vhfhouljUELG7jzfNK4N23V9muJgA==\n-----END PUBLIC KEY-----\n",
+        "label": "place.loule@PrompTugal.dinis",
+        "fingerprint": "sha256:f93326c9433d8d83",
+        "record": "sha256:e871f19c052070cc",
+        "signing_fingerprint": "sha256:e871f19c052070cc"
+      }
+    },
+    {
+      "id": "site.loule-promptugal",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/loule/",
+      "agent": "place.loule@PrompTugal.dinis",
+      "label": "promptugal.news/algarve/loule/ (the site identity of Loulé's page)",
+      "role": "Signs data/by-place/loule.json. Held by place.loule@PrompTugal.dinis, in its session only.",
+      "how": "Made by place.loule@ on 15 November 2026 (pki-agent.mjs keygen --session, with its own key store apart from the agent's). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA/HeMdph+0XEqvYCRB5yk\nNw8HVvgJDhQT7NJBK+gIRoY+qI2ImTrRjeQm6wRw9CkcNWxStdcPIUY/Eonry2v7\npuucd2kbhVWSPGkfR/ZIr1W+2wQ+d80JzrKt5LjZplu1XMD8WbM4pueHVMNkSqXq\nzswg03b9c/0PThyhSpHy6VtThPWxqokVpbO7tOGLrvjucfwwYWDX4WRcZ/ernOgr\nvsmBcfXICphPnXa61L9D8+i8KyDi7Qn3tH7qgpyPJ7eO/PE+jqPHfZr0bIi0dBZB\n6MZCNExCKqDLgYsfz38cTiqzjl2n8dFi7Z9DPkfUqNN2CGmwv48Bdhx627PSWsy4\n2ANBcZQ3IupLijyTlkfaaZ8rc6tdSuLJznDI0e9wxx9cMvXZp7SxbKGm52jxg5Ib\ncSSRbh+9zbpPCYxhps8zruHor+eh7iHAIAbbmefup/7HIVWLC3Axegy7g7dn6Hry\n235Jts2k+xvviF1Nm2rUZmetq+EK8QHRFIpBYRScw2l/6BfQ9AayFGJushbnYEpy\n9xaXF/upxeGembdP/4zhq7IcuFYg8huziOnOB/7GPDePObgizNAhwscOrbn7m7IS\nKUW3M3qSYVSGSG699HiQDWl+yLOfWBm9QDv7kTHG5VZVv445TN4yh6F86IsAJHmz\nI6fhKv0Blj7UiE+iS0qjjd8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERt6iMZCDriqlY/DuXN895KIWX7Ba\nFZNHoHE0ofbbccnmB+ggBPF0ICgjZd9IxqhICFcMaOwCC+6iXjXrop1vVA==\n-----END PUBLIC KEY-----\n",
+        "label": "site.loule@promptugal.news",
+        "fingerprint": "sha256:889985d83da74f58",
+        "record": "sha256:360b0fabefd4919a",
+        "signing_fingerprint": "sha256:360b0fabefd4919a"
+      }
     }
   ]
 }
