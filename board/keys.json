@@ -1875,6 +1875,44 @@
         "record": "sha256:499ea7eaff2e472b",
         "signing_fingerprint": "sha256:499ea7eaff2e472b"
       }
+    },
+    {
+      "id": "place.aljezur-promptugal",
+      "agent": "place.aljezur@PrompTugal.dinis",
+      "label": "place.aljezur@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "Aljezur's site, promptugal.news/algarve/aljezur/ (data/by-place/aljezur.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA7aYWAeFLdMvBGUbPTDzJ\n3xZXAgiT7BkdzDBTkBvTkN3Azy4yI1Vb7AZ8QDCcFG4lwLljWXUxNOnDOTvGmRgd\n47rLQ4xE0hBsCansgaZZGe91nn4yqTQCc2wVMtqdBTqUt7uPflmsQ9LpMrgHPTgL\nOZZ/2XLlIJx1leokC435+mS6CH23Bfwixol+eU/yknNUgB3Iu4dqfT7OXVQ0dsyx\npIp6tS8jqW1GbpjBdPyGQoPAIlUORhOnKXqZs/dJ80qTDzXm5QQtAcbuR2sovoz2\n4aufLD24A4JmPnfdKJTXMBqcBhBqkk5HBJ7xCMd+WHAcpeFxhjATeobNSwJ1T4+4\nktJS4i+J1+gNUScnDTcn0fFy+AwytSM5+tOvlv8huFL5FYDuDvgAZ8IMxfGwq4o0\nvs6vAK64WxVSvEr/OI/p5lU+QHojP7zifL7rBd+kQCaWAW3ji7BFDTKPnktCJm5y\nWTjuTzRGh36Tj2qSopdgDuYYpmJxa/4VZblkC4zGB8hHzHr+QzZjxdyJDI1wF6hp\nFLMF2fPmLZprWoQ0SUq9/VbVmCjxWHFkU8Oo5QnwB7AzAoJx8QpQkllxb1lm8Jof\n8a13bvyXBNpABixQK022PBEMN2kBH+n0NIknYcA4vAvwXkFcSbqnLX9WiHn5et97\ni1GqUscOSTE7IlvFazFGFwMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZ8hxFnVhk4LUfWud60Xv2F1uVYqc\n2wy1wRo3tGOPOsxfqckhNnaLJloay08V+kGrds7GoHiKTy72Mh6LVNo7og==\n-----END PUBLIC KEY-----\n",
+        "label": "place.aljezur@PrompTugal.dinis (Claude Code cloud session, account A)",
+        "fingerprint": "sha256:f9131ad53ecdc701",
+        "record": "sha256:7ea1015728f296c6",
+        "signing_fingerprint": "sha256:7ea1015728f296c6"
+      }
+    },
+    {
+      "id": "site.aljezur-promptugal",
+      "agent": "place.aljezur@PrompTugal.dinis",
+      "label": "site.aljezur-promptugal (the site key of promptugal.news/algarve/aljezur/)",
+      "role": "Signs data/by-place/aljezur.json: the identity of the Aljezur site, held in the session of place.aljezur@PrompTugal.dinis.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/aljezur/",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyKAFHxOqaz3RVmw3pxpX\nmgxZV0JnsIIP0WK4brETy8GR+QAnqw3Nvsbzl7FtXKiEE3gSCJTNUuXhPmy3AK55\n9Jnf2iSLEdmOve44gzPSKQXYKEYF69w8z98cKAjdHLx4h6Uq93fI9wdskbhY9VxL\nS25hdkScuXhdVNbahHIbO+11vkbp+3PtbwGZ3qTfdBMwcISRtSY+48HTQ43UMqR+\n9FzjaqQADqFZwt6HNMvtIi7ZLV+Gq1bBWcEarVgBNQf1DfFw+H58XI5FVplHILiw\nae4peUzm0bQtb8v9WUDnd7CBLEuSLrMC924FiN+Isi7UkB1JByF7uTG1y0e/+DSL\nKXKrET2R7bRpT7HiDtoQXXKsyhJRzZIBkHINEqGjAlnIGVxC9Dn78bPRCbTg1fv2\nKy4kxKrfLk6ukjBQLkxk2aaVp4t3wgFEEbMT7AiCJGQIGf/R1OzES0VdyJ+w18Mj\nXk3ZACetJEzAh7PKx/5o1fhjSq229E2YdOWC4nrmPOMOawgSr/oRp37cZBdxGNIC\nSLHGQrLaRfcRKV/GvxF9VobJ/BIbo4LK1mLmj0tm5vQULixTV9p3qC/eZjrox5Ji\n/JorfmJWRX4143DIERvyOaums6sNLFDuDYMNsswxn/qrHfq577YyolMFqqGkW/OK\nyZ0ogsAVmfHIJNs/nJqkrb8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQN2vPCUi4n93+Etu8Xh0aepE9wUG\nVbSgCTzHBLRb6nnMB9fVkCqimiJPVUruux473CMVtYFJaouZeOX4Q7hhRw==\n-----END PUBLIC KEY-----\n",
+        "label": "site.aljezur-promptugal (the site key of promptugal.news/algarve/aljezur/)",
+        "fingerprint": "sha256:cc04d7986eb31f53",
+        "record": "sha256:97958d8b26c6802c",
+        "signing_fingerprint": "sha256:97958d8b26c6802c"
+      }
     }
   ]
 }
