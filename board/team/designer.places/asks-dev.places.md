@@ -48,3 +48,18 @@ the CSS now styles); 4 done (the landmark is an `<em>`). 5 open.
 In voice mode the mandate reads "...the council has algorithms.PrompTugal.news Loulé: ..." with no space: `mast()`
 builds `${esc(ctx, v.lede ? v.lede + ' ' : '')}${esc(ctx, v.mandate)}` and `esc` (md.cell) trims the trailing space.
 Put the space outside: `${v.lede ? esc(ctx, v.lede) + ' ' : ''}`.
+
+## 7. The town as a label, not a prefix, in "The latest from the towns" — 15 Nov, 23:55 UTC
+
+The region's cards read "Portimão: Portimão hosts its first ...", because the build prefixes the town to the title.
+Better: the title as written, and the town as a small label above it in that town's accent, e.g. `<em class="bp-town"
+style="--accent:#...">Portimão</em>` before the title's link (or a `{.bp-town}` the renderer keeps). The CSS will set it
+in mono caps.
+
+## 8. A photo per town (optional, later) — 15 Nov, 23:55 UTC
+
+A field `look.photo` = `{ "file": "assets/by-place/photos/<id>.jpg", "author": "...", "licence": "CC BY-SA 4.0",
+"licence_url": "...", "source": "<the Commons file page>" }`, shown as a 16:9 band under the page head with the credit
+line under it, and nothing when absent. I host the files in `assets/by-place/photos/` (no hotlinking, so no reader's
+browser calls Wikimedia). Not urgent: Commons answers this environment with 429 tonight, and the accent and landmark
+carry each town's look for the demo.

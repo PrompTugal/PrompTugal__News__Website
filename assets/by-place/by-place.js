@@ -44,11 +44,13 @@
     var mast = frame.querySelector('.bp-mast')
     if (!mast) return
     var label = document.createElement('p'); label.className = 'bp-voice-label'
-    label.textContent = 'Playful local voice: same facts, said the Algarvio way'
+    var national = frame.classList.contains('bp-country') || frame.getAttribute('data-place') === 'portugal'
+    var WAY = national ? 'the Portuguese way' : 'the Algarvio way', SAY = national ? 'Say it à portuguesa' : 'Say it in Algarvio'
+    label.textContent = 'Playful local voice: same facts, said ' + WAY
     mast.insertBefore(label, mast.firstChild)
     var t = document.createElement('button'); t.type = 'button'; t.className = 'bp-toggle'
     var KEY = 'pt-bp-voice'
-    function set(on) { frame.classList.toggle('voice', on); t.setAttribute('aria-pressed', on ? 'true' : 'false'); t.textContent = on ? 'Back to plain English' : 'Say it in Algarvio'; try { localStorage.setItem(KEY, on ? '1' : '0') } catch (e) {} }
+    function set(on) { frame.classList.toggle('voice', on); t.setAttribute('aria-pressed', on ? 'true' : 'false'); t.textContent = on ? 'Back to plain English' : SAY; try { localStorage.setItem(KEY, on ? '1' : '0') } catch (e) {} }
     t.addEventListener('click', function () { set(!frame.classList.contains('voice')) })
     mast.appendChild(t)
     var on = false; try { on = localStorage.getItem(KEY) === '1' } catch (e) {}
