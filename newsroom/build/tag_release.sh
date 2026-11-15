@@ -61,6 +61,24 @@ Agent: $AGENT}"
   git tag "$NEW"
   [ "$PUSH" = 1 ] || { echo "PUSH=0: would release $NEW"; exit 0; }
   if git push -q --atomic origin "HEAD:$BRANCH" "refs/tags/$NEW"; then echo "released $NEW"; exit 0; fi
+  # The fast path (dev.places@PrompTugal.dinis, 15 Nov 2026: with twenty agents pushing, a full rebuild and gate per
+  # attempt lost every race and nothing was released for an hour): the tree above passed the gate; when the pushes
+  # that landed meanwhile leave version.txt, versions.json and REALITY.md alone (each passed the gate on its own in
+  # release.sh), put the release commit on top of them and push at once, a few times, before starting again. Those
+  # pushes ride this number; the next run finds a CI release at the head and deploys it with them.
+  REL=$(git rev-parse HEAD)
+  for fast in 1 2 3 4 5 6; do
+    git fetch --quiet origin "$BRANCH"
+    if git diff --quiet "$REL~1" "origin/$BRANCH" -- newsroom/build/version.txt newsroom/versions.json REALITY.md \
+       && git checkout -q -B "$BRANCH" "origin/$BRANCH" && git cherry-pick --allow-empty "$REL" > /dev/null 2>&1; then
+      git tag -f "$NEW" > /dev/null
+      if git push -q --atomic origin "HEAD:$BRANCH" "refs/tags/$NEW"; then echo "released $NEW (fast path, attempt $fast, on top of pushes that landed during the build)"; exit 0; fi
+    else
+      git cherry-pick --abort > /dev/null 2>&1 || true
+      break
+    fi
+    sleep 1
+  done
   git tag -d "$NEW" > /dev/null
   sleep $((try * 3))
   echo "$BRANCH moved, or GitHub refused the push, while releasing; starting again from its head (attempt $try)"
