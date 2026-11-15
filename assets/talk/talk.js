@@ -64,7 +64,7 @@
         const voted = SS.get('voted.' + page)
         for (const [v, label] of [[1, W.vote_up], [-1, W.vote_down]]) {
             const b = el('button', 'talk-btn', label); b.type = 'button'; b.disabled = !!voted
-            b.onclick = () => { try { window.PTObs && window.PTObs.vote(v, page) } catch { } SS.set('voted.' + page, String(v)); vote.querySelectorAll('button').forEach(x => { x.disabled = true }); note.textContent = W.voted }
+            b.onclick = () => { try { window.PTObs && window.PTObs.vote(v, '/' + page.replace(/^\.\/$/, '')) } catch { } SS.set('voted.' + page, String(v)); vote.querySelectorAll('button').forEach(x => { x.disabled = true }); note.textContent = W.voted }
             vote.append(b)
         }
         const note = el('span', 'talk-voted', voted ? W.voted : ''); vote.append(note); box.append(vote)
