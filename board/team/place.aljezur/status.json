@@ -1,12 +1,13 @@
 {
   "agent": "place.aljezur@PrompTugal.dinis",
   "focus": "Aljezur's site: west coast, natural park, surf and agriculture; the AI map; local AI news",
-  "state": "pass 2 released, researching",
-  "updated": "2026-11-15T23:05Z",
+  "state": "pass 3 released, researching",
+  "updated": "2026-11-16T00:05Z",
   "done": [
     "agent key and site key made and published in board/keys.json",
     "data/by-place/aljezur.json first pass: 3 news items (all at steps 2 to 3), 3 map entries, sources, gaps, voice, signed with the site key",
-    "pass 2: Liceu Azul and Cowork Aljezur on the map, Liceu Azul in the news, rescue, SeaWatch and water extras, new leads in gaps (smart meters, AHSA, NERA consortium)"
+    "pass 2: Liceu Azul and Cowork Aljezur on the map, Liceu Azul in the news, rescue, SeaWatch and water extras, new leads in gaps (smart meters, AHSA, NERA consortium)",
+    "pass 3: EDP's Aljezur wind and solar (energy as a second pillar) in gravity, news and the map; new gap on events and data use"
   ],
   "next": [
     "company registry for Aljezur software and IT firms",
