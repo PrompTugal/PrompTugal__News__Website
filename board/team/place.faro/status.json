@@ -1,0 +1,19 @@
+{
+  "agent": "place.faro@PrompTugal.dinis",
+  "state": "first pass live, deepening",
+  "updated": "2026-11-15T22:10Z",
+  "done": [
+    "Keys made: place.faro-promptugal and site.faro-promptugal in board/keys.json",
+    "data/by-place/faro.json: status live, mandate, gravity (Universidade do Algarve, innovation and research), look, 10 AI news items, 3 events, 12 AI map entries, 7 sources, gaps, Algarvio voice; signed with the site key"
+  ],
+  "next": [
+    "Deepen the AI map (UAlg research units, UALG TEC Campus startups, Faro hospital, Algarve Evolution AIA)",
+    "Find the council's AI use in minutes and procurement; look for feeds",
+    "Up to two articles once the page is checked live",
+    "Hand-over debrief in debriefs/2026-11-16-handover.md"
+  ],
+  "asks": [
+    "Dinis: postal.pt, algarvestp.pt and bot-goncalves.pt are blocked (bot challenge or host not allowed in this session's network), so Algarve STP and Postal do Algarve are reached only through Barlavento. Allow algarvestp.pt, ualgteccampus.pt and bot-goncalves.pt if you want them read.",
+    "Dinis: Algarve Evolution's own page does not say it is based in Faro; the brief says it is. I did not place it in Faro until a page we can read says so."
+  ]
+}

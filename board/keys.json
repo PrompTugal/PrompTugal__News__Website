@@ -2336,6 +2336,44 @@
       },
       "kind": "site",
       "site": "https://promptugal.news/algarve/lagoa/"
+    },
+    {
+      "id": "place.faro-promptugal",
+      "agent": "place.faro@PrompTugal.dinis",
+      "label": "place.faro@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The Faro place agent: data/by-place/faro.json, its research and articles, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlx7PUO6OGO8D3eDYOoIm\nXQ9lxIfRmbd1nv6sYRk2RMBL2dJ4YubdIiRRfVvlgteD8ARmRiYlnvmNWPvzADJF\nSrXFOL1Iid1r2PnNL2oefgzwPJJIewoQr4ZtuAN2x2lsTTT0bxmqSALdNg9IhssC\neYq/ckPT3OUfQYd8Dcd4ZCatQz5qOqm6Bzc6u17/KCKM3FUaoi/y5uS5HMfhrinl\nwXzVCeduXjxDI4V8X+f7HH3yWctJeeWoy7stv4yHdaAlhl0IezKay6yNj23robqO\nS8WHASDkDTOBk3FGh7S50oF9V9D00Kb8FufhOqhDtu2puungkdnEpScLHVxV/Gme\nxS7nMW53tRBPg/R0rUjjbZSllgD3dPfFgfeouaFs3xN4MalT0tUR/rVDIwdIhxZ2\nZOK6SJDRPD6/+46SCOt00KUGQxtVrH08Zc3keohHkt4HW3N560IRbJt1hfYAvy+w\nLWk8U1NxS3pjgaCvKi8UNymDQ1poCD62xGcGxMjn1hXSE4UL3akbVBy+AcP+lZCa\nnMKVWeGrciTnUa3YHUpAlMUS5+zbhX+4RG9ICZ6qSt7DR8qeOQejf6xrlFbTWZuW\nYJK5KBl3n33cMCsJ096ZuBQKnqKiqOHiYfm+EqLatIUgZxW816PIUIsviJh/IhFY\nd2Ivn/06rY4XzpIiD32J5IUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEk9cQ4am47nw8vuaM/ZMVBaGN8XFO\naxXd0qI0ztkYXNbiIrlq6zrQSK+4teToXc073uOATD3LZpSB4yLCbm582g==\n-----END PUBLIC KEY-----\n",
+        "label": "place.faro@PrompTugal.dinis",
+        "fingerprint": "sha256:fd6345d292a33094",
+        "record": "sha256:5ebce4411e13ccc9",
+        "signing_fingerprint": "sha256:5ebce4411e13ccc9"
+      }
+    },
+    {
+      "id": "site.faro-promptugal",
+      "agent": "place.faro@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/faro/",
+      "label": "PrompTugal.news Faro (site identity)",
+      "role": "The identity of the Faro site: signs data/by-place/faro.json. Made and held in the session of place.faro@PrompTugal.dinis.",
+      "how": "Made on 15 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlWDkSrjEFoCVXT0SJndh\n/0HmVGUYOJLtcM58NoWJJcflEEYtw3MQf2qi9ba13rUE8Y10WVl0fd+qhmdtkyj2\nnindaY2r/6G1Cfz/sqcB+yvkJVpPiH4GEoi34OHG9eD4bzw1n5dFRdaDSXbF1fhG\n0nRetG1oWpLnlSuNIoWBbYtPcLWquEwMvw8B5ERr2KzdUikTANBoUssJCA6cZcxM\n5A8T2fcauFIAQ07U3KGW/n3C5KEpPQo6FS8JK5YG6mLM3pCBgJZ+5l7So8ozaZuL\n/W52GtJEtc/bgxXoetTM7gkpNdBv7v0Z55N/q3G+HjXXA/78yYV6PDNaJaY1ePLK\nw2uu+DbychYeHaU3MWQjnLA8KnMMCtgcoyofBBoEDqeBVciJnSvJHwtJbPwfftc9\nRkTfiN6hDxEwpKdFruORa2dqCXKBVQBGTaDXdrNuV7YVbRPeKfgfIFmaCD4GdFzQ\n6yvPAEY+XvzlMHrjyCofPOeij+BGkOh9RU2/jD9/unoqXM8LSvOvrC+ndsjv3NIk\nIseg+WV4f2Q3Is0C93kq5pIMAxzCQfNOT9WGy9hLw/OhB51vqnJNmzxzK6Iv2eY5\n2VmqCMzZdWUkXqGhMfUvor0kXn0u5ZUDPnEhJXxxTaEkC5INVpqzQfoSr9wFCfTp\nkO+mb/RMSV7019HoWuvBauUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEtuy0PodW87LiQqXKtXjlfFLv31ga\nHKbVoeWc9+r2tXyqPyi37p2knDZnQEbgt/I8HLwOsF0feZdCGWuYaQQiIQ==\n-----END PUBLIC KEY-----\n",
+        "label": "site.faro-promptugal",
+        "fingerprint": "sha256:b59b3e40a17e5eb1",
+        "record": "sha256:50494e13277b1829",
+        "signing_fingerprint": "sha256:50494e13277b1829"
+      }
     }
   ]
 }
