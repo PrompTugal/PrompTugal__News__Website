@@ -18,6 +18,7 @@ const PTGraph = require('../../../assets/query/graph.js')
 
 export const order = 86
 const LIST = 'data/by-place/places.json'
+const NR = 'assets/query/newsroom-graphs.json'
 const CONNECTIONS = 'data/by-place/connections.json'
 const BANNED = /(^|\.)(websummit\.com|websummit\.net|lu\.ma|luma\.com|meetup\.com|eventbrite\.[a-z.]+)$/i
 const ASSETS = { css: ['assets/query/query.css'], js: ['assets/query/sql.js', 'assets/query/graph.js', 'assets/query/query.js'] }
@@ -75,7 +76,7 @@ export function database(ctx) {
     for (const o of ctx.store.organisations) if (nodes.has(`organisation:${o.id}`) && !o.marker && !byName.has(nameKey(o.name))) byName.set(nameKey(o.name), `organisation:${o.id}`)
 
     // the places
-    const rows = { places: [], news: [], map: [], events: [], sources: [], gaps: [], companies: [], articles: [], merges: [], connections: [], captures: [] }
+    const rows = { places: [], news: [], map: [], events: [], sources: [], gaps: [], companies: [], articles: [], merges: [], connections: [], captures: [], nr_articles: [], nr_links: [], nr_nodes: [], nr_edges: [] }
     for (const p of places) {
         const id = `place:${p.id}`, f = p.file
         N(id, { type: 'place', kind: p.kind, label: p.name, page: `${p.path}index.html`, source: `data/by-place/${p.id}.json`, read: str(f.updated), layer: nodes.has(id) ? 'graph' : 'by-place' })
@@ -119,11 +120,15 @@ export function database(ctx) {
     const names = []
     for (const list of clusters.values()) for (const x of [list[0]]) {
         const forms = new Set()
-        for (const y of list) { const short = String(y.m.name).split(/\s*[(,]/)[0].trim(); if (short.length >= 4) forms.add(fold(short))
-            const acr = /\(([A-Z][A-Za-z0-9-]{2,12})\)/.exec(y.m.name); if (acr) forms.add(fold(acr[1])) }
-        for (const f of forms) names.push([f, x.node])
+        // an all-capitals name (NERA, CRIA, DETAILS) matches only as written: "details" is a word, DETAILS a company
+        const exact = new Set()
+        for (const y of list) { const short = String(y.m.name).split(/\s*[(,]/)[0].trim(); if (short.length >= 4) (/^[A-Z0-9.\-]+$/.test(short) ? exact : forms).add(/^[A-Z0-9.\-]+$/.test(short) ? short : fold(short))
+            const acr = /\(([A-Z][A-Za-z0-9-]{1,11})\)/.exec(y.m.name); if (acr && (acr[1].match(/[A-Z]/g) || []).length >= 2) exact.add(acr[1]) }
+        for (const f of forms) names.push([f, x.node, false])
+        for (const f of exact) names.push([f, x.node, true])
     }
-    const named = text => { const t = ' ' + fold(text).replace(/[^a-z0-9]+/g, ' ') + ' '; return [...new Set(names.filter(([f]) => t.includes(' ' + f.replace(/[^a-z0-9]+/g, ' ').trim() + ' ')).map(([, n]) => n))] }
+    const named = text => { const t = ' ' + fold(text).replace(/[^a-z0-9]+/g, ' ') + ' ', raw = ' ' + String(text).normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]+/g, ' ') + ' '
+        return [...new Set(names.filter(([f, , ex]) => ex ? raw.includes(' ' + f.replace(/[^A-Za-z0-9]+/g, ' ').trim() + ' ') : t.includes(' ' + f.replace(/[^a-z0-9]+/g, ' ').trim() + ' ')).map(([, n]) => n))] }
     // a town's name in a story's words (towns only: "Algarve" and "Portugal" are in nearly every story)
     const townNames = places.filter(p => p.kind === 'municipality').map(p => [' ' + fold(p.name).replace(/[^a-z0-9]+/g, ' ').trim() + ' ', p.id])
     const placeNamed = text => { const t = ' ' + fold(text).replace(/[^a-z0-9]+/g, ' ') + ' '; return townNames.filter(([f]) => t.includes(f)).map(([, id]) => id) }
@@ -187,6 +192,19 @@ export function database(ctx) {
             E(c.relation, a, b, { source: c.source_url, read: str(c.read_on), layer: 'connections', note: str(c.what) })
         }
     }
+    // newsroom.sgit.ai's article graph (CC BY 4.0), a snapshot: its articles join the graph as nr:<slug>, linked as
+    // its pages link, and to the organisations on our maps whose names they carry
+    if (ctx.exists(NR)) { let nr = {}; try { nr = ctx.readJSON(NR) } catch {}
+        const slugs = new Set(arr(nr.articles).map(a => a.slug))
+        for (const a of arr(nr.articles)) {
+            const id = `nr:${a.slug}`
+            N(id, { type: 'nr-article', kind: arr(a.topics)[0] || null, label: a.title, source: a.url, read: str(nr.read_on), layer: 'newsroom' })
+            rows.nr_articles.push([a.slug, id, str(a.title), str(a.date), a.url, arr(a.topics).join(','), arr(a.tags).join(','), str(a.core_idea)])
+            for (const o of arr(a.links_out)) if (slugs.has(o)) { rows.nr_links.push([a.slug, o]); E('links_to', id, `nr:${o}`, { source: a.url, read: str(nr.read_on), layer: 'newsroom' }) }
+            for (const n of arr(a.nodes)) rows.nr_nodes.push([a.slug, str(n.id), str(n.label), str(n.kind), str(n.summary)])
+            for (const e of arr(a.edges)) rows.nr_edges.push([a.slug, str(e.from), str(e.rel), str(e.to)])
+            for (const who of named(`${a.title} ${a.core_idea || ''}`)) E('mentions', id, who, { source: a.url, read: str(nr.read_on), layer: 'newsroom', note: W.note_nr })
+        } }
     // the captures (board/team/data.places/tools/capture.mjs; the index in data/query/ or, until the gate knows it, board/team/data.places/)
     for (const f of ['data/query/captures.json', 'board/team/data.places/captures.json']) { if (!ctx.exists(f)) continue
         let ci = {}; try { ci = ctx.readJSON(f) } catch {}

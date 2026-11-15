@@ -695,6 +695,121 @@
           "about": "the places whose items cite it"
         }
       ]
+    },
+    "nr_articles": {
+      "about": "newsroom.sgit.ai's articles (a snapshot of its article graph, CC BY 4.0, assets/query/newsroom-graphs.json): Dinis's newsroom, the AgentiCCells cluster among them; each is a node nr:<slug> of the graph.",
+      "columns": [
+        {
+          "name": "slug",
+          "type": "text",
+          "about": "its slug on newsroom.sgit.ai"
+        },
+        {
+          "name": "node",
+          "type": "text",
+          "about": "nr:<slug>"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "about": "its title"
+        },
+        {
+          "name": "date",
+          "type": "text",
+          "about": "its date"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "about": "its page"
+        },
+        {
+          "name": "topics",
+          "type": "text",
+          "about": "its topics, comma-separated"
+        },
+        {
+          "name": "tags",
+          "type": "text",
+          "about": "its tags, comma-separated"
+        },
+        {
+          "name": "core_idea",
+          "type": "text",
+          "about": "its core idea, in the newsroom's words"
+        }
+      ]
+    },
+    "nr_links": {
+      "about": "Which newsroom.sgit.ai article links to which (links_to edges in the graph).",
+      "columns": [
+        {
+          "name": "src",
+          "type": "text",
+          "about": "the linking article's slug"
+        },
+        {
+          "name": "dst",
+          "type": "text",
+          "about": "the linked article's slug"
+        }
+      ]
+    },
+    "nr_nodes": {
+      "about": "The entities inside each newsroom.sgit.ai article's own graph: artefacts, claims, concepts, examples, methods, questions.",
+      "columns": [
+        {
+          "name": "article",
+          "type": "text",
+          "about": "the article's slug"
+        },
+        {
+          "name": "id",
+          "type": "text",
+          "about": "the node's id inside the article"
+        },
+        {
+          "name": "label",
+          "type": "text",
+          "about": "its label"
+        },
+        {
+          "name": "kind",
+          "type": "text",
+          "about": "artefact, claim, concept, example, method or question"
+        },
+        {
+          "name": "summary",
+          "type": "text",
+          "about": "what it is, in one line"
+        }
+      ]
+    },
+    "nr_edges": {
+      "about": "The typed links inside each newsroom.sgit.ai article's graph: answers, compared-with, contrasts, depends-on, example-of, extends, leads-to, produces.",
+      "columns": [
+        {
+          "name": "article",
+          "type": "text",
+          "about": "the article's slug"
+        },
+        {
+          "name": "src",
+          "type": "text",
+          "about": "from (a node id inside the article)"
+        },
+        {
+          "name": "rel",
+          "type": "text",
+          "about": "the relation"
+        },
+        {
+          "name": "dst",
+          "type": "text",
+          "about": "to (a node id inside the article)"
+        }
+      ]
     }
   },
   "examples": [
@@ -763,6 +878,18 @@
       "title": "Which sources are captured, and their hashes",
       "about": "Every cited page and its capture: join the stories to the captures by URL to see what each story rests on, and the SHA-256 that proves what the page said when it was read.",
       "sql": "SELECT n.place, n.title, c.host, c.captured_at, substr(c.image_sha256, 1, 16) AS image_sha256\nFROM news n JOIN captures c ON c.url = n.url\nWHERE c.ok = 1\nORDER BY n.place, n.date DESC"
+    },
+    {
+      "id": "agenticcells",
+      "title": "The AgentiCCells cluster on newsroom.sgit.ai, and what links into it",
+      "about": "newsroom.sgit.ai's article graph is a layer of this one: the articles tagged agenticcells, how many of the newsroom's articles link to each, and each one's core idea.",
+      "sql": "SELECT a.slug, a.date, (SELECT count(*) FROM nr_links l WHERE l.dst = a.slug) AS linked_from, a.core_idea\nFROM nr_articles a\nWHERE a.tags LIKE '%agenticcells%'\nORDER BY linked_from DESC, a.date DESC"
+    },
+    {
+      "id": "nr-meets-places",
+      "title": "Where Dinis's newsroom meets the Algarve's AI map",
+      "about": "newsroom.sgit.ai articles whose title or core idea names an organisation on a place's AI map: two corpora, one graph.",
+      "sql": "SELECT o.label AS organisation, o.places, a.title AS newsroom_article, a.date\nFROM edges m\nJOIN nr_articles a ON a.node = m.src\nJOIN nodes o ON o.id = m.dst\nWHERE m.verb = 'mentions' AND m.layer = 'newsroom'\nORDER BY o.label, a.date DESC"
     }
   ],
   "place_examples": [
@@ -872,7 +999,8 @@
     "oa_index": "The tables, their columns and addresses, the graph functions, the places and the example queries",
     "oa_rows": "Rows are arrays in the order of the columns:",
     "oa_provenance": "Where every item on {name}'s page comes from, with its capture",
-    "pv_read_on": "read on {day}"
+    "pv_read_on": "read on {day}",
+    "note_nr": "its name is in the newsroom.sgit.ai article's title or core idea (derived by name)"
   },
   "aliases": {
     "about": "Names that are one organisation in two languages or spellings, merged by hand (data.places@, with the reason). A key is a name key: accents and case folded, what follows a bracket or comma dropped.",
