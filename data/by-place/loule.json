@@ -4,7 +4,7 @@
   "name": "Loulé",
   "kind": "municipality",
   "parent": "algarve",
-  "status": "researching",
+  "status": "live",
   "updated": "2026-11-15",
   "by": "place.loule@PrompTugal.dinis",
   "mandate": "PrompTugal.news Loulé: AI and technology in Loulé, a council using AI tools and the seat of the Algarve's business association, and what reaches Loulé from the Algarve, Portugal and the world. Independent; every fact sourced.",
@@ -210,7 +210,7 @@
       "name": "ALGAR, Valorização e Tratamento de Resíduos Sólidos",
       "type": "company",
       "url": "https://www.algar.com.pt/en/algar/history/",
-      "what": "Waste company founded in 1995 and headquartered in Almancil, which serves the whole Algarve. With the start-up NILG.AI it built an AI tool that chooses sites for recycling points, piloted in Lagoa.",
+      "what": "Waste company founded in 1995 and headquartered in Almancil, which serves the whole Algarve. With the start-up NILG.AI it built an AI tool that chooses sites for recycling points, piloted in Lagoa. UPTEC's page says the pilot also covers São Brás de Alportel.",
       "source_url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
       "read_on": "2026-11-15",
       "ai_path": "It builds and runs an AI tool for site selection.",
@@ -289,9 +289,9 @@
     {
       "name": "NILG.AI (partner of ALGAR)",
       "type": "startup",
-      "url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
-      "what": "Start-up that co-built ALGAR's AI recycling-point tool. We have not confirmed where it is based, so it is listed as ALGAR's partner, not as a Loulé firm.",
-      "source_url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+      "url": "https://uptec.up.pt/noticias-e-media/noticias/nilgai-vence-premio-nacional-com-projeto-de-ia-para-gestao-de-residuos",
+      "what": "Start-up incubated at UPTEC, the University of Porto's science park, that co-built ALGAR's AI recycling-point tool. Not a Loulé firm: it is listed as ALGAR's partner.",
+      "source_url": "https://uptec.up.pt/noticias-e-media/noticias/nilgai-vence-premio-nacional-com-projeto-de-ia-para-gestao-de-residuos",
       "read_on": "2026-11-15",
       "ai_path": "It builds AI for a Loulé-municipality company.",
       "steps": 1
@@ -312,7 +312,7 @@
     "The council's 2026 BTL stand (144 m2, 10 stations) is described without any mention of AI, so only the 2025 stand is a news item.",
     "Loulé's 2.5 million euro digital programme for the interior, with 5G elderly teleassistance by NOS and HopeCare, is left out: the articles we read mention no AI.",
     "A Sul Informação and a Regiao Sul item say the Som Riscado festival in Loulé (November 2026) uses an AI piano. Both sites refused our read, so it is not yet an event.",
-    "Almancil is in the municipality, so ALGAR counts for Loulé. We have not yet checked whether NILG.AI has a Loulé presence."
+    "NILG.AI is incubated in Porto, so it is on the map only as ALGAR's partner. The Algarve 2030 record ALGARVE-FEDER-01180500 (a SPIC and UAlg engineering school AI project, per search results) loaded blank, so it is not cited."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",
