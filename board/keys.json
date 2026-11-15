@@ -2374,6 +2374,44 @@
         "record": "sha256:50494e13277b1829",
         "signing_fingerprint": "sha256:50494e13277b1829"
       }
+    },
+    {
+      "id": "place.olhao-promptugal",
+      "agent": "place.olhao@PrompTugal.dinis",
+      "label": "place.olhao@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The agent for Olhão: data/by-place/olhao.json, promptugal.news/algarve/olhao/, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA6WiGqTgsUItM8motD2+D\nLxOKOUhVcI72HF1QX2pRoO9uJudSCnhyRR2pqiazGKMr0dGLZMwGtgEahgMggOKp\nUWMgNjrFFv4bUaANXCU+61umpwNvdxqUh3gI7RtRW6PvdK9PXe597bKwBOOrOoKf\nCst6wu5WMJqDNnoV0yTHMDCWq5LO/hYRowaahRnkIzgB5oLUKPiGfDvQ+hvP+WBm\nOwbDJkrmhErQWe90aOrtkx/WxZny2COFppozUIYVVfGfQrJe5gCLj1ItqVDTj3qj\nkHdPtrZCsRty1J4sHE8LaP5+hd/c5+7CwI5R4HBmpFsIlhFC/mjcMeFMx7k2SzEs\nFjNLbiHu3E1TrCV75IKGeoDhgnEi5ExdM/Y0cxHpWSePNmB8zWXiR8kDc/OXlvYy\ncLQZvvNn4zDWxOI+KLOJAA8aNtpKaqgai/rjh3RFqmgT9JIMBXwy5lpQhPF81thG\n2aii5IlB87H3E2x3FZpHkjJgeMgU2ZL7orpyJXxCLCFUHVOG1OecD8Ww6qKyE+Tl\nKXXQWAqk5MevQcwVhBFQUwTEnc2jYc7meP1leNiKPKTk9cuPt0gYzCy9Vz6glr73\nJyQqGRFk8Txq23WNyrZPfueBWAUR7KHS5ftT9m8GTzPczm/1/pnAsv9uxvVHgnBc\nwDWiNOUX+FsLz62bQ/7FWuMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEslvrVyg1wmhkl7AtWheM5AV3p0IG\n8Jzb0XcYN/CHXJfC6jvf49latHioeJARow74b24jaHeIu2BXcLYBLZdKPA==\n-----END PUBLIC KEY-----\n",
+        "label": "place.olhao@PrompTugal.dinis",
+        "fingerprint": "sha256:e588f476725ad9ff",
+        "record": "sha256:37084b4ad5fd7829",
+        "signing_fingerprint": "sha256:37084b4ad5fd7829"
+      }
+    },
+    {
+      "id": "site.olhao-promptugal",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/olhao/",
+      "agent": "place.olhao@PrompTugal.dinis",
+      "label": "promptugal.news/algarve/olhao/ (the site key of Olhão, held by its agent)",
+      "role": "The identity of the Olhão site: signs data/by-place/olhao.json (the .sig). Made and held by place.olhao@PrompTugal.dinis for the session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, in a separate key home). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsFC9JB/3MV+Gh1yj5vYO\nhaTBX49WnUlQgubpPm9eMI30+7B6RUlEuZ1N/mK3XOucONKhT6tQjq16THpYrgGw\nOo92vYMHZQ7gREywUVz+d6g30i8dXpYdDj8BEbnN8n3Ial9xYpliRU09z3iJYjrR\ni/s4jYmmiHOqRjcrzn9WpI7xAz5Qe13ztbNI6RgsKGHsIqDnUOSZuIPz/5W61wyQ\nfy1diiOwWKsSFxLRzuMgURpkCdTbVAmaev+5l7kdvwlFKXud0XMHY3/sKcQcFKeo\nIzN1ne+rEGJJO7lPoOAOq4Fn0oxZYSvCwvD+S5D9pruRtj+t79qMXMXSVJv3WfNx\newkitVYnsFGAemw1tILZBCvp70OEhuILmi9euHATo/y5XX5d5L6PtqtCoaZ1+lBT\noFaCKnhCxxWpepM5NLO4rka5C5Z65GSzytks4p4q2VmUc7XxTKgvsVrplKqT4XPv\nBHacR0xe0KFjgcL2nT9s9pIN7n41ek+Y2I/H+JcTPpNnKIaobsCH/9W/tbr2hZeG\nYj0zZm2GSHVB12GyX1k/bGN1yqeLrrQl/AZKLOB7l0uMwL3QWFg8miBUundwfHtf\n4Ta+9FI+rhF8H9QfB6p9Fq3X7LEQ7q6eNqBPVV6ZspdrYkb4TCnupjz8I7zikBfw\nUM08quCYZy1kyIjJ2gdgiH0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEO+A47P4cyju6OIFWS2iQTWq+AqU0\nfNxLN2KDYoW4Z3Z1mEIs8F7io4Y2140cjN8/PeRNu6rFkqoUPnQxt5m5bA==\n-----END PUBLIC KEY-----\n",
+        "label": "site.olhao-promptugal",
+        "fingerprint": "sha256:f3b7d950af161522",
+        "record": "sha256:8914c788b004df9c",
+        "signing_fingerprint": "sha256:8914c788b004df9c"
+      }
     }
   ]
 }
