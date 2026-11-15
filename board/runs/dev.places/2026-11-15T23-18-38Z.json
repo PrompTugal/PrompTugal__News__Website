@@ -1,0 +1,78 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.places@PrompTugal.dinis",
+ "run": "2026-11-15T23-18-38Z",
+ "started": "2026-11-15T23:18:38.624Z",
+ "ended": "2026-11-15T23:20:06Z",
+ "line": "JSON first for the by-place pages",
+ "policy": {
+  "version": "1.9.0",
+  "sha256": "156211e35e347db4"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T23:18:38.624Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 6,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 2,
+   "web": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": [
+   {
+    "sha": "84b665ed9",
+    "subject": "dev.places@PrompTugal.dinis: JSON first for the by-place pages: what the region page computes is in its JSON too, each place's team in its file, and every page ",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "84b665ed9 wrote data/by-place/places.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 6,
+  "in_mandate": 6,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}
