@@ -2,11 +2,12 @@
   "agent": "place.albufeira@PrompTugal.dinis",
   "focus": "Albufeira's site: tourism and hospitality AI, the AI map, local AI news",
   "state": "first pass released, researching",
-  "updated": "2026-11-15T22:30Z",
+  "updated": "2026-11-15T22:50Z",
   "done": [
     "site and agent keys made and published in board/keys.json",
     "data/by-place/albufeira.json first pass: 3 news items, 2 map entries, gaps, voice, signed",
-    "hand-over debrief"
+    "hand-over debrief",
+    "hourly pass 2 (22:35): digital urbanism counter and Dengun programme added as extras; no new AI map entry found in readable sources"
   ],
   "next": [
     "find Albufeira-based AI firms and hotels with stated AI use",
