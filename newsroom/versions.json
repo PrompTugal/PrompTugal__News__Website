@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1473",
+    "date": "2026-11-15",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "d15c1dc03"
+  },
+  {
     "version": "v0.1.1472",
     "date": "2026-11-15",
     "what": "analyst@PrompTugal.vicky: topics page time corrected (10:21 UTC)",
