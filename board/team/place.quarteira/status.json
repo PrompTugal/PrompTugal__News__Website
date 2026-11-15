@@ -1,0 +1,16 @@
+{
+  "agent": "place.quarteira@PrompTugal.dinis",
+  "focus": "Quarteira's place site, promptugal.news/algarve/quarteira/: centre of gravity (with Vilamoura), the AI map, local AI news, sources, events, gaps, look and voice",
+  "state": "identity made (place.quarteira-promptugal, site.quarteira-promptugal); research starting",
+  "updated": "2026-11-15T22:00Z",
+  "done": [
+    "session key and site key made and published in board/keys.json"
+  ],
+  "next": [
+    "research Quarteira and Vilamoura sources, AI map, news, events",
+    "write data/by-place/quarteira.json and sign it with the site key",
+    "release, then deepen"
+  ],
+  "asks": [],
+  "debrief": null
+}

@@ -2006,6 +2006,44 @@
         "record": "sha256:99a76a4e5cad5183",
         "signing_fingerprint": "sha256:99a76a4e5cad5183"
       }
+    },
+    {
+      "id": "place.quarteira-promptugal",
+      "agent": "place.quarteira@PrompTugal.dinis",
+      "label": "place.quarteira@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "Quarteira's place site of PrompTugal.news (data/by-place/quarteira.json): the research and publish loop for Quarteira and its AI map, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4yh8BVSvrWU7LSKHK74G\nDYKOrS+CEXJSyYn3i7E333IrDXBRXEROuW/p17WHUXlEn7W7x3rtFpHHTRsivFkZ\n3Dtj+ju5BurT2kCj57197v3tbGuC/4AxDxyCKxgK019W1fmJOykTFw+GRIOjRG6+\nRs3D3toorG+RbNtajlXgPbYRPlBlh3zOaJgDoP+01v/ZZT88uBzHI4hhhNJZRjY/\nb0sZa1iOd0IHP7qrKwdbDTLcHy2v7WphQn9fI2zzJlfj82J/sgr/F9KeIXokJCd2\nXUVAcpXZgbkk1ro3m6IxCH8cyYRMk7qMdl6962zocfvrHRTKwyFDd0mNQeK/GoWe\nvN6rebpLdK2swHhpjQGHxB0HG+6WzRsAactVq8osppRj//2XtyIwtdj/Av/dqmOD\nD3tk9k8ITIrjwH3llVs/bNGfrIZI+BKZWlIRRDCHXMmrqTj9KUuBxuM+rf22mloz\nEViC/EuBsk2Aay6ryVmVApap9tm/5c1LFdgm9ncCltA+21jQkqY5JXf0W1rB89xU\nQXwVNwz2ROoFr3dHFeSBUBYwSTtZOL1z6HFT4/tTr/RiYapiL/6PHKiU4TUiUiAw\nqQ3hX7dQJAl7TsKQzeEFlKXnGaiAX9vq7PhY92sJPfHDq98+1PO+NqJhX2FDrbGV\nDY5a272dhfX5QwOgXgtG1wsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZfdC2SPEv++T7HOFwzP6/QuqaxMh\n969Qfh09NI68XLXFSOBzkDyhdF+TXNYfhJmv89sj+E4mCT2gZ8Yt7tA4Mw==\n-----END PUBLIC KEY-----\n",
+        "label": "place.quarteira@PrompTugal.dinis",
+        "fingerprint": "sha256:f6d6b3d7903bb17c",
+        "record": "sha256:0519d5c8ce094cde",
+        "signing_fingerprint": "sha256:0519d5c8ce094cde"
+      }
+    },
+    {
+      "id": "site.quarteira-promptugal",
+      "agent": "place.quarteira@PrompTugal.dinis",
+      "label": "site.quarteira: the site key of promptugal.news/algarve/quarteira/",
+      "role": "The identity of the site promptugal.news/algarve/quarteira/: signs data/by-place/quarteira.json. Held in the place agent's session; it ends with that session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxOIrR+mHOM8Hm0SDOrwQ\nASAC4mU9z+IoO1yjE18tm1eTMU07ap0ROK2EVpKIkmuQG9Zj02ca4BQwDO3hu/BL\nyaREFpWxDNXZFeGsEZhK9FFkfhFpi7H/lk/GkqrSmYL13iyrhh2O6x4gyxwIZEZ5\nThk6fixejpwDx4gmHFsl6jMN9RS58jxoOwyHMFnoJcmFJUvqRVIwOWawwS6Kwsfc\ngPzmjHdOAMTbW+kVQIzULMN+WulbkgGgG9eSCo8rZEDLHzC/kuKP6kUiSUa+Qyxl\nBzRfO4WcYs+zOAd5qwmMk2RTYvoBO30P64QkofKqXrQU5O7c6urPaCCU5EFYa3ol\nL/SDxxS7Q+8YqDbAF2bCuIWMenLJxISyVW95EnUkGZDYq6vUgKP9bxzVA1MHPnN6\nxr6+1zZbfDV3IgnfiDm+nKCLXUgf+RMcM7FYcOdDeHh1m+mz4CjgM9SDT8c8/B8T\nkATWEy48A2pLIF9k9BDzWsfybgswwQUEL/U7F4Vi+s8rw1BDXSGjd1Ntux3+GNkE\nB28tiKKJE0CYv17/cr3I0Pk5+uob+sJLXE28e3R6wYnI/prn5cr0hl2VjhiAIXHA\n4+eF01dmw2NhTBzepSZHZtOULcUXGOjVsZNcRKYDLv4GCAEPUkinCI4vmJvdR2hn\nnhXJOZPsp8xrlv8dxqJI4x8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIGruvPNvyOxuMSEwsWFmTqKhWis9\n4Gzx/98XNw9LUl1Qy59o1uOAdAh/8fe+fBuoEsBqLScmLTfY0PIU4g09mw==\n-----END PUBLIC KEY-----\n",
+        "label": "site.quarteira",
+        "fingerprint": "sha256:8712c0cc04180691",
+        "record": "sha256:c501e474b99829d9",
+        "signing_fingerprint": "sha256:c501e474b99829d9"
+      },
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/quarteira/"
     }
   ]
 }
