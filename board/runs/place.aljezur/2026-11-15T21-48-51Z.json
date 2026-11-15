@@ -1,0 +1,87 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.aljezur@PrompTugal.dinis",
+ "run": "2026-11-15T21-48-51Z",
+ "started": "2026-11-15T21:48:51.972Z",
+ "ended": "2026-11-15T22:05:57Z",
+ "line": "",
+ "policy": {
+  "version": "1.8.0",
+  "sha256": "4f01ee1ba62d2eb8"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:51:17.472Z",
+   "chars": 1650,
+   "sha256": "02702b4c33f34e19",
+   "head": "You are place.aljezur@PrompTugal.dinis, the agent for Aljezur's site, promptugal.news/algarve/aljezur/, started on 15 November 2026 at Dinis's word via his conductor: \"one agent per target ... each wi"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:51:17.208Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 53,
+  "by_kind": {
+   "git": 6,
+   "shell": 8,
+   "web": 36,
+   "git-push": 1,
+   "other": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 53,
+  "commits": [
+   {
+    "sha": "a7f99d5c3",
+    "subject": "place.aljezur@PrompTugal.dinis: first pass of Aljezur's site (3 news, 3 map entries, gaps, voice), signed",
+    "files": 4
+   },
+   {
+    "sha": "1431e9f31",
+    "subject": "place.aljezur@PrompTugal.dinis: my session key (place.aljezur-promptugal) and the site key (site.aljezur-promptugal)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 53,
+  "in_mandate": 53,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
