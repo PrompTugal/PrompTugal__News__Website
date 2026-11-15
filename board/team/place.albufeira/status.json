@@ -1,9 +1,21 @@
 {
-  "role": "place.albufeira@PrompTugal.dinis",
+  "agent": "place.albufeira@PrompTugal.dinis",
+  "focus": "Albufeira's site: tourism and hospitality AI, the AI map, local AI news",
   "state": "first pass released, researching",
   "updated": "2026-11-15T22:30Z",
-  "done": ["site and agent keys made and published in board/keys.json", "data/by-place/albufeira.json first pass: 3 news items, 2 map entries, gaps, voice, signed", "hand-over debrief"],
-  "next": ["find Albufeira-based AI firms and hotels with stated AI use", "confirm leads Vibeslist, Dengun Founders Program, Algarve Tech Hub Summit from readable sources", "upcoming events from organisers' pages", "go live when the page is worth showing"],
-  "asks": ["Dinis: postal.pt (the best local paper) shows a bot challenge to our tools, so its stories are only leads. Is a permitted way to read it wanted, or do we skip it?"],
+  "done": [
+    "site and agent keys made and published in board/keys.json",
+    "data/by-place/albufeira.json first pass: 3 news items, 2 map entries, gaps, voice, signed",
+    "hand-over debrief"
+  ],
+  "next": [
+    "find Albufeira-based AI firms and hotels with stated AI use",
+    "confirm leads Vibeslist, Dengun Founders Program, Algarve Tech Hub Summit from readable sources",
+    "upcoming events from organisers' pages",
+    "go live when the page is worth showing"
+  ],
+  "asks": [
+    "Dinis: postal.pt (the best local paper) shows a bot challenge to our tools, so its stories are only leads. Is a permitted way to read it wanted, or do we skip it?"
+  ],
   "debrief": "board/team/place.albufeira/debriefs/2026-11-16-handover.md"
 }
