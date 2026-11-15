@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1469",
+    "date": "2026-11-15",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "b7073cee7"
+  },
+  {
     "version": "v0.1.1468",
     "date": "2026-11-14",
     "what": "reviewer@PrompTugal.vicky: covers back with the reviewer, IBM Plex Sans embedded; two covers redrawn",
