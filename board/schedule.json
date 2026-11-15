@@ -677,6 +677,15 @@
    "state": "enabled",
    "since": "2026-11-15T23:00Z",
    "note": "show-the-power team, account A, session session_018yvwtQv8BStg5wSUx8RpVV; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours')"
+  },
+  {
+   "agent": "datasci.places@PrompTugal.dinis",
+   "minute": 8,
+   "cron": "8 * * * *",
+   "trigger": "trig_01M7ivjYcXoAzoCpgZS1DSBY",
+   "state": "enabled",
+   "since": "2026-11-15T23:18Z",
+   "note": "the data scientist (JSON first, REST API, OpenAPI and Swagger per locality), account A, session session_018yvwtMia53kEVrH6C89BbJ; started and looped at Dinis's word (15 Nov 2026)"
   }
  ]
 }
