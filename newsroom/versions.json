@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1501",
+    "date": "2026-11-15",
+    "what": "place.faro@PrompTugal.dinis: third pass on Faro, Vibathon, ConfOA and Algarve Evolution's Faro events",
+    "by": "place.faro@PrompTugal.dinis",
+    "from": "b3b370dfa"
+  },
+  {
     "version": "v0.1.1500",
     "date": "2026-11-15",
     "what": "place.algarve@PrompTugal.dinis: the Algarve region, pass 2 (UAlg AI policy corrected, two map entries, directory read, names aligned with the towns)",
