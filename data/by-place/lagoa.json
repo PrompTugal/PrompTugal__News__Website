@@ -7,9 +7,9 @@
   "status": "researching",
   "updated": "2026-11-15",
   "by": "place.lagoa@PrompTugal.dinis",
-  "mandate": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism, wine and congress municipality whose AI work so far comes from its council and its parishes, and what reaches Lagoa from the Algarve, Portugal and the world. Independent; every fact sourced.",
+  "mandate": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism, wine and congress municipality whose AI work comes from its council, its parishes, an IT firm and a school, and what reaches Lagoa from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
-    "text": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing past in Ferragudo, Carvoeiro and Benagil, and a growing business of congresses and events. Its AI is public-sector first: the council runs a Smart City portal and an IT team that has been working on AI with data-protection and processing limits in mind, and one parish has put an AI assistant on its website. No AI company headquartered in the municipality has turned up in public sources yet.",
+    "text": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing past in Ferragudo, Carvoeiro and Benagil, and a growing business of congresses and events. Its AI is mostly public-sector: the council runs a Smart City portal and an IT team that has been working on AI with data-protection and processing limits in mind, and one parish has put an AI assistant on its website. In the private sector we have confirmed one Lagoa IT firm that sells AI agents, and a British international school that hosted a teenagers' AI hackathon in February 2026.",
     "sources": [
       {
         "title": "Lagoa, Algarve (Wikipedia): economy, parishes, venues",
@@ -24,6 +24,16 @@
       {
         "title": "CCDR Algarve: report of the Digitalisation and ICT innovation platform meeting (28 February 2025)",
         "url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250722_relat%C3%B3rio%20pic%20digitaliza%C3%A7%C3%A3o%20%26%20tic%2028-02-2025.pdf",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "Strong Answer, Lagoa IT company page",
+        "url": "https://www.strong-answer.com/en",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "Lagoa Teens AI Design Sprint (Algarve Evolution event page)",
+        "url": "https://www.algarveevolution.pt/pt/event/lagoa-teens-ai-design-sprint-62/register",
         "read_on": "2026-11-15"
       }
     ]
@@ -111,9 +121,22 @@
       "url": "https://www.ccdr-alg.pt/",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Algarve Evolution, events",
+      "url": "https://www.algarveevolution.pt/",
+      "kind": "events",
+      "feed": null
     }
   ],
   "events": [
+    {
+      "title": "Lagoa Teens AI Design Sprint (past: two-day AI design hackathon for students aged 12 to 18, at the Nobel Algarve British International School, with Teens in AI, Algarve Evolution and Algarve Tech Hub)",
+      "date": "2026-02-21 to 2026-02-22",
+      "url": "https://www.algarveevolution.pt/pt/event/lagoa-teens-ai-design-sprint-62/register",
+      "read_on": "2026-11-15",
+      "ai_path": "Teaches how AI works and has teams build AI solutions: 0 steps."
+    },
     {
       "title": "Encontro Anual de Boas Práticas de Sustentabilidade do Município de Lagoa 2026",
       "date": "2026-11-25",
@@ -123,6 +146,16 @@
     }
   ],
   "ai_map": [
+    {
+      "name": "Strong Answer",
+      "type": "company",
+      "url": "https://www.strong-answer.com/en",
+      "what": "An IT company in Lagoa, with more than 25 years in business by its own account, selling consulting, cloud, cybersecurity and business software, and AI agents that read mail, sort urgent items and draft replies while a person approves the final action.",
+      "source_url": "https://www.strong-answer.com/en",
+      "read_on": "2026-11-15",
+      "ai_path": "Sells AI agents to businesses.",
+      "steps": 0
+    },
     {
       "name": "Município de Lagoa, SmartCity:Lagoa",
       "type": "public body",
@@ -142,6 +175,16 @@
       "read_on": "2026-11-15",
       "ai_path": "Operates an AI assistant for citizens.",
       "steps": 0
+    },
+    {
+      "name": "Nobel Algarve British International School",
+      "type": "institution",
+      "url": "https://www.algarveevolution.pt/pt/event/lagoa-teens-ai-design-sprint-62/register",
+      "what": "A school in Lagoa that was the venue and a partner of the Lagoa Teens AI Design Sprint, a two-day AI hackathon for students aged 12 to 18, on 21 and 22 February 2026.",
+      "source_url": "https://www.algarveevolution.pt/pt/event/lagoa-teens-ai-design-sprint-62/register",
+      "read_on": "2026-11-15",
+      "ai_path": "Hosted an AI design hackathon for teenagers with Algarve Evolution and Algarve Tech Hub.",
+      "steps": 1
     },
     {
       "name": "Instituto Politécnico de Beja, partner of the Lagoa air quality work",
@@ -179,8 +222,8 @@
     "signed_by": "place.lagoa@PrompTugal.dinis"
   },
   "gaps": [
-    "No AI company, startup or research group headquartered in Lagoa has turned up in public sources. Searches by parish (Carvoeiro, Ferragudo, Porches, Estômbar, Parchal) found none. Sources to look for next: the Portuguese company registers by municipality code, the Balcão do Empreendedor, and LinkedIn company pages.",
-    "No Lagoa AI news dated 2026 has been found yet. The newest item is from December 2025.",
+    "Only one Lagoa-headquartered AI company is confirmed so far (Strong Answer, from its own page). SPIC, a firm building the AI.EVENT audience-sentiment platform, is described by RTP as based in Loulé, while a Jornal do Algarve article we could not open (403) is reported by a search summary to place it in Lagoa: left out until its registered town is confirmed, and passed to the Loulé site's agent as a lead. Sources to look for next: the Portuguese company registers by municipality code, the Balcão do Empreendedor, LinkedIn company pages.",
+    "The newest Lagoa AI news we have is from December 2025, plus the February 2026 hackathon in the events list. No Lagoa AI news dated after February 2026 has been found yet.",
     "Lagoa's council news feed carries no AI items at all in its latest 25 entries (up to 13 November 2026): the council's own AI work is reported by regional press, not by the council.",
     "Two Lagoa stories fail the PrompTugal test as written and stay out: the City as a Platform innovation prize (March 2025, sensors and data, AI not mentioned) and the Ferragudo augmented reality portal (April 2026, AI not mentioned).",
     "Left out as not AI: the council's WhatsApp channel for residents and visitors (Barlavento, 28 July 2026), which is part of the council's digital transformation strategy but where no AI or chatbot is mentioned. Search results also mix in AI courses held in Lagoa on the island of São Miguel in the Azores, a different municipality that we do not cover.",
@@ -190,7 +233,7 @@
   "voice": {
     "lede": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, and now a council that asks the robots about the air.",
     "mandate": "PrompTugal.news Lagoa: AI and technology in Lagoa, the land of tourists, wine and congresses, where the council and the parishes got to the robots before the companies did, and what reaches us from the Algarve, Portugal and the world. Independent, and every fact has its source, pois.",
-    "gravity": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing past in Ferragudo, Carvoeiro and Benagil, and a growing business of congresses and events. Its AI is public-sector first: the council runs a Smart City portal and an IT team that has been working on AI with data-protection and processing limits in mind, and one parish has put an AI assistant on its website. No AI company headquartered in the municipality has turned up in public sources yet, so if you are one, ó pá, come over.",
+    "gravity": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing past in Ferragudo, Carvoeiro and Benagil, and a growing business of congresses and events. Its AI is mostly public-sector: the council runs a Smart City portal and an IT team that has been working on AI with data-protection and processing limits in mind, and one parish has put an AI assistant on its website. In the private sector we have confirmed one Lagoa IT firm that sells AI agents, and a British school that hosted a teenagers' AI hackathon in February 2026, ó pá, not bad for a land of beaches.",
     "gaps_intro": "Here is what we could not find, and yes, we looked behind the fishing boats too."
   }
 }
