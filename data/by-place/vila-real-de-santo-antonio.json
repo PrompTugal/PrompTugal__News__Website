@@ -9,7 +9,7 @@
   "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
   "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in Vila Real de Santo António, a Pombaline border town on the Guadiana where cross-border projects count, and what reaches it from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
-    "text": "Vila Real de Santo António is a planned town on the Guadiana, built from 1773 on a grid and completed in 1776, whose old fishing and canning economy gave way to tourism, with many residents working across the river around Ayamonte in Spain. Its newest institutional centre of gravity is digital and cross-border: the council is wiring its historic centre under the PRR-funded VRSA Digital project, and it shares the Eurocidade do Guadiana with Ayamonte and Castro Marim, which presides in 2026. We found no AI product or AI company based in the town yet, so for now the AI story here is data groundwork and a Spanish neighbour's plans.",
+    "text": "Vila Real de Santo António is a planned town on the Guadiana, built from 1773 on a grid and completed in 1776, whose old fishing and canning economy gave way to tourism, with many residents working across the river around Ayamonte in Spain. Today it is pushing to become a national pole of the blue economy, around its fishing port and a shipbuilding yard, and it is wiring its historic centre under the PRR-funded VRSA Digital project. It shares the Eurocidade do Guadiana with Ayamonte and Castro Marim, and the council holds its presidency in 2026. We found no AI company based in the town yet, so for now the AI story is a shipyard that built a robot test vessel, data groundwork and a Spanish neighbour's plans.",
     "sources": [
       {
         "title": "Vila Real de Santo António (history and economy)",
@@ -24,6 +24,11 @@
       {
         "title": "Câmara Municipal de Vila Real de Santo António (news page, Eurocidade items)",
         "url": "https://www.cm-vrsa.pt",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "Vila Real de Santo António quer ser polo nacional da economia azul (Barlavento, 24 February 2026)",
+        "url": "https://www.barlavento.pt/vila-real-santo-antonio-polo-nacional-economia-azul/",
         "read_on": "2026-11-15"
       }
     ]
@@ -97,6 +102,18 @@
       "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
       "kind": "press",
       "feed": null
+    },
+    {
+      "name": "VRSA council: economic activities and business support (entrepreneurship office, funds desk, application unit)",
+      "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Mercados de VRSA (council site for the three municipal markets)",
+      "url": "https://www.mercadosdevrsa.pt/",
+      "kind": "council",
+      "feed": null
     }
   ],
   "events": [],
@@ -130,6 +147,16 @@
       "read_on": "2026-11-15",
       "ai_path": "Its own AI virtual assistant, in preparation as of March 2024.",
       "steps": 1
+    },
+    {
+      "name": "Nautiber, Estaleiros Navais do Guadiana",
+      "type": "company",
+      "url": "https://www.barlavento.pt/mar-profundo-marca-a-entrada-da-nautiber-na-ciencia/",
+      "what": "Shipyard on the Guadiana in Vila Real de Santo António. In 2021 it launched the 19 metre research vessel «Mar Profundo» for INESC TEC and CINTAL (University of Algarve), meant for testing marine robots, sensors and unmanned underwater vehicles. Visited in February 2026 as part of the council's blue economy push.",
+      "source_url": "https://www.barlavento.pt/mar-profundo-marca-a-entrada-da-nautiber-na-ciencia/",
+      "read_on": "2026-11-15",
+      "ai_path": "It builds the platform on which robotics and unmanned vehicles, a common home for AI, are tested at sea. The article mentions no AI.",
+      "steps": 2
     }
   ],
   "extras": [
@@ -144,6 +171,12 @@
       "value": "The council says the 16 pedestrian counters capture no image, video or sound and cannot identify individuals.",
       "source_url": "https://www.barlavento.pt/?p=399594",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Blue economy priorities",
+      "value": "At a working meeting on 19 February 2026 with the Secretary of State for Fisheries and the Sea, the council set priorities including a shipbuilding and repair cluster area, redevelopment of the fishing port and keeping the Guadiana navigable. The article mentions no technology or AI.",
+      "source_url": "https://www.barlavento.pt/vila-real-santo-antonio-polo-nacional-economia-azul/",
+      "read_on": "2026-11-15"
     }
   ],
   "identity": {
@@ -155,14 +188,15 @@
     "No local news about AI itself. The two items we carry are about the data groundwork and a Spanish neighbour. We should watch Barlavento, Sul Informação and the council's news page for the first one.",
     "The Ayamonte innovation node comes from a March 2024 interview. We could not confirm whether it launched or whether VRSA companies take part. Ask the Eurocidade and Ayamonte's council.",
     "The council's news page loaded only partly, and the Eurocidade site returned an error. Postal do Algarve and the PRR project pages for VRSA Digital were behind a bot check or a login, so we did not read them.",
-    "Blue economy innovation on the Guadiana estuary appeared in search results (a festival with local firms) but we have not opened a source for it or found an AI link, so it is not on the map yet.",
     "No upcoming events with an AI link found. The Eurocidade's November events are cultural and sporting.",
-    "We found no AI course or programme at the municipality's schools or its hospitality and tourism school. The nearest AI-adjacent teaching we saw is in Faro, at the Universidade do Algarve. Ask the school cluster and the Escola de Hotelaria e Turismo for their 2026/2027 offer."
+    "We found no AI course or programme at the municipality's schools or its hospitality and tourism school. The nearest AI-adjacent teaching we saw is in Faro, at the Universidade do Algarve. Ask the school cluster and the Escola de Hotelaria e Turismo for their 2026/2027 offer.",
+    "The blue economy is the town's strongest economic story, but the sources we read mention no AI in it. A February 2026 meeting and the Nautiber yard are on the page for that reason. We should watch for sea-tech, aquaculture monitoring or port digitalisation projects.",
+    "NERA runs digital projects across the Algarve (we saw DIBEST for microenterprises and a farm digitalisation survey in search results) but we have not opened a source or found one that names the municipality, so none is on the page."
   ],
   "voice": {
     "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",
     "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in VRSA, the tidy Pombaline town with its feet in the Guadiana and one eye on Spain, plus whatever reaches us from the Algarve, Portugal and the world. Independent, and every fact has its source, pá.",
-    "gravity": "Pombal drew this town on a grid from 1773 and it was done by 1776, which is faster than most of us finish a bica. The sardines and tuna gave way to tourism, and plenty of people nip across the river to work near Ayamonte. Now the council is putting Wi-Fi and footfall counters in the centre, and the Eurocidade do Guadiana with Ayamonte and Castro Marim is where the cross-border ideas live. AI company based here? Not yet, caramba. For now it is data groundwork and a Spanish neighbour's plans.",
+    "gravity": "Pombal drew this town on a grid from 1773 and it was done by 1776, which is faster than most of us finish a bica. The sardines and tuna gave way to tourism, and plenty of people nip across the river to work near Ayamonte. Now the town wants to be the national capital of the blue economy, with a shipyard on the Guadiana that built a boat for testing robots, Wi-Fi and footfall counters in the centre, and the Eurocidade do Guadiana with Ayamonte and Castro Marim for the cross-border ideas. AI company based here? Not yet, caramba.",
     "gaps_intro": "Eish, here is what we could not find, and an honest empty net is still a finding."
   }
 }
