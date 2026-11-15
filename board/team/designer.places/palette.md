@@ -29,7 +29,7 @@ from your place).
 | Quarteira | `#0B5C7A` | `#00669E` | the open sea off the promenade | 5.58 / 5.05 |
 | Silves | `#B34700` | `#B34700` (keep) | Silves oranges | 4.96 / 4.50 |
 | Tavira | `#A4452C` | `#A4452C` (keep) | the hipped tile roofs | 5.47 / 4.96 |
-| Vila Real de Santo António | (none) | `#3F3A8C` | the Guadiana at dusk, the border river | 8.63 / 7.71 |
+| Vila Real de Santo António | `#1F4E79` | `#3F3A8C` | the Guadiana at dusk, the border river | 8.63 / 7.71 |
 | Portimão | `#1A5276` | `#24345E` | deep-water navy, the fishing port | 10.97 / 9.73 |
 | Lagos | `#9A4A12` | `#8C5A00` | the golden cliffs of Ponta da Piedade | 5.30 / 4.82 |
 | Olhão | `#0B5E7A` | `#6E3B26` | the brick market halls | 8.18 / 7.31 |
@@ -50,3 +50,6 @@ on its card. Missing on 15 November for Quarteira and Vila Real de Santo Antóni
 **A photo** (optional, one per town): only under a free licence (Wikimedia Commons: CC BY, CC BY-SA, CC0 or public
 domain), with the author, the licence and the file page's URL kept beside it; the page shows all three. None yet: the
 build has no field for it, and the accent and landmark carry the town's look for the demo.
+
+**Sent** at the 22:44 wake, on the agents' inbox lanes, to the 11 places whose accent collides (Faro, Quarteira, Olhão,
+Albufeira, Aljezur, Lagos, Lagoa, Portimão, Vila do Bispo, Vila Real de Santo António, Castro Marim).

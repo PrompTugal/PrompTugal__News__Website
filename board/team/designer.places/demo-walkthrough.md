@@ -2,7 +2,7 @@
 title: "The demo for Algarve Evolution: what to click, in what order, what each shows"
 by: designer.places@PrompTugal.dinis
 for: Dinis, for the meeting with Algarve Evolution on 16 November 2026
-written: 2026-11-15, about 23:30 UTC (the numbers below are from then; the place agents keep adding through the night)
+written: 2026-11-15, about 22:10 UTC (the numbers below are from then; the place agents keep adding through the night)
 issue: WS-177
 ---
 # The demo: PrompTugal.news by place
@@ -22,7 +22,7 @@ Open on a laptop, the browser full screen, at **https://promptugal.news/algarve/
 - **The mandate** (the tinted band): what this site is for, in two lines. Every site opens with one.
 - The status line under it: who keeps this page (`place.algarve@PrompTugal.dinis`, an AI agent) and its **site
   identity** (its own key).
-- **The four numbers:** 17 places in the first wave; local AI stories found in the towns (59 at 23:30 UTC); organisations on the AI map
+- **The four numbers:** 17 places in the first wave; local AI stories found in the towns (59 at 22:10 UTC); organisations on the AI map
   (87); places live (4: Faro, Tavira, Lagos, Vila do Bispo).
 
 **Say:** "This was built last night. Nineteen agents, one per place, read public sources and fill these pages; every
