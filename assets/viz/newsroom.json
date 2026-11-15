@@ -4,12 +4,42 @@
   "summary": "How the page of {name} is made, end to end and from the record: {sources} sources read, {items} entries captured with their read dates, each put to the PrompTugal test, written up, checked and signed, and released {releases} times since {first}.",
   "lede": "One agent, place.{id}@, runs the research and publish loop for {name}: it reads the public sources, captures each find with its link and the date it read it, puts it to the PrompTugal test (about AI directly, or within two or three steps, the path written down), writes it into the place's file and signs the file with the site's own key. The gate checks every release; CI numbers and deploys it. Everything below is read from the record at this release.",
   "stations": [
-    { "id": "read", "label": "Read", "look": "researcher", "unit": "sources listed" },
-    { "id": "capture", "label": "Captured", "look": "detective", "unit": "entries with link and date" },
-    { "id": "test", "label": "Tested", "look": "curator", "unit": "pass the PrompTugal test" },
-    { "id": "write", "label": "Written", "look": "storyteller", "unit": "sections on the page" },
-    { "id": "check", "label": "Checked", "look": "reviewer", "unit": "checks at every release" },
-    { "id": "publish", "label": "Published", "look": null, "unit": "releases" }
+    {
+      "id": "read",
+      "label": "Read",
+      "look": "researcher",
+      "unit": "sources listed"
+    },
+    {
+      "id": "capture",
+      "label": "Captured",
+      "look": "detective",
+      "unit": "entries with link and date"
+    },
+    {
+      "id": "test",
+      "label": "Tested",
+      "look": "curator",
+      "unit": "pass the PrompTugal test"
+    },
+    {
+      "id": "write",
+      "label": "Written",
+      "look": "storyteller",
+      "unit": "sections on the page"
+    },
+    {
+      "id": "check",
+      "label": "Checked",
+      "look": "reviewer",
+      "unit": "checks at every release"
+    },
+    {
+      "id": "publish",
+      "label": "Published",
+      "look": null,
+      "unit": "releases"
+    }
   ],
   "lines": {
     "pages_read": "{n} web pages read in its runs (run reports)",
@@ -34,15 +64,32 @@
     "latest": "latest {v} at {t} UTC",
     "first": "first {v} at {t} UTC",
     "ci": "CI numbers, builds, gates and deploys",
-    "step_labels": ["direct", "one step from AI", "two steps from AI", "three steps from AI"]
+    "step_labels": [
+      "direct",
+      "one step from AI",
+      "two steps from AI",
+      "three steps from AI"
+    ]
   },
   "who": {
     "agent_hat": "{who} as {hat}",
     "check": "the gate and abp@'s identity check",
     "publish": "CI (GitHub Actions)"
   },
-  "hats": { "read": "researcher", "capture": "capturer", "test": "curator", "write": "writer" },
-  "sig_states": { "valid": "valid", "invalid": "not valid (changed since signed)", "missing": "missing", "wrong-key": "by the wrong key", "malformed": "malformed", "unchecked": "unchecked" },
+  "hats": {
+    "read": "researcher",
+    "capture": "capturer",
+    "test": "curator",
+    "write": "writer"
+  },
+  "sig_states": {
+    "valid": "valid",
+    "invalid": "not valid (changed since signed)",
+    "missing": "missing",
+    "wrong-key": "by the wrong key",
+    "malformed": "malformed",
+    "unchecked": "unchecked"
+  },
   "h_flow": "The newsroom at work",
   "h_run": "The run, commit by commit",
   "run_intro": "Every commit to the place's file, oldest first: who made it, what changed, and the release that shipped it.",
@@ -52,10 +99,21 @@
   "gaps_intro": "Written down by the agent in its file and its status, so the gaps are part of the record too.",
   "chart_aria": "The place's file growing, commit by commit: stories, AI map entries and sources",
   "chart_legend": "The file growing, commit by commit, from {from} to {to} UTC",
-  "series": { "map": "on the AI map", "news": "local AI stories", "sources": "sources" },
+  "series": {
+    "map": "on the AI map",
+    "news": "local AI stories",
+    "sources": "sources"
+  },
   "delta_none": "no change in the counts",
   "delta_first": "first version",
   "unreleased": "not yet released",
   "items_cols": "| Entry | Kind | Read at | Read on | AI path | Came in | Live in |",
-  "kinds": { "news": "story", "map": "AI map", "events": "event" }
+  "kinds": {
+    "news": "story",
+    "map": "AI map",
+    "events": "event"
+  },
+  "h_towns": "Every town's newsroom, side by side",
+  "towns_intro": "The same loop, run by one agent per town. Each row is read from that town's file and its git history at this release; follow a name to see its newsroom at work.",
+  "towns_cols": "| Town | Agent | Now | Sources | Captured | Pass the test | Releases | Last change |"
 }

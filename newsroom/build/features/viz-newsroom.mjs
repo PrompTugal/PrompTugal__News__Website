@@ -143,6 +143,18 @@ function itemRows(ctx, p, H) {
     return rows.length ? `{.vz-items}\n${C.items_cols}\n|---|---|---|---|---|---|---|\n${rows.join('\n')}\n` : ''
 }
 
+// the region's newsroom: every town's loop side by side
+function townsBoard(ctx, region) {
+    const C = copy(ctx), c = s => ctx.md.cell(String(s ?? '')), rel = newsroomRel(region)
+    const towns = places(ctx).filter(t => t.parent === 'algarve' || t.parent === 'loule')
+    const rows = towns.map(t => {
+        const st = Object.fromEntries(stations(ctx, t).map(s => [s.id, s.big])), H = history(ctx, t), last = H[H.length - 1]
+        const me = teamOf(ctx, t).find(a => a.own)
+        return `| [${c(t.name)}](${ctx.link(rel, newsroomRel(t))}) | ${c(short(t.agent.toLowerCase()))} | ${c(me ? (me.mood === 'happy' || me.mood === 'stressed' ? 'at work' : me.mood === 'worried' ? 'quiet' : 'silent') : '')} | ${st.read} | ${st.capture} | ${st.test} | ${st.publish} | ${last ? `${dm(last.t)} ${hm(last.t)}` : ''} |`
+    })
+    return `## ${C.h_towns} {#towns}\n\n${C.towns_intro}\n\n{.vz-towns}\n${C.towns_cols}\n|---|---|---|---:|---:|---:|---:|---|\n${rows.join('\n')}\n\n`
+}
+
 function page(ctx, p) {
     const C = copy(ctx), d = p.data || {}, rel = newsroomRel(p), H = history(ctx, p)
     const list = stations(ctx, p), team = teamOf(ctx, p), c = s => ctx.md.cell(String(s ?? ''))
@@ -150,6 +162,7 @@ function page(ctx, p) {
     const items = arr(d.ai_news).length + arr(d.ai_map).length + arr(d.events).length
     let md = `::: vz-hero-slot\n${c(W(C.lede, { id: p.id, name: p.name }))}\n:::\n\n`
     md += `## ${C.h_flow} {#flow}\n\n::: vz-stations-slot\n${list.map(s => `- **${s.n}. ${c(s.label)}: ${c(s.big)} ${c(s.unit)}.** ${s.lines.map(c).join('; ')}`).join('\n')}\n:::\n\n`
+    if (p.id === 'algarve') md += townsBoard(ctx, p)
     md += `## ${C.h_run} {#run}\n\n${C.run_intro}\n\n::: vz-chart-slot\n${c(W(C.chart_legend, { from: H[0] ? `${dm(H[0].t)} ${hm(H[0].t)}` : '', to: `${dm(record(ctx).now)} ${hm(record(ctx).now)}` }))}\n:::\n\n`
     md += `::: vz-run-slot\n${H.map(h => `- ${dm(h.t)} ${hm(h.t)}, ${c(short(h.agent.toLowerCase()))}: ${c(trim(noDash(noPrefix(h.subject)), 150))} (${c(delta(C, h))}; ${c(h.release || C.unreleased)})`).join('\n')}\n:::\n\n`
     md += `## ${C.h_items} {#items}\n\n${C.items_intro}\n\n${itemRows(ctx, p, H)}\n`
