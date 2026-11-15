@@ -1,0 +1,116 @@
+{
+ "about": "The by-place team, started by conductor@PrompTugal.dinis on 15 Nov 2026, 21:48 to 21:51 UTC, at Dinis's word in its session (board/briefs/2026-11-15-the-place-agents.md). Account A. No scheduled tasks: each works through the night in its first run.",
+ "started": "2026-11-15T21:51Z",
+ "agents": [
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "session": "session_018yvwtPpzq2TZ2mzv8KqvhB",
+   "model": "Opus"
+  },
+  {
+   "agent": "dev.places@PrompTugal.dinis",
+   "session": "session_018yvwtPtqG8xMjg6doG8LN8",
+   "model": "Opus"
+  },
+  {
+   "agent": "designer.places@PrompTugal.dinis",
+   "session": "session_018yvwtLLkP6UbXjxAtsh8kX",
+   "model": "Opus"
+  },
+  {
+   "agent": "place.portugal@PrompTugal.dinis",
+   "session": "session_018yvwtQMswuohj7TZhuRqwN",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.algarve@PrompTugal.dinis",
+   "session": "session_018yvwtLTJn45Db2SGJBzXmw",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.faro@PrompTugal.dinis",
+   "session": "session_018yvwtPjUwRsetQiSLBQBTu",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.loule@PrompTugal.dinis",
+   "session": "session_018yvwtQPs255S3SPETugRtR",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.quarteira@PrompTugal.dinis",
+   "session": "session_018yvwtNGuzmR7dq3K9e2YMc",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.silves@PrompTugal.dinis",
+   "session": "session_018yvwtPhm1gah2zqGN1Lebj",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.tavira@PrompTugal.dinis",
+   "session": "session_018yvwtLZHSCwXAdyKBBTsCq",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+   "session": "session_018yvwtMMtcT4wdywX8B6rwk",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.portimao@PrompTugal.dinis",
+   "session": "session_018yvwtQmDejkkS843ECrbiZ",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.lagos@PrompTugal.dinis",
+   "session": "session_018yvwtQA15qdFx8KGy92rpU",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.olhao@PrompTugal.dinis",
+   "session": "session_018yvwtPX93Z3eeQ9HGboHE3",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.albufeira@PrompTugal.dinis",
+   "session": "session_018yvwtLs2J9CZhHmNhnZ1ux",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.lagoa@PrompTugal.dinis",
+   "session": "session_018yvwtLM8hoDk5hbo2UfLsp",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.monchique@PrompTugal.dinis",
+   "session": "session_018yvwtNVyZYcMYhNzVchYbV",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.aljezur@PrompTugal.dinis",
+   "session": "session_018yvwtPJ4F9WCQw7EEfvea4",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.vila-do-bispo@PrompTugal.dinis",
+   "session": "session_018yvwtLqcx5B1Xjvqa7Cd2y",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.castro-marim@PrompTugal.dinis",
+   "session": "session_018yvwtMB3koAPcSwDALGuBo",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.alcoutim@PrompTugal.dinis",
+   "session": "session_018yvwtLhJ9VfGB3NHZBjxna",
+   "model": "Sonnet"
+  },
+  {
+   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+   "session": "session_018yvwtNtzuuJqbDtP9VfwsZ",
+   "model": "Sonnet"
+  }
+ ]
+}

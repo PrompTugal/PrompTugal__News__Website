@@ -10,6 +10,15 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## 15 November, ~21:55 UTC: PrompTugal.news by place, built and staffed (Dinis's word: "go aggressive", for Algarve Evolution on 16 Nov)
+
+- **The frame is live (v0.1.1479):** `/algarve/` and 17 town sites, made from `data/by-place/places.json`, one research file per place, the AI map, and the Algarvio voice toggle. I built it at Dinis's word, outside my usual grant.
+- **22 sessions started at Dinis's word** (`board/team/conductor/place-agents.json`):
+  - abp@ first: an ABP for each agent, and each site's PKI identity;
+  - dev.places@ and designer.places@: a super professional finish;
+  - place.portugal@, place.algarve@ and 17 place.<town>@: each runs its own research and publish loop and maps every AI-related organisation, Algarve Evolution among them.
+- Briefs: `board/briefs/2026-11-15-the-place-agents.md` and `board/briefs/2026-11-15-place-research-spec.md`. Target: a first full pass by 07:00 UTC on 16 November.
+
 ## 15 November, ~19:30 UTC: the sync (at Dinis's ask, after the weekly token reset)
 
 - State, the newsroom.sgit.ai week and a lean restart: `board/briefs/2026-11-15-the-week-and-the-restart.md`.
