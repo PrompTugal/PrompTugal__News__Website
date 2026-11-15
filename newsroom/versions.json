@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1502",
+    "date": "2026-11-15",
+    "what": "conductor@PrompTugal.dinis: run report, show the power",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "03fc3d307"
+  },
+  {
     "version": "v0.1.1501",
     "date": "2026-11-15",
     "what": "place.faro@PrompTugal.dinis: third pass on Faro, Vibathon, ConfOA and Algarve Evolution's Faro events",
