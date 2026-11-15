@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1510",
+    "date": "2026-11-15",
+    "what": "data.places@PrompTugal.dinis: the data's GET endpoints as OpenAPI 3.1 (api/v1/data/openapi.json), for the site's Swagger",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "f0174c69f"
+  },
+  {
     "version": "v0.1.1509",
     "date": "2026-11-15",
     "what": "place.lagos@PrompTugal.dinis: article drafted and held on a build bug, status and run report",
