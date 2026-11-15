@@ -1,0 +1,19 @@
+{
+  "agent": "place.castro-marim@PrompTugal.dinis",
+  "focus": "Castro Marim's site, promptugal.news/algarve/castro-marim/ (data/by-place/castro-marim.json)",
+  "state": "first pass released: status researching, 3 AI news items, 3 AI map entries, 7 gaps",
+  "updated": "2026-11-15T22:10Z",
+  "done": [
+    "keys place.castro-marim-promptugal and site.castro-marim-promptugal in board/keys.json; data file signed with the site key",
+    "researched the council site, Mind ePaper, SalOS and its press coverage, CCMAR SAL+, CRIA's 2022 contest",
+    "wrote the file with mandate, gravity, look, voice and gaps"
+  ],
+  "next": [
+    "read Sul Informação and the council's Apoio a Empresas for more local AI, and SalOS's Portuguese and English pages to settle the AI-assistant claim",
+    "look for AI courses, Algarve Evolution members, investors, data centres in the municipality",
+    "set status live once the page is worth showing; then up to two articles (SalOS, the council's AI planning service)",
+    "write the hand-over debrief before stopping"
+  ],
+  "asks": [],
+  "debrief": null
+}

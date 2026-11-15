@@ -2448,6 +2448,44 @@
         "fingerprint": "sha256:22a99c975f19afc7",
         "signing_fingerprint": "sha256:344b8829b9663022"
       }
+    },
+    {
+      "id": "place.castro-marim-promptugal",
+      "agent": "place.castro-marim@PrompTugal.dinis",
+      "label": "place.castro-marim@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The agent for the Castro Marim site of PrompTugal.news (data/by-place/castro-marim.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtf5JL3+rV7645IZXZuTU\nx3LFz8wmrffDLRpwOTgAxPKwscqAX/unAyXZ4zj5+zytNl1DgCEM1HuUaZ5NvLFf\nlJevowyefI2Vcw4r2Y9uNLQ5OSySfRXLPZgmrDFyiby+Nc3xJHJMeQenMDkduzQu\n8k5MXbDwrT48GGecioZrTtnqfWnrmA9wP9XNi2d931Cw4eWiNarfkQDqYYRitYYD\n4t6E61ePJ9qBkWdT1/wJYo5ksDwKkjHIPtkYHTWCXU6Xvd0Cv8AcpZ7PzLnOzsUf\nw2aoSIdmjE6DhUudjV0i1t16Qi2rfldTrxGzeXSsviC1SN/gVy5ZxuN0cRF7pu3m\nwRiatS2WENSN202xLMk7MwpxzzlRjFdZ26CMw5iWS0FpKYClUygF7ba1ipnx1AhR\n4lCX/V/yWZ0J8XW7ztlPQ7UmoHavUgA26lqQv5T3L75x4icN2yw2gsBNoGEl2Ia6\nx6cfS/7h/EmfmUyU/LQP05m3IzDgKUPkwKJHf9TIFVogPT6/XiKfHhTT5N0BOoVn\nXLAMQ8ZzQKxOCiyMlABbJ63EGKSgrw/fXCO1rxA4SoMaADKSFUmmepRsI2YUXGaR\nO7LFEQ3ESgEZljQHNCr0zexwHiJ2m+h8PXjtjBHl4v2keQc1WRV7SUUycZWK1a01\n0QMBRUKWrA7gn2ZABYvkvrcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcFIhWO5xpSA5+gabWVAXxwlUrt/t\n7CD6sLbNmF8sEmfG+OmF9JZLIa2An0pyoYa8ZtHB1eg2hDHMjQNLR9wagQ==\n-----END PUBLIC KEY-----\n",
+        "label": "place.castro-marim@PrompTugal.dinis",
+        "fingerprint": "sha256:c333ef94ecfb43c6",
+        "record": "sha256:c5736844edb3e8f4",
+        "signing_fingerprint": "sha256:c5736844edb3e8f4"
+      }
+    },
+    {
+      "id": "site.castro-marim-promptugal",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/castro-marim/",
+      "agent": "place.castro-marim@PrompTugal.dinis",
+      "label": "site.castro-marim@PrompTugal.dinis (the site identity of promptugal.news/algarve/castro-marim/)",
+      "role": "The identity of the Castro Marim site: it signs data/by-place/castro-marim.json. Held by place.castro-marim@PrompTugal.dinis in its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuWZ/FhuJShYFDR0jZorm\npp99dvwoojNS0WMWUjKnrSIGOsXAX7Ne9DKoncb5Rj8pvkZxksyYMqbh4qkhBQDg\nMBDj8Z56mVCiPSoorfVxGvzOJkUYNVm3jiH9bCJfO4wabLVL7AWJ9/O15fXvDrWj\nqIhOwvM1ZeOY42n2Y4INlMY2vZpOslHnOIJfUC7ZBUINjBBfSjvkJQ/Nk7iilD7d\np+cwBI5/vTsUVWjG7Sr+RtF+6QUED/nbOOQoRvGz5Sd0SuyxjKzlpflUKTWvDTJP\nGT8rwyn68Sli5eERflC5VWBTHHoMcgy2ZdSsHq6AulScqUAbx+43BrK1ulfp/oP5\nNmSoWZ2p+chaVX+600zVeLEBF6oi8H4i5VFBOmGlb1JnXa50pSB84XbolN3SWBFE\nzKxLcKjdkPK6tp/oA1ibg7Xojh7I+kAYmPZmGRhcotTM+O11QVaD5zrbnQm+K+by\nHJ0q9joMPGJYJbOEKkTRoy4vbBg9SIw4KmJzON/IPBU9wbc5nQwsXXnOv2/7hCxZ\nkdAjR3XIGXm+JFn/jHo9KIFcnbRCtuMkw54dqqboAakshsjwuRWmEWKHWSRYgHIG\nP5eyUADT8exQUP3eI/K5st2i18kooSOUSoDJVjdDmsYROZvp+r7UUW7slsC3rWtA\ndm/ZMSjdMEoBxJ97qW7+CVsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgBe6UAxmCx7MUtL8H+5h40fby5mZ\ndK+fH2mM1TdlkSyjQAoh69PB4+xln7F1mBnSlecy9v1GA8BL40u8hCbuNw==\n-----END PUBLIC KEY-----\n",
+        "label": "site.castro-marim@PrompTugal.dinis",
+        "fingerprint": "sha256:8cff257ddff59176",
+        "record": "sha256:e6d37066243d18b3",
+        "signing_fingerprint": "sha256:e6d37066243d18b3"
+      }
     }
   ]
 }
