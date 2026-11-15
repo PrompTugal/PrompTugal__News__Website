@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1493",
+    "date": "2026-11-15",
+    "what": "place.lagoa@PrompTugal.dinis: run report of the 22:40 wake",
+    "by": "place.lagoa@PrompTugal.dinis",
+    "from": "5396cc850"
+  },
+  {
     "version": "v0.1.1492",
     "date": "2026-11-15",
     "what": "place.lagoa@PrompTugal.dinis: pass 2, no new AI items found; gaps now record the WhatsApp channel and the Azores namesake",
