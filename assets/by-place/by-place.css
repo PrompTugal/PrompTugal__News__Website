@@ -1,44 +1,149 @@
-/* PrompTugal.news by place: the region and town pages. Each page sets --accent (its town's colour) on .bp-frame;
-   the PrompTugal.news frame (the shell, the type, the brand) does not change. */
-.bp-frame { --accent: #1f5f3f; }
-.bp-frame .bp-mast { border-top: 6px solid var(--accent); border-bottom: 1px solid var(--hair); padding: 14px 0 16px; margin: 0 0 22px; position: relative; }
-.bp-frame .bp-kicker { margin: 0 0 8px; font: 700 12px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .1em; color: var(--accent); }
-.bp-frame .bp-mandate { margin: 0 0 10px; max-width: 42em; font: 500 clamp(19px, 2.6vw, 26px)/1.35 var(--serif); color: var(--ink); }
-.bp-frame .bp-meta { margin: 0; font: 400 12.5px/1.4 var(--sans); color: var(--ink-3); }
-.bp-frame .bp-meta code { font-size: 11.5px; }
-.bp-frame h2 { border-top: 2px solid var(--accent); padding-top: 10px; }
-.bp-frame .mini-h { color: var(--accent); }
-.bp-frame ul.bp-cards { list-style: none; padding: 0; margin: 8px 0 18px; display: grid; gap: 12px; grid-template-columns: minmax(0, 1fr); }
-.bp-frame ul.bp-cards > li { margin: 0; padding: 12px 14px; border: 1px solid var(--hair); border-left: 4px solid var(--accent); background: var(--paper-2); font: 400 15px/1.5 var(--sans); }
+/* PrompTugal.news by place: the region and town pages (designer.places@PrompTugal.dinis, 15 November 2026).
+   Each page sets --accent (its town's colour, look.accent, at least 4.5:1 on the paper) on .bp-frame, and by-place.js
+   copies it to <main class="bp-page"> so the page head takes it too. The PrompTugal.news frame (the shell, the type,
+   the wordmark, red and green) does not change: the accent only colours rules, kickers, numbers and links' hover.
+   --accent-ink is the accent made safe for text in the dark themes; --accent-wash is a faint tint for panels. */
+
+.bp-frame, main.bp-page { --accent: #1f5f3f; --accent-ink: var(--accent); --accent-wash: color-mix(in srgb, var(--accent) 7%, var(--paper)); }
+:root[data-theme="ink"] :is(.bp-frame, main.bp-page), :root[data-theme="dark"] :is(.bp-frame, main.bp-page), :root[data-theme="azulejo"] :is(.bp-frame, main.bp-page) { --accent-ink: color-mix(in oklab, var(--accent) 45%, #fff); --accent-wash: color-mix(in srgb, var(--accent) 16%, var(--paper)); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme]) :is(.bp-frame, main.bp-page) { --accent-ink: color-mix(in oklab, var(--accent) 45%, #fff); --accent-wash: color-mix(in srgb, var(--accent) 16%, var(--paper)); } }
+
+/* the page head: the town's rule above the title; the mandate below stands in for the standfirst */
+main.bp-page > .page-head { border-top: 6px solid var(--accent); padding-top: 14px; max-width: none; }
+main.bp-page > .page-head .crumbs a:hover { color: var(--accent-ink); }
+main.bp-page > .page-head .lead { display: none; }
+main.bp-page > .page-head h1 { margin-bottom: 10px; }
+main.bp-page > .page-head h1 .bp-brand { display: block; margin: 0 0 6px; font: 600 12px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent-ink); }
+main.bp-page > .page-head h1 .bp-landmark { display: block; margin-top: 8px; font: italic 400 clamp(17px, 2.2vw, 21px)/1.35 var(--serif); color: var(--ink-3); letter-spacing: 0; }
+main.bp-page details.toc { margin-top: 10px; }
+main.bp-page details.toc a:hover { color: var(--accent-ink); }
+
+/* the masthead band: the mandate (two lines, the brief's first rule), its status line and the voice toggle */
+.bp-frame .bp-mast { position: relative; margin: 0 0 28px; padding: 18px 20px 16px; background: var(--accent-wash); border-left: 4px solid var(--accent); }
+.bp-frame .bp-kicker { margin: 0 0 8px; padding-right: 150px; font: 600 11.5px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--accent-ink); }
+.bp-frame .bp-mandate { margin: 0 0 12px; max-width: 40em; font: 450 clamp(19px, 2.4vw, 24px)/1.38 var(--serif); color: var(--ink); text-wrap: pretty; }
+.bp-frame .bp-meta { margin: 0; font: 400 12px/1.5 var(--mono); color: var(--ink-3); }
+.bp-frame .bp-meta code { font: inherit; background: none; padding: 0; color: var(--ink-2); }
+.bp-frame .bp-meta a { color: var(--accent-ink); }
+
+/* section heads: the site's h2, ruled in the town's colour */
+.bp-frame h2 { border-top: 3px solid var(--accent); margin-top: 40px; }
+.bp-frame .cols-8-4 > .col > h2:first-child { margin-top: 4px; }
+.bp-frame p.mini-h, .bp-frame .mini-h { color: var(--accent-ink); font-weight: 700; padding-top: 8px; border-top: 1px solid var(--hair); }
+.bp-frame .cols-8-4 > .col + .col > .mini-h:first-child { border-top: 0; padding-top: 0; }
+.bp-frame .body > p, .bp-frame .col > p { max-width: 40em; }
+
+/* the centre of gravity: a serif paragraph, the page's thesis */
+.bp-frame #gravity + p, .bp-frame #gravity + .bp-std > p:first-child, .bp-frame #gravity + .bp-std + .bp-voice > p:first-child { font: 400 clamp(18px, 2vw, 20px)/1.55 var(--serif); color: var(--ink); }
+
+/* news cards: local AI news big (two up on a wide screen), wider news small (a ruled list) */
+.bp-frame ul.bp-cards { list-style: none; padding: 0; margin: 10px 0 22px; display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr); }
+.bp-frame ul.bp-cards > li { margin: 0; padding: 14px 16px 14px; border: 1px solid var(--hair); border-top: 3px solid var(--accent); background: var(--panel, var(--paper)); font: 400 14px/1.5 var(--sans); color: var(--ink-2); }
+.bp-frame ul.bp-cards > li strong { display: block; margin-bottom: 6px; font: 600 18px/1.3 var(--serif); }
 .bp-frame ul.bp-cards > li strong a { color: var(--ink); text-decoration: none; }
-.bp-frame ul.bp-cards > li strong a:hover { color: var(--accent); text-decoration: underline; }
-.bp-frame ul.bp-cards > li em { color: var(--ink-3); font-style: normal; font-size: 13px; }
-.bp-frame ul.bp-cards.bp-big > li strong { font: 600 17px/1.35 var(--serif); }
-.bp-frame ul.bp-cards.bp-small > li { font-size: 14px; padding: 9px 12px; border-left-width: 3px; }
-.bp-frame ul.bp-tiles { list-style: none; padding: 0; margin: 0 0 22px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--hair); }
-.bp-frame ul.bp-tiles > li { margin: 0; padding: 12px 12px 12px 0; border-bottom: 1px solid var(--hair); font: 600 12px/1.3 var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
-.bp-frame ul.bp-tiles > li strong { display: block; margin-bottom: 4px; font: 500 clamp(26px, 4vw, 38px)/1 var(--mono); letter-spacing: -.02em; color: var(--accent); }
-.bp-frame ul.bp-towns { list-style: none; padding: 0; margin: 10px 0 24px; display: grid; gap: 8px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.bp-frame ul.bp-towns > li { margin: 0; padding: 10px 12px; border: 1px solid var(--hair); border-top: 4px solid var(--accent); font: 400 12.5px/1.4 var(--sans); color: var(--ink-3); }
-.bp-frame ul.bp-towns > li a { display: block; color: var(--ink); text-decoration: none; font: 600 16px/1.25 var(--serif); margin-bottom: 4px; }
-.bp-frame ul.bp-towns > li em { font: 400 12px/1.3 var(--sans); color: var(--ink-3); }
-.bp-frame ul.bp-towns > li a:hover { color: var(--accent); }
-.bp-frame table { font-size: 13.5px; }
-.bp-frame .bp-empty { color: var(--ink-3); font-style: italic; }
-.bp-frame .bp-src { font-size: 13px; color: var(--ink-3); }
-.bp-frame .bp-note { padding: 12px 14px; background: var(--paper-2); border-left: 4px solid var(--accent); font: 400 14.5px/1.55 var(--sans); }
-.bp-frame ul.bp-gaps > li { color: var(--ink-2, var(--ink)); }
+.bp-frame ul.bp-cards > li strong a:hover { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 3px; }
+.bp-frame ul.bp-cards > li .bp-sum { display: block; margin-bottom: 8px; color: var(--ink-2); }
+.bp-frame ul.bp-cards > li .bp-by { display: block; font: 400 11.5px/1.5 var(--mono); color: var(--ink-3); }
+.bp-frame ul.bp-cards > li .bp-path { display: block; margin-top: 6px; padding-top: 6px; border-top: 1px dotted var(--hair); font: 400 12.5px/1.45 var(--sans); color: var(--ink-3); }
+.bp-frame ul.bp-cards.bp-small { gap: 0; border-top: 1px solid var(--hair); }
+.bp-frame ul.bp-cards.bp-small > li { padding: 10px 0 10px 14px; border: 0; border-bottom: 1px solid var(--hair); border-left: 3px solid var(--accent); background: none; font-size: 13.5px; }
+.bp-frame ul.bp-cards.bp-small > li strong { font-size: 16px; margin-bottom: 3px; }
+
+/* From PrompTugal.news: a quiet ruled list */
+.bp-frame ul.bp-latest { list-style: none; padding: 0; margin: 8px 0 22px; border-top: 1px solid var(--hair); }
+.bp-frame ul.bp-latest > li { margin: 0; padding: 9px 0; border-bottom: 1px solid var(--hair); font: 400 12px/1.45 var(--mono); color: var(--ink-3); }
+.bp-frame ul.bp-latest > li a { font: 500 16px/1.35 var(--serif); color: var(--ink); text-decoration: none; }
+.bp-frame ul.bp-latest > li a:hover { color: var(--accent-ink); text-decoration: underline; }
+
+/* the AI map: a register. Name in serif, type and AI path in sans, the source in mono. On a phone each row is a card. */
+.bp-frame .table { margin: 10px 0 22px; }
+.bp-frame table { font: 400 13.5px/1.45 var(--sans); border-top: 2px solid var(--ink); }
+.bp-frame table th { font: 600 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3); text-align: left; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--hair); }
+.bp-frame table td { padding: 10px 12px 10px 0; vertical-align: top; border-bottom: 1px solid var(--hair); }
+.bp-frame table tbody tr:nth-child(even) td { background: none; }
+.bp-frame table td:first-child { font: 600 15px/1.3 var(--serif); }
+.bp-frame table td:first-child a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--accent); }
+.bp-frame table td:first-child a:hover { color: var(--accent-ink); }
+.bp-frame table td:first-child small { display: inline-block; margin-top: 4px; font: 400 11px/1.3 var(--mono); color: var(--accent-ink); text-transform: uppercase; letter-spacing: .05em; }
+.bp-frame table td:last-child { min-width: 9.5em; font: 400 11.5px/1.5 var(--mono); color: var(--ink-3); white-space: normal; overflow-wrap: anywhere; }
+.bp-frame .bp-map td:first-child { min-width: 8em; }
+.bp-frame .bp-map td:nth-child(3) { color: var(--ink-3); }
+.bp-frame table td:last-child a { color: var(--ink-2); }
+
+/* the region's tiles: four numbers, the accent where they count, muted while zero */
+.bp-frame ul.bp-tiles { list-style: none; padding: 0; margin: 0 0 30px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 2px solid var(--ink); }
+.bp-frame ul.bp-tiles > li { margin: 0; padding: 14px 14px 14px 0; border-bottom: 1px solid var(--hair); font: 600 11px/1.35 var(--mono); text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3); }
+.bp-frame ul.bp-tiles > li strong { display: block; margin-bottom: 6px; font: 500 clamp(32px, 4.4vw, 46px)/1 var(--serif); letter-spacing: -.01em; color: var(--accent-ink); font-variant-numeric: lining-nums tabular-nums; }
+.bp-frame ul.bp-tiles > li.bp-zero strong { color: var(--rule-2, var(--hair)); }
+
+/* the towns: seventeen cards, each in its own colour once dev.places@ puts it on the card */
+.bp-frame ul.bp-towns { list-style: none; padding: 0; margin: 12px 0 28px; display: grid; gap: 10px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.bp-frame ul.bp-towns > li { position: relative; margin: 0; padding: 12px 14px 12px; border: 1px solid var(--hair); border-top: 5px solid var(--accent); background: var(--panel, var(--paper)); font: 400 11.5px/1.4 var(--mono); color: var(--ink-3); transition: transform .12s ease, box-shadow .12s ease; }
+.bp-frame ul.bp-towns > li:hover { transform: translateY(-2px); box-shadow: 0 6px 16px -10px rgba(0, 0, 0, .35); }
+.bp-frame ul.bp-towns > li a { display: block; color: var(--ink); text-decoration: none; font: 600 18px/1.2 var(--serif); margin-bottom: 6px; }
+.bp-frame ul.bp-towns > li a::after { content: ""; position: absolute; inset: 0; }
+.bp-frame ul.bp-towns > li a strong { font-weight: 600; }
+.bp-frame ul.bp-towns > li a small { display: block; margin-top: 3px; font: italic 400 13.5px/1.3 var(--serif); color: var(--ink-3); }
+.bp-frame ul.bp-towns > li:hover a { color: var(--accent-ink); }
+.bp-frame ul.bp-towns > li[data-status="live"]::before, .bp-frame ul.bp-towns > li[data-status="researching"]::before { content: ""; position: absolute; top: 12px; right: 12px; width: 8px; height: 8px; border-radius: 50%; background: var(--brand, #006600); }
+.bp-frame ul.bp-towns > li[data-status="researching"]::before { background: transparent; border: 1.5px solid var(--accent-ink); }
+
+/* side column lists: ruled, no bullets */
+.bp-frame :is(ul.bp-events, ul.bp-sources, ul.bp-extras, ul.bp-gaps) { list-style: none; padding: 0; margin: 4px 0 8px; }
+.bp-frame :is(ul.bp-events, ul.bp-sources, ul.bp-extras, ul.bp-gaps) > li { margin: 0; padding: 8px 0; border-bottom: 1px solid var(--hair); font: 400 14px/1.45 var(--sans); color: var(--ink-2); }
+.bp-frame :is(ul.bp-events, ul.bp-sources, ul.bp-extras, ul.bp-gaps) > li:last-child { border-bottom: 0; }
+.bp-frame ul.bp-events > li a, .bp-frame ul.bp-sources > li a:first-child { font-weight: 600; }
+.bp-frame ul.bp-gaps > li { padding-left: 18px; position: relative; }
+.bp-frame ul.bp-gaps > li::before { content: "?"; position: absolute; left: 0; top: 8px; font: 600 12px/1.45 var(--mono); color: var(--accent-ink); }
+.bp-frame .col + .col > p { font: 400 14px/1.5 var(--sans); color: var(--ink-2); }
+.bp-frame .col + .col > ul:not([class]) { padding-left: 18px; font: 400 14px/1.5 var(--sans); }
+.bp-frame .col + .col table { font-size: 13px; }
+.bp-frame .col + .col table td:first-child { font-size: 14px; }
+
+/* the region's status column: a pill per state (by-place.js wraps the word) */
+.bp-frame .bp-pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font: 600 10.5px/1.6 var(--mono); text-transform: uppercase; letter-spacing: .05em; border: 1px solid var(--hair); color: var(--ink-3); }
+.bp-frame .bp-pill.live { background: var(--brand, #006600); border-color: transparent; color: var(--paper); }
+.bp-frame .bp-pill.researching { border-color: var(--accent-ink); color: var(--accent-ink); }
+
+/* empty states: a dashed box that says the work is under way, never a blank */
+.bp-frame .bp-empty { display: block; margin: 8px 0 20px; padding: 12px 14px; border: 1px dashed var(--rule-2, var(--hair)); background: none; font: 400 14px/1.5 var(--sans); color: var(--ink-3); font-style: normal; max-width: none; }
+.bp-frame .bp-empty::before { content: "In progress"; display: block; margin-bottom: 3px; font: 600 10.5px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--accent-ink); }
+.bp-frame .col + .col .bp-empty { padding: 8px 10px; font-size: 13px; }
+.bp-frame .col + .col .bp-empty::before { display: none; }
+
+.bp-frame .bp-src { font: 400 12px/1.5 var(--mono); color: var(--ink-3); }
+.bp-frame .bp-note { padding: 14px 16px; background: var(--accent-wash); border-left: 4px solid var(--accent); font: 400 14.5px/1.6 var(--sans); max-width: none; }
+
+/* the playful local voice: clearly labelled, the facts unchanged */
 .bp-frame .bp-voice { display: none; }
 .bp-frame.voice .bp-voice { display: block; }
 .bp-frame.voice .bp-std { display: none; }
 .bp-frame .bp-voice p { font-style: italic; }
-.bp-toggle { position: absolute; top: 12px; right: 0; font: 600 12px/1 var(--sans); padding: 7px 10px; border: 1px solid var(--accent); color: var(--accent); background: transparent; border-radius: 3px; cursor: pointer; }
-.bp-toggle[aria-pressed="true"] { background: var(--accent); color: #fff; }
-.bp-voice-label { display: none; margin: 0 0 8px; font: 600 11.5px/1.3 var(--sans); color: var(--accent); text-transform: uppercase; letter-spacing: .08em; }
+.bp-frame.voice .bp-mast { background: repeating-linear-gradient(135deg, var(--accent-wash) 0 14px, color-mix(in srgb, var(--accent) 11%, var(--paper)) 14px 28px); }
+.bp-toggle { position: absolute; top: 14px; right: 16px; display: inline-flex; align-items: center; gap: 6px; font: 600 12px/1 var(--sans); padding: 8px 12px; border: 1px solid var(--accent-ink); color: var(--accent-ink); background: var(--paper); border-radius: 999px; cursor: pointer; }
+.bp-toggle::before { content: "\201C\201D"; font: 700 14px/1 var(--serif); }
+.bp-toggle:hover { background: var(--accent-wash); }
+.bp-toggle:focus-visible { outline: 3px solid var(--focus, #ffbf1f); outline-offset: 2px; }
+.bp-toggle[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.bp-voice-label { display: none; margin: 0 0 8px; font: 600 11px/1.3 var(--mono); color: var(--accent-ink); text-transform: uppercase; letter-spacing: .08em; }
 .bp-frame.voice .bp-voice-label { display: block; }
-@media (min-width: 640px) { .bp-frame ul.bp-tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); } .bp-frame ul.bp-towns { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (min-width: 960px) { .bp-frame ul.bp-towns { grid-template-columns: repeat(4, minmax(0, 1fr)); } .bp-frame ul.bp-cards.bp-big { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 639px) { .bp-toggle { position: static; margin-top: 10px; } }
+
+@media (min-width: 640px) {
+    .bp-frame ul.bp-tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .bp-frame ul.bp-tiles > li + li { padding-left: 16px; border-left: 1px solid var(--hair); }
+    .bp-frame ul.bp-towns { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (min-width: 960px) {
+    .bp-frame ul.bp-towns { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .bp-frame ul.bp-cards.bp-big { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 639px) {
+    .bp-frame .bp-mast { padding: 14px 14px 14px; margin-left: -4px; }
+    .bp-frame .bp-kicker { padding-right: 0; }
+    .bp-toggle { position: static; margin-top: 12px; }
+    .bp-frame ul.bp-towns > li a { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { .bp-frame ul.bp-towns > li { transition: none; } .bp-frame ul.bp-towns > li:hover { transform: none; } }
 
 /* dev.places@PrompTugal.dinis, 15 Nov 2026: a frame that holds as the places' files fill */
 .bp-frame { overflow-wrap: anywhere; }
@@ -46,8 +151,7 @@
 .bp-frame .bp-lede { margin: 0 0 10px; font: 400 14.5px/1.5 var(--sans); color: var(--ink-3); max-width: 46em; }
 .bp-frame ul.bp-cards > li em { display: block; margin-top: 6px; }
 /* each town card in its own accent, with its status */
-.bp-frame ul.bp-towns > li { display: flex; flex-direction: column; gap: 2px; background: var(--paper); transition: transform .12s ease, box-shadow .12s ease; }
-.bp-frame ul.bp-towns > li:hover { transform: translateY(-1px); box-shadow: 0 3px 10px rgba(0,0,0,.07); }
+.bp-frame ul.bp-towns > li { display: flex; flex-direction: column; gap: 2px; }
 .bp-frame ul.bp-towns > li code { align-self: flex-start; order: -1; margin: 0 0 6px; padding: 2px 6px; border-radius: 2px; font: 700 10px/1.3 var(--sans); letter-spacing: .08em; text-transform: uppercase; background: transparent; border: 1px solid var(--hair); color: var(--ink-3); }
 .bp-frame ul.bp-towns > li a { order: -1; }
 .bp-frame ul.bp-towns > li code { order: -2; }
@@ -61,7 +165,7 @@
 .bp-svgmap .bp-pin circle { fill: var(--accent); stroke: var(--paper); stroke-width: 2.5; }
 .bp-svgmap .bp-pin circle.ring { fill: var(--paper); stroke: var(--accent); stroke-width: 3.5; }
 .bp-svgmap .bp-pin text { font: 600 15px var(--sans); fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; stroke-linejoin: round; }
-.bp-svgmap .bp-pin:hover text, .bp-svgmap .bp-pin:focus text { fill: var(--accent); text-decoration: underline; }
+.bp-svgmap .bp-pin:hover text, .bp-svgmap .bp-pin:focus text { fill: var(--accent-ink); text-decoration: underline; }
 .bp-svgmap .bp-pin:hover circle { stroke-width: 5; }
 /* the AI map table: sticky head on a desktop; on a phone each row becomes a compact card */
 .bp-frame .bp-map table th { position: sticky; top: 0; background: var(--paper); z-index: 1; }
@@ -70,7 +174,7 @@
 .bp-maptools input { flex: 1 1 200px; min-width: 0; padding: 7px 10px; font: 400 14px var(--sans); border: 1px solid var(--hair); background: var(--paper); color: var(--ink); border-radius: 3px; }
 .bp-maptools button, .bp-more { font: 600 12px/1 var(--sans); padding: 7px 10px; border: 1px solid var(--hair); background: transparent; color: var(--ink-3); border-radius: 3px; cursor: pointer; }
 .bp-maptools button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-.bp-more { display: block; margin: 8px 0 18px; border-color: var(--accent); color: var(--accent); }
+.bp-more { display: block; margin: 8px 0 18px; border-color: var(--accent-ink); color: var(--accent-ink); }
 .bp-frame .bp-map table tr.bp-hide { display: none; }
 @media (max-width: 639px) {
   .bp-frame .bp-map table, .bp-frame .bp-map table tbody { display: block; width: 100%; }
@@ -88,3 +192,20 @@
 .bp-svgmap .es { fill: color-mix(in srgb, var(--ink-3) 10%, var(--paper)); stroke: var(--ink-3); stroke-opacity: .5; }
 .bp-frame ul.bp-cards > li > strong:first-child { display: block; margin-bottom: 4px; }
 @media (max-width: 719px) { .bp-frame figure.bp-svgmap { overflow-x: auto; -webkit-overflow-scrolling: touch; } .bp-frame figure.bp-svgmap svg { min-width: 700px; } .bp-svgmap .bp-pin text { font-size: 17px; } .bp-svgmap .sea-l, .bp-svgmap .es-l { font-size: 16px; } }
+
+/* designer.places@, 15 Nov 2026, on dev.places@'s markup: the town card (status chip, name, landmark, counts) and the
+   story card's byline and AI path (one <em>) */
+.bp-frame ul.bp-towns > li { gap: 0; font: 400 11.5px/1.45 var(--mono); }
+.bp-frame ul.bp-towns > li code { margin: 0 0 8px; padding: 1px 7px; border-radius: 999px; font: 600 10px/1.6 var(--mono); }
+.bp-frame ul.bp-towns > li em { order: -1; display: block; margin: 0 0 8px; font: italic 400 13.5px/1.3 var(--serif); color: var(--ink-3); }
+.bp-frame ul.bp-towns > li a { margin-bottom: 4px; }
+.bp-frame ul.bp-cards > li > em, .bp-frame ul.bp-cards > li em { display: block; margin-top: 8px; padding-top: 8px; border-top: 1px dotted var(--hair); font: 400 11.5px/1.55 var(--mono); font-style: normal; color: var(--ink-3); }
+.bp-frame ul.bp-cards.bp-small > li em { border-top: 0; padding-top: 0; margin-top: 4px; }
+.bp-frame .bp-map td:first-child em { margin-top: 4px; font: 400 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--accent-ink); }
+.bp-frame figure.bp-svgmap { border-top: 2px solid var(--ink); }
+.bp-frame ul.bp-towns > li code.live { background: var(--brand, #006600); border-color: transparent; color: var(--paper); }
+.bp-frame ul.bp-towns > li code.researching { border-color: var(--accent-ink); color: var(--accent-ink); }
+.bp-frame .bp-pill, .bp-frame ul.bp-towns > li code { white-space: nowrap; }
+.bp-frame .bp-status th, .bp-frame .bp-status td { white-space: nowrap; }
+.bp-frame .bp-status td:first-child { white-space: normal; }
+.bp-frame .bp-status .bp-pill { font-size: 9.5px; padding: 0 6px; }

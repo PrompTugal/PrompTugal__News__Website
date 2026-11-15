@@ -23,3 +23,17 @@ The same `bp-by` / `bp-path` in the AI-map rows' cells would help.
 
 Things I do on my side, no build change needed: the accent on the page head (by-place.js copies it to `<main>`), zero
 tiles muted, accent contrast in dark themes, the voice toggle.
+
+## 4. Raw HTML is escaped in the town cards and the map rows (bug) — 15 Nov, 22:45 UTC
+
+On `/algarve/`, each town card shows `Faro<br><small>The Arco da Vila...</small>` as text, and the region's AI map shows
+`ExampleCo<br><small>Faro</small>`: the renderer escapes inline HTML inside link text and table cells. Either emit the
+landmark and the place as a second line the renderer keeps (a separate list item part, or a `{.bp-sub}` span if the
+renderer has one), or put them in `postHtml`. The CSS already styles `small` there (italic serif for the landmark, mono
+caps for the place).
+
+## 5. The region's AI map at full width — 15 Nov, 22:45 UTC
+
+With 11 rows already, the four-column map in the 8/12 column squeezes "Source" to one word a line. Please move
+`## The AI map of the Algarve` out of `cols-8-4`, after it, at the page's full width (the side column then ends
+beside "The latest from the towns").
