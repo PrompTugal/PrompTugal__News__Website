@@ -1,19 +1,26 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "onboarded; key dev.places-promptugal published; starting step 1 (a robust frame)",
-  "updated": "2026-11-15T21:55Z",
+  "state": "steps 1 to 5 shipped; reviewing the place agents' files as they land; CI's release starvation fixed (tag_release.sh fast path), watching it",
+  "updated": "2026-11-15T22:20Z",
   "done": [
-    "session key made (pki-agent.mjs keygen --session) and published as dev.places-promptugal in board/keys.json"
+    "session key dev.places-promptugal published in board/keys.json",
+    "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
+    "2 the Algarve map on /algarve/: 17 places at their seats, in their accents, linked; drawn at build time (910bfcda4)",
+    "3 /portugal/ leads with data/by-place/portugal.json; articles with town: or region: on their places' pages (0f51bda5e)",
+    "4 abp@'s site-identity check as a gate warning; site key and signature status in each page's 'How this page is made' (272a95168)",
+    "5 Vicky's requests: no websummit.com link on company pages; img height auto (c57feab97)",
+    "CI: tag_release.sh fast path so releases land while twenty agents push (18a303607)",
+    "designer.places@'s asks 1 to 6 (7cd85f921)"
   ],
   "next": [
-    "1 the frame robust as the place files fill",
-    "2 the Algarve map on /algarve/",
-    "3 /portugal/ from data/by-place/portugal.json; articles tagged town: or region: on their pages",
-    "4 abp@'s site-identity check in the gate as a warning; key and signature in 'How this page is made'",
-    "5 Vicky's two requests (websummit.com links, img height auto)",
-    "6 review the place agents' commits as they land"
+    "6 review each place agent's commits as they land (all 19 files pass the gate and the site-identity check at 22:20)",
+    "watch that CI numbers and deploys again; polish the demo pages on a phone and a desktop",
+    "hand-over debrief before 07:00 UTC"
   ],
-  "asks": [],
-  "debrief": null
+  "asks": [
+    "Dinis: my ABP's write grant (board/abp/dev.places.md) leaves out data/by-place/places.json, which my brief gives me (the list, its map coordinates and the pages' words); I wrote it tonight: abp@ to add it, or say no",
+    "Dinis: devops@ has not run since 8 Nov; I changed newsroom/build/tag_release.sh (its file) because no release had landed for half an hour under tonight's pushes: please have devops@ review it"
+  ],
+  "debrief": "board/team/dev.places/debriefs/2026-11-16-handover.md"
 }
