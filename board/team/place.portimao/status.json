@@ -1,18 +1,21 @@
 {
   "agent": "place.portimao@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/portimao/ (data/by-place/portimao.json), for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "first pass released: keys made, file researching with 8 news items, 9 AI-map entries, sources, gaps and voice",
-  "updated": "2026-11-15T22:30Z",
+  "state": "second pass released: 12 AI-map entries (Algarve Evolution, Parkalgar, Zoomarine, EHT added via the TMCT report); still researching",
+  "updated": "2026-11-15T22:45Z",
   "done": [
     "keys place.portimao-promptugal and site.portimao-promptugal published in board/keys.json",
-    "first research pass written, validated and signed with the site key"
+    "first research pass written, validated and signed with the site key",
+    "site key moved to ~/.sg-send/sites/portimao as my ABP asks; site-identity check says valid",
+    "second pass: oalgarve.pt TMCT report, Algarve Evolution on the AI map"
   ],
   "next": [
     "find AI companies actually based in Portimão (business register, StartUP Portimão members)",
     "find sources that open for postal.pt, Sul Informação and EMARP stories, or other readable outlets",
-    "check Algarve Evolution and UAlg links to Portimão",
     "set status live once the page is worth showing; up to two articles",
-    "hand-over debrief in debriefs/2026-11-16-handover.md before stopping"
+    "hand-over debrief in debriefs/2026-11-16-handover.md before stopping",
+    "UAlg Portimão campus item from a source that opens",
+    "set live and write up to two articles once a local company or a stronger story is found"
   ],
   "asks": [
     "Dinis: postal.pt, Sul Informação, Visit Portimão and emarp.pt show a bot challenge or refuse access from this session, so their Portimão AI stories are unused. Is there a permitted way in (a feed, an API)?"

@@ -36,12 +36,12 @@
   "ai_news": [
     {
       "title": "Portimão hosts its first tourism-and-computing conference, with AI on the programme",
-      "summary": "TMCT 2026 met in Portimão from 4 to 6 November, with online sessions on 2 and 3 November, organised with the council and the local tourism association. Sessions covered AI in research, education and academic publishing, and an editors' summit looked at AI and research integrity.",
+      "summary": "The first TMCT conference met in Portimão in early November (Barlavento gives 4 to 6 November, O Algarve 5 to 7 November), organised with the council and the local tourism association, with Algarve Evolution, Zoomarine Algarve, Parkalgar and the hospitality school engaged to link it to regional stakeholders. Sessions covered AI in research, education and academic publishing, and an editors' summit looked at AI and research integrity.",
       "date": "2026-11-10",
       "publisher": "Barlavento",
       "url": "https://www.barlavento.pt/tmct-2026-portimao/",
       "read_on": "2026-11-15",
-      "ai_path": "A tourism-technology conference whose sessions are partly about AI, so AI is on the programme itself.",
+      "ai_path": "A tourism-technology conference whose sessions are partly about AI, with Algarve Evolution among the stakeholders it engaged.",
       "steps": 1
     },
     {
@@ -151,6 +151,12 @@
       "url": "https://www.sulinformacao.pt",
       "kind": "press",
       "feed": null
+    },
+    {
+      "name": "O Algarve",
+      "url": "https://oalgarve.pt",
+      "kind": "press",
+      "feed": null
     }
   ],
   "events": [
@@ -254,6 +260,42 @@
       "read_on": "2026-11-15",
       "ai_path": "Moderated a public debate on AI at work.",
       "steps": 1
+    },
+    {
+      "name": "Algarve Evolution",
+      "type": "organisation",
+      "what": "Regional association named as one of the stakeholders engaged to link the November 2026 TMCT conference in Portimão to regional business, institutional and education partners. Its exact role is not stated in the source.",
+      "source_url": "https://oalgarve.pt/tmct-2026-em-portimao-debate-inovacao-e-tecnologia-no-turismo-e-hospitalidade/",
+      "read_on": "2026-11-15",
+      "ai_path": "Engaged around a Portimão conference with AI sessions.",
+      "steps": 2
+    },
+    {
+      "name": "Parkalgar",
+      "type": "organisation",
+      "what": "Manages the Autódromo Internacional do Algarve in Portimão, is a member of the Celerator technology park association with the University of Algarve, and was engaged around the TMCT conference.",
+      "source_url": "https://oalgarve.pt/tmct-2026-em-portimao-debate-inovacao-e-tecnologia-no-turismo-e-hospitalidade/",
+      "read_on": "2026-11-15",
+      "ai_path": "Engaged around a Portimão conference with AI sessions, and part of a technology-park association.",
+      "steps": 2
+    },
+    {
+      "name": "Zoomarine Algarve",
+      "type": "company",
+      "what": "Visitor attraction named as one of the stakeholders engaged around the TMCT conference. Its exact role is not stated in the source.",
+      "source_url": "https://oalgarve.pt/tmct-2026-em-portimao-debate-inovacao-e-tecnologia-no-turismo-e-hospitalidade/",
+      "read_on": "2026-11-15",
+      "ai_path": "A local business engaged around a conference with AI sessions.",
+      "steps": 3
+    },
+    {
+      "name": "Escola de Hotelaria e Turismo de Portimão",
+      "type": "institution",
+      "what": "Hospitality school that hosted the February 2026 presentation of the AI como Copiloto book and was engaged around the TMCT conference.",
+      "source_url": "https://www.algarveprimeiro.com/d/livro-que-desvenda-utilidades-da-inteligencia-artificial-apresentado-dia-20-em-portimao/65325-1",
+      "read_on": "2026-11-15",
+      "ai_path": "Hosted a public launch and debate on using generative AI at work.",
+      "steps": 1
     }
   ],
   "extras": [
@@ -277,10 +319,11 @@
   "gaps": [
     "No AI company or startup headquartered in Portimão turned up in the sources read: the AI map is mostly public bodies, an incubator and a school. A company search (a business register and the StartUP Portimão member list) is the next step.",
     "Speakers named at the June 2026 AI panel came from Tecnologias Imaginadas, JFA Training and Thinkerdots, but no source read places those firms in Portimão, so they are not on the map yet.",
-    "postal.pt, Sul Informação, Visit Portimão and EMARP's own site showed a bot challenge or refused access, so they were not used. Their Portimão AI stories (the Filosofia na Cidade talk on 6 March 2026, the council's earlier AI items) need a source we can open.",
+    "postal.pt, Sul Informação, Visit Portimão, Algarve Vivo and EMARP's own site showed a bot challenge or refused access, so they were not used. Their Portimão AI stories (the Filosofia na Cidade talk on 6 March 2026, the council's earlier AI items) need a source we can open.",
     "The Celerator technology park beside the Autódromo (a 7.2 million euro mobility and energy hub, 2022 report) and the UAlg and Microsoft AI course have no confirmed Portimão AI path yet, so they are left out.",
     "The council's own site shows no news feed or RSS: Viva Portimão is the place to watch, and we found no feed there.",
-    "No dated AI event after 15 November 2026 was found in Portimão. The two ISMAT workshops listed are general technology events."
+    "No dated AI event after 15 November 2026 was found in Portimão. The two ISMAT workshops listed are general technology events.",
+    "Reports of the TMCT conference give different dates (4 to 6 and 5 to 7 November), so the page says early November. Algarve Evolution's exact role in it is not stated."
   ],
   "voice": {
     "lede": "Ó pá, Portimão: sardines on the grill, sun on the cliffs and, believe it or not, a council that lets a robot check your building papers.",
