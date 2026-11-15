@@ -1,19 +1,20 @@
 {
   "agent": "place.alcoutim@PrompTugal.dinis",
   "focus": "Alcoutim's site, promptugal.news/algarve/alcoutim/ (data/by-place/alcoutim.json)",
-  "state": "pass 2 released: status researching; 3 news items, 5 AI map entries, Barlavento is the readable press source",
-  "updated": "2026-11-15T23:10Z",
+  "state": "pass 3 released: 4 news items, 7 AI map entries",
+  "updated": "2026-11-16T00:10Z",
   "done": [
     "keys made and published",
     "first pass: gravity (infrastructure and public data), 1 news item, 3 AI map entries (Algarve 6.0 Smart Territorial Hub, CCDesert, CME), 8 sources, 5 gaps, look and voice",
     "no AI company or event found in Alcoutim itself: recorded as a finding",
-    "pass 2: Celeiro de Ideias (Barlavento, 25 Sep 2026) and + Proximo (Barlavento, 25 Mar 2026) read at source and added"
+    "pass 2: Celeiro de Ideias (Barlavento, 25 Sep 2026) and + Proximo (Barlavento, 25 Mar 2026) read at source and added",
+    "pass 3: dstelecom fibre (9 Jun 2026) and Galp Foundation page read at source; Odiana and dstelecom on the map"
   ],
   "next": [
-    "find ANACOM or council coverage data and the council news page/feed",
-    "Algarve Evolution, Universidade do Algarve and Odiana leads",
-    "MEO SmartAL/Medigraf protocol: a readable dated source",
-    "go live when worth showing; at most two articles"
+    "GEO.ANACOM mobile coverage for Alcoutim",
+    "Agrosocial Plus and the UAlg water conference: a readable source and an Alcoutim link",
+    "MEO protocol dated source",
+    "go live and write at most one article (Celeiro or fibre plus teleassistance)"
   ],
   "asks": [
     "Dinis: Postal do Algarve, Sul Informacao and Portugal Resident block automated reading (bot check, 403); if Dinis can allow a reader or give captured text, three Alcoutim AI-path items unlock"

@@ -35,6 +35,16 @@
   },
   "ai_news": [
     {
+      "title": "dstelecom takes fibre to 1,000 more homes in Alcoutim",
+      "summary": "The fibre operator announced on 9 June 2026 that the municipality's coverage would pass 80 percent, reaching 82 percent, with about 1,000 new homes in Alcoutim, Giões and Pereiro by the end of the first half of 2026. More than 3,100 families would have access.",
+      "date": "2026-06-09",
+      "publisher": "dstelecom",
+      "url": "https://www.dstelecom.pt/imprensa/fibra-otica-chega-a-mais-1-000-casas-em-alcoutim-e-ultrapassa-80-de-cobertura/",
+      "read_on": "2026-11-15",
+      "ai_path": "Fibre to the villages is the base layer that any AI service, remote work or telehealth in a low-density town depends on. It is an operator's own press release and does not mention AI, and we have not confirmed the target was met.",
+      "steps": 2
+    },
+    {
       "title": "Alcoutim turns the old EPAC granary into a business and coworking centre",
       "summary": "The council's Celeiro de Ideias application was approved on 27 August 2026 under Algarve 2030. Eligible investment is 1,269,828.22 euros, with 761,896.94 euros of FEDER co-funding, and works are due to end on 30 September 2028. It is meant for microbusinesses, freelancers, startups and local artisans.",
       "date": "2026-09-25",
@@ -125,6 +135,24 @@
       "url": "https://jornaldoalgarve.pt/",
       "kind": "press",
       "feed": null
+    },
+    {
+      "name": "dstelecom press page",
+      "url": "https://www.dstelecom.pt/imprensa/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Galp Foundation: Alcoutim programmes",
+      "url": "https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim",
+      "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "GEO.ANACOM coverage maps",
+      "url": "https://anacom.pt/render.jsp?contentId=1828354",
+      "kind": "other",
+      "feed": null
     }
   ],
   "events": [],
@@ -178,6 +206,26 @@
       "read_on": "2026-11-15",
       "ai_path": "Alarm devices and a support centre produce the data and the connection on which AI monitoring of isolated seniors would be built. No AI is mentioned.",
       "steps": 3
+    },
+    {
+      "name": "dstelecom",
+      "type": "company",
+      "url": "https://www.dstelecom.pt/",
+      "what": "Fibre infrastructure operator extending its network in Alcoutim, Giões and Pereiro.",
+      "source_url": "https://www.dstelecom.pt/imprensa/fibra-otica-chega-a-mais-1-000-casas-em-alcoutim-e-ultrapassa-80-de-cobertura/",
+      "read_on": "2026-11-15",
+      "ai_path": "Connectivity is the first step: no fibre or mobile link, no AI services for the village. We have not seen dstelecom offer AI products.",
+      "steps": 2
+    },
+    {
+      "name": "Associacao Odiana",
+      "type": "organisation",
+      "url": "https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim",
+      "what": "Local development association named by the Galp Foundation as social partner in Alcoutim, helping run Vilas em Movimento including its senior-isolation activities.",
+      "source_url": "https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim",
+      "read_on": "2026-11-15",
+      "ai_path": "A local partner that already runs the shared bikes and senior programmes is the likely channel for digital inclusion and any AI pilot. The Galp page describes no digital element yet.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -192,6 +240,12 @@
       "value": "1,269,828.22 euros eligible, 761,896.94 euros FEDER, priority 5 of Algarve 2030, approved 27 Aug 2026",
       "source_url": "https://www.barlavento.pt/alcoutim-vai-transformar-antigo-celeiro-da-epac-em-centro-empresarial/",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Fibre coverage in the municipality",
+      "value": "82 percent expected after the 2026 build, more than 3,100 families with access (operator's announcement, 9 June 2026)",
+      "source_url": "https://www.dstelecom.pt/imprensa/fibra-otica-chega-a-mais-1-000-casas-em-alcoutim-e-ultrapassa-80-de-cobertura/",
+      "read_on": "2026-11-15"
     }
   ],
   "identity": {
@@ -202,8 +256,9 @@
     "No AI company, startup or AI event based in Alcoutim turned up in this first pass. That is a finding: for a municipality of this size the AI path runs through the council, the PRR sensor platform and regional bodies. Next to look at: Algarve Evolution and the Universidade do Algarve for projects reaching the Guadiana, and Associacao Odiana's Vilas em Movimento work.",
     "The council's own site (cm-alcoutim.pt) loaded as a page with no readable news list and exposes no RSS feed. We need its news page URL or a feed, or a council bulletin per month.",
     "Postal do Algarve, Sul Informacao and Portugal Resident refuse automated reading (a bot check or a 403), so their pages are not used. Barlavento reads fine and now carries two items. Still to verify at a readable source: a council protocol with MEO for the SmartAL remote support system and the Medigraf telemedicine system (search snippets point to October 2018, so it may be old news). The SmartAL terms page names MEO as operator and mentions no AI, and does not link the platform to Alcoutim.",
-    "No source yet on mobile and fibre coverage in Alcoutim, on digital inclusion training or on Wi-Fi in the villages. Look for ANACOM coverage data and the council's PRR digital items.",
-    "The Things Network Algarve lists a free LoRaWAN community for the region, but its page does not mention Alcoutim. Whether the council's LoRaWAN network will be open to community use is an open question."
+    "The Things Network Algarve lists a free LoRaWAN community for the region, but its page does not mention Alcoutim. Whether the council's LoRaWAN network will be open to community use is an open question.",
+    "Fibre is covered only by the operator's own announcement (82 percent expected, not confirmed as reached). Mobile and 5G coverage for Alcoutim, digital inclusion training and village Wi-Fi still have no source: GEO.ANACOM lets one search by place and should be read next.",
+    "Leads seen only in search summaries, not yet read at a source: a cross-border Agrosocial Plus project for the Lower Guadiana with Living Labs for AI, IoT and smart irrigation (Odiana as the Guadiana partner, from a Jornal do Algarve article that returned 403), and a Universidade do Algarve water digitalisation conference at Faro on 24 November. Neither is placed in Alcoutim yet."
   ],
   "voice": {
     "lede": "Ai, Alcoutim: a vila onde o rio e quase Espanha e a fibra ainda vem devagarinho, mas os sensores ja chegaram.",
