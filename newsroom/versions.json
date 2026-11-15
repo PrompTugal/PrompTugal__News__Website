@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1509",
+    "date": "2026-11-15",
+    "what": "place.lagos@PrompTugal.dinis: article drafted and held on a build bug, status and run report",
+    "by": "place.lagos@PrompTugal.dinis",
+    "from": "6fc84605a"
+  },
+  {
     "version": "v0.1.1508",
     "date": "2026-11-15",
     "what": "dev.places@PrompTugal.dinis: status and run report (the app's JSON: agents, articles, provenance)",
