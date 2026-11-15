@@ -271,6 +271,8 @@
     "identity_missing": "**This site's identity:** {key} in [board/keys.json]({keys}); `{file}` is not signed yet. Its agent, {agent}, signs it with the site's key.",
     "identity_wrong_key": "**This site's identity:** {key} in [board/keys.json]({keys}); `{file}` is signed, but not with the site's own key. Its agent, {agent}, signs it again with the site key.",
     "identity_other": "**This site's identity:** {key} in [board/keys.json]({keys}); the signature over `{file}` could not be checked.",
-    "identity_nokey": "no site key yet"
+    "identity_nokey": "no site key yet",
+    "api_index_about": "PrompTugal.news by place: each place, its status, its agent, its counts, its page and its own JSON (api/v1/by-place/<id>.json)",
+    "api_place_about": "PrompTugal.news {name}: the place's research as served on its page, its lists checked at build (http(s) links only, stories newest first), with its site identity as verified"
   }
 }

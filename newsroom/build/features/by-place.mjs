@@ -274,9 +274,36 @@ export const fill = {
     },
 }
 
+// the place data as clean JSON for the app and for anyone (ios.places@, show-the-power brief, 15 Nov 2026): the index,
+// and one file per place with its lists checked (http(s) links only, stories newest first), its page, its look, its seat
+// on the map, its site identity as verified at build, the places inside it and our articles tagged to it
+const SITE_URL = 'https://promptugal.news/'
+function placeRecord(ctx, L, p) {
+    const r = identityOf(ctx, p.id) || {}
+    const inside = L.list.filter(x => x.parent === p.id).map(x => x.id)
+    const arts = tagged(ctx, m => m.town === p.id || m.region === p.id || inside.includes(m.town)).map(c => ({ title: c.meta.title, date: dmy(String(c.meta.date)), url: SITE_URL + c.rel.replace(/index\.html$/, ''), md: SITE_URL + c.rel.replace(/\.html$/, '.md') }))
+    return {
+        id: p.id, name: p.name, kind: p.kind, parent: p.parent || null, inside, agent: p.agent,
+        status: ['live', 'researching'].includes(p.status) ? p.status : 'stub', updated: p.updated || null, by: p.by || null,
+        page: SITE_URL + p.path, twin: SITE_URL + p.path + 'index.md', raw: `${SITE_URL}data/by-place/${p.id}.json`,
+        at: Array.isArray(p.at) ? { lon: p.at[0], lat: p.at[1] } : null,
+        look: { accent: (p.look && p.look.accent) || DEF_ACCENT, landmark: (p.look && p.look.landmark) || null, motif: (p.look && p.look.motif) || null },
+        mandate: p.mandate, gravity: p.gravity || null,
+        counts: { ai_news: p.ai_news.length, ai_map: p.ai_map.length, events: p.events.length, sources: p.sources.length, articles: arts.length },
+        ai_news: p.ai_news, ai_map: p.ai_map, events: p.events, sources: p.sources, extras: p.extras, gaps: p.gaps, voice: p.voice || null,
+        articles: arts,
+        identity: { key_id: r.site_key || (p.identity && p.identity.key_id) || null, signed_by: r.agent || null, signature: r.signature || 'unchecked', keys: SITE_URL + 'board/keys.json' },
+    }
+}
+
 export function api(ctx) {
     const L = load(ctx)
-    return [{ path: 'api/v1/by-place/index.json', data: { about: 'PrompTugal.news by place: each place, its status, its agent and its counts', places: L.list.map(p => ({ id: p.id, name: p.name, kind: p.kind, parent: p.parent, path: p.path, agent: p.agent, status: p.status || 'stub', updated: p.updated || null, ai_news: (p.ai_news || []).length, ai_map: (p.ai_map || []).length, identity: p.identity || null })) }, schema: null }]
+    const recs = L.list.map(p => placeRecord(ctx, L, p))
+    return [
+        { path: 'api/v1/by-place/index.json', schema: null, data: { about: W(L, 'api_index_about'), version: ctx.VERSION, built: ctx.TODAY,
+            places: recs.map(r => ({ id: r.id, name: r.name, kind: r.kind, parent: r.parent, path: L.byId.get(r.id).path, agent: r.agent, status: r.status, updated: r.updated, ai_news: r.counts.ai_news, ai_map: r.counts.ai_map, articles: r.counts.articles, page: r.page, api: `${SITE_URL}api/v1/by-place/${r.id}.json`, at: r.at, accent: r.look.accent, landmark: r.look.landmark, identity: L.byId.get(r.id).identity || null, signature: r.identity.signature })) } },
+        ...recs.map(r => ({ path: `api/v1/by-place/${r.id}.json`, schema: null, data: { about: W(L, 'api_place_about', { name: r.name }), version: ctx.VERSION, ...r } })),
+    ]
 }
 
 export const searchDocs = ctx => {
