@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-neuraspace-own-site",
+  "type": "evidence",
+  "source_url": "https://www.neuraspace.com/",
+  "beat": "Portugal",
+  "group": "S66",
+  "names": [
+    {
+      "as_listed": "Neuraspace",
+      "ref": "organisation:neuraspace"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-15-1550.json",
+  "run": "2026-11-15T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-15-1550.json"
+    ]
+  }
+}
