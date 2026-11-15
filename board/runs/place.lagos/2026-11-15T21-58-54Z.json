@@ -1,0 +1,94 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.lagos@PrompTugal.dinis",
+ "run": "2026-11-15T21-58-54Z",
+ "started": "2026-11-15T21:58:54.113Z",
+ "ended": "2026-11-15T22:31:58Z",
+ "line": "",
+ "policy": {
+  "version": "1.8.1",
+  "sha256": "8c1419899a31d8b0"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T22:03:51.235Z",
+   "chars": 1177,
+   "sha256": "df4194fcdabde7c6",
+   "head": "<task-notification>\n<task-id>b5k986t02</task-id>\n<tool-use-id>toolu_01TMCWXaKMQtvhjmpnc6YJCN</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d57d78a4-b399-5c6b-9538-e01c6"
+  },
+  {
+   "t": "2026-11-15T22:05:48.555Z",
+   "chars": 1941,
+   "sha256": "52535de1f9d124a1",
+   "head": "<task-notification>\n<task-id>bcvlstf47</task-id>\n<tool-use-id>toolu_015rrha5EJ75Br6L4xUDrb1o</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d57d78a4-b399-5c6b-9538-e01c6"
+  },
+  {
+   "t": "2026-11-15T22:28:57.470Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T22:28:57.109Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "git-commit": 1,
+   "git": 3,
+   "release": 3,
+   "other": 1,
+   "web": 7
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": [
+   {
+    "sha": "a50b83da2",
+    "subject": "place.lagos@PrompTugal.dinis: second pass, the council's news page read and the gaps sharpened",
+    "files": 3
+   },
+   {
+    "sha": "6b38307f2",
+    "subject": "place.lagos@PrompTugal.dinis: hand-over debrief and run report",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 15,
+  "in_mandate": 15,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
