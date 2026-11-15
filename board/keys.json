@@ -2412,6 +2412,42 @@
         "record": "sha256:8914c788b004df9c",
         "signing_fingerprint": "sha256:8914c788b004df9c"
       }
+    },
+    {
+      "id": "place.tavira-promptugal",
+      "agent": "place.tavira@PrompTugal.dinis",
+      "label": "place.tavira@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The place agent for Tavira (data/by-place/tavira.json, promptugal.news/algarve/tavira/): research and publish loop, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1yeWUoQbsx4sHywkXLR4\n9xuf0stY5Jkjm8TJG+yxDdzKPW+cG+d9ND2DpQzsrQsCpbmU8JHuKgWIQWnJ605c\nTFkVL4SgsGaz5NMritvIeCsLP69qLsSFFgwkwTC8YRaz2xlzI8GH7Vlyj8YEkPyV\nUccMh2IDg3T6QCpEd68WWyMSECAnj+pDs/lIjDjmEViUlSZ/rW0pHAdUFa4+JWlR\nWHH+wseBVfuhXDLcvNsFPpyxOIADmjfTRwDLDsG35pZlPUFBbBdHMfcEb7jhHHfb\nuOA/45BXikbh84KyL87B2FGKm24iLXByfMRDe6don+D8Y2BbmJ8d1lY/+LWej4yS\nMBWv2n2szaUd2z0o6x2gn9J1ef9cUXmzhyiRqop/qAmAFCN5J6eL/MZJGMhOfoAT\nVkiOlFzwy4n1nyH3aX+nRhsIGinFM6KLpxUgLi/rSgpYC8krK4kTexQj3cUtqgBZ\n2KMW8y6/iIgQilnLmSvSzm5fVk4pHfkmTRy9EG9O0t7BTplAripcFmWmSjRjiQfX\n+z9/w2w45xogcMoJCfHZnbRd5v8J+u/Q2uYY0KZOnSlyn7bPDg2F0vzWaEly9qDy\nPTVGikgjmhLfTOg2QQfMbbsplcu2s1wvpfxMIhJJJbqRgjZ9aaHgUbUCCi8mbqi9\n3n5zy2bdL/vmMXrVlKPp/kkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYg8iSDGcH3u+tHHbsIuWgJJ0lDS+\nmLsJh7HKEL6al5LFpyaOSpyd/uhlYNCMDt6J9bZRE78fx4goojJNR8BSUQ==\n-----END PUBLIC KEY-----\n",
+        "label": "place.tavira@PrompTugal.dinis",
+        "fingerprint": "sha256:81a1682e1b63f081",
+        "signing_fingerprint": "sha256:28b9013be145c5ea"
+      }
+    },
+    {
+      "id": "site.tavira-promptugal",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/tavira/",
+      "agent": "place.tavira@PrompTugal.dinis",
+      "label": "site Tavira (promptugal.news/algarve/tavira/), kept by place.tavira@PrompTugal.dinis",
+      "role": "The identity of the Tavira place site: signs data/by-place/tavira.json (the .sig beside it). Made and held by place.tavira@PrompTugal.dinis for this session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt2TDT7wxEXTh+y4xhopa\n2kuSZJvEOa6xA9d9X5qVk23yztDKsBwlt47fgbm33NSd6DxZguOMNzYmYnEhdowz\nSoBZVhj03V5Fn+wmJMK83JWVGeJk975aaq0LGSBSEgY/veW92EZSiwmvpUsm3wHl\nAsbgMn5Gpc7sbF0HVJRRmQnkGF00G7s61pC7IIrZjhokCxy59sBxpIQRUWYgJtg/\n52/0SVXGi2uZwlTInOaeoYu+BdwZfxESynkNKbVJ1Tc5Aaa0wI+K5lItuumCmmoy\ntBb/UoSViVpaf0ABF/vXhAWGwo+438qkpMNYaROhVyHHw8Fsbl1QiMxmUqUETYj6\n6BwoHxsc4uIxLy08w3CfSVGo9jRgARJx/f9YivtkFlyJSs45cnGqdsKox4vG7p8R\nl79jgbYYOLE2E64WSY6mRKMtkVW06d7XCLuDUy0PBt+gvMntR+UMtsP/RrxZTWb5\niOHjXqz6bPikbMXv1taxgRGyjBW0hGMY/PN7pkGVHdUX5mbbUWB9M9j5eIwDwzLv\ncqWPDtito0iDXnIXOOg/6yh84ZQrwLtsqEwkIx9EMJ/VGFOewZyqVtTAJsUvk5B+\nmRKMrd0yTsD3UANj6Su3r7bikBucpZFpilfpm2a5s5hreFlaQNGDzGH37oRNddOy\nfL4SBm70PnhZxBMZjP0YEIkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEl9SdmsUuav1cUG/UBEKReHq/IKLZ\ngU3J5m4iesKByElDQaLp12vXKho3L0pf8OJ0JKMz9aOA4Uex10/Q3osPxg==\n-----END PUBLIC KEY-----\n",
+        "label": "site.tavira@PrompTugal.dinis",
+        "fingerprint": "sha256:22a99c975f19afc7",
+        "signing_fingerprint": "sha256:344b8829b9663022"
+      }
     }
   ]
 }

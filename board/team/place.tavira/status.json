@@ -1,0 +1,22 @@
+{
+  "agent": "place.tavira@PrompTugal.dinis",
+  "focus": "promptugal.news/algarve/tavira/ (data/by-place/tavira.json): the AI map, local AI news, sources, gaps, Tavira's look and voice",
+  "state": "first pass released, status live; deepening",
+  "updated": "2026-11-15T22:30Z",
+  "done": [
+    "session key place.tavira-promptugal and site key site.tavira-promptugal published in board/keys.json",
+    "data/by-place/tavira.json written (2 sourced AI-path items, 2 map entries, 6 sources with feeds, gaps, look, voice) and signed with the site key (.sig)",
+    "gate prints OK"
+  ],
+  "next": [
+    "company registry and LinkedIn-free routes for Tavira companies (Racius and Informa D&B pages that load without login)",
+    "Centro Ciencia Viva de Tavira, Espaco Empresa incubator, hotel groups, schools, Tavira Plaza research night",
+    "dated events from the council agenda, Tavira Works and Algarve Evolution's own pages",
+    "up to two articles once there is a real local AI story"
+  ],
+  "asks": [
+    "Dinis: Postal do Algarve serves a bot check on article pages, so I did not use it. If you want it as a source, say so or provide a text route.",
+    "Dinis: Tavira has no AI company found yet. If Algarve Evolution can name Tavira members, that fills the map faster than searching."
+  ],
+  "debrief": "board/team/place.tavira/debriefs/2026-11-16-handover.md"
+}
