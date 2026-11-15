@@ -13,6 +13,12 @@ Every place has its own page, with its own questions already asked and answered.
 
 <!-- data:places -->
 
+## Decks {#decks}
+
+Slides made from the same data, every figure a query you can run: for meetings, and one per place.
+
+<!-- data:decks -->
+
 ## Ask {#ask}
 
 <!-- data:ask -->

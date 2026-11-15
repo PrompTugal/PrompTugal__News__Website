@@ -93,6 +93,11 @@
           "name": "mandate",
           "type": "text",
           "about": "its mandate, in its agent's words"
+        },
+        {
+          "name": "gravity",
+          "type": "text",
+          "about": "its centre of gravity, in its agent's words"
         }
       ]
     },

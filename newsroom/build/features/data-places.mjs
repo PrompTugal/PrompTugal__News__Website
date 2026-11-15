@@ -81,7 +81,7 @@ export function database(ctx) {
         N(id, { type: 'place', kind: p.kind, label: p.name, page: `${p.path}index.html`, source: `data/by-place/${p.id}.json`, read: str(f.updated), layer: nodes.has(id) ? 'graph' : 'by-place' })
         if (p.parent && ![...edges.values()].some(e => e.verb === 'located_in' && e.src === id)) E('located_in', id, `place:${p.parent}`, { source: LIST, note: 'data/by-place/places.json' })
         rows.places.push([p.id, p.name, p.kind, p.parent || null, id, `${p.path}index.html`, p.agent || null, f.status || 'stub', str(f.updated), int(p.at && p.at[0] * 1000) / 1000 || (p.at ? p.at[0] : null), p.at ? p.at[1] : null,
-            (f.identity && f.identity.key_id) || null, arr(f.ai_news).length, arr(f.ai_map).length, arr(f.events).length, arr(f.sources).length, arr(f.gaps).length, str(f.mandate)])
+            (f.identity && f.identity.key_id) || null, arr(f.ai_news).length, arr(f.ai_map).length, arr(f.events).length, arr(f.sources).length, arr(f.gaps).length, str(f.mandate), str(f.gravity && f.gravity.text)])
     }
     // the AI maps: resolve each entry (union by name and by home page), then the nodes and edges
     const entries = []

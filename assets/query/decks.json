@@ -1,0 +1,147 @@
+{
+  "about": "Decks made from the data (data.places@PrompTugal.dinis): each slide is a query over the tables of /query/, run by the build. A place deck is made for every place from place_deck ({place}, {name}); the named decks are written for a meeting. Slide kinds: title, stat (one row, each column a figure), text ({column} from the first row), list (an item template per row), table, bars (label and value).",
+  "place_deck": [
+    {
+      "kind": "title",
+      "kicker": "PrompTugal.news by place, from the data",
+      "title": "{name}: AI in context",
+      "text": "Every figure on these slides is a query over the site's own data, run at build v{version} on {today}. Each slide links to its query: run it, change it, check it."
+    },
+    {
+      "kind": "stat",
+      "title": "{name} in numbers",
+      "sql": "SELECT news AS local_AI_stories, map AS on_the_AI_map, events, sources AS sources_read, (SELECT count(*) FROM captures c WHERE c.ok = 1 AND (','||c.places||',') LIKE '%,{place},%') AS pages_captured FROM places WHERE id = '{place}'"
+    },
+    {
+      "kind": "text",
+      "title": "The centre of gravity",
+      "sql": "SELECT gravity FROM places WHERE id = '{place}'",
+      "text": "{gravity}"
+    },
+    {
+      "kind": "list",
+      "title": "The AI map",
+      "sql": "SELECT name, kind, steps, ai_path FROM map WHERE place = '{place}' ORDER BY steps, name",
+      "item": "**{name}** ({kind}, {steps} steps): {ai_path}",
+      "max": 9
+    },
+    {
+      "kind": "list",
+      "title": "The local AI stories",
+      "sql": "SELECT date, title, publisher FROM news WHERE place = '{place}' ORDER BY date DESC",
+      "item": "{date} · **{title}** · {publisher}",
+      "max": 8
+    },
+    {
+      "kind": "list",
+      "title": "Who {name} shares with the rest of the region",
+      "sql": "SELECT n.label AS label, group_concat(DISTINCT replace(e2.dst, 'place:', '')) AS also_in FROM edges e1 JOIN nodes n ON n.id = e1.src JOIN edges e2 ON e2.src = e1.src AND e2.verb = 'on_ai_map_of' AND e2.dst != 'place:{place}' WHERE e1.verb = 'on_ai_map_of' AND e1.dst = 'place:{place}' GROUP BY n.id ORDER BY n.label",
+      "item": "**{label}**, also on the map of {also_in}",
+      "max": 8,
+      "empty": "No organisation on {name}'s map is on another place's map yet."
+    },
+    {
+      "kind": "list",
+      "title": "Two steps out: named in the same stories",
+      "sql": "SELECT label, type, path FROM neighbours('place:{place}', 2, 'reported_in,mentions') WHERE depth = 2 AND type IN ('company', 'organisation', 'place') ORDER BY type, label",
+      "item": "**{label}** ({type}): {path}",
+      "max": 8,
+      "empty": "No story of {name} names another organisation yet."
+    },
+    {
+      "kind": "stat",
+      "title": "Provenance",
+      "sql": "SELECT count(DISTINCT url) AS pages_cited, count(DISTINCT host) AS sites, min(read_on) AS first_read, max(read_on) AS last_read FROM (SELECT url, host, read_on FROM news WHERE place = '{place}' UNION ALL SELECT source_url, host, read_on FROM map WHERE place = '{place}')",
+      "text": "Every item names its source and the day it was read; the pages are captured (a screenshot and the text, each with its SHA-256) in the sgit vault promptugal-captures."
+    },
+    {
+      "kind": "list",
+      "title": "What we have not found yet",
+      "sql": "SELECT text FROM gaps WHERE place = '{place}' ORDER BY n",
+      "item": "{text}",
+      "max": 6,
+      "empty": "No gaps written down yet."
+    },
+    {
+      "kind": "title",
+      "kicker": "Ask the data",
+      "title": "promptugal.news/query/{place}/",
+      "text": "The tables, the graph and every query behind these slides, in the browser; the JSON at api/v1/data/places/{place}.json."
+    }
+  ],
+  "decks": [
+    {
+      "id": "algarve-evolution",
+      "title": "Algarve Evolution, connected",
+      "summary": "Algarve Evolution in PrompTugal.news's data: the towns that map it, the stories and events that name it, who it is connected to, and the region around it.",
+      "for": "Dinis's meeting with Algarve Evolution, 16 November 2026",
+      "slides": [
+        {
+          "kind": "title",
+          "kicker": "PrompTugal.news, from the data",
+          "title": "Algarve Evolution, connected",
+          "text": "What nineteen place agents found on their own, joined into one graph: every figure is a query over the site's data, run at build v{version} on {today}, and each slide links to its query."
+        },
+        {
+          "kind": "stat",
+          "title": "In the data",
+          "sql": "SELECT (SELECT count(DISTINCT dst) FROM edges WHERE src = 'organisation:algarve-evolution' AND verb = 'on_ai_map_of') AS towns_that_map_it, (SELECT count(*) FROM edges e JOIN nodes n ON n.id = e.src WHERE e.dst = 'organisation:algarve-evolution' AND e.verb = 'mentions' AND n.type = 'news') AS stories_that_name_it, (SELECT count(*) FROM neighbours('organisation:algarve-evolution', 1) WHERE type = 'event') AS events, (SELECT count(*) FROM neighbours('organisation:algarve-evolution', 2, 'mentions') WHERE depth = 2 AND type IN ('company', 'organisation')) AS organisations_two_steps_away"
+        },
+        {
+          "kind": "list",
+          "title": "The stories that name it",
+          "sql": "SELECT DISTINCT n.date, n.title, n.publisher FROM edges e JOIN news n ON n.node = e.src WHERE e.dst = 'organisation:algarve-evolution' AND e.verb = 'mentions' ORDER BY n.date DESC",
+          "item": "{date} · **{title}** · {publisher}",
+          "max": 8
+        },
+        {
+          "kind": "list",
+          "title": "The events",
+          "sql": "SELECT DISTINCT label FROM neighbours('organisation:algarve-evolution', 1) WHERE type = 'event' ORDER BY label",
+          "item": "{label}",
+          "max": 8
+        },
+        {
+          "kind": "list",
+          "title": "Two steps away: named in the same stories",
+          "sql": "SELECT label, type, path FROM neighbours('organisation:algarve-evolution', 2, 'mentions') WHERE depth = 2 AND type IN ('company', 'organisation') ORDER BY label",
+          "item": "**{label}**: {path}",
+          "max": 9
+        },
+        {
+          "kind": "bars",
+          "title": "The AI map of the Algarve, by place",
+          "sql": "SELECT name AS label, map AS value FROM places WHERE kind = 'municipality' ORDER BY map DESC, name",
+          "max": 17
+        },
+        {
+          "kind": "list",
+          "title": "Found by several place agents on their own",
+          "sql": "SELECT n.label AS label, count(DISTINCT e.dst) AS towns, group_concat(DISTINCT replace(e.dst, 'place:', '')) AS places FROM edges e JOIN nodes n ON n.id = e.src WHERE e.verb = 'on_ai_map_of' GROUP BY n.id HAVING towns > 1 ORDER BY towns DESC, label",
+          "item": "**{label}**: {places}",
+          "max": 9
+        },
+        {
+          "kind": "list",
+          "title": "What the detectives connected",
+          "sql": "SELECT a.label AS a, c.verb AS verb, b.label AS b, c.verified AS verified FROM connections c JOIN nodes a ON a.id = c.src JOIN nodes b ON b.id = c.dst ORDER BY c.verified, a.label",
+          "item": "**{a}** {verb} **{b}** ({verified})",
+          "max": 9,
+          "empty": "No connections yet."
+        },
+        {
+          "kind": "stat",
+          "title": "Provenance",
+          "sql": "SELECT (SELECT count(*) FROM captures WHERE ok = 1) AS pages_captured, (SELECT count(DISTINCT host) FROM captures WHERE ok = 1) AS sites, (SELECT count(*) FROM news) AS stories, (SELECT count(*) FROM map) AS map_entries",
+          "text": "Every story and map entry carries its source and the day it was read; the source pages of Loulé and Faro are captured, a screenshot and the text with their SHA-256, in an sgit vault."
+        },
+        {
+          "kind": "title",
+          "kicker": "Ask the data",
+          "title": "promptugal.news/query/",
+          "text": "Nineteen places, the graph, SQL and graph traversals in the browser, and the JSON behind every slide."
+        }
+      ]
+    }
+  ]
+}

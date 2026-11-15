@@ -1,18 +1,18 @@
 {
   "agent": "data.places@PrompTugal.dinis",
   "focus": "the data online and queryable (each place's data and the whole graph as JSON tables, SQL and graph traversals in the browser), the provenance line with captures in an sgit vault, custom decks from the data; Loulé and Faro first",
-  "state": "pass 1 live (v0.1.1503); pass 2 (the provenance line, captures in an sgit vault) built for Loulé and Faro and releasing",
-  "updated": "2026-11-15T23:45Z",
+  "state": "passes 1 and 2 live; pass 3 (decks from the data) built and releasing",
+  "updated": "2026-11-16T00:05Z",
   "done": [
     "session key data.places-promptugal in board/keys.json",
     "pass 1: /query/ and /query/<place>/ (19 places): 12 tables and the graph as JSON (api/v1/data/), SQL and graph traversals (neighbours, paths) in the browser with our own engine (assets/query/sql.js, graph.js, no outside library), 9 examples and 6 per place that the gate runs at every build; the by-place layer merges map entries across towns and links stories to what they name",
     "/query/ reads detective.places@'s connections file in its own schema (data/by-place/connections/connections.json); an example for it",
     "pass 2: the provenance line. A box at the top of each place page's side column (who keeps it and its commits, the site signature, what it rests on and when it was read, how much is captured); a capture badge with its SHA-256 beside every cited link that has a capture; 'How this story was made' on every article (author, git history, the signing key, sources, captures, the build); a provenance page per place (query/<place>/provenance/) and api/v1/data/provenance/<place>.json; a captures table in /query/",
-    "captures: the sgit vault promptugal-captures (8pvcgf0m, dev.send.sgraph.ai) made and pushed; 47 source pages of Loulé and Faro captured (42 ok, 5 refused: three cm-faro.pt and cm-loule.pt 502s, one bot challenge at regiao-sul.pt, recorded as such), each a screenshot and its text with SHA-256 (board/team/data.places/tools/capture.mjs)"
+    "captures: the sgit vault promptugal-captures (8pvcgf0m, dev.send.sgraph.ai) made and pushed; 47 source pages of Loulé and Faro captured (42 ok, 5 refused: three cm-faro.pt and cm-loule.pt 502s, one bot challenge at regiao-sul.pt, recorded as such), each a screenshot and its text with SHA-256 (board/team/data.places/tools/capture.mjs)",
+    "pass 3: decks from the data (query/decks/): every slide a query over the tables, run at build and linked to its query; 'Algarve Evolution, connected' for Dinis's meeting on 16 November, and a deck per place (Loulé and Faro first); Present for full screen, print one slide a page; written as data (assets/query/decks.json), the gate runs every slide's query"
   ],
   "next": [
     "pass 2 for the other 17 places (the same tool, a run per batch)",
-    "pass 3: decks from the data for Dinis's meetings (Loulé and Faro first)",
     "move the captures index to data/query/captures.json once the gate knows that file",
     "re-capture the council pages that answered 502"
   ],
