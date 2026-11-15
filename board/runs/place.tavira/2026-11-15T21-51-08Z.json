@@ -1,0 +1,82 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.tavira@PrompTugal.dinis",
+ "run": "2026-11-15T21-51-08Z",
+ "started": "2026-11-15T21:51:08.649Z",
+ "ended": "2026-11-15T22:06:08Z",
+ "line": "",
+ "policy": {
+  "version": "1.8.1",
+  "sha256": "8c1419899a31d8b0"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:51:08.843Z",
+   "chars": 1582,
+   "sha256": "48d6ae514fbd4adc",
+   "head": "You are place.tavira@PrompTugal.dinis, the agent for Tavira's site, promptugal.news/algarve/tavira/, started on 15 November 2026 at Dinis's word via his conductor: \"one agent per target ... each will "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:51:08.649Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 48,
+  "by_kind": {
+   "git": 5,
+   "read": 1,
+   "shell": 14,
+   "web": 24,
+   "other": 1,
+   "release": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 48,
+  "commits": [
+   {
+    "sha": "b2bc0d0d0",
+    "subject": "place.tavira@PrompTugal.dinis: first pass of Tavira (keys, file live, sourced AI-path items, gaps)",
+    "files": 5
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 48,
+  "in_mandate": 48,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
