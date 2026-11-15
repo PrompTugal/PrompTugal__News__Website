@@ -11,9 +11,21 @@
   "gravity": {
     "text": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing past in Ferragudo, Carvoeiro and Benagil, and a growing business of congresses and events. Its AI is public-sector first: the council runs a Smart City portal and an IT team that has been working on AI with data-protection and processing limits in mind, and one parish has put an AI assistant on its website. No AI company headquartered in the municipality has turned up in public sources yet.",
     "sources": [
-      { "title": "Lagoa, Algarve (Wikipedia): economy, parishes, venues", "url": "https://en.wikipedia.org/wiki/Lagoa,_Algarve", "read_on": "2026-11-15" },
-      { "title": "Lagoa council news feed: congress hosting, wine tourism forum, congress centre regulation", "url": "https://www.cm-lagoa.pt/pages/321.rss", "read_on": "2026-11-15" },
-      { "title": "CCDR Algarve: report of the Digitalisation and ICT innovation platform meeting (28 February 2025)", "url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250722_relat%C3%B3rio%20pic%20digitaliza%C3%A7%C3%A3o%20%26%20tic%2028-02-2025.pdf", "read_on": "2026-11-15" }
+      {
+        "title": "Lagoa, Algarve (Wikipedia): economy, parishes, venues",
+        "url": "https://en.wikipedia.org/wiki/Lagoa,_Algarve",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "Lagoa council news feed: congress hosting, wine tourism forum, congress centre regulation",
+        "url": "https://www.cm-lagoa.pt/pages/321.rss",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "CCDR Algarve: report of the Digitalisation and ICT innovation platform meeting (28 February 2025)",
+        "url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250722_relat%C3%B3rio%20pic%20digitaliza%C3%A7%C3%A3o%20%26%20tic%2028-02-2025.pdf",
+        "read_on": "2026-11-15"
+      }
     ]
   },
   "look": {
@@ -64,12 +76,42 @@
     }
   ],
   "sources": [
-    { "name": "Município de Lagoa, news", "url": "https://www.cm-lagoa.pt/comunicacao/noticias", "kind": "council", "feed": "https://www.cm-lagoa.pt/pages/321.rss" },
-    { "name": "Município de Lagoa, events", "url": "https://www.cm-lagoa.pt/comunicacao/eventos", "kind": "council", "feed": "https://www.cm-lagoa.pt/pages/322.rss" },
-    { "name": "Smart City Lagoa portal", "url": "https://smartcity.cm-lagoa.pt/v2/portal", "kind": "council", "feed": null },
-    { "name": "Barlavento, Lagoa section", "url": "https://www.barlavento.pt/", "kind": "press", "feed": null },
-    { "name": "Sul Informação", "url": "https://www.sulinformacao.pt/", "kind": "press", "feed": null },
-    { "name": "CCDR Algarve, innovation platform (EREI Algarve)", "url": "https://www.ccdr-alg.pt/", "kind": "other", "feed": null }
+    {
+      "name": "Município de Lagoa, news",
+      "url": "https://www.cm-lagoa.pt/comunicacao/noticias",
+      "kind": "council",
+      "feed": "https://www.cm-lagoa.pt/pages/321.rss"
+    },
+    {
+      "name": "Município de Lagoa, events",
+      "url": "https://www.cm-lagoa.pt/comunicacao/eventos",
+      "kind": "council",
+      "feed": "https://www.cm-lagoa.pt/pages/322.rss"
+    },
+    {
+      "name": "Smart City Lagoa portal",
+      "url": "https://smartcity.cm-lagoa.pt/v2/portal",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Barlavento, Lagoa section",
+      "url": "https://www.barlavento.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Sul Informação",
+      "url": "https://www.sulinformacao.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "CCDR Algarve, innovation platform (EREI Algarve)",
+      "url": "https://www.ccdr-alg.pt/",
+      "kind": "other",
+      "feed": null
+    }
   ],
   "events": [
     {
@@ -113,16 +155,35 @@
     }
   ],
   "extras": [
-    { "label": "Area", "value": "88.25 km2, four parishes (Estômbar e Parchal, Ferragudo, Lagoa e Carvoeiro, Porches)", "source_url": "https://en.wikipedia.org/wiki/Lagoa,_Algarve", "read_on": "2026-11-15" },
-    { "label": "Population", "value": "22,975 at the 2011 census (the latest figure we have read)", "source_url": "https://en.wikipedia.org/wiki/Lagoa,_Algarve", "read_on": "2026-11-15" },
-    { "label": "Congress centre", "value": "The council started the procedure for a draft regulation of the Centro de Congressos de Lagoa on 3 November 2026 (notice of 9 November)", "source_url": "https://www.cm-lagoa.pt/noticia/edital-n-149-2026-projeto-de-regulamento-do-centro-de-congressos-de-lagoa", "read_on": "2026-11-15" }
+    {
+      "label": "Area",
+      "value": "88.25 km2, four parishes (Estômbar e Parchal, Ferragudo, Lagoa e Carvoeiro, Porches)",
+      "source_url": "https://en.wikipedia.org/wiki/Lagoa,_Algarve",
+      "read_on": "2026-11-15"
+    },
+    {
+      "label": "Population",
+      "value": "22,975 at the 2011 census (the latest figure we have read)",
+      "source_url": "https://en.wikipedia.org/wiki/Lagoa,_Algarve",
+      "read_on": "2026-11-15"
+    },
+    {
+      "label": "Congress centre",
+      "value": "The council started the procedure for a draft regulation of the Centro de Congressos de Lagoa on 3 November 2026 (notice of 9 November)",
+      "source_url": "https://www.cm-lagoa.pt/noticia/edital-n-149-2026-projeto-de-regulamento-do-centro-de-congressos-de-lagoa",
+      "read_on": "2026-11-15"
+    }
   ],
-  "identity": { "key_id": "site.lagoa-promptugal", "signed_by": "place.lagoa@PrompTugal.dinis" },
+  "identity": {
+    "key_id": "site.lagoa-promptugal",
+    "signed_by": "place.lagoa@PrompTugal.dinis"
+  },
   "gaps": [
     "No AI company, startup or research group headquartered in Lagoa has turned up in public sources. Searches by parish (Carvoeiro, Ferragudo, Porches, Estômbar, Parchal) found none. Sources to look for next: the Portuguese company registers by municipality code, the Balcão do Empreendedor, and LinkedIn company pages.",
     "No Lagoa AI news dated 2026 has been found yet. The newest item is from December 2025.",
     "Lagoa's council news feed carries no AI items at all in its latest 25 entries (up to 13 November 2026): the council's own AI work is reported by regional press, not by the council.",
     "Two Lagoa stories fail the PrompTugal test as written and stay out: the City as a Platform innovation prize (March 2025, sensors and data, AI not mentioned) and the Ferragudo augmented reality portal (April 2026, AI not mentioned).",
+    "Left out as not AI: the council's WhatsApp channel for residents and visitors (Barlavento, 28 July 2026), which is part of the council's digital transformation strategy but where no AI or chatbot is mentioned. Search results also mix in AI courses held in Lagoa on the island of São Miguel in the Azores, a different municipality that we do not cover.",
     "Postal do Algarve could not be read (it shows a bot check), so its Lagoa coverage is missing. Sul Informação refused automated reads. The date of the CCDR report is the meeting date, the report itself was published later in 2025.",
     "The talk on a large language model solution for the Algarve's municipalities is only a title in a programme: we found no later report of it being built or used."
   ],
