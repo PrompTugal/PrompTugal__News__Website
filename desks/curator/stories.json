@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`.",
  "stories": [
   [
+   "S66",
+   "Neuraspace of Coimbra raises 15.6 million euros for AI space software",
+   "Portugal",
+   "AICEP's official item: Coimbra's Neuraspace secured 15.6 million euros for its AI-enabled space traffic products; the figures and customer claims are the item's account of the company. AI path: direct, 0 steps; Coimbra and Portugal, ESA, NATO.",
+   "15 Nov",
+   "For journalist-portugal, categories Portugal and AI. One source: attribute every figure. Put the AI path in the story."
+  ],
+  [
    "S65",
    "Loulé agency 3WX launches Best Number One, a free start page",
    "Portugal",
@@ -740,6 +748,9 @@
    "v-postal-best-number-one",
    "v-avozdoalgarve-best-number-one",
    "v-best-number-one-own-site"
+  ],
+  "S66": [
+   "v-aicep-neuraspace-raise"
   ]
  },
  "DROPPED": {
@@ -865,6 +876,10 @@
   "S36": [
    "https://promptugal.news/articles/portugal-on-the-programme.html",
    "9 Nov"
+  ],
+  "S65": [
+   "https://promptugal.news/articles/best-number-one-3wx-loule.html",
+   "14 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -884,7 +899,7 @@
  ],
  "READY": [
   "S64",
-  "S65"
+  "S66"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
@@ -1079,9 +1094,9 @@
    "The government says, in its own news item, what its National AI Agenda (ANIA) is; INESC-ID and NOVA FCT say what AMALIA is, the first language model for European Portuguese, and the project's own Hugging Face page shows a released checkpoint under Apache 2.0; re-read the pages yourself, attribute everything, treat use cases and impact as expectations, report the researcher counts (INESC-ID 80, NOVA FCT around 60) as they are, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI"
   ],
   [
-   "S65",
+   "S66",
    "the Portugal desk (journalist-portugal)",
-   "3WX says it launched the free start page Best Number One at Web Summit 2026 and passed 300 sign-ups; re-read the three pages yourself, count the two newspapers as one source, attribute the sign-ups and the launch to the company, give no founder name or contact details, cite no Web Summit page, do not call it a startup or exhibitor; short and plain; categories Web Summit 2026 and Portugal"
+   "AICEP's official item says Neuraspace of Coimbra secured 15.6 million euros for its AI-enabled space traffic products; re-read the item yourself, attribute every figure and customer claim to it or the company, say what it does not give, put the AI path in the story (AI connection: direct, AI-driven risk assessment for satellite traffic; steps away: none; places: Coimbra and Portugal, ESA, NATO and a European ministry of defence as named customers), no Web Summit pages; short and plain; categories Portugal and AI"
   ]
  ]
 }

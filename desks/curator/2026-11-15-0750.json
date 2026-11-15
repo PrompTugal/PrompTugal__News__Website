@@ -1,0 +1,154 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-15T07:50Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis; the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 15 Nov 2026 at 07:38 UTC: researcher's 14 Nov 18:44 AI-path note on S65 and the 15 Nov 07:15 run (two captures, each with its AI path).",
+    "inputs": "Five themes; the PrompTugal test (standing answer 81) applied: each commission carries the three answers. No hold on either site. decisions.md read to standing answer 83.",
+    "overlap_checked": "15 Nov 07:50: Granter's 1.6 million euro round is already in from-pitch-to-new-markets (S4, published); nothing on Neuraspace in articles, drafts or maps."
+  },
+  "rules": "RULES-11NOV applies. Sources: AICEP's official news item and TechEU. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-aicep-neuraspace-raise",
+      "file": "vault 41j3e9s9, captures/2026-11-15-aicep-neuraspace-raise.md",
+      "source_url": "https://www.portugalglobal.pt/en/news/2026/setembro/neuraspace-secures-156m-to-scale-ai-space-technology/",
+      "beat": "Portugal",
+      "names": [
+        "Neuraspace",
+        "Lince Capital",
+        "Explorer Investments",
+        "Armilar Venture Partners",
+        "AICEP Portugal Global"
+      ],
+      "what_is_new": "AICEP's official item (3 Sep): Coimbra-based Neuraspace secured 15.6 million euros for its AI-enabled space traffic products; funders named; the figures and customer claims are the item's account of the company.",
+      "is_story": true,
+      "group": "AI in Portugal"
+    },
+    {
+      "id": "v-techeu-granter-raise",
+      "file": "vault 41j3e9s9, captures/2026-11-15-techeu-granter-raise.md",
+      "source_url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
+      "beat": "Portugal",
+      "names": [
+        "Granter",
+        "3xP Global",
+        "Deel"
+      ],
+      "what_is_new": "TechEU's own report of Granter's 1.6 million euro round (already in the published S4 article); adds a primary trade-press source.",
+      "is_story": false,
+      "group": "Already published"
+    },
+    {
+      "id": "v-s65-ai-path-check",
+      "file": "vault 41j3e9s9, captures/2026-11-14-s65-ai-path-check.md",
+      "source_url": "https://www.bestnumberone.com/",
+      "beat": "Portugal",
+      "names": [
+        "3WX",
+        "Best Number One"
+      ],
+      "what_is_new": "No sourced AI path for S65; S65 stays as published (standing answer 81).",
+      "is_story": false,
+      "group": "S65 check"
+    }
+  ],
+  "groups": {
+    "AI in Portugal": [
+      "v-aicep-neuraspace-raise"
+    ],
+    "Already published or checked": [
+      "v-techeu-granter-raise",
+      "v-s65-ai-path-check"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "Granter's raise (TechEU)",
+      "verdict": "covered",
+      "why": "S4 (from-pitch-to-new-markets) reports it; the TechEU report is a source the reviewer may add in an update; not a new assignment."
+    }
+  ],
+  "published_check": {
+    "S64": "not yet published or drafted",
+    "S65": "published (best-number-one-3wx-loule); no AI path, stays as published"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new on the AI Act, the Digital Fairness Act or the Digital Services Act in the captures (the Council page on the AI Act vote did not open for the researcher)."
+    },
+    "portugal": {
+      "assignment": "S66",
+      "ready": true,
+      "reader_angle": "Anyone following AI in Portugal and Portuguese tech funding: a Coimbra company building AI for satellite traffic, what the official item says it raised and for what.",
+      "source_ids": [
+        "v-aicep-neuraspace-raise"
+      ],
+      "duplicate_check": "Run 15 Nov 07:50: nothing on Neuraspace in articles, drafts or maps."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Granter is covered by S4; nothing new on agents in real work or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S66",
+      "kind": "team-desk",
+      "title": "Neuraspace of Coimbra raises 15.6 million euros for AI space software",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "AI"
+      ],
+      "ai_path": {
+        "connection": "Direct: Neuraspace's products are AI-enabled (the official item says its platform combines sensor data with AI-driven risk assessment and autonomous decision support, for satellite traffic and space domain awareness).",
+        "steps_away": "None (0).",
+        "places": "Coimbra and Portugal; customers named by the item: the European Space Agency, NATO and a European ministry of defence; the item stresses Europe's technological sovereignty."
+      },
+      "angle": "AICEP's official news item says Coimbra-based Neuraspace has secured 15.6 million euros, from Lince Capital, Explorer Investments and Armilar Venture Partners with support from the Recovery and Resilience Plan, to build out its AI-enabled space traffic and space domain awareness products. The item's own account of the company: founded in 2020, revenue growth of more than 350 percent in a year, more than 600 satellites monitored, the European Space Agency among its customers. It does not explain the models or how people check the decisions.",
+      "rests_on": [
+        "v-aicep-neuraspace-raise"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal. Ready. Conditions: re-read the AICEP item yourself; one source, so every figure and customer claim is attributed to the item or to the company ('according to AICEP', 'the company says'); say what the item does not give (models, human checks, results, executive names); no private information; put the AI path in the story in plain words and with its source: the AI connection is direct (AI-driven risk assessment and autonomous decision support for satellite traffic), 0 steps away, places Coimbra and Portugal, with ESA, NATO and a European ministry of defence named as customers; categories Portugal and AI."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S66",
+      "what": "One official source relaying the company's own figures (revenue growth, satellites, contracts). The item gives no model detail. Dated 3 Sep, so the round is not new; present it as such."
+    }
+  ],
+  "revisions": [],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Neuraspace's own page or release on the round, and a second report (press or an investor's post).",
+      "reader_angle": "A second voice on the round and what the money builds.",
+      "sources_wanted": "Neuraspace's site, Armilar, Lince Capital, Portuguese or space press.",
+      "why_not_a_duplicate": "Only AICEP's item is captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "The ANIA documents and ARTE's or FCT's release (open, from 14 Nov); more Portuguese AI companies, labs and programmes for theme 2.",
+      "reader_angle": "Who builds AI in Portugal.",
+      "sources_wanted": "Companies' and labs' own pages, Portuguese press.",
+      "why_not_a_duplicate": "Only AMALIA, ANIA and Neuraspace are captured."
+    }
+  ],
+  "urgent": "None"
+}
