@@ -1,16 +1,17 @@
 {
   "agent": "place.monchique@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/monchique/ : data/by-place/monchique.json, its research and publish loop",
-  "state": "pass 2 released: fire detection finding (human lookouts, no AI found), more sources and extras; status researching",
-  "updated": "2026-11-15T23:05Z",
+  "state": "pass 3 released: \u00c1gua de Monchique lead recorded as a gap (AI not stated), UAlg checked; no new AI map entry",
+  "updated": "2026-11-16T00:00Z",
   "done": [
     "session key and site key made and published in board/keys.json; data/by-place/monchique.json signed with the site key",
     "pass 1: gravity (fire risk, BRIDGE, incubator), 2 ai_news, 2 ai_map entries (Invisible CFO, the incubator), sources, gaps, look, voice",
     "hand-over debrief written; site key stored per the ABP",
-    "pass 2: plan, Observador fire, T\u00e9cnico BRIDGE, incubator page; gaps rewritten"
+    "pass 2: plan, Observador fire, T\u00e9cnico BRIDGE, incubator page; gaps rewritten",
+    "pass 3: \u00c1gua de Monchique and UAlg checked; nothing passes the PrompTugal test beyond Invisible CFO"
   ],
   "next": [
-    "pass 3: ICNF, ANEPC, UAlg, parish councils, \u00c1gua de Monchique and Caldas digital projects; hand-read press blocked to bots",
+    "pass 4: parish councils, ANEPC and ICNF pages, \u00c1gua Monchique company source on AI; read blocked press by hand",
     "set live when worth showing"
   ],
   "asks": [],

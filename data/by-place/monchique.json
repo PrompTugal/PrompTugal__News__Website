@@ -182,7 +182,8 @@
     "BRIDGE and InnoBRIDGE (IST, LNEC, UAlg, AGIF) are research on community fire risk with no AI or data tools mentioned, so they are context, not AI map entries. The national 2025 GNR plan for 25 drone cameras names neither AI nor Monchique.",
     "Postal do Algarve, Sul Informação and the RR site refused automatic reading on 15 November (bot checks or 403), so their Monchique stories are not used. A person should read them.",
     "No AI events in Monchique were found. Algarve Evolution has no Monchique member or programme in any source we could open.",
-    "Other sources to look for: Monchique's parish councils (Alferce, Marmelete, Monchique), Água de Monchique and the Caldas de Monchique spa for digital projects."
+    "Água de Monchique (the mineral water company at Caldas de Monchique) is a digital lead but not yet an AI map entry: in September 2020 Barlavento reported its myMonchique app, with water tracking and a virtual assistant called Aqua, developed with the technology company Quantum Leap, and the article does not say AI is used. We need a newer company source on its digital and AI work. https://www.barlavento.pt/aplicacao-mymonchique-incentiva-a-reciclagem-e-ao-consumo-de-agua/ (read 2026-11-15)",
+    "The University of the Algarve and its repository (sapientia.ualg.pt) show Monchique fire-risk studies that do not use AI, and we found no AI wildfire work there. Still to look for: the parish councils of Alferce, Marmelete and Monchique, and ANEPC and ICNF pages."
   ],
   "identity": {
     "key_id": "site.monchique-promptugal",
