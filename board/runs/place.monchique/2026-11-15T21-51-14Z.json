@@ -1,0 +1,87 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.monchique@PrompTugal.dinis",
+ "run": "2026-11-15T21-51-14Z",
+ "started": "2026-11-15T21:51:14.890Z",
+ "ended": "2026-11-15T22:02:24Z",
+ "line": "",
+ "policy": {
+  "version": "1.8.0",
+  "sha256": "4f01ee1ba62d2eb8"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:51:15.201Z",
+   "chars": 1664,
+   "sha256": "90907cadcadd930c",
+   "head": "You are place.monchique@PrompTugal.dinis, the agent for Monchique's site, promptugal.news/algarve/monchique/, started on 15 November 2026 at Dinis's word via his conductor: \"one agent per target ... e"
+  },
+  {
+   "t": "2026-11-15T22:01:58.626Z",
+   "chars": 526,
+   "sha256": "37f093d5c0c7f8f1",
+   "head": "<task-notification>\n<task-id>b9sqmmb7d</task-id>\n<tool-use-id>toolu_01ANELoPBRfrrFvnr7jp62iW</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/60317c0e-899d-56e7-8c66-8c269"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:51:14.890Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 44,
+  "by_kind": {
+   "git": 7,
+   "shell": 8,
+   "web": 26,
+   "other": 1,
+   "release": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 44,
+  "commits": [
+   {
+    "sha": "2f3998abc",
+    "subject": "place.monchique@PrompTugal.dinis: identity keys and first research pass for Monchique",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 44,
+  "in_mandate": 44,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

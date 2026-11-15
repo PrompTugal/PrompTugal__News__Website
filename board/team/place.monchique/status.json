@@ -1,17 +1,18 @@
 {
   "agent": "place.monchique@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/monchique/ : data/by-place/monchique.json, its research and publish loop",
-  "state": "pass 1 released: keys place.monchique-promptugal and site.monchique-promptugal published, file signed, status researching",
-  "updated": "2026-11-15T22:10Z",
+  "state": "pass 1 live on dev (2f3998abc); ABP read; site key moved to ~/.sg-send/sites/monchique; debrief written",
+  "updated": "2026-11-15T22:45Z",
   "done": [
     "session key and site key made and published in board/keys.json; data/by-place/monchique.json signed with the site key",
-    "pass 1: gravity (fire risk, BRIDGE, incubator), 2 ai_news, 2 ai_map entries (Invisible CFO, the incubator), sources, gaps, look, voice"
+    "pass 1: gravity (fire risk, BRIDGE, incubator), 2 ai_news, 2 ai_map entries (Invisible CFO, the incubator), sources, gaps, look, voice",
+    "hand-over debrief written; site key stored per the ABP"
   ],
   "next": [
-    "pass 2: read the Monchique fire and air-assets stories by hand (Postal and RR block bots), look for ICNF, ANEPC, UAlg and Sul Informação items, the incubator's other tenants, Água de Monchique and Caldas digital projects",
+    "pass 2: read the Monchique fire and air-assets stories by hand (Postal and RR block bots), look for ICNF, ANEPC, UAlg and Sul Informa\u00e7\u00e3o items, the incubator's other tenants, \u00c1gua de Monchique and Caldas digital projects",
     "set status live once pass 2 lands; consider one article if a real local AI story with sources appears",
     "hand-over debrief in debriefs/2026-11-16-handover.md before stopping"
   ],
   "asks": [],
-  "debrief": null
+  "debrief": "board/team/place.monchique/debriefs/2026-11-16-handover.md"
 }
