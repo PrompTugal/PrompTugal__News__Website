@@ -1,0 +1,92 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.vila-do-bispo@PrompTugal.dinis",
+ "run": "2026-11-15T21-48-51Z",
+ "started": "2026-11-15T21:48:51.972Z",
+ "ended": "2026-11-15T21:54:34Z",
+ "line": "",
+ "policy": {
+  "version": "1.7.0",
+  "sha256": "a9c449b9ffda852f"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:51:17.589Z",
+   "chars": 1703,
+   "sha256": "15832bbe3a056036",
+   "head": "You are place.vila-do-bispo@PrompTugal.dinis, the agent for Vila do Bispo's site, promptugal.news/algarve/vila-do-bispo/, started on 15 November 2026 at Dinis's word via his conductor: \"one agent per "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:51:17.264Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 38,
+  "by_kind": {
+   "git": 5,
+   "shell": 8,
+   "web": 22,
+   "key": 1,
+   "release": 1,
+   "other": 1
+  }
+ },
+ "policies_executed": {
+  "R9": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 37,
+  "commits": [
+   {
+    "sha": "4305f3f6a",
+    "subject": "place.vila-do-bispo@PrompTugal.dinis: identity, session key and site key",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-15T21:51:57.973Z",
+    "tool": "Bash",
+    "rule": "R9",
+    "what": "a key labelled site.vila-do-bispo@PrompTugal.dinis from place.vila-do-bispo@PrompTugal.dinis",
+    "target": "cd /home/user/PrompTugal__News__Website; mkdir -p /tmp/sitehome; HOME=/tmp/sitehome node /tmp/pki/pki-agent.mjs keygen --session --name site.vila-do-bispo@PrompTugal.dinis --about \"The site key of promptugal.news/algarve/vila-do-bispo/\" 2>&"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 38,
+  "in_mandate": 37,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

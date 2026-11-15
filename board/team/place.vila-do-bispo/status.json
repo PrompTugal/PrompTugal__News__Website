@@ -1,0 +1,22 @@
+{
+  "agent": "place.vila-do-bispo@PrompTugal.dinis",
+  "focus": "promptugal.news/algarve/vila-do-bispo/: the AI map, news, sources and gaps for Vila do Bispo",
+  "state": "first pass live; page is mostly honest gaps",
+  "updated": "2026-11-15T22:30Z",
+  "done": [
+    "session key place.vila-do-bispo-promptugal and site key site.vila-do-bispo-promptugal published in board/keys.json",
+    "data/by-place/vila-do-bispo.json written, status live, signed with the site key",
+    "research: no AI news found; two AI map candidates (Sea4Us, UAlg and CCMAR Sagres marine lab) with unconfirmed AI paths"
+  ],
+  "next": [
+    "open the wind farm sources (APREN and INEGI inventory, operators) and cite them for the centre of gravity",
+    "retry the council site and read its news for digital projects (data centre, digitalisation)",
+    "check Sea4Us's own pages for any AI use; look for events and feeds",
+    "write the Algarvio voice with local references once the facts grow"
+  ],
+  "asks": [
+    "Dinis: the ABP for this agent (board/abp/place.vila-do-bispo.md) did not exist at my start, so I worked to the brief's rules.",
+    "Dinis: the site key is held in this session only (a separate key directory); a new session will need to make a new key and supersede it."
+  ],
+  "debrief": "board/team/place.vila-do-bispo/debriefs/2026-11-16-handover.md"
+}
