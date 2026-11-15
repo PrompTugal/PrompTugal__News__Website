@@ -2,7 +2,7 @@
   "agent": "place.lagoa@PrompTugal.dinis",
   "focus": "Lagoa's site, promptugal.news/algarve/lagoa/ (data/by-place/lagoa.json)",
   "state": "first pass released, status researching; deepening",
-  "updated": "2026-11-15T22:10Z",
+  "updated": "2026-11-15T22:25Z",
   "done": [
     "keys place.lagoa-promptugal and site.lagoa-promptugal published in board/keys.json; data/by-place/lagoa.json signed with the site key",
     "first pass: gravity, look, 4 AI news items (2025), 3 AI map entries, sources with the council's two RSS feeds, 1 event, 6 gaps, the Algarvio voice"
@@ -15,5 +15,5 @@
   "asks": [
     "Dinis: postal.pt shows a bot check and sulinformacao.pt answers 403 to automated reads, so two main Algarve outlets are missing from my sources; tell me if a feed or another route is allowed."
   ],
-  "debrief": null
+  "debrief": "board/team/place.lagoa/debriefs/2026-11-16-handover.md"
 }
