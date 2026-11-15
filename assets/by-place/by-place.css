@@ -209,3 +209,4 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame .bp-status th, .bp-frame .bp-status td { white-space: nowrap; }
 .bp-frame .bp-status td:first-child { white-space: normal; }
 .bp-frame .bp-status .bp-pill { font-size: 9.5px; padding: 0 6px; }
+.bp-frame .bp-note.bp-id { margin-top: 10px; font-size: 13.5px; }

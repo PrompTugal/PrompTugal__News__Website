@@ -5,6 +5,7 @@
 // The Portugal level is the existing portugal/ page, which links here. Built by conductor@PrompTugal.dinis at Dinis's
 // word (15 Nov 2026, for his meeting with Algarve Evolution); dev@ owns it from here.
 export const order = 69
+import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
 
 const LIST = 'data/by-place/places.json'
 const DEF_ACCENT = '#1f5f3f'
@@ -78,11 +79,25 @@ function mast(ctx, L, p, parentName) {
         `\n{.bp-meta}\n${statusWord(L, p.status)} · updated ${esc(ctx, dmy(p.updated))} by \`${esc(ctx, p.agent)}\`${p.identity && p.identity.key_id ? ` · site identity \`${esc(ctx, p.identity.key_id)}\`` : ''}${parentName ? ` · part of ${parentName}` : ''}\n:::\n`
 }
 
-function testNote(ctx, L, rel) {
+// each site's identity (abp@'s check, board/abp/tools/site-identity.mjs): its key, the signature over its file
+let IDS = null
+const identityOf = (ctx, id) => { if (!IDS) { try { IDS = new Map(checkSites(ctx.ROOT).map(r => [r.id, r])) } catch { IDS = new Map() } } return IDS.get(id) }
+function identityNote(ctx, L, p) {
+    const r = p && identityOf(ctx, p.id)
+    if (!r) return ''
+    const keys = ctx.readJSON('board/keys.json').keys || []
+    const k = keys.find(x => x.id === r.site_key), fp = k && k.bundle && k.bundle.signing_fingerprint
+    return '\n\n{.bp-note .bp-id}\n' + W(L, `identity_${['valid', 'invalid', 'missing', 'wrong-key'].includes(r.signature) ? r.signature.replace('-', '_') : 'other'}`, {
+        name: p.name, key: r.site_key ? `\`${r.site_key}\`` : W(L, 'identity_nokey'), fp: fp ? `\`${fp}\`` : '', agent: `\`${r.agent}\``,
+        keys: ctx.link(`${p.path}index.html`, 'board/keys.json'), file: `data/by-place/${p.id}.json`,
+    })
+}
+
+function testNote(ctx, L, rel, p) {
     return `## How this page is made {#how}
 
 {.bp-note}
-${W(L, 'test_note', { graph: ctx.link(rel, 'graph/index.html'), region: ctx.link(rel, 'algarve/index.html') })}`
+${W(L, 'test_note', { graph: ctx.link(rel, 'graph/index.html'), region: ctx.link(rel, 'algarve/index.html') })}${identityNote(ctx, L, p)}`
 }
 
 // our own articles about a place: front matter town: <id>, or region: <id> (the brief's tags for the place agents' articles)
@@ -128,7 +143,7 @@ function townPage(ctx, L, p) {
     if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest)}`
     md += `## The AI map {#map}\n\n${W(L, 'map_intro', { name: p.name })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
     md += `:::\n::: col\n` + sideCol(ctx, L, p, rel, inside)
-    md += `:::\n:::\n\n` + testNote(ctx, L, rel)
+    md += `:::\n:::\n\n` + testNote(ctx, L, rel, p)
     const accent = (p.look && p.look.accent) || DEF_ACCENT
     return {
         src: `data/by-place/${p.id}.json`, rel, type: 'place', layout: 'wide', date: dmy(p.updated) || ctx.TODAY,
@@ -209,7 +224,7 @@ function regionPage(ctx, L) {
     md += `{.mini-h}\nThe first wave\n\n{.bp-status}\n| Place | Status | Stories | Map |\n|---|---|---|---|\n${T.map(t => `| [${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)}) | ${t.status || 'stub'} | ${(t.ai_news || []).length} | ${(t.ai_map || []).length} |`).join('\n')}\n\n`
     if ((p.sources || []).length) md += `{.mini-h}\nRegional sources\n\n{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}\n\n`
     if ((p.gaps || []).length) md += `{.mini-h}\nGaps\n\n{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}\n\n`
-    md += `:::\n:::\n\n` + testNote(ctx, L, rel)
+    md += `:::\n:::\n\n` + testNote(ctx, L, rel, p)
     return {
         src: LIST, rel, type: 'place', layout: 'wide', date: ctx.TODAY, section: 'portugal', group: 'Portugal',
         crumbs: [['portugal/index.html', 'Portugal'], [null, 'The Algarve']],
@@ -243,7 +258,7 @@ function portugalLens(ctx, L, rel) {
     if (ours.length) md += `{.mini-h}\n${W(L, 'articles_h', { name: 'the places' })}\n\n${articleList(ctx, rel, ours)}`
     md += `## The national AI map {#map}\n\n${W(L, 'map_intro', { name: 'Portugal' })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
     md += `:::\n::: col\n` + sideCol(ctx, L, p, rel, [])
-    md += `:::\n:::\n:::\n`
+    md += `:::\n:::\n${identityNote(ctx, L, p)}\n:::\n`
     return md
 }
 
@@ -269,6 +284,12 @@ export const searchDocs = ctx => {
 export function llms(ctx) {
     const L = load(ctx)
     return `## PrompTugal.news by place\n- [The Algarve](algarve/index.md): the region and its ${towns(L).length} towns, each a lens on the same stories\n${towns(L).map(t => `- [${t.name}](${t.path}index.md)`).join('\n')}\n\n`
+}
+
+// abp@'s site-identity rule (every place site has its own key and a valid signature over its file): a warning tonight,
+// a failure once Dinis says so (board/briefs/2026-11-15-the-place-agents.md)
+export function warn(gate) {
+    return checkSites(gate.ROOT).filter(r => !r.ok).map(r => `site-identity: ${r.id}: ${r.problems.join('; ')}`)
 }
 
 export function validate(gate) {
