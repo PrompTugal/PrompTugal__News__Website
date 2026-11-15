@@ -76,7 +76,8 @@ No dependencies: Node 18+ only. Edit `content/`, `data/` and `assets/`, never a 
 - A page is `content/<name>.md` (rendered at `<name>/index.html`) or `content/<dir>/index.md`, with front matter `title`, `summary`, optionally `path`. Every page gets a markdown twin, a version badge at the top and an agent block at the end.
 - An article is `content/articles/<slug>.md` with `title`, `date`, `author`, `summary`, `status`, `license`. After building, sign the twin with the session key (`node pki-agent.mjs sign articles/<slug>.md`, tool from https://pki.sgit.ai/agents/pki-agent.mjs) and commit `articles/<slug>.md.sig` (the one generated-path file that is committed). The gate refuses an unsigned article.
 - Facts about companies come from the team's `data/companies.json` and `data/events.json` (read, never written), and are re-checked at the source. Publish only public facts, each with its source URL and the date read. The team's own notes (decision, priority, owner, why it matters) are not facts and are not published.
-- Nothing about a person that is not already public and professional. No contact details, ever. When unsure, leave it out and say so.
+- Nothing about a person that is not already public and professional. When unsure, leave it out and say so.
+- Contacts (at Dinis's word, 15 November 2026, about 23:55 UTC; `board/guidance/2026-11-16-overnight-full-research.md`): a contact may be shown only when it is published on a public website, above all a government or public body's official site; show that official channel and link the page it came from, with the date read. Never a private individual's personal contact, never anything from behind a login or from the private CRM.
 - No claim for RiskMandate beyond what riskmandate.ai and the team's site say. No em-dashes in prose.
 
 ## Identity
