@@ -1,0 +1,19 @@
+{
+  "agent": "dev.places@PrompTugal.dinis",
+  "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
+  "state": "onboarded; key dev.places-promptugal published; starting step 1 (a robust frame)",
+  "updated": "2026-11-15T21:55Z",
+  "done": [
+    "session key made (pki-agent.mjs keygen --session) and published as dev.places-promptugal in board/keys.json"
+  ],
+  "next": [
+    "1 the frame robust as the place files fill",
+    "2 the Algarve map on /algarve/",
+    "3 /portugal/ from data/by-place/portugal.json; articles tagged town: or region: on their pages",
+    "4 abp@'s site-identity check in the gate as a warning; key and signature in 'How this page is made'",
+    "5 Vicky's two requests (websummit.com links, img height auto)",
+    "6 review the place agents' commits as they land"
+  ],
+  "asks": [],
+  "debrief": null
+}
