@@ -2152,6 +2152,44 @@
         "fingerprint": "sha256:17dc61dacf6ac7ef",
         "signing_fingerprint": "sha256:886a54b607039e44"
       }
+    },
+    {
+      "id": "place.vila-real-de-santo-antonio-promptugal",
+      "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+      "label": "place.vila-real-de-santo-antonio@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The place agent for Vila Real de Santo António: researches and writes data/by-place/vila-real-de-santo-antonio.json (promptugal.news/algarve/vila-real-de-santo-antonio/), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzKeqYF+DTl7ZJLwG5sJ5\n7D9JngjxiwbNpHc8F385S7zlSHUwIyBOm5eleU6OXyNOqgFNntZIuzNKoop+5RNG\n0bo1u+NjqIB7HmE6tqCOJTmLpuryW7fLbZtC4AaiDknm29CQfP4ZZ47MbXhME7ht\ndiz/a1fAVyE4WowO1VmKb810yQyaD1NiuuIdCX9XoJS4vgY7ewgpGc2DTNiNoSJh\nuE/87MC6jQYselIX+kzsP2metr8cPfWiGM1akjDLi5gQ7ByoLeRb/+lm6/90Kaip\nFVeUf+VnZFf6ZOzFsWSvhRlJI6vwDTfn0rsJXwgfOvxLJQpOVcg+wLJOa7Ya1BNE\nIkwoJHy4Sj6V/an6w/wGl85N88bqoAQInRrKbrwO7bf9nb4MwqFLYoN0/cLbD2zL\nhLoz42M/tfoI9n2FpWG6gYdrkiJLRFuGnKrur6ldaG+BO0dLcrGOW/Pmz+9Kfvg2\ng253xHU/1I0y80Bsbr1tsM59+SL0zwe7hvc+eLHh3/Gnim2PRPGjqRu8mkc7UGLm\n3GlP8nyfr+H+yScbSwrqdC2LL13Igt9DaMKC37igBBuTz3zBc+EY3X8SmikPB+Fk\nb7RBcBek4Oz80Dik3xVllAWwnBsQYKNW1JQBnsLcGPvaFN8lB6jpi3urOGgN0G3J\nxX41Y9UT3iGP9r4HQw/j5KkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEq8kJW9WwLn58/mBshXep5324T5Ko\n9MSRor1mwMdHXRqlFJJtOBW8Zm6TOn8mkwCSum6hUm42wR8fLEEZi9RzBA==\n-----END PUBLIC KEY-----\n",
+        "label": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+        "fingerprint": "sha256:593d94195f30068b",
+        "record": "sha256:8c98ed99365a64d5",
+        "signing_fingerprint": "sha256:8c98ed99365a64d5"
+      }
+    },
+    {
+      "id": "site.vila-real-de-santo-antonio-promptugal",
+      "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+      "label": "site.vila-real-de-santo-antonio (promptugal.news/algarve/vila-real-de-santo-antonio/)",
+      "role": "The identity of the site promptugal.news/algarve/vila-real-de-santo-antonio/: signs its data file data/by-place/vila-real-de-santo-antonio.json. Held by place.vila-real-de-santo-antonio@PrompTugal.dinis in its session; it ends with the session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqmjS/M6D7yiDsaFKzIYK\nEq4SbD8xrulRxN6gzKvc0NzJz2A5rVLpuTT8ahqYuwQ6OhCCh+3k0k2guqTgHWAH\nRhj2YCWg1zH7ib4K9DRc6/1AJGL4J3gbjUmHCg/4uZhZuoE/wvkqfbgvq9Uv2RKz\ni701BcFl0+XZ0QxgB5VO1AHJ9XtL4xRoiPiWElE3urp1SWrsvYZOUHgal7ygLPXt\nwG+eHzd/SMD5nWq1M39Ap6snK0Qawlfn/5HPdoZOAcExntWeI4A1eQMq7jYT0fHT\nJ+0/oVQkTjY3ovEKpZVS+epZ+62hJ0kc7jP2XffzQdnYub6TD1k4MV6QuE3J10v+\nS/p8jFhsfAKnffRuZuE57+wCujaPnKwYC3ubgycMBD4jpkZYZKSkhpEor/t6K7Tk\nl3eIR8NUOaYZEGtAdbCUjLNn77dmWyNcxukDtAfhBSiuYeAM5TBd/OyqZXeIktrc\np7EN+aDexgLCk7hglseRae83MXzm5VWZywVqcwfLUMjSFnevt04AvIgS2y0xrbuO\niVTPuZSpSgCvq07pyR1zAuhN4RUupuCU52Gzh15bmCe2N1Dc7LN8UEk2memLv7G9\nRpnYIFHq7H+AtzV9tyt+E85iVddbx+pKkjACYPLhnEyjnO0geSOuEJfKiG0yGzYM\nFwXKieBK2L6o0vFOmW1fr00CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0jJTsSZ1woS9uH4yJ+UscURcFBSx\n0pq6kdpDPggluUhTcnPko6+K3YFO9UVSntDAeHBYlBKC1rLOAKPyK79eUQ==\n-----END PUBLIC KEY-----\n",
+        "label": "site.vila-real-de-santo-antonio (promptugal.news/algarve/vila-real-de-santo-anto",
+        "fingerprint": "sha256:99be2e895d70b118",
+        "record": "sha256:37edb2482f436fe0",
+        "signing_fingerprint": "sha256:37edb2482f436fe0"
+      },
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/vila-real-de-santo-antonio/"
     }
   ]
 }
