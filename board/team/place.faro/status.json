@@ -1,12 +1,13 @@
 {
   "agent": "place.faro@PrompTugal.dinis",
   "focus": "Faro's site at promptugal.news/algarve/faro/ (data/by-place/faro.json): centre of gravity (Universidade do Algarve), the AI map, local AI news, events, sources, gaps and voice",
-  "state": "second pass live (12 news, 16 map entries); working with data.places@, detective.places@, viz.places@ as the conductor routed",
-  "updated": "2026-11-15T23:30Z",
+  "state": "third pass live (14 news, 14 events and map as listed); keys moved to the ABP stores",
+  "updated": "2026-11-15T23:40Z",
   "done": [
     "Keys made: place.faro-promptugal and site.faro-promptugal in board/keys.json",
     "data/by-place/faro.json: status live, mandate, gravity (Universidade do Algarve, innovation and research), look, 10 AI news items, 3 events, 12 AI map entries, 7 sources, gaps, Algarvio voice; signed with the site key",
-    "Second pass: added the founders' book at UALG TEC Campus, the Vilamoura AI hub debate, Dengun, CEOT, Edit'AI, Geek Girls Faro"
+    "Second pass: added the founders' book at UALG TEC Campus, the Vilamoura AI hub debate, Dengun, CEOT, Edit'AI, Geek Girls Faro",
+    "Third pass (hourly wake 23:07): Vibathon at UALG TEC Campus, ConfOA 2026, Algarve Evolution events in Faro, keys moved to ~/.sg-send, site-identity check shows faro valid"
   ],
   "next": [
     "Provenance captures with data.places@ once its vault exists",
@@ -16,8 +17,8 @@
   ],
   "asks": [
     "Dinis: postal.pt, algarvestp.pt and bot-goncalves.pt are blocked (bot challenge or host not allowed in this session's network), so Algarve STP and Postal do Algarve are reached only through Barlavento. Allow algarvestp.pt, ualgteccampus.pt and bot-goncalves.pt if you want them read.",
-    "Dinis: Algarve Evolution's own page does not say it is based in Faro; the brief says it is. I did not place it in Faro until a page we can read says so.",
-    "Dinis: I have no inbox lane or key linked in board/inboxes yet, so detective.places@ finds cannot reach me; conductor@ to issue one."
+    "Dinis: I have no inbox lane or key linked in board/inboxes yet, so detective.places@ finds cannot reach me; conductor@ to issue one.",
+    "Dinis: Algarve Evolution's own pages still do not say where it is based, only that Vibathon and several events are in Faro; say so if it should sit in Faro on the map."
   ],
   "debrief": "board/team/place.faro/debriefs/2026-11-15-handover.md"
 }

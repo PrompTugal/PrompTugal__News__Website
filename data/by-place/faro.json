@@ -50,6 +50,16 @@
       "steps": 0
     },
     {
+      "title": "Vibathon Algarve 2026 fills UALG TEC Campus with people building apps with AI",
+      "summary": "A sold-out day on 31 October 2026 in Faro run by Algarve Evolution with the Lovable AI tool: free credits, mentors and a jury, and many participants with no coding experience built working prototypes.",
+      "date": "2026-10-31",
+      "publisher": "SGit Newsroom",
+      "url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+      "read_on": "2026-11-15",
+      "ai_path": "A hands-on AI app-building day held in Faro: directly about AI. The article's author, Dinis Cruz, spoke at the event and is PrompTugal's operator, so read it as an insider's account.",
+      "steps": 0
+    },
+    {
       "title": "Faro's Cáritas asks who benefits from AI",
       "summary": "The diocesan Cáritas held a conference at the Seminário de São José in Faro on AI, human dignity, work, learning and who may be left behind.",
       "date": "2026-10-22",
@@ -67,6 +77,16 @@
       "url": "https://www.barlavento.pt/livro-ia-criacao-startups-ualg-tec-campus/",
       "read_on": "2026-11-15",
       "ai_path": "A Faro launch of a startup method built on AI prompts: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Open science meets AI at the University of Algarve's ConfOA 2026",
+      "summary": "The Lusophone Open Science Conference was hosted at the Gambelas campus from 6 to 9 October 2026, with this year's theme on how AI changes research, scientific communication and data policy.",
+      "date": "2026-10-06",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/confoa-2026-ciencia-aberta-na-era-da-inteligencia-artificial",
+      "read_on": "2026-11-15",
+      "ai_path": "A national research conference on science in the age of AI, hosted by Faro's university: directly about AI. The date is the conference start because the page shows no publication date.",
       "steps": 0
     },
     {
@@ -202,16 +222,21 @@
       "url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Algarve Evolution: events",
+      "url": "https://www.algarveevolution.pt/event",
+      "kind": "events",
+      "feed": null
+    },
+    {
+      "name": "SGit Newsroom (Algarve Evolution coverage, insider)",
+      "url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+      "kind": "press",
+      "feed": null
     }
   ],
   "events": [
-    {
-      "title": "DevFest 2026: Build, Secure and Scale in the Agentic Era (GDG Faro, Campus da Penha)",
-      "date": "2026-11-27 to 2026-11-28",
-      "url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
-      "read_on": "2026-11-15",
-      "ai_path": "A two-day conference on agentic AI: directly about AI."
-    },
     {
       "title": "Mentes artificiais, olá Futuro (Faro municipal library, council)",
       "date": "2026-11-01 to 2026-11-30",
@@ -225,6 +250,27 @@
       "url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
       "read_on": "2026-11-15",
       "ai_path": "An exhibition about AI listed on the council's agenda: directly about AI."
+    },
+    {
+      "title": "Do you know UAlgTec Heritage? (Algarve Evolution, Faro)",
+      "date": "2026-11-17",
+      "url": "https://www.algarveevolution.pt/event",
+      "read_on": "2026-11-15",
+      "ai_path": "UAlgTec Heritage is the 31.5 million euro UAlg centre that will use AI on archaeological heritage: one step from AI. The listing gives no programme."
+    },
+    {
+      "title": "Open Mic Pitch Night, second edition (Algarve Evolution, Faro)",
+      "date": "2026-11-19",
+      "url": "https://www.algarveevolution.pt/event",
+      "read_on": "2026-11-15",
+      "ai_path": null
+    },
+    {
+      "title": "DevFest 2026: Build, Secure and Scale in the Agentic Era (GDG Faro, Campus da Penha)",
+      "date": "2026-11-27 to 2026-11-28",
+      "url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
+      "read_on": "2026-11-15",
+      "ai_path": "A two-day conference on agentic AI: directly about AI."
     }
   ],
   "ai_map": [
@@ -251,7 +297,7 @@
     {
       "name": "UALG TEC Campus",
       "type": "institution",
-      "what": "The University of Algarve's company accelerator in Faro, a venue for business events on AI, such as the July 2026 panel on AI search.",
+      "what": "The University of Algarve's company accelerator in Faro, venue for the July 2026 panel on AI search, the 30 September 2026 founders' book launch and Vibathon Algarve 2026 on 31 October.",
       "url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
       "source_url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
       "read_on": "2026-11-15",
@@ -281,9 +327,9 @@
     {
       "name": "Algarve Evolution",
       "type": "organisation",
-      "what": "Association of entrepreneurs, talent and startups building an innovation ecosystem in the Algarve, with more than 100 members. Runs the AI and Robotics programme for tourism SMEs and works with UAlg and Algarve STP. Its page does not state a base city, so we do not place it in Faro here.",
+      "what": "Association of entrepreneurs, talent and startups (106 active members by its own count) building an innovation ecosystem in the Algarve. Ran Vibathon Algarve 2026 in Faro on 31 October, runs the AI and Robotics programme for 15 tourism SMEs, and hosts events in Faro including one on UAlgTec Heritage on 17 November. Its pages do not state a base city.",
       "url": "http://www.algarveevolution.pt",
-      "source_url": "http://www.algarveevolution.pt",
+      "source_url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
       "read_on": "2026-11-15",
       "ai_path": "Runs an AI and robotics adoption programme and the regional digital ecosystem.",
       "steps": 0
@@ -398,9 +444,10 @@
     "Faro's council shows no AI use in its own services in what we could read (its news page, agenda and Balcão Digital mention none). We should look for council minutes, procurement notices on base.gov.pt and the Balcão Digital's technical pages.",
     "We could not open postal.pt, algarvestp.pt or bot-goncalves.pt (a bot challenge or a host this session cannot reach), so Algarve STP, Bot Gonçalves and Postal do Algarve are only reached through Barlavento. Bot Gonçalves is not placed in Faro because no page we opened says where it is.",
     "No feed found for the council, UAlg or Algarve Evolution. Barlavento's RSS works, while Sul Informação's feed returned 403.",
-    "Missing: a list of AI-using firms in Faro beyond the incubator news, the dates of Algarve Evolution's AIA community meetups (the listings are on meetup.com and luma.com, which we do not read), and weather from IPMA.",
     "Dengun's base city is not stated on the page we read, so it is not placed in Faro. Sul Informação, which covers it, and dengun.com both answer 403 to us.",
-    "Still unsourced: other UAlg groups working on AI (we have only CEOT, from a 2024 workshop page), the Faro hospital's AI use, and Invisible CFO, FarmAssist and Witflow, whose base cities no page we opened gives."
+    "Still unsourced: other UAlg groups working on AI (we have only CEOT, from a 2024 workshop page), the Faro hospital's AI use, and Invisible CFO, FarmAssist and Witflow, whose base cities no page we opened gives.",
+    "Missing: dates for Algarve Evolution's AIA community meetups beyond what its own events page lists, since the listings also sit on meetup.com and luma.com, which we do not read, and weather from IPMA.",
+    "Algarve Evolution's own events page tags no event as AI. We list events by their content and say so."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
