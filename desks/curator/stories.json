@@ -5,9 +5,9 @@
    "S66",
    "Neuraspace of Coimbra raises 15.6 million euros for AI space software",
    "Portugal",
-   "AICEP's official item: Coimbra's Neuraspace secured 15.6 million euros for its AI-enabled space traffic products; the figures and customer claims are the item's account of the company. AI path: direct, 0 steps; Coimbra and Portugal, ESA, NATO.",
+   "AICEP's official item and TechEU: Coimbra's Neuraspace secured 15.6 million euros for its AI-enabled space traffic products; the figures and customer claims are the reports' account of the company. AI path: direct, 0 steps; Coimbra and Portugal, ESA, NATO.",
    "15 Nov",
-   "For journalist-portugal, categories Portugal and AI. One source: attribute every figure. Put the AI path in the story."
+   "For journalist-portugal, categories Portugal and AI. Two reports (AICEP 3 Sep, TechEU 5 Aug): attribute every figure. Put the AI path in the story."
   ],
   [
    "S65",
@@ -21,9 +21,9 @@
    "S64",
    "AMALIA and ANIA: what Portugal says about its own AI plans",
    "Portugal",
-   "Official sources on AI in Portugal: the government's National AI Agenda (four areas, 32 initiatives) and what INESC-ID, NOVA FCT and the project's own model page say about AMALIA, the first language model for European Portuguese (five-university consortium, open-source release, 5.5 million euros); aims, not results.",
+   "Official sources on AI in Portugal: the government's National AI Agenda (four areas, 32 initiatives) and what INESC-ID, NOVA FCT, the government's digital portal and the project's own model page say about AMALIA, the first language model for European Portuguese (consortium of universities, free and open, public administration first, 5.5 million euros); aims, not results.",
    "14 Nov",
-   "For journalist-portugal, categories Portugal and AI. Updated 14 Nov 15:45 before drafting. Do not link AMALIA to ANIA. INESC-ID says 80 researchers, NOVA FCT around 60: report both."
+   "For journalist-portugal, categories Portugal and AI. Updated 15 Nov before drafting. Do not link AMALIA to ANIA. INESC-ID says 80 researchers, the government and NOVA FCT around 60: report both."
   ],
   [
    "S61",
@@ -742,7 +742,8 @@
    "v-inesc-id-amalia-launch",
    "v-nova-fct-amalia-available",
    "v-huggingface-amalia-9b-dpo",
-   "v-digital-gov-pt-ania"
+   "v-digital-gov-pt-ania",
+   "v-digital-gov-pt-amalia"
   ],
   "S65": [
    "v-postal-best-number-one",
@@ -750,7 +751,8 @@
    "v-best-number-one-own-site"
   ],
   "S66": [
-   "v-aicep-neuraspace-raise"
+   "v-aicep-neuraspace-raise",
+   "v-techeu-neuraspace-raise"
   ]
  },
  "DROPPED": {
@@ -1091,12 +1093,12 @@
   [
    "S64",
    "the Portugal desk (journalist-portugal)",
-   "The government says, in its own news item, what its National AI Agenda (ANIA) is; INESC-ID and NOVA FCT say what AMALIA is, the first language model for European Portuguese, and the project's own Hugging Face page shows a released checkpoint under Apache 2.0; re-read the pages yourself, attribute everything, treat use cases and impact as expectations, report the researcher counts (INESC-ID 80, NOVA FCT around 60) as they are, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI"
+   "The government says, in its own news item, what its National AI Agenda (ANIA) is; INESC-ID and NOVA FCT say what AMALIA is, the first language model for European Portuguese, and the project's own Hugging Face page shows a released checkpoint under Apache 2.0; re-read the pages yourself, attribute everything, treat use cases and impact as expectations, report the researcher counts as they are (INESC-ID 80; NOVA FCT and the government's own explainer around 60); the explainer says the final version launched 1 July 2026, free and open, public administration first, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI"
   ],
   [
    "S66",
    "the Portugal desk (journalist-portugal)",
-   "AICEP's official item says Neuraspace of Coimbra secured 15.6 million euros for its AI-enabled space traffic products; re-read the item yourself, attribute every figure and customer claim to it or the company, say what it does not give, put the AI path in the story (AI connection: direct, AI-driven risk assessment for satellite traffic; steps away: none; places: Coimbra and Portugal, ESA, NATO and a European ministry of defence as named customers), no Web Summit pages; short and plain; categories Portugal and AI"
+   "AICEP's official item says Neuraspace of Coimbra secured 15.6 million euros for its AI-enabled space traffic products; re-read the AICEP item (3 Sep) and the TechEU report (5 Aug) yourself; give both dates, the round is not new, attribute every figure and customer claim to it or the company, say what it does not give, put the AI path in the story (AI connection: direct, AI-driven risk assessment for satellite traffic; steps away: none; places: Coimbra and Portugal, ESA, NATO and a European ministry of defence as named customers), no Web Summit pages; short and plain; categories Portugal and AI"
   ]
  ]
 }
