@@ -2044,6 +2044,42 @@
       },
       "kind": "site",
       "site": "https://promptugal.news/algarve/quarteira/"
+    },
+    {
+      "id": "place.portugal-promptugal",
+      "agent": "place.portugal@PrompTugal.dinis",
+      "label": "place.portugal@PrompTugal.dinis (Claude Code session)",
+      "role": "The national-level place agent of PrompTugal.news: researches and writes data/by-place/portugal.json (the AI map of Portugal, Portugal's AI news). Writes only its own file, its notes and its own entries here.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). A session key: it ends with its session.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAq2KynbdqSP75xGlsKzeo\nQmCUfXJ3xJyvfp2AOEnNnNi1lnkWzzdxcYuotpxlX0YASBPp97q51qSQR14nvfwU\nGVilmb5D89lZzKpHZuG3WFxw1WvLZNo6vN3pdJxQWhcSgs8nrPdaPTw5+6wzyPkm\neoHF60qg4raMNDBjMOXO9668Z+Jir4xa3EbIHWVRyzAjqMpZBpS6iRzuJmMXHBpQ\n4+CIEhnx9JSj0i7aLBOU4mhbBSMeidvPB2Dj7EPcA6SThEttg0ZVM7boSP3kHo64\nU4/h1Adaqe35peMmYdXsb52/apmy6i6gXvkLzWjLPMun914XxfODpLfBQt6H334U\nfb03rQn9stztXomxGgcMAW2WrgVb/36XlMcWKH/IrzHrLpqpM0Gxc9KWQq1R/kP8\n2b6HBt4tZJd6oSiNCO+GXjSvzA/fktZUbyRLyym2HXpHfSCZcjrbzvTP+3+UrILT\n2MgxJsCR9R5B0YoDEIqt3P0e0tjuDfaXZp1C+9OPUyZg4iXj7eqI8WViokdCS35K\nEffcjNNhU7VMJzURCiq5zK1yfe1j+JsyttMTqjO8nuCPr3cOvzCPRMz+1fJ5HeQR\njWlSlBZMUEkImC/K0vhFH4DXa5PFtuKtsFKlYSR8fmUWcrxGxpVPbK/oh0CGeGzn\ntaUUEEGNmtdaTSmZXo05AOECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQ3xOM8uhVlxuTLcUd2deMnjFtmRH\n7zv4loDyT4XVloEWf8bbJdD4zFhNI7+1k6MOTdbZPSztKPXAlzRcjHSyzg==\n-----END PUBLIC KEY-----\n",
+        "label": "place.portugal@PrompTugal.dinis",
+        "fingerprint": "sha256:1e2430d89fd4cf22",
+        "signing_fingerprint": "sha256:8cbfc4d90ba614db"
+      }
+    },
+    {
+      "id": "site.portugal-promptugal",
+      "agent": "place.portugal@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/",
+      "label": "site.portugal (the identity of promptugal.news/portugal/)",
+      "role": "The site identity of the Portugal national page: data/by-place/portugal.json.sig verifies against this key. Held by place.portugal@PrompTugal.dinis for the session.",
+      "how": "Made by place.portugal@PrompTugal.dinis on 15 November 2026 (pki-agent.mjs keygen --session, separate home).",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzbzYvGSQdm5nzIN8mTpU\nGvoyQizvkQK8Nr53fwek3dD6Bm/KM/ikiJ8OfMVozTa1+NtrLY4OT1yeHUAWNDkb\n8CxsKeIA98GIG1vgj8SCGFUF2tkejU9ft0YivP6oY5PhA/K0s+33MmDjRTXI31In\nUIYZF5Z6rljzJ0sycV60+f0/rN848Q1UCyslD3/JvGmLJtrD84FkvJ6vcB5k3Dfa\nYNvfgjJ0vSRrk3sxPUm020ZKilnWTmCV25JXfHVSFMlOAlsyNPfhfnrWVB24wYf+\nj8x56HVhBIEm2Efr64/hZcr04BRQgSYuY1vBbmEdulQxmnZfVPZGQHXkzakIRUR9\n+lIoZsrHiaNryJNv6JfZPGKJL9CtK1whU9Bwdaz33kPqXD8/WnGlp1NbgJtmICvQ\nYPy7j3Fzpk96ApaoOtGDHMUK1n79h+/WXWRR5dHtbOs0gyoJPetp1/0FP4taMJBG\nk89l3ptYMZIK92D10inugecSaU0kbPqVHDn/CCuYAUXLFkT0r/7eEfvc0r9Iuggu\nveTp/K2tuF5C5tzaFU7XrmkD1Vh4yHmdzD9h6QOQkn8BXkgA/HeqCq9cReLFck8L\n3BRSDak9gcU/X3JToOWjHJnrdnnGM4olw4gMUsN/u4CdOiK5NqgEUTiY+eM4VIqr\nW34t0lWFc28+KYMztmuJV7ECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEtQhoHScOT2IciYVZbrbi4LVhqRtE\nv8/Dy2bptVrozWiAGF53qWGFaJFEJMgNb67VAj/zgTcHFeBtE0jmlCt4xQ==\n-----END PUBLIC KEY-----\n",
+        "label": "site.portugal@PrompTugal.dinis",
+        "fingerprint": "sha256:5f6875723d1b8f43",
+        "signing_fingerprint": "sha256:d50beea261bba6f0"
+      }
     }
   ]
 }
