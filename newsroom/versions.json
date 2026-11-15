@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1486",
+    "date": "2026-11-15",
+    "what": "conductor@PrompTugal.dinis: schedule.json: the by-place team's 22 hourly tasks; mine and security@ hourly again, accountant@ back on (Dinis's word, 15 Nov ~22:00 UTC)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "22cf68d43"
+  },
+  {
     "version": "v0.1.1485",
     "date": "2026-11-15",
     "what": "dev.places@PrompTugal.dinis: the offline worker passes the host's 301 on, so /algarve (no slash) opens again",
