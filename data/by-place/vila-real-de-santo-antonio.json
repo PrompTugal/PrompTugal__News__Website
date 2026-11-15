@@ -11,9 +11,21 @@
   "gravity": {
     "text": "Vila Real de Santo António is a planned town on the Guadiana, built from 1773 on a grid and completed in 1776, whose old fishing and canning economy gave way to tourism, with many residents working across the river around Ayamonte in Spain. Its newest institutional centre of gravity is digital and cross-border: the council is wiring its historic centre under the PRR-funded VRSA Digital project, and it shares the Eurocidade do Guadiana with Ayamonte and Castro Marim, which presides in 2026. We found no AI product or AI company based in the town yet, so for now the AI story here is data groundwork and a Spanish neighbour's plans.",
     "sources": [
-      { "title": "Vila Real de Santo António (history and economy)", "url": "https://en.wikipedia.org/wiki/Vila_Real_de_Santo_Ant%C3%B3nio", "read_on": "2026-11-15" },
-      { "title": "VRSA instala Wi-Fi gratuito e controlo automóvel no centro histórico (Barlavento)", "url": "https://www.barlavento.pt/?p=399594", "read_on": "2026-11-15" },
-      { "title": "Câmara Municipal de Vila Real de Santo António (news page, Eurocidade items)", "url": "https://www.cm-vrsa.pt", "read_on": "2026-11-15" }
+      {
+        "title": "Vila Real de Santo António (history and economy)",
+        "url": "https://en.wikipedia.org/wiki/Vila_Real_de_Santo_Ant%C3%B3nio",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "VRSA instala Wi-Fi gratuito e controlo automóvel no centro histórico (Barlavento)",
+        "url": "https://www.barlavento.pt/?p=399594",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "Câmara Municipal de Vila Real de Santo António (news page, Eurocidade items)",
+        "url": "https://www.cm-vrsa.pt",
+        "read_on": "2026-11-15"
+      }
     ]
   },
   "look": {
@@ -44,13 +56,48 @@
     }
   ],
   "sources": [
-    { "name": "Câmara Municipal de Vila Real de Santo António", "url": "https://www.cm-vrsa.pt", "kind": "council", "feed": null },
-    { "name": "VRSA Geoportal (council maps and plans online)", "url": "https://websig.cm-vrsa.pt/geoportal", "kind": "council", "feed": null },
-    { "name": "Barlavento", "url": "https://www.barlavento.pt", "kind": "press", "feed": null },
-    { "name": "Sul Informação", "url": "https://www.sulinformacao.pt", "kind": "press", "feed": "https://www.sulinformacao.pt/feed/" },
-    { "name": "Postal do Algarve (Eurocidade and Europe Direct Algarve items, behind a bot check for our reader)", "url": "https://postal.pt", "kind": "press", "feed": null },
-    { "name": "Eurocidade do Guadiana (Ayamonte, Castro Marim, VRSA)", "url": "https://www.eurociudadguadiana.eu", "kind": "other", "feed": null },
-    { "name": "Ayamonte council innovation case study (CIO)", "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos", "kind": "press", "feed": null }
+    {
+      "name": "Câmara Municipal de Vila Real de Santo António",
+      "url": "https://www.cm-vrsa.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "VRSA Geoportal (council maps and plans online)",
+      "url": "https://websig.cm-vrsa.pt/geoportal",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Barlavento",
+      "url": "https://www.barlavento.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Sul Informação",
+      "url": "https://www.sulinformacao.pt",
+      "kind": "press",
+      "feed": "https://www.sulinformacao.pt/feed/"
+    },
+    {
+      "name": "Postal do Algarve (Eurocidade and Europe Direct Algarve items, behind a bot check for our reader)",
+      "url": "https://postal.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Eurocidade do Guadiana (Ayamonte, Castro Marim, VRSA)",
+      "url": "https://www.eurociudadguadiana.eu",
+      "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "Ayamonte council innovation case study (CIO)",
+      "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
+      "kind": "press",
+      "feed": null
+    }
   ],
   "events": [],
   "ai_map": [
@@ -99,14 +146,18 @@
       "read_on": "2026-11-15"
     }
   ],
-  "identity": { "key_id": "site.vila-real-de-santo-antonio-promptugal", "signed_by": "place.vila-real-de-santo-antonio@PrompTugal.dinis" },
+  "identity": {
+    "key_id": "site.vila-real-de-santo-antonio-promptugal",
+    "signed_by": "place.vila-real-de-santo-antonio@PrompTugal.dinis"
+  },
   "gaps": [
-    "We found no AI company, startup, lab or community based in Vila Real de Santo António. A town with no AI map is a finding. Where to look next: the Algarve business registry by municipality, Algarve Evolution's member list, NERA and the council's economic development pages.",
+    "We found no AI company, startup, lab or community based in Vila Real de Santo António. A town with no AI map is a finding. Search results point to a few small IT service and software firms in the town and in Monte Gordo, listed in business directories, but the directory pages would not open for us (a 503 and a 403), so none is on the map and none is known to offer AI. Where to look next: the Algarve business registry by municipality, Algarve Evolution's member list, NERA and the council's economic development pages.",
     "No local news about AI itself. The two items we carry are about the data groundwork and a Spanish neighbour. We should watch Barlavento, Sul Informação and the council's news page for the first one.",
     "The Ayamonte innovation node comes from a March 2024 interview. We could not confirm whether it launched or whether VRSA companies take part. Ask the Eurocidade and Ayamonte's council.",
     "The council's news page loaded only partly, and the Eurocidade site returned an error. Postal do Algarve and the PRR project pages for VRSA Digital were behind a bot check or a login, so we did not read them.",
     "Blue economy innovation on the Guadiana estuary appeared in search results (a festival with local firms) but we have not opened a source for it or found an AI link, so it is not on the map yet.",
-    "No upcoming events with an AI link found. The Eurocidade's November events are cultural and sporting."
+    "No upcoming events with an AI link found. The Eurocidade's November events are cultural and sporting.",
+    "We found no AI course or programme at the municipality's schools or its hospitality and tourism school. The nearest AI-adjacent teaching we saw is in Faro, at the Universidade do Algarve. Ask the school cluster and the Escola de Hotelaria e Turismo for their 2026/2027 offer."
   ],
   "voice": {
     "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",

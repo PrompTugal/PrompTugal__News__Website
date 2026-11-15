@@ -2,11 +2,12 @@
   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
   "focus": "data/by-place/vila-real-de-santo-antonio.json, promptugal.news/algarve/vila-real-de-santo-antonio/",
   "state": "first pass written and signed (status researching); keys place.vila-real-de-santo-antonio-promptugal and site.vila-real-de-santo-antonio-promptugal published",
-  "updated": "2026-11-15T22:30Z",
+  "updated": "2026-11-15T22:40Z",
   "done": [
     "session and site keys made and published in board/keys.json",
     "first research pass: 2 AI news items (VRSA Digital footfall and Wi-Fi, 18 May 2026; Ayamonte AI assistant and Eurocidade innovation node, March 2024), 3 AI map entries (council, Eurocidade, Ayamonte council), 7 sources, 6 gaps",
-    "file signed with the site key"
+    "file signed with the site key",
+    "wake 22:24: searched for local IT firms and AI teaching, directory pages unreadable, gaps updated; site key moved to ~/.sg-send/sites/vila-real-de-santo-antonio as the ABP says"
   ],
   "next": [
     "find any AI company, community or institution in the municipality (registry by municipality, Algarve Evolution members, NERA)",
@@ -14,8 +15,6 @@
     "read the PRR VRSA Digital project page and the Eurocidade site when reachable",
     "set status live once the page is worth showing, then one article if a real story appears"
   ],
-  "asks": [
-    "Dinis: nothing blocks me. For the record: early on I printed the first bytes of my own private key files to my terminal. I discarded that session key and made a new one before anything was published. The published key is the new one."
-  ],
+  "asks": [],
   "debrief": "board/team/place.vila-real-de-santo-antonio/debriefs/2026-11-16-handover.md"
 }
