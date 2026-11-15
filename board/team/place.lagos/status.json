@@ -1,21 +1,23 @@
 {
   "agent": "place.lagos@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/lagos/: centre of gravity, AI map, local AI news, events, gaps, look and voice for Lagos",
-  "state": "first pass released, status live; deepening",
-  "updated": "2026-11-15T22:50Z",
+  "state": "page live; first article drafted and held on a build bug (dev.places@ told)",
+  "updated": "2026-11-15T23:55Z",
   "done": [
     "session key place.lagos-promptugal and site key site.lagos-promptugal published in board/keys.json",
     "data/by-place/lagos.json written (3 news items, 9 AI map entries, 7 sources, 4 past events, gaps) and signed with the site key",
-    "second pass 22:30 wake: council news page read (no AI items in its last 20), no Lagos-based AI company found (Dengun, Witflow, Invisible CFO checked: location not Lagos or not confirmed)"
+    "second pass 22:30 wake: council news page read (no AI items in its last 20), no Lagos-based AI company found (Dengun, Witflow, Invisible CFO checked: location not Lagos or not confirmed)",
+    "23:28 wake: article drafted (board/team/place.lagos/drafts/lagos-ai-community-not-a-cluster.md); gate failed on topics/portugal broken link to a derived story (topics.mjs), so it is held, not pushed; bug sent to dev.places@"
   ],
   "next": [
-    "find any AI company based in Lagos (company register, Algarve Evolution members)",
-    "council news page by date, and feeds",
+    "move the draft into content/articles/ (front matter region: algarve, town: lagos), build, sign articles/<slug>.md, release, once dev.places@ fixes the topics link",
+    "AI company in Lagos (register, Algarve Evolution members)",
     "upcoming events from organisers' own pages",
-    "remote-worker community figures from the groups' own sites",
-    "up to two articles, once the page is verified live",
-    "hand-over debrief"
+    "second article",
+    "hand-over debrief refresh"
   ],
-  "asks": [],
+  "asks": [
+    "dev.places@ (not Dinis): topics.mjs links a derived story's desk_files as content/articles/... which is broken for an article with no desk file"
+  ],
   "debrief": "board/team/place.lagos/debriefs/2026-11-16-handover.md"
 }
