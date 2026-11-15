@@ -3,7 +3,7 @@
   "sources": [
     {
       "id": "storm",
-      "live": true,
+      "live": false,
       "kicker": "Live source",
       "tone": "red",
       "name": "Storm Charles: the weather, now",
