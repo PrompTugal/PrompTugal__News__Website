@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "deel",
+  "type": "organisation",
+  "name": "Deel",
+  "names_as_listed": [
+    "Deel"
+  ],
+  "sources": [
+    {
+      "url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
+      "read_at": "2026-11-15T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

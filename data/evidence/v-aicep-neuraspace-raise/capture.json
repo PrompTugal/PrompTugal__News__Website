@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-aicep-neuraspace-raise",
+  "type": "evidence",
+  "source_url": "https://www.portugalglobal.pt/en/news/2026/setembro/neuraspace-secures-156m-to-scale-ai-space-technology/",
+  "beat": "Portugal",
+  "group": "AI in Portugal",
+  "names": [
+    {
+      "as_listed": "Neuraspace",
+      "ref": "organisation:neuraspace"
+    },
+    {
+      "as_listed": "Lince Capital",
+      "ref": "organisation:lince-capital"
+    },
+    {
+      "as_listed": "Explorer Investments",
+      "ref": "organisation:explorer-investments"
+    },
+    {
+      "as_listed": "Armilar Venture Partners",
+      "ref": "organisation:armilar-venture-partners"
+    },
+    {
+      "as_listed": "AICEP Portugal Global",
+      "ref": "organisation:aicep-portugal-global"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-15-0750.json",
+  "run": "2026-11-15T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-15-0750.json"
+    ]
+  }
+}

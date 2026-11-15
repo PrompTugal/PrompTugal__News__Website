@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-techeu-granter-raise",
+  "type": "evidence",
+  "source_url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
+  "beat": "Portugal",
+  "group": "Already published",
+  "names": [
+    {
+      "as_listed": "Granter",
+      "ref": "organisation:granter"
+    },
+    {
+      "as_listed": "3xP Global",
+      "ref": "organisation:3xp-global"
+    },
+    {
+      "as_listed": "Deel",
+      "ref": "organisation:deel"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-15-0750.json",
+  "run": "2026-11-15T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-15-0750.json"
+    ]
+  }
+}

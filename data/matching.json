@@ -1761,12 +1761,12 @@
       {
         "as_listed": "3WX",
         "ref": "organisation:3wx",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "3xP Global",
         "ref": "organisation:3xp-global",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "3xP Global (Impact Innovation Fund)",
@@ -1781,7 +1781,7 @@
       {
         "as_listed": "AICEP Portugal Global",
         "ref": "organisation:aicep-portugal-global",
-        "count": 4
+        "count": 5
       },
       {
         "as_listed": "AMALIA",
@@ -1839,6 +1839,11 @@
         "count": 1
       },
       {
+        "as_listed": "Armilar Venture Partners",
+        "ref": "organisation:armilar-venture-partners",
+        "count": 1
+      },
+      {
         "as_listed": "Bagel Labs",
         "ref": "organisation:bagel-labs",
         "count": 1
@@ -1851,7 +1856,7 @@
       {
         "as_listed": "Best Number One",
         "ref": "organisation:best-number-one",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "BloodFlow",
@@ -1886,6 +1891,11 @@
       {
         "as_listed": "Dealroom",
         "ref": "organisation:dealroom",
+        "count": 1
+      },
+      {
+        "as_listed": "Deel",
+        "ref": "organisation:deel",
         "count": 1
       },
       {
@@ -1926,6 +1936,11 @@
       {
         "as_listed": "EuroHPC",
         "ref": "organisation:eurohpc",
+        "count": 1
+      },
+      {
+        "as_listed": "Explorer Investments",
+        "ref": "organisation:explorer-investments",
         "count": 1
       },
       {
@@ -1971,7 +1986,7 @@
       {
         "as_listed": "Granter",
         "ref": "organisation:granter",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "HaDEA",
@@ -2064,6 +2079,11 @@
         "count": 2
       },
       {
+        "as_listed": "Lince Capital",
+        "ref": "organisation:lince-capital",
+        "count": 1
+      },
+      {
         "as_listed": "Lovable",
         "ref": "organisation:lovable",
         "count": 2
@@ -2096,6 +2116,11 @@
       {
         "as_listed": "Netherlands Enterprise Agency (RVO)",
         "ref": "organisation:netherlands-enterprise-agency",
+        "count": 1
+      },
+      {
+        "as_listed": "Neuraspace",
+        "ref": "organisation:neuraspace",
         "count": 1
       },
       {
