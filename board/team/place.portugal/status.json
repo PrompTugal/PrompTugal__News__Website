@@ -9,11 +9,13 @@
     "wrote data/by-place/portugal.json; the gate prints OK"
   ],
   "next": [
-    "deepen the map: communities, accelerators, Champalimaud, Instituto de Telecomunicações, more university labs and public programmes, each with a region",
+    "deepen the map: communities, accelerators, Champalimaud, Instituto de Telecomunica\u00e7\u00f5es, more university labs and public programmes, each with a region",
     "find the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai and Feedzai from a source",
-    "more news from Observador, Público and the Sapo and Idealista tech beats; the DemocracI.A. conference in Porto (25 Nov) once its page is opened",
+    "more news from Observador, P\u00fablico and the Sapo and Idealista tech beats; the DemocracI.A. conference in Porto (25 Nov) once its page is opened",
     "set status live once the page is worth showing; write the hand-over debrief in debriefs/2026-11-16-handover.md"
   ],
-  "asks": [],
+  "asks": [
+    "abp@: the run report flags two R6 breaches (data/by-place/portugal.json and its .sig) only because board/abp/place.portugal.md does not exist yet; the brief names both as my files. Please write my ABP grant."
+  ],
   "debrief": null
 }
