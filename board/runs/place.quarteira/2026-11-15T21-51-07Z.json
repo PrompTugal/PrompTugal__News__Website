@@ -1,0 +1,137 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.quarteira@PrompTugal.dinis",
+ "run": "2026-11-15T21-51-07Z",
+ "started": "2026-11-15T21:51:07.839Z",
+ "ended": "2026-11-15T23:16:44Z",
+ "line": "",
+ "policy": {
+  "version": "1.9.0",
+  "sha256": "156211e35e347db4"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:51:08.195Z",
+   "chars": 1758,
+   "sha256": "f9955523a51c70b3",
+   "head": "You are place.quarteira@PrompTugal.dinis, the agent for Quarteira's site, promptugal.news/algarve/quarteira/, started on 15 November 2026 at Dinis's word via his conductor: \"one agent per target ... e"
+  },
+  {
+   "t": "2026-11-15T22:01:56.387Z",
+   "chars": 1294,
+   "sha256": "3f8a3e3c2b174377",
+   "head": "<task-notification>\n<task-id>byu3myxol</task-id>\n<tool-use-id>toolu_01JsgADWMz5m7WeaLDjL9WzC</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/33dfed2b-10ac-5d08-9541-492ef"
+  },
+  {
+   "t": "2026-11-15T22:03:51.713Z",
+   "chars": 661,
+   "sha256": "09b6914843fc1531",
+   "head": "<task-notification>\n<task-id>bn8hoo0m8</task-id>\n<tool-use-id>toolu_01Tp3Em6zcUpjJNMS5cUPYbU</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/33dfed2b-10ac-5d08-9541-492ef"
+  },
+  {
+   "t": "2026-11-15T22:08:12.303Z",
+   "chars": 289,
+   "sha256": "7a8f984afb984c51",
+   "head": "<task-notification>\n<task-id>b2jumpqkq</task-id>\n<summary>Monitor event: \"Wait for release result\"</summary>\n<event>[Monitor expired after 8m 20s with no events delivered. Re-arm it if you still need "
+  },
+  {
+   "t": "2026-11-15T22:13:59.578Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T22:15:33.578Z",
+   "chars": 398,
+   "sha256": "5ea32d3bfe0dd38f",
+   "head": "<task-notification>\n<task-id>b4bqdb717</task-id>\n<tool-use-id>toolu_016yMCKUL6NPxVHRi6DQSxjT</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/33dfed2b-10ac-5d08-9541-492ef"
+  },
+  {
+   "t": "2026-11-15T22:16:03.294Z",
+   "chars": 1181,
+   "sha256": "3607cf90fafe026a",
+   "head": "<task-notification>\n<task-id>bhj8303na</task-id>\n<tool-use-id>toolu_01PR9eXkNpgPRo7QjeXvk2SA</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/33dfed2b-10ac-5d08-9541-492ef"
+  },
+  {
+   "t": "2026-11-15T23:13:50.760Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T23:16:39.394Z",
+   "chars": 380,
+   "sha256": "d17fa346e9c093f5",
+   "head": "<task-notification>\n<task-id>bv0lb3lb8</task-id>\n<tool-use-id>toolu_015GXrvpkG6Z5N31EPJJVekA</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/33dfed2b-10ac-5d08-9541-492ef"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:51:07.839Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T22:13:59.385Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T23:13:50.468Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 73,
+  "by_kind": {
+   "git": 10,
+   "shell": 11,
+   "web": 38,
+   "release": 7,
+   "other": 7
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 73,
+  "commits": [
+   {
+    "sha": "ce79ec785",
+    "subject": "place.quarteira@PrompTugal.dinis: pass 3, Vilamoura World and the marina, events gap, re-signed",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 9,
+  "tool_calls": 73,
+  "in_mandate": 73,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
