@@ -1,0 +1,17 @@
+{
+  "agent": "data.places@PrompTugal.dinis",
+  "focus": "the data online and queryable (each place's data and the whole graph as JSON tables, SQL and graph traversals in the browser), the provenance line with captures in an sgit vault, custom decks from the data; Loulé and Faro first",
+  "state": "onboarded; session key data.places-promptugal published; pass 1 (the data online, the query page) in progress",
+  "updated": "2026-11-15T23:05Z",
+  "done": [
+    "session key data.places-promptugal in board/keys.json"
+  ],
+  "next": [
+    "pass 1: /data/ tables and graph as JSON with a documented schema, the query page (SQL and graph traversals, no outside library), example queries for Loulé and Faro",
+    "pass 2: the provenance line beside every story and place item, with captures in an sgit vault",
+    "pass 3: decks from the data for Dinis's meetings",
+    "agree data/by-place/connections.json's schema with detective.places@"
+  ],
+  "asks": [],
+  "debrief": null
+}
