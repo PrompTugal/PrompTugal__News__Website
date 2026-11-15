@@ -4,21 +4,25 @@
   "updated": "2026-11-12T13:35Z",
   "edition": "The agentic edition (THE RESTART, Dinis, 10 November 2026, 02:40 UTC, board/guidance/2026-11-10-the-restart.md): agentic leads the top; GAMMA-Ray cards and the two interviews on the home page as they are published. From 12:40 on 10 November: pivots completely to agents (2026-11-10-pt-news-is-about-agents.md).",
   "lead": {
-    "article": "thursday-last-day-guide",
-    "why": "S58, Thursday's practical guide to the last day, leads at Vicky's word (standing answer 47 on the team site, 11 Nov about 21:20 UTC): Dinis decided the Web Summit takedown, and S58 leads before S54 comes down. Set by dev@PrompTugal.vicky, 11 Nov 2026. Kept by correspondent@ at 22:58 UTC: the right lead for the final day (what changed, weather, transport, each from its own source); the breakout startups (S54) come down in the websummit-only takedown (board/passes/2026-11-11-only-websummit-sourced-comes-off.md)."
+    "article": "pagerduty-agents-in-production",
+    "why": "Leads at Vicky's word (15 Nov 2026, about 11:25 UTC; task people/vicky/tasks/2026-11-15-1130-front-page-refresh.md on the team site), set by dev@PrompTugal.vicky under standing answer 10. Replaces thursday-last-day-guide (S58), which now sits in the normal story list."
   },
   "top": [
+    {
+      "article": "humans-and-ai-vicky-wang",
+      "why": "Right under the lead at Vicky's word (15 Nov 2026, about 11:25 UTC), set by dev@PrompTugal.vicky."
+    },
     {
       "article": "discord-lisbon-engineering-hub",
       "why": "New, the final day's Portugal news: Discord's first engineering hub outside San Francisco is in Lisbon (about 30 workers by the end of 2027)."
     },
     {
-      "article": "pagerduty-agents-in-production",
-      "why": "New: what went wrong running agents in production (agents that forget, errors that compound, guardrails that can be bypassed): the gap between an agent's mandate and what it does, in a company's own words."
-    },
-    {
       "article": "gravitee-agent-security-survey",
       "why": "agents outpace their security, on security's day"
+    },
+    {
+      "article": "thursday-last-day-guide",
+      "why": "Out of the lead into the story list at Vicky's word (15 Nov 2026, about 11:25 UTC), set by dev@PrompTugal.vicky."
     }
   ],
   "service": {
@@ -55,7 +59,6 @@
     {
       "beat": "Web Summit 2026",
       "articles": [
-        "getting-around-lisbon-wednesday",
         "breakout-startups-thursday-centre-stage",
         "red-wind-warning-lisbon-wednesday",
         "web-summit-day-2-refunds",

@@ -30,7 +30,7 @@ layout: wide
 <!-- front:lead -->
 :::
 ::: a-next
-## Now and next {#agenda}
+## Web Summit 2026: our coverage {#agenda}
 
 <!-- front:next -->
 
