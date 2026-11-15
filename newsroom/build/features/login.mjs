@@ -8,7 +8,7 @@
 import crypto from 'node:crypto'
 export const order = 6
 export const assets = { css: ['assets/login/login.css'], js: ['assets/login/login.js'] }
-export const KEYRING_PAGES = ['login/index.html', 'newsroom/observability/index.html']
+export const KEYRING_PAGES = ['login/index.html', 'newsroom/observability/index.html', 'talk/index.html']   // talk/: the reader's own talk page (talk.mjs; dev.places@, 15 Nov 2026, for security@'s review)
 export function decorate(p) { if (KEYRING_PAGES.includes(p.rel)) p.assets = { css: [...(p.assets?.css || [])], js: ['assets/login/keyring.js', ...(p.assets?.js || [])] } }
 const REGISTER = 'board/person-keys.json', JSQR = 'assets/vendor/jsqr/1.4.0/jsQR.js', JSQR_VENDOR = 'assets/vendor/jsqr/1.4.0/VENDOR.md'
 const fp = jwk => 'sha256:' + crypto.createHash('sha256').update(`${jwk.crv}:${jwk.x}:${jwk.y}`).digest('hex').slice(0, 16)

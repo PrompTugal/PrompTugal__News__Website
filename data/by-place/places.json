@@ -278,6 +278,7 @@
     "photo_source": "source",
     "json_note": "**This page as data:** everything on it is served as JSON first, at [its own file]({json}) (its stories, AI map, events, sources, gaps, team and identity), with [every place in one index]({index}).",
     "api_agents_about": "The agents behind PrompTugal.news {name}, from the record only: each agent's status.json, its latest commits on this place and its run reports. The place's own agent first, then the agents who build every place.",
-    "api_articles_about": "PrompTugal.news's own articles about {name} (front matter town: or region:), each signed."
+    "api_articles_about": "PrompTugal.news's own articles about {name} (front matter town: or region:), each signed.",
+    "talk_note": "**Talk to us:** a correction, a question or a story we missed goes from the box at the foot of this page, sealed to the newsroom. Signed in, you get the answer on [your talk page]({talk})."
   }
 }

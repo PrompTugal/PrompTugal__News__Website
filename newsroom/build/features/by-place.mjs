@@ -107,7 +107,7 @@ function testNote(ctx, L, rel, p) {
     return `## How this page is made {#how}
 
 {.bp-note}
-${W(L, 'test_note', { graph: ctx.link(rel, 'graph/index.html'), region: ctx.link(rel, 'algarve/index.html') })}${identityNote(ctx, L, p)}${p ? `\n\n{.bp-note .bp-id}\n${W(L, 'json_note', { json: ctx.link(rel, `api/v1/by-place/${p.id}.json`), index: ctx.link(rel, 'api/v1/by-place/index.json') })}` : ''}`
+${W(L, 'test_note', { graph: ctx.link(rel, 'graph/index.html'), region: ctx.link(rel, 'algarve/index.html') })}${identityNote(ctx, L, p)}\n\n{.bp-note .bp-id}\n${W(L, 'talk_note', { talk: ctx.link(rel, 'talk/index.html') })}${p ? `\n\n{.bp-note .bp-id}\n${W(L, 'json_note', { json: ctx.link(rel, `api/v1/by-place/${p.id}.json`), index: ctx.link(rel, 'api/v1/by-place/index.json') })}` : ''}`
 }
 
 // our own articles about a place: front matter town: <id>, or region: <id> (the brief's tags for the place agents' articles)

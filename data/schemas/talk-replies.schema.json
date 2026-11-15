@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/talk-replies.schema.json",
+  "title": "The conductor's answers to readers (board/talk/replies.json)",
+  "description": "Written by conductor@PrompTugal.dinis. Each answer is sealed to one person's encryption key from board/person-keys.json with ws-ecies-1 (as data/sealed/), so only a browser holding that key opens it on /talk/ (assets/talk/talk.js, PTKeyring.open). Only to, about and at are readable by anyone. Served as api/v1/talk/replies.json.",
+  "type": "object",
+  "required": ["replies"],
+  "properties": {
+    "about": { "type": "string" },
+    "replies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["to", "about", "envelope"],
+        "properties": {
+          "to": { "type": "string", "pattern": "^sha256:[0-9a-f]{16}$", "description": "the person's encryption fingerprint (board/person-keys.json)" },
+          "about": { "type": "string", "description": "the page the comment was on, relative to the site root, e.g. algarve/loule/" },
+          "at": { "type": "string" },
+          "in_reply_to": { "type": "string", "description": "the comment's at, from its body" },
+          "envelope": {
+            "type": "object",
+            "required": ["key", "epk", "iv", "ct"],
+            "properties": { "key": { "type": "string" }, "epk": { "type": "object" }, "iv": { "type": "string" }, "ct": { "type": "string" } },
+            "description": "ws-ecies-1: ECDH P-256 with an ephemeral key, HKDF-SHA256 (empty salt, info ws-ecies-1), AES-256-GCM; the plaintext is JSON { text }"
+          }
+        }
+      }
+    }
+  }
+}

@@ -125,6 +125,9 @@
                 }
             } catch { }
         }
+        // a yes or no on a page (assets/talk/talk.js, dev.places@PrompTugal.dinis, 15 Nov 2026): one more event on this
+        // lane, with no identity: the same fields as a view, plus the vote; absent under Do Not Track or the pause
+        window.PTObs = { vote: (v, path) => send(Object.assign(common(), { type: 'vote', vote: v > 0 ? 1 : -1 }, path ? { voted_on: String(path).slice(0, 200) } : {})).catch(() => false) }
         const view = () => { resend(); if (done.has('view')) return; done.add('view'); send(Object.assign(common(), { type: 'view' })).catch(() => { }) }
         const finish = () => {
             if (since !== null) { visibleMs += performance.now() - since; since = null }

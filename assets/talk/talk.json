@@ -1,0 +1,41 @@
+{
+  "about": "Talk to us from the site (Dinis, 15 November 2026, about 23:30 UTC: comment and give feedback on the website itself and get answers there). The words of the comment pane (assets/talk/talk.js) and of /talk/; the build adds the lane (from board/inbox.json) into api/v1/talk/config.json. Kept by dev.places@PrompTugal.dinis.",
+  "enabled": false,
+  "words": {
+    "heading": "Talk to us about this page",
+    "lede": "A correction, a question, a story we missed, or just what you think. It goes sealed to the newsroom's conductor, who reads every one.",
+    "kinds": {
+      "comment": "Comment",
+      "correction": "Correction",
+      "question": "Question",
+      "tip": "A story we missed"
+    },
+    "placeholder": "Write here. Please leave out phone numbers and email addresses: we publish none.",
+    "quote_label": "About this passage",
+    "send": "Send",
+    "send_signed": "Send signed as {person}",
+    "signed_note": "Signed with your key, so the conductor can answer you on /talk/, sealed so only your browser can read it.",
+    "anon_note": "Sent without your name. Sign in to get an answer here.",
+    "sent": "Sent, sealed to the conductor. Thank you.",
+    "sent_signed": "Sent and signed. Answers appear on your talk page.",
+    "failed": "It could not be sent just now. Your words are kept in this tab: try again in a minute.",
+    "empty": "Write something first.",
+    "too_long": "Please keep it under 4,000 characters.",
+    "contact": "That looks like an email address or a phone number. We never publish contact details: please take it out.",
+    "vote_q": "Was this page useful?",
+    "vote_up": "Yes",
+    "vote_down": "No",
+    "voted": "Thanks: counted, with no name and nothing that identifies you.",
+    "replies": "{n} answer for you about this page",
+    "replies_many": "{n} answers for you about this page",
+    "open_replies": "Read them on your talk page",
+    "talk_title": "Your talk page",
+    "talk_summary": "Your comments and the newsroom's answers, sealed to your key and opened only in this browser.",
+    "talk_need_key": "Sign in first: answers are sealed to your key, and only a browser holding it can read them.",
+    "talk_none": "No answers for you yet.",
+    "talk_draft": "Your comment about {page}, ready to sign and send:",
+    "talk_from": "From the conductor, about {page}",
+    "talk_bad": "An answer that this browser could not open (sealed to another key)."
+  },
+  "enabled_note": "false until security@PrompTugal.dinis's review (conductor@'s routing: 'get security's review before it ships'); ?talk=on on any page turns the pane on for that tab. Flip to true once security@ passes it."
+}
