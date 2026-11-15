@@ -2300,6 +2300,42 @@
         "fingerprint": "sha256:308473fba5888695",
         "signing_fingerprint": "sha256:e44d384ebf19ba54"
       }
+    },
+    {
+      "id": "place.lagoa-promptugal",
+      "agent": "place.lagoa@PrompTugal.dinis",
+      "label": "place.lagoa@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The agent of Lagoa's site, promptugal.news/algarve/lagoa/ (data/by-place/lagoa.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The agent's own key. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArjSZR7D6QcMvo06jtfGj\nPIaNeFKZ6MZV+OjnhQB6Hehz4IOEzfTXK1LjXSw6qhacUu0C517jSmEsYhCnyyz6\n19jLNjlRp8i78L5s9Mbdh/isI/AzDOmpCciwAICjEwMqcxGTk6KUu0tK+09dNlaE\naC0uKz8mViyAVbK86/YqsgE3EfbtFjEekasc3VbCxVSXtq/4pPoiI1KvK+H55XmU\nvCVAPBZCFP18N5VB4cRejVOYKszpKfMk7f6slH5/e6rwHW4F9ZtWo7YreQVmBm6S\nkQoeuwrrWbwW64AGiwNNSYhNkC+7aecAZIMuHHwBCWBoRu43ZPX46M1LR57m4WIh\nMUspCpxQRyqfysfO0YGVIVBkB3IV8pK90dczIh9rZuTel2vNjOvAFfNssok8BpBD\nT95u1NqZL41uTykdKvB+ibVgzdf8g3btWsY0npKNSaIChAJQBkxP0zmQNW5YuKnm\nqIbVblJQq44miFEc5w9U1S02Z/6m8oB76sV6+mu3Wiy1kcWwFCLQ4mh/1r+Eildy\nN0BBsSx8r+JW4W83vFkyXHKvucpA5AM9SJts7XNZMedoa3cfhLqE5ghSzXgf/4eh\nyVn7Lkik+640axcHF3itw28hmGlGf0Gsj0NOTg7qxVSNRgii+J+Wy4E8oHqSaWKn\nM5ebAwQIvHyAtz4Y2DuXd1kCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVeE3xrpzNiRBAh/M/NjW0YJzaps7\nHNQ1SRPZvACr1cqOqZUfO68xxfIOAdvJ6siY/aBLUJJ3rFIIhlVgnUcfqQ==\n-----END PUBLIC KEY-----\n",
+        "label": "place.lagoa@PrompTugal.dinis",
+        "fingerprint": "sha256:bdf5d11c39a0d100",
+        "signing_fingerprint": "sha256:aace4aff7cee171a"
+      }
+    },
+    {
+      "id": "site.lagoa-promptugal",
+      "agent": "place.lagoa@PrompTugal.dinis",
+      "label": "site.lagoa (the site identity of promptugal.news/algarve/lagoa/, held by place.lagoa@PrompTugal.dinis)",
+      "role": "The identity of Lagoa's site: signs data/by-place/lagoa.json. Held in the session of place.lagoa@PrompTugal.dinis, so it ends with that session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The site's own key, made apart from the agent's. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5UXoWq+txOyqhrUwaOGZ\nXJ5dI5zb1uKjSSQ4VKjtNuG2NGvej+oFddAudoan/H3/wNHkduxwG18sshuTUFTz\nP1Npxf+deHZelSfePfxwkatE5JWF4mUf2pgg4xIxfdGMW7Tj4n3GwLMSkiKWCklz\ncRJ+vMKlrLox1PBP6TRJ5ZyNtooI8Jn66bXqeDkj9JF9FZ7Y//BJ413VkwZGF5Y0\nJ//RPwhMlTVbq8P+JICAjlfFvlQ4Eoa1lr1mUhJicdUFwsg0osy2RriqZUfoeo8K\nly9xmQRSt7ZieXi/TMURhV4n6Jhxkk12VqV4acajKSxNpoTwXkIRP6gAub62J4NT\nixB7wLi0x9P1VtDx1FtfEfEqCu8+vut70d4GcP6TcjFKPI13b7co0FDSCLdPboSr\niSlk9zbjmnc04Z4yctYRDEhUfv88R88qR1kY9kuh8k8IC+8Peo/XwEKC06kEFajM\nh4xLrEaVfzV/cLnVLVogHvBmiX2iQ47bvBlNu2LQoyWKa8E5u6/SXcCnYblx0Xfc\n5ydvymcT8al/5Gz2H6eb35QdHOvMYicoyP0svSWkawr7Eb9aRDMZP1aQBRgu3iZB\nOE6bKcP6Fg6/whklNp/wGtaNKaNO8+eRLvSoNzUxQEEEq7XEfzkMIEuADhbuB3gk\ni6W8TD6r7WxYy9YVXm8ZZ2MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEp+q68p8aYYGVayP9Rx2b1dspC5ZE\nYs33hAKAd9r2WocaXNnjYMYFLv+lRcHTN3aA0fmDQPG26oxSa6SJqptu6w==\n-----END PUBLIC KEY-----\n",
+        "label": "site.lagoa@PrompTugal.dinis",
+        "fingerprint": "sha256:29d2dfa605d15f15",
+        "signing_fingerprint": "sha256:264b7fe237169055"
+      },
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/lagoa/"
     }
   ]
 }
