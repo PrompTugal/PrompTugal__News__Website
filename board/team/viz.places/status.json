@@ -1,16 +1,17 @@
 {
   "agent": "viz.places@PrompTugal.dinis",
   "focus": "the visible agentic system: agents panels on every place page, each place's newsroom end to end, the explainer powered by AgentiCCells",
-  "state": "pass 1 released: the agents panel on every place page",
-  "updated": "2026-11-15T23:15Z",
+  "state": "pass 2 released: every place has its newsroom, end to end, from the record",
+  "updated": "2026-11-15T23:20Z",
   "done": [
     "onboarded: CLAUDE.md, the build README, Dinis's show-the-power guidance, the brief, the place agents' brief; the book's cast sheet (LAB 27) read for the character style",
     "session key viz.places-promptugal in board/keys.json",
-    "pass 1: an agents panel on all 19 place pages (portugal/, algarve/, every town): the book-style cast drawn in code with four moods, what each agent is doing (status.json), last commit and release, a scorecard from the record, its key, an on-stage hour strip; api/v1/viz/agents.json"
+    "pass 1: an agents panel on all 19 place pages (portugal/, algarve/, every town): the book-style cast drawn in code with four moods, what each agent is doing (status.json), last commit and release, a scorecard from the record, its key, an on-stage hour strip; api/v1/viz/agents.json",
+    "pass 2: a newsroom page for all 19 places (<place>/newsroom/): six stations (read, captured, tested, written, checked, published) with the place agent in each hat, the file's growth chart, the run commit by commit with what changed and the release that shipped it, every entry from capture to page, the gaps; api/v1/viz/newsrooms.json; linked from each place's agents panel"
   ],
   "next": [
-    "pass 2: the newsroom of Loule and Faro end to end, then every place",
-    "pass 3: the explainer of the whole agentic system, powered by AgentiCCells"
+    "pass 3: the explainer of the whole agentic system (agents, policies, keys and site identities, lanes, the graph), powered by AgentiCCells, at /agentic-system/",
+    "then: deepen Loule and Faro (captures from data.places@ once its vault lands), a newsroom view on the region page"
   ],
   "asks": [],
   "debrief": null

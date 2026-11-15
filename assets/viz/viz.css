@@ -79,3 +79,49 @@
     .vz-stage-row { grid-template-columns: 120px repeat(var(--n), 12px); }
     .vz-cell { height: 12px; }
 }
+
+/* each place's newsroom (viz-newsroom.mjs) */
+.vz-nr-hero { margin: 0 0 22px; padding: 16px 18px; border-left: 4px solid var(--c, var(--brand)); background: color-mix(in srgb, var(--c, var(--brand)) 7%, var(--paper)); }
+.vz-nr-heads { display: flex; gap: 2px; flex-wrap: wrap; margin-bottom: 8px; }
+.vz-nr-lede { margin: 0; font: 400 18px/1.5 var(--serif); color: var(--ink); max-width: 72ch; }
+.vz-nr-links { margin: 10px 0 0; font: 500 13px/1.5 var(--sans); color: var(--ink-3); }
+.vz-powered { display: inline-block; font: 600 11px/1 var(--mono); letter-spacing: .04em; text-transform: uppercase; padding: 4px 7px; border: 1px solid var(--ink-3); border-radius: 3px; color: var(--ink-2); }
+
+.vz-stations { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0; margin: 6px 0 26px; counter-reset: st; }
+.vz-st { position: relative; padding: 10px 12px 12px; background: var(--panel); border: 1px solid var(--hair); border-right: 0; min-width: 0; }
+.vz-st:last-child { border-right: 1px solid var(--hair); }
+.vz-st:not(:last-child)::after { content: ""; position: absolute; right: -9px; top: 58px; width: 16px; height: 16px; background: var(--panel); border-top: 1px solid var(--hair); border-right: 1px solid var(--hair); transform: rotate(45deg); z-index: 1; }
+.vz-st-step { margin: 0; font: 600 11px/1.2 var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--c, var(--brand)); }
+.vz-st-fig { height: 92px; display: flex; align-items: flex-end; justify-content: center; margin: 4px 0 2px; }
+.vz-st-box { display: inline-flex; align-items: center; justify-content: center; width: 58px; height: 58px; margin-bottom: 14px; border: 2px solid var(--ink-2); border-radius: 10px; font: 700 18px/1 var(--mono); color: var(--ink); background: var(--paper-2); }
+.vz-st-who { margin: 0; text-align: center; font: 500 11px/1.3 var(--mono); color: var(--ink-3); min-height: 2.6em; }
+.vz-st-big { margin: 6px 0 4px; font: 400 12px/1.25 var(--sans); color: var(--ink-2); }
+.vz-st-big strong { display: block; font: 700 32px/1 var(--serif); color: var(--ink); }
+.vz-st-lines { margin: 0; padding: 0; list-style: none; font: 400 12px/1.4 var(--sans); color: var(--ink-2); }
+.vz-st-lines li { padding: 3px 0; border-top: 1px dotted var(--hair); overflow-wrap: anywhere; }
+@media (max-width: 980px) { .vz-stations { grid-template-columns: repeat(3, minmax(0, 1fr)); } .vz-st { border-right: 1px solid var(--hair); } .vz-st::after { display: none; } }
+@media (max-width: 560px) { .vz-stations { grid-template-columns: 1fr 1fr; } }
+
+.vz-chart { margin: 8px 0 18px; }
+.vz-chart svg { display: block; max-width: 100%; height: auto; }
+.vz-chart .vz-axis { stroke: var(--rule-2); }
+.vz-chart .vz-tick { font: 400 11px var(--mono); fill: var(--ink-3); }
+.vz-chart .vz-series { fill: none; stroke-width: 2.4; }
+.vz-chart .vz-slabel { font: 600 12px var(--sans); }
+.vz-chart .vz-relmark { stroke: var(--c, var(--brand)); stroke-dasharray: 2 4; opacity: .5; }
+.vz-chart figcaption { font: 400 12.5px/1.5 var(--sans); color: var(--ink-3); }
+.vz-key-sw { margin-left: 10px; white-space: nowrap; }
+.vz-key-sw i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+
+.vz-run { list-style: none; margin: 0 0 24px; padding: 0; border-top: 1px solid var(--hair); }
+.vz-run-row { display: grid; grid-template-columns: 96px 30px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 7px 0; border-bottom: 1px solid var(--hair); font: 400 14px/1.4 var(--sans); }
+.vz-run-t { font: 500 12px/1.2 var(--mono); color: var(--ink-3); }
+.vz-run-what b { font: 600 12.5px var(--mono); color: var(--ink); margin-right: 4px; }
+.vz-run-what a { color: var(--ink-2); }
+.vz-run-delta { font: 600 12px var(--mono); color: var(--c, var(--brand)); margin-left: 4px; }
+.vz-run-rel { font: 500 11px/1 var(--mono); background: var(--paper-2); padding: 3px 6px; border-radius: 3px; white-space: nowrap; }
+@media (max-width: 600px) { .vz-run-row { grid-template-columns: 70px 26px minmax(0, 1fr); } .vz-run-rel { grid-column: 3; justify-self: start; } }
+
+.vz-nr table.vz-items, .vz-nr .vz-items { font-size: 13.5px; }
+.vz-nr .vz-items td:nth-child(4), .vz-nr .vz-items td:nth-child(6), .vz-nr .vz-items td:nth-child(7) { white-space: nowrap; }
+.vz-nr .vz-items td:nth-child(3) { overflow-wrap: anywhere; }

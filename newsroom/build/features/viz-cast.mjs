@@ -25,19 +25,19 @@ export function cast(ctx) {
     return CAST
 }
 
-export function lookOf(ctx, role, accent) {
+export function lookOf(ctx, role, accent, colourOverride) {
     const c = cast(ctx)
     const l = c.looks.find(x => new RegExp(x.match).test(role)) || c.looks[c.looks.length - 1]
     const colour = l.colour === 'accent' ? (/^#[0-9a-f]{6}$/i.test(accent || '') ? accent : '#1f5f3f') : l.colour
-    return { ...l, colour }
+    return { ...l, colour: /^#[0-9a-f]{6}$/i.test(colourOverride || '') ? colourOverride : colour }
 }
 
 // the conductor's face is its clock, so its hands carry the mood (as in the book)
 const HANDS = { happy: [300, 60], worried: [270, 90], stressed: [140, 220], unhappy: [240, 120] }
 const hand = (deg, len) => { const r = (deg - 90) * Math.PI / 180; return `M40 30L${(40 + len * Math.cos(r)).toFixed(1)} ${(30 + len * Math.sin(r)).toFixed(1)}` }
 
-function parts(ctx, role, accent, mood) {
-    const T = tmpl(ctx, 'assets/viz/cast.tmpl'), L = lookOf(ctx, role, accent), c = L.colour
+function parts(ctx, role, accent, mood, colour) {
+    const T = tmpl(ctx, 'assets/viz/cast.tmpl'), L = lookOf(ctx, role, accent, colour), c = L.colour
     const hs = HANDS[mood] || HANDS.happy
     const face = L.look === 'conductor' ? fill(T.clock, { h1: hand(hs[0], 8), h2: hand(hs[1], 10) })
         : (/^(researcher|reviewer)$/.test(L.look) ? T['eyes-glasses'] : T.eyes) + (T[`mouth-${mood}`] || '')
@@ -49,13 +49,13 @@ function parts(ctx, role, accent, mood) {
 }
 
 // one character, as an SVG string; size is its rendered height in px
-export function figure(ctx, { role, accent, mood = 'happy', size = 96, title = '' }) {
-    const P = parts(ctx, role, accent, mood)
+export function figure(ctx, { role, accent, colour, mood = 'happy', size = 96, title = '' }) {
+    const P = parts(ctx, role, accent, mood, colour)
     return fill(tmpl(ctx, 'assets/viz/cast.tmpl').fig, { ...P, mood: xesc(mood), w: Math.round(size * 0.8), h: size, title: xesc(title || `${role}, ${mood}`) })
 }
 
 // just the head, small, for strips and counters
-export function head(ctx, { role, accent, mood = 'happy', size = 28, title = '' }) {
-    const P = parts(ctx, role, accent, mood)
+export function head(ctx, { role, accent, colour, mood = 'happy', size = 28, title = '' }) {
+    const P = parts(ctx, role, accent, mood, colour)
     return fill(tmpl(ctx, 'assets/viz/cast.tmpl').headonly, { ...P, mood: xesc(mood), w: Math.round(size * 1.12), h: size, title: xesc(title || role) })
 }

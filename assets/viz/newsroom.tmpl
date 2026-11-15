@@ -1,0 +1,19 @@
+<!-- Each place's newsroom, end to end. Filled by newsroom/build/features/viz-newsroom.mjs; values arrive escaped. Sections start with a comment line of their name. -->
+<!-- stations -->
+<div class="vz-stations" style="--c:{{accent}}">{{items}}</div>
+<!-- station -->
+<section class="vz-st vz-st-{{id}}"><p class="vz-st-step">{{n}} · {{label}}</p><div class="vz-st-fig">{{fig}}</div><p class="vz-st-who">{{who}}</p><p class="vz-st-big"><strong>{{big}}</strong> {{unit}}</p><ul class="vz-st-lines">{{lines}}</ul></section>
+<!-- line -->
+<li>{{t}}</li>
+<!-- box -->
+<span class="vz-st-box">{{t}}</span>
+<!-- chart -->
+<figure class="vz-chart"><svg viewBox="0 0 {{w}} {{h}}" width="100%" role="img" aria-label="{{aria}}"><title>{{aria}}</title>{{body}}</svg><figcaption>{{legend}}</figcaption></figure>
+<!-- key -->
+<span class="vz-key-sw"><i style="background:{{c}}"></i>{{t}}</span>
+<!-- run -->
+<ol class="vz-run">{{rows}}</ol>
+<!-- run-row -->
+<li class="vz-run-row"><span class="vz-run-t">{{t}}</span><span class="vz-run-head">{{head}}</span><span class="vz-run-what"><b>{{who}}</b> <a href="{{href}}" target="_blank" rel="noopener">{{subject}}</a> <span class="vz-run-delta">{{delta}}</span></span><span class="vz-run-rel">{{rel}}</span></li>
+<!-- hero -->
+<div class="vz-nr-hero" style="--c:{{accent}}"><div class="vz-nr-heads">{{heads}}</div><p class="vz-nr-lede">{{lede}}</p><p class="vz-nr-links"><a href="{{place}}">the page it makes</a> · <a href="{{agents}}">the agents</a> · <a href="{{explainer}}">how the whole system works</a> · <span class="vz-powered">powered by AgentiCCells</span></p></div>
