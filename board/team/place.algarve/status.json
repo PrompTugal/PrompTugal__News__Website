@@ -1,0 +1,19 @@
+{
+  "role": "place.algarve@PrompTugal.dinis",
+  "updated": "2026-11-15T22:15Z",
+  "state": "pass 1 released: data/by-place/algarve.json is researching, 16 news items, 20 map entries, 4 events, signed with site.algarve-promptugal",
+  "done": [
+    "keys place.algarve-promptugal and site.algarve-promptugal in board/keys.json",
+    "read all five Algarve Evolution articles and the AE site",
+    "first pass of the regional AI map, news, sources, events and gaps"
+  ],
+  "next": [
+    "pass 2: UAlg research centres, Algarve Evolution member companies with an AI path, Dengun and Witflow at source, feeds for each source",
+    "pass 3: events through December, verify town hints with the town agents' files",
+    "debrief in debriefs/2026-11-16-handover.md before stopping"
+  ],
+  "asks": [
+    "Dinis: postal.pt and algarvestp.pt serve a bot challenge and sulinformacao.pt returns 403 to our reader, so their AI coverage is missing. Is there a permitted route, or should dev@ add them to a feed capture?"
+  ],
+  "debrief": null
+}
