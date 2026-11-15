@@ -103,7 +103,7 @@ function panel(ctx, p, team) {
     const hasNewsroom = ctx.pages && ctx.pages.some(x => x.rel === newsroomRel(p))
     return fill(T.panel, {
         accent: X(p.accent), count: team.length, name: X(p.name), now: atWork(team), asof: X(asof(R)),
-        newsroom: hasNewsroom ? fill(T['newsroom-link'], { href: X(rel2(ctx, `${p.path}index.html`, newsroomRel(p))), name: X(p.name) }) : '',
+        newsroom: hasNewsroom ? fill(T['newsroom-link'], { href: X(rel2(ctx, `${p.path}index.html`, newsroomRel(p))), name: X(p.name), ex: X(rel2(ctx, `${p.path}index.html`, 'agentic-system/index.html')) }) : '',
         cards: team.map(a => card(ctx, p, a)).join(''),
         stage: onStage(ctx, p, team),
         how: fill(T.how, { moods: cast(ctx).moods.map(m => fill(T.mood, { head: head(ctx, { role: 'plain', mood: m.id, size: 18 }), word: X(m.word), rule: X(m.rule) })).join('') }),

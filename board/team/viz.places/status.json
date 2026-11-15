@@ -1,17 +1,19 @@
 {
   "agent": "viz.places@PrompTugal.dinis",
   "focus": "the visible agentic system: agents panels on every place page, each place's newsroom end to end, the explainer powered by AgentiCCells",
-  "state": "pass 2 released: every place has its newsroom, end to end, from the record",
-  "updated": "2026-11-15T23:20Z",
+  "state": "pass 3 released: the explainer of the whole agentic system at /agentic-system/, powered by AgentiCCells",
+  "updated": "2026-11-15T23:30Z",
   "done": [
     "onboarded: CLAUDE.md, the build README, Dinis's show-the-power guidance, the brief, the place agents' brief; the book's cast sheet (LAB 27) read for the character style",
     "session key viz.places-promptugal in board/keys.json",
     "pass 1: an agents panel on all 19 place pages (portugal/, algarve/, every town): the book-style cast drawn in code with four moods, what each agent is doing (status.json), last commit and release, a scorecard from the record, its key, an on-stage hour strip; api/v1/viz/agents.json",
-    "pass 2: a newsroom page for all 19 places (<place>/newsroom/): six stations (read, captured, tested, written, checked, published) with the place agent in each hat, the file's growth chart, the run commit by commit with what changed and the release that shipped it, every entry from capture to page, the gaps; api/v1/viz/newsrooms.json; linked from each place's agents panel"
+    "pass 2: a newsroom page for all 19 places (<place>/newsroom/): six stations (read, captured, tested, written, checked, published) with the place agent in each hat, the file's growth chart, the run commit by commit with what changed and the release that shipped it, every entry from capture to page, the gaps; api/v1/viz/newsrooms.json; linked from each place's agents panel",
+    "pass 3: /agentic-system/, the whole system as one visual story from the record: the numbers, six layers from Dinis's word to the page (with policies, keys and lanes beside), every agent with a live key drawn with its face by team, the last 24 hours by team, the ABP, keys and site identities, lanes, the graph, Loule and Faro as case studies, and the AgentiCCells table (its own words, each mapped to what runs here); api/v1/viz/system.json"
   ],
   "next": [
-    "pass 3: the explainer of the whole agentic system (agents, policies, keys and site identities, lanes, the graph), powered by AgentiCCells, at /agentic-system/",
-    "then: deepen Loule and Faro (captures from data.places@ once its vault lands), a newsroom view on the region page"
+    "deepen Loule and Faro: captures (screenshots with hashes) on each newsroom once data.places@'s vault lands",
+    "a newsroom flow on the region page (all 17 towns' stations side by side)",
+    "an OpenRouter-made hero image for the explainer, within the 20 USD cap, once the page settles"
   ],
   "asks": [],
   "debrief": null

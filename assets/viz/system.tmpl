@@ -1,0 +1,29 @@
+<!-- The explainer of the whole agentic system (/agentic-system/). Filled by newsroom/build/features/viz-system.mjs; values arrive escaped. Sections start with a comment line of their name. -->
+<!-- tiles -->
+<div class="vz-tiles">{{items}}</div>
+<!-- tile -->
+<div class="vz-tile"><strong>{{n}}</strong><span>{{t}}</span></div>
+<!-- system -->
+<div class="vz-sys"><div class="vz-sys-main">{{layers}}</div><aside class="vz-sys-side">{{side}}</aside></div>
+<!-- layer -->
+<section class="vz-layer vz-l-{{id}}"><p class="vz-layer-n">{{n}}</p><div class="vz-layer-body"><h3>{{h}}</h3><p>{{t}}</p><div class="vz-layer-heads">{{heads}}</div><p class="vz-layer-where">{{where}}</p></div></section>
+<!-- arrow -->
+<div class="vz-arrow" aria-hidden="true"><span>{{t}}</span></div>
+<!-- side -->
+<section class="vz-side-box"><h3>{{h}}</h3><p class="vz-side-big"><strong>{{n}}</strong> {{unit}}</p><ul>{{lines}}</ul></section>
+<!-- li -->
+<li>{{t}}</li>
+<!-- group -->
+<section class="vz-group"><h3>{{h}} <span>{{n}}</span></h3><p class="vz-group-what">{{what}}</p><div class="vz-group-grid">{{items}}</div></section>
+<!-- member -->
+<a class="vz-member vz-m-{{mood}}" href="{{href}}" title="{{title}}">{{fig}}<span class="vz-member-name">{{who}}</span><span class="vz-member-state">{{state}}</span></a>
+<!-- member-plain -->
+<div class="vz-member vz-m-{{mood}}" title="{{title}}">{{fig}}<span class="vz-member-name">{{who}}</span><span class="vz-member-state">{{state}}</span></div>
+<!-- day -->
+<figure class="vz-day"><svg viewBox="0 0 {{w}} {{h}}" width="100%" role="img" aria-label="{{aria}}"><title>{{aria}}</title>{{body}}</svg><figcaption>{{legend}}</figcaption></figure>
+<!-- key -->
+<span class="vz-key-sw"><i style="background:{{c}}"></i>{{t}}</span>
+<!-- cases -->
+<div class="vz-cases">{{items}}</div>
+<!-- case -->
+<a class="vz-case" href="{{href}}" style="--c:{{accent}}"><span class="vz-case-fig">{{fig}}</span><span class="vz-case-body"><strong>{{name}}</strong><span>{{line}}</span><span class="vz-case-go">{{go}}</span></span></a>
