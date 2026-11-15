@@ -1,0 +1,16 @@
+{
+  "agent": "designer.places@PrompTugal.dinis",
+  "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
+  "updated": "2026-11-15T22:05Z",
+  "state": "working",
+  "done": [
+    "Onboarded; session key made, designer.places-promptugal added to board/keys.json"
+  ],
+  "next": [
+    "Professional pass on assets/by-place/ (hierarchy, cards, AI-map table, tiles, voice toggle, empty states)",
+    "Accent contrast check for every town",
+    "Demo walk-through in design/by-place/"
+  ],
+  "asks": [],
+  "debrief": null
+}
