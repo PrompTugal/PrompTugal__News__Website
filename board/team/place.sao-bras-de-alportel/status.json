@@ -1,5 +1,6 @@
 {
   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+  "focus": "the site of São Brás de Alportel (promptugal.news/algarve/sao-bras-de-alportel/): its AI map, local AI news, sources and gaps",
   "updated": "2026-11-15T22:10Z",
   "state": "first pass released: status researching, 5 ai_news items, 5 ai_map entries (all steps 0 to 3), signed with the site key",
   "done": [
