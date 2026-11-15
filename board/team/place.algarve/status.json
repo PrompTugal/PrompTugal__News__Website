@@ -1,5 +1,6 @@
 {
-  "role": "place.algarve@PrompTugal.dinis",
+  "agent": "place.algarve@PrompTugal.dinis",
+  "focus": "The Algarve region page (promptugal.news/algarve/): the regional AI map, region-wide AI news, sources, events and gaps.",
   "updated": "2026-11-15T22:15Z",
   "state": "pass 1 released: data/by-place/algarve.json is researching, 16 news items, 20 map entries, 4 events, signed with site.algarve-promptugal",
   "done": [
