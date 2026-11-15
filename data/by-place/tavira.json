@@ -114,6 +114,16 @@
       "read_on": "2026-11-15",
       "ai_path": "A local tech community inside the network that also lists an Artificial Intelligence Algarve community, so AI talk reaches Tavira through it.",
       "steps": 2
+    },
+    {
+      "name": "Centro Ciência Viva de Tavira",
+      "type": "institution",
+      "url": "https://www.barlavento.pt/tavira-acolheu-encontro-escolar-regional-de-robotica-submarina/",
+      "what": "Science centre that co-hosted, with the IPMA mollusc research station and council support, a regional school meeting of the ROV4ALL project in May 2022, where students built small remotely operated underwater robots.",
+      "source_url": "https://www.barlavento.pt/tavira-acolheu-encontro-escolar-regional-de-robotica-submarina/",
+      "read_on": "2026-11-15",
+      "ai_path": "School robotics and programming build the skills pipeline that AI work draws on. The article describes remotely operated vehicles and mentions no AI.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -139,7 +149,8 @@
     "Postal do Algarve served a bot check on its article pages, so its Tavira AI-related pieces (an AI-based city discovery tool, smart sensors) were not read and are not used.",
     "Tavira does not appear in the national AI licensing pilot for councils: the RTP report we read names only Coimbra and carries no date.",
     "No dated events: the Tavira Algarve Tech Afterwork listing is on a platform we do not read. Look for events on the council agenda, Tavira Works and Algarve Evolution's own pages.",
-    "Not yet checked: Centro Ciência Viva de Tavira, local hotel and tourism groups, Espaço Empresa incubator, schools and the Tavira Plaza research night. Ask Algarve Evolution who in Tavira belongs to its network."
+    "The council's own news feed (cm-tavira.pt/site/feed/) loads but held no items when read, so it adds nothing yet. Its news page needs a look by hand or another route.",
+    "Not yet checked from first-hand pages: the Level Up business centre and incubator in Tavira (run by EMPET, per search results we could not open), hotel and tourism groups, schools, and any Centro Ciência Viva programme on AI (none found in search, only robotics and programming)."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
