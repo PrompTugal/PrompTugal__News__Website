@@ -73,6 +73,16 @@
       "read_on": "2026-11-15",
       "ai_path": "Loulé was the test site for a smart irrigation system, and its planned AI module is the AI step.",
       "steps": 1
+    },
+    {
+      "title": "A Loulé studio put a band's late member back on stage with an AI hologram",
+      "summary": "UAlg reported that SPIC, a Loulé digital studio, built a hologram of D'ZRT's late fourth member for the band's return concerts, using more than 9,000 recordings, within an R&D consortium with the university. Older news, from May 2023, but it shows what the town's one AI company does.",
+      "date": "2023-05-18",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
+      "read_on": "2026-11-15",
+      "ai_path": "A Loulé company built an AI system.",
+      "steps": 0
     }
   ],
   "sources": [
@@ -117,6 +127,18 @@
       "url": "https://bealgarve.pt/pt/ecossistema/",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "SPIC",
+      "url": "https://www.spic.pt",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Universidade do Algarve news",
+      "url": "https://www.ualg.pt",
+      "kind": "university",
+      "feed": null
     }
   ],
   "events": [
@@ -139,9 +161,9 @@
     {
       "name": "SPIC",
       "type": "company",
-      "url": "https://www.rtp.pt/noticias/rtpeuropa/uniao-europeia-aposta-na-inteligencia-artificial-no-algarve_v1696437",
-      "what": "Loulé company behind AI.EVENT, a platform in development that uses AI to read audience reactions at events in real time. RTP says it has had European funding.",
-      "source_url": "https://www.rtp.pt/noticias/rtpeuropa/uniao-europeia-aposta-na-inteligencia-artificial-no-algarve_v1696437",
+      "url": "https://www.spic.pt",
+      "what": "Loulé creative and digital studio. It built the AI hologram used on stage by the band D'ZRT in 2023 (trained on more than 9,000 recordings), has an R&D consortium with the University of the Algarve, and is developing AI.EVENT, which reads audience reactions at events, with European funding per RTP.",
+      "source_url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
       "read_on": "2026-11-15",
       "ai_path": "It builds an AI product.",
       "steps": 0
@@ -205,6 +227,16 @@
       "read_on": "2026-11-15",
       "ai_path": "It is building a tech centre that lists AI among its themes.",
       "steps": 1
+    },
+    {
+      "name": "University of the Algarve (R&D consortium with SPIC)",
+      "type": "institution",
+      "url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
+      "what": "UAlg's own page says it has a research and development consortium with Loulé's SPIC on information technology and human-interaction research. UAlg's campuses are in Faro and Portimão, so the link here is the partnership.",
+      "source_url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
+      "read_on": "2026-11-15",
+      "ai_path": "UAlg co-develops AI projects with a Loulé company.",
+      "steps": 1
     }
   ],
   "extras": [],
@@ -213,12 +245,13 @@
     "signed_by": "place.loule@PrompTugal.dinis"
   },
   "gaps": [
-    "Only one AI company, SPIC, is clearly based in Loulé on what we read, and its article carries no date. A second look at its own site is next.",
+    "Only one AI company, SPIC, is clearly based in Loulé on what we read. Its AI.EVENT story has no date and its own site does not mention AI.EVENT.",
     "The council's own news page gave no AI items and no RSS feed. Pages of the council that we could not read yet may hold more.",
     "We could not open Postal do Algarve (a bot check), and Jornal do Algarve and Portugal Resident refused our reads, so some Loulé AI stories may be missing.",
     "Algardata, Shiji Portugal, Lazer Telecom and Innuos are tech firms listed in Loulé by Algarve Tech Hub or older press, but we found no AI link for them, so they are not on the map.",
     "The Algarve AI Agents community has no page we could read. We should look for its own site or a public repository.",
-    "Still to look for: the council's LouleXLab (2020), Algarve 2030 AI projects with Loulé partners, UAlg Tec Campus links, and Almancil and Vilamoura tourism-tech firms."
+    "Still to look for: the council's LouleXLab (2020), Algarve 2030 AI projects with Loulé partners, UAlg Tec Campus links, and Almancil and Vilamoura tourism-tech firms.",
+    "Search results say the Loulé council's BTL tourism stand used AI-made gifts and an immersive AI experience, but we could not open the page, so it is not yet a news item."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",

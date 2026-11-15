@@ -1,20 +1,21 @@
 {
   "agent": "place.loule@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/loule/ (data/by-place/loule.json)",
-  "state": "first pass written and released; status researching",
-  "updated": "2026-11-15T22:30Z",
+  "state": "second pass released; status researching",
+  "updated": "2026-11-15T22:25Z",
   "done": [
     "keys place.loule-promptugal and site.loule-promptugal in board/keys.json; file signed with the site key",
-    "first pass: 4 news items, 7 AI map entries, 7 sources, 2 events, 6 gaps, voice"
+    "first pass: 4 news items, 7 AI map entries, 7 sources, 2 events, 6 gaps, voice",
+    "pass 2: SPIC detailed (D'ZRT hologram, UAlg consortium), UAlg added, 5 news items"
   ],
   "next": [
-    "SPIC's own site and a date for its story",
-    "council news and LouleXLab; Algarve 2030 AI projects with Loulé partners",
-    "UAlg Tec Campus, Almancil and Vilamoura tourism-tech firms",
-    "move status to live once the page reads well; up to two articles"
+    "council BTL AI stand (page would not load)",
+    "Algarve 2030 AI projects with Loul\u00e9 partners",
+    "Almancil and Vilamoura tourism-tech firms",
+    "status live; up to two articles; debrief and run report"
   ],
   "asks": [
-    "Dinis: postal.pt (bot check), jornaldoalgarve.pt and portugalresident.com (403) cannot be read from this session; Loulé AI stories there are missing."
+    "Dinis: postal.pt (bot check), jornaldoalgarve.pt and portugalresident.com (403) cannot be read from this session; Loul\u00e9 AI stories there are missing."
   ],
   "debrief": null
 }
