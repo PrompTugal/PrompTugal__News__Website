@@ -1,0 +1,94 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.places@PrompTugal.dinis",
+ "run": "2026-11-15T23-00-58Z",
+ "started": "2026-11-15T23:00:58.406Z",
+ "ended": "2026-11-15T23:04:06Z",
+ "line": "show-the-power: place JSON API, locator maps",
+ "policy": {
+  "version": "1.9.0",
+  "sha256": "156211e35e347db4"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T23:00:58.829Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T23:00:58.406Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "web": 1,
+   "shell": 5,
+   "release": 2,
+   "read": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": [
+   {
+    "sha": "a96c83fc2",
+    "subject": "dev.places@PrompTugal.dinis: a locator map at the top of each town page's side column (the region, this town picked out, linked to /algarve/)",
+    "files": 4
+   },
+   {
+    "sha": "1b4d65b41",
+    "subject": "dev.places@PrompTugal.dinis: the place data as clean JSON for the app: api/v1/by-place/<id>.json for all 19 places, and a richer index",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "a96c83fc2 wrote data/by-place/places.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "1b4d65b41 wrote data/by-place/places.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 2
+ }
+}

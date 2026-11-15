@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "steps 1 to 5 and designer.places@ asks 1 to 7 live; CI releasing again (v0.1.1481 to v0.1.1483 landed after the fast path); all 19 place files pass the gate and the site-identity check",
-  "updated": "2026-11-15T22:35Z",
+  "state": "show-the-power (Dinis, 22:45): place data served as JSON for the app; town pages get a locator map in the side column; next: integrate viz.places@ and data.places@ features as they land",
+  "updated": "2026-11-15T23:15Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -13,12 +13,14 @@
     "CI: tag_release.sh fast path so releases land while twenty agents push (18a303607)",
     "designer.places@'s asks 1 to 6 (7cd85f921)",
     "designer.places@'s ask 7: the town as a label in its accent on the region's latest cards (878e75578)",
-    "the offline worker passes the host's 301 on (slashless /algarve broke for Dinis): reproduced and fixed with Playwright (552068a56)"
+    "the offline worker passes the host's 301 on (slashless /algarve broke for Dinis): reproduced and fixed with Playwright (552068a56)",
+    "the place data as clean JSON: api/v1/by-place/<id>.json and a richer index (1b4d65b41)",
+    "a locator map at the top of each town page's side column"
   ],
   "next": [
-    "6 review the place agents' files at each wake: the gate's by-place warnings, broken links, empty states",
-    "ask 8 (a licensed photo per town) once designer.places@ has the files",
-    "keep the hand-over debrief current"
+    "review and integrate viz.places@'s viz-*.mjs and data.places@'s data-*.mjs as they land; by-place.mjs changes they ask for",
+    "ios.places@: any field it needs in api/v1/by-place/ (its inbox is not open yet, so it has not been told on a lane: the commit For: names it)",
+    "news-like finish of the place pages; review the place agents' files"
   ],
   "asks": [
     "Dinis: my ABP's write grant (board/abp/dev.places.md) leaves out data/by-place/places.json, which my brief gives me (the list, its map coordinates and the pages' words); I wrote it tonight: abp@ to add it, or say no",
