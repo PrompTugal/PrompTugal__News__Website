@@ -52,6 +52,25 @@
           },
           "agent": {
             "type": "string"
+          },
+          "at": {
+            "type": "array",
+            "description": "Where the place's seat is, [longitude, latitude], for the region's map (public geography).",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "label": {
+            "enum": [
+              "n",
+              "s",
+              "e",
+              "w",
+              "sw"
+            ],
+            "description": "Which side of its dot the map puts the place's name."
           }
         }
       }

@@ -24,7 +24,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/faro/",
-      "agent": "place.faro@PrompTugal.dinis"
+      "agent": "place.faro@PrompTugal.dinis",
+      "at": [
+        -7.935,
+        37.019
+      ],
+      "label": "s"
     },
     {
       "id": "loule",
@@ -32,7 +37,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/loule/",
-      "agent": "place.loule@PrompTugal.dinis"
+      "agent": "place.loule@PrompTugal.dinis",
+      "at": [
+        -8.023,
+        37.138
+      ],
+      "label": "w"
     },
     {
       "id": "quarteira",
@@ -40,7 +50,12 @@
       "kind": "city",
       "parent": "loule",
       "path": "algarve/quarteira/",
-      "agent": "place.quarteira@PrompTugal.dinis"
+      "agent": "place.quarteira@PrompTugal.dinis",
+      "at": [
+        -8.103,
+        37.069
+      ],
+      "label": "s"
     },
     {
       "id": "silves",
@@ -48,7 +63,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/silves/",
-      "agent": "place.silves@PrompTugal.dinis"
+      "agent": "place.silves@PrompTugal.dinis",
+      "at": [
+        -8.44,
+        37.189
+      ],
+      "label": "n"
     },
     {
       "id": "tavira",
@@ -56,7 +76,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/tavira/",
-      "agent": "place.tavira@PrompTugal.dinis"
+      "agent": "place.tavira@PrompTugal.dinis",
+      "at": [
+        -7.649,
+        37.127
+      ],
+      "label": "s"
     },
     {
       "id": "vila-real-de-santo-antonio",
@@ -64,7 +89,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/vila-real-de-santo-antonio/",
-      "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis"
+      "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+      "at": [
+        -7.418,
+        37.195
+      ],
+      "label": "sw"
     },
     {
       "id": "portimao",
@@ -72,7 +102,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/portimao/",
-      "agent": "place.portimao@PrompTugal.dinis"
+      "agent": "place.portimao@PrompTugal.dinis",
+      "at": [
+        -8.537,
+        37.138
+      ],
+      "label": "w"
     },
     {
       "id": "lagos",
@@ -80,7 +115,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/lagos/",
-      "agent": "place.lagos@PrompTugal.dinis"
+      "agent": "place.lagos@PrompTugal.dinis",
+      "at": [
+        -8.673,
+        37.102
+      ],
+      "label": "s"
     },
     {
       "id": "olhao",
@@ -88,7 +128,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/olhao/",
-      "agent": "place.olhao@PrompTugal.dinis"
+      "agent": "place.olhao@PrompTugal.dinis",
+      "at": [
+        -7.841,
+        37.026
+      ],
+      "label": "e"
     },
     {
       "id": "albufeira",
@@ -96,7 +141,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/albufeira/",
-      "agent": "place.albufeira@PrompTugal.dinis"
+      "agent": "place.albufeira@PrompTugal.dinis",
+      "at": [
+        -8.25,
+        37.089
+      ],
+      "label": "s"
     },
     {
       "id": "lagoa",
@@ -104,7 +154,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/lagoa/",
-      "agent": "place.lagoa@PrompTugal.dinis"
+      "agent": "place.lagoa@PrompTugal.dinis",
+      "at": [
+        -8.453,
+        37.135
+      ],
+      "label": "s"
     },
     {
       "id": "monchique",
@@ -112,7 +167,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/monchique/",
-      "agent": "place.monchique@PrompTugal.dinis"
+      "agent": "place.monchique@PrompTugal.dinis",
+      "at": [
+        -8.555,
+        37.317
+      ],
+      "label": "n"
     },
     {
       "id": "aljezur",
@@ -120,7 +180,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/aljezur/",
-      "agent": "place.aljezur@PrompTugal.dinis"
+      "agent": "place.aljezur@PrompTugal.dinis",
+      "at": [
+        -8.803,
+        37.318
+      ],
+      "label": "w"
     },
     {
       "id": "vila-do-bispo",
@@ -128,7 +193,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/vila-do-bispo/",
-      "agent": "place.vila-do-bispo@PrompTugal.dinis"
+      "agent": "place.vila-do-bispo@PrompTugal.dinis",
+      "at": [
+        -8.911,
+        37.083
+      ],
+      "label": "n"
     },
     {
       "id": "castro-marim",
@@ -136,7 +206,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/castro-marim/",
-      "agent": "place.castro-marim@PrompTugal.dinis"
+      "agent": "place.castro-marim@PrompTugal.dinis",
+      "at": [
+        -7.443,
+        37.218
+      ],
+      "label": "w"
     },
     {
       "id": "alcoutim",
@@ -144,7 +219,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/alcoutim/",
-      "agent": "place.alcoutim@PrompTugal.dinis"
+      "agent": "place.alcoutim@PrompTugal.dinis",
+      "at": [
+        -7.471,
+        37.471
+      ],
+      "label": "w"
     },
     {
       "id": "sao-bras-de-alportel",
@@ -152,7 +232,12 @@
       "kind": "municipality",
       "parent": "algarve",
       "path": "algarve/sao-bras-de-alportel/",
-      "agent": "place.sao-bras-de-alportel@PrompTugal.dinis"
+      "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+      "at": [
+        -7.888,
+        37.153
+      ],
+      "label": "n"
     }
   ],
   "copy": {
@@ -166,6 +251,17 @@
     "levels": "- **Portugal:** [promptugal.news]({portugal}), with Europe and the world\n- **The Algarve:** this page\n- **The towns:** {count} sites below it\n\nNews flows **down** (national and international AI news, picked for what it means here) and **up** (local sources, rising when they matter).",
     "town_summary": "AI and technology in {name}, in the Algarve: {local}, {map} on the AI map, every fact sourced.",
     "region_summary": "AI and technology across the Algarve and its {count} towns: {local} and {map} on the region's AI map, every fact sourced.",
-    "voice_label": "Playful local voice: same facts, said the Algarvio way"
+    "voice_label": "Playful local voice: same facts, said the Algarvio way",
+    "status_stub": "Starting",
+    "status_researching": "Researching",
+    "status_live": "Live",
+    "map_unreadable": "This place's file could not be read at build time; its agent is told. The page shows the last frame.",
+    "region_map_lede": "The 17 places in the first wave, each in its own colour. A filled dot is a live site, a ring a site still being researched. Tap a place to open its site.",
+    "articles_h": "Our articles from {name}",
+    "national_h": "From PrompTugal.news",
+    "pin_title": "{name}: {local}, {map} on the AI map",
+    "map_aria": "Map of the Algarve with its {count} places, each linked to its site",
+    "sea_label": "Atlantic Ocean",
+    "spain_label": "Spain"
   }
 }

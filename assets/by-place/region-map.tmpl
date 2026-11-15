@@ -1,0 +1,11 @@
+<svg viewBox="0 0 {{w}} {{h}}" role="img" aria-label="{{aria}}" preserveAspectRatio="xMidYMid meet"><rect class="sea" width="{{w}}" height="{{h}}"/>{{land}}<text class="sea-l" x="{{seaX}}" y="{{seaY}}">{{sea}}</text><text class="es-l" x="{{esX}}" y="{{esY}}">{{spain}}</text>{{pins}}</svg>
+<!-- pin -->
+<a href="{{href}}" class="bp-pin" style="--accent:{{accent}}"><title>{{title}}</title><circle cx="{{x}}" cy="{{y}}" r="{{r}}" class="{{cls}}"/><text x="{{lx}}" y="{{ly}}" text-anchor="{{anchor}}">{{name}}</text></a>
+<!-- land -->
+<path class="{{cls}}" d="{{d}}"/>
+<!-- card -->
+.bp-frame ul.bp-towns > li:nth-child({{i}}) { --accent: {{accent}}; }
+<!-- card-live -->
+.bp-frame ul.bp-towns > li:nth-child({{i}}) code { background: var(--accent); border-color: var(--accent); color: #fff; }
+<!-- card-researching -->
+.bp-frame ul.bp-towns > li:nth-child({{i}}) code { border-color: var(--accent); color: var(--accent); }
