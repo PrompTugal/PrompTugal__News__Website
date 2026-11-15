@@ -4,15 +4,169 @@
   "title": "The captures index (data/query/captures.json)",
   "description": "data.places@PrompTugal.dinis, 15 November 2026: one entry per third-party page captured by board/team/data.places/tools/capture.mjs (a screenshot and the visible text, each hashed, in the sgit vault named in vault). Never a vault key.",
   "type": "object",
-  "required": ["about", "vault", "captures"],
+  "required": [
+    "about",
+    "vault",
+    "captures"
+  ],
   "properties": {
-    "$schema": { "type": "string" }, "about": { "type": "string" }, "updated": { "type": "string" },
-    "vault": { "type": "object", "required": ["name", "vault_id", "endpoint"], "properties": { "name": { "type": "string" }, "vault_id": { "type": "string" }, "endpoint": { "type": "string" }, "access": { "type": "string" } }, "additionalProperties": false },
-    "captures": { "type": "array", "items": { "type": "object", "required": ["url", "captured_at", "by", "ok"], "properties": {
-      "url": { "type": "string", "pattern": "^https?://" }, "host": { "type": ["string", "null"] }, "captured_at": { "type": ["string", "null"] }, "by": { "type": "string" }, "ok": { "type": "boolean" },
-      "status": { "type": ["integer", "null"] }, "final_url": { "type": ["string", "null"] }, "title": { "type": ["string", "null"] }, "note": { "type": ["string", "null"] },
-      "image": { "type": ["object", "null"], "properties": { "path": { "type": "string" }, "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }, "bytes": { "type": "integer" }, "width": { "type": "integer" }, "height": { "type": "integer" } } },
-      "text": { "type": ["object", "null"], "properties": { "path": { "type": "string" }, "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }, "chars": { "type": "integer" } } },
-      "cited_by": { "type": "array" } } } }
+    "$schema": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    },
+    "vault": {
+      "type": "object",
+      "required": [
+        "name",
+        "vault_id",
+        "endpoint"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "vault_id": {
+          "type": "string"
+        },
+        "endpoint": {
+          "type": "string"
+        },
+        "access": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "captures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "captured_at",
+          "by",
+          "ok"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "pattern": "^https?://"
+          },
+          "host": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "captured_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "by": {
+            "type": "string"
+          },
+          "ok": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "final_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "image": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "bytes": {
+                "type": "integer"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              }
+            }
+          },
+          "text": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "chars": {
+                "type": "integer"
+              }
+            }
+          },
+          "cited_by": {
+            "type": "array"
+          },
+          "document": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "bytes": {
+                "type": "integer"
+              },
+              "type": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

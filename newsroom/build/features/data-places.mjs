@@ -208,7 +208,7 @@ export function database(ctx) {
     // the captures (board/team/data.places/tools/capture.mjs; the index in data/query/ or, until the gate knows it, board/team/data.places/)
     for (const f of ['data/query/captures.json', 'board/team/data.places/captures.json']) { if (!ctx.exists(f)) continue
         let ci = {}; try { ci = ctx.readJSON(f) } catch {}
-        for (const k of arr(ci.captures)) if (k && okUrl(k.url)) rows.captures.push([k.url, hostOf(k.url), str(k.captured_at), k.ok ? 1 : 0, int(k.status), str(k.title), str(k.note), k.image ? k.image.sha256 : null, k.image ? k.image.path : null, k.text ? k.text.sha256 : null, k.text ? k.text.path : null, arr(k.cited_by).length, [...new Set(arr(k.cited_by).map(r => r.place))].join(',') || null])
+        for (const k of arr(ci.captures)) if (k && okUrl(k.url)) rows.captures.push([k.url, hostOf(k.url), str(k.captured_at), k.ok ? 1 : 0, int(k.status), str(k.title), str(k.note), k.image ? k.image.sha256 : null, k.image ? k.image.path : null, k.text ? k.text.sha256 : null, k.text ? k.text.path : null, k.document ? k.document.sha256 : null, k.document ? k.document.path : null, arr(k.cited_by).length, [...new Set(arr(k.cited_by).map(r => r.place))].join(',') || null])
         break }
     // only edges whose two ends exist
     const tables = {}

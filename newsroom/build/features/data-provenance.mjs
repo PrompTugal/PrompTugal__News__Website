@@ -35,7 +35,8 @@ function state(ctx) {
     S = { W, idx, byUrl, sites: new Map(sites.map(s => [s.id, s])) }
     return S
 }
-const capKey = c => (c.image && c.image.path || c.url).split('/').pop().replace(/\.\w+$/, '')
+const capOf = c => c.image || c.document || null
+const capKey = c => ((capOf(c) || {}).path || c.url).split('/').pop().replace(/\.\w+$/, '')
 // git: who first wrote a file and who last changed it (the agent is the commit subject's name, before the colon)
 let SHALLOW = null
 function history(ctx, file) {
@@ -82,9 +83,9 @@ function placeBox(ctx, p, rel) {
 function badges(html, ctx, rel, p) {
     const st = state(ctx), target = ctx.link(rel, `query/${p.id}/provenance/index.html`).replace(/\.md$/, '.html')
     for (const c of st.idx.captures || []) {
-        if (!c.ok || !c.image) continue
+        if (!c.ok || !capOf(c)) continue
         const re = new RegExp(`(<a\\b[^>]*href="${reEsc(escHtml(c.url))}"[^>]*>[\\s\\S]*?</a>)`, 'g')
-        html = html.replace(re, `$1<a class="pv-badge" href="${target}#c-${capKey(c)}" title="${escHtml(fillT(st.W.pv_badge_title, { at: c.captured_at, sha: c.image.sha256 }))}">${escHtml(c.image.sha256.slice(0, 8))}</a>`)
+        html = html.replace(re, `$1<a class="pv-badge" href="${target}#c-${capKey(c)}" title="${escHtml(fillT(st.W.pv_badge_title, { at: c.captured_at, sha: capOf(c).sha256 }))}">${escHtml(capOf(c).sha256.slice(0, 8))}</a>`)
     }
     return html
 }
@@ -120,12 +121,12 @@ function provenancePage(ctx, p) {
         md += `## ${KIND[k]} {#${k}}\n\n{.pv-table}\n| ${W.pv_col_item} | ${W.pv_col_source} | ${W.pv_col_read} | ${W.pv_col_capture} |\n|---|---|---|---|\n`
         md += list.map(i => {
             const c = i.cap
-            const cap = !c ? W.pv_not_yet : c.ok ? `${dmy(c.captured_at)}, ${c.status}: image \`${c.image.sha256.slice(0, 16)}\`, text \`${c.text.sha256.slice(0, 16)}\` {#c-${capKey(c)}}` : `${W.pv_failed}: ${cell(c.note || '')}`
+            const cap = !c ? W.pv_not_yet : c.ok ? `${dmy(c.captured_at)}, ${c.status}: ${c.image ? `image \`${c.image.sha256.slice(0, 16)}\`, text \`${c.text.sha256.slice(0, 16)}\`` : `document \`${c.document.sha256.slice(0, 16)}\``} {#c-${capKey(c)}}` : `${W.pv_failed}: ${cell(c.note || '')}`
             return `| ${cell(i.label)}${i.date ? ` (${dmy(i.date)})` : ''} | ${i.url ? `[${hostOf(i.url)}](${i.url})` : ''} | ${dmy(i.read_on) || ''} | ${cap} |`
         }).join('\n') + '\n\n'
     }
     md += `## ${W.pv_hashes_h} {#hashes}\n\n${W.pv_hashes_text}\n\n{.pv-table}\n| ${W.pv_col_source} | ${W.pv_col_path} | image sha256 | text sha256 |\n|---|---|---|---|\n`
-    md += [...new Set(its.map(i => i.url))].map(u => st.byUrl.get(u)).filter(c => c && c.ok).map(c => `| ${cell(c.url)} | \`${c.image.path}\` | \`${c.image.sha256}\` | \`${c.text.sha256}\` |`).join('\n') + '\n'
+    md += [...new Set(its.map(i => i.url))].map(u => st.byUrl.get(u)).filter(c => c && c.ok && capOf(c)).map(c => `| ${cell(c.url)} | \`${capOf(c).path}\` | \`${capOf(c).sha256}\` | \`${c.text ? c.text.sha256 : ''}\` |`).join('\n') + '\n'
     // an id on a table cell is not markdown: the {#c-..} anchors are made by postHtml below
     return { rel, title: `${p.name}: provenance`, summary: fillT(W.pv_page_summary, { name: p.name, n: s.captured, of: s.urls }), md, type: 'site', layout: 'wide', assets: ASSETS, src: `data/by-place/${p.id}.json`,
         crumbs: [['query/index.html', 'The data'], [`query/${p.id}/index.html`, p.name], [null, 'Provenance']],

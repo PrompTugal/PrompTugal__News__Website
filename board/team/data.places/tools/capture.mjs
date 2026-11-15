@@ -83,6 +83,16 @@ for (const url of todo) {
     } catch (e) {
         rec.captured_at = new Date().toISOString().replace(/\.\d+Z$/, 'Z')
         rec.note = `not captured: ${String(e.message).split('\n')[0].slice(0, 160)}`
+        // a document the browser downloads (a PDF): the file itself, hashed, is the capture
+        if (/Download is starting/i.test(e.message)) try {
+            const r = await context.request.get(url, { timeout: 30000 }), body = await r.body()
+            const type = (r.headers()['content-type'] || '').split(';')[0], ext = /pdf/.test(type) ? 'pdf' : 'bin'
+            const key = sha(url).slice(0, 12), dir = `captures/${day}/${rec.host}`
+            fs.mkdirSync(path.join(VAULT, dir), { recursive: true }); fs.writeFileSync(path.join(VAULT, dir, `${key}.${ext}`), body)
+            rec.status = r.status(); rec.final_url = r.url(); rec.title = null
+            rec.document = { path: `${dir}/${key}.${ext}`, sha256: sha(body), bytes: body.length, type }
+            rec.ok = r.status() < 400 && body.length > 0; rec.note = rec.ok ? `a document (${type}); the file itself is the capture` : `the server answered ${r.status()}`
+        } catch (e2) { rec.note = `not captured: ${String(e2.message).split('\n')[0].slice(0, 160)}` }
     }
     await page.close()
     have.set(url, rec); n++

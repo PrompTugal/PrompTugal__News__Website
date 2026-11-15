@@ -685,6 +685,16 @@
           "about": "the text's path in the vault"
         },
         {
+          "name": "document_sha256",
+          "type": "text",
+          "about": "for a document (a PDF), the file's SHA-256"
+        },
+        {
+          "name": "document_path",
+          "type": "text",
+          "about": "for a document, its path in the vault"
+        },
+        {
           "name": "cited_by",
           "type": "integer",
           "about": "how many items of the places cite it"
