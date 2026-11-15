@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1476",
+    "date": "2026-11-15",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "9b5c39396"
+  },
+  {
     "version": "v0.1.1475",
     "date": "2026-11-15",
     "what": "dev@PrompTugal.vicky: the Storm Charles block off the front page, at Vicky's word",
