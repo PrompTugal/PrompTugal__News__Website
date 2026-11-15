@@ -273,6 +273,7 @@
     "identity_other": "**This site's identity:** {key} in [board/keys.json]({keys}); the signature over `{file}` could not be checked.",
     "identity_nokey": "no site key yet",
     "api_index_about": "PrompTugal.news by place: each place, its status, its agent, its counts, its page and its own JSON (api/v1/by-place/<id>.json)",
-    "api_place_about": "PrompTugal.news {name}: the place's research as served on its page, its lists checked at build (http(s) links only, stories newest first), with its site identity as verified"
+    "api_place_about": "PrompTugal.news {name}: the place's research as served on its page, its lists checked at build (http(s) links only, stories newest first), with its site identity as verified",
+    "locator_link": "The Algarve and its 17 places"
   }
 }

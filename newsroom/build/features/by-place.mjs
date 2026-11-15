@@ -142,7 +142,7 @@ function townPage(ctx, L, p) {
     if (wider.length) md += `## From the Algarve {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
     if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest)}`
     md += `## The AI map {#map}\n\n${W(L, 'map_intro', { name: p.name })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
-    md += `:::\n::: col\n` + sideCol(ctx, L, p, rel, inside)
+    md += `:::\n::: col\n` + (Array.isArray(p.at) ? `{.bp-svgmap .bp-locator}\n[${esc(ctx, W(L, 'locator_link'))}](${ctx.link(rel, 'algarve/index.html')})\n\n` : '') + sideCol(ctx, L, p, rel, inside)
     md += `:::\n:::\n\n` + testNote(ctx, L, rel, p)
     const accent = (p.look && p.look.accent) || DEF_ACCENT
     return {
@@ -152,7 +152,7 @@ function townPage(ctx, L, p) {
         title: `PrompTugal.news ${p.name}`,
         summary: W(L, 'town_summary', { name: p.name, local: n(local.length, 'local AI story', 'local AI stories'), map: n((p.ai_map || []).length, 'organisation') }),
         assets: { css: ['assets/by-place/by-place.css'], js: ['assets/by-place/by-place.js'] },
-        postHtml: html => `<div class="bp-frame" data-place="${p.id}" style="--accent:${accent}">${html}</div>`,
+        postHtml: html => `<div class="bp-frame" data-place="${p.id}" style="--accent:${accent}">${html.replace(/<p class="bp-svgmap bp-locator">([\s\S]*?)<\/p>/, (m, link) => `<figure class="bp-svgmap bp-locator">${algarveSvg(ctx, L, rel, towns(L), p.id)}<figcaption>${link}</figcaption></figure>`)}</div>`,
         md,
     }
 }
@@ -164,7 +164,7 @@ const VIEW = { w: 1000, h: 470, lon0: -9.12, lon1: -7.30, lat0: 36.92, lat1: 37.
 let OUTLINE = null, TMPL = null
 const fillT = (t, v) => t.replace(/\{\{(\w+)\}\}/g, (_, k) => v[k] ?? '')
 const xmlEsc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;')
-function algarveSvg(ctx, L, rel, T) {
+function algarveSvg(ctx, L, rel, T, focus) {
     if (!OUTLINE) { try { OUTLINE = ctx.readJSON('assets/portugal/algarve-outline.json') } catch { OUTLINE = { countries: {} } } }
     if (!TMPL) { loadTmpl(ctx) }
     const k = Math.cos(37.2 * Math.PI / 180)
@@ -179,7 +179,7 @@ function algarveSvg(ctx, L, rel, T) {
         const side = t.label || 's'
         const [lx, ly, anchor] = side === 'n' ? [x, y - g, 'middle'] : side === 'e' ? [x + g, y + 5, 'start'] : side === 'w' ? [x - g, y + 5, 'end'] : side === 'sw' ? [x + 8, y + g + 12, 'end'] : [x, y + g + 12, 'middle']
         return fillT(TMPL.pin, {
-            href: ctx.link(rel, `${t.path}index.html`), accent: (t.look && t.look.accent) || DEF_ACCENT, x, y, r: r.toFixed(1), cls: t.status === 'live' ? 'live' : 'ring',
+            pincls: focus ? (t.id === focus ? ' focus' : ' dim') : '', href: ctx.link(rel, `${t.path}index.html`), accent: (t.look && t.look.accent) || DEF_ACCENT, x, y, r: r.toFixed(1), cls: t.status === 'live' ? 'live' : 'ring',
             lx: lx.toFixed(1), ly: ly.toFixed(1), anchor, name: xmlEsc(t.name),
             title: xmlEsc(W(L, 'pin_title', { name: t.name, local: n(t.ai_news.length, 'local AI story', 'local AI stories'), map: t.ai_map.length })),
         })

@@ -223,3 +223,14 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame .bp-status td:first-child { overflow-wrap: normal; word-break: normal; hyphens: manual; }
 .bp-frame .col + .col > ul:not([class]) > li { font-weight: 400; }
 .bp-frame .col + .col > ul:not([class]) > li > a { font-weight: 600; }
+/* the locator on a town page: the region map, this town picked out */
+.bp-frame figure.bp-locator { margin: 0 0 18px; }
+.bp-frame figure.bp-locator svg { min-width: 0 !important; }
+.bp-frame figure.bp-locator { overflow: hidden !important; }
+.bp-locator .bp-pin.dim text { display: none; }
+.bp-locator .bp-pin.dim circle { r: 7px; opacity: .55; }
+.bp-locator .bp-pin.focus text { font-size: 34px; }
+.bp-locator .bp-pin.focus circle { r: 15px; }
+.bp-locator .sea-l, .bp-locator .es-l { display: none; }
+.bp-frame figure.bp-locator figcaption { padding: 6px 10px; font: 400 12.5px/1.4 var(--sans); border-top: 1px solid var(--hair); }
+.bp-locator .bp-pin.focus circle { fill: var(--accent); stroke: var(--paper); stroke-width: 4; }
