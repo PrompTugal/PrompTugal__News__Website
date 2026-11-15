@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1470",
+    "date": "2026-11-15",
+    "what": "analyst@PrompTugal.vicky: key analyst-vicky-promptugal; checked proposal 2026-11-15",
+    "by": "analyst@PrompTugal.vicky",
+    "from": "6036c620a"
+  },
+  {
     "version": "v0.1.1469",
     "date": "2026-11-15",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
