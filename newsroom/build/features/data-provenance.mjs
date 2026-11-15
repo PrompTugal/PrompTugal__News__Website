@@ -74,7 +74,7 @@ function placeBox(ctx, p, rel) {
     const lines = [
         `**${W.pv_kept}** ${p.agent || ''}${h ? `, ${h.first ? fillT(W.pv_commits, { n: h.count, first: h.first.at, last: h.last.at }) : fillT(W.pv_last, { last: h.last.at, who: h.last.who || '' })}` : ''}`,
         `**${W.pv_signed}** ${sig}`,
-        `**${W.pv_rests}** ${fillT(W.pv_rests_text, { items: s.items, urls: s.urls, hosts: s.hosts })}${s.first ? `, ${fillT(W.pv_read, { first: dmy(s.first), last: dmy(s.last) })}` : ''}`,
+        `**${W.pv_rests}** ${fillT(W.pv_rests_text, { items: s.items, urls: s.urls, hosts: s.hosts })}${s.first ? `, ${s.first === s.last ? fillT(W.pv_read_on, { day: dmy(s.first) }) : fillT(W.pv_read, { first: dmy(s.first), last: dmy(s.last) })}` : ''}`,
         `**${W.pv_captured}** ${!s.urls ? W.pv_none : s.captured ? fillT(W.pv_captured_text, { n: s.captured, of: s.urls, at: dmy(s.capturedAt) || '' }) : fillT(W.pv_captured_zero, { of: s.urls })}`,
     ]
     return `::: pv-box\n{.pv-h}\n${W.pv_title}\n\n${lines.map(l => `- ${l}`).join('\n')}\n\n{.more-line}\n[${W.pv_every}](${ctx.link(rel, `query/${p.id}/provenance/index.html`)})\n:::\n\n`

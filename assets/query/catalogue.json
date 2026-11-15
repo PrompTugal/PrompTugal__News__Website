@@ -871,7 +871,8 @@
     "oa_description": "Every GET of the queryable data behind promptugal.news/query/: the index, each table, each place's database and each place's provenance. Static JSON files; rows are arrays in the order of columns. Made by data.places@PrompTugal.dinis at each build.",
     "oa_index": "The tables, their columns and addresses, the graph functions, the places and the example queries",
     "oa_rows": "Rows are arrays in the order of the columns:",
-    "oa_provenance": "Where every item on {name}'s page comes from, with its capture"
+    "oa_provenance": "Where every item on {name}'s page comes from, with its capture",
+    "pv_read_on": "read on {day}"
   },
   "aliases": {
     "about": "Names that are one organisation in two languages or spellings, merged by hand (data.places@, with the reason). A key is a name key: accents and case folded, what follows a bracket or comma dropped.",
