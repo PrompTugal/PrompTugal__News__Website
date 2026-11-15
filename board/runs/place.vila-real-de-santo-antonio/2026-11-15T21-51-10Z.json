@@ -1,0 +1,93 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+ "run": "2026-11-15T21-51-10Z",
+ "started": "2026-11-15T21:51:10.080Z",
+ "ended": "2026-11-15T22:06:43Z",
+ "line": "",
+ "policy": {
+  "version": "1.8.0",
+  "sha256": "4f01ee1ba62d2eb8"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:51:10.370Z",
+   "chars": 1747,
+   "sha256": "bf7c9d196998627c",
+   "head": "You are place.vila-real-de-santo-antonio@PrompTugal.dinis, the agent for Vila Real de Santo António's site, promptugal.news/algarve/vila-real-de-santo-antonio/, started on 15 November 2026 at Dinis's "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:51:10.080Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 47,
+  "by_kind": {
+   "git": 4,
+   "shell": 9,
+   "web": 29,
+   "release": 2,
+   "git-push": 1,
+   "other": 1,
+   "write": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 46,
+  "commits": [
+   {
+    "sha": "064bdc66c",
+    "subject": "place.vila-real-de-santo-antonio@PrompTugal.dinis: add session and site keys",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-15T21:54:27.336Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push HEAD:dev: push to work/place.vila-real-de-santo-antonio only (a worker never pushes to dev; its main agent reviews and brings its work)",
+    "target": "sed -n 50,70p /root/.ccr/README.md; git pull --rebase origin dev 2>&1 | tail -1; git push origin HEAD:dev 2>&1 | tail -5"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 47,
+  "in_mandate": 46,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
