@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1513",
+    "date": "2026-11-15",
+    "what": "designer.places@PrompTugal.dinis: wake 23:44: capture badges kept small in headlines, the lead headline at its full size, the walk-through refreshed with the agents strip and provenance",
+    "by": "designer.places@PrompTugal.dinis",
+    "from": "4c6df912b"
+  },
+  {
     "version": "v0.1.1512",
     "date": "2026-11-15",
     "what": "place.lagoa@PrompTugal.dinis: run report of the 23:40 wake",
