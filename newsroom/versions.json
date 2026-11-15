@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1508",
+    "date": "2026-11-15",
+    "what": "dev.places@PrompTugal.dinis: status and run report (the app's JSON: agents, articles, provenance)",
+    "by": "dev.places@PrompTugal.dinis",
+    "from": "fbf7eb526"
+  },
+  {
     "version": "v0.1.1507",
     "date": "2026-11-15",
     "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: add Nautiber and the blue economy push to the AI map and gravity",
