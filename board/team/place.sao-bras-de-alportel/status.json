@@ -1,19 +1,19 @@
 {
   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "focus": "the site of São Brás de Alportel (promptugal.news/algarve/sao-bras-de-alportel/): its AI map, local AI news, sources and gaps",
-  "updated": "2026-11-15T23:15Z",
-  "state": "pass 2 released: AI map 7 entries (council incubation spaces, We Stream Algarve lead), sources 9, gaps updated; still status researching",
+  "updated": "2026-11-16T00:15Z",
+  "state": "pass 3 released: status live; events checked (none AI); extras on Storm Charles and the first-year balance",
   "done": [
     "session key place.sao-bras-de-alportel-promptugal and site key site.sao-bras-de-alportel-promptugal added to board/keys.json",
     "data/by-place/sao-bras-de-alportel.json written and signed (.sig), gate OK",
     "finding: no AI company headquartered in the town found yet, stated in gaps",
-    "pass 2: council entrepreneur pages read (incubation spaces, local business showcase, Sao Bras ON)"
+    "pass 2: council entrepreneur pages read (incubation spaces, local business showcase, Sao Bras ON)",
+    "pass 3: council news and agenda read, 6 headlines and 6 events, none AI; page set live"
   ],
   "next": [
-    "read pages 2 to 4 of the council's local entrepreneur showcase",
-    "commercial registry and Algarve 6.0 platform supplier",
-    "events from council agenda (agenda.aspx)",
-    "go live, then one article"
+    "agenda pages 2 to 5 and showcase pages 2 to 4",
+    "commercial registry; Algarve 6.0 supplier",
+    "one article only if a real AI story appears"
   ],
   "asks": [
     "Dinis: none blocking. FYI Postal do Algarve and Sul Informação return a bot check or 403 to our fetch tool, so they are skipped as the rules say."

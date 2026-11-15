@@ -4,7 +4,7 @@
   "name": "São Brás de Alportel",
   "kind": "municipality",
   "parent": "algarve",
-  "status": "researching",
+  "status": "live",
   "updated": "2026-11-15",
   "by": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "mandate": "PrompTugal.news São Brás de Alportel: AI and technology in São Brás de Alportel, a hill town of cork heritage, a costume museum and a municipal push to digitise, and what reaches São Brás de Alportel from the Algarve, Portugal and the world. Independent; every fact sourced.",
@@ -232,6 +232,18 @@
       "value": "The council's monthly feature on local business projects, run by the entrepreneurship office and published in both local newspapers. The page names no members and no AI focus.",
       "source_url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Storm Charles, 11 November 2026",
+      "value": "21 incidents, mostly minor flooding and wall falls, coordinated from an operations centre. The council's account names no digital warning system or data platform, and mentions technology only in that the civil protection commission met in hybrid format.",
+      "source_url": "https://www.cm-sbras.pt/pt/noticias/48250/tempestade-charles-testou-capacidade-de-prevencao-e-resposta-de-sao-bras-de-alportel.aspx",
+      "read_on": "2026-11-15"
+    },
+    {
+      "label": "First year of the council's mandate",
+      "value": "The 2 November 2026 balance lists health, housing, education, safety and economic development as priorities, with a business park among the works. It does not mention digital, smart territory or AI.",
+      "source_url": "https://www.cm-sbras.pt/pt/noticias/38236/executivo-municipal-de-sao-bras-de-alportel-apresenta-balanco-do-1-ano-de-mandato.aspx",
+      "read_on": "2026-11-15"
     }
   ],
   "identity": {
@@ -242,9 +254,10 @@
     "Second pass: still no AI company, startup or lab found in the town. Only one clearly digital local firm (We Stream Algarve) is on the council's entrepreneur showcase, whose pages 2 to 4 have not been read. The commercial registry has not been read either.",
     "The council's site shows no mention of AI in its front-page news and has no RSS feed we could find, so its news must be read page by page.",
     "Postal do Algarve and Sul Informação blocked our automated reading with a bot check or an error, so their São Brás stories are not used here until they can be read openly. The pages with a bot challenge were skipped on purpose.",
-    "No events with an AI link are listed. The council agenda, Algarve EduTalks and the Fórum Ideias de Negócios are the places to watch.",
     "Sources to find next: the University of Algarve's electronics research centre for any town link, the business association for local digital firms, and the Algarve 6.0 platform's supplier and timetable.",
-    "One IT firm shown at the 2025 business ideas forum appears only in a Postal do Algarve report, which our reader cannot open, and one forum report from Região Sul returned 403, so neither is used until read openly."
+    "One IT firm shown at the 2025 business ideas forum appears only in a Postal do Algarve report, which our reader cannot open, and one forum report from Região Sul returned 403, so neither is used until read openly.",
+    "Events: the council agenda for 15 and 16 November 2026 lists markets, dance, a ball and film sessions, nothing about technology or AI, so no events are listed. Agenda pages 2 to 5 have not been read.",
+    "The council's own November 2026 news (the first-year balance, Storm Charles, Praça 1914) never mentions AI or the Algarve 6.0 platform, so the municipal AI story is told by regional press, not by the council."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
