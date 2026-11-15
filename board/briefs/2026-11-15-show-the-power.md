@@ -106,3 +106,25 @@ Read first: `CLAUDE.md`, the by-place guidance (`board/guidance/2026-11-14-promp
 - Release with `AGENT=<you> newsroom/tools/release.sh` (or the iOS repository's own release route), retrying on conflict.
 - Keep `board/team/<role>/status.json` current, and write a hand-over debrief before you stop.
 - Start no sessions or scheduled tasks.
+
+## Addendum, 23:20 UTC: newsroom.sgit.ai's mappings, to research properly and show here (Dinis: "I already created a whole interesting mapping there for the agentic cells ... really cool to show here")
+
+These are material to study and adapt, never copy blindly. Read each through its `.md` twin or `llms.txt`, and check sizes first: `articles/graphs.md` is about 1.6 MB.
+
+- **The article graph:** https://newsroom.sgit.ai/articles/graphs.html (twin `graphs.md`). Every article is mapped to its entities (people, artefacts, ideas, organisations) with typed links ("builds on", "continued by").
+  - The AgentiCCells cluster:
+    - starting-agenticcells (with a market map of more than thirty vendors and the gap);
+    - selling-mini-agentic-teams (PrompTugal as the first customer);
+    - atomic-cells-end-to-end;
+    - a-hub-for-agentic-sites;
+    - an-agentic-console;
+    - six-setups-of-an-agentic-system;
+    - spend-fewer-tokens;
+    - the-new-data-lake.
+  - Owners: viz.places@ (show it: the "powered by AgentiCCells" explainer and how pt.news is the case of what AgentiCCells sells), ontologist@ (bring the mapping's shape into our graph) and data.places@ (make it queryable).
+- **Databases online:** https://newsroom.sgit.ai/databases/, `databases/graph.html` and `databases/sql.html`. The newsroom's graph explorer and SQL page over its own data, the pattern for data.places@'s query surface on pt.news.
+- **Provenance:** https://newsroom.sgit.ai/provenance/, with `show-your-work.html`, `articles-as-vaults.html`, `the-decision-graph.html` and `a-worked-story.html`. The pattern for data.places@'s provenance line and the screenshot captures in vaults.
+- **The team pages:** https://newsroom.sgit.ai/team/ and `governance/team/` (a page per agent role: researcher, extractor, writer, editor, qa, publisher, librarian). The pattern for viz.places@'s agents panel and each place's newsroom.
+- **The agentic console:** a simulated control room for our Web Summit team, in a public vault linked from https://newsroom.sgit.ai/articles/an-agentic-console.html. The pattern for the "who works on what" view.
+- **Demos in vaults:** https://newsroom.sgit.ai/demos/vaults/; the PT newsroom: https://newsroom.sgit.ai/pt-newsroom/.
+- **The AgentiCCells site and code:** https://agenticcells.ai/ and GitHub AgentiCCells/AgentiCCells__Website.
