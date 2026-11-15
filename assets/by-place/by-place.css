@@ -217,3 +217,5 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 /* dark themes: the pins and the town cards' rules lifted so each place's colour still reads on the dark paper */
 :root[data-theme="ink"] .bp-svgmap .bp-pin circle, :root[data-theme="dark"] .bp-svgmap .bp-pin circle, :root[data-theme="azulejo"] .bp-svgmap .bp-pin circle { filter: brightness(1.7) saturate(1.1); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme]) .bp-svgmap .bp-pin circle { filter: brightness(1.7) saturate(1.1); } }
+.bp-frame ul.bp-cards > li > em.bp-town { display: block; margin: 0 0 4px; font: 700 10.5px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.bp-frame ul.bp-cards > li > em.bp-town + strong { display: block; margin-bottom: 4px; }

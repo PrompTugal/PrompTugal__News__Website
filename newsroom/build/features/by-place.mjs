@@ -50,7 +50,7 @@ function esc(ctx, s) { return ctx.md.cell(String(s ?? '')) }
 function newsCards(ctx, items, cls) {
     if (!items || !items.length) return ''
     return `{.bp-cards${cls ? ' .' + cls : ''}}\n` + items.map(a =>
-        `- **[${esc(ctx, a.title)}](${url(a.url)})**${a.summary ? ` ${esc(ctx, a.summary)}` : ''} *${esc(ctx, [a.publisher || host(a.url), dmy(a.date)].filter(Boolean).join(', '))}${a.ai_path ? ` · AI path${typeof a.steps === 'number' ? ` (${a.steps === 0 ? 'direct' : n(a.steps, 'step')})` : ''}: ${esc(ctx, String(a.ai_path).replace(/\.$/, ''))}` : ''}*`
+        `- ${a._town ? `\`${esc(ctx, a._town)}\` ` : ''}**[${esc(ctx, a.title)}](${url(a.url)})**${a.summary ? ` ${esc(ctx, a.summary)}` : ''} *${esc(ctx, [a.publisher || host(a.url), dmy(a.date)].filter(Boolean).join(', '))}${a.ai_path ? ` · AI path${typeof a.steps === 'number' ? ` (${a.steps === 0 ? 'direct' : n(a.steps, 'step')})` : ''}: ${esc(ctx, String(a.ai_path).replace(/\.$/, ''))}` : ''}*`
     ).join('\n')
 }
 
@@ -207,7 +207,7 @@ function regionPage(ctx, L) {
     for (const t of [p, ...T]) for (const m of (t.ai_map || [])) allMap.push({ ...m, _place: t.id === 'algarve' ? 'the region' : t.name })
     const seen = new Set(), map = allMap.filter(m => { const k = m.name.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true })
     const localCount = T.reduce((s, t) => s + (t.ai_news || []).length, 0)
-    const latestLocal = T.flatMap(t => (t.ai_news || []).map(a => ({ ...a, title: `${t.name}: ${a.title}` }))).sort((a, b) => String(b.date || '').localeCompare(String(a.date || ''))).slice(0, 8)
+    const latestLocal = T.flatMap(t => t.ai_news.map(a => ({ ...a, _town: t.name }))).sort((a, b) => String(b.date || '').localeCompare(String(a.date || ''))).slice(0, 8)
     let md = mast(ctx, L, p, `[Portugal](${ctx.link(rel, 'portugal/index.html')})`)
     md += `\n{.bp-tiles}\n- **${T.length}** places in the first wave\n- **${localCount}** local AI stories\n- **${map.length}** on the AI map\n- **${T.filter(t => t.status === 'live').length}** places live\n\n`
     md += `## The map {#places}\n\n{.bp-lede}\n${W(L, 'region_map_lede')}\n\n{.bp-svgmap}\n${T.map(t => `[${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)})`).join(' · ')}\n\n`
@@ -233,6 +233,9 @@ function regionPage(ctx, L) {
         summary: W(L, 'region_summary', { count: T.length, local: n(localCount, 'local AI story', 'local AI stories'), map: n(map.length, 'organisation') }),
         assets: { css: ['assets/by-place/by-place.css'], js: ['assets/by-place/by-place.js'] },
         postHtml: html => {
+            if (!TMPL) loadTmpl(ctx)
+            const accOf = new Map(T.map(t => [t.name, (t.look && t.look.accent) || DEF_ACCENT]))
+            html = html.replace(/<li><code>([^<]+)<\/code> /g, (m, name) => accOf.has(name.replace(/&amp;/g, '&')) ? fillT(TMPL['town-label'], { accent: accOf.get(name.replace(/&amp;/g, '&')), name }) : m)
             html = html.replace(/<p class="bp-svgmap">[\s\S]*?<\/p>/, () => `<figure class="bp-svgmap">${algarveSvg(ctx, L, rel, T)}</figure>`)
             html = `<style>${townStyles(ctx, T)}</style>` + html
             return `<div class="bp-frame bp-region" data-place="algarve" style="--accent:${(p.look && p.look.accent) || DEF_ACCENT}">${html}</div>`
