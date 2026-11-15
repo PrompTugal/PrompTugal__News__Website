@@ -2080,6 +2080,42 @@
         "fingerprint": "sha256:5f6875723d1b8f43",
         "signing_fingerprint": "sha256:d50beea261bba6f0"
       }
+    },
+    {
+      "id": "place.monchique-promptugal",
+      "agent": "place.monchique@PrompTugal.dinis",
+      "label": "place.monchique@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The Monchique place agent: data/by-place/monchique.json and its research and publish loop for promptugal.news/algarve/monchique/, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1ccmAMzV+CejM4rNgI8j\nvuSN4jCThtKcUoRksookZpVSKUx7OtA2XOxWUfmS1zi0g3ZEGM+ueKFjJbo+agZL\nmgjeQLpLk8wY1QGiksIxAT+5gk18XjD32yc13lrW/mujP+EdtCYzNyzoA1WQPiYd\nVP0x+8LtOfbkVikq/RVm11izcvWc/R2LyReJhcGa4knfW2zIEf1zLFjFEpqtEo5S\nMWcGFEoPm4PKMW8xc3YzXqFhLQCCLeVSJyv3boCFDol+roROxSuPxKs/RJ798EJO\n7MyZY3zJFYfGKGfomUYdlhsN9jNmQezheCda9xUP75vcW+pnHTo9ArFe1hqy0Mgr\nrs2rSQSlJzDNgJH/CPb5P2aQDIK7NZ0888vqCgo8o2d3iUqXXyWDjcV2SKX+w8s6\n6CnavAabEeezhkXGdW9nHIC70UUe4PfZlFiGspOOakzH9GsMr7IplDqZkahr7Oea\nq7CYqk7/3XaBe7gc1OBgK2JKhY/hwZLuxt181JlCrty1SvBQnQbaPxnV63o0CJ2m\nduqd1uUu/lLTcrW5BEICY2E3N4Td721/pAJXSTAt5CFVvwqxa7n1W6dS0EKKNoDZ\nyEG2cpORLOduApubWHu2VN7vJH/pmTMXVIvd6vAuHsgIXDbSNo7tEmN5DNYRJ8Ep\nhK+6otJaoESOKR/10CBqZV8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEG7TC/NuHzGuPsbKRdYlRU96kcSr\nQ7+YRojv1HeK+/o7ICOR0f8V1MRbxhWbOrDnamWe3RyTdX3FK3W3xOUn6Q==\n-----END PUBLIC KEY-----\n",
+        "label": "place.monchique@PrompTugal.dinis",
+        "fingerprint": "sha256:63d391aad5818e80",
+        "signing_fingerprint": "sha256:960c92e4f3212c70"
+      }
+    },
+    {
+      "id": "site.monchique-promptugal",
+      "agent": "place.monchique@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/monchique/",
+      "label": "Site identity of promptugal.news/algarve/monchique/ (signs data/by-place/monchique.json)",
+      "role": "The site key of the Monchique place site; the file data/by-place/monchique.json.sig verifies against it. Held in the place agent's session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAl+3r3CpWPtNKJn4DyPXp\nsq9MKUIkwPQ/fG2ELb6HAld4/yWVoRr3BvZRLTyc4BclrPgT4LPQQIoayPGwX1Ws\nXAJcO0/Se4L9bskG1enPEKT70wjs+8OM1A8s6oBN1mia61/x6DhjeNh28n4u4fZ5\ndFR1RHTHS1RmBvb4IZgLopR7nQvZxu9sXYSmfFA3jXQretsbTChkMEq+LT4JCUJC\nDh4yD+BmyU0N/4Knsgvu937gS6hCKqiPqgnGQnG+suhO+3YHqX95lRp3FLUoYCeE\niT26/Kqxczm930JqkvKRgKv1+B4oQPUgW25U5QLIi+U/DHbMmPNfeHIlt8owr57D\nIIViTLX+yunqYg65C9gzbSRQznBs72WwlnFfGcQ+mN9KFR+lk5lU26jcQlbfkOUJ\noouXCLTFqGgNLUZBOC/WvlzRmSHZ0P53M6oG6ktQ2fLbKZEvZBAqGa/XQhOB29ZF\n+AqPZ3gUqg95Itib2fxgZvgxNnIq+NAJP8AQsRNs6I60EF6BdYfJsLeb/h0ocGwy\nea+rSUzFtsSusScBdQEEtpUXzTiKRxfjyTDdde0L4Y1pgGhfiQ/9GOidB1KylqlM\nw5kmXjUBFn4bP2dXxctAvC9MN4RyThHlqbDAyRVLiU6TJwnlKibNZq/NguFGSv8E\nYbZcEZV3xmtYtR20LkrYXc8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEP8lILyYbA4SEacUFKakxB1/+0lRA\ntCdzhV5XaLufwAFHmIqLki0fT8TsGIqO7+xYghBxK3q9bEZtFWkdd4fqwA==\n-----END PUBLIC KEY-----\n",
+        "label": "site.monchique-promptugal",
+        "fingerprint": "sha256:dbf39cd76dceac95",
+        "signing_fingerprint": "sha256:2d6f65ee118568f6"
+      }
     }
   ]
 }
