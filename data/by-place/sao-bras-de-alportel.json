@@ -11,12 +11,28 @@
   "gravity": {
     "text": "São Brás de Alportel is a small inland municipality whose identity rests on heritage (the Museu do Traje, the cork industry and now Praça 1914, an outdoor industrial heritage space) and on a manufacturing base led by Globalfire, a fire-detection technology maker that is described as its largest employer and exporter. Its AI story is early and public-sector led: the council is a partner in the intermunicipal Algarve 6.0 smart territory project, runs a coworking space and an entrepreneur's office, and backs research at the University of Algarve.",
     "sources": [
-      { "title": "Município de São Brás de Alportel, official site", "url": "https://www.cm-sbras.pt", "read_on": "2026-11-15" },
-      { "title": "Município: Globalfire", "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx", "read_on": "2026-11-15" },
-      { "title": "Município: Praça 1914 joins the Rede Portuguesa de Turismo Industrial", "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx", "read_on": "2026-11-15" }
+      {
+        "title": "Município de São Brás de Alportel, official site",
+        "url": "https://www.cm-sbras.pt",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "Município: Globalfire",
+        "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "Município: Praça 1914 joins the Rede Portuguesa de Turismo Industrial",
+        "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
+        "read_on": "2026-11-15"
+      }
     ]
   },
-  "look": { "accent": "#8A4B1F", "landmark": "Museu do Traje", "motif": "cork bark, serra hills, the Sintra algarvia road" },
+  "look": {
+    "accent": "#8A4B1F",
+    "landmark": "Museu do Traje",
+    "motif": "cork bark, serra hills, the Sintra algarvia road"
+  },
   "ai_news": [
     {
       "title": "Town hall and University of Algarve prepare a knowledge and innovation pact",
@@ -70,12 +86,60 @@
     }
   ],
   "sources": [
-    { "name": "Município de São Brás de Alportel, news", "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx", "kind": "council", "feed": null },
-    { "name": "Município de São Brás de Alportel, agenda", "url": "https://www.cm-sbras.pt/pt/agenda.aspx", "kind": "council", "feed": null },
-    { "name": "Município: Gabinete do Empreendedor", "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx", "kind": "council", "feed": null },
-    { "name": "Barlavento", "url": "https://www.barlavento.pt", "kind": "press", "feed": null },
-    { "name": "Sul Informação", "url": "https://www.sulinformacao.pt", "kind": "press", "feed": null },
-    { "name": "Postal do Algarve", "url": "https://postal.pt", "kind": "press", "feed": null }
+    {
+      "name": "Município de São Brás de Alportel, news",
+      "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Município de São Brás de Alportel, agenda",
+      "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Município: Gabinete do Empreendedor",
+      "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Barlavento",
+      "url": "https://www.barlavento.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Sul Informação",
+      "url": "https://www.sulinformacao.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Postal do Algarve",
+      "url": "https://postal.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Município: Espaços de Incubação",
+      "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Município: Os nossos Empreendedores (local business showcase)",
+      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Município: São Brás ON, Rede Empresarial",
+      "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
+      "kind": "council",
+      "feed": null
+    }
   ],
   "events": [],
   "ai_map": [
@@ -110,16 +174,6 @@
       "steps": 3
     },
     {
-      "name": "Ninho de Empreendedorismo da Vila",
-      "type": "organisation",
-      "url": "https://www.barlavento.pt/forum-ideias-de-negocio-regressa-a-sao-bras-de-alportel/",
-      "what": "Incubation space in Parque da Vila, announced for opening at the 2023 business ideas forum.",
-      "source_url": "https://www.barlavento.pt/forum-ideias-de-negocio-regressa-a-sao-bras-de-alportel/",
-      "read_on": "2026-11-15",
-      "ai_path": "An incubator where local startups, including any building with AI, could be hosted. No AI use reported.",
-      "steps": 3
-    },
-    {
       "name": "Digital Commerce Accelerator, local actions in São Brás",
       "type": "public body",
       "url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
@@ -128,19 +182,69 @@
       "read_on": "2026-11-15",
       "ai_path": "Digitising small firms is the step before they adopt AI tools.",
       "steps": 3
+    },
+    {
+      "name": "Ninho de Empreendedorismo da Vila",
+      "type": "organisation",
+      "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+      "what": "Municipal incubation space in the village square, with one individual office, three coworking desks, two spaces for digital nomads and a meeting room.",
+      "source_url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+      "read_on": "2026-11-15",
+      "ai_path": "A shared workplace where remote tech workers and local founders could build with AI. No AI use reported.",
+      "steps": 3
+    },
+    {
+      "name": "Ninho de Empreendedorismo 4 Olhos",
+      "type": "organisation",
+      "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+      "what": "Second municipal Ninho listed on the council's incubation page, supporting local founders with a space and resources.",
+      "source_url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+      "read_on": "2026-11-15",
+      "ai_path": "An incubator where AI-using startups could start. No AI use reported.",
+      "steps": 3
+    },
+    {
+      "name": "We Stream Algarve",
+      "type": "company",
+      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
+      "what": "Local business presented on the council's 'Os nossos Empreendedores' page, described there in terms of technology, communication, online work and digital solutions.",
+      "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
+      "read_on": "2026-11-15",
+      "ai_path": "The only clearly digital firm on the first page of the council's local entrepreneur showcase. The page does not mention AI, so this is a lead to check, not an AI claim.",
+      "steps": 3
     }
   ],
   "extras": [
-    { "label": "Largest employer and exporter (not AI)", "value": "Globalfire makes fire-detection technology in the Barracha industrial zone and exports to about 90 countries. The council page does not mention software or AI, so it is context, not an AI map entry.", "source_url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx", "read_on": "2026-11-15" },
-    { "label": "Praça 1914", "value": "Joined the Rede Portuguesa de Turismo Industrial on 10 November 2026 (council news), described as the first outdoor site of the network on the mainland.", "source_url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx", "read_on": "2026-11-15" }
+    {
+      "label": "Largest employer and exporter (not AI)",
+      "value": "Globalfire makes fire-detection technology in the Barracha industrial zone and exports to about 90 countries. The council page does not mention software or AI, so it is context, not an AI map entry.",
+      "source_url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
+      "read_on": "2026-11-15"
+    },
+    {
+      "label": "Praça 1914",
+      "value": "Joined the Rede Portuguesa de Turismo Industrial on 10 November 2026 (council news), described as the first outdoor site of the network on the mainland.",
+      "source_url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
+      "read_on": "2026-11-15"
+    },
+    {
+      "label": "São Brás ON",
+      "value": "The council's monthly feature on local business projects, run by the entrepreneurship office and published in both local newspapers. The page names no members and no AI focus.",
+      "source_url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
+      "read_on": "2026-11-15"
+    }
   ],
-  "identity": { "key_id": "site.sao-bras-de-alportel-promptugal", "signed_by": "place.sao-bras-de-alportel@PrompTugal.dinis" },
+  "identity": {
+    "key_id": "site.sao-bras-de-alportel-promptugal",
+    "signed_by": "place.sao-bras-de-alportel@PrompTugal.dinis"
+  },
   "gaps": [
-    "We found no AI company, startup or lab headquartered in São Brás de Alportel. That is a finding for this first pass, not a final answer: the commercial registry and the Gabinete do Empreendedor's list of local firms have not been read.",
+    "Second pass: still no AI company, startup or lab found in the town. Only one clearly digital local firm (We Stream Algarve) is on the council's entrepreneur showcase, whose pages 2 to 4 have not been read. The commercial registry has not been read either.",
     "The council's site shows no mention of AI in its front-page news and has no RSS feed we could find, so its news must be read page by page.",
     "Postal do Algarve and Sul Informação blocked our automated reading with a bot check or an error, so their São Brás stories are not used here until they can be read openly. The pages with a bot challenge were skipped on purpose.",
     "No events with an AI link are listed. The council agenda, Algarve EduTalks and the Fórum Ideias de Negócios are the places to watch.",
-    "Sources to find next: the University of Algarve's electronics research centre for any town link, the business association for local digital firms, and the Algarve 6.0 platform's supplier and timetable."
+    "Sources to find next: the University of Algarve's electronics research centre for any town link, the business association for local digital firms, and the Algarve 6.0 platform's supplier and timetable.",
+    "One IT firm shown at the 2025 business ideas forum appears only in a Postal do Algarve report, which our reader cannot open, and one forum report from Região Sul returned 403, so neither is used until read openly."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
