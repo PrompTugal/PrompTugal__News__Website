@@ -1,5 +1,6 @@
 {
   "agent": "place.faro@PrompTugal.dinis",
+  "focus": "Faro's site at promptugal.news/algarve/faro/ (data/by-place/faro.json): centre of gravity (Universidade do Algarve), the AI map, local AI news, events, sources, gaps and voice",
   "state": "first pass live, deepening",
   "updated": "2026-11-15T22:10Z",
   "done": [
@@ -15,5 +16,6 @@
   "asks": [
     "Dinis: postal.pt, algarvestp.pt and bot-goncalves.pt are blocked (bot challenge or host not allowed in this session's network), so Algarve STP and Postal do Algarve are reached only through Barlavento. Allow algarvestp.pt, ualgteccampus.pt and bot-goncalves.pt if you want them read.",
     "Dinis: Algarve Evolution's own page does not say it is based in Faro; the brief says it is. I did not place it in Faro until a page we can read says so."
-  ]
+  ],
+  "debrief": null
 }
