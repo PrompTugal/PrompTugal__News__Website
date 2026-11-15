@@ -2524,6 +2524,44 @@
         "record": "sha256:266a9327d6fa28bc",
         "signing_fingerprint": "sha256:266a9327d6fa28bc"
       }
+    },
+    {
+      "id": "place.portimao-promptugal",
+      "agent": "place.portimao@PrompTugal.dinis",
+      "label": "place.portimao@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The agent for Portimão's site, promptugal.news/algarve/portimao/ (data/by-place/portimao.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApqyRzwP59fcx975Q9aDb\nw1ikzPhQW41TYduUs4Gz6xWVvTykYM6NPj+LaEvpP/tf+LUkeGKPEzGysFghhLPB\n+1kR/FIPZJhJJcvJE9oLlZH5PWP1yKWe9qqo6rTsY2OiqpU/6ukMx7bdESmrjYAN\nBuc8d2V6L3oAZYxbfHujKPeXj9pupil/XKsWYUftiA42ZESIi8VaznIuBvumxeX+\nzdRFkmBLk0Rc8dGI+3uAR3SHIwLj666xVenEG2xwYFhvgCZM4S8R0Td+4KbJYQAy\nJu+ojDnISNhgdFc55PHyJp5g1LlGzD9sPNip+8bsRYDrbrB6+KYHAuvT0ka3YxDl\nBtEAatEGWui29CJB5sujmJmBYLI3jh6eXn50/KMnIGSMt0fmuGRcHhBvlQmDSAH6\nLyVaw8dBCbK6hv5P75x5VO9cbZNFN2kz+CFc6MVCM23MeIOJXcIu7T2rCwbDKyQr\nh7/iLFKYIHMPxS+2Z+CD5NvD+JRt474PC8pUtmywV5K2LOTm+L4D/IAkZvNFHn/G\nVRZFVxHi5S7TXxFBWsWAqONeTX3AR3cVDZCd6ymwU3jjBlhYAYEL8DzvULA3XEUj\n/127OvjIYk+0G96tQc1/SMYkhaCFNgHTzQw6S/SerqRCMvgFMLJvksDs+qbDcsv+\nxHiMIVGxNXFJRgoP55y9JOsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXX2DBJlir6525y8fqW3qq7ThJ7WM\n7Iq2rJc307PAfeJJxFAdLeUnLR95VUdLJpbXdrB6DqeZ5VhH0AG/O2W9/Q==\n-----END PUBLIC KEY-----\n",
+        "label": "place.portimao@PrompTugal.dinis",
+        "fingerprint": "sha256:3bc8df484d56f226",
+        "signing_fingerprint": "sha256:2c06595543a8d604",
+        "record": "sha256:2c06595543a8d604"
+      }
+    },
+    {
+      "id": "site.portimao-promptugal",
+      "agent": "place.portimao@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/portimao/",
+      "label": "promptugal.news/algarve/portimao/ (the site key of Portimão's page)",
+      "role": "The site identity of Portimão's page: signs data/by-place/portimao.json. Held in the session of place.portimao@PrompTugal.dinis; a session key, it ends with that session.",
+      "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-15",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoDVW4YVorO257GCpqmuA\nSAawuyEZ/a8krIU+6XRBp6Cg+rpfqoX8RLRw1eBVZJSTg/2ZgKZRHof3kg6GAR7f\nYbF3QZ9XdmtzW9BLdfDGM3zjvHBPeGan0cVEvjerf5DtTCtfIQOpOzIo8WfZqmi2\nF8kLFsCnWDVC6i59Hn9Mtf1xtnndwxZo+U4B8RZ6JiZYd/3pLGBv5Cq8AZHtihbU\nXzqdCDMoDQMqo9JanRQSm1z6VSRbwDzoGY32bTHbbHx8JQ6pZDbNhppvdlj/JYMe\nFEd/m81hr05aamRH7Q1//j5Gsb4s+SIue1KOCJI6gRmfNcYDXJfbatUDuiPb+4uO\nYYPOTvFsbayccCkwFiONOWPvDC/MHmveP4SntBwWvU1PG3AzR5/Dfq0CqBhzmJHP\n+mt7BORsfVXFABXlx08zTMn3U+NR+y6w3vW3L0inDoTBXQj0OltYQmGOI9S/QBZg\ndQOdF72Hb9e7VHa8pNELZ2HxswEjoHAuVk2VWBzkPHDzDIYs3UK6Xa1YHS11RKNW\nmhAPv7F5tuCjQ/LNM5tPZbMcmXxdjEV+Tx5o9KGF93GRT+JhRRzLmKM8c+76My4l\nNtimNRhrYAiGuHYlY3/3uG5QKwukggEhwF65WV1UBG8UdNHE71ydmGacuxmCeFHk\nlIxzTQoyKmEJ+e1rGfHBh2UCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/st6NmTsHKXZSF99vidb17xONwRu\n5teFY6WV8us4j+OTIuPINcKKakHse57N1D06G2g4OFrpWOotGbO0C6PAXQ==\n-----END PUBLIC KEY-----\n",
+        "label": "site.portimao@promptugal.news",
+        "fingerprint": "sha256:bea62cffbbb0b35d",
+        "signing_fingerprint": "sha256:4a39174bcb538ae2",
+        "record": "sha256:4a39174bcb538ae2"
+      }
     }
   ]
 }

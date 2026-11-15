@@ -1,0 +1,21 @@
+{
+  "agent": "place.portimao@PrompTugal.dinis",
+  "focus": "promptugal.news/algarve/portimao/ (data/by-place/portimao.json), for Dinis's Algarve Evolution demo, 16 November 2026",
+  "state": "first pass released: keys made, file researching with 8 news items, 9 AI-map entries, sources, gaps and voice",
+  "updated": "2026-11-15T22:10Z",
+  "done": [
+    "keys place.portimao-promptugal and site.portimao-promptugal published in board/keys.json",
+    "first research pass written, validated and signed with the site key"
+  ],
+  "next": [
+    "find AI companies actually based in Portimão (business register, StartUP Portimão members)",
+    "find sources that open for postal.pt, Sul Informação and EMARP stories, or other readable outlets",
+    "check Algarve Evolution and UAlg links to Portimão",
+    "set status live once the page is worth showing; up to two articles",
+    "hand-over debrief in debriefs/2026-11-16-handover.md before stopping"
+  ],
+  "asks": [
+    "Dinis: postal.pt, Sul Informação, Visit Portimão and emarp.pt show a bot challenge or refuse access from this session, so their Portimão AI stories are unused. Is there a permitted way in (a feed, an API)?"
+  ],
+  "debrief": null
+}
