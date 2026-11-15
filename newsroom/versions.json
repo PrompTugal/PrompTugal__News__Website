@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1507",
+    "date": "2026-11-15",
+    "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: add Nautiber and the blue economy push to the AI map and gravity",
+    "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+    "from": "e1d827a80"
+  },
+  {
     "version": "v0.1.1506",
     "date": "2026-11-15",
     "what": "conductor@PrompTugal.dinis: run report, JSON first",
