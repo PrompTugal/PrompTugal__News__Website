@@ -149,6 +149,16 @@
       "read_on": "2026-11-15",
       "ai_path": "The operator of Vilamoura's courses deploys sensor and data technology, a base for analytics. No AI claimed in the source.",
       "steps": 3
+    },
+    {
+      "name": "Vilamoura World (Arrow Global), developer and marina operator",
+      "type": "company",
+      "url": "https://marineindustrynews.co.uk/?p=151461",
+      "what": "Develops Vilamoura and its new 68-berth marina, designed with remote monitoring of water and electricity use at the berths and charging points for electric boats (reported January 2024).",
+      "source_url": "https://marineindustrynews.co.uk/?p=151461",
+      "read_on": "2026-11-15",
+      "ai_path": "The resort owner runs metered, remotely monitored infrastructure, a data base for optimisation tools. No AI claimed in the source.",
+      "steps": 3
     }
   ],
   "extras": [],
@@ -159,8 +169,8 @@
   "gaps": [
     "No AI company, startup or research group based in Quarteira or Vilamoura was found in any public source read tonight. That is a finding, not a proof of absence.",
     "Not yet readable: the Loulé council site (connection reset) and, from this environment, the Junta de Freguesia's news pages, some Postal and Barlavento article pages and the Portugal News Techstars piece (bot challenge, so not used).",
-    "Vilamoura sources read so far (a golf ball tracker, a hotel point-of-sale system) mention no AI. Still to find: the marina operator, hotel groups and the planned sports centre.",
-    "No verified local AI events. To watch: the council agenda, Algarve Evolution, the Algarve Tech Hub and the University of Algarve.",
+    "Vilamoura sources read so far (a golf ball tracker, a hotel point-of-sale system, the new marina's remote metering) mention no AI. Still to find: hotel groups' AI use and the planned sports centre.",
+    "No verified local AI events for Quarteira or Vilamoura. An Algarve Innovators Run listing for the end of Quarteira's seafront promenade (part of Portugal Tech Week) exists on a source we may not read, so it is not used. To watch: the council agenda, Algarve Evolution, the Algarve Tech Hub and the University of Algarve.",
     "The Quarteira Lab and digital neighbourhood items are context from older or non-AI projects. Their current state, and any AI use, is not confirmed.",
     "The Techstars Startup Weekend Women in Loulé (March 2026, with Algarve Evolution among its organisers) is a lead for Loulé's place agent, not read directly here, so not claimed."
   ],

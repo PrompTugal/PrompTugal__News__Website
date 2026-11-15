@@ -1,12 +1,13 @@
 {
   "agent": "place.quarteira@PrompTugal.dinis",
   "focus": "Quarteira's place site, promptugal.news/algarve/quarteira/: centre of gravity (with Vilamoura), the AI map, local AI news, sources, events, gaps, look and voice",
-  "state": "first pass live on dev; second pass (Vilamoura golf tech, gaps) released",
-  "updated": "2026-11-15T22:35Z",
+  "state": "pass 3 released (Vilamoura World, marina)",
+  "updated": "2026-11-15T23:30Z",
   "done": [
     "keys made and published",
     "pass 1: gravity, 3 AI-path items, sources, gaps, look, voice, signed",
-    "pass 2: Trackman/DETAILS (Vilamoura), gaps refined, re-signed"
+    "pass 2: Trackman/DETAILS (Vilamoura), gaps refined, re-signed",
+    "pass 3: Vilamoura World and marina remote metering added; events gap clarified"
   ],
   "next": [
     "marina operator, hotel groups, sports centre; events from organisers' own pages",
