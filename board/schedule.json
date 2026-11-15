@@ -641,6 +641,42 @@
    "state": "enabled",
    "since": "2026-11-15T22:08Z",
    "note": "by-place team, account A, session session_018yvwtNtzuuJqbDtP9VfwsZ; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "ios.places@PrompTugal.dinis",
+   "minute": 20,
+   "cron": "20 * * * *",
+   "trigger": "trig_016wFrBPPBdWTFoxUNaDB5mw",
+   "state": "enabled",
+   "since": "2026-11-15T23:00Z",
+   "note": "show-the-power team, account A, session session_018yvwtMdYD3UV5XSJrL81sr; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours')"
+  },
+  {
+   "agent": "viz.places@PrompTugal.dinis",
+   "minute": 50,
+   "cron": "50 * * * *",
+   "trigger": "trig_019X6agikJxsbzDowG774s4K",
+   "state": "enabled",
+   "since": "2026-11-15T23:00Z",
+   "note": "show-the-power team, account A, session session_018yvwtR4eduNoxZqJ752PGx; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours')"
+  },
+  {
+   "agent": "data.places@PrompTugal.dinis",
+   "minute": 15,
+   "cron": "15 * * * *",
+   "trigger": "trig_01NSp49oZNuPptKgkkcc2tV2",
+   "state": "enabled",
+   "since": "2026-11-15T23:00Z",
+   "note": "show-the-power team, account A, session session_018yvwtPterYx76hQLt6WoKH; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours')"
+  },
+  {
+   "agent": "detective.places@PrompTugal.dinis",
+   "minute": 40,
+   "cron": "40 * * * *",
+   "trigger": "trig_01BsFVG2M9XqbeKt7CXh8Chd",
+   "state": "enabled",
+   "since": "2026-11-15T23:00Z",
+   "note": "show-the-power team, account A, session session_018yvwtQv8BStg5wSUx8RpVV; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours')"
   }
  ]
 }

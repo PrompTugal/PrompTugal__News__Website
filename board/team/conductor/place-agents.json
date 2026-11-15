@@ -1,5 +1,5 @@
 {
- "about": "The by-place team, started by conductor@PrompTugal.dinis on 15 Nov 2026, 21:48 to 21:51 UTC, at Dinis's word in its session (board/briefs/2026-11-15-the-place-agents.md). Account A. No scheduled tasks: each works through the night in its first run.",
+ "about": "The by-place team, started by conductor@PrompTugal.dinis on 15 Nov 2026, 21:48 to 21:51 UTC, at Dinis's word in its session (board/briefs/2026-11-15-the-place-agents.md). Account A. No scheduled tasks: each works through the night in its first run. Four more at Dinis's word on 15 Nov ~23:00 UTC (board/briefs/2026-11-15-show-the-power.md).",
  "started": "2026-11-15T21:51Z",
  "agents": [
   {
@@ -111,6 +111,30 @@
    "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
    "session": "session_018yvwtNtzuuJqbDtP9VfwsZ",
    "model": "Sonnet"
+  },
+  {
+   "agent": "ios.places@PrompTugal.dinis",
+   "session": "session_018yvwtMdYD3UV5XSJrL81sr",
+   "model": "Opus",
+   "started": "2026-11-15T23:00Z"
+  },
+  {
+   "agent": "viz.places@PrompTugal.dinis",
+   "session": "session_018yvwtR4eduNoxZqJ752PGx",
+   "model": "Opus",
+   "started": "2026-11-15T23:00Z"
+  },
+  {
+   "agent": "data.places@PrompTugal.dinis",
+   "session": "session_018yvwtPterYx76hQLt6WoKH",
+   "model": "Opus",
+   "started": "2026-11-15T23:00Z"
+  },
+  {
+   "agent": "detective.places@PrompTugal.dinis",
+   "session": "session_018yvwtQv8BStg5wSUx8RpVV",
+   "model": "Sonnet",
+   "started": "2026-11-15T23:00Z"
   }
  ]
 }

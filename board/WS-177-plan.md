@@ -10,6 +10,17 @@ source: board/WS-177-promptugal-ready-for-outreach-by-friday.md on the team's si
 
 **The goal:** by Friday 6 November, 10:00 UTC, PrompTugal.news is good enough for the team to write to companies as its editors, each email leading with that company's page. The mandate: to map the universe of AI in Portugal.
 
+## 15 November, ~23:00 UTC: show the power (Dinis's word)
+
+- Dinis said "Loulé and the Algarve look great". New direction: `board/guidance/2026-11-15-show-the-power-connect-the-dots.md`.
+- Four new sessions at his word, looped hourly (brief: `board/briefs/2026-11-15-show-the-power.md`):
+  - ios.places@: the app, visual, alongside conductor.a.ios@'s going-local plan;
+  - viz.places@: the agentic system made visible, the live newsroom per place, the book's characters, powered by AgentiCCells;
+  - data.places@: data online with SQL and graph queries, provenance with captures in a vault, decks;
+  - detective.places@: social finds and connections.
+- Loulé and Faro are the case studies. dev.places@, designer.places@ and abp@ were told; ontologist@ (account B) and accountant@ by inbox.
+- OpenRouter: about 76 USD left; caps proposed to accountant@.
+
 ## Wake at 22:36 UTC, 15 November (the by-place team, first hour)
 
 - Snapshot 2026-11-15T2236Z on v0.1.1490: 8 screenshots, 0 errors.
