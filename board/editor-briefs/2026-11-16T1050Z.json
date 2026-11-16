@@ -1,0 +1,49 @@
+{
+ "number": 11,
+ "date": "2026-11-16",
+ "kicker": "PrompTugal.news · the conductor brief · the Monday 12:00 stand-up",
+ "title": "Monday midday: the site is the places now, 36 of them, with live data up front",
+ "when": "Monday 16 November 2026, 10:50 UTC (for the 12:00 London stand-up)",
+ "by": "conductor@PrompTugal.dinis",
+ "headline": "Since the night: the home page leads with the places (a signed story on PrompTugal.news going local, a Portugal map, the Algarve's 17 towns each with a line, national and international below); 36 places, with 17 district capitals started by one new agent; live data from IPMA and Faro airport on every Algarve page, its links now human pages; translations of 732 segments in five languages waiting for their pages; 93 releases today.",
+ "stats": [
+  {"n": "36", "label": "places, an agent each (19 in the Algarve frame, 17 district capitals)"},
+  {"n": "282", "label": "local AI stories in the place files"},
+  {"n": "123", "label": "publishers read"},
+  {"n": "548", "label": "organisations on the AI maps"},
+  {"n": "732 x 5", "label": "segments translated (pt-PT, es-ES, fr-FR, de-DE, nl-NL)"},
+  {"n": "93", "label": "releases today (to v0.1.1607)"},
+  {"n": "4", "label": "airline flights near Faro at 10:51 UTC"}
+ ],
+ "for_you": [
+  {"group": "Waiting on you"},
+  {"id": "1", "ask": "Account B: the PrompTugal tasks there should not run (your word, 01:20). Disable them there, or tell me they are off.", "detail": "Marked in board/schedule.json; the conductor on account A cannot reach them."},
+  {"id": "2", "ask": "The App Store listing: name PrompTugal.news; subtitle 'Portugal's news, town by town' or 'Every story has an address'.", "detail": "Both fit 30 characters; the brand is yours."},
+  {"id": "3", "ask": "Releases: about thirty agents race for dev and release.sh loses; the conductor has pushed by hand right after a green gate since 05:15.", "detail": "A release queue or lock is for devops@ (not run since 8 November) and dev@; your call whether to wake them."}
+ ],
+ "you_asked": [
+  {"at": "Mon ~00:55", "said": "Reactivate the storm, lean; what can be shown locally", "done": "No incident agent restarted; board/tools/local-now.mjs reads IPMA and Faro airport for 17 places hourly; 'Now in <place>' at the top of every Algarve page"},
+  {"at": "Mon ~01:20", "said": "Everything in account A; the home page is the top place; the blast radius", "done": "Home page rebuilt; distances and neighbours briefed; nearby.json and tree.json live (datasci.places@)"},
+  {"at": "Mon ~03:20", "said": "Translators, never the same text twice", "done": "translator@ started; a memory keyed by each segment's hash; 732 segments in five languages; the /pt-PT/ pages are dev.places@'s next step"},
+  {"at": "Mon ~04:00", "said": "Pivot the home page to the places; a Portugal map; every district capital", "done": "Live; place.districts@ started: 17 capitals keyed, Lisboa and Porto first"},
+  {"at": "Mon ~04:25", "said": "Faro and flight data; a meta article as the lead", "done": "Live; the lead is 'PrompTugal.news goes local', signed"},
+  {"at": "Mon ~10:30", "said": "A line on each town; more statistics; drop the GAMMA-Ray band", "done": "Live"},
+  {"at": "Mon ~10:40", "said": "The live data is hidden and links JSON; the team on a loop", "done": "Moved to the top, human links; designer.places@ leads the loop (board/briefs/2026-11-16-live-data-up-front.md)"}
+ ],
+ "team": [
+  {"id": "place.* (19)", "status": "new", "doing": "hourly research and signed place files, the Algarve"},
+  {"id": "place.districts@", "status": "new", "doing": "17 district capitals, a sub-agent each"},
+  {"id": "translator@", "status": "new", "doing": "the translation memory, five languages"},
+  {"id": "dev.places@, designer.places@", "status": "new", "doing": "place pages, the live-data loop, the translated pages next"},
+  {"id": "data, datasci, viz, detective .places@", "status": "new", "doing": "data, API, maps, connections"},
+  {"id": "ios.places@", "status": "new", "doing": "the Places tab on TestFlight; first launch without the summit sheet"},
+  {"id": "conductor@", "status": "old", "doing": "hourly wakes; the board; the now data until datasci.places@ takes it"}
+ ],
+ "sections": [
+  {"title": "On the site since the night", "items": ["Home page: the places lead, a Portugal map, the 17 towns with a line each, 'By the numbers', national and international below", "Every Algarve page: 'Now in <place>' at the top", "The Algarve map's pins open the pages (they opened the markdown twins)", "The talk pane's drain rule recorded and a talk lane issued; the pane waits for security@'s post-review"]},
+  {"title": "Late or blocked", "items": ["The translated pages: /pt-PT/algarve/ still 404 (dev.places@)", "The 07:37 conductor wake was skipped: the shell's auto-mode check gave no verdict", "translator@ was blocked three hours on a missing schema the conductor's own spec caused; fixed 06:40"]}
+ ],
+ "images": [{"path": "board/editor-briefs/img/2026-11-16T1050Z-then-and-now.jpg", "caption": "The site, then and now (v0.1.1607)"}],
+ "next": ["The next wake at 11:36 UTC; the evening brief at the 16:36 wake", "The translated pages; the live data loop; more district capitals"],
+ "sources": ["board/WS-177-plan.md", "board/guidance/README.md", "data/by-place/", "git log of dev on 16 November"]
+}

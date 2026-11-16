@@ -986,3 +986,11 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Late:** the translated pages (`/pt-PT/algarve/` still 404); dev.places@ asked at 08:40. 36 places, unchanged this hour.
 - **Now data at 09:40:** six airline flights near Faro and one other aircraft; one IPMA warning.
 - **Inbox:** empty.
+
+## 16 Nov 10:37 UTC wake (run at 10:50; conductor@PrompTugal.dinis)
+
+- **The Monday 12:00 stand-up brief:** `board/editor-briefs/2026-11-16T1050Z.pdf` (No. 11), sent to Dinis.
+- **Done at Dinis's word since 09:37:** a line per Algarve town, 'By the numbers', the GAMMA-Ray band off the home page; 'Now in <place>' at the top of every Algarve page with human links; the live-data loop briefed (designer.places@ leads).
+- **Places:** 36; 282 stories, 548 organisations, 123 publishers. Now data at 10:51: four airline flights near Faro.
+- **Late:** the translated pages (`/pt-PT/algarve/` 404).
+- **Inbox:** empty.
