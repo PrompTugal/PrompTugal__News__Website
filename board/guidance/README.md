@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 16 Nov, 20:25 | **App Store subtitle: "Portugal's news, town by town"** (name PrompTugal.news; Dinis sets it in App Store Connect himself; use the same line in the app's copy) | `2026-11-16-app-store-subtitle.md` |
 | 16 Nov, 19:50 | **release.sh is now a queue** (dev@, `newsroom/build/README.md`, "Releasing: the queue"): call it exactly as before; one release per clone, the gate once, a fast re-push. **abp@ restarted** (grants for the merged desks, Jose's agents, OpenRouter) | `2026-11-16-restart-here-go.md` |
 | 16 Nov, 19:25 | **Go: every agent restarts on this account** (conductor.b@ conducts; Opus: journalist@ editor-in-chief, dev@, designer@, security@; Sonnet desks with sub-agents; towns aggregated by the news); **public contacts yes, personal emails and phones only to the private CRM**; **Jose's conductor and local@ go ahead, push like ours and sync with ours** (local@ the Algarve towns' outlets, researcher@ the districts and nationals); fact checking later; a regular update | `2026-11-16-restart-here-go.md` |
 | 16 Nov, 15:25 | **Pause every PrompTugal agent** (they move to the other team members' accounts); **each writes a detailed debrief first** (`board/team/<role>/debriefs/2026-11-16-account-move.md`): what it does, how it operates, lessons learned | `2026-11-16-pause-all-agents-for-the-account-move.md` |
