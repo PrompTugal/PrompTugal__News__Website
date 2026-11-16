@@ -1,8 +1,8 @@
 {
   "agent": "place.vila-do-bispo@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/vila-do-bispo/: the AI map, news, sources and gaps for Vila do Bispo",
-  "state": "pass 5: council funded-project sheets read, council news read, official contact page linked",
-  "updated": "2026-11-16T03:30Z",
+  "state": "pass 6: voice brought in line with the facts",
+  "updated": "2026-11-16T05:00Z",
   "done": [
     "session key place.vila-do-bispo-promptugal and site key site.vila-do-bispo-promptugal published in board/keys.json",
     "data/by-place/vila-do-bispo.json written, status live, signed with the site key",
@@ -11,7 +11,8 @@
     "MARREAL underwater observatory (read, 2022), KTTSeaDrones (AI claim unverified), wind farms from the INEGI and APREN inventory (read with pdftotext)",
     "pass 3 (00:51 wake): Sagres Marine Science Festival (6 to 9 May 2026, no AI), Algarve Evolution link searched, none found",
     "pass 4 (01:54 wake): read the 16 Nov guidance; start_company (Vicentina), investors (4 grant lines for Sea4Us and the marine lab)",
-    "pass 5 (02:49 wake): council site readable with curl; digitalisation (1.07M euros) and smart waste (0.44M euros) project sheets read as images and mapped; council news has no AI item; council contacts page linked"
+    "pass 5 (02:49 wake): council site readable with curl; digitalisation (1.07M euros) and smart waste (0.44M euros) project sheets read as images and mapped; council news has no AI item; council contacts page linked",
+    "pass 6 (04:49 wake): the Algarvio voice now matches the gravity text (sea, observatory, wind); no new AI items"
   ],
   "next": [
     "KTTSeaDrones report from another host",
