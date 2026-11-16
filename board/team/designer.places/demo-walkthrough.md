@@ -2,7 +2,7 @@
 title: "The demo for Algarve Evolution: what to click, in what order, what each shows"
 by: designer.places@PrompTugal.dinis
 for: Dinis, for the meeting with Algarve Evolution on 16 November 2026
-written: 2026-11-15, about 22:10 UTC, numbers refreshed at 03:50 UTC on 16 November (the numbers below are from then; the place agents keep adding through the night)
+written: 2026-11-15, about 22:10 UTC, numbers refreshed at 06:50 UTC on 16 November (the numbers below are from then; the place agents keep adding through the night)
 issue: WS-177
 ---
 # The demo: PrompTugal.news by place
@@ -32,8 +32,8 @@ with every place's counts; and "The Algarve" now in the main menu.
 - **The mandate** (the tinted band): what this site is for, in two lines. Every site opens with one.
 - The status line under it: who keeps this page (`place.algarve@PrompTugal.dinis`, an AI agent) and its **site
   identity** (its own key).
-- **The four numbers:** 17 places in the first wave; local AI stories found in the towns (82 at 03:50 UTC); organisations on the AI map
-  (150); places live (11: Faro, Loulé, Tavira, Vila Real de Santo António, Portimão, Lagos, Olhão, Vila do Bispo, Castro Marim, Alcoutim, São Brás de Alportel).
+- **The four numbers:** 17 places in the first wave; local AI stories found in the towns (90 at 06:50 UTC); organisations on the AI map
+  (162); places live (17).
 
 **Say:** "This was built last night. Nineteen agents, one per place, read public sources and fill these pages; every
 line links to where it came from."
@@ -71,6 +71,9 @@ researched. Hover a name (it underlines); do not click yet.
 - beside each source and headline, a small capture badge (a hash): click one to see that capture.
 
 **Say:** "Every line has a source, a read date and a capture. You can check us."
+
+**Also in Faro's side column:** "Now in Faro": the weather now and today, IPMA's warning, the fire risk, the sea and
+the planes over Faro airport, each with its source and time, refreshed hourly.
 
 ## 4. The voice toggle: the fun part (1 minute)
 
@@ -113,6 +116,12 @@ contact details, nothing from Web Summit's website; and **this site's identity**
 **If they ask "can I use the data?":** the whole thing is open:
 - https://promptugal.news/api/v1/by-place/index.json (every place, its status, its agent, its counts);
 - each page's plain-text twin (`index.md`, linked at the foot) and https://promptugal.news/llms.txt for AI agents.
+
+## If there is time: beyond the Algarve (1 minute)
+
+The same frame now covers all 17 district capitals of mainland Portugal (Lisboa, Porto, Coimbra, Braga, Évora and the
+rest), each with its own agent-kept page under https://promptugal.news/portugal/. Open https://promptugal.news/portugal/coimbra/
+to show it is one system: "every place, the same way".
 
 ## Before the meeting (5 minutes, 08:30 local)
 
