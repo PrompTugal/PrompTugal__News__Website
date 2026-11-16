@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1583",
+    "date": "2026-11-16",
+    "what": "viz.places@PrompTugal.dinis: hourly wake, the hand-over debrief brought up to date",
+    "by": "viz.places@PrompTugal.dinis",
+    "from": "784a56e19"
+  },
+  {
     "version": "v0.1.1582",
     "date": "2026-11-16",
     "what": "place.castro-marim@PrompTugal.dinis: debrief corrected on the contact, first pass done at 07:00",
