@@ -11,7 +11,7 @@ const WORDS = 'assets/talk/talk.json', INBOX = 'board/inbox.json', REPLIES = 'bo
 const words = ctx => ctx.readJSON(WORDS)
 function replies(ctx) {
     if (!ctx.exists(REPLIES)) return []
-    try { return (ctx.readJSON(REPLIES).replies || []).filter(r => r && r.to && r.about && r.envelope && r.envelope.ct) } catch { return [] }
+    try { return (ctx.readJSON(REPLIES).replies || []).filter(r => r && r.envelope && r.envelope.ct && r.envelope.epk && r.envelope.iv) } catch { return [] }
 }
 
 export function pages(ctx) {
@@ -24,8 +24,8 @@ export function api(ctx) {
     const t = words(ctx), inbox = ctx.readJSON(INBOX)
     return [
         { path: 'api/v1/talk/config.json', schema: null, data: { about: t.about, enabled: t.enabled !== false, version: ctx.VERSION, endpoint: inbox.endpoint, vault_id: inbox.vault_id,
-            append_token: inbox.public_lane && inbox.public_lane.append_token, format: 'promptugal/comment/v1', replies: 'api/v1/talk/replies.json', recipient: { agent: inbox.agent, fingerprint: inbox.recipient.fingerprint, encrypt: inbox.recipient.encrypt }, words: t.words } },
-        { path: 'api/v1/talk/replies.json', schema: null, data: { version: ctx.VERSION, replies: replies(ctx).map(r => ({ to: r.to, about: r.about, at: r.at || null, envelope: r.envelope })) } },
+            append_token: (inbox.talk_lane && inbox.talk_lane.append_token) || (inbox.public_lane && inbox.public_lane.append_token), lane: inbox.talk_lane ? 'talk_lane' : 'public_lane', format: 'promptugal/comment/v1', replies: 'api/v1/talk/replies.json', recipient: { agent: inbox.agent, fingerprint: inbox.recipient.fingerprint, encrypt: inbox.recipient.encrypt }, words: t.words } },
+        { path: 'api/v1/talk/replies.json', schema: null, data: { version: ctx.VERSION, replies: replies(ctx).map(r => ({ envelope: { epk: r.envelope.epk, iv: r.envelope.iv, ct: r.envelope.ct } })) } },
     ]
 }
 
@@ -36,6 +36,9 @@ export function validate(gate) {
     if (!inbox.public_lane || !/^[0-9a-f]{64}$/.test(inbox.public_lane.append_token || '')) out.push(`${INBOX}: no public lane for the comment pane`)
     if (!inbox.recipient || !/BEGIN PUBLIC KEY/.test(inbox.recipient.encrypt || '')) out.push(`${INBOX}: no recipient key to seal comments to`)
     try { const c = gate.json('api/v1/talk/config.json'); if (/PRIVATE KEY|"d"\s*:/.test(JSON.stringify(c))) out.push('api/v1/talk/config.json: holds private key material') } catch { out.push('missing api/v1/talk/config.json') }
+    // security@'s 00:05 review: /talk/ loads only the site's own scripts (it holds the keyring), and answers name no one in clear
+    try { const h = gate.text('talk/index.html'); for (const m of h.matchAll(/<script\b[^>]*\bsrc="([^"]+)"/g)) if (/^(https?:)?\/\//.test(m[1])) out.push(`talk/index.html: loads an outside script (${m[1]}); the page holds the keyring`) } catch { out.push('missing talk/index.html') }
+    try { for (const r of gate.json('api/v1/talk/replies.json').replies || []) if (Object.keys(r).some(k => k !== 'envelope') || Object.keys(r.envelope || {}).some(k => !['epk', 'iv', 'ct'].includes(k))) { out.push('api/v1/talk/replies.json: an answer carries something in clear besides its envelope (epk, iv, ct)'); break } } catch { }
     return out
 }
 

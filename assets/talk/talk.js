@@ -100,13 +100,8 @@
             SS.set('draft', JSON.stringify(d)); location.href = root + 'talk/'
         })
         box.append(form)
-        // answers waiting for this person about this page (counted from public metadata; opened only on /talk/)
-        if (me) try {
-            const [reg, rep] = await Promise.all([fetch(root + 'board/person-keys.json').then(r => r.json()), fetch(root + 'api/v1/talk/replies.json', { cache: 'no-cache' }).then(r => r.json())])
-            const k = (reg.keys || []).find(x => x.person === me && x.status === 'active')
-            const n = k ? (rep.replies || []).filter(x => x.to === k.fingerprint && x.about === page).length : 0
-            if (n) { const p = el('p', 'talk-replies'); const a = el('a', null, W.open_replies); a.href = root + 'talk/'; p.append(fill(n === 1 ? W.replies : W.replies_many, { n }) + ': ', a); box.insertBefore(p, form) }
-        } catch { }
+        // answers are counted and opened only on /talk/ (security@'s must-fix 1: nothing in clear says who was answered about what)
+        if (me) { const p = el('p', 'talk-replies'); const a = el('a', null, W.open_replies); a.href = root + 'talk/'; p.append(a); box.insertBefore(p, form) }
         const at = document.getElementById('agents')
         if (at && at.parentNode) at.parentNode.insertBefore(box, at); else if (main) main.append(box)
     }
@@ -139,12 +134,17 @@
         }
         let rep = { replies: [] }
         try { rep = await fetch(root + 'api/v1/talk/replies.json', { cache: 'no-cache' }).then(r => r.json()) } catch { }
-        const mine = (rep.replies || []).filter(x => x.to === KR.fingerprint)
+        // each answer is tried with this browser's key (no recipient is named in clear); only those that open are shown
+        const mine = []
+        for (const r of (rep.replies || [])) {
+            try { const m = await KR.open(Object.assign({}, r.envelope, { key: KR.fingerprint })); if (m && typeof m === 'object') mine.push(m) } catch { }
+        }
         if (!mine.length) { mount.append(el('p', 'talk-msg', W.talk_none)); return }
+        mine.sort((a, b) => String(b.at || '').localeCompare(String(a.at || '')))
         const list = el('ol', 'talk-thread')
-        for (const r of mine) {
-            const li = el('li'); li.append(el('p', 'talk-meta', fill(W.talk_from, { page: r.about }) + (r.at ? ' · ' + r.at.slice(0, 16).replace('T', ' ') : '')))
-            try { const m = await KR.open(r.envelope); li.append(el('p', null, typeof m === 'string' ? m : (m.text || ''))) } catch { li.append(el('p', 'talk-msg', W.talk_bad)) }
+        for (const m of mine) {
+            const li = el('li'); li.append(el('p', 'talk-meta', fill(W.talk_from, { page: m.page || m.about || m.place || '' }) + (m.at ? ' · ' + String(m.at).slice(0, 16).replace('T', ' ') : '')))
+            li.append(el('p', null, String(m.text || '')))
             list.append(li)
         }
         mount.append(list)
