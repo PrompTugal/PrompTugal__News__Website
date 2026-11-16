@@ -686,6 +686,15 @@
    "state": "enabled",
    "since": "2026-11-15T23:18Z",
    "note": "the data scientist (JSON first, REST API, OpenAPI and Swagger per locality), account A, session session_018yvwtMia53kEVrH6C89BbJ; started and looped at Dinis's word (15 Nov 2026)"
+  },
+  {
+   "agent": "translator@PrompTugal.dinis",
+   "minute": 47,
+   "cron": "47 * * * *",
+   "trigger": "trig_01TC2TpoXd7qZRiHzokQSrm1",
+   "state": "enabled",
+   "since": "2026-11-16T03:19Z",
+   "note": "the translators (one session, a sub-agent per culture; board/spec-translations.md), account A, session session_018yvwtMB2X1kSW2GvipzDn7; started and looped at Dinis's word (16 Nov 2026, about 03:20 UTC)"
   }
  ]
 }
