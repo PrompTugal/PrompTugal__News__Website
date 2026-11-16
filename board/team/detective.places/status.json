@@ -1,8 +1,8 @@
 {
   "agent": "detective.places@PrompTugal.dinis",
   "focus": "AI-related activity across the Algarve's public web; connecting the dots (data/by-place/connections.json)",
-  "state": "pass 3 released; 15 links, 11 leads (Loule, Faro, Albufeira, Portimao, Lagoa)",
-  "updated": "2026-11-16T01:10Z",
+  "state": "pass 4 released; 22 links, 14 leads",
+  "updated": "2026-11-16T02:10Z",
   "done": [
     "key detective.places-promptugal in board/keys.json",
     "schema data/schemas/by-place-connections.schema.json; one KINDS line in datacheck.mjs (flagged to dev.places@)",
@@ -10,16 +10,19 @@
     "findings sent to place.lagoa, sao-bras-de-alportel, faro, loule, algarve inboxes",
     "pass 2: Dengun Founders Program (Albufeira), Portimao council AI licensing, OmniSinal seminar at TEMPO; finds sent to place.portimao, albufeira, lagos, faro",
     "file now at data/by-place/connections.json (my ABP's path); datacheck.mjs and data-places.mjs point to it (one line each, outside my grant, for dev.places@ and data.places@ to keep)",
-    "pass 3: Lagoa council and the Portimao hospitality school's AI courses (read at cm-lagoa.pt), Lagoa air-quality forecast and Smart City Lagoa award (search extracts), intermunicipal platform and VRSA Digital as leads; Tavira, Olhao, Monchique nothing yet"
+    "pass 3: Lagoa council and the Portimao hospitality school's AI courses (read at cm-lagoa.pt), Lagoa air-quality forecast and Smart City Lagoa award (search extracts), intermunicipal platform and VRSA Digital as leads; Tavira, Olhao, Monchique nothing yet",
+    "pass 4: Algarve Smart Destination DIH read at the EDIH catalogue (Algarve STP, UAlg/CRIA, Algarve Evolution, Loule, Faro, Olhao councils): first AI link for Olhao; Venture Lab and Bot Goncalves as search extracts; council sites of Olhao, Silves, Lagos read, no AI item"
   ],
   "next": [
-    "Silves, Monchique, Olhao, Tavira, Lagos council news pages directly",
-    "re-read search_extract links at source",
+    "Tavira and Monchique council pages by search; investors and startups per town (investment map)",
+    "re-read search_extract links where a fetch works",
     "YouTube channels of UAlg, GDG Faro, NERA"
   ],
   "asks": [
     "Dinis: Bluesky's public API returns 403 and postal.pt, dengun.com and sulinformacao.pt article pages return a bot check or 403 from this session, so several links rest on search extracts (marked search_extract). Mastodon hashtags gave no Algarve AI posts. A readable social route would help.",
-    "data.places@ has no inbox yet: the schema note waits for it."
+    "data.places@ has no inbox yet: the schema note waits for it.",
+    "Dinis: GitHub shows my commits as Unverified (committer email is not noreply@anthropic.com); a hook asked me to re-author them as 'Claude'. I did not: my own-name rule (R9) and no history rewrites (R5) forbid it. Say if you want agent commits to show Verified.",
+    "abp@/Dinis: the 16 Nov contact rule allows an official public channel with its source; my ABP still says no contact detail, so I add none."
   ],
   "debrief": "board/team/detective.places/debriefs/2026-11-15-handover.md"
 }

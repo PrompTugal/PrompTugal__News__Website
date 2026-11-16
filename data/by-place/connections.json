@@ -410,6 +410,207 @@
       "places": [
         "lagoa"
       ]
+    },
+    {
+      "id": "stp-coordinates-asd",
+      "from": {
+        "name": "Algarve STP",
+        "type": "organisation",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Algarve Smart Destination Digital Innovation Hub",
+        "type": "programme",
+        "place": "algarve"
+      },
+      "relation": "organises",
+      "what": "Algarve STP, a non-profit association, coordinates the hub. Other partners named: ANJE (young entrepreneurs), Altis (Altice Labs) and Fraunhofer Portugal. The page lists AI and deep learning for tourism and digital marketing, predictive analysis and IoT automation as focus areas, and describes the hub as an informal network.",
+      "ai_path": "A regional hub whose focus areas are AI for tourism.",
+      "steps": 1,
+      "source_url": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/algarve-smart-destination-digital-innovation-hub",
+      "source_title": "Algarve Smart Destination, Digital Innovation Hub (EDIH Catalogue, European Commission)",
+      "source_date": "",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "id": "ualg-cria-asd",
+      "from": {
+        "name": "Algarve STP",
+        "type": "organisation",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Algarve Smart Destination Digital Innovation Hub",
+        "type": "programme",
+        "place": "algarve"
+      },
+      "relation": "part_of",
+      "what": "Named as a partner of the hub. The page lists AI and deep learning for tourism and digital marketing, predictive analysis and IoT automation as focus areas, and describes the hub as an informal network.",
+      "ai_path": "University partner of an AI-for-tourism hub.",
+      "steps": 1,
+      "source_url": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/algarve-smart-destination-digital-innovation-hub",
+      "source_title": "Algarve Smart Destination, Digital Innovation Hub (EDIH Catalogue, European Commission)",
+      "source_date": "",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "algarveevolution-asd",
+      "from": {
+        "name": "Algarve Evolution",
+        "type": "organisation",
+        "place": "algarve"
+      },
+      "to": {
+        "name": "Algarve Smart Destination Digital Innovation Hub",
+        "type": "programme",
+        "place": "algarve"
+      },
+      "relation": "part_of",
+      "what": "Described on the page as a private association of IT companies and a partner of the hub. The page lists AI and deep learning for tourism and digital marketing, predictive analysis and IoT automation as focus areas, and describes the hub as an informal network.",
+      "ai_path": "IT-company association in an AI-for-tourism hub.",
+      "steps": 1,
+      "source_url": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/algarve-smart-destination-digital-innovation-hub",
+      "source_title": "Algarve Smart Destination, Digital Innovation Hub (EDIH Catalogue, European Commission)",
+      "source_date": "",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "algarve"
+      ]
+    },
+    {
+      "id": "olhao-asd",
+      "from": {
+        "name": "Municipio de Olhao",
+        "type": "public body",
+        "place": "olhao"
+      },
+      "to": {
+        "name": "Algarve Smart Destination Digital Innovation Hub",
+        "type": "programme",
+        "place": "algarve"
+      },
+      "relation": "part_of",
+      "what": "Olhao's municipality is named as a partner of the hub, the first AI-related link found for Olhao. The page lists AI and deep learning for tourism and digital marketing, predictive analysis and IoT automation as focus areas, and describes the hub as an informal network.",
+      "ai_path": "The council sits in a hub whose focus areas are AI for tourism.",
+      "steps": 2,
+      "source_url": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/algarve-smart-destination-digital-innovation-hub",
+      "source_title": "Algarve Smart Destination, Digital Innovation Hub (EDIH Catalogue, European Commission)",
+      "source_date": "",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "olhao"
+      ]
+    },
+    {
+      "id": "loule-asd",
+      "from": {
+        "name": "Municipio de Loule",
+        "type": "public body",
+        "place": "loule"
+      },
+      "to": {
+        "name": "Algarve Smart Destination Digital Innovation Hub",
+        "type": "programme",
+        "place": "algarve"
+      },
+      "relation": "part_of",
+      "what": "Loule's municipality is named as a partner of the hub. The page lists AI and deep learning for tourism and digital marketing, predictive analysis and IoT automation as focus areas, and describes the hub as an informal network.",
+      "ai_path": "The council sits in a hub whose focus areas are AI for tourism.",
+      "steps": 2,
+      "source_url": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/algarve-smart-destination-digital-innovation-hub",
+      "source_title": "Algarve Smart Destination, Digital Innovation Hub (EDIH Catalogue, European Commission)",
+      "source_date": "",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "loule"
+      ]
+    },
+    {
+      "id": "faro-asd",
+      "from": {
+        "name": "Municipio de Faro",
+        "type": "public body",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Algarve Smart Destination Digital Innovation Hub",
+        "type": "programme",
+        "place": "algarve"
+      },
+      "relation": "part_of",
+      "what": "Faro's municipality is named as a partner of the hub. The page lists AI and deep learning for tourism and digital marketing, predictive analysis and IoT automation as focus areas, and describes the hub as an informal network.",
+      "ai_path": "The council sits in a hub whose focus areas are AI for tourism.",
+      "steps": 2,
+      "source_url": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/algarve-smart-destination-digital-innovation-hub",
+      "source_title": "Algarve Smart Destination, Digital Innovation Hub (EDIH Catalogue, European Commission)",
+      "source_date": "",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "stp-venturelab",
+      "from": {
+        "name": "Algarve STP",
+        "type": "organisation",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Venture Lab by Algarve STP",
+        "type": "programme",
+        "place": "faro"
+      },
+      "relation": "organises",
+      "what": "A mentoring programme for Algarve startups and SMEs with technology and AI among its areas; 12 companies were selected for the first edition (Sul Informacao, July 2026, via search extract; algarvestp.pt returns a bot check).",
+      "ai_path": "A mentoring programme with AI among its areas.",
+      "steps": 1,
+      "source_url": "https://www.sulinformacao.pt/2026/07/conheca-as-12-empresas-elecionadas-para-acelerar-com-o-venture-lab-by-algarvestp/",
+      "source_title": "Conheca as 12 empresas selecionadas para acelerar com o Venture Lab by AlgarveSTP (Sul Informacao)",
+      "source_date": "2026-07",
+      "read_on": "2026-11-16",
+      "verified": "search_extract",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "id": "botgoncalves-venturelab",
+      "from": {
+        "name": "Bot Goncalves",
+        "type": "company"
+      },
+      "to": {
+        "name": "Venture Lab by Algarve STP",
+        "type": "programme",
+        "place": "faro"
+      },
+      "relation": "participates_in",
+      "what": "One of the 12 selected companies, described as using AI and satellite imagery. Town not stated in what was seen.",
+      "ai_path": "A selected company that uses AI.",
+      "steps": 0,
+      "source_url": "https://www.sulinformacao.pt/2026/07/conheca-as-12-empresas-elecionadas-para-acelerar-com-o-venture-lab-by-algarvestp/",
+      "source_title": "Sul Informacao, July 2026",
+      "source_date": "2026-07",
+      "read_on": "2026-11-16",
+      "verified": "search_extract",
+      "places": [
+        "algarve"
+      ]
     }
   ],
   "leads": [
@@ -509,6 +710,31 @@
       "why_open": "Search extract only",
       "places": [
         "portimao",
+        "algarve"
+      ]
+    },
+    {
+      "what": "Algarve Evolution aims to support 500 companies and create 150 startups by 2032 (Portugal Startup News, November 2026, search extract). Also the Algarve Tech Hub is co-founded by Algarve Evolution, UAlg and Algarve STP (search extract of Algarve STP).",
+      "url": "https://portugalstartupnews.com/",
+      "why_open": "Read the article itself before stating the targets",
+      "places": [
+        "algarve"
+      ]
+    },
+    {
+      "what": "Silves council's site lists the Formacao +Proxima training programme, the same name as Lagoa's AI courses; whether Silves runs any AI course was not read. Lagos council's site has an InvestAlgarve page and a WhatsApp citizen channel, no AI stated.",
+      "url": "https://www.cm-silves.pt/pt/destaques/33415/programa-formacao---proxima.aspx",
+      "why_open": "Programme page to read",
+      "places": [
+        "silves",
+        "lagos"
+      ]
+    },
+    {
+      "what": "AI4Youth Work (Algarve STP, AI for youth work): title only from search results.",
+      "url": "https://algarvestp.pt/en/ai4youth-work-inteligencia-artificial-ia-ao-servico-da-juventude/",
+      "why_open": "Page returns a bot check",
+      "places": [
         "algarve"
       ]
     }
