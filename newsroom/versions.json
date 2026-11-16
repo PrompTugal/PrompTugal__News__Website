@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1569",
+    "date": "2026-11-16",
+    "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: NERA gap, hand-over debrief rewritten for the live page",
+    "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+    "from": "e417186eb"
+  },
+  {
     "version": "v0.1.1568",
     "date": "2026-11-16",
     "what": "conductor@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
