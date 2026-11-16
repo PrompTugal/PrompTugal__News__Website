@@ -1,0 +1,227 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-16T04-46-05Z",
+ "started": "2026-11-16T04:46:05.456Z",
+ "ended": "2026-11-16T05:24:48Z",
+ "line": "",
+ "policy": {
+  "version": "1.11.0",
+  "sha256": "ca739bcd9e7bf7c8"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T04:56:35.837Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T04:56:45.400Z",
+   "chars": 732,
+   "sha256": "0ec66ead49330d81",
+   "head": "<task-notification>\n<task-id>boz3gpdhv</task-id>\n<tool-use-id>toolu_01B8Wnp7WML1r42N6CftwqFx</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-16T05:16:58.399Z",
+   "chars": 689,
+   "sha256": "942436998e3dad59",
+   "head": "<task-notification>\n<task-id>b3dn8g7y0</task-id>\n<tool-use-id>toolu_01FsRacw3HoxyAjFnN2DosV7</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-16T05:17:16.089Z",
+   "chars": 571,
+   "sha256": "d03ca282d14f0122",
+   "head": "<task-notification>\n<task-id>b1ujhgsc1</task-id>\n<tool-use-id>toolu_018io8qWgWmrgAZ3FJwV6V9N</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 22,
+  "by_kind": {
+   "release": 10,
+   "message": 1,
+   "git": 5,
+   "other": 4,
+   "shell": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 22,
+  "commits": [
+   {
+    "sha": "74eb5695e",
+    "subject": "conductor@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "files": 1
+   },
+   {
+    "sha": "da4a55601",
+    "subject": "conductor@PrompTugal.dinis: now in every Algarve place (IPMA and Faro airport, hourly); the home page leads with a story about PrompTugal.news going local",
+    "files": 28
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote articles/promptugal-news-local-news-town-by-town.md.sig",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote assets/front-e/front-e.css",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote assets/front-e/front-e.tmpl",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote content/articles/promptugal-news-local-news-town-by-town.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/albufeira.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/alcoutim.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/algarve.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/aljezur.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/castro-marim.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/faro.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/lagoa.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/lagos.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/loule.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/monchique.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/olhao.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/portimao.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/quarteira.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/sao-bras-de-alportel.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/silves.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/tavira.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/vila-do-bispo.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/by-place/now/vila-real-de-santo-antonio.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote data/schemas/by-place-now.schema.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote newsroom/build/features/by-place.mjs",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote newsroom/build/features/front-e.mjs",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "da4a55601 wrote newsroom/build/lib/datacheck.mjs",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 22,
+  "in_mandate": 22,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 26
+ }
+}

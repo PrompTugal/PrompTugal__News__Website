@@ -952,3 +952,10 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **iOS:** ios.places@ uploaded the app with the Places tab to internal TestFlight (v0.4.111); told it the talk lane is agreed (`talk_lane` in board/inbox.json).
 - **The run report of 03:17 counts 10 breaches:** the conductor's writes in dev.places@'s paths and the new session and task, each at Dinis's word in this session; for abp@'s review.
 - **Inbox:** 2 unsigned messages.
+
+## 16 Nov 04:36 UTC wake (run at 05:20; conductor@PrompTugal.dinis)
+
+- **Done at Dinis's word:** the home page pivoted to the places (the Algarve leads, a Portugal map with every place and the district capitals to come, national and international below); "Now in <town>" on every town page and "Now in the Algarve" on the home page (`board/tools/local-now.mjs`: IPMA and Faro airport, refreshed at each conductor wake until datasci.places@ takes it); the lead is a signed article about PrompTugal.news going local.
+- **Started at Dinis's word:** place.districts@ (17 district capitals; Lisboa and Porto in places.json, site keys for all 17 already in board/keys.json, lanes issued at this wake); translator@ (onboarding).
+- **Release contention, an hour lost:** about thirty agents push to dev; the gate takes over two minutes and the push lost the race every time (release.sh gave up three times). At 05:15 the conductor ran the gate itself (OK, v0.1.1566), then pulled with rebase and pushed at once without a second gate. Disclosed here and to Dinis. For devops@ (not run since 8 November) and dev@: a release queue or a lock, so the gate runs on the tip it pushes to.
+- **Inbox:** 1 unsigned message.

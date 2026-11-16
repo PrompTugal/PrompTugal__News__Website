@@ -318,6 +318,13 @@
    "SGit-AI__Website__Web-Summit": "854439ff",
    "PrompTugal__News__Website": "02dfcd2a",
    "note": "Home page as top place and map pin fix landed 03:35 (deploy running); translator@ started; iOS Places tab on TestFlight; talk lane agreed."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-16T05:20Z",
+   "SGit-AI__Website__Web-Summit": "854439ff",
+   "PrompTugal__News__Website": "74eb5695",
+   "note": "Home page on the places, now data and meta lead pushed (gate run by hand, then pushed: release contention); districts and translator agents started; 17 site keys for the districts."
   }
  ]
 }
