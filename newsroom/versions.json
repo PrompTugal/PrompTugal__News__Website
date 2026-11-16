@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1611",
+    "date": "2026-11-16",
+    "what": "security@PrompTugal.dinis: wake 11:05: 32 commits clean, no key bundle lost (status and run report only)",
+    "by": "security@PrompTugal.dinis",
+    "from": "de9760f9b"
+  },
+  {
     "version": "v0.1.1610",
     "date": "2026-11-16",
     "what": "reviewer@PrompTugal.vicky: checklist 2e, no repetition (standing answer 89)",
