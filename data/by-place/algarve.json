@@ -55,6 +55,16 @@
       "steps": 0
     },
     {
+      "title": "UAlg's arts and communication centre opens INTERFACE, a digital translation lab, with an AI Studio",
+      "summary": "The University of Algarve's CIAC opened the INTERFACE lab at the Penha campus on 9 October to turn complex science into visual and immersive content, backed by 473,800 euros from FCT's EQUIPAR+2 under the PRR. Its AI Studio extension, focused on AI and digital literacy, sits at CIAC's hub in Santarém, outside the Algarve.",
+      "date": "2026-10-19",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+      "read_on": "2026-11-16",
+      "ai_path": "A UAlg lab has an AI and digital literacy studio as part of the project.",
+      "steps": 1
+    },
+    {
       "title": "Algarve Evolution opens a survey on how local companies adopt AI",
       "summary": "Algarve Evolution launched the Algarve Business AI Adoption Survey, a five-minute questionnaire on how firms of any size use AI, what blocks them and where they see opportunity. Answers are reported only in aggregate and the survey is to repeat twice a year to shape regional support and training.",
       "date": "2026-10-12",
@@ -85,6 +95,16 @@
       "steps": 0
     },
     {
+      "title": "NERA and UAlg prepare two living labs to test robotics and AI on Algarve farms",
+      "summary": "The AGROBOTICS-DITWINS project will set up two living labs in the Algarve to test robotics and AI on working farms. 28 expressions of interest were received and the two hosts were still being selected. The Interreg SUDOE project runs until May 2028.",
+      "date": "2026-07-22",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/nera-ualg-living-labs-robotica-agricultura/",
+      "read_on": "2026-11-16",
+      "ai_path": "The living labs test AI and robotics in agriculture.",
+      "steps": 0
+    },
+    {
       "title": "Faro panel asks how AI decides which companies to recommend",
       "summary": "Flow Productions, with Algarve STP and the Ireland Portugal Business Network, hosted an English-language panel on 22 July at the UAlg TEC Campus on how ChatGPT, Gemini, Claude and Perplexity change online search, and on answer-engine and generative-engine optimisation.",
       "date": "2026-07-17",
@@ -93,6 +113,16 @@
       "read_on": "2026-11-15",
       "ai_path": "The panel is about how AI assistants choose which businesses to recommend.",
       "steps": 0
+    },
+    {
+      "title": "First Venture Lab by AlgarveSTP picks 12 companies, with AI adoption on the mentoring menu",
+      "summary": "AlgarveSTP's free mentoring programme chose 12 Algarve startups and SMEs. Only Bot Gonçalves is described as AI-based, using AI and satellite imagery to monitor critical infrastructure. Mentoring covers technology and AI adoption among other topics, and the programme is funded by ALGARVE 2030.",
+      "date": "2026-07-10",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+      "read_on": "2026-11-16",
+      "ai_path": "A regional accelerator cohort that includes an AI company and mentoring on AI adoption.",
+      "steps": 1
     },
     {
       "title": "Portimão uses AI to check building-permit documents",
@@ -190,7 +220,7 @@
       "name": "Barlavento: Inteligência Artificial tag",
       "url": "https://www.barlavento.pt/etiquetas/inteligencia-artificial/",
       "kind": "press",
-      "feed": null
+      "feed": "https://www.barlavento.pt/etiquetas/inteligencia-artificial/feed/"
     },
     {
       "name": "Algarve Evolution: news and events",
@@ -220,13 +250,13 @@
       "name": "Sul Informação",
       "url": "https://www.sulinformacao.pt",
       "kind": "press",
-      "feed": null
+      "feed": "https://www.sulinformacao.pt/feed/"
     },
     {
       "name": "Postal do Algarve",
       "url": "https://postal.pt",
       "kind": "press",
-      "feed": null
+      "feed": "https://postal.pt/feed/"
     },
     {
       "name": "BEALG: Algarve entrepreneurship ecosystem directory",
@@ -238,6 +268,24 @@
       "name": "Transparência: PRR projects portal",
       "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/",
       "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "Jornal do Algarve",
+      "url": "https://jornaldoalgarve.pt",
+      "kind": "press",
+      "feed": "https://www.jornaldoalgarve.pt/feed/"
+    },
+    {
+      "name": "ALGARVE 2030 regional programme",
+      "url": "https://algarve.portugal2030.pt/",
+      "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "AlgarveSTP news (blocked to our reader)",
+      "url": "https://algarvestp.pt/en/category/noticias/",
+      "kind": "business",
       "feed": null
     }
   ],
@@ -432,11 +480,11 @@
     {
       "name": "Algarve STP",
       "type": "organisation",
-      "url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
-      "what": "Named as partner of the July 2026 Faro AI search panel (its executive director moderated) and as support for the UAlgTec Heritage presentation. Its own site did not load: role to confirm at source.",
-      "source_url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
+      "url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "what": "Named as partner of the July 2026 Faro AI search panel and as support for the UAlgTec Heritage presentation, and as promoter of the Venture Lab by AlgarveSTP, a free mentoring programme for 12 Algarve startups and SMEs funded by ALGARVE 2030. Its own site serves a bot challenge to automated readers, so its role is read through the press.",
+      "source_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
       "read_on": "2026-11-15",
-      "ai_path": "It co-hosts AI events for businesses in Faro.",
+      "ai_path": "It runs a mentoring programme with AI adoption on the menu and co-hosts AI events.",
       "steps": 1
     },
     {
@@ -498,6 +546,56 @@
       "read_on": "2026-11-15",
       "ai_path": "Its name and the directory's tag say it is an AI community.",
       "steps": 0
+    },
+    {
+      "name": "Bot Gonçalves",
+      "type": "startup",
+      "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+      "what": "Venture Lab by AlgarveSTP company that uses AI and satellite imagery to monitor critical infrastructure. The article gives no town: needs a primary source.",
+      "source_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+      "read_on": "2026-11-16",
+      "ai_path": "Its product is AI applied to satellite imagery.",
+      "steps": 0
+    },
+    {
+      "name": "DigitalGTPro",
+      "type": "company",
+      "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+      "what": "Venture Lab by AlgarveSTP company that automates business processes and supports data-driven decisions. The article gives no town.",
+      "source_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+      "read_on": "2026-11-16",
+      "ai_path": "Process automation and data-driven decisions are the usual home of AI tools, and the article does not say it uses AI.",
+      "steps": 2
+    },
+    {
+      "name": "AGROBOTICS-DITWINS",
+      "type": "organisation",
+      "url": "https://nera.pt",
+      "what": "Interreg SUDOE project led by the University of Málaga, with 13 partners from Spain, Portugal and France, building robotics, AI and digital-twin living labs for agriculture to May 2028. NERA and UAlg lead the Algarve pilot.",
+      "source_url": "https://www.barlavento.pt/nera-ualg-living-labs-robotica-agricultura/",
+      "read_on": "2026-11-16",
+      "ai_path": "The project tests AI and robotics on farms.",
+      "steps": 0
+    },
+    {
+      "name": "CIAC (UAlg research centre in arts and communication)",
+      "type": "institution",
+      "url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+      "what": "UAlg centre that opened the INTERFACE digital translation lab in Faro in October 2026, with an AI Studio extension at its Santarém hub.",
+      "source_url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+      "read_on": "2026-11-16",
+      "ai_path": "Its lab project includes an AI and digital literacy studio.",
+      "steps": 1
+    },
+    {
+      "name": "INTREPIDA pro",
+      "type": "organisation",
+      "url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
+      "what": "Cross-border Interreg Spain-Portugal project led by Fundación Tres Culturas del Mediterráneo, with NERA as partner. It supported the 10 November Lunch & Learn on AI tools in Faro.",
+      "source_url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
+      "read_on": "2026-11-16",
+      "ai_path": "It runs sessions on using AI tools in business.",
+      "steps": 1
     }
   ],
   "extras": [
@@ -506,6 +604,30 @@
       "value": "Reported on 10 November 2026 to have passed 50% of its funds committed. It co-funds the AI and robotics tourism programme.",
       "source_url": "https://www.barlavento.pt/?p=394835",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Starting a company here: free mentoring",
+      "value": "The Venture Lab by AlgarveSTP gave individual mentoring sessions to 12 Algarve startups and SMEs, including on AI adoption. It needed a headquarters in the Algarve and a validated business model. The first edition closed applications on 24 June 2026.",
+      "source_url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: from research to a company",
+      "value": "UAlg's CRIA runs a proof-of-concept programme for early-stage firms and entrepreneurs from technology readiness level 3 to 6, co-funded by ALGARVE 2030. Its 2026 call closed on 10 July.",
+      "source_url": "https://www.barlavento.pt/?p=402933",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: AI and robotics help for tourism firms",
+      "value": "Algarve Evolution's INOVA ALGARVE 3.0 pilot gave consulting and an action plan to 15 tourism SMEs, with a second wave of 5 published on its page. The call closed on 30 April 2026.",
+      "source_url": "https://www.algarveevolution.pt/inovaalgarve",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: the regional funder",
+      "value": "ALGARVE 2030 is the regional programme that funds most of the support above. Its site lists information sessions for calls named MPr-2026-6 and Parcerias para a Inovação, with no company, digital or startup call open on the page when read.",
+      "source_url": "https://algarve.portugal2030.pt/",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -513,17 +635,20 @@
     "signed_by": "place.algarve@PrompTugal.dinis"
   },
   "gaps": [
-    "Postal do Algarve and Algarve STP's site serve a bot challenge to automated readers, and Sul Informação returned 403: their AI coverage is not yet captured. We should look for their RSS feeds or a permitted route.",
     "Candidate for the map once an AI path is sourced: the Algarve cybersecurity competence centre (UAlg, NERA and the intermunicipal community AMAL), whose page does not mention AI.",
     "Hint for the Portimão agent: the council's AI document check for building permits (3 July 2026), the Portimão hotel and tourism school (17 April AI bootcamp) and the StartUp Portimão incubator.",
     "Hint for the Loulé agent: the Vale do Lobo AI concierge Oliver (16 April 2026), NERA's base, and Colégio Internacional de Vilamoura's AI summit (Vilamoura is in Loulé).",
     "Hint for the Faro agent: UAlg Penha campus, UAlgTec Heritage, CRIA, DevFest Faro, Algarve Evolution and the ULS Algarve webinar all sit in Faro.",
-    "No official feeds (RSS) found yet for any regional source: to check each site's feed link.",
     "Algarve AI Agents and Artificial Intelligence Algarve appear in the BEALG directory with no public website (the second is LinkedIn only, which we do not read): we should find a public page, or ask Algarve Evolution.",
     "UAlg centres: CINTAL's page mentions no AI, and CCMAR, CIMA and the Gambelas and Portimão campuses are not yet read for AI work. The EPIA 2025 programme and the SEA-EU AI charter are also unread.",
     "Dengun (a startup studio in the BEALG directory) returned 403, and Witflow (selected for Unicorn Factory Lisboa) is known only from a search result: both still need a source we can open before they go on the map.",
     "The BEALG directory lists about 40 incubators and communities (ANJE Faro, QRIAR, GrowIN Portugal, Impact Hackers, Geek Sessions Faro and others) with no AI tag: each needs a look for an AI path before it is mapped.",
-    "Town files name the Algarve 6.0 Smart Territorial Hub in three different ways, so the region map shows it more than once: dev.places@ or the town agents could align the name."
+    "Town files name the Algarve 6.0 Smart Territorial Hub in three different ways, so the region map shows it more than once: dev.places@ or the town agents could align the name.",
+    "Sul Informação and Jornal do Algarve serve their feeds but return 403 on article pages, and Postal and AlgarveSTP serve a bot challenge: we read only their feed headlines, so their AI stories are not in the news list. Headlines to open at source if a route is allowed: Algarve as the first Portuguese tourism destination to advertise on ChatGPT (Sul Informação, November 2026), the INTREPIDA AI Lab, an AI and tourism piece (September 2026), the Algarve Autodrome's AI-in-HR paper at the TMCT'26 conference in Portimão, and Jornal do Algarve's pieces on AI health diagnostics at home and on AI used for urban planning in Castro Marim.",
+    "Feeds read and working: Barlavento's AI tag, Sul Informação, Jornal do Algarve and Postal. None of the Algarve universities' or the CCDR's news pages gave a feed.",
+    "Starting a company here: every programme found so far has closed its call, and the official Portuguese government entrepreneurship page we tried returned 404. We should read IAPMEI, Startup Portugal and the Algarve Evolution incubator for what is open now.",
+    "Investment map: a search for AI startups founded in the Algarve that raised money in 2026 found none, only Lisbon and Porto companies. Algarve investors, business angels and the funds behind the incubators are not yet mapped.",
+    "Barlavento's two AI items without a clear Algarve company (a national poll on AI instead of seeing a doctor, and a book on AI that includes an Olhão author) were left out as national or personal."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
