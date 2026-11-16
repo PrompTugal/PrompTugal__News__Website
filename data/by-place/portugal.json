@@ -85,6 +85,26 @@
       "steps": 0
     },
     {
+      "title": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsoft at the Sines data campus",
+      "summary": "From late 2027, with 230 million euros for shared infrastructure and 465 million euros for a second 200 MW building, next to the 12,600 Blackwell Ultra GPUs already planned there. Start Campus builds and operates the site.",
+      "date": "2026-05-05",
+      "publisher": "Nscale",
+      "url": "https://www.nscale.com/press-releases/nscale-start-campus",
+      "read_on": "2026-11-15",
+      "ai_path": "AI compute capacity in Portugal, so one step: the hardware AI workloads run on.",
+      "steps": 1
+    },
+    {
+      "title": "CGI sets up a generative and agentic AI centre of excellence in Portugal",
+      "summary": "The Canadian consulting firm, with over 2,000 staff in Portugal, launched the centre in May 2026. The source names no city for it.",
+      "date": "2026-05",
+      "publisher": "Portugal Global newsletter",
+      "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
+      "read_on": "2026-11-15",
+      "ai_path": "A centre focused on generative and agentic AI, so directly AI.",
+      "steps": 0
+    },
+    {
       "title": "Coalex.ai raises an angel round to supervise AI agents",
       "summary": "The Portuguese startup monitors autonomous AI agents, flags risky outputs for human review and scores them from 0 to 100. The investor is Angels Way.",
       "date": "2026-06-19",
@@ -574,6 +594,36 @@
       "read_on": "2026-11-15",
       "ai_path": "Funds national AI research, so one step.",
       "steps": 1
+    },
+    {
+      "name": "Start Campus, SINES Data Campus (Sines, Alentejo coast)",
+      "type": "company",
+      "url": "https://www.nscale.com/press-releases/nscale-start-campus",
+      "what": "Builds and operates the data campus in Sines, permitted for 1.2 GW, where Nscale deploys GPUs for Microsoft.",
+      "source_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+      "read_on": "2026-11-15",
+      "ai_path": "AI data-centre capacity, so one step.",
+      "steps": 1
+    },
+    {
+      "name": "Nscale",
+      "type": "company",
+      "url": "https://www.nscale.com/press-releases/nscale-start-campus",
+      "what": "AI infrastructure company announcing 66,000+ NVIDIA Rubin GPUs at Sines from late 2027, on top of 12,600 Blackwell Ultra GPUs.",
+      "source_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+      "read_on": "2026-11-15",
+      "ai_path": "AI compute, so one step.",
+      "steps": 1
+    },
+    {
+      "name": "CGI Portugal",
+      "type": "company",
+      "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
+      "what": "Consulting firm with over 2,000 staff in Portugal and a new generative and agentic AI centre of excellence, city not stated.",
+      "source_url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
+      "read_on": "2026-11-15",
+      "ai_path": "Generative AI practice, so directly AI.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -595,13 +645,13 @@
     "signed_by": "place.portugal@PrompTugal.dinis"
   },
   "gaps": [
-    "Second pass of 15 November: 32 map entries and 16 news items, all from pages opened tonight. Still to map: AI communities, more Lisbon and Porto accelerators, Instituto de Telecomunicações and the other university labs (search results only so far, no official page opened).",
+    "Third pass of 16 November: 35 map entries and 18 news items, all from pages opened. Still to map: AI communities, more Lisbon and Porto accelerators, Instituto de Telecomunicações and other university labs (no official page opened yet), people and talent, and 'starting a company here'.",
     "No page we opened states the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai or Feedzai, so their region is left out until a source says it.",
     "The gigafactory bid has no confirmed site or date in our sources, and the National Data Centre Plan is still being finalised.",
     "Sword Health and Unbabel have no page of their own read tonight (the company site refused or redirected), their entries rest on one press article.",
     "No Algarve entry yet at national level: the region's AI map belongs to place.algarve@, and flows up from its file.",
     "Tech Foundry Portugal (a deep tech accelerator announced in May 2026) was left out: the page we read does not mention AI, so it fails the PrompTugal test for now.",
-    "Leads not yet opened: Nscale's announced GPU plan at Sines, CGI's generative AI centre, UJET's Porto hub, the DemocracI.A. conference in Porto on 25 November. Each goes in once its own page is read."
+    "The DemocracI.A. conference in Porto on 25 November was only mentioned in a search summary and we found no page for it, so it is not listed. UJET's new Porto hub was left out: nothing we read connects it to AI."
   ],
   "voice": {
     "lede": "A country on the Atlantic edge of Europe that wrote itself a language model of its own, and would like you to try it.",

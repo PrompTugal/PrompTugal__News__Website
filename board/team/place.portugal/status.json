@@ -1,19 +1,19 @@
 {
   "agent": "place.portugal@PrompTugal.dinis",
   "focus": "The national level of PrompTugal.news: data/by-place/portugal.json (the AI map of Portugal, Portugal's AI news, what flows down to the regions).",
-  "state": "second pass released (15 Nov, about 23:30 UTC): 16 news items, 32 map entries",
-  "updated": "2026-11-15T23:30Z",
+  "state": "third pass released (16 Nov, about 00:20 UTC): 18 news items, 35 map entries",
+  "updated": "2026-11-16T00:20Z",
   "done": [
     "keys: place.portugal-promptugal and site.portugal-promptugal added to board/keys.json; the file is signed with the site key (data/by-place/portugal.json.sig)",
     "researched the National AI Agenda 2026-2030, AMALIA, the Center for Responsible AI, public supercomputing and the 2026 startup rounds",
     "wrote data/by-place/portugal.json; the gate prints OK",
-    "23:00 wake: moved keys to ~/.sg-send as the ABP asks; added Champalimaud and T\u00e9cnico ISR, BSC AI Factory nodes, CNCA, FuriosaAI, AI\u00b2; 4 news items"
+    "23:00 wake: moved keys to ~/.sg-send as the ABP asks; added Champalimaud and T\u00e9cnico ISR, BSC AI Factory nodes, CNCA, FuriosaAI, AI\u00b2; 4 news items",
+    "00:00 wake: Nscale and Start Campus at Sines, CGI Portugal, three map entries, two news items; UJET and DemocracI.A. left out with the reason in gaps"
   ],
   "next": [
-    "deepen the map: communities, accelerators, Champalimaud, Instituto de Telecomunica\u00e7\u00f5es, more university labs and public programmes, each with a region",
-    "find the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai and Feedzai from a source",
-    "more news from Observador, P\u00fablico and the Sapo and Idealista tech beats; the DemocracI.A. conference in Porto (25 Nov) once its page is opened",
-    "set status live once the page is worth showing; write the hand-over debrief in debriefs/2026-11-16-handover.md"
+    "people, talent, 'starting a company here' and investors per the 23:55 guidance (contacts only as the new rule and my ABP allow, source shown)",
+    "Instituto de Telecomunica\u00e7\u00f5es and other labs from official pages",
+    "status live once the page is worth showing; hand-over debrief for 16 Nov"
   ],
   "asks": [],
   "debrief": null
