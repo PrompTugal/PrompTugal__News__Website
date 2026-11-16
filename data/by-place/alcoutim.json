@@ -45,16 +45,6 @@
       "steps": 1
     },
     {
-      "title": "dstelecom takes fibre to 1,000 more homes in Alcoutim",
-      "summary": "The fibre operator announced on 9 June 2026 that the municipality's coverage would pass 80 percent, reaching 82 percent, with about 1,000 new homes in Alcoutim, Giões and Pereiro by the end of the first half of 2026. More than 3,100 families would have access.",
-      "date": "2026-06-09",
-      "publisher": "dstelecom",
-      "url": "https://www.dstelecom.pt/imprensa/fibra-otica-chega-a-mais-1-000-casas-em-alcoutim-e-ultrapassa-80-de-cobertura/",
-      "read_on": "2026-11-15",
-      "ai_path": "Fibre to the villages is the base layer that any AI service, remote work or telehealth in a low-density town depends on. It is an operator's own press release and does not mention AI, and we have not confirmed the target was met.",
-      "steps": 2
-    },
-    {
       "title": "Alcoutim turns the old EPAC granary into a business and coworking centre",
       "summary": "The council's Celeiro de Ideias application was approved on 27 August 2026 under Algarve 2030. Eligible investment is 1,269,828.22 euros, with 761,896.94 euros of FEDER co-funding, and works are due to end on 30 September 2028. It is meant for microbusinesses, freelancers, startups and local artisans.",
       "date": "2026-09-25",
@@ -75,6 +65,16 @@
       "steps": 3
     },
     {
+      "title": "dstelecom takes fibre to 1,000 more homes in Alcoutim",
+      "summary": "The fibre operator announced on 9 June 2026 that the municipality's coverage would pass 80 percent, reaching 82 percent, with about 1,000 new homes in Alcoutim, Giões and Pereiro by the end of the first half of 2026. More than 3,100 families would have access.",
+      "date": "2026-06-09",
+      "publisher": "dstelecom",
+      "url": "https://www.dstelecom.pt/imprensa/fibra-otica-chega-a-mais-1-000-casas-em-alcoutim-e-ultrapassa-80-de-cobertura/",
+      "read_on": "2026-11-15",
+      "ai_path": "Fibre to the villages is the base layer that any AI service, remote work or telehealth in a low-density town depends on. It is an operator's own press release and does not mention AI, and we have not confirmed the target was met.",
+      "steps": 2
+    },
+    {
       "title": "Alcoutim pays for its senior teleassistance service itself",
       "summary": "The council decided in March 2026 to fund a new edition of the + Proximo service with its own money, about 80,000 euros, after no support decision came. It gives people aged 65 or over who live isolated a wearable alarm button and a fixed unit on the home phone, and the Tavira humanitarian centre of the Portuguese Red Cross installs the kit and visits.",
       "date": "2026-03-25",
@@ -83,6 +83,16 @@
       "read_on": "2026-11-15",
       "ai_path": "Connected alarm devices for isolated seniors are the digital inclusion layer where remote monitoring and AI risk detection would come next, as in the Smart Territorial Hub's elderly monitoring vertical. The article does not mention AI.",
       "steps": 3
+    },
+    {
+      "title": "Alcoutim's Radar Social maps people at risk with a georeferencing system",
+      "summary": "The council's PRR-funded Radar Social finished its planning phase and was building a social georeferencing system to locate people, families and groups at risk and the social resources near them, due by March 2026. Budget is 169,302.59 euros for a team of two technicians.",
+      "date": "2025-05-08",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/radar-social-de-alcoutim-aposta-em-georreferenciacao-para-combater-pobreza-e-exclusao/",
+      "read_on": "2026-11-16",
+      "ai_path": "A geographic data layer on social risk is a base for AI analysis. The article does not mention AI, and we have not confirmed the system went live.",
+      "steps": 2
     }
   ],
   "sources": [
@@ -174,6 +184,16 @@
   "events": [],
   "ai_map": [
     {
+      "name": "Robotics4Farmers (PRR agenda, with Municipio de Alcoutim as a named partner)",
+      "type": "public body",
+      "url": "https://robotics4farmers.tecnico.ulisboa.pt/~robotics4farmers.daemon/about/",
+      "what": "An 11-partner consortium building a robotic platform for weed control without herbicides, using concentrated solar heat. The project's own page lists Instituto Superior Tecnico, the desertification competence centre, Alcoutim's council and an Elvas olive growers association among its named partners. The council lists the project's data sheet among its PRR projects. The European Commission lists 117,760 euros of RRP funding.",
+      "source_url": "https://robotics4farmers.tecnico.ulisboa.pt/~robotics4farmers.daemon/about/",
+      "read_on": "2026-11-16",
+      "ai_path": "The project says it uses learning algorithms to classify weeds, seasonal prediction models and AI-guided cameras, so it is directly about AI. Alcoutim's council is a named partner. The pages do not say where trials run or what the council does.",
+      "steps": 0
+    },
+    {
       "name": "Algarve 6.0 Smart Territorial Hub (Alcoutim, Olhao, Loule, Sao Bras de Alportel, Tavira, Vila Real de Santo Antonio)",
       "type": "public body",
       "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
@@ -187,11 +207,11 @@
       "name": "CCDesert, Centro de Competencias na Luta contra a Desertificacao",
       "type": "institution",
       "url": "https://www.iniav.pt/images/Investigacao_Inovacao/Centros-Competencias/CCDesert/poster.pdf",
-      "what": "A national competence centre hosted by Alcoutim since 2018, joining the Government and more than 30 institutions in research, training and knowledge transfer on desertification, and publishing results digitally.",
-      "source_url": "https://observador.pt/2018/07/19/governo-cria-centro-para-estudar-e-procurar-solucoes-de-combate-a-desertificacao/",
+      "what": "A national competence centre hosted by Alcoutim since 2018, joining the Government and more than 30 institutions in research, training and knowledge transfer on desertification, and publishing results digitally. It is also named as a partner of the Robotics4Farmers consortium.",
+      "source_url": "https://robotics4farmers.tecnico.ulisboa.pt/~robotics4farmers.daemon/about/",
       "read_on": "2026-11-15",
-      "ai_path": "A research network that maps land, soil and climate data is a natural user of AI and remote sensing models. We found no AI work by the centre yet, so this is a lead to check.",
-      "steps": 3
+      "ai_path": "CCDesert is a named partner of Robotics4Farmers, an AI-guided agricultural robot project, which makes it a direct AI link. The project page does not say what CCDesert does in it.",
+      "steps": 1
     },
     {
       "name": "CME (digital platform for the Alcoutim shared bikes)",
@@ -252,6 +272,26 @@
       "read_on": "2026-11-16",
       "ai_path": "The labs are planned to test AI directly. No lab location in Alcoutim is confirmed.",
       "steps": 1
+    },
+    {
+      "name": "Instituto Superior Tecnico (Robotics4Farmers partner)",
+      "type": "institution",
+      "url": "https://tecnico.ulisboa.pt/",
+      "what": "Lisbon engineering school, a named partner of the Robotics4Farmers consortium that includes Alcoutim's council. Not based in Alcoutim.",
+      "source_url": "https://robotics4farmers.tecnico.ulisboa.pt/~robotics4farmers.daemon/about/",
+      "read_on": "2026-11-16",
+      "ai_path": "It is a partner in a project built on AI-guided cameras and learning algorithms.",
+      "steps": 1
+    },
+    {
+      "name": "Radar Social (PRR pilot, Alcoutim council)",
+      "type": "public body",
+      "url": "https://www.barlavento.pt/radar-social-de-alcoutim-aposta-em-georreferenciacao-para-combater-pobreza-e-exclusao/",
+      "what": "A PRR-funded social response with a two-person team and 169,302.59 euros. Its second phase, due to run to March 2026, sets up a social georeferencing system to locate people and families at risk and the resources around them.",
+      "source_url": "https://www.barlavento.pt/radar-social-de-alcoutim-aposta-em-georreferenciacao-para-combater-pobreza-e-exclusao/",
+      "read_on": "2026-11-16",
+      "ai_path": "A georeferenced map of people at risk is the dataset on which AI risk-flagging could be built. The article names no software and does not mention AI.",
+      "steps": 2
     }
   ],
   "extras": [
@@ -272,6 +312,12 @@
       "value": "82 percent expected after the 2026 build, more than 3,100 families with access (operator's announcement, 9 June 2026)",
       "source_url": "https://www.dstelecom.pt/imprensa/fibra-otica-chega-a-mais-1-000-casas-em-alcoutim-e-ultrapassa-80-de-cobertura/",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Council's PRR project sheets",
+      "value": "The council's PRR page lists data sheets for the Smart Territorial Hub, website accessibility, REAVER, the Alcoutim to Sanlucar bridge, Robotics 4 Farmers, Radar Social and the Martim Longo water network. REAVER is not explained there.",
+      "source_url": "https://cm-alcoutim.pt/municipio/projetos-financiados/plano-de-recuperacao-e-resiliencia-prr",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -284,8 +330,8 @@
     "The Things Network Algarve lists a free LoRaWAN community for the region, but its page does not mention Alcoutim. Whether the council's LoRaWAN network will be open to community use is an open question.",
     "Fibre is covered only by the operator's own announcement (82 percent expected, not confirmed as reached). Mobile and 5G coverage for Alcoutim, digital inclusion training and village Wi-Fi still have no source: GEO.ANACOM lets one search by place and should be read next.",
     "Agrosocial Plus is read at source, but it names no Alcoutim lab. Ask Odiana where the Living Labs will sit. A Universidade do Algarve water digitalisation conference at Faro on 24 November was seen only in a search summary and is not yet placed in Alcoutim.",
-    "The council's site (cm-alcoutim.pt) is built so that a plain reader sees only headings, but the page text is inside the page's own data block and can be read from there. It has no RSS feed. Its November items found so far are culture, fire safety and social support, none about AI or technology.",
-    "No official business contact (a desk, a form, a published office channel) was found on the pages read, so none is listed. The business park page publishes a regulation but no named desk. Look for the council's economic development or investor service on the site map. No local talent is listed for Alcoutim: nobody has agreed to be listed and we found no public speaker from the town on AI."
+    "The council's site has no RSS feed, and a plain reader sees only headings, but the page text can be read from its embedded data block, and its news page lists November items on culture, fire safety, museums and the Biosphere certificate, none about AI. The REAVER project sheet on the council's PRR page is unexplained: we found no source for what it is.",
+    "Only the council's general channel is listed. No named economic development desk or investor service was found on the pages read. No local talent is listed for Alcoutim: nobody has agreed to be listed and we found no public AI speaker from the town. Robotics4Farmers lists Alcoutim's council as a partner, but where its trials run and what the council does in it are not stated: a question for the council and the project."
   ],
   "voice": {
     "lede": "Ai, Alcoutim: a vila onde o rio e quase Espanha e a fibra ainda vem devagarinho, mas os sensores ja chegaram.",
@@ -362,6 +408,16 @@
       "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/beneficiario/506772446/",
       "read_on": "2026-11-16",
       "ai_path": "A sensor and data platform is the base for analytics and AI. The project page does not mention AI."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Municipio de Alcoutim: official general channel",
+      "what": "The council's published general office channel and opening hours.",
+      "url": "https://cm-alcoutim.pt/contactos",
+      "source_url": "https://cm-alcoutim.pt/contactos/outros-contactos",
+      "read_on": "2026-11-16",
+      "channel": "The council's general email and telephone, with opening hours Monday to Friday 8:30 to 15:00, are published in the footer of the linked page. Shown here as a link, not copied: the gate still rejects a literal address."
     }
   ]
 }

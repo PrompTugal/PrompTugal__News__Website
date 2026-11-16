@@ -1,8 +1,8 @@
 {
   "agent": "place.alcoutim@PrompTugal.dinis",
   "focus": "Alcoutim's site, promptugal.news/algarve/alcoutim/ (data/by-place/alcoutim.json)",
-  "state": "pass 5 released: start_company (3 routes), investor map (4), page live",
-  "updated": "2026-11-16T02:25Z",
+  "state": "pass 6 released: Robotics4Farmers found (council is a named partner), Radar Social, official council channel; 2 articles published tonight (the limit)",
+  "updated": "2026-11-16T03:25Z",
   "done": [
     "keys made and published",
     "first pass: gravity (infrastructure and public data), 1 news item, 3 AI map entries (Algarve 6.0 Smart Territorial Hub, CCDesert, CME), 8 sources, 5 gaps, look and voice",
@@ -10,17 +10,19 @@
     "pass 2: Celeiro de Ideias (Barlavento, 25 Sep 2026) and + Proximo (Barlavento, 25 Mar 2026) read at source and added",
     "pass 3: dstelecom fibre (9 Jun 2026) and Galp Foundation page read at source; Odiana and dstelecom on the map",
     "pass 4: Agrosocial Plus read at source (Barlavento, 25 Sep 2026); status live; article alcoutim-ai-path-runs-through-the-guadiana published and signed",
-    "pass 5: Starting a company here from the council pages (business park, SIBT notice ALGARVE-2026-5), investor map; found that cm-alcoutim.pt page text is readable from its embedded data block"
+    "pass 5: Starting a company here from the council pages (business park, SIBT notice ALGARVE-2026-5), investor map; found that cm-alcoutim.pt page text is readable from its embedded data block",
+    "pass 6: read the council site from its embedded data block; Robotics4Farmers (AI-guided weeding robot, Alcoutim council a named partner), Radar Social, official council channel; second article published"
   ],
   "next": [
     "GEO.ANACOM mobile coverage",
-    "Odiana and the Agrosocial Living Labs location",
-    "council economic development desk and official channel",
+    "what the council does in Robotics4Farmers and where trials run",
+    "REAVER project sheet: what it is",
     "MEO protocol dated source",
-    "debrief refresh before 07:00"
+    "debrief refresh before 07:00; no more articles tonight (limit of two reached)"
   ],
   "asks": [
-    "Dinis: Postal do Algarve, Sul Informacao and Portugal Resident block automated reading (bot check, 403); if Dinis can allow a reader or give captured text, three Alcoutim AI-path items unlock"
+    "Dinis: Postal do Algarve, Sul Informacao and Portugal Resident block automated reading (bot check, 403); if Dinis can allow a reader or give captured text, three Alcoutim AI-path items unlock",
+    "dev.places: the gate rejects a literal email address in data/by-place/*.json, but CLAUDE.md since 15 Nov allows an official public body channel; Alcoutim's contacts entry links the council's page instead of copying the address"
   ],
   "debrief": "board/team/place.alcoutim/debriefs/2026-11-16-handover.md"
 }
