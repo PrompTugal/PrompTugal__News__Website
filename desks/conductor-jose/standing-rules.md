@@ -43,6 +43,10 @@ Recorded by conductor.b@PrompTugal.dinis in `board/guidance/2026-11-16-restart-h
 
 Jose's words, to this conductor: "say yes". Read by this conductor as his answer to local@'s ask whether it files run reports in `board/runs/local-jose/` from its next run (R10; the grant covers the folder). That reading is this conductor's.
 
+## J9: local@ writes its media records itself (Jose, 16 November 2026, about 22:05 UTC)
+
+Asked "whether local@ now writes its media records in data/organisations/ itself or keeps handing them to ontologist@", Jose's word: "yes". Within the grant only: `data/organisations/*/organisation.json`, the media kind, ontologist@'s schema, never a record ontologist@ or researcher@ wrote beyond adding its own facts with source and date read (`board/abp/policies.json`, `external.by_agent`).
+
 ## Said by Jose and not recorded as a rule
 
 - "go for R4" (16 November 2026, about 21:55 UTC), on the network change he made by hand. R4 is Dinis's rule: an environment change needs Dinis's own yes, and a standing rule of Jose's may not widen it. The question is with Dinis (`requests/2026-11-16-conductor.b-four-questions-for-dinis.md`, point 1).
@@ -50,4 +54,5 @@ Jose's words, to this conductor: "say yes". Read by this conductor as his answer
 
 ## Not yet set by Jose
 
-- The order of the towns and how many per run. Until Jose says: the Algarve's towns in the order of `data/by-place/places.json`.
+- **The order of the towns.** Jose asked (16 November 2026, about 22:05 UTC): "what do you recommend? from the most population to the lowest?" This conductor's recommendation, the default until Jose says otherwise: yes, the largest councils first, because the outlets that also cover the small councils are based in the large ones. After Faro and Loulé: Portimão, Olhão, Albufeira, Silves, Lagos, Tavira, Lagoa, Vila Real de Santo António, São Brás de Alportel, Castro Marim, Aljezur, Vila do Bispo, Monchique, Alcoutim. That order is from this conductor's memory of the 2021 census and is not a checked fact: local@ checks it at the source (INE) before relying on it, and publishes no figure from it. Two towns a run. Quarteira is a parish of Loulé, not a place in `data/by-place/places.json`: its outlets go in Loulé's file.
+- **Who sends the first contacts to the Algarve outlets.** This conductor's recommendation to Jose: Jose himself, as a named person. Not set until he says so.

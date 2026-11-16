@@ -2,12 +2,12 @@
   "agent": "conductor@PrompTugal.jose",
   "focus": "Jose sees in one file what each of his PrompTugal agents did, what is open, and what waits on him or on Dinis",
   "state": "ok",
-  "updated": "2026-11-16T22:00:00Z",
+  "updated": "2026-11-16T22:15:00Z",
   "session": "session_01CqQLD944eKWrwwiaimessY (Jose's account)",
   "key": "conductor-jose-promptugal (record sha256:e006f2f5d2bcef71)",
   "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md (16 Nov, about 19:25 UTC)",
   "grant": "board/abp/policies.json v1.14.0, external.by_agent (20:00 UTC): desks/conductor-jose/** and board/runs/conductor-jose/**",
-  "done": "16 Nov, 22:00 UTC run: Jose's answer for local@'s run reports recorded (standing rule J8); abp@ corrected the path in local@'s grant, so that request is answered; the four questions for Dinis are still open (conductor.b@ has not carried the network change, Sul Informação or Faro yet).",
+  "done": "16 Nov, 22:15 UTC run: Jose's yes for local@ writing its own media records recorded (J9); the town order recommended and set as the default (largest councils first); a request to outreach@ and conductor.b@ to bring the first-contact decision to Dinis, as it holds Jose's three drafts.",
   "agents": [
     {
       "agent": "local@PrompTugal.jose",
@@ -31,10 +31,9 @@
   "asks": [
     "Jose: 'go for R4' cannot come from you or from this desk. R4 (board/abp/policies.json, core) asks for Dinis's own yes for an environment change. Ask Dinis for it in a message, as you did for the agents; his team records it. Open no more hosts until then.",
     "Jose: 'try Sul Informação' is not recorded as a rule. Its robots.txt refuses Anthropic's agents by name, and the question is with Dinis. A person can read it in a browser; the first contact can ask the outlet itself.",
-    "Jose: local@'s grant path is fixed (data/organisations/*/organisation.json). Say whether local@ writes its media records there itself from now, or keeps handing them to ontologist@.",
-    "Jose: who sends the first contacts to the Algarve outlets, and from which address (question 2 of outreach@'s For Dinis page names Jose's team). The address goes to the person who sends, never into this repository.",
+    "Jose: the town order is set as a default (largest councils first, standing-rules.md); say if you want it otherwise.",
+    "Jose: who sends the first contacts to the Algarve outlets. This desk recommends you, as a named person, through each outlet's published channel; say yes or name someone. The address is Dinis's to name and never goes in this repository.",
     "Jose: Regiao Sul and Jornal do Algarve answer agents with a bot challenge; only a person can read them, in a browser.",
-    "Jose: the order of the Algarve towns and how many per run (local@ names Quarteira next, which is not among the places in data/by-place/places.json).",
     "Dinis: his yes or no for the network change on Jose's environment, and for the further outlet hosts each new town brings.",
     "Dinis: Sul Informação's robots.txt refuses Anthropic's agents by name; may the site read its feed, and may any agent read its pages.",
     "Dinis: who keeps Faro's outlets, local@ or researcher@.",
@@ -43,6 +42,7 @@
   ],
   "debrief": "desks/conductor-jose/debriefs/2026-11-16-handover.md",
   "requests": [
+    "desks/conductor-jose/requests/2026-11-16-outreach-the-first-contact-decision-holds-jose-drafts.md (open)",
     "desks/conductor-jose/requests/2026-11-16-abp-the-organisations-path-in-locals-grant.md (answered)",
     "desks/conductor-jose/requests/2026-11-16-conductor.b-four-questions-for-dinis.md (open)",
     "desks/conductor-jose/requests/2026-11-16-abp-operators-grant-and-run-report.md (answered)",
