@@ -1,0 +1,286 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "coimbra",
+  "name": "Coimbra",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Coimbra: AI and technology in Coimbra, a university city whose centre of gravity is the University of Coimbra, its research centres, the Instituto Pedro Nunes incubator and the fraud-detection company Feedzai, and what reaches Coimbra from Portugal, Europe and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Coimbra's AI activity grows out of its university. The University of Coimbra restructured its programmes into an AI and Data Science degree and master's, its INESCC research unit leads a defence-funded AI project on hybrid threats, and Feedzai, a Portuguese AI company that grew out of university research, has its headquarters in the city. Around the university sit the Instituto Pedro Nunes, which runs an incubator and lists AI as a service, and a municipal agency, Go Coimbra, that names AI as one of five priority sectors. The council also appears as a first-phase pilot for AI in urban licensing, so here city government, and not only research, is part of the story.",
+    "sources": [
+      {
+        "title": "University of Coimbra develops AI against hybrid threats (Notícias ao Minuto, from Lusa, 3 August 2026)",
+        "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "University of Coimbra creates a bachelor's and master's in AI (Notícias ao Minuto, 17 June 2025)",
+        "url": "https://www.noticiasaominuto.com/tech/2807236/universidade-de-coimbra-cria-licenciatura-e-mestrado-em-ia",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "UC and Feedzai extend partnership to Startup Capital Summit (Portugal Global, 8 May 2026)",
+        "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Government moves ahead with a pilot to use AI in municipal licensing (RTP, 2026)",
+        "url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#8A5A00",
+    "landmark": "the University of Coimbra on its hill above the Mondego",
+    "motif": "old gold, student capes, the river Mondego, a hill of books and a startup scene at its feet"
+  },
+  "ai_news": [
+    {
+      "title": "APDC and Google start an AI course for civil servants, kicked off in Coimbra",
+      "summary": "A national training programme called Estado em Acção, for public administration staff, opened with a free session in Coimbra on 18 September 2026 and was to continue with ten sessions across the country.",
+      "date": "2026-09-11",
+      "publisher": "HR Portugal",
+      "url": "https://hrportugal.sapo.pt/apdc-e-google-vao-ensinar-ia-aos-profissionais-do-estado/",
+      "read_on": "2026-11-16",
+      "ai_path": "A practical AI training programme for the state, launched in Coimbra: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "University of Coimbra researchers build AI against hybrid threats",
+      "summary": "The SHIELD-EU project, led by the university's INESCC research unit and funded by the national science foundation, combines Internet of Things, edge AI and behavioural models, with the Portuguese Air Force helping to test the solutions.",
+      "date": "2026-08-03",
+      "publisher": "Notícias ao Minuto (Lusa)",
+      "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+      "read_on": "2026-11-16",
+      "ai_path": "A Coimbra research project that builds AI for defence: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Feedzai and the University of Coimbra widen their partnership for the Startup Capital Summit",
+      "summary": "On 4 May 2026 the university and Feedzai, a Portuguese company that grew out of university research on fraud detection, extended their partnership to back the Startup Capital Summit in Coimbra on 3 June, which is about deep tech, venture capital and entrepreneurship.",
+      "date": "2026-05-08",
+      "publisher": "Portugal Global",
+      "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI company and a university back a startup summit in Coimbra: one step from AI, because the summit itself is about deep tech in general.",
+      "steps": 1
+    },
+    {
+      "title": "Coimbra is among the first councils to test AI in urban licensing",
+      "summary": "The government plans a pilot in a small number of municipalities that are already technologically ready, with AI acting as a single access layer over council platforms, starting with construction licences. Coimbra is named as part of the first phase, and its mayor said AI can speed processes while respecting planning rules and without dehumanising public services. The page shows no exact date.",
+      "date": "2026",
+      "publisher": "RTP",
+      "url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
+      "read_on": "2026-11-16",
+      "ai_path": "A council piloting AI in a public service: directly about AI, in Coimbra.",
+      "steps": 0
+    },
+    {
+      "title": "Go Coimbra, the new municipal agency, names AI as a priority sector",
+      "summary": "The agency, which replaces iParque, was presented with targets to cut investor decision times by 20 percent, create 750 skilled jobs and grow exports by 10 percent by 2029. Artificial intelligence is one of its five strategic areas. The page shows no exact date.",
+      "date": "2026",
+      "publisher": "RTP",
+      "url": "https://www.rtp.pt/noticias/mundo/agencia-municipal-go-coimbra-quer-aumentar-exportacoes-da-regiao-em-10-ate-2029_n1776308",
+      "read_on": "2026-11-16",
+      "ai_path": "A city agency that lists AI as one of five priorities for attracting investment: one step from AI.",
+      "steps": 1
+    },
+    {
+      "title": "University of Coimbra opens an AI and Data Science bachelor's and master's",
+      "summary": "After restructuring existing engineering and data science courses to meet labour market demand, the university opened applications in summer 2025 for the new degree and master's.",
+      "date": "2025-06-17",
+      "publisher": "Notícias ao Minuto",
+      "url": "https://www.noticiasaominuto.com/tech/2807236/universidade-de-coimbra-cria-licenciatura-e-mestrado-em-ia",
+      "read_on": "2026-11-16",
+      "ai_path": "A university creating its first dedicated AI degrees: directly about AI. Older than the 2026 items.",
+      "steps": 0
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Coimbra",
+      "url": "https://www.cm-coimbra.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Universidade de Coimbra: news",
+      "url": "https://noticias.uc.pt/en/",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Instituto Pedro Nunes: news",
+      "url": "https://www.ipn.pt/en/?p=7498",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "CISUC (Centre for Informatics and Systems of the University of Coimbra)",
+      "url": "https://www.cisuc.uc.pt/en/history",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Notícias ao Minuto: Tech (carries Lusa items on Coimbra research)",
+      "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "RTP Notícias",
+      "url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Portugal Global (AICEP news)",
+      "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+      "kind": "business",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "Estado em Acção, kickoff of the APDC and Google AI course for public administration (Coimbra, already held)",
+      "date": "2026-09-18",
+      "url": "https://hrportugal.sapo.pt/apdc-e-google-vao-ensinar-ia-aos-profissionais-do-estado/",
+      "read_on": "2026-11-16",
+      "ai_path": "A training session on practical, safe use of AI by public staff: directly about AI."
+    },
+    {
+      "title": "Startup Capital Summit 2026 (Coimbra, backed by UC and Feedzai, already held)",
+      "date": "2026-06-03",
+      "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+      "read_on": "2026-11-16",
+      "ai_path": "A deep tech and venture summit backed by an AI company: one step from AI. The page does not give an AI programme."
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Universidade de Coimbra (UC)",
+      "type": "institution",
+      "url": "https://www.uc.pt",
+      "what": "The city's public university. Opened AI and Data Science degrees in 2025 and hosts the research units below.",
+      "source_url": "https://www.noticiasaominuto.com/tech/2807236/universidade-de-coimbra-cria-licenciatura-e-mestrado-em-ia",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches and researches AI.",
+      "steps": 0
+    },
+    {
+      "name": "CISUC (Centre for Informatics and Systems of the University of Coimbra)",
+      "type": "institution",
+      "url": "https://www.cisuc.uc.pt/en/history",
+      "what": "Research centre created in 1991 with about 150 researchers by its own page. Its groups include an AI and computational creativity lab, bio-inspired AI and a Responsible AI Lab, and it joined a global responsible-AI consortium in November 2022.",
+      "source_url": "https://noticias.uc.pt/en/articles/the-centre-for-informatics-and-systems-of-the-university-of-coimbra-joins-the-largest-global-artificial-intelligence-consortium/",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs AI research groups.",
+      "steps": 0
+    },
+    {
+      "name": "INESCC (Institute of Systems and Computer Engineering of Coimbra)",
+      "type": "institution",
+      "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+      "what": "Research unit linked to the university's science and technology faculty. Leads SHIELD-EU, an AI defence project funded by the national science foundation.",
+      "source_url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds edge AI for defence resilience.",
+      "steps": 0
+    },
+    {
+      "name": "Feedzai",
+      "type": "company",
+      "url": "https://en.wikipedia.org/wiki/Feedzai",
+      "what": "Financial-crime prevention company with AI at its core, described as headquartered in Coimbra and grown out of university research. Extended its partnership with the University of Coimbra on 4 May 2026. Founding years differ between sources, so none is stated here.",
+      "source_url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells AI for fraud detection.",
+      "steps": 0
+    },
+    {
+      "name": "Instituto Pedro Nunes (IPN)",
+      "type": "organisation",
+      "url": "https://www.ipn.pt/en/?p=7498",
+      "what": "Private non-profit created through a University of Coimbra initiative to move technology from science to industry. Runs an incubator and accelerator, and lists artificial intelligence among its specialised services.",
+      "source_url": "https://www.ipn.pt/en/?p=7498",
+      "read_on": "2026-11-16",
+      "ai_path": "Incubates technology companies and offers AI as a service.",
+      "steps": 1
+    },
+    {
+      "name": "Go Coimbra",
+      "type": "public body",
+      "url": "https://www.rtp.pt/noticias/mundo/agencia-municipal-go-coimbra-quer-aumentar-exportacoes-da-regiao-em-10-ate-2029_n1776308",
+      "what": "Municipal agency that replaces iParque and names AI as one of five strategic areas.",
+      "source_url": "https://www.rtp.pt/noticias/mundo/agencia-municipal-go-coimbra-quer-aumentar-exportacoes-da-regiao-em-10-ate-2029_n1776308",
+      "read_on": "2026-11-16",
+      "ai_path": "Courts AI investment for the city.",
+      "steps": 1
+    },
+    {
+      "name": "Câmara Municipal de Coimbra",
+      "type": "public body",
+      "url": "https://www.cm-coimbra.pt",
+      "what": "Named in the first phase of a national pilot of AI in municipal licensing, the mayor saying AI must not dehumanise public services.",
+      "source_url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
+      "read_on": "2026-11-16",
+      "ai_path": "A council testing AI in a public service.",
+      "steps": 0
+    },
+    {
+      "name": "Sensing Evolution",
+      "type": "company",
+      "url": "https://www.noticiasaominuto.com/tech/2686124/projeto-em-coimbra-cria-ia-para-prever-possiveis-perdas-auditivas",
+      "what": "Company that led the Audiology for All project with the university's engineering faculty and Coimbra's health school, building AI models that estimate hearing loss risk (December 2024). The page does not state the company's base city.",
+      "source_url": "https://www.noticiasaominuto.com/tech/2686124/projeto-em-coimbra-cria-ia-para-prever-possiveis-perdas-auditivas",
+      "read_on": "2026-11-16",
+      "ai_path": "Led an AI health project with Coimbra researchers.",
+      "steps": 0
+    },
+    {
+      "name": "IBM Portugal and Softinsa innovation centre",
+      "type": "company",
+      "url": "https://hrportugal.sapo.pt/?p=312904",
+      "what": "Announced in October 2023 a centre in Coimbra for AI and smart cities, with a protocol with the university and the council. We found no later report on whether it opened.",
+      "source_url": "https://hrportugal.sapo.pt/?p=312904",
+      "read_on": "2026-11-16",
+      "ai_path": "A planned AI and smart city centre.",
+      "steps": 0
+    },
+    {
+      "name": "Coimbra iTEC",
+      "type": "organisation",
+      "url": "https://www.ismt.pt/en/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial",
+      "what": "Organiser, according to a search summary of an ISMT news item that we could not open, of the TertulIAs 2026 conference cycle on AI in industry. Treat as unconfirmed until we read the page.",
+      "source_url": "https://www.ismt.pt/en/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs a conference cycle on AI applications.",
+      "steps": 0
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.coimbra-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "Coimbra council's own site (cm-coimbra.pt) and the University of Coimbra's news pages returned 403 to us, so council news, agenda and any feed are not read. We should look for the council's agenda, base.gov.pt procurement notices and the university's news feed by another route.",
+    "Two news items (the licensing pilot and Go Coimbra) carry no publication date on the pages we read, only the year 2026. We should confirm the dates.",
+    "The Rádio Renascença report that 80 percent of UC students use AI (March 2026) came up in search but returned 403, so it is not used.",
+    "Coimbra iTEC's TertulIAs 2026 cycle comes only from a search summary, because the ISMT page returned 404. Its dates and programme are missing.",
+    "No upcoming AI event in Coimbra after 16 November 2026 was found on an organiser's own page. Sources to check: Coimbra iTEC, IPN, JNation (the developer conference at Convento São Francisco, whose edition year we could not confirm), Go Coimbra.",
+    "No 2026 funding round for a Coimbra AI company was found. Sources to look for: Feedzai and IPN announcements, Portugal Ventures and Banco de Fomento notices.",
+    "Missing from the map for lack of an opened source: IPN's ATTRACT accelerator for AI and high-performance computing startups (a search summary only), CISUC's spin-offs, LASI, the Coimbra hospital group's AI use, Critical Software and other IT firms, and the other university faculties.",
+    "Local talent, start-a-company routes and contacts are not filled: we found no public body page for each that we could open."
+  ],
+  "voice": {
+    "lede": "Coimbra, ó pá: where the capes flap, the Mondego dawdles, and a hill full of professors keeps teaching the machines to read faculdade-style, while a unicorn quietly pays its rent down the slope.",
+    "mandate": "PrompTugal.news Coimbra, a cidade dos estudantes: AI and tech in Coimbra, with the Universidade as the big brain on the hill, the IPN as the greenhouse and Feedzai as the proud old boy, plus whatever news floats in from Portugal, Europe and the world. Independente, and every fact comes with a receipt.",
+    "gravity": "Coimbra is the place where an AI degree, a defence project on hybrid threats and a fraud-hunting company all trace back to the same hill. The Câmara has even been named in the first batch to try AI on building licences, so even the paperwork is getting clever. Research first, sim senhor, and now city hall too.",
+    "gaps_intro": "Ainda não sabemos tudo, pá, and a few doors slammed 403 in our face. Here is what Coimbra has not told us yet:"
+  }
+}

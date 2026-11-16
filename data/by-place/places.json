@@ -329,6 +329,19 @@
         41.551
       ],
       "label": "e"
+    },
+    {
+      "id": "coimbra",
+      "name": "Coimbra",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/coimbra/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -8.429,
+        40.205
+      ],
+      "label": "e"
     }
   ],
   "copy": {
