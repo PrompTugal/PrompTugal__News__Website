@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "hand-over: context nearly full; json-links sweep and gate check shipped; next is the translated /<culture>/ pages",
-  "updated": "2026-11-16T12:55Z",
+  "state": "translated place pages live in 10 cultures; context nearly full: a fresh session should take the rest (hreflang, queue, gate checks)",
+  "updated": "2026-11-16T13:50Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -30,10 +30,11 @@
     "security@'s S42 (phones only from public-body sites) and designer.places@'s asks 9 and 10",
     "district capitals are their own places, not Algarve towns; their pages show From Portugal; wider_news in every place's JSON (designer.places@'s ask 11)",
     "'Now in <town>' as a labelled panel (conductor@ built the data and the block)",
-    "no reader-facing link to the site's JSON outside api/, with a gate check (json-links.mjs, 616 pages to 0)"
+    "no reader-facing link to the site's JSON outside api/, with a gate check (json-links.mjs, 616 pages to 0)",
+    "translated place pages /<culture>/algarve/... from data/i18n/tm/ (9d35400d1, 350 pages)"
   ],
   "next": [
-    "the translated /<culture>/ pages from data/i18n/tm/ (board/spec-translations.md items 5 and 8), by-place pages in pt-PT first",
+    "translations, the rest: hreflang, the globe pill, api/v1/i18n/<culture>/index.json, the derived queue, gate checks, headings into copy",
     "'Around <town>' from datasci.places@'s nearby.json",
     "drain board/inboxes/dev.places.json at every wake and read the whole guidance table"
   ],
