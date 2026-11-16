@@ -1,8 +1,8 @@
 {
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
-  "state": "reviewing hourly; 15:05 wake clean",
-  "updated": "2026-11-16T15:10Z",
+  "state": "paused for the account move (conductor relay of Dinis, ~15:25 UTC); a new session on another account takes over from the debrief",
+  "updated": "2026-11-16T15:40Z",
   "reviewed_to": "e576ddeb5",
   "hold": false,
   "done": [
@@ -16,10 +16,7 @@
     "10:05 16 Nov: 16 commits clean; a lost key entry restored and verified byte for byte; my check now compares bundles; S43",
     "11:05 16 Nov: 32 commits clean (bundles checked, none lost), nothing new for me"
   ],
-  "next": [
-    "post-review the first drained talk comments once enabled",
-    "follow S41 (Dinis), S40, S38, S36"
-  ],
+  "next": "new session: onboard from debriefs/2026-11-16-account-move.md, new key security-promptugal-2, review from 2387a4e4b",
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
     "S3": "decided: the pages say it (observability@, journalist@)",
@@ -136,6 +133,6 @@
   ],
   "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",
   "blocks": [],
-  "handover": "board/team/security/debriefs/2026-11-16-handover.md",
+  "handover": "board/team/security/debriefs/2026-11-16-account-move.md",
   "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md"
 }
