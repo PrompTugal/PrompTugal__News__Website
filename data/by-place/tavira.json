@@ -91,6 +91,12 @@
       "url": "https://www.ccdr-alg.pt/",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Câmara Municipal de Tavira: support for entrepreneurs and investors",
+      "url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
+      "kind": "council",
+      "feed": null
     }
   ],
   "events": [],
@@ -166,6 +172,24 @@
       "value": "IAPMEI's list of accredited incubators for the Vale Incubação instrument, dated 5 November 2018, names EMPET (Parques Empresariais de Tavira) and its Level Up incubator as accredited. We have not checked whether the accreditation is current.",
       "source_url": "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Incentivos-Financiamento/Documentos-Incentivos/Entidades-Acreditadas_Vale-Incubacao_nov2018.aspx",
       "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company: what the council lists",
+      "value": "The council's entrepreneur and investor page names Level Up as a single point of service for company creation, idea development, trademark registration and information on support. It lists partners for funding (IEFP, business angels, Portugal Ventures, crowdfunding) and hiring and internship incentives. It lists no municipal tax incentive and does not target tech or AI firms. No page date is shown.",
+      "source_url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Espaço Empresa services",
+      "value": "Run by IAPMEI with AICEP and AMA, it offers online company formation and certificates (IRN), digital authentication (AMA), SME certification and investment incentives (IAPMEI), export support (AICEP) and the National Tourism Register. For R&D it points to the SIFIDE tax incentive run by ANI. It does not describe incubation or coworking.",
+      "source_url": "https://cm-tavira.pt/site/espaco-empresa-tavira/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Ideias à Maré: council business-idea contest",
+      "value": "A council programme for people aged 18 to 35 who live in or come from Tavira, with an interest in entrepreneurship, innovation and sustainability. It offers a 70-hour certified training course and the 10 best applications join the programme, with prizes for the winners. The rules we read come from the 2022 participatory budget follow-up and carry no AI or tech focus. We did not verify the prize amounts or the current call.",
+      "source_url": "https://cm-tavira.pt/site/wp-content/uploads/2024/09/normas-ideias-a-mare.pdf",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -181,7 +205,7 @@
     "Level Up's tenants and current accreditation are unknown: its own site was not found, and the press pieces about it (Postal do Algarve, Sul Informação, Barlavento archive) were blocked or down when we tried. Ask the incubator, or EMPET, which startups it hosts and whether any use AI.",
     "Not yet checked first-hand: hotel and tourism groups, schools, and any Centro Ciência Viva programme on AI (none found, only robotics and programming). No tech event for November 2026 was found in Tavira.",
     "Not yet mapped for Tavira: investors and investments made here, startups founded here, and local talent who have spoken publicly. No public source for any of them turned up in this pass. Dinis's overnight direction asks for all three, so they stay open.",
-    "Starting a company here is covered only at the level of public service points. What the council offers in grants or land for tech companies, and what the regional bodies add, is not yet checked."
+    "Starting a company here: the council's own pages list generic support and no incentive for tech or AI firms. A current Fundo de Apoio à Economia Local call and the planned municipal economic development plan were not found open or dated, so they stay unchecked."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
