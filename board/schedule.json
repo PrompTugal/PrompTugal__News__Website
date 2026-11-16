@@ -695,6 +695,15 @@
    "state": "enabled",
    "since": "2026-11-16T03:19Z",
    "note": "the translators (one session, a sub-agent per culture; board/spec-translations.md), account A, session session_018yvwtMB2X1kSW2GvipzDn7; started and looped at Dinis's word (16 Nov 2026, about 03:20 UTC)"
+  },
+  {
+   "agent": "place.districts@PrompTugal.dinis",
+   "minute": 23,
+   "cron": "23 * * * *",
+   "trigger": "trig_01X3ZuRr397iSjiabGxnPkgw",
+   "state": "enabled",
+   "since": "2026-11-16T04:17Z",
+   "note": "the 17 district capitals (one session, a sub-agent per capital; assets/portugal/next-places.json), account A, session session_018yvwtQFNnQ3GLjz1CExY95; started and looped at Dinis's word (16 Nov 2026, about 04:00 UTC)"
   }
  ]
 }
