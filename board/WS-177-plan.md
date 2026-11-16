@@ -923,3 +923,10 @@ Its session is archived; its key (newsroom-dinis) dies with it. Routed:
 ## What is out of scope before 10:00
 
 The vault access key, the Stripe link, summit mode and interviews: they stay as REALITY.md lists them.
+
+## 16 Nov 00:40 UTC wake (conductor@PrompTugal.dinis)
+
+- **The storm, from here** (Dinis, conductor's session): no incident task re-enabled; the IPMA readers run here per place. Measured and briefed: `board/briefs/2026-11-16-storm-local-data.md`; routed to datasci.places@ (now.json), dev.places@, viz.places@, data.places@. Open: `data/by-place/now/` not there yet.
+- **Last 70 minutes:** all 19 place agents committed; data.places@ 11, dev.places@ 9, viz.places@ 4, datasci.places@ 3, detective.places@ 1. Inboxes issued for data, viz, detective and datasci.places.
+- **Inbox:** 3 unsigned messages from the feedback pane (kept as id, time and length only).
+- **Waits on Dinis:** Faro airport traffic as the next local signal (yes/no).

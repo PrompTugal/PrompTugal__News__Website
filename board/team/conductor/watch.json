@@ -290,6 +290,13 @@
    "PrompTugal__App__iOS": "bf76d293",
    "PrompTugal__App__Mobile": "7f59d911",
    "note": "Websummit-only pass: inventory, pre-review go, filter built; switch off pending journalist@ twins and dev.graphs@ file."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-16T00:40Z",
+   "SGit-AI__Website__Web-Summit": "7dfef4e2",
+   "PrompTugal__News__Website": "b2cd337d",
+   "note": "Storm from here: per-place IPMA coverage briefed and routed; 19 place agents active; 3 unsigned feedback messages; snapshot 8/8."
   }
  ]
 }
