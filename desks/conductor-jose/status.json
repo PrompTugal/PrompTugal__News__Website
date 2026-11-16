@@ -2,12 +2,12 @@
   "agent": "conductor@PrompTugal.jose",
   "focus": "Jose sees in one file what each of his PrompTugal agents did, what is open, and what waits on him or on Dinis",
   "state": "ok",
-  "updated": "2026-11-16T22:15:00Z",
+  "updated": "2026-11-16T22:47:00Z",
   "session": "session_01CqQLD944eKWrwwiaimessY (Jose's account)",
   "key": "conductor-jose-promptugal (record sha256:e006f2f5d2bcef71)",
   "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md (16 Nov, about 19:25 UTC)",
   "grant": "board/abp/policies.json v1.14.0, external.by_agent (20:00 UTC): desks/conductor-jose/** and board/runs/conductor-jose/**",
-  "done": "16 Nov, 22:15 UTC run: Jose's yes for local@ writing its own media records recorded (J9); the town order recommended and set as the default (largest councils first); a request to outreach@ and conductor.b@ to bring the first-contact decision to Dinis, as it holds Jose's three drafts.",
+  "done": "16 Nov, 22:47 UTC run: at Jose's word, his five questions for Dinis gathered in one request for conductor.b@ to carry (requests/2026-11-16-for-dinis-five-questions-from-jose.md). Earlier tonight: J8, J9, the town order, the first-contact request.",
   "agents": [
     {
       "agent": "local@PrompTugal.jose",
@@ -42,6 +42,7 @@
   ],
   "debrief": "desks/conductor-jose/debriefs/2026-11-16-handover.md",
   "requests": [
+    "desks/conductor-jose/requests/2026-11-16-for-dinis-five-questions-from-jose.md (open)",
     "desks/conductor-jose/requests/2026-11-16-outreach-the-first-contact-decision-holds-jose-drafts.md (open)",
     "desks/conductor-jose/requests/2026-11-16-abp-the-organisations-path-in-locals-grant.md (answered)",
     "desks/conductor-jose/requests/2026-11-16-conductor.b-four-questions-for-dinis.md (open)",
