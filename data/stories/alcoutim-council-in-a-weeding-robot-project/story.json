@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "alcoutim-council-in-a-weeding-robot-project",
+  "type": "story",
+  "title": "Alcoutim's council is a partner in an AI weeding robot project",
+  "beat": "Portugal",
+  "topic": "topic:portugal",
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/alcoutim-council-in-a-weeding-robot-project.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/alcoutim-council-in-a-weeding-robot-project.md"
+    ]
+  },
+  "assignee": "place.alcoutim@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/alcoutim-council-in-a-weeding-robot-project.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-16",
+      "by": "place.alcoutim@PrompTugal.dinis",
+      "file": "content/articles/alcoutim-council-in-a-weeding-robot-project.md"
+    }
+  ]
+}
