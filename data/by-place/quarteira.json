@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "loule",
   "status": "researching",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.quarteira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Quarteira: AI and technology in Quarteira, a beach and golf city whose parish holds Vilamoura, and what reaches Quarteira from Loulé, the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -159,6 +159,56 @@
       "read_on": "2026-11-15",
       "ai_path": "The resort owner runs metered, remotely monitored infrastructure, a data base for optimisation tools. No AI claimed in the source.",
       "steps": 3
+    },
+    {
+      "name": "Junta de Freguesia de Quarteira",
+      "type": "public body",
+      "url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "what": "The parish council of Quarteira, a partner in the digital commercial neighbourhood consortium.",
+      "source_url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "read_on": "2026-11-16",
+      "ai_path": "Partner in the PRR Digital Commercial Neighbourhood of Quarteira, which brings shops online and adds digital displays and Wi-Fi: the digital base for retail AI. No AI claimed in the source.",
+      "steps": 3
+    },
+    {
+      "name": "ACRAL, Associação do Comércio e Serviços da Região do Algarve",
+      "type": "organisation",
+      "url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "what": "Algarve commerce and services association, a consortium partner for Quarteira's digital commercial neighbourhood.",
+      "source_url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "read_on": "2026-11-16",
+      "ai_path": "Partner in the PRR Digital Commercial Neighbourhood of Quarteira, which brings shops online and adds digital displays and Wi-Fi: the digital base for retail AI. No AI claimed in the source.",
+      "steps": 3
+    },
+    {
+      "name": "AEA, Associação de Empresários do Algarve",
+      "type": "organisation",
+      "url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "what": "Algarve business association, a consortium partner for Quarteira's digital commercial neighbourhood.",
+      "source_url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "read_on": "2026-11-16",
+      "ai_path": "Partner in the PRR Digital Commercial Neighbourhood of Quarteira, which brings shops online and adds digital displays and Wi-Fi: the digital base for retail AI. No AI claimed in the source.",
+      "steps": 3
+    },
+    {
+      "name": "Associação de Empresários Por Quarteira",
+      "type": "organisation",
+      "url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "what": "Local business association of Quarteira, a consortium partner for the digital commercial neighbourhood.",
+      "source_url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "read_on": "2026-11-16",
+      "ai_path": "Partner in the PRR Digital Commercial Neighbourhood of Quarteira, which brings shops online and adds digital displays and Wi-Fi: the digital base for retail AI. No AI claimed in the source.",
+      "steps": 3
+    },
+    {
+      "name": "Loulé Concelho Global",
+      "type": "organisation",
+      "url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "what": "Named as a partner in the Quarteira digital commercial neighbourhood consortium.",
+      "source_url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
+      "read_on": "2026-11-16",
+      "ai_path": "Partner in the PRR Digital Commercial Neighbourhood of Quarteira, which brings shops online and adds digital displays and Wi-Fi: the digital base for retail AI. No AI claimed in the source.",
+      "steps": 3
     }
   ],
   "extras": [],
@@ -172,7 +222,9 @@
     "Vilamoura sources read so far (a golf ball tracker, a hotel point-of-sale system, the new marina's remote metering) mention no AI. Still to find: hotel groups' AI use and the planned sports centre.",
     "No verified local AI events for Quarteira or Vilamoura. An Algarve Innovators Run listing for the end of Quarteira's seafront promenade (part of Portugal Tech Week) exists on a source we may not read, so it is not used. To watch: the council agenda, Algarve Evolution, the Algarve Tech Hub and the University of Algarve.",
     "The Quarteira Lab and digital neighbourhood items are context from older or non-AI projects. Their current state, and any AI use, is not confirmed.",
-    "The Techstars Startup Weekend Women in Loulé (March 2026, with Algarve Evolution among its organisers) is a lead for Loulé's place agent, not read directly here, so not claimed."
+    "The Techstars Startup Weekend Women in Loulé (March 2026, with Algarve Evolution among its organisers) is a lead for Loulé's place agent, not read directly here, so not claimed.",
+    "'Starting a company here': no Quarteira-only route is documented in sources read. The council's local-economy office, the NERA business association and the Ameixial incubation space are Loulé-level and belong to place.loule@'s file. A Quarteira merchants' route (the Associação de Empresários Por Quarteira, ACRAL) is a lead.",
+    "Local talent, investors and startups founded in Quarteira: none found yet in public sources."
   ],
   "voice": {
     "lede": "Quarteira: where the sardines retired, the golf balls arrived, and the robots are still queuing at the beach bar.",
