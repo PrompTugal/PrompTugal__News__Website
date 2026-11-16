@@ -144,6 +144,7 @@ const BOARD_OK = /@(?:promptugal\.news|promptugal\.ai|promptugal\.ai\.dinis|ios\
 // published on a public website, above all a public body's, may be shown with its source and date): in
 // data/by-place/<id>.json, an address or number is allowed only inside a contacts[] entry's channel whose source_url
 // is on the same domain as the address (the body that publishes it), with its read_on date (dev.places@, 16 Nov)
+const PUBLIC_BODY = /(?:^|\.)(?:gov\.pt|cm-[a-z0-9-]+\.pt|jf-[a-z0-9-]+\.pt|[a-z0-9-]*freguesia[a-z0-9-]*\.pt|ccdr-alg\.pt|amal\.pt|ualg\.pt|ipma\.pt|turismodoalgarve\.pt|portugal2030\.pt|algarve2030\.pt|iapmei\.pt|europa\.eu)$/i
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, '').toLowerCase() } catch { return '' } }
 function officialContacts(f) {
     const ok = { emails: new Set(), phones: new Set() }
@@ -152,7 +153,8 @@ function officialContacts(f) {
     for (const c of Array.isArray(d.contacts) ? d.contacts : []) {
         const h = hostOf(c && c.source_url); if (!h || !c.read_on || typeof c.channel !== 'string') continue
         for (const m of c.channel.matchAll(EMAIL)) { const dom = m[0].split('@')[1].toLowerCase(); if (dom === h || dom.endsWith('.' + h) || h.endsWith('.' + dom)) ok.emails.add(m[0]) }
-        for (const m of c.channel.matchAll(PHONE)) ok.phones.add(m[0])
+        // a number has no domain (security@'s S42): only when the publishing page is a public body's own site
+        if (PUBLIC_BODY.test(h)) for (const m of c.channel.matchAll(PHONE)) ok.phones.add(m[0])
     }
     return ok
 }

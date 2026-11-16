@@ -136,7 +136,7 @@ function sideCol(ctx, L, p, rel, inside) {
     if (p.kind !== 'country') md += `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
     if (p.extras.length) md += `{.mini-h}\nIn figures\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
     if (p.start_company.length) md += `{.mini-h}\n${W(L, 'start_h', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.start_company, '', x => x.kind ? ` \`${esc(ctx, x.kind)}\`` : '')
-    if (p.contacts.length) md += `{.mini-h}\n${W(L, 'contacts_h')}\n\n` + entries(ctx, p.contacts, '', x => x.channel ? `: ${esc(ctx, x.channel)}` : '')
+    if (p.contacts.length) md += `{.mini-h}\n${W(L, 'contacts_h')}\n\n` + entries(ctx, p.contacts, '', x => x.channel ? `: ${esc(ctx, x.channel)}${/[.!?:]$/.test(x.channel.trim()) || !x.what ? '' : '.'}` : '')
     md += `{.mini-h}\nSources we read\n\n` + (p.sources.length ? `{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${s.kind ? ` · ${esc(ctx, s.kind)}` : ''}${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}` : `{.bp-empty}\nBeing listed.`) + '\n\n'
     md += `{.mini-h}\nGaps\n\n` + voiceBlock((p.gaps.length ? `{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : 'None recorded.'), v.gaps_intro ? `{.bp-gaps}\n- ${esc(ctx, v.gaps_intro)}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : null) + '\n'
     return md

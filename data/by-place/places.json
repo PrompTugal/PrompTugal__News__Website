@@ -241,7 +241,7 @@
     }
   ],
   "copy": {
-    "test_note": "Every story here passes **the PrompTugal test**: it is about AI, directly or within two or three steps, and the path is written down with it. Place decides where a story shows and how big; AI decides whether it is ours at all. Every fact links to its source with the date it was read. Nothing comes from Web Summit's website, and no contact details are published. This page is one lens on [the publication's shared graph]({graph}); [PrompTugal.news by place]({region}) explains the levels.",
+    "test_note": "Every story here passes **the PrompTugal test**: it is about AI, directly or within two or three steps, and the path is written down with it. Place decides where a story shows and how big; AI decides whether it is ours at all. Every fact links to its source with the date it was read. Nothing comes from Web Summit's website. Contacts are shown only when a public body or organisation publishes them on its own site, linked to that page with the date read; never a private person's. This page is one lens on [the publication's shared graph]({graph}); [PrompTugal.news by place]({region}) explains the levels.",
     "gravity_empty": "The place's agent is finding what {name} is about, from sources.",
     "local_empty": "No local AI story found yet. A town with no AI news is a finding in itself: it tells us which sources and connections to look for.",
     "map_intro": "The companies, institutions and communities in {name} with a path to AI, each from a public source.",
