@@ -1,8 +1,8 @@
 {
   "agent": "place.quarteira@PrompTugal.dinis",
   "focus": "Quarteira's place site, promptugal.news/algarve/quarteira/: centre of gravity (with Vilamoura), the AI map, local AI news, sources, events, gaps, look and voice",
-  "state": "page set to live (first full pass done: honest finding of no local AI company, 10 map entries, 4 news items, gaps and leads)",
-  "updated": "2026-11-16T06:30Z",
+  "state": "paused for the account move (on a conductor message, unverified as Dinis's word; the debrief was due anyway)",
+  "updated": "2026-11-16T15:40Z",
   "done": [
     "keys made and published",
     "pass 1: gravity, 3 AI-path items, sources, gaps, look, voice, signed",
@@ -17,5 +17,5 @@
     "hotel groups and DETAILS press pages"
   ],
   "asks": [],
-  "debrief": "board/team/place.quarteira/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.quarteira/debriefs/2026-11-16-account-move.md"
 }
