@@ -1536,6 +1536,107 @@
         "faro",
         "portugal"
       ]
+    },
+    {
+      "id": "gdgevora-devfest",
+      "from": {
+        "name": "GDG Evora",
+        "type": "community",
+        "place": "evora"
+      },
+      "to": {
+        "name": "DevFest (Google Developer Groups community conference movement)",
+        "type": "community"
+      },
+      "relation": "part_of",
+      "what": "Third DevFest Evora-Alentejo, Saturday 14 November 2026, 10:00 to 18:00 at the Eugenio de Almeida Foundation's social innovation centre; free with registration; panels on AI changing professions and creative work, AI agents, and digital security. Described as part of the international DevFest movement. No partners are named.",
+      "ai_path": "A community conference with AI as a central theme.",
+      "steps": 0,
+      "source_url": "https://odigital.sapo.pt/devfest-evora-2026-inteligencia-artificial-seguranca-digital/",
+      "source_title": "Evora recebe encontro sobre Inteligencia Artificial e seguranca digital a 14 de novembro (ODigital)",
+      "source_date": "2026-10-24",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "evora"
+      ]
+    },
+    {
+      "id": "gdgfaro-devfest",
+      "from": {
+        "name": "GDG Faro",
+        "type": "community",
+        "place": "faro"
+      },
+      "to": {
+        "name": "DevFest (Google Developer Groups community conference movement)",
+        "type": "community"
+      },
+      "relation": "part_of",
+      "what": "GDG Faro's DevFest 2026 at Campus da Penha is on 27 and 28 November per a Barlavento search extract (place.faro lists it too); with Evora's on 14 November it shows one community network running AI-themed conferences in both places.",
+      "ai_path": "A community conference with AI practice as its theme.",
+      "steps": 0,
+      "source_url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
+      "source_title": "DevFest dedica dois dias a Inteligencia Artificial na pratica em Faro (Barlavento)",
+      "source_date": "2026",
+      "read_on": "2026-11-16",
+      "verified": "search_extract",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "pact-aira",
+      "from": {
+        "name": "PACT, Parque do Alentejo de Ciencia e Tecnologia",
+        "type": "organisation",
+        "place": "evora"
+      },
+      "to": {
+        "name": "AIRA, Artificial Intelligence in Robotics Academy (competition of ideas)",
+        "type": "programme",
+        "place": "evora"
+      },
+      "relation": "organises",
+      "what": "A free competition of proposals combining AI and robotics, judged by higher-education and industry experts; part of the EIT Deep Tech Talent Initiative; coordinated by the University of Ljubljana's mechanical engineering faculty. Deadline 23 November, in a 2025 article, so it has passed. Entrepreneurship-course professionals are linked to the Universidade de Evora and the Universidade do Algarve.",
+      "ai_path": "A competition whose subject is AI in robotics.",
+      "steps": 0,
+      "source_url": "https://odigital.sapo.pt/evora-concurso-do-pact-pode-revelar-a-proxima-grande-inovacao-em-inteligencia-artificial-candidaturas-ate-dia-23/",
+      "source_title": "Evora: Concurso do PACT pode revelar a proxima grande inovacao em IA (ODigital)",
+      "source_date": "2025-11-21",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "evora",
+        "algarve"
+      ]
+    },
+    {
+      "id": "ipbeja-aira",
+      "from": {
+        "name": "Instituto Politecnico de Beja, engineering department",
+        "type": "institution",
+        "place": "beja"
+      },
+      "to": {
+        "name": "AIRA, Artificial Intelligence in Robotics Academy (competition of ideas)",
+        "type": "programme",
+        "place": "evora"
+      },
+      "relation": "builds_with",
+      "what": "Named as the partner for the accelerator programme. The same polytechnic is linked in this file to Lagoa's AI air-quality forecast (a search extract), so it ties Beja to both Evora and the Algarve.",
+      "ai_path": "A polytechnic runs the accelerator of an AI-robotics programme.",
+      "steps": 1,
+      "source_url": "https://odigital.sapo.pt/evora-concurso-do-pact-pode-revelar-a-proxima-grande-inovacao-em-inteligencia-artificial-candidaturas-ate-dia-23/",
+      "source_title": "ODigital, 21 November 2025",
+      "source_date": "2025-11-21",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "beja",
+        "evora",
+        "lagoa"
+      ]
     }
   ],
   "leads": [
@@ -1745,6 +1846,15 @@
       "places": [
         "loule",
         "faro"
+      ]
+    },
+    {
+      "what": "Portos de Lisboa e de Setubal: a project of about 752 thousand euros for AI and a new data centre, 35 staff trained at each port (Observador and port pages, January 2026, search extracts; the Setubal port page returned 503).",
+      "url": "https://www.portodesetubal.pt/noticia/435/portos-de-lisboa-e-de-setubal-lancam-projeto-de-inteligencia-artificial-e-novo-datacenter",
+      "why_open": "Page unavailable when tried",
+      "places": [
+        "setubal",
+        "lisboa"
       ]
     }
   ],
