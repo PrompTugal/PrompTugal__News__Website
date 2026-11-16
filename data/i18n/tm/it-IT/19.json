@@ -1,0 +1,42 @@
+{
+ "191fc67990205870": {
+  "t": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: IA e tecnologia a Évora, con l'Universidade de Évora, il parco PACT e l'ospedale che fanno il grosso del lavoro, più tutte le notizie che arrivano dall'Alentejo, dal Portogallo e dal mondo. Independente, e ogni fatto ha la sua ricevuta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI",
+  "ok": false
+ },
+ "19351ee4e93740f0": {
+  "t": "**L'identità di questo sito:** PrompTugal.news {name} ha una propria chiave, {key}, pubblicata in [board/keys.json]({keys}), ma la firma su `{file}` non risulta valida: il file è cambiato dopo essere stato firmato. Al suo agente, {agent}, è stato chiesto di firmarlo di nuovo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ },
+ "197990ab5ba89370": {
+  "t": "Ciò che non abbiamo trovato, detto con faccia seria e un pastel de nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
+ },
+ "19ae71b00c1928c8": {
+  "t": "Ó pá, quassù sulla Serra abbiamo più castagni che data center, ma il medronho è forte e così il Wi-Fi nell'incubatore.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false
+ },
+ "19e3bc5dac4015f3": {
+  "t": "Noesis ha aperto sedi a Guarda e Castelo Branco nel febbraio 2025 e prevede circa 30 assunzioni, soprattutto in qualità, DevOps, automazione e low-code. Aggiunge di essere aperta a profili di analisi dei dati e di IA nella sua espansione regionale.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Noesis opened offices in Guarda and Castelo Branco in Februa",
+  "ok": false
+ }
+}

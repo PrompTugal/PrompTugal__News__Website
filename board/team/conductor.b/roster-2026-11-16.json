@@ -152,6 +152,14 @@
       "session": "session_01Kw9UwEN53pY1UeTB8yoASM",
       "cron": "56 */3 * * *",
       "trigger": "trig_01PvRoSAN5BTJoohxLA2fAfJ"
+    },
+    {
+      "agent": "abp@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "the ABPs: grants for the merged desks, Jose's agents, OpenRouter",
+      "session": "session_01Kw9UwC3EfbmHL8QUj8KypP",
+      "cron": "37 * * * *",
+      "trigger": "trig_01JYM9r17ncWJixUr5ToUVB5"
     }
   ]
 }

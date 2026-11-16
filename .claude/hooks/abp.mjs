@@ -84,15 +84,15 @@ export function rel(abs, project = PROJECT) {
 }
 
 export function grantOf(who, P = loadPolicy()) {
-    const g = { writes: [], send: [...P.common.send_hosts], subagents: false, notify_dinis: false, remote_read: false }
+    const g = { writes: [], send: [...P.common.send_hosts], subagents: false, notify_dinis: false, remote_read: false, remote_conduct: false }
     if (who.kind === 'team') {
         const base = who.role.includes('.') ? who.role.split('.')[0] : null
         const r = P.roles[who.role] || (base && P.roles[base] && { ...P.roles[base], writes: [...(P.roles[base].writes || []), ...((P.workers && P.workers.extra_writes && P.workers.extra_writes[who.role]) || [])], subagents: false, notify_dinis: false, remote_read: false }) || {}
         // a dotted name with its own grant (releases_to_dev: dev.places, designer.places, place.<id>) is a role, not a worker
-        g.worker = !!base && !(P.roles[who.role] && P.roles[who.role].releases_to_dev)
+        g.worker = (!!base && !(P.roles[who.role] && P.roles[who.role].releases_to_dev)) || !!(P.roles[who.role] && P.roles[who.role].work_branch)   // work_branch (v1.14.0): a writer of the restart pushes work/<role>; a reviewer brings it onto dev
         g.writes = [...P.common.writes, ...(r.writes || [])]
         g.send.push(...(r.send_hosts || []))
-        g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read
+        g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read; g.remote_conduct = !!r.remote_conduct
         g.known = !!P.roles[who.role]
     } else if (who.kind === 'external') {
         const own = (P.external.by_agent || {})[who.agent]
@@ -236,6 +236,7 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
         }
         // R9: release under your own name
         const ag = /(?:^|\s)AGENT=["']?([a-z][a-z0-9.-]*)@PrompTugal\.dinis/i.exec(seg)
+        if (/release\.sh/.test(verbOf(seg).verb + ' ' + verbOf(seg).args.slice(0, 2).join(' ')) && who.kind === 'team' && g.worker) return deny('R5', `${who.agent} is a writer: push work/${who.role} only; its reviewer brings the work onto dev`, 'release')
         if (ag && /release\.sh/.test(verbOf(seg).verb + ' ' + verbOf(seg).args.slice(0, 2).join(' ')) && who.kind === 'team' && ag[1].toLowerCase() !== who.role) return deny('R9', `AGENT=${ag[1]}@PrompTugal.dinis from ${who.agent}: release only under your own name`, 'release')
         if (/pki-agent\.mjs/.test(seg) && /\bkeygen\b/.test(seg) && who.kind === 'team') {
             const n = /--name\s+["']?([a-z][a-z0-9.-]*)@PrompTugal\.dinis/i.exec(seg)
@@ -316,6 +317,7 @@ export function decide(input, who = whoAmI(), P = loadPolicy()) {
             if (name === 'add_repo' && ti.access === 'push') return deny('R2', 'add_repo with push access: only this repository, already attached', 'remote')
             if (P.tools.remote_allowed_all.includes(name)) return allow('remote-read')
             if (P.tools.remote_read_by_grant.includes(name)) return (g.remote_read || who.kind === 'unidentified') ? allow('remote-read') : deny('R2', `${name} reads other sessions: not in ${who.agent || 'this session'}'s grant`, 'remote')
+            if ((P.tools.remote_conduct_by_grant || []).includes(name) && g.remote_conduct) return allow('remote-conduct')
             return deny('R4', `${name}: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session`, 'session')
         }
     }

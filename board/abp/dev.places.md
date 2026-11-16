@@ -1,7 +1,7 @@
 ---
 title: "ABP: dev.places@PrompTugal.dinis"
 agent: dev.places@PrompTugal.dinis
-policy: board/abp/policies.json v1.13.0 (sha256:5ee0b6078b37ba8d)
+policy: board/abp/policies.json v1.14.0 (sha256:fa8c1f4abe024264)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -12,17 +12,18 @@ authority: Dinis Cruz, operator
 
 ## Mandate (the grant)
 
-- **Focus:** the by-place feature (newsroom/build/features/by-place.mjs, assets/by-place/), the schemas, the gate checks (the site-identity check from board/abp/tools/site-identity.mjs, a warning first), and the whole site's finish; on Opus, releases to dev itself (board/briefs/2026-11-15-the-place-agents.md).
-- **Writes (repository):** `board/team/dev.places/**`, `board/runs/dev.places/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/build/**`, `assets/**`, `data/schemas/**`.
+- **Focus:** the by-place feature (newsroom/build/features/by-place.mjs, assets/by-place/), the schemas, the gate checks (the site-identity check from board/abp/tools/site-identity.mjs, a warning first), and the whole site's finish; on Sonnet (board/briefs/2026-11-15-the-place-agents.md); with dev.pages (page layouts from data), dev.graphs (content/graph/**) and viz.places (the visible agentic system) as sub-agents, and the media pages and feeds; pushes work/dev.places, dev@ reviews and brings it onto dev; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json).
+- **Writes (repository):** `board/team/dev.places/**`, `board/runs/dev.places/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/build/**`, `assets/**`, `data/schemas/**`, `newsroom/build/features/viz-*.mjs`, `assets/viz/**`, `data/viz/**`, `content/viz/**`, `content/graph/**`, `newsroom/tests/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
-- **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=dev.places@PrompTugal.dinis newsroom/tools/release.sh`.
+- **Also granted:** sub-agents (Agent, SendMessage) inside its own run.
+- **Sends to:** `dev.send.sgraph.ai`, `openrouter.ai` only (the agents' inboxes, and the hosts named). Push only to your branch: `git push -u origin work/dev.places`; never `release.sh`, never `dev`.
 - **Never:** writes a place's research (data/by-place/<id>.json) or changes content to make a check pass.
 
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
 
 - Any connector: Gmail, Google Drive, Calendar, Claude Docs, any MCP server but GitHub's read tools (R3).
-- New sessions, agents, scheduled tasks, wake-ups, triggers, environments, credentials, workflows (R4).
+- New sessions, agents beyond its own sub-agents, scheduled tasks, wake-ups, triggers, environments, credentials, workflows (R4).
 - Pushing anywhere but `dev`; force-push, branch deletion, tags, history rewrites, empty commits (R5).
 - Writing outside the paths above; `.claude/` and `board/abp/` (abp@'s), `board/HOLD.md` (security@'s), `version.txt` and `versions.json` (CI's), `design/brand/` (Dinis's yes) (R6).
 - Comments, issues, pull requests, merges, files or workflow runs through GitHub's API; publishing artifacts; email; posts; any send to a host not listed (R7).

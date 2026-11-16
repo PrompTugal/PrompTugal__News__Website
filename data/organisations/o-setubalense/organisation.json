@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "o-setubalense",
+  "type": "organisation",
+  "kind": "media",
+  "name": "O Setubalense",
+  "names_as_listed": [
+    "O Setubalense"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: partly paywalled site; only public pages read.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:setubal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://osetubalense.com/",
+    "owner": {
+      "name": "Outra Margem – Publicações e Publicidade (owner); editor Primeira Hora – Editora e Comunicação, Lda",
+      "source": {
+        "url": "https://osetubalense.com/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://osetubalense.com/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://osetubalense.com/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://osetubalense.com/contactos/",
+      "source": {
+        "url": "https://osetubalense.com/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Francisco Alves Rito",
+        "role": "Director",
+        "source": {
+          "url": "https://osetubalense.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Mário Rui Sobral",
+        "role": "Redação",
+        "source": {
+          "url": "https://osetubalense.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Humberto Lameiras",
+        "role": "Redação",
+        "source": {
+          "url": "https://osetubalense.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Marta Guerreiro",
+        "role": "Redação",
+        "source": {
+          "url": "https://osetubalense.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://osetubalense.com/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica (registo de título 107552)"
+      },
+      {
+        "url": "https://osetubalense.com/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contactos page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://osetubalense.com/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica (registo de título 107552)",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://osetubalense.com/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contactos page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

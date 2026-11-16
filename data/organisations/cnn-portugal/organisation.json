@@ -1,0 +1,67 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "cnn-portugal",
+  "type": "organisation",
+  "kind": "media",
+  "name": "CNN Portugal",
+  "names_as_listed": [
+    "CNN Portugal"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Director and contacts not extracted. Contact page not read.",
+  "media": {
+    "outlet_kind": "tv",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://cnnportugal.iol.pt",
+    "owner": {
+      "name": "Described on its ficha técnica page as a news project of Media Capital; legal owner entity not read",
+      "source": {
+        "url": "https://cnnportugal.iol.pt/fichatecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://cnnportugal.iol.pt/rss",
+        "format": "rss",
+        "source": {
+          "url": "https://cnnportugal.iol.pt/rss",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200 but content-type text/html;charset=UTF-8; body is an RSS 2.0 XML document"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "Vasco Rosendo",
+        "role": "Editor-chefe, economic and financial matters",
+        "source": {
+          "url": "https://cnnportugal.iol.pt/fichatecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy and finance"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://cnnportugal.iol.pt/fichatecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read (partial)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://cnnportugal.iol.pt/fichatecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read (partial)",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

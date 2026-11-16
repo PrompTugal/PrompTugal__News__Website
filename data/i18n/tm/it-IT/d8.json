@@ -1,0 +1,26 @@
+{
+ "d8006b8f7850afec": {
+  "t": "La Cáritas di Faro si chiede a chi giova l'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false
+ },
+ "d89c3b61de8d1239": {
+  "t": "Una scuola di Vilamoura ospita un summit sull'IA nell'istruzione",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false
+ },
+ "d8de90262eca523a": {
+  "t": "La piattaforma collega dati di mercato come i prezzi delle materie prime e le tariffe di trasporto ai costi propri di un'azienda per aiutare acquisti e fissazione dei prezzi. Guidato insieme da VentureFriends e Semapa Next.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false
+ }
+}

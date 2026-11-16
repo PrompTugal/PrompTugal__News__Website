@@ -1,0 +1,18 @@
+{
+ "9d02dcae83c8093a": {
+  "t": "Cá entre nós, aqui o vento levou tudo o que ainda não encontrámos. Ecco cosa manca:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Cá entre nós, aqui o vento levou tudo o que ainda não encont",
+  "ok": false
+ },
+ "9dd6f63d867bdd68": {
+  "t": "L'agente del luogo sta scoprendo di che cosa si occupa {name}, a partire dalle fonti.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The place's agent is finding what {name} is about, from sour",
+  "ok": false
+ }
+}

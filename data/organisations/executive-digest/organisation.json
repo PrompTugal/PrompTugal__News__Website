@@ -1,0 +1,55 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "executive-digest",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Executive Digest",
+  "names_as_listed": [
+    "Executive Digest"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Ficha técnica (owner, directors) not read. Publisher company name not confirmed (email domain multipublicacoes.pt only).",
+  "media": {
+    "outlet_kind": "magazine",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://executivedigest.sapo.pt",
+    "feeds": [
+      {
+        "url": "https://executivedigest.sapo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://executivedigest.sapo.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml;charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://executivedigest.sapo.pt/contactos/",
+      "source": {
+        "url": "https://executivedigest.sapo.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://executivedigest.sapo.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contacts read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://executivedigest.sapo.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contacts read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

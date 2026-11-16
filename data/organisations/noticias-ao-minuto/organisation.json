@@ -1,0 +1,74 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "noticias-ao-minuto",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Notícias ao Minuto",
+  "names_as_listed": [
+    "Notícias ao Minuto"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: RSS not verified: https://www.noticiasaominuto.com/rss returned an HTML page (HTTP 200 text/html), not a feed. Tech section (Tech) staff not identified.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.noticiasaominuto.com",
+    "owner": {
+      "name": "New adVentures, Lda. (propriedade / editor), sócio-gerente Mário Rodrigues",
+      "source": {
+        "url": "https://www.noticiasaominuto.com/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.noticiasaominuto.com/contactos",
+      "source": {
+        "url": "https://www.noticiasaominuto.com/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Mário Rodrigues",
+        "role": "Director",
+        "source": {
+          "url": "https://www.noticiasaominuto.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.noticiasaominuto.com/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      },
+      {
+        "url": "https://www.noticiasaominuto.com/contactos",
+        "read_at": "2026-11-16",
+        "how": "contacts read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.noticiasaominuto.com/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.noticiasaominuto.com/contactos",
+      "read_at": "2026-11-16",
+      "how": "contacts read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

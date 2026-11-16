@@ -2,7 +2,7 @@
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
   "state": "running: restarted on this account, owns the live collector",
-  "updated": "2026-11-16T19:31Z",
+  "updated": "2026-11-16T20:16Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
@@ -18,7 +18,8 @@
     "nearby.json: each story carries distance as words (\"Faro, 15 km\"), for \"distance to the beat\" (board/briefs/2026-11-16-every-story-has-an-address.md item 3); significance and km were there since 02:45; api/v1/by-place/{id}/now.json is already in the OpenAPI (the spec follows the manifest)",
     "Dinis, 16 Nov 10:40 (\"a lot of them go to JSON files ... we can't have that\"): the note on every place page and the /datasci/ dashboard now link only to the data API (Swagger) pages, never a .json file",
     "debrief for the account move (Dinis, via the conductor, 16 Nov ~15:30 UTC): board/team/datasci.places/debriefs/2026-11-16-account-move.md",
-    "16 Nov 19:31: new session key datasci.places-promptugal-b; first run of board/tools/local-now.mjs: 18 place files refreshed (IPMA read, 1 warning active)"
+    "16 Nov 19:31: new session key datasci.places-promptugal-b; first run of board/tools/local-now.mjs: 18 place files refreshed (IPMA read, 1 warning active)",
+    "16 Nov 20:16: wake 2: local-now.mjs read IPMA (obs 19:00) and Faro airport (adsb.lol answers now: 1 airline flight); 18 files released"
   ],
   "next": [
     "more keyless public sources per place (board/briefs/2026-11-16-storm-local-data.md)",
@@ -27,7 +28,6 @@
     "significance in nearby.json"
   ],
   "asks": [
-    "Dinis: api.adsb.lol is unreachable from this session (the proxy resets the connection), so the Faro airport traffic (LPFR) is not read. Allow api.adsb.lol in the environment network (update_environment is outside my grant).",
     "Dinis: I cannot drain my inbox (needs the team site repository in the session)."
   ],
   "debrief": "board/team/datasci.places/debriefs/2026-11-16-account-move.md"

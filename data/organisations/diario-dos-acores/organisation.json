@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-dos-acores",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário dos Açores",
+  "names_as_listed": [
+    "Diário dos Açores"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: email obfuscated, not recorded.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:acores"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://diariodosacores.pt/",
+    "owner": {
+      "name": "Empresa do Diário dos Açores, Lda.",
+      "source": {
+        "url": "https://diariodosacores.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://diariodosacores.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://diariodosacores.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://diariodosacores.pt/contactos/",
+      "source": {
+        "url": "https://diariodosacores.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Paulo Hugo Viveiros",
+        "role": "Director",
+        "source": {
+          "url": "https://diariodosacores.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://diariodosacores.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica (founded 1870; circulation 3,630 stated)"
+      },
+      {
+        "url": "https://diariodosacores.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contactos page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://diariodosacores.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica (founded 1870; circulation 3,630 stated)",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://diariodosacores.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contactos page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "place": "faro",
+  "by": "local@PrompTugal.jose",
+  "updated": "2026-11-16T20:20Z",
+  "state": "checked in part",
+  "state_note": "Outlets whose own sites opened were read on 16 November 2026 and are in the fields of the media kind (data/schemas/organisation.schema.json). Outlets that sit behind a bot challenge, or on a host this environment refuses, are listed as unreachable and not guessed at. ERC's register could not be searched, so the list of outlets may be incomplete: the town is not done.",
+  "keeper": "place.algarve.central@PrompTugal.dinis (board/team/conductor.b/plans/2026-11-16-restart-here.md, section 2)",
+  "also_a_district_capital": "Faro is both an Algarve town and a district capital (researcher@PrompTugal.dinis takes the capitals). Nothing from researcher@ for Faro's outlets was on dev at 20:10 UTC. Who takes them is asked of conductor.b@PrompTugal.dinis.",
+  "outlets": [
+    {
+      "name": "Barlavento",
+      "outlet_kind": "regional-newspaper",
+      "places_covered": [
+        "place:algarve",
+        "place:faro",
+        "place:loule"
+      ],
+      "language": [
+        "pt-PT"
+      ],
+      "website": "https://www.barlavento.pt/",
+      "owner": {
+        "name": "PORLAGMEDIA Edição e Distribuição, Lda",
+        "source": {
+          "url": "https://www.barlavento.pt/ficha-tecnica/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "the Ficha Técnica page names it as owner and publisher (Proprietário e Editor), wholly held by Open Media, SA"
+        }
+      },
+      "feeds": [
+        {
+          "url": "https://www.barlavento.pt/feed/",
+          "format": "rss",
+          "scope": "all latest articles",
+          "source": {
+            "url": "https://www.barlavento.pt/feed/",
+            "read_at": "2026-11-16T20:12Z",
+            "how": "fetched: an RSS 2.0 channel, language pt-PT, 10 items, last built 16 November 2026; linked as the alternate feed in the home page head"
+          }
+        },
+        {
+          "url": "https://www.barlavento.pt/algarve/faro/feed/",
+          "format": "rss",
+          "scope": "the Faro section only",
+          "source": {
+            "url": "https://www.barlavento.pt/algarve/faro/feed/",
+            "read_at": "2026-11-16T20:12Z",
+            "how": "fetched: an RSS 2.0 channel titled Arquivo de Faro, 10 items; linked as the category feed in the head of the Faro section page"
+          }
+        },
+        {
+          "url": "https://www.barlavento.pt/wp-json/wp/v2/posts",
+          "format": "api",
+          "scope": "the site's WordPress REST API, latest posts as JSON",
+          "source": {
+            "url": "https://www.barlavento.pt/wp-json/wp/v2/posts?per_page=1",
+            "read_at": "2026-11-16T20:12Z",
+            "how": "fetched once with one post asked for: answered 200 as JSON"
+          }
+        }
+      ],
+      "contact": {
+        "page": "https://www.barlavento.pt/ficha-tecnica/",
+        "source": {
+          "url": "https://www.barlavento.pt/ficha-tecnica/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "the outlet has no separate contacts page (/contactos/ answered 404); its Ficha Técnica page, linked from the footer, is where it publishes its newsroom contact. Nothing copied here"
+        }
+      },
+      "people": [
+        {
+          "name": "Bruno Filipe Pires",
+          "role": "Diretor",
+          "source": {
+            "url": "https://www.barlavento.pt/ficha-tecnica/",
+            "read_at": "2026-11-16T20:12Z",
+            "how": "named as Diretor on the Ficha Técnica page, with a journalist's card number"
+          }
+        },
+        {
+          "name": "Beatriz Maio",
+          "role": "Redação",
+          "source": {
+            "url": "https://www.barlavento.pt/ficha-tecnica/",
+            "read_at": "2026-11-16T20:12Z",
+            "how": "named under Redação on the Ficha Técnica page, with a journalist's card number"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.barlavento.pt/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "home page read: titled \"Barlavento – Notícias diárias do Algarve e de Portugal\""
+        },
+        {
+          "url": "https://www.barlavento.pt/algarve/faro/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "the outlet keeps a section for this town (Arquivo de Faro), with stories dated this week"
+        },
+        {
+          "url": "https://www.barlavento.pt/ficha-tecnica/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "the page shows ERC registration nº 102457; newsroom in Lagoa, registered office in Portimão"
+        },
+        {
+          "url": "https://www.barlavento.pt/sobre-nos/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "the Sobre Nós page: a regional newspaper founded in Portimão, first issue 26 April 1975"
+        },
+        {
+          "url": "https://www.barlavento.pt/robots.txt",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "robots.txt read: all paths allowed to general readers; three named crawlers (CCBot, Google-Extended, GPTBot) are refused"
+        }
+      ],
+      "in_place_file": true,
+      "in_organisations": null,
+      "feed_checked_on": "2026-11-16",
+      "unreachable": false
+    },
+    {
+      "name": "Algarve Primeiro",
+      "outlet_kind": "online",
+      "outlet_kind_note": "its own page says: Periodicidade diária, Tipo generalista regional (Algarve). Kept as online because the site shows no print edition; ontologist@ may prefer regional-newspaper",
+      "places_covered": [
+        "place:algarve",
+        "place:faro",
+        "place:loule"
+      ],
+      "language": [
+        "pt-PT"
+      ],
+      "website": "https://www.algarveprimeiro.com/",
+      "owner": {
+        "name": "Emídio Santos",
+        "source": {
+          "url": "https://www.algarveprimeiro.com/ficha-tecnica",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "named on the Ficha Técnica page as Proprietário, Diretor e Editor"
+        }
+      },
+      "feeds": [
+        {
+          "url": "https://www.algarveprimeiro.com/sitemap.xml",
+          "format": "sitemap",
+          "scope": "every page of the site; no RSS found",
+          "source": {
+            "url": "https://www.algarveprimeiro.com/sitemap.xml",
+            "read_at": "2026-11-16T20:12Z",
+            "how": "answered 200 as XML (about 13 MB). No RSS or Atom: the home page head has no alternate feed link, and /feed, /rss and /rss.xml each answered 404"
+          }
+        }
+      ],
+      "contact": {
+        "page": "https://www.algarveprimeiro.com/contactos",
+        "source": {
+          "url": "https://www.algarveprimeiro.com/contactos",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "the outlet's own Contactos page, linked from its footer: the newsroom's contact and a message form. Nothing copied here"
+        }
+      },
+      "people": [
+        {
+          "name": "Emídio Santos",
+          "role": "Proprietário, Diretor e Editor",
+          "source": {
+            "url": "https://www.algarveprimeiro.com/ficha-tecnica",
+            "read_at": "2026-11-16T20:12Z",
+            "how": "named on the Ficha Técnica page, with a journalist's card number"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.algarveprimeiro.com/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "home page read: titled \"Algarve Primeiro - As últimas da região\"; stories about Faro and about Loulé on it today"
+        },
+        {
+          "url": "https://www.algarveprimeiro.com/ficha-tecnica",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "the page shows ERC registration nº 126528, daily, generalist regional (Algarve), newsroom in Olhão"
+        },
+        {
+          "url": "https://www.algarveprimeiro.com/estatuto-editorial",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "its Estatuto Editorial: whoever reproduces its content must cite the source; copying is allowed free of charge when not for profit"
+        },
+        {
+          "url": "https://www.algarveprimeiro.com/robots.txt",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "robots.txt read: only /admin/ is refused"
+        }
+      ],
+      "in_place_file": false,
+      "in_organisations": null,
+      "feed_checked_on": "2026-11-16",
+      "unreachable": false
+    },
+    {
+      "name": "Sul Informação",
+      "outlet_kind": "online",
+      "outlet_kind_note": "from the home page title only (\"Destaque das principais notícias do Algarve\"); its about page was not opened, see reading_stopped",
+      "places_covered": [
+        "place:algarve"
+      ],
+      "language": [
+        "pt-PT"
+      ],
+      "website": "https://www.sulinformacao.pt/",
+      "feeds": [
+        {
+          "url": "https://www.sulinformacao.pt/feed/",
+          "format": "rss",
+          "scope": "all latest articles",
+          "source": {
+            "url": "https://www.sulinformacao.pt/feed/",
+            "read_at": "2026-11-16T20:12Z",
+            "how": "fetched once: an RSS 2.0 channel, language pt-PT, 10 items, last built 16 November 2026; linked as the alternate feed in the home page head"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sulinformacao.pt/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "home page read once: stories about Faro and Tavira on it today; a separate Alentejo edition is linked"
+        },
+        {
+          "url": "https://www.sulinformacao.pt/robots.txt",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "robots.txt read: a content signal of search=yes, ai-train=no, use=reference for all readers, and Anthropic's agents (ClaudeBot, anthropic-ai, Claude-Web) refused by name among the training crawlers"
+        }
+      ],
+      "reading_stopped": "After the home page and the main feed, this desk read the outlet's robots.txt. It refuses Anthropic's agents by name, and this desk is one. The town tag feeds and the site's API answered with a bot challenge (403). So nothing more was read: not the about page, not the staff, not the contact page (the home page links one at /contactos/, not opened). No contact page recorded, no person named, no draft written. What its feed may be used for is a question for Dinis (status.json, asks).",
+      "contact_page_not_opened": "https://www.sulinformacao.pt/contactos/",
+      "in_place_file": false,
+      "in_organisations": null,
+      "feed_checked_on": "2026-11-16",
+      "unreachable": false,
+      "refused_to_ai_agents": true
+    }
+  ],
+  "region_outlets_already_recorded": [
+    {
+      "name": "A Voz do Algarve",
+      "in_organisations": "a-voz-do-algarve",
+      "note": "kind media, by ontologist@PrompTugal.dinis, with its feed and contact page. Not redone here. Facts this desk read that the record does not yet hold are in desks/local-jose/requests/2026-11-16-central-and-ontologist-faro-and-loule-outlets.md",
+      "in_place_file": false,
+      "linked_on_town_page": false,
+      "unreachable": false
+    },
+    {
+      "name": "Postal do Algarve",
+      "in_organisations": "postal-do-algarve",
+      "note": "a derived record with no kind. www.postal.pt redirects to postal.pt, a host this environment refuses; not read",
+      "in_place_file": false,
+      "unreachable": true,
+      "tried_on": "2026-11-16T20:10Z"
+    }
+  ],
+  "not_local_press": [
+    {
+      "name": "SGit Newsroom (Algarve Evolution coverage, insider)",
+      "listed_in": "data/by-place/faro.json, sources[] of kind press",
+      "note": "the team's own newsroom, not a Faro outlet"
+    }
+  ],
+  "could_not_be_checked": [
+    {
+      "what": "ERC's public register of media",
+      "url": "https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-",
+      "read_on": "2026-11-16",
+      "note": "the page opens and says the lists were updated on 3 November 2026; the lists themselves (periodical publications, radio operators, online-only services) are spreadsheets on docs.google.com, and the register portal is portalregistos.erc.pt: both hosts are refused from this environment. So outlets the team's files lack could not be looked for in the register"
+    },
+    {
+      "what": "Jornal do Algarve",
+      "note": "www.jornaldoalgarve.pt answered 403 with a bot challenge (20:10 UTC); not read"
+    },
+    {
+      "what": "RUA FM, the university's radio",
+      "note": "linked from ualg.pt as www.rua.pt, a host this environment refuses; not read"
+    },
+    {
+      "what": "Câmara Municipal de Faro",
+      "note": "www.cm-faro.pt: the connection was reset twice (20:10 UTC); not read"
+    }
+  ],
+  "contributors": [
+    {
+      "kind": "person",
+      "name": "Bruno Filipe Pires",
+      "role": "Diretor, Barlavento",
+      "why": "directs the regional newspaper that keeps a Faro section",
+      "source_url": "https://www.barlavento.pt/ficha-tecnica/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "kind": "person",
+      "name": "Beatriz Maio",
+      "role": "Redação, Barlavento",
+      "why": "named in the newsroom of the regional newspaper that keeps a Faro section",
+      "source_url": "https://www.barlavento.pt/ficha-tecnica/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "kind": "person",
+      "name": "Emídio Santos",
+      "role": "Proprietário, Diretor e Editor, Algarve Primeiro",
+      "why": "edits a daily regional site with Faro stories",
+      "source_url": "https://www.algarveprimeiro.com/ficha-tecnica",
+      "read_on": "2026-11-16"
+    },
+    {
+      "kind": "organisation",
+      "name": "Universidade do Algarve: licenciatura em Ciências da Comunicação (Escola Superior de Educação e Comunicação)",
+      "organisation": "university-of-algarve",
+      "why": "a communication degree taught in Faro (Campus da Penha) whose listed careers begin with journalism in press, radio and television, and which ends in a placement. Listed as an organisation only: no student or teacher is named",
+      "source_url": "https://www.ualg.pt/curso/1456",
+      "read_on": "2026-11-16"
+    },
+    {
+      "kind": "organisation",
+      "name": "Universidade do Algarve: Gabinete de Comunicação",
+      "organisation": "university-of-algarve",
+      "why": "the university's communication office, which publishes press notes and a press kit for journalists",
+      "source_url": "https://www.ualg.pt/comunicar",
+      "read_on": "2026-11-16"
+    }
+  ],
+  "contact_pages": [
+    {
+      "organisation": "Barlavento",
+      "url": "https://www.barlavento.pt/ficha-tecnica/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "organisation": "Algarve Primeiro",
+      "url": "https://www.algarveprimeiro.com/contactos",
+      "read_on": "2026-11-16"
+    },
+    {
+      "organisation": "Universidade do Algarve: Escola Superior de Educação e Comunicação (on the course page)",
+      "url": "https://www.ualg.pt/curso/1456",
+      "read_on": "2026-11-16"
+    },
+    {
+      "organisation": "Universidade do Algarve: Gabinete de Comunicação",
+      "url": "https://www.ualg.pt/comunicar",
+      "read_on": "2026-11-16",
+      "note": "the page that presents the office and its \"Comunicar com os Media\"; the office's own contact sits one step further and was not opened"
+    }
+  ],
+  "drafts": [
+    "desks/local-jose/contact-requests/barlavento.json",
+    "desks/local-jose/contact-requests/university-of-algarve.json"
+  ],
+  "no_draft": [
+    {
+      "organisation": "Algarve Primeiro",
+      "why": "the Faro page does not link it yet; its draft leads with the Loulé page, which does"
+    },
+    {
+      "organisation": "Sul Informação",
+      "why": "its contact page was not opened (see reading_stopped)"
+    },
+    {
+      "organisation": "A Voz do Algarve",
+      "why": "neither town page links it yet"
+    }
+  ]
+}

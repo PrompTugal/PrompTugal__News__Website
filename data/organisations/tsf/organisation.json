@@ -1,0 +1,83 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "tsf",
+  "type": "organisation",
+  "kind": "media",
+  "name": "TSF Rádio Notícias",
+  "names_as_listed": [
+    "TSF Rádio Notícias"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: No RSS verified: https://tsf.pt/rss returned 404. Personal-format addresses of the director and editors published: personal contact published, not recorded.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.tsf.pt",
+    "owner": {
+      "name": "Rádio Notícias-Produções e Publicidade S.A. (proprietário e editor)",
+      "source": {
+        "url": "https://www.tsf.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.tsf.pt/contactos",
+      "source": {
+        "url": "https://www.tsf.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Vítor Santos",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.tsf.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Inês Cardoso",
+        "role": "Diretora-geral editorial",
+        "source": {
+          "url": "https://www.tsf.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.tsf.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      },
+      {
+        "url": "https://www.tsf.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "contacts read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.tsf.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.tsf.pt/contactos",
+      "read_at": "2026-11-16",
+      "how": "contacts read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "3a0840a368567048": {
+  "t": "PrompTugal.news São Brás de Alportel: IA e tecnologia a São Brás de Alportel, una città collinare di patrimonio del sughero, un museo del costume e una spinta comunale alla digitalizzazione, e ciò che arriva a São Brás de Alportel dall'Algarve, dal Portogallo e dal mondo. Indipendente; ogni fatto con la sua fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false
+ },
+ "3a3ce85c327ffbdf": {
+  "t": "**Scrivici:** una correzione, una domanda o una storia che ci è sfuggita parte dal riquadro in fondo a questa pagina, sigillata per la redazione. Se hai effettuato l'accesso, la risposta arriva sulla [tua pagina di dialogo]({talk}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false
+ }
+}

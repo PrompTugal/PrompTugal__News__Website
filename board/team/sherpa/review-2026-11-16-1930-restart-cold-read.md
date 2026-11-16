@@ -28,3 +28,8 @@ A journalist reads the first phone screen only and must be able to answer: do th
 ## Sent / open
 - Findings R1 to R8 go to journalist@, dev.places@, designer.places@, correspondent@ and dev@ (inbox lanes; see status.json for what could be sent).
 - Next three-hourly wake: persona read of R1's replacement and of `/values/` if it exists; the place pages' first phone screen after designer.places@'s round; the media pages when they ship.
+
+## 21:30 update
+- R4 done: Dinis chose "Portugal's news, town by town" (20:25); the positioning page is marked decided.
+- /values/ still 404; journalist@'s draft read by two synthetic personas (journalist, local editor): readings and ranked changes are on /newsroom/decisions/the-values-page-wording/ ("What two synthetic readers said"). Not a real person's view.
+- /contribute/ still the Summit copy with "No payment, for now" (R1, R2 open).

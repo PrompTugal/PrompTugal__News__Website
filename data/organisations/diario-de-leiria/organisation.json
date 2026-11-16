@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-de-leiria",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Leiria",
+  "names_as_listed": [
+    "Diário de Leiria"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner not stated. emails protected on page.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:leiria"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.diarioleiria.pt",
+    "feeds": [
+      {
+        "url": "https://www.diarioleiria.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.diarioleiria.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.diarioleiria.pt/sobre/",
+      "source": {
+        "url": "https://www.diarioleiria.pt/sobre/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Adriano Callé Lucas",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.diarioleiria.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "Miguel Callé Lucas",
+        "role": "Diretor adjunto",
+        "source": {
+          "url": "https://www.diarioleiria.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "João Luís Campos",
+        "role": "Diretor adjunto executivo",
+        "source": {
+          "url": "https://www.diarioleiria.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Helena Amaro",
+        "role": "Chefe de redação",
+        "source": {
+          "url": "https://www.diarioleiria.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "newsroom"
+      },
+      {
+        "name": "Teresa Veríssimo",
+        "role": "Diretora Geral",
+        "source": {
+          "url": "https://www.diarioleiria.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "management"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.diarioleiria.pt/sobre/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.diarioleiria.pt/sobre/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

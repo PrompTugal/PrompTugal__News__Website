@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "visao",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Visão",
+  "names_as_listed": [
+    "Visão"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Site could not be read from this environment; owner, masthead, contacts unverified. Feed https://visao.sapo.pt/feed/ did not respond (connection failure), so not verified.",
+  "media": {
+    "outlet_kind": "magazine",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://visao.sapo.pt",
+    "sources": [
+      {
+        "url": "https://visao.sapo.pt",
+        "read_at": "2026-11-16",
+        "how": "home fetch failed (connection error)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://visao.sapo.pt",
+      "read_at": "2026-11-16",
+      "how": "home fetch failed (connection error)",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

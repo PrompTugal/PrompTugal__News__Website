@@ -1,0 +1,74 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "rtp-noticias",
+  "type": "organisation",
+  "kind": "media",
+  "name": "RTP Notícias (Rádio e Televisão de Portugal)",
+  "names_as_listed": [
+    "RTP Notícias (Rádio e Televisão de Portugal)"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Masthead not read. Public email not extracted.",
+  "media": {
+    "outlet_kind": "tv",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.rtp.pt/noticias",
+    "owner": {
+      "name": "Rádio e Televisão de Portugal, public company (empresa pública)",
+      "source": {
+        "url": "https://pt.wikipedia.org/wiki/R%C3%A1dio_e_Televis%C3%A3o_de_Portugal",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.rtp.pt/noticias/rss",
+        "format": "rss",
+        "source": {
+          "url": "https://www.rtp.pt/noticias/rss",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml; charset=UTF-8, RSS body; feed list at https://www.rtp.pt/noticias/rss/feeds"
+        }
+      }
+    ],
+    "contact": {
+      "page": "http://media.rtp.pt/empresa/contactos/gerais/",
+      "source": {
+        "url": "http://media.rtp.pt/empresa/contactos/gerais/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.rtp.pt/noticias",
+        "read_at": "2026-11-16",
+        "how": "home read, footer links"
+      },
+      {
+        "url": "https://www.rtp.pt/noticias/rss/feeds",
+        "read_at": "2026-11-16",
+        "how": "feed directory read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.rtp.pt/noticias",
+      "read_at": "2026-11-16",
+      "how": "home read, footer links",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.rtp.pt/noticias/rss/feeds",
+      "read_at": "2026-11-16",
+      "how": "feed directory read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

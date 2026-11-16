@@ -1,0 +1,42 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "Lo spazio di coworking comunale nel centro storico ha 20 postazioni ed è pieno da novembre 2023. È anche partner di GDG Lagos negli eventi sull'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "Uno studio guidato dalla facoltà di scienze sociali della NOVA e promosso dalla Fondazione Gulbenkian, basato sulle risposte di 295 giornalisti, propone 10 misure per un uso responsabile dell'IA nelle redazioni. Un docente dell'UTAD ha fatto parte del gruppo di progetto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
+ "0d8fb3014c735381": {
+  "t": "Il comune sta introducendo una piattaforma digitale di gestione urbana il cui modulo di IA controlla i documenti al momento dell'invio e blocca i fascicoli incompleti. Il comune dice che circa sette provvedimenti su dieci del suo ufficio pratiche chiedono documenti corretti, e che riceve circa 5.000 richieste di licenza all'anno. La formazione del personale è iniziata a luglio e il pieno funzionamento è atteso nei mesi successivi.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace raccoglie 15,6 milioni di euro per l'intelligenza sul traffico spaziale basata sull'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "Il progetto AITriage4SU, guidato dall'UTAD, ha tenuto il 31 gennaio a Porto un incontro scientifico con circa 200 partecipanti sull'IA per il triage nei pronto soccorso per adulti. Il gruppo ha mostrato come i grandi modelli linguistici normalizzano le descrizioni libere dei disturbi al triage, con i primi risultati.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
+ }
+}

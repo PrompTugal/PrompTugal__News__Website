@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "renascenca",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Renascença",
+  "names_as_listed": [
+    "Rádio Renascença"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Outlet site returned 403 (rr.pt) and 410 (rr.sapo.pt); masthead, contacts, feed unverified.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://rr.pt",
+    "owner": {
+      "name": "Patriarcado de Lisboa and Conferência Episcopal Portuguesa, through Grupo Renascença Multimédia",
+      "source": {
+        "url": "https://pt.wikipedia.org/wiki/R%C3%A1dio_Renascen%C3%A7a",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/R%C3%A1dio_Renascen%C3%A7a",
+        "read_at": "2026-11-16",
+        "how": "Wikipedia summary read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://pt.wikipedia.org/wiki/R%C3%A1dio_Renascen%C3%A7a",
+      "read_at": "2026-11-16",
+      "how": "Wikipedia summary read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

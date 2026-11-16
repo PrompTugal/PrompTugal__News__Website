@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "gazeta-das-caldas",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Gazeta das Caldas",
+  "names_as_listed": [
+    "Gazeta das Caldas"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Caldas da Rainha. Gaps: personal contact published, not recorded: named staff emails. Caldas da Rainha is in Leiria district.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:leiria"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://gazetadascaldas.pt",
+    "owner": {
+      "name": "Cooperativa Editorial Caldense, C.R.L.",
+      "source": {
+        "url": "https://gazetadascaldas.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://gazetadascaldas.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://gazetadascaldas.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://gazetadascaldas.pt/homepage/contactos/",
+      "source": {
+        "url": "https://gazetadascaldas.pt/homepage/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Fátima Ferreira",
+        "role": "Diretora",
+        "source": {
+          "url": "https://gazetadascaldas.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "Natacha Narciso",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://gazetadascaldas.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Joel Ribeiro",
+        "role": "Jornalista, editor online",
+        "source": {
+          "url": "https://gazetadascaldas.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "online"
+      },
+      {
+        "name": "Isaque Vicente",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://gazetadascaldas.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://gazetadascaldas.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://gazetadascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "ddd9c693aaa1cc5e": {
+  "t": "La Universidade de Évora dice di aver costruito modelli di IA in lingua portoghese",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Universidade de Évora says it has built Portuguese-language ",
+  "ok": false
+ },
+ "dded4f00e6d60967": {
+  "t": "Prima il piano nazionale, oltre 400 milioni di euro per lo più europei, poi AMALIA, i supercomputer e una scena di startup che continua a raccogliere round a Porto e Lisbona.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "First the national plan, over 400 million euros of mostly Eu",
+  "ok": false
+ }
+}

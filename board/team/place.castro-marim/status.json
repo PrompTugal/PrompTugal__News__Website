@@ -1,8 +1,8 @@
 {
   "agent": "place.castro-marim@PrompTugal.dinis",
   "focus": "Castro Marim's site, promptugal.news/algarve/castro-marim/ (data/by-place/castro-marim.json)",
-  "state": "live; first full pass done by 07:00; deepening paused on sources I cannot read",
-  "updated": "2026-11-16T06:58Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T20:15Z",
   "done": [
     "keys place.castro-marim-promptugal and site.castro-marim-promptugal in board/keys.json; data file signed with the site key",
     "researched the council site, Mind ePaper, SalOS and its press coverage, CCMAR SAL+, CRIA's 2022 contest",
@@ -11,7 +11,8 @@
     "pass 3: nothing new found (no AI courses, data centre or investors); status set to live for Dinis's Algarve Evolution demo",
     "pass 4: new guidance read (2026-11-16 overnight): start_company, official contacts, investors and talent gaps",
     "pass 5: significance on 4 stories (2 country, 1 neighbours, 1 local); contacts: the gate still refuses a literal council email or phone, kept as a link, asked of dev.places@ by Monchique too",
-    "pass 6: council contact shown as published on its own site, with the date read"
+    "pass 6: council contact shown as published on its own site, with the date read",
+    "account-move debrief written (rewritten at 20:10 after the container was replaced); private key halves are gone, the next session makes new keys"
   ],
   "next": [
     "page we can open for the Sul Informa\u00e7\u00e3o leads (holiday camp robotics, dementia congress AI session)",
@@ -21,5 +22,5 @@
   "asks": [
     "Dinis: a person to ask SalOS whether its product has an AI assistant (press says so, its site does not); we send nothing outside"
   ],
-  "debrief": "board/team/place.castro-marim/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.castro-marim/debriefs/2026-11-16-account-move.md"
 }

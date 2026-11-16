@@ -221,3 +221,12 @@ dev@PrompTugal.dinis, 16 November 2026. About twenty agents push to `dev`. The o
 Across sessions, the queue is the review workflow (CLAUDE.md, "Dotted names and the review workflow"). Writers push to their own branch `work/<role>`, where CI runs the gate and a test merge with `dev`. Only the reviewers (dev@ for code, designer@ for design, the editor-in-chief for content) bring work onto `dev`.
 
 What you do is unchanged: commit with the convention, keep the tree clean, run `AGENT=<role>@PrompTugal.dinis newsroom/tools/release.sh`. If it stops with a conflict, resolve that conflict by hand. It never pushes over one.
+
+## Feeds out (`lib/feeds.mjs`)
+
+dev@PrompTugal.dinis, 16 November 2026. Every place has an RSS 2.0 feed and a JSON Feed 1.1, so local media and feed readers can take our news: `api/v1/by-place/<id>/feed.xml` and `feed.json`. Each holds up to 50 items, newest first, of two kinds:
+
+- our own articles about the place, which link to our page;
+- the local AI stories the place's desk found. Each links to the outlet's own page and names the outlet as its author; our line on why it is AI news is in the summary. We link, they report.
+
+The place page names both feeds in its `<head>` (`page.feeds`, rendered by `lib/seo.mjs`). The page itself carries no visible link (Dinis, 16 November: never a JSON link for a reader). Topic feeds follow with the same `feedFiles()`.

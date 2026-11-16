@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "o-interior",
+  "type": "organisation",
+  "kind": "media",
+  "name": "O Interior",
+  "names_as_listed": [
+    "Jornal O Interior"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Serra da Estrela. Gaps: phone numbers not recorded.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:guarda"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.ointerior.pt",
+    "owner": {
+      "name": "JORINTERIOR - Jornal O Interior, Lda",
+      "source": {
+        "url": "https://www.ointerior.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.ointerior.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.ointerior.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.ointerior.pt/contactos/",
+      "source": {
+        "url": "https://www.ointerior.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Luís Baptista-Martins",
+        "role": "Diretor e Editor",
+        "source": {
+          "url": "https://www.ointerior.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "Luís Martins",
+        "role": "Chefe de Redação",
+        "source": {
+          "url": "https://www.ointerior.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "newsroom"
+      },
+      {
+        "name": "Carlos Gomes",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.ointerior.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Sofia Pereira",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.ointerior.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ointerior.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://www.ointerior.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contacts"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ointerior.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.ointerior.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contacts",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

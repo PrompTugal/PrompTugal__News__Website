@@ -40,6 +40,23 @@
   },
   "ai_news": [
     {
+      "title": "Equipa UAlg returns to schools with 81 free talks, AI and cybersecurity among them",
+      "summary": "The University of Algarve's 2026/2027 school outreach catalogue offers 81 free talks and activities in 16 areas, including AI applied to health, teaching and mathematics, and cybersecurity, delivered by UAlg teachers and researchers at schools, campuses or online.",
+      "date": "2026-11-16",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/equipa-ualg-palestras-escolas/",
+      "read_on": "2026-11-16",
+      "ai_path": "A university programme that puts AI talks in front of Algarve pupils and teachers: AI is one topic in the catalogue, one step from the story.",
+      "steps": 1,
+      "significance": "region",
+      "blast": [
+        "olhao",
+        "sao-bras-de-alportel",
+        "loule",
+        "tavira"
+      ]
+    },
+    {
       "title": "DevFest in Faro spends two days on agentic AI",
       "summary": "GDG Faro's free conference runs on 27 and 28 November at the University of Algarve's Campus da Penha, with workshops and talks on building, securing and scaling AI applications.",
       "date": "2026-11-06",
@@ -68,6 +85,18 @@
       "read_on": "2026-11-15",
       "ai_path": "A public conference in Faro on the social effects of AI: directly about AI.",
       "steps": 0
+    },
+    {
+      "title": "University of Algarve joins the global alliance for responsible AI in higher education",
+      "summary": "UAlg has joined GeSI's Digital Education for Impact Alliance (DEFIA), launched in Portugal on 15 October 2026 at the University of Coimbra, and was represented by its vice-rector Eduardo Esteves. The conference presented a national declaration on responsible AI in higher education.",
+      "date": "2026-10-16",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/ualg-integra-rede-para-promover-inteligencia-artificial-responsavel-no-ensino-superior",
+      "read_on": "2026-11-16",
+      "ai_path": "A Faro university joins a network on the responsible use of AI in teaching and research: directly about AI.",
+      "steps": 0,
+      "significance": "country",
+      "blast": []
     },
     {
       "title": "A book on starting a company in 30 days with AI prompts is presented at UALG TEC Campus",
@@ -110,6 +139,18 @@
       "steps": 0
     },
     {
+      "title": "GDG Faro holds a Build with Gemma AI hackathon",
+      "summary": "GDG Faro's community page lists a free hackathon, Build with Gemma: GDG Faro AI Hackathon, on 18 July 2026, ahead of its DevFest on 27 and 28 November. The page gives no venue, speakers or results.",
+      "date": "2026-07-18",
+      "publisher": "GDG Faro",
+      "url": "https://gdg.community.dev/gdg-faro/",
+      "read_on": "2026-11-16",
+      "ai_path": "A developer community hackathon built around an AI model: directly about AI.",
+      "steps": 0,
+      "significance": "town",
+      "blast": []
+    },
+    {
       "title": "Faro panel asks how AI search decides which businesses to show",
       "summary": "Flow Productions with Algarve STP and the Ireland Portugal Business Network held a hybrid panel at UALG TEC Campus on AI-driven search and company visibility.",
       "date": "2026-07-17",
@@ -128,6 +169,39 @@
       "read_on": "2026-11-15",
       "ai_path": "A regional startup programme whose cohort includes AI companies, one of them based in Faro: one step from AI.",
       "steps": 1
+    },
+    {
+      "title": "New Lusiadas hospital in Faro is billed as native to AI",
+      "summary": "Grupo Lusiadas Saude presented a 60 million euro hospital in Faro (Lejana de Baixo), due to open at the end of 2027 with about 500 jobs. Its chief executive said it will be a hospital native to artificial intelligence, robotics and advanced diagnostics. The article gives no detail on which AI systems.",
+      "date": "2026-06-22",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/?p=402708",
+      "read_on": "2026-11-16",
+      "ai_path": "A private hospital planned in Faro whose chief executive says AI will be built in: AI is the stated design principle, but no system is named, so one step.",
+      "steps": 1,
+      "significance": "region",
+      "blast": [
+        "olhao",
+        "sao-bras-de-alportel",
+        "loule"
+      ]
+    },
+    {
+      "title": "SNS patients can do physiotherapy at home with AI correcting their movements, ULS Algarve among the units",
+      "summary": "From 22 June 2026 doctors in the national health service can prescribe home physiotherapy on a tablet-like device from the Portuguese company Sword Health, where AI analyses movements and corrects them in real time with a clinical team reviewing. ULS Algarve is one of nine local health units that signed AI protocols. The article does not mention Faro and does not say ULS Algarve runs the service.",
+      "date": "2026-06-20",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/saude/utentes-do-algarve-vao-poder-fazer-fisioterapia-em-casa-com-apoio-de-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI-guided rehabilitation offered to patients of the regional health unit based in Faro: directly about AI.",
+      "steps": 0,
+      "significance": "region",
+      "blast": [
+        "olhao",
+        "sao-bras-de-alportel",
+        "loule",
+        "tavira"
+      ]
     },
     {
       "title": "Venture Lab opens a free mentoring call whose topics include technology and AI",
@@ -160,6 +234,18 @@
       "steps": 0
     },
     {
+      "title": "WordPress Faro Meetup asks how AI changes the way people use websites",
+      "summary": "The local WordPress Faro Meetup met on 16 April 2026 at UALG TEC Campus. Jorge Cabaco of Dengun Agency spoke on AI copilots on websites, lead generation, customer support, booking systems and tourism AI concierges.",
+      "date": "2026-04-08",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/algarve/wordpress-faro-meetup-regressa-com-foco-na-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "A community meetup in Faro on AI inside websites: directly about AI.",
+      "steps": 0,
+      "significance": "town",
+      "blast": []
+    },
+    {
       "title": "Turismo do Algarve schedules AI and water bootcamps with hospitality schools, Faro included",
       "summary": "Two free certified bootcamps for tourism workers: water efficiency on 9 April in Faro and AI applied to tourism on 17 April in Portimão.",
       "date": "2026-03-26",
@@ -188,6 +274,22 @@
       "read_on": "2026-11-15",
       "ai_path": "A university course on AI for healthcare managers: directly about AI.",
       "steps": 0
+    },
+    {
+      "title": "UAlg's new rector says AI should be used in teaching, not banned",
+      "summary": "In an interview with ECO, rector Alexandra Teodosio (in office since 17 December 2025) opposed banning AI and said buying detection software is not worth it because AI keeps changing; she wants it introduced in a way that stimulates critical thinking and a shift towards continuous assessment.",
+      "date": "2026-02-18",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/entrevista/alexandra-teodosio-tenho-a-ambicao-de-transformar-um-pouco-o-ensino-que-se-faz-atualmente/",
+      "read_on": "2026-11-16",
+      "ai_path": "The head of the Faro-based university sets out her stance on AI in teaching: directly about AI.",
+      "steps": 0,
+      "significance": "region",
+      "blast": [
+        "olhao",
+        "sao-bras-de-alportel",
+        "loule"
+      ]
     },
     {
       "title": "AI4Youth Work brings an Erasmus+ project on AI for youth workers to UALG TEC Campus",
@@ -253,6 +355,54 @@
       "name": "SGit Newsroom (Algarve Evolution coverage, insider)",
       "url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
       "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "UAlg news",
+      "url": "https://www.ualg.pt/noticias",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "UAlg agenda",
+      "url": "https://www.ualg.pt/agenda",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Algarve Primeiro",
+      "url": "https://www.algarveprimeiro.com",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Postal do Algarve",
+      "url": "https://postal.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "ECO (Local Online)",
+      "url": "https://eco.sapo.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Algarve Tech Hub",
+      "url": "https://algarvetechhub.com",
+      "kind": "events",
+      "feed": null
+    },
+    {
+      "name": "Camara Municipal de Faro: news",
+      "url": "https://www.cm-faro.pt/pt/noticias/",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Diario da Republica, public contracts (Municipio de Faro notices)",
+      "url": "https://files.diariodarepublica.pt",
+      "kind": "other",
       "feed": null
     }
   ],
@@ -513,6 +663,46 @@
       "read_on": "2026-11-16",
       "ai_path": "A European project on AI for youth work, presented in Faro.",
       "steps": 0
+    },
+    {
+      "name": "Grupo Lusiadas Saude (Hospital Lusiadas Faro, under construction)",
+      "type": "company",
+      "url": "https://www.barlavento.pt/?p=402708",
+      "what": "Private health group building its fourth Algarve hospital in Faro (60 million euros, opening end of 2027), which its chief executive calls native to AI and robotics.",
+      "source_url": "https://www.barlavento.pt/?p=402708",
+      "read_on": "2026-11-16",
+      "ai_path": "Plans AI built into a new Faro hospital; no system named yet.",
+      "steps": 1
+    },
+    {
+      "name": "Sword Health",
+      "type": "company",
+      "url": "https://postal.pt/saude/utentes-do-algarve-vao-poder-fazer-fisioterapia-em-casa-com-apoio-de-inteligencia-artificial/",
+      "what": "Portuguese company whose AI-guided home physiotherapy device is now prescribable in the national health service, ULS Algarve among the local health units that signed AI protocols. Its base city is not given on the page, so it is not placed in Faro.",
+      "source_url": "https://postal.pt/saude/utentes-do-algarve-vao-poder-fazer-fisioterapia-em-casa-com-apoio-de-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "Supplies the AI that corrects patients' exercises: directly about AI.",
+      "steps": 0
+    },
+    {
+      "name": "GeSI DEFIA (Digital Education for Impact Alliance), with UAlg as a new member",
+      "type": "community",
+      "url": "https://www.ualg.pt/ualg-integra-rede-para-promover-inteligencia-artificial-responsavel-no-ensino-superior",
+      "what": "Global network promoting responsible AI in higher education; DEFIA Portugal was launched on 15 October 2026 and UAlg recently joined.",
+      "source_url": "https://www.ualg.pt/ualg-integra-rede-para-promover-inteligencia-artificial-responsavel-no-ensino-superior",
+      "read_on": "2026-11-16",
+      "ai_path": "A network on responsible AI in teaching and research: directly about AI.",
+      "steps": 0
+    },
+    {
+      "name": "Equipa UAlg (school outreach programme)",
+      "type": "institution",
+      "url": "https://www.barlavento.pt/equipa-ualg-palestras-escolas/",
+      "what": "UAlg programme with 81 free school talks in 2026/2027, AI and cybersecurity among them.",
+      "source_url": "https://www.barlavento.pt/equipa-ualg-palestras-escolas/",
+      "read_on": "2026-11-16",
+      "ai_path": "Brings AI topics to schools: one step.",
+      "steps": 1
     }
   ],
   "extras": [],
@@ -533,7 +723,17 @@
     "Still unsourced: other UAlg research groups beyond CEOT and NOVA LINCS, the Faro hospital's AI use, and Invisible CFO, FarmAssist and Witflow, whose base cities no page we opened gives. SPIC's town is also not stated.",
     "Barlavento's AI tag shows no new Faro AI story dated after 6 November 2026 at 04:00 UTC on 16 November.",
     "Faro council does run an economic development desk (Faro Invest) and a business nest managed by ANJE, but its incubation page names no services, price, sector or way to apply, and neither page mentions AI. We still need ANJE's own page for the nest.",
-    "The council's one candidate for AI in a public service is the inclusive virtual assistant of the Acessibilidades 2.0 project, run by Associação Salvador with the council (a 2025 focus group, a June 2026 launch session at the municipal library, a demonstration in October 2026). None of the three pages we read says it uses AI, so it is not on the AI map. If the project or the council confirms it, it becomes the council's first AI service."
+    "The council's one candidate for AI in a public service is the inclusive virtual assistant of the Acessibilidades 2.0 project, run by Associação Salvador with the council (a 2025 focus group, a June 2026 launch session at the municipal library, a demonstration in October 2026). None of the three pages we read says it uses AI, so it is not on the AI map. If the project or the council confirms it, it becomes the council's first AI service.",
+    "Faro council tenders: the 2026 Diario da Republica notices we could read (8 May, 3.46 million euros, Bairro Ribeirinho urban renewal; 15 June, 113,450 euros, pavements) are not about AI or software. A PRR-funded urban management platform rental appears in a TED notice (35382-2026) that returned no readable text, so it is unconfirmed.",
+    "Sul Informacao (403 on search and article pages) and Algarve Primeiro's search (readable, but no AI story in its 16 November list) gave nothing new on Faro AI; postal.pt article pages opened but its AI search hits were mostly 2024 to 2025 or already in the file.",
+    "algarveevolution.pt event pages (UAlgTec Heritage, Open Mic Pitch Night, Feira de Estagios, CardioTech) all returned 503, so only the listing page was read: no descriptions and no AI tag.",
+    "No new AI story about Faro dated after 6 November 2026 on Barlavento's AI tag or Faro section; nothing AI on UAlg's news page between 29 Oct and 16 Nov except the school-talks catalogue.",
+    "Faro airport: ANA's biometric page returned no text, and the AHETA article (2 March 2026) describes EES border checks with biometrics but no AI or facial recognition, so airport AI is not claimed. Search results say Vision-Box biometrics cover Faro but we did not open a page that says so.",
+    "Acessibilidades 2.0 (Municipio de Faro and Associacao Salvador): the council's 3 November 2026 news says students tried a virtual assistant and a mapping app, but does not say either uses AI, so not listed as AI news.",
+    "4Global Portugal (sports data and AI, said to be in Ualg Tec Start) came only from a search snippet of racius.com; not opened, not added. Witflow, Deloitte Faro office and Invisible CFO: no AI page opened.",
+    "No 2026 Algarve Tech Hub Summit page for Faro found (past editions in Lagos 2025 and elsewhere). CCDR Algarve news page 404; no Algarve 2030 AI call for companies confirmed as open (a 4 million euro digitalisation call named in a search result was not opened).",
+    "ULS Algarve (Faro hospital): no AI project of its own found in 2026; robotic surgery (since November 2025) is robotics, not AI, and its pages were not opened.",
+    "UAlg agenda for November lists no AI event; its Faro neighbours' AI items (Olhao Bairros Digitais, Loule, Sao Bras) belong to their own town files: the Bairros Digitais article does not mention AI."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
@@ -666,6 +866,22 @@
       "source_url": "https://www.cm-faro.pt/pt/menu/68/contactos.aspx",
       "read_on": "2026-11-16",
       "channel": "the council's general email, published in the footer and on its Contactos page (open the linked page for the address)"
+    },
+    {
+      "name": "Universidade do Algarve, general contact (Campus da Penha, Faro)",
+      "what": "The university's general public contact, printed on the page that announces its AI policy.",
+      "url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
+      "read_on": "2026-11-16",
+      "channel": "(the council's general email, printed on the linked page), telephone 289 800100/900, Campus da Penha, 8005-139 Faro. No AI-specific contact is listed.",
+      "source_url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial"
+    },
+    {
+      "name": "Municipio de Faro, general contact (from an official public procurement notice)",
+      "what": "The council's general email and phone as printed in its official procurement notice in the Diario da Republica (15 June 2026).",
+      "url": "https://files.diariodarepublica.pt/cp_hora/2026/06/113/419964300.pdf",
+      "read_on": "2026-11-16",
+      "channel": "(the council's general email, printed on the linked page), telephone 289870870, Largo da Se, 8004-001 Faro",
+      "source_url": "https://files.diariodarepublica.pt/cp_hora/2026/06/113/419964300.pdf"
     }
   ]
 }
