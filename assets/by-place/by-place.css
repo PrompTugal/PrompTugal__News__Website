@@ -284,3 +284,31 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame .bp-nowband .mini-h { margin-top: 0; color: var(--accent, #0b6b2e); }
 .bp-frame .bp-nowband ul.bp-now { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 6px 22px; list-style: none; padding: 0; margin: 6px 0; }
 .bp-frame .bp-nowband ul.bp-now li { font-size: 15px; }
+
+/* designer.places@, 16 Nov 2026 (Dinis, ~10:40 UTC: the live data "quite hidden"; brief 2026-11-16-live-data-up-front):
+   "Now in <place>" as an ink band, the most striking thing under the mandate. Ink and paper are the brand's neutrals;
+   the town's colour rules it; each value's figure is big (by-place.js wraps it in .bp-fig), its source and time in mono.
+   IPMA warning levels keep their own colours (yellow, orange, red), as IPMA shows them. */
+.bp-frame .bp-nowband { --now-ink: #f6f3ec; --now-dim: rgba(246, 243, 236, .66); --now-rule: rgba(246, 243, 236, .16); --now-acc: color-mix(in oklab, var(--accent) 42%, #fff);
+    position: relative; margin: 0 0 30px; padding: 16px 20px 16px; background: var(--band, #121317); color: var(--now-ink); border: 0; border-top: 4px solid var(--accent); border-radius: 0; }
+.bp-frame .bp-nowband .mini-h { display: flex; align-items: center; gap: 8px; margin: 0 0 12px; padding: 0; border: 0; color: var(--now-ink); font: 700 12px/1.3 var(--mono); letter-spacing: .1em; }
+.bp-frame .bp-nowband .mini-h::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #3fbf6a; box-shadow: 0 0 0 0 rgba(63, 191, 106, .6); animation: bp-pulse 2.4s ease-out infinite; }
+@keyframes bp-pulse { 0% { box-shadow: 0 0 0 0 rgba(63, 191, 106, .55); } 70% { box-shadow: 0 0 0 8px rgba(63, 191, 106, 0); } 100% { box-shadow: 0 0 0 0 rgba(63, 191, 106, 0); } }
+.bp-frame .bp-nowband ul.bp-now { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin: 0; padding: 0; border: 0; list-style: none; }
+.bp-frame .bp-nowband ul.bp-now > li { display: block; margin: 0; padding: 10px 14px 12px 0; border: 0; border-top: 1px solid var(--now-rule); font: 400 13.5px/1.4 var(--sans); color: var(--now-dim); }
+.bp-frame .bp-nowband ul.bp-now > li > strong:first-child { display: block; margin: 0 0 4px; font: 600 10.5px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .09em; color: var(--now-acc); }
+.bp-frame .bp-nowband ul.bp-now > li .bp-fig { display: block; margin: 0 0 3px; font: 500 clamp(22px, 2.6vw, 30px)/1.1 var(--serif); color: var(--now-ink); letter-spacing: -.005em; font-variant-numeric: lining-nums; }
+.bp-frame .bp-nowband ul.bp-now > li .bp-fig.bp-long { font-size: clamp(16px, 1.7vw, 19px); line-height: 1.25; }
+.bp-frame .bp-nowband ul.bp-now > li > em { display: block; margin-top: 6px; font: 400 11px/1.45 var(--mono); font-style: normal; color: var(--now-dim); }
+.bp-frame .bp-nowband ul.bp-now > li a { color: var(--now-ink); text-decoration-color: var(--now-acc); text-underline-offset: 2px; }
+.bp-frame .bp-nowband ul.bp-now > li a:hover { color: var(--now-acc); }
+.bp-frame .bp-nowband .bp-lvl { display: inline-block; margin-right: 6px; padding: 1px 7px; border-radius: 3px; font: 700 10.5px/1.6 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: #121317; vertical-align: 3px; }
+.bp-frame .bp-nowband .bp-lvl.yellow { background: #f2c94c; } .bp-frame .bp-nowband .bp-lvl.orange { background: #f2994a; } .bp-frame .bp-nowband .bp-lvl.red { background: #eb5757; color: #fff; } .bp-frame .bp-nowband .bp-lvl.green { background: #6fcf97; }
+@media (min-width: 760px) {
+    .bp-frame .bp-nowband { padding: 18px 24px 18px; }
+    .bp-frame .bp-nowband ul.bp-now { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .bp-frame .bp-nowband ul.bp-now > li { padding: 12px 18px 14px 0; }
+    .bp-frame .bp-nowband ul.bp-now > li:not(:nth-child(3n+1)) { padding-left: 18px; border-left: 1px solid var(--now-rule); }
+}
+@media (max-width: 759px) { .bp-frame .bp-nowband ul.bp-now > li:nth-child(even) { padding-left: 12px; border-left: 1px solid var(--now-rule); } .bp-frame .bp-nowband { margin-left: -4px; margin-right: -4px; } }
+@media (prefers-reduced-motion: reduce) { .bp-frame .bp-nowband .mini-h::before { animation: none; } }

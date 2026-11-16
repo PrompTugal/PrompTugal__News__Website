@@ -73,8 +73,10 @@ researched. Hover a name (it underlines); do not click yet.
 
 **Say:** "Every line has a source, a read date and a capture. You can check us."
 
-**Also in Faro's side column:** "Now in Faro": the weather now and today, IPMA's warning, the fire risk, the sea and
-the planes over Faro airport, each with its source and time, refreshed hourly.
+**Right under the mandate, the dark band "Now in Faro"** (a green dot: live): the temperature now and today, IPMA's
+warning in its colour, the fire risk, the sea and the planes near Faro airport, each with its source and time,
+refreshed hourly, each linking the page where a person can check it. **Say:** "Public data, live, on every town's
+page."
 
 ## 4. The voice toggle: the fun part (1 minute)
 

@@ -97,3 +97,28 @@
         apply()
     })
 })()
+
+// "Now in <place>" (designer.places@, 16 Nov 2026): each value's headline figure in its own span (.bp-fig), the rest
+// after it; an IPMA warning level becomes a coloured chip. The words are the build's, only regrouped.
+;(function () {
+    var items = document.querySelectorAll('.bp-frame .bp-nowband ul.bp-now > li')
+    Array.prototype.forEach.call(items, function (li) {
+        var label = li.querySelector('strong'); if (!label) return
+        var t = null
+        for (var n = label.nextSibling; n; n = n.nextSibling) { if (n.nodeType === 3 && n.textContent.trim()) { t = n; break } if (n.nodeType === 1 && n.tagName === 'EM') break }
+        if (!t) return
+        var text = t.textContent.trim(), cut = text.indexOf(' · '), cut2 = text.indexOf(' (')
+        var i = cut >= 0 ? cut : cut2
+        var fig = i >= 0 ? text.slice(0, i) : text, rest = i >= 0 ? text.slice(i + (cut >= 0 ? 3 : 1)) : ''
+        var f = document.createElement('span'); f.className = 'bp-fig' + (fig.length > 18 ? ' bp-long' : '')
+        var m = /^(yellow|orange|red|green)\b:?\s*/i.exec(fig)
+        if (m && /warning/i.test(label.textContent)) {
+            var c = document.createElement('span'); c.className = 'bp-lvl ' + m[1].toLowerCase(); c.textContent = m[1]
+            f.appendChild(c); fig = fig.slice(m[0].length); f.classList.add('bp-long')
+        }
+        f.appendChild(document.createTextNode(fig))
+        var frag = document.createDocumentFragment(); frag.appendChild(f)
+        if (rest) { var r = document.createElement('span'); r.className = 'bp-rest'; r.textContent = rest.replace(/^\(|\)$/g, ''); frag.appendChild(r) }
+        li.replaceChild(frag, t)
+    })
+})()
