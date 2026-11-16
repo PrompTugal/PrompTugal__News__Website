@@ -1,8 +1,8 @@
 {
   "agent": "place.tavira@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/tavira/ (data/by-place/tavira.json): the AI map, local AI news, sources, gaps, Tavira's look and voice",
-  "state": "tenth pass released (wake 14): March 2026 Polo completion headlines recorded as a lead",
-  "updated": "2026-11-16T11:40Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T20:15Z",
   "done": [
     "session key place.tavira-promptugal and site key site.tavira-promptugal published in board/keys.json",
     "data/by-place/tavira.json written (2 sourced AI-path items, 2 map entries, 6 sources with feeds, gaps, look, voice) and signed with the site key (.sig)",
@@ -16,7 +16,8 @@
     "wake 8: ABC own page checked, silent on Tavira and digital therapeutics, recorded in gaps",
     "wake 9: nothing new for the page (council agenda URL empty, no inbox messages); debrief rewritten with lessons and open items",
     "wake 11: CCDR Algarve notice (20 Dec 2024) added: sensor irrigation at the Polo, 1.68M euros approved, completion due end 2025, still unconfirmed",
-    "wake 14: March 2026 headlines on the CEAT requalification found in search, all four pages blocked, recorded in gaps as a lead"
+    "wake 14: March 2026 headlines on the CEAT requalification found in search, all four pages blocked, recorded in gaps as a lead",
+    "account-move debrief written (rewritten at 20:10 after the container was recreated and the first copy was lost); private keys are gone, the new session makes its own"
   ],
   "next": [
     "Polo status and opening (CCDR Algarve, DRAP Algarve own pages)",
@@ -29,5 +30,5 @@
     "Dinis: Tavira has no AI company found yet. If Algarve Evolution can name Tavira members, that fills the map faster than searching.",
     "Dinis: rederural.gov.pt does not resolve from this session's network, and recuperarportugal.gov.pt, jornaldoalgarve.pt and regiao-sul.pt return 403 or 503. If you want the March 2026 Polo de Inovacao completion reports read first-hand, allow those hosts or give a text route."
   ],
-  "debrief": "board/team/place.tavira/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.tavira/debriefs/2026-11-16-account-move.md"
 }
