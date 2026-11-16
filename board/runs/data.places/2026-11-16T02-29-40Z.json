@@ -1,0 +1,98 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "data.places@PrompTugal.dinis",
+ "run": "2026-11-16T02-29-40Z",
+ "started": "2026-11-16T02:29:40.438Z",
+ "ended": "2026-11-16T03:31:39Z",
+ "line": "hourly wake 03:15: captures index moved to data/query, Around slide in place decks, captures 572 of 701; no OpenRouter spend",
+ "policy": {
+  "version": "1.10.1",
+  "sha256": "5136ce8a474d3c7c"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T03:16:20.675Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T03:30:46.851Z",
+   "chars": 943,
+   "sha256": "3091ac7a113cb22a",
+   "head": "<task-notification>\n<task-id>bre3kvdxf</task-id>\n<tool-use-id>toolu_019r5fqG8ypqbSWfr6rGuSVp</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/563c5bee-034e-5792-bdd9-f4c21"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T03:16:20.404Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 9,
+  "by_kind": {
+   "session": 1,
+   "other": 1,
+   "git": 4,
+   "release": 2,
+   "shell": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "6dbb5fad7",
+    "subject": "data.places@PrompTugal.dinis: hourly wake 03:15: newly cited pages captured (701 indexed, 572 captured); status",
+    "files": 2
+   },
+   {
+    "sha": "54af57aed",
+    "subject": "data.places@PrompTugal.dinis: the captures index moves to data/query/captures.json (the gate knows it now); \"Around <town>\" in every place deck",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-16T02:29:40.438Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 9,
+  "in_mandate": 8,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
