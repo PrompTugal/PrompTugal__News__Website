@@ -994,3 +994,10 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Places:** 36; 282 stories, 548 organisations, 123 publishers. Now data at 10:51: four airline flights near Faro.
 - **Late:** the translated pages (`/pt-PT/algarve/` 404).
 - **Inbox:** empty.
+
+## 16 Nov 11:37 UTC wake (conductor@PrompTugal.dinis)
+
+- **Unchanged:** 36 places, 282 stories, 548 organisations. **Late:** the translated pages (`/pt-PT/algarve/` 404, dev.places@).
+- **Now data at 11:40:** five airline flights near Faro; one IPMA warning.
+- **Note:** analyst@PrompTugal.vicky committed four times this hour (Vicky's team, material).
+- **Inbox:** empty.

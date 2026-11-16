@@ -1,6 +1,6 @@
 {
  "place": "algarve",
- "read_at": "2026-11-16T10:51:27Z",
+ "read_at": "2026-11-16T11:40:31Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in the Algarve: IPMA's warnings for the Faro district, Faro airport, and each place's nearest station. Not a warning service.",
  "warnings": {
@@ -22,39 +22,47 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-16T10:51:27Z",
+  "at": "2026-11-16T11:40:31Z",
   "airline": [
    {
-    "callsign": "IBS15PV",
-    "airline": "IBS",
-    "type": "A21N",
-    "alt_ft": 35975,
-    "on_ground": false,
-    "ground_speed_kt": 433.9
-   },
-   {
-    "callsign": "IBS16RN",
-    "airline": "IBS",
-    "type": "A21N",
-    "alt_ft": 32000,
-    "on_ground": false,
-    "ground_speed_kt": 429.4
-   },
-   {
-    "callsign": "RYR42CE",
-    "airline": "RYR",
+    "callsign": "AEA9047",
+    "airline": "AEA",
     "type": "B38M",
     "alt_ft": 36000,
     "on_ground": false,
-    "ground_speed_kt": 423.4
+    "ground_speed_kt": 445.8
    },
    {
-    "callsign": "TVF69ZF",
-    "airline": "TVF",
-    "type": "A20N",
-    "alt_ft": 19825,
+    "callsign": "EZY54ZJ",
+    "airline": "EZY",
+    "type": "A320",
+    "alt_ft": 10450,
     "on_ground": false,
-    "ground_speed_kt": 374.4
+    "ground_speed_kt": 319.6
+   },
+   {
+    "callsign": "IBB84ZL",
+    "airline": "IBB",
+    "type": "E295",
+    "alt_ft": 38000,
+    "on_ground": false,
+    "ground_speed_kt": 421.4
+   },
+   {
+    "callsign": "RUK55MA",
+    "airline": "RUK",
+    "type": "B738",
+    "alt_ft": 40000,
+    "on_ground": false,
+    "ground_speed_kt": 401.4
+   },
+   {
+    "callsign": "TOM3EW",
+    "airline": "TOM",
+    "type": "B38M",
+    "alt_ft": 37000,
+    "on_ground": false,
+    "ground_speed_kt": 480.8
    }
   ],
   "other_aircraft": 0,
@@ -66,7 +74,7 @@
   {
    "place": "faro",
    "station": "Faro (Aeródromo)",
-   "temp_c": 17.6
+   "temp_c": 18.7
   },
   {
    "place": "loule",
@@ -81,22 +89,22 @@
   {
    "place": "silves",
    "station": "Portimão (Praia da Rocha)",
-   "temp_c": 16.3
+   "temp_c": 18.2
   },
   {
    "place": "tavira",
    "station": "Tavira",
-   "temp_c": 15.3
+   "temp_c": 15.8
   },
   {
    "place": "vila-real-de-santo-antonio",
    "station": "Vila Real de S. António",
-   "temp_c": 14.5
+   "temp_c": 16.4
   },
   {
    "place": "portimao",
    "station": "Portimão (Praia da Rocha)",
-   "temp_c": 16.3
+   "temp_c": 18.2
   },
   {
    "place": "lagos",
@@ -106,108 +114,108 @@
   {
    "place": "olhao",
    "station": "Olhão, EPPO",
-   "temp_c": 17.3
+   "temp_c": 18.6
   },
   {
    "place": "albufeira",
    "station": "Albufeira",
-   "temp_c": 17
+   "temp_c": 18
   },
   {
    "place": "lagoa",
    "station": "Portimão (Praia da Rocha)",
-   "temp_c": 16.3
+   "temp_c": 18.2
   },
   {
    "place": "monchique",
    "station": "Fóia",
-   "temp_c": 11.9
+   "temp_c": 12.1
   },
   {
    "place": "aljezur",
    "station": "Aljezur",
-   "temp_c": 17.8
+   "temp_c": 19.9
   },
   {
    "place": "vila-do-bispo",
    "station": "Sagres",
-   "temp_c": 18.4
+   "temp_c": 20.3
   },
   {
    "place": "castro-marim",
    "station": "Castro Marim (RN Sapal)",
-   "temp_c": 13.9
+   "temp_c": 15.5
   },
   {
    "place": "alcoutim",
    "station": "Alcoutim, Mart.Longo",
-   "temp_c": 16.6
+   "temp_c": 18.3
   },
   {
    "place": "sao-bras-de-alportel",
    "station": "Olhão, EPPO",
-   "temp_c": 17.3
+   "temp_c": 18.6
   }
  ],
  "reads": {
   "warnings": {
    "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-   "at": "2026-11-16T10:51:03Z",
+   "at": "2026-11-16T11:40:06Z",
    "status": 200
   },
   "observations": {
    "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
-   "at": "2026-11-16T10:51:05Z",
+   "at": "2026-11-16T11:40:09Z",
    "status": 200
   },
   "city-daily-1080500": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080500.json",
-   "at": "2026-11-16T10:51:07Z",
+   "at": "2026-11-16T11:40:11Z",
    "status": 200
   },
   "city-daily-1080800": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080800.json",
-   "at": "2026-11-16T10:51:10Z",
+   "at": "2026-11-16T11:40:13Z",
    "status": 200
   },
   "city-daily-1081100": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json",
-   "at": "2026-11-16T10:51:12Z",
+   "at": "2026-11-16T11:40:15Z",
    "status": 200
   },
   "city-daily-1081505": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081505.json",
-   "at": "2026-11-16T10:51:14Z",
+   "at": "2026-11-16T11:40:17Z",
    "status": 200
   },
   "fire-risk-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json",
-   "at": "2026-11-16T10:51:16Z",
+   "at": "2026-11-16T11:40:19Z",
    "status": 200
   },
   "fire-risk-d1": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d1.json",
-   "at": "2026-11-16T10:51:18Z",
+   "at": "2026-11-16T11:40:21Z",
    "status": 200
   },
   "fire-risk-d2": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d2.json",
-   "at": "2026-11-16T10:51:20Z",
+   "at": "2026-11-16T11:40:24Z",
    "status": 200
   },
   "uv": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json",
-   "at": "2026-11-16T10:51:22Z",
+   "at": "2026-11-16T11:40:26Z",
    "status": 200
   },
   "sea-forecast-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
-   "at": "2026-11-16T10:51:25Z",
+   "at": "2026-11-16T11:40:28Z",
    "status": 200
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-16T10:51:27Z",
+   "at": "2026-11-16T11:40:31Z",
    "status": 200
   }
  }
