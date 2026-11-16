@@ -16,7 +16,9 @@
     "10:05 16 Nov: 16 commits clean; a lost key entry restored and verified byte for byte; my check now compares bundles; S43",
     "11:05 16 Nov: 32 commits clean (bundles checked, none lost), nothing new for me"
   ],
-  "next": "new session: onboard from debriefs/2026-11-16-account-move.md, new key security-promptugal-2, review from 2387a4e4b",
+  "next": [
+    "new session: onboard from debriefs/2026-11-16-account-move.md, new key security-promptugal-2, review from 2387a4e4b"
+  ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
     "S3": "decided: the pages say it (observability@, journalist@)",
