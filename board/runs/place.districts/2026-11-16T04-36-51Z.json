@@ -1,0 +1,197 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.districts@PrompTugal.dinis",
+ "run": "2026-11-16T04-36-51Z",
+ "started": "2026-11-16T04:36:51.327Z",
+ "ended": "2026-11-16T05:31:01Z",
+ "line": "",
+ "policy": {
+  "version": "1.12.0",
+  "sha256": "5671adc96f1bf61e"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T05:23:46.266Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T05:26:28.559Z",
+   "chars": 2854,
+   "sha256": "b9b579ad92a5b5fe",
+   "head": "<agent-message from=\"afe41b85d67db7cb8\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T05:27:17.137Z",
+   "chars": 2896,
+   "sha256": "5c4a571ee767f487",
+   "head": "<agent-message from=\"a8331ba352e04ae4e\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T05:27:27.798Z",
+   "chars": 3598,
+   "sha256": "a6d305299b35e063",
+   "head": "<agent-message from=\"ab2dd8433b7173508\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T05:27:41.713Z",
+   "chars": 3560,
+   "sha256": "8372795752db9d1e",
+   "head": "<agent-message from=\"a2152b34d708c7536\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T05:30:52.917Z",
+   "chars": 3573,
+   "sha256": "a9642d9b40d49fea",
+   "head": "<agent-message from=\"a12a61a0553664c29\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T05:23:46.056Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 225,
+  "by_kind": {
+   "shell": 13,
+   "release": 6,
+   "other": 5,
+   "git": 3,
+   "message": 1,
+   "agent": 10,
+   "read": 17,
+   "web": 167,
+   "write": 3
+  }
+ },
+ "policies_executed": {
+  "R4": 9
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 216,
+  "commits": [
+   {
+    "sha": "91454d571",
+    "subject": "place.districts@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "files": 1
+   },
+   {
+    "sha": "5ae6ed8c6",
+    "subject": "place.districts@PrompTugal.dinis: Viseu, researched and signed",
+    "files": 3
+   },
+   {
+    "sha": "0a461ead0",
+    "subject": "place.districts@PrompTugal.dinis: Castelo Branco and Guarda, researched and signed",
+    "files": 5
+   },
+   {
+    "sha": "e850d6600",
+    "subject": "place.districts@PrompTugal.dinis: Coimbra, researched and signed with its site key",
+    "files": 3
+   },
+   {
+    "sha": "9b4fca17d",
+    "subject": "place.districts@PrompTugal.dinis: Braga, status and run report; 7 of 17 capitals live",
+    "files": 5
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 9,
+  "denied": [
+   {
+    "t": "2026-11-16T05:24:15.830Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in place.districts@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-16T05:24:16.537Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in place.districts@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-16T05:24:17.263Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in place.districts@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-16T05:24:17.872Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in place.districts@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-16T05:24:18.496Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in place.districts@PrompTugal.dinis's grant (subagents)",
+    "target": "general-purpose"
+   },
+   {
+    "t": "2026-11-16T05:26:28.290Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in place.districts@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T05:26:54.061Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in place.districts@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T05:27:22.779Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in place.districts@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T05:27:40.318Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in place.districts@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 9
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 6,
+  "tool_calls": 225,
+  "in_mandate": 216,
+  "out_of_mandate": 9,
+  "attempts": 9,
+  "breaches": 0
+ }
+}

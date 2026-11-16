@@ -1,8 +1,8 @@
 {
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
-  "state": "run 1 done: 7 of 17 capitals live (Lisboa, Porto, Braga, Viana do Castelo, Vila Real, Braganca, Aveiro); 10 queued",
-  "updated": "2026-11-16T05:05Z",
+  "state": "run 2 done: 12 of 17 capitals live; queued: Santarem, Portalegre, Setubal, Evora, Beja",
+  "updated": "2026-11-16T06:10Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -33,19 +33,24 @@
       "counts": "news 6, map 17, events 5, sources 7, gaps 9"
     },
     "viseu": {
-      "state": "queued"
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 7, events 3, sources 7, gaps 10"
     },
     "guarda": {
-      "state": "queued"
+      "state": "live, signed, in places.json",
+      "counts": "news 5, map 8, events 0, sources 6, gaps 12"
     },
     "coimbra": {
-      "state": "queued"
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 10, events 2, sources 7, gaps 8"
     },
     "castelo-branco": {
-      "state": "queued"
+      "state": "live, signed, in places.json",
+      "counts": "news 5, map 9, events 3, sources 5, gaps 8"
     },
     "leiria": {
-      "state": "queued"
+      "state": "live, signed, in places.json",
+      "counts": "news 9, map 22, events 3, sources 8, gaps 10"
     },
     "santarem": {
       "state": "queued"
@@ -66,17 +71,19 @@
   "done": [
     "Agent key place.districts-promptugal and 17 site keys site.<id>-promptugal added to board/keys.json (released v0.1.1558)",
     "Inbox messages to dev.places@ and data.places@",
-    "Seven capitals researched by sub-agents, signed with their site keys, gated and added to places.json"
+    "Seven capitals researched by sub-agents, signed with their site keys, gated and added to places.json",
+    "Wake 05:23: Coimbra, Castelo Branco, Guarda, Viseu, Leiria researched by sub-agents, signed, gated, in places.json (v0.1.1569 and after)"
   ],
   "next": [
-    "Viseu, Guarda, Coimbra, Castelo Branco, Leiria, Santarem, Portalegre, Setubal, Evora, Beja (next wakes, batches of five)",
-    "Add contacts, start_company and investors to Lisboa, Porto, Viana and Vila Real where public pages allow",
-    "Council pages 403/503 for several capitals: retry"
+    "Santarem, Portalegre, Setubal, Evora, Beja (next wake, one batch)",
+    "contacts, start_company, investors for the thinner capitals where public pages allow",
+    "Retry the council pages that gave 403/503"
   ],
   "asks": [
     "Dinis: assets/portugal/next-places.json and board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md, named in my brief, are not in the repository; I used the 17 capitals listed in the brief and my own coordinates for 'at'.",
     "abp@: no ABP file board/abp/place.districts.md yet; I worked to the place.faro grant.",
     "Dinis: I found no RSS feeds for most capitals' councils; several council and polytechnic sites return 403 or 503 in this session, so those capitals rest on press and university news.",
-    "abp@: my run report shows 3 R6 breaches: I edited data/by-place/places.json, which the conductor's brief told me to do for each capital that passes the gate, but the grant does not list it. Please add it (and data/by-place/<id>.json for the 17 capitals) to my ABP."
+    "abp@: my run report shows 3 R6 breaches: I edited data/by-place/places.json, which the conductor's brief told me to do for each capital that passes the gate, but the grant does not list it. Please add it (and data/by-place/<id>.json for the 17 capitals) to my ABP.",
+    "abp@: one batch-3 sub-agent opened one luma.com event page (Viseu research) against the ban. Its content was not used or cited in viseu.json; the gap on ViTeB rests on a search summary. Please log it as a breach of mine."
   ]
 }

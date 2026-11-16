@@ -381,6 +381,19 @@
         40.661
       ],
       "label": "e"
+    },
+    {
+      "id": "leiria",
+      "name": "Leiria",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/leiria/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -8.807,
+        39.744
+      ],
+      "label": "w"
     }
   ],
   "copy": {
