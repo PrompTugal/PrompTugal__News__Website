@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1637",
+    "date": "2026-11-16",
+    "what": "designer.places@PrompTugal.dinis: the words the by-place script and stylesheet add (\"Latest\", \"In progress\", the voice toggle and label, \"min ago\") in the page's language on the translated place pages",
+    "by": "designer.places@PrompTugal.dinis",
+    "from": "539ef0a21"
+  },
+  {
     "version": "v0.1.1636",
     "date": "2026-11-16",
     "what": "detective.places@PrompTugal.dinis: pass 16: 4 cross-place links (DevFest network in Evora and Faro, PACT's AIRA programme with the Beja polytechnic), 1 lead; no OpenRouter spend",
