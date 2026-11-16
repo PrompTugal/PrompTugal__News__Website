@@ -52,7 +52,9 @@
       "url": "https://www.barlavento.pt/fundos-europeus-ia-robotica-15-empresas-turismo-algarve/",
       "read_on": "2026-11-15",
       "ai_path": "Aljezur lives on nature and surf tourism. The Algarve-wide scheme funds AI and robotics plans for tourism SMEs in the region. Aljezur is not named, so this is context, not a local project.",
-      "steps": 3
+      "steps": 3,
+      "significance": "region",
+      "significance_why": "A regional programme for tourism SMEs across the Algarve, not specific to Aljezur."
     },
     {
       "title": "EDP's new solar plant in Aljezur shares the Bordeira wind farm's grid connection",
@@ -62,7 +64,9 @@
       "url": "https://edp.com/en/edps-new-hybrid-park-portugal-enters-operation",
       "read_on": "2026-11-15",
       "ai_path": "Firm renewable power next to grid connections is what AI data centres look for, and the Alentejo coast to the north is planning large ones. This site is not tied to any data centre in the source.",
-      "steps": 3
+      "steps": 3,
+      "significance": "local",
+      "significance_why": "A plant in Aljezur on an existing Aljezur wind farm's grid connection, with no wider AI story attached."
     },
     {
       "title": "Liceu Azul will give Aljezur its first upper secondary school, in Sciences and Technologies",
@@ -72,7 +76,9 @@
       "url": "https://www.barlavento.pt/?p=395797",
       "read_on": "2026-11-15",
       "ai_path": "A science and technology school keeps young people in a municipality with no tech base, which is how a local talent pool for AI could start. No AI content is claimed.",
-      "steps": 3
+      "steps": 3,
+      "significance": "neighbours",
+      "significance_why": "It serves students who now travel to Lagos or Portimao, so adjacent councils care too."
     },
     {
       "title": "Applications opened for the Algarve's pilot AI and robotics plan for tourism SMEs",
@@ -82,7 +88,9 @@
       "url": "https://www.barlavento.pt/candidaturas-algarve-transicao-digital-turismo/",
       "read_on": "2026-11-15",
       "ai_path": "A regional programme to bring AI to tourism firms, the sector that dominates Aljezur's economy. Whether any Aljezur firm applied is unknown.",
-      "steps": 3
+      "steps": 3,
+      "significance": "region",
+      "significance_why": "The call covered tourism SMEs anywhere in the Algarve, and has closed."
     },
     {
       "title": "Gota Click2Care: a parish teleassistance pilot for Aljezur's older residents",
@@ -92,7 +100,9 @@
       "url": "https://www.barlavento.pt/?p=266797",
       "read_on": "2026-11-15",
       "ai_path": "Sensor-based health teleassistance with automatic fall detection is the kind of service that AI is moving into, step 1 to care technology, step 2 to AI in elderly care. No AI is claimed by the source.",
-      "steps": 2
+      "steps": 2,
+      "significance": "local",
+      "significance_why": "A pilot of one parish council for its own older residents."
     }
   ],
   "sources": [
