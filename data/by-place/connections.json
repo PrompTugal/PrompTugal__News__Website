@@ -1459,6 +1459,83 @@
         "faro",
         "portugal"
       ]
+    },
+    {
+      "id": "spic-ualg-consortium",
+      "from": {
+        "name": "SPIC digital studio",
+        "type": "company",
+        "place": "loule"
+      },
+      "to": {
+        "name": "Universidade do Algarve (UAlg)",
+        "type": "institution",
+        "place": "faro"
+      },
+      "relation": "builds_with",
+      "what": "The university's own page describes a research and development consortium between SPIC and UAlg that has enabled co-promoted projects. One result, shown in 2023: an AI-made hologram of a late band member, built from more than 9,000 records (concerts, interviews, other media) and projected on stage with the band. The page does not specify the university's role in that project.",
+      "ai_path": "A Loule company builds AI systems with a university.",
+      "steps": 0,
+      "source_url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
+      "source_title": "Banda D'ZRT regressou aos palcos com tecnologia de IA desenvolvida pela SPIC (Universidade do Algarve)",
+      "source_date": "2023-05-18",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "loule",
+        "faro"
+      ]
+    },
+    {
+      "id": "auroramed-ualg-course",
+      "from": {
+        "name": "AuroraMed",
+        "type": "company",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Faculty of Medicine and Biomedical Sciences, University of the Algarve (FMCB-UAlg)",
+        "type": "institution",
+        "place": "faro"
+      },
+      "relation": "organises",
+      "what": "The two ran the first Executive Course in Healthcare AI on 20 April 2026 at the University of the Algarve in Faro, for healthcare-management decision makers, with scholarships supported by the Recovery and Resilience Plan. AuroraMed is described as a healthtech company founded in November 2024 that applies AI to clinical management and clinical coding.",
+      "ai_path": "A health-AI company trains hospital leaders with a medical faculty.",
+      "steps": 0,
+      "source_url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+      "source_title": "AuroraMed lanca curso de IA na saude com a UAlg (Barlavento)",
+      "source_date": "2026-03-19",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "auroramed-sns-registry",
+      "from": {
+        "name": "AuroraMed",
+        "type": "company",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Servico Nacional de Saude, including the National Oncology Registry",
+        "type": "public body",
+        "place": "portugal"
+      },
+      "relation": "builds_with",
+      "what": "The article says AuroraMed collaborates with the national health service, including the National Oncology Registry. That is the company's description as reported, not a contract or result read at the health service.",
+      "ai_path": "A health-AI company says it works with the national health service.",
+      "steps": 1,
+      "source_url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+      "source_title": "Barlavento, 19 March 2026",
+      "source_date": "2026-03-19",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "portugal"
+      ]
     }
   ],
   "leads": [
@@ -1658,6 +1735,15 @@
       "url": "https://cintal.ualg.pt/",
       "why_open": "Search extract only",
       "places": [
+        "faro"
+      ]
+    },
+    {
+      "what": "SPIC's EU-funded research project with the University of the Algarve's engineering institute on an AI platform that reads audience engagement at events in real time (RTP extract; the Algarve 2030 record ALGARVE-FEDER-01180500 was opened but its fields were blank, so no amount or beneficiary is claimed).",
+      "url": "https://algarve.portugal2030.pt/operacao/algarve-feder-01180500/",
+      "why_open": "Record empty as read; need the project's own notice",
+      "places": [
+        "loule",
         "faro"
       ]
     }
