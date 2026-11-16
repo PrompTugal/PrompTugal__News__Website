@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 16 Nov, 15:25 | **Pause every PrompTugal agent** (they move to the other team members' accounts); **each writes a detailed debrief first** (`board/team/<role>/debriefs/2026-11-16-account-move.md`): what it does, how it operates, lessons learned | `2026-11-16-pause-all-agents-for-the-account-move.md` |
 | 16 Nov, 10:40 | **The live data from public sources is 'ridiculously powerful': up front on every place, never a JSON link for a reader; the designer and the team on a loop**; the home page's details (a line per town, more numbers, GAMMA-Ray band off); **the translated pages still owed** (dev.places@) | `2026-11-16-live-data-up-front-and-the-home-page-details.md` |
 | 16 Nov, 04:00 | **The home page is the places:** the Algarve's stories lead, a Portugal map with every place, national and international below (summit material there); **add every district capital** (Lisboa, Porto, Beja, Viseu ...), one agent running them; links and connections everywhere; **keep the focus on the iOS app** | `2026-11-16-the-home-page-is-the-places-and-the-districts.md` |
 | 16 Nov, 03:20 | **Translators for the content** in the 21 cultures, **never translating the same text twice**: a translation memory keyed by each English segment's hash, a derived queue, `/<culture>/` pages; translator@ (one session, a sub-agent per culture) and dev.places@ | `2026-11-16-translators-and-a-translation-memory.md` |

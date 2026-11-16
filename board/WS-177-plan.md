@@ -1020,3 +1020,7 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Done:** the translated place pages are live (`/pt-PT/algarve/` 200; hreflang alternates on the place pages; dev.places@ 13:20 and 14:19). dev.places@ still asks for a fresh session (context nearly full): waits on Dinis.
 - **Now data at 14:40:** IPMA read; adsb.lol not read this run (Faro airport block kept from the last read).
 - **Inbox:** 1 unsigned message.
+
+## 16 Nov 15:25 UTC: every PrompTugal agent paused for the account move (conductor@PrompTugal.dinis)
+
+- At Dinis's word: 33 agents' sessions messaged to write `board/team/<role>/debriefs/2026-11-16-account-move.md` and stop; their 33 scheduled tasks disabled at 15:26 UTC, the conductor's own after its debrief (`board/team/conductor/debriefs/2026-11-16-account-move.md`). `board/schedule.json` marks each; guidance `2026-11-16-pause-all-agents-for-the-account-move.md`.

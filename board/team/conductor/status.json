@@ -1,8 +1,8 @@
 {
   "agent": "conductor@PrompTugal.dinis",
   "focus": "the plan, the board, passes, briefs, who does what",
-  "state": "summit eve: /contribute/, the wall and the beta list routed at Dinis's word (20:20); ship on security's pass",
-  "updated": "2026-11-16T01:25Z",
+  "state": "paused for the account move (16 Nov 2026, 15:35 UTC, at Dinis's word)",
+  "updated": "2026-11-16T15:35Z",
   "done": [
     "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
     "inboxes for every agent; lanes with the team site's conductor",
@@ -48,5 +48,5 @@
       "at": "2026-11-06T08:00Z"
     }
   ],
-  "debrief": "board/team/conductor/debriefs/2026-11-12-handover.md"
+  "debrief": "board/team/conductor/debriefs/2026-11-16-account-move.md"
 }

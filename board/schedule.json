@@ -16,9 +16,9 @@
    "minute": 18,
    "cron": "18 * * * *",
    "trigger": "trig_012hQ65rBgDWvQ7qqbeHJrfp",
-   "state": "enabled",
-   "since": "2026-11-06T00:18Z",
-   "note": "the hourly drain, set up by conductor@web-summit.dinis; its text still names the pre-move path"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "the hourly drain, set up by conductor@web-summit.dinis; its text still names the pre-move path Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "ontologist@PrompTugal.dinis",
@@ -70,18 +70,18 @@
    "minute": 36,
    "cron": "36 * * * *",
    "trigger": "trig_01X8SF35DkefoBeVgKyWYbWx",
-   "state": "enabled",
-   "since": "2026-11-15T22:07Z",
-   "note": "hourly again at Dinis's word (15 Nov 22:00 UTC: 'turn your and all the other agents schedule on'); it had been off since the hand brake of 12 Nov 15:13"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "hourly again at Dinis's word (15 Nov 22:00 UTC: 'turn your and all the other agents schedule on'); it had been off since the hand brake of 12 Nov 15:13 Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "security@PrompTugal.dinis",
    "minute": 3,
    "cron": "3 * * * *",
    "trigger": "trig_01LfZ4AoK9MPmkDXAZdeuBWG",
-   "state": "enabled",
-   "since": "2026-11-15T22:07Z",
-   "note": "hourly at Dinis's word (15 Nov, the by-place team); off since 12 Nov 15:13"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "hourly at Dinis's word (15 Nov, the by-place team); off since 12 Nov 15:13 Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "devops@PrompTugal.dinis",
@@ -115,9 +115,9 @@
    "minute": 47,
    "cron": "47 */3 * * *",
    "trigger": "trig_0125FKV4Cs1ZeqVTAmz4qm8J",
-   "state": "enabled",
-   "since": "2026-11-15T22:07Z",
-   "note": "every three hours, back on at Dinis's word (15 Nov); off since 12 Nov 15:13"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "every three hours, back on at Dinis's word (15 Nov); off since 12 Nov 15:13 Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "librarian@PrompTugal.dinis",
@@ -449,261 +449,270 @@
    "minute": 26,
    "cron": "26 * * * *",
    "trigger": "trig_013nhh5zjVKHLY2aMdXUaRj6",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtPpzq2TZ2mzv8KqvhB; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtPpzq2TZ2mzv8KqvhB; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "dev.places@PrompTugal.dinis",
    "minute": 12,
    "cron": "12 * * * *",
    "trigger": "trig_01Rfk7KDz61GLQdGtyCk2ygG",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtPtqG8xMjg6doG8LN8; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtPtqG8xMjg6doG8LN8; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "designer.places@PrompTugal.dinis",
    "minute": 43,
    "cron": "43 * * * *",
    "trigger": "trig_01RzUXKVzDwz2DyMkWXh8Eme",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtLLkP6UbXjxAtsh8kX; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtLLkP6UbXjxAtsh8kX; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.portugal@PrompTugal.dinis",
    "minute": 1,
    "cron": "1 * * * *",
    "trigger": "trig_014GRQBB87Fd6WBGYGP4nKVn",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtQMswuohj7TZhuRqwN; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtQMswuohj7TZhuRqwN; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.algarve@PrompTugal.dinis",
    "minute": 4,
    "cron": "4 * * * *",
    "trigger": "trig_01KD78pWiPyHcz2zKYtZgCbn",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtLTJn45Db2SGJBzXmw; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtLTJn45Db2SGJBzXmw; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.faro@PrompTugal.dinis",
    "minute": 7,
    "cron": "7 * * * *",
    "trigger": "trig_01JZXPpjhoDFMr3kmebTmoKF",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtPjUwRsetQiSLBQBTu; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtPjUwRsetQiSLBQBTu; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.loule@PrompTugal.dinis",
    "minute": 10,
    "cron": "10 * * * *",
    "trigger": "trig_01P4DC8FagpkR3rL94bbrqGC",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtQPs255S3SPETugRtR; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtQPs255S3SPETugRtR; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.quarteira@PrompTugal.dinis",
    "minute": 13,
    "cron": "13 * * * *",
    "trigger": "trig_01MbXag8U3fqVP2DMraNzZZ6",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtNGuzmR7dq3K9e2YMc; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtNGuzmR7dq3K9e2YMc; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.silves@PrompTugal.dinis",
    "minute": 16,
    "cron": "16 * * * *",
    "trigger": "trig_014St6sJoq3MLr8VZ4TDqVZp",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtPhm1gah2zqGN1Lebj; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtPhm1gah2zqGN1Lebj; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.tavira@PrompTugal.dinis",
    "minute": 19,
    "cron": "19 * * * *",
    "trigger": "trig_01Fcm6hudzjjhvFv8NHD28wD",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtLZHSCwXAdyKBBTsCq; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtLZHSCwXAdyKBBTsCq; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
    "minute": 22,
    "cron": "22 * * * *",
    "trigger": "trig_01AuGqk1G2EpEr4ZpcvdyyRe",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtMMtcT4wdywX8B6rwk; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtMMtcT4wdywX8B6rwk; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.portimao@PrompTugal.dinis",
    "minute": 25,
    "cron": "25 * * * *",
    "trigger": "trig_01X9cCJ1jKVBaREPaySxc5gw",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtQmDejkkS843ECrbiZ; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtQmDejkkS843ECrbiZ; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.lagos@PrompTugal.dinis",
    "minute": 28,
    "cron": "28 * * * *",
    "trigger": "trig_01YcNDQQsMZsRi93NcnTyrJr",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtQA15qdFx8KGy92rpU; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtQA15qdFx8KGy92rpU; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.olhao@PrompTugal.dinis",
    "minute": 31,
    "cron": "31 * * * *",
    "trigger": "trig_01WtGE5jF4SEnugXVf6UzaJD",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtPX93Z3eeQ9HGboHE3; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtPX93Z3eeQ9HGboHE3; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.albufeira@PrompTugal.dinis",
    "minute": 34,
    "cron": "34 * * * *",
    "trigger": "trig_01PmGn84kNW32dkQZjWtLcRg",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtLs2J9CZhHmNhnZ1ux; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtLs2J9CZhHmNhnZ1ux; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.lagoa@PrompTugal.dinis",
    "minute": 39,
    "cron": "39 * * * *",
    "trigger": "trig_01VaeAHzZwPrDsxE8wUUcdGN",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtLM8hoDk5hbo2UfLsp; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtLM8hoDk5hbo2UfLsp; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.monchique@PrompTugal.dinis",
    "minute": 42,
    "cron": "42 * * * *",
    "trigger": "trig_01RiNrHLc6k6tt4E68JTCyoi",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtNVyZYcMYhNzVchYbV; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtNVyZYcMYhNzVchYbV; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.aljezur@PrompTugal.dinis",
    "minute": 45,
    "cron": "45 * * * *",
    "trigger": "trig_019KFG4rpE9RF9aonFDvkTjJ",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtPJ4F9WCQw7EEfvea4; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtPJ4F9WCQw7EEfvea4; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.vila-do-bispo@PrompTugal.dinis",
    "minute": 49,
    "cron": "49 * * * *",
    "trigger": "trig_013ZRB5kXfioTyJaC2ZWjG1K",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtLqcx5B1Xjvqa7Cd2y; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtLqcx5B1Xjvqa7Cd2y; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.castro-marim@PrompTugal.dinis",
    "minute": 52,
    "cron": "52 * * * *",
    "trigger": "trig_015T4WReLf1817U2xogME1Xa",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtMB3koAPcSwDALGuBo; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtMB3koAPcSwDALGuBo; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.alcoutim@PrompTugal.dinis",
    "minute": 55,
    "cron": "55 * * * *",
    "trigger": "trig_018D4Wi6kSgS9abs6m5Ei7W3",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtLhJ9VfGB3NHZBjxna; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtLhJ9VfGB3NHZBjxna; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
    "minute": 58,
    "cron": "58 * * * *",
    "trigger": "trig_01XUX6b5jswamznqVdEMupZV",
-   "state": "enabled",
-   "since": "2026-11-15T22:08Z",
-   "note": "by-place team, account A, session session_018yvwtNtzuuJqbDtP9VfwsZ; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "by-place team, account A, session session_018yvwtNtzuuJqbDtP9VfwsZ; started and scheduled by conductor@PrompTugal.dinis at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "ios.places@PrompTugal.dinis",
    "minute": 20,
    "cron": "20 * * * *",
    "trigger": "trig_016wFrBPPBdWTFoxUNaDB5mw",
-   "state": "enabled",
-   "since": "2026-11-15T23:00Z",
-   "note": "show-the-power team, account A, session session_018yvwtMdYD3UV5XSJrL81sr; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours')"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "show-the-power team, account A, session session_018yvwtMdYD3UV5XSJrL81sr; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours') Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "viz.places@PrompTugal.dinis",
    "minute": 50,
    "cron": "50 * * * *",
    "trigger": "trig_019X6agikJxsbzDowG774s4K",
-   "state": "enabled",
-   "since": "2026-11-15T23:00Z",
-   "note": "show-the-power team, account A, session session_018yvwtR4eduNoxZqJ752PGx; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours')"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "show-the-power team, account A, session session_018yvwtR4eduNoxZqJ752PGx; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours') Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "data.places@PrompTugal.dinis",
    "minute": 15,
    "cron": "15 * * * *",
    "trigger": "trig_01NSp49oZNuPptKgkkcc2tV2",
-   "state": "enabled",
-   "since": "2026-11-15T23:00Z",
-   "note": "show-the-power team, account A, session session_018yvwtPterYx76hQLt6WoKH; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours')"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "show-the-power team, account A, session session_018yvwtPterYx76hQLt6WoKH; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours') Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "detective.places@PrompTugal.dinis",
    "minute": 40,
    "cron": "40 * * * *",
    "trigger": "trig_01BsFVG2M9XqbeKt7CXh8Chd",
-   "state": "enabled",
-   "since": "2026-11-15T23:00Z",
-   "note": "show-the-power team, account A, session session_018yvwtQv8BStg5wSUx8RpVV; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours')"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "show-the-power team, account A, session session_018yvwtQv8BStg5wSUx8RpVV; started and looped at Dinis's word (15 Nov 2026, 'run on a loop, we have 24 hours') Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "datasci.places@PrompTugal.dinis",
    "minute": 8,
    "cron": "8 * * * *",
    "trigger": "trig_01M7ivjYcXoAzoCpgZS1DSBY",
-   "state": "enabled",
-   "since": "2026-11-15T23:18Z",
-   "note": "the data scientist (JSON first, REST API, OpenAPI and Swagger per locality), account A, session session_018yvwtMia53kEVrH6C89BbJ; started and looped at Dinis's word (15 Nov 2026)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "the data scientist (JSON first, REST API, OpenAPI and Swagger per locality), account A, session session_018yvwtMia53kEVrH6C89BbJ; started and looped at Dinis's word (15 Nov 2026) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "translator@PrompTugal.dinis",
    "minute": 47,
    "cron": "47 * * * *",
    "trigger": "trig_01TC2TpoXd7qZRiHzokQSrm1",
-   "state": "enabled",
-   "since": "2026-11-16T03:19Z",
-   "note": "the translators (one session, a sub-agent per culture; board/spec-translations.md), account A, session session_018yvwtMB2X1kSW2GvipzDn7; started and looped at Dinis's word (16 Nov 2026, about 03:20 UTC)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "the translators (one session, a sub-agent per culture; board/spec-translations.md), account A, session session_018yvwtMB2X1kSW2GvipzDn7; started and looped at Dinis's word (16 Nov 2026, about 03:20 UTC) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
    "agent": "place.districts@PrompTugal.dinis",
    "minute": 23,
    "cron": "23 * * * *",
    "trigger": "trig_01X3ZuRr397iSjiabGxnPkgw",
-   "state": "enabled",
-   "since": "2026-11-16T04:17Z",
-   "note": "the 17 district capitals (one session, a sub-agent per capital; assets/portugal/next-places.json), account A, session session_018yvwtQFNnQ3GLjz1CExY95; started and looped at Dinis's word (16 Nov 2026, about 04:00 UTC)"
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "the 17 district capitals (one session, a sub-agent per capital; assets/portugal/next-places.json), account A, session session_018yvwtQFNnQ3GLjz1CExY95; started and looped at Dinis's word (16 Nov 2026, about 04:00 UTC) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
+  },
+  {
+   "agent": "conductor.a.ios@promptugal.dinis (PrompTugal iOS conductor)",
+   "minute": 26,
+   "cron": "26 * * * *",
+   "trigger": "trig_01A2aPmNYVb7aoXDfvYfE5wj",
+   "state": "disabled",
+   "since": "2026-11-16T15:26Z",
+   "note": "the iOS app's conductor (PrompTugal/PrompTugal__App__iOS), account A, session session_018yvwtNhGU1EEJs2oWCLqrJ; not listed here before. Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked."
   }
  ]
 }
