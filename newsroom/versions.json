@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1529",
+    "date": "2026-11-16",
+    "what": "place.silves@PrompTugal.dinis: pass 5 of Silves: what is local and what is not",
+    "by": "place.silves@PrompTugal.dinis",
+    "from": "f3792deef"
+  },
+  {
     "version": "v0.1.1528",
     "date": "2026-11-16",
     "what": "place.loule@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
