@@ -1,0 +1,220 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "beja",
+  "name": "Beja",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Beja: AI and technology in Beja, the Baixo Alentejo's district capital, whose centre of gravity is its polytechnic university and the farming and health AI work around it, and what reaches Beja from the Alentejo, Portugal and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Beja's AI activity, as far as the public sources show, runs through one institution: the Universidade Politécnica de Beja (until this year the Instituto Politécnico de Beja), which joined the national IAedu service, partners the SiARA farming-robot project and a machine-learning project on Queijo Serpa cheese, and hosted a two-day conference on AI in health care run by the regional health unit. The council appears in the AI story only as a supporter of an event, and its own news page shows no AI items. Agriculture and health, with the university as the engine, are Beja's centre of gravity, and we found no startup or company based in the city itself that is tied to AI.",
+    "sources": [
+      {
+        "title": "Politécnico de Beja integra projeto nacional de Inteligência Artificial (Correio Alentejo, 27 November 2025)",
+        "url": "https://correioalentejo.com/politecnico-de-beja-integra-projeto-nacional-de-inteligencia-artificial/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Inteligência Artificial na Saúde em debate durante dois dias em Beja (O Digital, 20 October 2026)",
+        "url": "https://odigital.sapo.pt/inteligencia-artificial-saude-beja-jornadas-ulsba/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Projeto utiliza IA para apoiar conservação da natureza no Alentejo (Notícias ao Minuto, Lusa, 18 March 2026)",
+        "url": "https://www.noticiasaominuto.com/tech/2957675/projeto-utiliza-ia-para-apoiar-conservacao-da-natureza-no-alentejo",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Inteligência Artificial chega à produção de Queijo Serpa (Correio Alentejo, 14 November 2026)",
+        "url": "https://correioalentejo.com/inteligencia-artificial-chega-a-producao-de-queijo-serpa/",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#8A5A12",
+    "landmark": "the Torre de Menagem, the keep of Beja's castle over the plain",
+    "motif": "whitewashed walls, wheat-gold plains, a hot flat horizon and a quiet university town"
+  },
+  "ai_news": [
+    {
+      "title": "Queijo Serpa curing gets sensors and machine learning, with Beja's university as partner",
+      "summary": "A project called QI 4.0 uses sensors and machine-learning models to watch the curing of Queijo Serpa DOP and feeds an app, still in development, that warns producers when curing-room conditions drift. It was due to be presented in Córdoba on 14 November 2026.",
+      "date": "2026-11-14",
+      "publisher": "Correio Alentejo",
+      "url": "https://correioalentejo.com/inteligencia-artificial-chega-a-producao-de-queijo-serpa/",
+      "read_on": "2026-11-16",
+      "ai_path": "A machine-learning cheese project in the Beja district with the Beja university as a named partner: directly about AI, one step from the city. The article does not say what the university does in it.",
+      "steps": 1
+    },
+    {
+      "title": "Beja hosts two days on AI in the health professions",
+      "summary": "The Baixo Alentejo local health unit organised its first conference for diagnostic and therapeutic technologists on 23 and 24 October 2026 at the polytechnic university, on how AI changes imaging, analysis, rehabilitation and other fields, with safety and ethics on the agenda.",
+      "date": "2026-10-20",
+      "publisher": "O Digital (SAPO)",
+      "url": "https://odigital.sapo.pt/inteligencia-artificial-saude-beja-jornadas-ulsba/",
+      "read_on": "2026-11-16",
+      "ai_path": "A health-sector conference in Beja whose stated theme is AI: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Beja psychologists ask what AI is changing in their profession",
+      "summary": "The southern branch of the Portuguese psychologists' association held a session in Beja on 4 September 2026, supported by the council, on AI in the practice of psychology and on self-diagnosis from social media.",
+      "date": "2026-09-02",
+      "publisher": "O Digital (SAPO)",
+      "url": "https://odigital.sapo.pt/redes-sociais-inteligencia-artificial-psicologia-beja/",
+      "read_on": "2026-11-16",
+      "ai_path": "A professional debate in Beja on AI and psychology, with the council as a supporter: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "A farming robot and AI in Castro Verde, with Beja's polytechnic in the team",
+      "summary": "The SiARA project combines AI, an autonomous field robot called EVAbot and a sensor network to collect data on crops, soil, pasture and wildlife on the Campo Branco steppe. It started in November 2025 and its first field work was on 3 March 2026.",
+      "date": "2026-03-18",
+      "publisher": "Notícias ao Minuto (Lusa)",
+      "url": "https://www.noticiasaominuto.com/tech/2957675/projeto-utiliza-ia-para-apoiar-conservacao-da-natureza-no-alentejo",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI and robotics project in the Beja district whose partners include the Beja polytechnic: directly about AI, one step from the city.",
+      "steps": 1
+    },
+    {
+      "title": "A Beja student teaches an AI model to forecast air quality for the Algarve's Lagoa council",
+      "summary": "During an internship with Lagoa council, a student of the Beja polytechnic built a prototype that predicts the European air quality index class from ten monitoring stations and weather data. He defended the work on 27 November 2025 at the school of technology and management in Beja, and staff plan a scientific paper.",
+      "date": "2025-12-05",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/estudante-prototipo-ia-qualidade-ar-lagoa/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Beja school's student work on a machine-learning model: directly about AI, with Beja as the home of the research.",
+      "steps": 0
+    },
+    {
+      "title": "Beja's polytechnic joins the national IAedu service",
+      "summary": "Its students and staff get free access to the pro versions of three large language models through the FCT's IAedu service, which the institution calls a step towards responsible and collaborative AI use.",
+      "date": "2025-11-27",
+      "publisher": "Correio Alentejo",
+      "url": "https://correioalentejo.com/politecnico-de-beja-integra-projeto-nacional-de-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Beja higher-education institution adopting AI tools for teaching and research: directly about AI.",
+      "steps": 0
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Beja",
+      "url": "https://www.cm-beja.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Câmara Municipal de Beja: news list",
+      "url": "https://www.cm-beja.pt/pt/noticias-listagem.aspx",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Correio Alentejo",
+      "url": "https://correioalentejo.com",
+      "kind": "press",
+      "feed": "https://correioalentejo.com/feed/"
+    },
+    {
+      "name": "Diário do Alentejo",
+      "url": "https://www.diariodoalentejo.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "O Digital (SAPO): Beja stories",
+      "url": "https://odigital.sapo.pt/inteligencia-artificial-saude-beja-jornadas-ulsba/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Universidade Politécnica de Beja (formerly IPBeja)",
+      "url": "https://www.ipbeja.pt",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "PACT, Parque do Alentejo de Ciência e Tecnologia",
+      "url": "https://pact.pt/?p=3665",
+      "kind": "business",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "Capacitação de Empresas para a Inovação, workshop series (Câmara Municipal de Beja, Auditório do Edifício Azul)",
+      "date": "2026-11-17",
+      "url": "https://www.cm-beja.pt",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Universidade Politécnica de Beja (UPBeja, formerly Instituto Politécnico de Beja)",
+      "type": "institution",
+      "url": "https://www.ipbeja.pt",
+      "what": "The city's public higher-education institution. Joined IAedu in November 2025, partners the SiARA farming-robot project and the QI 4.0 Queijo Serpa project, hosted the October 2026 health-AI conference and ran a PACT AI and robotics acceleration programme for engineering students in autumn 2025.",
+      "source_url": "https://correioalentejo.com/politecnico-de-beja-integra-projeto-nacional-de-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches, researches and hosts AI work.",
+      "steps": 0
+    },
+    {
+      "name": "ESTIG (school of technology and management, Beja)",
+      "type": "institution",
+      "url": "https://www.barlavento.pt/estudante-prototipo-ia-qualidade-ar-lagoa/",
+      "what": "The Beja school where a student defended an air-quality AI model on 27 November 2025. It is part of the polytechnic university.",
+      "source_url": "https://www.barlavento.pt/estudante-prototipo-ia-qualidade-ar-lagoa/",
+      "read_on": "2026-11-16",
+      "ai_path": "Supervises student machine-learning research.",
+      "steps": 0
+    },
+    {
+      "name": "ULSBA (Unidade Local de Saúde do Baixo Alentejo)",
+      "type": "public body",
+      "url": "https://odigital.sapo.pt/inteligencia-artificial-saude-beja-jornadas-ulsba/",
+      "what": "The Baixo Alentejo health unit, whose technologists' organising committee ran the 23 and 24 October 2026 conference on AI in health care in Beja.",
+      "source_url": "https://odigital.sapo.pt/inteligencia-artificial-saude-beja-jornadas-ulsba/",
+      "read_on": "2026-11-16",
+      "ai_path": "A public health body convening its staff on AI.",
+      "steps": 1
+    },
+    {
+      "name": "Câmara Municipal de Beja",
+      "type": "public body",
+      "url": "https://www.cm-beja.pt",
+      "what": "The council supported the September 2026 psychologists' session on AI. Its own news page, which we read, shows no AI or technology item.",
+      "source_url": "https://odigital.sapo.pt/redes-sociais-inteligencia-artificial-psicologia-beja/",
+      "read_on": "2026-11-16",
+      "ai_path": "Supports public AI debates, with no AI use in its own services found.",
+      "steps": 1
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.beja-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "Beja is a thin capital for AI. No startup or company based in the city and tied to AI turned up in pages we opened, and the council's news page and homepage mention no AI or technology item.",
+    "The council's homepage and news list were read through a summarising tool that showed some items dated after 16 November 2026, so we trust only the items we also saw elsewhere and list the 17 November workshop only as a listing with no programme or AI link. We should re-read the council's agenda page directly.",
+    "The university's own site (ipbeja.pt) answered 503, so its AI news is reached only through the press. The rename from Instituto to Universidade Politécnica came from press and DGES listings, and we did not open a decree.",
+    "HiJiffy, a hotel AI company that raised 3.8 million euros in 2023, is based in Vidigueira, not Beja, so it belongs on a Vidigueira page. Aljustrel has a planned 200 million euro data centre by FF Ventures with no AI link in the source, and Castro Verde hosts SiARA. Neither is placed in Beja.",
+    "CIBT NERBE, a technology incubator said by one search summary to be based in Beja, and CEBAL, an agri-food biotechnology centre in Beja, were not confirmed on a page we opened as using AI. They are leads for the next round: their own sites and Alentejo 2030 notices.",
+    "SABER SAÚDE com IA, a roughly 268 thousand euro PRR project, was not tied to Beja by any page we opened, so it is left out.",
+    "No feed found for the council, the university or Diário do Alentejo. Correio Alentejo's RSS works.",
+    "Sources to look for: Alentejo 2030 and PRR lists for Beja beneficiaries, the Ovibeja fair's technology pavilion (a 2025 edition was themed on AI, but we found no 2026 programme), and Beja's economic development desk.",
+    "Investors, starting-a-company routes, talent and contacts are not filled: no public page we opened gave a Beja route we could confirm."
+  ],
+  "voice": {
+    "lede": "Beja, pá: where the plain runs flat to the horizon, the heat sits down for the afternoon, and a polytechnic quietly teaches robots to count sheep and cheeses to behave.",
+    "mandate": "PrompTugal.news Beja, a capital do Baixo Alentejo: AI and tech in Beja, with the university as the brain in the whitewashed town, plus whatever news rolls in from the Alentejo, Portugal and the world. Independente, and every fact comes with a receipt.",
+    "gravity": "Beja does not shout about AI, it hums. The university joins IAedu, hosts the health people for two days of debate and lends its know-how to a field robot and a cheese app, while the Câmara cheers from the front row. Farming and health, calma, with the university doing the heavy thinking.",
+    "gaps_intro": "A planície é grande e nós ainda não vimos tudo. Here is what Beja has not told us yet:"
+  }
+}

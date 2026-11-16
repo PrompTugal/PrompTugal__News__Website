@@ -394,6 +394,71 @@
         39.744
       ],
       "label": "w"
+    },
+    {
+      "id": "santarem",
+      "name": "Santarém",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/santarem/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -8.686,
+        39.236
+      ],
+      "label": "w"
+    },
+    {
+      "id": "portalegre",
+      "name": "Portalegre",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/portalegre/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -7.431,
+        39.294
+      ],
+      "label": "e"
+    },
+    {
+      "id": "setubal",
+      "name": "Setúbal",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/setubal/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -8.893,
+        38.524
+      ],
+      "label": "w"
+    },
+    {
+      "id": "evora",
+      "name": "Évora",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/evora/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -7.909,
+        38.571
+      ],
+      "label": "e"
+    },
+    {
+      "id": "beja",
+      "name": "Beja",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/beja/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -7.863,
+        38.015
+      ],
+      "label": "e"
     }
   ],
   "copy": {

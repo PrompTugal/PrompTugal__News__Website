@@ -1,0 +1,242 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "setubal",
+  "name": "Setúbal",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Setúbal: AI and technology in Setúbal, a port and industry city whose centre of gravity is the Port of Setúbal, the Politécnico and the Mitrena industrial complex, and what reaches Setúbal from Portugal, Europe and the world. Independent. Every fact sourced.",
+  "gravity": {
+    "text": "Setúbal's AI activity sits with its port and its polytechnic. The ports authority of Setúbal and Lisbon has started an AI project to train staff on a generative assistant and plans to automate internal procedures, while the Politécnico de Setúbal hosts the first national pole of the CCG/ZGDV technology institute, with computer vision, AI and medical imaging among its focus areas, and has joined a national network on AI in higher education. Industry adds the Navigator Company's pulp and paper complex at Mitrena, which says it runs machine-learning projects there. The council shows AI as a subject for debate (a libraries conference in November 2026) but we found no AI use in its own services.",
+    "sources": [
+      {
+        "title": "Portos de Setúbal e Lisboa invest 750 thousand euros in a datacenter and AI (O Setubalense, 28 January 2026)",
+        "url": "https://osetubalense.com/local/setubal/portos-de-setubal-e-lisboa-investem-750-mil-euros-em-datacenter-e-inteligencia-artificial/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Instituto Politécnico de Setúbal gets a new technology innovation pole (HR Portugal, 16 July 2025)",
+        "url": "https://hrportugal.sapo.pt/?p=408457",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "UNIPS joins the national AI network (O Setubalense, 28 October 2026)",
+        "url": "https://osetubalense.com/sociedade/unips-junta-se-a-rede-nacional-de-inteligencia-artificial/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Navigator bets on digital transition and AI (O Setubalense, 17 March 2025)",
+        "url": "https://osetubalense.com/sociedade/navigator-aposta-na-transicao-digital-e-inteligencia-artificial-para-impulsionar-sustentabilidade/",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#0A6A6E",
+    "landmark": "Forte de São Filipe above the Sado estuary and the bay of Setúbal",
+    "motif": "Sado estuary teal, cargo cranes at the port, the Arrábida hills behind the city"
+  },
+  "ai_news": [
+    {
+      "title": "Setúbal's library conference puts AI on the shelf",
+      "summary": "On 5 November 2026 the council's festival of literature in Azeitão and Setúbal held a morning conference at the municipal public library on the libraries of the future, covering technological change including AI and how services adapt.",
+      "date": "2026-11-05",
+      "publisher": "O Setubalense",
+      "url": "https://osetubalense.com/local/setubal/inteligencia-artificial-nas-bibliotecas-esteve-hoje-em-debate/",
+      "read_on": "2026-11-16",
+      "ai_path": "A council-run public conference in Setúbal where AI is one of the named challenges for libraries: AI is a topic, not the whole subject, so one step from AI.",
+      "steps": 1
+    },
+    {
+      "title": "Setúbal's polytechnic joins a 62-institution network on AI in teaching",
+      "summary": "UNIPS, the Universidade Politécnica de Setúbal as the paper names it, joined the GeSI and DEFIA Portugal network led by the University of Coimbra, launched on 15 October 2026, which aims at responsible AI use and AI literacy in higher education. A computer science lecturer of its technology school represented it.",
+      "date": "2026-10-28",
+      "publisher": "O Setubalense",
+      "url": "https://osetubalense.com/sociedade/unips-junta-se-a-rede-nacional-de-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Setúbal university joins a national network on AI in higher education: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Teenagers in Setúbal ask how AI can build more sustainable companies",
+      "summary": "The polytechnic's summer academy Wave of Talent ran from 6 to 10 July 2026 with 31 secondary and vocational students from the district, using AI tools on team challenges and visiting the Navigator Company to see AI applied in industry.",
+      "date": "2026-07-14",
+      "publisher": "O Setubalense",
+      "url": "https://osetubalense.com/sociedade/politecnico-dedicou-semana-a-a-inteligencia-artificial-nas-empresas/",
+      "read_on": "2026-11-16",
+      "ai_path": "A week built around a question about AI in business, held on the Setúbal campus: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Setúbal's port chief says AI is moving ports from reactive to predictive",
+      "summary": "Speaking at a ports conference in Maputo in March 2026, the chairman of the Setúbal and Lisbon ports authority called AI decisive for modernising the sector, with operations shifting to systems that anticipate needs.",
+      "date": "2026-03-31",
+      "publisher": "O Setubalense",
+      "url": "https://osetubalense.com/local/setubal/vitor-caldeirinha-destaca-papel-da-inteligencia-artificialna-transformacao-do-setor-portuario/",
+      "read_on": "2026-11-16",
+      "ai_path": "The head of Setúbal's port authority makes the case for AI in ports, at an event abroad: directly about AI, one step from Setúbal itself.",
+      "steps": 1
+    },
+    {
+      "title": "Setúbal and Lisbon ports start an AI project and plan a datacenter",
+      "summary": "A 750 thousand euro package: about 700 thousand for a shared datacenter (construction planned for the second half of 2026) and 52 thousand for an AI project that trains 70 staff, 35 per port, on Microsoft Copilot, with later phases to automate procedures such as land occupation requests and public tenders.",
+      "date": "2026-01-28",
+      "publisher": "O Setubalense",
+      "url": "https://osetubalense.com/local/setubal/portos-de-setubal-e-lisboa-investem-750-mil-euros-em-datacenter-e-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "A public port authority rolls out an AI assistant and plans AI automation: directly about AI. The datacenter is not AI-specific and will sit at the Port of Lisbon.",
+      "steps": 0
+    },
+    {
+      "title": "Setúbal's polytechnic opens the first national pole of the CCG/ZGDV institute",
+      "summary": "Hosted at the Escola Superior de Tecnologia de Setúbal, the pole works on computer vision, AI and data science, drone platforms and a medical image processing lab for cancer diagnosis, with protocols signed with two local health units.",
+      "date": "2025-07-16",
+      "publisher": "HR Portugal",
+      "url": "https://hrportugal.sapo.pt/?p=408457",
+      "read_on": "2026-11-16",
+      "ai_path": "A research pole in Setúbal whose first focus is computer vision and AI: directly about AI. Older than the 2026 items.",
+      "steps": 0
+    }
+  ],
+  "sources": [
+    {
+      "name": "O Setubalense",
+      "url": "https://osetubalense.com",
+      "kind": "press",
+      "feed": "https://osetubalense.com/feed/"
+    },
+    {
+      "name": "O Setubalense: AI search results",
+      "url": "https://osetubalense.com/?s=inteligência+artificial",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Município de Setúbal",
+      "url": "https://www.mun-setubal.pt",
+      "kind": "council",
+      "feed": "https://www.mun-setubal.pt/feed/"
+    },
+    {
+      "name": "Politécnico de Setúbal (IPS, news and events)",
+      "url": "https://ips.pt/eventos/",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Portos de Setúbal e Lisboa (reached through press)",
+      "url": "https://www.rtp.pt/noticias/economia/portos-de-lisboa-e-setubal-apostam-750-mil-euros-em-ia-e-infraestrutura-digital_n1713060",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "HR Portugal",
+      "url": "https://hrportugal.sapo.pt/?p=408457",
+      "kind": "press",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "Festival Literário de Azeitão e Setúbal, first edition, with the conference As Bibliotecas do Futuro (Câmara Municipal de Setúbal)",
+      "date": "2026-11-05 to 2026-11-07",
+      "url": "https://osetubalense.com/local/setubal/inteligencia-artificial-nas-bibliotecas-esteve-hoje-em-debate/",
+      "read_on": "2026-11-16",
+      "ai_path": "The libraries conference named AI among its challenges, so one step from AI. The festival itself is literary. The link is the press report, we did not reach the council's own event page."
+    },
+    {
+      "title": "Wave of Talent summer academy, fourth edition (Politécnico de Setúbal with Fórum Estudante)",
+      "date": "2026-07-06 to 2026-07-10",
+      "url": "https://osetubalense.com/sociedade/politecnico-dedicou-semana-a-a-inteligencia-artificial-nas-empresas/",
+      "read_on": "2026-11-16",
+      "ai_path": "A week on AI and sustainable companies: directly about AI. Already held. The link is the press report."
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Politécnico de Setúbal (IPS, also named UNIPS in October 2026 coverage)",
+      "type": "institution",
+      "url": "https://ips.pt",
+      "what": "Setúbal's public polytechnic. Joined the national GeSI and DEFIA Portugal network on AI in higher education, runs the Wave of Talent academy with an AI theme and hosts the CCG/ZGDV pole.",
+      "source_url": "https://osetubalense.com/sociedade/unips-junta-se-a-rede-nacional-de-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches, researches and convenes on AI.",
+      "steps": 0
+    },
+    {
+      "name": "Instituto CCG/ZGDV, pole at the Escola Superior de Tecnologia de Setúbal",
+      "type": "institution",
+      "url": "https://hrportugal.sapo.pt/?p=408457",
+      "what": "The first national pole of this research and technology institute, opened in July 2025 inside the polytechnic. Focus: computer vision, AI, data science, drones and a medical image lab for cancer diagnosis.",
+      "source_url": "https://hrportugal.sapo.pt/?p=408457",
+      "read_on": "2026-11-16",
+      "ai_path": "Does applied AI and computer vision research in Setúbal.",
+      "steps": 0
+    },
+    {
+      "name": "Portos de Setúbal e Lisboa",
+      "type": "public body",
+      "url": "https://osetubalense.com/local/setubal/portos-de-setubal-e-lisboa-investem-750-mil-euros-em-datacenter-e-inteligencia-artificial/",
+      "what": "The ports authority for both ports. Runs an AI project (Copilot training for 70 staff, an AI agent for online services planned, later process automation) inside its Portos 5+ strategy, and plans a shared datacenter.",
+      "source_url": "https://osetubalense.com/local/setubal/portos-de-setubal-e-lisboa-investem-750-mil-euros-em-datacenter-e-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "A public body adopting generative AI in its own work.",
+      "steps": 0
+    },
+    {
+      "name": "The Navigator Company (Mitrena industrial complex)",
+      "type": "company",
+      "url": "https://osetubalense.com/sociedade/navigator-aposta-na-transicao-digital-e-inteligencia-artificial-para-impulsionar-sustentabilidade/",
+      "what": "Paper and pulp group with a complex at Mitrena in the Setúbal area. In March 2025 it said it had over 30 digital projects using AI, machine learning, robotics and computer vision, and hosted the Wave of Talent students in July 2026 to show AI in industry.",
+      "source_url": "https://osetubalense.com/sociedade/navigator-aposta-na-transicao-digital-e-inteligencia-artificial-para-impulsionar-sustentabilidade/",
+      "read_on": "2026-11-16",
+      "ai_path": "Uses machine learning and generative AI in production, by its own account.",
+      "steps": 0
+    },
+    {
+      "name": "Câmara Municipal de Setúbal",
+      "type": "public body",
+      "url": "https://www.mun-setubal.pt",
+      "what": "The council organised the November 2026 literary festival whose libraries conference covered AI. Its homepage lists online services, a geoportal and a citizen reporting form, with no AI use stated.",
+      "source_url": "https://osetubalense.com/local/setubal/inteligencia-artificial-nas-bibliotecas-esteve-hoje-em-debate/",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts public debate on AI, with no AI use in its own services found.",
+      "steps": 1
+    },
+    {
+      "name": "Alegro Setúbal (with Nhood Portugal)",
+      "type": "company",
+      "url": "https://osetubalense.com/local/setubal/alegro-setubal-e-o-primeiro-espaco-a-aderir-a-solucao-de-inteligencia-artificial-da-google/",
+      "what": "The Setúbal shopping centre was, in January 2023, the first space in Portugal to adopt a Google AI virtual agent for visitor questions, set up by its manager Nhood Portugal with SBZ Smartbiz Solutions as a pilot. We found nothing newer.",
+      "source_url": "https://osetubalense.com/local/setubal/alegro-setubal-e-o-primeiro-espaco-a-aderir-a-solucao-de-inteligencia-artificial-da-google/",
+      "read_on": "2026-11-16",
+      "ai_path": "A local business deploying a customer chat agent. Old, from 2023.",
+      "steps": 0
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.setubal-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "Thin capital for companies: we found no AI startup or AI company based in Setúbal in any page we opened. Sources to look for: Startup Portugal and IAPMEI directories, the council's economic pages, and company announcements. A hashnode post and a generic marketing blog name Setúbal AI consultancies but are not reliable sources, so they are left out.",
+    "The Politécnico's own site (ips.pt), its research portal and the IPStartUp incubator pages returned server errors (503) or unreadable PDFs for us. So the PRIMED medical imaging platform with CCG/ZGDV (a February 2026 note, with the ULS Arrábida and ULS Almada-Seixal health units expected to test it), the incubator's AI startups (for example the Ignitronic fire-detection project, 2nd place at a national contest) and the polytechnic's own events are known to us only from search snippets, so they are not on the map yet. Next: retry ips.pt and read them.",
+    "The council's site shows no AI use in its own services and no business or innovation desk on its homepage. We should look for its economic development pages, procurement notices on base.gov.pt and the geoportal's technical pages.",
+    "Portos de Setúbal e Lisboa's own site was not opened, so the port's AI project is told through O Setubalense, Executive Digest and RTP. Its AI agent for online services and phase two automation are plans, not results, and we found no later update.",
+    "No upcoming AI event in Setúbal for November or December 2026 found. The polytechnic's events page did not load, and the council's agenda address answered 404. Meetup, Luma and Eventbrite listings are not read by this site.",
+    "The ULS Almada-Seixal HUMAI project (AI to find frequent emergency users, July 2025) and the Amarsul waste AI project sit in the neighbouring Almada, Seixal and Palmela area, and the pages we opened do not place them in Setúbal, so they are left out.",
+    "DXC Technology was named as a partner of the July 2026 Wave of Talent, but the page does not say what it does in Setúbal, so it is not on the map.",
+    "Investors and funding: nothing sourced for Setúbal beyond the ports' own 52 thousand euro AI budget. Sources to look for: Lisboa 2030 and Portugal 2030 project lists, and Portugal Ventures notices.",
+    "Local talent and official contacts are not filled: nobody has agreed to be listed, and the council's published channel was not linked to a specific page we could cite.",
+    "A feed exists for O Setubalense and the council's site (both answered as RSS or XML to a plain request) but we did not read their contents. The polytechnic's feed did not answer."
+  ],
+  "voice": {
+    "lede": "Setúbal, ó pá: where the choco frito meets the cargo crane, the dolphins mind their own business in the Sado, and the port has decided that Copilot is the new sardine.",
+    "mandate": "PrompTugal.news Setúbal, a cidade do Sado: AI and tech in Setúbal, with the port, the Politécnico and the pulp mills of Mitrena as the big characters, plus whatever news sails in from Portugal, Europe and the world. Independente, and every fact comes with a receipt.",
+    "gravity": "Setúbal does its AI the way it does everything, with a hard hat on. The port is teaching seventy workers to use a chatbot, the Politécnico hosts a whole technology institute and signs up to a national AI network, and Navigator says its machines at Mitrena are learning too. The Câmara, bless it, hosts a very civilised talk about libraries and AI, and no startup scene has shown itself yet.",
+    "gaps_intro": "Ainda há muito por contar, pá. Here is what Setúbal has not told us yet:"
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "portalegre",
+  "name": "Portalegre",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Portalegre: AI and technology in Portalegre, the Alto Alentejo capital whose centre of gravity is its polytechnic university and the IoT, agriculture and defence-tech ambitions around it, and what reaches Portalegre from the Alentejo, Portugal and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Portalegre's AI activity sits in its higher education institution, now styled Universidade Politécnica de Portalegre on its own site, whose research office lists two AI projects starting in September 2026, one for farming and livestock and one for student mental health. Around it are a Kyndryl innovation centre set up with the polytechnic in 2023, a business association running an incubator, and a new defence and dual-use technology cluster that lists AI among its interests. The council's own news shows no AI use, so research, industry partners and regional training, not city hall, are Portalegre's centre of gravity.",
+    "sources": [
+      {
+        "title": "Ongoing projects, GII research office (Universidade Politécnica de Portalegre, AI4PRIME and EmoCare)",
+        "url": "https://gii.ipportalegre.pt/projetos-em-curso/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "New cluster Industrial Portugal Gateway wants to bring Portalegre closer to Iberian defence industry (ECO, 1 September 2026)",
+        "url": "https://eco.sapo.pt/2026/09/01/novo-cluster-industrial-portugal-gateway-quer-aproximar-portalegre-da-industria-de-defesa-iberica/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Kyndryl opens an innovation centre in Portalegre (Dinheiro Vivo, 28 April 2023)",
+        "url": "https://dinheirovivo.dn.pt/kyndryl-abre-centro-de-inovacao-em-portalegre-16256012.html",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Alto Alentejo municipalities bring AI to over a thousand workers (ECO, 21 May 2026)",
+        "url": "https://eco.sapo.pt/2026/05/21/municipios-do-alto-alentejo-levam-inteligencia-artificial-a-mais-de-mil-trabalhadores/",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#8A3B2A",
+    "landmark": "The Portalegre tapestry, the town's woven heritage that the council still campaigns for",
+    "motif": "Terracotta and wool dyes, granite walls, a hill town in the Serra de São Mamede with Spain on the doorstep"
+  },
+  "ai_news": [
+    {
+      "title": "Portalegre's university starts AI4PRIME, AI for low-cost farm and livestock devices",
+      "summary": "A two-year project listed by the university's research office, running from 1 September 2026 to 31 August 2028, builds AI solutions for cheap, low-power embedded devices in farming and livestock, joining engineering, data science and agricultural knowledge. Its eligible cost is 197,754.85 euros, with 168,091.62 euros for the Portalegre side, funded by FEDER under ALT2030.",
+      "date": "2026-09-01",
+      "publisher": "GII, Universidade Politécnica de Portalegre",
+      "url": "https://gii.ipportalegre.pt/projetos-em-curso/",
+      "read_on": "2026-11-16",
+      "ai_path": "A university research project that builds AI for agriculture: directly about AI. The date is the project start because the page shows no publication date.",
+      "steps": 0
+    },
+    {
+      "title": "EmoCare gives Portalegre students a generative-AI helper for mental health",
+      "summary": "Another project on the same list, also running from 1 September 2026 to 31 August 2028, develops a student mental health platform with a virtual assistant based on generative AI. Eligible cost is 106,936.75 euros, with 90,896.23 euros for the Portalegre side, funded by FEDER under ALT2030.",
+      "date": "2026-09-01",
+      "publisher": "GII, Universidade Politécnica de Portalegre",
+      "url": "https://gii.ipportalegre.pt/projetos-em-curso/",
+      "read_on": "2026-11-16",
+      "ai_path": "A university project that builds a generative-AI assistant: directly about AI. The date is the project start because the page shows no publication date.",
+      "steps": 0
+    },
+    {
+      "title": "New defence-tech cluster picks Portalegre as its first site and lists AI among its interests",
+      "summary": "Luso Defense Group's Industrial Portugal Gateway aims to attract investment, technology and skilled jobs to Portalegre, with NERPOR as local partner. Its areas of interest include unmanned systems, robotics, AI, communications and cybersecurity, and the article names no AI project yet.",
+      "date": "2026-09-01",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/2026/09/01/novo-cluster-industrial-portugal-gateway-quer-aproximar-portalegre-da-industria-de-defesa-iberica/",
+      "read_on": "2026-11-16",
+      "ai_path": "A cluster for defence and dual-use technology that lists AI as one interest, with no AI project named: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "title": "Alto Alentejo councils fund AI training for more than a thousand public workers, Portalegre included",
+      "summary": "The intermunicipal community CIMAA won about 381,000 euros under Alentejo 2030 for 151 training actions in 58 courses for 1,195 public workers across 15 municipalities. AI is one of nine themes, next to cybersecurity and digital skills.",
+      "date": "2026-05-21",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/2026/05/21/municipios-do-alto-alentejo-levam-inteligencia-artificial-a-mais-de-mil-trabalhadores/",
+      "read_on": "2026-11-16",
+      "ai_path": "Regional public-sector training in which AI is one course theme and Portalegre is a participating municipality: one step from AI.",
+      "steps": 1
+    },
+    {
+      "title": "Campo Maior opens a data and AI competitive intelligence centre with Portalegre's polytechnic",
+      "summary": "CIC Alentejo opened on 16 July 2025 in Campo Maior, about a million euros in cost, run by the Campo Maior council with NOVA IMS and the polytechnic. It plans pilot projects and courses in data science and AI for companies and public bodies. The centre is in Campo Maior, not in Portalegre city.",
+      "date": "2025-07-15",
+      "publisher": "HR Portugal",
+      "url": "https://hrportugal.sapo.pt/centro-de-inteligencia-competitiva-inaugurado-amanha-em-campo-maior/",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI and data centre in the same district with Portalegre's polytechnic as a founding partner: directly about AI, one step from Portalegre.",
+      "steps": 1
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Portalegre: news",
+      "url": "https://www.cm-portalegre.pt/comunicacao/noticias/",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Câmara Municipal de Portalegre: agenda",
+      "url": "https://www.cm-portalegre.pt/comunicacao/agenda-portalegre/",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Universidade Politécnica de Portalegre: news",
+      "url": "https://www.ipportalegre.pt/pt/imprensa/noticias/",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "GII, the university's research and innovation office: ongoing projects",
+      "url": "https://gii.ipportalegre.pt/projetos-em-curso/",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "ECO",
+      "url": "https://eco.sapo.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "HR Portugal (Lusa wire copy for Portalegre and Alto Alentejo)",
+      "url": "https://hrportugal.sapo.pt/?p=435170",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "NOVA IMS: CIC Alentejo",
+      "url": "https://www.novaims.unl.pt/en/here-now/news/alentejo-competitive-intelligence-center-applies-data-ai-and-technological-innovation-to-drive-the-region-s-development",
+      "kind": "university",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "IoT Challenge \"Impacta a tua Região\" (Kyndryl with the university, the council and FocusBC, Portalegre campus)",
+      "date": "final classification listed on the university's homepage on 2026-11-06",
+      "url": "https://tecnologias.ipportalegre.pt/wp-content/uploads/2026/05/RegulamentoIoTChallenge.pdf",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Universidade Politécnica de Portalegre (formerly Instituto Politécnico de Portalegre)",
+      "type": "institution",
+      "url": "https://www.ipportalegre.pt",
+      "what": "Public higher education institution in Portalegre. Its homepage now carries the university name, and a banner mentions an election for the assembly that will approve its statutes on 20 November 2026.",
+      "source_url": "https://www.ipportalegre.pt",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts AI research projects (AI4PRIME, EmoCare) and is a partner of the Campo Maior AI centre.",
+      "steps": 0
+    },
+    {
+      "name": "GII (research and innovation office of the university)",
+      "type": "institution",
+      "url": "https://gii.ipportalegre.pt",
+      "what": "Groups the university's research units and manages its projects, among them AI4PRIME, EmoCare, a cybersecurity competence centre project (C-NETWORK) and the European Digital Innovation Hub SFT-EDIH for agrifood firms.",
+      "source_url": "https://gii.ipportalegre.pt/projetos-em-curso/",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs the university's AI projects.",
+      "steps": 0
+    },
+    {
+      "name": "CIC Alentejo (Centro de Inteligência Competitiva, Campo Maior)",
+      "type": "institution",
+      "url": "https://www.novaims.unl.pt/en/here-now/news/alentejo-competitive-intelligence-center-applies-data-ai-and-technological-innovation-to-drive-the-region-s-development",
+      "what": "Data and AI centre opened on 16 July 2025 in Campo Maior by the Campo Maior council, NOVA IMS and the Portalegre polytechnic, with pilot projects and courses on data science, AI, generative AI and prompt engineering. It is in Campo Maior, not Portalegre city.",
+      "source_url": "https://hrportugal.sapo.pt/centro-de-inteligencia-competitiva-inaugurado-amanha-em-campo-maior/",
+      "read_on": "2026-11-16",
+      "ai_path": "A centre built around data and AI for the regional economy.",
+      "steps": 1
+    },
+    {
+      "name": "CIMAA (Comunidade Intermunicipal do Alto Alentejo)",
+      "type": "public body",
+      "url": "https://eco.sapo.pt/2026/05/21/municipios-do-alto-alentejo-levam-inteligencia-artificial-a-mais-de-mil-trabalhadores/",
+      "what": "The association of the 15 Alto Alentejo municipalities. Organises a 381,000 euro training programme for 1,195 public workers with AI as one of nine themes. The council's own news lists a CIMAA council meeting held in Portalegre on 12 November 2026.",
+      "source_url": "https://eco.sapo.pt/2026/05/21/municipios-do-alto-alentejo-levam-inteligencia-artificial-a-mais-de-mil-trabalhadores/",
+      "read_on": "2026-11-16",
+      "ai_path": "Trains regional public servants in AI.",
+      "steps": 1
+    },
+    {
+      "name": "Luso Defense Group (Industrial Portugal Gateway)",
+      "type": "company",
+      "url": "https://eco.sapo.pt/2026/09/01/novo-cluster-industrial-portugal-gateway-quer-aproximar-portalegre-da-industria-de-defesa-iberica/",
+      "what": "Promoter of an Iberian cluster for defence, security and dual-use technology with Portalegre as its first site. AI, robotics, unmanned systems and cybersecurity are among its stated interests.",
+      "source_url": "https://eco.sapo.pt/2026/09/01/novo-cluster-industrial-portugal-gateway-quer-aproximar-portalegre-da-industria-de-defesa-iberica/",
+      "read_on": "2026-11-16",
+      "ai_path": "Lists AI among the technologies it wants to bring to Portalegre, with no AI project named.",
+      "steps": 2
+    },
+    {
+      "name": "NERPOR (Associação Empresarial da Região de Portalegre)",
+      "type": "organisation",
+      "url": "https://hrportugal.sapo.pt/?p=435170",
+      "what": "Regional business association. Launched a project in January 2026 to incubate 12 companies in its premises and is the territorial partner of the Industrial Portugal Gateway cluster.",
+      "source_url": "https://hrportugal.sapo.pt/?p=435170",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts new firms and partners the defence-tech cluster that lists AI. Neither page says its incubation targets AI.",
+      "steps": 2
+    },
+    {
+      "name": "Kyndryl (Kyntech innovation centre, Portalegre)",
+      "type": "company",
+      "url": "https://dinheirovivo.dn.pt/kyndryl-abre-centro-de-inovacao-em-portalegre-16256012.html",
+      "what": "IT infrastructure services firm. Opened a centre in Portalegre in April 2023 with the polytechnic, about 20 staff then, working on automation, cybersecurity, IoT and smart cities. Organises the 2026 IoT Challenge with the university and the council.",
+      "source_url": "https://dinheirovivo.dn.pt/kyndryl-abre-centro-de-inovacao-em-portalegre-16256012.html",
+      "read_on": "2026-11-16",
+      "ai_path": "Automation and IoT work and a student technology challenge. The 2023 article does not mention AI.",
+      "steps": 2
+    },
+    {
+      "name": "Câmara Municipal de Portalegre",
+      "type": "public body",
+      "url": "https://www.cm-portalegre.pt",
+      "what": "The council. In 2023 it worked with Kyndryl on smart street lighting and is a partner of the 2026 IoT Challenge. Its November 2026 news items show no AI.",
+      "source_url": "https://www.cm-portalegre.pt",
+      "read_on": "2026-11-16",
+      "ai_path": "Smart-city and IoT partner, with no AI use of its own found.",
+      "steps": 2
+    },
+    {
+      "name": "The Things Network Portalegre",
+      "type": "community",
+      "url": "https://thethingsnetwork.org/community/portalegre",
+      "what": "Local community of the global IoT network, founded in 2017 to build citizen-run IoT coverage for the city. The page shows no updates and no online gateways.",
+      "source_url": "https://thethingsnetwork.org/community/portalegre",
+      "read_on": "2026-11-16",
+      "ai_path": "An IoT data community, with no AI stated. Listed as a possible link only.",
+      "steps": 3
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.portalegre-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "Portalegre's council shows no AI use in what we could read: its nine latest items (3 to 12 November 2026 and one from July) cover water works, health, a walking festival and tapestry. We should look for council minutes, procurement notices on base.gov.pt, and the council's smart-city work with Kyndryl.",
+    "Agroportal answered 403, so we could not open its report on AI4PRIME or on the 23 October 2026 AI and virtual reality workshop at the Escola Superior de Biociências in Elvas. AI4PRIME is sourced to the university's own project list instead. The workshop is not listed because we only saw it in a search summary, and Elvas is not Portalegre city.",
+    "The university's homepage lists a 6 November 2026 partnership with Claranet Portugal and an IoT Challenge final classification. We saw only the headlines, not the pages, so neither is listed as news. We should open them.",
+    "The IoT Challenge regulation we read does not mention AI and gives no event date. We list the challenge as an event with no AI path.",
+    "No feed found for the council, the university or GII. Not tried: CIMAA's site, NERPOR's site, Rádio Portalegre, Distrito de Portalegre, Diário do Alentejo. These are the local press and bodies we should look for.",
+    "InovTechAgro (a national agri-forestry innovation centre co-led by the polytechnic) and the DigiFarm2all precision-agriculture project appear in search results as AI-adjacent, but we did not open a page that proves it, so they are not on the map.",
+    "KNOWBIZ (an entrepreneurship project led by three polytechnics and NERSANT) and the NOS space in Ponte de Sor appeared in search summaries only and are left out.",
+    "Investors: the entries below are grants and programme money. We found no private funding round for a Portalegre company. Sources to look for: Portugal Ventures and Banco de Fomento notices, and Luso Defense Group announcements.",
+    "We found no AI startup or company based in Portalegre city. A thin capital for AI is a finding: its AI is in university research, with private firms mostly one or two steps away.",
+    "The Campo Maior centre is a district asset, not a Portalegre city one, and we say so on the entry.",
+    "Local talent is not filled: nobody has agreed to be listed here. Contacts are not filled: no official channel was read on a page we opened.",
+    "The university's own name is in transition (Instituto to Universidade Politécnica). Some pages and official notices still use the old name, so search both."
+  ],
+  "voice": {
+    "lede": "Portalegre, ó pá: a hill town of granite and tapestry where the wool was dyed by hand for centuries, and where now the polytechnic teaches sensors and chatbots to live on a farm, while Spain waits politely just over the hill.",
+    "mandate": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo: AI and tech in Portalegre, with the polytechnic as the big loom, plus whatever news rolls in from the Alentejo, Portugal and the world. Independente, and every fact comes with a receipt.",
+    "gravity": "Portalegre weaves its AI the slow way, thread by thread. The university loom has two AI projects on it for farms and students, Kyndryl sits next door with its sensors, a defence-tech cluster has pulled up a chair, and the Câmara, bless it, is busy with water pipes. Research and industry partners, sim senhor, not city hall.",
+    "gaps_intro": "Ainda há fios soltos, pá. Here is what Portalegre has not told us yet:"
+  },
+  "start_company": [
+    {
+      "name": "NERPOR business incubation",
+      "what": "The business association launched a project in January 2026 to incubate 12 companies in its own premises, with a contract per firm, workspace, and a support desk that helps with EU funding applications and networking. It may grow by 20 rooms in three years. No sector is named and the source does not say how it is financed.",
+      "url": "https://hrportugal.sapo.pt/?p=435170",
+      "source_url": "https://hrportugal.sapo.pt/?p=435170",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "C.BIP, the polytechnic's cultural and creative incubator",
+      "what": "Opened in 2023 in a rehabilitated building in the historic centre, with 830,000 euros from the council, coworking, meeting rooms and applications on a rolling basis. It targets non-technology firms in arts, culture and heritage, so it is not a route for an AI startup.",
+      "url": "https://executivedigest.sapo.pt/?p=389236",
+      "source_url": "https://executivedigest.sapo.pt/?p=389236",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "Council investors section: industrial park and business space (Espaço Empresa)",
+      "what": "The council's site has an Investidores section with Parque Industrial and Espaço Empresa pages. We saw only their names, not their content.",
+      "url": "https://www.cm-portalegre.pt",
+      "source_url": "https://www.cm-portalegre.pt",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Industrial Portugal Gateway (Luso Defense Group with NERPOR)",
+      "what": "A single coordination point for firms investing in Portalegre in defence, security and dual-use technology, covering licensing, financing, recruitment and finding suppliers. It targets SMEs, startups and component suppliers, and its public launch was set for 25 September 2026.",
+      "url": "https://eco.sapo.pt/2026/09/01/novo-cluster-industrial-portugal-gateway-quer-aproximar-portalegre-da-industria-de-defesa-iberica/",
+      "source_url": "https://eco.sapo.pt/2026/09/01/novo-cluster-industrial-portugal-gateway-quer-aproximar-portalegre-da-industria-de-defesa-iberica/",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    }
+  ],
+  "investors": [
+    {
+      "name": "FEDER under ALT2030 into AI4PRIME",
+      "what": "Funds the university's AI for farming and livestock project, 197,754.85 euros eligible cost, 168,091.62 euros for the Portalegre side.",
+      "url": "https://gii.ipportalegre.pt/projetos-em-curso/",
+      "source_url": "https://gii.ipportalegre.pt/projetos-em-curso/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "197,754.85 euros eligible cost",
+      "date": "2026-09-01",
+      "ai_path": "Funds AI for agriculture: directly about AI."
+    },
+    {
+      "name": "FEDER under ALT2030 into EmoCare",
+      "what": "Funds the university's generative-AI student mental health platform, 106,936.75 euros eligible cost, 90,896.23 euros for the Portalegre side.",
+      "url": "https://gii.ipportalegre.pt/projetos-em-curso/",
+      "source_url": "https://gii.ipportalegre.pt/projetos-em-curso/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "106,936.75 euros eligible cost",
+      "date": "2026-09-01",
+      "ai_path": "Funds a generative-AI assistant: directly about AI."
+    },
+    {
+      "name": "Alentejo 2030 regional programme into CIMAA public-sector training",
+      "what": "About 381,000 euros, co-financed by the EU, for training 1,195 public workers with AI among nine themes.",
+      "url": "https://eco.sapo.pt/2026/05/21/municipios-do-alto-alentejo-levam-inteligencia-artificial-a-mais-de-mil-trabalhadores/",
+      "source_url": "https://eco.sapo.pt/2026/05/21/municipios-do-alto-alentejo-levam-inteligencia-artificial-a-mais-de-mil-trabalhadores/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "amount": "about 381,000 euros",
+      "date": "2026-05-21",
+      "ai_path": "Pays for AI training for regional public servants: one step from AI."
+    },
+    {
+      "name": "EU funds into CIC Alentejo (Campo Maior)",
+      "what": "About one million euros in cost, with the Campo Maior council covering the 15 percent national counterpart. The exact fund is not named in the article we read.",
+      "url": "https://hrportugal.sapo.pt/centro-de-inteligencia-competitiva-inaugurado-amanha-em-campo-maior/",
+      "source_url": "https://hrportugal.sapo.pt/centro-de-inteligencia-competitiva-inaugurado-amanha-em-campo-maior/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "about 1 million euros",
+      "date": "2025-07-15",
+      "ai_path": "Funds a data and AI centre in the district: directly about AI, one step from Portalegre."
+    }
+  ],
+  "contacts": []
+}

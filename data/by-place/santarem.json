@@ -1,0 +1,326 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "santarem",
+  "name": "Santarém",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Santarém: AI and technology in Santarém, a district capital on the Tejo whose centre of gravity is agri-food science and the new Campus Tejo, and what reaches Santarém from Portugal, Europe and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Santarém's technology story is agri-food. The council and the Universidade Politécnica de Santarém, with ISLA Santarém, INIAV and the CNEMA fairground, are building Campus Tejo, a science and technology park on water, agro and life sciences that was presented at Web Summit Lisbon on 12 November 2026. The pages we read do not say Campus Tejo uses AI, so its AI link is a short inference through precision farming and digitalisation. Direct AI activity is smaller and scattered: a 100,000 euro PRR-funded AI project at ISLA Santarém, business and health sessions at CNEMA, and an AI-in-agriculture programme at a blueberry growers' meeting.",
+    "sources": [
+      {
+        "title": "Campus Tejo: an international ambition at the service of Portugal (DN, opinion by the mayor, 31 August 2026)",
+        "url": "https://www.dn.pt/opiniao-dn/campus-tejo-uma-ambio-internacional-ao-servio-de-portugal",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Universidade Politécnica de Santarém and the council present Campus Tejo at Web Summit (13 November 2026)",
+        "url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-e-municipio-apresentaram-o-campus-tejo-na-web-summit/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "ISLA Inteligente: an integrated AI ecosystem for academic modernisation (Portugal's transparency portal, PRR)",
+        "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/07/C05-i14.01/2026.P31643/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Santarém hosts the 14th national blueberry growers' meeting with AI at the centre (O Mirante, 25 February 2026)",
+        "url": "https://omirante.pt/semanario/2026-02-26/economia/2026-02-25-santarem-recebe-encontro-nacional-de-produtores-de-mirtilo-535e1d6d",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#8A5A00",
+    "landmark": "Jardim das Portas do Sol, the viewpoint over the Tejo and the Lezíria plain",
+    "motif": "Gothic stone, wheat gold, the Tejo floodplain, bulls and horses at the fair, a capital of agriculture"
+  },
+  "ai_news": [
+    {
+      "title": "Campus Tejo goes to Web Summit, with the university and the council",
+      "summary": "The Universidade Politécnica de Santarém and the council presented Campus Tejo in Lisbon on 12 November 2026: a multi-site science and technology ecosystem on water, agro and life sciences, with Santarém and the Lezíria as a real-world testing ground. The page does not mention AI.",
+      "date": "2026-11-13",
+      "publisher": "Universidade Politécnica de Santarém",
+      "url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-e-municipio-apresentaram-o-campus-tejo-na-web-summit/",
+      "read_on": "2026-11-16",
+      "ai_path": "A science park whose Agrotech axis covers digitalisation, robotics and precision farming (the mayor's own words in DN), tools that commonly run on AI, though no page we read says so. Presented at Web Summit Lisbon: three steps, an inference we flag.",
+      "steps": 3
+    },
+    {
+      "title": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor says in an interview",
+      "summary": "An Observador interview, published on 9 November 2026, describes Campus Tejo as spread over several poles: laboratories at the agrarian school, a 400 hectare experimental farm, company space at CNEMA and a headquarters in the city centre. The transcript is marked as machine-made and may contain errors.",
+      "date": "2026-11-09",
+      "publisher": "Observador",
+      "url": "https://observador.pt/programas/entrevistas-soltas/campus-tejo-a-nova-aposta-de-inovacao-de-santarem/",
+      "read_on": "2026-11-16",
+      "ai_path": "Same link as the item above: agri-tech testing with no stated AI. The only AI on the page is the machine transcript itself. Three steps.",
+      "steps": 3
+    },
+    {
+      "title": "Santarém's local health unit joins a WHO conference on AI in health",
+      "summary": "Unidade Local de Saúde da Lezíria sent a specialist in information systems to the WHO and Ministry of Health conference Shaping AI in Health in Lisbon, with delegates from 37 countries, and tied it to its digital transformation strategy.",
+      "date": "2026-08-08",
+      "publisher": "O Mirante",
+      "url": "https://omirante.pt/sociedade/2026-08-08-leziria-leva-experiencia-de-santarem-a-conferencia-mundial-sobre-inteligencia-artificial-na-saude-0b99eabb",
+      "read_on": "2026-11-16",
+      "ai_path": "A regional health unit from Santarém's headline learning about AI in care: directly about AI, one step from Santarém because the page does not name the unit's base.",
+      "steps": 1
+    },
+    {
+      "title": "Health management congress at CNEMA puts AI on its agenda",
+      "summary": "The fourth Congress of Management and Entrepreneurship in Health, on 25 and 26 September at the CNEMA fairground, listed AI and digital transformation among its topics, with a Siemens Healthineers Portugal strategy director as one speaker.",
+      "date": "2026-08-17",
+      "publisher": "O Mirante",
+      "url": "https://omirante.pt/sociedade/2026-08-17-congresso-de-saude-em-santarem-leva-gestao-inteligencia-artificial-e-novos-modelos-de-negocio-9a9f2567",
+      "read_on": "2026-11-16",
+      "ai_path": "A health business congress in Santarém with an AI talk: AI is one theme among several, one step.",
+      "steps": 1
+    },
+    {
+      "title": "Bosses meet at CNEMA to ask how AI can lift exports",
+      "summary": "A working lunch on 5 March 2026, run by novobanco and AEP as part of Portugal Export +60'30, drew about 30 business leaders to discuss AI and exports.",
+      "date": "2026-03-05",
+      "publisher": "O Mirante",
+      "url": "https://omirante.pt/omirantetv/2026-03-05-video-empresarios-reuniram-em-santarem-para-debater-ia-nas-exportacoes-30144a80",
+      "read_on": "2026-11-16",
+      "ai_path": "A business session in Santarém on AI for exports: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Santarém's blueberry growers plan a day on AI for pests and sorting",
+      "summary": "The 14th national blueberry growers' meeting, on 12 and 13 March 2026, set AI applied to farming at the centre of its debate: decision support, precision agriculture and pest identification, plus demonstrations of AI-based fruit grading. The council supported it.",
+      "date": "2026-02-25",
+      "publisher": "O Mirante",
+      "url": "https://omirante.pt/semanario/2026-02-26/economia/2026-02-25-santarem-recebe-encontro-nacional-de-produtores-de-mirtilo-535e1d6d",
+      "read_on": "2026-11-16",
+      "ai_path": "A national growers' meeting held in Santarém with AI as its theme: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "ISLA Santarém opens a free session on Gemini and Google Workspace for daily work",
+      "summary": "A 5 December 2025 morning session at ISLA's auditorium, part of the APDC and Google IMPULSO IA partnership, showed practical AI tools that save time at work.",
+      "date": "2025-12-04",
+      "publisher": "O Mirante",
+      "url": "https://omirante.pt/educacao/2025-12-04-isla-santarem-promove-sessao-sobre-a-inteligencia-artificial-no-trabalho-diario-59fdbbe6",
+      "read_on": "2026-11-16",
+      "ai_path": "A hands-on AI training session at a Santarém college: directly about AI. Older than the 2026 items.",
+      "steps": 0
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Santarém",
+      "url": "https://www.cm-santarem.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Universidade Politécnica de Santarém (news)",
+      "url": "https://www.ipsantarem.pt",
+      "kind": "university",
+      "feed": "https://www.ipsantarem.pt/feed/"
+    },
+    {
+      "name": "O Mirante",
+      "url": "https://omirante.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Comércio e Notícias",
+      "url": "https://comercioenoticias.pt",
+      "kind": "press",
+      "feed": "https://comercioenoticias.pt/feed/"
+    },
+    {
+      "name": "NERSANT, the regional business association (news)",
+      "url": "https://nersant.pt/comunicacao/noticias/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "NERSANT: events",
+      "url": "https://nersant.pt/agenda/",
+      "kind": "events",
+      "feed": null
+    },
+    {
+      "name": "Portugal's transparency portal: PRR projects",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/",
+      "kind": "other",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "IV Congress of Management and Entrepreneurship in Health, with AI among its topics (CNEMA, past)",
+      "date": "2026-09-25 to 2026-09-26",
+      "url": "https://omirante.pt/sociedade/2026-08-17-congresso-de-saude-em-santarem-leva-gestao-inteligencia-artificial-e-novos-modelos-de-negocio-9a9f2567",
+      "read_on": "2026-11-16",
+      "ai_path": "A health business congress with AI as one theme: one step from AI. The source is the press, not the organisers, who the page does not name."
+    },
+    {
+      "title": "Portugal Export +60'30: AI and exports working lunch (novobanco and AEP, CNEMA, past)",
+      "date": "2026-03-05",
+      "url": "https://omirante.pt/omirantetv/2026-03-05-video-empresarios-reuniram-em-santarem-para-debater-ia-nas-exportacoes-30144a80",
+      "read_on": "2026-11-16",
+      "ai_path": "A session on AI for exports: directly about AI. The source is the press."
+    },
+    {
+      "title": "14th National Blueberry Growers' Meeting, with an AI session (past)",
+      "date": "2026-03-12 to 2026-03-13",
+      "url": "https://omirante.pt/semanario/2026-02-26/economia/2026-02-25-santarem-recebe-encontro-nacional-de-produtores-de-mirtilo-535e1d6d",
+      "read_on": "2026-11-16",
+      "ai_path": "AI applied to farming is the stated theme: directly about AI. The source is the press."
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "ISLA Santarém, Instituto Politécnico",
+      "type": "institution",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/07/C05-i14.01/2026.P31643/",
+      "what": "Private higher-education institution. Its ISLA Inteligente project, running from 1 January 2026 to 31 December 2027 with 100,000 euros of PRR grant money, plans bilingual virtual assistants, a predictive engine for academic risk, and governance dashboards. Held a free AI-at-work session on 5 December 2025.",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/07/C05-i14.01/2026.P31643/",
+      "read_on": "2026-11-16",
+      "ai_path": "Is building AI assistants and prediction for its own campus.",
+      "steps": 0
+    },
+    {
+      "name": "Universidade Politécnica de Santarém (UPSantarém)",
+      "type": "institution",
+      "url": "https://www.ipsantarem.pt",
+      "what": "Public higher-education institution with five schools, in Santarém and Rio Maior and about 5,500 students by its own count. Leads Campus Tejo with the council. Its front page showed no AI content on 16 November 2026.",
+      "source_url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-e-municipio-apresentaram-o-campus-tejo-na-web-summit/",
+      "read_on": "2026-11-16",
+      "ai_path": "Anchors Campus Tejo, whose AI use is unconfirmed. Three steps.",
+      "steps": 3
+    },
+    {
+      "name": "Campus Tejo Science and Technology",
+      "type": "organisation",
+      "url": "https://www.dn.pt/opiniao-dn/campus-tejo-uma-ambio-internacional-ao-servio-de-portugal",
+      "what": "A planned agri-food science and technology park in Santarém and the Lezíria do Tejo with three axes (water, agrotech, life science). Partners named: the council, UPSantarém, ISLA Santarém, CNEMA, INIAV, CAP and the Lezíria do Tejo intermunicipal community. Presented at Web Summit Lisbon on 12 November 2026.",
+      "source_url": "https://www.dn.pt/opiniao-dn/campus-tejo-uma-ambio-internacional-ao-servio-de-portugal",
+      "read_on": "2026-11-16",
+      "ai_path": "Its Agrotech axis lists digitalisation, robotics and precision farming, but no page we read says AI. Three steps.",
+      "steps": 3
+    },
+    {
+      "name": "Câmara Municipal de Santarém",
+      "type": "public body",
+      "url": "https://www.cm-santarem.pt",
+      "what": "The council is a Campus Tejo founder, supported the March 2026 blueberry meeting and plans to extend its video surveillance from 26 to a surveyed 327 devices (the article mentions no AI analytics). Its own site returned an error to us, so what it says itself is unread.",
+      "source_url": "https://omirante.pt/semanario/2026-02-26/economia/2026-02-25-santarem-recebe-encontro-nacional-de-produtores-de-mirtilo-535e1d6d",
+      "read_on": "2026-11-16",
+      "ai_path": "Backs an AI-themed farming meeting and a science park, with no AI service of its own found.",
+      "steps": 2
+    },
+    {
+      "name": "NERSANT (regional business association)",
+      "type": "organisation",
+      "url": "https://nersant.pt",
+      "what": "Regional business association. Ran a free online workshop on practical AI tools for companies on 29 April 2025 under the PRR-funded Líder+Digital measure, and runs the Startup Santarém incubator, certified by Startup Portugal.",
+      "source_url": "https://comercioenoticias.pt/nersant-promove-webinar-gratuito-sobre-aplicacoes-praticas-de-inteligencia-artificial-nas-empresas/",
+      "read_on": "2026-11-16",
+      "ai_path": "Trains local companies in AI tools.",
+      "steps": 0
+    },
+    {
+      "name": "Startup Santarém",
+      "type": "organisation",
+      "url": "https://comercioenoticias.pt/nersant-impulsiona-desenvolvimento-economico-regional-com-apresentacao-de-iniciaivas-e-mecanismos-de-apoio-as-empresas",
+      "what": "Business incubator in Santarém, certified by Startup Portugal, that had hosted 27 international projects under Startup Visa by April 2024. At an April 2024 workshop it showed AIPFL, an international project that uses AI for hair and skin treatments.",
+      "source_url": "https://comercioenoticias.pt/nersant-impulsiona-desenvolvimento-economico-regional-com-apresentacao-de-iniciaivas-e-mecanismos-de-apoio-as-empresas",
+      "read_on": "2026-11-16",
+      "ai_path": "Incubates at least one AI project (2024 source).",
+      "steps": 1
+    },
+    {
+      "name": "AIPFL",
+      "type": "startup",
+      "url": "https://comercioenoticias.pt/nersant-impulsiona-desenvolvimento-economico-regional-com-apresentacao-de-iniciaivas-e-mecanismos-de-apoio-as-empresas",
+      "what": "International project using AI for hair and skin treatments, showcased by Startup Santarém in April 2024. The page says no more, so its current status is unknown.",
+      "source_url": "https://comercioenoticias.pt/nersant-impulsiona-desenvolvimento-economico-regional-com-apresentacao-de-iniciaivas-e-mecanismos-de-apoio-as-empresas",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI product, per the source.",
+      "steps": 0
+    },
+    {
+      "name": "ULS Lezíria (local health unit)",
+      "type": "public body",
+      "url": "https://omirante.pt/sociedade/2026-08-08-leziria-leva-experiencia-de-santarem-a-conferencia-mundial-sobre-inteligencia-artificial-na-saude-0b99eabb",
+      "what": "Regional health unit that took an information-systems specialist to a WHO and Ministry of Health conference on AI in health in August 2026 and links it to its digital transformation strategy. The page does not state its base town.",
+      "source_url": "https://omirante.pt/sociedade/2026-08-08-leziria-leva-experiencia-de-santarem-a-conferencia-mundial-sobre-inteligencia-artificial-na-saude-0b99eabb",
+      "read_on": "2026-11-16",
+      "ai_path": "A public health body following AI in care.",
+      "steps": 1
+    },
+    {
+      "name": "CNEMA (national agricultural exhibition and markets centre)",
+      "type": "organisation",
+      "url": "https://omirante.pt/omirantetv/2026-03-05-video-empresarios-reuniram-em-santarem-para-debater-ia-nas-exportacoes-30144a80",
+      "what": "Santarém's fairground and exhibition centre. Venue of the March 2026 AI and exports lunch and the September 2026 health congress with AI talks, and a Campus Tejo partner and site for company space.",
+      "source_url": "https://omirante.pt/omirantetv/2026-03-05-video-empresarios-reuniram-em-santarem-para-debater-ia-nas-exportacoes-30144a80",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts AI events and is part of Campus Tejo.",
+      "steps": 1
+    },
+    {
+      "name": "Associação Nacional de Produtores de Mirtilo",
+      "type": "organisation",
+      "url": "https://omirante.pt/semanario/2026-02-26/economia/2026-02-25-santarem-recebe-encontro-nacional-de-produtores-de-mirtilo-535e1d6d",
+      "what": "National blueberry growers' association that organised, with INIAV and COTHN, the 14th national meeting in Santarém in March 2026, built around AI in farming. The page does not say where the association is based.",
+      "source_url": "https://omirante.pt/semanario/2026-02-26/economia/2026-02-25-santarem-recebe-encontro-nacional-de-produtores-de-mirtilo-535e1d6d",
+      "read_on": "2026-11-16",
+      "ai_path": "Convened growers around AI for pests and fruit sorting.",
+      "steps": 1
+    },
+    {
+      "name": "INIAV (national agrarian and veterinary research institute)",
+      "type": "public body",
+      "url": "https://www.dn.pt/opiniao-dn/campus-tejo-uma-ambio-internacional-ao-servio-de-portugal",
+      "what": "Public research institute, a Campus Tejo partner with the former Estação Zootécnica Nacional site at Fonte Boa, and co-organiser of the March 2026 blueberry meeting.",
+      "source_url": "https://www.dn.pt/opiniao-dn/campus-tejo-uma-ambio-internacional-ao-servio-de-portugal",
+      "read_on": "2026-11-16",
+      "ai_path": "Co-hosts an AI-in-farming meeting and anchors agrotech work.",
+      "steps": 2
+    },
+    {
+      "name": "Lezíria do Tejo Intermunicipal Community (CIMLT)",
+      "type": "public body",
+      "url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-e-municipio-apresentaram-o-campus-tejo-na-web-summit/",
+      "what": "The association of the region's eleven councils, named as a Campus Tejo partner.",
+      "source_url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-e-municipio-apresentaram-o-campus-tejo-na-web-summit/",
+      "read_on": "2026-11-16",
+      "ai_path": "A partner in a science park whose AI use is unconfirmed.",
+      "steps": 3
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.santarem-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "Santarém's council site (cm-santarem.pt) answered 503 to us, so we read the council only through O Mirante and the university. We should look for its news page, its agenda, municipal minutes and procurement notices on base.gov.pt for any AI use in services.",
+    "Campus Tejo is the city's big technology story, but none of the pages we read (the mayor's DN article, the university's Web Summit note, the Observador interview) says it will use AI. It is on the map at three steps as an inference, to be confirmed or removed. A programme or a call from the park itself would settle it.",
+    "No feeds: the university and Comércio e Notícias have working feeds (listed), but O Mirante and NERSANT returned 404 on their usual feed paths, and rederegional.com, the Agroportal and the Campus Tejo pages we tried returned 403 or a redirect.",
+    "A Bitcointalks Cripto and IA Summit at CNEMA on 14 and 15 November 2026 appears in search listings, but its only listing pages we could see are on sites we do not read, so it is not listed as an event. If its organisers publish it on their own site, add it.",
+    "The Santarém video surveillance expansion (26 cameras today, 327 devices surveyed) is public, but the article mentions no AI analytics, so it is left out until a source says otherwise.",
+    "We heard of a trial of a companion robot for older people by a Santarém social-solidarity union and of a smart-cane project at the Politécnico, but we could not open or confirm either page, so neither is listed.",
+    "ISLA's accredited AI-related course and the university's own AI research groups are unsourced: the DGES page we read gave a data-analysis diploma but no AI course, and the university front page showed no AI content.",
+    "Santarém, Portugal, is easy to confuse with Santarém in Pará, Brazil, whose university also launches an AI degree in 2026. We kept only Portuguese sources.",
+    "Investors: no funding round for a Santarém AI company found. The one money line is the 100,000 euro PRR grant behind ISLA's AI project. Sources to look for: Banco Português de Fomento notices, Startup Portugal and the Startup Santarém portfolio.",
+    "Startup Santarém's own pages were not reached, so its current companies are unknown beyond the 2024 workshop.",
+    "Contacts: none listed, since the council site did not load and we found no public body page with a published channel. NERSANT's and UPSantarém's channels exist on their pages but belong to a business association and a university, not a council, and are left for a later pass."
+  ],
+  "voice": {
+    "lede": "Santarém, pá: the Capital do Gótico gazes over the Tejo from the Portas do Sol, the bulls rest between fairs, and somewhere between the blueberries and the wheat the city is quietly inventing a science park.",
+    "mandate": "PrompTugal.news Santarém, a capital do Ribatejo: AI and tech in a city that grows things, with Campus Tejo as the big idea, plus whatever news rolls in from Portugal, Europe and the world. Independente, and every fact brings its receipt.",
+    "gravity": "Santarém does agri-food science first and AI second, and says so honestly. The university, the council, ISLA, INIAV and the CNEMA fairground are building Campus Tejo, which went to Web Summit Lisbon, though nobody we read has said the word AI about it yet. Meanwhile ISLA has its own 100,000 euro AI project and the blueberry growers have already invited the machines in. Sim senhor, a lezíria with a laptop.",
+    "gaps_intro": "Ainda não sabemos tudo, pá. Here is what Santarém has not told us yet:"
+  }
+}

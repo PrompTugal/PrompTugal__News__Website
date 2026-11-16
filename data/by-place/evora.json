@@ -1,0 +1,249 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "evora",
+  "name": "Évora",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Évora: AI and technology in Évora, a university city in the Alentejo whose centre of gravity is the Universidade de Évora, the PACT science park and the public hospital, and what reaches Évora from the Alentejo, Portugal and the world. Independent. Every fact sourced.",
+  "gravity": {
+    "text": "Évora's AI activity sits in three places. The Universidade de Évora teaches an AI and data science degree, has written its own rules for AI in teaching and says it has built Portuguese-language models. PACT, the Alentejo science and technology park, runs AI training and hosts technology firms. The Hospital de Évora is the first Portuguese public hospital to use an AI system for cervical screening, by its health unit's own account. Newer private money has also arrived, with a data centre company buying a 1 MW site in the city. The council's own site shows no AI use that we could read, so the university, the park and the hospital, not city hall, are the centre of gravity.",
+    "sources": [
+      {
+        "title": "Universidade de Évora develops low-cost Portuguese language AI models (Lusa via DNoticias, 20 April 2026)",
+        "url": "https://www.dnoticias.pt/2026/4/20/488941-universidade-de-evora-desenvolve-modelo-de-linguagem-ia-portugues-de-baixo-custo/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Hospital de Évora is first in Portugal to use an AI system for cervical cancer screening (RTP, March 2026)",
+        "url": "https://www.rtp.pt/noticias/pais/hospital-de-evora-pioneiro-a-usar-sistema-com-ia-para-detetar-cancro-do-colo-do-utero_n1724215",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "NxN enters Portugal with a 100 million euro data centre investment plan (Portugal Global, 2 October 2026)",
+        "url": "https://www.portugalglobal.pt/en/news/2026/outubro/nxn-enters-portugal-with-100m-data-centre-investment-plan/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Despacho n.º 34/2026: a framework for AI in teaching, assessment and learning (Universidade de Évora, 6 February 2026)",
+        "url": "https://cip.uevora.pt/wp-content/uploads/2026/02/Despacho-034_2026-referencial_IA_UE.pdf",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#8A4B1F",
+    "landmark": "The Roman Temple of Évora, the columns in the old town square",
+    "motif": "Whitewashed walls with ochre trim, cork oaks and the Alentejo plain, a slow, thoughtful university town"
+  },
+  "ai_news": [
+    {
+      "title": "Évora's new Confucius Institute lists AI among future joint work with China",
+      "summary": "At the 16 October 2026 opening of the Confucius Institute at the Universidade de Évora, the rector named AI, data science and agrifood as areas of existing and planned cooperation, with ideas such as AI for cultural heritage, health, environment and agriculture.",
+      "date": "2026-10-16",
+      "publisher": "Lusa via Notícias ao Minuto",
+      "url": "https://www.noticiasaominuto.com/pais/3068049/universidade-de-evora-inaugura-instituto-confucio",
+      "read_on": "2026-11-16",
+      "ai_path": "A language and culture institute in Évora whose opening speech names AI as a planned area of cooperation with Chinese universities: two steps from AI. The AI projects are proposals, not announced work.",
+      "steps": 2
+    },
+    {
+      "title": "Data centre firm NxN buys a 1 MW site in Évora",
+      "summary": "NxN Data Centers bought an operating data centre in Évora, its first asset in Portugal, and plans to invest up to 100 million euros over three years. The company says it builds data centres designed for AI workloads. The source does not say what the Évora site runs.",
+      "date": "2026-10-02",
+      "publisher": "Portugal Global (AICEP), from Data Center Dynamics",
+      "url": "https://www.portugalglobal.pt/en/news/2026/outubro/nxn-enters-portugal-with-100m-data-centre-investment-plan/",
+      "read_on": "2026-11-16",
+      "ai_path": "A data centre in Évora owned by a company that builds for AI workloads: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "title": "Universidade de Évora says it has built Portuguese-language AI models",
+      "summary": "A professor of informatics told Lusa that the university's smaller, open Portuguese models reach performance comparable to big tech models on some tasks, and that a Portuguese and Galician model is already available to companies.",
+      "date": "2026-04-20",
+      "publisher": "Lusa via DNoticias",
+      "url": "https://www.dnoticias.pt/2026/4/20/488941-universidade-de-evora-desenvolve-modelo-de-linguagem-ia-portugues-de-baixo-custo/",
+      "read_on": "2026-11-16",
+      "ai_path": "Évora's university builds language models: directly about AI. The date comes from the page address because the text shows none. The performance claim is the university's own.",
+      "steps": 0
+    },
+    {
+      "title": "Hospital de Évora starts using AI in cervical cancer screening",
+      "summary": "The Alentejo Central health unit says its Évora hospital is the first Portuguese public institution to use a digital cytology system with AI that flags suspicious areas for specialists to review. It says the system supports and does not replace clinical judgement.",
+      "date": "2026-03-06",
+      "publisher": "RTP",
+      "url": "https://www.rtp.pt/noticias/pais/hospital-de-evora-pioneiro-a-usar-sistema-com-ia-para-detetar-cancro-do-colo-do-utero_n1724215",
+      "read_on": "2026-11-16",
+      "ai_path": "A public hospital in Évora uses an AI diagnostic system: directly about AI. The RTP page shows no date, so the date is taken from Lisboeta's report of 6 March 2026 that cites RTP. The first-in-Portugal claim is the health unit's own.",
+      "steps": 0
+    },
+    {
+      "title": "Universidade de Évora sets a framework for AI in teaching and assessment",
+      "summary": "Despacho n.º 34/2026 asks teachers and students to be transparent about AI use, to declare it in coursework and to protect personal data. It followed a working group and 37 comments from the academic community and is to be reviewed after the second semester.",
+      "date": "2026-02-06",
+      "publisher": "Universidade de Évora",
+      "url": "https://cip.uevora.pt/wp-content/uploads/2026/02/Despacho-034_2026-referencial_IA_UE.pdf",
+      "read_on": "2026-11-16",
+      "ai_path": "The university sets its own rules for AI use: directly about AI.",
+      "steps": 0
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Évora",
+      "url": "https://www.cm-evora.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Universidade de Évora",
+      "url": "https://www.uevora.pt",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "PACT: Parque do Alentejo de Ciência e Tecnologia (news)",
+      "url": "https://pact.pt",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "CCDR Alentejo",
+      "url": "https://www.ccdr-a.gov.pt",
+      "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "RTP Notícias",
+      "url": "https://www.rtp.pt/noticias/pais/hospital-de-evora-pioneiro-a-usar-sistema-com-ia-para-detetar-cancro-do-colo-do-utero_n1724215",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Notícias ao Minuto (Lusa wire)",
+      "url": "https://www.noticiasaominuto.com/pais/3068049/universidade-de-evora-inaugura-instituto-confucio",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Portugal Global (AICEP news)",
+      "url": "https://www.portugalglobal.pt/en/news/2026/outubro/nxn-enters-portugal-with-100m-data-centre-investment-plan/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Universidade de Évora: calls and notices (siiue2)",
+      "url": "https://siiue2.uevora.pt/sac/editais/2013/documento-homologado/pt",
+      "kind": "university",
+      "feed": null
+    }
+  ],
+  "events": [],
+  "ai_map": [
+    {
+      "name": "Universidade de Évora (UÉ)",
+      "type": "institution",
+      "url": "https://www.uevora.pt",
+      "what": "Public university. Offers a bachelor's degree in Artificial Intelligence and Data Science (20 places for 2026/2027), published an AI framework for teaching on 6 February 2026 and says it has built Portuguese language models.",
+      "source_url": "https://www.dges.gov.pt/guias/detcursopi.asp?codc=L227&code=0602",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches, regulates and researches AI.",
+      "steps": 0
+    },
+    {
+      "name": "Cátedra High Performance Computing (UÉ, funded by HPE)",
+      "type": "institution",
+      "url": "https://postal.pt/cultura/ensino/universidade-de-evora-com-nova-catedra-sobre-computacao-de-elevada-performance/",
+      "what": "A university and industry chair for high-performance computing that also covers data science and AI, with partner universities and companies. The article we read dates from 2021.",
+      "source_url": "https://postal.pt/cultura/ensino/universidade-de-evora-com-nova-catedra-sobre-computacao-de-elevada-performance/",
+      "read_on": "2026-11-16",
+      "ai_path": "Offers AI training and services alongside computing infrastructure. We did not confirm that it is active in 2026.",
+      "steps": 1
+    },
+    {
+      "name": "Hospital de Évora (ULS Alentejo Central)",
+      "type": "public body",
+      "url": "https://www.rtp.pt/noticias/pais/hospital-de-evora-pioneiro-a-usar-sistema-com-ia-para-detetar-cancro-do-colo-do-utero_n1724215",
+      "what": "The public hospital of the Alentejo Central health unit. Uses an AI-assisted digital cytology system for cervical screening.",
+      "source_url": "https://www.rtp.pt/noticias/pais/hospital-de-evora-pioneiro-a-usar-sistema-com-ia-para-detetar-cancro-do-colo-do-utero_n1724215",
+      "read_on": "2026-11-16",
+      "ai_path": "Uses AI in diagnosis.",
+      "steps": 0
+    },
+    {
+      "name": "PACT: Parque do Alentejo de Ciência e Tecnologia",
+      "type": "organisation",
+      "url": "https://pact.pt",
+      "what": "Science and technology park in Évora. Led AIRA, a free online course of about 30 hours on AI in robotics with the University of Ljubljana, and published a certified 12-hour course on AI tools for company productivity (16 and 23 October, from a September 2025 notice).",
+      "source_url": "https://pact.pt/?p=1437",
+      "read_on": "2026-11-16",
+      "ai_path": "Trains people and firms in AI.",
+      "steps": 0
+    },
+    {
+      "name": "ELIO Tecnologia",
+      "type": "company",
+      "url": "https://portugal.gov.pt/gc22/comunicacao/noticias/governo-destaca-aposta-estruturante-de-empresa-no-setor-agroflorestal",
+      "what": "Luso-Brazilian company based at PACT, presented in October 2020 as a joint venture with the CEiiA technology centre. Offers precision services for farming, livestock and forestry with aerospace, robotics and AI technology. The page is from 2020, so its present activity is unconfirmed.",
+      "source_url": "https://portugal.gov.pt/gc22/comunicacao/noticias/governo-destaca-aposta-estruturante-de-empresa-no-setor-agroflorestal",
+      "read_on": "2026-11-16",
+      "ai_path": "Names AI as part of its product.",
+      "steps": 0
+    },
+    {
+      "name": "KPMG Portugal technology centre in Évora",
+      "type": "company",
+      "url": "https://executivedigest.sapo.pt/kpmg-portugal-abre-escritorio-em-evora-onde-quer-criar-100-postos-de-trabalho",
+      "what": "A technology office opened in September 2023 in the first of PACT's new buildings, planned to reach 100 jobs, with part of the team starting a project on AI including generative AI.",
+      "source_url": "https://executivedigest.sapo.pt/kpmg-portugal-abre-escritorio-em-evora-onde-quer-criar-100-postos-de-trabalho",
+      "read_on": "2026-11-16",
+      "ai_path": "A consultancy's Évora team works on AI projects. The source is from 2023.",
+      "steps": 1
+    },
+    {
+      "name": "NxN Data Centers (Évora site)",
+      "type": "company",
+      "url": "https://www.portugalglobal.pt/en/news/2026/outubro/nxn-enters-portugal-with-100m-data-centre-investment-plan/",
+      "what": "Bought a 1 MW operating data centre in Évora in October 2026 and plans up to 100 million euros of investment in Portugal over three years.",
+      "source_url": "https://www.portugalglobal.pt/en/news/2026/outubro/nxn-enters-portugal-with-100m-data-centre-investment-plan/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds data centres designed for AI workloads. The source does not say the Évora site runs them.",
+      "steps": 2
+    },
+    {
+      "name": "CCDR Alentejo",
+      "type": "public body",
+      "url": "https://www.ccdr-a.gov.pt",
+      "what": "The Alentejo regional development body. Its 2025 programme for training local administration included a full-day awareness session on AI in local government on 20 May 2025 at its Évora address.",
+      "source_url": "https://www.ccdr-a.gov.pt/wp-content/uploads/2025/05/Programa_IA.pdf",
+      "read_on": "2026-11-16",
+      "ai_path": "Trains council staff in AI.",
+      "steps": 1
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.evora-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "No AI use by the Câmara Municipal de Évora in its own services turned up. We could not open its news pages usefully (the article bodies were cut off), and its Bairro Comercial Digital and Startup LABWARE smart-city pages (run with ADRAL) did not mention AI in the text we could open. We should look for council minutes, procurement notices on base.gov.pt and the full body of the council's news items, which our reader cut off.",
+    "We found no dated Évora AI event for the weeks ahead, so the events list is empty. Challenge4Innovation at PACT took place on 29 September 2026 and its page mentions no AI. We should check PACT's agenda, the Universidade de Évora's agenda and the Alentejo regional press, and Alentejo meetups are on sites we do not read.",
+    "The SNS data centre planned for Évora by the end of 2026 (Lisboeta, 16 June 2026) is a public data centre with no AI stated in the article, so it is not on the map. If it hosts AI workloads, it becomes a map entry.",
+    "Startups are thin. The only AI company we could place at PACT is ELIO Tecnologia, from a 2020 government page. We found no Évora AI startup funding round in 2025 or 2026. Sources to look for: PACT's incubator listings, Startup Portugal, Portugal Ventures and Banco de Fomento notices.",
+    "Could not open Data Center Dynamics and Agroportal (403) and read Despacho 34/2026 and CCDR's programme only as PDFs. We could not confirm the maker of the hospital's AI screening system, which no page we read names.",
+    "Not reached: the University's own news pages by date, a Diário do Sul or Diário do Alentejo search for Évora AI stories, the Politécnico de Portalegre and CEiiA pages, and any Évora AI research groups beyond what the university's degree and language-model news imply. No feeds found for any source.",
+    "The Alentejo Competitive Intelligence Center (NOVA IMS, Campo Maior) is a regional AI and data hub but is based in Campo Maior, so it belongs on another place's page. A May 2026 tender for a Rui Nabeiro Accelerator in Évora (ADRAL) was seen only in a search listing and has no AI link we could check.",
+    "The Universidade de Évora's executive course 'AI for Business' with Microsoft Portugal dates from 2022 and the HPC chair article from 2021, so we treat them as background and could not confirm they are running.",
+    "No contacts are listed. We did not open an official contacts page for the council or the university.",
+    "Local talent is not filled: no source lists anyone and nobody has agreed to be listed here."
+  ],
+  "voice": {
+    "lede": "Évora, ó pá: a city of whitewash, cork oaks and old stones where the machines are learning to speak Portuguese, slowly, calminha, as one does in the Alentejo.",
+    "mandate": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI and tech in Évora, with the Universidade de Évora, the PACT park and the hospital doing the heavy lifting, plus whatever news rolls in from the Alentejo, Portugal and the world. Independente, and every fact comes with a receipt.",
+    "gravity": "Évora does not rush, but it gets there. The university teaches the machines Portuguese and writes the house rules for them, PACT trains the people and keeps the lights on for the firms, the hospital lets an AI point at the slide before a specialist decides, and a data centre company has quietly bought a 1 MW room. City hall, bless it, we could not catch doing AI yet.",
+    "gaps_intro": "Ainda falta muito, pá, e nós não temos pressa. Here is what Évora has not told us yet:"
+  }
+}
