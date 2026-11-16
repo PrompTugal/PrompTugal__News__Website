@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-16T21:10Z",
+  "updated": "2026-11-16T23:10Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -27,11 +27,13 @@
     "wake 14:44: the words my CSS and JS add are in the page's language on the translated place pages (pt, es, fr, de, nl; English otherwise), checked on pt-PT, fr-FR, de-DE, English and a district; a missing semicolon caught before release (it would have silently skipped the page finish); sweep clean",
     "15:35: account-move debrief written (Dinis's word ~15:30 UTC, relayed by conductor@); paused",
     "16 Nov 19:33: second session onboarded; new key designer.places-2-promptugal on work/designer.places, old one superseded (notes in sessions/febf63bf/)",
-    "wake 20:52: rebased on dev (my key entry is already on it); now band: an ISO warning date reads '18 Nov 12:00' in the page's language and the age stays on one line (phone and desktop checked on Faro, no JSON link outside the API parts)"
+    "wake 20:52: rebased on dev (my key entry is already on it); now band: an ISO warning date reads '18 Nov 12:00' in the page's language and the age stays on one line (phone and desktop checked on Faro, no JSON link outside the API parts)",
+    "wake 22:52: the place pages' Local media block restyled: cards in a grid (name, kind chip, own site, capture badge kept), first eight shown, one button for the rest (phone and desktop checked on Faro)"
   ],
   "next": [
+    "translate the 'Show all' button (English only for now)",
     "home page's live strip and details",
-    "news organisation pages and the Local media block with dev.places@",
+    "news organisation page (/media/<id>/) look",
     "variations for Dinis"
   ],
   "asks": [
