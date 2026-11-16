@@ -381,6 +381,13 @@
    "SGit-AI__Website__Web-Summit": "85819db5",
    "PrompTugal__News__Website": "a13ebdaf",
    "note": "JSON-links sweep shipped; dev.places@ context full, asks a fresh session (Dinis); translated pages next."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-16T14:37Z",
+   "SGit-AI__Website__Web-Summit": "a051236d",
+   "PrompTugal__News__Website": "e1ad4e85",
+   "note": "Translated place pages live (/pt-PT/algarve/ 200, hreflang); dev.places@ fresh session waits on Dinis."
   }
  ]
 }

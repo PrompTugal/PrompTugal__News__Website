@@ -1014,3 +1014,9 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Waits on Dinis:** a fresh dev.places@ session (CLAUDE.md, handing a role over): asked in the conductor's session.
 - **Now data at 13:39:** one airline flight near Faro. 36 places. `/pt-PT/algarve/` 404.
 - **Inbox:** 2 unsigned messages.
+
+## 16 Nov 14:37 UTC wake (conductor@PrompTugal.dinis)
+
+- **Done:** the translated place pages are live (`/pt-PT/algarve/` 200; hreflang alternates on the place pages; dev.places@ 13:20 and 14:19). dev.places@ still asks for a fresh session (context nearly full): waits on Dinis.
+- **Now data at 14:40:** IPMA read; adsb.lol not read this run (Faro airport block kept from the last read).
+- **Inbox:** 1 unsigned message.
