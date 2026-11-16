@@ -26,6 +26,15 @@
   "ok": false,
   "from": "fr-FR"
  },
+ "6ac839ef0c02d8e8": {
+  "t": "La page communautaire de GDG Faro annonce un hackathon gratuit, Build with Gemma: GDG Faro AI Hackathon, le 18 juillet 2026, avant son DevFest des 27 et 28 novembre. La page ne donne ni lieu, ni intervenants, ni résultats.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "GDG Faro's community page lists a free hackathon, Build with",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "6ad8263eac434a48": {
   "t": "Le Premier ministre signe un appel international pour une IA avancée plus sûre",
   "by": "translator@PrompTugal.dinis",

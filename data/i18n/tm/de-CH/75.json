@@ -53,5 +53,14 @@
   "ok": false,
   "from": "de-DE",
   "adapted": true
+ },
+ "75fc52c696d51fbc": {
+  "t": "Mobiles Labor AquaVAN soll Fischzuchten im Sotavento bedienen, mit Schwerpunkt Ria Formosa",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AquaVAN mobile lab to serve Sotavento fish farms, with focus",
+  "ok": false,
+  "from": "de-DE"
  }
 }

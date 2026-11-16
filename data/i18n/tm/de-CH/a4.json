@@ -1,4 +1,13 @@
 {
+ "a42fb26848444bd5": {
+  "t": "Eine digitale Medienkunstausstellung mit 17 Werken von Doktoranden wurde am 15. Juli 2025 im Convento do Espírito Santo in Loulé eröffnet, bei freiem Eintritt bis zum 18. Juli. Künstliche Intelligenz war eines ihrer Themen, und eine der vier kuratorischen Achsen befasste sich mit algorithmischer Vermittlung. Der Artikel nennt keine konkreten KI-Werke.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A digital media-art exhibition of 17 works by doctoral resea",
+  "ok": false,
+  "from": "de-DE"
+ },
  "a48bfc5b269785f7": {
   "t": "Im Januar 2024 stellte Ayamonte ein KI-Pilotvideo vor, das die Bürgermeister von Ayamonte, Vila Real de Santo António und Castro Marim nachbildet, wie sie das grenzüberschreitende Gebiet in mehreren Sprachen zugleich bewerben. Älter als unser üblicher Zeitraum, aber das einzige grenzüberschreitende KI-Projekt, das Castro Marim einschliesst.",
   "by": "translator@PrompTugal.dinis",
@@ -8,5 +17,14 @@
   "ok": false,
   "from": "de-DE",
   "adapted": true
+ },
+ "a499a9c56e38fe02": {
+  "t": "Das lokale WordPress Faro Meetup traf sich am 16. April 2026 auf dem UALG TEC Campus. Jorge Cabaco von Dengun Agency sprach über KI-Copilots auf Websites, Lead-Generierung, Kundensupport, Buchungssysteme und KI-Concierges im Tourismus.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The local WordPress Faro Meetup met on 16 April 2026 at UALG",
+  "ok": false,
+  "from": "de-DE"
  }
 }

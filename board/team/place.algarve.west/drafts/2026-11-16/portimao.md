@@ -18,3 +18,15 @@ Sources are postal.pt and the municipal portal vivaportimao.pt. Regional press g
 - No usable Barlavento, Sul Informacao or Algarve Resident piece from the window.
 - Lead outside the window, worth a proper look for the AI angle: EMARP's AI acoustic leak monitoring (July 2026): https://postal.pt/algarve/inteligencia-artificial-vai-ajudar-a-localizar-fugas-na-rede-publica-de-portimao/ (not opened). Check whether data/by-place/portimao.json has it already.
 - Airport, port and University of Algarve campus not checked.
+
+## Follow-up, read 16 November 2026 (21:30 UTC)
+
+**Hospital story, second sources.** Neutral wording: "reported deaths of elderly patients".
+- ERS: Observador (11 Nov) says the regulator opened an *evaluation process* (not an inquiry) covering all publicly known situations. https://observador.pt/2026/11/11/regulador-da-saude-vai-analisar-todas-as-situacoes-de-morte-conhecidas-no-hospital-de-portimao/ Other outlets' headlines seem to derive from one Lusa report, so treat as one source.
+- Inspection: the Minister signed a despacho for an inspection of the emergency department (Observador, and Barlavento 9 Nov: https://www.barlavento.pt/ministra-saude-vai-demitir-presidente-uls-algarve/). DN (9 Nov) names IGAS as the inspecting body: https://www.dn.pt/sociedade/igas-abre-processo-de-inspeo-ao-servio-de-urgncia-do-hospital-de-portimo . The minister said the service is not working well but that a causal link to the deaths is not established.
+- Dismissal: announced by the minister on 9 Nov (Observador, Barlavento). Not confirmed as taken effect, and DN and RTP do not mention it. Wording: "announced she will dismiss".
+- Cases: two patients aged 87 and 94 died after long waits. DN says the Public Prosecutor opened inquiries into three deaths, one archived. The hospital administration disputes that the 87-year-old died in the waiting room.
+- A possible fourth case rests only on a PS leader's statement and is denied by ULS Algarve (DN): leave it out.
+- Correction to item 1 above: say "evaluation", not "inquiry" for the ERS, and date the inspection to 9 Nov.
+
+**EMARP AI leak monitoring.** Date correction: the postal.pt page is dated 21 August 2025, not July 2026. EMARP (the municipal water company) runs a leak-detection campaign, funded by the Fundo Ambiental, with acoustic loggers using AI that send daily alerts with the probable leak location: 130 km of network, 20 loggers, first in Urbanizacao Monte Canelas (Mexilhoeira Grande). The campaign is "underway", but no installation date and no confirmation the loggers run. This is the one real AI step in Portimao (PrompTugal test: 1 step, the source names AI). Needs a fresher source before it is called live. https://postal.pt/algarve/inteligencia-artificial-vai-ajudar-a-localizar-fugas-na-rede-publica-de-portimao/ (published 21 Aug 2025, read 16 Nov 2026).

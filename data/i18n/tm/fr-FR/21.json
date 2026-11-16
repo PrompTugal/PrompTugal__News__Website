@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "VRSA wires its historic centre with free Wi-Fi and 16 footfa",
   "ok": false
+ },
+ "21fba0404aa5b8be": {
+  "t": "La conférence présentant une proposition de système intégré de prévention et de réponse aux séismes (SIPRS) a été reportée des 23 et 24 octobre au 27 novembre, de 9 h à 17 h, à l'hôtel Alisios d'Albufeira. Le système proposé associe des algorithmes d'IA de détection sismique à des réseaux sismiques et à des câbles sous-marins intelligents. L'organisateur, un urbaniste, la présente comme non lucrative ; les invitations adressées à une quinzaine d'organismes et aux spécialistes nationaux de l'IA appliquée au territoire ne valent pas confirmation de leur participation.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The conference presenting a proposed integrated earthquake p",
+  "ok": false
  }
 }

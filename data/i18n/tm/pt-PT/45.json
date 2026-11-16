@@ -1,4 +1,12 @@
 {
+ "45460d98ac0c4316": {
+  "t": "Sparos, a empresa de rações de Olhão, vende ferramentas de nutrição digital para aquaculturas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Sparos, the Olhão feed company, sells digital nutrition tool",
+  "ok": false
+ },
  "454d988659d3a7c3": {
   "t": "A Algarve Evolution abriu um piloto para escolher 15 PME do turismo algarvio para aconselhamento e um plano de ação em IA e robótica, com candidaturas de 20 de fevereiro a 30 de abril de 2026. O consórcio mais alargado do Inova Algarve 3.0 é liderado pela NERA, cuja página inicial indica o município de Loulé.",
   "by": "translator@PrompTugal.dinis",

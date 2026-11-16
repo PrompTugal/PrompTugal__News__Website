@@ -25,6 +25,14 @@
   "ok": false,
   "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
+ "046fddff6d377e65": {
+  "t": "La nouvelle rectrice de l'UAlg estime qu'il faut utiliser l'IA dans l'enseignement, non l'interdire",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UAlg's new rector says AI should be used in teaching, not ba",
+  "ok": false
+ },
  "04b8aa715247e2ec": {
   "t": "PrompTugal.news Vila Real : l'IA et la technologie à Vila Real, ville universitaire et de parc scientifique dont le centre de gravité est le campus de l'UTAD et le Regia Douro Park, et ce qui arrive à Vila Real depuis Trás-os-Montes, le Portugal et le monde. Indépendant ; chaque fait est sourcé.",
   "by": "translator@PrompTugal.dinis",

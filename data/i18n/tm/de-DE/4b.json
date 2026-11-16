@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "Vale do Lobo launches Oliver, an AI digital concierge",
   "ok": false
+ },
+ "4bd6423c0c52571d": {
+  "t": "Die Grupo Lusiadas Saude hat ein Krankenhaus in Faro (Lejana de Baixo) im Wert von 60 Millionen Euro vorgestellt, das Ende 2027 mit rund 500 Arbeitsplätzen eröffnen soll. Der Vorstandschef sagte, es werde ein Krankenhaus, das nativ auf künstliche Intelligenz, Robotik und fortgeschrittene Diagnostik ausgelegt sei. Der Artikel nennt keine Einzelheiten dazu, welche KI-Systeme gemeint sind.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Grupo Lusiadas Saude presented a 60 million euro hospital in",
+  "ok": false
  }
 }

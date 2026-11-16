@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3122 cards (834 current, 1 superseded, 2287 withdrawn), from the catalogue generated 2026-11-12T13:00:00Z at site v0.1.1399; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3441 cards (1152 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-16T21:59:57Z at site v0.1.1665; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `RDR.SHERPA` | 29 |
+| `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 53 |
+| `TEAM.ABP` | 102 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
-| `TEAM.INBOX` | 95 |
+| `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1732 |
-| `TEAM.RUN` | 1176 |
+| `TEAM.ROLE` | 1902 |
+| `TEAM.RUN` | 1207 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261112-0061` [What people are talking about: Web Summit Lisbon 2026, Thursday 12 November, 11:54 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-12T11Z.md) (`TEAM.ROLE 2026-11-12T11Z`)
-- `ACC-20261112-0060` [security@PrompTugal.dinis: hand-over debrief, 12 November 2026](https://promptugal.news/board/team/security/debriefs/2026-11-12-handover.md) (`TEAM.ROLE 2026-11-12-handover:10`)
-- `ACC-20261112-0059` [dev.pages@ hand-over debrief, 12 November 2026](https://promptugal.news/board/team/dev.pages/debriefs/2026-11-12-handover.md) (`TEAM.ROLE 2026-11-12-handover:9`)
-- `ACC-20261112-0058` [designer@PrompTugal.dinis: hand-over, 12 November 2026 (session 3, account B)](https://promptugal.news/board/team/designer/debriefs/2026-11-12-handover.md) (`TEAM.ROLE 2026-11-12-handover:8`)
-- `ACC-20261112-0057` [Hand-over: correspondent@PrompTugal.dinis, 12 November 2026 (the final day)](https://promptugal.news/board/team/correspondent/debriefs/2026-11-12-handover.md) (`TEAM.ROLE 2026-11-12-handover:7`)
+- `ACC-20261116-1342` [runs/viz.places/](https://promptugal.news/board/runs/viz.places/) (`TEAM.RUN viz`)
+- `ACC-20261116-1341` [runs/translator/](https://promptugal.news/board/runs/translator/) (`TEAM.RUN translator`)
+- `ACC-20261116-1340` [runs/place.vila-real-de-santo-antonio/](https://promptugal.news/board/runs/place.vila-real-de-santo-antonio/) (`TEAM.RUN place.vila-real-de-santo-antonio`)
+- `ACC-20261116-1339` [runs/place.vila-do-bispo/](https://promptugal.news/board/runs/place.vila-do-bispo/) (`TEAM.RUN place.vila-do-bispo`)
+- `ACC-20261116-1338` [runs/place.sao-bras-de-alportel/](https://promptugal.news/board/runs/place.sao-bras-de-alportel/) (`TEAM.RUN place.sao-bras-de-alportel`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

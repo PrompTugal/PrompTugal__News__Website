@@ -15,6 +15,14 @@
   "src": "A Guadiana shipyard plans a defence unit aimed at unmanned v",
   "ok": true
  },
+ "4f865dca2c572101": {
+  "t": "O vice-presidente da CCDR Algarve para a educação percorreu a rede escolar do concelho a 4 de novembro de 2026. A escola secundária tem um centro especializado de tecnologia em informática, descrito como o primeiro do género na região. O presidente da câmara disse que uma ampliação escolar de 6 milhões de euros continua a aguardar resposta à candidatura ao plano de recuperação. O relatório não menciona IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The vice-president for education of CCDR Algarve toured the ",
+  "ok": false
+ },
  "4fb1d5ca0d891a80": {
   "t": "Aqui a tecnologia é discreta e cívica, nada de barulho. A câmara faz parte de uma plataforma de dados de seis municípios, pôs sensores nos lugares de estacionamento em 2026, e a Tavira Works mantém acesas as luzes da comunidade. Ainda não encontrámos nenhuma empresa de IA cá, por isso o centro de gravidade é a canalização de onde a IA poderá beber mais tarde.",
   "by": "translator@PrompTugal.dinis",

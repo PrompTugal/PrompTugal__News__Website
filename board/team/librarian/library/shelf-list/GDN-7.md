@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: GDN, Guidance (special) (part 7 of 7)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T13:00:00Z"
-site_version: "v0.1.1399"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-16T21:59:57Z"
+site_version: "v0.1.1665"
 source: board/catalogue.json
 ---
 
 # Shelf list: GDN, Guidance (special) (part 7 of 7)
 
-37 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+52 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
@@ -37,13 +37,28 @@ source: board/catalogue.json
 | `GDN.MEMO 2026-11-10-vickys-reviewer-and-security` | [Vicky's reviewer may write the five S41 lead fields, and security@ covers her temporary team](https://promptugal.news/board/guidance/2026-11-10-vickys-reviewer-and-security.md) | guidance | conductor@web-summit.dinis 10 Nov 2026 |
 | `GDN.MEMO 2026-11-11-only-websummit-sourced-comes-off` | [What rests only on websummit.com comes off the site, with a note; shadow sources bring it back](https://promptugal.news/board/guidance/2026-11-11-only-websummit-sourced-comes-off.md) | guidance | conductor@ 11 Nov 2026 |
 | `GDN.MEMO 2026-11-11-the-site-follows-the-storm-and-lisbon-fringe` | [pt.news follows what is happening now; the storm site is a main source; Lisbon Fringe starts](https://promptugal.news/board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md) | guidance | conductor@web-summit.dinis 11 Nov 2026 |
-| `GDN.MEMO README` | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) | guidance | conductor@ 6 Nov 2026 |
-| `GDN.Q Q1` | [how many files and gigabytes of data they already have, and the runs, and how often they're doing the runs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+| `GDN.MEMO 2026-11-14-promptugal-by-place` | [PrompTugal.news by place: Portugal, the Algarve and its towns (Dinis's brief, 14 November)](https://promptugal.news/board/guidance/2026-11-14-promptugal-by-place.md) | guidance | conductor@ 15 Nov 2026 |
+| `GDN.MEMO 2026-11-15-json-first-rest-api-and-swagger` | [JSON first: no data only in HTML, a REST API of GET calls with a mature Swagger (OpenAPI) for the whole site and for every locality, and a data scientist agent](https://promptugal.news/board/guidance/2026-11-15-json-first-rest-api-and-swagger.md) | guidance | conductor@ 15 Nov 2026 |
 
-**Cards 626 to 637**
+**Cards 626 to 650**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `GDN.MEMO 2026-11-15-show-the-power-connect-the-dots` | [Show the power: the agentic system made visible, everything connected, data-driven, Loulé and Faro as the case studies, and the iOS app as visual as the web](https://promptugal.news/board/guidance/2026-11-15-show-the-power-connect-the-dots.md) | guidance | conductor@ 15 Nov 2026 |
+| `GDN.MEMO 2026-11-15-talk-to-us-from-the-site` | [The milestone: Dinis signs in with his PKI key on the website and in the iOS app, comments and gives feedback in place, and the agents answer him there;…](https://promptugal.news/board/guidance/2026-11-15-talk-to-us-from-the-site.md) | guidance | conductor@ 15 Nov 2026 |
+| `GDN.MEMO 2026-11-16-account-a-home-is-the-top-place-blast-radius` | [Everything in account A; the home page is the top place; the blast radius and the tree of significance](https://promptugal.news/board/guidance/2026-11-16-account-a-home-is-the-top-place-blast-radius.md) | guidance | conductor@ 16 Nov 2026 |
+| `GDN.MEMO 2026-11-16-app-store-subtitle` | [The App Store subtitle: "Portugal's news, town by town"](https://promptugal.news/board/guidance/2026-11-16-app-store-subtitle.md) | guidance | conductor@ 16 Nov 2026 |
+| `GDN.MEMO 2026-11-16-live-data-up-front-and-the-home-page-details` | [The live data up front, never a JSON link for a reader; the home page's details; the translated pages](https://promptugal.news/board/guidance/2026-11-16-live-data-up-front-and-the-home-page-details.md) | guidance | conductor@ 16 Nov 2026 |
+| `GDN.MEMO 2026-11-16-live-local-signals-and-what-is-local` | [Live local signals per place, from the storm site's connectors; and mapping what is local per place](https://promptugal.news/board/guidance/2026-11-16-live-local-signals-and-what-is-local.md) | guidance | conductor@web-summit.dinis 16 Nov 2026 |
+| `GDN.MEMO 2026-11-16-overnight-full-research` | [Overnight before the Algarve meeting: every agent on the loop, full research for every place, local talent, forget the Summit, and public contacts may be linked](https://promptugal.news/board/guidance/2026-11-16-overnight-full-research.md) | guidance | conductor@web-summit.dinis 15 Nov 2026 |
+| `GDN.MEMO 2026-11-16-pause-all-agents-for-the-account-move` | [Pause every PrompTugal agent; each writes a detailed debrief before the move to the other team members' accounts](https://promptugal.news/board/guidance/2026-11-16-pause-all-agents-for-the-account-move.md) | guidance | conductor@ 16 Nov 2026 |
+| `GDN.MEMO 2026-11-16-positioning-collaborators-local-media-paid` | [Positioning around Portugal and local news, a call for collaborators, local media as sources and partners, paid from day one](https://promptugal.news/board/guidance/2026-11-16-positioning-collaborators-local-media-paid.md) | guidance | conductor@web-summit.dinis 16 Nov 2026 |
+| `GDN.MEMO 2026-11-16-reactivate-the-storm-locally` | [Reactivate the storm, from here: only the relevant parts, and refresh what can be shown locally](https://promptugal.news/board/guidance/2026-11-16-reactivate-the-storm-locally.md) | guidance | conductor@ 16 Nov 2026 |
+| `GDN.MEMO 2026-11-16-restart-here-go` | [Go: start every agent on this account; aggregate the towns by the news; public contacts yes, personal ones to the CRM only; Jose's conductor and local@ go…](https://promptugal.news/board/guidance/2026-11-16-restart-here-go.md) | guidance | conductor.b@ 16 Nov 2026 |
+| `GDN.MEMO 2026-11-16-the-home-page-is-the-places-and-the-districts` | [The home page is the places; a Portugal map; every district capital; summit material to national and international; links and connections everywhere](https://promptugal.news/board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md) | guidance | conductor@ 16 Nov 2026 |
+| `GDN.MEMO 2026-11-16-translators-and-a-translation-memory` | [Translators for the content, with a translation memory so nothing is translated twice](https://promptugal.news/board/guidance/2026-11-16-translators-and-a-translation-memory.md) | guidance | conductor@ 16 Nov 2026 |
+| `GDN.MEMO README` | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) | guidance | conductor@ 6 Nov 2026 |
+| `GDN.Q Q1` | [how many files and gigabytes of data they already have, and the runs, and how often they're doing the runs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q10` | [who actually has read this?" (the synthetic findings)](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q11` | [The 200 Brazilians "coming to Porto](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q12` | [customers@ "which I want to give a couple specific briefs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
@@ -54,6 +69,11 @@ source: board/catalogue.json
 | `GDN.Q Q5` | [The user area's name ("you", "logged in", "user")](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q6` | [A graphs agent, "a roof.sgit agent ... or maybe we have both](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q7` | [a UX expert, you know, do we need that? You know, like, do we have enough coverage of these domains?](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+
+**Cards 651 to 652**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `GDN.Q Q8` | [He named "news.sgit.ai" as the model for the articles page](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q9` | [Do we have those hourly articles](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 

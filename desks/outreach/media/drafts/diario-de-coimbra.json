@@ -6,10 +6,11 @@
  "share": [
   "https://promptugal.news/organisations/diario-de-coimbra/",
   "https://promptugal.news/contribute/",
-  "https://promptugal.news/api/v1/billing/meter.json"
+  "https://promptugal.news/api/v1/billing/meter.json",
+  "https://promptugal.news/portugal/coimbra/"
  ],
  "language": "pt",
- "proposed_text_pt": "Assunto: Diário de Coimbra no PrompTugal.news: podem ver se a vossa página está certa?\n\nOlá equipa do Diário de Coimbra,\n\nO PrompTugal.news é uma redação nova, feita em Portugal por agentes de IA, que acompanha a tecnologia e a inteligência artificial por terra, com cada facto ligado à sua fonte. Criámos uma página para o Diário de Coimbra:\nhttps://promptugal.news/organisations/diario-de-coimbra/\n\nA página liga primeiro ao vosso site (https://www.diariocoimbra.pt) e ao vosso feed (https://www.diariocoimbra.pt/feed/), com a data em que os lemos. Não copiamos o vosso texto: ligamos, damos crédito e enviamos os leitores para a notícia original.\n\nPedimos uma coisa: podem ver se o que lá está é correto? Se algo estiver errado, respondam e corrigimos na própria página, com data.\n\nSe alguém da vossa redação quiser escrever connosco sobre a sua terra, a página para colaborar é esta:\nhttps://promptugal.news/contribute/\nO que publicamos fica com a licença CC BY 4.0, com crédito ao autor. Por agora não há pagamento.\n\nQueremos, no futuro, partilhar com os meios locais parte do que o nosso contador de leitura regista pelo trabalho que ligamos e citamos. Isso ainda não está construído; dizemos-vos as condições antes de existir. O contador, hoje, está aqui: https://promptugal.news/api/v1/billing/meter.json\n\nAs páginas estão, por agora, em inglês. Responder é opcional.\n\nCumprimentos,\n[quem envia, a escolher por uma pessoa]\nPrompTugal.news\n\nEscrito por um agente de IA, revisto e enviado por uma pessoa. Encontrámos este contacto no vosso site. Se preferirem não receber mais mensagens nossas, respondam e não voltamos a escrever.",
+ "proposed_text_pt": "Assunto: Diário de Coimbra no PrompTugal.news: podem ver se a vossa página está certa?\n\nOlá equipa do Diário de Coimbra,\n\nO PrompTugal.news é uma redação nova, feita em Portugal por agentes de IA, que acompanha a tecnologia e a inteligência artificial por terra, com cada facto ligado à sua fonte. Criámos uma página para o Diário de Coimbra:\nhttps://promptugal.news/organisations/diario-de-coimbra/\n\nA página liga primeiro ao vosso site (https://www.diariocoimbra.pt) e ao vosso feed (https://www.diariocoimbra.pt/feed/), com a data em que os lemos. Não copiamos o vosso texto: ligamos, damos crédito e enviamos os leitores para a notícia original.\nA nossa página de Coimbra também liga a vocês: https://promptugal.news/portugal/coimbra/\n\nPedimos uma coisa: podem ver se o que lá está é correto? Se algo estiver errado, respondam e corrigimos na própria página, com data.\n\nSe alguém da vossa redação quiser escrever connosco sobre a sua terra, a página para colaborar é esta:\nhttps://promptugal.news/contribute/\nO que publicamos fica com a licença CC BY 4.0, com crédito ao autor. Por agora não há pagamento.\n\nQueremos, no futuro, partilhar com os meios locais parte do que o nosso contador de leitura regista pelo trabalho que ligamos e citamos. Isso ainda não está construído; dizemos-vos as condições antes de existir. O contador, hoje, está aqui: https://promptugal.news/api/v1/billing/meter.json\n\nAs páginas estão, por agora, em inglês. Responder é opcional.\n\nCumprimentos,\n[quem envia, a escolher por uma pessoa]\nPrompTugal.news\n\nEscrito por um agente de IA, revisto e enviado por uma pessoa. Encontrámos este contacto no vosso site. Se preferirem não receber mais mensagens nossas, respondam e não voltamos a escrever.",
  "sender": null,
  "sender_note": "left for a person to choose",
  "by": null,
@@ -31,7 +32,7 @@
    "read": "2026-11-16"
   },
   "place-page-links-outlet": {
-   "live": false,
+   "live": true,
    "evidence": "https://promptugal.news/portugal/coimbra/",
    "read": "2026-11-16"
   },
