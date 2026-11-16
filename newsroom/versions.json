@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1659",
+    "date": "2026-11-16",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "cd113992d"
+  },
+  {
     "version": "v0.1.1658",
     "date": "2026-11-16",
     "what": "designer@PrompTugal.dinis: the look of /values/ (spec V1 to V6, mock-ups from journalist@'s draft, no AI); status, notes, run report",
