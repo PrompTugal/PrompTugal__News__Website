@@ -31,14 +31,14 @@ Source C = [Eurostat, "Artificial intelligence by size class of enterprise" (iso
 | 250+ staff, 2025 (%) | 49.15 | 55.03 | C | 16 Nov 2026 |
 | INE's 2026 release date for both surveys | 20 Nov 2026 | | [INE, "Calendário: disponibilidade de informação estatística"](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_dispinfest&xlang=pt) | 16 Nov 2026 |
 
-Rounded in the draft to one decimal. Derived: the gap was 0.2 points in 2023 (8.06 − 7.86), 4.9 in 2024 and 8.4 in 2025 (19.95 − 11.54).
+Rounded in the draft to one decimal. Derived: the gap was 0.2 points in 2023 (8.06 − 7.86), 4.9 in 2024 (13.48 − 8.63) and 8.4 in 2025 (19.95 − 11.54), the last on the wider 2025 list. The eight technologies (source C's labels, checked on 16 Nov 2026): text mining, speech recognition, natural language generation (text, speech or code), image recognition, machine learning for data analysis, AI-based process automation, autonomous robots and vehicles, and (2025 only) generating pictures, video or sound.
 
 ## Comparisons judged
 
 - **People against companies.** Different units (people 16 to 74 against firms of 10+ staff, finance and micro-firms excluded). The draft sets them side by side and never subtracts one from the other. Holds as written.
 - **"For work".** The share is of all people 16 to 74, not of people in work. The draft says so.
 - **A trend for people.** Eurostat has only 2025. No trend is claimed.
-- **Companies 2023 to 2025.** The same indicator and sector coverage in all three years in the table. 2021 (Portugal 7.20, EU 7.65) is left out of the draft: whether the list of technologies asked about changed between 2021 and 2023 is not yet checked in Eurostat's metadata.
+- **Companies 2023 to 2025: a changed definition (found 16 Nov 2026).** "Any AI" (E_AI_TANY) counts eight technologies in 2025; the eighth, "generating pictures, videos, sound/audio" (E_AI_TPVSG: Portugal 5.88%, EU 9.55%), exists only for 2025 in source C (checked on 16 Nov 2026). So 2023 to 2024 compare (gap 0.2 to 4.9 points), and 2025 is on a wider list (gap 8.4). The draft says so in one sentence. The size split is all 2025, so it compares across sizes, not years. Earlier note, kept for the record: the same indicator and sector coverage in all three years in the table. 2021 (Portugal 7.20, EU 7.65) is left out of the draft: whether the list of technologies asked about changed between 2021 and 2023 is not yet checked in Eurostat's metadata.
 - **Ties in ranks.** None at Portugal's place in either ranking.
 - **Left out.** Private surveys ("two in three", "almost 90%"): not read at source. Press regional figures (Grande Lisboa 48.4%, Alentejo lowest, from ECO citing INE): not read at INE.
 

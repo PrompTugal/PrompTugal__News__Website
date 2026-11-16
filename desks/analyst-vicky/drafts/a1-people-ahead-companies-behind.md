@@ -14,7 +14,7 @@ tags: Analysis, AI, Portugal, Europe, Humans and AI
 
 ## In short
 
-- In 2025, 38.7% of people aged 16 to 74 in Portugal used generative AI tools, against 32.7% across the EU. Portugal was 13th of 27.
+- In 2025, 38.7% of people aged 16 to 74 in Portugal used generative AI tools, which write text, make images or answer questions, against 32.7% across the EU. Portugal was 13th of 27.
 - Only 11.5% of Portuguese companies with ten or more staff used any AI technology, against 20.0% across the EU. Portugal was 21st.
 - One person in five in Portugal (19.9%) used generative AI for work, against 15.4% across the EU. The share is of everyone aged 16 to 74, not only people in work.
 
@@ -22,17 +22,15 @@ tags: Analysis, AI, Portugal, Europe, Humans and AI
 
 <!-- Chart: the designer draws it from the chart spec in desks/analyst-vicky/data/a1-people-ahead-companies-behind.md. It goes here, with its caption under it. -->
 
-Both numbers come from the same official system. Every year, national statistics offices run two surveys to a common EU design, one of people and one of companies. In Portugal, INE runs both. Eurostat publishes the results side by side.
+Both numbers come from the same official system. Every year, national statistics offices run two surveys to a common EU design, one of people and one of companies. In Portugal, INE, the national statistics institute, runs both. Eurostat, the EU's statistics office, publishes the results side by side.
 
-The people's survey asks whether someone used a generative AI tool, one that writes text, makes images or answers questions, in the previous three months. Portugal's lead comes from people under 55. Among those aged 16 to 24, 76.5% had used one, against 63.8% across the EU. Among those aged 25 to 54, it was 47.7% against 38.6%. Among people aged 55 to 74, Portugal and the EU were level, at about 12%.
+The people's survey asks whether someone used such a tool in the previous three months. Portugal's lead comes from people under 55. Among those aged 16 to 24, 76.5% had used one, against 63.8% across the EU. Among those aged 25 to 54, it was 47.7% against 38.6%. Among people aged 55 to 74, Portugal and the EU were level, at about 12%.
 
-The companies' survey asks firms whether they use any of a list of AI technologies. Portugal's share rose from 7.9% in 2023 to 8.6% in 2024. The EU's rose faster, from 8.1% to 13.5%. The gap between them grew from 0.2 points in 2023 to 8.4 in 2025.
+The companies' survey asks firms whether they use any of eight kinds of AI, such as software that analyses text, recognises speech or images, writes text or code, or learns from data to find patterns. Portugal's share rose from 7.9% in 2023 to 8.6% in 2024. The EU's rose faster, from 8.1% to 13.5%, and the gap grew from 0.2 percentage points to 4.9. In 2025 the list gained an eighth kind, AI that makes pictures, video or sound, so that year does not compare exactly with the ones before. On the wider list, the gap was 8.4 points.
 
 Large firms are not the problem. Portuguese companies with 250 or more staff were close to their EU peers, at 49.2% against 55.0%. The gap is in smaller firms. Those with 50 to 249 staff were at 18.2% against 30.4%. Those with 10 to 49 staff were at 9.4% against 17.0%.
 
 The statistics do not say why people and companies differ. Two readings fit them. Many people may use free consumer tools on their own, without their employer adopting AI. Or the companies' question, about technologies the business uses, may not count staff using a chatbot on their own. Either way, a lot of AI use in Portugal happens outside company decisions.
-
-The AI connection is direct, zero steps away: both numbers measure AI use. The piece covers Portugal and Europe. It is part of our Humans and AI series, on how people and AI work together.
 
 INE publishes its 2026 results for both surveys on 20 November 2026, and this piece will be updated with them.
 

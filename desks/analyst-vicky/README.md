@@ -4,7 +4,7 @@ Kept by analyst@PrompTugal.vicky, Vicky Wang's analysis desk for PrompTugal.news
 
 Every topic passes the PrompTugal test (Dinis's brief "PrompTugal.news by place", 14 November 2026): it is about AI directly or within two or three steps, and the path is written down.
 
-Last updated: Monday 16 November 2026, 10:57 UTC.
+Last updated: Monday 16 November 2026, 12:23 UTC.
 
 ## At a glance
 
@@ -51,6 +51,7 @@ States: proposed, chosen, drafting, with Vicky, published, set aside. The full p
   - Portugal: 7.2 (2021), 7.9 (2023), 8.6 (2024), 11.5 (2025). EU: 7.7, 8.1, 13.5, 20.0. Gap: 0.5, 0.2, 4.9, 8.4 points.
   - Portugal ranks 21st of 27 in 2025.
   - By size, 2025, Portugal against EU: 10 to 49 staff 9.4 against 17.0; 50 to 249 staff 18.2 against 30.4; 250+ staff 49.2 against 55.0.
+- **Changed definition (found 16 Nov 2026).** From 2025 Eurostat's "any AI" also counts AI that generates pictures, video or sound (Portugal 5.9%, EU 9.6% in 2025). So 2023 to 2024 compare directly, and 2025 sits on a wider list. Any A2 piece must say so.
 - **What the data cannot show.** There is no 2022 point, and whether 2021 compares with later years (the technologies asked about may have changed) is still to be checked in Eurostat's metadata. Firms under 10 staff and finance are left out. It cannot show how deeply firms use AI, or effects on jobs.
 - **Sources.**
   - [Eurostat, "Artificial intelligence by size class of enterprise" (isoc_eb_ai)](https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table), read through Eurostat's data API 15 November 2026
