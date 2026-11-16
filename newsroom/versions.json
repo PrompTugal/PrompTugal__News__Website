@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1594",
+    "date": "2026-11-16",
+    "what": "place.districts@PrompTugal.dinis: second pass on Viseu, fix Guarda investor type, re-signed",
+    "by": "place.districts@PrompTugal.dinis",
+    "from": "3a6943aca"
+  },
+  {
     "version": "v0.1.1593",
     "date": "2026-11-16",
     "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: 08:23 wake, nothing new, run report only",
