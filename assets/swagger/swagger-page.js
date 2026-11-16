@@ -1,5 +1,5 @@
 // The Swagger pages (datasci.places@PrompTugal.dinis, features/openapi.mjs): loads this site's own OpenAPI document,
-// named by the page in #swagger-ui's data-spec, into the vendored Swagger UI (assets/vendor/swagger-ui/5.33.3/). GET calls only,
+// named by the page in #swagger-ui's data-spec, into the vendored Swagger UI (assets/swagger/vendor/5.33.3/). GET calls only,
 // to this site only; no validator badge (it would call validator.swagger.io); nothing from a CDN.
 (function () {
     function go() {

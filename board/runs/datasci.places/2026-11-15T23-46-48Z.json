@@ -1,0 +1,150 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "datasci.places@PrompTugal.dinis",
+ "run": "2026-11-15T23-46-48Z",
+ "started": "2026-11-15T23:46:48.235Z",
+ "ended": "2026-11-16T00:07:24Z",
+ "line": "",
+ "policy": {
+  "version": "1.9.1",
+  "sha256": "6337beeebe9386cb"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T23:49:54.359Z",
+   "chars": 470,
+   "sha256": "76b8cd2a82a7bc8b",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (message from another Claude session: 2)</summary>\nNotifications are que"
+  },
+  {
+   "t": "2026-11-15T23:55:42.049Z",
+   "chars": 535,
+   "sha256": "84496637f7aa7ec8",
+   "head": "<task-notification>\n<task-id>bva16y4c3</task-id>\n<tool-use-id>toolu_01Kot2h7ebPqmXtVnrMb9guP</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-15T23:55:42.102Z",
+   "chars": 560,
+   "sha256": "64972673f246bb6d",
+   "head": "<task-notification>\n<task-id>blsl1c60i</task-id>\n<tool-use-id>toolu_01WHLfHZJecnuiwPFfMv6j11</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T00:04:31.399Z",
+   "chars": 692,
+   "sha256": "c2bee0e73f9cac96",
+   "head": "<task-notification>\n<task-id>b5zu4ts0a</task-id>\n<tool-use-id>toolu_01GdJRuS9peW3qiwYTqfMdsr</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 25,
+  "by_kind": {
+   "git": 7,
+   "release": 7,
+   "read": 2,
+   "other": 2,
+   "web": 4,
+   "session": 2,
+   "shell": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 23,
+  "commits": [
+   {
+    "sha": "0f8bc436a",
+    "subject": "datasci.places@PrompTugal.dinis: every place as GET endpoints, OpenAPI 3.1 specs and Swagger (site-wide and per place), the JSON-first audit and two gate checks",
+    "files": 19
+   },
+   {
+    "sha": "c18b24f7f",
+    "subject": "datasci.places@PrompTugal.dinis: my session key (datasci.places-promptugal) in board/keys.json",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-16T00:05:13.095Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T00:05:13.447Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "0f8bc436a wrote assets/datasci/words.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "0f8bc436a wrote assets/vendor/swagger-ui/5.33.3/LICENSE",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "0f8bc436a wrote assets/vendor/swagger-ui/5.33.3/NOTICE",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "0f8bc436a wrote assets/vendor/swagger-ui/5.33.3/VENDOR.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "0f8bc436a wrote assets/vendor/swagger-ui/5.33.3/swagger-ui-bundle.js",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "0f8bc436a wrote assets/vendor/swagger-ui/5.33.3/swagger-ui-bundle.js.LICENSE.txt",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "0f8bc436a wrote assets/vendor/swagger-ui/5.33.3/swagger-ui.css",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 25,
+  "in_mandate": 23,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 7
+ }
+}

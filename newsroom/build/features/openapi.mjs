@@ -13,7 +13,7 @@
 //   api/swagger/index.html              Swagger UI on the whole spec; <place>/api/index.html on each place's
 //   datasci/index.html                  the data quality dashboard and the audit, drawn from the JSON above
 //
-// Swagger UI is vendored (assets/vendor/swagger-ui/5.33.3/, unedited, hashes checked below): no CDN at runtime. The gate checks
+// Swagger UI is vendored (assets/swagger/vendor/5.33.3/, unedited, hashes checked below): no CDN at runtime. The gate checks
 // that the spec covers every file the manifest lists, that each place spec's paths are files the build wrote, and the
 // vendored hashes.
 import fs from 'node:fs'
@@ -22,13 +22,14 @@ import { placeList, endpoints, quality, words, fillW } from './datasci-places.mj
 
 export const order = 98
 const SITE = 'https://promptugal.news'
-const SW = 'assets/vendor/swagger-ui/5.33.3'
+const SW = 'assets/swagger/vendor/5.33.3'
 const VENDORED = { 'swagger-ui-bundle.js': '3861ec4cc8e7b9fa9f250280da9350436e418137788282c753b9a2ac5fb7bd2f', 'swagger-ui.css': '1ac324f7dcd27e4b9386b4bd6421271ec147e922a22c05ba24b11515e9aa6321' }
 const ASSETS = { css: [`${SW}/swagger-ui.css`, 'assets/swagger/swagger-page.css'], js: [`${SW}/swagger-ui-bundle.js`, 'assets/swagger/swagger-page.js'] }
 // files made in the build's final step (after the API), which the spec cannot read as data; each named with its type
 const FINALS = [{ path: 'api/v1/deploy-exclude.txt', type: 'text/plain' }, { path: 'sw.js', type: 'text/javascript' }, { path: 'api/v1/manifest.json', type: 'application/json' }]
+const STATIC = ['assets/portugal/algarve-outline.json']
 const TYPES = { json: 'application/json', nt: 'application/n-triples', txt: 'text/plain', js: 'text/javascript', md: 'text/markdown', xml: 'application/xml', csv: 'text/csv' }
-const tagOf = p => { const s = p.replace(/^api\/v1\//, '').split('/'); if (s.length === 1) return /^(index|manifest|ontology|openapi|triples|search-docs)\b/.test(s[0]) ? (s[0].startsWith('search') ? 'search' : 'meta') : s[0].replace(/\.[a-z]+$/, ''); return s[0] }
+const tagOf = p => { if (p.startsWith('assets/')) return 'assets'; const s = p.replace(/^api\/v1\//, '').split('/'); if (s.length === 1) return /^(index|manifest|ontology|openapi|triples|search-docs)\b/.test(s[0]) ? (s[0].startsWith('search') ? 'search' : 'meta') : s[0].replace(/\.[a-z]+$/, ''); return s[0] }
 const extOf = p => (p.match(/\.([a-z0-9]+)$/) || [])[1] || ''
 const opId = p => 'get_' + p.replace(/[{}]/g, '').replace(/[^A-Za-z0-9]+/g, '_').replace(/^_|_$/g, '')
 
@@ -177,6 +178,8 @@ export function final(ctx) {
     const groups = group(files)
     const paths = {}
     for (const g of groups) paths[`/${g.template}`] = operation(g, comps)
+    // static JSON the app and the pages read beside the API (ios.places@'s ask 6), each with its real content as the example
+    for (const a of STATIC) { try { paths[`/${a}`] = operation({ template: a, files: [{ path: a, feature: 'assets', data: ctx.readJSON(a), bytes: 0 }] }, comps) } catch {} }
     for (const f of FINALS) paths[`/${f.path}`] = operation({ template: f.path, about: S.finals[f.path], files: [{ path: f.path, feature: 'core' }] }, comps)
     const specOp = (about, values) => ({ get: { operationId: opId(values ? 'api/v1/places/{id}/openapi.json' : 'api/v1/openapi.json'), tags: ['meta'], summary: about, ...(values ? { parameters: [{ name: 'id', in: 'path', required: true, schema: { type: 'string', enum: values } }] } : {}), responses: { 200: { description: S.doc, content: { 'application/json': { schema: { type: 'object', required: ['openapi', 'info', 'paths'], properties: { openapi: { const: '3.1.0' }, info: { type: 'object' }, paths: { type: 'object' } } } } } } } } })
     paths['/api/v1/openapi.json'] = specOp(S.this_doc)

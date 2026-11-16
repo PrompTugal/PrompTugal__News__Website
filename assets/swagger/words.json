@@ -57,7 +57,8 @@
       "evidence": "Evidence and captures",
       "articles": "Articles as data",
       "datasci": "The JSON-first audit and the data quality numbers",
-      "meta": "The index, the manifest, the grammar and the specs themselves"
+      "meta": "The index, the manifest, the grammar and the specs themselves",
+      "assets": "Static JSON the pages and the app read beside the API (the Algarve's outline)"
     },
     "param": "One of the {n} values the build wrote (for example {some}).",
     "made_by": "Made by the build's `{feature}` feature",
