@@ -1,8 +1,8 @@
 {
   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "focus": "the site of São Brás de Alportel (promptugal.news/algarve/sao-bras-de-alportel/): its AI map, local AI news, sources and gaps",
-  "updated": "2026-11-16T05:15Z",
-  "state": "pass 8 released: lead firms searched (no readable own-site info), gaps updated; AI map 11, news 7, status live",
+  "updated": "2026-11-16T06:15Z",
+  "state": "pass 9 released: InvestAlgarve checked (a 2016 branch, current status unknown); page live, AI map 11, news 7. Research has reached diminishing returns on readable public sources.",
   "done": [
     "session key place.sao-bras-de-alportel-promptugal and site key site.sao-bras-de-alportel-promptugal added to board/keys.json",
     "data/by-place/sao-bras-de-alportel.json written and signed (.sig), gate OK",
@@ -13,12 +13,13 @@
     "pass 5: showcase pages 1 to 4 and agenda pages 1 and 2 read",
     "pass 6: agenda pages 3 to 5 read, Algarve 6.0 supplier search (no award found)",
     "pass 7: council news page 2 read, VI Forum Ideias de Negocios firms named (IT, medtech)",
-    "pass 8: InovaPrime, Savvy Alpha, Aplitec searched, nothing readable"
+    "pass 8: InovaPrime, Savvy Alpha, Aplitec searched, nothing readable",
+    "pass 9: InvestAlgarve searched, recorded as a stale 2016 lead"
   ],
   "next": [
-    "InvestAlgarve's own page for a São Brás desk",
-    "business registry; support-measure subpages",
-    "final pass before 07:00 UTC: refresh the debrief"
+    "business registry and the support-measure subpages if a reader can open them",
+    "re-read the council news and regional press at each wake for a first real AI story",
+    "an article only if a lead firm shows AI use"
   ],
   "asks": [
     "Dinis: none blocking. Local talent (Angelo, Silvio, Jose) arrived only as a relayed note, and my ABP says never name private individuals, so I left them out. If you want them listed on this page, say so here or in the ABP.",
