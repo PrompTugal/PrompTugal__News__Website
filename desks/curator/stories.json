@@ -23,7 +23,7 @@
    "Portugal",
    "Official sources on AI in Portugal: the government's National AI Agenda (four areas, 32 initiatives) and what INESC-ID, NOVA FCT, the government's digital portal and the project's own model page say about AMALIA, the first language model for European Portuguese (consortium of universities, free and open, public administration first, 5.5 million euros); aims, not results.",
    "14 Nov",
-   "For journalist-portugal, categories Portugal and AI. Updated 15 Nov before drafting. Do not link AMALIA to ANIA. INESC-ID says 80 researchers, the government and NOVA FCT around 60: report both. The authors' own paper (abstract only) says it is a fully open model; their tests, not checked."
+   "For journalist-portugal, categories Portugal and AI. Updated 15 Nov before drafting. Do not link AMALIA to ANIA. INESC-ID says 80 researchers, the government and NOVA FCT around 60: report both. The authors' own paper (abstract only) says it is a fully open model; their tests, not checked. Full text of the authors' paper: built on EuroLLM-9B, 5.8 billion tokens of filtered European Portuguese from the Portuguese Web Archive, personal data removed; their own claims, results tables not read."
   ],
   [
    "S61",
@@ -744,7 +744,8 @@
    "v-huggingface-amalia-9b-dpo",
    "v-digital-gov-pt-ania",
    "v-digital-gov-pt-amalia",
-   "v-arxiv-amalia-technical-report"
+   "v-arxiv-amalia-technical-report",
+   "v-arxiv-amalia-full-text"
   ],
   "S65": [
    "v-postal-best-number-one",
@@ -1095,7 +1096,7 @@
   [
    "S64",
    "the Portugal desk (journalist-portugal)",
-   "The government says, in its own news item, what its National AI Agenda (ANIA) is; INESC-ID and NOVA FCT say what AMALIA is, the first language model for European Portuguese, and the project's own Hugging Face page shows a released checkpoint under Apache 2.0; re-read the pages yourself, attribute everything, treat use cases and impact as expectations, report the researcher counts as they are (INESC-ID 80; NOVA FCT and the government's own explainer around 60); the explainer says the final version launched 1 July 2026, free and open, public administration first, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI; the authors' technical report (arXiv abstract) is a primary source: its test results are the authors' own, not checked"
+   "The government says, in its own news item, what its National AI Agenda (ANIA) is; INESC-ID and NOVA FCT say what AMALIA is, the first language model for European Portuguese, and the project's own Hugging Face page shows a released checkpoint under Apache 2.0; re-read the pages yourself, attribute everything, treat use cases and impact as expectations, report the researcher counts as they are (INESC-ID 80; NOVA FCT and the government's own explainer around 60); the explainer says the final version launched 1 July 2026, free and open, public administration first, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI; the authors' technical report (arXiv abstract) is a primary source: its test results are the authors' own, not checked; the paper's full text says how it was built (EuroLLM-9B base, 5.8 billion tokens of filtered European Portuguese from the Portuguese Web Archive with personal data removed, open-licensed sources only): attribute to the authors, do not tie the GPU-hour figures to a stage"
   ],
   [
    "S66",
