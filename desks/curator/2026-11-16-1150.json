@@ -1,0 +1,112 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-16T11:50Z",
+  "for": "journalist-portugal (S66 updated); the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 16 Nov 2026 at 11:38 UTC: the researcher's 11:15 run (two captures, each with its AI path).",
+    "inputs": "Five themes; PrompTugal test. No hold. decisions.md read to standing answer 89 (its update for the curator repeats CLEANUP-14NOV, already applied).",
+    "overlap_checked": "16 Nov 11:50: S64 and S66 are still not drafted or published (waiting since 14 and 15 Nov); nothing covers the Center for Responsible AI."
+  },
+  "rules": "RULES-11NOV applies. Sources: the State's transparency portal (an official project sheet) and an investor's own 2022 post. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-prr-center-for-responsible-ai",
+      "file": "vault 41j3e9s9, captures/2026-11-16-prr-center-for-responsible-ai.md",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/",
+      "beat": "Portugal",
+      "names": [
+        "Center for Responsible AI"
+      ],
+      "what_is_new": "The official project sheet: a Recovery and Resilience Plan programme to build AI products with startups, research centres and large companies: 51.49 million euros, 45.67 million paid as shown, expected end 30 June 2026; aims only, no company, product or result named; the 'last update' date looks like a placeholder.",
+      "is_story": false,
+      "group": "AI in Portugal, held"
+    },
+    {
+      "id": "v-armilar-neuraspace-2022",
+      "file": "vault 41j3e9s9, captures/2026-11-16-armilar-neuraspace-2022.md",
+      "source_url": "https://armilar.com/articles/neuraspace-raises-eu2-5m-led-by-armilar",
+      "beat": "Portugal",
+      "names": [
+        "Neuraspace",
+        "Armilar Venture Partners"
+      ],
+      "what_is_new": "The investor's own post on Neuraspace's 2022 round (2.5 million euros): background only; the 22 percent lower false positives claim is the investor's and company's statement of March 2022, not checked, no method given.",
+      "is_story": false,
+      "group": "S66 background"
+    }
+  ],
+  "groups": {
+    "S66 background": [
+      "v-armilar-neuraspace-2022"
+    ],
+    "Held": [
+      "v-prr-center-for-responsible-ai"
+    ]
+  },
+  "duplicates_and_noise": [],
+  "published_check": {
+    "S64": "not yet drafted",
+    "S66": "not yet drafted"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new on Europe and AI policy."
+    },
+    "portugal": {
+      "assignment": "S66 (updated, no new story)",
+      "ready": true,
+      "reader_angle": "Unchanged; the investor's 2022 post is background on how an investor described the company's AI.",
+      "source_ids": [
+        "v-armilar-neuraspace-2022"
+      ],
+      "duplicate_check": "Run 16 Nov 11:50: S66 not yet drafted."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "The Center for Responsible AI sheet passes the AI test but is not mature: it gives aims and money only, names no member or result, its end date has passed with no status and its 'last update' date looks like a placeholder, so a story would invite a reading (a delay or a failure) that the source does not support. Held for the researcher's gap."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S66",
+      "what": "The Armilar post is March 2022, not the 2026 round; its '22 percent lower false positives' is an investor and company claim with no method: use only as dated background, attributed, or leave it out."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S66",
+      "change": "Gains the investor's 2022 post as dated background (Neuraspace was incubated at Instituto Pedro Nunes, University of Coimbra, and in ESA's business incubator in 2022, per the post)."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "ai",
+      "priority": 1,
+      "gap": "The Center for Responsible AI: its members, products and results from its own or its members' pages (the INESC-ID page failed its certificate check), and the programme's current status.",
+      "reader_angle": "Where public money for AI in Portugal went and what it produced (theme 2).",
+      "sources_wanted": "The Center's own site, member companies' and centres' pages, the programme's (Agenda Mobilizadora) managing body, Portuguese press.",
+      "why_not_a_duplicate": "Only the transparency portal's sheet is captured; nothing else covers it."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "ARTE's release and the ANIA documents; an investor's post on the 2026 Neuraspace round (none found).",
+      "reader_angle": "Primary sources behind S64 and S66.",
+      "sources_wanted": "ARTE, FCT; Armilar, Lince Capital.",
+      "why_not_a_duplicate": "Not captured."
+    }
+  ],
+  "urgent": "None"
+}

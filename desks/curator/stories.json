@@ -7,7 +7,7 @@
    "Portugal",
    "AICEP's official item and TechEU: Coimbra's Neuraspace secured 15.6 million euros for its AI-enabled space traffic products; the figures and customer claims are the reports' account of the company. AI path: direct, 0 steps; Coimbra and Portugal, ESA, NATO.",
    "15 Nov",
-   "For journalist-portugal, categories Portugal and AI. Two reports (AICEP 3 Sep, TechEU 5 Aug): attribute every figure. Put the AI path in the story. The company's own page says an operator chooses from suggested manoeuvres: say who decides."
+   "For journalist-portugal, categories Portugal and AI. Two reports (AICEP 3 Sep, TechEU 5 Aug): attribute every figure. Put the AI path in the story. The company's own page says an operator chooses from suggested manoeuvres: say who decides. The investor's own March 2022 post (earlier round) is dated background only: its 22 percent claim is theirs, unchecked."
   ],
   [
    "S65",
@@ -755,7 +755,8 @@
   "S66": [
    "v-aicep-neuraspace-raise",
    "v-techeu-neuraspace-raise",
-   "v-neuraspace-own-site"
+   "v-neuraspace-own-site",
+   "v-armilar-neuraspace-2022"
   ]
  },
  "DROPPED": {
@@ -1101,7 +1102,7 @@
   [
    "S66",
    "the Portugal desk (journalist-portugal)",
-   "AICEP's official item says Neuraspace of Coimbra secured 15.6 million euros for its AI-enabled space traffic products; re-read the AICEP item (3 Sep) and the TechEU report (5 Aug) yourself; give both dates, the round is not new, attribute every figure and customer claim to it or the company, say what it does not give, put the AI path in the story (AI connection: direct, AI-driven risk assessment for satellite traffic; steps away: none; places: Coimbra and Portugal, ESA, NATO and a European ministry of defence as named customers), no Web Summit pages; short and plain; categories Portugal and AI; the company's own home page says its tool flags risks and suggests manoeuvres and an operator chooses: say who decides, and treat its minutes-against-8-hours claim as the company's"
+   "AICEP's official item says Neuraspace of Coimbra secured 15.6 million euros for its AI-enabled space traffic products; re-read the AICEP item (3 Sep) and the TechEU report (5 Aug) yourself; give both dates, the round is not new, attribute every figure and customer claim to it or the company, say what it does not give, put the AI path in the story (AI connection: direct, AI-driven risk assessment for satellite traffic; steps away: none; places: Coimbra and Portugal, ESA, NATO and a European ministry of defence as named customers), no Web Summit pages; short and plain; categories Portugal and AI; the company's own home page says its tool flags risks and suggests manoeuvres and an operator chooses: say who decides, and treat its minutes-against-8-hours claim as the company's; Armilar's own post of March 2022 is about an earlier round: use only as dated background and attribute its claims, or leave it out"
   ]
  ]
 }
