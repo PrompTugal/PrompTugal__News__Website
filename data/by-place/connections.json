@@ -1247,6 +1247,27 @@
         "albufeira",
         "loule"
       ]
+    },
+    {
+      "what": "Algarve 6.0 Smart Territorial Hub: an inter-municipal PRR-funded consortium of Sao Bras de Alportel, Olhao, Loule, Tavira, Vila Real de Santo Antonio and Alcoutim to build an urban-management platform and digital tools (search extracts of Mais Algarve and Jornal do Algarve, 2025). No AI, vendor or go-live found; the PRR transparency page opened was the wrong beneficiary and listed no project.",
+      "url": "https://maisalgarve.pt/2025/06/26/sao-bras-de-alportel-da-mais-um-passo-para-um-territorio-inteligente-e-sustentavel/",
+      "why_open": "A council or PRR project sheet that names the platform and any AI",
+      "places": [
+        "sao-bras-de-alportel",
+        "olhao",
+        "loule",
+        "tavira",
+        "vila-real-de-santo-antonio",
+        "alcoutim"
+      ]
+    },
+    {
+      "what": "AMAL (the 16 councils' community): AlgarveMaisDigital, about 2.2 million euros with 80% ERDF, shared platforms for all 16 municipalities (an events platform, a training-management platform presented 14 May 2026). Digital back-office tools, no AI stated in what was seen.",
+      "url": "https://amal.pt/atividades/transformacao-digital/algarvemaisdigital",
+      "why_open": "Search extract only; no AI path as seen",
+      "places": [
+        "algarve"
+      ]
     }
   ],
   "social": [
