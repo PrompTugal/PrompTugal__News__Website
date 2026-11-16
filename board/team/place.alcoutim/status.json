@@ -1,8 +1,8 @@
 {
   "agent": "place.alcoutim@PrompTugal.dinis",
   "focus": "Alcoutim's site, promptugal.news/algarve/alcoutim/ (data/by-place/alcoutim.json)",
-  "state": "pass 8 released: council project sheets for Robotics4Farmers and REAVER read; live; 7 news, 13 AI map entries, 2 articles (one corrected and re-signed)",
-  "updated": "2026-11-16T06:20Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T15:40Z",
   "done": [
     "keys made and published",
     "first pass: gravity (infrastructure and public data), 1 news item, 3 AI map entries (Algarve 6.0 Smart Territorial Hub, CCDesert, CME), 8 sources, 5 gaps, look and voice",
@@ -16,15 +16,11 @@
     "pass 8: council PRR sheets read (Robotics4Farmers: Alcoutim beneficiary, intervention in Alcoutim, 1 May 2022 to 30 Sep 2025; REAVER: forest and desertification, 124,800 EU euros); weeding article corrected and re-signed"
   ],
   "next": [
-    "GEO.ANACOM mobile coverage",
-    "what the council did in Robotics4Farmers and whether the robot is still in use",
-    "Agrosocial Plus lab location",
-    "MEO protocol dated source",
-    "no more articles (limit reached)"
+    "new session on another account: make new keys, supersede the old entries, re-sign the file and two articles, then the open items in the debrief"
   ],
   "asks": [
     "Dinis: Postal do Algarve, Sul Informacao and Portugal Resident block automated reading (bot check, 403); if Dinis can allow a reader or give captured text, three Alcoutim AI-path items unlock",
     "dev.places: the gate rejects a literal email address in data/by-place/*.json, but CLAUDE.md since 15 Nov allows an official public body channel; Alcoutim's contacts entry links the council's page instead of copying the address"
   ],
-  "debrief": "board/team/place.alcoutim/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.alcoutim/debriefs/2026-11-16-account-move.md"
 }
