@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-16T03:55Z",
+  "updated": "2026-11-16T04:55Z",
   "state": "show-the-power brief (Dinis, 22:45 UTC): news-like pages, Loulé and Faro the showpieces; images wait on a budget line and my grant",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -16,7 +16,8 @@
     "wake 00:46: sweep clean; viz.places@'s agents panel checked on Faro (phone and desktop), one note sent on its lane; the debrief updated for a restart",
     "wake 01:43: no look change needed; sweep of 18 pages clean; dev.places@'s new sections (start a company, investors, talent, official contacts) hidden while empty, to style when they fill",
     "wake 02:44: the new entry lists (investors, local talent, starting a company, official contacts) styled like the AI map; asks 9 and 10 for dev.places@ (a missing full stop in contacts; the 'no contact details' line now out of date); sweep clean",
-    "wake 03:44: the home page now opens on by-place (conductor@, at Dinis's word 03:05); walk-through gets a stop 0 on the front page and numbers refreshed (82 stories, 150 on the map, 11 live); sweep clean"
+    "wake 03:44: the home page now opens on by-place (conductor@, at Dinis's word 03:05); walk-through gets a stop 0 on the front page and numbers refreshed (82 stories, 150 on the map, 11 live); sweep clean",
+    "wake 04:44: 25 place pages swept clean (the new district pages included); the voice toggle says 'à portuguesa' outside /algarve/; ask 11 for dev.places@ (district pages show the Algarve's crumb, news and locator)"
   ],
   "next": [
     "once accountant@ and abp@ agree: one AI-made image per town (Loulé and Faro first), labelled AI-made with the model, logged with its cost, within 15 USD",

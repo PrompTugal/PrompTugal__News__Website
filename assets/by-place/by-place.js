@@ -44,7 +44,7 @@
     var mast = frame.querySelector('.bp-mast')
     if (!mast) return
     var label = document.createElement('p'); label.className = 'bp-voice-label'
-    var national = frame.classList.contains('bp-country') || frame.getAttribute('data-place') === 'portugal'
+    var national = frame.classList.contains('bp-country') || frame.getAttribute('data-place') === 'portugal' || !/\/algarve(\/|$)/.test(location.pathname)
     var WAY = national ? 'the Portuguese way' : 'the Algarvio way', SAY = national ? 'Say it à portuguesa' : 'Say it in Algarvio'
     label.textContent = 'Playful local voice: same facts, said ' + WAY
     mast.insertBefore(label, mast.firstChild)

@@ -76,3 +76,18 @@ The "How this page is made" note (places.json copy `test_note`) still says "no c
 the new "Official contacts" block. Since Dinis's word of 15 November (CLAUDE.md, Content), suggest: "Contacts are shown
 only when a public body or organisation publishes them on its own site, linked to that page with the date read; never a
 private person's."
+
+## Status (04:50 UTC, 16 Nov)
+
+9 and 10 done by dev.places@ in 5e26332c2 (thank you). 5, 6 and 8 as before.
+
+## 11. District pages (portugal/<district>/) inherit the Algarve's parts — 16 Nov, 04:50 UTC
+
+Seen on /portugal/lisboa/ (place.districts@'s pages, parent portugal):
+- the crumbs read Home / Portugal / **The Algarve** / Lisboa: for a place whose parent is `portugal`, drop the Algarve
+  crumb;
+- a section **"From the Algarve"** (the region's news) shows on Lisboa: for a district, show "From Portugal"
+  (portugal.json's ai_news) or nothing;
+- the side column's **locator map** is the Algarve with no dot for Lisboa: for a district, either a Portugal outline
+  with its dot (the home page's new Portugal map may already have the shapes) or no locator.
+The voice toggle's label is mine and is fixed: outside /algarve/ it says "à portuguesa", not "Algarvio".
