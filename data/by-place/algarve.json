@@ -359,6 +359,12 @@
       "url": "https://www.iapmei.pt/",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Algarve Evolution: members list (67 members, four pages)",
+      "url": "https://www.algarveevolution.pt/model/members?order=name+asc",
+      "kind": "business",
+      "feed": null
     }
   ],
   "events": [
@@ -406,6 +412,16 @@
     }
   ],
   "ai_map": [
+    {
+      "name": "LeiGPT",
+      "type": "startup",
+      "url": "https://leigpt.pt/",
+      "what": "AI platform for lawyers on Portuguese law, registered in Faro and a member of Algarve Evolution, which its site lists with Google for Startups and Akamai among its partners and supporters. It answers legal research questions with citations to codes and court rulings, analyses documents, and runs as a cloud service or on a client's own servers. Available now, with a free one-day trial.",
+      "source_url": "https://leigpt.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "Its product is an AI assistant for legal work.",
+      "steps": 0
+    },
     {
       "name": "Algarve Evolution",
       "type": "organisation",
@@ -690,7 +706,7 @@
       "name": "AI Aumentar, Lda.",
       "type": "company",
       "url": "https://www.algarveevolution.pt/model/members/ai-aumentar-lda-3274",
-      "what": "Listed as a member of Algarve Evolution. The member page gives no description, town or product: the name suggests an AI focus and we have not confirmed it. Needs its own source.",
+      "what": "Listed as a member of Algarve Evolution. The member page gives no description and links to concha-ai.com, a decision-intelligence product for leadership hiring, but that site does not mention AI Aumentar, so the link between them is unconfirmed. Needs its own source.",
       "source_url": "https://www.algarveevolution.pt/model/members/ai-aumentar-lda-3274",
       "read_on": "2026-11-16",
       "ai_path": "Its name points to AI, which is unconfirmed.",
@@ -699,12 +715,12 @@
     {
       "name": "DSPA (Data Science Portuguese Association)",
       "type": "organisation",
-      "url": "https://www.algarveevolution.pt/model/members/dspa-data-science-portuguese-association-3229",
-      "what": "Listed as a member of Algarve Evolution. The member page gives no description or town: the name suggests a data science focus and we have not confirmed what it does in the Algarve. Needs its own source.",
-      "source_url": "https://www.algarveevolution.pt/model/members/dspa-data-science-portuguese-association-3229",
+      "url": "http://www.dspa.pt",
+      "what": "National association for data science and AI that is listed as a member of Algarve Evolution. Its own site lists a generative AI certification, an AI Act compliance programme for businesses, an AI agents day for executives and the annual INSIGHTS conference. The site states no Algarve link: it appears on the map because of the membership.",
+      "source_url": "http://www.dspa.pt",
       "read_on": "2026-11-16",
-      "ai_path": "Data science is the base of most AI, and its activities are unconfirmed.",
-      "steps": 1
+      "ai_path": "It is a national data science and AI association.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -779,12 +795,13 @@
     "Feeds read and working: Barlavento's AI tag, Sul Informação, Jornal do Algarve and Postal. None of the Algarve universities' or the CCDR's news pages gave a feed.",
     "Barlavento's two AI items without a clear Algarve company (a national poll on AI instead of seeing a doctor, and a book on AI that includes an Olhão author) were left out as national or personal.",
     "UAlg centres: CIMA's page lists marine monitoring and open-data projects but no AI, CCMAR's home page describes no AI beyond a DeepLabCut crash course in December, and CINTAL's page mentions no AI. The SEA-EU alliance lists developing its Green and AI Charters among its priorities (a July 2025 article), but we found no charter text.",
-    "Algarve AI Agents and Artificial Intelligence Algarve have no public site we can read: their meetup listings sit on Luma and Meetup, which we do not read, and the second is LinkedIn only. We should ask Algarve Evolution for a public page, or for dates.",
-    "Algarve Evolution's members list has four pages and we read only the first 20 names (pagination did not work for our reader). Member pages give no description, so AI Aumentar and DSPA are on the map by name only. The Dengun AI Hub and a Dengun programme for SMEs appear in search results from Postal, which we cannot read: Dengun stays a lead until we have a source.",
     "Investment map: we found no 2026 funding round for an Algarve-founded AI startup. Leads whose articles we could not open: COREangels Algarve (an angel group), Sotavento Invest, the Dengun Founders Program (about 20 investor groups as partners) and INDICO Capital Partners.",
     "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel. A search shows Rádio Universitária do Algarve and a closed Rádio Solar Algarve, but we opened no radio page. Blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them.",
     "Finding: the national AI training call for companies in Portugal 2030's plan does not include the Algarve, while the Algarve's own AI help so far comes from the INOVA ALGARVE 3.0 pilot and local bodies. We should check the formal notice when it is launched and whether ALGARVE2030 plans an AI call of its own.",
-    "Starting a company here: the Algarve calls we found earlier have closed. Portugal 2030's plan lists 18 ALGARVE2030 calls and we read only part of the list: the spreadsheet of the full plan and the formal notices, once launched, are not read, and the call pages state no budgets."
+    "Starting a company here: the Algarve calls we found earlier have closed. Portugal 2030's plan lists 18 ALGARVE2030 calls and we read only part of the list: the spreadsheet of the full plan and the formal notices, once launched, are not read, and the call pages state no budgets.",
+    "Algarve Evolution's members list (67 members over four pages, read in full) gives names only. The member pages link to each firm's own site, and we have read LeiGPT, DSPA, QXote (an Alentejo farm initiative, no AI) and Visualforma (smart-city software for councils, no AI mentioned). Other technology members whose sites we have not read: Indrant, Streamworx, Omnibees Portugal, HHS Host Hotel Systems, W4M Digital Solutions, TKB ICTTeck4Biz, Sisgarbe and Atos.",
+    "Algarve AI Agents and Artificial Intelligence Algarve have no public site we can read: their meetup listings sit on Luma and Meetup, which we do not read, and the second is LinkedIn only. We should ask Algarve Evolution for a public page, or for dates.",
+    "Hint for the Faro agent: LeiGPT is registered in Faro and is a real local AI product, a candidate for its map and a story."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
