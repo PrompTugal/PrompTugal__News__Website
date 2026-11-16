@@ -62,5 +62,13 @@
   "at": "2026-11-16",
   "src": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta",
   "ok": false
+ },
+ "38e7219a32ca1e76": {
+  "t": "I pazienti del SNS possono fare fisioterapia a casa con l'IA che corregge i movimenti, e la ULS Algarve è tra le unità coinvolte",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "SNS patients can do physiotherapy at home with AI correcting",
+  "ok": false
  }
 }

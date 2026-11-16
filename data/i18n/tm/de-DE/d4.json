@@ -71,6 +71,14 @@
   "src": "The Center for Responsible AI, a publicly funded consortium ",
   "ok": true
  },
+ "d4d71054d0c7b8b7": {
+  "t": "GDG Faro veranstaltet einen Hackathon „Build with Gemma“ zu KI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "GDG Faro holds a Build with Gemma AI hackathon",
+  "ok": false
+ },
  "d4ec9af2e630ad10": {
   "t": "PrompTugal.news Aveiro: KI und Technologie in Aveiro, einer Universitäts- und Telekommunikationsstadt, deren Schwerpunkt die Universidade de Aveiro, das Instituto de Telecomunicações und der Vorstoß Aveiro Tech City der Stadtverwaltung sind, und was aus Portugal, Brasilien und der Welt in Aveiro ankommt. Unabhängig; jede Tatsache mit Quelle.",
   "by": "translator@PrompTugal.dinis",

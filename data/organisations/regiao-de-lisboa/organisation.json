@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "regiao-de-lisboa",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Região de Lisboa",
+  "names_as_listed": [
+    "Região de Lisboa"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: No contact or ficha-técnica page found at /contactos or /ficha-tecnica (404); generic address not recorded. Same director and owner as Setúbal Informação (127849), A Voz de Évora (127856), Jornal de Beja (127858) and Jornal de Portalegre (127859) in the ERC register: a SAPO-hosted local network, not mapped as separate files yet.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:lisbon"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://regiaodelisboa.sapo.pt/",
+    "owner": {
+      "name": "Words Wizard, Lda.",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://regiaodelisboa.sapo.pt/feed",
+        "format": "rss",
+        "source": {
+          "url": "https://regiaodelisboa.sapo.pt/feed",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/xml, RSS 2.0 body (channel title 'Região de Lisboa')"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "Anjos Costa",
+        "role": "Diretor (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127603 for 'Região de Lisboa (online, regional, Informação Geral)'. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://regiaodelisboa.sapo.pt/feed",
+        "read_at": "2026-11-16",
+        "how": "Feed fetched: RSS 2.0 body."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127603 for 'Região de Lisboa (online, regional, Informação Geral)'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://regiaodelisboa.sapo.pt/feed",
+      "read_at": "2026-11-16",
+      "how": "Feed fetched: RSS 2.0 body.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -829,7 +829,9 @@
     "Finding: in Portugal 2030's call plan none of the seven AI or digital calls includes the Algarve, and the national AI training call for companies (80 million euros) covers only Alentejo, Centro and Norte. The Algarve's own AI help so far comes from the INOVA ALGARVE 3.0 pilot and local bodies. We should check whether ALGARVE2030 plans an AI call of its own and read the formal notices once launched.",
     "Starting a company here: the Algarve calls we found earlier have closed, and the plan lists new ALGARVE2030 calls opening from 30 September 2026. The formal notices, with eligibility and amounts, are not yet read, and the plan's budgets are forecasts.",
     "Faro airport traffic for November, IPMA warning levels, algarve2030.gov.pt, amal.pt and ualg.pt were not opened on 16 November; the October airport figure seen in a search snippet is not verified.",
-    "Seen only as headlines: Olhão teachers on Erasmus+ AI and VR training (Postal, 5 November), and CCDR items of 26 October (Matéria Adentro, POCTEP 2021-2027, citrus innovation)."
+    "Seen only as headlines: Olhão teachers on Erasmus+ AI and VR training (Postal, 5 November), and CCDR items of 26 October (Matéria Adentro, POCTEP 2021-2027, citrus innovation).",
+    "IPMA warnings for today could not be read: the ipma.pt warnings page the sub-agent tried returned a 404. Check ipma.pt directly. The CCDR notice of 11 November and its 24 November water conference were read from the list page only.",
+    "The Castro Marim dementia congress claim has now failed a second check: no official page shows it, and search found only the 2024 first edition. Treated as not true until a page we can open shows it."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
@@ -882,6 +884,29 @@
       "ai_path": "no AI",
       "steps": 0,
       "blast_radius": "Loulé"
+    },
+    {
+      "title": "CCDR Algarve's Matéria Adentro turns local cane, oyster shell and clay into products",
+      "summary": "Results of creative residencies presented on 22 October in Faro: three cane insulation proposals and a modular rammed-earth bench. The roundtable named certification, sales and public procurement as the hurdles. Part of INOVA ALGARVE 3.0, co-financed by Algarve 2030.",
+      "date": "2026-10-26",
+      "publisher": "CCDR Algarve",
+      "url": "https://www.ccdr-alg.pt/site/info/inovacao-em-destaque-na-apresentacao-dos-resultados-do-projeto-materia-adentro",
+      "read_on": "2026-11-16",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "CCDR Algarve presents the results of POCTEP 2021-2027 cross-border projects",
+      "summary": "A session on 9 November at the CCDR auditorium for Algarve-led projects of the Spain-Portugal programme, to recognise beneficiaries and encourage networking.",
+      "date": "2026-10-26",
+      "publisher": "CCDR Algarve",
+      "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-promove-sessao-de-apresentacao-dos-resultados-de-projetos-poctep-2021-2027",
+      "read_on": "2026-11-16",
+      "significance": "region and neighbours",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Andalusia (Huelva)"
     }
   ],
   "contacts": [

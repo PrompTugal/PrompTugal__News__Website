@@ -81,6 +81,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "d4d71054d0c7b8b7": {
+  "t": "GDG Faro organiza un hackatón de IA Build with Gemma",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "GDG Faro holds a Build with Gemma AI hackathon",
+  "ok": false,
+  "from": "es-ES"
+ },
  "d4ec9af2e630ad10": {
   "t": "PrompTugal.news Aveiro: IA y tecnología en Aveiro, una ciudad universitaria y de telecomunicaciones cuyo centro de gravedad son la Universidade de Aveiro, el Instituto de Telecomunicações y el impulso Aveiro Tech City del ayuntamiento, y lo que llega a Aveiro desde Portugal, Brasil y el mundo. Independiente; cada dato con su fuente.",
   "by": "translator@PrompTugal.dinis",

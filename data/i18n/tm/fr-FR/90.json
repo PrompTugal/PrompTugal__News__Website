@@ -15,5 +15,13 @@
   "at": "2026-11-16",
   "src": "Presented on 1 July 2026 at the Técnico Innovation Center in",
   "ok": true
+ },
+ "90ef9f9dbb2944f8": {
+  "t": "La conférence d'Albufeira sur un système de prévention des séismes assisté par l'IA est reportée au 27 novembre",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Albufeira conference on an AI-assisted earthquake prevention",
+  "ok": false
  }
 }

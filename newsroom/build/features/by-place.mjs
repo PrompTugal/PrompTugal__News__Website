@@ -18,6 +18,9 @@ const okUrl = u => typeof u === 'string' && /^https?:\/\/[^\s]+$/i.test(u.trim()
 // a URL safe inside a markdown link: http(s) only, no spaces or bare parentheses (they would end the link)
 const url = u => okUrl(u) ? u.trim().replace(/\(/g, '%28').replace(/\)/g, '%29') : ''
 
+import { mediaBlock, localMedia } from './media.mjs'
+import { placeFeed } from '../lib/feeds.mjs'
+import { nearbyOf } from './datasci-places.mjs'
 function load(ctx) {
     const raw = ctx.readJSON(LIST)
     const byId = new Map()
@@ -45,12 +48,12 @@ function load(ctx) {
 
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, '') } catch { return u } }
 const dmy = s => (s && /^\d{4}-\d{2}-\d{2}/.test(s)) ? s.slice(0, 10) : (s || '')
-const local = p => p.kind === 'municipality' || p.kind === 'city'
+const isLocalPlace = p => p.kind === 'municipality' || p.kind === 'city'
 // the Algarve's towns (parent algarve, or a city inside one of them) for the region page, its map and its counts; every
 // local place, the district capitals under portugal included (place.districts@), still gets its own page
 const inAlgarve = (L, p) => { for (let q = p, i = 0; q && i < 5; q = L.byId.get(q.parent), i++) if (q.parent === 'algarve') return true; return false }
-const towns = (L) => L.list.filter(p => local(p) && inAlgarve(L, p))
-const pagePlaces = (L) => L.list.filter(local)
+const towns = (L) => L.list.filter(p => isLocalPlace(p) && inAlgarve(L, p))
+const pagePlaces = (L) => L.list.filter(isLocalPlace)
 const W = (L, key, vars = {}) => String(L.copy[key] || '').replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? '')
 const n = (k, one, many) => `${k} ${k === 1 ? one : (many || one + 's')}`
 
@@ -156,6 +159,7 @@ function sideCol(ctx, L, p, rel, inside) {
     const v = p.voice || {}
     let md = ''
     if (inside.length) md += `{.mini-h}\nInside ${esc(ctx, p.name)}\n\n${inside.map(x => `- [${esc(ctx, x.name)}](${ctx.link(rel, `${x.path}index.html`)})`).join('\n')}\n\n`
+    md += mediaBlock(ctx, p, rel, [p.id, p.parent, 'algarve', 'portugal'].filter(Boolean))
     md += `{.mini-h}\nEvents\n\n` + (p.events.length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
     if (p.kind !== 'country' && !nowBlock(ctx, p)) md += `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
     if (p.extras.length) md += `{.mini-h}\nIn figures\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
@@ -164,6 +168,22 @@ function sideCol(ctx, L, p, rel, inside) {
     md += `{.mini-h}\nSources we read\n\n` + (p.sources.length ? `{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${s.kind ? ` · ${esc(ctx, s.kind)}` : ''}${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}` : `{.bp-empty}\nBeing listed.`) + '\n\n'
     md += `{.mini-h}\nGaps\n\n` + voiceBlock((p.gaps.length ? `{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : 'None recorded.'), v.gaps_intro ? `{.bp-gaps}\n- ${esc(ctx, v.gaps_intro)}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : null) + '\n'
     return md
+}
+
+// "Around <town>" (Dinis, 16 Nov; board/briefs/2026-11-16-blast-radius.md): the neighbours' stories that reach this place,
+// nearest first, from datasci-places' nearby rule. Words: assets/by-place/around.json. The same list is in the place's JSON.
+let AROUND = null
+const aroundW = ctx => AROUND || (AROUND = ctx.readJSON('assets/by-place/around.json'))
+function aroundItems(ctx, p, skipUrls) {
+    let d; try { d = nearbyOf(ctx, p.id) } catch { return [] }
+    return ((d && d.items) || []).filter(i => i.shown && i.from !== p.id && url(i.url) && !skipUrls.includes(i.url)).sort((a, b) => (b.adjacent - a.adjacent) || ((a.km ?? 999) - (b.km ?? 999))).slice(0, 5)
+        .map(i => ({ title: i.title, url: i.url, publisher: i.publisher || null, date: i.date || null, from: i.from, from_name: i.from_name, km: i.km, distance: i.distance, adjacent: !!i.adjacent, why: i.why }))
+}
+function aroundBlock(ctx, p, items) {
+    const w = aroundW(ctx)
+    if (!items.length) return ''
+    return `## ${w.heading.replace('{name}', esc(ctx, p.name))} {#around}\n\n${w.intro}\n\n{.bp-cards .bp-small}\n` +
+        items.map(i => `- \`${esc(ctx, i.distance)}\`${i.adjacent ? ` · ${w.next_door}` : ''} **[${esc(ctx, i.title)}](${url(i.url)})** *${esc(ctx, [i.publisher || host(i.url), dmy(i.date)].filter(Boolean).join(', '))}*`).join('\n') + '\n\n'
 }
 
 function townPage(ctx, L, p) {
@@ -181,6 +201,8 @@ function townPage(ctx, L, p) {
     md += `\n::: cols-8-4\n::: col\n`
     md += gravityBlock(ctx, L, p)
     md += `## AI in ${esc(ctx, p.name)} {#local}\n\n` + (local.length ? newsCards(ctx, local, 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
+    const around = algarve && isLocalPlace(p) ? aroundItems(ctx, p, wider.map(a => a.url)) : []
+    md += aroundBlock(ctx, p, around)
     if (ours.length) md += `## ${W(L, 'articles_h', { name: esc(ctx, p.name) })} {#ours}\n\n${articleList(ctx, rel, ours)}`
     if (wider.length) md += `## ${algarve ? 'From the Algarve' : 'From Portugal'} {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
     if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest)}`
@@ -354,6 +376,10 @@ export function pages(ctx) {
         const alts = [{ lang: 'en-GB', rel: pg.rel }, { lang: 'x-default', rel: pg.rel }, ...tr.filter(t => t.rel === `${t.lang}/${pg.rel}`).map(t => ({ lang: t.lang, rel: t.rel }))]
         pg.alternates = alts
         for (const t of tr) if (t.rel === `${t.lang}/${pg.rel}`) t.alternates = alts
+        // the place's feeds (lib/feeds.mjs) in the head, for feed readers and local media; no link in the page (dev@, 16 Nov)
+        const place = L.list.find(x => `${x.path}index.html` === pg.rel)
+        if (place) pg.feeds = [{ type: 'application/rss+xml', title: `PrompTugal.news: ${place.name}`, rel: `api/v1/by-place/${place.id}/feed.xml` },
+            { type: 'application/feed+json', title: `PrompTugal.news: ${place.name}`, rel: `api/v1/by-place/${place.id}/feed.json` }]
     }
     return [...en, ...tr]
 }
@@ -401,8 +427,10 @@ function placeRecord(ctx, L, p) {
         counts: { ai_news: p.ai_news.length, ai_map: p.ai_map.length, events: p.events.length, sources: p.sources.length, articles: arts.length },
         ai_news: p.ai_news.map(a => ({ ...a, provenance: provenance(p, r, a, 'story') })), ai_map: p.ai_map.map(m => ({ ...m, provenance: provenance(p, r, { ...m, url: m.source_url }, 'map entry') })), events: p.events, sources: p.sources, extras: p.extras, start_company: p.start_company, investors: p.investors, talent: p.talent, contacts: p.contacts, gaps: p.gaps, voice: p.voice || null,
         articles: arts,
+        ...(inAlgarve(L, p) && isLocalPlace(p) ? { around: aroundItems(ctx, p, (L.byId.get('algarve') ? L.byId.get('algarve').ai_news : []).slice(0, 4).map(a => a.url)) } : {}),
+        local_media: localMedia(ctx, p, [p.id, p.parent, 'algarve', 'portugal'].filter(Boolean)),
         // the wider stories its page shows ("From the Algarve" or "From Portugal"), so the page holds nothing its JSON does not
-        ...(local(p) ? (() => { const from = inAlgarve(L, p) ? 'algarve' : 'portugal', src = L.byId.get(from); return { wider_news: { from, items: (src ? src.ai_news : []).slice(0, 4) } } })() : {}),
+        ...(isLocalPlace(p) ? (() => { const from = inAlgarve(L, p) ? 'algarve' : 'portugal', src = L.byId.get(from); return { wider_news: { from, items: (src ? src.ai_news : []).slice(0, 4) } } })() : {}),
         team: { agent: p.agent, status: `${SITE_URL}board/team/${p.agent.split('@')[0]}/status.json`, debriefs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/team/${p.agent.split('@')[0]}/debriefs`, runs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/runs/${p.agent.split('@')[0]}` },
         ...(p.id === 'algarve' ? (() => { const g = regionAgg(L); return { region: {
             places: g.places, live: g.live, local_ai_news: g.localCount,
@@ -450,6 +478,7 @@ export function api(ctx) {
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}.json`, schema: null, data: { about: W(L, 'api_place_about', { name: r.name }), version: ctx.VERSION, ...r } })),
         ...recs.flatMap(r => { try { return [{ path: `api/v1/by-place/${r.id}/now.json`, schema: null, data: ctx.readJSON(`data/by-place/now/${r.id}.json`) }] } catch { return [] } }),
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/agents.json`, schema: null, data: agentsFile(ctx, L, L.byId.get(r.id)) })),
+        ...recs.flatMap(r => placeFeed(SITE_URL, r).map(f => ({ ...f, schema: null }))),   // feeds out (lib/feeds.mjs; dev@, 16 Nov)
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/articles.json`, schema: null, data: { about: W(L, 'api_articles_about', { name: r.name }), place: r.id, version: ctx.VERSION, articles: r.articles } })),
     ]
 }

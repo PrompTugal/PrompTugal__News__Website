@@ -1,0 +1,59 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.jose",
+ "run": "2026-11-16T21-57-20Z",
+ "started": "2026-11-16T21:57:20Z",
+ "ended": "2026-11-16T22:08:09Z",
+ "line": "Recorded J9 (local@ writes its own media records) and the default town order; asked outreach@ and conductor.b@ to bring the first-contact decision to Dinis",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 0,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 0,
+  "by_kind": {}
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 0,
+  "commits": [
+   {
+    "sha": "6c8475557",
+    "subject": "conductor@PrompTugal.jose: Jose's yes for local@'s run reports recorded (J8); the grant-path request answered; R4 and Sul Informação stay with Dinis",
+    "files": 5
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 0,
+  "in_mandate": 0,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

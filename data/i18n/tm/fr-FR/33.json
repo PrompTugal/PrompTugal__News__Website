@@ -23,6 +23,14 @@
   "src": "PrompTugal.news Castro Marim: we are the last town before Es",
   "ok": true
  },
+ "3386001e14ab5d16": {
+  "t": "Le WordPress Faro Meetup se demande comment l'IA change la façon dont on utilise les sites web",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "WordPress Faro Meetup asks how AI changes the way people use",
+  "ok": false
+ },
  "3398caa6a144473d": {
   "t": "L'unité de recherche, associée à Técnico, dirige un centre d'excellence sur l'IA durable et digne de confiance, avec 13 millions d'euros du programme Teaming for Excellence d'Horizon Europe et 14,2 millions de fonds nationaux. L'Institut Max Planck pour les systèmes logiciels et le Centre de recherche allemand pour l'intelligence artificielle sont partenaires.",
   "by": "translator@PrompTugal.dinis",
