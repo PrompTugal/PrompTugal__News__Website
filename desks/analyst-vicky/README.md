@@ -34,13 +34,13 @@ States: proposed, chosen, drafting, with Vicky, published, set aside. The full p
   - Computing capacity in Portugal about 60 MW in 2025; goal about 700 MW (intermediate scenario) or about 1,000 MW (accelerated) by 2030. The resolution calls this "10 to 15 times"; by its own figures it is 11.7 to 16.7 times (RCM 2/2026).
   - Demand for computing capacity about 170 MW in 2025, about 980 MW in 2030: 41% a year for Portugal, 21% for Europe (RCM 2/2026).
   - Installed capacity "practically doubled" from 2020 to 2025 and stays "significantly below" the EU average, with a low rate of projects carried out. The plan gives no MW figure (RCM 70/2026).
-  - Sines: 1.2 GW of IT capacity after an extra 705 MW from REN, up from 495 MW. Start Campus's own claim, August 2024.
+  - Sines: 37.5 MW live (SIN01), 200 MW planned (SIN02), 1.2 GW for the full campus, "purpose-built for high-density AI, Cloud, and HPC workloads". Start Campus's own figures, read 16 November 2026.
 - **What the data cannot show.** How much capacity runs AI rather than other cloud work. Whether the Agenda's "computing capacity" and Start Campus's "IT capacity" measure the same thing. Announced capacity is not built capacity. The scenarios are Government targets, not independent forecasts.
 - **Sources.**
   - [Diário da República, "Resolução do Conselho de Ministros n.º 2/2026"](https://bo.digital.gov.pt/api/assets/etic/6c8282d1-dd2d-438a-a60c-b8582c4858bb), published 8 January 2026, read 15 November 2026
   - [Diário da República, "Resolução do Conselho de Ministros n.º 70/2026"](https://bo.digital.gov.pt/api/assets/etic/2b0bb9b9-6a99-4193-b4e3-71413dea8908), published 13 April 2026, read 15 November 2026
-  - [DatacenterDynamics, report on Start Campus's 1.2 GW for SINES DC](https://www.datacenterdynamics.com/en/news/start-campus-increases-power-capacity-for-sines-dc-in-lisbon-portugal-to-12gw) (Start Campus's claim, announced August 2024), found 15 November 2026; the page itself still to be read before a draft
-  - Tried and not reached: Start Campus's release on Business Wire (refused automated reads, 15 November 2026).
+  - [Start Campus, "SINES Data Campus"](https://www.startcampus.pt/) (the company's own figures), read 16 November 2026
+  - Tried and not reached: Start Campus's 2024 release on the 1.2 GW grid allocation (Business Wire and DatacenterDynamics refused automated reads, 15 and 16 November 2026). The allocation is left out.
 
 ## A2: One firm in nine, and the gap that opened
 
