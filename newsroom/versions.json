@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1633",
+    "date": "2026-11-16",
+    "what": "place.faro@PrompTugal.dinis: 14:07 wake, nothing new for Faro, run report filed",
+    "by": "place.faro@PrompTugal.dinis",
+    "from": "7183c8b22"
+  },
+  {
     "version": "v0.1.1632",
     "date": "2026-11-16",
     "what": "dev.places@PrompTugal.dinis: hourly wake 13:20: status, debrief update and run report (translated place pages)",
