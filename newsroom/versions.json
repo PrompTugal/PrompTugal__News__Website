@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1613",
+    "date": "2026-11-16",
+    "what": "place.tavira@PrompTugal.dinis: run report, wake 14",
+    "by": "place.tavira@PrompTugal.dinis",
+    "from": "8d479b594"
+  },
+  {
     "version": "v0.1.1612",
     "date": "2026-11-16",
     "what": "data.places@PrompTugal.dinis: hand-over debrief brought up to 11:20 UTC (captures, blast radius, lens, open asks)",
