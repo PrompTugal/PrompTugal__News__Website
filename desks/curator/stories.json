@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`.",
  "stories": [
   [
+   "S67",
+   "Portugal's Center for Responsible AI: the money, partners and goals",
+   "Portugal",
+   "The State's project sheet, the programme's own sheet (led by Sword Health, 25 partners) and a 2024 interview on the Center for Responsible AI: money, goals and examples; the status after 30 June 2026 and any results are not known.",
+   "16 Nov",
+   "For journalist-portugal, categories Portugal and AI. Aims, not results; do not suggest delay or failure; the two euro figures are different measures."
+  ],
+  [
    "S66",
    "Neuraspace of Coimbra raises 15.6 million euros for AI space software",
    "Portugal",
@@ -757,6 +765,11 @@
    "v-techeu-neuraspace-raise",
    "v-neuraspace-own-site",
    "v-armilar-neuraspace-2022"
+  ],
+  "S67": [
+   "v-prr-center-for-responsible-ai",
+   "v-crai-project-sheet",
+   "v-dn-crai-2024-interview"
   ]
  },
  "DROPPED": {
@@ -886,6 +899,10 @@
   "S65": [
    "https://promptugal.news/articles/best-number-one-3wx-loule.html",
    "14 Nov"
+  ],
+  "S64": [
+   "https://promptugal.news/articles/amalia-and-ania-portugal-ai-plans.html",
+   "16 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -904,12 +921,12 @@
   "S54"
  ],
  "READY": [
-  "S64",
-  "S66"
+  "S67"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
-  "S47": "published as an update"
+  "S47": "published as an update",
+  "S66": "drafted, awaiting review"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1095,14 +1112,9 @@
  },
  "ASSIGN": [
   [
-   "S64",
+   "S67",
    "the Portugal desk (journalist-portugal)",
-   "The government says, in its own news item, what its National AI Agenda (ANIA) is; INESC-ID and NOVA FCT say what AMALIA is, the first language model for European Portuguese, and the project's own Hugging Face page shows a released checkpoint under Apache 2.0; re-read the pages yourself, attribute everything, treat use cases and impact as expectations, report the researcher counts as they are (INESC-ID 80; NOVA FCT and the government's own explainer around 60); the explainer says the final version launched 1 July 2026, free and open, public administration first, do not link AMALIA to ANIA, give no ANIA budget (the page gives none), no Web Summit pages; short and plain; categories Portugal and AI; the authors' technical report (arXiv abstract) is a primary source: its test results are the authors' own, not checked; the paper's full text says how it was built (EuroLLM-9B base, 5.8 billion tokens of filtered European Portuguese from the Portuguese Web Archive with personal data removed, open-licensed sources only): attribute to the authors, do not tie the GPU-hour figures to a stage; explain each technical term (for example large language model, open source, benchmark, tokens) in plain words at first use; record the AI connection (direct, 0 steps; Portugal and European Portuguese) in the data note"
-  ],
-  [
-   "S66",
-   "the Portugal desk (journalist-portugal)",
-   "AICEP's official item says Neuraspace of Coimbra secured 15.6 million euros for its AI-enabled space traffic products; re-read the AICEP item (3 Sep) and the TechEU report (5 Aug) yourself; give both dates, the round is not new, attribute every figure and customer claim to it or the company, say what it does not give, record the AI connection in the draft's data note, not as a paragraph of the article, and mention it in the text only where it reads naturally (what: direct, AI-driven risk assessment for satellite traffic; steps away: none; places: Coimbra and Portugal, ESA, NATO and a European ministry of defence as named customers); explain each technical term in plain words at first use, no Web Summit pages; short and plain; categories Portugal and AI; the company's own home page says its tool flags risks and suggests manoeuvres and an operator chooses: say who decides, and treat its minutes-against-8-hours claim as the company's; Armilar's own post of March 2022 is about an earlier round: use only as dated background and attribute its claims, or leave it out"
+   "The State's project sheet, the programme's own sheet (Sword Health leads, INESC-ID is the beneficiary, 25 partners) and a 2024 interview say what the Center for Responsible AI was set up to do; re-read the three pages yourself; goals are aims, not results; the 2024 figures are one founder's account, by role; the two euro figures (51.49 million State project amount; 77.7 million total agenda investment) are different things, give each with its source and do not relate them; say the status after 30 June 2026 and any results are not known, do not suggest delay or failure; name only Sword Health, INESC-ID and Unbabel; record the AI connection (direct, 0 steps; Portugal, a Porto hospital, the European regulation debate) in the data note; explain technical terms at first use; no Web Summit pages; categories Portugal and AI"
   ]
  ]
 }
