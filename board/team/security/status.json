@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-16T02:10Z",
-  "reviewed_to": "4eaaef2e2",
+  "updated": "2026-11-16T03:08Z",
+  "reviewed_to": "420a6b3dd",
   "hold": false,
   "done": [
-    "03:05 12 Nov: 35 commits clean; websummit-only pass built to conditions, switch off",
     "06:05 12 Nov: 29 commits clean; websummit-only switch post-reviewed live: holds; S39 closed",
     "09:05 12 Nov: 44 commits clean; takedown holds; side events as unread pointers",
     "12:05 12 Nov: 25 commits clean; the daily debrief written (three days late)",
@@ -14,11 +13,12 @@
     "23:05 15 Nov: 208 commits (3 days) clean; 21 place agents and 21 site keys; ABP hook change pinned; S40 again; conditions ahead for 'show the power'",
     "00:05 16 Nov: 58 commits clean; talk pane pre-reviewed (go after 2 must-fixes); Swagger UI verified against npm; capture tool and /query/ fine",
     "01:05 16 Nov: 40 commits clean; talk must-fix 1 done; must-fix 2 (conductor) open, pane stays off",
-    "02:05 16 Nov: 38 commits clean of contacts; S41 to Dinis"
+    "02:05 16 Nov: 38 commits clean of contacts; S41 to Dinis",
+    "03:05 16 Nov: 35 commits clean; talk pane must-fix 2 accepted: go to enable; first drained comments to post-review"
   ],
   "next": [
-    "post-review the talk pane before enabled turns true",
-    "follow S40, S38, S36"
+    "post-review the first drained talk comments once enabled",
+    "follow S41 (Dinis), S40, S38, S36"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
