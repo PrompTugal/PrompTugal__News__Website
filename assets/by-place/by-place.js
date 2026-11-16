@@ -127,6 +127,10 @@ BP_W = BP_W[BP_L2] || BP_W.en;
             var c = document.createElement('span'); c.className = 'bp-lvl ' + m[1].toLowerCase(); c.textContent = m[1]
             f.appendChild(c); fig = fig.slice(m[0].length); f.classList.add('bp-long')
         }
+        // 2026-11-18 12:00 -> "18 Nov 12:00" in the page's language, kept on one line (designer.places@, 16 Nov 2026)
+        fig = fig.replace(/(\d{4})-(\d{2})-(\d{2}) (\d{2}:\d{2})/g, function (all, y, mo, d, hm) {
+            try { return new Date(Date.UTC(+y, +mo - 1, +d)).toLocaleDateString(document.documentElement.lang || 'en', { day: 'numeric', month: 'short', timeZone: 'UTC' }) + ' ' + hm } catch (e) { return all }
+        })
         f.appendChild(document.createTextNode(fig))
         var frag = document.createDocumentFragment(); frag.appendChild(f)
         if (rest) { var r = document.createElement('span'); r.className = 'bp-rest'; r.textContent = rest.replace(/^\(|\)$/g, ''); frag.appendChild(r) }

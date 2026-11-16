@@ -320,6 +320,18 @@
       "significance": "town, region and country",
       "ai_path": "no AI",
       "steps": 0
+    },
+    {
+      "title": "Castro Marim's alert notice for storm Charles lists red wind, orange rain and orange sea warnings for 11 November",
+      "summary": "IPMA warnings: red wind with gusts to 120 km/h (up to 140 in exposed areas), orange rain 05:00 to 18:00, orange sea with swell of 5 to 7 m. Schools and public services closed; access to parks, forests and the shore was prohibited. The council's civil protection line is published on the page.",
+      "date": "2026-11-10",
+      "publisher": "Câmara Municipal de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/aviso-populacao-situacao-de-alerta-depressao-charles",
+      "read_on": "2026-11-16",
+      "significance": "town, region and country",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Vila Real de Santo António and Alcoutim under the same warnings"
     }
   ]
 }

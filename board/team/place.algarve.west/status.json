@@ -2,14 +2,15 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-16T21:40Z",
+  "updated": "2026-11-16T22:35Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
     "branch work/place.algarve.west created from dev",
     "first news pass: sub-agents per town, drafts in board/team/place.algarve.west/drafts/2026-11-16/ (Aljezur 3 items, Lagos 4, Silves 5, Monchique 3, Lagoa 4, Portimao 4, Vila do Bispo 0 verified)",
     "no item passes the PrompTugal test beyond weak links (Lagos 1, Lagoa Volta kiosk): the gap is the finding",
-    "21:20 wake: Vila do Bispo now has 3 sourced items; Portimao hospital story second-sourced (wording corrected) and the EMARP AI leak lead dated to Aug 2025"
+    "21:20 wake: Vila do Bispo now has 3 sourced items; Portimao hospital story second-sourced (wording corrected) and the EMARP AI leak lead dated to Aug 2025",
+    "22:20 wake: daily hand-over debrief written"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
@@ -18,10 +19,11 @@
     "Vila do Bispo: Charles impact, Sagres tourism; try the council site again",
     "Portimao: a fresher source on EMARP's loggers",
     "Silves and Monchique: Barlavento and Sul Informacao",
-    "DAILY HAND-OVER DEBRIEF still to write"
+    "make the seven site keys and fold accepted drafts into the town files"
   ],
   "asks": [
     "Dinis: none now (the sub-agent question is answered by conductor.b@ and the ABP).",
     "dev.places@: cm-viladobispo.pt news pages need JavaScript; is there a rendering fetch for agents?"
-  ]
+  ],
+  "debrief": "board/team/place.algarve.west/debriefs/2026-11-16-handover.md"
 }

@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Expresso"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Site could not be read (bot protection); owner, masthead, contacts, feed all unverified. https://expresso.pt/rss returned 403. Not guessed.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Site could not be read (bot protection); owner, masthead, contacts, feed all unverified. https://expresso.pt/rss returned 403. Not guessed. Expresso tecnologia section and RSS returned HTTP 403 to this client; no tech bylines read. (read ).",
   "media": {
     "outlet_kind": "newspaper",
     "places_covered": [
@@ -22,6 +22,11 @@
         "url": "https://expresso.pt/ficha-tecnica",
         "read_at": "2026-11-16",
         "how": "fetch refused by bot protection (HTTP 403 / JS challenge)"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 101101 for 'Expresso'. Outlet email column deliberately not recorded here."
       }
     ]
   },
@@ -30,6 +35,12 @@
       "url": "https://expresso.pt/ficha-tecnica",
       "read_at": "2026-11-16",
       "how": "fetch refused by bot protection (HTTP 403 / JS challenge)",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 101101 for 'Expresso'. Outlet email column deliberately not recorded here.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

@@ -1,0 +1,32 @@
+{
+ "id": "correio-da-manha",
+ "feed": "https://www.cmjornal.pt/rss",
+ "read_at": "2026-11-16T22:14Z",
+ "items": [
+  {
+   "title": "<![CDATA[ Mo�ambicano Ven�ncio Mondlane est� \"firme e bem-disposto\" para julgamento ]]>",
+   "link": "https://www.cmjornal.pt/mundo/detalhe/mocambicano-venancio-mondlane-esta-firme-e-bem-disposto-para-julgamento",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "<![CDATA[ Acidente ou encena��o? Burl�es abordam condutores e exigem dinheiro por supostos danos em viaturas ]]>",
+   "link": "https://www.cmjornal.pt/portugal/detalhe/acidente-ou-encenacao-burloes-abordam-condutores-e-exigem-dinheiro-por-supostos-danos-em-viaturas-veja-na-cmtv",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "<![CDATA[ \"Dizem que passei numa rotunda e que n�o parei\": burl�es encenam acidente para exigir dinheiro a condutores ]]>",
+   "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/dizem-que-passei-numa-rotunda-e-que-nao-parei-burloes-encenam-acidente-para-exigir-dinheiro-a-condutores",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "<![CDATA[ Recuperar o dinheiro perdido pode revelar-se t�o dif�cil como provar a burla por falso acidente ]]>",
+   "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/recuperar-o-dinheiro-perdido-pode-revelar-se-tao-dificil-como-provar-a-burla-por-falso-acidente",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "<![CDATA[ Faro � o distrito que apresenta maior n�mero de burlas por falsos acidentes ]]>",
+   "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/faro-e-o-distrito-que-apresenta-maior-numero-de-burlas-por-falsos-acidentes",
+   "date": "2026-11-16"
+  }
+ ]
+}
