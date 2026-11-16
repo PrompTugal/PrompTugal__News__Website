@@ -868,6 +868,240 @@
       "places": [
         "albufeira"
       ]
+    },
+    {
+      "id": "mind-epaper-portimao",
+      "from": {
+        "name": "ePaper (Mind), digital urban-planning platform with AI features",
+        "type": "product",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "Camara Municipal de Portimao",
+        "type": "public body",
+        "place": "portimao"
+      },
+      "relation": "serves",
+      "what": "Listed as one of 27 municipal clients on the vendor's own page; the page does not say which AI modules each council has switched on. ePaper's pages name AI features: online reception that validates documents, an error check before submission, a digital dossier that detects changed pages, and an AI agent announced 13 October 2026. Portimao's council also described its AI licensing module as evolved from ePaper (Barlavento, 3 July 2026).",
+      "ai_path": "The council is a listed client of an urban-planning platform with AI features.",
+      "steps": 1,
+      "source_url": "https://epaper.mind.pt/",
+      "source_title": "ePaper (Mind): vendor page, client list",
+      "source_date": "2026-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "portimao",
+        "portugal"
+      ]
+    },
+    {
+      "id": "mind-epaper-lagoa",
+      "from": {
+        "name": "ePaper (Mind), digital urban-planning platform with AI features",
+        "type": "product",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "Municipio de Lagoa",
+        "type": "public body",
+        "place": "lagoa"
+      },
+      "relation": "serves",
+      "what": "Listed as one of 27 municipal clients on the vendor's own page; the page does not say which AI modules each council has switched on. ePaper's pages name AI features: online reception that validates documents, an error check before submission, a digital dossier that detects changed pages, and an AI agent announced 13 October 2026.",
+      "ai_path": "The council is a listed client of an urban-planning platform with AI features.",
+      "steps": 1,
+      "source_url": "https://epaper.mind.pt/",
+      "source_title": "ePaper (Mind): vendor page, client list",
+      "source_date": "2026-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "lagoa",
+        "portugal"
+      ]
+    },
+    {
+      "id": "mind-epaper-loule",
+      "from": {
+        "name": "ePaper (Mind), digital urban-planning platform with AI features",
+        "type": "product",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "Municipio de Loule",
+        "type": "public body",
+        "place": "loule"
+      },
+      "relation": "serves",
+      "what": "Listed as one of 27 municipal clients on the vendor's own page; the page does not say which AI modules each council has switched on. ePaper's pages name AI features: online reception that validates documents, an error check before submission, a digital dossier that detects changed pages, and an AI agent announced 13 October 2026. Loule's council says it has contracted AI tools for planning (place file); the vendor and tool are not named there, so no link between the two is claimed.",
+      "ai_path": "The council is a listed client of an urban-planning platform with AI features.",
+      "steps": 1,
+      "source_url": "https://epaper.mind.pt/",
+      "source_title": "ePaper (Mind): vendor page, client list",
+      "source_date": "2026-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "loule",
+        "portugal"
+      ]
+    },
+    {
+      "id": "mind-epaper-faro",
+      "from": {
+        "name": "ePaper (Mind), digital urban-planning platform with AI features",
+        "type": "product",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "Municipio de Faro",
+        "type": "public body",
+        "place": "faro"
+      },
+      "relation": "serves",
+      "what": "Listed as one of 27 municipal clients on the vendor's own page; the page does not say which AI modules each council has switched on. ePaper's pages name AI features: online reception that validates documents, an error check before submission, a digital dossier that detects changed pages, and an AI agent announced 13 October 2026.",
+      "ai_path": "The council is a listed client of an urban-planning platform with AI features.",
+      "steps": 1,
+      "source_url": "https://epaper.mind.pt/",
+      "source_title": "ePaper (Mind): vendor page, client list",
+      "source_date": "2026-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "portugal"
+      ]
+    },
+    {
+      "id": "mind-epaper-castro-marim",
+      "from": {
+        "name": "ePaper (Mind), digital urban-planning platform with AI features",
+        "type": "product",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "Camara Municipal de Castro Marim",
+        "type": "public body",
+        "place": "castro-marim"
+      },
+      "relation": "serves",
+      "what": "Mind presented the project at the council's municipal-day ceremony on 24 June 2026: the ePaper Dossie Digital is being implemented, and an online urban-planning service with AI is planned for a later phase, not yet available. Castro Marim is not on the vendor's client list page, so this rests on the vendor's news item.",
+      "ai_path": "The council is a listed client of an urban-planning platform with AI features.",
+      "steps": 0,
+      "source_url": "https://epaper.mind.pt/noticias/209-castro-marim-reforca-a-aposta-na-transformacao-digital-do-urbanismo-com-o-ePaper",
+      "source_title": "Castro Marim reforca a aposta na transformacao digital do Urbanismo com o ePaper (Mind)",
+      "source_date": "2026-07-02",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "castro-marim",
+        "algarve"
+      ]
+    },
+    {
+      "id": "mind-epaper-coimbra",
+      "from": {
+        "name": "ePaper (Mind), digital urban-planning platform with AI features",
+        "type": "product",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "Municipio de Coimbra",
+        "type": "public body",
+        "place": "coimbra"
+      },
+      "relation": "serves",
+      "what": "Listed as one of 27 municipal clients on the vendor's own page; the page does not say which AI modules each council has switched on. ePaper's pages name AI features: online reception that validates documents, an error check before submission, a digital dossier that detects changed pages, and an AI agent announced 13 October 2026.",
+      "ai_path": "The council is a listed client of an urban-planning platform with AI features.",
+      "steps": 1,
+      "source_url": "https://epaper.mind.pt/",
+      "source_title": "ePaper (Mind): vendor page, client list",
+      "source_date": "2026-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "coimbra",
+        "portugal"
+      ]
+    },
+    {
+      "id": "mind-epaper-braga",
+      "from": {
+        "name": "ePaper (Mind), digital urban-planning platform with AI features",
+        "type": "product",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "Municipio de Braga",
+        "type": "public body",
+        "place": "braga"
+      },
+      "relation": "serves",
+      "what": "Listed as one of 27 municipal clients on the vendor's own page; the page does not say which AI modules each council has switched on. ePaper's pages name AI features: online reception that validates documents, an error check before submission, a digital dossier that detects changed pages, and an AI agent announced 13 October 2026.",
+      "ai_path": "The council is a listed client of an urban-planning platform with AI features.",
+      "steps": 1,
+      "source_url": "https://epaper.mind.pt/",
+      "source_title": "ePaper (Mind): vendor page, client list",
+      "source_date": "2026-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "braga",
+        "portugal"
+      ]
+    },
+    {
+      "id": "mind-epaper-vila-real",
+      "from": {
+        "name": "ePaper (Mind), digital urban-planning platform with AI features",
+        "type": "product",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "Municipio de Vila Real",
+        "type": "public body",
+        "place": "vila-real"
+      },
+      "relation": "serves",
+      "what": "Listed as one of 27 municipal clients on the vendor's own page; the page does not say which AI modules each council has switched on. ePaper's pages name AI features: online reception that validates documents, an error check before submission, a digital dossier that detects changed pages, and an AI agent announced 13 October 2026.",
+      "ai_path": "The council is a listed client of an urban-planning platform with AI features.",
+      "steps": 1,
+      "source_url": "https://epaper.mind.pt/",
+      "source_title": "ePaper (Mind): vendor page, client list",
+      "source_date": "2026-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "vila-real",
+        "portugal"
+      ]
+    },
+    {
+      "id": "mind-epaper-viana-do-castelo",
+      "from": {
+        "name": "ePaper (Mind), digital urban-planning platform with AI features",
+        "type": "product",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "Municipio de Viana do Castelo",
+        "type": "public body",
+        "place": "viana-do-castelo"
+      },
+      "relation": "serves",
+      "what": "Listed as one of 27 municipal clients on the vendor's own page; the page does not say which AI modules each council has switched on. ePaper's pages name AI features: online reception that validates documents, an error check before submission, a digital dossier that detects changed pages, and an AI agent announced 13 October 2026.",
+      "ai_path": "The council is a listed client of an urban-planning platform with AI features.",
+      "steps": 1,
+      "source_url": "https://epaper.mind.pt/",
+      "source_title": "ePaper (Mind): vendor page, client list",
+      "source_date": "2026-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "viana-do-castelo",
+        "portugal"
+      ]
     }
   ],
   "leads": [
@@ -1003,6 +1237,15 @@
       "places": [
         "albufeira",
         "silves"
+      ]
+    },
+    {
+      "what": "Albufeira's AI urban-management platform: vendor not named in the sources read, so it is not linked to ePaper. Loule's AI planning tools: vendor not named. Both may be the same product; to confirm from a council or vendor source.",
+      "url": "https://epaper.mind.pt/",
+      "why_open": "No source names the vendor",
+      "places": [
+        "albufeira",
+        "loule"
       ]
     }
   ],
