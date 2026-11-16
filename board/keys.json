@@ -422,7 +422,8 @@
         "fingerprint": "sha256:a90fa20d75018236",
         "signing_fingerprint": "sha256:2e768b7ad63c24df"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-16T19:30Z by security-promptugal-2 (the restart on this account; the old session paused at the account move, 15:40Z)"
     },
     {
       "id": "accountant-promptugal",
@@ -3327,6 +3328,24 @@
         "fingerprint": "sha256:9539bb0164fbe51d",
         "record": "sha256:e5cd9ba67ca053e1",
         "signing_fingerprint": "sha256:e5cd9ba67ca053e1"
+      },
+      "status": "active"
+    },
+    {
+      "id": "security-promptugal-2",
+      "agent": "security@PrompTugal.dinis",
+      "label": "security@PrompTugal.dinis (Claude Code session, the restart on this account)",
+      "role": "The security agent of PrompTugal.news (security@PrompTugal.dinis): the pre-review and post-review of every pass; reviews of commits for keys, tokens, contact details, private data and harm; may write board/HOLD.md (only Dinis lifts it). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 Nov 2026 with the pinned pki-agent.mjs (sha256 fcb28a1c..., checked) keygen --session; the private half stays in the session (~/.sg-send/), never in this repository.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAosVpZHaNw3UqVyZI/Lyy\nj6zSo+xpDBT91iRgFmVzpHwxcEGDRYhliEDXXHR7vcmc6HC6yMLwPn0rTK1eg57N\nhRIdP+BJ0VHkiJJ5XzWWHuVskDlbF/UU5S0w0sFb48KcEAhXSdntdmO4EvENrm1v\n8fLDuzluJ8ixvpOp5QiCvpV8hNazjLa5AozEJEJ8DITX0JdVg7AV+3YgQlOW6uRm\n/lOBFmmjl3SsYhEOMa8Q1HPRIadyywIoxQ5ZX9O9XdG5q0UIL5RiDZ6CNnG+KCwZ\n4Np/okGhM/tjvkGz9cPlQAnPBs17ewnkJT7VH31Y8bT5UNt87cjpJy4cHGu9J0pJ\nhSeMJa+R90L5yoZSArzkAMlyovBaMU0ww3LpqEIOs44915TkOlB3TI2IUaAaQ0A8\n9Xyv5BWcKjWefJB54jM98eQUH58n+yuuPqmHMU3DCyFevAEL1t0lm3c8/zjzvZ6r\nOfyg8ulORoxWO2TvxAzqpdLiDPaDV3TSMDz1V+VIsJJQjLYCMJ0oLV0eeg0Ht40L\ndFpIAFFRvnJOC5hd/UoNpdXaBTKB7ZwqyFFfGtZCF35/Qs1wmn88i4ZDsCEX1/fc\nr0xpZwyBMzol6vXEWF3jqQjhwbJC1N9At8uClmP9/NnoA8SRDGadDZYLYxv58aDi\nzy8L4GtIWTSLZhC9VEv6/EkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEA9qSLBdPP58nWpuW9EHt4dmjc2ku\nlN6WyAqWNU2+5ynKTzaoG0P/epsZ1E1+nRjC+FgGcPUyfBv8wHT6naDVgQ==\n-----END PUBLIC KEY-----\n",
+        "label": "security@PrompTugal.dinis",
+        "fingerprint": "sha256:9510dc9592475d98",
+        "record": "sha256:0eb02bbb48ac2517",
+        "signing_fingerprint": "sha256:0eb02bbb48ac2517"
       },
       "status": "active"
     }
