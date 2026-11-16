@@ -53,6 +53,10 @@ function makeIndex(ctx) {
     const rows = []
     for (const p of ctx.pages) {
         if (!p.listed || p.rel === 'search/index.html' || p.rel === '404.html') continue
+        // a translated twin (/pt-PT/, /it-IT/ ...) stays out: this index and its stemmer are English, the twin is one
+        // hreflang link from its English page, and 21 cultures of every place page would take docs.json past its 400 KB
+        // (dev@PrompTugal.dinis, 16 November 2026: it-IT took it to 415 KB). A culture's own index can come later.
+        if (p.lang && !/^en(-|$)/i.test(p.lang)) continue
         const m = ENTITY.exec(p.rel)
         const type = m ? TYPE_OF_PLURAL[m[1]] : (p.type === 'article' ? 'article' : p.rel.startsWith('newsroom/') ? 'newsroom' : 'site')
         const x = m ? byRef.get(`${type}:${m[2]}`) : null
