@@ -1988,7 +1988,7 @@
       "role": "The by-place frame of PrompTugal.news (newsroom/build/features/by-place.mjs, assets/by-place/, data/schemas/, the gate checks) and the whole site's finish, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtH7wES87g6t1UJz0qeAZ\nkKFYMk/Tjp6dJvG5tPrfLrfb/q4Jc0TGYk/b+hNaH8XviHV14q7xXUQT51/88sck\nupkx2Tgjud7+ltB/M/hOwUQLPxf+KUfyKuB+KWhPnA1bBKRuDzFR2S2QJNwB+YDg\n0atuqLEQh2WzryEgHdCFETbZYx4A3puxZKd3RO8jMUHvhGxO1sp9XqpqPgniV7Zp\nC1ZywGNNGhcudzEREmdVxMleQWwSP0eGOEuOgV6VFRvnhLnvMKMLKZPk0Vnb3bXt\nfGjgkT3mHbJCPWCnfCaAbrd4XFNVmODrw2qBZJQQuSSUTzVocnZ/EnkpeEy1avn2\n7rpQaMRIjmqFdkeKRmKzu3tAcDgNLtJz4gEEFoojQ/J13aDHHW+d48HOg5Darcql\nZ4510mY6R2XJqKwK5y/0S4inbh8V+DZhTn248HIgh+pjSZHMEN77oP9qdZNHQ3q7\nAYAEQXsB+nLo3LMJPzNaOX43djy3Ertl//PCZ0Uw0y+c9OPcQdWdXidCfi24Qfvn\na+Rzccq+Ho7Rlo1KpNieKUnvQkII3bnIgY1i9mXAAChjH/QwfFnuS34d7Ozyxr9k\n+nQSDAZCWXw1OD2wYaDmf4wusYRU8Tnc4Rwp3sm0NpbKrX5fUNy2g0/VZlac48qk\n4n7H/dD4S0ERhPtzkSZ+2xkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -1997,7 +1997,10 @@
         "fingerprint": "sha256:fba34c92cb12ad57",
         "record": "sha256:499ea7eaff2e472b",
         "signing_fingerprint": "sha256:499ea7eaff2e472b"
-      }
+      },
+      "superseded_at": "2026-11-16T19:35Z",
+      "superseded_by": "dev.places-promptugal-2",
+      "superseded_note": "The first dev.places@ session paused for the account move on 16 November 2026 (board/team/dev.places/debriefs/2026-11-16-account-move.md); a new session took over. This key stays so its signatures can still be checked."
     },
     {
       "id": "place.aljezur-promptugal",
@@ -3385,6 +3388,24 @@
         "signing_fingerprint": "sha256:731a02b0283ae2d5"
       },
       "status": "active"
+    },
+    {
+      "id": "dev.places-promptugal-2",
+      "agent": "dev.places@PrompTugal.dinis",
+      "label": "dev.places@PrompTugal.dinis (Claude Code cloud session, restarted 16 Nov 2026)",
+      "role": "The by-place frame and the places' and graphs' pages (newsroom/build/features/by-place.mjs, assets/by-place/): the news organisation pages, local media per place, the story rail, the graphs. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026, 19:31 UTC (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqm1GPq8vn+VeTU+omvDo\nC+4xJQY9cUSQ7TrHbNPvkXzjWQc4sQtFutAPF+dMemiYIoaHIVYWoXK6zchlOGbt\nLJGLXO4E3y2WoYr9NBdo8eEiPzC4RxpofnSyGQPhppAqkmvSih5xELohf+hNiZdG\neJrHMQuTyIFk1UGszNVFeozn4BWHXpdCeTWri+kpoyjZhkKRm450+htXWo5tTKxC\neoJ8p5tubV2XoXKq04KyTvc9+W0lJN4uE117GbmEsislqP9wi+bmx4u95XRJ9M+v\nFDTAS9o67eJR+d1IFiFBbaTGP19K/ng27iZGtdkaLWnPc7JY0VEXFGfyfD8dOwQn\noub75PoMbj8PJy0w6387iSDF/CNv9hIabGPyjlKmqCUH/VIZ4odT5gXyOI3y7Kxm\nErMcCPPeOKYdBvZuCX3OYl8C6LCP3xPrb/reXJMr76IHObhPF50dw/jPY/fASsQm\n/f4dLqkXexUTeJw+dMRyVoebm3TP1Zsrmmbbp3kSRRuVHjiVDcWWM50DngUzZsic\nv/89LK9q/2MwfxvbDyI96yN6wmpy+OhaaFuKzHkF3JabbSqgimL9Uoe62pueuKqN\ndYWI8Hkf9wwb38lmXQLRa/Y62Qc9c8fKJzjuwJFmMzDxYXrCFlHQfbK2re/TwJcc\nC8Kczopu8kPhvUwSGEfirucCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgUt9Q3d13ELR0VWVTF2Xi/FS3bac\n1+KUUwwrASXs03u9Jc7uOFJoUGpSUDTUxedQdAVkhjwavMspnnaMcUGctA==\n-----END PUBLIC KEY-----\n",
+        "label": "dev.places@PrompTugal.dinis",
+        "fingerprint": "sha256:d44f59fa90a76f4f",
+        "record": "sha256:b30803ba50c3dcc1",
+        "signing_fingerprint": "sha256:b30803ba50c3dcc1"
+      }
     }
   ]
 }
