@@ -342,6 +342,32 @@
         40.205
       ],
       "label": "e"
+    },
+    {
+      "id": "castelo-branco",
+      "name": "Castelo Branco",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/castelo-branco/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -7.508,
+        39.822
+      ],
+      "label": "e"
+    },
+    {
+      "id": "guarda",
+      "name": "Guarda",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/guarda/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -7.268,
+        40.538
+      ],
+      "label": "e"
     }
   ],
   "copy": {

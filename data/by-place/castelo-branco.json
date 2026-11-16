@@ -1,0 +1,261 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "castelo-branco",
+  "name": "Castelo Branco",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Castelo Branco: AI and technology in Castelo Branco, a Beira Baixa district capital whose centre of gravity is its polytechnic, now the Universidade Politécnica de Castelo Branco, and a small circle of local tech firms, and what reaches Castelo Branco from Portugal, Europe and the world. Independent. Every fact sourced.",
+  "gravity": {
+    "text": "Castelo Branco's AI activity sits around the polytechnic, which became the Universidade Politécnica de Castelo Branco on 1 August 2026, and the people it trains. Its health school runs AI in health days, two of its engineering professors founded the wildfire drone startup Axtron Systems, and a local waste-tech firm and an IT consultancy are the main private names. The council's front page shows no AI items, so the university and a few startups, not city hall, are the centre of gravity.",
+    "sources": [
+      {
+        "title": "Polytechnic of Castelo Branco becomes a university on 1 August (Observador, 30 July 2026)",
+        "url": "https://observador.pt/2026/07/30/politecnico-de-castelo-branco-passa-a-universidade-no-dia-1-de-agosto/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Castelo Branco: ESALD promotes meeting on AI in health (Diário Digital Castelo Branco, 16 January 2026)",
+        "url": "https://www.diariodigitalcastelobranco.pt/noticia/70560/castelo-branco-esald-promove-encontro-sobre-ia-em-saude",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Castelo Branco startup uses drones and AI to help avoid fire risk (ECO, 7 April 2025)",
+        "url": "https://eco.sapo.pt/2025/04/07/startup-de-castelo-branco-usa-drones-e-ia-para-ajudar-a-evitar-risco-de-incendios/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Câmara Municipal de Castelo Branco, front page and news (read 16 November 2026)",
+        "url": "https://www.cm-castelobranco.pt",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#A3262A",
+    "landmark": "The Jardim do Paço Episcopal, the baroque bishop's palace garden with its granite statues",
+    "motif": "Embroidered silk coverlets, baroque garden stone and the red of Castelo Branco embroidery, a plains city of the Beira Baixa"
+  },
+  "ai_news": [
+    {
+      "title": "Castelo Branco's health school holds a day on AI in clinical practice",
+      "summary": "The health school of the polytechnic, ESALD, invited health professionals and students to a day of talks, a prompt engineering workshop and two round tables on using AI in daily care, its limits and its benefits. Projects from an AI in health micro-credential were presented.",
+      "date": "2026-01-16",
+      "publisher": "Diário Digital Castelo Branco",
+      "url": "https://www.diariodigitalcastelobranco.pt/noticia/70560/castelo-branco-esald-promove-encontro-sobre-ia-em-saude",
+      "read_on": "2026-11-16",
+      "ai_path": "A local university school runs an event directly about AI in healthcare.",
+      "steps": 0
+    },
+    {
+      "title": "A Castelo Branco startup sends drones and AI to check fire breaks",
+      "summary": "Axtron Systems, founded in 2023 by two professors of the polytechnic's technology school, built FIRECOM. An AI model finds building outlines, sets the containment strips around them, and the drone images show where vegetation must be cleared. It came out of an EU Horizon Europe project.",
+      "date": "2025-04-07",
+      "publisher": "ECO (Sapo)",
+      "url": "https://eco.sapo.pt/2025/04/07/startup-de-castelo-branco-usa-drones-e-ia-para-ajudar-a-evitar-risco-de-incendios/",
+      "read_on": "2026-11-16",
+      "ai_path": "A company based in the city ships a product whose core step is an AI model.",
+      "steps": 0
+    },
+    {
+      "title": "Castelo Branco hosts a European meeting on social media and AI in disaster risk",
+      "summary": "The VOST Portugal association and the council organised two days in the city on using social networks and AI for prevention, preparation and response in disasters. Speakers from the emergency services saw value in algorithms for resource planning and raised questions about verification and privacy.",
+      "date": "2025-03-30",
+      "publisher": "Diário Digital Castelo Branco",
+      "url": "https://www.diariodigitalcastelobranco.pt/noticia/68225/castelo-branco-recebeu-encontro-internacional-sobre-redes-sociais-e-inteligencia-artificial-na-gestao-de-risco-de-desastres",
+      "read_on": "2026-11-16",
+      "ai_path": "A meeting held in the city whose topic is AI in emergency management.",
+      "steps": 0
+    },
+    {
+      "title": "IT consultancy Noesis opens a Castelo Branco office and says it will hire AI specialists too",
+      "summary": "Noesis opened offices in Guarda and Castelo Branco in February 2025 and plans about 30 hires, mainly in quality, DevOps, automation and low-code. It adds that it is open to data analytics and AI profiles across its regional expansion.",
+      "date": "2025-02-14",
+      "publisher": "Executive Digest",
+      "url": "https://executivedigest.sapo.pt/consultora-tecnologica-noesis-expande-presenca-em-portugal-com-abertura-de-novos-rscritorios-na-guarda-e-castelo-branco/",
+      "read_on": "2026-11-16",
+      "ai_path": "A tech employer opens in the city and names AI roles among those it wants: AI is a hiring interest, not the main business of the office.",
+      "steps": 2
+    },
+    {
+      "title": "A Castelo Branco waste-tech firm plans a pilot with AI sensors for the council",
+      "summary": "Evox Technologies, founded in 2016 in the city, builds sensors and software for waste management. In an interview it mentioned a planned pilot with the Castelo Branco municipality that will use sensors with artificial intelligence. No other AI detail is given.",
+      "date": "2025-02-04",
+      "publisher": "Dinheiro Vivo",
+      "url": "https://dinheirovivo.dn.pt/fazedores/evox-technologies-em-portugal-ainda-faltam-infraestruturas-que-ajudem-as-empresas-a-alavancar-os-neg%C3%B3cios",
+      "read_on": "2026-11-16",
+      "ai_path": "A local firm and the council plan a pilot with AI sensors, mentioned in passing in a business interview.",
+      "steps": 1
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Castelo Branco",
+      "url": "https://www.cm-castelobranco.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Diário Digital Castelo Branco",
+      "url": "https://www.diariodigitalcastelobranco.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Universidade Politécnica de Castelo Branco (IPCB), news and IPCB Campus magazine",
+      "url": "https://www.ipcb.pt/",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Agroportal, Beira Baixa and regional innovation news",
+      "url": "https://www.agroportal.pt/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Observador, regional stories from Castelo Branco",
+      "url": "https://observador.pt/",
+      "kind": "press",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "Jornadas de IA em Saúde (AI in Health Days), ESALD, Castelo Branco",
+      "date": "2026-01-17",
+      "url": "https://www.diariodigitalcastelobranco.pt/noticia/70560/castelo-branco-esald-promove-encontro-sobre-ia-em-saude",
+      "read_on": "2026-11-16",
+      "ai_path": "A day directly about AI in healthcare."
+    },
+    {
+      "title": "International meeting on social networks and AI in disaster risk management, VOST Portugal",
+      "date": "2025-03-27 to 2025-03-28",
+      "url": "https://www.diariodigitalcastelobranco.pt/noticia/68225/castelo-branco-recebeu-encontro-internacional-sobre-redes-sociais-e-inteligencia-artificial-na-gestao-de-risco-de-desastres",
+      "read_on": "2026-11-16",
+      "ai_path": "A meeting directly about AI and social media in emergencies."
+    },
+    {
+      "title": "i9Tec'26 regional forum on science and innovation (working dinner with stakeholders, 29 October 2026)",
+      "date": "2026-10-29",
+      "url": "https://www.cm-castelobranco.pt",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Axtron Systems",
+      "type": "startup",
+      "url": "https://eco.sapo.pt/2025/04/07/startup-de-castelo-branco-usa-drones-e-ia-para-ajudar-a-evitar-risco-de-incendios/",
+      "what": "Startup based in Castelo Branco, founded in 2023 by two professors of the polytechnic, whose FIRECOM tool uses drones and an AI model to plan fire containment strips.",
+      "source_url": "https://eco.sapo.pt/2025/04/07/startup-de-castelo-branco-usa-drones-e-ia-para-ajudar-a-evitar-risco-de-incendios/",
+      "read_on": "2026-11-16",
+      "ai_path": "Its product runs an AI model on drone images.",
+      "steps": 0
+    },
+    {
+      "name": "Universidade Politécnica de Castelo Branco (formerly IPCB)",
+      "type": "institution",
+      "url": "https://www.ipcb.pt/",
+      "what": "The polytechnic became a university on 1 August 2026, with six schools (five in Castelo Branco, one in Idanha-a-Nova). It hosts AI events and the startups that grow from its staff.",
+      "source_url": "https://observador.pt/2026/07/30/politecnico-de-castelo-branco-passa-a-universidade-no-dia-1-de-agosto/",
+      "read_on": "2026-11-16",
+      "ai_path": "Its health school runs AI in health days and its professors founded an AI startup.",
+      "steps": 1
+    },
+    {
+      "name": "Escola Superior de Saúde Dr. Lopes Dias (ESALD)",
+      "type": "institution",
+      "url": "https://www.ipcb.pt/",
+      "what": "The health school of the polytechnic, organiser of the AI in Health Days in January 2026 and of an AI in health micro-credential.",
+      "source_url": "https://www.diariodigitalcastelobranco.pt/noticia/70560/castelo-branco-esald-promove-encontro-sobre-ia-em-saude",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches and hosts events directly about AI in healthcare.",
+      "steps": 0
+    },
+    {
+      "name": "VOST Portugal",
+      "type": "organisation",
+      "url": "https://www.diariodigitalcastelobranco.pt/noticia/68225/castelo-branco-recebeu-encontro-internacional-sobre-redes-sociais-e-inteligencia-artificial-na-gestao-de-risco-de-desastres",
+      "what": "Non-profit association based in Castelo Branco, organiser with the council of the March 2025 meeting on social media and AI in disaster risk.",
+      "source_url": "https://www.diariodigitalcastelobranco.pt/noticia/68225/castelo-branco-recebeu-encontro-internacional-sobre-redes-sociais-e-inteligencia-artificial-na-gestao-de-risco-de-desastres",
+      "read_on": "2026-11-16",
+      "ai_path": "Convenes events whose topic is AI in emergency management.",
+      "steps": 1
+    },
+    {
+      "name": "Município de Castelo Branco",
+      "type": "public body",
+      "url": "https://www.cm-castelobranco.pt",
+      "what": "The council co-organised the disaster risk meeting, hosts the Castelo Branco Digital service pages and is named as partner of a planned pilot with AI sensors.",
+      "source_url": "https://dinheirovivo.dn.pt/fazedores/evox-technologies-em-portugal-ainda-faltam-infraestruturas-que-ajudem-as-empresas-a-alavancar-os-neg%C3%B3cios",
+      "read_on": "2026-11-16",
+      "ai_path": "Partner in an AI event and in a planned AI sensor pilot.",
+      "steps": 1
+    },
+    {
+      "name": "Evox Technologies",
+      "type": "company",
+      "url": "https://dinheirovivo.dn.pt/fazedores/evox-technologies-em-portugal-ainda-faltam-infraestruturas-que-ajudem-as-empresas-a-alavancar-os-neg%C3%B3cios",
+      "what": "Waste-management technology company founded in 2016 in Castelo Branco, with sensors and software on its 360 Waste platform.",
+      "source_url": "https://dinheirovivo.dn.pt/fazedores/evox-technologies-em-portugal-ainda-faltam-infraestruturas-que-ajudem-as-empresas-a-alavancar-os-neg%C3%B3cios",
+      "read_on": "2026-11-16",
+      "ai_path": "Mentions a planned pilot with AI sensors.",
+      "steps": 1
+    },
+    {
+      "name": "Noesis",
+      "type": "company",
+      "url": "https://executivedigest.sapo.pt/consultora-tecnologica-noesis-expande-presenca-em-portugal-com-abertura-de-novos-rscritorios-na-guarda-e-castelo-branco/",
+      "what": "IT consultancy with an office in Castelo Branco opened in February 2025, about 70 staff across Covilhã, Guarda and Castelo Branco.",
+      "source_url": "https://executivedigest.sapo.pt/consultora-tecnologica-noesis-expande-presenca-em-portugal-com-abertura-de-novos-rscritorios-na-guarda-e-castelo-branco/",
+      "read_on": "2026-11-16",
+      "ai_path": "Says it is open to hiring AI and data analytics specialists.",
+      "steps": 2
+    },
+    {
+      "name": "Associação Ibérica de Turismo do Interior (AITI)",
+      "type": "organisation",
+      "url": "https://www.aitiweb.org/post/castelo-branco-acolheu-forma%C3%A7%C3%A3o-certificada-sobre-intelig%C3%AAncia-artificial-aplicada-%C3%A0s-empresas",
+      "what": "Association that ran a certified course, AI Applied to Business, at the Castelo Branco municipal library with the Academia Digital do Turismo de Portugal and the council.",
+      "source_url": "https://www.aitiweb.org/post/castelo-branco-acolheu-forma%C3%A7%C3%A3o-certificada-sobre-intelig%C3%AAncia-artificial-aplicada-%C3%A0s-empresas",
+      "read_on": "2026-11-16",
+      "ai_path": "Ran a course directly about AI for business owners.",
+      "steps": 0
+    },
+    {
+      "name": "Startup Castelo Branco (polytechnic incubator, PRR project)",
+      "type": "organisation",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/11/C16-i02/2023.P5170",
+      "what": "A science and technology based incubator initiative of the polytechnic, listed in the state's PRR transparency portal with a total of 150 thousand euros.",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/11/C16-i02/2023.P5170",
+      "read_on": "2026-11-16",
+      "ai_path": "An incubator for university spin-offs such as Axtron, which is an AI startup.",
+      "steps": 2
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.castelo-branco-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "The council's front page showed no AI item and no RSS feed on 16 November 2026. We should look for its Castelo Branco Digital and Cidade Inteligente pages and its meeting minutes for AI work.",
+    "The council's own page for the i9Tec'26 forum was not found, so the 29 October 2026 dinner is listed from the council front page only. The IPCB site should be checked for the programme.",
+    "A 2026 EU procurement notice for AI and process automation services appeared in a search, but we could not open it and could not confirm which public body issued it, so it is left out.",
+    "The Zelar@CB wearable for isolated elderly people, which uses an AI model, is described only in a repository record we could not open (blocked), so it is not on the map. The IPCB repository should be read directly.",
+    "The AITI business course on AI has no year on its page, so it is on the map but not in the news.",
+    "The CATAA Innovative Companies Centre (CEi) and the FabLab are mentioned only in search snippets, and DeepNeuronic only in a LinkedIn-based snippet, so none is on the map until a public page is read.",
+    "IBM's innovation centre is in Fundão, in the same district but outside the municipality, so it belongs on the Fundão page.",
+    "No data centre, AI investor or AI community meetup was found in the municipality."
+  ],
+  "voice": {
+    "lede": "Castelo Branco: where the coverlets are embroidered by hand and the fire breaks are now checked by a drone with opinions, ai ai ai.",
+    "mandate": "PrompTugal.news Castelo Branco follows AI and technology in the Beira Baixa's capital, the city of the polytechnic that woke up one August as a proper university, and tells you what reaches it from Portugal, Europe and the world. Independent and sourced, pá.",
+    "gravity": "Here the action is at the university, meu amigo: a health school that runs AI days, two professors who made a wildfire drone startup, and a waste-tech firm and a consultancy for company. City hall's front page, for now, is all about heritage and fairs.",
+    "gaps_intro": "What we could not find, said with a shrug and a pastel de nata:"
+  }
+}
