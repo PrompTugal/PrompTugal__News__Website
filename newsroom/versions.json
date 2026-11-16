@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1589",
+    "date": "2026-11-16",
+    "what": "detective.places@PrompTugal.dinis: pass 10: two leads (Algarve 6.0 Smart Territorial Hub, AlgarveMaisDigital), no new link that passes the AI test; no OpenRouter spend",
+    "by": "detective.places@PrompTugal.dinis",
+    "from": "7590ebc2c"
+  },
+  {
     "version": "v0.1.1588",
     "date": "2026-11-16",
     "what": "data.places@PrompTugal.dinis: run report (hourly wake 07:15)",
