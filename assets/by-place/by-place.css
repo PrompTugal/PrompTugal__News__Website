@@ -278,3 +278,9 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame ul.bp-now > li { display: grid; grid-template-columns: 6.2em minmax(0, 1fr); column-gap: 8px; padding: 7px 0; border-bottom: 1px solid var(--hair); font: 400 14px/1.4 var(--sans); }
 .bp-frame ul.bp-now > li > strong:first-child { font: 700 10.5px/1.9 var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--accent); grid-row: span 2; }
 .bp-frame ul.bp-now > li > em { grid-column: 2; font-style: normal; font-size: 11.5px; color: var(--ink-3); }
+
+/* Now in <place>, at the top of the page (Dinis, 16 Nov: the live data was 'quite hidden') */
+.bp-frame .bp-nowband { border: 1px solid var(--rule, #ddd); border-left: 4px solid var(--accent, #0b6b2e); border-radius: 8px; padding: 10px 16px 6px; margin: 14px 0 22px; background: var(--paper, #fbf9f4); }
+.bp-frame .bp-nowband .mini-h { margin-top: 0; color: var(--accent, #0b6b2e); }
+.bp-frame .bp-nowband ul.bp-now { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 6px 22px; list-style: none; padding: 0; margin: 6px 0; }
+.bp-frame .bp-nowband ul.bp-now li { font-size: 15px; }

@@ -1,6 +1,6 @@
 {
  "place": "monchique",
- "read_at": "2026-11-16T09:40:37Z",
+ "read_at": "2026-11-16T10:42:22Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place, from IPMA's open data and (for Faro) adsb.lol: each value with its source and the time read. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -8,20 +8,22 @@
   "id": 1210790,
   "km": 4,
   "reading": {
-   "at": "2026-11-16T09:00Z",
-   "temp_c": 11.6,
+   "at": "2026-11-16T10:00Z",
+   "temp_c": 11.9,
    "humidity_pct": 100,
-   "wind_kmh": 30.6,
+   "wind_kmh": 31,
    "wind_dir_id": 5,
    "rain_mm": 0,
    "pressure_hpa": null
   },
+  "page": "https://www.ipma.pt/en/otempo/obs.superficie/",
   "source": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json"
  },
  "forecast": {
   "place": "Portimão",
   "id": 1081100,
   "km": 19,
+  "page": "https://www.ipma.pt/en/otempo/prev.localidade.hora/",
   "days": [
    {
     "date": "2026-11-16",
@@ -73,6 +75,7 @@
     "text": "Na costa Ocidental, ondas de noroeste com 4 a 5 metros."
    }
   ],
+  "page": "https://www.ipma.pt/en/otempo/prev-sam/",
   "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
  },
  "fire_risk": {
@@ -91,12 +94,14 @@
     "level": "low"
    }
   ],
+  "page": "https://www.ipma.pt/en/riscoincendio/rcm.pt/",
   "source": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json"
  },
  "uv": {
   "place": "Faro",
   "date": "2026-11-19",
   "index": 3,
+  "page": "https://www.ipma.pt/en/otempo/prev.uv/",
   "source": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json"
  },
  "sea": null,
@@ -104,62 +109,62 @@
  "reads": {
   "warnings": {
    "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-   "at": "2026-11-16T09:40:13Z",
+   "at": "2026-11-16T10:41:57Z",
    "status": 200
   },
   "observations": {
    "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
-   "at": "2026-11-16T09:40:16Z",
+   "at": "2026-11-16T10:42:00Z",
    "status": 200
   },
   "city-daily-1080500": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080500.json",
-   "at": "2026-11-16T09:40:18Z",
+   "at": "2026-11-16T10:42:02Z",
    "status": 200
   },
   "city-daily-1080800": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080800.json",
-   "at": "2026-11-16T09:40:20Z",
+   "at": "2026-11-16T10:42:04Z",
    "status": 200
   },
   "city-daily-1081100": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json",
-   "at": "2026-11-16T09:40:22Z",
+   "at": "2026-11-16T10:42:06Z",
    "status": 200
   },
   "city-daily-1081505": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081505.json",
-   "at": "2026-11-16T09:40:24Z",
+   "at": "2026-11-16T10:42:08Z",
    "status": 200
   },
   "fire-risk-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json",
-   "at": "2026-11-16T09:40:26Z",
+   "at": "2026-11-16T10:42:10Z",
    "status": 200
   },
   "fire-risk-d1": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d1.json",
-   "at": "2026-11-16T09:40:29Z",
+   "at": "2026-11-16T10:42:13Z",
    "status": 200
   },
   "fire-risk-d2": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d2.json",
-   "at": "2026-11-16T09:40:31Z",
+   "at": "2026-11-16T10:42:15Z",
    "status": 200
   },
   "uv": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json",
-   "at": "2026-11-16T09:40:33Z",
+   "at": "2026-11-16T10:42:17Z",
    "status": 200
   },
   "sea-forecast-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
-   "at": "2026-11-16T09:40:35Z",
+   "at": "2026-11-16T10:42:19Z",
    "status": 200
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-16T09:40:37Z",
+   "at": "2026-11-16T10:42:22Z",
    "status": 200
   }
  }

@@ -17,6 +17,9 @@ const SEA = { faro: 1080526, sagres: 1081526 }   // Faro coast, Sagres coast
 const WEST = new Set(['vila-do-bispo', 'aljezur', 'lagos'])
 const INLAND = new Set(['monchique', 'alcoutim', 'sao-bras-de-alportel', 'silves'])
 const LPFR = { lat: 37.0144, lon: -7.9659, nm: 40 }
+// the page a reader opens for each value (Dinis, 16 Nov: readers never land on a JSON file); the JSON stays in 'source'
+const PAGE = { station: 'https://www.ipma.pt/en/otempo/obs.superficie/', forecast: 'https://www.ipma.pt/en/otempo/prev.localidade.hora/', warnings: 'https://www.ipma.pt/en/otempo/prev-sam/',
+    fire: 'https://www.ipma.pt/en/riscoincendio/rcm.pt/', uv: 'https://www.ipma.pt/en/otempo/prev.uv/', sea: 'https://www.ipma.pt/en/maritima/costeira/', airport: 'https://globe.adsb.lol/?lat=37.014&lon=-7.966&zoom=9' }
 const LEVEL = { green: 'green', yellow: 'yellow', orange: 'orange', red: 'red' }
 const EN = { 'Agitação Marítima': 'rough sea', 'Precipitação': 'rain', 'Vento': 'wind', 'Trovoada': 'thunderstorms', 'Nevoeiro': 'fog', 'Tempo Frio': 'cold', 'Tempo Quente': 'heat', 'Neve': 'snow' }
 const RCM = { 1: 'low', 2: 'moderate', 3: 'high', 4: 'very high', 5: 'maximum' }
@@ -56,7 +59,7 @@ if (adsb) {
         if (/^[A-Z]{3}\d{1,4}[A-Z]{0,2}$/.test(cs)) airline.push({ callsign: cs, airline: cs.slice(0, 3), type: a.t || null, alt_ft: a.alt_baro === 'ground' ? 0 : num(a.alt_baro), on_ground: a.alt_baro === 'ground', ground_speed_kt: num(a.gs) })
         else others.count++ }
     airline.sort((x, y) => x.callsign.localeCompare(y.callsign))
-    airport = { icao: 'LPFR', name: 'Faro airport', within_nm: LPFR.nm, at: read.adsb.at, airline, other_aircraft: others.count, source: 'https://api.adsb.lol/', note: 'What adsb.lol\'s community receivers saw within 40 nautical miles at the time read. Airline flights by callsign; other aircraft only counted.' }
+    airport = { icao: 'LPFR', name: 'Faro airport', within_nm: LPFR.nm, at: read.adsb.at, airline, other_aircraft: others.count, page: PAGE.airport, source: 'https://api.adsb.lol/', note: 'What adsb.lol\'s community receivers saw within 40 nautical miles at the time read. Airline flights by callsign; other aircraft only counted.' }
 }
 
 fs.mkdirSync(OUT, { recursive: true })
@@ -66,12 +69,12 @@ for (const m of MAP) {
     const out = {
         place: m.place, read_at: now(), by: 'board/tools/local-now.mjs (conductor@PrompTugal.dinis)',
         about: 'Now in this place, from IPMA\'s open data and (for Faro) adsb.lol: each value with its source and the time read. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.',
-        station: { name: m.station, id: m.station_id, km: m.station_km, reading: station(m.station_id), source: IPMA + 'observation/meteorology/stations/observations.json' },
-        forecast: f ? { place: FORECAST[m.forecast_id], id: m.forecast_id, km: m.forecast_km, days: (f.data || []).slice(0, 5).map(d => ({ date: d.forecastDate, t_min_c: num(d.tMin), t_max_c: num(d.tMax), rain_prob_pct: num(d.precipitaProb), weather_type: num(d.idWeatherType) })), source: `${IPMA}forecast/meteorology/cities/daily/${m.forecast_id}.json` } : null,
-        warnings: { area: 'FAR (the Faro district)', active, source: IPMA + 'forecast/warnings/warnings_www.json' },
-        fire_risk: { municipality: m.dico, days: fire(m.dico), source: IPMA + 'forecast/meteorology/rcm/rcm-d0.json' },
-        uv: (() => { const id = WEST.has(m.place) ? 1081525 : 1080500, u = uvOf(id); return u ? { place: id === 1081525 ? 'Sagres' : 'Faro', ...u, source: IPMA + 'forecast/meteorology/uv/uv.json' } : null })(),
-        sea: INLAND.has(m.place) ? null : (() => { const id = WEST.has(m.place) || m.place === 'portimao' || m.place === 'lagoa' ? SEA.sagres : SEA.faro, s = seaOf(id); return s ? { coast: id === SEA.sagres ? 'Sagres coast' : 'Faro coast', ...s, source: IPMA + 'forecast/oceanography/daily/hp-daily-sea-forecast-day0.json' } : null })(),
+        station: { name: m.station, id: m.station_id, km: m.station_km, reading: station(m.station_id), page: PAGE.station, source: IPMA + 'observation/meteorology/stations/observations.json' },
+        forecast: f ? { place: FORECAST[m.forecast_id], id: m.forecast_id, km: m.forecast_km, page: PAGE.forecast, days: (f.data || []).slice(0, 5).map(d => ({ date: d.forecastDate, t_min_c: num(d.tMin), t_max_c: num(d.tMax), rain_prob_pct: num(d.precipitaProb), weather_type: num(d.idWeatherType) })), source: `${IPMA}forecast/meteorology/cities/daily/${m.forecast_id}.json` } : null,
+        warnings: { area: 'FAR (the Faro district)', active, page: PAGE.warnings, source: IPMA + 'forecast/warnings/warnings_www.json' },
+        fire_risk: { municipality: m.dico, days: fire(m.dico), page: PAGE.fire, source: IPMA + 'forecast/meteorology/rcm/rcm-d0.json' },
+        uv: (() => { const id = WEST.has(m.place) ? 1081525 : 1080500, u = uvOf(id); return u ? { place: id === 1081525 ? 'Sagres' : 'Faro', ...u, page: PAGE.uv, source: IPMA + 'forecast/meteorology/uv/uv.json' } : null })(),
+        sea: INLAND.has(m.place) ? null : (() => { const id = WEST.has(m.place) || m.place === 'portimao' || m.place === 'lagoa' ? SEA.sagres : SEA.faro, s = seaOf(id); return s ? { coast: id === SEA.sagres ? 'Sagres coast' : 'Faro coast', ...s, page: PAGE.sea, source: IPMA + 'forecast/oceanography/daily/hp-daily-sea-forecast-day0.json' } : null })(),
         airport: m.place === 'faro' || m.place === 'olhao' || m.place === 'loule' ? airport : null,
         reads: read,
     }
@@ -79,7 +82,7 @@ for (const m of MAP) {
 }
 // the region: the warnings and the airport, and each place's station temperature
 const region = { place: 'algarve', read_at: now(), by: 'board/tools/local-now.mjs (conductor@PrompTugal.dinis)', about: 'Now in the Algarve: IPMA\'s warnings for the Faro district, Faro airport, and each place\'s nearest station. Not a warning service.',
-    warnings: { area: 'FAR (the Faro district)', active, source: IPMA + 'forecast/warnings/warnings_www.json' }, airport,
+    warnings: { area: 'FAR (the Faro district)', active, page: PAGE.warnings, source: IPMA + 'forecast/warnings/warnings_www.json' }, airport,
     places: MAP.map(m => ({ place: m.place, station: m.station, temp_c: station(m.station_id)?.temp_c ?? null })), reads: read }
 fs.writeFileSync(path.join(OUT, 'algarve.json'), JSON.stringify(region, null, 1) + '\n')
 console.log(`local-now: ${written.length + 1} files at ${now()}; observations ${lastObs || 'none'}; warnings active ${active.length}; airport ${airport ? airport.airline.length + ' airline, ' + airport.other_aircraft + ' other' : 'not read'}`)

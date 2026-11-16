@@ -139,15 +139,15 @@ function nowBlock(ctx, p) {
     let d; try { d = ctx.readJSON(`data/by-place/now/${p.id}.json`) } catch { return '' }
     const t = s => String(s || '').slice(11, 16) + ' UTC', out = []
     const r = d.station && d.station.reading
-    if (r) out.push(`- **Now** ${r.temp_c ?? '?'} °C · humidity ${r.humidity_pct ?? '?'}% · wind ${r.wind_kmh ?? '?'} km/h *[${esc(ctx, d.station.name)}](${d.station.source}), ${d.station.km} km, ${t(r.at)}*`)
+    if (r) out.push(`- **Now** ${r.temp_c ?? '?'} °C · humidity ${r.humidity_pct ?? '?'}% · wind ${r.wind_kmh ?? '?'} km/h *[${esc(ctx, d.station.name)}](${d.station.page || d.station.source}), ${d.station.km} km, ${t(r.at)}*`)
     const f = d.forecast && d.forecast.days && d.forecast.days[0]
-    if (f) out.push(`- **Today** ${f.t_min_c ?? '?'} to ${f.t_max_c ?? '?'} °C · rain ${f.rain_prob_pct ?? '?'}% *[IPMA, ${esc(ctx, d.forecast.place)}](${d.forecast.source})${d.forecast.km > 5 ? `, ${d.forecast.km} km` : ''}*`)
+    if (f) out.push(`- **Today** ${f.t_min_c ?? '?'} to ${f.t_max_c ?? '?'} °C · rain ${f.rain_prob_pct ?? '?'}% *[IPMA, ${esc(ctx, d.forecast.place)}](${d.forecast.page || d.forecast.source})${d.forecast.km > 5 ? `, ${d.forecast.km} km` : ''}*`)
     const w = d.warnings && d.warnings.active || []
-    out.push(w.length ? w.map(x => `- **Warning** ${esc(ctx, String(x.level).replace(/^./, c => c.toUpperCase()))}: ${esc(ctx, x.type)} from ${esc(ctx, String(x.start).slice(0, 16).replace('T', ' '))} *[IPMA](${d.warnings.source})*`).join('\n') : `- **Warnings** none *[IPMA](${d.warnings.source})*`)
+    out.push(w.length ? w.map(x => `- **Warning** ${esc(ctx, String(x.level).replace(/^./, c => c.toUpperCase()))}: ${esc(ctx, x.type)} from ${esc(ctx, String(x.start).slice(0, 16).replace('T', ' '))} *[IPMA](${d.warnings.page || d.warnings.source})*`).join('\n') : `- **Warnings** none *[IPMA](${d.warnings.page || d.warnings.source})*`)
     const fr = d.fire_risk && d.fire_risk.days && d.fire_risk.days[0]
-    if (fr) out.push(`- **Fire risk** ${esc(ctx, fr.level)} *[IPMA](${d.fire_risk.source})*`)
-    if (d.sea) out.push(`- **Sea** waves ${d.sea.waves_max_m ?? '?'} m · ${d.sea.sea_temp_max_c ?? '?'} °C *[IPMA, ${esc(ctx, d.sea.coast)}](${d.sea.source})*`)
-    if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.source}), ${t(d.airport.at)}*`)
+    if (fr) out.push(`- **Fire risk** ${esc(ctx, fr.level)} *[IPMA](${d.fire_risk.page || d.fire_risk.source})*`)
+    if (d.sea) out.push(`- **Sea** waves ${d.sea.waves_max_m ?? '?'} m · ${d.sea.sea_temp_max_c ?? '?'} °C *[IPMA, ${esc(ctx, d.sea.coast)}](${d.sea.page || d.sea.source})*`)
+    if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.page || d.airport.source}), ${t(d.airport.at)}*`)
     return `{.mini-h}\nNow in ${esc(ctx, p.name)}\n\n{.bp-now}\n${out.join('\n')}\n\n`
 }
 
@@ -156,7 +156,7 @@ function sideCol(ctx, L, p, rel, inside) {
     let md = ''
     if (inside.length) md += `{.mini-h}\nInside ${esc(ctx, p.name)}\n\n${inside.map(x => `- [${esc(ctx, x.name)}](${ctx.link(rel, `${x.path}index.html`)})`).join('\n')}\n\n`
     md += `{.mini-h}\nEvents\n\n` + (p.events.length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
-    if (p.kind !== 'country') md += nowBlock(ctx, p) || `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
+    if (p.kind !== 'country' && !nowBlock(ctx, p)) md += `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
     if (p.extras.length) md += `{.mini-h}\nIn figures\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
     if (p.start_company.length) md += `{.mini-h}\n${W(L, 'start_h', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.start_company, '', x => x.kind ? ` \`${esc(ctx, x.kind)}\`` : '')
     if (p.contacts.length) md += `{.mini-h}\n${W(L, 'contacts_h')}\n\n` + entries(ctx, p.contacts, '', x => x.channel ? `: ${esc(ctx, x.channel)}${/[.!?:]$/.test(x.channel.trim()) || !x.what ? '' : '.'}` : '')
@@ -176,6 +176,7 @@ function townPage(ctx, L, p) {
     const ours = tagged(ctx, m => m.town === p.id || inside.some(x => m.town === x.id))
     const latest = tagged(ctx, m => !ours.some(o => o.meta === m)).slice(0, 4)
     let md = mast(ctx, L, p, parentLink) + photoBand(ctx, L, p, rel)
+    { const nb = nowBlock(ctx, p); if (nb) md += `::: bp-nowband\n${nb}:::\n\n` }   // live, at the top (Dinis, 16 Nov: 'quite hidden')
     md += `\n::: cols-8-4\n::: col\n`
     md += gravityBlock(ctx, L, p)
     md += `## AI in ${esc(ctx, p.name)} {#local}\n\n` + (local.length ? newsCards(ctx, local, 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
@@ -259,6 +260,7 @@ function regionPage(ctx, L) {
     const T = towns(L)
     const { map, localCount, latestLocal } = regionAgg(L)
     let md = mast(ctx, L, p, `[Portugal](${ctx.link(rel, 'portugal/index.html')})`)
+    { const nb = nowBlock(ctx, p); if (nb) md += `::: bp-nowband\n${nb}:::\n\n` }
     md += `\n{.bp-tiles}\n- **${T.length}** places in the first wave\n- **${localCount}** local AI stories\n- **${map.length}** on the AI map\n- **${T.filter(t => t.status === 'live').length}** places live\n\n`
     md += `## The map {#places}\n\n{.bp-lede}\n${W(L, 'region_map_lede')}\n\n{.bp-svgmap}\n${T.map(t => `[${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)})`).join(' · ')}\n\n`
     md += `## The towns {#towns}\n\n${W(L, 'towns_intro')}\n\n{.bp-towns}\n` +
