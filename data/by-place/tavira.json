@@ -9,8 +9,13 @@
   "by": "place.tavira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Tavira: AI and technology in Tavira, a town whose digital footprint today is public-sector data platforms and a small tech community, and what reaches Tavira from the Algarve, Portugal and the world. Independent, and every fact sourced.",
   "gravity": {
-    "text": "On the sources we could open, Tavira's technology story is institutional rather than commercial. The council is one of six eastern Algarve municipalities in the Algarve 6.0 urban management data platform, it installed connected parking sensors in 2026, and a tech community called Tavira Works appears in the regional network. We found no AI company headquartered in the municipality, so the centre of gravity is data infrastructure that AI could later use.",
+    "text": "On the sources we could open, Tavira's centre of gravity is public research and public data rather than commercial AI. A 1.36 million euro recovery-plan project, the Polo de Inovação de Tavira, builds a research and technology-transfer hub on the Mediterranean Diet, health and climate adaptation. The council is one of six eastern Algarve municipalities in the Algarve 6.0 urban data platform and installed connected parking sensors in 2026, and the Tavira Works community sits in the regional tech network. We found no AI company headquartered in the municipality.",
     "sources": [
+      {
+        "title": "Polo de Inovação de Tavira, PRR project page (transparencia.gov.pt)",
+        "url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C05-i03/2021.PPRR-C05-i03-P-000037/",
+        "read_on": "2026-11-16"
+      },
       {
         "title": "Algarve 6.0 Smart Territorial Hub, project sheet (Câmara Municipal de Tavira)",
         "url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
@@ -97,10 +102,26 @@
       "url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
       "kind": "council",
       "feed": null
+    },
+    {
+      "name": "Portal da Transparência: PRR projects",
+      "url": "https://transparencia.gov.pt/",
+      "kind": "other",
+      "feed": null
     }
   ],
   "events": [],
   "ai_map": [
+    {
+      "name": "Polo de Inovação de Tavira",
+      "type": "public body",
+      "url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C05-i03/2021.PPRR-C05-i03-P-000037/",
+      "what": "Research, innovation and technology-transfer hub on the Mediterranean Diet, health, sustainable food and climate adaptation, funded by the PRR (1.36 million euros, 3 January 2022 to 31 December 2025), with the CCDR Algarve as direct beneficiary. It includes lab equipment and a collection of about 700 fruit and grape varieties.",
+      "source_url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C05-i03/2021.PPRR-C05-i03-P-000037/",
+      "read_on": "2026-11-16",
+      "ai_path": "A public research hub with labs and long-running collections produces the data that agri-food and climate AI models are trained and tested on. The page mentions no AI.",
+      "steps": 3
+    },
     {
       "name": "Câmara Municipal de Tavira",
       "type": "public body",
@@ -114,9 +135,9 @@
     {
       "name": "Tavira Works",
       "type": "community",
-      "url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250730_algarvetech-hub.pdf",
-      "what": "Listed by name among the tech communities in the Algarve Tech Hub network in the regional development agency's July 2025 slides.",
-      "source_url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250730_algarvetech-hub.pdf",
+      "url": "https://tavira.works/",
+      "what": "Community whose own landing page says it aims to cultivate entrepreneurship and innovation in Tavira. Listed by name in the Algarve Tech Hub network (CCDR Algarve slides, July 2025) and as a collaborator of LOFT. The page names no organisers or events.",
+      "source_url": "https://tavira.works/",
       "read_on": "2026-11-15",
       "ai_path": "A local tech community inside the network that also lists an Artificial Intelligence Algarve community, so AI talk reaches Tavira through it.",
       "steps": 2
@@ -139,6 +160,16 @@
       "source_url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
       "read_on": "2026-11-15",
       "ai_path": "An incubator is where a young AI or software startup in Tavira would most likely sit. We found no AI tenant, and the page does not mention AI.",
+      "steps": 3
+    },
+    {
+      "name": "LOFT Community",
+      "type": "community",
+      "url": "https://loftcommunity.pt/",
+      "what": "Community of remote workers, digital nomads and entrepreneurs across Loulé, Olhão, Faro and Tavira. Its collaborators include Algarve Evolution, Tavira Works, GDG, the Algarve Blockchain Community, GeekSessions and the 351 Startup Association. No AI event is listed on its page.",
+      "source_url": "https://loftcommunity.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "A tech-adjacent community whose collaborators run developer and startup events where AI is a topic. The page lists no AI-specific event.",
       "steps": 3
     }
   ],
@@ -205,12 +236,14 @@
     "Level Up's tenants and current accreditation are unknown: its own site was not found, and the press pieces about it (Postal do Algarve, Sul Informação, Barlavento archive) were blocked or down when we tried. Ask the incubator, or EMPET, which startups it hosts and whether any use AI.",
     "Not yet checked first-hand: hotel and tourism groups, schools, and any Centro Ciência Viva programme on AI (none found, only robotics and programming). No tech event for November 2026 was found in Tavira.",
     "Not yet mapped for Tavira: investors and investments made here, startups founded here, and local talent who have spoken publicly. No public source for any of them turned up in this pass. Dinis's overnight direction asks for all three, so they stay open.",
-    "Starting a company here: the council's own pages list generic support and no incentive for tech or AI firms. A current Fundo de Apoio à Economia Local call and the planned municipal economic development plan were not found open or dated, so they stay unchecked."
+    "Starting a company here: the council's own pages list generic support and no incentive for tech or AI firms. A current Fundo de Apoio à Economia Local call and the planned municipal economic development plan were not found open or dated, so they stay unchecked.",
+    "Polo de Inovação de Tavira: the PRR page gives its scope and a 31 December 2025 end date but no status. Whether it is open, who runs it day to day and whether it uses AI or data science are not yet checked. The DRAP Algarve and the CCDR Algarve are the bodies to look at.",
+    "Tavira Works and LOFT: their pages say little. Their social pages and events were not read, and no dated event with an AI topic was found."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
     "mandate": "PrompTugal.news Tavira: we keep an eye on AI and tech in Tavira, the town of terracotta roofs, and on whatever arrives from the Algarve, Portugal and the world. Independent, and every fact comes with its receipt.",
-    "gravity": "Here the tech is quiet and civic, nada de barulho. The câmara is part of a six-council data platform, put sensors on the parking spaces in 2026, and Tavira Works keeps the community lights on. No AI company found at home yet, so the centre of gravity is the plumbing AI could drink from later.",
+    "gravity": "Here the big project is a research hub for the Mediterranean Diet, ó pá, with a very Tavira reading list: health, food, climate. The câmara is part of a six-council data platform, put sensors on the parking spaces in 2026, and Tavira Works keeps the community lights on. No AI company found at home yet, so the plumbing and the farm labs come first.",
     "gaps_intro": "Ainda não sabemos tudo, and a good Tavira lunch takes its time. Here is what we have not found yet:"
   }
 }
