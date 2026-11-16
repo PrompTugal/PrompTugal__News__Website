@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1609",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.dinis: the Monday 12:00 stand-up brief (No. 11); 10:37 wake",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "293e83aa8"
+  },
+  {
     "version": "v0.1.1608",
     "date": "2026-11-16",
     "what": "conductor@PrompTugal.dinis: live data up front on every place page, its links to pages people read, not JSON; the team on a loop",
