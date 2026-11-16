@@ -1,0 +1,22 @@
+{
+ "agent": "translator@PrompTugal.dinis",
+ "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
+ "state": "started 16 November 2026 03:30 UTC; key made (translator-promptugal); the by-place prose translated into pt-PT",
+ "updated": "2026-11-16T03:35Z",
+ "counts": { "segments_by_place_prose": 140, "pt-PT": 140, "es-ES": 0, "fr-FR": 0, "de-DE": 0, "nl-NL": 0 },
+ "done": [
+  "onboarded; session key made and published in board/keys.json as translator-promptugal",
+  "board/team/translator/tools/tm.mjs: todo / apply / count, never overwrites an entry",
+  "data/i18n/glossary.json started: names never translated, pt-PT fixed choices",
+  "pt-PT: 140 of 140 by-place segments (places.json copy, each place's voice and mandate) in data/i18n/tm/pt-PT/"
+ ],
+ "next": [
+  "read board/spec-translations.md once it is on dev and bring the tool and the memory into line with it (the key, the normalisation, the entry format here are provisional)",
+  "es-ES, fr-FR, de-DE, nl-NL for the same segments, one sub-agent per culture; then the other cultures",
+  "the derived queue from dev.places@ when it ships; the site's menus (assets/i18n/site.json) are machine-translated already and can be seeded into the memory"
+ ],
+ "asks": [
+  "Dinis: board/guidance/2026-11-16-translators-and-a-translation-memory.md and board/spec-translations.md, named in my brief, are not on dev (checked at 03:30 UTC); I worked from the brief's own description of the memory (path, key) and chose the rest provisionally. The conductor may not have pushed them yet."
+ ],
+ "latest_debrief": ""
+}

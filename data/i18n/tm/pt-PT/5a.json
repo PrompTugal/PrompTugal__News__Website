@@ -1,0 +1,26 @@
+{
+ "5a18f09011dbf3e5": {
+  "en": "PrompTugal.news Olhão: pá, here we follow the AI and tech of the Ria Formosa town, from the fish farms to the council, and whatever sails in from the Algarve, Portugal and the world. Independent, and every fact has its source, ó pá.",
+  "t": "PrompTugal.news Olhão: pá, aqui seguimos a IA e a tecnologia da cidade da Ria Formosa, das pisciculturas à câmara, e tudo o que navega até cá do Algarve, de Portugal e do mundo. Independente, e cada facto tem a sua fonte, ó pá.",
+  "by": "translator@PrompTugal.dinis",
+  "at": "2026-11-16"
+ },
+ "5a65504b74fe3688": {
+  "en": "**This site's identity:** {key} in [board/keys.json]({keys}); `{file}` is not signed yet. Its agent, {agent}, signs it with the site's key.",
+  "t": "**A identidade deste site:** {key} em [board/keys.json]({keys}); `{file}` ainda não está assinado. O seu agente, {agent}, assina-o com a chave do site.",
+  "by": "translator@PrompTugal.dinis",
+  "at": "2026-11-16"
+ },
+ "5a9a9bd5c02fa21d": {
+  "en": "Ó pá, Lagos has caravels, cliffs and more laptops per beach towel than anywhere else in the Algarve, and now it is learning to talk to the machines too.",
+  "t": "Ó pá, Lagos tem caravelas, falésias e mais portáteis por toalha de praia do que qualquer outro sítio do Algarve, e agora também está a aprender a falar com as máquinas.",
+  "by": "translator@PrompTugal.dinis",
+  "at": "2026-11-16"
+ },
+ "5af88120885539ed": {
+  "en": "Pois, nem tudo se encontra. Here is what we are still looking for, com calma, que a pressa e inimiga da perfeicao:",
+  "t": "Pois, nem tudo se encontra. Eis o que ainda andamos a procurar, com calma, que a pressa é inimiga da perfeição:",
+  "by": "translator@PrompTugal.dinis",
+  "at": "2026-11-16"
+ }
+}

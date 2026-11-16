@@ -1,0 +1,16 @@
+{
+ "about": "The translation glossary of PrompTugal.news (translator@PrompTugal.dinis, 16 November 2026). Started; provisional until board/spec-translations.md lands. 'never' lists names kept as they are in every culture; 'fixed' lists choices per culture, so the same word is always the same.",
+ "never": [
+  "PrompTugal", "PrompTugal.news", "PT.news", "RiskMandate", "GAMMA-Ray", "FACT-Ray", "Web Summit", "Web Summit Lisbon", "Algarve Evolution",
+  "The Cyber Boardroom", "IPMA", "AMALIA", "EDP", "EMARP", "SPIC", "NERA", "SPAROS", "S2AQUAcoLAB", "Globalfire", "Invisible CFO", "TEC Campus", "GDG Faro", "GDG Lagos", "DevFest", "CoLagos", "Tavira Works", "Quarteira Lab",
+  "Universidade do Algarve", "Museu do Traje", "Praça 1914", "Estádio Algarve", "Eurocidade do Guadiana", "Blue Hub", "ISMAT", "IST", "LNEC", "BRIDGE", "Smart City", "IGP", "DOC", "GEL",
+  "Faro", "Loulé", "Quarteira", "Silves", "Albufeira", "Alcoutim", "Aljezur", "Castro Marim", "Lagoa", "Lagos", "Monchique", "Olhão", "Portimão", "São Brás de Alportel", "Tavira", "Vila do Bispo", "Vila Real de Santo António", "VRSA", "Sagres", "Ferragudo", "Carvoeiro", "Benagil", "Vilamoura", "Arrifana", "Bordeira", "Martim Longo", "Algoz", "Alcantarilha", "São Bartolomeu de Messines", "Ayamonte", "Porto da Baleeira", "Ria Formosa", "Guadiana", "Arade", "Sapal"
+ ],
+ "fixed": {
+  "pt-PT": {
+   "AI": "IA", "the Algarve": "o Algarve", "municipality": "município", "council (câmara)": "câmara", "parish": "freguesia", "map (the AI map)": "mapa de IA",
+   "the PrompTugal test": "o teste PrompTugal", "Web Summit Lisbon 2026": "Web Summit Lisboa 2026", "Cape St Vincent": "Cabo de São Vicente", "Spain": "Espanha", "Atlantic Ocean": "Oceano Atlântico",
+   "startup": "startup", "coworking": "coworking", "incubator": "incubadora", "status.json / commit / JSON / front matter": "kept in English (technical terms)"
+  }
+ }
+}

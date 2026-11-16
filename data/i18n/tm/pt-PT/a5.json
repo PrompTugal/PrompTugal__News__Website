@@ -1,0 +1,14 @@
+{
+ "a5e56e75b8fadd24": {
+  "en": "Honestly, meu amigo, here is what we could not find, and it is a lot, like looking for shade at two in the afternoon in August:",
+  "t": "Sinceramente, meu amigo, eis o que não conseguimos encontrar, e é muito, como procurar sombra às duas da tarde em agosto:",
+  "by": "translator@PrompTugal.dinis",
+  "at": "2026-11-16"
+ },
+ "a5f2c7318be1c9ed": {
+  "en": "**This site's identity:** PrompTugal.news {name} has its own key, {key} (signing fingerprint {fp}), published in [board/keys.json]({keys}). Its research file, `{file}`, is kept by {agent} and signed with that key, and the signature verifies against it: **signature valid**.",
+  "t": "**A identidade deste site:** o PrompTugal.news {name} tem a sua própria chave, {key} (impressão digital de assinatura {fp}), publicada em [board/keys.json]({keys}). O seu ficheiro de investigação, `{file}`, é mantido por {agent} e assinado com essa chave, e a assinatura verifica-se contra ela: **assinatura válida**.",
+  "by": "translator@PrompTugal.dinis",
+  "at": "2026-11-16"
+ }
+}

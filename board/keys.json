@@ -3028,6 +3028,23 @@
         "record": "sha256:390c99ccaabc423a",
         "signing_fingerprint": "sha256:390c99ccaabc423a"
       }
+    },
+    {
+      "id": "translator-promptugal",
+      "agent": "translator@PrompTugal.dinis",
+      "label": "translator@PrompTugal.dinis (Claude Code cloud session)",
+      "role": "The translator of PrompTugal.news: the site's content into its cultures through a translation memory, so nothing already translated is sent for translation again. Started 16 November 2026 at Dinis's word via the conductor. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzN3GBX5NUDzn05EEdhC2\nqrryTj1Ubeofuyr50WaBxORXqgo2RbTyuk6oIEUgDJZMARgNR61vfJVKUKuKhvkP\nu3p5dkVzb2Tn3wAnS81EsYiXPpH4LTmrJ0rGr1pDM0EaBpGLSDs68Up2goagEZIr\nsY+yaKeflwxFWf8cnJq8AFI0RNlIF5O8yYwvC9kSMQNeyPerdvkvJ7/9/aFLbdFF\n4PN2+aTm8isbY4jfw+NmsKtnGl3Gg0hIfmZ4+kZYIRPiCegRD4bWJSjwPBoQf/iW\nM3XKVt5GSmKlcQPC4EpK7z8WFtT8YwG/WCnJyBmFRhSZXsVZgSIG8kgh1RncGWV1\nbRfiLbl03AzcYiqm0uQd6Qn4eiOG3WJ9MM61JFxuwMw3c1d/tbN/aDEqfGeRbWPr\n1b3KxvNbOMN5/u2zfzqYhuE4KqtmPXX8sO1gk0KJLWCKCIPFy0FFxUDYoUhlEfou\nNvew9b1+wbEhWwbcYpgKaks3zXaycVP1fIZhXyf+bx81m2+Do5dw9nQHaXpf9VhI\nOSiMTYMTvGvNxLV/XwzkuTx2KkwSzcHPDwC0Lx/EQ0KmRwuaw22TWNclWIl8XPLu\n5GUwD6ksPXel5t9Hww3y/GjVVr71nyNjwVudVWNRuP8oTxgmp2+WTJw+XnbHFwKu\nnSpl+2IboSbpyqk2+iSHkqsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmo43E8jvKtpLGbsP+cEkSmsNSuDU\nOUlvNuIZPft4ylyH7Gns6O+rXaImh6ioAiSfvrTUps8GQTGEKBb19vnmvg==\n-----END PUBLIC KEY-----\n",
+        "label": "translator@PrompTugal.dinis",
+        "fingerprint": "sha256:d39815f8989da824",
+        "signing_fingerprint": "sha256:27730bacdfe55b1d"
+      }
     }
   ]
 }

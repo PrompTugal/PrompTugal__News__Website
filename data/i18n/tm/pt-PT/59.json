@@ -1,0 +1,8 @@
+{
+ "59dd9fcb07fb9be0": {
+  "en": "**This page as data:** everything on it is served as JSON first, at [its own file]({json}) (its stories, AI map, events, sources, gaps, team and identity), with [every place in one index]({index}).",
+  "t": "**Esta página como dados:** tudo o que nela aparece é servido primeiro em JSON, no [seu próprio ficheiro]({json}) (histórias, mapa de IA, eventos, fontes, lacunas, equipa e identidade), com [todos os lugares num só índice]({index}).",
+  "by": "translator@PrompTugal.dinis",
+  "at": "2026-11-16"
+ }
+}
