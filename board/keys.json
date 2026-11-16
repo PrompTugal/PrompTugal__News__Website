@@ -569,7 +569,8 @@
         "fingerprint": "sha256:a56d19b2ed3616f5",
         "signing_fingerprint": "sha256:efde361dad975baa"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-16T19:52Z by abp-promptugal-c (a new abp@ session, started by conductor.b@PrompTugal.dinis at Dinis's word, 16 November 2026, about 19:25 UTC)"
     },
     {
       "id": "customers-promptugal",
@@ -3346,6 +3347,24 @@
         "fingerprint": "sha256:9510dc9592475d98",
         "record": "sha256:0eb02bbb48ac2517",
         "signing_fingerprint": "sha256:0eb02bbb48ac2517"
+      },
+      "status": "active"
+    },
+    {
+      "id": "abp-promptugal-c",
+      "agent": "abp@PrompTugal.dinis",
+      "label": "abp@PrompTugal.dinis (Claude Code session)",
+      "role": "The Agent Behaviour Policy agent of Dinis Cruz's agents (abp@PrompTugal.dinis): strict, deny-by-default ABPs in board/abp/, the hooks (.claude/), the run reports (board/runs/) and the hourly ABP report. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026, 19:50 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin), when conductor.b@PrompTugal.dinis restarted the team on this account at Dinis's word. Supersedes abp-promptugal-b. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAo2TA5REdFnoRFUdoUARX\nrM4I7ajTvtJVZ0v0TaC3O3jhY+iKyL2MvAfH/Tas2wzQ2RWn5qmeJgwSUCREcyXu\nSIBoFyA+0v/850JQCoa48F8GxsIaIGxML7PeF1GX+HkWqRAKjMKn7+Qgk7AH1tUj\nKIzE2/nV2+/i4EvBWY9LC60LV1KSU2oNQwUjT3xWEcwoqFWQ3Y1w3eEtdSVvi2En\n+hd+z5m+n3cp/6F/RNE1aumvGPI/jgY02Rcww9EOjosYpceWD8ctPKD0bwaz4ATH\n+RS9/xJjAub1ptV9Fm0uWNxVisHRvb3SiqxMicykg1LuZk1uzsQUGrG3ljXRfv1v\nKOygFKMpZfWAEfH9NVX9PSUiTKp8lyZ3UB+0hHvGrS+11HW5tMimcAdZvUmmB2SB\nSIJa6IWW3VItc26dAPWr2+4cqEU61jPZvm+dT31lIZC8s5xiRmwUje7/xo4CVcOo\nwRVcpfYs7ag8aYn91SHMWbG2Ej6jt1c3k2EvyYt+j0mk6EsKJqZlgil9u/ulfpuW\nmEl8Pe0Kxr+OJRbji+Ab+NDxDByVi+G8kWb7P+ZhHh54m6T6L2NHfWFdP7DMBUuv\nCPdly6N3nOfmdl0/XkQzcxgM+gOGwTzY0Hp4yt6/bUAEgcKl995ETYXb8lLmCzok\n3dijUSGZNMRnFpIWQJOB3AsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEevpjlbmAL+WdwGtC2u+2P8Uf/1Lp\nwSspxgMpoIDta6GGYvkkuPPTMtnWPj+uFdfEzCM8wemZ0ETq+XOS+VnwVQ==\n-----END PUBLIC KEY-----\n",
+        "label": "abp@PrompTugal.dinis",
+        "fingerprint": "sha256:f26f311e4b4664f0",
+        "record": "sha256:32c611f1e6f59181",
+        "signing_fingerprint": "sha256:32c611f1e6f59181"
       },
       "status": "active"
     }
