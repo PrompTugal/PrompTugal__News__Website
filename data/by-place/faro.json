@@ -490,8 +490,8 @@
     "Algarve Evolution's own events page tags no event as AI. We list events by their content and say so.",
     "AMAL, the Região de Turismo do Algarve and the Faro airport belong on the map as public bodies, but the pages we read do not connect them to AI, so we left them out for now.",
     "Investors: the entries above are grants, a programme and one 2022 venture investment. We found no 2025 or 2026 funding round for a Faro company. Sources to look for: Portugal Ventures and Banco de Fomento notices, and company announcements (expressTEC and AuroraMed first).",
-    "Faro's council pages we read show no business desk or startup support: its menu lists 'Desenvolvimento económico' and 'Balcão Único Viver Faro' without a description. We need those pages' content.",
-    "Local talent and official contacts are not filled: no talent has been listed by Faro sources or agreed to be, and we have not yet found a public body's channel we need to link."
+    "Faro council does run an economic development desk (Faro Invest) and a business nest managed by ANJE, but its incubation page names no services, price, sector or way to apply, and neither page mentions AI. We still need the council's AI use, if any, and ANJE's own page for the nest.",
+    "Local talent is not filled: no Faro source lists anyone, and nobody has agreed to be listed here."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
@@ -500,6 +500,22 @@
     "gaps_intro": "Ainda não sabemos tudo, pá. Here is what Faro has not told us yet:"
   },
   "start_company": [
+    {
+      "name": "Faro council: Desenvolvimento económico (Faro Invest)",
+      "what": "The council's economic development desk lists technological and business innovation as a priority and names spin-offs from the University of Algarve, strategic and individual investors and service entrepreneurs as its audiences. Meetings are by appointment.",
+      "url": "https://www.cm-faro.pt/pt/menu/1922/desenvolvimento-economico.aspx",
+      "source_url": "https://www.cm-faro.pt/pt/menu/1922/desenvolvimento-economico.aspx",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Faro council: business incubation (a business nest managed by ANJE)",
+      "what": "Spaces for microenterprises and emerging projects of young entrepreneurs. The page names no services, price, sector or application channel, and points to IEFP and CRIA at the University of Algarve.",
+      "url": "https://www.cm-faro.pt/pt/69379/incubacao-de-empresas.aspx",
+      "source_url": "https://www.cm-faro.pt/pt/69379/incubacao-de-empresas.aspx",
+      "read_on": "2026-11-16",
+      "kind": "space"
+    },
     {
       "name": "UALG TEC Campus",
       "what": "Technology incubator and accelerator on UAlg's Penha campus in Faro, opened in 2022, mostly information technology.",
@@ -590,6 +606,24 @@
       "type": "grant",
       "date": "2026-03-19",
       "ai_path": "Funds AI training for healthcare leaders: directly about AI."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Faro, economic development (Faro Invest)",
+      "what": "The council's published channel for investors and entrepreneurs, with meetings by appointment.",
+      "url": "https://www.cm-faro.pt/pt/menu/1922/desenvolvimento-economico.aspx",
+      "source_url": "https://www.cm-faro.pt/pt/menu/1922/desenvolvimento-economico.aspx",
+      "read_on": "2026-11-16",
+      "channel": "the council's economic development email, published on its Desenvolvimento económico page (open the linked page for the address)"
+    },
+    {
+      "name": "Câmara Municipal de Faro, general",
+      "what": "The council's published general email, in the footer of its site. No contact web form was found.",
+      "url": "https://www.cm-faro.pt/pt/menu/68/contactos.aspx",
+      "source_url": "https://www.cm-faro.pt/pt/menu/68/contactos.aspx",
+      "read_on": "2026-11-16",
+      "channel": "the council's general email, published in the footer and on its Contactos page (open the linked page for the address)"
     }
   ]
 }
