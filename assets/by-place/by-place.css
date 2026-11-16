@@ -314,3 +314,9 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 @media (prefers-reduced-motion: reduce) { .bp-frame .bp-nowband .mini-h::before { animation: none; } }
 .bp-frame .bp-nowband .bp-age { color: var(--now-acc); }
 .bp-frame .bp-nowband ul.bp-now > li.bp-stale .bp-fig { opacity: .6; }
+/* the two words this stylesheet writes, in the page's language (the translated place pages) */
+:lang(pt) .bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "Mais recente"; } :lang(pt) .bp-frame .bp-empty::before { content: "Em curso"; }
+:lang(es) .bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "Lo último"; } :lang(es) .bp-frame .bp-empty::before { content: "En curso"; }
+:lang(fr) .bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "À la une"; } :lang(fr) .bp-frame .bp-empty::before { content: "En cours"; }
+:lang(de) .bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "Neu"; } :lang(de) .bp-frame .bp-empty::before { content: "In Arbeit"; }
+:lang(nl) .bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "Nieuwste"; } :lang(nl) .bp-frame .bp-empty::before { content: "Bezig"; }

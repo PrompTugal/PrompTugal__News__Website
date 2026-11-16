@@ -1,3 +1,14 @@
+// Words this script adds, per page language (designer.places@, 16 Nov 2026: the translated place pages, /<culture>/...).
+var BP_LANG = (document.documentElement.lang || 'en').toLowerCase(), BP_L2 = BP_LANG.slice(0, 2)
+var BP_W = ({
+    en: { alg: 'Say it in Algarvio', pt: 'Say it à portuguesa', back: 'Back to plain English', lab: 'Playful local voice: same facts, said ', wayA: 'the Algarvio way', wayP: 'the Portuguese way', min: function (n) { return n + ' min ago' }, hr: function (n) { return n + ' h ago' }, start: 'starting' },
+    pt: { alg: 'Dizer em algarvio', pt: 'Dizer à portuguesa', back: 'Voltar ao texto simples', lab: 'Voz local, a brincar: os mesmos factos, ditos ', wayA: 'à algarvia', wayP: 'à portuguesa', min: function (n) { return 'há ' + n + ' min' }, hr: function (n) { return 'há ' + n + ' h' }, start: 'a começar' },
+    es: { alg: 'Dilo en algarvio', pt: 'Dilo a la portuguesa', back: 'Volver al texto normal', lab: 'Voz local, en broma: los mismos hechos, dichos ', wayA: 'a la algarvia', wayP: 'a la portuguesa', min: function (n) { return 'hace ' + n + ' min' }, hr: function (n) { return 'hace ' + n + ' h' }, start: 'empezando' },
+    fr: { alg: 'Le dire en algarvio', pt: 'Le dire à la portugaise', back: 'Revenir au texte simple', lab: 'Voix locale, pour rire : les mêmes faits, dits ', wayA: 'à l’algarvienne', wayP: 'à la portugaise', min: function (n) { return 'il y a ' + n + ' min' }, hr: function (n) { return 'il y a ' + n + ' h' }, start: 'démarrage' },
+    de: { alg: 'Auf Algarvio sagen', pt: 'Auf Portugiesisch sagen', back: 'Zurück zum normalen Text', lab: 'Lokale Stimme, augenzwinkernd: dieselben Fakten, gesagt ', wayA: 'auf Algarvio', wayP: 'auf Portugiesisch', min: function (n) { return 'vor ' + n + ' Min.' }, hr: function (n) { return 'vor ' + n + ' Std.' }, start: 'startet' },
+    nl: { alg: 'Zeg het in het Algarvio', pt: 'Zeg het op z’n Portugees', back: 'Terug naar de gewone tekst', lab: 'Lokale stem, met een knipoog: dezelfde feiten, gezegd ', wayA: 'op z’n Algarvio’s', wayP: 'op z’n Portugees', min: function (n) { return n + ' min geleden' }, hr: function (n) { return n + ' u geleden' }, start: 'start' }
+})
+BP_W = BP_W[BP_L2] || BP_W.en;
 // PrompTugal.news by place: the page's finish (designer.places@PrompTugal.dinis) and the playful local-voice toggle
 // (Dinis's brief, 14 Nov 2026: "Algarvio, with each town's own sayings and place references ... the facts stay
 // identical, it is clearly labelled as playful"). The page reads fully without this script; it only adds polish.
@@ -35,7 +46,7 @@
     frame.querySelectorAll('.bp-status td:nth-child(2)').forEach(function (td) {
         var w = td.textContent.trim(); if (!/^(stub|researching|live)$/.test(w)) return
         td.textContent = ''
-        var p = document.createElement('span'); p.className = 'bp-pill ' + w; p.textContent = w === 'stub' ? 'starting' : w
+        var p = document.createElement('span'); p.className = 'bp-pill ' + w; p.textContent = w === 'stub' ? BP_W.start : w
         td.appendChild(p)
     })
 
@@ -45,12 +56,12 @@
     if (!mast) return
     var label = document.createElement('p'); label.className = 'bp-voice-label'
     var national = frame.classList.contains('bp-country') || frame.getAttribute('data-place') === 'portugal' || !/\/algarve(\/|$)/.test(location.pathname)
-    var WAY = national ? 'the Portuguese way' : 'the Algarvio way', SAY = national ? 'Say it à portuguesa' : 'Say it in Algarvio'
-    label.textContent = 'Playful local voice: same facts, said ' + WAY
+    var WAY = national ? BP_W.wayP : BP_W.wayA, SAY = national ? BP_W.pt : BP_W.alg
+    label.textContent = BP_W.lab + WAY
     mast.insertBefore(label, mast.firstChild)
     var t = document.createElement('button'); t.type = 'button'; t.className = 'bp-toggle'
     var KEY = 'pt-bp-voice'
-    function set(on) { frame.classList.toggle('voice', on); t.setAttribute('aria-pressed', on ? 'true' : 'false'); t.textContent = on ? 'Back to plain English' : SAY; try { localStorage.setItem(KEY, on ? '1' : '0') } catch (e) {} }
+    function set(on) { frame.classList.toggle('voice', on); t.setAttribute('aria-pressed', on ? 'true' : 'false'); t.textContent = on ? BP_W.back : SAY; try { localStorage.setItem(KEY, on ? '1' : '0') } catch (e) {} }
     t.addEventListener('click', function () { set(!frame.classList.contains('voice')) })
     mast.appendChild(t)
     var on = false; try { on = localStorage.getItem(KEY) === '1' } catch (e) {}
@@ -133,7 +144,7 @@
         var t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), +m[1], +m[2])
         var mins = Math.round((now.getTime() - t) / 60000); if (mins < 0 || mins > 24 * 60) return
         var s = document.createElement('span'); s.className = 'bp-age'
-        s.textContent = ' · ' + (mins < 60 ? mins + ' min ago' : Math.floor(mins / 60) + ' h ago')
+        s.textContent = ' · ' + (mins < 60 ? BP_W.min(mins) : BP_W.hr(Math.floor(mins / 60)))
         em.appendChild(s)
         if (mins > 180) em.parentNode.classList.add('bp-stale')
     })
