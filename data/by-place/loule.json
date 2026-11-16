@@ -307,38 +307,7 @@
       "steps": 1
     }
   ],
-  "extras": [
-    {
-      "label": "Starting a company here: the regional business association",
-      "value": "NERA, headquartered in Loulé, lists business support, legal advice, professional training, economic information, a business centre and space rental, and runs AI tool training in November 2026.",
-      "source_url": "https://nera.pt",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: incubators and coworking",
-      "value": "BeAlgarve's ecosystem directory lists, for Loulé: the Ninho de Empresas (public, IEFP), Loulé Design Lab (municipal, creative and technology), CASULO (social innovation) and NERA's coworking. It lists no start-ups or research institutions in Loulé.",
-      "source_url": "https://bealgarve.pt/pt/ecossistema/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: the AI community",
-      "value": "BeAlgarve lists Algarve AI Agents, an AI community covering Faro and Loulé, and LOFT Community for remote work.",
-      "source_url": "https://bealgarve.pt/pt/ecossistema/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: the regional AI programme",
-      "value": "Algarve Evolution's AI and robotics pilot for 15 tourism firms ran from 20 February to 30 April 2026. The call has closed, and the regulation and form were at algarveevolution.pt/inovaalgarve.",
-      "source_url": "https://www.algarveevolution.pt/blog/ae-articles-8/algarve-evolution-opens-call-for-algarvian-tourism-smes-13",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: the councils' tech centre",
-      "value": "The Loulé and Faro councils tendered a multi-technology centre for companies and startups at the Estádio Algarve (proposals due 2 November 2026, 12 months to execute, half funded by Algarve 2030).",
-      "source_url": "https://www.barlavento.pt/lancado-concurso-instalar-centro-multitecnologico-estadio-algarve/",
-      "read_on": "2026-11-16"
-    }
-  ],
+  "extras": [],
   "identity": {
     "key_id": "site.loule-promptugal",
     "signed_by": "place.loule@PrompTugal.dinis"
@@ -360,5 +329,124 @@
     "mandate": "PrompTugal.news Loulé: AI and tech from the town with the pretty market, a council that already bought itself some AI, and the Algarve's business association at home. We tell you what reaches Loulé from the Algarve, Portugal and the world, and every fact has a source, pois claro.",
     "gravity": "Here AI lives more in offices than in garages, meu. The câmara says it has bought AI tools to untangle planning papers, NERA sits in town teaching firms how to use them, and with Faro the council is tendering a tech centre at the Estádio Algarve that names AI. One real AI company so far, SPIC, so the map is short, and honest about it.",
     "gaps_intro": "What we did not find, said with a straight face and a pastel de nata:"
-  }
+  },
+  "start_company": [
+    {
+      "name": "NERA, the regional business association (Loulé)",
+      "kind": "public desk",
+      "what": "Business support, legal advice, professional training, economic information, a business centre and space rental, and coworking.",
+      "url": "https://nera.pt",
+      "source_url": "https://nera.pt",
+      "read_on": "2026-11-16"
+    },
+    {
+      "name": "Ninho de Empresas de Loulé (IEFP)",
+      "kind": "incubator",
+      "what": "A public business and technology incubator, as BeAlgarve's directory classes it.",
+      "url": "https://bealgarve.pt/pt/ecossistema/",
+      "source_url": "https://bealgarve.pt/pt/ecossistema/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "name": "Loulé Design Lab (Loulé Criativo)",
+      "kind": "incubator",
+      "what": "The municipal creative and technology incubator and coworking space.",
+      "url": "https://bealgarve.pt/pt/ecossistema/",
+      "source_url": "https://bealgarve.pt/pt/ecossistema/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "name": "CASULO, social innovation incubator",
+      "kind": "incubator",
+      "what": "Listed for Loulé by BeAlgarve as an incubator of social innovation.",
+      "url": "https://bealgarve.pt/pt/ecossistema/",
+      "source_url": "https://bealgarve.pt/pt/ecossistema/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "name": "Algarve AI Agents",
+      "kind": "community",
+      "what": "An AI community covering Faro and Loulé, as BeAlgarve lists it. No page of its own found yet.",
+      "url": "https://bealgarve.pt/pt/ecossistema/",
+      "source_url": "https://bealgarve.pt/pt/ecossistema/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "name": "Loulé and Faro multi-technology centre, Estádio Algarve (planned)",
+      "kind": "space",
+      "what": "A tendered centre of about 2,235 square metres for companies and startups. Proposals were due on 2 November 2026 and the work has 12 months to run.",
+      "url": "https://www.barlavento.pt/lancado-concurso-instalar-centro-multitecnologico-estadio-algarve/",
+      "source_url": "https://www.barlavento.pt/lancado-concurso-instalar-centro-multitecnologico-estadio-algarve/",
+      "read_on": "2026-11-16"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Algarve 2030 regional programme",
+      "type": "programme",
+      "what": "Co-finances half of the more than 3.5 million euro Estádio Algarve technology centre and the Inova Algarve 3.0 AI and robotics pilot for tourism firms.",
+      "url": "https://www.barlavento.pt/lancado-concurso-instalar-centro-multitecnologico-estadio-algarve/",
+      "source_url": "https://www.barlavento.pt/lancado-concurso-instalar-centro-multitecnologico-estadio-algarve/",
+      "read_on": "2026-11-16",
+      "amount": "more than 3.5 million euros total, 50% Algarve 2030",
+      "date": "2026-09-24",
+      "ai_path": "The centre lists AI among its themes: the funding, then the centre, then AI firms."
+    },
+    {
+      "name": "European funds behind SPIC's AI.EVENT",
+      "type": "grant",
+      "what": "RTP says SPIC's AI platform for reading audience reactions has had European funding. It names no programme or amount.",
+      "url": "https://www.rtp.pt/noticias/rtpeuropa/uniao-europeia-aposta-na-inteligencia-artificial-no-algarve_v1696437",
+      "source_url": "https://www.rtp.pt/noticias/rtpeuropa/uniao-europeia-aposta-na-inteligencia-artificial-no-algarve_v1696437",
+      "read_on": "2026-11-16",
+      "ai_path": "The grant funds an AI product."
+    },
+    {
+      "name": "Re-Source 3.0 (Sociedade Ponto Verde) behind ALGAR's AI tool",
+      "type": "programme",
+      "what": "The programme under which ALGAR and NILG.AI built the AI recycling-point tool. One report puts the investment at 50 thousand euros.",
+      "url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+      "source_url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+      "read_on": "2026-11-16",
+      "date": "2025-01-23",
+      "ai_path": "The programme funded an AI tool for a Loulé-municipality company."
+    }
+  ],
+  "talent": [
+    {
+      "name": "José Bota",
+      "role": "On the RiskMandate team that ran the Web Summit newsroom, on channels",
+      "what": "Named by Dinis Cruz as the team member on channels in 'Ten days at Web Summit' (14 November 2026). His agent wrote PrompTugal.news articles.",
+      "url": "https://newsroom.sgit.ai/articles/ten-days-at-web-summit.html",
+      "source_url": "https://newsroom.sgit.ai/articles/ten-days-at-web-summit.html",
+      "read_on": "2026-11-16",
+      "consent": "Dinis Cruz said, on 15 to 16 November 2026 (board/guidance/2026-11-16-overnight-full-research.md), that José agreed to be listed as local talent."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Loulé, general desk",
+      "what": "The council's published general channels. Its municipal line for reporting incidents, Loulé 24 Horas, is also listed on the same page.",
+      "channel": "the general email, phone and the Loulé 24 Horas incident line, as published on the linked page",
+      "url": "http://www.cm-loule.pt/pt/menu/267/contactos-uteis.aspx",
+      "source_url": "http://www.cm-loule.pt/pt/menu/267/contactos-uteis.aspx",
+      "read_on": "2026-11-16"
+    },
+    {
+      "name": "Câmara Municipal de Loulé, contact form",
+      "what": "The council's own contact form ('Fale Connosco').",
+      "channel": "web form",
+      "url": "https://www.cm-loule.pt/pt/menu/2733/fale-connosco.aspx",
+      "source_url": "https://www.cm-loule.pt/pt/menu/9/contactos.aspx",
+      "read_on": "2026-11-16"
+    },
+    {
+      "name": "NERA, general desk",
+      "what": "The association's published general channels, in the footer of its home page.",
+      "channel": "the general email and phone, as published in the footer of nera.pt and on its Contactos page",
+      "url": "https://nera.pt/contactos",
+      "source_url": "https://nera.pt",
+      "read_on": "2026-11-16"
+    }
+  ]
 }
