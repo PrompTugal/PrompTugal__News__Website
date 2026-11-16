@@ -76,7 +76,7 @@ export function database(ctx) {
     for (const o of ctx.store.organisations) if (nodes.has(`organisation:${o.id}`) && !o.marker && !byName.has(nameKey(o.name))) byName.set(nameKey(o.name), `organisation:${o.id}`)
 
     // the places
-    const rows = { places: [], news: [], map: [], events: [], sources: [], gaps: [], companies: [], articles: [], merges: [], connections: [], captures: [], nr_articles: [], nr_links: [], nr_nodes: [], nr_edges: [] }
+    const rows = { places: [], news: [], map: [], events: [], sources: [], gaps: [], companies: [], articles: [], merges: [], connections: [], captures: [], nr_articles: [], nr_links: [], nr_nodes: [], nr_edges: [], place_items: [] }
     for (const p of places) {
         const id = `place:${p.id}`, f = p.file
         N(id, { type: 'place', kind: p.kind, label: p.name, page: `${p.path}index.html`, source: `data/by-place/${p.id}.json`, read: str(f.updated), layer: nodes.has(id) ? 'graph' : 'by-place' })
@@ -159,6 +159,15 @@ export function database(ctx) {
         for (const r of rows.map.filter(r => r[0] === p.id)) hosts.set(r[7], (hosts.get(r[7]) || 0) + 1)
         arr(p.file.sources).forEach((s, i) => { if (s && s.name && okUrl(s.url)) rows.sources.push([p.id, i + 1, str(s.name), s.url, hostOf(s.url), str(s.kind), okUrl(s.feed) ? s.feed : null, hosts.get(hostOf(s.url)) || 0]) })
         arr(p.file.gaps).forEach((t, i) => { if (typeof t === 'string' && t.trim()) rows.gaps.push([p.id, i + 1, t]) })
+    }
+    // every other list in a place file (the full research pass adds more: investors, talent, starting a company), one
+    // row per entry, so a new field is queryable the day it lands; its entry kept whole as JSON
+    const KNOWN = new Set(['ai_news', 'ai_map', 'events', 'sources', 'gaps', 'extras'])
+    for (const p of places) for (const [field, list] of Object.entries(p.file)) {
+        if (KNOWN.has(field) || !Array.isArray(list)) continue
+        list.forEach((x, i) => { if (!x || typeof x !== 'object') return
+            const u = [x.url, x.source_url, x.source].find(okUrl) || null
+            rows.place_items.push([p.id, field, i + 1, str(x.name || x.title || x.label || null), str(x.type || x.kind || null), u, hostOf(u), str(x.read_on || null), str(x.what || x.summary || x.ai_path || null), JSON.stringify(x)]) })
     }
     // the companies and the articles
     for (const c of ctx.store.companies) if (nodes.has(`company:${c.id}`)) rows.companies.push([c.id, `company:${c.id}`, c.name, str(c.category), str(c.country), okUrl(c.website) ? c.website : null, c.attending ? 1 : 0, str(c.what), arr(c.sources).length, `companies/${c.id}/index.html`])
@@ -345,7 +354,7 @@ export function validate(gate) {
     const ids = new Set(S.tables.nodes.rows.map(r => r[0]))
     for (const e of S.tables.edges.rows) if (!ids.has(e[1]) || !ids.has(e[3])) out.push(`edge ${e[0]} has an end that is not a node`)
     const run = (ex, where, must) => { try { const r = SQL.run(ex.sql, eng); if (must && !r.rows.length) out.push(`the example "${ex.title}" (${where}) answers nothing`) } catch (err) { out.push(`the example "${ex.title}" (${where}) fails: ${err.message}`) } }
-    for (const ex of EXAMPLES(cat)) run(ex, 'query/', true)
+    for (const ex of EXAMPLES(cat)) run(ex, 'query/', !ex.may_be_empty)
     for (const p of S.idx.places) for (const ex of PLACE_EX(cat, p.id, p.name)) run(ex, `query/${p.id}/`, CASES.includes(p.id) && ['map', 'news', 'two-steps', 'sources'].includes(ex.id))
     for (const p of S.idx.places) if (!gate.generated.has(p.url)) out.push(`${p.url} was not built`)
     return out

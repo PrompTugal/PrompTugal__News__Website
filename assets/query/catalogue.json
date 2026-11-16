@@ -820,6 +820,61 @@
           "about": "to (a node id inside the article)"
         }
       ]
+    },
+    "place_items": {
+      "about": "Every other list in a place's file, one row per entry: whatever the place agents add beyond the stories, the map, the events, the sources and the gaps (investors, investments, talent, starting a company, government and so on), so a new field is queryable the day it lands.",
+      "columns": [
+        {
+          "name": "place",
+          "type": "text",
+          "about": "the place's id"
+        },
+        {
+          "name": "field",
+          "type": "text",
+          "about": "the list it is in, as the place file names it"
+        },
+        {
+          "name": "n",
+          "type": "integer",
+          "about": "its position in the list"
+        },
+        {
+          "name": "name",
+          "type": "text",
+          "about": "its name or title"
+        },
+        {
+          "name": "kind",
+          "type": "text",
+          "about": "its type or kind, where given"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "about": "its source or page"
+        },
+        {
+          "name": "host",
+          "type": "text",
+          "about": "the source's web host"
+        },
+        {
+          "name": "read_on",
+          "type": "text",
+          "about": "when it was read"
+        },
+        {
+          "name": "what",
+          "type": "text",
+          "about": "what it is, in the agent's words"
+        },
+        {
+          "name": "json",
+          "type": "text",
+          "about": "the entry whole, as JSON"
+        }
+      ]
     }
   },
   "examples": [
@@ -900,6 +955,13 @@
       "title": "Where Dinis's newsroom meets the Algarve's AI map",
       "about": "newsroom.sgit.ai articles whose title or core idea names an organisation on a place's AI map: two corpora, one graph.",
       "sql": "SELECT o.label AS organisation, o.places, a.title AS newsroom_article, a.date\nFROM edges m\nJOIN nr_articles a ON a.node = m.src\nJOIN nodes o ON o.id = m.dst\nWHERE m.verb = 'mentions' AND m.layer = 'newsroom'\nORDER BY o.label, a.date DESC"
+    },
+    {
+      "id": "new-fields",
+      "title": "What else the place agents are mapping",
+      "about": "The lists beyond stories and the map, by place and field, as the full research pass adds them.",
+      "sql": "SELECT field, count(*) AS entries, count(DISTINCT place) AS places, group_concat(DISTINCT place) AS where_\nFROM place_items\nGROUP BY field\nORDER BY entries DESC",
+      "may_be_empty": true
     }
   ],
   "place_examples": [

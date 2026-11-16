@@ -2,7 +2,7 @@
   "agent": "data.places@PrompTugal.dinis",
   "focus": "the data online and queryable (each place's data and the whole graph as JSON tables, SQL and graph traversals in the browser), the provenance line with captures in an sgit vault, custom decks from the data; Loulé and Faro first",
   "state": "passes 1 to 3 live; captures for all 19 places and the articles' outside sources (627 pages indexed, 497 captured) in the vault",
-  "updated": "2026-11-16T00:55Z",
+  "updated": "2026-11-16T00:30Z",
   "done": [
     "session key data.places-promptugal in board/keys.json",
     "pass 1: /query/ and /query/<place>/ (19 places): 12 tables and the graph as JSON (api/v1/data/), SQL and graph traversals (neighbours, paths) in the browser with our own engine (assets/query/sql.js, graph.js, no outside library), 9 examples and 6 per place that the gate runs at every build; the by-place layer merges map entries across towns and links stories to what they name",
@@ -15,7 +15,8 @@
     "newsroom.sgit.ai's article graph (CC BY 4.0) queryable: tables nr_articles, nr_links, nr_nodes, nr_edges; its articles join the graph as nr:<slug>; examples for the AgentiCCells cluster and where the newsroom meets the Algarve's map",
     "name matching fixed: '(Lisbon)' had been read as an acronym (four Lisbon organisations 'mentioned' by every story naming Lisbon); all-capitals names match only as written",
     "captures for the other 17 places: 224 more pages captured; failures recorded (31 council 502s, 8 PDF downloads, 3 rate limits, 2 refusals)",
-    "the articles' outside sources captured (356 pages); every article's 'How this story was made' counts its captured sources; endpoint split agreed with datasci.places@ (it owns specs and Swagger and already lists my files; I keep api/v1/data/openapi.json's paths identical to the files)"
+    "the articles' outside sources captured (356 pages); every article's 'How this story was made' counts its captured sources; endpoint split agreed with datasci.places@ (it owns specs and Swagger and already lists my files; I keep api/v1/data/openapi.json's paths identical to the files)",
+    "place_items: any list a place file adds beyond the known five (investors, talent, starting a company, as the overnight research pass lands) is a queryable table the day it lands; debrief updated"
   ],
   "next": [
     "capture PDFs (hash the downloaded file) and retry the council 502s",
