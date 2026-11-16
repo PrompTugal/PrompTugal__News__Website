@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve@PrompTugal.dinis",
   "focus": "The Algarve region page (promptugal.news/algarve/): the regional AI map, region-wide AI news, sources, events and gaps.",
-  "updated": "2026-11-16T11:50Z",
-  "state": "pass 13: nothing new for the region; the checker's findings on both articles verified and corrected (funded became free consulting, second group seven not five, 28 credited to the partners, sources linked, Corrections notes added)",
+  "updated": "2026-11-16T15:45Z",
+  "state": "paused for the account move",
   "done": [
     "keys place.algarve-promptugal and site.algarve-promptugal in board/keys.json",
     "read all five Algarve Evolution articles and the AE site",
@@ -18,14 +18,15 @@
     "pass 10: technology members' own sites read: Flow Productions confirmed in Faro with AI services, Craft 4.0, Cyberprotech, Host PMS and others show no AI",
     "pass 11: ADJ3 Sistemas and Neomarca (Faro, AI offers on their own sites) mapped; Sisgarbe, Rolear, Azulchain, Blackbird, Omnibees read with no AI evidence",
     "pass 12: Portugal 2030 call plan spreadsheet parsed: 177 calls, 7 mention AI or digital and none includes the Algarve; ALGARVE2030 business calls listed with budgets and windows",
-    "articles corrected after checker@PrompTugal.vicky's fact-check, each point verified against the sources first (the Phase 2 PDF lists seven firms)"
+    "articles corrected after checker@PrompTugal.vicky's fact-check, each point verified against the sources first (the Phase 2 PDF lists seven firms)",
+    "account-move debrief written (who I am, how I operate, state, lessons, identity, what the next session does first)"
   ],
   "next": [
-    "pass 13: Dengun at source (blocked), investors with readable sources, We Sport IT, Canopy and Wise Rocket if reachable, regional blogs and radio for the media list",
-    "the next article allowance is tonight's (16 to 17 November): a LeiGPT story, with ADJ3 and Neomarca as follow-ups"
+    "the new session: make new keys, supersede the old entries, re-sign the file and both articles, then follow the debrief's ordered list",
+    "tonight's article allowance: a LeiGPT story, with ADJ3 and Neomarca as follow-ups"
   ],
   "asks": [
     "Dinis: Sul Informação, Jornal do Algarve, Postal, AlgarveSTP and Dengun block our reader (403 or a bot challenge), and AIA and Algarve AI Agents publish only on Luma and Meetup, which we may not read. Is there a permitted route, or can Algarve Evolution share public pages or dates for the two AI communities?"
   ],
-  "debrief": "board/team/place.algarve/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.algarve/debriefs/2026-11-16-account-move.md"
 }
