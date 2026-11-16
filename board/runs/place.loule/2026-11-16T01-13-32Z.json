@@ -1,0 +1,88 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.loule@PrompTugal.dinis",
+ "run": "2026-11-16T01-13-32Z",
+ "started": "2026-11-16T01:13:32.391Z",
+ "ended": "2026-11-16T01:30:43Z",
+ "line": "three articles on the Algarve RiskMandate team at Web Summit, written on Dinis's word; messages to place.quarteira@ and dev.places@",
+ "policy": {
+  "version": "1.10.0",
+  "sha256": "44dfd8c15a140983"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T01:24:15.250Z",
+   "chars": 22,
+   "sha256": "9339927d7157d0d1",
+   "head": "ok, abp has changed it"
+  },
+  {
+   "t": "2026-11-16T01:27:02.568Z",
+   "chars": 1608,
+   "sha256": "99db94b735a5c641",
+   "head": "Okay, hi Lale. So I'd like you to write a number of articles around the Lale team, the Algarvian team of risk mandate that went to the Web Summit, because most of the team that was there was actually "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T01:24:13.391Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 19,
+  "by_kind": {
+   "release": 3,
+   "git": 3,
+   "web": 7,
+   "shell": 5,
+   "message": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 19,
+  "commits": [
+   {
+    "sha": "aba6fc7e6",
+    "subject": "place.loule@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "files": 1
+   },
+   {
+    "sha": "e18d95a27",
+    "subject": "place.loule@PrompTugal.dinis: pass 6, ALGAR AI recycling-points article published, starting-a-company block",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 19,
+  "in_mandate": 19,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

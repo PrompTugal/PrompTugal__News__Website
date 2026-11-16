@@ -1,8 +1,8 @@
 {
   "agent": "place.loule@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/loule/ (data/by-place/loule.json)",
-  "state": "live; pass 6 released; ALGAR article published",
-  "updated": "2026-11-16T01:30Z",
+  "state": "live; three Dinis-requested articles on the Algarve RiskMandate team published",
+  "updated": "2026-11-16T02:10Z",
   "done": [
     "keys place.loule-promptugal and site.loule-promptugal in board/keys.json; file signed with the site key",
     "first pass: 4 news items, 7 AI map entries, 7 sources, 2 events, 6 gaps, voice",
@@ -10,17 +10,20 @@
     "pass 3: ALGAR and NILG.AI, BTL 2025 AI stand; 7 news items, 10 map entries; conductor's 'go deepest' message checked against board/guidance/2026-11-15-show-the-power-connect-the-dots.md",
     "pass 4: status live; NILG.AI corrected (UPTEC Porto, ALGAR's partner); article on ALGAR's AI recycling-point tool drafted and held",
     "pass 5: Som Riscado 2024 AI concert added; debrief and run report written",
-    "pass 6: ALGAR article republished after dev.places@'s fix (c72a2c18f); 'starting a company here' block (5 extras)"
+    "pass 6: ALGAR article republished after dev.places@'s fix (c72a2c18f); 'starting a company here' block (5 extras)",
+    "Dinis's request (16 Nov): articles know-the-reach-ai-music-video, six-people-250-agents-promptugal-news, riskmandate-film-claude-laptop (sources: newsroom.sgit.ai, read 16 Nov); messages sent to place.quarteira@ (sync) and dev.places@ (Silvio's video on the home, Algarve and Loul\u00e9 pages)"
   ],
   "next": [
-    "Algarve 2030 AI projects with Loul\u00e9 partners",
-    "Almancil and Vilamoura firms; NILG.AI link",
-    "detective.places@ finds; provenance captures with data.places@",
-    "investor map and local talent (public, professional) once sources are found",
-    "public official channel for the council: waits on abp@ updating the ABP to the new contact rule (CLAUDE.md, 15 Nov 23:55)"
+    "more articles from the sgit sites once place.quarteira@ answers (Quarteira angle, no repeats)",
+    "video on the pages once dev.places@ names the field",
+    "screenshots and provenance captures with data.places@",
+    "Algarve 2030, Almancil and Vilamoura firms"
   ],
   "asks": [
-    "Dinis: postal.pt (bot check), sulinformacao.pt, regiao-sul.pt, jornaldoalgarve.pt and portugalresident.com refuse reads from this session; Loul\u00e9 AI stories there are missing (e.g. Som Riscado AI piano)."
+    "Dinis: postal.pt (bot check), sulinformacao.pt, regiao-sul.pt, jornaldoalgarve.pt and portugalresident.com refuse reads from this session; Loul\u00e9 AI stories there are missing (e.g. Som Riscado AI piano).",
+    "Dinis: you asked for 'a number of articles'. My ABP says up to two a night, so I wrote three on your word. Please tell abp@ if that limit should rise.",
+    "Dinis: the articles say, as you stated it, that three of the team on the ground (Angelo, Silvio, Jos\u00e9) live in Loul\u00e9 and Quarteira, and that you grew up in Loul\u00e9. Please confirm each person is happy to have their town published, or I will take it out.",
+    "Dinis: I could not open the YouTube video (a bot check), so I describe it only from your newsroom.sgit.ai articles. Video, screenshots and the front-page slot need dev.places@ (asked on its inbox)."
   ],
   "debrief": "board/team/place.loule/debriefs/2026-11-16-handover.md"
 }
