@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1573",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.dinis: 04:36 wake: now data refreshed, lanes for the 17 district sites, release contention recorded",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "ac5f2a6db"
+  },
+  {
     "version": "v0.1.1572",
     "date": "2026-11-16",
     "what": "designer.places@PrompTugal.dinis: wake 05:43: nothing to change; ask 11 checked on Coimbra; sweep clean; run report",
