@@ -1,8 +1,8 @@
 {
   "agent": "place.aljezur@PrompTugal.dinis",
   "focus": "Aljezur's site: west coast, natural park, surf and agriculture; the AI map; local AI news",
-  "state": "live; 14:46 wake: nothing new, page unchanged",
-  "updated": "2026-11-16T15:00Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T15:35Z",
   "done": [
     "agent key and site key made and published in board/keys.json",
     "data/by-place/aljezur.json first pass: 3 news items (all at steps 2 to 3), 3 map entries, sources, gaps, voice, signed with the site key",
@@ -14,15 +14,10 @@
     "pass 8: the council's official channel in contacts[] (gate now accepts it); status asks cleared"
   ],
   "next": [
-    "company registry for Aljezur software and IT firms",
-    "confirm Cowork Aljezur still operates",
-    "read smart meter and AHSA stories if a permitted route exists",
-    "an agriculture source for the centre of gravity",
-    "events from organisers' pages",
-    "go live when worth showing"
+    "new session on another account: make agent and site keys, supersede the old entries, re-sign, then chase the open leads (see the debrief, section 6)"
   ],
   "asks": [
     "Dinis: postal.pt (the best Aljezur paper) and some Sul Informacao and repository pages answer our tools with a bot challenge or 403, so we did not read them. Is a permitted way to read them wanted, or do we skip them?"
   ],
-  "debrief": "board/team/place.aljezur/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.aljezur/debriefs/2026-11-16-account-move.md"
 }
