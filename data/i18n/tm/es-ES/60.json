@@ -1,10 +1,34 @@
 {
+ "600baa0ca80194f5": {
+  "t": "PrompTugal.news São Brás de Alportel: IA y tecnología desde la serra, donde el corcho fue rey y el museo del traje aún tiene corte. Independiente, ó pá, y cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology from",
+  "ok": false
+ },
  "6034217bbcf2a652": {
   "t": "Flow Productions, con Algarve STP y la Ireland Portugal Business Network, organizó el 22 de julio en el UAlg TEC Campus un panel en inglés sobre cómo ChatGPT, Gemini, Claude y Perplexity cambian la búsqueda en línea, y sobre la optimización para motores de respuesta y motores generativos.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Flow Productions, with Algarve STP and the Ireland Portugal ",
+  "ok": false
+ },
+ "603cf17f5f3301f1": {
+  "t": "Ainda não sabemos tudo, pá. Esto es lo que Viseu aún no nos ha contado:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Viseu has not told ",
+  "ok": false
+ },
+ "6086206026ba6998": {
+  "t": "La ficha del proyecto describe una plataforma de gestión urbana para Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira y Vila Real de Santo António, que reúne sensores y diez áreas de servicio como residuos, agua, calidad del aire, ruido, marcas de inundación y monitorización de personas mayores aisladas. Inversión indicada: 102 615 euros, todos cofinanciados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The project sheet describes an urban management platform for",
   "ok": false
  },
  "60ccc1cc7132b7a8": {

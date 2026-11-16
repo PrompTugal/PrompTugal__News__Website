@@ -1,0 +1,26 @@
+{
+ "8e11d3d8c11ed4de": {
+  "t": "Een conferentie van een hele dag in de grote zaal van de gemeente op 15 juni 2026 ging over het nieuwe decreet stedenbouw en het effect van AI en geautomatiseerde besluitvorming op stedelijke procedures, met een spreker van de Universiteit van Porto over AI in territoriaal beheer.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A day-long conference in the council's main hall on 15 June ",
+  "ok": false
+ },
+ "8ededdc755b1fa1e": {
+  "t": "De nieuwspagina van de instelling noemt de tweede editie van de microkwalificatie Education and AI, aangekondigd op 15 mei 2026. De cursusbrochure beschrijft 27 uur over het kritisch en ethisch gebruik van generatieve AI in het onderwijs, met sessies ter plaatse in Viseu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The institution's news page lists the second edition of the ",
+  "ok": false
+ },
+ "8ef41e6f4b07432a": {
+  "t": "Spanje",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Spain",
+  "ok": false
+ }
+}

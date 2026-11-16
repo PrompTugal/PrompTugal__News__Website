@@ -1,4 +1,12 @@
 {
+ "ae3e2a46acb723c2": {
+  "t": "Portimão acoge su primera conferencia de turismo e informática, con la IA en el programa",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão hosts its first tourism-and-computing conference, w",
+  "ok": false
+ },
  "ae8eed6c08564c77": {
   "t": "Evox Technologies, fundada en 2016 en la ciudad, construye sensores y software para la gestión de residuos. En una entrevista mencionó un piloto previsto con el municipio de Castelo Branco que usará sensores con inteligencia artificial. No se da ningún otro detalle sobre la IA.",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Castelo Branco follows AI and technology in ",
+  "ok": false
+ },
+ "aecf2dba708906c1": {
+  "t": "La UTAD ayuda a redactar el primer libro blanco de Portugal sobre IA en el periodismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD helps write Portugal's first white paper on AI in journ",
   "ok": false
  },
  "aeed4d26bb5f0c31": {

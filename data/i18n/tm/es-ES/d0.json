@@ -6,5 +6,29 @@
   "at": "2026-11-16",
   "src": "Aljezur is the Algarve's Atlantic edge: huge, quiet and in t",
   "ok": false
+ },
+ "d03766468de8e58d": {
+  "t": "El Rotary Club de Olhão celebró una conferencia gratuita sobre IA y sociedad en la biblioteca municipal Mariano Gago, con el apoyo del ayuntamiento y un panel para cada una de las tres áreas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Rotary Club of Olhão held a free conference on AI and so",
+  "ok": false
+ },
+ "d04a8e2870310099": {
+  "t": "La UAlg y el ayuntamiento mantienen en marcha el plan del campus de Portimão",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UAlg and the council keep their Portimão campus plan moving",
+  "ok": false
+ },
+ "d05b5c339653213f": {
+  "t": "Un acuerdo de cinco años firmado el 18 de febrero de 2026 crea un laboratorio que abarca la IA encarnada, la robótica social, la neurorrehabilitación y los robots biomiméticos, con el Instituto de Sistemas y Robótica del Técnico.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A five-year agreement signed on 18 February 2026 creates a l",
+  "ok": false
  }
 }

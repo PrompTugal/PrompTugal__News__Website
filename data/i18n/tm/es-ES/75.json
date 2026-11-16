@@ -1,4 +1,12 @@
 {
+ "75188812a79db927": {
+  "t": "El politécnico de Setúbal se une a una red de 62 instituciones sobre IA en la enseñanza",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's polytechnic joins a 62-institution network on AI i",
+  "ok": false
+ },
  "7535b17964f78a8c": {
   "t": "El mismo lanzamiento, contado el 7 de julio: un programa para cosecha, laboratorio, calidad, almacén, ventas y facturación, un código QR en cada envase y un asistente digital para dudas operativas. El artículo no nombra a la empresa que está detrás del software.",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,22 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The council decided in March 2026 to fund a new edition of t",
+  "ok": false
+ },
+ "759b5708cc6becd7": {
+  "t": "Más noticias: los pilotos APIS del Gobierno llevan la IA a la detección temprana de incendios en áreas protegidas, no en Monchique",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Wider news: the government's APIS pilots bring AI to early f",
+  "ok": false
+ },
+ "75e47cf572243dab": {
+  "t": "El 5 de noviembre de 2026, el festival de literatura del ayuntamiento en Azeitão y Setúbal celebró en la biblioteca pública municipal una conferencia matinal sobre las bibliotecas del futuro, que abordó el cambio tecnológico, incluida la IA, y cómo se adaptan los servicios.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On 5 November 2026 the council's festival of literature in A",
   "ok": false
  }
 }

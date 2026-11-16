@@ -1,4 +1,12 @@
 {
+ "f56ffc6c84b1b996": {
+  "t": "PrompTugal.news Vila do Bispo: IA y tecnología en Vila do Bispo, de Sagres y el Cabo de San Vicente al mar y al viento, y lo que llega a Vila do Bispo desde el Algarve, Portugal y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila do Bispo: AI and technology in Vila do ",
+  "ok": false
+ },
  "f5c4b6076c6b6263": {
   "t": "Toda historia de aquí supera **la prueba PrompTugal**: trata de IA, directamente o a dos o tres pasos, y el camino queda escrito junto a ella. El lugar decide dónde aparece una historia y con qué tamaño; la IA decide si es nuestra o no. Cada dato enlaza con su fuente y con la fecha en que se leyó. Nada procede del sitio web de Web Summit. Los contactos solo se muestran cuando un organismo público o una organización los publica en su propio sitio, con enlace a esa página y la fecha de lectura; nunca los de una persona particular. Esta página es una lente sobre [el grafo compartido de la publicación]({graph}); [PrompTugal.news por lugares]({region}) explica los niveles.",
   "by": "translator@PrompTugal.dinis",

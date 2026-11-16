@@ -1,10 +1,34 @@
 {
+ "5b310882a24c7ce8": {
+  "t": "L'entreprise, dont le siège est à Londres et à Lisbonne, a clos un tour d'amorçage sur une valorisation de 30 millions de dollars, mené par Armilar avec Heartfelt VC. Son logiciel utilise des agents autonomes pour analyser les données marketing et agir en conséquence.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The company, headquartered in London and Lisbon, closed a se",
+  "ok": false
+ },
+ "5b4640d01b27db68": {
+  "t": "La résolution 2/2026 fixe quatre piliers et quatre premières initiatives : une candidature à une gigafactory, des centres d'IA sectoriels, un programme d'accélération pour les startups d'IA responsable et des bacs à sable réglementaires.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Resolution 2/2026 sets four pillars and four first initiativ",
+  "ok": false
+ },
  "5b5eabbf1fa7adc6": {
   "t": "Ora bem, ce que nous n’avons pas encore trouvé, et où nous chercherons ensuite :",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Ora bem, what we could not find yet, and where we will look ",
+  "ok": false
+ },
+ "5b7c9e3dca5f8d10": {
+  "t": "À Vila Real, une université, un parc scientifique et un projet d'IA chasseur de frelons partagent la même colline. L'UTAD fait le gros du travail de réflexion, le Regia Douro Park abrite environ 160 entreprises, et la Câmara, bénie soit-elle, donne un coup de main à DTech tandis que sa page d'actualités parle surtout de poterie, de chemins de fer et de prix scolaires. Muita calma, l'histoire de l'IA ici, c'est le campus et le parc.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real is where a university, a science park and a hornet",
   "ok": false
  }
 }

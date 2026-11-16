@@ -1,0 +1,34 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "Die Algarve und ihre 17 Orte",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care: ein Teleassistenz-Pilot der Freguesia für ältere Einwohner von Aljezur",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira, ó pá, wo der Fluss ruhiger ist als jeder Serverraum und die sieben Bögen mehr Wanderungen gesehen haben als Ihr Cloud-Anbieter.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "In einem Interview im März 2024 sagte der IT-Leiter der Stadtverwaltung von Ayamonte, die Stadtverwaltung bereite einen virtuellen KI-Assistenten für Bürger und Unternehmen vor und plane einen Innovationsknoten über 2 bis 3 Millionen Euro zu Tourismus und digitaler Unterstützung für Kleinunternehmen. Er beschrieb den Knoten als den ersten, der eine Eurocidade einbezieht und Teile der portugiesischen Algarve abdeckt. Das ist die eigene Darstellung der Stadtverwaltung, ohne Starttermine, und wir haben nicht bestätigt, dass der Knoten zustande kam.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": false
+ }
+}

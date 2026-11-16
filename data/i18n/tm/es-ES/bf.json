@@ -7,12 +7,28 @@
   "src": "The agency, which replaces iParque, was presented with targe",
   "ok": false
  },
+ "bf391a32632fe262": {
+  "t": "PrompTugal.news Setúbal: IA y tecnología en Setúbal, una ciudad portuaria e industrial cuyo centro de gravedad es el Puerto de Setúbal, el Politécnico y el complejo industrial de Mitrena, y lo que llega a Setúbal desde Portugal, Europa y el mundo. Independiente. Cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Setúbal: AI and technology in Setúbal, a por",
+  "ok": false
+ },
  "bf53a29e71668f9d": {
   "t": "Guarda guarda su IA cerca del politécnico, como una buena manta. El grado de ciencia de datos, el proyecto Digital PME de un millón de euros y el acuerdo de drones con Ucrania caben bajo un mismo techo, mientras la Câmara cuida el órgano de la Sé y la fiesta de cumpleaños y las empresas privadas en su mayoría callan. Una capital delgada, sim senhor, pero sólida.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Guarda keeps its AI close to the polytechnic, like a good bl",
+  "ok": false
+ },
+ "bf83eb91261331ba": {
+  "t": "Adolescentes de Setúbal preguntan cómo puede la IA crear empresas más sostenibles",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Teenagers in Setúbal ask how AI can build more sustainable c",
   "ok": false
  },
  "bfa0ce8b493755f1": {

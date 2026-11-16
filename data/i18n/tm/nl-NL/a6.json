@@ -1,0 +1,18 @@
+{
+ "a60fab8528afa5b0": {
+  "t": "Quarteira: waar de sardines met pensioen gingen, de golfballen kwamen en de robots nog in de rij staan bij de strandbar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Quarteira: where the sardines retired, the golf balls arrive",
+  "ok": false
+ },
+ "a623e7151e2e6722": {
+  "t": "Het Colégio Internacional de Vilamoura hield op 9 mei een Innovation in Education Summit met panels over hoe AI lesgeven en leren beïnvloedt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Colégio Internacional de Vilamoura held an Innovation in",
+  "ok": false
+ }
+}

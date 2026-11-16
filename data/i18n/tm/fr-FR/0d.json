@@ -6,5 +6,29 @@
   "at": "2026-11-16",
   "src": "The municipal coworking space in the old town has 20 worksta",
   "ok": false
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "Une étude dirigée par la faculté de sciences sociales de NOVA et promue par la Fondation Gulbenkian, fondée sur les réponses de 295 journalistes, propose 10 mesures pour un usage responsable de l'IA dans les rédactions. Un enseignant de l'UTAD a siégé dans l'équipe du projet.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
+ "0d8fb3014c735381": {
+  "t": "La mairie déploie une plateforme numérique de gestion urbaine dont le module d'IA vérifie les documents au moment du dépôt et bloque les dossiers incomplets. Elle indique qu'environ sept décisions sur dix de son service d'instruction demandent des documents corrigés, et qu'elle reçoit environ 5 000 demandes d'autorisation par an. La formation du personnel a commencé en juillet, avec un fonctionnement complet attendu dans les mois suivants.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace lève 15,6 millions d'euros pour une intelligence du trafic spatial fondée sur l'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false
  }
 }

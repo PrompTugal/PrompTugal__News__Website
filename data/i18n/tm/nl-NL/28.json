@@ -1,0 +1,26 @@
+{
+ "288008aec9c489a4": {
+  "t": "Lagoa leeft van toerisme, met wijn (een Lagoa DOC), een vissersverleden in Ferragudo, Carvoeiro en Benagil, en een groeiende handel in congressen en evenementen. Haar AI is vooral publiek: de gemeente beheert een Smart City-portaal en een IT-team dat aan AI werkt met de grenzen van gegevensbescherming en verwerking in het achterhoofd, en één freguesia heeft een AI-assistent op haar website gezet. In de particuliere sector hebben we één IT-bedrijf uit Lagoa bevestigd dat AI-agents verkoopt, en een Britse internationale school die in februari 2026 een AI-hackathon voor tieners organiseerde.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
+  "ok": false
+ },
+ "288052c59a959663": {
+  "t": "Dit is wat we niet konden vinden, en ja, we hebben ook achter de vissersboten gekeken.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here is what we could not find, and yes, we looked behind th",
+  "ok": false
+ },
+ "2882368f396e7680": {
+  "t": "Tijdens een stage bij de gemeente Lagoa bouwde een student van de polytechnische school van Beja een prototype dat de klasse van de Europese luchtkwaliteitsindex voorspelt op basis van tien meetstations en weergegevens. Hij verdedigde het werk op 27 november 2025 aan de school voor technologie en management in Beja, en de docenten plannen een wetenschappelijk artikel.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "During an internship with Lagoa council, a student of the Be",
+  "ok": false
+ }
+}

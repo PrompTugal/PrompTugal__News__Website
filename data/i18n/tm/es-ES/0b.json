@@ -1,4 +1,12 @@
 {
+ "0b7072ddf36f8a3f": {
+  "t": "El ayuntamiento gana unos 938 000 euros para modernizar los servicios digitales",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Council wins about 938,000 euros to modernise digital servic",
+  "ok": false
+ },
  "0b7d2dab3101ba93": {
   "t": "Un estudiante del Instituto Politécnico de Beja construyó un prototipo de aprendizaje automático durante unas prácticas en el ayuntamiento. Combina datos de 10 estaciones municipales de medición con datos meteorológicos históricos para predecir las clases del Índice Europeo de Calidad del Aire. El ayuntamiento dice que apoya su vigilancia ambiental y su estrategia de ciudad inteligente, y el profesorado planea un artículo científico con Lagoa como socio.",
   "by": "translator@PrompTugal.dinis",

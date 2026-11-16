@@ -1,4 +1,12 @@
 {
+ "be5099c1271641c4": {
+  "t": "Un pays à la lisière atlantique de l'Europe qui s'est écrit son propre modèle de langage, et qui aimerait que vous l'essayiez.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false
+ },
  "be99630c0197edb6": {
   "t": "Ouverture des candidatures au plan pilote d’IA et de robotique de l’Algarve pour les PME du tourisme",
   "by": "translator@PrompTugal.dinis",

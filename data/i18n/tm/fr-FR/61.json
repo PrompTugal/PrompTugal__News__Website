@@ -1,4 +1,28 @@
 {
+ "6105da22f8fc7dce": {
+  "t": "Augusta Labs, laboratoire d'IA appliquée de Lisbonne, clôt un premier tour sur une valorisation de 50 millions d'euros",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisbon applied-AI lab Augusta Labs closes a first round at a",
+  "ok": false
+ },
+ "6120b0be24f212d8": {
+  "t": "L'Industrial Portugal Gateway de Luso Defense Group vise à attirer à Portalegre investissements, technologies et emplois qualifiés, avec NERPOR comme partenaire local. Ses domaines d'intérêt comprennent les systèmes sans pilote, la robotique, l'IA, les communications et la cybersécurité, et l'article ne cite encore aucun projet d'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Luso Defense Group's Industrial Portugal Gateway aims to att",
+  "ok": false
+ },
+ "6126bba95914350b": {
+  "t": "L'histoire de l'IA à Viana do Castelo suit trois pistes que montrent les sources. La mairie dit que son service de gestion urbaine utilise déjà l'IA pour accélérer les permis de construire, avec un outil public promis aux habitants. L'Instituto Politécnico de Viana do Castelo accueille des débats sur l'IA, une startup d'IA étudiante qui a remporté un concours régional et Data CoLAB, un laboratoire d'innovation par les données basé dans la ville. L'industrie lourde est la troisième piste : une usine de 50 millions d'euros qui fabrique des équipements électriques pour centres de données a démarré sa production au port en 2026, même si les sources que nous avons lues ne mentionnent jamais l'IA elle-même.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viana do Castelo's AI story runs on three tracks that the so",
+  "ok": false
+ },
  "616993d9607d5ebc": {
   "t": "Ainda falta muito, pá, e nós não temos pressa. Voici ce qu’Évora ne nous a pas encore dit :",
   "by": "translator@PrompTugal.dinis",

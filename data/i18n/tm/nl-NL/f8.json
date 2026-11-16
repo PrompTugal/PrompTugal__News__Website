@@ -1,0 +1,18 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "AMALIA, het open taalmodel voor Europees Portugees, wordt gelanceerd",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "Op grond van de tot nu toe gelezen bronnen is het gewicht van Loulé in AI eerder institutioneel dan zakelijk. De gemeente zegt al AI-tools te hebben gecontracteerd om de ruimtelijke ordening te versnellen, de regionale ondernemersvereniging NERA heeft haar hoofdkantoor in de gemeente en traint lokale bedrijven in AI-tools, en de gemeenten Loulé en Faro schrijven samen een aanbesteding uit voor een multitechnologiecentrum in het Estádio Algarve dat AI onder zijn thema's noemt. Behalve SPIC vonden we geen AI-bedrijf dat duidelijk in Loulé gevestigd is, dus de kaart hieronder is met opzet kort.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ }
+}

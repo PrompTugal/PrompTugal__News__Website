@@ -1,0 +1,26 @@
+{
+ "8709611da6ed567d": {
+  "t": "Ora pois, Aljezur: mais ondas do que servidores, mais vento do que wi-fi, e mesmo assim a olhar para a inteligencia artificial.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ora pois, Aljezur: mais ondas do que servidores, mais vento ",
+  "ok": false
+ },
+ "8720c87cfd89ec25": {
+  "t": "Leiria, pá: een kasteel op de heuvel, mallen in het dal en, de laatste tijd, een robotlab op weg naar de markt, want blijkbaar maakt deze stad dingen en leert ze nu ook denken.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria, pá: a castle on the hill, moulds in the valley and, ",
+  "ok": false
+ },
+ "87ff377857174ef8": {
+  "t": "PrompTugal.news Viana do Castelo, a Princesa do Lima: AI en tech in Viana, met het Politécnico en Data CoLAB als de slimme koppen en een glimmende nieuwe fabriek die zoemt voor de datacenters, plus al het nieuws dat binnenvaart uit de Alto Minho, Portugal en de wereld. Independente, en elk feit komt met een bonnetje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Viana do Castelo, a Princesa do Lima: AI and",
+  "ok": false
+ }
+}

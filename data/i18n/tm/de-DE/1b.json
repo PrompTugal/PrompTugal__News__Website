@@ -1,0 +1,34 @@
+{
+ "1b20915116109e4f": {
+  "t": "PrompTugal.news Vila Real de Santo António: KI und Technologie in VRSA, der ordentlichen pombalinischen Stadt mit den Füßen im Guadiana und einem Auge auf Spanien, dazu alles, was aus der Algarve, Portugal und der Welt zu uns kommt. Unabhängig, und jede Tatsache hat ihre Quelle, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false
+ },
+ "1b5f94fde02d4cb7": {
+  "t": "PrompTugal.news Beja, a capital do Baixo Alentejo: KI und Technik in Beja, mit der Universität als Gehirn der weißgekalkten Stadt, dazu alles, was aus dem Alentejo, Portugal und der Welt hereinrollt. Independente, und jede Tatsache kommt mit Beleg.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Beja, a capital do Baixo Alentejo: AI and te",
+  "ok": false
+ },
+ "1babc44c91bf5cc8": {
+  "t": "PrompTugal.news Silves: KI und Technologie in Silves, der Orangenhauptstadt und alten Hauptstadt der Algarve, dazu alles, was an KI aus der Algarve, Portugal und der Welt auftaucht. Wir sind unabhängig, und jede Tatsache hat eine Quelle, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Silves: AI and technology in Silves, the ora",
+  "ok": false
+ },
+ "1bd080c0c263efa5": {
+  "t": "Monchique ist eine Berggemeinde, deren öffentliche Agenda von Wald und Waldbrandrisiko geprägt ist. Die Serra wurde von den Bränden 2018 schwer getroffen, und das Forschungsprojekt BRIDGE (IST, LNEC und die Universität der Algarve, von der FCT finanziert, 2021 bis 2024) nutzte Monchique als Pilotfall für gemeinschaftsbasierte Brandrisikominderung, gefolgt von InnoBRIDGE, finanziert von AGIF. Ein Brand in Marmelete am 25. Juli 2026 beschäftigte fast hundert Einsatzkräfte. Auf der Technikseite betreibt die Stadtverwaltung einen Gründerinkubator, dessen bekanntester Mieter Invisible CFO ist, ein Fintech, dessen Produkt KI nutzt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Monchique is a mountain municipality whose public agenda is ",
+  "ok": false
+ }
+}

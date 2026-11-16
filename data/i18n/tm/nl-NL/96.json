@@ -1,0 +1,18 @@
+{
+ "96b646265713332b": {
+  "t": "Portimão gebruikt AI om documenten voor bouwvergunningen te controleren",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão uses AI to check building-permit documents",
+  "ok": false
+ },
+ "96bbec2b19a93006": {
+  "t": "De afvalexploitant ALGAR uit de Algarve bouwde de tool met de startup NILG.AI, die factoren als bevolkingsdichtheid en bereikbaarheid afweegt. De pilot loopt in Lagoa onder een programma van Sociedade Ponto Verde. ALGAR meldt 14 kandidaatlocaties gevonden in vier uur en de beslistijd die daalt van 12 dagen naar 2.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve waste operator ALGAR built the tool with the sta",
+  "ok": false
+ }
+}

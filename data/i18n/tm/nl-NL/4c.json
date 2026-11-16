@@ -1,0 +1,18 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "De AI-activiteit van Braga zit op vier plekken die de bronnen naast elkaar laten zien: onderzoek (de AI-groep van de Universiteit van Minho, de uit Minho voortgekomen spin-off OmniumAI en het Iberische nanotechnologielaboratorium INL), R&D van bedrijven (het eerste AI-centrum van Cegid in Portugal en de nieuwe eBike-eenheid van Bosch, waarvan de antidiefstalsoftware machine learning gebruikt), het eigen AI-gebruik van de gemeente (een buscamerapilot met Hayden AI en een project van 1,5 miljoen euro om AI in het gemeentelijk bestuur te brengen), en een startuplaag rond Startup Braga en InvestBraga, die 15 startups meenam naar Web Summit 2026. Anders dan de stadjes in de Algarve hangt Braga niet aan één instelling, en wat we konden lezen toont een stadsbestuur dat AI koopt en test in plaats van er alleen evenementen over te organiseren.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "De AI-activiteit van Évora zit op drie plekken. De Universidade de Évora biedt een opleiding AI en datawetenschap aan, heeft eigen regels voor AI in het onderwijs geschreven en zegt Portugeestalige modellen te hebben gebouwd. PACT, het wetenschaps- en technologiepark van de Alentejo, geeft AI-opleidingen en herbergt technologiebedrijven. Het Hospital de Évora is volgens de eigen verklaring van zijn gezondheidseenheid het eerste Portugese openbare ziekenhuis dat een AI-systeem gebruikt voor screening op baarmoederhalskanker. Er is ook nieuw particulier geld aangekomen, met een datacenterbedrijf dat een locatie van 1 MW in de stad kocht. De eigen site van de gemeente toont geen AI-gebruik dat we konden lezen, dus de universiteit, het park en het ziekenhuis, niet het stadhuis, vormen het zwaartepunt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ }
+}

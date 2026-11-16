@@ -1,4 +1,12 @@
 {
+ "59d03424a0a7d0d2": {
+  "t": "Olhão est un port de pêche sur la Ria Formosa, et son histoire technologique passe par la mer. La station pilote piscicole de l'IPMA, le laboratoire collaboratif S2AQUAcoLAB et l'entreprise d'aliments aquacoles SPAROS sont situés dans la municipalité, et un Blue Hub pour l'économie de la mer est en construction dans le port de pêche. Le chemin de l'IA est réel mais étroit : nutrition de précision et aquaculture numérique, et une mairie qui a parlé d'IA pour les circuits de collecte des déchets.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão is a fishing port on the Ria Formosa, and its technolo",
+  "ok": false
+ },
  "59dd9fcb07fb9be0": {
   "t": "**Cette page en données :** tout ce qu’elle contient est servi d’abord en JSON, dans [son propre fichier]({json}) (ses articles, sa carte de l’IA, ses événements, ses sources, ses lacunes, son équipe et son identité), avec [tous les lieux dans un seul index]({index}).",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The two-day summit ran at a Lagos hotel on 6 and 7 November ",
+  "ok": false
+ },
+ "59ed91899d661901": {
+  "t": "Calma, ainda não sabemos tudo, pá. Voici ce que Porto ne nous a pas encore dit :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Calma, ainda não sabemos tudo, pá. Here is what Porto has no",
   "ok": false
  }
 }

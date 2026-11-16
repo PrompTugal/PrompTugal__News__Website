@@ -1,0 +1,26 @@
+{
+ "ac20f6a95ba5b51e": {
+  "t": "Lagoa lebt vom Tourismus, mit Wein (einem Lagoa DOC), einer Fischerei-Vergangenheit in Ferragudo, Carvoeiro und Benagil und einem wachsenden Geschäft mit Kongressen und Veranstaltungen. Seine KI ist überwiegend öffentlich: Die Stadtverwaltung betreibt ein Smart-City-Portal und ein IT-Team, das an KI gearbeitet hat und dabei Datenschutz- und Verarbeitungsgrenzen im Blick hatte, und eine Freguesia hat einen KI-Assistenten auf ihre Website gesetzt. In der Privatwirtschaft haben wir ein IT-Unternehmen aus Lagoa bestätigt, das KI-Agenten verkauft, und eine britische Schule, die im Februar 2026 einen KI-Hackathon für Teenager ausrichtete, ó pá, nicht schlecht für ein Land der Strände.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
+  "ok": false
+ },
+ "ac813a3161253af4": {
+  "t": "Portugals neue Agentur für Forschung und Innovation (AI²) sollte am 1. Januar 2026 starten",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal's new Agency for Research and Innovation (AI²) was ",
+  "ok": false
+ },
+ "acf78f0164d5f4ca": {
+  "t": "Kostenloser Supercomputing-Zugang (einschließlich MareNostrum 5), Mentoring und Schulung für in der EU registrierte KI-Startups und KMU mit portugiesischer Steuernummer, vom 5. Oktober 2026 bis 30. März 2027. Die Bewerbungen schlossen am 15. September.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Free supercomputing access (including MareNostrum 5), mentor",
+  "ok": false
+ }
+}

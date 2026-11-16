@@ -1,4 +1,20 @@
 {
+ "b921869fbda8493c": {
+  "t": "Un pequeño proyecto del PRR en el IPVC y Data CoLAB crea un sistema de IA centrado en el ciudadano",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A small PRR project at IPVC and Data CoLAB builds a citizen-",
+  "ok": false
+ },
+ "b9ca63c524018ec2": {
+  "t": "Ainda há fios soltos, pá. Esto es lo que Portalegre aún no nos ha contado:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda há fios soltos, pá. Here is what Portalegre has not to",
+  "ok": false
+ },
  "b9df3ef61f7df438": {
   "t": "PrompTugal.news Lagoa: IA y tecnología en Lagoa, un municipio de turismo, vino y congresos cuyo trabajo de IA viene de su ayuntamiento, sus freguesías, una empresa informática y un colegio, y lo que llega a Lagoa desde el Algarve, Portugal y el mundo. Independiente; cada dato con su fuente.",
   "by": "translator@PrompTugal.dinis",

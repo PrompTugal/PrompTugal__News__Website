@@ -1,0 +1,18 @@
+{
+ "e52198164de35f4a": {
+  "t": "EPIA 2025, Portugals KI-Konferenz, findet an der Universität der Algarve in Faro statt",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "EPIA 2025, Portugal's AI conference, is held at the Universi",
+  "ok": false
+ },
+ "e5ce97d42543ebed": {
+  "t": "Nach dem Sturm Kristin halfen mehr als 100 freiwillige Mitarbeitende mit Drohnen der Stadtverwaltung bei der Schadenserfassung. Die Luftbilder liefen über die Plattform ATLAS des Unternehmens, die nach dessen Angaben KI nutzt, und sind nur für die Behörden bestimmt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "After storm Kristin, more than 100 volunteer staff used dron",
+  "ok": false
+ }
+}

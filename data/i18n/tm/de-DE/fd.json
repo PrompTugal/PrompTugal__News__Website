@@ -1,0 +1,18 @@
+{
+ "fd3c463abe440613": {
+  "t": "Der Pilot von Hayden AI mit der Stadtverwaltung und dem Busunternehmen TUB erfasste fast 8000 Parkverstöße an Bushaltestellen, 2186 davon an zwei Haltestellen. Es wurden keine Bußgelder verhängt, das Ziel war, das Ausmaß des Problems zu zeigen. Er wurde von einem KI-Herausforderungspreis des EIT finanziert.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Hayden AI pilot with the council and the bus company TUB",
+  "ok": false
+ },
+ "fdc451c19dfc3876": {
+  "t": "Brasilien und Portugal sprechen bei der Aveiro Tech Week über KI und Wirtschaft",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Brazil and Portugal talk AI and business at Aveiro Tech Week",
+  "ok": false
+ }
+}

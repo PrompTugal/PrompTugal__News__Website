@@ -1,0 +1,18 @@
+{
+ "e816116cfda136b0": {
+  "t": "Mehr als 150 Personen besuchten die Konferenz am 21. Februar 2026 zu digitalen Herausforderungen in der Bildung, bei der digitale Sicherheit, Technikkompetenz und der Einsatz künstlicher Intelligenz zu den Themen gehörten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "More than 150 people attended the 21 February 2026 conferenc",
+  "ok": false
+ },
+ "e8db8674d792a747": {
+  "t": "Menschen, die sich öffentlich geäußert haben oder zugestimmt haben, aufgelistet zu werden. Nur öffentliche, berufliche Fakten; keine privaten Kontakte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "People who have spoken publicly or agreed to be listed. Publ",
+  "ok": false
+ }
+}

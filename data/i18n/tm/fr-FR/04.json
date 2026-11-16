@@ -1,10 +1,42 @@
 {
+ "0400f359b5e49517": {
+  "t": "Trois étudiants de troisième année en gestion ont créé K-Bridge, une plateforme B2B qui utilise l'IA pour aider les moyennes et grandes entreprises à préserver leurs connaissances opérationnelles critiques. Elle a remporté la phase régionale du 22e Poliempreende du polytechnique et ira à la finale nationale en septembre 2026 à l'Université de l'Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Three third-year business students built K-Bridge, a B2B pla",
+  "ok": false
+ },
  "040483b8d179c0c5": {
   "t": "Leiria est le seul endroit où un château médiéval reçoit un audioguide d’IA, où le marché reçoit un laboratoire de robotique et où les moules et les plastiques paient toujours les factures. L’incubateur, l’université et les usines se tiennent par la main, la mairie est le premier client de deux start-ups du tourisme, et personne n’a encore écrit le grand plan municipal d’IA. Sim senhor, une ville qui construit d’abord et écrit la stratégie ensuite.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Leiria is the only place where a medieval castle gets an AI ",
+  "ok": false
+ },
+ "042024f94da4c058": {
+  "t": "Le CIC Alentejo a ouvert le 16 juillet 2025 à Campo Maior, pour un coût d'environ un million d'euros, géré par la mairie de Campo Maior avec NOVA IMS et le polytechnique. Il prévoit des projets pilotes et des cours de science des données et d'IA pour les entreprises et les organismes publics. Le centre est à Campo Maior, pas dans la ville de Portalegre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CIC Alentejo opened on 16 July 2025 in Campo Maior, about a ",
+  "ok": false
+ },
+ "04b8aa715247e2ec": {
+  "t": "PrompTugal.news Vila Real : l'IA et la technologie à Vila Real, ville universitaire et de parc scientifique dont le centre de gravité est le campus de l'UTAD et le Regia Douro Park, et ce qui arrive à Vila Real depuis Trás-os-Montes, le Portugal et le monde. Indépendant ; chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real: AI and technology in Vila Real, a",
+  "ok": false
+ },
+ "04c95c6232f98cbc": {
+  "t": "Le gouvernement a ajouté 1,5 million d'euros aux 5,5 millions d'origine issus du plan de relance, jusqu'en 2027. Les prochaines étapes citées sont l'usage dans l'application Gov.pt, les licences et les marchés publics, des capacités d'agent et une croissance de 9 à 22 milliards de paramètres. Le Premier ministre a dit que le gouvernement ne célébrait pas et a parlé d'un petit pas vers l'autonomie.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The government added 1.5 million euros on top of the origina",
   "ok": false
  },
  "04cd05467beb05d7": {

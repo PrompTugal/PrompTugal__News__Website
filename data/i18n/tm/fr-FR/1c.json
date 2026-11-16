@@ -1,4 +1,28 @@
 {
+ "1c1453fcec54f79d": {
+  "t": "Une entreprise de logiciels de Faro a testé son irrigation intelligente à Loulé, avec un module d'IA prévu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Faro software firm tested its smart irrigation in Loulé, w",
+  "ok": false
+ },
+ "1c77a443b6a6c396": {
+  "t": "Un reportage de Lusa repris par O Algarve Económico indique que la direction de l'université et la mairie se sont réunies pour aligner le plan Horizonte2030 de l'université sur le plan directeur municipal pour un campus à Barranco do Rodrigo. L'objectif de 2028 est maintenu et l'investissement est chiffré à environ 8 millions d'euros (le reportage de janvier 2025 parlait d'environ 15 millions). Aucun appel d'offres n'est décrit et ce reportage ne mentionne pas l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Lusa report republished by O Algarve Económico says the un",
+  "ok": false
+ },
+ "1c92b9e98dd3ba1e": {
+  "t": "Ainda não sabemos tudo, pá. Voici ce que Santarém ne nous a pas encore dit :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Santarém has not to",
+  "ok": false
+ },
  "1cbb54a360cf8c15": {
   "t": "Le projet Intelligence4Administration, financé par Norte 2030, vise à introduire l’IA dans la gestion des services municipaux et à numériser les services rendus aux citoyens. L’article est payant au bout de quelques lignes ; les outils précis ne sont donc pas décrits.",
   "by": "translator@PrompTugal.dinis",

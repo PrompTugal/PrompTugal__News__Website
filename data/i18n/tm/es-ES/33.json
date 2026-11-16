@@ -1,4 +1,12 @@
 {
+ "33007913833e3259": {
+  "t": "Un foro del ayuntamiento sube al escenario a una empresa local de TI y a una de tecnología médica",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Council forum puts a local IT firm and a medical-technology ",
+  "ok": false
+ },
  "330bf5c4b2e10426": {
   "t": "Go Coimbra, la nueva agencia municipal, nombra la IA sector prioritario",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Castro Marim: we are the last town before Es",
+  "ok": false
+ },
+ "3398caa6a144473d": {
+  "t": "La unidad de investigación, asociada al Técnico, lidera un centro de excelencia en IA sostenible y fiable, con 13 millones de euros del programa Teaming for Excellence de Horizonte Europa y 14,2 millones de dinero nacional. El Instituto Max Planck de Sistemas de Software y el Centro Alemán de Investigación en Inteligencia Artificial son socios.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The research unit, associated with Técnico, leads a centre o",
   "ok": false
  }
 }

@@ -7,6 +7,14 @@
   "src": "PrompTugal.news Braga: AI and technology in Braga, a univers",
   "ok": false
  },
+ "551c30f292378a22": {
+  "t": "La UTAD se une al piloto nacional IAedu de modelos de IA en la educación superior",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD joins the national IAedu pilot for AI models in higher ",
+  "ok": false
+ },
  "552aed54d42f2115": {
   "t": "Junto con una nueva aplicación oficial, la junta de freguesía de Ferragudo añadió a su web un asistente virtual de IA. Responde a preguntas frecuentes, ayuda a encontrar documentos y orienta hacia los servicios. El artículo no dice quién lo construyó.",
   "by": "translator@PrompTugal.dinis",
@@ -15,12 +23,36 @@
   "src": "Alongside a new official app, the Ferragudo parish council a",
   "ok": false
  },
+ "55648f8e2bd381c4": {
+  "t": "El festival Som Riscado de Loulé dejó que un programa de IA dirigiera a 25 músicos",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Loulé's Som Riscado festival let an AI program direct 25 mus",
+  "ok": false
+ },
+ "556bfcae6f57d4a2": {
+  "t": "Viseu, oh pá: granito hasta el fondo, una catedral que mira desde lo alto al Dão y, de algún modo, la escena de IA más callada de la Beira, ocupada en escribir normas y en construir herramientas para vigilar museos antiguos en lugar de gritarlo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu, oh pá: granite all the way down, a cathedral looking ",
+  "ok": false
+ },
  "558aca3f668596b1": {
   "t": "PrompTugal.news Bragança, a nossa terra do frio e do castelo: IA y tecnología en Bragança, con el politécnico y Brigantia EcoPark como grandes cerebros, y las noticias que llegan desde Portugal, Europa y el mundo. Independente, e cada dato viene con su recibo.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Bragança, a nossa terra do frio e do castelo",
+  "ok": false
+ },
+ "55990f357d1c701d": {
+  "t": "Olhão es un puerto pesquero en la Ria Formosa, y su tecnología pasa por el mar. Aquí están la estación piloto de piscicultura, el laboratorio S2AQUAcoLAB y la empresa de piensos SPAROS, y en el puerto se levanta un Blue Hub. El camino de la IA es estrecho pero real: nutrición de precisión para peces, además de un ayuntamiento que una vez habló de IA para los camiones de la basura.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão is a fishing port on the Ria Formosa, and its tech goe",
   "ok": false
  }
 }

@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
   "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo, ai Jesus: una basílica en la colina, un río que no se decide dónde parar y un ayuntamiento que enseña en silencio a un ordenador a leer licencias mientras toda la ciudad mira el puerto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "Visualforma, una empresa de Faro, describió un sistema de control del riego de zonas verdes desarrollado con Itelmatis y la Universidad del Algarve y probado en Loulé, que usa datos de campo para optimizar el riego, con un módulo de IA y aprendizaje automático previsto. Es una noticia antigua, de abril de 2023.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
  }
 }

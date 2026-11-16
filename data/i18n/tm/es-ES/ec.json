@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "On 26 and 27 October, small firms in teams of one to five br",
   "ok": false
+ },
+ "ec1b0de5a418ad62": {
+  "t": "ECO informa de que 33N, un fondo de capital riesgo con sede en Porto, invirtió en la ronda de Exein, que valora a la empresa italiana en 1700 millones de euros. 33N dice que la IA que pasa a los robots, drones y vehículos abre una nueva superficie de ataque.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ECO reports that 33N, a venture fund based in Porto, investe",
+  "ok": false
  }
 }

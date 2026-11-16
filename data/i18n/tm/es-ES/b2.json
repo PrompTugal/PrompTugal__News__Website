@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Bragança Polytechnic hosts a European week on generative AI ",
   "ok": false
+ },
+ "b2fac44c72269f92": {
+  "t": "Quarteira fue un auténtico pueblo de pescadores y en 1999 se hizo ciudad, bem chique. Ahora vive del sol, el mar y el golf, con Vilamoura al lado, en la misma freguesía. En cuanto a cacharros, los mayores de la câmara de Loulé tienen las llaves, desde los permisos de obra hasta los sensores de Quarteira Lab.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Quarteira was a proper fishing village once and became a cit",
+  "ok": false
  }
 }

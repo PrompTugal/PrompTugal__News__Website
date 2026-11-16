@@ -1,0 +1,26 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo, pá. Dit is wat Faro ons nog niet heeft verteld:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo, ai Jesus: een basiliek op de heuvel, een rivier die niet kan beslissen waar hij ophoudt, en een gemeente die stilletjes een computer leert vergunningen te lezen terwijl de hele stad naar de haven kijkt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "Visualforma, een bedrijf uit Faro, beschreef een regelsysteem voor irrigatie van groene ruimtes, ontwikkeld met Itelmatis en de Universiteit van de Algarve en getest in Loulé, dat veldgegevens gebruikt om het water geven te optimaliseren, met een AI- en machine-learningmodule in het vooruitzicht. Dit is ouder nieuws, van april 2023.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
+ }
+}

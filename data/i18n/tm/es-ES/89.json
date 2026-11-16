@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Leiria's centre of gravity is a dense triangle of an incubat",
   "ok": false
+ },
+ "89c91e34617c7ae5": {
+  "t": "El ayuntamiento de Loulé lleva una experiencia inmersiva con IA a la feria de turismo BTL",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Loulé's council takes an AI immersive experience to the BTL ",
+  "ok": false
+ },
+ "89c9da5778a63051": {
+  "t": "La red europea de investigación en IA CAIRNE abre su centro portugués en Guimarães",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "European AI research network CAIRNE opens its Portuguese hub",
+  "ok": false
  }
 }

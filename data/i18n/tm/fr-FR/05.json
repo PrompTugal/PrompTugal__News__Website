@@ -14,5 +14,21 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Évora: AI and technology in Évora, a univers",
   "ok": false
+ },
+ "058636d41d4a896c": {
+  "t": "Une enveloppe de 750 mille euros : environ 700 mille pour un centre de données partagé (construction prévue au second semestre 2026) et 52 mille pour un projet d'IA qui forme 70 employés, 35 par port, à Microsoft Copilot, avec des phases ultérieures pour automatiser des procédures comme les demandes d'occupation de terrain et les appels d'offres publics.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A 750 thousand euro package: about 700 thousand for a shared",
+  "ok": false
+ },
+ "05e2e058593efcd3": {
+  "t": "Le financement d'AMALIA passe à 7 millions d'euros alors qu'elle se dirige vers l'application Gov.pt",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA's funding rises to 7 million euros as it heads into t",
+  "ok": false
  }
 }

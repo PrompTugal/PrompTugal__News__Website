@@ -14,5 +14,21 @@
   "at": "2026-11-16",
   "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
   "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira, ó pá, donde el río es más tranquilo que cualquier sala de servidores y los siete arcos han visto más migraciones que tu proveedor de nube.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "En una entrevista de marzo de 2024, el responsable de TI del ayuntamiento de Ayamonte dijo que el ayuntamiento preparaba un asistente virtual de IA para ciudadanos y empresas y planeaba un nodo de innovación de 2 a 3 millones de euros sobre turismo y apoyo digital a pequeñas empresas. Describió el nodo como el primero que implica a una Eurocidade, y que abarcaría partes del Algarve portugués. Es el relato del propio ayuntamiento, sin fechas de lanzamiento, y no hemos confirmado que el nodo siguiera adelante.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": false
  }
 }

@@ -1,4 +1,12 @@
 {
+ "2b7b9ad9a81e640c": {
+  "t": "La historia tecnológica de Santarém es agroalimentaria. El ayuntamiento y la Universidade Politécnica de Santarém, con ISLA Santarém, INIAV y el recinto ferial CNEMA, construyen Campus Tejo, un parque científico y tecnológico sobre agua, agro y ciencias de la vida que se presentó en Web Summit Lisbon el 12 de noviembre de 2026. Las páginas que leímos no dicen que Campus Tejo use IA, así que su vínculo con la IA es una breve inferencia a través de la agricultura de precisión y la digitalización. La actividad directa de IA es menor y dispersa: un proyecto de IA de 100 000 euros financiado por el PRR en ISLA Santarém, sesiones de empresa y salud en CNEMA y un programa de IA en la agricultura en un encuentro de productores de arándanos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's technology story is agri-food. The council and th",
+  "ok": false
+ },
  "2b849e5e92cfc33b": {
   "t": "Guarda, ó pá: lo bastante fría para congelar un servidor, terca como el granito y sede de un politécnico que enseña en silencio a las máquinas y que enseñó a unos cuantos estudiantes a leer el PDM antes que los arquitectos.",
   "by": "translator@PrompTugal.dinis",

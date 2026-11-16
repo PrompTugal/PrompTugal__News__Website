@@ -1,0 +1,34 @@
+{
+ "e08c06bc65abb642": {
+  "t": "Die Unternehmen, Institutionen und Gemeinschaften in {name} mit einem Weg zur KI, jeweils aus einer öffentlichen Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The companies, institutions and communities in {name} with a",
+  "ok": false
+ },
+ "e08fafe93f5830d8": {
+  "t": "Nach den Quellen, die wir öffnen konnten, ist die Technikgeschichte der Gemeinde das Meer und der Wind. Sagres beherbergt ein Meeresbiotechnologie-Unternehmen am Porto da Baleeira, ein Meereslabor der Universität im selben Hafen und das Unterwasser-Observatorium MARREAL, eine Kamera- und Sensorstation in 20 Metern Tiefe, die Ozeandaten in Echtzeit aufzeichnet. Das Windparkverzeichnis von INEGI und APREN führt Windparks in der Gemeinde auf, einschließlich des Repowerings 2025. Wir fanden keine KI-Nachrichten, was der erste Befund dieser Seite ist, aber die Ozeandaten-Stationen sind der Ort, an dem ein KI-Pfad am ehesten auftauchen dürfte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On the sources we could open, the municipality's technology ",
+  "ok": false
+ },
+ "e0e5f037ff99adf0": {
+  "t": "Das portugiesische Startup überwacht autonome KI-Agenten, markiert riskante Ausgaben zur menschlichen Prüfung und bewertet sie von 0 bis 100. Investor ist Angels Way.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Portuguese startup monitors autonomous AI agents, flags ",
+  "ok": false
+ },
+ "e0efee49767bd1db": {
+  "t": "Ein nationales Schulungsprogramm namens Estado em Acção für Beschäftigte der öffentlichen Verwaltung begann am 18. September 2026 mit einer kostenlosen Sitzung in Coimbra und sollte mit zehn Sitzungen im ganzen Land fortgesetzt werden.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A national training programme called Estado em Acção, for pu",
+  "ok": false
+ }
+}

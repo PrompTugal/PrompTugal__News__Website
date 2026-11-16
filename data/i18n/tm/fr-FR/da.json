@@ -1,0 +1,18 @@
+{
+ "da8ebf652ad46ed4": {
+  "t": "Eh pá, Silves : capitale de l'Algarve avant que ce soit à la mode, elle garde toujours ses laranjas depuis un château couleur de mandarine mûre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Eh pá, Silves: a capital of the Algarve before it was cool, ",
+  "ok": false
+ },
+ "dab047fa0598eb82": {
+  "t": "Les chercheurs d'INESC TEC se retrouvent à l'UTAD pour parler d'IA et de carrières scientifiques",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "INESC TEC researchers meet at UTAD to talk AI and scientific",
+  "ok": false
+ }
+}

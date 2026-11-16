@@ -1,0 +1,34 @@
+{
+ "2a76a80ec09f2c59": {
+  "t": "AITRAS lief am 5. und 6. März an der Agrar- und Veterinärhochschule der UTAD, mit Rednern mehrerer europäischer Universitäten und Fällen aus Tierproduktion, Forstwirtschaft, Weinbau und Agrar- und Lebensmittelsektor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AITRAS ran on 5 and 6 March at UTAD's agrarian and veterinar",
+  "ok": false
+ },
+ "2a94fcacda5956cf": {
+  "t": "Fast die gesamte KI, die wir in Guarda belegen konnten, läuft über eine einzige Institution, das Politécnico da Guarda (IPG, das auf dem Weg zur Universität ist). Es lehrt den 2022 eröffneten Studiengang in Datenwissenschaft und KI, leitet ein Projekt von etwa einer Million Euro, um KI, IoT und Blockchain zu kleinen Unternehmen in der Region Centro zu bringen, unterzeichnete ein Abkommen zu Drohnen und KI mit einer ukrainischen Universität und betreibt den Inkubator, in dem die Startups der Stadt sitzen. Die eigenen Seiten der Stadtverwaltung zeigen keine KI-Nutzung und kein KI-Programm, und die private KI-Schicht ist dünn, wobei ein Beratungsbüro, das KI-Profile anwirbt, das klarste Beispiel ist. Gardas Schwerpunkt ist daher sein Polytechnikum, nicht sein Rathaus oder seine Unternehmen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Almost all the AI we could source in Guarda runs through one",
+  "ok": false
+ },
+ "2aed6185a7d900cb": {
+  "t": "Coimbra gehört zu den ersten Stadtverwaltungen, die KI bei städtischen Genehmigungen testen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Coimbra is among the first councils to test AI in urban lice",
+  "ok": false
+ },
+ "2af0fa78e77b7dc6": {
+  "t": "SalOS wird auch als Rückverfolgbarkeitsplattform vorgestellt, bereit für den digitalen Produktpass der EU",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "SalOS is also covered as a traceability platform ready for t",
+  "ok": false
+ }
+}

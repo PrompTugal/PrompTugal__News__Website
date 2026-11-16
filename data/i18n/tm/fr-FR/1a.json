@@ -7,6 +7,22 @@
   "src": "From PrompTugal.news",
   "ok": false
  },
+ "1a3ced336dc4f7fa": {
+  "t": "Portalegre tisse son IA à la lenteur voulue, fil après fil. Le métier de l'université porte deux projets d'IA pour les fermes et les étudiants, Kyndryl est voisin avec ses capteurs, un pôle de technologie de défense s'est installé à la table, et la Câmara, bénie soit-elle, est occupée par ses canalisations d'eau. Des partenaires de recherche et d'industrie, sim senhor, pas l'hôtel de ville.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre weaves its AI the slow way, thread by thread. The",
+  "ok": false
+ },
+ "1a6c6147060c5a08": {
+  "t": "La mairie de Leiria devient le premier client de deux startups d'IA pour le tourisme",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria's council becomes first customer of two AI tourism st",
+  "ok": false
+ },
  "1ab61419916bee37": {
   "t": "Étudiants et personnel de Bragança ont droit à un printemps de séminaires sur l’IA à l’ESTiG",
   "by": "translator@PrompTugal.dinis",
@@ -21,6 +37,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Albufeira town hall hosts a conference on AI in urban planni",
+  "ok": false
+ },
+ "1abe236828fbd435": {
+  "t": "Lisboa est le lieu de rencontre de l'argent et des institutions de l'IA du Portugal. L'Université de Lisbonne dépense plus de 20 millions d'euros pour deux centres de données d'IA, l'INESC-ID a obtenu 27,2 millions d'euros pour un centre d'IA durable, et le modèle de langage national AMALIA a été présenté au centre d'innovation de Técnico. Le pôle de startups de la ville, Unicorn Factory Lisboa, anime une communauté IA avec Microsoft, et des startups financées comme Augusta Labs et DOJO AI y sont installées. L'usage de l'IA par la municipalité est peu documenté dans ce que nous avons pu lire ; ce sont donc la recherche, les startups et les projets nationaux, et non l'hôtel de ville, qui font le centre de gravité de Lisboa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisboa is where Portugal's AI money and institutions meet. T",
   "ok": false
  }
 }

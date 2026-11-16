@@ -1,0 +1,18 @@
+{
+ "c721537dfaefd717": {
+  "t": "**De identiteit van deze site:** {key} in [board/keys.json]({keys}); `{file}` is ondertekend, maar niet met de eigen sleutel van de site. De agent, {agent}, ondertekent het opnieuw met de sitesleutel.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "ULisboa investeert meer dan 20 miljoen euro in twee datacenters voor AI, hoogwaardig rekenen en beveiligde onderzoeksdata, op de Taguspark-campus van Técnico in Oeiras en bij de Faculteit der Wetenschappen in Lissabon. Ook bedrijven en startups kunnen ze gebruiken; oplevering wordt verwacht in 2028.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
+ }
+}

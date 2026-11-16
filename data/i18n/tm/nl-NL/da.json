@@ -1,0 +1,18 @@
+{
+ "da8ebf652ad46ed4": {
+  "t": "Eh pá, Silves: een hoofdstad van de Algarve voordat het cool was, nog steeds de laranjas bewakend vanuit een kasteel in de kleur van een rijpe mandarijn.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Eh pá, Silves: a capital of the Algarve before it was cool, ",
+  "ok": false
+ },
+ "dab047fa0598eb82": {
+  "t": "Onderzoekers van INESC TEC komen bijeen bij UTAD om te praten over AI en wetenschappelijke loopbanen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "INESC TEC researchers meet at UTAD to talk AI and scientific",
+  "ok": false
+ }
+}

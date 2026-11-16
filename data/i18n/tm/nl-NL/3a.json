@@ -1,0 +1,18 @@
+{
+ "3a0840a368567048": {
+  "t": "PrompTugal.news São Brás de Alportel: AI en technologie in São Brás de Alportel, een heuvelstadje met kurkerfgoed, een kostuummuseum en een gemeentelijke inzet op digitalisering, en wat São Brás de Alportel bereikt vanuit de Algarve, Portugal en de wereld. Onafhankelijk; elk feit met bronvermelding.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false
+ },
+ "3a3ce85c327ffbdf": {
+  "t": "**Praat met ons:** een correctie, een vraag of een gemist verhaal gaat via het vak onderaan deze pagina, verzegeld naar de redactie. Ben je ingelogd, dan krijg je het antwoord op [je gesprekspagina]({talk}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false
+ }
+}

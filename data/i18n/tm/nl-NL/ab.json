@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "Een tweejarig project, vermeld door het onderzoeksbureau van de universiteit, dat loopt van 1 september 2026 tot 31 augustus 2028, bouwt AI-oplossingen voor goedkope, zuinige embedded apparaten in landbouw en veeteelt, en brengt techniek, datawetenschap en landbouwkennis samen. De subsidiabele kosten bedragen 197754,85 euro, waarvan 168091,62 euro voor de kant van Portalegre, gefinancierd door FEDER onder ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "Het consortium EdgeOnVespa, geleid door het bedrijf Dotlabs met MORE CoLAB, de nationale imkersfederatie en Anbeit, bouwt een edge-computingsysteem dat met AI de hoornaar opspoort en volgt en bestrijding in gang zet. Het wordt medegefinancierd door het programma NORTE2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos is waar de techgemeenschap van de Algarve elkaar live ontmoet. De gemeente organiseerde hier in november 2025 mee aan de Algarve Tech Hub Summit, die enkele honderden mensen naar één hotel trok, en werkt met GDG Lagos aan AI-evenementen zoals DevFest Lagos 2025 en Build with AI voor Internationale Vrouwendag. De gemeentelijke coworkingruimte CoLagos is sinds november 2023 volledig bezet, en een gemeenschap voor de digitale nomaden van het stadje bestaat sinds de pandemie. We vonden geen AI-bedrijf waarvan is bevestigd dat het zijn hoofdkantoor in Lagos heeft, dus het zwaartepunt is een gemeenschap van bouwers en remote werkers, niet een cluster van AI-bedrijven.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}

@@ -15,6 +15,22 @@
   "src": "**This site's identity:** PrompTugal.news {name} has its own",
   "ok": false
  },
+ "197990ab5ba89370": {
+  "t": "Lo que no encontramos, dicho con cara seria y un pastel de nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
+ },
+ "19ae71b00c1928c8": {
+  "t": "Ó pá, aquí arriba en la Serra tenemos más castaños que centros de datos, pero el medronho es fuerte y el wifi de la incubadora también.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false
+ },
  "19e3bc5dac4015f3": {
   "t": "Noesis abrió oficinas en Guarda y Castelo Branco en febrero de 2025 y prevé unas 30 contrataciones, sobre todo en calidad, DevOps, automatización y low-code. Añade que está abierta a perfiles de análisis de datos e IA en toda su expansión regional.",
   "by": "translator@PrompTugal.dinis",

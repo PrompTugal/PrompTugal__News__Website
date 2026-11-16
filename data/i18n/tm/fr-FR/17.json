@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "CCDR Algarve met its tourism innovation platform on 18 March",
   "ok": false
+ },
+ "17b1d3e5d2d2c827": {
+  "t": "Voici ce que nous n'avons pas trouvé, et non, nous n'avons pas regardé sous les sardines.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here is what we could not find, and no, we did not look unde",
+  "ok": false
  }
 }

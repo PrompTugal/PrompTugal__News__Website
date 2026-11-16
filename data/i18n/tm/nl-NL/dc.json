@@ -1,0 +1,26 @@
+{
+ "dc01b07203158782": {
+  "t": "In onderzoek",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Researching",
+  "ok": false
+ },
+ "dc863485c179d3fc": {
+  "t": "Oi, pá! Loulé, waar de markt koepels heeft en de gemeente algoritmes.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Oi, pá! Loulé, where the market has domes and the council ha",
+  "ok": false
+ },
+ "dceaf782b95ea2a7": {
+  "t": "Tavira is een van zes gemeenten in het stedelijke dataplatform Algarve 6.0",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tavira is one of six municipalities in the Algarve 6.0 urban",
+  "ok": false
+ }
+}

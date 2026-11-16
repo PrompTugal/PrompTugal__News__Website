@@ -1,10 +1,34 @@
 {
+ "a196dbfe4dac84e7": {
+  "t": "PrompTugal.news Lisboa : l'IA et la technologie à Lisboa, la capitale dont le centre de gravité est constitué de ses universités et instituts de recherche, du pôle de startups Unicorn Factory et des projets nationaux d'IA, et ce qui arrive à Lisboa depuis le Portugal, l'Europe et le monde. Indépendant ; chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lisboa: AI and technology in Lisboa, the cap",
+  "ok": false
+ },
+ "a1ba7f75dfeca8c2": {
+  "t": "Santarém, pá : la Capital do Gótico contemple le Tejo depuis les Portas do Sol, les taureaux se reposent entre deux foires, et quelque part entre les myrtilles et le blé la ville est en train d'inventer discrètement un parc scientifique.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém, pá: the Capital do Gótico gazes over the Tejo from",
+  "ok": false
+ },
  "a1de29d6ac647913": {
   "t": "Des étudiants de Guarda construisent Imo Harmonia, un outil d’IA qui lit les plans directeurs municipaux",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Guarda students build Imo Harmonia, an AI tool that reads mu",
+  "ok": false
+ },
+ "a1ead2bfddf5ea25": {
+  "t": "En mars 2026, le ministère de l'Environnement a créé APIS (Áreas Protegidas Inteligentes e Seguras), coordonné par l'ICNF et financé par le Fundo Ambiental à hauteur de 125 000 euros maximum par site pour 2026 et 2027. Les deux projets pilotes sont le parc naturel d'Alvão et le paysage protégé de la Serra do Açor, qui recourent à l'IA, à la numérisation et à l'automatisation pour la détection précoce. Le rapport ne cite ni l'Algarve ni Monchique.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In March 2026 the Environment Ministry created APIS (Áreas P",
   "ok": false
  }
 }

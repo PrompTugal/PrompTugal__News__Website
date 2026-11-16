@@ -14,5 +14,21 @@
   "at": "2026-11-16",
   "src": "At a Vilamoura lunch debate opened by the UAlg rector's offi",
   "ok": false
+ },
+ "b1af95c74ad891f3": {
+  "t": "Start Campus et la Porto Business School ont sillonné trois villes à la recherche de startups qui construisent des produits d'IA. Neuf finalistes ont pitché le 29 mai 2026 pour une place au centre de données de Start Campus à Sines, des crédits cloud et des bourses.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Start Campus and Porto Business School toured three cities f",
+  "ok": false
+ },
+ "b1fc627f2a07a828": {
+  "t": "ADiT-Lab, unité de recherche du polytechnique, a tenu le 8 avril 2026 une conférence gratuite intitulée Digital Transformation: Building AI-Driven Organizations, avec une keynote et un think tank. Les intervenants ont convenu que l'accent est désormais mis sur un usage critique, responsable et stratégique de l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ADiT-Lab, a research unit of the polytechnic, held a free co",
+  "ok": false
  }
 }

@@ -1,0 +1,42 @@
+{
+ "2e08790bc444c605": {
+  "t": "Een hoogleraar informatica vertelde aan Lusa dat de kleinere, open Portugese modellen van de universiteit bij sommige taken prestaties bereiken die vergelijkbaar zijn met die van de modellen van big tech, en dat een Portugees-Galicisch model al beschikbaar is voor bedrijven.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga, ai ai ai: een stad die zondag de klokken luidt voor de aartsbisschop en maandag haar modellen traint, met een bus vol AI-camera's die telt wie op de bushalte heeft geparkeerd.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: AI en tech in Braga, met de Universiteit van Minho, INL en de bedrijfslabs die het denkwerk doen, plus al het nieuws dat ons bereikt uit de Minho, Portugal en de wereld. Independente, en elk feit komt met een bonnetje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora, ó pá: een stad van witkalk, kurkeiken en oude stenen waar de machines Portugees leren spreken, langzaam, calminha, zoals dat hoort in de Alentejo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme: AI en tech in Lisboa, met de universiteiten en de Unicorn Factory als grote breinen, plus al het nieuws dat binnenvaart uit Portugal, Europa en de wereld. Independente, en bij elk feit hoort een bonnetje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
+ }
+}

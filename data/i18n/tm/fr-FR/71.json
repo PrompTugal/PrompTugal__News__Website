@@ -6,5 +6,29 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Guarda, a cidade de pedra: AI and tech in Gu",
   "ok": false
+ },
+ "71068d3478ecd69b": {
+  "t": "L'établissement a approuvé des principes et des orientations pour l'IA dans l'enseignement, la recherche, la gestion et les services, en insistant sur l'intégrité académique, la supervision humaine, la protection des données et la transparence, conformément au règlement européen sur l'IA. La page n'indique aucune date de publication, seulement un dossier de téléversement de juin 2026 pour ses documents.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The institution approved principles and guidance for AI in t",
+  "ok": false
+ },
+ "719d0fd5c71dc7ec": {
+  "t": "L'incubateur ajoute près de 2 000 mètres carrés dans le marché municipal de Leiria pour un laboratoire de robotique et d'IA destiné à l'industrie, ouvert aux PME régionales et à l'université. Il coûte environ 1,7 million d'euros, dépend d'une candidature Centro 2030 encore à l'examen et vise une ouverture en 2027.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The incubator is adding nearly 2,000 square metres in Leiria",
+  "ok": false
+ },
+ "71eded02f3f316d1": {
+  "t": "Pois, il n'y a pas encore ici d'entreprise d'IA que nous ayons pu trouver, et nous le disons franchement. Voici ce qui manque, devagar, devagarinho.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Pois, there is no AI company here yet that we could find, an",
+  "ok": false
  }
 }

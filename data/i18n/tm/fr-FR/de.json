@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "The Algarve's local health unit ran a webinar on 15 Septembe",
   "ok": false
+ },
+ "deeaee853be58992": {
+  "t": "Le pôle d'Olhão a ouvert en mai 2021, avec des projets en cours aux côtés de l'Université de l'Algarve, dont des algorithmes d'IA pour l'étude de la rétine.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Olhão hub opened in May 2021 with projects under way alo",
+  "ok": false
  }
 }

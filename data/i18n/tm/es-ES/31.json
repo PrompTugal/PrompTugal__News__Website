@@ -1,4 +1,12 @@
 {
+ "311ec510fafeb612": {
+  "t": "La consultora canadiense, con más de 2000 empleados en Portugal, puso en marcha el centro en mayo de 2026. La fuente no nombra ninguna ciudad.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Canadian consulting firm, with over 2,000 staff in Portu",
+  "ok": false
+ },
  "317c4adf0ece68f9": {
   "t": "AuroraMed, una healthtech portuguesa centrada en la IA en la gestión clínica, y la facultad de medicina de la Universidad del Algarve lanzaron el 20 de abril en Faro un curso ejecutivo para responsables de decisiones sanitarias, con becas financiadas por el PRR.",
   "by": "translator@PrompTugal.dinis",

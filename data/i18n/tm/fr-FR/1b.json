@@ -1,10 +1,34 @@
 {
+ "1b20915116109e4f": {
+  "t": "PrompTugal.news Vila Real de Santo António : l'IA et la technologie à VRSA, la ville pombaline bien rangée, les pieds dans le Guadiana et un œil sur l'Espagne, et tout ce qui nous parvient de l'Algarve, du Portugal et du monde. Indépendant, et chaque fait a sa source, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false
+ },
  "1b5f94fde02d4cb7": {
   "t": "PrompTugal.news Beja, a capital do Baixo Alentejo : IA et tech à Beja, avec l’université comme cerveau de la ville blanchie à la chaux, et toute l’actualité qui roule depuis l’Alentejo, le Portugal et le monde. Independente, et chaque fait vient avec son reçu.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Beja, a capital do Baixo Alentejo: AI and te",
+  "ok": false
+ },
+ "1babc44c91bf5cc8": {
+  "t": "PrompTugal.news Silves : l'IA et la technologie à Silves, la capitale de l'orange et ancienne capitale de l'Algarve, et toute l'IA qui arrive de l'Algarve, du Portugal et du monde. Nous sommes indépendants, et chaque fait a une source, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Silves: AI and technology in Silves, the ora",
+  "ok": false
+ },
+ "1bd080c0c263efa5": {
+  "t": "Monchique est une municipalité de montagne dont l'agenda public est façonné par la forêt et le risque d'incendie. La Serra a été gravement touchée par les incendies de 2018, et le projet de recherche BRIDGE (IST, LNEC et Université de l'Algarve, financé par la FCT, de 2021 à 2024) a fait de Monchique son cas pilote pour la réduction communautaire du risque d'incendie, suivi d'InnoBRIDGE financé par l'AGIF. Un incendie à Marmelete le 25 juillet 2026 a mobilisé près d'une centaine d'intervenants. Côté technologie, la mairie gère un incubateur d'entreprises, dont le locataire le plus connu est Invisible CFO, une fintech dont le produit utilise l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Monchique is a mountain municipality whose public agenda is ",
   "ok": false
  }
 }

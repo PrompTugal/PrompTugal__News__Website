@@ -7,12 +7,28 @@
   "src": "University of Aveiro's science park runs an accelerator for ",
   "ok": false
  },
+ "6a54fc65d47bc36b": {
+  "t": "Une startup portugaise qui vend un système d'agents d'IA aux équipes marketing, avec l'essentiel de ses revenus aux États-Unis. Le tour d'amorçage a été mené par Armilar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Portuguese startup selling an AI agent system to marketing",
+  "ok": false
+ },
  "6a5b544478ac32f9": {
   "t": "L’écosystème du pôle est au Web Summit Lisbonne, dont neuf start-ups incubées au pôle d’innovation d’InvestBraga. L’article cite ASOagentAI (un agent d’IA de croissance d’applis), eDynamics (des données de mouvement transformées en alertes de risque de blessure), LogisticsWMS (un système d’entrepôt à IA) et Zixago (une infrastructure synthétique pour l’IA).",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The hub's ecosystem is at Web Summit Lisbon, nine of them in",
+  "ok": false
+ },
+ "6ad8263eac434a48": {
+  "t": "Le Premier ministre signe un appel international pour une IA avancée plus sûre",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Prime Minister signs an international call for safer advance",
   "ok": false
  },
  "6ae1602a04a24cb6": {

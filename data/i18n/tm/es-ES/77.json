@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "Ai, Alcoutim: a vila onde o rio e quase Espanha e a fibra ai",
   "ok": false
+ },
+ "778362ba5ddcbc0b": {
+  "t": "Una fábrica de equipos eléctricos para centros de datos empieza a producir en el puerto de Viana",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A factory for data-centre power equipment starts production ",
+  "ok": false
  }
 }

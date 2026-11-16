@@ -1,10 +1,26 @@
 {
+ "403e316ed5565506": {
+  "t": "Nexxt Leiria récompense dix projets, dont plusieurs placent l'IA au cœur de leur démarche",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Nexxt Leiria awards ten projects, with AI at the heart of se",
+  "ok": false
+ },
  "403fe61355405625": {
   "t": "DevFest à Faro consacre deux jours à l’IA agentique",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "DevFest in Faro spends two days on agentic AI",
+  "ok": false
+ },
+ "40ef0497fa27c17e": {
+  "t": "L'Old Course de Vilamoura adopte le suivi de balle Trackman, une première en Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Old Course Vilamoura adds Trackman ball tracking, first in t",
   "ok": false
  }
 }

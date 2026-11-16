@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "More than 50 people came to UALG TEC Campus in Faro on 30 Se",
   "ok": false
+ },
+ "fff27973baa1086e": {
+  "t": "Silves es un municipio grande y mayoritariamente rural, de seis freguesias y unos 680 kilómetros cuadrados, conocido como la capital de la naranja del Algarve y como la antigua capital del Reino del Algarve. Los cítricos son su cultivo emblemático: en noviembre de 2026 la asociación de operadores de cítricos del Algarve dijo que Silves concentra el 43 % de la superficie de cítricos de origen protegido (IGP) de la región, que abarca 4733 hectáreas y 419 explotaciones. El ayuntamiento dice que su actividad empresarial se apoya en plataformas industriales de Algoz, Alcantarilha y São Bartolomeu de Messines, y gestiona una oficina local de emprendimiento, GEL.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Silves is a large, mostly rural municipality of six parishes",
+  "ok": false
  }
 }

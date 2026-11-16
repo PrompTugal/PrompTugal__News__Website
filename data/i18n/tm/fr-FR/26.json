@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Alcoutim is an inland municipality on the Guadiana, on the b",
   "ok": false
+ },
+ "26da359c2f02f4b2": {
+  "t": "Setúbal fait son IA comme tout le reste, casque de chantier sur la tête. Le port apprend à soixante-dix employés à utiliser un chatbot, le Politécnico héberge tout un institut technologique et rejoint un réseau national d'IA, et Navigator dit que ses machines de Mitrena apprennent elles aussi. La Câmara, bénie soit-elle, accueille une conférence très civilisée sur les bibliothèques et l'IA, et aucune scène de startups ne s'est encore montrée.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal does its AI the way it does everything, with a hard ",
+  "ok": false
  }
 }

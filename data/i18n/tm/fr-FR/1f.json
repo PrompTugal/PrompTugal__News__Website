@@ -1,10 +1,42 @@
 {
+ "1f09eb23683b4117": {
+  "t": "Startup Leiria prévoit un laboratoire d'IA physique dans le marché de la ville",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Startup Leiria plans a Physical AI lab in the city's market",
+  "ok": false
+ },
  "1f89d6a198ce804b": {
   "t": "Le nouveau domaine d’activité développe sécurité, connectivité et services numériques pour les eBikes de Bosch. Il démarre avec environ 20 personnes, devrait doubler d’ici fin 2026 et vise plus de 50 d’ici 2027, avec des data scientists parmi les postes ouverts.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The new business area builds security, connectivity and digi",
+  "ok": false
+ },
+ "1fa8474f449c05ca": {
+  "t": "La mairie a soutenu un atelier de mars 2024 sur l'apprentissage profond pour la détection de la qualité des aliments, co-organisé par le centre de recherche en électronique de l'université et un réseau de recherche européen, avec neuf experts internationaux et environ 40 participants.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council supported a March 2024 workshop on deep learning",
+  "ok": false
+ },
+ "1fc45385ca174033": {
+  "t": "Le plus grand agenda technologique du plan de relance est désormais dirigé par Sword Health. Le consortium attend cette année environ 150 millions d'euros de chiffre d'affaires, surtout à l'export, et cite Priberam et NeuralShift parmi ses produits.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The largest recovery-plan technology agenda is now led by Sw",
+  "ok": false
+ },
+ "1fe47731592596f5": {
+  "t": "Olhão, où les poissons sont plus malins que les brochures et où les algorithmes apprennent encore à vider une sardine.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão, where the fish are smarter than the brochures and the",
   "ok": false
  }
 }

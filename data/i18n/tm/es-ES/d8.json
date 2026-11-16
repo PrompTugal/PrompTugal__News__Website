@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Vilamoura school hosts an education summit on AI",
   "ok": false
+ },
+ "d8de90262eca523a": {
+  "t": "La plataforma conecta datos de mercado, como precios de materias primas y tarifas de flete, con los costes propios de una empresa para ayudar en compras y fijación de precios. Colideran VentureFriends y Semapa Next.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false
  }
 }

@@ -14,5 +14,29 @@
   "at": "2026-11-16",
   "src": "Ainda não sabemos tudo, pá, and a few doors slammed 403 in o",
   "ok": false
+ },
+ "3fb4690c92bce2c8": {
+  "t": "Le Future Business Summit du 19 juin à la Casa Manuel Teixeira Gomes, organisé par StartUP Portimão et l'incubateur d'entreprises de la mairie, comprenait un panel sur le facteur humain à l'ère de l'IA, traitant de culture numérique, de cybersécurité et d'usage de l'IA dans les entreprises.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Future Business Summit on 19 June at Casa Manuel Teixeir",
+  "ok": false
+ },
+ "3ff1a02107fe8943": {
+  "t": "Ce que nous n'avons pas encore trouvé, parce que même un bon agent de recherche a besoin d'un pastel de nata et d'une seconde passe.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we have not found yet, because even a good research age",
+  "ok": false
+ },
+ "3ff79b364721e595": {
+  "t": "CAIRNE | Guimarães est hébergé par l'École d'ingénierie de l'Université du Minho et rejoint des antennes dans des villes comme Bruxelles, Paris et Rome.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CAIRNE | Guimarães is hosted by the University of Minho's Sc",
+  "ok": false
  }
 }

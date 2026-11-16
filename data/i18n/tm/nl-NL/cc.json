@@ -1,0 +1,66 @@
+{
+ "cc05e69d3af2435a": {
+  "t": "UTAD is gastheer van een internationaal seminar over AI in de landbouwwetenschappen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD hosts an international seminar on AI in agricultural sc",
+  "ok": false
+ },
+ "cc06def6efffea49": {
+  "t": "Het platform IAedu van FCT, nog in bèta, geeft studenten, docenten en onderzoekers van deelnemende instellingen toegang tot AI-modellen, en FCT voegde in januari vier taalmodellen toe.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The FCT's IAedu platform, still in beta, gives students, tea",
+  "ok": false
+ },
+ "cc377b811075864b": {
+  "t": "Een uitverkochte dag op 31 oktober 2026 in Faro, georganiseerd door Algarve Evolution met de AI-tool Lovable: gratis tegoed, mentoren en een jury, en veel deelnemers zonder programmeerervaring bouwden werkende prototypes.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A sold-out day on 31 October 2026 in Faro run by Algarve Evo",
+  "ok": false
+ },
+ "cc4c638d579222d0": {
+  "t": "Wat we niet konden vinden, gezegd met een schouderophalen en een pastel de nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we could not find, said with a shrug and a pastel de na",
+  "ok": false
+ },
+ "cc6b4546d623b32f": {
+  "t": "Wie investeert in {name} en wat hier is geïnvesteerd, elk uit een openbare bron.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Who invests in {name} and what has been invested here, each ",
+  "ok": false
+ },
+ "cc855833fcf82e4d": {
+  "t": "PrompTugal.news Bragança: AI en technologie in Bragança, een districtshoofdstad in het noordoosten met als zwaartepunt de polytechnische school en het wetenschapspark Brigantia EcoPark, en wat Bragança bereikt vanuit Portugal, Europa en de wereld. Onafhankelijk; elk feit met bron.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Bragança: AI and technology in Bragança, a n",
+  "ok": false
+ },
+ "cca58c3bf0354fd1": {
+  "t": "Portugal keurt zijn Nationale AI-agenda en een actieplan tot 2030 goed",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal approves its National AI Agenda and an action plan ",
+  "ok": false
+ },
+ "cce7313ca509fea5": {
+  "t": "De polytechnische school van Viseu houdt een tweede editie van haar cursus generatieve AI voor docenten in het hoger onderwijs",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu's polytechnic runs a second edition of its generative ",
+  "ok": false
+ }
+}

@@ -7,6 +7,14 @@
   "src": "Banco Invest and Allianz Global Investors held an investor e",
   "ok": false
  },
+ "f90876a6f5f57b78": {
+  "t": "Le bureau coordonnera l'assistance commerciale et technique à travers l'Europe et fera de la R&D sur les compilateurs et la conception de puces et de cartes PCB.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The office will coordinate commercial and technical support ",
+  "ok": false
+ },
  "f90bbef2965fd6d3": {
   "t": "Un livre sur la création d’entreprise en 30 jours avec des prompts d’IA est présenté au UALG TEC Campus",
   "by": "translator@PrompTugal.dinis",
@@ -21,6 +29,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Beja's AI activity, as far as the public sources show, runs ",
+  "ok": false
+ },
+ "f9b3db3238f406de": {
+  "t": "La première conférence TMCT s'est tenue à Portimão début novembre (Barlavento indique du 4 au 6 novembre, O Algarve du 5 au 7 novembre), organisée avec la mairie et l'association locale du tourisme, avec Algarve Evolution, Zoomarine Algarve, Parkalgar et l'école d'hôtellerie mobilisés pour la relier aux acteurs régionaux. Les sessions ont porté sur l'IA dans la recherche, l'éducation et l'édition académique, et un sommet d'éditeurs a examiné l'IA et l'intégrité de la recherche.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The first TMCT conference met in Portimão in early November ",
   "ok": false
  }
 }

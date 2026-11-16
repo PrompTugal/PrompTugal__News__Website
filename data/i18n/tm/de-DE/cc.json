@@ -1,0 +1,66 @@
+{
+ "cc05e69d3af2435a": {
+  "t": "UTAD richtet ein internationales Seminar zu KI in den Agrarwissenschaften aus",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD hosts an international seminar on AI in agricultural sc",
+  "ok": false
+ },
+ "cc06def6efffea49": {
+  "t": "Die Plattform IAedu der FCT, noch in der Beta-Phase, gibt Studierenden, Lehrenden und Forschenden an teilnehmenden Einrichtungen Zugang zu KI-Modellen, und die FCT fügte im Januar vier Sprachmodelle hinzu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The FCT's IAedu platform, still in beta, gives students, tea",
+  "ok": false
+ },
+ "cc377b811075864b": {
+  "t": "Ein ausverkaufter Tag am 31. Oktober 2026 in Faro, veranstaltet von Algarve Evolution mit dem KI-Werkzeug Lovable: kostenlose Credits, Mentoren und eine Jury, und viele Teilnehmende ohne Programmiererfahrung bauten funktionierende Prototypen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A sold-out day on 31 October 2026 in Faro run by Algarve Evo",
+  "ok": false
+ },
+ "cc4c638d579222d0": {
+  "t": "Was wir nicht finden konnten, gesagt mit einem Schulterzucken und einem Pastel de Nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we could not find, said with a shrug and a pastel de na",
+  "ok": false
+ },
+ "cc6b4546d623b32f": {
+  "t": "Wer in {name} investiert und was hier investiert wurde, jeweils aus einer öffentlichen Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Who invests in {name} and what has been invested here, each ",
+  "ok": false
+ },
+ "cc855833fcf82e4d": {
+  "t": "PrompTugal.news Bragança: KI und Technologie in Bragança, einer Distrikthauptstadt im Nordosten, deren Schwerpunkt ihr Polytechnikum und ihr Wissenschaftspark Brigantia EcoPark sind, und was aus Portugal, Europa und der Welt in Bragança ankommt. Unabhängig; jede Tatsache mit Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Bragança: AI and technology in Bragança, a n",
+  "ok": false
+ },
+ "cca58c3bf0354fd1": {
+  "t": "Portugal verabschiedet seine Nationale KI-Agenda und einen Aktionsplan bis 2030",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal approves its National AI Agenda and an action plan ",
+  "ok": false
+ },
+ "cce7313ca509fea5": {
+  "t": "Viseus Polytechnikum veranstaltet eine zweite Auflage seines Kurses zu generativer KI für Hochschullehrende",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu's polytechnic runs a second edition of its generative ",
+  "ok": false
+ }
+}

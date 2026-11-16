@@ -1,4 +1,12 @@
 {
+ "c01a22906558c781": {
+  "t": "El Politécnico de Leiria fija sus normas de IA, en vigor desde el 1 de septiembre",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Politécnico de Leiria sets its AI rules, in force from 1 Sep",
+  "ok": false
+ },
  "c042cd426860bb15": {
   "t": "Talento local",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
+ "c0e557c9ce2880b2": {
+  "t": "El libro IA como Copiloto, una guía de 180 páginas sobre el uso de herramientas de IA generativa en el trabajo diario, se presentó el 20 de febrero en el auditorio de la Escola de Hotelaria e Turismo de Portimão, con Territórios Criativos moderando un debate llamado IA: adaptarse o quedarse atrás.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The book IA como Copiloto, a 180-page guide on using generat",
   "ok": false
  }
 }

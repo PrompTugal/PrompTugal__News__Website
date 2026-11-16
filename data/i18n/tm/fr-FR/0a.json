@@ -1,4 +1,12 @@
 {
+ "0a19facbd98f5c16": {
+  "t": "Le Despacho 91/2025, signé le 10 décembre 2025, fixe des lignes directrices sur l'usage de l'IA pour la communauté académique, en citant le règlement européen sur l'IA, et vise un usage pédagogique, créatif et sûr tout en protégeant l'intégrité académique et les données personnelles.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Despacho 91/2025, signed on 10 December 2025, sets out guide",
+  "ok": false
+ },
  "0a25a694e0d350f0": {
   "t": "- **Portugal :** [promptugal.news]({portugal}), avec l’Europe et le monde\n- **L’Algarve :** cette page\n- **Les villes :** {count} sites en dessous\n\nL’actualité circule **vers le bas** (actualité nationale et internationale sur l’IA, choisie pour ce qu’elle signifie ici) et **vers le haut** (les sources locales, qui remontent quand elles comptent).",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "European funds to bring AI and robotics to 15 Algarve touris",
+  "ok": false
+ },
+ "0af2ef8726963e81": {
+  "t": "AMALIA entre dans une deuxième phase : 1,8 million d'euros de plus, des outils d'agents prévus d'ici fin 2026",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA gets a second phase: 1.8 million euros more, agent to",
   "ok": false
  }
 }

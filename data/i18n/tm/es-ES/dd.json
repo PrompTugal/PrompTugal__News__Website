@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Universidade de Évora says it has built Portuguese-language ",
   "ok": false
+ },
+ "dded4f00e6d60967": {
+  "t": "Primero el plan nacional, más de 400 millones de euros de dinero sobre todo europeo, luego AMALIA, los superordenadores y una escena de startups que sigue levantando rondas en Porto y Lisboa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "First the national plan, over 400 million euros of mostly Eu",
+  "ok": false
  }
 }

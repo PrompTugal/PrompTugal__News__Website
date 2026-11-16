@@ -1,0 +1,18 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "Bragas KI-Aktivität sitzt an vier Orten, die die Quellen nebeneinander zeigen: Forschung (die KI-Gruppe der Universität Minho, das aus dem Minho stammende Spin-off OmniumAI und das iberische Nanotechnologielabor INL), Unternehmens-F&E (Cegids erstes KI-Zentrum in Portugal und Boschs neue eBike-Einheit, deren Diebstahlschutz-Software Machine Learning nutzt), die eigene KI-Nutzung der Stadtverwaltung (ein Bus-Kamera-Pilot mit Hayden AI und ein Projekt über 1,5 Millionen Euro, um KI in die Stadtverwaltung zu bringen) und eine Startup-Schicht rund um Startup Braga und InvestBraga, die 15 Startups zum Web Summit 2026 brachten. Anders als die Orte der Algarve hängt Braga nicht an einer einzigen Institution, und was wir lesen konnten, zeigt eine Stadtregierung, die KI kauft und erprobt, statt nur Veranstaltungen darüber auszurichten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "Éboras KI-Aktivität sitzt an drei Orten. Die Universidade de Évora lehrt einen Studiengang in KI und Datenwissenschaft, hat eigene Regeln für KI in der Lehre geschrieben und sagt, sie habe portugiesischsprachige Modelle gebaut. PACT, der Wissenschafts- und Technologiepark des Alentejo, führt KI-Schulungen durch und beherbergt Technologieunternehmen. Das Hospital de Évora ist nach Angabe seiner Gesundheitseinheit das erste öffentliche Krankenhaus Portugals, das ein KI-System für die Gebärmutterhals-Vorsorge einsetzt. Neueres privates Geld ist ebenfalls eingetroffen: Ein Rechenzentrumsunternehmen kaufte einen 1-MW-Standort in der Stadt. Die eigene Website der Stadtverwaltung zeigt keine KI-Nutzung, die wir lesen konnten, daher sind die Universität, der Park und das Krankenhaus, nicht das Rathaus, der Schwerpunkt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ }
+}

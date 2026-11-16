@@ -1,4 +1,12 @@
 {
+ "c90d876d8224d7dc": {
+  "t": "L'accélérateur de l'association des entreprises de l'Algarve, financé par le plan de relance, s'est présenté aux entreprises de São Brás à la mairie dans le cadre d'un protocole avec la mairie, avec une aide pour demander des subventions allant jusqu'à 2 000 euros par entreprise.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve business association's accelerator, funded by th",
+  "ok": false
+ },
  "c92d4e3132ecb884": {
   "t": "L’activité IA de l’Algarve se concentre à Faro, autour de l’université de l’Algarve et d’Algarve Evolution, et vise surtout les deux grands secteurs régionaux, le tourisme et la santé, l’université y ajoutant le patrimoine, l’alimentation et la recherche marine. Des organismes régionaux comme la CCDR Algarve, NERA et Turismo do Algarve financent et enseignent l’adoption de l’IA, et en 2026 l’université a obtenu 31,5 millions d’euros pour un centre du patrimoine axé sur l’IA.",
   "by": "translator@PrompTugal.dinis",
@@ -7,12 +15,28 @@
   "src": "The Algarve's AI activity is concentrated in Faro around the",
   "ok": false
  },
+ "c94b9bc9bbb87fa9": {
+  "t": "L'activité d'IA de Setúbal se concentre dans son port et son polytechnique. L'autorité portuaire de Setúbal et de Lisbonne a lancé un projet d'IA pour former son personnel à un assistant génératif et prévoit d'automatiser des procédures internes, tandis que le Politécnico de Setúbal accueille le premier pôle national de l'institut technologique CCG/ZGDV, avec la vision par ordinateur, l'IA et l'imagerie médicale parmi ses axes, et a rejoint un réseau national sur l'IA dans l'enseignement supérieur. L'industrie ajoute le complexe de pâte et papier de Navigator Company à Mitrena, qui dit y mener des projets d'apprentissage automatique. La mairie présente l'IA comme sujet de débat (une conférence sur les bibliothèques en novembre 2026) mais nous n'avons trouvé aucun usage de l'IA dans ses propres services.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's AI activity sits with its port and its polytechnic",
+  "ok": false
+ },
  "c99a5aafbcf2e807": {
   "t": "Aveiro, oh pá : là où les moliceiros glissent devant les terrasses du canal, où les ovos moles attendent dans leurs petites coquilles, et où une université apprend tranquillement à tout un campus à bavarder avec les machines pendant que des start-ups brésiliennes affluent au Cais do Porto.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Aveiro, oh pá: where the moliceiros glide past the canal ter",
+  "ok": false
+ },
+ "c9e2e899cc22dd22": {
+  "t": "Porto ne se vante pas, il gagne simplement quinze places dans un classement mondial des startups et poursuit sa route. L'UPTEC garde les startups d'IA au chaud, un programme de supercalcul a installé ses bureaux à Asprela II, Granter vient de lever ses 1,6 million d'euros, et le fonds 33N garde un œil sur l'argent depuis son siège de Porto. La société municipale Porto Digital dit ne vouloir aucune boîte noire, ce qui est la règle la plus tripeiro que nous ayons jamais entendue : montre-moi les tripes, alors je te fais confiance.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto does not boast, it just climbs fifteen places in a glo",
   "ok": false
  }
 }

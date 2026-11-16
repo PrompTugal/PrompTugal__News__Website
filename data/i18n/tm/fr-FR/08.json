@@ -1,10 +1,34 @@
 {
+ "080db7c23bae3eb9": {
+  "t": "Le campus de centres de données de CTS commence à recruter à Viana",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The CTS data-centre campus starts hiring in Viana",
+  "ok": false
+ },
+ "0823a48eca20c73c": {
+  "t": "Portimão présente un livre pratique sur l'usage de l'IA au travail",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão presents a practical book on using AI at work",
+  "ok": false
+ },
  "083a55f750fac1b9": {
   "t": "Le resort de Loulé a lancé un concierge IA multilingue, disponible jour et nuit pour les clients, les propriétaires et les acheteurs potentiels, avec des recommandations de biens. Indice de l’agent de la ville : Loulé.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The Loulé resort launched a multilingual AI concierge availa",
+  "ok": false
+ },
+ "0866f7bec2f62bae": {
+  "t": "Nscale prévoit plus de 66 000 GPU NVIDIA Rubin pour Microsoft sur le campus de données de Sines",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsof",
   "ok": false
  },
  "08b8008b38fd0ddb": {

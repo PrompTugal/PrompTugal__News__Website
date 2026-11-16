@@ -1,0 +1,66 @@
+{
+ "861340a39322787c": {
+  "t": "Faro is de thuisbasis van de Universidade do Algarve, wier campussen in de stad het grootste deel van de AI-activiteit van de regio verankeren: onderzoek (een archeologisch innovatiecentrum van 31,5 miljoen euro dat AI zal gebruiken), onderwijs (een gepubliceerd AI-beleid van de universiteit, een executive course AI in de zorg met een healthtechbedrijf), en de UALG TEC Campus waar zakelijke evenementen over AI plaatsvinden. Ook de gemeenschapslaag zit hier: GDG Faro organiseert de ontwikkelaarsconferentie van de stad over agentische AI, en Algarve Evolution, Algarve STP en de gemeente voegen evenementen en programma's toe. De gemeente zelf toont in wat we konden lezen weinig AI-gebruik, dus innovatie en onderzoek, niet het stadsbestuur, vormen het zwaartepunt van Faro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro is home to the Universidade do Algarve, whose campuses ",
+  "ok": false
+ },
+ "862a47ccd096007f": {
+  "t": "Een project genaamd QI 4.0 gebruikt sensoren en machinelearningmodellen om de rijping van Queijo Serpa DOP te volgen en voedt een app, nog in ontwikkeling, die producenten waarschuwt wanneer de omstandigheden in de rijpingsruimte afwijken. Het zou op 14 november 2026 in Córdoba worden gepresenteerd.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A project called QI 4.0 uses sensors and machine-learning mo",
+  "ok": false
+ },
+ "867572ff80be5e8d": {
+  "t": "Kaart van de Algarve met zijn {count} plaatsen, elk gelinkt aan zijn site",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
+ },
+ "867d7d84af293cda": {
+  "t": "Bij de ondertekening in 2021 sloten 23 partners zich aan bij een hub voor onderzoek en opleiding over het Mediterrane dieet bij het CEAT. De plannen omvatten een centrum voor digitale therapeutica met Johns Hopkins University en het Algarve Biomedical Center, virtualrealitytraining, een stadstuin en een wetenschapscentrum van Ciência Viva. AI wordt niet genoemd.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the 2021 signing, 23 partners joined a Mediterranean Diet",
+  "ok": false
+ },
+ "86ad806b1bec465d": {
+  "t": "Ó pá, Lagoa: zon, wijn, een zeegrot met een gat in het dak, en nu een gemeente die de robots naar de lucht vraagt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86c335ec6671a38b": {
+  "t": "Ondernemers in Portimão komen bijeen om te praten over leiderschap, innovatie en AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
+  "ok": false
+ },
+ "86db666b9311af7d": {
+  "t": "Campus Tejo in Santarém is een veldlab aan de Tejo, zegt de burgemeester in een interview",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor",
+  "ok": false
+ },
+ "86f95ca1e0fd1015": {
+  "t": "Het project SiARA combineert AI, een autonome veldrobot genaamd EVAbot en een sensornetwerk om gegevens te verzamelen over gewassen, bodem, weiland en wilde dieren op de steppe van Campo Branco. Het startte in november 2025 en het eerste veldwerk vond plaats op 3 maart 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ }
+}

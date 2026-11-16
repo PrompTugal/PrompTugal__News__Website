@@ -1,4 +1,12 @@
 {
+ "2a76a80ec09f2c59": {
+  "t": "AITRAS s'est tenu les 5 et 6 mars à l'école d'agronomie et de médecine vétérinaire de l'UTAD, avec des intervenants de plusieurs universités européennes et des cas issus de la production animale, de la sylviculture, de la viticulture et de l'agroalimentaire.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AITRAS ran on 5 and 6 March at UTAD's agrarian and veterinar",
+  "ok": false
+ },
  "2a94fcacda5956cf": {
   "t": "Presque toute l’IA que nous avons pu sourcer à Guarda passe par une seule institution, le Politécnico da Guarda (IPG, qui est en train de devenir une université). Il enseigne la licence en science des données et IA ouverte en 2022, pilote un projet d’environ un million d’euros pour apporter l’IA, l’IoT et la blockchain aux petites entreprises de la région Centre, a signé un accord sur les drones et l’IA avec une université ukrainienne, et gère l’incubateur où siègent les start-ups de la ville. Les pages de la mairie ne montrent aucun usage ni programme d’IA, et la couche privée de l’IA est mince, avec comme exemple le plus net un bureau de conseil qui recrute des profils d’IA. Le centre de gravité de Guarda est donc son école polytechnique, et non son hôtel de ville ni ses entreprises.",
   "by": "translator@PrompTugal.dinis",

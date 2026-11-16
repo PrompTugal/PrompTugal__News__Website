@@ -1,4 +1,12 @@
 {
+ "6c168f956a2e83d1": {
+  "t": "Le pôle d'innovation de Tavira est lancé avec 23 partenaires et un centre de thérapies numériques prévu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tavira's innovation hub launches with 23 partners and a digi",
+  "ok": false
+ },
  "6c8bf7c213d7f90e": {
   "t": "La mairie de Braga prévoit 1,5 million d’euros pour faire entrer l’IA dans son administration quotidienne",
   "by": "translator@PrompTugal.dinis",
@@ -7,12 +15,28 @@
   "src": "Braga council plans 1.5 million euros to bring AI into its d",
   "ok": false
  },
+ "6caddd1e6a0570e5": {
+  "t": "Le portail national du plan de relance recense un projet à Viana do Castelo, mené par le polytechnique avec Data CoLAB, qui utilise l'IA, le traitement automatique du langage, l'IA générative et la science des données pour construire un système numérique interactif. Il s'est déroulé du 1er mai 2025 au 31 janvier 2026 avec environ 39 800 euros de financement.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The national recovery-plan portal lists a project in Viana d",
+  "ok": false
+ },
  "6cc2bdab90a9cd8b": {
   "t": "Le Conseil des ministres s’est réuni à Bragança le 9 septembre 2026 et a franchi l’étape suivante pour transformer l’école polytechnique en université. La même réunion a approuvé un nouveau cadre du système de science et d’innovation qui fait de l’IA une priorité stratégique. La page ne donne aucun budget pour l’université.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The Council of Ministers met in Bragança on 9 September 2026",
+  "ok": false
+ },
+ "6cc66b24e4ff82d0": {
+  "t": "La startup utilise l'IA pour aider les petites et moyennes entreprises à trouver des financements publics, préparer leurs candidatures et gérer leurs projets. Le tour a été mené par 3XP Global avec des fonds de la Banco Português de Fomento, et l'équipe prévoit de plus que doubler ses effectifs d'ici la fin de l'année et d'entrer en Espagne, en Allemagne et en Italie.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The startup uses AI to help small and medium firms find publ",
   "ok": false
  }
 }

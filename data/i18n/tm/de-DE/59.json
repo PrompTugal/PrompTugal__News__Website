@@ -1,0 +1,34 @@
+{
+ "59d03424a0a7d0d2": {
+  "t": "Olhão ist ein Fischereihafen an der Ria Formosa, und seine Technologiegeschichte verläuft übers Meer. Die Fischzucht-Pilotstation des IPMA, das Gemeinschaftslabor S2AQUAcoLAB und das Aquafutter-Unternehmen SPAROS liegen im Kreis, und im Fischereihafen entsteht ein Blue Hub für die Meereswirtschaft. Der KI-Pfad ist real, aber schmal: Präzisionsernährung und digitale Aquakultur, dazu eine Stadtverwaltung, die von KI für Müllrouten gesprochen hat.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão is a fishing port on the Ria Formosa, and its technolo",
+  "ok": false
+ },
+ "59dd9fcb07fb9be0": {
+  "t": "**Diese Seite als Daten:** Alles darauf wird zuerst als JSON ausgeliefert, in [der eigenen Datei]({json}) (Geschichten, KI-Karte, Veranstaltungen, Quellen, Lücken, Team und Identität), mit [allen Orten in einem Index]({index}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
+ "59ec641f83c3c308": {
+  "t": "Der zweitägige Gipfel fand am 6. und 7. November 2025 in einem Hotel in Lagos statt. Eine Vorschau nannte am ersten Tag eine Live-Demonstration zum Bau eines spezialisierten ChatGPT. Barlavento zählte später etwa 450 Menschen am ersten Tag und 570 am zweiten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The two-day summit ran at a Lagos hotel on 6 and 7 November ",
+  "ok": false
+ },
+ "59ed91899d661901": {
+  "t": "Calma, ainda não sabemos tudo, pá. Das hat Porto uns noch nicht verraten:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Calma, ainda não sabemos tudo, pá. Here is what Porto has no",
+  "ok": false
+ }
+}

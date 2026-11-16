@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Leiria, pá: a castle on the hill, moulds in the valley and, ",
   "ok": false
+ },
+ "87ff377857174ef8": {
+  "t": "PrompTugal.news Viana do Castelo, a Princesa do Lima: IA y tecnología en Viana, con el Politécnico y Data CoLAB como cabezas brillantes y una flamante fábrica zumbando para los centros de datos, más las noticias que lleguen navegando desde el Alto Minho, Portugal y el mundo. Independente, y cada dato viene con su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Viana do Castelo, a Princesa do Lima: AI and",
+  "ok": false
  }
 }

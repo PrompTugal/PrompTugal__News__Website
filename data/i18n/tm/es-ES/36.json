@@ -1,0 +1,26 @@
+{
+ "366bb797fee927fe": {
+  "t": "La reunión estratégica anual de INESC TEC se celebró en la UTAD el 11 de septiembre, dirigida por primera vez por la red de investigadores noveles BEAR. La IA fue uno de los dos temas, con una ponencia magistral sobre su futuro y grupos de trabajo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "INESC TEC's annual strategic meeting was held at UTAD on 11 ",
+  "ok": false
+ },
+ "36a4b0a59ce2073a": {
+  "t": "Eish, esto es lo que no pudimos encontrar, y una red vacía honesta sigue siendo un hallazgo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Eish, here is what we could not find, and an honest empty ne",
+  "ok": false
+ },
+ "36c2305f6f0c6b41": {
+  "t": "Nautiber, el astillero de Vila Real de Santo António, dice que planea una nueva unidad para construir embarcaciones para el sector de la defensa, dirigida a sistemas y plataformas no tripulados. Ya ha entregado la estructura de cuatro drones de superficie con un socio y se asociaría con un astillero de Lagos, y no se ha decidido entre VRSA, Portimão y Lagos. La pieza es contenido patrocinado, así que son afirmaciones de la propia empresa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Nautiber, the shipyard in Vila Real de Santo António, says i",
+  "ok": false
+ }
+}

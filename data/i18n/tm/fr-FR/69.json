@@ -7,6 +7,14 @@
   "src": "Venture Lab opens a free mentoring call whose topics include",
   "ok": false
  },
+ "694151e7c32d3ab4": {
+  "t": "PrompTugal.news Viana do Castelo : l'IA et la technologie à Viana do Castelo, ville portuaire dont le centre de gravité est son polytechnique, un laboratoire d'innovation par les données et une nouvelle usine d'équipements pour centres de données, et ce qui arrive à Viana do Castelo depuis l'Alto Minho, le Portugal et le monde. Indépendant ; chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Viana do Castelo: AI and technology in Viana",
+  "ok": false
+ },
  "69568bc882f07217": {
   "t": "CoLagos, l’espace de coworking de la mairie, remporte un prix régional pour la troisième année",
   "by": "translator@PrompTugal.dinis",

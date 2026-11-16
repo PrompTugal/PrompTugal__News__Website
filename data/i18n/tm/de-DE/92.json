@@ -1,0 +1,18 @@
+{
+ "922ac29a528698b1": {
+  "t": "KI-Modell eines Studenten sagt die Luftqualität für Lagoas Stadtverwaltung voraus",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A student's AI model predicts air quality for Lagoa's counci",
+  "ok": false
+ },
+ "9286284686f43f22": {
+  "t": "Castelo Brancos KI-Aktivität sitzt rund um das Polytechnikum, das am 1. August 2026 zur Universidade Politécnica de Castelo Branco wurde, und die Menschen, die es ausbildet. Seine Gesundheitshochschule veranstaltet Tage zu KI in der Gesundheit, zwei seiner Ingenieurprofessoren gründeten das Waldbranddrohnen-Startup Axtron Systems, und ein lokales Abfalltechnik-Unternehmen und eine IT-Beratung sind die wichtigsten privaten Namen. Die Startseite der Stadtverwaltung zeigt keine KI-Beiträge, daher sind die Universität und einige Startups, nicht das Rathaus, der Schwerpunkt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castelo Branco's AI activity sits around the polytechnic, wh",
+  "ok": false
+ }
+}

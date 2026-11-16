@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "More than 50 people came to UALG TEC Campus in Faro on 30 Se",
   "ok": false
+ },
+ "fff27973baa1086e": {
+  "t": "Silves est une grande municipalité surtout rurale de six freguesias et d'environ 680 kilomètres carrés, connue comme la capitale de l'orange de l'Algarve et comme l'ancienne capitale du Royaume de l'Algarve. Les agrumes sont sa culture emblématique : en novembre 2026, l'association des opérateurs d'agrumes de l'Algarve a dit que Silves détient 43 % de la surface des agrumes IGP (indication géographique protégée) de la région, soit 4 733 hectares et 419 exploitations. La mairie dit que sa vie économique repose sur des plateformes industrielles à Algoz, Alcantarilha et São Bartolomeu de Messines, et elle gère un bureau local de l'entrepreneuriat, le GEL.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Silves is a large, mostly rural municipality of six parishes",
+  "ok": false
  }
 }

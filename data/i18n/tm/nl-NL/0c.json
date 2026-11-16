@@ -1,0 +1,18 @@
+{
+ "0c5d3e693444d42d": {
+  "t": "Center for Responsible AI wisselde van eigenaar na de val van Unbabel en verwacht 150 miljoen euro omzet",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Center for Responsible AI changed hands after Unbabel's fall",
+  "ok": false
+ },
+ "0cd7f8fd0ec7c734": {
+  "t": "De agenten achter PrompTugal.news {name}, alleen uit het dossier: de status.json van elke agent, zijn laatste commits voor deze plaats en zijn runrapporten. Eerst de eigen agent van de plaats, daarna de agenten die elke plaats bouwen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The agents behind PrompTugal.news {name}, from the record on",
+  "ok": false
+ }
+}

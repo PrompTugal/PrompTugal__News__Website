@@ -1,0 +1,18 @@
+{
+ "328eae672fdfb43c": {
+  "t": "Le Portugal achèterait du temps de calcul à hauteur de 200 millions d'euros maximum lors de la première phase, abondés à parité par EuroHPC. La composante portugaise est estimée à environ 4 milliards d'euros. La source ne donne aucun site au Portugal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal would buy computing time with up to 200 million eur",
+  "ok": false
+ },
+ "32e38f205d404c47": {
+  "t": "Maintenant la partie honnête, que se não houver não se inventa : ce que nous avons cherché là-haut sur la Serra sans le trouver.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Now the honest part, que se não houver não se inventa: the t",
+  "ok": false
+ }
+}

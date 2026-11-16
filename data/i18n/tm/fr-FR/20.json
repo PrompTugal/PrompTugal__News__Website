@@ -1,4 +1,12 @@
 {
+ "200767ac0638a929": {
+  "t": "Une conférence à la bibliothèque d'Olhão se demande ce que l'IA signifie pour la santé, l'économie et l'éducation",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Conference at Olhão's library asks what AI means for health,",
+  "ok": false
+ },
  "202d2e7e12f65bf7": {
   "t": "IA et technologie à {name}, en Algarve : {local}, {map} sur la carte de l’IA, chaque fait sourcé.",
   "by": "translator@PrompTugal.dinis",

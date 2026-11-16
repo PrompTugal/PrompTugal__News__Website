@@ -1,4 +1,12 @@
 {
+ "5066aa75096a3dbe": {
+  "t": "FuriosaAI, una startup surcoreana de chips de IA, abre en Lisboa su oficina europea insignia",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "FuriosaAI, a South Korean AI chip start-up, sets up its Euro",
+  "ok": false
+ },
  "5070993ad7db0e90": {
   "t": "La asociación empresarial regional NERA acogió una sesión en CRIA, la división de emprendimiento de la Universidad del Algarve en Faro, sobre cómo usar herramientas de IA para convertir la opinión de los clientes en decisiones de negocio. Se celebró el 10 de noviembre dentro del proyecto transfronterizo INTREPIDA pro.",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Aveiro, a cidade dos canais: AI and tech in ",
+  "ok": false
+ },
+ "509b72800fc577e3": {
+  "t": "El presidente del puerto de Setúbal dice que la IA lleva a los puertos de lo reactivo a lo predictivo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's port chief says AI is moving ports from reactive t",
   "ok": false
  }
 }

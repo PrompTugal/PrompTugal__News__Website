@@ -1,4 +1,20 @@
 {
+ "7017283926a98cf8": {
+  "t": "DTech 2026 met l'IA au travail sur scène à Vila Real",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "DTech 2026 puts AI at work on stage in Vila Real",
+  "ok": false
+ },
+ "702eab5896718961": {
+  "t": "Ainda não sabemos tudo, et un bon déjeuner à Tavira prend son temps. Voici ce que nous n'avons pas encore trouvé :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, and a good Tavira lunch takes its ti",
+  "ok": false
+ },
  "704716259fe71850": {
   "t": "Ici, pas une centaine de start-ups : on est plutôt ponts, eau et capteurs. Un pont vers l’Espagne, une conduite d’eau refaite à Martim Longo et une plateforme de capteurs partagée avec cinq autres municipalités. Avant l’IA, les données. Avant les données, le câble, fogo !",
   "by": "translator@PrompTugal.dinis",

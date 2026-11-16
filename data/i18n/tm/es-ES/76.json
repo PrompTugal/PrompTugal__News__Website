@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "The Parque de Ciência e Inovação ran the Rocket Booster Acce",
   "ok": false
+ },
+ "76d474040aeede69": {
+  "t": "Tras el programa Leiria Experience Lab de Startup Leiria, el ayuntamiento gastará 7500 euros en Leiria Concierge (5000, un asistente de itinerarios con IA) y Guide Sofia (2500, una audioguía con IA, primero para el Castillo de Leiria).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "After the Leiria Experience Lab programme of Startup Leiria,",
+  "ok": false
  }
 }

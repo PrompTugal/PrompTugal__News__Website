@@ -1,0 +1,42 @@
+{
+ "ba5562fbdc71ad19": {
+  "t": "Partner aus Portugal, Spanien, Frankreich und Irland trafen sich am 3. und 4. Februar 2026 in den Einrichtungen von S2AQUA in Olhão und besuchten die Fischzucht-Pilotstation. Das Projekt plant digitale Schulungen, ein Online-Wissensarchiv und Pilotvorführungen von Industrie-4.0-Werkzeugen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Partners from Portugal, Spain, France and Ireland met at the",
+  "ok": false
+ },
+ "ba82092f0fba1546": {
+  "t": "In Lisboa bauen die Universitäten Rechenzentren, gewinnen die Institute Millionen und bekommt ein nationales Sprachmodell am Técnico seine Bühne. Die Startups kommen nach Alvalade, die Business Angels kommen mit dem Scheckbuch, und die Câmara, bless it, behält ihre KI-Pläne vorerst für sich. Forschung und Startups, sim senhor, nicht das Rathaus.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisboa is where the universities build data centres, the ins",
+  "ok": false
+ },
+ "baa010b4574410e1": {
+  "t": "Tekever setzt Drohnen und eine KI-gestützte Plattform ein, um Sturmschäden in Leiria zu kartieren",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tekever puts drones and an AI-assisted platform to work mapp",
+  "ok": false
+ },
+ "bad44b8a105b25d8": {
+  "t": "Albufeira lebt von Besuchern, daher kommen Hotels und Tourismus zuerst. Die Stadtverwaltung hat einen Coworking-Space in einem Hotel an der Strandpromenade und einen Inkubator, der Tourismusideen bevorzugt, und sie sagt, eine KI-Plattform helfe inzwischen bei der Stadtplanung. Pois, nicht schlecht für eine Stadt, die für ihre Strände berühmt ist.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Albufeira runs on visitors, so hotels and tourism come first",
+  "ok": false
+ },
+ "bada14ddd04950b6": {
+  "t": "Ein Team der NOVA FCT (NOVA LINCS) baute eine Plattform, die Vegetationsindizes aus Satellitendaten mit maschinellem Lernen liest, um regelmäßig zu prüfen, ob Brennstoffmanagement-Zonen gegen Waldbrände frei sind, mit einer Android-App. Die App wurde für Almada, Mação und Santarém eingerichtet, eine Ausweitung ist geplant. Der Artikel erwähnt weder Monchique noch die Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A NOVA FCT team (NOVA LINCS) built a platform that reads sat",
+  "ok": false
+ }
+}

@@ -15,6 +15,14 @@
   "src": "UAlg's arts and communication centre opens INTERFACE, a digi",
   "ok": false
  },
+ "586e1e6331011f9a": {
+  "t": "Quarteira es una ciudad costera y freguesía del municipio de Loulé, un pueblo de pescadores que se hizo ciudad en 1999. Su economía se apoya en el turismo y el golf, y su freguesía incluye Vilamoura, descrita como la mayor urbanización turística privada de Europa. Las decisiones que afectan a su tecnología, desde el urbanismo hasta los sensores de Quarteira Lab, las toma el ayuntamiento de Loulé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Quarteira is a coastal city and civil parish in the municipa",
+  "ok": false
+ },
  "5891d7207cbdf70c": {
   "t": "Una spin-off de la Universidad del Miño lidera un proyecto de IA para diseñar alimentos personalizados",
   "by": "translator@PrompTugal.dinis",

@@ -1,0 +1,26 @@
+{
+ "d8006b8f7850afec": {
+  "t": "Cáritas in Faro vraagt wie profiteert van AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false
+ },
+ "d89c3b61de8d1239": {
+  "t": "School in Vilamoura houdt een onderwijstop over AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false
+ },
+ "d8de90262eca523a": {
+  "t": "Het platform koppelt marktdata zoals grondstofprijzen en vrachttarieven aan de eigen kosten van een bedrijf, om inkoop en prijsstelling te helpen. Mede geleid door VentureFriends en Semapa Next.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false
+ }
+}

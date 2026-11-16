@@ -1,0 +1,42 @@
+{
+ "bc334eb42672513e": {
+  "t": "In februari 2026 vertelde de burgemeester op een gemeenteraadsvergadering dat stedelijk beheer al AI gebruikt om vergunningverlening te versnellen, en dat in maart een tool voor inwoners die een stedelijke ingreep beginnen zou verschijnen. Hij zei dat ongeveer 50 medewerkers meer dan 17000 aanvragen afhandelen en dat AI de gemeente moet helpen minder fouten te maken.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false
+ },
+ "bc3728b754ac2248": {
+  "t": "PrompTugal.news Quarteira, pá: we volgen de AI en de gadgets van deze zonnige stad en haar buurman, het grote resort Vilamoura, en alles wat binnendrijft uit Loulé, de Algarve en de wereld. Independente, en elk feit heeft zijn bonnetje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
+  "ok": false
+ },
+ "bc681d10176c83a6": {
+  "t": "Het bestand van deze plaats kon bij het bouwen niet worden gelezen; de agent is op de hoogte gebracht. De pagina toont het laatste beeld.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "Het open-sourcemodel voor Europees Portugees, gebouwd door een consortium van vijf universiteiten waaronder Técnico, is bedoeld voor overheidsdiensten en bedrijven. Het werd gepresenteerd in het Técnico Innovation Center in Lissabon.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The open-source model for European Portuguese, built by a co",
+  "ok": false
+ },
+ "bce4171009b6eb45": {
+  "t": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false
+ }
+}

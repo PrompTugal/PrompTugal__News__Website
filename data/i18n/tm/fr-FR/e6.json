@@ -1,10 +1,26 @@
 {
+ "e60af3e61e062de8": {
+  "t": "PrompTugal.news Vila do Bispo : l'actualité de l'IA et de la technologie depuis l'extrême bord de l'Europe, là où l'Atlantique souffle sur Sagres et le cap Saint-Vincent. Indépendant, et chaque fait a une source, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila do Bispo: the AI and technology news fr",
+  "ok": false
+ },
  "e6603d0278995e39": {
   "t": "Ainda há muito por saber, pá. Voici ce que Bragança ne nous a pas encore dit :",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Ainda há muito por saber, pá. Here is what Bragança has not ",
+  "ok": false
+ },
+ "e69ef1c8fee7da75": {
+  "t": "Granter, assistant de financement fondé sur l'IA issu de l'UPTEC, lève 1,6 million d'euros",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Granter, an AI funding assistant from UPTEC, raises 1.6 mill",
   "ok": false
  }
 }

@@ -7,6 +7,22 @@
   "src": "SpaceXAI runs a free two-day AI lab for Portuguese SMEs at F",
   "ok": false
  },
+ "8cbf35676eb8da8f": {
+  "t": "Ó pá, Portimão : des sardines sur le gril, du soleil sur les falaises et, croyez-le ou non, une mairie qui laisse un robot vérifier vos dossiers de construction.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, Portimão: sardines on the grill, sun on the cliffs and",
+  "ok": false
+ },
+ "8cd4dd8460cd02e1": {
+  "t": "À la BTL de Lisbonne (du 12 au 16 mars 2025), le stand municipal de Loulé proposait aux visiteurs une expérience immersive du territoire conçue avec l'intelligence artificielle. L'article ne dit pas qui l'a réalisée.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the BTL in Lisbon (12 to 16 March 2025) the Loulé municip",
+  "ok": false
+ },
  "8cf6a8a6bbd4b38d": {
   "t": "GDG Lagos et la mairie ont organisé le DevFest les 17 et 18 octobre 2025. Le premier jour a touché environ 150 élèves dans les écoles. Le second jour, à l’hôtel de ville, avait pour thème l’IA de la théorie à l’action, avec 120 inscriptions. CoLagos et la Fábrica do Empreendedor étaient partenaires.",
   "by": "translator@PrompTugal.dinis",

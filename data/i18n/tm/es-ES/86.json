@@ -23,12 +23,36 @@
   "src": "Map of the Algarve with its {count} places, each linked to i",
   "ok": false
  },
+ "867d7d84af293cda": {
+  "t": "En la firma de 2021, 23 socios se unieron a un centro de investigación y formación sobre la Dieta Mediterránea en el CEAT. Los planes incluían un centro de terapias digitales con la Universidad Johns Hopkins y el Algarve Biomedical Center, formación en realidad virtual, un huerto urbano y un centro de ciencia Ciência Viva. No se menciona ninguna IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the 2021 signing, 23 partners joined a Mediterranean Diet",
+  "ok": false
+ },
  "86ad806b1bec465d": {
   "t": "Ó pá, Lagoa: sol, vino, una cueva marina con un agujero en el techo y ahora un ayuntamiento que pregunta a los robots por el aire.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86c335ec6671a38b": {
+  "t": "Emprendedores de Portimão se reúnen para hablar de liderazgo, innovación e IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
+  "ok": false
+ },
+ "86db666b9311af7d": {
+  "t": "Campus Tejo de Santarém es un laboratorio de campo en el Tajo, dice el alcalde en una entrevista",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor",
   "ok": false
  },
  "86f95ca1e0fd1015": {

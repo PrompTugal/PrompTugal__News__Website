@@ -1,4 +1,28 @@
 {
+ "39033e9b262f6880": {
+  "t": "Porto, carago : la ville qui travaille pendant que Lisbonne parle, où le pont est de fer, les azulejos sont bleus, et où les machines apprennent à manger une francesinha sans renverser la sauce.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto, carago: the city that works while Lisbon talks, where",
+  "ok": false
+ },
+ "391d157ac2945de1": {
+  "t": "São Brás de Alportel est une petite municipalité de l'intérieur dont l'identité repose sur le patrimoine (le Museu do Traje, l'industrie du liège et désormais la Praça 1914, un espace de patrimoine industriel en plein air) et sur un tissu industriel mené par Globalfire, fabricant de technologies de détection d'incendie décrit comme son premier employeur et exportateur. Son histoire de l'IA est précoce et portée par le secteur public : la mairie est partenaire du projet intercommunal de territoire intelligent Algarve 6.0, gère un espace de coworking et un bureau de l'entrepreneur, et soutient la recherche à l'Université de l'Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "São Brás de Alportel is a small inland municipality whose id",
+  "ok": false
+ },
+ "394a80e5b4139b41": {
+  "t": "São Brás de Alportel est partenaire, avec Olhão, Loulé, Tavira, Vila Real de Santo António et Alcoutim, d'un projet intercommunal financé par le plan national de relance pour mettre en place une plateforme de gestion urbaine et d'autres outils numériques. Le compte rendu ne mentionne pas l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "São Brás de Alportel is a partner, with Olhão, Loulé, Tavira",
+  "ok": false
+ },
  "394f8c88674a2c72": {
   "t": "AP Hotels & Resorts, un groupe qui possède des resorts à Albufeira, adopte la gestion de revenus par IA",
   "by": "translator@PrompTugal.dinis",

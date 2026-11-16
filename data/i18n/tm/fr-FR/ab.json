@@ -1,4 +1,20 @@
 {
+ "ab4fa81bccc51023": {
+  "t": "Un projet de deux ans recensé par le bureau de la recherche de l'université, du 1er septembre 2026 au 31 août 2028, développe des solutions d'IA pour des dispositifs embarqués bon marché et peu énergivores dans l'agriculture et l'élevage, en associant ingénierie, science des données et savoir agricole. Son coût éligible est de 197 754,85 euros, dont 168 091,62 euros pour la part de Portalegre, financé par le FEDER au titre d'ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "Le consortium EdgeOnVespa, mené par l'entreprise Dotlabs avec MORE CoLAB, la fédération nationale des apiculteurs et Anbeit, construit un système d'informatique de périphérie qui utilise l'IA pour repérer et suivre le frelon et déclencher la lutte. Il est cofinancé par le programme NORTE2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
  "abe73eede625cf9c": {
   "t": "Lagos est l’endroit où la communauté tech de l’Algarve se retrouve en personne. La mairie y a coorganisé l’Algarve Tech Hub Summit en novembre 2025, qui a attiré plusieurs centaines de personnes dans un seul hôtel, et elle travaille avec GDG Lagos sur des événements d’IA comme le DevFest Lagos 2025 et le Build with AI de la Journée internationale des droits des femmes. L’espace de coworking municipal CoLagos est complet depuis novembre 2023, et une communauté conçue pour les nomades numériques de la ville existe depuis la pandémie. Nous n’avons trouvé aucune entreprise d’IA dont le siège soit confirmé à Lagos ; le centre de gravité est donc une communauté de bâtisseurs et de télétravailleurs, pas un cluster d’entreprises d’IA.",
   "by": "translator@PrompTugal.dinis",

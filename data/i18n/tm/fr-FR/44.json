@@ -1,10 +1,26 @@
 {
+ "440e8792d0640901": {
+  "t": "L'INESC-ID obtient 27,2 millions d'euros pour un centre d'IA durable à Lisbonne",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "INESC-ID wins 27.2 million euros for a sustainable AI centre",
+  "ok": false
+ },
  "44342bad8e51dde6": {
   "t": "PrompTugal.news Lagos : l’actualité IA et tech de la ville des falaises dorées, où télétravailleurs, un espace de coworking municipal et une communauté Google de développeurs très vivante gardent le wifi au chaud, et tout ce qui arrive de l’Algarve, du Portugal et du monde. Indépendant, et chaque fait vient avec sa source, pois claro.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Lagos: the AI and tech news of the town of t",
+  "ok": false
+ },
+ "44eac4eeb8335e15": {
+  "t": "PrompTugal.news Portugal : l'IA et la technologie au Portugal, en contexte, du Portugal pour l'Europe, avec la carte nationale de l'IA, les programmes nationaux et ce qui descend vers l'Algarve et chaque région. Indépendant, chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portugal: AI and technology in Portugal, in ",
   "ok": false
  }
 }

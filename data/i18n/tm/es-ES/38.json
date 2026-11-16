@@ -1,10 +1,50 @@
 {
+ "3856b4c778bcdc4a": {
+  "t": "PrompTugal.news Portimão: IA y tecnología en Portimão, un ayuntamiento y una empresa de aguas que ponen la IA al servicio público, una incubadora de ciudad inteligente y un instituto privado de educación superior, y lo que llega a Portimão desde el Algarve, Portugal y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portimão: AI and technology in Portimão, a c",
+  "ok": false
+ },
+ "3857de4a8f72f925": {
+  "t": "UNIPS, la Universidade Politécnica de Setúbal como la nombra el periódico, se unió a la red GeSI y DEFIA Portugal liderada por la Universidad de Coimbra, lanzada el 15 de octubre de 2026, que busca el uso responsable de la IA y la alfabetización en IA en la educación superior. La representó un profesor de informática de su escuela de tecnología.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UNIPS, the Universidade Politécnica de Setúbal as the paper ",
+  "ok": false
+ },
  "38726af755a9041b": {
   "t": "**La identidad de este sitio:** {key} en [board/keys.json]({keys}); no se pudo comprobar la firma de `{file}`.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "38818d41208825e0": {
+  "t": "El ayuntamiento está instalando wifi gratuito y 16 monitores de flujo peatonal en el centro histórico, con bolardos y quioscos de información por llegar, como parte de un barrio comercial digital financiado por el PRR, de unos 895 mil euros, dirigido a unos 200 negocios. Los contadores solo dan estadísticas y no captan imagen, vídeo ni sonido. Un mercado en línea ya incluye a más de cien negocios.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council is installing free Wi-Fi and 16 pedestrian flow ",
+  "ok": false
+ },
+ "388e89e55b08d337": {
+  "t": "El ayuntamiento y la Universidad del Algarve se reunieron en abril de 2026 para ampliar su colaboración a la docencia, la formación y la investigación, incluidos vínculos con escuelas y empresas mediante cursos cortos de educación superior. Acordaron trabajar hacia un pacto en los próximos meses. El informe no menciona la IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council and the University of Algarve met in April 2026 ",
+  "ok": false
+ },
+ "38d3e7192f1cc031": {
+  "t": "Aqui no fim do mundo, o vento é que manda, e a IA ainda está a chegar de bicicleta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta",
   "ok": false
  }
 }

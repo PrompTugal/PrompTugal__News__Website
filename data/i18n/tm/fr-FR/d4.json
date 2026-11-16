@@ -1,4 +1,12 @@
 {
+ "d424221c84eed8aa": {
+  "t": "L'histoire de l'IA au Portugal est d'abord une politique nationale, avec un Agenda national de l'IA 2026-2030 doté de plus de 400 millions d'euros, essentiellement de fonds européens. Autour se trouvent un modèle de langage ouvert financé par l'État pour le portugais européen (AMALIA), un supercalcul public géré par la FCT, et une scène de startups qui a bouclé plusieurs tours en 2026, à Porto et à Lisbonne surtout.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal's AI story is national policy first, with a Nationa",
+  "ok": false
+ },
  "d42cb125a90e00b6": {
   "t": "Dans un entretien, le responsable de la filiale portugaise d’Inetum a dit que l’entreprise compte désormais sur des outils d’IA pour dimensionner les projets, si bien que les équipes rétrécissent, tout en insistant sur le fait qu’elle n’a pas remplacé des gens par de l’IA. Bragança est l’un de ses quatre centres de services, gardé pour le lien avec les universités plus que pour le prix.",
   "by": "translator@PrompTugal.dinis",
@@ -31,12 +39,28 @@
   "src": "University of Coimbra opens an AI and Data Science bachelor'",
   "ok": false
  },
+ "d44858530e9136df": {
+  "t": "Les Quartiers commerçants numériques de Loulé et de Quarteira : boutiques en ligne, Wi-Fi, écrans numériques, pas encore d'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Digital Commercial Neighbourhoods of Loulé and Quarteira: on",
+  "ok": false
+ },
  "d45aa1cda74a1860": {
   "t": "Bragança, ó pá : là où le donjon veille sur les châtaigniers, où les hivers mordent et où l’école polytechnique apprend tranquillement à tout le nord à parler aux machines, pendant que le parc scientifique garde un supercalculateur en numérotation rapide.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Bragança, ó pá: where the keep stands guard over the chestnu",
+  "ok": false
+ },
+ "d4c8b7180dbcc316": {
+  "t": "Le Center for Responsible AI, consortium financé sur fonds publics désormais dirigé par Sword Health après la chute d'Unbabel, fait état d'environ 49 millions d'euros d'investissement public et de 27 millions d'investissement privé, et attend 150 millions d'euros de chiffre d'affaires d'ici la fin de 2026. Parmi les partenaires figurent Priberam et NeuralShift. L'article ne permet pas de savoir lesquels travaillent à Lisboa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Center for Responsible AI, a publicly funded consortium ",
   "ok": false
  },
  "d4ec9af2e630ad10": {

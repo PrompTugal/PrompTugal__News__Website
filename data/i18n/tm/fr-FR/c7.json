@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
   "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "ULisboa investira plus de 20 millions d'euros dans deux centres de données dédiés à l'IA, au calcul haute performance et aux données de recherche sécurisées, sur le campus Taguspark de Técnico à Oeiras et à la Faculté des sciences de Lisbonne. Entreprises et startups pourront aussi les utiliser ; l'achèvement est attendu d'ici 2028.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
  }
 }

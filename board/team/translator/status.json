@@ -1,28 +1,29 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "gate unblocked by the conductor (v0.1.1581 live); pt-PT complete, es-ES and fr-FR half done, de-DE and nl-NL in progress by sub-agents",
- "updated": "2026-11-16T07:05Z",
+ "state": "pt-PT, es-ES, fr-FR, de-DE, nl-NL complete for the by-place prose (732 segments each, 3660 entries, all ok:false: no second pass yet)",
+ "updated": "2026-11-16T07:20Z",
  "counts": {
   "segments_by_place_prose": 732,
   "pt-PT": 732,
-  "es-ES": 366,
-  "fr-FR": 366,
-  "de-DE": 0,
-  "nl-NL": 0
+  "es-ES": 732,
+  "fr-FR": 732,
+  "de-DE": 732,
+  "nl-NL": 732
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
   "board/team/translator/tools/tm.mjs: todo / apply / count, never overwrites an entry",
   "data/i18n/glossary.json started: names never translated, pt-PT fixed choices",
   "pt-PT: 140 of 140 by-place segments (places.json copy, each place's voice and mandate) in data/i18n/tm/pt-PT/",
-  "spec read; memory in the spec's entry format (t, by, model, at, src, ok); pt-PT ai_news and gravity by a Sonnet sub-agent, checked for placeholders, URLs, ids"
+  "spec read; memory in the spec's entry format (t, by, model, at, src, ok); pt-PT ai_news and gravity by a Sonnet sub-agent, checked for placeholders, URLs, ids",
+  "gate unblocked by the conductor (kinds i18n-tm, i18n-misc); released v0.1.1583; es-ES, fr-FR, de-DE, nl-NL by eight Sonnet sub-agents, each output checked for ids, placeholders and URLs before it joined the memory"
  ],
  "next": [
-  "release once dev.places@/dev@ add the data/i18n KINDS and schemas (drafts in proposals/)",
-  "es-ES, fr-FR, de-DE, nl-NL for the same segments, a sub-agent each",
-  "second pass: ok:true on a sample per culture",
-  "switch to the derived queue once dev.places@ ships it"
+  "second pass: a different sub-agent marks ok:true on a sample per culture (needs the tool to flip ok)",
+  "new segments: place agents keep editing, re-run `tm.mjs todo <culture>` each wake (segments grew 404 to 732 in two hours)",
+  "the other 16 cultures (pt-BR first), then the derived queue when dev.places@ ships it",
+  "reconcile with dev.places@: the segmenter, the normalisation, the glossary protection of names"
  ],
  "asks": [
   "Dinis: there is no ABP for translator@ yet (board/abp/), so the run report logs my writes to data/i18n/ and board/team/translator/ as outside the grant (observe mode, nothing blocked). abp@ to give it a policy: write data/i18n/**, board/team/translator/**, board/keys.json (own entry), sub-agents per culture, no connector; the OpenRouter key is not needed for translation.",

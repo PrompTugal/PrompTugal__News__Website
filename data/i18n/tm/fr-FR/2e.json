@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
   "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme : l'IA et la tech à Lisboa, avec les universités et l'Unicorn Factory dans le rôle des grands cerveaux, et toute l'actualité qui arrive du Portugal, d'Europe et du monde. Independente, et chaque fait vient avec son reçu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
  }
 }

@@ -1,4 +1,20 @@
 {
+ "cc05e69d3af2435a": {
+  "t": "L'UTAD accueille un séminaire international sur l'IA dans les sciences agricoles",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD hosts an international seminar on AI in agricultural sc",
+  "ok": false
+ },
+ "cc06def6efffea49": {
+  "t": "La plateforme IAedu de la FCT, encore en version bêta, donne aux étudiants, enseignants et chercheurs des établissements participants accès à des modèles d'IA, et la FCT a ajouté quatre modèles de langage en janvier.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The FCT's IAedu platform, still in beta, gives students, tea",
+  "ok": false
+ },
  "cc377b811075864b": {
   "t": "Une journée complète, le 31 octobre 2026 à Faro, organisée par Algarve Evolution avec l’outil d’IA Lovable : crédits gratuits, mentors et jury, et de nombreux participants sans aucune expérience du code ont construit des prototypes fonctionnels.",
   "by": "translator@PrompTugal.dinis",
@@ -29,6 +45,22 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Bragança: AI and technology in Bragança, a n",
+  "ok": false
+ },
+ "cca58c3bf0354fd1": {
+  "t": "Le Portugal approuve son Agenda national de l'IA et un plan d'action jusqu'en 2030",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal approves its National AI Agenda and an action plan ",
+  "ok": false
+ },
+ "cce7313ca509fea5": {
+  "t": "Le polytechnique de Viseu organise une deuxième édition de son cours d'IA générative pour les enseignants du supérieur",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu's polytechnic runs a second edition of its generative ",
   "ok": false
  }
 }

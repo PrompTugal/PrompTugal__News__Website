@@ -1,10 +1,34 @@
 {
+ "120472008971183c": {
+  "t": "Le gouvernement soutient une candidature ibérique à une gigafactory d'IA de l'UE, avec jusqu'à 200 millions d'euros de financement portugais",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Government backs an Iberian bid for an EU AI gigafactory, wi",
+  "ok": false
+ },
+ "122c52805b70f20f": {
+  "t": "Ainda não sabemos tudo, pá. Voici ce que Vila Real ne nous a pas encore dit :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Vila Real has not t",
+  "ok": false
+ },
  "1231747039984131": {
   "t": "Lagos est l’endroit où les techs de l’Algarve se retrouvent en personne, et bem. La mairie y a coorganisé l’Algarve Tech Hub Summit en novembre 2025 et s’associe à GDG Lagos pour des soirées IA et le DevFest. CoLagos, l’espace de coworking de la ville, est plein depuis novembre 2023, et la foule des nomades est là depuis la pandémie. Une vraie entreprise d’IA avec son siège à Lagos ? Nous n’en avons pas encore trouvé ; la force de la ville, ce sont donc ses gens, pas un cluster d’entreprises.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Lagos is where the Algarve's techies turn up in person, and ",
+  "ok": false
+ },
+ "12ab35f946468f33": {
+  "t": "Ó pá, toute une ville tracée à la règle en deux ans, et qui compte maintenant ses piétons comme un marchand de sardines scrupuleux.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, a whole town drawn with a ruler in two years, and now ",
   "ok": false
  },
  "12eab77e7612e4f8": {

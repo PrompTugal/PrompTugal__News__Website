@@ -1,0 +1,18 @@
+{
+ "0b7072ddf36f8a3f": {
+  "t": "Stadtverwaltung gewinnt rund 938000 Euro zur Modernisierung digitaler Dienste",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Council wins about 938,000 euros to modernise digital servic",
+  "ok": false
+ },
+ "0b7d2dab3101ba93": {
+  "t": "Ein Student des Instituto Politécnico de Beja baute während eines Praktikums bei der Stadtverwaltung einen Machine-Learning-Prototyp. Er kombiniert Daten von 10 kommunalen Messstationen mit historischen Wetterdaten, um Klassen des Europäischen Luftqualitätsindex vorherzusagen. Die Stadtverwaltung sagt, er unterstütze ihre Umweltüberwachung und Smart-City-Strategie, und die Lehrenden planen eine wissenschaftliche Veröffentlichung mit Lagoa als Partner.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A student from the Instituto Politécnico de Beja built a mac",
+  "ok": false
+ }
+}

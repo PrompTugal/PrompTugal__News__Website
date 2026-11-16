@@ -1,10 +1,34 @@
 {
+ "bc334eb42672513e": {
+  "t": "En février 2026, le maire a déclaré lors d'une réunion du conseil municipal que la gestion urbaine utilise déjà l'IA pour accélérer les autorisations, et qu'un outil destiné aux habitants lançant une opération d'urbanisme était attendu en mars. Il a dit qu'une cinquantaine d'agents traitent plus de 17 000 demandes et que l'IA devrait aider la mairie à commettre moins d'erreurs.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false
+ },
+ "bc3728b754ac2248": {
+  "t": "PrompTugal.news Quarteira, pá : nous suivons l'IA et les gadgets de cette ville ensoleillée et de sa grande voisine de villégiature Vilamoura, et tout ce qui arrive de Loulé, de l'Algarve et du monde. Indépendant, et chaque fait a son reçu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
+  "ok": false
+ },
  "bc681d10176c83a6": {
   "t": "Le fichier de ce lieu n’a pas pu être lu à la construction ; son agent est prévenu. La page affiche la dernière image.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "Le modèle open source pour le portugais européen, conçu par un consortium de cinq universités dont Técnico, s'adresse aux services publics et aux entreprises. Il a été présenté au Técnico Innovation Center de Lisbonne.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The open-source model for European Portuguese, built by a co",
   "ok": false
  },
  "bce4171009b6eb45": {

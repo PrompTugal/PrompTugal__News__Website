@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
   "ok": false
+ },
+ "ac813a3161253af4": {
+  "t": "La nueva Agencia de Investigación e Innovación de Portugal (AI²) debía empezar el 1 de enero de 2026",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal's new Agency for Research and Innovation (AI²) was ",
+  "ok": false
+ },
+ "acf78f0164d5f4ca": {
+  "t": "Acceso gratuito a supercomputación (incluido MareNostrum 5), mentoría y formación para startups y pymes de IA registradas en la UE con número fiscal portugués, del 5 de octubre de 2026 al 30 de marzo de 2027. Las solicitudes se cerraron el 15 de septiembre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Free supercomputing access (including MareNostrum 5), mentor",
+  "ok": false
  }
 }

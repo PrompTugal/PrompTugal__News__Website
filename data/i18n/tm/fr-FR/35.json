@@ -1,4 +1,12 @@
 {
+ "3513a62a97aaf4b7": {
+  "t": "Lisboa, pá : sept collines, un tramway très occupé, et plus de conférences sur l'IA au kilomètre carré que de pastéis de nata à Belém.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisboa, pá: seven hills, one very busy tram, and more AI con",
+  "ok": false
+ },
  "3535afc1b30d539d": {
   "t": "Le First Venture Lab d’AlgarveSTP retient 12 entreprises, avec l’adoption de l’IA au menu du mentorat",
   "by": "translator@PrompTugal.dinis",
@@ -7,12 +15,36 @@
   "src": "First Venture Lab by AlgarveSTP picks 12 companies, with AI ",
   "ok": false
  },
+ "353b7c6b8e2138d0": {
+  "t": "De l'IA et des robots pour les agrumes : le projet ATTENTIA, avec l'Université de l'Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and robots for citrus: the ATTENTIA project, with the Uni",
+  "ok": false
+ },
+ "35683239cf1272c2": {
+  "t": "Ici, l'IA vit plus dans les bureaux que dans les garages, meu. La câmara dit avoir acheté des outils d'IA pour démêler les dossiers d'urbanisme, NERA est installée en ville pour apprendre aux entreprises à s'en servir, et avec Faro la mairie lance un appel d'offres pour un centre technologique à l'Estádio Algarve qui mentionne l'IA. Une seule vraie entreprise d'IA pour l'instant, SPIC, donc la carte est courte, et honnête là-dessus.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here AI lives more in offices than in garages, meu. The câma",
+  "ok": false
+ },
  "356ea07c73f9328a": {
   "t": "PrompTugal.news Algarve : IA et technologie dans tout l’Algarve, de Sagres à Vila Real, et ce qui nous arrive du Portugal et du monde. Indépendant, et chaque fait a sa fonte.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Algarve: AI and technology across the whole ",
+  "ok": false
+ },
+ "357b89658091781d": {
+  "t": "La mairie a signé un protocole avec l'UAlg pour un nouveau campus à Barranco do Rodrigo, sur un terrain et avec un projet fournis par la mairie. Ses axes sont le numérique, les données et l'intelligence artificielle, avec un achèvement visé pour 2028 et des cours à partir de 2029, pour un total estimé à environ 15 millions d'euros qui n'était pas entièrement garanti à l'époque. L'UAlg comptait alors plus de 400 étudiants à Portimão et vise environ 1 500 après trois ans.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council signed a protocol with UAlg for a new campus at ",
   "ok": false
  }
 }

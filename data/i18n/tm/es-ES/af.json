@@ -1,10 +1,26 @@
 {
+ "af014c36595f1b1d": {
+  "t": "La actividad de IA de Portalegre está en su institución de educación superior, que en su propio sitio se presenta ahora como Universidade Politécnica de Portalegre, cuya oficina de investigación enumera dos proyectos de IA que empiezan en septiembre de 2026, uno para agricultura y ganadería y otro para la salud mental de los estudiantes. A su alrededor hay un centro de innovación de Kyndryl creado con el politécnico en 2023, una asociación empresarial que gestiona una incubadora y un nuevo clúster de tecnología de defensa y de doble uso que incluye la IA entre sus intereses. Las noticias del propio ayuntamiento no muestran ningún uso de IA, así que la investigación, los socios industriales y la formación regional, y no el ayuntamiento, son el centro de gravedad de Portalegre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre's AI activity sits in its higher education instit",
+  "ok": false
+ },
  "afb2831eb2361f71": {
   "t": "El Radar Social de Alcoutim cartografía a las personas en riesgo con un sistema de georreferenciación",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Alcoutim's Radar Social maps people at risk with a georefere",
+  "ok": false
+ },
+ "affdf3bdd317ab79": {
+  "t": "Odiana, que representa al Baixo Guadiana, es el socio portugués de Agrosocial Plus, un proyecto de España y Portugal de 2,06 millones de euros lanzado en Córdoba los días 22 y 23 de septiembre de 2026. Sus Living Labs prevén probar soluciones como la inteligencia artificial, el Internet de las cosas y el riego inteligente. El artículo no dice si Vila Real de Santo António participa, aunque la página está etiquetada con la ciudad.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Odiana, which represents the Baixo Guadiana, is the Portugue",
   "ok": false
  }
 }

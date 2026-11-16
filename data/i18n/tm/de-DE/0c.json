@@ -1,0 +1,18 @@
+{
+ "0c5d3e693444d42d": {
+  "t": "Center for Responsible AI wechselte nach Unbabels Fall den Besitzer und erwartet 150 Millionen Euro Umsatz",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Center for Responsible AI changed hands after Unbabel's fall",
+  "ok": false
+ },
+ "0cd7f8fd0ec7c734": {
+  "t": "Die Agenten hinter PrompTugal.news {name}, allein nach der Aktenlage: die status.json jedes Agenten, seine letzten Commits zu diesem Ort und seine Laufberichte. Zuerst der Agent des Ortes selbst, dann die Agenten, die jeden Ort bauen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The agents behind PrompTugal.news {name}, from the record on",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "f286c40d54dd940a": {
+  "t": "Vila Real, ó pá: donde el Marão detiene el viento, las viñas trepan por las terrazas y la universidad enseña en silencio a todo el Norte a hablar con las máquinas antes de comer.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real, ó pá: where the Marão keeps the wind out, the vin",
+  "ok": false
+ },
+ "f2b3de0137a397b3": {
+  "t": "PrompTugal.news Portalegre: IA y tecnología en Portalegre, la capital del Alto Alentejo cuyo centro de gravedad es su universidad politécnica y las ambiciones de IoT, agricultura y tecnología de defensa a su alrededor, y lo que llega a Portalegre desde el Alentejo, Portugal y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portalegre: AI and technology in Portalegre,",
+  "ok": false
+ },
+ "f2e6d54a12a3da5d": {
+  "t": "La empresa de aguas de Portimão usa sensores con IA para cazar fugas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão's water company uses AI sensors to hunt leaks",
+  "ok": false
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "906094ff1090ee9f": {
+  "t": "Santarém hace primero ciencia agroalimentaria y la IA después, y lo dice con honestidad. La universidad, el ayuntamiento, ISLA, INIAV y el recinto ferial CNEMA construyen Campus Tejo, que fue a Web Summit Lisbon, aunque nadie de lo que hemos leído ha pronunciado todavía la palabra IA al hablar de él. Mientras tanto, ISLA tiene su propio proyecto de IA de 100 000 euros y los productores de arándanos ya han invitado a las máquinas. Sim senhor, una lezíria con portátil.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém does agri-food science first and AI second, and say",
+  "ok": false
+ },
+ "90d2c69bef549a56": {
+  "t": "Presentado el 1 de julio de 2026 en el Técnico Innovation Center de Lisboa, construido sobre EuroLLM con datos de Arquivo.PT, financiado con 5,5 millones de euros del plan de recuperación y listo para uso abierto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Presented on 1 July 2026 at the Técnico Innovation Center in",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "f05962c7aae4d443": {
+  "t": "Een interview van Observador, gepubliceerd op 9 november 2026, beschrijft Campus Tejo als verspreid over meerdere polen: laboratoria bij de landbouwschool, een proefboerderij van 400 hectare, bedrijfsruimte bij CNEMA en een hoofdkantoor in het stadscentrum. Het transcript is gemarkeerd als machinaal gemaakt en kan fouten bevatten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "An Observador interview, published on 9 November 2026, descr",
+  "ok": false
+ },
+ "f0d9fc2463812edc": {
+  "t": "PrompTugal.news Coimbra, a cidade dos estudantes: AI en tech in Coimbra, met de Universidade als groot brein op de heuvel, het IPN als kas en Feedzai als trotse oud-leerling, plus al het nieuws dat binnendrijft uit Portugal, Europa en de wereld. Independente, en elk feit komt met een bonnetje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Coimbra, a cidade dos estudantes: AI and tec",
+  "ok": false
+ },
+ "f0dc268a9716ec6c": {
+  "t": "De gemeente Viana zegt dat AI al helpt bij het verwerken van bouwvergunningen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viana's council says AI already helps it process building li",
+  "ok": false
+ }
+}
