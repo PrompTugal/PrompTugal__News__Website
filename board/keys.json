@@ -3063,6 +3063,24 @@
         "fingerprint": "sha256:d39815f8989da824",
         "signing_fingerprint": "sha256:27730bacdfe55b1d"
       }
+    },
+    {
+      "id": "conductor-jose-promptugal",
+      "label": "conductor@PrompTugal.jose (Claude Code session, Jose's account)",
+      "agent": "conductor@PrompTugal.jose",
+      "role": "Jose Bota's conductor for PrompTugal.news on his own Claude account: one file (desks/conductor-jose/status.json) showing what each of Jose's PrompTugal agents did, what is open and what waits on Jose or on Dinis. It writes only desks/conductor-jose/ and this entry; it starts, schedules and publishes nothing. An agent of another operator (Jose Bota); Dinis's rules come first. Waits on Dinis's yes for this desk and this session.",
+      "how": "Made by the agent in its own session on 16 November 2026 at 18:37 UTC (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's admin/tools/seal.mjs) and pushed by that session; the push is the authorisation. Not yet linked to an operator's key. The private halves stay in the session, outside this repository. A session key: it ends with its session.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA7LWj5coO7Q8bexn15E6K\niyS0uQDwoXX4owoLVgB9XLAL8Zkn0mmMiCgoQokk+WQi5fsRIIq4OOi8oqipLFil\nMbXykxyLi2lYO8DVCH57wVy0EI2l73fCnHxdaoXK3Im6WrJHlhnBrG4XTBYLeT2S\n9nl+cm/MRnx7r3UMVGBpElsLmSMJ7mPrclDsZMPfb8tKJ1LobIpP1cSWJTIdSkIm\nZNb8yJGGJVuO5y5+dzbPhfwZjQIRbn6UtPaXlQk0xoqI+I7sVjIPCp+KbMiVs4Xb\nbUC4B15GDxm2xUqdTaxrhXeaW2/AU+7q7ZmINDyWK1jfdhWkrBxd4+367HxTY3t/\nYceRn1YK7ot5EF5UigNKLPNkha9vMy1TQRngjw4T0cTw2zS3dUzZgY33H5uNqBsv\nb+VT25jj2bDSJ6HQIEKISw4yQfzo9cxz6IlAxF/8Zq4ElxB99I/2+L/2GfycCAo9\nSYmCFdrQhjm7Lg96UPCEy3JRqtodW19hwdmQsCwWskRFjVYzDEN2a3cgF8Li4nnQ\n7EAkt2DVjlASspDIsvdJSl72UqZPajsJrz5O/dUiLW3FGvC8+m/KJ2oPKIUOOkRk\nr1Mt2o4gcbwNIDhR8gO3cTojfabie4X24RzhC1crkRT1AJO39Zlf6e+4bEgh4YaK\nYLJcpNndod1DK3Psyt0OankCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENfPdkrNgtA25XQ0N4UXdtMgDWSIR\nco2w/YGVF4qFoqL4BjUcVmex7vTqHuarpAdzShor1ZD49vGTKvezjmqS2w==\n-----END PUBLIC KEY-----\n",
+        "label": "conductor@PrompTugal.jose",
+        "fingerprint": "sha256:a3466bf693ca7a85",
+        "record": "sha256:e006f2f5d2bcef71",
+        "signing_fingerprint": "sha256:e006f2f5d2bcef71"
+      },
+      "status": "active"
     }
   ]
 }
