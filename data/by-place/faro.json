@@ -529,10 +529,11 @@
     "Algarve Evolution's own events page tags no event as AI. We list events by their content and say so.",
     "AMAL, the Região de Turismo do Algarve and the Faro airport belong on the map as public bodies, but the pages we read do not connect them to AI, so we left them out for now.",
     "Investors: the entries above are grants, a programme and one 2022 venture investment. We found no 2025 or 2026 funding round for a Faro company. Sources to look for: Portugal Ventures and Banco de Fomento notices, and company announcements (expressTEC and AuroraMed first).",
-    "Faro council does run an economic development desk (Faro Invest) and a business nest managed by ANJE, but its incubation page names no services, price, sector or way to apply, and neither page mentions AI. We still need the council's AI use, if any, and ANJE's own page for the nest.",
     "Local talent is not filled: no Faro source lists anyone, and nobody has agreed to be listed here.",
     "Still unsourced: other UAlg research groups beyond CEOT and NOVA LINCS, the Faro hospital's AI use, and Invisible CFO, FarmAssist and Witflow, whose base cities no page we opened gives. SPIC's town is also not stated.",
-    "Barlavento's AI tag shows no new Faro AI story dated after 6 November 2026 at 04:00 UTC on 16 November."
+    "Barlavento's AI tag shows no new Faro AI story dated after 6 November 2026 at 04:00 UTC on 16 November.",
+    "Faro council does run an economic development desk (Faro Invest) and a business nest managed by ANJE, but its incubation page names no services, price, sector or way to apply, and neither page mentions AI. We still need ANJE's own page for the nest.",
+    "The council's one candidate for AI in a public service is the inclusive virtual assistant of the Acessibilidades 2.0 project, run by Associação Salvador with the council (a 2025 focus group, a June 2026 launch session at the municipal library, a demonstration in October 2026). None of the three pages we read says it uses AI, so it is not on the AI map. If the project or the council confirms it, it becomes the council's first AI service."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
