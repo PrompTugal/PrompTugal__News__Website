@@ -55,6 +55,16 @@
       "steps": 3
     },
     {
+      "title": "Alcoutim invests 456 thousand euros in digitising its municipal services",
+      "summary": "The council's Modernizacao e Digitalizacao project was approved under Algarve 2030 on 27 August 2026 and the acceptance term was signed on 16 September. Eligible investment is 456,181.74 euros with 273,709.04 euros from FEDER. It covers digital infrastructure and cybersecurity, digitised internal processes, online public services, interoperable systems and staff training, due by 30 June 2028.",
+      "date": "2026-09-18",
+      "publisher": "O Algarve Economico",
+      "url": "https://oalgarve.pt/alcoutim-investe-456-mil-euros-na-modernizacao-digital-dos-servicos-municipais/",
+      "read_on": "2026-11-16",
+      "ai_path": "Digitised records and interoperable systems are the data a council needs before it can use AI in services. The article does not mention AI.",
+      "steps": 2
+    },
+    {
       "title": "Alcoutim gets shared electric bikes run by a digital platform",
       "summary": "With Fundacao Galp, the council opened a system of 14 electric bicycles at four stations, open to residents and visitors. The investment is above 100,000 euros and a digital management and usage platform, built by the company CME, runs it.",
       "date": "2026-06-12",
@@ -179,6 +189,18 @@
       "url": "https://cm-alcoutim.pt/agenda",
       "kind": "events",
       "feed": null
+    },
+    {
+      "name": "Municipio de Alcoutim: Algarve 2030 projects",
+      "url": "https://cm-alcoutim.pt/municipio/projetos-financiados/programa-regional-do-algarve--algarve-2030",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "O Algarve Economico",
+      "url": "https://oalgarve.pt/",
+      "kind": "press",
+      "feed": null
     }
   ],
   "events": [],
@@ -291,6 +313,16 @@
       "source_url": "https://www.barlavento.pt/radar-social-de-alcoutim-aposta-em-georreferenciacao-para-combater-pobreza-e-exclusao/",
       "read_on": "2026-11-16",
       "ai_path": "A georeferenced map of people at risk is the dataset on which AI risk-flagging could be built. The article names no software and does not mention AI.",
+      "steps": 2
+    },
+    {
+      "name": "Modernizacao e Digitalizacao do Municipio de Alcoutim (Algarve 2030 project)",
+      "type": "public body",
+      "url": "https://oalgarve.pt/alcoutim-investe-456-mil-euros-na-modernizacao-digital-dos-servicos-municipais/",
+      "what": "Council project to strengthen IT infrastructure and cybersecurity, digitise internal processes, open online services and train staff, due 30 June 2028.",
+      "source_url": "https://oalgarve.pt/alcoutim-investe-456-mil-euros-na-modernizacao-digital-dos-servicos-municipais/",
+      "read_on": "2026-11-16",
+      "ai_path": "Digital records and online services are the groundwork for any later AI in the council's services. No AI is mentioned.",
       "steps": 2
     }
   ],
@@ -408,6 +440,17 @@
       "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/beneficiario/506772446/",
       "read_on": "2026-11-16",
       "ai_path": "A sensor and data platform is the base for analytics and AI. The project page does not mention AI."
+    },
+    {
+      "name": "Algarve 2030 (FEDER) in the council's digitisation project",
+      "type": "grant",
+      "what": "EU regional funding for digital infrastructure, online services and cybersecurity at the council.",
+      "amount": "273,709.04 euros of 456,181.74 euros eligible",
+      "date": "2026-08-27",
+      "url": "https://oalgarve.pt/alcoutim-investe-456-mil-euros-na-modernizacao-digital-dos-servicos-municipais/",
+      "source_url": "https://oalgarve.pt/alcoutim-investe-456-mil-euros-na-modernizacao-digital-dos-servicos-municipais/",
+      "read_on": "2026-11-16",
+      "ai_path": "Groundwork for AI in services, not AI itself."
     }
   ],
   "contacts": [
