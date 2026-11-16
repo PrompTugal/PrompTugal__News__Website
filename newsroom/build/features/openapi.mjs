@@ -295,11 +295,11 @@ function dashboard(ctx, places, pathOf) {
     let rows = []
     try { rows = places.map(r => ({ r, q: quality(ctx, r) })) } catch { rows = [] }
     const bar = v => `<span class="ds-bar" style="--v:${Math.max(0, Math.min(100, v))}"><span>${v}</span></span>`
-    const md = fillW(P.dash_intro, { all: ctx.link(rel, 'api/v1/places/quality.json') }) + '\n\n' +
+    const md = fillW(P.dash_intro, { api: ctx.link(rel, 'api/swagger/index.html') }) + '\n\n' +
         `## ${P.dash_places_h} {#places}\n\n{.ds-table}\n${P.dash_head}\n|---|---|---|---|---|---|---|---|---|\n` +
-        rows.sort((a, b) => b.q.score.value - a.q.score.value).map(({ r, q }) => `| [${cell(r.name)}](${ctx.link(rel, `${pathOf(r.id)}index.html`)}) | DSBAR${q.score.value} | ${q.counts.facts} | ${pct(q.coverage.overall)} | ${pct(q.coverage.with_source)} | ${q.freshness.median_read_age_days === null ? 'n/a' : fillW(P.days, { n: q.freshness.median_read_age_days })} | ${q.sources.distinct_hosts} | ${pct(q.sources.top_host_share)} | [quality.json](${ctx.link(rel, `api/v1/places/${r.id}/quality.json`)}) · [Swagger](${ctx.link(rel, `${pathOf(r.id)}api/index.html`)}) |`).join('\n') +
+        rows.sort((a, b) => b.q.score.value - a.q.score.value).map(({ r, q }) => `| [${cell(r.name)}](${ctx.link(rel, `${pathOf(r.id)}index.html`)}) | DSBAR${q.score.value} | ${q.counts.facts} | ${pct(q.coverage.overall)} | ${pct(q.coverage.with_source)} | ${q.freshness.median_read_age_days === null ? 'n/a' : fillW(P.days, { n: q.freshness.median_read_age_days })} | ${q.sources.distinct_hosts} | ${pct(q.sources.top_host_share)} | [API](${ctx.link(rel, `${pathOf(r.id)}api/index.html`)}) |`).join('\n') +
         `\n\n## ${P.dash_method_h} {#method}\n\n${Object.entries(Wd.method).map(([k, v]) => `- **${k}:** ${cell(v)}`).join('\n')}\n\n` +
-        `## ${P.dash_audit_h} {#audit}\n\n` + fillW(P.dash_audit, { audit: ctx.link(rel, 'api/v1/datasci/audit.json'), swagger: ctx.link(rel, 'api/swagger/index.html') }) + '\n'
+        `## ${P.dash_audit_h} {#audit}\n\n` + fillW(P.dash_audit, { swagger: ctx.link(rel, 'api/swagger/index.html') }) + '\n'
     return { rel, title: P.dash_title, type: 'site', layout: 'wide', src: 'newsroom/build/features/datasci-places.mjs', summary: P.dash_summary, crumbs: [['api/index.html', 'The data, as JSON'], [null, 'Data quality']], assets: { css: ['assets/datasci/swagger-page.css'] },
         postHtml: html => html.replace(/DSBAR(\d+)/g, (m, v) => bar(+v)), md, twinMd: md.replace(/DSBAR(\d+)/g, '$1') }
 }
@@ -313,7 +313,7 @@ export function decorate(page, ctx) {
     page.md += `
 
 {.bp-note .ds-api}
-` + fillW(words(ctx).pages.note, { swagger: ctx.link(page.rel, `${p.path}api/index.html`), index: ctx.link(page.rel, `api/v1/places/${p.id}/index.json`), page: ctx.link(page.rel, `api/v1/places/${p.id}/page.json`), spec: ctx.link(page.rel, `api/v1/places/${p.id}/openapi.json`), quality: ctx.link(page.rel, `api/v1/places/${p.id}/quality.json`) }) + '\n'
+` + fillW(words(ctx).pages.note, { swagger: ctx.link(page.rel, `${p.path}api/index.html`) }) + '\n'
 }
 
 export const llms = ctx => fillW(words(ctx).pages.llms, { base: ctx.BASE })

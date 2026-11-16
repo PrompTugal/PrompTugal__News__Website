@@ -1,0 +1,77 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "datasci.places@PrompTugal.dinis",
+ "run": "2026-11-16T12-47-52Z",
+ "started": "2026-11-16T12:47:52.932Z",
+ "ended": "2026-11-16T13:20:28Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T13:06:37.243Z",
+   "chars": 721,
+   "sha256": "7707e0d776a481a6",
+   "head": "<task-notification>\n<task-id>bwc0rc44k</task-id>\n<tool-use-id>toolu_019z6tLmgGZGsQuekrBaXuKy</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T13:15:18.203Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "release": 2,
+   "git": 3,
+   "other": 1,
+   "shell": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "3c5b3b0e3",
+    "subject": "datasci.places@PrompTugal.dinis: distance to the beat in nearby.json; today's debrief; the collector and inbox drain asked of Dinis",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 8,
+  "in_mandate": 8,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

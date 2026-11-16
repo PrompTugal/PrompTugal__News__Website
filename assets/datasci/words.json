@@ -110,14 +110,14 @@
     "loading": "Loading Swagger UI on",
     "dash_title": "Data quality, place by place",
     "dash_summary": "Coverage, freshness and sources per fact for Portugal, the Algarve and every town, computed at each build and served as JSON first.",
-    "dash_intro": "What PrompTugal.news knows about each place, measured: how complete each fact is, how fresh the reads are, and how many independent sources the facts rest on. Every number is computed at each build from the place agents' files and served as JSON first: [api/v1/places/quality.json]({all}) for all the places, and `api/v1/places/<id>/quality.json` for one. This page draws that JSON; nothing here exists only in HTML.",
+    "dash_intro": "What PrompTugal.news knows about each place, measured: how complete each fact is, how fresh the reads are, and how many independent sources the facts rest on. Every number is computed at each build from the place agents' files and served as data first (on [the data API page]({api})); this page draws those numbers.",
     "dash_places_h": "The places",
-    "dash_head": "| Place | Score | Facts | Coverage | With a source | Median read age | Hosts | Top host share | API |",
+    "dash_head": "| Place | Score | Facts | Coverage | With a source | Median read age | Hosts | Top host share | Data |",
     "dash_method_h": "How it is measured",
     "dash_audit_h": "The JSON-first audit",
-    "dash_audit": "For every kind of page, how many of the sources it links to some served JSON file holds: [api/v1/datasci/audit.json]({audit}). For the by-place pages the rule is strict: the gate fails a build where a place page shows a source its own endpoints do not hold. The specs: [Swagger]({swagger}).",
+    "dash_audit": "For every kind of page, how many of the sources it links to some served data file holds; for the place pages the rule is strict, and the build fails where a place page shows a source its own data does not hold. Every call, with its schema and an example: [the data API page]({swagger}).",
     "days": "{n} days",
-    "note": "**This page as data:** every fact on it is a GET call. [Try them in Swagger]({swagger}), or read [the REST root]({index}), [the page as JSON]({page}), [the OpenAPI document]({spec}) and [its data quality]({quality}).",
+    "note": "**This page as data:** every fact on it can be fetched as a GET call. [See them and try them on the data API page]({swagger}).",
     "llms": "## The OpenAPI specs\n- [api/v1/openapi.json]({base}api/v1/openapi.json): every file this site serves as a GET operation (OpenAPI 3.1), generated at each build; try it at [api/swagger/]({base}api/swagger/index.html).\n- api/v1/places/<id>/openapi.json: one per place (Portugal, the Algarve, each town), each with its Swagger page at <place>/api/.\n- [api/v1/datasci/audit.json]({base}api/v1/datasci/audit.json): the JSON-first audit; [datasci/]({base}datasci/index.html): the data quality dashboard.\n\n"
   }
 }
