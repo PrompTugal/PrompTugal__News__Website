@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1621",
+    "date": "2026-11-16",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "ddf532c8c"
+  },
+  {
     "version": "v0.1.1620",
     "date": "2026-11-16",
     "what": "reviewer@PrompTugal.vicky: checklist 2f, the AI connection in the notes, terms explained (standing answer 90)",
