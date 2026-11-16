@@ -1,0 +1,20 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "What PrompTugal.news's agents cost (data/billing/agent-costs.json)",
+ "description": "Written by accountant@PrompTugal.dinis (board/team/accountant/tools/costs_pages.py) from board/budgets.json. Every dollar is API-equivalent: a comparison at API prices, not money spent.",
+ "type": "object",
+ "required": ["about", "day", "team", "agents", "places", "source"],
+ "properties": {
+  "about": {"type": "string"},
+  "day": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+  "read_at": {"type": ["string", "null"]},
+  "team": {"type": "object", "required": ["line_per_day", "today"], "properties": {"line_per_day": {"type": "number"}, "today": {"type": "number"}}},
+  "agents": {"type": "array", "items": {"type": "object", "required": ["agent", "line_per_day", "today", "used", "state"], "properties": {
+   "agent": {"type": "string"}, "line_per_day": {"type": "number"}, "today": {"type": "number"}, "used": {"type": "number"},
+   "state": {"type": "string"}, "read_at": {"type": ["string", "null"]}, "session_total_account_A": {"type": ["number", "null"]}}}},
+  "places": {"type": "array", "items": {"type": "object", "required": ["id", "name", "path", "costs_page"], "properties": {
+   "id": {"type": "string"}, "name": {"type": "string"}, "kind": {"type": "string"}, "parent": {"type": "string"}, "path": {"type": "string"},
+   "agent": {"type": ["string", "null"]}, "today": {"type": "number"}, "line_per_day": {"type": ["number", "null"]}, "session_total": {"type": ["number", "null"]}, "costs_page": {"type": "string"}}}},
+  "source": {"type": "string"}
+ }
+}

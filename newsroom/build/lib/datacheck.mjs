@@ -65,6 +65,7 @@ export const KINDS = [
     [/^data\/billing\/prices\.json$/, 'billing-prices'],
     [/^data\/billing\/topup\.json$/, 'billing-topup'],
     [/^data\/billing\/vault\.json$/, 'billing-vault'],
+    [/^data\/billing\/agent-costs\.json$/, 'billing-agent-costs'],
 ]
 
 export function checkData() {

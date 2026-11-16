@@ -1,0 +1,778 @@
+{
+ "about": "What PrompTugal.news's agents cost, kept by accountant@PrompTugal.dinis from board/budgets.json. Every dollar is API-equivalent: a comparison at API prices, not money spent (the team runs on Claude subscriptions). The real money is the OpenRouter credit and any session paid on a card. Lines are a measure, never a stop (Dinis, 6 November 2026).",
+ "day": "2026-11-16",
+ "read_at": "2026-11-16T00:50Z",
+ "team": {
+  "line_per_day": 900,
+  "today": 0
+ },
+ "yesterday": {
+  "day": "2026-11-12 to 2026-11-15",
+  "file": "board/team/accountant/ledger/2026-11-12-to-15-close.json",
+  "total": {
+   "known_at_least": 602.17
+  }
+ },
+ "real_limits": {
+  "read_at": "2026-11-16T00:50Z",
+  "subscription": {
+   "A": {
+    "rate_limit_type": "seven_day",
+    "status": "allowed in every session read at 00:48 on 16 November",
+    "resets": "2026-11-22T20:00Z"
+   },
+   "B": {
+    "status": "not read this wake",
+    "source": "conductor.b@'s ledger at 2026-11-12T09:50Z"
+   }
+  },
+  "openrouter": {
+   "credit_usd": "exhausted: the shared key returns 402 (out of credit) since about 05:00 to 05:51 on 11 November (conductor@ and security@ report it; social.watch@web-summit.dinis stalled)",
+   "state": "the hard stop is the credit, real money: a top-up is Dinis's; the summit plan (openrouter.summit_plan, 250 USD) waits on his keys"
+  }
+ },
+ "agents": [
+  {
+   "agent": "conductor@PrompTugal.dinis",
+   "line_per_day": 50,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 223.81
+  },
+  {
+   "agent": "synthetic@PrompTugal.dinis",
+   "line_per_day": 60,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "designer@PrompTugal.dinis",
+   "line_per_day": 50,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "dev@PrompTugal.dinis",
+   "line_per_day": 60,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "journalist@PrompTugal.dinis",
+   "line_per_day": 35,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "ontologist@PrompTugal.dinis",
+   "line_per_day": 30,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "outreach@PrompTugal.dinis",
+   "line_per_day": 20,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "observability@PrompTugal.dinis",
+   "line_per_day": 30,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 197.73
+  },
+  {
+   "agent": "historian@PrompTugal.dinis",
+   "line_per_day": 15,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "correspondent@PrompTugal.dinis",
+   "line_per_day": 40,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "security@PrompTugal.dinis",
+   "line_per_day": 30,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 244.83
+  },
+  {
+   "agent": "sherpa@PrompTugal.dinis",
+   "line_per_day": 25,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "librarian@PrompTugal.dinis",
+   "line_per_day": 15,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "devops@PrompTugal.dinis",
+   "line_per_day": 20,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "accountant@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 146.9
+  },
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "line_per_day": 25,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 79.87
+  },
+  {
+   "agent": "customers@PrompTugal.dinis",
+   "line_per_day": 15,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "researcher@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "backup@PrompTugal.dinis",
+   "line_per_day": 5,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "dev.search@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "dev.pages@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "dev.graphs@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "dev.portugal@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "dev.data@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "dev.verify@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "designer.experiments@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "investors@PrompTugal.dinis",
+   "line_per_day": 15,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": null
+  },
+  {
+   "agent": "dev.places@PrompTugal.dinis",
+   "line_per_day": 30,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 19.25
+  },
+  {
+   "agent": "designer.places@PrompTugal.dinis",
+   "line_per_day": 30,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 9.76
+  },
+  {
+   "agent": "ios.places@PrompTugal.dinis",
+   "line_per_day": 30,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 20.8
+  },
+  {
+   "agent": "viz.places@PrompTugal.dinis",
+   "line_per_day": 30,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 11.99
+  },
+  {
+   "agent": "data.places@PrompTugal.dinis",
+   "line_per_day": 30,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 18.9
+  },
+  {
+   "agent": "datasci.places@PrompTugal.dinis",
+   "line_per_day": 30,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 9.85
+  },
+  {
+   "agent": "detective.places@PrompTugal.dinis",
+   "line_per_day": 10,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.04
+  },
+  {
+   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.38
+  },
+  {
+   "agent": "place.alcoutim@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.65
+  },
+  {
+   "agent": "place.castro-marim@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.36
+  },
+  {
+   "agent": "place.vila-do-bispo@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.39
+  },
+  {
+   "agent": "place.aljezur@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.98
+  },
+  {
+   "agent": "place.monchique@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.02
+  },
+  {
+   "agent": "place.lagoa@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.86
+  },
+  {
+   "agent": "place.albufeira@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.5
+  },
+  {
+   "agent": "place.olhao@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.66
+  },
+  {
+   "agent": "place.lagos@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.33
+  },
+  {
+   "agent": "place.portimao@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.87
+  },
+  {
+   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.0
+  },
+  {
+   "agent": "place.tavira@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.79
+  },
+  {
+   "agent": "place.silves@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.3
+  },
+  {
+   "agent": "place.quarteira@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.54
+  },
+  {
+   "agent": "place.loule@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.66
+  },
+  {
+   "agent": "place.faro@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.47
+  },
+  {
+   "agent": "place.algarve@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 2.93
+  },
+  {
+   "agent": "place.portugal@PrompTugal.dinis",
+   "line_per_day": 8,
+   "today": 0,
+   "used": 0.0,
+   "state": "ok",
+   "read_at": "2026-11-16T00:50Z",
+   "session_total_account_A": 1.71
+  }
+ ],
+ "places": [
+  {
+   "id": "portugal",
+   "name": "Portugal",
+   "kind": "country",
+   "parent": "",
+   "path": "portugal/",
+   "agent": "place.portugal@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.71,
+   "costs_page": "portugal/costs/"
+  },
+  {
+   "id": "algarve",
+   "name": "The Algarve",
+   "kind": "region",
+   "parent": "portugal",
+   "path": "algarve/",
+   "agent": "place.algarve@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 2.93,
+   "costs_page": "algarve/costs/"
+  },
+  {
+   "id": "faro",
+   "name": "Faro",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/faro/",
+   "agent": "place.faro@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 2.47,
+   "costs_page": "algarve/faro/costs/"
+  },
+  {
+   "id": "loule",
+   "name": "Loulé",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/loule/",
+   "agent": "place.loule@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 2.66,
+   "costs_page": "algarve/loule/costs/"
+  },
+  {
+   "id": "quarteira",
+   "name": "Quarteira",
+   "kind": "city",
+   "parent": "loule",
+   "path": "algarve/quarteira/",
+   "agent": "place.quarteira@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 2.54,
+   "costs_page": "algarve/quarteira/costs/"
+  },
+  {
+   "id": "silves",
+   "name": "Silves",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/silves/",
+   "agent": "place.silves@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 2.3,
+   "costs_page": "algarve/silves/costs/"
+  },
+  {
+   "id": "tavira",
+   "name": "Tavira",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/tavira/",
+   "agent": "place.tavira@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.79,
+   "costs_page": "algarve/tavira/costs/"
+  },
+  {
+   "id": "vila-real-de-santo-antonio",
+   "name": "Vila Real de Santo António",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/vila-real-de-santo-antonio/",
+   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 2.0,
+   "costs_page": "algarve/vila-real-de-santo-antonio/costs/"
+  },
+  {
+   "id": "portimao",
+   "name": "Portimão",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/portimao/",
+   "agent": "place.portimao@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.87,
+   "costs_page": "algarve/portimao/costs/"
+  },
+  {
+   "id": "lagos",
+   "name": "Lagos",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/lagos/",
+   "agent": "place.lagos@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 2.33,
+   "costs_page": "algarve/lagos/costs/"
+  },
+  {
+   "id": "olhao",
+   "name": "Olhão",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/olhao/",
+   "agent": "place.olhao@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 2.66,
+   "costs_page": "algarve/olhao/costs/"
+  },
+  {
+   "id": "albufeira",
+   "name": "Albufeira",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/albufeira/",
+   "agent": "place.albufeira@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.5,
+   "costs_page": "algarve/albufeira/costs/"
+  },
+  {
+   "id": "lagoa",
+   "name": "Lagoa",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/lagoa/",
+   "agent": "place.lagoa@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.86,
+   "costs_page": "algarve/lagoa/costs/"
+  },
+  {
+   "id": "monchique",
+   "name": "Monchique",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/monchique/",
+   "agent": "place.monchique@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 2.02,
+   "costs_page": "algarve/monchique/costs/"
+  },
+  {
+   "id": "aljezur",
+   "name": "Aljezur",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/aljezur/",
+   "agent": "place.aljezur@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.98,
+   "costs_page": "algarve/aljezur/costs/"
+  },
+  {
+   "id": "vila-do-bispo",
+   "name": "Vila do Bispo",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/vila-do-bispo/",
+   "agent": "place.vila-do-bispo@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.39,
+   "costs_page": "algarve/vila-do-bispo/costs/"
+  },
+  {
+   "id": "castro-marim",
+   "name": "Castro Marim",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/castro-marim/",
+   "agent": "place.castro-marim@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.36,
+   "costs_page": "algarve/castro-marim/costs/"
+  },
+  {
+   "id": "alcoutim",
+   "name": "Alcoutim",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/alcoutim/",
+   "agent": "place.alcoutim@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.65,
+   "costs_page": "algarve/alcoutim/costs/"
+  },
+  {
+   "id": "sao-bras-de-alportel",
+   "name": "São Brás de Alportel",
+   "kind": "municipality",
+   "parent": "algarve",
+   "path": "algarve/sao-bras-de-alportel/",
+   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+   "today": 0,
+   "line_per_day": 8,
+   "session_total": 1.38,
+   "costs_page": "algarve/sao-bras-de-alportel/costs/"
+  }
+ ],
+ "ios_team": {
+  "about": "conductor.a.ios@promptugal.dinis and its workers (PrompTugal__App__iOS), on account A from 15 November. Not in agents[] because their names are not @PrompTugal.dinis (the schema's pattern). Lines: conductor 50, each worker 20 a day, the same capture-not-block rule.",
+  "baseline_2026-11-16T00:48Z": {
+   "conductor.a.ios@promptugal.dinis": {
+    "usd": 23.73900042,
+    "output_tokens": 162077
+   },
+   "appdev.live@promptugal.dinis": {
+    "usd": 11.88991484,
+    "output_tokens": 131444
+   },
+   "appdev.ai@promptugal.dinis": {
+    "usd": 11.3261203,
+    "output_tokens": 132510
+   },
+   "appdev.talk@promptugal.dinis": {
+    "usd": 10.27865336,
+    "output_tokens": 111587
+   },
+   "devops.status@promptugal.dinis": {
+    "usd": 9.171754,
+    "output_tokens": 91384
+   },
+   "appdev.credit@promptugal.dinis": {
+    "usd": 6.53263882,
+    "output_tokens": 67303
+   }
+  },
+  "per_day_usd": {
+   "conductor.a.ios@promptugal.dinis": 50,
+   "*workers": 20
+  }
+ },
+ "billing_meter": "start credit 500 (shown as GBP 5.00); an article 6 (fresh 12, new 9, archive 3), a company or topic 3, a story, event or index 2, a person, organisation, place, evidence, data or site page 1, account pages 0 (meter.json v0.1.1397)",
+ "source": "board/budgets.json"
+}

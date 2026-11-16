@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-16T00:55Z",
+ "updated": "2026-11-16T01:15Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -1633,8 +1633,9 @@
    }
   },
   "openrouter": {
-   "credit_usd": "exhausted: the shared key returns 402 (out of credit) since about 05:00 to 05:51 on 11 November (conductor@ and security@ report it; social.watch@web-summit.dinis stalled)",
-   "state": "the hard stop is the credit, real money: a top-up is Dinis's; the summit plan (openrouter.summit_plan, 250 USD) waits on his keys"
+   "credit_usd": "OK: Dinis checked it himself on 16 November (about 01:00 UTC, in accountant@'s session)",
+   "state": "accountant@ never reads the credit (it does not use the key); the 402 of 11 November (05:00 to 05:51) came from the agents' status files and was out of date by 16 November. From now on: the credit is stated only from a dated agent report or Dinis's word, with the time it was read",
+   "history": "out of credit 11 November about 05:00 (402, agents' reports); topped up by 16 November (Dinis)"
   }
  },
  "proposals": {
@@ -2029,8 +2030,18 @@
  },
  "billing": {
   "about": "Dinis (15 November, about 23:55, relayed by conductor@web-summit.dinis, board/guidance/2026-11-16-positioning-collaborators-local-media-paid.md): 'api/v1/billing/meter.json is the one source of prices for the site and the app; nothing else states a price ... accountant@ keeps it'.",
-  "state": "the meter is built by newsroom/build/features/billing.mjs from data/billing/prices.json and data/billing/topup.json; those files are outside accountant@'s grant (ABP R6). Asked of Dinis: add data/billing/** to accountant@'s writes. Until then accountant@ reviews and does not edit; prices are Dinis's to set (money)",
+  "state": "Dinis granted data/billing/** to accountant@ on 16 November, about 01:00 UTC, in accountant@'s own session ('yes, add data/billing to your grant'); the ABP file (board/abp/accountant.md) is abp@'s to update. Prices stay Dinis's to set (money); accountant@ keeps the files and writes data/billing/agent-costs.json",
   "read_at": "2026-11-16T00:50Z",
   "current": "start credit 500 (shown as GBP 5.00); an article 6 (fresh 12, new 9, archive 3), a company or topic 3, a story, event or index 2, a person, organisation, place, evidence, data or site page 1, account pages 0 (meter.json v0.1.1397)"
+ },
+ "visibility": {
+  "about": "At Dinis's word (16 November, about 01:00 UTC): the costs are visible from the newsroom and from every place PrompTugal.news covers.",
+  "data": "data/billing/agent-costs.json (served at /data/billing/agent-costs.json)",
+  "pages": [
+   "/newsroom/costs/",
+   "/<place path>costs/ for each of the 19 places, e.g. /algarve/faro/costs/"
+  ],
+  "generator": "board/team/accountant/tools/costs_pages.py, run at every accountant@ wake",
+  "links": "linked from /newsroom/decisions/the-budgets-after-the-first-day/; links from each place page and the newsroom dashboard asked of dev.places@ and dev@"
  }
 }

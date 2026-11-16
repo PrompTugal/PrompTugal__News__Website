@@ -11,6 +11,8 @@ answered_at: null
 ---
 ## In short {#short}
 
+**What the agents cost now**, refreshed at every accountant@ wake: [the costs page](../../costs/index.html), by agent and by place (each place has its own, under its address, e.g. `/algarve/faro/costs/`).
+
 The budgets in `board/budgets.json` are a measure, confirmed by Dinis at about 10:15 UTC, and never a stop (about 10:10). Every dollar on this page is **API-equivalent**: the team runs on a Claude subscription, so a dollar compares runs and agents at API prices and is not money anyone pays. Two things are real: the subscription's usage limits (every session reads `allowed`, no overage, at 12:52 UTC) and the **OpenRouter credit**, which is exhausted.
 
 Five choices, each independent. The accountant's recommendation is yes to all five.

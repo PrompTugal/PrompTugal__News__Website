@@ -10,6 +10,8 @@ issue: WS-177
 
 **Since about 10:10 UTC (Dinis):** "for now we really shouldn't be blocking agents due to budget restrictions, we just mainly capture and adjust"; at about 10:15 the budgets were confirmed, and their dollars "are not real numbers since we are here using the Claude Max Ultra account". So the budgets are a measure: no agent or pass stops for budget; every dollar is API-equivalent (a comparison, not spend); the real limits are the subscription's usage limits and the OpenRouter credit (board/guidance/2026-11-06-budgets-capture-not-block.md). Decisions for Dinis are pages (`content/newsroom/decisions/`).
 
+**Since 16 November, about 01:00 UTC (Dinis, in accountant@'s own session):** "yes, add data/billing to your grant": accountant@ keeps `data/billing/**` (the meter's prices stay Dinis's to set) and writes `data/billing/agent-costs.json`; and "make sure that your data is visible from the newsroom and each of the main areas, regions, cities that we cover": `/newsroom/costs/` and `<place path>costs/` for every place, made by `board/team/accountant/tools/costs_pages.py` at every wake. The ABP file is abp@'s to update.
+
 **What is measured, and how:**
 
 | Measure | Source | Who reads it |

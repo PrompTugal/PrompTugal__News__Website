@@ -2,7 +2,7 @@
  "agent": "accountant@PrompTugal.dinis",
  "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
  "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
- "updated": "2026-11-16T00:55Z",
+ "updated": "2026-11-16T01:15Z",
  "done": [
   "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
   "ROLE.md and this status.json",
@@ -51,16 +51,15 @@
   "06:50 on 12 November: 116.21 API-equivalent so far (A 27.52, B 88.69); dev.data@ over, recorded; account A allowed",
   "09:50 on 12 November: 171.17 API-equivalent so far (A 41.12, B 130.05); three over, recorded; account A allowed; OpenRouter still out",
   "12:50 on 12 November: 213.44 API-equivalent so far (A 54.91, B 158.53), about 14 an hour; four over, recorded; account A allowed",
-  "00:50 on 16 November: the gap of 12 to 15 November closed late (at least 602.17 API-equivalent: account A's four sessions 192.87, account B 198.80 to 12:51 on 12 November, the places team 137.56, the iOS team 72.94); lines for the 33 new sessions; team line 900; observability@'s 100 in four days flagged; billing noted"
+  "00:50 on 16 November: the gap of 12 to 15 November closed late (at least 602.17 API-equivalent: account A's four sessions 192.87, account B 198.80 to 12:51 on 12 November, the places team 137.56, the iOS team 72.94); lines for the 33 new sessions; team line 900; observability@'s 100 in four days flagged; billing noted",
+  "01:15 on 16 November, at Dinis's word in this session: data/billing/** granted (recorded; abp@ asked to update the ABP file); the costs made visible: data/billing/agent-costs.json, /newsroom/costs/ and a costs page under each of the 19 places (e.g. /algarve/faro/costs/), from a generator run at every wake; OpenRouter corrected: Dinis checked it is OK, my 'out of credit' was the agents' 11 November report, out of date"
  ],
  "next": [
-  "at 03:47: a reading of every account A PrompTugal session against the 16 November baseline"
+  "at 03:47: a reading of every account A PrompTugal session; rerun board/team/accountant/tools/costs_pages.py so the pages follow"
  ],
  "asks": [
-  "Dinis: you asked (15 November, relayed) that accountant@ keep api/v1/billing/meter.json, the one source of prices. It is built from data/billing/prices.json and topup.json, which are outside my grant (ABP R6). Add data/billing/** to accountant@'s writes? The prices themselves stay yours to set",
   "Dinis: my wakes did not run from 15:47 on 12 November to 00:47 on 16 November, and account B has not been measured since 12:51 on 12 November (conductor.b@ silent since 14:50 that day). The gap is closed as far as the record allows (board/team/accountant/ledger/2026-11-12-to-15-close.json)",
   "Dinis: observability@'s session spent about 100 API-equivalent in four days while only draining (its context reloaded many times). A compaction at its next wake would cut it; that is the conductor's or yours to ask",
-  "Dinis: the shared OpenRouter key is out of credit: HTTP 402 since about 05:00 to 05:51 UTC on 11 November; social.watch@ has stalled and every agent using the key stops with it. A top-up is yours. The summit plan is ready in board/budgets.json (openrouter.summit_plan: 250 USD within your 100 to 300 GBP, one key per tablet or agent so the next draw can be traced)",
   "Dinis: the cost case 'agents that pay for themselves' is in board/team/accountant/case-agents-that-save-tokens.md (five examples from our own record, estimates labelled). Whether it is Thursday's message is yours; on yes, I measure the reporter and the named candidates (raw run against digest run) before Thursday",
   "Dinis: Vicky's and Angelo's rebuild sessions on your card each have a line in board/budgets.json (rebuild_sessions), but they are not on account A or B, so I cannot read their cost. Their agents are asked (through the conductor) to report it daily; if you prefer, tell me the card's figure",
   "Dinis: I could not tell conductor.android@ and conductor@web-summit.dinis myself: my grant sends only to the agent inboxes, and they have none here; conductor@ and conductor.b@ were asked to pass the plan on",
@@ -313,6 +312,12 @@
    "outcome": "ok",
    "release": "this wake's",
    "line": "the 12 to 15 November gap closed late (at least 602.17); 33 new sessions lined; billing asked"
+  },
+  {
+   "started": "2026-11-16T01:05Z",
+   "outcome": "ok",
+   "release": "this one's",
+   "line": "Dinis in session: billing grant; costs pages for the newsroom and every place; OpenRouter corrected"
   }
  ],
  "debrief": "board/team/accountant/debriefs/2026-11-16-handover.md"
