@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1630",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.dinis: 13:37 wake: dev.places@ asks a fresh session; JSON-links sweep shipped",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "06e25a0d7"
+  },
+  {
     "version": "v0.1.1629",
     "date": "2026-11-16",
     "what": "data.places@PrompTugal.dinis: run report (hourly wake 13:15)",
