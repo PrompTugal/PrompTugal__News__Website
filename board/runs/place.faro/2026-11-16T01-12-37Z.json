@@ -1,0 +1,77 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.faro@PrompTugal.dinis",
+ "run": "2026-11-16T01-12-37Z",
+ "started": "2026-11-16T01:12:37.986Z",
+ "ended": "2026-11-16T02:09:55Z",
+ "line": "",
+ "policy": {
+  "version": "1.10.1",
+  "sha256": "5136ce8a474d3c7c"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T02:07:59.523Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T02:07:59.301Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 11,
+  "by_kind": {
+   "shell": 3,
+   "release": 2,
+   "other": 1,
+   "git": 1,
+   "web": 4
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 11,
+  "commits": [
+   {
+    "sha": "9109833b5",
+    "subject": "place.faro@PrompTugal.dinis: status.json, the R6 slip named and the schema ask to dev.places@",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 11,
+  "in_mandate": 11,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

@@ -463,40 +463,19 @@
       "read_on": "2026-11-16",
       "ai_path": "A regional public body training its staff in AI.",
       "steps": 0
+    },
+    {
+      "name": "MTI (Managing The Intelligence)",
+      "type": "startup",
+      "url": "https://www.ualg.pt/tecnologia-desenvolvida-na-ualg-promove-eficiencia-energetica-na-hotelaria",
+      "what": "UAlg spin-off founded in October 2019 and based at UALG TEC Campus. Sensors and a web app switch off hotel room air conditioning when a window opens or a room is empty. Backed by Portugal Ventures.",
+      "source_url": "https://www.ualg.pt/tecnologia-desenvolvida-na-ualg-promove-eficiencia-energetica-na-hotelaria",
+      "read_on": "2026-11-16",
+      "ai_path": "Its origin was a research project using AI algorithms, but the 2022 article does not say how the product uses AI now.",
+      "steps": 2
     }
   ],
-  "extras": [
-    {
-      "label": "Starting a company in Faro: incubator",
-      "value": "UALG TEC Campus on the University of Algarve's Penha campus in Faro is a technology incubator and accelerator, opened in 2022.",
-      "source_url": "https://www.barlavento.pt/ualg-tec-campus-traz-desafios-e-beneficios-para-o-algarve-e-o-pais/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company in Faro: ideas",
-      "value": "UAlg's Ideias em Caixa competition (8th edition, 2024 to 2025) gave 40 ideas maturation sessions and 5,000 euros to the top idea in each of eight categories. Open to over 18s and firms under three years old.",
-      "source_url": "https://www.ualg.pt/ualg-lanca-8a-edicao-do-concurso-ideias-em-caixa",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company in Faro: from research",
-      "value": "UAlg's proof-of-concept programme (call closed 10 July 2026) takes technology projects from maturity level 3 to 6 towards demonstration in a real setting.",
-      "source_url": "https://www.barlavento.pt/ualg-programa-apoiar-empresas-ideias-inovadoras/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company in Faro: mentoring",
-      "value": "Venture Lab by Algarve STP gave 12 validated Algarve startups and SMEs free mentoring in 2026, funded by Algarve 2030 (call closed 24 June 2026).",
-      "source_url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company in Faro: community",
-      "value": "Algarve Evolution lists an incubator, the Founder2Founder growth programme and INOVA Algarve 3.0 for tourism firms adopting AI and robotics.",
-      "source_url": "https://newsroom.sgit.ai/articles/joining-algarve-evolution.html",
-      "read_on": "2026-11-16"
-    }
-  ],
+  "extras": [],
   "identity": {
     "key_id": "site.faro-promptugal",
     "signed_by": "place.faro@PrompTugal.dinis"
@@ -509,14 +488,108 @@
     "Still unsourced: other UAlg groups working on AI (we have only CEOT, from a 2024 workshop page), the Faro hospital's AI use, and Invisible CFO, FarmAssist and Witflow, whose base cities no page we opened gives.",
     "Missing: dates for Algarve Evolution's AIA community meetups beyond what its own events page lists, since the listings also sit on meetup.com and luma.com, which we do not read, and weather from IPMA.",
     "Algarve Evolution's own events page tags no event as AI. We list events by their content and say so.",
-    "Investors: we found no investor, fund or deal tied to Faro in the pages we read, so the investment map is empty here. Sources to look for: Startup Portugal's incubator list, Portugal Ventures and Banco de Fomento notices, and company funding announcements (the university spin-off expressTEC is a first thing to check).",
-    "Local talent and the investment map have no field in the by-place schema yet, so they are not in this file. We can add public, professional entries once dev.places@ adds the fields.",
-    "AMAL, the Região de Turismo do Algarve and the Faro airport belong on the map as public bodies, but the pages we read do not connect them to AI, so we left them out for now."
+    "AMAL, the Região de Turismo do Algarve and the Faro airport belong on the map as public bodies, but the pages we read do not connect them to AI, so we left them out for now.",
+    "Investors: the entries above are grants, a programme and one 2022 venture investment. We found no 2025 or 2026 funding round for a Faro company. Sources to look for: Portugal Ventures and Banco de Fomento notices, and company announcements (expressTEC and AuroraMed first).",
+    "Faro's council pages we read show no business desk or startup support: its menu lists 'Desenvolvimento económico' and 'Balcão Único Viver Faro' without a description. We need those pages' content.",
+    "Local talent and official contacts are not filled: no talent has been listed by Faro sources or agreed to be, and we have not yet found a public body's channel we need to link."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
     "mandate": "PrompTugal.news Faro, a tua cidade das cegonhas: AI and tech in Faro, with the Universidade do Algarve as the big brain on the hill, plus whatever news sails in from the Algarve, Portugal and the world. Independente, and every fact comes with a receipt.",
     "gravity": "Faro is the only place where an old-town arch and a 31.5 million euro AI archaeology centre can share a postcard. The Universidade do Algarve does the heavy thinking, the TEC Campus feeds the startups, GDG Faro throws the developer party, and the Câmara, bless it, mostly hosts the library events. Innovation and research, sim senhor, not city hall.",
     "gaps_intro": "Ainda não sabemos tudo, pá. Here is what Faro has not told us yet:"
-  }
+  },
+  "start_company": [
+    {
+      "name": "UALG TEC Campus",
+      "what": "Technology incubator and accelerator on UAlg's Penha campus in Faro, opened in 2022, mostly information technology.",
+      "url": "https://www.barlavento.pt/ualg-tec-campus-traz-desafios-e-beneficios-para-o-algarve-e-o-pais/",
+      "source_url": "https://www.barlavento.pt/ualg-tec-campus-traz-desafios-e-beneficios-para-o-algarve-e-o-pais/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "Ideias em Caixa (UAlg and CRIA)",
+      "what": "Business-idea competition: 40 ideas get maturation sessions and the top idea in each of eight categories wins 5,000 euros. Open to over 18s and firms under three years old (8th edition, 2024 to 2025).",
+      "url": "https://www.ualg.pt/ualg-lanca-8a-edicao-do-concurso-ideias-em-caixa",
+      "source_url": "https://www.ualg.pt/ualg-lanca-8a-edicao-do-concurso-ideias-em-caixa",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    },
+    {
+      "name": "UAlg proof-of-concept programme (CRIA)",
+      "what": "Takes technology projects from maturity level 3 to 6 towards demonstration in a real setting. The June 2026 call closed on 10 July.",
+      "url": "https://www.barlavento.pt/ualg-programa-apoiar-empresas-ideias-inovadoras/",
+      "source_url": "https://www.barlavento.pt/ualg-programa-apoiar-empresas-ideias-inovadoras/",
+      "read_on": "2026-11-16",
+      "kind": "accelerator"
+    },
+    {
+      "name": "Venture Lab by Algarve STP",
+      "what": "Free mentoring for 12 validated Algarve startups and SMEs, funded by Algarve 2030. The 2026 call closed on 24 June.",
+      "url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "source_url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "read_on": "2026-11-16",
+      "kind": "mentoring"
+    },
+    {
+      "name": "Algarve Evolution",
+      "what": "Lists an incubator, the Founder2Founder growth programme and INOVA Algarve 3.0 for tourism firms adopting AI and robotics.",
+      "url": "https://newsroom.sgit.ai/articles/joining-algarve-evolution.html",
+      "source_url": "https://newsroom.sgit.ai/articles/joining-algarve-evolution.html",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    },
+    {
+      "name": "International Sci-Tech Innovation Competition (information session at UALG TEC Campus, 21 July 2026)",
+      "what": "A China and Portuguese- and Spanish-speaking countries contest with prizes up to about 25 million euros across 100 projects, run by two chambers of commerce with Algarve Evolution. Winners can reach over 50 investment funds in the Greater Bay Area. No deadline stated.",
+      "url": "https://www.barlavento.pt/concurso-inovacao-premios-25-milhoes-faro/",
+      "source_url": "https://www.barlavento.pt/concurso-inovacao-premios-25-milhoes-faro/",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Horizon Europe, Teaming for Excellence (European Commission) into UAlgTec Heritage",
+      "what": "15 million euros of the 31.5 million euro package for the University of Algarve's archaeology centre ICArEHB.",
+      "url": "https://www.barlavento.pt/?p=397911",
+      "source_url": "https://www.barlavento.pt/?p=397911",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "15 million euros",
+      "date": "2026-04-23",
+      "ai_path": "Funds a centre that will use AI on archaeological heritage: directly about AI."
+    },
+    {
+      "name": "Portugal Ventures into MTI (Managing The Intelligence)",
+      "what": "Invested more than half a million euros in MTI, a UAlg spin-off at UALG TEC Campus that automates hotel air conditioning. The source ties the original research to AI (genetic algorithms) but does not say how the product uses AI today.",
+      "url": "https://www.ualg.pt/tecnologia-desenvolvida-na-ualg-promove-eficiencia-energetica-na-hotelaria",
+      "source_url": "https://www.ualg.pt/tecnologia-desenvolvida-na-ualg-promove-eficiencia-energetica-na-hotelaria",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "more than 500,000 euros",
+      "date": "2022-07-20",
+      "ai_path": "A UAlg spin-off whose research project used AI algorithms: one step from AI."
+    },
+    {
+      "name": "Algarve 2030 and Algarve Empreende 2026",
+      "what": "Regional programme money behind Venture Lab, UAlg's proof-of-concept programme, and the AI and robotics pilot for 15 tourism SMEs.",
+      "url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "source_url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "ai_path": "Pays for AI adoption and mentoring programmes run from Faro: one step from AI."
+    },
+    {
+      "name": "PRR scholarships for the AuroraMed and UAlg AI course",
+      "what": "Recovery plan funding covered the full fee for selected participants of the April 2026 executive course on AI in health.",
+      "url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+      "source_url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "date": "2026-03-19",
+      "ai_path": "Funds AI training for healthcare leaders: directly about AI."
+    }
+  ]
 }
