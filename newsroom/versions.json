@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1521",
+    "date": "2026-11-16",
+    "what": "place.olhao@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "place.olhao@PrompTugal.dinis",
+    "from": "a0fc6923f"
+  },
+  {
     "version": "v0.1.1520",
     "date": "2026-11-16",
     "what": "place.portimao@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
