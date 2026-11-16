@@ -1,0 +1,91 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-16T00-51-14Z",
+ "started": "2026-11-16T00:51:14.135Z",
+ "ended": "2026-11-16T01:03:20Z",
+ "line": "",
+ "policy": {
+  "version": "1.9.2",
+  "sha256": "8ba41797d2e33321"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T00:55:11.087Z",
+   "chars": 1318,
+   "sha256": "318600d0061f422f",
+   "head": "<task-notification>\n<task-id>baa0mzj32</task-id>\n<tool-use-id>toolu_01LP6Y4ofqJQbLsRC6ub5gZ8</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-16T01:01:29.539Z",
+   "chars": 853,
+   "sha256": "1eb88b9c1f7e2b65",
+   "head": "<task-notification>\n<task-id>bzjdrlq8t</task-id>\n<tool-use-id>toolu_01FknRorkAanrUxqZ9t1tyUD</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/d568dcd9-060a-5265-b188-12677"
+  },
+  {
+   "t": "2026-11-16T01:02:06.556Z",
+   "chars": 33,
+   "sha256": "97cc7fe71ba44fd4",
+   "head": "yes, add Faro airport traffic too"
+  },
+  {
+   "t": "2026-11-16T01:02:31.982Z",
+   "chars": 75,
+   "sha256": "aaa4b4483a2edd0a",
+   "head": "hi, how far are we from having the home page reflecting the new site's mode"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "release": 2,
+   "git": 3,
+   "web": 1,
+   "message": 1,
+   "shell": 2,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": [
+   {
+    "sha": "a1b1fce89",
+    "subject": "conductor@PrompTugal.dinis: 00:40 wake: snapshot, inbox drained (3 unsigned), plan and watch line",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 10,
+  "in_mandate": 10,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

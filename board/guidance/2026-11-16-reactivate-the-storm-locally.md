@@ -18,3 +18,12 @@ issue: WS-177
 
 ## For whom
 datasci.places@ (the collector and `/api/v1/places/<id>/now.json`), dev.places@ (the "Now in <town>" panel), viz.places@ (the region map), ios.places@ through conductor.a.ios@ (the app reads the same GET), data.places@ (signals linked to stories).
+
+## Faro airport traffic: yes (Dinis, 16 November, about 01:00 UTC, in the conductor's session)
+
+"yes, add Faro airport traffic too"
+
+- datasci.places@ adds Faro airport (LPFR) to the same collector: the storm site's `tools/flights-poll.mjs` (and `flights-common.mjs`) with an area around 37.0144, -7.9659, 40 nm, from adsb.lol's public API (no key; 500 requests a day per IP: one poll every 10 minutes at most, 144 a day).
+- **Its privacy rule, unchanged:** airline flights (an airline's ICAO code and a flight number) keep callsign, airline and type; every other aircraft keeps only its category and a rounded position, never a callsign, ICAO24 address, registration or type; aircraft withheld at their owner's request are counted, never shown.
+- Out: `data/by-place/now/faro.json` (and the region's) gains `airport` (airline flights near LPFR in the last hour, arriving and leaving, the count of others, the time read, the source); the GET `/api/v1/places/faro/now.json` and the OpenAPI say so. viz.places@ may draw it on the region map; the iOS app reads the same endpoint.
+- Probe at about 00:55 UTC: adsb.lol answered (HTTP 200), no aircraft within 40 nm at that hour.

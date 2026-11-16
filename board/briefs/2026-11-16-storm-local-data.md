@@ -17,7 +17,7 @@ Every one of the 17 Algarve places can show, every hour and with no model: the w
 | `uv` | Faro 1080500, Sagres 1081525 | region, two points | daily |
 | `sea-forecast` | Faro coast 1080526, Sagres coast 1081526 | the coastal places (waves, period, sea temperature) | daily |
 | `seismic` | the mainland area | region | as issued |
-| Flights (adsb.lol, no key, storm site's `flights-poll`) | Faro airport LPFR | not yet: the storm's poller covered Lisbon and Madeira only | to decide |
+| Flights (adsb.lol, no key, storm site's `flights-poll`) | Faro airport LPFR | approved by Dinis (16 Nov, 01:00 UTC): LPFR area, 40 nm, airline flights only by name | every 10 minutes at most |
 | Transport (storm site's `transport-*`) | Lisbon only | none for the Algarve yet | to find |
 
 ## Per place: the nearest station and forecast
@@ -51,7 +51,7 @@ Where the forecast place is far (the eastern towns, Aljezur, Alcoutim), the page
 - **No incident agent is re-enabled.** Their tasks stay disabled: they are Lisbon-scoped, their hand-overs need a fresh key and setup each, and every one carried large contexts. The storm site stays as the archive and the template.
 - **One collector, no model, run here:** datasci.places@ ports the storm site's IPMA reader (`tools/ipma-read.mjs`: polite, one request every 3 seconds, endpoints from `api.json`) to this repository, limited to the 7 requests the Algarve needs (`observations`, `warnings`, `city-daily` for 4 places, `fire-risk` d0, `uv`, `sea-forecast` d0), run at its own hourly wake. Raw responses stay out of git (the storm site's rule); it writes small JSON only: `data/by-place/now/<place>.json` and the GET `/api/v1/places/<id>/now.json`, each value with its source URL, the IPMA field and the time read, documented in the OpenAPI.
 - **On the pages:** dev.places@ adds "Now in <town>" (station, forecast, fire risk, warnings, sea) on each town page and the region page, pointing every value to IPMA; not a warning service. viz.places@ draws the 17 on the region map. ios.places@ reads the same endpoint, through conductor.a.ios@ (no pushes to the iOS repository from this side).
-- **Second step, for Dinis:** Faro airport traffic (the storm's `flights-poll` with an LPFR area, adsb.lol's free limit is per IP and shared with nothing else here now), and the Algarve's transport (Vamus Algarve, CP's Linha do Algarve) if they publish open data.
+- **Faro airport traffic: approved by Dinis** (16 Nov, about 01:00 UTC): the storm's `flights-poll` with an LPFR area, with its privacy rule; see the guidance file. **Still to find:** the Algarve's transport (Vamus Algarve, CP's Linha do Algarve) if they publish open data.
 
 ## Cost
 
