@@ -40,6 +40,36 @@
       "steps": 1
     },
     {
+      "title": "Loulé is installing 60 cameras around Vilamoura's hotel ring, extension to Quarteira planned; no AI stated",
+      "summary": "After a June 2026 meeting with merchants, GNR and civil protection, the Loulé council said it is installing 60 video-surveillance cameras on the hotel ring in Vilamoura, besides those at the marina, with extension planned to Almancil, Quarteira and Loulé. A municipal police force is also being set up. The article does not say whether the system analyses images automatically.",
+      "date": "2026-06-23",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/?p=402823",
+      "read_on": "2026-11-16",
+      "significance": "town",
+      "blast": [
+        "loule"
+      ],
+      "ai_path": "Camera networks are the usual place where automatic image analysis is added later, so this is a watch item. No AI is claimed by the source.",
+      "steps": 3
+    },
+    {
+      "title": "EU funds to bring AI and robotics to 15 Algarve tourism firms",
+      "summary": "The regional tourism platform run by CCDR Algarve heard that an ALGARVE 2030 project will give 15 tourism SMEs a digital maturity check and a personal action plan to adopt AI and robotics. Algarve Evolution's president advised firms to prepare their digital channels for agentic AI that searches and books on behalf of travellers. The article names no town and gives no eligibility rules.",
+      "date": "2026-03-20",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/?p=394835",
+      "read_on": "2026-11-16",
+      "significance": "region",
+      "blast": [
+        "loule",
+        "albufeira",
+        "faro"
+      ],
+      "ai_path": "Quarteira and Vilamoura live on tourism and golf, so any of its hotels or operators that join this regional AI programme, or that prepare for AI booking agents, would use AI. The article does not say who was selected.",
+      "steps": 2
+    },
+    {
       "title": "Digital Commercial Neighbourhoods of Loulé and Quarteira: online shops, Wi-Fi, digital displays, no AI yet",
       "summary": "A PRR-funded project gives Quarteira's merchants online sales platforms, extra Wi-Fi, digital street displays and vouchers for digital services. The article mentions no AI. It matters for us as the digital base on which AI tools would later sit.",
       "date": "2026-03-11",
@@ -106,6 +136,13 @@
       "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/12/C16-i02/2023.P5446",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "CCDR Algarve (PIC Turismo documents)",
+      "url": "https://www.ccdr-alg.pt/",
+      "kind": "public body",
+      "feed": null,
+      "rss": "no"
     }
   ],
   "events": [],
@@ -209,6 +246,16 @@
       "read_on": "2026-11-16",
       "ai_path": "Partner in the PRR Digital Commercial Neighbourhood of Quarteira, which brings shops online and adds digital displays and Wi-Fi: the digital base for retail AI. No AI claimed in the source.",
       "steps": 3
+    },
+    {
+      "name": "Associação de Empresários de Quarteira e Vilamoura (AEQV)",
+      "type": "organisation",
+      "url": "https://www.barlavento.pt/associacao-de-empresarios-de-quarteira-e-vilamoura-participa-em-consorcios-digitais/",
+      "what": "Local business association that in April 2023 joined a consortium for the PRR Digital Commerce Accelerator 'BolMerc B2B, Alentejo and Algarve', to equip small businesses with digital services.",
+      "source_url": "https://www.barlavento.pt/associacao-de-empresarios-de-quarteira-e-vilamoura-participa-em-consorcios-digitais/",
+      "read_on": "2026-11-16",
+      "ai_path": "A channel for digital-transition services to Quarteira and Vilamoura shops, the ground on which AI tools would arrive. The 2023 article mentions no AI. Possibly the same body as the 'Por Quarteira' association already listed; not confirmed.",
+      "steps": 3
     }
   ],
   "extras": [],
@@ -225,12 +272,27 @@
     "The Techstars Startup Weekend Women in Loulé (March 2026, with Algarve Evolution among its organisers) is a lead for Loulé's place agent, not read directly here, so not claimed.",
     "'Starting a company here': no Quarteira-only route is documented in sources read. The council's local-economy office, the NERA business association and the Ameixial incubation space are Loulé-level and belong to place.loule@'s file. A Quarteira merchants' route (the Associação de Empresários Por Quarteira, ACRAL) is a lead.",
     "Local talent, investors and startups founded in Quarteira: none found yet in public sources.",
-    "Two leads not yet read (their pages refused us, so nothing is claimed): a Jornal do Algarve piece on Algarve-made AI that links the Loulé firm SPIC to Quarteira, and the Algarve Digital Commerce Accelerator (a PRR programme reported as presented in Vilamoura, said in search snippets to be led by the Associação de Empresários do Algarve with a Quarteira and Vilamoura business association as partner). Both need a readable source."
+    "Two leads not yet read (their pages refused us, so nothing is claimed): a Jornal do Algarve piece on Algarve-made AI that links the Loulé firm SPIC to Quarteira, and the Algarve Digital Commerce Accelerator (a PRR programme reported as presented in Vilamoura, said in search snippets to be led by the Associação de Empresários do Algarve with a Quarteira and Vilamoura business association as partner). Both need a readable source.",
+    "Searched in Portuguese and English for AI, startups and technology firms in Quarteira and Vilamoura on 16 November: no company, lab or event found, again.",
+    "Checked Postal and Barlavento pieces on the Vilamoura sports centre (January 2025), the Marina cameras (May 2023) and the Loulé interior digital programme (2020): none mention AI and the last does not concern Quarteira, so none used.",
+    "A Tivoli Marina Vilamoura smart-room claim (Siemens sensors) appeared only on a low-quality auto-generated page, not used.",
+    "The Loulé council contacts page was only read in part (first 100,000 characters), so no email or Quarteira office details are confirmed.",
+    "No Nov 2026 Quarteira-specific AI news found in search results; the newest relevant items are March and June 2026."
   ],
   "voice": {
     "lede": "Quarteira: where the sardines retired, the golf balls arrived, and the robots are still queuing at the beach bar.",
     "mandate": "PrompTugal.news Quarteira, pá: we follow the AI and the gadgets from this sunny city and its big-resort neighbour Vilamoura, and whatever drifts in from Loulé, the Algarve and the world. Independent, and every fact has its receipt.",
     "gravity": "Quarteira was a proper fishing village once and became a city in 1999, bem chique. Now it lives on sun, sea and golf, with Vilamoura next door in the same parish. When it comes to gadgets, the grown-ups at Loulé's câmara hold the keys, from planning permits to the Quarteira Lab sensors.",
     "gaps_intro": "Calma, we looked everywhere and no AI company came out of the sea yet. Here is what we could not find:"
-  }
+  },
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Loulé, Loulé 24h line",
+      "what": "Official municipal helpline for the council that governs Quarteira and Vilamoura, listed under useful links on the council's contacts page.",
+      "url": "https://www.cm-loule.pt/pt/contactos",
+      "read_on": "2026-11-16",
+      "channel": "phone 808 289 112",
+      "source_url": "https://www.cm-loule.pt/pt/contactos"
+    }
+  ]
 }

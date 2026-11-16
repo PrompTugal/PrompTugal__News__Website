@@ -35,6 +35,23 @@
   },
   "ai_news": [
     {
+      "title": "Regional development body visits São Brás schools, including a specialised informatics centre",
+      "summary": "The vice-president for education of CCDR Algarve toured the town's school network on 4 November 2026. The secondary school has a specialised technology centre in informatics, described as the first of its kind in the region. The mayor said a 6 million euro school expansion still awaits an answer on its recovery-plan application. The report does not mention AI.",
+      "date": "2026-11-16",
+      "publisher": "Município de São Brás de Alportel",
+      "url": "https://www.cm-sbras.pt/pt/noticias/48256/municipio-de-sao-bras-de-alportel-acolheu-visita-da-ccdr-algarve-ao-parque-escolar-do-concelho.aspx",
+      "read_on": "2026-11-16",
+      "significance": "town",
+      "blast": [
+        "faro",
+        "loule",
+        "olhao",
+        "tavira"
+      ],
+      "ai_path": "An informatics training centre is where local students would learn the skills AI work builds on. The council page does not say AI is taught.",
+      "steps": 3
+    },
+    {
       "title": "Council forum puts a local IT firm and a medical-technology firm on stage",
       "summary": "At the sixth Fórum Ideias de Negócios on 27 October 2026, two panels presented local businesses. Among them were InovaPrime, an information technology company, and Savvy Alpha, working in medical equipment and technology. The council says it will follow the presented projects through the year. The report does not mention AI.",
       "date": "2026-11-02",
@@ -277,6 +294,16 @@
       "read_on": "2026-11-16",
       "ai_path": "Medical technology is a field where AI is common. The council page gives no product detail and does not mention AI, so this is a lead to check.",
       "steps": 3
+    },
+    {
+      "name": "Informatics specialised technology centre, Escola Secundária José Belchior Viegas",
+      "type": "organisation",
+      "url": "https://www.cm-sbras.pt/pt/noticias/48256/municipio-de-sao-bras-de-alportel-acolheu-visita-da-ccdr-algarve-ao-parque-escolar-do-concelho.aspx",
+      "what": "School centre in informatics, described by the council as the first of its kind in the region.",
+      "source_url": "https://www.cm-sbras.pt/pt/noticias/48256/municipio-de-sao-bras-de-alportel-acolheu-visita-da-ccdr-algarve-ao-parque-escolar-do-concelho.aspx",
+      "read_on": "2026-11-16",
+      "ai_path": "Trains local students in computing, the base for AI skills. No AI teaching reported.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -350,12 +377,26 @@
     "The council's three support-measure subpages and the Via Verde para o desenvolvimento page returned no detail to our reader, so grants and fee waivers for investors are not stated.",
     "Events: the whole council agenda (five pages, 15 November to 5 December 2026) is now read. It lists markets, concerts, reading clubs, sports, nature walks and film sessions, with one local entrepreneurship action at the Saturday market, and nothing about AI or technology.",
     "Algarve 6.0 platform: a search listing points to a January 2026 EU tender by the Algarve intermunicipal body for a leased urban management platform, worth roughly 356,000 euros before VAT. We could not open the notice, so this is an unconfirmed lead. No supplier, award or timetable is known, and the project page on the national transparency portal returned an error.",
-    "InvestAlgarve: search listings say the regional investment support network opened a service point in São Brás de Alportel in November 2016, but we could not open those pages and found nothing newer. It is not known whether it still operates, so it is not on the map. The council's Gabinete do Empreendedor is the current first stop."
+    "InvestAlgarve: search listings say the regional investment support network opened a service point in São Brás de Alportel in November 2016, but we could not open those pages and found nothing newer. It is not known whether it still operates, so it is not on the map. The council's Gabinete do Empreendedor is the current first stop.",
+    "Council news list of 16 November 2026 (six items: boccia award, CCDR school visit, Storm Charles, EM 523 road, Praça 1914, scholarships) was read; only the school visit has a technology angle, none mentions AI.",
+    "The scholarship notice (6 November 2026) prioritises health students and does not mention technology or AI.",
+    "A search for AI news in the town in November 2026 found nothing new; results were the already-recorded EduTalks, Algarve 6.0 and University workshop stories.",
+    "A Postal do Algarve piece on Algarve digital and smart villages appeared in search but was not opened, so it is not used."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
     "mandate": "PrompTugal.news São Brás de Alportel: AI and technology from the serra, where the cork was king and the costume museum still holds court. Independent, ó pá, and every fact sourced.",
     "gravity": "São Brás is a small town up in the hills that lives on heritage, from the Museu do Traje to cork and now Praça 1914, with Globalfire, a fire-detection maker, as its biggest employer and exporter. The AI chapter is still being written, and the câmara is holding the pen: a smart territory project with its neighbours, a coworking desk, an entrepreneur's office and a hand for the university.",
     "gaps_intro": "Pois, there is no AI company here yet that we could find, and we say so straight. Here is what is missing, devagar, devagarinho."
-  }
+  },
+  "contacts": [
+    {
+      "name": "Município de São Brás de Alportel, general contacts",
+      "what": "Official council channels printed on the council's scholarship notice (general office and municipal services).",
+      "url": "https://www.cm-sbras.pt/pt/noticias/38239/ensino-superior--municipio-abre-candidaturas-a-bolsas-de-estudo.aspx",
+      "read_on": "2026-11-16",
+      "channel": "Phone 289 840 000; email (the council's general email, printed on the linked page); Rua Gago Coutinho 1, 8150-151 São Brás de Alportel",
+      "source_url": "https://www.cm-sbras.pt/pt/noticias/38239/ensino-superior--municipio-abre-candidaturas-a-bolsas-de-estudo.aspx"
+    }
+  ]
 }
