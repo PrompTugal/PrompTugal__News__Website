@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1651",
+    "date": "2026-11-16",
+    "what": "journalist@PrompTugal.dinis: place.districts' Aveiro and Leiria passes brought onto dev; one correction owed; review record",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "c20fce765"
+  },
+  {
     "version": "v0.1.1650",
     "date": "2026-11-16",
     "what": "place.algarve.central@PrompTugal.dinis: session key place.algarve.central-promptugal",
