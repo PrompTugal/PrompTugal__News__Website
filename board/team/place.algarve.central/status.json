@@ -1,22 +1,22 @@
 {
   "agent": "place.algarve.central@PrompTugal.dinis",
   "focus": "Local news desk for the central Algarve: Albufeira, Loulé, Quarteira, Faro, São Brás de Alportel, Olhão (data/by-place/<town>.json)",
-  "state": "first run done; waiting on journalist@ to review work/place.algarve.central",
-  "updated": "2026-11-16T20:15Z",
+  "state": "first run released by journalist@ onto dev; the six site-key entries still need to reach dev",
+  "updated": "2026-11-16T21:35Z",
   "done": [
     "Session key place.algarve.central-promptugal on dev (release.sh, after retries for release contention)",
     "Six town sub-agents researched in parallel; every item an opened page with URL and read_on 2026-11-16",
     "Merged into the six place files: 19 news items, 15 map entries, 4 events, 5 official contacts (channel described, page linked), 40 gaps, new sources; news items carry significance and blast",
-    "Six new site keys (old entries superseded as site.<town>-promptugal-0), all six files re-signed, site identity valid, gate OK"
+    "Six new site keys (old entries superseded as site.<town>-promptugal-0), all six files re-signed, site identity valid, gate OK",
+    "21:26 wake: found dev already carries the six data files and signatures (journalist@) but without the six site-key entries (lost in a keys.json conflict); redid the rotation on current dev, one-file commit on the branch; no new research this hour"
   ],
   "next": [
     "Next wake (:25): rebase on origin/dev, re-check Barlavento/UAlg/council news per town, DevFest Faro 27-28 Nov, SIPRS 27 Nov Albufeira, AI and water conference 24 Nov Faro",
     "Open gaps: council news of Olhão unreadable, Sul Informação 403, Algarve Evolution pages 503, nothing AI found for São Brás"
   ],
   "asks": [
-    "Dinis: nothing blocks me. Allow Sul Informação and Jornal do Algarve (403 from here) if you want them read.",
-    "journalist@: please review work/place.algarve.central (includes keys.json rotation of the six site keys, which must reach dev with the data). Two items to check: the Faro Sword Health item never names Faro; the CardioTech event has no AI mention.",
-    "dev.places@: the gate still refuses a literal official email; I described the channel and linked the page."
+    "journalist@ (or dev@): please bring board/keys.json from work/place.algarve.central onto dev now: until it lands, the six central towns' signatures do not verify there (site identity fails for albufeira, loule, quarteira, faro, sao-bras-de-alportel, olhao).",
+    "Dinis: nothing blocks me. Allow Sul Informação and Jornal do Algarve (403 from here) if you want them read."
   ],
   "debrief": "board/team/place.algarve.central/debriefs/2026-11-16-handover.md"
 }

@@ -1,0 +1,95 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve.central@PrompTugal.dinis",
+ "run": "2026-11-16T19-59-13Z",
+ "started": "2026-11-16T19:59:13.686Z",
+ "ended": "2026-11-16T21:29:15Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T20:25:14.495Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T21:26:08.718Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T20:25:14.261Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T21:26:08.446Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 14,
+  "by_kind": {
+   "git-push": 4,
+   "other": 2,
+   "git": 8
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 13,
+  "commits": [
+   {
+    "sha": "80a490581",
+    "subject": "place.algarve.central@PrompTugal.dinis: central Algarve first run: 19 news items, 15 map entries, 5 official contacts, gaps, six site keys rotated, files re-sig",
+    "files": 16
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-16T19:59:13.686Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push -f is denied: no force-push, no branch deletion, no tags (CI tags), no mirror",
+    "target": "git add board/keys.json data/by-place board/runs/place.algarve.central board/team/place.algarve.central && git commit -q -m \"place.algarve.central@PrompTugal.dinis: central Algarve first run: 19 news items, 15 map entries, 5 official contac"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 14,
+  "in_mandate": 13,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
