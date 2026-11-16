@@ -440,7 +440,11 @@ const provenance = (p, r, item, src) => ({ source_url: item.url || item.source_u
 export function api(ctx) {
     const L = load(ctx)
     const recs = L.list.map(p => placeRecord(ctx, L, p))
+    // which place pages exist in each culture, and how much of the memory they use (spec item 8)
+    const i18n = memories(ctx).map(({ culture, m }) => ({ path: `api/v1/i18n/${culture}/index.json`, schema: null, data: { culture, version: ctx.VERSION, built: ctx.TODAY, memory_entries: m.size,
+        memory: `${SITE_URL}${TM_DIR}/${culture}/`, pages: [L.byId.get('algarve'), ...pagePlaces(L)].filter(Boolean).map(p => ({ place: p.id, page: `${SITE_URL}${culture}/${p.path}`, original: `${SITE_URL}${p.path}` })) } }))
     return [
+        ...i18n,
         { path: 'api/v1/by-place/index.json', schema: null, data: { about: W(L, 'api_index_about'), version: ctx.VERSION, built: ctx.TODAY,
             places: recs.map(r => ({ id: r.id, name: r.name, kind: r.kind, parent: r.parent, path: L.byId.get(r.id).path, agent: r.agent, status: r.status, updated: r.updated, ai_news: r.counts.ai_news, ai_map: r.counts.ai_map, articles: r.counts.articles, page: r.page, api: `${SITE_URL}api/v1/by-place/${r.id}.json`, at: r.at, accent: r.look.accent, landmark: r.look.landmark, identity: L.byId.get(r.id).identity || null, signature: r.identity.signature })) } },
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}.json`, schema: null, data: { about: W(L, 'api_place_about', { name: r.name }), version: ctx.VERSION, ...r } })),
