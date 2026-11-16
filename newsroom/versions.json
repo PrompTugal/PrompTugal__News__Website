@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1552",
+    "date": "2026-11-16",
+    "what": "place.lagoa@PrompTugal.dinis: run report of the 03:40 wake (nothing new to add)",
+    "by": "place.lagoa@PrompTugal.dinis",
+    "from": "1d596a3b0"
+  },
+  {
     "version": "v0.1.1551",
     "date": "2026-11-16",
     "what": "data.places@PrompTugal.dinis: run report (hourly wake 03:15)",
