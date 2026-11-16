@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "acoriano-oriental",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Açoriano Oriental",
+  "names_as_listed": [
+    "Açoriano Oriental"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: also operates Rádio Açores TSF (listed on the contacts page): not recorded as a separate outlet.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:acores"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.acorianooriental.pt/",
+    "owner": {
+      "name": "Açormedia, Comunicação Multimédia e Edição de Publicações, S.A. (Global Notícias-Media Group S.A. holds 70% per the ficha técnica)",
+      "source": {
+        "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.acorianooriental.pt/feed/rss.xml",
+        "format": "rss",
+        "source": {
+          "url": "https://www.acorianooriental.pt/feed/rss.xml",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml"
+        }
+      },
+      {
+        "url": "https://www.acorianooriental.pt/feed/atom.xml",
+        "format": "atom",
+        "source": {
+          "url": "https://www.acorianooriental.pt/feed/atom.xml",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/atom+xml"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.acorianooriental.pt/pagina/contactos",
+      "source": {
+        "url": "https://www.acorianooriental.pt/pagina/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Paula Gouveia",
+        "role": "Diretora editorial",
+        "source": {
+          "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Ana Carvalho Melo",
+        "role": "Editora de fecho",
+        "source": {
+          "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Nuno Martins Neves",
+        "role": "Editor de fecho",
+        "source": {
+          "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Rui Jorge Cabral",
+        "role": "Editor de fecho",
+        "source": {
+          "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Arthur Melo",
+        "role": "Editor de fecho",
+        "source": {
+          "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica (ERC registo 106992 stated)"
+      },
+      {
+        "url": "https://www.acorianooriental.pt/pagina/contactos",
+        "read_at": "2026-11-16",
+        "how": "contactos page"
+      },
+      {
+        "url": "https://www.acorianooriental.pt/",
+        "read_at": "2026-11-16",
+        "how": "home head for feed links"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica (ERC registo 106992 stated)",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.acorianooriental.pt/pagina/contactos",
+      "read_at": "2026-11-16",
+      "how": "contactos page",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.acorianooriental.pt/",
+      "read_at": "2026-11-16",
+      "how": "home head for feed links",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

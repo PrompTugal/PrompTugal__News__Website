@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "sao-bras-de-alportel",
+  "type": "place",
+  "name": "São Brás de Alportel",
+  "kind": "city",
+  "located_in": "place:algarve",
+  "matches": [],
+  "source": "data/by-place/places.json",
+  "note": "A municipality of the Algarve in the by-place list (data/by-place/places.json); its boundaries and neighbours still to be checked against DGT's CAOP."
+}

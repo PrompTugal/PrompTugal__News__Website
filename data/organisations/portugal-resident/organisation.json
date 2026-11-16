@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "portugal-resident",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Portugal Resident",
+  "names_as_listed": [
+    "Portugal Resident"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: About page blocked by Cloudflare; owner, masthead, contacts unread.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "en"
+    ],
+    "website": "https://www.portugalresident.com",
+    "feeds": [
+      {
+        "url": "https://www.portugalresident.com/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.portugalresident.com/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.portugalresident.com/feed/",
+        "read_at": "2026-11-16",
+        "how": "feed fetched"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.portugalresident.com/feed/",
+      "read_at": "2026-11-16",
+      "how": "feed fetched",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

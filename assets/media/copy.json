@@ -1,0 +1,20 @@
+{
+  "index_title": "Local media",
+  "index_summary": "The news organisations that cover the places on PrompTugal.news, each with where it reports, its own site and the feeds and contacts it publishes. Go to them first: we link, they report.",
+  "index_intro": "These outlets do the reporting. Each page says what the outlet covers and links to its own site, its feed and its contact page, each with the date we read it.",
+  "index_empty": "No outlet is listed yet.",
+  "block_h": "Local media",
+  "block_wider": "Covers the wider area",
+  "block_intro": "Read them first: they report from here.",
+  "facts_kind": "Kind",
+  "facts_covers": "Covers",
+  "facts_lang": "Language",
+  "facts_site": "Its own site",
+  "facts_owner": "Owner",
+  "feeds_h": "Feeds",
+  "contact_h": "Contact",
+  "contact_note": "The outlet's own contact page; we copy nothing from it that it does not publish for the newsroom.",
+  "people_h": "Editors and journalists it names publicly",
+  "sources_h": "Where this comes from",
+  "all": "All local media"
+}

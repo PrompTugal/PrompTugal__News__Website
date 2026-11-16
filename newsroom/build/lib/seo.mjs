@@ -44,6 +44,8 @@ export function seoHead(page, site) {
         `<meta name="twitter:image" content="${attr(img.url)}">`,
         `<meta name="twitter:image:alt" content="${attr(img.alt)}">`,
         `<link rel="alternate" type="application/rss+xml" title="${attr(S.name)}: articles" href="${site.BASE}feed.xml">`,
+        // a page's own feeds (a place's, a topic's: lib/feeds.mjs), page.feeds = [{ type, title, rel }]
+        ...(page.feeds || []).filter(f => /^application\/(rss\+xml|feed\+json)$/.test(f.type)).map(f => `<link rel="alternate" type="${f.type}" title="${attr(f.title)}" href="${site.BASE}${attr(f.rel)}">`),
     ]
     if (article) {
         if (isDate(m.date)) tags.push(`<meta property="article:published_time" content="${m.date.slice(0, 10)}">`)

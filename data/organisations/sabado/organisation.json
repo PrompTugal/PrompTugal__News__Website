@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "sabado",
+  "type": "organisation",
+  "kind": "media",
+  "name": "SÁBADO",
+  "names_as_listed": [
+    "SÁBADO"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Individual journalists' personal-format addresses are published on the ficha técnica: personal contact published, not recorded.",
+  "media": {
+    "outlet_kind": "magazine",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.sabado.pt",
+    "owner": {
+      "name": "Medialivre S.A. (named on the contacts page newsletter consent)",
+      "source": {
+        "url": "https://www.sabado.pt/a-sabado/detalhe/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://sabado.pt/rss",
+        "format": "rss",
+        "source": {
+          "url": "https://sabado.pt/rss",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml; charset=ISO-8859-1, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.sabado.pt/a-sabado/detalhe/contactos",
+      "source": {
+        "url": "https://www.sabado.pt/a-sabado/detalhe/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Carlos Rodrigues",
+        "role": "Diretor Geral Editorial",
+        "source": {
+          "url": "https://www.sabado.pt/a-sabado/detalhe/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Maria Henrique Espada",
+        "role": "Diretora-Executiva",
+        "source": {
+          "url": "https://www.sabado.pt/a-sabado/detalhe/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.sabado.pt/a-sabado/detalhe/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      },
+      {
+        "url": "https://www.sabado.pt/a-sabado/detalhe/contactos",
+        "read_at": "2026-11-16",
+        "how": "contacts read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.sabado.pt/a-sabado/detalhe/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.sabado.pt/a-sabado/detalhe/contactos",
+      "read_at": "2026-11-16",
+      "how": "contacts read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

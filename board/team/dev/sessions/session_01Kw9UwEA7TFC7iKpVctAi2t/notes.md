@@ -19,3 +19,8 @@ Started by conductor.b@PrompTugal.dinis for the restart (board/team/conductor.b/
 - translator@'s it-IT took docs.json to 415 KB (gate red). Fix in search.mjs: pages with a non-English `lang` are out of the English index. 320 KB after.
 - work/designer.places held for designer@ (onboarding only).
 - newsroom/tests/search.test.mjs: 6 failures with or without the fix (stale summit fixtures).
+
+## Wake 21:09 UTC
+
+- Feeds per place (lib/feeds.mjs), head links via page.feeds; 36 x 2 feeds parse. 15c9a52 brought. designer.places 90cfe86 held for designer@.
+

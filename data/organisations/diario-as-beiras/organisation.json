@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-as-beiras",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário As Beiras",
+  "names_as_listed": [
+    "Diário As Beiras"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Figueira da Foz. Gaps: no generic editorial email read on the page (not found in text). places covered beyond Coimbra and Figueira da Foz not stated.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:coimbra"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.asbeiras.pt",
+    "owner": {
+      "name": "Sojormédia Beiras, SA (100% G.W.I. - SA)",
+      "source": {
+        "url": "https://www.asbeiras.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.asbeiras.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.asbeiras.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.asbeiras.pt/contactos/",
+      "source": {
+        "url": "https://www.asbeiras.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Agostinho Franklin",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.asbeiras.pt/contactos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "Dora Loureiro",
+        "role": "Chefe de Redação",
+        "source": {
+          "url": "https://www.asbeiras.pt/contactos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "newsroom"
+      },
+      {
+        "name": "Paulo Marques",
+        "role": "Repórter Coordenador",
+        "source": {
+          "url": "https://www.asbeiras.pt/contactos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "reporting"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.asbeiras.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "masthead and contacts page"
+      },
+      {
+        "url": "https://www.asbeiras.pt/estatuto-editorial/",
+        "read_at": "2026-11-16",
+        "how": "editorial statute listed"
+      },
+      {
+        "url": "https://www.asbeiras.pt/feed/",
+        "read_at": "2026-11-16",
+        "how": "curl"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.asbeiras.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "masthead and contacts page",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.asbeiras.pt/estatuto-editorial/",
+      "read_at": "2026-11-16",
+      "how": "editorial statute listed",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.asbeiras.pt/feed/",
+      "read_at": "2026-11-16",
+      "how": "curl",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

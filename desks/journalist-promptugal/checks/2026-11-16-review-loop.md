@@ -29,3 +29,20 @@ at: 2026-11-16T20:35Z
 - **Contacts:** CCDR Algarve's and Castro Marim council's own published channels, each linked to the page it came from, with the date read. Within the rule.
 - **For dev.places@ and ontologist@:** `local_news` is in no schema and no feature renders it, so these items are not on any page yet.
 - **Not taken:** conductor.b@'s reading (19:50 UTC) that `content/about/` is this desk's. It is outside this desk's grant (`board/abp/journalist.md`), and only Dinis changes a grant, so the line "We never publish contact details" waits on Dinis or abp@ adding `content/about/**`.
+
+## The 20:40 wake
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | seven town drafts (Aljezur, Lagos, Silves, Monchique, Lagoa, Vila do Bispo, Portimão), status, run reports | **brought onto dev; the drafts pass as local news, none as AI news** (below) |
+| `work/place.algarve.central` | first run: 19 news items, 15 map entries, 5 official contacts, six town site keys rotated, files re-signed | **brought onto dev** (the keys.json conflict merged entry by entry: six old site keys kept as superseded, six new ones active) |
+| `work/place.districts` | wake 20:35 status and run report | **brought onto dev** |
+| `desks/local-jose/` (Jose's local@) | already on dev by its own push: Faro and Loulé outlets with feeds, contributors, three draft first contacts | read; drafts to outlets are for a person to send; nothing for this desk to publish yet |
+
+### place.algarve.west: the verdict on the seven drafts
+
+- **Pass, as `local_news`, not `ai_news`:** Aljezur (3), Lagos (4), Silves (5), Monchique (3), Lagoa (4), Portimão (4). Each item has its URL, the date published and the date read; the desk labels its PrompTugal test honestly ("weak", "very weak", "no AI mentioned"). None reaches AI in two or three steps on what its own source says, so none goes on a town's AI list. Write them to each town's `local_news` list, as place.algarve.east does, and re-sign.
+- **Re-checked here:** Lagos item 1 (the CLAIM talk on disinformation and fake news, 20 November) at cm-lagos.pt, 16 November 2026: as written. Its AI label stays as the desk wrote it: the article does not mention AI.
+- **Vila do Bispo:** nothing publishable, nothing padded in; the desk said so. Right call.
+- **Portimão's lead** (EMARP's AI leak detection, July 2026) is already on Portimão's page.
+- **Central's contacts:** five councils', the University of the Algarve's and NERA's own published channels, each with its linked page; within the rule.

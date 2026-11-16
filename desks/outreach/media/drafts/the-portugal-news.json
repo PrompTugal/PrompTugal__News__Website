@@ -1,0 +1,67 @@
+{
+ "type": "contact-request/v1",
+ "from": "outreach@PrompTugal.dinis",
+ "company": "the-portugal-news",
+ "purpose": "Ask The Portugal News to check its page on PrompTugal.news and invite it to write for its place",
+ "share": [
+  "https://promptugal.news/organisations/the-portugal-news/",
+  "https://promptugal.news/contribute/",
+  "https://promptugal.news/api/v1/billing/meter.json"
+ ],
+ "language": "en",
+ "proposed_text": "Subject: The Portugal News on PrompTugal.news: could you check your page is right?\n\nHello The Portugal News team,\n\nPrompTugal.news is a new newsroom, made in Portugal by AI agents, that follows technology and AI place by place, every fact linked to its source. We have built a page for The Portugal News:\nhttps://promptugal.news/organisations/the-portugal-news/\n\nThe page links first to your site (https://www.theportugalnews.com) and your feed (https://theportugalnews.com/rss), with the date we read them. We do not copy your text: we link, credit and send readers to the original story.\n\nWe ask one thing: could you check that what is there is right? If anything is wrong, reply and we correct it on the page itself, dated.\n\nIf anyone in your newsroom would like to write with us about their place, the page for contributors is this one:\nhttps://promptugal.news/contribute/\nWhat we publish is under CC BY 4.0, with credit to its author. There is no payment for now.\n\nIn time we want to share with news outlets part of what our reading meter counts for the work we link and cite. That is not built yet; we will tell you the terms before it exists. The meter today is here: https://promptugal.news/api/v1/billing/meter.json\n\nThe pages are in English. Answering is optional.\n\nBest regards,\n[the sender, for a person to choose]\nPrompTugal.news\n\nDrafted by an AI agent, reviewed and sent by a person. We found this contact on your website. If you would rather not hear from us again, reply and we will not write again.",
+ "sender": null,
+ "sender_note": "left for a person to choose",
+ "by": null,
+ "channel": {
+  "kind": "published-newsroom-page",
+  "url": "https://www.theportugalnews.com/contacts",
+  "read": "2026-11-16",
+  "note": "the outlet's own page; a person reads the address there. No address or number is copied into this repository."
+ },
+ "offers_checked": {
+  "page-check": {
+   "live": true,
+   "evidence": "https://promptugal.news/organisations/the-portugal-news/",
+   "read": "2026-11-16"
+  },
+  "link-and-credit": {
+   "live": true,
+   "evidence": "the outlet page links its site and feed with the date read",
+   "read": "2026-11-16"
+  },
+  "place-page-links-outlet": {
+   "live": false,
+   "evidence": "https://promptugal.news/portugal/portugal/",
+   "read": "2026-11-16"
+  },
+  "write-for-your-place": {
+   "live": true,
+   "evidence": "https://promptugal.news/contribute/ (CC BY 4.0, no payment for now)",
+   "read": "2026-11-16"
+  },
+  "share-of-meter": {
+   "live": false,
+   "evidence": "no per-source wallet exists; worded only as intent, option B of the decision page",
+   "read": "2026-11-16"
+  },
+  "feeds-out": {
+   "live": false,
+   "evidence": "no per-place feed in REALITY.md; not offered",
+   "read": "2026-11-16"
+  },
+  "agentic-desk": {
+   "live": false,
+   "evidence": "not built; not offered",
+   "read": "2026-11-16"
+  }
+ },
+ "status": "draft",
+ "holds": [
+  "Nothing is sent by an agent. A person reviews, chooses the sender and sends.",
+  "Dinis's decision on what a first email may promise is open (content/newsroom/decisions/what-a-first-contact-to-a-news-organisation-may-promise.md). The money paragraph is option B's line; if he picks another option it changes or goes.",
+  "A person opens the outlet page and the contact page before sending, and checks both still answer and say what the draft says.",
+  "The pages are in English only; the draft says so.",
+  "No RiskMandate line and no publisher line: Dinis took RiskMandate off the site (7 Nov) and the publisher question is open on the decision page."
+ ]
+}

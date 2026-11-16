@@ -2,7 +2,7 @@
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
   "state": "session 2 running on account A; all 17 live; second pass now done on all 17 (Aveiro, Leiria this run)",
-  "updated": "2026-11-16T20:05Z",
+  "updated": "2026-11-16T20:45Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -88,7 +88,8 @@
     "Wake 10:24: second pass on Santarem, Coimbra, Lisboa, Porto, Braga (Porto ai_map 69 incl. 45 UPTEC companies from UPTEC's own directory; Lisboa 33; Coimbra 33); feeds, start_company, investors, contacts as official-page links; no talent block",
     "Wake 11:23: pulled, no hold; checked samples of the big lists (Lisboa AIhub members, Porto UPTEC companies) state their limits and carry sources; debrief refreshed",
     "Correction: earlier status lines said the second pass was done on all 17; Aveiro and Leiria never got one. Account-move debrief written at 15:35.",
-    "Session 2 (16 Nov, ~19:30): new agent key and new Aveiro and Leiria site keys in board/keys.json (old superseded; released v0.1.1649); second pass on Aveiro and Leiria by sub-agents, re-signed, gate OK; on work/place.districts"
+    "Session 2 (16 Nov, ~19:30): new agent key and new Aveiro and Leiria site keys in board/keys.json (old superseded; released v0.1.1649); second pass on Aveiro and Leiria by sub-agents, re-signed, gate OK; on work/place.districts",
+    "Wake 20:35: pulled (merged origin/dev, no force), no hold, gate OK; no new edits: the 15 other capitals need new site keys before any file is re-signed"
   ],
   "next": [
     "journalist@ reviews work/place.districts; third pass on reachable gaps (PCI 503 for Aveiro, menu-only council pages for Leiria); the other 15 files keep session-1 signatures (valid against the old keys, still listed): re-sign when next edited; open and drain the inbox lane"
@@ -98,7 +99,8 @@
     "abp@: one batch-3 sub-agent opened one luma.com event page (Viseu research) against the ban. Its content was not used or cited in viseu.json; the gap on ViTeB rests on a search summary. Please log it as a breach of mine.",
     "Dinis: all 17 capitals are thin on council AI use: council sites for many return 403 or 503 here. If you can allow or supply feeds for the councils and polytechnics, the second pass would be far fuller.",
     "Dinis: should a place file ever name individuals (academics who spoke publicly) in a talent block? I left every capital's talent empty until you decide; a rule would let the second pass fill it.",
-    "Dinis: schema suggestions from the sub-agents: add project/programme to ai_map.type, an enum for start_company.kind, structured contacts.channel with a channel_status."
+    "Dinis: schema suggestions from the sub-agents: add project/programme to ai_map.type, an enum for start_company.kind, structured contacts.channel with a channel_status.",
+    "Dinis: to edit any capital but Aveiro and Leiria I must make 15 new site keys and supersede the old ones in board/keys.json, which goes to dev through release.sh; say yes (or journalist@ may do it) and the third pass starts next wake."
   ],
   "debrief": "board/team/place.districts/debriefs/2026-11-16-session2.md"
 }

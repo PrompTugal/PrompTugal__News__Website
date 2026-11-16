@@ -1,24 +1,23 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
-  "state": "reviewing the worker branches each wake; the release queue in use",
-  "updated": "2026-11-16T20:25Z",
+  "state": "feeds per place live; topic feeds next",
+  "updated": "2026-11-16T21:30Z",
   "done": [
+    "wake 21:09 (16 Nov): feeds out: RSS 2.0 and JSON Feed 1.1 per place (api/v1/by-place/<id>/feed.xml|json; 36 places, 322 items: our articles plus the local stories, each crediting its outlet), named in the place page head; brought 15c9a52 from work/dev.places (status, run report); translator@s kinds ask already met (i18n-tm, i18n-misc covers glossary.json); held work/designer.places 90cfe86 (now band dates) for designer@s pass",
+    "20:50 (16 Nov, conductor.b@s note, Dinis priority tonight): brought work/dev.places c7bd1fd onto dev: /media/ (76 news organisation pages), the Local media block per place, local_media in the place JSON; fixed an empty list and the unused wider-area label; review on board/team/dev.places/review-2026-11-16T2100Z.md",
     "wake 20:09 (16 Nov): brought onto dev work/dev.places (2 commits: its new key, onboarding; keys.json merged by id) and work/translator (2 commits: it-IT complete, 828 segments); fixed the red gate translator@ reported: search now leaves translated twins out of the English index (docs.json 415 KB to 320 KB). Held back work/designer.places (2 commits, key and onboarding only): it waits for designer@s pass, as its review workflow says",
     "run 1 (16 Nov, 19:25): own session key dev-promptugal (the account B key superseded as dev-promptugal-1); the release queue in newsroom/tools/release.sh: one release per clone (flock), the gate once and a re-gate only when what landed touches our files or the build, 30 tries with jitter; documented in newsroom/build/README.md",
     "wake 14:11 (12 Nov): the live sources strip carries a line for a while (line_for, until a UTC time, put back in the browser after): the Fringe's 'Tonight in Lisbon' until 23:59 UTC, at correspondent@'s ask; brought dev.pages@'s status",
     "wake 13:12 (12 Nov): lean: inbox empty; brought dev.data@ (story S59's data folder), dev.graphs@ and dev.pages@ status; GAMMA-Ray unchanged",
     "wake 12:12 (12 Nov): lean: inbox empty; brought dev.pages@'s debrief and status; GAMMA-Ray unchanged",
-    "wake 11:12 (12 Nov): Wednesday 11 called off again in the strip, the app and its page: the build keeps its own record of called-off days (the correspondent's day picks were cleared at 08:45); brought dev.data@ (S41), dev.graphs@, dev.pages@",
-    "wake 10:09 (12 Nov): lean: inbox empty; brought dev.pages@'s status; GAMMA-Ray unchanged",
-    "wake 09:09 (12 Nov): the app's empty-day note in the site's note look, without 'Nothing matches' (designer@); dev.data@'s <id>-websummit story folders always kept out of the deploy (checked: all excluded already); brought dev.data@, dev.graphs@, dev.pages@"
+    "wake 11:12 (12 Nov): Wednesday 11 called off again in the strip, the app and its page: the build keeps its own record of called-off days (the correspondent's day picks were cleared at 08:45); brought dev.data@ (S41), dev.graphs@, dev.pages@"
   ],
   "next": [
-    "feeds out: an RSS and a JSON feed per place and per topic, for local media",
-    "pages per news organisation (/media/<id>/), with dev.places@ from ontologist@s media kind",
-    "newsroom/tests/search.test.mjs: 6 failures that predate this wake (the summit data that came off on 11 Nov: people, Centre Stage sessions); update the test to the places-first site",
-    "a search index per culture, if the translated pages need search",
-    "at each wake: review and bring work/dev.places, work/translator (and work/designer.places once designer@ passes it) onto dev; answer on the board what is held back and why"
+    "topic feeds with lib/feeds.mjs feedFiles(); a gate check that every feed parses",
+    "review work/dev.places, work/translator, work/designer.places (after designer@) each wake",
+    "newsroom/tests/search.test.mjs: 6 stale failures (summit fixtures)",
+    "dev.places@s brief every-story-has-an-address"
   ],
   "asks": [
     "conductor.b@: please add a row to board/guidance/README.md (your path, not mine) telling every agent that release.sh is now a queue (newsroom/build/README.md, Releasing: the queue): nothing changes in how they call it; writers push to work/<role>, reviewers bring to dev",

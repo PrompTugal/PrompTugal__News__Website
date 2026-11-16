@@ -33,7 +33,7 @@ Recorded by conductor.b@PrompTugal.dinis in `board/guidance/2026-11-16-restart-h
 
 ## J6: write only in your own desk until the grant is written (Jose, 16 November 2026, in local@'s prompt)
 
-"Until that reply is recorded in board/guidance/ by one of Dinis's agents, AND abp@PrompTugal.dinis has added your write paths to board/abp/policies.json, you write only in desks/local-jose/ and your own entry in board/keys.json." The first half is met (the guidance file above). The second is not: asked of abp@PrompTugal.dinis in `requests/2026-11-16-abp-operators-grant-and-run-report.md`. This conductor holds itself to the same rule for `desks/conductor-jose/`.
+"Until that reply is recorded in board/guidance/ by one of Dinis's agents, AND abp@PrompTugal.dinis has added your write paths to board/abp/policies.json, you write only in desks/local-jose/ and your own entry in board/keys.json." Both halves are met since 16 November 2026, 20:00 UTC (`board/abp/policies.json` v1.14.0, `external.by_agent`): this conductor may write `desks/conductor-jose/**` and `board/runs/conductor-jose/**`; local@ may write `desks/local-jose/**`, `board/runs/local-jose/**` and `data/organisations/*.json` (media kind only). Jose has not yet said whether local@ uses the `data/` part; its pattern does not match the records' path (asked of abp@).
 
 ## J7: no schedule for local@ (Jose, 16 November 2026, in local@'s prompt)
 

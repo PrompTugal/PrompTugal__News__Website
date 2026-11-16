@@ -1,0 +1,86 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "universidade-fm",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Universidade FM",
+  "names_as_listed": [
+    "Universidade FM"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:braganca"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.universidade.fm/",
+    "owner": {
+      "name": "Rádio Universidade Marão - Cooperativa de Radiodifusão, CRL (UTAD 80%)",
+      "source": {
+        "url": "https://www.universidade.fm/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.universidade.fm/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.universidade.fm/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: /feed/ link tag on home page; curl with default UA returned 200 application/rss+xml"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.universidade.fm/contactos/",
+      "source": {
+        "url": "https://www.universidade.fm/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Luís Mendonça",
+        "role": "Director da estação (programação e informação)",
+        "source": {
+          "url": "https://www.universidade.fm/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "station"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.universidade.fm/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://www.universidade.fm/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contact page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.universidade.fm/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.universidade.fm/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

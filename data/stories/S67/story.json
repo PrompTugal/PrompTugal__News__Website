@@ -5,7 +5,7 @@
   "title": "Portugal's Center for Responsible AI: the money, partners and goals",
   "beat": "Portugal",
   "topic": null,
-  "status": "idea",
+  "status": "published",
   "rests_on": [
     "evidence:v-prr-center-for-responsible-ai",
     "evidence:v-crai-project-sheet",
@@ -17,23 +17,55 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-16-1550.json"
+      "desks/curator/2026-11-16-1550.json",
+      "desks/journalist-vicky/drafts/S67-center-for-responsible-ai-money-partners-goals.md",
+      "desks/reviewer-vicky/reviews/S67.md",
+      "content/articles/center-for-responsible-ai-money-partners-goals.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-portugal@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S67-center-for-responsible-ai-money-partners-goals.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S67.md",
+      "verdict": "Ready after Fix first, published under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-16"
+    }
+  ],
+  "article": {
+    "path": "content/articles/center-for-responsible-ai-money-partners-goals.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-16T15:50Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-16-1550.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-16",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S67-center-for-responsible-ai-money-partners-goals.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-16",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S67.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-16",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/center-for-responsible-ai-money-partners-goals.md"
     }
   ]
 }

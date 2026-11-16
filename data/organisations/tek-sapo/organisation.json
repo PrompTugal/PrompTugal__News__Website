@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "tek-sapo",
+  "type": "organisation",
+  "kind": "media",
+  "name": "SAPO TEK",
+  "names_as_listed": [
+    "SAPO TEK"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Section menu includes AI; AI-specific bylines not identified.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://tek.sapo.pt",
+    "owner": {
+      "name": "Casa dos Bits, Edições Lda (propriedade / editor)",
+      "source": {
+        "url": "https://tek.sapo.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://tek.sapo.pt/rss",
+        "format": "rss",
+        "source": {
+          "url": "https://tek.sapo.pt/rss",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://tek.sapo.pt/ficha-tecnica/",
+      "source": {
+        "url": "https://tek.sapo.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Fátima Caçador",
+        "role": "Diretora Editorial",
+        "source": {
+          "url": "https://tek.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology"
+      },
+      {
+        "name": "Francisca Andrade",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://tek.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology"
+      },
+      {
+        "name": "Gustavo Dias",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://tek.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology"
+      },
+      {
+        "name": "Cristina A. Ferreira",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://tek.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://tek.sapo.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://tek.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

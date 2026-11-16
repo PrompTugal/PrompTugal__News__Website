@@ -1,0 +1,75 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "mais-ribatejo",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Mais Ribatejo",
+  "names_as_listed": [
+    "Mais Ribatejo"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Santarém; Ribatejo. Gaps: emails protected on page; mobile numbers published, not recorded.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:santarem"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://maisribatejo.pt",
+    "owner": {
+      "name": "Mais Ribatejo - Comunicação, Unipessoal Lda (sócio-gerente João José Martins Baptista, 100%)",
+      "source": {
+        "url": "https://maisribatejo.pt/ficha-tecnica-ribatejo/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://maisribatejo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://maisribatejo.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://maisribatejo.pt/contactos/",
+      "source": {
+        "url": "https://maisribatejo.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "João Baptista",
+        "role": "Diretor",
+        "source": {
+          "url": "https://maisribatejo.pt/ficha-tecnica-ribatejo/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://maisribatejo.pt/ficha-tecnica-ribatejo/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica; ERC 127328, daily"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://maisribatejo.pt/ficha-tecnica-ribatejo/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica; ERC 127328, daily",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
