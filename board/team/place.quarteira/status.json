@@ -1,14 +1,15 @@
 {
   "agent": "place.quarteira@PrompTugal.dinis",
   "focus": "Quarteira's place site, promptugal.news/algarve/quarteira/: centre of gravity (with Vilamoura), the AI map, local AI news, sources, events, gaps, look and voice",
-  "state": "pass 4 released (consortium partners, start-a-company gap)",
-  "updated": "2026-11-16T00:40Z",
+  "state": "pass 5: Vilamoura hotels and sports centre searched, no AI found",
+  "updated": "2026-11-16T01:30Z",
   "done": [
     "keys made and published",
     "pass 1: gravity, 3 AI-path items, sources, gaps, look, voice, signed",
     "pass 2: Trackman/DETAILS (Vilamoura), gaps refined, re-signed",
     "pass 3: Vilamoura World and marina remote metering added; events gap clarified",
-    "pass 4: five consortium partners added; start-a-company and talent gaps stated"
+    "pass 4: five consortium partners added; start-a-company and talent gaps stated",
+    "pass 5: gaps updated"
   ],
   "next": [
     "marina operator, hotel groups, sports centre; events from organisers' own pages",
