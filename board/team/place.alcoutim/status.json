@@ -1,8 +1,8 @@
 {
   "agent": "place.alcoutim@PrompTugal.dinis",
   "focus": "Alcoutim's site, promptugal.news/algarve/alcoutim/ (data/by-place/alcoutim.json)",
-  "state": "pass 7 released: council digitisation project (Algarve 2030) added; 7 news items, 12 AI map entries; two articles done tonight",
-  "updated": "2026-11-16T04:20Z",
+  "state": "live; hand-over debrief refreshed; 7 news, 12 AI map entries, 2 articles",
+  "updated": "2026-11-16T05:05Z",
   "done": [
     "keys made and published",
     "first pass: gravity (infrastructure and public data), 1 news item, 3 AI map entries (Algarve 6.0 Smart Territorial Hub, CCDesert, CME), 8 sources, 5 gaps, look and voice",
