@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "A hotel group with an Albufeira hotel adopts an AI guest-mes",
   "ok": false
+ },
+ "7b720b72fd6a3383": {
+  "t": "Loulé installa 60 telecamere lungo l'anello alberghiero di Vilamoura, con estensione prevista a Quarteira; nessuna IA dichiarata",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Loulé is installing 60 cameras around Vilamoura's hotel ring",
+  "ok": false
  }
 }

@@ -15,6 +15,14 @@
   "src": "Council backs an AI workshop at the University of Algarve",
   "ok": false
  },
+ "8f6bfc3f243d5363": {
+  "t": "Postal porträtiert Sparos mit Sitz in Olhão: Der Bereich Digital Nutrition erfasst und analysiert Daten, um Fütterungspläne zu empfehlen, mit HatchTools (einer Web-App für Brutanlagen) und OptiFeeSH (einem Fütterungsplan-Modul für die Software AquaManager, gemeinsam mit der griechischen Firma I2S). Algorithmen sagen den Futterbedarf je nach Wachstumsphase voraus.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Postal profiles Sparos, based in Olhão: its Digital Nutritio",
+  "ok": false
+ },
  "8f8393c1b7217470": {
   "t": "Politécnico de Viseu zeigt RISKMAP, ein KI-Werkzeug, das Baudenkmäler überwacht",
   "by": "translator@PrompTugal.dinis",

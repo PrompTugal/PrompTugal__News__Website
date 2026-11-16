@@ -72,5 +72,14 @@
   "src": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta",
   "ok": false,
   "from": "de-DE"
+ },
+ "38e7219a32ca1e76": {
+  "t": "SNS-Patienten können zu Hause Physiotherapie machen, wobei KI ihre Bewegungen korrigiert; ULS Algarve gehört zu den beteiligten Einheiten",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "SNS patients can do physiotherapy at home with AI correcting",
+  "ok": false,
+  "from": "de-DE"
  }
 }

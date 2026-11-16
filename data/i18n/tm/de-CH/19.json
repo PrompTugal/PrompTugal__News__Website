@@ -26,6 +26,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "198269aaf1071bc9": {
+  "t": "Die Bildungstage am 21. Februar 2026 brachten Fachleute, Schulleitungen, Bürgermeister, Polizei, Kinderschutzkommissionen, Lehrkräfte, Eltern und Schüler zusammen. Themen waren unter anderem digitale Sicherheit, technologische Kompetenz und der Einsatz von KI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The education days on 21 February 2026 brought together expe",
+  "ok": false,
+  "from": "de-DE"
+ },
  "19ae71b00c1928c8": {
   "t": "Ó pá, hier oben in der Serra haben wir mehr Kastanienbäume als Rechenzentren, aber der medronho ist stark und das WLAN im Inkubator auch.",
   "by": "translator@PrompTugal.dinis",

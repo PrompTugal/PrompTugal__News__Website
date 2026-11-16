@@ -8,6 +8,14 @@
   "ok": false,
   "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
+ "935791d045e40f21": {
+  "t": "L'Algarve célèbre la Journée mondiale du tourisme 2026 sous le signe de l'IA, avec un parcours de tourisme technologique qui commence au NERA, à Loulé",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve marks World Tourism Day 2026 under an AI theme, with",
+  "ok": false
+ },
  "9390c8c9a07dffca": {
   "t": "La municipalité de Vila Real soutient le mois des bibliothèques scolaires consacré à la littératie et à l'IA",
   "by": "translator@PrompTugal.dinis",

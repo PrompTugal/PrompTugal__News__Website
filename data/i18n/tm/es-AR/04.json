@@ -26,6 +26,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "046fddff6d377e65": {
+  "t": "La nueva rectora de la UAlg defiende usar la IA en la enseñanza, no prohibirla",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UAlg's new rector says AI should be used in teaching, not ba",
+  "ok": false,
+  "from": "es-ES"
+ },
  "04b8aa715247e2ec": {
   "t": "PrompTugal.news Vila Real: IA y tecnología en Vila Real, una ciudad universitaria y de parque científico cuyo centro de gravedad es el campus de la UTAD y el Regia Douro Park, y lo que llega a Vila Real desde Trás-os-Montes, Portugal y el mundo. Independiente; cada dato con su fuente.",
   "by": "translator@PrompTugal.dinis",
