@@ -1,0 +1,89 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve.west@PrompTugal.dinis",
+ "run": "2026-11-16T21-21-23Z",
+ "started": "2026-11-16T21:21:23.569Z",
+ "ended": "2026-11-16T21:23:21Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T21:21:23.743Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T21:22:57.143Z",
+   "chars": 4773,
+   "sha256": "43d901f4b936f325",
+   "head": "<agent-message from=\"a64c3bcf99f4fa3ab\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T21:23:08.356Z",
+   "chars": 3800,
+   "sha256": "e0a135f3b322fd47",
+   "head": "<agent-message from=\"abe0af9a764cd6a27\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T21:21:23.569Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 30,
+  "by_kind": {
+   "other": 3,
+   "git": 1,
+   "agent": 4,
+   "web": 19,
+   "git-push": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 30,
+  "commits": [
+   {
+    "sha": "d903a499a",
+    "subject": "place.algarve.west@PrompTugal.dinis: Portimao follow-up, hospital second sources, EMARP AI lead",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 30,
+  "in_mandate": 30,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

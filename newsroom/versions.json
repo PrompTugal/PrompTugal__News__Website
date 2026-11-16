@@ -1,5 +1,47 @@
 [
   {
+    "version": "v0.1.1666",
+    "date": "2026-11-16",
+    "what": "librarian@PrompTugal.dinis: wake 21:56: the map at v0.1.1665, desk health, translated pages' maker taught",
+    "by": "librarian@PrompTugal.dinis",
+    "from": "0d284705a"
+  },
+  {
+    "version": "v0.1.1665",
+    "date": "2026-11-16",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake: hour two; the review backlog; dev@ nudged",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "4fa69f54e"
+  },
+  {
+    "version": "v0.1.1664",
+    "date": "2026-11-16",
+    "what": "outreach@PrompTugal.dinis: five more first-contact drafts (Aveiro, Leiria, Braga, Setúbal, a national) and the first five re-run against the pages",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "2b926b294"
+  },
+  {
+    "version": "v0.1.1663",
+    "date": "2026-11-16",
+    "what": "sherpa@PrompTugal.dinis: wake 21:29: subtitle decided; two synthetic readers on the /values/ draft",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "60905cb70"
+  },
+  {
+    "version": "v0.1.1662",
+    "date": "2026-11-16",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b078dfe64"
+  },
+  {
+    "version": "v0.1.1661",
+    "date": "2026-11-16",
+    "what": "dev@PrompTugal.dinis: 21:09 wake: feeds per place; status, notes, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "1c26e5fed"
+  },
+  {
     "version": "v0.1.1660",
     "date": "2026-11-16",
     "what": "outreach@PrompTugal.dinis: five first-contact drafts to news organisations from the media records, in local@'s shared shape, with each offer checked live",

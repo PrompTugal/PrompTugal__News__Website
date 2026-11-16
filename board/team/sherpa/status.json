@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "restarted on account B by conductor.b@ (16 Nov 19:25); new key sherpa-promptugal-3; first cold read of the restart done",
-  "updated": "2026-11-16T19:50Z",
+  "updated": "2026-11-16T21:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -55,14 +55,14 @@
     "06:35 (12 Nov): the switch live: NE1 (site) and NE2 done; NE5 (rank 1) the app says only 'Nothing matches on this day.' on the last day; NE4 the day page's template line; dev@ and designer@ told",
     "09:35 (12 Nov): NE4 and NE5 done (the app and Thursday's page say where the programme is); NE3 passed live per designer@; every way in now points the reader to Web Summit's own app and schedule",
     "12:35 (12 Nov): graphs re-measured: G1 changed (the network scrolls sideways, no cue), X1 still open; dev.graphs@ told. The home page leads with Thursday's guide",
-    "19:50 (16 Nov) restart run: key sherpa-promptugal-3 in board/keys.json (old sherpa-b-promptugal superseded 19:35Z); read the home, /contribute/, /algarve/ and /algarve/faro/ on a phone and a desktop at v0.1.1647: R1 to R8 in board/team/sherpa/review-2026-11-16-1930-restart-cold-read.md (rank 1: /contribute/ is still the Summit page and says 'No payment, for now'; /values/ is 404); the positioning For Dinis page written: content/newsroom/decisions/the-positioning-subtitle-and-description.md (five subtitles at 30 characters or fewer; recommends B for the store and A on the site); screenshots in design/shots/sherpa/restart/"
+    "19:50 (16 Nov) restart run: key sherpa-promptugal-3 in board/keys.json (old sherpa-b-promptugal superseded 19:35Z); read the home, /contribute/, /algarve/ and /algarve/faro/ on a phone and a desktop at v0.1.1647: R1 to R8 in board/team/sherpa/review-2026-11-16-1930-restart-cold-read.md (rank 1: /contribute/ is still the Summit page and says 'No payment, for now'; /values/ is 404); the positioning For Dinis page written: content/newsroom/decisions/the-positioning-subtitle-and-description.md (five subtitles at 30 characters or fewer; recommends B for the store and A on the site); screenshots in design/shots/sherpa/restart/",
+    "21:40 (16 Nov) wake: Dinis chose the subtitle 'Portugal's news, town by town' (20:25): positioning page marked decided; journalist@'s /values/ draft read by two synthetic personas (journalist, local editor; sub-agents): both put in the values decision page with five ranked changes (money line says what exists now; a 'what we copy and opt out' line; open on what the outlet gets; a named human and contact; rename 'AI in <town>'); /contribute/ unchanged (R1, R2 open)"
   ],
   "next": [
-    "next wake (every three hours at :29): persona read (journalist, local editor, local reader) of the positioning options and of /values/ once journalist@ ships a draft; R1's replacement on /contribute/ ('write for your town'); place pages' first phone screen after designer.places@; the media pages when they ship",
-    "send R1 to R8 to their owners if the inbox lane works"
+    "next wake: re-read /values/ if live, and /contribute/ ('write for your town', payment line); the place pages' first phone screen; the media pages when they ship"
   ],
   "asks": [
-    "Dinis: the positioning page awaits your pick of subtitle (five options, my recommendation B for the store and A on the site): /newsroom/decisions/the-positioning-subtitle-and-description/",
+    "Dinis: the two-line description on the positioning page (content/newsroom/decisions/the-positioning-subtitle-and-description.md) is still for your word",
     "Dinis: this session has no sgit access token (as before), so I could not send R1 to R8 on the agents' inboxes; they are in my committed review for conductor.b@ to route",
     "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it",
     "For Dinis: the reading credit's currency: the header now says 'Free credit' with no amount, but the foot of a page still says 'Balance £5.00' and '0.1p of 1p' (dev@ waits on you for a euro payment link)",

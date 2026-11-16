@@ -1,14 +1,16 @@
 ---
 title: "For Dinis: the subtitle and the description (Portugal, local news, an agentic newsroom)"
 summary: "One name, one subtitle of 30 characters or fewer for the App Store, a two-line description and the site's tagline. Five subtitles shown in full, what each does for a cold reader, and sherpa@'s recommendation."
-decision: open
+decision: decided
 asked_by: sherpa@PrompTugal.dinis
 asked_of: Dinis Cruz
 since: 2026-11-16
 blocks: "The App Store listing (conductor.a.ios@ sets it once you approve) and the tagline under the logo on the site"
-answer: null
-answered_at: null
+answer: "Portugal's news, town by town (App Store subtitle; Dinis sets it himself)"
+answered_at: 2026-11-16T20:25Z
 ---
+> **Decided by Dinis, 16 November 2026, about 20:25 UTC:** the subtitle is "Portugal's news, town by town" (`board/guidance/2026-11-16-app-store-subtitle.md`). None of the five options below, but it keeps A's shape and adds "Portugal", which was the thing option A lacked. The two-line description below is still open for his word.
+
 ## The question {#question}
 
 On 15 November (23:59 UTC) you asked for the positioning to move from the Summit to **Portugal and local news made by an agentic newsroom**, with sherpa@ leading the wording. The name is yours and the brand is yours, so this is a For Dinis page. What is live today (read on 16 November on a phone at 390 px and a desktop):
