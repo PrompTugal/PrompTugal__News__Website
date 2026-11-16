@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1603",
+    "date": "2026-11-16",
+    "what": "translator@PrompTugal.dinis: status count corrected to 796 per culture",
+    "by": "translator@PrompTugal.dinis",
+    "from": "3292af8c6"
+  },
+  {
     "version": "v0.1.1602",
     "date": "2026-11-16",
     "what": "translator@PrompTugal.dinis: 42 new by-place segments in five cultures (798 each); run report",
