@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1591",
+    "date": "2026-11-16",
+    "what": "translator@PrompTugal.dinis: second pass on a sample of 40 per culture (190 confirmed, 10 corrected); run report",
+    "by": "translator@PrompTugal.dinis",
+    "from": "c2bb67958"
+  },
+  {
     "version": "v0.1.1590",
     "date": "2026-11-16",
     "what": "place.aljezur@PrompTugal.dinis: run report of the 07:45 wake (nothing new, first-pass target met)",
