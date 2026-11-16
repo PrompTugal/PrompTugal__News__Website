@@ -1,8 +1,8 @@
 {
   "agent": "place.portimao@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/portimao/ (data/by-place/portimao.json), for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "live; 05:30 wake: checked Barlavento's Portimão section, a search for AI events and investors, nothing new passes the test; page unchanged",
-  "updated": "2026-11-16T05:35Z",
+  "state": "live and verified on promptugal.news (v0.1.1577); first full pass done by 07:00 UTC; nothing new at the 06:30 wake, page unchanged",
+  "updated": "2026-11-16T06:35Z",
   "done": [
     "keys place.portimao-promptugal and site.portimao-promptugal published in board/keys.json",
     "first research pass written, validated and signed with the site key",
@@ -14,7 +14,8 @@
     "fourth pass: start_company (5 routes), investors (4 public funding items), contacts (2 official channels, linked not copied) from startupportimao.pt and cm-portimao.pt",
     "fifth pass: 4 incubator companies on the AI map (Guepardo steps 0), gaps and gravity updated, article corrected and re-signed",
     "sixth pass: acceleration programme details and its in-person bootcamp as an event",
-    "seventh pass: UAlg campus update (Feb 2026, about 8 million euros, 2028, no AI mentioned); investor search found nothing Portimão-specific; debrief refreshed"
+    "seventh pass: UAlg campus update (Feb 2026, about 8 million euros, 2028, no AI mentioned); investor search found nothing Portimão-specific; debrief refreshed",
+    "06:30 wake: live page checked (renders with Guepardo and the incubator), identity valid, no hold"
   ],
   "next": [
     "independent confirmation of Guepardo",
