@@ -4,12 +4,12 @@
   "name": "Vila Real de Santo António",
   "kind": "municipality",
   "parent": "algarve",
-  "status": "researching",
+  "status": "live",
   "updated": "2026-11-16",
   "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
   "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in Vila Real de Santo António, a Pombaline border town on the Guadiana where cross-border projects count, and what reaches it from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
-    "text": "Vila Real de Santo António is a planned town on the Guadiana, built from 1773 on a grid and completed in 1776, whose old fishing and canning economy gave way to tourism, with many residents working across the river around Ayamonte in Spain. Today it is pushing to become a national pole of the blue economy, around its fishing port and a shipbuilding yard, and it is wiring its historic centre under the PRR-funded VRSA Digital project. It shares the Eurocidade do Guadiana with Ayamonte and Castro Marim, and the council holds its presidency in 2026. We found no AI company based in the town yet, so for now the AI story is a shipyard that built a robot test vessel, data groundwork and a Spanish neighbour's plans.",
+    "text": "Vila Real de Santo António is a planned town on the Guadiana, built from 1773 on a grid and completed in 1776, whose old fishing and canning economy gave way to tourism, with many residents working across the river around Ayamonte in Spain. Today it is pushing to become a national pole of the blue economy, around its fishing port and a shipbuilding yard, and it is wiring its historic centre under the PRR-funded VRSA Digital project and joining a six-municipality PRR sensor platform. It shares the Eurocidade do Guadiana with Ayamonte and Castro Marim, and the council holds its presidency in 2026. We found no AI company based in the town yet, so for now the AI story is a shipyard that built a robot test vessel and plans a unit for unmanned vessels, data groundwork and a Spanish neighbour's plans.",
     "sources": [
       {
         "title": "Vila Real de Santo António (history and economy)",
@@ -39,6 +39,17 @@
     "motif": "river blue, a ruled grid, a ferry to Spain"
   },
   "ai_news": [
+    {
+      "title": "A Guadiana shipyard plans a defence unit aimed at unmanned vessels",
+      "summary": "Nautiber, the shipyard in Vila Real de Santo António, says it plans a new unit to build vessels for the defence sector, targeting unmanned systems and platforms. It has already delivered the structure for four surface drones with a partner and would team up with a Lagos yard, and it has not decided between VRSA, Portimão and Lagos. The piece is sponsored content, so these are the company's own claims.",
+      "date": "2025-12-17",
+      "publisher": "Barlavento (sponsored content)",
+      "url": "https://www.barlavento.pt/?p=388252",
+      "read_on": "2026-11-16",
+      "ai_path": "Surface drones and other unmanned platforms are where autonomy software and AI run. The yard builds the hulls and structures, not the software, and the article mentions no AI.",
+      "steps": 2,
+      "significance": "region"
+    },
     {
       "title": "VRSA wires its historic centre with free Wi-Fi and 16 footfall counters",
       "summary": "The council is installing free Wi-Fi and 16 pedestrian flow monitors in the historic centre, with bollards and information kiosks to follow, as part of a PRR-funded digital shops district worth about 895 thousand euros that targets some 200 businesses. The counters give statistics only and capture no image, video or sound. An online marketplace already lists over a hundred businesses.",
@@ -172,10 +183,10 @@
       "name": "Nautiber, Estaleiros Navais do Guadiana",
       "type": "company",
       "url": "https://www.barlavento.pt/mar-profundo-marca-a-entrada-da-nautiber-na-ciencia/",
-      "what": "Shipyard on the Guadiana in Vila Real de Santo António. In 2021 it launched the 19 metre research vessel «Mar Profundo» for INESC TEC and CINTAL (University of Algarve), meant for testing marine robots, sensors and unmanned underwater vehicles. Visited in February 2026 as part of the council's blue economy push.",
+      "what": "Shipyard on the Guadiana in Vila Real de Santo António. In 2021 it launched the 19 metre research vessel «Mar Profundo» for INESC TEC and CINTAL (University of Algarve), meant for testing marine robots, sensors and unmanned underwater vehicles. In December 2025 it said it plans a defence unit aimed at unmanned systems, with the structure of four surface drones already delivered, and the site undecided between VRSA, Portimão and Lagos. Visited in February 2026 as part of the council's blue economy push.",
       "source_url": "https://www.barlavento.pt/mar-profundo-marca-a-entrada-da-nautiber-na-ciencia/",
       "read_on": "2026-11-15",
-      "ai_path": "It builds the platform on which robotics and unmanned vehicles, a common home for AI, are tested at sea. The article mentions no AI.",
+      "ai_path": "It builds the hulls and structures of robots and drones, the platforms on which autonomy and AI run. The articles mention no AI.",
       "steps": 2
     },
     {
@@ -186,6 +197,16 @@
       "source_url": "https://cima.ualg.pt/en/info/simpatico",
       "read_on": "2026-11-16",
       "ai_path": "A long, open, high-frequency sensor series at the town's river mouth is the kind of dataset used to train and test forecasting models. The page mentions no AI.",
+      "steps": 2
+    },
+    {
+      "name": "Algarve 6.0 Smart Territorial Hub (PRR project, VRSA is one of six municipalities)",
+      "type": "public body",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
+      "what": "A PRR digital public administration project of 1.13 million euros, run through the state's technological reform agency, to put an urban management platform with sensors and a LoRaWAN network in six Algarve municipalities. Vila Real de Santo António is assigned 140.74 thousand euros, with nothing spent on the day we read the page. Planned areas include incident management, waste, water use, air quality, green spaces and monitoring isolated elderly residents. The page gives an expected end date of 30 June 2026.",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
+      "read_on": "2026-11-16",
+      "ai_path": "A shared data platform fed by town sensors is the layer that data-based decisions, and AI on top of them, would use. The project summary mentions no AI.",
       "steps": 2
     }
   ],
@@ -236,12 +257,13 @@
     "NERA runs digital projects across the Algarve (we saw DIBEST for microenterprises and a farm digitalisation survey in search results) but we have not opened a source or found one that names the municipality, so none is on the page.",
     "Local media: we found regional outlets that cover the town (Barlavento, Sul Informação, Postal do Algarve, 24notícias) but no local radio, blog or newsletter based in the municipality. Ask the council and the Eurocidade which exist. Only Sul Informação gave us an RSS feed.",
     "Investors, startups, local talent and cooperatives: we found none in public sources so far. The Entrepreneurship Office's workshops and the Eurocidade's women entrepreneurs network (seen in search results, not opened) are where to look next.",
-    "Algarve Evolution and the regional tech network (Algarve Tech Hub, Digital Innovators) publish no member list by municipality that we could read, so we cannot say whether any member is based in Vila Real de Santo António. The Algarve file of this publication covers the regional level."
+    "Algarve Evolution and the regional tech network (Algarve Tech Hub, Digital Innovators) publish no member list by municipality that we could read, so we cannot say whether any member is based in Vila Real de Santo António. The Algarve file of this publication covers the regional level.",
+    "The Algarve 6.0 sensor platform showed 0 euros spent for Vila Real de Santo António on the day we read it, with an expected end date of 30 June 2026 that has passed. We do not know what is installed in the town. Ask the council and the state's technological reform agency."
   ],
   "voice": {
     "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",
     "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in VRSA, the tidy Pombaline town with its feet in the Guadiana and one eye on Spain, plus whatever reaches us from the Algarve, Portugal and the world. Independent, and every fact has its source, pá.",
-    "gravity": "Pombal drew this town on a grid from 1773 and it was done by 1776, which is faster than most of us finish a bica. The sardines and tuna gave way to tourism, and plenty of people nip across the river to work near Ayamonte. Now the town wants to be the national capital of the blue economy, with a shipyard on the Guadiana that built a boat for testing robots, Wi-Fi and footfall counters in the centre, and the Eurocidade do Guadiana with Ayamonte and Castro Marim for the cross-border ideas. AI company based here? Not yet, caramba.",
+    "gravity": "Pombal drew this town on a grid from 1773 and it was done by 1776, which is faster than most of us finish a bica. The sardines and tuna gave way to tourism, and plenty of people nip across the river to work near Ayamonte. Now the town wants to be the national capital of the blue economy, with a shipyard on the Guadiana that built a boat for testing robots and fancies a unit for unmanned vessels, a PRR sensor platform shared with five other councils, Wi-Fi and footfall counters in the centre, and the Eurocidade do Guadiana with Ayamonte and Castro Marim for the cross-border ideas. AI company based here? Not yet, caramba.",
     "gaps_intro": "Eish, here is what we could not find, and an honest empty net is still a finding."
   }
 }
