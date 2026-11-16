@@ -50,6 +50,16 @@
       "steps": 1
     },
     {
+      "title": "InnoWave, a tech company with a hub in Beja, puts 3.8 million euros into AI",
+      "summary": "The company says it has put 2.2 million euros into AI in 2024 and 2025 and plans 1.6 million more in 2026, to speed up software delivery, new products, operations and talent. The article names a Beja technology hub but gives no detail on where the AI work is done.",
+      "date": "2026-04-28",
+      "publisher": "O Digital (SAPO), from Lusa",
+      "url": "https://sapo.pt/artigo/empresa-innowave-com-hub-tecnologico-em-beja-investe-3-8m-em-inteligencia-artificial-69f0d4164dab0b9581206d7d",
+      "read_on": "2026-11-16",
+      "ai_path": "A company with a technology hub in Beja investing in AI for its software work: directly about AI, one step from the city because the source does not place the AI work in Beja itself.",
+      "steps": 1
+    },
+    {
       "title": "Beja hosts two days on AI in the health professions",
       "summary": "The Baixo Alentejo local health unit organised its first conference for diagnostic and therapeutic technologists on 23 and 24 October 2026 at the polytechnic university, on how AI changes imaging, analysis, rehabilitation and other fields, with safety and ethics on the agenda.",
       "date": "2026-10-20",
@@ -71,7 +81,7 @@
     },
     {
       "title": "A farming robot and AI in Castro Verde, with Beja's polytechnic in the team",
-      "summary": "The SiARA project combines AI, an autonomous field robot called EVAbot and a sensor network to collect data on crops, soil, pasture and wildlife on the Campo Branco steppe. It started in November 2025 and its first field work was on 3 March 2026.",
+      "summary": "The SiARA project combines AI, an autonomous field robot called EVAbot and a sensor network to collect data on crops, soil, pasture and wildlife on the Campo Branco steppe. It started in November 2025 and its first field work was on 3 March 2026. The project was recognised in the Promove programme's mobilising R&D category.",
       "date": "2026-03-18",
       "publisher": "Notícias ao Minuto (Lusa)",
       "url": "https://www.noticiasaominuto.com/tech/2957675/projeto-utiliza-ia-para-apoiar-conservacao-da-natureza-no-alentejo",
@@ -97,6 +107,16 @@
       "url": "https://correioalentejo.com/politecnico-de-beja-integra-projeto-nacional-de-inteligencia-artificial/",
       "read_on": "2026-11-16",
       "ai_path": "A Beja higher-education institution adopting AI tools for teaching and research: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Ovibeja 2025 puts AI in farming at the centre of the fair",
+      "summary": "The 41st edition of the Beja farm fair, run by the farmers' association ACOS, took the theme of more agriculture and more future, with production linked to new technology and AI as a main focus and an innovation and technology pavilion for talks and equipment demonstrations.",
+      "date": "2025-04-29",
+      "publisher": "Notícias ao Minuto (Lusa)",
+      "url": "https://www.noticiasaominuto.com/pais/2776354/ovibeja-arranca-na-quarta-feira-centrada-na-agricultura-do-futuro-e-na-ia",
+      "read_on": "2026-11-16",
+      "ai_path": "The region's largest fair, held in Beja, named AI in agriculture a main focus: directly about AI. Older than the 2026 items.",
       "steps": 0
     }
   ],
@@ -142,13 +162,37 @@
       "url": "https://pact.pt/?p=3665",
       "kind": "business",
       "feed": null
+    },
+    {
+      "name": "NERBE/AEBAL (business association of Baixo Alentejo and Litoral, runs CIBT NERBE)",
+      "url": "https://www.nerbe.pt",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "CIBT NERBE, technology incubator in Beja",
+      "url": "https://www.nerbe.pt/cibt",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Câmara Municipal de Beja: Espaço Empresa",
+      "url": "https://cm-beja.pt/pt/2005/espaco-empresa.aspx",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Ovibeja (farm fair, ACOS)",
+      "url": "https://www.ovibeja.pt",
+      "kind": "events",
+      "feed": null
     }
   ],
   "events": [
     {
       "title": "Capacitação de Empresas para a Inovação, workshop series (Câmara Municipal de Beja, Auditório do Edifício Azul)",
       "date": "2026-11-17",
-      "url": "https://www.cm-beja.pt",
+      "url": "https://cm-beja.pt/pt/pt/agenda.aspx",
       "read_on": "2026-11-16",
       "ai_path": null
     }
@@ -193,6 +237,46 @@
       "read_on": "2026-11-16",
       "ai_path": "Supports public AI debates, with no AI use in its own services found.",
       "steps": 1
+    },
+    {
+      "name": "InnoWave",
+      "type": "company",
+      "url": "https://sapo.pt/artigo/empresa-innowave-com-hub-tecnologico-em-beja-investe-3-8m-em-inteligencia-artificial-69f0d4164dab0b9581206d7d",
+      "what": "Portuguese technology company that opened a technology hub in Beja in December 2021 on cybersecurity and IoT, created with the polytechnic and with the council and NERBE involved, and expected to hire over 50 people in three years. In April 2026 it said it has invested 2.2 million euros in AI in 2024 and 2025 and plans 1.6 million in 2026.",
+      "source_url": "https://hrportugal.sapo.pt/?p=238447",
+      "read_on": "2026-11-16",
+      "ai_path": "Invests in AI for software delivery and has a hub in Beja, but the hub's own work, as described in 2021, is cybersecurity and IoT, and no source ties the AI spending to Beja.",
+      "steps": 1
+    },
+    {
+      "name": "CIBT NERBE (technology incubator, run by NERBE/AEBAL)",
+      "type": "organisation",
+      "url": "https://www.nerbe.pt/cibt",
+      "what": "Beja's technology-based incubator, with modular offices and a coworking room in its second phase, open to firms in food and forestry, water, information and communication technologies and aeronautics. Its pages do not mention AI.",
+      "source_url": "https://www.nerbe.pt/cibt",
+      "read_on": "2026-11-16",
+      "ai_path": "The incubator's ICT focus is where a Beja AI startup would land, but no AI company is named on its pages.",
+      "steps": 2
+    },
+    {
+      "name": "PACT (Parque do Alentejo de Ciência e Tecnologia, Évora) with the AIRA project",
+      "type": "organisation",
+      "url": "https://pact.pt/?p=3665",
+      "what": "The Évora science park ran a two-day AI and robotics acceleration programme for IPBeja engineering students on 27 September and 4 October 2025 under AIRA, an EIT Deep Tech Talent Initiative project, with a free online course to follow. PACT is in Évora, not Beja.",
+      "source_url": "https://pact.pt/?p=3665",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches AI applied to robotics to Beja students.",
+      "steps": 0
+    },
+    {
+      "name": "Associação de Agricultores do Campo Branco (AACB, Castro Verde) and IST's mechanical engineering institute",
+      "type": "organisation",
+      "url": "https://odigital.sapo.pt/projeto-inovador-utiliza-ia-para-apoiar-agricultura-e-conservacao-da-natureza-no-alentejo/",
+      "what": "The other two named partners with the Beja polytechnic in the SiARA AI and field-robot project, based in Castro Verde and Lisbon. Listed here as they are Beja's partners, not as Beja organisations.",
+      "source_url": "https://odigital.sapo.pt/projeto-inovador-utiliza-ia-para-apoiar-agricultura-e-conservacao-da-natureza-no-alentejo/",
+      "read_on": "2026-11-16",
+      "ai_path": "Partners of a Beja polytechnic AI project.",
+      "steps": 1
     }
   ],
   "extras": [],
@@ -201,20 +285,117 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "Beja is a thin capital for AI. No startup or company based in the city and tied to AI turned up in pages we opened, and the council's news page and homepage mention no AI or technology item.",
+    "Beja is still a thin capital for AI. The one company we found with a Beja base and an AI plan is InnoWave, whose Beja hub is described as cybersecurity and IoT, and no startup based in the city is tied to AI. The council's news page and agenda show no AI or technology item.",
     "The council's homepage and news list were read through a summarising tool that showed some items dated after 16 November 2026, so we trust only the items we also saw elsewhere and list the 17 November workshop only as a listing with no programme or AI link. We should re-read the council's agenda page directly.",
-    "The university's own site (ipbeja.pt) answered 503, so its AI news is reached only through the press. The rename from Instituto to Universidade Politécnica came from press and DGES listings, and we did not open a decree.",
+    "The university's own site (ipbeja.pt) answered 503 again on 16 November, so its AI news is reached only through the press. The rename from Instituto to Universidade Politécnica came from press and DGES listings, and we did not open a decree.",
     "HiJiffy, a hotel AI company that raised 3.8 million euros in 2023, is based in Vidigueira, not Beja, so it belongs on a Vidigueira page. Aljustrel has a planned 200 million euro data centre by FF Ventures with no AI link in the source, and Castro Verde hosts SiARA. Neither is placed in Beja.",
-    "CIBT NERBE, a technology incubator said by one search summary to be based in Beja, and CEBAL, an agri-food biotechnology centre in Beja, were not confirmed on a page we opened as using AI. They are leads for the next round: their own sites and Alentejo 2030 notices.",
+    "CEBAL, an agri-food biotechnology centre in Beja, is still not confirmed as using AI: its agroportal pages answered 403. We confirmed CIBT NERBE as a real Beja incubator, but its pages do not name AI firms or mention AI.",
     "SABER SAÚDE com IA, a roughly 268 thousand euro PRR project, was not tied to Beja by any page we opened, so it is left out.",
     "No feed found for the council, the university or Diário do Alentejo. Correio Alentejo's RSS works.",
-    "Sources to look for: Alentejo 2030 and PRR lists for Beja beneficiaries, the Ovibeja fair's technology pavilion (a 2025 edition was themed on AI, but we found no 2026 programme), and Beja's economic development desk.",
-    "Investors, starting-a-company routes, talent and contacts are not filled: no public page we opened gave a Beja route we could confirm."
+    "Ovibeja: the 2025 edition was centred on AI in farming and is now in the news list. The 42nd edition (29 April to 3 May 2026) had a wine theme and an innovation pavilion, but the programme pages we could open gave no AI session, and the MED programme PDF was unreadable to us.",
+    "Talent is empty: no Beja source lists people who agreed to be listed. The investors block holds only a programme, a company's own spending and an unconfirmed incubator figure, with no 2025 or 2026 outside funding round for a Beja company. Sources to look for: Alentejo 2030 notices for CIBT NERBE and PRR beneficiary lists (the national transparency portal answered 401).",
+    "InnoWave's 2026 article says only that it has a Beja hub. We have no page on the hub's current size, staff or whether its work now includes AI, so the next step is InnoWave's own site and its Beja announcements.",
+    "The council's Espaço Empresa page lists no incubator and no Balcão Empresa na Hora by name. Its contact details are on that page, and its general Contactos page shows none in the text we could read.",
+    "NERBE's contact details and the CIBT form and regulation are published on its own site, but NERBE is an association, not a public body, so we link its pages and do not list a contact. PACT, which ran the AI robotics programme, is based in Évora.",
+    "Startup Portugal's homepage does not mention Beja, and we could not read the Startup Visa certified incubators list, so we do not say whether CIBT NERBE is certified."
   ],
   "voice": {
     "lede": "Beja, pá: where the plain runs flat to the horizon, the heat sits down for the afternoon, and a polytechnic quietly teaches robots to count sheep and cheeses to behave.",
     "mandate": "PrompTugal.news Beja, a capital do Baixo Alentejo: AI and tech in Beja, with the university as the brain in the whitewashed town, plus whatever news rolls in from the Alentejo, Portugal and the world. Independente, and every fact comes with a receipt.",
     "gravity": "Beja does not shout about AI, it hums. The university joins IAedu, hosts the health people for two days of debate and lends its know-how to a field robot and a cheese app, while the Câmara cheers from the front row. Farming and health, calma, with the university doing the heavy thinking.",
     "gaps_intro": "A planície é grande e nós ainda não vimos tudo. Here is what Beja has not told us yet:"
-  }
+  },
+  "start_company": [
+    {
+      "name": "Beja council: Espaço Empresa",
+      "what": "The council's one-stop point for entrepreneurs and companies, giving information, advice and follow-up. It lists online company formation, admissibility certificates for a company name, commercial registry changes, SME certification, a digital mobile key and trademark services. It publishes in-person, phone, email and online channels. The page names no incubator.",
+      "url": "https://cm-beja.pt/pt/2005/espaco-empresa.aspx",
+      "source_url": "https://cm-beja.pt/pt/2005/espaco-empresa.aspx",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "CIBT NERBE, Beja's technology incubator",
+      "what": "Run by the business association NERBE/AEBAL. Second phase: 13 modular offices of 24 to 40 square metres, a coworking room with up to six workstations, meeting rooms and parking. Open to companies, entrepreneurs and investors in food and forestry, water, ICT and aeronautics, with young and qualified people a priority. Apply with a manifestation-of-interest form and read the incubation regulation, both linked from its page.",
+      "url": "https://www.nerbe.pt/cibt",
+      "source_url": "https://www.nerbe.pt/cibt",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "NERBE/AEBAL: Ninho de Empresas and business support",
+      "what": "The Beja business association, active since 1987, lists business and legal advice, training and consulting, project support, internationalisation help and facility rental. Its menu also names a Ninho de Empresas (business nest), with no details on the page we read.",
+      "url": "https://www.nerbe.pt",
+      "source_url": "https://www.nerbe.pt",
+      "read_on": "2026-11-16",
+      "kind": "space"
+    },
+    {
+      "name": "Beja council: Financiamento",
+      "what": "The council's page lists the funding programmes it points to, including PRR, COMPETE 2020, Alentejo 2020, INTERREG, Turismo de Portugal and the European Investment Bank. It is a list of names, with no call or deadline.",
+      "url": "http://cm-beja.pt/pt/2368/financiamento.aspx",
+      "source_url": "http://cm-beja.pt/pt/2368/financiamento.aspx",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    },
+    {
+      "name": "Startup Portugal",
+      "what": "The national startup agency offers, on its homepage, the Road 2 Web Summit, Business Abroad and Tech Foundry Portugal Deep Tech Edition programmes and a one-stop shop for founders. The page does not mention Beja, so this is a national route open to a Beja founder, not a local one.",
+      "url": "https://www.startupportugal.com",
+      "source_url": "https://www.startupportugal.com",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Promove programme (Fundação la Caixa and BPI, with the FCT) into SiARA",
+      "what": "The SiARA AI and field-robot project, with the Beja polytechnic as a partner, was recognised in the programme's 7th edition in the mobilising R&D projects category. The article gives no amount.",
+      "url": "https://odigital.sapo.pt/projeto-inovador-utiliza-ia-para-apoiar-agricultura-e-conservacao-da-natureza-no-alentejo/",
+      "source_url": "https://odigital.sapo.pt/projeto-inovador-utiliza-ia-para-apoiar-agricultura-e-conservacao-da-natureza-no-alentejo/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "date": "2026-03-18",
+      "ai_path": "Backs an AI and robotics farming project that includes a Beja partner: directly about AI, one step from the city."
+    },
+    {
+      "name": "InnoWave's own AI investment",
+      "what": "A company's self-funded plan, not outside capital: 2.2 million euros in 2024 and 2025 and 1.6 million planned for 2026.",
+      "url": "https://sapo.pt/artigo/empresa-innowave-com-hub-tecnologico-em-beja-investe-3-8m-em-inteligencia-artificial-69f0d4164dab0b9581206d7d",
+      "source_url": "https://sapo.pt/artigo/empresa-innowave-com-hub-tecnologico-em-beja-investe-3-8m-em-inteligencia-artificial-69f0d4164dab0b9581206d7d",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "3.8 million euros",
+      "date": "2026-04-28",
+      "ai_path": "A company with a Beja hub spending on AI: one step from the city."
+    },
+    {
+      "name": "Alentejo 2030 into the second phase of CIBT NERBE",
+      "what": "A search summary said the second phase was approved with over 2 million euros of investment. We opened only the incubator's own page, which shows the second-phase spaces and not the amount, so treat the figure as unconfirmed.",
+      "url": "https://www.nerbe.pt/cibt",
+      "source_url": "https://www.nerbe.pt/cibt",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "ai_path": "Pays for the incubator, which has an ICT focus: two steps from AI."
+    }
+  ],
+  "talent": [],
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Beja, Espaço Empresa",
+      "what": "The council's published channel for entrepreneurs and companies. The page lists in-person, phone, email and online service.",
+      "url": "https://cm-beja.pt/pt/2005/espaco-empresa.aspx",
+      "source_url": "https://cm-beja.pt/pt/2005/espaco-empresa.aspx",
+      "read_on": "2026-11-16",
+      "channel": "the council's Espaço Empresa service, with its published phone and email on that page (open the linked page for the details)"
+    },
+    {
+      "name": "Câmara Municipal de Beja, Balcão Online",
+      "what": "The council's online service portal, linked from every page of its site.",
+      "url": "https://servicosonline.cm-beja.pt/",
+      "source_url": "https://cm-beja.pt/pt/menu/68/contactos.aspx",
+      "read_on": "2026-11-16",
+      "channel": "the council's online service portal (Balcão Online), and its Contactos page also offers a newsletter and social accounts"
+    }
+  ]
 }

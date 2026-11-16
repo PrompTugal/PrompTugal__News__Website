@@ -88,6 +88,16 @@
       "read_on": "2026-11-16",
       "ai_path": "The university sets its own rules for AI use: directly about AI.",
       "steps": 0
+    },
+    {
+      "title": "PACT closes its AIRA project after training more than 500 people in AI for robotics",
+      "summary": "At a closing session in Portalegre, PACT said the EU-funded AIRA programme trained more than 500 people in applying AI to robotics. Three ideas won technology vouchers in its ideas contest, among them a system using computer vision and language models to automate stage lighting and an aircraft inspection system using computer vision.",
+      "date": "2025-11-28",
+      "publisher": "PACT (Parque do Alentejo de Ciência e Tecnologia)",
+      "url": "https://pact.pt/news/winners-of-the-aira-ideas-contest-are-already-known-ai-in-robotics-project-comes-to-an-end/",
+      "read_on": "2026-11-16",
+      "ai_path": "A science park in Évora ran a funded AI in robotics course and ideas contest: directly about AI. The training figures and the winners are PACT's own account.",
+      "steps": 0
     }
   ],
   "sources": [
@@ -104,7 +114,7 @@
       "feed": null
     },
     {
-      "name": "PACT: Parque do Alentejo de Ciência e Tecnologia (news)",
+      "name": "PACT: Parque do Alentejo de Ciência e Tecnologia (home)",
       "url": "https://pact.pt",
       "kind": "business",
       "feed": null
@@ -138,9 +148,41 @@
       "url": "https://siiue2.uevora.pt/sac/editais/2013/documento-homologado/pt",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "PactNews (PACT news page, English, no feed found)",
+      "url": "https://pact.pt/pactnews/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "ADRAL: Agência de Desenvolvimento Regional do Alentejo",
+      "url": "https://www.adral.pt",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Universidade de Évora: Innovation, Co-operation and Entrepreneurship",
+      "url": "https://www.uevora.pt/en/innovation",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Startup Portugal",
+      "url": "https://www.startupportugal.com/en/",
+      "kind": "business",
+      "feed": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "TEDxÉvora 2026 at the PACT auditorium (held 12 March 2026, theme Reprogramming the Future, with a Work and Automation strand)",
+      "date": "2026-03-12",
+      "url": "https://pact.pt/news/pact-receives-tedxevora-2026-and-puts-the-alentejo-at-the-center-of-the-ideas-that-shape-the-future/",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    }
+  ],
   "ai_map": [
     {
       "name": "Universidade de Évora (UÉ)",
@@ -221,6 +263,26 @@
       "read_on": "2026-11-16",
       "ai_path": "Trains council staff in AI.",
       "steps": 1
+    },
+    {
+      "name": "ROBO-KNOT (Horizon Europe project with PACT as a consortium member)",
+      "type": "organisation",
+      "url": "https://pact.pt/news/pact-participates-in-consortium-meeting-of-the-robo-knot-project-in-budapest/",
+      "what": "A 12-partner, seven-country robotics project on research innovation and researcher mobility. PACT took part in its consortium meeting in Budapest on 8 September 2026. The page speaks of robotics and does not name AI.",
+      "source_url": "https://pact.pt/news/pact-participates-in-consortium-meeting-of-the-robo-knot-project-in-budapest/",
+      "read_on": "2026-11-16",
+      "ai_path": "A robotics research project joined by an Évora science park, and PACT's own robotics training is built on AI: two steps from AI. We found no AI claim in the project page itself.",
+      "steps": 2
+    },
+    {
+      "name": "ÉvoraTech: technology-based business incubator (Município de Évora, run by ADRAL)",
+      "type": "organisation",
+      "url": "https://www.cm-evora.pt/investidor/infraestruturas/evoratech/apresentacao/",
+      "what": "A 705 square metre incubator for technology-based firms inside PACT, owned by the council and managed by ADRAL. It hosts a FabLab with digital fabrication tools. The pages do not mention AI.",
+      "source_url": "https://www.cm-evora.pt/investidor/infraestruturas/evoratech/apresentacao/",
+      "read_on": "2026-11-16",
+      "ai_path": "The council's incubator for technology start-ups, any of which may build on AI: three steps from AI. No AI firm is named on the page.",
+      "steps": 3
     }
   ],
   "extras": [],
@@ -229,21 +291,139 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "No AI use by the Câmara Municipal de Évora in its own services turned up. We could not open its news pages usefully (the article bodies were cut off), and its Bairro Comercial Digital and Startup LABWARE smart-city pages (run with ADRAL) did not mention AI in the text we could open. We should look for council minutes, procurement notices on base.gov.pt and the full body of the council's news items, which our reader cut off.",
-    "We found no dated Évora AI event for the weeks ahead, so the events list is empty. Challenge4Innovation at PACT took place on 29 September 2026 and its page mentions no AI. We should check PACT's agenda, the Universidade de Évora's agenda and the Alentejo regional press, and Alentejo meetups are on sites we do not read.",
+    "No AI use by the Câmara Municipal de Évora in its own services turned up. Its news pages and site search gave us nothing on AI, its Dinâmica e Inovação and Balcão Empreendedor pages were under maintenance when we opened them, and a government pilot of AI in building licences names Coimbra and does not list Évora. We should look for council minutes, procurement notices on base.gov.pt and the full council news items.",
+    "We found no dated Évora AI event for the weeks ahead. PACT's agenda page loaded its list with scripts that our reader could not run, so upcoming events there are unchecked. The only event we confirmed, TEDxÉvora at PACT on 12 March 2026, has already happened and is not AI in itself. We should check PACT's agenda, the university's agenda and Alentejo regional press.",
     "The SNS data centre planned for Évora by the end of 2026 (Lisboeta, 16 June 2026) is a public data centre with no AI stated in the article, so it is not on the map. If it hosts AI workloads, it becomes a map entry.",
-    "Startups are thin. The only AI company we could place at PACT is ELIO Tecnologia, from a 2020 government page. We found no Évora AI startup funding round in 2025 or 2026. Sources to look for: PACT's incubator listings, Startup Portugal, Portugal Ventures and Banco de Fomento notices.",
-    "Could not open Data Center Dynamics and Agroportal (403) and read Despacho 34/2026 and CCDR's programme only as PDFs. We could not confirm the maker of the hospital's AI screening system, which no page we read names.",
-    "Not reached: the University's own news pages by date, a Diário do Sul or Diário do Alentejo search for Évora AI stories, the Politécnico de Portalegre and CEiiA pages, and any Évora AI research groups beyond what the university's degree and language-model news imply. No feeds found for any source.",
+    "Startups are still thin. The only AI company we could place at PACT is ELIO Tecnologia, from a 2020 government page. PACT's pages name KPMG Portugal, Dectech and CEiiA among its companies but no further AI firm, and we found no Évora AI startup funding round in 2025 or 2026. Sources to look for: PACT's list of its 55 companies, Portugal Ventures and Banco de Fomento notices.",
+    "Could not open Data Center Dynamics and Agroportal (403), and read Despacho 34/2026 and CCDR's programme only as PDFs. We could not confirm the maker of the hospital's AI screening system. The Universidade de Évora's news list showed no dates and no AI items on the page we opened, so its news by date is still unread. The CHAT DIVE hackathon on ChatGPT health apps at PACT with the firm DECSIS (December 2023) is old and its firm's base was not stated, so it is not on the map.",
+    "Not reached: a Diário do Sul or Diário do Alentejo search for Évora AI stories, the Politécnico de Portalegre and CEiiA pages, and Évora AI research groups beyond what the university's degree and language-model news imply. No feeds found for any source.",
     "The Alentejo Competitive Intelligence Center (NOVA IMS, Campo Maior) is a regional AI and data hub but is based in Campo Maior, so it belongs on another place's page. A May 2026 tender for a Rui Nabeiro Accelerator in Évora (ADRAL) was seen only in a search listing and has no AI link we could check.",
-    "The Universidade de Évora's executive course 'AI for Business' with Microsoft Portugal dates from 2022 and the HPC chair article from 2021, so we treat them as background and could not confirm they are running.",
-    "No contacts are listed. We did not open an official contacts page for the council or the university.",
-    "Local talent is not filled: no source lists anyone and nobody has agreed to be listed here."
+    "The Universidade de Évora's executive course 'AI for Business' with Microsoft Portugal dates from 2022, the HPC chair article from 2021 and PACT's Master ChatGPT course from October 2024, so we treat them as background and could not confirm they are running.",
+    "Investors are thin: no venture fund or business angel network tied to Évora was found on a page we opened. The amounts for the EIT Deep Tech Talent grant behind AIRA are not on the pages we read.",
+    "Local talent is not filled: no source lists anyone and nobody has agreed to be listed here. PACT runs a Talent Pool of CVs open to its partner companies, which is not public."
   ],
   "voice": {
     "lede": "Évora, ó pá: a city of whitewash, cork oaks and old stones where the machines are learning to speak Portuguese, slowly, calminha, as one does in the Alentejo.",
     "mandate": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI and tech in Évora, with the Universidade de Évora, the PACT park and the hospital doing the heavy lifting, plus whatever news rolls in from the Alentejo, Portugal and the world. Independente, and every fact comes with a receipt.",
     "gravity": "Évora does not rush, but it gets there. The university teaches the machines Portuguese and writes the house rules for them, PACT trains the people and keeps the lights on for the firms, the hospital lets an AI point at the slide before a specialist decides, and a data centre company has quietly bought a 1 MW room. City hall, bless it, we could not catch doing AI yet.",
     "gaps_intro": "Ainda falta muito, pá, e nós não temos pressa. Here is what Évora has not told us yet:"
-  }
+  },
+  "start_company": [
+    {
+      "name": "PACT incubation and cowork plans (inPACT physical, onPACT digital, cowork, premium)",
+      "what": "PACT lists four ways to join its ecosystem: physical incubation with a dedicated room, digital incubation with a company address, a cowork desk, or a premium plan with company headquarters and one cowork space. The page shows no prices. It says the park holds 55 companies.",
+      "url": "https://pact.pt/epact/",
+      "source_url": "https://pact.pt/epact/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "ÉvoraTech incubator (council-owned, run by ADRAL, inside PACT)",
+      "what": "A 705 square metre incubator for technology-based and innovative firms in their early stages, with shared services and a FabLab for prototyping. The page was updated on 8 May 2024.",
+      "url": "https://www.cm-evora.pt/investidor/infraestruturas/evoratech/apresentacao/",
+      "source_url": "https://www.cm-evora.pt/investidor/infraestruturas/evoratech/apresentacao/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "ADRAL: advice for entrepreneurs and the incubator network",
+      "what": "The regional development agency says it supports entrepreneurs from idea to market, helps find funding and prepare applications, and runs a network of incubators with desks in the municipalities.",
+      "url": "https://www.adral.pt",
+      "source_url": "https://www.adral.pt",
+      "read_on": "2026-11-16",
+      "kind": "mentoring"
+    },
+    {
+      "name": "AlentEdge Office at PACT (intellectual property and business support)",
+      "what": "PACT's office helps with trademarks, patents and design registration through a partner, with a 15 percent discount for PACT ecosystem members on that partner's fees, and offers certified training courses.",
+      "url": "https://pact.pt/alentedge/",
+      "source_url": "https://pact.pt/alentedge/",
+      "read_on": "2026-11-16",
+      "kind": "mentoring"
+    },
+    {
+      "name": "Universidade de Évora: start-ups and spin-offs",
+      "what": "The university's innovation division says it promotes the creation of university start-ups and supports spin-offs from its research with coaching and funding. The page was last published with 2020 data.",
+      "url": "https://www.uevora.pt/en/innovation/entrepreneurship",
+      "source_url": "https://www.uevora.pt/en/innovation/entrepreneurship",
+      "read_on": "2026-11-16",
+      "kind": "mentoring"
+    },
+    {
+      "name": "Startup Portugal: national incubation network and founder guide",
+      "what": "The national start-up agency's site lists the national incubator network, a founder's guide and programmes for entrepreneurs. We did not find an Évora-specific page on it.",
+      "url": "https://www.startupportugal.com/en/",
+      "source_url": "https://www.startupportugal.com/en/",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Empresa na Hora (Instituto dos Registos e do Notariado, via ePortugal)",
+      "what": "A national service at counters called Empresa na Hora to set up private limited companies, single-member companies and public limited companies quickly. Updated 4 September 2026 on ePortugal. The page does not list the Évora counter.",
+      "url": "https://eportugal.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+      "source_url": "https://eportugal.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    }
+  ],
+  "investors": [
+    {
+      "name": "EIT Deep Tech Talent (European Union) into PACT's AIRA project",
+      "what": "The AIRA course and ideas contest on AI in robotics was funded by the European Union through EIT Deep Tech Talent. PACT's projects page also lists AI Robotics Academy among its active projects. The amount is not stated on the pages we read.",
+      "url": "https://pact.pt/news/winners-of-the-aira-ideas-contest-are-already-known-ai-in-robotics-project-comes-to-an-end/",
+      "source_url": "https://pact.pt/news/winners-of-the-aira-ideas-contest-are-already-known-ai-in-robotics-project-comes-to-an-end/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "date": "2025-11-28",
+      "ai_path": "Pays for AI in robotics training run in Évora: directly about AI."
+    },
+    {
+      "name": "NxN Data Centers into an Évora data centre",
+      "what": "Bought a 1 MW operating data centre in Évora and plans up to 100 million euros of investment in Portugal over three years.",
+      "url": "https://www.portugalglobal.pt/en/news/2026/outubro/nxn-enters-portugal-with-100m-data-centre-investment-plan/",
+      "source_url": "https://www.portugalglobal.pt/en/news/2026/outubro/nxn-enters-portugal-with-100m-data-centre-investment-plan/",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "up to 100 million euros across Portugal over three years",
+      "date": "2026-10-02",
+      "ai_path": "A data centre company that builds for AI workloads: two steps from AI."
+    },
+    {
+      "name": "Alentejo 2030, Horizon Europe, PRR and Interreg funds in PACT's projects",
+      "what": "PACT's projects page lists 15 active co-funded projects, such as ROBO-KNOT (Horizon Europe), Future Lab (Alentejo 2030) and CIRCULARTECH (PRR), and says the projects represent 16 million euros of investment. Only the AI in robotics project is clearly AI.",
+      "url": "https://pact.pt/projects/",
+      "source_url": "https://pact.pt/projects/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "amount": "16 million euros across all PACT projects, as PACT states",
+      "ai_path": "Regional and European programme money behind a science park that trains in AI: one step from AI."
+    }
+  ],
+  "talent": [],
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Évora, general and divisions",
+      "what": "The council's contact page lists its general email and phone and those of its divisions.",
+      "url": "https://www.cm-evora.pt/municipe/agenda-e-noticias/contacte-nos/",
+      "source_url": "https://www.cm-evora.pt/municipe/agenda-e-noticias/contacte-nos/",
+      "read_on": "2026-11-16",
+      "channel": "the council's general email and phone, published on its Contacte-nos page (open the linked page for them)"
+    },
+    {
+      "name": "PACT: Parque do Alentejo de Ciência e Tecnologia",
+      "what": "The park's published general and communications channels, shown on its site header and footer.",
+      "url": "https://pact.pt/",
+      "source_url": "https://pact.pt/",
+      "read_on": "2026-11-16",
+      "channel": "the park's general email and phone, published on its home page and footer (open the linked page for them)"
+    },
+    {
+      "name": "Universidade de Évora, main desk",
+      "what": "The university publishes its main phone and the contacts of its academic, social and administrative services.",
+      "url": "https://www.uevora.pt/en/innovation/entrepreneurship",
+      "source_url": "https://www.uevora.pt/en/innovation/entrepreneurship",
+      "read_on": "2026-11-16",
+      "channel": "the university's main phone and service emails, published in the page footer (open the linked page for them)"
+    }
+  ]
 }

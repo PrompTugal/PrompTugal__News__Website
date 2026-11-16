@@ -9,7 +9,7 @@
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Guarda: AI and technology in Guarda, a district capital of the interior whose centre of gravity is the Politécnico da Guarda, its data science and AI degree, its incubator and its business-digitalisation projects, and what reaches Guarda from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
-    "text": "Almost all the AI we could source in Guarda runs through one institution, the Politécnico da Guarda (IPG, which is moving to become a university). It teaches the data science and AI degree that opened in 2022, leads a project of about one million euros to bring AI, IoT and blockchain to small firms in the Centro region, signed a drones and AI agreement with a Ukrainian university, and runs the incubator where the city's startups sit. The council's own pages show no AI use or AI programme, and the private AI layer is thin, with a consultancy office that recruits AI profiles as the clearest example. Guarda's centre of gravity is therefore its polytechnic, not its city hall or its companies.",
+    "text": "Almost all the AI we could source in Guarda runs through one institution, the Politécnico da Guarda (IPG until 1 August 2026, since then the Universidade Politécnica da Guarda, UPG). It teaches the data science and AI degree that opened in 2022, leads a project of about one million euros to bring AI, IoT and blockchain to small firms in the Centro region, signed a drones and AI agreement with a Ukrainian university, and runs the incubator where the city's startups sit. The council's own pages show no AI use or AI programme, and the private AI layer is thin, with a consultancy office that recruits AI profiles as the clearest example. Guarda's centre of gravity is therefore its polytechnic, not its city hall or its companies.",
     "sources": [
       {
         "title": "Politécnico da Guarda lidera projeto de digitalização de empresas na região Centro (RTP)",
@@ -29,6 +29,11 @@
       {
         "title": "Politécnico da Guarda: news page, with the September 2026 vote to apply to become a university",
         "url": "https://politecnicoguarda.pt",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "UPG launches cybersecurity courses in Trancoso and describes its creation on 1 August 2026 (Politécnico da Guarda)",
+        "url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-lanca-em-trancoso-cursos-de-ciberseguranca-reparacao-automovel-e-cozinha/",
         "read_on": "2026-11-16"
       }
     ]
@@ -126,16 +131,42 @@
       "url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
       "kind": "press",
       "feed": null
+    },
+    {
+      "name": "Município da Guarda: news",
+      "url": "https://mun-guarda.pt/noticias/",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Município da Guarda: agenda of events",
+      "url": "https://mun-guarda.pt/agenda-de-eventos/",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Universidade Politécnica da Guarda: news",
+      "url": "https://politecnicoguarda.pt/noticias/",
+      "kind": "university",
+      "feed": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "CEI-IIT Research, Innovation and Territory Prize 2026: award ceremony and seminar",
+      "date": "2026-12-03",
+      "url": "https://mun-guarda.pt/agenda-de-eventos/entrega-de-premio-e-seminario-entrega-do-premio-cei-iit-investigacao-inovacao-e-territorio-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "A seminar on innovation and research projects for cross-border and low-density territories, free, at 18:00 in the Biblioteca Municipal Eduardo Lourenço. The page does not mention AI: three steps from AI."
+    }
+  ],
   "ai_map": [
     {
-      "name": "Politécnico da Guarda (IPG, applying to become a university)",
+      "name": "Universidade Politécnica da Guarda (UPG, formerly IPG)",
       "type": "institution",
       "url": "https://politecnicoguarda.pt",
-      "what": "Public polytechnic in Guarda. Its General Council voted unanimously on 17 September 2026 to apply to become a university. It leads the Digital PME project, signed the drones and AI agreement with a Ukrainian university and hosts the incubator.",
-      "source_url": "https://politecnicoguarda.pt",
+      "what": "Public higher education institution in Guarda, created as a Universidade Politécnica on 1 August 2026 under a new statute. Its General Council voted unanimously on 17 September 2026 to seek conversion from universidade politécnica to universidade, a process that needs a decree-law. It leads the Digital PME project, signed the drones and AI agreement with a Ukrainian university and hosts the incubator.",
+      "source_url": "https://politecnicoguarda.pt/conselho-geral-da-upg-decide-por-unanimidade-candidatura-para-a-conversao-em-universidade/",
       "read_on": "2026-11-16",
       "ai_path": "Teaches AI, leads an AI adoption project for firms and does AI research partnerships.",
       "steps": 0
@@ -217,18 +248,19 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "Guarda is a thin capital for AI. Everything we could source comes from one institution, the Politécnico da Guarda, so a reader should not mistake the whole city for a tech hub.",
-    "The council's front page, read on 16 November 2026, shows no AI item and no innovation news. We could only read the front page and its menu names, not its news archive, so council AI use is unconfirmed. Sources to look for: council minutes, base.gov.pt procurement notices and the Balcão Digital's technical pages. The address www.cm-guarda.pt did not resolve, and mun-guarda.pt is the one that did.",
-    "No dated 2026 AI event in Guarda was found, so the events list is empty. We should look at the polytechnic's events page and the council's agenda for the winter programme.",
-    "No local feed was found for the council, the polytechnic or the regional press. We did not manage to read local outlets such as O Interior or Rádio Altitude in this run, because search returned only national copies of Lusa stories.",
+    "Guarda is a thin capital for AI. Everything we could source comes from one institution, the Universidade Politécnica da Guarda (UPG, until 1 August 2026 the Politécnico, IPG), so a reader should not mistake the whole city for a tech hub.",
+    "The council shows no AI item. On 16 November 2026 we read its front page, the first of 19 pages of news (23 October to 10 November 2026), its agenda to 26 December and its Investir pages, and none mentions AI. Older news, council minutes, base.gov.pt procurement notices and the Balcão Digital's technical pages were not read, so council AI use is unconfirmed. The address www.cm-guarda.pt did not resolve and mun-guarda.pt is the one that did.",
+    "No dated AI event in Guarda was found. The council agenda and the UPG home page events list (to 2 December 2026) hold none, and the UPG calendar address we tried returned not found. The one innovation event listed, the CEI-IIT prize seminar on 3 December 2026, does not mention AI.",
+    "No feed was found on the council or UPG pages, and no local outlet such as O Interior or Rádio Altitude could be read. Search returned only national copies of Lusa stories.",
     "Dates: the RTP pages on the Digital PME project and on Imo Harmonia show no publication date, so we took the date from Forbes Portugal and Observador copies of the same stories. The Forbes copy does not mention AI, so the AI claim rests on RTP.",
     "The Digital PME consortium's ADSI is named differently by RTP (a district association for the information society) and Forbes Portugal (an agency for the information society and knowledge), so we kept the acronym only.",
-    "The incubator's eight Guarda companies named in August 2025 are not AI firms, and we found no AI startup based in Guarda. Sources to look for: the incubator's own company list, the Poliempreende results and Startup Visa lists.",
-    "PTCentroDiH, the Centro digital innovation hub, appears to include the polytechnic as a partner according to a third-party report, but the European catalogue page we read does not name Guarda or AI. It is left off the map until the hub's own site says so.",
-    "The Blockchain.PT project (2 November 2026 on the polytechnic's page) is not AI and is left out. The 2025 and 2026 patents the polytechnic filed are in digital manufacturing and healthcare, with no AI mentioned, so they are left out too.",
-    "The September 2026 vote to apply to become a university is on the polytechnic's own news list, but we did not open the item itself.",
-    "Not reached: the Guarda health unit's AI use (nothing found), research centres at the polytechnic beyond the names on its home page, and investors in Guarda companies.",
-    "Local talent is not filled. No source lists anyone and nobody has agreed to be listed here."
+    "We found no AI startup based in Guarda. The incubator's tenants named in sources work in digital agriculture, micro-credit and HR recruitment, and its four new international startups of 2025 (automation, logistics, digital economy, social economy) are not named. Its own company list, the Poliempreende results and Startup Visa lists were not found.",
+    "PTCentroDiH, the Centro digital innovation hub, appears to include the university as a partner according to a third-party report, but the European catalogue page we read does not name Guarda or AI. The university's own page on the 8 April 2026 session names it, but the hub's own site was not read.",
+    "Left out as not AI: the Blockchain.PT project (2 November 2026), the three patents of 2026 (digital manufacturing, 3D printing and a medical infusion device, reported 8 September 2026), the CTeSP cybersecurity course in Trancoso (from September 2026) and the SmartEcoLighting public lighting pilot at the Parque Urbano do Rio Diz (23 October 2026), whose page gives no detail on sensors or data.",
+    "The conversion from universidade politécnica to universidade is only an approved motion of 17 September 2026 and needs a decree-law, so it must not be reported as done.",
+    "The 2026/2027 intake for the data science and AI degree is 20, 14 and 10 places over three phases (44 in all, from the UPG applications page). We found no page of the degree itself under the new name and did not read an earlier DGES figure of 20 places.",
+    "Not reached: the Guarda health unit's AI use (nothing found), the UPG research centres beyond the names in its menu, and investors in Guarda companies. The Loja de Cidadão da Guarda page on gov.pt lists no Espaço Empresa or Empresa na Hora counter, so where to register a company in person in Guarda is unconfirmed. Startup Portugal has no Guarda page we could read.",
+    "Local talent is not filled. No source lists anyone and nobody has agreed to be listed here. The Poliempreende page names staff contacts, which we did not copy."
   ],
   "voice": {
     "lede": "Guarda, ó pá: cold enough to freeze a server, stubborn as granite, and home to a polytechnic that quietly teaches machines and taught a few students to read the PDM before the architects could.",
@@ -252,6 +284,38 @@
       "source_url": "https://www.forbespt.com/?p=183777",
       "read_on": "2026-11-16",
       "kind": "mentoring"
+    },
+    {
+      "name": "Município da Guarda: Espaço Empresa / Apoio ao Investidor",
+      "what": "The council's business and investor desk, under its Investir section (Empresas, Apoio ao Investidor, Empreendedorismo). It lists support and incentives, company creation, training and information sessions and referral to support bodies, with no programme named. The Empreendedorismo page names no incubator.",
+      "url": "https://mun-guarda.pt/investir/empreendedorismo/",
+      "source_url": "https://mun-guarda.pt/investir/",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Policasulos (UPG nano-incubation space)",
+      "what": "Acceleration and incubation for business projects, in former classrooms where student or staff founding teams can set up.",
+      "url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
+      "source_url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "Poliempreende (UPG)",
+      "what": "Business-idea competition and support from creativity to company creation or patent filing, within the national polytechnic network. Open to students, graduates and teachers in teams with students or graduates. The 2025/2026 edition ran from May to June 2026 with a regional jury on 12 June. The page lists no prizes.",
+      "url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/poliempreende/",
+      "source_url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/poliempreende/",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    },
+    {
+      "name": "UPG executive training in innovation and intellectual property (with Inventa)",
+      "what": "Hybrid evening programme launched in March 2026 on patents, trademarks, designs and technology transfer, aimed at researchers, entrepreneurs and municipal technicians. Startups in the UPG incubator asked for it.",
+      "url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-regista-tres-patentes-apos-ter-lancado-formacao-em-propriedade-industrial/",
+      "source_url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-regista-tres-patentes-apos-ter-lancado-formacao-em-propriedade-industrial/",
+      "read_on": "2026-11-16",
+      "kind": "mentoring"
     }
   ],
   "investors": [
@@ -265,7 +329,50 @@
       "amount": "849,672 euros",
       "date": "2026-04-05",
       "ai_path": "Pays for a project whose stated aim is to bring AI into firms: directly about AI."
+    },
+    {
+      "name": "Empowered Startups (HQA Visa Program) into the Guarda incubator",
+      "what": "A programme partnership with the polytechnic brought foreign-backed startups into its incubator, among them A-G Transformer, a digital agriculture startup, reported on 2 April 2024. In May 2025 the incubator hosted three companies with North American capital, one with Indian capital and several with Portuguese investors. No amounts or investor names are given.",
+      "url": "https://www.portugalglobal.pt/en/news/archive/empowered-startups-hqa-program-flourishing-in-guarda/",
+      "source_url": "https://www.portugalglobal.pt/en/news/archive/empowered-startups-hqa-program-flourishing-in-guarda/",
+      "read_on": "2026-11-16",
+      "type": "network",
+      "date": "2024-04-02",
+      "ai_path": "Foreign capital behind incubator startups in digital agriculture and other fields, none described as AI: two steps from AI."
     }
   ],
-  "contacts": []
+  "contacts": [
+    {
+      "name": "Município da Guarda, Espaço Empresa / Apoio ao Investidor",
+      "what": "The council's published channel for investors and entrepreneurs: a desk email and two phone lines, on its Investir page.",
+      "url": "https://mun-guarda.pt/investir/",
+      "source_url": "https://mun-guarda.pt/investir/",
+      "read_on": "2026-11-16",
+      "channel": "the support desk's email and phone lines, published on the council's Investir page (open the linked page for them)"
+    },
+    {
+      "name": "Município da Guarda, general",
+      "what": "The council's general email, phone and opening hours (Monday to Friday, 09:00 to 16:30), at Praça do Município.",
+      "url": "https://mun-guarda.pt/contactos",
+      "source_url": "https://mun-guarda.pt/contactos",
+      "read_on": "2026-11-16",
+      "channel": "the council's general email and phone, published on its Contactos page (open the linked page for them)"
+    },
+    {
+      "name": "Universidade Politécnica da Guarda, general",
+      "what": "The institution's published general email, phone and WhatsApp line.",
+      "url": "https://politecnicoguarda.pt/sobrenos/contactos/",
+      "source_url": "https://politecnicoguarda.pt/sobrenos/contactos/",
+      "read_on": "2026-11-16",
+      "channel": "the university's general email, phone and WhatsApp, published on its Contactos page (open the linked page for them)"
+    },
+    {
+      "name": "Universidade Politécnica da Guarda, Policasulos incubation",
+      "what": "The office email published for information and registration on the nano-incubation space.",
+      "url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
+      "source_url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
+      "read_on": "2026-11-16",
+      "channel": "the incubation office email, published on the Inovação & Empreendedorismo page (open the linked page for it)"
+    }
+  ]
 }
