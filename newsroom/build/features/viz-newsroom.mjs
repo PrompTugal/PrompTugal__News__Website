@@ -265,20 +265,29 @@ function nowMapHtml(ctx, region) {
     let body = P.land
     for (const { t, d, n } of rows) {
         const at = placesAt(ctx).get(t.id).at, x = P.X0(at[0]), y = P.Y0(at[1]), rain = Math.max(0, Math.min(100, Number(d.rain_prob_pct) || 0))
-        const fill = `color-mix(in srgb, #2f6fb0 ${Math.round(15 + rain * 0.75)}%, #f2c14e)`
+        const st = n.station && n.station.reading, obs = st && typeof st.temp_c === 'number' ? st.temp_c : null
+        const fill = obs !== null ? `color-mix(in srgb, #2f6fb0 ${Math.round(15 + rain * 0.75)}%, #f2c14e)` : 'var(--panel)'
         const side = placesAt(ctx).get(t.id).label || 's'
         const [lx, ny, anchor] = side === 'n' ? [x, y - 34, 'middle'] : side === 'e' ? [x + 16, y - 2, 'start'] : side === 'w' ? [x - 16, y - 2, 'end'] : side === 'sw' ? [x - 12, y + 26, 'end'] : [x, y + 28, 'middle']
-        body += tf(T['now-pin'], { lx: lx.toFixed(1), anchor, href: X(ctx.link(rel, newsroomRel(t)).replace(/\.md$/, '.html')), title: X(`${t.name}: ${d.t_max_c}° / ${d.t_min_c}°, ${rain}% rain (IPMA forecast for ${n.forecast.place}, ${n.forecast.km} km)`),
-            x: x.toFixed(1), y: y.toFixed(1), fill, ty: (y + 4).toFixed(1), t: X(Math.round(d.t_max_c) + '°'), ny: ny.toFixed(1), name: X(t.name), ry: (ny + 13).toFixed(1), r: X(`${Math.round(d.t_min_c)}° · ${rain}%`) })
+        body += tf(T['now-pin'], { lx: lx.toFixed(1), anchor, href: X(ctx.link(rel, newsroomRel(t)).replace(/\.md$/, '.html')),
+            title: X(`${t.name}: ${obs !== null ? `${obs}° now at ${n.station.name} (${String(st.at).slice(11, 16)} UTC); ` : ''}forecast ${d.t_min_c}° to ${d.t_max_c}°, ${rain}% rain (IPMA, ${n.forecast.place})`),
+            x: x.toFixed(1), y: y.toFixed(1), fill, ty: (y + 4).toFixed(1), t: X(Math.round(obs !== null ? obs : d.t_max_c) + '°'), ny: ny.toFixed(1), name: X(t.name), ry: (ny + 13).toFixed(1), r: X(`${Math.round(d.t_min_c)} to ${Math.round(d.t_max_c)}° · ${rain}%`) }).replace('class="vz-now-dot"', obs !== null ? 'class="vz-now-dot"' : 'class="vz-now-dot open"')
     }
-    const first = rows[0].n, warns = arr(first.warnings && first.warnings.active)
+    const first = rows[0].n, W0 = first.warnings || {}, warns = arr(W0.active)
+    const wt = warns.length ? `IPMA: ${warns.map(w => `${w.level}, ${w.type}, ${String(w.start).slice(5, 16).replace('T', ' ')} to ${String(w.end).slice(5, 16).replace('T', ' ')}`).join('; ')}` : C.nowmap_warn_none
+    body += tf(T['now-warn'], { href: X(W0.page || 'https://www.ipma.pt/en/otempo/prev-sam/'), title: X(warns.map(w => w.text).join(' ') || wt), w: Math.round(wt.length * 6.6 + 24), level: X(warns[0] ? warns[0].level : 'none'), t: X(wt) })
+    const fr = rows.find(r => r.t.id === 'faro'), ap = fr && fr.n.airport
+    if (ap && placesAt(ctx).has('faro')) {
+        const fa = placesAt(ctx).get('faro').at, x = P.X0(fa[0]) + 96, y = P.Y0(fa[1]) + 40, al = arr(ap.airline)
+        body += tf(T['now-flights'], { href: X(ap.page || 'https://globe.adsb.lol/'), title: X(al.map(f => `${f.callsign} (${f.type || '?'}, ${f.on_ground ? 'on the ground' : (f.alt_ft || '?') + ' ft'})`).join(', ') || C.nowmap_flights.replace('{n}', '0')), x: x.toFixed(1), y: y.toFixed(1), tx: (x + 16).toFixed(1), ty: (y + 4).toFixed(1), t: X(W(C.nowmap_flights, { n: al.length })) })
+    }
     const read = rows.map(r => r.n.read_at).filter(Boolean).sort().pop() || ''
-    const warn = warns.length ? W(C.nowmap_warn, { list: warns.map(w => `${w.level} for ${w.type}, ${String(w.start).slice(0, 16).replace('T', ' ')} to ${String(w.end).slice(11, 16)}`).join('; ') }) : ''
-    return tf(T.nowmap, { w: P.w, h: P.h, aria: X(C.nowmap_aria), body, caption: X(W(C.nowmap_caption, { date: rows[0].d.date, read: read.slice(0, 16).replace('T', ' '), warn })) })
+    const obsAt = rows.map(r => r.n.station && r.n.station.reading && r.n.station.reading.at).filter(Boolean).sort().pop() || ''
+    return tf(T.nowmap, { w: P.w, h: P.h, aria: X(C.nowmap_aria), body, caption: X(W(C.nowmap_caption, { obs: obsAt.slice(0, 16).replace('T', ' '), date: rows[0].d.date, read: read.slice(0, 16).replace('T', ' '), nm: ap ? ap.within_nm : '?', fat: ap ? String(ap.at).slice(0, 16).replace('T', ' ') : '?' })) })
 }
 function nowTwin(ctx) {
     const C = copy(ctx)
-    return nowRows(ctx).map(({ t, d, n }) => W(C.nowmap_twin, { name: ctx.md.cell(t.name), max: d.t_max_c, min: d.t_min_c, rain: d.rain_prob_pct, fplace: ctx.md.cell(n.forecast.place), km: n.forecast.km })).join('\n')
+    return nowRows(ctx).map(({ t, d, n }) => { const st = n.station && n.station.reading; return W(C.nowmap_twin, { name: ctx.md.cell(t.name), now: st && typeof st.temp_c === 'number' ? W(C.nowmap_twin_now, { t: st.temp_c, station: ctx.md.cell(n.station.name), at: String(st.at).slice(11, 16) }) : '', max: d.t_max_c, min: d.t_min_c, rain: d.rain_prob_pct, fplace: ctx.md.cell(n.forecast.place), km: n.forecast.km }) }).join('\n')
 }
 
 // the region map's borders and arcs (board/briefs/2026-11-16-every-story-has-an-address.md, item 6): grey shared

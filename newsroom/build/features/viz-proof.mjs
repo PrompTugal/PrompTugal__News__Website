@@ -49,7 +49,7 @@ function chains(ctx, p, rel) {
             [S.commit, h ? W(L.commit, { sha: h.sha, href: repoCommit(ctx, h.sha), agent: c(short(h.agent.toLowerCase())), when: `${dm(h.t)} ${hm(h.t)}`, subject: c(trim(noDash(noPrefix(h.subject)), 110)) }) : L.commit_none],
             [S.signed, W(L.signed, { id, sha, sig: c(site ? site.signature : '?'), key: c(site && site.site_key ? site.site_key : '?') })],
             [S.release, h && h.release ? W(L.release, { v: h.release }) : L.release_none],
-            [S.indexed, W(L.indexed, { id, stories: ctx.link(rel, `api/v1/places/${id}/stories.json`), prov: ctx.link(rel, `api/v1/places/${id}/provenance.json`) })],
+            [S.indexed, W(L.indexed, { id, api: ctx.link(rel, 'api/index.html') })],
             [S.connected, nConn ? W(L.connected, { n: nConn }) : L.connected_none],
             [S.pages, W(L.pages, { name: c(p.name), place: ctx.link(rel, `${p.path}index.html`), newsroom: ctx.link(rel, newsroomRel(p)) })],
         ]

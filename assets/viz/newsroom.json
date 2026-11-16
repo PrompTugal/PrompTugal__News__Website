@@ -138,14 +138,17 @@
   },
   "h_agentmap_pt": "The country's place agents, on the map",
   "h_nowmap": "Now in the Algarve",
-  "nowmap_intro": "Today's forecast for every town, from IPMA's open data, read hourly by the site's own collector with no model: the day's high in the circle, its low and the chance of rain beneath, the circle bluer as rain gets likelier. Each town links to its newsroom.",
+  "nowmap_intro": "Live from public sources, read hourly by the site's own collector with no model. In each circle: the temperature now at the town's nearest IPMA station where it reports one (a filled circle), or else today's forecast high (an open circle); beneath, today's forecast low and high and the chance of rain. Above the map, IPMA's warnings for the Faro district; near Faro, the airline flights adsb.lol's receivers saw around the airport. Every mark opens the page it comes from or the town's newsroom.",
   "nowmap_aria": "Today's IPMA forecast for each Algarve town: high and low temperature and chance of rain",
-  "nowmap_caption": "Forecast for {date}, read from IPMA at {read} UTC (api.ipma.pt open data; each town uses its nearest IPMA forecast place). Not a warning service: follow IPMA (ipma.pt) and ANEPC. {warn}",
+  "nowmap_caption": "Stations read {obs} UTC, forecast for {date}, read from IPMA at {read} UTC; each town uses its nearest IPMA station and forecast place. Flights: adsb.lol, within {nm} nautical miles of Faro airport at {fat} UTC. Not a warning service: follow IPMA (ipma.pt) and ANEPC.",
   "nowmap_warn": "IPMA warnings for the Faro district: {list}.",
-  "nowmap_twin": "- {name}: {max}° high, {min}° low, {rain}% chance of rain (forecast for {fplace}, {km} km away)",
+  "nowmap_twin": "- {name}: {now}forecast {min}° to {max}°, {rain}% chance of rain (forecast for {fplace}, {km} km away)",
   "h_arcs": "Connected: shared borders and sourced links",
   "arcs_intro": "Grey lines join councils that share a border. Red arcs join two towns that a sourced connection links: a company, a body or a project in one working with one in the other, each found and read by the detective and the place agents. Hover an arc for what it is; follow it to its source.",
   "arcs_aria": "The Algarve towns joined by shared borders (grey) and by sourced connections between them (red)",
   "arcs_caption": "{borders} shared borders (data.places@, pt.wikipedia at named revisions; the CAOP check is owed) and {arcs} sourced links between towns, from {links} connections in data/by-place/connections.json (detective.places@ and the place agents, each with its source and read date).",
-  "arcs_twin": "- {a} and {b}: {what} ([source]({url}), read {read})"
+  "arcs_twin": "- {a} and {b}: {what} ([source]({url}), read {read})",
+  "nowmap_twin_now": "{t}° now at {station} ({at} UTC); ",
+  "nowmap_warn_none": "IPMA: no warnings for the Faro district",
+  "nowmap_flights": "{n} airline flights near Faro"
 }

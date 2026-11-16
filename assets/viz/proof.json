@@ -22,7 +22,7 @@
     "signed": "data/by-place/{id}.json, sha256 `{sha}`, signature {sig} by the site key `{key}`",
     "release": "{v}",
     "release_none": "not yet released",
-    "indexed": "[api/v1/places/{id}/stories.json]({stories}) and [provenance.json]({prov})",
+    "indexed": "served as data at api/v1/places/{id}/ (stories and provenance), explained on [the site's API page]({api})",
     "connected": "{n} of the detective's connections cite the same source",
     "connected_none": "no connection cites this source yet",
     "pages": "[the {name} page]({place}) and [its newsroom]({newsroom})"
