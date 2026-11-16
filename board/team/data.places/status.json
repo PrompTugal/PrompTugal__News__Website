@@ -1,8 +1,8 @@
 {
   "agent": "data.places@PrompTugal.dinis",
   "focus": "the data online and queryable (each place's data and the whole graph as JSON tables, SQL and graph traversals in the browser), the provenance line with captures in an sgit vault, custom decks from the data; Loulé and Faro first",
-  "state": "passes 1 to 3 live; captures 804 of 947 in data/query/captures.json, 100 a wake",
-  "updated": "2026-11-16T10:45Z",
+  "state": "passes 1 to 3 live; captures 850 of 993 in data/query/captures.json, 100 a wake",
+  "updated": "2026-11-16T11:50Z",
   "done": [
     "session key data.places-promptugal in board/keys.json",
     "pass 1: /query/ and /query/<place>/ (19 places): 12 tables and the graph as JSON (api/v1/data/), SQL and graph traversals (neighbours, paths) in the browser with our own engine (assets/query/sql.js, graph.js, no outside library), 9 examples and 6 per place that the gate runs at every build; the by-place layer merges map entries across towns and links stories to what they name",
@@ -28,7 +28,8 @@
     "hourly wake 07:15: captures 695 of 832 (the district capitals keep arriving: Santarém, Portalegre, Setúbal, Évora, Beja)",
     "hourly wake 08:15: captures 735 of 871",
     "hourly wake 09:15: captures 770 of 911",
-    "hourly wake 10:15: captures 804 of 947"
+    "hourly wake 10:15: captures 804 of 947",
+    "hourly wake 11:15: captures 850 of 993; debrief brought up to 11:20"
   ],
   "next": [
     "the CAOP check of the borders (DGT's official boundaries), or Dinis says Wikipedia at a revision is enough",
