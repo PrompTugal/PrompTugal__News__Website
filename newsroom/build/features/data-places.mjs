@@ -263,7 +263,7 @@ const mount = (ctx, scope) => `{.pq-mount}\n${catalogue(ctx.readJSON).words.moun
 export const fill = {
     'data:facts': (page, ctx) => {
         const db = database(ctx), rel = page.rel, c = Object.fromEntries(Object.entries(db.tables).map(([k, t]) => [k, t.rows.length]))
-        return `{.facts}\n| | |\n|---|---|\n| Tables | ${Object.keys(db.tables).length}: ${Object.keys(db.tables).map(t => `[${t}](#t-${t})`).join(', ')} |\n| The graph | ${c.nodes} nodes, ${c.edges} edges |\n| The places | ${c.places}, with ${c.news} local AI stories and ${c.map} map entries |\n| As JSON | [api/v1/data/index.json](${ctx.link(rel, 'api/v1/data/index.json')}); one file per place, as [api/v1/data/places/loule.json](${ctx.link(rel, 'api/v1/data/places/loule.json')}) |\n| The engine | [sql.js](${ctx.link(rel, 'assets/query/sql.js')}), [graph.js](${ctx.link(rel, 'assets/query/graph.js')}) |\n| Built | ${ctx.TODAY}, v${ctx.VERSION} |\n\n`
+        return `{.facts}\n| | |\n|---|---|\n| Tables | ${Object.keys(db.tables).length}: ${Object.keys(db.tables).map(t => `[${t}](#t-${t})`).join(', ')} |\n| The graph | ${c.nodes} nodes, ${c.edges} edges |\n| The places | ${c.places}, with ${c.news} local AI stories and ${c.map} map entries |\n| As JSON | `api/v1/data/index.json`; one file per place, as `api/v1/data/places/loule.json` |\n| The engine | [sql.js](${ctx.link(rel, 'assets/query/sql.js')}), [graph.js](${ctx.link(rel, 'assets/query/graph.js')}) |\n| Built | ${ctx.TODAY}, v${ctx.VERSION} |\n\n`
     },
     'data:places': (page, ctx) => { const db = database(ctx)
         const cases = CASES.map(c => db.places.find(x => x.id === c)).filter(Boolean).map(p => `[${esc(ctx, p.name)}](${ctx.link(page.rel, `query/${p.id}/index.html`)})`).join(' · ')
@@ -271,14 +271,14 @@ export const fill = {
     'data:ask': (page, ctx) => mount(ctx, ''),
     'data:examples': (page, ctx) => EXAMPLES(catalogue(ctx.readJSON)).map(ex => exampleBlock(ctx, ex)).join(''),
     'data:tables': (page, ctx) => { const db = database(ctx)
-        return Object.entries(db.tables).map(([name, t]) => `### ${name} {#t-${name}}\n\n${esc(ctx, t.about)} ${t.rows.length} rows: [api/v1/data/tables/${name}.json](${ctx.link(page.rel, `api/v1/data/tables/${name}.json`)}).\n\n{.pq-schema}\n| column | type | what it holds |\n|---|---|---|\n` + t.columns.map((c, i) => `| \`${c}\` | ${t.types[i]} | ${cell(ctx, t.docs[i])} |`).join('\n') + '\n\n').join('') },
+        return Object.entries(db.tables).map(([name, t]) => `### ${name} {#t-${name}}\n\n${esc(ctx, t.about)} ${t.rows.length} rows: `api/v1/data/tables/${name}.json`.\n\n{.pq-schema}\n| column | type | what it holds |\n|---|---|---|\n` + t.columns.map((c, i) => `| \`${c}\` | ${t.types[i]} | ${cell(ctx, t.docs[i])} |`).join('\n') + '\n\n').join('') },
 }
 
 function placePage(ctx, p) {
     const rel = `query/${p.id}/index.html`, db = database(ctx), W = catalogue(ctx.readJSON).words
     const row = db.tables.places.rows.find(r => r[0] === p.id) || []
     let md = `${fillT(W.place_intro, { name: esc(ctx, p.name) })}\n\n`
-    md += `{.facts}\n| | |\n|---|---|\n| The place | [${esc(ctx, p.name)}](${ctx.link(rel, `${p.path}index.html`)}), ${esc(ctx, p.kind)}, kept by ${esc(ctx, p.agent || '')} |\n| Status | ${esc(ctx, row[7] || 'stub')}, updated ${esc(ctx, row[8] || '')} |\n| In the data | ${row[12] || 0} stories, ${row[13] || 0} map entries, ${row[14] || 0} events, ${row[15] || 0} sources, ${row[16] || 0} gaps |\n| As JSON | [api/v1/data/places/${p.id}.json](${ctx.link(rel, `api/v1/data/places/${p.id}.json`)}): ${W.place_json} |\n| Every table | [The data, queryable](${ctx.link(rel, 'query/index.html')}) |\n\n`
+    md += `{.facts}\n| | |\n|---|---|\n| The place | [${esc(ctx, p.name)}](${ctx.link(rel, `${p.path}index.html`)}), ${esc(ctx, p.kind)}, kept by ${esc(ctx, p.agent || '')} |\n| Status | ${esc(ctx, row[7] || 'stub')}, updated ${esc(ctx, row[8] || '')} |\n| In the data | ${row[12] || 0} stories, ${row[13] || 0} map entries, ${row[14] || 0} events, ${row[15] || 0} sources, ${row[16] || 0} gaps |\n| As JSON | `api/v1/data/places/${p.id}.json`: ${W.place_json} |\n| Every table | [The data, queryable](${ctx.link(rel, 'query/index.html')}) |\n\n`
     md += `## Ask {#ask}\n\n` + mount(ctx, p.id)
     md += `## Answers {#examples}\n\n` + PLACE_EX(catalogue(ctx.readJSON), p.id, p.name).map(ex => exampleBlock(ctx, ex)).join('')
     return { rel, title: `${p.name}: the data`, summary: fillT(W.place_summary, { name: p.name }), md, type: 'place', layout: 'wide', assets: ASSETS, src: `data/by-place/${p.id}.json`, crumbs: [['query/index.html', 'The data'], [null, p.name]] }
