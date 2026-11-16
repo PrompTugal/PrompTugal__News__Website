@@ -4,7 +4,7 @@
   "name": "Portugal",
   "kind": "country",
   "parent": "",
-  "status": "researching",
+  "status": "live",
   "updated": "2026-11-16",
   "by": "place.portugal@PrompTugal.dinis",
   "mandate": "PrompTugal.news Portugal: AI and technology in Portugal, in context, from Portugal for Europe, with the national AI map, the national programmes and what flows down to the Algarve and every region. Independent, every fact sourced.",
@@ -82,6 +82,16 @@
       "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
       "read_on": "2026-11-15",
       "ai_path": "A national AI consortium, so directly AI.",
+      "steps": 0
+    },
+    {
+      "title": "AMALIA's funding rises to 7 million euros as it heads into the Gov.pt app",
+      "summary": "The government added 1.5 million euros on top of the original 5.5 million from the recovery plan, to 2027. Next steps named are use in the Gov.pt app, licensing and procurement, agent abilities and a growth from 9 to 22 billion parameters. The Prime Minister said the government was not celebrating and called it a small step toward autonomy.",
+      "date": "2026-07-01",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/2026/07/01/investimento-no-amalia-sobe-para-sete-milhoes-de-euros-montenegro-diz-que-o-governo-nao-esta-a-festejar-nada/",
+      "read_on": "2026-11-16",
+      "ai_path": "A national language model, so directly AI.",
       "steps": 0
     },
     {
@@ -299,7 +309,7 @@
       "name": "AMALIA",
       "type": "public body",
       "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
-      "what": "Open language model for European Portuguese, launched 1 July 2026 in Lisbon, coordinated by ARTE and FCT with about 80 researchers.",
+      "what": "Open language model for European Portuguese, launched 1 July 2026 in Lisbon, coordinated by ARTE and FCT with about 80 researchers. Funding rose from 5.5 to 7 million euros to 2027. Multimodal, 9 billion parameters, growing to 22 billion.",
       "source_url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
       "read_on": "2026-11-15",
       "ai_path": "A language model, so directly AI.",
@@ -684,6 +694,16 @@
       "read_on": "2026-11-16",
       "ai_path": "AI and LLM research, so directly AI.",
       "steps": 0
+    },
+    {
+      "name": "ia.gov.pt (AI portal of the public administration)",
+      "type": "public body",
+      "url": "https://digital.gov.pt/en/noticias/ja-esta-online-o-ia-gov-pt-o-portal-de-inteligencia-artificial-da-administracao-publica",
+      "what": "Single access point for national public-sector AI: a citizen assistant, a culture platform with about 42,000 objects, an education platform and access to AMALIA. In an initial phase. The page credits ARTE.",
+      "source_url": "https://digital.gov.pt/en/noticias/ja-esta-online-o-ia-gov-pt-o-portal-de-inteligencia-artificial-da-administracao-publica",
+      "read_on": "2026-11-16",
+      "ai_path": "A public AI portal, so directly AI.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -735,7 +755,7 @@
     "signed_by": "place.portugal@PrompTugal.dinis"
   },
   "gaps": [
-    "Seventh pass of 16 November: 39 map entries, 20 news items, 7 extras, all from pages opened. Still to map: Lisbon and Porto AI communities, the other university labs (LIACC, CISUC, INESC TEC groups), people and talent.",
+    "Eighth pass of 16 November: 40 map entries, 21 news items, 7 extras, all from pages opened. Still to map: Lisbon and Porto AI communities, the other university labs (LIACC, CISUC, INESC TEC groups, IT: two sites down), people and talent.",
     "No page we opened states the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai or Feedzai, so their region is left out until a source says it.",
     "The gigafactory is an Iberian bid to EuroHPC, but our sources give no site in Portugal or decision date, and the National Data Centre Plan is still being finalised.",
     "Sword Health and Unbabel have no page of their own read tonight (the company site refused or redirected), their entries rest on one press article.",
@@ -746,7 +766,8 @@
     "INESC-ID's SAIL Centre of Excellence (reported at 27.2 million euros in a search snippet) is not listed: the page we tried returned 404.",
     "The Instituto de Telecomunicações site returned an error on two tries (503), and INESC-ID's Center for Responsible AI page returned 404, so both stay out of the map until an official page loads.",
     "Investors: Armilar and Lince Capital appear in our news items, but we found no official page of theirs, and the directories we saw are not primary sources. Portugal Ventures' own page names no AI focus, so it sits in extras.",
-    "CISUC (Coimbra) lists research groups on its page but does not say which are AI, and LIACC's site returned an error (503), so neither is mapped yet."
+    "CISUC (Coimbra) lists research groups on its page but does not say which are AI, and LIACC's site returned an error (503), so neither is mapped yet.",
+    "A political critique of AMALIA's cost reported in July could not be opened (403), so the page carries only the government's side and independent reporting of facts. A second view is needed."
   ],
   "voice": {
     "lede": "A country on the Atlantic edge of Europe that wrote itself a language model of its own, and would like you to try it.",

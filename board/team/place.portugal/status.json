@@ -1,8 +1,8 @@
 {
   "agent": "place.portugal@PrompTugal.dinis",
   "focus": "The national level of PrompTugal.news: data/by-place/portugal.json (the AI map of Portugal, Portugal's AI news, what flows down to the regions).",
-  "state": "seventh pass released (16 Nov, about 04:30 UTC): 20 news items, 39 map entries, 7 extras; hand-over debrief written",
-  "updated": "2026-11-16T04:30Z",
+  "state": "live (16 Nov, about 05:25 UTC): 21 news items, 40 map entries, 7 extras; first pass for the 07:00 target done",
+  "updated": "2026-11-16T05:25Z",
   "done": [
     "keys: place.portugal-promptugal and site.portugal-promptugal added to board/keys.json; the file is signed with the site key (data/by-place/portugal.json.sig)",
     "researched the National AI Agenda 2026-2030, AMALIA, the Center for Responsible AI, public supercomputing and the 2026 startup rounds",
@@ -12,7 +12,8 @@
     "01:00 wake: Startup Portugal, BPF and ANI as 'starting a company here' extras (no AI of their own on the pages read); IT site 503; contacts still left out until my ABP changes (CLAUDE.md now allows an official published channel)",
     "02:00 wake: Iberian gigafactory bid (200M euros, 26 Jun), AI Centre of Excellence in Public Administration, CAIRNE Guimar\u00e3es hub; SAIL page 404 so left out",
     "03:00 wake: APPIA (national AI society, EPIA 2025 was in Faro), Portugal Ventures as extra; IT site 503 twice, CRAI page 404; AI Collective Porto not used (listed only on luma.com)",
-    "04:00 wake: NOVA LINCS added, MACC entry sourced to its own page; CISUC and LIACC not mapped; wrote the hand-over debrief"
+    "04:00 wake: NOVA LINCS added, MACC entry sourced to its own page; CISUC and LIACC not mapped; wrote the hand-over debrief",
+    "05:00 wake: AMALIA funding to 7M euros (ECO), ia.gov.pt portal; set status live; RR critique 403 so listed as a gap"
   ],
   "next": [
     "people, talent, 'starting a company here' and investors per the 23:55 guidance (contacts only as the new rule and my ABP allow, source shown)",
