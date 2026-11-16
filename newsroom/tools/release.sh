@@ -54,14 +54,45 @@ BRANCH=dev
 if [ -n "$(git status --porcelain)" ]; then
   echo "release.sh: commit your source changes first (never generated pages); the tree is not clean:"; git status --short | head -20; exit 1
 fi
-for attempt in 1 2 3 4 5; do
+# The release queue (dev@PrompTugal.dinis, 16 November 2026; newsroom/build/README.md, "Releasing: the queue").
+# The race: about twenty agents pushed to dev, and the gate (about a minute) ran between each one's fetch and its push,
+# so someone else had always pushed first and release.sh gave up after 5 tries (the conductor's debrief of 16 November,
+# section 2). Now:
+#   1. one release at a time per clone: a lock (flock) on .git/release.lock, so the sub-agents of one session queue
+#      instead of racing each other; a second release.sh waits up to RELEASE_WAIT seconds (default 900) for its turn;
+#   2. the gate runs once; after a lost push the script rebases and pushes again at once, and runs the gate again
+#      only when what landed meanwhile touches a file your commits touch, or the build, the gate or the schemas
+#      (newsroom/build/, newsroom/tools/, data/schemas/). CI runs the gate on every push to dev anyway, before it
+#      numbers anything, so a red tree never goes live;
+#   3. up to RELEASE_ATTEMPTS tries (default 30), with a short random wait, so two pushers do not collide in step.
+# Across sessions, the queue is the review workflow: writers push to work/<role> and only the reviewers push to dev.
+exec 9>"$(git rev-parse --git-common-dir)/release.lock"
+if ! flock -n 9; then
+  echo "release.sh: another release from this clone is running; waiting for its turn (up to ${RELEASE_WAIT:-900}s)"
+  flock -w "${RELEASE_WAIT:-900}" 9 || { echo "release.sh: still not my turn after ${RELEASE_WAIT:-900}s; nothing pushed"; exit 1; }
+fi
+rebasing() { [ -d "$(git rev-parse --git-path rebase-merge)" ] || [ -d "$(git rev-parse --git-path rebase-apply)" ]; }
+# must the gate run again? yes the first time, and when dev moved under a file of ours or under the build itself
+needs_gate() { # $1: the origin/dev the gate last passed over, $2: origin/dev now
+  [ -z "$1" ] && return 0
+  [ "$1" = "$2" ] && return 1
+  local theirs ours
+  theirs=$(git diff --name-only "$1" "$2" 2>/dev/null) || return 0
+  # CI's own release commits (the number, the versions row, REALITY.md's version) land between every two pushes
+  theirs=$(grep -vxE 'newsroom/build/version\.txt|newsroom/versions\.json|REALITY\.md' <<<"$theirs" || true)
+  grep -qE '^(newsroom/build/|newsroom/tools/|data/schemas/)' <<<"$theirs" && return 0
+  ours=$(git diff --name-only "$2" HEAD)
+  [ -n "$(comm -12 <(printf '%s\n' "$theirs" | sort -u) <(printf '%s\n' "$ours" | sort -u))" ]
+}
+GATED_OVER=""
+ATTEMPTS=${RELEASE_ATTEMPTS:-30}
+for attempt in $(seq 1 "$ATTEMPTS"); do
   git fetch -q origin "$BRANCH"
   if ! git rebase -q "origin/$BRANCH"; then
     # appends to board/keys.json on both sides are merged by id; anything else stops for a person
-    rebasing() { [ -d "$(git rev-parse --git-path rebase-merge)" ] || [ -d "$(git rev-parse --git-path rebase-apply)" ]; }
     while rebasing && resolve_keys; do GIT_EDITOR=true git rebase --continue >/dev/null 2>&1 || true; done
   fi
-  if [ -d "$(git rev-parse --git-path rebase-merge)" ] || [ -d "$(git rev-parse --git-path rebase-apply)" ]; then
+  if rebasing; then
     echo "release.sh: your commits conflict with dev; resolve them by hand:"; git diff --name-only --diff-filter=U; git rebase --abort; exit 1
   fi
   [ "$(git rev-list --count "origin/$BRANCH..HEAD")" = 0 ] && { echo "release.sh: nothing of yours to push"; exit 0; }
@@ -84,14 +115,20 @@ for attempt in 1 2 3 4 5; do
     git commit -q -m "$AGENT: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)" -m "Agent: $AGENT"
     echo "release.sh: the derived data changed with your desk files; committed it separately"
   fi
-  node newsroom/build/validate.js   # the gate builds the site itself, once (check 9)
+  BASE=$(git rev-parse "origin/$BRANCH")
+  if needs_gate "$GATED_OVER" "$BASE"; then
+    [ -n "$GATED_OVER" ] && echo "release.sh: what landed meanwhile touches your files or the build; the gate runs again"
+    node newsroom/build/validate.js   # the gate builds the site itself, once (check 9)
+    GATED_OVER=$BASE
+  fi
   [ "${DRY:-0}" = 1 ] && { echo "DRY: would push $(git rev-list --count "origin/$BRANCH..HEAD") commit(s)"; exit 0; }
   MINE=$(git rev-parse HEAD)
-  if git push -q origin "HEAD:$BRANCH"; then echo "pushed ${MINE:0:9}; CI numbers the release"; break; fi
-  echo "release.sh: someone pushed first; rebasing and trying again"
-  [ "$attempt" = 5 ] && { echo "release.sh: gave up after 5 attempts"; exit 1; }
-  sleep $((attempt * 3))
+  if git push -q origin "HEAD:$BRANCH"; then echo "pushed ${MINE:0:9} (attempt $attempt); CI numbers the release"; break; fi
+  [ "$attempt" = "$ATTEMPTS" ] && { echo "release.sh: gave up after $ATTEMPTS attempts; your commits stay here, run it again"; exit 1; }
+  echo "release.sh: someone pushed first (attempt $attempt of $ATTEMPTS); rebasing and pushing again"
+  sleep $((1 + RANDOM % 5))
 done
+exec 9>&-   # the push is done: the next release in the queue may go while this one waits for the live site
 [ "${SKIP_LIVE:-0}" = 1 ] && exit 0
 HOST=$(cat CNAME)
 for i in $(seq 1 36); do

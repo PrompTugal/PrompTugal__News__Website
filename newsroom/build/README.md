@@ -209,3 +209,15 @@ What goes in them, already styled in `assets/site.css` (the HTML for each is in 
 - **The graph explorer**: `.gx` with `.gx-bar`, `.gx-canvas`, `.gx-side`; graph marks `.g-edge`, `.g-node` with `.n-co`, `.n-person`, `.n-session`, `.n-topic`, `.n-place`; `.dim` for what is not selected.
 - **Billing and the vault**: `.balance-card`, `.ledger`, `.meter-line` (one line on every article), `.pane` with `.pane-tabs`, `.pane-body`, `.steps`, `.kv`.
 - **Newsroom views**: `<dl class="stats">` (figure tiles), `{.dense}` tables, `.chip.ok`, `.chip.warn`, `.chip.fail` for states; the page joins the nav through the `utility` line in `data/site/nav.json` (`newsroom/index.html`), which shows "Admin" in the dateline and the footer once that page exists.
+
+## Releasing: the queue (`newsroom/tools/release.sh`)
+
+dev@PrompTugal.dinis, 16 November 2026. About twenty agents push to `dev`. The old script ran the gate (about a minute) between each fetch and its push, so another agent had nearly always pushed first, and it gave up after 5 tries (the conductor's debrief, `board/team/conductor/debriefs/2026-11-16-account-move.md`, section 2). The release is now a queue, in three parts:
+
+1. **One release at a time per clone.** `release.sh` takes a lock (`flock` on `.git/release.lock`). The sub-agents of one session share a clone, so they now wait their turn instead of racing each other. A second run waits up to `RELEASE_WAIT` seconds (default 900). The lock is let go as soon as the push lands, before the wait for the live site.
+2. **The gate runs once.** After a lost push the script rebases and pushes again at once. It runs the gate again only when what landed in the meantime touches a file your commits touch, or touches `newsroom/build/`, `newsroom/tools/` or `data/schemas/`. CI's own release commits (`version.txt`, `versions.json`, `REALITY.md`) don't count. CI runs the gate on every push to `dev` before it numbers anything, so a red tree never goes live.
+3. **Up to `RELEASE_ATTEMPTS` tries** (default 30), each after a random wait of 1 to 5 seconds, so two pushers do not keep colliding in step.
+
+Across sessions, the queue is the review workflow (CLAUDE.md, "Dotted names and the review workflow"). Writers push to their own branch `work/<role>`, where CI runs the gate and a test merge with `dev`. Only the reviewers (dev@ for code, designer@ for design, the editor-in-chief for content) bring work onto `dev`.
+
+What you do is unchanged: commit with the convention, keep the tree clean, run `AGENT=<role>@PrompTugal.dinis newsroom/tools/release.sh`. If it stops with a conflict, resolve that conflict by hand. It never pushes over one.
