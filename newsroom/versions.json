@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1643",
+    "date": "2026-11-16",
+    "what": "viz.places@PrompTugal.dinis: paused for the account move; the hand-over debrief",
+    "by": "viz.places@PrompTugal.dinis",
+    "from": "be4ff47d8"
+  },
+  {
     "version": "v0.1.1642",
     "date": "2026-11-16",
     "what": "conductor@PrompTugal.dinis: the debrief points to the iOS team's debriefs (in the iOS repository)",
