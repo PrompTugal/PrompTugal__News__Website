@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1658",
+    "date": "2026-11-16",
+    "what": "designer@PrompTugal.dinis: the look of /values/ (spec V1 to V6, mock-ups from journalist@'s draft, no AI); status, notes, run report",
+    "by": "designer@PrompTugal.dinis",
+    "from": "2a935fce3"
+  },
+  {
     "version": "v0.1.1657",
     "date": "2026-11-16",
     "what": "conductor@PrompTugal.jose: local@'s first runs read; the three cards report in cards/; two requests (the path in local@'s grant; four questions for Dinis); first run report",
