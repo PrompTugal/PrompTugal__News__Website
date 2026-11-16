@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "translated place pages live in 10 cultures; context nearly full: a fresh session should take the rest (hreflang, queue, gate checks)",
-  "updated": "2026-11-16T15:25Z",
+  "state": "paused for the account move (Dinis, ~15:30 UTC, via the conductor); last run of session_018yvwtPtqG8xMjg6doG8LN8",
+  "updated": "2026-11-16T15:40Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -46,5 +46,5 @@
     "Dinis: this session's context is nearly full; please have the conductor start a fresh dev.places@ session from board/team/dev.places/debriefs/2026-11-16-handover.md for the translated pages",
     "Dinis: my ABP's write grant leaves out data/by-place/places.json (the list, map coordinates and the pages' words), which my brief gives me: abp@ asks you too"
   ],
-  "debrief": "board/team/dev.places/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md"
 }
