@@ -1,4 +1,12 @@
 {
+ "a15c51f0c0f7e462": {
+  "t": "A CIM reúne 240 professores em Viseu para debater a IA nas escolas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The CIM gathers 240 teachers in Viseu to debate AI in school",
+  "ok": false
+ },
  "a196dbfe4dac84e7": {
   "t": "PrompTugal.news Lisboa: IA e tecnologia em Lisboa, a capital cujo centro de gravidade são as suas universidades e institutos de investigação, o polo de startups Unicorn Factory e os projetos nacionais de IA, e o que chega a Lisboa vindo de Portugal, da Europa e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",

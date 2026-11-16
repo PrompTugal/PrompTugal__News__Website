@@ -7,6 +7,14 @@
   "src": "Researching",
   "ok": false
  },
+ "dc743f8b8d06b601": {
+  "t": "Am 29. Oktober 2026 stellte die interkommunale Einrichtung CIM Viseu Dão Lafões SMART REGION vor, zwei Plattformen (eine regionale Wissensplattform und eine für das Stadtmanagement), die verstreute Daten wie Besucherströme, Mobilität und Abfall verknüpfen, damit Gemeinden lokale Bedürfnisse besser verstehen. Ein zweiter Bericht von Mais Aguiar da Beira vom 31. Oktober besagt, die Urban Management Platform biete KI-Werkzeuge für Analyse und Entscheidungsunterstützung, und CIM und MOBI.E hätten ein Protokoll zu Smart Ticketing unterzeichnet. Keiner der beiden Berichte nennt die eingesetzten Modelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On 29 October 2026 the intermunicipal body CIM Viseu Dão Laf",
+  "ok": false
+ },
  "dc863485c179d3fc": {
   "t": "Oi, pá! Loulé, wo der Markt Kuppeln hat und die Stadtverwaltung Algorithmen.",
   "by": "translator@PrompTugal.dinis",

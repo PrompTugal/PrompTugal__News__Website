@@ -7,6 +7,14 @@
   "src": "Researching",
   "ok": false
  },
+ "dc743f8b8d06b601": {
+  "t": "A 29 de outubro de 2026, o organismo intermunicipal CIM Viseu Dão Lafões apresentou o SMART REGION, duas plataformas (uma de conhecimento regional e outra de gestão urbana) que cruzam dados dispersos, como fluxos de visitantes, mobilidade e resíduos, para ajudar os municípios a compreender as necessidades locais. Uma segunda reportagem, do Mais Aguiar da Beira, de 31 de outubro, diz que a Plataforma de Gestão Urbana oferece ferramentas de IA para análise e apoio à decisão e que a CIM e a MOBI.E assinaram um protocolo sobre bilhética inteligente. Nenhuma das reportagens indica os modelos utilizados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On 29 October 2026 the intermunicipal body CIM Viseu Dão Laf",
+  "ok": false
+ },
  "dc863485c179d3fc": {
   "t": "Olá, pá! Loulé, onde o mercado tem cúpulas e a câmara tem algoritmos.",
   "by": "translator@PrompTugal.dinis",

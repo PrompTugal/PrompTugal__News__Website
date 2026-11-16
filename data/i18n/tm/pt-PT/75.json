@@ -31,6 +31,14 @@
   "src": "Wider news: the government's APIS pilots bring AI to early f",
   "ok": false
  },
+ "75b310a204139fb0": {
+  "t": "A empresa diz ter investido 2,2 milhões de euros em IA em 2024 e 2025 e prevê mais 1,6 milhões em 2026, para acelerar a entrega de software, os novos produtos, as operações e o talento. O artigo refere um polo tecnológico em Beja, mas não dá pormenores sobre onde é feito o trabalho de IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The company says it has put 2.2 million euros into AI in 202",
+  "ok": false
+ },
  "75e47cf572243dab": {
   "t": "A 5 de novembro de 2026, o festival de literatura da câmara em Azeitão e Setúbal realizou uma conferência matinal na biblioteca pública municipal sobre as bibliotecas do futuro, abordando a mudança tecnológica, incluindo a IA, e a forma como os serviços se adaptam.",
   "by": "translator@PrompTugal.dinis",

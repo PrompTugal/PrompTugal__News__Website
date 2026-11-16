@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "ECO reports that 33N, a venture fund based in Porto, investe",
   "ok": false
+ },
+ "ec7d5c4db76b4d7a": {
+  "t": "De ULS Viseu Dão-Lafões kreeg 5,8 miljoen euro uit het herstelplan voor een angiografiesysteem, een tweede 1,5 tesla-MRI, een krachtige CT-scanner en een chirurgische robot. De ULS zegt dat de beeldvormingssystemen waar van toepassing AI bevatten, wat helpt de stralingsdosis op de CT en de angiograaf te optimaliseren.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The ULS Viseu Dão-Lafões got 5.8 million euros of recovery p",
+  "ok": false
  }
 }

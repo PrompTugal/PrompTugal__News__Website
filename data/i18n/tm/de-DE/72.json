@@ -15,6 +15,14 @@
   "src": "As part of its Competências do Futuro Algarve programme, the",
   "ok": false
  },
+ "72bcf8b4e7a0b779": {
+  "t": "Die KI-Aktivität in Viseu läuft eher über öffentliche und akademische Einrichtungen als über Start-ups. Das Politécnico de Viseu, das am 1. August 2026 zur Universidade Politécnica de Viseu wurde, leitet RiskMap, ein Projekt über 244.944 Euro zur Kartierung von Gebäudeschäden mit KI, und hat Regeln für den KI-Einsatz veröffentlicht. Auf seinem Campus nennt das STAR Institute, ein am 22. Mai 2026 eröffnetes Technologiezentrum, KI an erster Stelle seiner Digitalisierungsbereiche und beherbergt zwei Start-ups. Die Gemeinde ist Mitglied des Hubs AI4PA für die öffentliche Verwaltung, und die interkommunale Einrichtung CIM Viseu Dão Lafões stellte am 29. Oktober 2026 eine Datenplattform mit KI-Werkzeugen für Bürgermeister vor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu's AI activity runs through public and academic bodies ",
+  "ok": false
+ },
  "72e1d8635f04b3e5": {
   "t": "EDP kündigte am 8. Oktober 2025 ein 15,3-MW-Solarkraftwerk in Aljezur an, gebaut neben dem bestehenden 24-MW-Windpark Bordeira und mit dessen Netzanschluss, sodass kein neues Umspannwerk nötig war. Es ist das dritte Wind-Solar-Hybridprojekt von EDP in Portugal, mit geschätzten 24,6 GWh im Jahr. Der Artikel erwähnt weder Rechenzentren noch KI.",
   "by": "translator@PrompTugal.dinis",

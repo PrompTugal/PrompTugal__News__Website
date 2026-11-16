@@ -15,6 +15,14 @@
   "src": "PrompTugal.news Lagos: the AI and tech news of the town of t",
   "ok": false
  },
+ "44e20bed0892ea75": {
+  "t": "Viseu acoge MAESTRO-AI, un proyecto Erasmus+ sobre la enseñanza de matemáticas y programación en la era de la IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu hosts MAESTRO-AI, an Erasmus+ project on teaching math",
+  "ok": false
+ },
  "44eac4eeb8335e15": {
   "t": "PrompTugal.news Portugal: IA y tecnología en Portugal, en contexto, desde Portugal para Europa, con el mapa nacional de IA, los programas nacionales y lo que baja hasta el Algarve y todas las regiones. Independiente, cada dato con su fuente.",
   "by": "translator@PrompTugal.dinis",

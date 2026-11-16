@@ -15,6 +15,14 @@
   "src": "As part of its Competências do Futuro Algarve programme, the",
   "ok": false
  },
+ "72bcf8b4e7a0b779": {
+  "t": "L'activité en IA de Viseu passe davantage par les organismes publics et universitaires que par les startups. Le Politécnico de Viseu, devenu Universidade Politécnica de Viseu le 1er août 2026, pilote RiskMap, un projet de 244 944 euros de cartographie de la dégradation du bâti par l'IA, et a publié des règles d'usage de l'IA. Sur son campus, le STAR Institute, centre technologique ouvert le 22 mai 2026, place l'IA en tête de ses domaines de numérisation et héberge deux startups. La municipalité est membre du pôle AI4PA pour l'administration publique, et l'organisme intercommunal CIM Viseu Dão Lafões a présenté le 29 octobre 2026 une plateforme de données dotée d'outils d'IA pour les maires.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu's AI activity runs through public and academic bodies ",
+  "ok": false
+ },
  "72e1d8635f04b3e5": {
   "t": "EDP a annoncé le 8 octobre 2025 une centrale solaire de 15,3 MW à Aljezur, construite à côté du parc éolien de Bordeira de 24 MW existant et utilisant son raccordement au réseau, si bien qu’aucun nouveau poste n’a été nécessaire. C’est le troisième projet hybride éolien-solaire d’EDP au Portugal, avec 24,6 GWh par an estimés. L’article ne mentionne ni centres de données ni IA.",
   "by": "translator@PrompTugal.dinis",

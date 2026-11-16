@@ -31,6 +31,14 @@
   "src": "Aveiro, oh pá: where the moliceiros glide past the canal ter",
   "ok": false
  },
+ "c9d79993638823f4": {
+  "t": "Quase toda a IA que conseguimos identificar na Guarda passa por uma única instituição, o Politécnico da Guarda (IPG até 1 de agosto de 2026, desde então Universidade Politécnica da Guarda, UPG). Leciona a licenciatura em ciência de dados e IA, aberta em 2022, lidera um projeto de cerca de um milhão de euros para levar a IA, a IoT e a blockchain às pequenas empresas da região Centro, assinou um acordo de drones e IA com uma universidade ucraniana e gere a incubadora onde estão as startups da cidade. As páginas da própria câmara municipal não mostram qualquer uso de IA nem programa de IA, e a camada privada de IA é ténue, tendo como exemplo mais claro um gabinete de consultoria que recruta perfis de IA. O centro de gravidade da Guarda é, por isso, o seu politécnico, não a câmara municipal nem as suas empresas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Almost all the AI we could source in Guarda runs through one",
+  "ok": false
+ },
  "c9e2e899cc22dd22": {
   "t": "O Porto não se gaba, apenas sobe quinze lugares num ranking global de startups e segue em frente. A UPTEC mantém as startups de IA aquecidas, um programa de supercomputação instalou as suas secretárias em Asprela II, a Granter acabou de levantar os seus 1,6 milhões de euros, e o fundo 33N vigia o dinheiro a partir da sua base no Porto. O Porto Digital da própria cidade diz que não quer caixas negras, que é a regra mais tripeira que alguma vez ouvimos: mostra-me as tripas, depois confio em ti.",
   "by": "translator@PrompTugal.dinis",

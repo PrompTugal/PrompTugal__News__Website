@@ -55,6 +55,14 @@
   "src": "Bragança, ó pá: where the keep stands guard over the chestnu",
   "ok": false
  },
+ "d4908b4fd6bb7256": {
+  "t": "PACT clôture son projet AIRA après avoir formé plus de 500 personnes à l'IA pour la robotique",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PACT closes its AIRA project after training more than 500 pe",
+  "ok": false
+ },
  "d4c8b7180dbcc316": {
   "t": "Le Center for Responsible AI, consortium financé sur fonds publics désormais dirigé par Sword Health après la chute d'Unbabel, fait état d'environ 49 millions d'euros d'investissement public et de 27 millions d'investissement privé, et attend 150 millions d'euros de chiffre d'affaires d'ici la fin de 2026. Parmi les partenaires figurent Priberam et NeuralShift. L'article ne permet pas de savoir lesquels travaillent à Lisboa.",
   "by": "translator@PrompTugal.dinis",

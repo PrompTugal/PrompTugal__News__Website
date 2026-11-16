@@ -1,15 +1,15 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "pt-PT, es-ES, fr-FR, de-DE, nl-NL complete for the by-place prose (732 segments each, 3660 entries, all ok:false: no second pass yet)",
- "updated": "2026-11-16T08:15Z",
+ "state": "five cultures complete for the by-place prose (756 segments each); inbox lane now exists; waiting on dev.places@'s queue",
+ "updated": "2026-11-16T09:10Z",
  "counts": {
-  "segments_by_place_prose": 732,
-  "pt-PT": 732,
-  "es-ES": 732,
-  "fr-FR": 732,
-  "de-DE": 732,
-  "nl-NL": 732
+  "segments_by_place_prose": 756,
+  "pt-PT": 756,
+  "es-ES": 756,
+  "fr-FR": 756,
+  "de-DE": 756,
+  "nl-NL": 756
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -18,17 +18,19 @@
   "pt-PT: 140 of 140 by-place segments (places.json copy, each place's voice and mandate) in data/i18n/tm/pt-PT/",
   "spec read; memory in the spec's entry format (t, by, model, at, src, ok); pt-PT ai_news and gravity by a Sonnet sub-agent, checked for placeholders, URLs, ids",
   "gate unblocked by the conductor (kinds i18n-tm, i18n-misc); released v0.1.1583; es-ES, fr-FR, de-DE, nl-NL by eight Sonnet sub-agents, each output checked for ids, placeholders and URLs before it joined the memory",
-  "second pass: a different sub-agent per culture reviewed 40 segments; 190 confirmed ok:true, 10 corrected; errors: gender, a calque, one added phrase, polytechnic rendered as a French grande école"
+  "second pass: a different sub-agent per culture reviewed 40 segments; 190 confirmed ok:true, 10 corrected; errors: gender, a calque, one added phrase, polytechnic rendered as a French grande école",
+  "09:10 wake: 28 new segments (Beja and other new places) in all five cultures, outputs checked"
  ],
  "next": [
-  "a second pass on a larger share, especially fr-FR (4 of 40 wrong) ",
-  "pt-BR and the other 15 cultures",
-  "new segments each wake: tm.mjs todo",
-  "reconcile with dev.places@ once its segmenter and queue ship"
+  "new segments each wake",
+  "a second pass on a larger share, fr-FR first (4 of 40 wrong)",
+  "pt-BR and the other 15 cultures (Dinis's order: pt-PT, es-ES, fr-FR, de-DE, nl-NL, then the rest)",
+  "drain board/inboxes/translator.json: no drain tool in my grant (the team site's feedback_drain.py is outside it); asked below",
+  "reconcile with dev.places@ when its segmenter and queue ship"
  ],
  "asks": [
-  "Dinis: there is no ABP for translator@ yet (board/abp/), so the run report logs my writes to data/i18n/ and board/team/translator/ as outside the grant (observe mode, nothing blocked). abp@ to give it a policy: write data/i18n/**, board/team/translator/**, board/keys.json (own entry), sub-agents per culture, no connector; the OpenRouter key is not needed for translation.",
-  "Dinis: dev@ (or dev.places@) to add to newsroom/build/lib/datacheck.mjs KINDS [/^data\\/i18n\\/tm\\/[^/]+\\/[0-9a-f]{2}\\.json$/, 'i18n-tm'] and [/^data\\/i18n\\/glossary\\.json$/, 'i18n-glossary'], and the two schemas I drafted in board/team/translator/proposals/ (copy to data/schemas/<kind>.schema.json). The gate is red without them and release.sh refuses to push; it is not my path to edit. I asked dev@ and dev.places@ on their inboxes."
+  "Dinis: dev@ (or dev.places@) to add to newsroom/build/lib/datacheck.mjs KINDS [/^data\\/i18n\\/tm\\/[^/]+\\/[0-9a-f]{2}\\.json$/, 'i18n-tm'] and [/^data\\/i18n\\/glossary\\.json$/, 'i18n-glossary'], and the two schemas I drafted in board/team/translator/proposals/ (copy to data/schemas/<kind>.schema.json). The gate is red without them and release.sh refuses to push; it is not my path to edit. I asked dev@ and dev.places@ on their inboxes.",
+  "Dinis: the conductor issued my inbox lane (board/inboxes/translator.json) but my grant has no drain tool: board/tools/agent_inboxes.py only sends. abp@ or the conductor to say which tool I may use to read it."
  ],
  "latest_debrief": "",
  "second_pass": {

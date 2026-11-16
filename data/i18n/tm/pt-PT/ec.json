@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "ECO reports that 33N, a venture fund based in Porto, investe",
   "ok": false
+ },
+ "ec7d5c4db76b4d7a": {
+  "t": "A ULS Viseu Dão-Lafões obteve 5,8 milhões de euros do plano de recuperação para um sistema de angiografia, uma segunda ressonância magnética de 1,5 tesla, um tomógrafo de alto desempenho e um robô cirúrgico. A ULS afirma que os sistemas de imagem incluem IA quando aplicável, ajudando a otimizar a dose de radiação na TC e no angiógrafo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The ULS Viseu Dão-Lafões got 5.8 million euros of recovery p",
+  "ok": false
  }
 }

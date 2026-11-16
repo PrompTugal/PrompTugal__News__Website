@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "At the Science for Industry fair the institute showed DBoidS",
   "ok": false
+ },
+ "15bd45b70554b692": {
+  "t": "Ovibeja 2025 stellt KI in der Landwirtschaft in den Mittelpunkt der Messe",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ovibeja 2025 puts AI in farming at the centre of the fair",
+  "ok": false
  }
 }

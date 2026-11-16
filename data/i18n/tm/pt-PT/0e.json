@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Viseu's AI activity runs through three public and academic b",
   "ok": false
+ },
+ "0e8918261c04a038": {
+  "t": "O STAR Institute abre em Viseu com a IA entre as suas áreas centrais e duas startups instaladas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "STAR Institute opens in Viseu with AI among its core areas a",
+  "ok": false
+ },
+ "0ee9d1a32b46f135": {
+  "t": "A página de notícias do próprio município anunciou que a primeira das cinco ações de formação do polo AI4PA Portugal se realizaria no Museu do Quartzo, em Viseu, a 26 de fevereiro de 2025, sobre IA generativa e serviços públicos baseados em IA, com a abertura feita pelo então presidente da câmara. A página do evento indica a câmara como coorganizadora.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The municipality's own news page announced that the first of",
+  "ok": false
  }
 }

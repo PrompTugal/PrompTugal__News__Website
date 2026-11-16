@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "A student from the Instituto Politécnico de Beja built a mac",
   "ok": false
+ },
+ "0bd6e1bec15837ca": {
+  "t": "La incubadora de Setúbal participa en una charla regional sobre IA y calidad",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's incubator joins a regional talk on AI and quality",
+  "ok": false
  }
 }

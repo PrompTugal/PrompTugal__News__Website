@@ -15,6 +15,14 @@
   "src": "Investors and investments",
   "ok": false
  },
+ "cea1373c4c7563a0": {
+  "t": "O investimento elegível aprovado é de 1,68 milhões de euros para o Polo de Inovação de Tavira no CEAT (cerca de 27 hectares). As obras substituem a rede de rega de 1989 por controladores de válvulas programáveis, sondas de humidade do solo e equipamento de deteção de fugas, reabilitam o antigo edifício da CCDR e plantam novos ensaios de fruta e vinha. A conclusão estava prevista para o final de dezembro de 2025. O artigo não menciona IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The approved eligible investment is 1.68 million euros for t",
+  "ok": false
+ },
  "ceae4e40d9b44e37": {
   "t": "A associação VOST Portugal e a câmara organizaram dois dias na cidade sobre o uso das redes sociais e da IA na prevenção, preparação e resposta a catástrofes. Oradores dos serviços de emergência viram valor nos algoritmos para o planeamento de recursos e levantaram questões sobre verificação e privacidade.",
   "by": "translator@PrompTugal.dinis",

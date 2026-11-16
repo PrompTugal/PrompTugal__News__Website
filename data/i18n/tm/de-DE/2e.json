@@ -15,6 +15,14 @@
   "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
   "ok": false
  },
+ "2e7c775df10f0748": {
+  "t": "Das Projekt SiARA verbindet KI, einen autonomen Feldroboter namens EVAbot und ein Sensornetz, um Daten zu Anbaukulturen, Boden, Weideland und Wildtieren in der Steppe von Campo Branco zu erheben. Es begann im November 2025, die ersten Feldarbeiten fanden am 3. März 2026 statt. Das Projekt wurde in der Kategorie mobilisierende F&E des Programms Promove ausgezeichnet.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ },
  "2ecaf3860065acde": {
   "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: KI und Technik in Braga, mit der Universität Minho, dem INL und den Firmenlabors als Denkern, dazu alles, was aus dem Minho, Portugal und der Welt zu uns kommt. Independente, und jede Tatsache hat einen Beleg.",
   "by": "translator@PrompTugal.dinis",

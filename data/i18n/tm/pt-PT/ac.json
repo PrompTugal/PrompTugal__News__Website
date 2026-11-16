@@ -7,6 +7,14 @@
   "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
   "ok": false
  },
+ "ac65ddf0253d7aed": {
+  "t": "O centro de tecnologia e inovação no campus do politécnico foi inaugurado a 22 de maio de 2026, com a presença do primeiro-ministro. Regista 40 pessoas, 15 projetos de I&D, mais de 20 empresas servidas, uma spin-off e duas startups, e a reportagem do Observador diz que uma startup está ligada à IA e a outra à cibersegurança. O seu próprio site lista a IA em primeiro lugar na digitalização e disponibiliza um robô humanoide e um quadrúpede com IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The technology and innovation centre on the polytechnic's ca",
+  "ok": false
+ },
  "ac813a3161253af4": {
   "t": "A nova Agência para a Investigação e Inovação (AI²) de Portugal devia arrancar a 1 de janeiro de 2026",
   "by": "translator@PrompTugal.dinis",

@@ -1,4 +1,12 @@
 {
+ "ca129ac5a7c65d66": {
+  "t": "Uma palestra matinal a 6 de novembro de 2026 na biblioteca pública municipal, integrada no primeiro Festival Literário de Azeitão e Setúbal, ouviu um escritor dizer que a IA ajuda em tarefas factuais mas pode inventar informação, e que usá-la para criar texto retira o propósito da escrita. A responsável pelos serviços de bibliotecas da cidade foi a moderadora.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A morning talk on 6 November 2026 at the municipal public li",
+  "ok": false
+ },
  "ca3b22542ba1ebc7": {
   "t": "A licenciatura em Gestão Internacional de Negócios da escola de gestão realizou um ciclo IBM Seminars 2026 com sessões sobre IA ao longo do processo de investigação (8 de maio) e sobre como transformar dados de mercado em estratégia com análise assistida por IA (20 de maio), na sala 106 do campus de Santa Apolónia.",
   "by": "translator@PrompTugal.dinis",

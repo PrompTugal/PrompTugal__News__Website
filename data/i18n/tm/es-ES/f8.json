@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "On the sources read so far, Loulé's weight in AI is institut",
   "ok": false
+ },
+ "f83860c4d97f409d": {
+  "t": "La 41.ª edición de la feria agrícola de Beja, organizada por la asociación de agricultores ACOS, adoptó el lema más agricultura y más futuro, con la producción ligada a las nuevas tecnologías y a la IA como foco principal y un pabellón de innovación y tecnología para charlas y demostraciones de equipos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false
  }
 }

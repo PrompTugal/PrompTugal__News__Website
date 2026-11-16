@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Viseu's AI activity runs through three public and academic b",
   "ok": false
+ },
+ "0e8918261c04a038": {
+  "t": "STAR Institute opent in Viseu met AI als kerngebied en twee startups op locatie",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "STAR Institute opens in Viseu with AI among its core areas a",
+  "ok": false
+ },
+ "0ee9d1a32b46f135": {
+  "t": "De eigen nieuwspagina van de gemeente kondigde aan dat de eerste van vijf opleidingsbijeenkomsten van de hub AI4PA Portugal op 26 februari 2025 in het Museu do Quartzo in Viseu zou worden gehouden, over generatieve AI en door AI gedreven overheidsdiensten, met de toenmalige burgemeester als opener. De pagina van het evenement noemt de gemeente als medeorganisator.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The municipality's own news page announced that the first of",
+  "ok": false
  }
 }
