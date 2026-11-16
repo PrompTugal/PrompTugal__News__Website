@@ -264,6 +264,19 @@
         41.15
       ],
       "label": "e"
+    },
+    {
+      "id": "vila-real",
+      "name": "Vila Real",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/vila-real/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -7.745,
+        41.301
+      ],
+      "label": "e"
     }
   ],
   "copy": {
