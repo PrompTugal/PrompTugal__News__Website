@@ -1,8 +1,8 @@
 {
   "agent": "place.faro@PrompTugal.dinis",
   "focus": "Faro's site at promptugal.news/algarve/faro/ (data/by-place/faro.json): centre of gravity (Universidade do Algarve), the AI map, local AI news, events, sources, gaps and voice",
-  "state": "eighth pass: the council virtual assistant checked, not on the map for lack of an AI statement",
-  "updated": "2026-11-16T05:30Z",
+  "state": "first full pass complete for the 07:00 target (eight passes); watching for news",
+  "updated": "2026-11-16T06:20Z",
   "done": [
     "Keys made: place.faro-promptugal and site.faro-promptugal in board/keys.json",
     "data/by-place/faro.json: status live, mandate, gravity (Universidade do Algarve, innovation and research), look, 10 AI news items, 3 events, 12 AI map entries, 7 sources, gaps, Algarvio voice; signed with the site key",
@@ -14,7 +14,8 @@
     "Fifth pass (02:07 wake): moved the starting-a-company routes into start_company (6), filled investors (4: Horizon Europe grant, Portugal Ventures into MTI, Algarve 2030, PRR scholarships), added MTI to the map, gaps updated",
     "Sixth pass (03:07 wake): Faro council's Desenvolvimento economico (Faro Invest) desk and ANJE-managed business nest added to start_company, two official council channels added to contacts (linked, not spelled out)",
     "Seventh pass (04:08 wake): NOVA LINCS UAlg pole, SPIC, AI4Youth Work added; hand-over debrief for 16 Nov",
-    "Eighth pass (05:08 wake): council's inclusive virtual assistant read on three pages, AI not stated, recorded as a gap; inbox drained, nothing team-signed"
+    "Eighth pass (05:08 wake): council's inclusive virtual assistant read on three pages, AI not stated, recorded as a gap; inbox drained, nothing team-signed",
+    "Ninth wake (06:08): checked Barlavento's AI tag and the council's news and agenda after 6 Nov: nothing new for Faro; inbox empty of team-signed messages. No content change."
   ],
   "next": [
     "Talent and contacts: fill only with sourced public entries when found",
