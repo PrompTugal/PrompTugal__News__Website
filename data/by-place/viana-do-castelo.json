@@ -40,6 +40,16 @@
   },
   "ai_news": [
     {
+      "title": "Viana Tech Day 2026 puts a data-centre workshop on the Portugal Tech Week programme",
+      "summary": "The council announced the city's third Viana Tech Day for 6 November 2026, run by the 351 Portuguese Startup Association with Dinamo10, Untile, Cooperativa Tecnológica and the council. The day included a pitch battle for founders and a 15-seat workshop called Data Center Lab: myths, facts and governance. The programme does not mention AI.",
+      "date": "2026-10-14",
+      "publisher": "Câmara Municipal de Viana do Castelo",
+      "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "read_on": "2026-11-16",
+      "ai_path": "A local tech day whose workshop is about data centres, which run AI workloads, though the page never says so: two steps from AI.",
+      "steps": 2
+    },
+    {
       "title": "A factory for data-centre power equipment starts production at Viana's port",
       "summary": "Nordic Epod, a CTS Group and Eaton venture, began operating its new plant about two weeks before 4 September 2026, with two shifts. It builds large electrical units for data centres, expects about 500 jobs as it expands and has orders secured to June 2027. The article does not mention AI.",
       "date": "2026-09-04",
@@ -105,13 +115,13 @@
       "name": "Câmara Municipal de Viana do Castelo: news",
       "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias",
       "kind": "council",
-      "feed": "https://www.cm-viana-castelo.pt/rss-feed"
+      "feed": "https://www.cm-viana-castelo.pt/pages/321.rss"
     },
     {
       "name": "Câmara Municipal de Viana do Castelo: agenda",
       "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/agenda-de-eventos",
       "kind": "events",
-      "feed": null
+      "feed": "https://www.cm-viana-castelo.pt/pages/322.rss"
     },
     {
       "name": "Instituto Politécnico de Viana do Castelo (IPVC)",
@@ -148,9 +158,29 @@
       "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Câmara Municipal de Viana do Castelo: Investir (business desk pages)",
+      "url": "https://www.cm-viana-castelo.pt/investir",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "CTVC (Cooptech), Viana's technology cooperative",
+      "url": "https://web-4ui.pages.dev/en",
+      "kind": "business",
+      "feed": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "Viana Tech Day, part of Portugal Tech Week (351 Portuguese Startup Association, Dinamo10, Untile, Cooperativa Tecnológica, council). Includes the Data Center Lab workshop, a Pitch Battle and a Think Tank",
+      "date": "2026-11-06",
+      "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "read_on": "2026-11-16",
+      "ai_path": "The Data Center Lab workshop is about data centres, which run AI workloads: two steps from AI. The rest of the day is a general startup event."
+    }
+  ],
   "ai_map": [
     {
       "name": "Instituto Politécnico de Viana do Castelo (IPVC)",
@@ -231,6 +261,46 @@
       "read_on": "2026-11-16",
       "ai_path": "Judged an entrepreneurship contest that an AI startup idea won.",
       "steps": 2
+    },
+    {
+      "name": "CTVC (Cooptech), Cooperativa Tecnológica",
+      "type": "organisation",
+      "url": "https://web-4ui.pages.dev/en",
+      "what": "Non-profit technology cooperative in Viana do Castelo that develops software (EdTech, eGovernance), trains new professionals and runs a cooperative incubator for early-stage tech startups. It hosted the Data Center Lab workshop on Viana Tech Day. Its pages do not mention AI.",
+      "source_url": "https://web-4ui.pages.dev/en",
+      "read_on": "2026-11-16",
+      "ai_path": "A local software and startup cooperative that hosted a workshop on data centres: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "name": "Viana S.T.ARTS Centre (VianaStarts, council project)",
+      "type": "public body",
+      "url": "https://www.cm-viana-castelo.pt/institucional/estudos-e-projetos/viana-s-t-arts-centre",
+      "what": "The council's European innovation centre for science, technology and the arts in the former municipal slaughterhouse. The page gives no services, funding or opening date and does not mention AI. The council names it as a Viana Tech Day partner.",
+      "source_url": "https://www.cm-viana-castelo.pt/institucional/estudos-e-projetos/viana-s-t-arts-centre",
+      "read_on": "2026-11-16",
+      "ai_path": "A public technology and arts space with no AI stated on its page: two steps from AI at best.",
+      "steps": 2
+    },
+    {
+      "name": "Dinamo10 Creative Hub",
+      "type": "community",
+      "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "what": "Creative hub named as a partner of Viana Tech Day 2026, which hosted its Think Tank Viana STARTS in the hub's space. We did not open its own site.",
+      "source_url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "read_on": "2026-11-16",
+      "ai_path": "Co-hosts a tech day whose programme has no AI: two steps from AI at best.",
+      "steps": 2
+    },
+    {
+      "name": "351 Portuguese Startup Association",
+      "type": "community",
+      "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "what": "Named as the organiser of Viana Tech Day 2026 for Portugal Tech Week. We did not open its own site.",
+      "source_url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs a startup event with a data-centre workshop: two steps from AI.",
+      "steps": 2
     }
   ],
   "extras": [],
@@ -239,16 +309,20 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "ipvc.pt answered 503 to every page we tried, so the polytechnic's own news, its AI microcredential course, its November 2026 events and its renaming are reached only through regional press and search snippets. We should reread ipvc.pt when it is back.",
-    "We found no AI event with a confirmed 2026 date in Viana. The council agenda for November lists no technology or AI event, and listings that surfaced (a vibe coding workshop in Portugal Tech Week, an AI talk at a school anniversary) were undated or hosted on sites we do not read.",
+    "ipvc.pt answered 503 again on 16 November, so the polytechnic's own news, its AI microcredential course, its events and its renaming to a university are reached only through regional press. The council's Tech Day page already calls it UNIPVC, but we found no page of its own confirming that. We should reread ipvc.pt when it is back.",
+    "No AI event is dated ahead in Viana. The council's events feed, read on 16 November, lists nothing on technology or AI from 30 November to 13 December 2026. The one tech event found, Viana Tech Day on 6 November, is past and its programme does not mention AI. Listings for its workshops sit on luma.com, which we do not read.",
     "The council's public AI licensing tool was promised for March 2026, and we could not confirm that it launched. Its 2026 activity plan PDF was too large for us to open, so the AI lines about it are known only from press reports and search results. Sources to look for: the council's urban planning pages and its news feed.",
-    "We found no AI startup or company based in Viana beyond a student project. VianaStarts, the council's science, technology and arts centre, and In.Cubo, the Alto Minho incubator, belong on the map once a page we can open shows AI work. The VianaStarts page we read does not mention AI.",
+    "We found no AI startup or company based in Viana beyond a student project. A search listing named a pre-seed health AI startup and a PRR project at a wood-engineering firm, but neither could be confirmed on a page we opened, so neither is on the map. The VianaStarts page does not say what the centre offers, and In.Cubo is seated in Arcos de Valdevez, not in the city. Its own site did not load.",
     "Nordic Epod's plant is placed at two steps from AI only because it supplies data centres. No page we read says its equipment serves AI workloads.",
     "Data CoLAB's own ANI page does not mention AI. Its AI link is the PRR project, and that page showed a data-loading error. We did not reach the laboratory's own website.",
-    "The council's contacts page lists no economic development desk, so none is listed. Its Investir section links business parks and financing, which we did not read.",
-    "No investors, funds or investments in Viana AI companies were found. Sources to look for: Portugal Ventures and Banco de Fomento notices, and ADRIMINHO.",
+    "The council has no economic development desk in the pages we read. Its Investir section is mostly navigation: the financing page describes only PRIME, a programme that ended in 2006, and the business-park and association pages list names without AI. No Empresa na Hora or Startup Portugal page was opened for Viana.",
+    "Investors: only a PRR grant and the CTS and Eaton plant investment are sourced. The Pitch Battle jury is described only as investors and professionals, with no names. CTVC reports European grants for its startups, but the page we opened did not load that news. Sources to look for: Portugal Ventures and Banco de Fomento notices, and ADRIMINHO.",
     "Local talent is not filled: nobody has agreed to be listed here.",
-    "Press not reached: Diário do Minho and Rádio Geice were not opened, and no RSS feed was found for the regional sites other than the council's footer link, which we saw but did not fetch."
+    "Press not reached: Diário do Minho and Rádio Geice were not opened. The council's own news and events feeds do work.",
+    "CTVC's pages were read on a preview address (web-4ui.pages.dev) that a search surfaced, and its footer names Cooptech (CTVC) as the owner. Its news and events lists showed only a loading message. We should confirm its official address and read its events.",
+    "Dinamo10, Untile and the 351 Portuguese Startup Association appear here only as partners named on the council's Tech Day page. We did not open their own sites, so what they offer is not described. Untile has no AI path on that page and is left off the map.",
+    "A page of a Portuguese government news item says the Minho Park business park opened in Monção on 18 May 2026, with no mention of AI. It is outside Viana, so it is not listed.",
+    "The council's Sustemare ocean-technology centre tender (3.6 million euros, 10 November 2026) does not mention AI, data or robotics, so it is not listed."
   ],
   "voice": {
     "lede": "Viana do Castelo, ai Jesus: a basilica on the hill, a river that cannot decide where to stop, and a council that quietly teaches a computer to read licences while the whole town is watching the port.",
@@ -264,6 +338,104 @@
       "source_url": "https://www.cm-viana-castelo.pt/balcao-online/contactos-e-horarios-de-atendimento",
       "read_on": "2026-11-16",
       "channel": "the council's general email, published on its Contactos e horários de atendimento page (open the linked page for the address)"
+    },
+    {
+      "name": "Viana S.T.ARTS Centre (VianaStarts), council project",
+      "what": "The council's published project email and phone for the centre, on its project page.",
+      "url": "https://www.cm-viana-castelo.pt/institucional/estudos-e-projetos/viana-s-t-arts-centre",
+      "source_url": "https://www.cm-viana-castelo.pt/institucional/estudos-e-projetos/viana-s-t-arts-centre",
+      "read_on": "2026-11-16",
+      "channel": "the project's email and phone, published on the council's VIANA S.T.ARTS Centre page (open the linked page)"
+    },
+    {
+      "name": "Câmara Municipal de Viana do Castelo, investment support",
+      "what": "The council's Apoios e Incentivos ao Investimento page publishes the council's general phone and email as its channel. It names no dedicated business desk.",
+      "url": "https://www.cm-viana-castelo.pt/investir/apoios-incentivos-ao-investimento",
+      "source_url": "https://www.cm-viana-castelo.pt/investir/apoios-incentivos-ao-investimento",
+      "read_on": "2026-11-16",
+      "channel": "the council's general phone and email, published on its Apoios e Incentivos ao Investimento page (open the linked page)"
+    }
+  ],
+  "start_company": [
+    {
+      "name": "Balcão do Empreendedor (ePortugal), reached through the council",
+      "what": "The council says the services it must provide to carry out an economic activity go through the national single desk, run by AMA. The page does not describe Empresa na Hora or a startup visa.",
+      "url": "https://www.cm-viana-castelo.pt/investir/eportugal-gov-pt-balcao-do-empreendedor",
+      "source_url": "https://www.cm-viana-castelo.pt/investir/eportugal-gov-pt-balcao-do-empreendedor",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "CTVC cooperative incubator (Viana do Castelo)",
+      "what": "A cooperative of early-stage tech startups that pool shared infrastructure, events, funding-call information and reduced-rate staff support, for 150 euros a year, with no equity taken. It wants a scalable tech product, a prototype or first pilots, and at least one cofounder tied to Viana. Applications use a form on its page.",
+      "url": "https://web-4ui.pages.dev/en/membership-startups",
+      "source_url": "https://web-4ui.pages.dev/en/membership-startups",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "Viana S.T.ARTS Centre (VianaStarts)",
+      "what": "The council's science, technology and arts centre in the former slaughterhouse. Its page does not say whether it is an incubator or what it offers, and gives no opening date.",
+      "url": "https://www.cm-viana-castelo.pt/institucional/estudos-e-projetos/viana-s-t-arts-centre",
+      "source_url": "https://www.cm-viana-castelo.pt/institucional/estudos-e-projetos/viana-s-t-arts-centre",
+      "read_on": "2026-11-16",
+      "kind": "space"
+    },
+    {
+      "name": "Viana Tech Day Pitch Battle",
+      "what": "Entrepreneurs pitched ideas to a jury of investors and sector professionals on 6 November 2026 at the Santa Luzia elevator. Applications closed on 23 October. A panel looked at what became of earlier pitches.",
+      "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "source_url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    },
+    {
+      "name": "Dinamo10 Creative Hub",
+      "what": "Hosted the Think Tank Viana STARTS on Viana Tech Day 2026 in its space. Its own services were not read.",
+      "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "source_url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias/noticia/viana-do-castelo-integra-portugal-tech-week-com-viana-tech-day-aberto-a-comunidade",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    },
+    {
+      "name": "Business parks managed with the council (Praia Norte, Meadela, Lanheses, Neiva)",
+      "what": "The council lists four business parks and zones, with Lanheses run by Gestinviana, in which the council is a shareholder. Meadela and Neiva have no description. No technology park is listed.",
+      "url": "https://www.cm-viana-castelo.pt/investir/parques-e-zonas-empresariais",
+      "source_url": "https://www.cm-viana-castelo.pt/investir/parques-e-zonas-empresariais",
+      "read_on": "2026-11-16",
+      "kind": "space"
+    },
+    {
+      "name": "Local business associations (AEVC, AIMINHO, CEVAL and others)",
+      "what": "The council's list of business associations in the area. None is described as a technology or startup body.",
+      "url": "https://www.cm-viana-castelo.pt/investir/associacoes-empresariais",
+      "source_url": "https://www.cm-viana-castelo.pt/investir/associacoes-empresariais",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Recovery and Resilience Plan (PRR) into the IPVC and Data CoLAB AI project",
+      "what": "About 39,800 euros of funding for a project that used AI, natural language processing and generative AI to build an interactive digital system. The portal page showed a data-loading error.",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/04/C05-i08.01/2024.P2024.07434.IACDC/2024",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/04/C05-i08.01/2024.P2024.07434.IACDC/2024",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "about 39,800 euros",
+      "date": "2025-05-01",
+      "ai_path": "Funds an AI project run in Viana: directly about AI. The date is the project start."
+    },
+    {
+      "name": "CTS Group and Eaton into Nordic Epod's Viana plant",
+      "what": "A joint venture investing 50 million euros in a factory for data-centre power units, with 500 jobs expected. The sources never mention AI.",
+      "url": "https://echoboomer.pt/abriu-nova-fabrica-equipamentos-data-centers-viana-do-castelo/",
+      "source_url": "https://echoboomer.pt/abriu-nova-fabrica-equipamentos-data-centers-viana-do-castelo/",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "50 million euros",
+      "date": "2026-09-04",
+      "ai_path": "Builds equipment for data centres, which run AI workloads: two steps from AI."
     }
   ]
 }

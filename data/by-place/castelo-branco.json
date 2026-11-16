@@ -9,7 +9,7 @@
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Castelo Branco: AI and technology in Castelo Branco, a Beira Baixa district capital whose centre of gravity is its polytechnic, now the Universidade Politécnica de Castelo Branco, and a small circle of local tech firms, and what reaches Castelo Branco from Portugal, Europe and the world. Independent. Every fact sourced.",
   "gravity": {
-    "text": "Castelo Branco's AI activity sits around the polytechnic, which became the Universidade Politécnica de Castelo Branco on 1 August 2026, and the people it trains. Its health school runs AI in health days, two of its engineering professors founded the wildfire drone startup Axtron Systems, and a local waste-tech firm and an IT consultancy are the main private names. The council's front page shows no AI items, so the university and a few startups, not city hall, are the centre of gravity.",
+    "text": "Castelo Branco's AI activity sits around the polytechnic, which became the Universidade Politécnica de Castelo Branco on 1 August 2026, and the people it trains. Its health school runs AI in health days, two of its engineering professors founded the wildfire drone startup Axtron Systems, and a local waste-tech firm and an IT consultancy are the main private names. In 2026 the council itself began to speak about AI, opening the school year with an AI conference and saying it is weighing an AI academy, and it approved a drone and defence technology hub with a company called Odin Systems.",
     "sources": [
       {
         "title": "Polytechnic of Castelo Branco becomes a university on 1 August (Observador, 30 July 2026)",
@@ -30,6 +30,16 @@
         "title": "Câmara Municipal de Castelo Branco, front page and news (read 16 November 2026)",
         "url": "https://www.cm-castelobranco.pt",
         "read_on": "2026-11-16"
+      },
+      {
+        "title": "Abertura do Ano Letivo em Castelo Branco dedicada à inovação pedagógica e à Inteligência Artificial (council news, 10 September 2026)",
+        "url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=23390",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Câmara de Castelo Branco garante expansão da Axians e atrai novos investimentos empresariais (council news, August 2026)",
+        "url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=23309",
+        "read_on": "2026-11-16"
       }
     ]
   },
@@ -39,6 +49,26 @@
     "motif": "Embroidered silk coverlets, baroque garden stone and the red of Castelo Branco embroidery, a plains city of the Beira Baixa"
   },
   "ai_news": [
+    {
+      "title": "Castelo Branco opens the school year with a conference on teaching in the age of AI",
+      "summary": "About 600 teachers and school heads met on 10 September 2026 for a session built around AI in education. The mayor said the council is considering an Academia IA, a course for young people and adults, and called for responsible digital literacy.",
+      "date": "2026-09-10",
+      "publisher": "Câmara Municipal de Castelo Branco",
+      "url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=23390",
+      "read_on": "2026-11-16",
+      "ai_path": "The council's own school-year opening was an event directly about AI, and it floats an AI academy.",
+      "steps": 0
+    },
+    {
+      "title": "The council approves a drone and defence technology hub for Castelo Branco",
+      "summary": "A council meeting on 21 August 2026 approved an agreement with Odin Systems for an ODIN Defense Hub, described as linked to defence and technology such as drones and intelligent systems, an investment above 40 million euros with up to 120 jobs. It also approved a protocol with Beyond Vision to make drone components locally and test aircraft at the municipal aerodrome. The page gives no publication date, so the meeting date is used.",
+      "date": "2026-08-21",
+      "publisher": "Câmara Municipal de Castelo Branco",
+      "url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=23309",
+      "read_on": "2026-11-16",
+      "ai_path": "A planned hub whose products include drones and intelligent systems. The page does not say the systems use AI, so this is a hardware route towards AI.",
+      "steps": 2
+    },
     {
       "title": "Castelo Branco's health school holds a day on AI in clinical practice",
       "summary": "The health school of the polytechnic, ESALD, invited health professionals and students to a day of talks, a prompt engineering workshop and two round tables on using AI in daily care, its limits and its benefits. Projects from an AI in health micro-credential were presented.",
@@ -120,9 +150,40 @@
       "url": "https://observador.pt/",
       "kind": "press",
       "feed": null
+    },
+    {
+      "name": "Câmara Municipal de Castelo Branco, news page (page 1 of about 60, no feed)",
+      "url": "https://www.cm-castelobranco.pt/municipe/noticias/",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "InvestCB, the council's investor and business section (CEi, Balcão do Empreendedor, Smart City network)",
+      "url": "https://www.cm-castelobranco.pt/investcb/",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "UPCB news page, including the I9TEC'26 report (no feed found)",
+      "url": "https://www.ipcb.pt/conhecer/comunicacao/noticias/",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "UPCB innovation pages: I9@IPCB technology transfer, StartUp.CB incubator, spin-offs, Poliempreende",
+      "url": "https://www.ipcb.pt/investigar-e-inovar/",
+      "kind": "university",
+      "feed": null
     }
   ],
   "events": [
+    {
+      "title": "School-year opening with the conference on teaching in the era of AI, Cine-Teatro Avenida",
+      "date": "2026-09-10",
+      "url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=23390",
+      "read_on": "2026-11-16",
+      "ai_path": "A conference directly about AI in education."
+    },
     {
       "title": "Jornadas de IA em Saúde (AI in Health Days), ESALD, Castelo Branco",
       "date": "2026-01-17",
@@ -138,9 +199,16 @@
       "ai_path": "A meeting directly about AI and social media in emergencies."
     },
     {
-      "title": "i9Tec'26 regional forum on science and innovation (working dinner with stakeholders, 29 October 2026)",
+      "title": "I9TEC'26 regional forum on science and innovation, UPCB (three days, dinner with stakeholders on 29 October 2026, report dated 2 November 2026)",
       "date": "2026-10-29",
-      "url": "https://www.cm-castelobranco.pt",
+      "url": "https://www.ipcb.pt/conhecer/comunicacao/noticias/i9tec-26-reforca-cooperacao-regional-e-lanca-bases-para-uma-agenda-comum-de-inovacao-na-beira-baixa/",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    },
+    {
+      "title": "Poliempreende 22nd edition, regional phase at the polytechnic (launch 1 April, jury 24 June 2026)",
+      "date": "2026-04-01 to 2026-06-24",
+      "url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/poliempreende/",
       "read_on": "2026-11-16",
       "ai_path": null
     }
@@ -190,11 +258,11 @@
       "name": "Município de Castelo Branco",
       "type": "public body",
       "url": "https://www.cm-castelobranco.pt",
-      "what": "The council co-organised the disaster risk meeting, hosts the Castelo Branco Digital service pages and is named as partner of a planned pilot with AI sensors.",
+      "what": "The council co-organised the disaster risk meeting, opened the 2026 school year with an AI conference, says it is weighing an Academia IA, and is named as partner of a planned pilot with AI sensors.",
       "source_url": "https://dinheirovivo.dn.pt/fazedores/evox-technologies-em-portugal-ainda-faltam-infraestruturas-que-ajudem-as-empresas-a-alavancar-os-neg%C3%B3cios",
       "read_on": "2026-11-16",
-      "ai_path": "Partner in an AI event and in a planned AI sensor pilot.",
-      "steps": 1
+      "ai_path": "Hosts AI events and plans an AI academy and an AI sensor pilot.",
+      "steps": 0
     },
     {
       "name": "Evox Technologies",
@@ -229,12 +297,42 @@
     {
       "name": "Startup Castelo Branco (polytechnic incubator, PRR project)",
       "type": "organisation",
-      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/11/C16-i02/2023.P5170",
-      "what": "A science and technology based incubator initiative of the polytechnic, listed in the state's PRR transparency portal with a total of 150 thousand euros.",
+      "url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/incubadora-de-empresas/",
+      "what": "A science and technology based incubator initiative of the polytechnic, listed in the state's PRR transparency portal with a total of 150 thousand euros. The polytechnic's own page names it StartUp.CB and says it offers infrastructure, mentors, training and follow-up to technology-based startups.",
       "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/11/C16-i02/2023.P5170",
       "read_on": "2026-11-16",
       "ai_path": "An incubator for university spin-offs such as Axtron, which is an AI startup.",
       "steps": 2
+    },
+    {
+      "name": "Odin Systems (ODIN Defense Hub)",
+      "type": "company",
+      "url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=23309",
+      "what": "Company with which the council approved in August 2026 a defence and technology hub (drones and intelligent systems), an investment above 40 million euros, up to 120 jobs, on municipal land outside the industrial zone.",
+      "source_url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=23309",
+      "read_on": "2026-11-16",
+      "ai_path": "Planned drones and intelligent systems, with no statement on AI itself.",
+      "steps": 2
+    },
+    {
+      "name": "Zelar@CB (UPCB School of Technology project)",
+      "type": "institution",
+      "url": "https://spectrum.ieee.org/this-wearable-monitors-the-wellbeing-of-senior-citizens-who-selfisolate-during-the-pandemic",
+      "what": "Wearable and home power monitor that alerts carers about isolated elderly people, built by a team at the polytechnic and published as open code. Described in IEEE Spectrum on 28 August 2020.",
+      "source_url": "https://spectrum.ieee.org/this-wearable-monitors-the-wellbeing-of-senior-citizens-who-selfisolate-during-the-pandemic",
+      "read_on": "2026-11-16",
+      "ai_path": "It uses an AI algorithm trained on each user's normal electricity use to spot unusual days.",
+      "steps": 0
+    },
+    {
+      "name": "Centro de Empresas Inovadoras (CEi), Castelo Branco",
+      "type": "organisation",
+      "url": "https://www.cm-castelobranco.pt/investcb/centro-empresas-inovadoras/",
+      "what": "The council's innovation centre, offering pre-incubation space, incubation services and business consulting. It also hosts a data centre, which the council and the police agreed in June 2026 to use for video surveillance backups, and houses Allbesmart, an IoT firm.",
+      "source_url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=22884",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts the startups and the data centre where AI work could run, but no page names an AI workload.",
+      "steps": 3
     }
   ],
   "extras": [],
@@ -243,19 +341,158 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "The council's front page showed no AI item and no RSS feed on 16 November 2026. We should look for its Castelo Branco Digital and Cidade Inteligente pages and its meeting minutes for AI work.",
-    "The council's own page for the i9Tec'26 forum was not found, so the 29 October 2026 dinner is listed from the council front page only. The IPCB site should be checked for the programme.",
-    "A 2026 EU procurement notice for AI and process automation services appeared in a search, but we could not open it and could not confirm which public body issued it, so it is left out.",
-    "The Zelar@CB wearable for isolated elderly people, which uses an AI model, is described only in a repository record we could not open (blocked), so it is not on the map. The IPCB repository should be read directly.",
+    "The council has no RSS feed and its news page has no date on article pages, so the August 2026 hub item is dated by the council meeting (21 August 2026). The news list runs to about 60 pages and only the titles and summaries were searched for AI terms.",
+    "Castelo Branco Digital (the council's online city platform) needs JavaScript and could not be read, so any AI or smart city service on it is unknown. The Cidade Inteligente page was read: it only describes Castelo Branco's role in the Portuguese smart cities network, with no AI.",
+    "The Odin Systems hub and the Beyond Vision drone protocol are known only from the council's own news item. A search found no independent report, no statement that the systems use AI, and nothing on Beyond Vision in Castelo Branco, so only Odin is on the map.",
+    "The council said it is considering an Academia IA. No follow-up page, date or budget was found.",
+    "A 2026 EU procurement notice for AI and process automation services appeared in a search, but the TED page returned nothing and the issuing public body could not be confirmed, so it is left out.",
+    "DeepNeuronic (computer vision, now part of Motorola Solutions per its own site) is placed in Castelo Branco only by a Spanish startup news piece from November 2022. Its own site names no town and its investor round included the University of Beira Interior, so it likely belongs on the Covilhã page. Left off the map until a source states its base.",
+    "Allbesmart (IoT for smart cities, a polytechnic spin-off at the CEi) and Axians (digital solutions, moving to a second CEi building) have pages that make no AI claim, so they are not on the map. The IPCB spin-off page and the firms' own sites should be read for AI work.",
+    "The CEi site and the CATAA centre's incubator pages were unreachable or gave no AI detail. CATAA lists projects such as DIGITOOL4AGRI and TID4AGRO, which could carry AI, but their pages were not opened.",
+    "The polytechnic has no feed and its news archive could not be paged, so older AI items on its site may be missing. The StartUp.CB regulation PDF and the list of incubated companies were not read.",
     "The AITI business course on AI has no year on its page, so it is on the map but not in the news.",
-    "The CATAA Innovative Companies Centre (CEi) and the FabLab are mentioned only in search snippets, and DeepNeuronic only in a LinkedIn-based snippet, so none is on the map until a public page is read.",
+    "The FabLab is mentioned only in search snippets, so it is not on the map.",
     "IBM's innovation centre is in Fundão, in the same district but outside the municipality, so it belongs on the Fundão page.",
-    "No data centre, AI investor or AI community meetup was found in the municipality."
+    "No AI investor, AI community meetup or investor fund based in the municipality was found. No local talent is listed because no public, consenting person was identified."
   ],
   "voice": {
     "lede": "Castelo Branco: where the coverlets are embroidered by hand and the fire breaks are now checked by a drone with opinions, ai ai ai.",
     "mandate": "PrompTugal.news Castelo Branco follows AI and technology in the Beira Baixa's capital, the city of the polytechnic that woke up one August as a proper university, and tells you what reaches it from Portugal, Europe and the world. Independent and sourced, pá.",
-    "gravity": "Here the action is at the university, meu amigo: a health school that runs AI days, two professors who made a wildfire drone startup, and a waste-tech firm and a consultancy for company. City hall's front page, for now, is all about heritage and fairs.",
+    "gravity": "Here the action is at the university, meu amigo: a health school that runs AI days, two professors who made a wildfire drone startup, and a waste-tech firm and a consultancy for company. This year city hall woke up too: it opened the school year with an AI conference, is thinking of an Academia IA, and approved a drone and defence hub.",
     "gaps_intro": "What we could not find, said with a shrug and a pastel de nata:"
-  }
+  },
+  "start_company": [
+    {
+      "name": "Council: InvestCB and the Investidor page",
+      "what": "The council's investment strategy names five industrial axes, including information technology and aeronautics, and announced a Balcão do Investidor on its site. It lists an industrial incubator in the business location area.",
+      "url": "https://www.cm-castelobranco.pt/investcb/investidor/",
+      "source_url": "https://www.cm-castelobranco.pt/investcb/investidor/",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Council: Balcão do Empreendedor (Espaço Empresa)",
+      "what": "The council's page on the national electronic single counter for starting and running a business, with Licenciamento Zero explained.",
+      "url": "https://www.cm-castelobranco.pt/investcb/espaco-empresa/",
+      "source_url": "https://www.cm-castelobranco.pt/investcb/espaco-empresa/",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "CEi, Centro de Empresas Inovadoras",
+      "what": "Council-run centre with pre-incubation space without forming a company, subsidised incubation services, business development support for R&D units and consultancy for startups and SMEs.",
+      "url": "https://www.cm-castelobranco.pt/investcb/centro-empresas-inovadoras/",
+      "source_url": "https://www.cm-castelobranco.pt/investcb/centro-empresas-inovadoras/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "StartUp.CB, the polytechnic's incubator",
+      "what": "Infrastructure, mentor networks, training and personalised follow-up for technology-based startups, with a published regulation and an information channel at the I9 office.",
+      "url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/incubadora-de-empresas/",
+      "source_url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/incubadora-de-empresas/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "Boost@IPCB proof-of-concept contest (INOVC+)",
+      "what": "Selected 4 research projects with 4,500 euros each, 18,000 euros in total, to move them to technology readiness levels 4 and 5. Open to staff, researchers and entrepreneurs of the polytechnic.",
+      "url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/projetos-de-ignicao-e-provas-de-conceito/",
+      "source_url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/projetos-de-ignicao-e-provas-de-conceito/",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    },
+    {
+      "name": "Poliempreende (22nd edition, 2026)",
+      "what": "Polytechnic entrepreneurship contest with workshops on markets and business plans, a regional jury on 24 June 2026 and regional prizes of 2,000 and 1,500 euros.",
+      "url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/poliempreende/",
+      "source_url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/poliempreende/",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    },
+    {
+      "name": "I9@IPCB technology transfer office",
+      "what": "The polytechnic's office for valuing research and moving it to business, under the INOVC+ project. Its spin-off page lists university spin-offs.",
+      "url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/i9-ipcb-gabinete-de-transferencia-de-tecnologia/",
+      "source_url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/i9-ipcb-gabinete-de-transferencia-de-tecnologia/",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Empresa na Hora (national counter)",
+      "what": "One-stop counter to form a limited company or similar in a single visit, with all partners present.",
+      "url": "https://justica.gov.pt/Servicos/Empresa-na-Hora",
+      "source_url": "https://justica.gov.pt/Servicos/Empresa-na-Hora",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Startup Portugal",
+      "what": "National startup agency site with a founder's guide, the national incubator network (RNi) and programmes.",
+      "url": "https://www.startupportugal.com/",
+      "source_url": "https://www.startupportugal.com/",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Portugal 2030 (Centro 2030) and the EU into INOVC+",
+      "what": "Co-funds the regional innovation ecosystem behind the polytechnic's I9 office and the Boost@IPCB contest, which pays 18,000 euros in prizes.",
+      "url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/projetos-de-ignicao-e-provas-de-conceito/",
+      "source_url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/projetos-de-ignicao-e-provas-de-conceito/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "amount": "18,000 euros in contest prizes",
+      "ai_path": "Funds technology transfer from the university, whose spin-offs include an AI startup: two steps."
+    },
+    {
+      "name": "PRR into the polytechnic's incubator Startup Castelo Branco",
+      "what": "The state's recovery plan transparency portal lists the incubator initiative with a total of 150 thousand euros.",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/11/C16-i02/2023.P5170",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/11/C16-i02/2023.P5170",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "150 thousand euros",
+      "ai_path": "Backs the incubator for university spin-offs such as Axtron: two steps."
+    },
+    {
+      "name": "Odin Systems, ODIN Defense Hub (private investment in the city)",
+      "what": "An investment announced by the council as above 40 million euros, to be built in phases, with a Potential National Interest (PIN) application planned.",
+      "url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=23309",
+      "source_url": "https://www.cm-castelobranco.pt/municipe/noticias/detalhe-noticia/?id=23309",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "above 40 million euros",
+      "date": "2026-08-21",
+      "ai_path": "Drones and intelligent systems, with no AI statement: two steps."
+    }
+  ],
+  "talent": [],
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Castelo Branco, general",
+      "what": "The council's published general channel, shown in the footer of every page and on its Contacte-nos page.",
+      "url": "https://www.cm-castelobranco.pt/municipe/contacte-nos/",
+      "source_url": "https://www.cm-castelobranco.pt/municipe/contacte-nos/",
+      "read_on": "2026-11-16",
+      "channel": "the council's general email and switchboard phone, published in the footer of its pages (open the linked page for them)"
+    },
+    {
+      "name": "Câmara Municipal de Castelo Branco, CEi (innovative companies centre)",
+      "what": "The council's page for the CEi gives its street address and the council's contact line for entrepreneurs.",
+      "url": "https://www.cm-castelobranco.pt/investcb/centro-empresas-inovadoras/",
+      "source_url": "https://www.cm-castelobranco.pt/investcb/centro-empresas-inovadoras/",
+      "read_on": "2026-11-16",
+      "channel": "the council's footer email and phone (open the linked page for them)"
+    },
+    {
+      "name": "UPCB, StartUp.CB incubator and I9 office",
+      "what": "The polytechnic names an information email for the incubator on its page.",
+      "url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/incubadora-de-empresas/",
+      "source_url": "https://www.ipcb.pt/investigar-e-inovar/inovacao/incubadora-de-empresas/",
+      "read_on": "2026-11-16",
+      "channel": "the I9 office email published on the incubator page (open the linked page for it)"
+    }
+  ]
 }

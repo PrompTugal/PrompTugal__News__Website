@@ -40,6 +40,16 @@
   },
   "ai_news": [
     {
+      "title": "Vila Real's council backs school libraries' month on literacy and AI",
+      "summary": "The council says Vila Real's school libraries, with its support, ran October's international school libraries month under a theme of literacy and artificial intelligence, with readings, workshops, author visits and theatre for about 300 pupils. The page describes the reading activities and gives no detail of AI content.",
+      "date": "2026-10-28",
+      "publisher": "Município de Vila Real",
+      "url": "https://www.cm-vilareal.pt/index.php/component/content/article/rede-de-bibliotecas-de-vila-real-rbvr?catid=8&Itemid=101",
+      "read_on": "2026-11-16",
+      "ai_path": "The council's own news item frames a school programme around AI literacy: one step from AI, and the first AI mention we found on the council's news page.",
+      "steps": 1
+    },
+    {
       "title": "DTech 2026 puts AI at work on stage in Vila Real",
       "summary": "A two-day event on 14 and 15 October at the Teatro de Vila Real with talks on how firms bring AI into their business and how it changes jobs, plus a careers fair and workshops at UTAD. Organised by Outsmartis, Kropie and What When Where, with the council, Regia Douro Park and UTAD Solutions Consulting as supporters.",
       "date": "2026-10-16",
@@ -47,6 +57,16 @@
       "url": "https://www.universidade.fm/dtech-2026-destacou-inteligencia-artificial-e-empreendedorismo-tecnologico-em-vila-real/",
       "read_on": "2026-11-16",
       "ai_path": "A conference in Vila Real about AI in business and jobs: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "UTAD hosts a workshop on AI and skills in animal production",
+      "summary": "The agrarian and veterinary school hosts an international workshop under the European VITAL project (25 partners, nine countries) on how AI and precision livestock farming change the skills the sector needs. The article does not give the workshop date.",
+      "date": "2026-09-18",
+      "publisher": "UTAD news",
+      "url": "https://noticias.utad.pt/blog/2026/09/18/utad-reune-especialistas-internacionais-debater-futuro-producao-animal/",
+      "read_on": "2026-11-16",
+      "ai_path": "A workshop at Vila Real's university on AI in animal production and training: directly about AI.",
       "steps": 0
     },
     {
@@ -60,6 +80,26 @@
       "steps": 0
     },
     {
+      "title": "A UTAD lecturer joins a world panel on generative AI in engineering teaching",
+      "summary": "At the IFAC world congress in Busan (23 to 28 August 2026) a UTAD lecturer sat on a panel on adopting generative AI in engineering education and is part of an international team surveying how AI is used to teach automatic control. The event was in South Korea, so this is UTAD's role abroad.",
+      "date": "2026-09-09",
+      "publisher": "UTAD news",
+      "url": "https://noticias.utad.pt/blog/2026/09/09/inteligencia-artificial-generativa-ensino-controlo-automatico-conferencia-mundial-ifac-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Vila Real university researcher in an international study of AI in teaching: directly about AI, with the event held abroad.",
+      "steps": 0
+    },
+    {
+      "title": "Regional press association debates AI in newsrooms in Vila Real",
+      "summary": "The 2026 Technical Days of the Regional Press, run by the national press association with the support of the council and the Museu da Vila Velha, closed in Vila Real with AI in journalism as a main theme. A UTAD professor and INESC TEC researcher explained how AI algorithms work.",
+      "date": "2026-06-24",
+      "publisher": "Universidade.fm",
+      "url": "https://www.universidade.fm/jornadas-tecnicas-da-imprensa-regional-debateram-sobre-inteligencia-artificial-no-jornalismo/",
+      "read_on": "2026-11-16",
+      "ai_path": "A national sector event held in Vila Real on AI in the media, with a UTAD speaker and council support: directly about AI.",
+      "steps": 0
+    },
+    {
       "title": "UTAD hosts an international seminar on AI in agricultural sciences",
       "summary": "AITRAS ran on 5 and 6 March at UTAD's agrarian and veterinary school, with speakers from several European universities and cases from animal production, forestry, viticulture and the agrifood sector.",
       "date": "2026-03-10",
@@ -67,6 +107,16 @@
       "url": "https://noticias.utad.pt/blog/2026/03/10/utad-promoveu-debate-internacional-sobre-inteligencia-artificial-ciencias-agrarias/",
       "read_on": "2026-11-16",
       "ai_path": "A seminar on AI in teaching and research, hosted in Vila Real: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "UTAD project builds AI to help triage in emergency rooms, with an event of 200 people",
+      "summary": "The AITriage4SU project, led from UTAD, held a scientific meeting on 31 January in Porto with about 200 participants on AI for adult emergency triage. The team showed how large language models normalise free-text triage complaints, with first results.",
+      "date": "2026-02-03",
+      "publisher": "UTAD news",
+      "url": "https://noticias.utad.pt/blog/2026/02/03/projeto-aitriage4su-debate-aplicacao-inteligencia-artificial-triagem-urgencia/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Vila Real university research project on AI for clinical decisions: directly about AI, with the event held in Porto.",
       "steps": 0
     },
     {
@@ -90,6 +140,16 @@
       "steps": 0
     },
     {
+      "title": "UTAD and Bragança join a regional AI-assisted teaching hub",
+      "summary": "UTAD and the Polytechnic of Bragança join the HUB Digital of the INOV-NORTE consortium with the Polytechnic of Porto. It uses an AI virtual assistant, still in training, to help lecturers design more innovative classes, with a launch planned for the second semester of 2026.",
+      "date": "2026-01-12",
+      "publisher": "Universidade.fm",
+      "url": "https://www.universidade.fm/utad-e-ipb-integram-novo-projeto-de-com-inteligencia-artificial-para-modernizar-ensino-superior-na-regiao/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Vila Real university takes part in a consortium building an AI teaching assistant: directly about AI.",
+      "steps": 0
+    },
+    {
       "title": "UTAD helps write Portugal's first white paper on AI in journalism",
       "summary": "A study led by NOVA's social sciences faculty and promoted by the Gulbenkian Foundation, based on answers from 295 journalists, proposes 10 measures for responsible AI use in newsrooms. A UTAD lecturer sat on the project team.",
       "date": "2026-01-08",
@@ -97,6 +157,26 @@
       "url": "https://noticias.utad.pt/blog/2026/01/08/utad-participa-criacao-livro-branco-sobre-a-inteligencia-artificial-aplicada-jornalismo/",
       "read_on": "2026-11-16",
       "ai_path": "A national study of AI in media with a UTAD researcher on the team: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Vila Real's children's assembly debates AI",
+      "summary": "Forty-five pupils from years 3 and 4 took part in the council's children's municipal assembly, where every school took AI as its theme and the pupils wrote 12 motions on using AI with critical thinking. The council's deputy mayor spoke at it.",
+      "date": "2025-05-19",
+      "publisher": "Universidade.fm",
+      "url": "https://www.universidade.fm/vila-real-alunos-do-ensino-basico-debatem-inteligencia-artificial-na-assembleia-municipal-infantil/",
+      "read_on": "2026-11-16",
+      "ai_path": "A council civic event with AI as its set theme: directly about AI. Older than the 2026 items.",
+      "steps": 0
+    },
+    {
+      "title": "UTAD gets national funding for an AI emergency triage project",
+      "summary": "The FCT approved a project to explore AI models that support triage decisions for adults in emergency rooms, with a total budget of about 124 thousand euros and partners including INESC TEC's UTAD pole, INEGI and a Porto hospital unit.",
+      "date": "2025-02-14",
+      "publisher": "UTAD news",
+      "url": "https://noticias.utad.pt/blog/2025/02/14/xi5e/",
+      "read_on": "2026-11-16",
+      "ai_path": "A research grant for AI in healthcare at Vila Real's university: directly about AI. Older than the 2026 items.",
       "steps": 0
     }
   ],
@@ -109,15 +189,15 @@
     },
     {
       "name": "Município de Vila Real: news",
-      "url": "https://www.cm-vilareal.pt",
+      "url": "https://www.cm-vilareal.pt/index.php/noticias",
       "kind": "council",
-      "feed": null
+      "feed": "https://www.cm-vilareal.pt/index.php/component/content/category/noticias?Itemid=101&format=feed&type=rss"
     },
     {
       "name": "Universidade.fm (UTAD's radio and news site)",
       "url": "https://www.universidade.fm/",
       "kind": "press",
-      "feed": null
+      "feed": "https://www.universidade.fm/feed/"
     },
     {
       "name": "Regia Douro Park",
@@ -136,9 +216,28 @@
       "url": "https://diariodarepublica.pt/dr/detalhe/anuncio-procedimento/33066-2025-992176457",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "UTAD news: entrepreneurship category",
+      "url": "https://noticias.utad.pt/blog/category/empreendedorismo/",
+      "kind": "university",
+      "feed": "https://noticias.utad.pt/blog/category/empreendedorismo/feed/"
+    },
+    {
+      "name": "INOV_TECH@UTAD business ideas contest",
+      "url": "https://inov.utad.pt/",
+      "kind": "university",
+      "feed": null
     }
   ],
   "events": [
+    {
+      "title": "Jornadas Técnicas da Imprensa Regional 2026, closing session in Vila Real (Associação Portuguesa de Imprensa), already held",
+      "date": "2026-06 (closing session on the Friday before the 24 June report)",
+      "url": "https://www.universidade.fm/jornadas-tecnicas-da-imprensa-regional-debateram-sobre-inteligencia-artificial-no-jornalismo/",
+      "read_on": "2026-11-16",
+      "ai_path": "Debate on AI in newsrooms: directly about AI."
+    },
     {
       "title": "DTech 2026 (Outsmartis, Kropie and What When Where, Teatro de Vila Real), already held",
       "date": "2026-10-14 to 2026-10-15",
@@ -172,10 +271,10 @@
       "name": "Município de Vila Real",
       "type": "public body",
       "url": "https://www.cm-vilareal.pt",
-      "what": "The council supported DTech 2026 and signed the 2022 cooperation protocol with IBM's Softinsa and UTAD. Its news page showed no AI item in mid-November 2026.",
-      "source_url": "https://www.universidade.fm/dtech-2026-destacou-inteligencia-artificial-e-empreendedorismo-tecnologico-em-vila-real/",
+      "what": "The council supported DTech 2026, the 2026 regional press days on AI in journalism and the school libraries' AI literacy month, ran a children's assembly on AI in 2025, and signed the 2022 cooperation protocol with IBM's Softinsa and UTAD. We found no AI in its own services.",
+      "source_url": "https://www.cm-vilareal.pt/index.php/component/content/article/rede-de-bibliotecas-de-vila-real-rbvr?catid=8&Itemid=101",
       "read_on": "2026-11-16",
-      "ai_path": "Backs AI events, with no AI use in its own services found.",
+      "ai_path": "Backs AI events and AI literacy in schools, with no AI use in its own services found.",
       "steps": 1
     },
     {
@@ -261,11 +360,71 @@
     {
       "name": "Vila Real Innovation Hub (Regia Douro Park)",
       "type": "community",
-      "url": "https://www.universidade.fm/innovatiom-hub-projeto-do-regia-douro-park-destinado-a-quem-trabalha-remotamente-a-partir-de-vila-real/",
-      "what": "A park project for people who work remotely from Vila Real. Not AI-specific.",
-      "source_url": "https://www.aman-alliance.org/Home/ContentDetail/103391",
+      "url": "https://noticias.utad.pt/blog/2026/05/27/utad-associa-vila-real-innovation-hub-dinamizar-comunidade-profissionais-remotos/",
+      "what": "A Regia Douro Park community for remote workers, freelancers and digital entrepreneurs in Vila Real, backed by UTAD from May 2026. More than 50 people had registered and its first in-person meeting was on 21 May 2026. Not AI-specific.",
+      "source_url": "https://noticias.utad.pt/blog/2026/05/27/utad-associa-vila-real-innovation-hub-dinamizar-comunidade-profissionais-remotos/",
       "read_on": "2026-11-16",
       "ai_path": "A tech-worker hub in the park, no AI stated.",
+      "steps": 2
+    },
+    {
+      "name": "AITriage4SU (UTAD research project)",
+      "type": "organisation",
+      "url": "https://noticias.utad.pt/blog/2026/02/03/projeto-aitriage4su-debate-aplicacao-inteligencia-artificial-triagem-urgencia/",
+      "what": "FCT-funded UTAD project, about 124 thousand euros, building AI models and using large language models on free-text complaints to support emergency triage. Partners named are INESC TEC's UTAD pole, INEGI and a Porto hospital unit.",
+      "source_url": "https://noticias.utad.pt/blog/2025/02/14/xi5e/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds AI decision support for emergency care.",
+      "steps": 0
+    },
+    {
+      "name": "HUB Digital (INOV-NORTE consortium: UTAD, IPB, Politécnico do Porto)",
+      "type": "organisation",
+      "url": "https://www.universidade.fm/utad-e-ipb-integram-novo-projeto-de-com-inteligencia-artificial-para-modernizar-ensino-superior-na-regiao/",
+      "what": "A teaching platform with an AI virtual assistant (called TOTI) for lecturers, still in training in January 2026, planned to launch in the second semester. The lead institution is not named in the report and the consortium is not based in Vila Real.",
+      "source_url": "https://www.universidade.fm/utad-e-ipb-integram-novo-projeto-de-com-inteligencia-artificial-para-modernizar-ensino-superior-na-regiao/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds an AI teaching assistant with UTAD.",
+      "steps": 0
+    },
+    {
+      "name": "VITAL (European project, UTAD agrarian and veterinary school)",
+      "type": "organisation",
+      "url": "https://noticias.utad.pt/blog/2026/09/18/utad-reune-especialistas-internacionais-debater-futuro-producao-animal/",
+      "what": "European education project with 25 partners in nine countries. Its workshop at UTAD in September 2026 covered AI and precision livestock farming and the skills they demand.",
+      "source_url": "https://noticias.utad.pt/blog/2026/09/18/utad-reune-especialistas-internacionais-debater-futuro-producao-animal/",
+      "read_on": "2026-11-16",
+      "ai_path": "Trains the animal production sector for AI tools.",
+      "steps": 1
+    },
+    {
+      "name": "Rede de Bibliotecas de Vila Real (RBVR)",
+      "type": "community",
+      "url": "https://www.cm-vilareal.pt/index.php/component/content/article/rede-de-bibliotecas-de-vila-real-rbvr?catid=8&Itemid=101",
+      "what": "Network of the municipality's school libraries. Held its third meeting on AI in education on 25 and 26 October 2024 with the council's support, and in October 2026 ran activities under a literacy and AI theme.",
+      "source_url": "https://www.cm-vilareal.pt/index.php/component/content/article/rede-de-bibliotecas-de-vila-real-rbvr?catid=8&Itemid=101",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches AI literacy in schools with council support.",
+      "steps": 1
+    },
+    {
+      "name": "Associação Portuguesa de Imprensa (Jornadas Técnicas da Imprensa Regional 2026)",
+      "type": "organisation",
+      "url": "https://www.universidade.fm/jornadas-tecnicas-da-imprensa-regional-debateram-sobre-inteligencia-artificial-no-jornalismo/",
+      "what": "National press association whose 2026 regional press days ended in Vila Real with AI in journalism as a main theme. It is not based in Vila Real as far as the report shows.",
+      "source_url": "https://www.universidade.fm/jornadas-tecnicas-da-imprensa-regional-debateram-sobre-inteligencia-artificial-no-jornalismo/",
+      "read_on": "2026-11-16",
+      "ai_path": "Convened an AI-in-news debate in Vila Real.",
+      "steps": 0
+    },
+    {
+      "name": "Centro de Inovação e Desenvolvimento (UTAD)",
+      "type": "institution",
+      "url": "https://inov.utad.pt/",
+      "what": "UTAD unit named on the INOV_TECH@UTAD business ideas contest and its UPGRADE proof-of-concept programme. Neither is AI-specific.",
+      "source_url": "https://inov.utad.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs the university's startup contest, which can carry AI ideas.",
       "steps": 2
     }
   ],
@@ -275,20 +434,125 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "Vila Real's council news page and agenda showed no AI item in what we read on 16 November 2026. We should look for council minutes, procurement notices on base.gov.pt and the Vila Real Digital Commercial Neighborhood platforms for any AI use.",
-    "A Diário da República notice for AI servers at the local health unit (ULS de Trás-os-Montes e Alto Douro, Vila Real) appeared in search, but the page returned no text to us, so it is not listed. We should read the notice and the unit's own announcements.",
-    "We could not open agroportal.pt (403), which carries items on an INESC TEC robotics and AI viticulture event at UTAD in June 2025 and other UTAD projects. regiadouro.com returned a 503 and regiadouropark.pt does not resolve, so the park is reached through Lusa and search results only.",
+    "The council news page and feed (which load with a normal browser) show AI in one item only, the school libraries' literacy and AI month of October 2026, and no AI use in its own services. We should look for council minutes, procurement notices on base.gov.pt and the Vila Real e-commerce project (PRR) pages for any AI use.",
+    "A Diário da República notice for AI servers at the local health unit (ULS de Trás-os-Montes e Alto Douro, Vila Real) appeared in search, but the page needs JavaScript and gave us no text, so it is not listed. Three PRR project pages we opened for that unit mention imaging equipment and health centre upgrades with no AI. We should read the notice and the unit's own announcements.",
+    "agroportal.pt is behind a bot challenge (403), so its items on an INESC TEC robotics and AI viticulture event at UTAD in June 2025 stay unread. regiadouro.com shows a maintenance page, and regiadouropark.pt does not resolve, so the park is reached only through Lusa and UTAD news.",
     "Outsmartis, Kropie and What When Where are named as DTech organisers but no page we opened says what they do or where they are based.",
-    "No feed found for the council or Regia Douro Park. UTAD's news feed works.",
+    "Feeds found for the council, Universidade.fm and UTAD news. None for Regia Douro Park, and Diário de Trás-os-Montes has no feed at the usual address.",
     "The IBM innovation centre is a 2022 announcement and we found no later report, so we do not know whether it opened.",
-    "Not sourced: other UTAD research groups, CITAB's mySense platform and ForestWISE in Vila Real (seen only in search snippets), UTAD Solutions Consulting's own page, and any 2025 or 2026 investment round in a Vila Real company.",
-    "Local events: DTech is over and we found no upcoming AI event in Vila Real on an organiser's own page.",
-    "Talent is not filled: nobody has agreed to be listed here."
+    "Not sourced: CITAB's mySense platform and ForestWISE (seen only in search snippets), other UTAD research groups, UTAD Solutions Consulting's own page, and any 2025 or 2026 investment round in a Vila Real company.",
+    "Local events: DTech and the regional press days are over, and we found no upcoming AI event in Vila Real on an organiser's own page. The INOV_TECH@UTAD page shown is the 2025 edition, so a 2026 edition is unconfirmed.",
+    "Start a company: the council's site lists no business or investment desk and no incubation page that we found. Regia Douro Park's incubator and accelerator are known only from a Lusa report, with no services, price or way to apply. We still need the park's own pages once its site is back, and the Vila Real counter of Empresa na Hora.",
+    "Talent lists only three UTAD people who spoke publicly in UTAD or press reports. Nobody has agreed to be listed here, and no local AI founders were found.",
+    "The 2026 EdgeOnVespa report gives no funding amount, and the HUB Digital report does not name its lead institution or any Vila Real base.",
+    "People: no talent list yet. Three UTAD researchers appear by name in UTAD news about public AI talks and projects, but we list no named individual until PrompTugal has a rule for who may be shown and a source for their own consent."
   ],
   "voice": {
     "lede": "Vila Real, ó pá: where the Marão keeps the wind out, the vines climb the terraces, and the university quietly teaches the whole North to talk to machines before lunch.",
     "mandate": "PrompTugal.news Vila Real, a nossa cidade da serra: AI and tech in Vila Real, with UTAD as the big brain among the hills and the Regia Douro Park next door, plus whatever news climbs over the Marão from Trás-os-Montes, Portugal and the world. Independente, and every fact comes with a receipt.",
     "gravity": "Vila Real is where a university, a science park and a hornet-hunting AI project can share a hillside. UTAD does the heavy thinking, the Regia Douro Park houses about 160 firms, and the Câmara, bless it, lends a hand to DTech while its news page talks mostly about pottery, railways and school prizes. Muita calma, the AI story here is the campus and the park.",
     "gaps_intro": "Ainda não sabemos tudo, pá. Here is what Vila Real has not told us yet:"
-  }
+  },
+  "start_company": [
+    {
+      "name": "Empresa na Hora (Instituto dos Registos e do Notariado)",
+      "what": "Counters where all partners together can set up a limited company, sole-owner company or public limited company in one visit, choosing a pre-approved name and articles. National service, with the Vila Real counter not checked.",
+      "url": "https://justica.gov.pt/Servicos/Empresa-na-Hora",
+      "source_url": "https://justica.gov.pt/Servicos/Empresa-na-Hora",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Startup Portugal",
+      "what": "The national startup agency's site lists programmes, a founder's guide, a network of recognised incubators (RNi) and a startups and investors matching tool. National, not a Vila Real desk.",
+      "url": "https://www.startupportugal.com/",
+      "source_url": "https://www.startupportugal.com/",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    },
+    {
+      "name": "Regia Douro Park (science and technology park with an incubator and accelerator)",
+      "what": "The park, with about 160 companies, hosts an incubator and accelerator. Its own site was in maintenance mode, so the details come from a Lusa report.",
+      "url": "https://www.aman-alliance.org/Home/ContentDetail/103391",
+      "source_url": "https://www.aman-alliance.org/Home/ContentDetail/103391",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "Vila Real Innovation Hub (Regia Douro Park with UTAD)",
+      "what": "A community for remote workers, freelancers and digital entrepreneurs. More than 50 had registered by May 2026. The park says it may add services such as temporary housing.",
+      "url": "https://noticias.utad.pt/blog/2026/05/27/utad-associa-vila-real-innovation-hub-dinamizar-comunidade-profissionais-remotos/",
+      "source_url": "https://noticias.utad.pt/blog/2026/05/27/utad-associa-vila-real-innovation-hub-dinamizar-comunidade-profissionais-remotos/",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    },
+    {
+      "name": "INOV_TECH@UTAD business ideas contest",
+      "what": "Contest for ideas by members of the UTAD community aged 18 to 29 with a tax address in the North, Centre or Alentejo regions. Ten ideas go to a validation lab, five to an acceleration and mentoring programme, and the top three share 6,000 euros. The page shown is the 2025 edition.",
+      "url": "https://inov.utad.pt/",
+      "source_url": "https://inov.utad.pt/",
+      "read_on": "2026-11-16",
+      "kind": "accelerator"
+    },
+    {
+      "name": "UPGRADE 2026 (UTAD, project UI-TRANSFER 2.0)",
+      "what": "50 thousand euros for five proof-of-concept projects of up to 10 thousand euros, in goods and services, for UTAD researchers, lecturers and students. Applications closed on 28 February 2026.",
+      "url": "https://noticias.utad.pt/blog/2026/02/12/utad-lanca-upgrade-2026-50-mil-euros-transformar-investigacao-solucoes-mercado/",
+      "source_url": "https://noticias.utad.pt/blog/2026/02/12/utad-lanca-upgrade-2026-50-mil-euros-transformar-investigacao-solucoes-mercado/",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    }
+  ],
+  "investors": [
+    {
+      "name": "FCT into UTAD's AITriage4SU emergency triage project",
+      "what": "National research funding for an AI decision-support project at UTAD, about 124 thousand euros in total.",
+      "url": "https://noticias.utad.pt/blog/2025/02/14/xi5e/",
+      "source_url": "https://noticias.utad.pt/blog/2025/02/14/xi5e/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "about 124 thousand euros",
+      "date": "2025-02-14",
+      "ai_path": "Funds AI for emergency care: directly about AI."
+    },
+    {
+      "name": "COMPETE 2030 (ERDF) into UTAD's UPGRADE 2026 programme",
+      "what": "European regional funding behind the UI-TRANSFER 2.0 project, which pays for five proof-of-concept projects at UTAD.",
+      "url": "https://noticias.utad.pt/blog/2026/02/12/utad-lanca-upgrade-2026-50-mil-euros-transformar-investigacao-solucoes-mercado/",
+      "source_url": "https://noticias.utad.pt/blog/2026/02/12/utad-lanca-upgrade-2026-50-mil-euros-transformar-investigacao-solucoes-mercado/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "amount": "50 thousand euros",
+      "date": "2026-02-12",
+      "ai_path": "Funds university technology that may include AI, none stated: two steps from AI."
+    },
+    {
+      "name": "NORTE2030 into the EdgeOnVespa consortium",
+      "what": "Co-finances a 36-month project using AI and edge computing against the Asian hornet, with UTAD as a partner. The report gives no amount.",
+      "url": "https://noticias.utad.pt/blog/2026/01/27/utad-integra-projeto-edgeonvespa-inteligencia-artificial-combate-vespa-asiatica/",
+      "source_url": "https://noticias.utad.pt/blog/2026/01/27/utad-integra-projeto-edgeonvespa-inteligencia-artificial-combate-vespa-asiatica/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "date": "2026-01-27",
+      "ai_path": "Funds an AI detection project: directly about AI."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Município de Vila Real, general channel",
+      "what": "The council's published general email and switchboard number, on its Contactos page and in every page footer. No business or investment desk is listed there.",
+      "url": "https://www.cm-vilareal.pt/index.php/contactos",
+      "source_url": "https://www.cm-vilareal.pt/index.php/contactos",
+      "read_on": "2026-11-16",
+      "channel": "the council's general email and telephone line, published on its Contactos page (open the linked page for them)"
+    },
+    {
+      "name": "UTAD, INOV_TECH@UTAD contest office",
+      "what": "The university's published channel for its business ideas contest.",
+      "url": "https://inov.utad.pt/",
+      "source_url": "https://inov.utad.pt/",
+      "read_on": "2026-11-16",
+      "channel": "the contest's own email, published on its contest page (open the linked page for the address)"
+    }
+  ]
 }

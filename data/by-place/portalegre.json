@@ -40,6 +40,36 @@
   },
   "ai_news": [
     {
+      "title": "Portalegre's polytechnic signs a tech-sector protocol with Claranet Portugal",
+      "summary": "Signed on 6 November 2026, it covers training, internships, final projects and joint research in information technologies, information science and data science, and lets Claranet lend equipment for research. The page does not mention AI.",
+      "date": "2026-11-06",
+      "publisher": "Universidade Politécnica de Portalegre",
+      "url": "https://www.ipportalegre.pt/pt/2026/11/06/upp-estabelece-parceria-com-a-claranet-portugal-para-reforcar-ligacao-ao-setor-tecnologico/",
+      "read_on": "2026-11-16",
+      "ai_path": "A data science and IT partnership with a technology firm, no AI stated: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "title": "Local radio reports AI4PRIME: low-power AI for farms with poor internet",
+      "summary": "Rádio Portalegre reports the polytechnic's roughly 200,000 euro, FEDER-funded project that puts AI models on sensors able to process data on the spot, with pilot farms to validate it. It names engineering, data science, agronomy and information systems as the fields involved and an end date of August 2028.",
+      "date": "2026-10-23",
+      "publisher": "Rádio Portalegre",
+      "url": "https://radioportalegre.pt/portalegre-universidade-politecnica-investe-na-ia-para-apoiar-agricultura-e-pecuaria/",
+      "read_on": "2026-11-16",
+      "ai_path": "A university project that builds AI for farming and livestock: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Portalegre's polytechnic and Fulbright agree a three-year Computer Science award",
+      "summary": "On 18 September 2026 the university and the Fulbright Commission signed a second cooperation protocol for a joint grant programme in computer science covering the academic years 2027/28 to 2029/30. The signing took place at the BioBIP incubator.",
+      "date": "2026-09-18",
+      "publisher": "BioBIP, Universidade Politécnica de Portalegre",
+      "url": "https://www.biobip.pt/2026/09/18/universidade-politecnica-de-portalegre-e-comissao-fulbright-reforcaram-cooperacao-na-area-da-computer-science/",
+      "read_on": "2026-11-16",
+      "ai_path": "Computer science exchange grants, with no AI named: two steps from AI through the field's talent pipeline.",
+      "steps": 2
+    },
+    {
       "title": "Portalegre's university starts AI4PRIME, AI for low-cost farm and livestock devices",
       "summary": "A two-year project listed by the university's research office, running from 1 September 2026 to 31 August 2028, builds AI solutions for cheap, low-power embedded devices in farming and livestock, joining engineering, data science and agricultural knowledge. Its eligible cost is 197,754.85 euros, with 168,091.62 euros for the Portalegre side, funded by FEDER under ALT2030.",
       "date": "2026-09-01",
@@ -132,13 +162,58 @@
       "url": "https://www.novaims.unl.pt/en/here-now/news/alentejo-competitive-intelligence-center-applies-data-ai-and-technological-innovation-to-drive-the-region-s-development",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "Rádio Portalegre",
+      "url": "https://radioportalegre.pt",
+      "kind": "press",
+      "feed": "https://radioportalegre.pt/feed/"
+    },
+    {
+      "name": "CIMAA, the Alto Alentejo intermunicipal community: news",
+      "url": "https://www.cimaa.pt",
+      "kind": "council",
+      "feed": "https://www.cimaa.pt/feed/"
+    },
+    {
+      "name": "BioBIP, the polytechnic's business incubator: news",
+      "url": "https://www.biobip.pt",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "NERPOR: news",
+      "url": "https://www.nerpor.pt",
+      "kind": "business",
+      "feed": null
     }
   ],
   "events": [
     {
-      "title": "IoT Challenge \"Impacta a tua Região\" (Kyndryl with the university, the council and FocusBC, Portalegre campus)",
-      "date": "final classification listed on the university's homepage on 2026-11-06",
-      "url": "https://tecnologias.ipportalegre.pt/wp-content/uploads/2026/05/RegulamentoIoTChallenge.pdf",
+      "title": "IoT Challenge \"Impacta a tua Região\": final results announced at the ESTGD day (Kyndryl with the university, the council and FocusBC)",
+      "date": "2026-11-06",
+      "url": "https://www.ipportalegre.pt/pt/2026/11/06/iot-challenge-impacta-a-tua-regiao-classificacao-final/",
+      "read_on": "2026-11-16",
+      "ai_path": "A student IoT competition with prizes of 2,500, 1,500 and 1,000 euros. The page does not mention AI: three steps from AI."
+    },
+    {
+      "title": "Hybrid workshop on the ProExtensivo livestock platform (Escola Superior de Biociências de Elvas and online)",
+      "date": "2026-11-17",
+      "url": "https://www.ipportalegre.pt/pt/2026/11/17/projeto-proextensivo-plataforma-de-calculo-do-nivel-de-extensividade-das-exploracoes-pecuarias/",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    },
+    {
+      "title": "MAIS CIÊNCIA research funding call of the university: applications open until 30 November 2026",
+      "date": "2026-11-30",
+      "url": "https://www.ipportalegre.pt/pt/2026/11/03/programa-mais-ciencia-da-universidade-politecnica-de-portalegre-upp/",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    },
+    {
+      "title": "NERPOR Christmas market for local traders, 29 November 2026",
+      "date": "2026-11-29",
+      "url": "https://www.nerpor.pt",
       "read_on": "2026-11-16",
       "ai_path": null
     }
@@ -208,7 +283,7 @@
       "name": "Kyndryl (Kyntech innovation centre, Portalegre)",
       "type": "company",
       "url": "https://dinheirovivo.dn.pt/kyndryl-abre-centro-de-inovacao-em-portalegre-16256012.html",
-      "what": "IT infrastructure services firm. Opened a centre in Portalegre in April 2023 with the polytechnic, about 20 staff then, working on automation, cybersecurity, IoT and smart cities. Organises the 2026 IoT Challenge with the university and the council.",
+      "what": "IT infrastructure services firm. Opened a centre in Portalegre in April 2023 with the polytechnic, about 20 staff then, working on automation, cybersecurity, IoT and smart cities. Organises the 2026 IoT Challenge with the university and the council. Its student IoT competition announced its winners on 6 November 2026.",
       "source_url": "https://dinheirovivo.dn.pt/kyndryl-abre-centro-de-inovacao-em-portalegre-16256012.html",
       "read_on": "2026-11-16",
       "ai_path": "Automation and IoT work and a student technology challenge. The 2023 article does not mention AI.",
@@ -233,25 +308,71 @@
       "read_on": "2026-11-16",
       "ai_path": "An IoT data community, with no AI stated. Listed as a possible link only.",
       "steps": 3
+    },
+    {
+      "name": "BioBIP (Business Incubator of Portalegre)",
+      "type": "organisation",
+      "url": "https://www.biobip.pt",
+      "what": "The polytechnic's incubator, mostly for technology-based projects, with a FabLab for digital fabrication and robotics. Its homepage counts 78 supported companies and 248 jobs created, and it was admitted to the national RNi incubator network as a Tech incubator.",
+      "source_url": "https://www.biobip.pt/2025/12/17/biobip-garante-certificacao-da-rni-portugal-incubators/",
+      "read_on": "2026-11-16",
+      "ai_path": "Incubates technology firms and runs a robotics lab, and none of the pages read names AI.",
+      "steps": 2
+    },
+    {
+      "name": "Claranet Portugal",
+      "type": "company",
+      "url": "https://www.ipportalegre.pt/pt/2026/11/06/upp-estabelece-parceria-com-a-claranet-portugal-para-reforcar-ligacao-ao-setor-tecnologico/",
+      "what": "Technology services firm that signed a cooperation protocol with the university on 6 November 2026 covering internships, joint research and data science.",
+      "source_url": "https://www.ipportalegre.pt/pt/2026/11/06/upp-estabelece-parceria-com-a-claranet-portugal-para-reforcar-ligacao-ao-setor-tecnologico/",
+      "read_on": "2026-11-16",
+      "ai_path": "Data science research partner, AI not stated: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "name": "InovTechAgro (national agri-forestry competence centre, led by the university in its second phase)",
+      "type": "institution",
+      "url": "https://www.ipportalegre.pt/pt/2026/11/09/projetos-em-destaque/",
+      "what": "The university leads InovTechAgro II, which runs to 30 August 2028 and covers training, technology demonstrations and peer learning on agricultural mechanisation, precision agriculture and digital technologies.",
+      "source_url": "https://www.ipportalegre.pt/pt/2026/11/09/projetos-em-destaque/",
+      "read_on": "2026-11-16",
+      "ai_path": "Precision agriculture and digital tools for farms, AI not named on the page: three steps from AI.",
+      "steps": 3
+    },
+    {
+      "name": "AI4PA (Artificial Intelligence and Data Science for Public Administration)",
+      "type": "organisation",
+      "url": "https://www.cimaa.pt/cimaa-participa-em-sessao-sobre-territorios-inteligentes-em-campo-maior/",
+      "what": "Co-organised, with the Campo Maior council and NOVA IMS, a May 2026 capacity programme on smart territories in Campo Maior that the Alto Alentejo community took part in. We found no Portalegre base for it.",
+      "source_url": "https://www.cimaa.pt/cimaa-participa-em-sessao-sobre-territorios-inteligentes-em-campo-maior/",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI and data science body for public administration, active in the district: directly about AI, one step from Portalegre.",
+      "steps": 1
     }
   ],
-  "extras": [],
+  "extras": [
+    {
+      "label": "Council industrial park terms",
+      "value": "Lots of 1,000 to 10,000 square metres on a 229 hectare park, at 1.50 euros per square metre for firms creating up to 10 jobs and 0.01 euros for firms creating more, with a 70 percent cut in urban-works fees, 30 percent off municipal property tax and no local business surtax, as the council states.",
+      "source_url": "https://www.cm-portalegre.pt/investidores/espaco-empresa/",
+      "read_on": "2026-11-16"
+    }
+  ],
   "identity": {
     "key_id": "site.portalegre-promptugal",
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "Portalegre's council shows no AI use in what we could read: its nine latest items (3 to 12 November 2026 and one from July) cover water works, health, a walking festival and tapestry. We should look for council minutes, procurement notices on base.gov.pt, and the council's smart-city work with Kyndryl.",
-    "Agroportal answered 403, so we could not open its report on AI4PRIME or on the 23 October 2026 AI and virtual reality workshop at the Escola Superior de Biociências in Elvas. AI4PRIME is sourced to the university's own project list instead. The workshop is not listed because we only saw it in a search summary, and Elvas is not Portalegre city.",
-    "The university's homepage lists a 6 November 2026 partnership with Claranet Portugal and an IoT Challenge final classification. We saw only the headlines, not the pages, so neither is listed as news. We should open them.",
-    "The IoT Challenge regulation we read does not mention AI and gives no event date. We list the challenge as an event with no AI path.",
-    "No feed found for the council, the university or GII. Not tried: CIMAA's site, NERPOR's site, Rádio Portalegre, Distrito de Portalegre, Diário do Alentejo. These are the local press and bodies we should look for.",
-    "InovTechAgro (a national agri-forestry innovation centre co-led by the polytechnic) and the DigiFarm2all precision-agriculture project appear in search results as AI-adjacent, but we did not open a page that proves it, so they are not on the map.",
-    "KNOWBIZ (an entrepreneurship project led by three polytechnics and NERSANT) and the NOS space in Ponte de Sor appeared in search summaries only and are left out.",
-    "Investors: the entries below are grants and programme money. We found no private funding round for a Portalegre company. Sources to look for: Portugal Ventures and Banco de Fomento notices, and Luso Defense Group announcements.",
-    "We found no AI startup or company based in Portalegre city. A thin capital for AI is a finding: its AI is in university research, with private firms mostly one or two steps away.",
-    "The Campo Maior centre is a district asset, not a Portalegre city one, and we say so on the entry.",
-    "Local talent is not filled: nobody has agreed to be listed here. Contacts are not filled: no official channel was read on a page we opened.",
+    "Portalegre's council shows no AI use in what we could read: its nine latest items (3 to 12 November 2026 and one from July) cover water works, health, a walking festival and tapestry. We searched its site for AI and found no AI page. We should look for council minutes, procurement notices on base.gov.pt, and the council's smart-city work with Kyndryl.",
+    "Agroportal answered 403, so we could not open its report on the 23 October 2026 AI and virtual reality workshop at the Escola Superior de Biociências in Elvas. It is not listed, and Elvas is not Portalegre city. AI4PRIME is now also sourced to Rádio Portalegre.",
+    "Claranet, the Fulbright award and the IoT Challenge pages were opened and none of them mentions AI, so they sit at two or three steps. The challenge page gives no event date beyond the 6 November announcement.",
+    "No feed found for the council, the university, GII, BioBIP or NERPOR. Feeds exist for Rádio Portalegre and CIMAA. Not opened: Distrito de Portalegre (did not load) and Diário do Alentejo (its search returned nothing readable).",
+    "The council's Investidores pages were read, but the Espaço Empresa page was last updated in January 2023, so check it with the council. We did not open Startup Portugal's own site, Portugal Ventures or a Banco de Fomento notice.",
+    "The DigiFarm2all precision-agriculture project, KNOWBIZ (an entrepreneurship project led by three polytechnics and NERSANT) and the NOS space in Ponte de Sor appeared in search summaries only and are left out.",
+    "Investors: the entries are grants and programme money. We found no private funding round for a Portalegre company. Sources to look for: Portugal Ventures and Banco de Fomento notices, and Luso Defense Group announcements.",
+    "We found no AI startup or company based in Portalegre city. A thin capital for AI is a finding: its AI is in university research, with private firms mostly one or two steps away. BioBIP's companies are not listed by name on the pages we read.",
+    "The Campo Maior centre and AI4PA are district assets, not Portalegre city ones, and we say so on the entries.",
+    "Local talent is not filled: nobody has agreed to be listed here and no public profile was read. Only organisation-level contacts from official pages are shown.",
     "The university's own name is in transition (Instituto to Universidade Politécnica). Some pages and official notices still use the old name, so search both."
   ],
   "voice": {
@@ -270,18 +391,26 @@
       "kind": "incubator"
     },
     {
+      "name": "BioBIP, the polytechnic's business incubator",
+      "what": "Takes applications through an online form and answers in about 30 days, with a preference for technology-based projects. It has a FabLab with milling and digital fabrication equipment, and counts 78 supported companies on its homepage.",
+      "url": "https://www.biobip.pt/biobip/candidaturas/",
+      "source_url": "https://www.biobip.pt/biobip/candidaturas/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
       "name": "C.BIP, the polytechnic's cultural and creative incubator",
-      "what": "Opened in 2023 in a rehabilitated building in the historic centre, with 830,000 euros from the council, coworking, meeting rooms and applications on a rolling basis. It targets non-technology firms in arts, culture and heritage, so it is not a route for an AI startup.",
+      "what": "Opened in 2023 in a rehabilitated building in the historic centre, with 830,000 euros from the council, coworking, meeting rooms and applications on a rolling basis. It targets non-technology firms in arts, culture and heritage, so it is not a route for an AI startup. The same polytechnic's incubators C.BIP and BioBIP were both admitted to the national RNi network in the Tech category, per BioBIP.",
       "url": "https://executivedigest.sapo.pt/?p=389236",
       "source_url": "https://executivedigest.sapo.pt/?p=389236",
       "read_on": "2026-11-16",
       "kind": "incubator"
     },
     {
-      "name": "Council investors section: industrial park and business space (Espaço Empresa)",
-      "what": "The council's site has an Investidores section with Parque Industrial and Espaço Empresa pages. We saw only their names, not their content.",
-      "url": "https://www.cm-portalegre.pt",
-      "source_url": "https://www.cm-portalegre.pt",
+      "name": "Espaço Empresa and the Parque Industrial (Câmara Municipal de Portalegre)",
+      "what": "The Espaço Empresa is a one-stop desk for firms run with national agencies (AMA, IAPMEI, AICEP), open on working days from 08:30 to 16:00, with a link to the T-Invest form for Portalegre. The council's industrial park offers lots of 1,000 to 10,000 square metres, with a Ninho de Empresas startup centre among its infrastructure. The page was last updated in January 2023.",
+      "url": "https://www.cm-portalegre.pt/investidores/espaco-empresa/",
+      "source_url": "https://www.cm-portalegre.pt/investidores/espaco-empresa/",
       "read_on": "2026-11-16",
       "kind": "public desk"
     },
@@ -292,6 +421,14 @@
       "source_url": "https://eco.sapo.pt/2026/09/01/novo-cluster-industrial-portugal-gateway-quer-aproximar-portalegre-da-industria-de-defesa-iberica/",
       "read_on": "2026-11-16",
       "kind": "community"
+    },
+    {
+      "name": "Empresa na Hora (Instituto dos Registos e do Notariado)",
+      "what": "National service at a registry counter to create a limited company, sole-shareholder company or public limited company quickly. gov.pt shows the page as updated on 4 September 2026 and does not list counters by town.",
+      "url": "https://eportugal.gov.pt/servicos/criar-uma-empresa-na-hora",
+      "source_url": "https://eportugal.gov.pt/servicos/criar-uma-empresa-na-hora",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
     }
   ],
   "investors": [
@@ -338,7 +475,43 @@
       "amount": "about 1 million euros",
       "date": "2025-07-15",
       "ai_path": "Funds a data and AI centre in the district: directly about AI, one step from Portalegre."
+    },
+    {
+      "name": "RNi Portugal Incubators (managed by Startup Portugal)",
+      "what": "National incubator network that admitted BioBIP and C.BIP in the Tech category. The page names no funding amount.",
+      "url": "https://www.biobip.pt/2025/12/17/biobip-garante-certificacao-da-rni-portugal-incubators/",
+      "source_url": "https://www.biobip.pt/2025/12/17/biobip-garante-certificacao-da-rni-portugal-incubators/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "amount": "not stated",
+      "date": "2025-12-17",
+      "ai_path": "A startup support network reaching a technology incubator: three steps from AI."
     }
   ],
-  "contacts": []
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Portalegre, Espaço Empresa",
+      "what": "The council's one-stop desk for firms and investors, with a published email, phone and opening hours on working days.",
+      "url": "https://www.cm-portalegre.pt/investidores/espaco-empresa/",
+      "source_url": "https://www.cm-portalegre.pt/investidores/espaco-empresa/",
+      "read_on": "2026-11-16",
+      "channel": "the desk's published email and phone, on its Espaço Empresa page (open the linked page for the details)"
+    },
+    {
+      "name": "Câmara Municipal de Portalegre, general",
+      "what": "The council's contacts page lists emails and phones per service.",
+      "url": "https://www.cm-portalegre.pt/comunicacao/contactos/",
+      "source_url": "https://www.cm-portalegre.pt/comunicacao/contactos/",
+      "read_on": "2026-11-16",
+      "channel": "the service emails and phones on its Contactos page (open the linked page for the details)"
+    },
+    {
+      "name": "BioBIP, the university's business incubator",
+      "what": "The incubator publishes a general email and phone, and an application form, on its applications page.",
+      "url": "https://www.biobip.pt/biobip/candidaturas/",
+      "source_url": "https://www.biobip.pt/biobip/candidaturas/",
+      "read_on": "2026-11-16",
+      "channel": "the incubator's general email and phone on its applications page (open the linked page for the details)"
+    }
+  ]
 }
