@@ -1,0 +1,34 @@
+{
+ "2b08c105c78338e0": {
+  "t": "L'attività di IA di Porto si concentra attorno all'UPTEC, il parco scientifico dell'Università di Porto, dove un rapporto del 2025 ha trovato almeno cinque startup di IA nella sanità, nell'industria e nella ristorazione, dove un programma portoghese ed europeo di supercalcolo (la BSC AI Factory) ha avviato un ciclo di incubazione sull'IA nell'ottobre 2026, e dove Granter ha raccolto 1,6 milioni di euro a novembre. Intorno ci sono un fondo di venture di Porto (33N), una business school (Porto Business School), una comunità di IA per il marketing (AIhub) e Porto Digital, l'organismo digitale della città, che descrive un'IA per la previsione del traffico e dei flussi secondo una regola di nessuna scatola nera e ha portato due interventi sull'IA allo Smart City Expo di Barcellona nel novembre 2026. Il Global Startup Ecosystem Report 2026 indica l'IA come uno dei quattro motori di crescita. La più ampia base universitaria e di ricerca aggiunge il laboratorio della FEUP LIACC, l'istituto di ricerca INESC TEC (che ha ospitato l'AI, Data and Robotics Forum a Porto nell'ottobre 2026) e Fraunhofer Portugal AICOS.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto's AI activity clusters around UPTEC, the science park ",
+  "ok": false
+ },
+ "2b7b9ad9a81e640c": {
+  "t": "La storia tecnologica di Santarém è agroalimentare. Il comune e l'Universidade Politécnica de Santarém, con ISLA Santarém, INIAV e il polo fieristico CNEMA, stanno costruendo il Campus Tejo, un parco scientifico e tecnologico su acqua, agricoltura e scienze della vita presentato al Web Summit Lisbon il 12 novembre 2026. Le pagine che abbiamo letto non dicono che il Campus Tejo usi l'IA, quindi il suo legame con l'IA è una breve inferenza passando per l'agricoltura di precisione e la digitalizzazione. L'attività diretta di IA è più ridotta e dispersa: un progetto di IA da 100.000 euro finanziato dal PRR all'ISLA Santarém, incontri su impresa e salute al CNEMA e un programma di IA in agricoltura a un incontro di coltivatori di mirtilli.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's technology story is agri-food. The council and th",
+  "ok": false
+ },
+ "2b849e5e92cfc33b": {
+  "t": "Guarda, ó pá: abbastanza fredda da congelare un server, testarda come il granito, e sede di un politecnico che insegna in silenzio alle macchine e ha insegnato ad alcuni studenti a leggere il PDM prima degli architetti.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "I suoi studenti e il suo personale hanno accesso gratuito alle versioni pro di tre grandi modelli linguistici tramite il servizio IAedu della FCT, che l'istituzione definisce un passo verso un uso responsabile e collaborativo dell'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false
+ }
+}

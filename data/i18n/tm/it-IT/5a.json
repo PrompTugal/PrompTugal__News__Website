@@ -1,0 +1,42 @@
+{
+ "5a18f09011dbf3e5": {
+  "t": "PrompTugal.news Olhão: pá, qui seguiamo l'IA e la tecnologia della città della Ria Formosa, dagli allevamenti ittici al comune, e tutto ciò che arriva dall'Algarve, dal Portogallo e dal mondo. Indipendente, e ogni fatto ha la sua fonte, ó pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Olhão: pá, here we follow the AI and tech of",
+  "ok": false
+ },
+ "5a65504b74fe3688": {
+  "t": "**L'identità di questo sito:** {key} in [board/keys.json]({keys}); `{file}` non è ancora firmato. Il suo agente, {agent}, lo firma con la chiave del sito.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "5a9a9bd5c02fa21d": {
+  "t": "Ó pá, Lagos ha caravelle, scogliere e più portatili per asciugamano da spiaggia che in qualsiasi altro posto dell'Algarve, e ora sta imparando anche a parlare con le macchine.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, Lagos has caravels, cliffs and more laptops per beach ",
+  "ok": false
+ },
+ "5adb80e2009a3e9b": {
+  "t": "Fino a 3,7 milioni di euro per il supercomputer Deucalion a Guimarães e fino a 15,6 milioni di euro per trasformare MareNostrum 5 a Barcellona in una piattaforma di IA, entrambi gestiti dalla FCT.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Up to 3.7 million euros for the Deucalion supercomputer in G",
+  "ok": false
+ },
+ "5af88120885539ed": {
+  "t": "Pois, nem tudo se encontra. Ecco che cosa stiamo ancora cercando, com calma, que a pressa é inimiga da perfeição:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Pois, nem tudo se encontra. Here is what we are still lookin",
+  "ok": false
+ }
+}

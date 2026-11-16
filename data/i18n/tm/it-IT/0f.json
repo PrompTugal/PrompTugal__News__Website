@@ -1,0 +1,26 @@
+{
+ "0f03ca01715fc750": {
+  "t": "DevFest Faro dedica due giorni alla costruzione pratica di agenti di IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "DevFest Faro gives two days to building AI agents in practic",
+  "ok": false
+ },
+ "0f1974d078687ca1": {
+  "t": "Ainda há muito por contar, pá. Ecco che cosa Setúbal non ci ha ancora raccontato:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda há muito por contar, pá. Here is what Setúbal has not ",
+  "ok": false
+ },
+ "0f37953a7650369c": {
+  "t": "L'azienda, fondata da docenti di informatica e da uno specialista di management dell'università, integra l'IA nei software aziendali e industriali perché conoscano i dati e le regole di ogni impresa. I primi clienti dovrebbero essere le PMI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The company, set up by informatics lecturers and a managemen",
+  "ok": false
+ }
+}
