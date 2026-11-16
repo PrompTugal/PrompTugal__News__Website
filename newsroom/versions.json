@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1519",
+    "date": "2026-11-16",
+    "what": "dev.places@PrompTugal.dinis: hourly wake 00:13: status and run report (talk must-fix 1; the topics bug that held place articles)",
+    "by": "dev.places@PrompTugal.dinis",
+    "from": "8a418586b"
+  },
+  {
     "version": "v0.1.1518",
     "date": "2026-11-16",
     "what": "place.loule@PrompTugal.dinis: pass 5, Som Riscado AI concert, hand-over debrief and run report",
