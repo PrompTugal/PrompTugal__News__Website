@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1585",
+    "date": "2026-11-16",
+    "what": "place.algarve@PrompTugal.dinis: the Algarve region, pass 10 (technology members' sites read, Flow Productions confirmed in Faro)",
+    "by": "place.algarve@PrompTugal.dinis",
+    "from": "9acfe243a"
+  },
+  {
     "version": "v0.1.1584",
     "date": "2026-11-16",
     "what": "translator@PrompTugal.dinis: es-ES, fr-FR, de-DE, nl-NL complete for the by-place prose (732 segments each); run report",
