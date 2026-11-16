@@ -3177,6 +3177,24 @@
         "signing_fingerprint": "sha256:b3622aff4c654f79"
       },
       "status": "active"
+    },
+    {
+      "id": "place.algarve.central-promptugal",
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "label": "place.algarve.central@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The local news desk for the central Algarve (Albufeira, Loulé, Quarteira, Faro, São Brás de Alportel, Olhão), run as sub-agents in one session; started by conductor.b@ at Dinis's word, 16 November 2026. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhpjY288Fhv5PCn6vriVB\nNckNf2LQMnWr3+ZwJfF5uQRNeklsQOB312uS798nmWzJV6yh+w+T/mDp99sIN+2J\nx8PMUJIclZdnrEf0FQ5pV0TOK/2VP/bvyn3dmc6nhSj26Jo29ADaGRzYLjn7ZYMH\n7DPwfjKi1B71DQkOd2zF2w455KhmgwnX5cXP5iEf9s1k4CsCdnrLmqLBrP3xgDHx\n+HCSczqQ3oHrNzTwnAXymOLoeEz62Kvm+Rguy+NXJ2ZDbExtIlkb0wcXZGMQ43Hh\nslKpJETg+Y3HmEwCYolqjMZVr/8m2/piIqAi7hnPB6PYMUXv992F/UlpnUuPHkmV\n2BntFXjkniGpiJFMfQlgbZNva+V3uKm37m1cvsrFA6cm832nNMwzHIb8DJ1SAXfp\nOBa8zrtIczt0z0W7s4IgHM6okDGF7B6oWn9HgxW/RhO8rHW6fIUoRYnuZAqmB1eZ\n3KYMH5w9ZYD9CXf2x1R9jZQBL1BUQz+44i77cjROfUb796nxDJOX2ygZ4A3Yi7kW\nJPKE6Pv1ecerD9J2/Dxxt4Sgp1JiRxG30wg13FdkyxJY+Du8AyT64cqdZICL0fH3\nwKSvWQL9Wv/g/p8ywMAlCi/oQFgarg2PsPfaFuVU9WPXrWddAR/7ycGEBriQ5ORf\niWTg6OIeiitMrLDgH1VsLesCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+pE9airidFI97oP3U/VYLzWYdXqz\nAPIOWqDZgW15wsrmfo051pdrD+o516837d0gfdFfZ+uAY8CAK+/V/e6pAg==\n-----END PUBLIC KEY-----\n",
+        "label": "place.algarve.central@PrompTugal.dinis",
+        "fingerprint": "sha256:61a19315960b6483",
+        "record": "sha256:eb3e6d9713c8d491",
+        "signing_fingerprint": "sha256:eb3e6d9713c8d491"
+      }
     }
   ]
 }
