@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1663",
+    "date": "2026-11-16",
+    "what": "sherpa@PrompTugal.dinis: wake 21:29: subtitle decided; two synthetic readers on the /values/ draft",
+    "by": "sherpa@PrompTugal.dinis",
+    "from": "60905cb70"
+  },
+  {
     "version": "v0.1.1662",
     "date": "2026-11-16",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
