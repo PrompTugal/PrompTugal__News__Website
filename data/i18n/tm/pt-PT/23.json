@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Tavira: AI and technology in Tavira, a town ",
   "ok": false
+ },
+ "23b10f89127a447b": {
+  "t": "Aqui o grande projeto é um polo de investigação sobre a Dieta Mediterrânica, ó pá, com uma lista de leitura bem tavirense: saúde, alimentação, clima. A câmara faz parte de uma plataforma de dados de seis câmaras, pôs sensores nos lugares de estacionamento em 2026, e a Tavira Works mantém as luzes da comunidade acesas. Ainda não se encontrou nenhuma empresa de IA cá em casa, por isso primeiro vêm a canalização e os laboratórios agrícolas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here the big project is a research hub for the Mediterranean",
+  "ok": false
+ },
+ "23d78e2c1356566d": {
+  "t": "A câmara de Albufeira diz ter em funcionamento uma plataforma de gestão urbana baseada em IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Albufeira council says it runs an AI-based urban management ",
+  "ok": false
  }
 }

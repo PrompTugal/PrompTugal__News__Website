@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "By place",
   "ok": false
+ },
+ "aa9e0aaa837fe936": {
+  "t": "A câmara de Portimão põe IA no licenciamento online de obras",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão council puts AI into online building licensing",
+  "ok": false
  }
 }

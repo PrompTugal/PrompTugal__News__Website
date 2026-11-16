@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Our articles from {name}",
   "ok": false
+ },
+ "2596884f4675488e": {
+  "t": "A Universidade do Algarve publica a sua política de IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Algarve publishes its AI policy",
+  "ok": false
  }
 }

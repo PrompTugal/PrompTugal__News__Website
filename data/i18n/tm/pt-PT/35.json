@@ -1,4 +1,20 @@
 {
+ "3535afc1b30d539d": {
+  "t": "O primeiro Venture Lab do AlgarveSTP escolhe 12 empresas, com a adoção de IA na ementa de mentoria",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "First Venture Lab by AlgarveSTP picks 12 companies, with AI ",
+  "ok": false
+ },
+ "353b7c6b8e2138d0": {
+  "t": "IA e robôs para os citrinos: o projeto ATTENTIA, com a Universidade do Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and robots for citrus: the ATTENTIA project, with the Uni",
+  "ok": false
+ },
  "35683239cf1272c2": {
   "t": "Aqui a IA vive mais nos escritórios do que nas garagens, meu. A câmara diz que comprou ferramentas de IA para desembaraçar papéis de planeamento, a NERA está na cidade a ensinar as empresas a usá-las e, com Faro, a câmara está a abrir concurso para um centro tecnológico no Estádio Algarve que menciona a IA. Só uma empresa de IA a sério até agora, a SPIC, por isso o mapa é curto, e honesto quanto a isso.",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +29,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Algarve: AI and technology across the whole ",
+  "ok": false
+ },
+ "357b89658091781d": {
+  "t": "A câmara assinou um protocolo com a UAlg para um novo campus no Barranco do Rodrigo, em terreno e com um projeto fornecidos pela câmara. As suas áreas de foco são o digital, os dados e a inteligência artificial, com conclusão prevista para 2028 e cursos a partir de 2029, num total estimado de cerca de 15 milhões de euros que na altura não estava totalmente assegurado. A UAlg tinha então mais de 400 estudantes em Portimão e visa cerca de 1500 ao fim de três anos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council signed a protocol with UAlg for a new campus at ",
   "ok": false
  },
  "35dd6894d203adfc": {

@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news by place starts in [the Algarve]({region}): ",
   "ok": false
+ },
+ "8dbabf2ca296aacb": {
+  "t": "Painel em Faro pergunta como decide a IA que empresas recomendar",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro panel asks how AI decides which companies to recommend",
+  "ok": false
  }
 }

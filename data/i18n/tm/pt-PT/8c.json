@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Ó pá, Portimão: sardines on the grill, sun on the cliffs and",
   "ok": false
+ },
+ "8cd4dd8460cd02e1": {
+  "t": "Na BTL, em Lisboa (12 a 16 de março de 2025), o stand municipal de Loulé ofereceu aos visitantes uma experiência imersiva do território criada com inteligência artificial. O artigo não diz quem a fez.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the BTL in Lisbon (12 to 16 March 2025) the Loulé municip",
+  "ok": false
+ },
+ "8cf6a8a6bbd4b38d": {
+  "t": "O GDG Lagos e a câmara realizaram o DevFest a 17 e 18 de outubro de 2025. O primeiro dia chegou a cerca de 150 estudantes nas escolas. O segundo dia, nos Paços do Concelho, teve como tema a IA da teoria à prática, com 120 inscrições. O CoLagos e a Fábrica do Empreendedor foram parceiros.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "GDG Lagos and the council ran DevFest on 17 and 18 October 2",
+  "ok": false
  }
 }

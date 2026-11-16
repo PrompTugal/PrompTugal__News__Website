@@ -1,4 +1,20 @@
 {
+ "1fa8474f449c05ca": {
+  "t": "A câmara apoiou um workshop de março de 2024 sobre aprendizagem profunda para deteção da qualidade dos alimentos, co-organizado pelo centro de investigação em eletrónica da universidade e por uma rede europeia de investigação, com nove peritos internacionais e cerca de 40 participantes.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council supported a March 2024 workshop on deep learning",
+  "ok": false
+ },
+ "1fc45385ca174033": {
+  "t": "A maior agenda tecnológica do plano de recuperação é agora liderada pela Sword Health. O consórcio prevê cerca de 150 milhões de euros de volume de negócios este ano, sobretudo em exportações, e nomeia a Priberam e a NeuralShift entre os seus produtos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The largest recovery-plan technology agenda is now led by Sw",
+  "ok": false
+ },
  "1fe47731592596f5": {
   "t": "Olhão, onde os peixes são mais espertos do que os folhetos e os algoritmos ainda estão a aprender a limpar uma sardinha.",
   "by": "translator@PrompTugal.dinis",

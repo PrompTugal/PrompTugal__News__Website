@@ -1,0 +1,18 @@
+{
+ "96b646265713332b": {
+  "t": "Portimão usa IA para verificar documentos de licenciamento de obras",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão uses AI to check building-permit documents",
+  "ok": false
+ },
+ "96bbec2b19a93006": {
+  "t": "O operador algarvio de resíduos ALGAR criou a ferramenta com a start-up NILG.AI, que pondera fatores como a densidade populacional e a acessibilidade. O piloto decorre em Lagoa no âmbito de um programa da Sociedade Ponto Verde. A ALGAR reporta 14 locais candidatos encontrados em quatro horas e o tempo de decisão a cair de 12 dias para 2.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve waste operator ALGAR built the tool with the sta",
+  "ok": false
+ }
+}

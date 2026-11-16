@@ -1,10 +1,26 @@
 {
+ "59d03424a0a7d0d2": {
+  "t": "Olhão é um porto de pesca na Ria Formosa, e a sua história tecnológica passa pelo mar. A estação piloto de piscicultura do IPMA, o laboratório colaborativo S2AQUAcoLAB e a empresa de rações para aquacultura SPAROS ficam no município, e está a ser construído um Hub Azul para a economia do mar no porto de pesca. O caminho da IA é real mas estreito: nutrição de precisão e aquacultura digital, além de uma câmara que falou de IA para rotas de resíduos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão is a fishing port on the Ria Formosa, and its technolo",
+  "ok": false
+ },
  "59dd9fcb07fb9be0": {
   "t": "**Esta página como dados:** tudo o que nela aparece é servido primeiro em JSON, no [seu próprio ficheiro]({json}) (histórias, mapa de IA, eventos, fontes, lacunas, equipa e identidade), com [todos os lugares num só índice]({index}).",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
+ "59ec641f83c3c308": {
+  "t": "A cimeira de dois dias decorreu num hotel de Lagos a 6 e 7 de novembro de 2025. Uma antevisão referia uma demonstração ao vivo da criação de um ChatGPT especializado no primeiro dia. O Barlavento contou depois cerca de 450 pessoas no primeiro dia e 570 no segundo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The two-day summit ran at a Lagos hotel on 6 and 7 November ",
   "ok": false
  }
 }

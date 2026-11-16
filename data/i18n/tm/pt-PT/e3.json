@@ -1,0 +1,18 @@
+{
+ "e35a6493c546f121": {
+  "t": "Ao noticiar uma conferência sobre o novo decreto do urbanismo, o Barlavento cita a câmara a referir uma plataforma que usa inteligência artificial entre as medidas para tornar os processos urbanísticos mais rápidos e acessíveis. O artigo não dá qualquer detalhe técnico.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Reporting on a conference about the new urbanism decree, Bar",
+  "ok": false
+ },
+ "e3fdc471d5eee830": {
+  "t": "A Conferência Luso-Brasileira de Ciência Aberta foi acolhida no campus de Gambelas de 6 a 9 de outubro de 2026, com o tema deste ano sobre como a IA muda a investigação, a comunicação científica e a política de dados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Lusophone Open Science Conference was hosted at the Gamb",
+  "ok": false
+ }
+}

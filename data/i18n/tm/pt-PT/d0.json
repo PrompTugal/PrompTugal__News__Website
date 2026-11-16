@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Aljezur is the Algarve's Atlantic edge: huge, quiet and in t",
   "ok": false
+ },
+ "d03766468de8e58d": {
+  "t": "O Rotary Club de Olhão realizou uma conferência gratuita sobre IA e sociedade na biblioteca municipal Mariano Gago, com o apoio da câmara e um painel para cada uma das três áreas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Rotary Club of Olhão held a free conference on AI and so",
+  "ok": false
+ },
+ "d05b5c339653213f": {
+  "t": "Um acordo de cinco anos assinado a 18 de fevereiro de 2026 cria um laboratório que abrange IA incorporada, robótica social, neurorreabilitação e robôs biomiméticos, com o Instituto de Sistemas e Robótica do Técnico.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A five-year agreement signed on 18 February 2026 creates a l",
+  "ok": false
  }
 }

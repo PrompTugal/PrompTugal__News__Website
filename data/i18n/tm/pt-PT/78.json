@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Starting a company in {name}",
   "ok": false
+ },
+ "78dc9cc4a08684d2": {
+  "t": "Startups em fase inicial que constroem ou usam intensivamente IA podiam candidatar-se à incubação de abril a setembro de 2026, com apoio técnico em IA e mentoria. Portugal participa através da FCT e do Centro Nacional de Computação Avançada.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Early-stage startups building or intensively using AI could ",
+  "ok": false
+ },
+ "78fba34193dcd135": {
+  "t": "O programa do Algarve STP para 12 startups e PME algarvias, no âmbito do Algarve Empreende 2026, listou tecnologia e inteligência artificial entre os seus temas de mentoria, com a UAlg, a AMAL, a NERA, a ANJE e a Algarve Evolution como parceiros. As candidaturas encerraram a 24 de junho de 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve STP's programme for 12 Algarve startups and SMEs, un",
+  "ok": false
  }
 }

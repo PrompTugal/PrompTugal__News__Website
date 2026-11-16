@@ -1,10 +1,26 @@
 {
+ "ba5562fbdc71ad19": {
+  "t": "Parceiros de Portugal, Espanha, França e Irlanda reuniram-se nas instalações da S2AQUA em Olhão a 3 e 4 de fevereiro de 2026 e visitaram a estação piloto de piscicultura. O projeto prevê formação digital, um repositório de conhecimento online e demonstrações-piloto de ferramentas da Indústria 4.0.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Partners from Portugal, Spain, France and Ireland met at the",
+  "ok": false
+ },
  "bad44b8a105b25d8": {
   "t": "Albufeira vive de visitantes, por isso os hotéis e o turismo vêm primeiro. A câmara tem um espaço de coworking dentro de um hotel à beira-mar e uma incubadora que prefere ideias de turismo, e diz que uma plataforma de IA já ajuda no planeamento urbano. Pois, nada mau para uma terra famosa pelas praias.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Albufeira runs on visitors, so hotels and tourism come first",
+  "ok": false
+ },
+ "bada14ddd04950b6": {
+  "t": "Uma equipa da NOVA FCT (NOVA LINCS) criou uma plataforma que lê índices de vegetação por satélite com aprendizagem automática para verificar regularmente se as zonas de gestão de combustível de incêndios florestais estão limpas, com uma aplicação Android. A aplicação foi preparada para Almada, Mação e Santarém, com expansão prevista. O artigo não menciona Monchique nem o Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A NOVA FCT team (NOVA LINCS) built a platform that reads sat",
   "ok": false
  }
 }

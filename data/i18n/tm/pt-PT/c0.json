@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Local talent",
   "ok": false
+ },
+ "c0e557c9ce2880b2": {
+  "t": "O livro IA como Copiloto, um guia de 180 páginas sobre o uso de ferramentas de IA generativa no trabalho do dia a dia, foi apresentado a 20 de fevereiro no auditório da Escola de Hotelaria e Turismo de Portimão, com a Territórios Criativos a moderar um debate chamado IA: adaptar ou ficar para trás.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The book IA como Copiloto, a 180-page guide on using generat",
+  "ok": false
  }
 }

@@ -1,10 +1,42 @@
 {
+ "432067d7e9c06399": {
+  "t": "Castro Marim é um pequeno município no Guadiana, junto a Espanha, cuja economia e identidade assentam nas salinas tradicionais da reserva natural do Sapal, no turismo e na cooperação transfronteiriça da Eurocidade do Guadiana. A sua IA não é um cluster, mas dois casos concretos: uma câmara que moderniza o seu serviço de urbanismo com software de um fornecedor preparado para IA, e uma família de salineiros que criou uma plataforma de software com um assistente de IA para produtores artesanais de sal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castro Marim is a small municipality on the Guadiana, next t",
+  "ok": false
+ },
+ "43336e6b78191844": {
+  "t": "O dinheiro financia casos de uso, de agentes de apoio à contratação pública à automação de faturas. Cerca de 10 milhões de euros já foram atribuídos a casos em desenvolvimento.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The money funds use cases from public procurement support ag",
+  "ok": false
+ },
  "4365e62936c6267c": {
   "t": "Calma, procurámos por todo o lado e nenhuma empresa de IA saiu do mar até agora. Eis o que não conseguimos encontrar:",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Calma, we looked everywhere and no AI company came out of th",
+  "ok": false
+ },
+ "43bac9d8d5283da3": {
+  "t": "A dstelecom leva fibra a mais 1000 casas em Alcoutim",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "dstelecom takes fibre to 1,000 more homes in Alcoutim",
+  "ok": false
+ },
+ "43ea99aecc63d423": {
+  "t": "Na sequência da conferência de IA EPIA 2025 na universidade, os dois parceiros disseram que iriam ligar empreendedores, indústria e ensino superior num cluster de IA e atrair talento para o sul de Portugal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Following the EPIA 2025 AI conference at the university, the",
   "ok": false
  }
 }

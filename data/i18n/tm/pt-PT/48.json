@@ -1,4 +1,12 @@
 {
+ "488ecf736fea8763": {
+  "t": "A ALGAR e a NILG.AI ganham um prémio por uma ferramenta de IA que escolhe locais para ecopontos",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ALGAR and NILG.AI win an award for an AI tool that picks sit",
+  "ok": false
+ },
  "48dad23b50cbbdf9": {
   "t": "IA e tecnologia em Portugal, em contexto: as notícias nacionais de IA e o mapa nacional de IA, o PrompTugal.news por lugar a partir do Algarve, e a semana da Web Summit Lisboa 2026 ({sources} da mesa de investigação, {companies} que acompanhamos, {events}). Só factos públicos, cada um com a sua fonte.",
   "by": "translator@PrompTugal.dinis",

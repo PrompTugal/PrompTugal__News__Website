@@ -1,0 +1,18 @@
+{
+ "0b7072ddf36f8a3f": {
+  "t": "Câmara ganha cerca de 938 000 euros para modernizar serviços digitais",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Council wins about 938,000 euros to modernise digital servic",
+  "ok": false
+ },
+ "0b7d2dab3101ba93": {
+  "t": "Um estudante do Instituto Politécnico de Beja construiu um protótipo de aprendizagem automática durante um estágio na câmara. Combina dados de 10 estações municipais de monitorização com dados meteorológicos históricos para prever as classes do Índice Europeu de Qualidade do Ar. A câmara diz que apoia a sua monitorização ambiental e a estratégia de cidade inteligente, e os professores planeiam um artigo científico com Lagoa como parceira.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A student from the Instituto Politécnico de Beja built a mac",
+  "ok": false
+ }
+}

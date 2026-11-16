@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "The companies, institutions and communities in {name} with a",
   "ok": false
+ },
+ "e08fafe93f5830d8": {
+  "t": "Pelas fontes que conseguimos abrir, a história tecnológica do município é o mar e o vento. Sagres acolhe uma empresa de biotecnologia marinha no Porto da Baleeira, um laboratório marinho universitário no mesmo porto e o observatório subaquático MARREAL, uma estação de câmaras e sensores a 20 metros de profundidade que regista dados do oceano em tempo real. O inventário de parques eólicos do INEGI e da APREN lista parques eólicos no município, incluindo a repotenciação de 2025. Não encontrámos notícias de IA, que é a primeira conclusão desta página, mas as estações de dados do oceano são onde um caminho para a IA mais provavelmente surgirá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On the sources we could open, the municipality's technology ",
+  "ok": false
+ },
+ "e0e5f037ff99adf0": {
+  "t": "A startup portuguesa monitoriza agentes de IA autónomos, assinala resultados arriscados para revisão humana e pontua-os de 0 a 100. O investidor é a Angels Way.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Portuguese startup monitors autonomous AI agents, flags ",
+  "ok": false
  }
 }

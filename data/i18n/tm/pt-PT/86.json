@@ -1,4 +1,12 @@
 {
+ "861340a39322787c": {
+  "t": "Faro é sede da Universidade do Algarve, cujos campi na cidade ancoram a maior parte da atividade de IA da região: investigação (um centro de inovação arqueológica de 31,5 milhões de euros que vai usar IA), ensino (uma política de IA da universidade publicada, um curso executivo de IA na saúde com uma empresa de health-tech) e o UALG TEC Campus, onde se realizam eventos empresariais sobre IA. A camada comunitária também está aqui: o GDG Faro organiza a conferência de programadores da cidade sobre IA agêntica, e a Algarve Evolution, o Algarve STP e a câmara acrescentam eventos e programas. O próprio município mostra pouca utilização de IA no que conseguimos ler, pelo que a inovação e a investigação, e não a administração da cidade, são o centro de gravidade de Faro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro is home to the Universidade do Algarve, whose campuses ",
+  "ok": false
+ },
  "867572ff80be5e8d": {
   "t": "Mapa do Algarve com os seus {count} lugares, cada um ligado ao seu site",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86c335ec6671a38b": {
+  "t": "Empreendedores de Portimão reúnem-se para falar de liderança, inovação e IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
   "ok": false
  }
 }

@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Monchique lives with the mountain and the mountain lives wit",
   "ok": false
+ },
+ "9e14c2a9e059fd1c": {
+  "t": "A Algarve Evolution abre um inquérito sobre como as empresas locais adotam a IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve Evolution opens a survey on how local companies adop",
+  "ok": false
+ },
+ "9e252e25811c8feb": {
+  "t": "Um estúdio de Loulé pôs em palco, com um holograma de IA, o membro falecido de uma banda",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Loulé studio put a band's late member back on stage with a",
+  "ok": false
  }
 }

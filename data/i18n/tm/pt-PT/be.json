@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "A country on the Atlantic edge of Europe that wrote itself a",
   "ok": false
+ },
+ "be99630c0197edb6": {
+  "t": "Abertas as candidaturas ao plano-piloto de IA e robótica do Algarve para PME do turismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false
  }
 }

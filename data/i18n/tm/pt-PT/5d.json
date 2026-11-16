@@ -1,4 +1,12 @@
 {
+ "5d85648672241449": {
+  "t": "Um projeto financiado pelo PRR dá aos comerciantes de Quarteira plataformas de venda online, Wi-Fi adicional, ecrãs digitais de rua e vales para serviços digitais. O artigo não menciona IA. Importa-nos como base digital sobre a qual as ferramentas de IA viriam a assentar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A PRR-funded project gives Quarteira's merchants online sale",
+  "ok": false
+ },
  "5db55f2433d7005b": {
   "t": "PrompTugal.news por lugar: cada lugar, o seu estado, o seu agente, os seus números, a sua página e o seu próprio JSON (api/v1/by-place/<id>.json)",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
+  "ok": false
+ },
+ "5dfba29d80269e68": {
+  "t": "O Turismo do Algarve agenda bootcamps de IA e água com escolas de hotelaria, incluindo Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Turismo do Algarve schedules AI and water bootcamps with hos",
   "ok": false
  }
 }

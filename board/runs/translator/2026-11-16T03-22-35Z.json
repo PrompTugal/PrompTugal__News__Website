@@ -1,0 +1,1193 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "translator@PrompTugal.dinis",
+ "run": "2026-11-16T03-22-35Z",
+ "started": "2026-11-16T03:22:35.159Z",
+ "ended": "2026-11-16T03:51:15Z",
+ "line": "",
+ "policy": {
+  "version": "1.10.1",
+  "sha256": "5136ce8a474d3c7c"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T03:47:41.980Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T03:51:00.460Z",
+   "chars": 538,
+   "sha256": "4afceaaaa175d21a",
+   "head": "<agent-message from=\"af400a2805ea927ff\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T03:47:41.757Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 21,
+  "by_kind": {
+   "shell": 8,
+   "release": 6,
+   "other": 1,
+   "git": 2,
+   "agent": 2,
+   "read": 1,
+   "write-outside": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 19,
+  "commits": [
+   {
+    "sha": "fd6ce8f2e",
+    "subject": "translator@PrompTugal.dinis: the memory in the spec's entry format (t, by, model, at, src, ok); segmenter adds gravity and ai_news",
+    "files": 109
+   },
+   {
+    "sha": "e9990fe95",
+    "subject": "translator@PrompTugal.dinis: blocked at the gate (no schema for data/i18n/); drafted the two schemas for dev@",
+    "files": 3
+   },
+   {
+    "sha": "70f2b751c",
+    "subject": "translator@PrompTugal.dinis: run report; asks: an ABP for translator@, and the missing spec",
+    "files": 2
+   },
+   {
+    "sha": "3d1888435",
+    "subject": "translator@PrompTugal.dinis: key, translation memory tool, glossary, by-place prose in pt-PT (140 segments)",
+    "files": 111
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-16T03:48:20.543Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in translator@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T03:50:59.682Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in translator@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/README.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/00.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/02.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/04.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/08.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/09.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/0a.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/0c.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/12.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/15.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/17.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/18.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/19.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/1a.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/1b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/1e.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/1f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/20.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/23.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/24.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/25.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/28.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/32.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/33.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/35.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/36.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/37.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/38.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/3a.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/3f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/41.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/43.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/44.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/48.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/49.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/4b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/4d.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/4f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/54.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/55.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/59.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/5a.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/5b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/5d.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/60.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/63.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/65.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/6b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/6e.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/70.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/71.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/73.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/74.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/77.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/78.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/79.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/7c.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/7f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/82.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/86.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/87.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/88.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/8c.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/8d.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/8e.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/9b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/9d.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/9e.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/9f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/a2.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/a3.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/a5.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/a6.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/aa.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/ac.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/ad.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/ae.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/b2.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/b6.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/b8.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/b9.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/ba.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/bc.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/bd.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/be.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/bf.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/c0.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/c7.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/c8.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/cc.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/ce.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/d0.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/d5.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/d7.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/da.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/dc.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/dd.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/e0.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/e4.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/e6.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/e7.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/e8.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/e9.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/ed.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/f5.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/fc.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "fd6ce8f2e wrote data/i18n/tm/pt-PT/fe.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/README.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/glossary.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/00.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/02.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/04.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/08.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/09.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/0a.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/0c.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/12.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/15.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/17.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/18.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/19.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/1a.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/1b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/1e.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/1f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/20.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/23.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/24.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/25.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/28.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/32.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/33.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/35.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/36.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/37.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/38.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/3a.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/3f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/41.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/43.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/44.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/48.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/49.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/4b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/4d.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/4f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/54.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/55.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/59.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/5a.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/5b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/5d.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/60.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/63.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/65.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/6b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/6e.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/70.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/71.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/73.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/74.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/77.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/78.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/79.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/7c.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/7f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/82.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/86.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/87.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/88.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/8c.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/8d.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/8e.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/9b.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/9d.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/9e.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/9f.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/a2.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/a3.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/a5.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/a6.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/aa.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/ac.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/ad.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/ae.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/b2.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/b6.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/b8.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/b9.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/ba.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/bc.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/bd.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/be.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/bf.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/c0.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/c7.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/c8.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/cc.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/ce.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/d0.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/d5.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/d7.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/da.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/dc.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/dd.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/e0.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/e4.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/e6.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/e7.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/e8.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/e9.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/ed.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/f5.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/fc.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "3d1888435 wrote data/i18n/tm/pt-PT/fe.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 21,
+  "in_mandate": 19,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 215
+ }
+}

@@ -1,4 +1,12 @@
 {
+ "5424ca858f18ae29": {
+  "t": "A Cáritas diocesana realizou uma conferência no Seminário de São José, em Faro, sobre IA, dignidade humana, trabalho, aprendizagem e quem pode ficar para trás.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The diocesan Cáritas held a conference at the Seminário de S",
+  "ok": false
+ },
  "542a9ab697bdc0e7": {
   "t": "Cá em Castro Marim o sal seca ao sol e a IA, ó pá, ainda tem de ser convidada a subir do parque de estacionamento.",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Every company, institution and community with a path to AI t",
+  "ok": false
+ },
+ "54efd925eefadb18": {
+  "t": "O programa oferece mentoria sobre clientes, mercados, preços e escala a startups de biotecnologia, IA, saúde, turismo, alimentação e indústrias criativas. Duas empresas nomeadas, a expressTEC em Faro e a Bot Gonçalves, usam IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The programme offers mentoring on customers, markets, pricin",
   "ok": false
  }
 }

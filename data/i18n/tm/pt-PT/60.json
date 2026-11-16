@@ -6,5 +6,29 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news São Brás de Alportel: AI and technology from",
   "ok": false
+ },
+ "6034217bbcf2a652": {
+  "t": "A Flow Productions, com o Algarve STP e a Ireland Portugal Business Network, organizou um painel em inglês a 22 de julho no UAlg TEC Campus sobre como o ChatGPT, o Gemini, o Claude e o Perplexity mudam a pesquisa online, e sobre a otimização para motores de resposta e motores generativos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Flow Productions, with Algarve STP and the Ireland Portugal ",
+  "ok": false
+ },
+ "6086206026ba6998": {
+  "t": "A ficha do projeto descreve uma plataforma de gestão urbana para Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira e Vila Real de Santo António, juntando sensores e dez áreas de serviço como resíduos, água, qualidade do ar, ruído, marcas de cheias e monitorização de idosos isolados. Investimento listado: 102 615 euros, todo cofinanciado.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The project sheet describes an urban management platform for",
+  "ok": false
+ },
+ "60e6fa7587c5a2a8": {
+  "t": "Com a Fundação Galp, a câmara abriu um sistema de 14 bicicletas elétricas em quatro estações, aberto a residentes e visitantes. O investimento ultrapassa os 100 000 euros e uma plataforma digital de gestão e utilização, criada pela empresa CME, assegura o seu funcionamento.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "With Fundacao Galp, the council opened a system of 14 electr",
+  "ok": false
  }
 }

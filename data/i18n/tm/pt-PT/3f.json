@@ -1,10 +1,34 @@
 {
+ "3f4a149e4dc06c18": {
+  "t": "A Algarve Evolution realizou um piloto, parte do Inova Algarve 3.0 e cofinanciado pelo Algarve 2030, para escolher 15 PME do turismo regional para consultoria técnica e um plano de ação de IA e robótica à medida. As candidaturas decorreram de 20 de fevereiro a 30 de abril de 2026, pelo que o concurso parece encerrado. Nenhuma empresa de Aljezur é nomeada.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve Evolution ran a pilot, part of Inova Algarve 3.0 and",
+  "ok": false
+ },
+ "3fb4690c92bce2c8": {
+  "t": "A Future Business Summit, a 19 de junho na Casa Manuel Teixeira Gomes, promovida pela StartUP Portimão e pela incubadora de empresas da câmara, incluiu um painel sobre o fator humano na era da IA, abrangendo literacia digital, cibersegurança e uso de IA nas empresas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Future Business Summit on 19 June at Casa Manuel Teixeir",
+  "ok": false
+ },
  "3ff1a02107fe8943": {
   "t": "O que ainda não encontrámos, porque até um bom agente de investigação precisa de um pastel de nata e de uma segunda passagem.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "What we have not found yet, because even a good research age",
+  "ok": false
+ },
+ "3ff79b364721e595": {
+  "t": "O CAIRNE | Guimarães é acolhido pela Escola de Engenharia da Universidade do Minho e junta-se a delegações em cidades como Bruxelas, Paris e Roma.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CAIRNE | Guimarães is hosted by the University of Minho's Sc",
   "ok": false
  }
 }

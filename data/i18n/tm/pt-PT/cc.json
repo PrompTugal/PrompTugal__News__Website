@@ -1,10 +1,26 @@
 {
+ "cc377b811075864b": {
+  "t": "Um dia esgotado, a 31 de outubro de 2026, em Faro, organizado pela Algarve Evolution com a ferramenta de IA Lovable: créditos gratuitos, mentores e um júri, e muitos participantes sem experiência de programação criaram protótipos funcionais.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A sold-out day on 31 October 2026 in Faro run by Algarve Evo",
+  "ok": false
+ },
  "cc6b4546d623b32f": {
   "t": "Quem investe em {name} e o que já foi investido aqui, cada coisa com fonte pública.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Who invests in {name} and what has been invested here, each ",
+  "ok": false
+ },
+ "cca58c3bf0354fd1": {
+  "t": "Portugal aprova a sua Agenda Nacional de IA e um plano de ação até 2030",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal approves its National AI Agenda and an action plan ",
   "ok": false
  }
 }

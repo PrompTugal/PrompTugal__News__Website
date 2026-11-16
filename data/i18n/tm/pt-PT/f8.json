@@ -1,0 +1,18 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "A AMALIA, o modelo de linguagem aberto para português europeu, é lançada",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "Pelas fontes lidas até agora, o peso de Loulé na IA é mais institucional do que empresarial. A câmara diz já ter contratado ferramentas de IA para acelerar o urbanismo, a associação empresarial regional NERA tem sede no município e forma empresas locais em ferramentas de IA, e as câmaras de Loulé e Faro lançam em conjunto um concurso para um centro multitecnológico no Estádio Algarve que inclui a IA entre os seus temas. Não encontrámos nenhuma empresa de IA claramente sediada em Loulé além da SPIC, pelo que o mapa abaixo é curto de propósito.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ }
+}
