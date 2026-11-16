@@ -205,7 +205,8 @@ function nearby(ctx, M, G, r) {
     for (const t of others) for (const a of arr(t.ai_news)) {
         const sig = typeof a.significance === 'string' && a.significance in RANK ? a.significance : null
         const rr = r.kind === 'town' || r.kind === 'municipality' || r.kind === 'city' ? reach(sig, r.id, t.id, G, M) : { shown: !!sig && RANK[sig] >= (r.kind === 'region' ? RANK.region : RANK.country), why: r.kind === 'region' ? 'region or wider' : 'country or wider' }
-        items.push({ from: t.id, from_name: t.name, km: G.km(r.id, t.id), adjacent: G.adjacent(r.id, t.id), significance: sig, significance_why: a.significance_why || a.why_significance || null, shown: rr.shown, why: rr.why, title: a.title, url: a.url, date: a.date || null, publisher: a.publisher || null, read_on: a.read_on || null })
+        const kmv = G.km(r.id, t.id)
+        items.push({ from: t.id, from_name: t.name, km: kmv, distance: kmv !== null ? `${t.name}, ${Math.round(kmv)} km` : (t.parent === r.id ? `${t.name}, inside ${r.name}` : `${t.name}, ${r.kind === 'region' || r.kind === 'country' ? 'inside' : 'in'} ${r.name}`), adjacent: G.adjacent(r.id, t.id), significance: sig, significance_why: a.significance_why || a.why_significance || null, shown: rr.shown, why: rr.why, title: a.title, url: a.url, date: a.date || null, publisher: a.publisher || null, read_on: a.read_on || null })
     }
     items.sort((a, b) => (b.shown - a.shown) || ((RANK[b.significance] ?? -1) - (RANK[a.significance] ?? -1)) || ((a.km ?? 999) - (b.km ?? 999)) || String(b.date || '').localeCompare(String(a.date || '')))
     const marked = items.filter(i => i.significance).length

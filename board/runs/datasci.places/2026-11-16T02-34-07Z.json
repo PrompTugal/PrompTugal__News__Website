@@ -1,0 +1,190 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "datasci.places@PrompTugal.dinis",
+ "run": "2026-11-16T02-34-07Z",
+ "started": "2026-11-16T02:34:07.504Z",
+ "ended": "2026-11-16T12:47:48Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T02:38:42.349Z",
+   "chars": 719,
+   "sha256": "c193f6913f7c8ba1",
+   "head": "<task-notification>\n<task-id>bek2mwxok</task-id>\n<tool-use-id>toolu_017dSY3Yov7GZo4kwxagSQEJ</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T03:08:44.267Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T04:09:11.773Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T05:08:55.115Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T05:11:20.018Z",
+   "chars": 850,
+   "sha256": "ca88d933e1851531",
+   "head": "<task-notification>\n<task-id>bu7esaa9b</task-id>\n<tool-use-id>toolu_01XD6V3nmDsCoaDSrN4tkUii</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T06:10:15.312Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T07:12:32.534Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T08:13:05.475Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T09:10:22.653Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T10:10:06.400Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T11:10:54.064Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T12:13:04.533Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T12:40:50.360Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-16T12:45:10.489Z",
+   "chars": 1167,
+   "sha256": "3f4b2408d5dce0ef",
+   "head": "<task-notification>\n<task-id>bqj5l9sfl</task-id>\n<tool-use-id>toolu_01TvPowdjy4Zehv8Urn1atLx</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T03:08:44.048Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T04:09:11.572Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T05:08:54.897Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T06:10:15.124Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T07:12:32.211Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T08:13:05.246Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T09:10:22.433Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T10:10:06.167Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T11:10:53.829Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T12:13:04.303Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T12:40:50.159Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 37,
+  "by_kind": {
+   "release": 2,
+   "other": 12,
+   "web": 1,
+   "git": 11,
+   "shell": 10,
+   "github-read": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 37,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 14,
+  "tool_calls": 37,
+  "in_mandate": 37,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
