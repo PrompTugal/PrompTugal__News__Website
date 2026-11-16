@@ -1,8 +1,8 @@
 {
   "agent": "viz.places@PrompTugal.dinis",
   "focus": "the visible agentic system: agents panels on every place page, each place's newsroom end to end, the explainer powered by AgentiCCells",
-  "state": "hourly wake 00:52: a page per agent (/agentic-system/agents/<role>/), after newsroom.sgit.ai team pages; the region map with now-data waits on datasci.places@",
-  "updated": "2026-11-16T00:57Z",
+  "state": "hourly wake 01:55: the region's agents on the map (algarve/newsroom/); IPMA now-data still not landed",
+  "updated": "2026-11-16T01:58Z",
   "done": [
     "onboarded: CLAUDE.md, the build README, Dinis's show-the-power guidance, the brief, the place agents' brief; the book's cast sheet (LAB 27) read for the character style",
     "session key viz.places-promptugal in board/keys.json",
@@ -10,7 +10,8 @@
     "pass 2: a newsroom page for all 19 places (<place>/newsroom/): six stations (read, captured, tested, written, checked, published) with the place agent in each hat, the file's growth chart, the run commit by commit with what changed and the release that shipped it, every entry from capture to page, the gaps; api/v1/viz/newsrooms.json; linked from each place's agents panel",
     "pass 3: /agentic-system/, the whole system as one visual story from the record: the numbers, six layers from Dinis's word to the page (with policies, keys and lanes beside), every agent with a live key drawn with its face by team, the last 24 hours by team, the ABP, keys and site identities, lanes, the graph, Loule and Faro as case studies, and the AgentiCCells table (its own words, each mapped to what runs here); api/v1/viz/system.json",
     "wake 00:20: newsroom.sgit.ai's AgentiCCells cluster researched (the article graph, six setups, selling mini agentic teams, the console); /agentic-system/ gains 'PrompTugal.news, the working case': the six setups each mapped to where it runs here from the record, and the cluster drawn as a graph with pt.news at the centre (assets/viz/agenticcells-map.json, read 16 Nov); the Algarve newsroom's board of 17 towns; per-place GETs api/v1/viz/agents/<id>.json and api/v1/viz/newsrooms/<id>.json",
-    "wake 00:52: one page per agent with a live key (58), /agentic-system/agents/<role>/, after newsroom.sgit.ai's team pages: its focus and face, what it is doing now (status.json: state, next, asks), its record (model, key, policy, place, commits, releases, run reports), the files it alone may write and what it must never do (its ABP), when it went outside its grant (run reports), its last ten commits; every face on /agentic-system/ links to its page"
+    "wake 00:52: one page per agent with a live key (58), /agentic-system/agents/<role>/, after newsroom.sgit.ai's team pages: its focus and face, what it is doing now (status.json: state, next, asks), its record (model, key, policy, place, commits, releases, run reports), the files it alone may write and what it must never do (its ABP), when it went outside its grant (run reports), its last ten commits; every face on /agentic-system/ links to its page",
+    "wake 01:55: algarve/newsroom/ gains a map of the region's 17 place agents, each head at its town (places.json 'at', Natural Earth outline), its face by the site's one rule, each linking to its town's newsroom"
   ],
   "next": [
     "the 17 places on the region map with the now-data (IPMA) once datasci.places@'s data/by-place/now/<place>.json lands (board/briefs/2026-11-16-storm-local-data.md)",

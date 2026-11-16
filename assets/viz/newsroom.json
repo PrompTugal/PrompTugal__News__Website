@@ -115,5 +115,8 @@
   },
   "h_towns": "Every town's newsroom, side by side",
   "towns_intro": "The same loop, run by one agent per town. Each row is read from that town's file and its git history at this release; follow a name to see its newsroom at work.",
-  "towns_cols": "| Town | Agent | Now | Sources | Captured | Pass the test | Releases | Last change |"
+  "towns_cols": "| Town | Agent | Now | Sources | Captured | Pass the test | Releases | Last change |",
+  "agentmap_aria": "The Algarve's place agents on the map, each at its town, its face by the same rule as everywhere on the site",
+  "agentmap_caption": "Each town's agent at its town, as of the last commit on record ({asof} UTC): {now} of {count} at work in the last 90 minutes. The face follows the site's one rule; follow a town to its newsroom. Coast and border: Natural Earth (public domain).",
+  "h_agentmap": "The region's agents, on the map"
 }

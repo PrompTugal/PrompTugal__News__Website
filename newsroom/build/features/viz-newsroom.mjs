@@ -10,7 +10,7 @@ import { execFileSync } from 'node:child_process'
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
 import { figure, head, tmpl, fill, xesc as X } from './viz-cast.mjs'
 import { record, runsOf, keyOf, short, hm, dm, statusOf, asksOf } from './viz-record.mjs'
-import { places, teamOf, newsroomRel, W, trim, noPrefix, noDash, repoCommit } from './viz-agents.mjs'
+import { places, teamOf, newsroomRel, W, trim, noPrefix, noDash, repoCommit, moodWord } from './viz-agents.mjs'
 
 export const order = 96
 const NT = 'assets/viz/newsroom.tmpl'
@@ -143,6 +143,33 @@ function itemRows(ctx, p, H) {
     return rows.length ? `{.vz-items}\n${C.items_cols}\n|---|---|---|---|---|---|---|\n${rows.join('\n')}\n` : ''
 }
 
+// the region's agents on the map: the coast and border from assets/portugal/algarve-outline.json (Natural Earth), each
+// town's agent's head at its seat (places.json "at"), its face by the site's one rule
+let AT = null
+const placesAt = ctx => AT || (AT = new Map(ctx.readJSON('data/by-place/places.json').places.filter(x => Array.isArray(x.at)).map(x => [x.id, x])))
+function agentMap(ctx, region) {
+    const T = tmpl(ctx, NT), C = copy(ctx), R = record(ctx), rel = newsroomRel(region)
+    let O = { countries: {} }
+    try { O = ctx.readJSON('assets/portugal/algarve-outline.json') } catch {}
+    const V = { lon0: -9.12, lon1: -7.30, lat0: 36.92, lat1: 37.62 }, w = 1000
+    const k = Math.cos(37.2 * Math.PI / 180), sc = w / ((V.lon1 - V.lon0) * k), h = Math.round((V.lat1 - V.lat0) * sc)
+    const X0 = lon => ((lon - V.lon0) * k * sc), Y0 = lat => ((V.lat1 - lat) * sc)
+    const ring = r => 'M' + r.map(([lo, la]) => `${X0(lo).toFixed(1)},${Y0(la).toFixed(1)}`).join('L') + 'Z'
+    let body = ''
+    for (const [name, cls] of [['Spain', 'es'], ['Portugal', 'pt']]) for (const poly of (O.countries[name] || [])) body += `<path d="${poly.map(ring).join('')}" class="vz-am-land ${cls}"/>`
+    const towns = places(ctx).filter(t => placesAt(ctx).has(t.id))
+    let now = 0
+    for (const t of towns) {
+        const at = placesAt(ctx).get(t.id), me = teamOf(ctx, t).find(a => a.own), mood = me ? me.mood : 'unhappy'
+        if (mood === 'happy' || mood === 'stressed') now++
+        const x = X0(at.at[0]), y = Y0(at.at[1]), side = at.label || 's'
+        const [lx, ly, anchor] = side === 'n' ? [0, -44, 'middle'] : side === 'e' ? [14, 4, 'start'] : side === 'w' ? [-14, 4, 'end'] : side === 'sw' ? [-10, 22, 'end'] : [0, 22, 'middle']
+        body += fill(T['agentmap-pin'], { href: X(ctx.link(rel, newsroomRel(t)).replace(/\.md$/, '.html')), title: X(`${t.name}: ${short(t.agent.toLowerCase())}, ${moodWord(ctx)[mood]}`), x: x.toFixed(1), y: y.toFixed(1), c: X(t.accent),
+            hx: -14, hy: -36, head: head(ctx, { role: `place.${t.id}`, accent: t.accent, mood, size: 26, title: short(t.agent.toLowerCase()) }), lx, ly, anchor, name: X(t.name) })
+    }
+    return fill(T.agentmap, { w, h, aria: X(C.agentmap_aria), body, caption: X(W(C.agentmap_caption, { asof: `${dm(R.now)} ${hm(R.now)}`, now, count: towns.length })) })
+}
+
 // the region's newsroom: every town's loop side by side
 function townsBoard(ctx, region) {
     const C = copy(ctx), c = s => ctx.md.cell(String(s ?? '')), rel = newsroomRel(region)
@@ -162,7 +189,7 @@ function page(ctx, p) {
     const items = arr(d.ai_news).length + arr(d.ai_map).length + arr(d.events).length
     let md = `::: vz-hero-slot\n${c(W(C.lede, { id: p.id, name: p.name }))}\n:::\n\n`
     md += `## ${C.h_flow} {#flow}\n\n::: vz-stations-slot\n${list.map(s => `- **${s.n}. ${c(s.label)}: ${c(s.big)} ${c(s.unit)}.** ${s.lines.map(c).join('; ')}`).join('\n')}\n:::\n\n`
-    if (p.id === 'algarve') md += townsBoard(ctx, p)
+    if (p.id === 'algarve') md += `## ${C.h_agentmap} {#agentmap}\n\n::: vz-agentmap-slot\n${places(ctx).filter(t => placesAt(ctx).has(t.id)).map(t => `- ${c(t.name)}: ${c(short(t.agent.toLowerCase()))}`).join('\n')}\n:::\n\n` + townsBoard(ctx, p)
     md += `## ${C.h_run} {#run}\n\n${C.run_intro}\n\n::: vz-chart-slot\n${c(W(C.chart_legend, { from: H[0] ? `${dm(H[0].t)} ${hm(H[0].t)}` : '', to: `${dm(record(ctx).now)} ${hm(record(ctx).now)}` }))}\n:::\n\n`
     md += `::: vz-run-slot\n${H.map(h => `- ${dm(h.t)} ${hm(h.t)}, ${c(short(h.agent.toLowerCase()))}: ${c(trim(noDash(noPrefix(h.subject)), 150))} (${c(delta(C, h))}; ${c(h.release || C.unreleased)})`).join('\n')}\n:::\n\n`
     md += `## ${C.h_items} {#items}\n\n${C.items_intro}\n\n${itemRows(ctx, p, H)}\n`
@@ -185,6 +212,7 @@ function page(ctx, p) {
             }))
             html = html.replace(/<div class="vz-stations-slot">[\s\S]*?<\/div>/, () => stationsHtml(ctx, p, list))
             html = html.replace(/<div class="vz-chart-slot">[\s\S]*?<\/div>/, () => chart(ctx, p, H))
+            if (p.id === 'algarve') html = html.replace(/<div class="vz-agentmap-slot">[\s\S]*?<\/div>/, () => agentMap(ctx, p))
             html = html.replace(/<div class="vz-run-slot">[\s\S]*?<\/div>/, () => runHtml(ctx, p, H))
             return `<div class="vz-nr" style="--c:${X(p.accent)}">${html}</div>`
         },

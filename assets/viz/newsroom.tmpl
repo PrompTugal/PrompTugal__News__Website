@@ -17,3 +17,7 @@
 <li class="vz-run-row"><span class="vz-run-t">{{t}}</span><span class="vz-run-head">{{head}}</span><span class="vz-run-what"><b>{{who}}</b> <a href="{{href}}" target="_blank" rel="noopener">{{subject}}</a> <span class="vz-run-delta">{{delta}}</span></span><span class="vz-run-rel">{{rel}}</span></li>
 <!-- hero -->
 <div class="vz-nr-hero" style="--c:{{accent}}"><div class="vz-nr-heads">{{heads}}</div><p class="vz-nr-lede">{{lede}}</p><p class="vz-nr-links"><a href="{{place}}">the page it makes</a> · <a href="{{agents}}">the agents</a> · <a href="{{explainer}}">how the whole system works</a> · <span class="vz-powered">powered by AgentiCCells</span></p></div>
+<!-- agentmap -->
+<figure class="vz-agentmap"><svg viewBox="0 0 {{w}} {{h}}" width="100%" role="img" aria-label="{{aria}}"><title>{{aria}}</title>{{body}}</svg><figcaption>{{caption}}</figcaption></figure>
+<!-- agentmap-pin -->
+<a href="{{href}}"><title>{{title}}</title><g transform="translate({{x}} {{y}})"><circle r="4" class="vz-am-seat" fill="{{c}}"/><g transform="translate({{hx}} {{hy}})">{{head}}</g><text x="{{lx}}" y="{{ly}}" text-anchor="{{anchor}}" class="vz-am-label">{{name}}</text></g></a>

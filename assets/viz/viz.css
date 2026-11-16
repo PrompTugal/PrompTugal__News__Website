@@ -200,3 +200,11 @@ a.vz-member:hover { border-color: var(--ink-3); }
 .vz-agent-fig { flex: none; }
 .vz-agent-focus { font: 400 17px/1.5 var(--serif); color: var(--ink); max-width: 70ch; }
 @media (max-width: 600px) { .vz-agent-hero { flex-direction: column; align-items: flex-start; } }
+.vz-agentmap { margin: 6px 0 22px; }
+.vz-agentmap svg { display: block; max-width: 100%; height: auto; background: color-mix(in srgb, #3b82c4 9%, var(--paper)); border-radius: 6px; }
+.vz-agentmap .vz-am-land.pt { fill: var(--panel); stroke: var(--rule-2); stroke-width: 1; }
+.vz-agentmap .vz-am-land.es { fill: var(--paper-2); stroke: var(--hair); stroke-width: 1; }
+.vz-agentmap .vz-am-seat { stroke: var(--ink); stroke-width: 1; }
+.vz-agentmap .vz-am-label { font: 600 13px var(--sans); fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; }
+.vz-agentmap a:hover .vz-am-label { fill: var(--brand-red); }
+.vz-agentmap figcaption { font: 400 12.5px/1.5 var(--sans); color: var(--ink-3); }
