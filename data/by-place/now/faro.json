@@ -14,7 +14,7 @@
    "wind_kmh": 13.3,
    "wind_dir_id": 6,
    "rain_mm": 0,
-   "pressure_hpa": 1021.5
+   "pressure_hpa": 1021.7
   },
   "page": "https://www.ipma.pt/en/otempo/obs.superficie/",
   "source": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json"
