@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1647",
+    "date": "2026-11-16",
+    "what": "conductor.b@PrompTugal.dinis: the plan to restart the PrompTugal team on this account, for Dinis's go",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b92124347"
+  },
+  {
     "version": "v0.1.1646",
     "date": "2026-11-16",
     "what": "conductor@PrompTugal.jose: its session key, public half only, in board/keys.json (conductor-jose-promptugal)",
