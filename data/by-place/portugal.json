@@ -55,6 +55,16 @@
       "steps": 0
     },
     {
+      "title": "AMALIA gets a second phase: 1.8 million euros more, agent tools planned by the end of 2026",
+      "summary": "A Council of Ministers resolution adds 1.8 million euros from the recovery plan, taking the project cost to 7.3 million euros, and aims to move AMALIA from prototype into citizen services. The training plan covers agent tools and image and speech, and the government will seek talks with media companies for archive access. The article notes that the Journalists' Union contested the use of Arquivo.pt data in the first phase. These are stated intentions, not deliveries.",
+      "date": "2026-09-15",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/",
+      "read_on": "2026-11-16",
+      "ai_path": "A national language model, so directly AI.",
+      "steps": 0
+    },
+    {
       "title": "Neuraspace raises 15.6 million euros for AI space-traffic intelligence",
       "summary": "The platform helps satellite operators watch collision risks, cyber threats and radio interference. Investors include Lince Capital, Explorer Investments and Armilar, plus recovery plan funds.",
       "date": "2026-08-05",
@@ -309,8 +319,8 @@
       "name": "AMALIA",
       "type": "public body",
       "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
-      "what": "Open language model for European Portuguese, launched 1 July 2026 in Lisbon, coordinated by ARTE and FCT with about 80 researchers. Funding rose from 5.5 to 7 million euros to 2027. Multimodal, 9 billion parameters, growing to 22 billion.",
-      "source_url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+      "what": "Open language model for European Portuguese, launched 1 July 2026 in Lisbon, coordinated by ARTE and FCT with about 80 researchers. Funding rose to 7 million euros in July and to 7.3 million euros by a September resolution. Multimodal, 9 billion parameters, growing to 22 billion.",
+      "source_url": "https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/",
       "read_on": "2026-11-15",
       "ai_path": "A language model, so directly AI.",
       "steps": 0
@@ -755,7 +765,7 @@
     "signed_by": "place.portugal@PrompTugal.dinis"
   },
   "gaps": [
-    "Eighth pass of 16 November: 40 map entries, 21 news items, 7 extras, all from pages opened. Still to map: Lisbon and Porto AI communities, the other university labs (LIACC, CISUC, INESC TEC groups, IT: two sites down), people and talent.",
+    "Ninth pass of 16 November: 40 map entries, 22 news items, 7 extras, all from pages opened. Still to map: Lisbon and Porto AI communities, the other university labs (LIACC, CISUC, INESC TEC groups, IT: two sites down), people and talent.",
     "No page we opened states the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai or Feedzai, so their region is left out until a source says it.",
     "The gigafactory is an Iberian bid to EuroHPC, but our sources give no site in Portugal or decision date, and the National Data Centre Plan is still being finalised.",
     "Sword Health and Unbabel have no page of their own read tonight (the company site refused or redirected), their entries rest on one press article.",
@@ -767,7 +777,7 @@
     "The Instituto de Telecomunicações site returned an error on two tries (503), and INESC-ID's Center for Responsible AI page returned 404, so both stay out of the map until an official page loads.",
     "Investors: Armilar and Lince Capital appear in our news items, but we found no official page of theirs, and the directories we saw are not primary sources. Portugal Ventures' own page names no AI focus, so it sits in extras.",
     "CISUC (Coimbra) lists research groups on its page but does not say which are AI, and LIACC's site returned an error (503), so neither is mapped yet.",
-    "A political critique of AMALIA's cost reported in July could not be opened (403), so the page carries only the government's side and independent reporting of facts. A second view is needed."
+    "The AMALIA coverage has one critical point so far, the Journalists' Union's objection to the Arquivo.pt data (in ECO, 15 September). A political critique of its cost reported in July could not be opened (403), so the page still lacks the opposition's own words and any government reply."
   ],
   "voice": {
     "lede": "A country on the Atlantic edge of Europe that wrote itself a language model of its own, and would like you to try it.",
