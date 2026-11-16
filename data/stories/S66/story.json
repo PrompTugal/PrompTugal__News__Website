@@ -5,7 +5,7 @@
   "title": "Neuraspace of Coimbra raises 15.6 million euros for AI space software",
   "beat": "Portugal",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-aicep-neuraspace-raise"
   ],
@@ -16,7 +16,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-15-0750.json",
-      "desks/journalist-vicky/drafts/S66-neuraspace-coimbra-raises-15-6-million.md"
+      "desks/journalist-vicky/drafts/S66-neuraspace-coimbra-raises-15-6-million.md",
+      "desks/reviewer-vicky/reviews/S66.md",
+      "content/articles/neuraspace-coimbra-raises-15-6-million.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -24,9 +26,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S66-neuraspace-coimbra-raises-15-6-million.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S66.md",
+      "verdict": "Ready, published under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-16"
+    }
+  ],
+  "article": {
+    "path": "content/articles/neuraspace-coimbra-raises-15-6-million.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -39,6 +52,18 @@
       "at": "2026-11-16",
       "by": "journalist-portugal@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S66-neuraspace-coimbra-raises-15-6-million.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-16",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S66.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-16",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/neuraspace-coimbra-raises-15-6-million.md"
     }
   ]
 }
