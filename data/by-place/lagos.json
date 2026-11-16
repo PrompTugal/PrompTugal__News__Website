@@ -130,9 +130,22 @@
       "url": "https://www.essential-business.pt/2022/12/02/lagos-digital-nomads-building-a-bridge-between-local-businesses-and-remote-workers/",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "SheSapiens events",
+      "url": "https://shesapiens.com/events/",
+      "kind": "events",
+      "feed": null
     }
   ],
   "events": [
+    {
+      "title": "SheSapiens: AI for productivity workshop, Algarve Watersports Camp, Lagos (past)",
+      "date": "2026-10-14",
+      "url": "https://shesapiens.com/events/ai-for-productivity-workshop/",
+      "read_on": "2026-11-16",
+      "ai_path": "A paid half-day workshop on AI for productivity (the page gives only the title)"
+    },
     {
       "title": "Algarve Tech Hub Summit 2025, Hotel Vila Galé Lagos (past)",
       "date": "2025-11-06 to 2025-11-07",
@@ -282,6 +295,16 @@
       "read_on": "2026-11-16",
       "ai_path": "Sells AI chatbots and automation to Lagos businesses.",
       "steps": 0
+    },
+    {
+      "name": "SheSapiens",
+      "type": "community",
+      "url": "https://shesapiens.com/",
+      "what": "A women's community that ran an AI productivity workshop in Lagos on 14 October 2026 and was a partner of the 2025 International Women's Day Build with AI evening in the Lagos Town Hall.",
+      "source_url": "https://shesapiens.com/events/ai-for-productivity-workshop/",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs AI workshops in Lagos.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -312,7 +335,8 @@
     "Local media: Barlavento and Sul Informação were readable, Portugal Resident and Postal do Algarve are listed but our tool could not open them (a verification wall). No Lagos-only newspaper or blog with a feed was confirmed.",
     "Investors, cooperatives and local talent in Lagos: nothing found yet in public sources we may use.",
     "Starting a company in Lagos: the council's page on the Fábrica do Empreendedor dates from June 2021, so its address and services need confirming on a current page. We found no official page on what Algarve STP offers a founder in Lagos.",
-    "One AI agency that works with Lagos clients states it has no office in Lagos, so it is not on the map. A directory-listed firm also stays off."
+    "One AI agency that works with Lagos clients states it has no office in Lagos, so it is not on the map. A directory-listed firm also stays off.",
+    "The 14 October 2026 SheSapiens workshop page gives its title and price only, so we cannot say what it taught. We also found no Lagos AI event dated after it."
   ],
   "voice": {
     "lede": "Ó pá, Lagos has caravels, cliffs and more laptops per beach towel than anywhere else in the Algarve, and now it is learning to talk to the machines too.",

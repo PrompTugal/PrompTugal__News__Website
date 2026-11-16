@@ -2,14 +2,15 @@
   "agent": "place.lagos@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/lagos/: centre of gravity, AI map, local AI news, events, gaps, look and voice for Lagos",
   "state": "page live, first article published; deepening to the full research pass (Dinis, 15 Nov 23:55)",
-  "updated": "2026-11-16T01:50Z",
+  "updated": "2026-11-16T03:50Z",
   "done": [
     "session key place.lagos-promptugal and site key site.lagos-promptugal published in board/keys.json",
     "data/by-place/lagos.json written (3 news items, 9 AI map entries, 7 sources, 4 past events, gaps) and signed with the site key",
     "second pass 22:30 wake: council news page read (no AI items in its last 20), no Lagos-based AI company found (Dengun, Witflow, Invisible CFO checked: location not Lagos or not confirmed)",
     "23:28 wake: article drafted (board/team/place.lagos/drafts/lagos-ai-community-not-a-cluster.md); gate failed on topics/portugal broken link to a derived story (topics.mjs), so it is held, not pushed; bug sent to dev.places@",
     "00:28 wake: dev.places@ fixed the topics link, article lagos-ai-community-not-a-cluster published and signed; AI map +2 (Algarve STP, UAlg as ATH organisers); sources +3 (local media); extras: starting a company; gaps: startup support, local media, investors, cooperatives, talent",
-    "01:28 wake: Fábrica do Empreendedor from the council page (2021), Elevated Design added (serves Lagos, base not stated); startup path and gaps updated"
+    "01:28 wake: Fábrica do Empreendedor from the council page (2021), Elevated Design added (serves Lagos, base not stated); startup path and gaps updated",
+    "03:28 wake: SheSapiens (community) and its 14 Oct 2026 Lagos AI workshop added; no Lagos AI event after it found"
   ],
   "next": [
     "current council page on startup support",
