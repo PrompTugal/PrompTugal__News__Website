@@ -351,6 +351,16 @@
       "read_on": "2026-11-16",
       "ai_path": "Runs a national AI school hosted in Aveiro.",
       "steps": 0
+    },
+    {
+      "name": "Aveiro STEAM City",
+      "type": "organisation",
+      "url": "https://www.cm-aveiro.pt/inovacao/video-51",
+      "what": "Council-led urban innovation project of about 6.1 million euros, 4.9 million of it EU funds, building 5G and IoT infrastructure with Altice Labs, the Instituto de Telecomunicações, UA, INOVARIA and CEDES. The page does not mention AI.",
+      "source_url": "https://www.cm-aveiro.pt/inovacao/video-51",
+      "read_on": "2026-11-16",
+      "ai_path": "5G and IoT city infrastructure run with Aveiro's AI research partners (UA, Instituto de Telecomunicações, Altice Labs): two steps from AI.",
+      "steps": 2
     }
   ],
   "extras": [],
@@ -359,15 +369,16 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "No AI use in the council's own services found. Aveiro's innovation menu lists APP Aveiro, Aveiro STEAM City, Bairro Comercial Digital and an incubator, but we read only the menu titles, so we do not know whether any use AI. We should open each of those pages.",
-    "We found no home-grown Aveiro AI startup by name. The startups on the map are Brazilian firms hosted by Cais do Porto. Sources to look for: the PCI's own company list, the council's business incubator page and Portugal Ventures notices.",
-    "We could not read the 2026 Rocket Booster Acceleration cohort, so no startup from it is named. The call page also contradicts itself on whether applications were open.",
-    "The University of Aveiro's own news pages for its AI framework, the IA na UA showcase and the IEETA research grants returned only headlines to us, so the university items rest on Observador, Notícias de Aveiro and Diário de Aveiro. Its summer school page has no publication date.",
-    "We left out IA na UA, the PARCERIA and PomeAI research projects and the UAia copilot because we did not open a page that describes them in full.",
-    "No feed found for the council, the Tech Week site or the university. The Diário de Aveiro and Notícias de Aveiro feeds both work.",
-    "InovaRia and AIDA CCI support Aveiro Tech Week but the pages we read do not tie them to AI, so they are not on the map. Ricardo Pais Mamede's Mais Digital consortium and the Istari ranking of 28 Aveiro AI firms surfaced in search but we did not open them.",
-    "The 5GAIner lab and Augmanity items date from 2021, and we found nothing newer on either.",
-    "Contacts, investors and local talent are thin: the council's hackathon page is the only official channel we recorded, and we found no 2026 funding round for an Aveiro AI company."
+    "Council services: we opened APP Aveiro (a residents' app with news, alerts, reports and AveiroBus timetables), Aveiro STEAM City (5G and IoT) and Bairro Comercial Digital (digitalising shops). None of the three pages mentions AI, so none is on the AI map as AI use; STEAM City is kept two steps away because of its partners.",
+    "No home-grown Aveiro AI startup found by name. The startups on the map are Brazilian firms hosted by Cais do Porto. The PCI site (pci.pt) returned a server error (503) when we tried it, so its company list is unread; Portugal Ventures notices are also unread.",
+    "The 2026 Rocket Booster Acceleration cohort is unread, so no startup from it is named; the call page contradicts itself on whether applications were open.",
+    "The incubator page of the council does not say who may apply or how; its only published channel is the council's general one.",
+    "The University of Aveiro's own news pages for its AI framework, the IA na UA showcase and the IEETA research grants returned only headlines earlier, so university items rest on Observador, Notícias de Aveiro and Diário de Aveiro. The summer school page has no publication date.",
+    "IA na UA, the PARCERIA and PomeAI research projects and the UAia copilot are left out: no page describing them in full was opened.",
+    "Feeds: the Diário de Aveiro feed was tested on 2026-11-16 and is a valid RSS 2.0 document; the Notícias de Aveiro feed worked earlier. No feed found for the council, the Tech Week site or the university.",
+    "InovaRia and AIDA CCI support Aveiro Tech Week but the pages read do not tie them to AI. The Mais Digital consortium and the Istari ranking of Aveiro AI firms surfaced in search but were not opened.",
+    "The 5GAIner lab and Augmanity items date from 2021 and nothing newer was found. No 2026 funding round for an Aveiro AI company found; the only public funding facts are older grants.",
+    "Contacts are thin by design: only the council's general channel and the hackathon page; the pages read publish no economy or innovation desk contact."
   ],
   "voice": {
     "lede": "Aveiro, oh pá: where the moliceiros glide past the canal terraces, the ovos moles wait in their little shells, and a university quietly teaches an entire campus to chat with machines while Brazilian startups pile into Cais do Porto.",
@@ -391,6 +402,22 @@
       "source_url": "https://business.turismodeportugal.pt/pt/inovar/fit/candidaturas-programas-inovacao/Paginas/rocket-booster-acceleration-candidaturas-31-mar-2026.aspx",
       "read_on": "2026-11-16",
       "kind": "accelerator"
+    },
+    {
+      "name": "Incubadora de Empresas da Câmara Municipal de Aveiro",
+      "what": "The council's incubator, created in 2017 under its entrepreneurship policy and part of the IERA network. It has 6 individual offices, a coworking space, a meeting room, Wi-Fi and a printer, and gives members access to the congress auditorium (224 people) and the Salão Nobre (60 people). It sits at the Parque de Exposições. The page does not say who can apply or how, and does not mention AI.",
+      "url": "https://www.cm-aveiro.pt/investidores/incubadora-de-empresas",
+      "source_url": "https://www.cm-aveiro.pt/investidores/incubadora-de-empresas",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "Bairro Comercial Digital de Aveiro (council pilot)",
+      "what": "A council pilot area for digitalising local businesses, to help owners, merchants, workers and consumers through digital tools. Local merchants can ask for more information through a form on the page. A route for shops, not for AI startups; the page does not mention AI.",
+      "url": "https://www.cm-aveiro.pt/inovacao/bairro-comercial-digital",
+      "source_url": "https://www.cm-aveiro.pt/inovacao/bairro-comercial-digital",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
     }
   ],
   "investors": [
@@ -414,6 +441,16 @@
       "type": "investment",
       "date": "2021-11-19",
       "ai_path": "Pays for an AI and 5G lab: directly about AI."
+    },
+    {
+      "name": "Urban Innovative Actions (EU) into Aveiro STEAM City",
+      "what": "Aveiro STEAM City is a council-led project of about 6.1 million euros, with 4.9 million euros of EU funding from the Urban Innovative Actions programme. Partners include Altice Labs, the Instituto de Telecomunicações, the University of Aveiro, INOVARIA and CEDES. It builds 5G and IoT infrastructure; the page does not mention AI. Aveiro's bid was one of 22 chosen from 184. The page gives no date.",
+      "url": "https://www.cm-aveiro.pt/inovacao/video-51",
+      "source_url": "https://www.cm-aveiro.pt/inovacao/video-51",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "4.9 million euros",
+      "ai_path": "Funds 5G and IoT city infrastructure with Aveiro's AI actors as partners: two steps from AI, the page itself names no AI."
     }
   ],
   "contacts": [
@@ -424,6 +461,14 @@
       "source_url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
       "read_on": "2026-11-16",
       "channel": "the council's Aveiro Tech City email and phone, published on the hackathon page (open the linked page for them)"
+    },
+    {
+      "name": "Câmara Municipal de Aveiro, general contacts",
+      "what": "The council's published general channel, which is also the one given on the incubator page. No separate economy or innovation desk contact is published on the pages read.",
+      "url": "https://www.cm-aveiro.pt/contactos",
+      "source_url": "https://www.cm-aveiro.pt/contactos",
+      "read_on": "2026-11-16",
+      "channel": "geral@cm-aveiro.pt, +351 234 406 300; Paços do Concelho, Praça da República, 3810-156 Aveiro; online contact form on the page"
     }
   ]
 }
