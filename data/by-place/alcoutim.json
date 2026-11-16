@@ -4,8 +4,8 @@
   "name": "Alcoutim",
   "kind": "municipality",
   "parent": "algarve",
-  "status": "researching",
-  "updated": "2026-11-15",
+  "status": "live",
+  "updated": "2026-11-16",
   "by": "place.alcoutim@PrompTugal.dinis",
   "mandate": "PrompTugal.news Alcoutim: AI and technology in Alcoutim, an inland, low-density municipality on the Guadiana where connectivity, sensors and digital inclusion are the road to AI, and what reaches Alcoutim from the Algarve, Portugal and the world. Independent. Every fact sourced.",
   "gravity": {
@@ -34,6 +34,16 @@
     "motif": "slate green river, quiet border town, schist hills"
   },
   "ai_news": [
+    {
+      "title": "Odiana brings a cross-border AI and IoT living-lab project to the Lower Guadiana",
+      "summary": "Agrosocial Plus was launched in Cordoba on 22 and 23 September 2026. It is a Spain and Portugal project of about 2.06 million euros, 1.55 million of it from FEDER, and Odiana, the Lower Guadiana development association, is the Portuguese partner representing the region. Its Living Labs are meant to test solutions including artificial intelligence, the Internet of Things and smart irrigation.",
+      "date": "2026-09-25",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+      "read_on": "2026-11-16",
+      "ai_path": "Living Labs that test AI and IoT are directly about AI. Alcoutim's link is indirect: the article does not name Alcoutim, but Odiana works in Alcoutim and represents the Lower Guadiana. Where the labs will sit is not stated.",
+      "steps": 1
+    },
     {
       "title": "dstelecom takes fibre to 1,000 more homes in Alcoutim",
       "summary": "The fibre operator announced on 9 June 2026 that the municipality's coverage would pass 80 percent, reaching 82 percent, with about 1,000 new homes in Alcoutim, Giões and Pereiro by the end of the first half of 2026. More than 3,100 families would have access.",
@@ -153,6 +163,12 @@
       "url": "https://anacom.pt/render.jsp?contentId=1828354",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Municipio de Alcoutim: agenda",
+      "url": "https://cm-alcoutim.pt/agenda",
+      "kind": "events",
+      "feed": null
     }
   ],
   "events": [],
@@ -221,11 +237,21 @@
       "name": "Associacao Odiana",
       "type": "organisation",
       "url": "https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim",
-      "what": "Local development association named by the Galp Foundation as social partner in Alcoutim, helping run Vilas em Movimento including its senior-isolation activities.",
-      "source_url": "https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim",
+      "what": "Local development association named by the Galp Foundation as social partner in Alcoutim, helping run Vilas em Movimento including its senior-isolation activities. Portuguese partner for the Lower Guadiana in the Agrosocial Plus project.",
+      "source_url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
       "read_on": "2026-11-15",
-      "ai_path": "A local partner that already runs the shared bikes and senior programmes is the likely channel for digital inclusion and any AI pilot. The Galp page describes no digital element yet.",
-      "steps": 3
+      "ai_path": "Odiana is the Lower Guadiana's partner in Agrosocial Plus, whose Living Labs plan to test AI and IoT, and it already runs Alcoutim's senior and bike programmes. Whether any lab or pilot lands in Alcoutim is open.",
+      "steps": 1
+    },
+    {
+      "name": "Agrosocial Plus (Interreg Spain-Portugal, Odiana as Lower Guadiana partner)",
+      "type": "public body",
+      "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+      "what": "A cross-border agrifood social economy and innovation project coordinated by the Diputacion de Cordoba, planning Living Labs for AI, IoT and smart irrigation.",
+      "source_url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+      "read_on": "2026-11-16",
+      "ai_path": "The labs are planned to test AI directly. No lab location in Alcoutim is confirmed.",
+      "steps": 1
     }
   ],
   "extras": [
@@ -254,11 +280,11 @@
   },
   "gaps": [
     "No AI company, startup or AI event based in Alcoutim turned up in this first pass. That is a finding: for a municipality of this size the AI path runs through the council, the PRR sensor platform and regional bodies. Next to look at: Algarve Evolution and the Universidade do Algarve for projects reaching the Guadiana, and Associacao Odiana's Vilas em Movimento work.",
-    "The council's own site (cm-alcoutim.pt) loaded as a page with no readable news list and exposes no RSS feed. We need its news page URL or a feed, or a council bulletin per month.",
     "Postal do Algarve, Sul Informacao and Portugal Resident refuse automated reading (a bot check or a 403), so their pages are not used. Barlavento reads fine and now carries two items. Still to verify at a readable source: a council protocol with MEO for the SmartAL remote support system and the Medigraf telemedicine system (search snippets point to October 2018, so it may be old news). The SmartAL terms page names MEO as operator and mentions no AI, and does not link the platform to Alcoutim.",
     "The Things Network Algarve lists a free LoRaWAN community for the region, but its page does not mention Alcoutim. Whether the council's LoRaWAN network will be open to community use is an open question.",
     "Fibre is covered only by the operator's own announcement (82 percent expected, not confirmed as reached). Mobile and 5G coverage for Alcoutim, digital inclusion training and village Wi-Fi still have no source: GEO.ANACOM lets one search by place and should be read next.",
-    "Leads seen only in search summaries, not yet read at a source: a cross-border Agrosocial Plus project for the Lower Guadiana with Living Labs for AI, IoT and smart irrigation (Odiana as the Guadiana partner, from a Jornal do Algarve article that returned 403), and a Universidade do Algarve water digitalisation conference at Faro on 24 November. Neither is placed in Alcoutim yet."
+    "Agrosocial Plus is read at source, but it names no Alcoutim lab. Ask Odiana where the Living Labs will sit. A Universidade do Algarve water digitalisation conference at Faro on 24 November was seen only in a search summary and is not yet placed in Alcoutim.",
+    "The council's site has an agenda page (cm-alcoutim.pt/agenda) but it loads as an empty shell for automated reading, with no RSS feed. Search shows its November items are culture, fire safety and social support, none about AI or technology. A readable feed or a monthly bulletin would let us track it."
   ],
   "voice": {
     "lede": "Ai, Alcoutim: a vila onde o rio e quase Espanha e a fibra ainda vem devagarinho, mas os sensores ja chegaram.",
