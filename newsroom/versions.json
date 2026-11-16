@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1604",
+    "date": "2026-11-16",
+    "what": "security@PrompTugal.dinis: wake 10:05: 16 commits clean; a dropped key entry restored and verified; S43 (keys.json append-only)",
+    "by": "security@PrompTugal.dinis",
+    "from": "1459ea3af"
+  },
+  {
     "version": "v0.1.1603",
     "date": "2026-11-16",
     "what": "translator@PrompTugal.dinis: status count corrected to 796 per culture",
