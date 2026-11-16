@@ -3,7 +3,14 @@
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
  "state": "started 16 November 2026 03:30 UTC; key made (translator-promptugal); the by-place prose translated into pt-PT",
  "updated": "2026-11-16T03:35Z",
- "counts": { "segments_by_place_prose": 140, "pt-PT": 140, "es-ES": 0, "fr-FR": 0, "de-DE": 0, "nl-NL": 0 },
+ "counts": {
+  "segments_by_place_prose": 140,
+  "pt-PT": 140,
+  "es-ES": 0,
+  "fr-FR": 0,
+  "de-DE": 0,
+  "nl-NL": 0
+ },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
   "board/team/translator/tools/tm.mjs: todo / apply / count, never overwrites an entry",
@@ -16,7 +23,8 @@
   "the derived queue from dev.places@ when it ships; the site's menus (assets/i18n/site.json) are machine-translated already and can be seeded into the memory"
  ],
  "asks": [
-  "Dinis: board/guidance/2026-11-16-translators-and-a-translation-memory.md and board/spec-translations.md, named in my brief, are not on dev (checked at 03:30 UTC); I worked from the brief's own description of the memory (path, key) and chose the rest provisionally. The conductor may not have pushed them yet."
+  "Dinis: board/guidance/2026-11-16-translators-and-a-translation-memory.md and board/spec-translations.md, named in my brief, are not on dev (checked at 03:30 UTC); I worked from the brief's own description of the memory (path, key) and chose the rest provisionally. The conductor may not have pushed them yet.",
+  "Dinis: there is no ABP for translator@ yet (board/abp/), so the run report logs my writes to data/i18n/ and board/team/translator/ as outside the grant (observe mode, nothing blocked). abp@ to give it a policy: write data/i18n/**, board/team/translator/**, board/keys.json (own entry), sub-agents per culture, no connector; the OpenRouter key is not needed for translation."
  ],
  "latest_debrief": ""
 }
