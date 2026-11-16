@@ -34,6 +34,7 @@ function load(ctx) {
             events: arr(d.events).filter(e => e && e.title && okUrl(e.url)),
             extras: arr(d.extras).filter(x => x && x.label && x.value),
             gaps: arr(d.gaps).filter(g => typeof g === 'string' && g.trim()),
+            ...Object.fromEntries(['start_company', 'investors', 'talent', 'contacts'].map(k => [k, arr(d[k]).filter(x => x && x.name)])),
         }
         if (!/^#[0-9a-f]{6}$/i.test((d.look && d.look.accent) || '')) clean.look = { ...(d.look || {}), accent: undefined }
         byId.set(p.id, { ...clean, id: p.id, name: p.name, kind: p.kind, parent: p.parent, path: p.path, agent: p.agent, at: p.at, label: p.label, mandate: d.mandate || p.name, _broken: broken })
@@ -122,6 +123,11 @@ function gravityBlock(ctx, L, p) {
     return `## The centre of gravity {#gravity}\n\n` + (p.gravity && p.gravity.text ? voiceBlock(esc(ctx, p.gravity.text) + (srcs.length ? `\n\n{.bp-src}\nSources: ${srcs.map(s => `[${esc(ctx, s.title || host(s.url))}](${url(s.url)})`).join(', ')}.` : ''), v.gravity ? esc(ctx, v.gravity) : null) : `{.bp-empty}\n${W(L, 'gravity_empty', { name: p.name })}\n`) + '\n'
 }
 
+// a list of named entries (starting a company, investors, talent, contacts), each linked and sourced
+function entries(ctx, items, cls, extra) {
+    return `{.bp-entries${cls ? ' .' + cls : ''}}\n` + items.map(x => `- ${url(x.url) ? `[${esc(ctx, x.name)}](${url(x.url)})` : `**${esc(ctx, x.name)}**`}${extra ? extra(x) : ''}${x.what ? ` ${esc(ctx, x.what)}` : ''} *${url(x.source_url) ? `[${esc(ctx, host(x.source_url))}](${url(x.source_url)})` : ''}${x.read_on ? `, read ${esc(ctx, dmy(x.read_on))}` : ''}*`).join('\n') + '\n\n'
+}
+
 function sideCol(ctx, L, p, rel, inside) {
     const v = p.voice || {}
     let md = ''
@@ -129,6 +135,8 @@ function sideCol(ctx, L, p, rel, inside) {
     md += `{.mini-h}\nEvents\n\n` + (p.events.length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
     if (p.kind !== 'country') md += `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
     if (p.extras.length) md += `{.mini-h}\nIn figures\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
+    if (p.start_company.length) md += `{.mini-h}\n${W(L, 'start_h', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.start_company, '', x => x.kind ? ` \`${esc(ctx, x.kind)}\`` : '')
+    if (p.contacts.length) md += `{.mini-h}\n${W(L, 'contacts_h')}\n\n` + entries(ctx, p.contacts, '', x => x.channel ? `: ${esc(ctx, x.channel)}` : '')
     md += `{.mini-h}\nSources we read\n\n` + (p.sources.length ? `{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${s.kind ? ` · ${esc(ctx, s.kind)}` : ''}${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}` : `{.bp-empty}\nBeing listed.`) + '\n\n'
     md += `{.mini-h}\nGaps\n\n` + voiceBlock((p.gaps.length ? `{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : 'None recorded.'), v.gaps_intro ? `{.bp-gaps}\n- ${esc(ctx, v.gaps_intro)}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : null) + '\n'
     return md
@@ -152,6 +160,8 @@ function townPage(ctx, L, p) {
     if (wider.length) md += `## From the Algarve {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
     if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest)}`
     md += `## The AI map {#map}\n\n${W(L, 'map_intro', { name: p.name })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
+    if (p.investors.length) md += `## ${W(L, 'investors_h')} {#investors}\n\n${W(L, 'investors_intro', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.investors, 'bp-invest', x => [x.type && ` \`${esc(ctx, x.type)}\``, x.amount && ` **${esc(ctx, x.amount)}**`, x.date && ` (${esc(ctx, x.date)})`].filter(Boolean).join(''))
+    if (p.talent.length) md += `## ${W(L, 'talent_h')} {#talent}\n\n${W(L, 'talent_intro')}\n\n` + entries(ctx, p.talent, 'bp-talent', x => x.role ? `, ${esc(ctx, x.role)}.` : '')
     md += `:::\n::: col\n` + (Array.isArray(p.at) ? `{.bp-svgmap .bp-locator}\n[${esc(ctx, W(L, 'locator_link'))}](${ctx.link(rel, 'algarve/index.html')})\n\n` : '') + sideCol(ctx, L, p, rel, inside)
     md += `:::\n:::\n\n` + testNote(ctx, L, rel, p)
     const accent = (p.look && p.look.accent) || DEF_ACCENT
@@ -306,7 +316,7 @@ function placeRecord(ctx, L, p) {
         look: { image: p.look && p.look.photo && p.look.photo.file && ctx.exists(p.look.photo.file) ? { url: SITE_URL + p.look.photo.file, ...p.look.photo } : null, accent: (p.look && p.look.accent) || DEF_ACCENT, landmark: (p.look && p.look.landmark) || null, motif: (p.look && p.look.motif) || null },
         mandate: p.mandate, gravity: p.gravity || null,
         counts: { ai_news: p.ai_news.length, ai_map: p.ai_map.length, events: p.events.length, sources: p.sources.length, articles: arts.length },
-        ai_news: p.ai_news.map(a => ({ ...a, provenance: provenance(p, r, a, 'story') })), ai_map: p.ai_map.map(m => ({ ...m, provenance: provenance(p, r, { ...m, url: m.source_url }, 'map entry') })), events: p.events, sources: p.sources, extras: p.extras, gaps: p.gaps, voice: p.voice || null,
+        ai_news: p.ai_news.map(a => ({ ...a, provenance: provenance(p, r, a, 'story') })), ai_map: p.ai_map.map(m => ({ ...m, provenance: provenance(p, r, { ...m, url: m.source_url }, 'map entry') })), events: p.events, sources: p.sources, extras: p.extras, start_company: p.start_company, investors: p.investors, talent: p.talent, contacts: p.contacts, gaps: p.gaps, voice: p.voice || null,
         articles: arts,
         team: { agent: p.agent, status: `${SITE_URL}board/team/${p.agent.split('@')[0]}/status.json`, debriefs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/team/${p.agent.split('@')[0]}/debriefs`, runs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/runs/${p.agent.split('@')[0]}` },
         ...(p.id === 'algarve' ? (() => { const g = regionAgg(L); return { region: {

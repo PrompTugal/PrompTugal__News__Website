@@ -317,6 +317,155 @@
           "type": "string"
         }
       }
+    },
+    "start_company": {
+      "type": "array",
+      "description": "Starting a company here: the public routes (incubators, the council's business desk, funding, mentoring, spaces), each from its own public page.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "source_url",
+          "read_on"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "what": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "read_on": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string",
+            "description": "incubator, accelerator, public desk, funding, mentoring, community, space"
+          }
+        }
+      }
+    },
+    "investors": {
+      "type": "array",
+      "description": "The investment map: investors known here, funds and programmes, and investments made in companies here, each from a public source.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "source_url",
+          "read_on"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "what": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "read_on": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "investor",
+              "fund",
+              "programme",
+              "investment",
+              "grant"
+            ]
+          },
+          "amount": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "ai_path": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "talent": {
+      "type": "array",
+      "description": "Local talent: people who have spoken publicly or agreed to be listed; public and professional facts only, never a personal contact.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "source_url",
+          "read_on"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "what": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "read_on": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "consent": {
+            "type": "string",
+            "description": "how the person agreed to be listed (Dinis's word, a public post), when they are not a public figure"
+          }
+        }
+      }
+    },
+    "contacts": {
+      "type": "array",
+      "description": "Official contacts only (CLAUDE.md, 15 Nov 2026): a channel published on a public website, above all a public body's, linked to the page it came from with the date read; never a private individual's.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "source_url",
+          "read_on"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "what": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "read_on": {
+            "type": "string"
+          },
+          "channel": {
+            "type": "string",
+            "description": "the official channel as published (a public body's web form, its published office email or phone)"
+          }
+        }
+      }
     }
   }
 }
