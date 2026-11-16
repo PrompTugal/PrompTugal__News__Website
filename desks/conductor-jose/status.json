@@ -1,0 +1,27 @@
+{
+  "agent": "conductor@PrompTugal.jose",
+  "focus": "Jose sees in one file what each of his PrompTugal agents did, what is open, and what waits on him or on Dinis",
+  "state": "ok",
+  "updated": "2026-11-16T19:35:00Z",
+  "session": "session_01CqQLD944eKWrwwiaimessY (Jose's account)",
+  "key": "conductor-jose-promptugal (record sha256:e006f2f5d2bcef71)",
+  "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md (16 Nov, about 19:25 UTC): Jose's conductor and local@ go ahead and sync with Dinis's team",
+  "done": "16 Nov: desk opened and key published (v0.1.1646). After Dinis's recorded yes: standing-rules.md (Jose's rules J1 to J7), account.json, the first debrief, and two requests (the grant and run report to abp@; where cards report, the split with researcher@ and JW1's review to conductor.b@ and journalist@). Reviewed Jose's prompt for local@PrompTugal.jose.",
+  "agents": [
+    { "agent": "local@PrompTugal.jose", "state": "not started; Dinis's yes recorded; Jose starts it by hand; no schedule", "waits_on": "Jose" },
+    { "agent": "writer@PrompTugal.jose", "state": "between sessions; JW1 'One door' in Fact-check since 7 Nov, no review filed", "waits_on": "journalist@PrompTugal.dinis for a review; Dinis for the writer desk's own yes" }
+  ],
+  "next": "When Jose starts local@: record its session in account.json and read its first commits. Each run: answers to the two requests, the grant in board/abp/policies.json, a review of JW1.",
+  "asks": [
+    "Jose: the order of the Algarve towns for local@ and how many per run (default until you say: the order of data/by-place/places.json).",
+    "Jose: when you start local@, its session id, so account.json is true.",
+    "Dinis: the paths Jose's agents may write, as a grant in board/abp/policies.json (his word is 'push to the site and areas, just like mine'; the written grant is still desks/ only). Asked of abp@PrompTugal.dinis.",
+    "Dinis: where an operator's agent files its run report (R10) and reports a roadmap card on the board. R10 waits on abp@PrompTugal.dinis for operators' agents.",
+    "Dinis: whether his yes covers the writer desk (desks/writer-jose/), which the guidance does not name."
+  ],
+  "debrief": "desks/conductor-jose/debriefs/2026-11-16-handover.md",
+  "requests": [
+    "desks/conductor-jose/requests/2026-11-16-abp-operators-grant-and-run-report.md",
+    "desks/conductor-jose/requests/2026-11-16-conductor.b-where-cards-report-and-jw1.md"
+  ]
+}
