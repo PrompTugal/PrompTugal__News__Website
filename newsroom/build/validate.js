@@ -140,10 +140,27 @@ const ALLOWED = { 'content/investors.md': ['dinis.agent@promptugal.news'],
 // company.pt). A person's address anywhere else, and any phone-number shape, is still refused.
 // exact domains only (security@'s S31: a prefix match let someone@promptugal.io through)
 const BOARD_OK = /@(?:promptugal\.news|promptugal\.ai|promptugal\.ai\.dinis|ios\.promptugal\.dinis|example\.(?:com|org|net|pt)|company\.pt)$/i
+// a place's official contacts (CLAUDE.md, Content, at Dinis's word of 15 November 2026, about 23:55 UTC: a contact
+// published on a public website, above all a public body's, may be shown with its source and date): in
+// data/by-place/<id>.json, an address or number is allowed only inside a contacts[] entry's channel whose source_url
+// is on the same domain as the address (the body that publishes it), with its read_on date (dev.places@, 16 Nov)
+const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, '').toLowerCase() } catch { return '' } }
+function officialContacts(f) {
+    const ok = { emails: new Set(), phones: new Set() }
+    if (!/^data\/by-place\/[a-z0-9-]+\.json$/.test(rel(f))) return ok
+    let d; try { d = JSON.parse(text(f)) } catch { return ok }
+    for (const c of Array.isArray(d.contacts) ? d.contacts : []) {
+        const h = hostOf(c && c.source_url); if (!h || !c.read_on || typeof c.channel !== 'string') continue
+        for (const m of c.channel.matchAll(EMAIL)) { const dom = m[0].split('@')[1].toLowerCase(); if (dom === h || dom.endsWith('.' + h) || h.endsWith('.' + dom)) ok.emails.add(m[0]) }
+        for (const m of c.channel.matchAll(PHONE)) ok.phones.add(m[0])
+    }
+    return ok
+}
 for (const f of files.filter(f => /^(content|data|desks|board)\//.test(rel(f)) && !secrets.BINARY.test(f))) {   // desks/ is served as is, so it is checked too; the verifier's records quote pages (security@'s S21, S28, S28b)
     const board = rel(f).startsWith('board/')
-    for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !(board && BOARD_OK.test(m[0])) && !/^actions@github\.com$/.test(m[0]) && !(ALLOWED[rel(f)] || []).includes(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)
-    for (const m of text(f).matchAll(PHONE)) errors.push(`${rel(f)}: a phone-number shape`)
+    const official = officialContacts(f)
+    for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !(board && BOARD_OK.test(m[0])) && !/^actions@github\.com$/.test(m[0]) && !(ALLOWED[rel(f)] || []).includes(m[0]) && !official.emails.has(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)
+    for (const m of text(f).matchAll(PHONE)) if (!official.phones.has(m[0])) errors.push(`${rel(f)}: a phone-number shape`)
 }
 
 // 8. articles (signatures checked against board/keys.json; see newsroom/build/signed-form.cjs)
