@@ -200,6 +200,16 @@
       "read_on": "2026-11-15",
       "ai_path": "Sensor and smart-city platforms generate the data that AI analytics runs on. We found no claim of AI in its own products: a weak, 3-step entry kept until its site is read.",
       "steps": 3
+    },
+    {
+      "name": "Algarve Innovation and Technology Park (PPPITA), Pechão",
+      "type": "public body",
+      "url": "https://www.iasp.ws/activities/news/algarve-innovation-park-development-moves-forward",
+      "what": "Planned 48.58 hectare park in Pechão for technology companies, education and research, health and green space, with land for 548 public homes. A contract signed in August 2024 started its detailed plan, with 18 months for the landowner to finalise it. Whether it has progressed since is not confirmed.",
+      "source_url": "https://www.iasp.ws/activities/news/algarve-innovation-park-development-moves-forward",
+      "read_on": "2026-11-16",
+      "ai_path": "A site meant for technology companies, where AI firms could locate. The article names no AI sector: a 3-step entry, labelled as a plan.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -238,6 +248,18 @@
       "value": "In Olhão, the AI path runs through the fish farm (16 November 2026).",
       "source_url": "https://promptugal.news/articles/olhao-the-ai-path-runs-through-the-fish-farm.html",
       "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here (from public sources)",
+      "value": "1) The council and ANJE signed a three-year protocol in June 2026 to launch Startup Olhão and an ANJE Hub, with the sea economy as a target. 2) The council has a cooperation agreement (2018) with the Franco-Portuguese Chamber of Commerce to help local firms export and French firms settle in Olhão. 3) The Blue Hub in the fishing port, run by a consortium of the council, University of Algarve, IPMA, Docapesca and S2AQUAcoLAB, will offer lab access for sea-economy firms. 4) The council has waived the business surcharge (derrama) in earlier years, per a Postal report we could not read in full: check before relying on it. We found no dedicated council business desk page: the council is at https://www.cm-olhao.pt/ (its pages showed only a loading screen to us, so no contact channel is confirmed yet).",
+      "source_url": "https://www.barlavento.pt/olhao-anje-criar-startup-hub-empresarial/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Franco-Portuguese chamber agreement (2018)",
+      "value": "The council signed it in Paris in May 2018 to support Olhão firms entering France and French firms setting up in Olhão.",
+      "source_url": "https://www.dn.pt/lusa/interior/olhao-firma-acordo-para-internacionalizar-empresas-e-atrair-investimento-frances-9354368.html",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -252,7 +274,9 @@
     "Altice Labs Olhão: confirmed as of 2021 only; no current update found on its AI work.",
     "A Startup Olhão scheme and an ANJE Hub are planned (June 2026): once they publish members or programmes, any AI startups there belong on the map.",
     "FULGUR-IT is on the map at 3 steps only: we have not read the company site or found an AI claim.",
-    "Not verified: a NOVA IMS training programme with AMAL and the Olhão council (smart governance, mobility data) and an Erasmus school project in Olhão using AI (Postal, October 2026, blocked to us). Both need a readable source before they count."
+    "Not verified: a NOVA IMS training programme with AMAL and the Olhão council (smart governance, mobility data) and an Erasmus school project in Olhão using AI (Postal, October 2026, blocked to us). Both need a readable source before they count.",
+    "Investors, startups founded here and local AI talent who have spoken publicly: nothing found yet, apart from the Startup Olhão and ANJE Hub plan. Next: regional investors (such as Algarve funds and business angels) with a link to Olhão.",
+    "The council site would not show us its business or investor pages or an official contact channel: to retry, and then link the official page with the date read."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",
