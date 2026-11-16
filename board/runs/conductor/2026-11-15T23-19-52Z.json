@@ -1,0 +1,206 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-15T23-19-52Z",
+ "started": "2026-11-15T23:19:52.307Z",
+ "ended": "2026-11-16T00:36:56Z",
+ "line": "",
+ "policy": {
+  "version": "1.9.2",
+  "sha256": "8ba41797d2e33321"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T23:25:07.560Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-15T23:25:38.438Z",
+   "chars": 971,
+   "sha256": "5459569355502974",
+   "head": "Also, I think I mentioned here the other one. Let's do the PKI sign-in on both website and an iOS application, so that I can talk to you from there. So let's just nail this workflow so that I can have"
+  },
+  {
+   "t": "2026-11-15T23:38:39.905Z",
+   "chars": 549,
+   "sha256": "bad53ced9812ff79",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>3 unread notifications (message from another Claude session: 2, scheduled trigger (the stored p"
+  },
+  {
+   "t": "2026-11-15T23:40:32.300Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-16T00:08:34.604Z",
+   "chars": 84,
+   "sha256": "6929be15cc0a54d4",
+   "head": "Okay, do you need anything from me? I'm going to be offline for a couple of minutes."
+  },
+  {
+   "t": "2026-11-16T00:08:44.505Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-16T00:31:33.367Z",
+   "chars": 679,
+   "sha256": "583d65421de37749",
+   "head": "Okay, so now one of the things I want to do is, can you look at reactivating the storm? Maybe we do it from here, but let's see if you can do it so that we don't have all the agents, maybe some of it,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T00:30:44.367Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T00:33:53.727Z",
+   "source": "compact"
+  }
+ ],
+ "compactions": {
+  "count": 1,
+  "re_anchored": 1
+ },
+ "tool_calls": {
+  "total": 56,
+  "by_kind": {
+   "release": 9,
+   "other": 6,
+   "session": 11,
+   "git": 9,
+   "shell": 17,
+   "git-commit": 1,
+   "git-push": 1,
+   "web": 1,
+   "message": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 11
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 45,
+  "commits": [
+   {
+    "sha": "a20b80129",
+    "subject": "conductor@PrompTugal.dinis: snapshot at the 23:36 wake (v0.1.1509, 0 errors)",
+    "files": 1
+   },
+   {
+    "sha": "ef35166a2",
+    "subject": "conductor@PrompTugal.dinis: Dinis's milestone recorded: PKI sign-in and comments from the website and the iOS app, answered in place; anonymous votes; stats per",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 11,
+  "denied": [
+   {
+    "t": "2026-11-15T23:25:22.449Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-15T23:25:28.091Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-15T23:25:28.366Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-15T23:27:53.895Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-15T23:28:02.452Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-15T23:28:02.748Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-15T23:38:54.912Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-15T23:39:01.330Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-15T23:40:45.531Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-15T23:40:48.738Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T00:08:56.566Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 11
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 7,
+  "tool_calls": 56,
+  "in_mandate": 45,
+  "out_of_mandate": 11,
+  "attempts": 11,
+  "breaches": 0
+ }
+}

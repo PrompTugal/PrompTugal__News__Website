@@ -1,0 +1,172 @@
+[
+ {
+  "place": "faro",
+  "dico": "0805",
+  "station": "Faro (Aeródromo)",
+  "station_id": 1200554,
+  "station_km": 4,
+  "forecast": "Faro",
+  "forecast_id": 1080500,
+  "forecast_km": 1
+ },
+ {
+  "place": "loule",
+  "dico": "0808",
+  "station": "Loulé (CML)",
+  "station_id": 6210872,
+  "station_km": 4,
+  "forecast": "Loulé",
+  "forecast_id": 1080800,
+  "forecast_km": 0
+ },
+ {
+  "place": "quarteira",
+  "dico": "0808",
+  "station": "Loulé (CML)",
+  "station_id": 6210872,
+  "station_km": 7,
+  "forecast": "Loulé",
+  "forecast_id": 1080800,
+  "forecast_km": 11
+ },
+ {
+  "place": "silves",
+  "dico": "0813",
+  "station": "Portimão (Praia da Rocha)",
+  "station_id": 6210879,
+  "station_km": 11,
+  "forecast": "Portimão",
+  "forecast_id": 1081100,
+  "forecast_km": 8
+ },
+ {
+  "place": "tavira",
+  "dico": "0814",
+  "station": "Tavira",
+  "station_id": 1210883,
+  "station_km": 3,
+  "forecast": "Faro",
+  "forecast_id": 1080500,
+  "forecast_km": 28
+ },
+ {
+  "place": "vila-real-de-santo-antonio",
+  "dico": "0816",
+  "station": "Vila Real de S. António",
+  "station_id": 1210866,
+  "station_km": 1,
+  "forecast": "Faro",
+  "forecast_id": 1080500,
+  "forecast_km": 50
+ },
+ {
+  "place": "portimao",
+  "dico": "0811",
+  "station": "Portimão (Praia da Rocha)",
+  "station_id": 6210879,
+  "station_km": 2,
+  "forecast": "Portimão",
+  "forecast_id": 1081100,
+  "forecast_km": 2
+ },
+ {
+  "place": "lagos",
+  "dico": "0807",
+  "station": "Portimão (Aeródromo)",
+  "station_id": 1210878,
+  "station_km": 10,
+  "forecast": "Portimão",
+  "forecast_id": 1081100,
+  "forecast_km": 15
+ },
+ {
+  "place": "olhao",
+  "dico": "0810",
+  "station": "Olhão, EPPO",
+  "station_id": 1210881,
+  "station_km": 2,
+  "forecast": "Faro",
+  "forecast_id": 1080500,
+  "forecast_km": 8
+ },
+ {
+  "place": "albufeira",
+  "dico": "0801",
+  "station": "Albufeira",
+  "station_id": 1210874,
+  "station_km": 1,
+  "forecast": "Loulé",
+  "forecast_id": 1080800,
+  "forecast_km": 21
+ },
+ {
+  "place": "lagoa",
+  "dico": "0806",
+  "station": "Portimão (Praia da Rocha)",
+  "station_id": 6210879,
+  "station_km": 7,
+  "forecast": "Portimão",
+  "forecast_id": 1081100,
+  "forecast_km": 6
+ },
+ {
+  "place": "monchique",
+  "dico": "0809",
+  "station": "Fóia",
+  "station_id": 1210790,
+  "station_km": 4,
+  "forecast": "Portimão",
+  "forecast_id": 1081100,
+  "forecast_km": 19
+ },
+ {
+  "place": "aljezur",
+  "dico": "0803",
+  "station": "Aljezur",
+  "station_id": 1210789,
+  "station_km": 0,
+  "forecast": "Portimão",
+  "forecast_id": 1081100,
+  "forecast_km": 31
+ },
+ {
+  "place": "vila-do-bispo",
+  "dico": "0815",
+  "station": "Sagres",
+  "station_id": 1200533,
+  "station_km": 8,
+  "forecast": "Sagres",
+  "forecast_id": 1081505,
+  "forecast_km": 8
+ },
+ {
+  "place": "castro-marim",
+  "dico": "0804",
+  "station": "Castro Marim (RN Sapal)",
+  "station_id": 1210867,
+  "station_km": 1,
+  "forecast": "Faro",
+  "forecast_id": 1080500,
+  "forecast_km": 49
+ },
+ {
+  "place": "alcoutim",
+  "dico": "0802",
+  "station": "Alcoutim, Mart.Longo",
+  "station_id": 1210865,
+  "station_km": 26,
+  "forecast": "Loulé",
+  "forecast_id": 1080800,
+  "forecast_km": 61
+ },
+ {
+  "place": "sao-bras-de-alportel",
+  "dico": "0812",
+  "station": "Olhão, EPPO",
+  "station_id": 1210881,
+  "station_km": 15,
+  "forecast": "Loulé",
+  "forecast_id": 1080800,
+  "forecast_km": 12
+ }
+]
