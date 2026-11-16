@@ -15,6 +15,14 @@
   "src": "UNIPS, the Universidade Politécnica de Setúbal as the paper ",
   "ok": false
  },
+ "385da7e88a11498d": {
+  "t": "Die Kinderversammlung von Vila Real debattiert über KI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real's children's assembly debates AI",
+  "ok": false
+ },
  "38726af755a9041b": {
   "t": "**Die Identität dieser Website:** {key} in [board/keys.json]({keys}); die Signatur über `{file}` konnte nicht geprüft werden.",
   "by": "translator@PrompTugal.dinis",

@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
   "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "Le projet AITriage4SU, piloté depuis l'UTAD, a tenu le 31 janvier à Porto une rencontre scientifique réunissant environ 200 participants sur l'IA pour le tri des adultes aux urgences. L'équipe a montré comment les grands modèles de langage normalisent les motifs de consultation saisis en texte libre lors du tri, avec de premiers résultats.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
  }
 }

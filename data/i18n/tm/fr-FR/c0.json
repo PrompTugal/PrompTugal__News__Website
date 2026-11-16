@@ -7,6 +7,14 @@
   "src": "Politécnico de Leiria sets its AI rules, in force from 1 Sep",
   "ok": false
  },
+ "c0214b07836de8c4": {
+  "t": "Les Journées techniques de la presse régionale 2026, organisées par l'association nationale de la presse avec le soutien de la municipalité et du Museu da Vila Velha, se sont achevées à Vila Real avec l'IA dans le journalisme comme l'un des thèmes principaux. Un professeur de l'UTAD et chercheur de l'INESC TEC a expliqué le fonctionnement des algorithmes d'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 2026 Technical Days of the Regional Press, run by the na",
+  "ok": false
+ },
  "c042cd426860bb15": {
   "t": "Talents locaux",
   "by": "translator@PrompTugal.dinis",

@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
   "ok": false
+ },
+ "99c102dd36cca038": {
+  "t": "A Rádio Portalegre dá notícia do projeto do politécnico, de cerca de 200 000 euros e financiado pelo FEDER, que coloca modelos de IA em sensores capazes de processar dados no local, com explorações-piloto para o validar. Indica a engenharia, a ciência de dados, a agronomia e os sistemas de informação como áreas envolvidas e agosto de 2028 como data de fim.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false
  }
 }

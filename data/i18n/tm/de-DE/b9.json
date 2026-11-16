@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism",
   "ok": false
+ },
+ "b9e1f0ae59c1489b": {
+  "t": "Die agrarwissenschaftliche und veterinärmedizinische Hochschule veranstaltet im Rahmen des europäischen Projekts VITAL (25 Partner, neun Länder) einen internationalen Workshop dazu, wie KI und Präzisionstierhaltung die vom Sektor benötigten Kompetenzen verändern. Der Artikel nennt das Datum des Workshops nicht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The agrarian and veterinary school hosts an international wo",
+  "ok": false
  }
 }

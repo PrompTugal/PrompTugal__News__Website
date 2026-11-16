@@ -7,6 +7,14 @@
   "src": "Olhão joins the national smart-cities section and says it is",
   "ok": false
  },
+ "47ad3efbbc50e4ed": {
+  "t": "A câmara municipal anunciou o terceiro Viana Tech Day da cidade para 6 de novembro de 2026, organizado pela 351 Portuguese Startup Association com a Dinamo10, a Untile, a Cooperativa Tecnológica e a câmara. O dia incluiu uma batalha de pitches para fundadores e um workshop de 15 lugares chamado Data Center Lab: myths, facts and governance. O programa não menciona a IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council announced the city's third Viana Tech Day for 6 ",
+  "ok": false
+ },
  "47ed757400ef29a7": {
   "t": "Uma empresa de tecnologia de resíduos de Castelo Branco prevê um piloto com sensores de IA para a câmara",
   "by": "translator@PrompTugal.dinis",

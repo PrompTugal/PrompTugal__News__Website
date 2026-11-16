@@ -7,6 +7,14 @@
   "src": "Politécnico de Leiria sets its AI rules, in force from 1 Sep",
   "ok": false
  },
+ "c0214b07836de8c4": {
+  "t": "Die Technischen Tage der Regionalpresse 2026, veranstaltet vom nationalen Presseverband mit Unterstützung der Gemeinde und des Museu da Vila Velha, endeten in Vila Real mit KI im Journalismus als einem Hauptthema. Ein UTAD-Professor und INESC-TEC-Forscher erklärte, wie KI-Algorithmen funktionieren.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 2026 Technical Days of the Regional Press, run by the na",
+  "ok": false
+ },
  "c042cd426860bb15": {
   "t": "Lokale Talente",
   "by": "translator@PrompTugal.dinis",

@@ -15,6 +15,14 @@
   "src": "The institution approved principles and guidance for AI in t",
   "ok": false
  },
+ "715b31cd2fd45baa": {
+  "t": "Castelo Branco ouvre l'année scolaire par une conférence sur l'enseignement à l'ère de l'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castelo Branco opens the school year with a conference on te",
+  "ok": false
+ },
  "719d0fd5c71dc7ec": {
   "t": "L'incubateur ajoute près de 2 000 mètres carrés dans le marché municipal de Leiria pour un laboratoire de robotique et d'IA destiné à l'industrie, ouvert aux PME régionales et à l'université. Il coûte environ 1,7 million d'euros, dépend d'une candidature Centro 2030 encore à l'examen et vise une ouverture en 2027.",
   "by": "translator@PrompTugal.dinis",

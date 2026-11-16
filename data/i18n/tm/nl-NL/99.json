@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
   "ok": false
+ },
+ "99c102dd36cca038": {
+  "t": "Rádio Portalegre bericht over het door FEDER gefinancierde project van de polytechnische hogeschool van ongeveer 200.000 euro, dat AI-modellen op sensoren zet die gegevens ter plekke kunnen verwerken, met proefboerderijen ter validatie. Het noemt techniek, datawetenschap, landbouwkunde en informatiesystemen als betrokken vakgebieden en augustus 2028 als einddatum.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false
  }
 }

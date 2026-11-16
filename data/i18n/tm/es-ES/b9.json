@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism",
   "ok": false
+ },
+ "b9e1f0ae59c1489b": {
+  "t": "La escuela agraria y veterinaria acoge un taller internacional del proyecto europeo VITAL (25 socios, nueve países) sobre cómo la IA y la ganadería de precisión cambian las competencias que necesita el sector. El artículo no da la fecha del taller.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The agrarian and veterinary school hosts an international wo",
+  "ok": false
  }
 }

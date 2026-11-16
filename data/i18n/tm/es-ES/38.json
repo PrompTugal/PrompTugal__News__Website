@@ -15,6 +15,14 @@
   "src": "UNIPS, the Universidade Politécnica de Setúbal as the paper ",
   "ok": false
  },
+ "385da7e88a11498d": {
+  "t": "La asamblea infantil de Vila Real debate sobre la IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real's children's assembly debates AI",
+  "ok": false
+ },
  "38726af755a9041b": {
   "t": "**La identidad de este sitio:** {key} en [board/keys.json]({keys}); no se pudo comprobar la firma de `{file}`.",
   "by": "translator@PrompTugal.dinis",

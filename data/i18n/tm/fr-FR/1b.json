@@ -7,6 +7,14 @@
   "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
   "ok": false
  },
+ "1b40ab688416c336": {
+  "t": "Un projet de l'UTAD conçoit une IA pour aider au tri aux urgences, avec un événement de 200 personnes",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD project builds AI to help triage in emergency rooms, wi",
+  "ok": false
+ },
  "1b5149ba4f0f71b7": {
   "t": "Lors d'une séance de clôture à Portalegre, PACT a indiqué que le programme AIRA, financé par l'UE, avait formé plus de 500 personnes à l'application de l'IA à la robotique. Trois idées ont remporté des bons technologiques lors de son concours d'idées, dont un système qui associe vision par ordinateur et modèles de langage pour automatiser l'éclairage de scène, et un système d'inspection d'aéronefs fondé sur la vision par ordinateur.",
   "by": "translator@PrompTugal.dinis",

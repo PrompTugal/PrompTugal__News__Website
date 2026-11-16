@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism",
   "ok": false
+ },
+ "b9e1f0ae59c1489b": {
+  "t": "De landbouw- en diergeneeskundeschool is gastheer van een internationale workshop binnen het Europese project VITAL (25 partners, negen landen) over hoe AI en precisieveehouderij de vaardigheden veranderen die de sector nodig heeft. Het artikel geeft de datum van de workshop niet.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The agrarian and veterinary school hosts an international wo",
+  "ok": false
  }
 }

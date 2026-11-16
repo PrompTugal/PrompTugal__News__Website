@@ -23,6 +23,14 @@
   "src": "Santarém's local health unit joins a WHO conference on AI in",
   "ok": false
  },
+ "a09e63aba13e4aba": {
+  "t": "L'activité en IA de Castelo Branco s'organise autour de l'institut polytechnique, devenu Universidade Politécnica de Castelo Branco le 1er août 2026, et des personnes qu'il forme. Son école de santé organise des journées sur l'IA en santé, deux de ses professeurs d'ingénierie ont fondé la start-up de drones contre les incendies de forêt Axtron Systems, et une entreprise locale de technologies des déchets ainsi qu'un cabinet de conseil informatique sont les principaux acteurs privés. En 2026, la municipalité elle-même a commencé à parler d'IA, en ouvrant l'année scolaire par une conférence sur l'IA et en disant envisager une académie de l'IA, et elle a approuvé un pôle de technologies de drones et de défense avec une entreprise nommée Odin Systems.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castelo Branco's AI activity sits around the polytechnic, wh",
+  "ok": false
+ },
  "a0b7f4ddc8d2385c": {
   "t": "La mairie et l'Université de l'Algarve préparent un pacte de connaissance et d'innovation",
   "by": "translator@PrompTugal.dinis",

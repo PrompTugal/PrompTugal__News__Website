@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
   "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "Das von der UTAD geleitete Projekt AITriage4SU hielt am 31. Januar in Porto ein wissenschaftliches Treffen mit rund 200 Teilnehmenden zu KI für die Triage erwachsener Notfallpatienten ab. Das Team zeigte, wie große Sprachmodelle freitextliche Triage-Beschwerden normalisieren, mit ersten Ergebnissen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
  }
 }

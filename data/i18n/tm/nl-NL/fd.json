@@ -7,6 +7,14 @@
   "src": "The Hayden AI pilot with the council and the bus company TUB",
   "ok": false
  },
+ "fd9c59a8d56e0553": {
+  "t": "De gemeente zegt dat de schoolbibliotheken van Vila Real, met haar steun, de internationale maand van de schoolbibliotheken van oktober hielden onder het thema geletterdheid en kunstmatige intelligentie, met voorleesmomenten, workshops, auteursbezoeken en theater voor ongeveer 300 leerlingen. De pagina beschrijft de leesactiviteiten en geeft geen details over AI-inhoud.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council says Vila Real's school libraries, with its supp",
+  "ok": false
+ },
  "fdc451c19dfc3876": {
   "t": "Brazilië en Portugal praten over AI en zaken op Aveiro Tech Week",
   "by": "translator@PrompTugal.dinis",

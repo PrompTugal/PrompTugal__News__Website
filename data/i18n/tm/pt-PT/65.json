@@ -7,6 +7,14 @@
   "src": "Aveiro's AI activity sits around the Universidade de Aveiro:",
   "ok": false
  },
+ "654e5d9beb7d0192": {
+  "t": "Aqui a ação passa-se na universidade, meu amigo: uma escola de saúde que organiza jornadas de IA, dois professores que criaram uma startup de drones contra incêndios florestais, e uma empresa de tecnologia de resíduos e uma consultora a fazer-lhes companhia. Este ano a câmara municipal também acordou: abriu o ano letivo com uma conferência sobre IA, pensa numa Academia IA e aprovou um polo de drones e defesa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here the action is at the university, meu amigo: a health sc",
+  "ok": false
+ },
  "655a1d3d867cb5b1": {
   "t": "A Universidade Politécnica de Santarém e a câmara apresentaram o Campus Tejo em Lisboa a 12 de novembro de 2026: um ecossistema de ciência e tecnologia em vários locais sobre água, agro e ciências da vida, com Santarém e a Lezíria como terreno real de ensaio. A página não menciona a IA.",
   "by": "translator@PrompTugal.dinis",

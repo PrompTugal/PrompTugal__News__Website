@@ -1,4 +1,12 @@
 {
+ "de7a070000c11649": {
+  "t": "El ayuntamiento aprueba un hub de tecnología de drones y defensa para Castelo Branco",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council approves a drone and defence technology hub for ",
+  "ok": false
+ },
  "de993d4fe58354fc": {
   "t": "La unidad local de salud del Algarve organizó el 15 de septiembre un seminario web sobre las oportunidades, los riesgos y las condiciones para usar la IA en la asistencia sanitaria, con gobernanza, protección de datos, ciberseguridad y confianza del paciente, para personal clínico, técnico y de gestión.",
   "by": "translator@PrompTugal.dinis",

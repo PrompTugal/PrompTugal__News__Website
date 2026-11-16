@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Despacho n.º 34/2026 asks teachers and students to be transp",
   "ok": false
+ },
+ "eef27e94e29eb6bc": {
+  "t": "De FCT keurde een project goed om AI-modellen te onderzoeken die triagebeslissingen voor volwassenen op de spoedeisende hulp ondersteunen, met een totaalbudget van ongeveer 124 duizend euro en partners waaronder de UTAD-vestiging van INESC TEC, INEGI en een ziekenhuiseenheid in Porto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The FCT approved a project to explore AI models that support",
+  "ok": false
  }
 }

@@ -15,5 +15,13 @@
   "src": "An industrial and technology conference at the Montebelo Vis",
   "ok": true,
   "rev": "translator@PrompTugal.dinis second pass"
+ },
+ "a2d583ad4bcfc91d": {
+  "t": "Une radio locale présente AI4PRIME : une IA basse consommation pour les exploitations agricoles mal connectées",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Local radio reports AI4PRIME: low-power AI for farms with po",
+  "ok": false
  }
 }

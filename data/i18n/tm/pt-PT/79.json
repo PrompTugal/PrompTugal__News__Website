@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "At the 16 October 2026 opening of the Confucius Institute at",
   "ok": false
+ },
+ "79fc6b990f0d8d0e": {
+  "t": "A UTAD recebe financiamento nacional para um projeto de IA na triagem das urgências",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD gets national funding for an AI emergency triage projec",
+  "ok": false
  }
 }

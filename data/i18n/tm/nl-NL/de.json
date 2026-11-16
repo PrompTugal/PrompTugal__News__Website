@@ -1,4 +1,12 @@
 {
+ "de7a070000c11649": {
+  "t": "De gemeente keurt een hub voor drone- en defensietechnologie voor Castelo Branco goed",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council approves a drone and defence technology hub for ",
+  "ok": false
+ },
  "de993d4fe58354fc": {
   "t": "De lokale gezondheidseenheid van de Algarve hield op 15 september een webinar over de kansen, risico's en voorwaarden voor het gebruik van AI in de zorg, met governance, gegevensbescherming, cyberbeveiliging en patiëntvertrouwen, voor klinisch, technisch en bestuurlijk personeel.",
   "by": "translator@PrompTugal.dinis",

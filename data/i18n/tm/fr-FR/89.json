@@ -7,6 +7,14 @@
   "src": "Leiria's centre of gravity is a dense triangle of an incubat",
   "ok": false
  },
+ "898f0bfe208f08c4": {
+  "t": "L'institut polytechnique de Portalegre et Fulbright conviennent d'une bourse en informatique sur trois ans",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre's polytechnic and Fulbright agree a three-year Co",
+  "ok": false
+ },
  "89c91e34617c7ae5": {
   "t": "La mairie de Loulé emmène une expérience immersive fondée sur l'IA au salon du tourisme BTL",
   "by": "translator@PrompTugal.dinis",

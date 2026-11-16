@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "EDP announced on 8 October 2025 a 15.3 MW solar plant in Alj",
   "ok": false
+ },
+ "72f92682698dcd24": {
+  "t": "Twee hybride workshops binnen de AI4PA-hub, een voor parochieraden op 31 januari en een over AI voor het moderniseren van gemeentehuizen op 21 maart, met een eigen bijdrage van 5 euro die deels door AI4PA wordt gefinancierd. De tweede behandelde het wettelijk kader en cases over digitale processen, communicatie en dienstverlening aan burgers.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Two hybrid workshops run under the AI4PA hub, one for parish",
+  "ok": false
  }
 }

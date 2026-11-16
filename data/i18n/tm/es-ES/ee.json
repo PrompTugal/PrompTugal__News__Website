@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Despacho n.º 34/2026 asks teachers and students to be transp",
   "ok": false
+ },
+ "eef27e94e29eb6bc": {
+  "t": "La FCT aprobó un proyecto para explorar modelos de IA que apoyen las decisiones de triaje de adultos en urgencias, con un presupuesto total de unos 124 mil euros y socios entre los que figuran el polo de la UTAD del INESC TEC, el INEGI y una unidad hospitalaria de Oporto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The FCT approved a project to explore AI models that support",
+  "ok": false
  }
 }

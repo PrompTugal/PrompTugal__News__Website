@@ -7,6 +7,14 @@
   "src": "Aveiro's AI activity sits around the Universidade de Aveiro:",
   "ok": false
  },
+ "654e5d9beb7d0192": {
+  "t": "Ici, l'action se passe à l'université, meu amigo : une école de santé qui organise des journées sur l'IA, deux professeurs qui ont fondé une start-up de drones contre les incendies de forêt, et une entreprise de technologies des déchets et un cabinet de conseil pour leur tenir compagnie. Cette année, la mairie s'est elle aussi réveillée : elle a ouvert l'année scolaire par une conférence sur l'IA, songe à une Academia IA et a approuvé un pôle drones et défense.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here the action is at the university, meu amigo: a health sc",
+  "ok": false
+ },
  "655a1d3d867cb5b1": {
   "t": "L'Universidade Politécnica de Santarém et la mairie ont présenté Campus Tejo à Lisbonne le 12 novembre 2026 : un écosystème scientifique et technologique multisite sur l'eau, l'agro et les sciences de la vie, avec Santarém et la Lezíria comme terrain d'essai en conditions réelles. La page ne mentionne pas l'IA.",
   "by": "translator@PrompTugal.dinis",

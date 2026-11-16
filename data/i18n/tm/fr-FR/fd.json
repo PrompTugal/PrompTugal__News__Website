@@ -7,6 +7,14 @@
   "src": "The Hayden AI pilot with the council and the bus company TUB",
   "ok": false
  },
+ "fd9c59a8d56e0553": {
+  "t": "La municipalité indique que les bibliothèques scolaires de Vila Real, avec son soutien, ont organisé en octobre le mois international des bibliothèques scolaires sur le thème de la littératie et de l'intelligence artificielle, avec lectures, ateliers, rencontres avec des auteurs et théâtre pour environ 300 élèves. La page décrit les activités de lecture et ne donne aucun détail sur le contenu consacré à l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council says Vila Real's school libraries, with its supp",
+  "ok": false
+ },
  "fdc451c19dfc3876": {
   "t": "Le Brésil et le Portugal parlent d’IA et d’affaires à l’Aveiro Tech Week",
   "by": "translator@PrompTugal.dinis",

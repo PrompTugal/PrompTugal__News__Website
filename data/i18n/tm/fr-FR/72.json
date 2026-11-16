@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "EDP announced on 8 October 2025 a 15.3 MW solar plant in Alj",
   "ok": false
+ },
+ "72f92682698dcd24": {
+  "t": "Deux ateliers hybrides organisés dans le cadre du hub AI4PA, l'un pour les juntas de freguesia (conseils de paroisse) le 31 janvier et l'autre sur l'IA pour moderniser les mairies le 21 mars, avec des frais de 5 euros cofinancés par AI4PA. Le second a porté sur le cadre juridique et des cas concernant les procédures numériques, la communication et le service aux citoyens.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Two hybrid workshops run under the AI4PA hub, one for parish",
+  "ok": false
  }
 }

@@ -1,4 +1,12 @@
 {
+ "da40d828158b0f3f": {
+  "t": "O conselho de administração do parque abriu um concurso público no valor de 308 000 euros mais IVA para projetar o Brigantia EcoPark 2. O relatório conta 82 empresas, dois centros de investigação e cerca de 430 trabalhadores, com uma ocupação próxima de 98 por cento. A página não menciona a IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The park's board opened a public tender worth 308,000 euros ",
+  "ok": false
+ },
  "da8ebf652ad46ed4": {
   "t": "Eh pá, Silves: capital do Algarve antes de estar na moda, ainda a guardar as suas laranjas num castelo da cor de uma tangerina madura.",
   "by": "translator@PrompTugal.dinis",

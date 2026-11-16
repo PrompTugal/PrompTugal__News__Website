@@ -1,4 +1,12 @@
 {
+ "732e8a9ea3dfa097": {
+  "t": "Le Brigantia EcoPark entame une deuxième phase, avec déjà 82 entreprises installées",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Brigantia EcoPark starts a second phase, with 82 companies a",
+  "ok": false
+ },
  "734297fa8104bddd": {
   "t": "PrompTugal.news Aljezur : IA et technologie à Aljezur, municipalité de la côte ouest faite de plages, de surf et de nature, et ce qui arrive à Aljezur depuis l’Algarve, le Portugal et le monde. Indépendant. Chaque fait sourcé.",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "From 9 to 13 February 2026 the polytechnic received partners",
+  "ok": false
+ },
+ "73fe08270f43c43a": {
+  "t": "Plus de 40 entreprises et institutions ont été annoncées pour l'événement du 1er octobre à l'institut polytechnique, avec une exposition de prototypes et des entreprises telles que Sonae MC, Durit, Moldit et Catraport. La page ne dit pas que l'IA figure au programme.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "More than 40 companies and institutions were announced for t",
   "ok": false
  }
 }

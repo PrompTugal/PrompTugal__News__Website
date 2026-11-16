@@ -7,6 +7,14 @@
   "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
   "ok": false
  },
+ "ac318ac4853050a0": {
+  "t": "Environ 600 enseignants et chefs d'établissement se sont réunis le 10 septembre 2026 pour une séance consacrée à l'IA dans l'éducation. Le maire a indiqué que la municipalité envisage une Academia IA, un cursus pour les jeunes et les adultes, et a appelé à une culture numérique responsable.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "About 600 teachers and school heads met on 10 September 2026",
+  "ok": false
+ },
  "ac65ddf0253d7aed": {
   "t": "Le centre de technologie et d'innovation du campus de l'institut polytechnique a été inauguré le 22 mai 2026 en présence du Premier ministre. Il déclare 40 personnes, 15 projets de R&D, plus de 20 entreprises accompagnées, une spin-off et deux startups, et le reportage d'Observador indique que l'une des startups est liée à l'IA et l'autre à la cybersécurité. Son propre site place l'IA en premier parmi la numérisation et propose un robot humanoïde et un robot quadrupède dotés d'IA.",
   "by": "translator@PrompTugal.dinis",

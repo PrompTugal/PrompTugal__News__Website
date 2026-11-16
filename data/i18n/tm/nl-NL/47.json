@@ -7,6 +7,14 @@
   "src": "Olhão joins the national smart-cities section and says it is",
   "ok": false
  },
+ "47ad3efbbc50e4ed": {
+  "t": "De gemeente kondigde de derde Viana Tech Day van de stad aan voor 6 november 2026, georganiseerd door de 351 Portuguese Startup Association met Dinamo10, Untile, Cooperativa Tecnológica en de gemeente. De dag omvatte een pitchwedstrijd voor oprichters en een workshop voor 15 deelnemers genaamd Data Center Lab: myths, facts and governance. Het programma vermeldt AI niet.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council announced the city's third Viana Tech Day for 6 ",
+  "ok": false
+ },
  "47ed757400ef29a7": {
   "t": "Een afvaltechbedrijf uit Castelo Branco plant een pilot met AI-sensoren voor de gemeente",
   "by": "translator@PrompTugal.dinis",

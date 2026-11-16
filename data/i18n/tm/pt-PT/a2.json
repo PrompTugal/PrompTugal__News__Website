@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "An industrial and technology conference at the Montebelo Vis",
   "ok": true
+ },
+ "a2d583ad4bcfc91d": {
+  "t": "Rádio local dá notícia do AI4PRIME: IA de baixo consumo para explorações agrícolas com internet fraca",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Local radio reports AI4PRIME: low-power AI for farms with po",
+  "ok": false
  }
 }
