@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-crai-project-sheet",
+  "type": "evidence",
+  "source_url": "https://www.inesc-id.pt/wp-content/uploads/2026/02/crai_edited_projectsheet.pdf",
+  "beat": "Portugal",
+  "group": "S67",
+  "names": [
+    {
+      "as_listed": "Sword Health",
+      "ref": "organisation:sword-health"
+    },
+    {
+      "as_listed": "INESC-ID",
+      "ref": "organisation:inesc-id"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-16-1550.json",
+  "run": "2026-11-16T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-16-1550.json"
+    ]
+  }
+}

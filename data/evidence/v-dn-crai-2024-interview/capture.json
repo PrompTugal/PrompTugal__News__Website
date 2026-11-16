@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-dn-crai-2024-interview",
+  "type": "evidence",
+  "source_url": "https://www.dn.pt/sociedade/ja-criamos-145-postos-de-trabalho-altamente-qualificados-e-temos-50-doutoramentos-e-mestrados-em-curso",
+  "beat": "Portugal",
+  "group": "S67",
+  "names": [
+    {
+      "as_listed": "Unbabel",
+      "ref": "organisation:unbabel"
+    },
+    {
+      "as_listed": "Sword Health",
+      "ref": "organisation:sword-health"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-16-1550.json",
+  "run": "2026-11-16T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-16-1550.json"
+    ]
+  }
+}

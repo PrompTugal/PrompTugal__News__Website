@@ -1891,7 +1891,7 @@
       {
         "as_listed": "Center for Responsible AI",
         "ref": "organisation:center-for-responsible-ai",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Dealroom",
@@ -2016,7 +2016,7 @@
       {
         "as_listed": "INESC-ID",
         "ref": "organisation:inesc-id",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "IPMA",
@@ -2234,6 +2234,11 @@
         "count": 1
       },
       {
+        "as_listed": "Sword Health",
+        "ref": "organisation:sword-health",
+        "count": 2
+      },
+      {
         "as_listed": "TEKEVER",
         "ref": "organisation:tekever",
         "count": 1
@@ -2266,6 +2271,11 @@
       {
         "as_listed": "Técnico Venture Lab",
         "ref": "organisation:tecnico-venture-lab",
+        "count": 1
+      },
+      {
+        "as_listed": "Unbabel",
+        "ref": "organisation:unbabel",
         "count": 1
       },
       {

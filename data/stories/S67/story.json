@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S67",
+  "type": "story",
+  "title": "Portugal's Center for Responsible AI: the money, partners and goals",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-prr-center-for-responsible-ai",
+    "evidence:v-crai-project-sheet",
+    "evidence:v-dn-crai-2024-interview"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-16-1550.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-16-1550.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-16T15:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-16-1550.json"
+    }
+  ]
+}
