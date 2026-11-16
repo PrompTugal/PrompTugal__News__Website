@@ -22,5 +22,21 @@
   "at": "2026-11-16",
   "src": "Early-stage startups building or intensively using AI could ",
   "ok": false
+ },
+ "78e0284d3a099cdd": {
+  "t": "La stagionatura del Queijo Serpa si affida a sensori e machine learning, con l'università di Beja come partner",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Queijo Serpa curing gets sensors and machine learning, with ",
+  "ok": false
+ },
+ "78fba34193dcd135": {
+  "t": "Il programma di Algarve STP per 12 startup e PMI dell'Algarve, nell'ambito di Algarve Empreende 2026, ha inserito tecnologia e intelligenza artificiale tra i temi del mentoring, con UAlg, AMAL, NERA, ANJE e Algarve Evolution come partner. Le candidature si sono chiuse il 24 giugno 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve STP's programme for 12 Algarve startups and SMEs, un",
+  "ok": false
  }
 }

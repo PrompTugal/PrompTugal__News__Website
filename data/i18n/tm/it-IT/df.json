@@ -1,0 +1,34 @@
+{
+ "df09dbbb93e6a84c": {
+  "t": "Il gruppo ospedaliero di Viseu acquista scanner finanziati dal PRR che includono l'IA dove applicabile",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu hospital group buys PRR-funded scanners that include A",
+  "ok": false
+ },
+ "df2d4bd6a5812b21": {
+  "t": "Critical Software di Coimbra costruisce la piattaforma di IA per un progetto missilistico europeo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Critical Software of Coimbra builds the AI platform for a Eu",
+  "ok": false
+ },
+ "df3370ad9243e3fb": {
+  "t": "Il laboratorio costruisce soluzioni di IA su misura per grandi aziende, società di private equity e agenzie governative. L'entità del round non è stata resa nota.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The lab builds custom AI solutions for large companies, priv",
+  "ok": false
+ },
+ "dfd17296d59d381a": {
+  "t": "PrompTugal.news Santarém: IA e tecnologia a Santarém, capoluogo di distretto sul Tejo il cui centro di gravità è la scienza agroalimentare e il nuovo Campus Tejo, e ciò che arriva a Santarém dal Portogallo, dall'Europa e dal mondo. Indipendente; ogni fatto ha la sua fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Santarém: AI and technology in Santarém, a d",
+  "ok": false
+ }
+}
