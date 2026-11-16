@@ -1,0 +1,58 @@
+{
+  "id": "jornal-de-noticias",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal de Notícias (JN)",
+  "names_as_listed": [
+    "Jornal de Notícias (JN)"
+  ],
+  "media_kind": "newspaper",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.jn.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.jn.pt",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Porto and the North (JN local editions)",
+      "source_url": "https://www.jn.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Notícias Ilimitadas, S.A. (proprietário e editor)",
+    "source_url": "https://www.jn.pt/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "people": [
+    {
+      "name": "Rafael Barbosa",
+      "role": "Diretor",
+      "source_url": "https://www.jn.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Inês Cardoso",
+      "role": "Diretora-geral editorial",
+      "source_url": "https://www.jn.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.jn.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    }
+  ],
+  "gaps": [
+    "No RSS feed verified: https://www.jn.pt/rss returned 404",
+    "Contact page not read",
+    "Capital holders list truncated in reading; not recorded",
+    "Tech bylines not identified"
+  ]
+}

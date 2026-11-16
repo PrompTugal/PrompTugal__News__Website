@@ -1,0 +1,72 @@
+{
+  "id": "eco",
+  "type": "organisation",
+  "kind": "media",
+  "name": "ECO (eco.sapo.pt)",
+  "names_as_listed": [
+    "ECO (eco.sapo.pt)"
+  ],
+  "media_kind": "online",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://eco.sapo.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://eco.sapo.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Estrutura accionista fundadora published: Narrativas & Equações (António Costa), Polopique SGPS (Luís Guimarães), CIN (João Serrenho), Valens Private Equity (Mário Ferreira), Zafgest (Rui Freitas), Amorim SGPS (António Amorim); promoters 1%; individuals 8%; company name of the publisher not read",
+    "source_url": "https://eco.sapo.pt/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://eco.sapo.pt/contactos",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://eco.sapo.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "António Costa",
+      "role": "Diretor",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Shrikesh Laxmidas",
+      "role": "Diretor-adjunto",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Mónica Silvares",
+      "role": "Editora-executiva",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Paulo Padrão",
+      "role": "Diretor Geral",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://eco.sapo.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    }
+  ],
+  "gaps": [
+    "Contact address is obfuscated on the page; not recorded",
+    "Technology section editor not identified"
+  ]
+}

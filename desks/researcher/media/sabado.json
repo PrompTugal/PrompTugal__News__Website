@@ -1,0 +1,72 @@
+{
+  "id": "sabado",
+  "type": "organisation",
+  "kind": "media",
+  "name": "SÁBADO",
+  "names_as_listed": [
+    "SÁBADO"
+  ],
+  "media_kind": "magazine",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.sabado.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.sabado.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Medialivre S.A. (named on the contacts page newsletter consent)",
+    "source_url": "https://www.sabado.pt/a-sabado/detalhe/contactos",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.sabado.pt/a-sabado/detalhe/contactos",
+  "public_contact": [
+    {
+      "channel": "Investigations tip-off address published by the outlet: investigacao@sabado.pt",
+      "source_url": "https://www.sabado.pt/a-sabado/detalhe/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://sabado.pt/rss",
+      "checked": "HTTP 200, content-type text/xml; charset=ISO-8859-1, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Carlos Rodrigues",
+      "role": "Diretor Geral Editorial",
+      "source_url": "https://www.sabado.pt/a-sabado/detalhe/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Maria Henrique Espada",
+      "role": "Diretora-Executiva",
+      "source_url": "https://www.sabado.pt/a-sabado/detalhe/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sabado.pt/a-sabado/detalhe/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    },
+    {
+      "url": "https://www.sabado.pt/a-sabado/detalhe/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts read"
+    }
+  ],
+  "gaps": [
+    "Individual journalists' personal-format addresses are published on the ficha técnica: personal contact published, not recorded"
+  ]
+}

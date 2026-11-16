@@ -1,0 +1,65 @@
+{
+  "id": "tsf",
+  "type": "organisation",
+  "kind": "media",
+  "name": "TSF Rádio Notícias",
+  "names_as_listed": [
+    "TSF Rádio Notícias"
+  ],
+  "media_kind": "radio",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.tsf.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.tsf.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Rádio Notícias-Produções e Publicidade S.A. (proprietário e editor)",
+    "source_url": "https://www.tsf.pt/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.tsf.pt/contactos",
+  "public_contact": [
+    {
+      "channel": "General e-mail published on the contacts page: tsf@tsf.pt",
+      "source_url": "https://www.tsf.pt/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Vítor Santos",
+      "role": "Diretor",
+      "source_url": "https://www.tsf.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Inês Cardoso",
+      "role": "Diretora-geral editorial",
+      "source_url": "https://www.tsf.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.tsf.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    },
+    {
+      "url": "https://www.tsf.pt/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts read"
+    }
+  ],
+  "gaps": [
+    "No RSS verified: https://tsf.pt/rss returned 404",
+    "Personal-format addresses of the director and editors published: personal contact published, not recorded"
+  ]
+}

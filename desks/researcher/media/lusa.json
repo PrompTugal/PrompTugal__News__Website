@@ -1,0 +1,39 @@
+{
+  "id": "lusa",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Lusa - Agência de Notícias de Portugal",
+  "names_as_listed": [
+    "Lusa - Agência de Notícias de Portugal"
+  ],
+  "media_kind": "news-agency",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.lusa.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.lusa.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://www.lusa.pt/contact-us",
+  "sources": [
+    {
+      "url": "https://www.lusa.pt",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "home read"
+    },
+    {
+      "url": "https://www.lusa.pt/about-lusa",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "fetched, no ownership text extracted"
+    }
+  ],
+  "gaps": [
+    "Owner, masthead, public contact and feed not extracted",
+    "Feed not verified"
+  ]
+}

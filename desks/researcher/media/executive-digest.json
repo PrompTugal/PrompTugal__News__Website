@@ -1,0 +1,48 @@
+{
+  "id": "executive-digest",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Executive Digest",
+  "names_as_listed": [
+    "Executive Digest"
+  ],
+  "media_kind": "magazine",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://executivedigest.sapo.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://executivedigest.sapo.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://executivedigest.sapo.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "Redação: online@multipublicacoes.pt; general topics: geral@multipublicacoes.pt (as published)",
+      "source_url": "https://executivedigest.sapo.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://executivedigest.sapo.pt/feed/",
+      "checked": "HTTP 200, content-type text/xml;charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://executivedigest.sapo.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts read"
+    }
+  ],
+  "gaps": [
+    "Ficha técnica (owner, directors) not read",
+    "Publisher company name not confirmed (email domain multipublicacoes.pt only)"
+  ]
+}

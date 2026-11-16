@@ -1,0 +1,68 @@
+{
+  "id": "publico",
+  "type": "organisation",
+  "kind": "media",
+  "name": "PÚBLICO",
+  "names_as_listed": [
+    "PÚBLICO"
+  ],
+  "media_kind": "newspaper",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.publico.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.publico.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Público - Comunicação Social, S.A.",
+    "source_url": "https://www.publico.pt/nos/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.publico.pt/nos/contactos",
+  "public_contact": [
+    {
+      "channel": "Redacção general address as published on the contacts page: publico@publico.pt",
+      "source_url": "https://www.publico.pt/nos/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://feeds.feedburner.com/PublicoRSS",
+      "checked": "HTTP 200, content-type text/xml, RSS body; linked as RSS from the site footer. https://www.publico.pt/rss returned 404",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "David Pontes",
+      "role": "Director",
+      "source_url": "https://www.publico.pt/nos/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.publico.pt/nos/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read, owner and director"
+    },
+    {
+      "url": "https://www.publico.pt/nos/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts page read"
+    }
+  ],
+  "gaps": [
+    "Tech section (Enter) editor and bylines not read",
+    "ERC register not consulted",
+    "Personal-format addresses, if any, not recorded"
+  ]
+}

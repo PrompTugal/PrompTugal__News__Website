@@ -1,0 +1,54 @@
+{
+  "id": "cnn-portugal",
+  "type": "organisation",
+  "kind": "media",
+  "name": "CNN Portugal",
+  "names_as_listed": [
+    "CNN Portugal"
+  ],
+  "media_kind": "tv",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://cnnportugal.iol.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://cnnportugal.iol.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Described on its ficha técnica page as a news project of Media Capital; legal owner entity not read",
+    "source_url": "https://cnnportugal.iol.pt/fichatecnica",
+    "read_at": "2026-11-16"
+  },
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://cnnportugal.iol.pt/rss",
+      "checked": "HTTP 200 but content-type text/html;charset=UTF-8; body is an RSS 2.0 XML document",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Vasco Rosendo",
+      "role": "Editor-chefe, economic and financial matters",
+      "source_url": "https://cnnportugal.iol.pt/fichatecnica",
+      "read_at": "2026-11-16",
+      "beat": "economy and finance"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://cnnportugal.iol.pt/fichatecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read (partial)"
+    }
+  ],
+  "gaps": [
+    "Director and contacts not extracted",
+    "Contact page not read"
+  ]
+}

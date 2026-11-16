@@ -1,0 +1,73 @@
+{
+  "id": "correio-da-manha",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Correio da Manhã (CM)",
+  "names_as_listed": [
+    "Correio da Manhã (CM)"
+  ],
+  "media_kind": "newspaper",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.cmjornal.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.cmjornal.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Medialivre SA (named in the site's copyright notice)",
+    "source_url": "https://www.cmjornal.pt",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.cmjornal.pt/",
+  "public_contact": [
+    {
+      "channel": "Fale com o CM / Contacte-nos: generic readers' address published as a mailto link in the site footer (leitores@cmjornal.pt)",
+      "source_url": "https://www.cmjornal.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.cmjornal.pt/rss",
+      "checked": "HTTP 200, content-type text/xml; charset=ISO-8859-1, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Carlos Rodrigues",
+      "role": "Diretor-Geral Editorial",
+      "source_url": "https://www.cmjornal.pt/mais-cm/ficha-tecnica/detalhe/ficha_tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Paulo João Santos",
+      "role": "Diretor-Executivo CM",
+      "source_url": "https://www.cmjornal.pt/mais-cm/ficha-tecnica/detalhe/ficha_tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.cmjornal.pt/mais-cm/ficha-tecnica/detalhe/ficha_tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    },
+    {
+      "url": "https://www.cmjornal.pt",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "home read, footer"
+    }
+  ],
+  "gaps": [
+    "Dedicated contacts page URL not identified (footer links to a mailto)",
+    "Technology section staff not identified"
+  ]
+}

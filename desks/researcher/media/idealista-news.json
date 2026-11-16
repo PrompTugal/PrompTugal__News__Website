@@ -1,0 +1,32 @@
+{
+  "id": "idealista-news",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Idealista News",
+  "names_as_listed": [
+    "Idealista News"
+  ],
+  "media_kind": "online",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.idealista.pt/news",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.idealista.pt/news",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.idealista.pt/news",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "page fetched"
+    }
+  ],
+  "gaps": [
+    "Owner, masthead, contacts not read",
+    "https://idealista.pt/news/feed returned 403 (bot protection); feed unverified"
+  ]
+}

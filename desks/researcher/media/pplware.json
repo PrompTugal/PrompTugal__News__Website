@@ -1,0 +1,67 @@
+{
+  "id": "pplware",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Pplware",
+  "names_as_listed": [
+    "Pplware"
+  ],
+  "media_kind": "blog",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://pplware.sapo.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://pplware.sapo.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Pplware.com, Tecnologias de Informação e Serviços Web, Lda",
+    "source_url": "https://pplware.sapo.pt/cartao-visita",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://pplware.sapo.pt/contacto/",
+  "public_contact": [
+    {
+      "channel": "General address geral@pplware.com (as published)",
+      "source_url": "https://pplware.sapo.pt/cartao-visita",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://pplware.sapo.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Vítor Manuel Moreira Martins",
+      "role": "Diretor and editor",
+      "source_url": "https://pplware.sapo.pt/cartao-visita",
+      "read_at": "2026-11-16",
+      "beat": "technology"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://pplware.sapo.pt/cartao-visita",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    },
+    {
+      "url": "https://pplware.sapo.pt/contacto/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts read"
+    }
+  ],
+  "gaps": [
+    "ERC register number 127300 published on the page; not checked against erc.pt"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "noticias-ao-minuto",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Notícias ao Minuto",
+  "names_as_listed": [
+    "Notícias ao Minuto"
+  ],
+  "media_kind": "online",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.noticiasaominuto.com",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.noticiasaominuto.com",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "New adVentures, Lda. (propriedade / editor), sócio-gerente Mário Rodrigues",
+    "source_url": "https://www.noticiasaominuto.com/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.noticiasaominuto.com/contactos",
+  "public_contact": [
+    {
+      "channel": "General: info@noticiasaominuto.com; press releases: press@noticiasaominuto.com (as published)",
+      "source_url": "https://www.noticiasaominuto.com/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Mário Rodrigues",
+      "role": "Director",
+      "source_url": "https://www.noticiasaominuto.com/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.noticiasaominuto.com/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    },
+    {
+      "url": "https://www.noticiasaominuto.com/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts read"
+    }
+  ],
+  "gaps": [
+    "RSS not verified: https://www.noticiasaominuto.com/rss returned an HTML page (HTTP 200 text/html), not a feed",
+    "Tech section (Tech) staff not identified"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "diario-de-noticias",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Notícias (DN)",
+  "names_as_listed": [
+    "Diário de Notícias (DN)"
+  ],
+  "media_kind": "newspaper",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.dn.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.dn.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Global Notícias, Media Group, S.A. (editor); holders of 5% or more: Páginas Civilizadas, Lda 45.02%, César Manuel Cardoso Matos do Paço 20.00%, KNJ Global Holdings Limited 17.55%, José Pedro Carvalho Reis Soeiro 12.20%, Grandes Notícias, Lda 5.23%",
+    "source_url": "https://www.dn.pt/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.dn.pt/contactos",
+  "people": [
+    {
+      "name": "Filipe Alves",
+      "role": "Diretor (and Diretor Geral Editorial do Global Media Group)",
+      "source_url": "https://www.dn.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Luís Reis Ribeiro",
+      "role": "Redação (member of Conselho de Redação)",
+      "source_url": "https://www.dn.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.dn.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    }
+  ],
+  "gaps": [
+    "No RSS feed verified: https://www.dn.pt/rss returned 404",
+    "Contacts page URL taken from site footer link label, not fetched",
+    "Tech or economy desk bylines not identified"
+  ]
+}

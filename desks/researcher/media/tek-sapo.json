@@ -1,0 +1,82 @@
+{
+  "id": "tek-sapo",
+  "type": "organisation",
+  "kind": "media",
+  "name": "SAPO TEK",
+  "names_as_listed": [
+    "SAPO TEK"
+  ],
+  "media_kind": "online",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://tek.sapo.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://tek.sapo.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Casa dos Bits, Edições Lda (propriedade / editor)",
+    "source_url": "https://tek.sapo.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://tek.sapo.pt/ficha-tecnica/",
+  "public_contact": [
+    {
+      "channel": "Redação: redacao@teknoticias.pt (as published)",
+      "source_url": "https://tek.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://tek.sapo.pt/rss",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Fátima Caçador",
+      "role": "Diretora Editorial",
+      "source_url": "https://tek.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "beat": "technology"
+    },
+    {
+      "name": "Francisca Andrade",
+      "role": "Jornalista",
+      "source_url": "https://tek.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "beat": "technology"
+    },
+    {
+      "name": "Gustavo Dias",
+      "role": "Jornalista",
+      "source_url": "https://tek.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "beat": "technology"
+    },
+    {
+      "name": "Cristina A. Ferreira",
+      "role": "Jornalista",
+      "source_url": "https://tek.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "beat": "technology"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://tek.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    }
+  ],
+  "gaps": [
+    "Section menu includes AI; AI-specific bylines not identified"
+  ]
+}

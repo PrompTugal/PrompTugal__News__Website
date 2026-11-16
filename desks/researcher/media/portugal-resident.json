@@ -1,0 +1,39 @@
+{
+  "id": "portugal-resident",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Portugal Resident",
+  "names_as_listed": [
+    "Portugal Resident"
+  ],
+  "media_kind": "online",
+  "reach": "national",
+  "language": "en",
+  "website": "https://www.portugalresident.com",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.portugalresident.com",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.portugalresident.com/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.portugalresident.com/feed/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "feed fetched"
+    }
+  ],
+  "gaps": [
+    "About page blocked by Cloudflare; owner, masthead, contacts unread"
+  ]
+}

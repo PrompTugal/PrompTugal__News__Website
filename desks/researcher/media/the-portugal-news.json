@@ -1,0 +1,60 @@
+{
+  "id": "the-portugal-news",
+  "type": "organisation",
+  "kind": "media",
+  "name": "The Portugal News",
+  "names_as_listed": [
+    "The Portugal News"
+  ],
+  "media_kind": "newspaper",
+  "reach": "national",
+  "language": "en",
+  "website": "https://www.theportugalnews.com",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.theportugalnews.com",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Anglopress - Edições e Publicidade, Lda (copyright holder)",
+    "source_url": "https://www.theportugalnews.com",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.theportugalnews.com/contacts",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://theportugalnews.com/rss",
+      "checked": "HTTP 200, content-type text/xml;charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Richard Clingen",
+      "role": "CEO",
+      "source_url": "https://www.theportugalnews.com/contacts",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Bruno G. Santos",
+      "role": "Editorial Director",
+      "source_url": "https://www.theportugalnews.com/contacts",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.theportugalnews.com/contacts",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts read"
+    }
+  ],
+  "gaps": [
+    "Owner stated only as copyright holder, not from a ficha técnica",
+    "Although national in scope, the company is registered in Lagoa (Algarve); regional agent may also cover it"
+  ]
+}

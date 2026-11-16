@@ -1,0 +1,36 @@
+{
+  "id": "renascenca",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Renascença",
+  "names_as_listed": [
+    "Rádio Renascença"
+  ],
+  "media_kind": "radio",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://rr.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://rr.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Patriarcado de Lisboa and Conferência Episcopal Portuguesa, through Grupo Renascença Multimédia",
+    "source_url": "https://pt.wikipedia.org/wiki/R%C3%A1dio_Renascen%C3%A7a",
+    "read_at": "2026-11-16"
+  },
+  "sources": [
+    {
+      "url": "https://pt.wikipedia.org/wiki/R%C3%A1dio_Renascen%C3%A7a",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Wikipedia summary read"
+    }
+  ],
+  "gaps": [
+    "Outlet site returned 403 (rr.pt) and 410 (rr.sapo.pt); masthead, contacts, feed unverified"
+  ]
+}

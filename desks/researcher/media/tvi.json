@@ -1,0 +1,39 @@
+{
+  "id": "tvi",
+  "type": "organisation",
+  "kind": "media",
+  "name": "TVI",
+  "names_as_listed": [
+    "TVI"
+  ],
+  "media_kind": "tv",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://tvi.iol.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://tvi.iol.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://tvi.iol.pt/rss",
+      "checked": "HTTP 200 but content-type text/html;charset=UTF-8; body is an RSS 2.0 XML document",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://tvi.iol.pt/rss",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "feed fetched"
+    }
+  ],
+  "gaps": [
+    "Owner, masthead, contacts not read; only the feed was checked"
+  ]
+}

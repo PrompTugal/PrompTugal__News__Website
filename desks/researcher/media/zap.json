@@ -1,0 +1,54 @@
+{
+  "id": "zap",
+  "type": "organisation",
+  "kind": "media",
+  "name": "ZAP",
+  "names_as_listed": [
+    "ZAP"
+  ],
+  "media_kind": "online",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://zap.aeiou.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://zap.aeiou.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Cool Beans!, Lda (editor/propriedade); holders above 5%: vMuse, Lda and Armando Batista",
+    "source_url": "https://zap.aeiou.pt/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://zap.aeiou.pt/ficha-tecnica",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://zap.aeiou.pt/feed",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Armando Batista",
+      "role": "Director",
+      "source_url": "https://zap.aeiou.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://zap.aeiou.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    }
+  ],
+  "gaps": [
+    "Email addresses on the page are obfuscated; not recorded",
+    "Redação names listed (Adriana Peixoto, Miguel Esteves, Nuno Teixeira da Silva, Soraia Ferreira, Teresa Oliveira Campos, Tomás Guimarães) without beats; not recorded as tech beat"
+  ]
+}

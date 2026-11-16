@@ -1,0 +1,52 @@
+{
+  "id": "rtp-noticias",
+  "type": "organisation",
+  "kind": "media",
+  "name": "RTP Notícias (Rádio e Televisão de Portugal)",
+  "names_as_listed": [
+    "RTP Notícias (Rádio e Televisão de Portugal)"
+  ],
+  "media_kind": "tv",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://www.rtp.pt/noticias",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://www.rtp.pt/noticias",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Rádio e Televisão de Portugal, public company (empresa pública)",
+    "source_url": "https://pt.wikipedia.org/wiki/R%C3%A1dio_e_Televis%C3%A3o_de_Portugal",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "http://media.rtp.pt/empresa/contactos/gerais/",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.rtp.pt/noticias/rss",
+      "checked": "HTTP 200, content-type text/xml; charset=UTF-8, RSS body; feed list at https://www.rtp.pt/noticias/rss/feeds",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.rtp.pt/noticias",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "home read, footer links"
+    },
+    {
+      "url": "https://www.rtp.pt/noticias/rss/feeds",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "feed directory read"
+    }
+  ],
+  "gaps": [
+    "Masthead not read",
+    "Public email not extracted"
+  ]
+}

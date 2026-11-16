@@ -1,0 +1,33 @@
+{
+  "id": "expresso",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Expresso",
+  "names_as_listed": [
+    "Expresso"
+  ],
+  "media_kind": "newspaper",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://expresso.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://expresso.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://expresso.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "fetch refused by bot protection (HTTP 403 / JS challenge)"
+    }
+  ],
+  "gaps": [
+    "Site could not be read (bot protection); owner, masthead, contacts, feed all unverified",
+    "https://expresso.pt/rss returned 403",
+    "Not guessed"
+  ]
+}

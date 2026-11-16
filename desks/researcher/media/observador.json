@@ -1,0 +1,85 @@
+{
+  "id": "observador",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Observador",
+  "names_as_listed": [
+    "Observador"
+  ],
+  "media_kind": "online",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://observador.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://observador.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Observador On Time, S.A.; largest holder Amaral y Hijas Holding S.L. (reference shareholder Luís Amaral) 47.65%; Orientempo, Investimentos e Consultoria, S.A. (reference shareholder António Carrapatoso) 7.65%",
+    "source_url": "https://observador.pt/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://observador.pt/contactos",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://observador.pt/feed/",
+      "checked": "HTTP 200, content-type text/xml; charset=utf-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "José Manuel Fernandes",
+      "role": "Publisher",
+      "source_url": "https://observador.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Miguel Pinheiro",
+      "role": "Diretor Executivo",
+      "source_url": "https://observador.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Paulo Farinha",
+      "role": "Editor de Inovação",
+      "source_url": "https://observador.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "beat": "innovation / technology"
+    },
+    {
+      "name": "Pedro Jorge Castro",
+      "role": "Diretor Adjunto",
+      "source_url": "https://observador.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Sara Antunes de Oliveira",
+      "role": "Diretora Adjunta",
+      "source_url": "https://observador.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://observador.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    },
+    {
+      "url": "https://observador.pt/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "fetched; generic address not extracted"
+    }
+  ],
+  "gaps": [
+    "Public editorial address not extracted from contacts page",
+    "Lisbon AI Week listed in the site menu, not investigated"
+  ]
+}

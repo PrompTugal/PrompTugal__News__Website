@@ -1,0 +1,80 @@
+{
+  "id": "jornal-economico",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal Económico",
+  "names_as_listed": [
+    "Jornal Económico"
+  ],
+  "media_kind": "newspaper",
+  "reach": "national",
+  "language": "pt",
+  "website": "https://jornaleconomico.sapo.pt",
+  "places_covered": [
+    {
+      "place": "Portugal",
+      "source_url": "https://jornaleconomico.sapo.pt",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://jornaleconomico.pt/sobre-nos/contactos/",
+  "public_contact": [
+    {
+      "channel": "Redação general address published on the contacts page: economico@medianove.com; online desk: online@medianove.com",
+      "source_url": "https://jornaleconomico.pt/sobre-nos/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://jornaleconomico.sapo.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "João Marcelino",
+      "role": "Diretor",
+      "source_url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Lígia Simões",
+      "role": "Diretora-adjunta",
+      "source_url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Ricardo Ferreira Santos",
+      "role": "Diretor-adjunto",
+      "source_url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Carlos Lourinho",
+      "role": "Editor-executivo",
+      "source_url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica read"
+    },
+    {
+      "url": "https://jornaleconomico.pt/sobre-nos/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts read"
+    }
+  ],
+  "gaps": [
+    "Legal owner name not read (contact domain is medianove.com; not asserted as owner)",
+    "Also publishes Forbes Portugal and Forbes África Lusófona links; not investigated"
+  ]
+}
