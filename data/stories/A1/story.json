@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "A1",
+  "type": "story",
+  "title": "Analysis: people in Portugal use AI more than most Europeans. Their companies do not",
+  "beat": "Analysis",
+  "topic": null,
+  "status": "draft",
+  "rests_on": [],
+  "desk_files": [
+    "desks/analyst-vicky/drafts/A1-people-ahead-companies-behind.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/analyst-vicky/drafts/A1-people-ahead-companies-behind.md"
+    ]
+  },
+  "assignee": "analyst@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/analyst-vicky/drafts/A1-people-ahead-companies-behind.md",
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "the fact-check: every fact re-opened at its source",
+  "history": [
+    {
+      "column": "draft",
+      "at": "2026-11-16",
+      "by": "analyst@PrompTugal.vicky",
+      "file": "desks/analyst-vicky/drafts/A1-people-ahead-companies-behind.md"
+    }
+  ]
+}
