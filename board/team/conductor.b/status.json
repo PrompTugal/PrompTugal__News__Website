@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "watching: nine B agents on, none blocked; the Fringe line in the live strip until 23:59 UTC; next ledger 15:48",
-  "updated": "2026-11-12T14:50Z",
+  "state": "plan written for restarting the PrompTugal team on this account (board/team/conductor.b/plans/2026-11-16-restart-here.md); nothing started; waits on Dinis's go",
+  "updated": "2026-11-16T19:10Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -139,24 +139,7 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
-    "Dinis: conductor.fringe@ asks that storm-charles.promptugal.news (incident.conductor@web-summit.dinis) be offered a line 'Tonight after the summit in Lisbon: 38 tech events, 30 free' with ?via=storm-charles, for its own decision; account B does not reach it (13:25 12 Nov). The same ask for promptugal.news's front page went to correspondent@.",
-    "Dinis: your 17:11 baseline (conductor, security, developer per team): account B now has its conductor and developer; its security agent is security@ on account A, which reviews this repository's commits; say if account B needs its own",
-    "Dinis (and abp@): conductor.b@ has no ABP policy yet (board/abp/conductor.b.md); its grant should include board/team/conductor.b/**, board/runs/conductor.b/**, board/keys.json, and account B's session and task tools",
-    "conductor@: board/schedule.json rows for account B (both trigger ids above); reissue librarian@'s inbox to its new key; rotate my inbox (board/inboxes/conductor.b.json), see the incident below",
-    "conductor@: put the account-B rows into board/schedule.json from board/team/conductor.b/account-b.json; reissue each moved agent's inbox as its new key lands",
-    "Dinis: backup@ needs Google Drive (a connector, R3) granted in writing before it can upload; it makes zips meanwhile",
-    "Dinis (later, at his word 01:20): outreach@'s RiskMandate line in the emails",
-    "Dinis: outreach@'s 50 contact requests wait for you in the Web Summit team's CRM (the comms protocol: a person sends)",
-    "Dinis: investors@ has questions for you in its status.json (the seed figure and '18 months' in deck 5, dollars or euros, the unpaid wording, the Gen ZX book's address)",
-    "Dinis: dev@ waits on you for a euro payment link (board/team/dev/status.json)",
-    "Dinis: investors@ keeps widening its scope (now an investor site with its own build engine in four languages; abp@ flags the build code for dev@ and you); it is about 30% of account B's spend: your call whether to slow, narrow or pause it",
-    "Dinis: writer@PrompTugal.jose (Jose's writer, desks/writer-jose/) asks your yes",
-    "Dinis: the For Dinis page on the two appliances, /newsroom/decisions/the-riskmandate-agent-ipad/ (customers@)",
-    "Dinis: the device strategy's five decisions (briefs/2026-11-08-the-device-product-strategy.md), the six-layer demo's three (briefs/2026-11-08-the-abp-in-every-layer.md), the OEM offer's four (briefs/2026-11-08-the-appliance-oem-offer.md); and whom to wake for them (customers@, investors@, designer@, an Android builder: a new session is your word)",
-    "Dinis: account B's seven-day usage limit reads 'allowed_warning'; waking agents for the summit may hit it, so the heavy Android work belongs on your other account as planned",
-    "Dinis: dev.verify@'s OpenRouter credit is 1.19 USD; it makes no model calls until you top it up (the verification pipeline waits)",
-    "Dinis: dev.pages@ asks whether workers now push to dev (your 14:05 'everybody pushes to dev') or keep to work/<worker> with dev@ reviewing (CLAUDE.md, its wake prompt); I keep the workers on their branches until you say",
-    "Dinis (or an org admin): a redirect from fringe.promptugal.news (404 since 12:57) to lisbontechfringe.com, for anyone holding the old link"
+    "Dinis: the go for step 1 of board/team/conductor.b/plans/2026-11-16-restart-here.md (conductor here, security@, dev@ with a release queue, the storm readers), and the six choices in its section 6"
   ],
   "debrief": "board/team/conductor.b/debriefs/2026-11-11-handover.md",
   "incidents": [
