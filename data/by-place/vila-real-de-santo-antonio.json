@@ -40,6 +40,17 @@
   },
   "ai_news": [
     {
+      "title": "The Lower Guadiana's development association joins a cross-border project that will test AI",
+      "summary": "Odiana, which represents the Baixo Guadiana, is the Portuguese partner in Agrosocial Plus, a 2.06 million euro Spain and Portugal project launched in Córdoba on 22 and 23 September 2026. Its Living Labs are planned to test solutions including artificial intelligence, the Internet of Things and smart irrigation. The article does not say whether Vila Real de Santo António takes part, though the page is tagged with the town.",
+      "date": "2026-09-25",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+      "read_on": "2026-11-16",
+      "ai_path": "The project's Living Labs test AI, which is one step from Odiana and a second from the town, if the town is in its territory. We could not confirm that.",
+      "steps": 2,
+      "significance": "neighbours"
+    },
+    {
       "title": "A Guadiana shipyard plans a defence unit aimed at unmanned vessels",
       "summary": "Nautiber, the shipyard in Vila Real de Santo António, says it plans a new unit to build vessels for the defence sector, targeting unmanned systems and platforms. It has already delivered the structure for four surface drones with a partner and would team up with a Lagos yard, and it has not decided between VRSA, Portimão and Lagos. The piece is sponsored content, so these are the company's own claims.",
       "date": "2025-12-17",
@@ -145,6 +156,12 @@
       "url": "https://cima.ualg.pt/en/info/data-products",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "Odiana, Baixo Guadiana development association (project news via Barlavento)",
+      "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+      "kind": "other",
+      "feed": null
     }
   ],
   "events": [],
@@ -208,6 +225,16 @@
       "read_on": "2026-11-16",
       "ai_path": "A shared data platform fed by town sensors is the layer that data-based decisions, and AI on top of them, would use. The project summary mentions no AI.",
       "steps": 2
+    },
+    {
+      "name": "Odiana, Baixo Guadiana development association",
+      "type": "organisation",
+      "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+      "what": "Association that represents the Baixo Guadiana in the cooperation network of Agrosocial Plus, a 2,062,429.85 euro Interreg Spain-Portugal project, funded 75 percent by ERDF, whose Living Labs will test AI, IoT and smart irrigation. The article does not say whether Vila Real de Santo António is part of the project.",
+      "source_url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+      "read_on": "2026-11-16",
+      "ai_path": "Its project tests AI in Living Labs, with the town's link to it unconfirmed.",
+      "steps": 2
     }
   ],
   "extras": [
@@ -251,14 +278,15 @@
     "No local news about AI itself. The two items we carry are about the data groundwork and a Spanish neighbour. We should watch Barlavento, Sul Informação and the council's news page for the first one.",
     "The Ayamonte innovation node and AI assistant come from a March 2024 interview. A new search found no later source confirming either, and the EU project database page for Ayamonte's Smart City project would not open for us. Ask the Eurocidade and Ayamonte's council whether the node launched and whether VRSA companies take part.",
     "The council's news page loaded only partly, and the Eurocidade site returned an error. Postal do Algarve and the PRR project pages for VRSA Digital were behind a bot check or a login, so we did not read them.",
-    "No upcoming events with an AI link found. The Eurocidade's November events are cultural and sporting.",
     "We found no AI course or programme at the municipality's schools or its hospitality and tourism school. The nearest AI-adjacent teaching we saw is in Faro, at the Universidade do Algarve. Ask the school cluster and the Escola de Hotelaria e Turismo for their 2026/2027 offer.",
     "The blue economy is the town's strongest economic story, but the sources we read mention no AI in it. A February 2026 meeting and the Nautiber yard are on the page for that reason. We should watch for sea-tech, aquaculture monitoring or port digitalisation projects.",
     "NERA runs digital projects across the Algarve (we saw DIBEST for microenterprises and a farm digitalisation survey in search results) but we have not opened a source or found one that names the municipality, so none is on the page.",
     "Local media: we found regional outlets that cover the town (Barlavento, Sul Informação, Postal do Algarve, 24notícias) but no local radio, blog or newsletter based in the municipality. Ask the council and the Eurocidade which exist. Only Sul Informação gave us an RSS feed.",
     "Investors, startups, local talent and cooperatives: we found none in public sources so far. The Entrepreneurship Office's workshops and the Eurocidade's women entrepreneurs network (seen in search results, not opened) are where to look next.",
     "Algarve Evolution and the regional tech network (Algarve Tech Hub, Digital Innovators) publish no member list by municipality that we could read, so we cannot say whether any member is based in Vila Real de Santo António. The Algarve file of this publication covers the regional level.",
-    "The Algarve 6.0 sensor platform showed 0 euros spent for Vila Real de Santo António on the day we read it, with an expected end date of 30 June 2026 that has passed. We do not know what is installed in the town. Ask the council and the state's technological reform agency."
+    "The Algarve 6.0 sensor platform showed 0 euros spent for Vila Real de Santo António on the day we read it, with an expected end date of 30 June 2026 that has passed. We do not know what is installed in the town. Ask the council and the state's technological reform agency.",
+    "We could not confirm whether Vila Real de Santo António is in Odiana's territory or takes part in Agrosocial Plus: the Barlavento article names no municipality, and the regional outlet that would say so is behind a bot check for our reader. Ask Odiana and the council.",
+    "No upcoming events with an AI link found for the town. Search results showed a women entrepreneurs meeting in the municipal library and the Monte Gordo Sand Race on 27 to 29 November 2026, but the first is not clearly dated 2026 and neither has an AI link. The nearest tech events are in Lagos and Lisbon."
   ],
   "voice": {
     "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",

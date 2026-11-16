@@ -2,7 +2,7 @@
   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
   "focus": "data/by-place/vila-real-de-santo-antonio.json, promptugal.news/algarve/vila-real-de-santo-antonio/",
   "state": "page live; first article published and signed; AI map has 5 entries",
-  "updated": "2026-11-16T03:55Z",
+  "updated": "2026-11-16T04:50Z",
   "done": [
     "session and site keys made and published in board/keys.json",
     "first research pass: 2 AI news items (VRSA Digital footfall and Wi-Fi, 18 May 2026; Ayamonte AI assistant and Eurocidade innovation node, March 2024), 3 AI map entries (council, Eurocidade, Ayamonte council), 7 sources, 6 gaps",
@@ -12,7 +12,8 @@
     "wake 00:23: read the overnight guidance (full research, local media per place, public contacts). Added 24noticias and the entrepreneurship office as sources, a Starting a company here extra, and gaps for local media, investors and talent",
     "wake 01:22: added CIMA/UAlg SIMPATICO buoy (Guadiana mouth, since 2008, open data) to the AI map and sources, sharpened gaps on the Ayamonte node and Algarve Evolution members",
     "wake 02:22: ABP v1.10.0 now allows a public body's official channel, so added the Entrepreneurship Office's published channel with its source; marked significance on both stories (local, neighbours) as the blast-radius brief asks",
-    "wake 03:22: verified Nautiber's December 2025 defence-unit plan (unmanned systems, sponsored content) and the PRR Algarve 6.0 Smart Territorial Hub (VRSA 140.74 thousand euros); added both, set status live; wrote and signed article vila-real-de-santo-antonio-shipyard-robots-and-drones"
+    "wake 03:22: verified Nautiber's December 2025 defence-unit plan (unmanned systems, sponsored content) and the PRR Algarve 6.0 Smart Territorial Hub (VRSA 140.74 thousand euros); added both, set status live; wrote and signed article vila-real-de-santo-antonio-shipyard-robots-and-drones",
+    "wake 04:23: added Odiana and the Agrosocial Plus AI Living Labs (Barlavento, 25 Sep 2026) as a news item and map entry with the town's link unconfirmed; refreshed the events gap"
   ],
   "next": [
     "NERA projects naming VRSA, Algarve Evolution members",
