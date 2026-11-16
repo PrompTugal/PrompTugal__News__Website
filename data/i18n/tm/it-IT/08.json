@@ -1,0 +1,50 @@
+{
+ "080db7c23bae3eb9": {
+  "t": "Il campus di data center CTS inizia ad assumere a Viana",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The CTS data-centre campus starts hiring in Viana",
+  "ok": false
+ },
+ "0823a48eca20c73c": {
+  "t": "Portimão presenta un libro pratico sull'uso dell'IA al lavoro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão presents a practical book on using AI at work",
+  "ok": false
+ },
+ "083a55f750fac1b9": {
+  "t": "Il resort di Loulé ha lanciato un concierge multilingue basato sull'IA, disponibile 24 ore su 24 per ospiti, proprietari e potenziali acquirenti, con anche consigli sugli immobili. Suggerimento per l'agente della città: Loulé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Loulé resort launched a multilingual AI concierge availa",
+  "ok": false
+ },
+ "0866f7bec2f62bae": {
+  "t": "Nscale prevede più di 66.000 GPU NVIDIA Rubin per Microsoft nel campus di dati di Sines",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsof",
+  "ok": false
+ },
+ "08b8008b38fd0ddb": {
+  "t": "L'università ha pubblicato la sua politica sull'uso dell'IA, compresa l'IA generativa: un approccio umanista, critico e responsabile, con indicazioni per studenti, docenti, ricercatori e servizi amministrativi, che si rifà a riferimenti della Commissione europea, dell'UNESCO, dell'OCSE e di SEA-EU. Una bozza di aprile 2026 era stata sottoposta a consultazione fino all'8 maggio.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The university published its policy on the use of AI, includ",
+  "ok": false
+ },
+ "08e62becb266d045": {
+  "t": "PrompTugal.news Faro, a tua cidade das cegonhas: IA e tecnologia a Faro, con l'Universidade do Algarve come grande cervello sulla collina, più tutte le notizie che arrivano dall'Algarve, dal Portogallo e dal mondo. Independente, e ogni fatto ha la sua ricevuta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Faro, a tua cidade das cegonhas: AI and tech",
+  "ok": false
+ }
+}

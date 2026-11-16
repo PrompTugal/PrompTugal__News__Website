@@ -209,7 +209,9 @@
     "We have not found a data centre, an AI research group, an AI training course or an AI investor in the municipality.",
     "The council's incubation space (Edifício Multifuncional de Empresas) describes itself as for innovative, scalable projects but its page mentions no digital, tech or AI focus, and we found no company in it with an AI link.",
     "Investors: we found no investor, fund or investment in a Castro Marim company in public sources. The only funding trace is council projects, so the investment map is empty here, which is itself a finding.",
-    "Local talent: we found no publicly speaking AI or tech person tied to Castro Marim, and the council business page names no desk or contact for entrepreneurs beyond its general office. A named business-support contact would help a founder starting here."
+    "Local talent: we found no publicly speaking AI or tech person tied to Castro Marim, and the council business page names no desk or contact for entrepreneurs beyond its general office. A named business-support contact would help a founder starting here.",
+    "The Algarve dementia congress said to be held in Castro Marim on 12 and 13 November with an AI session is not confirmed: the council's news list for 2 to 16 November has no such item. Not a fact until a page we can open shows it.",
+    "No council meeting decisions and no new salt or SalOS item on the pages opened on 16 November; the fetch tool summarises pages, so dates should be rechecked on the live pages."
   ],
   "voice": {
     "lede": "Cá em Castro Marim the salt dries in the sun and the AI, ó pá, still has to be asked to come up from the car park.",
@@ -252,6 +254,72 @@
       "source_url": "https://cm-castromarim.pt/site/conteudo/apoio-empresas",
       "read_on": "2026-11-16",
       "channel": "General email expediente@cm-castromarim.pt and phone +351 281 510 740, office hours 9:00 to 13:00 and 14:00 to 17:00, as published on the council's business-support page and in the Contactos Gerais block of its home page"
+    },
+    {
+      "name": "Câmara Municipal de Castro Marim, front-page office contact",
+      "what": "Published address, phone, email and counter hours on the council's front page.",
+      "url": "http://cm-castromarim.pt/site/",
+      "source_url": "http://cm-castromarim.pt/site/",
+      "read_on": "2026-11-16",
+      "channel": "expediente@cm-castromarim.pt; +351 281 510 740; Rua Dr. José Alves Moreira 10, 8950-138 Castro Marim; 9:00-13:00 and 14:00-17:00"
+    }
+  ],
+  "local_news": [
+    {
+      "title": "Castro Marim renews the quay of the Sapal nature reserve, with FEDER funding",
+      "summary": "Total investment 683,599.01 euros (594,175.47 eligible), FEDER up to 60%. The same application covers a salt-pan warehouse, the Revelim interpretation centre and a Biosphere Reserve candidacy for the reserve, which Vila Real de Santo António shares.",
+      "date": "2026-11-03",
+      "publisher": "Câmara Municipal de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/requalificacao-e-valorizacao-do-cais-da-reserva-natural-do-sapal-de-castro-marim-e-vrsa",
+      "read_on": "2026-11-16",
+      "significance": "town and neighbours",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Vila Real de Santo António (shared reserve)"
+    },
+    {
+      "title": "Works start on the Castro Marim health centre, backed by Algarve 2030",
+      "summary": "Energy efficiency, accessibility and solar panels; services move temporarily to the former Azinhal health centre. The council says the state's competence transfer did not include the financial instruments, so it found alternative funding.",
+      "date": "2026-11-04",
+      "publisher": "Câmara Municipal de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/inicio-de-obra-de-requalificacao-do-centro-de-saude-de-castro-marim-com-apoio-do-algarve",
+      "read_on": "2026-11-16",
+      "significance": "town and region",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "Castro Marim's basic school climbs 264 places in the national 9th-grade ranking",
+      "summary": "From 1,039th (2024) to 775th (2025), data from Nova SBE; the 'CM Educa+' programme uses a digital learning platform developed by the University of Algarve. The page does not say the platform uses AI.",
+      "date": "2026-11-13",
+      "publisher": "Câmara Municipal de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/escola-basica-de-castro-marim-sobe-centenas-de-lugares-no-ranking-nacional",
+      "read_on": "2026-11-16",
+      "significance": "town and country",
+      "ai_path": "No AI stated: council and school grouping, University of Algarve digital platform, pupils.",
+      "steps": 2
+    },
+    {
+      "title": "'Jovens pelo Ambiente' wins first place in the Algarve youth-volunteering award",
+      "summary": "Handed over on 14 November; the council project runs with the Young Link association under an IPDJ programme, with litter collection and planting in the Sapal reserve.",
+      "date": "2026-11-16",
+      "publisher": "Câmara Municipal de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/projeto-jovens-pelo-ambiente-recebeu-premio-de-primeiro-lugar-no-algarve-no-voluntariado",
+      "read_on": "2026-11-16",
+      "significance": "town and region",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "Castro Marim closed non-essential council services on 11 November for storm Charles",
+      "summary": "The government declared an alert for 11 November on an IPMA forecast; civil protection, telephone service and social action kept running.",
+      "date": "2026-11-10",
+      "publisher": "Câmara Municipal de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/aviso-populacao-encerramento-dos-servicos-nao-essenciais-depressao-charles",
+      "read_on": "2026-11-16",
+      "significance": "town, region and country",
+      "ai_path": "no AI",
+      "steps": 0
     }
   ]
 }

@@ -453,12 +453,171 @@
     "The HLink page does not say who organises LINKA-TE, so HLink is not on the map. NEXXT Leiria has no single organiser named either.",
     "Investors beyond Portugal Ventures and C2 Capital Partners are not mapped. Sources to look for: Banco Português de Fomento notices, Ó Capital (a workshop at Startup Leiria in August 2026) and the Brainr and Mantis-AI investor pages.",
     "We did not read websummit.com, lu.ma, luma.com, meetup.com or eventbrite, so community meetups listed only there, such as Leiria Tech Talks, are not covered.",
-    "No official contact is listed. We did not confirm a published contact for the council's economic desk or for Startup Leiria on an official page."
+    "Contacts: the council's pages (Informações úteis, Espaço Empresa, PRO Leiria) loaded as menus without article text in what we could read, so we link the official pages and do not state a channel or say what Espaço Empresa offers. Startup Leiria publishes a phone and a booking page, but it is a non-profit, not a public body, so we list no contact for it.",
+    "No 2026 edition of the Leiria Crescimento call was found, and the STRIDE 351 article names no investment amount. Whether IPLeiria runs an incubator or the spin-off seal as a public programme is not on its entrepreneurship page."
   ],
   "voice": {
     "lede": "Leiria, pá: a castle on the hill, moulds in the valley and, lately, a robot lab on the way to the market, because apparently this city makes things and now teaches them to think.",
     "mandate": "PrompTugal.news Leiria, a cidade do castelo: AI and tech in Leiria, with Startup Leiria, the polytechnic and a very busy factory belt at the centre, plus whatever news arrives from Portugal, Europe and the world. Independent, and every fact comes with a receipt.",
     "gravity": "Leiria is the only place where a medieval castle gets an AI audio guide, the market gets a robotics lab and the moulds and plastics still pay the bills. The incubator, the university and the factories hold hands, the council is the first customer of two tourism startups, and nobody has written the big municipal AI plan yet. Sim senhor, a city that builds first and writes the strategy later.",
     "gaps_intro": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not told us yet:"
-  }
+  },
+  "start_company": [
+    {
+      "name": "Startup Leiria: incubation and acceleration",
+      "what": "Non-profit incubator and accelerator that says it supports entrepreneurs and companies from the idea stage. Its front page lists incubation and acceleration, hosting and business-address registration, and a coworking space in central Leiria. It also lists Link Her (a community for women entrepreneurs, news item of 23 October 2026), social-innovation projects and Academy for Impact. It publishes no formal application process or deadline.",
+      "url": "https://startupleiria.com/",
+      "source_url": "https://startupleiria.com/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "Startup Leiria: STRIDE 351 for international scale-ups",
+      "what": "Call run by Startup Leiria with C2 Capital Partners for technologically mature international scale-ups that want to set up in Portugal. Focus areas: defence and dual use, agrotech, industry and hardware, healthcare, high-growth services. Applications close on 18 November 2026. The article states no investment amount and does not use the name STRIDE 351 itself, so the link to the menu entry is our inference.",
+      "url": "https://startupleiria.com/startup-leiria-capta-scale-ups-internacionais/",
+      "source_url": "https://startupleiria.com/startup-leiria-capta-scale-ups-internacionais/",
+      "read_on": "2026-11-16",
+      "kind": "accelerator"
+    },
+    {
+      "name": "Startup Leiria: Cowork and business-address hosting",
+      "what": "Office and coworking space in central Leiria, with support for registering a business address.",
+      "url": "https://startupleiria.com/",
+      "source_url": "https://startupleiria.com/",
+      "read_on": "2026-11-16",
+      "kind": "space"
+    },
+    {
+      "name": "Call Leiria Crescimento (Portugal Ventures, NERLEI, Banco Português de Fomento)",
+      "what": "PRR-funded call for Leiria-region companies, in its third edition in 2025 with investments of 250,000 to 1.5 million euros per company and applications from 8 April to 18 May 2025. Four Startup Leiria companies shared 5.5 million euros. We found no 2026 edition.",
+      "url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "source_url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    },
+    {
+      "name": "Leiria council: Espaço Empresa and PRO Leiria",
+      "what": "The council's Economia section lists an Espaço Empresa desk, PRO Leiria economic development and the Monte Redondo business park. The pages we could read are menus without text, so we cannot say what each offers.",
+      "url": "https://www.cm-leiria.pt/areas-de-atividade/economia/espaco-empresa",
+      "source_url": "https://www.cm-leiria.pt/areas-de-atividade/economia/espaco-empresa",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Leiria Experience Lab (Startup Leiria with the council)",
+      "what": "Programme in which the council tests local startup products as first customer: it bought Leiria Concierge and Guide Sofia for 7,500 euros in total in 2026.",
+      "url": "https://www.diarioleiria.pt/2026/07/25/leiria-investe-em-solucoes-tecnologicas-para-reforcar-turismo/",
+      "source_url": "https://www.diarioleiria.pt/2026/07/25/leiria-investe-em-solucoes-tecnologicas-para-reforcar-turismo/",
+      "read_on": "2026-11-16",
+      "kind": "programme"
+    },
+    {
+      "name": "Poliempreende (Politécnico de Leiria, becoming ULO)",
+      "what": "National higher-education entrepreneurship network programme to build entrepreneurial culture, develop business plans and reward the best projects. The page says over 813 participants and more than 58,000 euros in prizes across editions, and lists about 30 spin-off companies. It names no incubation or spin-off seal.",
+      "url": "https://www.ipleiria.pt/inovar/inovacao/empreendedorismo/",
+      "source_url": "https://www.ipleiria.pt/inovar/inovacao/empreendedorismo/",
+      "read_on": "2026-11-16",
+      "kind": "mentoring"
+    },
+    {
+      "name": "NEXXT Leiria: Leiria Nexxt Ideas",
+      "what": "Ideas contest of the NEXXT Leiria event. The 2026 edition named ten winners from 42 applications, four of them AI projects.",
+      "url": "https://www.diarioleiria.pt/2026/11/02/saiba-os-projetos-distinguidos-como-leiria-nexxt-ideas-2026/",
+      "source_url": "https://www.diarioleiria.pt/2026/11/02/saiba-os-projetos-distinguidos-como-leiria-nexxt-ideas-2026/",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Portugal Ventures (Leiria Crescimento)",
+      "what": "Invested 5.5 million euros in four Startup Leiria companies in 2025: BHOUT, Glartek, Leadzai and Mantis AI. The article gives no per-company amounts.",
+      "url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "source_url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "read_on": "2026-11-16",
+      "type": "investor",
+      "amount": "5.5 million euros (four companies)",
+      "date": "2025-04-11",
+      "ai_path": "Funds Leiria AI startups (Mantis AI, Glartek): one step from AI."
+    },
+    {
+      "name": "Portugal Ventures into Brainr",
+      "what": "Added 1.5 million euros to Brainr's seed round in July 2026.",
+      "url": "https://portugalstartupnews.com/2026/07/03/food-industry-software-startup-brainr-extends-record-seed-round-with-e1-5m-investment/",
+      "source_url": "https://portugalstartupnews.com/2026/07/03/food-industry-software-startup-brainr-extends-record-seed-round-with-e1-5m-investment/",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "1.5 million euros",
+      "date": "2026-07-03",
+      "ai_path": "AI food-factory platform: directly about AI."
+    },
+    {
+      "name": "C2 Capital Partners into Brainr",
+      "what": "Led Brainr's record seed round of up to 11 million euros, announced in 2025.",
+      "url": "https://www.brainr.com/articles/record-seed-round-ai-food-factories",
+      "source_url": "https://www.brainr.com/articles/record-seed-round-ai-food-factories",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "up to 11 million euros",
+      "date": "2025",
+      "ai_path": "AI food-factory platform: directly about AI."
+    },
+    {
+      "name": "Call Leiria Crescimento (programme)",
+      "what": "PRR-funded programme run by Portugal Ventures with NERLEI and Banco Português de Fomento, with 250,000 to 1.5 million euros per company in its 2025 edition.",
+      "url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "source_url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "amount": "250,000 to 1.5 million euros per company",
+      "date": "2025-04-08",
+      "ai_path": "Funded Mantis AI and Glartek: one step from AI."
+    },
+    {
+      "name": "Centro 2030 application for the Physical AI lab",
+      "what": "Startup Leiria's planned lab of nearly 2,000 square metres, about 1.7 million euros, depends on a Centro 2030 application still under review, aiming to open in 2027.",
+      "url": "https://eco.sapo.pt/2026/10/13/startup-leiria-expande-area-para-acolher-laboratorio-de-robotica-e-ia/",
+      "source_url": "https://eco.sapo.pt/2026/10/13/startup-leiria-expande-area-para-acolher-laboratorio-de-robotica-e-ia/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "about 1.7 million euros (project cost)",
+      "date": "2026-10-13",
+      "ai_path": "A lab for AI and robotics: directly about AI."
+    },
+    {
+      "name": "Comcast NBCUniversal, Opus Investimentos and Portugal Ventures into Mantis-AI",
+      "what": "The investors named by the company's own profile article.",
+      "url": "https://linktoleaders.com/de-leiria-para-o-mundo-mantis-ai-revoluciona-videos-com-inteligencia-artificial/",
+      "source_url": "https://linktoleaders.com/de-leiria-para-o-mundo-mantis-ai-revoluciona-videos-com-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "ai_path": "AI video analysis: directly about AI."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Politécnico de Leiria (becoming the Universidade de Leiria e Oeste), central services",
+      "what": "The public higher-education body's general channel, published on its entrepreneurship page. It has no dedicated entrepreneurship contact; for Poliempreende the page links poliempreende.ipleiria.pt.",
+      "url": "https://www.ipleiria.pt/inovar/inovacao/empreendedorismo/",
+      "source_url": "https://www.ipleiria.pt/inovar/inovacao/empreendedorismo/",
+      "read_on": "2026-11-16",
+      "channel": "general service desk at Serviços Centrais, Rua General Norton de Matos, Leiria, with the phone and general email printed on that page (open the linked page for the details)"
+    },
+    {
+      "name": "Câmara Municipal de Leiria, Contactos (Informações úteis)",
+      "what": "The council's contacts page, linked from every page of its site. The part we could read was menus only, so we did not read the details printed there.",
+      "url": "https://www.cm-leiria.pt/municipio/camara-municipal/informacoes-uteis",
+      "source_url": "https://www.cm-leiria.pt/municipio/camara-municipal/informacoes-uteis",
+      "read_on": "2026-11-16",
+      "channel": "the council's published contacts page; open it for the details"
+    },
+    {
+      "name": "Câmara Municipal de Leiria, Balcão Virtual",
+      "what": "The council's online service portal, with Serviços Online and Urbanismo Online.",
+      "url": "https://www.cm-leiria.pt/apoio-ao-municipe/balcao-virtual",
+      "source_url": "https://www.cm-leiria.pt/",
+      "read_on": "2026-11-16",
+      "channel": "the council's online service portal (Balcão Virtual)"
+    }
+  ]
 }

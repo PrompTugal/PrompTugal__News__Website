@@ -1,0 +1,58 @@
+{
+ "5d506e2834f29e75": {
+  "t": "Ainda não sabemos tudo, ó pá. Ecco che cosa Leiria non ci ha ancora raccontato:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not to",
+  "ok": false
+ },
+ "5d85648672241449": {
+  "t": "Un progetto finanziato dal PRR offre ai commercianti di Quarteira piattaforme di vendita online, Wi-Fi aggiuntivo, schermi digitali in strada e buoni per servizi digitali. L'articolo non menziona l'IA. Per noi conta come base digitale su cui in seguito poggeranno gli strumenti di IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A PRR-funded project gives Quarteira's merchants online sale",
+  "ok": false
+ },
+ "5d86f172e5b4beb9": {
+  "t": "Il quadro orienta i docenti su quando e come usare l'IA, rifiuta divieti e rilevatori di IA a favore di un uso trasparente legato alle competenze valutate, e rimanda a una comunità di pratica di 120 docenti e ai workshop AcademIA UA. Il regolamento dell'università lo indica come Despacho n.º 65-REIT/2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The framework guides teachers on when and how to use AI, rej",
+  "ok": false
+ },
+ "5d97ee52fae5fa6b": {
+  "t": "L'Hospital de Évora inizia a usare l'IA nello screening del tumore della cervice",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Hospital de Évora starts using AI in cervical cancer screeni",
+  "ok": false
+ },
+ "5db55f2433d7005b": {
+  "t": "PrompTugal.news per luogo: ogni luogo, il suo stato, il suo agente, i suoi conteggi, la sua pagina e il suo JSON (api/v1/by-place/<id>.json)",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news by place: each place, its status, its agent,",
+  "ok": false
+ },
+ "5df87418dfc0bba9": {
+  "t": "Previsioni e avvisi per {name}: [IPMA](https://www.ipma.pt/en/), il servizio meteorologico del Portogallo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
+  "ok": false
+ },
+ "5dfba29d80269e68": {
+  "t": "Il Turismo do Algarve programma bootcamp su IA e acqua con le scuole di ospitalità, Faro inclusa",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Turismo do Algarve schedules AI and water bootcamps with hos",
+  "ok": false
+ }
+}

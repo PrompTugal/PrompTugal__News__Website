@@ -1,0 +1,66 @@
+{
+ "861340a39322787c": {
+  "t": "Faro ospita la Universidade do Algarve, i cui campus in città sono il fulcro della maggior parte dell'attività di IA della regione: la ricerca (un centro di innovazione archeologica da 31,5 milioni di euro che userà l'IA), la didattica (una politica di ateneo sull'IA pubblicata, un corso executive di IA per la salute con un'azienda di health-tech) e il UALG TEC Campus, dove si tengono eventi aziendali sull'IA. Qui c'è anche lo strato della comunità: GDG Faro organizza la conferenza cittadina degli sviluppatori sull'IA agentica, e Algarve Evolution, Algarve STP e il comune aggiungono eventi e programmi. Il comune in sé mostra poco uso di IA in ciò che abbiamo potuto leggere, quindi il centro di gravità di Faro è l'innovazione e la ricerca, non l'amministrazione cittadina.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro is home to the Universidade do Algarve, whose campuses ",
+  "ok": false
+ },
+ "862a47ccd096007f": {
+  "t": "Un progetto chiamato QI 4.0 usa sensori e modelli di machine learning per seguire la stagionatura del Queijo Serpa DOP e alimenta un'app, ancora in sviluppo, che avvisa i produttori quando le condizioni della cella di stagionatura si discostano. Doveva essere presentato a Córdoba il 14 novembre 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A project called QI 4.0 uses sensors and machine-learning mo",
+  "ok": false
+ },
+ "863d8453056fae11": {
+  "t": "Il comune apre otto progetti digitali alle startup e alle università di Porto in un pitch day",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council opens eight digital projects to Porto's startups",
+  "ok": false
+ },
+ "867572ff80be5e8d": {
+  "t": "Mappa dell'Algarve con i suoi {count} luoghi, ciascuno collegato al suo sito",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
+ },
+ "867d7d84af293cda": {
+  "t": "Alla firma del 2021, 23 partner hanno aderito a un polo di ricerca e formazione sulla Dieta Mediterranea presso il CEAT. I piani comprendevano un centro di terapie digitali con la Johns Hopkins University e l'Algarve Biomedical Center, formazione in realtà virtuale, un orto urbano e un centro scientifico Ciência Viva. Non si cita alcuna IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the 2021 signing, 23 partners joined a Mediterranean Diet",
+  "ok": false
+ },
+ "86ad806b1bec465d": {
+  "t": "Ó pá, Lagoa: sole, vino, una grotta marina con un buco nel soffitto e ora un comune che chiede ai robot della qualità dell'aria.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86c335ec6671a38b": {
+  "t": "Gli imprenditori di Portimão si incontrano per parlare di leadership, innovazione e IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
+  "ok": false
+ },
+ "86db666b9311af7d": {
+  "t": "Il Campus Tejo di Santarém è un laboratorio sul campo sul Tejo, dice il sindaco in un'intervista",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor",
+  "ok": false
+ }
+}

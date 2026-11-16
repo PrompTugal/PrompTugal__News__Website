@@ -1,0 +1,35 @@
+{
+  "about": "Jose's account: each of his PrompTugal sessions and scheduled tasks, as Jose reports them. This conductor starts, schedules, pauses and messages nothing (R4); Jose does those by hand, after Dinis's yes for that session is recorded.",
+  "updated": "2026-11-16T19:35Z",
+  "agents": [
+    {
+      "agent": "conductor@PrompTugal.jose",
+      "session": "session_01CqQLD944eKWrwwiaimessY",
+      "trigger": null,
+      "cron": null,
+      "state": "on, run when Jose prompts it; no scheduled task reported",
+      "started": "2026-11-16",
+      "key": "conductor-jose-promptugal",
+      "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md"
+    },
+    {
+      "agent": "local@PrompTugal.jose",
+      "session": null,
+      "trigger": null,
+      "cron": null,
+      "state": "not started; Jose is preparing its prompt; no schedule (standing rule J7)",
+      "key": null,
+      "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md"
+    },
+    {
+      "agent": "writer@PrompTugal.jose",
+      "session": "one session per piece, started by Jose; none reported running",
+      "trigger": null,
+      "cron": null,
+      "state": "between sessions; JW1 waits for a review",
+      "key": "writer-jose-promptugal",
+      "dinis_yes": null,
+      "note": "No guidance file names the writer desk. Its README has asked Dinis's yes since 7 November 2026."
+    }
+  ]
+}

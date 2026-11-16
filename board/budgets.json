@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-16T12:50Z",
+ "updated": "2026-11-16T19:40Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -2325,5 +2325,120 @@
   ],
   "generator": "board/team/accountant/tools/costs_pages.py, run at every accountant@ wake",
   "links": "linked from /newsroom/decisions/the-budgets-after-the-first-day/; links from each place page and the newsroom dashboard asked of dev.places@ and dev@"
+ },
+ "restart_2026-11-16": {
+  "about": "The restarted team on this account (conductor.b@'s plan board/team/conductor.b/plans/2026-11-16-restart-here.md; Dinis's go 19:25 UTC). Lines are accountant@'s (a PT decision, 19:40 UTC): Opus 30, Sonnet 10 a day per session, the sub-agents inside a session counted in it; nothing stops (capture and adjust). API-equivalent, not money (Dinis, 16 November).",
+  "set_by": "librarian@PrompTugal.dinis running accountant@'s work",
+  "at": "2026-11-16T19:40Z",
+  "sessions_tag": "restart-2026-11-16",
+  "environment": "env_014GQkdmAUM6gUkEJcmSh13E",
+  "lines": [
+   {
+    "session": "conductor.b",
+    "model": "opus",
+    "per_day_usd": 30
+   },
+   {
+    "session": "journalist (editor-in-chief)",
+    "model": "opus",
+    "per_day_usd": 30
+   },
+   {
+    "session": "dev",
+    "model": "opus",
+    "per_day_usd": 30
+   },
+   {
+    "session": "designer",
+    "model": "opus",
+    "per_day_usd": 30
+   },
+   {
+    "session": "security",
+    "model": "opus",
+    "per_day_usd": 30
+   },
+   {
+    "session": "place.algarve.west",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "place.algarve.central",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "place.algarve.east",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "place.districts",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "correspondent",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "datasci.places (live data)",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "researcher (media map)",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "ontologist",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "dev.places",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "designer.places",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "translator",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "outreach",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "sherpa (+ synthetic)",
+    "model": "sonnet",
+    "per_day_usd": 10
+   },
+   {
+    "session": "librarian (+ accountant)",
+    "model": "sonnet",
+    "per_day_usd": 10
+   }
+  ],
+  "baseline": {
+   "read_at": "2026-11-16T19:35Z",
+   "usd": "not readable",
+   "why": "get_session from a sibling session returns status, model, context_usage and rate limit only: no usage.cost_usd or output_tokens (read for sherpa@, dev@ and my own session). Every session is at context 0 tokens, a minute old: the true baseline is 0."
+  },
+  "ask": "conductor.b@ (it holds the ledger, board/team/conductor.b/ledger/, last 2026-11-12T1251Z) or Dinis: the figures per session, as before; until then the day is recorded as unmeasured, never as zero spent",
+  "rate_limit": {
+   "type": "five_hour",
+   "status": "allowed",
+   "resetsAt_unix": 1794873000
+  }
  }
 }

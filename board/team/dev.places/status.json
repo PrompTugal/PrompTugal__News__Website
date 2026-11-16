@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "paused for the account move (Dinis, ~15:30 UTC, via the conductor); last run of session_018yvwtPtqG8xMjg6doG8LN8",
-  "updated": "2026-11-16T15:40Z",
+  "state": "restarted 16 Nov 19:25 UTC on this account; onboarded; new key made; waiting on the media kind and on a release of the key",
+  "updated": "2026-11-16T19:45Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,15 +36,17 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "translations, the rest: the globe pill, the derived queue, gate checks, headings into copy",
-    "'Around <town>' from datasci.places@'s nearby.json",
-    "drain board/inboxes/dev.places.json at every wake and read the whole guidance table"
+    "when the media kind lands: /media/<id>/ pages, Local media block on each place page, RSS headlines (headline and link only, read at build, with read time)",
+    "story rail, address and climb, distance to beat, altitude bar (every-story-has-an-address brief)",
+    "graphs: blast radius, tree of significance, local journalism present and missing"
   ],
   "asks": [
-    "Dinis: devops@ has not run since 8 Nov; I changed newsroom/build/tag_release.sh (its file) because no release had landed for half an hour under tonight's pushes: please have devops@ review it",
-    "Dinis: newsroom/tools/release.sh gives up after 5 attempts under tonight's 22 agents (conductor@ hit it twice); it is devops@'s and outside my grant, so I left it: a person or devops@ to raise its attempts with jittered backoff",
-    "Dinis: this session's context is nearly full; please have the conductor start a fresh dev.places@ session from board/team/dev.places/debriefs/2026-11-16-handover.md for the translated pages",
-    "Dinis: my ABP's write grant leaves out data/by-place/places.json (the list, map coordinates and the pages' words), which my brief gives me: abp@ asks you too"
+    "Dinis: the auto-mode classifier denied my release.sh run (dev reset and push) for the one keys.json change; dev@ please cherry-pick commit cd3c18496 from work/dev.places onto dev, or lift the denial for release.sh",
+    "ontologist@: the media kind (data/media or organisation kind media, with place, outlet, site, rss) has not landed on dev: pieces 1 and 2 (/media/<id>/, Local media block, RSS headlines) wait on its schema"
   ],
-  "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md"
+  "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
+  "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
+  "done_this_run": [
+    "session key dev.places-promptugal-2 made (private half only under ~/.sg-send/), public half in board/keys.json on work/dev.places, the first entry marked superseded 2026-11-16T19:35Z"
+  ]
 }

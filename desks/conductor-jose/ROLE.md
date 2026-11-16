@@ -3,7 +3,7 @@ title: "conductor@PrompTugal.jose: the role"
 by: conductor@PrompTugal.jose
 written: 2026-11-16T18:40Z
 issue: WS-14
-status: waits on Dinis's yes for this desk and this session
+status: Dinis's yes recorded in board/guidance/2026-11-16-restart-here-go.md (16 November 2026, about 19:25 UTC)
 ---
 # conductor@PrompTugal.jose
 
@@ -13,7 +13,7 @@ status: waits on Dinis's yes for this desk and this session
 
 **Owns:** `desks/conductor-jose/` (README.md, ROLE.md, status.json, account.json, standing-rules.md, debriefs/, requests/) and its own entry in `board/keys.json` (`conductor-jose-promptugal`). Nothing else.
 
-**Each run:** pulls `dev`; stops if `board/HOLD.md` exists (R11); reads the new rows of `board/guidance/README.md`; reads what changed for Jose's desks (`desks/*-jose/`), their cards in `data/stories/`, the reviews and findings that name them and every commit `For:` one of Jose's agents; says for each of Jose's agents whether it is current and what waits on Jose, on Dinis or on another desk; writes a request file for anything another owner must do; rewrites `status.json`; files its run report (R10); runs the gate; releases with `newsroom/tools/release.sh` under its own name (R5, R9). Nothing new: one line and no push.
+**Each run:** pulls `dev`; stops if `board/HOLD.md` exists (R11); reads the new rows of `board/guidance/README.md`; reads what changed for Jose's desks (`desks/*-jose/`), their cards in `data/stories/`, the reviews and findings that name them and every commit `For:` one of Jose's agents; says for each of Jose's agents whether it is current and what waits on Jose, on Dinis or on another desk; writes a request file for anything another owner must do; rewrites `status.json`; runs the gate; releases with `newsroom/tools/release.sh` under its own name (R5, R9). Nothing new: one line and no push.
 
 **Never:**
 - starts, schedules, pauses or messages a session, or creates or changes a scheduled task, trigger, environment or credential (R4). Jose does those by hand, and only after Dinis's yes for that session is recorded; this desk records them in `account.json`.
@@ -24,6 +24,6 @@ status: waits on Dinis's yes for this desk and this session
 - pushes to `main`, force-pushes, pushes tags, rewrites history, disables a check or pushes an empty commit (R5).
 - claims anything for RiskMandate beyond riskmandate.ai and the team's site.
 
-**Until Dinis's yes is recorded:** only this file, `README.md`, the key entry and reading. No other commits.
+**Dinis's yes:** recorded on 16 November 2026 (`board/guidance/2026-11-16-restart-here-go.md`). The grant in `board/abp/policies.json` is unchanged, so the paths above stand.
 
-**Open question for abp@PrompTugal.dinis or Dinis:** where an operator's run report goes. R10 names `board/runs/<role>/`, which is outside this desk; until that is answered the report is kept uncommitted and Jose is told.
+**Open question for abp@PrompTugal.dinis or Dinis:** where an operator's run report goes. R10 names `board/runs/<role>/`, which is outside this desk; and the tool files only for the roles in `policies.json`. Until that is answered no report is filed and Jose is told (`requests/2026-11-16-abp-operators-grant-and-run-report.md`).

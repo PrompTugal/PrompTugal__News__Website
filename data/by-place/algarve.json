@@ -409,6 +409,12 @@
       "url": "https://ccmar.ualg.pt/",
       "read_on": "2026-11-16",
       "ai_path": "DeepLabCut is a deep-learning tool for tracking movement in video: the listing names the tool but does not describe the course, 1 step"
+    },
+    {
+      "title": "Conference on AI and water management, University of Algarve, Faro",
+      "date": "2026-11-24",
+      "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
+      "read_on": "2026-11-16"
     }
   ],
   "ai_map": [
@@ -821,12 +827,71 @@
     "Algarve Evolution's members list (67 members over four pages, read in full) gives names only, and the member pages link to each firm's own site. Sites read with AI evidence, now mapped: LeiGPT, DSPA, Flow Productions, ADJ3 Sistemas and Neomarca. Sites read with none: QXote, Visualforma, Craft 4.0 (business intelligence and IoT), Cyberprotech (cybersecurity, Loulé), Sisgarbe (business software, Faro), Rolear (a Faro engineering and energy group), Azulchain (microcredentials) and Blackbird. Omnibees lists a chatbot called BeeAgent with no description, and the Host PMS site lists a separate AI product and a Canary integration but states no location. Not yet read: Canopy (403), Wise Rocket (404), Indrant and OSB Solutions (no site linked), We Sport IT, and the members not named here.",
     "Hint for the Faro agent: LeiGPT, Flow Productions, ADJ3 Sistemas and Neomarca are Faro-based Algarve Evolution members with AI offers on their own sites, candidates for its map and a story.",
     "Finding: in Portugal 2030's call plan none of the seven AI or digital calls includes the Algarve, and the national AI training call for companies (80 million euros) covers only Alentejo, Centro and Norte. The Algarve's own AI help so far comes from the INOVA ALGARVE 3.0 pilot and local bodies. We should check whether ALGARVE2030 plans an AI call of its own and read the formal notices once launched.",
-    "Starting a company here: the Algarve calls we found earlier have closed, and the plan lists new ALGARVE2030 calls opening from 30 September 2026. The formal notices, with eligibility and amounts, are not yet read, and the plan's budgets are forecasts."
+    "Starting a company here: the Algarve calls we found earlier have closed, and the plan lists new ALGARVE2030 calls opening from 30 September 2026. The formal notices, with eligibility and amounts, are not yet read, and the plan's budgets are forecasts.",
+    "Faro airport traffic for November, IPMA warning levels, algarve2030.gov.pt, amal.pt and ualg.pt were not opened on 16 November; the October airport figure seen in a search snippet is not verified.",
+    "Seen only as headlines: Olhão teachers on Erasmus+ AI and VR training (Postal, 5 November), and CCDR items of 26 October (Matéria Adentro, POCTEP 2021-2027, citrus innovation)."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
     "mandate": "PrompTugal.news Algarve: AI and technology across the whole Algarve, from Sagres to Vila Real, and what reaches us from Portugal and the world. Independent, and every fact has its fonte.",
     "gravity": "Pois é: the AI action is mostly in Faro, round the university and Algarve Evolution, and mostly for the tourism and health that pay the bills. The university also landed 31.5 million euros for an AI-first heritage centre, which is not bad for a region famous for sardines.",
     "gaps_intro": "O que ainda nos falta descobrir, com a humildade de quem já perdeu o último bolo de bolacha:"
-  }
+  },
+  "local_news": [
+    {
+      "title": "The University of Algarve hosts a conference on AI and water management on 24 November",
+      "summary": "Third in the water-resources cycle of the Algarve 2030 programme with Público: AI to monitor consumption, find network losses and watch water quality; 14:00 to 18:00, Campus da Penha, Faro. The page gives no technical detail and no registration link.",
+      "date": "2026-11-16",
+      "publisher": "Postal (Europe Direct Algarve)",
+      "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
+      "read_on": "2026-11-16",
+      "significance": "region and country",
+      "ai_path": "Sensors and consumption data from supply networks, then AI or analytics to find losses and anomalies, then operators act on them (the conference topics).",
+      "steps": 3
+    },
+    {
+      "title": "Storm Charles brought gusts near 100 km/h and flood risk to the Algarve on 11 November",
+      "summary": "The interior minister said the worst period was about 15:00 to 19:00, with a high tide near 15:20. The article does not name the most affected municipalities.",
+      "date": "2026-11-11",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/o-periodo-mais-grave-esta-a-porta-algarve-enfrenta-vento-de-100-km-h-e-risco-de-inundacoes-ate-as-19h00/",
+      "read_on": "2026-11-16",
+      "significance": "region and country",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "CCDR Algarve closed its services on 11 November because of the declared alert",
+      "summary": "The notice sits on the CCDR's news list; the notice itself was not opened.",
+      "date": "2026-11-10",
+      "publisher": "CCDR Algarve",
+      "url": "https://www.ccdr-alg.pt",
+      "read_on": "2026-11-16",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "A Loulé agency launches the Best Number One start-page platform at Web Summit",
+      "summary": "3WX says it passed 300 sign-ups in its first hours; one outlet, uncorroborated, and the article does not mention AI.",
+      "date": "2026-11-12",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-e-ultrapassa-300-inscricoes/",
+      "read_on": "2026-11-16",
+      "significance": "town and country",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Loulé"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "CCDR Algarve, general office",
+      "what": "The regional coordination commission's published address, phone and email.",
+      "url": "https://www.ccdr-alg.pt/site/info/instalacoes-e-contactos-0",
+      "source_url": "https://www.ccdr-alg.pt/site/info/instalacoes-e-contactos-0",
+      "read_on": "2026-11-16",
+      "channel": "Praça da Liberdade 2, 8000-164 Faro; +351 289 895 200; geral@ccdr-alg.pt"
+    }
+  ]
 }

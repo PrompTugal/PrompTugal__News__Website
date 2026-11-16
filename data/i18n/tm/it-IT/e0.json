@@ -1,0 +1,34 @@
+{
+ "e08c06bc65abb642": {
+  "t": "Le aziende, le istituzioni e le comunità di {name} con un percorso verso l'IA, ciascuna da una fonte pubblica.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The companies, institutions and communities in {name} with a",
+  "ok": false
+ },
+ "e08fafe93f5830d8": {
+  "t": "Nelle fonti che abbiamo potuto aprire, la storia tecnologica del comune è il mare e il vento. Sagres ospita un'azienda di biotecnologie marine a Porto da Baleeira, un laboratorio marino universitario nello stesso porto e l'osservatorio sottomarino MARREAL, una stazione di telecamere e sensori a 20 metri di profondità che registra dati oceanici in tempo reale. L'inventario dei parchi eolici di INEGI e APREN elenca parchi eolici nel comune, compreso il repowering del 2025. Non abbiamo trovato notizie di IA, che è il primo risultato di questa pagina, ma le stazioni di dati oceanici sono il luogo dove è più probabile che compaia un percorso verso l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On the sources we could open, the municipality's technology ",
+  "ok": false
+ },
+ "e0e5f037ff99adf0": {
+  "t": "La startup portoghese monitora agenti di IA autonomi, segnala gli output rischiosi per la revisione umana e li valuta da 0 a 100. L'investitore è Angels Way.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Portuguese startup monitors autonomous AI agents, flags ",
+  "ok": false
+ },
+ "e0efee49767bd1db": {
+  "t": "Un programma nazionale di formazione chiamato Estado em Acção, per il personale della pubblica amministrazione, è partito con una sessione gratuita a Coimbra il 18 settembre 2026 e doveva proseguire con dieci sessioni in tutto il paese.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A national training programme called Estado em Acção, for pu",
+  "ok": false
+ }
+}
