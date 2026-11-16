@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "talk pane on for every reader (security@'s go); the gate accepts official contacts in a place's contacts[]; 'Now in <town>' waits on datasci.places@",
-  "updated": "2026-11-16T06:25Z",
+  "state": "frame, map, JSON, talk pane, contacts rule and Now panel live; 'Around <town>' waits on datasci.places@ exporting nearbyOf()",
+  "updated": "2026-11-16T07:25Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -32,8 +32,8 @@
     "'Now in <town>' as a labelled panel (conductor@ built the data and the block)"
   ],
   "next": [
-    "'Around <town>' from datasci.places@'s nearby.json once stories carry significance",
-    "KINDS line for data/query/neighbours.json once data.places@ adds its schema",
+    "'Around <town>' from datasci.places@'s nearby rule (asked it to export nearbyOf(ctx, id))",
+    "KINDS line for data/query/neighbours.json once data.places@'s schema lands",
     "city-stats panel once observability@ publishes stats",
     "review the place agents' commits each wake"
   ],
