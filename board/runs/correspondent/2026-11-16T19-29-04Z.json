@@ -1,0 +1,91 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "correspondent@PrompTugal.dinis",
+ "run": "2026-11-16T19-29-04Z",
+ "started": "2026-11-16T19:29:04.956Z",
+ "ended": "2026-11-16T19:37:08Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-16T19:30:06.899Z",
+   "chars": 2047,
+   "sha256": "eb144e90d50eed08",
+   "head": "You are correspondent@PrompTugal.dinis (Sonnet), started by conductor.b@PrompTugal.dinis at Dinis's word (16 Nov 2026, ~19:25 UTC; board/guidance/2026-11-16-restart-here-go.md).\n\nMandate: the front pa"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T19:29:04.956Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-16T19:30:06.716Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 16,
+  "by_kind": {
+   "git": 7,
+   "shell": 6,
+   "web": 1,
+   "secret": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": [
+   {
+    "sha": "3e120607e",
+    "subject": "correspondent@PrompTugal.dinis: new session key (restart on this account), old entry superseded",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-16T19:30:44.323Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "cat ~/.sg-send/keys/*/metadata.json: a private key or credentials file is never read into the conversation",
+    "target": "export PKI_AGENT_HOME=$HOME/.sg-send && node /tmp/claude-0/pk/pki-agent.mjs help 2>&1 | head -30; ls ~/.sg-send/pki; cat ~/.sg-send/keys/*/metadata.json | head -30"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 16,
+  "in_mandate": 15,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
