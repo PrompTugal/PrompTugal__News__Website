@@ -30,9 +30,9 @@ The technical format only, as journalist@PrompTugal.dinis publishes it (from the
 - Don't write a "Who made this" section: the publisher adds it, with the review and the date it published.
 
 ## Images
-Vicky, 6 November 2026; the cover rule, 7 November 2026.
-- Every article from our desks must include at least one image from the first draft that works as the article's cover on `/articles/`: a real screenshot (a page, a commit, a before-and-after), or a clean SVG summary card, chart, timeline or map drawn strictly from sourced facts in the article. (Vicky, 7 November 2026; until then this was required only for articles about our own team.)
-- The cover on `/articles/` is not read from the article: the site takes it from `design/infographics/out/<slug>--paper--card.png` (1200 x 630) and `--thumb.png` (480 x 480), with `--ink--` versions for dark mode, listed in that folder's `index.json`. The publisher makes those files from your image when it publishes, as for S24, so draw it so it can be cropped or redrawn to a wide card: one title, a few large facts, nothing that needs a caption to be true.
+Vicky, 6 November 2026; covers changed 14 November 2026.
+- **Covers** (standing answer 82, Vicky, 14 November 2026: "the reviewer draws them again in its own style ... The designer stops drawing covers but keeps charts and infographics inside articles ... The reviewer's covers must use one fixed typeface"): journalists no longer make cover images. Say in the draft, in "Notes for the reviewer", what the cover could show: one title and a few large facts from the article. The reviewer draws every cover in its own style and fixed typeface (`desks/reviewer-vicky/covers/STYLE.md`) and wires it in. A chart or infographic inside an article goes to the designer.
+- The rules below still apply to any image in an article (a screenshot, a chart, a map).
 - Public sources only: no contact details, vault contents, private messages or usage figures. Every number in a chart must also appear, sourced, in the text.
 - Crop screenshots to the part that matters: no site header, menus or empty space.
 - Small files (SVG, or compressed PNG or WebP), stored and linked the way T1's images are (in `drafts/img/`, named `<story>-<what>-<YYYY-MM-DD>.<ext>`, linked as `https://promptugal.news/desks/journalist-vicky/drafts/img/<file>`), with a short alt text and a one-line caption giving the source and the date taken.
@@ -43,20 +43,27 @@ Vicky, 6 November 2026; the cover rule, 7 November 2026.
 
 ## Style
 - Short, plain sentences. British spelling. No em-dashes.
-- Length, counted from "In short" to the end of "What this does not claim": news 400 to 600 words (up to 700 is fine); practical guides about 800 (up to 900).
+- **Length** (standing answer 92, Vicky, 16 November 2026: "no fixed word count. Length follows the story: usually 400 to 900 words for analysis and 300 to 700 for news, longer only with a reason; no repetition, no padding; the reviewer judges."): no fixed word count. Length follows the story, usually 300 to 700 words for news and 400 to 900 for analysis. Longer only with a reason, given in "Notes for the reviewer". No padding.
 - If a source doesn't say which pronoun someone uses, use their name.
 - Positive and fair: lead with what is good and new; never invent enthusiasm, quotes or numbers.
-- End the story with one line on who could connect with whom at the summit, or where to find them, as a suggestion.
+- Where it fits, say where to find the people or the work the story is about. The summit is over: no closing line on who could connect with whom there.
 
 ## Write like a person (Vicky, 13 Nov 2026)
 
-- Say each fact once. "In short" sums up; "The story" does not repeat it. No closing paragraph that restates the piece.
+- Say each fact once. "In short" sums up; "The story" does not repeat it. No closing paragraph that restates the piece. Standing answer 89 (Vicky, 16 November 2026: "I don't want repetition in any of my articles"): no sentence or paragraph that restates an earlier one in other words, and a number stated once, then referred to.
 - Short sentences, one idea each. Split long ones. No semicolons.
 - No filler: "notably", "it's worth noting", "underscores", "highlights", "landscape", "a testament to", "plays a key role", "navigate", "robust", "seamless", "ever-evolving", "delve", "in a move that".
 - No sentences ending in a trailing "-ing" clause (", highlighting ...").
 - No lists of three just for rhythm. No stacked adjectives.
 - Names, numbers and dates instead of adjectives.
 - Caveats once, in "What this does not claim", not repeated through the text.
+- **Technical terms** (standing answer 90, Vicky, 16 November 2026: "Every writer explains technical terms in plain words at first use"): explain each technical term or unit in plain words the first time it appears, for example "megawatts (MW), the unit used to measure how much electricity the computers draw".
+
+## The AI connection (standing answers 81, 90 and 91)
+
+- **The PrompTugal test** (standing answer 81, Vicky, 14 November 2026): every story is about AI, directly or within two or three steps, and the path is written down. Each story answers: what is the AI connection, how many steps away is it, and which places does it touch. No path to AI: not ours.
+- **Where it goes** (standing answer 90, Vicky, 16 November 2026: "the AI connection stays in the data note, not the article text, unless it reads naturally"): put the three answers in a short "Notes for the reviewer" block at the end of the draft, after "Where this comes from". Mention the connection in the article text only where it reads naturally, never as a paragraph about the test.
+- **At publishing** (standing answer 91, Vicky, 16 November 2026: "keep the AI connection in the article's metadata instead of deleting it, so readers don't see it but the record stays with the story"): the reviewer moves the three answers into the front matter (`ai_connection`, `ai_steps`, `ai_places`) and removes the block from the text.
 
 ## Safety
 - Nothing about a person beyond what is public and professional. No contact details, ever.
