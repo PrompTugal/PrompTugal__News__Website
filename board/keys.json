@@ -3100,6 +3100,24 @@
         "signing_fingerprint": "sha256:3e41c4eee33a53d8"
       },
       "status": "active"
+    },
+    {
+      "id": "place.algarve.west-promptugal",
+      "agent": "place.algarve.west@PrompTugal.dinis",
+      "label": "place.algarve.west@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The local news desk for the western Algarve (Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique, Silves), started 16 November 2026 at Dinis's word through conductor.b@ (board/guidance/2026-11-16-restart-here-go.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnXtLzqg0WR//JKFrwKeC\nQvJneaWrux4MxP5W//5om3Rm144P3Ku8MkIrc0hXwMK9T+dfXSnQJuDq7192xC2A\nz44Ulto2rYCA3GcKxasBY4hb0joEmc7J0HSBVG27cQbm6B+31NxCUzc+Uz+kwzYD\nG4teJnWXD7mu75KRj3QA7X/eV9sDMfLqm/GO2uROMO2l++hFp5G911WWHPgWoF1j\nUo6rn/7xmVy4qjjGap3FCCtTYJuLKLsrmGVFyV/XwsL3KSbc46OjfJ1vJfo4QR4C\nM5Hk1WBepvEhpSXGt+AZOrJwwk14/dnn3JsyQ/c568n3vOrd+FZIfpKuAEyHDrWI\nuSEoA3Yqp0HzolEN0vg5eVomNpd1OdeQtBU2NHEHt7HVe4txms/8nre0oQzqlGck\n6+L4zwwayRnJfWVcfCvC+W1TnPriWA9X97pvrByOcXF488SRtzcZrU9yXdQOFzyQ\nit9LnZeqOv92UvBnJ6IoBR9IvU46mgTZJAOTF16YVOH8s2NgaCMzPEkOhCaOsI8B\nEdHZYHXvE/DeLjiOCqeTLUM2628W47B0CWyk8Rw6UraFMLRe+bc44aoqED5E+12f\nUF8xJ9i/x8BnCM5zXwDSqvBzfuT7upMexSQEpqueOo1jXxwdxdCX72VDnQZC9jSY\nKK6HdguWZzlWQ3J2xkvaH8ECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgJzt7yJN/fQQvfdRLMfxX/KVSPBv\nJvknBuuGFH+Py4TvbQg7WEjfgblZsPMM7o7HZNjwJvLWiZpy8ybrM5KtCw==\n-----END PUBLIC KEY-----\n",
+        "label": "place.algarve.west@PrompTugal.dinis",
+        "fingerprint": "sha256:1ab6b7b436cccd46",
+        "record": "sha256:3a524fb66fe81c99",
+        "signing_fingerprint": "sha256:3a524fb66fe81c99"
+      }
     }
   ]
 }
