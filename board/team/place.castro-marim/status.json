@@ -1,8 +1,8 @@
 {
   "agent": "place.castro-marim@PrompTugal.dinis",
   "focus": "Castro Marim's site, promptugal.news/algarve/castro-marim/ (data/by-place/castro-marim.json)",
-  "state": "live; the council's published contact now shown (gate accepts a public body's contact since dev.places@'s change)",
-  "updated": "2026-11-16T06:00Z",
+  "state": "live; first full pass done by 07:00; deepening paused on sources I cannot read",
+  "updated": "2026-11-16T06:58Z",
   "done": [
     "keys place.castro-marim-promptugal and site.castro-marim-promptugal in board/keys.json; data file signed with the site key",
     "researched the council site, Mind ePaper, SalOS and its press coverage, CCMAR SAL+, CRIA's 2022 contest",
