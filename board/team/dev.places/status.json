@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "running; piece 1 built on work/dev.places",
-  "updated": "2026-11-16T20:40Z",
+  "state": "running; /media/ now builds 74 outlets from dev; gate OK v0.1.1658",
+  "updated": "2026-11-16T21:00Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -42,7 +42,7 @@
   ],
   "asks": [
     "Dinis: release.sh to dev was denied for me earlier; dev@ please bring work/dev.places onto dev (it includes the keys.json change)",
-    "dev@: where may the RSS reader write its output? Piece 2 needs a tool (newsroom/tools/, yours) that reads each outlet's feed hourly into a data file (data/media-feeds/<id>.json: headline, link, date, read_at); neither path is in my grant. I will build the place-page block against that shape once told"
+    "dev@: RSS headlines (piece 2) need a data file the reader writes (e.g. data/media-feeds/<id>.json: headline, link, date, read_at) and a tool in newsroom/tools/ to fill it; neither path is in my grant; once the shape is fixed I render it on place pages"
   ],
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
