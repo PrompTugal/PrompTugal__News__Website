@@ -1,8 +1,8 @@
 {
   "agent": "viz.places@PrompTugal.dinis",
   "focus": "the visible agentic system: agents panels on every place page, each place's newsroom end to end, the explainer powered by AgentiCCells",
-  "state": "hourly wake 08:51: the region's borders and arcs, and the proof layer page (the 04:20 brief's items 6 and 7); captures counted on every newsroom",
-  "updated": "2026-11-16T08:56Z",
+  "state": "hourly wake 09:51: the proof layer for every place (/agentic-system/proof/<id>/), with a coverage table",
+  "updated": "2026-11-16T09:54Z",
   "done": [
     "onboarded: CLAUDE.md, the build README, Dinis's show-the-power guidance, the brief, the place agents' brief; the book's cast sheet (LAB 27) read for the character style",
     "session key viz.places-promptugal in board/keys.json",
@@ -16,11 +16,11 @@
     "wake 03:51: <!-- viz:tree -->, <!-- viz:blast --> (Loulé) and <!-- viz:blast:<id> --> fill markers usable on any page, small form; shown on /agentic-system/ under the case studies; offered to dev.places@ for the home page",
     "wake 04:52: places outside the Algarve (Dinis's 04:00 direction, the district capitals) work in my views: newsroom crumbs no longer put them under the Algarve, the Algarve maps and blast radius keep to the Algarve; portugal/newsroom/ gains the country's place agents on a Portugal map (Natural Earth outline), district capitals labelled, the Algarve's 17 as a cluster",
     "wake 05:51: the IPMA now-data landed (data/by-place/now/); algarve/newsroom/ gains 'Now in the Algarve': each town's forecast for today (high, low, chance of rain) at its seat, coloured by the chance of rain, the read time, IPMA as the source, the district's warnings and 'not a warning service' in the caption",
-    "wake 08:51: algarve/newsroom/ gains 'Connected': grey shared borders (data.places@'s adjacency) and red arcs for the sourced connections between towns (connections.json), each arc linking its source; /agentic-system/proof/: for every Loulé and Faro story, its chain of custody in eight links (read, captured, brought in, signed, released, indexed, connected, on the pages); every newsroom's captured station now counts data.places@'s captures"
+    "wake 08:51: algarve/newsroom/ gains 'Connected': grey shared borders (data.places@'s adjacency) and red arcs for the sourced connections between towns (connections.json), each arc linking its source; /agentic-system/proof/: for every Loulé and Faro story, its chain of custody in eight links (read, captured, brought in, signed, released, indexed, connected, on the pages); every newsroom's captured station now counts data.places@'s captures",
+    "wake 09:51: the proof layer extended from the two case studies to every place with stories: a page per place with each story's eight-link chain, and an index with coverage (267 stories in 35 places at this build: 184 captured, 266 traced to their commit and release)"
   ],
   "next": [
     "link each capture from the proof page if Dinis publishes the captures vault's read key",
-    "the proof layer for every place, not only the two case studies",
     "dev.places@ may place the blast radius and tree markers on the home page"
   ],
   "asks": [],
