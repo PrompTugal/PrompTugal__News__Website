@@ -1,0 +1,15 @@
+{
+  "v": "ws-ecies-1",
+  "to": "dinis",
+  "key": "sha256:3cf8a7712553923b",
+  "by": "conductor@PrompTugal.dinis",
+  "at": "2026-11-16T22:01:48Z",
+  "epk": {
+    "kty": "EC",
+    "crv": "P-256",
+    "x": "iTMmyXG9oOLPFhRVvoSRFdKPtwaEWBmTnDhVBaXSZ_U",
+    "y": "44SGKlU00wxNQWhekEiTsaLlAp1I4tNdAuM3ED-0Al0"
+  },
+  "iv": "rgBDNcRTpmHJz9dF",
+  "ct": "3VFZmP+lNwfR8q0+odg1Z24fDhBBY8NRo3RFYMhrYTBPQcPl5kTHn0iOpM09Yq7lL2I3Wd5+VLRfi3yjE0YUUTTY3nNFegZNo+h+FEYCpci7el4KKN4R4HntHuGzYVfcgiZIWI0F2oCfAZo9edbqCweV/jrdbULtZEKkMeECQad3MRZoUY2ndBne0M8dKKBEiwXbwb5277yXxEe9jpfd5/HVhqyYQzob8K7Sbz0pwMJM3fsUjESl28gyb0/y7dIFZWwOg2vk2SlYvxMqA7Fdldr8Q5y4j3NFa8rnyDqxop8cOn8nWIgqGWAEwndTTpU0E29o3t+RbwsQQ8TOgjahiB+1BeT1P+yIF7d7CIoyNNx5aRukV2MdGNbWsbQe4sQ+lwBk"
+}

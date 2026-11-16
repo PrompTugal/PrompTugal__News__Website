@@ -8,6 +8,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "db9bbf298f87a42a": {
+  "t": "Der Katalog der Universität der Algarve für die Schulangebote 2026/2027 umfasst 81 kostenlose Vorträge und Aktivitäten in 16 Bereichen, darunter KI in Medizin, Unterricht und Mathematik sowie Cybersicherheit. Sie werden von Lehrenden und Forschenden der UAlg in Schulen, auf Campus oder online gehalten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The University of Algarve's 2026/2027 school outreach catalo",
+  "ok": false,
+  "from": "de-DE"
+ },
  "dbdb6f4a004a9647": {
   "t": "Coimbra, ó pá: wo die Capes flattern, der Mondego trödelt und ein Hügel voller Professoren den Maschinen weiter Lesen nach Art der Faculdade beibringt, während ein Einhorn unten am Hang still seine Miete zahlt.",
   "by": "translator@PrompTugal.dinis",

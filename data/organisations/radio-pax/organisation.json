@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-pax",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Pax",
+  "names_as_listed": [
+    "Rádio Pax"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Registration number discrepancy: station page 423339 vs ERC register 423168; the register is taken as authoritative, to be confirmed. pax.pt and radiopax.pt do not resolve; radiopax.com is the live site.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:beja"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.radiopax.com/",
+    "owner": {
+      "name": "Rádio Pax, Cooperativa de Serviços CRL",
+      "source": {
+        "url": "https://www.radiopax.com/fichatecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.radiopax.com/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.radiopax.com/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml, RSS 2.0 body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.radiopax.com/contactos/",
+      "source": {
+        "url": "https://www.radiopax.com/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "António Lúcio",
+        "role": "Diretor Geral; coordenador de informação e programação",
+        "source": {
+          "url": "https://www.radiopax.com/fichatecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.radiopax.com/fichatecnica/",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica (the station's page prints ERC no. 423339)."
+      },
+      {
+        "url": "https://www.radiopax.com/contactos/",
+        "read_at": "2026-11-16",
+        "how": "Contacts."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423168 for 'Rádio Pax (the register number differs from the station page, which prints 423339; 423339 is TSF/Press in the register)'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.radiopax.com/fichatecnica/",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica (the station's page prints ERC no. 423339).",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.radiopax.com/contactos/",
+      "read_at": "2026-11-16",
+      "how": "Contacts.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423168 for 'Rádio Pax (the register number differs from the station page, which prints 423339; 423339 is TSF/Press in the register)'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

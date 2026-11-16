@@ -17,6 +17,15 @@
   "ok": false,
   "from": "fr-FR"
  },
+ "8f6bfc3f243d5363": {
+  "t": "Postal présente Sparos, établie à Olhão : son domaine Digital Nutrition collecte et analyse des données pour recommander des plans d'alimentation, avec HatchTools (une application web pour les écloseries) et OptiFeeSH (un module de plans d'alimentation pour le logiciel AquaManager, avec l'entreprise grecque I2S). Elle utilise des algorithmes pour prévoir les besoins en aliment selon le stade de croissance.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Postal profiles Sparos, based in Olhão: its Digital Nutritio",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "8f8393c1b7217470": {
   "t": "Le Politécnico de Viseu présente RISKMAP, un outil d'IA qui veille sur les bâtiments patrimoniaux",
   "by": "translator@PrompTugal.dinis",

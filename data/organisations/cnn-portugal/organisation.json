@@ -53,6 +53,11 @@
         "url": "https://cnnportugal.iol.pt/fichatecnica",
         "read_at": "2026-11-16",
         "how": "ficha técnica read (partial)"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1Ko2NBg2nr3HXRMlpAQAbH0lxJD8scI_JF2y68Bq7eQ8/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 523384 for 'TVI - Televisão Independente, S.A. (CNN Portugal service)'. Outlet email column deliberately not recorded here."
       }
     ]
   },
@@ -61,6 +66,12 @@
       "url": "https://cnnportugal.iol.pt/fichatecnica",
       "read_at": "2026-11-16",
       "how": "ficha técnica read (partial)",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1Ko2NBg2nr3HXRMlpAQAbH0lxJD8scI_JF2y68Bq7eQ8/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 523384 for 'TVI - Televisão Independente, S.A. (CNN Portugal service)'. Outlet email column deliberately not recorded here.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

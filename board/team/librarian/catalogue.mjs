@@ -113,6 +113,8 @@ function sourceOf(rel) {
     const quoted = new RegExp(`['"\`]${esc}['"\`]`)
     const sec = rel === '404.html' ? 'notfound' : rel.split('/')[0].replace(/\.html$/, '')
     const feat = features.find(x => lit.test(x.src)) || features.find(x => path.basename(x.f, '.mjs') === sec) || features.find(x => quoted.test(x.src))
+    // translated pages (16 November 2026, the translation memory): /<culture>/<same path> is made by the feature that makes the English page
+    if (!c && !feat) { const tr = /^([a-z]{2}(?:-[A-Z]{2})?)\/(.+)$/.exec(rel); if (tr && tr[2] !== rel && !/^(articles|newsroom|companies|events|people|organisations|places|topics|investors)\//.test(rel)) { const r = sourceOf(tr[2]); if (r.paths.length) return r } }
     return { kind, paths: c ? [c] : feat ? [feat.f] : [], feature: c ? undefined : feat?.f }
 }
 const gen = fs.readFileSync('.generated.txt', 'utf8').split('\n').filter(l => l.endsWith('.html')).sort()

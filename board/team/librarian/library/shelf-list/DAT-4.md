@@ -1,14 +1,14 @@
 ---
-title: "Shelf list: DAT, Data and the ontology (part 4 of 11)"
+title: "Shelf list: DAT, Data and the ontology (part 4 of 12)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T13:00:00Z"
-site_version: "v0.1.1399"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-16T21:59:57Z"
+site_version: "v0.1.1665"
 source: board/catalogue.json
 ---
 
-# Shelf list: DAT, Data and the ontology (part 4 of 11)
+# Shelf list: DAT, Data and the ontology (part 4 of 12)
 
-100 cards, from `DAT.EV startup-web-summit-kick-off` to `DAT.ORG archive`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.EV startup-web-summit-kick-off` to `DAT.ORG amalia-project`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
@@ -108,8 +108,13 @@ source: board/catalogue.json
 | `DAT.EV work-in-finland-side-event` | [Work in Finland side event](https://promptugal.news/events/work-in-finland-side-event/) (withdrawn) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV your-ai-agent-just-got-a-passport` | [Your AI agent just got a passport](https://promptugal.news/events/your-ai-agent-just-got-a-passport/) (withdrawn) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.EV zombie-data-how-your-data-comes-back-to-haunt-you` | [Zombie data: How your data comes back to haunt you](https://promptugal.news/events/zombie-data-how-your-data-comes-back-to-haunt-you/) (withdrawn) | event | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG 3wx` | [3WX](https://promptugal.news/organisations/3wx/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
 | `DAT.ORG 3xp-global` | [3xP Global](https://promptugal.news/organisations/3xp-global/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG a-aurora-do-lima` | [A Aurora do Lima](https://promptugal.news/organisations/a-aurora-do-lima/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG a-voz-de-tras-os-montes` | [A Voz de Trás-os-Montes](https://promptugal.news/organisations/a-voz-de-tras-os-montes/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG a-voz-do-algarve` | [A Voz do Algarve](https://promptugal.news/organisations/a-voz-do-algarve/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
 | `DAT.ORG accel` | [Accel](https://promptugal.news/organisations/accel/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG acoriano-oriental` | [Açoriano Oriental](https://promptugal.news/organisations/acoriano-oriental/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG acubic` | [Acubic](https://promptugal.news/organisations/acubic/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG agibot` | [AgiBot](https://promptugal.news/organisations/agibot/) (withdrawn) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG agibot-europe` | [AgiBot Europe](https://promptugal.news/organisations/agibot-europe/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -122,12 +127,7 @@ source: board/catalogue.json
 | `DAT.ORG alqem` | [alqem](https://promptugal.news/organisations/alqem/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG altair-capital` | [AltaIR Capital](https://promptugal.news/organisations/altair-capital/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG amal` | [AMAL](https://promptugal.news/organisations/amal/) | organisation | ontologist@ 6 Nov 2026 |
-| `DAT.ORG amazon` | [Amazon](https://promptugal.news/organisations/amazon/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG amino-capital` | [Amino Capital](https://promptugal.news/organisations/amino-capital/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG anchorage-digital` | [Anchorage Digital](https://promptugal.news/organisations/anchorage-digital/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
-| `DAT.ORG anje` | [ANJE](https://promptugal.news/organisations/anje/) | organisation | ontologist@ 6 Nov 2026 |
-| `DAT.ORG apexbrasil` | [ApexBrasil](https://promptugal.news/organisations/apexbrasil/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG applied-intuition` | [Applied Intuition](https://promptugal.news/organisations/applied-intuition/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG archive` | [Archive](https://promptugal.news/organisations/archive/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG amalia` | [AMALIA](https://promptugal.news/organisations/amalia/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
+| `DAT.ORG amalia-project` | [AMALIA project](https://promptugal.news/organisations/amalia-project/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-3.md) | [Next part](DAT-5.md)

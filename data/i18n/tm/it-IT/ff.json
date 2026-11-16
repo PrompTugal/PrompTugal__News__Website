@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Silves is a large, mostly rural municipality of six parishes",
   "ok": false
+ },
+ "fffda8eaa96065aa": {
+  "t": "Convegno Algarve 2030 a Faro il 24 novembre: IA e gestione dell'acqua",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve 2030 conference in Faro on 24 November: AI and water",
+  "ok": false
  }
 }

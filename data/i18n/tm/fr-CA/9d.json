@@ -8,6 +8,15 @@
   "ok": false,
   "from": "fr-FR"
  },
+ "9dc6c71b9adf3626": {
+  "t": "Des élèves et des enseignants d'Olhão, d'Allemagne et d'Espagne ont achevé à Olhão, du 6 au 13 octobre, le projet Erasmus+ Be Creative, Feel Legendary 2.0. Les légendes d'Olhão, de Catalogne et d'Allemagne ont été recréées grâce à l'intelligence artificielle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Students and teachers from Olhão, Germany and Spain finished",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "9dd6f63d867bdd68": {
   "t": "L’agent du lieu cherche, dans les sources, ce qui fait {name}.",
   "by": "translator@PrompTugal.dinis",

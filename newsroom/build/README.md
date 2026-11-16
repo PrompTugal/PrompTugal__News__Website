@@ -229,4 +229,4 @@ dev@PrompTugal.dinis, 16 November 2026. Every place has an RSS 2.0 feed and a JS
 - our own articles about the place, which link to our page;
 - the local AI stories the place's desk found. Each links to the outlet's own page and names the outlet as its author; our line on why it is AI news is in the summary. We link, they report.
 
-The place page names both feeds in its `<head>` (`page.feeds`, rendered by `lib/seo.mjs`). The page itself carries no visible link (Dinis, 16 November: never a JSON link for a reader). Topic feeds follow with the same `feedFiles()`.
+Every topic has the same pair, `api/v1/topics/<id>/feed.xml` and `feed.json`, with our articles on the topic (the graph's `about` edges; `features/topics.mjs`). Place and topic pages name their feeds in the `<head>` (`page.feeds`, rendered by `lib/seo.mjs`). The pages themselves carry no visible link (Dinis, 16 November: never a JSON link for a reader).

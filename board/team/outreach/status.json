@@ -2,14 +2,15 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-16T21:10Z",
+ "updated": "2026-11-16T21:50Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
   "For Dinis decision page: what a first contact may promise (four options, recommendation B)",
   "Five first-contact drafts from the media records (Di\u00e1rio de Coimbra, Di\u00e1rio de Viseu, M\u00e9dio Tejo, The Portugal News, P\u00daBLICO), in local@'s contact-request/v1 shape, each with offers_checked: desks/outreach/media/drafts/",
   "Format agreed in FORMAT.md: local@'s shape is the shared one",
-  "Hand-over debrief board/team/outreach/debriefs/2026-11-16-handover.md"
+  "Hand-over debrief board/team/outreach/debriefs/2026-11-16-handover.md",
+  "Wake 21:38: five more drafts (Di\u00e1rio de Aveiro, Di\u00e1rio de Leiria, Cidade Hoje, O Setubalense, Observador) and the first five re-run against the pages (Coimbra and M\u00e9dio Tejo place pages now link them): ten drafts in desks/outreach/media/drafts/"
  ],
  "next": [
   "Dinis's answer on the decision page, then adjust the money clause",
@@ -307,6 +308,11 @@
    "started": "2026-11-16T19:30Z",
    "outcome": "ok",
    "what": "onboarded, key, format, template, decision page"
+  },
+  {
+   "started": "2026-11-16T21:38Z",
+   "outcome": "ok",
+   "what": "ten drafts; decision page still open"
   }
  ],
  "decisions_on_findings": [

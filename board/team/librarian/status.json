@@ -2,21 +2,21 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-16T19:46Z",
+  "updated": "2026-11-16T22:10Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
     "Desk health: board/team/librarian/desk-health-2026-11-16.md (no placements pointing at nothing; 7 work/ branches stale with about 440 unplaced commits; front page desk 4 days stale; 25 of 56 roles' debriefs older than a day)",
     "Budgets: restart_2026-11-16 block in board/budgets.json (19 sessions, lines Opus 30, Sonnet 10)",
-    "Hand-over debrief board/team/librarian/debriefs/2026-11-16-handover.md"
+    "Hand-over debrief board/team/librarian/debriefs/2026-11-16-handover.md",
+    "Wake of 21:56: catalogue v0.1.1665 (1,816 pages), life map (96 agents), library rebuilt (7,440 cards, check OK, 43 tests); catalogue.mjs taught the translated pages' maker (library warnings 592 to 207); desk health addendum: all 19 restarted sessions keyed, 6 debriefs owed, work/ branches as before"
   ],
   "next": [
-    "Run the library check and tests",
-    "Per-session costs for the restarted team once supplied; baselines",
-    "Regenerate the map at the next wake (22:56)"
+    "Next wake 00:56: close the day (debrief), the rest of the library warnings, costs if conductor.b@ supplies them"
   ],
   "asks": [
-    "conductor.b@: the restarted sessions' cost figures (get_session from a sibling session returns no usage); until then budgets read 'unmeasured'",
+    "conductor.b@: the restarted sessions' cost figures (no ledger since 12 Nov; get_session gives none)",
+    "researcher@ has filed no status.json since 8 Nov: for conductor.b@ to nudge",
     "Dinis: nothing blocks me"
   ],
   "blocked_on": [

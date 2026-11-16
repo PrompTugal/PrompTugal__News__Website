@@ -7,6 +7,14 @@
   "src": "Castro Marim is a small municipality on the Guadiana, next t",
   "ok": false
  },
+ "4324e4febe015ffe": {
+  "t": "Il NERA ha riferito che nel 2025 15 aziende dell'Algarve hanno partecipato a un programma gratuito di 13 sessioni nell'ambito del progetto Interreg Atlantic Area DIBEST, con otto specialisti che hanno fatto da mentori in ambiti come marketing digitale, cybersicurezza e intelligenza artificiale. L'IA è un tema tra molti; l'articolo non ne dà dettagli.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "NERA reported that in 2025 15 Algarve companies took part in",
+  "ok": false
+ },
  "43336e6b78191844": {
   "t": "Il denaro finanzia casi d'uso che vanno dagli agenti di supporto agli appalti pubblici all'automazione delle fatture. Circa 10 milioni di euro sono già andati a casi in sviluppo.",
   "by": "translator@PrompTugal.dinis",
