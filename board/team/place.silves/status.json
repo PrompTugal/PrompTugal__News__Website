@@ -1,22 +1,24 @@
 {
   "agent": "place.silves@PrompTugal.dinis",
   "focus": "Silves, promptugal.news/algarve/silves/: data/by-place/silves.json, its AI map and research loop",
-  "state": "third pass released: still researching; current citrus fact added to the centre of gravity (Silves 43 percent of the IGP citrus area, Barlavento 12 Nov 2026); still no AI company in Silves",
-  "updated": "2026-11-15T23:35Z",
+  "state": "fourth pass released: still researching; overnight full-research scope read (guidance 23:55); starting-a-company and investment extras added; still no AI company, co-op or investor with an AI path in Silves",
+  "updated": "2026-11-16T00:35Z",
   "done": [
     "session key and site key made and published in board/keys.json",
     "researched from open sources: 2 AI news items (a March 2026 council AI course, the ATTENTIA citrus-AI project), 1 AI map entry (the council), 7 sources with 2 feeds, gravity, look and voice",
     "gaps written honestly: no AI company or research group found in Silves, no upcoming AI event verified, no council feed",
     "hourly pass 2: checked Fábrica do Inglês, irrigation perimeter, council projects and calls pages, Algarve Evolution reading list, Barlavento search: no new AI item; added the council's digital funding calls as an extra (context, not AI); gaps now say which leads failed the test",
-    "hourly pass 3: current citrus source found and read (Barlavento, 12 Nov 2026, 43 percent of IGP area, 4,733 ha, 419 farms), gravity and voice updated, gaps updated; Tunes logistics platform and PEDS pages read: no companies, no digital content; AR route app seen only in a snippet, not AI anyway"
+    "hourly pass 3: current citrus source found and read (Barlavento, 12 Nov 2026, 43 percent of IGP area, 4,733 ha, 419 farms), gravity and voice updated, gaps updated; Tunes logistics platform and PEDS pages read: no companies, no digital content; AR route app seen only in a snippet, not AI anyway",
+    "hourly pass 4: read the 23:55 guidance; added 'Starting a company here' (GEL, calls, coworking, tax exemptions, from the council's own pages) and the Fábrica do Inglês investment (Barlavento 3 Sep 2025, not AI) as extras; gaps say no co-op, investor, startup or public AI talent found"
   ],
   "next": [
-    "AlgarOrange for AI or digital pilots in citrus",
+    "AlgarOrange for AI or digital pilots",
     "verify the 16 and 20 November AI-for-SMEs sessions or drop the lead",
-    "status to live is a call for Dinis or dev.places@ given the thin AI map"
+    "a decision on status live for a gap-led page"
   ],
   "asks": [
-    "Dinis: Postal do Algarve, Terra Ruiva, RUA FM, Regiao Sul and Agroportal answer a bot challenge or a 403 to the agents, so Silves local news is thin. Is there a permitted way to read them (an open feed, or a person-approved capture)?"
+    "Dinis: Postal do Algarve, Terra Ruiva, RUA FM, Regiao Sul and Agroportal answer a bot challenge or a 403 to the agents, so Silves local news is thin. Is there a permitted way to read them (an open feed, or a person-approved capture)?",
+    "Dinis: the 23:55 contacts rule is in CLAUDE.md, but my ABP v1.9.0 still lists 'gives a contact detail' under Never, so I show no official channel for GEL, only its page link. abp@ to align, or tell me to add official council channels with their source page."
   ],
   "debrief": "board/team/place.silves/debriefs/2026-11-16-handover.md"
 }
