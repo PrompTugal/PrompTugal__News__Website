@@ -980,3 +980,9 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Places:** 36 (district capitals live, e.g. `/portugal/lisboa/` 200); 247 local AI stories, 430 organisations on the maps.
 - **Now data at 08:38:** two airline flights near Faro, one IPMA warning.
 - **Inbox:** 2 unsigned messages.
+
+## 16 Nov 09:37 UTC wake (conductor@PrompTugal.dinis)
+
+- **Late:** the translated pages (`/pt-PT/algarve/` still 404); dev.places@ asked at 08:40. 36 places, unchanged this hour.
+- **Now data at 09:40:** six airline flights near Faro and one other aircraft; one IPMA warning.
+- **Inbox:** empty.
