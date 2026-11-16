@@ -19,6 +19,7 @@ const okUrl = u => typeof u === 'string' && /^https?:\/\/[^\s]+$/i.test(u.trim()
 const url = u => okUrl(u) ? u.trim().replace(/\(/g, '%28').replace(/\)/g, '%29') : ''
 
 import { mediaBlock, localMedia } from './media.mjs'
+import { nearbyOf } from './datasci-places.mjs'
 function load(ctx) {
     const raw = ctx.readJSON(LIST)
     const byId = new Map()
@@ -46,12 +47,12 @@ function load(ctx) {
 
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, '') } catch { return u } }
 const dmy = s => (s && /^\d{4}-\d{2}-\d{2}/.test(s)) ? s.slice(0, 10) : (s || '')
-const local = p => p.kind === 'municipality' || p.kind === 'city'
+const isLocalPlace = p => p.kind === 'municipality' || p.kind === 'city'
 // the Algarve's towns (parent algarve, or a city inside one of them) for the region page, its map and its counts; every
 // local place, the district capitals under portugal included (place.districts@), still gets its own page
 const inAlgarve = (L, p) => { for (let q = p, i = 0; q && i < 5; q = L.byId.get(q.parent), i++) if (q.parent === 'algarve') return true; return false }
-const towns = (L) => L.list.filter(p => local(p) && inAlgarve(L, p))
-const pagePlaces = (L) => L.list.filter(local)
+const towns = (L) => L.list.filter(p => isLocalPlace(p) && inAlgarve(L, p))
+const pagePlaces = (L) => L.list.filter(isLocalPlace)
 const W = (L, key, vars = {}) => String(L.copy[key] || '').replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? '')
 const n = (k, one, many) => `${k} ${k === 1 ? one : (many || one + 's')}`
 
@@ -168,6 +169,22 @@ function sideCol(ctx, L, p, rel, inside) {
     return md
 }
 
+// "Around <town>" (Dinis, 16 Nov; board/briefs/2026-11-16-blast-radius.md): the neighbours' stories that reach this place,
+// nearest first, from datasci-places' nearby rule. Words: assets/by-place/around.json. The same list is in the place's JSON.
+let AROUND = null
+const aroundW = ctx => AROUND || (AROUND = ctx.readJSON('assets/by-place/around.json'))
+function aroundItems(ctx, p, skipUrls) {
+    let d; try { d = nearbyOf(ctx, p.id) } catch { return [] }
+    return ((d && d.items) || []).filter(i => i.shown && i.from !== p.id && url(i.url) && !skipUrls.includes(i.url)).sort((a, b) => (b.adjacent - a.adjacent) || ((a.km ?? 999) - (b.km ?? 999))).slice(0, 5)
+        .map(i => ({ title: i.title, url: i.url, publisher: i.publisher || null, date: i.date || null, from: i.from, from_name: i.from_name, km: i.km, distance: i.distance, adjacent: !!i.adjacent, why: i.why }))
+}
+function aroundBlock(ctx, p, items) {
+    const w = aroundW(ctx)
+    if (!items.length) return ''
+    return `## ${w.heading.replace('{name}', esc(ctx, p.name))} {#around}\n\n${w.intro}\n\n{.bp-cards .bp-small}\n` +
+        items.map(i => `- \`${esc(ctx, i.distance)}\`${i.adjacent ? ` · ${w.next_door}` : ''} **[${esc(ctx, i.title)}](${url(i.url)})** *${esc(ctx, [i.publisher || host(i.url), dmy(i.date)].filter(Boolean).join(', '))}*`).join('\n') + '\n\n'
+}
+
 function townPage(ctx, L, p) {
     const rel = `${p.path}index.html`
     const parent = L.byId.get(p.parent)
@@ -183,6 +200,8 @@ function townPage(ctx, L, p) {
     md += `\n::: cols-8-4\n::: col\n`
     md += gravityBlock(ctx, L, p)
     md += `## AI in ${esc(ctx, p.name)} {#local}\n\n` + (local.length ? newsCards(ctx, local, 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
+    const around = algarve && isLocalPlace(p) ? aroundItems(ctx, p, wider.map(a => a.url)) : []
+    md += aroundBlock(ctx, p, around)
     if (ours.length) md += `## ${W(L, 'articles_h', { name: esc(ctx, p.name) })} {#ours}\n\n${articleList(ctx, rel, ours)}`
     if (wider.length) md += `## ${algarve ? 'From the Algarve' : 'From Portugal'} {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
     if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest)}`
@@ -403,9 +422,10 @@ function placeRecord(ctx, L, p) {
         counts: { ai_news: p.ai_news.length, ai_map: p.ai_map.length, events: p.events.length, sources: p.sources.length, articles: arts.length },
         ai_news: p.ai_news.map(a => ({ ...a, provenance: provenance(p, r, a, 'story') })), ai_map: p.ai_map.map(m => ({ ...m, provenance: provenance(p, r, { ...m, url: m.source_url }, 'map entry') })), events: p.events, sources: p.sources, extras: p.extras, start_company: p.start_company, investors: p.investors, talent: p.talent, contacts: p.contacts, gaps: p.gaps, voice: p.voice || null,
         articles: arts,
+        ...(inAlgarve(L, p) && isLocalPlace(p) ? { around: aroundItems(ctx, p, (L.byId.get('algarve') ? L.byId.get('algarve').ai_news : []).slice(0, 4).map(a => a.url)) } : {}),
         local_media: localMedia(ctx, p, [p.id, p.parent, 'algarve', 'portugal'].filter(Boolean)),
         // the wider stories its page shows ("From the Algarve" or "From Portugal"), so the page holds nothing its JSON does not
-        ...(local(p) ? (() => { const from = inAlgarve(L, p) ? 'algarve' : 'portugal', src = L.byId.get(from); return { wider_news: { from, items: (src ? src.ai_news : []).slice(0, 4) } } })() : {}),
+        ...(isLocalPlace(p) ? (() => { const from = inAlgarve(L, p) ? 'algarve' : 'portugal', src = L.byId.get(from); return { wider_news: { from, items: (src ? src.ai_news : []).slice(0, 4) } } })() : {}),
         team: { agent: p.agent, status: `${SITE_URL}board/team/${p.agent.split('@')[0]}/status.json`, debriefs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/team/${p.agent.split('@')[0]}/debriefs`, runs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/runs/${p.agent.split('@')[0]}` },
         ...(p.id === 'algarve' ? (() => { const g = regionAgg(L); return { region: {
             places: g.places, live: g.live, local_ai_news: g.localCount,
