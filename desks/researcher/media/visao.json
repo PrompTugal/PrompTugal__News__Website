@@ -23,6 +23,12 @@
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
       "how": "home fetch failed (connection error)"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 112348 for 'Visão'. Outlet email column deliberately not recorded here."
     }
   ],
   "gaps": [

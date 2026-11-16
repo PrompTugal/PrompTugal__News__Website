@@ -62,6 +62,20 @@
       "role": "Diretora Adjunta",
       "source_url": "https://observador.pt/ficha-tecnica",
       "read_at": "2026-11-16"
+    },
+    {
+      "name": "João Paulo Godinho",
+      "role": "Journalist (Observador)",
+      "beat": "technology and US tech business",
+      "source_url": "https://observador.pt/2026/11/16/trump-apoia-regresso-de-jensen-huang-a-lideranca-da-nvidia-nao-e-ma-ideia/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Cátia Rocha",
+      "role": "Journalist (Observador)",
+      "beat": "technology (Nvidia/Megaspeed, Microsoft outage coverage)",
+      "source_url": "https://observador.pt/2026/11/15/caso-nvidia-tecnologica-megaspeed-diz-que-executiva-alice-huang-deixou-a-empresa-em-2025/",
+      "read_at": "2026-11-16"
     }
   ],
   "sources": [
@@ -76,10 +90,23 @@
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
       "how": "fetched; generic address not extracted"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126302 for 'Observador'. Outlet email column deliberately not recorded here."
+    },
+    {
+      "url": "https://observador.pt/seccao/tecnologia/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Tecnologia section: article bylines read from article metadata."
     }
   ],
   "gaps": [
     "Public editorial address not extracted from contacts page",
-    "Lisbon AI Week listed in the site menu, not investigated"
+    "Lisbon AI Week listed in the site menu, not investigated",
+    "Observador Tech desk editor not named on any page read; bylines only."
   ]
 }

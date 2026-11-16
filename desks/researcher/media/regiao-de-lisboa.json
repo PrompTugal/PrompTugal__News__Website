@@ -1,0 +1,56 @@
+{
+ "name": "Região de Lisboa",
+ "media_kind": "online",
+ "reach": "regional",
+ "website": "https://regiaodelisboa.sapo.pt/",
+ "places_covered": [
+  {
+   "place": "Lisboa (registered region: Lisboa)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Words Wizard, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-16"
+ },
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://regiaodelisboa.sapo.pt/feed",
+   "checked": "HTTP 200, application/xml, RSS 2.0 body (channel title 'Região de Lisboa')",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Anjos Costa",
+   "role": "Diretor (ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127603 for 'Região de Lisboa (online, regional, Informação Geral)'. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://regiaodelisboa.sapo.pt/feed",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Feed fetched: RSS 2.0 body."
+  }
+ ],
+ "gaps": [
+  "No contact or ficha-técnica page found at /contactos or /ficha-tecnica (404); generic address not recorded.",
+  "Same director and owner as Setúbal Informação (127849), A Voz de Évora (127856), Jornal de Beja (127858) and Jornal de Portalegre (127859) in the ERC register: a SAPO-hosted local network, not mapped as separate files yet."
+ ],
+ "id": "regiao-de-lisboa",
+ "type": "organisation",
+ "kind": "media",
+ "language": "pt"
+}

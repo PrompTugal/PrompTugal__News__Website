@@ -1,16 +1,17 @@
 {
-  "updated": "2026-11-16T20:05Z",
+  "updated": "2026-11-16T21:50Z",
   "state": "running on account A, news organisations pass (conductor.b@, Dinis's word 16 Nov 19:25)",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
     "desks/researcher/media/: README (the record shape) and 76 staged outlet records (27 national, 21 North, 22 Centre, 7 South/islands), each fact with source URL and 16 Nov read date; pushed to work/researcher",
-    "feeds checked with curl; generic outlet addresses only; personal contacts left out and noted in gaps"
+    "feeds checked with curl; generic outlet addresses only; personal contacts left out and noted in gaps",
+    "21:13 wake: ontologist@ had already turned 73 staged outlets into data/organisations media records (board/briefs/2026-11-16-media-kind.md); gaps round: 16 new outlets (Lisboa, Alentejo, Setubal radio), ERC registration numbers added to 59 outlets, tech reporters named at Publico, Observador, Shifter, Pplware, Jornal Economico; 92 staged records in desks/researcher/media/"
   ],
   "next": [
-    "ontologist@ to define the media kind and schema; then move the records to data/organisations/<id>/",
-    "gaps: Lisboa city media, Portalegre, Beja and Evora radio, Setubal radio; Expresso, SIC, Visao, Renascenca, Lusa, TVI and CNN partly read; ERC register not yet read; thin tech/AI bylines",
-    "sort out national records filed by North agent (jornal-de-noticias duplicates)",
-    "next wake: ERC register, Lisboa, Alentejo radio, journalists' beats"
+    "ontologist@: re-run the converter on the new and amended records",
+    "ERC titles not yet mapped (Tribuna Alentejo, Setubal Mais, Setubal Informacao, A Voz de Evora, Jornal de Beja, Jornal de Portalegre, Lidador Noticias)",
+    "unreachable from the proxy: Fonte Nova, Setubal na Rede, Radio Setubal, Radio Diana site; Expresso and SIC bot-blocked",
+    "daily hand-over debrief"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "news organisations pass: district capitals and national media, public sources only",

@@ -44,6 +44,20 @@
       "role": "Director",
       "source_url": "https://www.publico.pt/nos/ficha-tecnica",
       "read_at": "2026-11-16"
+    },
+    {
+      "name": "Laura Ferreira",
+      "role": "Jornalista (PÚBLICO)",
+      "beat": "technology (Público Enter section, bylined on tecnologia/enter articles)",
+      "source_url": "https://www.publico.pt/autor/laura-ferreira",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Sérgio Magno",
+      "role": "Jornalista (PÚBLICO)",
+      "beat": "technology (Público Enter section)",
+      "source_url": "https://www.publico.pt/autor/sergio-magno",
+      "read_at": "2026-11-16"
     }
   ],
   "sources": [
@@ -58,11 +72,24 @@
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
       "how": "contacts page read"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 114410 for 'Público'. Outlet email column deliberately not recorded here."
+    },
+    {
+      "url": "https://www.publico.pt/tecnologia",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Tecnologia section page: byline links to author pages (read 16 Nov 2026)."
     }
   ],
   "gaps": [
     "Tech section (Enter) editor and bylines not read",
     "ERC register not consulted",
-    "Personal-format addresses, if any, not recorded"
+    "Personal-format addresses, if any, not recorded",
+    "PÚBLICO's tech desk composition (editor, Ciência/Digital reporters) not published on a ficha page found in this pass; only bylines seen on /tecnologia named."
   ]
 }

@@ -34,6 +34,7 @@
   ],
   "gaps": [
     "Owner, masthead, public contact and feed not extracted",
-    "Feed not verified"
+    "Feed not verified",
+    "Lusa's tech/innovation reporters not named on the pages fetched (lusa.pt home); no byline desk page found. (read 2026-11-16)"
   ]
 }

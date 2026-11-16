@@ -1,0 +1,47 @@
+{
+ "name": "Rádio Jornal de Setúbal",
+ "media_kind": "radio",
+ "reach": "local",
+ "places_covered": [
+  {
+   "place": "Setúbal; 88.6 FM, generalist",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Rádio Jornal de Setúbal - Sociedade de Comunicação, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+  "read_at": "2026-11-16"
+ },
+ "people": [
+  {
+   "name": "Ana Paula Antunes",
+   "role": "Responsável de informação (ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Luís Gabriel Santos",
+   "role": "Responsável de programação (ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423082 for 'Rádio Jornal de Setúbal'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "Outlet website could not be reached from this client (no public DNS answer or host down at the time); everything below is from the ERC public register.",
+  "radiosetubal.pt did not connect; station site not identified from public sources in this pass."
+ ],
+ "id": "radio-jornal-de-setubal",
+ "type": "organisation",
+ "kind": "media",
+ "language": "pt"
+}

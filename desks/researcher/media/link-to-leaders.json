@@ -53,9 +53,16 @@
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
       "how": "ficha técnica read"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126913 for 'Link To Leaders'. Outlet email column deliberately not recorded here."
     }
   ],
   "gaps": [
-    "Owner company name not extracted (NIPC 518484637 published on the page)"
+    "Owner company name not extracted (NIPC 518484637 published on the page)",
+    "Link to Leaders items are mostly bylined 'Link to Leaders'; no tech-specific reporter named. (read 2026-11-16)"
   ]
 }

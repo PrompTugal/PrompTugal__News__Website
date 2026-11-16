@@ -45,10 +45,17 @@
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
       "how": "ficha técnica read"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126846 for 'ZAP.aeiou'. Outlet email column deliberately not recorded here."
     }
   ],
   "gaps": [
     "Email addresses on the page are obfuscated; not recorded",
-    "Redação names listed (Adriana Peixoto, Miguel Esteves, Nuno Teixeira da Silva, Soraia Ferreira, Teresa Oliveira Campos, Tomás Guimarães) without beats; not recorded as tech beat"
+    "Redação names listed (Adriana Peixoto, Miguel Esteves, Nuno Teixeira da Silva, Soraia Ferreira, Teresa Oliveira Campos, Tomás Guimarães) without beats; not recorded as tech beat",
+    "ZAP tech items are bylined 'ZAP' or agencies (AFP); no tech reporter named in the RSS. (read 2026-11-16)"
   ]
 }

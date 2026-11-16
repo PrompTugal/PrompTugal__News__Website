@@ -1,0 +1,51 @@
+{
+ "name": "Oxigénio (102.6 FM)",
+ "names_as_listed": [
+  "Rádio Oxigénio",
+  "Oxigénio"
+ ],
+ "media_kind": "radio",
+ "reach": "local",
+ "places_covered": [
+  {
+   "place": "Oeiras / Linha de Cascais (licensing concelho Oeiras; studio address Lisboa); 102.6 FM, musical thematic",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Rádio Comercial da Linha - Sociedade de Radiodifusão de Oeiras, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+  "read_at": "2026-11-16"
+ },
+ "people": [
+  {
+   "name": "Diego Armés dos Santos",
+   "role": "Responsável de informação (ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Carlos Cardoso",
+   "role": "Responsável de programação (ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423279 for 'Oxigénio'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "Outlet website could not be reached from this client (no public DNS answer or host down at the time); everything below is from the ERC public register.",
+  "radiooxigenio.pt did not connect; no contact page or feed read."
+ ],
+ "id": "radio-oxigenio",
+ "type": "organisation",
+ "kind": "media",
+ "language": "pt"
+}

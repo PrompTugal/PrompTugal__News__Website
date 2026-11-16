@@ -1,0 +1,110 @@
+{
+ "name": "Time Out Lisboa",
+ "names_as_listed": [
+  "Time Out",
+  "Time Out Portugal",
+  "Lisbon by Time Out"
+ ],
+ "media_kind": "magazine",
+ "reach": "national",
+ "website": "https://www.timeout.pt/lisboa/pt",
+ "places_covered": [
+  {
+   "place": "Lisboa, Porto (adjunta Porto), Cascais edition",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Time Out Portugal Unipessoal Lda., 100% Time Out Group PLC",
+  "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+  "read_at": "2026-11-16"
+ },
+ "contact_page_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+ "public_contact": [
+  {
+   "channel": "Redação, Administração e Serviços Comerciais: Av. 24 de Julho 3, 1º esq, Lisboa; generic address geral@timeout.com as published by the outlet; advertising publicidade@timeout.com",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [],
+ "people": [
+  {
+   "name": "Vera Moura",
+   "role": "Directora",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Hugo Torres",
+   "role": "Director adjunto (Lisboa)",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Mariana Morais Pinheiro",
+   "role": "Directora adjunta (Porto)",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Mauro Gonçalves",
+   "role": "Editor executivo",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Ana Catarina Peixoto",
+   "role": "Jornalista",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Eurico de Barros",
+   "role": "Jornalista",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Hugo Geada",
+   "role": "Jornalista",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Raquel Dias da Silva",
+   "role": "Jornalista",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Rute Barbedo",
+   "role": "Jornalista",
+   "source_url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica e contactos page (HTTP 200)."
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127577 (Time Out), 127880 (Lisbon by Time Out), 128099 (Time Out Cascais) for 'Time Out (Time Out Portugal, Unipessoal, Lda.)'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "No RSS/Atom feed found: /lisboa/rss.xml, /lisboa/pt/feed, /lisboa/pt/rss and /feed all returned HTTP 404; none advertised in the page head.",
+  "Estatuto editorial is on /lisboa/pt/lei-da-transparencia (not read in this pass)."
+ ],
+ "id": "time-out-lisboa",
+ "type": "organisation",
+ "kind": "media",
+ "language": "pt"
+}

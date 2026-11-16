@@ -1,0 +1,40 @@
+{
+ "name": "RTP Antena 3",
+ "media_kind": "radio",
+ "reach": "national",
+ "places_covered": [
+  {
+   "place": "Portugal (national service; Antena 1 also has Açores and Madeira regional services)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Rádio e Televisão de Portugal, SA (public service)",
+  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+  "read_at": "2026-11-16"
+ },
+ "people": [
+  {
+   "name": "Mário Rui Grilo Galego",
+   "role": "Responsável de informação and programação (ERC register, RTP radio services)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423000 for 'RTP Antena 3 (RTP radio operator)'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "RTP's own Antena pages were not found at the URLs tried (rtp.pt/antena3 and rtp.pt/play/antena1 returned 404); contact page and feed not read. See rtp-noticias for RTP's newsroom."
+ ],
+ "id": "rtp-antena-3",
+ "type": "organisation",
+ "kind": "media",
+ "language": "pt"
+}

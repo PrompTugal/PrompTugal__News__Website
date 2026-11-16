@@ -45,6 +45,27 @@
       "source_url": "https://pplware.sapo.pt/cartao-visita",
       "read_at": "2026-11-16",
       "beat": "technology"
+    },
+    {
+      "name": "Pedro Pinto",
+      "role": "Author (Pplware)",
+      "beat": "internet, Google Maps with AI, software",
+      "source_url": "https://pplware.sapo.pt/internet/perguntar-ao-maps-chegou-a-portugal-o-google-maps-com-ia/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Ana Sofia Neto",
+      "role": "Author (Pplware)",
+      "beat": "gadgets",
+      "source_url": "https://pplware.sapo.pt/gadgets/gadgets-retro-estao-de-volta-este-radio-fm-monta-se-em-casa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui Neto",
+      "role": "Author (Pplware)",
+      "beat": "science, space",
+      "source_url": "https://pplware.sapo.pt/informacao/foguetao-vulcan-falha-e-destroi-40-satelites-da-amazon-leo/",
+      "read_at": "2026-11-16"
     }
   ],
   "sources": [
@@ -59,6 +80,18 @@
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
       "how": "contacts read"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127300 for 'Pplware'. Outlet email column deliberately not recorded here."
+    },
+    {
+      "url": "https://pplware.sapo.pt/feed/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "RSS read (HTTP 200, application/rss+xml): dc:creator bylines."
     }
   ],
   "gaps": [

@@ -57,6 +57,13 @@
       "role": "Editor-executivo",
       "source_url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
       "read_at": "2026-11-16"
+    },
+    {
+      "name": "Almerinda Romeira",
+      "role": "Jornalista (listed on ficha técnica)",
+      "beat": "innovation and research (bylined on universities and AI research coverage)",
+      "source_url": "https://jornaleconomico.sapo.pt/noticias/habitacao-e-produtividade-entre-as-prioridades-estrategicas-da-investigacao-e-inovacao/",
+      "read_at": "2026-11-16"
     }
   ],
   "sources": [
@@ -71,6 +78,12 @@
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
       "how": "contacts read"
+    },
+    {
+      "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "The outlet's own ficha técnica: owner Media9Par, S.A., ERC no. 124955 (the page also prints 224087 under 'registo na ERC'; 124955 is the 6-digit ERC form); Tagus Park, Porto Salvo; not found by name in the ERC press sheet, so read from the outlet's own page."
     }
   ],
   "gaps": [

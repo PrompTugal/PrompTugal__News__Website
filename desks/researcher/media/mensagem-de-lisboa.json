@@ -1,0 +1,48 @@
+{
+ "name": "Mensagem de Lisboa",
+ "names_as_listed": [
+  "A Mensagem",
+  "Mensagem de Lisboa"
+ ],
+ "media_kind": "online",
+ "reach": "regional",
+ "website": "https://www.amensagem.pt",
+ "places_covered": [
+  {
+   "place": "Lisboa",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "A Mensagem D'A Brasileira, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-16"
+ },
+ "people": [
+  {
+   "name": "Catarina Carvalho",
+   "role": "Diretora (ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "beat": "general information, Lisbon"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127514 for 'Mensagem de Lisboa (online, regional, Informação Geral, Lisboa)'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "amensagem.pt returned HTTP 403 to this client for every page (home, feed, contactos, sobre, ficha-tecnica): contact page, feed and team not read.",
+  "mensagem.pt (the older domain) redirects to an unrelated site and was not used.",
+  "Registered 'Mensagem de Lisboa'; ERC lists a generic email that is deliberately not recorded here."
+ ],
+ "id": "mensagem-de-lisboa",
+ "type": "organisation",
+ "kind": "media",
+ "language": "pt"
+}

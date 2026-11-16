@@ -55,6 +55,13 @@
       "role": "Diretor Geral",
       "source_url": "https://eco.sapo.pt/ficha-tecnica",
       "read_at": "2026-11-16"
+    },
+    {
+      "name": "Vítor Ferreira",
+      "role": "Opinion contributor (ECO)",
+      "beat": "entrepreneurship, startups, AI (opinion)",
+      "source_url": "https://eco.sapo.pt/opiniao/visibilidade-nao-e-crescimento/",
+      "read_at": "2026-11-16"
     }
   ],
   "sources": [
@@ -63,10 +70,17 @@
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
       "how": "ficha técnica read"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126881 for 'ECO'. Outlet email column deliberately not recorded here."
     }
   ],
   "gaps": [
     "Contact address is obfuscated on the page; not recorded",
-    "Technology section editor not identified"
+    "Technology section editor not identified",
+    "ECO tech/startups reporters (Pessoas/Tech) not identified: the section pages read name no bylines in a fetchable form; ECO's own /autores/ page not parsed in this pass. ECO also holds ERC numbers for its channels (ECO Seguros 127454, Capital Verde 127461, Fundos Europeus 127621, Local Online 127824, +M 127867, Trabalho 127921, EContas 128203, eRadar 128183, Eco Avenida 128142) on https://eco.sapo.pt/ficha-tecnica/, read 2026-11-16."
   ]
 }
