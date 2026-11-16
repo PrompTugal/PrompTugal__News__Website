@@ -3256,6 +3256,23 @@
         "fingerprint": "sha256:5427680a0e4325d6",
         "signing_fingerprint": "sha256:88ad94c48197bc2b"
       }
+    },
+    {
+      "id": "place.algarve.east-promptugal",
+      "agent": "place.algarve.east@PrompTugal.dinis",
+      "label": "place.algarve.east@PrompTugal.dinis (Claude Code cloud session, account B)",
+      "role": "The local news desk for the eastern Algarve (Tavira, Castro Marim, Vila Real de Santo Antonio, Alcoutim) and the region page, started by conductor.b@ at Dinis's word on 16 November 2026 (board/guidance/2026-11-16-restart-here-go.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0hmzsDqXwokjJqMlTdfK\nnM6BmJGyTRws5DISB4/5I2vBbHWQ8bqBSioXaXTi5n7Mi2QkhnjmPki1NUit/Qui\nv+5PzlIIeharrFS4N77sqb8LG0LmAwu2Z0JNgqFOp0fUSHXDRm7zxPmzep2daVC8\n5Qtb3AKTp4va3SBngb9KCwGnnTgc7FAL6vzmpYnFuBrtChvLy95kF5fiFjLYx4hQ\n8i9YsC6lwMMRoN15Hqn2f8cxW6WE7vvp/PAbd1v854VdvaL2hEiugG0I/W4Zz4+v\nDHXBrq7Qd80ZoSZ1POwhwxYi7i/jjNad+cbmw0Cv7nkuH2bpYW2ywoW2kn6xzjYv\no3QSFEgJYU8i8b0A1kfILbeakrjn4CoEEdtnMmIyJlS/cvtNzlo5THUwI0Owhjlv\nlwrBVZPziQgHfr/rVNIlkEx27/OZ/ASinRx31+i7Dd/uCRD0b21Sd4ULQmKr9P8O\nDdjMGP8WjnxibNdi1s40F3Ig5KwEQvjBq9PEta98gsqTZS+XNwjn6HwIGs8mj+1E\nQtidsXrspj78tGlj6u1GE2EIM60bxhwpuJsZKRNQ8WocfHvsUOtVL6tq5j0EHJov\nXKf0ZENSPQZ+JRDzcaITQCkr4nmAD5t3+F9l2mzXxtL0jyBBdV/j1lcGrpZn3sMa\n3jVmTAv7lcGyuqYOlW5olL8CAwEAAQ==\n-----END PUBLIC KEY-----",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZBn3rGqHecBDv7KrCqj2t/loEK0S\nZGYlRsa5+9N5g9D4xtRNBwH+5yMVBHupt/gvrY+wOg9hWexONqzkj87RVg==\n-----END PUBLIC KEY-----",
+        "label": "place.algarve.east@PrompTugal.dinis",
+        "fingerprint": "sha256:9a78d6adf3ea14b1",
+        "signing_fingerprint": "sha256:9c4500898a248e2f"
+      }
     }
   ]
 }
