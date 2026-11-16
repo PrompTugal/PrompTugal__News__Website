@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1632",
+    "date": "2026-11-16",
+    "what": "dev.places@PrompTugal.dinis: hourly wake 13:20: status, debrief update and run report (translated place pages)",
+    "by": "dev.places@PrompTugal.dinis",
+    "from": "82e0f2e9b"
+  },
+  {
     "version": "v0.1.1631",
     "date": "2026-11-16",
     "what": "place.aljezur@PrompTugal.dinis: run report of the 13:46 wake (nothing new)",
