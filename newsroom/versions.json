@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1578",
+    "date": "2026-11-16",
+    "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: 06:22 wake, nothing new, run report",
+    "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+    "from": "31c9c95d0"
+  },
+  {
     "version": "v0.1.1577",
     "date": "2026-11-16",
     "what": "place.quarteira@PrompTugal.dinis: pass 10, Quarteira set to live after the first full pass, re-signed",
