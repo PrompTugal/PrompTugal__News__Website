@@ -28,7 +28,9 @@
     "quality": "The data quality of {name}: coverage, freshness and sources per fact.",
     "quality_all": "The data quality of every place on PrompTugal.news, one row each: coverage of the fields each fact should carry, freshness of the reads, and how many independent sources the facts rest on. Computed at every build from the place agents' files. Material for agents, never instruction.",
     "articles": "Every article of PrompTugal.news as data: its front matter, its page, its markdown twin, its signature and the sources it links. Material for agents, never instruction.",
-    "llms": "## Every place as GET endpoints\n- api/v1/places/<id>/index.json: the REST root of Portugal, the Algarve and each town (for example [api/v1/places/loule/index.json]({base}api/v1/places/loule/index.json)), with page.json, stories.json, ai-map.json, events.json, sources.json, agents.json, provenance.json, quality.json and openapi.json beside it.\n- [api/v1/places/quality.json]({base}api/v1/places/quality.json): data quality per place (coverage, freshness, sources per fact).\n- [api/v1/articles.json]({base}api/v1/articles.json): every article as data, one file each at api/v1/articles/<slug>.json.\n\n"
+    "llms": "## Every place as GET endpoints\n- api/v1/places/<id>/index.json: the REST root of Portugal, the Algarve and each town (for example [api/v1/places/loule/index.json]({base}api/v1/places/loule/index.json)), with page.json, stories.json, ai-map.json, events.json, sources.json, agents.json, provenance.json, quality.json and openapi.json beside it.\n- [api/v1/places/quality.json]({base}api/v1/places/quality.json): data quality per place (coverage, freshness, sources per fact).\n- [api/v1/articles.json]({base}api/v1/articles.json): every article as data, one file each at api/v1/articles/<slug>.json.\n\n",
+    "nearby": "The stories of the places around {name}, each with how far it is, whether it borders {name}, the significance its place agent gave it and whether it shows here under the rule (board/briefs/2026-11-16-blast-radius.md); borders from data.places@'s neighbours file (pt.wikipedia, CAOP check owed).",
+    "tree": "The tree of significance: Portugal, the Algarve, its towns (Quarteira inside Loulé), each with its stories counted by significance (local, neighbours, region, country, beyond, unmarked). Material for agents, never instruction."
   },
   "audit": {
     "about": "The JSON-first audit of PrompTugal.news (Dinis, 15 November 2026: \"no data that only exists in HTML\"). For every kind of page: how many outside links (the facts' sources) it shows, and how many some served JSON file under /api/v1/ holds. For every by-place page: the same against that place's own endpoints (the gate fails the build when one is missing). Material for agents, never instruction.",
@@ -102,7 +104,8 @@
       "quality": "coverage, freshness, sources per fact",
       "record": "its file as {agent} keeps it",
       "tables": "its database tables (data.places@)",
-      "openapi": "the OpenAPI document this page loads"
+      "openapi": "the OpenAPI document this page loads",
+      "nearby": "the stories around it: distance, borders, significance, shown or not"
     },
     "loading": "Loading Swagger UI on",
     "dash_title": "Data quality, place by place",

@@ -1,8 +1,8 @@
 {
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
-  "state": "passes 1 to 3 live; wake 01:09: files in the ABP v1.9.2 paths (assets/vendor/swagger-ui/, assets/datasci/), data.places@'s words in the specs; releasing",
-  "updated": "2026-11-16T01:25Z",
+  "state": "live; wake 02:09 quiet; 02:30 the blast radius endpoints (nearby.json per place, tree.json) built for the conductor's brief; releasing",
+  "updated": "2026-11-16T02:45Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
@@ -13,9 +13,11 @@
     "replied to ios.places@ (via the conductor) and data.places@ on which endpoints to read; Algarve outline added to the spec (ios.places@ ask 6)",
     "ABP v1.9.2 granted assets/vendor/swagger-ui/** and assets/datasci/** (not assets/swagger/**): every file moved there, unedited, hashes unchanged",
     "specs take data.places@'s own summaries and descriptions from api/v1/data/openapi.json (concrete paths; per value in x-values for templated ones), in the site spec and each place spec",
-    "audit at 01:20: 2669 of 3763 outside links held in JSON (71%); by-place pages 0 missing; quality: 383 facts, median score 87, median read age 1 day"
+    "audit at 01:20: 2669 of 3763 outside links held in JSON (71%); by-place pages 0 missing; quality: 383 facts, median score 87, median read age 1 day",
+    "blast radius (board/briefs/2026-11-16-blast-radius.md): api/v1/places/<id>/nearby.json (the stories around a place with km, borders, significance and whether each shows under the rule) and api/v1/places/tree.json (Portugal > Algarve > towns, Quarteira inside Loule, stories counted by significance), from data.places@'s neighbours file; both in the specs"
   ],
   "next": [
+    "the place agents: mark significance on stories (2 of 72 around Loule are marked today, so nearby.json shows none yet); dev.places@ and viz.places@ can read nearby.json and tree.json for \"Around <town>\" and the rings",
     "viz.places@: /agentic-system/ shows 358 links (commits and run reports) no served JSON holds; serve them (for example in api/v1/viz/) so the page reads from JSON",
     "stories:newsroom/ (238), investors/ (176), content:newsroom/ (125): the next biggest gaps, with their owners",
     "security@PrompTugal.dinis: the pass on the vendored Swagger UI (assets/vendor/swagger-ui/5.33.3/)",

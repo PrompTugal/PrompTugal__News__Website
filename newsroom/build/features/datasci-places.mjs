@@ -177,9 +177,59 @@ function mergedMap(M, list) {
     return out
 }
 
+
+// the blast radius and the tree of significance (board/briefs/2026-11-16-blast-radius.md): who borders whom and how far,
+// from data.places@'s board/team/data.places/neighbours.json (pt.wikipedia at a named revision; CAOP check owed), and
+// each story's significance as its place agent marks it
+const RANK = { beyond: 4, country: 3, region: 2, neighbours: 1, local: 0 }
+function geography(ctx) {
+    let n = { places: [], distances: [] }
+    try { n = ctx.readJSON('board/team/data.places/neighbours.json') } catch {}
+    const km = new Map(), borders = new Map(), src = new Map()
+    for (const [a, b, d] of arr(n.distances)) { km.set(`${a}|${b}`, d); km.set(`${b}|${a}`, d) }
+    for (const p of arr(n.places)) { src.set(p.id, { source: p.source || null, read_on: p.read_on || null }); for (const b of arr(p.borders)) if (b.place) { (borders.get(p.id) || borders.set(p.id, new Set()).get(p.id)).add(b.place); (borders.get(b.place) || borders.set(b.place, new Set()).get(b.place)).add(p.id) } }
+    return { km: (a, b) => km.get(`${a}|${b}`) ?? null, adjacent: (a, b) => !!(borders.get(a) && borders.get(a).has(b)), borders: id => [...(borders.get(id) || [])], src, check_owed: n.check_owed || null }
+}
+// does a story from place `from` show on place `on`? (the brief's table; a story with no significance is not shown away from home)
+function reach(sig, on, from, G, M) {
+    const k = G.km(on, from), adj = G.adjacent(on, from), onRec = M.byId.get(on)
+    if (!sig) return { shown: false, why: 'not marked' }
+    if (sig === 'local') return { shown: false, why: 'local: its town only' }
+    if (sig === 'neighbours') return (adj || (k !== null && k <= 20)) ? { shown: true, why: adj ? 'neighbours: borders it' : 'neighbours: within 20 km' } : { shown: false, why: 'neighbours: not adjacent, over 20 km' }
+    if (sig === 'region') return { shown: !!onRec && onRec.kind !== 'country', why: 'region: every Algarve place' }
+    return { shown: true, why: `${sig}: every place` }
+}
+function nearby(ctx, M, G, r) {
+    const T = towns(M), others = r.kind === 'country' ? [M.byId.get('algarve'), ...T].filter(Boolean) : r.kind === 'region' ? T : T.filter(t => t.id !== r.id)
+    const items = []
+    for (const t of others) for (const a of arr(t.ai_news)) {
+        const sig = typeof a.significance === 'string' && a.significance in RANK ? a.significance : null
+        const rr = r.kind === 'town' || r.kind === 'municipality' || r.kind === 'city' ? reach(sig, r.id, t.id, G, M) : { shown: !!sig && RANK[sig] >= (r.kind === 'region' ? RANK.region : RANK.country), why: r.kind === 'region' ? 'region or wider' : 'country or wider' }
+        items.push({ from: t.id, from_name: t.name, km: G.km(r.id, t.id), adjacent: G.adjacent(r.id, t.id), significance: sig, significance_why: a.significance_why || a.why_significance || null, shown: rr.shown, why: rr.why, title: a.title, url: a.url, date: a.date || null, publisher: a.publisher || null, read_on: a.read_on || null })
+    }
+    items.sort((a, b) => (b.shown - a.shown) || ((RANK[b.significance] ?? -1) - (RANK[a.significance] ?? -1)) || ((a.km ?? 999) - (b.km ?? 999)) || String(b.date || '').localeCompare(String(a.date || '')))
+    const marked = items.filter(i => i.significance).length
+    return {
+        borders: G.borders(r.id).map(id => ({ id, name: (M.byId.get(id) || {}).name || id, km: G.km(r.id, id) })),
+        distances: T.filter(t => t.id !== r.id && G.km(r.id, t.id) !== null).map(t => ({ id: t.id, name: t.name, km: G.km(r.id, t.id), adjacent: G.adjacent(r.id, t.id) })).sort((a, b) => a.km - b.km),
+        geography_source: G.src.get(r.id) || null, check_owed: G.check_owed,
+        counts: { stories: items.length, shown: items.filter(i => i.shown).length, marked, unmarked: items.length - marked },
+        rule: RULE, items,
+    }
+}
+const RULE = { local: 'its town only', neighbours: 'its town, the councils it borders, and any place within 20 km', region: 'every Algarve town and the Algarve page', country: 'the home page and every place', beyond: 'as country, marked as such' }
+function tree(M) {
+    const node = r => {
+        const by = {}
+        for (const a of arr(r.ai_news)) { const k = typeof a.significance === 'string' && a.significance in RANK ? a.significance : 'unmarked'; by[k] = (by[k] || 0) + 1 }
+        return { id: r.id, name: r.name, kind: r.kind, page: r.page, api: `${SITE_URL}api/v1/places/${r.id}/index.json`, stories: arr(r.ai_news).length, by_significance: by, children: M.recs.filter(x => x.parent === r.id).map(node) }
+    }
+    return M.recs.filter(r => !r.parent || !M.byId.has(r.parent)).map(node)
+}
+
 export function endpoints(id) {
     const b = `${SITE_URL}api/v1/places/${id}/`
-    return { index: `${b}index.json`, page: `${b}page.json`, stories: `${b}stories.json`, ai_map: `${b}ai-map.json`, events: `${b}events.json`, sources: `${b}sources.json`, agents: `${b}agents.json`, provenance: `${b}provenance.json`, quality: `${b}quality.json`, openapi: `${b}openapi.json`, record: `${SITE_URL}api/v1/by-place/${id}.json`, tables: `${SITE_URL}api/v1/data/places/${id}.json` }
+    return { index: `${b}index.json`, page: `${b}page.json`, stories: `${b}stories.json`, ai_map: `${b}ai-map.json`, events: `${b}events.json`, sources: `${b}sources.json`, agents: `${b}agents.json`, provenance: `${b}provenance.json`, quality: `${b}quality.json`, nearby: `${b}nearby.json`, openapi: `${b}openapi.json`, record: `${SITE_URL}api/v1/by-place/${id}.json`, tables: `${SITE_URL}api/v1/data/places/${id}.json` }
 }
 export const placeIds = ctx => model(ctx).recs.map(r => r.id)
 export const placeOf = (ctx, id) => model(ctx).byId.get(id)
@@ -236,6 +286,9 @@ export function api(ctx) {
         }, null)
         add(`api/v1/places/${r.id}/quality.json`, { ...meta(r, fillW(A.quality, { name: r.name })), ...q, method: words(ctx).method }, 'datasci-quality')
     }
+    const G = geography(ctx)
+    for (const r of M.recs) add(`api/v1/places/${r.id}/nearby.json`, { ...meta(r, fillW(A.nearby, { name: r.name })), ...nearby(ctx, M, G, r) }, null)
+    add('api/v1/places/tree.json', { about: A.tree, version: ctx.VERSION, built: ctx.TODAY, rule: RULE, levels: ['country', 'region', 'municipality', 'city'], tree: tree(M) }, null)
     const scores = all.map(q => q.score.value)
     add('api/v1/places/quality.json', {
         about: A.quality_all,
