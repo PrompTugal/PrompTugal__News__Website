@@ -118,5 +118,21 @@
   "towns_cols": "| Town | Agent | Now | Sources | Captured | Pass the test | Releases | Last change |",
   "agentmap_aria": "The Algarve's place agents on the map, each at its town, its face by the same rule as everywhere on the site",
   "agentmap_caption": "Each town's agent at its town, as of the last commit on record ({asof} UTC): {now} of {count} at work in the last 90 minutes. The face follows the site's one rule; follow a town to its newsroom. Coast and border: Natural Earth (public domain).",
-  "h_agentmap": "The region's agents, on the map"
+  "h_agentmap": "The region's agents, on the map",
+  "h_blast": "The blast radius: what reaches {name} from around it",
+  "blast_intro": "Rings at 10, 25 and 50 km from {name}. A line joins it to each council it borders. Each other town is drawn by how many of its stories reach {name} under the site's rule: a story marked for its neighbours travels to the councils its town borders and to anything within 20 km; one marked for the region travels to every Algarve town; one marked local stays home.",
+  "blast_aria": "The blast radius of {name}: rings at 10, 25 and 50 km, the councils it borders, and how many stories reach it from each town",
+  "blast_caption": "Stories reaching {name} from the towns around it: {shown}, from {from} of them; {unmarked} of the region's stories are not yet marked with their significance. Borders and distances: data.places@ (pt.wikipedia at named revisions, read {read}; a check against the official map, CAOP, is owed).",
+  "blast_twin": "- {name}, {km} km{border}: {n} of its stories reach here",
+  "blast_border": ", borders it",
+  "h_tree": "The tree of significance",
+  "tree_intro": "Every story carries how far it matters: its town, its neighbours, the region, the country, beyond. Each bar is a place's stories by that mark, as its agent set it; a story travels up the tree as far as its mark allows.",
+  "sig_labels": {
+    "local": "its town",
+    "neighbours": "its neighbours",
+    "region": "the region",
+    "country": "the country",
+    "beyond": "beyond",
+    "unmarked": "not marked yet"
+  }
 }

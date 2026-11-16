@@ -170,6 +170,84 @@ function agentMap(ctx, region) {
     return fill(T.agentmap, { w, h, aria: X(C.agentmap_aria), body, caption: X(W(C.agentmap_caption, { asof: `${dm(R.now)} ${hm(R.now)}`, now, count: towns.length })) })
 }
 
+
+// the blast radius and the tree of significance (Dinis, 16 November 2026, 01:20 UTC; board/briefs/2026-11-16-blast-radius.md):
+// borders and distances from data.places@'s board/team/data.places/neighbours.json; each story's significance as its
+// place agent marks it; the reach rule is the brief's (as datasci.places@ serves it in api/v1/places/<id>/nearby.json)
+const SIGS = ['local', 'neighbours', 'region', 'country', 'beyond']
+let GEO = null
+function geo(ctx) {
+    if (GEO) return GEO
+    let n = { places: [], distances: [] }
+    try { n = ctx.readJSON('board/team/data.places/neighbours.json') } catch {}
+    const km = new Map(), borders = new Map()
+    for (const [a, b, d] of arr(n.distances)) { km.set(`${a}|${b}`, d); km.set(`${b}|${a}`, d) }
+    for (const pl of arr(n.places)) for (const b of arr(pl.borders)) if (b.place) { for (const [x, y] of [[pl.id, b.place], [b.place, pl.id]]) { if (!borders.has(x)) borders.set(x, new Set()); borders.get(x).add(y) } }
+    const read = arr(n.places).map(x => x.read_on).filter(Boolean).sort().pop() || ''
+    GEO = { km: (a, b) => km.get(`${a}|${b}`) ?? null, adj: (a, b) => !!(borders.get(a) && borders.get(a).has(b)), read }
+    return GEO
+}
+const sigOf = a => (typeof a.significance === 'string' && SIGS.includes(a.significance)) ? a.significance : null
+function reaches(sig, on, from, G) {
+    if (!sig || sig === 'local') return false
+    if (sig === 'neighbours') { const k = G.km(on, from); return G.adj(on, from) || (k !== null && k <= 20) }
+    return true
+}
+function proj(ctx) {
+    let O = { countries: {} }
+    try { O = ctx.readJSON('assets/portugal/algarve-outline.json') } catch {}
+    const V = { lon0: -9.12, lon1: -7.30, lat0: 36.92, lat1: 37.62 }, w = 1000
+    const k = Math.cos(37.2 * Math.PI / 180), sc = w / ((V.lon1 - V.lon0) * k), h = Math.round((V.lat1 - V.lat0) * sc)
+    const X0 = lon => ((lon - V.lon0) * k * sc), Y0 = lat => ((V.lat1 - lat) * sc)
+    const ring = r => 'M' + r.map(([lo, la]) => `${X0(lo).toFixed(1)},${Y0(la).toFixed(1)}`).join('L') + 'Z'
+    let land = ''
+    for (const [name, cls] of [['Spain', 'es'], ['Portugal', 'pt']]) for (const poly of (O.countries[name] || [])) land += `<path d="${poly.map(ring).join('')}" class="vz-am-land ${cls}"/>`
+    return { w, h, X0, Y0, land, pxPerKm: sc / 111.2 }
+}
+function blastData(ctx, p) {
+    const G = geo(ctx), towns = places(ctx).filter(t => placesAt(ctx).has(t.id) && t.id !== p.id)
+    return towns.map(t => {
+        const news = arr(t.data && t.data.ai_news)
+        return { t, km: G.km(p.id, t.id), adj: G.adj(p.id, t.id), n: news.filter(a => reaches(sigOf(a), p.id, t.id, G)).length, unmarked: news.filter(a => !sigOf(a)).length }
+    })
+}
+function blastHtml(ctx, p) {
+    const T = tmpl(ctx, NT), C = copy(ctx), P = proj(ctx), at = placesAt(ctx).get(p.id)
+    if (!at) return ''
+    const cx = P.X0(at.at[0]), cy = P.Y0(at.at[1]), rel = newsroomRel(p), D = blastData(ctx, p)
+    let body = P.land
+    for (const r of [50, 25, 10]) body += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${(r * P.pxPerKm).toFixed(1)}" class="vz-bl-ring r${r}"/><text x="${(cx + r * P.pxPerKm * 0.71 + 4).toFixed(1)}" y="${(cy - r * P.pxPerKm * 0.71).toFixed(1)}" class="vz-bl-km">${r} km</text>`
+    for (const d of D.filter(d => d.adj)) { const a = placesAt(ctx).get(d.t.id).at; body += `<line x1="${cx.toFixed(1)}" y1="${cy.toFixed(1)}" x2="${P.X0(a[0]).toFixed(1)}" y2="${P.Y0(a[1]).toFixed(1)}" class="vz-bl-border"/>` }
+    for (const d of D) {
+        const a = placesAt(ctx).get(d.t.id).at, x = P.X0(a[0]), y = P.Y0(a[1])
+        body += fill(T['blast-pin'], { href: X(ctx.link(rel, newsroomRel(d.t)).replace(/\.md$/, '.html')), title: X(`${d.t.name}: ${d.km ?? '?'} km${d.adj ? ', borders ' + p.name : ''}; ${d.n} of its stories reach ${p.name}`),
+            x: x.toFixed(1), y: y.toFixed(1), r: (5 + Math.sqrt(d.n) * 4).toFixed(1), cls: d.n ? 'on' : 'off', lx: x.toFixed(1), ly: (y + 20 + Math.sqrt(d.n) * 4).toFixed(1), name: X(d.t.name) })
+    }
+    body += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="9" class="vz-bl-home"/><text x="${cx.toFixed(1)}" y="${(cy - 16).toFixed(1)}" text-anchor="middle" class="vz-bl-homelabel">${X(p.name)}</text>`
+    const shown = D.reduce((s, d) => s + d.n, 0), from = D.filter(d => d.n).length, unmarked = D.reduce((s, d) => s + d.unmarked, 0)
+    return fill(T.blast, { accent: X(p.accent), w: P.w, h: P.h, aria: X(W(C.blast_aria, { name: p.name })), body, caption: X(W(C.blast_caption, { shown, from, name: p.name, unmarked, read: geo(ctx).read })) })
+}
+function blastTwin(ctx, p) {
+    const C = copy(ctx), c = s => ctx.md.cell(String(s ?? ''))
+    return blastData(ctx, p).filter(d => d.km !== null).sort((a, b) => a.km - b.km).map(d => W(C.blast_twin, { name: c(d.t.name), km: d.km, border: d.adj ? C.blast_border : '', n: d.n })).join('\n')
+}
+function treeHtml(ctx) {
+    const T = tmpl(ctx, NT), C = copy(ctx), L = C.sig_labels
+    const count = pl => { const by = {}; for (const a of arr(pl.data && pl.data.ai_news)) { const k = sigOf(a) || 'unmarked'; by[k] = (by[k] || 0) + 1 } return by }
+    const all0 = places(ctx), max = Math.max(1, ...all0.map(pl => arr(pl.data && pl.data.ai_news).length))
+    const row = (pl, depth) => { const by = count(pl), n = Object.values(by).reduce((s, v) => s + v, 0)
+        return fill(T['tree-row'], { depth, name: X(pl.name), n, pct: (100 * n / max).toFixed(1), segs: [...SIGS, 'unmarked'].filter(k => by[k]).map(k => fill(T['tree-seg'], { sig: k, k: by[k], title: X(`${pl.name}: ${by[k]} ${L[k]}`) })).join('') }) }
+    const all = places(ctx), root = all.filter(x => x.kind === 'country'), region = all.filter(x => x.kind === 'region')
+    let rows = root.map(r => row(r, 0)).join('') + region.map(r => row(r, 1)).join('')
+    const kids = id => all.filter(x => x.parent === id)
+    for (const t of kids('algarve')) { rows += row(t, 2); for (const u of kids(t.id)) rows += row(u, 3) }
+    return fill(T.tree, { rows }) + fill(T['tree-key'], { items: [...SIGS, 'unmarked'].map(k => fill(T['tree-key-item'], { sig: k, label: X(L[k]) })).join('') })
+}
+function treeTwin(ctx) {
+    const C = copy(ctx), L = C.sig_labels
+    return places(ctx).map(pl => { const by = {}; for (const a of arr(pl.data && pl.data.ai_news)) { const k = sigOf(a) || 'unmarked'; by[k] = (by[k] || 0) + 1 } return `- ${ctx.md.cell(pl.name)}: ${Object.entries(by).map(([k, v]) => `${v} ${L[k]}`).join(', ') || 'no stories yet'}` }).join('\n')
+}
+
 // the region's newsroom: every town's loop side by side
 function townsBoard(ctx, region) {
     const C = copy(ctx), c = s => ctx.md.cell(String(s ?? '')), rel = newsroomRel(region)
@@ -189,6 +267,8 @@ function page(ctx, p) {
     const items = arr(d.ai_news).length + arr(d.ai_map).length + arr(d.events).length
     let md = `::: vz-hero-slot\n${c(W(C.lede, { id: p.id, name: p.name }))}\n:::\n\n`
     md += `## ${C.h_flow} {#flow}\n\n::: vz-stations-slot\n${list.map(s => `- **${s.n}. ${c(s.label)}: ${c(s.big)} ${c(s.unit)}.** ${s.lines.map(c).join('; ')}`).join('\n')}\n:::\n\n`
+    if (placesAt(ctx).has(p.id)) md += `## ${W(C.h_blast, { name: p.name })} {#blast}\n\n${W(C.blast_intro, { name: p.name })}\n\n::: vz-blast-slot\n${blastTwin(ctx, p)}\n:::\n\n`
+    if (p.id === 'algarve') md += `## ${C.h_tree} {#tree}\n\n${C.tree_intro}\n\n::: vz-tree-slot\n${treeTwin(ctx)}\n:::\n\n`
     if (p.id === 'algarve') md += `## ${C.h_agentmap} {#agentmap}\n\n::: vz-agentmap-slot\n${places(ctx).filter(t => placesAt(ctx).has(t.id)).map(t => `- ${c(t.name)}: ${c(short(t.agent.toLowerCase()))}`).join('\n')}\n:::\n\n` + townsBoard(ctx, p)
     md += `## ${C.h_run} {#run}\n\n${C.run_intro}\n\n::: vz-chart-slot\n${c(W(C.chart_legend, { from: H[0] ? `${dm(H[0].t)} ${hm(H[0].t)}` : '', to: `${dm(record(ctx).now)} ${hm(record(ctx).now)}` }))}\n:::\n\n`
     md += `::: vz-run-slot\n${H.map(h => `- ${dm(h.t)} ${hm(h.t)}, ${c(short(h.agent.toLowerCase()))}: ${c(trim(noDash(noPrefix(h.subject)), 150))} (${c(delta(C, h))}; ${c(h.release || C.unreleased)})`).join('\n')}\n:::\n\n`
@@ -212,6 +292,8 @@ function page(ctx, p) {
             }))
             html = html.replace(/<div class="vz-stations-slot">[\s\S]*?<\/div>/, () => stationsHtml(ctx, p, list))
             html = html.replace(/<div class="vz-chart-slot">[\s\S]*?<\/div>/, () => chart(ctx, p, H))
+            html = html.replace(/<div class="vz-blast-slot">[\s\S]*?<\/div>/, () => blastHtml(ctx, p))
+            html = html.replace(/<div class="vz-tree-slot">[\s\S]*?<\/div>/, () => treeHtml(ctx))
             if (p.id === 'algarve') html = html.replace(/<div class="vz-agentmap-slot">[\s\S]*?<\/div>/, () => agentMap(ctx, p))
             html = html.replace(/<div class="vz-run-slot">[\s\S]*?<\/div>/, () => runHtml(ctx, p, H))
             return `<div class="vz-nr" style="--c:${X(p.accent)}">${html}</div>`

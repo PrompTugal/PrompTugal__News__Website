@@ -208,3 +208,36 @@ a.vz-member:hover { border-color: var(--ink-3); }
 .vz-agentmap .vz-am-label { font: 600 13px var(--sans); fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; }
 .vz-agentmap a:hover .vz-am-label { fill: var(--brand-red); }
 .vz-agentmap figcaption { font: 400 12.5px/1.5 var(--sans); color: var(--ink-3); }
+
+/* the blast radius and the tree of significance */
+.vz-blast { margin: 6px 0 22px; }
+.vz-blast svg { display: block; max-width: 100%; height: auto; background: color-mix(in srgb, #3b82c4 9%, var(--paper)); border-radius: 6px; }
+.vz-blast .vz-am-land.pt { fill: var(--panel); stroke: var(--rule-2); stroke-width: 1; }
+.vz-blast .vz-am-land.es { fill: var(--paper-2); stroke: var(--hair); stroke-width: 1; }
+.vz-blast .vz-bl-ring { fill: color-mix(in srgb, var(--c) 6%, transparent); stroke: var(--c); stroke-width: 1.2; stroke-dasharray: 4 4; }
+.vz-blast .vz-bl-ring.r10 { fill: color-mix(in srgb, var(--c) 14%, transparent); stroke-dasharray: none; }
+.vz-blast .vz-bl-km { font: 500 11px var(--mono); fill: var(--c); }
+.vz-blast .vz-bl-border { stroke: var(--c); stroke-width: 2.4; opacity: .7; }
+.vz-blast .vz-bl-pin.on { fill: var(--c); stroke: var(--ink); stroke-width: 1; opacity: .85; }
+.vz-blast .vz-bl-pin.off { fill: var(--panel); stroke: var(--ink-3); stroke-width: 1.2; }
+.vz-blast .vz-bl-label { font: 500 12px var(--sans); fill: var(--ink-2); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; }
+.vz-blast .vz-bl-label.off { fill: var(--ink-3); }
+.vz-blast .vz-bl-home { fill: var(--ink); stroke: var(--panel); stroke-width: 3; }
+.vz-blast .vz-bl-homelabel { font: 700 16px var(--serif); fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 4px; }
+.vz-blast figcaption { font: 400 12.5px/1.5 var(--sans); color: var(--ink-3); }
+.vz-tree { margin: 8px 0 6px; border-top: 1px solid var(--hair); }
+.vz-tree-row { display: grid; grid-template-columns: 230px minmax(0, 1fr) 40px; gap: 10px; align-items: center; padding: 5px 0; border-bottom: 1px solid var(--hair); font: 400 14px/1.3 var(--sans); }
+.vz-depth-0 .vz-tree-name { font-weight: 700; }
+.vz-depth-1 .vz-tree-name { padding-left: 16px; font-weight: 600; }
+.vz-depth-2 .vz-tree-name { padding-left: 32px; }
+.vz-depth-3 .vz-tree-name { padding-left: 48px; color: var(--ink-2); }
+.vz-depth-2 .vz-tree-name::before, .vz-depth-3 .vz-tree-name::before { content: "└ "; color: var(--ink-3); }
+.vz-tree-bar { display: flex; height: 14px; gap: 1px; }
+.vz-tree-n { font: 600 12px var(--mono); color: var(--ink-2); text-align: right; }
+.vz-seg { display: inline-block; height: 14px; min-width: 6px; border-radius: 2px; }
+.vz-sig-local { background: #9aa3ad; } .vz-sig-neighbours { background: #5aa9e6; } .vz-sig-region { background: #1f5f3f; }
+.vz-sig-country { background: #c52830; } .vz-sig-beyond { background: #6f4a9a; } .vz-sig-unmarked { background: repeating-linear-gradient(135deg, var(--hair) 0 3px, var(--paper-2) 3px 6px); }
+.vz-tree-key { font: 400 12.5px var(--sans); color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 12px; }
+.vz-tree-key .vz-seg { width: 12px; height: 10px; margin-right: 4px; vertical-align: -1px; }
+@media (max-width: 600px) { .vz-tree-row { grid-template-columns: 130px minmax(0, 1fr) 30px; } }
+.vz-tree-track { display: block; min-width: 0; }

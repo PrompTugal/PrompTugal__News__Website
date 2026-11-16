@@ -21,3 +21,17 @@
 <figure class="vz-agentmap"><svg viewBox="0 0 {{w}} {{h}}" width="100%" role="img" aria-label="{{aria}}"><title>{{aria}}</title>{{body}}</svg><figcaption>{{caption}}</figcaption></figure>
 <!-- agentmap-pin -->
 <a href="{{href}}"><title>{{title}}</title><g transform="translate({{x}} {{y}})"><circle r="4" class="vz-am-seat" fill="{{c}}"/><g transform="translate({{hx}} {{hy}})">{{head}}</g><text x="{{lx}}" y="{{ly}}" text-anchor="{{anchor}}" class="vz-am-label">{{name}}</text></g></a>
+<!-- blast -->
+<figure class="vz-blast" style="--c:{{accent}}"><svg viewBox="0 0 {{w}} {{h}}" width="100%" role="img" aria-label="{{aria}}"><title>{{aria}}</title>{{body}}</svg><figcaption>{{caption}}</figcaption></figure>
+<!-- blast-pin -->
+<a href="{{href}}"><title>{{title}}</title><circle cx="{{x}}" cy="{{y}}" r="{{r}}" class="vz-bl-pin {{cls}}"/><text x="{{lx}}" y="{{ly}}" text-anchor="middle" class="vz-bl-label {{cls}}">{{name}}</text></a>
+<!-- tree -->
+<div class="vz-tree">{{rows}}</div>
+<!-- tree-row -->
+<div class="vz-tree-row vz-depth-{{depth}}"><span class="vz-tree-name">{{name}}</span><span class="vz-tree-track"><span class="vz-tree-bar" style="width:{{pct}}%">{{segs}}</span></span><span class="vz-tree-n">{{n}}</span></div>
+<!-- tree-seg -->
+<i class="vz-seg vz-sig-{{sig}}" style="flex:{{k}}" title="{{title}}"></i>
+<!-- tree-key -->
+<p class="vz-tree-key">{{items}}</p>
+<!-- tree-key-item -->
+<span><i class="vz-seg vz-sig-{{sig}}"></i>{{label}}</span>
