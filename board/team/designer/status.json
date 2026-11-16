@@ -1,9 +1,10 @@
 {
   "agent": "designer@PrompTugal.dinis",
-  "focus": "How PrompTugal.news looks, in the brand identity v2.0: the layouts, the pages against the brand, an image for every article, and what goes to print.",
+  "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-12T10:45Z",
+  "updated": "2026-11-16T19:55Z",
   "done": [
+    "19:55 (restart, session_01Kw9UwEq1n6W1EdcdvX5uGE) onboarded; key designer-promptugal-4, -3 superseded; the live-data loop: board/spec-the-live-data-up-front.md (LD1 to LD6) with mock-ups from the real IPMA files (design/live-data/mock.mjs, no AI; pictures design/decisions/live-data/): the home lead's empty right half becomes 'Now in the Algarve' (17 towns, the warning in words, five days); the home page's live line still links api.ipma.pt JSON (LD2); the five days under every town band; readings 5 h stale (local-now.mjs not running)",
     "10:45 The app's empty-day note in the site's look: pass; Wednesday no longer struck in the app's strip, flagged; the 12 November debrief",
     "08:50 NE3, NE4 and NE5 pass live (the app's empty day names where the programme is; the 0-item day page; picks stay in the browser); two small notes: the app's note in the site's sand-and-ink, not red; drop 'Nothing matches' above it",
     "06:50 The websummit-only notes re-checked: the agenda's and the day pages' (NE1), Cloudflare's and the Fringe showcase now in place; two small notes (link the schedule; the company note under the lede); sherpa@'s NE5 (the app's empty Thursday) and NE4 backed",
@@ -118,18 +119,16 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "The day's hand-over debrief; re-check the app note's look when changed",
-    "Check the summit now and the newsroom at work (H11, H12) when built; the storm page's E polish when Vicky approves v1",
-    "Re-check /contribute/'s og:image",
-    "Images for any new article (a table from its own table where the story is numbers)",
-    "The open newsletter items (E1, E2, P1, P4, V1 to V3)"
+    "Check LD1 to LD6 once dev.places@ ships them (1280 and 390 px, light and dark, no .json href)",
+    "Review work/designer.places when its new session pushes (none yet at 19:55)",
+    "The look of /values/ (journalist@ and sherpa@ write it) and of /media/<id>/ (dev.places@ builds): a spec when the first drafts exist",
+    "The hand-over debrief of this session by 17 Nov"
   ],
   "asks": [
+    "Dinis: the inbox lane for my new key (designer-promptugal-4) is not issued yet; until conductor.b@ issues it, my notes go through the board and commits",
     "Dinis: the investor site calls the company 'PrompTugal' (no '.news'); CLAUDE.md says 'PrompTugal.news' is the one spelling. Is 'PrompTugal' right for the company and its investor pages?",
     "Dinis: your 01:20 answer was '1 yes, F and G can keep their own colours'; the question also asked about E's band in a deepened green (#0a3a14, live since v0.1.377). I read it as yes and kept it; say if E should go back to the brand green #006600 (board/team/designer/brand-decisions.md)",
-    "Dinis: the designer's vault bar9wi87's key is sealed to the conductor only; asked the conductor to seal it to my new key, else I make a new vault",
-    "Dinis: decision pages and article images are small files in git because an encrypted vault image cannot be shown in a page; say if you want them elsewhere",
-    "devops@ (not Dinis): my inbox drain fetches but cannot commit (~/vaults/inbox-designer-3-at-promptugal-dinis is not an sgit vault), so the lane stays pending; I read the messages from the folder; nothing lost"
+    "Dinis: decision pages and article images are small files in git because an encrypted vault image cannot be shown in a page; say if you want them elsewhere"
   ],
   "wakes": [
     {
@@ -637,6 +636,6 @@
       "line": "the app's note passes; the 12 November debrief"
     }
   ],
-  "key": "designer-promptugal-3 (session 2's designer-promptugal-2 superseded 22:46 UTC)",
-  "debrief": "board/team/designer/debriefs/2026-11-12-handover.md"
+  "key": "designer-promptugal-4",
+  "debrief": "board/team/designer/debriefs/2026-11-16-handover.md"
 }
