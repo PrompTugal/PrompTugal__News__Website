@@ -120,9 +120,40 @@
       ]
     },
     {
+      "url": "https://algarve.portugal2030.pt/",
+      "host": "algarve.portugal2030.pt",
+      "captured_at": "2026-11-16T00:17:03Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://algarve.portugal2030.pt/",
+      "title": "Algarve 2030 |",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/algarve.portugal2030.pt/e0423e58ed67.jpg",
+        "sha256": "d8aa0177875a391b674720357cdfcfa800689a99a5ca9246b8e262c9eb4e7615",
+        "bytes": 142198,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/algarve.portugal2030.pt/e0423e58ed67.txt",
+        "sha256": "e31032539cd0e92fa7f038ce9c56be51654f0288b67357275bc2a8f6f973cbd5",
+        "chars": 1873
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "source",
+          "n": 11,
+          "label": "ALGARVE 2030 regional programme"
+        }
+      ]
+    },
+    {
       "url": "https://algarveevolution.pt",
       "host": "algarveevolution.pt",
-      "captured_at": "2026-11-15T23:47:21Z",
+      "captured_at": "2026-11-16T00:21:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -130,14 +161,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/algarveevolution.pt/965aafe331f7.jpg",
+        "path": "captures/2026-11-16/algarveevolution.pt/965aafe331f7.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/algarveevolution.pt/965aafe331f7.txt",
+        "path": "captures/2026-11-16/algarveevolution.pt/965aafe331f7.txt",
         "sha256": "5e75b954c5f5a9f7b2f36a6a70055df95cd708064ea444807ff1263881ddef36",
         "chars": 23
       },
@@ -147,6 +178,37 @@
           "kind": "source",
           "n": 5,
           "label": "Algarve Evolution (Inova Algarve programmes)"
+        }
+      ]
+    },
+    {
+      "url": "https://algarvestp.pt/en/category/noticias/",
+      "host": "algarvestp.pt",
+      "captured_at": "2026-11-16T00:17:12Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://algarvestp.pt/en/category/noticias/",
+      "title": "Blog Archives - Algarve STP",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/algarvestp.pt/5cc70c078e7d.jpg",
+        "sha256": "09fd85dc128a0dc8ca14c5c19ff4aa3298ee66ef1ba8a775f9764d4066049790",
+        "bytes": 123406,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/algarvestp.pt/5cc70c078e7d.txt",
+        "sha256": "c58c45f20d25f4b52fb0cf998a77391c3fd7280255633953096a526977ef75b2",
+        "chars": 2475
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "source",
+          "n": 12,
+          "label": "AlgarveSTP news (blocked to our reader)"
         }
       ]
     },
@@ -178,6 +240,37 @@
           "kind": "source",
           "n": 6,
           "label": "Algarve Tech Hub"
+        }
+      ]
+    },
+    {
+      "url": "https://anacom.pt/render.jsp?contentId=1828354",
+      "host": "anacom.pt",
+      "captured_at": "2026-11-16T00:22:31Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 403,
+      "final_url": "https://anacom.pt/render.jsp?contentId=1828354",
+      "title": "403 Forbidden",
+      "note": "the server answered 403",
+      "image": {
+        "path": "captures/2026-11-16/anacom.pt/1f78de85e338.jpg",
+        "sha256": "2ae0621791721b5e2095482f06f914f638637619da1090c4c777008904312136",
+        "bytes": 17204,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/anacom.pt/1f78de85e338.txt",
+        "sha256": "41c7dc57edd53f9682bcd88257971894865de4447b015b012dedefd8354023b1",
+        "chars": 61
+      },
+      "cited_by": [
+        {
+          "place": "alcoutim",
+          "kind": "source",
+          "n": 13,
+          "label": "GEO.ANACOM coverage maps"
         }
       ]
     },
@@ -502,6 +595,24 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "map",
+          "n": 3,
+          "label": "Algarve AI Agents"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 22,
+          "label": "Artificial Intelligence Algarve"
+        },
+        {
+          "place": "algarve",
+          "kind": "source",
+          "n": 8,
+          "label": "BEALG: Algarve entrepreneurship ecosystem directory"
+        },
+        {
           "place": "loule",
           "kind": "map",
           "n": 5,
@@ -524,24 +635,6 @@
           "kind": "source",
           "n": 7,
           "label": "BeAlgarve ecosystem map"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 3,
-          "label": "Algarve AI Agents"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 22,
-          "label": "Artificial Intelligence Algarve"
-        },
-        {
-          "place": "algarve",
-          "kind": "source",
-          "n": 8,
-          "label": "BEALG: Algarve entrepreneurship ecosystem directory"
         }
       ]
     },
@@ -610,15 +703,21 @@
     {
       "url": "https://cm-castromarim.pt/info/sites/cm-castromarim.pt/files/eventos/documentos/flyer_concurso_de_ideias_inov_atazul.pdf",
       "host": "cm-castromarim.pt",
-      "captured_at": "2026-11-15T23:49:03Z",
+      "captured_at": "2026-11-16T00:21:48Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://cm-castromarim.pt/info/sites/cm-castromarim.pt/files/eventos/documentos/flyer_concurso_de_ideias_inov_atazul.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/cm-castromarim.pt/7cedd934e1ee.pdf",
+        "sha256": "00c7550e06d4c00a1a93b812dc704a6f04984e8d837703b87cc72d98f7a53646",
+        "bytes": 164963,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": "castro-marim",
@@ -761,15 +860,21 @@
     {
       "url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
       "host": "cm-tavira.pt",
-      "captured_at": "2026-11-15T23:37:37Z",
+      "captured_at": "2026-11-16T00:18:48Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/cm-tavira.pt/78da777f4bdc.pdf",
+        "sha256": "0b30a26544d2458a4676640b56ab26614b45b6543d45417cdd2ce34c34cf7089",
+        "bytes": 1167732,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": "tavira",
@@ -817,7 +922,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 14,
+          "n": 16,
           "label": "Portugal approves its National AI Agenda and an action plan to 2030"
         },
         {
@@ -1116,7 +1221,7 @@
     {
       "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-15T23:31:25Z",
+      "captured_at": "2026-11-16T00:16:38Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -1124,14 +1229,14 @@
       "title": "",
       "note": "the server answered 429",
       "image": {
-        "path": "captures/2026-11-15/dealroom.co/05d5f4cb4b83.jpg",
+        "path": "captures/2026-11-16/dealroom.co/05d5f4cb4b83.jpg",
         "sha256": "7b713f637926f4ae9d11f7043c2f973fbb9f6c87aad95d431f0a625cf27b8dc5",
         "bytes": 18420,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/dealroom.co/05d5f4cb4b83.txt",
+        "path": "captures/2026-11-16/dealroom.co/05d5f4cb4b83.txt",
         "sha256": "c951605c9065c786fd121074237c722baa69d4fa32025c730ba168aef0b406ee",
         "chars": 55
       },
@@ -1139,7 +1244,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 7,
+          "n": 9,
           "label": "Lisbon applied-AI lab Augusta Labs closes a first round at a 50 million euro valuation"
         },
         {
@@ -1153,7 +1258,7 @@
     {
       "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-15T23:31:23Z",
+      "captured_at": "2026-11-16T00:16:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -1161,14 +1266,14 @@
       "title": "",
       "note": "the server answered 429",
       "image": {
-        "path": "captures/2026-11-15/dealroom.co/7543d32702f4.jpg",
+        "path": "captures/2026-11-16/dealroom.co/7543d32702f4.jpg",
         "sha256": "7b713f637926f4ae9d11f7043c2f973fbb9f6c87aad95d431f0a625cf27b8dc5",
         "bytes": 18420,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/dealroom.co/7543d32702f4.txt",
+        "path": "captures/2026-11-16/dealroom.co/7543d32702f4.txt",
         "sha256": "6313c240f1acb8e54c108015fa73cf05923ad326e3bdb97e219b8119ce0a1548",
         "chars": 55
       },
@@ -1176,7 +1281,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 6,
+          "n": 8,
           "label": "Coalex.ai raises an angel round to supervise AI agents"
         },
         {
@@ -1357,24 +1462,24 @@
     {
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
       "host": "digital-strategy.ec.europa.eu",
-      "captured_at": "2026-11-16T00:08:38Z",
+      "captured_at": "2026-11-16T00:26:00Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": 502,
+      "ok": true,
+      "status": 200,
       "final_url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
-      "title": "",
-      "note": "the server answered 502",
+      "title": "Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect | Shaping Europe’s digital future",
+      "note": null,
       "image": {
-        "path": "captures/2026-11-15/digital-strategy.ec.europa.eu/1f563aec4885.jpg",
-        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
-        "bytes": 14263,
+        "path": "captures/2026-11-16/digital-strategy.ec.europa.eu/1f563aec4885.jpg",
+        "sha256": "99743f4e8462a14ea4b5a9c6e0f26196c631e55c2d2509c61e2f5af7e5eafbbb",
+        "bytes": 205428,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/digital-strategy.ec.europa.eu/1f563aec4885.txt",
-        "sha256": "1ace6e89a196bcbe93175053c1e50a5f1493382e7ba6257defd210b72b6f1be3",
-        "chars": 23
+        "path": "captures/2026-11-16/digital-strategy.ec.europa.eu/1f563aec4885.txt",
+        "sha256": "0be841b69307772fd64fc1d08785f59d98243b044646a18afec45de86f839836",
+        "chars": 2442
       },
       "cited_by": [
         {
@@ -1850,7 +1955,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 10,
+          "n": 12,
           "label": "Government puts up to 19.3 million euros into two supercomputing and AI projects"
         },
         {
@@ -2025,15 +2130,21 @@
     {
       "url": "https://ec.europa.eu/newsroom/dae/redirection/document/134871",
       "host": "ec.europa.eu",
-      "captured_at": "2026-11-15T23:58:00Z",
+      "captured_at": "2026-11-16T00:24:33Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/134871",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (/); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/ec.europa.eu/c1b4ccf141fe.bin",
+        "sha256": "9c88f10a6f62aa5790fc8266d7555ee5a8e4c5c44a0ef5468f0ee374cb0b338e",
+        "bytes": 547846,
+        "type": "/"
+      },
       "cited_by": [
         {
           "place": null,
@@ -2071,6 +2182,80 @@
           "article": "konecta-lisbon-delivery-centre",
           "kind": "article",
           "label": "konecta-lisbon-delivery-centre"
+        }
+      ]
+    },
+    {
+      "url": "https://edp.com",
+      "host": "edp.com",
+      "captured_at": "2026-11-16T00:21:32Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://edp.com/en",
+      "title": "Homepage EDP | edp",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/edp.com/c93b5b3f47a1.jpg",
+        "sha256": "6918a360b4b3826b724d3bafa650cc98132f9a90b904bc1c7a6c29772d132ee1",
+        "bytes": 97067,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/edp.com/c93b5b3f47a1.txt",
+        "sha256": "4562988e08589ae068ed722776feb4dff8d5d56f1a7e3ab9520a52c6bbf032ae",
+        "chars": 5075
+      },
+      "cited_by": [
+        {
+          "place": "aljezur",
+          "kind": "map-site",
+          "n": 6,
+          "label": "EDP (solar and wind in Aljezur)"
+        }
+      ]
+    },
+    {
+      "url": "https://edp.com/en/edps-new-hybrid-park-portugal-enters-operation",
+      "host": "edp.com",
+      "captured_at": "2026-11-16T00:21:18Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://edp.com/en/media/news/edps-new-hybrid-park-portugal-enters-operation",
+      "title": "EDP's new hybrid park in Portugal enters into operation",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/edp.com/3ad1dcd7b8f2.jpg",
+        "sha256": "8169a87071f3082112497362f95b5b33baefe41c0d12415146c6bfa56ca5fb94",
+        "bytes": 196152,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/edp.com/3ad1dcd7b8f2.txt",
+        "sha256": "dd67fe748158ffe2976a474f1fb1f86e1268d489fed8c03a4e2dfdcc6d49a60a",
+        "chars": 6148
+      },
+      "cited_by": [
+        {
+          "place": "aljezur",
+          "kind": "news",
+          "n": 2,
+          "label": "EDP's new solar plant in Aljezur shares the Bordeira wind farm's grid connection"
+        },
+        {
+          "place": "aljezur",
+          "kind": "map",
+          "n": 6,
+          "label": "EDP (solar and wind in Aljezur)"
+        },
+        {
+          "place": "aljezur",
+          "kind": "gravity",
+          "n": 5,
+          "label": "EDP, 8 Oct 2025: new hybrid solar plant at the Bordeira wind farm in Aljezur"
         }
       ]
     },
@@ -2133,6 +2318,43 @@
           "article": "rio-ten-startups-to-lisbon",
           "kind": "article",
           "label": "rio-ten-startups-to-lisbon"
+        }
+      ]
+    },
+    {
+      "url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
+      "host": "en.10minhotel.com",
+      "captured_at": "2026-11-16T00:20:02Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
+      "title": "AP Hotels & Resorts Relies on LodgIQ to Boost Revenue Performance Across Portuguese Portfolio - 10 Minutes News for Hoteliers",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/en.10minhotel.com/4aa0c087873e.jpg",
+        "sha256": "186a2b3c0750ccaa6bbe4af0c03915fa39e5b3c470438e0f8e3f4228fe720c1e",
+        "bytes": 246800,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/en.10minhotel.com/4aa0c087873e.txt",
+        "sha256": "1b67217560b482626fe349cde1f51482b72acb9b2043b9d0e6f4f1ec3b8cb07c",
+        "chars": 10525
+      },
+      "cited_by": [
+        {
+          "place": "albufeira",
+          "kind": "news",
+          "n": 2,
+          "label": "AP Hotels & Resorts, a group with Albufeira resorts, adopts AI revenue management"
+        },
+        {
+          "place": "albufeira",
+          "kind": "map",
+          "n": 3,
+          "label": "AP Hotels & Resorts"
         }
       ]
     },
@@ -2640,15 +2862,21 @@
     {
       "url": "https://fogos.icnf.pt/pmdfci/08_Faro/0809/2G/Caderno_II/Texto/PMDFCI_Monchique_Caderno_II.pdf",
       "host": "fogos.icnf.pt",
-      "captured_at": "2026-11-15T23:45:53Z",
+      "captured_at": "2026-11-16T00:20:30Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://fogos.icnf.pt/pmdfci/08_Faro/0809/2G/Caderno_II/Texto/PMDFCI_Monchique_Caderno_II.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/fogos.icnf.pt/46b6ac0256ae.pdf",
+        "sha256": "3c58a6aa71cc80024cb507ec40c1f6d92cb27a766dcefc9a911f776f393f4226",
+        "bytes": 5427410,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": "monchique",
@@ -3318,7 +3546,7 @@
     {
       "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/data/events/press-conference-with-nordvpn-cto-marijus-briedis/event.json",
       "host": "github.com",
-      "captured_at": "2026-11-16T00:04:48Z",
+      "captured_at": "2026-11-16T00:25:23Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -3326,14 +3554,14 @@
       "title": "File not found · GitHub",
       "note": "the server answered 404",
       "image": {
-        "path": "captures/2026-11-15/github.com/06122b62474f.jpg",
+        "path": "captures/2026-11-16/github.com/06122b62474f.jpg",
         "sha256": "825ef538fc759e49224f635a0b4ef301a94cdbda606201c9682ecfa5cad39198",
         "bytes": 61789,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/github.com/06122b62474f.txt",
+        "path": "captures/2026-11-16/github.com/06122b62474f.txt",
         "sha256": "7328d8d87095e898daf84e44b52c0981097198284394b36985c0689ae941cd55",
         "chars": 619
       },
@@ -6960,9 +7188,9 @@
       ]
     },
     {
-      "url": "https://jornaldoalgarve.pt/",
+      "url": "https://jornaldoalgarve.pt",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-15T23:49:54Z",
+      "captured_at": "2026-11-16T00:16:58Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -6970,15 +7198,46 @@
       "title": "Um momento…",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/jornaldoalgarve.pt/941e71abacc1.jpg",
-        "sha256": "d07bfce00ea9a6233ca77148a915ccd4ed5f41fc62aa0d00cbd964de571f60e9",
-        "bytes": 39251,
+        "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.jpg",
+        "sha256": "43adedf8991687b9dabb461dd3fbf475d2e6b39124d4c6c344f44abfd28b64b1",
+        "bytes": 39211,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/jornaldoalgarve.pt/941e71abacc1.txt",
-        "sha256": "9100246747ce80039808a2b7f8a4de5b09658b5a1981510051fcd79d3175a3ad",
+        "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.txt",
+        "sha256": "85a6347b0cc8296e7357f551e64373321215b59db0f40455afba35caf9df4b9b",
+        "chars": 279
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "source",
+          "n": 10,
+          "label": "Jornal do Algarve"
+        }
+      ]
+    },
+    {
+      "url": "https://jornaldoalgarve.pt/",
+      "host": "jornaldoalgarve.pt",
+      "captured_at": "2026-11-16T00:22:24Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 403,
+      "final_url": "https://jornaldoalgarve.pt/",
+      "title": "Um momento…",
+      "note": "the server answered 403",
+      "image": {
+        "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.jpg",
+        "sha256": "b32831a5dc1c2291eeae72fe5d371b061ef3f80b89d4f1457c4d59f993a3bfd2",
+        "bytes": 39216,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.txt",
+        "sha256": "b22a7ef82fda28ac1a55b53863bf1275aa0bf682c72c18f1fff6518eeceff5f4",
         "chars": 279
       },
       "cited_by": [
@@ -7098,24 +7357,24 @@
     {
       "url": "https://kamino.com.br/",
       "host": "kamino.com.br",
-      "captured_at": "2026-11-15T23:56:13Z",
+      "captured_at": "2026-11-16T00:24:17Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": 429,
+      "ok": true,
+      "status": 200,
       "final_url": "https://kamino.com.br/",
-      "title": "",
-      "note": "the server answered 429",
+      "title": "Software de automação financeira para médias empresas | Kamino",
+      "note": null,
       "image": {
-        "path": "captures/2026-11-15/kamino.com.br/def4c77272e3.jpg",
-        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
-        "bytes": 12757,
+        "path": "captures/2026-11-16/kamino.com.br/def4c77272e3.jpg",
+        "sha256": "d5b65a0ba524be6d89ba5ff38f9d074b7123ed02905f211cf7169fe046fc54bd",
+        "bytes": 193580,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/kamino.com.br/def4c77272e3.txt",
-        "sha256": "814d63facd1de19596593aceee6c073e1cce67077b360ef786e3d50d8a1dcc62",
-        "chars": 0
+        "path": "captures/2026-11-16/kamino.com.br/def4c77272e3.txt",
+        "sha256": "3e0c623d815527edbfabc7701c6d31b132b3db7ac4003c34047844b6c27bd5ed",
+        "chars": 14171
       },
       "cited_by": [
         {
@@ -7633,6 +7892,30 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "map",
+          "n": 14,
+          "label": "NERA, Associação Empresarial da Região do Algarve"
+        },
+        {
+          "place": "algarve",
+          "kind": "map-site",
+          "n": 25,
+          "label": "AGROBOTICS-DITWINS"
+        },
+        {
+          "place": "algarve",
+          "kind": "event",
+          "n": 1,
+          "label": "AI Social Content Lab online course (NERA)"
+        },
+        {
+          "place": "algarve",
+          "kind": "source",
+          "n": 4,
+          "label": "NERA: news"
+        },
+        {
           "place": "loule",
           "kind": "map",
           "n": 4,
@@ -7655,24 +7938,6 @@
           "kind": "gravity",
           "n": 2,
           "label": "NERA, Associação Empresarial da Região do Algarve (home page)"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 14,
-          "label": "NERA, Associação Empresarial da Região do Algarve"
-        },
-        {
-          "place": "algarve",
-          "kind": "event",
-          "n": 1,
-          "label": "AI Social Content Lab online course (NERA)"
-        },
-        {
-          "place": "algarve",
-          "kind": "source",
-          "n": 4,
-          "label": "NERA: news"
         }
       ]
     },
@@ -7741,6 +8006,12 @@
           "kind": "map",
           "n": 8,
           "label": "CRIA (UAlg entrepreneurship and technology transfer division)"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 27,
+          "label": "INTREPIDA pro"
         }
       ]
     },
@@ -7799,6 +8070,18 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "map",
+          "n": 2,
+          "label": "Algarve Digital Innovators"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 12,
+          "label": "Lovable"
+        },
+        {
           "place": "faro",
           "kind": "news",
           "n": 2,
@@ -7815,18 +8098,6 @@
           "kind": "source",
           "n": 9,
           "label": "SGit Newsroom (Algarve Evolution coverage, insider)"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 2,
-          "label": "Algarve Digital Innovators"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 12,
-          "label": "Lovable"
         }
       ]
     },
@@ -8535,7 +8806,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 9,
+          "n": 11,
           "label": "FuriosaAI, a South Korean AI chip start-up, sets up its European flagship office in Lisbon"
         },
         {
@@ -8543,6 +8814,43 @@
           "kind": "map",
           "n": 31,
           "label": "FuriosaAI (Lisbon)"
+        }
+      ]
+    },
+    {
+      "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
+      "host": "portugalglobal.pt",
+      "captured_at": "2026-11-16T00:16:34Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
+      "title": "Newsletter Invest in Portugal | May 2026",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/portugalglobal.pt/f39030c4b2d9.jpg",
+        "sha256": "ff6acbd4ab8d06b3e85d6a74ac141648dcad78a8a7ed1ded184304dbb7f07dce",
+        "bytes": 93499,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/portugalglobal.pt/f39030c4b2d9.txt",
+        "sha256": "4e39ee440b32c2079b1d94eaa210f03f1401ee10f1f1579d73ea36b9186a145d",
+        "chars": 5486
+      },
+      "cited_by": [
+        {
+          "place": "portugal",
+          "kind": "news",
+          "n": 7,
+          "label": "CGI sets up a generative and agentic AI centre of excellence in Portugal"
+        },
+        {
+          "place": "portugal",
+          "kind": "map",
+          "n": 35,
+          "label": "CGI Portugal"
         }
       ]
     },
@@ -8572,7 +8880,7 @@
         {
           "place": "algarve",
           "kind": "news",
-          "n": 15,
+          "n": 18,
           "label": "University of Algarve and Empowered Startups plan an AI cluster for the Algarve"
         },
         {
@@ -8617,7 +8925,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/09/28/humanos-raises-3-2m-to-build-risk-infrastructure-for-ai-agents/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T00:01:54Z",
+      "captured_at": "2026-11-16T00:25:01Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -8625,14 +8933,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/28c9409797d1.jpg",
-        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
-        "bytes": 19319,
+        "path": "captures/2026-11-16/portugalstartupnews.com/28c9409797d1.jpg",
+        "sha256": "f39cbb16ee8617e39beb6ee3ca45deea3fa880580e37d93f4e9cde0f0aa533a7",
+        "bytes": 19277,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/28c9409797d1.txt",
+        "path": "captures/2026-11-16/portugalstartupnews.com/28c9409797d1.txt",
         "sha256": "405f65263e1319673c26c5f2a04b479252efa179ec4f826480091a3380abcad6",
         "chars": 58
       },
@@ -8648,7 +8956,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-15T23:55:58Z",
+      "captured_at": "2026-11-16T00:24:11Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -8656,14 +8964,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/442658d3b610.jpg",
-        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
-        "bytes": 19292,
+        "path": "captures/2026-11-16/portugalstartupnews.com/442658d3b610.jpg",
+        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
+        "bytes": 19319,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/442658d3b610.txt",
+        "path": "captures/2026-11-16/portugalstartupnews.com/442658d3b610.txt",
         "sha256": "41ac99cb241f4a7c9e8a0dfc940d16bb7a2f4a4dfaf05b4a11ffbb276e7aeeed",
         "chars": 58
       },
@@ -8685,7 +8993,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T00:04:16Z",
+      "captured_at": "2026-11-16T00:25:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -8693,14 +9001,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/a2b5b7fe2d47.jpg",
-        "sha256": "f39cbb16ee8617e39beb6ee3ca45deea3fa880580e37d93f4e9cde0f0aa533a7",
-        "bytes": 19277,
+        "path": "captures/2026-11-16/portugalstartupnews.com/a2b5b7fe2d47.jpg",
+        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
+        "bytes": 19292,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/a2b5b7fe2d47.txt",
+        "path": "captures/2026-11-16/portugalstartupnews.com/a2b5b7fe2d47.txt",
         "sha256": "25fb0105a4eba141f0a2fafc30f9063cbcd42d6f9d482c75d79f923f9bd657c9",
         "chars": 58
       },
@@ -8716,7 +9024,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-15T23:58:14Z",
+      "captured_at": "2026-11-16T00:24:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -8724,14 +9032,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/679fd54b4242.jpg",
-        "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
-        "bytes": 19278,
+        "path": "captures/2026-11-16/portugalstartupnews.com/679fd54b4242.jpg",
+        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
+        "bytes": 19292,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/679fd54b4242.txt",
+        "path": "captures/2026-11-16/portugalstartupnews.com/679fd54b4242.txt",
         "sha256": "6f82a903b828de99a9795f3c4c86699e7e5277285cbe8cf01a600da9b50952bb",
         "chars": 58
       },
@@ -8753,7 +9061,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/11/05/octo-health-launches-personalized-health-tracking-platform-in-portugal-and-u-s-after-earlier-e2-7m-raise/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T00:03:34Z",
+      "captured_at": "2026-11-16T00:25:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -8761,14 +9069,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/4b09238efb92.jpg",
-        "sha256": "9e1fa4870d0f3b94db4e81e2e0fa30827e31a7c0aadc8f9636de382c768feb20",
-        "bytes": 19259,
+        "path": "captures/2026-11-16/portugalstartupnews.com/4b09238efb92.jpg",
+        "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
+        "bytes": 19278,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/4b09238efb92.txt",
+        "path": "captures/2026-11-16/portugalstartupnews.com/4b09238efb92.txt",
         "sha256": "a00bce4ed337c7ed22ca5d9e244b3dcb65af06e82b439706a45f137992669713",
         "chars": 58
       },
@@ -8784,7 +9092,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/11/08/full-list-of-78-startups-selected-by-startup-portugal-for-road-2-web-summit-2026/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T00:06:45Z",
+      "captured_at": "2026-11-16T00:25:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -8792,14 +9100,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/4795408b6f55.jpg",
-        "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
-        "bytes": 19278,
+        "path": "captures/2026-11-16/portugalstartupnews.com/4795408b6f55.jpg",
+        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
+        "bytes": 19319,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/portugalstartupnews.com/4795408b6f55.txt",
+        "path": "captures/2026-11-16/portugalstartupnews.com/4795408b6f55.txt",
         "sha256": "5fc6e159c70c86e282b5ae89b71e55b3b9830faf1f64603eef48a7161b137cfc",
         "chars": 58
       },
@@ -9012,24 +9320,24 @@
     {
       "url": "https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/",
       "host": "prociv.gov.pt",
-      "captured_at": "2026-11-16T00:05:28Z",
+      "captured_at": "2026-11-16T00:25:44Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": 502,
+      "ok": true,
+      "status": 200,
       "final_url": "https://prociv.gov.pt/pt/noticias/depressao-charles-anepc-avisa-populacao-por-sms/",
-      "title": "",
-      "note": "the server answered 502",
+      "title": "ANEPC - Autoridade Nacional de Emergência e Proteção Civil",
+      "note": null,
       "image": {
-        "path": "captures/2026-11-15/prociv.gov.pt/30245416752f.jpg",
-        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
-        "bytes": 14263,
+        "path": "captures/2026-11-16/prociv.gov.pt/30245416752f.jpg",
+        "sha256": "8a4932fd3fb5fa927225f427c7716a5fbe254fa66dbca3a95645eb25c868c113",
+        "bytes": 101870,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/prociv.gov.pt/30245416752f.txt",
-        "sha256": "5767db6f1957aaa1f2607a93a9183e50b24671ce21946cd165e016fe820f104a",
-        "chars": 23
+        "path": "captures/2026-11-16/prociv.gov.pt/30245416752f.txt",
+        "sha256": "07035002d81150705eaaed3c073bbd8cf1caca044ca0a445285435c38258e419",
+        "chars": 5630
       },
       "cited_by": [
         {
@@ -9297,15 +9605,21 @@
     {
       "url": "https://promptugal.news/board/editor-briefs/2026-11-06T1045Z.pdf",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:08:09Z",
+      "captured_at": "2026-11-16T00:25:52Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://promptugal.news/board/editor-briefs/2026-11-06T1045Z.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/promptugal.news/828952a4f7f3.pdf",
+        "sha256": "402516afc32630e68a7c4eabe9001ba61049c86c8f59c2fa13d2bb99e31ef8eb",
+        "bytes": 825458,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": null,
@@ -9404,7 +9718,7 @@
     {
       "url": "https://promptugal.news/board/team/security/comms/map.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:53Z",
+      "captured_at": "2026-11-16T00:26:47Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9412,14 +9726,14 @@
       "title": "How PrompTugal's agents talk to each other, 5 to 6 November 2026",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/b6bbef4c34d1.jpg",
+        "path": "captures/2026-11-16/promptugal.news/b6bbef4c34d1.jpg",
         "sha256": "f90d1eb64015a61ea8a50f89db61b9b011675938bcd74b5a00d4b57936f40fe1",
         "bytes": 196580,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/b6bbef4c34d1.txt",
+        "path": "captures/2026-11-16/promptugal.news/b6bbef4c34d1.txt",
         "sha256": "3bc15cc2a82b9a2fc52a8a5865609f2dad88ab1e9bd7cad29b7f9019672187bb",
         "chars": 0
       },
@@ -9590,7 +9904,7 @@
     {
       "url": "https://promptugal.news/design/infographics/out/best-number-one-3wx-loule--paper--card.png?v=2026-11-14d",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:55:18Z",
+      "captured_at": "2026-11-16T00:24:09Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9598,14 +9912,14 @@
       "title": "best-number-one-3wx-loule--paper--card.png (1200×630)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/c1111efb07b2.jpg",
+        "path": "captures/2026-11-16/promptugal.news/c1111efb07b2.jpg",
         "sha256": "71f52aa1f2c177a0775f48f3a94f9dc80377f5e94fd604975d5173305c3e6e10",
         "bytes": 63194,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/c1111efb07b2.txt",
+        "path": "captures/2026-11-16/promptugal.news/c1111efb07b2.txt",
         "sha256": "bc3297909b26a18c9eb7d2d408da6de681f2dae0bac48a8154bd98588edc203d",
         "chars": 0
       },
@@ -9621,7 +9935,7 @@
     {
       "url": "https://promptugal.news/design/infographics/out/humans-and-ai-vicky-wang--paper--card.png?v=2026-11-14d",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:02:04Z",
+      "captured_at": "2026-11-16T00:25:03Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9629,14 +9943,14 @@
       "title": "humans-and-ai-vicky-wang--paper--card.png (1200×630)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/928f10468cbc.jpg",
+        "path": "captures/2026-11-16/promptugal.news/928f10468cbc.jpg",
         "sha256": "ccf54a65343dc2d35659037da57a8eaf424961fb81c1f9d2b6e2d3004d36d871",
         "bytes": 57527,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/928f10468cbc.txt",
+        "path": "captures/2026-11-16/promptugal.news/928f10468cbc.txt",
         "sha256": "8bb992923041ef06cf39680111c3bc9a9de3887e4840c09afc8133d902086788",
         "chars": 0
       },
@@ -9652,7 +9966,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S24-closures-2026-11-07.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:57:31Z",
+      "captured_at": "2026-11-16T00:24:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9660,14 +9974,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/b827041a9994.jpg",
+        "path": "captures/2026-11-16/promptugal.news/b827041a9994.jpg",
         "sha256": "a663d040fa441fa1eb42da937b02cb493213816fc5addc9b4c1f21adaa8201e3",
         "bytes": 58835,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/b827041a9994.txt",
+        "path": "captures/2026-11-16/promptugal.news/b827041a9994.txt",
         "sha256": "5bd2726a9152efacfbfef9ba1845a2fa8d6451ce828122c7b064efa441836a19",
         "chars": 0
       },
@@ -9683,7 +9997,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s25-sign-in-steps-2026-11-07.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:08:11Z",
+      "captured_at": "2026-11-16T00:25:54Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9691,14 +10005,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/f78131638f74.jpg",
+        "path": "captures/2026-11-16/promptugal.news/f78131638f74.jpg",
         "sha256": "5149f421259cd195c99ca765d225f4834a7c4f9ae9110aa08abe4bb6cf42baf0",
         "bytes": 53549,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/f78131638f74.txt",
+        "path": "captures/2026-11-16/promptugal.news/f78131638f74.txt",
         "sha256": "c41c22611cb7d2fa4fe33b8e2c1e55605f6de9930651606dae94a2e67e301fee",
         "chars": 0
       },
@@ -9714,7 +10028,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s26-two-editions-2026-11-07.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:56:28Z",
+      "captured_at": "2026-11-16T00:24:19Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9722,14 +10036,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/22cce7cb55c0.jpg",
+        "path": "captures/2026-11-16/promptugal.news/22cce7cb55c0.jpg",
         "sha256": "870232b63d85aac84a9651fa2a2cad6f4343afe06c5bbaacbb3979567c7f23da",
         "bytes": 35324,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/22cce7cb55c0.txt",
+        "path": "captures/2026-11-16/promptugal.news/22cce7cb55c0.txt",
         "sha256": "3c9b42d0f2426f4211a314151343a1123e20052f97b0dd474baf1b6664f134cf",
         "chars": 0
       },
@@ -9745,7 +10059,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s27-sessions-by-building-2026-11-07.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:08:49Z",
+      "captured_at": "2026-11-16T00:26:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9753,14 +10067,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/65463d666ec8.jpg",
+        "path": "captures/2026-11-16/promptugal.news/65463d666ec8.jpg",
         "sha256": "cdaa808ed6d6e9f36fe69c445ded223fdbf31acc0cdd4527b915bd49a048965e",
         "bytes": 31556,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/65463d666ec8.txt",
+        "path": "captures/2026-11-16/promptugal.news/65463d666ec8.txt",
         "sha256": "a4203aa2035af25a0b0ba6f26dee55bdf72508d16fec4f4c1dc2f5ea8b9aeca1",
         "chars": 0
       },
@@ -9776,7 +10090,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S28-cover-card-2026-11-08.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:58:32Z",
+      "captured_at": "2026-11-16T00:24:38Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9784,14 +10098,14 @@
       "title": "Five AI builders on Web Summit's 2026 speaker list: Replit, Manus AI, MiniMax, ModelBest and You.com",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/b547667c2062.jpg",
+        "path": "captures/2026-11-16/promptugal.news/b547667c2062.jpg",
         "sha256": "b7d78ddce4fffddeb6d0989aba74fb94f2cbe5fff689b7d04d1e72257d842fde",
         "bytes": 78449,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/b547667c2062.txt",
+        "path": "captures/2026-11-16/promptugal.news/b547667c2062.txt",
         "sha256": "c9e3a48b44b6d9b7db99cc15d2286b2493c3e01f9f8f11c7946d116010122afd",
         "chars": 0
       },
@@ -9807,7 +10121,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s29-agent-parts-2026-11-08.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:11:15Z",
+      "captured_at": "2026-11-16T00:26:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9815,14 +10129,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/708ccf606a67.jpg",
+        "path": "captures/2026-11-16/promptugal.news/708ccf606a67.jpg",
         "sha256": "b1ea209fc0b2c91dc5fb70456fffa9129239713a4072794f89b8585af1902901",
         "bytes": 42263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/708ccf606a67.txt",
+        "path": "captures/2026-11-16/promptugal.news/708ccf606a67.txt",
         "sha256": "7dc6b30121d9edff5b51f56a1d2ec7ac425e8368d6f984d9879c845b25d6e102",
         "chars": 0
       },
@@ -9838,7 +10152,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S30-cover-card-2026-11-08.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:00:30Z",
+      "captured_at": "2026-11-16T00:24:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9846,14 +10160,14 @@
       "title": "Eleven health startups from page 1 of Web Summit's featured list, by problem: getting care, 4; diagnosis sooner, 3; new treatments, 2; recovery and wellbeing, 2",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/70c60fead625.jpg",
+        "path": "captures/2026-11-16/promptugal.news/70c60fead625.jpg",
         "sha256": "285bc59706eb1ee43087baa1d3fdbe294a6234af4fc8af1eaf7a4b9260f21eb2",
         "bytes": 72898,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/70c60fead625.txt",
+        "path": "captures/2026-11-16/promptugal.news/70c60fead625.txt",
         "sha256": "509e1e3f7d4fcde6c059c98a10b1487c79bb678481925e7718cd0e557fa661a5",
         "chars": 0
       },
@@ -9869,7 +10183,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S31-places-2026-11-09.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:06:42Z",
+      "captured_at": "2026-11-16T00:25:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9877,14 +10191,14 @@
       "title": "Road 2 Web Summit 2026: 78 startups from 14 places. Lisbon 41, Porto 11, Braga 9, Aveiro 4, Azores 2, Madeira 2, Leiria 2, seven other places 1 each",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/b541566fcca2.jpg",
+        "path": "captures/2026-11-16/promptugal.news/b541566fcca2.jpg",
         "sha256": "fdaf134c93f0555b8f6e616770af68db6522f01f9bcc4ed678194c0fe74f25ef",
         "bytes": 57927,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/b541566fcca2.txt",
+        "path": "captures/2026-11-16/promptugal.news/b541566fcca2.txt",
         "sha256": "5f69df198bf30376d615dfc0877837f8a6080c3d89cb610c7a5fd8f4624eea0e",
         "chars": 0
       },
@@ -9900,7 +10214,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S33-two-days-2026-11-09.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:02:06Z",
+      "captured_at": "2026-11-16T00:25:05Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9908,14 +10222,14 @@
       "title": "IBM's sports tech challenge ends at Web Summit Lisbon",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/a4f65f41ddba.jpg",
+        "path": "captures/2026-11-16/promptugal.news/a4f65f41ddba.jpg",
         "sha256": "2ead315c9a5e488f8d4cfd33a5e6fca5df945dc39e10aa236f1f05b7f13d82c4",
         "bytes": 63761,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/a4f65f41ddba.txt",
+        "path": "captures/2026-11-16/promptugal.news/a4f65f41ddba.txt",
         "sha256": "2fdb9f830e9f18c3b0c2ea08694a512284b3743ffe64110016f7f92066624ead",
         "chars": 0
       },
@@ -9931,7 +10245,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S34-cover-card-2026-11-09.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:11:06Z",
+      "captured_at": "2026-11-16T00:26:48Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9939,14 +10253,14 @@
       "title": "The Portugal Stand at Web Summit 2026: Pavilion 1, stand E145, at the entrance, 9 to 12 November, with AICEP's teams",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/a50d5e8e8a83.jpg",
+        "path": "captures/2026-11-16/promptugal.news/a50d5e8e8a83.jpg",
         "sha256": "341a18954fedf09079afe003b35dc7b1d8a0b87237cdb129acd23370b7cd1291",
         "bytes": 59970,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/a50d5e8e8a83.txt",
+        "path": "captures/2026-11-16/promptugal.news/a50d5e8e8a83.txt",
         "sha256": "a9f3f89e436cf4607de096576de1cb41b080893402f369ba55b28caf9b4ad212",
         "chars": 0
       },
@@ -9962,7 +10276,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S35-by-day-2026-11-09.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:04:46Z",
+      "captured_at": "2026-11-16T00:25:19Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -9970,14 +10284,14 @@
       "title": "Web Summit's 24 press conferences, by day",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/1fe3e5ebfecb.jpg",
+        "path": "captures/2026-11-16/promptugal.news/1fe3e5ebfecb.jpg",
         "sha256": "6a967df9eab83e87957bf9a8b598a21d9049737625048428036d5ddf54ce5eb7",
         "bytes": 38629,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/1fe3e5ebfecb.txt",
+        "path": "captures/2026-11-16/promptugal.news/1fe3e5ebfecb.txt",
         "sha256": "222b0b620a14b2ff0fd9288b560b5a61aab74b041952e16a9562b1ed835f4063",
         "chars": 0
       },
@@ -9993,7 +10307,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S36-cover-card-2026-11-09.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:04:30Z",
+      "captured_at": "2026-11-16T00:25:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10001,14 +10315,14 @@
       "title": "Portugal on the Web Summit programme: Tuesday 10 November 12:00 Startup Portugal masterclass; Wednesday 11, 10:30 Discord press conference; Thursday 12, 11:00 scaleups programme launch, 12:30 Road 2 Web Summit winner, 13:30 founders in Portugal meetup",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/c913639ed2b2.jpg",
+        "path": "captures/2026-11-16/promptugal.news/c913639ed2b2.jpg",
         "sha256": "2b6d67746289b03d6f0e74da1993bb12d64449c3722195596dfe539188d4a343",
         "bytes": 95434,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/c913639ed2b2.txt",
+        "path": "captures/2026-11-16/promptugal.news/c913639ed2b2.txt",
         "sha256": "92dda44f89655d820fff7a0c036f26daf5d4c1b28b2645ca89a3159a19710b8e",
         "chars": 0
       },
@@ -10024,7 +10338,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s37-coaches-agent-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:07:58Z",
+      "captured_at": "2026-11-16T00:25:51Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10032,14 +10346,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/9170dd2662cd.jpg",
+        "path": "captures/2026-11-16/promptugal.news/9170dd2662cd.jpg",
         "sha256": "f3e5acb5873586e5f83ffa35adc2846e40757aff0816ed65e18bec5ec915f98a",
         "bytes": 46870,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/9170dd2662cd.txt",
+        "path": "captures/2026-11-16/promptugal.news/9170dd2662cd.txt",
         "sha256": "030a36007e0152687ea73ee7e9d7919ef3859b55e89d6ae0d01bb1c9eb6bc982",
         "chars": 0
       },
@@ -10055,7 +10369,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S38-cover-card-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:00:07Z",
+      "captured_at": "2026-11-16T00:24:49Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10063,14 +10377,14 @@
       "title": "Glovo's restaurant partners and GetVocal's WhatsApp agents, in GetVocal's account: check-in before opening, uptime checks, self-activation, photo checks",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/853d0698feb8.jpg",
+        "path": "captures/2026-11-16/promptugal.news/853d0698feb8.jpg",
         "sha256": "19df611d87e10ded3fe0e025df134e6dd807ed8392936b81f257fc4c5d58e247",
         "bytes": 73528,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/853d0698feb8.txt",
+        "path": "captures/2026-11-16/promptugal.news/853d0698feb8.txt",
         "sha256": "20fb5ce4f9f517fa5490e5539ebe346c0869325bbecfe0b01928c02402a9e4ee",
         "chars": 0
       },
@@ -10086,7 +10400,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S39-cover-card-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:12:43Z",
+      "captured_at": "2026-11-16T00:27:00Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10094,14 +10408,14 @@
       "title": "How WPP's Developer Studio turns a call into Jira work, in Mastra's account: transcript, proposed plan, human review, Jira",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/446e5f8fabb6.jpg",
+        "path": "captures/2026-11-16/promptugal.news/446e5f8fabb6.jpg",
         "sha256": "f5e1d940b43c21d1005e35171719d3d9d2b0d7bea4d99469eafa5c9dc194ad38",
         "bytes": 70023,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/446e5f8fabb6.txt",
+        "path": "captures/2026-11-16/promptugal.news/446e5f8fabb6.txt",
         "sha256": "ea350d768d4ee72afeaa91beaa11d541761ac90fa036b5a2e39bda15dc50d9c4",
         "chars": 0
       },
@@ -10117,7 +10431,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S40-gravitee-survey-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:00:18Z",
+      "captured_at": "2026-11-16T00:24:51Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10125,14 +10439,14 @@
       "title": "Gravitee's survey: AI agent adoption ahead of security",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/9acfb0f61d34.jpg",
+        "path": "captures/2026-11-16/promptugal.news/9acfb0f61d34.jpg",
         "sha256": "c84b02f520b1796129a2976f4072c6ae146af4931109e7e995d1066abbf30fa6",
         "bytes": 63896,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/9acfb0f61d34.txt",
+        "path": "captures/2026-11-16/promptugal.news/9acfb0f61d34.txt",
         "sha256": "7deac50462c20d5c828f9629e8260ac1fcd7fbe991eae08dd723d6b30d81121f",
         "chars": 0
       },
@@ -10148,7 +10462,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S41-warnings-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:05:02Z",
+      "captured_at": "2026-11-16T00:25:25Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10156,14 +10470,14 @@
       "title": "IPMA warnings for Lisbon, Wednesday 11 November 2026",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/5b65b53adf2a.jpg",
+        "path": "captures/2026-11-16/promptugal.news/5b65b53adf2a.jpg",
         "sha256": "29b36fecbb01dc4f46b7895ab6e75c2670f1a2e51a56bc727405fc918b4f7554",
         "bytes": 50947,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/5b65b53adf2a.txt",
+        "path": "captures/2026-11-16/promptugal.news/5b65b53adf2a.txt",
         "sha256": "6be734398226ce10454157238d600c3d4b3c1f7410cbe73a181ffb639ab2e9f1",
         "chars": 0
       },
@@ -10179,7 +10493,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S42-cover-card-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:48Z",
+      "captured_at": "2026-11-16T00:26:45Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10187,14 +10501,14 @@
       "title": "Three changes Lovable describes in its own post: almost all agent code deleted, knowledge files instead of fine-tuning, and saving and restoring a running computer",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/62adcb6364ac.jpg",
+        "path": "captures/2026-11-16/promptugal.news/62adcb6364ac.jpg",
         "sha256": "4ca9c7a1aba6531819a32e04c30ccae08250e440571eff343c6aed1178ae6a50",
         "bytes": 73412,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/62adcb6364ac.txt",
+        "path": "captures/2026-11-16/promptugal.news/62adcb6364ac.txt",
         "sha256": "49ead4bd678c2b861107106aaae0d4756ad4328a370ae9729c155fc72efe2c3a",
         "chars": 0
       },
@@ -10210,7 +10524,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S45-refunds-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:34Z",
+      "captured_at": "2026-11-16T00:26:04Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10218,14 +10532,14 @@
       "title": "Web Summit's Day 2: what is known about refunds",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/07025fd03f0a.jpg",
+        "path": "captures/2026-11-16/promptugal.news/07025fd03f0a.jpg",
         "sha256": "9675fe74f16c9892c7daadcf3bcee0247d51d1187e434eff9f52dc05ed30c4d7",
         "bytes": 51375,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/07025fd03f0a.txt",
+        "path": "captures/2026-11-16/promptugal.news/07025fd03f0a.txt",
         "sha256": "6abbe41b16d612154358bcd17b2970bb25a535491187cead90f87f19d8a2be76",
         "chars": 0
       },
@@ -10241,7 +10555,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S46-cover-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:13:00Z",
+      "captured_at": "2026-11-16T00:27:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10249,14 +10563,14 @@
       "title": "Zalando's approach to AI coding agents, in its own account: one proxy for every model, no mandated tool, no secrets in configuration files, a third of pull requests auto-approved as low risk",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/57e61332217b.jpg",
+        "path": "captures/2026-11-16/promptugal.news/57e61332217b.jpg",
         "sha256": "d7cb27d640b0486c4ca1216fc5afe460a68308bc0ca2602c8307c0c47792d6b8",
         "bytes": 77345,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/57e61332217b.txt",
+        "path": "captures/2026-11-16/promptugal.news/57e61332217b.txt",
         "sha256": "6205bd4468d012face2036568ab4d10b254e54688d8be85dceb041a170f9c10b",
         "chars": 0
       },
@@ -10272,7 +10586,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s48-manus-2-0-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:02:39Z",
+      "captured_at": "2026-11-16T00:25:09Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10280,14 +10594,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/872ffae31337.jpg",
+        "path": "captures/2026-11-16/promptugal.news/872ffae31337.jpg",
         "sha256": "07f0697ee25bd237266a357ca812a283e5dd5946beac578b797dcf78900dbc07",
         "bytes": 40858,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/872ffae31337.txt",
+        "path": "captures/2026-11-16/promptugal.news/872ffae31337.txt",
         "sha256": "e0d8823a97cbe397f3c032beda2d6e56a98123fd8e6a318d4b481de8743767f8",
         "chars": 0
       },
@@ -10303,7 +10617,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S50-en-18286-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:54:34Z",
+      "captured_at": "2026-11-16T00:24:04Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10311,14 +10625,14 @@
       "title": "The AI Act's first harmonised standard: EN 18286",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/4599be0ac6ed.jpg",
+        "path": "captures/2026-11-16/promptugal.news/4599be0ac6ed.jpg",
         "sha256": "6aecafd99eab5f02b8fc87c7c36e11a89b56aec8bce77404daf82149aa8164c4",
         "bytes": 73661,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/4599be0ac6ed.txt",
+        "path": "captures/2026-11-16/promptugal.news/4599be0ac6ed.txt",
         "sha256": "2674a32dbd28d1e7324d530a968a37c165add7f28f1c0c1186a6bf245dbe6721",
         "chars": 0
       },
@@ -10334,7 +10648,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S51-getting-around-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:59:27Z",
+      "captured_at": "2026-11-16T00:24:40Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10342,14 +10656,14 @@
       "title": "Getting around Lisbon on Wednesday 11 November 2026",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/ec56107b332f.jpg",
+        "path": "captures/2026-11-16/promptugal.news/ec56107b332f.jpg",
         "sha256": "61125de6838ae83508e3770efe180600c41d8d76e17411fa09198c92a2a76eb8",
         "bytes": 47717,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/ec56107b332f.txt",
+        "path": "captures/2026-11-16/promptugal.news/ec56107b332f.txt",
         "sha256": "e70c708eabbb0bdfde32dd3d5d341c395f9af71304de4da38569cf9c5e616e24",
         "chars": 0
       },
@@ -10365,7 +10679,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S52-cover-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:02:18Z",
+      "captured_at": "2026-11-16T00:25:07Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10373,14 +10687,14 @@
       "title": "Konecta in Lisbon: about 1,300 staff now, about 2,000 by the end of 2027; about 700 new jobs; a new Global Delivery Center opening in Q1 2027; 680 workstations over 4,900 square metres",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/e7900dc5fa0d.jpg",
+        "path": "captures/2026-11-16/promptugal.news/e7900dc5fa0d.jpg",
         "sha256": "8fbc1f33368285d8735abbca472a873cb1930bd445c877b4243dcd8a056ba294",
         "bytes": 75296,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/e7900dc5fa0d.txt",
+        "path": "captures/2026-11-16/promptugal.news/e7900dc5fa0d.txt",
         "sha256": "3656d2aea25a98d5c3801fc1a51f4e4a72739cba8c2246167b18ae599f2ae5ab",
         "chars": 0
       },
@@ -10396,7 +10710,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S53-election-guidelines-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:57:56Z",
+      "captured_at": "2026-11-16T00:24:33Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10404,14 +10718,14 @@
       "title": "The EU's draft election guidelines for the largest platforms",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/d53cb4ea2301.jpg",
+        "path": "captures/2026-11-16/promptugal.news/d53cb4ea2301.jpg",
         "sha256": "6bacb0d0ef3ca6f774d67681374ed26a2b0d17805235403680f48e6282756878",
         "bytes": 74264,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/d53cb4ea2301.txt",
+        "path": "captures/2026-11-16/promptugal.news/d53cb4ea2301.txt",
         "sha256": "b948afe3979e2691945c3aa2baff4c50c9656a8245c071c61602236f31e54e2b",
         "chars": 0
       },
@@ -10427,7 +10741,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s54-breakout-startups-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:56:08Z",
+      "captured_at": "2026-11-16T00:24:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10435,14 +10749,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/24c131c06b22.jpg",
+        "path": "captures/2026-11-16/promptugal.news/24c131c06b22.jpg",
         "sha256": "d45498207281e91892fe5b87daca902c6c5190845bc5c9340fd29482ddcaab41",
         "bytes": 38086,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/24c131c06b22.txt",
+        "path": "captures/2026-11-16/promptugal.news/24c131c06b22.txt",
         "sha256": "6e02def7ab3faa54360e6ee230c26456d3f5ac04b7741fe85ba2b521675817c0",
         "chars": 0
       },
@@ -10458,7 +10772,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S55-tiktok-dsa-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:08:32Z",
+      "captured_at": "2026-11-16T00:25:57Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10466,14 +10780,14 @@
       "title": "The EU's preliminary finding on TikTok's For You feed",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/bc35d2f1dfb7.jpg",
+        "path": "captures/2026-11-16/promptugal.news/bc35d2f1dfb7.jpg",
         "sha256": "60166da1d49cefa3dd7e24d771544cbe339c1af09dafdd65ca09f1b428cf8ba8",
         "bytes": 74342,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/bc35d2f1dfb7.txt",
+        "path": "captures/2026-11-16/promptugal.news/bc35d2f1dfb7.txt",
         "sha256": "3fcc9d3676da6af861087f7a25eac8286ef02f48d841caa1c5646e2dbb7aef63",
         "chars": 0
       },
@@ -10489,7 +10803,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S56-dfa-ai-agents-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:56:45Z",
+      "captured_at": "2026-11-16T00:24:21Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10497,14 +10811,14 @@
       "title": "The EU's proposed Digital Fairness Act and AI agents that shop for you",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/f7b3a9408af6.jpg",
+        "path": "captures/2026-11-16/promptugal.news/f7b3a9408af6.jpg",
         "sha256": "deb66159a82d2fbf55f2e913bfd0cd1b95f1f218859ca7bba4ee97ea9792f84a",
         "bytes": 77725,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/f7b3a9408af6.txt",
+        "path": "captures/2026-11-16/promptugal.news/f7b3a9408af6.txt",
         "sha256": "95505c5a443e5a79a8702e21d86a61d8a5e08368c05bc21562f913801a0789fb",
         "chars": 0
       },
@@ -10520,7 +10834,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S58-thursday-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:08:20Z",
+      "captured_at": "2026-11-16T00:25:55Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10528,14 +10842,14 @@
       "title": "Thursday 12 November: the last day of Web Summit",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/9b6e56b11485.jpg",
+        "path": "captures/2026-11-16/promptugal.news/9b6e56b11485.jpg",
         "sha256": "384e3ba6f670b5bc02899e46874609eaa4f981ce25ff902cef327fe515356ff6",
         "bytes": 71256,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/9b6e56b11485.txt",
+        "path": "captures/2026-11-16/promptugal.news/9b6e56b11485.txt",
         "sha256": "8d1d83a649414cf8a5bb662b659e933d5d3cc11153bea547f16f477a6a4996b3",
         "chars": 0
       },
@@ -10551,7 +10865,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S59-cover-card-2026-11-12.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:56:55Z",
+      "captured_at": "2026-11-16T00:24:23Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10559,14 +10873,14 @@
       "title": "Discord's first engineering hub outside San Francisco is in Lisbon, with about 30 engineers planned by the end of 2027",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/77662fcf374b.jpg",
+        "path": "captures/2026-11-16/promptugal.news/77662fcf374b.jpg",
         "sha256": "2b59e95aa1059644f24e427e1e8fe6103d4a45d2b54d03e4a3e42595363834c5",
         "bytes": 62777,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/77662fcf374b.txt",
+        "path": "captures/2026-11-16/promptugal.news/77662fcf374b.txt",
         "sha256": "710964f3387b90f14d6c4a09d7a56d014b32da9ea7578eede606568040d8a652",
         "chars": 0
       },
@@ -10582,7 +10896,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s60-pagerduty-card-2026-11-12.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:03:42Z",
+      "captured_at": "2026-11-16T00:25:14Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10590,14 +10904,14 @@
       "title": "Five problems PagerDuty names in running AI agents in production, and what it did about each, in its own account",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/c541308c1a38.jpg",
+        "path": "captures/2026-11-16/promptugal.news/c541308c1a38.jpg",
         "sha256": "f498b66de987a44f237f000a6cf017d6e56ad575daa74e04c664ed273aa72059",
         "bytes": 102548,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/c541308c1a38.txt",
+        "path": "captures/2026-11-16/promptugal.news/c541308c1a38.txt",
         "sha256": "ce86a81db027d36f1899094191e38f09e52fcae80abe90450123258dcef93ad7",
         "chars": 0
       },
@@ -10613,7 +10927,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S61-cover-card-2026-11-13.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:01:27Z",
+      "captured_at": "2026-11-16T00:24:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10621,14 +10935,14 @@
       "title": "Humanos wins Road 2 Web Summit 2026's Most Promising Startup prize, 15,000 euros; eDynamics wins Best Performance, 5,000 euros",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/6fe574b34cbd.jpg",
+        "path": "captures/2026-11-16/promptugal.news/6fe574b34cbd.jpg",
         "sha256": "a03345a9b5bb3cdbc971375d543259bf63dd38dbd767d736a36446b2c15f74e4",
         "bytes": 69311,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/6fe574b34cbd.txt",
+        "path": "captures/2026-11-16/promptugal.news/6fe574b34cbd.txt",
         "sha256": "02d1f34378e035925237a8acead31b53fded83cb953618a723a84ba012617ca2",
         "chars": 0
       },
@@ -10644,7 +10958,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s62-card-2026-11-13.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:11:38Z",
+      "captured_at": "2026-11-16T00:26:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10652,14 +10966,14 @@
       "title": "Saying it and doing it: 64% say it is important to watch for errors in AI content; 38% would instinctively question an AI summary; the BBC and EBU found a significant error in 45% of news answers",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/00403e5cdcba.jpg",
+        "path": "captures/2026-11-16/promptugal.news/00403e5cdcba.jpg",
         "sha256": "db0b8e8f04d7bc65f130be29f9bc1e3a4ec264ea8eff6c61b48e281cb28bcbe4",
         "bytes": 80940,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/00403e5cdcba.txt",
+        "path": "captures/2026-11-16/promptugal.news/00403e5cdcba.txt",
         "sha256": "b37bcc8a8ca4d39616480f61bbef73b547dbe503f03c86ab0f6f1bf6f5ec4fe7",
         "chars": 0
       },
@@ -10675,7 +10989,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s63-card-2026-11-13.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:11:48Z",
+      "captured_at": "2026-11-16T00:26:58Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10683,14 +10997,14 @@
       "title": "Women and tech business in Portugal: 14% of startups founded or led by women; 4% of women and 15% of men would want a tech or IT business, as PME Magazine reports",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/b09d92d81bc9.jpg",
+        "path": "captures/2026-11-16/promptugal.news/b09d92d81bc9.jpg",
         "sha256": "329eb1d9bd046b23cb2e7f54b1ed9633f00f15a93289f23330a2d94b0e767a30",
         "bytes": 83404,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/b09d92d81bc9.txt",
+        "path": "captures/2026-11-16/promptugal.news/b09d92d81bc9.txt",
         "sha256": "ed87d6bd2a913305a619aaaa22af19ea5acc5019e0334c17c952f42cb4a29bc3",
         "chars": 0
       },
@@ -10706,7 +11020,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/t1-replay-2026-11-06.webp",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:54:55Z",
+      "captured_at": "2026-11-16T00:24:07Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10714,14 +11028,14 @@
       "title": "t1-replay-2026-11-06.webp (869×227)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/076473e7c160.jpg",
+        "path": "captures/2026-11-16/promptugal.news/076473e7c160.jpg",
         "sha256": "bad72314828c8cb76b4edfa5c899cbdbca4ef0513f9c211c1e5507926aa27ef9",
         "bytes": 44306,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/076473e7c160.txt",
+        "path": "captures/2026-11-16/promptugal.news/076473e7c160.txt",
         "sha256": "9c6112548dfc5a5098efb2a85e8be43026bfc0f9e811716c29375d74ba1c3698",
         "chars": 0
       },
@@ -10737,7 +11051,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/t1-team-map-2026-11-06.webp",
       "host": "promptugal.news",
-      "captured_at": "2026-11-15T23:54:50Z",
+      "captured_at": "2026-11-16T00:24:05Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10745,14 +11059,14 @@
       "title": "t1-team-map-2026-11-06.webp (800×813)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/f48fc215b5a0.jpg",
+        "path": "captures/2026-11-16/promptugal.news/f48fc215b5a0.jpg",
         "sha256": "bce88622d427e71d131f28a9bf66c8c898e2a95b6316160d4384f877dae29f81",
         "bytes": 81805,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/f48fc215b5a0.txt",
+        "path": "captures/2026-11-16/promptugal.news/f48fc215b5a0.txt",
         "sha256": "0cce00784318cf3e354955e400d41d48050142d518b4ae09cce9e8573f395d8d",
         "chars": 0
       },
@@ -10768,7 +11082,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/t2-agents-per-person-2026-11-06.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:11:25Z",
+      "captured_at": "2026-11-16T00:26:54Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10776,14 +11090,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/3a4f97090d90.jpg",
+        "path": "captures/2026-11-16/promptugal.news/3a4f97090d90.jpg",
         "sha256": "c330b38d39ff4ca2a97f82aacf06e084a52d331048499c7d1bfdd698d2419b7b",
         "bytes": 23764,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/3a4f97090d90.txt",
+        "path": "captures/2026-11-16/promptugal.news/3a4f97090d90.txt",
         "sha256": "dde00211b11caefa77bc215d5759792860d7bd2270941844b4a4894a9ba443d0",
         "chars": 0
       },
@@ -10799,7 +11113,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/t4-wake-minutes-2026-11-06.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:00:37Z",
+      "captured_at": "2026-11-16T00:24:54Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10807,14 +11121,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/d2a472c3761d.jpg",
+        "path": "captures/2026-11-16/promptugal.news/d2a472c3761d.jpg",
         "sha256": "364b7e42aba0199a0c7b52b247840636dc6d0e3a95627fe980a13b9da8f4291a",
         "bytes": 31535,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/d2a472c3761d.txt",
+        "path": "captures/2026-11-16/promptugal.news/d2a472c3761d.txt",
         "sha256": "49c0d6c6b1b61017a227a8e5a9d6533596cad55f4c585edcbcd68b139f3a0ecc",
         "chars": 0
       },
@@ -10830,7 +11144,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/t5-sources-before-after-2026-11-06.webp",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:02:49Z",
+      "captured_at": "2026-11-16T00:25:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10838,14 +11152,14 @@
       "title": "t5-sources-before-after-2026-11-06.webp (600×1040)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/4345aff3ef45.jpg",
+        "path": "captures/2026-11-16/promptugal.news/4345aff3ef45.jpg",
         "sha256": "abf2a403bca1dc0f0b7ab676917ef926c150749af5243b7f58c689e4234dcc39",
         "bytes": 126116,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/4345aff3ef45.txt",
+        "path": "captures/2026-11-16/promptugal.news/4345aff3ef45.txt",
         "sha256": "71f0132b4c42982342e00168b88d6f9a9123561a72473576080c28d5de38c94e",
         "chars": 0
       },
@@ -10861,7 +11175,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/alpha.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:46Z",
+      "captured_at": "2026-11-16T00:26:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10869,14 +11183,14 @@
       "title": "alpha.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/a31e862a1037.jpg",
+        "path": "captures/2026-11-16/promptugal.news/a31e862a1037.jpg",
         "sha256": "f58fbd2dca6a11c70af739c13fcb4f4f4920530fa725d02801676e121d70048b",
         "bytes": 13513,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/a31e862a1037.txt",
+        "path": "captures/2026-11-16/promptugal.news/a31e862a1037.txt",
         "sha256": "5b9897cd2f473dcc14273a82928777f8693bae7ccdd4009f6714ac3424cd870b",
         "chars": 0
       },
@@ -10892,7 +11206,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/attendee.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:44Z",
+      "captured_at": "2026-11-16T00:26:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10900,14 +11214,14 @@
       "title": "attendee.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/9c46e773c8e4.jpg",
+        "path": "captures/2026-11-16/promptugal.news/9c46e773c8e4.jpg",
         "sha256": "164dbec2276db591ff4492b980f9f6ff04be00df4bddd56ffa338921295725c3",
         "bytes": 13395,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/9c46e773c8e4.txt",
+        "path": "captures/2026-11-16/promptugal.news/9c46e773c8e4.txt",
         "sha256": "e2c88e465bcf7e5a8c27d121d960453c92ab476db9feb4375efc6ad6a7950de0",
         "chars": 0
       },
@@ -10923,7 +11237,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/beta.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:48Z",
+      "captured_at": "2026-11-16T00:26:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10931,14 +11245,14 @@
       "title": "beta.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/785b0efde04f.jpg",
+        "path": "captures/2026-11-16/promptugal.news/785b0efde04f.jpg",
         "sha256": "7c23022785729e2eb6fc166a2c1822bc2f572a2fe2a3796a669704833580d3a9",
         "bytes": 13467,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/785b0efde04f.txt",
+        "path": "captures/2026-11-16/promptugal.news/785b0efde04f.txt",
         "sha256": "6f78234ae6e19febb10a30df138784ef663c9b1bb38df305f7ea000a8e4d3faf",
         "chars": 0
       },
@@ -10954,7 +11268,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/chairperson.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:58Z",
+      "captured_at": "2026-11-16T00:26:24Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10962,14 +11276,14 @@
       "title": "chairperson.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/269176362faa.jpg",
+        "path": "captures/2026-11-16/promptugal.news/269176362faa.jpg",
         "sha256": "cf781cfbe66729977786d1e172b000a10cafd25fcbf7ff7dc58939212831dd26",
         "bytes": 13416,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/269176362faa.txt",
+        "path": "captures/2026-11-16/promptugal.news/269176362faa.txt",
         "sha256": "b68550aa6017d7946ca88282b734b06b115703210f0c3d9f7dc04dfe4db92838",
         "chars": 0
       },
@@ -10985,7 +11299,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/crew.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:12Z",
+      "captured_at": "2026-11-16T00:26:37Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10993,14 +11307,14 @@
       "title": "crew.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/5f3a57eccbc9.jpg",
+        "path": "captures/2026-11-16/promptugal.news/5f3a57eccbc9.jpg",
         "sha256": "98b5ed59efbc0cf4347a375be569bf2f96869533d5a03b998a6d6589737e66da",
         "bytes": 13157,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/5f3a57eccbc9.txt",
+        "path": "captures/2026-11-16/promptugal.news/5f3a57eccbc9.txt",
         "sha256": "7d58a25562b407fd44b1e03e93c8333c47a2f61f66bc5b256a308b0836ce3e7c",
         "chars": 0
       },
@@ -11016,7 +11330,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/executive.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:56Z",
+      "captured_at": "2026-11-16T00:26:22Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11024,14 +11338,14 @@
       "title": "executive.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/708072036013.jpg",
+        "path": "captures/2026-11-16/promptugal.news/708072036013.jpg",
         "sha256": "60086266e105dfb4723d21aa9b7dbd3ea80b2712dd2926785e32c36a539cb196",
         "bytes": 13547,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/708072036013.txt",
+        "path": "captures/2026-11-16/promptugal.news/708072036013.txt",
         "sha256": "fa2248bfd73376f8a1f8630b7b5fbe18830c4dcd91462f567da55d30fa503f09",
         "chars": 0
       },
@@ -11047,7 +11361,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/forum-guest.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:05Z",
+      "captured_at": "2026-11-16T00:26:30Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11055,14 +11369,14 @@
       "title": "forum-guest.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/4bcf21cb69b1.jpg",
+        "path": "captures/2026-11-16/promptugal.news/4bcf21cb69b1.jpg",
         "sha256": "eefce0063b70010282ca9be50cf5cb65a526478d421e2ae631898b8d42c33bb8",
         "bytes": 13273,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/4bcf21cb69b1.txt",
+        "path": "captures/2026-11-16/promptugal.news/4bcf21cb69b1.txt",
         "sha256": "4b233e98e74ad0a029dca95222848763088b24f18319e85627b44949e2d805b9",
         "chars": 0
       },
@@ -11078,7 +11392,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/growth.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:49Z",
+      "captured_at": "2026-11-16T00:26:15Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11086,14 +11400,14 @@
       "title": "growth.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/43eed893ad37.jpg",
+        "path": "captures/2026-11-16/promptugal.news/43eed893ad37.jpg",
         "sha256": "cb6deb33b89d99616c1bd99b0a818aea9cb2df11f83ee882ce83e7943c108a72",
         "bytes": 13395,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/43eed893ad37.txt",
+        "path": "captures/2026-11-16/promptugal.news/43eed893ad37.txt",
         "sha256": "a3971b4ad5544726e461ef4c2532c3e2771d8e03f96edb7c2485b1d914b7eff9",
         "chars": 0
       },
@@ -11109,7 +11423,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/inspire.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:10Z",
+      "captured_at": "2026-11-16T00:26:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11117,14 +11431,14 @@
       "title": "inspire.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/a65eeac78f22.jpg",
+        "path": "captures/2026-11-16/promptugal.news/a65eeac78f22.jpg",
         "sha256": "98b5ed59efbc0cf4347a375be569bf2f96869533d5a03b998a6d6589737e66da",
         "bytes": 13157,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/a65eeac78f22.txt",
+        "path": "captures/2026-11-16/promptugal.news/a65eeac78f22.txt",
         "sha256": "2c1c2913dd5e15e4aa72ff6eda073a6b858f3814f798332ca6901533e2097797",
         "chars": 0
       },
@@ -11140,7 +11454,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/investor.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:51Z",
+      "captured_at": "2026-11-16T00:26:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11148,14 +11462,14 @@
       "title": "investor.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/e77f8c0ae847.jpg",
+        "path": "captures/2026-11-16/promptugal.news/e77f8c0ae847.jpg",
         "sha256": "71a18347e3ccbd7531b93c578d4a3364860471d2edb2faabeab2a1526b291233",
         "bytes": 13427,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/e77f8c0ae847.txt",
+        "path": "captures/2026-11-16/promptugal.news/e77f8c0ae847.txt",
         "sha256": "97b54cab5514d265a3c31173bb8130890bf2c5f984b231ac2ae1f75afaa31724",
         "chars": 0
       },
@@ -11171,7 +11485,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/media.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:03Z",
+      "captured_at": "2026-11-16T00:26:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11179,14 +11493,14 @@
       "title": "media.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/3c7efc36361e.jpg",
+        "path": "captures/2026-11-16/promptugal.news/3c7efc36361e.jpg",
         "sha256": "99a618d32f197dd1669cf13fd600055dc4bae98e99911f1176ce696ebfc15ebd",
         "bytes": 13533,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/3c7efc36361e.txt",
+        "path": "captures/2026-11-16/promptugal.news/3c7efc36361e.txt",
         "sha256": "053c0aaf7e443f2794af0d0b801d3cb3bc4f78cb61861509c0352956949d668c",
         "chars": 0
       },
@@ -11202,7 +11516,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/partner.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:55Z",
+      "captured_at": "2026-11-16T00:26:20Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11210,14 +11524,14 @@
       "title": "partner.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/6551f0cc52f8.jpg",
+        "path": "captures/2026-11-16/promptugal.news/6551f0cc52f8.jpg",
         "sha256": "cdff825473544f15b07ed10335fd5517d3ebfeb7dfdb106ec1ea6801f6ce2a37",
         "bytes": 13529,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/6551f0cc52f8.txt",
+        "path": "captures/2026-11-16/promptugal.news/6551f0cc52f8.txt",
         "sha256": "e5e0a2a1467a39c460fb613a65364ad1cc96ff0c8c94aac35a173b69a4389423",
         "chars": 0
       },
@@ -11233,7 +11547,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/platinum-investor.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:09:53Z",
+      "captured_at": "2026-11-16T00:26:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11241,14 +11555,14 @@
       "title": "platinum-investor.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/f7548e0be4e6.jpg",
+        "path": "captures/2026-11-16/promptugal.news/f7548e0be4e6.jpg",
         "sha256": "2044f60c9d4c73e6fc77e28c2094b93d96f1a07cd93e4c2e62b21714835e389b",
         "bytes": 13374,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/f7548e0be4e6.txt",
+        "path": "captures/2026-11-16/promptugal.news/f7548e0be4e6.txt",
         "sha256": "6bee51c5bc64719150945fd4db0713aa14207b8f61583a2024d88268c87c8897",
         "chars": 0
       },
@@ -11264,7 +11578,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/scholar.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:08Z",
+      "captured_at": "2026-11-16T00:26:34Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11272,14 +11586,14 @@
       "title": "scholar.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/bb0c9ec808a1.jpg",
+        "path": "captures/2026-11-16/promptugal.news/bb0c9ec808a1.jpg",
         "sha256": "1a8fd9c7eb1def7a5048ea64ba698ce06f300bc6911f69bbd36fef6b12cca9b9",
         "bytes": 13365,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/bb0c9ec808a1.txt",
+        "path": "captures/2026-11-16/promptugal.news/bb0c9ec808a1.txt",
         "sha256": "73814357cc2466d6cc6a1121593723be6eedad8565f103b64f49f8213765eceb",
         "chars": 0
       },
@@ -11295,7 +11609,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/speaker.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:00Z",
+      "captured_at": "2026-11-16T00:26:25Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11303,14 +11617,14 @@
       "title": "speaker.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/c45a1c522e66.jpg",
+        "path": "captures/2026-11-16/promptugal.news/c45a1c522e66.jpg",
         "sha256": "9aa1bd3add05a9e4fd4b07026b688b737f5bc80b9c287a1608ec43b6fc6f9993",
         "bytes": 13478,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/c45a1c522e66.txt",
+        "path": "captures/2026-11-16/promptugal.news/c45a1c522e66.txt",
         "sha256": "698c32971d7fdb9087099aa3445cc6da74badd0704436c588a82bc1a072b77ae",
         "chars": 0
       },
@@ -11326,7 +11640,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/staff.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:13Z",
+      "captured_at": "2026-11-16T00:26:39Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11334,14 +11648,14 @@
       "title": "staff.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/17b6b5835b0b.jpg",
+        "path": "captures/2026-11-16/promptugal.news/17b6b5835b0b.jpg",
         "sha256": "d248b87cffd6c5bc23b0f0f221325fda5109f46259642f7df5992752d3f262ca",
         "bytes": 13295,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/17b6b5835b0b.txt",
+        "path": "captures/2026-11-16/promptugal.news/17b6b5835b0b.txt",
         "sha256": "e7aed89f9fac029ff750dde95ac6834f974ce8e207f62bbde37736fa544851d2",
         "chars": 0
       },
@@ -11357,7 +11671,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/vip.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:02Z",
+      "captured_at": "2026-11-16T00:26:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11365,14 +11679,14 @@
       "title": "vip.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/00ca3c8b6c9a.jpg",
+        "path": "captures/2026-11-16/promptugal.news/00ca3c8b6c9a.jpg",
         "sha256": "d7b4c36433bdc3cfb57af8227f119e3e2b8004ab981961562f4819b13f2d6dff",
         "bytes": 13332,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/00ca3c8b6c9a.txt",
+        "path": "captures/2026-11-16/promptugal.news/00ca3c8b6c9a.txt",
         "sha256": "7a7b6b85cea6ca805f212025d8ff11aacd44d9f7c8229ef2f27fe588c1ff6b16",
         "chars": 0
       },
@@ -11388,7 +11702,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/volunteer.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:15Z",
+      "captured_at": "2026-11-16T00:26:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11396,14 +11710,14 @@
       "title": "volunteer.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/ee5ba0f298a4.jpg",
+        "path": "captures/2026-11-16/promptugal.news/ee5ba0f298a4.jpg",
         "sha256": "47f78988273ac3ca3cb44ea03d3cd5ed68b24fab9be9cecd92dbbe96ef08c43e",
         "bytes": 13463,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/ee5ba0f298a4.txt",
+        "path": "captures/2026-11-16/promptugal.news/ee5ba0f298a4.txt",
         "sha256": "ae4888c7af6119d1d13db5012df0537e499dd25d6d1aa9420785134c7fbde526",
         "chars": 0
       },
@@ -11419,7 +11733,7 @@
     {
       "url": "https://promptugal.news/desks/writer-angelo/img/passes/women-in-tech.png",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T00:10:07Z",
+      "captured_at": "2026-11-16T00:26:32Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11427,14 +11741,14 @@
       "title": "women-in-tech.png (240×48)",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/promptugal.news/21b52664f392.jpg",
+        "path": "captures/2026-11-16/promptugal.news/21b52664f392.jpg",
         "sha256": "3f88d0c7cea38e2e030e33308d07feae89d85e9a7a1ac2b7bb911d03afcaa946",
         "bytes": 13364,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/promptugal.news/21b52664f392.txt",
+        "path": "captures/2026-11-16/promptugal.news/21b52664f392.txt",
         "sha256": "ba3327e18459d3c9a7b89d3c5e73c50286c262876335ee3d1a6f2fbe3f90c12c",
         "chars": 0
       },
@@ -11775,7 +12089,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 11,
+          "n": 13,
           "label": "Sybilion, from Porto, raises 3.6 million euros for an AI decision layer"
         },
         {
@@ -11789,7 +12103,7 @@
     {
       "url": "https://pypi.org/project/sgit-ai/0.27.0/",
       "host": "pypi.org",
-      "captured_at": "2026-11-15T23:53:55Z",
+      "captured_at": "2026-11-16T00:24:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": null,
@@ -11841,7 +12155,7 @@
     {
       "url": "https://regiao-sul.pt",
       "host": "regiao-sul.pt",
-      "captured_at": "2026-11-15T23:21:21Z",
+      "captured_at": "2026-11-16T00:17:55Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11849,15 +12163,15 @@
       "title": "Attention Required! | Cloudflare",
       "note": "a bot challenge or an access page was served; recorded as such, not got round",
       "image": {
-        "path": "captures/2026-11-15/regiao-sul.pt/6c20a464b928.jpg",
-        "sha256": "b303998558704510e0d4fda1de98060ad5a266d990a6c3e702befc320ae00228",
-        "bytes": 72728,
+        "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.jpg",
+        "sha256": "e012b600bd2cdf5a4ca2176cd88b0f4665fb029856db72d7514f64cb3072a208",
+        "bytes": 72804,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/regiao-sul.pt/6c20a464b928.txt",
-        "sha256": "044b781c4f16a5f68a7aab1bba0d0f63e03d5ac2a58588e1d311cf3eac96af7c",
+        "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.txt",
+        "sha256": "dd749a84616146a7c7c0c954caad77e1a2b5d095952211bb8dc9bcf002e42abe",
         "chars": 690
       },
       "cited_by": [
@@ -12008,7 +12322,7 @@
     {
       "url": "https://robpegoraro.com/2022/10/26/a-little-lisbon-and-web-summit-advice/",
       "host": "robpegoraro.com",
-      "captured_at": "2026-11-16T00:10:33Z",
+      "captured_at": "2026-11-16T00:26:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12016,14 +12330,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/robpegoraro.com/0604366a66c8.jpg",
+        "path": "captures/2026-11-16/robpegoraro.com/0604366a66c8.jpg",
         "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
         "bytes": 19278,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/robpegoraro.com/0604366a66c8.txt",
+        "path": "captures/2026-11-16/robpegoraro.com/0604366a66c8.txt",
         "sha256": "f261a32f0ba4cb856fbd7707a5a7eaee26131b2bdcd0c1cbe18480f837e3accd",
         "chars": 58
       },
@@ -12340,7 +12654,7 @@
         {
           "place": "lagoa",
           "kind": "map-site",
-          "n": 1,
+          "n": 2,
           "label": "Município de Lagoa, SmartCity:Lagoa"
         },
         {
@@ -12391,15 +12705,21 @@
     {
       "url": "https://startupportugal.com/wp-content/uploads/2026/11/R2WS-Startup-Booklet-2026.pdf",
       "host": "startupportugal.com",
-      "captured_at": "2026-11-16T00:06:43Z",
+      "captured_at": "2026-11-16T00:25:46Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://startupportugal.com/wp-content/uploads/2026/11/R2WS-Startup-Booklet-2026.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/startupportugal.com/f7e4175e314a.pdf",
+        "sha256": "6c9bd6d494e916b6e62e205f845c0b8f486b57e5c42b2a98fe01835189ecd167",
+        "bytes": 1515296,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": null,
@@ -12715,7 +13035,7 @@
     {
       "url": "https://tek.sapo.pt/extras/site-do-dia/artigos/road-2-web-summit-2026-ja-aceita-candidaturas-de-startups-portuguesas-para-mais-uma-edicao/",
       "host": "tek.sapo.pt",
-      "captured_at": "2026-11-16T00:11:08Z",
+      "captured_at": "2026-11-16T00:26:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12723,14 +13043,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/tek.sapo.pt/c1061e4baa84.jpg",
+        "path": "captures/2026-11-16/tek.sapo.pt/c1061e4baa84.jpg",
         "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
         "bytes": 19278,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/tek.sapo.pt/c1061e4baa84.txt",
+        "path": "captures/2026-11-16/tek.sapo.pt/c1061e4baa84.txt",
         "sha256": "e15c6a7e4f70e37fe5e7ce0e495a8de9edd26a53c20d45be0b742f6e36e86710",
         "chars": 58
       },
@@ -12746,7 +13066,7 @@
     {
       "url": "https://tek.sapo.pt/noticias/negocios/artigos/discord-abre-em-lisboa-o-primeiro-hub-de-engenharia-fora-dos-eua/",
       "host": "tek.sapo.pt",
-      "captured_at": "2026-11-15T23:57:08Z",
+      "captured_at": "2026-11-16T00:24:25Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12754,14 +13074,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/tek.sapo.pt/a32ddea95157.jpg",
-        "sha256": "e7ecb9cb61d77a3b302db88c23553a9e0625174142151d7bb105b7a816eda429",
-        "bytes": 19262,
+        "path": "captures/2026-11-16/tek.sapo.pt/a32ddea95157.jpg",
+        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
+        "bytes": 19292,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/tek.sapo.pt/a32ddea95157.txt",
+        "path": "captures/2026-11-16/tek.sapo.pt/a32ddea95157.txt",
         "sha256": "e97683ed8a01a344007191c0fab9f7c2c36ee2878ef26166a9f88736e96a11fc",
         "chars": 58
       },
@@ -12777,7 +13097,7 @@
     {
       "url": "https://tek.sapo.pt/noticias/negocios/artigos/humanos-e-a-startup-vencedora-do-road-2-web-summit-2026-e-defende-mais-aposta-na-engenharia-e-menos-em-fundadores-pavoes/",
       "host": "tek.sapo.pt",
-      "captured_at": "2026-11-16T00:01:29Z",
+      "captured_at": "2026-11-16T00:25:00Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12785,14 +13105,14 @@
       "title": "Checking your browser...",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/tek.sapo.pt/0f8d6c03c5e0.jpg",
-        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
-        "bytes": 19319,
+        "path": "captures/2026-11-16/tek.sapo.pt/0f8d6c03c5e0.jpg",
+        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
+        "bytes": 19292,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/tek.sapo.pt/0f8d6c03c5e0.txt",
+        "path": "captures/2026-11-16/tek.sapo.pt/0f8d6c03c5e0.txt",
         "sha256": "58e499a230fa7f337fae3e86048a8a4ece08325f748e844669e452edb9912317",
         "chars": 58
       },
@@ -12868,7 +13188,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 16,
+          "n": 18,
           "label": "Portugal's new Agency for Research and Innovation (AI²) was due to start on 1 January 2026"
         },
         {
@@ -13096,9 +13416,40 @@
       ]
     },
     {
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/pt2020/beneficiarios-projetos/projeto/ALG-02-0752-FEDER-072316/",
+      "host": "transparencia.gov.pt",
+      "captured_at": "2026-11-16T00:19:48Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://transparencia.gov.pt/en/fundos-europeus/pt2020/beneficiarios-projetos/projeto/ALG-02-0752-FEDER-072316/",
+      "title": "Project Portugal 2020",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/transparencia.gov.pt/101b864ab1aa.jpg",
+        "sha256": "0b2ccb4d045d811cc0fe820cc22c682fab3b9791de4ac993d9d0016a9f4aea6d",
+        "bytes": 116210,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/transparencia.gov.pt/101b864ab1aa.txt",
+        "sha256": "1b0f67b7fd48a767ce593f25e71d73881f135e4d15efa6c78edbb7f4bf4de6da",
+        "chars": 2575
+      },
+      "cited_by": [
+        {
+          "place": "olhao",
+          "kind": "map",
+          "n": 7,
+          "label": "FULGUR-IT"
+        }
+      ]
+    },
+    {
       "url": "https://uhu.es/sites/otc/files/proyectos_europeos/kttseadrones.pdf",
       "host": "uhu.es",
-      "captured_at": "2026-11-15T23:47:37Z",
+      "captured_at": "2026-11-16T00:21:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -13106,14 +13457,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/uhu.es/5d9f5b6b438d.jpg",
+        "path": "captures/2026-11-16/uhu.es/5d9f5b6b438d.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/uhu.es/5d9f5b6b438d.txt",
+        "path": "captures/2026-11-16/uhu.es/5d9f5b6b438d.txt",
         "sha256": "c6c403f5ed73b33f2feaca9ec31c396abe43d293934f794a86af39465edaf4f4",
         "chars": 23
       },
@@ -13548,7 +13899,7 @@
     {
       "url": "https://websig.cm-vrsa.pt/geoportal",
       "host": "websig.cm-vrsa.pt",
-      "captured_at": "2026-11-15T23:39:16Z",
+      "captured_at": "2026-11-16T00:19:22Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -13556,14 +13907,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/websig.cm-vrsa.pt/82795f48ed7b.jpg",
+        "path": "captures/2026-11-16/websig.cm-vrsa.pt/82795f48ed7b.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/websig.cm-vrsa.pt/82795f48ed7b.txt",
+        "path": "captures/2026-11-16/websig.cm-vrsa.pt/82795f48ed7b.txt",
         "sha256": "afd67e6f05bec2f66156a003010241bd04896f495b8fed690bdea02590198064",
         "chars": 23
       },
@@ -13693,12 +14044,6 @@
       },
       "cited_by": [
         {
-          "place": "loule",
-          "kind": "source",
-          "n": 5,
-          "label": "Algarve Evolution"
-        },
-        {
           "place": "algarve",
           "kind": "map-site",
           "n": 1,
@@ -13708,6 +14053,12 @@
           "place": "algarve",
           "kind": "gravity",
           "n": 3,
+          "label": "Algarve Evolution"
+        },
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 5,
           "label": "Algarve Evolution"
         }
       ]
@@ -13746,6 +14097,12 @@
           "kind": "source",
           "n": 5,
           "label": "Algarve Evolution"
+        },
+        {
+          "place": "lagoa",
+          "kind": "source",
+          "n": 7,
+          "label": "Algarve Evolution, events"
         }
       ]
     },
@@ -13899,7 +14256,7 @@
         {
           "place": "algarve",
           "kind": "news",
-          "n": 3,
+          "n": 4,
           "label": "Algarve Evolution opens a survey on how local companies adopt AI"
         },
         {
@@ -14055,6 +14412,49 @@
           "kind": "map",
           "n": 18,
           "label": "Tertúlia Algarvia"
+        }
+      ]
+    },
+    {
+      "url": "https://www.algarveevolution.pt/pt/event/lagoa-teens-ai-design-sprint-62/register",
+      "host": "algarveevolution.pt",
+      "captured_at": "2026-11-16T00:20:15Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.algarveevolution.pt/pt/event/lagoa-teens-ai-design-sprint-62/register",
+      "title": "Lagoa Teens AI Design Sprint | Algarve Evolution",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/algarveevolution.pt/c772b8949444.jpg",
+        "sha256": "133d21aae7df409f45747faa11d3142b8c2632cc35d17cb600a85f1ed87ee892",
+        "bytes": 179095,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/algarveevolution.pt/c772b8949444.txt",
+        "sha256": "d93dbb4132b493f52a2e5bfeabeb88d30e26220849c4b64f9ba553571658a2dd",
+        "chars": 3186
+      },
+      "cited_by": [
+        {
+          "place": "lagoa",
+          "kind": "map",
+          "n": 4,
+          "label": "Nobel Algarve British International School"
+        },
+        {
+          "place": "lagoa",
+          "kind": "event",
+          "n": 1,
+          "label": "Lagoa Teens AI Design Sprint (past: two-day AI design hackathon for students aged 12 to 18, at the Nobel Algarve British International School, with Teens in AI, Algarve Evolution and Algarve Tech Hub)"
+        },
+        {
+          "place": "lagoa",
+          "kind": "gravity",
+          "n": 5,
+          "label": "Lagoa Teens AI Design Sprint (Algarve Evolution event page)"
         }
       ]
     },
@@ -14271,15 +14671,21 @@
     {
       "url": "https://www.apren.pt/wp-content/uploads/2026/06/INEGI_APREN-Parques-Eolicos-em-Portugal.pdf",
       "host": "apren.pt",
-      "captured_at": "2026-11-15T23:47:57Z",
+      "captured_at": "2026-11-16T00:21:45Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.apren.pt/wp-content/uploads/2026/06/INEGI_APREN-Parques-Eolicos-em-Portugal.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/apren.pt/5d2616e4f755.pdf",
+        "sha256": "ee27c2c77bdd97b03dca6702d5377d66a86a91aeaffd45745d3f9d065e9bb52d",
+        "bytes": 4062404,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": "vila-do-bispo",
@@ -14665,7 +15071,7 @@
         {
           "place": "aljezur",
           "kind": "news",
-          "n": 4,
+          "n": 5,
           "label": "Gota Click2Care: a parish teleassistance pilot for Aljezur's older residents"
         },
         {
@@ -14918,7 +15324,7 @@
         {
           "place": "algarve",
           "kind": "news",
-          "n": 14,
+          "n": 17,
           "label": "Algarve Evolution opens applications for its AI and robotics pilot for tourism SMEs"
         }
       ]
@@ -15017,7 +15423,7 @@
         {
           "place": "algarve",
           "kind": "news",
-          "n": 12,
+          "n": 15,
           "label": "European funds to bring AI and robotics to 15 Algarve tourism firms, and a warning on agentic AI"
         },
         {
@@ -15054,7 +15460,7 @@
         {
           "place": "aljezur",
           "kind": "news",
-          "n": 2,
+          "n": 3,
           "label": "Liceu Azul will give Aljezur its first upper secondary school, in Sciences and Technologies"
         },
         {
@@ -15126,6 +15532,24 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "news",
+          "n": 12,
+          "label": "UAlg wins 31.5 million euros for an AI-first European heritage centre"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 6,
+          "label": "ICArEHB (UAlg research centre)"
+        },
+        {
+          "place": "algarve",
+          "kind": "gravity",
+          "n": 1,
+          "label": "UAlg wins 31.5 million euros for UAlgTec Heritage"
+        },
+        {
           "place": "faro",
           "kind": "news",
           "n": 11,
@@ -15142,24 +15566,6 @@
           "kind": "gravity",
           "n": 1,
           "label": "UAlg secures 31.5 million euros for an archaeological innovation centre using AI (Barlavento, 23 April 2026)"
-        },
-        {
-          "place": "algarve",
-          "kind": "news",
-          "n": 9,
-          "label": "UAlg wins 31.5 million euros for an AI-first European heritage centre"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 6,
-          "label": "ICArEHB (UAlg research centre)"
-        },
-        {
-          "place": "algarve",
-          "kind": "gravity",
-          "n": 1,
-          "label": "UAlg wins 31.5 million euros for UAlgTec Heritage"
         }
       ]
     },
@@ -15263,7 +15669,7 @@
         {
           "place": "albufeira",
           "kind": "news",
-          "n": 2,
+          "n": 3,
           "label": "Albufeira town hall hosts a conference on AI in urban planning"
         }
       ]
@@ -15294,7 +15700,7 @@
         {
           "place": "alcoutim",
           "kind": "news",
-          "n": 2,
+          "n": 3,
           "label": "Alcoutim gets shared electric bikes run by a digital platform"
         },
         {
@@ -15503,7 +15909,7 @@
         {
           "place": "alcoutim",
           "kind": "news",
-          "n": 3,
+          "n": 4,
           "label": "Alcoutim pays for its senior teleassistance service itself"
         },
         {
@@ -15540,7 +15946,7 @@
         {
           "place": "alcoutim",
           "kind": "news",
-          "n": 1,
+          "n": 2,
           "label": "Alcoutim turns the old EPAC granary into a business and coworking centre"
         },
         {
@@ -15614,6 +16020,37 @@
       ]
     },
     {
+      "url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-16T00:16:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "title": "AlgarveSTP lança programa gratuito para ajudar 12 empresas algarvias a crescer",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/barlavento.pt/3ee17c2126cf.jpg",
+        "sha256": "a210caaa1b86a3001d8248cf1dc2626b7e9857a40cd6d9ea4312e501cacce6e5",
+        "bytes": 206625,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/barlavento.pt/3ee17c2126cf.txt",
+        "sha256": "c06b3bbe79b31908a88eb67e2e1cffdeb8b476c33d8c099365e6dd78cdf7ec95",
+        "chars": 8075
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "map-site",
+          "n": 16,
+          "label": "Algarve STP"
+        }
+      ]
+    },
+    {
       "url": "https://www.barlavento.pt/aljezur-obtem-financiamento-para-regenerar-territorio-apos-incendio/",
       "host": "barlavento.pt",
       "captured_at": "2026-11-15T23:47:11Z",
@@ -15668,6 +16105,24 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "news",
+          "n": 16,
+          "label": "AuroraMed and UAlg launch an executive course on AI in healthcare"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 9,
+          "label": "FMCB-UAlg (Faculty of Medicine and Biomedical Sciences)"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 10,
+          "label": "AuroraMed"
+        },
+        {
           "place": "faro",
           "kind": "news",
           "n": 14,
@@ -15684,24 +16139,6 @@
           "kind": "gravity",
           "n": 3,
           "label": "AuroraMed launches an AI in health course with UAlg (Barlavento, 19 March 2026)"
-        },
-        {
-          "place": "algarve",
-          "kind": "news",
-          "n": 13,
-          "label": "AuroraMed and UAlg launch an executive course on AI in healthcare"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 9,
-          "label": "FMCB-UAlg (Faculty of Medicine and Biomedical Sciences)"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 10,
-          "label": "AuroraMed"
         }
       ]
     },
@@ -15805,7 +16242,7 @@
         {
           "place": "aljezur",
           "kind": "news",
-          "n": 3,
+          "n": 4,
           "label": "Applications opened for the Algarve's pilot AI and robotics plan for tourism SMEs"
         }
       ]
@@ -15910,7 +16347,7 @@
         {
           "place": "algarve",
           "kind": "news",
-          "n": 8,
+          "n": 11,
           "label": "Vilamoura school hosts an education summit on AI"
         }
       ]
@@ -15976,6 +16413,12 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "news",
+          "n": 2,
+          "label": "DevFest Faro gives two days to building AI agents in practice"
+        },
+        {
           "place": "faro",
           "kind": "news",
           "n": 1,
@@ -15992,12 +16435,6 @@
           "kind": "gravity",
           "n": 4,
           "label": "DevFest dedicates two days to practical AI in Faro (Barlavento, 6 November 2026)"
-        },
-        {
-          "place": "algarve",
-          "kind": "news",
-          "n": 2,
-          "label": "DevFest Faro gives two days to building AI agents in practice"
         }
       ]
     },
@@ -16094,6 +16531,55 @@
       ]
     },
     {
+      "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-16T00:16:51Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+      "title": "Escolhidas as 12 empresas do primeiro Venture Lab by AlgarveSTP",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/barlavento.pt/d8087ae942e2.jpg",
+        "sha256": "92f3b2933d1ef0868ac3e9fd1d38892c0b46943f1db52b564502ea7fbfdfc527",
+        "bytes": 237335,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/barlavento.pt/d8087ae942e2.txt",
+        "sha256": "4530ff3c6014989d7ceb561190ee06574902900be216cabbbc3affb3d991b970",
+        "chars": 10798
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "news",
+          "n": 9,
+          "label": "First Venture Lab by AlgarveSTP picks 12 companies, with AI adoption on the mentoring menu"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 16,
+          "label": "Algarve STP"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 23,
+          "label": "Bot Gonçalves"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 24,
+          "label": "DigitalGTPro"
+        }
+      ]
+    },
+    {
       "url": "https://www.barlavento.pt/estudante-prototipo-ia-qualidade-ar-lagoa/",
       "host": "barlavento.pt",
       "captured_at": "2026-11-15T23:44:40Z",
@@ -16125,13 +16611,13 @@
         {
           "place": "lagoa",
           "kind": "map",
-          "n": 1,
+          "n": 2,
           "label": "Município de Lagoa, SmartCity:Lagoa"
         },
         {
           "place": "lagoa",
           "kind": "map",
-          "n": 3,
+          "n": 5,
           "label": "Instituto Politécnico de Beja, partner of the Lagoa air quality work"
         }
       ]
@@ -16160,16 +16646,16 @@
       },
       "cited_by": [
         {
-          "place": "faro",
-          "kind": "source",
-          "n": 3,
-          "label": "Barlavento: AI tag"
-        },
-        {
           "place": "algarve",
           "kind": "source",
           "n": 1,
           "label": "Barlavento: Inteligência Artificial tag"
+        },
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 3,
+          "label": "Barlavento: AI tag"
         }
       ]
     },
@@ -16197,6 +16683,18 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "news",
+          "n": 8,
+          "label": "Faro panel asks how AI decides which companies to recommend"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 20,
+          "label": "Flow Productions"
+        },
+        {
           "place": "faro",
           "kind": "news",
           "n": 8,
@@ -16212,24 +16710,6 @@
           "place": "faro",
           "kind": "map",
           "n": 9,
-          "label": "Flow Productions"
-        },
-        {
-          "place": "algarve",
-          "kind": "news",
-          "n": 6,
-          "label": "Faro panel asks how AI decides which companies to recommend"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 16,
-          "label": "Algarve STP"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 20,
           "label": "Flow Productions"
         }
       ]
@@ -16266,7 +16746,7 @@
         {
           "place": "lagoa",
           "kind": "map",
-          "n": 2,
+          "n": 3,
           "label": "Junta de Freguesia de Ferragudo"
         }
       ]
@@ -16599,6 +17079,43 @@
       ]
     },
     {
+      "url": "https://www.barlavento.pt/nera-ualg-living-labs-robotica-agricultura/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-16T00:16:48Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/nera-ualg-living-labs-robotica-agricultura/",
+      "title": "NERA e UAlg preparam Living Labs para testar robótica na agricultura",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/barlavento.pt/08ebfb0c3ec8.jpg",
+        "sha256": "706e0c016e3ff5a901e3b7421e23e946913e16619c0c286352afb956f69942a4",
+        "bytes": 263458,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/barlavento.pt/08ebfb0c3ec8.txt",
+        "sha256": "d70042f280e346af68fb806ecaf19367f8c26992107eda123089dd763da76e0d",
+        "chars": 6914
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "news",
+          "n": 7,
+          "label": "NERA and UAlg prepare two living labs to test robotics and AI on Algarve farms"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 25,
+          "label": "AGROBOTICS-DITWINS"
+        }
+      ]
+    },
+    {
       "url": "https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/",
       "host": "barlavento.pt",
       "captured_at": "2026-11-15T23:40:32Z",
@@ -16704,7 +17221,7 @@
         {
           "place": "algarve",
           "kind": "news",
-          "n": 7,
+          "n": 10,
           "label": "Portimão uses AI to check building-permit documents"
         },
         {
@@ -17202,6 +17719,18 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "news",
+          "n": 14,
+          "label": "Turismo do Algarve runs free AI bootcamp for tourism professionals"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 15,
+          "label": "Turismo do Algarve (Região de Turismo do Algarve)"
+        },
+        {
           "place": "faro",
           "kind": "news",
           "n": 12,
@@ -17212,18 +17741,6 @@
           "kind": "source",
           "n": 7,
           "label": "Turismo do Algarve"
-        },
-        {
-          "place": "algarve",
-          "kind": "news",
-          "n": 11,
-          "label": "Turismo do Algarve runs free AI bootcamp for tourism professionals"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 15,
-          "label": "Turismo do Algarve (Região de Turismo do Algarve)"
         }
       ]
     },
@@ -17321,7 +17838,7 @@
         {
           "place": "algarve",
           "kind": "news",
-          "n": 10,
+          "n": 13,
           "label": "Vale do Lobo launches Oliver, an AI digital concierge"
         }
       ]
@@ -17412,6 +17929,18 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "news",
+          "n": 6,
+          "label": "ULS Algarve holds a webinar on AI in the national health service"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 19,
+          "label": "ULS Algarve"
+        },
+        {
           "place": "faro",
           "kind": "news",
           "n": 7,
@@ -17422,33 +17951,27 @@
           "kind": "map",
           "n": 10,
           "label": "ULS Algarve"
-        },
-        {
-          "place": "algarve",
-          "kind": "news",
-          "n": 5,
-          "label": "ULS Algarve holds a webinar on AI in the national health service"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 19,
-          "label": "ULS Algarve"
         }
       ]
     },
     {
       "url": "https://www.bbc.co.uk/aboutthebbc/documents/audience-use-and-perceptions-of-ai-assistants-for-news.pdf",
       "host": "bbc.co.uk",
-      "captured_at": "2026-11-16T00:11:39Z",
+      "captured_at": "2026-11-16T00:26:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
-      "status": null,
-      "final_url": null,
+      "status": 403,
+      "final_url": "https://www.bbc.co.uk/aboutthebbc/documents/audience-use-and-perceptions-of-ai-assistants-for-news.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "the server answered 403",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/bbc.co.uk/7e936f1780fd.bin",
+        "sha256": "dc9a4c45bac2ffecb6c3904ab17c14f29288f0928f0247acd449f62d0b715981",
+        "bytes": 24,
+        "type": "text/plain"
+      },
       "cited_by": [
         {
           "place": null,
@@ -17695,15 +18218,21 @@
     {
       "url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20240814_FichaProjeto_%20ATTENTIA.pdf",
       "host": "ccdr-alg.pt",
-      "captured_at": "2026-11-15T23:36:27Z",
+      "captured_at": "2026-11-16T00:18:06Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20240814_FichaProjeto_%20ATTENTIA.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/ccdr-alg.pt/6138ffdcb695.pdf",
+        "sha256": "25f60e6ab8b1c23afeffd5d6e83cd5031b1e01acba921d3e2b0883755f01e822",
+        "bytes": 136272,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": "silves",
@@ -17716,15 +18245,21 @@
     {
       "url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250722_relat%C3%B3rio%20pic%20digitaliza%C3%A7%C3%A3o%20%26%20tic%2028-02-2025.pdf",
       "host": "ccdr-alg.pt",
-      "captured_at": "2026-11-15T23:44:49Z",
+      "captured_at": "2026-11-16T00:20:03Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250722_relat%C3%B3rio%20pic%20digitaliza%C3%A7%C3%A3o%20%26%20tic%2028-02-2025.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/ccdr-alg.pt/6b5127c62e0c.pdf",
+        "sha256": "8f883bda9941179f22081e9d212b067fca7c2d9d385db63b5e336a22f7a4ca3e",
+        "bytes": 414027,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": "lagoa",
@@ -17743,15 +18278,21 @@
     {
       "url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250730_algarvetech-hub.pdf",
       "host": "ccdr-alg.pt",
-      "captured_at": "2026-11-15T23:37:45Z",
+      "captured_at": "2026-11-16T00:18:50Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250730_algarvetech-hub.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/ccdr-alg.pt/807769a02da8.pdf",
+        "sha256": "4214e91400ad62e9447c6c68312677f2950dd893e09d338b9407470ab1ab5552",
+        "bytes": 573442,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": "tavira",
@@ -17943,7 +18484,7 @@
     {
       "url": "https://www.cm-aljezur.pt",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-15T23:46:56Z",
+      "captured_at": "2026-11-16T00:21:28Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -17951,14 +18492,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-aljezur.pt/a08df1a7251c.jpg",
+        "path": "captures/2026-11-16/cm-aljezur.pt/a08df1a7251c.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-aljezur.pt/a08df1a7251c.txt",
+        "path": "captures/2026-11-16/cm-aljezur.pt/a08df1a7251c.txt",
         "sha256": "f97d5012e92f6477ff47c1d933aa5dde70e364184382802874901623e8c07e68",
         "chars": 23
       },
@@ -17986,7 +18527,7 @@
     {
       "url": "https://www.cm-faro.pt",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-15T23:22:48Z",
+      "captured_at": "2026-11-16T00:17:32Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -17994,14 +18535,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-faro.pt/84e31a59ba2c.jpg",
+        "path": "captures/2026-11-16/cm-faro.pt/84e31a59ba2c.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-faro.pt/84e31a59ba2c.txt",
+        "path": "captures/2026-11-16/cm-faro.pt/84e31a59ba2c.txt",
         "sha256": "258c049c6e47fd6a7419587fb3a9d8b4f782257788ba5886451bc62084fd1caf",
         "chars": 23
       },
@@ -18023,7 +18564,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-15T23:23:08Z",
+      "captured_at": "2026-11-16T00:17:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18031,14 +18572,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-faro.pt/7d5343a84f4e.jpg",
+        "path": "captures/2026-11-16/cm-faro.pt/7d5343a84f4e.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-faro.pt/7d5343a84f4e.txt",
+        "path": "captures/2026-11-16/cm-faro.pt/7d5343a84f4e.txt",
         "sha256": "9c2947f12ad0145f59fd0cdd9881252d88e90210a7ea21cb18e90ace021ffbed",
         "chars": 23
       },
@@ -18054,7 +18595,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91716/mentes-artificiais-ola-futuro.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-15T23:22:38Z",
+      "captured_at": "2026-11-16T00:17:22Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18062,14 +18603,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-faro.pt/2681dadf602c.jpg",
+        "path": "captures/2026-11-16/cm-faro.pt/2681dadf602c.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-faro.pt/2681dadf602c.txt",
+        "path": "captures/2026-11-16/cm-faro.pt/2681dadf602c.txt",
         "sha256": "fd755d10e5372fa8a4bf7b23f97d0b337957851f2324aefb74784c70374d5c2a",
         "chars": 23
       },
@@ -18091,7 +18632,7 @@
     {
       "url": "https://www.cm-lagoa.pt/comunicacao/eventos",
       "host": "cm-lagoa.pt",
-      "captured_at": "2026-11-15T23:45:14Z",
+      "captured_at": "2026-11-16T00:20:19Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -18099,14 +18640,14 @@
       "title": "Página Não Encontrada",
       "note": "the server answered 404",
       "image": {
-        "path": "captures/2026-11-15/cm-lagoa.pt/27f4a58ed529.jpg",
+        "path": "captures/2026-11-16/cm-lagoa.pt/27f4a58ed529.jpg",
         "sha256": "cd0085c8746fe22cc10363fd72d6672d5d977cff5c188f35fc7bc42cd16ad50f",
         "bytes": 20887,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-lagoa.pt/27f4a58ed529.txt",
+        "path": "captures/2026-11-16/cm-lagoa.pt/27f4a58ed529.txt",
         "sha256": "a4421ca2e78e99c13c3172974f1fc1d0adc2cffcbf91f5d95c6fce36ffd3a10d",
         "chars": 150
       },
@@ -18176,7 +18717,7 @@
         {
           "place": "lagoa",
           "kind": "event",
-          "n": 1,
+          "n": 2,
           "label": "Encontro Anual de Boas Práticas de Sustentabilidade do Município de Lagoa 2026"
         }
       ]
@@ -18246,24 +18787,24 @@
     {
       "url": "https://www.cm-lagos.pt/municipio/noticias",
       "host": "cm-lagos.pt",
-      "captured_at": "2026-11-15T23:42:54Z",
+      "captured_at": "2026-11-16T00:19:41Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": 429,
-      "final_url": "https://www.cm-lagos.pt/municipio/noticias",
-      "title": "",
-      "note": "the server answered 429",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-lagos.pt/municipio/noticias?filter_34[2]=2026-11-16",
+      "title": "Notícias - Município - Câmara Municipal de Lagos: Município de Lagos",
+      "note": null,
       "image": {
-        "path": "captures/2026-11-15/cm-lagos.pt/7403531c2150.jpg",
-        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
-        "bytes": 12757,
+        "path": "captures/2026-11-16/cm-lagos.pt/7403531c2150.jpg",
+        "sha256": "f8182e3738d02fa49d452d0a5be9218cda4979fdb4ce957f53ae9300b50bed96",
+        "bytes": 137611,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-lagos.pt/7403531c2150.txt",
-        "sha256": "dfd7616b9848c5ad5c544a061f9287ea23c06f5e367c840ac1955e96fffec596",
-        "chars": 0
+        "path": "captures/2026-11-16/cm-lagos.pt/7403531c2150.txt",
+        "sha256": "175749c09b899aafbbc9dcbde328d51d244b6ce3999d48530e97f9242a15cf8f",
+        "chars": 17484
       },
       "cited_by": [
         {
@@ -18277,7 +18818,7 @@
     {
       "url": "https://www.cm-loule.pt",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-15T23:20:14Z",
+      "captured_at": "2026-11-16T00:17:53Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18285,14 +18826,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-loule.pt/d87d10e974b3.jpg",
+        "path": "captures/2026-11-16/cm-loule.pt/d87d10e974b3.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-loule.pt/d87d10e974b3.txt",
+        "path": "captures/2026-11-16/cm-loule.pt/d87d10e974b3.txt",
         "sha256": "f2b404b97c4897b806f93287e61cc216e0518e7a3ac576a42b73349aed73db93",
         "chars": 23
       },
@@ -18314,7 +18855,7 @@
     {
       "url": "https://www.cm-loule.pt/",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-15T23:35:43Z",
+      "captured_at": "2026-11-16T00:18:06Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18322,14 +18863,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-loule.pt/7295180af35c.jpg",
+        "path": "captures/2026-11-16/cm-loule.pt/7295180af35c.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-loule.pt/7295180af35c.txt",
+        "path": "captures/2026-11-16/cm-loule.pt/7295180af35c.txt",
         "sha256": "1a5e119093e779fd5522832c83a383e088a48bbde9aa7bd0546907529f1f7d11",
         "chars": 23
       },
@@ -18351,7 +18892,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-15T23:46:03Z",
+      "captured_at": "2026-11-16T00:20:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18359,14 +18900,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-monchique.pt/ce0f4215ec2b.jpg",
+        "path": "captures/2026-11-16/cm-monchique.pt/ce0f4215ec2b.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-monchique.pt/ce0f4215ec2b.txt",
+        "path": "captures/2026-11-16/cm-monchique.pt/ce0f4215ec2b.txt",
         "sha256": "1ada45504f7ec1784e99c872c91b78f7fd9c631c2686f443384a872009ad1fa8",
         "chars": 23
       },
@@ -18382,7 +18923,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/151/protecao-civil.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-15T23:46:24Z",
+      "captured_at": "2026-11-16T00:21:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18390,14 +18931,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-monchique.pt/befb727516ae.jpg",
+        "path": "captures/2026-11-16/cm-monchique.pt/befb727516ae.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-monchique.pt/befb727516ae.txt",
+        "path": "captures/2026-11-16/cm-monchique.pt/befb727516ae.txt",
         "sha256": "baf3446fc4106ab950e3c7e53fcaf6b741e61860a4b254fa4962438a8a260a1f",
         "chars": 23
       },
@@ -18413,7 +18954,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-15T23:46:34Z",
+      "captured_at": "2026-11-16T00:21:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18421,14 +18962,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-monchique.pt/2af36f3155f8.jpg",
+        "path": "captures/2026-11-16/cm-monchique.pt/2af36f3155f8.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-monchique.pt/2af36f3155f8.txt",
+        "path": "captures/2026-11-16/cm-monchique.pt/2af36f3155f8.txt",
         "sha256": "eaf682670364334ce1ed9c1a07b6b124fbb98d0d2f88c4481dda2e7c4822f074",
         "chars": 23
       },
@@ -18444,7 +18985,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-15T23:45:34Z",
+      "captured_at": "2026-11-16T00:20:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18452,14 +18993,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-monchique.pt/a259cc28d72c.jpg",
+        "path": "captures/2026-11-16/cm-monchique.pt/a259cc28d72c.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-monchique.pt/a259cc28d72c.txt",
+        "path": "captures/2026-11-16/cm-monchique.pt/a259cc28d72c.txt",
         "sha256": "eabcfe64661ff57a439b5c994cb8fe1344d8df1377fdc2ab83bf8e53920fb27d",
         "chars": 23
       },
@@ -18481,7 +19022,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/noticias-listagem.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-15T23:46:13Z",
+      "captured_at": "2026-11-16T00:20:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18489,14 +19030,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-monchique.pt/122edfd9cc38.jpg",
+        "path": "captures/2026-11-16/cm-monchique.pt/122edfd9cc38.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-monchique.pt/122edfd9cc38.txt",
+        "path": "captures/2026-11-16/cm-monchique.pt/122edfd9cc38.txt",
         "sha256": "22d8861490ec4170369caf911f66ed3efbc1de97b02a23005862f10daa02ba2b",
         "chars": 23
       },
@@ -18512,24 +19053,24 @@
     {
       "url": "https://www.cm-olhao.pt/",
       "host": "cm-olhao.pt",
-      "captured_at": "2026-11-15T23:44:01Z",
+      "captured_at": "2026-11-16T00:19:55Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
+      "ok": true,
       "status": 200,
       "final_url": "https://cm-olhao.pt/",
-      "title": "Município de Olhão",
-      "note": "the page showed almost no text",
+      "title": "Erro",
+      "note": null,
       "image": {
-        "path": "captures/2026-11-15/cm-olhao.pt/db47d3315ae1.jpg",
-        "sha256": "9acb04865a60f45eb035b4443920618fc1ec24c5f764af9baf24b5fe520fad47",
-        "bytes": 13420,
+        "path": "captures/2026-11-16/cm-olhao.pt/db47d3315ae1.jpg",
+        "sha256": "d3c9bb4ff8e37223cec96850e378558f6c206c9f6aa25f13ad1a381ba1ccad01",
+        "bytes": 28265,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-olhao.pt/db47d3315ae1.txt",
-        "sha256": "5d049e4c89dca655388ddc2d3edda05f14bdc5bda22d8559313ccece27690508",
-        "chars": 40
+        "path": "captures/2026-11-16/cm-olhao.pt/db47d3315ae1.txt",
+        "sha256": "5a48db4da48b601fe84a61b1c7fae7fede87f3aa8f02939509c0074656238006",
+        "chars": 70
       },
       "cited_by": [
         {
@@ -18580,7 +19121,7 @@
     {
       "url": "https://www.cm-sbras.pt",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-15T23:50:36Z",
+      "captured_at": "2026-11-16T00:22:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18588,14 +19129,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-sbras.pt/e4863cb3042f.jpg",
+        "path": "captures/2026-11-16/cm-sbras.pt/e4863cb3042f.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-sbras.pt/e4863cb3042f.txt",
+        "path": "captures/2026-11-16/cm-sbras.pt/e4863cb3042f.txt",
         "sha256": "46f580ba56975360aa87769529767fd30cac0643947b3b78ee3f6808f23bb50d",
         "chars": 23
       },
@@ -18617,7 +19158,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-15T23:51:09Z",
+      "captured_at": "2026-11-16T00:23:11Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18625,14 +19166,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-sbras.pt/4b14be4bb5a6.jpg",
+        "path": "captures/2026-11-16/cm-sbras.pt/4b14be4bb5a6.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-sbras.pt/4b14be4bb5a6.txt",
+        "path": "captures/2026-11-16/cm-sbras.pt/4b14be4bb5a6.txt",
         "sha256": "8736865777e476760d616c50984f4df8890d883d043f59b654151140549ca0e9",
         "chars": 23
       },
@@ -18648,7 +19189,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-15T23:51:40Z",
+      "captured_at": "2026-11-16T00:23:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18656,14 +19197,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-sbras.pt/65074bad96a1.jpg",
+        "path": "captures/2026-11-16/cm-sbras.pt/65074bad96a1.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-sbras.pt/65074bad96a1.txt",
+        "path": "captures/2026-11-16/cm-sbras.pt/65074bad96a1.txt",
         "sha256": "9d40e5a2da1ffdb910bf177378d046a9dbddd19d660b56be445670d484ef52af",
         "chars": 23
       },
@@ -18679,7 +19220,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-15T23:51:50Z",
+      "captured_at": "2026-11-16T00:23:51Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18687,14 +19228,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-sbras.pt/6f8d69ff8c47.jpg",
+        "path": "captures/2026-11-16/cm-sbras.pt/6f8d69ff8c47.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-sbras.pt/6f8d69ff8c47.txt",
+        "path": "captures/2026-11-16/cm-sbras.pt/6f8d69ff8c47.txt",
         "sha256": "819e65c64ccf7d40166326cb38500367f6a696904c31a11aa9e03544e6efb570",
         "chars": 23
       },
@@ -18710,7 +19251,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-15T23:50:49Z",
+      "captured_at": "2026-11-16T00:22:51Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18718,14 +19259,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-sbras.pt/dad477372518.jpg",
+        "path": "captures/2026-11-16/cm-sbras.pt/dad477372518.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-sbras.pt/dad477372518.txt",
+        "path": "captures/2026-11-16/cm-sbras.pt/dad477372518.txt",
         "sha256": "82cf473579ed416c0f6c01c87278606007e69cef98970442854d8814f625bf78",
         "chars": 23
       },
@@ -18753,7 +19294,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-15T23:50:59Z",
+      "captured_at": "2026-11-16T00:23:01Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18761,14 +19302,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-sbras.pt/8a6090a4aaa9.jpg",
+        "path": "captures/2026-11-16/cm-sbras.pt/8a6090a4aaa9.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-sbras.pt/8a6090a4aaa9.txt",
+        "path": "captures/2026-11-16/cm-sbras.pt/8a6090a4aaa9.txt",
         "sha256": "4d01a52f377c89d56d313d06dffd2c12ce96dd18c8b7714608df9a4b9af78668",
         "chars": 23
       },
@@ -18790,7 +19331,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-15T23:52:00Z",
+      "captured_at": "2026-11-16T00:24:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18798,14 +19339,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-sbras.pt/edad743d2adc.jpg",
+        "path": "captures/2026-11-16/cm-sbras.pt/edad743d2adc.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-sbras.pt/edad743d2adc.txt",
+        "path": "captures/2026-11-16/cm-sbras.pt/edad743d2adc.txt",
         "sha256": "869da8380e31d01fcbd9863038d99dbef23a6c5c1c77c0a0ca66f626cf332cd2",
         "chars": 23
       },
@@ -18821,7 +19362,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-15T23:51:30Z",
+      "captured_at": "2026-11-16T00:23:31Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18829,14 +19370,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-sbras.pt/c6ce904a3639.jpg",
+        "path": "captures/2026-11-16/cm-sbras.pt/c6ce904a3639.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-sbras.pt/c6ce904a3639.txt",
+        "path": "captures/2026-11-16/cm-sbras.pt/c6ce904a3639.txt",
         "sha256": "5eb9e21f307db28b462b6e7fa8fae906010643a5569dd63b9a04041bff17256e",
         "chars": 23
       },
@@ -18852,7 +19393,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-15T23:51:20Z",
+      "captured_at": "2026-11-16T00:23:21Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18860,14 +19401,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-sbras.pt/fbb72cf0e768.jpg",
+        "path": "captures/2026-11-16/cm-sbras.pt/fbb72cf0e768.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-sbras.pt/fbb72cf0e768.txt",
+        "path": "captures/2026-11-16/cm-sbras.pt/fbb72cf0e768.txt",
         "sha256": "3708a07a9de6475b001174e4e597e314147bc5b4f18f86eed8cc2ddde9ba2827",
         "chars": 23
       },
@@ -18883,7 +19424,7 @@
     {
       "url": "https://www.cm-silves.pt",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-15T23:36:37Z",
+      "captured_at": "2026-11-16T00:18:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18891,14 +19432,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-silves.pt/6328ddb000c4.jpg",
+        "path": "captures/2026-11-16/cm-silves.pt/6328ddb000c4.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-silves.pt/6328ddb000c4.txt",
+        "path": "captures/2026-11-16/cm-silves.pt/6328ddb000c4.txt",
         "sha256": "983ff941de907c6804f6d1d489616c37472029ae4d0ab0f225f59f5e7555981c",
         "chars": 23
       },
@@ -18920,7 +19461,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/agenda.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-15T23:37:09Z",
+      "captured_at": "2026-11-16T00:18:37Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18928,14 +19469,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-silves.pt/eb9d1d437a4e.jpg",
+        "path": "captures/2026-11-16/cm-silves.pt/eb9d1d437a4e.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-silves.pt/eb9d1d437a4e.txt",
+        "path": "captures/2026-11-16/cm-silves.pt/eb9d1d437a4e.txt",
         "sha256": "9d0a174a58928db83f54b7c305d2fe36fc1ead6fbaf860d833896a85afdc5e5c",
         "chars": 23
       },
@@ -18951,7 +19492,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-15T23:37:19Z",
+      "captured_at": "2026-11-16T00:18:47Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18959,14 +19500,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-silves.pt/5905ef43f2f9.jpg",
+        "path": "captures/2026-11-16/cm-silves.pt/5905ef43f2f9.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-silves.pt/5905ef43f2f9.txt",
+        "path": "captures/2026-11-16/cm-silves.pt/5905ef43f2f9.txt",
         "sha256": "7c4abee15726027b61a27c5088094e9835e77c2c921d25f41632d5e284658fa9",
         "chars": 23
       },
@@ -18982,7 +19523,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-15T23:36:56Z",
+      "captured_at": "2026-11-16T00:18:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18990,14 +19531,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-silves.pt/f95f2430078b.jpg",
+        "path": "captures/2026-11-16/cm-silves.pt/f95f2430078b.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-silves.pt/f95f2430078b.txt",
+        "path": "captures/2026-11-16/cm-silves.pt/f95f2430078b.txt",
         "sha256": "1d92da2bc8876af9a98495c75b0df76ee13c4f509dc57cdaf45ef2eb8a585be7",
         "chars": 23
       },
@@ -19044,7 +19585,7 @@
     {
       "url": "https://www.cm-vrsa.pt",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-15T23:38:46Z",
+      "captured_at": "2026-11-16T00:19:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19052,14 +19593,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-vrsa.pt/4c9e5767b638.jpg",
+        "path": "captures/2026-11-16/cm-vrsa.pt/4c9e5767b638.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-vrsa.pt/4c9e5767b638.txt",
+        "path": "captures/2026-11-16/cm-vrsa.pt/4c9e5767b638.txt",
         "sha256": "d01f5695bf87309251e6982551d5914d5fe19f403230903e5503a72b9564f2e4",
         "chars": 23
       },
@@ -19087,7 +19628,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-15T23:39:29Z",
+      "captured_at": "2026-11-16T00:19:35Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19095,14 +19636,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-vrsa.pt/e49b55669a0f.jpg",
+        "path": "captures/2026-11-16/cm-vrsa.pt/e49b55669a0f.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-vrsa.pt/e49b55669a0f.txt",
+        "path": "captures/2026-11-16/cm-vrsa.pt/e49b55669a0f.txt",
         "sha256": "59adaa6cd5bc222385d386d36c145f3ff7deab95d54e5623eb8d41c1adbf8fe6",
         "chars": 23
       },
@@ -19118,7 +19659,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-15T23:38:56Z",
+      "captured_at": "2026-11-16T00:19:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19126,14 +19667,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/cm-vrsa.pt/f53473772505.jpg",
+        "path": "captures/2026-11-16/cm-vrsa.pt/f53473772505.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/cm-vrsa.pt/f53473772505.txt",
+        "path": "captures/2026-11-16/cm-vrsa.pt/f53473772505.txt",
         "sha256": "8a4a37ba3980fc09a13c4ff72891172b05f4140d99a2f4029b29003eb55ab0f1",
         "chars": 23
       },
@@ -19186,7 +19727,7 @@
     {
       "url": "https://www.consumidor.gov.pt/",
       "host": "consumidor.gov.pt",
-      "captured_at": "2026-11-16T00:09:42Z",
+      "captured_at": "2026-11-16T00:26:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -19194,14 +19735,14 @@
       "title": "",
       "note": "the page showed almost no text",
       "image": {
-        "path": "captures/2026-11-15/consumidor.gov.pt/cf2a3c629c08.jpg",
-        "sha256": "45c7b462bc9f603d8ee1046fab6a2c75d849d08557feef06db4b602a92ea791d",
-        "bytes": 12969,
+        "path": "captures/2026-11-16/consumidor.gov.pt/cf2a3c629c08.jpg",
+        "sha256": "594de5dce3ce6a73d436d8e3140f7cb9e0d2a750d3e78ab7737539b40a099e00",
+        "bytes": 12948,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/consumidor.gov.pt/cf2a3c629c08.txt",
+        "path": "captures/2026-11-16/consumidor.gov.pt/cf2a3c629c08.txt",
         "sha256": "1d44c637ecf6cf18b667a5705a9b48e55d824003c7bc63994c859024c91eeeba",
         "chars": 0
       },
@@ -19242,6 +19783,105 @@
           "article": "discord-lisbon-engineering-hub",
           "kind": "article",
           "label": "discord-lisbon-engineering-hub"
+        }
+      ]
+    },
+    {
+      "url": "https://www.dstelecom.pt/",
+      "host": "dstelecom.pt",
+      "captured_at": "2026-11-16T00:22:04Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.dstelecom.pt/",
+      "title": "dstelecom | uma rede de fibra, vários operadores.",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/dstelecom.pt/4455e2a9786b.jpg",
+        "sha256": "aac3e79b95f548a8577024ec20105659a6ae112bb683c5926f60f025a139f035",
+        "bytes": 102039,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/dstelecom.pt/4455e2a9786b.txt",
+        "sha256": "6db3aba94fcb20fa5b026f5f1c91ba913d848d0e2185505cb8324ea23fa7d60b",
+        "chars": 4926
+      },
+      "cited_by": [
+        {
+          "place": "alcoutim",
+          "kind": "map-site",
+          "n": 6,
+          "label": "dstelecom"
+        }
+      ]
+    },
+    {
+      "url": "https://www.dstelecom.pt/imprensa/",
+      "host": "dstelecom.pt",
+      "captured_at": "2026-11-16T00:22:28Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.dstelecom.pt/imprensa/",
+      "title": "Notícias dstelecom",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/dstelecom.pt/e24bf302299f.jpg",
+        "sha256": "8f1807aa815d3203d0dfe443c84381892450d1885a54abad1c99f900e281a1df",
+        "bytes": 89482,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/dstelecom.pt/e24bf302299f.txt",
+        "sha256": "c03d0317a5f06f867a9e15f99081021a7261ae8cd568ec776a233f61f4e893cc",
+        "chars": 5951
+      },
+      "cited_by": [
+        {
+          "place": "alcoutim",
+          "kind": "source",
+          "n": 11,
+          "label": "dstelecom press page"
+        }
+      ]
+    },
+    {
+      "url": "https://www.dstelecom.pt/imprensa/fibra-otica-chega-a-mais-1-000-casas-em-alcoutim-e-ultrapassa-80-de-cobertura/",
+      "host": "dstelecom.pt",
+      "captured_at": "2026-11-16T00:21:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.dstelecom.pt/imprensa/fibra-otica-chega-a-mais-1-000-casas-em-alcoutim-e-ultrapassa-80-de-cobertura/",
+      "title": "Fibra da dstelecom chega a mais 1.000 casas em Alcoutim e ultrapassa 80% de cobertura",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/dstelecom.pt/26785d3b86e8.jpg",
+        "sha256": "d46bffad0585ee8de98d8c7bd6611e890fd97be80e4ce294a52c992a75d3f71c",
+        "bytes": 83171,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/dstelecom.pt/26785d3b86e8.txt",
+        "sha256": "9c2393ae981b0a834cc5a32c3b84a562e2b973331eaedf06669bb9980bc7d99d",
+        "chars": 5158
+      },
+      "cited_by": [
+        {
+          "place": "alcoutim",
+          "kind": "news",
+          "n": 1,
+          "label": "dstelecom takes fibre to 1,000 more homes in Alcoutim"
+        },
+        {
+          "place": "alcoutim",
+          "kind": "map",
+          "n": 6,
+          "label": "dstelecom"
         }
       ]
     },
@@ -19339,7 +19979,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 8,
+          "n": 10,
           "label": "Dojo AI raises 5.1 million euros for its AI marketing agent"
         },
         {
@@ -19359,7 +19999,7 @@
     {
       "url": "https://www.eurociudadguadiana.eu",
       "host": "eurociudadguadiana.eu",
-      "captured_at": "2026-11-15T23:39:18Z",
+      "captured_at": "2026-11-16T00:19:24Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19367,14 +20007,14 @@
       "title": "",
       "note": "the server answered 502",
       "image": {
-        "path": "captures/2026-11-15/eurociudadguadiana.eu/15bc33b0b26d.jpg",
+        "path": "captures/2026-11-16/eurociudadguadiana.eu/15bc33b0b26d.jpg",
         "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
         "bytes": 14263,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/eurociudadguadiana.eu/15bc33b0b26d.txt",
+        "path": "captures/2026-11-16/eurociudadguadiana.eu/15bc33b0b26d.txt",
         "sha256": "2c3217863f9602227b4fac45a0fcb8a8e27711e6c18374d084870cbf123ecec5",
         "chars": 23
       },
@@ -19413,7 +20053,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 13,
+          "n": 15,
           "label": "Champalimaud Foundation and Técnico open a Neurorobotics Laboratory"
         },
         {
@@ -19499,7 +20139,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 12,
+          "n": 14,
           "label": "BSC AI Factory opens a second call for AI startups, with incubation spaces in Lisbon and Guimarães"
         },
         {
@@ -19624,15 +20264,25 @@
     {
       "url": "https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico",
       "host": "fertagus.pt",
-      "captured_at": "2026-11-16T00:00:02Z",
+      "captured_at": "2026-11-16T00:24:47Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
-      "title": null,
-      "note": "not captured: page.goto: Timeout 30000ms exceeded.",
-      "image": null,
-      "text": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Informa%C3%A7%C3%A3o-ao-P%C3%BAblico",
+      "title": "Fertagus > Fertagus (pt) > Viajar > Comunicados e Campanhas > Informação ao Público",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/fertagus.pt/84a2f4c2190b.jpg",
+        "sha256": "bc3c04f4ece2a21b01fc4860eae27a5c4f2627026aeefa8ffe3e2a1209adbade",
+        "bytes": 168315,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/fertagus.pt/84a2f4c2190b.txt",
+        "sha256": "6a27f20af011c6206b46ccacfe9a704497e71e5bec242074ddc735013188212c",
+        "chars": 1836
+      },
       "cited_by": [
         {
           "place": null,
@@ -19705,8 +20355,45 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 15,
+          "n": 17,
           "label": "Government earmarks about 25 million euros to adopt AI in public administration"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim",
+      "host": "fundacaogalp.com",
+      "captured_at": "2026-11-16T00:22:21Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim",
+      "title": "Galp Foundation | The Energy of Alcoutim",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/fundacaogalp.com/9eb7dae1223e.jpg",
+        "sha256": "f5dd39574cdc92fc355b329dac92d2eaa1b53a4fc4a0218986fe8a88f490a8f0",
+        "bytes": 64557,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/fundacaogalp.com/9eb7dae1223e.txt",
+        "sha256": "22e86c7cdf65683d759711fa8911af711b9903e2ef24630ae6543011eb74bd96",
+        "chars": 4868
+      },
+      "cited_by": [
+        {
+          "place": "alcoutim",
+          "kind": "map",
+          "n": 7,
+          "label": "Associacao Odiana"
+        },
+        {
+          "place": "alcoutim",
+          "kind": "source",
+          "n": 12,
+          "label": "Galp Foundation: Alcoutim programmes"
         }
       ]
     },
@@ -19966,15 +20653,21 @@
     {
       "url": "https://www.iniav.pt/images/Investigacao_Inovacao/Centros-Competencias/CCDesert/poster.pdf",
       "host": "iniav.pt",
-      "captured_at": "2026-11-15T23:49:25Z",
+      "captured_at": "2026-11-16T00:21:56Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.iniav.pt/images/Investigacao_Inovacao/Centros-Competencias/CCDesert/poster.pdf",
       "title": null,
-      "note": "not captured: page.goto: Download is starting",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
+      "document": {
+        "path": "captures/2026-11-16/iniav.pt/a9922aca7227.pdf",
+        "sha256": "5bfa67173f013057fd04dc9ad35f886d7b097a56b6c56bc4477d70d8eb749f2e",
+        "bytes": 596988,
+        "type": "application/pdf"
+      },
       "cited_by": [
         {
           "place": "alcoutim",
@@ -20420,7 +21113,7 @@
     {
       "url": "https://www.lisboa.pt/cidade-informa/como-circulo/detalhe/web-summit-2026",
       "host": "lisboa.pt",
-      "captured_at": "2026-11-15T23:57:49Z",
+      "captured_at": "2026-11-16T00:24:31Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -20428,15 +21121,15 @@
       "title": "Um momento…",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/lisboa.pt/4b64f9be21ac.jpg",
-        "sha256": "15eb333cdc037cc89a6d01a78ab5f804bf6c465946b1977d5839c6da0e6cdaa8",
-        "bytes": 37869,
+        "path": "captures/2026-11-16/lisboa.pt/4b64f9be21ac.jpg",
+        "sha256": "c5a90f997791612589542d31305b798b93063a15f5e6249b7b8b22e234c9f5d3",
+        "bytes": 37868,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/lisboa.pt/4b64f9be21ac.txt",
-        "sha256": "a835a289f81895b29a855183d0b764b3af3a65c1010c74665202ffbb31b993e3",
+        "path": "captures/2026-11-16/lisboa.pt/4b64f9be21ac.txt",
+        "sha256": "75df0181c56cec567767facd059b725e3f9271fb05608c654a7570d0fbfc07b0",
         "chars": 274
       },
       "cited_by": [
@@ -20538,6 +21231,49 @@
           "article": "rio-ten-startups-to-lisbon",
           "kind": "article",
           "label": "rio-ten-startups-to-lisbon"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nscale.com/press-releases/nscale-start-campus",
+      "host": "nscale.com",
+      "captured_at": "2026-11-16T00:16:30Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+      "title": "Nscale to Deliver 66,000+ NVIDIA Rubin GPUs to Microsoft at Start Campus’ Site in Portugal | Nscale",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/nscale.com/10261bbe05cf.jpg",
+        "sha256": "67da1588e99bfee7a67631d9721276a488bd2c3a2aea5b2df56f0585405699cd",
+        "bytes": 141812,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/nscale.com/10261bbe05cf.txt",
+        "sha256": "b203911508a79e3390d3c5475ea9d82940321268bf2ccccf4619e0d8e8f1a6be",
+        "chars": 5811
+      },
+      "cited_by": [
+        {
+          "place": "portugal",
+          "kind": "news",
+          "n": 6,
+          "label": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsoft at the Sines data campus"
+        },
+        {
+          "place": "portugal",
+          "kind": "map",
+          "n": 33,
+          "label": "Start Campus, SINES Data Campus (Sines, Alentejo coast)"
+        },
+        {
+          "place": "portugal",
+          "kind": "map",
+          "n": 34,
+          "label": "Nscale"
         }
       ]
     },
@@ -20889,7 +21625,7 @@
         {
           "place": "albufeira",
           "kind": "news",
-          "n": 3,
+          "n": 4,
           "label": "A hotel group with an Albufeira hotel adopts an AI guest-messaging app"
         },
         {
@@ -21012,6 +21748,43 @@
       ]
     },
     {
+      "url": "https://www.strong-answer.com/en",
+      "host": "strong-answer.com",
+      "captured_at": "2026-11-16T00:20:07Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.strong-answer.com/en",
+      "title": "Strong Answer · Technology and IT Consulting for Businesses",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/strong-answer.com/3925dc8d3476.jpg",
+        "sha256": "c7b1c2b8585b1c7de7b48664e10f0917f0e3c206709d4932c6a1c49e39b5e581",
+        "bytes": 148121,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/strong-answer.com/3925dc8d3476.txt",
+        "sha256": "a3d5c8002498aaa3a4cf8aea24fa1fa46ea825f98dcdc2fefa73118c0082786a",
+        "chars": 4432
+      },
+      "cited_by": [
+        {
+          "place": "lagoa",
+          "kind": "map",
+          "n": 1,
+          "label": "Strong Answer"
+        },
+        {
+          "place": "lagoa",
+          "kind": "gravity",
+          "n": 4,
+          "label": "Strong Answer, Lagoa IT company page"
+        }
+      ]
+    },
+    {
       "url": "https://www.sulinformacao.pt",
       "host": "sulinformacao.pt",
       "captured_at": "2026-11-15T23:20:47Z",
@@ -21035,15 +21808,15 @@
       },
       "cited_by": [
         {
-          "place": "loule",
-          "kind": "source",
-          "n": 3,
-          "label": "Sul Informação"
-        },
-        {
           "place": "algarve",
           "kind": "source",
           "n": 6,
+          "label": "Sul Informação"
+        },
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 3,
           "label": "Sul Informação"
         },
         {
@@ -21142,7 +21915,7 @@
     {
       "url": "https://www.sulinformacao.pt/en/",
       "host": "sulinformacao.pt",
-      "captured_at": "2026-11-15T23:42:56Z",
+      "captured_at": "2026-11-16T00:19:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -21150,15 +21923,15 @@
       "title": "Um momento…",
       "note": "the server answered 403",
       "image": {
-        "path": "captures/2026-11-15/sulinformacao.pt/175bb1b8dfd9.jpg",
-        "sha256": "35364c64622a420cf1c9b3fee6d0d937937efbeb644d36f4fd3ecf49775c1774",
-        "bytes": 39967,
+        "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.jpg",
+        "sha256": "da1ff8b5176e08806d9176637812f27a59c735dbcea08a8949e8b5af43251e94",
+        "bytes": 40044,
         "width": 1280,
         "height": 1600
       },
       "text": {
-        "path": "captures/2026-11-15/sulinformacao.pt/175bb1b8dfd9.txt",
-        "sha256": "f4649a218b7fda8b9ffa5baf1bc27d237d0f2be9f215ad66eefe0b580f74e3a8",
+        "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.txt",
+        "sha256": "01ec8eea2a9389c4b7b198c81ebe6074852a3a91b2c03b6d5d1b1a4726f36ecf",
         "chars": 281
       },
       "cited_by": [
@@ -21256,24 +22029,6 @@
       },
       "cited_by": [
         {
-          "place": "loule",
-          "kind": "source",
-          "n": 9,
-          "label": "Universidade do Algarve news"
-        },
-        {
-          "place": "faro",
-          "kind": "map-site",
-          "n": 1,
-          "label": "Universidade do Algarve (UAlg)"
-        },
-        {
-          "place": "faro",
-          "kind": "source",
-          "n": 4,
-          "label": "Universidade do Algarve"
-        },
-        {
           "place": "algarve",
           "kind": "map-site",
           "n": 5,
@@ -21296,6 +22051,24 @@
           "kind": "source",
           "n": 5,
           "label": "Universidade do Algarve"
+        },
+        {
+          "place": "faro",
+          "kind": "map-site",
+          "n": 1,
+          "label": "Universidade do Algarve (UAlg)"
+        },
+        {
+          "place": "faro",
+          "kind": "source",
+          "n": 4,
+          "label": "Universidade do Algarve"
+        },
+        {
+          "place": "loule",
+          "kind": "source",
+          "n": 9,
+          "label": "Universidade do Algarve news"
         },
         {
           "place": "portimao",
@@ -21345,6 +22118,43 @@
           "kind": "map",
           "n": 9,
           "label": "University of the Algarve (R&D consortium with SPIC)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+      "host": "ualg.pt",
+      "captured_at": "2026-11-16T00:16:44Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+      "title": "CIAC inaugura Laboratório de Tradução Digital na UAlg | Universidade do Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ualg.pt/03ab4841720e.jpg",
+        "sha256": "568f6e0b355d9b6e423df0a2cf7d4ee1f9aaaab6bb1b6f26f27901fef3a3d5c5",
+        "bytes": 256674,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ualg.pt/03ab4841720e.txt",
+        "sha256": "be367fed0f9f465de418f56af1775812d6a0fb8f695ed11e42cb349f14d722e2",
+        "chars": 2745
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "news",
+          "n": 3,
+          "label": "UAlg's arts and communication centre opens INTERFACE, a digital translation lab, with an AI Studio"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 26,
+          "label": "CIAC (UAlg research centre in arts and communication)"
         }
       ]
     },
@@ -21403,6 +22213,18 @@
       },
       "cited_by": [
         {
+          "place": "algarve",
+          "kind": "news",
+          "n": 5,
+          "label": "University of Algarve launches its AI use policy"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 5,
+          "label": "Universidade do Algarve (UAlg)"
+        },
+        {
           "place": "faro",
           "kind": "news",
           "n": 6,
@@ -21419,18 +22241,6 @@
           "kind": "gravity",
           "n": 2,
           "label": "UAlg defines rules and principles for the use of AI (Universidade do Algarve, 24 September 2026)"
-        },
-        {
-          "place": "algarve",
-          "kind": "news",
-          "n": 4,
-          "label": "University of Algarve launches its AI use policy"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 5,
-          "label": "Universidade do Algarve (UAlg)"
         }
       ]
     },
@@ -21466,5 +22276,5 @@
       ]
     }
   ],
-  "updated": "2026-11-16T00:13:04Z"
+  "updated": "2026-11-16T00:27:02Z"
 }
