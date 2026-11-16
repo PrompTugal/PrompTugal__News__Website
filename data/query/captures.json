@@ -89,9 +89,40 @@
       ]
     },
     {
+      "url": "https://24noticias.sapo.pt/local/faro/monchique",
+      "host": "24noticias.sapo.pt",
+      "captured_at": "2026-11-16T03:25:21Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 403,
+      "final_url": "https://24noticias.sapo.pt/local/faro/monchique",
+      "title": "Checking your browser...",
+      "note": "the server answered 403",
+      "image": {
+        "path": "captures/2026-11-16/24noticias.sapo.pt/290485181f34.jpg",
+        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
+        "bytes": 19292,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/24noticias.sapo.pt/290485181f34.txt",
+        "sha256": "fe5c81a36382c12216aa76402903436a399f57c355d8a589f96420a82b0c0a2e",
+        "chars": 58
+      },
+      "cited_by": [
+        {
+          "place": "monchique",
+          "kind": "source",
+          "n": 11,
+          "label": "24 Notícias (SAPO): Monchique local page"
+        }
+      ]
+    },
+    {
       "url": "https://24noticias.sapo.pt/local/faro/vila-real-de-santo-antonio",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T01:19:26Z",
+      "captured_at": "2026-11-16T03:23:31Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -100,8 +131,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/8e5c33486b67.jpg",
-        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
-        "bytes": 19292,
+        "sha256": "e7ecb9cb61d77a3b302db88c23553a9e0625174142151d7bb105b7a816eda429",
+        "bytes": 19262,
         "width": 1280,
         "height": 1600
       },
@@ -258,7 +289,7 @@
     {
       "url": "https://algarvedailynews.com",
       "host": "algarvedailynews.com",
-      "captured_at": "2026-11-16T01:16:43Z",
+      "captured_at": "2026-11-16T03:20:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -289,7 +320,7 @@
     {
       "url": "https://algarveevolution.pt",
       "host": "algarveevolution.pt",
-      "captured_at": "2026-11-16T01:21:30Z",
+      "captured_at": "2026-11-16T03:25:59Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -382,7 +413,7 @@
     {
       "url": "https://anacom.pt/render.jsp?contentId=1828354",
       "host": "anacom.pt",
-      "captured_at": "2026-11-16T01:21:47Z",
+      "captured_at": "2026-11-16T03:26:47Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -837,6 +868,68 @@
       ]
     },
     {
+      "url": "https://cima.ualg.pt/en/info/data-products",
+      "host": "cima.ualg.pt",
+      "captured_at": "2026-11-16T03:23:45Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://cima.ualg.pt/en/info/data-products",
+      "title": "Data Products | Centro de Investigação Marinha e Ambiental",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cima.ualg.pt/5e2ed7a3e666.jpg",
+        "sha256": "d21adf1107f770cc272e19ef89f5630fc962d0a5e7f42e056107bba7a4d041ac",
+        "bytes": 51457,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cima.ualg.pt/5e2ed7a3e666.txt",
+        "sha256": "2926159a5b523f64a729796ab180635f4712a93d220cd96d36fd9b82268af23f",
+        "chars": 1803
+      },
+      "cited_by": [
+        {
+          "place": "vila-real-de-santo-antonio",
+          "kind": "source",
+          "n": 12,
+          "label": "CIMA, Universidade do Algarve: SIMPATICO and data products"
+        }
+      ]
+    },
+    {
+      "url": "https://cima.ualg.pt/en/info/simpatico",
+      "host": "cima.ualg.pt",
+      "captured_at": "2026-11-16T03:23:05Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://cima.ualg.pt/en/info/simpatico",
+      "title": "SIMPATICO | Centro de Investigação Marinha e Ambiental",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cima.ualg.pt/b931b9c4ee20.jpg",
+        "sha256": "b8603f2b8652055a2cdda62e5402af70ce57e43ce3f4c995d1a3eef7733129e1",
+        "bytes": 42363,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cima.ualg.pt/b931b9c4ee20.txt",
+        "sha256": "5100bd6612f6d3b98f20c2e2e219bd8bbc9efa6662354f6d2bee833fc3a5c033",
+        "chars": 2344
+      },
+      "cited_by": [
+        {
+          "place": "vila-real-de-santo-antonio",
+          "kind": "map",
+          "n": 5,
+          "label": "CIMA, Universidade do Algarve (SIMPATICO monitoring buoy)"
+        }
+      ]
+    },
+    {
       "url": "https://cm-alcoutim.pt/",
       "host": "cm-alcoutim.pt",
       "captured_at": "2026-11-15T23:49:35Z",
@@ -895,6 +988,68 @@
           "kind": "source",
           "n": 14,
           "label": "Municipio de Alcoutim: agenda"
+        }
+      ]
+    },
+    {
+      "url": "https://cm-alcoutim.pt/municipio/projetos-financiados/plano-de-recuperacao-e-resiliencia-prr",
+      "host": "cm-alcoutim.pt",
+      "captured_at": "2026-11-16T03:29:02Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://cm-alcoutim.pt/municipio/projetos-financiados/plano-de-recuperacao-e-resiliencia-prr",
+      "title": "Erro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-alcoutim.pt/46e2925ed70d.jpg",
+        "sha256": "49114a498800ece9e9902b29ce6fd6f46040955ff351eb423660ff7cfb147998",
+        "bytes": 22161,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-alcoutim.pt/46e2925ed70d.txt",
+        "sha256": "cb8d4d0acb05a6ed735ea61078c67c776fe2522b6c8587247e80c77fd1c5946c",
+        "chars": 70
+      },
+      "cited_by": [
+        {
+          "place": null,
+          "article": "alcoutim-council-in-a-weeding-robot-project",
+          "kind": "article",
+          "label": "alcoutim-council-in-a-weeding-robot-project"
+        }
+      ]
+    },
+    {
+      "url": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
+      "host": "cm-aljezur.pt",
+      "captured_at": "2026-11-16T03:26:10Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-16/cm-aljezur.pt/1990cc66111a.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-aljezur.pt/1990cc66111a.txt",
+        "sha256": "067a96b1f8db49e1aa41844facf3a1ea9cca6f41597cf941237238b7e98022c1",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "aljezur",
+          "kind": "source",
+          "n": 8,
+          "label": "Municipio de Aljezur: Atividades Economicas and Aljezur para Investir"
         }
       ]
     },
@@ -1056,6 +1211,37 @@
       ]
     },
     {
+      "url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
+      "host": "cm-tavira.pt",
+      "captured_at": "2026-11-16T03:22:34Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
+      "title": "Apoio ao Empreendedor e Investidor - Câmara Municipal de Tavira",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-tavira.pt/73e85cbd7550.jpg",
+        "sha256": "3f76c43fa46bb08055da534ae810f6f1b4ced8d97e0cefde1d820df6d6ec4595",
+        "bytes": 117247,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-tavira.pt/73e85cbd7550.txt",
+        "sha256": "915006e0e135a5a3be3be298fcc2d39701b0ed5841fc322d4307a225b5027d43",
+        "chars": 6342
+      },
+      "cited_by": [
+        {
+          "place": "tavira",
+          "kind": "source",
+          "n": 7,
+          "label": "Câmara Municipal de Tavira: support for entrepreneurs and investors"
+        }
+      ]
+    },
+    {
       "url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
       "host": "cm-tavira.pt",
       "captured_at": "2026-11-16T00:18:48Z",
@@ -1097,7 +1283,7 @@
     {
       "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
       "host": "cms.cm-vrsa.pt",
-      "captured_at": "2026-11-16T01:19:36Z",
+      "captured_at": "2026-11-16T03:23:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -1151,7 +1337,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 16,
+          "n": 17,
           "label": "Portugal approves its National AI Agenda and an action plan to 2030"
         },
         {
@@ -1436,7 +1622,7 @@
         {
           "place": "vila-do-bispo",
           "kind": "map-site",
-          "n": 3,
+          "n": 5,
           "label": "Sea4Us"
         },
         {
@@ -1450,7 +1636,7 @@
     {
       "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T01:16:32Z",
+      "captured_at": "2026-11-16T03:19:53Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -1473,7 +1659,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 9,
+          "n": 10,
           "label": "Lisbon applied-AI lab Augusta Labs closes a first round at a 50 million euro valuation"
         },
         {
@@ -1487,7 +1673,7 @@
     {
       "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T01:16:30Z",
+      "captured_at": "2026-11-16T03:19:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -1510,7 +1696,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 8,
+          "n": 9,
           "label": "Coalex.ai raises an angel round to supervise AI agents"
         },
         {
@@ -1813,6 +1999,37 @@
       ]
     },
     {
+      "url": "https://digital.gov.pt/en/noticias/centro-excelencia-ia-motor-administracao-publica",
+      "host": "digital.gov.pt",
+      "captured_at": "2026-11-16T03:20:10Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://digital.gov.pt/en/noticias/centro-excelencia-ia-motor-administracao-publica",
+      "title": "The AI Centre of Excellence is the new driving force behind the adoption of AI in Public Administration",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/digital.gov.pt/a0b11d87ed75.jpg",
+        "sha256": "4297a0ce6121bab698806133590a1449aadf97bac7332e6af974641f80f0bc15",
+        "bytes": 178562,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/digital.gov.pt/a0b11d87ed75.txt",
+        "sha256": "09fe5e922932dc3b389873e493d25cf94198caf6e8c9ef35da328a3b6f9417de",
+        "chars": 8030
+      },
+      "cited_by": [
+        {
+          "place": "portugal",
+          "kind": "map",
+          "n": 36,
+          "label": "AI Centre of Excellence in Public Administration (under ARTE)"
+        }
+      ]
+    },
+    {
       "url": "https://dinheirovivo.dn.pt/",
       "host": "dinheirovivo.dn.pt",
       "captured_at": "2026-11-15T23:33:31Z",
@@ -1869,7 +2086,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 4,
+          "n": 5,
           "label": "Center for Responsible AI changed hands after Unbabel's fall and expects 150 million euros of turnover"
         },
         {
@@ -2184,7 +2401,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 12,
+          "n": 13,
           "label": "Government puts up to 19.3 million euros into two supercomputing and AI projects"
         },
         {
@@ -2485,6 +2702,37 @@
           "kind": "gravity",
           "n": 5,
           "label": "EDP, 8 Oct 2025: new hybrid solar plant at the Bordeira wind farm in Aljezur"
+        }
+      ]
+    },
+    {
+      "url": "https://elevateddesign.pt/",
+      "host": "elevateddesign.pt",
+      "captured_at": "2026-11-16T03:24:08Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 429,
+      "final_url": "https://elevateddesign.pt/",
+      "title": "",
+      "note": "the server answered 429",
+      "image": {
+        "path": "captures/2026-11-16/elevateddesign.pt/54fe9ceb0e8b.jpg",
+        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
+        "bytes": 12757,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/elevateddesign.pt/54fe9ceb0e8b.txt",
+        "sha256": "3479d704c8a49db1cc64f8c4762a627f2e864318b89ac5afecadce54108ee9a0",
+        "chars": 0
+      },
+      "cited_by": [
+        {
+          "place": "lagos",
+          "kind": "map",
+          "n": 12,
+          "label": "Elevated Design"
         }
       ]
     },
@@ -2887,6 +3135,74 @@
           "kind": "map",
           "n": 3,
           "label": "Mind (ePaper)"
+        }
+      ]
+    },
+    {
+      "url": "https://epia2025.ualg.pt/",
+      "host": "epia2025.ualg.pt",
+      "captured_at": "2026-11-16T03:20:24Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://epia2025.ualg.pt/",
+      "title": "EPIA 2025",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/epia2025.ualg.pt/7320057ceaf2.jpg",
+        "sha256": "7b609e459e087d3789b740891334f90a85078a199e30ff8ae4ba81b706ae9ed2",
+        "bytes": 136837,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/epia2025.ualg.pt/7320057ceaf2.txt",
+        "sha256": "f39091517b3c93b7e2ea1cfb488456f5d56a113943de23127943118de43aec61",
+        "chars": 2274
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "news",
+          "n": 19,
+          "label": "EPIA 2025, Portugal's AI conference, is held at the University of Algarve in Faro"
+        },
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 28,
+          "label": "Faculdade de Ciências e Tecnologia (FCT-UAlg)"
+        }
+      ]
+    },
+    {
+      "url": "https://eurai.org/members/appia",
+      "host": "eurai.org",
+      "captured_at": "2026-11-16T03:20:14Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://eurai.org/members/appia",
+      "title": "APPIA | European Association for Artificial Intelligence",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/eurai.org/1548ae2926ff.jpg",
+        "sha256": "3a178f3a92bbe02edd3d5f74c4b218ab9fd5f4eab6737f327a233aef17d55319",
+        "bytes": 68299,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/eurai.org/1548ae2926ff.txt",
+        "sha256": "87e66767bff13e27a0890611b2eae0cffc9ad004fb31efde398d2011dcc79fad",
+        "chars": 907
+      },
+      "cited_by": [
+        {
+          "place": "portugal",
+          "kind": "map",
+          "n": 38,
+          "label": "APPIA (Associação Portuguesa para a Inteligência Artificial)"
         }
       ]
     },
@@ -3824,7 +4140,7 @@
     {
       "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/data/events/press-conference-with-nordvpn-cto-marijus-briedis/event.json",
       "host": "github.com",
-      "captured_at": "2026-11-16T01:24:32Z",
+      "captured_at": "2026-11-16T03:30:06Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -7342,6 +7658,37 @@
       ]
     },
     {
+      "url": "https://guepardo.pt/inicio/",
+      "host": "guepardo.pt",
+      "captured_at": "2026-11-16T03:23:55Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://guepardo.pt/inicio/",
+      "title": "GUEPARDO OU",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/guepardo.pt/674bd27d08f9.jpg",
+        "sha256": "5fd0f5b41f963bf050f6decf9518aea04362fcece53ff1a2498763938817610f",
+        "bytes": 84227,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/guepardo.pt/674bd27d08f9.txt",
+        "sha256": "b77d3368357b1572f79be05e8a9bb2b392db6ac9725ed3dee24ac3f8fcde9b51",
+        "chars": 6667
+      },
+      "cited_by": [
+        {
+          "place": "portimao",
+          "kind": "map-site",
+          "n": 16,
+          "label": "Guepardo"
+        }
+      ]
+    },
+    {
       "url": "https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en",
       "host": "hadea.ec.europa.eu",
       "captured_at": "2026-11-15T23:58:12Z",
@@ -7468,7 +7815,7 @@
     {
       "url": "https://jornaldoalgarve.pt",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T01:16:41Z",
+      "captured_at": "2026-11-16T03:20:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -7477,14 +7824,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.jpg",
-        "sha256": "bd576681b57a7f6d1a29ddc5204d890c3c8e010d5f964eed5592931c12b223a6",
-        "bytes": 39226,
+        "sha256": "2b8ac31d376d394c37af69d381f36ee5535870a17edbad0c19c957c3abaeb841",
+        "bytes": 39225,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.txt",
-        "sha256": "a1574f385d12fa5dd837aff1038df017e80b0188b1348300e87f6b4a4a391446",
+        "sha256": "d7fce55775900e3921b1102ef3f744c9fd7aa025362c767a6b8748d68a5e5cf4",
         "chars": 279
       },
       "cited_by": [
@@ -7499,7 +7846,7 @@
     {
       "url": "https://jornaldoalgarve.pt/",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T01:21:44Z",
+      "captured_at": "2026-11-16T03:26:45Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -7508,14 +7855,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.jpg",
-        "sha256": "dd9de2ad99358effaf9cc9006aedd8eb238a8be4242878a37343f001eb0cd9d9",
-        "bytes": 39243,
+        "sha256": "d3291bf3584c1dede6b5a53b8daa139adc127358c634dfade5d3f0e146c455ce",
+        "bytes": 39231,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.txt",
-        "sha256": "1b13dae3eddc80a7fccb54e7443876b38b18f523cb342db898038d1304ade4ec",
+        "sha256": "9d892f839e40790e230d0321537d7cac2be8f16eef91478cb7685272c8d8968e",
         "chars": 279
       },
       "cited_by": [
@@ -8467,7 +8814,7 @@
         {
           "place": "portimao",
           "kind": "source",
-          "n": 7,
+          "n": 8,
           "label": "O Algarve"
         }
       ]
@@ -8540,15 +8887,15 @@
       "cited_by": [
         {
           "place": "alcoutim",
-          "kind": "map",
-          "n": 2,
-          "label": "CCDesert, Centro de Competencias na Luta contra a Desertificacao"
-        },
-        {
-          "place": "alcoutim",
           "kind": "gravity",
           "n": 3,
           "label": "Government creates a centre to study desertification, based in Alcoutim (Observador, from Lusa)"
+        },
+        {
+          "place": null,
+          "article": "alcoutim-council-in-a-weeding-robot-project",
+          "kind": "article",
+          "label": "alcoutim-council-in-a-weeding-robot-project"
         }
       ]
     },
@@ -8948,6 +9295,37 @@
       ]
     },
     {
+      "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/gigafabricas-de-inteligencia-artificial-reforcam-soberania-tecnologica-com-investimento-de-200-milhoes",
+      "host": "portugal.gov.pt",
+      "captured_at": "2026-11-16T03:19:50Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://portugal.gov.pt/gc25/comunicacao/noticias/gigafabricas-de-inteligencia-artificial-reforcam-soberania-tecnologica-com-investimento-de-200-milhoes",
+      "title": "Gigafábricas de inteligência artificial reforçam soberania tecnológica com investimento de 200 milhões - XXV Governo Constitucional",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/portugal.gov.pt/190f66b752e1.jpg",
+        "sha256": "c071676a2238a5b53bcbb53dcf50523ccde06b101ca3306abb51aae9826fc799",
+        "bytes": 65234,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/portugal.gov.pt/190f66b752e1.txt",
+        "sha256": "17b3d0cbb4329e06a992a1d37755101991f92bd563f099d0448591cc73fe99ae",
+        "chars": 3861
+      },
+      "cited_by": [
+        {
+          "place": "portugal",
+          "kind": "news",
+          "n": 4,
+          "label": "Government backs an Iberian bid for an EU AI gigafactory, with up to 200 million euros of Portuguese funding"
+        }
+      ]
+    },
+    {
       "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a-proatividade-da-nos-tranquilidade-1",
       "host": "portugal.gov.pt",
       "captured_at": "2026-11-16T00:04:57Z",
@@ -9090,7 +9468,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 11,
+          "n": 12,
           "label": "FuriosaAI, a South Korean AI chip start-up, sets up its European flagship office in Lisbon"
         },
         {
@@ -9127,7 +9505,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 7,
+          "n": 8,
           "label": "CGI sets up a generative and agentic AI centre of excellence in Portugal"
         },
         {
@@ -9209,7 +9587,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/09/28/humanos-raises-3-2m-to-build-risk-infrastructure-for-ai-agents/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T01:24:06Z",
+      "captured_at": "2026-11-16T03:29:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -9218,8 +9596,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/portugalstartupnews.com/28c9409797d1.jpg",
-        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
-        "bytes": 19319,
+        "sha256": "e7ecb9cb61d77a3b302db88c23553a9e0625174142151d7bb105b7a816eda429",
+        "bytes": 19262,
         "width": 1280,
         "height": 1600
       },
@@ -9240,7 +9618,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T01:23:33Z",
+      "captured_at": "2026-11-16T03:29:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -9249,8 +9627,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/portugalstartupnews.com/442658d3b610.jpg",
-        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
-        "bytes": 19292,
+        "sha256": "ca27b41f57b10660090ab37ec67289910aaf2789400f7164471957cd1ef576e1",
+        "bytes": 19279,
         "width": 1280,
         "height": 1600
       },
@@ -9277,7 +9655,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T01:24:25Z",
+      "captured_at": "2026-11-16T03:29:59Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -9286,8 +9664,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/portugalstartupnews.com/a2b5b7fe2d47.jpg",
-        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
-        "bytes": 19319,
+        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
+        "bytes": 19292,
         "width": 1280,
         "height": 1600
       },
@@ -9308,7 +9686,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T01:23:51Z",
+      "captured_at": "2026-11-16T03:29:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -9317,8 +9695,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/portugalstartupnews.com/679fd54b4242.jpg",
-        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
-        "bytes": 19292,
+        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
+        "bytes": 19319,
         "width": 1280,
         "height": 1600
       },
@@ -9345,7 +9723,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/11/05/octo-health-launches-personalized-health-tracking-platform-in-portugal-and-u-s-after-earlier-e2-7m-raise/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T01:24:22Z",
+      "captured_at": "2026-11-16T03:29:55Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -9354,8 +9732,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/portugalstartupnews.com/4b09238efb92.jpg",
-        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
-        "bytes": 19319,
+        "sha256": "e7ecb9cb61d77a3b302db88c23553a9e0625174142151d7bb105b7a816eda429",
+        "bytes": 19262,
         "width": 1280,
         "height": 1600
       },
@@ -9376,7 +9754,7 @@
     {
       "url": "https://portugalstartupnews.com/2026/11/08/full-list-of-78-startups-selected-by-startup-portugal-for-road-2-web-summit-2026/",
       "host": "portugalstartupnews.com",
-      "captured_at": "2026-11-16T01:24:38Z",
+      "captured_at": "2026-11-16T03:30:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -9385,15 +9763,15 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/portugalstartupnews.com/4795408b6f55.jpg",
-        "sha256": "7b62d1a0ccf34642f6162a73ac5a4bd1ad37a6dce2d9688a43f3a992974f5b60",
-        "bytes": 22079,
+        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
+        "bytes": 19292,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/portugalstartupnews.com/4795408b6f55.txt",
-        "sha256": "0a5d67976639bacdf676a42d984f5874c14bfce47787531f1ea33e50ba69c2bc",
-        "chars": 199
+        "sha256": "5fc6e159c70c86e282b5ae89b71e55b3b9830faf1f64603eef48a7161b137cfc",
+        "chars": 58
       },
       "cited_by": [
         {
@@ -10194,7 +10572,7 @@
     {
       "url": "https://promptugal.news/design/infographics/out/best-number-one-3wx-loule--paper--card.png?v=2026-11-14d",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:31Z",
+      "captured_at": "2026-11-16T03:29:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10225,7 +10603,7 @@
     {
       "url": "https://promptugal.news/design/infographics/out/humans-and-ai-vicky-wang--paper--card.png?v=2026-11-14d",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:08Z",
+      "captured_at": "2026-11-16T03:29:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10256,7 +10634,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S24-closures-2026-11-07.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:44Z",
+      "captured_at": "2026-11-16T03:29:21Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10287,7 +10665,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s25-sign-in-steps-2026-11-07.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:41Z",
+      "captured_at": "2026-11-16T03:30:15Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10318,7 +10696,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s26-two-editions-2026-11-07.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:36Z",
+      "captured_at": "2026-11-16T03:29:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10380,7 +10758,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S28-cover-card-2026-11-08.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:52Z",
+      "captured_at": "2026-11-16T03:29:30Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10442,7 +10820,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S30-cover-card-2026-11-08.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:59Z",
+      "captured_at": "2026-11-16T03:29:37Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10473,7 +10851,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S31-places-2026-11-09.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:36Z",
+      "captured_at": "2026-11-16T03:30:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10504,7 +10882,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S33-two-days-2026-11-09.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:10Z",
+      "captured_at": "2026-11-16T03:29:48Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10566,7 +10944,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S35-by-day-2026-11-09.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:29Z",
+      "captured_at": "2026-11-16T03:30:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10597,7 +10975,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S36-cover-card-2026-11-09.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:27Z",
+      "captured_at": "2026-11-16T03:30:00Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10628,7 +11006,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s37-coaches-agent-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:40Z",
+      "captured_at": "2026-11-16T03:30:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10659,7 +11037,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S38-cover-card-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:56Z",
+      "captured_at": "2026-11-16T03:29:34Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10721,7 +11099,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S40-gravitee-survey-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:58Z",
+      "captured_at": "2026-11-16T03:29:35Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10752,7 +11130,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S41-warnings-2026-11-10.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:34Z",
+      "captured_at": "2026-11-16T03:30:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10876,7 +11254,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s48-manus-2-0-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:18Z",
+      "captured_at": "2026-11-16T03:29:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10907,7 +11285,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S50-en-18286-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:25Z",
+      "captured_at": "2026-11-16T03:28:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10938,7 +11316,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S51-getting-around-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:54Z",
+      "captured_at": "2026-11-16T03:29:32Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -10969,7 +11347,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S52-cover-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:11Z",
+      "captured_at": "2026-11-16T03:29:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11000,7 +11378,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S53-election-guidelines-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:49Z",
+      "captured_at": "2026-11-16T03:29:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11031,7 +11409,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s54-breakout-startups-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:34Z",
+      "captured_at": "2026-11-16T03:29:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11062,7 +11440,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S55-tiktok-dsa-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:45Z",
+      "captured_at": "2026-11-16T03:30:19Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11093,7 +11471,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S56-dfa-ai-agents-card-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:38Z",
+      "captured_at": "2026-11-16T03:29:15Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11124,7 +11502,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S58-thursday-2026-11-11.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:43Z",
+      "captured_at": "2026-11-16T03:30:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11155,7 +11533,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S59-cover-card-2026-11-12.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:39Z",
+      "captured_at": "2026-11-16T03:29:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11186,7 +11564,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/s60-pagerduty-card-2026-11-12.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:24Z",
+      "captured_at": "2026-11-16T03:29:57Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11217,7 +11595,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/S61-cover-card-2026-11-13.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:03Z",
+      "captured_at": "2026-11-16T03:29:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11310,7 +11688,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/t1-replay-2026-11-06.webp",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:29Z",
+      "captured_at": "2026-11-16T03:29:06Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11341,7 +11719,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/t1-team-map-2026-11-06.webp",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:23:27Z",
+      "captured_at": "2026-11-16T03:29:04Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11403,7 +11781,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/t4-wake-minutes-2026-11-06.svg",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:01Z",
+      "captured_at": "2026-11-16T03:29:39Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -11434,7 +11812,7 @@
     {
       "url": "https://promptugal.news/desks/journalist-vicky/drafts/img/t5-sources-before-after-2026-11-06.webp",
       "host": "promptugal.news",
-      "captured_at": "2026-11-16T01:24:20Z",
+      "captured_at": "2026-11-16T03:29:53Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -12379,7 +12757,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 13,
+          "n": 14,
           "label": "Sybilion, from Porto, raises 3.6 million euros for an AI decision layer"
         },
         {
@@ -12393,7 +12771,7 @@
     {
       "url": "https://pypi.org/project/sgit-ai/0.27.0/",
       "host": "pypi.org",
-      "captured_at": "2026-11-16T01:23:23Z",
+      "captured_at": "2026-11-16T03:28:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": null,
@@ -12443,9 +12821,40 @@
       ]
     },
     {
+      "url": "https://reforms-investments.ec.europa.eu/projects/robotics-4-farmers_en",
+      "host": "reforms-investments.ec.europa.eu",
+      "captured_at": "2026-11-16T03:28:57Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://reforms-investments.ec.europa.eu/projects/robotics-4-farmers_en",
+      "title": "Robotics 4 farmers - Reforms and Investments - European Commission",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/reforms-investments.ec.europa.eu/9fdc90611aa6.jpg",
+        "sha256": "d03effb99be7f77b806090c3f0b8dbf7f5334602688b4609d6773bc93facf58f",
+        "bytes": 191556,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/reforms-investments.ec.europa.eu/9fdc90611aa6.txt",
+        "sha256": "c0fb3ca60092566e1e673ed4ec0420b742c5ff9dd26b37f3271264105b4bf8d9",
+        "chars": 1861
+      },
+      "cited_by": [
+        {
+          "place": null,
+          "article": "alcoutim-council-in-a-weeding-robot-project",
+          "kind": "article",
+          "label": "alcoutim-council-in-a-weeding-robot-project"
+        }
+      ]
+    },
+    {
       "url": "https://regiao-sul.pt",
       "host": "regiao-sul.pt",
-      "captured_at": "2026-11-16T01:17:49Z",
+      "captured_at": "2026-11-16T03:21:25Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12454,14 +12863,14 @@
       "note": "a bot challenge or an access page was served; recorded as such, not got round",
       "image": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.jpg",
-        "sha256": "d460eb15f39bb1cad89d3e7df1c0699ac242bc5de74f0893372e20c06936804c",
-        "bytes": 72767,
+        "sha256": "b0029a036c6eb9875dcd3eb5f8731f1239c5204e7149b4916d175d1f6822d944",
+        "bytes": 72803,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.txt",
-        "sha256": "d13b55d3ba2c697a1e6cc36fb3007523da8a40fbda6d64b19573b37663bd4606",
+        "sha256": "fb1b0614080ce1c2805e0cc64843fdce4531a6186377fb68ba22a76f565f3cea",
         "chars": 690
       },
       "cited_by": [
@@ -12606,6 +13015,55 @@
           "article": "speed-where-its-safe-control-where-it-matters",
           "kind": "article",
           "label": "speed-where-its-safe-control-where-it-matters"
+        }
+      ]
+    },
+    {
+      "url": "https://robotics4farmers.tecnico.ulisboa.pt/~robotics4farmers.daemon/about/",
+      "host": "robotics4farmers.tecnico.ulisboa.pt",
+      "captured_at": "2026-11-16T03:26:36Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://robotics4farmers.tecnico.ulisboa.pt/~robotics4farmers.daemon/about/",
+      "title": "About – ROBOTICS4FARMERS",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/robotics4farmers.tecnico.ulisboa.pt/b1b493be975d.jpg",
+        "sha256": "aef5836b73b4e7190e12a54443cce6d18bc081b302b78c1c0f6bd41e96f7c7b9",
+        "bytes": 290494,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/robotics4farmers.tecnico.ulisboa.pt/b1b493be975d.txt",
+        "sha256": "167cc0f12e3222936285e585c9cc99c984c38dda87cb6cbd0efff0ed96cd6ae0",
+        "chars": 2409
+      },
+      "cited_by": [
+        {
+          "place": "alcoutim",
+          "kind": "map",
+          "n": 1,
+          "label": "Robotics4Farmers (PRR agenda, with Municipio de Alcoutim as a named partner)"
+        },
+        {
+          "place": "alcoutim",
+          "kind": "map",
+          "n": 3,
+          "label": "CCDesert, Centro de Competencias na Luta contra a Desertificacao"
+        },
+        {
+          "place": "alcoutim",
+          "kind": "map",
+          "n": 10,
+          "label": "Instituto Superior Tecnico (Robotics4Farmers partner)"
+        },
+        {
+          "place": null,
+          "article": "alcoutim-council-in-a-weeding-robot-project",
+          "kind": "article",
+          "label": "alcoutim-council-in-a-weeding-robot-project"
         }
       ]
     },
@@ -12956,6 +13414,92 @@
       ]
     },
     {
+      "url": "https://startupportimao.pt/index.php/pt/",
+      "host": "startupportimao.pt",
+      "captured_at": "2026-11-16T03:23:58Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://startupportimao.pt/index.php/pt/",
+      "title": "home",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/startupportimao.pt/2bd3f253ae9b.jpg",
+        "sha256": "17d96a68cd98220991655d4d4d82bf9b240ef253236040004439da17dbfc6212",
+        "bytes": 109460,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/startupportimao.pt/2bd3f253ae9b.txt",
+        "sha256": "04b163872b8af503f5d9502063f73f7da60ef3b841f7e8fe626a3bea287c64c3",
+        "chars": 3309
+      },
+      "cited_by": [
+        {
+          "place": "portimao",
+          "kind": "source",
+          "n": 3,
+          "label": "StartUP Portimão (the incubator's own site)"
+        }
+      ]
+    },
+    {
+      "url": "https://startupportimao.pt/index.php/pt/empresas/incubadora-de-negocios",
+      "host": "startupportimao.pt",
+      "captured_at": "2026-11-16T03:23:51Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://startupportimao.pt/index.php/pt/empresas/incubadora-de-negocios",
+      "title": "Incubadora de negócios",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/startupportimao.pt/bda397bfb48c.jpg",
+        "sha256": "0a72e8c0445a8880a59d5c6cf3cf4c26d5c8f628daabfbe35af203beaf0832fe",
+        "bytes": 108945,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/startupportimao.pt/bda397bfb48c.txt",
+        "sha256": "74e2142d146e17e9955f05149337f8bab653b6f87414906f73f65f9b6dcedcb0",
+        "chars": 3824
+      },
+      "cited_by": [
+        {
+          "place": "portimao",
+          "kind": "map",
+          "n": 16,
+          "label": "Guepardo"
+        },
+        {
+          "place": "portimao",
+          "kind": "map",
+          "n": 17,
+          "label": "Tecnologias Imaginadas"
+        },
+        {
+          "place": "portimao",
+          "kind": "map",
+          "n": 18,
+          "label": "Thinkerdots Technologies"
+        },
+        {
+          "place": "portimao",
+          "kind": "map",
+          "n": 19,
+          "label": "JFA Training"
+        },
+        {
+          "place": "portimao",
+          "kind": "gravity",
+          "n": 5,
+          "label": "StartUP Portimão, incubated companies (the incubator's own site, undated)"
+        }
+      ]
+    },
+    {
       "url": "https://startupportugal.com/pt/programs/road-2-web-summit/",
       "host": "startupportugal.com",
       "captured_at": "2026-11-16T00:06:40Z",
@@ -13255,6 +13799,37 @@
       ]
     },
     {
+      "url": "https://tecnico.ulisboa.pt/",
+      "host": "tecnico.ulisboa.pt",
+      "captured_at": "2026-11-16T03:26:43Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://tecnico.ulisboa.pt/pt/",
+      "title": "Técnico ULisboa – Engenharia, Arquitetura, Ciência e Tecnologia",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/tecnico.ulisboa.pt/87b77879d386.jpg",
+        "sha256": "dfb136a93e5db22f1055cc3ee3b2c8d5970c935dc8326a111ff2d2ade5f19011",
+        "bytes": 216437,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/tecnico.ulisboa.pt/87b77879d386.txt",
+        "sha256": "0021a31f3f4a8d2dd079863107a1e3cf33e39bb5fab696db8fec6cb6219ccdaa",
+        "chars": 5283
+      },
+      "cited_by": [
+        {
+          "place": "alcoutim",
+          "kind": "map-site",
+          "n": 10,
+          "label": "Instituto Superior Tecnico (Robotics4Farmers partner)"
+        }
+      ]
+    },
+    {
       "url": "https://tecnico.ulisboa.pt/en/news/tecnico-coordinates-pilot-project-to-reduce-wildfire-risk-in-algarve/",
       "host": "tecnico.ulisboa.pt",
       "captured_at": "2026-11-15T23:45:51Z",
@@ -13356,7 +13931,7 @@
     {
       "url": "https://tek.sapo.pt/noticias/negocios/artigos/discord-abre-em-lisboa-o-primeiro-hub-de-engenharia-fora-dos-eua/",
       "host": "tek.sapo.pt",
-      "captured_at": "2026-11-16T01:23:42Z",
+      "captured_at": "2026-11-16T03:29:20Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -13387,7 +13962,7 @@
     {
       "url": "https://tek.sapo.pt/noticias/negocios/artigos/humanos-e-a-startup-vencedora-do-road-2-web-summit-2026-e-defende-mais-aposta-na-engenharia-e-menos-em-fundadores-pavoes/",
       "host": "tek.sapo.pt",
-      "captured_at": "2026-11-16T01:24:04Z",
+      "captured_at": "2026-11-16T03:29:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -13396,8 +13971,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/tek.sapo.pt/0f8d6c03c5e0.jpg",
-        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
-        "bytes": 19319,
+        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
+        "bytes": 19292,
         "width": 1280,
         "height": 1600
       },
@@ -13478,7 +14053,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 18,
+          "n": 19,
           "label": "Portugal's new Agency for Research and Innovation (AI²) was due to start on 1 January 2026"
         },
         {
@@ -13626,7 +14201,7 @@
         {
           "place": "alcoutim",
           "kind": "map",
-          "n": 1,
+          "n": 2,
           "label": "Algarve 6.0 Smart Territorial Hub (Alcoutim, Olhao, Loule, Sao Bras de Alportel, Tavira, Vila Real de Santo Antonio)"
         },
         {
@@ -13745,7 +14320,7 @@
     {
       "url": "https://uhu.es/sites/otc/files/proyectos_europeos/kttseadrones.pdf",
       "host": "uhu.es",
-      "captured_at": "2026-11-16T01:21:33Z",
+      "captured_at": "2026-11-16T03:26:23Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -13768,7 +14343,7 @@
         {
           "place": "vila-do-bispo",
           "kind": "map",
-          "n": 2,
+          "n": 4,
           "label": "KTTSeaDrones (cross-border Spain and Portugal project, with a Sagres pilot)"
         }
       ]
@@ -14195,7 +14770,7 @@
     {
       "url": "https://websig.cm-vrsa.pt/geoportal",
       "host": "websig.cm-vrsa.pt",
-      "captured_at": "2026-11-16T01:19:10Z",
+      "captured_at": "2026-11-16T03:23:15Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -14792,7 +15367,7 @@
         {
           "place": "portimao",
           "kind": "source",
-          "n": 5,
+          "n": 6,
           "label": "Algarve Primeiro"
         }
       ]
@@ -14998,6 +15573,37 @@
           "kind": "source",
           "n": 7,
           "label": "AMAL, the Algarve intermunicipal community"
+        }
+      ]
+    },
+    {
+      "url": "https://www.appia.pt/",
+      "host": "appia.pt",
+      "captured_at": "2026-11-16T03:20:17Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.appia.pt/",
+      "title": "Portal APPIA – Associação Portuguesa Para a Inteligência Artificial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/appia.pt/cdc81d28f424.jpg",
+        "sha256": "95b19150f1501e5c2d9a74c2a4f6297f11a557c8348136d62298ba4b3593c009",
+        "bytes": 146292,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/appia.pt/cdc81d28f424.txt",
+        "sha256": "63219e4298c9f351bc8eab0437f381a79e2793c632a6245277750f2da2772766",
+        "chars": 7727
+      },
+      "cited_by": [
+        {
+          "place": "portugal",
+          "kind": "map-site",
+          "n": 38,
+          "label": "APPIA (Associação Portuguesa para a Inteligência Artificial)"
         }
       ]
     },
@@ -15293,7 +15899,7 @@
         {
           "place": "vila-do-bispo",
           "kind": "map",
-          "n": 3,
+          "n": 5,
           "label": "Sea4Us"
         },
         {
@@ -15373,7 +15979,7 @@
         {
           "place": "vila-do-bispo",
           "kind": "map",
-          "n": 4,
+          "n": 6,
           "label": "Universidade do Algarve and CCMAR, Sagres marine biology laboratory"
         }
       ]
@@ -16033,13 +16639,13 @@
         {
           "place": "alcoutim",
           "kind": "news",
-          "n": 4,
+          "n": 3,
           "label": "Alcoutim gets shared electric bikes run by a digital platform"
         },
         {
           "place": "alcoutim",
           "kind": "map",
-          "n": 3,
+          "n": 4,
           "label": "CME (digital platform for the Alcoutim shared bikes)"
         }
       ]
@@ -16248,7 +16854,7 @@
         {
           "place": "alcoutim",
           "kind": "map",
-          "n": 5,
+          "n": 6,
           "label": "+ Proximo teleassistance (Alcoutim council with the Tavira humanitarian centre of the Portuguese Red Cross)"
         },
         {
@@ -16285,13 +16891,13 @@
         {
           "place": "alcoutim",
           "kind": "news",
-          "n": 3,
+          "n": 2,
           "label": "Alcoutim turns the old EPAC granary into a business and coworking centre"
         },
         {
           "place": "alcoutim",
           "kind": "map",
-          "n": 4,
+          "n": 5,
           "label": "Celeiro de Ideias (former EPAC granary business centre)"
         },
         {
@@ -16759,7 +17365,7 @@
         {
           "place": "vila-do-bispo",
           "kind": "map-site",
-          "n": 4,
+          "n": 6,
           "label": "Universidade do Algarve and CCMAR, Sagres marine biology laboratory"
         },
         {
@@ -17453,12 +18059,6 @@
         },
         {
           "place": "lagos",
-          "kind": "map",
-          "n": 4,
-          "label": "Fábrica do Empreendedor de Lagos"
-        },
-        {
-          "place": "lagos",
           "kind": "event",
           "n": 2,
           "label": "DevFest Lagos 2025 (past)"
@@ -17577,13 +18177,13 @@
         {
           "place": "alcoutim",
           "kind": "map",
-          "n": 7,
+          "n": 8,
           "label": "Associacao Odiana"
         },
         {
           "place": "alcoutim",
           "kind": "map",
-          "n": 8,
+          "n": 9,
           "label": "Agrosocial Plus (Interreg Spain-Portugal, Odiana as Lower Guadiana partner)"
         },
         {
@@ -17872,6 +18472,43 @@
       ]
     },
     {
+      "url": "https://www.barlavento.pt/radar-social-de-alcoutim-aposta-em-georreferenciacao-para-combater-pobreza-e-exclusao/",
+      "host": "barlavento.pt",
+      "captured_at": "2026-11-16T03:26:31Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.barlavento.pt/radar-social-de-alcoutim-aposta-em-georreferenciacao-para-combater-pobreza-e-exclusao/",
+      "title": "Radar Social de Alcoutim aposta em georreferenciação para combater pobreza e exclusão",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/barlavento.pt/276675aa5006.jpg",
+        "sha256": "207626c0f7fc32a01b9baa62e7fc806054fa03d93a0187d5aef528cda75fe28e",
+        "bytes": 267471,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/barlavento.pt/276675aa5006.txt",
+        "sha256": "b0dc22748a030c2efd093cd19badd4ee77ad91cbe2bbd20cc5fd595ebd9cc586",
+        "chars": 8068
+      },
+      "cited_by": [
+        {
+          "place": "alcoutim",
+          "kind": "news",
+          "n": 6,
+          "label": "Alcoutim's Radar Social maps people at risk with a georeferencing system"
+        },
+        {
+          "place": "alcoutim",
+          "kind": "map",
+          "n": 11,
+          "label": "Radar Social (PRR pilot, Alcoutim council)"
+        }
+      ]
+    },
+    {
       "url": "https://www.barlavento.pt/s2aquacolab-quer-elevar-a-aquacultura-nacional-a-um-novo-nivel/",
       "host": "barlavento.pt",
       "captured_at": "2026-11-15T23:43:32Z",
@@ -18035,20 +18672,7 @@
         "sha256": "7683053f9c8c1c3edfa73e6ca2b95c1c99c8347b9830bb85c067e00011d75cf5",
         "chars": 6796
       },
-      "cited_by": [
-        {
-          "place": "silves",
-          "kind": "news",
-          "n": 1,
-          "label": "Silves council and Turismo de Portugal run a free advanced AI-for-business course"
-        },
-        {
-          "place": "silves",
-          "kind": "map",
-          "n": 1,
-          "label": "Câmara Municipal de Silves"
-        }
-      ]
+      "cited_by": []
     },
     {
       "url": "https://www.barlavento.pt/startup-portimao-assinala-5o-aniversario-com-olhos-postos-no-futuro/",
@@ -18286,7 +18910,7 @@
         {
           "place": "vila-do-bispo",
           "kind": "map",
-          "n": 1,
+          "n": 3,
           "label": "MARREAL underwater observatory, Sagres (UAlg, CINTAL, CCMAR, INESC-TEC)"
         },
         {
@@ -19062,7 +19686,7 @@
     {
       "url": "https://www.cm-aljezur.pt",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T01:21:20Z",
+      "captured_at": "2026-11-16T03:25:49Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19105,7 +19729,7 @@
     {
       "url": "https://www.cm-faro.pt",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T01:17:13Z",
+      "captured_at": "2026-11-16T03:20:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19142,7 +19766,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T01:17:32Z",
+      "captured_at": "2026-11-16T03:21:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19173,7 +19797,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91716/mentes-artificiais-ola-futuro.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T01:17:03Z",
+      "captured_at": "2026-11-16T03:20:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19210,7 +19834,7 @@
     {
       "url": "https://www.cm-lagoa.pt/comunicacao/eventos",
       "host": "cm-lagoa.pt",
-      "captured_at": "2026-11-16T01:20:07Z",
+      "captured_at": "2026-11-16T03:24:21Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -19266,6 +19890,37 @@
           "kind": "source",
           "n": 1,
           "label": "Município de Lagoa, news"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-lagoa.pt/investir/gabinete-de-apoio-ao-empreendedor",
+      "host": "cm-lagoa.pt",
+      "captured_at": "2026-11-16T03:24:27Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-lagoa.pt/investir/gabinete-de-apoio-ao-empreendedor",
+      "title": "Gabinete de Apoio ao Empreendedor",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-lagoa.pt/c7e6ee2ab13a.jpg",
+        "sha256": "dea42eb2110a4a7635227290da50c084b65659b52dcb2e70ca9a13eab3b4a105",
+        "bytes": 147834,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-lagoa.pt/c7e6ee2ab13a.txt",
+        "sha256": "d3b1fca2a626a6fdb7492083f5f245290bbd333fe941e3555d74951ebfdb482d",
+        "chars": 2872
+      },
+      "cited_by": [
+        {
+          "place": "lagoa",
+          "kind": "source",
+          "n": 8,
+          "label": "Município de Lagoa, entrepreneur support office"
         }
       ]
     },
@@ -19394,9 +20049,40 @@
       ]
     },
     {
+      "url": "https://www.cm-lagos.pt/municipio/noticias/8907-novo-espaco-da-fabrica-do-empreendedor-inaugurado-em-lagos",
+      "host": "cm-lagos.pt",
+      "captured_at": "2026-11-16T03:24:01Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 429,
+      "final_url": "https://www.cm-lagos.pt/municipio/noticias/8907-novo-espaco-da-fabrica-do-empreendedor-inaugurado-em-lagos",
+      "title": "",
+      "note": "the server answered 429",
+      "image": {
+        "path": "captures/2026-11-16/cm-lagos.pt/b8e630d0b5f8.jpg",
+        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
+        "bytes": 12757,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-lagos.pt/b8e630d0b5f8.txt",
+        "sha256": "d98aeef649b671b5ed7b702443cb5ad48446e2d59ead9fa576cfd554539f3a0f",
+        "chars": 0
+      },
+      "cited_by": [
+        {
+          "place": "lagos",
+          "kind": "map",
+          "n": 4,
+          "label": "Fábrica do Empreendedor de Lagos"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-loule.pt",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T01:17:46Z",
+      "captured_at": "2026-11-16T03:21:23Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19433,7 +20119,7 @@
     {
       "url": "https://www.cm-loule.pt/",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T01:17:59Z",
+      "captured_at": "2026-11-16T03:21:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19470,7 +20156,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T01:20:39Z",
+      "captured_at": "2026-11-16T03:24:48Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19501,7 +20187,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/151/protecao-civil.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T01:20:59Z",
+      "captured_at": "2026-11-16T03:25:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19532,7 +20218,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T01:21:10Z",
+      "captured_at": "2026-11-16T03:25:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19561,9 +20247,40 @@
       ]
     },
     {
+      "url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
+      "host": "cm-monchique.pt",
+      "captured_at": "2026-11-16T03:25:39Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-16/cm-monchique.pt/205fcbfa2302.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-monchique.pt/205fcbfa2302.txt",
+        "sha256": "63ca86be41de051eb6cf6478a82598ceac108d2385c69ccc751049c1af898774",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "monchique",
+          "kind": "source",
+          "n": 13,
+          "label": "Câmara Municipal de Monchique: Gabinete de Empreendedorismo"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T01:20:24Z",
+      "captured_at": "2026-11-16T03:24:37Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19600,7 +20317,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/noticias-listagem.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T01:20:49Z",
+      "captured_at": "2026-11-16T03:24:58Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19691,7 +20408,7 @@
         {
           "place": "portimao",
           "kind": "source",
-          "n": 3,
+          "n": 4,
           "label": "Câmara Municipal de Portimão"
         }
       ]
@@ -19699,7 +20416,7 @@
     {
       "url": "https://www.cm-sbras.pt",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T01:22:02Z",
+      "captured_at": "2026-11-16T03:26:58Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19736,7 +20453,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T01:22:32Z",
+      "captured_at": "2026-11-16T03:27:59Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19767,7 +20484,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T01:23:03Z",
+      "captured_at": "2026-11-16T03:28:30Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19796,9 +20513,40 @@
       ]
     },
     {
+      "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
+      "host": "cm-sbras.pt",
+      "captured_at": "2026-11-16T03:27:49Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-16/cm-sbras.pt/f764ef332b9f.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-sbras.pt/f764ef332b9f.txt",
+        "sha256": "9112d2c4c94b5a6ba8c37129790bb001f5d5cfea332b869e38a46b4a05b8720d",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "sao-bras-de-alportel",
+          "kind": "event",
+          "n": 1,
+          "label": "Sábados no Mercado, with a local entrepreneurship action (21 November 2026, Mercado Municipal)"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T01:23:13Z",
+      "captured_at": "2026-11-16T03:28:40Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19829,7 +20577,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T01:22:12Z",
+      "captured_at": "2026-11-16T03:27:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19872,7 +20620,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T01:22:22Z",
+      "captured_at": "2026-11-16T03:27:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19894,7 +20642,7 @@
       "cited_by": [
         {
           "place": "sao-bras-de-alportel",
-          "kind": "map",
+          "kind": "map-site",
           "n": 7,
           "label": "We Stream Algarve"
         },
@@ -19907,9 +20655,77 @@
       ]
     },
     {
+      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
+      "host": "cm-sbras.pt",
+      "captured_at": "2026-11-16T03:27:18Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-16/cm-sbras.pt/c2846d7aba46.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-sbras.pt/c2846d7aba46.txt",
+        "sha256": "b2f5fdee063771b1d8074eae75531cabbbb2a8898a4c11e584dd37cb4d738a6d",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "sao-bras-de-alportel",
+          "kind": "map",
+          "n": 7,
+          "label": "We Stream Algarve"
+        },
+        {
+          "place": "sao-bras-de-alportel",
+          "kind": "map",
+          "n": 8,
+          "label": "Substância3D"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
+      "host": "cm-sbras.pt",
+      "captured_at": "2026-11-16T03:27:39Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-16/cm-sbras.pt/97c2a8bf5441.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-sbras.pt/97c2a8bf5441.txt",
+        "sha256": "58d79091aac622f2a5e0dd039d9b16a20f642205c81373b2da0d3a567bd84ed6",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "sao-bras-de-alportel",
+          "kind": "map",
+          "n": 9,
+          "label": "Peanuts"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T01:23:23Z",
+      "captured_at": "2026-11-16T03:28:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19940,7 +20756,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T01:22:53Z",
+      "captured_at": "2026-11-16T03:28:20Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19971,7 +20787,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T01:22:42Z",
+      "captured_at": "2026-11-16T03:28:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20002,7 +20818,7 @@
     {
       "url": "https://www.cm-silves.pt",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T01:18:09Z",
+      "captured_at": "2026-11-16T03:21:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20039,7 +20855,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/agenda.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T01:18:29Z",
+      "captured_at": "2026-11-16T03:22:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20070,7 +20886,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T01:18:39Z",
+      "captured_at": "2026-11-16T03:22:26Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20099,9 +20915,46 @@
       ]
     },
     {
+      "url": "https://www.cm-silves.pt/pt/noticias/32862/silves-acolhe-acoes-de-formacao-do-programa-formacao---proxima.aspx",
+      "host": "cm-silves.pt",
+      "captured_at": "2026-11-16T03:21:46Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.cm-silves.pt/pt/noticias/32862/silves-acolhe-acoes-de-formacao-do-programa-formacao---proxima.aspx",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-16/cm-silves.pt/999d875a7b3b.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-silves.pt/999d875a7b3b.txt",
+        "sha256": "328c96a8bf87be37b4cead28727bda2f09325b3bf59af7a772cde6897dd51f2a",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "silves",
+          "kind": "news",
+          "n": 1,
+          "label": "Silves council and Turismo de Portugal run a free advanced AI-for-business course"
+        },
+        {
+          "place": "silves",
+          "kind": "map",
+          "n": 1,
+          "label": "Câmara Municipal de Silves"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T01:18:19Z",
+      "captured_at": "2026-11-16T03:22:06Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20151,6 +21004,73 @@
         "sha256": "61a43e5340c10b78cf1e5b0ec2d2666fcc1c0c4cde94b92a1569914909a9916f",
         "chars": 70
       },
+      "cited_by": []
+    },
+    {
+      "url": "https://www.cm-viladobispo.pt/municipio/concelho/projetos-financiados-fundos-comunitarios",
+      "host": "cm-viladobispo.pt",
+      "captured_at": "2026-11-16T03:26:19Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-viladobispo.pt/municipio/concelho/projetos-financiados-fundos-comunitarios",
+      "title": "Erro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-viladobispo.pt/2dc3853528b9.jpg",
+        "sha256": "ec4bc215630584501377c2e4090a900fc82627c375b8de10fc00f481a3725968",
+        "bytes": 15819,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-viladobispo.pt/2dc3853528b9.txt",
+        "sha256": "a40b5e1f240204c5fa15a7f96851c1544a3e290022f92297164781c3315e5a19",
+        "chars": 70
+      },
+      "cited_by": [
+        {
+          "place": "vila-do-bispo",
+          "kind": "map-site",
+          "n": 1,
+          "label": "Municipio de Vila do Bispo, digitalisation of municipal services"
+        },
+        {
+          "place": "vila-do-bispo",
+          "kind": "map-site",
+          "n": 2,
+          "label": "Municipio de Vila do Bispo, smart urban waste management"
+        },
+        {
+          "place": "vila-do-bispo",
+          "kind": "source",
+          "n": 8,
+          "label": "Camara Municipal de Vila do Bispo, funded projects page"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-viladobispo.pt/noticias",
+      "host": "cm-viladobispo.pt",
+      "captured_at": "2026-11-16T03:26:27Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-viladobispo.pt/noticias",
+      "title": "Erro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-viladobispo.pt/72391fc38e6a.jpg",
+        "sha256": "ec4bc215630584501377c2e4090a900fc82627c375b8de10fc00f481a3725968",
+        "bytes": 15819,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-viladobispo.pt/72391fc38e6a.txt",
+        "sha256": "28f3d72dea718289de3ecb8cf7c6217819bc9048e75a0e9df180a18af362b1d6",
+        "chars": 70
+      },
       "cited_by": [
         {
           "place": "vila-do-bispo",
@@ -20161,9 +21081,63 @@
       ]
     },
     {
+      "url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/FichadeOperacao_Digitalizacao_de_Servicossite.pdf?file=moVWhZWuqFXrK4rJG3W7mw",
+      "host": "cm-viladobispo.pt",
+      "captured_at": "2026-11-16T03:26:11Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/FichadeOperacao_Digitalizacao_de_Servicossite.pdf?file=moVWhZWuqFXrK4rJG3W7mw",
+      "title": null,
+      "note": "a document (application/pdf); the file itself is the capture",
+      "image": null,
+      "text": null,
+      "document": {
+        "path": "captures/2026-11-16/cm-viladobispo.pt/e2ae96474591.pdf",
+        "sha256": "770ed06919e70a5f259ed5f2844e5d9314a99af77b47b75fa0f2c3e86ca3c284",
+        "bytes": 727339,
+        "type": "application/pdf"
+      },
+      "cited_by": [
+        {
+          "place": "vila-do-bispo",
+          "kind": "map",
+          "n": 1,
+          "label": "Municipio de Vila do Bispo, digitalisation of municipal services"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/Portugal_2030/Ficha_de_operacao_Site_Gestao_Residuos.pdf?file=nNYUA808AXbXvsI152mYSA",
+      "host": "cm-viladobispo.pt",
+      "captured_at": "2026-11-16T03:26:20Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/Portugal_2030/Ficha_de_operacao_Site_Gestao_Residuos.pdf?file=nNYUA808AXbXvsI152mYSA",
+      "title": null,
+      "note": "a document (application/pdf); the file itself is the capture",
+      "image": null,
+      "text": null,
+      "document": {
+        "path": "captures/2026-11-16/cm-viladobispo.pt/4bf459fa9658.pdf",
+        "sha256": "10b28a924aceced957b3f4f93d9b1312c5f26fee78cb720c32cf01fc70eb573a",
+        "bytes": 356715,
+        "type": "application/pdf"
+      },
+      "cited_by": [
+        {
+          "place": "vila-do-bispo",
+          "kind": "map",
+          "n": 2,
+          "label": "Municipio de Vila do Bispo, smart urban waste management"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-vrsa.pt",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T01:18:49Z",
+      "captured_at": "2026-11-16T03:22:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20206,7 +21180,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T01:19:23Z",
+      "captured_at": "2026-11-16T03:23:28Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20237,7 +21211,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T01:19:00Z",
+      "captured_at": "2026-11-16T03:22:54Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20390,7 +21364,7 @@
         {
           "place": "alcoutim",
           "kind": "map-site",
-          "n": 6,
+          "n": 7,
           "label": "dstelecom"
         }
       ]
@@ -20452,13 +21426,13 @@
         {
           "place": "alcoutim",
           "kind": "news",
-          "n": 2,
+          "n": 4,
           "label": "dstelecom takes fibre to 1,000 more homes in Alcoutim"
         },
         {
           "place": "alcoutim",
           "kind": "map",
-          "n": 6,
+          "n": 7,
           "label": "dstelecom"
         },
         {
@@ -20466,6 +21440,43 @@
           "article": "alcoutim-ai-path-runs-through-the-guadiana",
           "kind": "article",
           "label": "alcoutim-ai-path-runs-through-the-guadiana"
+        }
+      ]
+    },
+    {
+      "url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
+      "host": "engium.uminho.pt",
+      "captured_at": "2026-11-16T03:20:03Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-16/engium.uminho.pt/c934f509fbe3.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/engium.uminho.pt/c934f509fbe3.txt",
+        "sha256": "6d10b214d4fcc5f9c20b14b9d1a6ae45e8841839593c611a0b7a1c8a20fd1f1e",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "portugal",
+          "kind": "news",
+          "n": 20,
+          "label": "European AI research network CAIRNE opens its Portuguese hub in Guimarães"
+        },
+        {
+          "place": "portugal",
+          "kind": "map",
+          "n": 37,
+          "label": "CAIRNE | Guimarães (University of Minho)"
         }
       ]
     },
@@ -20575,7 +21586,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 10,
+          "n": 11,
           "label": "Dojo AI raises 5.1 million euros for its AI marketing agent"
         },
         {
@@ -20595,7 +21606,7 @@
     {
       "url": "https://www.eurociudadguadiana.eu",
       "host": "eurociudadguadiana.eu",
-      "captured_at": "2026-11-16T01:19:12Z",
+      "captured_at": "2026-11-16T03:23:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20620,6 +21631,37 @@
           "kind": "source",
           "n": 6,
           "label": "Eurocidade do Guadiana (Ayamonte, Castro Marim, VRSA)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fabricadoempreendedor.pt",
+      "host": "fabricadoempreendedor.pt",
+      "captured_at": "2026-11-16T03:24:06Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 200,
+      "final_url": "https://www.seagency.org/fabrica-empreendedor/",
+      "title": "",
+      "note": "the page showed almost no text",
+      "image": {
+        "path": "captures/2026-11-16/fabricadoempreendedor.pt/d025a9bea72d.jpg",
+        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
+        "bytes": 12757,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/fabricadoempreendedor.pt/d025a9bea72d.txt",
+        "sha256": "1e99c688c87c2051b9639fed3547f2a4efb94254bdb9b4b22fc343a23e947418",
+        "chars": 0
+      },
+      "cited_by": [
+        {
+          "place": "lagos",
+          "kind": "map-site",
+          "n": 4,
+          "label": "Fábrica do Empreendedor de Lagos"
         }
       ]
     },
@@ -20649,7 +21691,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 15,
+          "n": 16,
           "label": "Champalimaud Foundation and Técnico open a Neurorobotics Laboratory"
         },
         {
@@ -20735,7 +21777,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 14,
+          "n": 15,
           "label": "BSC AI Factory opens a second call for AI startups, with incubation spaces in Lisbon and Guimarães"
         },
         {
@@ -20951,7 +21993,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 17,
+          "n": 18,
           "label": "Government earmarks about 25 million euros to adopt AI in public administration"
         }
       ]
@@ -20982,7 +22024,7 @@
         {
           "place": "alcoutim",
           "kind": "map-site",
-          "n": 7,
+          "n": 8,
           "label": "Associacao Odiana"
         },
         {
@@ -21093,6 +22135,68 @@
       ]
     },
     {
+      "url": "https://www.iapmei.pt/",
+      "host": "iapmei.pt",
+      "captured_at": "2026-11-16T03:20:36Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.iapmei.pt/",
+      "title": "Início - IAPMEI",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/iapmei.pt/151166f2afb5.jpg",
+        "sha256": "27ef68b262fcae236cb682e801b7a21f740b4221bcbda7bfe3353155c70ce102",
+        "bytes": 171155,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/iapmei.pt/151166f2afb5.txt",
+        "sha256": "9afc01ff7d27a6f8f3b67de0ddfb62ba102a615365e58b823d19f4e7936703ba",
+        "chars": 2138
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "source",
+          "n": 16,
+          "label": "IAPMEI"
+        }
+      ]
+    },
+    {
+      "url": "https://www.iasp.ws/activities/news/algarve-innovation-park-development-moves-forward",
+      "host": "iasp.ws",
+      "captured_at": "2026-11-16T03:24:17Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.iasp.ws/activities/news/algarve-innovation-park-development-moves-forward",
+      "title": "Latest news on science parks and innovation districts from IASP – IASP",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/iasp.ws/43c0b4140b76.jpg",
+        "sha256": "621934b27a74fe65291fc95ca0597fc15bb40e707edca65c382394d654f0c0e4",
+        "bytes": 116512,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/iasp.ws/43c0b4140b76.txt",
+        "sha256": "4f178c3e23b230f4d14ec0e2731b41470bb345348715a772ddd3ea1414bef28a",
+        "chars": 3676
+      },
+      "cited_by": [
+        {
+          "place": "olhao",
+          "kind": "map",
+          "n": 8,
+          "label": "Algarve Innovation and Technology Park (PPPITA), Pechão"
+        }
+      ]
+    },
+    {
       "url": "https://www.inesc-id.pt/",
       "host": "inesc-id.pt",
       "captured_at": "2026-11-15T23:33:07Z",
@@ -21186,7 +22290,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 5,
+          "n": 6,
           "label": "AMALIA, the open language model for European Portuguese, is launched"
         },
         {
@@ -21274,7 +22378,7 @@
         {
           "place": "alcoutim",
           "kind": "map-site",
-          "n": 2,
+          "n": 3,
           "label": "CCDesert, Centro de Competencias na Luta contra a Desertificacao"
         },
         {
@@ -21428,6 +22532,37 @@
       ]
     },
     {
+      "url": "https://www.ipma.pt/pt/riscoincendio/rcm.pt/",
+      "host": "ipma.pt",
+      "captured_at": "2026-11-16T03:25:29Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipma.pt/pt/riscoincendio/rcm.pt/",
+      "title": "IPMA - Perigo de Incêndio Rural (PIR) Continente",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipma.pt/5ee2492e1501.jpg",
+        "sha256": "6d39d91714f431d4c2d576757c19510948cd400eced0fb7c865920c9e5c8362c",
+        "bytes": 215126,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipma.pt/5ee2492e1501.txt",
+        "sha256": "2f596bf3b78f2db0bd44569fd1fefeecae91f487280563bc31109d39f45d2da8",
+        "chars": 2669
+      },
+      "cited_by": [
+        {
+          "place": "monchique",
+          "kind": "source",
+          "n": 12,
+          "label": "IPMA: rural fire danger by concelho (the council's fire danger page redirects here)"
+        }
+      ]
+    },
+    {
       "url": "https://www.irishexaminer.com/news/arid-40997711.html",
       "host": "irishexaminer.com",
       "captured_at": "2026-11-16T00:10:24Z",
@@ -21515,7 +22650,7 @@
         {
           "place": "portimao",
           "kind": "source",
-          "n": 4,
+          "n": 5,
           "label": "ISMAT events calendar"
         }
       ]
@@ -21715,7 +22850,7 @@
     {
       "url": "https://www.lisboa.pt/cidade-informa/como-circulo/detalhe/web-summit-2026",
       "host": "lisboa.pt",
-      "captured_at": "2026-11-16T01:23:47Z",
+      "captured_at": "2026-11-16T03:29:25Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -21724,14 +22859,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboa.pt/4b64f9be21ac.jpg",
-        "sha256": "367ddd6641a05195b4385ba2a43d57eaae5dcc06a88f52d829a9a50a1addf11f",
-        "bytes": 37807,
+        "sha256": "e294bbbb12532dceab4455102938c1413a725d0cc8cb494c52f55cc2ed469188",
+        "bytes": 37891,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboa.pt/4b64f9be21ac.txt",
-        "sha256": "0b23190ded27013c7c4e88c1c6dfecf1049fa264a030e4863cca7b5b4845ed17",
+        "sha256": "f39ae819f6030b3b69049b93b56c920b7f1df979c331b9d89f09cb0fc30b1584",
         "chars": 274
       },
       "cited_by": [
@@ -21862,7 +22997,7 @@
         {
           "place": "portugal",
           "kind": "news",
-          "n": 6,
+          "n": 7,
           "label": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsoft at the Sines data campus"
         },
         {
@@ -22498,7 +23633,7 @@
         {
           "place": "portimao",
           "kind": "source",
-          "n": 6,
+          "n": 7,
           "label": "Sul Informação (Portimão campus and council items)"
         },
         {
@@ -22579,7 +23714,7 @@
     {
       "url": "https://www.sulinformacao.pt/en/",
       "host": "sulinformacao.pt",
-      "captured_at": "2026-11-16T01:19:58Z",
+      "captured_at": "2026-11-16T03:24:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -22588,14 +23723,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.jpg",
-        "sha256": "607e0d4622254fa423f1bcccfdc8b362df231250bb7ebe503f301ed14e64fdf8",
-        "bytes": 39975,
+        "sha256": "a39bdcdedb5db343854d23b183ca4b54f352527fdde485a648c60b86b948930b",
+        "bytes": 39986,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.txt",
-        "sha256": "e7470dbd68432e7f1ff3b65a9df23dbe1cddba7fc60d4dbce05acd8c327bea89",
+        "sha256": "616b26c3160427cab1a1cc097586fba17f4e5d562855402456fabe3be074ea67",
         "chars": 281
       },
       "cited_by": [
@@ -22922,6 +24057,37 @@
       ]
     },
     {
+      "url": "https://www.ualg.pt/tecnologia-desenvolvida-na-ualg-promove-eficiencia-energetica-na-hotelaria",
+      "host": "ualg.pt",
+      "captured_at": "2026-11-16T03:21:02Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ualg.pt/tecnologia-desenvolvida-na-ualg-promove-eficiencia-energetica-na-hotelaria",
+      "title": "Tecnologia desenvolvida na UAlg promove eficiência energética na hotelaria | Universidade do Algarve",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ualg.pt/d9f0b52ca0ab.jpg",
+        "sha256": "9950a53d4f4ef8ad4d84cf1257429c29edd9b6a12301c4b4eead962d296757b9",
+        "bytes": 258705,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ualg.pt/d9f0b52ca0ab.txt",
+        "sha256": "96b0dab09600e9aecf471f4abe6228db2fce204df3d63d7d801750cf35fc4875",
+        "chars": 5556
+      },
+      "cited_by": [
+        {
+          "place": "faro",
+          "kind": "map",
+          "n": 19,
+          "label": "MTI (Managing The Intelligence)"
+        }
+      ]
+    },
+    {
       "url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
       "host": "ualg.pt",
       "captured_at": "2026-11-15T23:21:43Z",
@@ -23008,5 +24174,5 @@
       ]
     }
   ],
-  "updated": "2026-11-16T01:25:46Z"
+  "updated": "2026-11-16T03:30:19Z"
 }
