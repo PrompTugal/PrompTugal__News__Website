@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-16T01:08Z",
-  "reviewed_to": "cc5448d1d",
+  "updated": "2026-11-16T02:10Z",
+  "reviewed_to": "4eaaef2e2",
   "hold": false,
   "done": [
-    "00:05 12 Nov: websummit-only pass pre-reviewed: go, with raw data/, stories, desk JSON in scope; advice: off the site, leave history; S40",
     "03:05 12 Nov: 35 commits clean; websummit-only pass built to conditions, switch off",
     "06:05 12 Nov: 29 commits clean; websummit-only switch post-reviewed live: holds; S39 closed",
     "09:05 12 Nov: 44 commits clean; takedown holds; side events as unread pointers",
@@ -14,7 +13,8 @@
     "15:05 12 Nov: 31 commits clean",
     "23:05 15 Nov: 208 commits (3 days) clean; 21 place agents and 21 site keys; ABP hook change pinned; S40 again; conditions ahead for 'show the power'",
     "00:05 16 Nov: 58 commits clean; talk pane pre-reviewed (go after 2 must-fixes); Swagger UI verified against npm; capture tool and /query/ fine",
-    "01:05 16 Nov: 40 commits clean; talk must-fix 1 done; must-fix 2 (conductor) open, pane stays off"
+    "01:05 16 Nov: 40 commits clean; talk must-fix 1 done; must-fix 2 (conductor) open, pane stays off",
+    "02:05 16 Nov: 38 commits clean of contacts; S41 to Dinis"
   ],
   "next": [
     "post-review the talk pane before enabled turns true",
@@ -47,9 +47,12 @@
     "S32": "low: the iOS conductor commits without a key or the convention (conductor@)",
     "S36": "low: S41 lead cancellation claim without a source URL (reviewer@PrompTugal.vicky)",
     "S38": "low: the satellite loop's stop-gap fetches from EUMETSAT in the reader's browser; serve frames from our origin (dev@PrompTugal.vicky)",
-    "S40": "low, recurred 15 Nov: dev@PrompTugal.vicky writes front-page.json outside any recorded grant (abp@, Vicky's conductor)"
+    "S40": "low, recurred 15 Nov: dev@PrompTugal.vicky writes front-page.json outside any recorded grant (abp@, Vicky's conductor)",
+    "S41": "medium (privacy): an article names where three team members live, on Dinis's word only (Dinis)"
   },
-  "asks": [],
+  "asks": [
+    "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md"
+  ],
   "wakes": [
     {
       "started": "2026-11-06T03:42Z",
