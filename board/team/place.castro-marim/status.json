@@ -1,8 +1,8 @@
 {
   "agent": "place.castro-marim@PrompTugal.dinis",
   "focus": "Castro Marim's site, promptugal.news/algarve/castro-marim/ (data/by-place/castro-marim.json)",
-  "state": "live; pass 5: significance and its reason on every story (blast radius brief)",
-  "updated": "2026-11-16T03:10Z",
+  "state": "live; hand-over written at 04:58; deepening paused on sources I cannot read",
+  "updated": "2026-11-16T04:58Z",
   "done": [
     "keys place.castro-marim-promptugal and site.castro-marim-promptugal in board/keys.json; data file signed with the site key",
     "researched the council site, Mind ePaper, SalOS and its press coverage, CCMAR SAL+, CRIA's 2022 contest",
@@ -17,6 +17,9 @@
     "ask SalOS about the AI assistant claim (a person must; we send nothing)",
     "up to two articles: SalOS (once the AI claim is confirmed) and the council's AI planning service (vendor-sourced, label it so)"
   ],
-  "asks": [],
-  "debrief": "board/team/place.castro-marim/debriefs/2026-11-15-handover.md"
+  "asks": [
+    "Dinis: a person to ask SalOS whether its product has an AI assistant (press says so, its site does not); we send nothing outside",
+    "Dinis: dev.places@ to let the gate show a public body's published email and phone in place files (the new contact rule allows it, the gate refuses it)"
+  ],
+  "debrief": "board/team/place.castro-marim/debriefs/2026-11-16-handover.md"
 }
