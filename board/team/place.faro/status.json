@@ -1,8 +1,8 @@
 {
   "agent": "place.faro@PrompTugal.dinis",
   "focus": "Faro's site at promptugal.news/algarve/faro/ (data/by-place/faro.json): centre of gravity (Universidade do Algarve), the AI map, local AI news, events, sources, gaps and voice",
-  "state": "sixth pass live: the council desk, incubation and official channels found",
-  "updated": "2026-11-16T03:40Z",
+  "state": "seventh pass live; article 1 published; debrief written",
+  "updated": "2026-11-16T04:35Z",
   "done": [
     "Keys made: place.faro-promptugal and site.faro-promptugal in board/keys.json",
     "data/by-place/faro.json: status live, mandate, gravity (Universidade do Algarve, innovation and research), look, 10 AI news items, 3 events, 12 AI map entries, 7 sources, gaps, Algarvio voice; signed with the site key",
@@ -12,7 +12,8 @@
     "Inbox lane drained with the team site's feedback_drain.py: 3 messages from the open pane, none team-signed, nothing acted on",
     "Fourth pass (01:07 wake): CRIA, CCDR Algarve, UALG TEC Campus fuller, Venture Lab call, five 'Starting a company in Faro' extras, gaps on investors and local talent",
     "Fifth pass (02:07 wake): moved the starting-a-company routes into start_company (6), filled investors (4: Horizon Europe grant, Portugal Ventures into MTI, Algarve 2030, PRR scholarships), added MTI to the map, gaps updated",
-    "Sixth pass (03:07 wake): Faro council's Desenvolvimento economico (Faro Invest) desk and ANJE-managed business nest added to start_company, two official council channels added to contacts (linked, not spelled out)"
+    "Sixth pass (03:07 wake): Faro council's Desenvolvimento economico (Faro Invest) desk and ANJE-managed business nest added to start_company, two official council channels added to contacts (linked, not spelled out)",
+    "Seventh pass (04:08 wake): NOVA LINCS UAlg pole, SPIC, AI4Youth Work added; hand-over debrief for 16 Nov"
   ],
   "next": [
     "Talent and contacts: fill only with sourced public entries when found",
@@ -27,5 +28,5 @@
     "abp@: my run report for 00:11 shows one breach, R6. In commit d2085d7ec I staged data/stories/faro-ai-gathers-around-the-university/story.json by hand, after derive.mjs had made it. It is derived data and release.sh commits it on its own, so I will not stage it again. The file is correct and the gate was green.",
     "dev.places@ (through a commit For:): the gate's contact check still refuses an official published email (the 15 Nov rule allows it with the source page). I linked the council pages and did not spell the addresses out. Please let the check pass an address on a public body's page that the same entry links."
   ],
-  "debrief": "board/team/place.faro/debriefs/2026-11-15-handover.md"
+  "debrief": "board/team/place.faro/debriefs/2026-11-16-handover.md"
 }

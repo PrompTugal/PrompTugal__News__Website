@@ -188,6 +188,16 @@
       "read_on": "2026-11-15",
       "ai_path": "A university course on AI for healthcare managers: directly about AI.",
       "steps": 0
+    },
+    {
+      "title": "AI4Youth Work brings an Erasmus+ project on AI for youth workers to UALG TEC Campus",
+      "summary": "Contextos and Algarve STP ran an English-language co-creation session in Faro on 2 April 2025 about helping youth workers use AI tools, with ethics and digital inclusion on the agenda.",
+      "date": "2025-03-19",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/ualg-tec-campus-acolhe-apresentacao-de-projeto-sobre-inteligencia-artificial-para-jovens/",
+      "read_on": "2026-11-16",
+      "ai_path": "A session on AI for youth work held in Faro: directly about AI. Older than the 2026 items.",
+      "steps": 0
     }
   ],
   "sources": [
@@ -473,6 +483,36 @@
       "read_on": "2026-11-16",
       "ai_path": "Its origin was a research project using AI algorithms, but the 2022 article does not say how the product uses AI now.",
       "steps": 2
+    },
+    {
+      "name": "NOVA LINCS, UAlg pole (engineering laboratory, Campus da Penha)",
+      "type": "institution",
+      "url": "https://www.ualg.pt/sites/default/files/procedimentos/2025-11/edital-722025-pt.pdf",
+      "what": "A UAlg research centre in Faro. A November 2025 call for a one-year research grant starting in January 2026 places the work there, on the AI.INSIGHTS project (AI-powered real-time anonymous user monitoring), funded by Algarve FEDER, seeking computer vision and AI skills.",
+      "source_url": "https://www.ualg.pt/sites/default/files/procedimentos/2025-11/edital-722025-pt.pdf",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs an AI research project in Faro.",
+      "steps": 0
+    },
+    {
+      "name": "SPIC",
+      "type": "company",
+      "url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
+      "what": "A digital studio based in the Algarve (the page does not name the town) with an R&D consortium with UAlg. In 2023 it used AI trained on more than 9,000 records to build a stage hologram for the band D'ZRT.",
+      "source_url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds AI-made holograms and co-develops projects with UAlg.",
+      "steps": 0
+    },
+    {
+      "name": "AI4Youth Work (Erasmus+ project, with Contextos and Algarve STP)",
+      "type": "community",
+      "url": "https://www.barlavento.pt/ualg-tec-campus-acolhe-apresentacao-de-projeto-sobre-inteligencia-artificial-para-jovens/",
+      "what": "An Erasmus+ project to help youth workers use AI tools, with partners in Portugal, Greece, Italy and Romania. Its Algarve session was held at UALG TEC Campus in Faro on 2 April 2025.",
+      "source_url": "https://www.barlavento.pt/ualg-tec-campus-acolhe-apresentacao-de-projeto-sobre-inteligencia-artificial-para-jovens/",
+      "read_on": "2026-11-16",
+      "ai_path": "A European project on AI for youth work, presented in Faro.",
+      "steps": 0
     }
   ],
   "extras": [],
@@ -485,13 +525,14 @@
     "We could not open postal.pt, algarvestp.pt or bot-goncalves.pt (a bot challenge or a host this session cannot reach), so Algarve STP, Bot Gonçalves and Postal do Algarve are only reached through Barlavento. Bot Gonçalves is not placed in Faro because no page we opened says where it is.",
     "No feed found for the council, UAlg or Algarve Evolution. Barlavento's RSS works, while Sul Informação's feed returned 403.",
     "Dengun's base city is not stated on the page we read, so it is not placed in Faro. Sul Informação, which covers it, and dengun.com both answer 403 to us.",
-    "Still unsourced: other UAlg groups working on AI (we have only CEOT, from a 2024 workshop page), the Faro hospital's AI use, and Invisible CFO, FarmAssist and Witflow, whose base cities no page we opened gives.",
     "Missing: dates for Algarve Evolution's AIA community meetups beyond what its own events page lists, since the listings also sit on meetup.com and luma.com, which we do not read, and weather from IPMA.",
     "Algarve Evolution's own events page tags no event as AI. We list events by their content and say so.",
     "AMAL, the Região de Turismo do Algarve and the Faro airport belong on the map as public bodies, but the pages we read do not connect them to AI, so we left them out for now.",
     "Investors: the entries above are grants, a programme and one 2022 venture investment. We found no 2025 or 2026 funding round for a Faro company. Sources to look for: Portugal Ventures and Banco de Fomento notices, and company announcements (expressTEC and AuroraMed first).",
     "Faro council does run an economic development desk (Faro Invest) and a business nest managed by ANJE, but its incubation page names no services, price, sector or way to apply, and neither page mentions AI. We still need the council's AI use, if any, and ANJE's own page for the nest.",
-    "Local talent is not filled: no Faro source lists anyone, and nobody has agreed to be listed here."
+    "Local talent is not filled: no Faro source lists anyone, and nobody has agreed to be listed here.",
+    "Still unsourced: other UAlg research groups beyond CEOT and NOVA LINCS, the Faro hospital's AI use, and Invisible CFO, FarmAssist and Witflow, whose base cities no page we opened gives. SPIC's town is also not stated.",
+    "Barlavento's AI tag shows no new Faro AI story dated after 6 November 2026 at 04:00 UTC on 16 November."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
