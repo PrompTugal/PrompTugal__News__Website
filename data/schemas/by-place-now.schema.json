@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/by-place-now.schema.json",
+  "title": "Now in a place (data/by-place/now/<place>.json)",
+  "description": "Written by board/tools/local-now.mjs from IPMA's open data and adsb.lol (Faro airport), each value with its source and the time read (Dinis, 16 November 2026: the storm's local data, refreshed; board/briefs/2026-11-16-storm-local-data.md). Not a warning service.",
+  "type": "object",
+  "required": ["place", "read_at", "by", "reads"],
+  "properties": {
+    "place": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "read_at": { "type": "string" },
+    "by": { "type": "string" },
+    "about": { "type": "string" },
+    "station": { "type": ["object", "null"] },
+    "forecast": { "type": ["object", "null"] },
+    "warnings": { "type": ["object", "null"] },
+    "fire_risk": { "type": ["object", "null"] },
+    "uv": { "type": ["object", "null"] },
+    "sea": { "type": ["object", "null"] },
+    "airport": { "type": ["object", "null"] },
+    "places": { "type": "array" },
+    "reads": { "type": "object" }
+  },
+  "additionalProperties": false
+}

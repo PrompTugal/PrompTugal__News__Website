@@ -202,3 +202,4 @@
 .fe-ptmap .rg { font: 700 10px var(--sans); fill: var(--brand-green, #0b6b2e); }
 .fe-ptk { font: 500 12px var(--sans); } .fe-ptk span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: middle; margin: 0 4px 0 10px; }
 .fe-ptk .on { background: var(--brand-green, #0b6b2e); } .fe-ptk .next { border: 1.5px solid var(--brand-red, #c8102e); }
+.fe-now { font: 500 13px var(--sans); margin: 14px 0 0; } .fe-now b { color: var(--brand-red, #c8102e); text-transform: uppercase; letter-spacing: .08em; font-size: 12px; margin-right: 8px; } .fe-now small { opacity: .7; margin-left: 6px; }

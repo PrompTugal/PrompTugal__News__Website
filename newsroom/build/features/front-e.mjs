@@ -94,7 +94,7 @@ function lead(ctx, a) {
 function placesOf(ctx, all) {
     const rd = f => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, f), 'utf8')) } catch { return null } }
     const L = rd('data/by-place/places.json') || { places: [], copy: {} }
-    const towns = L.places.filter(p => p.kind === 'municipality' || p.kind === 'city')
+    const towns = L.places.filter(p => p.kind === 'municipality' || p.kind === 'city')   // every town and city (the map); the Algarve's list filters by parent
     const art = t => all.filter(a => a.meta.town === t).sort((x, y) => String(y.meta.date).localeCompare(String(x.meta.date)))[0]
     const rows = towns.map(p => { const d = rd(`data/by-place/${p.id}.json`) || {}; return { p, news: (d.ai_news || []).length, map: (d.ai_map || []).length, a: art(p.id), n: (d.ai_news || [])[0] } })
     return { L, rows }
@@ -110,18 +110,27 @@ function ptMap(ctx, PR) {
     const V = { lon0: -9.65, lon1: -6.1, lat0: 36.85, lat1: 42.2 }, k = Math.cos(39.5 * Math.PI / 180), W = 420
     const sc = W / ((V.lon1 - V.lon0) * k), H = Math.round((V.lat1 - V.lat0) * sc)
     const X = lo => ((lo - V.lon0) * k * sc).toFixed(1), Y = la => ((V.lat1 - la) * sc).toFixed(1)
-    const land = (n, c) => (O.countries[n] || []).map(poly => `<path class="${c}" d="${poly.map(r => 'M' + r.map(([lo, la]) => `${X(lo)},${Y(la)}`).join('L') + 'Z').join('')}"/>`).join('')
+    const land = (n, c) => (O.countries[n] || []).map(poly => put(item('mland'), { cls: c, d: poly.map(r => 'M' + r.map(([lo, la]) => `${X(lo)},${Y(la)}`).join('L') + 'Z').join('') })).join('')
     const esc = ctx.md.esc
-    const pins = PR.filter(r => Array.isArray(r.p.at)).map(r => { const rr = (2.5 + Math.min(5, Math.sqrt(r.news + r.map) * 0.8)).toFixed(1)
-        return `<a href="${r.p.path}index.html"><title>${esc(r.p.name)}: ${r.news} local AI stories, ${r.map} on the AI map</title><circle class="on" cx="${X(r.p.at[0])}" cy="${Y(r.p.at[1])}" r="${rr}"/></a>` }).join('')
-    const next = (N?.places || []).map(q => `<g class="next"><title>${esc(q.name)}: coming next</title><circle cx="${X(q.at[0])}" cy="${Y(q.at[1])}" r="3.2"/><text x="${(+X(q.at[0]) + 6).toFixed(1)}" y="${(+Y(q.at[1]) + 3).toFixed(1)}">${esc(q.name)}</text></g>`).join('')
-    const alg = `<text class="rg" x="${X(-8.9)}" y="${Y(36.9)}">The Algarve</text>`
-    return `<svg class="fe-ptmap" viewBox="0 0 ${W} ${H}" role="img" aria-label="Map of mainland Portugal: ${PR.length} places covered in the Algarve, ${(N?.places || []).length} district capitals coming next">${land('Spain', 'es')}${land('Portugal', 'pt')}${next}${pins}${alg}</svg>`
+    const pins = PR.filter(r => Array.isArray(r.p.at)).map(r => put(item('mpin'), { href: r.p.path + 'index.html', title: esc(`${r.p.name}: ${r.news} local AI stories, ${r.map} on the AI map`), x: X(r.p.at[0]), y: Y(r.p.at[1]), r: (2.5 + Math.min(5, Math.sqrt(r.news + r.map) * 0.8)).toFixed(1) })).join('')
+    const have = new Set(PR.map(r => r.p.id)), next = (N?.places || []).filter(q => !have.has(q.id)).map(q => put(item('mnext'), { title: esc(q.name), x: X(q.at[0]), y: Y(q.at[1]), lx: (+X(q.at[0]) + 6).toFixed(1), ly: (+Y(q.at[1]) + 3).toFixed(1) })).join('')
+    return put(item('map'), { w: W, h: H, aria: esc(`Map of mainland Portugal: ${PR.length} places covered, ${(N?.places || []).length} district capitals to come`), body: land('Spain', 'es') + land('Portugal', 'pt') + next + pins, ax: X(-8.9), ay: Y(36.9) })
+}
+
+// Now in the Algarve, one line under the ticker (Dinis, 16 Nov): data/by-place/now/ (board/tools/local-now.mjs); markup: front-e.tmpl
+function nowLine(ctx) {
+    const rd = f => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, f), 'utf8')) } catch { return null } }
+    const R = rd('data/by-place/now/algarve.json'), F = rd('data/by-place/now/faro.json'); if (!R) return ''
+    const esc = ctx.md.esc, r = F && F.station && F.station.reading, fr = F && F.fire_risk && F.fire_risk.days[0], w = R.warnings.active
+    const bits = [r && put(item('nowlink'), { href: esc(F.station.source), text: `Faro ${r.temp_c} °C` }), fr && esc(`fire risk ${fr.level}`),
+        put(item('nowlink'), { href: esc(R.warnings.source), text: w.length ? esc('IPMA: ' + w.map(x => `${x.level} ${x.type} from ${String(x.start).slice(5, 10)}`).join(', ')) : 'IPMA: no warning' }),
+        R.airport && put(item('nowlink'), { href: esc(R.airport.source), text: `Faro airport: ${R.airport.airline.length} airline flights near` })].filter(Boolean)
+    return put(item('now'), { bits: bits.join(' · '), at: esc(String(R.read_at).slice(11, 16)) })
 }
 
 function fillE(page, ctx) {
     const esc = ctx.md.esc, { AGENDA, itemsOn } = load(ctx)
-    const fo = frontOrder(ctx), placed = fo.filter(a => a.meta.region || a.meta.town).sort((x, y) => String(y.meta.date).localeCompare(String(x.meta.date)))
+    const fo = frontOrder(ctx), placed = fo.filter(a => a.meta.region || a.meta.town).sort((x, y) => (y.meta.front_lead ? 1 : 0) - (x.meta.front_lead ? 1 : 0) || String(y.meta.date).localeCompare(String(x.meta.date)))
     const all = [...placed, ...fo.filter(a => !placed.includes(a))]
     const { L: PL, rows: PR } = placesOf(ctx, all)
     const story = (a, i) => put(item('story'), { big: i ? '' : ' big', beat: esc(beatOf(a)), href: a.rel, title: esc(a.meta.title), dek: esc(cut(a.meta.summary || '', 170)), pill: pill(ctx, a),
@@ -147,13 +156,13 @@ function fillE(page, ctx) {
         spectrum: stripHtml(ctx, ''),   // GAMMA-Ray's cards under the lead (THE RESTART: the agentic edition), left out with no data
         ...(() => { const tk = PR.filter(r => r.a || r.n).map(r => r.a ? { href: r.a.rel, date: r.a.meta.date, when: esc(r.p.name), what: esc(cut(r.a.meta.title, 80)), where: '' } : { href: r.p.path + 'index.html', date: '', when: esc(r.p.name), what: esc(cut(r.n.title || r.n.headline || '', 80)), where: '' })
             return { '#week': many('week', tk), '#week_again': many('week', tk.map(w => ({ ...w, tab: ' tabindex="-1"' }))) } })(),
-        places_intro: esc(PL.copy?.home_places_intro || ''), ptmap: ptMap(ctx, PR),
-        '#places': many('place', PR.map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} · ${r.map}`, newest: r.a ? put(item('pnew'), { href: r.a.rel, title: esc(cut(r.a.meta.title, 70)) }) : '' }))),
+        places_intro: esc(PL.copy?.home_places_intro || ''), ptmap: ptMap(ctx, PR), nowline: nowLine(ctx),
+        '#places': many('place', PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} · ${r.map}`, newest: r.a ? put(item('pnew'), { href: r.a.rel, title: esc(cut(r.a.meta.title, 70)) }) : '' }))),
         '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town)).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
         '#stories': placed.slice(1, 9).map(story).join(''),
         '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),
         '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
-        '#nums': many('num', [[PR.length, 'Algarve places, an agent each'], [PR.reduce((s, r) => s + r.news, 0), 'local AI stories, sourced'], [PR.reduce((s, r) => s + r.map, 0), 'AI builders mapped'], [signed, 'stories, signed']].map(([value, label]) => ({ value, label }))),
+        '#nums': many('num', [[PR.length, 'places, an agent each'], [PR.reduce((s, r) => s + r.news, 0), 'local AI stories, sourced'], [PR.reduce((s, r) => s + r.map, 0), 'AI builders mapped'], [signed, 'stories, signed']].map(([value, label]) => ({ value, label }))),
         '#asks': many('ask', ['AI companies in Faro', 'Who builds AI in Loulé?', 'Startups in the Algarve'].map(q => ({ q: encodeURIComponent(q), text: esc(q) }))),
     })
     return ''

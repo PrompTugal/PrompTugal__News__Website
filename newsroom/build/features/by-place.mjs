@@ -128,12 +128,30 @@ function entries(ctx, items, cls, extra) {
     return `{.bp-entries${cls ? ' .' + cls : ''}}\n` + items.map(x => `- ${url(x.url) ? `[${esc(ctx, x.name)}](${url(x.url)})` : `**${esc(ctx, x.name)}**`}${extra ? extra(x) : ''}${x.what ? ` ${esc(ctx, x.what)}` : ''} *${url(x.source_url) ? `[${esc(ctx, host(x.source_url))}](${url(x.source_url)})` : ''}${x.read_on ? `, read ${esc(ctx, dmy(x.read_on))}` : ''}*`).join('\n') + '\n\n'
 }
 
+// Now in <town> (Dinis, 16 Nov: the storm's local data, refreshed): data/by-place/now/<id>.json, written by
+// board/tools/local-now.mjs from IPMA and adsb.lol; every line links its source and says when it was read
+function nowBlock(ctx, p) {
+    let d; try { d = ctx.readJSON(`data/by-place/now/${p.id}.json`) } catch { return '' }
+    const t = s => String(s || '').slice(11, 16) + ' UTC', out = []
+    const r = d.station && d.station.reading
+    if (r) out.push(`- **${r.temp_c ?? '?'} °C**, ${r.humidity_pct ?? '?'}%, ${r.wind_kmh ?? '?'} km/h · [${esc(ctx, d.station.name)}](${d.station.source}), ${d.station.km} km, at ${t(r.at)}`)
+    const f = d.forecast && d.forecast.days && d.forecast.days[0]
+    if (f) out.push(`- ${f.t_min_c ?? '?'} to ${f.t_max_c ?? '?'} °C, rain ${f.rain_prob_pct ?? '?'}% · [${esc(ctx, d.forecast.place)}](${d.forecast.source})${d.forecast.km > 5 ? `, ${d.forecast.km} km` : ''}`)
+    const w = d.warnings && d.warnings.active || []
+    out.push(w.length ? w.map(x => `- **${esc(ctx, x.level)}:** ${esc(ctx, x.type)}, ${esc(ctx, String(x.start).slice(0, 16).replace('T', ' '))} · [IPMA](${d.warnings.source})`).join('\n') : `- No warning · [IPMA](${d.warnings.source})`)
+    const fr = d.fire_risk && d.fire_risk.days && d.fire_risk.days[0]
+    if (fr) out.push(`- Fire risk ${esc(ctx, fr.level)} · [IPMA](${d.fire_risk.source})`)
+    if (d.sea) out.push(`- Waves ${d.sea.waves_max_m ?? '?'} m, sea ${d.sea.sea_temp_max_c ?? '?'} °C · [${esc(ctx, d.sea.coast)}](${d.sea.source})`)
+    if (d.airport) out.push(`- LPFR: ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} · [adsb.lol](${d.airport.source}), at ${t(d.airport.at)}`)
+    return `{.mini-h}\nNow in ${esc(ctx, p.name)}\n\n{.bp-now}\n${out.join('\n')}\n\n`
+}
+
 function sideCol(ctx, L, p, rel, inside) {
     const v = p.voice || {}
     let md = ''
     if (inside.length) md += `{.mini-h}\nInside ${esc(ctx, p.name)}\n\n${inside.map(x => `- [${esc(ctx, x.name)}](${ctx.link(rel, `${x.path}index.html`)})`).join('\n')}\n\n`
     md += `{.mini-h}\nEvents\n\n` + (p.events.length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
-    if (p.kind !== 'country') md += `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
+    if (p.kind !== 'country') md += nowBlock(ctx, p) || `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
     if (p.extras.length) md += `{.mini-h}\nIn figures\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
     if (p.start_company.length) md += `{.mini-h}\n${W(L, 'start_h', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.start_company, '', x => x.kind ? ` \`${esc(ctx, x.kind)}\`` : '')
     if (p.contacts.length) md += `{.mini-h}\n${W(L, 'contacts_h')}\n\n` + entries(ctx, p.contacts, '', x => x.channel ? `: ${esc(ctx, x.channel)}${/[.!?:]$/.test(x.channel.trim()) || !x.what ? '' : '.'}` : '')
@@ -360,6 +378,7 @@ export function api(ctx) {
         { path: 'api/v1/by-place/index.json', schema: null, data: { about: W(L, 'api_index_about'), version: ctx.VERSION, built: ctx.TODAY,
             places: recs.map(r => ({ id: r.id, name: r.name, kind: r.kind, parent: r.parent, path: L.byId.get(r.id).path, agent: r.agent, status: r.status, updated: r.updated, ai_news: r.counts.ai_news, ai_map: r.counts.ai_map, articles: r.counts.articles, page: r.page, api: `${SITE_URL}api/v1/by-place/${r.id}.json`, at: r.at, accent: r.look.accent, landmark: r.look.landmark, identity: L.byId.get(r.id).identity || null, signature: r.identity.signature })) } },
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}.json`, schema: null, data: { about: W(L, 'api_place_about', { name: r.name }), version: ctx.VERSION, ...r } })),
+        ...recs.flatMap(r => { try { return [{ path: `api/v1/by-place/${r.id}/now.json`, schema: null, data: ctx.readJSON(`data/by-place/now/${r.id}.json`) }] } catch { return [] } }),
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/agents.json`, schema: null, data: agentsFile(ctx, L, L.byId.get(r.id)) })),
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/articles.json`, schema: null, data: { about: W(L, 'api_articles_about', { name: r.name }), place: r.id, version: ctx.VERSION, articles: r.articles } })),
     ]
