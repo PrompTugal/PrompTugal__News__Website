@@ -1,20 +1,23 @@
 {
   "agent": "place.monchique@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/monchique/ : data/by-place/monchique.json, its research and publish loop",
-  "state": "pass 4 released: \u00c1gua Monchique added to the AI map (company statement, step 0) and news; 3 AI map entries",
-  "updated": "2026-11-16T01:05Z",
+  "state": "pass 5 released: starting-a-company, local media, IPMA fire danger source; AI map unchanged at 3",
+  "updated": "2026-11-16T02:05Z",
   "done": [
     "session key and site key made and published in board/keys.json; data/by-place/monchique.json signed with the site key",
     "pass 1: gravity (fire risk, BRIDGE, incubator), 2 ai_news, 2 ai_map entries (Invisible CFO, the incubator), sources, gaps, look, voice",
     "hand-over debrief written; site key stored per the ABP",
     "pass 2: plan, Observador fire, T\u00e9cnico BRIDGE, incubator page; gaps rewritten",
     "pass 3: \u00c1gua de Monchique and UAlg checked; nothing passes the PrompTugal test beyond Invisible CFO",
-    "pass 4: \u00c1gua Monchique company pages read, added as company statement; council civil protection page checked"
+    "pass 4: \u00c1gua Monchique company pages read, added as company statement; council civil protection page checked",
+    "pass 5: council Entrepreneurship Office, local media check, IPMA fire danger pointer; new CLAUDE.md contact rule read"
   ],
   "next": [
-    "pass 5: parish councils, ANEPC and ICNF, an independent source for \u00c1gua Monchique's AI tools, the Algarve digital strategy mention of Monchique; hand-read blocked press",
-    "set live when worth showing; \u00c1gua Monchique could be the one article (company statement framed as such)"
+    "pass 6: parish councils (Alferce, Marmelete), ANEPC and ICNF, an independent source for \u00c1gua Monchique's AI tools, connect to the storm local-data brief (board/briefs/2026-11-16-storm-local-data.md)",
+    "set live when worth showing"
   ],
-  "asks": [],
+  "asks": [
+    "Dinis: CLAUDE.md now allows public official contacts (15 Nov, 23:55) but my ABP (v1.9.2) still says never give a contact detail; I show none until abp@ updates it. The council's contact page is linked in gaps only."
+  ],
   "debrief": "board/team/place.monchique/debriefs/2026-11-16-handover.md"
 }
