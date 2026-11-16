@@ -60,16 +60,6 @@
       "steps": 3
     },
     {
-      "title": "Santarém's local health unit joins a WHO conference on AI in health",
-      "summary": "Unidade Local de Saúde da Lezíria sent a specialist in information systems to the WHO and Ministry of Health conference Shaping AI in Health in Lisbon, with delegates from 37 countries, and tied it to its digital transformation strategy.",
-      "date": "2026-08-08",
-      "publisher": "O Mirante",
-      "url": "https://omirante.pt/sociedade/2026-08-08-leziria-leva-experiencia-de-santarem-a-conferencia-mundial-sobre-inteligencia-artificial-na-saude-0b99eabb",
-      "read_on": "2026-11-16",
-      "ai_path": "A regional health unit from Santarém's headline learning about AI in care: directly about AI, one step from Santarém because the page does not name the unit's base.",
-      "steps": 1
-    },
-    {
       "title": "Health management congress at CNEMA puts AI on its agenda",
       "summary": "The fourth Congress of Management and Entrepreneurship in Health, on 25 and 26 September at the CNEMA fairground, listed AI and digital transformation among its topics, with a Siemens Healthineers Portugal strategy director as one speaker.",
       "date": "2026-08-17",
@@ -77,6 +67,16 @@
       "url": "https://omirante.pt/sociedade/2026-08-17-congresso-de-saude-em-santarem-leva-gestao-inteligencia-artificial-e-novos-modelos-de-negocio-9a9f2567",
       "read_on": "2026-11-16",
       "ai_path": "A health business congress in Santarém with an AI talk: AI is one theme among several, one step.",
+      "steps": 1
+    },
+    {
+      "title": "Santarém's local health unit joins a WHO conference on AI in health",
+      "summary": "Unidade Local de Saúde da Lezíria sent a specialist in information systems to the WHO and Ministry of Health conference Shaping AI in Health in Lisbon, with delegates from 37 countries, and tied it to its digital transformation strategy.",
+      "date": "2026-08-08",
+      "publisher": "O Mirante",
+      "url": "https://omirante.pt/sociedade/2026-08-08-leziria-leva-experiencia-de-santarem-a-conferencia-mundial-sobre-inteligencia-artificial-na-saude-0b99eabb",
+      "read_on": "2026-11-16",
+      "ai_path": "A regional health unit from Santarém's headline learning about AI in care: directly about AI, one step from Santarém because the page does not name the unit's base.",
       "steps": 1
     },
     {
@@ -107,6 +107,16 @@
       "url": "https://omirante.pt/educacao/2025-12-04-isla-santarem-promove-sessao-sobre-a-inteligencia-artificial-no-trabalho-diario-59fdbbe6",
       "read_on": "2026-11-16",
       "ai_path": "A hands-on AI training session at a Santarém college: directly about AI. Older than the 2026 items.",
+      "steps": 0
+    },
+    {
+      "title": "INCO Academy and the Politécnico sign a deal to teach generative AI to final-year students",
+      "summary": "On 1 October 2025 INCO Academy and the digital literacy unit of the Santarém polytechnic agreed to run NewFutures: AI, about 40 hours over four weeks online, with a core generative AI module plus tracks such as marketing, finance and ICT. The two sides also plan to explore an AI community of practice.",
+      "date": "2025-10-01",
+      "publisher": "Pólo de Literacia Digital e Inclusão Social, Universidade Politécnica de Santarém",
+      "url": "https://pololiteraciadigital.ipsantarem.pt/?p=6792",
+      "read_on": "2026-11-16",
+      "ai_path": "A Santarém university putting AI literacy into its students' final year: directly about AI. The date is the signing date, the page shows no other date.",
       "steps": 0
     }
   ],
@@ -152,9 +162,28 @@
       "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Pólo de Literacia Digital e Inclusão Social, UPSantarém",
+      "url": "https://pololiteraciadigital.ipsantarem.pt",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Câmara Municipal de Santarém on gov.pt (official portal listing)",
+      "url": "https://www.gov.pt/entidades/camara-municipal-de-santarem",
+      "kind": "council",
+      "feed": null
     }
   ],
   "events": [
+    {
+      "title": "Presentation session of IN.OVATE, an advanced-training association of the polytechnics of Santarém and Tomar (Escola Superior de Educação, Santarém)",
+      "date": "2026-11-17",
+      "url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-palco-da-sessao-de-apresentacao-da-in-ovate/",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    },
     {
       "title": "IV Congress of Management and Entrepreneurship in Health, with AI among its topics (CNEMA, past)",
       "date": "2026-09-25 to 2026-09-26",
@@ -232,7 +261,7 @@
       "name": "Startup Santarém",
       "type": "organisation",
       "url": "https://comercioenoticias.pt/nersant-impulsiona-desenvolvimento-economico-regional-com-apresentacao-de-iniciaivas-e-mecanismos-de-apoio-as-empresas",
-      "what": "Business incubator in Santarém, certified by Startup Portugal, that had hosted 27 international projects under Startup Visa by April 2024. At an April 2024 workshop it showed AIPFL, an international project that uses AI for hair and skin treatments.",
+      "what": "Business incubator in Santarém, certified by Startup Portugal, that had hosted 27 international projects under Startup Visa by April 2024. At an April 2024 workshop it showed AIPFL, an international project that uses AI for hair and skin treatments. Re-accredited in October 2025 as a Local Incubator in Startup Portugal's national network, with about 80 companies in physical and virtual incubation by January 2026.",
       "source_url": "https://comercioenoticias.pt/nersant-impulsiona-desenvolvimento-economico-regional-com-apresentacao-de-iniciaivas-e-mecanismos-de-apoio-as-empresas",
       "read_on": "2026-11-16",
       "ai_path": "Incubates at least one AI project (2024 source).",
@@ -297,6 +326,26 @@
       "read_on": "2026-11-16",
       "ai_path": "A partner in a science park whose AI use is unconfirmed.",
       "steps": 3
+    },
+    {
+      "name": "Pólo de Literacia Digital e Inclusão Social (UPSantarém)",
+      "type": "institution",
+      "url": "https://pololiteraciadigital.ipsantarem.pt/?p=6792",
+      "what": "Digital literacy unit of the Santarém polytechnic. Signed an agreement with INCO Academy on 1 October 2025 to bring the NewFutures: AI generative-AI course to final-year students.",
+      "source_url": "https://pololiteraciadigital.ipsantarem.pt/?p=6792",
+      "read_on": "2026-11-16",
+      "ai_path": "Brings AI literacy training to students.",
+      "steps": 0
+    },
+    {
+      "name": "RIBA, Centre for Impact Entrepreneurship (NERSANT and Adorior)",
+      "type": "organisation",
+      "url": "https://comercioenoticias.pt/nersant-e-adorior-lancam-centro-para-o-empreendedorismo-de-impacto-em-santarem/",
+      "what": "Incubation, acceleration and training for impact startups in the Médio Tejo and Lezíria do Tejo, launched in January 2025 with an investment above 500,000 euros. The page does not mention AI.",
+      "source_url": "https://comercioenoticias.pt/nersant-e-adorior-lancam-centro-para-o-empreendedorismo-de-impacto-em-santarem/",
+      "read_on": "2026-11-16",
+      "ai_path": "A startup support centre in the district: its startups may use AI, but the page says nothing, so an inference.",
+      "steps": 3
     }
   ],
   "extras": [],
@@ -305,22 +354,92 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "Santarém's council site (cm-santarem.pt) answered 503 to us, so we read the council only through O Mirante and the university. We should look for its news page, its agenda, municipal minutes and procurement notices on base.gov.pt for any AI use in services.",
+    "Santarém's council site (cm-santarem.pt) still answered 503 on 16 November, so we read the council only through O Mirante, the university and gov.pt. We should look for its news page, agenda, municipal minutes, its investor support schemes and procurement notices on base.gov.pt for any AI use in services.",
     "Campus Tejo is the city's big technology story, but none of the pages we read (the mayor's DN article, the university's Web Summit note, the Observador interview) says it will use AI. It is on the map at three steps as an inference, to be confirmed or removed. A programme or a call from the park itself would settle it.",
-    "No feeds: the university and Comércio e Notícias have working feeds (listed), but O Mirante and NERSANT returned 404 on their usual feed paths, and rederegional.com, the Agroportal and the Campus Tejo pages we tried returned 403 or a redirect.",
+    "Feeds: the university's feed works and lists no AI item among its ten newest. Comércio e Notícias' feed works but showed nothing on Santarém AI. O Mirante and NERSANT have none that we found, NERSANT's events page lists nothing, and rederegional.com, the Agroportal and the Campus Tejo pages returned 403 or a redirect.",
     "A Bitcointalks Cripto and IA Summit at CNEMA on 14 and 15 November 2026 appears in search listings, but its only listing pages we could see are on sites we do not read, so it is not listed as an event. If its organisers publish it on their own site, add it.",
     "The Santarém video surveillance expansion (26 cameras today, 327 devices surveyed) is public, but the article mentions no AI analytics, so it is left out until a source says otherwise.",
     "We heard of a trial of a companion robot for older people by a Santarém social-solidarity union and of a smart-cane project at the Politécnico, but we could not open or confirm either page, so neither is listed.",
     "ISLA's accredited AI-related course and the university's own AI research groups are unsourced: the DGES page we read gave a data-analysis diploma but no AI course, and the university front page showed no AI content.",
     "Santarém, Portugal, is easy to confuse with Santarém in Pará, Brazil, whose university also launches an AI degree in 2026. We kept only Portuguese sources.",
-    "Investors: no funding round for a Santarém AI company found. The one money line is the 100,000 euro PRR grant behind ISLA's AI project. Sources to look for: Banco Português de Fomento notices, Startup Portugal and the Startup Santarém portfolio.",
-    "Startup Santarém's own pages were not reached, so its current companies are unknown beyond the 2024 workshop.",
-    "Contacts: none listed, since the council site did not load and we found no public body page with a published channel. NERSANT's and UPSantarém's channels exist on their pages but belong to a business association and a university, not a council, and are left for a later pass."
+    "Investors: no funding round for a Santarém AI company found. The money lines are the 100,000 euro PRR grant behind ISLA's AI project and the Portugal Inovação Social funding of RIBA. Sources to look for: Banco Português de Fomento notices, Startup Portugal and the Startup Santarém portfolio.",
+    "Startup Santarém's own site was not reached (nersant.pt/startup-santarem and startupsantarem.pt both gave 404), so its companies are unknown beyond a 2024 workshop and a January 2026 school visit, and we found no application steps or current call.",
+    "Contacts: only the council's gov.pt listing is shown. NERSANT publishes channels for its incubator on its own pages, but it is a business association, not a public body, so they are left out. The council's investor desk and the Via Express Investidor scheme named in a search snippet were not opened, so they are not listed.",
+    "Campus Tejo's planned incubator in the city centre was not confirmed on a page we opened this pass, so it is not listed under starting a company. The KNOWBIZ project sheet on ipsantarem.pt is a PDF we could not read, and the Agroportal piece on the innovation centre returned 403.",
+    "The council's own 'Gabinete' for entrepreneurs and the local Empresa na Hora counter were not found on any page we could open."
   ],
   "voice": {
     "lede": "Santarém, pá: the Capital do Gótico gazes over the Tejo from the Portas do Sol, the bulls rest between fairs, and somewhere between the blueberries and the wheat the city is quietly inventing a science park.",
     "mandate": "PrompTugal.news Santarém, a capital do Ribatejo: AI and tech in a city that grows things, with Campus Tejo as the big idea, plus whatever news rolls in from Portugal, Europe and the world. Independente, and every fact brings its receipt.",
     "gravity": "Santarém does agri-food science first and AI second, and says so honestly. The university, the council, ISLA, INIAV and the CNEMA fairground are building Campus Tejo, which went to Web Summit Lisbon, though nobody we read has said the word AI about it yet. Meanwhile ISLA has its own 100,000 euro AI project and the blueberry growers have already invited the machines in. Sim senhor, a lezíria with a laptop.",
     "gaps_intro": "Ainda não sabemos tudo, pá. Here is what Santarém has not told us yet:"
-  }
+  },
+  "start_company": [
+    {
+      "name": "Startup Santarém (NERSANT incubator)",
+      "what": "Business incubator opened in 2016 at the Escola Prática de Cavalaria with the council, with about 80 companies in physical and virtual incubation. Accredited in October 2025 as a Local Incubator in the national network, with three sister sites at Alcanena, Torres Novas and Ourém. The pages we read give no application steps.",
+      "url": "https://comercioenoticias.pt/nersant-volta-a-integrar-a-rede-nacional-de-incubadoras-portugal-incubators/",
+      "source_url": "https://comercioenoticias.pt/startup-santarem-recebeu-alunos-da-escola-profissional-vale-do-tejo/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "RIBA, Centre for Impact Entrepreneurship",
+      "what": "NERSANT and Adorior programme for startups with a cultural, social or environmental aim in Médio Tejo and Lezíria do Tejo: incubation, acceleration, training. It aimed to support 111 entrepreneurs over three years from January 2025.",
+      "url": "https://comercioenoticias.pt/nersant-e-adorior-lancam-centro-para-o-empreendedorismo-de-impacto-em-santarem/",
+      "source_url": "https://comercioenoticias.pt/nersant-e-adorior-lancam-centro-para-o-empreendedorismo-de-impacto-em-santarem/",
+      "read_on": "2026-11-16",
+      "kind": "accelerator"
+    },
+    {
+      "name": "Startup Portugal: One Stop Shop for founders and the national incubator network",
+      "what": "The national startup agency's page for founders points to funding, visas and programmes, and to the RNi network of accredited incubators, which includes Santarém's.",
+      "url": "https://startupportugal.com/one-stop-shop/",
+      "source_url": "https://www.startupportugal.com/",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    },
+    {
+      "name": "Empresa na Hora (state counters, Instituto dos Registos e do Notariado)",
+      "what": "A national scheme to set up a private limited, single-person or public limited company on the spot at a counter. The page lists no locations, so we do not say which counter serves Santarém.",
+      "url": "https://www.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+      "source_url": "https://www.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    }
+  ],
+  "investors": [
+    {
+      "name": "PRR recovery funds into ISLA Inteligente",
+      "what": "100,000 euros of Recovery and Resilience Plan grant for ISLA Santarém's AI ecosystem project, running 2026 to 2027.",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/07/C05-i14.01/2026.P31643/",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/07/C05-i14.01/2026.P31643/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "100,000 euros",
+      "date": "2026-01-01",
+      "ai_path": "Funds AI assistants and prediction at a Santarém college: directly about AI."
+    },
+    {
+      "name": "Portugal Inovação Social into RIBA",
+      "what": "Finances RIBA, the impact-entrepreneurship centre of NERSANT and Adorior, alongside the two intermunicipal communities and private investors. Total investment above 500,000 euros.",
+      "url": "https://comercioenoticias.pt/nersant-e-adorior-lancam-centro-para-o-empreendedorismo-de-impacto-em-santarem/",
+      "source_url": "https://comercioenoticias.pt/nersant-e-adorior-lancam-centro-para-o-empreendedorismo-de-impacto-em-santarem/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "amount": "more than 500,000 euros (whole project)",
+      "date": "2025-01-17",
+      "ai_path": "Backs a startup centre whose AI use is unconfirmed: three steps."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Santarém (official gov.pt listing)",
+      "what": "The portal lists the council's general phone and email and its address in Praça do Município. The council's own site did not load for us.",
+      "url": "https://www.gov.pt/entidades/camara-municipal-de-santarem",
+      "source_url": "https://www.gov.pt/entidades/camara-municipal-de-santarem",
+      "read_on": "2026-11-16",
+      "channel": "the council's general email and phone, published on its gov.pt entity page (open the linked page for them)"
+    }
+  ]
 }

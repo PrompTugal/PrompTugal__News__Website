@@ -430,6 +430,25 @@
       "read_on": "2026-11-16",
       "ai_path": "Uses a machine-learning scheduler in surgery planning.",
       "steps": 0
+    },
+    {
+      "name": "Centro ALGORITMI (UMinho)",
+      "type": "institution",
+      "url": "https://algoritmi.uminho.pt",
+      "what": "UMinho's computing research centre. A June 2024 Executive Digest report names it as a partner, with the university, InvestBraga, inCentea and the Associacao Empresarial de Braga, of a conference on AI in business held in Braga during the 7th Semana da Economia de Braga. Its own site returned a 503 again.",
+      "source_url": "https://executivedigest.sapo.pt/?p=499938",
+      "read_on": "2026-11-16",
+      "ai_path": "Research centre that co-hosted an AI in business conference.",
+      "steps": 1
+    },
+    {
+      "name": "Associacao Empresarial de Braga and inCentea",
+      "type": "organisation",
+      "what": "Business association and a business-services group that organised the 2024 AI in business conference in Braga's Semana da Economia, with ALGORITMI, UMinho and InvestBraga. The article gives no event date or venue.",
+      "source_url": "https://executivedigest.sapo.pt/?p=499938",
+      "read_on": "2026-11-16",
+      "ai_path": "Convened local companies around AI adoption.",
+      "steps": 1
     }
   ],
   "extras": [],
@@ -438,16 +457,19 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "Centro ALGORITMI, UMinho's computing research centre, is the obvious AI research group in Braga, but its site returned a 503 each time we tried, so it is on the map only through the university's Amalia role. Sources to look for: ALGORITMI's own news page and the UMinho AI master's page.",
+    "Centro ALGORITMI, UMinho's computing research centre, is the obvious AI research group in Braga, but its site returned a 503 again on 16 November, so it is on the map through a 2024 conference report and the university's Amalia role. Sources to look for: ALGORITMI's own news page and the UMinho AI master's page.",
     "We could not open the council's news page in a form that shows dates, and the main page lists old English-language headlines only. The council's AI use rests on one paywalled 2025 article and one 2025 pilot report, so we should look for council minutes, Norte 2030 and base.gov.pt notices for Intelligence4Administration.",
-    "No feed found for the council, InvestBraga, Startup Braga, UMinho or Diario do Minho. O Minho and Braga TV feeds work.",
+    "No feed found for the council, InvestBraga, Startup Braga, UMinho or Diario do Minho. O Minho and Braga TV feeds work. Startup Braga's news list does load, newest item 9 November 2026, but it has no feed link.",
     "A Cegid session in Braga on 24 November 2026 is listed by one search result, but another source places a similarly titled event in Funchal, so we left it out until Cegid's own registration page is read. We also could not reach Cegid's May 2026 Braga event article (403).",
     "Hayden AI and NIUM have no base city on the pages we opened, so they are placed on the map by their Braga work, not as Braga companies.",
     "dotmoovs: the press says founded in December 2024, other profiles say 2021, and one search result gave a PRR figure of 922,000 euros while the public PRR register page shows 30,000 euros for its project. We use the register's figure and flag the clash.",
     "Sources that would settle the AI map: the Hospital de Braga's own site for any 2026 AI use, the AEBraga training page (a course on AI no-code programming is listed in search but its page returned 404), INESC TEC and 2CA-Braga for health AI, and the University of Minho's technology-transfer pages.",
     "Investors: only older rounds found (Automaise 2021, PluggableAI 2024). No 2026 funding round for a Braga AI company was found. Sources to look for: Portugal Ventures and Banco de Fomento notices and company announcements.",
     "We did not read Startup Braga's pages on specific events, so the programme of its Startup Point and accelerator editions is not described, and no talent list is filled.",
-    "Braga has no data centre story in what we read, and the Deucalion supercomputer named at the November meeting is in Guimaraes, so it is not on the Braga map."
+    "Braga has no data centre story in what we read, and the Deucalion supercomputer named at the November meeting is in Guimaraes, so it is not on the Braga map.",
+    "Startup Braga's news list for 2026 was read (Startup Point'26 awards in October, a September item on the SpaceXAI lab, four startups funded by Portugal Ventures' Call INNOV-ID in July) but the items' own pages were not opened, so none is added as AI news and no AI path is shown for the INNOV-ID startups.",
+    "The council's investor pages and the Empresa na Hora counter pages for Braga were not opened in detail, so the steps, fees and any Braga counter location are not described. A 2026 PRR page on a Braga project (transparencia.gov.pt) returned 401 and a Portugal News item on CCTV in Braga returned no text, so neither is used.",
+    "The date of the 2024 AI in business conference in Braga (Semana da Economia de Braga) was not found, so it is on the map but not in events."
   ],
   "voice": {
     "lede": "Braga, ai ai ai: a city that rings its bells for the archbishop on Sunday and trains its models on Monday, with a bus full of AI cameras counting who parked on the bus stop.",
@@ -469,6 +491,22 @@
       "what": "The municipality's economic development agency, which also runs the Startup Braga hub and works on attracting companies to Braga.",
       "url": "https://www.investbraga.com",
       "source_url": "https://observador.pt/programas/emissao-especial/braga-conseguiu-tracar-um-caminho-na-fixacao-do-talento/",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Startup Portugal: One Stop Shop and programmes",
+      "what": "The national startup agency's page lists a One Stop Shop for founders covering funding, visas and programmes, plus programmes such as Road 2 Web Summit. Its events are in Lisbon and Porto only and the page does not mention Braga.",
+      "url": "https://www.startupportugal.com",
+      "source_url": "https://www.startupportugal.com",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Empresa na Hora (Instituto dos Registos e do Notariado)",
+      "what": "The state counter service that creates quota companies, single-member companies and public limited companies at once. The gov.pt page names the counter route and does not list steps, documents or fees, and we did not find a Braga counter page.",
+      "url": "https://www.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+      "source_url": "https://www.gov.pt/en/servicos/criar-uma-empresa-na-hora",
       "read_on": "2026-11-16",
       "kind": "public desk"
     }
@@ -526,6 +564,24 @@
       "type": "grant",
       "amount": "30,000 euros",
       "ai_path": "Funds a company that sells an AI movement app: one step from AI, because the register page does not mention AI."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "InvestBraga",
+      "what": "The municipal economic development company publishes a phone line, a general email and a postal address on its site, and lists investor sections (investment support, opportunities, incentives).",
+      "url": "https://www.investbraga.com",
+      "source_url": "https://www.investbraga.com",
+      "read_on": "2026-11-16",
+      "channel": "the company's general email and phone, published on its home page (open the linked page for them)"
+    },
+    {
+      "name": "Camara Municipal de Braga, contacts and investor pages",
+      "what": "The council's site has a Contacts page, an electronic counter and an Investing section with a contacts and links page. We saw a phone line in the footer and no general email or web form.",
+      "url": "https://www.cm-braga.pt/pt/0101/contactos",
+      "source_url": "https://www.cm-braga.pt/pt/0101/contactos",
+      "read_on": "2026-11-16",
+      "channel": "the council's phone line and electronic counter, published on its Contacts page (open the linked page)"
     }
   ]
 }

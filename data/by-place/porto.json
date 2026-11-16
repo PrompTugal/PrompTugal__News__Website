@@ -9,7 +9,7 @@
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Porto: AI and technology in Porto, a university and startup city whose centre of gravity is UPTEC, the University of Porto's science park, its AI startups and its research institutes, and what reaches Porto from Portugal, Europe and the world. Independent, and every fact sourced.",
   "gravity": {
-    "text": "Porto's AI activity clusters around UPTEC, the science park of the University of Porto, where a 2025 report found at least five AI startups in health, industry and restaurants, where a Portuguese-and-European supercomputing programme (the BSC AI Factory) started an AI incubation round in October 2026, and where Granter raised 1.6 million euros in November. Around it sit a Porto venture fund (33N), a business school (Porto Business School), a marketing AI community (AIhub) and the municipal company Porto Digital, which describes AI for traffic and flow prediction under a no black box rule. The Global Startup Ecosystem Report 2026 names AI as one of four growth drivers.",
+    "text": "Porto's AI activity clusters around UPTEC, the science park of the University of Porto, where a 2025 report found at least five AI startups in health, industry and restaurants, where a Portuguese-and-European supercomputing programme (the BSC AI Factory) started an AI incubation round in October 2026, and where Granter raised 1.6 million euros in November. Around it sit a Porto venture fund (33N), a business school (Porto Business School), a marketing AI community (AIhub) and Porto Digital, the city's digital body, which describes AI for traffic and flow prediction under a no black box rule and took two AI talks to the Smart City Expo in Barcelona in November 2026. The Global Startup Ecosystem Report 2026 names AI as one of four growth drivers. The wider university and research base adds the FEUP laboratory LIACC, the research institute INESC TEC (which hosted the AI, Data and Robotics Forum in Porto in October 2026) and Fraunhofer Portugal AICOS.",
     "sources": [
       {
         "title": "Granter attracts 1.6 million euros and prepares European expansion (UPTEC news, University of Porto, 6 November 2026)",
@@ -30,6 +30,11 @@
         "title": "Uptec: from health to the factory floor, AI is changing business (ECO, 26 October 2025)",
         "url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
         "read_on": "2026-11-16"
+      },
+      {
+        "title": "Porto shows at the world's biggest smart city stage how to test, scale and govern urban innovation (Município do Porto, 10 November 2026)",
+        "url": "https://www.porto.pt/pt/noticia/porto-mostra-no-maior-palco-mundial-de-smart-cities-como-testar-escalar-e-governar-inovacao-urbana/",
+        "read_on": "2026-11-16"
       }
     ]
   },
@@ -40,6 +45,16 @@
   },
   "ai_news": [
     {
+      "title": "Porto takes two AI talks to the Smart City Expo in Barcelona",
+      "summary": "The city's digital body Porto Digital presented AI research for urban innovation and a hackathon on making generative AI trustworthy for city systems. The council says Porto currently holds the secretary-general role of the Cities Coalition for Digital Rights, which covers responsible AI.",
+      "date": "2026-11-10",
+      "publisher": "Município do Porto",
+      "url": "https://www.porto.pt/pt/noticia/porto-mostra-no-maior-palco-mundial-de-smart-cities-como-testar-escalar-e-governar-inovacao-urbana/",
+      "read_on": "2026-11-16",
+      "ai_path": "The city's own digital body presents AI work and the council links its rights network to responsible AI: directly about AI.",
+      "steps": 0
+    },
+    {
       "title": "Granter, an AI funding assistant from UPTEC, raises 1.6 million euros",
       "summary": "The startup uses AI to help small and medium firms find public funding, prepare applications and manage projects. The round was led by 3XP Global with Banco Português de Fomento money, and the team plans to more than double by year-end and enter Spain, Germany and Italy.",
       "date": "2026-11-06",
@@ -47,6 +62,36 @@
       "url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
       "read_on": "2026-11-16",
       "ai_path": "A Porto-incubated company whose product is an AI platform: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Fraunhofer Portugal Challenge 2026 honours AI work, announced at AICOS in Porto",
+      "summary": "The 17th edition of the ideas competition closed on 29 October at the AICOS centre in Porto. Winners included drone detection with AI models, an AI method to predict brain movement during tumour surgery and a student's AI and computer vision tool for school safety.",
+      "date": "2026-11-02",
+      "publisher": "Fraunhofer Portugal AICOS",
+      "url": "https://aicos.fraunhofer.pt/en/news/archive/2026/fhp-challenge-2026.html",
+      "read_on": "2026-11-16",
+      "ai_path": "A Porto research centre rewards AI projects: directly about AI, though the winners come from universities across Portugal.",
+      "steps": 0
+    },
+    {
+      "title": "The council opens eight digital projects to Porto's startups and universities at a pitch day",
+      "summary": "At the Porto Innovation Hub the council presented eight municipal projects in digital services, administrative modernisation, smart city and employability, asking firms and universities to propose solutions. The page does not say which projects use AI.",
+      "date": "2026-10-28",
+      "publisher": "Município do Porto",
+      "url": "https://www.porto.pt/pt/noticia/autarquia-apresenta-ao-ecossistema-da-cidade-projetos-estrategicos-de-inovacao-e-transformacao-digital/",
+      "read_on": "2026-11-16",
+      "ai_path": "A council opening its digital modernisation projects to tech firms, with no AI named on the page: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "title": "Porto's CitiLink project, AI that structures council meeting minutes, wins a national prize",
+      "summary": "CitiLink turns long municipal minutes into structured information on topics, positions and decisions. Built by INESC TEC, the University of Porto and UBI between 2024 and early 2026, it involved Porto and five other municipalities and Porto Digital. The jury praised its potential for transparency.",
+      "date": "2026-10-26",
+      "publisher": "UPTEC news (University of Porto)",
+      "url": "https://noticias.up.pt/2026/10/26/projeto-sobre-ia-e-democracia-vence-premio-cidades-e-territorios-do-futuro/",
+      "read_on": "2026-11-16",
+      "ai_path": "Research AI built with the Porto council and its digital body to make public records readable: directly about AI.",
       "steps": 0
     },
     {
@@ -60,6 +105,16 @@
       "steps": 2
     },
     {
+      "title": "Fraunhofer Portugal AICOS leads the AI for the VineKeeper grape identification project",
+      "summary": "The Porto centre builds computer vision and AI models that recognise about 200 native Portuguese grape varieties from field photos and spot vine disease, working with a platform company and wine estates.",
+      "date": "2026-09-01",
+      "publisher": "Fraunhofer Portugal AICOS",
+      "url": "https://aicos.fraunhofer.pt/en/news/archive/2026/vinekeeper.html",
+      "read_on": "2026-11-16",
+      "ai_path": "A Porto research centre building AI vision models: directly about AI.",
+      "steps": 0
+    },
+    {
       "title": "BSC AI Factory opens an AI incubation round at UPTEC Asprela II",
       "summary": "Free supercomputing access (including MareNostrum 5), mentoring and training for EU-registered AI startups and SMEs with a Portuguese tax number, running from 5 October 2026 to 30 March 2027. Applications closed on 15 September.",
       "date": "2026-08-19",
@@ -67,6 +122,16 @@
       "url": "https://hrportugal.sapo.pt/programa-europeu-vai-apoiar-startups-e-pme-no-desenvolvimento-de-solucoes-de-ia-no-porto-as-candidaturas-ja-estao-abertas/",
       "read_on": "2026-11-16",
       "ai_path": "A supercomputing incubation programme for AI startups, hosted in Porto: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "FEUP's LIACC launches JurisVis, an AI research tool for Portuguese lawyers",
+      "summary": "Built at the University of Porto engineering faculty's AI laboratory with a Portuguese AI company, the system uses several cooperating AI agents grounded only in official Portuguese legal sources. It was tested by a small group of lawyers and is being rolled out in phases.",
+      "date": "2026-07-17",
+      "publisher": "UPTEC news (University of Porto)",
+      "url": "https://noticias.up.pt/2026/07/17/justica-portuguesa-ja-conta-com-sistema-de-ia-construido-pela-feup/",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI product built in a Porto university laboratory: directly about AI.",
       "steps": 0
     },
     {
@@ -90,6 +155,16 @@
       "steps": 1
     },
     {
+      "title": "University of Porto teams help build AMALIA, Portugal's state-backed language model",
+      "summary": "The final open-source model was presented on 1 July after 18 months and 5.5 million euros of recovery plan money. It was coordinated in Lisbon, and teams from FCUP, FEUP, FLUP and INESC TEC in Porto contributed demonstrators in European Portuguese.",
+      "date": "2026-07-08",
+      "publisher": "UPTEC news (University of Porto)",
+      "url": "https://noticias.up.pt/2026/07/08/investigadores-docentes-e-estudantes-da-u-porto-participaram-no-desenvolvimento-do-amalia/",
+      "read_on": "2026-11-16",
+      "ai_path": "Porto researchers contribute to a national AI model: directly about AI, with the lead outside Porto.",
+      "steps": 0
+    },
+    {
       "title": "START Rise AI Challenge, run with Porto Business School, searches for AI startups in Porto, Faro and Lisbon",
       "summary": "Start Campus and Porto Business School toured three cities for startups building AI products. Nine finalists pitched on 29 May 2026 for a place at the Start Campus data centre in Sines, cloud credits and scholarships.",
       "date": "2026-05-27",
@@ -98,6 +173,16 @@
       "read_on": "2026-11-16",
       "ai_path": "A startup contest for AI products co-run by a Porto business school: directly about AI, and the final was in Lisbon.",
       "steps": 1
+    },
+    {
+      "title": "UPTEC startup Savearth raises 400,000 euros for AI that cuts hotel shower water",
+      "summary": "Savearth listens to shower sound with AI to measure water use in real time and nudges guests towards shorter showers. It raised the sum from ten investors.",
+      "date": "2026-05-20",
+      "publisher": "UPTEC news (University of Porto)",
+      "url": "https://noticias.up.pt/2026/05/20/startup-da-uptec-fecha-ronda-de-investimento-de-400-mil-euros/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Porto-incubated company whose product uses AI on sound data: directly about AI.",
+      "steps": 0
     }
   ],
   "sources": [
@@ -105,7 +190,7 @@
       "name": "UPTEC news (University of Porto)",
       "url": "https://noticias.up.pt/",
       "kind": "university",
-      "feed": null
+      "feed": "https://noticias.up.pt/feed/"
     },
     {
       "name": "UPTEC",
@@ -123,13 +208,13 @@
       "name": "ECO (Porto and startup coverage)",
       "url": "https://eco.sapo.pt",
       "kind": "press",
-      "feed": null
+      "feed": "https://eco.sapo.pt/feed/"
     },
     {
       "name": "HR Portugal",
       "url": "https://hrportugal.sapo.pt",
       "kind": "press",
-      "feed": null
+      "feed": "https://hrportugal.sapo.pt/feed/"
     },
     {
       "name": "INESC TEC events",
@@ -148,6 +233,54 @@
       "url": "https://www.agenda-porto.pt/en/",
       "kind": "events",
       "feed": null
+    },
+    {
+      "name": "Porto city news (Município do Porto)",
+      "url": "https://www.porto.pt/pt/noticias/categoria/economia",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Porto Digital",
+      "url": "https://portodigital.pt/en",
+      "kind": "public body",
+      "feed": null
+    },
+    {
+      "name": "Fraunhofer Portugal AICOS news",
+      "url": "https://aicos.fraunhofer.pt/en/news.html",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "UPTEC company directory (AI and Machine Learning tag)",
+      "url": "https://uptec.up.pt/en/community/companies",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Council business and entrepreneurship desk",
+      "url": "https://economia.cm-porto.pt/empreendedorismo/empreendedorismo",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Startup Portugal",
+      "url": "https://startupportugal.com/",
+      "kind": "business",
+      "feed": "https://startupportugal.com/feed"
+    },
+    {
+      "name": "Marketeer",
+      "url": "https://marketeer.sapo.pt/",
+      "kind": "press",
+      "feed": "https://marketeer.sapo.pt/feed/"
+    },
+    {
+      "name": "Executive Digest",
+      "url": "https://executivedigest.sapo.pt/",
+      "kind": "press",
+      "feed": "https://executivedigest.sapo.pt/feed/"
     }
   ],
   "events": [
@@ -163,7 +296,7 @@
       "date": "2026-11-25",
       "url": "https://forumdooutono.inesctec.pt/",
       "read_on": "2026-11-16",
-      "ai_path": "The theme is digital infrastructure, on which AI computing depends: two steps from AI. The page we read did not state an AI programme."
+      "ai_path": "The theme is digital infrastructure, on which AI computing depends: two steps from AI. The page we read shows no programme text, so we cannot confirm an AI session."
     },
     {
       "title": "GBS and GPO Synergy: Scaling AI Across the Enterprise (API with GPO Hub, Vertical Coworking Dom Henrique)",
@@ -178,6 +311,27 @@
       "url": "https://uptec.up.pt/en/news-and-media/news/fct-organises-workshop-on-the-ai-factory-at-uptec",
       "read_on": "2026-11-16",
       "ai_path": "Explains access to supercomputers for AI development and the plan for a national data centre: directly about AI. Already held."
+    },
+    {
+      "title": "AI, Data and Robotics Forum 2026 (ADRF26, INESC TEC as scientific organiser, Porto)",
+      "date": "2026-10-13 to 2026-10-14",
+      "url": "https://adr-association.eu/events/ai-data-robotics-forum-2026",
+      "read_on": "2026-11-16",
+      "ai_path": "A European forum on AI, data and robotics with about 500 experts expected: directly about AI. Already held."
+    },
+    {
+      "title": "ECSS 2026, European summit of informatics leaders (Informatics Europe, at FEUP)",
+      "date": "2026-10-26 to 2026-10-28",
+      "url": "https://noticias.up.pt/2026/10/23/feup-recebe-cimeira-europeia-de-lideres-de-informatica/",
+      "read_on": "2026-11-16",
+      "ai_path": "Academic leaders discussing strategy, AI, cybersecurity and ethics for computer science: one step from AI. Already held."
+    },
+    {
+      "title": "Fraunhofer Portugal Challenge 2026 closing ceremony (AICOS, Porto)",
+      "date": "2026-10-29",
+      "url": "https://aicos.fraunhofer.pt/en/news/archive/2026/fhp-challenge-2026.html",
+      "read_on": "2026-11-16",
+      "ai_path": "A research ideas contest whose winners included AI projects: one step from AI. Already held."
     }
   ],
   "ai_map": [
@@ -195,11 +349,11 @@
       "name": "Universidade do Porto",
       "type": "institution",
       "url": "https://noticias.up.pt/",
-      "what": "Owner of UPTEC and its news service, which reported Granter's round. The DigestAID spin-off below comes from the university.",
+      "what": "Owner of UPTEC and its news service. Its faculties and institutes work on AI: FEUP's LIACC built the JurisVis legal tool, FCUP, FEUP and FLUP teams helped build AMALIA, and the i3S institute runs an AI brain stimulation project. The DigestAID spin-off also comes from the university.",
       "source_url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
       "read_on": "2026-11-16",
-      "ai_path": "Spins out and incubates AI companies.",
-      "steps": 1
+      "ai_path": "Does AI research, spins out and incubates AI companies.",
+      "steps": 0
     },
     {
       "name": "Granter",
@@ -324,21 +478,21 @@
     {
       "name": "Porto Digital",
       "type": "public body",
-      "url": "https://community.mindstone.com/annotate/article_AoOlxa8JGxGdXyPWan",
-      "what": "The municipal company behind the city's digital transition. In an undated talk it described AI for traffic and flow prediction, a planned algorithm register, a rule against black box algorithms and EU-funded CommuniCity pilots.",
-      "source_url": "https://community.mindstone.com/annotate/article_AoOlxa8JGxGdXyPWan",
+      "url": "https://portodigital.pt/en",
+      "what": "The city's digital transition body, whose own reports are titled Associação Porto Digital. In November 2026 it gave two AI talks at the Smart City Expo (AI research for urban innovation, and a hackathon on trustworthy generative AI for city systems) and showed city platforms such as CityFlow. An earlier undated talk described AI for traffic and flow prediction, a planned algorithm register and a rule against black box algorithms.",
+      "source_url": "https://www.porto.pt/pt/noticia/porto-mostra-no-maior-palco-mundial-de-smart-cities-como-testar-escalar-e-governar-inovacao-urbana/",
       "read_on": "2026-11-16",
-      "ai_path": "A city body that uses and governs AI in city services.",
+      "ai_path": "A city body that presents and governs AI in city services.",
       "steps": 0
     },
     {
       "name": "Câmara Municipal do Porto",
       "type": "public body",
       "url": "https://www.cm-porto.pt",
-      "what": "The city council, quoted through its economy councillor on the 2026 startup ranking. Its municipal company Porto Digital describes the AI uses above.",
-      "source_url": "https://portugalglobal.pt/en/news/2026/julho/porto-climbs-over-15-places-in-the-global-startup-ranking/",
+      "what": "The city council. Its councillor for digital transformation spoke at the Smart City Expo in November 2026, and in October it opened eight municipal digital projects to startups at a pitch day. Porto was one of the municipalities in the CitiLink AI project.",
+      "source_url": "https://www.porto.pt/pt/noticia/autarquia-apresenta-ao-ecossistema-da-cidade-projetos-estrategicos-de-inovacao-e-transformacao-digital/",
       "read_on": "2026-11-16",
-      "ai_path": "Promotes the startup scene and runs AI uses through its municipal company.",
+      "ai_path": "Runs digital services and takes part in AI research on public records and city data.",
       "steps": 1
     },
     {
@@ -355,11 +509,521 @@
       "name": "INESC TEC",
       "type": "institution",
       "url": "https://forumdooutono.inesctec.pt/",
-      "what": "Research institute that organises the Fórum INESC TEC do Outono on 25 November 2026 at FEUP in Porto. A headline on its news site says it brought citizens closer to local politics with AI, but that page would not load for us.",
-      "source_url": "https://forumdooutono.inesctec.pt/",
+      "what": "Research institute that coordinated CitiLink, the AI project that structures council meeting minutes (Porto among its municipalities), contributed to the AMALIA language model, was scientific organiser of the AI, Data and Robotics Forum in Porto (13 and 14 October 2026) and organises the Fórum INESC TEC do Outono on 25 November 2026 at FEUP.",
+      "source_url": "https://noticias.up.pt/2026/10/26/projeto-sobre-ia-e-democracia-vence-premio-cidades-e-territorios-do-futuro/",
       "read_on": "2026-11-16",
-      "ai_path": "An AI headline we could not read, and a forum on digital infrastructure: the AI link is unconfirmed beyond the headline.",
+      "ai_path": "Leads applied AI research for public bodies and industry: directly about AI.",
+      "steps": 0
+    },
+    {
+      "name": "Fraunhofer Portugal AICOS",
+      "type": "institution",
+      "url": "https://aicos.fraunhofer.pt/en/about.html",
+      "what": "Applied research centre in Porto with more than 100 researchers, founded in 2009 with the University of Porto and FCT. AI is one of its three core competences, with projects such as the Center for Responsible AI, VineKeeper and a Human-Centred AI method rated by the European Commission's Innovation Radar.",
+      "source_url": "https://aicos.fraunhofer.pt/en/news/archive/2026/vinekeeper.html",
+      "read_on": "2026-11-16",
+      "ai_path": "Does applied AI research in Porto.",
+      "steps": 0
+    },
+    {
+      "name": "LIACC (AI and Computer Science Laboratory, FEUP)",
+      "type": "institution",
+      "url": "https://noticias.up.pt/2026/07/17/justica-portuguesa-ja-conta-com-sistema-de-ia-construido-pela-feup/",
+      "what": "University of Porto engineering faculty laboratory that built the JurisVis multi-agent AI tool for Portuguese lawyers.",
+      "source_url": "https://noticias.up.pt/2026/07/17/justica-portuguesa-ja-conta-com-sistema-de-ia-construido-pela-feup/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds AI systems.",
+      "steps": 0
+    },
+    {
+      "name": "CitiLink (INESC TEC, University of Porto and UBI project)",
+      "type": "community",
+      "url": "https://noticias.up.pt/2026/10/26/projeto-sobre-ia-e-democracia-vence-premio-cidades-e-territorios-do-futuro/",
+      "what": "Research project of 2024 to early 2026 that turns municipal meeting minutes into structured data, with Porto, five other municipalities and Porto Digital taking part. Won a national prize in October 2026.",
+      "source_url": "https://noticias.up.pt/2026/10/26/projeto-sobre-ia-e-democracia-vence-premio-cidades-e-territorios-do-futuro/",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI project for public records.",
+      "steps": 0
+    },
+    {
+      "name": "i3S (Institute for Research and Innovation in Health, University of Porto)",
+      "type": "institution",
+      "url": "https://noticias.up.pt/2026/06/02/i3s-desenvolve-ia-que-aprende-a-comunicar-com-neuronios/",
+      "what": "Its neuroengineering group leads NeuroSAFE, an AI project for safe adaptive brain stimulation, funded with about 100,000 euros by the CMU Portugal programme.",
+      "source_url": "https://noticias.up.pt/2026/06/02/i3s-desenvolve-ia-que-aprende-a-comunicar-com-neuronios/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI research in health.",
+      "steps": 0
+    },
+    {
+      "name": "Startup Portugal (Porto office)",
+      "type": "organisation",
+      "url": "https://scaleupporto.pt/pt/startup-portugal-abre-escritorio-porto/",
+      "what": "National non-profit for entrepreneurship that opened a Porto office in July 2024 and signed an agreement with the council on a municipal tax exemption for recognised startups.",
+      "source_url": "https://scaleupporto.pt/pt/startup-portugal-abre-escritorio-porto/",
+      "read_on": "2026-11-16",
+      "ai_path": "Supports startups in general, including AI ones.",
+      "steps": 1
+    },
+    {
+      "name": "Porto Innovation Hub (council platform)",
+      "type": "public body",
+      "url": "https://portoinnovationhub.pt/",
+      "what": "City innovation platform launched in 2016. Its pitch day of October 2026 opened municipal digital projects to startups.",
+      "source_url": "https://www.porto.pt/pt/noticia/autarquia-apresenta-ao-ecossistema-da-cidade-projetos-estrategicos-de-inovacao-e-transformacao-digital/",
+      "read_on": "2026-11-16",
+      "ai_path": "A council innovation platform whose AI link is indirect.",
       "steps": 2
+    },
+    {
+      "name": "AcademiCV",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/academi-cv",
+      "what": "In UPTEC's community directory. Advisory for academic and professional mobility, tagged AI and Machine Learning by UPTEC. The description does not mention AI.",
+      "source_url": "https://uptec.up.pt/en/community/companies/academi-cv",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Adyta",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/adyta",
+      "what": "In UPTEC's community directory. Cybersecurity firm making certified secure communications, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/adyta",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Almo Intellect",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/almo-intellect",
+      "what": "In UPTEC's community directory. Computer vision, AI and digital twins for safer urban mobility.",
+      "source_url": "https://uptec.up.pt/en/community/companies/almo-intellect",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Astrolabium",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/astrolabium",
+      "what": "In UPTEC's community directory. AI technology to help companies manage energy market risk.",
+      "source_url": "https://uptec.up.pt/en/community/companies/astrolabium",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Axelera AI",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/axelera-ai",
+      "what": "In UPTEC's community directory. Hardware and software company for AI inference acceleration, listed in UPTEC's community.",
+      "source_url": "https://uptec.up.pt/en/community/companies/axelera-ai",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Bliss Applications",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/bliss-applications",
+      "what": "In UPTEC's community directory. Digital product studio, tagged AI and Machine Learning by UPTEC. The description does not mention AI.",
+      "source_url": "https://uptec.up.pt/en/community/companies/bliss-applications",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Ciência e Letras",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/ciencia-e-letras",
+      "what": "In UPTEC's community directory. Certified intensive training in AI, digital health and technology.",
+      "source_url": "https://uptec.up.pt/en/community/companies/ciencia-e-letras",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Cooltouria",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/cooltouria",
+      "what": "In UPTEC's community directory. AI-powered SaaS platform for managing sustainable tourism.",
+      "source_url": "https://uptec.up.pt/en/community/companies/cooltouria",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "COSMOS OMNI",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/cosmos-omni",
+      "what": "In UPTEC's community directory. Proprietary technology company, tagged AI and Machine Learning by UPTEC. The description does not say how it uses AI.",
+      "source_url": "https://uptec.up.pt/en/community/companies/cosmos-omni",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Delpecas",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/delpecas",
+      "what": "In UPTEC's community directory. Automotive parts company, tagged AI and Machine Learning by UPTEC. The description does not mention AI.",
+      "source_url": "https://uptec.up.pt/en/community/companies/delpecas",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Didimo",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/didimo",
+      "what": "In UPTEC's community directory. Automated generation of game-ready characters at scale.",
+      "source_url": "https://uptec.up.pt/en/community/companies/didimo",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Dropdepot",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/dropdepot",
+      "what": "In UPTEC's community directory. Sourcing platform for construction materials, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/dropdepot",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Ethiack",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/ethiack",
+      "what": "In UPTEC's community directory. Continuous security testing that validates what attackers can exploit, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/ethiack",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Extraflow",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/extraflow",
+      "what": "In UPTEC's community directory. AI agent that turns purchase orders from email and WhatsApp into ERP entries.",
+      "source_url": "https://uptec.up.pt/en/community/companies/extraflow",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "FISBU",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/fisbu",
+      "what": "In UPTEC's community directory. Digital platform for the real estate process, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/fisbu",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Flighter",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/flighter",
+      "what": "In UPTEC's community directory. Agentic platform that automates passenger accommodation during airline disruptions.",
+      "source_url": "https://uptec.up.pt/en/community/companies/flighter",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "HAEDES",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/haedes",
+      "what": "In UPTEC's community directory. Coastal and river engineering consultancy, tagged AI and Machine Learning by UPTEC. The description does not mention AI.",
+      "source_url": "https://uptec.up.pt/en/community/companies/haedes",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "HiPR",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/hi-pr",
+      "what": "In UPTEC's community directory. Platform connecting businesses and content creators, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/hi-pr",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Invisible Cloud",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/invisible-cloud",
+      "what": "In UPTEC's community directory. Agentic platforms for automated mass communications and AI-driven debt recovery.",
+      "source_url": "https://uptec.up.pt/en/community/companies/invisible-cloud",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Keeyns",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/keeyns",
+      "what": "In UPTEC's community directory. SaaS tax technology for international tax compliance, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/keeyns",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Manecas AI",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/manecas-ai",
+      "what": "In UPTEC's community directory. AI-powered expense management for Portuguese companies and accountants.",
+      "source_url": "https://uptec.up.pt/en/community/companies/manecas-ai",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "MedTiles",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/med-tiles",
+      "what": "In UPTEC's community directory. Generative AI for healthcare education, research and clinical data.",
+      "source_url": "https://uptec.up.pt/en/community/companies/med-tiles",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Metric4",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/metric4",
+      "what": "In UPTEC's community directory. IoT solutions for industry, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/metric4",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "NAU21",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/nau21",
+      "what": "In UPTEC's community directory. Insurance claims management, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/nau21",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Neuraspace",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/neuraspace",
+      "what": "In UPTEC's community directory. AI-powered space traffic management platform to prevent satellite collisions.",
+      "source_url": "https://uptec.up.pt/en/community/companies/neuraspace",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "NIUM",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/nium",
+      "what": "In UPTEC's community directory. AI-driven microbiome discovery with gut-on-a-chip technology.",
+      "source_url": "https://uptec.up.pt/en/community/companies/nium",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Onit",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/onit",
+      "what": "In UPTEC's community directory. Tool that turns everyday work activity into clarity and decisions, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/onit",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "OXIR Healthcare",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/oxir-healthcare",
+      "what": "In UPTEC's community directory. AI-powered occupational health for industrial workforces.",
+      "source_url": "https://uptec.up.pt/en/community/companies/oxir-healthcare",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Present Technologies",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/present-technologies",
+      "what": "In UPTEC's community directory. Custom software and engineering partner, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/present-technologies",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "PropWise",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/prop-wise",
+      "what": "In UPTEC's community directory. AI-powered workspace for real estate agents.",
+      "source_url": "https://uptec.up.pt/en/community/companies/prop-wise",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "RECRU",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/recru",
+      "what": "In UPTEC's community directory. Light recruitment tracking system powered by AI.",
+      "source_url": "https://uptec.up.pt/en/community/companies/recru",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Remote Flags",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/remote-flags",
+      "what": "In UPTEC's community directory. Independent software agency based in Porto, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/remote-flags",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Savearth",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/savearth",
+      "what": "In UPTEC's community directory. AI behavioural technology that cuts water and energy use in hotels. Raised 400,000 euros in May 2026.",
+      "source_url": "https://uptec.up.pt/en/community/companies/savearth",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "SentiVue",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/senti-vue",
+      "what": "In UPTEC's community directory. AI voice agents and live translation for phone calls and events.",
+      "source_url": "https://uptec.up.pt/en/community/companies/senti-vue",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Solenix Engineering Portugal",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/solenix-engineering-portugal",
+      "what": "In UPTEC's community directory. Software and engineering services for the space market, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/solenix-engineering-portugal",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "SpotMine",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/spotmine",
+      "what": "In UPTEC's community directory. Geological exploration services, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/spotmine",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Susplus",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/susplus",
+      "what": "In UPTEC's community directory. Turns sustainability data into reporting and carbon intelligence, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/susplus",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Tilect",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/tilect",
+      "what": "In UPTEC's community directory. AI pricing platform that forecasts, optimises and monitors competitor signals.",
+      "source_url": "https://uptec.up.pt/en/community/companies/tilect",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Titannis",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/titannis",
+      "what": "In UPTEC's community directory. IT automation company developing AI solutions.",
+      "source_url": "https://uptec.up.pt/en/community/companies/titannis",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Upmax Pro",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/upmax-pro",
+      "what": "In UPTEC's community directory. Helps businesses use AI and automation to turn leads into appointments.",
+      "source_url": "https://uptec.up.pt/en/community/companies/upmax-pro",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "VA Systems",
+      "type": "company",
+      "url": "https://uptec.up.pt/en/community/companies/va-systems",
+      "what": "In UPTEC's community directory. AI and automation software for insurance claims processing.",
+      "source_url": "https://uptec.up.pt/en/community/companies/va-systems",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Verbo",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/verbo",
+      "what": "In UPTEC's community directory. AI-powered 5G push-to-talk for frontline teams.",
+      "source_url": "https://uptec.up.pt/en/community/companies/verbo",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
+    },
+    {
+      "name": "Voxelmaps",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/voxelmaps",
+      "what": "In UPTEC's community directory. 4D volumetric modelling of the real world, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/voxelmaps",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Winalist",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/winalist",
+      "what": "In UPTEC's community directory. European marketplace for wine tourism experiences, tagged AI and Machine Learning by UPTEC.",
+      "source_url": "https://uptec.up.pt/en/community/companies/winalist",
+      "read_on": "2026-11-16",
+      "ai_path": "Tagged AI and Machine Learning in UPTEC's directory, but its profile does not show how AI is used: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "WiseWorld",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/community/companies/wise-world-",
+      "what": "In UPTEC's community directory. AI for soft skills from hiring to performance.",
+      "source_url": "https://uptec.up.pt/en/community/companies/wise-world-",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product, per its UPTEC profile.",
+      "steps": 0
     }
   ],
   "extras": [],
@@ -368,17 +1032,19 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "Porto has no regional AI-news feed we could reach. The pages we read give no RSS for the council, UPTEC news, ECO or HR Portugal, so every source feed is null. We should look for the feeds of Jornal de Notícias, Público Porto, Porto Canal, Startup Porto and Portugal Startups.",
-    "Câmara Municipal do Porto: we did not open the council's own news or agenda pages, so its AI use rests on Porto Digital's undated talk. A search result reported in May 2026 that a councillor said an AI ethics charter would be launched soon, but that clipping (an ISCTE file) returned 403 and we could not read it, so the charter is not claimed.",
-    "INESC TEC's CitiLink project (AI that turns municipal meeting minutes into structured data, with Porto among its municipalities) appeared only in search results. Its pages returned 503 or empty, so it is not in the map beyond the headline.",
-    "Fraunhofer Portugal AICOS is a Porto applied research centre, but the page we opened does not mention AI. We should read its own site (aicos.fraunhofer.pt) before listing it.",
-    "University of Porto research units (LIACC, the NORTE IA+ project, the AI and Data Science degree) appeared only as search snippets of SIGARRA records, which we did not open, so they are not listed. Also still to read: FEUP, FCUP, i3S, Universidade Católica Porto, ISEP and Polytechnic of Porto AI groups.",
-    "Startups whose Porto base we could not confirm on a page we opened: Reckon.ai, Cascade and the START Rise finalists (DUA IA, Mena.ai, SpectrAll, ResiliSite AI, Witflow, SNAP, Kureus, Aleph Strategy). Invisible CFO is also unplaced.",
-    "Investors: 3XP Global, Celtis Venture Partners, Gateway Ventures and Banco Português de Fomento backed Granter, but no page we read places them in Porto. Bright Pixel Capital and Magnum Capital sat on a contest jury, with no Porto link stated.",
-    "Porto AI meetups are mostly listed on meetup.com, luma.com and eventbrite, which we do not read, so recurring community dates are missing. The one Mindstone meetup we found is from November 2024.",
-    "The AI, Data and Robotics Forum 2026 at Alfândega do Porto and the ICCPSAI conference (30 November to 1 December 2026) appeared in search results, but the INESC TEC page for the forum returned 404, so neither is listed.",
-    "The Startup Genome page gives no count of AI startups in Porto, and aggregator counts differ widely, so we state none.",
-    "Local talent is not filled: nobody has agreed to be listed, and founders are named only inside the sources linked."
+    "Feeds: found for UPTEC news, ECO, HR Portugal, Startup Portugal, Marketeer and Executive Digest. Not found for the council (porto.pt has no RSS), Fraunhofer AICOS, INESC TEC, Porto Digital and UPTEC's own news. Jornal de Notícias and Porto Canal answered 403, so we should look for their feeds another way.",
+    "Câmara Municipal do Porto: the council's news pages load only in part for us, so we read five items from porto.pt. A May 2026 search snippet says an AI ethics charter would launch soon, but that clipping is an ISCTE file we could not read and no later page confirms it, so the charter is not claimed. We should read the council's open data portal and its algorithm register plan.",
+    "Porto Digital: its own site's news, projects and initiatives pages render only after scripts run, so we could not read them. Its status as a municipal company or an association is stated differently in sources (its reports say Associação Porto Digital). We should read its statutes.",
+    "Fraunhofer AICOS is now on the map, but its AI Act Readiness programme is held in Lisbon, so it is not listed as a Porto event.",
+    "UPTEC directory: 48 community companies carry the AI and Machine Learning tag and 45 were added (three more, Scemai, PPA-LeaderTek and NILG.AI, were already on the map) from it. Where the profile does not say how AI is used they are marked one step from AI. We did not open each company's own site, and UPTEC's profile does not give a founding year we trust, so none is stated. The directory is of UPTEC's community and may include firms based elsewhere.",
+    "University of Porto research units: LIACC and i3S are now listed from news items. Still unread are the NORTE IA+ project, the AI and Data Science degree, FCUP, Universidade Católica Porto, ISEP and the Polytechnic of Porto AI groups. Their SIGARRA records were not opened.",
+    "Hipérbole Pioneira (JurisVis partner) is a Portuguese AI company, but the page does not say where it is based, so it is not on the map. Startups still unplaced: Reckon.ai, Cascade, Invisible CFO and the START Rise finalists (DUA IA, Mena.ai, SpectrAll, ResiliSite AI, Witflow, SNAP, Kureus, Aleph Strategy).",
+    "Investors: 3XP Global, Celtis Venture Partners, Gateway Ventures and Banco Português de Fomento backed Granter, but no page we read places them in Porto. The ten investors in Savearth are not named. We found no venture fund besides 33N whose page places it in Porto.",
+    "Porto AI meetups are mostly listed on meetup.com, luma.com and eventbrite, which we do not read, so recurring community dates are missing. Agenda Porto's calendar loads by script and showed no AI event to us. The one Mindstone meetup we found is from November 2024.",
+    "Events ahead: the only dated one we can place is the Fórum INESC TEC do Outono on 25 November, and its page shows no programme text. The ICCPSAI conference (30 November to 1 December 2026) appeared only in search results, so it is not listed.",
+    "Contacts: the council's entrepreneurship division page names a contact block that was empty in the text we read, and the council's general contact pages returned the error page, so no council channel is listed. Startup Portugal and Fraunhofer AICOS are not public bodies, so we list no contact for them.",
+    "Startup Genome gives no count of AI startups in Porto and aggregator counts differ widely, so we state none.",
+    "Local talent is not filled: we do not name individuals here, and founders appear only inside the linked sources."
   ],
   "voice": {
     "lede": "Porto, carago: the city that works while Lisbon talks, where the bridge is iron, the tiles are blue, and the machines are learning to eat a francesinha without spilling the sauce.",
@@ -410,6 +1076,54 @@
       "source_url": "https://executivedigest.sapo.pt/?p=768213",
       "read_on": "2026-11-16",
       "kind": "funding"
+    },
+    {
+      "name": "Câmara Municipal do Porto: Divisão Municipal de Empreendedorismo",
+      "what": "The council's entrepreneurship division says it runs action plans, conferences and forums to encourage new companies and attract startups, and links the city's ecosystem players. The page lists a contact block that did not show in the text we read.",
+      "url": "https://economia.cm-porto.pt/empreendedorismo/empreendedorismo",
+      "source_url": "https://economia.cm-porto.pt/empreendedorismo/empreendedorismo",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Porto Innovation Hub (council platform)",
+      "what": "Platform launched by the council in 2016 to strengthen the city's innovation ecosystem, with open events such as City Café and visits.",
+      "url": "https://portoinnovationhub.pt/",
+      "source_url": "https://portoinnovationhub.pt/",
+      "read_on": "2026-11-16",
+      "kind": "community"
+    },
+    {
+      "name": "Startup Portugal, Porto office",
+      "what": "National non-profit that opened a Porto office in July 2024. Its agreement with the council allows a municipal derrama tax exemption for companies it recognises as startups or scaleups based in Porto, as reported then.",
+      "url": "https://scaleupporto.pt/pt/startup-portugal-abre-escritorio-porto/",
+      "source_url": "https://scaleupporto.pt/pt/startup-portugal-abre-escritorio-porto/",
+      "read_on": "2026-11-16",
+      "kind": "mentoring"
+    },
+    {
+      "name": "UPTEC incubation (University of Porto)",
+      "what": "Takes business ideas, young startups and corporate innovation teams, with offices, laboratories, coworking or virtual membership, mentoring, events and perks. Open to people outside the university too, per its application page.",
+      "url": "https://uptec.up.pt/en/apply",
+      "source_url": "https://uptec.up.pt/en/apply",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "ScaleUp Porto (council programme, with Porto Digital)",
+      "what": "A coordinated programme inside the city's innovation and competitiveness strategy, with a startup investment toolkit made with Porto Business School. Its own news page we read stops in August 2024.",
+      "url": "https://portodigital.pt/en",
+      "source_url": "https://portodigital.pt/en",
+      "read_on": "2026-11-16",
+      "kind": "accelerator"
+    },
+    {
+      "name": "Balcão Empresa na Hora (national, any counter)",
+      "what": "Registry service that sets up a limited company at one counter in one visit, with all partners present. A normal request costs 360 euros, and it works at any counter whatever the future seat.",
+      "url": "https://registo.justica.gov.pt/Empresas/Empresa-na-Hora",
+      "source_url": "https://registo.justica.gov.pt/Empresas/Empresa-na-Hora",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
     }
   ],
   "investors": [
@@ -453,7 +1167,67 @@
       "read_on": "2026-11-16",
       "type": "programme",
       "ai_path": "Gives compute to AI startups: directly about AI."
+    },
+    {
+      "name": "Ten investors into Savearth",
+      "what": "UPTEC startup Savearth raised the sum from ten investors, who are not named on the page.",
+      "url": "https://noticias.up.pt/2026/05/20/startup-da-uptec-fecha-ronda-de-investimento-de-400-mil-euros/",
+      "source_url": "https://noticias.up.pt/2026/05/20/startup-da-uptec-fecha-ronda-de-investimento-de-400-mil-euros/",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "date": "2026-05-20",
+      "ai_path": "Funds a startup whose product uses AI on shower sound data: directly about AI.",
+      "amount": "400,000 euros"
+    },
+    {
+      "name": "FCT through the recovery plan (PRR) into CitiLink",
+      "what": "Funded the CitiLink project of INESC TEC, the University of Porto and UBI from 2024 to early 2026. The amount is not stated.",
+      "url": "https://noticias.up.pt/2026/10/26/projeto-sobre-ia-e-democracia-vence-premio-cidades-e-territorios-do-futuro/",
+      "source_url": "https://noticias.up.pt/2026/10/26/projeto-sobre-ia-e-democracia-vence-premio-cidades-e-territorios-do-futuro/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "date": "2026-10-26",
+      "ai_path": "Funds AI that structures public council records: directly about AI."
+    },
+    {
+      "name": "Recovery plan (PRR) into the AMALIA language model",
+      "what": "Paid for the state-backed national model, which Porto teams helped build. The sum is for the whole national project, not for Porto.",
+      "url": "https://noticias.up.pt/2026/07/08/investigadores-docentes-e-estudantes-da-u-porto-participaram-no-desenvolvimento-do-amalia/",
+      "source_url": "https://noticias.up.pt/2026/07/08/investigadores-docentes-e-estudantes-da-u-porto-participaram-no-desenvolvimento-do-amalia/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "date": "2026-07-08",
+      "ai_path": "Funds a national AI model: directly about AI.",
+      "amount": "5.5 million euros"
+    },
+    {
+      "name": "CMU Portugal programme into i3S NeuroSAFE",
+      "what": "Exploratory project grant of about 100,000 euros for AI methods to control neurons safely, led from the i3S institute in Porto.",
+      "url": "https://noticias.up.pt/2026/06/02/i3s-desenvolve-ia-que-aprende-a-comunicar-com-neuronios/",
+      "source_url": "https://noticias.up.pt/2026/06/02/i3s-desenvolve-ia-que-aprende-a-comunicar-com-neuronios/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "date": "2026-06-02",
+      "ai_path": "Funds AI research in Porto: directly about AI.",
+      "amount": "about 100,000 euros"
     }
   ],
-  "contacts": []
+  "contacts": [
+    {
+      "name": "UPTEC, general channel",
+      "what": "The science park's published general email and phone, on its Contacts page. UPTEC belongs to the University of Porto.",
+      "url": "https://uptec.up.pt/en/about/contacts",
+      "source_url": "https://uptec.up.pt/en/about/contacts",
+      "read_on": "2026-11-16",
+      "channel": "the park's general email and phone, published on its Contacts page (open the linked page for them)"
+    },
+    {
+      "name": "Porto Innovation Hub (council platform)",
+      "what": "The council initiative's published info email and phone on its home page.",
+      "url": "https://portoinnovationhub.pt/",
+      "source_url": "https://portoinnovationhub.pt/",
+      "read_on": "2026-11-16",
+      "channel": "the hub's info email and phone, published on its home page (open the linked page for them)"
+    }
+  ]
 }
