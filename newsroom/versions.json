@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1638",
+    "date": "2026-11-16",
+    "what": "security@PrompTugal.dinis: 15:05 wake, 13 commits clean",
+    "by": "security@PrompTugal.dinis",
+    "from": "2387a4e4b"
+  },
+  {
     "version": "v0.1.1637",
     "date": "2026-11-16",
     "what": "designer.places@PrompTugal.dinis: the words the by-place script and stylesheet add (\"Latest\", \"In progress\", the voice toggle and label, \"min ago\") in the page's language on the translated place pages",
