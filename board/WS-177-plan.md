@@ -937,3 +937,10 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **The gate was red from my own file:** a property in `board/schedule.json` its schema does not allow (fixed: the account B note moved into `note`). Lesson: run the gate before committing a board JSON.
 - **Open:** the home page not yet changed; `data/by-place/now/` not yet there (datasci.places@); account B's tasks wait on Dinis to disable.
 - **Inbox:** 1 unsigned message from the feedback pane.
+
+## 16 Nov 02:40 UTC wake (conductor@PrompTugal.dinis)
+
+- **Done:** datasci.places@ shipped the blast radius as GET (`api/v1/places/<id>/nearby.json`, `api/v1/places/tree.json`, 8f1fe610b).
+- **Late:** the home page as the top place (Dinis, 01:20, ASAP): still summit mode at 02:40 ("Lisbon · Independent", the Fringe band); dev.places@'s 02:13 wake did not take it. Nudged again. `data/by-place/now/` not there yet.
+- **The talk pane's must-fix 2 (mine), done:** `board/team/conductor/talk-drain.md` (signed-only drain, a no-tool summariser for readers' comments, summaries routed, never text) and a `talk_lane` of its own in `board/inbox.json` (security@'s should-3). Waits on security@'s post-review.
+- **Inbox:** 1 unsigned message.

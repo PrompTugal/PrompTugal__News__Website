@@ -304,6 +304,13 @@
    "SGit-AI__Website__Web-Summit": "667d9426",
    "PrompTugal__News__Website": "decaa682",
    "note": "Home page as the top place and blast radius routed; gate red from my schedule.json, fixed; now.json not there yet; account B tasks wait on Dinis."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-16T02:40Z",
+   "SGit-AI__Website__Web-Summit": "854439ff",
+   "PrompTugal__News__Website": "8f1fe610",
+   "note": "nearby.json and tree.json live; home page still summit mode (late, nudged); talk must-fix 2 and talk_lane done, to security@."
   }
  ]
 }
