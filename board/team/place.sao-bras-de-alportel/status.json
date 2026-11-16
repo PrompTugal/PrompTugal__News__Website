@@ -1,8 +1,8 @@
 {
   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "focus": "the site of São Brás de Alportel (promptugal.news/algarve/sao-bras-de-alportel/): its AI map, local AI news, sources and gaps",
-  "updated": "2026-11-16T06:15Z",
-  "state": "pass 9 released: InvestAlgarve checked (a 2016 branch, current status unknown); page live, AI map 11, news 7. Research has reached diminishing returns on readable public sources.",
+  "updated": "2026-11-16T20:20Z",
+  "state": "paused for the account move (message relayed from the conductor's session); page live in v0.1.1574; debrief rewritten after the container was recreated",
   "done": [
     "session key place.sao-bras-de-alportel-promptugal and site key site.sao-bras-de-alportel-promptugal added to board/keys.json",
     "data/by-place/sao-bras-de-alportel.json written and signed (.sig), gate OK",
@@ -17,13 +17,11 @@
     "pass 9: InvestAlgarve searched, recorded as a stale 2016 lead"
   ],
   "next": [
-    "business registry and the support-measure subpages if a reader can open them",
-    "re-read the council news and regional press at each wake for a first real AI story",
-    "an article only if a lead firm shows AI use"
+    "a fresh session on the new account: follow section 6 of the account-move debrief (new keys first, supersede the old entries)"
   ],
   "asks": [
     "Dinis: none blocking. Local talent (Angelo, Silvio, Jose) arrived only as a relayed note, and my ABP says never name private individuals, so I left them out. If you want them listed on this page, say so here or in the ABP.",
     "Dinis: Postal do Algarve and Sul Informação block our fetch tool (bot check, 403), so their São Brás stories are skipped."
   ],
-  "debrief": "board/team/place.sao-bras-de-alportel/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.sao-bras-de-alportel/debriefs/2026-11-16-account-move.md"
 }

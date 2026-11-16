@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-de-viseu",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Viseu",
+  "names_as_listed": [
+    "Diário de Viseu"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner not stated on page. emails protected on page, none recorded.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:viseu"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.diarioviseu.pt",
+    "feeds": [
+      {
+        "url": "https://www.diarioviseu.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.diarioviseu.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.diarioviseu.pt/sobre/",
+      "source": {
+        "url": "https://www.diarioviseu.pt/sobre/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Adriano Callé Lucas",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.diarioviseu.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "Miguel Callé Lucas",
+        "role": "Diretor adjunto",
+        "source": {
+          "url": "https://www.diarioviseu.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Daniela Homem Pinto",
+        "role": "Diretora adjunta",
+        "source": {
+          "url": "https://www.diarioviseu.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Eduarda Macário",
+        "role": "Diretora adjunta executiva",
+        "source": {
+          "url": "https://www.diarioviseu.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "edition"
+      },
+      {
+        "name": "Teresa Veríssimo",
+        "role": "Diretora Geral",
+        "source": {
+          "url": "https://www.diarioviseu.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "management"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.diarioviseu.pt/sobre/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://www.diarioviseu.pt/feed/",
+        "read_at": "2026-11-16",
+        "how": "curl"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.diarioviseu.pt/sobre/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.diarioviseu.pt/feed/",
+      "read_at": "2026-11-16",
+      "how": "curl",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

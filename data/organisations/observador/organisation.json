@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "observador",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Observador",
+  "names_as_listed": [
+    "Observador"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Public editorial address not extracted from contacts page. Lisbon AI Week listed in the site menu, not investigated.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://observador.pt",
+    "owner": {
+      "name": "Observador On Time, S.A.; largest holder Amaral y Hijas Holding S.L. (reference shareholder Luís Amaral) 47.65%; Orientempo, Investimentos e Consultoria, S.A. (reference shareholder António Carrapatoso) 7.65%",
+      "source": {
+        "url": "https://observador.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://observador.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://observador.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml; charset=utf-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://observador.pt/contactos",
+      "source": {
+        "url": "https://observador.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "José Manuel Fernandes",
+        "role": "Publisher",
+        "source": {
+          "url": "https://observador.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Miguel Pinheiro",
+        "role": "Diretor Executivo",
+        "source": {
+          "url": "https://observador.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Paulo Farinha",
+        "role": "Editor de Inovação",
+        "source": {
+          "url": "https://observador.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "innovation / technology"
+      },
+      {
+        "name": "Pedro Jorge Castro",
+        "role": "Diretor Adjunto",
+        "source": {
+          "url": "https://observador.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Sara Antunes de Oliveira",
+        "role": "Diretora Adjunta",
+        "source": {
+          "url": "https://observador.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://observador.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      },
+      {
+        "url": "https://observador.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "fetched; generic address not extracted"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://observador.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://observador.pt/contactos",
+      "read_at": "2026-11-16",
+      "how": "fetched; generic address not extracted",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

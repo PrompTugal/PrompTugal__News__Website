@@ -1,8 +1,8 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "ten cultures complete for the by-place prose (826 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR in full; de-CH, es-MX, es-AR, fr-CA derived from their base cultures with regional adaptation (entries carry from: and adapted:); 11 to go; no dev.places@ queue yet",
- "updated": "2026-11-16T14:05Z",
+ "state": "eleven cultures complete for the by-place prose (828 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived; 8 to go (pl, hr, ro, zh-Hans, ja, ko, hi, ar); no dev.places@ queue yet",
+ "updated": "2026-11-16T20:05Z",
  "counts": {
   "pt-PT": 828,
   "es-ES": 828,
@@ -15,7 +15,7 @@
   "es-AR": 828,
   "fr-CA": 828,
   "segments_by_place_prose": 828,
-  "it-IT": 0
+  "it-IT": 828
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -30,18 +30,19 @@
   "11:15 wake: 33 new segments in five cultures (826 each); fr-FR second pass on 60 more (9 corrected); one systematic fr-FR error (polytechnic as 'école polytechnique', gender) fixed mechanically in 38 unreviewed entries, ok left false",
   "12:10 wake: pt-BR complete (826 segments, two sub-agents), no second pass yet (all ok:false)",
   "13:20 wake: no new segments; de-CH derived mechanically (ss for ß), es-MX (101 adapted), es-AR (35), fr-CA (145) by sub-agents that returned only changed segments; tools/variant.mjs",
-  "14:05 wake: 3 new interface strings (dev.places@'s translated pages) in ten cultures; hand-over debrief written; it-IT started"
+  "14:05 wake: 3 new interface strings (dev.places@'s translated pages) in ten cultures; hand-over debrief written; it-IT started",
+  "19:30 restart on this account: new session key translator-promptugal-2 (old superseded, released v0.1.1649); it-IT 828 segments by two Sonnet sub-agents, checked for URLs, placeholders, bold, line breaks; ok:false, no second pass yet"
  ],
  "next": [
   "new segments each wake: the derived cultures follow their base (run variant.mjs after the base is translated)",
-  "it-IT, pl-PL, hr-HR, ro-RO, zh-Hans, ja-JP, ko-KR, hi-IN, ar from English (11 left: it, pl, hr, ro, zh, ja, ko, hi, ar and en-US needs no work)",
   "second pass beyond the 40-segment samples (pt-BR none yet)",
-  "switch to dev.places@'s queue when it ships"
+  "switch to dev.places@'s queue when it ships",
+  "pl-PL, hr-HR, ro-RO, zh-Hans, ja-JP, ko-KR, hi-IN, ar from English (8 left)"
  ],
  "asks": [
-  "Dinis: dev@ (or dev.places@) to add to newsroom/build/lib/datacheck.mjs KINDS [/^data\\/i18n\\/tm\\/[^/]+\\/[0-9a-f]{2}\\.json$/, 'i18n-tm'] and [/^data\\/i18n\\/glossary\\.json$/, 'i18n-glossary'], and the two schemas I drafted in board/team/translator/proposals/ (copy to data/schemas/<kind>.schema.json). The gate is red without them and release.sh refuses to push; it is not my path to edit. I asked dev@ and dev.places@ on their inboxes.",
-  "Dinis: the conductor issued my inbox lane (board/inboxes/translator.json) but my grant has no drain tool: board/tools/agent_inboxes.py only sends. abp@ or the conductor to say which tool I may use to read it.",
-  "Dinis: my budget in board/budgets.json is 200,000 output tokens and 10 USD a day; the full translations of six cultures already used far more (sub-agents: about 150,000 tokens each per 413 segments). Budgets capture and never block (Dinis, 6 Nov), so I carry on, but accountant@ should record it. Nine full cultures left cost about the same again twice over; say if you want a slower pace or a smaller scope (for instance only the place pages' headings and ledes first)."
+  "Dinis: the gate is red on dev since other agents' pushes: 'search: docs.json is 414293 bytes, should stay under 400 KB' (not my paths; dev@ / dev.search@ to raise the limit or trim). My work pushes to work/translator regardless.",
+  "Dinis: no tool in my grant to read my sealed inbox (board/inboxes/translator.json); abp@ or the conductor to say which one.",
+  "Dinis: budget in board/budgets.json (200,000 output tokens/day) is far below a full culture (about 330,000 tokens of sub-agents); nine cultures to go; I carry on unless told to slow or narrow (for instance headings and ledes first)."
  ],
  "latest_debrief": "board/team/translator/debriefs/2026-11-16-handover.md",
  "second_pass": {

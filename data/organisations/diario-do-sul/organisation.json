@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-do-sul",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário do Sul",
+  "names_as_listed": [
+    "Diário do Sul"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: email addresses obfuscated, not recorded. ERC register not read.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:evora"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://diariodosul.pt/",
+    "owner": {
+      "name": "Piçarra – Distribuição de Jornais, Lda.",
+      "source": {
+        "url": "https://diariodosul.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://diariodosul.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://diariodosul.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml; RSS 2.0 body"
+        }
+      },
+      {
+        "url": "https://diariodosul.pt/feed/podcast",
+        "format": "rss",
+        "source": {
+          "url": "https://diariodosul.pt/feed/podcast",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: listed in home head as podcast feed; not fetched"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://diariodosul.pt/contacto/",
+      "source": {
+        "url": "https://diariodosul.pt/contacto/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Manuel Madeira Piçarra",
+        "role": "Director e fundador",
+        "source": {
+          "url": "https://diariodosul.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Paulo Jorge M. Piçarra",
+        "role": "Editor executivo",
+        "source": {
+          "url": "https://diariodosul.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "José Miguel S. M. Piçarra",
+        "role": "Editor executivo",
+        "source": {
+          "url": "https://diariodosul.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Marina Pardal",
+        "role": "Redação",
+        "source": {
+          "url": "https://diariodosul.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Manuel Pereira Carrascozinho",
+        "role": "Edição digital, redes sociais e online",
+        "source": {
+          "url": "https://diariodosul.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://diariodosul.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://diariodosul.pt/contacto/",
+        "read_at": "2026-11-16",
+        "how": "contacto page"
+      },
+      {
+        "url": "https://diariodosul.pt/",
+        "read_at": "2026-11-16",
+        "how": "home head for feed links"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://diariodosul.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://diariodosul.pt/contacto/",
+      "read_at": "2026-11-16",
+      "how": "contacto page",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://diariodosul.pt/",
+      "read_at": "2026-11-16",
+      "how": "home head for feed links",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "pplware",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Pplware",
+  "names_as_listed": [
+    "Pplware"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: ERC register number 127300 published on the page; not checked against erc.pt.",
+  "media": {
+    "outlet_kind": "blog",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://pplware.sapo.pt",
+    "owner": {
+      "name": "Pplware.com, Tecnologias de Informação e Serviços Web, Lda",
+      "source": {
+        "url": "https://pplware.sapo.pt/cartao-visita",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://pplware.sapo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://pplware.sapo.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://pplware.sapo.pt/contacto/",
+      "source": {
+        "url": "https://pplware.sapo.pt/contacto/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Vítor Manuel Moreira Martins",
+        "role": "Diretor and editor",
+        "source": {
+          "url": "https://pplware.sapo.pt/cartao-visita",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://pplware.sapo.pt/cartao-visita",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      },
+      {
+        "url": "https://pplware.sapo.pt/contacto/",
+        "read_at": "2026-11-16",
+        "how": "contacts read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://pplware.sapo.pt/cartao-visita",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://pplware.sapo.pt/contacto/",
+      "read_at": "2026-11-16",
+      "how": "contacts read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

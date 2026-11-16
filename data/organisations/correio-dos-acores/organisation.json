@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "correio-dos-acores",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Correio dos Açores",
+  "names_as_listed": [
+    "Correio dos Açores"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: feed not verified (timeout).",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:acores"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://correiodosacores.pt/",
+    "owner": {
+      "name": "Gráfica Açoreana, Lda.",
+      "source": {
+        "url": "https://correiodosacores.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://correiodosacores.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://correiodosacores.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: declared in the home page head (application/rss+xml); curl timed out, not verified"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://correiodosacores.pt/contactos/",
+      "source": {
+        "url": "https://correiodosacores.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Américo Natalino Viveiros",
+        "role": "Director",
+        "source": {
+          "url": "https://correiodosacores.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Santos Narciso",
+        "role": "Director-adjunto",
+        "source": {
+          "url": "https://correiodosacores.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Nélia Câmara",
+        "role": "Sub-diretora",
+        "source": {
+          "url": "https://correiodosacores.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://correiodosacores.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica (circulation 4,100 stated)"
+      },
+      {
+        "url": "https://correiodosacores.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contactos page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://correiodosacores.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica (circulation 4,100 stated)",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://correiodosacores.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contactos page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

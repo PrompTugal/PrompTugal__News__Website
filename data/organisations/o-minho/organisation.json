@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "o-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "O MINHO",
+  "names_as_listed": [
+    "O MINHO"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: email address not captured (obfuscated); mobile number published: personal contact published, not recorded.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:braga"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://ominho.pt/",
+    "owner": {
+      "name": "PDG5 Media, Lda.",
+      "source": {
+        "url": "https://ominho.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://ominho.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://ominho.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://ominho.pt/ficha-tecnica/",
+      "source": {
+        "url": "https://ominho.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Pedro Luís Silva",
+        "role": "Diretor",
+        "source": {
+          "url": "https://ominho.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Pedro Gonçalo Costa",
+        "role": "Editor",
+        "source": {
+          "url": "https://ominho.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://ominho.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://ominho.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

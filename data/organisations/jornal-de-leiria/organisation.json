@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "jornal-de-leiria",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal de Leiria",
+  "names_as_listed": [
+    "Jornal de Leiria"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: personal contact published, not recorded: named journalists emails on masthead. Direcção Editorial lists Catarina Vieira and Orlando Cardoso (read).",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:leiria"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://jornaldeleiria.pt",
+    "owner": {
+      "name": "JORLIS, LDA.",
+      "source": {
+        "url": "https://jornaldeleiria.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://jornaldeleiria.pt/rss-feed",
+        "format": "rss",
+        "source": {
+          "url": "https://jornaldeleiria.pt/rss-feed",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://jornaldeleiria.pt/contactos",
+      "source": {
+        "url": "https://jornaldeleiria.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Cláudio Garcia",
+        "role": "Director Interino",
+        "source": {
+          "url": "https://jornaldeleiria.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "Daniela Franco Sousa",
+        "role": "Redação",
+        "source": {
+          "url": "https://jornaldeleiria.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Elisabete Cruz",
+        "role": "Redação",
+        "source": {
+          "url": "https://jornaldeleiria.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Jacinto Silva Duro",
+        "role": "Redação",
+        "source": {
+          "url": "https://jornaldeleiria.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Maria Anabela Silva",
+        "role": "Redação",
+        "source": {
+          "url": "https://jornaldeleiria.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://jornaldeleiria.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://jornaldeleiria.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "contacts"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://jornaldeleiria.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://jornaldeleiria.pt/contactos",
+      "read_at": "2026-11-16",
+      "how": "contacts",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

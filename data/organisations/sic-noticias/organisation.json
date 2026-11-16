@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "sic-noticias",
+  "type": "organisation",
+  "kind": "media",
+  "name": "SIC Notícias",
+  "names_as_listed": [
+    "SIC Notícias"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Site could not be read; owner, masthead, contacts unverified. https://sicnoticias.pt/rss returned 403.",
+  "media": {
+    "outlet_kind": "tv",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://sicnoticias.pt",
+    "sources": [
+      {
+        "url": "https://sicnoticias.pt",
+        "read_at": "2026-11-16",
+        "how": "fetch refused by bot protection (HTTP 403 on feeds)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://sicnoticias.pt",
+      "read_at": "2026-11-16",
+      "how": "fetch refused by bot protection (HTTP 403 on feeds)",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

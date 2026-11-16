@@ -1,0 +1,75 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "link-to-leaders",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Link to Leaders",
+  "names_as_listed": [
+    "Link to Leaders"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Owner company name not extracted (NIPC  published on the page).",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://linktoleaders.com",
+    "feeds": [
+      {
+        "url": "https://linktoleaders.com/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://linktoleaders.com/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://linktoleaders.com/contactos-link-to-leaders/",
+      "source": {
+        "url": "https://linktoleaders.com/contactos-link-to-leaders/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Leonor Pipa",
+        "role": "Diretora",
+        "source": {
+          "url": "https://linktoleaders.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Maria Natividade Simões",
+        "role": "Editora",
+        "source": {
+          "url": "https://linktoleaders.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://linktoleaders.com/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://linktoleaders.com/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "7c68c12b20c281b6": {
+  "t": "Ora la parte onesta, meu amigo: dove gli algoritmi non sono ancora arrivati nell'aranceto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Now the honest part, meu amigo: where the algorithms have no",
+  "ok": false
+ },
+ "7ca1e09bcf45f77f": {
+  "t": "Évora non ha fretta, ma ci arriva. L'università insegna il portoghese alle macchine e scrive per loro le regole di casa, il PACT forma le persone e tiene le luci accese per le imprese, l'ospedale lascia che un'IA indichi il vetrino prima che decida uno specialista, e un'azienda di data center si è comprata in silenzio una sala da 1 MW. Il comune, benedetto, non siamo riusciti a coglierlo a fare IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora does not rush, but it gets there. The university teach",
+  "ok": false
+ }
+}

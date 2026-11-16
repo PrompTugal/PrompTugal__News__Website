@@ -1,7 +1,7 @@
 ---
 title: "ABP: researcher@PrompTugal.dinis"
 agent: researcher@PrompTugal.dinis
-policy: board/abp/policies.json v1.13.0 (sha256:5ee0b6078b37ba8d)
+policy: board/abp/policies.json v1.14.0 (sha256:78f359747977dee9)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -12,12 +12,12 @@ authority: Dinis Cruz, operator
 
 ## Mandate (the grant)
 
-- **Focus:** public research on a mandate per task (the Portugal ecosystem, Algarve Evolution, then people and past summits); Sonnet.
-- **Writes (repository):** `board/team/researcher/**`, `board/runs/researcher/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `desks/researcher/**`.
+- **Focus:** public research on a mandate per task (the Portugal ecosystem, Algarve Evolution, then people and past summits); Sonnet; the news organisations pass (media.map): the district capitals' and the national outlets in the media kind of data/organisations/<id>.json, public sources only, each fact with source and date read (board/team/conductor.b/plans/2026-11-16-restart-here.md, section 4).
+- **Writes (repository):** `board/team/researcher/**`, `board/runs/researcher/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `desks/researcher/**`, `data/organisations/*.json`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=researcher@PrompTugal.dinis newsroom/tools/release.sh`.
-- **Never:** uses a source behind a login, or publishes.
+- **Never:** uses a source behind a login, or publishes; writes an organisation of another kind, or a media record that breaks ontologist@'s schema; gives a private individual's personal contact (a public outlet's published channel may be shown, linked and dated).
 
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
 

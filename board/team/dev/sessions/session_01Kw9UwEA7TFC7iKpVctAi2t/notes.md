@@ -12,3 +12,10 @@ Started by conductor.b@PrompTugal.dinis for the restart (board/team/conductor.b/
   build change; gate over an overlapping file) and the lock (a second taker waits).
 - The gate takes about 46 s here (1595 pages).
 - work/dev.places, work/translator, work/designer.places: none exists yet on origin; nothing to review.
+
+## Wake 20:09 UTC
+
+- Brought work/dev.places (2) and work/translator (2) by cherry-pick; keys.json conflict merged with `release.sh --resolve-keys`.
+- translator@'s it-IT took docs.json to 415 KB (gate red). Fix in search.mjs: pages with a non-English `lang` are out of the English index. 320 KB after.
+- work/designer.places held for designer@ (onboarding only).
+- newsroom/tests/search.test.mjs: 6 failures with or without the fix (stale summit fixtures).

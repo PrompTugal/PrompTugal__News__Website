@@ -1,0 +1,50 @@
+{
+ "15037ffb48bae18a": {
+  "t": "PrompTugal.news Vila Real de Santo António: IA e tecnologia a Vila Real de Santo António, una città di confine pombalina sul Guadiana dove contano i progetti transfrontalieri, e ciò che arriva fin qui dall'Algarve, dal Portogallo e dal mondo. Indipendente; ogni fatto con la sua fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false
+ },
+ "15084161eca6ade6": {
+  "t": "La 17.ª edizione del concorso di idee si è chiusa il 29 ottobre al centro AICOS di Porto. Tra i vincitori, il rilevamento di droni con modelli di IA, un metodo di IA per prevedere il movimento del cervello durante la chirurgia dei tumori e uno strumento di IA e visione artificiale di uno studente per la sicurezza nelle scuole.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 17th edition of the ideas competition closed on 29 Octob",
+  "ok": false
+ },
+ "1508f7d090589c03": {
+  "t": "Il Turismo do Algarve organizza un bootcamp gratuito sull'IA per i professionisti del turismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Turismo do Algarve runs free AI bootcamp for tourism profess",
+  "ok": false
+ },
+ "152ae9199ac5e5bd": {
+  "t": "Il politecnico guida un progetto con le università di Aveiro e la facoltà di ingegneria di Porto per costruire un modello virtuale di un edificio storico che usa fotografie, immagini termiche e sensori per segnalare i rischi di degrado. Il Museu Nacional Grão Vasco di Viseu è uno dei due casi di studio, e il responsabile dell'edificio decide fino a che punto agisce l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The polytechnic leads a project with the universities of Ave",
+  "ok": false
+ },
+ "153080263941a459": {
+  "t": "Alla fiera Science for Industry l'istituto ha presentato DBoidS, che abbina gemelli digitali e IA contro gli incendi boschivi, e CERAMIND, che usa l'IA per individuare difetti nella ceramica.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the Science for Industry fair the institute showed DBoidS",
+  "ok": false
+ },
+ "15bd45b70554b692": {
+  "t": "Ovibeja 2025 mette l'IA in agricoltura al centro della fiera",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ovibeja 2025 puts AI in farming at the centre of the fair",
+  "ok": false
+ }
+}

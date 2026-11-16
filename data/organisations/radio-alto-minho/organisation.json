@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-alto-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Alto Minho",
+  "names_as_listed": [
+    "Rádio Alto Minho"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: a mobile phone number is published on the contact page: personal contact published, not recorded.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:viana-do-castelo"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://radioaltominho.pt/",
+    "owner": {
+      "name": "Rádio Alto Minho, Sociedade de Informação Regional, Lda.",
+      "source": {
+        "url": "https://radioaltominho.pt/quem-somos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://radioaltominho.pt/feed/?post_type=noticias",
+        "format": "rss",
+        "source": {
+          "url": "https://radioaltominho.pt/feed/?post_type=noticias",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://radioaltominho.pt/contactos/",
+      "source": {
+        "url": "https://radioaltominho.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Miguel Costa",
+        "role": "Presidente da gerência; Direção de Programas",
+        "source": {
+          "url": "https://radioaltominho.pt/quem-somos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "programming"
+      },
+      {
+        "name": "Fernando Serrão",
+        "role": "Direção de Informação",
+        "source": {
+          "url": "https://radioaltominho.pt/quem-somos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://radioaltominho.pt/quem-somos/",
+        "read_at": "2026-11-16",
+        "how": "Lei da Transparência notice and editorial statute"
+      },
+      {
+        "url": "https://radioaltominho.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contact page"
+      },
+      {
+        "url": "https://radioaltominho.pt/equipa/",
+        "read_at": "2026-11-16",
+        "how": "team page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://radioaltominho.pt/quem-somos/",
+      "read_at": "2026-11-16",
+      "how": "Lei da Transparência notice and editorial statute",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://radioaltominho.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://radioaltominho.pt/equipa/",
+      "read_at": "2026-11-16",
+      "how": "team page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

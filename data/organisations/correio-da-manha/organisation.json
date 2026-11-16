@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "correio-da-manha",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Correio da Manhã (CM)",
+  "names_as_listed": [
+    "Correio da Manhã (CM)"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Dedicated contacts page URL not identified (footer links to a mailto). Technology section staff not identified.",
+  "media": {
+    "outlet_kind": "newspaper",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.cmjornal.pt",
+    "owner": {
+      "name": "Medialivre SA (named in the site's copyright notice)",
+      "source": {
+        "url": "https://www.cmjornal.pt",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.cmjornal.pt/rss",
+        "format": "rss",
+        "source": {
+          "url": "https://www.cmjornal.pt/rss",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml; charset=ISO-8859-1, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.cmjornal.pt/",
+      "source": {
+        "url": "https://www.cmjornal.pt/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Carlos Rodrigues",
+        "role": "Diretor-Geral Editorial",
+        "source": {
+          "url": "https://www.cmjornal.pt/mais-cm/ficha-tecnica/detalhe/ficha_tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Paulo João Santos",
+        "role": "Diretor-Executivo CM",
+        "source": {
+          "url": "https://www.cmjornal.pt/mais-cm/ficha-tecnica/detalhe/ficha_tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.cmjornal.pt/mais-cm/ficha-tecnica/detalhe/ficha_tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      },
+      {
+        "url": "https://www.cmjornal.pt",
+        "read_at": "2026-11-16",
+        "how": "home read, footer"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cmjornal.pt/mais-cm/ficha-tecnica/detalhe/ficha_tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.cmjornal.pt",
+      "read_at": "2026-11-16",
+      "how": "home read, footer",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
