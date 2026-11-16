@@ -120,9 +120,40 @@
       ]
     },
     {
+      "url": "http://www.flowproductions.pt/",
+      "host": "flowproductions.pt",
+      "captured_at": "2026-11-16T07:19:01Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.flowproductions.pt/pt",
+      "title": "Agência Criativa em Faro — Design, Marketing & Audiovisual | Flow Productions",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/flowproductions.pt/434bdcc71e1b.jpg",
+        "sha256": "4c640516cabe511b291f25dda69c5c84ddb78065c1e61b9425bb7f9cd6a26ddd",
+        "bytes": 89867,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/flowproductions.pt/434bdcc71e1b.txt",
+        "sha256": "b35a750001f89b02e5873a3d19258980be978feeafc260aa1bb3c8c2102bb209",
+        "chars": 4662
+      },
+      "cited_by": [
+        {
+          "place": "algarve",
+          "kind": "map",
+          "n": 21,
+          "label": "Flow Productions"
+        }
+      ]
+    },
+    {
       "url": "https://24noticias.sapo.pt/local/faro/monchique",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T06:21:16Z",
+      "captured_at": "2026-11-16T07:23:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -153,7 +184,7 @@
     {
       "url": "https://24noticias.sapo.pt/local/faro/vila-real-de-santo-antonio",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T06:20:02Z",
+      "captured_at": "2026-11-16T07:21:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -162,8 +193,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/8e5c33486b67.jpg",
-        "sha256": "ca27b41f57b10660090ab37ec67289910aaf2789400f7164471957cd1ef576e1",
-        "bytes": 19279,
+        "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
+        "bytes": 19278,
         "width": 1280,
         "height": 1600
       },
@@ -357,7 +388,7 @@
     {
       "url": "https://algarvedailynews.com",
       "host": "algarvedailynews.com",
-      "captured_at": "2026-11-16T06:17:23Z",
+      "captured_at": "2026-11-16T07:19:06Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -388,7 +419,7 @@
     {
       "url": "https://algarveevolution.pt",
       "host": "algarveevolution.pt",
-      "captured_at": "2026-11-16T06:21:47Z",
+      "captured_at": "2026-11-16T07:23:33Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -481,7 +512,7 @@
     {
       "url": "https://anacom.pt/render.jsp?contentId=1828354",
       "host": "anacom.pt",
-      "captured_at": "2026-11-16T06:22:08Z",
+      "captured_at": "2026-11-16T07:23:51Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -605,6 +636,49 @@
           "article": "thursday-last-day-guide",
           "kind": "article",
           "label": "thursday-last-day-guide"
+        }
+      ]
+    },
+    {
+      "url": "https://appia.pt/eaia2026/",
+      "host": "appia.pt",
+      "captured_at": "2026-11-16T07:26:42Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://appia.pt/eaia2026/",
+      "title": "EAIA 2026 - Advanced School on Artificial Intelligence",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/appia.pt/0bbfb3aa1226.jpg",
+        "sha256": "f8e90df26000f4999eeec746e71e56f465ff4cb8521c85a513676f320f07c366",
+        "bytes": 168397,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/appia.pt/0bbfb3aa1226.txt",
+        "sha256": "379c8591ce3785507c09f387d04ff0ab66ea3af3a8cdca827c5f484737a279b7",
+        "chars": 4993
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "map-site",
+          "n": 2,
+          "label": "IEETA (UA research institute)"
+        },
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 17,
+          "label": "APPIA (Portuguese Association for Artificial Intelligence)"
+        },
+        {
+          "place": "aveiro",
+          "kind": "event",
+          "n": 5,
+          "label": "EAIA 2026, Advanced School on Artificial Intelligence (APPIA, University of Aveiro, Campus de Santiago)"
         }
       ]
     },
@@ -899,6 +973,37 @@
       ]
     },
     {
+      "url": "https://brigantia-ecopark.pt",
+      "host": "brigantia-ecopark.pt",
+      "captured_at": "2026-11-16T07:30:22Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://brigantia-ecopark.pt/",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-16/brigantia-ecopark.pt/ad09734af743.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/brigantia-ecopark.pt/ad09734af743.txt",
+        "sha256": "63564c96f688c256839edd61fda52356800c8ba99494e6fd73c43b7960bd69ec",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "source",
+          "n": 7,
+          "label": "Brigantia EcoPark"
+        }
+      ]
+    },
+    {
       "url": "https://business.turismodeportugal.pt/pt/inovar/fit/candidaturas-programas-inovacao/Paginas/rocket-booster-acceleration-candidaturas-31-mar-2026.aspx",
       "host": "business.turismodeportugal.pt",
       "captured_at": "2026-11-16T06:29:02Z",
@@ -936,6 +1041,37 @@
       ]
     },
     {
+      "url": "https://business.turismodeportugal.pt/pt/inovar/fit/programas-inovacao/Paginas/rocket-booster-acceleration.aspx",
+      "host": "business.turismodeportugal.pt",
+      "captured_at": "2026-11-16T07:28:29Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://business.turismodeportugal.pt/pt/inovar/fit/programas-inovacao/Paginas/rocket-booster-acceleration.aspx",
+      "title": "Rocket Booster - Acceleration: experiência seamless",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/business.turismodeportugal.pt/09d886ac0d69.jpg",
+        "sha256": "8c59f27c4aeada99bbfca5bd9459b6879179ddafe4710614c9e9f90911316b3a",
+        "bytes": 183402,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/business.turismodeportugal.pt/09d886ac0d69.txt",
+        "sha256": "44adaaa23abb2e69731ba4b0ea10acedcf071c8260ffe3195b9dc1d0b17663ae",
+        "chars": 2450
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "source",
+          "n": 7,
+          "label": "Turismo de Portugal: Rocket Booster programmes"
+        }
+      ]
+    },
+    {
       "url": "https://ccmar.ualg.pt/",
       "host": "ccmar.ualg.pt",
       "captured_at": "2026-11-16T01:16:37Z",
@@ -963,6 +1099,37 @@
           "kind": "event",
           "n": 6,
           "label": "CIMAR-LA crash course: Introduction to DeepLabCut (CCMAR, Gambelas campus, Faro)"
+        }
+      ]
+    },
+    {
+      "url": "https://cedri.ipb.pt/research-innovation/projects/consortium",
+      "host": "cedri.ipb.pt",
+      "captured_at": "2026-11-16T07:29:16Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://cedri.ipb.pt/research-innovation/projects/international",
+      "title": "Projects - CeDRI",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cedri.ipb.pt/6dad9d9b540a.jpg",
+        "sha256": "d14d330f64d1c606397f60bf30e103cef5ef06a9d769d566f3bc40864e9c23cd",
+        "bytes": 193520,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cedri.ipb.pt/6dad9d9b540a.txt",
+        "sha256": "1134972e1e8c5942d1a172e78bc96ed878f3b50c366a8e6290a1763d2e7f1eda",
+        "chars": 12666
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "map",
+          "n": 2,
+          "label": "CeDRI (Centro de Investigação em Digitalização e Robótica Inteligente, IPB)"
         }
       ]
     },
@@ -1215,7 +1382,7 @@
     {
       "url": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T06:21:57Z",
+      "captured_at": "2026-11-16T07:23:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -1473,7 +1640,7 @@
     {
       "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
       "host": "cms.cm-vrsa.pt",
-      "captured_at": "2026-11-16T06:20:12Z",
+      "captured_at": "2026-11-16T07:21:57Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -1857,7 +2024,7 @@
     {
       "url": "https://dealroom.co/news",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T06:24:29Z",
+      "captured_at": "2026-11-16T07:26:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -1888,7 +2055,7 @@
     {
       "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T06:16:52Z",
+      "captured_at": "2026-11-16T07:18:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -1937,7 +2104,7 @@
     {
       "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T06:16:50Z",
+      "captured_at": "2026-11-16T07:18:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2042,7 +2209,7 @@
     {
       "url": "https://diariodarepublica.pt/dr/detalhe/anuncio-procedimento/33066-2025-992176457",
       "host": "diariodarepublica.pt",
-      "captured_at": "2026-11-16T06:28:20Z",
+      "captured_at": "2026-11-16T07:26:30Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -2460,6 +2627,37 @@
       ]
     },
     {
+      "url": "https://dinheirovivo.dn.pt/projeto-augmanity-quer-tornar-portugal-centro-da-industria-40-com-bosch-ikea-e-huawei-13527060.html",
+      "host": "dinheirovivo.dn.pt",
+      "captured_at": "2026-11-16T07:27:16Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://dinheirovivo.dn.pt/projeto-augmanity-quer-tornar-portugal-centro-da-industria-40-com-bosch-ikea-e-huawei-13527060.html",
+      "title": "Projeto Augmanity quer tornar Portugal centro da Indústria 4.0 com Bosch, IKEA e Huawei",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/dinheirovivo.dn.pt/d6455dbb1dd5.jpg",
+        "sha256": "1071d97ba96de7a78db7a43ad417337d6523457c21a303d1ab7abd19c5cfc4ee",
+        "bytes": 177913,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/dinheirovivo.dn.pt/d6455dbb1dd5.txt",
+        "sha256": "89b0c1bec7ae5cfaff7d3c4b35cea637ee6835545a8862aff10306484ed832d6",
+        "chars": 7483
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 13,
+          "label": "Bosch Termotecnologia and the Augmanity project"
+        }
+      ]
+    },
+    {
       "url": "https://dn.pt/sociedade/proteo-civil-alerta-para-chuva-forte-e-rajadas-at-120-kmh-governo-pede-que-se-evitem-sadas-de-casa",
       "host": "dn.pt",
       "captured_at": "2026-11-16T00:05:09Z",
@@ -2597,6 +2795,37 @@
           "kind": "gravity",
           "n": 3,
           "label": "Ten more Brazilian tech firms arrive at Cais do Porto in Aveiro (DN Brasil, 22 June 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://dnbrasil.dn.pt/porto-digital-europa",
+      "host": "dnbrasil.dn.pt",
+      "captured_at": "2026-11-16T07:28:21Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://dnbrasil.dn.pt/porto-digital-europa",
+      "title": "Aveiro recebe 3ª edição do Brazil Tech Days com foco em tecnologia e negócios bilaterais",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/dnbrasil.dn.pt/e1ee2d167c35.jpg",
+        "sha256": "aa34b5baa5844ac109428741fed2e005290b90bc9b11aac8228eadf854281480",
+        "bytes": 226916,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/dnbrasil.dn.pt/e1ee2d167c35.txt",
+        "sha256": "c1b394a9990b40ab1a98c2b33ab0b6f5fab22fb25340cd33c63fe150646196ed",
+        "chars": 2915
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "source",
+          "n": 6,
+          "label": "DN Brasil: Porto Digital Europa and Cais do Porto coverage"
         }
       ]
     },
@@ -3037,6 +3266,49 @@
       ]
     },
     {
+      "url": "https://echoboomer.pt/abriu-nova-fabrica-equipamentos-data-centers-viana-do-castelo/",
+      "host": "echoboomer.pt",
+      "captured_at": "2026-11-16T07:30:25Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://echoboomer.pt/abriu-nova-fabrica-equipamentos-data-centers-viana-do-castelo/",
+      "title": "Nova fábrica de equipamentos para data centers começou a funcionar em Viana do Castelo",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/echoboomer.pt/641dcb1d29b2.jpg",
+        "sha256": "6d975a10a4d0c11234088c03166a98c007cb6e5c94fba560961b5dc349039357",
+        "bytes": 196699,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/echoboomer.pt/641dcb1d29b2.txt",
+        "sha256": "81a098ad413bdae1124d7f52eb3b002e8b3bff190ce81b58e29d3f68cb19e11e",
+        "chars": 3048
+      },
+      "cited_by": [
+        {
+          "place": "viana-do-castelo",
+          "kind": "news",
+          "n": 1,
+          "label": "A factory for data-centre power equipment starts production at Viana's port"
+        },
+        {
+          "place": "viana-do-castelo",
+          "kind": "map",
+          "n": 7,
+          "label": "Nordic Epod (CTS Group and Eaton)"
+        },
+        {
+          "place": "viana-do-castelo",
+          "kind": "gravity",
+          "n": 4,
+          "label": "New factory for data-centre equipment began to operate in Viana do Castelo (Echo Boomer, 4 September 2026)"
+        }
+      ]
+    },
+    {
       "url": "https://echoboomer.pt/agua-monchique-lanca-dispensador-de-agua-inteligente/",
       "host": "echoboomer.pt",
       "captured_at": "2026-11-16T05:22:12Z",
@@ -3101,6 +3373,43 @@
           "kind": "source",
           "n": 4,
           "label": "ECO (Porto and startup coverage)"
+        },
+        {
+          "place": "portalegre",
+          "kind": "source",
+          "n": 5,
+          "label": "ECO"
+        }
+      ]
+    },
+    {
+      "url": "https://eco.sapo.pt/2021/11/16/huawei-inaugura-laboratorio-de-5g-e-inteligencia-artificial-em-aveiro",
+      "host": "eco.sapo.pt",
+      "captured_at": "2026-11-16T07:26:58Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://eco.sapo.pt/2021/11/16/huawei-inaugura-laboratorio-de-5g-e-inteligencia-artificial-em-aveiro/",
+      "title": "Huawei inaugura laboratório de 5G e inteligência artificial em Aveiro – ECO",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/eco.sapo.pt/a5dfc1b08b6d.jpg",
+        "sha256": "60d711d8478fac784d62b5ac21740037c852916f0a972f0ae16fec1d27c26eac",
+        "bytes": 163879,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/eco.sapo.pt/a5dfc1b08b6d.txt",
+        "sha256": "7ff70ccf2d47387b8624ebfb79e23d7bb7b6a5d71f8ffa58009ffae3cb8d21fb",
+        "chars": 7681
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "map-site",
+          "n": 4,
+          "label": "5GAIner lab (Huawei, UA, Instituto de Telecomunicações)"
         }
       ]
     },
@@ -3237,6 +3546,43 @@
           "article": "konecta-lisbon-delivery-centre",
           "kind": "article",
           "label": "konecta-lisbon-delivery-centre"
+        }
+      ]
+    },
+    {
+      "url": "https://eco.sapo.pt/entrevista/tecnologica-inetum-vai-comprar-empresa-em-portugal-e-contratar-mais-200-pessoas-ate-ao-fim-do-ano/",
+      "host": "eco.sapo.pt",
+      "captured_at": "2026-11-16T07:29:05Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://eco.sapo.pt/entrevista/tecnologica-inetum-vai-comprar-empresa-em-portugal-e-contratar-mais-200-pessoas-ate-ao-fim-do-ano/",
+      "title": "“Temos uma empresa em análise avançada para comprar em Portugal” – ECO",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/eco.sapo.pt/a4eabac36cc2.jpg",
+        "sha256": "26b86b46b013ac729b0ab9e7389d88e3a5810c35bf92c1b98e9c19d4b2c91af7",
+        "bytes": 130295,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/eco.sapo.pt/a4eabac36cc2.txt",
+        "sha256": "bbe7a645f685bf00423ee5d218b8aef5d101cb0bf8d39a62b7880486def680bb",
+        "chars": 15195
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "news",
+          "n": 6,
+          "label": "Inetum's chief says AI is shrinking project teams, including in Bragança's service centre network"
+        },
+        {
+          "place": "braganca",
+          "kind": "map-site",
+          "n": 9,
+          "label": "Inetum"
         }
       ]
     },
@@ -3384,7 +3730,7 @@
     {
       "url": "https://elevateddesign.pt/",
       "host": "elevateddesign.pt",
-      "captured_at": "2026-11-16T06:20:16Z",
+      "captured_at": "2026-11-16T07:22:01Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -3729,6 +4075,37 @@
       ]
     },
     {
+      "url": "https://epaper.mind.pt/",
+      "host": "epaper.mind.pt",
+      "captured_at": "2026-11-16T07:19:57Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://epaper.mind.pt/",
+      "title": "Mind ePaper | Solução Inteligente de Urbanismo Digital — Entrada",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/epaper.mind.pt/1b7b4c1af3f0.jpg",
+        "sha256": "0280f7b40c6dcbfbce302f603f935be6e460a5c138443edf8ecc10a0204a2a71",
+        "bytes": 224682,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/epaper.mind.pt/1b7b4c1af3f0.txt",
+        "sha256": "7d07972c9afd41eb498f462d55e33092e5bae69f12f2c1839dd3089d186c99d7",
+        "chars": 6547
+      },
+      "cited_by": [
+        {
+          "place": "loule",
+          "kind": "map",
+          "n": 12,
+          "label": "ePaper by Mind (vendor whose client logos include Loulé)"
+        }
+      ]
+    },
+    {
       "url": "https://epaper.mind.pt/noticias/209-castro-marim-reforca-a-aposta-na-transformacao-digital-do-urbanismo-com-o-epaper",
       "host": "epaper.mind.pt",
       "captured_at": "2026-11-15T23:48:33Z",
@@ -3848,6 +4225,92 @@
           "kind": "map",
           "n": 29,
           "label": "Faculdade de Ciências e Tecnologia (FCT-UAlg)"
+        }
+      ]
+    },
+    {
+      "url": "https://estig.unipb.pt/en/events/37/",
+      "host": "estig.unipb.pt",
+      "captured_at": "2026-11-16T07:28:49Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://estig.unipb.pt/en/events/37/",
+      "title": "- Site ESTiG",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/estig.unipb.pt/061d6a003483.jpg",
+        "sha256": "66aa98a01f575959d8750204c3f903570825cb4cd415627545fd71df8f1af162",
+        "bytes": 124831,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/estig.unipb.pt/061d6a003483.txt",
+        "sha256": "6d94018ee983f2c4931884d570ab1e4401c6a177208c6c35f9c00a2df67f7634",
+        "chars": 1407
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "news",
+          "n": 4,
+          "label": "Bragança students and staff get a spring of AI seminars at ESTiG"
+        },
+        {
+          "place": "braganca",
+          "kind": "map",
+          "n": 3,
+          "label": "ESTiG (Escola Superior de Tecnologia e Gestão, IPB)"
+        },
+        {
+          "place": "braganca",
+          "kind": "source",
+          "n": 5,
+          "label": "ESTiG events and news"
+        }
+      ]
+    },
+    {
+      "url": "https://estig.unipb.pt/ipbnews/328/",
+      "host": "estig.unipb.pt",
+      "captured_at": "2026-11-16T07:28:45Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://estig.unipb.pt/ipbnews/328/",
+      "title": "- Site ESTiG",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/estig.unipb.pt/9da0f4708aba.jpg",
+        "sha256": "04c1fc0028ee5c3b7a82cdd0deed4d0a8d50294d94144ae628070a1298f1b063",
+        "bytes": 197310,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/estig.unipb.pt/9da0f4708aba.txt",
+        "sha256": "5e39d35b55f766210da0ab63124bbb3dbf9f7f222486242f253d40e9948da515",
+        "chars": 2150
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "news",
+          "n": 3,
+          "label": "Bragança Polytechnic hosts a European week on generative AI in higher education"
+        },
+        {
+          "place": "braganca",
+          "kind": "map",
+          "n": 1,
+          "label": "Instituto Politécnico de Bragança (IPB), now styled Universidade Politécnica de Bragança"
+        },
+        {
+          "place": "braganca",
+          "kind": "gravity",
+          "n": 2,
+          "label": "The first BIP on Generative AI in Higher Education gathers over thirty people at the IPB (IPB, 18 July 2026)"
         }
       ]
     },
@@ -8772,6 +9235,33 @@
       ]
     },
     {
+      "url": "https://indico.fccn.pt/event/62/contributions/1279/attachments/802/1494/Apresenta%C3%A7%C3%A3o-AI4PA-FabricaIA-10-04-2026.pdf",
+      "host": "indico.fccn.pt",
+      "captured_at": "2026-11-16T07:29:30Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://indico.fccn.pt/event/62/contributions/1279/attachments/802/1494/Apresenta%C3%A7%C3%A3o-AI4PA-FabricaIA-10-04-2026.pdf",
+      "title": null,
+      "note": "a document (application/pdf); the file itself is the capture",
+      "image": null,
+      "text": null,
+      "document": {
+        "path": "captures/2026-11-16/indico.fccn.pt/26cae793bacc.pdf",
+        "sha256": "d4ae39fcbc327e66cdcccec34f2571f0d21d1e1d60c518572e40604935091994",
+        "bytes": 2137029,
+        "type": "application/pdf"
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "map",
+          "n": 5,
+          "label": "AI4PA Portugal EDIH"
+        }
+      ]
+    },
+    {
       "url": "https://invisiblecfo.com/pt/sobre-nos/",
       "host": "invisiblecfo.com",
       "captured_at": "2026-11-16T05:22:17Z",
@@ -8842,7 +9332,7 @@
     {
       "url": "https://jornaldoalgarve.pt",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T06:17:21Z",
+      "captured_at": "2026-11-16T07:19:04Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -8851,14 +9341,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.jpg",
-        "sha256": "e732bff93be1e60f70cb3ec9b072418d52cabab92858a500376d1d6a22e09e96",
-        "bytes": 39265,
+        "sha256": "ad06fc2a37c62b2b8b89ad9f24a89598dfec227590d6ef5c7acaae095186a030",
+        "bytes": 39252,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.txt",
-        "sha256": "e6df2851e51e4db26c9b8844c7e899a6569be3fb921e6e1a148641848b05170a",
+        "sha256": "9ead431c55d8d06889cb3a4309946e27ec82bf8a7f924dd95c8dddfd1ff2ce47",
         "chars": 279
       },
       "cited_by": [
@@ -8873,7 +9363,7 @@
     {
       "url": "https://jornaldoalgarve.pt/",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T06:22:06Z",
+      "captured_at": "2026-11-16T07:23:48Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -8882,14 +9372,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.jpg",
-        "sha256": "4513340369e3e5ca2148fbe139e59976eefa37371fdee7a7d1643db4ca5998ec",
-        "bytes": 39237,
+        "sha256": "b31eb29d132717ec8a1fccb4216c88e3851036c8f630bc4c265b07267071d834",
+        "bytes": 39264,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.txt",
-        "sha256": "3f1a3dc50adb0540a95a50ecd0b0c8863268d1a5d3213afb8048ea7b9b53c9ef",
+        "sha256": "45b0e6a0317610f64898faf7d3b9f98b956bf6c370b0155aca2e9674930d3294",
         "chars": 279
       },
       "cited_by": [
@@ -9003,6 +9493,74 @@
           "kind": "source",
           "n": 5,
           "label": "Jornal Económico"
+        }
+      ]
+    },
+    {
+      "url": "https://jornalnordeste.com",
+      "host": "jornalnordeste.com",
+      "captured_at": "2026-11-16T07:30:15Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://jornalnordeste.com/",
+      "title": "Jornal Nordeste - Notícias de Bragança e Trás-os-Montes",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/jornalnordeste.com/0ba6c396a6df.jpg",
+        "sha256": "db003fb7b3d5df0b313f7f6115cd7fea33b3866b03fd6b054d9a0f319221613c",
+        "bytes": 266222,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jornalnordeste.com/0ba6c396a6df.txt",
+        "sha256": "9da2d3418215f161555398e60ef5d56836bf07f881bfa50503a37ba798cdce1a",
+        "chars": 7972
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "source",
+          "n": 2,
+          "label": "Jornal Nordeste"
+        }
+      ]
+    },
+    {
+      "url": "https://jornalnordeste.com/noticias/emprego-qualificado-e-um-dos-desafios-da-economia-de-braganca",
+      "host": "jornalnordeste.com",
+      "captured_at": "2026-11-16T07:28:34Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://jornalnordeste.com/noticias/emprego-qualificado-e-um-dos-desafios-da-economia-de-braganca",
+      "title": "Emprego qualificado é um dos desafios da economia de Bragança | Nordeste",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/jornalnordeste.com/1576565d7783.jpg",
+        "sha256": "9a9e465e66575bf3ae241148559d197688e8ffd9ece97286e1fb2ea782836c6d",
+        "bytes": 159142,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jornalnordeste.com/1576565d7783.txt",
+        "sha256": "b37324bf511644db9e21ac732702d10181fa35fe2dce8d954a9d8e4c2ad394e8",
+        "chars": 11759
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "news",
+          "n": 1,
+          "label": "Bragança's economy week hears that AI will change skills, not just headcount"
+        },
+        {
+          "place": "braganca",
+          "kind": "map",
+          "n": 9,
+          "label": "Inetum"
         }
       ]
     },
@@ -9201,7 +9759,7 @@
     {
       "url": "https://lisboaaberta.cm-lisboa.pt",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T06:24:27Z",
+      "captured_at": "2026-11-16T07:26:11Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -9210,14 +9768,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.jpg",
-        "sha256": "c47229858f80dc5c3df90ad0473fde0757673a7f2250fc74a18215722274b2b1",
-        "bytes": 40200,
+        "sha256": "228c0c36fb6c08d29cbb681b478cf4f2de23919caff999304fa3d80ce7a9e9e7",
+        "bytes": 40145,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.txt",
-        "sha256": "9f930a14e89d62d21e02f983a31ca7451514b0c7b2c3423f7b852c1d67829408",
+        "sha256": "7d6d249ccc7e0e372bd32cc689721553a58f7569b6238d0ac75f39cf49b8421e",
         "chars": 286
       },
       "cited_by": [
@@ -9238,7 +9796,7 @@
     {
       "url": "https://lisboaaberta.cm-lisboa.pt/index.php/pt/lx-data-lab/desafios",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T06:24:23Z",
+      "captured_at": "2026-11-16T07:26:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -9247,14 +9805,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.jpg",
-        "sha256": "a19422063e7e3d26040214cf7584491f3150912555a831a2e089d243b18923b6",
-        "bytes": 40172,
+        "sha256": "61c6dbdfa78e8fb67f1fd6e8d02362149710ee0a8f9c2da5575fadbeb2d427a7",
+        "bytes": 40879,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.txt",
-        "sha256": "222c829972c4dc18d24666a0f078fe3df1c1b323b593347d867e71c2e9eeab44",
+        "sha256": "473e63aaa3af11892866e15806ed7c2b5272c8fb290c39282edb550e2a8c7a79",
         "chars": 286
       },
       "cited_by": [
@@ -9737,6 +10295,74 @@
       ]
     },
     {
+      "url": "https://morecolab.pt/en/about/",
+      "host": "morecolab.pt",
+      "captured_at": "2026-11-16T07:29:29Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://morecolab.pt/en/about/",
+      "title": "About - MORECoLAB - Montanhas de Investigação",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/morecolab.pt/cb2be8d45708.jpg",
+        "sha256": "f68daf948296e9e232866c25a914e678eb21563b0cdbefd357e6358b009bb810",
+        "bytes": 149974,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/morecolab.pt/cb2be8d45708.txt",
+        "sha256": "1393f4db2d84e67cfc665dfbd5ad45222386e85e366d5f7ef6b39871cea5ffcf",
+        "chars": 6453
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "map-site",
+          "n": 4,
+          "label": "MORE CoLAB (Laboratório Colaborativo Montanhas de Investigação)"
+        },
+        {
+          "place": "braganca",
+          "kind": "source",
+          "n": 6,
+          "label": "MORE CoLAB"
+        }
+      ]
+    },
+    {
+      "url": "https://morecolab.pt/en/project-isafety/",
+      "host": "morecolab.pt",
+      "captured_at": "2026-11-16T07:29:22Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://morecolab.pt/en/project-isafety/",
+      "title": "Project-iSafety - MORECoLAB - Montanhas de Investigação",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/morecolab.pt/c81b2da42ea5.jpg",
+        "sha256": "ae125c6bcf603edf7c38717e936d67314003e8fcf65b3079cdaa24c3a87a335f",
+        "bytes": 130570,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/morecolab.pt/c81b2da42ea5.txt",
+        "sha256": "7891db59da8161372442dea9c231a27089d35ac0f3d6b500da300dd0ac20c6c9",
+        "chars": 1528
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "map",
+          "n": 4,
+          "label": "MORE CoLAB (Laboratório Colaborativo Montanhas de Investigação)"
+        }
+      ]
+    },
+    {
       "url": "https://navan.com/blog/web-summit-guide",
       "host": "navan.com",
       "captured_at": "2026-11-16T00:10:41Z",
@@ -10096,15 +10722,25 @@
     {
       "url": "https://noticias.up.pt/",
       "host": "noticias.up.pt",
-      "captured_at": "2026-11-16T06:25:45Z",
+      "captured_at": "2026-11-16T07:26:18Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
-      "title": null,
-      "note": "not captured: page.goto: Timeout 30000ms exceeded.",
-      "image": null,
-      "text": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://noticias.up.pt/",
+      "title": "Notícias U.Porto: Portal de Notícias da Universidade do Porto",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/noticias.up.pt/cf1168fa3705.jpg",
+        "sha256": "01e2ec34092fc3619781755bfdae874b1c53a4f8e9b6a51e6a2b929c17894e92",
+        "bytes": 93659,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/noticias.up.pt/cf1168fa3705.txt",
+        "sha256": "83ba6c1ac544bad6453a31bab851964809df7d435c62ffd9d560e78df229804f",
+        "chars": 3504
+      },
       "cited_by": [
         {
           "place": "porto",
@@ -10627,6 +11263,37 @@
       ]
     },
     {
+      "url": "https://observador.pt/2018/12/10/universidade-de-aveiro-ganha-concurso-da-nato-para-detetar-mensagens-extremistas/",
+      "host": "observador.pt",
+      "captured_at": "2026-11-16T07:26:37Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://observador.pt/2018/12/10/universidade-de-aveiro-ganha-concurso-da-nato-para-detetar-mensagens-extremistas/",
+      "title": "Universidade de Aveiro vence concurso da NATO – Observador",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/observador.pt/d64404641da4.jpg",
+        "sha256": "6c8373db775198523448d03993f0970c8965b9d78dad5c2b6b464439b0911ebb",
+        "bytes": 108745,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/observador.pt/d64404641da4.txt",
+        "sha256": "d44d7d65a4bb7e24e2e395d255ff5cdc7da0080599b752e3dfd9d23bb5f7ae07",
+        "chars": 5599
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 2,
+          "label": "IEETA (UA research institute)"
+        }
+      ]
+    },
+    {
       "url": "https://observador.pt/2025/11/04/algarve-tech-hub-summit-em-lagos-vai-apoiar-talento-e-investimento-na-regiao/",
       "host": "observador.pt",
       "captured_at": "2026-11-15T23:41:52Z",
@@ -10994,6 +11661,43 @@
           "kind": "source",
           "n": 1,
           "label": "Portugal.gov.pt news"
+        }
+      ]
+    },
+    {
+      "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/decisao-estrategica-para-o-pais-primeiro-ministro-lanca-processo-de-criacao-da-universidade-de-braganca-e-do-norte-interior",
+      "host": "portugal.gov.pt",
+      "captured_at": "2026-11-16T07:28:38Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://portugal.gov.pt/gc25/comunicacao/noticias/decisao-estrategica-para-o-pais-primeiro-ministro-lanca-processo-de-criacao-da-universidade-de-braganca-e-do-norte-interior",
+      "title": "“Decisão estratégica para o País”. Primeiro-Ministro lança processo de criação da Universidade de Bragança e do Norte Interior - XXV Governo Constitucional",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/portugal.gov.pt/48a3b4d788bd.jpg",
+        "sha256": "636a3a9dcbcdbcab7696f7d20a40f0264ed66e2a0b30314238ed7293da27066a",
+        "bytes": 66338,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/portugal.gov.pt/48a3b4d788bd.txt",
+        "sha256": "16b2cfa71453ab2bcdc3cfdd59d1a239eb6ab882c27e4af87344444f444c7ddf",
+        "chars": 5125
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "news",
+          "n": 2,
+          "label": "Government starts the Universidade de Bragança e do Norte Interior, and names AI a science priority"
+        },
+        {
+          "place": "braganca",
+          "kind": "gravity",
+          "n": 4,
+          "label": "Prime Minister launches the process to create the Universidade de Bragança e do Norte Interior (Government of Portugal, 9 September 2026)"
         }
       ]
     },
@@ -14778,7 +15482,7 @@
     {
       "url": "https://regiao-sul.pt",
       "host": "regiao-sul.pt",
-      "captured_at": "2026-11-16T06:18:15Z",
+      "captured_at": "2026-11-16T07:19:59Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -14787,14 +15491,14 @@
       "note": "a bot challenge or an access page was served; recorded as such, not got round",
       "image": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.jpg",
-        "sha256": "3a2d22ce01f039d2e09619f0d5b47271474f2ed417807c437a048e0cf5127ff6",
-        "bytes": 72832,
+        "sha256": "edee6553ddb49e9afbd40d3fbffc0e30103c38893dab524cf3ea7b4c9e8127ad",
+        "bytes": 72803,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.txt",
-        "sha256": "2139b635bd0aa45616f0b6ab908126924494c087662d0552cc07f9a4f37eb5f0",
+        "sha256": "ba2a0dce2dcd71f13ba03c80983d7880fed177af2c9d3845ae6951ef77752208",
         "chars": 690
       },
       "cited_by": [
@@ -15915,6 +16619,86 @@
       ]
     },
     {
+      "url": "https://techweek.aveirotechcity.pt/events/",
+      "host": "techweek.aveirotechcity.pt",
+      "captured_at": "2026-11-16T07:27:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://techweek.aveirotechcity.pt/events/",
+      "title": "Events – Aveiro Tech Week",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/techweek.aveirotechcity.pt/9f3aafc31a41.jpg",
+        "sha256": "a292587b523f078787511878ad985cbf58d73c1cd42171e1970eabb72cbc4c90",
+        "bytes": 184644,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/techweek.aveirotechcity.pt/9f3aafc31a41.txt",
+        "sha256": "6fbf991d9e74ad29cb00ce14e456dfafb858244c41ed2462047223ad1f7223d5",
+        "chars": 2252
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "source",
+          "n": 2,
+          "label": "Aveiro Tech City and Aveiro Tech Week (council)"
+        }
+      ]
+    },
+    {
+      "url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "host": "techweek.aveirotechcity.pt",
+      "captured_at": "2026-11-16T07:27:11Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "title": "Aveiro Tech City Hackathon – Aveiro Tech Week",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/techweek.aveirotechcity.pt/7eccae604b42.jpg",
+        "sha256": "fe7e2798ad39d4696f5912f894d58e6d145a7abb3986ba429df042d53d5e2c1e",
+        "bytes": 114190,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/techweek.aveirotechcity.pt/7eccae604b42.txt",
+        "sha256": "480fd0ddae359f5a7f825a2d81895f61d39d5d8b6f73e26cf3b761ae5dbca76b",
+        "chars": 1420
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 12,
+          "label": "Altice Labs"
+        },
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 15,
+          "label": "Câmara Municipal de Aveiro"
+        },
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 16,
+          "label": "Fábrica Centro de Ciência Viva de Aveiro"
+        },
+        {
+          "place": "aveiro",
+          "kind": "event",
+          "n": 3,
+          "label": "Aveiro Tech City Hackathon (online phase, then in person at Fábrica Centro de Ciência Viva)"
+        }
+      ]
+    },
+    {
       "url": "https://tecnico.ulisboa.pt",
       "host": "tecnico.ulisboa.pt",
       "captured_at": "2026-11-16T05:27:12Z",
@@ -16547,7 +17331,7 @@
     {
       "url": "https://uhu.es/sites/otc/files/proyectos_europeos/kttseadrones.pdf",
       "host": "uhu.es",
-      "captured_at": "2026-11-16T06:22:00Z",
+      "captured_at": "2026-11-16T07:23:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -16603,6 +17387,43 @@
           "article": "breakout-startups-thursday-centre-stage",
           "kind": "article",
           "label": "breakout-startups-thursday-centre-stage"
+        }
+      ]
+    },
+    {
+      "url": "https://unipb.pt",
+      "host": "unipb.pt",
+      "captured_at": "2026-11-16T07:29:09Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 200,
+      "final_url": "https://unipb.pt/",
+      "title": "UPB - Universidade Politécnica de Bragança",
+      "note": "the page showed almost no text",
+      "image": {
+        "path": "captures/2026-11-16/unipb.pt/9ae9ec2c9055.jpg",
+        "sha256": "d126dfd7d63230ce15de4607e90ac5a918312f0bfa7704eb282fc115d4b240af",
+        "bytes": 14137,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/unipb.pt/9ae9ec2c9055.txt",
+        "sha256": "892291f0577175aec22c9593f1509c052c96eecf8bf575a5cdf4137a4c68f033",
+        "chars": 20
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "map-site",
+          "n": 1,
+          "label": "Instituto Politécnico de Bragança (IPB), now styled Universidade Politécnica de Bragança"
+        },
+        {
+          "place": "braganca",
+          "kind": "source",
+          "n": 4,
+          "label": "Universidade Politécnica de Bragança (formerly Instituto Politécnico de Bragança)"
         }
       ]
     },
@@ -17052,7 +17873,7 @@
     {
       "url": "https://websig.cm-vrsa.pt/geoportal",
       "host": "websig.cm-vrsa.pt",
-      "captured_at": "2026-11-16T06:19:46Z",
+      "captured_at": "2026-11-16T07:21:31Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -18040,7 +18861,7 @@
     {
       "url": "https://www.aman-alliance.org/Home/ContentDetail/103391",
       "host": "aman-alliance.org",
-      "captured_at": "2026-11-16T06:27:38Z",
+      "captured_at": "2026-11-16T07:26:20Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20147,6 +20968,18 @@
           "kind": "map",
           "n": 5,
           "label": "Instituto Politécnico de Beja, partner of the Lagoa air quality work"
+        },
+        {
+          "place": "beja",
+          "kind": "news",
+          "n": 5,
+          "label": "A Beja student teaches an AI model to forecast air quality for the Algarve's Lagoa council"
+        },
+        {
+          "place": "beja",
+          "kind": "map",
+          "n": 2,
+          "label": "ESTIG (school of technology and management, Beja)"
         }
       ]
     },
@@ -20215,12 +21048,6 @@
           "kind": "news",
           "n": 8,
           "label": "Faro panel asks how AI decides which companies to recommend"
-        },
-        {
-          "place": "algarve",
-          "kind": "map",
-          "n": 21,
-          "label": "Flow Productions"
         },
         {
           "place": "faro",
@@ -21829,6 +22656,68 @@
       ]
     },
     {
+      "url": "https://www.canaln.tv",
+      "host": "canaln.tv",
+      "captured_at": "2026-11-16T07:30:19Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.canaln.tv/",
+      "title": "Canal N - Notícias - Trás-os-Montes e Alto Douro | Informação | Notícias | Desporto | Cultura Levamos a informação da Região de Trás-os-Montes e Alto Douro até si.",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/canaln.tv/d23722e8cdb8.jpg",
+        "sha256": "98f995b7af14e1288d51c7d7da523f7d71c2fcb73d5fba6f033f9fe3fffc3beb",
+        "bytes": 260742,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/canaln.tv/d23722e8cdb8.txt",
+        "sha256": "cd58ddf5b15c00858373a66e6fdebfc71b6275372c5e1aeef4f4789fdaae3f2b",
+        "chars": 5531
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "source",
+          "n": 3,
+          "label": "Canal N"
+        }
+      ]
+    },
+    {
+      "url": "https://www.canaln.tv/workshop-sobre-inteligencia-artificial-aproxima-empresas-e-tecnologia-no-brigantia-ecopark/",
+      "host": "canaln.tv",
+      "captured_at": "2026-11-16T07:29:42Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.canaln.tv/workshop-sobre-inteligencia-artificial-aproxima-empresas-e-tecnologia-no-brigantia-ecopark/",
+      "title": "WORKSHOP SOBRE INTELIGÊNCIA ARTIFICIAL APROXIMA EMPRESAS E TECNOLOGIA NO BRIGANTIA ECOPARK | Canal N - Notícias - Trás-os-Montes e Alto Douro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/canaln.tv/db4f4640377f.jpg",
+        "sha256": "cfa5185390321428ae8927f266a03bcb855163a0444f5e2c135259be50867a8a",
+        "bytes": 187637,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/canaln.tv/db4f4640377f.txt",
+        "sha256": "e7687b4953e8d194acabae73d014f46da14038cb4aacd45ef078cc7e5bca35d1",
+        "chars": 3592
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "map",
+          "n": 7,
+          "label": "Câmara Municipal de Bragança"
+        }
+      ]
+    },
+    {
       "url": "https://www.carris.pt/viaje/alteracoes-de-servico/alerta-circulacao/",
       "host": "carris.pt",
       "captured_at": "2026-11-15T23:59:32Z",
@@ -22288,7 +23177,7 @@
     {
       "url": "https://www.cm-aljezur.pt",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T06:21:37Z",
+      "captured_at": "2026-11-16T07:23:23Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22329,9 +23218,170 @@
       ]
     },
     {
+      "url": "https://www.cm-aveiro.pt",
+      "host": "cm-aveiro.pt",
+      "captured_at": "2026-11-16T07:27:40Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-aveiro.pt/",
+      "title": "Câmara Municipal de Aveiro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-aveiro.pt/d0b94a53b5e5.jpg",
+        "sha256": "99cf4a8c09fd3f650d4f99dbc21ad6758500df708beb780d9bb69fdb1f2b9b48",
+        "bytes": 224173,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-aveiro.pt/d0b94a53b5e5.txt",
+        "sha256": "fcf2265f5eb4ee31a2609fcfd89050f36670093aa833e2b8eae3af3aa78e279b",
+        "chars": 14645
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "map-site",
+          "n": 15,
+          "label": "Câmara Municipal de Aveiro"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-aveiro.pt/municipio/comunicacao/noticias",
+      "host": "cm-aveiro.pt",
+      "captured_at": "2026-11-16T07:27:50Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-aveiro.pt/municipio/comunicacao/noticias",
+      "title": "Notícias | Câmara Municipal de Aveiro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-aveiro.pt/8915e0aee5a6.jpg",
+        "sha256": "68988323c1d48a8008edc202bc707e55c0a01456deb8c97c45c94fc3bcad74a7",
+        "bytes": 248615,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-aveiro.pt/8915e0aee5a6.txt",
+        "sha256": "3dd11c2049acd81dd033c0fdfb254431696796249fbe4871c6bc1e8e72818d47",
+        "chars": 3361
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "source",
+          "n": 1,
+          "label": "Câmara Municipal de Aveiro: news"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-braganca.pt",
+      "host": "cm-braganca.pt",
+      "captured_at": "2026-11-16T07:29:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-braganca.pt/cm-braganca",
+      "title": "Câmara Municipal de Bragança",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-braganca.pt/f073456d63b3.jpg",
+        "sha256": "38e1b30db284ff92a426625befb12fd280fa770eb1f57f042806b3fc1ace9950",
+        "bytes": 265103,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-braganca.pt/f073456d63b3.txt",
+        "sha256": "4e133c09f69160c9c3a4ab9e489523f941fa275d3aedc839c3f6739b67cde1c9",
+        "chars": 3122
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "map-site",
+          "n": 7,
+          "label": "Câmara Municipal de Bragança"
+        },
+        {
+          "place": "braganca",
+          "kind": "source",
+          "n": 1,
+          "label": "Câmara Municipal de Bragança"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-braganca.pt/transparencia/comunicacao/agenda-e-eventos/todos-os-eventos/evento/cinema-digital-novembro-2026",
+      "host": "cm-braganca.pt",
+      "captured_at": "2026-11-16T07:30:10Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-braganca.pt/transparencia/comunicacao/agenda-e-eventos/todos-os-eventos/evento/cinema-digital-novembro-2026",
+      "title": "CINEMA DIGITAL - Novembro 2026",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-braganca.pt/7b7736db120b.jpg",
+        "sha256": "d52768d2f9ee00f24a7595e3ba9691717c05b61aaa44b0b9397891364b01f604",
+        "bytes": 154042,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-braganca.pt/7b7736db120b.txt",
+        "sha256": "281fd39e739b411bbd08eb1848abc00ae3e333de176c53aea6448fc0a4b9524c",
+        "chars": 1423
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "event",
+          "n": 2,
+          "label": "Cinema Digital, November 2026 (Câmara Municipal de Bragança)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-braganca.pt/transparencia/comunicacao/agenda-e-eventos/todos-os-eventos/evento/semana-da-oliveira-e-do-azeite-18-a-26-de-novembro",
+      "host": "cm-braganca.pt",
+      "captured_at": "2026-11-16T07:30:06Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-braganca.pt/transparencia/comunicacao/agenda-e-eventos/todos-os-eventos/evento/semana-da-oliveira-e-do-azeite-18-a-26-de-novembro",
+      "title": "Semana da Oliveira e do Azeite | 18 a 26 de novembro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-braganca.pt/7b2cdc227aea.jpg",
+        "sha256": "d98f5d59e6f99f3ece99e9fa25d7e2440a6b9dccdf188aed085eb670d0744357",
+        "bytes": 164674,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-braganca.pt/7b2cdc227aea.txt",
+        "sha256": "d9ba40341215481f6b138fa2d16f95a6aefccd8abc3e2fe304a7193da4bc4bd2",
+        "chars": 2000
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "event",
+          "n": 1,
+          "label": "Semana da Oliveira e do Azeite (Câmara Municipal de Bragança)"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-faro.pt",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T06:17:52Z",
+      "captured_at": "2026-11-16T07:19:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22368,7 +23418,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T06:18:02Z",
+      "captured_at": "2026-11-16T07:19:37Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22399,7 +23449,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91716/mentes-artificiais-ola-futuro.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T06:17:42Z",
+      "captured_at": "2026-11-16T07:19:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22436,7 +23486,7 @@
     {
       "url": "https://www.cm-lagoa.pt/comunicacao/eventos",
       "host": "cm-lagoa.pt",
-      "captured_at": "2026-11-16T06:20:22Z",
+      "captured_at": "2026-11-16T07:22:09Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -22653,7 +23703,7 @@
     {
       "url": "https://www.cm-lagos.pt/municipio/noticias/8907-novo-espaco-da-fabrica-do-empreendedor-inaugurado-em-lagos",
       "host": "cm-lagos.pt",
-      "captured_at": "2026-11-16T06:20:14Z",
+      "captured_at": "2026-11-16T07:21:59Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -22684,7 +23734,7 @@
     {
       "url": "https://www.cm-loule.pt",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T06:18:13Z",
+      "captured_at": "2026-11-16T07:19:47Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22721,7 +23771,7 @@
     {
       "url": "https://www.cm-loule.pt/",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T06:18:26Z",
+      "captured_at": "2026-11-16T07:20:09Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22758,7 +23808,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T06:20:43Z",
+      "captured_at": "2026-11-16T07:22:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22789,7 +23839,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/151/protecao-civil.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T06:21:03Z",
+      "captured_at": "2026-11-16T07:22:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22820,7 +23870,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T06:21:13Z",
+      "captured_at": "2026-11-16T07:23:00Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22851,7 +23901,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T06:21:26Z",
+      "captured_at": "2026-11-16T07:23:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22882,7 +23932,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T06:20:32Z",
+      "captured_at": "2026-11-16T07:22:19Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22919,7 +23969,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/noticias-listagem.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T06:20:53Z",
+      "captured_at": "2026-11-16T07:22:40Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23055,7 +24105,7 @@
     {
       "url": "https://www.cm-sbras.pt",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:22:28Z",
+      "captured_at": "2026-11-16T07:24:11Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23092,7 +24142,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:23:29Z",
+      "captured_at": "2026-11-16T07:25:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23123,7 +24173,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:23:59Z",
+      "captured_at": "2026-11-16T07:25:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23154,7 +24204,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:23:19Z",
+      "captured_at": "2026-11-16T07:25:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23185,7 +24235,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:24:10Z",
+      "captured_at": "2026-11-16T07:25:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23216,7 +24266,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:22:38Z",
+      "captured_at": "2026-11-16T07:24:21Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23259,7 +24309,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:22:59Z",
+      "captured_at": "2026-11-16T07:24:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23296,7 +24346,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:22:48Z",
+      "captured_at": "2026-11-16T07:24:31Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23333,7 +24383,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:23:09Z",
+      "captured_at": "2026-11-16T07:24:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23364,7 +24414,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:24:20Z",
+      "captured_at": "2026-11-16T07:26:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23395,7 +24445,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:23:49Z",
+      "captured_at": "2026-11-16T07:25:32Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23426,7 +24476,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:22:18Z",
+      "captured_at": "2026-11-16T07:24:01Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23475,7 +24525,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T06:23:39Z",
+      "captured_at": "2026-11-16T07:25:23Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23506,7 +24556,7 @@
     {
       "url": "https://www.cm-silves.pt",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T06:18:45Z",
+      "captured_at": "2026-11-16T07:20:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23543,7 +24593,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/agenda.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T06:19:05Z",
+      "captured_at": "2026-11-16T07:20:49Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23574,7 +24624,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T06:19:15Z",
+      "captured_at": "2026-11-16T07:20:59Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23605,7 +24655,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/noticias/32862/silves-acolhe-acoes-de-formacao-do-programa-formacao---proxima.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T06:18:35Z",
+      "captured_at": "2026-11-16T07:20:19Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23642,7 +24692,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T06:18:55Z",
+      "captured_at": "2026-11-16T07:20:39Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23862,7 +24912,7 @@
     {
       "url": "https://www.cm-vrsa.pt",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T06:19:26Z",
+      "captured_at": "2026-11-16T07:21:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23905,7 +24955,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T06:19:59Z",
+      "captured_at": "2026-11-16T07:21:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23936,7 +24986,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T06:19:36Z",
+      "captured_at": "2026-11-16T07:21:20Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -24029,6 +25079,74 @@
           "article": "web-summit-day-2-refunds",
           "kind": "article",
           "label": "web-summit-day-2-refunds"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cuatrecasas.com/pt/portugal/energia-infraestrutura/art/criacao-da-zlt-de-aveiro-1",
+      "host": "cuatrecasas.com",
+      "captured_at": "2026-11-16T07:27:27Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cuatrecasas.com/pt/portugal/energia-infraestrutura/art/criacao-da-zlt-de-aveiro-1",
+      "title": "Criação da ZLT de Aveiro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cuatrecasas.com/016d67c6751e.jpg",
+        "sha256": "d08c5a09ea87ecc9f497e97718460ad162310210f416e43dafcd13d8d30ec31e",
+        "bytes": 156743,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cuatrecasas.com/016d67c6751e.txt",
+        "sha256": "7ebbcf79c9b6edf5d22b2ad7f2ffab23e5fb84a4a9ad07c250770ec37c91c53a",
+        "chars": 6388
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 14,
+          "label": "Zona Livre Tecnológica de Aveiro"
+        },
+        {
+          "place": "aveiro",
+          "kind": "gravity",
+          "n": 4,
+          "label": "Creation of the Aveiro technology free zone (Cuatrecasas, 31 March 2025)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.diarioaveiro.pt",
+      "host": "diarioaveiro.pt",
+      "captured_at": "2026-11-16T07:28:06Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.diarioaveiro.pt/",
+      "title": "Diário de Aveiro: O seu jornal de notícias de Aveiro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/diarioaveiro.pt/76656dc9de13.jpg",
+        "sha256": "ff7fa8a5dc6f315b3e844475462d0e9382af55ca13017369f50d9cf2fed0d4ea",
+        "bytes": 211267,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/diarioaveiro.pt/76656dc9de13.txt",
+        "sha256": "aeb681bd6dbfdd970282c39c1a42a02bc56512ce14aa2270c961835c69bfe332",
+        "chars": 6991
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "source",
+          "n": 3,
+          "label": "Diário de Aveiro"
         }
       ]
     },
@@ -24276,7 +25394,7 @@
     {
       "url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
       "host": "engium.uminho.pt",
-      "captured_at": "2026-11-16T06:17:02Z",
+      "captured_at": "2026-11-16T07:18:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -24436,7 +25554,7 @@
     {
       "url": "https://www.eurociudadguadiana.eu",
       "host": "eurociudadguadiana.eu",
-      "captured_at": "2026-11-16T06:19:49Z",
+      "captured_at": "2026-11-16T07:21:33Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -24492,6 +25610,92 @@
           "kind": "map-site",
           "n": 4,
           "label": "Fábrica do Empreendedor de Lagos"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fccn.pt/en/",
+      "host": "fccn.pt",
+      "captured_at": "2026-11-16T07:30:00Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.fccn.pt/en/",
+      "title": "FCCN, Serviços Digitais FCT • Tecnologia para o conhecimento",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/fccn.pt/0fdf44400b96.jpg",
+        "sha256": "0e2e26be8a95acd6955a69b8a0c77349baca55d840d2299a8e0c2a4c25b62349",
+        "bytes": 151051,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/fccn.pt/0fdf44400b96.txt",
+        "sha256": "c30f9f250d4a9aa0659de326d3e4664a2cb9876b7b65f51112bdf0dce31fbf1b",
+        "chars": 4220
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "map-site",
+          "n": 8,
+          "label": "FCT and FCCN"
+        },
+        {
+          "place": "braganca",
+          "kind": "source",
+          "n": 8,
+          "label": "FCCN news"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fccn.pt/en/?p=45344",
+      "host": "fccn.pt",
+      "captured_at": "2026-11-16T07:28:55Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.fccn.pt/en/atualidade/braganca-recebe-sessao-apresentacao-fabrica-ia-bsc/",
+      "title": "Bragança recebe sessão de apresentação da Fábrica de IA BSC  • FCCN",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/fccn.pt/ad01e8dbfad8.jpg",
+        "sha256": "ecbdcf6cefe4a4e4216c5212da2d4c778c8350b10f444628b1fb77c0c604a235",
+        "bytes": 205621,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/fccn.pt/ad01e8dbfad8.txt",
+        "sha256": "60a5b7a2a3d045de665fbc6d9f79fc15dbb1afd9f25e360b6c840b1e0d2658e0",
+        "chars": 4665
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "news",
+          "n": 5,
+          "label": "BSC AI Factory comes to Brigantia EcoPark"
+        },
+        {
+          "place": "braganca",
+          "kind": "map",
+          "n": 8,
+          "label": "FCT and FCCN"
+        },
+        {
+          "place": "braganca",
+          "kind": "event",
+          "n": 3,
+          "label": "Fábrica de IA BSC: A Inteligência Artificial ao serviço da inovação (Brigantia EcoPark, already held)"
+        },
+        {
+          "place": "braganca",
+          "kind": "gravity",
+          "n": 1,
+          "label": "Bragança hosts a presentation session of the BSC AI Factory (FCCN, April 2026)"
         }
       ]
     },
@@ -24909,6 +26113,43 @@
       ]
     },
     {
+      "url": "https://www.forbespt.com/de-aveiro-para-o-mundo-laboratorio-de-5g-e-inteligencia-artificial",
+      "host": "forbespt.com",
+      "captured_at": "2026-11-16T07:26:47Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.forbespt.com/de-aveiro-para-o-mundo-laboratorio-de-5g-e-inteligencia-artificial/",
+      "title": "De Aveiro para o mundo: laboratório de 5G e Inteligência Artificial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/forbespt.com/b69e9b4996a7.jpg",
+        "sha256": "dd1847eaf18142f40b34383e396ea2cfe9ad3eee2909c41e31cb6f0ee9739a8f",
+        "bytes": 126065,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/forbespt.com/b69e9b4996a7.txt",
+        "sha256": "e19d15e25ffe99d996c88e1ffb40a86ed148dccc46f0b6554f0949a8c3025ed9",
+        "chars": 6323
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 3,
+          "label": "Instituto de Telecomunicações (Aveiro)"
+        },
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 4,
+          "label": "5GAIner lab (Huawei, UA, Instituto de Telecomunicações)"
+        }
+      ]
+    },
+    {
       "url": "https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim",
       "host": "fundacaogalp.com",
       "captured_at": "2026-11-16T00:22:21Z",
@@ -25103,6 +26344,43 @@
           "kind": "map",
           "n": 8,
           "label": "Algarve Innovation and Technology Park (PPPITA), Pechão"
+        }
+      ]
+    },
+    {
+      "url": "https://www.iasp.ws/our-members/directory/@473122/brigantia-ecopark",
+      "host": "iasp.ws",
+      "captured_at": "2026-11-16T07:29:38Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.iasp.ws/our-members/directory/@473122/brigantia-ecopark",
+      "title": "IASP global directory of science & technology park & innovation district – IASP",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/iasp.ws/c5f775bc087c.jpg",
+        "sha256": "93d38009634e43b3af1efddab93a4510d00eb86c6869c0174191f641e5f4c0f7",
+        "bytes": 48631,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/iasp.ws/c5f775bc087c.txt",
+        "sha256": "b59b5a91645650e5fc84030061e552c078f2b930086daaa6a30e15cf112d85ea",
+        "chars": 4189
+      },
+      "cited_by": [
+        {
+          "place": "braganca",
+          "kind": "map",
+          "n": 6,
+          "label": "Brigantia EcoPark"
+        },
+        {
+          "place": "braganca",
+          "kind": "gravity",
+          "n": 3,
+          "label": "Brigantia EcoPark, IASP directory entry"
         }
       ]
     },
@@ -25913,6 +27191,68 @@
       ]
     },
     {
+      "url": "https://www.noticiasdeaveiro.pt",
+      "host": "noticiasdeaveiro.pt",
+      "captured_at": "2026-11-16T07:28:11Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.noticiasdeaveiro.pt/",
+      "title": "Notícias de Aveiro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/noticiasdeaveiro.pt/6b8d5cb5b762.jpg",
+        "sha256": "7580a8433c5a81a143d0ea2aaccae9b67445629118b42e3827a0d31d135766ff",
+        "bytes": 207811,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/noticiasdeaveiro.pt/6b8d5cb5b762.txt",
+        "sha256": "1091909daa7f9b534b34a73f4c61c836a6195b0d2947fe87ba60b62ae3368b5d",
+        "chars": 8816
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "source",
+          "n": 4,
+          "label": "NotíciasdeAveiro.pt"
+        }
+      ]
+    },
+    {
+      "url": "https://www.noticiasdeaveiro.pt/7-a-edicao-da-aveiro-tech-week-de-16-a-22-de-novembro/",
+      "host": "noticiasdeaveiro.pt",
+      "captured_at": "2026-11-16T07:27:44Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.noticiasdeaveiro.pt/7-a-edicao-da-aveiro-tech-week-de-16-a-22-de-novembro/",
+      "title": "7.ª edição da Aveiro Tech Week - de 16 a 22 de novembro - NotíciasdeAveiro.pt",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/noticiasdeaveiro.pt/0eea05453ea9.jpg",
+        "sha256": "a34a9aa322254ea5da565dc6f5cef7b6759be7e1f40c360901dfd2974c218b08",
+        "bytes": 204406,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/noticiasdeaveiro.pt/0eea05453ea9.txt",
+        "sha256": "0fcb9f79ee2306a8bf8ab28e1c0ea9a74100d98256545c5dbbc91f540d53163d",
+        "chars": 6759
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "event",
+          "n": 1,
+          "label": "Aveiro Tech Week, 7th edition (Câmara Municipal de Aveiro, Parque de Exposições)"
+        }
+      ]
+    },
+    {
       "url": "https://www.nscale.com/press-releases/nscale-start-campus",
       "host": "nscale.com",
       "captured_at": "2026-11-16T00:16:30Z",
@@ -26422,7 +27762,7 @@
     {
       "url": "https://www.regiadouro.com/",
       "host": "regiadouro.com",
-      "captured_at": "2026-11-16T06:27:45Z",
+      "captured_at": "2026-11-16T07:26:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 503,
@@ -26766,7 +28106,7 @@
     {
       "url": "https://www.sulinformacao.pt/en/",
       "host": "sulinformacao.pt",
-      "captured_at": "2026-11-16T06:20:19Z",
+      "captured_at": "2026-11-16T07:22:05Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -26775,14 +28115,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.jpg",
-        "sha256": "bad7401ed1746f37e1c9d733bd241a86c10d88eee87882e649cc4cc6f7b65906",
-        "bytes": 40100,
+        "sha256": "e83a8be524c43920e90e1ecb20d82d08b29c25ad97ce0450e6051dfb04bd554b",
+        "bytes": 39985,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.txt",
-        "sha256": "441054e93ae5d4e5fbc395dc8d07e589d0332be0f2fb1daa3d4d237cb449500e",
+        "sha256": "10d24ec665c687decfb090370cbd5632ddeae3859e4fd4da47f21de9f6db118e",
         "chars": 281
       },
       "cited_by": [
@@ -26884,6 +28224,37 @@
           "kind": "map-site",
           "n": 1,
           "label": "Universidade de Aveiro (UA)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ua.pt/pt/noticias",
+      "host": "ua.pt",
+      "captured_at": "2026-11-16T07:28:17Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ua.pt/pt/noticias",
+      "title": "Noticias - Universidade de Aveiro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ua.pt/d6475ca22773.jpg",
+        "sha256": "3ae0ba61e526d2b6c7e3a51c0b14bcf9ec526284b2d1a8ff283e7d65e456f95e",
+        "bytes": 86670,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ua.pt/d6475ca22773.txt",
+        "sha256": "fcd7dac62cb02be3038aae8e6a19ecfc0cbf592ae201100903904e5c42391609",
+        "chars": 3130
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "source",
+          "n": 5,
+          "label": "Universidade de Aveiro: news"
         }
       ]
     },
@@ -27259,6 +28630,37 @@
       ]
     },
     {
+      "url": "https://www.ubiwhere.com/en/news/2025-in-review-10-milestones-of-innovation-that-defined-ubiwhere-year",
+      "host": "ubiwhere.com",
+      "captured_at": "2026-11-16T07:27:03Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ubiwhere.com/en/news/2025-in-review-10-milestones-of-innovation-that-defined-ubiwhere-year",
+      "title": "2025 in Review: 10 milestones of innovation that defined Ubiwhere’s year | News - Ubiwhere",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ubiwhere.com/c77b329472fa.jpg",
+        "sha256": "58e6e52a0146802d4ea2577fa4499fb1ed6a6e72cdfb45599f2348eecf9208b8",
+        "bytes": 171641,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ubiwhere.com/c77b329472fa.txt",
+        "sha256": "8cac8850e5411c8d61c4d72f2100032d03383271cfd539e5856916c84db2260a",
+        "chars": 8763
+      },
+      "cited_by": [
+        {
+          "place": "aveiro",
+          "kind": "map",
+          "n": 11,
+          "label": "Ubiwhere"
+        }
+      ]
+    },
+    {
       "url": "https://www.ulisboa.pt",
       "host": "ulisboa.pt",
       "captured_at": "2026-11-16T05:27:04Z",
@@ -27530,5 +28932,5 @@
       ]
     }
   ],
-  "updated": "2026-11-16T06:29:21Z"
+  "updated": "2026-11-16T07:30:26Z"
 }
