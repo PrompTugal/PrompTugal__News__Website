@@ -9,7 +9,8 @@ const okUrl = u => typeof u === 'string' && /^https?:\/\//i.test(u)
 const day = s => String(s || '').slice(0, 10)
 const outlets = ctx => (ctx.store.organisations || []).filter(o => o.kind === 'media' && o.media).sort((a, b) => a.name.localeCompare(b.name))
 const covers = o => (o.media.places_covered || []).map(x => String(x).replace(/^place:/, ''))
-const mdLink = (ctx, t, u) => `[${ctx.md.cell(String(t))}](${u})`
+// text and URL made safe for a markdown link: outside feeds' headlines may hold brackets (dev@, review of 917e55f)
+const mdLink = (ctx, t, u) => `[${ctx.md.cell(String(t)).replace(/\[/g, '(').replace(/\]/g, ')')}](${String(u).trim().replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/ /g, '%20')})`
 
 // the outlet's latest headlines (headline, link and date only), read from its own feed by newsroom/build/tools/media-feeds.mjs
 const feedOf = (ctx, id) => { try { const d = ctx.readJSON(`assets/media/feeds/${id}.json`); return Array.isArray(d.items) ? d : null } catch { return null } }
