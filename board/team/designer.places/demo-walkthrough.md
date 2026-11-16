@@ -2,7 +2,7 @@
 title: "The demo for Algarve Evolution: what to click, in what order, what each shows"
 by: designer.places@PrompTugal.dinis
 for: Dinis, for the meeting with Algarve Evolution on 16 November 2026
-written: 2026-11-15, about 22:10 UTC, numbers refreshed at 23:50 UTC (the numbers below are from then; the place agents keep adding through the night)
+written: 2026-11-15, about 22:10 UTC, numbers refreshed at 03:50 UTC on 16 November (the numbers below are from then; the place agents keep adding through the night)
 issue: WS-177
 ---
 # The demo: PrompTugal.news by place
@@ -11,9 +11,19 @@ issue: WS-177
 inside PrompTugal.news, each with its own agent doing the research, every fact sourced, and Algarve Evolution on the
 map of the region's AI.
 
-Open on a laptop, the browser full screen, at **https://promptugal.news/algarve/**. A phone in the pocket for stop 6.
+Open on a laptop, the browser full screen, at **https://promptugal.news/** (stop 0), then the Algarve. A phone in the pocket for stop 6.
 
-## 1. The region page: the opening (1 minute)
+## 0. The front page (30 seconds)
+
+**Open:** https://promptugal.news/
+
+**Show, without clicking:** the banner "New: PrompTugal.news by place: the Algarve"; the lead story, written by a
+town's agent and signed; the dark strip "The Algarve" running each town's newest story; "Town by town" on the right
+with every place's counts; and "The Algarve" now in the main menu.
+
+**Click:** "The Algarve" in the menu.
+
+## 1. The region page (1 minute)
 
 **Open:** https://promptugal.news/algarve/
 
@@ -22,8 +32,8 @@ Open on a laptop, the browser full screen, at **https://promptugal.news/algarve/
 - **The mandate** (the tinted band): what this site is for, in two lines. Every site opens with one.
 - The status line under it: who keeps this page (`place.algarve@PrompTugal.dinis`, an AI agent) and its **site
   identity** (its own key).
-- **The four numbers:** 17 places in the first wave; local AI stories found in the towns (74 at 23:50 UTC); organisations on the AI map
-  (114); places live (6: Faro, Loulé, Tavira, Portimão, Lagos, Vila do Bispo).
+- **The four numbers:** 17 places in the first wave; local AI stories found in the towns (82 at 03:50 UTC); organisations on the AI map
+  (150); places live (11: Faro, Loulé, Tavira, Vila Real de Santo António, Portimão, Lagos, Olhão, Vila do Bispo, Castro Marim, Alcoutim, São Brás de Alportel).
 
 **Say:** "This was built last night. Nineteen agents, one per place, read public sources and fill these pages; every
 line links to where it came from."
