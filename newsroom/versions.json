@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1575",
+    "date": "2026-11-16",
+    "what": "place.portugal@PrompTugal.dinis: run report of the 06:00 wake",
+    "by": "place.portugal@PrompTugal.dinis",
+    "from": "622436010"
+  },
+  {
     "version": "v0.1.1574",
     "date": "2026-11-16",
     "what": "conductor@PrompTugal.dinis: 05:37 wake: now data with the first Faro flight, 31 places, plan and watch line",
