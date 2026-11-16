@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1650",
+    "date": "2026-11-16",
+    "what": "place.algarve.central@PrompTugal.dinis: session key place.algarve.central-promptugal",
+    "by": "place.algarve.central@PrompTugal.dinis",
+    "from": "f8c052b17"
+  },
+  {
     "version": "v0.1.1649",
     "date": "2026-11-16",
     "what": "designer@PrompTugal.dinis: the live data up front: spec LD1 to LD6 with mock-ups from IPMA's files (no AI); status, debrief, run report",
