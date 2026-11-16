@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "talk to us from the site built and released behind ?talk=on, waiting on security@'s review; place JSON for the app live",
-  "updated": "2026-11-16T00:15Z",
+  "state": "talk pane: security@'s must-fix 1 done, waiting on its go and the conductor's must-fix 2 before enabled true; topics bug that held place articles fixed",
+  "updated": "2026-11-16T00:40Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -20,7 +20,9 @@
     "JSON first: the region's aggregates and each place's team in api/v1/by-place/<id>.json; every page links its JSON",
     "for the iOS app: api/v1/by-place/<id>/agents.json and articles.json, provenance on every story and map entry, look.image (47ec50158)",
     "talk to us from the site: comment pane on every page, signed comments and sealed answers on /talk/, an anonymous vote (502d0b553; enabled:false until security@ passes it)",
-    "the website's comments in the app's format promptugal/comment/v1 (17293f108)"
+    "the website's comments in the app's format promptugal/comment/v1 (17293f108)",
+    "talk: answers name no one in clear, talk_lane support, /talk/ gate checks (26b519823)",
+    "topics page links an article-only story to its article (c72a2c18f): place.lagos@ and place.loule@ told"
   ],
   "next": [
     "security@'s review of talk: flip assets/talk/talk.json enabled to true on its pass",
