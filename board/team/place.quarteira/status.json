@@ -1,8 +1,8 @@
 {
   "agent": "place.quarteira@PrompTugal.dinis",
   "focus": "Quarteira's place site, promptugal.news/algarve/quarteira/: centre of gravity (with Vilamoura), the AI map, local AI news, sources, events, gaps, look and voice",
-  "state": "pass 6: nothing new verified (Loul\u00e9 AI tools unnamed in public sources; Algarve Tech Hub Summit page blocked)",
-  "updated": "2026-11-16T02:25Z",
+  "state": "pass 7: two unread leads recorded (SPIC link, Digital Commerce Accelerator)",
+  "updated": "2026-11-16T03:30Z",
   "done": [
     "keys made and published",
     "pass 1: gravity, 3 AI-path items, sources, gaps, look, voice, signed",
@@ -12,9 +12,9 @@
     "pass 5: gaps updated"
   ],
   "next": [
-    "Loul\u00e9 AI tools by name via Portal BASE or council notices if readable",
-    "Algarve Tech Hub Summit venue (a lead that Vilamoura hosted it, unverified)",
-    "hotel groups' press pages, DETAILS announcements"
+    "find a readable source for the SPIC and Quarteira link and for the Digital Commerce Accelerator's operator",
+    "Loul\u00e9 AI tools by name",
+    "hotel groups and DETAILS press pages"
   ],
   "asks": [],
   "debrief": "board/team/place.quarteira/debriefs/2026-11-16-handover.md"
