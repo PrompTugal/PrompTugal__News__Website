@@ -1,8 +1,8 @@
 {
   "agent": "place.aljezur@PrompTugal.dinis",
   "focus": "Aljezur's site: west coast, natural park, surf and agriculture; the AI map; local AI news",
-  "state": "pass 3 released, researching",
-  "updated": "2026-11-16T00:05Z",
+  "state": "researching (00:45 wake: nothing new found; page data unchanged)",
+  "updated": "2026-11-16T01:00Z",
   "done": [
     "agent key and site key made and published in board/keys.json",
     "data/by-place/aljezur.json first pass: 3 news items (all at steps 2 to 3), 3 map entries, sources, gaps, voice, signed with the site key",
