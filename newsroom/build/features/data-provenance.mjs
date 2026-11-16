@@ -7,7 +7,7 @@
 //     their captures;
 //   - a provenance page per place (query/<place>/provenance/): every item, its source, its read date, its capture.
 // The captures are taken by board/team/data.places/tools/capture.mjs into the sgit vault promptugal-captures; their
-// index is data/query/captures.json (or, until the gate knows that file, board/team/data.places/captures.json).
+// index is data/query/captures.json.
 import { execFileSync } from 'node:child_process'
 import { database } from './data-places.mjs'
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'

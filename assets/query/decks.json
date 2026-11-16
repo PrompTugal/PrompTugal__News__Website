@@ -34,6 +34,14 @@
     },
     {
       "kind": "list",
+      "title": "Around {name}: its neighbours' stories, nearest first",
+      "sql": "SELECT round(n.km) AS km, p.name AS place, s.date, s.title FROM neighbours n JOIN places p ON p.id = n.other JOIN news s ON s.place = n.other WHERE n.place = '{place}' AND (n.adjacent = 1 OR n.km <= 25) ORDER BY n.km, s.date DESC",
+      "item": "{km} km · **{place}** · {date} · {title}",
+      "max": 8,
+      "empty": "No neighbour within 25 km has a local AI story yet."
+    },
+    {
+      "kind": "list",
       "title": "Who {name} shares with the rest of the region",
       "sql": "SELECT n.label AS label, group_concat(DISTINCT replace(e2.dst, 'place:', '')) AS also_in FROM edges e1 JOIN nodes n ON n.id = e1.src JOIN edges e2 ON e2.src = e1.src AND e2.verb = 'on_ai_map_of' AND e2.dst != 'place:{place}' WHERE e1.verb = 'on_ai_map_of' AND e1.dst = 'place:{place}' GROUP BY n.id ORDER BY n.label",
       "item": "**{label}**, also on the map of {also_in}",
