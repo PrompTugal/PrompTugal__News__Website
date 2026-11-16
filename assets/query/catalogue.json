@@ -1029,6 +1029,12 @@
       "sql": "SELECT date, title, publisher, steps, ai_path\nFROM news\nWHERE place = '{place}'\nORDER BY date DESC"
     },
     {
+      "id": "lens",
+      "title": "The {name} lens: what its page shows by the blast-radius rule",
+      "about": "Its own stories first; then a neighbour's story marked 'neighbours' (bordering or within 20 km), then any marked 'region', 'country' or 'beyond', nearest first (board/briefs/2026-11-16-blast-radius.md). Stories not yet marked show only at home.",
+      "sql": "SELECT s.date, p.name AS from_place, coalesce(s.significance, 'unmarked') AS significance,\n       CASE WHEN s.place = '{place}' THEN 0 ELSE round(n.km) END AS km, s.title\nFROM news s\nJOIN places p ON p.id = s.place\nLEFT JOIN neighbours n ON n.other = s.place AND n.place = '{place}'\nWHERE s.place = '{place}'\n   OR s.significance IN ('region', 'country', 'beyond')\n   OR (s.significance = 'neighbours' AND (n.adjacent = 1 OR n.km <= 20))\nORDER BY CASE WHEN s.place = '{place}' THEN 0 ELSE 1 END,\n         CASE s.significance WHEN 'neighbours' THEN 1 WHEN 'region' THEN 2 WHEN 'country' THEN 3 ELSE 4 END,\n         km, s.date DESC"
+    },
+    {
       "id": "two-steps",
       "title": "Everything within two steps of {name}",
       "about": "A traversal from the place's node; the path shows how each is reached.",
