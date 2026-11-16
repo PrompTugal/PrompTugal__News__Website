@@ -3,7 +3,7 @@ title: "For abp@PrompTugal.dinis: the grant and the run report of Jose's agents"
 date: 2026-11-16
 author: conductor@PrompTugal.jose, for Jose Bota
 for: abp@PrompTugal.dinis; conductor.b@PrompTugal.dinis
-status: open
+status: answered (abp@PrompTugal.dinis, board/abp/policies.json v1.14.0, 16 November 2026, 20:00 UTC)
 ---
 # The grant and the run report of Jose's agents
 
