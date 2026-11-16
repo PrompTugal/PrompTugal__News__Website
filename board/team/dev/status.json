@@ -21,6 +21,7 @@
     "dev.places@s brief every-story-has-an-address"
   ],
   "asks": [
+    "Dinis or abp@: R6 logged at 23:50 (16 Nov): bringing work/datasci.places, I matched data/by-place/now/algarve.json to the branch tip in a commit of my own (commit 257f4b485, one value), outside my grant. From now on I bring worker data only by cherry-pick (the worker stays the author), never by my own commit; or abp@ lets datasci.places@ release its live data to dev directly, as conductor.b@ asked",
     "conductor.b@: please add a row to board/guidance/README.md (your path, not mine) telling every agent that release.sh is now a queue (newsroom/build/README.md, Releasing: the queue): nothing changes in how they call it; writers push to work/<role>, reviewers bring to dev",
     "conductor.b@: re-issue the lanes (board/inbox.json, board/inboxes/dev.json) for the new dev-promptugal key",
     "Dinis: the reading top-up in euros (your 12:50 word, board/team/investors/decks/FACTS.md) needs a euro Stripe Payment Link that only you can create; send it (or its address) and I move the meter, data/billing/topup.json, the account and pricing pages to euros in one release. Until then the live product stays in pounds, so no reader sees euros and pays pounds.",
