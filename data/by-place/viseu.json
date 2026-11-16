@@ -1,0 +1,288 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "viseu",
+  "name": "Viseu",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Viseu: AI and technology in Viseu, a district capital of the Beira interior whose centre of gravity is its polytechnic university, the council's public-sector AI work and a regional industry that is just starting to talk about AI, and what reaches Viseu from Portugal and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Viseu's AI activity runs through three public and academic bodies rather than through startups we could source. The Politécnico de Viseu (now branded Universidade Politécnica de Viseu) leads RiskMap, a 244,944 euro project to map building degradation with AI, and has published rules for AI use by its staff and students. The municipality is a member of the AI4PA digital innovation hub for public administration and the intermunicipal body CIM Viseu Dão Lafões is building a data platform that uses AI to support mayors. Industry shows up mostly as events (IndustriaTech+AI, Viseu Digital Tech), not as named local AI companies.",
+    "sources": [
+      {
+        "title": "Politécnico de Viseu presents the RISKMAP tool (RTP, undated page, 2026)",
+        "url": "https://www.rtp.pt/noticias/economia/politecnico-de-viseu-apresenta-ferramenta-riskmap-que-monitoriza-situacoes-de-risco-no-patrimonio_n1721861",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "RiskMap project sheet (Instituto Politécnico de Viseu, started 1 October 2025)",
+        "url": "https://ipv.pt/wp-content/uploads/2025/10/Ficha-projeto-RisKMap.pdf",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "AI4PA Portugal digital innovation hub (digital.gov.pt, updated 12 May 2026)",
+        "url": "https://digital.gov.pt/en/noticias/ai4pa-polo-de-inovacao-digital-que-apoia-a-administracao-publica-e-as-pmes-na-transicao-para-a-ia",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "What if AI could anticipate the needs of Viseu Dão Lafões (Diário de Viseu, 29 October 2026)",
+        "url": "https://www.diarioviseu.pt/2026/10/29/e-se-a-inteligencia-artificial-conseguisse-antecipar-as-necessidades-da-populacao-de-viseu-dao-lafoes/",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#7B4B2A",
+    "landmark": "The Sé Catedral and the granite old town on the hill, home of the Grão Vasco museum",
+    "motif": "Dão wine country, grey granite, the Feira de São Mateus and the cold, green Beira interior"
+  },
+  "ai_news": [
+    {
+      "title": "Viseu Dão Lafões holds its first Smart Region Summit and shows a data and AI platform for mayors",
+      "summary": "On 29 October 2026 the intermunicipal body CIM Viseu Dão Lafões presented SMART REGION, two platforms (a regional knowledge one and an urban management one) that cross scattered data such as visitor flows, mobility and waste to help councils understand local needs. The article does not describe the models used.",
+      "date": "2026-10-29",
+      "publisher": "Diário de Viseu",
+      "url": "https://www.diarioviseu.pt/2026/10/29/e-se-a-inteligencia-artificial-conseguisse-antecipar-as-necessidades-da-populacao-de-viseu-dao-lafoes/",
+      "read_on": "2026-11-16",
+      "ai_path": "A regional public body uses AI to turn data into decisions for the councils of Viseu and its neighbours: directly about AI, with the region's public sector as the user.",
+      "steps": 0
+    },
+    {
+      "title": "IndustriaTech+AI 2026 puts AI on the factory-floor agenda in Viseu",
+      "summary": "An industrial and technology conference at the Montebelo Viseu Congress Hotel from 29 September to 1 October 2026, organised by the polytechnic's mechanical engineering and industrial management department with the council, the business association AIRV and Viseu Marca. AI is a central theme, including maintenance and AI.",
+      "date": "2026-09-29",
+      "publisher": "Mais Beiras (SAPO)",
+      "url": "https://maisbeiras.sapo.pt/viseu-industriatechai-2026-coloca-viseu-no-centro-da-inovacao-industrial-e-da-inteligencia-artificial",
+      "read_on": "2026-11-16",
+      "ai_path": "An industry conference held in Viseu with AI as a stated central theme: directly about AI. The date is the event start because the page shows no publication date.",
+      "steps": 0
+    },
+    {
+      "title": "Politécnico de Viseu shows RISKMAP, an AI tool that watches over heritage buildings",
+      "summary": "The polytechnic leads a project with the universities of Aveiro and Porto's engineering faculty to build a virtual model of a heritage building that uses photographs, thermal images and sensors to flag degradation risks. The Grão Vasco National Museum in Viseu is one of two case studies, and the building manager decides how far the AI acts.",
+      "date": "2026",
+      "publisher": "RTP",
+      "url": "https://www.rtp.pt/noticias/economia/politecnico-de-viseu-apresenta-ferramenta-riskmap-que-monitoriza-situacoes-de-risco-no-patrimonio_n1721861",
+      "read_on": "2026-11-16",
+      "ai_path": "A Viseu research project building an AI tool for heritage risk: directly about AI. The RTP page gives no publication date, only that the presentation was on a Friday, so we show the year.",
+      "steps": 0
+    },
+    {
+      "title": "Viseu's polytechnic runs a second edition of its generative AI course for higher education teachers",
+      "summary": "The institution's news page lists the second edition of the microcredential Education and AI, announced on 15 May 2026. The course brochure describes 27 hours on using generative AI critically and ethically in teaching, with in-person sessions in Viseu.",
+      "date": "2026-05-15",
+      "publisher": "Universidade Politécnica de Viseu (news page)",
+      "url": "https://univiseu.pt/noticias-ipv/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Viseu university course on generative AI: directly about AI. We read the news listing and the course brochure, not the announcement page itself.",
+      "steps": 0
+    },
+    {
+      "title": "Viseu Digital Tech spends an afternoon on AI for companies",
+      "summary": "The second edition took place on 12 February 2026 at the polytechnic's technology and management school, organised by CESAE Digital, with talks on the strategic impact of AI on business, AI in marketing and consulting, and practical automation cases.",
+      "date": "2026-02-12",
+      "publisher": "Viseu Digital Tech (organiser's page)",
+      "url": "https://viseudigitaltech.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "A business event in Viseu about AI and process automation: directly about AI. Source is the organiser's own page.",
+      "steps": 0
+    },
+    {
+      "title": "The polytechnic issues its rules for AI tools",
+      "summary": "Despacho 91/2025, signed on 10 December 2025, sets out guidelines on AI use for the academic community, citing the EU AI Act, and aims at pedagogical, creative and safe use while protecting academic integrity and personal data.",
+      "date": "2025-12-10",
+      "publisher": "Instituto Politécnico de Viseu (official despacho)",
+      "url": "https://essv.ipv.pt/wp-content/uploads/sites/10/2026/01/Despacho-91_2025-ORIENTACOES-IA.pdf",
+      "read_on": "2026-11-16",
+      "ai_path": "The Viseu institution sets its own rules for AI use: directly about AI.",
+      "steps": 0
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Viseu",
+      "url": "https://www.cm-viseu.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Universidade Politécnica de Viseu: news",
+      "url": "https://univiseu.pt/noticias-ipv/",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Diário de Viseu",
+      "url": "https://www.diarioviseu.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Mais Beiras (SAPO)",
+      "url": "https://maisbeiras.sapo.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "AI4PA Portugal (digital innovation hub, via digital.gov.pt)",
+      "url": "https://digital.gov.pt/en/noticias/ai4pa-polo-de-inovacao-digital-que-apoia-a-administracao-publica-e-as-pmes-na-transicao-para-a-ia",
+      "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "AIRV business incubator (via Startup Portugal)",
+      "url": "https://startupportugal.com/we-offer-a-complete-ecosystem-straight-from-airv-business-incubator/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Viseu Digital Tech",
+      "url": "https://viseudigitaltech.pt/",
+      "kind": "events",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "SMART REGION SUMMIT Viseu Dão Lafões, first edition (CIM Viseu Dão Lafões, Montebelo Viseu Congress Hotel)",
+      "date": "2026-10-29",
+      "url": "https://www.diarioviseu.pt/2026/10/29/e-se-a-inteligencia-artificial-conseguisse-antecipar-as-necessidades-da-populacao-de-viseu-dao-lafoes/",
+      "read_on": "2026-11-16",
+      "ai_path": "The summit presented a data platform that uses AI for regional decisions: directly about AI. Past event."
+    },
+    {
+      "title": "IndustriaTech+AI 2026 (DEMGI, Universidade Politécnica de Viseu, AIRV, council)",
+      "date": "2026-09-29 to 2026-10-01",
+      "url": "https://maisbeiras.sapo.pt/viseu-industriatechai-2026-coloca-viseu-no-centro-da-inovacao-industrial-e-da-inteligencia-artificial",
+      "read_on": "2026-11-16",
+      "ai_path": "AI is a central theme of the programme: directly about AI. Past event."
+    },
+    {
+      "title": "Viseu Digital Tech 2026, second edition (CESAE Digital, ESTGV auditorium)",
+      "date": "2026-02-12",
+      "url": "https://viseudigitaltech.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "Talks on AI for business and automation: directly about AI. Past event."
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Universidade Politécnica de Viseu (formerly Instituto Politécnico de Viseu, IPV)",
+      "type": "institution",
+      "url": "https://univiseu.pt",
+      "what": "Viseu's public higher education institution, branded Universidade Politécnica de Viseu on its site while still using IPV addresses. It issued AI use guidelines in December 2025, runs a generative AI course for teachers and leads the RiskMap AI project.",
+      "source_url": "https://essv.ipv.pt/wp-content/uploads/sites/10/2026/01/Despacho-91_2025-ORIENTACOES-IA.pdf",
+      "read_on": "2026-11-16",
+      "ai_path": "Sets AI policy, teaches generative AI and leads an AI research project.",
+      "steps": 0
+    },
+    {
+      "name": "RiskMap (IPV with Universidade de Aveiro and FEUP)",
+      "type": "organisation",
+      "url": "https://www.rtp.pt/noticias/economia/politecnico-de-viseu-apresenta-ferramenta-riskmap-que-monitoriza-situacoes-de-risco-no-patrimonio_n1721861",
+      "what": "A project from 1 October 2025 to 29 September 2028 with 244,944 euros of eligible investment, building an AI tool that maps degradation risk in historic building facades using machine learning, computer vision and BIM. Case studies include the Grão Vasco National Museum in Viseu.",
+      "source_url": "https://ipv.pt/wp-content/uploads/2025/10/Ficha-projeto-RisKMap.pdf",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI product in development at the Viseu institution.",
+      "steps": 0
+    },
+    {
+      "name": "Município de Viseu (Câmara Municipal)",
+      "type": "public body",
+      "url": "https://www.cm-viseu.pt",
+      "what": "Member of the 19-organisation AI4PA Portugal hub that helps public administration and SMEs adopt AI. It also co-organised IndustriaTech+AI 2026 and holds a council project sheet for AI4PA. We found no AI use in the council's own services.",
+      "source_url": "https://digital.gov.pt/en/noticias/ai4pa-polo-de-inovacao-digital-que-apoia-a-administracao-publica-e-as-pmes-na-transicao-para-a-ia",
+      "read_on": "2026-11-16",
+      "ai_path": "Takes part in a national AI hub for the public sector and co-hosts AI industry events.",
+      "steps": 1
+    },
+    {
+      "name": "AI4PA Portugal (European Digital Innovation Hub)",
+      "type": "organisation",
+      "url": "https://digital.gov.pt/en/noticias/ai4pa-polo-de-inovacao-digital-que-apoia-a-administracao-publica-e-as-pmes-na-transicao-para-a-ia",
+      "what": "A hub supporting the digital transformation of public administration and SMEs with AI and data science, with 19 members across Portugal. Its first training session of a five-stop cycle was held in Viseu on 26 February 2025 at the Museu do Quartzo.",
+      "source_url": "https://unu.edu/egov/news/unu-egov-ai-digital-transformation-event-viseu",
+      "read_on": "2026-11-16",
+      "ai_path": "A national AI adoption hub with Viseu as one of its training stops and members.",
+      "steps": 0
+    },
+    {
+      "name": "CIM Viseu Dão Lafões (Comunidade Intermunicipal)",
+      "type": "public body",
+      "url": "https://www.diarioviseu.pt/2026/10/29/e-se-a-inteligencia-artificial-conseguisse-antecipar-as-necessidades-da-populacao-de-viseu-dao-lafoes/",
+      "what": "The intermunicipal body of the Viseu Dão Lafões region. Presented its SMART REGION data platforms at the first Smart Region Summit on 29 October 2026.",
+      "source_url": "https://www.diarioviseu.pt/2026/10/29/e-se-a-inteligencia-artificial-conseguisse-antecipar-as-necessidades-da-populacao-de-viseu-dao-lafoes/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds data platforms whose stated aim is to use AI for regional decisions.",
+      "steps": 0
+    },
+    {
+      "name": "AIRV (Associação Empresarial da Região de Viseu) and its business incubator",
+      "type": "organisation",
+      "url": "https://startupportugal.com/we-offer-a-complete-ecosystem-straight-from-airv-business-incubator/",
+      "what": "The Viseu region's business association, which runs an incubator in the Expobeiras building with 34 offices, open to any sector and linked to the polytechnic. Co-organiser of IndustriaTech+AI 2026. The incubator page does not mention AI.",
+      "source_url": "https://startupportugal.com/we-offer-a-complete-ecosystem-straight-from-airv-business-incubator/",
+      "read_on": "2026-11-16",
+      "ai_path": "Co-hosts an industry event with AI as a central theme. The incubator itself shows no AI focus on the page we read.",
+      "steps": 2
+    },
+    {
+      "name": "CESAE Digital",
+      "type": "organisation",
+      "url": "https://viseudigitaltech.pt/",
+      "what": "Training centre for digital skills that organised Viseu Digital Tech 2026 at the polytechnic in Viseu. Its own pages were not opened, so its Viseu base is not confirmed.",
+      "source_url": "https://viseudigitaltech.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs a Viseu event on AI for companies.",
+      "steps": 1
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.viseu-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "No AI company or startup headquartered in Viseu that we could source. Local firms appear only as event organisers or speakers (CESAE Digital, SOFTINSA, FINDMORE), and no page we opened states a base in Viseu for them. A business directory of the district and the AIRV incubator's member list are the sources to look for.",
+    "The council's own news and agenda pages (cm-viseu.pt) answered 403 to us, as did Jornal do Centro and the council's AI4PA project sheet, so council news and the sums it holds are not read. We know of the AI4PA link only through digital.gov.pt, UNU-EGOV and a search result for the council's news page.",
+    "No RSS or Atom feed found for any Viseu source. The polytechnic's news page showed none and the press sites were not checked for feeds.",
+    "The RTP page on RISKMAP shows no publication date, only that the presentation was on a Friday, so the news item carries the year only.",
+    "Critical Software (320,000 euros and about 200 future jobs, 27 November 2025), UAVision (up to 5 million euros for a high-altitude unmanned aircraft system, 15 September 2026) and Empowered Startups (an agreement with the polytechnic, September 2025) all invest or partner in Viseu, but the pages we read do not mention AI, so they are left off the map.",
+    "ViTeB, a PRR-funded test bed in Viseu run by a Visabeira group company, is said in a search summary to host AI, IoT and robotics projects, but the only page that said so is an event listing on a site we do not read. It needs a source from Visabeira or the national test bed network.",
+    "The rename of the polytechnic to Universidade Politécnica de Viseu is shown by its own site and by a press report of 22 August 2026, but we did not find the official decree, so we say 'branded' and keep the old name.",
+    "No upcoming Viseu AI event found after 29 October 2026. Organisers to watch: CESAE Digital, the polytechnic, AIRV and CIM Viseu Dão Lafões.",
+    "Investors: only public programme money is sourced (RiskMap's EU regional funding, shown in the project sheet). We found no private funding round for a Viseu AI company.",
+    "Not yet looked for: the district hospital's AI use, other university research units (CISeD appeared in a search but we did not open a page on it), the Observatório Beira's AI debate (named in an opinion column, no date or page opened) and the district's other municipalities."
+  ],
+  "voice": {
+    "lede": "Viseu, oh pá: granite all the way down, a cathedral looking down on the Dão, and somehow the quietest AI scene in the Beira, busy writing rules and building tools to watch over old museums instead of shouting about it.",
+    "mandate": "PrompTugal.news Viseu, a cidade do Grão Vasco: AI and tech in Viseu, with the polytechnic as the big brain on the hill, the council and the CIM making data talk, plus whatever news arrives from Portugal and the world. Independente, and every fact comes with a receipt.",
+    "gravity": "Viseu does its AI the way it drinks its Dão: slowly, seriously and with a good paper trail. The polytechnic writes the rules and builds RiskMap to guard a museum, the council joins a national hub, the CIM puts mayors in front of a data platform, and industry throws conferences. Startups? Procuram-se, we could not find a single one with a Viseu address.",
+    "gaps_intro": "Ainda não sabemos tudo, pá. Here is what Viseu has not told us yet:"
+  },
+  "start_company": [
+    {
+      "name": "AIRV business incubator (Expobeiras building, Coimbrões)",
+      "what": "Virtual and physical incubation with 34 equipped offices, regional IAPMEI and AICEP offices on site, an acceleration programme and a link to the polytechnic. Open to any sector and maturity, with priority for projects tied to the Viseu region.",
+      "url": "https://startupportugal.com/we-offer-a-complete-ecosystem-straight-from-airv-business-incubator/",
+      "source_url": "https://startupportugal.com/we-offer-a-complete-ecosystem-straight-from-airv-business-incubator/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    }
+  ],
+  "investors": [
+    {
+      "name": "COMPETE 2030 (FEDER) into RiskMap",
+      "what": "The project sheet lists a total incentive of 208,202.40 euros on 244,944 euros of eligible investment, of which 73,072.80 euros is the polytechnic's share.",
+      "url": "https://ipv.pt/wp-content/uploads/2025/10/Ficha-projeto-RisKMap.pdf",
+      "source_url": "https://ipv.pt/wp-content/uploads/2025/10/Ficha-projeto-RisKMap.pdf",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "208,202.40 euros",
+      "date": "2025-10-01",
+      "ai_path": "Funds an AI tool for heritage building risk: directly about AI."
+    }
+  ]
+}

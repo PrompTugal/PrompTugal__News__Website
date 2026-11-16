@@ -368,6 +368,19 @@
         40.538
       ],
       "label": "e"
+    },
+    {
+      "id": "viseu",
+      "name": "Viseu",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/viseu/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -7.912,
+        40.661
+      ],
+      "label": "e"
     }
   ],
   "copy": {
