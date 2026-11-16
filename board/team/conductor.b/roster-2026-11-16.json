@@ -1,0 +1,157 @@
+{
+  "about": "The PrompTugal team restarted on this account by conductor.b@PrompTugal.dinis at Dinis's word in its session, 16 Nov 2026 ~19:25 UTC (board/guidance/2026-11-16-restart-here-go.md). Partner agents run on their operators' accounts and sync through this repository: conductor@ and local@PrompTugal.jose; reviewer@ and curator@PrompTugal.vicky.",
+  "started": "2026-11-16T19:28Z",
+  "conductor": {
+    "agent": "conductor.b@PrompTugal.dinis",
+    "session": "session_01Kw9UwFbo4iCoohkgnZar9k",
+    "model": "Opus",
+    "cron": "48 * * * *",
+    "trigger": "trig_017EmBdNrW7RULLqFTmvWhGn"
+  },
+  "agents": [
+    {
+      "agent": "journalist@PrompTugal.dinis",
+      "model": "Opus",
+      "does": "editor-in-chief",
+      "session": "session_01Kw9UwFKhT1TCw8TU2SWTrR",
+      "cron": "40 * * * *",
+      "trigger": "trig_01AeBd65E3mTg7LQen341Ypm"
+    },
+    {
+      "agent": "dev@PrompTugal.dinis",
+      "model": "Opus",
+      "does": "code, gate, release queue, feeds",
+      "session": "session_01Kw9UwEA7TFC7iKpVctAi2t",
+      "cron": "8 * * * *",
+      "trigger": "trig_01TRDKhezTAB9mf39rC1ctvH"
+    },
+    {
+      "agent": "designer@PrompTugal.dinis",
+      "model": "Opus",
+      "does": "design system, reviews designer.places",
+      "session": "session_01Kw9UwEq1n6W1EdcdvX5uGE",
+      "cron": "33 */2 * * *",
+      "trigger": "trig_01VAJvZ4xFd4Uwpf5q9Z4jky"
+    },
+    {
+      "agent": "security@PrompTugal.dinis",
+      "model": "Opus",
+      "does": "pre/post reviews, contacts line",
+      "session": "session_01Kw9UwF2TrbbV5BhUjFGupN",
+      "cron": "3 */2 * * *",
+      "trigger": "trig_0182A4zLmnsQHPhJchAPdsgv"
+    },
+    {
+      "agent": "place.algarve.west@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique, Silves",
+      "session": "session_01Kw9UwB48Tyf66NWE1NBaPm",
+      "cron": "20 * * * *",
+      "trigger": "trig_01P7Dep7DM1GDHUxpRXxLeo8"
+    },
+    {
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "Albufeira, Loule, Quarteira, Faro, Sao Bras de Alportel, Olhao",
+      "session": "session_01Kw9UwCFSNqiuFPDYCZTsXJ",
+      "cron": "25 * * * *",
+      "trigger": "trig_014WBGaP1VU3obouZQ4TtcBR"
+    },
+    {
+      "agent": "place.algarve.east@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "Tavira, Castro Marim, VRSA, Alcoutim, the region",
+      "session": "session_01Kw9UwCgQJVtiZNb3HKc1Rt",
+      "cron": "30 * * * *",
+      "trigger": "trig_01FuxXbzhBfWpXMvZw7n9hbz"
+    },
+    {
+      "agent": "place.districts@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "Portugal and the 17 district capitals",
+      "session": "session_01Kw9UwD5cJhhjJEfERLHju6",
+      "cron": "35 */2 * * *",
+      "trigger": "trig_01RYmgo6trnsVdsBgeU6k7Z5"
+    },
+    {
+      "agent": "correspondent@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "front page and beats",
+      "session": "session_01Kw9UwD8Vhfy61uBa4EkATR",
+      "cron": "44 */2 * * *",
+      "trigger": "trig_01JE9w1VKRybEsB4485E5vrY"
+    },
+    {
+      "agent": "datasci.places@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "live data: the storm readers (local-now.mjs)",
+      "session": "session_01Kw9UwByjKtkJhJ74tTYo5q",
+      "cron": "15 * * * *",
+      "trigger": "trig_01EKa8vCRozbPWNokK6d1sKT"
+    },
+    {
+      "agent": "researcher@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "news organisations pass: districts and national",
+      "session": "session_01Kw9UwBzj6Y59uTXa4AiLNG",
+      "cron": "13 * * * *",
+      "trigger": "trig_01GNS3AEEVKgwZMUy9BCbGT9"
+    },
+    {
+      "agent": "ontologist@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "schemas, graph, media kind; data.places folded in",
+      "session": "session_01Kw9UwCqzmCPurcVkEeQXcK",
+      "cron": "21 */2 * * *",
+      "trigger": "trig_01CoKwqcWreZYNDcSuv4BZGo"
+    },
+    {
+      "agent": "dev.places@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "media pages, feeds, places layouts, graphs",
+      "session": "session_01Kw9UwB6BEdDPqoqfv9ZyAU",
+      "cron": "11 * * * *",
+      "trigger": "trig_01UfTUxpE4261ZsGBmM9kLGE"
+    },
+    {
+      "agent": "designer.places@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "the look of the places, experiments",
+      "session": "session_01Kw9UwBYDu2r96UdBWpHX4p",
+      "cron": "52 */2 * * *",
+      "trigger": "trig_013pZjyrQDZSyK7xoKkU8krA"
+    },
+    {
+      "agent": "translator@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "translation memory, pt-PT first",
+      "session": "session_01Kw9UwCg9Rj5tfjTcrSJZxT",
+      "cron": "57 */3 * * *",
+      "trigger": "trig_01RjMjoDGXpXqLhQ6txhEnen"
+    },
+    {
+      "agent": "outreach@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "drafts only, a person sends",
+      "session": "session_01Kw9UwF1LeWq2vFcL2ntTSr",
+      "cron": "38 */3 * * *",
+      "trigger": "trig_01ATCc2tq27s9ApEKRismpXY"
+    },
+    {
+      "agent": "sherpa@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "reader's voice, values page, synthetic personas",
+      "session": "session_01Kw9UwFbJYpQ44VurDMAQJr",
+      "cron": "29 */3 * * *",
+      "trigger": "trig_01FWZjjZdCUQEn1WfFXg8VhS"
+    },
+    {
+      "agent": "librarian@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "map of everything, desk health, accountant's budgets",
+      "session": "session_01Kw9UwEN53pY1UeTB8yoASM",
+      "cron": "56 */3 * * *",
+      "trigger": "trig_01PvRoSAN5BTJoohxLA2fAfJ"
+    }
+  ]
+}

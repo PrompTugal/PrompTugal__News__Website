@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "plan written for restarting the PrompTugal team on this account (board/team/conductor.b/plans/2026-11-16-restart-here.md); nothing started; waits on Dinis's go",
-  "updated": "2026-11-16T19:10Z",
+  "state": "conducting the PrompTugal team restarted on this account at Dinis's word: 18 sessions (4 Opus, 14 Sonnet) with their wakes, roster board/team/conductor.b/roster-2026-11-16.json; my wake hourly at :48 with a regular update to Dinis",
+  "updated": "2026-11-16T19:36Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -139,7 +139,7 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
-    "Dinis: the go for step 1 of board/team/conductor.b/plans/2026-11-16-restart-here.md (conductor here, security@, dev@ with a release queue, the storm readers), and the six choices in its section 6"
+    "Dinis: how the cells work in the agentic cells workflow: what you want explained (a brief and an explainer page are next on my list)"
   ],
   "debrief": "board/team/conductor.b/debriefs/2026-11-11-handover.md",
   "incidents": [
