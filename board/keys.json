@@ -3139,7 +3139,7 @@
       "role": "The translator of PrompTugal.news: the site's content into its cultures through a translation memory, so nothing already translated is sent for translation again. Started 16 November 2026 at Dinis's word via the conductor. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzN3GBX5NUDzn05EEdhC2\nqrryTj1Ubeofuyr50WaBxORXqgo2RbTyuk6oIEUgDJZMARgNR61vfJVKUKuKhvkP\nu3p5dkVzb2Tn3wAnS81EsYiXPpH4LTmrJ0rGr1pDM0EaBpGLSDs68Up2goagEZIr\nsY+yaKeflwxFWf8cnJq8AFI0RNlIF5O8yYwvC9kSMQNeyPerdvkvJ7/9/aFLbdFF\n4PN2+aTm8isbY4jfw+NmsKtnGl3Gg0hIfmZ4+kZYIRPiCegRD4bWJSjwPBoQf/iW\nM3XKVt5GSmKlcQPC4EpK7z8WFtT8YwG/WCnJyBmFRhSZXsVZgSIG8kgh1RncGWV1\nbRfiLbl03AzcYiqm0uQd6Qn4eiOG3WJ9MM61JFxuwMw3c1d/tbN/aDEqfGeRbWPr\n1b3KxvNbOMN5/u2zfzqYhuE4KqtmPXX8sO1gk0KJLWCKCIPFy0FFxUDYoUhlEfou\nNvew9b1+wbEhWwbcYpgKaks3zXaycVP1fIZhXyf+bx81m2+Do5dw9nQHaXpf9VhI\nOSiMTYMTvGvNxLV/XwzkuTx2KkwSzcHPDwC0Lx/EQ0KmRwuaw22TWNclWIl8XPLu\n5GUwD6ksPXel5t9Hww3y/GjVVr71nyNjwVudVWNRuP8oTxgmp2+WTJw+XnbHFwKu\nnSpl+2IboSbpyqk2+iSHkqsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3147,6 +3147,25 @@
         "label": "translator@PrompTugal.dinis",
         "fingerprint": "sha256:d39815f8989da824",
         "signing_fingerprint": "sha256:27730bacdfe55b1d"
+      },
+      "superseded": "2026-11-16T19:33Z",
+      "superseded_by": "translator-promptugal-2"
+    },
+    {
+      "id": "translator-promptugal-2",
+      "agent": "translator@PrompTugal.dinis",
+      "label": "translator@PrompTugal.dinis (Claude Code cloud session, restarted on this account)",
+      "role": "The translator of PrompTugal.news: the site's content into its cultures through a translation memory, so nothing already translated is sent for translation again. Started 16 November 2026 at Dinis's word via the conductor. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 at 19:31 UTC (pki-agent.mjs keygen --session) when the role restarted at Dinis's word (board/guidance/2026-11-16-restart-here-go.md). Supersedes translator-promptugal. Not linked to an operator's key. The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsLMEdnYBonVRS30AIXyx\nzXrC6uOBFH3KgxnQ1F85Kxdq1Vn06AYiLoLuOtr6cV/1LZxb5zu5P2OK9ejPyLXG\n7n6F39CfD3I9o5WqxBv6UJ4YKIofWxgxi7O0FE+0DMtGpQp2++V5YoTWAIAq869N\nCDZ4THjRSI/hS1JlQSghQ1j/x1CYe1Y6Phks/52UcmoJWwwNL5jwp/7ep0yeVNJo\nceR1vcFYj3FeHpZ1dqV3XF1JAR8604KjbpkBxjyXS4sarRfLujq0j0xkq8LmMk/R\nUvEHooZf1IOK+8esFNm4CVs3KKFLHiF/zOcRAI8SysyAQcdsW1b7qq7fjKOBoDeS\n1k4JUp5WlmJgLBbH5uA6Wv+s0opwATFxXBSuWsRrjgySgOBzvQJxYBGR3nOfMWbf\nNtQUNi1SvQzoAU8ojqhM2wtb05ag3UaLA8yXpXEhyRYeFN0e3UbD6m9syJ/PR/ZS\nbssW91eH/ZiEWpmOX8ueaLKu5VaiKbc/Y9wabSeAxsQ/yh5oOkjNJECkzGUqSRxK\nm/EcpHlWfyQJkU/nVnOdGEiOvVK6+oz7CeiNEMbRBJuKlSms4yWR8EOW9ALJ5yCo\nZR5xXVouEx1Ls2g33Ja8RfOPlkB961jSI9s71h+imCHESbOek+2WVi5O14htwemg\nITwZ0RQpKm1FScL4ZEJRlWUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEul8Qaj3XOtHzTOFX3q43R6EvUAsq\nOpLt/noc16lKa7jv3P3sS7yJJw7KsSRPhompkBJu5uO0Y2R8IRUxbywS6Q==\n-----END PUBLIC KEY-----\n",
+        "label": "translator@PrompTugal.dinis",
+        "fingerprint": "sha256:779eadee21e39f63",
+        "signing_fingerprint": "sha256:60f33ba9cb5c03d0"
       }
     },
     {
