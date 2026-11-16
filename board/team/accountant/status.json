@@ -1,9 +1,10 @@
 {
   "agent": "accountant@PrompTugal.dinis",
   "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
-  "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
-  "updated": "2026-11-16T12:58Z",
+  "state": "paused for the account move (Dinis's word about 15:30 UTC on 16 November, relayed by the conductor); schedule switched off; the next session reads debriefs/2026-11-16-account-move.md first",
+  "updated": "2026-11-16T15:45Z",
   "done": [
+    "15:40: hand-over debrief for the account move (mandate, the round, state, costs of account A's sessions, lessons, what to do first); reading script and last cumulative readings committed under tools/",
     "12:50 reading: 260.78 on the PrompTugal team since 00:48 (a floor), 73.12 on iOS; over: accountant@ 3.28 (the 09:47 wake at 775 k context; compacted since), place.districts@ 3.2; idle hourly checks at large contexts (ios.places@ 7.3 in three hours) noted; costs pages regenerated",
     "09:50 reading: 209.63 on the PrompTugal team since 00:48 (a floor: Sonnet place agents carried from 06:50), 70.96 on iOS; over: place.districts@ 2.62, accountant@ 2.52; costs pages regenerated; new reading rule (Opus every wake, Sonnet place agents at the close)",
     "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
@@ -59,10 +60,10 @@
     "06:50 on 16 November: 165.89 API-equivalent so far (PrompTugal, account A) plus 69.60 iOS team; place.districts@ and accountant@ over, recorded; costs pages now 36 places"
   ],
   "next": [
-    "at 15:47: a reading of the Opus sessions and place.districts@; costs pages regenerated",
-    "at 00:47 on 17 November: close 16 November reading every session, set the 17 November baseline, write the debrief"
+    "paused: a new accountant@ session on another account onboards from debriefs/2026-11-16-account-move.md"
   ],
   "asks": [
+    "Dinis: after the move, an accountant@ on one account may not be able to read the sessions on the others' accounts with get_session. If so, each agent (or account holder) must report its daily cost, or the budgets cannot be measured",
     "Dinis: reading 41 sessions a wake cost me about 7 API-equivalent (25.22 today by 09:50, over my line of 10). From 09:47 I read the Opus sessions every wake and the Sonnet place agents once a day; a fresh accountant@ session (my debrief is current) or a per-session usage digest from the conductor would cut the rest",
     "Dinis: place.districts@ (Sonnet, from 04:16) has spent 26.24 by 09:50, 8.75 M input tokens without the cache, the pattern unchanged since I told the conductor at 06:50. Recorded only; whether to restart or compact it is the conductor's or yours",
     "Dinis: the by-place Opus sessions keep waking hourly at 540 to 600 k tokens of context while they find nothing to do (ios.places@ spent 7.3 in three hours during the iOS freeze). A compaction, or a longer interval while the freeze holds, would cut most of it; that is the conductor's or yours to decide",
@@ -340,5 +341,5 @@
       "line": "165.89 so far (+69.60 iOS); place.districts@ and accountant@ over; 36 places"
     }
   ],
-  "debrief": "board/team/accountant/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/accountant/debriefs/2026-11-16-account-move.md"
 }
