@@ -76,6 +76,313 @@
     },
     "derived": {
       "$ref": "common.schema.json#/$defs/derived"
+    },
+    "kind": {
+      "enum": [
+        "media"
+      ],
+      "description": "set only for a news organisation (outlet); then `media` is required"
+    },
+    "media": {
+      "type": "object",
+      "description": "A news outlet (kind media). Public facts only, each with its source URL and the date read. Never a private person's email or phone; a contact is shown only if published on the outlet's or a public body's own site, linked to the page it came from.",
+      "required": [
+        "outlet_kind",
+        "places_covered",
+        "website",
+        "sources"
+      ],
+      "properties": {
+        "outlet_kind": {
+          "enum": [
+            "newspaper",
+            "regional-newspaper",
+            "radio",
+            "tv",
+            "online",
+            "magazine",
+            "agency",
+            "blog",
+            "newsletter",
+            "public-broadcaster",
+            "other"
+          ]
+        },
+        "places_covered": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "common.schema.json#/$defs/place_ref"
+          },
+          "description": "places the outlet reports on (place:<slug>); a national outlet names place:portugal"
+        },
+        "owner": {
+          "type": "object",
+          "required": [
+            "name",
+            "source"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "org": {
+              "$ref": "common.schema.json#/$defs/org_ref"
+            },
+            "source": {
+              "type": "object",
+              "required": [
+                "url",
+                "read_at",
+                "how"
+              ],
+              "properties": {
+                "url": {
+                  "$ref": "common.schema.json#/$defs/url"
+                },
+                "read_at": {
+                  "$ref": "common.schema.json#/$defs/read_at"
+                },
+                "how": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "language": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]{2}(-[A-Z]{2})?$"
+          }
+        },
+        "website": {
+          "$ref": "common.schema.json#/$defs/url"
+        },
+        "feeds": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "url",
+              "format",
+              "source"
+            ],
+            "properties": {
+              "url": {
+                "$ref": "common.schema.json#/$defs/url"
+              },
+              "format": {
+                "enum": [
+                  "rss",
+                  "atom",
+                  "json-feed",
+                  "api",
+                  "sitemap"
+                ]
+              },
+              "scope": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "object",
+                "required": [
+                  "url",
+                  "read_at",
+                  "how"
+                ],
+                "properties": {
+                  "url": {
+                    "$ref": "common.schema.json#/$defs/url"
+                  },
+                  "read_at": {
+                    "$ref": "common.schema.json#/$defs/read_at"
+                  },
+                  "how": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "contact": {
+          "type": "object",
+          "required": [
+            "page",
+            "source"
+          ],
+          "properties": {
+            "page": {
+              "$ref": "common.schema.json#/$defs/url"
+            },
+            "official_email": {
+              "type": "string",
+              "pattern": "^[^@\\s]+@[^@\\s]+\\.[a-z]{2,}$",
+              "description": "only a role or newsroom address the outlet itself publishes on that page (redacao@, geral@), never a person's"
+            },
+            "official_phone": {
+              "type": "string"
+            },
+            "source": {
+              "type": "object",
+              "required": [
+                "url",
+                "read_at",
+                "how"
+              ],
+              "properties": {
+                "url": {
+                  "$ref": "common.schema.json#/$defs/url"
+                },
+                "read_at": {
+                  "$ref": "common.schema.json#/$defs/read_at"
+                },
+                "how": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "people": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "role",
+              "source"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "role": {
+                "type": "string",
+                "minLength": 1
+              },
+              "beat": {
+                "type": "string"
+              },
+              "places": {
+                "type": "array",
+                "items": {
+                  "$ref": "common.schema.json#/$defs/place_ref"
+                }
+              },
+              "person": {
+                "type": "string",
+                "pattern": "^person:[a-z0-9-]+$"
+              },
+              "source": {
+                "type": "object",
+                "required": [
+                  "url",
+                  "read_at",
+                  "how"
+                ],
+                "properties": {
+                  "url": {
+                    "$ref": "common.schema.json#/$defs/url"
+                  },
+                  "read_at": {
+                    "$ref": "common.schema.json#/$defs/read_at"
+                  },
+                  "how": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "description": "editors and journalists the outlet itself names publicly, by role and beat; no contact detail of a person"
+        },
+        "cited": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "claim",
+              "source"
+            ],
+            "properties": {
+              "claim": {
+                "type": "string",
+                "minLength": 1
+              },
+              "story": {
+                "type": "string"
+              },
+              "source": {
+                "type": "object",
+                "required": [
+                  "url",
+                  "read_at",
+                  "how"
+                ],
+                "properties": {
+                  "url": {
+                    "$ref": "common.schema.json#/$defs/url"
+                  },
+                  "read_at": {
+                    "$ref": "common.schema.json#/$defs/read_at"
+                  },
+                  "how": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "description": "what we cite from this outlet: the article, by whom, where we used it"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "url",
+              "read_at",
+              "how"
+            ],
+            "properties": {
+              "url": {
+                "$ref": "common.schema.json#/$defs/url"
+              },
+              "read_at": {
+                "$ref": "common.schema.json#/$defs/read_at"
+              },
+              "how": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

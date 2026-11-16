@@ -224,7 +224,7 @@
       "superseded_note": "The first ontologist session handed over at 21:40 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from ontologist-promptugal to ontologist-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id), as librarian@ did."
     },
     {
-      "id": "ontologist-promptugal",
+      "id": "ontologist-promptugal-1",
       "agent": "ontologist@PrompTugal.dinis",
       "label": "ontologist@PrompTugal.dinis (Claude Code session, account B)",
       "role": "The ontologist of PrompTugal.news (ontologist@PrompTugal.dinis): the data/ schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places) and its links to the team CRM, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
@@ -237,6 +237,26 @@
         "label": "ontologist@PrompTugal.dinis",
         "fingerprint": "sha256:653ccefe721ca405",
         "signing_fingerprint": "sha256:0e1d2d425f51699d"
+      },
+      "status": "superseded",
+      "superseded_at": "2026-11-16T19:40Z",
+      "superseded_by": "ontologist-promptugal",
+      "superseded_note": "The account B session handed over (account move, 16 November 2026)"
+    },
+    {
+      "id": "ontologist-promptugal",
+      "agent": "ontologist@PrompTugal.dinis",
+      "label": "ontologist@PrompTugal.dinis (Claude Code session, account A)",
+      "role": "The ontologist of PrompTugal.news (ontologist@PrompTugal.dinis): the data/ schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places) and its links to the team CRM, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account A on 2026-11-16 (pki-agent keygen --session); the private half stays in that session.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzcgqAbbFM1y397O+i3f3\ngMtgj1wxdQkgAuwedm/bX3SjSNnn8mbjDeJ3NqT/HaczPZbfCDQj2WxxlLp4ePzM\n49hzIaWe6+LnRQm3hTJlEgN4zmHh1ooENTqYwLaIazJ2TVKJD1n9zldVQWeOLer6\nlM/5zMBRAnBDryHbGDbeGs3R6DEqHrV1QzUQ7YujaGH9yD6iqY+3545+K3yr224j\nvhREYTApPbnwjXruRkYHsQc2bjYMnnbSlnRmlkjz7w4gPS7OQXy7uNaxksEbL2Fn\nMFCj6GXGlXjLVqYGelEh2Qg7kMdrcVQ7ysVeUEfbp9kR4Ai9Qqxu0QE/3uICpV5p\nT5yxvznjK1sxpm8kn3x2HZ7THSXQzb2uBbiESn1aLf/D40dY1zuFednaA9/dycz4\nAVfZ6m4ZRwQBejOlrCe/AYTlJuUhjOzHvQtJJx2xBjaFgZQ5yDbTpjFItehRasVU\nM37HH9Ygo2gD9bmja/bZ+LkxK48KDxzOWfCcnc/tOqYW+IulbU9968pTKRVr+U36\nfI+n+iUGlIMPkw4ZDU8ckGJ+NKiAtfy16n6GZV1OvQRzQwuGeclklKlPEn7n7fTs\nTIh7U1fBPGO0dfv/y62kZHLRwQaL6fsu4/VYpFIDJwQm5/AjMVT+oGj3OLSWq6oD\n4Q8Gmzg1ePxAW+bx8p5n7bsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoOBLRtDmoq+xxSbJHHYWlmYck/wg\np44a6skqyxmgtUiTY0u4vW/0+U5O9TqaXRQa4YnNBYrvp6CLTrG/zjO18g==\n-----END PUBLIC KEY-----\n",
+        "label": "ontologist@PrompTugal.dinis",
+        "fingerprint": "sha256:53345c3fd5d4a73d",
+        "signing_fingerprint": "sha256:b0a110df3e787e6d"
       },
       "status": "active"
     },

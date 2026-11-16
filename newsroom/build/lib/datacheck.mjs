@@ -123,6 +123,17 @@ export function checkData() {
     }
     for (const p of s.people) { need(`data/people/${p.id}`, p.org); for (const l of p.listings) { need(`data/people/${p.id}`, l.org); need(`data/people/${p.id}`, l.event) } }
     for (const p of s.places) need(`data/places/${p.id}`, p.located_in)
+    // a news outlet (kind media)
+    for (const o of s.organisations) {
+        const w = `data/organisations/${o.id}`
+        if (!!o.kind !== !!o.media) { errors.push(`${w}: kind/media mismatch`); continue }
+        if (!o.media) continue
+        for (const r of o.media.places_covered) need(w, r)
+        need(w, o.media.owner?.org)
+        for (const x of o.media.people || []) { for (const r of x.places || []) need(w, r); need(w, x.person) }
+        if (o.media.contact?.official_email && /^(?:[a-z]+\.[a-z]+|[a-z]\.[a-z]+)@/.test(o.media.contact.official_email)) errors.push(`${w}: official_email is personal`)
+        for (const x of o.media.people || []) if (/@|\+?\d{9}/.test(`${x.name} ${x.role} ${x.beat || ''}`)) errors.push(`${w}: contact detail in a person`)
+    }
     for (const t of s.topics) for (const b of t.broader) need(`data/topics/${t.id}`, b)
     for (const x of s.stories) { need(`data/stories/${x.id}`, x.topic); for (const r of x.rests_on) need(`data/stories/${x.id}`, r) }
     for (const x of s.evidence) for (const n of x.names) need(`data/evidence/${x.id}`, n.ref)

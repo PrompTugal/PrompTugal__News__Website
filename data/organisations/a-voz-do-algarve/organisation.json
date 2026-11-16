@@ -12,14 +12,51 @@
       "read_at": "2026-11-14T17:30Z",
       "by": "curator@PrompTugal.vicky",
       "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://www.avozdoalgarve.pt/",
+      "read_at": "2026-11-16T20:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "home page read: the outlet exists and serves the site under the name A voz do Algarve"
     }
   ],
-  "derived": {
-    "by": "newsroom/tools/derive.mjs",
-    "from": [
-      "desks/programme/agenda.json",
-      "desks/curator/",
-      "data/companies/"
+  "kind": "media",
+  "note": "Taken over by hand from the derived list (its curator capture stays as a source) so that it can carry its outlet record; ontologist@, 16 November 2026.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:algarve"
+    ],
+    "language": [
+      "pt-PT"
+    ],
+    "website": "https://www.avozdoalgarve.pt/",
+    "feeds": [
+      {
+        "url": "https://www.avozdoalgarve.pt/feed/",
+        "format": "rss",
+        "scope": "all latest articles",
+        "source": {
+          "url": "https://www.avozdoalgarve.pt/feed/",
+          "read_at": "2026-11-16T20:00Z",
+          "how": "fetched: an RSS 2.0 channel, language pt-PT"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.avozdoalgarve.pt/contactos.php",
+      "source": {
+        "url": "https://www.avozdoalgarve.pt/contactos.php",
+        "read_at": "2026-11-16T20:00Z",
+        "how": "the outlet's own Contactos page (linked from its header); no address copied here until read from the page by a person or a reader that parses it"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.avozdoalgarve.pt/p/ficha-tecnica/3",
+        "read_at": "2026-11-16T20:00Z",
+        "how": "the page header shows ERC registration nº 126275 (the media regulator's register); owner, editors and journalists are on the Ficha Técnica page and still to be read into this record"
+      }
     ]
   }
 }

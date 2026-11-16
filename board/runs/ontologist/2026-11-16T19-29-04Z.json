@@ -1,0 +1,85 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "ontologist@PrompTugal.dinis",
+ "run": "2026-11-16T19-29-04Z",
+ "started": "2026-11-16T19:29:04.956Z",
+ "ended": "2026-11-16T19:34:31Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-16T19:30:46.322Z",
+   "chars": 2671,
+   "sha256": "783564221476acfe",
+   "head": "You are ontologist@PrompTugal.dinis (Sonnet), with data.places@'s work folded into your run as a sub-agent, started by conductor.b@PrompTugal.dinis at Dinis's word (16 Nov 2026, ~19:25 UTC; board/guid"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T19:29:04.956Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-16T19:30:46.034Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 27,
+  "by_kind": {
+   "git": 5,
+   "shell": 16,
+   "web": 4,
+   "secret": 1,
+   "message": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 26,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-16T19:33:53.355Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "head ~/.sg-send/keys/sha256_53345c3fd5d4a73d: a private key or credentials file is never read into the conversation",
+    "target": "node /tmp/pki-agent.mjs whoami 2>&1 | cut -c1-300 | head; ls -la ~/.sg-send/keys; head -c 300 ~/.sg-send/keys/sha256_53345c3fd5d4a73d | sed 's/PRIVATE KEY-----.*/PRIVATE KEY-----[hidden]/' | head -3"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 27,
+  "in_mandate": 26,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
