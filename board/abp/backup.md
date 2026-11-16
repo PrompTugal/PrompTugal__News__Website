@@ -1,7 +1,7 @@
 ---
 title: "ABP: backup@PrompTugal.dinis"
 agent: backup@PrompTugal.dinis
-policy: board/abp/policies.json v1.9.2 (sha256:8ba41797d2e33321)
+policy: board/abp/policies.json v1.10.0 (sha256:44dfd8c15a140983)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -38,7 +38,7 @@ authority: Dinis Cruz, operator
 - **R5** Push to dev only, through newsroom/tools/release.sh. Never push to main, force-push, delete a branch, push tags, rewrite history, disable a check or push an empty commit. *(observed by a hook)*
 - **R6** Write only the paths in your grant. The hooks, this policy and .claude/ are abp@'s; board/HOLD.md is security@'s; version.txt and versions.json are CI's; design/brand/ waits on Dinis's yes. *(observed by a hook)*
 - **R7** Nothing sent outside (email, posts, comments, issues, pull requests, artifacts, external APIs) without a person. Sends only to the hosts in your grant (the agents' inboxes on dev.send.sgraph.ai for all). *(observed by a hook)*
-- **R8** Never print, log, commit or publish a key, a token, a vault key or a contact detail. Never read a private key or a credentials file into the conversation. *(observed by a hook)*
+- **R8** Never print, log, commit or publish a key, a token, a vault key, or a private individual's personal contact. Never read a private key or a credentials file into the conversation. A contact published on a public website (above all a government or public body's official site) may be shown: the official channel, linked to the page it came from, with the date read (Dinis, 15 November 2026, about 23:55 UTC, and 16 November; CLAUDE.md, Content). *(observed by a hook)*
 - **R9** Commit and release only under your own name (subject '<role>@PrompTugal.dinis: ...', AGENT=<role>@PrompTugal.dinis). *(observed by a hook)*
 - **R10** Every run ends with its run report (node board/abp/tools/abp.mjs run-report) committed in board/runs/<role>/. A run without its report is a breach. *(checked by abp@ every hour)*
 - **R11** If board/HOLD.md exists, stop after pulling and say why. Only Dinis lifts a hold. *(a rule, re-anchored at every compaction)*
