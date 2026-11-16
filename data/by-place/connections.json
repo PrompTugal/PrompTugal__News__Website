@@ -1229,6 +1229,160 @@
         "faro",
         "lisboa"
       ]
+    },
+    {
+      "id": "icarehb-uth",
+      "from": {
+        "name": "ICArEHB (UAlg research centre)",
+        "type": "institution",
+        "place": "faro"
+      },
+      "to": {
+        "name": "UAlgTec Heritage (centre of excellence for technological innovation in archaeological heritage)",
+        "type": "programme",
+        "place": "faro"
+      },
+      "relation": "organises",
+      "what": "ICArEHB leads the centre, described as the first Teaming for Excellence grant in archaeology in Europe and the first to an Algarve institution. It takes an 'AI-first' approach to protecting, studying and promoting heritage: tools that flag risks to threatened sites, VR and AR visits and decision support for municipalities. Six-year targets are the project's own: over 70 skilled jobs, over 400 professionals trained, over 38,000 people reached.",
+      "ai_path": "The centre's stated approach is AI-first.",
+      "steps": 0,
+      "source_url": "https://www.barlavento.pt/ualg-capta-315-milhoes-centro-europeu-inovacao-arqueologica/",
+      "source_title": "UAlg capta 31,5 milhoes para criar o primeiro centro europeu de inovacao arqueologica (Barlavento)",
+      "source_date": "2026-04-23",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "id": "eu-uth-funding",
+      "from": {
+        "name": "European Commission, Horizon Europe Teaming for Excellence",
+        "type": "programme",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "UAlgTec Heritage (centre of excellence for technological innovation in archaeological heritage)",
+        "type": "programme",
+        "place": "faro"
+      },
+      "relation": "funded_by",
+      "what": "15 million euros of the 31.5 million total come from the European Commission.",
+      "ai_path": "EU money for an AI-first heritage centre.",
+      "steps": 1,
+      "source_url": "https://www.barlavento.pt/ualg-capta-315-milhoes-centro-europeu-inovacao-arqueologica/",
+      "source_title": "UAlg capta 31,5 milhoes para criar o primeiro centro europeu de inovacao arqueologica (Barlavento)",
+      "source_date": "2026-04-23",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "id": "national-uth-funding",
+      "from": {
+        "name": "FCT, CCDR Algarve and Patrimonio Cultural, I.P.",
+        "type": "public body",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "UAlgTec Heritage (centre of excellence for technological innovation in archaeological heritage)",
+        "type": "programme",
+        "place": "faro"
+      },
+      "relation": "funded_by",
+      "what": "16.5 million euros come from national sources: the Foundation for Science and Technology, the Algarve's regional development commission and Patrimonio Cultural, I.P.",
+      "ai_path": "National money for an AI-first heritage centre.",
+      "steps": 1,
+      "source_url": "https://www.barlavento.pt/ualg-capta-315-milhoes-centro-europeu-inovacao-arqueologica/",
+      "source_title": "UAlg capta 31,5 milhoes para criar o primeiro centro europeu de inovacao arqueologica (Barlavento)",
+      "source_date": "2026-04-23",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "id": "uth-partners",
+      "from": {
+        "name": "Kiel University, ERA Arqueologia S.A. and Zartis Ltd",
+        "type": "organisation"
+      },
+      "to": {
+        "name": "UAlgTec Heritage (centre of excellence for technological innovation in archaeological heritage)",
+        "type": "programme",
+        "place": "faro"
+      },
+      "relation": "builds_with",
+      "what": "Named partners: Christian-Albrechts-Universitaet zu Kiel in Germany (reference partner), ERA Arqueologia S.A., a Portuguese archaeology company, and Zartis Ltd, an Irish technology consultancy.",
+      "ai_path": "A technology consultancy and an archaeology firm back the centre.",
+      "steps": 1,
+      "source_url": "https://www.barlavento.pt/ualg-capta-315-milhoes-centro-europeu-inovacao-arqueologica/",
+      "source_title": "UAlg capta 31,5 milhoes para criar o primeiro centro europeu de inovacao arqueologica (Barlavento)",
+      "source_date": "2026-04-23",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "id": "ciac-interface-lab",
+      "from": {
+        "name": "CIAC (UAlg arts and communication research centre)",
+        "type": "institution",
+        "place": "faro"
+      },
+      "to": {
+        "name": "INTERFACE, Digital Translation Laboratory",
+        "type": "programme",
+        "place": "faro"
+      },
+      "relation": "organises",
+      "what": "Inaugurated 9 October 2026 at Campus da Penha with 473,800 euros from FCT's EQUIPAR+2 programme under the Recovery and Resilience Plan. It turns complex scientific knowledge into accessible, interactive and immersive visual content. The lab itself is not about AI.",
+      "ai_path": "A university lab for visual science communication; AI enters through the AI Studio.",
+      "steps": 2,
+      "source_url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+      "source_title": "CIAC inaugura Laboratorio de Traducao Digital na UAlg (Universidade do Algarve)",
+      "source_date": "2026-10-19",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "interface-ai-studio",
+      "from": {
+        "name": "INTERFACE, Digital Translation Laboratory",
+        "type": "programme",
+        "place": "faro"
+      },
+      "to": {
+        "name": "AI Studio at the Instituto Politecnico de Santarem",
+        "type": "institution",
+        "place": "santarem"
+      },
+      "relation": "part_of",
+      "what": "An extension of the project at CIAC's pole at the Santarem polytechnic, focused on artificial intelligence and digital literacy, with accessibility equipment such as Braille displays and voice commands. A second link between a Faro lab and a district capital.",
+      "ai_path": "A lab whose extension is an AI studio.",
+      "steps": 1,
+      "source_url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+      "source_title": "Universidade do Algarve, 19 October 2026",
+      "source_date": "2026-10-19",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "santarem"
+      ]
     }
   ],
   "leads": [
@@ -1406,7 +1560,15 @@
       ]
     },
     {
-      "what": "Not yet opened: Make In Algarve platform (24 September 2026) and the ULS Algarve risk conference in Faro (14 October 2026) with an AI block. Algarve365's operator is not named on its page; an Intodetails company logo (Vilamoura) is in the footer, and place.quarteira lists a 'DETAILS' hospitality firm of Vilamoura: same company is not established.",
+      "what": "Make In Algarve (platform of about 50 cultural and creative tourism experiences, attached to the VisitAlgarve portal, from the regional tourism board; search extracts, reported live from early October 2026) is part of INOVA Algarve 3.0, co-financed by Algarve 2030, per the extracts. No AI in it; but it ties the regional tourism board to INOVA Algarve 3.0, which bears on who leads that project (unresolved).",
+      "url": "https://publituris.pt/2026/10/02/experiencias-de-turismo-cultural-e-criativo-reunidas-na-nova-plataforma-make-in-algarve",
+      "why_open": "Page not opened; no AI path as seen",
+      "places": [
+        "algarve"
+      ]
+    },
+    {
+      "what": "Not yet opened: the ULS Algarve risk conference in Faro (14 October 2026) with an AI block. Algarve365's operator is not named on its page; an Intodetails company logo (Vilamoura) is in the footer, and place.quarteira lists a 'DETAILS' hospitality firm of Vilamoura: same company is not established.",
       "url": "https://www.algarve365.app/en-US",
       "why_open": "Operator unconfirmed",
       "places": [
