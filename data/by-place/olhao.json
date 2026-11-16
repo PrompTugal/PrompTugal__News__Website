@@ -276,7 +276,8 @@
     "FULGUR-IT is on the map at 3 steps only: we have not read the company site or found an AI claim.",
     "Not verified: a NOVA IMS training programme with AMAL and the Olhão council (smart governance, mobility data) and an Erasmus school project in Olhão using AI (Postal, October 2026, blocked to us). Both need a readable source before they count.",
     "Investors, startups founded here and local AI talent who have spoken publicly: nothing found yet, apart from the Startup Olhão and ANJE Hub plan. Next: regional investors (such as Algarve funds and business angels) with a link to Olhão.",
-    "The council site would not show us its business or investor pages or an official contact channel: to retry, and then link the official page with the date read."
+    "The council site (cm-olhao.pt) is a script-rendered app that shows no readable text to a plain fetch, so its business pages and official contact channel could not be read: a browser-based read is needed before we can link them with the date read.",
+    "Lead, not on the map: Sensaway, a Portuguese aquaculture software startup with a machine-learning project for fish farms, piloted at an Algarve farm in 2022. No source places it in Olhão, so it stays off until its base is confirmed."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",
