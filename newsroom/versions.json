@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1588",
+    "date": "2026-11-16",
+    "what": "data.places@PrompTugal.dinis: run report (hourly wake 07:15)",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "3db009f58"
+  },
+  {
     "version": "v0.1.1587",
     "date": "2026-11-16",
     "what": "place.portimao@PrompTugal.dinis: 07:30 wake, the 07:00 target reached, stopping (run report and status only)",
