@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1629",
+    "date": "2026-11-16",
+    "what": "data.places@PrompTugal.dinis: run report (hourly wake 13:15)",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "a13ebdaf7"
+  },
+  {
     "version": "v0.1.1628",
     "date": "2026-11-16",
     "what": "abp@PrompTugal.dinis: hourly, Vicky's reviewer published an article outside its grant (recorded); 36 of 36 sites",
