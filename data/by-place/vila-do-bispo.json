@@ -159,12 +159,68 @@
     "No local feeds found. Sources to look for: an RSS feed from Barlavento or the council.",
     "Sea4Us, the marine laboratory and MARREAL are on the map as candidates with an unconfirmed AI path, and KTTSeaDrones's AI claim rests on a search summary of a report we could not open (a certificate error on the host). Their own pages must say whether AI is used.",
     "No MARREAL data page or later news found: the 2022 article promised the data online 'soon', and we did not find it.",
-    "No Algarve Evolution link to Vila do Bispo found in a search on 16 November. Sea4Us shows no 2026 news and no AI work in the sources we reached."
+    "No Algarve Evolution link to Vila do Bispo found in a search on 16 November. Sea4Us shows no 2026 news and no AI work in the sources we reached.",
+    "Starting a company here: only one route found so far (Vicentina's funding calls, from a 2020 article). We found no incubator in the municipality. Next: the council's business pages, Algarve regional incubation vouchers, and the Monchique incubator next door.",
+    "A search suggested a municipal entrepreneur support office run with Vicentina, but the only source returned 403, so it is not listed.",
+    "No official contact is listed: the one phone number we saw came from a 2020 press article, not an official page. To be added from the council or Vicentina's own site."
   ],
   "voice": {
     "lede": "Aqui no fim do mundo, o vento e que manda e a IA ainda esta a chegar de bicicleta.",
     "mandate": "PrompTugal.news Vila do Bispo: the AI and technology news from the very edge of Europe, where the Atlantic blows past Sagres and Cape St Vincent. Independent, and every fact has a source, pa.",
     "gravity": "Pa, our sources show the sea doing the heavy lifting. A marine biotech company sits at Porto da Baleeira and the university has a marine laboratory in the same port. Wind is part of life here too, but we have no source to cite yet. AI news? We found none, and we are telling you straight.",
     "gaps_intro": "What we did not find, dito com franqueza:"
-  }
+  },
+  "start_company": [
+    {
+      "name": "Vicentina, development association of the southwest (LEADER local action group, Adere programmes)",
+      "kind": "funding",
+      "what": "Regional development association whose funding calls have covered Vila do Bispo with Aljezur and Monchique. A 2020 call, +CO3SO Emprego Interior, funded job creation including self-employment in micro and small firms in low-density areas, 2.0 million euros across three measures. The call is old, so check what is open now.",
+      "url": "https://www.barlavento.pt/vicentina-apoia-emprego-e-empreendedorismo-com-dois-milhoes-de-euros/",
+      "source_url": "https://www.barlavento.pt/vicentina-apoia-emprego-e-empreendedorismo-com-dois-milhoes-de-euros/",
+      "read_on": "2026-11-16"
+    }
+  ],
+  "investors": [
+    {
+      "name": "European Innovation Council Accelerator, investment in Sea4Us",
+      "type": "grant",
+      "what": "About 5.6 million euros from the EIC Accelerator for the Sagres marine biotech company, as reported by Barlavento in December 2023.",
+      "url": "https://www.barlavento.pt/?p=248813",
+      "source_url": "https://www.barlavento.pt/?p=248813",
+      "read_on": "2026-11-16",
+      "amount": "about 5.6 million euros",
+      "date": "2023-12-08",
+      "ai_path": "Candidate only: marine drug discovery, no AI use stated in the source."
+    },
+    {
+      "name": "CRESC Algarve 2020, funding for Sea4Us",
+      "type": "grant",
+      "what": "About 1.3 million euros of regional programme funding reported for Sea4Us.",
+      "url": "https://www.barlavento.pt/?p=248813",
+      "source_url": "https://www.barlavento.pt/?p=248813",
+      "read_on": "2026-11-16",
+      "amount": "about 1.3 million euros",
+      "date": "2023-12-08"
+    },
+    {
+      "name": "Horizon 2020 SME Instrument phase 1, Sea4Pain feasibility study",
+      "type": "grant",
+      "what": "EU contribution of 50,000 euros (total cost 71,429 euros) to Sea4Us for a feasibility study, 1 May to 30 September 2018.",
+      "url": "https://cordis.europa.eu/project/id/815852",
+      "source_url": "https://cordis.europa.eu/project/id/815852",
+      "read_on": "2026-11-16",
+      "amount": "50,000 euros EU contribution",
+      "date": "2018-05-01"
+    },
+    {
+      "name": "Fosteam@South, Recovery and Resilience funding for the Sagres marine laboratory",
+      "type": "programme",
+      "what": "About 2.1 million euros of Recovery and Resilience Plan money for the Universidade do Algarve, CCMAR and municipality marine biology laboratory at Porto da Baleeira, as reported in June 2023.",
+      "url": "https://www.barlavento.pt/?p=255421",
+      "source_url": "https://www.barlavento.pt/?p=255421",
+      "read_on": "2026-11-16",
+      "amount": "about 2.1 million euros",
+      "date": "2023-06-16"
+    }
+  ]
 }

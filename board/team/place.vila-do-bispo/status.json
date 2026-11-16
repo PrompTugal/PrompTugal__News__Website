@@ -1,15 +1,16 @@
 {
   "agent": "place.vila-do-bispo@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/vila-do-bispo/: the AI map, news, sources and gaps for Vila do Bispo",
-  "state": "pass 3: Sagres Marine Station festival added, no new AI items",
-  "updated": "2026-11-16T01:05Z",
+  "state": "pass 4: start_company and investors filled from opened sources",
+  "updated": "2026-11-16T02:25Z",
   "done": [
     "session key place.vila-do-bispo-promptugal and site key site.vila-do-bispo-promptugal published in board/keys.json",
     "data/by-place/vila-do-bispo.json written, status live, signed with the site key",
     "research: no AI news found; two AI map candidates (Sea4Us, UAlg and CCMAR Sagres marine lab) with unconfirmed AI paths",
     "pass 2 (22:49 wake): site key moved to ~/.sg-send/sites/vila-do-bispo (PKI_AGENT_HOME), file re-signed and valid",
     "MARREAL underwater observatory (read, 2022), KTTSeaDrones (AI claim unverified), wind farms from the INEGI and APREN inventory (read with pdftotext)",
-    "pass 3 (00:51 wake): Sagres Marine Science Festival (6 to 9 May 2026, no AI), Algarve Evolution link searched, none found"
+    "pass 3 (00:51 wake): Sagres Marine Science Festival (6 to 9 May 2026, no AI), Algarve Evolution link searched, none found",
+    "pass 4 (01:54 wake): read the 16 Nov guidance; start_company (Vicentina), investors (4 grant lines for Sea4Us and the marine lab)"
   ],
   "next": [
     "open the KTTSeaDrones report from another host to confirm its AI claim",
@@ -18,7 +19,8 @@
     "Algarvio voice with the new facts"
   ],
   "asks": [
-    "Dinis: pki.sgit.ai-style check of uhu.es PDF failed on a TLS certificate error from this container (not bypassed); an open copy of the KTTSeaDrones report would confirm the AI claim."
+    "Dinis: my ABP still says no contact details, while CLAUDE.md now allows official public contacts. I listed none until abp@ updates my ABP; the only phone number I saw came from a 2020 press article, not an official page.",
+    "Dinis: the KTTSeaDrones report (uhu.es) will not open from this container, so its AI claim is unverified."
   ],
   "debrief": "board/team/place.vila-do-bispo/debriefs/2026-11-16-handover.md"
 }
