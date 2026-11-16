@@ -196,11 +196,11 @@
     {
       "name": "Fábrica do Empreendedor de Lagos",
       "type": "organisation",
-      "url": "https://www.barlavento.pt/mais-de-250-participantes-debateram-sobre-inovacao-no-google-devfest-lagos-2025/",
-      "what": "Named as a partner of DevFest Lagos 2025.",
-      "source_url": "https://www.barlavento.pt/mais-de-250-participantes-debateram-sobre-inovacao-no-google-devfest-lagos-2025/",
+      "url": "https://www.fabricadoempreendedor.pt",
+      "what": "Free support for entrepreneurs, companies and individuals (employment, training, starting a business), promoted by the social entrepreneurs agency SEA with the Lagos council as social investor. Its Lagos office moved to the marina area in 2021. Also a partner of DevFest Lagos 2025.",
+      "source_url": "https://www.cm-lagos.pt/municipio/noticias/8907-novo-espaco-da-fabrica-do-empreendedor-inaugurado-em-lagos",
       "read_on": "2026-11-15",
-      "ai_path": "Partner of an AI-themed developer conference.",
+      "ai_path": "Partner of an AI-themed developer conference, and the council's main route for a founder to start a business.",
       "steps": 2
     },
     {
@@ -272,6 +272,16 @@
       "read_on": "2026-11-16",
       "ai_path": "Co-organiser of a Lagos summit with an AI session. The university's own AI work belongs to the Faro page.",
       "steps": 2
+    },
+    {
+      "name": "Elevated Design",
+      "type": "company",
+      "url": "https://elevateddesign.pt/",
+      "what": "Algarve studio that builds websites, AI chatbots and workflow automation for local businesses, and names Lagos among the towns it serves. Its page states no Lagos office, so this is a company serving Lagos, not one confirmed based there.",
+      "source_url": "https://elevateddesign.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells AI chatbots and automation to Lagos businesses.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -283,8 +293,8 @@
     },
     {
       "label": "Starting a company in Lagos: where the public sources point",
-      "value": "CoLagos, the municipal coworking space with 20 workstations and five subscription plans, and the Fábrica do Empreendedor, a partner of DevFest Lagos. Algarve STP and the University of the Algarve organise the Algarve Tech Hub Summit, held in Lagos in 2025. We have not yet read an official page that lists the support on offer.",
-      "source_url": "https://www.barlavento.pt/premio-cinco-estrelas-regioes-distingue-colagos-pelo-terceiro-ano-consecutivo/",
+      "value": "The Fábrica do Empreendedor, free support for founders promoted by SEA with the Lagos council as social investor, with an office in the marina area (the council's page of June 2021, details to confirm). CoLagos, the municipal coworking space, has 20 workstations and five subscription plans. Algarve STP and the University of the Algarve organise the Algarve Tech Hub Summit, held in Lagos in 2025.",
+      "source_url": "https://www.cm-lagos.pt/municipio/noticias/8907-novo-espaco-da-fabrica-do-empreendedor-inaugurado-em-lagos",
       "read_on": "2026-11-16"
     }
   ],
@@ -299,9 +309,10 @@
     "The Lagos Digital Nomads and Lagos Remoters membership figures could not be read from a page we may use, so none are given. We want a dated figure from the groups' own sites.",
     "CoLagos's own site and Postal do Algarve showed a verification wall when we tried them, so we relied on Barlavento.",
     "A summit page we read points to a 2027 edition, but we found nothing confirming the 2026 edition.",
-    "Starting a company in Lagos: we have no official page yet that says what the council, the Fábrica do Empreendedor or Algarve STP offer a founder, or who to approach. The council's own pages for the Fábrica are the next source.",
     "Local media: Barlavento and Sul Informação were readable, Portugal Resident and Postal do Algarve are listed but our tool could not open them (a verification wall). No Lagos-only newspaper or blog with a feed was confirmed.",
-    "Investors, cooperatives and local talent in Lagos: nothing found yet in public sources we may use."
+    "Investors, cooperatives and local talent in Lagos: nothing found yet in public sources we may use.",
+    "Starting a company in Lagos: the council's page on the Fábrica do Empreendedor dates from June 2021, so its address and services need confirming on a current page. We found no official page on what Algarve STP offers a founder in Lagos.",
+    "One AI agency that works with Lagos clients states it has no office in Lagos, so it is not on the map. A directory-listed firm also stays off."
   ],
   "voice": {
     "lede": "Ó pá, Lagos has caravels, cliffs and more laptops per beach towel than anywhere else in the Algarve, and now it is learning to talk to the machines too.",
