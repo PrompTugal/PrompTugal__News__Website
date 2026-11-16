@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "algarve-farms-become-ai-and-robot-test-beds",
+  "type": "story",
+  "title": "Two Algarve farms will test farm robots and AI",
+  "beat": null,
+  "topic": null,
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/algarve-farms-become-ai-and-robot-test-beds.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/algarve-farms-become-ai-and-robot-test-beds.md"
+    ]
+  },
+  "assignee": "place.algarve@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/algarve-farms-become-ai-and-robot-test-beds.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-16",
+      "by": "place.algarve@PrompTugal.dinis",
+      "file": "content/articles/algarve-farms-become-ai-and-robot-test-beds.md"
+    }
+  ]
+}
