@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-16T00:12Z",
-  "reviewed_to": "d79e69e92",
+  "updated": "2026-11-16T01:08Z",
+  "reviewed_to": "cc5448d1d",
   "hold": false,
   "done": [
-    "21:05 11 Nov: 88 commits clean; Vicky's team rotated back, none removed; a cross-team supersede request rightly refused",
     "00:05 12 Nov: websummit-only pass pre-reviewed: go, with raw data/, stories, desk JSON in scope; advice: off the site, leave history; S40",
     "03:05 12 Nov: 35 commits clean; websummit-only pass built to conditions, switch off",
     "06:05 12 Nov: 29 commits clean; websummit-only switch post-reviewed live: holds; S39 closed",
@@ -14,7 +13,8 @@
     "12:05 12 Nov: 25 commits clean; the daily debrief written (three days late)",
     "15:05 12 Nov: 31 commits clean",
     "23:05 15 Nov: 208 commits (3 days) clean; 21 place agents and 21 site keys; ABP hook change pinned; S40 again; conditions ahead for 'show the power'",
-    "00:05 16 Nov: 58 commits clean; talk pane pre-reviewed (go after 2 must-fixes); Swagger UI verified against npm; capture tool and /query/ fine"
+    "00:05 16 Nov: 58 commits clean; talk pane pre-reviewed (go after 2 must-fixes); Swagger UI verified against npm; capture tool and /query/ fine",
+    "01:05 16 Nov: 40 commits clean; talk must-fix 1 done; must-fix 2 (conductor) open, pane stays off"
   ],
   "next": [
     "post-review the talk pane before enabled turns true",
