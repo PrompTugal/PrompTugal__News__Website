@@ -1,0 +1,31 @@
+{
+ "6f12b4ec4eb14714": {
+  "t": "Universität Aveiro gibt ihrer ganzen Gemeinschaft freien Zugang zu KI-Modellen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Aveiro gives its whole community free access t",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "6f14d4f2e57316f7": {
+  "t": "Algarve Evolution startete die Algarve Business AI Adoption Survey, einen Fragebogen von fünf Minuten dazu, wie Unternehmen jeder Grösse KI nutzen, was sie bremst und wo sie Chancen sehen. Antworten werden nur aggregiert berichtet, und die Umfrage soll zweimal im Jahr wiederholt werden, um die regionale Unterstützung und Schulung zu gestalten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve Evolution launched the Algarve Business AI Adoption ",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "6f9107fb49fd453b": {
+  "t": "In Braganças Wirtschaftswoche heisst es, KI werde Fähigkeiten verändern, nicht nur die Mitarbeiterzahl",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança's economy week hears that AI will change skills, no",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

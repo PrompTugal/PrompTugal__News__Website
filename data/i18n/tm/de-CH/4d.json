@@ -1,0 +1,20 @@
+{
+ "4d3e04b864186034": {
+  "t": "Die eigenen Artikel von PrompTugal.news über {name} (Front Matter town: oder region:), jeder signiert.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news's own articles about {name} (front matter to",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "4def806991338441": {
+  "t": "CitiLink wandelt lange kommunale Protokolle in strukturierte Informationen zu Themen, Positionen und Beschlüssen um. Entwickelt von INESC TEC, der Universität Porto und UBI zwischen 2024 und Anfang 2026, waren Porto, fünf weitere Gemeinden und Porto Digital beteiligt. Die Jury lobte sein Potenzial für Transparenz.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

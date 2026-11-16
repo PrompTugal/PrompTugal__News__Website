@@ -1,0 +1,29 @@
+{
+ "766c539b915e4350": {
+  "t": "Universität Aveiro verabschiedet einen Rahmen für Prüfungen im Zeitalter der KI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Aveiro approves a framework for assessment in ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "76c522282590fa75": {
+  "t": "Der Parque de Ciência e Inovação führte mit startUP23 und Turismo de Portugal die Ausschreibung Rocket Booster Acceleration durch, offen für Startups mit KI-Lösungen für Tourismus, intelligente Reiseziele oder Mobilität. Die Statuszeile der Seite selbst sagt, die Bewerbungen seien geschlossen, während der Text noch offen klingt, daher ist die Frist unklar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Parque de Ciência e Inovação ran the Rocket Booster Acce",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "76d474040aeede69": {
+  "t": "Nach dem Programm Leiria Experience Lab von Startup Leiria gibt die Stadtverwaltung 7500 Euro aus: für Leiria Concierge (5000, ein KI-Routenassistent) und Guide Sofia (2500, ein KI-Audioguide, zunächst für die Burg von Leiria).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "After the Leiria Experience Lab programme of Startup Leiria,",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

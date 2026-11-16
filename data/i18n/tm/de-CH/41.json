@@ -1,0 +1,21 @@
+{
+ "412fe80d59886e84": {
+  "t": "UTAD und Bragança schliessen sich einem regionalen Hub für KI-gestützte Lehre an",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD and Bragança join a regional AI-assisted teaching hub",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "41cf6794ba4200b8": {
+  "t": "Quelle",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "source",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "10567585d9db3bf2": {
+  "t": "Stadtverwaltung Loulé sagt, sie habe bereits KI-Werkzeuge gekauft, um Baugenehmigungen zu beschleunigen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Loulé council says it has already bought AI tools to speed u",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1086e071fef62aae": {
+  "t": "Beim 9. Festival Som Riscado im Cineteatro Louletano der Stadtverwaltung am 20. November 2024 liess ein improvisiertes Konzert namens Comprovisação n.º 14 einen Computer mit künstlicher Intelligenz, den Comprovisador, 25 Musiker dirigieren. Ältere Nachricht, aber das Festival läuft im November wieder.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the 9th Som Riscado festival, at the council's Cineteatro",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "10d2092486c87c86": {
+  "t": "Das CIAC der Universität der Algarve eröffnete am 9. Oktober auf dem Campus Penha das Labor INTERFACE, um komplexe Wissenschaft in visuelle und immersive Inhalte zu übersetzen, gefördert mit 473.800 Euro aus EQUIPAR+2 der FCT im Rahmen des PRR. Seine Erweiterung AI Studio, ausgerichtet auf KI und digitale Kompetenz, sitzt im Zentrum des CIAC in Santarém, ausserhalb der Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The University of Algarve's CIAC opened the INTERFACE lab at",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "a51f96c2293bce6d": {
+  "t": "KI und Sensoren verwandeln Portimãos Flussufer in eine interaktive Lichtshow",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and sensors turn Portimão's riverside into an interactive",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a540cb47bbba9f83": {
+  "t": "Das Polytechnikum erlässt seine Regeln für KI-Werkzeuge",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The polytechnic issues its rules for AI tools",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a59069bec2b29c00": {
+  "t": "Brainr, das KI-Startup für Lebensmittelfabriken aus Leiria, erweitert seine Rekord-Seed-Runde",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Brainr, the Leiria AI food-factory startup, extends its reco",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a59f1749796b2268": {
+  "t": "APDC und Google starten einen KI-Kurs für Beamte, Auftakt in Coimbra",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "APDC and Google start an AI course for civil servants, kicke",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a5e56e75b8fadd24": {
+  "t": "Ehrlich, meu amigo, das konnten wir nicht finden, und es ist viel, wie Schatten suchen um zwei Uhr nachmittags im August:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Honestly, meu amigo, here is what we could not find, and it ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a5f2c7318be1c9ed": {
+  "t": "**Die Identität dieser Website:** PrompTugal.news {name} hat einen eigenen Schlüssel, {key} (Signatur-Fingerabdruck {fp}), veröffentlicht in [board/keys.json]({keys}). Die Recherche-Datei `{file}` wird von {agent} geführt und mit diesem Schlüssel signiert, und die Signatur wird dagegen geprüft: **Signatur gültig**.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

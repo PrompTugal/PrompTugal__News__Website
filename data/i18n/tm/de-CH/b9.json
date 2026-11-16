@@ -1,0 +1,38 @@
+{
+ "b921869fbda8493c": {
+  "t": "Ein kleines PRR-Projekt am IPVC und bei Data CoLAB baut ein bürgerzentriertes KI-System",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A small PRR project at IPVC and Data CoLAB builds a citizen-",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "b9ca63c524018ec2": {
+  "t": "Ainda há fios soltos, pá. Das hat Portalegre uns noch nicht verraten:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda há fios soltos, pá. Here is what Portalegre has not to",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "b9df3ef61f7df438": {
+  "t": "PrompTugal.news Lagoa: KI und Technologie in Lagoa, einer Gemeinde für Tourismus, Wein und Kongresse, deren KI-Arbeit von ihrer Stadtverwaltung, ihren Freguesias, einem IT-Unternehmen und einer Schule kommt, und was von der Algarve, aus Portugal und der Welt in Lagoa ankommt. Unabhängig; jede Tatsache mit Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "b9e1f0ae59c1489b": {
+  "t": "Die agrarwissenschaftliche und veterinärmedizinische Hochschule veranstaltet im Rahmen des europäischen Projekts VITAL (25 Partner, neun Länder) einen internationalen Workshop dazu, wie KI und Präzisionstierhaltung die vom Sektor benötigten Kompetenzen verändern. Der Artikel nennt das Datum des Workshops nicht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The agrarian and veterinary school hosts an international wo",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

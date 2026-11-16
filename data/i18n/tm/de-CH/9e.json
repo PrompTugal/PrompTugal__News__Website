@@ -1,0 +1,40 @@
+{
+ "9e07934d1f4a185b": {
+  "t": "Monchique lebt mit dem Berg, und der Berg lebt mit dem Feuer. Die Serra brannte 2018 schwer, und das Projekt BRIDGE (IST, LNEC und die Universität der Algarve) wählte Monchique, um zu lernen, wie Nachbarn gemeinsam das Brandrisiko senken können. Unterdessen kümmert sich unten im Inkubator der Stadtverwaltung Invisible CFO mit etwas KI um das Geld anderer Leute. Nicht schlecht für einen Ort, der für Schinken, Honig und heisse Quellen berühmt ist.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Monchique lives with the mountain and the mountain lives wit",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "9e14c2a9e059fd1c": {
+  "t": "Algarve Evolution startet eine Umfrage dazu, wie lokale Unternehmen KI einsetzen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve Evolution opens a survey on how local companies adop",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "9e252e25811c8feb": {
+  "t": "Ein Studio aus Loulé holte das verstorbene Mitglied einer Band mit einem KI-Hologramm zurück auf die Bühne",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Loulé studio put a band's late member back on stage with a",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "9e5d7b58a61aea81": {
+  "t": "PrompTugal.news Vila Real, a nossa cidade da serra: KI und Tech in Vila Real, mit der UTAD als grossem Gehirn zwischen den Hügeln und dem Regia Douro Park nebenan, dazu alles, was über den Marão aus Trás-os-Montes, Portugal und der Welt heraufklettert. Independente, und jede Tatsache kommt mit Beleg.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real, a nossa cidade da serra: AI and t",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

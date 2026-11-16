@@ -1,0 +1,20 @@
+{
+ "b64ac05f17e64d03": {
+  "t": "Live",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Live",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "b6e568f6a008f4d8": {
+  "t": "Am 10. April 2026 zeigte eine Sitzung im Wissenschaftspark lokalen Unternehmen und Institutionen, wie sie die Supercomputer Deucalion und MareNostrum 5 und die Inkubationsprogramme der AI Factory erreichen. Die FCT, über ihre Einheit für digitale Dienste FCCN, förderte sie, mit Unterstützung der Stadtverwaltung Bragança.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On 10 April 2026 a session at the science park showed local ",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

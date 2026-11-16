@@ -1,0 +1,21 @@
+{
+ "e19f2f627f87647b": {
+  "t": "Aveiro hat eine Universität, ein Telekommunikationsinstitut und eine Stadtverwaltung, die eine ganze Tech Week schmeisst, und findet irgendwie trotzdem Platz für Startups von jenseits des Atlantiks. Die Universidade macht die Regeln und verteilt die KI-Werkzeuge, das Cais do Porto bringt die Neuankömmlinge, und die Câmara füllt den Parque de Exposições. Sim senhor: Forschung und eine sehr geschäftige Tech Week, nicht nur hübsche Boote.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aveiro keeps a university, a telecoms institute and a counci",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "e1d8ea1dc97017bb": {
+  "t": "Tourismuswerbung der Eurocidade do Guadiana mit KI-Avataren dreier Bürgermeister, darunter der von Castro Marim",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Eurocidade do Guadiana tourism pitch made with AI avatars of",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

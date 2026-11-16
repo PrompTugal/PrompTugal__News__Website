@@ -1,0 +1,20 @@
+{
+ "7b07c3825ed77af5": {
+  "t": "LINKA-TE 2026 füllt Leirias Markthalle und Theater mit Tech-Gesprächen, KI und Cybersicherheit an erster Stelle",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "LINKA-TE 2026 fills Leiria's market and theatre with tech ta",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "7b0b16a2dcc4b44f": {
+  "t": "Eine Hotelgruppe mit einem Hotel in Albufeira führt eine KI-App für Gästekommunikation ein",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A hotel group with an Albufeira hotel adopts an AI guest-mes",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

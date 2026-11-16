@@ -1,0 +1,29 @@
+{
+ "f779f016725feeb7": {
+  "t": "UTAD veranstaltet einen Workshop zu KI und Kompetenzen in der Tierproduktion",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD hosts a workshop on AI and skills in animal production",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "f7d28b3eb969ec12": {
+  "t": "Vila Real ist der Sitz der UTAD, der Universität von Trás-os-Montes e Alto Douro, die KI-Seminare ausrichtet, an KI-Forschungskonsortien teilnimmt und beim nationalen IAedu-Pilotprojekt mitmacht. Daneben liegt der Regia Douro Park, ein Wissenschafts- und Technologiepark mit etwa 160 Unternehmen, der die Konferenz DTech 2026 zu KI in Unternehmen unterstützte. Die Stadtverwaltung erscheint in der KI-Geschichte als Unterstützerin dieser Veranstaltung und als frühere Partnerin des angekündigten Innovationszentrums von IBM, während ihre eigene Nachrichtenseite in dem, was wir lesen konnten, keinen KI-Einsatz zeigte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real is the seat of UTAD, the University of Trás-os-Mon",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "f7e27f16eaf60e40": {
+  "t": "Ein weiteres Projekt auf derselben Liste, das ebenfalls vom 1. September 2026 bis 31. August 2028 läuft, entwickelt eine Plattform für die psychische Gesundheit von Studierenden mit einem virtuellen Assistenten auf Basis generativer KI. Die förderfähigen Kosten betragen 106936,75 Euro, davon 90896,23 Euro für die Seite von Portalegre, finanziert vom EFRE im Rahmen von ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Another project on the same list, also running from 1 Septem",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

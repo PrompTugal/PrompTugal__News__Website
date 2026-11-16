@@ -1,0 +1,21 @@
+{
+ "b4291746b3599c04": {
+  "t": "Der Old Course und der Els Club in Vilamoura schlossen sich der virtuellen Golfplattform von Trackman an, mit Ballverfolgung für die Range, Training, Fitting und Simulatorrunden in Innenräumen. Die Partnerschaft wurde von DETAILS vermittelt, das die Hotel- und Golfanlagen von Arrow Global verwaltet. Der Artikel erwähnt keine KI, nur die Genauigkeit der Daten. Als Kontext aus Vilamoura aufgenommen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Old Course and the Els Club in Vilamoura joined Trackman",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "b451405df1008a6b": {
+  "t": "Das Polytechnikum leitet mit ADSI, NERGA und Capital Douro ein 24-monatiges Projekt im Wert von 999.614 Euro, das grösstenteils aus COMPETE 2030 stammt, um KI, IoT und Blockchain in die Geschäftsmodelle kleiner Unternehmen und Startups der Region Centro zu bringen. Forbes Portugal berichtete am 5. April 2026, es beginne im April, mit einer Auftaktsitzung am 9. April am Polytechnikum.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The polytechnic leads a 24 month project with ADSI, NERGA an",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

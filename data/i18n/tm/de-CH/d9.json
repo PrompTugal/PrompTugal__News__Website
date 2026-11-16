@@ -1,0 +1,39 @@
+{
+ "d90c2407addca87e": {
+  "t": "Portugals Premierminister unterzeichnete mit mehr als 30 Staats- und Regierungschefs einen Appell für Sicherheitsprotokolle, gemeinsame Standards und internationale Mechanismen für fortgeschrittene KI-Modelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal's Prime Minister signed, with more than 30 leaders,",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d9604c6005b9efcc": {
+  "t": "PrompTugal.news Viseu, a cidade do Grão Vasco: KI und Tech in Viseu, mit dem Politécnico als grossem Gehirn auf dem Hügel, der Stadtverwaltung und der CIM, die Daten zum Sprechen bringen, dazu alles, was aus Portugal und der Welt eintrifft. Independente, und jede Tatsache kommt mit Beleg.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Viseu, a cidade do Grão Vasco: AI and tech i",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "d98cdb0f3f825638": {
+  "t": "ATTENTIA, ein grenzüberschreitendes Interreg-Projekt, wendet KI und Robotik auf das Management von Zitruskulturen in Andalusien und der Region Algarve-Alentejo an. Es wird von der Universität Huelva mit der Universität der Algarve und der Universität Sevilla geleitet und läuft vom 1. September 2023 bis 31. Dezember 2026. Das Projektblatt nennt Silves nicht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ATTENTIA, a cross-border Interreg project, applies AI and ro",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d9a432cdf6dc6af8": {
+  "t": "Weitere Nachrichten: Floresta Limpa nutzt Satellitendaten und maschinelles Lernen, um Brennstoffmanagement-Streifen zu überwachen (noch nicht in Monchique)",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Wider news: Floresta Limpa uses satellite data and machine l",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

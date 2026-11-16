@@ -1,0 +1,47 @@
+{
+ "8910bd341cbf7e23": {
+  "t": "Leirias Schwerpunkt ist ein dichtes Dreieck aus Inkubator, Polytechnikum und Fabrikwirtschaft. Startup Leiria sagt, es habe etwa 220 Unternehmen in seiner Gemeinschaft und füge fast 2000 Quadratmeter für ein Physical-AI-Labor hinzu. Das Politécnico de Leiria, das zur Universidade de Leiria e Oeste wird, hat seit dem 1. September 2026 eine eigene KI-Richtlinie in Kraft und sein erstes KI-Spin-off. Lokale Firmen wie Brainr (KI für Lebensmittelfabriken) und Tekever (ein Drohnen-Engineering-Hub) verbinden KI mit der Industrie des Distrikts aus Formen, Kunststoffen, Glas und Keramik. Die Stadtverwaltung agiert als erste Kundin für KI-Startups, und eine breitere kommunale KI-Strategie fanden wir nicht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria's centre of gravity is a dense triangle of an incubat",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "892ab15502c274f4": {
+  "t": "Lissabonner Drohnenhersteller Beyond Vision sammelt über 28 Millionen Euro ein, um KI und Schwarmtechnologie zu beschleunigen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisbon drone maker Beyond Vision raises over 28 million euro",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "898f0bfe208f08c4": {
+  "t": "Die Polytechnische Hochschule Portalegre und Fulbright vereinbaren ein dreijähriges Stipendium in Informatik",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre's polytechnic and Fulbright agree a three-year Co",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "89c91e34617c7ae5": {
+  "t": "Loulés Stadtverwaltung bringt ein immersives KI-Erlebnis zur Tourismusmesse BTL",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Loulé's council takes an AI immersive experience to the BTL ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "89c9da5778a63051": {
+  "t": "Das europäische KI-Forschungsnetzwerk CAIRNE eröffnet seinen portugiesischen Hub in Guimarães",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "European AI research network CAIRNE opens its Portuguese hub",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

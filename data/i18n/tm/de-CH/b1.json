@@ -1,0 +1,38 @@
+{
+ "b123789f4e433d71": {
+  "t": "Universidade de Évora legt einen Rahmen für KI in Lehre und Prüfung fest",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Universidade de Évora sets a framework for AI in teaching an",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "b180906cdf789f05": {
+  "t": "Bei einer Mittagsdebatte in Vilamoura, eröffnet vom Rektorat der UAlg, argumentierte der Redner, die Region solle einige wenige Prioritäten wählen, und der Chef eines Unternehmens der Algarve warnte, die Region habe unter 10 Prozent der Rechenkapazität, die KI braucht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At a Vilamoura lunch debate opened by the UAlg rector's offi",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "b1af95c74ad891f3": {
+  "t": "Start Campus und die Porto Business School tourten durch drei Städte auf der Suche nach Startups, die KI-Produkte bauen. Neun Finalisten pitchten am 29. Mai 2026 um einen Platz im Rechenzentrum von Start Campus in Sines, Cloud-Guthaben und Stipendien.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Start Campus and Porto Business School toured three cities f",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "b1fc627f2a07a828": {
+  "t": "ADiT-Lab, eine Forschungseinheit des Polytechnikums, hielt am 8. April 2026 eine kostenlose Konferenz namens Digitale Transformation: KI-getriebene Organisationen aufbauen ab, mit einer Keynote und einem Think Tank. Die Redner waren sich einig, dass es nun darum gehe, KI kritisch, verantwortungsvoll und mit klarer Strategie zu nutzen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ADiT-Lab, a research unit of the polytechnic, held a free co",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

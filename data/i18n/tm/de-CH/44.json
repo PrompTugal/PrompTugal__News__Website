@@ -1,0 +1,48 @@
+{
+ "440e8792d0640901": {
+  "t": "INESC-ID gewinnt 27,2 Millionen Euro für ein Zentrum für nachhaltige KI in Lissabon",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "INESC-ID wins 27.2 million euros for a sustainable AI centre",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "44284ee936becea9": {
+  "t": "Savearth hört mit KI auf das Duschgeräusch, um den Wasserverbrauch in Echtzeit zu messen, und animiert Gäste zu kürzerem Duschen. Die Summe stammt von zehn Investoren.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Savearth listens to shower sound with AI to measure water us",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "44342bad8e51dde6": {
+  "t": "PrompTugal.news Lagos: die KI- und Tech-Nachrichten der Stadt der goldenen Klippen, wo Remote-Arbeitende, ein kommunaler Coworking-Space und eine lebhafte Google-Entwicklerschar das WLAN warm halten, dazu alles, was von der Algarve, aus Portugal und der Welt eintrifft. Unabhängig, und jede Tatsache kommt mit Quelle, pois claro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lagos: the AI and tech news of the town of t",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "44e20bed0892ea75": {
+  "t": "Viseu richtet MAESTRO-AI aus, ein Erasmus+-Projekt zum Unterrichten von Mathematik und Programmieren im KI-Zeitalter",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu hosts MAESTRO-AI, an Erasmus+ project on teaching math",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "44eac4eeb8335e15": {
+  "t": "PrompTugal.news Portugal: KI und Technologie in Portugal, im Zusammenhang, aus Portugal für Europa, mit der nationalen KI-Karte, den nationalen Programmen und dem, was in die Algarve und jede Region hinabfliesst. Unabhängig, jede Tatsache mit Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portugal: AI and technology in Portugal, in ",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

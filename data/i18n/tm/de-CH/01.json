@@ -1,0 +1,29 @@
+{
+ "013c1f72c7c52f5a": {
+  "t": "Stadtverwaltung tritt dem Smart-Territory-Projekt Algarve 6.0 bei",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Council joins the Algarve 6.0 smart territory project",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "0142951e524f4a76": {
+  "t": "Setúbal, ó pá: wo der choco frito auf den Hafenkran trifft, die Delfine im Sado ihr eigenes Ding machen und der Hafen beschlossen hat, dass Copilot die neue Sardine ist.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal, ó pá: where the choco frito meets the cargo crane, ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "014afca9858484ba": {
+  "t": "Sybilion aus Porto sammelt 3,6 Millionen Euro für eine KI-Entscheidungsebene ein",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Sybilion, from Porto, raises 3.6 million euros for an AI dec",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

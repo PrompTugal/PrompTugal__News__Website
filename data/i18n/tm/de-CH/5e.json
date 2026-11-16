@@ -1,0 +1,20 @@
+{
+ "5e1141fcc91a8fcd": {
+  "t": "Ainda há muito por saber, minha gente. Das hat Viana uns noch nicht verraten:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda há muito por saber, minha gente. Here is what Viana ha",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "5e43f48b032d1d20": {
+  "t": "Universität der Algarve veröffentlicht ihre Richtlinie zur KI-Nutzung",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Algarve launches its AI use policy",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

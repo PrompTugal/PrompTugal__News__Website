@@ -1,0 +1,20 @@
+{
+ "c721537dfaefd717": {
+  "t": "**Die Identität dieser Website:** {key} in [board/keys.json]({keys}); `{file}` ist signiert, aber nicht mit dem eigenen Schlüssel der Website. Ihr Agent, {agent}, signiert sie erneut mit dem Schlüssel der Website.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "c7abd5881137676b": {
+  "t": "ULisboa wird über 20 Millionen Euro in zwei Rechenzentren für KI, Hochleistungsrechnen und sichere Forschungsdaten investieren, auf dem Campus Taguspark des Técnico in Oeiras und an der Faculdade de Ciências in Lissabon. Auch Unternehmen und Startups sollen sie nutzen können; die Fertigstellung wird bis 2028 erwartet.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

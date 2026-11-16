@@ -1,0 +1,47 @@
+{
+ "ca129ac5a7c65d66": {
+  "t": "Bei einem Vormittagsvortrag am 6. November 2026 in der städtischen öffentlichen Bibliothek, Teil des ersten Festival Literário de Azeitão e Setúbal, sagte eine Autorin bzw. ein Autor, KI helfe bei Sachaufgaben, könne aber Informationen erfinden, und wer sie zum Erstellen von Text nutze, nehme dem Schreiben seinen Sinn. Der Leiter der städtischen Bibliotheksdienste moderierte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A morning talk on 6 November 2026 at the municipal public li",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "ca3b22542ba1ebc7": {
+  "t": "Der Studiengang International Business Management der Wirtschaftshochschule veranstaltete einen Zyklus IBM Seminars 2026 mit Sitzungen zu KI im gesamten Forschungsprozess (8. Mai) und dazu, wie man Marktdaten mit KI-gestützter Analyse in Strategie verwandelt (20. Mai), in Raum 106 des Campus Santa Apolónia.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The business school's International Business Management degr",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "cab5e5c75e6df999": {
+  "t": "Ein Student aus Beja bringt einem KI-Modell bei, die Luftqualität für die Stadtverwaltung von Lagoa in der Algarve vorherzusagen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Beja student teaches an AI model to forecast air quality f",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "cad83a22b662fb5f": {
+  "t": "Beja richtet zwei Tage zu KI in den Gesundheitsberufen aus",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Beja hosts two days on AI in the health professions",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "caf7fe643a08ef5f": {
+  "t": "Coalex.ai sammelt eine Angel-Runde ein, um KI-Agenten zu beaufsichtigen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Coalex.ai raises an angel round to supervise AI agents",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

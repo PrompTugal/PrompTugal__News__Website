@@ -1,0 +1,21 @@
+{
+ "3a0840a368567048": {
+  "t": "PrompTugal.news São Brás de Alportel: KI und Technologie in São Brás de Alportel, einer Hügelstadt mit Korkerbe, einem Trachtenmuseum und einem städtischen Vorstoss zur Digitalisierung, und was aus der Algarve, Portugal und der Welt in São Brás de Alportel ankommt. Unabhängig; jede Tatsache mit Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "3a3ce85c327ffbdf": {
+  "t": "**Schreiben Sie uns:** Eine Korrektur, eine Frage oder eine Geschichte, die wir verpasst haben, geht über das Feld am Ende dieser Seite, versiegelt an die Redaktion. Wenn Sie angemeldet sind, erhalten Sie die Antwort auf [Ihrer Gesprächsseite]({talk}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

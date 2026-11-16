@@ -1,0 +1,29 @@
+{
+ "e94ec82166240854": {
+  "t": "PrompTugal.news Beja: KI und Technologie in Beja, der Distrikthauptstadt des Baixo Alentejo, deren Schwerpunkt ihre polytechnische Universität und die KI-Arbeit in Landwirtschaft und Gesundheit darum herum sind, und was aus dem Alentejo, Portugal und der Welt in Beja ankommt. Unabhängig; jede Tatsache mit Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Beja: AI and technology in Beja, the Baixo A",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "e9abc17d4066b58f": {
+  "t": "UAlg gewinnt 31,5 Millionen Euro für ein europäisches KI-first-Zentrum für Kulturerbe",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UAlg wins 31.5 million euros for an AI-first European herita",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "e9f81a8e238017af": {
+  "t": "{name}: {local}, {map} auf der KI-Karte",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "{name}: {local}, {map} on the AI map",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

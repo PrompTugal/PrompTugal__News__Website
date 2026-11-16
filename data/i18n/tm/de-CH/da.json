@@ -1,0 +1,29 @@
+{
+ "da40d828158b0f3f": {
+  "t": "Der Verwaltungsrat des Parks hat eine öffentliche Ausschreibung im Wert von 308.000 Euro zuzüglich Mehrwertsteuer zur Planung von Brigantia EcoPark 2 eröffnet. Der Bericht zählt 82 Unternehmen, zwei Forschungszentren und rund 430 Beschäftigte, bei einer Auslastung von nahezu 98 Prozent. Die Seite erwähnt KI nicht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The park's board opened a public tender worth 308,000 euros ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "da8ebf652ad46ed4": {
+  "t": "Eh pá, Silves: eine Hauptstadt der Algarve, bevor es cool war, die ihre laranjas noch immer von einer Burg in der Farbe einer reifen Mandarine aus bewacht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Eh pá, Silves: a capital of the Algarve before it was cool, ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "dab047fa0598eb82": {
+  "t": "INESC-TEC-Forschende treffen sich an der UTAD, um über KI und wissenschaftliche Karrieren zu sprechen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "INESC TEC researchers meet at UTAD to talk AI and scientific",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

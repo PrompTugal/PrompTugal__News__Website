@@ -1,0 +1,30 @@
+{
+ "e31afbd0464ce9aa": {
+  "t": "In Bragança teilen sich eine mittelalterliche Zitadelle und eine europäische KI-Rechensitzung eine Postleitzahl. Das Polytechnikum und sein Forschungszentrum leisten das schwere Denken, der Park hält für MORE CoLAB das Licht an, und die Câmara, Gott segne sie, applaudiert aus der ersten Reihe. Forschung und der Park, sim senhor, nicht das Rathaus.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança is where a medieval citadel and a European AI compu",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "e35a6493c546f121": {
+  "t": "In einem Bericht über eine Konferenz zum neuen Städtebaudekret zitiert Barlavento die Stadtverwaltung, die unter ihren Massnahmen, um städtische Verfahren schneller und zugänglicher zu machen, eine Plattform mit künstlicher Intelligenz nennt. Der Artikel gibt keine technischen Details.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Reporting on a conference about the new urbanism decree, Bar",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "e3fdc471d5eee830": {
+  "t": "Die Lusophone Open Science Conference fand vom 6. bis 9. Oktober 2026 auf dem Campus Gambelas statt, mit dem diesjährigen Thema, wie KI Forschung, wissenschaftliche Kommunikation und Datenpolitik verändert.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Lusophone Open Science Conference was hosted at the Gamb",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

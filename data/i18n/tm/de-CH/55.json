@@ -1,0 +1,77 @@
+{
+ "551b35b7bd0d940d": {
+  "t": "PrompTugal.news Braga: KI und Technologie in Braga, einer Universitäts- und Industriestadt, deren Schwerpunkt die Universität Minho, das Nanotechnologielabor INL, die F&E-Zentren von Unternehmen und der Hub Startup Braga sind, und was aus dem Minho, Portugal und der Welt in Braga ankommt. Unabhängig; jede Tatsache mit Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Braga: AI and technology in Braga, a univers",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "551c30f292378a22": {
+  "t": "UTAD beteiligt sich am nationalen IAedu-Pilotprojekt für KI-Modelle in der Hochschulbildung",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD joins the national IAedu pilot for AI models in higher ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "552aed54d42f2115": {
+  "t": "Neben einer neuen offiziellen App ergänzte der Gemeinderat der Freguesia Ferragudo seine Website um einen virtuellen KI-Assistenten. Er beantwortet häufige Fragen, hilft beim Finden von Dokumenten und verweist auf Dienste. Der Artikel sagt nicht, wer ihn gebaut hat.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alongside a new official app, the Ferragudo parish council a",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "555d99b494f2f0a9": {
+  "t": "Das am 6. November 2026 unterzeichnete Protokoll umfasst Ausbildung, Praktika, Abschlussarbeiten und gemeinsame Forschung in Informationstechnologien, Informationswissenschaft und Datenwissenschaft und erlaubt Claranet, Ausrüstung für die Forschung zu verleihen. Die Seite erwähnt KI nicht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Signed on 6 November 2026, it covers training, internships, ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "55648f8e2bd381c4": {
+  "t": "Loulés Festival Som Riscado liess ein KI-Programm 25 Musiker dirigieren",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Loulé's Som Riscado festival let an AI program direct 25 mus",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "556bfcae6f57d4a2": {
+  "t": "Viseu, oh pá: Granit bis ganz nach unten, eine Kathedrale, die auf den Dão hinabblickt, und irgendwie die leiseste KI-Szene der Beira, die lieber Regeln schreibt und Werkzeuge zur Bewachung alter Museen baut, statt zu schreien.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu, oh pá: granite all the way down, a cathedral looking ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "558aca3f668596b1": {
+  "t": "PrompTugal.news Bragança, a nossa terra do frio e do castelo: KI und Technik in Bragança, mit dem Polytechnikum und dem Brigantia EcoPark als grossen Köpfen, dazu alles, was aus Portugal, Europa und der Welt eintrifft. Independente, und jede Tatsache kommt mit Beleg.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Bragança, a nossa terra do frio e do castelo",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "55990f357d1c701d": {
+  "t": "Olhão ist ein Fischereihafen an der Ria Formosa, und seine Technik fliesst durchs Meer. Die Fischzuchtstation, das Labor S2AQUAcoLAB und das Futtermittelunternehmen SPAROS sind hier, und im Hafen entsteht ein Blue Hub. Der KI-Pfad ist schmal, aber real: Präzisionsernährung für Fische, dazu eine Stadtverwaltung, die einmal von KI für die Müllwagen sprach.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão is a fishing port on the Ria Formosa, and its tech goe",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "1f09eb23683b4117": {
+  "t": "Startup Leiria plant ein Physical-AI-Labor in der Markthalle der Stadt",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Startup Leiria plans a Physical AI lab in the city's market",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1f89d6a198ce804b": {
+  "t": "Der neue Geschäftsbereich baut Sicherheit, Konnektivität und digitale Dienste für Bosch eBikes. Er beginnt mit etwa 20 Personen, soll bis Ende 2026 auf das Doppelte wachsen und strebt bis 2027 mehr als 50 an, mit Data Scientists unter den offenen Stellen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The new business area builds security, connectivity and digi",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1fa8474f449c05ca": {
+  "t": "Die Stadtverwaltung unterstützte einen Workshop im März 2024 zu Deep Learning für die Lebensmittelqualitätsmessung, gemeinsam organisiert vom Elektronik-Forschungszentrum der Universität und einem europäischen Forschungsnetzwerk, mit neun internationalen Fachleuten und etwa 40 Teilnehmenden.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council supported a March 2024 workshop on deep learning",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1fc45385ca174033": {
+  "t": "Die grösste Technologieagenda des Aufbauplans wird nun von Sword Health geleitet. Das Konsortium erwartet in diesem Jahr rund 150 Millionen Euro Umsatz, grösstenteils Exporte, und nennt Priberam und NeuralShift unter seinen Produkten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The largest recovery-plan technology agenda is now led by Sw",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "1fe47731592596f5": {
+  "t": "Olhão, wo die Fische klüger sind als die Prospekte und die Algorithmen noch lernen, eine Sardine auszunehmen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão, where the fish are smarter than the brochures and the",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

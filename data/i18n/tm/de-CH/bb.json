@@ -1,0 +1,21 @@
+{
+ "bb8bd70fbb29c9f1": {
+  "t": "Alcoutim macht den alten EPAC-Getreidespeicher zu einem Gründer- und Coworking-Zentrum",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim turns the old EPAC granary into a business and cowo",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "bbb39214a180b3f3": {
+  "t": "Bei einem Treffen mit Hunderten von Fachleuten der Stadtplanung kündigte die Stadtverwaltung Loulé unter anderen Massnahmen zur Verkürzung von Genehmigungsverzögerungen KI-Werkzeuge an. Der Bürgermeister sagte, Technologie allein werde das Problem nicht lösen, solange interne bürokratische Hindernisse bestünden. Der Artikel nennt weder die Werkzeuge noch den Lieferanten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At a meeting with hundreds of planning professionals, the Lo",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

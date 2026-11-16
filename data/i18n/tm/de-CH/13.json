@@ -1,0 +1,21 @@
+{
+ "1322e92a2dec1473": {
+  "t": "Quarteira Lab zählt Fussgänger und Radfahrer, um eine Datenplattform zu füttern",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Quarteira Lab counts walkers and cyclists to feed a data pla",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "13e3829c3b71b77d": {
+  "t": "Campo Maior eröffnet mit Portalegres Polytechnikum ein Zentrum für Wettbewerbsintelligenz zu Daten und KI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Campo Maior opens a data and AI competitive intelligence cen",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

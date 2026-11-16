@@ -1,0 +1,39 @@
+{
+ "a9320545ff993c45": {
+  "t": "Die Polytechnische Hochschule Portalegre unterzeichnet ein Protokoll zum Technologiesektor mit Claranet Portugal",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre's polytechnic signs a tech-sector protocol with C",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a93eadbeade9b735": {
+  "t": "Die Semana da Empregabilidade 2025 des Politécnico de Setúbal stellte KI und Personalgewinnung zur Debatte, neben Vorträgen, Workshops und einer Jobmesse. Wir haben von diesem Bericht nur Überschrift und Vorspann gelesen, der Haupttext wurde nicht geladen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 2025 Semana da Empregabilidade of the Politécnico de Set",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a96e15c6d80b4a42": {
+  "t": "IPVC-Debatte sagt, die Frage sei nicht mehr, ob man KI nutzt",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "IPVC debate says the question is no longer whether to use AI",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a97819f633c3610f": {
+  "t": "Braga kann sich nicht für nur eines entscheiden: Die Universität forscht, das INL tüftelt im Nanomassstab, Cegid und Bosch stellen die Ingenieure ein, Startup Braga schickt fünfzehn Startups nach Lissabon, und die Camara, Gott segne sie, kauft die KI tatsächlich und packt sie in einen Bus. Vier Motoren, eine Granitstadt, sim senhor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga cannot pick just one: the university does research, IN",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

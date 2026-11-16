@@ -1,0 +1,20 @@
+{
+ "be5099c1271641c4": {
+  "t": "Ein Land am atlantischen Rand Europas, das sich ein eigenes Sprachmodell geschrieben hat und möchte, dass Sie es ausprobieren.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "be99630c0197edb6": {
+  "t": "Bewerbungen für den Pilotplan der Algarve zu KI und Robotik für Tourismus-KMU sind geöffnet",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

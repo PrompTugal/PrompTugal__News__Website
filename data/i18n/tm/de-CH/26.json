@@ -1,0 +1,30 @@
+{
+ "262e51b4f72873db": {
+  "t": "Alcoutim ist eine Gemeinde im Landesinneren am Guadiana, an der Grenze zu Spanien, und ihre öffentlichen Investitionen gelten Infrastruktur und Grundversorgung: eine Brücke nach Sanlucar de Guadiana, ein erneuertes Wassernetz in Martim Longo, Sozialwohnungen und eine barrierefreiere Website der Stadtverwaltung. Seine Technologiegeschichte ist heute die öffentliche: Es ist eine von sechs Gemeinden der Algarve, die eine gemeinsame Sensor- und Datenplattform aufbauen, und es beherbergt das nationale Zentrum, das die Wüstenbildung erforscht. Ein Ort dieser Grösse hat keine KI-Unternehmen, die wir finden konnten, daher führt der Weg zur KI zuerst über Daten und Konnektivität.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim is an inland municipality on the Guadiana, on the b",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "26da359c2f02f4b2": {
+  "t": "Setúbal macht seine KI, wie es alles macht, mit Schutzhelm auf. Der Hafen bringt siebzig Beschäftigten den Umgang mit einem Chatbot bei, das Politécnico beherbergt ein ganzes Technologieinstitut und tritt einem nationalen KI-Netzwerk bei, und Navigator sagt, seine Maschinen in Mitrena lernten auch. Die Câmara, bless it, richtet einen sehr zivilisierten Vortrag über Bibliotheken und KI aus, und eine Startup-Szene hat sich noch nicht gezeigt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal does its AI the way it does everything, with a hard ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "26e658997c3d9bf1": {
+  "t": "InnoWave, ein Technologieunternehmen mit einem Standort in Beja, investiert 3,8 Millionen Euro in KI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "InnoWave, a tech company with a hub in Beja, puts 3.8 millio",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

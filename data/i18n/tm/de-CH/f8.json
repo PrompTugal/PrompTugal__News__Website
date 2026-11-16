@@ -1,0 +1,30 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "AMALIA, das offene Sprachmodell für europäisches Portugiesisch, wird vorgestellt",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "f80bbd73459dc1d1": {
+  "t": "Nach den bisher gelesenen Quellen ist Loulés Gewicht bei KI eher institutionell als unternehmerisch. Die Stadtverwaltung sagt, sie habe bereits KI-Werkzeuge beauftragt, um die Stadtplanung zu beschleunigen, der regionale Wirtschaftsverband NERA hat seinen Sitz im Kreis und schult lokale Firmen im Umgang mit KI-Werkzeugen, und die Stadtverwaltungen von Loulé und Faro schreiben gemeinsam ein Multitechnologie-Zentrum im Estádio Algarve aus, das KI unter seinen Themen aufführt. Ausser SPIC fanden wir kein KI-Unternehmen, das eindeutig in Loulé seinen Sitz hat, deshalb ist die Karte unten absichtlich kurz.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "f83860c4d97f409d": {
+  "t": "Die 41. Ausgabe der Landwirtschaftsmesse von Beja, veranstaltet vom Landwirteverband ACOS, stand unter dem Motto mehr Landwirtschaft und mehr Zukunft, mit der Verbindung von Produktion und neuer Technologie sowie KI als Schwerpunkt und einem Innovations- und Technologiepavillon für Vorträge und Gerätevorführungen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

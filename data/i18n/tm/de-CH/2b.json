@@ -1,0 +1,39 @@
+{
+ "2b08c105c78338e0": {
+  "t": "Portos KI-Aktivität gruppiert sich um UPTEC, den Wissenschaftspark der Universität Porto, wo ein Bericht von 2025 mindestens fünf KI-Startups in Gesundheit, Industrie und Gastronomie fand, wo ein portugiesisch-europäisches Supercomputing-Programm (die BSC AI Factory) im Oktober 2026 eine KI-Inkubationsrunde startete und wo Granter im November 1,6 Millionen Euro einsammelte. Darum herum liegen ein Porto Venture-Fonds (33N), eine Business School (Porto Business School), eine Marketing-KI-Community (AIhub) und Porto Digital, die digitale Einrichtung der Stadt, die KI für Verkehrs- und Flussprognosen nach einer Regel ohne Black Box beschreibt und im November 2026 zwei KI-Vorträge zur Smart City Expo nach Barcelona brachte. Der Global Startup Ecosystem Report 2026 nennt KI als einen von vier Wachstumstreibern. Die breitere Universitäts- und Forschungsbasis ergänzt das FEUP-Labor LIACC, das Forschungsinstitut INESC TEC (das im Oktober 2026 das AI, Data and Robotics Forum in Porto ausrichtete) und Fraunhofer Portugal AICOS.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto's AI activity clusters around UPTEC, the science park ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "2b7b9ad9a81e640c": {
+  "t": "Santaréms Technologiegeschichte ist Agrar- und Lebensmittelwirtschaft. Die Stadtverwaltung und die Universidade Politécnica de Santarém bauen mit ISLA Santarém, INIAV und dem Messegelände CNEMA den Campus Tejo, einen Wissenschafts- und Technologiepark zu Wasser, Agrar- und Lebenswissenschaften, der am 12. November 2026 auf dem Web Summit Lisbon vorgestellt wurde. Die Seiten, die wir gelesen haben, sagen nicht, dass der Campus Tejo KI nutzt; seine KI-Verbindung ist also ein kurzer Schluss über Präzisionslandwirtschaft und Digitalisierung. Die direkte KI-Aktivität ist kleiner und verstreut: ein vom PRR finanziertes KI-Projekt über 100000 Euro an der ISLA Santarém, Wirtschafts- und Gesundheitsveranstaltungen im CNEMA und ein Programm zu KI in der Landwirtschaft bei einem Treffen von Heidelbeerbauern.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's technology story is agri-food. The council and th",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "2b849e5e92cfc33b": {
+  "t": "Guarda, ó pá: kalt genug, um einen Server einzufrieren, stur wie Granit und Heimat eines Polytechnikums, das still Maschinen unterrichtet und ein paar Studierenden beibrachte, den PDM zu lesen, bevor die Architekten es konnten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "Seine Studierenden und Mitarbeitenden erhalten über den Dienst IAedu der FCT kostenlosen Zugang zu den Pro-Versionen dreier grosser Sprachmodelle, was die Einrichtung einen Schritt hin zu verantwortungsvoller und gemeinschaftlicher KI-Nutzung nennt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

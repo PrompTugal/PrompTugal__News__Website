@@ -1,0 +1,20 @@
+{
+ "7c68c12b20c281b6": {
+  "t": "Jetzt der ehrliche Teil, meu amigo: wo die Algorithmen noch nicht in den Orangenhain gekommen sind.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Now the honest part, meu amigo: where the algorithms have no",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "7ca1e09bcf45f77f": {
+  "t": "Évora hat es nicht eilig, aber es kommt an. Die Universität bringt den Maschinen Portugiesisch bei und schreibt ihnen die Hausregeln, PACT bildet die Menschen aus und hält für die Unternehmen das Licht an, das Krankenhaus lässt eine KI auf das Präparat zeigen, bevor ein Facharzt entscheidet, und ein Rechenzentrumsunternehmen hat still einen 1-MW-Raum gekauft. Das Rathaus, Gott segne es, konnten wir bei KI noch nicht ertappen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora does not rush, but it gets there. The university teach",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

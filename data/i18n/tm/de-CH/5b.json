@@ -1,0 +1,39 @@
+{
+ "5b310882a24c7ce8": {
+  "t": "Das Unternehmen mit Sitz in London und Lissabon schloss eine Seed-Runde bei einer Bewertung von 30 Millionen Dollar ab, angeführt von Armilar mit Heartfelt VC. Seine Software nutzt autonome Agenten, um Marketingdaten zu analysieren und darauf zu reagieren.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The company, headquartered in London and Lisbon, closed a se",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "5b4640d01b27db68": {
+  "t": "Die Entschliessung 2/2026 legt vier Säulen und vier erste Initiativen fest: eine Gigafactory-Bewerbung, sektorale KI-Zentren, ein Beschleunigungsprogramm für Startups mit verantwortungsvoller KI und regulatorische Sandboxen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Resolution 2/2026 sets four pillars and four first initiativ",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "5b5eabbf1fa7adc6": {
+  "t": "Ora bem, was wir noch nicht finden konnten und wo wir als Nächstes suchen:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ora bem, what we could not find yet, and where we will look ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "5b7c9e3dca5f8d10": {
+  "t": "In Vila Real können sich eine Universität, ein Wissenschaftspark und ein Hornissenjagd-KI-Projekt einen Hang teilen. Die UTAD übernimmt das schwere Denken, der Regia Douro Park beherbergt etwa 160 Firmen, und die Câmara, bless it, hilft DTech aus, während ihre Nachrichtenseite meist von Töpferei, Eisenbahnen und Schulpreisen spricht. Muita calma, die KI-Geschichte hier ist der Campus und der Park.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real is where a university, a science park and a hornet",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

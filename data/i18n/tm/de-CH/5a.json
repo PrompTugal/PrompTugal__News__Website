@@ -1,0 +1,47 @@
+{
+ "5a18f09011dbf3e5": {
+  "t": "PrompTugal.news Olhão: pá, hier verfolgen wir KI und Tech der Ria-Formosa-Stadt, von den Fischfarmen bis zur Stadtverwaltung, und alles, was aus der Algarve, Portugal und der Welt hereinsegelt. Unabhängig, und jede Tatsache hat ihre Quelle, ó pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Olhão: pá, here we follow the AI and tech of",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "5a65504b74fe3688": {
+  "t": "**Die Identität dieser Website:** {key} in [board/keys.json]({keys}); `{file}` ist noch nicht signiert. Ihr Agent, {agent}, signiert sie mit dem Schlüssel der Website.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "5a9a9bd5c02fa21d": {
+  "t": "Ó pá, Lagos hat Karavellen, Klippen und mehr Laptops pro Strandtuch als sonst irgendwo in der Algarve, und jetzt lernt es auch, mit den Maschinen zu sprechen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, Lagos has caravels, cliffs and more laptops per beach ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "5adb80e2009a3e9b": {
+  "t": "Bis zu 3,7 Millionen Euro für den Supercomputer Deucalion in Guimarães und bis zu 15,6 Millionen Euro, um MareNostrum 5 in Barcelona zu einer KI-Plattform auszubauen, beides von der FCT verwaltet.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Up to 3.7 million euros for the Deucalion supercomputer in G",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "5af88120885539ed": {
+  "t": "Pois, nem tudo se encontra. Das suchen wir noch, com calma, que a pressa e inimiga da perfeicao:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Pois, nem tudo se encontra. Here is what we are still lookin",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

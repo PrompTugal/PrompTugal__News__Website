@@ -1,0 +1,59 @@
+{
+ "6304c8d358e1ea1e": {
+  "t": "Nordic Epod, ein Gemeinschaftsunternehmen von CTS Group und Eaton, nahm sein neues Werk etwa zwei Wochen vor dem 4. September 2026 in Betrieb, mit zwei Schichten. Es baut grosse elektrische Einheiten für Rechenzentren, erwartet bei seinem Ausbau etwa 500 Arbeitsplätze und hat Aufträge bis Juni 2027 gesichert. Der Artikel erwähnt keine KI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Nordic Epod, a CTS Group and Eaton venture, began operating ",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "6365da11a6beb2f0": {
+  "t": "PrompTugal.news Castro Marim: KI und Technologie in Castro Marim, einer Stadt an den Salinen und der Grenze am Guadiana, wo die KI im Planungsamt der Stadtverwaltung und in ihren Salinen sitzt, und was von der Algarve, aus Portugal und der Welt in Castro Marim ankommt. Unabhängig, und jede Tatsache mit Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Castro Marim: AI and technology in Castro Ma",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "6372101a1953abe4": {
+  "t": "Das Lissabonner Labor für angewandte KI Augusta Labs schliesst seine erste Runde mit 50 Millionen Euro ab",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisbon applied AI lab Augusta Labs closes its first round at",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "639755d2bc9c63be": {
+  "t": "Der Gemeinderat der Freguesia Aljezur und das Unternehmen Tecnologias Imaginadas starteten ein kostenloses Pilotprojekt mit 15 Personen, die jeweils ein Teleassistenzgerät mit Überwachung durch Pflegekräfte, Standortzugriff, automatischen Sturzalarmen und einem SOS-Knopf erhielten. Die Quelle sagt nicht, dass das System KI nutzt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Aljezur parish council and the company Tecnologias Imagi",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "63c1378d5de86f2e": {
+  "t": "Politécnico de Leiria bringt mehr als 20 Projekte nach Madrid, zwei davon mit KI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Politécnico de Leiria takes more than 20 projects to Madrid,",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "63e5eb9a2ca1e1e8": {
+  "t": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo: KI und Tech in Portalegre, mit der Polytechnischen Hochschule als grossem Webstuhl, dazu alles, was aus dem Alentejo, Portugal und der Welt hereinrollt. Independente, und jede Tatsache kommt mit Beleg.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

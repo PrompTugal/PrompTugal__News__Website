@@ -1,0 +1,29 @@
+{
+ "a264b612529f59a0": {
+  "t": "PrompTugal.news Monchique: KI und Technologie in Monchique, einer bewaldeten Berggemeinde, in der Waldbrandrisiko und ein kleiner städtischer Gründerinkubator die Agenda bestimmen, und was aus der Algarve, Portugal und der Welt in Monchique ankommt. Unabhängig; jede Tatsache mit Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Monchique: AI and technology in Monchique, a",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a27279fca09f828a": {
+  "t": "Eine Industrie- und Technologiekonferenz im Montebelo Viseu Congress Hotel vom 29. September bis 1. Oktober 2026, organisiert vom Fachbereich Maschinenbau und Industriemanagement des Polytechnikums mit der Stadtverwaltung, dem Unternehmerverband AIRV und Viseu Marca. KI ist ein zentrales Thema, auch Instandhaltung und KI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "An industrial and technology conference at the Montebelo Vis",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "a2d583ad4bcfc91d": {
+  "t": "Lokalradio berichtet über AI4PRIME: stromsparende KI für Höfe mit schlechtem Internet",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Local radio reports AI4PRIME: low-power AI for farms with po",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

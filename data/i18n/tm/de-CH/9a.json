@@ -1,0 +1,20 @@
+{
+ "9a0da4c512705c34": {
+  "t": "Alcoutim bekommt gemeinsam genutzte E-Bikes, betrieben von einer digitalen Plattform",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim gets shared electric bikes run by a digital platfor",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "9a6b0006c754eb56": {
+  "t": "Neuraspace aus Coimbra sammelt 15,6 Millionen Euro für seine Weltraum-KI-Plattform ein",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Neuraspace of Coimbra raises 15.6 million euros for its spac",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "1a1e23e86f8fba6a": {
+  "t": "Von PrompTugal.news",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "From PrompTugal.news",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1a3ced336dc4f7fa": {
+  "t": "Portalegre webt seine KI auf die langsame Art, Faden für Faden. Auf dem Webstuhl der Universität liegen zwei KI-Projekte für Bauernhöfe und Studierende, Kyndryl sitzt mit seinen Sensoren nebenan, ein Cluster für Verteidigungstechnik hat sich einen Stuhl herangezogen, und die Câmara, bless it, ist mit Wasserrohren beschäftigt. Forschungs- und Industriepartner, sim senhor, nicht das Rathaus.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre weaves its AI the slow way, thread by thread. The",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1a6c6147060c5a08": {
+  "t": "Leirias Stadtverwaltung wird erster Kunde zweier KI-Tourismus-Startups",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria's council becomes first customer of two AI tourism st",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1ab61419916bee37": {
+  "t": "Studierende und Mitarbeitende in Bragança erleben ein Frühjahr voller KI-Seminare an der ESTiG",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança students and staff get a spring of AI seminars at E",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1ab6c4761e386626": {
+  "t": "Rathaus von Albufeira richtet Konferenz zu KI in der Stadtplanung aus",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Albufeira town hall hosts a conference on AI in urban planni",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1abe236828fbd435": {
+  "t": "In Lisboa treffen Portugals KI-Geld und KI-Institutionen aufeinander. Die Universität Lissabon investiert über 20 Millionen Euro in zwei KI-Rechenzentren, INESC-ID hat 27,2 Millionen Euro für ein Zentrum für nachhaltige KI gewonnen, und das nationale Sprachmodell AMALIA wurde im Innovationszentrum des Técnico vorgestellt. Der städtische Startup-Hub Unicorn Factory Lisboa betreibt mit Microsoft eine KI-Community, und geförderte Startups wie Augusta Labs und DOJO AI haben hier ihren Sitz. Der eigene Einsatz von KI durch die Stadtverwaltung ist in dem, was wir lesen konnten, nur dünn dokumentiert; Forschung, Startups und nationale Projekte, nicht das Rathaus, sind also Lisboas Schwerpunkt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisboa is where Portugal's AI money and institutions meet. T",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

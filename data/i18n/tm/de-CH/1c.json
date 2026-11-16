@@ -1,0 +1,38 @@
+{
+ "1c1453fcec54f79d": {
+  "t": "Eine Softwarefirma aus Faro testete ihre intelligente Bewässerung in Loulé, ein KI-Modul ist geplant",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Faro software firm tested its smart irrigation in Loulé, w",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1c77a443b6a6c396": {
+  "t": "Ein Lusa-Bericht, den O Algarve Económico erneut veröffentlichte, sagt, die Leitung der Universität und die Stadtverwaltung hätten sich getroffen, um den Plan Horizonte2030 der Universität mit dem städtischen Gesamtplan für einen Campus in Barranco do Rodrigo abzustimmen. Er hält am Ziel 2028 fest und beziffert die Investition auf etwa 8 Millionen Euro (der Bericht vom Januar 2025 nannte etwa 15 Millionen). Eine Ausschreibung wird nicht beschrieben, und dieser Bericht erwähnt keine KI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Lusa report republished by O Algarve Económico says the un",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1c92b9e98dd3ba1e": {
+  "t": "Ainda não sabemos tudo, pá. Das hat Santarém uns noch nicht verraten:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Santarém has not to",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1cbb54a360cf8c15": {
+  "t": "Das Projekt Intelligence4Administration, finanziert von Norte 2030, will KI in die Verwaltung kommunaler Dienste einführen und die Dienste für die Bürger digitalisieren. Der Artikel ist nach wenigen Zeilen kostenpflichtig, daher werden konkrete Werkzeuge nicht beschrieben.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Intelligence4Administration project, financed by Norte 2",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "941fd7f0427c5375": {
+  "t": "Campus Tejo geht mit Universität und Stadtverwaltung zum Web Summit",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Campus Tejo goes to Web Summit, with the university and the ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "947fb828963ddfce": {
+  "t": "Das neue Solarkraftwerk von EDP in Aljezur teilt sich den Netzanschluss mit dem Windpark Bordeira",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "EDP's new solar plant in Aljezur shares the Bordeira wind fa",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "906094ff1090ee9f": {
+  "t": "Santarém betreibt zuerst Agrar- und Lebensmittelwissenschaft und dann KI, und sagt das ehrlich. Die Universität, die Stadtverwaltung, ISLA, INIAV und das Messegelände CNEMA bauen den Campus Tejo, der zum Web Summit Lisbon fuhr, auch wenn niemand, den wir gelesen haben, dazu das Wort KI gesagt hat. Unterdessen hat ISLA ein eigenes KI-Projekt über 100000 Euro, und die Heidelbeerbauern haben die Maschinen bereits eingeladen. Sim senhor, eine lezíria mit Laptop.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém does agri-food science first and AI second, and say",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "90d2c69bef549a56": {
+  "t": "Am 1. Juli 2026 im Técnico Innovation Center in Lissabon vorgestellt, auf EuroLLM aufgebaut, mit Daten von Arquivo.PT, mit 5,5 Millionen Euro aus dem Aufbauplan finanziert und bereit für die offene Nutzung.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Presented on 1 July 2026 at the Técnico Innovation Center in",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

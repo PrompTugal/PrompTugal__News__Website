@@ -1,0 +1,58 @@
+{
+ "1b20915116109e4f": {
+  "t": "PrompTugal.news Vila Real de Santo António: KI und Technologie in VRSA, der ordentlichen pombalinischen Stadt mit den Füssen im Guadiana und einem Auge auf Spanien, dazu alles, was aus der Algarve, Portugal und der Welt zu uns kommt. Unabhängig, und jede Tatsache hat ihre Quelle, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "1b40ab688416c336": {
+  "t": "UTAD-Projekt entwickelt KI zur Unterstützung der Triage in Notaufnahmen, mit einer Veranstaltung für 200 Personen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD project builds AI to help triage in emergency rooms, wi",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1b5149ba4f0f71b7": {
+  "t": "Bei einer Abschlussveranstaltung in Portalegre erklärte PACT, das EU-geförderte Programm AIRA habe mehr als 500 Menschen in der Anwendung von KI in der Robotik geschult. Drei Ideen gewannen im Ideenwettbewerb Technologiegutscheine, darunter ein System, das mit Computer Vision und Sprachmodellen die Bühnenbeleuchtung automatisiert, und ein Flugzeuginspektionssystem auf Basis von Computer Vision.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At a closing session in Portalegre, PACT said the EU-funded ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1b5f94fde02d4cb7": {
+  "t": "PrompTugal.news Beja, a capital do Baixo Alentejo: KI und Technik in Beja, mit der Universität als Gehirn der weissgekalkten Stadt, dazu alles, was aus dem Alentejo, Portugal und der Welt hereinrollt. Independente, und jede Tatsache kommt mit Beleg.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Beja, a capital do Baixo Alentejo: AI and te",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "1babc44c91bf5cc8": {
+  "t": "PrompTugal.news Silves: KI und Technologie in Silves, der Orangenhauptstadt und alten Hauptstadt der Algarve, dazu alles, was an KI aus der Algarve, Portugal und der Welt auftaucht. Wir sind unabhängig, und jede Tatsache hat eine Quelle, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Silves: AI and technology in Silves, the ora",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "1bd080c0c263efa5": {
+  "t": "Monchique ist eine Berggemeinde, deren öffentliche Agenda von Wald und Waldbrandrisiko geprägt ist. Die Serra wurde von den Bränden 2018 schwer getroffen, und das Forschungsprojekt BRIDGE (IST, LNEC und die Universität der Algarve, von der FCT finanziert, 2021 bis 2024) nutzte Monchique als Pilotfall für gemeinschaftsbasierte Brandrisikominderung, gefolgt von InnoBRIDGE, finanziert von AGIF. Ein Brand in Marmelete am 25. Juli 2026 beschäftigte fast hundert Einsatzkräfte. Auf der Technikseite betreibt die Stadtverwaltung einen Gründerinkubator, dessen bekanntester Mieter Invisible CFO ist, ein Fintech, dessen Produkt KI nutzt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Monchique is a mountain municipality whose public agenda is ",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

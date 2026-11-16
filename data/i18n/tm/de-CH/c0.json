@@ -1,0 +1,38 @@
+{
+ "c01a22906558c781": {
+  "t": "Politécnico de Leiria legt seine KI-Regeln fest, gültig ab 1. September",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Politécnico de Leiria sets its AI rules, in force from 1 Sep",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "c0214b07836de8c4": {
+  "t": "Die Technischen Tage der Regionalpresse 2026, veranstaltet vom nationalen Presseverband mit Unterstützung der Gemeinde und des Museu da Vila Velha, endeten in Vila Real mit KI im Journalismus als einem Hauptthema. Ein UTAD-Professor und INESC-TEC-Forscher erklärte, wie KI-Algorithmen funktionieren.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 2026 Technical Days of the Regional Press, run by the na",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "c042cd426860bb15": {
+  "t": "Lokale Talente",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Local talent",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "c0e557c9ce2880b2": {
+  "t": "Das Buch IA como Copiloto, ein 180-seitiger Leitfaden zum Einsatz generativer KI-Werkzeuge im Arbeitsalltag, wurde am 20. Februar im Auditorium der Escola de Hotelaria e Turismo de Portimão vorgestellt, mit Territórios Criativos als Moderator einer Debatte namens KI: anpassen oder zurückfallen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The book IA como Copiloto, a 180-page guide on using generat",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

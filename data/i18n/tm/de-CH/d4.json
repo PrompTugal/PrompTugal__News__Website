@@ -1,0 +1,96 @@
+{
+ "d424221c84eed8aa": {
+  "t": "Portugals KI-Geschichte ist zuerst nationale Politik, mit einer Nationalen KI-Agenda 2026 bis 2030, hinterlegt mit mehr als 400 Millionen Euro, grösstenteils europäischen Mitteln. Drumherum liegen ein staatlich finanziertes offenes Sprachmodell für europäisches Portugiesisch (AMALIA), öffentliches Supercomputing über die FCT und eine Startup-Szene, die 2026 mehrere Runden einsammelte, vor allem in Porto und Lissabon.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal's AI story is national policy first, with a Nationa",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "d42cb125a90e00b6": {
+  "t": "In einem Interview sagte der Leiter der portugiesischen Sparte von Inetum, das Unternehmen setze bei der Projektplanung inzwischen auf KI-Werkzeuge, daher schrumpften die Teams, bestand aber darauf, Menschen nicht durch KI ersetzt zu haben. Bragança ist eines seiner vier Servicezentren, gehalten wegen der Verbindung zu den Universitäten mehr als wegen des Preises.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In an interview, the head of Inetum's Portuguese arm said th",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d431d208322bd1ac": {
+  "t": "Die Stadtverwaltung von Castro Marim nimmt mit Mind KI in die Roadmap ihres Planungsamts auf",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castro Marim's council puts AI into its planning office road",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d433d5f738a25f31": {
+  "t": "Alcoutim investiert 456 Tausend Euro in die Digitalisierung seiner kommunalen Dienste",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim invests 456 thousand euros in digitising its munici",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d43f68e2d669835b": {
+  "t": "Universität Coimbra eröffnet einen Bachelor und Master in KI und Datenwissenschaft",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Coimbra opens an AI and Data Science bachelor'",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d44858530e9136df": {
+  "t": "Digitale Geschäftsviertel von Loulé und Quarteira: Online-Shops, WLAN, digitale Anzeigen, noch keine KI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Digital Commercial Neighbourhoods of Loulé and Quarteira: on",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d45aa1cda74a1860": {
+  "t": "Bragança, ó pá: wo der Bergfried über den Kastanien Wache hält, die Winter beissen und das Polytechnikum still den ganzen Norden lehrt, mit Maschinen zu sprechen, während der Wissenschaftspark einen Supercomputer auf Kurzwahl hat.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança, ó pá: where the keep stands guard over the chestnu",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "d4908b4fd6bb7256": {
+  "t": "PACT schliesst sein Projekt AIRA ab, nachdem mehr als 500 Menschen in KI für Robotik geschult wurden",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PACT closes its AIRA project after training more than 500 pe",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "d4c8b7180dbcc316": {
+  "t": "Das Center for Responsible AI, ein öffentlich finanziertes Konsortium, das nach dem Zusammenbruch von Unbabel nun von Sword Health geleitet wird, meldet etwa 49 Millionen Euro öffentliche und 27 Millionen private Investitionen und erwartet bis Ende 2026 150 Millionen Euro Umsatz. Zu den Partnern gehören Priberam und NeuralShift. Aus dem Artikel können wir nicht ersehen, welche Partner in Lisboa arbeiten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Center for Responsible AI, a publicly funded consortium ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d4ec9af2e630ad10": {
+  "t": "PrompTugal.news Aveiro: KI und Technologie in Aveiro, einer Universitäts- und Telekommunikationsstadt, deren Schwerpunkt die Universidade de Aveiro, das Instituto de Telecomunicações und der Vorstoss Aveiro Tech City der Stadtverwaltung sind, und was aus Portugal, Brasilien und der Welt in Aveiro ankommt. Unabhängig; jede Tatsache mit Quelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Aveiro: AI and technology in Aveiro, a unive",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

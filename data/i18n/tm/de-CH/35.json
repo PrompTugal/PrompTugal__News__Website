@@ -1,0 +1,57 @@
+{
+ "3513a62a97aaf4b7": {
+  "t": "Lisboa, pá: sieben Hügel, eine sehr beschäftigte Strassenbahn und mehr KI-Konferenzen pro Quadratkilometer als pastéis de nata in Belém.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisboa, pá: seven hills, one very busy tram, and more AI con",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "3535afc1b30d539d": {
+  "t": "Das First Venture Lab von AlgarveSTP wählt 12 Unternehmen aus, mit KI-Einsatz auf der Mentoring-Speisekarte",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "First Venture Lab by AlgarveSTP picks 12 companies, with AI ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "353b7c6b8e2138d0": {
+  "t": "KI und Roboter für Zitrusfrüchte: das Projekt ATTENTIA, mit der Universität der Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and robots for citrus: the ATTENTIA project, with the Uni",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "35683239cf1272c2": {
+  "t": "Hier lebt KI eher in Büros als in Garagen, meu. Die câmara sagt, sie habe KI-Werkzeuge gekauft, um Bauakten zu entwirren, NERA sitzt in der Stadt und bringt Firmen den Umgang damit bei, und gemeinsam mit Faro schreibt die Stadtverwaltung ein Technologiezentrum im Estádio Algarve aus, das KI nennt. Bisher ein echtes KI-Unternehmen, SPIC, also ist die Karte kurz und ehrlich dabei.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here AI lives more in offices than in garages, meu. The câma",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "356ea07c73f9328a": {
+  "t": "PrompTugal.news Algarve: KI und Technologie in der ganzen Algarve, von Sagres bis Vila Real, und was aus Portugal und der Welt zu uns kommt. Unabhängig, und jede Tatsache hat ihre fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Algarve: AI and technology across the whole ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "357b89658091781d": {
+  "t": "Die Stadtverwaltung unterzeichnete mit der UAlg ein Protokoll für einen neuen Campus in Barranco do Rodrigo, auf Grundstück und mit einem Entwurf, die die Stadtverwaltung stellt. Schwerpunkte sind Digitales, Daten und künstliche Intelligenz, mit Fertigstellung bis 2028 und Kursen ab 2029, bei geschätzten Gesamtkosten von etwa 15 Millionen Euro, die damals noch nicht vollständig gesichert waren. Die UAlg hatte damals mehr als 400 Studierende in Portimão und strebt nach drei Jahren etwa 1500 an.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council signed a protocol with UAlg for a new campus at ",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

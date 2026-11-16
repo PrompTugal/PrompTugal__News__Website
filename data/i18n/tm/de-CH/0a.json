@@ -1,0 +1,39 @@
+{
+ "0a19facbd98f5c16": {
+  "t": "Despacho 91/2025, am 10. Dezember 2025 unterzeichnet, legt Leitlinien zur KI-Nutzung für die akademische Gemeinschaft fest, beruft sich auf das EU-KI-Gesetz und zielt auf pädagogische, kreative und sichere Nutzung bei gleichzeitigem Schutz akademischer Integrität und personenbezogener Daten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Despacho 91/2025, signed on 10 December 2025, sets out guide",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "0a25a694e0d350f0": {
+  "t": "- **Portugal:** [promptugal.news]({portugal}), mit Europa und der Welt\n- **Die Algarve:** diese Seite\n- **Die Orte:** {count} Websites darunter\n\nNachrichten fliessen **nach unten** (nationale und internationale KI-Nachrichten, danach ausgewählt, was sie hier bedeuten) und **nach oben** (lokale Quellen, die aufsteigen, wenn sie wichtig werden).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "- **Portugal:** [promptugal.news]({portugal}), with Europe a",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "0a3a7e1517d2e2b4": {
+  "t": "Europäische Mittel bringen KI und Robotik zu 15 Tourismusunternehmen der Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "European funds to bring AI and robotics to 15 Algarve touris",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "0af2ef8726963e81": {
+  "t": "AMALIA bekommt eine zweite Phase: 1,8 Millionen Euro mehr, Agentenwerkzeuge bis Ende 2026 geplant",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA gets a second phase: 1.8 million euros more, agent to",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

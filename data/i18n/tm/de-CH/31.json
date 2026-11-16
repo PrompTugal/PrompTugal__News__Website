@@ -1,0 +1,20 @@
+{
+ "311ec510fafeb612": {
+  "t": "Die kanadische Beratungsfirma mit über 2000 Beschäftigten in Portugal startete das Zentrum im Mai 2026. Die Quelle nennt keine Stadt dafür.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Canadian consulting firm, with over 2,000 staff in Portu",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "317c4adf0ece68f9": {
+  "t": "AuroraMed, ein portugiesisches Healthtech mit Fokus auf KI im klinischen Management, und die medizinische Fakultät der Universität der Algarve starteten am 20. April in Faro einen Executive-Kurs für Entscheider im Gesundheitswesen, mit PRR-finanzierten Stipendien.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AuroraMed, a Portuguese healthtech focused on AI in clinical",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

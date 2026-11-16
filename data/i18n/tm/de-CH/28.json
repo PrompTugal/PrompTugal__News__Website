@@ -1,0 +1,29 @@
+{
+ "288008aec9c489a4": {
+  "t": "Lagoa lebt vom Tourismus, mit Wein (einem Lagoa DOC), einer Fischerei-Vergangenheit in Ferragudo, Carvoeiro und Benagil und einem wachsenden Geschäft mit Kongressen und Veranstaltungen. Seine KI ist überwiegend öffentlich: Die Stadtverwaltung betreibt ein Smart-City-Portal und ein IT-Team, das an KI gearbeitet hat und dabei Datenschutz- und Verarbeitungsgrenzen im Blick hatte, und eine Freguesia hat einen KI-Assistenten auf ihre Website gesetzt. In der Privatwirtschaft haben wir ein IT-Unternehmen aus Lagoa bestätigt, das KI-Agenten verkauft, und eine britische internationale Schule, die im Februar 2026 einen KI-Hackathon für Teenager ausrichtete.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "288052c59a959663": {
+  "t": "Das konnten wir nicht finden, und ja, wir haben auch hinter den Fischerbooten nachgesehen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here is what we could not find, and yes, we looked behind th",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "2882368f396e7680": {
+  "t": "Während eines Praktikums bei der Stadtverwaltung von Lagoa baute ein Student des Polytechnikums Beja einen Prototyp, der die Klasse des europäischen Luftqualitätsindex aus zehn Messstationen und Wetterdaten vorhersagt. Er verteidigte die Arbeit am 27. November 2025 an der Hochschule für Technologie und Management in Beja, und die Mitarbeitenden planen eine wissenschaftliche Veröffentlichung.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "During an internship with Lagoa council, a student of the Be",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

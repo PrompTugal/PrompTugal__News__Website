@@ -1,0 +1,20 @@
+{
+ "9cd7760fae93e137": {
+  "t": "Braga-App beobachtet Ihre Kniebeuge mit der Handykamera und korrigiert sie mit KI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga app watches your squat with a phone camera and correct",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "9cda822f3d8b5a35": {
+  "t": "UPTEC-Startup Savearth sammelt 400.000 Euro für KI ein, die den Wasserverbrauch beim Duschen im Hotel senkt",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UPTEC startup Savearth raises 400,000 euros for AI that cuts",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

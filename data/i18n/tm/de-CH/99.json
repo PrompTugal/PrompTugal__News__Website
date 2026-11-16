@@ -1,0 +1,21 @@
+{
+ "99a71106aa482450": {
+  "t": "Aljezur ist der atlantische Rand der Algarve: eine grosse, dünn besiedelte Gemeinde (etwa 323 Quadratkilometer und 5884 Einwohner bei der Volkszählung 2011) mit vier Freguesias, im Naturpark Südwest-Alentejo und Vicentinische Küste. Ihre Identität sind die Natur, das Surfen an Stränden wie Arrifana und eine Stadtverwaltung, die Naturtourismus einen strategischen Motor der lokalen Wirtschaft nennt. Energie ist eine zweite Säule: EDP betreibt den 24-MW-Windpark Bordeira und fügte 2025 daneben eine 15,3-MW-Solaranlage hinzu. Es ist kein KI-Zentrum: Wir fanden eine Stadtverwaltung mit Online-Diensten und einem Geoportal, einen Teleassistenz-Pilot der Freguesia für ältere Einwohner und regionale KI-Programme für Tourismusunternehmen, bei denen Unternehmen aus Aljezur mitmachen könnten.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "99c102dd36cca038": {
+  "t": "Rádio Portalegre berichtet über das rund 200.000 Euro schwere, durch FEDER geförderte Projekt der Polytechnischen Hochschule, das KI-Modelle auf Sensoren bringt, die Daten direkt vor Ort verarbeiten können, mit Pilotbetrieben zur Validierung. Als beteiligte Fachgebiete nennt es Ingenieurwesen, Datenwissenschaft, Agronomie und Informationssysteme sowie August 2028 als Enddatum.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

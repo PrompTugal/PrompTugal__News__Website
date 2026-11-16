@@ -1,0 +1,48 @@
+{
+ "f9009c4ad1146c75": {
+  "t": "Banco Invest und Allianz Global Investors hielten im The Lince Braga Hotel eine Investorenveranstaltung dazu ab, wie KI und Robotik Märkte und Wirtschaft umgestalten könnten. Ein humanoider Roboter begrüsste die Gäste und zeigte, was er über Braga wusste.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Banco Invest and Allianz Global Investors held an investor e",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "f90876a6f5f57b78": {
+  "t": "Das Büro soll kommerzielle und technische Unterstützung in ganz Europa koordinieren und F&E bei Compilern sowie Chip- und Platinendesign betreiben.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The office will coordinate commercial and technical support ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "f90bbef2965fd6d3": {
+  "t": "Ein Buch über die Firmengründung in 30 Tagen mit KI-Prompts wird am UALG TEC Campus vorgestellt",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A book on starting a company in 30 days with AI prompts is p",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "f96db7d60cf531ba": {
+  "t": "Bejas KI-Aktivität läuft, soweit die öffentlichen Quellen zeigen, über eine einzige Institution: die Universidade Politécnica de Beja (bis zu diesem Jahr das Instituto Politécnico de Beja), die dem nationalen Dienst IAedu beitrat, Partnerin des Landwirtschaftsroboter-Projekts SiARA und eines Machine-Learning-Projekts zum Queijo Serpa ist und eine zweitägige Konferenz zu KI im Gesundheitswesen ausrichtete, die von der regionalen Gesundheitseinheit organisiert wurde. Die Stadtverwaltung taucht in der KI-Geschichte nur als Unterstützerin einer Veranstaltung auf, und ihre eigene Nachrichtenseite zeigt keine KI-Beiträge. Landwirtschaft und Gesundheit, mit der Universität als Motor, sind Bejas Schwerpunkt, und wir fanden kein in der Stadt selbst ansässiges Startup oder Unternehmen mit KI-Bezug.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Beja's AI activity, as far as the public sources show, runs ",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "f9b3db3238f406de": {
+  "t": "Die erste TMCT-Konferenz tagte Anfang November in Portimão (Barlavento nennt den 4. bis 6. November, O Algarve den 5. bis 7. November), organisiert mit der Stadtverwaltung und dem lokalen Tourismusverband, wobei Algarve Evolution, Zoomarine Algarve, Parkalgar und die Hotelfachschule eingebunden waren, um sie mit regionalen Akteuren zu verknüpfen. Die Sitzungen behandelten KI in Forschung, Bildung und wissenschaftlichem Publizieren, und ein Herausgebergipfel befasste sich mit KI und Forschungsintegrität.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The first TMCT conference met in Portimão in early November ",
+  "ok": false,
+  "from": "de-DE"
+ }
+}

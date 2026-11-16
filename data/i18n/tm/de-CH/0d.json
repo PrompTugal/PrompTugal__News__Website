@@ -1,0 +1,50 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "Der kommunale Coworking-Space in der Altstadt hat 20 Arbeitsplätze und ist seit November 2023 voll. Er ist ausserdem Partner von GDG Lagos bei KI-Veranstaltungen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "Eine Studie unter Leitung der sozialwissenschaftlichen Fakultät der NOVA, gefördert von der Gulbenkian-Stiftung, auf Grundlage der Antworten von 295 Journalistinnen und Journalisten, schlägt 10 Massnahmen für den verantwortungsvollen KI-Einsatz in Redaktionen vor. Eine Dozentin oder ein Dozent der UTAD sass im Projektteam.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ },
+ "0d8fb3014c735381": {
+  "t": "Die Stadtverwaltung führt eine digitale Plattform für Stadtverwaltung ein, deren KI-Modul Dokumente im Moment der Einreichung prüft und unvollständige Akten zurückhält. Die Stadtverwaltung sagt, etwa sieben von zehn Bescheiden ihrer Sachbearbeitungsabteilung forderten korrigierte Unterlagen an, und sie erhalte rund 5000 Genehmigungsanträge im Jahr. Die Schulung der Mitarbeitenden begann im Juli, der volle Betrieb wird in den folgenden Monaten erwartet.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace sammelt 15,6 Millionen Euro für KI-gestützte Weltraumverkehrsintelligenz ein",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "0de436ae73ac7694": {
+  "t": "Das von der UTAD geleitete Projekt AITriage4SU hielt am 31. Januar in Porto ein wissenschaftliches Treffen mit rund 200 Teilnehmenden zu KI für die Triage erwachsener Notfallpatienten ab. Das Team zeigte, wie grosse Sprachmodelle freitextliche Triage-Beschwerden normalisieren, mit ersten Ergebnissen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false,
+  "from": "de-DE",
+  "adapted": true
+ }
+}

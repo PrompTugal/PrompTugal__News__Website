@@ -1,0 +1,29 @@
+{
+ "d8006b8f7850afec": {
+  "t": "Faros Cáritas fragt, wer von KI profitiert",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d89c3b61de8d1239": {
+  "t": "Schule in Vilamoura richtet einen Bildungsgipfel zu KI aus",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false,
+  "from": "de-DE"
+ },
+ "d8de90262eca523a": {
+  "t": "Die Plattform verknüpft Marktdaten wie Rohstoffpreise und Frachtraten mit den eigenen Kosten eines Unternehmens, um Einkauf und Preisgestaltung zu unterstützen. Gemeinsam angeführt von VentureFriends und Semapa Next.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false,
+  "from": "de-DE"
+ }
+}
