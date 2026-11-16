@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1668",
+    "date": "2026-11-16",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s gaps round into the graph (80 outlets), converter keeps hand-written records",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "b84294751"
+  },
+  {
     "version": "v0.1.1667",
     "date": "2026-11-16",
     "what": "conductor@PrompTugal.dinis: the outbox spec without email addresses (the gate's rule)",
