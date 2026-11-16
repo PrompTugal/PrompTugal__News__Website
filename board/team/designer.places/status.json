@@ -1,8 +1,8 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-16T12:55Z",
-  "state": "lead on the live-data loop (brief 2026-11-16-live-data-up-front, Dinis ~10:40 UTC)",
+  "updated": "2026-11-16T13:55Z",
+  "state": "hand-over written at the context limit (debrief updated 13:55); live-data loop looks 1 and 2 shipped",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
     "assets/by-place/ restyled (page head in the town's colour, mandate band, cards, AI-map register, tiles, town cards with status chips, empty states, voice toggle, dark-theme accent), merged with dev.places@'s frame",
@@ -22,11 +22,13 @@
     "wake 06:46: all 17 Algarve places and 17 district capitals live; sweep of 36 place pages clean; 'Now in Faro' panel checked; walk-through refreshed for the meeting (90 stories, 162 on the map, 17 live; front page first; districts optional); debrief updated",
     "wake 10:44: the home page changed (conductor@: 'By the numbers', a line per town); walk-through stop 0 updated to match",
     "wake 11:46: 'Now in <place>' redesigned as an ink band under the mandate (live dot, big figures, source and time in mono, IPMA warning in its colour), 3 up on desktop, 2 on a phone, on every town page and /algarve/; walk-through updated; sweep clean",
-    "wake 12:45: live-data loop, look 2: each timed value in the now band shows how fresh it is ('47 min ago', computed in the reader's browser), dimmed past three hours; sweep clean"
+    "wake 12:45: live-data loop, look 2: each timed value in the now band shows how fresh it is ('47 min ago', computed in the reader's browser), dimmed past three hours; sweep clean",
+    "wake 13:45: hand-over debrief updated for a restart (live-data loop state, the translated pages' English-only strings, how to work)"
   ],
   "next": [
-    "live-data loop, next look: the home page's live strip (asked of conductor@, who owns front-e); temperature per town on the region band once viz.places@ or data adds it",
-    "re-check the band as datasci.places@ adds sources (council agendas, transport, beaches)"
+    "translate the few strings my CSS/JS add on /<culture>/ pages (or ask dev.places@ to emit them)",
+    "the home page's live strip once conductor@ answers",
+    "asks 5 and 6 with dev.places@"
   ],
   "asks": [
     "Dinis: the show-the-power brief gives me up to 15 USD of OpenRouter images, but board/budgets.json gives me 0 and my ABP does not list openrouter.ai; I have asked accountant@ and abp@ and spend nothing until both agree (or you say so)",
