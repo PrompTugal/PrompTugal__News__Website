@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "publico",
+  "type": "organisation",
+  "kind": "media",
+  "name": "PÚBLICO",
+  "names_as_listed": [
+    "PÚBLICO"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Tech section (Enter) editor and bylines not read. ERC register not consulted. Personal-format addresses, if any, not recorded.",
+  "media": {
+    "outlet_kind": "newspaper",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.publico.pt",
+    "owner": {
+      "name": "Público - Comunicação Social, S.A.",
+      "source": {
+        "url": "https://www.publico.pt/nos/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://feeds.feedburner.com/PublicoRSS",
+        "format": "rss",
+        "source": {
+          "url": "https://feeds.feedburner.com/PublicoRSS",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml, RSS body; linked as RSS from the site footer. https://www.publico.pt/rss returned 404"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.publico.pt/nos/contactos",
+      "source": {
+        "url": "https://www.publico.pt/nos/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "David Pontes",
+        "role": "Director",
+        "source": {
+          "url": "https://www.publico.pt/nos/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.publico.pt/nos/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read, owner and director"
+      },
+      {
+        "url": "https://www.publico.pt/nos/contactos",
+        "read_at": "2026-11-16",
+        "how": "contacts page read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.publico.pt/nos/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read, owner and director",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.publico.pt/nos/contactos",
+      "read_at": "2026-11-16",
+      "how": "contacts page read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

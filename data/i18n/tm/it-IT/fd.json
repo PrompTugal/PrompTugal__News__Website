@@ -1,0 +1,26 @@
+{
+ "fd3c463abe440613": {
+  "t": "Il progetto pilota di Hayden AI con il comune e la compagnia di autobus TUB ha registrato quasi 8.000 violazioni di sosta alle fermate dell'autobus, 2.186 delle quali a due fermate. Non sono state emesse multe: lo scopo era mostrare la dimensione del problema. È stato finanziato da un premio della sfida EIT AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Hayden AI pilot with the council and the bus company TUB",
+  "ok": false
+ },
+ "fd9c59a8d56e0553": {
+  "t": "Il comune dice che le biblioteche scolastiche di Vila Real, con il suo sostegno, hanno organizzato a ottobre il mese internazionale delle biblioteche scolastiche sul tema alfabetizzazione e intelligenza artificiale, con letture, workshop, visite di autori e teatro per circa 300 alunni. La pagina descrive le attività di lettura e non dà dettagli sui contenuti di IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council says Vila Real's school libraries, with its supp",
+  "ok": false
+ },
+ "fdc451c19dfc3876": {
+  "t": "Brasile e Portogallo parlano di IA e affari all'Aveiro Tech Week",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Brazil and Portugal talk AI and business at Aveiro Tech Week",
+  "ok": false
+ }
+}

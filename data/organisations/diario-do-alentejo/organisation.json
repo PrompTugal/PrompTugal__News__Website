@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-do-alentejo",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário do Alentejo",
+  "names_as_listed": [
+    "Diário do Alentejo"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: RSS: /feed/ and /rss return HTML (not verified as a feed); no feed link in home head. ficha técnica page dated 10 May 2019, masthead may have changed. ERC register not read.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:beja"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://diariodoalentejo.pt/",
+    "owner": {
+      "name": "CIMBAL – Comunidade Intermunicipal do Baixo Alentejo",
+      "source": {
+        "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
+      "source": {
+        "url": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Marco Monteiro Cândido",
+        "role": "Diretor",
+        "source": {
+          "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Aníbal Fernandes",
+        "role": "Redação",
+        "source": {
+          "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "José Serrano",
+        "role": "Redação",
+        "source": {
+          "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Nélia Pedrosa",
+        "role": "Redação",
+        "source": {
+          "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Firmino Paixão",
+        "role": "Desporto",
+        "source": {
+          "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "desporto"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica (dated 2019 on the page; may be outdated)"
+      },
+      {
+        "url": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
+        "read_at": "2026-11-16",
+        "how": "contactos page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica (dated 2019 on the page; may be outdated)",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
+      "read_at": "2026-11-16",
+      "how": "contactos page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

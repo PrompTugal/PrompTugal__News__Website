@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "jornal-torrejano",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal Torrejano",
+  "names_as_listed": [
+    "Jornal Torrejano"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Torres Novas; Alcanena; Entroncamento; Golegã. Gaps: no RSS feed found. general email truncated in read text, not recorded.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:santarem"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://jornaltorrejano.pt",
+    "owner": {
+      "name": "Cooperativa Editora Jornal Torrejano, C.R.L.",
+      "source": {
+        "url": "https://jornaltorrejano.pt/fichatec",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://jornaltorrejano.pt/contactos",
+      "source": {
+        "url": "https://jornaltorrejano.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Inês Vidal",
+        "role": "Directora",
+        "source": {
+          "url": "https://jornaltorrejano.pt/fichatec",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "Élio Batista",
+        "role": "Redacção",
+        "source": {
+          "url": "https://jornaltorrejano.pt/fichatec",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Luís Miguel Fanha",
+        "role": "Redacção",
+        "source": {
+          "url": "https://jornaltorrejano.pt/fichatec",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Rosa M. Oliveira",
+        "role": "Redacção",
+        "source": {
+          "url": "https://jornaltorrejano.pt/fichatec",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://jornaltorrejano.pt/fichatec",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://jornaltorrejano.pt/fichatec",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "Un progetto biennale elencato dall'ufficio ricerca dell'università, dal 1° settembre 2026 al 31 agosto 2028, costruisce soluzioni di IA per dispositivi embedded economici e a basso consumo in agricoltura e zootecnia, unendo ingegneria, scienza dei dati e conoscenze agricole. Il costo ammissibile è di 197.754,85 euro, di cui 168.091,62 euro per la parte di Portalegre, finanziati dal FESR nell'ambito di ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "Il consorzio EdgeOnVespa, guidato dall'azienda Dotlabs con MORE CoLAB, la federazione nazionale degli apicoltori e Anbeit, costruisce un sistema di edge computing che usa l'IA per individuare e seguire il calabrone e avviare il controllo. È cofinanziato dal programma NORTE2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos è il luogo dove la comunità tecnologica dell'Algarve si incontra di persona. Il comune ha co-organizzato qui l'Algarve Tech Hub Summit nel novembre 2025, che ha richiamato diverse centinaia di persone in un solo hotel, e collabora con GDG Lagos a eventi di IA come il DevFest Lagos 2025 e il Build with AI della Giornata internazionale della donna. Lo spazio di coworking comunale CoLagos è pieno da novembre 2023, e dai tempi della pandemia esiste una comunità pensata per i nomadi digitali della città. Non abbiamo trovato alcuna azienda di IA di cui sia confermata la sede a Lagos, quindi il centro di gravità è una comunità di costruttori e lavoratori da remoto, non un cluster di aziende di IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}

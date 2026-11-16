@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-de-noticias-madeira",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Notícias (Madeira) / DNOTICIAS.PT",
+  "names_as_listed": [
+    "Diário de Notícias (Madeira) / DNOTICIAS.PT"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: further redação names on the masthead not recorded.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:madeira"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.dnoticias.pt/",
+    "owner": {
+      "name": "Empresa do Diário de Notícias, Lda. (partners with 5% or more: Newspar – Multimédia, Lda; Verbum Media – Comunicação, Lda)",
+      "source": {
+        "url": "https://www.dnoticias.pt/servicos/sobrenos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.dnoticias.pt/rss.xml",
+        "format": "rss",
+        "source": {
+          "url": "https://www.dnoticias.pt/rss.xml",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/xml; RSS 2.0 body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.dnoticias.pt/servicos/contactos",
+      "source": {
+        "url": "https://www.dnoticias.pt/servicos/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Ricardo Miguel Oliveira",
+        "role": "Director geral editorial da EDN e director do Diário",
+        "source": {
+          "url": "https://www.dnoticias.pt/servicos/sobrenos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Rúben Santos",
+        "role": "Chefe de redação",
+        "source": {
+          "url": "https://www.dnoticias.pt/servicos/sobrenos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Jorge Freitas Sousa",
+        "role": "Editor de fecho",
+        "source": {
+          "url": "https://www.dnoticias.pt/servicos/sobrenos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Nélio Gomes",
+        "role": "Editor de fecho",
+        "source": {
+          "url": "https://www.dnoticias.pt/servicos/sobrenos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Tânia Cova",
+        "role": "Editora de fecho",
+        "source": {
+          "url": "https://www.dnoticias.pt/servicos/sobrenos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Victor Hugo",
+        "role": "Coordenador (freguesias/comunidades)",
+        "source": {
+          "url": "https://www.dnoticias.pt/servicos/sobrenos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.dnoticias.pt/servicos/sobrenos",
+        "read_at": "2026-11-16",
+        "how": "sobre nós / masthead"
+      },
+      {
+        "url": "https://www.dnoticias.pt/servicos/contactos",
+        "read_at": "2026-11-16",
+        "how": "contactos page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.dnoticias.pt/servicos/sobrenos",
+      "read_at": "2026-11-16",
+      "how": "sobre nós / masthead",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.dnoticias.pt/servicos/contactos",
+      "read_at": "2026-11-16",
+      "how": "contactos page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "rum-radio-universitaria-do-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "RUM - Rádio Universitária do Minho",
+  "names_as_listed": [
+    "RUM - Rádio Universitária do Minho"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: phone numbers on page are a generic line; not recorded.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:braga"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.rum.pt/",
+    "owner": {
+      "name": "Associação Académica da Universidade do Minho",
+      "source": {
+        "url": "https://www.rum.pt/sobre-nos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.rum.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.rum.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.rum.pt/sobre-nos/",
+      "source": {
+        "url": "https://www.rum.pt/sobre-nos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Vasco Leão",
+        "role": "Administrador Delegado",
+        "source": {
+          "url": "https://www.rum.pt/sobre-nos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "management"
+      },
+      {
+        "name": "Ariana Azevedo",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.rum.pt/sobre-nos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Eduarda Sequeira",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.rum.pt/sobre-nos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "José Silva Brás",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.rum.pt/sobre-nos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Tiago da Costa Lopes",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.rum.pt/sobre-nos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.rum.pt/sobre-nos/",
+        "read_at": "2026-11-16",
+        "how": "about/ficha técnica page, 97.5 MHz generalist"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.rum.pt/sobre-nos/",
+      "read_at": "2026-11-16",
+      "how": "about/ficha técnica page, 97.5 MHz generalist",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

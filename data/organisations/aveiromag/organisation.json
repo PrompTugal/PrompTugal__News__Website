@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "aveiromag",
+  "type": "organisation",
+  "kind": "media",
+  "name": "AveiroMag",
+  "names_as_listed": [
+    "AveiroMag®"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: email not captured. people: team list not read. RSS: /rss returned an HTML page, not a feed.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:aveiro"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.aveiromag.pt/",
+    "owner": {
+      "name": "Leme Comunicação, Unipessoal Lda.",
+      "source": {
+        "url": "https://www.aveiromag.pt/geral-3-Ficha-Tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.aveiromag.pt/geral-7-Contactos",
+      "source": {
+        "url": "https://www.aveiromag.pt/geral-7-Contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.aveiromag.pt/geral-3-Ficha-Tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica; ERC 127246, daily"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.aveiromag.pt/geral-3-Ficha-Tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica; ERC 127246, daily",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

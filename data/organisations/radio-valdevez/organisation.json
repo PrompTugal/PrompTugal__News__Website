@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-valdevez",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Valdevez",
+  "names_as_listed": [
+    "Rádio Valdevez"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: contact page and public contact not read. outside a district capital; included as Alto Minho outlet.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:viana-do-castelo"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.radiovaldevez.pt/",
+    "owner": {
+      "name": "Rádio Valdevez R.V. (Associação Cultural de Radiodifusão)",
+      "source": {
+        "url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.radiovaldevez.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.radiovaldevez.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "José Gonçalo Mendes Rocha",
+        "role": "Diretor da Estação",
+        "source": {
+          "url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "station"
+      },
+      {
+        "name": "Artur Jorge Carvalho Quintas",
+        "role": "Responsável Informação",
+        "source": {
+          "url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Maria do Carmo Brito Dantas",
+        "role": "Responsável Programação",
+        "source": {
+          "url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "programming"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

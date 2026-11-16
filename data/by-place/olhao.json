@@ -35,14 +35,64 @@
   },
   "ai_news": [
     {
-      "title": "DigiATLA kicks off in Olhão: seven partners start work on digital aquaculture",
-      "summary": "Partners from Portugal, Spain, France and Ireland met at the S2AQUA facilities in Olhão on 3 and 4 February 2026 and visited the fish-farming pilot station. The project plans digital training, an online knowledge repository and pilot demonstrations of Industry 4.0 tools.",
-      "date": "2026-02-09",
-      "publisher": "Interreg Atlantic Area programme",
-      "url": "https://www.atlanticarea.eu/news-events/news/digiatla-project-holds-kick-off-meeting-in-olhao-portugal",
-      "read_on": "2026-11-15",
-      "ai_path": "Digital and Industry 4.0 tools for fish farms, led from Olhão with SPAROS (which runs its own AI project) as a partner. Neither the programme nor Barlavento mentions AI.",
-      "steps": 2
+      "title": "Algarve 2030 conference in Faro on 24 November: AI and water management",
+      "summary": "The Programa Regional Algarve 2030, with the newspaper Publico, holds the third conference of its water cycle at the University of Algarve, Campus da Penha, Faro, from 14:00 to 18:00. Panels cover smart water management and smart cities; speakers include water utilities, the Portuguese Environment Agency and municipalities. Olhao is not named in the article.",
+      "date": "2026-11-16",
+      "publisher": "Postal (Europe Direct Algarve)",
+      "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI event in Faro, one town from Olhao, open to the region's municipalities.",
+      "steps": 0,
+      "significance": "region",
+      "blast": [
+        "olhao",
+        "faro",
+        "tavira",
+        "sao-bras-de-alportel"
+      ]
+    },
+    {
+      "title": "Olhão school project recreates local legends with AI in an Erasmus+ exchange",
+      "summary": "Students and teachers from Olhão, Germany and Spain finished the Erasmus+ project Be Creative, Feel Legendary 2.0 in Olhão from 6 to 13 October. The legends of Olhão, Catalonia and Germany were recreated with artificial intelligence.",
+      "date": "2026-10-19",
+      "publisher": "Postal (Europe Direct Algarve)",
+      "url": "https://postal.pt/europedirectalgarve/olhao-recebe-alunos-de-espanha-e-alemanha-em-projeto-erasmus-dedicado-as-lendas-europeias/",
+      "read_on": "2026-11-16",
+      "ai_path": "A school at Agrupamento de Escolas Dr. Francisco Fernandes Lopes used AI directly to recreate legends. A small school-level use, not a company or policy.",
+      "steps": 0,
+      "significance": "town",
+      "blast": []
+    },
+    {
+      "title": "Sparos, the Olhão feed company, sells digital nutrition tools for fish farms",
+      "summary": "Postal profiles Sparos, based in Olhão: its Digital Nutrition area collects and analyses data to recommend feeding plans, with HatchTools (a web app for hatcheries) and OptiFeeSH (a feeding-plan module for the AquaManager software, with Greek firm I2S). It uses algorithms to predict feed needs by growth stage.",
+      "date": "2026-03-03",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/empresa-algarve-revolucionar-aquacultura-cria-ferramente-para-salvar-peixes/",
+      "read_on": "2026-11-16",
+      "ai_path": "Data-driven prediction of feed needs by algorithm, from the company that also holds the PRR project IA@SPAROS. The article does not say AI.",
+      "steps": 1,
+      "significance": "region",
+      "blast": [
+        "faro",
+        "tavira"
+      ]
+    },
+    {
+      "title": "Algarve EduTalks in Sao Bras de Alportel: 150 people discuss digital safety and the use of AI in schools",
+      "summary": "The education days on 21 February 2026 brought together experts, school heads, mayors, police, child-protection commissions, teachers, parents and students. Topics included digital safety, technological literacy and the use of AI.",
+      "date": "2026-03-02",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/?p=393395",
+      "read_on": "2026-11-16",
+      "ai_path": "AI use in education was a named debate topic at an event in a neighbouring municipality.",
+      "steps": 0,
+      "significance": "neighbours",
+      "blast": [
+        "olhao",
+        "faro",
+        "tavira"
+      ]
     },
     {
       "title": "Olhão's aquaculture lab leads a EUR 2.1 million digital project and awaits its new Blue Hub home",
@@ -52,6 +102,31 @@
       "url": "https://www.barlavento.pt/?p=393061",
       "read_on": "2026-11-15",
       "ai_path": "The lab lists AI among its research lines (2022 report), and DigiATLA brings Industry 4.0 and precision nutrition to fish farms, the same ground where SPAROS is adding AI. The article itself does not mention AI.",
+      "steps": 2
+    },
+    {
+      "title": "AquaVAN mobile lab to serve Sotavento fish farms, with focus on the Ria Formosa",
+      "summary": "S2AQUAcoLAB, based in Olhão, is deploying AQUAVan, a mobile laboratory funded by MAR2030 (about EUR 170,000), to give on-site diagnosis, climate-adaptation support and training to aquaculture producers. The project is due to finish in December 2026.",
+      "date": "2026-02-23",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/?p=392801",
+      "read_on": "2026-11-16",
+      "ai_path": "Field diagnostics and data from fish farms feed the digital aquaculture work S2AQUAcoLAB leads (DigiATLA). The article mentions no AI or digital tools, only molecular diagnostics.",
+      "steps": 3,
+      "significance": "neighbours",
+      "blast": [
+        "faro",
+        "tavira"
+      ]
+    },
+    {
+      "title": "DigiATLA kicks off in Olhão: seven partners start work on digital aquaculture",
+      "summary": "Partners from Portugal, Spain, France and Ireland met at the S2AQUA facilities in Olhão on 3 and 4 February 2026 and visited the fish-farming pilot station. The project plans digital training, an online knowledge repository and pilot demonstrations of Industry 4.0 tools.",
+      "date": "2026-02-09",
+      "publisher": "Interreg Atlantic Area programme",
+      "url": "https://www.atlanticarea.eu/news-events/news/digiatla-project-holds-kick-off-meeting-in-olhao-portugal",
+      "read_on": "2026-11-15",
+      "ai_path": "Digital and Industry 4.0 tools for fish farms, led from Olhão with SPAROS (which runs its own AI project) as a partner. Neither the programme nor Barlavento mentions AI.",
       "steps": 2
     },
     {
@@ -127,9 +202,39 @@
       "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Postal Europe Direct Algarve section",
+      "url": "https://postal.pt/europedirectalgarve/",
+      "kind": "press",
+      "feed": null,
+      "note": "readable for postal.pt articles via direct URL in this run"
+    },
+    {
+      "name": "Algarve STP blog",
+      "url": "https://algarvestp.pt/",
+      "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "Jornal do Algarve",
+      "url": "https://jornaldoalgarve.pt/",
+      "kind": "press",
+      "feed": null,
+      "note": "403 to our fetch"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "AI and water management conference (Algarve 2030 with Publico)",
+      "date": "2026-11-24",
+      "time": "14:00-18:00",
+      "venue": "Auditorio 1.4, Campus da Penha, University of Algarve, Faro",
+      "note": "In Faro, not Olhao; panels on smart water management and smart cities. Registration not stated in the article.",
+      "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
+      "read_on": "2026-11-16"
+    }
+  ],
   "ai_map": [
     {
       "name": "SPAROS Lda",
@@ -210,6 +315,46 @@
       "read_on": "2026-11-16",
       "ai_path": "A site meant for technology companies, where AI firms could locate. The article names no AI sector: a 3-step entry, labelled as a plan.",
       "steps": 3
+    },
+    {
+      "name": "Sparos: Digital Nutrition (HatchTools, OptiFeeSH)",
+      "type": "company",
+      "url": "https://postal.pt/algarve/empresa-algarve-revolucionar-aquacultura-cria-ferramente-para-salvar-peixes/",
+      "what": "The Olhao feed company's data tools: HatchTools, a web app for hatcheries that suggests feeding plans, and OptiFeeSH, a feeding-plan module for the AquaManager software built with I2S of Greece.",
+      "source_url": "https://postal.pt/algarve/empresa-algarve-revolucionar-aquacultura-cria-ferramente-para-salvar-peixes/",
+      "read_on": "2026-11-16",
+      "ai_path": "Algorithms predict feed needs by growth stage; no explicit AI claim in the article.",
+      "steps": 1
+    },
+    {
+      "name": "AQUAVan (S2AQUAcoLAB)",
+      "type": "organisation",
+      "url": "https://www.barlavento.pt/?p=392801",
+      "what": "Mobile laboratory for Sotavento fish farms, funded by MAR2030 (about EUR 170,000), due to finish in December 2026.",
+      "source_url": "https://www.barlavento.pt/?p=392801",
+      "read_on": "2026-11-16",
+      "ai_path": "Support service for the aquaculture sector S2AQUAcoLAB is digitalising; article mentions no AI.",
+      "steps": 3
+    },
+    {
+      "name": "Agrupamento de Escolas Dr. Francisco Fernandes Lopes",
+      "type": "institution",
+      "url": "https://postal.pt/europedirectalgarve/olhao-recebe-alunos-de-espanha-e-alemanha-em-projeto-erasmus-dedicado-as-lendas-europeias/",
+      "what": "Olhao school group that hosted the Erasmus+ project Be Creative, Feel Legendary 2.0, where local legends were recreated with AI.",
+      "source_url": "https://postal.pt/europedirectalgarve/olhao-recebe-alunos-de-espanha-e-alemanha-em-projeto-erasmus-dedicado-as-lendas-europeias/",
+      "read_on": "2026-11-16",
+      "ai_path": "Students used AI directly in a school project (October 2026).",
+      "steps": 0
+    },
+    {
+      "name": "Startup Olhao and ANJE Hub",
+      "type": "organisation",
+      "url": "https://algarvestp.pt/startup-olhao-um-novo-impulso-para-o-empreendedorismo-no-algarve/",
+      "what": "Three-year programme from a council and ANJE protocol: entrepreneur training, school financial literacy, networking and sea-economy initiatives, with an ANJE Hub in Olhao.",
+      "source_url": "https://algarvestp.pt/startup-olhao-um-novo-impulso-para-o-empreendedorismo-no-algarve/",
+      "read_on": "2026-11-16",
+      "ai_path": "A place where AI startups could form; the article names no AI or technology sector.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -277,12 +422,19 @@
     "Not verified: a NOVA IMS training programme with AMAL and the Olhão council (smart governance, mobility data) and an Erasmus school project in Olhão using AI (Postal, October 2026, blocked to us). Both need a readable source before they count.",
     "Investors, startups founded here and local AI talent who have spoken publicly: nothing found yet, apart from the Startup Olhão and ANJE Hub plan. Next: regional investors (such as Algarve funds and business angels) with a link to Olhão.",
     "The council site (cm-olhao.pt) is a script-rendered app that shows no readable text to a plain fetch, so its business pages and official contact channel could not be read: a browser-based read is needed before we can link them with the date read.",
-    "Lead, not on the map: Sensaway, a Portuguese aquaculture software startup with a machine-learning project for fish farms, piloted at an Algarve farm in 2022. No source places it in Olhão, so it stays off until its base is confirmed."
+    "Lead, not on the map: Sensaway, a Portuguese aquaculture software startup with a machine-learning project for fish farms, piloted at an Algarve farm in 2022. No source places it in Olhão, so it stays off until its base is confirmed.",
+    "Searched for council (cm-olhao.pt) AI, smart-city or waste-route news from 2025 to 2026: nothing found; site not readable and no official contact channel confirmed.",
+    "Jornal do Algarve (jornaldoalgarve.pt) returned 403 to us; its reported item 'Olhao debate impactos da inteligencia artificial nas criancas e nos jovens' could not be opened, so not counted.",
+    "Sul Informacao returned 403 on a fetch; Barlavento ?p=388855 timed out.",
+    "Searched for AI startups based in Olhao: none found. Searched for 2026 updates on Altice Labs Olhao: none found.",
+    "Moinho social innovation incubator (Postal, 19 October 2026) presented in Olhao: no AI or technology link, left off the map.",
+    "Hub Azul de Olhao: opening date still not stated in the 23 January 2026 Barlavento piece (sponsored content); digital PCR planned for shared use, no AI."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",
     "mandate": "PrompTugal.news Olhão: pá, here we follow the AI and tech of the Ria Formosa town, from the fish farms to the council, and whatever sails in from the Algarve, Portugal and the world. Independent, and every fact has its source, ó pá.",
     "gravity": "Olhão is a fishing port on the Ria Formosa, and its tech goes through the sea. The fish-farming station, the S2AQUAcoLAB lab and the feed company SPAROS are here, and a Blue Hub is going up in the port. The AI path is narrow but real: precision nutrition for fish, plus a council that once talked of AI for the bin lorries.",
     "gaps_intro": "What we still did not find, mesmo a sério:"
-  }
+  },
+  "contacts": []
 }

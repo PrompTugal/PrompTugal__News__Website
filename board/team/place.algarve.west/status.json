@@ -1,19 +1,24 @@
 {
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
-  "state": "started; onboarded; key published",
-  "updated": "2026-11-16T19:50Z",
+  "state": "first news pass done: seven town drafts on the branch",
+  "updated": "2026-11-16T20:50Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
-    "branch work/place.algarve.west created from dev"
+    "branch work/place.algarve.west created from dev",
+    "first news pass: sub-agents per town, drafts in board/team/place.algarve.west/drafts/2026-11-16/ (Aljezur 3 items, Lagos 4, Silves 5, Monchique 3, Lagoa 4, Portimao 4, Vila do Bispo 0 verified)",
+    "no item passes the PrompTugal test beyond weak links (Lagos 1, Lagoa Volta kiosk): the gap is the finding"
   ],
   "next": [
-    "read each town's hand-over debrief and open leads; one fresh news pass per town, sourced, with date read",
-    "blast radius and significance per story; gaps recorded",
-    "ask whether town site keys (site.<town>-promptugal, superseded with the old sessions) are to be remade by me"
+    "Vila do Bispo: council site needs a rendering fetch, try the press for Charles damage",
+    "Barlavento and Sul Informacao per town, with local@ outlet maps",
+    "move accepted drafts into data/by-place/<town>.json and re-sign once the town site keys are remade",
+    "daily hand-over debrief",
+    "Portimao: second source for the hospital story, and the EMARP AI leak-monitoring lead"
   ],
   "asks": [
-    "Dinis: the seven towns' ABPs forbid sub-agents and the writes are per-town files; this desk's grant is their union, but no ABP for place.algarve.west exists yet. abp@ to issue one and say whether I run the towns as sub-agents or in sequence."
+    "Dinis: none now (the sub-agent question is answered by conductor.b@ and the ABP).",
+    "dev.places@: cm-viladobispo.pt news pages need JavaScript; is there a rendering fetch for agents?"
   ]
 }

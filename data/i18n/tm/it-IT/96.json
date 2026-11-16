@@ -1,0 +1,18 @@
+{
+ "96b646265713332b": {
+  "t": "Portimão usa l'IA per controllare i documenti dei permessi edilizi",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão uses AI to check building-permit documents",
+  "ok": false
+ },
+ "96bbec2b19a93006": {
+  "t": "L'operatore dei rifiuti dell'Algarve ALGAR ha realizzato lo strumento con la startup NILG.AI, che pesa fattori come la densità di popolazione e l'accessibilità. Il progetto pilota è attivo a Lagoa nell'ambito di un programma della Sociedade Ponto Verde. ALGAR riferisce di aver individuato 14 siti candidati in quattro ore e di aver ridotto i tempi di decisione da 12 giorni a 2.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve waste operator ALGAR built the tool with the sta",
+  "ok": false
+ }
+}

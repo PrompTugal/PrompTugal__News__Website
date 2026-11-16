@@ -1,0 +1,34 @@
+{
+ "8709611da6ed567d": {
+  "t": "Ora pois, Aljezur: mais ondas do que servidores, mais vento do que wi-fi, e mesmo assim a olhar para a inteligencia artificial.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ora pois, Aljezur: mais ondas do que servidores, mais vento ",
+  "ok": false
+ },
+ "8720c87cfd89ec25": {
+  "t": "Leiria, pá: un castello sulla collina, stampi nella valle e, di recente, un laboratorio di robot sulla strada del mercato, perché a quanto pare questa città produce cose e ora le insegna a pensare.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria, pá: a castle on the hill, moulds in the valley and, ",
+  "ok": false
+ },
+ "87853f834b85e989": {
+  "t": "L'azienda di software con sede a Coimbra è l'unico partner portoghese di un consorzio di 26 membri e progetterà una piattaforma di operazioni di machine learning per portare i modelli di IA nel software del sistema missilistico. Il progetto triennale doveva partire nell'ultimo trimestre del 2025.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Coimbra-based software company is the only Portuguese pa",
+  "ok": false
+ },
+ "87ff377857174ef8": {
+  "t": "PrompTugal.news Viana do Castelo, a Princesa do Lima: IA e tecnologia a Viana, con il Politécnico e Data CoLAB come teste pensanti e una fabbrica nuova di zecca che ronza per i data center, più le notizie che arrivano navigando dall'Alto Minho, dal Portogallo e dal mondo. Independente, e ogni fatto ha la sua ricevuta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Viana do Castelo, a Princesa do Lima: AI and",
+  "ok": false
+ }
+}

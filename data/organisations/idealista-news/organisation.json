@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "idealista-news",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Idealista News",
+  "names_as_listed": [
+    "Idealista News"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Owner, masthead, contacts not read. https://idealista.pt/news/feed returned 403 (bot protection); feed unverified.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.idealista.pt/news",
+    "sources": [
+      {
+        "url": "https://www.idealista.pt/news",
+        "read_at": "2026-11-16",
+        "how": "page fetched"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.idealista.pt/news",
+      "read_at": "2026-11-16",
+      "how": "page fetched",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

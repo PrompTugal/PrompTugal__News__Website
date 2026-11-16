@@ -62,15 +62,15 @@
       "no_source": 0
     },
     "organisations": {
-      "total": 299,
-      "websummit_only": 181,
-      "other_source": 118,
+      "total": 371,
+      "websummit_only": 180,
+      "other_source": 191,
       "no_source": 0
     },
     "places": {
-      "total": 85,
+      "total": 115,
       "websummit_only": 43,
-      "other_source": 42,
+      "other_source": 72,
       "no_source": 0
     }
   },
@@ -8375,9 +8375,6 @@
     },
     {
       "organisation": "organisation:purpose"
-    },
-    {
-      "organisation": "organisation:radio-renascenca"
     },
     {
       "organisation": "organisation:reddit"

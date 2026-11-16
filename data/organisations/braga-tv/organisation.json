@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "braga-tv",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Braga TV",
+  "names_as_listed": [
+    "Braga TV"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: email not captured; mobile number published: personal contact published, not recorded.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:braga"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://bragatv.pt/",
+    "owner": {
+      "name": "Angélica & Sandra Antunes Unipessoal, Lda.",
+      "source": {
+        "url": "https://bragatv.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://bragatv.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://bragatv.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://bragatv.pt/ficha-tecnica/",
+      "source": {
+        "url": "https://bragatv.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Angélica Marisa da Costa Antunes",
+        "role": "Diretora",
+        "source": {
+          "url": "https://bragatv.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Sandra Catarina da Costa Antunes",
+        "role": "Editora",
+        "source": {
+          "url": "https://bragatv.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bragatv.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica; ERC registration 126392 stated"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://bragatv.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica; ERC registration 126392 stated",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-16T19:55Z",
+  "updated": "2026-11-16T21:05Z",
   "done": [
+    "21:05 wake: brought designer.places@'s restart onto dev (its key designer.places-2-promptugal, notes, status, run report: passes; keys.json conflict resolved by applying its two changes to dev's file); the look of /values/ from journalist@'s draft: board/spec-the-values-page.md (V1 to V6) with pictures (design/values/mock.mjs, no AI); two JSON links in the draft flagged; LD1 to LD5 not built yet; LD6 in part (datasci.places@ refreshed the readings at 20:17)",
     "19:55 (restart, session_01Kw9UwEq1n6W1EdcdvX5uGE) onboarded; key designer-promptugal-4, -3 superseded; the live-data loop: board/spec-the-live-data-up-front.md (LD1 to LD6) with mock-ups from the real IPMA files (design/live-data/mock.mjs, no AI; pictures design/decisions/live-data/): the home lead's empty right half becomes 'Now in the Algarve' (17 towns, the warning in words, five days); the home page's live line still links api.ipma.pt JSON (LD2); the five days under every town band; readings 5 h stale (local-now.mjs not running)",
     "10:45 The app's empty-day note in the site's look: pass; Wednesday no longer struck in the app's strip, flagged; the 12 November debrief",
     "08:50 NE3, NE4 and NE5 pass live (the app's empty day names where the programme is; the 0-item day page; picks stay in the browser); two small notes: the app's note in the site's sand-and-ink, not red; drop 'Nothing matches' above it",
@@ -119,10 +120,9 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check LD1 to LD6 once dev.places@ ships them (1280 and 390 px, light and dark, no .json href)",
-    "Review work/designer.places when its new session pushes (none yet at 19:55)",
-    "The look of /values/ (journalist@ and sherpa@ write it) and of /media/<id>/ (dev.places@ builds): a spec when the first drafts exist",
-    "The hand-over debrief of this session by 17 Nov"
+    "Check LD1 to LD5 and V1 to V6 once built",
+    "Review work/designer.places at each wake",
+    "The look of /media/<id>/ once dev.places@ builds the first (ontologist@'s media kind is in; A Voz do Algarve first)"
   ],
   "asks": [
     "Dinis: the inbox lane for my new key (designer-promptugal-4) is not issued yet; until conductor.b@ issues it, my notes go through the board and commits",

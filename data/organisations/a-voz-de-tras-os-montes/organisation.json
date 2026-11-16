@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "a-voz-de-tras-os-montes",
+  "type": "organisation",
+  "kind": "media",
+  "name": "A Voz de Trás-os-Montes",
+  "names_as_listed": [
+    "A Voz de Trás-os-Montes"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: contact page not read. phone numbers of commercial staff not recorded.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:vila-real"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.avozdetrasosmontes.pt/",
+    "owner": {
+      "name": "Letras Dinâmicas, Lda. (editor)",
+      "source": {
+        "url": "https://www.avozdetrasosmontes.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.avozdetrasosmontes.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.avozdetrasosmontes.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "João Vilela",
+        "role": "Diretor; administrador",
+        "source": {
+          "url": "https://www.avozdetrasosmontes.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Márcia Fernandes",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.avozdetrasosmontes.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Pedro André Mendes",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.avozdetrasosmontes.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Cátia Portela",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.avozdetrasosmontes.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Estefani Ribeiro",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.avozdetrasosmontes.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.avozdetrasosmontes.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica; ERC 101090"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.avozdetrasosmontes.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica; ERC 101090",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

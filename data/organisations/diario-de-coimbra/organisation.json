@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-de-coimbra",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Coimbra",
+  "names_as_listed": [
+    "Diário de Coimbra"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Figueira da Foz; Cantanhede. Gaps: owner company not stated on /sobre/. email addresses are protected on the page (not readable), so none recorded. phone numbers listed on page not recorded (generic switchboard exists: see contact page).",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:coimbra"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.diariocoimbra.pt",
+    "feeds": [
+      {
+        "url": "https://www.diariocoimbra.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.diariocoimbra.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.diariocoimbra.pt/sobre/",
+      "source": {
+        "url": "https://www.diariocoimbra.pt/sobre/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Adriano Callé Lucas",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.diariocoimbra.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "Miguel Callé Lucas",
+        "role": "Diretor adjunto",
+        "source": {
+          "url": "https://www.diariocoimbra.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "João Luís Campos",
+        "role": "Diretor adjunto executivo",
+        "source": {
+          "url": "https://www.diariocoimbra.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "edition"
+      },
+      {
+        "name": "Teresa Veríssimo",
+        "role": "Diretora Geral",
+        "source": {
+          "url": "https://www.diariocoimbra.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "management"
+      },
+      {
+        "name": "Manuela Ventura",
+        "role": "Editora Executiva",
+        "source": {
+          "url": "https://www.diariocoimbra.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editing"
+      },
+      {
+        "name": "Ana Margalho Manuel de Sousa",
+        "role": "Chefe de redação",
+        "source": {
+          "url": "https://www.diariocoimbra.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "newsroom"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.diariocoimbra.pt/sobre/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica and contacts"
+      },
+      {
+        "url": "https://www.diariocoimbra.pt/feed/",
+        "read_at": "2026-11-16",
+        "how": "curl"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica and contacts",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.diariocoimbra.pt/feed/",
+      "read_at": "2026-11-16",
+      "how": "curl",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

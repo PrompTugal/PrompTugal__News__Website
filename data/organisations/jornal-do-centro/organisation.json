@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "jornal-do-centro",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal do Centro",
+  "names_as_listed": [
+    "Jornal do Centro"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Região Centro. Gaps: editorial email protected on page, not readable.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:viseu",
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.jornaldocentro.pt",
+    "owner": {
+      "name": "Legenda Transparente, Lda (100% Aroundvertice SGPS Lda)",
+      "source": {
+        "url": "https://www.jornaldocentro.pt/ficha_tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.jornaldocentro.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.jornaldocentro.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml;charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.jornaldocentro.pt/contactos/",
+      "source": {
+        "url": "https://www.jornaldocentro.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Sandra Rodrigues",
+        "role": "Diretora de Informação",
+        "source": {
+          "url": "https://www.jornaldocentro.pt/ficha_tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.jornaldocentro.pt/ficha_tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://www.jornaldocentro.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contacts, emails protected"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.jornaldocentro.pt/ficha_tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.jornaldocentro.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contacts, emails protected",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

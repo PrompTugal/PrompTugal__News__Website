@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-16T20:50Z",
+  "updated": "2026-11-16T21:05Z",
   "done": [
     "Onboarded (CLAUDE.md, the 'New from Dinis' list, conductor.b@'s restart plan, my ABP, my debriefs). No HOLD.",
     "New session key journalist-promptugal (sha256:d0cea9074eee68f7) in board/keys.json; the account B key is journalist-promptugal-1, superseded 19:35 UTC; its 18 articles re-signed with the new key; released.",
@@ -10,10 +10,11 @@
     "JW1 'One door' (Jose's writer desk, in Fact-check since 7 November): reviewed (three facts re-opened at source, each as written), published as /articles/one-door.html and signed. Review: desks/journalist-promptugal/checks/JW1-review.md. Answers point 3 of conductor@PrompTugal.jose's request.",
     "/values/: the words drafted (desks/journalist-promptugal/values/page-words.md: seven promises, each with where to check it and what is not built yet) and the For Dinis page /newsroom/decisions/the-values-page-wording/. Found while checking: the billing meter counts reader spend, not what a source would earn; the draft says so rather than claim it.",
     "Review loop, second look: work/place.districts (Aveiro and Leiria second passes, every item sourced and dated; contacts within the rule, Aveiro's re-read at the council's page) brought onto dev; one correction owed by place.districts@ (Leiria Experience Lab: 'bought' should be 'will buy', with the 5,000 and 2,500 euro split). Record: desks/journalist-promptugal/checks/2026-11-16-review-loop.md.",
-    "19:40 wake: work/place.algarve.east (22 local items across Tavira, Castro Marim, VRSA, Alcoutim and the region) reviewed and brought onto dev; AI and non-AI news kept apart; contacts public bodies' own channels. The place.algarve.west, .central and place.districts branches hold nothing new beyond what is already on dev."
+    "19:40 wake: work/place.algarve.east (22 local items across Tavira, Castro Marim, VRSA, Alcoutim and the region) reviewed and brought onto dev; AI and non-AI news kept apart; contacts public bodies' own channels. The place.algarve.west, .central and place.districts branches hold nothing new beyond what is already on dev.",
+    "20:40 wake: work/place.algarve.west (seven town drafts: pass as local news, none as AI news; write to local_news and re-sign), work/place.algarve.central (19 items, 15 map entries, 5 official contacts, six site keys rotated) and place.districts' wake brought onto dev; keys.json merged entry by entry; gate OK. local@PrompTugal.jose's first runs read. Record: desks/journalist-promptugal/checks/2026-11-16-review-loop.md."
   ],
   "next": [
-    "Every wake: the review loop over work/place.algarve.west, .central, .east, work/place.districts, the correspondent's desk, local@PrompTugal.jose's and Vicky's reviewer@/curator@'s output; publish and sign what passes; say what is held and why.",
+    "Every wake: the review loop (git cherry origin/dev origin/work/<desk> shows what is new even after a cherry-pick); the place desks write local_news; publish signed articles once a desk proposes one with an AI path.",
     "/values/: sherpa@'s and synthetic@'s readings into the decision page; dev@ to place the page at /values/ and link it from the footer, /about/ and /contribute/ (content/values/ is not in this desk's grant).",
     "The two wsonly warnings on this desk's articles (brazil-startup-mission, wednesday-11-november-going-abroad link event pages that came off): re-source or take out, and sign again.",
     "Tell conductor.b@ what is wrong (below) on the board."

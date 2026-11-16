@@ -1,60 +1,57 @@
 {
   "agent": "local@PrompTugal.jose",
   "focus": "For each Algarve town: a checked list of its local outlets and their feeds, the public organisations and people who could contribute, and a draft first contact per organisation for a person to send (cards 1 Awareness, 2 Contributors, 3 Local news partners)",
-  "state": "blocked for cards 2 and 3: this session's network policy refuses every outlet host; card 1 started",
-  "updated": "2026-11-16T20:10:00Z",
+  "state": "ok in part: Faro and Loulé read as far as the hosts allow; not done, because ERC's register and several outlets cannot be opened from this environment",
+  "updated": "2026-11-16T20:25:00Z",
   "session": "session_01CqQLD67E4ZdLLHah22NrGN (Jose's account)",
   "key": "local-jose-promptugal (record sha256:731a02b0283ae2d5)",
   "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md, point 4 (16 Nov, about 19:25 UTC)",
-  "grant": "board/abp/policies.json, external: desks/ and this agent's own key entry only; no entry for this agent yet, so only desks/local-jose/ and the key entry are written",
-  "done": "16 Nov, set-up run: read Dinis's rules, guidance and the team's plan; no hold on the board; the desk README; the session key published. Network check at 19:57 UTC: every outlet, regulator, council and university host tried was refused by this environment (list in unreachable_hosts); promptugal.news opens. So no outlet site was opened, no feed checked, no contributor listed and no contact drafted. Written instead: an inventory of what the team's files already name for Faro and Loulé (towns/, state 'not checked', nothing ready to merge); card 1: draft 1 of the text on what PrompTugal.news is (Portuguese and English) with five gaps between it and the site, and a share check of five live pages; two request files.",
+  "grant": "Written since 20:00 UTC by abp@PrompTugal.dinis (board/abp/policies.json v1.14.0, external.by_agent): desks/local-jose/**, board/runs/local-jose/**, data/organisations/*.json. NOT USED YET: Jose is told first. This run wrote only desks/local-jose/.",
+  "done": "16 Nov. Set-up: the desk README, the session key. Then, after Jose opened eleven hosts (about 20:09 UTC): Faro and Loulé. Card 3: Barlavento (main RSS, an RSS per town section, a REST API) and Algarve Primeiro (no RSS, a sitemap) read on their own sites and written in the media kind's fields; Sul Informação's main RSS found, then reading stopped at its robots.txt; Regiao Sul, Jornal do Algarve and Postal do Algarve not readable. Card 2: three editors named on the outlets' own pages (name and published role), the university's communication degree and its communication office as organisations. Drafts: three first contacts (Barlavento, Algarve Primeiro, the university's school of communication), Portuguese and English, each with its holds. Card 1: draft 1 of the text on what PrompTugal.news is, and a share check of five pages. Requests: the outlets ready to merge (to place.algarve.central@ and ontologist@), the draft format (outreach@), the share cards (dev.places@).",
   "learnt": [
-    "The outlet hosts are refused by the environment's network policy (the gateway answers 403 to the connection), not by the sites. Nothing was tried to get around it.",
-    "data/organisations/ holds one outlet of kind media (a-voz-do-algarve, by ontologist@); postal-do-algarve is a derived record with no kind. Loulé's town file names four press sources with no feed; Faro's names one outlet (Barlavento) with a feed this desk has not fetched.",
-    "Faro and Loulé are kept by place.algarve.central@PrompTugal.dinis (the restart plan, section 2). Faro is also a district capital, which the guidance gives to researcher@.",
-    "outreach@ proposed a newer shared draft format (desks/outreach/media/FORMAT.md, media-first-contact/v1) and a For Dinis page is open on what a first email may promise; it says no first contact goes to a person to send before Dinis answers.",
-    "The site's general share card still reads 'The Web Summit Lisbon 2026 edition · 9 to 12 November'; every town page shares with it.",
-    "release.sh pushed on its second try both times; it can commit derived data under the releaser's name, so this desk checks that newsroom/tools/derive.mjs leaves data/ unchanged before it releases."
+    "Barlavento keeps a section and an RSS feed per council (the pattern /algarve/<town>/feed/, confirmed for Faro and Loulé), so the next towns start there.",
+    "Sul Informação's robots.txt refuses Anthropic's agents by name and signals ai-train=no, use=reference; its town feeds and API answer with a bot challenge. This desk stopped reading it. The same question stands for every agent of the team that reads it.",
+    "Two outlets (Regiao Sul, Jornal do Algarve) answer every request with a bot challenge. They are recorded as unreachable and need a person to read them.",
+    "ERC's public lists of registered media are spreadsheets on docs.google.com and a portal on portalregistos.erc.pt; neither host opens from here, so outlets the team's files lack cannot yet be looked for in the register.",
+    "A Voz do Algarve's newsroom is in Loulé (its own Ficha Técnica); it is on neither town page yet.",
+    "The grant names data/organisations/*.json; the records live at data/organisations/<slug>/organisation.json, which that pattern does not match as written.",
+    "A draft says 'we link and credit you' only where the town page really links the outlet today; that ruled out a draft to A Voz do Algarve and sharing the Faro page with Algarve Primeiro.",
+    "The site's general share card still reads 'The Web Summit Lisbon 2026 edition'; every town page shares with it.",
+    "Before releasing, run newsroom/tools/derive.mjs and check data/ is unchanged: release.sh would otherwise commit derived data under this desk's name."
   ],
-  "unreachable_hosts": {
-    "tried": "2026-11-16T19:57Z",
-    "how": "one GET each; the proxy refused the connection (403) before any site was reached",
-    "hosts": [
-      "www.barlavento.pt",
-      "www.sulinformacao.pt",
-      "www.algarveprimeiro.com",
-      "regiao-sul.pt",
-      "www.avozdoalgarve.pt",
-      "www.postal.pt",
-      "www.jornaldoalgarve.pt",
-      "www.erc.pt",
-      "www.cm-faro.pt",
-      "www.cm-loule.pt",
-      "www.ualg.pt"
-    ],
-    "reachable": ["promptugal.news", "pki.sgit.ai"]
+  "hosts": {
+    "tried": "2026-11-16T20:10Z",
+    "open": ["www.barlavento.pt", "www.algarveprimeiro.com", "www.avozdoalgarve.pt", "www.ualg.pt", "www.erc.pt", "www.sulinformacao.pt (opens, but see learnt)", "promptugal.news", "pki.sgit.ai"],
+    "bot_challenge_not_read": ["regiao-sul.pt", "www.jornaldoalgarve.pt"],
+    "connection_reset_twice": ["www.cm-faro.pt", "www.cm-loule.pt"],
+    "refused_by_the_environment": ["postal.pt (www.postal.pt redirects to it)", "docs.google.com (ERC's lists)", "portalregistos.erc.pt (ERC's register portal)", "www.rua.pt (the university's radio)", "esec.ualg.pt (the school of education and communication)"]
   },
   "towns": {
-    "faro": "inventory only, not checked (towns/faro.json)",
-    "loule": "inventory only, not checked (towns/loule.json)"
+    "faro": "checked in part: 2 outlets ready to merge, 1 stopped, 5 contributors, 4 contact pages, 2 drafts (towns/faro.json)",
+    "loule": "checked in part: 2 outlets ready to merge, 1 stopped, 1 unreachable, 3 contributors, 3 contact pages, 2 drafts (towns/loule.json)"
   },
-  "next": "When the outlet hosts open: Faro and Loulé from the inventories (each outlet's own site, its feed, its contact page; ERC's register for what the files lack; contributors), then one draft per organisation and a request to place.algarve.central@ and ontologist@ with the outlets ready to merge. Then Quarteira and Silves, in the order of data/by-place/places.json.",
+  "next": "Quarteira and Silves, in the order of data/by-place/places.json, starting from Barlavento's section feeds. Finish Faro and Loulé when ERC's lists and the unreachable outlets can be read.",
   "asks": [
-    "Jose: this session cannot open any outlet's site, ERC's register, a council or the university: the cloud environment's network access refuses them (hosts in unreachable_hosts). Cards 2 and 3 cannot start until that changes. It is a change to the environment, which an agent never makes (R4); your conductor's ROLE.md reads R4 as: you do it by hand, after Dinis's yes. Each new town brings new hosts, so a list of allowed domains would have to grow at every run.",
-    "Dinis: whether Jose may open his environment's network access to the outlets' public sites for this desk (R4 names an environment change), and how wide: the named hosts above, or public websites in general.",
-    "Jose: outreach@ proposes one newer draft format for both desks (desks/outreach/media/FORMAT.md); your brief names contact-request/v1 in this desk's own folder. Proposed in requests/2026-11-16-outreach-the-shared-draft-format.md: the media format's fields, kept in this desk, offering only the page check, the credit and the invitation to contribute. Say yes or no before the first draft.",
-    "Jose: Faro is both an Algarve town (this desk) and a district capital (researcher@). Until conductor.b@PrompTugal.dinis says who takes its outlets, this desk treats Faro as its own and records anything researcher@ commits for it rather than redoing it.",
-    "Dinis: the grant for Jose's agents in board/abp/policies.json (asked of abp@PrompTugal.dinis by Jose's conductor); until then this desk writes only desks/local-jose/ and its key entry, and cannot put a draft where outreach@'s format wants it (desks/outreach/ is in not_writes).",
-    "Dinis: R10 waits on abp@PrompTugal.dinis for operators' agents (desks/conductor-jose/requests/2026-11-16-abp-operators-grant-and-run-report.md); no run report is filed for this run.",
-    "Dinis: what a first email to a news organisation may promise (content/newsroom/decisions/what-a-first-contact-to-a-news-organisation-may-promise.md, open, asked by outreach@); it blocks every send, not this desk's drafting."
+    "Jose: your agents' grant is now written (board/abp/policies.json, external.by_agent, 20:00 UTC): desks/local-jose/**, board/runs/local-jose/** and data/organisations/*.json. I have not used it. Say whether I file run reports in board/runs/local-jose/ from the next run (R10 asks for one per run; none is filed for this one), and whether I write outlet records in data/organisations/ myself or keep handing them to ontologist@.",
+    "Jose: to finish Faro and Loulé and to find outlets the files lack, these hosts are still refused by the environment: postal.pt, docs.google.com (where ERC keeps its public lists), portalregistos.erc.pt, www.rua.pt, esec.ualg.pt. Each new town will bring more.",
+    "Jose: I wrote the three drafts as contact-request/v1 in this desk, as your brief says, with outreach@'s channel, status and holds fields added. Say if you want them otherwise.",
+    "Jose: Regiao Sul and Jornal do Algarve answer with a bot challenge, so I cannot read them; a person can, in a browser.",
+    "Dinis: Sul Informação's robots.txt refuses Anthropic's agents by name and says ai-train=no, use=reference. May the site read its RSS feed for headlines and links, and may an agent read its pages at all? Until you say, this desk does not read it.",
+    "Dinis: the grant's pattern data/organisations/*.json does not match the records' real path, data/organisations/<slug>/organisation.json. Until abp@PrompTugal.dinis says which is meant, this desk writes nothing there.",
+    "Dinis: who takes Faro's outlets, this desk (an Algarve town) or researcher@ (a district capital). Asked of conductor.b@PrompTugal.dinis; this desk read them today and offers them to both.",
+    "Dinis: what a first email to a news organisation may promise (content/newsroom/decisions/what-a-first-contact-to-a-news-organisation-may-promise.md, open). It holds every send; the three drafts here stay within its option A.",
+    "Dinis: whether Jose may widen his environment's network access for this desk (R4 names an environment change). Jose opened eleven hosts by hand at about 20:09 UTC; no yes for that is recorded in board/guidance/."
   ],
   "waits": [
+    "requests/2026-11-16-central-and-ontologist-faro-and-loule-outlets.md: waits on ontologist@ (merge two outlets, facts for a-voz-do-algarve), place.algarve.central@ (feeds for the town files) and researcher@ (Faro)",
     "requests/2026-11-16-outreach-the-shared-draft-format.md: waits on outreach@PrompTugal.dinis and on Jose",
     "requests/2026-11-16-dev.places-share-cards-for-town-pages.md: waits on dev.places@PrompTugal.dinis (whether it has run since the restart was not checked), designer@ and journalist@",
-    "no request to place.algarve.central@ or ontologist@ yet: no town is checked, so nothing is ready to merge"
+    "the three drafts in contact-requests/: wait on a person to review, choose the sender and send, and on Dinis's open decision"
   ],
+  "run_report": "none filed for this run: the folder board/runs/local-jose/ is in the new grant, which Jose is told of before it is used",
   "debrief": "desks/local-jose/debriefs/2026-11-16-handover.md",
   "requests": [
+    "desks/local-jose/requests/2026-11-16-central-and-ontologist-faro-and-loule-outlets.md",
     "desks/local-jose/requests/2026-11-16-outreach-the-shared-draft-format.md",
     "desks/local-jose/requests/2026-11-16-dev.places-share-cards-for-town-pages.md"
   ]

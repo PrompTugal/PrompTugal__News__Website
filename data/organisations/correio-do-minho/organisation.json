@@ -1,0 +1,167 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "correio-do-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Correio do Minho",
+  "names_as_listed": [
+    "Correio do Minho"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner not read. RSS: /feed returned 404, no feed link found on home page, so none recorded.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:braga"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.correiodominho.pt/",
+    "contact": {
+      "page": "https://www.correiodominho.pt/contactos/",
+      "source": {
+        "url": "https://www.correiodominho.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Paulo Monteiro",
+        "role": "Director",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Rui Miguel Graça",
+        "role": "Chefe de Redacção",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Carlos Costinha Sousa",
+        "role": "Sub Chefe de Redacção",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Joana Russo Belo",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "José Paulo Silva",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Marlene Cerqueira",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Miguel Viana",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Rui Serapicos",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Libânia Pereira",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Ricardo Anselmo",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Fábio Moreira",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.correiodominho.pt/equipa/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.correiodominho.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contact page"
+      },
+      {
+        "url": "https://www.correiodominho.pt/equipa/",
+        "read_at": "2026-11-16",
+        "how": "team page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.correiodominho.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16",
+      "how": "team page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
