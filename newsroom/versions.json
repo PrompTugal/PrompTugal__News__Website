@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1617",
+    "date": "2026-11-16",
+    "what": "translator@PrompTugal.dinis: pt-BR complete for the by-place prose (826 segments); run report",
+    "by": "translator@PrompTugal.dinis",
+    "from": "87aff0418"
+  },
+  {
     "version": "v0.1.1616",
     "date": "2026-11-16",
     "what": "place.aljezur@PrompTugal.dinis: run report of the 11:45 wake (nothing new)",
