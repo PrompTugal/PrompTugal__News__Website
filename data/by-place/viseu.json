@@ -9,7 +9,7 @@
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Viseu: AI and technology in Viseu, a district capital of the Beira interior whose centre of gravity is its polytechnic university, the council's public-sector AI work and a regional industry that is just starting to talk about AI, and what reaches Viseu from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
-    "text": "Viseu's AI activity runs through three public and academic bodies rather than through startups we could source. The Politécnico de Viseu (now branded Universidade Politécnica de Viseu) leads RiskMap, a 244,944 euro project to map building degradation with AI, and has published rules for AI use by its staff and students. The municipality is a member of the AI4PA digital innovation hub for public administration and the intermunicipal body CIM Viseu Dão Lafões is building a data platform that uses AI to support mayors. Industry shows up mostly as events (IndustriaTech+AI, Viseu Digital Tech), not as named local AI companies.",
+    "text": "Viseu's AI activity runs through public and academic bodies more than through startups. The Politécnico de Viseu, which became the Universidade Politécnica de Viseu on 1 August 2026, leads RiskMap, a 244,944 euro project to map building degradation with AI, and has published rules for AI use. On its campus the STAR Institute, a technology centre opened on 22 May 2026, lists AI first among its digitalisation areas and houses two startups. The municipality is a member of the AI4PA hub for public administration, and the intermunicipal body CIM Viseu Dão Lafões presented a data platform with AI tools for mayors on 29 October 2026.",
     "sources": [
       {
         "title": "Politécnico de Viseu presents the RISKMAP tool (RTP, undated page, 2026)",
@@ -30,6 +30,16 @@
         "title": "What if AI could anticipate the needs of Viseu Dão Lafões (Diário de Viseu, 29 October 2026)",
         "url": "https://www.diarioviseu.pt/2026/10/29/e-se-a-inteligencia-artificial-conseguisse-antecipar-as-necessidades-da-populacao-de-viseu-dao-lafoes/",
         "read_on": "2026-11-16"
+      },
+      {
+        "title": "STAR Institute opens its Technology and Innovation Centre (STAR Institute, 22 May 2026)",
+        "url": "https://starinstitute.pt/noticias/inauguracao-do-centro-de-tecnologia-e-inovacao-do-star-institute/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Instituto Politécnico de Viseu became Universidade Politécnica de Viseu from 1 August (UPV, 2 September 2026)",
+        "url": "https://univiseu.pt/instituto-politecnico-de-viseu-passou-a-universidade-politecnica-de-viseu-a-partir-de-1-de-agosto/",
+        "read_on": "2026-11-16"
       }
     ]
   },
@@ -41,7 +51,7 @@
   "ai_news": [
     {
       "title": "Viseu Dão Lafões holds its first Smart Region Summit and shows a data and AI platform for mayors",
-      "summary": "On 29 October 2026 the intermunicipal body CIM Viseu Dão Lafões presented SMART REGION, two platforms (a regional knowledge one and an urban management one) that cross scattered data such as visitor flows, mobility and waste to help councils understand local needs. The article does not describe the models used.",
+      "summary": "On 29 October 2026 the intermunicipal body CIM Viseu Dão Lafões presented SMART REGION, two platforms (a regional knowledge one and an urban management one) that cross scattered data such as visitor flows, mobility and waste to help councils understand local needs. A second report, from Mais Aguiar da Beira on 31 October, says the Urban Management Platform offers AI tools for analysis and decision support and that CIM and MOBI.E signed a protocol on smart ticketing. Neither report names the models used.",
       "date": "2026-10-29",
       "publisher": "Diário de Viseu",
       "url": "https://www.diarioviseu.pt/2026/10/29/e-se-a-inteligencia-artificial-conseguisse-antecipar-as-necessidades-da-populacao-de-viseu-dao-lafoes/",
@@ -60,6 +70,16 @@
       "steps": 0
     },
     {
+      "title": "Viseu hospital group buys PRR-funded scanners that include AI where applicable",
+      "summary": "The ULS Viseu Dão-Lafões got 5.8 million euros of recovery plan money for an angiography system, a second 1.5 tesla MRI, a high-performance CT scanner and a surgical robot. The ULS says the imaging systems include AI where applicable, helping to optimise radiation dose on the CT and the angiograph.",
+      "date": "2026-09-08",
+      "publisher": "Diário de Viseu",
+      "url": "https://www.diarioviseu.pt/2026/09/08/capacidade-de-imagiologia-reforcada-na-uls-viseu-dao-lafoes/",
+      "read_on": "2026-11-16",
+      "ai_path": "A public hospital buys medical imaging machines with AI features: one step from AI, because the AI is a built-in feature of the equipment and the article gives no detail on it.",
+      "steps": 1
+    },
+    {
       "title": "Politécnico de Viseu shows RISKMAP, an AI tool that watches over heritage buildings",
       "summary": "The polytechnic leads a project with the universities of Aveiro and Porto's engineering faculty to build a virtual model of a heritage building that uses photographs, thermal images and sensors to flag degradation risks. The Grão Vasco National Museum in Viseu is one of two case studies, and the building manager decides how far the AI acts.",
       "date": "2026",
@@ -67,6 +87,16 @@
       "url": "https://www.rtp.pt/noticias/economia/politecnico-de-viseu-apresenta-ferramenta-riskmap-que-monitoriza-situacoes-de-risco-no-patrimonio_n1721861",
       "read_on": "2026-11-16",
       "ai_path": "A Viseu research project building an AI tool for heritage risk: directly about AI. The RTP page gives no publication date, only that the presentation was on a Friday, so we show the year.",
+      "steps": 0
+    },
+    {
+      "title": "STAR Institute opens in Viseu with AI among its core areas and two startups on site",
+      "summary": "The technology and innovation centre on the polytechnic's campus was inaugurated on 22 May 2026 with the prime minister present. It reports 40 people, 15 R&D projects, more than 20 companies served, a spin-off and two startups, and the Observador report says one startup is tied to AI and the other to cybersecurity. Its own site lists AI first under digitalisation and offers a humanoid and a quadruped robot with AI.",
+      "date": "2026-05-22",
+      "publisher": "STAR Institute and Observador",
+      "url": "https://starinstitute.pt/noticias/inauguracao-do-centro-de-tecnologia-e-inovacao-do-star-institute/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Viseu research and technology centre that names AI as a focus area and hosts an AI-linked startup: directly about AI. The building cost 3.5 million euros from the recovery plan, according to Observador.",
       "steps": 0
     },
     {
@@ -80,6 +110,16 @@
       "steps": 0
     },
     {
+      "title": "The CIM gathers 240 teachers in Viseu to debate AI in schools",
+      "summary": "On 14 March 2026 the intermunicipal body held a colloquium at the polytechnic's technology and management school on AI in teaching, with panels on classroom use and ethical limits. The council's vice-president opened it.",
+      "date": "2026-03-14",
+      "publisher": "SAPO (CIM Viseu Dão Lafões)",
+      "url": "https://sapo.pt/artigo/cim-viseu-dao-lafoes-mais-de-240-professores-no-coloquio-que-debateu-o-papel-da-inteligencia-artificial-na-educacao-69b82cc9a5584ea5f61ee709",
+      "read_on": "2026-11-16",
+      "ai_path": "A regional public body convenes teachers on AI in education: directly about AI.",
+      "steps": 0
+    },
+    {
       "title": "Viseu Digital Tech spends an afternoon on AI for companies",
       "summary": "The second edition took place on 12 February 2026 at the polytechnic's technology and management school, organised by CESAE Digital, with talks on the strategic impact of AI on business, AI in marketing and consulting, and practical automation cases.",
       "date": "2026-02-12",
@@ -87,6 +127,16 @@
       "url": "https://viseudigitaltech.pt/",
       "read_on": "2026-11-16",
       "ai_path": "A business event in Viseu about AI and process automation: directly about AI. Source is the organiser's own page.",
+      "steps": 0
+    },
+    {
+      "title": "Viseu hosts MAESTRO-AI, an Erasmus+ project on teaching maths and programming in the AI era",
+      "summary": "From 9 to 13 February 2026 the polytechnic received partners from Poland, Greece and Romania for the Erasmus+ project MAESTRO-AI, which develops AI tools to support learning and ethical principles for AI in education. Students and teachers tested teaching proposals at the technology and management school.",
+      "date": "2026-02-06",
+      "publisher": "Jornal do Centro",
+      "url": "https://www.jornaldocentro.pt/politecnico-de-viseu-acolhe-iniciativa-internacional-dedicada-a-matematica-e-a-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "A European education project run partly in Viseu that builds AI tools for learning: directly about AI. The date is the article's, the meeting was the following week.",
       "steps": 0
     },
     {
@@ -98,12 +148,22 @@
       "read_on": "2026-11-16",
       "ai_path": "The Viseu institution sets its own rules for AI use: directly about AI.",
       "steps": 0
+    },
+    {
+      "title": "The council helps launch AI4PA training for public servants with a first session in Viseu",
+      "summary": "The municipality's own news page announced that the first of five training events of the AI4PA Portugal hub would be held at the Museu do Quartzo in Viseu on 26 February 2025, on generative AI and AI-driven public services, with the then mayor opening it. The event page lists the council as co-organiser.",
+      "date": "2025-02-21",
+      "publisher": "Câmara Municipal de Viseu",
+      "url": "https://www.cm-viseu.pt/pt/noticias/viseu-acolhe-na-proxima-semana-o-1-evento-formativo-do-polo-de-inovacao-digital-ai4pa-portugal/",
+      "read_on": "2026-11-16",
+      "ai_path": "The council co-hosts AI training for public administration: directly about AI. Read on the council's own site, which now loads.",
+      "steps": 0
     }
   ],
   "sources": [
     {
       "name": "Câmara Municipal de Viseu",
-      "url": "https://www.cm-viseu.pt",
+      "url": "https://www.cm-viseu.pt/pt/noticias/",
       "kind": "council",
       "feed": null
     },
@@ -111,19 +171,19 @@
       "name": "Universidade Politécnica de Viseu: news",
       "url": "https://univiseu.pt/noticias-ipv/",
       "kind": "university",
-      "feed": null
+      "feed": "https://univiseu.pt/feed/"
     },
     {
       "name": "Diário de Viseu",
       "url": "https://www.diarioviseu.pt",
       "kind": "press",
-      "feed": null
+      "feed": "https://www.diarioviseu.pt/feed/"
     },
     {
       "name": "Mais Beiras (SAPO)",
       "url": "https://maisbeiras.sapo.pt",
       "kind": "press",
-      "feed": null
+      "feed": "https://maisbeiras.sapo.pt/feed"
     },
     {
       "name": "AI4PA Portugal (digital innovation hub, via digital.gov.pt)",
@@ -141,6 +201,30 @@
       "name": "Viseu Digital Tech",
       "url": "https://viseudigitaltech.pt/",
       "kind": "events",
+      "feed": null
+    },
+    {
+      "name": "STAR Institute (technology and innovation centre, UPV campus)",
+      "url": "https://starinstitute.pt/noticias/",
+      "kind": "university",
+      "feed": "https://starinstitute.pt/feed/"
+    },
+    {
+      "name": "Jornal do Centro",
+      "url": "https://www.jornaldocentro.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "AIRV (Associação Empresarial da Região de Viseu)",
+      "url": "https://airv.pt/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "AI4PA Portugal agenda",
+      "url": "https://ai4pa.pt/agenda/programa-capacitacao-profissional-viseu",
+      "kind": "other",
       "feed": null
     }
   ],
@@ -160,20 +244,48 @@
       "ai_path": "AI is a central theme of the programme: directly about AI. Past event."
     },
     {
+      "title": "STAR Institute inauguration of its Technology and Innovation Centre",
+      "date": "2026-05-22",
+      "url": "https://starinstitute.pt/noticias/inauguracao-do-centro-de-tecnologia-e-inovacao-do-star-institute/",
+      "read_on": "2026-11-16",
+      "ai_path": "Opens a centre with AI as a named focus: directly about AI. Past event."
+    },
+    {
+      "title": "CIM colloquium: Inteligência Artificial, que rumos para a Educação? (ESTGV auditorium)",
+      "date": "2026-03-14",
+      "url": "https://sapo.pt/artigo/cim-viseu-dao-lafoes-mais-de-240-professores-no-coloquio-que-debateu-o-papel-da-inteligencia-artificial-na-educacao-69b82cc9a5584ea5f61ee709",
+      "read_on": "2026-11-16",
+      "ai_path": "A day on AI in education for 240 teachers: directly about AI. Past event."
+    },
+    {
       "title": "Viseu Digital Tech 2026, second edition (CESAE Digital, ESTGV auditorium)",
       "date": "2026-02-12",
       "url": "https://viseudigitaltech.pt/",
       "read_on": "2026-11-16",
       "ai_path": "Talks on AI for business and automation: directly about AI. Past event."
+    },
+    {
+      "title": "MAESTRO-AI Erasmus+ meeting at the polytechnic (ESTGV)",
+      "date": "2026-02-09 to 2026-02-13",
+      "url": "https://www.jornaldocentro.pt/politecnico-de-viseu-acolhe-iniciativa-internacional-dedicada-a-matematica-e-a-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "A European project on AI tools for teaching: directly about AI. Past event."
+    },
+    {
+      "title": "AI4PA Portugal training session: Inovação Pública (Museu do Quartzo, Viseu)",
+      "date": "2025-02-26",
+      "url": "https://ai4pa.pt/agenda/programa-capacitacao-profissional-viseu",
+      "read_on": "2026-11-16",
+      "ai_path": "Training on generative AI for public services, co-organised by the council: directly about AI. Past event."
     }
   ],
   "ai_map": [
     {
-      "name": "Universidade Politécnica de Viseu (formerly Instituto Politécnico de Viseu, IPV)",
+      "name": "Universidade Politécnica de Viseu (until 31 July 2026 Instituto Politécnico de Viseu, IPV)",
       "type": "institution",
       "url": "https://univiseu.pt",
-      "what": "Viseu's public higher education institution, branded Universidade Politécnica de Viseu on its site while still using IPV addresses. It issued AI use guidelines in December 2025, runs a generative AI course for teachers and leads the RiskMap AI project.",
-      "source_url": "https://essv.ipv.pt/wp-content/uploads/sites/10/2026/01/Despacho-91_2025-ORIENTACOES-IA.pdf",
+      "what": "Viseu's public higher education institution. Its own news page says it became a university on 1 August 2026 under the new higher education law, keeping its courses, staff and Viseu base. It issued AI use guidelines in December 2025, runs a generative AI course for teachers, hosts the CISeD digital services research centre and leads the RiskMap AI project.",
+      "source_url": "https://univiseu.pt/instituto-politecnico-de-viseu-passou-a-universidade-politecnica-de-viseu-a-partir-de-1-de-agosto/",
       "read_on": "2026-11-16",
       "ai_path": "Sets AI policy, teaches generative AI and leads an AI research project.",
       "steps": 0
@@ -192,8 +304,8 @@
       "name": "Município de Viseu (Câmara Municipal)",
       "type": "public body",
       "url": "https://www.cm-viseu.pt",
-      "what": "Member of the 19-organisation AI4PA Portugal hub that helps public administration and SMEs adopt AI. It also co-organised IndustriaTech+AI 2026 and holds a council project sheet for AI4PA. We found no AI use in the council's own services.",
-      "source_url": "https://digital.gov.pt/en/noticias/ai4pa-polo-de-inovacao-digital-que-apoia-a-administracao-publica-e-as-pmes-na-transicao-para-a-ia",
+      "what": "Member of the 19-organisation AI4PA Portugal hub and co-organiser of its first training session in Viseu in February 2025. It also co-organised IndustriaTech+AI 2026. We found no AI use in the council's own services on its news and business pages.",
+      "source_url": "https://www.cm-viseu.pt/pt/noticias/viseu-acolhe-na-proxima-semana-o-1-evento-formativo-do-polo-de-inovacao-digital-ai4pa-portugal/",
       "read_on": "2026-11-16",
       "ai_path": "Takes part in a national AI hub for the public sector and co-hosts AI industry events.",
       "steps": 1
@@ -231,30 +343,89 @@
     {
       "name": "CESAE Digital",
       "type": "organisation",
-      "url": "https://viseudigitaltech.pt/",
-      "what": "Training centre for digital skills that organised Viseu Digital Tech 2026 at the polytechnic in Viseu. Its own pages were not opened, so its Viseu base is not confirmed.",
+      "url": "https://www.cesae.pt/categoria-curso/locais/viseu/",
+      "what": "Training centre for digital skills with a Viseu site. The search snippet of its Viseu page lists a free AI marketing course in Viseu in June 2026, and it organised Viseu Digital Tech 2026 at the polytechnic. Its own course pages show an AI and data science offer, but they sit on its national site.",
       "source_url": "https://viseudigitaltech.pt/",
       "read_on": "2026-11-16",
       "ai_path": "Runs a Viseu event on AI for companies.",
       "steps": 1
+    },
+    {
+      "name": "STAR Institute (Centro de Tecnologia e Inovação)",
+      "type": "institution",
+      "url": "https://starinstitute.pt/",
+      "what": "First recognised technology and innovation centre of the Viseu district, on the polytechnic campus, focused on the automotive sector and its neighbours. Its site lists AI under digitalisation, offers computer vision and a humanoid and a quadruped robot with AI, and its associates include Stellantis, Simoldes and Roboplan. It reports a spin-off and two startups on site.",
+      "source_url": "https://starinstitute.pt/oferta/",
+      "read_on": "2026-11-16",
+      "ai_path": "A research centre with AI as the first of its digitalisation areas.",
+      "steps": 0
+    },
+    {
+      "name": "ViTeB (Visabeira I&D Test Bed)",
+      "type": "organisation",
+      "url": "https://vitebtestbed.com/en/competences",
+      "what": "A test bed run by Visabeira Investigação e Desenvolvimento at the Palácio do Gelo in Viseu, in the national test bed network, helping SMEs and startups test products. Its listed skills start with artificial intelligence and collaborative robotics, and its projects page shows an internal project called Visa AI.",
+      "source_url": "https://vitebtestbed.com/en/projects/projects",
+      "read_on": "2026-11-16",
+      "ai_path": "A Viseu test bed that names AI as its first competence.",
+      "steps": 0
+    },
+    {
+      "name": "CISeD (Centro de Investigação em Serviços Digitais, UPV)",
+      "type": "institution",
+      "url": "https://events.ipv.pt/cised/en/cised/",
+      "what": "The polytechnic's research centre in digital services. Its page names partners such as Bizdirect and Softinsa and a line on digital decision support systems. The page we read does not mention AI, so this is a link, not a finding of AI work.",
+      "source_url": "https://events.ipv.pt/cised/en/cised/",
+      "read_on": "2026-11-16",
+      "ai_path": "A digital research centre at the Viseu university whose AI work we did not confirm on the page opened.",
+      "steps": 2
+    },
+    {
+      "name": "ULS Viseu Dão-Lafões (hospital group)",
+      "type": "public body",
+      "url": "https://www.diarioviseu.pt/2026/09/08/capacidade-de-imagiologia-reforcada-na-uls-viseu-dao-lafoes/",
+      "what": "The district's public health unit. It says its new CT, MRI and angiography systems bought with recovery plan money include AI where applicable.",
+      "source_url": "https://www.diarioviseu.pt/2026/09/08/capacidade-de-imagiologia-reforcada-na-uls-viseu-dao-lafoes/",
+      "read_on": "2026-11-16",
+      "ai_path": "Buys imaging equipment with built-in AI features.",
+      "steps": 1
+    },
+    {
+      "name": "Roboplan",
+      "type": "company",
+      "url": "https://starinstitute.pt/associados-do-star/",
+      "what": "Robotics firm listed as an associate of the STAR Institute. The page does not give its base or any AI product.",
+      "source_url": "https://starinstitute.pt/associados-do-star/",
+      "read_on": "2026-11-16",
+      "ai_path": "Robotics company linked to a Viseu centre that works on AI: its own AI work is not shown.",
+      "steps": 2
     }
   ],
-  "extras": [],
+  "extras": [
+    {
+      "label": "Viseu Investe record",
+      "value": "The council's Viseu Investe programme (2014) says it attracted 22 investments worth 132 million euros and over 1,400 jobs, naming CUF, IBM, Bizdirect, Pampilar and Goucam. The page does not say any of them is AI work.",
+      "source_url": "https://www.cm-viseu.pt/pt/municipio/programas-municipais/viseu-investe/",
+      "read_on": "2026-11-16"
+    }
+  ],
   "identity": {
     "key_id": "site.viseu-promptugal",
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "No AI company or startup headquartered in Viseu that we could source. Local firms appear only as event organisers or speakers (CESAE Digital, SOFTINSA, FINDMORE), and no page we opened states a base in Viseu for them. A business directory of the district and the AIRV incubator's member list are the sources to look for.",
-    "The council's own news and agenda pages (cm-viseu.pt) answered 403 to us, as did Jornal do Centro and the council's AI4PA project sheet, so council news and the sums it holds are not read. We know of the AI4PA link only through digital.gov.pt, UNU-EGOV and a search result for the council's news page.",
-    "No RSS or Atom feed found for any Viseu source. The polytechnic's news page showed none and the press sites were not checked for feeds.",
-    "The RTP page on RISKMAP shows no publication date, only that the presentation was on a Friday, so the news item carries the year only.",
+    "No AI company or startup headquartered in Viseu that we could name. The STAR Institute says one startup on its premises is tied to AI and one to cybersecurity, but none of its pages we opened names them. The AIRV incubated-firms page loaded with no readable names. The STAR associates page and the AIRV member list are the sources to read next.",
+    "Council news now loads and carries no AI item since the February 2025 AI4PA event. Its RSS address answers with an empty template, so there is no working council feed. The council's AI4PA project sheet was not read.",
+    "RiskMap's RTP page shows no publication date, only that the presentation was on a Friday, so the news item carries the year only.",
     "Critical Software (320,000 euros and about 200 future jobs, 27 November 2025), UAVision (up to 5 million euros for a high-altitude unmanned aircraft system, 15 September 2026) and Empowered Startups (an agreement with the polytechnic, September 2025) all invest or partner in Viseu, but the pages we read do not mention AI, so they are left off the map.",
-    "ViTeB, a PRR-funded test bed in Viseu run by a Visabeira group company, is said in a search summary to host AI, IoT and robotics projects, but the only page that said so is an event listing on a site we do not read. It needs a source from Visabeira or the national test bed network.",
-    "The rename of the polytechnic to Universidade Politécnica de Viseu is shown by its own site and by a press report of 22 August 2026, but we did not find the official decree, so we say 'branded' and keep the old name.",
-    "No upcoming Viseu AI event found after 29 October 2026. Organisers to watch: CESAE Digital, the polytechnic, AIRV and CIM Viseu Dão Lafões.",
-    "Investors: only public programme money is sourced (RiskMap's EU regional funding, shown in the project sheet). We found no private funding round for a Viseu AI company.",
-    "Not yet looked for: the district hospital's AI use, other university research units (CISeD appeared in a search but we did not open a page on it), the Observatório Beira's AI debate (named in an opinion column, no date or page opened) and the district's other municipalities."
+    "ViTeB's PRR sheet ends on 15 June 2026 and its site shows no news since 2023, so whether the test bed still takes projects is not confirmed. Its Visa AI project page was not opened.",
+    "CISeD's page shows partners and research lines but no AI project. A search summary mentions machine learning projects, which we did not read on a page of its own.",
+    "No upcoming Viseu AI event found after 29 October 2026. Organisers to watch: CESAE Digital, the polytechnic, STAR Institute, AIRV and CIM Viseu Dão Lafões.",
+    "Investors: only public programme money is sourced (RiskMap's EU regional funding, the PRR for STAR and ViTeB, the Viseu Investe scheme). No private funding round for a Viseu AI company found.",
+    "Start a company: we did not open pages for Startup Portugal's national programmes, the Empresa na Hora counter or the CIM's incubator network and social innovation incubator (found in a search, not opened), so those routes are not listed. The council's V21 technology incubation centre appeared only in a 2020 article, so its status is unknown.",
+    "IBM, Bizdirect and Softinsa appear as investors or partners in Viseu on the council and CISeD pages, but no page we opened ties them to AI work in Viseu, so they are not on the map.",
+    "Not yet looked for: the Observatório Beira's AI debate (named in an opinion column, no page opened), the AI4PA hub's later sessions, and the district's other municipalities. The STAR Institute's own project list loads as headings only.",
+    "Talent: no people listed. We listed institutions only and did not find a public profile of a Viseu AI practitioner who has agreed to be named."
   ],
   "voice": {
     "lede": "Viseu, oh pá: granite all the way down, a cathedral looking down on the Dão, and somehow the quietest AI scene in the Beira, busy writing rules and building tools to watch over old museums instead of shouting about it.",
@@ -270,6 +441,54 @@
       "source_url": "https://startupportugal.com/we-offer-a-complete-ecosystem-straight-from-airv-business-incubator/",
       "read_on": "2026-11-16",
       "kind": "incubator"
+    },
+    {
+      "name": "Câmara Municipal de Viseu: Gabinete do Investidor (Viseu Investe)",
+      "what": "The council's investor office offers a single qualified contact point, a simplified process and ongoing follow-up for productive investment projects in all sectors. A funding scheme for municipal economic initiatives (regulation and application form) sits under Viseu Investe.",
+      "url": "https://www.cm-viseu.pt/pt/areas-servicos/apoio-as-empresas/gabinete-do-investidor/",
+      "source_url": "https://www.cm-viseu.pt/pt/areas-servicos/apoio-as-empresas/gabinete-do-investidor/",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Área de Acolhimento Empresarial de Lordosa",
+      "what": "Council business park whose lots are to be sold by public auction soon. The page publishes the regulation and the first-phase plan and says more information will follow.",
+      "url": "https://www.cm-viseu.pt/pt/areas-servicos/apoio-as-empresas/area-de-acolhimento-empresarial-de-lordosa/",
+      "source_url": "https://www.cm-viseu.pt/pt/areas-servicos/apoio-as-empresas/area-de-acolhimento-empresarial-de-lordosa/",
+      "read_on": "2026-11-16",
+      "kind": "space"
+    },
+    {
+      "name": "STAR Institute: technology services and startup space",
+      "what": "The centre says it serves companies with product and process development, automation, robotics and AI services, and that a spin-off and two startups are installed in its building. Its pages give no application route for new startups.",
+      "url": "https://starinstitute.pt/oferta/",
+      "source_url": "https://starinstitute.pt/noticias/inauguracao-do-centro-de-tecnologia-e-inovacao-do-star-institute/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "ViTeB test bed (Visabeira I&D)",
+      "what": "A pre-industrial test bed for SMEs and startups to develop and test products, with AI among its thematic areas. Its contact page offers a web form.",
+      "url": "https://vitebtestbed.com/en/contacts",
+      "source_url": "https://vitebtestbed.com/en/communication/communication-list/national-test-beds-network",
+      "read_on": "2026-11-16",
+      "kind": "space"
+    },
+    {
+      "name": "UPV Gabinete de Transferência de Tecnologia and INOVC+",
+      "what": "The university's technology transfer office runs the INOVC+ ignition and proof-of-concept contest. Its third edition funded four projects on 21 July 2026 (UVC drying, 3D printing, wool insulation, foundry sand). None is about AI.",
+      "url": "https://univiseu.pt/conhecidos-os-projetos-distinguidos-na-3-a-edicao-do-concurso-de-projetos-de-ignicao-e-provas-de-conceito/",
+      "source_url": "https://univiseu.pt/conhecidos-os-projetos-distinguidos-na-3-a-edicao-do-concurso-de-projetos-de-ignicao-e-provas-de-conceito/",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    },
+    {
+      "name": "AIRV: association and business parks",
+      "what": "The business association says it has over 500 member firms, 25 or more incubated firms, legal services, training and rented space. It was founded in 1982.",
+      "url": "https://airv.pt/",
+      "source_url": "https://airv.pt/",
+      "read_on": "2026-11-16",
+      "kind": "community"
     }
   ],
   "investors": [
@@ -283,6 +502,66 @@
       "amount": "208,202.40 euros",
       "date": "2025-10-01",
       "ai_path": "Funds an AI tool for heritage building risk: directly about AI."
+    },
+    {
+      "name": "PRR (Recovery and Resilience Plan) into the STAR Institute building",
+      "what": "Observador reports 3.5 million euros from the PRR for the building of the STAR Institute, which also reports a consortium of 36 entities. The 5 million euro total in some press is not on the pages we opened.",
+      "url": "https://observador.pt/2026/05/22/montenegro-diz-que-star-institute-em-viseu-e-modelo-do-que-o-governo-tem-para-o-pais/",
+      "source_url": "https://observador.pt/2026/05/22/montenegro-diz-que-star-institute-em-viseu-e-modelo-do-que-o-governo-tem-para-o-pais/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "3.5 million euros",
+      "date": "2026-05-22",
+      "ai_path": "Paid for the building of a centre with AI as a focus area: one step from AI."
+    },
+    {
+      "name": "PRR into ViTeB (Visabeira I&D TestBed)",
+      "what": "Transparency portal sheet: 5.58 million euros total, all non-repayable, 3.94 million paid at the time of reading, running from 1 September 2022 to 15 June 2026, under digital transition of companies.",
+      "url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/03/C16-i02/2022.PC654786614-00000641/",
+      "source_url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/03/C16-i02/2022.PC654786614-00000641/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "5.58 million euros",
+      "date": "2022-09-01",
+      "ai_path": "Funds a test bed whose first listed competence is AI: one step from AI."
+    },
+    {
+      "name": "PRR into the ULS Viseu Dão-Lafões imaging equipment",
+      "what": "5.8 million euros contracted for heavy medical equipment and a surgical robot, with AI tools in the imaging systems where applicable.",
+      "url": "https://www.diarioviseu.pt/2026/09/08/capacidade-de-imagiologia-reforcada-na-uls-viseu-dao-lafoes/",
+      "source_url": "https://www.diarioviseu.pt/2026/09/08/capacidade-de-imagiologia-reforcada-na-uls-viseu-dao-lafoes/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "5.8 million euros",
+      "date": "2026-09-08",
+      "ai_path": "Pays for scanners with built-in AI features: one step from AI."
+    },
+    {
+      "name": "Viseu Investe (municipal programme)",
+      "what": "Council programme since 2014 to attract investment, with a regulation and application form for economic initiatives of municipal interest. The page claims 22 investments worth 132 million euros.",
+      "url": "https://www.cm-viseu.pt/pt/municipio/programas-municipais/viseu-investe/",
+      "source_url": "https://www.cm-viseu.pt/pt/municipio/programas-municipais/viseu-investe/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "ai_path": "General investment support with no AI focus on the page: two steps from AI, only through firms that might use it."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Viseu, Gabinete do Investidor",
+      "what": "The council's published channel for investors, with an enquiry form and a published office email and phone.",
+      "url": "https://www.cm-viseu.pt/pt/areas-servicos/apoio-as-empresas/gabinete-do-investidor/",
+      "source_url": "https://www.cm-viseu.pt/pt/contatos/",
+      "read_on": "2026-11-16",
+      "channel": "the investor office's email and phone, published on the council's Contactos page and on its Gabinete do Investidor page (open the linked page for the address)"
+    },
+    {
+      "name": "Câmara Municipal de Viseu, general",
+      "what": "The council's published general email and phone.",
+      "url": "https://www.cm-viseu.pt/pt/contatos/",
+      "source_url": "https://www.cm-viseu.pt/pt/contatos/",
+      "read_on": "2026-11-16",
+      "channel": "the council's general email and phone, published on its Contactos page (open the linked page for the address)"
     }
   ]
 }
