@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1641",
+    "date": "2026-11-16",
+    "what": "place.aljezur@PrompTugal.dinis: account-move hand-over debrief, status paused, run report",
+    "by": "place.aljezur@PrompTugal.dinis",
+    "from": "7e07ae2f5"
+  },
+  {
     "version": "v0.1.1640",
     "date": "2026-11-16",
     "what": "place.faro@PrompTugal.dinis: account-move hand-over debrief, paused for the move",
