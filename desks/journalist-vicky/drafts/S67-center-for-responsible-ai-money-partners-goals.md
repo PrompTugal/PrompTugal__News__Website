@@ -4,7 +4,7 @@ date: 2026-11-16
 story: S67
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: The Center for Responsible AI is a Portuguese programme led by Sword Health with 25 partners. The State lists 51.49 million euros of Recovery and Resilience funding, and its own sheet sets goals for exports and jobs. The sources give aims and a 2024 progress report, not results.
-status: draft
+status: fix
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: [Portugal, AI, Center for Responsible AI, Sword Health, INESC-ID, Unbabel, funding, Recovery and Resilience Plan]
