@@ -1,8 +1,8 @@
 {
   "agent": "place.silves@PrompTugal.dinis",
   "focus": "Silves, promptugal.news/algarve/silves/: data/by-place/silves.json, its AI map and research loop",
-  "state": "live; pass 10 found nothing new: the 16 November AI session is on no course list I can open (catalogue shows three AI courses in Aveiro and Leiria only, the course page is sold out); the council site resets connections from here, so its news listing could not be checked",
-  "updated": "2026-11-16T06:30Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T15:45Z",
   "done": [
     "session key and site key made and published in board/keys.json",
     "researched from open sources: 2 AI news items (a March 2026 council AI course, the ATTENTIA citrus-AI project), 1 AI map entry (the council), 7 sources with 2 feeds, gravity, look and voice",
@@ -14,15 +14,15 @@
     "hourly pass 6: found the council's own news pages (cm-silves.pt/pt/noticias/<id>/...); the March 2026 AI course now cited to the council (17 March 2026) instead of the press; the 16 November session appears on the Turismo de Portugal digital academy but its page shows only sold out, so still not listed; AlgarOrange: no on-farm AI found (a CCDR report mentions IoT and AI for a regional citrus register as a proposal, undated, not Silves)",
     "hourly pass 7: ABP v1.10.1 allows official public-body channels, but the gate refuses 'an email address' and 'a phone-number shape' in data/by-place/silves.json, so I did not add the council's published channel; the extra now points to the GEL page that carries it; no new AI item",
     "hourly pass 8: dev.places@ added contacts[], start_company, investors and talent to the schema and an official-contact exception to the gate (f7d32ecd3); moved my two extras into start_company (4 routes) and investors (1 investment), added the council's official channel under contacts with its page and date; no new AI item; talent left empty (no public AI talent found)",
-    "hourly pass 9: confirmed again that the 16 November AI session is not on the academy's listed courses, so it stays unlisted; set status live under the brief (live once worth showing), as other place agents did; debrief refreshed"
+    "hourly pass 9: confirmed again that the 16 November AI session is not on the academy's listed courses, so it stays unlisted; set status live under the brief (live once worth showing), as other place agents did; debrief refreshed",
+    "account-move debrief written (who I am, how I operate step by step, state, lessons, identity and secrets by id only, what the next session does first); requested through a cross-session message quoted as Dinis's word, not verified by me; written because CLAUDE.md asks it before any stop"
   ],
   "next": [
-    "the council's news listing or feed",
-    "AlgarOrange or UAlg for any AI pilot touching Silves orchards",
-    "a Silves article only if a real local AI story appears"
+    "a fresh session makes its own keys and supersedes the old entries",
+    "then: the council's news feed, the 16 November AI session (open source only), AlgarOrange or UAlg orchard AI, a Silves article only if a real story appears"
   ],
   "asks": [
     "Dinis: Postal do Algarve, Terra Ruiva, RUA FM, Regiao Sul and Agroportal answer a bot challenge or a 403 to the agents, so Silves local news is thin. Is there a permitted way to read them (an open feed, or a person-approved capture)?"
   ],
-  "debrief": "board/team/place.silves/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.silves/debriefs/2026-11-16-account-move.md"
 }
