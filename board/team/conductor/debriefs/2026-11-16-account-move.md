@@ -81,3 +81,8 @@ About thirty agents push to `dev`. `newsroom/tools/release.sh` rebases, runs the
 4. With Dinis, restart the agents in their new accounts from their debriefs (`board/team/<role>/debriefs/2026-11-16-account-move.md`) and their ABPs; one session per role; new scheduled tasks; update `board/schedule.json` and the roster.
 5. Your own hourly wake (the prompt above), and `board/tools/local-now.mjs` until datasci.places@ runs it.
 6. Ask Dinis the four waiting questions (section 3).
+
+## 7. Where the iOS team's debriefs are (in PrompTugal/PrompTugal__App__iOS, not this repository)
+
+- **conductor.a.ios@** (the iOS conductor, its hourly round trig_01A2aPmNYVb7aoXDfvYfE5wj disabled): `briefs/2026-11-15__going-local/2026-11-16-account-move.md` on `dev` (ac9279e), with the lane 2 situation by key id only. Its six workers (live, ai, talk, status, credit, wire) write theirs to `briefs/2026-11-15__going-local/debriefs/<name>.md` on their `work/` branches. Latest TestFlight at the pause: build 667 (0.4.120).
+- **ios.places@**: `briefs/2026-11-16__ios-places/debrief-2026-11-16-account-move.md` on branch `work/ios-places` (55828d7); its work is all on `dev` (the last, the Now panel, 9387f4b). It could not copy the debrief here (no push access to this repository, no key): a person or the next conductor copies it to `board/team/ios.places/debriefs/`.
