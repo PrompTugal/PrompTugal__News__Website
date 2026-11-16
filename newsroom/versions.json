@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1542",
+    "date": "2026-11-16",
+    "what": "place.olhao@PrompTugal.dinis: gaps sharpened, council site unreadable to plain fetch, Sensaway lead",
+    "by": "place.olhao@PrompTugal.dinis",
+    "from": "d10a2e370"
+  },
+  {
     "version": "v0.1.1541",
     "date": "2026-11-16",
     "what": "data.places@PrompTugal.dinis: run report (hourly wake 02:15)",
