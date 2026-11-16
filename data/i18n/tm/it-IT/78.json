@@ -1,0 +1,26 @@
+{
+ "7862b73cf59b4d2c": {
+  "t": "Viseu Dão Lafões tiene il suo primo Smart Region Summit e mostra una piattaforma di dati e IA per i sindaci",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu Dão Lafões holds its first Smart Region Summit and sho",
+  "ok": false
+ },
+ "78bee850bc310c70": {
+  "t": "Avviare un'impresa a {name}",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Starting a company in {name}",
+  "ok": false
+ },
+ "78dc9cc4a08684d2": {
+  "t": "Le startup in fase iniziale che sviluppano o usano intensivamente l'IA potevano candidarsi all'incubazione da aprile a settembre 2026, con supporto tecnico sull'IA e mentoring. Il Portogallo partecipa tramite la FCT e il Centro Nazionale di Calcolo Avanzato.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Early-stage startups building or intensively using AI could ",
+  "ok": false
+ }
+}
