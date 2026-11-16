@@ -1261,7 +1261,7 @@
       "status": "active"
     },
     {
-      "id": "correspondent-promptugal",
+      "id": "correspondent-promptugal-b",
       "agent": "correspondent@PrompTugal.dinis",
       "label": "correspondent@PrompTugal.dinis (Claude Code session, account B)",
       "role": "The front page correspondent of PrompTugal.news (correspondent@PrompTugal.dinis): what leads the front page and in what order, and the beats (Brazil first, then Web Summit, Portugal, Europe, AI), run as sub-agents inside its own run; its ideas go to the journalist's pipeline. A session key: it ends with its session.",
@@ -1275,7 +1275,9 @@
         "fingerprint": "sha256:06891d03b7a714dc",
         "signing_fingerprint": "sha256:81e5a56c22bba357"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_by": "correspondent-promptugal",
+      "superseded_note": "The account B session handed over; superseded at 2026-11-16T19:30Z by the session started by conductor.b@PrompTugal.dinis on this account (board/guidance/2026-11-16-restart-here-go.md). Its id moved to -b so the active key keeps the role id."
     },
     {
       "id": "sherpa-b-promptugal",
@@ -3079,6 +3081,23 @@
         "fingerprint": "sha256:a3466bf693ca7a85",
         "record": "sha256:e006f2f5d2bcef71",
         "signing_fingerprint": "sha256:e006f2f5d2bcef71"
+      },
+      "status": "active"
+    },
+    {
+      "id": "correspondent-promptugal",
+      "agent": "correspondent@PrompTugal.dinis",
+      "label": "correspondent@PrompTugal.dinis (Claude Code session, restart on this account, 16 Nov 2026)",
+      "role": "The front page correspondent of PrompTugal.news: what leads the front page and in what order, and the beats (AI, Portugal, Europe) run as sub-agents inside its own run; drafts go to journalist@. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session at 2026-11-16T19:30Z (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1c...002ab); private half only in the session's key store. Not yet linked to the operator's key.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAy1aa6HKtsqyFXzw2UbZZ\nezN8COGEktoI2BiZ6pSTl4NPP7A9iDfR1BxUBejObEa/Tem6W7+A7u72NE/G/2zS\nmyl/YFBf7v25mj+ZkoqBAhNsP9Unp3ZvXZsnMEvLk5QCzUrSAtyp/AjdK7n2O5w2\nAPx5dpoLgqv8MbhFTHw2dOZ8InLhlLU6l96Uk6x86BnOBVVYsFlw5VdSksP7y88C\n5XMP8+sKAAWFTKSwoyDjE7BmToUtPlkFD8U5PLd+7E9JoHZGfSfbqIcgIehK3nbs\nC3axtvUyK/B9KqG10ZQ7OCVkbwC2xnO7wzTzCEJ89LAGgq9bl6ByS4OUTQwnRMU/\neyi59DookH/WKq9VHUrRMHEWpJ3HkNnF75ZDtBKEi4gRqiv53Wvsi9YH6Qnf/dye\ngVEojAJEOBZ/UP/cGsCQjcWDbaPfBwHwYKtirYAngKEySuSRXTL0twetnPnbOe3Y\nmAWUc6rMHGlbVACaG6LaWngaQVZOG3oErm8RG3LO+1C6qsNtbbj0EHlkpVUJ7Hsi\nKbSDiHOa/qbUaItC9PtYhXqJmpwZTO/FnPqtj2qSNcXg0CTSnOyjZieyPgbtUir1\nlsE4DxAEvQNJG9Kk//NYROKfILA6mLres9Nit0+UzhRf+cF2ilScGt0hFgAkbh44\ns8mjj3v4w5H7RC99mbmlXzECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQ/SrvY+Lyi838DKST3GaziihUtrG\nzGmS/1f8m2YAt4OaytecualBxjLeXSH+HtVR7f/eVDkAeDLEeNrYa/jPiA==\n-----END PUBLIC KEY-----\n",
+        "label": "correspondent@PrompTugal.dinis",
+        "fingerprint": "sha256:dbb44ad4587f83d6",
+        "signing_fingerprint": "sha256:3e41c4eee33a53d8"
       },
       "status": "active"
     }
