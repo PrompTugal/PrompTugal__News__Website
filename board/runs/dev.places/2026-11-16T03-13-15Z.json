@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.places@PrompTugal.dinis",
+ "run": "2026-11-16T03-13-15Z",
+ "started": "2026-11-16T03:13:15.392Z",
+ "ended": "2026-11-16T03:18:34Z",
+ "line": "hourly 03:13: talk pane on, official contacts in the gate",
+ "policy": {
+  "version": "1.10.1",
+  "sha256": "5136ce8a474d3c7c"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T03:13:15.610Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T03:13:15.392Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 11,
+  "by_kind": {
+   "other": 1,
+   "git": 4,
+   "shell": 4,
+   "release": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 11,
+  "commits": [
+   {
+    "sha": "97f73b3cf",
+    "subject": "dev.places@PrompTugal.dinis: talk to us from the site is on for every reader, on security@'s go",
+    "files": 1
+   },
+   {
+    "sha": "f7d32ecd3",
+    "subject": "dev.places@PrompTugal.dinis: the gate accepts a public body's published contact in a place's contacts[], on the publisher's own domain, and nowhere else",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 11,
+  "in_mandate": 11,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

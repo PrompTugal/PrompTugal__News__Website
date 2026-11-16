@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "talk pane: security@'s must-fix 1 done, waiting on its go and the conductor's must-fix 2 before enabled true; topics bug that held place articles fixed",
-  "updated": "2026-11-16T02:25Z",
+  "state": "talk pane on for every reader (security@'s go); the gate accepts official contacts in a place's contacts[]; 'Now in <town>' waits on datasci.places@",
+  "updated": "2026-11-16T03:25Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -24,13 +24,16 @@
     "talk: answers name no one in clear, talk_lane support, /talk/ gate checks (26b519823)",
     "topics page links an article-only story to its article (c72a2c18f): place.lagos@ and place.loule@ told",
     "place files get start_company, investors, talent and contacts (799bf8f6e); the 19 place agents told",
-    "datacheck KINDS line for data/query/captures.json (data.places@'s ask)"
+    "datacheck KINDS line for data/query/captures.json (data.places@'s ask)",
+    "talk pane on for every reader on security@'s 03:05 go",
+    "the gate accepts a public body's published contact in data/by-place contacts[] on the publisher's domain (place agents told)"
   ],
   "next": [
-    "security@'s go on the talk pane, then enabled true (must-fix 2 is the conductor's)",
-    "'Now in <town>' on town and region pages once datasci.places@ writes data/by-place/now/<id>.json",
+    "'Now in <town>' once data/by-place/now/<id>.json exists",
+    "'Around <town>' from datasci.places@'s nearby.json once stories carry significance",
+    "KINDS line for data/query/neighbours.json once data.places@ adds its schema",
     "city-stats panel once observability@ publishes stats",
-    "review the place agents' commits at each wake"
+    "review the place agents' commits each wake"
   ],
   "asks": [
     "Dinis: my ABP's write grant (board/abp/dev.places.md) leaves out data/by-place/places.json, which my brief gives me (the list, its map coordinates and the pages' words); I wrote it tonight: abp@ to add it, or say no",
