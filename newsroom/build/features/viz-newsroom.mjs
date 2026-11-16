@@ -48,6 +48,8 @@ export function history(ctx, p) {
     return out
 }
 
+let CAPS = null
+const capUrls = ctx => CAPS || (CAPS = (() => { try { return new Set(arr(ctx.readJSON('data/query/captures.json').captures).filter(k => k && k.ok).map(k => k.url)) } catch { return new Set() } })())
 const relTime = (R, v) => { const r = R.releases.get(v); return r ? r.when : null }
 
 function stations(ctx, p) {
@@ -66,7 +68,7 @@ function stations(ctx, p) {
     const line = (k, v) => W(L[k], v)
     const st = {
         read: { big: sources.length, lines: [runs.web ? line('pages_read', { n: runs.web }) : null, line('hosts', { n: hosts.size }), asks.length ? line('blocked', { n: asks.length }) : null] },
-        capture: { big: items.length + extras.length, lines: [line('news', { n: news.length }), line('map', { n: map.length }), events.length ? line('events', { n: events.length }) : null, extras.length ? line('extras', { n: extras.length }) : null, reads.length ? line('read_span', { from: reads[0], to: reads[reads.length - 1] }) : null, L.screens] },
+        capture: { big: items.length + extras.length, lines: [line('news', { n: news.length }), line('map', { n: map.length }), events.length ? line('events', { n: events.length }) : null, extras.length ? line('extras', { n: extras.length }) : null, reads.length ? line('read_span', { from: reads[0], to: reads[reads.length - 1] }) : null, (() => { const n = items.filter(x => capUrls(ctx).has(x.url) || capUrls(ctx).has(x.source_url)).length; return n ? line('screens_n', { n, of: items.length }) : L.screens })()] },
         test: { big: passed, lines: [...steps.map((n, k) => n ? line('steps', { n, label: L.step_labels[k] }) : null), nopath ? line('nopath', { n: nopath }) : null, line('gaps', { n: arr(d.gaps).length })] },
         write: { big: 7, lines: [L.sections, line('voice', { state: d.voice && Object.keys(d.voice).length ? 'written' : 'not yet' }), line('articles', { n: (ctx.content || []).filter(c => c.meta && c.meta.town === p.id && c.rel.startsWith('articles/')).length })] },
         check: { big: 2, lines: [L.gate, line('signature', { state: site ? (C.sig_states[site.signature] || site.signature) : '?' }), site && site.site_key ? line('identity', { key: site.site_key }) : null, ak ? line('agent_key', { key: ak.id }) : null] },
@@ -279,6 +281,45 @@ function nowTwin(ctx) {
     return nowRows(ctx).map(({ t, d, n }) => W(C.nowmap_twin, { name: ctx.md.cell(t.name), max: d.t_max_c, min: d.t_min_c, rain: d.rain_prob_pct, fplace: ctx.md.cell(n.forecast.place), km: n.forecast.km })).join('\n')
 }
 
+// the region map's borders and arcs (board/briefs/2026-11-16-every-story-has-an-address.md, item 6): grey shared
+// borders from data.places@'s adjacency, red arcs for the sourced connections between towns in connections.json
+let CONN = null
+const conns = ctx => CONN || (CONN = (() => { try { return arr(ctx.readJSON('data/by-place/connections.json').links) } catch { return [] } })())
+function arcPairs(ctx) {
+    const out = []
+    for (const l of conns(ctx)) {
+        if (!okUrl(l.source_url)) continue
+        const ids = [...new Set([l.from && l.from.place, l.to && l.to.place, ...arr(l.places)].filter(id => id && placesAt(ctx).has(id)))]
+        for (let i = 0; i < ids.length; i++) for (let j = i + 1; j < ids.length; j++) out.push({ a: ids[i], b: ids[j], l })
+    }
+    return out
+}
+function borderPairs(ctx) {
+    const G = geo(ctx), ids = [...placesAt(ctx).keys()], out = []
+    for (let i = 0; i < ids.length; i++) for (let j = i + 1; j < ids.length; j++) if (G.adj(ids[i], ids[j])) out.push([ids[i], ids[j]])
+    return out
+}
+function arcsHtml(ctx, region) {
+    const T = tmpl(ctx, NT), C = copy(ctx), P = proj(ctx), xy = id => { const a = placesAt(ctx).get(id).at; return [P.X0(a[0]), P.Y0(a[1])] }
+    const B = borderPairs(ctx), A = arcPairs(ctx)
+    let body = P.land
+    for (const [a, b] of B) { const [x1, y1] = xy(a), [x2, y2] = xy(b); body += `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" class="vz-arc-border"/>` }
+    const seen = new Map()
+    for (const { a, b, l } of A) {
+        const k = [a, b].sort().join('|'), n = (seen.get(k) || 0) + 1; seen.set(k, n)
+        const [x1, y1] = xy(a), [x2, y2] = xy(b), mx = (x1 + x2) / 2, my = (y1 + y2) / 2, dx = x2 - x1, dy = y2 - y1, len = Math.hypot(dx, dy) || 1
+        const lift = 0.22 * len + 14 * (n - 1)
+        const cx = mx - dy / len * lift, cy = my + dx / len * lift - 0
+        body += tf(T.arc, { href: X(l.source_url), title: X(`${trim(l.what || '', 200)} (${(l.from && l.from.name) || ''} and ${(l.to && l.to.name) || ''}; read ${l.read_on || '?'})`), d: `M${x1.toFixed(1)} ${y1.toFixed(1)}Q${cx.toFixed(1)} ${cy.toFixed(1)} ${x2.toFixed(1)} ${y2.toFixed(1)}` })
+    }
+    for (const [id, at] of placesAt(ctx)) { const [x, y] = xy(id), t = places(ctx).find(p => p.id === id); body += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="5" class="vz-arc-seat" fill="${X(t ? t.accent : '#1f5f3f')}"/><text x="${x.toFixed(1)}" y="${(y + 18).toFixed(1)}" text-anchor="middle" class="vz-am-label">${X(t ? t.name : id)}</text>` }
+    return tf(T.arcs, { w: P.w, h: P.h, aria: X(C.arcs_aria), body, caption: X(W(C.arcs_caption, { borders: B.length, arcs: A.length, links: conns(ctx).length })) })
+}
+function arcsTwin(ctx) {
+    const C = copy(ctx), c = s => ctx.md.cell(String(s ?? '')), nm = id => (places(ctx).find(p => p.id === id) || {}).name || id
+    return arcPairs(ctx).map(({ a, b, l }) => W(C.arcs_twin, { a: c(nm(a)), b: c(nm(b)), what: c(trim(l.what || '', 160)), url: l.source_url.trim().replace(/\(/g, '%28').replace(/\)/g, '%29'), read: c(l.read_on || '?') })).join('\n')
+}
+
 // the region's newsroom: every town's loop side by side
 function townsBoard(ctx, region) {
     const C = copy(ctx), c = s => ctx.md.cell(String(s ?? '')), rel = newsroomRel(region)
@@ -300,6 +341,7 @@ function page(ctx, p) {
     md += `## ${C.h_flow} {#flow}\n\n::: vz-stations-slot\n${list.map(s => `- **${s.n}. ${c(s.label)}: ${c(s.big)} ${c(s.unit)}.** ${s.lines.map(c).join('; ')}`).join('\n')}\n:::\n\n`
     if (placesAt(ctx).has(p.id)) md += `## ${W(C.h_blast, { name: p.name })} {#blast}\n\n${W(C.blast_intro, { name: p.name })}\n\n::: vz-blast-slot\n${blastTwin(ctx, p)}\n:::\n\n`
     if (p.id === 'algarve' && nowRows(ctx).length) md += `## ${C.h_nowmap} {#now}\n\n${C.nowmap_intro}\n\n::: vz-nowmap-slot\n${nowTwin(ctx)}\n:::\n\n`
+    if (p.id === 'algarve') md += `## ${C.h_arcs} {#arcs}\n\n${C.arcs_intro}\n\n::: vz-arcs-slot\n${arcsTwin(ctx) || '-'}\n:::\n\n`
     if (p.id === 'algarve') md += `## ${C.h_tree} {#tree}\n\n${C.tree_intro}\n\n::: vz-tree-slot\n${treeTwin(ctx)}\n:::\n\n`
     if (p.id === 'portugal') md += `## ${C.h_agentmap_pt} {#agentmap}\n\n::: vz-agentmap-slot\n${places(ctx).filter(t => t.kind !== 'country' && t.kind !== 'region').map(t => `- ${c(t.name)}: ${c(short(t.agent.toLowerCase()))}`).join('\n')}\n:::\n\n`
     if (p.id === 'algarve') md += `## ${C.h_agentmap} {#agentmap}\n\n::: vz-agentmap-slot\n${places(ctx).filter(t => placesAt(ctx).has(t.id)).map(t => `- ${c(t.name)}: ${c(short(t.agent.toLowerCase()))}`).join('\n')}\n:::\n\n` + townsBoard(ctx, p)
@@ -327,6 +369,7 @@ function page(ctx, p) {
             html = html.replace(/<div class="vz-chart-slot">[\s\S]*?<\/div>/, () => chart(ctx, p, H))
             html = html.replace(/<div class="vz-blast-slot">[\s\S]*?<\/div>/, () => blastHtml(ctx, p))
             html = html.replace(/<div class="vz-nowmap-slot">[\s\S]*?<\/div>/, () => nowMapHtml(ctx, p))
+            html = html.replace(/<div class="vz-arcs-slot">[\s\S]*?<\/div>/, () => arcsHtml(ctx, p))
             html = html.replace(/<div class="vz-tree-slot">[\s\S]*?<\/div>/, () => treeHtml(ctx))
             if (p.id === 'algarve' || p.id === 'portugal') html = html.replace(/<div class="vz-agentmap-slot">[\s\S]*?<\/div>/, () => agentMap(ctx, p, p.id === 'portugal'))
             html = html.replace(/<div class="vz-run-slot">[\s\S]*?<\/div>/, () => runHtml(ctx, p, H))

@@ -252,3 +252,14 @@ a.vz-member:hover { border-color: var(--ink-3); }
 .vz-nowmap .vz-now-r { font: 500 10.5px var(--mono); fill: var(--ink-2); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; }
 .vz-nowmap .vz-am-label { font: 600 12px var(--sans); fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; }
 .vz-nowmap figcaption { font: 400 12.5px/1.5 var(--sans); color: var(--ink-3); }
+.vz-arcs { margin: 6px 0 22px; }
+.vz-arcs svg { display: block; max-width: 100%; height: auto; background: color-mix(in srgb, #3b82c4 9%, var(--paper)); border-radius: 6px; }
+.vz-arcs .vz-am-land.pt { fill: var(--panel); stroke: var(--rule-2); stroke-width: 1; }
+.vz-arcs .vz-am-land.es { fill: var(--paper-2); stroke: var(--hair); stroke-width: 1; }
+.vz-arcs .vz-arc-border { stroke: #9aa3ad; stroke-width: 2; opacity: .7; }
+.vz-arcs .vz-arc { fill: none; stroke: var(--brand-red); stroke-width: 2.4; opacity: .75; }
+.vz-arcs a:hover .vz-arc { stroke-width: 4; opacity: 1; }
+.vz-arcs .vz-arc-seat { stroke: var(--ink); stroke-width: 1; }
+.vz-arcs .vz-am-label { font: 600 12px var(--sans); fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; }
+.vz-arcs figcaption { font: 400 12.5px/1.5 var(--sans); color: var(--ink-3); }
+.vz-proof { font: 400 14.5px/1.55 var(--sans); } .vz-proof li { margin: 3px 0; } .vz-proof code { font-size: 12px; }

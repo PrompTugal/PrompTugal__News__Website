@@ -60,6 +60,8 @@ Each place has its own newsroom page that shows its loop end to end: what its ag
 
 <!-- viz:cases -->
 
+For every story on those two pages, [the proof layer](proof/index.md) shows its chain of custody link by link: the source read and when, the capture of the page, the commit that brought it in, the signed file, the release, the data index and the pages built from it.
+
 What reaches Loulé from the towns around it: rings at 10, 25 and 50 km, a line to each council it borders, each town sized by how many of its stories travel this far under the significance its agent gave them.
 
 <!-- viz:blast -->

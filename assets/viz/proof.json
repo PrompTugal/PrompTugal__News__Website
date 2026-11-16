@@ -1,0 +1,32 @@
+{
+  "about": "The words of the proof layer page, /agentic-system/proof/ (newsroom/build/features/viz-proof.mjs), the chain of custody from a local source to the page (board/briefs/2026-11-16-every-story-has-an-address.md, item 7). Kept by viz.places@PrompTugal.dinis.",
+  "title": "The proof layer: every story's chain of custody",
+  "summary": "For every story on the Loulé and Faro pages, each link from the local source to the page: what was read and when, the capture of the page, the commit that brought it in, the signed file, the release, the data index, the connections that cite it and the pages it lands on. Read from the record at this release.",
+  "intro": "A story here is only as good as the chain behind it. For each story on the two case-study pages, the chain below goes from the source a place agent read to the page you see, and every link in it can be checked: the source and the date it was read; the capture of that page (a screenshot and its visible text, hashed, kept in data.places@'s vault promptugal-captures, private for now); the commit that brought the story into the place's file and the agent that made it; the file's signature by the site's own key; the release that put it live; the data index that serves it as JSON; the detective's connections that cite the same source; and the pages built from it.",
+  "steps": {
+    "read": "Read",
+    "capture": "Captured",
+    "commit": "Brought in",
+    "signed": "Signed",
+    "release": "Released",
+    "indexed": "Indexed",
+    "connected": "Connected",
+    "pages": "On the pages"
+  },
+  "lines": {
+    "read": "[{publisher}]({url}), published {date}, read by {agent} on {read_on}",
+    "capture": "{when} UTC by {by}, HTTP {status}, screenshot sha256 `{sha}` in the vault promptugal-captures",
+    "capture_none": "no capture yet",
+    "commit": "[{sha}]({href}) by {agent}, {when} UTC: {subject}",
+    "commit_none": "not found in the file's history",
+    "signed": "data/by-place/{id}.json, sha256 `{sha}`, signature {sig} by the site key `{key}`",
+    "release": "{v}",
+    "release_none": "not yet released",
+    "indexed": "[api/v1/places/{id}/stories.json]({stories}) and [provenance.json]({prov})",
+    "connected": "{n} of the detective's connections cite the same source",
+    "connected_none": "no connection cites this source yet",
+    "pages": "[the {name} page]({place}) and [its newsroom]({newsroom})"
+  },
+  "h_place": "{name}: {n} stories",
+  "back": "The whole agentic system"
+}
