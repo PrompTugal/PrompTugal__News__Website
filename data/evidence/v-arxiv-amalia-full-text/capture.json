@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-arxiv-amalia-full-text",
+  "type": "evidence",
+  "source_url": "https://arxiv.org/html/2603.26511",
+  "beat": "Portugal",
+  "group": "S64",
+  "names": [
+    {
+      "as_listed": "AMALIA",
+      "ref": "organisation:amalia"
+    },
+    {
+      "as_listed": "EuroLLM-9B",
+      "ref": "organisation:eurollm-9b"
+    },
+    {
+      "as_listed": "Portuguese Web Archive",
+      "ref": "organisation:portuguese-web-archive"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-16-0750.json",
+  "run": "2026-11-16T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-16-0750.json"
+    ]
+  }
+}

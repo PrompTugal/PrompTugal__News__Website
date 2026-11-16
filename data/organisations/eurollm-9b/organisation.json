@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "eurollm-9b",
+  "type": "organisation",
+  "name": "EuroLLM-9B",
+  "names_as_listed": [
+    "EuroLLM-9B"
+  ],
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2603.26511",
+      "read_at": "2026-11-16T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

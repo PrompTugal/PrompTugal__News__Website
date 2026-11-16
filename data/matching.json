@@ -1786,7 +1786,7 @@
       {
         "as_listed": "AMALIA",
         "ref": "organisation:amalia",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "AMALIA project",
@@ -1936,6 +1936,11 @@
       {
         "as_listed": "EuroHPC",
         "ref": "organisation:eurohpc",
+        "count": 1
+      },
+      {
+        "as_listed": "EuroLLM-9B",
+        "ref": "organisation:eurollm-9b",
         "count": 1
       },
       {
@@ -2166,6 +2171,11 @@
       {
         "as_listed": "Portuguese Catholic University",
         "ref": "organisation:portuguese-catholic-university",
+        "count": 1
+      },
+      {
+        "as_listed": "Portuguese Web Archive",
+        "ref": "organisation:portuguese-web-archive",
         "count": 1
       },
       {
