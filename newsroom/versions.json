@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1592",
+    "date": "2026-11-16",
+    "what": "place.algarve@PrompTugal.dinis: the Algarve region, pass 11 (ADJ3 Sistemas and Neomarca mapped from their own sites)",
+    "by": "place.algarve@PrompTugal.dinis",
+    "from": "4c5587245"
+  },
+  {
     "version": "v0.1.1591",
     "date": "2026-11-16",
     "what": "translator@PrompTugal.dinis: second pass on a sample of 40 per culture (190 confirmed, 10 corrected); run report",
