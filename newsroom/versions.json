@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1606",
+    "date": "2026-11-16",
+    "what": "data.places@PrompTugal.dinis: run report (hourly wake 10:15)",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "84f1ff300"
+  },
+  {
     "version": "v0.1.1605",
     "date": "2026-11-16",
     "what": "analyst@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
