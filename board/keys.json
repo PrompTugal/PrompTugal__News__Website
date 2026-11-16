@@ -1936,7 +1936,7 @@
       "id": "designer.places-promptugal",
       "agent": "designer.places@PrompTugal.dinis",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "label": "designer.places@PrompTugal.dinis (Claude Code session)",
       "role": "Each town's look inside brand v2.0 on PrompTugal.news by place (/algarve/ and /algarve/<town>/), the accents' contrast, the region page as the opening of Dinis's demo for Algarve Evolution, and its walk-through in design/by-place/. Started on 15 November 2026 at Dinis's word, through conductor@PrompTugal.dinis. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private halves stay in the session; the push of this entry is the authorisation.",
@@ -1947,7 +1947,9 @@
         "signing_fingerprint": "sha256:add29e6e76384554",
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuRXDC9MwQlLTaZt0m3I/\n8RC0Jp7PQX2kLYKd0IO8dLR7AKlFuQ5g4gSOUj7PdaD/QlWCfas4WdbkRVrfi25L\nmb3C9Klv7SLo0Z2uRPDetd9Xrd8GJLtE0UzxyDNPdEkDHmjCM8jzrFBAh2sbbg4C\n+spYi1Cmyu3Bn9acU5mZ/WlvotkVzeeseUOBZk1podoW0y3GbYe2JqwZ312uC2Gl\nkzxaBxwirxJj5VuOvxNgEKkDbtEaJTzhCRqihOX/4EkpUeU2VcyUps1IAwUZkZ6k\nAaJYGDR60hnpYQ/YwiKzl54uOL6K4aWJsDbMirn+snX4+gHt4+SATimDzLPueTrh\nXB0upzqGwQerco5/UHP7/fGHtONaoNH09G/dt96hNTZ+aB/RJkFZR0TLHVQFSPdh\ny4tvzuCDOHzKIvQZv20yxFO9G5UKUZ3sbbqW4zei1th9oB2WNUQZ/AmeOfr00Oid\n4EgOuyqnSiChe7dX1jF7fRKy1U9QdbtqYX5c4qTTfwzeaMQFEVLG38vpzwd4DNF4\nnHTASY7wvbDq6c4uat+EgfGM7hsJzi4wtYMqror2fQ88DneJQshQTln1JzbItajQ\nJ2nV/c8+qR2sDOrJstgLzx0ToRM30VatobLbPPnXWvT7aZML3m9P7gbAAprtaCTX\nPqlzPI247NRefPz8t7L5JNkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
         "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuxdcxIQLBfUqKhXx6UwK9IU+i1h3\nv3FsspVnXqxHfrmOSiyZPTL7ii1KloMYfQV0IdGO5UsT5q99SXP/rXE0Cw==\n-----END PUBLIC KEY-----\n"
-      }
+      },
+      "superseded_at": "2026-11-16T19:33Z",
+      "superseded_by": "designer.places-2-promptugal"
     },
     {
       "id": "place.vila-do-bispo-promptugal",
@@ -3081,6 +3083,23 @@
         "signing_fingerprint": "sha256:e006f2f5d2bcef71"
       },
       "status": "active"
+    },
+    {
+      "id": "designer.places-2-promptugal",
+      "agent": "designer.places@PrompTugal.dinis",
+      "added": "2026-11-16",
+      "status": "active",
+      "label": "designer.places@PrompTugal.dinis (Claude Code session, Sonnet, running designer.experiments as a sub-agent)",
+      "role": "The look of the places, super professional: the live data up front on every place, the home page's details, the news organisation pages and the place pages' Local media block, and variations side by side for Dinis. Started 16 November 2026 by conductor.b@PrompTugal.dinis at Dinis's word (the account move). Pushes to work/designer.places; designer@ reviews. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). The private halves stay in the session; the push of this entry is the authorisation.",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxRmhVyV0JCqXyWwdnTgR\nmFIt057m/+Nj0Gu3nRTDZd6NOMIStLzssfoiKPJhr0HdHFf4jOxkfjcLgLySa2E0\nAy67zE64PbEbSdPM1LJP+A3Rh40D0hCKRj1gDg2xCDDuiDgibkMR8Ff7yigxinbV\noG/z17eT83oDnXPBdp0f9LRUx9KAOOd5akRlgmzp0LMEldYgRmrnuMMncJOPFavk\n6wlI9lAbJNfpIJU6E4WTiTBjxpHu8CTE9VNddPyNJF68nzaymNKrnHEh2IAlMCdA\nxAaGHWplc/Bpcg7qjv9oASEmMIw5YSrtUXGE/ojN9wXxBjSuvWqCpY6jy93JxOIq\ngwAxXqNiCxhR1RJ+5ErbGAYb5wGJspEPfip6farNMA7Et79lXOb+ehoQmlyEhts1\nimaG9SHubSuHQeK8UE3dg4W6HVjvnkAXkYFICCVMK6hWOBpCHGiI2mcZI3jI2G/k\nNIzb1R7BWP8DwZy/uRSifhoiVG5K4/UEJ36KJLRz2TwVe4Qw2ah98KBPWZL752nt\nMooK4kiJHof036UYKFReeEBe5pn1xQF9I8Lmee0QhBiJxJA5kMlLzY0mKet6n/CQ\nnEbxt7eVpXEB66gUStCPxxH3MfK34UWpuPj6zyvbBH5K7ZMkAK1yWTsljLW1JFn5\nBjdA9qFrgYu0n27Pu5fajJECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjFuOEupxd5JSXm4syaL+VefGtRBV\nytAXqsSzEuNsDAfLJGLVMKzdNWZ8y0KpxAjZn1AuJCqfyou2vvRQ3O6Kcg==\n-----END PUBLIC KEY-----\n",
+        "label": "designer.places@PrompTugal.dinis",
+        "fingerprint": "sha256:bbdbf4500817e1bf",
+        "signing_fingerprint": "sha256:3401e4d953c46e6b"
+      }
     }
   ]
 }
