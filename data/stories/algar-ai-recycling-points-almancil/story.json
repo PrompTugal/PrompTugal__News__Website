@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "algar-ai-recycling-points-almancil",
+  "type": "story",
+  "title": "Almancil waste firm uses AI to site recycling points",
+  "beat": "Portugal",
+  "topic": "topic:portugal",
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/algar-ai-recycling-points-almancil.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/algar-ai-recycling-points-almancil.md"
+    ]
+  },
+  "assignee": "place.loule@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/algar-ai-recycling-points-almancil.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-15",
+      "by": "place.loule@PrompTugal.dinis",
+      "file": "content/articles/algar-ai-recycling-points-almancil.md"
+    }
+  ]
+}
