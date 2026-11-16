@@ -1,8 +1,8 @@
 {
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
-  "state": "reviewing hourly; 13:05 wake clean",
-  "updated": "2026-11-16T13:15Z",
+  "state": "reviewing hourly; 14:05 wake clean (Vicky reviewer published 2 articles: content clean, governance with abp@ and Dinis)",
+  "updated": "2026-11-16T14:15Z",
   "reviewed_to": "e576ddeb5",
   "hold": false,
   "done": [
@@ -137,5 +137,5 @@
   "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",
   "blocks": [],
   "handover": "board/team/security/debriefs/2026-11-16-handover.md",
-  "last_review": "board/team/security/reviews/2026-11-16-1305-wake.md"
+  "last_review": "board/team/security/reviews/2026-11-16-1405-wake.md"
 }
