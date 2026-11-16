@@ -35,7 +35,11 @@ made = 0
 for n in names:
     d = json.loads(subprocess.check_output(['git','show',f'{ref}:{n}'],text=True))
     i = d['id']; path = f'data/organisations/{i}/organisation.json'
-    if os.path.exists(path) and 'media' not in json.load(open(path)): print('skip (an organisation of another kind exists):', i); continue
+    if os.path.exists(path):
+        ex = json.load(open(path))
+        if 'media' not in ex: print('skip (an organisation of another kind exists):', i); continue
+        if 'converted by ontologist@' not in ex.get('note', ''): print('skip (written by hand or by another desk):', i); continue
+    if not d.get('website'): print('skip (no website recorded):', i); continue
     cov, fine = [], []
     for p in d['places_covered']:
         s = p['place'] if isinstance(p, dict) else p

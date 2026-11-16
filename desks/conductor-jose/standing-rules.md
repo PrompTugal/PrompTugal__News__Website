@@ -47,6 +47,10 @@ Jose's words, to this conductor: "say yes". Read by this conductor as his answer
 
 Asked "whether local@ now writes its media records in data/organisations/ itself or keeps handing them to ontologist@", Jose's word: "yes". Within the grant only: `data/organisations/*/organisation.json`, the media kind, ontologist@'s schema, never a record ontologist@ or researcher@ wrote beyond adding its own facts with source and date read (`board/abp/policies.json`, `external.by_agent`).
 
+## J10: this conductor is the main orchestrator of Jose's PrompTugal agents (Jose, 16 November 2026, about 23:05 UTC)
+
+Jose's words: "i want you to be the main orchestrater". In practice, and only inside Dinis's rules: Jose's agents (local@, writer@) read this file at every run and take from it the order of their work and Jose's answers; they put what they need from Jose in their own `status.json` asks, which this conductor gathers into one list for him; what needs Dinis's team goes through this desk's `requests/`. This conductor still starts, schedules, pauses and messages no session (R4): Jose starts each run by hand. That reading is this conductor's.
+
 ## Said by Jose and not recorded as a rule
 
 - "go for R4" (16 November 2026, about 21:55 UTC), on the network change he made by hand. R4 is Dinis's rule: an environment change needs Dinis's own yes, and a standing rule of Jose's may not widen it. The question is with Dinis (`requests/2026-11-16-conductor.b-four-questions-for-dinis.md`, point 1).

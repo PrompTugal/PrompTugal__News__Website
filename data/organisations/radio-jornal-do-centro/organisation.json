@@ -69,6 +69,11 @@
         "url": "https://www.radiojornaldocentro.pt/ficha-tecnica/",
         "read_at": "2026-11-16",
         "how": "ficha técnica; ERC 423283, founded 1990"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423283 for 'Rádio Jornal do Centro'. Outlet email column deliberately not recorded here."
       }
     ]
   },
@@ -77,6 +82,12 @@
       "url": "https://www.radiojornaldocentro.pt/ficha-tecnica/",
       "read_at": "2026-11-16",
       "how": "ficha técnica; ERC 423283, founded 1990",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423283 for 'Rádio Jornal do Centro'. Outlet email column deliberately not recorded here.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

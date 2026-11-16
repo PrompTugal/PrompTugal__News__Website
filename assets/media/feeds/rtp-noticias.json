@@ -1,0 +1,32 @@
+{
+ "id": "rtp-noticias",
+ "feed": "https://www.rtp.pt/noticias/rss",
+ "read_at": "2026-11-16T22:14Z",
+ "items": [
+  {
+   "title": "\"Não é a solução\". Sánchez critica plano europeu de deportar migrantes para o Ruanda",
+   "link": "https://www.rtp.pt/noticias/mundo/nao-e-a-solucao-sanchez-critica-plano-europeu-de-deportar-migrantes-para-o-ruanda_n1779632",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Sporting volta a golear e vence Grupo B da Taça Intercontinental de futsal",
+   "link": "https://www.rtp.pt/noticias/futsal/sporting-volta-a-golear-e-vence-grupo-b-da-taca-intercontinental-de-futsal_d1779634",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Medveded regressou sereno e com uma vitória às ATP Finals de ténis",
+   "link": "https://www.rtp.pt/noticias/outras-modalidades/medveded-regressou-sereno-e-com-uma-vitoria-as-atp-finals-de-tenis_d1779633",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Alemanha arrasa Países Baixos com goleada histórica",
+   "link": "https://www.rtp.pt/noticias/futebol-internacional/alemanha-arrasa-paises-baixos-com-goleada-historica_d1779626",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Ex-diretor da ULS de Aveiro ficou em prisão preventiva",
+   "link": "https://www.rtp.pt/noticias/pais/ex-diretor-da-uls-de-aveiro-ficou-em-prisao-preventiva_v1779631",
+   "date": "2026-11-16"
+  }
+ ]
+}
