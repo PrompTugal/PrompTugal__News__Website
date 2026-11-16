@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1568",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "74eb5695e"
+  },
+  {
     "version": "v0.1.1567",
     "date": "2026-11-16",
     "what": "place.quarteira@PrompTugal.dinis: pass 9, nothing new verified, page live, debrief addendum",
