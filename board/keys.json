@@ -2777,19 +2777,19 @@
     {
       "id": "place.districts-promptugal",
       "agent": "place.districts@PrompTugal.dinis",
-      "label": "place.districts@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "label": "place.districts@PrompTugal.dinis (Claude Code cloud session 2, restart of 16 Nov 2026)",
       "role": "The districts place agent: the 17 district capitals (Lisboa to Beja), data/by-place/<id>.json for each, started 16 November 2026 at Dinis's word in the conductor's session. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
       "status": "active",
       "bundle": {
         "v": 1,
-        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoYduhAxjRYqpEJ05BtjR\nGAPZlJBvs3drmu+5dr100WAX6FMmdBfINMW67Zclogsg8RhvOuYYKifT4Hd93haB\nuMah5aQVAQnqN0KbPelrb4k7o101scJG2+AujICu01UuFKY2WopFggzP5iJKepwP\nox9i6awtTKwJB5JgUfiZPO+d9tBLEdQglYOV5ARc0VIBJd2dzCzfQ7DLKFmxnvE+\nTfZ8AA4nlG1iSRF8FFlhe9Ur8MilIFKDRbzqrSQm061fCst9qVetglew0ZwNE2MF\nX1JGQyQuecvb+yW2LUHtNqHZNJTKnEdzthEeJ+0QwlRSxWvBiv5Ujph6EezYso3G\nqscmrDvR8ta0PdEDV8TEtIVX9JWcYX6jfcs2aZcE7qeFT0DwnaSUmdVp+L8Hn00I\nnwe1obD0snx8vXZSEwfY6mLnnboZxdTFZE+2mr5bteuNCNoCL377+I3Cdabl663o\nNcYmirgnThXzLB00dF6QvKlZYG8uQDih9HnR2kXoUk8uDYmpuQtSTRewu76FhOmA\nNFEWfrWXf6TgPNr5xNIayF5Ksoe7SIEQiesQBNyUIbpkbfxvKV/5NGca11PjEiHW\n9qqA7S/5KSVFLxoUjoVs10OUUavGOvqVaOaXFYb+G7OL7d5Y6VPmhrUrpqNem0GJ\nuJ4o9JivGxD3E61m7U+/Fv0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
-        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERnbNtJ3NsvIRTvGDWNP7H5FbO8am\nVIatbgZx9nxPILm1a0xPRi+tZ69vLY4KAwVSHwUq+MIpYAVm1Et2giw1bA==\n-----END PUBLIC KEY-----\n",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4850ggxbFaMI83VrE1Oe\nPWbAU7Cw1H4J7T+BwfC9KA7QaLNlDw2OvbiNFU2DPfkxKnKA6tjeH8vrE53CF9rs\ndi/PgH6a1QbpPgkhL9WrvJ0tAH9vpAq9V04v43hstyx8htB38e4nnyE5cplJIjSJ\nSBmuk4nrzyznXiRxDWk5h2Qb0mKHPTHv65yjlxy0Pt60oOj8hASRekmW7zUxL98H\nlHZ+OEM3vjYqnNxjiXANhpXCcoZXho4OdZQP9vpiEbBBLn4DUAdo2uvwDSV9F7Yw\ngj+oXR2h+O4nLsi56Afc7jCpbTie+R71TYzitlr3RT/aOhH9t5TalEoZN9kdCGGU\n0agqNTkO/aXyGRO8o/IXhp/AStdS5Wu8njIvNutoVxh+i702I4Ck/226fyS/rQi+\nJ8e66Yy38oElluoYtP5ZAcd5PaORqB7u0OlgnIE/rcaavtKYO4nYGeu1zYGtJMOi\nU1sO487s4a7Cff4JULlU4x9GKxwVaHMVx4weMX7m8Mi3F6g2k8Yk89RVXGDFy/qB\n7P0Ew4SbWMzzhETeDFurriHiS2S6H0BEhP1p0BfAzDGpff4cPFSkYj0oBkxTWbF3\nL+E5sUXgkQZL8mLSGWcq9sLwRfNhYr2ZAlaXjXZw634FtkiOqAaaM1jZd2WPr75q\n4pF4lZePeowg1rLnZee6dVECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4o/YMe4TgX87l3aFcJr9z7MRRxkZ\nFEAdkgnbitRfNQhc8G8+rr7SuufdA0KFOK5WgeFSHlCZ8uJ6hidbQHqozQ==\n-----END PUBLIC KEY-----\n",
         "label": "place.districts@PrompTugal.dinis",
-        "fingerprint": "sha256:235c74a7222a85d7",
-        "record": "sha256:383807062e16b9c9",
-        "signing_fingerprint": "sha256:383807062e16b9c9"
+        "fingerprint": "sha256:3faada86b02dabc6",
+        "record": "sha256:622e5570ade43f2b",
+        "signing_fingerprint": "sha256:622e5570ade43f2b"
       }
     },
     {
@@ -2919,17 +2919,17 @@
       "site": "https://promptugal.news/portugal/aveiro/",
       "label": "PrompTugal.news Aveiro (site identity)",
       "role": "The identity of the Aveiro site: signs data/by-place/aveiro.json. Made and held in the session of place.districts@PrompTugal.dinis.",
-      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
       "status": "active",
       "bundle": {
         "v": 1,
-        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArtwi+JH/+IWhSE1Rktd6\naWKJAGvEG7HytsTUOshBBqf6LSwYNGHp6O+nXO62wC7PhW14FB+TbQsjU1SHLx5W\nNOVurHEJKbn5cJQ2VeanOhaIosEBOmKLKVsBKDlmtEjsJBJpCOH4E68zNKfqSsDh\nltVMvNK5g5m1W8Gc58N6v93nzkFIkWC5+hsVM4MHGB6zeoS+D4HmpcvXd9TO0xYF\nyqOLZRrDvh7B2bienmy+f72JRIYmMULsjuLKQn3Gc/fclDu2cJniLEZEuz0woE5o\n5fk82Vuvy7HjRL4YzP4GHgJLiY86pJIoZ6LaHkJYXihk0mzIIqFNypSonRchIM8Z\nUUHl9yLJd8cvgFZruKYh+DX2HbGKfpLpJSI7RoDFU8Q073CWrtTMrbRM1kTEkvKI\nRL6UG4/QDnfRGTcfewRCtr+YxykvysNwnyU61fLMTU4ye9ybMsn5yyhN+g/Otytl\neFPM6Itt2P9JltlUyLhDum28GGLIzRi7TrI3fB3C63nwWbrdwL7/0T4jFflM9Bl8\nyHGRxCdVb1xsg+INL/rSM8Y/zQfITThW62tG8DXq95VOjRVYe6Ih/AYeWLyuwH+r\nEplFUHir36N3ybm6klAz5dEErcwSXQBI3VcTlcqBATCa83eF9GYV3Zoyheiublo3\n3qsueHsPyb43K3sCkkflzQkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
-        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdW6dm0QA+8EHeceZwnuB4/a0p4S/\ni6psqakwu9Z3Eyu95nRGwq/CbZtKhNWqUJehLxjLqQ13jF8ADnEmME//eQ==\n-----END PUBLIC KEY-----\n",
-        "label": "site.aveiro-promptugal",
-        "fingerprint": "sha256:f876bb4c1c5e93be",
-        "record": "sha256:12b7eb629f6797ca",
-        "signing_fingerprint": "sha256:12b7eb629f6797ca"
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnui1YyoD0dF5675w/aCK\nuD4Du5LziuZZBd+OiiYACGv3cTkBCoiZ0PYhK78qy5J3uGcdTTtDk81JIW391k0L\nC0IL00Nr4uGQMbWUeRf4Xx6yzLzOSb8xiNDnuwMhxL3AuuVaQ3xqcIslZFqWky1B\nBqFISTPgxB4fxh+V/dudt30+vNvrfP+9v958ixEPRbHiEudjKYh6l9JV0g1KsWVY\n2Ykt4vVXHJrwGloxcyMONDsKf9m2Bkopt9sQrhTjAov27d1NRwdTjSfD7rjiW653\nOzLCMlwinxycONv9TJ7QFNrmgTzdpcQeLfUV1mxw/hFqfpOCb+pKtsC1T7FxE9r0\nlJNNH9J6ymiKPBJUcHFb9ctkvdCN4/xTP/hjB7ovBnRQglV6zVW1Ob3NvM3DresO\nBgouULyN9ehxAFspnaNMx38c+R0oz8yIm4+lsm78aNMut0qLijm+hTYhkjk1tztc\nn0j+EzbvHDINkpaHS1TQ1FaXxjYPK4drVuysD3BjzUJeAHpaE7nbibqZZwz/kL4V\nGCO7HJ5418RhkA9WLTyN+x1mnh0/c7pyV9TDxJ2LR6akVnDSmei9vqnHP5hWSzV3\nB6TibQXXZxvp9KbbJsirx/teCsx4JonP6tfIfBHVYzeDCDHGTiq2oXgtNqNnRgft\nB97xC2Hii5j+p0aMX9qlfl8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEghZfH17OPCKB5j2Q26TXWHEcH2Xb\nCq4UksLYUG4Jbi2rCjAaBX/hpaFaYBa34qTqUu2j6fh21dMhkVa2tSFEDg==\n-----END PUBLIC KEY-----\n",
+        "label": "site.aveiro@PrompTugal.dinis",
+        "fingerprint": "sha256:cde247fa4abdc68c",
+        "record": "sha256:520dd25bd7c89159",
+        "signing_fingerprint": "sha256:520dd25bd7c89159"
       }
     },
     {
@@ -3019,17 +3019,17 @@
       "site": "https://promptugal.news/portugal/leiria/",
       "label": "PrompTugal.news Leiria (site identity)",
       "role": "The identity of the Leiria site: signs data/by-place/leiria.json. Made and held in the session of place.districts@PrompTugal.dinis.",
-      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
       "status": "active",
       "bundle": {
         "v": 1,
-        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApqBOvOMGzWexFdpYMP4N\n9d+PyQGw6tbAlaOfGoCjc0Tx1pCHFD5Bw+spgBJXavcPgBgInmqVhtAMqOmC1RY+\nc/VR1dbhN7ly7x/LyMAjH7e7lWeXF54HVApHcxHE6MGsb2KdVfAr7FFpdnLt4XCr\nbg3KHMy1lFgckYqyLiOypR1zLTEi6mA7Fw+jwf/5iABggK/M61cQOslp8E6CRW5X\nHO5ULcLZx7uyeMq6Ikh0AfxIMLzbgLyLirVXYU3bS3jADzWSzkePMHf2imkLNZSQ\nM1S0mSHYdVJm8sKcd3GP+0xdhqiBfM5gvORw4q0Eo4JsIfWrPR+MMqooHDIFaHuS\nK1H/zQJ0/eyc1z6tHU0wug9ZzwZzS7Dn1H4SHQFhH/ZNggPR1ywwYOkyPb6FM/fi\n8LM+lmggnLajZzjKnqC0vfV3r0rEMQehE7zP58GFZdSIa34lok7/MmmfnlQupJUA\nf1dLqCRbUOPXoRg0WqfV0zbj+gffgqCUruP8M7rpnQGYh57fmCpD35jG1i1j7G9p\n/VFFTwQOE/pixtWgr1kijADYGf6tUnx4ri8xuKoELSU5nNJwkaEFcgQDp81Gcu44\no0XUdbi6y+GgE/vaZSEbqLPxC/bQKgICCVOLFYrEhjHEfd0B08YkIavGx5UFgcNv\n0W4c0BsyJeNQ7gsy+heqFfsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
-        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4oNAR8hU7c7FiksTxwQyS2HR4wfY\n8KqaEC9iC7LaJCmqoUrZrlkhl6WLoJp80jjEmgYeOOJDbuPSYa7LTlQ+/A==\n-----END PUBLIC KEY-----\n",
-        "label": "site.leiria-promptugal",
-        "fingerprint": "sha256:47480593fe12b396",
-        "record": "sha256:36e871cdcd393bd7",
-        "signing_fingerprint": "sha256:36e871cdcd393bd7"
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzThiNOSKJH6n/6GlV7Kb\n33Y6mFuyiKaeItkaOtqwaT5+yxYmZUP2tT1aCc6z7+Zh9x0xma/B0F5npqTlYpzR\n3p7l2QF9EgwBx0ED4/CUlJM0IUWOq+ghsQOpuKJmkTN5xeB4ChyhwINuaFrft6hl\nvjX0lddJgruoOQelaHVg46xdqbyfiJ4O/tB8mYQRxDm0BYpmDg3rIcWOzt5bk3un\ny60EP+wKoKTKo3buemwrRvbQfrOC6Bs0zJxPhyai7CHM3sk/94oZraz6IJ7O7yIt\nfw5wi0yAdffNWGDjtnQ5Bc2/6nOSOgrArECabTy5L1twN7FXpFB+N/tk4p28Ti/K\nkVA3E/XT+U5g8O9IgfbrFo4kNsiQnWvQ2LBUCk2y/kZpf41T7tunu6gSqn0juXOR\noTfmmcwdvtxAl6ETyDS0QZMeystXDrGAiy0ocurTif78euVieYE7o+RjmTU4PpMD\nNwIjlbRaxer2rAM0ANufGOSW/nCi9OVFCo3iFiN6pcnN6+Md3gdn5BwR5qcnLVFW\n2nqy1N95+8NOQjcCF8w/X/Y+izXU9UgKNLQZm38GTYBm/mEpS8/wh3Tk2yXjXcjr\nwP/VkhcLwse50V75IRscDWcw/VRQuyIcuXBFbV+qnwN+jmW7Ah8857VlMmpn9qHz\n7i5Y9JDR3xmYcaKk+LKKA7MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMEg+U67XWAw/gxF7Cd/9zv1duQcH\n3Twkhk9HgOytpAUjRK8Xnfx/MfvOh5MT342SVj4HEeEwHOWEPs9Eyi4cHA==\n-----END PUBLIC KEY-----\n",
+        "label": "site.leiria@PrompTugal.dinis",
+        "fingerprint": "sha256:d8a508b9bf970201",
+        "record": "sha256:998b86485e2008f9",
+        "signing_fingerprint": "sha256:998b86485e2008f9"
       }
     },
     {
