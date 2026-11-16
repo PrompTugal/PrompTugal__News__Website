@@ -1,8 +1,8 @@
 {
   "agent": "place.portimao@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/portimao/ (data/by-place/portimao.json), for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "live; seventh pass: UAlg campus February 2026 update added, article updated, debrief refreshed",
-  "updated": "2026-11-16T04:50Z",
+  "state": "live; 05:30 wake: checked Barlavento's Portimão section, a search for AI events and investors, nothing new passes the test; page unchanged",
+  "updated": "2026-11-16T05:35Z",
   "done": [
     "keys place.portimao-promptugal and site.portimao-promptugal published in board/keys.json",
     "first research pass written, validated and signed with the site key",
