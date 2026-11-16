@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.vila-do-bispo@PrompTugal.dinis",
   "mandate": "PrompTugal.news Vila do Bispo: AI and technology in Vila do Bispo, from Sagres and Cape St Vincent to the sea and the wind, and what reaches Vila do Bispo from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -80,9 +80,23 @@
       "url": "https://www.apren.pt/wp-content/uploads/2026/06/INEGI_APREN-Parques-Eolicos-em-Portugal.pdf",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Universidade do Algarve, Sagres Marine Science Festival page",
+      "url": "https://www.ualg.pt/en/sagres-marine-science-festival",
+      "kind": "university",
+      "feed": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "Sagres Marine Science Festival (past edition, Sagres Marine Station)",
+      "date": "2026-05-06 to 2026-05-09",
+      "url": "https://www.ualg.pt/en/sagres-marine-science-festival",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    }
+  ],
   "ai_map": [
     {
       "name": "MARREAL underwater observatory, Sagres (UAlg, CINTAL, CCMAR, INESC-TEC)",
@@ -118,7 +132,7 @@
       "name": "Universidade do Algarve and CCMAR, Sagres marine biology laboratory",
       "type": "institution",
       "url": "https://www.barlavento.pt/destaque/sagres-vai-ter-estacao-de-biologia-marinha",
-      "what": "A teaching and research laboratory at Porto da Baleeira, planned with the municipality and funded by the Fosteam@South project, about 2.1 million euros of Recovery and Resilience money, as reported in June 2023.",
+      "what": "A teaching and research laboratory at Porto da Baleeira, planned with the municipality and funded by the Fosteam@South project, about 2.1 million euros of Recovery and Resilience money, as reported in June 2023. The Universidade do Algarve's page shows the Sagres Marine Station hosted the Sagres Marine Science Festival from 6 to 9 May 2026, with the municipality as co-organiser.",
       "source_url": "https://www.barlavento.pt/?p=255421",
       "read_on": "2026-11-15",
       "ai_path": "Candidate only. The article describes reef mapping and sampling, not AI. Path: marine research, then ocean data and mapping, then AI analysis. Unconfirmed.",
@@ -144,7 +158,8 @@
     "No events found. Sources to look for: council agenda, Universidade do Algarve events at Sagres, Algarve Evolution.",
     "No local feeds found. Sources to look for: an RSS feed from Barlavento or the council.",
     "Sea4Us, the marine laboratory and MARREAL are on the map as candidates with an unconfirmed AI path, and KTTSeaDrones's AI claim rests on a search summary of a report we could not open (a certificate error on the host). Their own pages must say whether AI is used.",
-    "No MARREAL data page or later news found: the 2022 article promised the data online 'soon', and we did not find it."
+    "No MARREAL data page or later news found: the 2022 article promised the data online 'soon', and we did not find it.",
+    "No Algarve Evolution link to Vila do Bispo found in a search on 16 November. Sea4Us shows no 2026 news and no AI work in the sources we reached."
   ],
   "voice": {
     "lede": "Aqui no fim do mundo, o vento e que manda e a IA ainda esta a chegar de bicicleta.",

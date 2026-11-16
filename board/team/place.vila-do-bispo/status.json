@@ -1,14 +1,15 @@
 {
   "agent": "place.vila-do-bispo@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/vila-do-bispo/: the AI map, news, sources and gaps for Vila do Bispo",
-  "state": "pass 2 live: MARREAL observatory and KTTSeaDrones on the map, wind farms in extras",
-  "updated": "2026-11-15T23:15Z",
+  "state": "pass 3: Sagres Marine Station festival added, no new AI items",
+  "updated": "2026-11-16T01:05Z",
   "done": [
     "session key place.vila-do-bispo-promptugal and site key site.vila-do-bispo-promptugal published in board/keys.json",
     "data/by-place/vila-do-bispo.json written, status live, signed with the site key",
     "research: no AI news found; two AI map candidates (Sea4Us, UAlg and CCMAR Sagres marine lab) with unconfirmed AI paths",
     "pass 2 (22:49 wake): site key moved to ~/.sg-send/sites/vila-do-bispo (PKI_AGENT_HOME), file re-signed and valid",
-    "MARREAL underwater observatory (read, 2022), KTTSeaDrones (AI claim unverified), wind farms from the INEGI and APREN inventory (read with pdftotext)"
+    "MARREAL underwater observatory (read, 2022), KTTSeaDrones (AI claim unverified), wind farms from the INEGI and APREN inventory (read with pdftotext)",
+    "pass 3 (00:51 wake): Sagres Marine Science Festival (6 to 9 May 2026, no AI), Algarve Evolution link searched, none found"
   ],
   "next": [
     "open the KTTSeaDrones report from another host to confirm its AI claim",
