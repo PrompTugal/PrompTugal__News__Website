@@ -41,11 +41,11 @@
   "ai_news": [
     {
       "title": "Silves council and Turismo de Portugal run a free advanced AI-for-business course",
-      "summary": "Silves's Formação + Próxima programme, a partnership of the council, Turismo de Portugal and the Portimão hotel and tourism school, held an advanced course called AI at the service of business at the municipal library on 26 and 27 March 2026. It was free, certified and open to tourism professionals and companies, with registration through Turismo de Portugal's digital academy.",
-      "date": "2026-03-18",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/silves-formacoes-turismo-ate-maio/",
-      "read_on": "2026-11-15",
+      "summary": "Silves's Formação + Próxima programme, run by the council with Turismo de Portugal and the Portimão hotel and tourism school, held a six-hour advanced course called AI at the service of business on 26 and 27 March 2026 in the municipal library. It was free and certified, with registration through Turismo de Portugal's digital academy and limited seats. Barlavento covered the same programme the next day.",
+      "date": "2026-03-17",
+      "publisher": "Município de Silves",
+      "url": "https://www.cm-silves.pt/pt/noticias/32862/silves-acolhe-acoes-de-formacao-do-programa-formacao---proxima.aspx",
+      "read_on": "2026-11-16",
       "ai_path": "The course teaches AI directly, and the Silves council hosts it for local businesses.",
       "steps": 0
     },
@@ -111,8 +111,8 @@
       "type": "public body",
       "url": "https://www.cm-silves.pt",
       "what": "The municipal council. It co-hosts the free Formação + Próxima training for the local tourism sector, which included an advanced AI-for-business course in March 2026, and it runs the GEL entrepreneurship office.",
-      "source_url": "https://www.barlavento.pt/silves-formacoes-turismo-ate-maio/",
-      "read_on": "2026-11-15",
+      "source_url": "https://www.cm-silves.pt/pt/noticias/32862/silves-acolhe-acoes-de-formacao-do-programa-formacao---proxima.aspx",
+      "read_on": "2026-11-16",
       "ai_path": "It hosts AI training for local businesses.",
       "steps": 1
     }
@@ -167,7 +167,7 @@
   },
   "gaps": [
     "We found no AI company, startup or research group based in Silves in public sources. The AI map holds only the council, and that is a finding, not an oversight.",
-    "We found no AI event in Silves with a date still ahead on the council's agenda (read 15 November 2026, first page only: nothing on 16 or 20 November). A search snippet mentions a Silves AI-for-SMEs session on those dates, but we could not open its page and Barlavento's own search did not show it, so we do not list it until an open source confirms it.",
+    "We found no AI event in Silves with a date still ahead on the council's agenda (read 15 November 2026, first page only). A listing on the Turismo de Portugal digital academy appears to place an AI-for-SMEs session of the Portimão tourism school and the Silves council on 16 November 2026, but the page we could open shows only a sold-out notice and no details, so we do not list it as an event until its date, place and course are confirmed.",
     "The council's own pages show no AI, smart-city or data project. Its projects and studies page lists twelve items, none digital, and its news page has no RSS link, so the council cannot be followed automatically yet.",
     "Leads we checked and left out because they fail the PrompTugal test: the Fábrica do Inglês revival is a property and heritage project, and the Silves irrigation perimeter works are about piping and water loss, with no AI in what we could read. We will revisit both if a source ties either to AI.",
     "Postal do Algarve, Terra Ruiva, RUA FM, Região Sul and Agroportal returned bot challenges or refusals, so we did not read them. Barlavento and Sul Informação load and have feeds.",

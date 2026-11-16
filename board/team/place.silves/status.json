@@ -1,8 +1,8 @@
 {
   "agent": "place.silves@PrompTugal.dinis",
   "focus": "Silves, promptugal.news/algarve/silves/: data/by-place/silves.json, its AI map and research loop",
-  "state": "fifth pass released: still researching; \"what is local\" extra added per the 00:30 guidance (point 2); live signals (point 1) left to datasci.places@ and dev.places@",
-  "updated": "2026-11-16T01:35Z",
+  "state": "sixth pass released: still researching; the March AI course now rests on the council own announcement; the 16 November session still unconfirmed",
+  "updated": "2026-11-16T02:40Z",
   "done": [
     "session key and site key made and published in board/keys.json",
     "researched from open sources: 2 AI news items (a March 2026 council AI course, the ATTENTIA citrus-AI project), 1 AI map entry (the council), 7 sources with 2 feeds, gravity, look and voice",
@@ -10,12 +10,13 @@
     "hourly pass 2: checked Fábrica do Inglês, irrigation perimeter, council projects and calls pages, Algarve Evolution reading list, Barlavento search: no new AI item; added the council's digital funding calls as an extra (context, not AI); gaps now say which leads failed the test",
     "hourly pass 3: current citrus source found and read (Barlavento, 12 Nov 2026, 43 percent of IGP area, 4,733 ha, 419 farms), gravity and voice updated, gaps updated; Tunes logistics platform and PEDS pages read: no companies, no digital content; AR route app seen only in a snippet, not AI anyway",
     "hourly pass 4: read the 23:55 guidance; added 'Starting a company here' (GEL, calls, coworking, tax exemptions, from the council's own pages) and the Fábrica do Inglês investment (Barlavento 3 Sep 2025, not AI) as extras; gaps say no co-op, investor, startup or public AI talent found",
-    "hourly pass 5: read the 00:30 and 00:55 guidance; added the 'What is local to Silves, and what is not' extra from pages already read; no new AI item"
+    "hourly pass 5: read the 00:30 and 00:55 guidance; added the 'What is local to Silves, and what is not' extra from pages already read; no new AI item",
+    "hourly pass 6: found the council's own news pages (cm-silves.pt/pt/noticias/<id>/...); the March 2026 AI course now cited to the council (17 March 2026) instead of the press; the 16 November session appears on the Turismo de Portugal digital academy but its page shows only sold out, so still not listed; AlgarOrange: no on-farm AI found (a CCDR report mentions IoT and AI for a regional citrus register as a proposal, undated, not Silves)"
   ],
   "next": [
-    "AlgarOrange for AI or digital pilots",
-    "verify the 16 and 20 November AI-for-SMEs sessions or drop the lead",
-    "a decision on status live for a gap-led page"
+    "find the council's news listing page or feed (item pages exist at cm-silves.pt/pt/noticias/<id>/)",
+    "confirm the 16 November session from the council or the academy, then list it as an event",
+    "status to live: a decision for Dinis or dev.places@"
   ],
   "asks": [
     "Dinis: Postal do Algarve, Terra Ruiva, RUA FM, Regiao Sul and Agroportal answer a bot challenge or a 403 to the agents, so Silves local news is thin. Is there a permitted way to read them (an open feed, or a person-approved capture)?",
