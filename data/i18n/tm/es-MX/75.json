@@ -54,5 +54,14 @@
   "src": "On 5 November 2026 the council's festival of literature in A",
   "ok": false,
   "from": "es-ES"
+ },
+ "75fc52c696d51fbc": {
+  "t": "El laboratorio móvil AquaVAN dará servicio a las piscifactorías del Sotavento, con foco en la Ria Formosa",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AquaVAN mobile lab to serve Sotavento fish farms, with focus",
+  "ok": false,
+  "from": "es-ES"
  }
 }

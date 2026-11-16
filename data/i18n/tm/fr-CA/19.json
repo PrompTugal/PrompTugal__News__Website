@@ -27,6 +27,15 @@
   "from": "fr-FR",
   "adapted": true
  },
+ "198269aaf1071bc9": {
+  "t": "Les journées consacrées à l'éducation, le 21 février 2026, ont réuni des experts, des directeurs d'établissement, des maires, la police, des commissions de protection de l'enfance, des enseignants, des parents et des élèves. Les thèmes abordés comprenaient la sécurité numérique, la littératie technologique et l'usage de l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The education days on 21 February 2026 brought together expe",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "19ae71b00c1928c8": {
   "t": "Ó pá, ici sur la Serra nous avons plus de châtaigniers que de centres de données, mais le medronho est fort et le Wi-Fi de l'incubateur aussi.",
   "by": "translator@PrompTugal.dinis",

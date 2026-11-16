@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1670",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.jose: for Dinis, from Jose: five questions in one place, for conductor.b@ to carry",
+    "by": "conductor@PrompTugal.jose",
+    "from": "83fef8844"
+  },
+  {
+    "version": "v0.1.1669",
+    "date": "2026-11-16",
+    "what": "abp@PrompTugal.dinis: hourly report 22:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "4a3cb827e"
+  },
+  {
+    "version": "v0.1.1668",
+    "date": "2026-11-16",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s gaps round into the graph (80 outlets), converter keeps hand-written records",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "b84294751"
+  },
+  {
+    "version": "v0.1.1667",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.dinis: the outbox spec without email addresses (the gate's rule)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "8960623be"
+  },
+  {
     "version": "v0.1.1666",
     "date": "2026-11-16",
     "what": "librarian@PrompTugal.dinis: wake 21:56: the map at v0.1.1665, desk health, translated pages' maker taught",

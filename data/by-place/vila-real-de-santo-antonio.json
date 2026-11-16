@@ -355,6 +355,29 @@
       "significance": "town and region",
       "ai_path": "no AI",
       "steps": 0
+    },
+    {
+      "title": "VRSA closed schools and non-essential services for the 11 November alert",
+      "summary": "The council's notice for the national alert expected gusts of 120 km/h, over 150 km/h if a 'sting jet' formed, and restricted access to woods, the coast and flood-prone areas.",
+      "date": "2026-11-10",
+      "publisher": "Câmara Municipal de Vila Real de Santo António",
+      "url": "https://www.cm-vrsa.pt/pt/noticias/58391/mau-tempo-declarada-situacao-de-alerta-para-o-dia-11-de-novembro.aspx",
+      "read_on": "2026-11-16",
+      "significance": "town and country",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Castro Marim, Ayamonte"
+    },
+    {
+      "title": "VRSA's schools took part in the national earthquake drill 'A Terra Treme' on 5 November",
+      "summary": "A seismic-risk drill promoted by the national civil protection authority, held at the Escola Secundária de VRSA and the EB 2,3 Infante D. Fernando in Vila Nova de Cacela, with an evacuation to test the schools' emergency plans.",
+      "date": "2026-11-06",
+      "publisher": "Câmara Municipal de Vila Real de Santo António",
+      "url": "https://www.cm-vrsa.pt/pt/noticias/58376/vila-real-de-santo-antonio-associou-se-ao-exercicio-nacional-a-terra-treme.aspx",
+      "read_on": "2026-11-16",
+      "significance": "town and country",
+      "ai_path": "no AI",
+      "steps": 0
     }
   ],
   "contacts": [

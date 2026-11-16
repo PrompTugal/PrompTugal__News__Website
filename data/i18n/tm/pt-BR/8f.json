@@ -15,6 +15,14 @@
   "src": "Council backs an AI workshop at the University of Algarve",
   "ok": false
  },
+ "8f6bfc3f243d5363": {
+  "t": "O Postal traça o perfil da Sparos, sediada em Olhão: sua área de Nutrição Digital coleta e analisa dados para recomendar planos de alimentação, com a HatchTools (um aplicativo web para incubatórios) e o OptiFeeSH (um módulo de plano de alimentação para o software AquaManager, com a empresa grega I2S). Usa algoritmos para prever a necessidade de ração por fase de crescimento.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Postal profiles Sparos, based in Olhão: its Digital Nutritio",
+  "ok": false
+ },
  "8f8393c1b7217470": {
   "t": "Politécnico de Viseu apresenta o RISKMAP, ferramenta de IA que vigia edifícios históricos",
   "by": "translator@PrompTugal.dinis",

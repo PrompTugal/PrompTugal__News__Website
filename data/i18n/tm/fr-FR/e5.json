@@ -7,6 +7,14 @@
   "src": "EPIA 2025, Portugal's AI conference, is held at the Universi",
   "ok": true
  },
+ "e594a4a9c497537b": {
+  "t": "Des fonds européens pour apporter l'IA et la robotique à 15 entreprises touristiques de l'Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "EU funds to bring AI and robotics to 15 Algarve tourism firm",
+  "ok": false
+ },
  "e5ce97d42543ebed": {
   "t": "Après la tempête Kristin, plus de 100 bénévoles ont utilisé des drones pour aider la mairie à évaluer les dégâts. Les images aériennes ont transité par la plateforme ATLAS de l'entreprise, qui affirme y recourir à l'IA, et sont réservées aux autorités.",
   "by": "translator@PrompTugal.dinis",

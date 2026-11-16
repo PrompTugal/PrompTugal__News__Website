@@ -1,6 +1,7 @@
 // Topics: the newsroom's taxonomy (data/topics/): the fields the companies are filed under, the broader themes, the
 // beats; the summit tracks bridged to each. /topics/ is the industry map in text.
 import { refLink, timeText, dataLinks, plural, slotLine, slotList } from '../lib/present.mjs'
+import { feedFiles } from '../lib/feeds.mjs'
 export const order = 60
 
 const KIND = { field: 'Fields', theme: 'Themes', beat: 'Beats' }
@@ -31,7 +32,7 @@ function topicPage(ctx, t) {
         (articles.length ? `## Our articles on it {#articles}\n\n${articles.map(a => `- ${refLink(ctx, rel, a.from)}`).join('\n')}\n\n` : '') +
         (stories.length ? `## Story candidates on this beat {#stories}\n\nWhat the curator proposes to write next; candidates, not articles. Their angles stay in the desk's files.\n\n${stories.map(s => `- ${s.id}: ${cell(s.title)} (${s.desk_files.map(f => ctx.store.wsGone && /^desks\/curator\//.test(f) ? f.split('/').pop() : /^content\/articles\/[^/]+\.md$/.test(f) ? `[${f.split('/').pop()}](${ctx.link(rel, f.replace(/^content\//, '').replace(/\.md$/, '.html'))})` : `[${f.split('/').pop()}](${ctx.link(rel, f)})`).join(', ')})`).join('\n')}\n\n` : '') +
         `${dataLinks(ctx, rel, 'topics', t.id, false)} The industry graph, all fields and companies: [graph/industry.json](${ctx.link(rel, 'api/v1/graph/industry.json')}).\n\n[All topics](../index.md)`
-    return { src: `data/topics/${t.id}/topic.json`, rel, type: 'topic', crumbs: [['topics/index.html', 'Topics'], [null, t.name]], title: t.name, summary: `${{ field: 'A field', theme: 'A theme', beat: 'A beat' }[t.kind]} in the newsroom's taxonomy${comps.length ? `: ${plural(comps.length, 'company', 'companies')} filed under it` : ''}.`, md }
+    return { src: `data/topics/${t.id}/topic.json`, rel, type: 'topic', feeds: topicFeedLinks(t), crumbs: [['topics/index.html', 'Topics'], [null, t.name]], title: t.name, summary: `${{ field: 'A field', theme: 'A theme', beat: 'A beat' }[t.kind]} in the newsroom's taxonomy${comps.length ? `: ${plural(comps.length, 'company', 'companies')} filed under it` : ''}.`, md }
 }
 
 export function pages(ctx) {
@@ -42,4 +43,20 @@ export function pages(ctx) {
             return `- **${refLink(ctx, rel, `topic:${t.id}`)}**${n ? ` (${plural(n, 'company', 'companies')})` : ''}. ${cell(t.description)}${tr.length ? ` Summit track${tr.length > 1 ? 's' : ''}: ${tr.join(', ')}.` : ''}`
         }).join('\n')).join('\n\n')
     return [{ src: 'data/topics/', rel, type: 'site', title: 'Topics', summary: 'The industry map in text: the fields, themes and beats of the newsroom\'s taxonomy, and the companies and summit tracks in each.', md }, ...ctx.store.topics.map(t => topicPage(ctx, t))]
+}
+
+// Feeds out per topic (lib/feeds.mjs; dev@PrompTugal.dinis, 16 November 2026): our articles on the topic, as RSS 2.0 and
+// JSON Feed 1.1 at api/v1/topics/<id>/feed.xml and feed.json, named in the topic page's head.
+const topicFeedLinks = t => [{ type: 'application/rss+xml', title: `PrompTugal.news: ${t.name}`, rel: `api/v1/topics/${t.id}/feed.xml` },
+    { type: 'application/feed+json', title: `PrompTugal.news: ${t.name}`, rel: `api/v1/topics/${t.id}/feed.json` }]
+export function api(ctx) {
+    const g = ctx.graph(), byRel = new Map((ctx.pages || []).map(p => [p.rel, p]))
+    return ctx.store.topics.flatMap(t => {
+        const items = g.inOf(`topic:${t.id}`, 'about').filter(e => e.from.startsWith('article:')).map(e => {
+            const rel = `articles/${e.from.slice('article:'.length)}.html`, p = byRel.get(rel)
+            return p && { url: `${ctx.BASE}${rel}`, title: p.title, summary: p.summary, date: (p.meta && p.meta.date) || p.date, author: 'PrompTugal.news', kind: 'article', tags: [t.name] }
+        }).filter(Boolean)
+        return feedFiles({ dir: `api/v1/topics/${t.id}/`, base: ctx.BASE, title: `PrompTugal.news: ${t.name}`, home: `${ctx.BASE}topics/${t.id}/`,
+            description: `PrompTugal.news articles on ${t.name}.`, items }).map(f => ({ ...f, schema: null }))
+    })
 }

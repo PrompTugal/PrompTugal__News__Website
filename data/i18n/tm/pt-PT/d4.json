@@ -71,6 +71,14 @@
   "src": "The Center for Responsible AI, a publicly funded consortium ",
   "ok": true
  },
+ "d4d71054d0c7b8b7": {
+  "t": "GDG Faro organiza um hackathon de IA Build with Gemma",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "GDG Faro holds a Build with Gemma AI hackathon",
+  "ok": false
+ },
  "d4ec9af2e630ad10": {
   "t": "PrompTugal.news Aveiro: IA e tecnologia em Aveiro, uma cidade universitária e de telecomunicações cujo centro de gravidade é a Universidade de Aveiro, o Instituto de Telecomunicações e a aposta Aveiro Tech City da câmara, e o que chega a Aveiro vindo de Portugal, do Brasil e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",

@@ -1,4 +1,12 @@
 {
+ "45460d98ac0c4316": {
+  "t": "Sparos, l'entreprise d'aliments pour poissons d'Olhão, vend des outils de nutrition numérique pour les piscicultures",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Sparos, the Olhão feed company, sells digital nutrition tool",
+  "ok": false
+ },
  "454d988659d3a7c3": {
   "t": "Algarve Evolution a lancé un projet pilote pour sélectionner 15 PME du tourisme de l'Algarve et leur offrir des conseils et un plan d'action sur l'IA et la robotique, avec des candidatures du 20 février au 30 avril 2026. Le consortium élargi Inova Algarve 3.0 est dirigé par NERA, dont la page d'accueil indique Loulé comme municipalité.",
   "by": "translator@PrompTugal.dinis",
