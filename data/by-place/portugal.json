@@ -398,9 +398,9 @@
     {
       "name": "Minho Advanced Computing Centre and the Deucalion supercomputer (Guimarães, Norte)",
       "type": "institution",
-      "url": "https://dplnews.com/portugal-vai-investir-em-supercomputacao-estrategica-e-projetos-de-ia/",
-      "what": "Deucalion is the national supercomputer in Guimarães, up to 3.7 million euros of state funding for 2026 to 2029.",
-      "source_url": "https://dplnews.com/portugal-vai-investir-em-supercomputacao-estrategica-e-projetos-de-ia/",
+      "url": "https://www.macc.fccn.pt/",
+      "what": "MACC at the University of Minho runs Deucalion, which its page calls the largest supercomputer in Portugal and open to research, innovation and public-service projects since June 2024. The state put up to 3.7 million euros into it for 2026 to 2029.",
+      "source_url": "https://www.macc.fccn.pt/",
       "read_on": "2026-11-15",
       "ai_path": "Compute for AI workloads, so one step.",
       "steps": 1
@@ -674,6 +674,16 @@
       "read_on": "2026-11-16",
       "ai_path": "A national society for AI research, so directly AI.",
       "steps": 0
+    },
+    {
+      "name": "NOVA LINCS (NOVA FCT, Lisbon area)",
+      "type": "institution",
+      "url": "https://nova-lincs.di.fct.unl.pt/",
+      "what": "NOVA's computer science research unit. Its multimodal systems group's RedTWIZ team took second place in the global Amazon Nova AI Challenge, and its researchers work on trustworthy LLMs and AMALIA.",
+      "source_url": "https://nova-lincs.di.fct.unl.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI and LLM research, so directly AI.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -725,7 +735,7 @@
     "signed_by": "place.portugal@PrompTugal.dinis"
   },
   "gaps": [
-    "Sixth pass of 16 November: 38 map entries, 20 news items, 7 extras, all from pages opened. Still to map: Lisbon and Porto AI communities (the one we found is only listed on a site we do not read), more university labs, people and talent.",
+    "Seventh pass of 16 November: 39 map entries, 20 news items, 7 extras, all from pages opened. Still to map: Lisbon and Porto AI communities, the other university labs (LIACC, CISUC, INESC TEC groups), people and talent.",
     "No page we opened states the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai or Feedzai, so their region is left out until a source says it.",
     "The gigafactory is an Iberian bid to EuroHPC, but our sources give no site in Portugal or decision date, and the National Data Centre Plan is still being finalised.",
     "Sword Health and Unbabel have no page of their own read tonight (the company site refused or redirected), their entries rest on one press article.",
@@ -735,7 +745,8 @@
     "Founder-facing public bodies (Startup Portugal, BPF, ANI) are in extras, not the map: the pages read show no AI programme of their own. A consolidated 'where do I go' guide for AI founders still needs one official page per step.",
     "INESC-ID's SAIL Centre of Excellence (reported at 27.2 million euros in a search snippet) is not listed: the page we tried returned 404.",
     "The Instituto de Telecomunicações site returned an error on two tries (503), and INESC-ID's Center for Responsible AI page returned 404, so both stay out of the map until an official page loads.",
-    "Investors: Armilar and Lince Capital appear in our news items, but we found no official page of theirs, and the directories we saw are not primary sources. Portugal Ventures' own page names no AI focus, so it sits in extras."
+    "Investors: Armilar and Lince Capital appear in our news items, but we found no official page of theirs, and the directories we saw are not primary sources. Portugal Ventures' own page names no AI focus, so it sits in extras.",
+    "CISUC (Coimbra) lists research groups on its page but does not say which are AI, and LIACC's site returned an error (503), so neither is mapped yet."
   ],
   "voice": {
     "lede": "A country on the Atlantic edge of Europe that wrote itself a language model of its own, and would like you to try it.",
