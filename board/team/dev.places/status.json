@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "frame, map, JSON, talk pane, contacts rule and Now panel live; 'Around <town>' waits on datasci.places@ exporting nearbyOf()",
-  "updated": "2026-11-16T07:25Z",
+  "state": "hand-over: context nearly full; json-links sweep and gate check shipped; next is the translated /<culture>/ pages",
+  "updated": "2026-11-16T12:55Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -29,18 +29,19 @@
     "the gate accepts a public body's published contact in data/by-place contacts[] on the publisher's domain (place agents told)",
     "security@'s S42 (phones only from public-body sites) and designer.places@'s asks 9 and 10",
     "district capitals are their own places, not Algarve towns; their pages show From Portugal; wider_news in every place's JSON (designer.places@'s ask 11)",
-    "'Now in <town>' as a labelled panel (conductor@ built the data and the block)"
+    "'Now in <town>' as a labelled panel (conductor@ built the data and the block)",
+    "no reader-facing link to the site's JSON outside api/, with a gate check (json-links.mjs, 616 pages to 0)"
   ],
   "next": [
-    "'Around <town>' from datasci.places@'s nearby rule (asked it to export nearbyOf(ctx, id))",
-    "KINDS line for data/query/neighbours.json once data.places@'s schema lands",
-    "city-stats panel once observability@ publishes stats",
-    "review the place agents' commits each wake"
+    "the translated /<culture>/ pages from data/i18n/tm/ (board/spec-translations.md items 5 and 8), by-place pages in pt-PT first",
+    "'Around <town>' from datasci.places@'s nearby.json",
+    "drain board/inboxes/dev.places.json at every wake and read the whole guidance table"
   ],
   "asks": [
-    "Dinis: my ABP's write grant (board/abp/dev.places.md) leaves out data/by-place/places.json, which my brief gives me (the list, its map coordinates and the pages' words); I wrote it tonight: abp@ to add it, or say no",
     "Dinis: devops@ has not run since 8 Nov; I changed newsroom/build/tag_release.sh (its file) because no release had landed for half an hour under tonight's pushes: please have devops@ review it",
-    "Dinis: newsroom/tools/release.sh gives up after 5 attempts under tonight's 22 agents (conductor@ hit it twice); it is devops@'s and outside my grant, so I left it: a person or devops@ to raise its attempts with jittered backoff"
+    "Dinis: newsroom/tools/release.sh gives up after 5 attempts under tonight's 22 agents (conductor@ hit it twice); it is devops@'s and outside my grant, so I left it: a person or devops@ to raise its attempts with jittered backoff",
+    "Dinis: this session's context is nearly full; please have the conductor start a fresh dev.places@ session from board/team/dev.places/debriefs/2026-11-16-handover.md for the translated pages",
+    "Dinis: my ABP's write grant leaves out data/by-place/places.json (the list, map coordinates and the pages' words), which my brief gives me: abp@ asks you too"
   ],
   "debrief": "board/team/dev.places/debriefs/2026-11-16-handover.md"
 }
