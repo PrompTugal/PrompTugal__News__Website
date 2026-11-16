@@ -35,6 +35,16 @@
   },
   "ai_news": [
     {
+      "title": "Council forum puts a local IT firm and a medical-technology firm on stage",
+      "summary": "At the sixth Fórum Ideias de Negócios on 27 October 2026, two panels presented local businesses. Among them were InovaPrime, an information technology company, and Savvy Alpha, working in medical equipment and technology. The council says it will follow the presented projects through the year. The report does not mention AI.",
+      "date": "2026-11-02",
+      "publisher": "Município de São Brás de Alportel",
+      "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+      "read_on": "2026-11-16",
+      "ai_path": "Local IT and medical-technology firms are the likeliest local adopters or builders of AI. The council names them but does not say they use AI.",
+      "steps": 3
+    },
+    {
       "title": "Town hall and University of Algarve prepare a knowledge and innovation pact",
       "summary": "The council and the University of Algarve met in April 2026 to widen their partnership into teaching, training and research, including school and business links through short higher-education courses. They agreed to work towards a pact in the coming months. The report does not mention AI.",
       "date": "2026-04-29",
@@ -148,6 +158,13 @@
       "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
       "read_on": "2026-11-16",
       "ai_path": null
+    },
+    {
+      "title": "VI Fórum Ideias de Negócios (held 27 October 2026, Cineteatro Jaime Pinto): local business panels incl. IT and medical technology",
+      "date": "2026-10-27",
+      "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+      "read_on": "2026-11-16",
+      "ai_path": "Local IT and medical-technology firms presented, no AI mention (3 steps)"
     }
   ],
   "ai_map": [
@@ -240,6 +257,26 @@
       "read_on": "2026-11-16",
       "ai_path": "Digital marketing and content work is where AI writing and image tools are adopted first. The page does not mention AI, so this is a lead to check.",
       "steps": 3
+    },
+    {
+      "name": "InovaPrime",
+      "type": "company",
+      "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+      "what": "Local information technology company that presented its activity at the council's sixth business ideas forum on 27 October 2026.",
+      "source_url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+      "read_on": "2026-11-16",
+      "ai_path": "An IT company is a natural place for AI services to be built or resold. The council page gives no product detail and does not mention AI, so this is a lead to check.",
+      "steps": 3
+    },
+    {
+      "name": "Savvy Alpha",
+      "type": "company",
+      "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+      "what": "Local business in medical equipment and technology, presented at the council's sixth business ideas forum on 27 October 2026.",
+      "source_url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+      "read_on": "2026-11-16",
+      "ai_path": "Medical technology is a field where AI is common. The council page gives no product detail and does not mention AI, so this is a lead to check.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -304,10 +341,10 @@
   },
   "gaps": [
     "Third read of the council's entrepreneur showcase (all four pages): the clearly digital local businesses are We Stream Algarve, Substância3D (3D and streaming) and Peanuts (marketing and digital content). None mentions AI, so they are listed as leads at three steps, not as AI companies. Still no AI company, startup or lab found, and the commercial registry has not been read.",
+    "Next step for the four leads (InovaPrime, Savvy Alpha, We Stream Algarve, Peanuts): find each firm's own public website or registry entry to see whether it offers or uses AI. The council's showcase names them but gives no product detail.",
     "The council's site shows no mention of AI in its front-page news and has no RSS feed we could find, so its news must be read page by page.",
     "Postal do Algarve and Sul Informação blocked our automated reading with a bot check or an error, so their São Brás stories are not used here until they can be read openly. The pages with a bot challenge were skipped on purpose.",
     "Sources to find next: the University of Algarve's electronics research centre for any town link, the business association for local digital firms, and the Algarve 6.0 platform's supplier and timetable.",
-    "One IT firm shown at the 2025 business ideas forum appears only in a Postal do Algarve report, which our reader cannot open, and one forum report from Região Sul returned 403, so neither is used until read openly.",
     "The council's own November 2026 news (the first-year balance, Storm Charles, Praça 1914) never mentions AI or the Algarve 6.0 platform, so the municipal AI story is told by regional press, not by the council.",
     "Investment map and local talent: no investor, investment or startup founded in the town is documented in the sources read. Local talent who have spoken publicly is not listed, because no public speaker profile has been found and the agent does not name private individuals.",
     "The council's three support-measure subpages and the Via Verde para o desenvolvimento page returned no detail to our reader, so grants and fee waivers for investors are not stated.",

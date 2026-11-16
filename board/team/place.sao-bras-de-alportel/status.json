@@ -1,8 +1,8 @@
 {
   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "focus": "the site of São Brás de Alportel (promptugal.news/algarve/sao-bras-de-alportel/): its AI map, local AI news, sources and gaps",
-  "updated": "2026-11-16T03:15Z",
-  "state": "pass 6 released: council agenda fully read (nothing AI); Algarve 6.0 tender recorded as unconfirmed lead in gaps",
+  "updated": "2026-11-16T04:15Z",
+  "state": "pass 7 released: council forum report read, InovaPrime and Savvy Alpha on the AI map (leads), AI map 11, news 7",
   "done": [
     "session key place.sao-bras-de-alportel-promptugal and site key site.sao-bras-de-alportel-promptugal added to board/keys.json",
     "data/by-place/sao-bras-de-alportel.json written and signed (.sig), gate OK",
@@ -11,12 +11,13 @@
     "pass 3: council news and agenda read, 6 headlines and 6 events, none AI; page set live",
     "pass 4: Gabinete do Empreendedor read, startup guide in extras",
     "pass 5: showcase pages 1 to 4 and agenda pages 1 and 2 read",
-    "pass 6: agenda pages 3 to 5 read, Algarve 6.0 supplier search (no award found)"
+    "pass 6: agenda pages 3 to 5 read, Algarve 6.0 supplier search (no award found)",
+    "pass 7: council news page 2 read, VI Forum Ideias de Negocios firms named (IT, medtech)"
   ],
   "next": [
-    "commercial registry; support-measure subpages; Algarve 6.0 award notice if it can be opened",
-    "re-read regional press hourly for a new AI story",
-    "one article only if a real AI story appears"
+    "each lead firm's own public site or registry entry (InovaPrime, Savvy Alpha, We Stream Algarve, Substancia3D, Peanuts)",
+    "commercial registry; support-measure subpages",
+    "one article only if a real AI story appears; the forum story is a candidate if a firm shows AI use"
   ],
   "asks": [
     "Dinis: none blocking. Local talent (Angelo, Silvio, Jose) arrived only as a relayed note, and my ABP says never name private individuals, so I left them out. If you want them listed on this page, say so here or in the ABP.",
