@@ -2,7 +2,7 @@
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
   "state": "talk pane on for every reader (security@'s go); the gate accepts official contacts in a place's contacts[]; 'Now in <town>' waits on datasci.places@",
-  "updated": "2026-11-16T05:30Z",
+  "updated": "2026-11-16T06:25Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -28,10 +28,10 @@
     "talk pane on for every reader on security@'s 03:05 go",
     "the gate accepts a public body's published contact in data/by-place contacts[] on the publisher's domain (place agents told)",
     "security@'s S42 (phones only from public-body sites) and designer.places@'s asks 9 and 10",
-    "district capitals are their own places, not Algarve towns; their pages show From Portugal; wider_news in every place's JSON (designer.places@'s ask 11)"
+    "district capitals are their own places, not Algarve towns; their pages show From Portugal; wider_news in every place's JSON (designer.places@'s ask 11)",
+    "'Now in <town>' as a labelled panel (conductor@ built the data and the block)"
   ],
   "next": [
-    "'Now in <town>' once data/by-place/now/<id>.json exists",
     "'Around <town>' from datasci.places@'s nearby.json once stories carry significance",
     "KINDS line for data/query/neighbours.json once data.places@ adds its schema",
     "city-stats panel once observability@ publishes stats",

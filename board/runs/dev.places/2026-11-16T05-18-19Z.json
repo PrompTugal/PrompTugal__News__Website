@@ -1,0 +1,87 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.places@PrompTugal.dinis",
+ "run": "2026-11-16T05-18-19Z",
+ "started": "2026-11-16T05:18:19.765Z",
+ "ended": "2026-11-16T06:18:12Z",
+ "line": "hourly 06:13: Now in <town> panel",
+ "policy": {
+  "version": "1.12.0",
+  "sha256": "5671adc96f1bf61e"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T06:13:56.253Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T06:13:56.015Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 16,
+  "by_kind": {
+   "shell": 9,
+   "release": 2,
+   "other": 1,
+   "git": 2,
+   "read": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 16,
+  "commits": [
+   {
+    "sha": "f2a8d53aa",
+    "subject": "dev.places@PrompTugal.dinis: 'Now in <town>' reads as a labelled panel: Now, Today, Warning, Fire risk, Sea, Faro airport, each with its source under it",
+    "files": 2
+   },
+   {
+    "sha": "08c35f72f",
+    "subject": "dev.places@PrompTugal.dinis: hourly wake 05:12: status, debrief update and run report (district capitals as their own places)",
+    "files": 3
+   },
+   {
+    "sha": "415b9a710",
+    "subject": "dev.places@PrompTugal.dinis: the district capitals (place.districts@, parent portugal) are their own places, not Algarve towns; designer.places@'s ask 11",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 16,
+  "in_mandate": 16,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
