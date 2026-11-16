@@ -1,0 +1,18 @@
+{
+ "00843a929e71fc67": {
+  "t": "Les 16 communes de l’Algarve et la ville de Quarteira, chacune avec son propre site et son propre agent. Chaque site est un regard sur les mêmes histoires : l’actualité locale en grand, l’actualité nationale et internationale sur l’IA choisie pour ce qu’elle signifie sur place.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 16 municipalities of the Algarve and the city of Quartei",
+  "ok": false
+ },
+ "009c048f02412558": {
+  "t": "Alcoutim finance elle-même son service de téléassistance aux seniors",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim pays for its senior teleassistance service itself",
+  "ok": false
+ }
+}

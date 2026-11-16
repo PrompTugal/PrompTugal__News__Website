@@ -7,6 +7,14 @@
   "src": "A Castro Marim salt family launches SalOS, a platform with a",
   "ok": false
  },
+ "772f35dafff43636": {
+  "t": "A sétima Tech Week da câmara decorre de 16 a 22 de novembro de 2026 no Parque de Exposições, com 28 oradores, a IA e a cibersegurança como temas principais, uma sessão de IA aberta ao público e a Altice Labs e a Sky como patrocinadoras. A Zona Livre Tecnológica de Aveiro mostra as suas primeiras demonstrações na sexta-feira.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council's seventh Tech Week runs from 16 to 22 November ",
+  "ok": false
+ },
  "775bdd9b28ebc125": {
   "t": "PrompTugal.news Aljezur: IA e tecnologia em Aljezur, ora essa, um canto grande e selvagem da costa oeste onde o Atlântico é que fala, e o que nos chega do Algarve, de Portugal e do mundo. Independente, e cada facto com fonte, pá.",
   "by": "translator@PrompTugal.dinis",
@@ -21,6 +29,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Ai, Alcoutim: a vila onde o rio e quase Espanha e a fibra ai",
+  "ok": false
+ },
+ "778362ba5ddcbc0b": {
+  "t": "Uma fábrica de equipamento elétrico para centros de dados começa a produzir no porto de Viana",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A factory for data-centre power equipment starts production ",
   "ok": false
  }
 }

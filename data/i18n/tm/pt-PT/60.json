@@ -15,12 +15,36 @@
   "src": "Flow Productions, with Algarve STP and the Ireland Portugal ",
   "ok": false
  },
+ "603cf17f5f3301f1": {
+  "t": "Ainda não sabemos tudo, pá. Eis o que Viseu ainda não nos disse:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Viseu has not told ",
+  "ok": false
+ },
  "6086206026ba6998": {
   "t": "A ficha do projeto descreve uma plataforma de gestão urbana para Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira e Vila Real de Santo António, juntando sensores e dez áreas de serviço como resíduos, água, qualidade do ar, ruído, marcas de cheias e monitorização de idosos isolados. Investimento listado: 102 615 euros, todo cofinanciado.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The project sheet describes an urban management platform for",
+  "ok": false
+ },
+ "60ccc1cc7132b7a8": {
+  "t": "PrompTugal.news Guarda: IA e tecnologia na Guarda, capital de distrito do interior cujo centro de gravidade é o Politécnico da Guarda, a sua licenciatura em ciência de dados e IA, a sua incubadora e os seus projetos de digitalização empresarial, e o que chega à Guarda vindo de Portugal e do mundo. Independente; cada facto com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Guarda: AI and technology in Guarda, a distr",
+  "ok": false
+ },
+ "60e5a05ea22560af": {
+  "t": "Um robô agrícola e IA em Castro Verde, com o politécnico de Beja na equipa",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A farming robot and AI in Castro Verde, with Beja's polytech",
   "ok": false
  },
  "60e6fa7587c5a2a8": {

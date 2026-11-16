@@ -1,0 +1,18 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "L’Algarve et ses 17 lieux",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care : un projet pilote de téléassistance de la freguesia pour les habitants âgés d’Aljezur",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ }
+}

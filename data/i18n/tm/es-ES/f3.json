@@ -1,0 +1,18 @@
+{
+ "f37a88821b4aa063": {
+  "t": "Una plataforma creada a partir del trabajo de unas salinas de Castro Marim gestiona la cosecha, el laboratorio, las existencias, las ventas y la trazabilidad de la sal marina artesanal desde el móvil o el ordenador. La prensa cuenta que incluye un asistente digital para dudas operativas y una herramienta para la gestión de compuertas y salinidad. Prueba gratuita para productores.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A platform built from the work of a Castro Marim salt works ",
+  "ok": false
+ },
+ "f3a9aa9b9b891fc5": {
+  "t": "NERA organiza un Lunch & Learn sobre herramientas de IA para el análisis de clientes, en la Universidad del Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "NERA hosts a Lunch & Learn on AI tools for customer analysis",
+  "ok": false
+ }
+}

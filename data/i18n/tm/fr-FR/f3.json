@@ -1,0 +1,18 @@
+{
+ "f37a88821b4aa063": {
+  "t": "Une plateforme issue du travail d’une saline de Castro Marim gère récolte, laboratoire, stocks, ventes et traçabilité du sel de mer artisanal sur téléphone ou ordinateur. La presse dit qu’elle comprend un assistant numérique pour les questions d’exploitation et un outil de gestion des écluses et de la salinité. Essai gratuit pour les producteurs.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A platform built from the work of a Castro Marim salt works ",
+  "ok": false
+ },
+ "f3a9aa9b9b891fc5": {
+  "t": "NERA organise un Lunch & Learn sur les outils d’IA pour l’analyse client, à l’université de l’Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "NERA hosts a Lunch & Learn on AI tools for customer analysis",
+  "ok": false
+ }
+}

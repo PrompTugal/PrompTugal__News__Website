@@ -1,0 +1,26 @@
+{
+ "2b7b9ad9a81e640c": {
+  "t": "A história tecnológica de Santarém é agroalimentar. A câmara e a Universidade Politécnica de Santarém, com o ISLA Santarém, o INIAV e o recinto da CNEMA, estão a construir o Campus Tejo, um parque de ciência e tecnologia sobre água, agro e ciências da vida que foi apresentado no Web Summit Lisboa a 12 de novembro de 2026. As páginas que lemos não dizem que o Campus Tejo usa IA, pelo que a sua ligação à IA é uma curta inferência através da agricultura de precisão e da digitalização. A atividade direta de IA é menor e dispersa: um projeto de IA de 100 000 euros financiado pelo PRR no ISLA Santarém, sessões de negócios e saúde na CNEMA, e um programa de IA na agricultura num encontro de produtores de mirtilos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's technology story is agri-food. The council and th",
+  "ok": false
+ },
+ "2b849e5e92cfc33b": {
+  "t": "Guarda, ó pá: frio que chegava para congelar um servidor, teimosa como o granito, e casa de um politécnico que ensina discretamente máquinas e ensinou alguns estudantes a ler o PDM antes dos arquitetos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "Os seus estudantes e o seu pessoal têm acesso gratuito às versões pro de três grandes modelos de linguagem através do serviço IAedu da FCT, que a instituição considera um passo rumo a uma utilização responsável e colaborativa da IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false
+ }
+}

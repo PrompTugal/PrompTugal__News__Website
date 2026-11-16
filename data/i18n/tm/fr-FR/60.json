@@ -1,0 +1,34 @@
+{
+ "6034217bbcf2a652": {
+  "t": "Flow Productions, avec Algarve STP et l’Ireland Portugal Business Network, a organisé le 22 juillet, sur le campus UAlg TEC, un débat en anglais sur la façon dont ChatGPT, Gemini, Claude et Perplexity changent la recherche en ligne, et sur l’optimisation pour les moteurs de réponse et les moteurs génératifs.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Flow Productions, with Algarve STP and the Ireland Portugal ",
+  "ok": false
+ },
+ "60ccc1cc7132b7a8": {
+  "t": "PrompTugal.news Guarda : IA et technologie à Guarda, capitale de district de l’intérieur dont le centre de gravité est le Politécnico da Guarda, sa licence en science des données et IA, son incubateur et ses projets de numérisation des entreprises, et ce qui arrive à Guarda depuis le Portugal et le monde. Indépendant ; chaque fait sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Guarda: AI and technology in Guarda, a distr",
+  "ok": false
+ },
+ "60e5a05ea22560af": {
+  "t": "Un robot agricole et de l’IA à Castro Verde, avec l’école polytechnique de Beja dans l’équipe",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A farming robot and AI in Castro Verde, with Beja's polytech",
+  "ok": false
+ },
+ "60e6fa7587c5a2a8": {
+  "t": "Avec la Fundação Galp, la mairie a ouvert un système de 14 vélos électriques répartis sur quatre stations, ouvert aux habitants comme aux visiteurs. L’investissement dépasse 100 000 euros et une plateforme numérique de gestion et d’usage, conçue par l’entreprise CME, le fait fonctionner.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "With Fundacao Galp, the council opened a system of 14 electr",
+  "ok": false
+ }
+}

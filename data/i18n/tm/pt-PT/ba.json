@@ -7,6 +7,22 @@
   "src": "Partners from Portugal, Spain, France and Ireland met at the",
   "ok": false
  },
+ "ba82092f0fba1546": {
+  "t": "Lisboa é onde as universidades constroem centros de dados, os institutos ganham milhões, e um modelo de linguagem nacional ganha palco no Técnico. As startups vêm para Alvalade, os investidores-anjo vêm com os livros de cheques, e a Câmara, abençoada seja, guarda os seus planos de IA para si por agora. Investigação e startups, sim senhor, não a câmara municipal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisboa is where the universities build data centres, the ins",
+  "ok": false
+ },
+ "baa010b4574410e1": {
+  "t": "A Tekever põe drones e uma plataforma assistida por IA a mapear os estragos da tempestade em Leiria",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tekever puts drones and an AI-assisted platform to work mapp",
+  "ok": false
+ },
  "bad44b8a105b25d8": {
   "t": "Albufeira vive de visitantes, por isso os hotéis e o turismo vêm primeiro. A câmara tem um espaço de coworking dentro de um hotel à beira-mar e uma incubadora que prefere ideias de turismo, e diz que uma plataforma de IA já ajuda no planeamento urbano. Pois, nada mau para uma terra famosa pelas praias.",
   "by": "translator@PrompTugal.dinis",

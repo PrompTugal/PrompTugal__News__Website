@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Ora pois, Aljezur: mais ondas do que servidores, mais vento ",
   "ok": false
+ },
+ "8720c87cfd89ec25": {
+  "t": "Leiria, pá: um castelo na colina, moldes no vale e, ultimamente, um laboratório de robôs a caminho do mercado, porque pelos vistos esta cidade faz coisas e agora ensina-as a pensar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria, pá: a castle on the hill, moulds in the valley and, ",
+  "ok": false
+ },
+ "87ff377857174ef8": {
+  "t": "PrompTugal.news Viana do Castelo, a Princesa do Lima: IA e tecnologia em Viana, com o Politécnico e o Data CoLAB como cabeças inteligentes e uma fábrica nova e reluzente a zumbir para os centros de dados, e as notícias que navegam até cá vindas do Alto Minho, de Portugal e do mundo. Independente, e cada facto vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Viana do Castelo, a Princesa do Lima: AI and",
+  "ok": false
  }
 }

@@ -1,0 +1,26 @@
+{
+ "704716259fe71850": {
+  "t": "Ici, pas une centaine de start-ups : on est plutôt ponts, eau et capteurs. Un pont vers l’Espagne, une conduite d’eau refaite à Martim Longo et une plateforme de capteurs partagée avec cinq autres municipalités. Avant l’IA, les données. Avant les données, le câble, fogo !",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here we do not have a hundred startups, ca estamos mais para",
+  "ok": false
+ },
+ "709b6f8f4d9d3ae4": {
+  "t": "Du soleil, de la mer et un chatbot pour réserver votre transat : voilà Albufeira, où le tourisme est la première activité et où l’IA fait son apparition à la réception.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Sol, sea and a chatbot to book your sunbed: this is Albufeir",
+  "ok": false
+ },
+ "709c6e61a7a4ef00": {
+  "t": "Castelo Branco : là où les couvre-lits sont brodés à la main et où les coupe-feu sont désormais inspectés par un drone qui a son avis, ai ai ai.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castelo Branco: where the coverlets are embroidered by hand ",
+  "ok": false
+ }
+}

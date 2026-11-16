@@ -1,0 +1,18 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "La actividad de IA de Braga se reparte en cuatro lugares que las fuentes muestran uno al lado del otro: la investigación (el grupo de IA de la Universidad del Miño, la spin-off OmniumAI, nacida en el Miño, y el laboratorio ibérico de nanotecnología INL), la I+D de las empresas (el primer centro de IA de Cegid en Portugal y la nueva unidad de eBike de Bosch, cuyo software antirrobo usa aprendizaje automático), el uso de la IA por el propio ayuntamiento (un piloto de cámaras en autobuses con Hayden AI y un proyecto de 1,5 millones de euros para llevar la IA a la administración municipal) y una capa de startups en torno a Startup Braga e InvestBraga, que llevó 15 startups a Web Summit 2026. A diferencia de las localidades del Algarve, Braga no depende de una sola institución, y lo que pudimos leer muestra un gobierno municipal que compra y pilota IA en lugar de limitarse a acoger eventos sobre ella.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "La actividad de IA de Évora se reparte en tres lugares. La Universidade de Évora imparte un grado de IA y ciencia de datos, ha escrito sus propias normas para la IA en la enseñanza y dice haber construido modelos en lengua portuguesa. PACT, el parque de ciencia y tecnología del Alentejo, imparte formación en IA y acoge a empresas tecnológicas. El Hospital de Évora es el primer hospital público portugués que usa un sistema de IA para el cribado de cuello uterino, según la propia unidad de salud. También ha llegado capital privado más reciente, con una empresa de centros de datos que compra un emplazamiento de 1 MW en la ciudad. El propio sitio del ayuntamiento no muestra ningún uso de IA que hayamos podido leer, así que la universidad, el parque y el hospital, no el ayuntamiento, son el centro de gravedad.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ }
+}

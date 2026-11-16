@@ -7,12 +7,28 @@
   "src": "Venture Lab opens a free mentoring call whose topics include",
   "ok": false
  },
+ "694151e7c32d3ab4": {
+  "t": "PrompTugal.news Viana do Castelo: IA e tecnologia em Viana do Castelo, uma cidade portuária cujo centro de gravidade é o seu politécnico, um laboratório de inovação de dados e uma nova fábrica de equipamento para centros de dados, e o que chega a Viana do Castelo vindo do Alto Minho, de Portugal e do mundo. Independente; cada facto com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Viana do Castelo: AI and technology in Viana",
+  "ok": false
+ },
  "69568bc882f07217": {
   "t": "O CoLagos, o espaço de coworking da câmara, ganha um prémio regional pelo terceiro ano",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "CoLagos, the council's coworking space, wins a regional awar",
+  "ok": false
+ },
+ "69932eb3fcd93dc9": {
+  "t": "A Startup Braga leva 15 startups ao Web Summit, quatro delas assentes em IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Startup Braga takes 15 startups to Web Summit, four of them ",
   "ok": false
  }
 }

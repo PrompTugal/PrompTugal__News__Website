@@ -1,0 +1,18 @@
+{
+ "59dd9fcb07fb9be0": {
+  "t": "**Esta página como datos:** todo lo que contiene se sirve primero como JSON, en [su propio archivo]({json}) (sus historias, mapa de la IA, eventos, fuentes, lagunas, equipo e identidad), con [todos los lugares en un solo índice]({index}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
+ "59ec641f83c3c308": {
+  "t": "La cumbre de dos días se celebró en un hotel de Lagos el 6 y 7 de noviembre de 2025. Un avance anunció una demostración en directo de cómo crear un ChatGPT especializado el primer día. Barlavento contó después unas 450 personas el primer día y 570 el segundo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The two-day summit ran at a Lagos hotel on 6 and 7 November ",
+  "ok": false
+ }
+}

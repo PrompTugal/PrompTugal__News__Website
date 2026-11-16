@@ -1,10 +1,26 @@
 {
+ "52a3442ebff23e77": {
+  "t": "Portalegre, ó pá: uma vila de colina feita de granito e tapeçaria onde a lã foi tingida à mão durante séculos, e onde agora o politécnico ensina sensores e chatbots a viver numa quinta, enquanto a Espanha espera educadamente do outro lado da colina.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre, ó pá: a hill town of granite and tapestry where ",
+  "ok": false
+ },
  "52c7ce0be499b3ee": {
   "t": "A Algarve Evolution abre candidaturas ao seu piloto de IA e robótica para PME do turismo",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Algarve Evolution opens applications for its AI and robotics",
+  "ok": false
+ },
+ "52ca0f56bcbd27af": {
+  "t": "A UTAD junta-se a um projeto de 36 meses que usa IA para combater a vespa-asiática",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD joins a 36-month project using AI to fight the Asian ho",
   "ok": false
  }
 }

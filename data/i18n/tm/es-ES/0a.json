@@ -1,0 +1,18 @@
+{
+ "0a25a694e0d350f0": {
+  "t": "- **Portugal:** [promptugal.news]({portugal}), con Europa y el mundo\n- **El Algarve:** esta página\n- **Las localidades:** {count} sitios por debajo\n\nLas noticias fluyen **hacia abajo** (noticias nacionales e internacionales de IA, elegidas por lo que significan aquí) y **hacia arriba** (fuentes locales, que suben cuando importan).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "- **Portugal:** [promptugal.news]({portugal}), with Europe a",
+  "ok": false
+ },
+ "0a3a7e1517d2e2b4": {
+  "t": "Fondos europeos llevarán la IA y la robótica a 15 empresas turísticas del Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "European funds to bring AI and robotics to 15 Algarve touris",
+  "ok": false
+ }
+}

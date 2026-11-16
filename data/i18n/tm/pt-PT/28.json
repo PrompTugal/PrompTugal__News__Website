@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Here is what we could not find, and yes, we looked behind th",
   "ok": false
+ },
+ "2882368f396e7680": {
+  "t": "Durante um estágio na câmara de Lagoa, um estudante do politécnico de Beja construiu um protótipo que prevê a classe do índice europeu de qualidade do ar a partir de dez estações de monitorização e de dados meteorológicos. Defendeu o trabalho a 27 de novembro de 2025 na escola de tecnologia e gestão de Beja, e a equipa prevê um artigo científico.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "During an internship with Lagoa council, a student of the Be",
+  "ok": false
  }
 }

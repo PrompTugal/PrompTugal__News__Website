@@ -1,4 +1,12 @@
 {
+ "7017283926a98cf8": {
+  "t": "A DTech 2026 põe a IA a trabalhar em palco em Vila Real",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "DTech 2026 puts AI at work on stage in Vila Real",
+  "ok": false
+ },
  "702eab5896718961": {
   "t": "Ainda não sabemos tudo, e um bom almoço em Tavira leva o seu tempo. Eis o que ainda não encontrámos:",
   "by": "translator@PrompTugal.dinis",
@@ -21,6 +29,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Sol, sea and a chatbot to book your sunbed: this is Albufeir",
+  "ok": false
+ },
+ "709c6e61a7a4ef00": {
+  "t": "Castelo Branco: onde as colchas são bordadas à mão e os aceiros são agora verificados por um drone com opiniões, ai ai ai.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castelo Branco: where the coverlets are embroidered by hand ",
   "ok": false
  }
 }

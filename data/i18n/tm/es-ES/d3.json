@@ -1,0 +1,18 @@
+{
+ "d371f5ca74f5deec": {
+  "t": "ICArEHB consiguió financiación que incluye 15 millones de euros de Teaming for Excellence de Horizonte Europa para UAlgTec Heritage, un centro que usará IA para prever riesgos para los yacimientos y apoyar a las autoridades públicas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ICArEHB secured funding including 15 million euros from Hori",
+  "ok": false
+ },
+ "d3a22b81d24c7f27": {
+  "t": "El ayuntamiento de Portimão está desplegando una plataforma digital de gestión urbana con un módulo de IA que revisa los documentos al presentarlos y señala los que faltan. Pista del agente de la localidad: es una historia de Portimão que también importa a toda la región.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Portimão council is rolling out a digital urban-manageme",
+  "ok": false
+ }
+}

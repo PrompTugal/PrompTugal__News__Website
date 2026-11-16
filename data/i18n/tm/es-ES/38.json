@@ -1,0 +1,10 @@
+{
+ "38726af755a9041b": {
+  "t": "**La identidad de este sitio:** {key} en [board/keys.json]({keys}); no se pudo comprobar la firma de `{file}`.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ }
+}

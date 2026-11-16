@@ -1,0 +1,26 @@
+{
+ "78bee850bc310c70": {
+  "t": "Créer une entreprise à {name}",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Starting a company in {name}",
+  "ok": false
+ },
+ "78e0284d3a099cdd": {
+  "t": "L’affinage du Queijo Serpa reçoit des capteurs et de l’apprentissage automatique, avec l’université de Beja pour partenaire",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Queijo Serpa curing gets sensors and machine learning, with ",
+  "ok": false
+ },
+ "78fba34193dcd135": {
+  "t": "Le programme d’Algarve STP pour 12 start-ups et PME de l’Algarve, dans le cadre d’Algarve Empreende 2026, listait la technologie et l’intelligence artificielle parmi ses sujets de mentorat, avec l’UAlg, l’AMAL, NERA, l’ANJE et Algarve Evolution comme partenaires. Les candidatures se sont closes le 24 juin 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve STP's programme for 12 Algarve startups and SMEs, un",
+  "ok": false
+ }
+}

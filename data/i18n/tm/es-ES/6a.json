@@ -1,0 +1,26 @@
+{
+ "6a44c07f76c1d587": {
+  "t": "El parque científico de la Universidad de Aveiro organiza una aceleradora de IA en el turismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Aveiro's science park runs an accelerator for ",
+  "ok": false
+ },
+ "6a5b544478ac32f9": {
+  "t": "El ecosistema del centro está en Web Summit Lisboa, nueve de ellas incubadas en el centro de innovación de InvestBraga. El artículo nombra ASOagentAI (un agente de IA para el crecimiento de apps), eDynamics (datos de movimiento convertidos en alertas de riesgo de lesión), LogisticsWMS (un sistema de almacén con IA) y Zixago (infraestructura sintética para IA).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The hub's ecosystem is at Web Summit Lisbon, nine of them in",
+  "ok": false
+ },
+ "6ae1602a04a24cb6": {
+  "t": "La 24.ª Conferencia EPIA sobre Inteligencia Artificial se celebró del 1 al 3 de octubre de 2025 en el campus de Gambelas, organizada por la Universidad del Algarve con la Asociación Portuguesa para la IA como patrocinadora, con 16 líneas temáticas, desde la IA en medicina y la IA generativa hasta la IA y el IoT en la agricultura y la IA en el transporte. El 29 y 30 de septiembre la precedió una escuela sobre IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 24th EPIA Conference on Artificial Intelligence ran from",
+  "ok": false
+ }
+}

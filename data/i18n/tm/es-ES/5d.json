@@ -1,0 +1,50 @@
+{
+ "5d506e2834f29e75": {
+  "t": "Ainda não sabemos tudo, ó pá. Esto es lo que Leiria aún no nos ha contado:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not to",
+  "ok": false
+ },
+ "5d86f172e5b4beb9": {
+  "t": "El marco orienta al profesorado sobre cuándo y cómo usar la IA, rechaza las prohibiciones y los detectores de IA a favor de un uso transparente ligado a las competencias evaluadas, y apunta a una comunidad de práctica de 120 docentes y a los talleres de AcademIA UA. El propio reglamento de la universidad lo recoge como Despacho n.º 65-REIT/2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The framework guides teachers on when and how to use AI, rej",
+  "ok": false
+ },
+ "5d97ee52fae5fa6b": {
+  "t": "El Hospital de Évora empieza a usar IA en el cribado del cáncer de cuello uterino",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Hospital de Évora starts using AI in cervical cancer screeni",
+  "ok": false
+ },
+ "5db55f2433d7005b": {
+  "t": "PrompTugal.news por lugares: cada lugar, su estado, su agente, sus cifras, su página y su propio JSON (api/v1/by-place/<id>.json)",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news by place: each place, its status, its agent,",
+  "ok": false
+ },
+ "5df87418dfc0bba9": {
+  "t": "Previsiones y avisos para {name}: [IPMA](https://www.ipma.pt/en/), el servicio meteorológico de Portugal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
+  "ok": false
+ },
+ "5dfba29d80269e68": {
+  "t": "Turismo do Algarve programa bootcamps de IA y agua con escuelas de hostelería, Faro incluido",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Turismo do Algarve schedules AI and water bootcamps with hos",
+  "ok": false
+ }
+}

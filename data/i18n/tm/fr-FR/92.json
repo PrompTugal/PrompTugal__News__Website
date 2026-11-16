@@ -1,0 +1,18 @@
+{
+ "922ac29a528698b1": {
+  "t": "Le modèle d’IA d’un étudiant prédit la qualité de l’air pour la mairie de Lagoa",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A student's AI model predicts air quality for Lagoa's counci",
+  "ok": false
+ },
+ "9286284686f43f22": {
+  "t": "L’activité IA de Castelo Branco s’organise autour de l’école polytechnique, devenue Universidade Politécnica de Castelo Branco le 1er août 2026, et des gens qu’elle forme. Son école de santé organise des journées sur l’IA en santé, deux de ses professeurs d’ingénierie ont fondé la start-up de drones contre les incendies Axtron Systems, et une entreprise locale de technologies des déchets et un cabinet de conseil informatique sont les principaux noms privés. La page d’accueil de la mairie ne montre aucun sujet d’IA ; l’université et quelques start-ups, et non l’hôtel de ville, sont donc le centre de gravité.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castelo Branco's AI activity sits around the polytechnic, wh",
+  "ok": false
+ }
+}

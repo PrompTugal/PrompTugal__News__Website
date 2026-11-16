@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "A Loulé studio put a band's late member back on stage with a",
   "ok": false
+ },
+ "9e5d7b58a61aea81": {
+  "t": "PrompTugal.news Vila Real, a nossa cidade da serra: IA e tecnologia em Vila Real, com a UTAD como grande cérebro entre as colinas e o Regia Douro Park ao lado, e as notícias que trepam o Marão vindas de Trás-os-Montes, de Portugal e do mundo. Independente, e cada facto vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real, a nossa cidade da serra: AI and t",
+  "ok": false
  }
 }

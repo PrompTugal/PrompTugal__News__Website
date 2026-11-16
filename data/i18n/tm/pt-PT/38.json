@@ -7,6 +7,14 @@
   "src": "PrompTugal.news Portimão: AI and technology in Portimão, a c",
   "ok": false
  },
+ "3857de4a8f72f925": {
+  "t": "A UNIPS, a Universidade Politécnica de Setúbal como o jornal a designa, juntou-se à rede GeSI e DEFIA Portugal liderada pela Universidade de Coimbra, lançada a 15 de outubro de 2026, que visa o uso responsável da IA e a literacia de IA no ensino superior. Representou-a um docente de informática da sua escola de tecnologia.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UNIPS, the Universidade Politécnica de Setúbal as the paper ",
+  "ok": false
+ },
  "38726af755a9041b": {
   "t": "**A identidade deste site:** {key} em [board/keys.json]({keys}); não foi possível verificar a assinatura de `{file}`.",
   "by": "translator@PrompTugal.dinis",
@@ -29,6 +37,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The council and the University of Algarve met in April 2026 ",
+  "ok": false
+ },
+ "38d3e7192f1cc031": {
+  "t": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta a chegar de bicicleta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta",
   "ok": false
  }
 }

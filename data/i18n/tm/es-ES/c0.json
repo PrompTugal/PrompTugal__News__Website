@@ -1,0 +1,18 @@
+{
+ "c042cd426860bb15": {
+  "t": "Talento local",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Local talent",
+  "ok": false
+ },
+ "c0cf4bc9d89bf459": {
+  "t": "El gobierno prevé un piloto en un número reducido de municipios que ya están tecnológicamente preparados, con la IA como capa única de acceso sobre las plataformas municipales, empezando por las licencias de obra. Coimbra figura como parte de la primera fase, y su alcalde dijo que la IA puede acelerar los procesos respetando las normas urbanísticas y sin deshumanizar los servicios públicos. La página no muestra fecha exacta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ }
+}

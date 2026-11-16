@@ -1,4 +1,28 @@
 {
+ "710153d0b2d3c16e": {
+  "t": "PrompTugal.news Guarda, a cidade de pedra: IA e tecnologia na Guarda, com o Politécnico da Guarda como a sala quente numa cidade fria, e as notícias que sobem até cá vindas de Portugal e do mundo. Independente, e cada facto vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Guarda, a cidade de pedra: AI and tech in Gu",
+  "ok": false
+ },
+ "71068d3478ecd69b": {
+  "t": "A instituição aprovou princípios e orientações para a IA no ensino, na investigação, na gestão e nos serviços, sublinhando a integridade académica, a supervisão humana, a proteção de dados e a transparência, em linha com o Regulamento da IA da UE. A página não mostra data de publicação, apenas uma pasta de carregamento de junho de 2026 para os seus documentos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The institution approved principles and guidance for AI in t",
+  "ok": false
+ },
+ "719d0fd5c71dc7ec": {
+  "t": "A incubadora está a acrescentar quase 2000 metros quadrados no mercado municipal de Leiria para um laboratório de robótica e IA para a indústria, aberto às PME da região e à universidade. Custa cerca de 1,7 milhões de euros, depende de uma candidatura ao Centro 2030 ainda em análise e visa abrir em 2027.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The incubator is adding nearly 2,000 square metres in Leiria",
+  "ok": false
+ },
  "71eded02f3f316d1": {
   "t": "Pois, ainda não há aqui nenhuma empresa de IA que tenhamos conseguido encontrar, e dizemo-lo sem rodeios. Eis o que falta, devagar, devagarinho.",
   "by": "translator@PrompTugal.dinis",

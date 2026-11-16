@@ -1,0 +1,18 @@
+{
+ "e43bddec80617003": {
+  "t": "aún sin clave del sitio",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "no site key yet",
+  "ok": false
+ },
+ "e4fe16d03118e8e3": {
+  "t": "Beja, pá: donde la llanura se extiende plana hasta el horizonte, el calor se sienta toda la tarde y un politécnico enseña en silencio a los robots a contar ovejas y a los quesos a portarse bien.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Beja, pá: where the plain runs flat to the horizon, the heat",
+  "ok": false
+ }
+}

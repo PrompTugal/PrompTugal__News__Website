@@ -1,0 +1,26 @@
+{
+ "a59f1749796b2268": {
+  "t": "APDC y Google ponen en marcha un curso de IA para funcionarios, con arranque en Coimbra",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "APDC and Google start an AI course for civil servants, kicke",
+  "ok": false
+ },
+ "a5e56e75b8fadd24": {
+  "t": "Sinceramente, meu amigo, esto es lo que no pudimos encontrar, y es mucho, como buscar sombra a las dos de la tarde en agosto:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Honestly, meu amigo, here is what we could not find, and it ",
+  "ok": false
+ },
+ "a5f2c7318be1c9ed": {
+  "t": "**La identidad de este sitio:** PrompTugal.news {name} tiene su propia clave, {key} (huella de firma {fp}), publicada en [board/keys.json]({keys}). Su archivo de investigación, `{file}`, lo mantiene {agent} y está firmado con esa clave, y la firma se verifica con ella: **firma válida**.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ }
+}

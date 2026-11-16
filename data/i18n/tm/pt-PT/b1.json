@@ -1,10 +1,34 @@
 {
+ "b123789f4e433d71": {
+  "t": "A Universidade de Évora define um quadro para a IA no ensino e na avaliação",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Universidade de Évora sets a framework for AI in teaching an",
+  "ok": false
+ },
  "b180906cdf789f05": {
   "t": "Num almoço-debate em Vilamoura aberto pela reitoria da UAlg, o orador defendeu que a região deve escolher poucas prioridades, e o responsável de uma empresa algarvia avisou que a região tem menos de 10 por cento da capacidade de computação de que a IA precisa.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "At a Vilamoura lunch debate opened by the UAlg rector's offi",
+  "ok": false
+ },
+ "b1af95c74ad891f3": {
+  "t": "A Start Campus e a Porto Business School percorreram três cidades à procura de startups que constroem produtos de IA. Nove finalistas apresentaram-se a 29 de maio de 2026 por um lugar no centro de dados da Start Campus em Sines, créditos de nuvem e bolsas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Start Campus and Porto Business School toured three cities f",
+  "ok": false
+ },
+ "b1fc627f2a07a828": {
+  "t": "O ADiT-Lab, uma unidade de investigação do politécnico, realizou uma conferência gratuita a 8 de abril de 2026 chamada Digital Transformation: Building AI-Driven Organizations, com uma palestra principal e um think tank. Os oradores concordaram que o foco é agora usar a IA de forma crítica, responsável e com uma estratégia clara.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ADiT-Lab, a research unit of the polytechnic, held a free co",
   "ok": false
  }
 }

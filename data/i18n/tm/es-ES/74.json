@@ -1,0 +1,18 @@
+{
+ "7476aaf73338349a": {
+  "t": "PrompTugal.news Lagoa: IA y tecnología en Lagoa, tierra de turistas, vino y congresos, donde el ayuntamiento y las freguesías llegaron a los robots antes que las empresas, y lo que nos llega desde el Algarve, Portugal y el mundo. Independiente, y cada dato tiene su fuente, pois.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lagoa: AI and technology in Lagoa, the land ",
+  "ok": false
+ },
+ "74c87f873c8a9d06": {
+  "t": "Un responsable informático del ayuntamiento de Lagoa lleva a la agenda regional un modelo de IA para los ayuntamientos del Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Lagoa council IT lead put an AI model for Algarve councils",
+  "ok": false
+ }
+}

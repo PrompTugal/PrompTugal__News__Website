@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "The two-day summit ran at a Lagos hotel on 6 and 7 November ",
   "ok": false
+ },
+ "59ed91899d661901": {
+  "t": "Calma, ainda não sabemos tudo, pá. Eis o que o Porto ainda não nos disse:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Calma, ainda não sabemos tudo, pá. Here is what Porto has no",
+  "ok": false
  }
 }

@@ -1,0 +1,18 @@
+{
+ "bc681d10176c83a6": {
+  "t": "Le fichier de ce lieu n’a pas pu être lu à la construction ; son agent est prévenu. La page affiche la dernière image.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bce4171009b6eb45": {
+  "t": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false
+ }
+}

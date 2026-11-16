@@ -1,0 +1,34 @@
+{
+ "582d1192093c3585": {
+  "t": "En la sesión del día municipal del ayuntamiento, el 24 de junio de 2026, la empresa de software Mind presentó un proyecto de urbanismo digital por fases. El sistema documental se está introduciendo ahora. Una fase posterior añade un servicio de urbanismo en línea con IA que ayuda a la gente a completar las solicitudes antes de que lleguen al personal del ayuntamiento. Las fechas son el plan del propio proveedor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the council's municipal day session on 24 June 2026 the s",
+  "ok": false
+ },
+ "584456f1fb7c91c5": {
+  "t": "El centro de artes y comunicación de la UAlg abre INTERFACE, un laboratorio de traducción digital, con un AI Studio",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UAlg's arts and communication centre opens INTERFACE, a digi",
+  "ok": false
+ },
+ "5891d7207cbdf70c": {
+  "t": "Una spin-off de la Universidad del Miño lidera un proyecto de IA para diseñar alimentos personalizados",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Minho spin-off leads an AI project to design p",
+  "ok": false
+ },
+ "589fab983110c317": {
+  "t": "Estudiantes del politécnico crearon una plataforma que usa IA para analizar las normas de los Planos Diretores Municipais y mostrar permisos, restricciones e incoherencias a arquitectos, ingenieros y oficinas de urbanismo. Ganó la fase regional del concurso Poliempreende.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Polytechnic students made a platform that uses AI to analyse",
+  "ok": false
+ }
+}

@@ -1,10 +1,34 @@
 {
+ "f45cb8f9a5c0ac3b": {
+  "t": "O politécnico da Guarda assina um acordo de drones e logística com IA com uma universidade ucraniana",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda polytechnic signs a drones and AI logistics agreement",
+  "ok": false
+ },
+ "f465c2f8959402fa": {
+  "t": "O Echo Boomer noticiou que a Nommo Smart Water Pump da Sociedade da Água de Monchique, construída com a startup Quantum Leap, aprenderia os hábitos de consumo do agregado familiar e voltaria a encomendar garrafas, com sensores a verificar a qualidade da água. Estava em pré-produção, com chegada ao mercado prevista para o primeiro semestre de 2022. Não encontrámos nenhuma notícia de que tenha sido lançada.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Echo Boomer reported that the Nommo Smart Water Pump from So",
+  "ok": false
+ },
  "f4ccbd63ab4bc3d3": {
   "t": "O Radar Social da câmara, financiado pelo PRR, concluiu a fase de planeamento e estava a construir um sistema de georreferenciação social para localizar pessoas, famílias e grupos em risco e os recursos sociais próximos, previsto para março de 2026. O orçamento é de 169 302,59 euros para uma equipa de dois técnicos.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The council's PRR-funded Radar Social finished its planning ",
+  "ok": false
+ },
+ "f4d3675bf1b07f58": {
+  "t": "PrompTugal.news Coimbra: IA e tecnologia em Coimbra, uma cidade universitária cujo centro de gravidade é a Universidade de Coimbra, os seus centros de investigação, a incubadora do Instituto Pedro Nunes e a empresa de deteção de fraude Feedzai, e o que chega a Coimbra vindo de Portugal, da Europa e do mundo. Independente; cada facto com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Coimbra: AI and technology in Coimbra, a uni",
   "ok": false
  }
 }

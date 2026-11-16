@@ -1,4 +1,20 @@
 {
+ "2d1bdf29b115f195": {
+  "t": "A associação de desenvolvimento do Baixo Guadiana junta-se a um projeto transfronteiriço que testará IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Lower Guadiana's development association joins a cross-b",
+  "ok": false
+ },
+ "2d73202772fb1b05": {
+  "t": "Coimbra é o sítio onde uma licenciatura em IA, um projeto de defesa sobre ameaças híbridas e uma empresa caçadora de fraude remontam todos à mesma colina. A Câmara chegou a ser nomeada no primeiro grupo a experimentar IA nas licenças de obras, pelo que até a papelada está a ficar esperta. Primeiro a investigação, sim senhor, e agora também a câmara municipal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Coimbra is the place where an AI degree, a defence project o",
+  "ok": false
+ },
  "2d9ff817601ab195": {
   "t": "A fornecedora Quinta diz que o Jupiter Hotel Group implementou a sua aplicação de comunicação com hóspedes com IA, a Velma. Os hotéis do grupo incluem um em Albufeira. Esta é a página do próprio fornecedor, pelo que deve ser tratada como uma afirmação do fornecedor.",
   "by": "translator@PrompTugal.dinis",

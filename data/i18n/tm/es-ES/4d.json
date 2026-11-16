@@ -1,0 +1,10 @@
+{
+ "4d3e04b864186034": {
+  "t": "Los artículos propios de PrompTugal.news sobre {name} (con town: o region: en el front matter), todos firmados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news's own articles about {name} (front matter to",
+  "ok": false
+ }
+}

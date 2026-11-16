@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Investors and investments",
   "ok": false
+ },
+ "ceae4e40d9b44e37": {
+  "t": "A associação VOST Portugal e a câmara organizaram dois dias na cidade sobre o uso das redes sociais e da IA na prevenção, preparação e resposta a catástrofes. Oradores dos serviços de emergência viram valor nos algoritmos para o planeamento de recursos e levantaram questões sobre verificação e privacidade.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The VOST Portugal association and the council organised two ",
+  "ok": false
  }
 }

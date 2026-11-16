@@ -1,4 +1,12 @@
 {
+ "8910bd341cbf7e23": {
+  "t": "O centro de gravidade de Leiria é um triângulo denso de uma incubadora, um politécnico e uma economia fabril. A Startup Leiria diz ter cerca de 220 empresas na sua comunidade e está a acrescentar quase 2000 metros quadrados para um laboratório de IA Física. O Politécnico de Leiria, que se prepara para ser a Universidade de Leiria e Oeste, tem a sua própria política de IA em vigor desde 1 de setembro de 2026 e a sua primeira spin-off de IA. Empresas locais como a Brainr (IA para fábricas alimentares) e a Tekever (um polo de engenharia de drones) ligam a IA à indústria do distrito, de moldes, plásticos, vidro e cerâmica. A câmara atua como primeira cliente de startups de IA, e não encontrámos nenhuma estratégia municipal de IA mais ampla.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria's centre of gravity is a dense triangle of an incubat",
+  "ok": false
+ },
  "89c91e34617c7ae5": {
   "t": "A câmara de Loulé leva uma experiência imersiva com IA à feira de turismo BTL",
   "by": "translator@PrompTugal.dinis",

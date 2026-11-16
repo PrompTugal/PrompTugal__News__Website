@@ -7,6 +7,14 @@
   "src": "The council joined the leadership of the municipal associati",
   "ok": false
  },
+ "3d2d85fa59d6dc5d": {
+  "t": "PrompTugal.news Santarém, a capital do Ribatejo: IA e tecnologia numa cidade que cultiva coisas, com o Campus Tejo como grande ideia, e as notícias que rolam até cá vindas de Portugal, da Europa e do mundo. Independente, e cada facto traz o seu recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Santarém, a capital do Ribatejo: AI and tech",
+  "ok": false
+ },
  "3d64dafac0000f62": {
   "t": "A AuroraMed e a UAlg lançam um curso de IA para líderes da saúde",
   "by": "translator@PrompTugal.dinis",

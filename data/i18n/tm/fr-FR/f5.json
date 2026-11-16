@@ -1,0 +1,18 @@
+{
+ "f5c4b6076c6b6263": {
+  "t": "Chaque article d’ici passe **le test PrompTugal** : il parle d’IA, directement ou à deux ou trois pas, et le chemin est écrit noir sur blanc. Le lieu décide où l’article apparaît et avec quelle importance ; l’IA décide s’il est des nôtres, tout simplement. Chaque fait renvoie à sa source avec la date de lecture. Rien ne vient du site de Web Summit. Les contacts ne sont affichés que lorsqu’un organisme public ou une organisation les publie sur son propre site, avec un lien vers cette page et la date de lecture ; jamais ceux d’un particulier. Cette page est un regard sur [le graphe partagé de la publication]({graph}) ; [PrompTugal.news par lieu]({region}) explique les niveaux.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Every story here passes **the PrompTugal test**: it is about",
+  "ok": false
+ },
+ "f5cb47601a008050": {
+  "t": "Ainda há muito por saber, pá. Voici ce que Guarda ne nous a pas encore dit :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda há muito por saber, pá. Here is what Guarda has not to",
+  "ok": false
+ }
+}

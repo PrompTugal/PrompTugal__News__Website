@@ -1,0 +1,26 @@
+{
+ "5a65504b74fe3688": {
+  "t": "**L’identité de ce site :** {key} dans [board/keys.json]({keys}) ; `{file}` n’est pas encore signé. Son agent, {agent}, le signe avec la clé du site.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "5a9a9bd5c02fa21d": {
+  "t": "Ó pá, Lagos a des caravelles, des falaises et plus d’ordinateurs portables par serviette de plage que n’importe où ailleurs en Algarve, et maintenant elle apprend aussi à parler aux machines.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, Lagos has caravels, cliffs and more laptops per beach ",
+  "ok": false
+ },
+ "5af88120885539ed": {
+  "t": "Pois, tout ne se trouve pas. Voici ce que nous cherchons encore, com calma, que a pressa é inimiga da perfeição :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Pois, nem tudo se encontra. Here is what we are still lookin",
+  "ok": false
+ }
+}

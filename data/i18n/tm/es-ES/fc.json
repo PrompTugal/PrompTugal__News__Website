@@ -1,0 +1,18 @@
+{
+ "fc00ddd291017b54": {
+  "t": "PrompTugal.news Albufeira: seguimos la IA y la tecnología en Albufeira, la ciudad de las playas, los bares y las reservas, y lo que llega arrastrado desde el Algarve, Portugal y el mundo. Independiente, cada dato con su fuente, sin quemaduras.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Albufeira: we follow the AI and tech in Albu",
+  "ok": false
+ },
+ "fccae70e24743955": {
+  "t": "La unidad regional de salud celebra un seminario web sobre IA en el servicio de salud",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Regional health unit holds a webinar on AI in the health ser",
+  "ok": false
+ }
+}

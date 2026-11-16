@@ -1,0 +1,34 @@
+{
+ "432067d7e9c06399": {
+  "t": "Castro Marim es un pequeño municipio a orillas del Guadiana, junto a España, cuya economía e identidad se asientan en las salinas tradicionales de la reserva natural del Sapal, en el turismo y en la cooperación transfronteriza de la Eurocidade do Guadiana. Su IA no es un clúster sino dos casos concretos: un ayuntamiento que moderniza su oficina de urbanismo con el software de un proveedor preparado para la IA, y una familia de salineros que construyó una plataforma de software con un asistente de IA para productores artesanales de sal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castro Marim is a small municipality on the Guadiana, next t",
+  "ok": false
+ },
+ "43bac9d8d5283da3": {
+  "t": "dstelecom lleva la fibra a 1000 hogares más en Alcoutim",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "dstelecom takes fibre to 1,000 more homes in Alcoutim",
+  "ok": false
+ },
+ "43c0da2732556484": {
+  "t": "Tras reestructurar cursos existentes de ingeniería y ciencia de datos para atender la demanda del mercado laboral, la universidad abrió en el verano de 2025 las solicitudes para el nuevo grado y máster.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "After restructuring existing engineering and data science co",
+  "ok": false
+ },
+ "43ea99aecc63d423": {
+  "t": "Tras la conferencia de IA EPIA 2025 en la universidad, los dos socios dijeron que conectarían a emprendedores, industria y educación superior en un clúster de IA y que atraerían talento al sur de Portugal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Following the EPIA 2025 AI conference at the university, the",
+  "ok": false
+ }
+}

@@ -7,6 +7,14 @@
   "src": "Algarve Evolution ran a pilot, part of Inova Algarve 3.0 and",
   "ok": false
  },
+ "3f782ad1dc2f86c4": {
+  "t": "Ainda não sabemos tudo, pá, e algumas portas bateram-nos um 403 na cara. Eis o que Coimbra ainda não nos disse:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá, and a few doors slammed 403 in o",
+  "ok": false
+ },
  "3fb4690c92bce2c8": {
   "t": "A Future Business Summit, a 19 de junho na Casa Manuel Teixeira Gomes, promovida pela StartUP Portimão e pela incubadora de empresas da câmara, incluiu um painel sobre o fator humano na era da IA, abrangendo literacia digital, cibersegurança e uso de IA nas empresas.",
   "by": "translator@PrompTugal.dinis",

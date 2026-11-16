@@ -1,0 +1,26 @@
+{
+ "1a1e23e86f8fba6a": {
+  "t": "De PrompTugal.news",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "From PrompTugal.news",
+  "ok": false
+ },
+ "1ab61419916bee37": {
+  "t": "Estudiantes y personal de Bragança disfrutan de una primavera de seminarios de IA en la ESTiG",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança students and staff get a spring of AI seminars at E",
+  "ok": false
+ },
+ "1ab6c4761e386626": {
+  "t": "El ayuntamiento de Albufeira acoge una conferencia sobre IA en el urbanismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Albufeira town hall hosts a conference on AI in urban planni",
+  "ok": false
+ }
+}

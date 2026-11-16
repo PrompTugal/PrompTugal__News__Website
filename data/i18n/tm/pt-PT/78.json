@@ -1,4 +1,12 @@
 {
+ "7862b73cf59b4d2c": {
+  "t": "A Viseu Dão Lafões realiza a sua primeira Smart Region Summit e mostra uma plataforma de dados e IA para presidentes de câmara",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu Dão Lafões holds its first Smart Region Summit and sho",
+  "ok": false
+ },
  "78bee850bc310c70": {
   "t": "Criar uma empresa em {name}",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Early-stage startups building or intensively using AI could ",
+  "ok": false
+ },
+ "78e0284d3a099cdd": {
+  "t": "A cura do queijo Serpa ganha sensores e aprendizagem automática, com a universidade de Beja como parceira",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Queijo Serpa curing gets sensors and machine learning, with ",
   "ok": false
  },
  "78fba34193dcd135": {

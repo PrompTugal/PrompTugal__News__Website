@@ -1,4 +1,12 @@
 {
+ "366bb797fee927fe": {
+  "t": "A reunião estratégica anual do INESC TEC realizou-se na UTAD a 11 de setembro, conduzida pela primeira vez pela rede de jovens investigadores BEAR. A IA foi um dos dois temas, com uma palestra principal sobre o seu futuro e grupos de trabalho.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "INESC TEC's annual strategic meeting was held at UTAD on 11 ",
+  "ok": false
+ },
  "36a4b0a59ce2073a": {
   "t": "Eish, eis o que não conseguimos encontrar, e uma rede vazia e honesta continua a ser uma descoberta.",
   "by": "translator@PrompTugal.dinis",

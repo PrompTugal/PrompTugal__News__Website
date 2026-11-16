@@ -1,0 +1,26 @@
+{
+ "551b35b7bd0d940d": {
+  "t": "PrompTugal.news Braga: IA y tecnología en Braga, una ciudad universitaria e industrial cuyo centro de gravedad son la Universidad del Miño, el laboratorio de nanotecnología INL, los centros de I+D de las empresas y el centro Startup Braga, y lo que llega a Braga desde el Miño, Portugal y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Braga: AI and technology in Braga, a univers",
+  "ok": false
+ },
+ "552aed54d42f2115": {
+  "t": "Junto con una nueva aplicación oficial, la junta de freguesía de Ferragudo añadió a su web un asistente virtual de IA. Responde a preguntas frecuentes, ayuda a encontrar documentos y orienta hacia los servicios. El artículo no dice quién lo construyó.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alongside a new official app, the Ferragudo parish council a",
+  "ok": false
+ },
+ "558aca3f668596b1": {
+  "t": "PrompTugal.news Bragança, a nossa terra do frio e do castelo: IA y tecnología en Bragança, con el politécnico y Brigantia EcoPark como grandes cerebros, y las noticias que llegan desde Portugal, Europa y el mundo. Independente, e cada dato viene con su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Bragança, a nossa terra do frio e do castelo",
+  "ok": false
+ }
+}

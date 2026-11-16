@@ -1,4 +1,12 @@
 {
+ "e19f2f627f87647b": {
+  "t": "Aveiro tem uma universidade, um instituto de telecomunicações e uma câmara que organiza uma Tech Week inteira, e ainda assim arranja espaço para startups de além-Atlântico. A Universidade escreve as regras e distribui as ferramentas de IA, o Cais do Porto traz os recém-chegados e a Câmara enche o Parque de Exposições. Sim senhor: investigação e uma Tech Week muito animada, não só barcos bonitos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aveiro keeps a university, a telecoms institute and a counci",
+  "ok": false
+ },
  "e1d8ea1dc97017bb": {
   "t": "Promoção turística da Eurocidade do Guadiana feita com avatares de IA de três presidentes de câmara, incluindo o de Castro Marim",
   "by": "translator@PrompTugal.dinis",

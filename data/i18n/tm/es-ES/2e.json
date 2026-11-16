@@ -1,0 +1,34 @@
+{
+ "2e08790bc444c605": {
+  "t": "Un profesor de informática dijo a Lusa que los modelos portugueses, más pequeños y abiertos, de la universidad alcanzan en algunas tareas un rendimiento comparable al de los modelos de las grandes tecnológicas, y que ya hay un modelo portugués y gallego disponible para empresas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga, ai ai ai: una ciudad que toca las campanas para el arzobispo el domingo y entrena sus modelos el lunes, con un autobús lleno de cámaras de IA contando quién aparcó en la parada.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: IA y tecnología en Braga, con la Universidad del Miño, el INL y los laboratorios de las empresas poniendo el cerebro, y las noticias que nos llegan desde el Miño, Portugal y el mundo. Independente, e cada dato tiene su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora, ó pá: una ciudad de cal, alcornoques y piedras viejas donde las máquinas están aprendiendo a hablar portugués, despacio, calminha, como se hace en el Alentejo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ }
+}

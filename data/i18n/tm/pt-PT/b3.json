@@ -6,5 +6,21 @@
   "at": "2026-11-16",
   "src": "Digital Commerce Accelerator reaches local shops, restaurant",
   "ok": false
+ },
+ "b3990b637899e176": {
+  "t": "A AMALIA, um modelo de linguagem português aberto, é apresentada em Lisboa",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA, an open Portuguese language model, is presented in L",
+  "ok": false
+ },
+ "b3d7ae6ce44e5cf5": {
+  "t": "Ainda não sabemos tudo, pá. Eis o que Lisboa ainda não nos disse:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Lisboa has not told",
+  "ok": false
  }
 }

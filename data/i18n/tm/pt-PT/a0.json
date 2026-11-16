@@ -1,10 +1,42 @@
 {
+ "a02ffddc6a7859dd": {
+  "t": "Viana é uma cidade de três truques. A Câmara diz que a IA já ajuda nas licenças de obras, o Politécnico debate-a, ensina-a e envia uma ideia de IA de estudantes para uma final nacional, e lá em baixo, no porto, uma fábrica de equipamento para centros de dados começou os seus turnos. Bonito, pá. Só gostávamos que os papéis da fábrica dissessem alguma coisa sobre IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viana is a city of three tricks. The Câmara says AI already ",
+  "ok": false
+ },
+ "a05cd27604ae2f2e": {
+  "t": "A Contextos e o Algarve STP realizaram uma sessão de cocriação em inglês em Faro a 2 de abril de 2025 sobre como ajudar os animadores de juventude a usar ferramentas de IA, com a ética e a inclusão digital na agenda.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Contextos and Algarve STP ran an English-language co-creatio",
+  "ok": false
+ },
+ "a08c54ae7db3d122": {
+  "t": "A unidade local de saúde de Santarém junta-se a uma conferência da OMS sobre IA na saúde",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's local health unit joins a WHO conference on AI in",
+  "ok": false
+ },
  "a0b7f4ddc8d2385c": {
   "t": "Câmara e Universidade do Algarve preparam um pacto de conhecimento e inovação",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Town hall and University of Algarve prepare a knowledge and ",
+  "ok": false
+ },
+ "a0d37ad2b10c1b7a": {
+  "t": "O politécnico de Setúbal abre o primeiro polo nacional do instituto CCG/ZGDV",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's polytechnic opens the first national pole of the C",
   "ok": false
  }
 }

@@ -1,0 +1,26 @@
+{
+ "ae8eed6c08564c77": {
+  "t": "Evox Technologies, fundada en 2016 en la ciudad, construye sensores y software para la gestión de residuos. En una entrevista mencionó un piloto previsto con el municipio de Castelo Branco que usará sensores con inteligencia artificial. No se da ningún otro detalle sobre la IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Evox Technologies, founded in 2016 in the city, builds senso",
+  "ok": false
+ },
+ "aead8a7284e4badb": {
+  "t": "PrompTugal.news Castelo Branco sigue la IA y la tecnología en la capital de la Beira Baixa, la ciudad del politécnico que una mañana de agosto despertó convertido en universidad de verdad, y te cuenta lo que le llega desde Portugal, Europa y el mundo. Independiente y con fuentes, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Castelo Branco follows AI and technology in ",
+  "ok": false
+ },
+ "aeed4d26bb5f0c31": {
+  "t": "Arrancando",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Starting",
+  "ok": false
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "040483b8d179c0c5": {
+  "t": "Leiria est le seul endroit où un château médiéval reçoit un audioguide d’IA, où le marché reçoit un laboratoire de robotique et où les moules et les plastiques paient toujours les factures. L’incubateur, l’université et les usines se tiennent par la main, la mairie est le premier client de deux start-ups du tourisme, et personne n’a encore écrit le grand plan municipal d’IA. Sim senhor, une ville qui construit d’abord et écrit la stratégie ensuite.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria is the only place where a medieval castle gets an AI ",
+  "ok": false
+ },
+ "04cd05467beb05d7": {
+  "t": "Faro est le seul endroit où une arche de la vieille ville et un centre d’archéologie par l’IA à 31,5 millions d’euros peuvent partager la même carte postale. L’Universidade do Algarve fait le gros du travail de réflexion, le TEC Campus nourrit les start-ups, GDG Faro organise la fête des développeurs, et la Câmara, bénie soit-elle, accueille surtout les événements de la bibliothèque. Innovation et recherche, sim senhor, pas l’hôtel de ville.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro is the only place where an old-town arch and a 31.5 mil",
+  "ok": false
+ }
+}

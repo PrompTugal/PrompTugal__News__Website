@@ -1,0 +1,18 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "A atividade de IA de Braga está em quatro lugares que as fontes mostram lado a lado: a investigação (o grupo de IA da Universidade do Minho, a spin-off nascida no Minho OmniumAI e o laboratório ibérico de nanotecnologia INL), a I&D das empresas (o primeiro centro de IA da Cegid em Portugal e a nova unidade de eBike da Bosch, cujo software antirroubo usa aprendizagem automática), o uso de IA pela própria câmara (um piloto de câmaras em autocarros com a Hayden AI e um projeto de 1,5 milhões de euros para levar a IA à administração municipal) e uma camada de startups à volta da Startup Braga e da InvestBraga, que levou 15 startups ao Web Summit 2026. Ao contrário das cidades do Algarve, Braga não depende de uma só instituição, e o que pudemos ler mostra uma câmara que compra e testa IA em vez de apenas acolher eventos sobre ela.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "A atividade de IA de Évora está em três lugares. A Universidade de Évora ensina uma licenciatura em IA e ciência de dados, escreveu as suas próprias regras para a IA no ensino e diz ter construído modelos em língua portuguesa. O PACT, o parque de ciência e tecnologia do Alentejo, dá formação em IA e acolhe empresas de tecnologia. O Hospital de Évora é o primeiro hospital público português a usar um sistema de IA no rastreio do colo do útero, segundo a própria unidade de saúde. Chegou também dinheiro privado mais recente, com uma empresa de centros de dados a comprar um local de 1 MW na cidade. O próprio sítio da câmara não mostra nenhum uso de IA que pudéssemos ler, pelo que a universidade, o parque e o hospital, e não a câmara municipal, são o centro de gravidade.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ }
+}

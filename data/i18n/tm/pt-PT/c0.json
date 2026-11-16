@@ -1,10 +1,26 @@
 {
+ "c01a22906558c781": {
+  "t": "O Politécnico de Leiria define as suas regras de IA, em vigor a partir de 1 de setembro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Politécnico de Leiria sets its AI rules, in force from 1 Sep",
+  "ok": false
+ },
  "c042cd426860bb15": {
   "t": "Talento local",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Local talent",
+  "ok": false
+ },
+ "c0cf4bc9d89bf459": {
+  "t": "O governo prevê um piloto num pequeno número de municípios que já estão tecnologicamente preparados, com a IA a funcionar como uma camada única de acesso sobre as plataformas das câmaras, começando pelas licenças de construção. Coimbra é nomeada como parte da primeira fase, e o seu presidente da câmara disse que a IA pode acelerar processos respeitando as regras de planeamento e sem desumanizar os serviços públicos. A página não mostra data exata.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The government plans a pilot in a small number of municipali",
   "ok": false
  },
  "c0e557c9ce2880b2": {

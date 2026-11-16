@@ -1,10 +1,34 @@
 {
+ "cc05e69d3af2435a": {
+  "t": "A UTAD acolhe um seminário internacional sobre IA nas ciências agrárias",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD hosts an international seminar on AI in agricultural sc",
+  "ok": false
+ },
+ "cc06def6efffea49": {
+  "t": "A plataforma IAedu da FCT, ainda em beta, dá a estudantes, professores e investigadores das instituições participantes acesso a modelos de IA, e a FCT acrescentou quatro modelos de linguagem em janeiro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The FCT's IAedu platform, still in beta, gives students, tea",
+  "ok": false
+ },
  "cc377b811075864b": {
   "t": "Um dia esgotado, a 31 de outubro de 2026, em Faro, organizado pela Algarve Evolution com a ferramenta de IA Lovable: créditos gratuitos, mentores e um júri, e muitos participantes sem experiência de programação criaram protótipos funcionais.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "A sold-out day on 31 October 2026 in Faro run by Algarve Evo",
+  "ok": false
+ },
+ "cc4c638d579222d0": {
+  "t": "O que não conseguimos encontrar, dito com um encolher de ombros e um pastel de nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we could not find, said with a shrug and a pastel de na",
   "ok": false
  },
  "cc6b4546d623b32f": {
@@ -15,12 +39,28 @@
   "src": "Who invests in {name} and what has been invested here, each ",
   "ok": false
  },
+ "cc855833fcf82e4d": {
+  "t": "PrompTugal.news Bragança: IA e tecnologia em Bragança, uma capital de distrito do nordeste cujo centro de gravidade é o seu politécnico e o seu parque de ciência, o Brigantia EcoPark, e o que chega a Bragança vindo de Portugal, da Europa e do mundo. Independente; cada facto com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Bragança: AI and technology in Bragança, a n",
+  "ok": false
+ },
  "cca58c3bf0354fd1": {
   "t": "Portugal aprova a sua Agenda Nacional de IA e um plano de ação até 2030",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Portugal approves its National AI Agenda and an action plan ",
+  "ok": false
+ },
+ "cce7313ca509fea5": {
+  "t": "O politécnico de Viseu realiza a segunda edição do seu curso de IA generativa para docentes do ensino superior",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu's polytechnic runs a second edition of its generative ",
   "ok": false
  }
 }

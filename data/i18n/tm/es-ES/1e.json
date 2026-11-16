@@ -1,0 +1,26 @@
+{
+ "1e19db94c238e148": {
+  "t": "océano Atlántico",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Atlantic Ocean",
+  "ok": false
+ },
+ "1e27f4e3a59a8ae6": {
+  "t": "El operador de fibra anunció el 9 de junio de 2026 que la cobertura del municipio superaría el 80 por ciento, hasta el 82 por ciento, con unos 1000 hogares nuevos en Alcoutim, Giões y Pereiro a finales del primer semestre de 2026. Más de 3100 familias tendrían acceso.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The fibre operator announced on 9 June 2026 that the municip",
+  "ok": false
+ },
+ "1ea0f915d9fc4fff": {
+  "t": "La universidad estableció principios, deberes y buenas prácticas para el uso de la IA entre estudiantes, docentes, investigadores y personal, con un enfoque humanista y un impulso a las herramientas institucionales seguras.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The university set out principles, duties and good practice ",
+  "ok": false
+ }
+}

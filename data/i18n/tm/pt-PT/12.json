@@ -7,6 +7,14 @@
   "src": "Government backs an Iberian bid for an EU AI gigafactory, wi",
   "ok": false
  },
+ "122c52805b70f20f": {
+  "t": "Ainda não sabemos tudo, pá. Eis o que Vila Real ainda não nos disse:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Vila Real has not t",
+  "ok": false
+ },
  "1231747039984131": {
   "t": "Lagos é onde os técnicos do Algarve aparecem em pessoa, e bem. A câmara co-organizou aqui a Algarve Tech Hub Summit em novembro de 2025 e junta-se ao GDG Lagos nas noites de IA e no DevFest. O CoLagos, o espaço de coworking da cidade, está cheio desde novembro de 2023, e os nómadas digitais andam por cá desde a pandemia. Uma empresa de IA a sério com sede em Lagos? Ainda não encontrámos nenhuma, por isso a força da cidade são as pessoas, não um conjunto de empresas.",
   "by": "translator@PrompTugal.dinis",
@@ -21,6 +29,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Ó pá, a whole town drawn with a ruler in two years, and now ",
+  "ok": false
+ },
+ "12eab77e7612e4f8": {
+  "t": "A planície é grande e nós ainda não vimos tudo. Eis o que Beja ainda não nos disse:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A planície é grande e nós ainda não vimos tudo. Here is what",
   "ok": false
  }
 }

@@ -1,0 +1,18 @@
+{
+ "2b849e5e92cfc33b": {
+  "t": "Guarda, ó pá : assez froide pour geler un serveur, têtue comme le granit, et siège d’une école polytechnique qui apprend tranquillement aux machines et a appris à quelques étudiants à lire le PDM avant les architectes.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "Ses étudiants et son personnel obtiennent un accès gratuit aux versions pro de trois grands modèles de langage via le service IAedu de la FCT, que l’institution présente comme un pas vers un usage responsable et collaboratif de l’IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false
+ }
+}

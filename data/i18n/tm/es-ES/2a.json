@@ -1,0 +1,26 @@
+{
+ "2a94fcacda5956cf": {
+  "t": "Casi toda la IA que pudimos documentar en Guarda pasa por una sola institución, el Politécnico da Guarda (IPG, que va camino de convertirse en universidad). Imparte el grado de ciencia de datos e IA que abrió en 2022, lidera un proyecto de cerca de un millón de euros para llevar la IA, el IoT y la cadena de bloques a pequeñas empresas de la región Centro, firmó un acuerdo de drones e IA con una universidad ucraniana y gestiona la incubadora donde se instalan las startups de la ciudad. Las propias páginas del ayuntamiento no muestran ningún uso ni programa de IA, y la capa privada de IA es delgada, con una oficina de consultoría que recluta perfiles de IA como el ejemplo más claro. El centro de gravedad de Guarda es, por tanto, su politécnico, no su ayuntamiento ni sus empresas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Almost all the AI we could source in Guarda runs through one",
+  "ok": false
+ },
+ "2aed6185a7d900cb": {
+  "t": "Coimbra, entre los primeros ayuntamientos que probarán la IA en las licencias urbanísticas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Coimbra is among the first councils to test AI in urban lice",
+  "ok": false
+ },
+ "2af0fa78e77b7dc6": {
+  "t": "SalOS también se presenta como una plataforma de trazabilidad lista para el Pasaporte Digital de Producto de la UE",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "SalOS is also covered as a traceability platform ready for t",
+  "ok": false
+ }
+}

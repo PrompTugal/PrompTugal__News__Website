@@ -1,0 +1,34 @@
+{
+ "d59c7109bbba032c": {
+  "t": "Voz local y juguetona: los mismos hechos, contados a la manera algarvia",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Playful local voice: same facts, said the Algarvio way",
+  "ok": false
+ },
+ "d5a78bc8a8ef3a0a": {
+  "t": "Bosch abre en Braga una unidad de I+D de eBike, con un antirrobo de aprendizaje automático en el centro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bosch opens an eBike R&D unit in Braga, with machine-learnin",
+  "ok": false
+ },
+ "d5c27fdac82bc391": {
+  "t": "PrompTugal.news Castelo Branco: IA y tecnología en Castelo Branco, una capital de distrito de la Beira Baixa cuyo centro de gravedad es su politécnico, ahora Universidade Politécnica de Castelo Branco, y un pequeño círculo de empresas tecnológicas locales, y lo que llega a Castelo Branco desde Portugal, Europa y el mundo. Independiente. Cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Castelo Branco: AI and technology in Castelo",
+  "ok": false
+ },
+ "d5c86e462451b6fc": {
+  "t": "Los 17 lugares de la primera oleada, cada uno con su color. Un punto relleno es un sitio en directo; un anillo, un sitio que aún se investiga. Toca un lugar para abrir su sitio.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 17 places in the first wave, each in its own colour. A f",
+  "ok": false
+ }
+}

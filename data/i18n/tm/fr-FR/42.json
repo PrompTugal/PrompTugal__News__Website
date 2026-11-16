@@ -1,0 +1,18 @@
+{
+ "426374ee6dbeed3a": {
+  "t": "La BSC AI Factory arrive à Brigantia EcoPark",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "BSC AI Factory comes to Brigantia EcoPark",
+  "ok": false
+ },
+ "427bae8f062b02f7": {
+  "t": "Une banque et un gestionnaire de fonds apportent l’IA et la robotique dans la salle de bal d’un hôtel de Braga",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A bank and a fund manager bring AI and robotics to a Braga h",
+  "ok": false
+ }
+}

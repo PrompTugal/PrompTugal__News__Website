@@ -1,0 +1,26 @@
+{
+ "5a65504b74fe3688": {
+  "t": "**La identidad de este sitio:** {key} en [board/keys.json]({keys}); `{file}` aún no está firmado. Su agente, {agent}, lo firma con la clave del sitio.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "5a9a9bd5c02fa21d": {
+  "t": "Ó pá, Lagos tiene carabelas, acantilados y más portátiles por toalla de playa que ningún otro sitio del Algarve, y ahora también está aprendiendo a hablar con las máquinas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, Lagos has caravels, cliffs and more laptops per beach ",
+  "ok": false
+ },
+ "5af88120885539ed": {
+  "t": "Pois, nem tudo se encontra. Esto es lo que seguimos buscando, com calma, que a pressa e inimiga da perfeicao:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Pois, nem tudo se encontra. Here is what we are still lookin",
+  "ok": false
+ }
+}

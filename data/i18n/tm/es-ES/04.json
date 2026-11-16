@@ -1,0 +1,18 @@
+{
+ "040483b8d179c0c5": {
+  "t": "Leiria es el único lugar donde un castillo medieval recibe una audioguía con IA, el mercado un laboratorio de robótica y los moldes y los plásticos siguen pagando las facturas. La incubadora, la universidad y las fábricas van de la mano, el ayuntamiento es el primer cliente de dos startups turísticas y nadie ha escrito todavía el gran plan municipal de IA. Sim senhor, una ciudad que construye primero y escribe la estrategia después.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria is the only place where a medieval castle gets an AI ",
+  "ok": false
+ },
+ "04cd05467beb05d7": {
+  "t": "Faro es el único lugar donde un arco del casco antiguo y un centro de arqueología con IA de 31,5 millones de euros pueden compartir postal. La Universidade do Algarve hace el trabajo pesado de pensar, el TEC Campus alimenta a las startups, GDG Faro monta la fiesta de desarrolladores y la Câmara, bendita sea, sobre todo acoge los eventos de la biblioteca. Innovación e investigación, sim senhor, no el ayuntamiento.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro is the only place where an old-town arch and a 31.5 mil",
+  "ok": false
+ }
+}

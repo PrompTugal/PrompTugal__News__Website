@@ -1,0 +1,18 @@
+{
+ "8709611da6ed567d": {
+  "t": "Ora pois, Aljezur: mais ondas do que servidores, mais vento do que wi-fi, e mesmo assim a olhar para a inteligencia artificial.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ora pois, Aljezur: mais ondas do que servidores, mais vento ",
+  "ok": false
+ },
+ "8720c87cfd89ec25": {
+  "t": "Leiria, pá: un castillo en la colina, moldes en el valle y, últimamente, un laboratorio de robots camino del mercado, porque al parecer esta ciudad fabrica cosas y ahora les enseña a pensar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria, pá: a castle on the hill, moulds in the valley and, ",
+  "ok": false
+ }
+}

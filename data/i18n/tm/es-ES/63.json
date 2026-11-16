@@ -1,0 +1,18 @@
+{
+ "6365da11a6beb2f0": {
+  "t": "PrompTugal.news Castro Marim: IA y tecnología en Castro Marim, una localidad de salinas y frontera en el Guadiana donde la IA está en la oficina de urbanismo del ayuntamiento y en sus salinas, y lo que llega a Castro Marim desde el Algarve, Portugal y el mundo. Independiente, y cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Castro Marim: AI and technology in Castro Ma",
+  "ok": false
+ },
+ "639755d2bc9c63be": {
+  "t": "La junta de freguesía de Aljezur y la empresa Tecnologias Imaginadas iniciaron un piloto gratuito con 15 personas, a cada una de las cuales se entregó un dispositivo de teleasistencia con seguimiento por enfermería, acceso a la ubicación, alertas automáticas de caída y un botón SOS. La fuente no dice que el sistema use IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Aljezur parish council and the company Tecnologias Imagi",
+  "ok": false
+ }
+}

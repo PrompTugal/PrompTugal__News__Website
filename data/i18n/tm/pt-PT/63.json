@@ -1,4 +1,12 @@
 {
+ "6304c8d358e1ea1e": {
+  "t": "A Nordic Epod, uma empresa conjunta da CTS Group e da Eaton, começou a operar a sua nova fábrica cerca de duas semanas antes de 4 de setembro de 2026, com dois turnos. Constrói grandes unidades elétricas para centros de dados, espera cerca de 500 empregos com a expansão e tem encomendas garantidas até junho de 2027. O artigo não menciona a IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Nordic Epod, a CTS Group and Eaton venture, began operating ",
+  "ok": false
+ },
  "6365da11a6beb2f0": {
   "t": "PrompTugal.news Castro Marim: IA e tecnologia em Castro Marim, uma vila de salinas e de fronteira no Guadiana, onde a IA está no gabinete de planeamento da câmara e nas suas salinas, e o que chega a Castro Marim vindo do Algarve, de Portugal e do mundo. Independente, e cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
@@ -7,12 +15,36 @@
   "src": "PrompTugal.news Castro Marim: AI and technology in Castro Ma",
   "ok": false
  },
+ "6372101a1953abe4": {
+  "t": "O laboratório de IA aplicada de Lisboa Augusta Labs fecha a sua primeira ronda em 50 milhões de euros",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisbon applied AI lab Augusta Labs closes its first round at",
+  "ok": false
+ },
  "639755d2bc9c63be": {
   "t": "A junta de freguesia de Aljezur e a empresa Tecnologias Imaginadas iniciaram um piloto gratuito com 15 pessoas, cada uma com um dispositivo de teleassistência com monitorização por enfermeiros, acesso à localização, alertas automáticos de queda e um botão SOS. A fonte não diz que o sistema usa IA.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The Aljezur parish council and the company Tecnologias Imagi",
+  "ok": false
+ },
+ "63c1378d5de86f2e": {
+  "t": "O Politécnico de Leiria leva mais de 20 projetos a Madrid, dois deles com IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Politécnico de Leiria takes more than 20 projects to Madrid,",
+  "ok": false
+ },
+ "63e5eb9a2ca1e1e8": {
+  "t": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo: IA e tecnologia em Portalegre, com o politécnico como o grande tear, e as notícias que rolam até cá vindas do Alentejo, de Portugal e do mundo. Independente, e cada facto vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo",
   "ok": false
  }
 }

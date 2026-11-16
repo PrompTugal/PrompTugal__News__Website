@@ -22,5 +22,21 @@
   "at": "2026-11-16",
   "src": "no site key yet",
   "ok": false
+ },
+ "e4f41de5e72723fc": {
+  "t": "Os produtores de mirtilos de Santarém preparam um dia sobre IA para pragas e calibragem",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's blueberry growers plan a day on AI for pests and ",
+  "ok": false
+ },
+ "e4fe16d03118e8e3": {
+  "t": "Beja, pá: onde a planície corre rasa até ao horizonte, o calor se senta a tarde toda, e um politécnico ensina discretamente robôs a contar ovelhas e queijos a portarem-se bem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Beja, pá: where the plain runs flat to the horizon, the heat",
+  "ok": false
  }
 }

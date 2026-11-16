@@ -1,0 +1,10 @@
+{
+ "c721537dfaefd717": {
+  "t": "**La identidad de este sitio:** {key} en [board/keys.json]({keys}); `{file}` está firmado, pero no con la clave propia del sitio. Su agente, {agent}, lo firma de nuevo con la clave del sitio.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ }
+}

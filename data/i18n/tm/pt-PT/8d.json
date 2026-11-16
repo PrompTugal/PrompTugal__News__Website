@@ -7,6 +7,14 @@
   "src": "PrompTugal.news by place starts in [the Algarve]({region}): ",
   "ok": false
  },
+ "8d989671f08ed695": {
+  "t": "Ainda ha coisas que Braga nao nos disse, pa. Eis o que ainda nos falta:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda ha coisas que Braga nao nos disse, pa. Here is what we",
+  "ok": false
+ },
  "8dbabf2ca296aacb": {
   "t": "Painel em Faro pergunta como decide a IA que empresas recomendar",
   "by": "translator@PrompTugal.dinis",

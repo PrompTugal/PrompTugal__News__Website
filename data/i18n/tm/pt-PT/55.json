@@ -1,4 +1,20 @@
 {
+ "551b35b7bd0d940d": {
+  "t": "PrompTugal.news Braga: IA e tecnologia em Braga, uma cidade universitária e industrial cujo centro de gravidade é a Universidade do Minho, o laboratório de nanotecnologia INL, os centros de I&D das empresas e o polo Startup Braga, e o que chega a Braga vindo do Minho, de Portugal e do mundo. Independente; cada facto com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Braga: AI and technology in Braga, a univers",
+  "ok": false
+ },
+ "551c30f292378a22": {
+  "t": "A UTAD junta-se ao piloto nacional IAedu de modelos de IA no ensino superior",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD joins the national IAedu pilot for AI models in higher ",
+  "ok": false
+ },
  "552aed54d42f2115": {
   "t": "Juntamente com uma nova aplicação oficial, a junta de freguesia de Ferragudo acrescentou um assistente virtual de IA ao seu sítio na Internet. Responde a perguntas comuns, ajuda as pessoas a encontrar documentos e encaminha-as para serviços. O artigo não diz quem o construiu.",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +29,22 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Loulé's Som Riscado festival let an AI program direct 25 mus",
+  "ok": false
+ },
+ "556bfcae6f57d4a2": {
+  "t": "Viseu, oh pá: granito até ao fundo, uma sé a olhar para o Dão lá de cima, e, de algum modo, a cena de IA mais sossegada da Beira, ocupada a escrever regras e a construir ferramentas para vigiar museus antigos em vez de andar a gritar por aí.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu, oh pá: granite all the way down, a cathedral looking ",
+  "ok": false
+ },
+ "558aca3f668596b1": {
+  "t": "PrompTugal.news Bragança, a nossa terra do frio e do castelo: IA e tecnologia em Bragança, com o politécnico e o Brigantia EcoPark como grandes cérebros, e as notícias que chegam de Portugal, da Europa e do mundo. Independente, e cada facto vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Bragança, a nossa terra do frio e do castelo",
   "ok": false
  },
  "55990f357d1c701d": {

@@ -7,6 +7,14 @@
   "src": "The municipal coworking space in the old town has 20 worksta",
   "ok": false
  },
+ "0d6afb2528c7f8d1": {
+  "t": "Um estudo liderado pela faculdade de ciências sociais da NOVA e promovido pela Fundação Gulbenkian, com base em respostas de 295 jornalistas, propõe 10 medidas para um uso responsável da IA nas redações. Um docente da UTAD integrou a equipa do projeto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
  "0d8fb3014c735381": {
   "t": "A câmara está a implementar uma plataforma digital de gestão urbana cujo módulo de IA verifica os documentos no momento da submissão e retém os processos incompletos. A câmara diz que cerca de sete em cada dez despachos da sua secção de tratamento de processos pedem documentos corrigidos, e que recebe aproximadamente 5000 pedidos de licenciamento por ano. A formação dos funcionários começou em julho, com funcionamento pleno previsto para os meses seguintes.",
   "by": "translator@PrompTugal.dinis",

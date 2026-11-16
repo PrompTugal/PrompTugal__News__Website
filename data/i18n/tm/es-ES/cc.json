@@ -1,0 +1,34 @@
+{
+ "cc377b811075864b": {
+  "t": "Una jornada con entradas agotadas, el 31 de octubre de 2026 en Faro, organizada por Algarve Evolution con la herramienta de IA Lovable: créditos gratuitos, mentores y un jurado, y muchos participantes sin experiencia en programación crearon prototipos que funcionaban.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A sold-out day on 31 October 2026 in Faro run by Algarve Evo",
+  "ok": false
+ },
+ "cc4c638d579222d0": {
+  "t": "Lo que no pudimos encontrar, dicho con un encogimiento de hombros y un pastel de nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we could not find, said with a shrug and a pastel de na",
+  "ok": false
+ },
+ "cc6b4546d623b32f": {
+  "t": "Quién invierte en {name} y qué se ha invertido aquí, cada dato a partir de una fuente pública.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Who invests in {name} and what has been invested here, each ",
+  "ok": false
+ },
+ "cc855833fcf82e4d": {
+  "t": "PrompTugal.news Bragança: IA y tecnología en Bragança, una capital de distrito del nordeste cuyo centro de gravedad es su politécnico y su parque científico, Brigantia EcoPark, y lo que llega a Bragança desde Portugal, Europa y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Bragança: AI and technology in Bragança, a n",
+  "ok": false
+ }
+}

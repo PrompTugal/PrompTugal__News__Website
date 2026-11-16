@@ -1,0 +1,26 @@
+{
+ "7929ca3f6d156b44": {
+  "t": "O que ainda nos falta descobrir, con la humildad de quien ya perdió el último bolo de bolacha:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "O que ainda nos falta descobrir, com a humildade de quem já ",
+  "ok": false
+ },
+ "7937eb68ba02ccbd": {
+  "t": "Contactos oficiales",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Official contacts",
+  "ok": false
+ },
+ "79d6c16f34cbe5d1": {
+  "t": "En la inauguración del Instituto Confucio en la Universidade de Évora, el 16 de octubre de 2026, el rector nombró la IA, la ciencia de datos y la agroalimentación como áreas de cooperación existente y prevista, con ideas como la IA para el patrimonio cultural, la salud, el medio ambiente y la agricultura.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the 16 October 2026 opening of the Confucius Institute at",
+  "ok": false
+ }
+}

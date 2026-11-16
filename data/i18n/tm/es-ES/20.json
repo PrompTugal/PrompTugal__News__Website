@@ -1,0 +1,18 @@
+{
+ "202d2e7e12f65bf7": {
+  "t": "IA y tecnología en {name}, en el Algarve: {local}, {map} en el mapa de la IA, cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and technology in {name}, in the Algarve: {local}, {map} ",
+  "ok": false
+ },
+ "20a05a374ef6d424": {
+  "t": "La empresa de centros de datos NxN compra un emplazamiento de 1 MW en Évora",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Data centre firm NxN buys a 1 MW site in Évora",
+  "ok": false
+ }
+}

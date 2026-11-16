@@ -7,6 +7,14 @@
   "src": "A day-long conference in the council's main hall on 15 June ",
   "ok": false
  },
+ "8ededdc755b1fa1e": {
+  "t": "A página de notícias da instituição lista a segunda edição da microcredencial Educação e IA, anunciada a 15 de maio de 2026. A brochura do curso descreve 27 horas sobre o uso crítico e ético da IA generativa no ensino, com sessões presenciais em Viseu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The institution's news page lists the second edition of the ",
+  "ok": false
+ },
  "8ef41e6f4b07432a": {
   "t": "Espanha",
   "by": "translator@PrompTugal.dinis",

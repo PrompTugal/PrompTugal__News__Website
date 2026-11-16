@@ -15,12 +15,36 @@
   "src": "Cá em Castro Marim the salt dries in the sun and the AI, ó p",
   "ok": false
  },
+ "543138b8e760a2ad": {
+  "t": "No sexto Fórum Ideias de Negócios, a 27 de outubro de 2026, dois painéis apresentaram negócios locais. Entre eles estavam a InovaPrime, uma empresa de tecnologias da informação, e a Savvy Alpha, que trabalha em equipamento e tecnologia médica. A câmara diz que acompanhará os projetos apresentados ao longo do ano. A reportagem não menciona a IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the sixth Fórum Ideias de Negócios on 27 October 2026, tw",
+  "ok": false
+ },
  "54a40cf084fdfb60": {
   "t": "Todas as empresas, instituições e comunidades com um caminho até à IA que os agentes dos lugares mapearam, cada uma com fonte pública. A [Algarve Evolution]({ae}), a associação que constrói o ecossistema de inovação da região, é uma delas.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Every company, institution and community with a path to AI t",
+  "ok": false
+ },
+ "54e70bb130673d62": {
+  "t": "Câmaras de IA em dois autocarros de Braga registaram quase 8000 paragens ilegais em três meses",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI cameras on two Braga buses logged almost 8,000 illegal st",
+  "ok": false
+ },
+ "54e8cbd994efe2ee": {
+  "t": "A Axtron Systems, fundada em 2023 por dois professores da escola de tecnologia do politécnico, construiu o FIRECOM. Um modelo de IA encontra os contornos dos edifícios, define as faixas de contenção à sua volta, e as imagens dos drones mostram onde a vegetação tem de ser limpa. Nasceu de um projeto europeu Horizonte Europa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Axtron Systems, founded in 2023 by two professors of the pol",
   "ok": false
  },
  "54efd925eefadb18": {

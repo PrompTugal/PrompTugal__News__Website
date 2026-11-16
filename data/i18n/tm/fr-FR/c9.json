@@ -1,0 +1,18 @@
+{
+ "c92d4e3132ecb884": {
+  "t": "L’activité IA de l’Algarve se concentre à Faro, autour de l’université de l’Algarve et d’Algarve Evolution, et vise surtout les deux grands secteurs régionaux, le tourisme et la santé, l’université y ajoutant le patrimoine, l’alimentation et la recherche marine. Des organismes régionaux comme la CCDR Algarve, NERA et Turismo do Algarve financent et enseignent l’adoption de l’IA, et en 2026 l’université a obtenu 31,5 millions d’euros pour un centre du patrimoine axé sur l’IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve's AI activity is concentrated in Faro around the",
+  "ok": false
+ },
+ "c99a5aafbcf2e807": {
+  "t": "Aveiro, oh pá : là où les moliceiros glissent devant les terrasses du canal, où les ovos moles attendent dans leurs petites coquilles, et où une université apprend tranquillement à tout un campus à bavarder avec les machines pendant que des start-ups brésiliennes affluent au Cais do Porto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aveiro, oh pá: where the moliceiros glide past the canal ter",
+  "ok": false
+ }
+}

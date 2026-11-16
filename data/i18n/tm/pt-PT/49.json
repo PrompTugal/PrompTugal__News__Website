@@ -1,10 +1,26 @@
 {
+ "494bada8e2fea7ba": {
+  "t": "O quarto Nexxt Leiria nomeou os dez vencedores do Leiria Nexxt Ideas 2026 entre 42 candidaturas. A Opsivision Leiria, a Sndora, a e-Security e a Bora, Leiria? usam IA em análise de vídeo, ferramentas de vendas, verificação de documentos e percursos turísticos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The fourth Nexxt Leiria named ten Leiria Nexxt Ideas 2026 wi",
+  "ok": false
+ },
  "4973b94fc93ea147": {
   "t": "PrompTugal.news Loulé: IA e tecnologia em Loulé, uma câmara que usa ferramentas de IA e sede da associação empresarial do Algarve, e o que chega a Loulé vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Loulé: AI and technology in Loulé, a council",
+  "ok": false
+ },
+ "49cf6783d1ed9fac": {
+  "t": "A 29 de outubro de 2026, o organismo intermunicipal CIM Viseu Dão Lafões apresentou o SMART REGION, duas plataformas (uma de conhecimento regional e outra de gestão urbana) que cruzam dados dispersos, como fluxos de visitantes, mobilidade e resíduos, para ajudar as câmaras a compreender as necessidades locais. O artigo não descreve os modelos usados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On 29 October 2026 the intermunicipal body CIM Viseu Dão Laf",
   "ok": false
  }
 }

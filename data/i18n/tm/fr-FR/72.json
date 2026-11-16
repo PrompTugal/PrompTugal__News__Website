@@ -1,0 +1,26 @@
+{
+ "7220d0bc2f32b439": {
+  "t": "OmniumAI, née au Centre de génie biologique de l’UMinho, coordonne IngredientIA avec l’entreprise NIUM et le laboratoire de nanotechnologie INL. L’IA étudie des données sur les ingrédients et le microbiote intestinal pour prédire comment les composants alimentaires interagissent.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "OmniumAI, born at UMinho's Centre of Biological Engineering,",
+  "ok": false
+ },
+ "724a0c2b63a0c186": {
+  "t": "Dans le cadre de son programme Competências do Futuro Algarve, l’organisme régional du tourisme a programmé le 17 avril une session gratuite de quatre heures sur l’IA à l’école d’hôtellerie et de tourisme de Portimão, couvrant ChatGPT, Gemini, Copilot, l’automatisation et le prompting, ainsi qu’un bootcamp sur l’efficacité hydrique.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "As part of its Competências do Futuro Algarve programme, the",
+  "ok": false
+ },
+ "72e1d8635f04b3e5": {
+  "t": "EDP a annoncé le 8 octobre 2025 une centrale solaire de 15,3 MW à Aljezur, construite à côté du parc éolien de Bordeira de 24 MW existant et utilisant son raccordement au réseau, si bien qu’aucun nouveau poste n’a été nécessaire. C’est le troisième projet hybride éolien-solaire d’EDP au Portugal, avec 24,6 GWh par an estimés. L’article ne mentionne ni centres de données ni IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "EDP announced on 8 October 2025 a 15.3 MW solar plant in Alj",
+  "ok": false
+ }
+}

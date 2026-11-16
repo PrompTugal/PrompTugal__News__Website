@@ -1,0 +1,18 @@
+{
+ "b123789f4e433d71": {
+  "t": "L’Universidade de Évora fixe un cadre pour l’IA dans l’enseignement et l’évaluation",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Universidade de Évora sets a framework for AI in teaching an",
+  "ok": false
+ },
+ "b180906cdf789f05": {
+  "t": "Lors d’un déjeuner-débat à Vilamoura ouvert par le cabinet du recteur de l’UAlg, l’intervenant a plaidé pour que la région choisisse quelques priorités, et le dirigeant d’une entreprise de l’Algarve a averti que la région dispose de moins de 10 % de la capacité de calcul dont l’IA a besoin.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At a Vilamoura lunch debate opened by the UAlg rector's offi",
+  "ok": false
+ }
+}

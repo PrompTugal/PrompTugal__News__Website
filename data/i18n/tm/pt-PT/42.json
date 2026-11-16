@@ -1,4 +1,36 @@
 {
+ "42435eabba8fbd34": {
+  "t": "O consórcio português de IA responsável apresenta os seus resultados",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal's responsible AI consortium reports its results",
+  "ok": false
+ },
+ "426374ee6dbeed3a": {
+  "t": "A BSC AI Factory chega ao Brigantia EcoPark",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "BSC AI Factory comes to Brigantia EcoPark",
+  "ok": false
+ },
+ "427bae8f062b02f7": {
+  "t": "Um banco e uma gestora de fundos levam a IA e a robótica ao salão de um hotel de Braga",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A bank and a fund manager bring AI and robotics to a Braga h",
+  "ok": false
+ },
+ "429086caf2e46f39": {
+  "t": "Uma comunidade para partilhar e aplicar a IA no marketing e na comunicação, com um espaço na Rua da Restauração. Prevê workshops, palestras e hackathons, e o seu primeiro evento presencial, a 9 de julho, foi sobre consumidores sintéticos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A community for sharing and applying AI in marketing and com",
+  "ok": false
+ },
  "42a74cfc393e9103": {
   "t": "A EMARP, a empresa municipal de águas e resíduos, comprou 20 registadores acústicos à Tecnilab que usam IA para monitorizar a rede e enviar alertas diários sobre prováveis fugas, a começar na Urbanização Monte Canelas, na Mexilhoeira Grande. Uma campanha separada da B.Efficient abrange 130 km de condutas principais. Ambas são financiadas pelo Fundo Ambiental.",
   "by": "translator@PrompTugal.dinis",

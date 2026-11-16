@@ -1,0 +1,18 @@
+{
+ "021f2431b9f8e34f": {
+  "t": "PrompTugal.news Alcoutim: IA y tecnología en Alcoutim, un municipio de interior y baja densidad a orillas del Guadiana donde la conectividad, los sensores y la inclusión digital son el camino hacia la IA, y lo que llega a Alcoutim desde el Algarve, Portugal y el mundo. Independiente. Cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Alcoutim: AI and technology in Alcoutim, an ",
+  "ok": false
+ },
+ "021f688c56ed7c04": {
+  "t": "El curso ejecutivo se celebró el 20 de abril de 2026 en la Universidad del Algarve en Faro, con becas financiadas por el PRR para participantes seleccionados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The executive course ran on 20 April 2026 at the University ",
+  "ok": false
+ }
+}

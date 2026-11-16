@@ -1,0 +1,18 @@
+{
+ "c042cd426860bb15": {
+  "t": "Talents locaux",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Local talent",
+  "ok": false
+ },
+ "c0cf4bc9d89bf459": {
+  "t": "Le gouvernement prévoit un pilote dans un petit nombre de municipalités déjà prêtes technologiquement, avec l’IA comme couche d’accès unique au-dessus des plateformes municipales, en commençant par les permis de construire. Coimbra est citée dans la première phase, et son maire a dit que l’IA peut accélérer les démarches tout en respectant les règles d’urbanisme et sans déshumaniser les services publics. La page n’indique pas de date précise.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ }
+}

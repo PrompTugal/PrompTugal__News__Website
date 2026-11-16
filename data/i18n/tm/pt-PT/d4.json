@@ -7,6 +7,14 @@
   "src": "Portugal's AI story is national policy first, with a Nationa",
   "ok": false
  },
+ "d42cb125a90e00b6": {
+  "t": "Numa entrevista, o responsável do braço português da Inetum disse que a empresa conta agora com ferramentas de IA para dimensionar projetos, pelo que as equipas encolhem, insistindo que não substituiu pessoas por IA. Bragança é um dos seus quatro centros de serviços, mantido mais pela ligação às universidades do que pelo preço.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In an interview, the head of Inetum's Portuguese arm said th",
+  "ok": false
+ },
  "d431d208322bd1ac": {
   "t": "A câmara de Castro Marim inclui a IA no roteiro do seu serviço de urbanismo com a Mind",
   "by": "translator@PrompTugal.dinis",
@@ -15,12 +23,52 @@
   "src": "Castro Marim's council puts AI into its planning office road",
   "ok": false
  },
+ "d433d5f738a25f31": {
+  "t": "Alcoutim investe 456 mil euros na digitalização dos seus serviços municipais",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim invests 456 thousand euros in digitising its munici",
+  "ok": false
+ },
+ "d43f68e2d669835b": {
+  "t": "A Universidade de Coimbra abre uma licenciatura e um mestrado em IA e Ciência de Dados",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Coimbra opens an AI and Data Science bachelor'",
+  "ok": false
+ },
  "d44858530e9136df": {
   "t": "Bairros Comerciais Digitais de Loulé e Quarteira: lojas online, Wi-Fi, ecrãs digitais, ainda sem IA",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Digital Commercial Neighbourhoods of Loulé and Quarteira: on",
+  "ok": false
+ },
+ "d45aa1cda74a1860": {
+  "t": "Bragança, ó pá: onde a torre de menagem vigia os castanheiros, os invernos mordem e o politécnico ensina discretamente todo o norte a falar com máquinas, enquanto o parque de ciência tem um supercomputador na marcação rápida.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança, ó pá: where the keep stands guard over the chestnu",
+  "ok": false
+ },
+ "d4c8b7180dbcc316": {
+  "t": "O Center for Responsible AI, um consórcio com financiamento público agora liderado pela Sword Health depois do colapso da Unbabel, reporta cerca de 49 milhões de euros de investimento público e 27 milhões de investimento privado e espera 150 milhões de euros de volume de negócios até ao final de 2026. Entre os parceiros estão a Priberam e a NeuralShift. Não conseguimos perceber pelo artigo quais os parceiros que trabalham em Lisboa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Center for Responsible AI, a publicly funded consortium ",
+  "ok": false
+ },
+ "d4ec9af2e630ad10": {
+  "t": "PrompTugal.news Aveiro: IA e tecnologia em Aveiro, uma cidade universitária e de telecomunicações cujo centro de gravidade é a Universidade de Aveiro, o Instituto de Telecomunicações e a aposta Aveiro Tech City da câmara, e o que chega a Aveiro vindo de Portugal, do Brasil e do mundo. Independente; cada facto com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Aveiro: AI and technology in Aveiro, a unive",
   "ok": false
  }
 }

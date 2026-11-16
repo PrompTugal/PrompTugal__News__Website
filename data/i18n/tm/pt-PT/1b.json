@@ -7,6 +7,14 @@
   "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
   "ok": false
  },
+ "1b5f94fde02d4cb7": {
+  "t": "PrompTugal.news Beja, a capital do Baixo Alentejo: IA e tecnologia em Beja, com a universidade como cérebro da vila caiada, e as notícias que rolam até cá vindas do Alentejo, de Portugal e do mundo. Independente, e cada facto vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Beja, a capital do Baixo Alentejo: AI and te",
+  "ok": false
+ },
  "1babc44c91bf5cc8": {
   "t": "PrompTugal.news Silves: IA e tecnologia em Silves, a capital da laranja e antiga capital do Algarve, mais o que a IA traga do Algarve, de Portugal e do mundo. Somos independentes, e cada facto tem fonte, pá.",
   "by": "translator@PrompTugal.dinis",

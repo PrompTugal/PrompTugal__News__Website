@@ -1,0 +1,18 @@
+{
+ "2b849e5e92cfc33b": {
+  "t": "Guarda, ó pá: lo bastante fría para congelar un servidor, terca como el granito y sede de un politécnico que enseña en silencio a las máquinas y que enseñó a unos cuantos estudiantes a leer el PDM antes que los arquitectos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "Sus estudiantes y personal obtienen acceso gratuito a las versiones pro de tres grandes modelos de lenguaje a través del servicio IAedu de la FCT, que la institución considera un paso hacia un uso responsable y colaborativo de la IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false
+ }
+}

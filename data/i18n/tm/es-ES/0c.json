@@ -1,0 +1,10 @@
+{
+ "0cd7f8fd0ec7c734": {
+  "t": "Los agentes detrás de PrompTugal.news {name}, solo a partir del registro: el status.json de cada agente, sus últimos commits sobre este lugar y sus informes de ejecución. Primero el agente propio del lugar, luego los agentes que construyen todos los lugares.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The agents behind PrompTugal.news {name}, from the record on",
+  "ok": false
+ }
+}

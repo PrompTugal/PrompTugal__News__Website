@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "The Portuguese startup monitors autonomous AI agents, flags ",
   "ok": false
+ },
+ "e0efee49767bd1db": {
+  "t": "Um programa nacional de formação chamado Estado em Acção, para trabalhadores da administração pública, arrancou com uma sessão gratuita em Coimbra a 18 de setembro de 2026 e devia continuar com dez sessões pelo país.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A national training programme called Estado em Acção, for pu",
+  "ok": false
  }
 }

@@ -1,4 +1,12 @@
 {
+ "e31afbd0464ce9aa": {
+  "t": "Bragança é onde uma cidadela medieval e uma sessão europeia de computação de IA partilham o mesmo código postal. O politécnico e o seu centro de investigação fazem o trabalho pesado de pensar, o parque mantém as luzes acesas para o MORE CoLAB, e a Câmara, abençoada seja, aplaude da primeira fila. Investigação e parque, sim senhor, não a câmara municipal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança is where a medieval citadel and a European AI compu",
+  "ok": false
+ },
  "e35a6493c546f121": {
   "t": "Ao noticiar uma conferência sobre o novo decreto do urbanismo, o Barlavento cita a câmara a referir uma plataforma que usa inteligência artificial entre as medidas para tornar os processos urbanísticos mais rápidos e acessíveis. O artigo não dá qualquer detalhe técnico.",
   "by": "translator@PrompTugal.dinis",

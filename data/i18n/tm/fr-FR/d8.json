@@ -1,0 +1,18 @@
+{
+ "d8006b8f7850afec": {
+  "t": "La Cáritas de Faro demande à qui profite l’IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false
+ },
+ "d89c3b61de8d1239": {
+  "t": "Une école de Vilamoura accueille un sommet de l’éducation sur l’IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false
+ }
+}

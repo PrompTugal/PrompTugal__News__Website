@@ -1,10 +1,26 @@
 {
+ "6a44c07f76c1d587": {
+  "t": "O parque de ciência da Universidade de Aveiro dinamiza uma aceleradora de IA no turismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Aveiro's science park runs an accelerator for ",
+  "ok": false
+ },
  "6a54fc65d47bc36b": {
   "t": "Uma startup portuguesa que vende um sistema de agentes de IA a equipas de marketing, com a maior parte da receita vinda dos EUA. A ronda seed foi liderada pela Armilar.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "A Portuguese startup selling an AI agent system to marketing",
+  "ok": false
+ },
+ "6a5b544478ac32f9": {
+  "t": "O ecossistema do polo está no Web Summit Lisboa, nove delas incubadas no polo de inovação da InvestBraga. O artigo nomeia a ASOagentAI (um agente de IA para o crescimento de aplicações), a eDynamics (dados de movimento transformados em alertas de risco de lesão), a LogisticsWMS (um sistema de armazém com IA) e a Zixago (infraestrutura sintética para IA).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The hub's ecosystem is at Web Summit Lisbon, nine of them in",
   "ok": false
  },
  "6ad8263eac434a48": {

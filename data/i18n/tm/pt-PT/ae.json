@@ -7,6 +7,30 @@
   "src": "Portimão hosts its first tourism-and-computing conference, w",
   "ok": false
  },
+ "ae8eed6c08564c77": {
+  "t": "A Evox Technologies, fundada em 2016 na cidade, constrói sensores e software para a gestão de resíduos. Numa entrevista mencionou um piloto previsto com o município de Castelo Branco que usará sensores com inteligência artificial. Não é dado nenhum outro pormenor sobre IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Evox Technologies, founded in 2016 in the city, builds senso",
+  "ok": false
+ },
+ "aead8a7284e4badb": {
+  "t": "O PrompTugal.news Castelo Branco acompanha a IA e a tecnologia na capital da Beira Baixa, a cidade do politécnico que acordou num agosto como uma universidade a sério, e conta-lhe o que lhe chega de Portugal, da Europa e do mundo. Independente e com fontes, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Castelo Branco follows AI and technology in ",
+  "ok": false
+ },
+ "aecf2dba708906c1": {
+  "t": "A UTAD ajuda a escrever o primeiro livro branco de Portugal sobre IA no jornalismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD helps write Portugal's first white paper on AI in journ",
+  "ok": false
+ },
  "aeed4d26bb5f0c31": {
   "t": "A começar",
   "by": "translator@PrompTugal.dinis",

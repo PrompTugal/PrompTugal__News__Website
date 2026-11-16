@@ -1,4 +1,12 @@
 {
+ "bc334eb42672513e": {
+  "t": "Em fevereiro de 2026, o presidente da câmara disse numa reunião de câmara que a gestão urbanística já usa IA para acelerar o licenciamento, e que uma ferramenta para os munícipes que iniciam uma operação urbanística estava prevista para março. Disse que cerca de 50 funcionários tratam mais de 17 000 pedidos e que a IA deve ajudar a câmara a cometer menos erros.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false
+ },
  "bc3728b754ac2248": {
   "t": "PrompTugal.news Quarteira, pá: seguimos a IA e os gadgets desta cidade ao sol e do seu vizinho de grande resort, Vilamoura, e tudo o que chega de Loulé, do Algarve e do mundo. Independente, e cada facto tem recibo.",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "O modelo de código aberto para português europeu, construído por um consórcio de cinco universidades incluindo o Técnico, destina-se a serviços públicos e empresas. Foi apresentado no Técnico Innovation Center, em Lisboa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The open-source model for European Portuguese, built by a co",
   "ok": false
  },
  "bce4171009b6eb45": {

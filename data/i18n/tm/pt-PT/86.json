@@ -7,12 +7,28 @@
   "src": "Faro is home to the Universidade do Algarve, whose campuses ",
   "ok": false
  },
+ "862a47ccd096007f": {
+  "t": "Um projeto chamado QI 4.0 usa sensores e modelos de aprendizagem automática para acompanhar a cura do queijo Serpa DOP e alimenta uma aplicação, ainda em desenvolvimento, que avisa os produtores quando as condições da câmara de cura se desviam. Estava previsto ser apresentado em Córdoba a 14 de novembro de 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A project called QI 4.0 uses sensors and machine-learning mo",
+  "ok": false
+ },
  "867572ff80be5e8d": {
   "t": "Mapa do Algarve com os seus {count} lugares, cada um ligado ao seu site",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
+ },
+ "867d7d84af293cda": {
+  "t": "Na assinatura de 2021, 23 parceiros aderiram a um polo de investigação e formação da Dieta Mediterrânica no CEAT. Os planos incluíam um centro de terapêuticas digitais com a Johns Hopkins University e o Algarve Biomedical Center, formação em realidade virtual, uma horta urbana e um centro de ciência Ciência Viva. Não se menciona a IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the 2021 signing, 23 partners joined a Mediterranean Diet",
   "ok": false
  },
  "86ad806b1bec465d": {
@@ -29,6 +45,22 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
+  "ok": false
+ },
+ "86db666b9311af7d": {
+  "t": "O Campus Tejo de Santarém é um laboratório de campo no Tejo, diz o presidente da câmara numa entrevista",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor",
+  "ok": false
+ },
+ "86f95ca1e0fd1015": {
+  "t": "O projeto SiARA combina IA, um robô autónomo de campo chamado EVAbot e uma rede de sensores para recolher dados sobre culturas, solo, pastagem e vida selvagem na estepe do Campo Branco. Começou em novembro de 2025 e o seu primeiro trabalho de campo foi a 3 de março de 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
   "ok": false
  }
 }

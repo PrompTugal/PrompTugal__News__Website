@@ -7,12 +7,44 @@
   "src": "From PrompTugal.news",
   "ok": false
  },
+ "1a3ced336dc4f7fa": {
+  "t": "Portalegre tece a sua IA à moda lenta, fio a fio. No tear da universidade estão dois projetos de IA para quintas e estudantes, a Kyndryl está ao lado com os seus sensores, um cluster de tecnologia de defesa puxou uma cadeira, e a Câmara, abençoada seja, anda ocupada com canos de água. Investigação e parceiros industriais, sim senhor, não a câmara municipal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre weaves its AI the slow way, thread by thread. The",
+  "ok": false
+ },
+ "1a6c6147060c5a08": {
+  "t": "A câmara de Leiria torna-se a primeira cliente de duas startups de turismo com IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria's council becomes first customer of two AI tourism st",
+  "ok": false
+ },
+ "1ab61419916bee37": {
+  "t": "Estudantes e pessoal de Bragança têm uma primavera de seminários de IA na ESTiG",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança students and staff get a spring of AI seminars at E",
+  "ok": false
+ },
  "1ab6c4761e386626": {
   "t": "Os Paços do Concelho de Albufeira recebem uma conferência sobre IA no planeamento urbano",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Albufeira town hall hosts a conference on AI in urban planni",
+  "ok": false
+ },
+ "1abe236828fbd435": {
+  "t": "Lisboa é onde o dinheiro e as instituições de IA de Portugal se encontram. A Universidade de Lisboa vai gastar mais de 20 milhões de euros em dois centros de dados de IA, o INESC-ID ganhou 27,2 milhões de euros para um centro de IA sustentável, e o modelo de linguagem nacional AMALIA foi apresentado no centro de inovação do Técnico. O polo de startups da própria cidade, a Unicorn Factory Lisboa, dirige uma comunidade de IA com a Microsoft, e startups financiadas como a Augusta Labs e a DOJO AI têm aqui sede. O uso de IA pela própria câmara municipal está pouco documentado no que pudemos ler, pelo que a investigação, as startups e os projetos nacionais, e não a câmara municipal, são o centro de gravidade de Lisboa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisboa is where Portugal's AI money and institutions meet. T",
   "ok": false
  }
 }

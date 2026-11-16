@@ -1,4 +1,12 @@
 {
+ "5b310882a24c7ce8": {
+  "t": "A empresa, com sede em Londres e Lisboa, fechou uma ronda seed com uma avaliação de 30 milhões de dólares, liderada pela Armilar com a Heartfelt VC. O seu software usa agentes autónomos para analisar dados de marketing e agir sobre eles.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The company, headquartered in London and Lisbon, closed a se",
+  "ok": false
+ },
  "5b4640d01b27db68": {
   "t": "A Resolução 2/2026 define quatro pilares e quatro primeiras iniciativas: uma candidatura a gigafactory, centros setoriais de IA, um programa de aceleração para startups de IA responsável e ambientes de teste regulatórios.",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +21,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Ora bem, what we could not find yet, and where we will look ",
+  "ok": false
+ },
+ "5b7c9e3dca5f8d10": {
+  "t": "Vila Real é onde uma universidade, um parque de ciência e um projeto de IA caçador de vespas-asiáticas podem partilhar uma encosta. A UTAD faz o trabalho pesado de pensar, o Regia Douro Park alberga cerca de 160 empresas, e a Câmara, abençoada seja, dá uma mão à DTech enquanto a sua página de notícias fala sobretudo de olaria, caminhos de ferro e prémios escolares. Muita calma, a história de IA aqui é o campus e o parque.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real is where a university, a science park and a hornet",
   "ok": false
  }
 }

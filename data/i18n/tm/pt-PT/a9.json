@@ -1,0 +1,18 @@
+{
+ "a96e15c6d80b4a42": {
+  "t": "Debate no IPVC diz que a questão já não é se se deve usar a IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "IPVC debate says the question is no longer whether to use AI",
+  "ok": false
+ },
+ "a97819f633c3610f": {
+  "t": "Braga não consegue escolher só um: a universidade investiga, o INL mexe na escala nano, a Cegid e a Bosch contratam os engenheiros, a Startup Braga despacha quinze startups para Lisboa, e a Câmara, abençoada seja, até compra a IA e põe-na num autocarro. Quatro motores, uma cidade de granito, sim senhor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga cannot pick just one: the university does research, IN",
+  "ok": false
+ }
+}

@@ -14,5 +14,29 @@
   "at": "2026-11-16",
   "src": "The Algarve's AI activity is concentrated in Faro around the",
   "ok": false
+ },
+ "c94b9bc9bbb87fa9": {
+  "t": "A atividade de IA de Setúbal está no seu porto e no seu politécnico. A autoridade portuária de Setúbal e Lisboa iniciou um projeto de IA para formar pessoal num assistente generativo e prevê automatizar procedimentos internos, enquanto o Politécnico de Setúbal acolhe o primeiro polo nacional do instituto tecnológico CCG/ZGDV, com visão computacional, IA e imagem médica entre as suas áreas de foco, e aderiu a uma rede nacional sobre IA no ensino superior. A indústria acrescenta o complexo de pasta e papel da Navigator Company na Mitrena, que diz executar aí projetos de aprendizagem automática. A câmara mostra a IA como tema de debate (uma conferência de bibliotecas em novembro de 2026), mas não encontrámos uso de IA nos seus próprios serviços.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's AI activity sits with its port and its polytechnic",
+  "ok": false
+ },
+ "c99a5aafbcf2e807": {
+  "t": "Aveiro, oh pá: onde os moliceiros deslizam junto aos terraços do canal, os ovos moles esperam nas suas conchinhas, e uma universidade ensina discretamente um campus inteiro a conversar com máquinas enquanto as startups brasileiras se amontoam no Cais do Porto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aveiro, oh pá: where the moliceiros glide past the canal ter",
+  "ok": false
+ },
+ "c9e2e899cc22dd22": {
+  "t": "O Porto não se gaba, apenas sobe quinze lugares num ranking global de startups e segue em frente. A UPTEC mantém as startups de IA aquecidas, um programa de supercomputação instalou as suas secretárias em Asprela II, a Granter acabou de levantar os seus 1,6 milhões de euros, e o fundo 33N vigia o dinheiro a partir da sua base no Porto. O Porto Digital da própria cidade diz que não quer caixas negras, que é a regra mais tripeira que alguma vez ouvimos: mostra-me as tripas, depois confio em ti.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto does not boast, it just climbs fifteen places in a glo",
+  "ok": false
  }
 }

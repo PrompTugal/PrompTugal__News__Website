@@ -14,5 +14,21 @@
   "at": "2026-11-16",
   "src": "The regional business association NERA hosted a session at C",
   "ok": false
+ },
+ "50849a820822daab": {
+  "t": "PrompTugal.news Aveiro, a cidade dos canais: IA e tecnologia em Aveiro, com a Universidade de Aveiro e o Instituto de Telecomunicações como grandes cérebros, a Câmara a organizar a Tech Week, e as notícias que navegam até cá vindas de Portugal, do Brasil e do mundo. Independente, e cada facto vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Aveiro, a cidade dos canais: AI and tech in ",
+  "ok": false
+ },
+ "509b72800fc577e3": {
+  "t": "O presidente do porto de Setúbal diz que a IA está a levar os portos do reativo para o preditivo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's port chief says AI is moving ports from reactive t",
+  "ok": false
  }
 }

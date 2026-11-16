@@ -1,0 +1,26 @@
+{
+ "e31afbd0464ce9aa": {
+  "t": "Bragança es el lugar donde una ciudadela medieval y una sesión europea de computación para IA comparten código postal. El politécnico y su centro de investigación hacen el trabajo pesado de pensar, el parque mantiene las luces encendidas para MORE CoLAB y la Câmara, bendita sea, anima desde primera fila. Investigación y parque, sim senhor, no el ayuntamiento.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança is where a medieval citadel and a European AI compu",
+  "ok": false
+ },
+ "e35a6493c546f121": {
+  "t": "En su cobertura de una conferencia sobre el nuevo decreto de urbanismo, Barlavento cita al ayuntamiento, que menciona una plataforma que utiliza inteligencia artificial entre sus medidas para hacer los trámites urbanísticos más rápidos y accesibles. El artículo no da ningún detalle técnico.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Reporting on a conference about the new urbanism decree, Bar",
+  "ok": false
+ },
+ "e3fdc471d5eee830": {
+  "t": "La Conferencia Lusófona de Ciencia Abierta se celebró en el campus de Gambelas del 6 al 9 de octubre de 2026, con el tema de este año centrado en cómo cambia la IA la investigación, la comunicación científica y la política de datos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Lusophone Open Science Conference was hosted at the Gamb",
+  "ok": false
+ }
+}

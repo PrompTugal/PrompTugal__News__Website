@@ -22,5 +22,21 @@
   "at": "2026-11-16",
   "src": "Quarteira is a coastal city and civil parish in the municipa",
   "ok": false
+ },
+ "5891d7207cbdf70c": {
+  "t": "Spin-off da Universidade do Minho lidera um projeto de IA para desenhar alimentos personalizados",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Minho spin-off leads an AI project to design p",
+  "ok": false
+ },
+ "589fab983110c317": {
+  "t": "Estudantes do politécnico fizeram uma plataforma que usa IA para analisar as regras dos Planos Diretores Municipais e mostrar permissões, restrições e incoerências a arquitetos, engenheiros e gabinetes de planeamento. Ganhou a fase regional do concurso Poliempreende.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Polytechnic students made a platform that uses AI to analyse",
+  "ok": false
  }
 }

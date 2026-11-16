@@ -1,10 +1,34 @@
 {
+ "d51b558786ac2a1b": {
+  "t": "O laboratório constrói IA à medida para empresas, sociedades de capital de investimento e agências governamentais. Entre os seus investidores-anjo estão fundadores da Sword Health, da OutSystems e da Feedzai. O valor da ronda não foi divulgado.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The lab builds custom AI for companies, private equity firms",
+  "ok": false
+ },
  "d59c7109bbba032c": {
   "t": "Voz local descontraída: os mesmos factos, ditos à algarvia",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Playful local voice: same facts, said the Algarvio way",
+  "ok": false
+ },
+ "d5a78bc8a8ef3a0a": {
+  "t": "A Bosch abre uma unidade de I&D de eBike em Braga, com um antirroubo de aprendizagem automática no centro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bosch opens an eBike R&D unit in Braga, with machine-learnin",
+  "ok": false
+ },
+ "d5c27fdac82bc391": {
+  "t": "PrompTugal.news Castelo Branco: IA e tecnologia em Castelo Branco, capital de distrito da Beira Baixa cujo centro de gravidade é o seu politécnico, agora Universidade Politécnica de Castelo Branco, e um pequeno círculo de empresas tecnológicas locais, e o que chega a Castelo Branco vindo de Portugal, da Europa e do mundo. Independente. Cada facto com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Castelo Branco: AI and technology in Castelo",
   "ok": false
  },
  "d5c86e462451b6fc": {

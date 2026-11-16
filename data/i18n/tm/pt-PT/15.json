@@ -14,5 +14,21 @@
   "at": "2026-11-16",
   "src": "Turismo do Algarve runs free AI bootcamp for tourism profess",
   "ok": false
+ },
+ "152ae9199ac5e5bd": {
+  "t": "O politécnico lidera um projeto com as universidades de Aveiro e a faculdade de engenharia do Porto para construir um modelo virtual de um edifício patrimonial que usa fotografias, imagens térmicas e sensores para assinalar riscos de degradação. O Museu Nacional Grão Vasco, em Viseu, é um de dois casos de estudo, e o gestor do edifício decide até onde a IA atua.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The polytechnic leads a project with the universities of Ave",
+  "ok": false
+ },
+ "153080263941a459": {
+  "t": "Na feira Science for Industry, o instituto mostrou o DBoidS, que alia gémeos digitais e IA contra os incêndios florestais, e o CERAMIND, que usa IA para detetar defeitos em cerâmica.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the Science for Industry fair the institute showed DBoidS",
+  "ok": false
  }
 }

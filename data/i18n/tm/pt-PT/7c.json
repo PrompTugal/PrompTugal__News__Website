@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Now the honest part, meu amigo: where the algorithms have no",
   "ok": false
+ },
+ "7ca1e09bcf45f77f": {
+  "t": "Évora não se apressa, mas chega lá. A universidade ensina português às máquinas e escreve-lhes as regras da casa, o PACT forma as pessoas e mantém as luzes acesas para as empresas, o hospital deixa uma IA apontar a lâmina antes de um especialista decidir, e uma empresa de centros de dados comprou discretamente uma sala de 1 MW. A câmara municipal, abençoada seja, ainda não a apanhámos a fazer IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora does not rush, but it gets there. The university teach",
+  "ok": false
  }
 }

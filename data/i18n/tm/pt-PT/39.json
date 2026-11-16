@@ -1,4 +1,12 @@
 {
+ "39033e9b262f6880": {
+  "t": "Porto, carago: a cidade que trabalha enquanto Lisboa fala, onde a ponte é de ferro, os azulejos são azuis, e as máquinas estão a aprender a comer uma francesinha sem entornar o molho.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto, carago: the city that works while Lisbon talks, where",
+  "ok": false
+ },
  "391d157ac2945de1": {
   "t": "São Brás de Alportel é um pequeno município do interior cuja identidade assenta no património (o Museu do Traje, a indústria da cortiça e agora a Praça 1914, um espaço de património industrial ao ar livre) e numa base industrial liderada pela Globalfire, fabricante de tecnologia de deteção de incêndios descrita como o seu maior empregador e exportador. A sua história de IA é precoce e liderada pelo setor público: a câmara é parceira do projeto intermunicipal de território inteligente Algarve 6.0, gere um espaço de coworking e um gabinete do empreendedor, e apoia a investigação na Universidade do Algarve.",
   "by": "translator@PrompTugal.dinis",

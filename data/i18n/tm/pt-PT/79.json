@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Official contacts",
   "ok": false
+ },
+ "79d6c16f34cbe5d1": {
+  "t": "Na inauguração, a 16 de outubro de 2026, do Instituto Confúcio na Universidade de Évora, o reitor nomeou a IA, a ciência de dados e o agroalimentar como áreas de cooperação existente e prevista, com ideias como IA para o património cultural, a saúde, o ambiente e a agricultura.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the 16 October 2026 opening of the Confucius Institute at",
+  "ok": false
  }
 }

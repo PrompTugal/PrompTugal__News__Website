@@ -1,10 +1,34 @@
 {
+ "5d506e2834f29e75": {
+  "t": "Ainda não sabemos tudo, ó pá. Eis o que Leiria ainda não nos disse:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not to",
+  "ok": false
+ },
  "5d85648672241449": {
   "t": "Um projeto financiado pelo PRR dá aos comerciantes de Quarteira plataformas de venda online, Wi-Fi adicional, ecrãs digitais de rua e vales para serviços digitais. O artigo não menciona IA. Importa-nos como base digital sobre a qual as ferramentas de IA viriam a assentar.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "A PRR-funded project gives Quarteira's merchants online sale",
+  "ok": false
+ },
+ "5d86f172e5b4beb9": {
+  "t": "O quadro de referência orienta os professores sobre quando e como usar a IA, rejeita proibições e detetores de IA em favor de uma utilização transparente ligada às competências avaliadas, e aponta para uma comunidade de prática de 120 professores e workshops da AcademIA UA. O regulamento da própria universidade dá-o como Despacho n.º 65-REIT/2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The framework guides teachers on when and how to use AI, rej",
+  "ok": false
+ },
+ "5d97ee52fae5fa6b": {
+  "t": "O Hospital de Évora começa a usar IA no rastreio do cancro do colo do útero",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Hospital de Évora starts using AI in cervical cancer screeni",
   "ok": false
  },
  "5db55f2433d7005b": {

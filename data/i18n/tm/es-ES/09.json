@@ -1,0 +1,34 @@
+{
+ "091fd552a554d036": {
+  "t": "La Aveiro Tech Week arranca con la IA como tema principal",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aveiro Tech Week opens with AI as a main theme",
+  "ok": false
+ },
+ "095e5672aca5f63a": {
+  "t": "La escuela de salud de Castelo Branco celebra una jornada sobre IA en la práctica clínica",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castelo Branco's health school holds a day on AI in clinical",
+  "ok": false
+ },
+ "09600d7e18a1cab9": {
+  "t": "Pueblo pequeño, cielo grande, mucha sal. Nuestro dinero está en las balsas del Sapal, en los visitantes y en los tratos de buena vecindad con Espanha al otro lado del río. Nuestra IA, a decir verdad, no es una multitud, son dos casos: la Câmara ordenando sus papeles de urbanismo con un software que algún día responderá a los ciudadanos, y una familia salinera que construyó una app tan lista que tiene un asistente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Small town, big sky, lots of salt. Our money is in the pans ",
+  "ok": false
+ },
+ "09d91b0f16e245c8": {
+  "t": "Lagoa acoge el piloto de una herramienta de IA que elige emplazamientos para puntos de reciclaje",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagoa hosts the pilot of an AI tool that picks sites for rec",
+  "ok": false
+ }
+}

@@ -1,4 +1,28 @@
 {
+ "2a76a80ec09f2c59": {
+  "t": "O AITRAS decorreu a 5 e 6 de março na escola agrária e veterinária da UTAD, com oradores de várias universidades europeias e casos da produção animal, da silvicultura, da viticultura e do setor agroalimentar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AITRAS ran on 5 and 6 March at UTAD's agrarian and veterinar",
+  "ok": false
+ },
+ "2a94fcacda5956cf": {
+  "t": "Quase toda a IA que conseguimos documentar na Guarda passa por uma só instituição, o Politécnico da Guarda (IPG, que está em transição para universidade). Ministra a licenciatura em ciência de dados e IA que abriu em 2022, lidera um projeto de cerca de um milhão de euros para levar a IA, a IoT e a blockchain às pequenas empresas da região Centro, assinou um acordo de drones e IA com uma universidade ucraniana, e gere a incubadora onde estão as startups da cidade. As páginas da própria câmara não mostram nenhum uso de IA nem programa de IA, e a camada privada de IA é fina, com um escritório de consultora que recruta perfis de IA como o exemplo mais claro. O centro de gravidade da Guarda é, por isso, o seu politécnico, e não a sua câmara municipal nem as suas empresas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Almost all the AI we could source in Guarda runs through one",
+  "ok": false
+ },
+ "2aed6185a7d900cb": {
+  "t": "Coimbra está entre as primeiras câmaras a testar IA no licenciamento urbano",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Coimbra is among the first councils to test AI in urban lice",
+  "ok": false
+ },
  "2af0fa78e77b7dc6": {
   "t": "O SalOS é também noticiado como plataforma de rastreabilidade pronta para o Passaporte Digital de Produto da UE",
   "by": "translator@PrompTugal.dinis",

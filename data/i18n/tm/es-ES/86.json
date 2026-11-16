@@ -1,0 +1,42 @@
+{
+ "861340a39322787c": {
+  "t": "Faro alberga la Universidade do Algarve, cuyos campus en la ciudad anclan la mayor parte de la actividad de IA de la región: investigación (un centro de innovación arqueológica de 31,5 millones de euros que usará IA), docencia (una política universitaria de IA publicada, un curso ejecutivo de IA en la salud con una empresa de tecnología sanitaria) y el UALG TEC Campus, donde se celebran eventos empresariales sobre IA. También está aquí la capa comunitaria: GDG Faro organiza la conferencia de desarrolladores de la ciudad sobre IA agéntica, y Algarve Evolution, Algarve STP y el ayuntamiento añaden eventos y programas. El propio municipio muestra poco uso de IA en lo que pudimos leer, así que la innovación y la investigación, no el gobierno municipal, son el centro de gravedad de Faro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro is home to the Universidade do Algarve, whose campuses ",
+  "ok": false
+ },
+ "862a47ccd096007f": {
+  "t": "Un proyecto llamado QI 4.0 usa sensores y modelos de aprendizaje automático para vigilar la curación del Queijo Serpa DOP y alimenta una app, aún en desarrollo, que avisa a los productores cuando las condiciones de la cámara de curación se desvían. Estaba previsto presentarlo en Córdoba el 14 de noviembre de 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A project called QI 4.0 uses sensors and machine-learning mo",
+  "ok": false
+ },
+ "867572ff80be5e8d": {
+  "t": "Mapa del Algarve con sus {count} lugares, cada uno enlazado con su sitio",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
+ },
+ "86ad806b1bec465d": {
+  "t": "Ó pá, Lagoa: sol, vino, una cueva marina con un agujero en el techo y ahora un ayuntamiento que pregunta a los robots por el aire.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86f95ca1e0fd1015": {
+  "t": "El proyecto SiARA combina IA, un robot autónomo de campo llamado EVAbot y una red de sensores para recoger datos sobre cultivos, suelo, pastos y fauna en la estepa de Campo Branco. Empezó en noviembre de 2025 y su primer trabajo de campo fue el 3 de marzo de 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ }
+}

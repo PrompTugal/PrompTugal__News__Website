@@ -1,0 +1,18 @@
+{
+ "e08c06bc65abb642": {
+  "t": "Las empresas, instituciones y comunidades de {name} con un camino hacia la IA, cada una a partir de una fuente pública.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The companies, institutions and communities in {name} with a",
+  "ok": false
+ },
+ "e0efee49767bd1db": {
+  "t": "Un programa nacional de formación llamado Estado em Acção, para el personal de la administración pública, arrancó con una sesión gratuita en Coimbra el 18 de septiembre de 2026 y debía continuar con diez sesiones por todo el país.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A national training programme called Estado em Acção, for pu",
+  "ok": false
+ }
+}

@@ -1,4 +1,12 @@
 {
+ "f30e26d27493f31a": {
+  "t": "Um almoço de trabalho a 5 de março de 2026, promovido pelo novobanco e pela AEP no âmbito do Portugal Export +60'30, reuniu cerca de 30 líderes empresariais para discutir a IA e as exportações.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A working lunch on 5 March 2026, run by novobanco and AEP as",
+  "ok": false
+ },
  "f37a88821b4aa063": {
   "t": "Uma plataforma criada a partir do trabalho de uma salina de Castro Marim gere colheita, laboratório, stock, vendas e rastreabilidade do sal marinho artesanal no telemóvel ou no computador. A cobertura da imprensa diz que inclui um assistente digital para questões operacionais e uma ferramenta de gestão de comportas e salinidade. Teste gratuito para produtores.",
   "by": "translator@PrompTugal.dinis",

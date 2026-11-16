@@ -1,0 +1,26 @@
+{
+ "766c539b915e4350": {
+  "t": "A Universidade de Aveiro aprova um quadro de referência para a avaliação na era da IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Aveiro approves a framework for assessment in ",
+  "ok": false
+ },
+ "76c522282590fa75": {
+  "t": "O Parque de Ciência e Inovação realizou o concurso Rocket Booster Acceleration com a startUP23 e o Turismo de Portugal, aberto a startups com soluções de IA para turismo, destinos inteligentes ou mobilidade. A própria linha de estado da página diz que as candidaturas encerraram, enquanto o corpo do texto ainda parece aberto, pelo que o prazo não é claro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Parque de Ciência e Inovação ran the Rocket Booster Acce",
+  "ok": false
+ },
+ "76d474040aeede69": {
+  "t": "Depois do programa Leiria Experience Lab da Startup Leiria, a câmara vai gastar 7500 euros na Leiria Concierge (5000, um assistente de itinerários com IA) e na Guide Sofia (2500, um audioguia com IA, a começar pelo Castelo de Leiria).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "After the Leiria Experience Lab programme of Startup Leiria,",
+  "ok": false
+ }
+}
