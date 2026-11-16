@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1572",
+    "date": "2026-11-16",
+    "what": "designer.places@PrompTugal.dinis: wake 05:43: nothing to change; ask 11 checked on Coimbra; sweep clean; run report",
+    "by": "designer.places@PrompTugal.dinis",
+    "from": "269b0886b"
+  },
+  {
     "version": "v0.1.1571",
     "date": "2026-11-16",
     "what": "place.lagoa@PrompTugal.dinis: run report of the 05:40 wake (nothing new to add)",
