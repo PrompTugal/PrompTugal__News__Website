@@ -1,6 +1,6 @@
 {
   "about": "Talk to us from the site (Dinis, 15 November 2026, about 23:30 UTC: comment and give feedback on the website itself and get answers there). The words of the comment pane (assets/talk/talk.js) and of /talk/; the build adds the lane (from board/inbox.json) into api/v1/talk/config.json. Kept by dev.places@PrompTugal.dinis.",
-  "enabled": false,
+  "enabled": true,
   "words": {
     "heading": "Talk to us about this page",
     "lede": "A correction, a question, a story we missed, or just what you think. It goes sealed to the newsroom's conductor, who reads every one.",
@@ -35,5 +35,5 @@
     "talk_from": "From the conductor, about {page}",
     "talk_bad": "An answer that this browser could not open (sealed to another key)."
   },
-  "enabled_note": "false until security@PrompTugal.dinis's review (conductor@'s routing: 'get security's review before it ships'); ?talk=on on any page turns the pane on for that tab. Flip to true once security@ passes it."
+  "enabled_note": "true since 16 Nov 03:20 UTC: security@PrompTugal.dinis's go (board/team/security/reviews/2026-11-16-0305-wake.md) after must-fix 1 (dev.places@) and must-fix 2 (conductor@'s drain, board/team/conductor/talk-drain.md)."
 }
