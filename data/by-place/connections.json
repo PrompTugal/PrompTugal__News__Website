@@ -688,6 +688,85 @@
         "faro",
         "algarve"
       ]
+    },
+    {
+      "id": "silves-ehtp-ai-sme",
+      "from": {
+        "name": "Municipio de Silves",
+        "type": "public body",
+        "place": "silves"
+      },
+      "to": {
+        "name": "Escola de Hotelaria e Turismo de Portimao",
+        "type": "institution",
+        "place": "portimao"
+      },
+      "relation": "builds_with",
+      "what": "Silves runs the free, certified Formacao + Proxima programme with Turismo de Portugal and the Portimao hospitality school; November 2026 includes 'Artificial Intelligence for SMEs: Consolidation' (6 hours, 16 and 20 November, 09:30 to 12:30). It is the same programme and school that Lagoa uses.",
+      "ai_path": "The council trains local businesses in AI with the tourism school.",
+      "steps": 0,
+      "source_url": "https://www.cm-silves.pt/pt/destaques/33415/programa-formacao---proxima.aspx",
+      "source_title": "Programa Formacao + Proxima (Municipio de Silves)",
+      "source_date": "2026-10",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "silves",
+        "portimao"
+      ]
+    },
+    {
+      "id": "silves-turismo-portugal-ai",
+      "from": {
+        "name": "Municipio de Silves",
+        "type": "public body",
+        "place": "silves"
+      },
+      "to": {
+        "name": "Turismo de Portugal (Academia Digital)",
+        "type": "public body",
+        "place": "portugal"
+      },
+      "relation": "builds_with",
+      "what": "Turismo de Portugal is a named partner of the programme; registration for the AI course goes through its Academia Digital. Confirmed by Terra Ruiva on 11 November 2026.",
+      "ai_path": "A national body backs the council's AI course.",
+      "steps": 1,
+      "source_url": "https://www.terraruiva.pt/2026/11/11/formacao-em-silves-sobre-ia-para-empresas-e-instagram-para-negocios/",
+      "source_title": "Formacao em Silves sobre IA para empresas e Instagram para negocios (Terra Ruiva)",
+      "source_date": "2026-11-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "silves",
+        "portugal"
+      ]
+    },
+    {
+      "id": "lagoa-silves-same-programme",
+      "from": {
+        "name": "Municipio de Lagoa",
+        "type": "public body",
+        "place": "lagoa"
+      },
+      "to": {
+        "name": "Municipio de Silves",
+        "type": "public body",
+        "place": "silves"
+      },
+      "relation": "part_of",
+      "what": "Both councils run AI courses for businesses under the same Formacao + Proxima programme with the Portimao hospitality school: a regional pattern, not a one-off. Lagoa read at cm-lagoa.pt, Silves at cm-silves.pt.",
+      "ai_path": "Two councils, one AI-training programme.",
+      "steps": 1,
+      "source_url": "https://www.cm-silves.pt/pt/destaques/33415/programa-formacao---proxima.aspx",
+      "source_title": "Formacao + Proxima (Silves) and cm-lagoa.pt",
+      "source_date": "2026-11",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "lagoa",
+        "silves",
+        "portimao"
+      ]
     }
   ],
   "leads": [
@@ -782,15 +861,6 @@
       ]
     },
     {
-      "what": "Silves council's site lists the Formacao +Proxima training programme, the same name as Lagoa's AI courses; whether Silves runs any AI course was not read. Lagos council's site has an InvestAlgarve page and a WhatsApp citizen channel, no AI stated.",
-      "url": "https://www.cm-silves.pt/pt/destaques/33415/programa-formacao---proxima.aspx",
-      "why_open": "Programme page to read",
-      "places": [
-        "silves",
-        "lagos"
-      ]
-    },
-    {
       "what": "AI4Youth Work (Algarve STP, AI for youth work): title only from search results.",
       "url": "https://algarvestp.pt/en/ai4youth-work-inteligencia-artificial-ia-ao-servico-da-juventude/",
       "why_open": "Page returns a bot check",
@@ -813,6 +883,16 @@
       "url": "https://portugalvc.com/",
       "why_open": "Council and local press pages for Tavira and Monchique to be read directly; investors need a source naming an Algarve investment",
       "places": [
+        "tavira",
+        "monchique"
+      ]
+    },
+    {
+      "what": "Lagos council site: a WhatsApp citizen channel and an InvestAlgarve page, no AI stated. Tavira council site: entrepreneur support, Espaco Empresa and business-park pages, no AI item. Monchique council site: project pages (#Algarve mais digital, Vale incubadoras e aceleradoras, Monchique Criativo e Empreendedor), none about AI as read. Pages named, not opened in depth.",
+      "url": "https://cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
+      "why_open": "Open the project pages to see whether any of them has an AI component",
+      "places": [
+        "lagos",
         "tavira",
         "monchique"
       ]
