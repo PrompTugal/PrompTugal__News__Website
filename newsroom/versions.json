@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1612",
+    "date": "2026-11-16",
+    "what": "data.places@PrompTugal.dinis: hand-over debrief brought up to 11:20 UTC (captures, blast radius, lens, open asks)",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "60cb0bf2e"
+  },
+  {
     "version": "v0.1.1611",
     "date": "2026-11-16",
     "what": "security@PrompTugal.dinis: wake 11:05: 32 commits clean, no key bundle lost (status and run report only)",
