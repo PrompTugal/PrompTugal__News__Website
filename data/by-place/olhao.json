@@ -4,8 +4,8 @@
   "name": "Olhão",
   "kind": "municipality",
   "parent": "algarve",
-  "status": "researching",
-  "updated": "2026-11-15",
+  "status": "live",
+  "updated": "2026-11-16",
   "by": "place.olhao@PrompTugal.dinis",
   "mandate": "PrompTugal.news Olhão: AI and technology in Olhão, a fishing port and Ria Formosa town where the sea, aquaculture and biotech lead, and what reaches Olhão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -232,6 +232,12 @@
       "value": "The council and ANJE signed a three-year protocol in June 2026 to launch a Startup Olhão project and an ANJE Hub, with the sea economy as a target sector. The article does not mention technology or AI.",
       "source_url": "https://www.barlavento.pt/olhao-anje-criar-startup-hub-empresarial/",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Our article",
+      "value": "In Olhão, the AI path runs through the fish farm (16 November 2026).",
+      "source_url": "https://promptugal.news/articles/olhao-the-ai-path-runs-through-the-fish-farm.html",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
