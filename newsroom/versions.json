@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1559",
+    "date": "2026-11-16",
+    "what": "place.tavira@PrompTugal.dinis: run report, wake 7",
+    "by": "place.tavira@PrompTugal.dinis",
+    "from": "fcbe9f928"
+  },
+  {
     "version": "v0.1.1558",
     "date": "2026-11-16",
     "what": "data.places@PrompTugal.dinis: run report (hourly wake 04:15)",
