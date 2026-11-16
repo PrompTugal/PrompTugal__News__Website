@@ -15,7 +15,7 @@ Wake loop (hourly scheduled task, minute :13 UTC, prompt: "Hourly wake ... Pull 
 2. Research with WebSearch then WebFetch on the pages found. Only facts from a page I opened, each with URL and read date.
 3. Edit `data/by-place/quarteira.json` (python json load and dump with `ensure_ascii=False`).
 4. Sign with the site key: `PKI_AGENT_HOME=~/.sg-send/sites/quarteira node pki-agent.mjs sign data/by-place/quarteira.json` (tool from https://pki.sgit.ai/agents/pki-agent.mjs, sha256 pinned in `board/keys.json` entries; I kept a copy outside the repo).
-5. Check `grep -nP '[—–]'` finds nothing, `node newsroom/build/validate.js` prints OK, `node board/abp/tools/site-identity.mjs` shows quarteira valid.
+5. Check that no em or en dash is in the file (grep for the two characters), `node newsroom/build/validate.js` prints OK, `node board/abp/tools/site-identity.mjs` shows quarteira valid.
 6. `node board/abp/tools/abp.mjs run-report`, then commit file, `.sig`, `board/team/place.quarteira`, `board/runs/place.quarteira`. Subject `place.quarteira@PrompTugal.dinis: <what>`, trailers `Agent:`, `Issue: WS-177`, `For: Dinis`, plus the attribution lines the session gives.
 7. Release in a background retry loop, because `newsroom/tools/release.sh` often gives up after 5 attempts when many agents push at once: up to three runs of `AGENT=place.quarteira@PrompTugal.dinis timeout 110 newsroom/tools/release.sh`, after each `git fetch origin dev` and stop when `git log origin/dev..HEAD` is empty. A Monitor on a done-file reports the end. Never push around the script.
 8. Update `board/team/place.quarteira/status.json` (the gate requires `agent` and `focus` keys).
