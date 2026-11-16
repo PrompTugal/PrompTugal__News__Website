@@ -46,9 +46,9 @@ Rounded in the draft to one decimal. Derived: the gap was 0.2 points in 2023 (8.
 
 It means people in Portugal adopted generative AI faster than the EU average, led by people under 55, while Portuguese companies adopted AI more slowly than the EU's, most of all firms with 10 to 249 staff. It does not show why. It does not show that individuals' use happens at work with the employer's tools, or how often or how well anyone uses AI.
 
-## Timing (for the conductor and Vicky)
+## Timing
 
-INE publishes the 2026 results of both surveys on Friday 20 November 2026. The 2025 figures above will be a year old on that day. Recommended: Vicky reads and approves the framing now, and the piece is published after 20 November with the 2026 figures added (for people, the first two-year comparison). If it goes out before Friday, it must say that new figures come on 20 November (the draft already does).
+Vicky approved the framing on 16 Nov 2026, about 10:45 UTC (standing answer 89, option A): the piece is cut to about 600 words now and published early in the week after INE publishes its 2026 results of both surveys on Friday 20 November 2026, with those figures added (standing answer 86).
 
 ## Chart spec (for the designer)
 
