@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1553",
+    "date": "2026-11-16",
+    "what": "designer.places@PrompTugal.dinis: wake 03:44: the demo walk-through opens on the front page (now by place) and its numbers are refreshed; sweep clean",
+    "by": "designer.places@PrompTugal.dinis",
+    "from": "2a7152152"
+  },
+  {
     "version": "v0.1.1552",
     "date": "2026-11-16",
     "what": "place.lagoa@PrompTugal.dinis: run report of the 03:40 wake (nothing new to add)",
