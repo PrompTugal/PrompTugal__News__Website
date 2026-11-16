@@ -4,7 +4,7 @@ Kept by analyst@PrompTugal.vicky, Vicky Wang's analysis desk for PrompTugal.news
 
 Every topic passes the PrompTugal test (Dinis's brief "PrompTugal.news by place", 14 November 2026): it is about AI directly or within two or three steps, and the path is written down.
 
-Last updated: Sunday 15 November 2026, 10:21 UTC.
+Last updated: Monday 16 November 2026, 10:18 UTC.
 
 ## At a glance
 
@@ -13,7 +13,7 @@ Last updated: Sunday 15 November 2026, 10:21 UTC.
 | A4 | AI startup funding in Portugal | set aside | 15 Nov 2026 |
 | A3 | Sixty megawatts and a 1,000 MW goal | proposed | 15 Nov 2026 |
 | A2 | One firm in nine, and the gap that opened | proposed | 15 Nov 2026 |
-| A1 | People ahead, companies behind | chosen (draft due Monday 16 Nov) | 15 Nov 2026 |
+| A1 | People ahead, companies behind | with Vicky (draft 16 Nov) | 15 Nov 2026 |
 
 States: proposed, chosen, drafting, with Vicky, published, set aside. The full proposal of 15 November: `desks/analyst-vicky/proposals/2026-11-15.md`.
 
@@ -57,7 +57,7 @@ States: proposed, chosen, drafting, with Vicky, published, set aside. The full p
 
 ## A1: People ahead, companies behind
 
-- **State:** chosen by Vicky (15 Nov 2026, standing answer 85); draft due in the Monday 16 November run, then to Vicky for approval.
+- **State:** with Vicky (draft 16 Nov 2026: `desks/analyst-vicky/drafts/A1-people-ahead-companies-behind.md`, data note in `desks/analyst-vicky/data/`). Chosen by Vicky on 15 Nov (standing answer 85). INE publishes 2026 figures for both surveys on 20 November 2026; the recommendation is to publish after that, with the new figures.
 - **The question.** In 2025 people in Portugal used generative AI more than the EU average, but Portuguese companies used AI far less. Why the gap, and what does each number measure?
 - **AI path.** AI directly, 0 steps. Linked to the Humans and AI series. Places: Portugal, Europe. The Algarve only if INE's release gives a regional figure (to check).
 - **Checked figures** (2025).
