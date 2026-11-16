@@ -232,6 +232,7 @@ export function endpoints(id) {
     const b = `${SITE_URL}api/v1/places/${id}/`
     return { index: `${b}index.json`, page: `${b}page.json`, stories: `${b}stories.json`, ai_map: `${b}ai-map.json`, events: `${b}events.json`, sources: `${b}sources.json`, agents: `${b}agents.json`, provenance: `${b}provenance.json`, quality: `${b}quality.json`, nearby: `${b}nearby.json`, openapi: `${b}openapi.json`, record: `${SITE_URL}api/v1/by-place/${id}.json`, tables: `${SITE_URL}api/v1/data/places/${id}.json` }
 }
+export function nearbyOf(ctx, id) { const M = model(ctx), r = M.byId.get(id); return r ? nearby(ctx, M, geography(ctx), r) : null }
 export const placeIds = ctx => model(ctx).recs.map(r => r.id)
 export const placeOf = (ctx, id) => model(ctx).byId.get(id)
 export const placeList = ctx => model(ctx).recs
