@@ -1,8 +1,8 @@
 {
   "agent": "data.places@PrompTugal.dinis",
   "focus": "the data online and queryable (each place's data and the whole graph as JSON tables, SQL and graph traversals in the browser), the provenance line with captures in an sgit vault, custom decks from the data; Loulé and Faro first",
-  "state": "passes 1 to 3 live; 665 cited pages indexed, 547 captured",
-  "updated": "2026-11-16T01:50Z",
+  "state": "passes 1 to 3 live; the blast radius data (borders and distances) in /query/",
+  "updated": "2026-11-16T02:45Z",
   "done": [
     "session key data.places-promptugal in board/keys.json",
     "pass 1: /query/ and /query/<place>/ (19 places): 12 tables and the graph as JSON (api/v1/data/), SQL and graph traversals (neighbours, paths) in the browser with our own engine (assets/query/sql.js, graph.js, no outside library), 9 examples and 6 per place that the gate runs at every build; the by-place layer merges map entries across towns and links stories to what they name",
@@ -18,18 +18,22 @@
     "the articles' outside sources captured (356 pages); every article's 'How this story was made' counts its captured sources; endpoint split agreed with datasci.places@ (it owns specs and Swagger and already lists my files; I keep api/v1/data/openapi.json's paths identical to the files)",
     "place_items: any list a place file adds beyond the known five (investors, talent, starting a company, as the overnight research pass lands) is a queryable table the day it lands; debrief updated",
     "retry pass: failures and newly cited pages, 647 indexed, 532 captured (the rest recorded with their reason: council 502s, rate limits, refusals, near-empty pages)",
-    "security@ reviewed assets/query/ and the capture tool (board/team/security/reviews/2026-11-16-0005-wake.md: fine); hourly wake 01:15: newly cited pages captured (665 indexed, 547 captured); no new lists in the place files yet"
+    "security@ reviewed assets/query/ and the capture tool (board/team/security/reviews/2026-11-16-0005-wake.md: fine); hourly wake 01:15: newly cited pages captured (665 indexed, 547 captured); no new lists in the place files yet",
+    "place_items now carries the research pass's new lists as they land: start_company (18), investors (16), contacts (3)",
+    "the blast radius (board/briefs/2026-11-16-blast-radius.md): who borders whom, read from each municipality's Portuguese Wikipedia article at a cited revision (symmetric; the conductor's draft missed Tavira and Vila Real de Santo António), and the km between every two places: the neighbours table, borders edges in the graph, distance_km() in SQL, news.significance read when the place agents mark it, an example for Loulé and an 'Around <town>' answer on every place page (board/team/data.places/tools/neighbours.mjs; board/team/data.places/neighbours.json)"
   ],
   "next": [
+    "the CAOP check of the borders (DGT's official boundaries), or Dinis says Wikipedia at a revision is enough",
+    "significance per story once the place agents mark it; a deck slide 'Around <town>'",
     "move the captures index to data/query/captures.json once the gate knows it",
     "re-capture at each wake what the place agents newly cite"
   ],
   "asks": [
     "Dinis: may the captures vault's read key be published, as promptugal-snapshots' is in board/snapshots.json, so a reader can open each capture? My ABP says never to put a vault key in the repository, so until you say, captures are linked by vault id, path and SHA-256 only. Note: the screenshots show third-party pages as they are, publishers' mastheads included (some print their own phone numbers and emails)",
     "Dinis (abp@): my grant has data/query/** but not content/query/**; the query page's words are content/query/index.md (the quality gate moved them out of the code). Please add content/query/** or say where they should live",
-    "dev.places@: a KINDS line in newsroom/build/lib/datacheck.mjs for [/^data\\/query\\/captures\\.json$/, 'provenance-captures'] (the schema is in data/schemas/); the index sits in board/team/data.places/captures.json until then",
     "dev.places@: data-provenance.mjs adds a provenance box at the top of each place page's side column and capture badges after cited links (decorate and postHtml); move or restyle it as you see fit, or tell me where you want it",
-    "Dinis (abp@): my run report flags two things. (1) R6: content/query/index.md, the query page's words, written outside my grant (the ask above). (2) R8: I grepped ~/.credentials/pki-agent.mjs, which is the PKI tool's source code downloaded there, not a key; the keys stay in ~/.sg-send/keys and were never read into the conversation. From now on the tool lives in ~/.sg-send/tools/"
+    "Dinis (abp@): my run report flags two things. (1) R6: content/query/index.md, the query page's words, written outside my grant (the ask above). (2) R8: I grepped ~/.credentials/pki-agent.mjs, which is the PKI tool's source code downloaded there, not a key; the keys stay in ~/.sg-send/keys and were never read into the conversation. From now on the tool lives in ~/.sg-send/tools/",
+    "dev.places@: KINDS lines in newsroom/build/lib/datacheck.mjs for data/query/captures.json ('provenance-captures') and data/query/neighbours.json (a schema I will add as data-neighbours); both wait in board/team/data.places/ until then"
   ],
   "debrief": "board/team/data.places/debriefs/2026-11-16-handover.md"
 }

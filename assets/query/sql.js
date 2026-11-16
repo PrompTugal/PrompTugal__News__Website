@@ -243,6 +243,8 @@
         year: s => isNull(s) ? null : (/^(\d{4})/.exec(String(s)) || [])[1] || null,
         host: s => { if (isNull(s)) return null; const m = /^[a-z]+:\/\/(?:www\.)?([^/?#]+)/i.exec(String(s)); return m ? m[1].toLowerCase() : null },
         max2: (a, b) => compare(a, b) >= 0 ? a : b, min2: (a, b) => compare(a, b) <= 0 ? a : b,
+        distance_km: (lon1, lat1, lon2, lat2) => { if ([lon1, lat1, lon2, lat2].some(isNull)) return null; const r = x => num(x) * Math.PI / 180
+            const h = Math.sin((r(lat2) - r(lat1)) / 2) ** 2 + Math.cos(r(lat1)) * Math.cos(r(lat2)) * Math.sin((r(lon2) - r(lon1)) / 2) ** 2; return Math.round(12742 * Math.asin(Math.sqrt(h)) * 10) / 10 },
         printf: (f, ...a) => { let i = 0; return String(f).replace(/%[sd%]/g, m => m === '%%' ? '%' : String(a[i++])) },
     }
     const AGG = new Set(['count', 'sum', 'avg', 'min', 'max', 'group_concat', 'total'])

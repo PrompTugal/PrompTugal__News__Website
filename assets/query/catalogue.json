@@ -163,6 +163,11 @@
           "name": "summary",
           "type": "text",
           "about": "the summary"
+        },
+        {
+          "name": "significance",
+          "type": "text",
+          "about": "how far the story matters, set by its place agent: local, neighbours, region, country or beyond (board/briefs/2026-11-16-blast-radius.md); null until marked"
         }
       ]
     },
@@ -875,6 +880,46 @@
           "about": "the entry whole, as JSON"
         }
       ]
+    },
+    "neighbours": {
+      "about": "The blast radius: for each pair of Algarve places, whether their municipalities share a border (from the first place's Portuguese Wikipedia article, at the revision cited; a check against DGT's official boundaries, CAOP, is still owed) and the straight-line distance in km between their seats; and the municipalities outside the Algarve each one borders.",
+      "columns": [
+        {
+          "name": "place",
+          "type": "text",
+          "about": "the place's id"
+        },
+        {
+          "name": "other",
+          "type": "text",
+          "about": "the other place's id (null for a municipality outside the Algarve)"
+        },
+        {
+          "name": "other_name",
+          "type": "text",
+          "about": "the outside municipality's or country's name, as the article writes it"
+        },
+        {
+          "name": "adjacent",
+          "type": "integer",
+          "about": "1 if the two share a border"
+        },
+        {
+          "name": "km",
+          "type": "real",
+          "about": "straight-line distance between the two seats, in km"
+        },
+        {
+          "name": "source",
+          "type": "text",
+          "about": "the Wikipedia article at the revision read, for a border"
+        },
+        {
+          "name": "read_on",
+          "type": "text",
+          "about": "when it was read"
+        }
+      ]
     }
   },
   "examples": [
@@ -962,6 +1007,12 @@
       "about": "The lists beyond stories and the map, by place and field, as the full research pass adds them.",
       "sql": "SELECT field, count(*) AS entries, count(DISTINCT place) AS places, group_concat(DISTINCT place) AS where_\nFROM place_items\nGROUP BY field\nORDER BY entries DESC",
       "may_be_empty": true
+    },
+    {
+      "id": "blast-loule",
+      "title": "Loulé's blast radius: stories from its neighbours, nearest first",
+      "about": "The places that border Loulé or sit within 25 km of it, and their local AI stories, each with how far away it is: the start of the \"Around Loulé\" column.",
+      "sql": "SELECT round(n.km) AS km, n.adjacent, p.name AS place, s.date, s.title\nFROM neighbours n\nJOIN places p ON p.id = n.other\nJOIN news s ON s.place = n.other\nWHERE n.place = 'loule' AND (n.adjacent = 1 OR n.km <= 25)\nORDER BY n.km, s.date DESC"
     }
   ],
   "place_examples": [
@@ -988,6 +1039,12 @@
       "title": "Who on {name}'s map is also on another place's map",
       "about": "The organisations this place shares with the rest of the Algarve.",
       "sql": "SELECT n.label, group_concat(DISTINCT replace(e2.dst, 'place:', '')) AS also_in\nFROM edges e1\nJOIN nodes n ON n.id = e1.src\nJOIN edges e2 ON e2.src = e1.src AND e2.verb = 'on_ai_map_of' AND e2.dst != 'place:{place}'\nWHERE e1.verb = 'on_ai_map_of' AND e1.dst = 'place:{place}'\nGROUP BY n.id\nORDER BY n.label"
+    },
+    {
+      "id": "around",
+      "title": "Around {name}: who borders it, how far, and their stories",
+      "about": "The places that border {name} or sit within 25 km, nearest first, with how many local AI stories each has.",
+      "sql": "SELECT p.name, n.adjacent, round(n.km) AS km, (SELECT count(*) FROM news s WHERE s.place = n.other) AS stories\nFROM neighbours n JOIN places p ON p.id = n.other\nWHERE n.place = '{place}' AND (n.adjacent = 1 OR n.km <= 25)\nORDER BY n.km"
     },
     {
       "id": "sources",
@@ -1072,7 +1129,8 @@
     "oa_rows": "Rows are arrays in the order of the columns:",
     "oa_provenance": "Where every item on {name}'s page comes from, with its capture",
     "pv_read_on": "read on {day}",
-    "note_nr": "its name is in the newsroom.sgit.ai article's title or core idea (derived by name)"
+    "note_nr": "its name is in the newsroom.sgit.ai article's title or core idea (derived by name)",
+    "note_borders": "the two municipalities share a border, as the first one's Portuguese Wikipedia article says at the revision cited"
   },
   "aliases": {
     "about": "Names that are one organisation in two languages or spellings, merged by hand (data.places@, with the reason). A key is a name key: accents and case folded, what follows a bracket or comma dropped.",

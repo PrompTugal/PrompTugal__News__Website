@@ -1,0 +1,1131 @@
+{
+  "about": "For each Algarve place, the municipalities it borders (from its Portuguese Wikipedia article, at the revision named, read on the date given) and the straight-line distance in km between every two places (from their seats in data/by-place/places.json). For the blast radius (board/briefs/2026-11-16-blast-radius.md). Not yet checked against DGT's official boundaries (CAOP).",
+  "by": "data.places@PrompTugal.dinis",
+  "made": "2026-11-16",
+  "check_owed": "CAOP, https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+  "places": [
+    {
+      "id": "faro",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Faro&oldid=73207014",
+      "revision": 73207014,
+      "read_on": "2026-11-16",
+      "sentence": "O município é limitado a norte pelo município de São Brás de Alportel, a leste por Olhão, a oeste por Loulé e a sul com o oceano Atlântico.",
+      "borders": [
+        {
+          "name": "São Brás de Alportel",
+          "place": "sao-bras-de-alportel"
+        },
+        {
+          "name": "Olhão",
+          "place": "olhao"
+        },
+        {
+          "name": "Loulé",
+          "place": "loule"
+        }
+      ]
+    },
+    {
+      "id": "loule",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Loul%C3%A9&oldid=73240648",
+      "revision": 73240648,
+      "read_on": "2026-11-16",
+      "sentence": "O município de Loulé é limitado a norte pelo município de Almodôvar, a nordeste por Alcoutim e Tavira, a leste por São Brás de Alportel, a sudeste por Faro, a sudoeste por Albufeira, a oeste por Silves e a sul tem litoral no Oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Almodôvar",
+          "place": null
+        },
+        {
+          "name": "Alcoutim",
+          "place": "alcoutim"
+        },
+        {
+          "name": "Tavira",
+          "place": "tavira"
+        },
+        {
+          "name": "São Brás de Alportel",
+          "place": "sao-bras-de-alportel"
+        },
+        {
+          "name": "Faro",
+          "place": "faro"
+        },
+        {
+          "name": "Albufeira",
+          "place": "albufeira"
+        },
+        {
+          "name": "Silves",
+          "place": "silves"
+        }
+      ]
+    },
+    {
+      "id": "silves",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Silves_(Portugal)&oldid=73186182",
+      "revision": 73186182,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município é limitado a norte pelo município de Ourique, a nordeste por Almodôvar, a leste por Loulé, a sudeste por Albufeira, a sudoeste por Lagoa, a oeste por Portimão e Monchique e a noroeste por Odemira e a sul tem litoral no oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Ourique",
+          "place": null
+        },
+        {
+          "name": "Almodôvar",
+          "place": null
+        },
+        {
+          "name": "Loulé",
+          "place": "loule"
+        },
+        {
+          "name": "Albufeira",
+          "place": "albufeira"
+        },
+        {
+          "name": "Lagoa",
+          "place": "lagoa"
+        },
+        {
+          "name": "Portimão",
+          "place": "portimao"
+        },
+        {
+          "name": "Monchique",
+          "place": "monchique"
+        },
+        {
+          "name": "Odemira",
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "tavira",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Tavira&oldid=73231307",
+      "revision": 73231307,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município é limitado a norte pelo município de Alcoutim, a leste por Castro Marim e pela parte ocidental do município de Vila Real de Santo António, a sudoeste por Olhão, a oeste por São Brás de Alportel, a noroeste por Loulé e a sul tem litoral no oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Alcoutim",
+          "place": "alcoutim"
+        },
+        {
+          "name": "Castro Marim",
+          "place": "castro-marim"
+        },
+        {
+          "name": "Vila Real de Santo António",
+          "place": "vila-real-de-santo-antonio"
+        },
+        {
+          "name": "Olhão",
+          "place": "olhao"
+        },
+        {
+          "name": "São Brás de Alportel",
+          "place": "sao-bras-de-alportel"
+        },
+        {
+          "name": "Loulé",
+          "place": "loule"
+        }
+      ]
+    },
+    {
+      "id": "vila-real-de-santo-antonio",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Vila_Real_de_Santo_Ant%C3%B3nio&oldid=73345087",
+      "revision": 73345087,
+      "read_on": "2026-11-16",
+      "sentence": " A parte oriental é limitada a norte e oeste pelo município de Castro Marim, a leste pelo Rio Guadiana, que define a fronteira com Espanha, município de Aiamonte, e a sul tem litoral no oceano Atlântico; a parte ocidental é limitada a norte e leste por Castro Marim, a oeste por Tavira e a sul tem litoral no oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Castro Marim",
+          "place": "castro-marim"
+        },
+        {
+          "name": "Espanha",
+          "place": null
+        },
+        {
+          "name": "Aiamonte",
+          "place": null
+        },
+        {
+          "name": "Tavira",
+          "place": "tavira"
+        }
+      ]
+    },
+    {
+      "id": "portimao",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Portim%C3%A3o&oldid=73304141",
+      "revision": 73304141,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município está limitado a norte pelo de Monchique, a leste pelos de Silves e Lagoa, e a oeste pelo de Lagos; a sul, tem um sector litoral ao longo do oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Monchique",
+          "place": "monchique"
+        },
+        {
+          "name": "Silves",
+          "place": "silves"
+        },
+        {
+          "name": "Lagoa",
+          "place": "lagoa"
+        },
+        {
+          "name": "Lagos",
+          "place": "lagos"
+        }
+      ]
+    },
+    {
+      "id": "lagos",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Lagos_(Portugal)&oldid=73351323",
+      "revision": 73351323,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município é limitado a norte por Monchique, a leste por Portimão, a oeste por Vila do Bispo, a noroeste por Aljezur e a sul pelo oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Monchique",
+          "place": "monchique"
+        },
+        {
+          "name": "Portimão",
+          "place": "portimao"
+        },
+        {
+          "name": "Vila do Bispo",
+          "place": "vila-do-bispo"
+        },
+        {
+          "name": "Aljezur",
+          "place": "aljezur"
+        }
+      ]
+    },
+    {
+      "id": "olhao",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Olh%C3%A3o&oldid=72948915",
+      "revision": 72948915,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município, que inclui uma parte continental e a Ilha da Armona, na ria Formosa, é limitado a norte pelo município de São Brás de Alportel, a norte e leste por Tavira, a oeste por Faro e a sudeste tem litoral no oceano Atlântico.",
+      "borders": [
+        {
+          "name": "São Brás de Alportel",
+          "place": "sao-bras-de-alportel"
+        },
+        {
+          "name": "Tavira",
+          "place": "tavira"
+        },
+        {
+          "name": "Faro",
+          "place": "faro"
+        }
+      ]
+    },
+    {
+      "id": "albufeira",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Albufeira&oldid=73427796",
+      "revision": 73427796,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município é limitado a oeste e noroeste pelo município de Silves, a nordeste e leste por Loulé e a sul tem uma ampla costa no Oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Silves",
+          "place": "silves"
+        },
+        {
+          "name": "Loulé",
+          "place": "loule"
+        }
+      ]
+    },
+    {
+      "id": "lagoa",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Lagoa_(Algarve)&oldid=73180862",
+      "revision": 73180862,
+      "read_on": "2026-11-16",
+      "sentence": "<ref name=\"Lei11a-2013\"/> O município é limitado a norte e leste pelo município de Silves, a oeste por Portimão e a sul tem costa no Oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Silves",
+          "place": "silves"
+        },
+        {
+          "name": "Portimão",
+          "place": "portimao"
+        }
+      ]
+    },
+    {
+      "id": "monchique",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Monchique&oldid=73180934",
+      "revision": 73180934,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município é limitado a norte pelo município de Odemira, a leste por Silves, a sul por Portimão, a sudoeste por Lagos e a oeste por Aljezur.",
+      "borders": [
+        {
+          "name": "Odemira",
+          "place": null
+        },
+        {
+          "name": "Silves",
+          "place": "silves"
+        },
+        {
+          "name": "Portimão",
+          "place": "portimao"
+        },
+        {
+          "name": "Lagos",
+          "place": "lagos"
+        },
+        {
+          "name": "Aljezur",
+          "place": "aljezur"
+        }
+      ]
+    },
+    {
+      "id": "aljezur",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Aljezur&oldid=73436560",
+      "revision": 73436560,
+      "read_on": "2026-11-16",
+      "sentence": "O município é limitado a norte pelo Município de Odemira, a leste pelo de Monchique, a sueste por Lagos, a sudoeste por Vila do Bispo e a oeste tem uma extensa costa no oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Odemira",
+          "place": null
+        },
+        {
+          "name": "Monchique",
+          "place": "monchique"
+        },
+        {
+          "name": "Lagos",
+          "place": "lagos"
+        },
+        {
+          "name": "Vila do Bispo",
+          "place": "vila-do-bispo"
+        }
+      ]
+    },
+    {
+      "id": "vila-do-bispo",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Vila_do_Bispo&oldid=73015723",
+      "revision": 73015723,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município é limitado a norte pelo município de Aljezur, a nordeste por Lagos e a sul e oeste tem litoral no oceano Atlântico.",
+      "borders": [
+        {
+          "name": "Aljezur",
+          "place": "aljezur"
+        },
+        {
+          "name": "Lagos",
+          "place": "lagos"
+        }
+      ]
+    },
+    {
+      "id": "castro-marim",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Castro_Marim&oldid=72990979",
+      "revision": 72990979,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município é limitado a norte e noroeste pelo município de Alcoutim, a leste pela Espanha, a sudeste por Vila Real de Santo António (território principal), a sul pelo Oceano Atlântico, a sudoeste pela freguesia de Vila Nova de Cacela (exclave de Vila Real de Santo António) e a oeste por Tavira.",
+      "borders": [
+        {
+          "name": "Alcoutim",
+          "place": "alcoutim"
+        },
+        {
+          "name": "Espanha",
+          "place": null
+        },
+        {
+          "name": "Vila Real de Santo António",
+          "place": "vila-real-de-santo-antonio"
+        },
+        {
+          "name": "Tavira",
+          "place": "tavira"
+        }
+      ]
+    },
+    {
+      "id": "alcoutim",
+      "source": "https://pt.wikipedia.org/w/index.php?title=Alcoutim&oldid=73428383",
+      "revision": 73428383,
+      "read_on": "2026-11-16",
+      "sentence": "</ref> O município é limitado a norte pelo município de Mértola, a leste pela Espanha (municípios andaluzes de El Granado, Sanlúcar de Guadiana e San Silvestre de Guzmán), a sudeste por Castro Marim, a sudoeste por Tavira e a oeste por Loulé e Almodôvar.",
+      "borders": [
+        {
+          "name": "Mértola",
+          "place": null
+        },
+        {
+          "name": "Espanha",
+          "place": null
+        },
+        {
+          "name": "El Granado",
+          "place": null
+        },
+        {
+          "name": "Sanlúcar de Guadiana",
+          "place": null
+        },
+        {
+          "name": "San Silvestre de Guzmán",
+          "place": null
+        },
+        {
+          "name": "Castro Marim",
+          "place": "castro-marim"
+        },
+        {
+          "name": "Tavira",
+          "place": "tavira"
+        },
+        {
+          "name": "Loulé",
+          "place": "loule"
+        },
+        {
+          "name": "Almodôvar",
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "sao-bras-de-alportel",
+      "source": "https://pt.wikipedia.org/w/index.php?title=S%C3%A3o_Br%C3%A1s_de_Alportel&oldid=73217819",
+      "revision": 73217819,
+      "read_on": "2026-11-16",
+      "sentence": " É limitado a norte e leste pelo município de Tavira, a sudeste por Olhão, a sul por Faro e a oeste por Loulé.",
+      "borders": [
+        {
+          "name": "Tavira",
+          "place": "tavira"
+        },
+        {
+          "name": "Olhão",
+          "place": "olhao"
+        },
+        {
+          "name": "Faro",
+          "place": "faro"
+        },
+        {
+          "name": "Loulé",
+          "place": "loule"
+        }
+      ]
+    },
+    {
+      "id": "quarteira",
+      "source": null,
+      "revision": null,
+      "read_on": "2026-11-16",
+      "sentence": "Quarteira is a city in the municipality of Loulé; its neighbour is its own municipality.",
+      "borders": [
+        {
+          "name": "Loulé",
+          "place": "loule"
+        }
+      ]
+    }
+  ],
+  "distances": [
+    [
+      "faro",
+      "loule",
+      15.4
+    ],
+    [
+      "faro",
+      "quarteira",
+      15.9
+    ],
+    [
+      "faro",
+      "silves",
+      48.6
+    ],
+    [
+      "faro",
+      "tavira",
+      28.1
+    ],
+    [
+      "faro",
+      "vila-real-de-santo-antonio",
+      49.8
+    ],
+    [
+      "faro",
+      "portimao",
+      55
+    ],
+    [
+      "faro",
+      "lagos",
+      66.1
+    ],
+    [
+      "faro",
+      "olhao",
+      8.4
+    ],
+    [
+      "faro",
+      "lagoa",
+      47.7
+    ],
+    [
+      "faro",
+      "monchique",
+      64.2
+    ],
+    [
+      "faro",
+      "vila-do-bispo",
+      86.9
+    ],
+    [
+      "faro",
+      "sao-bras-de-alportel",
+      15.5
+    ],
+    [
+      "loule",
+      "quarteira",
+      10.4
+    ],
+    [
+      "loule",
+      "silves",
+      37.4
+    ],
+    [
+      "loule",
+      "tavira",
+      33.2
+    ],
+    [
+      "loule",
+      "vila-real-de-santo-antonio",
+      54
+    ],
+    [
+      "loule",
+      "portimao",
+      45.6
+    ],
+    [
+      "loule",
+      "olhao",
+      20.4
+    ],
+    [
+      "loule",
+      "monchique",
+      51.1
+    ],
+    [
+      "loule",
+      "vila-do-bispo",
+      79
+    ],
+    [
+      "loule",
+      "sao-bras-de-alportel",
+      12.1
+    ],
+    [
+      "quarteira",
+      "silves",
+      32.7
+    ],
+    [
+      "quarteira",
+      "tavira",
+      40.8
+    ],
+    [
+      "quarteira",
+      "vila-real-de-santo-antonio",
+      62.3
+    ],
+    [
+      "quarteira",
+      "vila-do-bispo",
+      71.7
+    ],
+    [
+      "quarteira",
+      "sao-bras-de-alportel",
+      21.2
+    ],
+    [
+      "silves",
+      "tavira",
+      70.4
+    ],
+    [
+      "silves",
+      "vila-real-de-santo-antonio",
+      90.5
+    ],
+    [
+      "silves",
+      "vila-do-bispo",
+      43.4
+    ],
+    [
+      "tavira",
+      "vila-real-de-santo-antonio",
+      21.8
+    ],
+    [
+      "tavira",
+      "vila-do-bispo",
+      112
+    ],
+    [
+      "portimao",
+      "quarteira",
+      39.2
+    ],
+    [
+      "portimao",
+      "silves",
+      10.3
+    ],
+    [
+      "portimao",
+      "tavira",
+      78.7
+    ],
+    [
+      "portimao",
+      "vila-real-de-santo-antonio",
+      99.4
+    ],
+    [
+      "portimao",
+      "vila-do-bispo",
+      33.7
+    ],
+    [
+      "portimao",
+      "sao-bras-de-alportel",
+      57.5
+    ],
+    [
+      "lagos",
+      "loule",
+      57.8
+    ],
+    [
+      "lagos",
+      "quarteira",
+      50.7
+    ],
+    [
+      "lagos",
+      "silves",
+      22.8
+    ],
+    [
+      "lagos",
+      "tavira",
+      90.8
+    ],
+    [
+      "lagos",
+      "vila-real-de-santo-antonio",
+      111.7
+    ],
+    [
+      "lagos",
+      "portimao",
+      12.7
+    ],
+    [
+      "lagos",
+      "olhao",
+      74.3
+    ],
+    [
+      "lagos",
+      "monchique",
+      26.1
+    ],
+    [
+      "lagos",
+      "vila-do-bispo",
+      21.2
+    ],
+    [
+      "lagos",
+      "sao-bras-de-alportel",
+      69.8
+    ],
+    [
+      "olhao",
+      "quarteira",
+      23.7
+    ],
+    [
+      "olhao",
+      "silves",
+      56.1
+    ],
+    [
+      "olhao",
+      "tavira",
+      20.4
+    ],
+    [
+      "olhao",
+      "vila-real-de-santo-antonio",
+      42
+    ],
+    [
+      "olhao",
+      "portimao",
+      63
+    ],
+    [
+      "olhao",
+      "vila-do-bispo",
+      95.2
+    ],
+    [
+      "olhao",
+      "sao-bras-de-alportel",
+      14.7
+    ],
+    [
+      "albufeira",
+      "faro",
+      29
+    ],
+    [
+      "albufeira",
+      "loule",
+      20.9
+    ],
+    [
+      "albufeira",
+      "quarteira",
+      13.2
+    ],
+    [
+      "albufeira",
+      "silves",
+      20.2
+    ],
+    [
+      "albufeira",
+      "tavira",
+      53.5
+    ],
+    [
+      "albufeira",
+      "vila-real-de-santo-antonio",
+      74.7
+    ],
+    [
+      "albufeira",
+      "portimao",
+      26
+    ],
+    [
+      "albufeira",
+      "lagos",
+      37.5
+    ],
+    [
+      "albufeira",
+      "olhao",
+      37
+    ],
+    [
+      "albufeira",
+      "lagoa",
+      18.7
+    ],
+    [
+      "albufeira",
+      "monchique",
+      37
+    ],
+    [
+      "albufeira",
+      "aljezur",
+      55.2
+    ],
+    [
+      "albufeira",
+      "vila-do-bispo",
+      58.6
+    ],
+    [
+      "albufeira",
+      "castro-marim",
+      72.9
+    ],
+    [
+      "albufeira",
+      "alcoutim",
+      81
+    ],
+    [
+      "albufeira",
+      "sao-bras-de-alportel",
+      32.9
+    ],
+    [
+      "lagoa",
+      "loule",
+      38.1
+    ],
+    [
+      "lagoa",
+      "quarteira",
+      31.9
+    ],
+    [
+      "lagoa",
+      "silves",
+      6.1
+    ],
+    [
+      "lagoa",
+      "tavira",
+      71.3
+    ],
+    [
+      "lagoa",
+      "vila-real-de-santo-antonio",
+      92
+    ],
+    [
+      "lagoa",
+      "portimao",
+      7.5
+    ],
+    [
+      "lagoa",
+      "lagos",
+      19.8
+    ],
+    [
+      "lagoa",
+      "olhao",
+      55.6
+    ],
+    [
+      "lagoa",
+      "monchique",
+      22.2
+    ],
+    [
+      "lagoa",
+      "vila-do-bispo",
+      41
+    ],
+    [
+      "lagoa",
+      "sao-bras-de-alportel",
+      50.1
+    ],
+    [
+      "monchique",
+      "quarteira",
+      48.6
+    ],
+    [
+      "monchique",
+      "silves",
+      17.5
+    ],
+    [
+      "monchique",
+      "tavira",
+      83
+    ],
+    [
+      "monchique",
+      "vila-real-de-santo-antonio",
+      101.5
+    ],
+    [
+      "monchique",
+      "portimao",
+      20
+    ],
+    [
+      "monchique",
+      "olhao",
+      71.1
+    ],
+    [
+      "monchique",
+      "vila-do-bispo",
+      40.9
+    ],
+    [
+      "monchique",
+      "sao-bras-de-alportel",
+      61.8
+    ],
+    [
+      "aljezur",
+      "faro",
+      83.8
+    ],
+    [
+      "aljezur",
+      "loule",
+      71.9
+    ],
+    [
+      "aljezur",
+      "quarteira",
+      67.9
+    ],
+    [
+      "aljezur",
+      "silves",
+      35.2
+    ],
+    [
+      "aljezur",
+      "tavira",
+      104.4
+    ],
+    [
+      "aljezur",
+      "vila-real-de-santo-antonio",
+      123.3
+    ],
+    [
+      "aljezur",
+      "portimao",
+      30.9
+    ],
+    [
+      "aljezur",
+      "lagos",
+      26.6
+    ],
+    [
+      "aljezur",
+      "olhao",
+      91.2
+    ],
+    [
+      "aljezur",
+      "lagoa",
+      37.1
+    ],
+    [
+      "aljezur",
+      "monchique",
+      21.9
+    ],
+    [
+      "aljezur",
+      "vila-do-bispo",
+      27.8
+    ],
+    [
+      "aljezur",
+      "castro-marim",
+      120.9
+    ],
+    [
+      "aljezur",
+      "sao-bras-de-alportel",
+      83.1
+    ],
+    [
+      "vila-do-bispo",
+      "vila-real-de-santo-antonio",
+      132.9
+    ],
+    [
+      "castro-marim",
+      "faro",
+      48.9
+    ],
+    [
+      "castro-marim",
+      "loule",
+      52.1
+    ],
+    [
+      "castro-marim",
+      "quarteira",
+      60.8
+    ],
+    [
+      "castro-marim",
+      "silves",
+      88.4
+    ],
+    [
+      "castro-marim",
+      "tavira",
+      20.9
+    ],
+    [
+      "castro-marim",
+      "vila-real-de-santo-antonio",
+      3.4
+    ],
+    [
+      "castro-marim",
+      "portimao",
+      97.3
+    ],
+    [
+      "castro-marim",
+      "lagos",
+      109.8
+    ],
+    [
+      "castro-marim",
+      "olhao",
+      41.2
+    ],
+    [
+      "castro-marim",
+      "lagoa",
+      90
+    ],
+    [
+      "castro-marim",
+      "monchique",
+      99
+    ],
+    [
+      "castro-marim",
+      "vila-do-bispo",
+      131
+    ],
+    [
+      "castro-marim",
+      "sao-bras-de-alportel",
+      40.1
+    ],
+    [
+      "alcoutim",
+      "faro",
+      64.9
+    ],
+    [
+      "alcoutim",
+      "loule",
+      61.3
+    ],
+    [
+      "alcoutim",
+      "quarteira",
+      71.6
+    ],
+    [
+      "alcoutim",
+      "silves",
+      91.2
+    ],
+    [
+      "alcoutim",
+      "tavira",
+      41.4
+    ],
+    [
+      "alcoutim",
+      "vila-real-de-santo-antonio",
+      31
+    ],
+    [
+      "alcoutim",
+      "portimao",
+      101.3
+    ],
+    [
+      "alcoutim",
+      "lagos",
+      114
+    ],
+    [
+      "alcoutim",
+      "olhao",
+      59.3
+    ],
+    [
+      "alcoutim",
+      "lagoa",
+      94.6
+    ],
+    [
+      "alcoutim",
+      "monchique",
+      97.3
+    ],
+    [
+      "alcoutim",
+      "aljezur",
+      118.9
+    ],
+    [
+      "alcoutim",
+      "vila-do-bispo",
+      134.5
+    ],
+    [
+      "alcoutim",
+      "castro-marim",
+      28.2
+    ],
+    [
+      "alcoutim",
+      "sao-bras-de-alportel",
+      51.1
+    ],
+    [
+      "sao-bras-de-alportel",
+      "silves",
+      49.1
+    ],
+    [
+      "sao-bras-de-alportel",
+      "tavira",
+      21.4
+    ],
+    [
+      "sao-bras-de-alportel",
+      "vila-real-de-santo-antonio",
+      41.9
+    ],
+    [
+      "sao-bras-de-alportel",
+      "vila-do-bispo",
+      91
+    ]
+  ]
+}

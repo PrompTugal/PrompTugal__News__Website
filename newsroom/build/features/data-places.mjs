@@ -76,7 +76,7 @@ export function database(ctx) {
     for (const o of ctx.store.organisations) if (nodes.has(`organisation:${o.id}`) && !o.marker && !byName.has(nameKey(o.name))) byName.set(nameKey(o.name), `organisation:${o.id}`)
 
     // the places
-    const rows = { places: [], news: [], map: [], events: [], sources: [], gaps: [], companies: [], articles: [], merges: [], connections: [], captures: [], nr_articles: [], nr_links: [], nr_nodes: [], nr_edges: [], place_items: [] }
+    const rows = { places: [], news: [], map: [], events: [], sources: [], gaps: [], companies: [], articles: [], merges: [], connections: [], captures: [], nr_articles: [], nr_links: [], nr_nodes: [], nr_edges: [], place_items: [], neighbours: [] }
     for (const p of places) {
         const id = `place:${p.id}`, f = p.file
         N(id, { type: 'place', kind: p.kind, label: p.name, page: `${p.path}index.html`, source: `data/by-place/${p.id}.json`, read: str(f.updated), layer: nodes.has(id) ? 'graph' : 'by-place' })
@@ -137,7 +137,7 @@ export function database(ctx) {
         if (!a || !a.title || !okUrl(a.url)) return
         const id = `news:${sha(a.url)}`
         const n = N(id, { type: 'news', kind: 'local AI story', label: a.title, source: a.url, read: str(a.read_on), layer: 'by-place', page: `${p.path}index.html` }); n.places.add(p.id)
-        rows.news.push([p.id, i + 1, id, str(a.title), str(a.date), str(a.publisher), a.url, hostOf(a.url), str(a.read_on), int(a.steps), str(a.ai_path), str(a.summary)])
+        rows.news.push([p.id, i + 1, id, str(a.title), str(a.date), str(a.publisher), a.url, hostOf(a.url), str(a.read_on), int(a.steps), str(a.ai_path), str(a.summary), str(a.significance || null)])
         E('reported_in', id, `place:${p.id}`, { source: a.url, read: str(a.read_on), note: str(a.ai_path) })
         for (const who of named(`${a.title} ${a.summary || ''}`)) E('mentions', id, who, { source: a.url, read: str(a.read_on), note: W.note_story })
         for (const q of placeNamed(`${a.title} ${a.summary || ''}`)) if (q !== p.id) E('mentions', id, `place:${q}`, { source: a.url, read: str(a.read_on), note: W.note_story_town })
@@ -160,6 +160,18 @@ export function database(ctx) {
         arr(p.file.sources).forEach((s, i) => { if (s && s.name && okUrl(s.url)) rows.sources.push([p.id, i + 1, str(s.name), s.url, hostOf(s.url), str(s.kind), okUrl(s.feed) ? s.feed : null, hosts.get(hostOf(s.url)) || 0]) })
         arr(p.file.gaps).forEach((t, i) => { if (typeof t === 'string' && t.trim()) rows.gaps.push([p.id, i + 1, t]) })
     }
+    // the blast radius: who borders whom (Wikipedia, at a revision) and how far every two places are
+    // (board/team/data.places/tools/neighbours.mjs; board/briefs/2026-11-16-blast-radius.md)
+    for (const f of ['data/query/neighbours.json', 'board/team/data.places/neighbours.json']) { if (!ctx.exists(f)) continue
+        let nb = {}; try { nb = ctx.readJSON(f) } catch {}
+        const km = new Map(); for (const [a, b, d] of arr(nb.distances)) { km.set(`${a}|${b}`, d); km.set(`${b}|${a}`, d) }
+        const adj = new Map(arr(nb.places).map(p => [p.id, p]))
+        const ids = [...new Set(arr(nb.distances).flatMap(x => [x[0], x[1]]))]
+        for (const a of ids) for (const b of ids) if (a !== b) { const e = adj.get(a), bo = e && arr(e.borders).some(x => x.place === b)
+            rows.neighbours.push([a, b, null, bo ? 1 : 0, km.get(`${a}|${b}`) ?? null, bo && e.source ? e.source : null, bo ? str(e.read_on) : null])
+            if (bo) E('borders', `place:${a}`, `place:${b}`, { source: e.source || f, read: str(e.read_on), note: W.note_borders }) }
+        for (const e of arr(nb.places)) for (const x of arr(e.borders)) if (!x.place) rows.neighbours.push([e.id, null, str(x.name), 1, null, e.source || null, str(e.read_on)])
+        break }
     // every other list in a place file (the full research pass adds more: investors, talent, starting a company), one
     // row per entry, so a new field is queryable the day it lands; its entry kept whole as JSON
     const KNOWN = new Set(['ai_news', 'ai_map', 'events', 'sources', 'gaps', 'extras'])
