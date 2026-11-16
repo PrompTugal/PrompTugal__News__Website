@@ -1,0 +1,74 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "datasci.places@PrompTugal.dinis",
+ "run": "2026-11-16T19-29-04Z",
+ "started": "2026-11-16T19:29:04.956Z",
+ "ended": "2026-11-16T19:31:51Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-16T19:30:08.822Z",
+   "chars": 2359,
+   "sha256": "7aebde52d7025beb",
+   "head": "You are datasci.places@PrompTugal.dinis (Sonnet), the LIVE DATA desk (the storm's open-data readers, run locally), started by conductor.b@PrompTugal.dinis at Dinis's word (16 Nov 2026, ~19:25 UTC: \"st"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T19:29:04.956Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-16T19:30:08.579Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "git": 3,
+   "shell": 5,
+   "web": 3,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

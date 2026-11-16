@@ -2722,7 +2722,7 @@
       "role": "The data scientist of PrompTugal.news: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) and the Swagger pages, the gate checks that a page shows nothing its JSON lacks, and the data quality numbers per place. Started 15 November 2026 at Dinis's word via the conductor. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxXrJUq1cIlz4GNRWXebv\nJR96XJ1B7oEJlg9PTQnqEnHdUVzZsnhwtAj0UxPBbfwZUoV52RdtUXDbyKN83rrW\n9W/eaDycLXG6PrQBJrh3l94O3TFBhx5K/1KMXrkx1JDNZ7ueQtpgXYdv+Ge987Ly\nwqF+umi2yvWKMwOHgqxwzYKHvg7D5pXCHUzbXBthwIov76PPy31H2ERCKXz5DwVx\nsUOm+I0hXV/MGJ2aOuIDEU+Baq1AUoKYSqHhaDEVVcFhjvlGG4JImQJa4kfgLSRr\nmHCZAUeVaxepwU9+sQR1bjU8AN+JhEA7OhkPnPljZX/JBluqF8nV3YK4tEsSUdKJ\nnj8/p5HKmtwgUalWcQyufozwRoal93m1edT79DUrdqdOb9LFusCAmDWSY17rNZ6t\nUc5UiFmtjEuWaiollF3OquEAX3HVYYPVbfGAGXte7fjbyezXbNj6zPFe7Y7jtWmK\nIcUtcm5POnlkZHcMglrkwPC4yl66UI+c+dzQMq9yr6u5fANVBOQW1KiawkR5CgTu\nx4Wf0sF9Crahp3nwNTfo/31ly67qJ2T1LTZcgsnIPA8ffG0cT75IDRZ2lh1kyOoz\nZgO1IbbwPThXB1p6NU1KV3hO+v8CIY6LxVitAdwS7ZsYX2NL1bfJkOgwYK/ch8m1\nGjpqAVzum4RjSDnCJcqWwcUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2730,7 +2730,9 @@
         "label": "datasci.places@PrompTugal.dinis",
         "fingerprint": "sha256:75d5acf723332fb2",
         "signing_fingerprint": "sha256:943b31bbe841bc1a"
-      }
+      },
+      "superseded_at": "2026-11-16T19:31Z",
+      "superseded_by": "datasci.places-promptugal-b"
     },
     {
       "id": "place.districts-promptugal",
@@ -3177,6 +3179,24 @@
         "signing_fingerprint": "sha256:b3622aff4c654f79"
       },
       "status": "active"
+    },
+    {
+      "id": "datasci.places-promptugal-b",
+      "agent": "datasci.places@PrompTugal.dinis",
+      "label": "datasci.places@PrompTugal.dinis (Claude Code cloud session, restarted 16 Nov 2026 on this account)",
+      "role": "The data scientist and live data desk of PrompTugal.news: JSON first, the OpenAPI specs, the live collector (board/tools/local-now.mjs) and the keyless public sources per place. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "supersedes": "datasci.places-promptugal",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAseP1t3f7SFo/VUh3HFhT\nIHIDGAnM1IKkwSsWUQhdqZ7t9HWpAReSPJ/BktydCpzXYU63CjQbqjDMIc6t0v80\nlxxOD8WEkS+p2bt+mMsKQ7xzMbGAJts8myngwhIQpHw0r8BWx+KB5oQLbTEYNnJn\nWQtexlZSF1i3L31pV85xQBCnmQEGTrc5GC5HijUA2lJTaJIyxz7ZvOqZklpkT/10\ntuIupVG8pluWsV5b8gSV+BMU9im/jX1dl5kPJJe75Hu5kGeCTKAmkoFvL2fpxQ8a\n7Q6YjwhULMo3NFrGjDWJbE4CNA8n1PaMjSXQjpuQ2ds2xVD3lKo7jO085KEsTd0o\nG6eRz9DGU3agMAi3HDTFGHe0ZBOqDGw+UWmsBoArU1HWnrA7GROxuDqeIaxOf1Mk\nZvnG0f6s91FAusThl6sqUyqvxTNhonAZ/6kYh2ple2eCSp53V/zYbrUOuZfkzhnh\nFXQ40+yKmnu9satuZFd4Uinr4ywgShRjhTStNbqnMtCu2GQLNmaq1qNeAN31H1rX\n1wc6PQqOF1Xn2AaOF4zt99l7PGg4IOFTNLzldtKdRSDq9wDF+jVuxZ26MdmgwYv9\n8JYFBzm309RPea+Dpvfd/FiW9uCgHaBZV064dH63A1obEsRVkv5s/3OEiFOazIQ0\nHApakH8WQPNjyUC+xg+nUc0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3ABF/Y4O5TyQxdOP9pgd5dJ+PMsq\nxg09NZNXy/z4F4w2hW8T5qvEHGvHVmYn2ixeA23EYv7vPweYZ2LI5e7V1w==\n-----END PUBLIC KEY-----\n",
+        "label": "datasci.places@PrompTugal.dinis",
+        "fingerprint": "sha256:5427680a0e4325d6",
+        "signing_fingerprint": "sha256:88ad94c48197bc2b"
+      }
     }
   ]
 }

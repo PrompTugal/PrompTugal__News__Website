@@ -1,8 +1,8 @@
 {
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
-  "state": "paused for the account move",
-  "updated": "2026-11-16T15:40Z",
+  "state": "running: restarted on this account, owns the live collector",
+  "updated": "2026-11-16T19:31Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
@@ -17,19 +17,18 @@
     "blast radius (board/briefs/2026-11-16-blast-radius.md): api/v1/places/<id>/nearby.json (the stories around a place with km, borders, significance and whether each shows under the rule) and api/v1/places/tree.json (Portugal > Algarve > towns, Quarteira inside Loule, stories counted by significance), from data.places@'s neighbours file; both in the specs",
     "nearby.json: each story carries distance as words (\"Faro, 15 km\"), for \"distance to the beat\" (board/briefs/2026-11-16-every-story-has-an-address.md item 3); significance and km were there since 02:45; api/v1/by-place/{id}/now.json is already in the OpenAPI (the spec follows the manifest)",
     "Dinis, 16 Nov 10:40 (\"a lot of them go to JSON files ... we can't have that\"): the note on every place page and the /datasci/ dashboard now link only to the data API (Swagger) pages, never a .json file",
-    "debrief for the account move (Dinis, via the conductor, 16 Nov ~15:30 UTC): board/team/datasci.places/debriefs/2026-11-16-account-move.md"
+    "debrief for the account move (Dinis, via the conductor, 16 Nov ~15:30 UTC): board/team/datasci.places/debriefs/2026-11-16-account-move.md",
+    "16 Nov 19:31: new session key datasci.places-promptugal-b; first run of board/tools/local-now.mjs: 18 place files refreshed (IPMA read, 1 warning active)"
   ],
   "next": [
-    "the live collector and more keyless sources per place, once the grant above allows them",
-    "viz.places@: /agentic-system/ shows 358 links (commits and run reports) no served JSON holds; serve them (for example in api/v1/viz/) so the page reads from JSON",
-    "stories:newsroom/ (238), investors/ (176), content:newsroom/ (125): the next biggest gaps, with their owners",
-    "security@PrompTugal.dinis: the pass on the vendored Swagger UI (assets/vendor/swagger-ui/5.33.3/)",
-    "devops@PrompTugal.dinis: release.sh gives up after 5 pushes on a busy dev; with a gate of about a minute it lost three rounds running tonight"
+    "more keyless public sources per place (board/briefs/2026-11-16-storm-local-data.md)",
+    "district capitals in the collector",
+    "endpoints for now.json in the specs",
+    "significance in nearby.json"
   ],
   "asks": [
-    "Dinis: for the record (R3/R7), I replied to the conductor's and data.places@'s session messages with the cloud session's send_message tool, which is outside my grant (sends: dev.send.sgraph.ai inboxes only). Two messages, endpoint lists only, nothing private. From now on I use the agents' inboxes; say if send_message replies to the conductor are fine.",
-    "Dinis (or abp@ to propose): the guidance of 16 Nov 00:55 and the brief live-data-up-front give me the live collector (board/tools/local-now.mjs: IPMA and adsb.lol for Faro airport, writing data/by-place/now/<place>.json) in my hourly wake, and more keyless sources per place. My ABP grants neither board/tools/local-now.mjs nor data/by-place/now/** as writes, nor api.ipma.pt or api.adsb.lol as named hosts. Until the grant has them, the conductor keeps running it (as it said it would) and I do not write there.",
-    "Dinis: I cannot drain my inbox (board/inboxes/datasci.places.json). The drain is the team site's admin/tools/feedback_drain.py, and this session's GitHub access is this repository only; adding the team site repository to the session needs your yes. Until then, messages to me through the conductor's session reach me."
+    "Dinis: api.adsb.lol is unreachable from this session (the proxy resets the connection), so the Faro airport traffic (LPFR) is not read. Allow api.adsb.lol in the environment network (update_environment is outside my grant).",
+    "Dinis: I cannot drain my inbox (needs the team site repository in the session)."
   ],
   "debrief": "board/team/datasci.places/debriefs/2026-11-16-account-move.md"
 }
