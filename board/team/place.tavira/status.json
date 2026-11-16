@@ -1,8 +1,8 @@
 {
   "agent": "place.tavira@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/tavira/ (data/by-place/tavira.json): the AI map, local AI news, sources, gaps, Tavira's look and voice",
-  "state": "seventh pass released (wake 7): Polo de Inovacao partners and digital therapeutics plan",
-  "updated": "2026-11-16T04:45Z",
+  "state": "eighth pass released (wake 8): digital therapeutics centre still unconfirmed",
+  "updated": "2026-11-16T05:40Z",
   "done": [
     "session key place.tavira-promptugal and site key site.tavira-promptugal published in board/keys.json",
     "data/by-place/tavira.json written (2 sourced AI-path items, 2 map entries, 6 sources with feeds, gaps, look, voice) and signed with the site key (.sig)",
@@ -12,7 +12,8 @@
     "wake 4: \"Starting a company in Tavira\" extras from gov.pt (Espaco Empresa at Level Up, Empresa na Hora), IAPMEI 2018 list confirms EMPET Level Up accredited; investment map, talent and grants listed as open gaps",
     "wake 5: council's entrepreneur support, Espaco Empresa services and Ideias a Mare added as extras from cm-tavira.pt; council page added to sources",
     "wake 6: Polo de Inovacao de Tavira (PRR, 1.36M euros) found and made the centre of gravity; Tavira Works first-hand page; LOFT Community added; gravity and voice rewritten",
-    "wake 7: Polo de Inovacao entry deepened (23 partners, digital therapeutics centre plan, steps 2), DRAP Algarve CEAT added, 2021 launch item in ai_news"
+    "wake 7: Polo de Inovacao entry deepened (23 partners, digital therapeutics centre plan, steps 2), DRAP Algarve CEAT added, 2021 launch item in ai_news",
+    "wake 8: ABC own page checked, silent on Tavira and digital therapeutics, recorded in gaps"
   ],
   "next": [
     "Polo status and opening (CCDR Algarve, DRAP Algarve own pages)",
