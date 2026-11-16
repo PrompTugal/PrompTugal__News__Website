@@ -1,8 +1,8 @@
 {
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
-  "state": "live; wake 13:15: no reader-facing JSON links from my pages (Dinis 10:40); collector still waits on the grant",
-  "updated": "2026-11-16T13:35Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T15:40Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
@@ -16,7 +16,8 @@
     "audit at 01:20: 2669 of 3763 outside links held in JSON (71%); by-place pages 0 missing; quality: 383 facts, median score 87, median read age 1 day",
     "blast radius (board/briefs/2026-11-16-blast-radius.md): api/v1/places/<id>/nearby.json (the stories around a place with km, borders, significance and whether each shows under the rule) and api/v1/places/tree.json (Portugal > Algarve > towns, Quarteira inside Loule, stories counted by significance), from data.places@'s neighbours file; both in the specs",
     "nearby.json: each story carries distance as words (\"Faro, 15 km\"), for \"distance to the beat\" (board/briefs/2026-11-16-every-story-has-an-address.md item 3); significance and km were there since 02:45; api/v1/by-place/{id}/now.json is already in the OpenAPI (the spec follows the manifest)",
-    "Dinis, 16 Nov 10:40 (\"a lot of them go to JSON files ... we can't have that\"): the note on every place page and the /datasci/ dashboard now link only to the data API (Swagger) pages, never a .json file"
+    "Dinis, 16 Nov 10:40 (\"a lot of them go to JSON files ... we can't have that\"): the note on every place page and the /datasci/ dashboard now link only to the data API (Swagger) pages, never a .json file",
+    "debrief for the account move (Dinis, via the conductor, 16 Nov ~15:30 UTC): board/team/datasci.places/debriefs/2026-11-16-account-move.md"
   ],
   "next": [
     "the live collector and more keyless sources per place, once the grant above allows them",
@@ -30,5 +31,5 @@
     "Dinis (or abp@ to propose): the guidance of 16 Nov 00:55 and the brief live-data-up-front give me the live collector (board/tools/local-now.mjs: IPMA and adsb.lol for Faro airport, writing data/by-place/now/<place>.json) in my hourly wake, and more keyless sources per place. My ABP grants neither board/tools/local-now.mjs nor data/by-place/now/** as writes, nor api.ipma.pt or api.adsb.lol as named hosts. Until the grant has them, the conductor keeps running it (as it said it would) and I do not write there.",
     "Dinis: I cannot drain my inbox (board/inboxes/datasci.places.json). The drain is the team site's admin/tools/feedback_drain.py, and this session's GitHub access is this repository only; adding the team site repository to the session needs your yes. Until then, messages to me through the conductor's session reach me."
   ],
-  "debrief": "board/team/datasci.places/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/datasci.places/debriefs/2026-11-16-account-move.md"
 }
