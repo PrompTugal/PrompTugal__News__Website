@@ -65,6 +65,16 @@
       "steps": 0
     },
     {
+      "title": "Government backs an Iberian bid for an EU AI gigafactory, with up to 200 million euros of Portuguese funding",
+      "summary": "Portugal would buy computing time with up to 200 million euros in the first phase, matched by EuroHPC. The Portuguese component is estimated at about 4 billion euros. The source gives no site in Portugal.",
+      "date": "2026-06-26",
+      "publisher": "Portugal.gov.pt",
+      "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/gigafabricas-de-inteligencia-artificial-reforcam-soberania-tecnologica-com-investimento-de-200-milhoes",
+      "read_on": "2026-11-16",
+      "ai_path": "Public AI compute capacity, so directly AI.",
+      "steps": 0
+    },
+    {
       "title": "Center for Responsible AI changed hands after Unbabel's fall and expects 150 million euros of turnover",
       "summary": "The largest recovery-plan technology agenda is now led by Sword Health. The consortium expects about 150 million euros of turnover this year, mostly exports, and names Priberam and NeuralShift among its products.",
       "date": "2026-07-18",
@@ -213,6 +223,16 @@
       "read_on": "2026-11-15",
       "ai_path": "The funder that will pay for national AI research and startups, so one step.",
       "steps": 1
+    },
+    {
+      "title": "European AI research network CAIRNE opens its Portuguese hub in Guimarães",
+      "summary": "CAIRNE | Guimarães is hosted by the University of Minho's School of Engineering and joins branch offices in cities such as Brussels, Paris and Rome.",
+      "date": "2025-10-21",
+      "publisher": "University of Minho",
+      "url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
+      "read_on": "2026-11-16",
+      "ai_path": "A network of AI research laboratories, so directly AI.",
+      "steps": 0
     }
   ],
   "sources": [
@@ -624,6 +644,26 @@
       "read_on": "2026-11-15",
       "ai_path": "Generative AI practice, so directly AI.",
       "steps": 0
+    },
+    {
+      "name": "AI Centre of Excellence in Public Administration (under ARTE)",
+      "type": "public body",
+      "url": "https://digital.gov.pt/en/noticias/centro-excelencia-ia-motor-administracao-publica",
+      "what": "Leads and coordinates the responsible adoption of data and AI across the public sector, part of Action 20 of the digital strategy 2026 to 2027 plan.",
+      "source_url": "https://digital.gov.pt/en/noticias/centro-excelencia-ia-motor-administracao-publica",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs public-sector AI, so directly AI.",
+      "steps": 0
+    },
+    {
+      "name": "CAIRNE | Guimarães (University of Minho)",
+      "type": "community",
+      "url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
+      "what": "Portugal's national hub of the European Confederation of AI Research Laboratories, hosted at the School of Engineering in Guimarães (Norte).",
+      "source_url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI research network, so directly AI.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -663,15 +703,16 @@
     "signed_by": "place.portugal@PrompTugal.dinis"
   },
   "gaps": [
-    "Third pass of 16 November: 35 map entries and 18 news items, all from pages opened. Still to map: AI communities, more Lisbon and Porto accelerators, Instituto de Telecomunicações and other university labs (no official page opened yet), people and talent, and 'starting a company here'.",
+    "Fifth pass of 16 November: 37 map entries and 20 news items, all from pages opened. Still to map: AI communities, more Lisbon and Porto accelerators, Instituto de Telecomunicações and other university labs, people and talent.",
     "No page we opened states the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai or Feedzai, so their region is left out until a source says it.",
-    "The gigafactory bid has no confirmed site or date in our sources, and the National Data Centre Plan is still being finalised.",
+    "The gigafactory is an Iberian bid to EuroHPC, but our sources give no site in Portugal or decision date, and the National Data Centre Plan is still being finalised.",
     "Sword Health and Unbabel have no page of their own read tonight (the company site refused or redirected), their entries rest on one press article.",
     "No Algarve entry yet at national level: the region's AI map belongs to place.algarve@, and flows up from its file.",
     "Tech Foundry Portugal (a deep tech accelerator announced in May 2026) was left out: the page we read does not mention AI, so it fails the PrompTugal test for now.",
     "The DemocracI.A. conference in Porto on 25 November was only mentioned in a search summary and we found no page for it, so it is not listed. UJET's new Porto hub was left out: nothing we read connects it to AI.",
     "Founder-facing public bodies (Startup Portugal, BPF, ANI) are in extras, not the map: the pages read show no AI programme of their own. A consolidated 'where do I go' guide for AI founders still needs one official page per step.",
-    "The Instituto de Telecomunicações site returned an error tonight (503), so it is still unmapped from an official source."
+    "The Instituto de Telecomunicações site returned an error tonight (503), so it is still unmapped from an official source.",
+    "INESC-ID's SAIL Centre of Excellence (reported at 27.2 million euros in a search snippet) is not listed: the page we tried returned 404."
   ],
   "voice": {
     "lede": "A country on the Atlantic edge of Europe that wrote itself a language model of its own, and would like you to try it.",

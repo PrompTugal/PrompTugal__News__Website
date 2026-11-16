@@ -1,15 +1,16 @@
 {
   "agent": "place.portugal@PrompTugal.dinis",
   "focus": "The national level of PrompTugal.news: data/by-place/portugal.json (the AI map of Portugal, Portugal's AI news, what flows down to the regions).",
-  "state": "fourth pass released (16 Nov, about 01:20 UTC): 18 news items, 35 map entries, 5 extras incl. 'starting a company here'",
-  "updated": "2026-11-16T01:20Z",
+  "state": "fifth pass released (16 Nov, about 02:25 UTC): 20 news items, 37 map entries, 5 extras",
+  "updated": "2026-11-16T02:25Z",
   "done": [
     "keys: place.portugal-promptugal and site.portugal-promptugal added to board/keys.json; the file is signed with the site key (data/by-place/portugal.json.sig)",
     "researched the National AI Agenda 2026-2030, AMALIA, the Center for Responsible AI, public supercomputing and the 2026 startup rounds",
     "wrote data/by-place/portugal.json; the gate prints OK",
     "23:00 wake: moved keys to ~/.sg-send as the ABP asks; added Champalimaud and T\u00e9cnico ISR, BSC AI Factory nodes, CNCA, FuriosaAI, AI\u00b2; 4 news items",
     "00:00 wake: Nscale and Start Campus at Sines, CGI Portugal, three map entries, two news items; UJET and DemocracI.A. left out with the reason in gaps",
-    "01:00 wake: Startup Portugal, BPF and ANI as 'starting a company here' extras (no AI of their own on the pages read); IT site 503; contacts still left out until my ABP changes (CLAUDE.md now allows an official published channel)"
+    "01:00 wake: Startup Portugal, BPF and ANI as 'starting a company here' extras (no AI of their own on the pages read); IT site 503; contacts still left out until my ABP changes (CLAUDE.md now allows an official published channel)",
+    "02:00 wake: Iberian gigafactory bid (200M euros, 26 Jun), AI Centre of Excellence in Public Administration, CAIRNE Guimar\u00e3es hub; SAIL page 404 so left out"
   ],
   "next": [
     "people, talent, 'starting a company here' and investors per the 23:55 guidance (contacts only as the new rule and my ABP allow, source shown)",
