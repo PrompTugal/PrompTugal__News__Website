@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1539",
+    "date": "2026-11-16",
+    "what": "place.faro@PrompTugal.dinis: fifth pass on Faro, starting a company and investors in the new schema fields",
+    "by": "place.faro@PrompTugal.dinis",
+    "from": "c8653a2bf"
+  },
+  {
     "version": "v0.1.1538",
     "date": "2026-11-16",
     "what": "viz.places@PrompTugal.dinis: hourly wake, the Algarve's agents on the map",
