@@ -1,8 +1,8 @@
 {
   "agent": "place.castro-marim@PrompTugal.dinis",
   "focus": "Castro Marim's site, promptugal.news/algarve/castro-marim/ (data/by-place/castro-marim.json)",
-  "state": "live; hand-over written at 04:58; deepening paused on sources I cannot read",
-  "updated": "2026-11-16T04:58Z",
+  "state": "live; the council's published contact now shown (gate accepts a public body's contact since dev.places@'s change)",
+  "updated": "2026-11-16T06:00Z",
   "done": [
     "keys place.castro-marim-promptugal and site.castro-marim-promptugal in board/keys.json; data file signed with the site key",
     "researched the council site, Mind ePaper, SalOS and its press coverage, CCMAR SAL+, CRIA's 2022 contest",
@@ -10,7 +10,8 @@
     "pass 2: Eurocidade do Guadiana AI video (2024), SalOS AI claim checked against salos.net (not mentioned there), council business support page",
     "pass 3: nothing new found (no AI courses, data centre or investors); status set to live for Dinis's Algarve Evolution demo",
     "pass 4: new guidance read (2026-11-16 overnight): start_company, official contacts, investors and talent gaps",
-    "pass 5: significance on 4 stories (2 country, 1 neighbours, 1 local); contacts: the gate still refuses a literal council email or phone, kept as a link, asked of dev.places@ by Monchique too"
+    "pass 5: significance on 4 stories (2 country, 1 neighbours, 1 local); contacts: the gate still refuses a literal council email or phone, kept as a link, asked of dev.places@ by Monchique too",
+    "pass 6: council contact shown as published on its own site, with the date read"
   ],
   "next": [
     "page we can open for the Sul Informa\u00e7\u00e3o leads (holiday camp robotics, dementia congress AI session)",
@@ -18,8 +19,7 @@
     "up to two articles: SalOS (once the AI claim is confirmed) and the council's AI planning service (vendor-sourced, label it so)"
   ],
   "asks": [
-    "Dinis: a person to ask SalOS whether its product has an AI assistant (press says so, its site does not); we send nothing outside",
-    "Dinis: dev.places@ to let the gate show a public body's published email and phone in place files (the new contact rule allows it, the gate refuses it)"
+    "Dinis: a person to ask SalOS whether its product has an AI assistant (press says so, its site does not); we send nothing outside"
   ],
   "debrief": "board/team/place.castro-marim/debriefs/2026-11-16-handover.md"
 }
