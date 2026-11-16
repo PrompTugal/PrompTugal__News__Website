@@ -215,7 +215,7 @@
     {
       "url": "https://24noticias.sapo.pt/local/faro/monchique",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T14:25:30Z",
+      "captured_at": "2026-11-16T15:23:57Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -224,8 +224,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/290485181f34.jpg",
-        "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
-        "bytes": 19278,
+        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
+        "bytes": 19319,
         "width": 1280,
         "height": 1600
       },
@@ -246,7 +246,7 @@
     {
       "url": "https://24noticias.sapo.pt/local/faro/vila-real-de-santo-antonio",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T14:24:17Z",
+      "captured_at": "2026-11-16T15:22:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -255,8 +255,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/8e5c33486b67.jpg",
-        "sha256": "ca27b41f57b10660090ab37ec67289910aaf2789400f7164471957cd1ef576e1",
-        "bytes": 19279,
+        "sha256": "76cff5b0b74f1714e007dc7bf06e41abb68c6e3ba55ee104cd601d730e1bc8ce",
+        "bytes": 19319,
         "width": 1280,
         "height": 1600
       },
@@ -812,7 +812,7 @@
     {
       "url": "https://algarvedailynews.com",
       "host": "algarvedailynews.com",
-      "captured_at": "2026-11-16T14:21:43Z",
+      "captured_at": "2026-11-16T15:20:14Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -843,7 +843,7 @@
     {
       "url": "https://algarveevolution.pt",
       "host": "algarveevolution.pt",
-      "captured_at": "2026-11-16T14:26:01Z",
+      "captured_at": "2026-11-16T15:24:28Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -967,7 +967,7 @@
     {
       "url": "https://anacom.pt/render.jsp?contentId=1828354",
       "host": "anacom.pt",
-      "captured_at": "2026-11-16T14:26:19Z",
+      "captured_at": "2026-11-16T15:24:47Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -1627,7 +1627,7 @@
     {
       "url": "https://brigantia-ecopark.pt",
       "host": "brigantia-ecopark.pt",
-      "captured_at": "2026-11-16T14:28:58Z",
+      "captured_at": "2026-11-16T15:27:26Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -1823,6 +1823,49 @@
       ]
     },
     {
+      "url": "https://centralpress.pt/page/125708/redacao/2026/02/12/politecnico-de-leiria-apresenta-mais-de-20-projetos-inovadores-na-feira-science-for-industry-em-madrid",
+      "host": "centralpress.pt",
+      "captured_at": "2026-11-16T15:29:09Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://centralpress.pt/page/125708/redacao/2026/02/12/politecnico-de-leiria-apresenta-mais-de-20-projetos-inovadores-na-feira-science-for-industry-em-madrid",
+      "title": "Politécnico de Leiria apresenta mais de 20 projetos inovadores na feira \"Science for Industry\" em Madrid - Central Press",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/centralpress.pt/0b8847e1e6e0.jpg",
+        "sha256": "39111b7263543e2a783f5b3430cca26a94cadbeb92741b3f19229bda24ea795c",
+        "bytes": 130464,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/centralpress.pt/0b8847e1e6e0.txt",
+        "sha256": "216d456bf3a6991deef9814142fb4eca7245f9cf603ef899b9a5b2ba0b1d28cb",
+        "chars": 3197
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "news",
+          "n": 8,
+          "label": "Politécnico de Leiria takes more than 20 projects to Madrid, two of them using AI"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 3,
+          "label": "DBoidS (IPLeiria project)"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 4,
+          "label": "CERAMIND (IPLeiria project)"
+        }
+      ]
+    },
+    {
       "url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
       "host": "ciencias.ulisboa.pt",
       "captured_at": "2026-11-16T11:23:37Z",
@@ -1862,6 +1905,37 @@
           "kind": "map",
           "n": 18,
           "label": "Ciências ULisboa and the LASIGE centre"
+        }
+      ]
+    },
+    {
+      "url": "https://ciic.ipleiria.pt/index.php?page=projects",
+      "host": "ciic.ipleiria.pt",
+      "captured_at": "2026-11-16T15:29:34Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ciic.ipleiria.pt/index.php?page=projects",
+      "title": "CIIC - Computer Science and Communications Research Centre",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ciic.ipleiria.pt/ba2f694ffe28.jpg",
+        "sha256": "8a73612000b790547938e19ebbb54cec286bcc4bc7f784c8a7df9d165cecbae1",
+        "bytes": 162331,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ciic.ipleiria.pt/ba2f694ffe28.txt",
+        "sha256": "0ccf53e4c51f4f8bed874ec016228a24a40c83a9e9b99c6d4b15626fe44277c5",
+        "chars": 15712
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 2,
+          "label": "CIIC (Computer Science and Communications Research Centre, IPLeiria)"
         }
       ]
     },
@@ -2114,7 +2188,7 @@
     {
       "url": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T14:26:11Z",
+      "captured_at": "2026-11-16T15:24:39Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2372,7 +2446,7 @@
     {
       "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
       "host": "cms.cm-vrsa.pt",
-      "captured_at": "2026-11-16T14:24:27Z",
+      "captured_at": "2026-11-16T15:22:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2434,6 +2508,43 @@
           "kind": "gravity",
           "n": 1,
           "label": "National AI Agenda 2026-2030 (CMS)"
+        }
+      ]
+    },
+    {
+      "url": "https://cnnportugal.iol.pt/tekever/kristin/tekever-mobiliza-drones-um-cerebro-digital-e-mais-de-100-voluntarios-para-mapear-estragos-da-kristin-em-leiria/20260202/6980bed3d34e0ec52ec3066a",
+      "host": "cnnportugal.iol.pt",
+      "captured_at": "2026-11-16T15:29:22Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://cnnportugal.iol.pt/tekever/kristin/tekever-mobiliza-drones-um-cerebro-digital-e-mais-de-100-voluntarios-para-mapear-estragos-da-kristin-em-leiria/20260202/6980bed3d34e0ec52ec3066a",
+      "title": "Tekever mobiliza drones, um 'cérebro digital' e mais de 100 voluntários para mapear estragos da Kristin em Leiria - CNN Portugal",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cnnportugal.iol.pt/7f6d979e5f90.jpg",
+        "sha256": "8c9680d8871162cd09163f2d2ce9beeba3241287ce72d59a2a614fd1f544c600",
+        "bytes": 152856,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cnnportugal.iol.pt/7f6d979e5f90.txt",
+        "sha256": "62130f0af397fd084595494fb7b9e1f8edc9a2a77aa5cef207d536162aa11da6",
+        "chars": 6440
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "news",
+          "n": 9,
+          "label": "Tekever puts drones and an AI-assisted platform to work mapping storm damage in Leiria"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 14,
+          "label": "Tekever (Leiria engineering hub)"
         }
       ]
     },
@@ -2780,7 +2891,7 @@
     {
       "url": "https://dealroom.co/news",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T14:28:40Z",
+      "captured_at": "2026-11-16T15:27:07Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2811,7 +2922,7 @@
     {
       "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T14:21:38Z",
+      "captured_at": "2026-11-16T15:20:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2860,7 +2971,7 @@
     {
       "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T14:21:36Z",
+      "captured_at": "2026-11-16T15:20:07Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2963,9 +3074,40 @@
       ]
     },
     {
+      "url": "https://devs.com.pt/en/news/tekever-portugal-s-drone-unicorn-expands-with-new-hub-in-leiria",
+      "host": "devs.com.pt",
+      "captured_at": "2026-11-16T15:30:26Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://devs.com.pt/en/news/tekever-portugal-s-drone-unicorn-expands-with-new-hub-in-leiria",
+      "title": "Devs.com.pt | Tekever Expands with New Hub in Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/devs.com.pt/d1fbbef724c7.jpg",
+        "sha256": "fd17bd22c9d65c9bab6c6f4795388dd611ff7d7e1f3664a99f3b4e4b946c0b0e",
+        "bytes": 158794,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/devs.com.pt/d1fbbef724c7.txt",
+        "sha256": "52ed9b9b11c7a303acd9e735f0616b8f071c83ae90e143401d4cbf6c5c5f88cc",
+        "chars": 2290
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map-site",
+          "n": 14,
+          "label": "Tekever (Leiria engineering hub)"
+        }
+      ]
+    },
+    {
       "url": "https://diariodarepublica.pt/dr/detalhe/anuncio-procedimento/33066-2025-992176457",
       "host": "diariodarepublica.pt",
-      "captured_at": "2026-11-16T14:28:52Z",
+      "captured_at": "2026-11-16T15:27:20Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -4546,6 +4688,92 @@
       ]
     },
     {
+      "url": "https://eco.sapo.pt/2026/09/29/startup-de-ia-para-pme-recebe-primeiro-selo-spin-off-da-universidade-de-leiria-e-oeste/",
+      "host": "eco.sapo.pt",
+      "captured_at": "2026-11-16T15:28:43Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://eco.sapo.pt/2026/09/29/startup-de-ia-para-pme-recebe-primeiro-selo-spin-off-da-universidade-de-leiria-e-oeste/",
+      "title": "Startup de IA para PME recebe primeiro selo spin-off da Universidade de Leiria e Oeste – ECO",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/eco.sapo.pt/388b534795bc.jpg",
+        "sha256": "8e8dd2d309d25b818a4e6f619ae82db7adea7ee35a68168e67c17d1fd24634ed",
+        "bytes": 152185,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/eco.sapo.pt/388b534795bc.txt",
+        "sha256": "81149b1156e999798fde42bf7753073ffa254f9e07db43dd0eba8149bb62bf7a",
+        "chars": 7224
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "news",
+          "n": 4,
+          "label": "Primal AI becomes the first AI spin-off of the Universidade de Leiria e Oeste"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 8,
+          "label": "Primal AI"
+        },
+        {
+          "place": "leiria",
+          "kind": "gravity",
+          "n": 2,
+          "label": "AI startup for SMEs gets the first spin-off seal of the Universidade de Leiria e Oeste (ECO, 29 September 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://eco.sapo.pt/2026/10/13/startup-leiria-expande-area-para-acolher-laboratorio-de-robotica-e-ia/",
+      "host": "eco.sapo.pt",
+      "captured_at": "2026-11-16T15:28:39Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://eco.sapo.pt/2026/10/13/startup-leiria-expande-area-para-acolher-laboratorio-de-robotica-e-ia/",
+      "title": "Startup Leiria expande área para acolher laboratório de robótica e IA – ECO",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/eco.sapo.pt/34254d45afd5.jpg",
+        "sha256": "de984f7be27fd260cc87d4f1a67cbe8201c9102fe689380b644fd500218bf747",
+        "bytes": 150537,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/eco.sapo.pt/34254d45afd5.txt",
+        "sha256": "dc37d5081e6dc00523b09a69d05502ae158cf39fe5a1529eaab91d5078e9bf38",
+        "chars": 7740
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "news",
+          "n": 3,
+          "label": "Startup Leiria plans a Physical AI lab in the city's market"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 7,
+          "label": "Startup Leiria"
+        },
+        {
+          "place": "leiria",
+          "kind": "gravity",
+          "n": 1,
+          "label": "Startup Leiria expands to host a robotics and AI lab (ECO, 13 October 2026)"
+        }
+      ]
+    },
+    {
       "url": "https://eco.sapo.pt/2026/11/10/konecta-vai-abrir-novo-centro-em-lisboa-e-criar-700-empregos/",
       "host": "eco.sapo.pt",
       "captured_at": "2026-11-16T00:02:32Z",
@@ -4610,6 +4838,37 @@
           "kind": "map-site",
           "n": 9,
           "label": "Inetum"
+        }
+      ]
+    },
+    {
+      "url": "https://eco.sapo.pt/opiniao/do-fabrico-avancado-a-defesa-o-que-esta-a-acontecer-em-leiria/",
+      "host": "eco.sapo.pt",
+      "captured_at": "2026-11-16T15:31:18Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://eco.sapo.pt/opiniao/do-fabrico-avancado-a-defesa-o-que-esta-a-acontecer-em-leiria/",
+      "title": "Do fabrico avançado à defesa: o que está a acontecer em Leiria – ECO",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/eco.sapo.pt/ff823240ea55.jpg",
+        "sha256": "5f5a52f2992d07a599290f9f963c150fa8af1740f012b46ac8dc91e31e7a2f48",
+        "bytes": 144708,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/eco.sapo.pt/ff823240ea55.txt",
+        "sha256": "1983d942f0c61b85521b594583c44936ea5de1108958d7a0d8ae5885e37c2eb0",
+        "chars": 8320
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "gravity",
+          "n": 3,
+          "label": "From advanced manufacturing to defence: what is happening in Leiria (ECO opinion by the managing director of Startup Leiria, 29 December 2025)"
         }
       ]
     },
@@ -5320,20 +5579,20 @@
     {
       "url": "https://essv.ipv.pt/wp-content/uploads/sites/10/2026/01/Despacho-91_2025-ORIENTACOES-IA.pdf",
       "host": "essv.ipv.pt",
-      "captured_at": "2026-11-16T14:31:18Z",
+      "captured_at": "2026-11-16T15:27:51Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": 503,
+      "ok": true,
+      "status": 200,
       "final_url": "https://essv.univiseu.pt/wp-content/uploads/sites/10/2026/01/Despacho-91_2025-ORIENTACOES-IA.pdf",
       "title": null,
-      "note": "the server answered 503",
+      "note": "a document (application/pdf); the file itself is the capture",
       "image": null,
       "text": null,
       "document": {
-        "path": "captures/2026-11-16/essv.ipv.pt/1240ca545562.bin",
-        "sha256": "4ea4333d628b6660cbd945434759f7ce42a4a66b8955276124926efe64e1adb7",
-        "bytes": 48,
-        "type": "text/plain"
+        "path": "captures/2026-11-16/essv.ipv.pt/1240ca545562.pdf",
+        "sha256": "6168425cd4af5ab863b9398abfdadac81ecf9c1629a89d2658e9e29230715e9e",
+        "bytes": 443900,
+        "type": "application/pdf"
       },
       "cited_by": [
         {
@@ -10469,6 +10728,43 @@
       ]
     },
     {
+      "url": "https://hlink.pt/linka-te-2026-it-conference/",
+      "host": "hlink.pt",
+      "captured_at": "2026-11-16T15:28:28Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://hlink.pt/linka-te-2026-it-conference/",
+      "title": "LINKA-TE 2026: tecnologia, conhecimento e pessoas em Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/hlink.pt/ee5a146cb11e.jpg",
+        "sha256": "d292273bad954cefea68d324728616eb90a6bab8732214361be075004c79ce98",
+        "bytes": 201935,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/hlink.pt/ee5a146cb11e.txt",
+        "sha256": "d2d596ecbfb86655d5a99b470767fad0f2a8c13871f1e15bd1a1aac2c5aded92",
+        "chars": 2249
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "news",
+          "n": 2,
+          "label": "LINKA-TE 2026 fills Leiria's market and theatre with tech talk, AI and cybersecurity first"
+        },
+        {
+          "place": "leiria",
+          "kind": "event",
+          "n": 3,
+          "label": "LINKA-TE 2026, IT conference at Mercado Santana and Teatro Miguel Franco (already held)"
+        }
+      ]
+    },
+    {
       "url": "https://hrportugal.sapo.pt",
       "host": "hrportugal.sapo.pt",
       "captured_at": "2026-11-16T05:27:51Z",
@@ -11000,7 +11296,7 @@
     {
       "url": "https://jornaldoalgarve.pt",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T14:21:41Z",
+      "captured_at": "2026-11-16T15:20:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11009,14 +11305,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.jpg",
-        "sha256": "4d1c9ccbf578581359cb8b710890b0c08c969874f9f58957d569e15182218b1d",
-        "bytes": 39275,
+        "sha256": "b609fac75d16cbdbbd69b345c744f0e590a04dc5f0c92e9d36e182c5ed3ab89f",
+        "bytes": 39246,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.txt",
-        "sha256": "a0336243c25849d63879841d66b065a2000ed5b4722ae70b679908b799055d29",
+        "sha256": "2562041cfd163041c52f30768848d16009107a7e250466d7b7dfb2c1fd4b6482",
         "chars": 279
       },
       "cited_by": [
@@ -11031,7 +11327,7 @@
     {
       "url": "https://jornaldoalgarve.pt/",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T14:26:17Z",
+      "captured_at": "2026-11-16T15:24:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11040,14 +11336,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.jpg",
-        "sha256": "3e1142bed4b37e6de7402b5dd44a4191baf04e16b60fac49462b9985720c2172",
-        "bytes": 39160,
+        "sha256": "8e7500d3278f3aa611eddf3a72e560659bdb85c8351e994209b6fd64fc2868af",
+        "bytes": 39180,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.txt",
-        "sha256": "3e58b1edeae0fa941cf403d4f04d03d8b6be1bf46e555b7dfd68ab741a15cca7",
+        "sha256": "49bf97b7622f1b85548b940cb78d3c20626aa174c1fcc0ec15bcccd1a8a3431e",
         "chars": 279
       },
       "cited_by": [
@@ -11425,9 +11721,40 @@
       ]
     },
     {
+      "url": "https://linktoleaders.com/de-leiria-para-o-mundo-mantis-ai-revoluciona-videos-com-inteligencia-artificial/",
+      "host": "linktoleaders.com",
+      "captured_at": "2026-11-16T15:30:09Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://linktoleaders.com/de-leiria-para-o-mundo-mantis-ai-revoluciona-videos-com-inteligencia-artificial/",
+      "title": "De Leiria para o mundo: Mantis-AI revoluciona vídeos com inteligência artificial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/linktoleaders.com/9c71e4db2e60.jpg",
+        "sha256": "dc6c867f78f696e365cc699a4950e1f9af4385c1bbf4308725673830602f7c26",
+        "bytes": 211992,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/linktoleaders.com/9c71e4db2e60.txt",
+        "sha256": "73c6c8f537b8eb9086ab4c7da29ff4d118f950e77f4c58ce93837dd0aaaef7c1",
+        "chars": 4328
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 10,
+          "label": "Mantis-AI"
+        }
+      ]
+    },
+    {
       "url": "https://lisboaaberta.cm-lisboa.pt",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T14:28:38Z",
+      "captured_at": "2026-11-16T15:27:05Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11436,14 +11763,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.jpg",
-        "sha256": "1b09be4f959535bf52f0c97e32592524bfffa192c4ad3ff9b3ea285333c82609",
-        "bytes": 40212,
+        "sha256": "6f251320555c233349d97b59ccdcdd6c391c88405b662802058ed8c97341a4a7",
+        "bytes": 40180,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.txt",
-        "sha256": "61c6c59dc65e54d4ba404b4babbc64c5cee52ea683ddcc75f7e49e5e5a2a1b50",
+        "sha256": "605a38169cc2dac8251197697431e000e40520f20b0de72b79d8652961710548",
         "chars": 286
       },
       "cited_by": [
@@ -11464,7 +11791,7 @@
     {
       "url": "https://lisboaaberta.cm-lisboa.pt/index.php/pt/lx-data-lab/desafios",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T14:28:35Z",
+      "captured_at": "2026-11-16T15:27:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11473,14 +11800,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.jpg",
-        "sha256": "06e8545498fecb12f13d821da83379ae0ca8e84335cf955a6d3e5e7ab2d7d5b3",
-        "bytes": 40148,
+        "sha256": "4ef5cb811a1938b32037d09ab02d955a9aab0abcfc30dd7ada6071db10ba57a4",
+        "bytes": 40188,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.txt",
-        "sha256": "57ba0656c72e5dd5f16317bab9aaf67782ef8ade47ceccf003a0a5f2a79949b9",
+        "sha256": "4963397c399a19492d0a3a73515f443e68900a4e2c7f1b1505ebfe0c69a13dec",
         "chars": 286
       },
       "cited_by": [
@@ -12194,7 +12521,7 @@
     {
       "url": "https://mun-guarda.pt/noticias/",
       "host": "mun-guarda.pt",
-      "captured_at": "2026-11-16T14:29:22Z",
+      "captured_at": "2026-11-16T15:27:49Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -12592,6 +12919,43 @@
       ]
     },
     {
+      "url": "https://nexxtleiria.com/agenda-2026/",
+      "host": "nexxtleiria.com",
+      "captured_at": "2026-11-16T15:31:08Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://nexxtleiria.com/agenda-2026/",
+      "title": "Agenda 2026 - NEXXT Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/nexxtleiria.com/e271d3abfb2f.jpg",
+        "sha256": "39562368f3ffe433e5ec10d9ffc2ad43d8e342d045953fb5966cda76dec1cfc0",
+        "bytes": 171440,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/nexxtleiria.com/e271d3abfb2f.txt",
+        "sha256": "e6300078f216006680ff8282929c4006c54569f3f78314fdfe1ca7ffc991a953",
+        "chars": 2928
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "event",
+          "n": 2,
+          "label": "NEXXT Leiria 2026, fourth edition, with AI talks on 27 October (already held)"
+        },
+        {
+          "place": "leiria",
+          "kind": "source",
+          "n": 8,
+          "label": "NEXXT Leiria"
+        }
+      ]
+    },
+    {
       "url": "https://norriv.com/",
       "host": "norriv.com",
       "captured_at": "2026-11-15T23:56:26Z",
@@ -12625,7 +12989,7 @@
     {
       "url": "https://noticias.uc.pt/en/",
       "host": "noticias.uc.pt",
-      "captured_at": "2026-11-16T14:29:13Z",
+      "captured_at": "2026-11-16T15:27:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12634,14 +12998,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/noticias.uc.pt/749a372bb363.jpg",
-        "sha256": "a4c6136e0912e14cce7b89c7cffcca40adc06219dcc62d649e33a868a4876342",
-        "bytes": 36321,
+        "sha256": "04caa22809577c2229bca24453ee6a5639df5f1e24723685c5d079d78423e1bb",
+        "bytes": 36305,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/noticias.uc.pt/749a372bb363.txt",
-        "sha256": "602153d58bfdf937c7ea319bdff218c652fb262d1f5af9423e4876c3258138c0",
+        "sha256": "70043ca1d12f3c5d50d454913db5d5e7f2f201742d871cd363c4ee71b7ddff45",
         "chars": 58
       },
       "cited_by": [
@@ -12656,7 +13020,7 @@
     {
       "url": "https://noticias.uc.pt/en/articles/the-centre-for-informatics-and-systems-of-the-university-of-coimbra-joins-the-largest-global-artificial-intelligence-consortium/",
       "host": "noticias.uc.pt",
-      "captured_at": "2026-11-16T14:29:08Z",
+      "captured_at": "2026-11-16T15:27:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12665,14 +13029,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/noticias.uc.pt/6bbf9d9b114e.jpg",
-        "sha256": "904a90e464b8d264c4fd1bdf155939ee43bc5f753eb5c63aa6924cde901336c5",
+        "sha256": "6742ddf0e856fb19607138ed961ac524745b2f908241560982bab28292b8fae2",
         "bytes": 36325,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/noticias.uc.pt/6bbf9d9b114e.txt",
-        "sha256": "0fa7b4ecec7bbb217730b8c1332bcbe29aff2a562150889463ac5d03655994cf",
+        "sha256": "456e5f6169ddc3c869cba829a78b05e584fbac4c060dd2afe5bc6db512b6f25a",
         "chars": 58
       },
       "cited_by": [
@@ -14093,6 +14457,37 @@
       ]
     },
     {
+      "url": "https://observador.pt/programas/entrevistas-soltas/campus-tejo-a-nova-aposta-de-inovacao-de-santarem/",
+      "host": "observador.pt",
+      "captured_at": "2026-11-16T15:32:15Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://observador.pt/programas/entrevistas-soltas/campus-tejo-a-nova-aposta-de-inovacao-de-santarem/",
+      "title": "Campus Tejo: a nova aposta de inovação de Santarém – Observador",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/observador.pt/74a06df9ddd7.jpg",
+        "sha256": "34ab6f25de8eedf48c8c3267a5542656328760991de63b1ba3aebdbc2a600fcb",
+        "bytes": 117735,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/observador.pt/74a06df9ddd7.txt",
+        "sha256": "c5d115b2e8bf270caaeecb5341dd9e4819977249bf9102d4c3459f7d1474e2a1",
+        "chars": 21377
+      },
+      "cited_by": [
+        {
+          "place": "santarem",
+          "kind": "news",
+          "n": 2,
+          "label": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor says in an interview"
+        }
+      ]
+    },
+    {
       "url": "https://ominho.pt",
       "host": "ominho.pt",
       "captured_at": "2026-11-16T09:24:38Z",
@@ -15305,6 +15700,43 @@
           "kind": "event",
           "n": 4,
           "label": "Portugal Digital Summit 2026: the age of AI agents (ACEPI with GoingNext, Centro de Congressos de Lisboa)"
+        }
+      ]
+    },
+    {
+      "url": "https://portugalstartupnews.com/2026/07/03/food-industry-software-startup-brainr-extends-record-seed-round-with-e1-5m-investment/",
+      "host": "portugalstartupnews.com",
+      "captured_at": "2026-11-16T15:28:58Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 403,
+      "final_url": "https://portugalstartupnews.com/2026/07/03/food-industry-software-startup-brainr-extends-record-seed-round-with-e1-5m-investment/",
+      "title": "Checking your browser...",
+      "note": "the server answered 403",
+      "image": {
+        "path": "captures/2026-11-16/portugalstartupnews.com/c5045d2b8323.jpg",
+        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
+        "bytes": 19292,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/portugalstartupnews.com/c5045d2b8323.txt",
+        "sha256": "21ab2b7f4c34633779f86be8a0f11f6bea5022b63c395916a041b9062a0f4dbb",
+        "chars": 58
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "news",
+          "n": 6,
+          "label": "Brainr, the Leiria AI food-factory startup, extends its record seed round"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 9,
+          "label": "Brainr"
         }
       ]
     },
@@ -18621,7 +19053,7 @@
     {
       "url": "https://regiao-sul.pt",
       "host": "regiao-sul.pt",
-      "captured_at": "2026-11-16T14:22:29Z",
+      "captured_at": "2026-11-16T15:20:58Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -18630,14 +19062,14 @@
       "note": "a bot challenge or an access page was served; recorded as such, not got round",
       "image": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.jpg",
-        "sha256": "f51fadb0a2202d84ba1d595091dd0d6dc8bcd8e4e5049c9f3a96b4536b0da802",
-        "bytes": 72799,
+        "sha256": "f1fd80c1d94f8f38e3c9f4e98f3dfa5b895ca71706ff411d40fe51994b2dc624",
+        "bytes": 72828,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.txt",
-        "sha256": "b19d3e04e273f2b8ae93872908077501b2772c4082f2ffc438191b3efe1b1da5",
+        "sha256": "fdf5d8fff69a44fa5ed5f8f030f54354c607a3945cbb251db9048ed6119342d0",
         "chars": 690
       },
       "cited_by": [
@@ -19610,6 +20042,117 @@
           "kind": "map",
           "n": 10,
           "label": "SMARTEX.AI"
+        }
+      ]
+    },
+    {
+      "url": "https://startupleiria.com/",
+      "host": "startupleiria.com",
+      "captured_at": "2026-11-16T15:29:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://startupleiria.com/",
+      "title": "Home | Startup Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/startupleiria.com/4cb22675e336.jpg",
+        "sha256": "64751e7fe0e1e7f34f75c13dad8b197fe5f8d445030447240431f1f1c5c7b420",
+        "bytes": 216400,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/startupleiria.com/4cb22675e336.txt",
+        "sha256": "79db800936258d70d208b91e3fa697836c801c917cee46d4a06e3dd4de030f62",
+        "chars": 2539
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map-site",
+          "n": 7,
+          "label": "Startup Leiria"
+        },
+        {
+          "place": "leiria",
+          "kind": "source",
+          "n": 1,
+          "label": "Startup Leiria: news"
+        }
+      ]
+    },
+    {
+      "url": "https://startupleiria.com/startup-leiria-capta-scale-ups-internacionais/",
+      "host": "startupleiria.com",
+      "captured_at": "2026-11-16T15:30:57Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://startupleiria.com/startup-leiria-capta-scale-ups-internacionais/",
+      "title": "Startup Leiria capta scale-ups internacionais | Startup Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/startupleiria.com/a24eb5d5e3d4.jpg",
+        "sha256": "5bb0dc41a0f6064f014b5b692510ca91af45ddccf475b711d7de09a6e5d072d1",
+        "bytes": 129519,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/startupleiria.com/a24eb5d5e3d4.txt",
+        "sha256": "d4ba7b3a75763801567bde708e1caad59a532798509554093a6b63ff3e50c796",
+        "chars": 3065
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "event",
+          "n": 1,
+          "label": "STRIDE 351, call for international scale-ups (Startup Leiria), applications close 18 November 2026"
+        }
+      ]
+    },
+    {
+      "url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "host": "startupleiria.com",
+      "captured_at": "2026-11-16T15:30:16Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "title": "​Startups incubadas na Startup Leiria captam 5,5 M com a Portugal Ventures | Startup Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/startupleiria.com/6e6171f7f361.jpg",
+        "sha256": "d9552b3ce486611ba686fefb14a45bf7c36d986b3f16e36a12f3ff19cbfedaad",
+        "bytes": 163235,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/startupleiria.com/6e6171f7f361.txt",
+        "sha256": "46bf5d437651a4ec784c80a62b210c228c02935d32f5ab98479ed6195398656a",
+        "chars": 5077
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 11,
+          "label": "Glartek"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 12,
+          "label": "BHOUT"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 21,
+          "label": "Portugal Ventures (Leiria Crescimento call)"
         }
       ]
     },
@@ -20958,7 +21501,7 @@
     {
       "url": "https://uhu.es/sites/otc/files/proyectos_europeos/kttseadrones.pdf",
       "host": "uhu.es",
-      "captured_at": "2026-11-16T14:26:14Z",
+      "captured_at": "2026-11-16T15:24:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -21020,7 +21563,7 @@
     {
       "url": "https://unipb.pt",
       "host": "unipb.pt",
-      "captured_at": "2026-11-16T14:28:56Z",
+      "captured_at": "2026-11-16T15:27:24Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -21029,7 +21572,7 @@
       "note": "the page showed almost no text",
       "image": {
         "path": "captures/2026-11-16/unipb.pt/9ae9ec2c9055.jpg",
-        "sha256": "f5439fa865476abba1b42b1c65f4bbcfac332b22451909ad1ff8833d8d4f1872",
+        "sha256": "d126dfd7d63230ce15de4607e90ac5a918312f0bfa7704eb282fc115d4b240af",
         "bytes": 14137,
         "width": 1280,
         "height": 1600
@@ -23407,7 +23950,7 @@
     {
       "url": "https://websig.cm-vrsa.pt/geoportal",
       "host": "websig.cm-vrsa.pt",
-      "captured_at": "2026-11-16T14:24:01Z",
+      "captured_at": "2026-11-16T15:22:30Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -23531,7 +24074,7 @@
     {
       "url": "https://www.agroportal.pt/",
       "host": "agroportal.pt",
-      "captured_at": "2026-11-16T14:29:17Z",
+      "captured_at": "2026-11-16T15:27:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -23540,14 +24083,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/agroportal.pt/f95662923861.jpg",
-        "sha256": "0872b0c929fde304065fc62c8abe2a9cd94d18f6cc1791bc67a1fd780fe32d7b",
-        "bytes": 36091,
+        "sha256": "a4276088e5aaed6c6e4fae8b02d11ae08cae021ba6ed9a6102abee6fea670615",
+        "bytes": 35973,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/agroportal.pt/f95662923861.txt",
-        "sha256": "2c4f691da63dd0de627e5ac44684d6016b66130438a398d60142e59c509c99ed",
+        "sha256": "28eeba5303e25664298d9102a45099dd064fcc2e969473dc9cba8af6e4b1a131",
         "chars": 278
       },
       "cited_by": [
@@ -24592,7 +25135,7 @@
     {
       "url": "https://www.aman-alliance.org/Home/ContentDetail/103391",
       "host": "aman-alliance.org",
-      "captured_at": "2026-11-16T14:28:42Z",
+      "captured_at": "2026-11-16T15:27:09Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28411,6 +28954,43 @@
       ]
     },
     {
+      "url": "https://www.brainr.com/articles/record-seed-round-ai-food-factories",
+      "host": "brainr.com",
+      "captured_at": "2026-11-16T15:29:59Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.brainr.com/articles/record-seed-round-ai-food-factories",
+      "title": "BRAINR Raises €11M Seed Round to Bring AI to Food Factories",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/brainr.com/53b4b80a586a.jpg",
+        "sha256": "c4842c1eb1f6b19c6bcbc413fd6ecc3513aa58bbecd0e0bcdc683f7c06b8cac7",
+        "bytes": 197710,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/brainr.com/53b4b80a586a.txt",
+        "sha256": "6332c30995883baa516cb6586d755212c852f17da890d3297f867a788faae7d7",
+        "chars": 6359
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map-site",
+          "n": 9,
+          "label": "Brainr"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 22,
+          "label": "C2 Capital Partners"
+        }
+      ]
+    },
+    {
       "url": "https://www.canaln.tv",
       "host": "canaln.tv",
       "captured_at": "2026-11-16T07:30:19Z",
@@ -29346,7 +29926,7 @@
     {
       "url": "https://www.cm-aljezur.pt",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T14:25:51Z",
+      "captured_at": "2026-11-16T15:24:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29964,7 +30544,7 @@
     {
       "url": "https://www.cm-faro.pt",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T14:22:04Z",
+      "captured_at": "2026-11-16T15:20:34Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30001,7 +30581,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T14:22:14Z",
+      "captured_at": "2026-11-16T15:20:45Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30032,7 +30612,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91716/mentes-artificiais-ola-futuro.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T14:21:54Z",
+      "captured_at": "2026-11-16T15:20:24Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30069,7 +30649,7 @@
     {
       "url": "https://www.cm-lagoa.pt/comunicacao/eventos",
       "host": "cm-lagoa.pt",
-      "captured_at": "2026-11-16T14:24:37Z",
+      "captured_at": "2026-11-16T15:23:04Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -30315,9 +30895,71 @@
       ]
     },
     {
+      "url": "https://www.cm-leiria.pt/",
+      "host": "cm-leiria.pt",
+      "captured_at": "2026-11-16T15:30:40Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-leiria.pt/",
+      "title": "Câmara Municipal de Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-leiria.pt/ecc52a12ec4c.jpg",
+        "sha256": "1bca56c597a8dd373cf8c1551297a7fa329484c5613e16aa96ffa91fc6527ae5",
+        "bytes": 232656,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-leiria.pt/ecc52a12ec4c.txt",
+        "sha256": "d269b6e7879bfbe1f4834c2226ec3af4933e32334363f8f183c5d27e895aa240",
+        "chars": 4625
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map-site",
+          "n": 18,
+          "label": "Câmara Municipal de Leiria"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-leiria.pt/municipio/camara-municipal/gabinete-de-comunicacao/noticias",
+      "host": "cm-leiria.pt",
+      "captured_at": "2026-11-16T15:31:52Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-leiria.pt/municipio/camara-municipal/gabinete-de-comunicacao/noticias",
+      "title": "Notícias - Câmara Municipal de Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-leiria.pt/b59e7ec27c62.jpg",
+        "sha256": "281467487a75aee160d56ab410461ad07c6cd82f7f382c3b2d6f0e1bdc48843d",
+        "bytes": 159323,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-leiria.pt/b59e7ec27c62.txt",
+        "sha256": "b3d211ed52b0307d4bcf2d3a499da2d5d59e1c7d45e27ac6f4e356bc7a6e22e2",
+        "chars": 5210
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "source",
+          "n": 6,
+          "label": "Câmara Municipal de Leiria: news"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-loule.pt",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T14:22:27Z",
+      "captured_at": "2026-11-16T15:20:55Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30354,7 +30996,7 @@
     {
       "url": "https://www.cm-loule.pt/",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T14:22:39Z",
+      "captured_at": "2026-11-16T15:21:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30391,7 +31033,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T14:24:57Z",
+      "captured_at": "2026-11-16T15:23:24Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30422,7 +31064,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/151/protecao-civil.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T14:25:18Z",
+      "captured_at": "2026-11-16T15:23:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30453,7 +31095,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T14:25:28Z",
+      "captured_at": "2026-11-16T15:23:55Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30484,7 +31126,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T14:25:40Z",
+      "captured_at": "2026-11-16T15:24:07Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30515,7 +31157,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T14:24:47Z",
+      "captured_at": "2026-11-16T15:23:14Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30552,7 +31194,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/noticias-listagem.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T14:25:07Z",
+      "captured_at": "2026-11-16T15:23:34Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30688,7 +31330,7 @@
     {
       "url": "https://www.cm-sbras.pt",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:26:40Z",
+      "captured_at": "2026-11-16T15:25:07Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30725,7 +31367,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:27:41Z",
+      "captured_at": "2026-11-16T15:26:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30756,7 +31398,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:28:10Z",
+      "captured_at": "2026-11-16T15:26:38Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30787,7 +31429,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:27:30Z",
+      "captured_at": "2026-11-16T15:25:58Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30818,7 +31460,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:28:21Z",
+      "captured_at": "2026-11-16T15:26:48Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30849,7 +31491,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:26:50Z",
+      "captured_at": "2026-11-16T15:25:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30892,7 +31534,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:27:10Z",
+      "captured_at": "2026-11-16T15:25:37Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30929,7 +31571,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:27:00Z",
+      "captured_at": "2026-11-16T15:25:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30966,7 +31608,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:27:21Z",
+      "captured_at": "2026-11-16T15:25:47Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30997,7 +31639,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:28:31Z",
+      "captured_at": "2026-11-16T15:26:58Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31028,7 +31670,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:28:00Z",
+      "captured_at": "2026-11-16T15:26:28Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31059,7 +31701,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:26:29Z",
+      "captured_at": "2026-11-16T15:24:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31108,7 +31750,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T14:27:50Z",
+      "captured_at": "2026-11-16T15:26:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31139,7 +31781,7 @@
     {
       "url": "https://www.cm-silves.pt",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T14:22:59Z",
+      "captured_at": "2026-11-16T15:21:28Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31176,7 +31818,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/agenda.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T14:23:20Z",
+      "captured_at": "2026-11-16T15:21:48Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31207,7 +31849,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T14:23:30Z",
+      "captured_at": "2026-11-16T15:21:59Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31238,7 +31880,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/noticias/32862/silves-acolhe-acoes-de-formacao-do-programa-formacao---proxima.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T14:22:49Z",
+      "captured_at": "2026-11-16T15:21:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31275,7 +31917,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T14:23:09Z",
+      "captured_at": "2026-11-16T15:21:39Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31866,7 +32508,7 @@
     {
       "url": "https://www.cm-vrsa.pt",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T14:23:40Z",
+      "captured_at": "2026-11-16T15:22:09Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31909,7 +32551,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T14:24:14Z",
+      "captured_at": "2026-11-16T15:22:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31940,7 +32582,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T14:23:50Z",
+      "captured_at": "2026-11-16T15:22:20Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -32543,6 +33185,117 @@
       ]
     },
     {
+      "url": "https://www.diarioleiria.pt/",
+      "host": "diarioleiria.pt",
+      "captured_at": "2026-11-16T15:31:32Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.diarioleiria.pt/",
+      "title": "Diário de Leiria: O seu jornal de notícias de Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/diarioleiria.pt/f2ece245ced3.jpg",
+        "sha256": "3c775564147eec24c77919ef1b9554499a833ff4c1d76b537bbd269648e3e925",
+        "bytes": 242200,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/diarioleiria.pt/f2ece245ced3.txt",
+        "sha256": "d121e8c112c7d0bbfeebfe2666f26e9f0a4ea5c57000e27a6d3446b8d4381461",
+        "chars": 8797
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "source",
+          "n": 2,
+          "label": "Diário de Leiria"
+        }
+      ]
+    },
+    {
+      "url": "https://www.diarioleiria.pt/2026/07/25/leiria-investe-em-solucoes-tecnologicas-para-reforcar-turismo/",
+      "host": "diarioleiria.pt",
+      "captured_at": "2026-11-16T15:28:56Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.diarioleiria.pt/2026/07/25/leiria-investe-em-solucoes-tecnologicas-para-reforcar-turismo/",
+      "title": "Leiria investe em soluções tecnológicas para reforçar turismo",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/diarioleiria.pt/f4247a6a9c9c.jpg",
+        "sha256": "60e2c00512582854e659d63822f89266e7b23cb001662a04650dde8b50c653a9",
+        "bytes": 216994,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/diarioleiria.pt/f4247a6a9c9c.txt",
+        "sha256": "a984a18f3f167fb0d6bb37e3f3c331e3ebe4e78395822fb97d32561fa46fa550",
+        "chars": 6026
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "news",
+          "n": 5,
+          "label": "Leiria's council becomes first customer of two AI tourism startups"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 18,
+          "label": "Câmara Municipal de Leiria"
+        },
+        {
+          "place": "leiria",
+          "kind": "gravity",
+          "n": 4,
+          "label": "Leiria invests in technology solutions to boost tourism (Diário de Leiria, 25 July 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.diarioleiria.pt/2026/11/02/saiba-os-projetos-distinguidos-como-leiria-nexxt-ideas-2026/",
+      "host": "diarioleiria.pt",
+      "captured_at": "2026-11-16T15:28:13Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.diarioleiria.pt/2026/11/02/saiba-os-projetos-distinguidos-como-leiria-nexxt-ideas-2026/",
+      "title": "Saiba os projetos distinguidos como Leiria Nexxt Ideas 2026",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/diarioleiria.pt/018839c81056.jpg",
+        "sha256": "96eca859ceb841fc831c8fef9ef5c140e41f83a9c7193199e9559ae914dba063",
+        "bytes": 230350,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/diarioleiria.pt/018839c81056.txt",
+        "sha256": "9f1245b9d43c7ee91e99df1716e5050a47e7a945357ad30a1e8baa1a047c5372",
+        "chars": 6860
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "news",
+          "n": 1,
+          "label": "Nexxt Leiria awards ten projects, with AI at the heart of several"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 17,
+          "label": "Opsivision Leiria, Sndora, e-Security and Bora, Leiria? (Leiria Nexxt Ideas 2026 winners)"
+        }
+      ]
+    },
+    {
       "url": "https://www.diarioviseu.pt",
       "host": "diarioviseu.pt",
       "captured_at": "2026-11-16T14:33:22Z",
@@ -32796,6 +33549,43 @@
       ]
     },
     {
+      "url": "https://www.empreendedor.com/news/leiria-testa-solucoes-de-startups-na-promocao-turistica",
+      "host": "empreendedor.com",
+      "captured_at": "2026-11-16T15:30:32Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.empreendedor.com/news/leiria-testa-solucoes-de-startups-na-promocao-turistica",
+      "title": "Leiria testa soluções de startups na promoção turística | Empreendedor.com",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/empreendedor.com/986f0390eae2.jpg",
+        "sha256": "8488dee54e2496fa1b497974eb9a4af407dd15e51e9e44bfe78c9ef58bdce0f1",
+        "bytes": 222985,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/empreendedor.com/986f0390eae2.txt",
+        "sha256": "e91dc881963406dee2220a50ce2da863004b59591bcad03ddfc86c26e19d8b5a",
+        "chars": 4494
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 15,
+          "label": "Leiria Concierge"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 16,
+          "label": "Guide Sofia"
+        }
+      ]
+    },
+    {
       "url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
       "host": "engium.uminho.pt",
       "captured_at": "2026-11-16T08:20:01Z",
@@ -32958,7 +33748,7 @@
     {
       "url": "https://www.eurociudadguadiana.eu",
       "host": "eurociudadguadiana.eu",
-      "captured_at": "2026-11-16T14:24:03Z",
+      "captured_at": "2026-11-16T15:22:32Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -34427,6 +35217,111 @@
       ]
     },
     {
+      "url": "https://www.ipleiria.pt/",
+      "host": "ipleiria.pt",
+      "captured_at": "2026-11-16T15:29:30Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipleiria.pt/",
+      "title": "Universidade de Leiria e Oeste",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipleiria.pt/487d0888f2c0.jpg",
+        "sha256": "994ce4b0ca24a4952db5ff5106f060995f4b0280d52f023a81e1541e988e7198",
+        "bytes": 244091,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipleiria.pt/487d0888f2c0.txt",
+        "sha256": "2c00afa04c2de199b7c9fd35a8690b75cf4f84692dddfe801ec79fae035eb96c",
+        "chars": 4161
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map-site",
+          "n": 1,
+          "label": "Politécnico de Leiria (IPLeiria, becoming the Universidade de Leiria e Oeste)"
+        },
+        {
+          "place": "leiria",
+          "kind": "source",
+          "n": 5,
+          "label": "Politécnico de Leiria (IPLeiria, becoming ULO)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ipleiria.pt/chatbot-sofia/",
+      "host": "ipleiria.pt",
+      "captured_at": "2026-11-16T15:29:43Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipleiria.pt/chatbot-sofia/",
+      "title": "Chatbot Sofia | Universidade de Leiria e Oeste",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipleiria.pt/d4f04bdccbe7.jpg",
+        "sha256": "70fb604e38f0fbe22fed81aa5c12d71de9a2d6bd81cb755fff7e1e971e6f4399",
+        "bytes": 200388,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipleiria.pt/d4f04bdccbe7.txt",
+        "sha256": "45618f47f8509a9f29706c7720f9bd59f9984264549d6456045778232d5132c2",
+        "chars": 4812
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 6,
+          "label": "Chatbot Sofia (IPLeiria virtual assistant)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ipleiria.pt/orientacoes-para-a-utilizacao-responsavel-da-inteligencia-artificial-no-ipleiria/",
+      "host": "ipleiria.pt",
+      "captured_at": "2026-11-16T15:29:04Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipleiria.pt/orientacoes-para-a-utilizacao-responsavel-da-inteligencia-artificial-no-ipleiria/",
+      "title": "Orientações para a utilização responsável da Inteligência Artificial na ULO | Universidade de Leiria e Oeste",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipleiria.pt/ba01cba974c5.jpg",
+        "sha256": "83d49c6947c3f31bf91c88ece3915427819033c38026a3ef37694ec8d0ffcf5b",
+        "bytes": 211822,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipleiria.pt/ba01cba974c5.txt",
+        "sha256": "6830ddd0a821720b385c5576a9b525b954a691de45038dee127616bc88d3d095",
+        "chars": 3631
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "news",
+          "n": 7,
+          "label": "Politécnico de Leiria sets its AI rules, in force from 1 September"
+        },
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 1,
+          "label": "Politécnico de Leiria (IPLeiria, becoming the Universidade de Leiria e Oeste)"
+        }
+      ]
+    },
+    {
       "url": "https://www.ipma.pt/opencms/pt/otempo/comunicados/index.jsp",
       "host": "ipma.pt",
       "captured_at": "2026-11-16T00:05:15Z",
@@ -34938,9 +35833,58 @@
       ]
     },
     {
+      "url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-e-municipio-apresentaram-o-campus-tejo-na-web-summit/",
+      "host": "ipsantarem.pt",
+      "captured_at": "2026-11-16T15:32:07Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-e-municipio-apresentaram-o-campus-tejo-na-web-summit/",
+      "title": "Universidade Politécnica de Santarém e Município apresentaram o Campus Tejo na Web Summit – Universidade Politécnica de Santarém",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipsantarem.pt/17ec3988f4f1.jpg",
+        "sha256": "4477770a611be183610b3d681095f3a52a5e5ee9bc9a139bcc499f95eed16e7d",
+        "bytes": 194566,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipsantarem.pt/17ec3988f4f1.txt",
+        "sha256": "bc66a1238673214f4707b858075cebc7674f9edb24dfadfd4805f40894e52559",
+        "chars": 3977
+      },
+      "cited_by": [
+        {
+          "place": "santarem",
+          "kind": "news",
+          "n": 1,
+          "label": "Campus Tejo goes to Web Summit, with the university and the council"
+        },
+        {
+          "place": "santarem",
+          "kind": "map",
+          "n": 2,
+          "label": "Universidade Politécnica de Santarém (UPSantarém)"
+        },
+        {
+          "place": "santarem",
+          "kind": "map",
+          "n": 12,
+          "label": "Lezíria do Tejo Intermunicipal Community (CIMLT)"
+        },
+        {
+          "place": "santarem",
+          "kind": "gravity",
+          "n": 2,
+          "label": "Universidade Politécnica de Santarém and the council present Campus Tejo at Web Summit (13 November 2026)"
+        }
+      ]
+    },
+    {
       "url": "https://www.ipvc.pt",
       "host": "ipvc.pt",
-      "captured_at": "2026-11-16T14:29:01Z",
+      "captured_at": "2026-11-16T15:27:28Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -35169,7 +36113,7 @@
     {
       "url": "https://www.ismt.pt/en/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial",
       "host": "ismt.pt",
-      "captured_at": "2026-11-16T14:29:11Z",
+      "captured_at": "2026-11-16T15:27:38Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -35287,6 +36231,130 @@
           "article": "humanos-road-2-web-summit-winner",
           "kind": "article",
           "label": "humanos-road-2-web-summit-winner"
+        }
+      ]
+    },
+    {
+      "url": "https://www.jornaldeleiria.pt/",
+      "host": "jornaldeleiria.pt",
+      "captured_at": "2026-11-16T15:31:45Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.jornaldeleiria.pt/",
+      "title": "Jornal de Leiria - Home",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/jornaldeleiria.pt/6dc7df9be379.jpg",
+        "sha256": "ba8bb7cf558a73c84b3bd5d3a03a50d7692094144aafe9d94272eab79e279fea",
+        "bytes": 183766,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jornaldeleiria.pt/6dc7df9be379.txt",
+        "sha256": "124890cd1c239ebd8014ec94caba1603b8d0cd77a484a6b329863d2a010d0203",
+        "chars": 8223
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "source",
+          "n": 4,
+          "label": "Jornal de Leiria"
+        }
+      ]
+    },
+    {
+      "url": "https://www.jornaldeleiria.pt/index.php/noticia/leiria-acolhe-academia-ai-business-for-leaders-and-executives",
+      "host": "jornaldeleiria.pt",
+      "captured_at": "2026-11-16T15:30:51Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.jornaldeleiria.pt/index.php/noticia/leiria-acolhe-academia-ai-business-for-leaders-and-executives",
+      "title": "Jornal de Leiria - Leiria acolhe academia AI Business for Leaders and Executives",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/jornaldeleiria.pt/ef5c4941cb5a.jpg",
+        "sha256": "e776ec7671fcee537b8ab29cddac6d6b20422b7ace868449f143d886fac637ae",
+        "bytes": 182811,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jornaldeleiria.pt/ef5c4941cb5a.txt",
+        "sha256": "af6a42e1519e8e5b6b26a3ae7e37d798cb541e0d3bea1a5e68d8a1899f50f2cd",
+        "chars": 3199
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 20,
+          "label": "APS Consultores"
+        }
+      ]
+    },
+    {
+      "url": "https://www.jornaldeleiria.pt/noticia/politecnico-de-leiria-lanca-primeiros-cursos-criados-por-inteligencia-artificial",
+      "host": "jornaldeleiria.pt",
+      "captured_at": "2026-11-16T15:29:39Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.jornaldeleiria.pt/noticia/politecnico-de-leiria-lanca-primeiros-cursos-criados-por-inteligencia-artificial",
+      "title": "Jornal de Leiria - Politécnico de Leiria lança primeiros cursos criados por Inteligência Artificial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/jornaldeleiria.pt/37067e8f75ed.jpg",
+        "sha256": "2168272fa310a0143a1e242099bf23c4d820400398c813433b74a28e7f860bb3",
+        "bytes": 182152,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jornaldeleiria.pt/37067e8f75ed.txt",
+        "sha256": "525c1ebc66ade23d457195ca60a2379ad2d7a7d61fe4a0764feee70733c1408a",
+        "chars": 3117
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 5,
+          "label": "Centro de Inovação Pedagógica (IPLeiria)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.jornaldeleiria.pt/noticia/startup-de-leiria-alia-nanotecnologia-e-ia-para-inovar-na-industria",
+      "host": "jornaldeleiria.pt",
+      "captured_at": "2026-11-16T15:30:20Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.jornaldeleiria.pt/noticia/startup-de-leiria-alia-nanotecnologia-e-ia-para-inovar-na-industria",
+      "title": "Jornal de Leiria - Startup de Leiria alia nanotecnologia e IA para inovar na indústria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/jornaldeleiria.pt/01d287b01163.jpg",
+        "sha256": "f0f42adf5c90cdd40793c28a55a1ce9a692a8fce5f9fb36bd1420a5669c96f85",
+        "bytes": 208201,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jornaldeleiria.pt/01d287b01163.txt",
+        "sha256": "76f6e178359c01b50163c9fb91cfe8535ece77d14236a6a05c62d9263ec3a796",
+        "chars": 4333
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 13,
+          "label": "Dimera"
         }
       ]
     },
@@ -35516,7 +36584,7 @@
     {
       "url": "https://www.mun-guarda.pt",
       "host": "mun-guarda.pt",
-      "captured_at": "2026-11-16T14:29:19Z",
+      "captured_at": "2026-11-16T15:27:47Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -35547,6 +36615,68 @@
           "kind": "source",
           "n": 1,
           "label": "Município da Guarda"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nerlei.pt/",
+      "host": "nerlei.pt",
+      "captured_at": "2026-11-16T15:32:00Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.nerlei.pt/",
+      "title": "NERLEI Associação Empresarial da Região de Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/nerlei.pt/f46cde6f91d9.jpg",
+        "sha256": "5e07e5270f1b5de635ab089af04adf651799e5d4707db0aa84617fb365a30429",
+        "bytes": 149591,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/nerlei.pt/f46cde6f91d9.txt",
+        "sha256": "6afb11ab3fa179059e00b8219e298433d8c8d26e1d74da0c8113235a641033f0",
+        "chars": 7149
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "source",
+          "n": 7,
+          "label": "NERLEI CCI (business association of the Leiria region)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nerlei.pt/pt/acao-formacao-human?formacao=1343",
+      "host": "nerlei.pt",
+      "captured_at": "2026-11-16T15:30:47Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.nerlei.pt/pt/acao-formacao-human?formacao=1343",
+      "title": "NERLEI Associação Empresarial da Região de Leiria",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/nerlei.pt/e67a5f878c6a.jpg",
+        "sha256": "6ac2aba35affa5f0a2619732848527fab942efcaf22d0a0afa37cddc602c4085",
+        "bytes": 41159,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/nerlei.pt/e67a5f878c6a.txt",
+        "sha256": "0ecec0cfebe69259bd5ea975530f945e550d19cce7ebc79b591a65945f94853e",
+        "chars": 309
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "map",
+          "n": 19,
+          "label": "NERLEI CCI"
         }
       ]
     },
@@ -36399,7 +37529,7 @@
     {
       "url": "https://www.regiadouro.com/",
       "host": "regiadouro.com",
-      "captured_at": "2026-11-16T14:28:50Z",
+      "captured_at": "2026-11-16T15:27:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 503,
@@ -36430,6 +37560,37 @@
           "kind": "source",
           "n": 4,
           "label": "Regia Douro Park"
+        }
+      ]
+    },
+    {
+      "url": "https://www.regiaodeleiria.pt/",
+      "host": "regiaodeleiria.pt",
+      "captured_at": "2026-11-16T15:31:40Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.regiaodeleiria.pt/",
+      "title": "Região de Leiria - Há uma região que nos une",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/regiaodeleiria.pt/026e099ba4d8.jpg",
+        "sha256": "0b1afbb40d019edd7ab69eb164f5195eea5c12229689e8c0239f5f4171bba455",
+        "bytes": 228222,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/regiaodeleiria.pt/026e099ba4d8.txt",
+        "sha256": "ccb85a63a3b8814a490fda9fecfe74247a98d4bee49b2a202e69022767b3b04b",
+        "chars": 8661
+      },
+      "cited_by": [
+        {
+          "place": "leiria",
+          "kind": "source",
+          "n": 3,
+          "label": "Região de Leiria"
         }
       ]
     },
@@ -37113,7 +38274,7 @@
     {
       "url": "https://www.sulinformacao.pt/en/",
       "host": "sulinformacao.pt",
-      "captured_at": "2026-11-16T14:24:33Z",
+      "captured_at": "2026-11-16T15:23:00Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -37122,14 +38283,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.jpg",
-        "sha256": "beddb3e2efb34b77d7d08fe83d0a46ceb4fe8e3727a2578cb78a8c799caf080d",
-        "bytes": 40029,
+        "sha256": "f2498f5116e7cee185c3040805998b63aedfbb160b078e2d4f7ba74dc81f3098",
+        "bytes": 40032,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.txt",
-        "sha256": "275a0225f7a73b90eabbb5189b1a6c8b543126a045dc45ddfca9d5d5ac8a8330",
+        "sha256": "f76a41e52c5bdcfb38b3695bfc361f4df0f6ccc26cb30589ac6bd4a0550f1633",
         "chars": 281
       },
       "cited_by": [
@@ -37670,7 +38831,7 @@
     {
       "url": "https://www.uc.pt",
       "host": "uc.pt",
-      "captured_at": "2026-11-16T14:29:04Z",
+      "captured_at": "2026-11-16T15:27:32Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -37679,14 +38840,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/uc.pt/5071ce44772a.jpg",
-        "sha256": "fa869d465c64a6b2673d0241385e2c2e075a1fd859d7d701b827f1d514b9469f",
-        "bytes": 36322,
+        "sha256": "cbbc0d6d438a13629803ce9f7e24156598817bfde9cd4f3371f6d45220a3fb6c",
+        "bytes": 36352,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/uc.pt/5071ce44772a.txt",
-        "sha256": "6754f185568223a2cc6abbd0910b4b28db40dac8ff9026930f825eb5a16e431f",
+        "sha256": "752d0c873d564752c07946ec420a4d8f9b7d3fdaf35afa248961ebbccd21317d",
         "chars": 58
       },
       "cited_by": [
@@ -38173,5 +39334,5 @@
       ]
     }
   ],
-  "updated": "2026-11-16T14:34:08Z"
+  "updated": "2026-11-16T15:32:16Z"
 }
