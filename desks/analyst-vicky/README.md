@@ -57,7 +57,7 @@ States: proposed, chosen, drafting, with Vicky, published, set aside. The full p
 
 ## A1: People ahead, companies behind
 
-- **State:** with Vicky (draft 16 Nov 2026: `desks/analyst-vicky/drafts/A1-people-ahead-companies-behind.md`, data note in `desks/analyst-vicky/data/`). Chosen by Vicky on 15 Nov (standing answer 85). INE publishes 2026 figures for both surveys on 20 November 2026; the recommendation is to publish after that, with the new figures.
+- **State:** with Vicky (draft 16 Nov 2026: `desks/analyst-vicky/drafts/a1-people-ahead-companies-behind.md`, data note in `desks/analyst-vicky/data/`). Chosen by Vicky on 15 Nov (standing answer 85). INE publishes 2026 figures for both surveys on 20 November 2026; the recommendation is to publish after that, with the new figures.
 - **The question.** In 2025 people in Portugal used generative AI more than the EU average, but Portuguese companies used AI far less. Why the gap, and what does each number measure?
 - **AI path.** AI directly, 0 steps. Linked to the Humans and AI series. Places: Portugal, Europe. The Algarve only if INE's release gives a regional figure (to check).
 - **Checked figures** (2025).

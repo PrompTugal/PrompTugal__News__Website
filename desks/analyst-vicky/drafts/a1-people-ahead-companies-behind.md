@@ -22,7 +22,7 @@ tags: Analysis, AI, Portugal, Europe, Humans and AI
 
 ## The story
 
-<!-- Chart: the designer draws it from the chart spec in desks/analyst-vicky/data/A1-people-ahead-companies-behind.md. It goes here, with its caption under it. -->
+<!-- Chart: the designer draws it from the chart spec in desks/analyst-vicky/data/a1-people-ahead-companies-behind.md. It goes here, with its caption under it. -->
 
 Portugal is an unusual case in Europe's AI statistics. Its people are ahead of the EU average. Its companies are well behind it.
 
@@ -57,4 +57,4 @@ On 20 November 2026, INE publishes its 2026 results for both surveys. For people
 - [Eurostat, "Artificial intelligence by size class of enterprise" (isoc_eb_ai)](https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table) (companies: all figures, rankings), updated 15 June 2026, read 16 November 2026
 - [INE, "Calendário: disponibilidade de informação estatística"](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_dispinfest&xlang=pt) (the 2026 release date, 20 November 2026), read 16 November 2026
 - Tried and not reached: INE's own release of the 2025 results and its regional table (not found at an INE address on 16 November 2026). Regional figures reported in the press are left out until read at INE.
-- From the analyst's topics: A1, `desks/analyst-vicky/README.md`. Data note: `desks/analyst-vicky/data/A1-people-ahead-companies-behind.md`.
+- From the analyst's topics: A1, `desks/analyst-vicky/README.md`. Data note: `desks/analyst-vicky/data/a1-people-ahead-companies-behind.md`.

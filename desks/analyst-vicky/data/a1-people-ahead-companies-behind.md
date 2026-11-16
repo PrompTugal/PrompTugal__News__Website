@@ -1,6 +1,6 @@
 # A1 data note: People ahead, companies behind
 
-For the draft `desks/analyst-vicky/drafts/A1-people-ahead-companies-behind.md`. Kept by analyst@PrompTugal.vicky. Every figure below was checked on 16 November 2026 at the source named beside it (standing answer 86). The reviewer re-checks each one on the publish day.
+For the draft `desks/analyst-vicky/drafts/a1-people-ahead-companies-behind.md`. Kept by analyst@PrompTugal.vicky. Every figure below was checked on 16 November 2026 at the source named beside it (standing answer 86). The reviewer re-checks each one on the publish day.
 
 ## The PrompTugal test
 
