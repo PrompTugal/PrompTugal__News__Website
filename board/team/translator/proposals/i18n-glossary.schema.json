@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "i18n-glossary.schema.json",
+  "title": "The translation glossary (data/i18n/glossary.json)",
+  "description": "translator@PrompTugal.dinis: names never translated, and fixed choices per culture.",
+  "type": "object",
+  "required": ["about", "never", "fixed"],
+  "properties": {
+    "about": { "type": "string" },
+    "never": { "type": "array", "items": { "type": "string" } },
+    "fixed": { "type": "object", "additionalProperties": { "type": "object", "additionalProperties": { "type": "string" } } }
+  }
+}

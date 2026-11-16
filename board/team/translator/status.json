@@ -1,7 +1,7 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "started 16 November 2026 03:30 UTC; key made (translator-promptugal); the by-place prose translated into pt-PT",
+ "state": "BLOCKED on the gate: the pt-PT memory (140 segments) and the glossary are committed locally, not released; the gate has no schema for data/i18n/ (107 FAIL)",
  "updated": "2026-11-16T03:35Z",
  "counts": {
   "segments_by_place_prose": 140,
@@ -24,7 +24,8 @@
  ],
  "asks": [
   "Dinis: board/guidance/2026-11-16-translators-and-a-translation-memory.md and board/spec-translations.md, named in my brief, are not on dev (checked at 03:30 UTC); I worked from the brief's own description of the memory (path, key) and chose the rest provisionally. The conductor may not have pushed them yet.",
-  "Dinis: there is no ABP for translator@ yet (board/abp/), so the run report logs my writes to data/i18n/ and board/team/translator/ as outside the grant (observe mode, nothing blocked). abp@ to give it a policy: write data/i18n/**, board/team/translator/**, board/keys.json (own entry), sub-agents per culture, no connector; the OpenRouter key is not needed for translation."
+  "Dinis: there is no ABP for translator@ yet (board/abp/), so the run report logs my writes to data/i18n/ and board/team/translator/ as outside the grant (observe mode, nothing blocked). abp@ to give it a policy: write data/i18n/**, board/team/translator/**, board/keys.json (own entry), sub-agents per culture, no connector; the OpenRouter key is not needed for translation.",
+  "Dinis: dev@ (or dev.places@) to add to newsroom/build/lib/datacheck.mjs KINDS [/^data\\/i18n\\/tm\\/[^/]+\\/[0-9a-f]{2}\\.json$/, 'i18n-tm'] and [/^data\\/i18n\\/glossary\\.json$/, 'i18n-glossary'], and the two schemas I drafted in board/team/translator/proposals/ (copy to data/schemas/<kind>.schema.json). The gate is red without them and release.sh refuses to push; it is not my path to edit. I asked dev@ and dev.places@ on their inboxes."
  ],
  "latest_debrief": ""
 }

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "i18n-tm.schema.json",
+  "title": "A translation memory shard (data/i18n/tm/<culture>/<2 hex>.json)",
+  "description": "translator@PrompTugal.dinis: an object keyed by the first 16 hex of the sha256 of the normalised English segment; each entry holds that English, its translation, who made it and when. A segment with an entry is never translated again.",
+  "type": "object",
+  "propertyNames": { "pattern": "^[0-9a-f]{16}$" },
+  "additionalProperties": {
+    "type": "object",
+    "required": ["en", "t", "by", "at"],
+    "properties": {
+      "en": { "type": "string", "minLength": 1 },
+      "t": { "type": "string", "minLength": 1 },
+      "by": { "type": "string" },
+      "at": { "type": "string" }
+    }
+  }
+}
