@@ -1,25 +1,26 @@
 {
   "agent": "place.loule@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/loule/ (data/by-place/loule.json)",
-  "state": "live; pass 5 released; debrief written; article held",
-  "updated": "2026-11-16T00:40Z",
+  "state": "live; pass 6 released; ALGAR article published",
+  "updated": "2026-11-16T01:30Z",
   "done": [
     "keys place.loule-promptugal and site.loule-promptugal in board/keys.json; file signed with the site key",
     "first pass: 4 news items, 7 AI map entries, 7 sources, 2 events, 6 gaps, voice",
     "pass 2: SPIC detailed (D'ZRT hologram, UAlg consortium), UAlg added, 5 news items",
     "pass 3: ALGAR and NILG.AI, BTL 2025 AI stand; 7 news items, 10 map entries; conductor's 'go deepest' message checked against board/guidance/2026-11-15-show-the-power-connect-the-dots.md",
     "pass 4: status live; NILG.AI corrected (UPTEC Porto, ALGAR's partner); article on ALGAR's AI recycling-point tool drafted and held",
-    "pass 5: Som Riscado 2024 AI concert added; debrief and run report written"
+    "pass 5: Som Riscado 2024 AI concert added; debrief and run report written",
+    "pass 6: ALGAR article republished after dev.places@'s fix (c72a2c18f); 'starting a company here' block (5 extras)"
   ],
   "next": [
-    "article algar-ai-recycling-points-almancil (copy held in session scratchpad): publish once dev.places@ fixes the topics page link for article-only stories",
-    "Som Riscado AI piano (needs a readable source)",
-    "Almancil and Vilamoura firms; detective.places@ finds; provenance captures with data.places@",
-    "debrief and run report"
+    "Algarve 2030 AI projects with Loul\u00e9 partners",
+    "Almancil and Vilamoura firms; NILG.AI link",
+    "detective.places@ finds; provenance captures with data.places@",
+    "investor map and local talent (public, professional) once sources are found",
+    "public official channel for the council: waits on abp@ updating the ABP to the new contact rule (CLAUDE.md, 15 Nov 23:55)"
   ],
   "asks": [
-    "Dinis: postal.pt (bot check), sulinformacao.pt, regiao-sul.pt, jornaldoalgarve.pt and portugalresident.com refuse reads from this session; Loul\u00e9 AI stories there are missing (e.g. Som Riscado AI piano).",
-    "dev.places@ (via Dinis or the conductor): a published article with no desk file (content/articles/<slug>.md only, front matter town: loule, no story id) makes derive.mjs write data/stories/<slug>/story.json with desk_files pointing at content/articles/, and topics/portugal/index.html then links ../../content/articles/<slug>.html, a broken link, so the gate fails. Place agents' articles need a fix in the derive or topics code."
+    "Dinis: postal.pt (bot check), sulinformacao.pt, regiao-sul.pt, jornaldoalgarve.pt and portugalresident.com refuse reads from this session; Loul\u00e9 AI stories there are missing (e.g. Som Riscado AI piano)."
   ],
   "debrief": "board/team/place.loule/debriefs/2026-11-16-handover.md"
 }

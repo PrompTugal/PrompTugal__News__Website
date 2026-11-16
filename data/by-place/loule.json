@@ -307,7 +307,38 @@
       "steps": 1
     }
   ],
-  "extras": [],
+  "extras": [
+    {
+      "label": "Starting a company here: the regional business association",
+      "value": "NERA, headquartered in Loulé, lists business support, legal advice, professional training, economic information, a business centre and space rental, and runs AI tool training in November 2026.",
+      "source_url": "https://nera.pt",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: incubators and coworking",
+      "value": "BeAlgarve's ecosystem directory lists, for Loulé: the Ninho de Empresas (public, IEFP), Loulé Design Lab (municipal, creative and technology), CASULO (social innovation) and NERA's coworking. It lists no start-ups or research institutions in Loulé.",
+      "source_url": "https://bealgarve.pt/pt/ecossistema/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: the AI community",
+      "value": "BeAlgarve lists Algarve AI Agents, an AI community covering Faro and Loulé, and LOFT Community for remote work.",
+      "source_url": "https://bealgarve.pt/pt/ecossistema/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: the regional AI programme",
+      "value": "Algarve Evolution's AI and robotics pilot for 15 tourism firms ran from 20 February to 30 April 2026. The call has closed, and the regulation and form were at algarveevolution.pt/inovaalgarve.",
+      "source_url": "https://www.algarveevolution.pt/blog/ae-articles-8/algarve-evolution-opens-call-for-algarvian-tourism-smes-13",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: the councils' tech centre",
+      "value": "The Loulé and Faro councils tendered a multi-technology centre for companies and startups at the Estádio Algarve (proposals due 2 November 2026, 12 months to execute, half funded by Algarve 2030).",
+      "source_url": "https://www.barlavento.pt/lancado-concurso-instalar-centro-multitecnologico-estadio-algarve/",
+      "read_on": "2026-11-16"
+    }
+  ],
   "identity": {
     "key_id": "site.loule-promptugal",
     "signed_by": "place.loule@PrompTugal.dinis"
