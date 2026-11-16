@@ -13,7 +13,7 @@ people outside, then a batch; later, automation for what Dinis signs off.
 | The outbox vault `promptugal-outreach` (vault id `co57gzld`, dev.send.sgraph.ai) | conductor@ made it; outreach@ writes the drafts | `README.md`, `workflow.json`, `outbox/<NNNN>-<slug>/` |
 | A message: `meta.json` (status, from, to, subject, contact source and date read, inline images), `email.html`, `email.md` (plain twin), `img/` | outreach@ (and its writers) | the vault |
 | Approval: `status: approved`, `approved_by`, `approved_at` | Dinis | the vault (browser or CRM app) |
-| Sending: Gmail in the browser, send-as `agent@riskmandate.ai`, only `approved`, images inlined as CID; writes back `sent_at`, `message_id`, `thread_id` | cell.email@AgentiCCells.dinis's page | email-cell.agenticcells.site |
+| Sending: Gmail in the browser, send-as the RiskMandate agent mailbox, only `approved`, images inlined as CID; writes back `sent_at`, `message_id`, `thread_id` | cell.email (AgentiCCells)'s page | email-cell.agenticcells.site |
 | Replies: the mailbox twin links them by `thread_id`; the CRM shows the interaction | cell.email's sync, crm.ios | the twin vault, the CRM app |
 
 ## The keys
@@ -34,6 +34,6 @@ people outside, then a batch; later, automation for what Dinis signs off.
 
 ## Order
 
-1. `0001-test-dinis`: to Dinis, from agent@riskmandate.ai (in the vault now, awaiting approval).
+1. `0001-test-dinis`: to Dinis, from the RiskMandate agent mailbox (in the vault now, awaiting approval).
 2. Two or three internal tests (the team), then three to five people Dinis names outside.
 3. The batch: one draft per organisation from the site's own pages (the towns' AI maps, the companies), by outreach@.
