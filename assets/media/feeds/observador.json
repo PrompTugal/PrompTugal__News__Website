@@ -1,0 +1,32 @@
+{
+ "id": "observador",
+ "feed": "https://observador.pt/feed/",
+ "read_at": "2026-11-16T22:14Z",
+ "items": [
+  {
+   "title": "As notícias das 22h",
+   "link": "https://observador.pt/programas/noticiario/as-noticias-das-22h-1900/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Habitação. PR pede colaboração entre Governo e Parlamento",
+   "link": "https://observador.pt/2026/11/16/habitacao-presidente-da-republica-exige-que-governo-e-parlamento-trabalhem-em-conjunto-para-encontrar-solucoes/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Vladimir Putin e Donald Trump vão reunir na quinta-feira",
+   "link": "https://observador.pt/programas/a-guerra-traduzida/vladimir-putin-e-donald-trump-vao-reunir-na-quinta-feira/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Ucrânia corre risco de sofrer acidente nuclear este inverno",
+   "link": "https://observador.pt/programas/a-guerra-traduzida/ucrania-corre-risco-de-sofrer-acidente-nuclear-este-inverno/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Voyager-1 a um dia-luz de distância da Terra",
+   "link": "https://observador.pt/2026/11/16/um-dia-luz-49-anos-apos-o-lancamento-voyager-1-vai-atingir-marco-inedito-na-exploracao-espacial/",
+   "date": "2026-11-16"
+  }
+ ]
+}
