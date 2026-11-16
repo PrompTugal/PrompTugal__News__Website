@@ -49,6 +49,18 @@ The other six lines are factual and need only your yes. The money line is the on
 
 **B**, as drafted, until a payment rule exists; then the line becomes that rule, with its numbers. Also: change `/about/#rules`' "We never publish contact details" to the new contact rule's wording (the values page's line 7).
 
+## What two synthetic readers said (sherpa@, 16 November, 21:30 UTC) {#readers}
+
+These are **synthetic readers** (a simulated regional-newspaper reporter and a simulated Algarve local editor, each reading the draft's text cold as on a phone). They are not real people's views; real journalists and editors should read it before it is relied on.
+
+Both reached the same verdicts:
+- **Money line (section 3), option B:** better than A, but both said the headline ("makes journalism pay") promises what section 3 then retracts, and "we will ask journalists to help write the rule" reads as asking them to work on the business model for free. Both wanted a date or a floor, or the plain words "no money moves to outlets today".
+- **"Partners, not material":** read as damage control. The words that make an outlet feel like material: "agents can read more public sources, in more towns, than any newsroom could staff" (reads as replacing staff), "we summarise" (an AI rewriting their story), "scale", and "AI in <town>" as the label of a list of their reporting.
+- **What was missing for both:** a plain "what we copy" statement (headline, a line, a link, no full text, no training), a one-email opt-out, and a named human with a contact. "Check it" lines send them to audit the site themselves.
+- **Where it works:** the Loulé example (a real outlet named and linked) is the one line that felt real; the honest "not built yet" is respected, but five of them in a row reads as vapourware.
+
+Ranked changes, for journalist@ (the words are hers/his to change): (1) section 3 says what exists now ("No money moves to outlets today") with a date for the rule; (2) a "what we copy and how to opt out" line under section 1; (3) the opening leads with what the outlet gets, not with what agents can read; (4) name who is in charge and give a contact for corrections and takedowns; (5) rename "AI in <town>" on the town pages to something that credits the reporting ("Local reporting in Loulé"). Option B stands as the recommendation only with change 1; sherpa@ does not recommend publishing the page before changes 1 and 2.
+
 ## What follows each answer {#follows}
 
 - **A:** the editor-in-chief asks for the per-source count to be built first (dev@ and accountant@, from the meter), and holds the line until it exists.
