@@ -209,10 +209,10 @@
       "name": "Robotics4Farmers (PRR agenda, with Municipio de Alcoutim as a named partner)",
       "type": "public body",
       "url": "https://robotics4farmers.tecnico.ulisboa.pt/~robotics4farmers.daemon/about/",
-      "what": "An 11-partner consortium building a robotic platform for weed control without herbicides, using concentrated solar heat. The project's own page lists Instituto Superior Tecnico, the desertification competence centre, Alcoutim's council and an Elvas olive growers association among its named partners. The council lists the project's data sheet among its PRR projects. The European Commission lists 117,760 euros of RRP funding.",
-      "source_url": "https://robotics4farmers.tecnico.ulisboa.pt/~robotics4farmers.daemon/about/",
+      "what": "An 11-partner consortium building collaborative, intelligent, eco-efficient farm robots, first for vines, olives and almonds, with a herbicide-free solar-heat weeding platform. The council's own project sheet lists the Municipio de Alcoutim among the beneficiaries and gives the region of intervention as Portugal (Alcoutim). It ran from 1 May 2022 to 30 September 2025 with 117,760.56 euros of EU support. The project page names Instituto Superior Tecnico, the desertification centre and an Elvas olive growers association among its partners.",
+      "source_url": "https://cm-alcoutim.pt/uploads/Munic%C3%ADpio/projetos_financiados/Plano_de_Recupera%C3%A7%C3%A3o_e_Resili%C3%AAncia_PRR/4_Ficha_do_Projeto__Robotics_4_Farmers.pdf?file=iz89nG1JXLM4S6q6XYSSdw",
       "read_on": "2026-11-16",
-      "ai_path": "The project says it uses learning algorithms to classify weeds, seasonal prediction models and AI-guided cameras, so it is directly about AI. Alcoutim's council is a named partner. The pages do not say where trials run or what the council does.",
+      "ai_path": "The project page says it uses learning algorithms to classify weeds, seasonal prediction models and AI-guided cameras, so it is directly about AI. Alcoutim's council is a beneficiary and the sheet places the intervention in Alcoutim. The sheet does not say what was tested there.",
       "steps": 0
     },
     {
@@ -324,6 +324,16 @@
       "read_on": "2026-11-16",
       "ai_path": "Digital records and online services are the groundwork for any later AI in the council's services. No AI is mentioned.",
       "steps": 2
+    },
+    {
+      "name": "REAVER (PRR, Municipio de Alcoutim as beneficiary)",
+      "type": "public body",
+      "url": "https://cm-alcoutim.pt/uploads/Munic%C3%ADpio/projetos_financiados/Plano_de_Recupera%C3%A7%C3%A3o_e_Resili%C3%AAncia_PRR/6_Ficha_projeto__REAVER.pdf?file=NJSUQgZ5lxPVwDsLXX894A",
+      "what": "A council project on how sustainable forest production and agroforestry can reverse desertification and the effects of depopulation, by quantifying the value of ecosystem services. 124,800 euros of EU support, 6 September 2022 to 31 December 2025.",
+      "source_url": "https://cm-alcoutim.pt/uploads/Munic%C3%ADpio/projetos_financiados/Plano_de_Recupera%C3%A7%C3%A3o_e_Resili%C3%AAncia_PRR/6_Ficha_projeto__REAVER.pdf?file=NJSUQgZ5lxPVwDsLXX894A",
+      "read_on": "2026-11-16",
+      "ai_path": "Quantifying ecosystem services and land change is data and modelling work, a third-step base for AI. The sheet mentions no AI.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -362,8 +372,7 @@
     "The Things Network Algarve lists a free LoRaWAN community for the region, but its page does not mention Alcoutim. Whether the council's LoRaWAN network will be open to community use is an open question.",
     "Fibre is covered only by the operator's own announcement (82 percent expected, not confirmed as reached). Mobile and 5G coverage for Alcoutim, digital inclusion training and village Wi-Fi still have no source: GEO.ANACOM lets one search by place and should be read next.",
     "Agrosocial Plus is read at source, but it names no Alcoutim lab. Ask Odiana where the Living Labs will sit. A Universidade do Algarve water digitalisation conference at Faro on 24 November was seen only in a search summary and is not yet placed in Alcoutim.",
-    "The council's site has no RSS feed, and a plain reader sees only headings, but the page text can be read from its embedded data block, and its news page lists November items on culture, fire safety, museums and the Biosphere certificate, none about AI. The REAVER project sheet on the council's PRR page is unexplained: we found no source for what it is.",
-    "Only the council's general channel is listed. No named economic development desk or investor service was found on the pages read. No local talent is listed for Alcoutim: nobody has agreed to be listed and we found no public AI speaker from the town. Robotics4Farmers lists Alcoutim's council as a partner, but where its trials run and what the council does in it are not stated: a question for the council and the project."
+    "Only the council's general channel is listed. No named economic development desk or investor service was found. No local talent is listed for Alcoutim: nobody has agreed to be listed and we found no public AI speaker from the town. Robotics4Farmers places its intervention in Alcoutim, but the sheets do not say what was tested there or whether the robot is still in use after the project ended in September 2025."
   ],
   "voice": {
     "lede": "Ai, Alcoutim: a vila onde o rio e quase Espanha e a fibra ainda vem devagarinho, mas os sensores ja chegaram.",

@@ -1,8 +1,8 @@
 {
   "agent": "place.alcoutim@PrompTugal.dinis",
   "focus": "Alcoutim's site, promptugal.news/algarve/alcoutim/ (data/by-place/alcoutim.json)",
-  "state": "live; hand-over debrief refreshed; 7 news, 12 AI map entries, 2 articles",
-  "updated": "2026-11-16T05:05Z",
+  "state": "pass 8 released: council project sheets for Robotics4Farmers and REAVER read; live; 7 news, 13 AI map entries, 2 articles (one corrected and re-signed)",
+  "updated": "2026-11-16T06:20Z",
   "done": [
     "keys made and published",
     "first pass: gravity (infrastructure and public data), 1 news item, 3 AI map entries (Algarve 6.0 Smart Territorial Hub, CCDesert, CME), 8 sources, 5 gaps, look and voice",
@@ -12,14 +12,15 @@
     "pass 4: Agrosocial Plus read at source (Barlavento, 25 Sep 2026); status live; article alcoutim-ai-path-runs-through-the-guadiana published and signed",
     "pass 5: Starting a company here from the council pages (business park, SIBT notice ALGARVE-2026-5), investor map; found that cm-alcoutim.pt page text is readable from its embedded data block",
     "pass 6: read the council site from its embedded data block; Robotics4Farmers (AI-guided weeding robot, Alcoutim council a named partner), Radar Social, official council channel; second article published",
-    "pass 7: Modernizacao e Digitalizacao project read at O Algarve Economico (18 Sep 2026), found via the council Algarve 2030 page"
+    "pass 7: Modernizacao e Digitalizacao project read at O Algarve Economico (18 Sep 2026), found via the council Algarve 2030 page",
+    "pass 8: council PRR sheets read (Robotics4Farmers: Alcoutim beneficiary, intervention in Alcoutim, 1 May 2022 to 30 Sep 2025; REAVER: forest and desertification, 124,800 EU euros); weeding article corrected and re-signed"
   ],
   "next": [
     "GEO.ANACOM mobile coverage",
-    "what the council does in Robotics4Farmers and where trials run",
-    "REAVER project sheet: what it is",
+    "what the council did in Robotics4Farmers and whether the robot is still in use",
+    "Agrosocial Plus lab location",
     "MEO protocol dated source",
-    "debrief refresh before 07:00; no more articles tonight (limit of two reached)"
+    "no more articles (limit reached)"
   ],
   "asks": [
     "Dinis: Postal do Algarve, Sul Informacao and Portugal Resident block automated reading (bot check, 403); if Dinis can allow a reader or give captured text, three Alcoutim AI-path items unlock",
