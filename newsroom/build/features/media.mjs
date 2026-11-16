@@ -21,8 +21,9 @@ export function mediaBlock(ctx, p, rel, chain) {
     const { own, wider } = localMedia(ctx, p, chain), c = C(ctx)
     if (!own.length && !wider.length) return ''
     const li = o => `- ${mdLink(ctx, o.name, ctx.link(rel, `media/${o.id}/index.html`))} · ${ctx.md.cell(o.outlet_kind.replace(/-/g, ' '))}${o.website ? ` · ${mdLink(ctx, 'site', o.website)}` : ''}`
-    return `{.mini-h}\n${c.block_h}\n\n${c.block_intro}\n\n{.bp-media}\n${own.map(li).join('\n')}\n\n` +
-        (wider.length ? `{.bp-media}\n${wider.map(li).join('\n')}\n\n` : '')
+    // dev@ (review, 16 Nov): no empty list when the place has only wider-area outlets; the wider ones under their own label
+    return `{.mini-h}\n${c.block_h}\n\n${c.block_intro}\n\n` + (own.length ? `{.bp-media}\n${own.map(li).join('\n')}\n\n` : '') +
+        (wider.length ? `${c.block_wider}:\n\n{.bp-media}\n${wider.map(li).join('\n')}\n\n` : '')
 }
 
 function outletPage(ctx, o) {
