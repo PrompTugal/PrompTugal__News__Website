@@ -4,8 +4,8 @@
   "name": "The Algarve",
   "kind": "region",
   "parent": "portugal",
-  "status": "researching",
-  "updated": "2026-11-15",
+  "status": "live",
+  "updated": "2026-11-16",
   "by": "place.algarve@PrompTugal.dinis",
   "mandate": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -287,6 +287,24 @@
       "url": "https://algarvestp.pt/en/category/noticias/",
       "kind": "business",
       "feed": null
+    },
+    {
+      "name": "Algarve Primeiro",
+      "url": "https://www.algarveprimeiro.com",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Algarve Daily News (English)",
+      "url": "https://algarvedailynews.com",
+      "kind": "press",
+      "feed": "https://algarvedailynews.com/?format=feed&type=rss"
+    },
+    {
+      "name": "Startup Portugal",
+      "url": "https://www.startupportugal.com/",
+      "kind": "other",
+      "feed": null
     }
   ],
   "events": [
@@ -324,6 +342,13 @@
       "url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
       "read_on": "2026-11-15",
       "ai_path": "AI agents and applications conference, 0 steps"
+    },
+    {
+      "title": "CIMAR-LA crash course: Introduction to DeepLabCut (CCMAR, Gambelas campus, Faro)",
+      "date": "2026-12-02 and 2026-12-03",
+      "url": "https://ccmar.ualg.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "DeepLabCut is a deep-learning tool for tracking movement in video: the listing names the tool but does not describe the course, 1 step"
     }
   ],
   "ai_map": [
@@ -331,7 +356,7 @@
       "name": "Algarve Evolution",
       "type": "organisation",
       "url": "https://www.algarveevolution.pt",
-      "what": "Faro-based association of entrepreneurs, talent, startups, SMEs and partners that runs the Algarve Innovation Hub and incubator. It runs the regional AI adoption survey and the AI and robotics tourism programme, and co-organised the Vibathon with Lovable.",
+      "what": "Faro-based association of entrepreneurs, talent, startups, SMEs and partners that runs the Algarve Innovation Hub and incubator. It runs the regional AI adoption survey and the AI and robotics tourism programme, co-organised the Vibathon with Lovable, and its incubator takes technical founders building AI and software products.",
       "source_url": "https://www.algarveevolution.pt/blog/news-2/survey-ai-adoption-in-the-algarve-28",
       "read_on": "2026-11-15",
       "ai_path": "It surveys AI adoption and runs AI and robotics programmes for regional firms.",
@@ -628,6 +653,18 @@
       "value": "ALGARVE 2030 is the regional programme that funds most of the support above. Its site lists information sessions for calls named MPr-2026-6 and Parcerias para a Inovação, with no company, digital or startup call open on the page when read.",
       "source_url": "https://algarve.portugal2030.pt/",
       "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: the Algarve Evolution incubator",
+      "value": "Its Founder2Founder growth programme is a six-month mentor-led track for 8 companies that already have customers and revenue. An early-stage incubation programme for teams validating ideas, including technical founders building digital, AI or software products, is announced for 2027. The incubator page says Founder2Founder applications close on 30 September while the association's home page says they are closed: we have not resolved which is current.",
+      "source_url": "https://www.algarveevolution.pt/incubator",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: the national start-up body",
+      "value": "Startup Portugal lists a national one-stop shop for founders, the RNi incubator network and the Tech Foundry Portugal deep-tech acceleration track. Its page lists no Algarve or AI programme.",
+      "source_url": "https://www.startupportugal.com/",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -639,16 +676,17 @@
     "Hint for the Portimão agent: the council's AI document check for building permits (3 July 2026), the Portimão hotel and tourism school (17 April AI bootcamp) and the StartUp Portimão incubator.",
     "Hint for the Loulé agent: the Vale do Lobo AI concierge Oliver (16 April 2026), NERA's base, and Colégio Internacional de Vilamoura's AI summit (Vilamoura is in Loulé).",
     "Hint for the Faro agent: UAlg Penha campus, UAlgTec Heritage, CRIA, DevFest Faro, Algarve Evolution and the ULS Algarve webinar all sit in Faro.",
-    "Algarve AI Agents and Artificial Intelligence Algarve appear in the BEALG directory with no public website (the second is LinkedIn only, which we do not read): we should find a public page, or ask Algarve Evolution.",
-    "UAlg centres: CINTAL's page mentions no AI, and CCMAR, CIMA and the Gambelas and Portimão campuses are not yet read for AI work. The EPIA 2025 programme and the SEA-EU AI charter are also unread.",
     "Dengun (a startup studio in the BEALG directory) returned 403, and Witflow (selected for Unicorn Factory Lisboa) is known only from a search result: both still need a source we can open before they go on the map.",
     "The BEALG directory lists about 40 incubators and communities (ANJE Faro, QRIAR, GrowIN Portugal, Impact Hackers, Geek Sessions Faro and others) with no AI tag: each needs a look for an AI path before it is mapped.",
     "Town files name the Algarve 6.0 Smart Territorial Hub in three different ways, so the region map shows it more than once: dev.places@ or the town agents could align the name.",
     "Sul Informação and Jornal do Algarve serve their feeds but return 403 on article pages, and Postal and AlgarveSTP serve a bot challenge: we read only their feed headlines, so their AI stories are not in the news list. Headlines to open at source if a route is allowed: Algarve as the first Portuguese tourism destination to advertise on ChatGPT (Sul Informação, November 2026), the INTREPIDA AI Lab, an AI and tourism piece (September 2026), the Algarve Autodrome's AI-in-HR paper at the TMCT'26 conference in Portimão, and Jornal do Algarve's pieces on AI health diagnostics at home and on AI used for urban planning in Castro Marim.",
     "Feeds read and working: Barlavento's AI tag, Sul Informação, Jornal do Algarve and Postal. None of the Algarve universities' or the CCDR's news pages gave a feed.",
-    "Starting a company here: every programme found so far has closed its call, and the official Portuguese government entrepreneurship page we tried returned 404. We should read IAPMEI, Startup Portugal and the Algarve Evolution incubator for what is open now.",
-    "Investment map: a search for AI startups founded in the Algarve that raised money in 2026 found none, only Lisbon and Porto companies. Algarve investors, business angels and the funds behind the incubators are not yet mapped.",
-    "Barlavento's two AI items without a clear Algarve company (a national poll on AI instead of seeing a doctor, and a book on AI that includes an Olhão author) were left out as national or personal."
+    "Barlavento's two AI items without a clear Algarve company (a national poll on AI instead of seeing a doctor, and a book on AI that includes an Olhão author) were left out as national or personal.",
+    "Algarve AI Agents and Artificial Intelligence Algarve appear in the BEALG directory with no public website (the second is LinkedIn only, which we do not read): we should find a public page, or ask Algarve Evolution.",
+    "UAlg centres: CCMAR's home page describes no AI work beyond a DeepLabCut crash course in December, CINTAL's page mentions no AI, and CIMA has not been read. The EPIA 2025 programme and the SEA-EU AI charter are also unread.",
+    "Investment map: we found no 2026 funding round for an Algarve-founded AI startup. Leads that a search surfaced but whose articles we could not open: COREangels Algarve (an angel group), Sotavento Invest, the Dengun Founders Program (which lists about 20 investor groups as partners) and the national fund INDICO Capital Partners. Each needs a source we can read before it is mapped.",
+    "Starting a company here: the calls found so far have closed, the gov.pt entrepreneurship page we tried returned 404, and Startup Portugal lists no regional programme. IAPMEI's own pages are still unread.",
+    "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel when read. Radio and TV stations, local blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",

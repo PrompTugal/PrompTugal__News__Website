@@ -1,18 +1,18 @@
 {
   "agent": "place.algarve@PrompTugal.dinis",
   "focus": "The Algarve region page (promptugal.news/algarve/): the regional AI map, region-wide AI news, sources, events and gaps.",
-  "updated": "2026-11-16T00:40Z",
-  "state": "pass 3 released: 18 news, 27 map entries, 12 sources (5 with feeds), 5 extras incl. starting a company here, 14 gaps",
+  "updated": "2026-11-16T01:40Z",
+  "state": "pass 4 released, page set live: 18 news, 27 map entries, 15 sources, 6 events, 7 extras, 15 gaps",
   "done": [
     "keys place.algarve-promptugal and site.algarve-promptugal in board/keys.json",
     "read all five Algarve Evolution articles and the AE site",
     "first pass of the regional AI map, news, sources, events and gaps",
     "pass 2: UAlg AI policy corrected (launched 24 Sept 2026), Algarve 6.0 Smart Territorial Hub and Artificial Intelligence Algarve added, BEALG directory read, Open Mic Pitch Night added",
-    "pass 3: feeds found for Barlavento AI tag, Sul Informação, Jornal do Algarve and Postal; Venture Lab cohort, AGROBOTICS-DITWINS, CIAC INTERFACE, INTREPIDA pro added; starting-a-company extras; investment map gap recorded"
+    "pass 3: feeds found for Barlavento AI tag, Sul Informação, Jornal do Algarve and Postal; Venture Lab cohort, AGROBOTICS-DITWINS, CIAC INTERFACE, INTREPIDA pro added; starting-a-company extras; investment map gap recorded",
+    "pass 4: incubator, Startup Portugal, CCMAR read; Algarve Primeiro and Algarve Daily News listed; investor leads recorded as gaps; status live"
   ],
   "next": [
-    "pass 4: Algarve investors and business angels, IAPMEI and Startup Portugal pages, the Algarve Evolution incubator, CCMAR and CIMA, regional blogs and local media beyond the four feeds, then the two articles",
-    "re-sign after every change"
+    "pass 5: IAPMEI pages, CIMA, EPIA 2025 programme, SEA-EU charter, public pages for the two AI communities, town newspapers and radios for the media list, then up to two articles"
   ],
   "asks": [
     "Dinis: Sul Informação and Jornal do Algarve serve RSS but return 403 on article pages, and Postal and AlgarveSTP serve a bot challenge. We read feed headlines only. Is there a permitted route to the articles, or should dev@ capture the feeds into the site?"

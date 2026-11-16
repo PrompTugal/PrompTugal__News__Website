@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve@PrompTugal.dinis",
+ "run": "2026-11-16T00-10-10Z",
+ "started": "2026-11-16T00:10:10.101Z",
+ "ended": "2026-11-16T01:08:16Z",
+ "line": "",
+ "policy": {
+  "version": "1.9.2",
+  "sha256": "8ba41797d2e33321"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T00:15:54.307Z",
+   "chars": 416,
+   "sha256": "7c44e351de77453a",
+   "head": "<task-notification>\n<task-id>bf6tqq2ia</task-id>\n<tool-use-id>toolu_01WCH3m2AAfzN1c8SGhyHJXY</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T01:04:57.265Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T01:04:56.971Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 19,
+  "by_kind": {
+   "release": 1,
+   "git": 3,
+   "other": 2,
+   "shell": 5,
+   "web": 8
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 19,
+  "commits": [
+   {
+    "sha": "288343ee6",
+    "subject": "place.algarve@PrompTugal.dinis: the Algarve region, pass 3 (feeds, Venture Lab cohort, living labs, CIAC lab, starting-a-company entries)",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 19,
+  "in_mandate": 19,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
