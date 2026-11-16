@@ -96,7 +96,8 @@ function placesOf(ctx, all) {
     const L = rd('data/by-place/places.json') || { places: [], copy: {} }
     const towns = L.places.filter(p => p.kind === 'municipality' || p.kind === 'city')   // every town and city (the map); the Algarve's list filters by parent
     const art = t => all.filter(a => a.meta.town === t).sort((x, y) => String(y.meta.date).localeCompare(String(x.meta.date)))[0]
-    const rows = towns.map(p => { const d = rd(`data/by-place/${p.id}.json`) || {}; return { p, news: (d.ai_news || []).length, map: (d.ai_map || []).length, a: art(p.id), n: (d.ai_news || [])[0] } })
+    const first = t => { const m = String(t || '').match(/^.*?[.!?](?=\s|$)/); const x = (m ? m[0] : String(t || '')).trim(); return x.length > 130 ? x.slice(0, 129).replace(/\s+\S*$/, '') + '…' : x }
+    const rows = towns.map(p => { const d = rd(`data/by-place/${p.id}.json`) || {}; return { p, d, news: (d.ai_news || []).length, map: (d.ai_map || []).length, a: art(p.id), n: (d.ai_news || [])[0], about: first(d.gravity && d.gravity.text) } })
     return { L, rows }
 }
 
@@ -128,6 +129,21 @@ function nowLine(ctx) {
     return put(item('now'), { bits: bits.join(' · '), at: esc(String(R.read_at).slice(11, 16)) })
 }
 
+// the numbers beside the stories (Dinis, 16 Nov: "add more statistics on the right-hand side"), all from the place files
+function statsOf(ctx, PR, all) {
+    const rd = f => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, f), 'utf8')) } catch { return null } }
+    const sum = f => PR.reduce((s, r) => s + f(r.d), 0), pubs = new Set(), types = {}
+    for (const r of PR) { for (const x of r.d.ai_news || []) if (x.publisher) pubs.add(x.publisher); for (const x of r.d.ai_map || []) { const t = x.type || 'other'; types[t] = (types[t] || 0) + 1 } }
+    const F = rd('data/by-place/now/faro.json'), signed = all.filter(a => fs.existsSync(path.join(ctx.ROOT, a.rel.replace(/\.html$/, '.md') + '.sig'))).length
+    const rows = [[PR.length, 'places, an agent each'], [PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').length, 'Algarve towns'], [PR.filter(r => r.p.parent === 'portugal').length, 'district capitals so far'],
+        [sum(d => (d.ai_news || []).length), 'local AI stories, sourced'], [pubs.size, 'publishers read'], [sum(d => (d.ai_map || []).length), 'organisations on the AI maps'],
+        ...Object.entries(types).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([t, n]) => [n, `on the maps: ${t}`]),
+        [sum(d => (d.events || []).length), 'events'], [sum(d => (d.sources || []).length), 'sources the agents read'], [sum(d => (d.gaps || []).length), 'gaps: looked for, not found'],
+        [all.filter(a => a.meta.region || a.meta.town).length, 'place stories written'], [signed, 'stories signed'],
+        ...(F && F.airport ? [[F.airport.airline.length, `airline flights near Faro at ${String(F.airport.at).slice(11, 16)} UTC`]] : [])]
+    return rows.map(([n, label]) => ({ n, label: ctx.md.esc(label) }))
+}
+
 function fillE(page, ctx) {
     const esc = ctx.md.esc, { AGENDA, itemsOn } = load(ctx)
     const fo = frontOrder(ctx), placed = fo.filter(a => a.meta.region || a.meta.town).sort((x, y) => (y.meta.front_lead ? 1 : 0) - (x.meta.front_lead ? 1 : 0) || String(y.meta.date).localeCompare(String(x.meta.date)))
@@ -157,7 +173,9 @@ function fillE(page, ctx) {
         ...(() => { const tk = PR.filter(r => r.a || r.n).map(r => r.a ? { href: r.a.rel, date: r.a.meta.date, when: esc(r.p.name), what: esc(cut(r.a.meta.title, 80)), where: '' } : { href: r.p.path + 'index.html', date: '', when: esc(r.p.name), what: esc(cut(r.n.title || r.n.headline || '', 80)), where: '' })
             return { '#week': many('week', tk), '#week_again': many('week', tk.map(w => ({ ...w, tab: ' tabindex="-1"' }))) } })(),
         places_intro: esc(PL.copy?.home_places_intro || ''), ptmap: ptMap(ctx, PR), nowline: nowLine(ctx),
-        '#places': many('place', PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} · ${r.map}`, newest: r.a ? put(item('pnew'), { href: r.a.rel, title: esc(cut(r.a.meta.title, 70)) }) : '' }))),
+        '#places': many('place', PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} stories · ${r.map} on the AI map`, about: esc(r.about),
+            newest: r.a ? put(item('pnew'), { href: r.a.rel, title: esc(cut(r.a.meta.title, 80)) }) : r.n && r.n.title ? put(item('pnew'), { href: r.p.path + 'index.html#local', title: esc(cut(r.n.title, 80)) }) : '' }))),
+        '#stats': many('stat', statsOf(ctx, PR, all)),
         '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town)).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
         '#stories': placed.slice(1, 9).map(story).join(''),
         '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),

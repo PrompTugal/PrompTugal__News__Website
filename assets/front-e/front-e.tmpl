@@ -12,11 +12,10 @@
 <div class="fe-w">{{nowline}}</div>
 <section class="fe-w fe-ptb" aria-label="Portugal, town by town"><div class="fe-ptb-map"><h2 class="fe-h">Portugal, town by town</h2>{{ptmap}}<p class="fe-ptk"><span class="on"></span> a place we cover <span class="next"></span> a district capital, coming next</p></div><div class="fe-pl"><h2 class="fe-h">The Algarve</h2><p class="fe-pli">{{places_intro}}</p><ul>{{#places}}</ul><p class="fe-more"><a href="algarve/index.html">The Algarve</a> · <a href="portugal/index.html">Portugal</a> · <a href="api/swagger/index.html">The API</a></p></div></section>
 <div class="fe-w"><div class="fe-cols">
-<section class="fe-brf"><h2 class="fe-h">National and international</h2><ol>{{#briefing}}</ol><p class="fe-more">From the summit: <a href="interviews/buzz-messaging-ai/guy-ben-zvi/index.html">Guy Ben Zvi, Buzz Messaging AI</a> · <a href="interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html">Student Property Network</a> · <a href="summit/index.html">the archive</a></p></section>
+<section class="fe-brf"><h2 class="fe-h">National and international</h2><ol>{{#briefing}}</ol><p class="fe-more">From the summit: <a href="interviews/buzz-messaging-ai/guy-ben-zvi/index.html">Guy Ben Zvi, Buzz Messaging AI</a> · <a href="interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html">Student Property Network</a> · <a href="summit/index.html">the archive</a> · <a href="agentic/index.html">the GAMMA-Ray spectrum</a></p></section>
 <section class="fe-stories"><h2 class="fe-h">From the Algarve</h2>{{#stories}}</section>
-<section class="fe-nx"><div class="fe-radar"><p class="fe-rh"><b>The companies we follow</b><span>by field</span></p>{{#radar}}<p class="fe-more"><a href="companies/index.html">All companies, by field</a> · <a href="summit/index.html">Web Summit 2026, the archive</a></p></div></section>
+<section class="fe-nx"><div class="fe-stats"><p class="fe-rh"><b>By the numbers</b><span>from the place files</span></p><ul>{{#stats}}</ul></div><div class="fe-radar"><p class="fe-rh"><b>The companies we follow</b><span>by field</span></p>{{#radar}}<p class="fe-more"><a href="companies/index.html">All companies, by field</a> · <a href="summit/index.html">Web Summit 2026, the archive</a></p></div></section>
 </div></div>
-{{spectrum}}
 <section class="fe-nums" aria-label="In numbers"><div class="fe-w">{{#nums}}</div></section>
 <div class="fe-w fe-ask"><form class="fe-pb" role="search" action="search/index.html" method="get"><span class="fe-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form><p class="fe-pcs">{{#asks}}</p></div>
 </div>
@@ -49,7 +48,8 @@
 <!-- item:mnext --><g class="next"><title>{{title}}: coming next</title><circle cx="{{x}}" cy="{{y}}" r="3.2"/><text x="{{lx}}" y="{{ly}}">{{title}}</text></g>
 <!-- item:now --><p class="fe-now"><b>Now in the Algarve</b> {{bits}} <small>read {{at}} UTC · <a href="algarve/index.html">by town</a></small></p>
 <!-- item:nowlink --><a href="{{href}}" target="_blank" rel="noopener">{{text}}</a>
-<!-- item:place --><li><a href="{{href}}"><b>{{name}}</b></a><small>{{counts}}</small>{{newest}}</li>
+<!-- item:place --><li><a href="{{href}}"><b>{{name}}</b></a><small>{{counts}}</small><span class="fe-pa">{{about}}</span>{{newest}}</li>
+<!-- item:stat --><li><b>{{n}}</b><span>{{label}}</span></li>
 <!-- item:pnew --><a class="fe-pn" href="{{href}}">{{title}}</a>
 <!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a><small>{{where}}</small></li>
 <!-- item:radar --><a class="fe-rr" href="{{href}}"><span>{{name}}</span><i><u style="width:{{pct}}%"></u></i><code>{{n}}</code></a>

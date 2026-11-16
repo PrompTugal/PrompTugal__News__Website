@@ -203,3 +203,7 @@
 .fe-ptk { font: 500 12px var(--sans); } .fe-ptk span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: middle; margin: 0 4px 0 10px; }
 .fe-ptk .on { background: var(--brand-green, #0b6b2e); } .fe-ptk .next { border: 1.5px solid var(--brand-red, #c8102e); }
 .fe-now { font: 500 13px var(--sans); margin: 14px 0 0; } .fe-now b { color: var(--brand-red, #c8102e); text-transform: uppercase; letter-spacing: .08em; font-size: 12px; margin-right: 8px; } .fe-now small { opacity: .7; margin-left: 6px; }
+.fe-pa { font: 400 13px/1.35 var(--serif, serif); opacity: .8; margin: 2px 0; }
+.fe-stats { border: 1px solid var(--rule, #ddd); border-radius: 10px; padding: 14px 16px; margin-bottom: 18px; background: var(--paper, #fbf9f4); }
+.fe-stats ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; }
+.fe-stats li { display: flex; flex-direction: column; } .fe-stats li b { font: 700 24px/1 var(--serif, serif); color: var(--brand-green, #0b6b2e); } .fe-stats li span { font: 500 11.5px/1.3 var(--sans); opacity: .8; margin-top: 2px; }
