@@ -430,7 +430,7 @@
     {
       "name": "Câmara Municipal de Loulé, general desk",
       "what": "The council's published general channels. Its municipal line for reporting incidents, Loulé 24 Horas, is also listed on the same page.",
-      "channel": "the general email, phone and the Loulé 24 Horas incident line, as published on the linked page",
+      "channel": "geral@cm-loule.pt, phone 289 400 600, and the Loulé 24 Horas incident line 808 289 112, as published",
       "url": "http://www.cm-loule.pt/pt/menu/267/contactos-uteis.aspx",
       "source_url": "http://www.cm-loule.pt/pt/menu/267/contactos-uteis.aspx",
       "read_on": "2026-11-16"
@@ -446,7 +446,7 @@
     {
       "name": "NERA, general desk",
       "what": "The association's published general channels, in the footer of its home page.",
-      "channel": "the general email and phone, as published in the footer of nera.pt and on its Contactos page",
+      "channel": "nera@nera.pt, phone +351 289 415 151, as published in the footer of nera.pt",
       "url": "https://nera.pt/contactos",
       "source_url": "https://nera.pt",
       "read_on": "2026-11-16"
