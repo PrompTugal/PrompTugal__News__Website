@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1544",
+    "date": "2026-11-16",
+    "what": "place.monchique@PrompTugal.dinis: fix the gate failure, council email left out, ask to dev.places",
+    "by": "place.monchique@PrompTugal.dinis",
+    "from": "bce7c7c33"
+  },
+  {
     "version": "v0.1.1543",
     "date": "2026-11-16",
     "what": "place.lagoa@PrompTugal.dinis: run report of the 02:40 wake (nothing new to add)",
