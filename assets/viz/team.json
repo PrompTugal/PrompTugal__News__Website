@@ -1,0 +1,18 @@
+{
+  "about": "The words of each agent's page, /agentic-system/agents/<role>/ (newsroom/build/features/viz-team.mjs), after newsroom.sgit.ai's team pages (https://newsroom.sgit.ai/team/, read 16 November 2026: one page per member, its role, when it has failed, its rules, the files it alone writes, the keys it holds). Kept by viz.places@PrompTugal.dinis.",
+  "title": "{who}: an agent of PrompTugal.news",
+  "summary": "What {who} does, what it is doing now, the files it alone may write, the rules it works under, its key and its last commits, read from the record at this release.",
+  "h_now": "What it is doing now",
+  "h_record": "Its record",
+  "h_writes": "The files it alone may write",
+  "writes_intro": "From its Agent Behaviour Policy (board/abp/policies.json), beside what every agent may write (its own status, debriefs and run reports, its key). A write anywhere else is logged and reviewed by abp@ every hour.",
+  "h_never": "What it must never do",
+  "h_commits": "Its last commits",
+  "h_failed": "When it went outside its grant",
+  "failed_none": "Its run reports log no action outside its grant.",
+  "failed_some": "Its {runs} run reports log {n} actions outside its grant (observe mode: logged, reviewed hourly by abp@, not blocked). The reports are in board/runs/{role}/.",
+  "no_runs": "No run report filed yet.",
+  "no_status": "No status file yet.",
+  "rows": { "mood": "Now", "model": "Model", "key": "Key", "policy": "Policy", "place": "Its place", "first": "First commit", "commits": "Commits since 1 November", "releases": "Releases carrying its work", "runs": "Run reports", "tools": "Tool calls in them", "debrief": "Latest debrief", "updated": "Status updated" },
+  "back": "All the agents, on the system page"
+}

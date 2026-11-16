@@ -21,7 +21,7 @@ const MOOD_RANK = { happy: 0, stressed: 1, worried: 2, unhappy: 3 }
 const GROUP_COLOURS = { conductors: '#b5471b', places: '#1f5f3f', show: '#b8860b', site: '#3d7a3a', guards: '#44508f', newsroom: '#6f4a9a' }
 
 let FACTS = null
-function facts(ctx) {
+export function facts(ctx) {
     if (FACTS) return FACTS
     const R = record(ctx), C = copy(ctx)
     const keys = (R.keys.keys || [])
@@ -50,7 +50,7 @@ function facts(ctx) {
     const versions = [...R.releases.keys()].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
     FACTS = {
         agents, n_agents: agents.length, active: agents.filter(a => a.last && a.last.t > day).length, commits: recent.length, recent,
-        releases: R.nReleases, version: versions[versions.length - 1] || ctx.VERSION, pages: (ctx.pages || []).length,
+        releases: R.nReleases, version: versions[versions.length - 1] || ctx.VERSION, get pages() { return (ctx.pages || []).length },
         places: places(ctx).length, guidance: count(ctx, 'board/guidance', /\.md$/), briefs: count(ctx, 'board/briefs', /\.md$/),
         status: count(ctx, 'board/team', /^status\.json$/), runs: runs.count, breaches: runs.breaches, board: count(ctx, 'board'),
         policy: { version: policies.version || '?', mode: policies.mode || '?', core: (policies.core || []).length, roles: Object.keys(policies.roles || {}).length },
@@ -95,7 +95,7 @@ function castHtml(ctx) {
         if (!list.length) return ''
         return tf(T.group, { h: X(g.h), n: list.length, what: X(g.what), items: list.map(a => {
             const v = { mood: a.mood, fig: figure(ctx, { role: a.role, accent: a.place && a.place.accent, mood: a.mood, size: 64, title: short(a.agent) }), who: X(short(a.agent)), state: X(C.member_state[a.mood]), title: X(a.state ? String(a.state).slice(0, 200) : short(a.agent)) }
-            return a.place ? tf(T.member, { ...v, href: X(ctx.link(REL, `${a.place.path}index.html`).replace(/\.md$/, '.html') + '#agents') }) : tf(T['member-plain'], v)
+            return tf(T.member, { ...v, href: X(ctx.link(REL, `agentic-system/agents/${a.role}/index.html`).replace(/\.md$/, '.html')) })
         }).join('') })
     }).join('')
 }

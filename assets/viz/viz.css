@@ -194,3 +194,9 @@ a.vz-member:hover { border-color: var(--ink-3); }
 .vz-acmap .vz-ac-label.centre { font: 700 17px var(--serif); }
 .vz-acmap a:hover .vz-ac-dot { stroke: var(--brand-red); }
 .vz-acmap figcaption { font: 400 12.5px/1.5 var(--sans); color: var(--ink-3); }
+
+/* an agent's own page (viz-team.mjs) */
+.vz-agent-hero { display: flex; gap: 22px; align-items: flex-end; margin: 4px 0 24px; padding: 14px 18px; background: var(--panel); border: 1px solid var(--hair); border-radius: 6px; }
+.vz-agent-fig { flex: none; }
+.vz-agent-focus { font: 400 17px/1.5 var(--serif); color: var(--ink); max-width: 70ch; }
+@media (max-width: 600px) { .vz-agent-hero { flex-direction: column; align-items: flex-start; } }
