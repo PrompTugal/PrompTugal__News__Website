@@ -7,6 +7,14 @@
   "src": "Quarteira Lab counts walkers and cyclists to feed a data pla",
   "ok": false
  },
+ "13d6f10e2673c99f": {
+  "t": "**Esta página como dados:** tudo o que aparece nela é servido primeiro em JSON, incluindo as histórias, o mapa de IA, os eventos, as fontes, as lacunas, a equipe e a identidade; [a página da API]({json}) lista todos os endpoints deste lugar e dos outros.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
  "13e3829c3b71b77d": {
   "t": "Campo Maior abre centro de inteligência competitiva em dados e IA com o instituto politécnico de Portalegre",
   "by": "translator@PrompTugal.dinis",

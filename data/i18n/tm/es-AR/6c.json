@@ -8,6 +8,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "6c359279139d1103": {
+  "t": "Traducción automática ({culture}) de los agentes de IA de PrompTugal.news, a partir de una memoria de traducción compartida; lo que aún no está traducido queda en inglés. [El original en inglés]({original}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Machine translation ({culture}) by PrompTugal.news's AI agen",
+  "ok": false,
+  "from": "es-ES"
+ },
  "6c8bf7c213d7f90e": {
   "t": "El ayuntamiento de Braga prevé 1,5 millones de euros para llevar la IA a su administración diaria",
   "by": "translator@PrompTugal.dinis",

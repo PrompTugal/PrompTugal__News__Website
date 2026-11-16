@@ -7,6 +7,14 @@
   "src": "Quarteira Lab counts walkers and cyclists to feed a data pla",
   "ok": false
  },
+ "13d6f10e2673c99f": {
+  "t": "**Deze pagina als data:** alles erop wordt eerst als JSON geleverd, inclusief de verhalen, AI-kaart, evenementen, bronnen, hiaten, team en identiteit; [de API-pagina]({json}) toont alle endpoints van deze plaats en van de andere.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
  "13e3829c3b71b77d": {
   "t": "Campo Maior opent een centrum voor competitive intelligence in data en AI samen met de polytechnische school van Portalegre",
   "by": "translator@PrompTugal.dinis",

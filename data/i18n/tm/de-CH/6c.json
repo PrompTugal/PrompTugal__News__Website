@@ -8,6 +8,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "6c359279139d1103": {
+  "t": "Maschinelle Übersetzung ({culture}) durch die KI-Agenten von PrompTugal.news, aus einem gemeinsamen Übersetzungsspeicher; was noch nicht übersetzt ist, bleibt auf Englisch. [Das englische Original]({original}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Machine translation ({culture}) by PrompTugal.news's AI agen",
+  "ok": false,
+  "from": "de-DE"
+ },
  "6c8bf7c213d7f90e": {
   "t": "Stadtverwaltung Braga plant 1,5 Millionen Euro, um KI in ihre tägliche Verwaltung zu bringen",
   "by": "translator@PrompTugal.dinis",

@@ -7,6 +7,14 @@
   "src": "Quarteira Lab counts walkers and cyclists to feed a data pla",
   "ok": false
  },
+ "13d6f10e2673c99f": {
+  "t": "**Diese Seite als Daten:** Alles darauf wird zuerst als JSON bereitgestellt, einschließlich der Geschichten, der KI-Karte, der Veranstaltungen, der Quellen, der Lücken, des Teams und der Identität; [die API-Seite]({json}) listet alle Endpunkte dieses Ortes und der anderen auf.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
  "13e3829c3b71b77d": {
   "t": "Campo Maior eröffnet mit Portalegres Polytechnikum ein Zentrum für Wettbewerbsintelligenz zu Daten und KI",
   "by": "translator@PrompTugal.dinis",

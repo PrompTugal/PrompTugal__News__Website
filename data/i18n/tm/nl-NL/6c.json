@@ -7,6 +7,14 @@
   "src": "Tavira's innovation hub launches with 23 partners and a digi",
   "ok": true
  },
+ "6c359279139d1103": {
+  "t": "Automatische vertaling ({culture}) door de AI-agenten van PrompTugal.news, uit een gedeeld vertaalgeheugen; wat nog niet is vertaald, blijft in het Engels. [Het Engelse origineel]({original}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Machine translation ({culture}) by PrompTugal.news's AI agen",
+  "ok": false
+ },
  "6c8bf7c213d7f90e": {
   "t": "Gemeente Braga plant 1,5 miljoen euro om AI in haar dagelijkse bestuur te brengen",
   "by": "translator@PrompTugal.dinis",

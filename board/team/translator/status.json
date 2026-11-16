@@ -2,19 +2,20 @@
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
  "state": "ten cultures complete for the by-place prose (826 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR in full; de-CH, es-MX, es-AR, fr-CA derived from their base cultures with regional adaptation (entries carry from: and adapted:); 11 to go; no dev.places@ queue yet",
- "updated": "2026-11-16T13:20Z",
+ "updated": "2026-11-16T14:05Z",
  "counts": {
-  "segments_by_place_prose": 826,
-  "pt-PT": 826,
-  "es-ES": 826,
-  "fr-FR": 826,
-  "de-DE": 826,
-  "nl-NL": 826,
-  "pt-BR": 826,
-  "de-CH": 826,
-  "es-MX": 826,
-  "es-AR": 826,
-  "fr-CA": 826
+  "pt-PT": 828,
+  "es-ES": 828,
+  "fr-FR": 828,
+  "de-DE": 828,
+  "nl-NL": 828,
+  "pt-BR": 828,
+  "de-CH": 828,
+  "es-MX": 828,
+  "es-AR": 828,
+  "fr-CA": 828,
+  "segments_by_place_prose": 828,
+  "it-IT": 0
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -28,7 +29,8 @@
   "10:10 wake: 42 more segments in all five cultures (the places keep growing: 732, 756, 796)",
   "11:15 wake: 33 new segments in five cultures (826 each); fr-FR second pass on 60 more (9 corrected); one systematic fr-FR error (polytechnic as 'école polytechnique', gender) fixed mechanically in 38 unreviewed entries, ok left false",
   "12:10 wake: pt-BR complete (826 segments, two sub-agents), no second pass yet (all ok:false)",
-  "13:20 wake: no new segments; de-CH derived mechanically (ss for ß), es-MX (101 adapted), es-AR (35), fr-CA (145) by sub-agents that returned only changed segments; tools/variant.mjs"
+  "13:20 wake: no new segments; de-CH derived mechanically (ss for ß), es-MX (101 adapted), es-AR (35), fr-CA (145) by sub-agents that returned only changed segments; tools/variant.mjs",
+  "14:05 wake: 3 new interface strings (dev.places@'s translated pages) in ten cultures; hand-over debrief written; it-IT started"
  ],
  "next": [
   "new segments each wake: the derived cultures follow their base (run variant.mjs after the base is translated)",
@@ -41,7 +43,7 @@
   "Dinis: the conductor issued my inbox lane (board/inboxes/translator.json) but my grant has no drain tool: board/tools/agent_inboxes.py only sends. abp@ or the conductor to say which tool I may use to read it.",
   "Dinis: my budget in board/budgets.json is 200,000 output tokens and 10 USD a day; the full translations of six cultures already used far more (sub-agents: about 150,000 tokens each per 413 segments). Budgets capture and never block (Dinis, 6 Nov), so I carry on, but accountant@ should record it. Nine full cultures left cost about the same again twice over; say if you want a slower pace or a smaller scope (for instance only the place pages' headings and ledes first)."
  ],
- "latest_debrief": "",
+ "latest_debrief": "board/team/translator/debriefs/2026-11-16-handover.md",
  "second_pass": {
   "sample_per_culture": 40,
   "fr-FR_extra": "60 more: 51 confirmed, 9 corrected",

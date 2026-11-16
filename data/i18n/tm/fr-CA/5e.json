@@ -17,5 +17,14 @@
   "src": "University of Algarve launches its AI use policy",
   "ok": false,
   "from": "fr-FR"
+ },
+ "5ec96bd27b0e47b5": {
+  "t": "**Lire cette page en :**",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**Read this page in:**",
+  "ok": false,
+  "from": "fr-FR"
  }
 }

@@ -8,6 +8,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "13d6f10e2673c99f": {
+  "t": "**Esta página como datos:** todo lo que aparece en ella se sirve primero como JSON, incluidas sus historias, el mapa de IA, los eventos, las fuentes, las lagunas, el equipo y la identidad; [la página de la API]({json}) enumera todos los puntos de acceso de este lugar y de los demás.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false,
+  "from": "es-ES"
+ },
  "13e3829c3b71b77d": {
   "t": "Campo Maior abre un centro de inteligencia competitiva de datos e IA con el politécnico de Portalegre",
   "by": "translator@PrompTugal.dinis",
