@@ -1,0 +1,144 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve.west@PrompTugal.dinis",
+ "run": "2026-11-16T19-50-02Z",
+ "started": "2026-11-16T19:50:02.777Z",
+ "ended": "2026-11-16T20:23:19Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "78f359747977dee9"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T19:50:02.929Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-16T20:21:04.338Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T20:22:08.373Z",
+   "chars": 4094,
+   "sha256": "7e24d8f1e47a3f1f",
+   "head": "<agent-message from=\"af03aca13e25bd44f\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T20:22:18.978Z",
+   "chars": 4442,
+   "sha256": "5f9af234a655b962",
+   "head": "<agent-message from=\"a1d883cfadf1c4ae2\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T20:22:32.456Z",
+   "chars": 4622,
+   "sha256": "b9e6ddf9c3d843ff",
+   "head": "<agent-message from=\"a5e65e14a37029bc8\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T20:22:44.529Z",
+   "chars": 4251,
+   "sha256": "a4f051740076522f",
+   "head": "<agent-message from=\"a5da55bd76829a51a\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T20:22:53.943Z",
+   "chars": 4649,
+   "sha256": "87b000e67c8da28c",
+   "head": "<agent-message from=\"a6e1db8fab053e064\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T20:23:05.892Z",
+   "chars": 3404,
+   "sha256": "b6575591d6a1b880",
+   "head": "<agent-message from=\"a3db68e7742705d94\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T19:50:02.777Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T20:21:04.151Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 95,
+  "by_kind": {
+   "other": 9,
+   "git": 3,
+   "agent": 13,
+   "web": 62,
+   "git-push": 7,
+   "shell": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 95,
+  "commits": [
+   {
+    "sha": "95dcab990",
+    "subject": "place.algarve.west@PrompTugal.dinis: Lagoa draft, 4 council items",
+    "files": 1
+   },
+   {
+    "sha": "95647b411",
+    "subject": "place.algarve.west@PrompTugal.dinis: Monchique draft, 3 items",
+    "files": 1
+   },
+   {
+    "sha": "19dc2c9c6",
+    "subject": "place.algarve.west@PrompTugal.dinis: Silves draft, 5 items",
+    "files": 1
+   },
+   {
+    "sha": "c9e876408",
+    "subject": "place.algarve.west@PrompTugal.dinis: Lagos draft, 4 council items",
+    "files": 1
+   },
+   {
+    "sha": "1ad83c185",
+    "subject": "place.algarve.west@PrompTugal.dinis: Aljezur draft, 3 council items",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 8,
+  "tool_calls": 95,
+  "in_mandate": 95,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
