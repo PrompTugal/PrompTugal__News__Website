@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.tavira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Tavira: AI and technology in Tavira, a town whose digital footprint today is public-sector data platforms and a small tech community, and what reaches Tavira from the Algarve, Portugal and the world. Independent, and every fact sourced.",
   "gravity": {
@@ -129,7 +129,7 @@
       "name": "Centro de Negócios e Incubadora Level Up",
       "type": "organisation",
       "url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
-      "what": "Business centre and incubator in central Tavira that houses the town's Espaço Empresa service point, as listed on gov.pt.",
+      "what": "Business centre and incubator in central Tavira, run by the municipal company EMPET, housing the town's Espaço Empresa service point (gov.pt) and listed as an accredited incubator on IAPMEI's November 2018 Vale Incubação list.",
       "source_url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
       "read_on": "2026-11-15",
       "ai_path": "An incubator is where a young AI or software startup in Tavira would most likely sit. We found no AI tenant, and the page does not mention AI.",
@@ -148,6 +148,24 @@
       "value": "Our Algarve Evolution page records that the Faro-based association was listed among the organisers, with Tavira Works, of an Algarve Tech Afterwork held in Tavira. We could not open the listing ourselves, so we rely on that page.",
       "source_url": "https://promptugal.news/portugal/algarve-evolution/",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Starting a company in Tavira: where to go",
+      "value": "Start at the Espaço Empresa de Tavira, a public service point inside the Level Up business centre and incubator in the old town. Its official gov.pt page carries the address, opening hours and contact options, so we link it rather than copy them. The national route to register a company is the Empresa na Hora counter, run by the Instituto dos Registos e do Notariado.",
+      "source_url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company: the national counter",
+      "value": "gov.pt describes Criar uma empresa na hora as set up at an Empresa na Hora counter for a private limited company, a single-member company or a public limited company, handled by the Instituto dos Registos e do Notariado. The page mentions no online option.",
+      "source_url": "https://www.gov.pt/servicos/criar-uma-empresa-na-hora",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Incubator accreditation",
+      "value": "IAPMEI's list of accredited incubators for the Vale Incubação instrument, dated 5 November 2018, names EMPET (Parques Empresariais de Tavira) and its Level Up incubator as accredited. We have not checked whether the accreditation is current.",
+      "source_url": "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Incentivos-Financiamento/Documentos-Incentivos/Entidades-Acreditadas_Vale-Incubacao_nov2018.aspx",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -160,8 +178,10 @@
     "Tavira does not appear in the national AI licensing pilot for councils: the RTP report we read names only Coimbra and carries no date.",
     "No dated events: the Tavira Algarve Tech Afterwork listing is on a platform we do not read. Look for events on the council agenda, Tavira Works and Algarve Evolution's own pages.",
     "The council's own news feed (cm-tavira.pt/site/feed/) loads but held no items when read, so it adds nothing yet. Its news page needs a look by hand or another route.",
-    "Level Up's tenants are unknown: its own site was not found, and the press pieces about it (Postal do Algarve, Sul Informação, Barlavento archive) were blocked or down when we tried. Ask the incubator, or EMPET, which startups it hosts and whether any use AI.",
-    "Not yet checked first-hand: hotel and tourism groups, schools, and any Centro Ciência Viva programme on AI (none found, only robotics and programming). No tech event for November 2026 was found in Tavira."
+    "Level Up's tenants and current accreditation are unknown: its own site was not found, and the press pieces about it (Postal do Algarve, Sul Informação, Barlavento archive) were blocked or down when we tried. Ask the incubator, or EMPET, which startups it hosts and whether any use AI.",
+    "Not yet checked first-hand: hotel and tourism groups, schools, and any Centro Ciência Viva programme on AI (none found, only robotics and programming). No tech event for November 2026 was found in Tavira.",
+    "Not yet mapped for Tavira: investors and investments made here, startups founded here, and local talent who have spoken publicly. No public source for any of them turned up in this pass. Dinis's overnight direction asks for all three, so they stay open.",
+    "Starting a company here is covered only at the level of public service points. What the council offers in grants or land for tech companies, and what the regional bodies add, is not yet checked."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",

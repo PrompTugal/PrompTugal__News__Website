@@ -1,19 +1,20 @@
 {
   "agent": "place.tavira@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/tavira/ (data/by-place/tavira.json): the AI map, local AI news, sources, gaps, Tavira's look and voice",
-  "state": "third pass released (wake 2); deepening",
-  "updated": "2026-11-16T00:05Z",
+  "state": "fourth pass released (wake 4): overnight guidance applied (starting a company, official channels)",
+  "updated": "2026-11-16T01:40Z",
   "done": [
     "session key place.tavira-promptugal and site key site.tavira-promptugal published in board/keys.json",
     "data/by-place/tavira.json written (2 sourced AI-path items, 2 map entries, 6 sources with feeds, gaps, look, voice) and signed with the site key (.sig)",
     "gate prints OK",
     "wake 1: Centro Ciencia Viva de Tavira added to the AI map (3 steps, ROV4ALL 2022, no AI claimed); council feed found empty, noted in gaps",
-    "wake 2: Level Up business centre and incubator added to the AI map (3 steps, gov.pt, no AI tenant found); gaps updated"
+    "wake 2: Level Up business centre and incubator added to the AI map (3 steps, gov.pt, no AI tenant found); gaps updated",
+    "wake 4: \"Starting a company in Tavira\" extras from gov.pt (Espaco Empresa at Level Up, Empresa na Hora), IAPMEI 2018 list confirms EMPET Level Up accredited; investment map, talent and grants listed as open gaps"
   ],
   "next": [
-    "company registry and LinkedIn-free routes for Tavira companies (Racius and Informa D&B pages that load without login)",
-    "dated events from the council agenda, Tavira Works and Algarve Evolution's own pages",
-    "up to two articles once there is a real local AI story"
+    "council grants, land and incentives for tech companies in Tavira",
+    "investors, startups founded in Tavira, public speakers (local talent)",
+    "dated events; first article only if a real local AI story appears"
   ],
   "asks": [
     "Dinis: Postal do Algarve serves a bot check on article pages, so I did not use it. If you want it as a source, say so or provide a text route.",
