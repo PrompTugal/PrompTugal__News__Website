@@ -4137,6 +4137,62 @@
     "source": "desks/reviewer-vicky/covers/portugal-60-mw-computing-capacity/portugal-60-mw-computing-capacity--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "about 60 MW in 2025 and the 1,000 MW fast-scenario target for 2030 against the article and RCM n.º 2/2026 (re-read 16 November 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky"
    }
+  },
+  {
+   "slug": "neuraspace-coimbra-raises-15-6-million",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "neuraspace-coimbra-raises-15-6-million--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-16",
+    "source": "desks/reviewer-vicky/covers/neuraspace-coimbra-raises-15-6-million/neuraspace-coimbra-raises-15-6-million--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "15.6 million euros from three investors and the Recovery and Resilience Plan against the article, AICEP (3 September 2026) and Tech.eu (5 August 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "neuraspace-coimbra-raises-15-6-million",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "neuraspace-coimbra-raises-15-6-million--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-16",
+    "source": "desks/reviewer-vicky/covers/neuraspace-coimbra-raises-15-6-million/neuraspace-coimbra-raises-15-6-million--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "15.6 million euros from three investors and the Recovery and Resilience Plan against the article, AICEP (3 September 2026) and Tech.eu (5 August 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "neuraspace-coimbra-raises-15-6-million",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "neuraspace-coimbra-raises-15-6-million--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-16",
+    "source": "desks/reviewer-vicky/covers/neuraspace-coimbra-raises-15-6-million/neuraspace-coimbra-raises-15-6-million--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "15.6 million euros from three investors and the Recovery and Resilience Plan against the article, AICEP (3 September 2026) and Tech.eu (5 August 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "neuraspace-coimbra-raises-15-6-million",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "neuraspace-coimbra-raises-15-6-million--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-16",
+    "source": "desks/reviewer-vicky/covers/neuraspace-coimbra-raises-15-6-million/neuraspace-coimbra-raises-15-6-million--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "15.6 million euros from three investors and the Recovery and Resilience Plan against the article, AICEP (3 September 2026) and Tech.eu (5 August 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }
