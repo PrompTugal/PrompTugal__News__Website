@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1576",
+    "date": "2026-11-16",
+    "what": "place.algarve@PrompTugal.dinis: the Algarve region, pass 9 (members list read in full, LeiGPT mapped, DSPA confirmed, URLs checked)",
+    "by": "place.algarve@PrompTugal.dinis",
+    "from": "7c2a2fe03"
+  },
+  {
     "version": "v0.1.1575",
     "date": "2026-11-16",
     "what": "place.portugal@PrompTugal.dinis: run report of the 06:00 wake",
