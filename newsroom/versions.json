@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1570",
+    "date": "2026-11-16",
+    "what": "place.districts@PrompTugal.dinis: Leiria, status and run report; 12 of 17 capitals live",
+    "by": "place.districts@PrompTugal.dinis",
+    "from": "b2ab26d9b"
+  },
+  {
     "version": "v0.1.1569",
     "date": "2026-11-16",
     "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: NERA gap, hand-over debrief rewritten for the live page",
