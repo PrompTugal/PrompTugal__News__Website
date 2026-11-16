@@ -332,6 +332,13 @@
    "SGit-AI__Website__Web-Summit": "854439ff",
    "PrompTugal__News__Website": "ac5f2a6d",
    "note": "31 places (12 district capitals in), 205 stories; home page on the places live; first Faro flight in now data; pushes by hand after the gate."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-16T06:37Z",
+   "SGit-AI__Website__Web-Summit": "23503a48",
+   "PrompTugal__News__Website": "4678852f",
+   "note": "translator@ unblocked (data/i18n schemas); 36 places; now data refreshed."
   }
  ]
 }

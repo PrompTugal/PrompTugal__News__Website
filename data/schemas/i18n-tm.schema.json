@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/i18n-tm.schema.json",
+  "title": "A shard of the translation memory (data/i18n/tm/<culture>/<2 hex>.json)",
+  "description": "board/spec-translations.md (Dinis, 16 November 2026: never translate the same text twice): entries keyed by the first 16 hex of sha256 of the normalised English segment, each with its translation, who made it, when, and the start of the English. Kept by translator@PrompTugal.dinis. Deliberately permissive while the format settles.",
+  "type": "object"
+}

@@ -1,6 +1,6 @@
 {
  "place": "algarve",
- "read_at": "2026-11-16T05:52:42Z",
+ "read_at": "2026-11-16T06:40:12Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in the Algarve: IPMA's warnings for the Faro district, Faro airport, and each place's nearest station. Not a warning service.",
  "warnings": {
@@ -21,15 +21,15 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-16T05:52:42Z",
+  "at": "2026-11-16T06:40:12Z",
   "airline": [
    {
-    "callsign": "DTA650",
-    "airline": "DTA",
-    "type": "B77W",
-    "alt_ft": 36000,
+    "callsign": "VLG75NQ",
+    "airline": "VLG",
+    "type": "A320",
+    "alt_ft": 30675,
     "on_ground": false,
-    "ground_speed_kt": 444.6
+    "ground_speed_kt": 452
    }
   ],
   "other_aircraft": 0,
@@ -40,7 +40,7 @@
   {
    "place": "faro",
    "station": "Faro (Aeródromo)",
-   "temp_c": 13.7
+   "temp_c": 13.1
   },
   {
    "place": "loule",
@@ -60,12 +60,12 @@
   {
    "place": "tavira",
    "station": "Tavira",
-   "temp_c": 11.5
+   "temp_c": 11.2
   },
   {
    "place": "vila-real-de-santo-antonio",
    "station": "Vila Real de S. António",
-   "temp_c": 12.4
+   "temp_c": 12.2
   },
   {
    "place": "portimao",
@@ -80,12 +80,12 @@
   {
    "place": "olhao",
    "station": "Olhão, EPPO",
-   "temp_c": 13.7
+   "temp_c": 13.2
   },
   {
    "place": "albufeira",
    "station": "Albufeira",
-   "temp_c": 14.8
+   "temp_c": 14
   },
   {
    "place": "lagoa",
@@ -95,17 +95,17 @@
   {
    "place": "monchique",
    "station": "Fóia",
-   "temp_c": 10.4
+   "temp_c": 10.7
   },
   {
    "place": "aljezur",
    "station": "Aljezur",
-   "temp_c": 8.4
+   "temp_c": 8.5
   },
   {
    "place": "vila-do-bispo",
    "station": "Sagres",
-   "temp_c": 12.5
+   "temp_c": 12.9
   },
   {
    "place": "castro-marim",
@@ -115,73 +115,73 @@
   {
    "place": "alcoutim",
    "station": "Alcoutim, Mart.Longo",
-   "temp_c": 10.7
+   "temp_c": 10.6
   },
   {
    "place": "sao-bras-de-alportel",
    "station": "Olhão, EPPO",
-   "temp_c": 13.7
+   "temp_c": 13.2
   }
  ],
  "reads": {
   "warnings": {
    "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-   "at": "2026-11-16T05:52:18Z",
+   "at": "2026-11-16T06:39:48Z",
    "status": 200
   },
   "observations": {
    "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
-   "at": "2026-11-16T05:52:20Z",
+   "at": "2026-11-16T06:39:50Z",
    "status": 200
   },
   "city-daily-1080500": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080500.json",
-   "at": "2026-11-16T05:52:23Z",
+   "at": "2026-11-16T06:39:53Z",
    "status": 200
   },
   "city-daily-1080800": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080800.json",
-   "at": "2026-11-16T05:52:25Z",
+   "at": "2026-11-16T06:39:55Z",
    "status": 200
   },
   "city-daily-1081100": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json",
-   "at": "2026-11-16T05:52:27Z",
+   "at": "2026-11-16T06:39:57Z",
    "status": 200
   },
   "city-daily-1081505": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081505.json",
-   "at": "2026-11-16T05:52:29Z",
+   "at": "2026-11-16T06:39:59Z",
    "status": 200
   },
   "fire-risk-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json",
-   "at": "2026-11-16T05:52:31Z",
+   "at": "2026-11-16T06:40:01Z",
    "status": 200
   },
   "fire-risk-d1": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d1.json",
-   "at": "2026-11-16T05:52:33Z",
+   "at": "2026-11-16T06:40:03Z",
    "status": 200
   },
   "fire-risk-d2": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d2.json",
-   "at": "2026-11-16T05:52:35Z",
+   "at": "2026-11-16T06:40:05Z",
    "status": 200
   },
   "uv": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json",
-   "at": "2026-11-16T05:52:37Z",
+   "at": "2026-11-16T06:40:07Z",
    "status": 200
   },
   "sea-forecast-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
-   "at": "2026-11-16T05:52:40Z",
+   "at": "2026-11-16T06:40:10Z",
    "status": 200
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-16T05:52:42Z",
+   "at": "2026-11-16T06:40:12Z",
    "status": 200
   }
  }

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/i18n-misc.schema.json",
+  "title": "The translations' other files (data/i18n/*.json: the glossary, the cultures' notes)",
+  "description": "board/spec-translations.md: the glossary (names never translated, fixed place names per culture) and other small files of the translation memory, kept by translator@PrompTugal.dinis. Deliberately permissive while the format settles.",
+  "type": ["object", "array"]
+}

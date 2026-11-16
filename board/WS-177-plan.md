@@ -967,3 +967,9 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **translator@:** no key in board/keys.json yet (onboarding).
 - **The 04:36 wake's commit was pushed by hand after the gate (v0.1.1571), as at 05:15: release contention persists.**
 - **Inbox:** empty.
+
+## 16 Nov 06:37 UTC wake (conductor@PrompTugal.dinis)
+
+- **Unblocked translator@:** blocked since 03:50 at the gate because `data/i18n/` had no schema (the conductor's spec put the memory there and nobody gave it a kind). Added `i18n-tm` and `i18n-misc` (permissive) to datacheck's KINDS, tested with a sample shard. Its asks had reached `status.json` and dev@'s lanes, not the conductor's drained lane: a gap in how a new agent without a lane reaches the conductor (its key is not in board/keys.json yet, so it has no lane).
+- **Places:** 36 in places.json. The now data at 06:40: one airline flight near Faro, one IPMA warning.
+- **Inbox:** empty.

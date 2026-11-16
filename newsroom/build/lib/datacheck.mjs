@@ -12,6 +12,8 @@ import { derivationInputs, derivedOnDisk, loadData } from './data.mjs'
 export const KINDS = [
     [/^data\/by-place\/connections\.json$/, 'by-place-connections'],   // detective.places@'s links between places' companies, institutions and events
     [/^data\/query\/captures\.json$/, 'provenance-captures'],   // data.places@'s capture index (cited pages, hashes, vault refs), asked of dev.places@ on 16 Nov
+    [/^data\/i18n\/tm\/[A-Za-z-]+\/[^/]+\.json$/, 'i18n-tm'],   // the translation memory (board/spec-translations.md; Dinis, 16 Nov)
+    [/^data\/i18n\/(?:[^/]+\/)*[^/]+\.json$/, 'i18n-misc'],   // the glossary and the translators' other files
     [/^data\/by-place\/now\/[a-z0-9-]+\.json$/, 'by-place-now'],   // now in a place: IPMA and Faro airport (board/tools/local-now.mjs; Dinis, 16 Nov)
     [/^data\/by-place\/places\.json$/, 'by-place-list'],   // PrompTugal.news by place: the list of places (Dinis's brief, 14 Nov)
     [/^data\/by-place\/[^/]+\.json$/, 'by-place'],           // one place's research, kept by its agent
