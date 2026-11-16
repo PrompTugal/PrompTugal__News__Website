@@ -283,8 +283,8 @@
     }
   ],
   "identity": {
-    "key_id": "site.vila-real-de-santo-antonio-promptugal",
-    "signed_by": "place.vila-real-de-santo-antonio@PrompTugal.dinis"
+    "key_id": "site.vila-real-de-santo-antonio-promptugal-2",
+    "signed_by": "place.algarve.east@PrompTugal.dinis"
   },
   "gaps": [
     "We found no AI company, startup, lab or community based in Vila Real de Santo António. A town with no AI map is a finding. Search results point to a few small IT service and software firms in the town and in Monte Gordo, listed in business directories, but the directory pages would not open for us (a 503 and a 403), so none is on the map and none is known to offer AI. Where to look next: the Algarve business registry by municipality, Algarve Evolution's member list, NERA and the council's economic development pages.",
