@@ -615,11 +615,11 @@
     {
       "name": "Flow Productions",
       "type": "company",
-      "url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
-      "what": "Organiser of the July 2026 Faro panel on how AI assistants recommend businesses. Location to confirm.",
-      "source_url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
+      "url": "http://www.flowproductions.pt/",
+      "what": "Creative technology agency with teams in Faro and Lisbon, listed as a member of Algarve Evolution (as Flow With Us). Its services include MarTech and AI, and its site says it helps companies get found by people and AI engines. It organised the July 2026 Faro panel on how AI assistants recommend businesses.",
+      "source_url": "http://www.flowproductions.pt/",
       "read_on": "2026-11-15",
-      "ai_path": "It runs events on AI search visibility.",
+      "ai_path": "It sells MarTech and AI services and runs events on AI search visibility.",
       "steps": 1
     },
     {
@@ -799,9 +799,9 @@
     "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel. A search shows Rádio Universitária do Algarve and a closed Rádio Solar Algarve, but we opened no radio page. Blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them.",
     "Finding: the national AI training call for companies in Portugal 2030's plan does not include the Algarve, while the Algarve's own AI help so far comes from the INOVA ALGARVE 3.0 pilot and local bodies. We should check the formal notice when it is launched and whether ALGARVE2030 plans an AI call of its own.",
     "Starting a company here: the Algarve calls we found earlier have closed. Portugal 2030's plan lists 18 ALGARVE2030 calls and we read only part of the list: the spreadsheet of the full plan and the formal notices, once launched, are not read, and the call pages state no budgets.",
-    "Algarve Evolution's members list (67 members over four pages, read in full) gives names only. The member pages link to each firm's own site, and we have read LeiGPT, DSPA, QXote (an Alentejo farm initiative, no AI) and Visualforma (smart-city software for councils, no AI mentioned). Other technology members whose sites we have not read: Indrant, Streamworx, Omnibees Portugal, HHS Host Hotel Systems, W4M Digital Solutions, TKB ICTTeck4Biz, Sisgarbe and Atos.",
     "Algarve AI Agents and Artificial Intelligence Algarve have no public site we can read: their meetup listings sit on Luma and Meetup, which we do not read, and the second is LinkedIn only. We should ask Algarve Evolution for a public page, or for dates.",
-    "Hint for the Faro agent: LeiGPT is registered in Faro and is a real local AI product, a candidate for its map and a story."
+    "Hint for the Faro agent: LeiGPT is registered in Faro and is a real local AI product, a candidate for its map and a story.",
+    "Algarve Evolution's members list (67 members over four pages, read in full) gives names only, and the member pages link to each firm's own site. Sites read: LeiGPT and DSPA (AI, mapped), Flow Productions (MarTech and AI, mapped), and QXote, Visualforma, Craft 4.0 (business intelligence and IoT) and Cyberprotech (cybersecurity in Loulé), none of which mention AI. The Host PMS hotel software site lists a separate AI product and a Canary integration but states no location. Not yet read: Canopy (403), Wise Rocket (404), Indrant and OSB Solutions (no site linked), Sisgarbe, Rolear, Omnibees, Neomarca, ADJ3, Blackbird, Azulchain and We Sport IT."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",

@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve@PrompTugal.dinis",
   "focus": "The Algarve region page (promptugal.news/algarve/): the regional AI map, region-wide AI news, sources, events and gaps.",
-  "updated": "2026-11-16T06:40Z",
-  "state": "pass 9 released: 19 news, 31 map entries (LeiGPT, a Faro AI legal platform, added), 17 sources, 9 extras, 18 gaps; all 59 URLs in the file checked",
+  "updated": "2026-11-16T07:35Z",
+  "state": "pass 10 released: 19 news, 31 map entries, 17 sources, 9 extras, 18 gaps; first full pass was met at 07:00",
   "done": [
     "keys place.algarve-promptugal and site.algarve-promptugal in board/keys.json",
     "read all five Algarve Evolution articles and the AE site",
@@ -14,12 +14,12 @@
     "pass 6: significance and significance_why on every story (field names from board/briefs/2026-11-16-blast-radius.md, not yet in the schema: data.places@ may rename), EPIA 2025, FCT-UAlg, IAPMEI programmes, CIMA and SEA-EU read",
     "pass 7: Algarve Evolution members list (page 1 of 4) read, AI Aumentar and DSPA mapped by name with caveats, AIA category source, GDG Faro programme, IAPMEI call plans noted",
     "pass 8: Portugal 2030 call plan read: the national AI training call for companies excludes the Algarve (finding in extras and gaps); ALGARVE2030 and national R&D calls noted as forecasts; debrief refreshed",
-    "pass 9: Algarve Evolution members list read in full (67), LeiGPT found and mapped, DSPA confirmed from its own site, AI Aumentar kept as unconfirmed, QXote and Visualforma ruled out, every URL in the file checked (58 of 59 resolve)"
+    "pass 9: Algarve Evolution members list read in full (67), LeiGPT found and mapped, DSPA confirmed from its own site, AI Aumentar kept as unconfirmed, QXote and Visualforma ruled out, every URL in the file checked (58 of 59 resolve)",
+    "pass 10: technology members' own sites read: Flow Productions confirmed in Faro with AI services, Craft 4.0, Cyberprotech, Host PMS and others show no AI"
   ],
   "next": [
-    "pass 10: read the other technology members' own sites (Indrant, Streamworx, Omnibees, HHS, W4M, TKB, Sisgarbe), Dengun at source, investors with readable sources, the ALGARVE2030 call list",
-    "article candidate for the next allowance: LeiGPT, a Faro-registered AI legal platform",
-    "the 07:00 target is met: first full pass done, passes continue hourly"
+    "pass 11: remaining members' sites (Sisgarbe, Rolear, Omnibees, Neomarca, ADJ3, Blackbird, Azulchain, We Sport IT), Dengun at source, investors with readable sources, the ALGARVE2030 call list",
+    "a LeiGPT article at the next allowance"
   ],
   "asks": [
     "Dinis: Sul Informação, Jornal do Algarve, Postal, AlgarveSTP and Dengun block our reader (403 or a bot challenge), and AIA and Algarve AI Agents publish only on Luma and Meetup, which we may not read. Is there a permitted route, or can Algarve Evolution share public pages or dates for the two AI communities?"
