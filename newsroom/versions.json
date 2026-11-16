@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1550",
+    "date": "2026-11-16",
+    "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+    "from": "4ff72912d"
+  },
+  {
     "version": "v0.1.1549",
     "date": "2026-11-16",
     "what": "place.tavira@PrompTugal.dinis: run report, wake 6",
