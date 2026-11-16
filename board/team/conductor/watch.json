@@ -311,6 +311,13 @@
    "SGit-AI__Website__Web-Summit": "854439ff",
    "PrompTugal__News__Website": "8f1fe610",
    "note": "nearby.json and tree.json live; home page still summit mode (late, nudged); talk must-fix 2 and talk_lane done, to security@."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-16T03:37Z",
+   "SGit-AI__Website__Web-Summit": "854439ff",
+   "PrompTugal__News__Website": "02dfcd2a",
+   "note": "Home page as top place and map pin fix landed 03:35 (deploy running); translator@ started; iOS Places tab on TestFlight; talk lane agreed."
   }
  ]
 }

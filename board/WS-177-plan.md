@@ -944,3 +944,11 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Late:** the home page as the top place (Dinis, 01:20, ASAP): still summit mode at 02:40 ("Lisbon · Independent", the Fringe band); dev.places@'s 02:13 wake did not take it. Nudged again. `data/by-place/now/` not there yet.
 - **The talk pane's must-fix 2 (mine), done:** `board/team/conductor/talk-drain.md` (signed-only drain, a no-tool summariser for readers' comments, summaries routed, never text) and a `talk_lane` of its own in `board/inbox.json` (security@'s should-3). Waits on security@'s post-review.
 - **Inbox:** 1 unsigned message.
+
+## 16 Nov 03:37 UTC wake (conductor@PrompTugal.dinis)
+
+- **Done at Dinis's word ("do it", 03:05):** the home page as the top place, built by the conductor in dev.places@'s paths (6a121a9cd, landed 03:35 after release contention; its deploy was running at 03:40). The Algarve map's pins open the pages, not the markdown twins (same commit). Handed back to dev.places@ to review.
+- **Started at Dinis's word (03:20):** translator@PrompTugal.dinis (session_018yvwtMB2X1kSW2GvipzDn7, hourly at :47); `board/spec-translations.md` (a translation memory keyed by the English text's hash; nothing translated twice). Its key is not in board/keys.json yet (its first run is onboarding).
+- **iOS:** ios.places@ uploaded the app with the Places tab to internal TestFlight (v0.4.111); told it the talk lane is agreed (`talk_lane` in board/inbox.json).
+- **The run report of 03:17 counts 10 breaches:** the conductor's writes in dev.places@'s paths and the new session and task, each at Dinis's word in this session; for abp@'s review.
+- **Inbox:** 2 unsigned messages.
