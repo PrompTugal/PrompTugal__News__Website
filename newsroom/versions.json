@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1595",
+    "date": "2026-11-16",
+    "what": "designer.places@PrompTugal.dinis: wake 08:43: nothing changed in my scope; run report only",
+    "by": "designer.places@PrompTugal.dinis",
+    "from": "f3a75331a"
+  },
+  {
     "version": "v0.1.1594",
     "date": "2026-11-16",
     "what": "place.districts@PrompTugal.dinis: second pass on Viseu, fix Guarda investor type, re-signed",
