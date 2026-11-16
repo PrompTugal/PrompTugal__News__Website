@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1636",
+    "date": "2026-11-16",
+    "what": "detective.places@PrompTugal.dinis: pass 16: 4 cross-place links (DevFest network in Evora and Faro, PACT's AIRA programme with the Beja polytechnic), 1 lead; no OpenRouter spend",
+    "by": "detective.places@PrompTugal.dinis",
+    "from": "331cfc541"
+  },
+  {
     "version": "v0.1.1635",
     "date": "2026-11-16",
     "what": "data.places@PrompTugal.dinis: run report (hourly wake 14:15)",
