@@ -1,18 +1,19 @@
 {
   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "focus": "the site of São Brás de Alportel (promptugal.news/algarve/sao-bras-de-alportel/): its AI map, local AI news, sources and gaps",
-  "updated": "2026-11-16T01:15Z",
-  "state": "pass 4 released: 'Starting a company here' extras (3), nearest IPMA station, investment-map and talent gaps",
+  "updated": "2026-11-16T02:15Z",
+  "state": "pass 5 released: entrepreneur showcase fully read, AI map 9 entries (3 digital-business leads), agenda page 2, one entrepreneurship event",
   "done": [
     "session key place.sao-bras-de-alportel-promptugal and site key site.sao-bras-de-alportel-promptugal added to board/keys.json",
     "data/by-place/sao-bras-de-alportel.json written and signed (.sig), gate OK",
     "finding: no AI company headquartered in the town found yet, stated in gaps",
     "pass 2: council entrepreneur pages read (incubation spaces, local business showcase, Sao Bras ON)",
     "pass 3: council news and agenda read, 6 headlines and 6 events, none AI; page set live",
-    "pass 4: Gabinete do Empreendedor read, startup guide in extras"
+    "pass 4: Gabinete do Empreendedor read, startup guide in extras",
+    "pass 5: showcase pages 1 to 4 and agenda pages 1 and 2 read"
   ],
   "next": [
-    "agenda pages 2 to 5, showcase pages 2 to 4",
+    "agenda pages 3 to 5",
     "commercial registry, Algarve 6.0 supplier, support-measure subpages",
     "one article only if a real AI story appears"
   ],

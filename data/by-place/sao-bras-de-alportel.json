@@ -141,7 +141,15 @@
       "feed": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "Sábados no Mercado, with a local entrepreneurship action (21 November 2026, Mercado Municipal)",
+      "date": "2026-11-21",
+      "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    }
+  ],
   "ai_map": [
     {
       "name": "Município de São Brás de Alportel",
@@ -207,10 +215,30 @@
       "name": "We Stream Algarve",
       "type": "company",
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
-      "what": "Local business presented on the council's 'Os nossos Empreendedores' page, described there in terms of technology, communication, online work and digital solutions.",
-      "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
+      "what": "Local business on the council's 'Os nossos Empreendedores' page (page 3 of 4), listed together with Substância3D as 3D and streaming services, described there in terms of technology, communication, online work and digital solutions.",
+      "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
       "read_on": "2026-11-15",
-      "ai_path": "The only clearly digital firm on the first page of the council's local entrepreneur showcase. The page does not mention AI, so this is a lead to check, not an AI claim.",
+      "ai_path": "3D and streaming are digital media services where AI tools for video and imaging are common. The page does not mention AI, so this is a lead to check, not an AI claim.",
+      "steps": 3
+    },
+    {
+      "name": "Substância3D",
+      "type": "company",
+      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
+      "what": "Local 3D services business listed with We Stream Algarve on the council's entrepreneur showcase.",
+      "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
+      "read_on": "2026-11-16",
+      "ai_path": "3D content work is a field where AI generation tools are used. The page does not mention AI, so this is a lead to check.",
+      "steps": 3
+    },
+    {
+      "name": "Peanuts",
+      "type": "company",
+      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
+      "what": "Local marketing and digital content project on the council's entrepreneur showcase (page 4 of 4).",
+      "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
+      "read_on": "2026-11-16",
+      "ai_path": "Digital marketing and content work is where AI writing and image tools are adopted first. The page does not mention AI, so this is a lead to check.",
       "steps": 3
     }
   ],
@@ -275,15 +303,15 @@
     "signed_by": "place.sao-bras-de-alportel@PrompTugal.dinis"
   },
   "gaps": [
-    "Second pass: still no AI company, startup or lab found in the town. Only one clearly digital local firm (We Stream Algarve) is on the council's entrepreneur showcase, whose pages 2 to 4 have not been read. The commercial registry has not been read either.",
+    "Third read of the council's entrepreneur showcase (all four pages): the clearly digital local businesses are We Stream Algarve, Substância3D (3D and streaming) and Peanuts (marketing and digital content). None mentions AI, so they are listed as leads at three steps, not as AI companies. Still no AI company, startup or lab found, and the commercial registry has not been read.",
     "The council's site shows no mention of AI in its front-page news and has no RSS feed we could find, so its news must be read page by page.",
     "Postal do Algarve and Sul Informação blocked our automated reading with a bot check or an error, so their São Brás stories are not used here until they can be read openly. The pages with a bot challenge were skipped on purpose.",
     "Sources to find next: the University of Algarve's electronics research centre for any town link, the business association for local digital firms, and the Algarve 6.0 platform's supplier and timetable.",
     "One IT firm shown at the 2025 business ideas forum appears only in a Postal do Algarve report, which our reader cannot open, and one forum report from Região Sul returned 403, so neither is used until read openly.",
-    "Events: the council agenda for 15 and 16 November 2026 lists markets, dance, a ball and film sessions, nothing about technology or AI, so no events are listed. Agenda pages 2 to 5 have not been read.",
     "The council's own November 2026 news (the first-year balance, Storm Charles, Praça 1914) never mentions AI or the Algarve 6.0 platform, so the municipal AI story is told by regional press, not by the council.",
     "Investment map and local talent: no investor, investment or startup founded in the town is documented in the sources read. Local talent who have spoken publicly is not listed, because no public speaker profile has been found and the agent does not name private individuals.",
-    "The council's three support-measure subpages and the Via Verde para o desenvolvimento page returned no detail to our reader, so grants and fee waivers for investors are not stated."
+    "The council's three support-measure subpages and the Via Verde para o desenvolvimento page returned no detail to our reader, so grants and fee waivers for investors are not stated.",
+    "Events: the council agenda pages 1 and 2 (15 to 23 November 2026) list markets, concerts, a reading club and film sessions, with one local entrepreneurship action at the Saturday market and nothing about AI. Agenda pages 3 to 5 have not been read."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
