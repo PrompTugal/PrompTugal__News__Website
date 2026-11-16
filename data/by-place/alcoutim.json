@@ -203,7 +203,14 @@
       "feed": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "9th Jornadas da Rede de Museus do Algarve, Espaço Guadiana",
+      "date": "2026-11-20",
+      "url": "https://postal.pt/algarve/alcoutim-recebe-jornadas-da-rede-de-museus-do-algarve-dedicadas-a-arqueologia/",
+      "read_on": "2026-11-16"
+    }
+  ],
   "ai_map": [
     {
       "name": "Robotics4Farmers (PRR agenda, with Municipio de Alcoutim as a named partner)",
@@ -372,7 +379,9 @@
     "The Things Network Algarve lists a free LoRaWAN community for the region, but its page does not mention Alcoutim. Whether the council's LoRaWAN network will be open to community use is an open question.",
     "Fibre is covered only by the operator's own announcement (82 percent expected, not confirmed as reached). Mobile and 5G coverage for Alcoutim, digital inclusion training and village Wi-Fi still have no source: GEO.ANACOM lets one search by place and should be read next.",
     "Agrosocial Plus is read at source, but it names no Alcoutim lab. Ask Odiana where the Living Labs will sit. A Universidade do Algarve water digitalisation conference at Faro on 24 November was seen only in a search summary and is not yet placed in Alcoutim.",
-    "Only the council's general channel is listed. No named economic development desk or investor service was found. No local talent is listed for Alcoutim: nobody has agreed to be listed and we found no public AI speaker from the town. Robotics4Farmers places its intervention in Alcoutim, but the sheets do not say what was tested there or whether the robot is still in use after the project ended in September 2025."
+    "Only the council's general channel is listed. No named economic development desk or investor service was found. No local talent is listed for Alcoutim: nobody has agreed to be listed and we found no public AI speaker from the town. Robotics4Farmers places its intervention in Alcoutim, but the sheets do not say what was tested there or whether the robot is still in use after the project ended in September 2025.",
+    "cm-alcoutim.pt's home page returned only a title, so no municipal news list was read; the three new items come from Postal. A council phone for culture and heritage is quoted in a Postal article and must be checked on the council's own site before it is shown.",
+    "No new AI or tech item for Alcoutim after 1 November."
   ],
   "voice": {
     "lede": "Ai, Alcoutim: a vila onde o rio e quase Espanha e a fibra ainda vem devagarinho, mas os sensores ja chegaram.",
@@ -470,6 +479,42 @@
       "source_url": "https://cm-alcoutim.pt/contactos/outros-contactos",
       "read_on": "2026-11-16",
       "channel": "The council's general email and telephone, with opening hours Monday to Friday 8:30 to 15:00, are published in the footer of the linked page. Shown here as a link, not copied: the gate still rejects a literal address."
+    }
+  ],
+  "local_news": [
+    {
+      "title": "Alcoutim hosts the Biosphere forum and receives the Biosphere destination certificate",
+      "summary": "13 November at Espaço Guadiana; the council was to sign a charter to start certification of the Festival do Contrabando. The event has passed: background for the town's sustainable-tourism line.",
+      "date": "2026-10-19",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/alcoutim-recebe-certificacao-biosphere-e-debate-sustentabilidade-do-territorio/",
+      "read_on": "2026-11-16",
+      "significance": "town and neighbours",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "TANG brings art, videomapping and a mural to Alcoutim on 13 and 14 November",
+      "summary": "Portuguese and Spanish artists, tied to the Festival do Contrabando and the Spanish border; the event has passed.",
+      "date": "2026-11-07",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/alcoutim-leva-arte-as-ruas-e-recupera-memorias-da-fronteira-com-espanha/",
+      "read_on": "2026-11-16",
+      "significance": "town and neighbours",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Sanlúcar de Guadiana (Spain), Mértola"
+    },
+    {
+      "title": "Alcoutim hosts the 9th Jornadas da Rede de Museus do Algarve on 20 November",
+      "summary": "Theme 'Arqueologia para Todos: Mediação e Comunicação do Património', from 09:30 at Espaço Guadiana; free, with limited seats.",
+      "date": "2026-10-29",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/alcoutim-recebe-jornadas-da-rede-de-museus-do-algarve-dedicadas-a-arqueologia/",
+      "read_on": "2026-11-16",
+      "significance": "town and region",
+      "ai_path": "no AI",
+      "steps": 0
     }
   ]
 }
