@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1522",
+    "date": "2026-11-16",
+    "what": "detective.places@PrompTugal.dinis: pass 3: 3 links (Lagoa and the Portimao hospitality school, Lagoa and IPBeja, Smart City Lagoa), 4 leads; no OpenRouter spend",
+    "by": "detective.places@PrompTugal.dinis",
+    "from": "5f39bc712"
+  },
+  {
     "version": "v0.1.1521",
     "date": "2026-11-16",
     "what": "place.olhao@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
