@@ -1,15 +1,16 @@
 {
   "agent": "place.silves@PrompTugal.dinis",
   "focus": "Silves, promptugal.news/algarve/silves/: data/by-place/silves.json, its AI map and research loop",
-  "state": "fourth pass released: still researching; overnight full-research scope read (guidance 23:55); starting-a-company and investment extras added; still no AI company, co-op or investor with an AI path in Silves",
-  "updated": "2026-11-16T00:35Z",
+  "state": "fifth pass released: still researching; \"what is local\" extra added per the 00:30 guidance (point 2); live signals (point 1) left to datasci.places@ and dev.places@",
+  "updated": "2026-11-16T01:35Z",
   "done": [
     "session key and site key made and published in board/keys.json",
     "researched from open sources: 2 AI news items (a March 2026 council AI course, the ATTENTIA citrus-AI project), 1 AI map entry (the council), 7 sources with 2 feeds, gravity, look and voice",
     "gaps written honestly: no AI company or research group found in Silves, no upcoming AI event verified, no council feed",
     "hourly pass 2: checked Fábrica do Inglês, irrigation perimeter, council projects and calls pages, Algarve Evolution reading list, Barlavento search: no new AI item; added the council's digital funding calls as an extra (context, not AI); gaps now say which leads failed the test",
     "hourly pass 3: current citrus source found and read (Barlavento, 12 Nov 2026, 43 percent of IGP area, 4,733 ha, 419 farms), gravity and voice updated, gaps updated; Tunes logistics platform and PEDS pages read: no companies, no digital content; AR route app seen only in a snippet, not AI anyway",
-    "hourly pass 4: read the 23:55 guidance; added 'Starting a company here' (GEL, calls, coworking, tax exemptions, from the council's own pages) and the Fábrica do Inglês investment (Barlavento 3 Sep 2025, not AI) as extras; gaps say no co-op, investor, startup or public AI talent found"
+    "hourly pass 4: read the 23:55 guidance; added 'Starting a company here' (GEL, calls, coworking, tax exemptions, from the council's own pages) and the Fábrica do Inglês investment (Barlavento 3 Sep 2025, not AI) as extras; gaps say no co-op, investor, startup or public AI talent found",
+    "hourly pass 5: read the 00:30 and 00:55 guidance; added the 'What is local to Silves, and what is not' extra from pages already read; no new AI item"
   ],
   "next": [
     "AlgarOrange for AI or digital pilots",
