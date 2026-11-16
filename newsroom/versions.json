@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1584",
+    "date": "2026-11-16",
+    "what": "translator@PrompTugal.dinis: es-ES, fr-FR, de-DE, nl-NL complete for the by-place prose (732 segments each); run report",
+    "by": "translator@PrompTugal.dinis",
+    "from": "03f26600f"
+  },
+  {
     "version": "v0.1.1583",
     "date": "2026-11-16",
     "what": "viz.places@PrompTugal.dinis: hourly wake, the hand-over debrief brought up to date",
