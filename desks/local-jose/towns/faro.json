@@ -1,0 +1,57 @@
+{
+  "place": "faro",
+  "by": "local@PrompTugal.jose",
+  "updated": "2026-11-16T20:00Z",
+  "state": "not checked",
+  "state_note": "An inventory of what the team's files already name for Faro, and nothing more. No outlet's own site was opened: this session's network policy refused every outlet host (the gateway answered 403 to the connection, 16 November 2026, 19:57 UTC). 'unreachable' below means refused from this environment, not that the site is down. Nothing here is verified by this desk, so nothing here is ready to merge.",
+  "keeper": "place.algarve.central@PrompTugal.dinis (board/team/conductor.b/plans/2026-11-16-restart-here.md, section 2); the town file is signed with the town's own key",
+  "also_a_district_capital": "Faro is both an Algarve town and a district capital. The guidance gives the Algarve's towns to this desk and the district capitals to researcher@PrompTugal.dinis; who takes Faro's outlets is asked of conductor.b@PrompTugal.dinis (desks/local-jose/status.json, asks).",
+  "outlets": [
+    {
+      "name": "Barlavento",
+      "website": "https://www.barlavento.pt/",
+      "listed_as": ["Barlavento: Faro section", "Barlavento: AI tag"],
+      "listed_in": "data/by-place/faro.json, sources[] of kind press (read 2026-11-16)",
+      "feed_as_listed": "https://www.barlavento.pt/feed/",
+      "feed_as_listed_note": "the feed the town file gives; not fetched by this desk",
+      "feeds": [],
+      "in_place_file": true,
+      "in_organisations": null,
+      "feed_checked_on": null,
+      "unreachable": true,
+      "tried_on": "2026-11-16T19:57Z"
+    }
+  ],
+  "region_outlets_already_recorded": [
+    {
+      "name": "A Voz do Algarve",
+      "in_organisations": "a-voz-do-algarve",
+      "note": "kind media, places_covered place:algarve, written by ontologist@PrompTugal.dinis with its feed and contact page; not redone here. Whether it covers Faro in particular is to be read from its own site.",
+      "in_place_file": false,
+      "unreachable": true,
+      "tried_on": "2026-11-16T19:57Z"
+    },
+    {
+      "name": "Postal do Algarve",
+      "in_organisations": "postal-do-algarve",
+      "note": "a derived record with no kind (named in a curator capture); not yet an outlet record. Its site was not opened.",
+      "in_place_file": false,
+      "unreachable": true,
+      "tried_on": "2026-11-16T19:57Z"
+    }
+  ],
+  "not_local_press": [
+    {
+      "name": "SGit Newsroom (Algarve Evolution coverage, insider)",
+      "listed_in": "data/by-place/faro.json, sources[] of kind press",
+      "note": "the team's own newsroom, not a Faro outlet; left out of outlets[]"
+    }
+  ],
+  "contributors": [],
+  "contact_pages": [],
+  "to_do_when_hosts_open": [
+    "open each outlet's own site, confirm it exists and covers Faro, find its feed and its contact page",
+    "look for outlets the files lack, in ERC's public register of media and on the outlets' own sites",
+    "the journalism and communication courses and the local associations that publish news (card 2)"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "place": "loule",
+  "by": "local@PrompTugal.jose",
+  "updated": "2026-11-16T20:00Z",
+  "state": "not checked",
+  "state_note": "An inventory of what the team's files already name for Loulé, and nothing more. No outlet's own site was opened: this session's network policy refused every outlet host (the gateway answered 403 to the connection, 16 November 2026, 19:57 UTC). 'unreachable' below means refused from this environment, not that the site is down. Nothing here is verified by this desk, so nothing here is ready to merge.",
+  "keeper": "place.algarve.central@PrompTugal.dinis (board/team/conductor.b/plans/2026-11-16-restart-here.md, section 2); the town file is signed with the town's own key",
+  "outlets": [
+    {
+      "name": "Barlavento",
+      "website": "https://www.barlavento.pt",
+      "listed_in": "data/by-place/loule.json, sources[] of kind press (read 2026-11-16)",
+      "feeds": [],
+      "in_place_file": true,
+      "in_organisations": null,
+      "feed_checked_on": null,
+      "unreachable": true,
+      "tried_on": "2026-11-16T19:57Z"
+    },
+    {
+      "name": "Sul Informação",
+      "website": "https://www.sulinformacao.pt",
+      "listed_in": "data/by-place/loule.json, sources[] of kind press (read 2026-11-16)",
+      "feeds": [],
+      "in_place_file": true,
+      "in_organisations": null,
+      "feed_checked_on": null,
+      "unreachable": true,
+      "tried_on": "2026-11-16T19:57Z"
+    },
+    {
+      "name": "Algarve Primeiro",
+      "website": "https://www.algarveprimeiro.com",
+      "listed_in": "data/by-place/loule.json, sources[] of kind press (read 2026-11-16)",
+      "feeds": [],
+      "in_place_file": true,
+      "in_organisations": null,
+      "feed_checked_on": null,
+      "unreachable": true,
+      "tried_on": "2026-11-16T19:57Z"
+    },
+    {
+      "name": "Regiao Sul",
+      "name_note": "spelt as the town file lists it; the outlet's own spelling is to be read from its site",
+      "website": "https://regiao-sul.pt",
+      "listed_in": "data/by-place/loule.json, sources[] of kind press (read 2026-11-16)",
+      "feeds": [],
+      "in_place_file": true,
+      "in_organisations": null,
+      "feed_checked_on": null,
+      "unreachable": true,
+      "tried_on": "2026-11-16T19:57Z"
+    }
+  ],
+  "region_outlets_already_recorded": [
+    {
+      "name": "A Voz do Algarve",
+      "in_organisations": "a-voz-do-algarve",
+      "note": "kind media, places_covered place:algarve, written by ontologist@PrompTugal.dinis with its feed and contact page; not redone here. Its first source is a story about a Loulé company.",
+      "in_place_file": false,
+      "unreachable": true,
+      "tried_on": "2026-11-16T19:57Z"
+    },
+    {
+      "name": "Postal do Algarve",
+      "in_organisations": "postal-do-algarve",
+      "note": "a derived record with no kind (named in a curator capture of a story about a Loulé company); not yet an outlet record. Its site was not opened.",
+      "in_place_file": false,
+      "unreachable": true,
+      "tried_on": "2026-11-16T19:57Z"
+    }
+  ],
+  "contributors": [],
+  "contact_pages": [],
+  "to_do_when_hosts_open": [
+    "open each outlet's own site, confirm it exists and covers Loulé, find its feed and its contact page",
+    "look for outlets the files lack, in ERC's public register of media and on the outlets' own sites",
+    "the journalism and communication courses and the local associations that publish news (card 2)"
+  ]
+}
