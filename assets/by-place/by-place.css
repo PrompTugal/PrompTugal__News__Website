@@ -312,3 +312,5 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 }
 @media (max-width: 759px) { .bp-frame .bp-nowband ul.bp-now > li:nth-child(even) { padding-left: 12px; border-left: 1px solid var(--now-rule); } .bp-frame .bp-nowband { margin-left: -4px; margin-right: -4px; } }
 @media (prefers-reduced-motion: reduce) { .bp-frame .bp-nowband .mini-h::before { animation: none; } }
+.bp-frame .bp-nowband .bp-age { color: var(--now-acc); }
+.bp-frame .bp-nowband ul.bp-now > li.bp-stale .bp-fig { opacity: .6; }

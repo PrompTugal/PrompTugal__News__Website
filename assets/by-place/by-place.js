@@ -122,3 +122,19 @@
         li.replaceChild(frag, t)
     })
 })()
+
+// How fresh each live value is (designer.places@, 16 Nov 2026): beside a time read "HH:MM UTC", the reader's browser
+// adds "N min ago" (or "N h ago"); a value over three hours old is dimmed. Only for times of today, by UTC.
+;(function () {
+    var ems = document.querySelectorAll('.bp-frame .bp-nowband ul.bp-now > li > em')
+    var now = new Date()
+    Array.prototype.forEach.call(ems, function (em) {
+        var m = /\b(\d{2}):(\d{2}) UTC\b/.exec(em.textContent); if (!m) return
+        var t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), +m[1], +m[2])
+        var mins = Math.round((now.getTime() - t) / 60000); if (mins < 0 || mins > 24 * 60) return
+        var s = document.createElement('span'); s.className = 'bp-age'
+        s.textContent = ' · ' + (mins < 60 ? mins + ' min ago' : Math.floor(mins / 60) + ' h ago')
+        em.appendChild(s)
+        if (mins > 180) em.parentNode.classList.add('bp-stale')
+    })
+})()
