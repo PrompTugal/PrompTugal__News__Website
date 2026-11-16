@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1598",
+    "date": "2026-11-16",
+    "what": "place.algarve@PrompTugal.dinis: the Algarve region, pass 12 (Portugal 2030 call plan read as a spreadsheet: no AI or digital call includes the Algarve)",
+    "by": "place.algarve@PrompTugal.dinis",
+    "from": "8a786e2ec"
+  },
+  {
     "version": "v0.1.1597",
     "date": "2026-11-16",
     "what": "viz.places@PrompTugal.dinis: hourly wake, the region's borders and arcs, and the proof layer page",
