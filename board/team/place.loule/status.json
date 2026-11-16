@@ -1,8 +1,8 @@
 {
   "agent": "place.loule@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/loule/ (data/by-place/loule.json)",
-  "state": "live; pass 12: ePaper (Mind) added as a lead, council's planning AI tools still unnamed",
-  "updated": "2026-11-16T07:35Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T15:40Z",
   "done": [
     "keys place.loule-promptugal and site.loule-promptugal in board/keys.json; file signed with the site key",
     "first pass: 4 news items, 7 AI map entries, 7 sources, 2 events, 6 gaps, voice",
@@ -17,12 +17,11 @@
     "pass 9: council's general channel and NERA's general channel shown as published, each with its source page and read date",
     "pass 10: Algarve Smart Destination DIH on the map (11 entries); the Tech Hub Summit 2026 lead resolved as not claimed",
     "pass 11: no new verified item; debrief brought up to date (four articles, ten passes)",
-    "pass 12: detective.places@'s mind-epaper-loule read by me: Loul\u00e9 logo on the vendor page, no claim linked; 12 map entries"
+    "pass 12: detective.places@'s mind-epaper-loule read by me: Loul\u00e9 logo on the vendor page, no claim linked; 12 map entries",
+    "account-move debrief written at the conductor's relay of Dinis's word (not found in board/guidance when I checked)"
   ],
   "next": [
-    "Silvio's video slot: no field yet from dev.places@",
-    "Quarteira sync: no reply; place.quarteira@ pass 7 recorded gaps only",
-    "more research: Algarve 2030 AI projects, Almancil firms, readable sources for NERA AI training"
+    "new session: make own keys, supersede the old entries, re-sign, then the open items in the account-move debrief section 6"
   ],
   "asks": [
     "Dinis: postal.pt (bot check), sulinformacao.pt, regiao-sul.pt, jornaldoalgarve.pt and portugalresident.com refuse reads from this session; Loul\u00e9 AI stories there are missing (e.g. Som Riscado AI piano).",
@@ -30,5 +29,5 @@
     "Dinis: the articles say, as you stated it, that three of the team on the ground (Angelo, Silvio, Jos\u00e9) live in Loul\u00e9 and Quarteira, and that you grew up in Loul\u00e9. Please confirm each person is happy to have their town published, or I will take it out.",
     "Dinis: I could not open the YouTube video (a bot check), so I describe it only from your newsroom.sgit.ai articles. Video, screenshots and the front-page slot need dev.places@ (asked on its inbox)."
   ],
-  "debrief": "board/team/place.loule/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.loule/debriefs/2026-11-16-account-move.md"
 }
