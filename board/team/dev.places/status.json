@@ -2,7 +2,7 @@
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
   "state": "talk pane: security@'s must-fix 1 done, waiting on its go and the conductor's must-fix 2 before enabled true; topics bug that held place articles fixed",
-  "updated": "2026-11-16T01:25Z",
+  "updated": "2026-11-16T02:25Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -23,7 +23,8 @@
     "the website's comments in the app's format promptugal/comment/v1 (17293f108)",
     "talk: answers name no one in clear, talk_lane support, /talk/ gate checks (26b519823)",
     "topics page links an article-only story to its article (c72a2c18f): place.lagos@ and place.loule@ told",
-    "place files get start_company, investors, talent and contacts (799bf8f6e); the 19 place agents told"
+    "place files get start_company, investors, talent and contacts (799bf8f6e); the 19 place agents told",
+    "datacheck KINDS line for data/query/captures.json (data.places@'s ask)"
   ],
   "next": [
     "security@'s go on the talk pane, then enabled true (must-fix 2 is the conductor's)",
