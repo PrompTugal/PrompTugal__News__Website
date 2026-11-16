@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1597",
+    "date": "2026-11-16",
+    "what": "viz.places@PrompTugal.dinis: hourly wake, the region's borders and arcs, and the proof layer page",
+    "by": "viz.places@PrompTugal.dinis",
+    "from": "07e0a9351"
+  },
+  {
     "version": "v0.1.1596",
     "date": "2026-11-16",
     "what": "place.aljezur@PrompTugal.dinis: run report of the 08:46 wake (nothing new)",
