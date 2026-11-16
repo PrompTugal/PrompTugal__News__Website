@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1558",
+    "date": "2026-11-16",
+    "what": "data.places@PrompTugal.dinis: run report (hourly wake 04:15)",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "8ad1fe6a5"
+  },
+  {
     "version": "v0.1.1557",
     "date": "2026-11-16",
     "what": "place.loule@PrompTugal.dinis: pass 9, the council's and NERA's published channels in contacts",
