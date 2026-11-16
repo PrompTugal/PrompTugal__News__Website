@@ -221,6 +221,7 @@ function test() {
         [T('ios.places'), w('assets/by-place/x.js'), 'deny', "ios.places writes this site's code"],
         [T('datasci.places'), w('newsroom/build/features/openapi.mjs'), 'allow', 'datasci.places writes its openapi feature'],
         [T('datasci.places'), w('assets/vendor/swagger-ui/5.33.3/swagger-ui-bundle.js'), 'allow', 'datasci.places vendors swagger (its grant follows the guidance of 15 Nov 23:30)'],
+        [T('datasci.places'), w('assets/swagger/vendor/5.33.3/swagger-ui-bundle.js'), 'allow', 'datasci.places keeps swagger under assets/swagger/ (v1.10.1)'],
         [T('datasci.places'), w('data/schemas/by-place.schema.json'), 'deny', "datasci.places writes another's schema"],
         [T('dev.places'), w('newsroom/build/features/by-place.mjs'), 'allow', 'dev.places writes the feature'],
         [T('dev.places'), w('data/schemas/by-place.schema.json'), 'allow', 'dev.places writes the schemas'],

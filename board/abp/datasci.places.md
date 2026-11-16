@@ -1,7 +1,7 @@
 ---
 title: "ABP: datasci.places@PrompTugal.dinis"
 agent: datasci.places@PrompTugal.dinis
-policy: board/abp/policies.json v1.10.0 (sha256:44dfd8c15a140983)
+policy: board/abp/policies.json v1.10.1 (sha256:5136ce8a474d3c7c)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -13,7 +13,7 @@ authority: Dinis Cruz, operator
 ## Mandate (the grant)
 
 - **Focus:** the JSON-first audit (no data only in HTML), the OpenAPI 3.1 specs (one for the site, one per locality) and the Swagger pages, data quality and analysis, in its openapi*.mjs and datasci-*.mjs build features, a vendored and pinned Swagger UI and its own assets; Dinis, 15 November 2026, about 23:30 UTC: "fire up a data scientist agent ... Add a REST API and a Swagger" (board/guidance/2026-11-15-json-first-rest-api-and-swagger.md).
-- **Writes (repository):** `board/team/datasci.places/**`, `board/runs/datasci.places/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/build/features/openapi*.mjs`, `newsroom/build/features/datasci-*.mjs`, `assets/vendor/swagger-ui/**`, `assets/datasci/**`, `data/schemas/datasci-*.schema.json`, `content/datasci/**`.
+- **Writes (repository):** `board/team/datasci.places/**`, `board/runs/datasci.places/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/build/features/openapi*.mjs`, `newsroom/build/features/datasci-*.mjs`, `assets/swagger/**`, `assets/vendor/swagger-ui/**`, `assets/datasci/**`, `data/schemas/datasci-*.schema.json`, `content/datasci/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=datasci.places@PrompTugal.dinis newsroom/tools/release.sh`.

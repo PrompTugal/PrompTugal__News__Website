@@ -1,8 +1,8 @@
 {
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
-  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.10.0",
-  "updated": "2026-11-16T01:00Z",
+  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.10.1",
+  "updated": "2026-11-16T01:36Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -25,13 +25,15 @@
     "23:10: v1.9.0, ABPs for viz.places, data.places, detective.places, ios.places (show the power), before their first commits; 183 fixtures",
     "23:30: datasci.places ABP (provisional, no brief yet); the four reviewed: detective.places wrote one line of build code and its connections in a folder, data.places a content page (board/abp/reports/2026-11-15-23b.md)",
     "00:40: datasci.places on Dinis's recorded word (guidance 23:30), grant follows it (v1.9.2); the first place article (Faro) in mandate; detective.places edited data.places's feature (board/abp/reports/2026-11-16-00.md)",
-    "01:00, at Dinis's word: R8 and the place and detective ABPs allow public contacts from public sites (official channel, linked, dated) and public people in their professional role; personal contacts of private individuals stay out (v1.10.0)"
+    "01:00, at Dinis's word: R8 and the place and detective ABPs allow public contacts from public sites (official channel, linked, dated) and public people in their professional role; personal contacts of private individuals stay out (v1.10.0)",
+    "01:35: five place articles in mandate; 19 of 19; datasci assets/swagger/** restored (v1.10.1) (board/abp/reports/2026-11-16-01.md)"
   ],
   "next": [
     "Hourly: the site-identity check and a review of new commits; the place agents' first articles checked for their own town",
     "Keep site-identity.mjs's export checkSites and its shape: the build imports it"
   ],
   "asks": [
+    "Dinis: may the conductor send_message the sessions it started at your word, for routing (11 this hour)?",
     "Dinis: may place agents write data/stories/<slug>/ for their own articles (place.faro@ did)? (board/abp/reports/2026-11-16-00.md)",
     "Dinis: relaxations proposed at 23:30: data.places@ content/query/**, (detective.places@'s withdrawn) (board/abp/reports/2026-11-15-23b.md)",
     "Dinis: ios.places@ works in PrompTugal__App__iOS, which this ABP and its hooks do not reach; should abp@ put its ABP and hooks in that repository too?",
@@ -233,6 +235,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "public contacts allowed, at Dinis's word (v1.10.0)"
+    },
+    {
+      "started": "2026-11-16T01:26Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "five place articles in mandate; v1.10.1"
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",
