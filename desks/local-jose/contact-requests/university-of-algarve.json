@@ -1,0 +1,38 @@
+{
+ "type": "contact-request/v1",
+ "from": "local@PrompTugal.jose",
+ "company": "university-of-algarve",
+ "company_note": "the record exists in data/organisations/ (not of the media kind). This draft is for one unit: the Escola Superior de Educação e Comunicação, for its licenciatura em Ciências da Comunicação. Addressed to the school, never to a student or a teacher by name",
+ "purpose": "Ask the school that teaches Ciências da Comunicação in Faro to check the Faro page on PrompTugal.news, which links the university, and tell it that people can contribute to the page for their town",
+ "share": [
+  "https://promptugal.news/algarve/faro/",
+  "https://promptugal.news/contribute/",
+  "https://promptugal.news/about/participant.html"
+ ],
+ "proposed_text_pt": "Assunto: A página de Faro no PrompTugal.news: podem ver se está certa, e há lugar para quem estuda comunicação\n\nOlá equipa da Escola Superior de Educação e Comunicação,\n\nPublicámos há pouco uma página sobre Faro no PrompTugal.news, uma redação nova, feita em Portugal, que acompanha a tecnologia e a inteligência artificial no Algarve, concelho a concelho:\nhttps://promptugal.news/algarve/faro/\n\nA página liga à Universidade do Algarve em vários pontos. Pedimos uma coisa: podem ver se o que lá está sobre a Universidade é correto? Cada facto tem a sua fonte; se algo estiver errado, respondam e corrigimos na própria página, com data.\n\nEscrevemos à Escola porque ensina Ciências da Comunicação em Faro. Quem quiser escrever connosco sobre a sua terra pode fazê-lo sem conta e sem ser jornalista; verificamos cada facto e publicamos o que estiver bom, com o nome do autor apenas se ele disser que sim:\nhttps://promptugal.news/contribute/\nO que publicamos fica com a licença CC BY 4.0, com crédito ao autor. Por agora não há pagamento.\n\nAs páginas estão, por agora, em inglês. Responder é opcional.\n\nCumprimentos,\n[quem envia, a escolher por uma pessoa]\nPrompTugal.news\n\nO PrompTugal.news pertence a uma equipa que também trabalha na RiskMandate. A nossa declaração (em inglês): https://promptugal.news/about/participant.html\n\nEscrito por um agente de IA, revisto e enviado por uma pessoa. Encontrámos este contacto no vosso site. Se preferirem não receber mais mensagens nossas, respondam e não voltamos a escrever.",
+ "proposed_text": "Subject: The Faro page on PrompTugal.news: could you check it, and there is room for people who study communication\n\nHello Escola Superior de Educação e Comunicação team,\n\nWe have just published a page about Faro on PrompTugal.news, a new newsroom, made in Portugal, that follows technology and AI in the Algarve, council by council:\nhttps://promptugal.news/algarve/faro/\n\nThe page links to the Universidade do Algarve in several places. We ask one thing: could you check that what it says about the University is right? Each fact carries its source; if anything is wrong, reply and we correct it on the page itself, dated.\n\nWe are writing to the School because it teaches Ciências da Comunicação in Faro. Anyone who would like to write with us about their town can do so without an account and without being a journalist; we check every fact and publish what is good, with the author's name only if they say yes:\nhttps://promptugal.news/contribute/\nWhat we publish is under CC BY 4.0, with credit to its author. There is no payment for now.\n\nThe pages are in English for now. Answering is optional.\n\nBest regards,\n[the sender, for a person to choose]\nPrompTugal.news\n\nPrompTugal.news belongs to a team that also works on RiskMandate. Our disclosure: https://promptugal.news/about/participant.html\n\nDrafted by an AI agent, reviewed and sent by a person. We found this contact on your website. If you would rather not hear from us again, reply and we will not write again.",
+ "sender": null,
+ "sender_note": "left for a person to choose",
+ "by": null,
+ "by_note": "no date set by this desk",
+ "channel": {
+  "kind": "published-newsroom-page",
+  "url": "https://www.ualg.pt/curso/1456",
+  "read": "2026-11-16",
+  "note": "the course page on the university's own site, which publishes the school's contact at its foot"
+ },
+ "checked": {
+  "the town page links the university": "https://promptugal.news/algarve/faro/ carries links to www.ualg.pt (read 2026-11-16, 20:15 UTC)",
+  "the page answers 200": "2026-11-16",
+  "the course": "licenciatura, Escola Superior de Educação e Comunicação, Campus da Penha, Faro; its listed careers begin with journalism in press, radio and television (https://www.ualg.pt/curso/1456, read 2026-11-16)"
+ },
+ "status": "draft",
+ "holds": [
+  "Nothing is sent by an agent. A person reviews, chooses the sender and sends.",
+  "Dinis's decision on what a first email to a news organisation may promise is open (content/newsroom/decisions/what-a-first-contact-to-a-news-organisation-may-promise.md); it says no first contact goes out before he answers. This draft offers only the page check, the link and credit, and the invitation to contribute.",
+  "The pages shared are in English only.",
+  "The /contribute/ page still opens with Web Summit and lists summit tasks; a local reader finds no town task there yet (desks/local-jose/awareness/what-promptugal-news-is.md, gaps).",
+  "The town pages share with a card that names the Web Summit Lisbon edition (desks/local-jose/awareness/share-check.md).",
+  "A person re-opens the town page before sending and checks that it still links the organisation."
+ ]
+}
