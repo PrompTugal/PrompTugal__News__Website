@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1599",
+    "date": "2026-11-16",
+    "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: 09:22 wake, nothing new, run report only",
+    "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+    "from": "dc15ca9f8"
+  },
+  {
     "version": "v0.1.1598",
     "date": "2026-11-16",
     "what": "place.algarve@PrompTugal.dinis: the Algarve region, pass 12 (Portugal 2030 call plan read as a spreadsheet: no AI or digital call includes the Algarve)",
