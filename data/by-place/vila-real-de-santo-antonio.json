@@ -47,7 +47,8 @@
       "url": "https://www.barlavento.pt/?p=399594",
       "read_on": "2026-11-15",
       "ai_path": "The counters and the marketplace produce footfall and sales data for the town centre, which is the raw material for AI forecasting. The article itself mentions no AI.",
-      "steps": 2
+      "steps": 2,
+      "significance": "local"
     },
     {
       "title": "Ayamonte's innovation node is meant to reach Vila Real de Santo António",
@@ -57,7 +58,8 @@
       "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
       "read_on": "2026-11-15",
       "ai_path": "A neighbouring council is building an AI assistant (step 0 for Ayamonte) and an innovation node that would serve the Eurocidade, VRSA included (step 2 for the town).",
-      "steps": 2
+      "steps": 2,
+      "significance": "neighbours"
     }
   ],
   "sources": [
@@ -211,6 +213,12 @@
       "value": "The council runs an Entrepreneurship Office, part of the Invest Algarve network, open to companies and to individuals with potential. Its brochure lists help structuring projects, workshops, talks with specialists and meetings with and between entrepreneurs, with the goal of creating firms and jobs locally. The council's business pages also list a funds desk and an applications unit. We did not read the funds desk, which sends visitors to a sign-in.",
       "source_url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
       "read_on": "2026-11-16"
+    },
+    {
+      "label": "Entrepreneurship Office, official channel",
+      "value": "The council's own brochure publishes the Entrepreneurship Office's general email gabineteempreendedorismo@cm-vrsa.pt and landline 281 510 014. It is the council's published office channel, not a person's contact.",
+      "source_url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -228,7 +236,6 @@
     "NERA runs digital projects across the Algarve (we saw DIBEST for microenterprises and a farm digitalisation survey in search results) but we have not opened a source or found one that names the municipality, so none is on the page.",
     "Local media: we found regional outlets that cover the town (Barlavento, Sul Informação, Postal do Algarve, 24notícias) but no local radio, blog or newsletter based in the municipality. Ask the council and the Eurocidade which exist. Only Sul Informação gave us an RSS feed.",
     "Investors, startups, local talent and cooperatives: we found none in public sources so far. The Entrepreneurship Office's workshops and the Eurocidade's women entrepreneurs network (seen in search results, not opened) are where to look next.",
-    "Official contact channels: the guidance now lets us link a public body's own published channel with its source page, but our policy has not caught up yet, so we show none. The council's site is linked above.",
     "Algarve Evolution and the regional tech network (Algarve Tech Hub, Digital Innovators) publish no member list by municipality that we could read, so we cannot say whether any member is based in Vila Real de Santo António. The Algarve file of this publication covers the regional level."
   ],
   "voice": {
