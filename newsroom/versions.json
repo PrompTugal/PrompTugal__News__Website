@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1645",
+    "date": "2026-11-16",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "42088bb48"
+  },
+  {
     "version": "v0.1.1644",
     "date": "2026-11-16",
     "what": "place.loule@PrompTugal.dinis: account-move debrief, paused for the move",
