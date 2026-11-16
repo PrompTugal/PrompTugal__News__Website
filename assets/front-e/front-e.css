@@ -188,8 +188,17 @@
 .fe-band .fe-lstorm a { color: var(--fe-on-band); text-decoration: underline; text-underline-offset: 3px; }
 
 /* the places (conductor@, 16 Nov, at Dinis's word: the home page is the top place) */
-.fe-pl ul { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px 18px; }
+.fe-pl ul { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px 16px; }
 .fe-pl li { display: flex; flex-direction: column; gap: 2px; border-top: 1px solid var(--rule, #ccc); padding-top: 6px; }
 .fe-pl small { font: 500 12px var(--mono); opacity: .75; }
 .fe-pn { font: 400 14px var(--serif, serif); }
 .fe-pli { margin: 0 0 10px; }
+.fe-ptb { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 32px; margin: 28px auto; }
+@media (max-width: 760px) { .fe-ptb { grid-template-columns: 1fr; } }
+.fe-ptmap { width: 100%; height: auto; max-height: 640px; display: block; }
+.fe-ptmap .es { fill: #d9d4c7; } .fe-ptmap { background: #dfe8ec; border-radius: 4px; } .fe-ptmap .pt { fill: var(--paper-2, #efeadf); stroke: var(--ink, #222); stroke-width: .8; }
+.fe-ptmap .on { fill: var(--brand-green, #0b6b2e); stroke: #fff; stroke-width: .8; } .fe-ptmap a:hover .on { fill: var(--brand-red, #c8102e); }
+.fe-ptmap .next circle { fill: none; stroke: var(--brand-red, #c8102e); stroke-width: 1.2; } .fe-ptmap .next text { font: 500 8px var(--sans); fill: var(--ink, #222); }
+.fe-ptmap .rg { font: 700 10px var(--sans); fill: var(--brand-green, #0b6b2e); }
+.fe-ptk { font: 500 12px var(--sans); } .fe-ptk span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: middle; margin: 0 4px 0 10px; }
+.fe-ptk .on { background: var(--brand-green, #0b6b2e); } .fe-ptk .next { border: 1.5px solid var(--brand-red, #c8102e); }

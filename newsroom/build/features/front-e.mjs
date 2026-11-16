@@ -100,6 +100,25 @@ function placesOf(ctx, all) {
     return { L, rows }
 }
 
+// the national map (Dinis, 16 Nov: "put a Portuguese map ... all the cities"): mainland Portugal from
+// assets/portugal/portugal-outline.json (Natural Earth, public domain), a linked dot per place in places.json at its
+// seat, sized by its stories, and a ring per district capital still to come (assets/portugal/next-places.json)
+function ptMap(ctx, PR) {
+    const rd = f => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, f), 'utf8')) } catch { return null } }
+    const O = rd('assets/portugal/portugal-outline.json'), N = rd('assets/portugal/next-places.json')
+    if (!O) return ''
+    const V = { lon0: -9.65, lon1: -6.1, lat0: 36.85, lat1: 42.2 }, k = Math.cos(39.5 * Math.PI / 180), W = 420
+    const sc = W / ((V.lon1 - V.lon0) * k), H = Math.round((V.lat1 - V.lat0) * sc)
+    const X = lo => ((lo - V.lon0) * k * sc).toFixed(1), Y = la => ((V.lat1 - la) * sc).toFixed(1)
+    const land = (n, c) => (O.countries[n] || []).map(poly => `<path class="${c}" d="${poly.map(r => 'M' + r.map(([lo, la]) => `${X(lo)},${Y(la)}`).join('L') + 'Z').join('')}"/>`).join('')
+    const esc = ctx.md.esc
+    const pins = PR.filter(r => Array.isArray(r.p.at)).map(r => { const rr = (2.5 + Math.min(5, Math.sqrt(r.news + r.map) * 0.8)).toFixed(1)
+        return `<a href="${r.p.path}index.html"><title>${esc(r.p.name)}: ${r.news} local AI stories, ${r.map} on the AI map</title><circle class="on" cx="${X(r.p.at[0])}" cy="${Y(r.p.at[1])}" r="${rr}"/></a>` }).join('')
+    const next = (N?.places || []).map(q => `<g class="next"><title>${esc(q.name)}: coming next</title><circle cx="${X(q.at[0])}" cy="${Y(q.at[1])}" r="3.2"/><text x="${(+X(q.at[0]) + 6).toFixed(1)}" y="${(+Y(q.at[1]) + 3).toFixed(1)}">${esc(q.name)}</text></g>`).join('')
+    const alg = `<text class="rg" x="${X(-8.9)}" y="${Y(36.9)}">The Algarve</text>`
+    return `<svg class="fe-ptmap" viewBox="0 0 ${W} ${H}" role="img" aria-label="Map of mainland Portugal: ${PR.length} places covered in the Algarve, ${(N?.places || []).length} district capitals coming next">${land('Spain', 'es')}${land('Portugal', 'pt')}${next}${pins}${alg}</svg>`
+}
+
 function fillE(page, ctx) {
     const esc = ctx.md.esc, { AGENDA, itemsOn } = load(ctx)
     const fo = frontOrder(ctx), placed = fo.filter(a => a.meta.region || a.meta.town).sort((x, y) => String(y.meta.date).localeCompare(String(x.meta.date)))
@@ -128,10 +147,10 @@ function fillE(page, ctx) {
         spectrum: stripHtml(ctx, ''),   // GAMMA-Ray's cards under the lead (THE RESTART: the agentic edition), left out with no data
         ...(() => { const tk = PR.filter(r => r.a || r.n).map(r => r.a ? { href: r.a.rel, date: r.a.meta.date, when: esc(r.p.name), what: esc(cut(r.a.meta.title, 80)), where: '' } : { href: r.p.path + 'index.html', date: '', when: esc(r.p.name), what: esc(cut(r.n.title || r.n.headline || '', 80)), where: '' })
             return { '#week': many('week', tk), '#week_again': many('week', tk.map(w => ({ ...w, tab: ' tabindex="-1"' }))) } })(),
-        places_intro: esc(PL.copy?.home_places_intro || ''),
+        places_intro: esc(PL.copy?.home_places_intro || ''), ptmap: ptMap(ctx, PR),
         '#places': many('place', PR.map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} · ${r.map}`, newest: r.a ? put(item('pnew'), { href: r.a.rel, title: esc(cut(r.a.meta.title, 70)) }) : '' }))),
-        '#briefing': many('brief', homeModel(ctx).briefing.map(x => ({ href: x.href, title: x.title, beat: x.beat }))),  // the correspondent's five (front-page.json 'briefing'), else the next five
-        '#stories': all.slice(1, 5).map(story).join(''),
+        '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town)).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
+        '#stories': placed.slice(1, 9).map(story).join(''),
         '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),
         '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
         '#nums': many('num', [[PR.length, 'Algarve places, an agent each'], [PR.reduce((s, r) => s + r.news, 0), 'local AI stories, sourced'], [PR.reduce((s, r) => s + r.map, 0), 'AI builders mapped'], [signed, 'stories, signed']].map(([value, label]) => ({ value, label }))),

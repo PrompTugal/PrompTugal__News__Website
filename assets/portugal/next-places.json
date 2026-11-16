@@ -1,0 +1,24 @@
+{
+ "about": "The next wave of PrompTugal.news by place (Dinis, 16 November 2026, about 04:00 UTC: 'add all the main capitals of all the districts ... Beja, Viseu, Porto, etc., and Lisbon'): the capitals of mainland Portugal's 18 districts not yet in data/by-place/places.json (Faro is), with their seats' coordinates [lon, lat]. Shown on the home page's map as places still to come; (kept in assets/portugal/ until data.places@ gives it a schema under data/) each moves into places.json, with its own site key and research, when its agent starts. Kept by conductor@PrompTugal.dinis until the place agents take it over.",
+ "by": "conductor@PrompTugal.dinis",
+ "updated": "2026-11-16",
+ "places": [
+  {"id": "lisboa", "name": "Lisboa", "district": "Lisboa", "at": [-9.139, 38.722]},
+  {"id": "porto", "name": "Porto", "district": "Porto", "at": [-8.611, 41.150]},
+  {"id": "braga", "name": "Braga", "district": "Braga", "at": [-8.426, 41.545]},
+  {"id": "viana-do-castelo", "name": "Viana do Castelo", "district": "Viana do Castelo", "at": [-8.834, 41.693]},
+  {"id": "vila-real", "name": "Vila Real", "district": "Vila Real", "at": [-7.744, 41.300]},
+  {"id": "braganca", "name": "Bragança", "district": "Bragança", "at": [-6.757, 41.806]},
+  {"id": "aveiro", "name": "Aveiro", "district": "Aveiro", "at": [-8.645, 40.641]},
+  {"id": "viseu", "name": "Viseu", "district": "Viseu", "at": [-7.914, 40.661]},
+  {"id": "guarda", "name": "Guarda", "district": "Guarda", "at": [-7.268, 40.537]},
+  {"id": "coimbra", "name": "Coimbra", "district": "Coimbra", "at": [-8.429, 40.203]},
+  {"id": "castelo-branco", "name": "Castelo Branco", "district": "Castelo Branco", "at": [-7.491, 39.822]},
+  {"id": "leiria", "name": "Leiria", "district": "Leiria", "at": [-8.807, 39.744]},
+  {"id": "santarem", "name": "Santarém", "district": "Santarém", "at": [-8.686, 39.236]},
+  {"id": "portalegre", "name": "Portalegre", "district": "Portalegre", "at": [-7.431, 39.297]},
+  {"id": "setubal", "name": "Setúbal", "district": "Setúbal", "at": [-8.891, 38.524]},
+  {"id": "evora", "name": "Évora", "district": "Évora", "at": [-7.909, 38.571]},
+  {"id": "beja", "name": "Beja", "district": "Beja", "at": [-7.865, 38.015]}
+ ]
+}
