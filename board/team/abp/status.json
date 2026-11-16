@@ -1,8 +1,8 @@
 {
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
-  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.13.0",
-  "updated": "2026-11-16T13:36Z",
+  "state": "paused for the account move (relayed by the conductor from Dinis, about 15:30 UTC on 16 November; not yet in a guidance file); hourly schedule switched off by the conductor; policy v1.13.0",
+  "updated": "2026-11-16T15:42Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -31,11 +31,11 @@
     "04:40: place.districts@ (new, no record of Dinis's word): provisional narrow ABP, no sub-agents (v1.11.0); conductor built in dev's paths at a claimed word (board/abp/reports/2026-11-16-04.md)",
     "05:40: place.districts@ on Dinis's recorded word (04:00): sub-agents and places.json granted (v1.12.0); 26 of 26 sites signed (board/abp/reports/2026-11-16-05.md)",
     "07:40: translator@ ABP on Dinis's recorded word (03:20), v1.13.0; 36 of 36 sites signed; debrief refreshed (board/abp/reports/2026-11-16-07.md)",
-    "13:35: reviewer@PrompTugal.vicky published an article outside its grant; recorded (board/abp/reports/2026-11-16-13.md); 36 of 36"
+    "13:35: reviewer@PrompTugal.vicky published an article outside its grant; recorded (board/abp/reports/2026-11-16-13.md); 36 of 36",
+    "15:40: the account-move debrief (board/team/abp/debriefs/2026-11-16-account-move.md)"
   ],
   "next": [
-    "Hourly: the site-identity check and a review of new commits; the place agents' first articles checked for their own town",
-    "Keep site-identity.mjs's export checkSites and its shape: the build imports it"
+    "On the new account: a new key (abp-promptugal-c), then the round in the debrief, section 6"
   ],
   "asks": [
     "Dinis: a standing grant for the conductor (the home page and the by-place frame), or \"at your word, each time\"? And confirm its 04:25 words: the Now data (IPMA, flights) and its article about the site (da4a556)",
@@ -279,8 +279,14 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "Vicky's reviewer published; 36/36"
+    },
+    {
+      "started": "2026-11-16T15:26Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "paused for the account move; debrief written"
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",
-  "latest_debrief": "board/team/abp/debriefs/2026-11-15-handover.md"
+  "latest_debrief": "board/team/abp/debriefs/2026-11-16-account-move.md"
 }
