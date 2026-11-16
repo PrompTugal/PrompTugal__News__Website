@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "alcoutim",
+  "type": "place",
+  "name": "Alcoutim",
+  "kind": "city",
+  "located_in": "place:algarve",
+  "matches": [],
+  "source": "data/by-place/places.json",
+  "note": "A municipality of the Algarve in the by-place list (data/by-place/places.json); its boundaries and neighbours still to be checked against DGT's CAOP."
+}

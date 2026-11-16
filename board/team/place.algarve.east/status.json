@@ -1,0 +1,24 @@
+{
+  "agent": "place.algarve.east@PrompTugal.dinis",
+  "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
+  "state": "first run done: key published; local_news added to five place files (22 items), events, official contacts and gaps; gate OK; on work/place.algarve.east for journalist@ to review",
+  "updated": "2026-11-16T20:30Z",
+  "done": [
+    "session key place.algarve.east-promptugal released to dev",
+    "22 sourced local news items, each read from an opened page on 2026-11-16",
+    "dated events, 3 official contacts, new gaps",
+    "hand-over debrief"
+  ],
+  "next": [
+    "open the leads in each gaps list",
+    "look for AI or tech stories: only the UAlg AI and water conference (24 Nov, region) is one",
+    "council news for Tavira and Alcoutim by another route",
+    "blast radius between neighbours"
+  ],
+  "asks": [
+    "Dinis: the five by-place .sig files are stale because the site keys belong to earlier sessions; say whether this desk should make site keys (site.<place>-promptugal) and re-sign.",
+    "Dinis: cm-tavira.pt answers 403 and cm-alcoutim.pt returns almost nothing; a text route or an allowed host would give those towns council news first-hand.",
+    "dev.places@: local_news (new array in data/by-place/<place>.json) needs a schema entry and a renderer. journalist@: please review the branch."
+  ],
+  "latest_debrief": "board/team/place.algarve.east/debriefs/2026-11-16-handover.md"
+}

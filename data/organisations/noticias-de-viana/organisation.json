@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "noticias-de-viana",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Notícias de Viana",
+  "names_as_listed": [
+    "Notícias de Viana"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: a personal director address is published on the ficha técnica: personal contact published, not recorded. beats per journalist not stated.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:viana-do-castelo"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://noticiasdeviana.pt/",
+    "owner": {
+      "name": "Diocese de Viana do Castelo",
+      "source": {
+        "url": "https://noticiasdeviana.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://noticiasdeviana.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://noticiasdeviana.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://noticiasdeviana.pt/contactos/",
+      "source": {
+        "url": "https://noticiasdeviana.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Pe. João Basto",
+        "role": "Diretor (ficha técnica)",
+        "source": {
+          "url": "https://noticiasdeviana.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Micaela Barbosa",
+        "role": "Redação",
+        "source": {
+          "url": "https://noticiasdeviana.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "António Faia",
+        "role": "Redação",
+        "source": {
+          "url": "https://noticiasdeviana.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://noticiasdeviana.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://noticiasdeviana.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contact page"
+      },
+      {
+        "url": "https://noticiasdeviana.pt/sobre-nos/",
+        "read_at": "2026-11-16",
+        "how": "about (informing since 1916)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://noticiasdeviana.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://noticiasdeviana.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://noticiasdeviana.pt/sobre-nos/",
+      "read_at": "2026-11-16",
+      "how": "about (informing since 1916)",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

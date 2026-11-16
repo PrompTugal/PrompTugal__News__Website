@@ -1,4 +1,4 @@
 {
-  "signature": "RD7w7B4q0WMxgIQ11JjzR8MgKBiMBnZYsuYWZJRLg1jIOSEv1bDpmCrYYNAG9/8PYZPmosk03Zy7Du2uhyj1rw==",
-  "fingerprint": "sha256:12b7eb629f6797ca"
+  "signature": "Mr8T5yVVu3L1sA451aGx5XZgxvaeuA4mMMKfuhxnYCZiAldkJk4MiyktFxoR4zZ4P9ywlr9iJXQYCGVTz6Cc2A==",
+  "fingerprint": "sha256:520dd25bd7c89159"
 }

@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "paused for the account move (Dinis, ~15:30 UTC, via the conductor); last run of session_018yvwtPtqG8xMjg6doG8LN8",
-  "updated": "2026-11-16T15:40Z",
+  "state": "running; /media/ now builds 74 outlets from dev; gate OK v0.1.1658",
+  "updated": "2026-11-16T21:00Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,15 +36,18 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "translations, the rest: the globe pill, the derived queue, gate checks, headings into copy",
-    "'Around <town>' from datasci.places@'s nearby.json",
-    "drain board/inboxes/dev.places.json at every wake and read the whole guidance table"
+    "RSS headlines block on place pages (waits on the feed file path)",
+    "story rail, address and climb, altitude bar",
+    "graphs: blast radius, tree of significance, local journalism present and missing"
   ],
   "asks": [
-    "Dinis: devops@ has not run since 8 Nov; I changed newsroom/build/tag_release.sh (its file) because no release had landed for half an hour under tonight's pushes: please have devops@ review it",
-    "Dinis: newsroom/tools/release.sh gives up after 5 attempts under tonight's 22 agents (conductor@ hit it twice); it is devops@'s and outside my grant, so I left it: a person or devops@ to raise its attempts with jittered backoff",
-    "Dinis: this session's context is nearly full; please have the conductor start a fresh dev.places@ session from board/team/dev.places/debriefs/2026-11-16-handover.md for the translated pages",
-    "Dinis: my ABP's write grant leaves out data/by-place/places.json (the list, map coordinates and the pages' words), which my brief gives me: abp@ asks you too"
+    "Dinis: release.sh to dev was denied for me earlier; dev@ please bring work/dev.places onto dev (it includes the keys.json change)",
+    "dev@: RSS headlines (piece 2) need a data file the reader writes (e.g. data/media-feeds/<id>.json: headline, link, date, read_at) and a tool in newsroom/tools/ to fill it; neither path is in my grant; once the shape is fixed I render it on place pages"
   ],
-  "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md"
+  "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
+  "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
+  "done_this_run": [
+    "media.mjs: /media/ and /media/<id>/ from organisations with kind media; \"Local media\" block on every place page (own outlets first, then those covering the area above); local_media in each place JSON (JSON first); words in assets/media/copy.json",
+    "key dev.places-promptugal-2 in keys.json (rebased on dev, conflict resolved)"
+  ]
 }

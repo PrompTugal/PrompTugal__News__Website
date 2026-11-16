@@ -1,0 +1,42 @@
+{
+ "6a44c07f76c1d587": {
+  "t": "Il parco scientifico dell'Università di Aveiro gestisce un acceleratore per l'IA nel turismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Aveiro's science park runs an accelerator for ",
+  "ok": false
+ },
+ "6a54fc65d47bc36b": {
+  "t": "Una startup portoghese che vende un sistema di agenti di IA ai team di marketing, con la maggior parte dei ricavi dagli Stati Uniti. Il round seed è stato guidato da Armilar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Portuguese startup selling an AI agent system to marketing",
+  "ok": false
+ },
+ "6a5b544478ac32f9": {
+  "t": "L'ecosistema dell'hub è al Web Summit Lisbon, nove delle sue aziende incubate nell'hub di innovazione di InvestBraga. L'articolo cita ASOagentAI (un agente di IA per la crescita delle app), eDynamics (dati di movimento trasformati in avvisi sul rischio di infortuni), LogisticsWMS (un sistema di magazzino con IA) e Zixago (infrastruttura sintetica per l'IA).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The hub's ecosystem is at Web Summit Lisbon, nine of them in",
+  "ok": false
+ },
+ "6ad8263eac434a48": {
+  "t": "Il Primo Ministro firma un appello internazionale per un'IA avanzata più sicura",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Prime Minister signs an international call for safer advance",
+  "ok": false
+ },
+ "6ae1602a04a24cb6": {
+  "t": "La 24.ª EPIA Conference on Artificial Intelligence si è svolta dal 1° al 3 ottobre 2025 nel campus di Gambelas, ospitata dall'Università dell'Algarve con l'Associazione Portoghese per l'IA come patrona, con 16 sessioni tematiche che andavano dall'IA in medicina e dall'IA generativa all'IA e IoT in agricoltura e all'IA nei trasporti. Una scuola sull'IA l'ha preceduta il 29 e 30 settembre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 24th EPIA Conference on Artificial Intelligence ran from",
+  "ok": false
+ }
+}

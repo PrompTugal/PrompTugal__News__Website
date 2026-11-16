@@ -1,0 +1,102 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "outreach@PrompTugal.dinis",
+ "run": "2026-11-16T19-37-16Z",
+ "started": "2026-11-16T19:37:16.910Z",
+ "ended": "2026-11-16T20:52:40Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T19:41:25.940Z",
+   "chars": 1181,
+   "sha256": "02f4e5da18dfa34c",
+   "head": "<task-notification>\n<task-id>br1aun7c6</task-id>\n<tool-use-id>toolu_01VBCpe9iG9CCi3z6qUajuDb</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/f2441678-63a4-5791-8b55-79fb9"
+  },
+  {
+   "t": "2026-11-16T19:43:24.277Z",
+   "chars": 499,
+   "sha256": "1a1ba705cee448c2",
+   "head": "<task-notification>\n<task-id>bd2lyfzf5</task-id>\n<tool-use-id>toolu_0123SZi9EHvsr1zLzb34M6bP</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/f2441678-63a4-5791-8b55-79fb9"
+  },
+  {
+   "t": "2026-11-16T19:43:26.875Z",
+   "chars": 411,
+   "sha256": "08bd4863a1794d2b",
+   "head": "<task-notification>\n<task-id>bgzvwrdnr</task-id>\n<tool-use-id>toolu_01HLgfcFKHJYx9SnFVXFk2Ad</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/f2441678-63a4-5791-8b55-79fb9"
+  },
+  {
+   "t": "2026-11-16T19:47:20.795Z",
+   "chars": 280,
+   "sha256": "5884f6855fd5f167",
+   "head": "<task-notification>\n<task-id>bpmegdz87</task-id>\n<summary>Monitor event: \"release finishing\"</summary>\n<event>[Monitor expired after 10m with no events delivered. Re-arm it if you still need the watch"
+  },
+  {
+   "t": "2026-11-16T19:47:27.865Z",
+   "chars": 487,
+   "sha256": "ba2f0c99877abbed",
+   "head": "<task-notification>\n<task-id>ba4r5q3tx</task-id>\n<tool-use-id>toolu_01PE4KmVoyQw63AruLXZwdSL</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/f2441678-63a4-5791-8b55-79fb9"
+  },
+  {
+   "t": "2026-11-16T20:50:25.163Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T20:50:24.909Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 24,
+  "by_kind": {
+   "read": 1,
+   "other": 3,
+   "git": 5,
+   "release": 6,
+   "shell": 6,
+   "web": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 24,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 6,
+  "tool_calls": 24,
+  "in_mandate": 24,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

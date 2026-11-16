@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "expresso",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Expresso",
+  "names_as_listed": [
+    "Expresso"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Site could not be read (bot protection); owner, masthead, contacts, feed all unverified. https://expresso.pt/rss returned 403. Not guessed.",
+  "media": {
+    "outlet_kind": "newspaper",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://expresso.pt",
+    "sources": [
+      {
+        "url": "https://expresso.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "fetch refused by bot protection (HTTP 403 / JS challenge)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://expresso.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "fetch refused by bot protection (HTTP 403 / JS challenge)",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

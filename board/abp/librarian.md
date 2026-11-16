@@ -1,7 +1,7 @@
 ---
 title: "ABP: librarian@PrompTugal.dinis"
 agent: librarian@PrompTugal.dinis
-policy: board/abp/policies.json v1.13.0 (sha256:5ee0b6078b37ba8d)
+policy: board/abp/policies.json v1.14.0 (sha256:fa8c1f4abe024264)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -12,12 +12,13 @@ authority: Dinis Cruz, operator
 
 ## Mandate (the grant)
 
-- **Focus:** the map of everything: every page, file, desk, pass, finding, decision and agent.
-- **Writes (repository):** `board/team/librarian/**`, `board/runs/librarian/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `board/catalogue.json`, `board/catalogue.md`.
+- **Focus:** the map of everything: every page, file, desk, pass, finding, decision and agent; with accountant (budgets of tokens and runs: board/budgets.json, board/spec-budgets-schema.md; reads what each run spent from the cloud sessions); the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json).
+- **Writes (repository):** `board/team/librarian/**`, `board/runs/librarian/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `board/catalogue.json`, `board/catalogue.md`, `board/budgets.json`, `board/spec-budgets-schema.md`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
-- **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=librarian@PrompTugal.dinis newsroom/tools/release.sh`.
-- **Never:** moves or rewrites others' files.
+- **Also granted:** reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools).
+- **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Push only to your branch: `git push -u origin work/librarian`; never `release.sh`, never `dev`.
+- **Never:** moves or rewrites others' files; lets a loop run without a budget; pushes anywhere but work/librarian.
 
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
 

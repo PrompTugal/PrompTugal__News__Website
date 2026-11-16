@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "jornal-nordeste",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal Nordeste",
+  "names_as_listed": [
+    "Jornal Nordeste"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner not stated on pages read (shared pressnordeste.pt addresses with Rádio Brigantia). RSS: /rss returned 404; no feed verified.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:braganca"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.jornalnordeste.com/",
+    "contact": {
+      "page": "https://www.jornalnordeste.com/contactos",
+      "source": {
+        "url": "https://www.jornalnordeste.com/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Carina Alves",
+        "role": "Diretora",
+        "source": {
+          "url": "https://www.jornalnordeste.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Cindy Tomé",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.jornalnordeste.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Rita Teixeira",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.jornalnordeste.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Fernando Subtil",
+        "role": "Fundador",
+        "source": {
+          "url": "https://www.jornalnordeste.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "n/a"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.jornalnordeste.com/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://www.jornalnordeste.com/contactos",
+        "read_at": "2026-11-16",
+        "how": "contact page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.jornalnordeste.com/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.jornalnordeste.com/contactos",
+      "read_at": "2026-11-16",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

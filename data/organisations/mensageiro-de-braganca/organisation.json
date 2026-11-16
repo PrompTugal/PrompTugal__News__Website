@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "mensageiro-de-braganca",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Mensageiro de Bragança",
+  "names_as_listed": [
+    "Mensageiro de Bragança"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Bragança diocese. Gaps: owner. ficha técnica (URL guessed returned 404). contact page. people. RSS: /feed returned 404.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:braganca"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://mdb.pt/",
+    "sources": [
+      {
+        "url": "https://mdb.pt/estatuto-editorial",
+        "read_at": "2026-11-16",
+        "how": "editorial statute: diocesan regional weekly"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://mdb.pt/estatuto-editorial",
+      "read_at": "2026-11-16",
+      "how": "editorial statute: diocesan regional weekly",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

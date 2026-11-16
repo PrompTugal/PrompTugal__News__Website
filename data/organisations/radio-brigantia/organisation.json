@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-brigantia",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Brigantia",
+  "names_as_listed": [
+    "Rádio Brigantia"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: RSS: no feed link on home page. capital partly held by Pressnordeste, Lda. (90%); individual shareholders not recorded.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:braganca"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.brigantia.pt/",
+    "owner": {
+      "name": "Cooperativa de Radiodifusão Brigantia, CRL",
+      "source": {
+        "url": "https://www.brigantia.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.brigantia.pt/contactos",
+      "source": {
+        "url": "https://www.brigantia.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Carina Alves",
+        "role": "Diretora de Informação",
+        "source": {
+          "url": "https://www.brigantia.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Cindy Tomé",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.brigantia.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Rita Teixeira",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.brigantia.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Rui Mouta",
+        "role": "Direção Geral / Diretor de Programação",
+        "source": {
+          "url": "https://www.brigantia.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "management"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.brigantia.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://www.brigantia.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "contact page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.brigantia.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.brigantia.pt/contactos",
+      "read_at": "2026-11-16",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

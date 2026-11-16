@@ -1,0 +1,55 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "lusa",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Lusa - Agência de Notícias de Portugal",
+  "names_as_listed": [
+    "Lusa - Agência de Notícias de Portugal"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Owner, masthead, public contact and feed not extracted. Feed not verified.",
+  "media": {
+    "outlet_kind": "agency",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.lusa.pt",
+    "contact": {
+      "page": "https://www.lusa.pt/contact-us",
+      "source": {
+        "url": "https://www.lusa.pt/contact-us",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.lusa.pt",
+        "read_at": "2026-11-16",
+        "how": "home read"
+      },
+      {
+        "url": "https://www.lusa.pt/about-lusa",
+        "read_at": "2026-11-16",
+        "how": "fetched, no ownership text extracted"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.lusa.pt",
+      "read_at": "2026-11-16",
+      "how": "home read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.lusa.pt/about-lusa",
+      "read_at": "2026-11-16",
+      "how": "fetched, no ownership text extracted",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

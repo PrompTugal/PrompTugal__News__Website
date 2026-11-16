@@ -1,0 +1,55 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "noticias-de-vila-real",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Notícias de Vila Real",
+  "names_as_listed": [
+    "Notícias de Vila Real"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner. ficha técnica content not captured. people. public contact address.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:vila-real"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://noticiasdevilareal.sapo.pt/",
+    "feeds": [
+      {
+        "url": "https://noticiasdevilareal.sapo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://noticiasdevilareal.sapo.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://noticiasdevilareal.sapo.pt/contactos/",
+      "source": {
+        "url": "https://noticiasdevilareal.sapo.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://noticiasdevilareal.sapo.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "page fetched; text not captured by extractor"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://noticiasdevilareal.sapo.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "page fetched; text not captured by extractor",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

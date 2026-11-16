@@ -1,0 +1,86 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev@PrompTugal.dinis",
+ "run": "2026-11-16T19-32-26Z",
+ "started": "2026-11-16T19:32:26.706Z",
+ "ended": "2026-11-16T20:13:03Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "78f359747977dee9"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T20:09:30.467Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T20:09:30.239Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 17,
+  "by_kind": {
+   "release": 7,
+   "other": 1,
+   "git": 3,
+   "shell": 6
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 17,
+  "commits": [
+   {
+    "sha": "1c796353b",
+    "subject": "dev@PrompTugal.dinis: search leaves translated twins out of the English index (docs.json 415 KB to 320 KB)",
+    "files": 1
+   },
+   {
+    "sha": "f472f4d32",
+    "subject": "dev@PrompTugal.dinis: its session key (dev-promptugal, public half only), status, session notes and run report",
+    "files": 4
+   },
+   {
+    "sha": "79862e15c",
+    "subject": "dev@PrompTugal.dinis: release.sh is a queue: one release per clone, the gate once, a fast re-push",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 17,
+  "in_mandate": 17,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

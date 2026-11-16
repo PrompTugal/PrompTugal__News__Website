@@ -1,7 +1,7 @@
 ---
 title: "ABP: ontologist@PrompTugal.dinis"
 agent: ontologist@PrompTugal.dinis
-policy: board/abp/policies.json v1.13.0 (sha256:5ee0b6078b37ba8d)
+policy: board/abp/policies.json v1.14.0 (sha256:fa8c1f4abe024264)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -12,17 +12,18 @@ authority: Dinis Cruz, operator
 
 ## Mandate (the grant)
 
-- **Focus:** data/ schemas and the derivation, the knowledge graph.
-- **Writes (repository):** `board/team/ontologist/**`, `board/runs/ontologist/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `data/**`, `newsroom/build/lib/derive.mjs`, `newsroom/build/lib/data.mjs`, `newsroom/build/lib/datacheck.mjs`, `board/projects/**`.
+- **Focus:** data/ schemas and the derivation, the knowledge graph; with data.places (the data online and queryable: data/query/, the provenance line; its query features and vendored code under security@'s pass) folded in, and the media kind of data/organisations/ (the schema is its own; researcher@ and local@PrompTugal.jose write the outlets); sub-agents allowed; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json).
+- **Writes (repository):** `board/team/ontologist/**`, `board/runs/ontologist/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `data/**`, `newsroom/build/lib/derive.mjs`, `newsroom/build/lib/data.mjs`, `newsroom/build/lib/datacheck.mjs`, `board/projects/**`, `newsroom/build/features/data-*.mjs`, `assets/query/**`, `assets/vendor/**`, `data/schemas/data-*.schema.json`, `data/schemas/provenance*.schema.json`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
-- **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=ontologist@PrompTugal.dinis newsroom/tools/release.sh`.
+- **Also granted:** sub-agents (Agent, SendMessage) inside its own run.
+- **Sends to:** `dev.send.sgraph.ai`, `openrouter.ai` only (the agents' inboxes, and the hosts named). Release with `AGENT=ontologist@PrompTugal.dinis newsroom/tools/release.sh`.
 - **Never:** hand-edits a derived file.
 
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
 
 - Any connector: Gmail, Google Drive, Calendar, Claude Docs, any MCP server but GitHub's read tools (R3).
-- New sessions, agents, scheduled tasks, wake-ups, triggers, environments, credentials, workflows (R4).
+- New sessions, agents beyond its own sub-agents, scheduled tasks, wake-ups, triggers, environments, credentials, workflows (R4).
 - Pushing anywhere but `dev`; force-push, branch deletion, tags, history rewrites, empty commits (R5).
 - Writing outside the paths above; `.claude/` and `board/abp/` (abp@'s), `board/HOLD.md` (security@'s), `version.txt` and `versions.json` (CI's), `design/brand/` (Dinis's yes) (R6).
 - Comments, issues, pull requests, merges, files or workflow runs through GitHub's API; publishing artifacts; email; posts; any send to a host not listed (R7).

@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "campeao-das-provincias",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Campeão das Províncias",
+  "names_as_listed": [
+    "Campeão das Províncias"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: generic email protected on page, not readable. legal owner company not stated beyond \"Grupo Media Centro\" branding. weekly on paper (Thursday), daily online.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:coimbra",
+      "place:aveiro"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.campeaoprovincias.pt",
+    "owner": {
+      "name": "Grupo Media Centro (as shown on site header and footer)",
+      "source": {
+        "url": "https://www.campeaoprovincias.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.campeaoprovincias.pt/rss",
+        "format": "rss",
+        "source": {
+          "url": "https://www.campeaoprovincias.pt/rss",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.campeaoprovincias.pt/contactos",
+      "source": {
+        "url": "https://www.campeaoprovincias.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Lino Vinhal",
+        "role": "Director",
+        "source": {
+          "url": "https://www.campeaoprovincias.pt/sobre-nos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.campeaoprovincias.pt/sobre-nos",
+        "read_at": "2026-11-16",
+        "how": "about page"
+      },
+      {
+        "url": "https://www.campeaoprovincias.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "contacts, email protected on page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.campeaoprovincias.pt/sobre-nos",
+      "read_at": "2026-11-16",
+      "how": "about page",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.campeaoprovincias.pt/contactos",
+      "read_at": "2026-11-16",
+      "how": "contacts, email protected on page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

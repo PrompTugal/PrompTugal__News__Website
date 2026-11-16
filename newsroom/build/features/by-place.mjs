@@ -18,6 +18,8 @@ const okUrl = u => typeof u === 'string' && /^https?:\/\/[^\s]+$/i.test(u.trim()
 // a URL safe inside a markdown link: http(s) only, no spaces or bare parentheses (they would end the link)
 const url = u => okUrl(u) ? u.trim().replace(/\(/g, '%28').replace(/\)/g, '%29') : ''
 
+import { mediaBlock, localMedia } from './media.mjs'
+import { placeFeed } from '../lib/feeds.mjs'
 function load(ctx) {
     const raw = ctx.readJSON(LIST)
     const byId = new Map()
@@ -156,6 +158,7 @@ function sideCol(ctx, L, p, rel, inside) {
     const v = p.voice || {}
     let md = ''
     if (inside.length) md += `{.mini-h}\nInside ${esc(ctx, p.name)}\n\n${inside.map(x => `- [${esc(ctx, x.name)}](${ctx.link(rel, `${x.path}index.html`)})`).join('\n')}\n\n`
+    md += mediaBlock(ctx, p, rel, [p.id, p.parent, 'algarve', 'portugal'].filter(Boolean))
     md += `{.mini-h}\nEvents\n\n` + (p.events.length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
     if (p.kind !== 'country' && !nowBlock(ctx, p)) md += `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
     if (p.extras.length) md += `{.mini-h}\nIn figures\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
@@ -354,6 +357,10 @@ export function pages(ctx) {
         const alts = [{ lang: 'en-GB', rel: pg.rel }, { lang: 'x-default', rel: pg.rel }, ...tr.filter(t => t.rel === `${t.lang}/${pg.rel}`).map(t => ({ lang: t.lang, rel: t.rel }))]
         pg.alternates = alts
         for (const t of tr) if (t.rel === `${t.lang}/${pg.rel}`) t.alternates = alts
+        // the place's feeds (lib/feeds.mjs) in the head, for feed readers and local media; no link in the page (dev@, 16 Nov)
+        const place = L.list.find(x => `${x.path}index.html` === pg.rel)
+        if (place) pg.feeds = [{ type: 'application/rss+xml', title: `PrompTugal.news: ${place.name}`, rel: `api/v1/by-place/${place.id}/feed.xml` },
+            { type: 'application/feed+json', title: `PrompTugal.news: ${place.name}`, rel: `api/v1/by-place/${place.id}/feed.json` }]
     }
     return [...en, ...tr]
 }
@@ -401,6 +408,7 @@ function placeRecord(ctx, L, p) {
         counts: { ai_news: p.ai_news.length, ai_map: p.ai_map.length, events: p.events.length, sources: p.sources.length, articles: arts.length },
         ai_news: p.ai_news.map(a => ({ ...a, provenance: provenance(p, r, a, 'story') })), ai_map: p.ai_map.map(m => ({ ...m, provenance: provenance(p, r, { ...m, url: m.source_url }, 'map entry') })), events: p.events, sources: p.sources, extras: p.extras, start_company: p.start_company, investors: p.investors, talent: p.talent, contacts: p.contacts, gaps: p.gaps, voice: p.voice || null,
         articles: arts,
+        local_media: localMedia(ctx, p, [p.id, p.parent, 'algarve', 'portugal'].filter(Boolean)),
         // the wider stories its page shows ("From the Algarve" or "From Portugal"), so the page holds nothing its JSON does not
         ...(local(p) ? (() => { const from = inAlgarve(L, p) ? 'algarve' : 'portugal', src = L.byId.get(from); return { wider_news: { from, items: (src ? src.ai_news : []).slice(0, 4) } } })() : {}),
         team: { agent: p.agent, status: `${SITE_URL}board/team/${p.agent.split('@')[0]}/status.json`, debriefs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/team/${p.agent.split('@')[0]}/debriefs`, runs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/runs/${p.agent.split('@')[0]}` },
@@ -450,6 +458,7 @@ export function api(ctx) {
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}.json`, schema: null, data: { about: W(L, 'api_place_about', { name: r.name }), version: ctx.VERSION, ...r } })),
         ...recs.flatMap(r => { try { return [{ path: `api/v1/by-place/${r.id}/now.json`, schema: null, data: ctx.readJSON(`data/by-place/now/${r.id}.json`) }] } catch { return [] } }),
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/agents.json`, schema: null, data: agentsFile(ctx, L, L.byId.get(r.id)) })),
+        ...recs.flatMap(r => placeFeed(SITE_URL, r).map(f => ({ ...f, schema: null }))),   // feeds out (lib/feeds.mjs; dev@, 16 Nov)
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/articles.json`, schema: null, data: { about: W(L, 'api_articles_about', { name: r.name }), place: r.id, version: ctx.VERSION, articles: r.articles } })),
     ]
 }

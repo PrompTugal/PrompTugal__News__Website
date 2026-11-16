@@ -1,0 +1,34 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "L'Algarve e i suoi 17 luoghi",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care: un progetto pilota di teleassistenza di freguesia per gli anziani di Aljezur",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira, ó pá, dove il fiume è più calmo di qualsiasi sala server e i sette archi hanno visto più migrazioni del vostro fornitore cloud.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "In un'intervista del marzo 2024, il responsabile IT del comune di Ayamonte ha detto che il comune stava preparando un assistente virtuale di IA per cittadini e aziende e pianificava un nodo di innovazione da 2 a 3 milioni di euro su turismo e supporto digitale per le piccole imprese. Ha descritto il nodo come il primo a coinvolgere una Eurocidade, con parti dell'Algarve portoghese. È il racconto del comune stesso, senza date di lancio, e non abbiamo confermato che il nodo sia andato avanti.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": false
+ }
+}

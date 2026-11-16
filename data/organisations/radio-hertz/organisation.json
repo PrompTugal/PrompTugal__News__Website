@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-hertz",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Hertz",
+  "names_as_listed": [
+    "Rádio Hertz"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Tomar; Médio Tejo. Gaps: places covered inferred from site sections and headlines; not stated formally.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:santarem"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://radiohertz.pt",
+    "owner": {
+      "name": "Associação Cultural e Recreativa Rádio Hertz",
+      "source": {
+        "url": "https://radiohertz.pt/218-2/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://radiohertz.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://radiohertz.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://radiohertz.pt/contactos-2/",
+      "source": {
+        "url": "https://radiohertz.pt/contactos-2/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "António Feliciano",
+        "role": "Diretor de Informação",
+        "source": {
+          "url": "https://radiohertz.pt/218-2/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "João Fernando Franco Jesus",
+        "role": "Diretor de Programas",
+        "source": {
+          "url": "https://radiohertz.pt/218-2/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "programming"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://radiohertz.pt/218-2/",
+        "read_at": "2026-11-16",
+        "how": "institutional page with estatuto editorial"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://radiohertz.pt/218-2/",
+      "read_at": "2026-11-16",
+      "how": "institutional page with estatuto editorial",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

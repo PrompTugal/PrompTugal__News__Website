@@ -1,0 +1,83 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "the-portugal-news",
+  "type": "organisation",
+  "kind": "media",
+  "name": "The Portugal News",
+  "names_as_listed": [
+    "The Portugal News"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Owner stated only as copyright holder, not from a ficha técnica. Although national in scope, the company is registered in Lagoa (Algarve); regional agent may also cover it.",
+  "media": {
+    "outlet_kind": "newspaper",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "en"
+    ],
+    "website": "https://www.theportugalnews.com",
+    "owner": {
+      "name": "Anglopress - Edições e Publicidade, Lda (copyright holder)",
+      "source": {
+        "url": "https://www.theportugalnews.com",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://theportugalnews.com/rss",
+        "format": "rss",
+        "source": {
+          "url": "https://theportugalnews.com/rss",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml;charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.theportugalnews.com/contacts",
+      "source": {
+        "url": "https://www.theportugalnews.com/contacts",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Richard Clingen",
+        "role": "CEO",
+        "source": {
+          "url": "https://www.theportugalnews.com/contacts",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Bruno G. Santos",
+        "role": "Editorial Director",
+        "source": {
+          "url": "https://www.theportugalnews.com/contacts",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.theportugalnews.com/contacts",
+        "read_at": "2026-11-16",
+        "how": "contacts read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.theportugalnews.com/contacts",
+      "read_at": "2026-11-16",
+      "how": "contacts read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

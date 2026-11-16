@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-de-tras-os-montes",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Trás-os-Montes",
+  "names_as_listed": [
+    "Diário de Trás-os-Montes"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: publisher email: personal contact published, not recorded.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:vila-real"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.diariodetrasosmontes.com/",
+    "owner": {
+      "name": "António Manuel Pereira",
+      "source": {
+        "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.diariodetrasosmontes.com/feed/rss.xml",
+        "format": "rss",
+        "source": {
+          "url": "https://www.diariodetrasosmontes.com/feed/rss.xml",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "source": {
+        "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "António Pereira",
+        "role": "Diretor e editor",
+        "source": {
+          "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Bruno Taveira",
+        "role": "Redação (Vila Real)",
+        "source": {
+          "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "Vila Real"
+      },
+      {
+        "name": "Diogo Rodrigues",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Claudia C. Pinto",
+        "role": "Redação (Vila Real e Mesão Frio)",
+        "source": {
+          "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "Vila Real"
+      },
+      {
+        "name": "Carlos Espírito Santo",
+        "role": "Redação (Valpaços)",
+        "source": {
+          "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "Valpaços"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica; ERC 126812"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica; ERC 126812",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "antena-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Antena Minho",
+  "names_as_listed": [
+    "Antena Minho"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner (shares address and staff with Correio do Minho; relation not stated on pages read). RSS not found.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:braga"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://antenaminho.pt/",
+    "contact": {
+      "page": "https://antenaminho.pt/contactos",
+      "source": {
+        "url": "https://antenaminho.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Rui Miguel Graça",
+        "role": "Director Informação",
+        "source": {
+          "url": "https://antenaminho.pt/equipa",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "José Portugal",
+        "role": "Director de Programação",
+        "source": {
+          "url": "https://antenaminho.pt/equipa",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "programming"
+      },
+      {
+        "name": "Rui Alberto Sequeira",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://antenaminho.pt/equipa",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "José Paulo Silva",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://antenaminho.pt/equipa",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Carlos Costinha Sousa",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://antenaminho.pt/equipa",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Joana Russo Belo",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://antenaminho.pt/equipa",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Rui Serapicos",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://antenaminho.pt/equipa",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://antenaminho.pt/equipa",
+        "read_at": "2026-11-16",
+        "how": "team page"
+      },
+      {
+        "url": "https://antenaminho.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "contact page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://antenaminho.pt/equipa",
+      "read_at": "2026-11-16",
+      "how": "team page",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://antenaminho.pt/contactos",
+      "read_at": "2026-11-16",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

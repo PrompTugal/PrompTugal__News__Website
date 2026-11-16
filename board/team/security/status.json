@@ -1,23 +1,24 @@
 {
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
-  "state": "paused for the account move (conductor relay of Dinis, ~15:25 UTC); a new session on another account takes over from the debrief",
-  "updated": "2026-11-16T15:40Z",
-  "reviewed_to": "e576ddeb5",
+  "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
+  "updated": "2026-11-16T20:10Z",
+  "reviewed_to": "8c7a7398b",
   "hold": false,
   "done": [
-    "03:05 16 Nov: 35 commits clean; talk pane must-fix 2 accepted: go to enable; first drained comments to post-review",
-    "04:05 16 Nov: 29 commits clean; talk pane on; official-contact gate rule read, S42",
-    "05:05 16 Nov: 37 commits clean; S42 closed; 18 district keys in one session noted",
-    "06:05 16 Nov: 35 commits clean",
     "07:05 16 Nov: 16 commits clean; translator@'s key",
     "08:05 16 Nov: 21 commits clean, nothing new for me",
     "09:05 16 Nov: 16 commits clean, nothing new for me",
     "10:05 16 Nov: 16 commits clean; a lost key entry restored and verified byte for byte; my check now compares bundles; S43",
-    "11:05 16 Nov: 32 commits clean (bundles checked, none lost), nothing new for me"
+    "11:05 16 Nov: 32 commits clean (bundles checked, none lost), nothing new for me",
+    "19:35 16 Nov (new session): key security-promptugal-2, old entry superseded; 54 commits since 2387a4e4b clean; pre-review of the restart and the news organisations pass: go with conditions (reviews/2026-11-16-1935-prereview-restart-and-media-pass.md); S44, S45 opened, S24 recurred",
+    "20:05 16 Nov: 43 commits (the restart's first runs) reviewed: no secret; contacts all official public-body channels with source and date; S43 recurred (four key bundles overwritten in place); S44 partly met; S45 mitigated; S46 opened (conductor.b@'s remote_conduct grant); no hold"
   ],
   "next": [
-    "new session: onboard from debriefs/2026-11-16-account-move.md, new key security-promptugal-2, review from 2387a4e4b"
+    "post-review the first media records, the media schema and the feed reader against conditions B1 to B12",
+    "check at each wake that no account-A session commits under a role whose new key is in board/keys.json",
+    "read my inbox once conductor.b@ re-issues it to security-promptugal-2",
+    "scan this account's transcripts (S22) once the sessions run"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
@@ -39,7 +40,7 @@
     "S19": "decided: stays in the environment; the ABP controls access (abp@)",
     "S22": "account B's transcripts unscanned (conductor.b@)",
     "S23": "decided with S19 (abp@)",
-    "S24": "first prompts omit the pki-agent pin (conductor@)",
+    "S24": "low, recurred 16 Nov: the restart's first prompts omit the pki-agent pin (conductor.b@)",
     "S25": "decided by Dinis 9 Nov 10:55: everyone on the team trusted to push and publish; reviewed after",
     "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
     "S30": "decided with S25; open: a key for dev.venues@PrompTugal.angelo",
@@ -48,10 +49,15 @@
     "S38": "low: the satellite loop's stop-gap fetches from EUMETSAT in the reader's browser; serve frames from our origin (dev@PrompTugal.vicky)",
     "S40": "low, recurred 15 Nov: dev@PrompTugal.vicky writes front-page.json outside any recorded grant (abp@, Vicky's conductor)",
     "S41": "medium (privacy): an article names where three team members live, on Dinis's word only (Dinis)",
-    "S43": "low: keys.json entries can be dropped or share ids; gate check asked (dev@, abp@)"
+    "S43": "low, recurred 16 Nov 19:31: four old key bundles overwritten in place (researcher@, place.districts@ restore them superseded; dev@ gate check)",
+    "S44": "medium, partly met (ontologist@'s check): still the email on the outlet's domain with source and date (dev@, ontologist@)",
+    "S45": "mitigated: values draft says not built yet, For Dinis page open, outreach holds sends; template's meter line to reword (outreach@)",
+    "S46": "low: conductor.b@'s remote_conduct grant (sessions, scheduled tasks) to stay scoped and be reviewed after the restart (abp@, Dinis)"
   },
   "asks": [
-    "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md"
+    "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md",
+    "Dinis: S45: what may an email to news outlets promise about money? Your answer goes on content/newsroom/decisions/the-values-page-wording.md (the editor-in-chief recommends B: 'not built yet', nothing promised). Until then nothing is sent and nothing is promised.",
+    "conductor.b@ (not Dinis): re-issue my lane and inbox sealed to security-promptugal-2; add the pki-agent sha256 pin to every first prompt (S24)"
   ],
   "wakes": [
     {
@@ -136,5 +142,7 @@
   "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",
   "blocks": [],
   "handover": "board/team/security/debriefs/2026-11-16-account-move.md",
-  "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md"
+  "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md",
+  "session": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/",
+  "debrief": "board/team/security/debriefs/2026-11-16-account-move.md"
 }

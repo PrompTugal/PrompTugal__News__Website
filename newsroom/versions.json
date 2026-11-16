@@ -1,5 +1,96 @@
 [
   {
+    "version": "v0.1.1660",
+    "date": "2026-11-16",
+    "what": "outreach@PrompTugal.dinis: five first-contact drafts to news organisations from the media records, in local@'s shared shape, with each offer checked live",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "bb1a3b5e8"
+  },
+  {
+    "version": "v0.1.1659",
+    "date": "2026-11-16",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "cd113992d"
+  },
+  {
+    "version": "v0.1.1658",
+    "date": "2026-11-16",
+    "what": "designer@PrompTugal.dinis: the look of /values/ (spec V1 to V6, mock-ups from journalist@'s draft, no AI); status, notes, run report",
+    "by": "designer@PrompTugal.dinis",
+    "from": "2a935fce3"
+  },
+  {
+    "version": "v0.1.1657",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.jose: local@'s first runs read; the three cards report in cards/; two requests (the path in local@'s grant; four questions for Dinis); first run report",
+    "by": "conductor@PrompTugal.jose",
+    "from": "8780bca4f"
+  },
+  {
+    "version": "v0.1.1656",
+    "date": "2026-11-16",
+    "what": "local@PrompTugal.jose: Faro and Loulé read in part: two outlets with their feeds in the media kind's fields, contributors, three draft first contacts, the merge request",
+    "by": "local@PrompTugal.jose",
+    "from": "0665c93bf"
+  },
+  {
+    "version": "v0.1.1655",
+    "date": "2026-11-16",
+    "what": "place.monchique@PrompTugal.dinis: account-move hand-over debrief (rewritten after a container reset), status paused",
+    "by": "place.monchique@PrompTugal.dinis",
+    "from": "31cbf1463"
+  },
+  {
+    "version": "v0.1.1654",
+    "date": "2026-11-16",
+    "what": "security@PrompTugal.dinis: 20:05 wake: 43 commits clean of secrets and personal contacts; S43 recurred (four key bundles overwritten); S44 partly met; S45 mitigated; S46",
+    "by": "security@PrompTugal.dinis",
+    "from": "c099abd6b"
+  },
+  {
+    "version": "v0.1.1653",
+    "date": "2026-11-16",
+    "what": "local@PrompTugal.jose: set-up run: outlet hosts refused by this environment, so no town checked; inventories for Faro and Loulé, the awareness draft, a share check, two requests, status and debrief",
+    "by": "local@PrompTugal.jose",
+    "from": "8c7a7398b"
+  },
+  {
+    "version": "v0.1.1652",
+    "date": "2026-11-16",
+    "what": "local@PrompTugal.jose: Jose's local desk opened (README only): the Algarve towns' outlets, contributors and draft first contacts",
+    "by": "local@PrompTugal.jose",
+    "from": "95d52523d"
+  },
+  {
+    "version": "v0.1.1651",
+    "date": "2026-11-16",
+    "what": "journalist@PrompTugal.dinis: place.districts' Aveiro and Leiria passes brought onto dev; one correction owed; review record",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "c20fce765"
+  },
+  {
+    "version": "v0.1.1650",
+    "date": "2026-11-16",
+    "what": "place.algarve.central@PrompTugal.dinis: session key place.algarve.central-promptugal",
+    "by": "place.algarve.central@PrompTugal.dinis",
+    "from": "f8c052b17"
+  },
+  {
+    "version": "v0.1.1649",
+    "date": "2026-11-16",
+    "what": "designer@PrompTugal.dinis: the live data up front: spec LD1 to LD6 with mock-ups from IPMA's files (no AI); status, debrief, run report",
+    "by": "designer@PrompTugal.dinis",
+    "from": "6e01bf19a"
+  },
+  {
+    "version": "v0.1.1648",
+    "date": "2026-11-16",
+    "what": "place.algarve.west@PrompTugal.dinis: session key place.algarve.west-promptugal",
+    "by": "place.algarve.west@PrompTugal.dinis",
+    "from": "02b069f5a"
+  },
+  {
     "version": "v0.1.1647",
     "date": "2026-11-16",
     "what": "conductor.b@PrompTugal.dinis: the plan to restart the PrompTugal team on this account, for Dinis's go",

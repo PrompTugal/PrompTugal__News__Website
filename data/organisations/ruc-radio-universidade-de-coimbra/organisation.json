@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "ruc-radio-universidade-de-coimbra",
+  "type": "organisation",
+  "kind": "media",
+  "name": "RUC - Rádio Universidade de Coimbra",
+  "names_as_listed": [
+    "RUC"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: no RSS feed found at /feed or link rel. contact details not read from contacts page. people not read.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:coimbra"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.ruc.pt",
+    "owner": {
+      "name": "Associação Académica de Coimbra (section origin, per history page; current licence holder not stated)",
+      "source": {
+        "url": "https://www.ruc.pt/sobre",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.ruc.pt/contactos",
+      "source": {
+        "url": "https://www.ruc.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.ruc.pt/sobre",
+        "read_at": "2026-11-16",
+        "how": "history page: 107.9 FM, student-run"
+      },
+      {
+        "url": "https://www.ruc.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "contacts page listed"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ruc.pt/sobre",
+      "read_at": "2026-11-16",
+      "how": "history page: 107.9 FM, student-run",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.ruc.pt/contactos",
+      "read_at": "2026-11-16",
+      "how": "contacts page listed",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

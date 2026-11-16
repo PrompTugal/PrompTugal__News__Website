@@ -31,7 +31,7 @@ function build() {
     const entries = [...Object.entries(P.roles), ...workers.map(wk => [wk, { ...P.roles[wk.split('.')[0]], focus: `a ${wk.split('.')[0]} worker (${wk.split('.').slice(1).join('.')}), on Sonnet: ${P.workers.about.split(': ')[1] || ''}`.replace(/\.$/, ''), relax_candidates: null, never: `pushes to dev or merges its own work (${wk.split('.')[0]}@ reviews it)` }])]
     for (const [role, r] of entries) {
         const g = abp.grantOf({ kind: 'team', role, agent: `${role}@PrompTugal.dinis` }, P)
-        const flags = [g.subagents && 'sub-agents (Agent, SendMessage) inside its own run', g.notify_dinis && 'a push notification to Dinis (PushNotification)', g.remote_read && "reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools)"].filter(Boolean)
+        const flags = [g.subagents && 'sub-agents (Agent, SendMessage) inside its own run', g.notify_dinis && 'a push notification to Dinis (PushNotification)', g.remote_read && "reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools)", g.remote_conduct && "conducting the team's sessions and scheduled tasks (claude-code-remote: create_session, send_message, create_trigger, update_trigger, fire_trigger, set_session_title, set_session_tags), only at Dinis's recorded word given in its own session (R4)"].filter(Boolean)
         const md = `---
 title: "ABP: ${role}@PrompTugal.dinis"
 agent: ${role}@PrompTugal.dinis
@@ -201,6 +201,38 @@ function test() {
         [T('place.faro'), bash('git push origin dev'), 'allow', 'a place agent pushes dev (release_to_dev, not a worker)'],
         [T('place.faro'), bash('AGENT=place.tavira@PrompTugal.dinis newsroom/tools/release.sh'), 'deny', 'a place agent releases as another'],
         [T('place.faro'), { tool_name: 'Agent', tool_input: {} }, 'deny', 'a place agent starts a sub-agent'],
+        // v1.14.0: the restart's merged desks (16 November 2026)
+        [T('place.algarve.west'), w('data/by-place/lagos.json'), 'allow', 'the west desk writes a town of its own'],
+        [T('place.algarve.west'), w('data/by-place/faro.json'), 'deny', 'the west desk writes a central town'],
+        [T('place.algarve.central'), w('data/by-place/faro.json.sig'), 'allow', 'the central desk signs a town of its own'],
+        [T('place.algarve.east'), w('data/by-place/algarve.json'), 'allow', 'the east desk writes the region page'],
+        [T('place.algarve.west'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'a desk runs its towns as sub-agents'],
+        [T('place.algarve.west'), bash('git push -u origin work/place.algarve.west'), 'allow', 'a desk pushes its work branch'],
+        [T('place.algarve.west'), bash('git push origin dev'), 'deny', 'a desk pushes dev'],
+        [T('place.algarve.west'), bash('AGENT=place.algarve.west@PrompTugal.dinis newsroom/tools/release.sh'), 'deny', 'a desk releases to dev (its reviewer does)'],
+        [T('place.districts'), w('data/by-place/portugal.json'), 'allow', 'districts also writes the national page'],
+        [T('place.districts'), bash('git push origin dev'), 'deny', 'districts pushes dev'],
+        [T('dev.places'), w('content/graph/g.json'), 'allow', 'dev.places writes graphs (dev.graphs folded in)'],
+        [T('dev.places'), w('assets/viz/x.js'), 'allow', 'dev.places writes viz (viz.places folded in)'],
+        [T('dev.places'), w('.github/workflows/deploy-pages.yml'), 'deny', 'dev.places writes CI'],
+        [T('dev.places'), bash('git push origin dev'), 'deny', 'dev.places pushes dev'],
+        [T('designer.places'), w('design/brand/logo.svg'), 'deny', 'designer.places changes the brand'],
+        [T('designer.places'), w('design/experiments/a.html'), 'allow', 'designer.places writes experiments'],
+        [T('designer.places'), bash('curl -s https://openrouter.ai/api/v1/models'), 'allow', 'designer.places reaches openrouter.ai'],
+        [T('translator'), bash('curl -s -X POST https://openrouter.ai/api/v1/chat/completions'), 'deny', 'translator has no openrouter.ai (Claude sub-agents, spec-translations.md)'],
+        [T('ontologist'), w('newsroom/build/features/data-query.mjs'), 'allow', 'ontologist writes data.places features'],
+        [T('datasci.places'), w('board/tools/local-now.mjs'), 'allow', 'datasci writes the live reader'],
+        [T('datasci.places'), w('data/by-place/now/faro.json'), 'allow', 'datasci writes the live data'],
+        [T('datasci.places'), bash('curl -s https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/hp-daily-forecast-day0.json'), 'allow', 'datasci reads IPMA'],
+        [T('datasci.places'), bash('curl -s -X POST -d @x https://example.com/x.json'), 'deny', 'datasci sends to another host'],
+        [T('sherpa'), w('desks/synthetic/x.md'), 'allow', 'sherpa writes the personas'],
+        [T('librarian'), w('board/budgets.json'), 'allow', 'librarian writes the budgets (accountant folded in)'],
+        [T('researcher'), w('data/organisations/a-voz-do-algarve/organisation.json'), 'allow', 'researcher writes media records'],
+        [T('conductor.b'), w('board/guidance/x.md'), 'allow', "conductor.b writes Dinis's guidance"],
+        [T('conductor.b'), { tool_name: 'mcp__claude-code-remote__create_session', tool_input: {} }, 'allow', 'conductor.b starts a session (at his word)'],
+        [T('conductor.b'), { tool_name: 'mcp__claude-code-remote__archive_session', tool_input: {} }, 'deny', 'conductor.b archives a session'],
+        [T('conductor.b'), { tool_name: 'mcp__claude-code-remote__create_environment', tool_input: {} }, 'deny', 'conductor.b changes an environment'],
+        [T('conductor'), { tool_name: 'mcp__claude-code-remote__create_session', tool_input: {} }, 'deny', 'the paused conductor still starts nothing'],
         [T('place.sao-bras-de-alportel'), w('data/by-place/sao-bras-de-alportel.json'), 'allow', 'a hyphenated place id'],
         [T('place.silves'), bash('HOME=/root/.site-silves node pki-agent.mjs keygen --session --name site.silves@PrompTugal.dinis'), 'allow', "a place agent makes its own site key (silves' 21:51 false positive)"],
         [T('place.silves'), bash('node pki-agent.mjs keygen --session --name site.faro@PrompTugal.dinis'), 'deny', "a place agent makes another place's site key"],
@@ -233,7 +265,7 @@ function test() {
         [T('dev.places'), w('newsroom/build/features/by-place.mjs'), 'allow', 'dev.places writes the feature'],
         [T('dev.places'), w('data/schemas/by-place.schema.json'), 'allow', 'dev.places writes the schemas'],
         [T('dev.places'), w('data/by-place/faro.json'), 'deny', "dev.places writes a place's research"],
-        [T('dev.places'), bash('git push origin dev'), 'allow', 'dev.places pushes dev'],
+        [T('dev.places'), bash('git push origin work/dev.places'), 'allow', 'dev.places pushes its work branch (v1.14.0: a writer; dev@ reviews)'],
         [T('designer.places'), w('assets/by-place/town.css'), 'allow', 'designer.places writes the by-place assets'],
         [T('designer.places'), w('design/places/faro.md'), 'allow', 'designer.places writes design'],
         [T('designer.places'), w('design/brand/logo.svg'), 'deny', 'designer.places writes the brand'],
@@ -328,10 +360,13 @@ function reviewedAs(who, subject) {
 }
 function inGrant(who, file) { const d = abp.checkWrite(who, path.join(ROOT, file), {}, P); return d.decision === 'allow' }
 function runReport() {
-    const who = arg('--role') ? { kind: 'team', role: arg('--role'), agent: `${arg('--role')}@PrompTugal.dinis`, how: '--role' } : abp.whoAmI()
-    if (who.kind !== 'team') { console.error(`abp run-report: this session is ${who.agent || 'unidentified'} (${who.how}); pass --role`); process.exitCode = 1; return }
+    const ext = arg('--agent') && /^([a-z][a-z0-9.-]*)@PrompTugal\.([a-z]+)$/i.exec(arg('--agent'))   // an operator's agent (Jose's, Vicky's): board/runs/<role>-<operator>/
+    const who = ext ? { kind: 'external', role: ext[1].toLowerCase(), person: ext[2].toLowerCase(), agent: arg('--agent'), how: '--agent' } : arg('--role') ? { kind: 'team', role: arg('--role'), agent: `${arg('--role')}@PrompTugal.dinis`, how: '--role' } : abp.whoAmI()
+    if (who.kind === 'external' && !who.person) who.person = (/@PrompTugal\.([a-z]+)$/i.exec(who.agent) || [])[1]
+    const runKey = who.kind === 'external' ? `${who.role}-${who.person}` : who.role
+    if (who.kind !== 'team' && who.kind !== 'external') { console.error(`abp run-report: this session is ${who.agent || 'unidentified'} (${who.how}); pass --role`); process.exitCode = 1; return }
     let state = {}; try { state = JSON.parse(fs.readFileSync(STATE, 'utf8')) } catch { }
-    const since = state[who.role]?.last || null
+    const since = state[runKey]?.last || null
     const evs = readLogs().flatMap(({ f, lines }) => lines.map(e => ({ ...e, session: f.replace(/\.jsonl$/, '') }))).filter(e => (!since || e.t > since) && (!e.agent || e.agent === who.agent))
     const started = evs[0]?.t || since || now(), ended = now()
     const tools = evs.filter(e => e.ev === 'tool')
@@ -374,10 +409,10 @@ function runReport() {
         breaches,
         counts: { requests: evs.filter(e => e.ev === 'prompt').length, tool_calls: tools.length, in_mandate: tools.filter(e => e.decision === 'allow').length, out_of_mandate: attempts.length, attempts: attempts.length, breaches: breaches.length },
     }
-    const dir = path.join(ROOT, 'board', 'runs', who.role); fs.mkdirSync(dir, { recursive: true })
+    const dir = path.join(ROOT, 'board', 'runs', runKey); fs.mkdirSync(dir, { recursive: true })
     const file = path.join(dir, `${report.run}.json`)
     fs.writeFileSync(file, JSON.stringify(report, null, 1) + '\n')
-    state[who.role] = { last: ended }; fs.mkdirSync(path.dirname(STATE), { recursive: true }); fs.writeFileSync(STATE, JSON.stringify(state))
+    state[runKey] = { last: ended }; fs.mkdirSync(path.dirname(STATE), { recursive: true }); fs.writeFileSync(STATE, JSON.stringify(state))
     console.log(`abp run-report: ${path.relative(ROOT, file)}: ${report.counts.tool_calls} tool calls, ${report.counts.in_mandate} in mandate, ${report.counts.attempts} attempts, ${report.counts.breaches} breaches`)
 }
 

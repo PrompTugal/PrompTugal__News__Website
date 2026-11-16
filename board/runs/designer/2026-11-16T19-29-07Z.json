@@ -1,0 +1,97 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "designer@PrompTugal.dinis",
+ "run": "2026-11-16T19-29-07Z",
+ "started": "2026-11-16T19:29:07.654Z",
+ "ended": "2026-11-16T19:33:21Z",
+ "line": "Onboarded; key designer-promptugal-4; the live-data spec LD1-LD6 with mock-ups (no AI); no designer.places branch to review",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T19:29:07.887Z",
+   "chars": 2364,
+   "sha256": "8d0325b774bfde27",
+   "head": "You are designer@PrompTugal.dinis (Opus), started by conductor.b@PrompTugal.dinis at Dinis's word in its session (16 Nov 2026, ~19:25 UTC: \"go for it. Start all the agents\"; board/guidance/2026-11-16-"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T19:29:07.654Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 34,
+  "by_kind": {
+   "git": 6,
+   "shell": 18,
+   "web": 1,
+   "secret": 1,
+   "remote": 1,
+   "git-commit": 1,
+   "read": 6
+  }
+ },
+ "policies_executed": {
+  "R8": 1,
+  "R2": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 32,
+  "commits": [
+   {
+    "sha": "5d11c5bb1",
+    "subject": "designer@PrompTugal.dinis: my session key (designer-promptugal-4), the older entry superseded",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-16T19:29:59.312Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "cat ~/.sg-send/keys/sha256_0e6fb8566cd3031b/metadata.json: a private key or credentials file is never read into the conversation",
+    "target": "cat ~/.sg-send/keys/sha256_0e6fb8566cd3031b/metadata.json; echo; cd /home/user/PrompTugal__News__Website && python3 -c \"\nimport json;k=json.load(open('board/keys.json'))['keys'];e=k[5];b=e['bundle'];print({x:b[x] for x in b if x not in('enc"
+   },
+   {
+    "t": "2026-11-16T19:30:07.934Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in designer@PrompTugal.dinis's grant",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 34,
+  "in_mandate": 32,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

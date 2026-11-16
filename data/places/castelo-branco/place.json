@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "castelo-branco",
+  "type": "place",
+  "name": "Castelo Branco",
+  "kind": "city",
+  "located_in": "place:portugal",
+  "matches": [],
+  "source": "data/by-place/places.json",
+  "note": "A district capital of Portugal in the by-place list (data/by-place/places.json); its boundaries and neighbours still to be checked against DGT's CAOP."
+}

@@ -128,6 +128,25 @@
         "fingerprint": "sha256:7fa146267766ccce",
         "signing_fingerprint": "sha256:3342e582e3e28bf2"
       },
+      "status": "superseded",
+      "superseded_at": "2026-11-16T19:32Z",
+      "superseded_by": "designer-promptugal-4"
+    },
+    {
+      "id": "designer-promptugal-4",
+      "agent": "designer@PrompTugal.dinis",
+      "label": "designer@PrompTugal.dinis (Claude Code session, account B, from 16 November 2026)",
+      "role": "The designer of PrompTugal.news (designer@PrompTugal.dinis): design/ and the brand identity v2.0, the layouts, the logo and the editors' business cards, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 at 19:29 UTC (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf..., matching the pin in the team site's admin/tools/seal.mjs), started by conductor.b@PrompTugal.dinis at Dinis's word (board/guidance/2026-11-16-restart-here-go.md), and pushed by that session; the push is the authorisation. Not yet linked to an operator's key. The private halves stay in the session, outside this repository. A session key: it ends with its session.",
+      "added": "2026-11-16T19:32Z",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlSmD/NvvbLft3hZoxxCp\nFpr7I3d01FQbl/M7Tg+8ynB0CdXw8CVqYhEKU7PxK4jbJNAE0aB5dU0FoaEotvCf\n71IlAJ+NJ9H/AQgg9gVbKtxvFmhf2UZxPpXyKZZ6oeWLVMmU90qvEZQloBe4paAr\nSVfNTN7XZQD3IeJ1ZLMOmr/BZoGg3jkpvy263Qg7jUYklrOasNoe4NAbLbm6xDkp\nTdPqgDTJ/RGf5lP6FGJ0fshVlvgZSlk9eNhXg/uu0VvjC4cJ0p6unaQIYaXDRk/R\nKXZhfTWTs07nHN/BgyqyXq3EzoAACmLOyYlaDAC5AobYzQEhVgiP/LXv1rr2+cud\n2Sv2i7QFI0sFSOO6RR497tSbxCZN2/R/i1+v+wozvY+cmJ3kZkqwtIXx7Tz9YDj/\ntK6xX8WEARQqfhmoS1f/VAI4RoWqp30JOKJ2zIYQfIordfZ7wHqWMtPv9TowtybH\nkmxCi6oQliSNV9r1fpyKnMcUY+jqlaig3vxFNbSf7m6L8+a6cfB6OsGkcN3KZ3tg\n7csMvn1p0li49pI1GtLnNJSHf2nJN54SSvtosUfLH6T6/mZCnLmioORB6NG9Jz5a\n7qmUXeq+SdbMvFY0WrVmer2DTbQloAdKOBc45nNx/YY2KZBPBotVR+rhtOZbEDKd\n0Yz/CTyFB5BNhHIoXwLVWhcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEK+KGY0uvK/tm9AHcd8YnIvQuRCwF\nQFlwRJRyGv4jUJqG/lNASyRG4N2rPW43lgSY4ZuWR9Qxbj1SyN/pEwyZAA==\n-----END PUBLIC KEY-----\n",
+        "label": "designer@PrompTugal.dinis",
+        "fingerprint": "sha256:0e6fb8566cd3031b",
+        "signing_fingerprint": "sha256:af1c72eb0b7a1d05"
+      },
       "status": "active"
     },
     {
@@ -224,7 +243,7 @@
       "superseded_note": "The first ontologist session handed over at 21:40 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from ontologist-promptugal to ontologist-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id), as librarian@ did."
     },
     {
-      "id": "ontologist-promptugal",
+      "id": "ontologist-promptugal-1",
       "agent": "ontologist@PrompTugal.dinis",
       "label": "ontologist@PrompTugal.dinis (Claude Code session, account B)",
       "role": "The ontologist of PrompTugal.news (ontologist@PrompTugal.dinis): the data/ schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places) and its links to the team CRM, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
@@ -237,6 +256,26 @@
         "label": "ontologist@PrompTugal.dinis",
         "fingerprint": "sha256:653ccefe721ca405",
         "signing_fingerprint": "sha256:0e1d2d425f51699d"
+      },
+      "status": "superseded",
+      "superseded_at": "2026-11-16T19:40Z",
+      "superseded_by": "ontologist-promptugal",
+      "superseded_note": "The account B session handed over (account move, 16 November 2026)"
+    },
+    {
+      "id": "ontologist-promptugal",
+      "agent": "ontologist@PrompTugal.dinis",
+      "label": "ontologist@PrompTugal.dinis (Claude Code session, account A)",
+      "role": "The ontologist of PrompTugal.news (ontologist@PrompTugal.dinis): the data/ schemas and the derivation, the knowledge graph (companies, people, events, past events, topics, places) and its links to the team CRM, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on account A on 2026-11-16 (pki-agent keygen --session); the private half stays in that session.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzcgqAbbFM1y397O+i3f3\ngMtgj1wxdQkgAuwedm/bX3SjSNnn8mbjDeJ3NqT/HaczPZbfCDQj2WxxlLp4ePzM\n49hzIaWe6+LnRQm3hTJlEgN4zmHh1ooENTqYwLaIazJ2TVKJD1n9zldVQWeOLer6\nlM/5zMBRAnBDryHbGDbeGs3R6DEqHrV1QzUQ7YujaGH9yD6iqY+3545+K3yr224j\nvhREYTApPbnwjXruRkYHsQc2bjYMnnbSlnRmlkjz7w4gPS7OQXy7uNaxksEbL2Fn\nMFCj6GXGlXjLVqYGelEh2Qg7kMdrcVQ7ysVeUEfbp9kR4Ai9Qqxu0QE/3uICpV5p\nT5yxvznjK1sxpm8kn3x2HZ7THSXQzb2uBbiESn1aLf/D40dY1zuFednaA9/dycz4\nAVfZ6m4ZRwQBejOlrCe/AYTlJuUhjOzHvQtJJx2xBjaFgZQ5yDbTpjFItehRasVU\nM37HH9Ygo2gD9bmja/bZ+LkxK48KDxzOWfCcnc/tOqYW+IulbU9968pTKRVr+U36\nfI+n+iUGlIMPkw4ZDU8ckGJ+NKiAtfy16n6GZV1OvQRzQwuGeclklKlPEn7n7fTs\nTIh7U1fBPGO0dfv/y62kZHLRwQaL6fsu4/VYpFIDJwQm5/AjMVT+oGj3OLSWq6oD\n4Q8Gmzg1ePxAW+bx8p5n7bsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoOBLRtDmoq+xxSbJHHYWlmYck/wg\np44a6skqyxmgtUiTY0u4vW/0+U5O9TqaXRQa4YnNBYrvp6CLTrG/zjO18g==\n-----END PUBLIC KEY-----\n",
+        "label": "ontologist@PrompTugal.dinis",
+        "fingerprint": "sha256:53345c3fd5d4a73d",
+        "signing_fingerprint": "sha256:b0a110df3e787e6d"
       },
       "status": "active"
     },
@@ -261,7 +300,7 @@
       "superseded_note": "The first journalist session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from journalist-promptugal to journalist-promptugal-0 so the active key keeps the role's id. The articles it signed are re-signed by the new key (the gate accepts only active signers)."
     },
     {
-      "id": "journalist-promptugal",
+      "id": "journalist-promptugal-1",
       "agent": "journalist@PrompTugal.dinis",
       "label": "journalist@PrompTugal.dinis (Claude Code session, account B)",
       "role": "The journalist of PrompTugal.news (journalist@PrompTugal.dinis): owns content/articles/ in PrompTugal/PrompTugal__News__Website, publishes the desks' Ready storylines and signs each article with this key (articles/<slug>.md.sig). A session key: it ends with its session.",
@@ -275,7 +314,28 @@
         "fingerprint": "sha256:a5ff882884960f87",
         "signing_fingerprint": "sha256:b43b8a91849ccbed"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-16T19:35Z",
+      "superseded_by": "journalist-promptugal",
+      "superseded_note": "the role restarted on this account at Dinis's word (board/guidance/2026-11-16-restart-here-go.md); the 18 articles this key signed were re-signed with the new key"
+    },
+    {
+      "id": "journalist-promptugal",
+      "agent": "journalist@PrompTugal.dinis",
+      "label": "journalist@PrompTugal.dinis (Claude Code session, the restart of 16 November)",
+      "role": "The editor-in-chief of PrompTugal.news (journalist@PrompTugal.dinis): reads the place desks', the correspondent's and the partner desks' drafts, checks every fact has its source and date read, publishes content/articles/ and signs each article with this key (articles/<slug>.md.sig). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 at 19:29 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the team's pin) and pushed by that session, taking over from journalist-promptugal-1 (CLAUDE.md, 'Handing a role to a new session'). Not yet linked to the operator's key or submitted to pki.sgit.ai. The private halves stay in the session, outside this repository.",
+      "added": "2026-11-16T19:35Z",
+      "status": "active",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsnRlw5stu75C6fRxXiNF\n4im3eQ0F/zCZUVaHDFTPNhDYyc7NSH1e3sF5/ApuDihbc2OCbh0wB6d+hLZYnL/s\nVwAp67OF1E7FbdOPN/RIxUubiYH/cxoEci4B/PkuriiMwo5j57As/EZ1ADfDnf6w\nVqrRgeIxpmTCHWPKUVJOPHjvWtFmO6m8wqiO0cL4MFYDcwHUnidrSXc+qlNnt7aY\nppbLu54BBAEUhbT502gdy1yS9l7hJ2jeDi+XCjE9PaxJ8sSStQSuz97rH22fqwPd\n5BC31QaHDcAsex7bkKd0l7ml+JdU1DNwXlwB3/6VlF76IT0SBt+iAWOZCHjhZLEZ\n6R6ZJ9P9g6k4Nliwhf3FMV3Qb6jbIdpjcK02j7FketxOaXEzc3gfUjdh92PBdXqJ\nu08Ok2gfWJRENBsXTWkhEtDGSo3nxXUbT9PPMcciTA6XdT4enWfXl8KBZXO0M5wh\n+cCM280hIhszdCNa03XvNEv8g+gloTOaYIAhAuLd/9YjMCVqTr0laI8cp0trAVOQ\nUAX+F0TJwaAoacsoOGOkfZ1biRL7AOZXmRtWKs7mJMeKJUuT4qRXD1do/lYTSg0x\n7WkY94tTtC9piNMsEzEB512VWb5D+IEOQHWemQ/mYwLlVi8vMxT5gE5h83JtBbW0\n3qhonSRejp+Z5vuFL1kUv2MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEszYSmlWGqvgnF/dX8A4MBNAlw0iL\nKKWqZKcKt969ZzDtCx6O5glhirffrlPU35guCtLOPlZBWbhjFe4WKnCDug==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist@PrompTugal.dinis",
+        "fingerprint": "sha256:380feef106892497",
+        "record": "sha256:d0cea9074eee68f7",
+        "signing_fingerprint": "sha256:d0cea9074eee68f7"
+      }
     },
     {
       "id": "observability-promptugal",
@@ -362,7 +422,8 @@
         "fingerprint": "sha256:a90fa20d75018236",
         "signing_fingerprint": "sha256:2e768b7ad63c24df"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-16T19:30Z by security-promptugal-2 (the restart on this account; the old session paused at the account move, 15:40Z)"
     },
     {
       "id": "accountant-promptugal",
@@ -440,7 +501,7 @@
       "superseded_note": "The first librarian session handed over at 21:30 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from librarian-promptugal to librarian-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
     },
     {
-      "id": "librarian-promptugal",
+      "id": "librarian-promptugal-1",
       "agent": "librarian@PrompTugal.dinis",
       "label": "librarian@PrompTugal.dinis (Claude Code session, account B)",
       "role": "The librarian of PrompTugal.news (librarian@PrompTugal.dinis): the map of every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it (board/catalogue.json); answers \"where is X?\"; feeds the newsroom's search. A session key: it ends with its session.",
@@ -453,6 +514,25 @@
         "label": "librarian@PrompTugal.dinis",
         "fingerprint": "sha256:a1bcc67afa9970d6",
         "signing_fingerprint": "sha256:b7d903294669247b"
+      },
+      "status": "superseded",
+      "superseded": "2026-11-16T19:32Z",
+      "superseded_by": "librarian-promptugal"
+    },
+    {
+      "id": "librarian-promptugal",
+      "agent": "librarian@PrompTugal.dinis",
+      "label": "librarian@PrompTugal.dinis (Claude Code session, restarted 16 November 2026)",
+      "role": "The librarian of PrompTugal.news (librarian@PrompTugal.dinis): the map of every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it (board/catalogue.json); answers \"where is X?\"; feeds the newsroom's search. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session (session_01Kw9UwEN53pY1UeTB8yoASM) on 16 November 2026 at 19:32 UTC, when conductor.b@ restarted the team at Dinis's word (pki-agent.mjs keygen --session), taking over from librarian-promptugal-1 (CLAUDE.md, 'Handing a role to a new session'). Not yet linked to the operator's key.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtU/fBJi5mriMFs1R9hel\nNzmZL6szUOVgtE4QIP5XXzI83hfssFUqx8hnHPsGb3PVp3+ZB3ge/9S96KIWojCv\nYE5gANOX8sF+j0SA80H6Ht0c5rZRnG1pTqiJus3AKYNoTyAFLLYlm6FR2YdKpneT\nulas2O0hhY67Aex1NK7Wc5gTYg/5DNZSSdDitRdxfnONgQpRDvZLJM0DcUSzHd3q\nLaYrMhQd+TfUSF0SY5qC87N9S0OnxJUoFMiLIQQOuUKj1U+X0dLUKGoTLoYRyX7N\nwRArcDbmBjgw9qX0aWKdhvC5yXiy6CkVhTD770dt+bUBqcaGcg+p5OfrnS8K7OJZ\nGhyG/TpaDuoyPnlDgZvRjVoJg9bS52HbneRxis9/xdKZgaps86OEFMjI2SQ2VM3c\nwQC708DHfBWgcCWfcZ+tN7chBewyfyhJNlIt7ZWXbeF+70HTJEBFATwx1ICkTnsq\n9yYK/uuWdgZVi2bEaQpKRoktj9nCYa4hbx2c0yTKX11WsLV+EjVT4huoD28LGU02\nPKqV4uNpXpm4hOX1BQq9colp37rQVD7UkFqBB9uFGpeSrgR/bzCvn9rTbxwy0rTI\nvptBCFK/rX096Dr3AoiO0un2JWoY8x9Qe9RTSvbwSVqUBXViRIcgnvmQW/a3XE48\nWBIkTqCjukfWbVuy3C9g5OMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJ3jAfzBTg0j0PBiO5fCTT0NBg97H\nuopVKuUhXVHoav3Z+r+7o3a+h3mawOTpgSJFXkjeNWdKoT6baosKgzniCQ==\n-----END PUBLIC KEY-----\n",
+        "label": "librarian@PrompTugal.dinis",
+        "fingerprint": "sha256:3d3d6c2d4761fb0e",
+        "signing_fingerprint": "sha256:ddf6ca1995a07790"
       },
       "status": "active"
     },
@@ -489,7 +569,8 @@
         "fingerprint": "sha256:a56d19b2ed3616f5",
         "signing_fingerprint": "sha256:efde361dad975baa"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-16T19:52Z by abp-promptugal-c (a new abp@ session, started by conductor.b@PrompTugal.dinis at Dinis's word, 16 November 2026, about 19:25 UTC)"
     },
     {
       "id": "customers-promptugal",
@@ -1242,7 +1323,8 @@
         "record": "sha256:fd327f683fdeb6ad",
         "signing_fingerprint": "sha256:fd327f683fdeb6ad"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-16T19:35Z by outreach-c-promptugal (restart on this account, 16 Nov 2026)"
     },
     {
       "id": "investors-b-promptugal",
@@ -1315,7 +1397,8 @@
         "record": "sha256:66809fbd319dae5a",
         "signing_fingerprint": "sha256:66809fbd319dae5a"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-16T19:35Z by sherpa-promptugal-3 (account B restart session)"
     },
     {
       "id": "dev.search-promptugal-2",
@@ -1905,7 +1988,7 @@
       "role": "The by-place frame of PrompTugal.news (newsroom/build/features/by-place.mjs, assets/by-place/, data/schemas/, the gate checks) and the whole site's finish, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtH7wES87g6t1UJz0qeAZ\nkKFYMk/Tjp6dJvG5tPrfLrfb/q4Jc0TGYk/b+hNaH8XviHV14q7xXUQT51/88sck\nupkx2Tgjud7+ltB/M/hOwUQLPxf+KUfyKuB+KWhPnA1bBKRuDzFR2S2QJNwB+YDg\n0atuqLEQh2WzryEgHdCFETbZYx4A3puxZKd3RO8jMUHvhGxO1sp9XqpqPgniV7Zp\nC1ZywGNNGhcudzEREmdVxMleQWwSP0eGOEuOgV6VFRvnhLnvMKMLKZPk0Vnb3bXt\nfGjgkT3mHbJCPWCnfCaAbrd4XFNVmODrw2qBZJQQuSSUTzVocnZ/EnkpeEy1avn2\n7rpQaMRIjmqFdkeKRmKzu3tAcDgNLtJz4gEEFoojQ/J13aDHHW+d48HOg5Darcql\nZ4510mY6R2XJqKwK5y/0S4inbh8V+DZhTn248HIgh+pjSZHMEN77oP9qdZNHQ3q7\nAYAEQXsB+nLo3LMJPzNaOX43djy3Ertl//PCZ0Uw0y+c9OPcQdWdXidCfi24Qfvn\na+Rzccq+Ho7Rlo1KpNieKUnvQkII3bnIgY1i9mXAAChjH/QwfFnuS34d7Ozyxr9k\n+nQSDAZCWXw1OD2wYaDmf4wusYRU8Tnc4Rwp3sm0NpbKrX5fUNy2g0/VZlac48qk\n4n7H/dD4S0ERhPtzkSZ+2xkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -1914,7 +1997,10 @@
         "fingerprint": "sha256:fba34c92cb12ad57",
         "record": "sha256:499ea7eaff2e472b",
         "signing_fingerprint": "sha256:499ea7eaff2e472b"
-      }
+      },
+      "superseded_at": "2026-11-16T19:35Z",
+      "superseded_by": "dev.places-promptugal-2",
+      "superseded_note": "The first dev.places@ session paused for the account move on 16 November 2026 (board/team/dev.places/debriefs/2026-11-16-account-move.md); a new session took over. This key stays so its signatures can still be checked."
     },
     {
       "id": "place.aljezur-promptugal",
@@ -1958,7 +2044,7 @@
       "id": "designer.places-promptugal",
       "agent": "designer.places@PrompTugal.dinis",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "label": "designer.places@PrompTugal.dinis (Claude Code session)",
       "role": "Each town's look inside brand v2.0 on PrompTugal.news by place (/algarve/ and /algarve/<town>/), the accents' contrast, the region page as the opening of Dinis's demo for Algarve Evolution, and its walk-through in design/by-place/. Started on 15 November 2026 at Dinis's word, through conductor@PrompTugal.dinis. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private halves stay in the session; the push of this entry is the authorisation.",
@@ -1969,7 +2055,9 @@
         "signing_fingerprint": "sha256:add29e6e76384554",
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuRXDC9MwQlLTaZt0m3I/\n8RC0Jp7PQX2kLYKd0IO8dLR7AKlFuQ5g4gSOUj7PdaD/QlWCfas4WdbkRVrfi25L\nmb3C9Klv7SLo0Z2uRPDetd9Xrd8GJLtE0UzxyDNPdEkDHmjCM8jzrFBAh2sbbg4C\n+spYi1Cmyu3Bn9acU5mZ/WlvotkVzeeseUOBZk1podoW0y3GbYe2JqwZ312uC2Gl\nkzxaBxwirxJj5VuOvxNgEKkDbtEaJTzhCRqihOX/4EkpUeU2VcyUps1IAwUZkZ6k\nAaJYGDR60hnpYQ/YwiKzl54uOL6K4aWJsDbMirn+snX4+gHt4+SATimDzLPueTrh\nXB0upzqGwQerco5/UHP7/fGHtONaoNH09G/dt96hNTZ+aB/RJkFZR0TLHVQFSPdh\ny4tvzuCDOHzKIvQZv20yxFO9G5UKUZ3sbbqW4zei1th9oB2WNUQZ/AmeOfr00Oid\n4EgOuyqnSiChe7dX1jF7fRKy1U9QdbtqYX5c4qTTfwzeaMQFEVLG38vpzwd4DNF4\nnHTASY7wvbDq6c4uat+EgfGM7hsJzi4wtYMqror2fQ88DneJQshQTln1JzbItajQ\nJ2nV/c8+qR2sDOrJstgLzx0ToRM30VatobLbPPnXWvT7aZML3m9P7gbAAprtaCTX\nPqlzPI247NRefPz8t7L5JNkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
         "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuxdcxIQLBfUqKhXx6UwK9IU+i1h3\nv3FsspVnXqxHfrmOSiyZPTL7ii1KloMYfQV0IdGO5UsT5q99SXP/rXE0Cw==\n-----END PUBLIC KEY-----\n"
-      }
+      },
+      "superseded_at": "2026-11-16T19:33Z",
+      "superseded_by": "designer.places-2-promptugal"
     },
     {
       "id": "place.vila-do-bispo-promptugal",
@@ -2066,13 +2154,13 @@
       }
     },
     {
-      "id": "site.quarteira-promptugal",
+      "id": "site.quarteira-promptugal-0",
       "agent": "place.quarteira@PrompTugal.dinis",
       "label": "site.quarteira: the site key of promptugal.news/algarve/quarteira/",
       "role": "The identity of the site promptugal.news/algarve/quarteira/: signs data/by-place/quarteira.json. Held in the place agent's session; it ends with that session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxOIrR+mHOM8Hm0SDOrwQ\nASAC4mU9z+IoO1yjE18tm1eTMU07ap0ROK2EVpKIkmuQG9Zj02ca4BQwDO3hu/BL\nyaREFpWxDNXZFeGsEZhK9FFkfhFpi7H/lk/GkqrSmYL13iyrhh2O6x4gyxwIZEZ5\nThk6fixejpwDx4gmHFsl6jMN9RS58jxoOwyHMFnoJcmFJUvqRVIwOWawwS6Kwsfc\ngPzmjHdOAMTbW+kVQIzULMN+WulbkgGgG9eSCo8rZEDLHzC/kuKP6kUiSUa+Qyxl\nBzRfO4WcYs+zOAd5qwmMk2RTYvoBO30P64QkofKqXrQU5O7c6urPaCCU5EFYa3ol\nL/SDxxS7Q+8YqDbAF2bCuIWMenLJxISyVW95EnUkGZDYq6vUgKP9bxzVA1MHPnN6\nxr6+1zZbfDV3IgnfiDm+nKCLXUgf+RMcM7FYcOdDeHh1m+mz4CjgM9SDT8c8/B8T\nkATWEy48A2pLIF9k9BDzWsfybgswwQUEL/U7F4Vi+s8rw1BDXSGjd1Ntux3+GNkE\nB28tiKKJE0CYv17/cr3I0Pk5+uob+sJLXE28e3R6wYnI/prn5cr0hl2VjhiAIXHA\n4+eF01dmw2NhTBzepSZHZtOULcUXGOjVsZNcRKYDLv4GCAEPUkinCI4vmJvdR2hn\nnhXJOZPsp8xrlv8dxqJI4x8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2083,7 +2171,10 @@
         "signing_fingerprint": "sha256:c501e474b99829d9"
       },
       "kind": "site",
-      "site": "https://promptugal.news/algarve/quarteira/"
+      "site": "https://promptugal.news/algarve/quarteira/",
+      "superseded_at": "2026-11-16T19:50Z",
+      "superseded_by": "site.quarteira-promptugal",
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
     },
     {
       "id": "place.portugal-promptugal",
@@ -2175,13 +2266,13 @@
       }
     },
     {
-      "id": "site.albufeira-promptugal",
+      "id": "site.albufeira-promptugal-0",
       "agent": "site.albufeira@PrompTugal.dinis",
       "label": "site.albufeira@PrompTugal.dinis (Claude Code session)",
       "role": "The identity of the Albufeira site itself: signs data/by-place/albufeira.json (the key is held by place.albufeira@ in its session).",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "kind": "site",
       "site": "https://promptugal.news/algarve/albufeira/",
       "bundle": {
@@ -2191,7 +2282,10 @@
         "label": "site.albufeira@PrompTugal.dinis",
         "fingerprint": "sha256:17dc61dacf6ac7ef",
         "signing_fingerprint": "sha256:886a54b607039e44"
-      }
+      },
+      "superseded_at": "2026-11-16T19:50Z",
+      "superseded_by": "site.albufeira-promptugal",
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
     },
     {
       "id": "place.vila-real-de-santo-antonio-promptugal",
@@ -2249,7 +2343,7 @@
       }
     },
     {
-      "id": "site.sao-bras-de-alportel-promptugal",
+      "id": "site.sao-bras-de-alportel-promptugal-0",
       "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/algarve/sao-bras-de-alportel/",
@@ -2257,7 +2351,7 @@
       "role": "The site key of São Brás de Alportel: its data file's .sig verifies against it. Held by place.sao-bras-de-alportel@PrompTugal.dinis for the session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0b8+GalyGU8tKyPhzjx+\n4rhjyAjjLBjH810y4sLjPwZGPDlgRqnsR6VYx71wZPoapEaWy2WLRs6NV9tLn1Ro\nDQ7+KgJUAjCpCZoafKx9THbRhH0SbTkDkGQF9UWjsih6sDeBEAoAdyQM8dkad1py\nFA2angi1TOzugic9w6Uzdt3aOBU54ei06RfBpiT3zgD7ZVi4uSzpzGwhVggH1tAX\n4j0aVSZc57We0NME49FsSEuE0DeIXp25SC7lQZevzx1ppUKEUWSji9ZWLQk9VtQ3\n/o6wegrEXgkm8sZ47Ekpel90I/GbArSn7ngI0Aw1vCo0kjW6ulQGN/Ur5IfG93pE\nHUmG8SC7DDUn4iOIKNCWyRVTfDhsZ73kUEQ7hKzseBEN1Ck8cl4taAW+wumjZNIo\nt++mpJtJvz0CpjeIQO4kQxtMlmwITtO2fw7Z7p74GF+68zsY8MilIFmeNZ8r237m\n7Dc2YjDjQILssaiE//hOKI6CiBSVxCMX33ew0+J5HbEfwQ9KiqRQxaRJjUn0mJXc\nnuKHYKHNV21mYsHl0ce+sJIbzfMR8uODRYqQRoQKcd4PKvbiqoc9NU5IQLnRBAdi\n4KDYa9odvK94q4QH3NjDw+4F/8Hh2STzOivBnaL2wI+8mCCq98StGiIahYcRIcOD\nk/iWP3qHuJOFDmgCaaR073ECAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2265,7 +2359,10 @@
         "label": "site.sao-bras-de-alportel@promptugal.news",
         "fingerprint": "sha256:e84421933bc896bf",
         "signing_fingerprint": "sha256:865bf0cbd6862c05"
-      }
+      },
+      "superseded_at": "2026-11-16T19:50Z",
+      "superseded_by": "site.sao-bras-de-alportel-promptugal",
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
     },
     {
       "id": "place.lagos-promptugal",
@@ -2396,7 +2493,7 @@
       }
     },
     {
-      "id": "site.faro-promptugal",
+      "id": "site.faro-promptugal-0",
       "agent": "place.faro@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/algarve/faro/",
@@ -2404,7 +2501,7 @@
       "role": "The identity of the Faro site: signs data/by-place/faro.json. Made and held in the session of place.faro@PrompTugal.dinis.",
       "how": "Made on 15 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlWDkSrjEFoCVXT0SJndh\n/0HmVGUYOJLtcM58NoWJJcflEEYtw3MQf2qi9ba13rUE8Y10WVl0fd+qhmdtkyj2\nnindaY2r/6G1Cfz/sqcB+yvkJVpPiH4GEoi34OHG9eD4bzw1n5dFRdaDSXbF1fhG\n0nRetG1oWpLnlSuNIoWBbYtPcLWquEwMvw8B5ERr2KzdUikTANBoUssJCA6cZcxM\n5A8T2fcauFIAQ07U3KGW/n3C5KEpPQo6FS8JK5YG6mLM3pCBgJZ+5l7So8ozaZuL\n/W52GtJEtc/bgxXoetTM7gkpNdBv7v0Z55N/q3G+HjXXA/78yYV6PDNaJaY1ePLK\nw2uu+DbychYeHaU3MWQjnLA8KnMMCtgcoyofBBoEDqeBVciJnSvJHwtJbPwfftc9\nRkTfiN6hDxEwpKdFruORa2dqCXKBVQBGTaDXdrNuV7YVbRPeKfgfIFmaCD4GdFzQ\n6yvPAEY+XvzlMHrjyCofPOeij+BGkOh9RU2/jD9/unoqXM8LSvOvrC+ndsjv3NIk\nIseg+WV4f2Q3Is0C93kq5pIMAxzCQfNOT9WGy9hLw/OhB51vqnJNmzxzK6Iv2eY5\n2VmqCMzZdWUkXqGhMfUvor0kXn0u5ZUDPnEhJXxxTaEkC5INVpqzQfoSr9wFCfTp\nkO+mb/RMSV7019HoWuvBauUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2413,7 +2510,10 @@
         "fingerprint": "sha256:b59b3e40a17e5eb1",
         "record": "sha256:50494e13277b1829",
         "signing_fingerprint": "sha256:50494e13277b1829"
-      }
+      },
+      "superseded_at": "2026-11-16T19:50Z",
+      "superseded_by": "site.faro-promptugal",
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
     },
     {
       "id": "place.olhao-promptugal",
@@ -2434,7 +2534,7 @@
       }
     },
     {
-      "id": "site.olhao-promptugal",
+      "id": "site.olhao-promptugal-0",
       "kind": "site",
       "site": "https://promptugal.news/algarve/olhao/",
       "agent": "place.olhao@PrompTugal.dinis",
@@ -2442,7 +2542,7 @@
       "role": "The identity of the Olhão site: signs data/by-place/olhao.json (the .sig). Made and held by place.olhao@PrompTugal.dinis for the session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, in a separate key home). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsFC9JB/3MV+Gh1yj5vYO\nhaTBX49WnUlQgubpPm9eMI30+7B6RUlEuZ1N/mK3XOucONKhT6tQjq16THpYrgGw\nOo92vYMHZQ7gREywUVz+d6g30i8dXpYdDj8BEbnN8n3Ial9xYpliRU09z3iJYjrR\ni/s4jYmmiHOqRjcrzn9WpI7xAz5Qe13ztbNI6RgsKGHsIqDnUOSZuIPz/5W61wyQ\nfy1diiOwWKsSFxLRzuMgURpkCdTbVAmaev+5l7kdvwlFKXud0XMHY3/sKcQcFKeo\nIzN1ne+rEGJJO7lPoOAOq4Fn0oxZYSvCwvD+S5D9pruRtj+t79qMXMXSVJv3WfNx\newkitVYnsFGAemw1tILZBCvp70OEhuILmi9euHATo/y5XX5d5L6PtqtCoaZ1+lBT\noFaCKnhCxxWpepM5NLO4rka5C5Z65GSzytks4p4q2VmUc7XxTKgvsVrplKqT4XPv\nBHacR0xe0KFjgcL2nT9s9pIN7n41ek+Y2I/H+JcTPpNnKIaobsCH/9W/tbr2hZeG\nYj0zZm2GSHVB12GyX1k/bGN1yqeLrrQl/AZKLOB7l0uMwL3QWFg8miBUundwfHtf\n4Ta+9FI+rhF8H9QfB6p9Fq3X7LEQ7q6eNqBPVV6ZspdrYkb4TCnupjz8I7zikBfw\nUM08quCYZy1kyIjJ2gdgiH0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2451,7 +2551,10 @@
         "fingerprint": "sha256:f3b7d950af161522",
         "record": "sha256:8914c788b004df9c",
         "signing_fingerprint": "sha256:8914c788b004df9c"
-      }
+      },
+      "superseded_at": "2026-11-16T19:50Z",
+      "superseded_by": "site.olhao-promptugal",
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
     },
     {
       "id": "place.tavira-promptugal",
@@ -2622,7 +2725,7 @@
       }
     },
     {
-      "id": "site.loule-promptugal",
+      "id": "site.loule-promptugal-0",
       "kind": "site",
       "site": "https://promptugal.news/algarve/loule/",
       "agent": "place.loule@PrompTugal.dinis",
@@ -2630,7 +2733,7 @@
       "role": "Signs data/by-place/loule.json. Held by place.loule@PrompTugal.dinis, in its session only.",
       "how": "Made by place.loule@ on 15 November 2026 (pki-agent.mjs keygen --session, with its own key store apart from the agent's). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA/HeMdph+0XEqvYCRB5yk\nNw8HVvgJDhQT7NJBK+gIRoY+qI2ImTrRjeQm6wRw9CkcNWxStdcPIUY/Eonry2v7\npuucd2kbhVWSPGkfR/ZIr1W+2wQ+d80JzrKt5LjZplu1XMD8WbM4pueHVMNkSqXq\nzswg03b9c/0PThyhSpHy6VtThPWxqokVpbO7tOGLrvjucfwwYWDX4WRcZ/ernOgr\nvsmBcfXICphPnXa61L9D8+i8KyDi7Qn3tH7qgpyPJ7eO/PE+jqPHfZr0bIi0dBZB\n6MZCNExCKqDLgYsfz38cTiqzjl2n8dFi7Z9DPkfUqNN2CGmwv48Bdhx627PSWsy4\n2ANBcZQ3IupLijyTlkfaaZ8rc6tdSuLJznDI0e9wxx9cMvXZp7SxbKGm52jxg5Ib\ncSSRbh+9zbpPCYxhps8zruHor+eh7iHAIAbbmefup/7HIVWLC3Axegy7g7dn6Hry\n235Jts2k+xvviF1Nm2rUZmetq+EK8QHRFIpBYRScw2l/6BfQ9AayFGJushbnYEpy\n9xaXF/upxeGembdP/4zhq7IcuFYg8huziOnOB/7GPDePObgizNAhwscOrbn7m7IS\nKUW3M3qSYVSGSG699HiQDWl+yLOfWBm9QDv7kTHG5VZVv445TN4yh6F86IsAJHmz\nI6fhKv0Blj7UiE+iS0qjjd8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2639,7 +2742,10 @@
         "fingerprint": "sha256:889985d83da74f58",
         "record": "sha256:360b0fabefd4919a",
         "signing_fingerprint": "sha256:360b0fabefd4919a"
-      }
+      },
+      "superseded_at": "2026-11-16T19:50Z",
+      "superseded_by": "site.loule-promptugal",
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
     },
     {
       "id": "data.places-promptugal",
@@ -2701,7 +2807,7 @@
       "role": "The data scientist of PrompTugal.news: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) and the Swagger pages, the gate checks that a page shows nothing its JSON lacks, and the data quality numbers per place. Started 15 November 2026 at Dinis's word via the conductor. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxXrJUq1cIlz4GNRWXebv\nJR96XJ1B7oEJlg9PTQnqEnHdUVzZsnhwtAj0UxPBbfwZUoV52RdtUXDbyKN83rrW\n9W/eaDycLXG6PrQBJrh3l94O3TFBhx5K/1KMXrkx1JDNZ7ueQtpgXYdv+Ge987Ly\nwqF+umi2yvWKMwOHgqxwzYKHvg7D5pXCHUzbXBthwIov76PPy31H2ERCKXz5DwVx\nsUOm+I0hXV/MGJ2aOuIDEU+Baq1AUoKYSqHhaDEVVcFhjvlGG4JImQJa4kfgLSRr\nmHCZAUeVaxepwU9+sQR1bjU8AN+JhEA7OhkPnPljZX/JBluqF8nV3YK4tEsSUdKJ\nnj8/p5HKmtwgUalWcQyufozwRoal93m1edT79DUrdqdOb9LFusCAmDWSY17rNZ6t\nUc5UiFmtjEuWaiollF3OquEAX3HVYYPVbfGAGXte7fjbyezXbNj6zPFe7Y7jtWmK\nIcUtcm5POnlkZHcMglrkwPC4yl66UI+c+dzQMq9yr6u5fANVBOQW1KiawkR5CgTu\nx4Wf0sF9Crahp3nwNTfo/31ly67qJ2T1LTZcgsnIPA8ffG0cT75IDRZ2lh1kyOoz\nZgO1IbbwPThXB1p6NU1KV3hO+v8CIY6LxVitAdwS7ZsYX2NL1bfJkOgwYK/ch8m1\nGjpqAVzum4RjSDnCJcqWwcUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2709,24 +2815,26 @@
         "label": "datasci.places@PrompTugal.dinis",
         "fingerprint": "sha256:75d5acf723332fb2",
         "signing_fingerprint": "sha256:943b31bbe841bc1a"
-      }
+      },
+      "superseded_at": "2026-11-16T19:31Z",
+      "superseded_by": "datasci.places-promptugal-b"
     },
     {
       "id": "place.districts-promptugal",
       "agent": "place.districts@PrompTugal.dinis",
-      "label": "place.districts@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "label": "place.districts@PrompTugal.dinis (Claude Code cloud session 2, restart of 16 Nov 2026)",
       "role": "The districts place agent: the 17 district capitals (Lisboa to Beja), data/by-place/<id>.json for each, started 16 November 2026 at Dinis's word in the conductor's session. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
       "status": "active",
       "bundle": {
         "v": 1,
-        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoYduhAxjRYqpEJ05BtjR\nGAPZlJBvs3drmu+5dr100WAX6FMmdBfINMW67Zclogsg8RhvOuYYKifT4Hd93haB\nuMah5aQVAQnqN0KbPelrb4k7o101scJG2+AujICu01UuFKY2WopFggzP5iJKepwP\nox9i6awtTKwJB5JgUfiZPO+d9tBLEdQglYOV5ARc0VIBJd2dzCzfQ7DLKFmxnvE+\nTfZ8AA4nlG1iSRF8FFlhe9Ur8MilIFKDRbzqrSQm061fCst9qVetglew0ZwNE2MF\nX1JGQyQuecvb+yW2LUHtNqHZNJTKnEdzthEeJ+0QwlRSxWvBiv5Ujph6EezYso3G\nqscmrDvR8ta0PdEDV8TEtIVX9JWcYX6jfcs2aZcE7qeFT0DwnaSUmdVp+L8Hn00I\nnwe1obD0snx8vXZSEwfY6mLnnboZxdTFZE+2mr5bteuNCNoCL377+I3Cdabl663o\nNcYmirgnThXzLB00dF6QvKlZYG8uQDih9HnR2kXoUk8uDYmpuQtSTRewu76FhOmA\nNFEWfrWXf6TgPNr5xNIayF5Ksoe7SIEQiesQBNyUIbpkbfxvKV/5NGca11PjEiHW\n9qqA7S/5KSVFLxoUjoVs10OUUavGOvqVaOaXFYb+G7OL7d5Y6VPmhrUrpqNem0GJ\nuJ4o9JivGxD3E61m7U+/Fv0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
-        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERnbNtJ3NsvIRTvGDWNP7H5FbO8am\nVIatbgZx9nxPILm1a0xPRi+tZ69vLY4KAwVSHwUq+MIpYAVm1Et2giw1bA==\n-----END PUBLIC KEY-----\n",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4850ggxbFaMI83VrE1Oe\nPWbAU7Cw1H4J7T+BwfC9KA7QaLNlDw2OvbiNFU2DPfkxKnKA6tjeH8vrE53CF9rs\ndi/PgH6a1QbpPgkhL9WrvJ0tAH9vpAq9V04v43hstyx8htB38e4nnyE5cplJIjSJ\nSBmuk4nrzyznXiRxDWk5h2Qb0mKHPTHv65yjlxy0Pt60oOj8hASRekmW7zUxL98H\nlHZ+OEM3vjYqnNxjiXANhpXCcoZXho4OdZQP9vpiEbBBLn4DUAdo2uvwDSV9F7Yw\ngj+oXR2h+O4nLsi56Afc7jCpbTie+R71TYzitlr3RT/aOhH9t5TalEoZN9kdCGGU\n0agqNTkO/aXyGRO8o/IXhp/AStdS5Wu8njIvNutoVxh+i702I4Ck/226fyS/rQi+\nJ8e66Yy38oElluoYtP5ZAcd5PaORqB7u0OlgnIE/rcaavtKYO4nYGeu1zYGtJMOi\nU1sO487s4a7Cff4JULlU4x9GKxwVaHMVx4weMX7m8Mi3F6g2k8Yk89RVXGDFy/qB\n7P0Ew4SbWMzzhETeDFurriHiS2S6H0BEhP1p0BfAzDGpff4cPFSkYj0oBkxTWbF3\nL+E5sUXgkQZL8mLSGWcq9sLwRfNhYr2ZAlaXjXZw634FtkiOqAaaM1jZd2WPr75q\n4pF4lZePeowg1rLnZee6dVECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4o/YMe4TgX87l3aFcJr9z7MRRxkZ\nFEAdkgnbitRfNQhc8G8+rr7SuufdA0KFOK5WgeFSHlCZ8uJ6hidbQHqozQ==\n-----END PUBLIC KEY-----\n",
         "label": "place.districts@PrompTugal.dinis",
-        "fingerprint": "sha256:235c74a7222a85d7",
-        "record": "sha256:383807062e16b9c9",
-        "signing_fingerprint": "sha256:383807062e16b9c9"
+        "fingerprint": "sha256:3faada86b02dabc6",
+        "record": "sha256:622e5570ade43f2b",
+        "signing_fingerprint": "sha256:622e5570ade43f2b"
       }
     },
     {
@@ -2856,17 +2964,17 @@
       "site": "https://promptugal.news/portugal/aveiro/",
       "label": "PrompTugal.news Aveiro (site identity)",
       "role": "The identity of the Aveiro site: signs data/by-place/aveiro.json. Made and held in the session of place.districts@PrompTugal.dinis.",
-      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
       "status": "active",
       "bundle": {
         "v": 1,
-        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArtwi+JH/+IWhSE1Rktd6\naWKJAGvEG7HytsTUOshBBqf6LSwYNGHp6O+nXO62wC7PhW14FB+TbQsjU1SHLx5W\nNOVurHEJKbn5cJQ2VeanOhaIosEBOmKLKVsBKDlmtEjsJBJpCOH4E68zNKfqSsDh\nltVMvNK5g5m1W8Gc58N6v93nzkFIkWC5+hsVM4MHGB6zeoS+D4HmpcvXd9TO0xYF\nyqOLZRrDvh7B2bienmy+f72JRIYmMULsjuLKQn3Gc/fclDu2cJniLEZEuz0woE5o\n5fk82Vuvy7HjRL4YzP4GHgJLiY86pJIoZ6LaHkJYXihk0mzIIqFNypSonRchIM8Z\nUUHl9yLJd8cvgFZruKYh+DX2HbGKfpLpJSI7RoDFU8Q073CWrtTMrbRM1kTEkvKI\nRL6UG4/QDnfRGTcfewRCtr+YxykvysNwnyU61fLMTU4ye9ybMsn5yyhN+g/Otytl\neFPM6Itt2P9JltlUyLhDum28GGLIzRi7TrI3fB3C63nwWbrdwL7/0T4jFflM9Bl8\nyHGRxCdVb1xsg+INL/rSM8Y/zQfITThW62tG8DXq95VOjRVYe6Ih/AYeWLyuwH+r\nEplFUHir36N3ybm6klAz5dEErcwSXQBI3VcTlcqBATCa83eF9GYV3Zoyheiublo3\n3qsueHsPyb43K3sCkkflzQkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
-        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdW6dm0QA+8EHeceZwnuB4/a0p4S/\ni6psqakwu9Z3Eyu95nRGwq/CbZtKhNWqUJehLxjLqQ13jF8ADnEmME//eQ==\n-----END PUBLIC KEY-----\n",
-        "label": "site.aveiro-promptugal",
-        "fingerprint": "sha256:f876bb4c1c5e93be",
-        "record": "sha256:12b7eb629f6797ca",
-        "signing_fingerprint": "sha256:12b7eb629f6797ca"
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnui1YyoD0dF5675w/aCK\nuD4Du5LziuZZBd+OiiYACGv3cTkBCoiZ0PYhK78qy5J3uGcdTTtDk81JIW391k0L\nC0IL00Nr4uGQMbWUeRf4Xx6yzLzOSb8xiNDnuwMhxL3AuuVaQ3xqcIslZFqWky1B\nBqFISTPgxB4fxh+V/dudt30+vNvrfP+9v958ixEPRbHiEudjKYh6l9JV0g1KsWVY\n2Ykt4vVXHJrwGloxcyMONDsKf9m2Bkopt9sQrhTjAov27d1NRwdTjSfD7rjiW653\nOzLCMlwinxycONv9TJ7QFNrmgTzdpcQeLfUV1mxw/hFqfpOCb+pKtsC1T7FxE9r0\nlJNNH9J6ymiKPBJUcHFb9ctkvdCN4/xTP/hjB7ovBnRQglV6zVW1Ob3NvM3DresO\nBgouULyN9ehxAFspnaNMx38c+R0oz8yIm4+lsm78aNMut0qLijm+hTYhkjk1tztc\nn0j+EzbvHDINkpaHS1TQ1FaXxjYPK4drVuysD3BjzUJeAHpaE7nbibqZZwz/kL4V\nGCO7HJ5418RhkA9WLTyN+x1mnh0/c7pyV9TDxJ2LR6akVnDSmei9vqnHP5hWSzV3\nB6TibQXXZxvp9KbbJsirx/teCsx4JonP6tfIfBHVYzeDCDHGTiq2oXgtNqNnRgft\nB97xC2Hii5j+p0aMX9qlfl8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEghZfH17OPCKB5j2Q26TXWHEcH2Xb\nCq4UksLYUG4Jbi2rCjAaBX/hpaFaYBa34qTqUu2j6fh21dMhkVa2tSFEDg==\n-----END PUBLIC KEY-----\n",
+        "label": "site.aveiro@PrompTugal.dinis",
+        "fingerprint": "sha256:cde247fa4abdc68c",
+        "record": "sha256:520dd25bd7c89159",
+        "signing_fingerprint": "sha256:520dd25bd7c89159"
       }
     },
     {
@@ -2956,17 +3064,17 @@
       "site": "https://promptugal.news/portugal/leiria/",
       "label": "PrompTugal.news Leiria (site identity)",
       "role": "The identity of the Leiria site: signs data/by-place/leiria.json. Made and held in the session of place.districts@PrompTugal.dinis.",
-      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
       "status": "active",
       "bundle": {
         "v": 1,
-        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApqBOvOMGzWexFdpYMP4N\n9d+PyQGw6tbAlaOfGoCjc0Tx1pCHFD5Bw+spgBJXavcPgBgInmqVhtAMqOmC1RY+\nc/VR1dbhN7ly7x/LyMAjH7e7lWeXF54HVApHcxHE6MGsb2KdVfAr7FFpdnLt4XCr\nbg3KHMy1lFgckYqyLiOypR1zLTEi6mA7Fw+jwf/5iABggK/M61cQOslp8E6CRW5X\nHO5ULcLZx7uyeMq6Ikh0AfxIMLzbgLyLirVXYU3bS3jADzWSzkePMHf2imkLNZSQ\nM1S0mSHYdVJm8sKcd3GP+0xdhqiBfM5gvORw4q0Eo4JsIfWrPR+MMqooHDIFaHuS\nK1H/zQJ0/eyc1z6tHU0wug9ZzwZzS7Dn1H4SHQFhH/ZNggPR1ywwYOkyPb6FM/fi\n8LM+lmggnLajZzjKnqC0vfV3r0rEMQehE7zP58GFZdSIa34lok7/MmmfnlQupJUA\nf1dLqCRbUOPXoRg0WqfV0zbj+gffgqCUruP8M7rpnQGYh57fmCpD35jG1i1j7G9p\n/VFFTwQOE/pixtWgr1kijADYGf6tUnx4ri8xuKoELSU5nNJwkaEFcgQDp81Gcu44\no0XUdbi6y+GgE/vaZSEbqLPxC/bQKgICCVOLFYrEhjHEfd0B08YkIavGx5UFgcNv\n0W4c0BsyJeNQ7gsy+heqFfsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
-        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4oNAR8hU7c7FiksTxwQyS2HR4wfY\n8KqaEC9iC7LaJCmqoUrZrlkhl6WLoJp80jjEmgYeOOJDbuPSYa7LTlQ+/A==\n-----END PUBLIC KEY-----\n",
-        "label": "site.leiria-promptugal",
-        "fingerprint": "sha256:47480593fe12b396",
-        "record": "sha256:36e871cdcd393bd7",
-        "signing_fingerprint": "sha256:36e871cdcd393bd7"
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzThiNOSKJH6n/6GlV7Kb\n33Y6mFuyiKaeItkaOtqwaT5+yxYmZUP2tT1aCc6z7+Zh9x0xma/B0F5npqTlYpzR\n3p7l2QF9EgwBx0ED4/CUlJM0IUWOq+ghsQOpuKJmkTN5xeB4ChyhwINuaFrft6hl\nvjX0lddJgruoOQelaHVg46xdqbyfiJ4O/tB8mYQRxDm0BYpmDg3rIcWOzt5bk3un\ny60EP+wKoKTKo3buemwrRvbQfrOC6Bs0zJxPhyai7CHM3sk/94oZraz6IJ7O7yIt\nfw5wi0yAdffNWGDjtnQ5Bc2/6nOSOgrArECabTy5L1twN7FXpFB+N/tk4p28Ti/K\nkVA3E/XT+U5g8O9IgfbrFo4kNsiQnWvQ2LBUCk2y/kZpf41T7tunu6gSqn0juXOR\noTfmmcwdvtxAl6ETyDS0QZMeystXDrGAiy0ocurTif78euVieYE7o+RjmTU4PpMD\nNwIjlbRaxer2rAM0ANufGOSW/nCi9OVFCo3iFiN6pcnN6+Md3gdn5BwR5qcnLVFW\n2nqy1N95+8NOQjcCF8w/X/Y+izXU9UgKNLQZm38GTYBm/mEpS8/wh3Tk2yXjXcjr\nwP/VkhcLwse50V75IRscDWcw/VRQuyIcuXBFbV+qnwN+jmW7Ah8857VlMmpn9qHz\n7i5Y9JDR3xmYcaKk+LKKA7MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMEg+U67XWAw/gxF7Cd/9zv1duQcH\n3Twkhk9HgOytpAUjRK8Xnfx/MfvOh5MT342SVj4HEeEwHOWEPs9Eyi4cHA==\n-----END PUBLIC KEY-----\n",
+        "label": "site.leiria@PrompTugal.dinis",
+        "fingerprint": "sha256:d8a508b9bf970201",
+        "record": "sha256:998b86485e2008f9",
+        "signing_fingerprint": "sha256:998b86485e2008f9"
       }
     },
     {
@@ -3076,7 +3184,7 @@
       "role": "The translator of PrompTugal.news: the site's content into its cultures through a translation memory, so nothing already translated is sent for translation again. Started 16 November 2026 at Dinis's word via the conductor. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzN3GBX5NUDzn05EEdhC2\nqrryTj1Ubeofuyr50WaBxORXqgo2RbTyuk6oIEUgDJZMARgNR61vfJVKUKuKhvkP\nu3p5dkVzb2Tn3wAnS81EsYiXPpH4LTmrJ0rGr1pDM0EaBpGLSDs68Up2goagEZIr\nsY+yaKeflwxFWf8cnJq8AFI0RNlIF5O8yYwvC9kSMQNeyPerdvkvJ7/9/aFLbdFF\n4PN2+aTm8isbY4jfw+NmsKtnGl3Gg0hIfmZ4+kZYIRPiCegRD4bWJSjwPBoQf/iW\nM3XKVt5GSmKlcQPC4EpK7z8WFtT8YwG/WCnJyBmFRhSZXsVZgSIG8kgh1RncGWV1\nbRfiLbl03AzcYiqm0uQd6Qn4eiOG3WJ9MM61JFxuwMw3c1d/tbN/aDEqfGeRbWPr\n1b3KxvNbOMN5/u2zfzqYhuE4KqtmPXX8sO1gk0KJLWCKCIPFy0FFxUDYoUhlEfou\nNvew9b1+wbEhWwbcYpgKaks3zXaycVP1fIZhXyf+bx81m2+Do5dw9nQHaXpf9VhI\nOSiMTYMTvGvNxLV/XwzkuTx2KkwSzcHPDwC0Lx/EQ0KmRwuaw22TWNclWIl8XPLu\n5GUwD6ksPXel5t9Hww3y/GjVVr71nyNjwVudVWNRuP8oTxgmp2+WTJw+XnbHFwKu\nnSpl+2IboSbpyqk2+iSHkqsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3084,6 +3192,25 @@
         "label": "translator@PrompTugal.dinis",
         "fingerprint": "sha256:d39815f8989da824",
         "signing_fingerprint": "sha256:27730bacdfe55b1d"
+      },
+      "superseded": "2026-11-16T19:33Z",
+      "superseded_by": "translator-promptugal-2"
+    },
+    {
+      "id": "translator-promptugal-2",
+      "agent": "translator@PrompTugal.dinis",
+      "label": "translator@PrompTugal.dinis (Claude Code cloud session, restarted on this account)",
+      "role": "The translator of PrompTugal.news: the site's content into its cultures through a translation memory, so nothing already translated is sent for translation again. Started 16 November 2026 at Dinis's word via the conductor. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 at 19:31 UTC (pki-agent.mjs keygen --session) when the role restarted at Dinis's word (board/guidance/2026-11-16-restart-here-go.md). Supersedes translator-promptugal. Not linked to an operator's key. The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsLMEdnYBonVRS30AIXyx\nzXrC6uOBFH3KgxnQ1F85Kxdq1Vn06AYiLoLuOtr6cV/1LZxb5zu5P2OK9ejPyLXG\n7n6F39CfD3I9o5WqxBv6UJ4YKIofWxgxi7O0FE+0DMtGpQp2++V5YoTWAIAq869N\nCDZ4THjRSI/hS1JlQSghQ1j/x1CYe1Y6Phks/52UcmoJWwwNL5jwp/7ep0yeVNJo\nceR1vcFYj3FeHpZ1dqV3XF1JAR8604KjbpkBxjyXS4sarRfLujq0j0xkq8LmMk/R\nUvEHooZf1IOK+8esFNm4CVs3KKFLHiF/zOcRAI8SysyAQcdsW1b7qq7fjKOBoDeS\n1k4JUp5WlmJgLBbH5uA6Wv+s0opwATFxXBSuWsRrjgySgOBzvQJxYBGR3nOfMWbf\nNtQUNi1SvQzoAU8ojqhM2wtb05ag3UaLA8yXpXEhyRYeFN0e3UbD6m9syJ/PR/ZS\nbssW91eH/ZiEWpmOX8ueaLKu5VaiKbc/Y9wabSeAxsQ/yh5oOkjNJECkzGUqSRxK\nm/EcpHlWfyQJkU/nVnOdGEiOvVK6+oz7CeiNEMbRBJuKlSms4yWR8EOW9ALJ5yCo\nZR5xXVouEx1Ls2g33Ja8RfOPlkB961jSI9s71h+imCHESbOek+2WVi5O14htwemg\nITwZ0RQpKm1FScL4ZEJRlWUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEul8Qaj3XOtHzTOFX3q43R6EvUAsq\nOpLt/noc16lKa7jv3P3sS7yJJw7KsSRPhompkBJu5uO0Y2R8IRUxbywS6Q==\n-----END PUBLIC KEY-----\n",
+        "label": "translator@PrompTugal.dinis",
+        "fingerprint": "sha256:779eadee21e39f63",
+        "signing_fingerprint": "sha256:60f33ba9cb5c03d0"
       }
     },
     {
@@ -3137,6 +3264,304 @@
         "fingerprint": "sha256:1ab6b7b436cccd46",
         "record": "sha256:3a524fb66fe81c99",
         "signing_fingerprint": "sha256:3a524fb66fe81c99"
+      }
+    },
+    {
+      "id": "sherpa-promptugal-3",
+      "label": "sherpa@PrompTugal.dinis (Claude Code session, restart of 16 November)",
+      "agent": "sherpa@PrompTugal.dinis",
+      "role": "The reader's guide of PrompTugal.news: the experience of every page as the person who arrives cold, on a phone and a desktop; runs synthetic@'s personas as sub-agents. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, fetched from pki.sgit.ai, sha256 fcb28a1cc40d05bf checked); started by conductor.b@ at Dinis's word (board/guidance/2026-11-16-restart-here-go.md). Not yet linked to the operator's key.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqLSpzthRVeZjenY90hwb\na5JMCxWg5jMYLVvZuzFjIRTegY2fPXT+KkXQsNxOnIJI/vFxl4KvsGkkEfIwdx+W\nDsDPey85lZT7Tiv7QNyf67ftm9w0WzvCVVGY4096U94XrMHjb2xUhmgLIXA3oF/X\nrj/Fz+5b56iPxbWWpjG/dPfAlUJwPnpZJ1P8HI/cfmu+MZczLPeGASFl3VuVeOLB\nrlnNBp94L+UiCwH+oUzvlxHea8WsVeJanhaqCdK+XtDZE9nDzmqnXxfZapVmpLxM\ncylPz6wv8e5NKCCZZd53JRAiiIgDv/zwZyw/L73LyWj9/R3/OkZCedHQBCAFbNqR\n7VTAEGv/iqvAE+bZDj0Ga+glAI6outWt32LLMC2Tl8xnguIW4SRZqvjq7rIDvWbM\n8iby4hv4TGpDWX210kPQVxPwy/jR2vA+1px/O+mHZt4A9hTiNP+2OH16EaiRG5rv\nZFXQqYwPdL+7Yh+Ufd62p/8Ct+2Nl8j2Yjha4sr/HyYLkiUDPqPTFhwGU7/uJMM3\nqb/PfKo0PYT4VeyD40Nj6LuaF+cgE9LKHRHif4+TVBL19/eoK5xvwIFdgikWIHpv\npr5Qpf5fMcpz642GikZ+EJ1pJlFMMUJq9+sY/nrdy9vSM2cMwGBIZO9FFarjhHFd\njTyZmUD8t+xKMGuLpmhz6EMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEL0DaCKOoleupIdCSASFjjqw4MbWM\n+k9z/s6DVpXrsNHESjJ2QBkZR0EKaRur4XHK+FRTSzaz6bObBfUTimqhTw==\n-----END PUBLIC KEY-----\n",
+        "label": "sherpa@PrompTugal.dinis",
+        "fingerprint": "sha256:0824930864e18e79",
+        "record": "sha256:b3622aff4c654f79",
+        "signing_fingerprint": "sha256:b3622aff4c654f79"
+      },
+      "status": "active"
+    },
+    {
+      "id": "datasci.places-promptugal-b",
+      "agent": "datasci.places@PrompTugal.dinis",
+      "label": "datasci.places@PrompTugal.dinis (Claude Code cloud session, restarted 16 Nov 2026 on this account)",
+      "role": "The data scientist and live data desk of PrompTugal.news: JSON first, the OpenAPI specs, the live collector (board/tools/local-now.mjs) and the keyless public sources per place. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "supersedes": "datasci.places-promptugal",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAseP1t3f7SFo/VUh3HFhT\nIHIDGAnM1IKkwSsWUQhdqZ7t9HWpAReSPJ/BktydCpzXYU63CjQbqjDMIc6t0v80\nlxxOD8WEkS+p2bt+mMsKQ7xzMbGAJts8myngwhIQpHw0r8BWx+KB5oQLbTEYNnJn\nWQtexlZSF1i3L31pV85xQBCnmQEGTrc5GC5HijUA2lJTaJIyxz7ZvOqZklpkT/10\ntuIupVG8pluWsV5b8gSV+BMU9im/jX1dl5kPJJe75Hu5kGeCTKAmkoFvL2fpxQ8a\n7Q6YjwhULMo3NFrGjDWJbE4CNA8n1PaMjSXQjpuQ2ds2xVD3lKo7jO085KEsTd0o\nG6eRz9DGU3agMAi3HDTFGHe0ZBOqDGw+UWmsBoArU1HWnrA7GROxuDqeIaxOf1Mk\nZvnG0f6s91FAusThl6sqUyqvxTNhonAZ/6kYh2ple2eCSp53V/zYbrUOuZfkzhnh\nFXQ40+yKmnu9satuZFd4Uinr4ywgShRjhTStNbqnMtCu2GQLNmaq1qNeAN31H1rX\n1wc6PQqOF1Xn2AaOF4zt99l7PGg4IOFTNLzldtKdRSDq9wDF+jVuxZ26MdmgwYv9\n8JYFBzm309RPea+Dpvfd/FiW9uCgHaBZV064dH63A1obEsRVkv5s/3OEiFOazIQ0\nHApakH8WQPNjyUC+xg+nUc0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3ABF/Y4O5TyQxdOP9pgd5dJ+PMsq\nxg09NZNXy/z4F4w2hW8T5qvEHGvHVmYn2ixeA23EYv7vPweYZ2LI5e7V1w==\n-----END PUBLIC KEY-----\n",
+        "label": "datasci.places@PrompTugal.dinis",
+        "fingerprint": "sha256:5427680a0e4325d6",
+        "signing_fingerprint": "sha256:88ad94c48197bc2b"
+      }
+    },
+    {
+      "id": "place.algarve.east-promptugal",
+      "agent": "place.algarve.east@PrompTugal.dinis",
+      "label": "place.algarve.east@PrompTugal.dinis (Claude Code cloud session, account B)",
+      "role": "The local news desk for the eastern Algarve (Tavira, Castro Marim, Vila Real de Santo Antonio, Alcoutim) and the region page, started by conductor.b@ at Dinis's word on 16 November 2026 (board/guidance/2026-11-16-restart-here-go.md). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0hmzsDqXwokjJqMlTdfK\nnM6BmJGyTRws5DISB4/5I2vBbHWQ8bqBSioXaXTi5n7Mi2QkhnjmPki1NUit/Qui\nv+5PzlIIeharrFS4N77sqb8LG0LmAwu2Z0JNgqFOp0fUSHXDRm7zxPmzep2daVC8\n5Qtb3AKTp4va3SBngb9KCwGnnTgc7FAL6vzmpYnFuBrtChvLy95kF5fiFjLYx4hQ\n8i9YsC6lwMMRoN15Hqn2f8cxW6WE7vvp/PAbd1v854VdvaL2hEiugG0I/W4Zz4+v\nDHXBrq7Qd80ZoSZ1POwhwxYi7i/jjNad+cbmw0Cv7nkuH2bpYW2ywoW2kn6xzjYv\no3QSFEgJYU8i8b0A1kfILbeakrjn4CoEEdtnMmIyJlS/cvtNzlo5THUwI0Owhjlv\nlwrBVZPziQgHfr/rVNIlkEx27/OZ/ASinRx31+i7Dd/uCRD0b21Sd4ULQmKr9P8O\nDdjMGP8WjnxibNdi1s40F3Ig5KwEQvjBq9PEta98gsqTZS+XNwjn6HwIGs8mj+1E\nQtidsXrspj78tGlj6u1GE2EIM60bxhwpuJsZKRNQ8WocfHvsUOtVL6tq5j0EHJov\nXKf0ZENSPQZ+JRDzcaITQCkr4nmAD5t3+F9l2mzXxtL0jyBBdV/j1lcGrpZn3sMa\n3jVmTAv7lcGyuqYOlW5olL8CAwEAAQ==\n-----END PUBLIC KEY-----",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZBn3rGqHecBDv7KrCqj2t/loEK0S\nZGYlRsa5+9N5g9D4xtRNBwH+5yMVBHupt/gvrY+wOg9hWexONqzkj87RVg==\n-----END PUBLIC KEY-----",
+        "label": "place.algarve.east@PrompTugal.dinis",
+        "fingerprint": "sha256:9a78d6adf3ea14b1",
+        "signing_fingerprint": "sha256:9c4500898a248e2f"
+      }
+    },
+    {
+      "id": "place.algarve.central-promptugal",
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "label": "place.algarve.central@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The local news desk for the central Algarve (Albufeira, Loulé, Quarteira, Faro, São Brás de Alportel, Olhão), run as sub-agents in one session; started by conductor.b@ at Dinis's word, 16 November 2026. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhpjY288Fhv5PCn6vriVB\nNckNf2LQMnWr3+ZwJfF5uQRNeklsQOB312uS798nmWzJV6yh+w+T/mDp99sIN+2J\nx8PMUJIclZdnrEf0FQ5pV0TOK/2VP/bvyn3dmc6nhSj26Jo29ADaGRzYLjn7ZYMH\n7DPwfjKi1B71DQkOd2zF2w455KhmgwnX5cXP5iEf9s1k4CsCdnrLmqLBrP3xgDHx\n+HCSczqQ3oHrNzTwnAXymOLoeEz62Kvm+Rguy+NXJ2ZDbExtIlkb0wcXZGMQ43Hh\nslKpJETg+Y3HmEwCYolqjMZVr/8m2/piIqAi7hnPB6PYMUXv992F/UlpnUuPHkmV\n2BntFXjkniGpiJFMfQlgbZNva+V3uKm37m1cvsrFA6cm832nNMwzHIb8DJ1SAXfp\nOBa8zrtIczt0z0W7s4IgHM6okDGF7B6oWn9HgxW/RhO8rHW6fIUoRYnuZAqmB1eZ\n3KYMH5w9ZYD9CXf2x1R9jZQBL1BUQz+44i77cjROfUb796nxDJOX2ygZ4A3Yi7kW\nJPKE6Pv1ecerD9J2/Dxxt4Sgp1JiRxG30wg13FdkyxJY+Du8AyT64cqdZICL0fH3\nwKSvWQL9Wv/g/p8ywMAlCi/oQFgarg2PsPfaFuVU9WPXrWddAR/7ycGEBriQ5ORf\niWTg6OIeiitMrLDgH1VsLesCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+pE9airidFI97oP3U/VYLzWYdXqz\nAPIOWqDZgW15wsrmfo051pdrD+o516837d0gfdFfZ+uAY8CAK+/V/e6pAg==\n-----END PUBLIC KEY-----\n",
+        "label": "place.algarve.central@PrompTugal.dinis",
+        "fingerprint": "sha256:61a19315960b6483",
+        "record": "sha256:eb3e6d9713c8d491",
+        "signing_fingerprint": "sha256:eb3e6d9713c8d491"
+      }
+    },
+    {
+      "id": "outreach-c-promptugal",
+      "label": "outreach@PrompTugal.dinis (Claude Code session, restart of 16 Nov 2026)",
+      "agent": "outreach@PrompTugal.dinis",
+      "role": "Drafts of first contacts to news organisations and their publicly named journalists, each leading with the outlet page on PrompTugal.news; never sends. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session; the copy has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, checked before use). Public half only; not linked to the operator key.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5wLPaSMXlC/NVLk65qdb\nfkfAXOaa8dvkQ4AiT4eepBd7T4uVx8ToKRs9pZ55zsgkBp/8xgkRCvuNzg0ug+CW\nyCjbxU8o8LslulnLuPHgcytq/tRQbMRydyQ8wSE2ORpx1bGL//ow/j03bEo/fOxo\nuDQB8UQkLG7+K3hQkZ3HUkJ92XqZi5d4Ogdz801B4iX4zSZbv9lGzLk0mbsHTOA/\n7GwuDX1nd1DI75QJr8kS5Z/RRS0ZCFJ0Sb38wT+0ZMDnq+Vf8y0ea+pX58FDJhw9\nEHXUfs8YkoHXHdm6iyJYjylWYU5fs5/G9fLV4pejybypDCFdkGof+7RM45WuLKsQ\na4GAHL3/SrKTD0YmJQ4pR4lfPX9XgziGSsWHU98HuZWZz8n0tJJMfUe7QBTFfu+b\nYhoF8rb/TJGo7XgujkSiHQhsZIgk+DCmjm4yYXOiAf4YlL4Onsyof3bSalIiaYT+\nP7G7W7LeOtHxWXEEknIUrDO5R+gdLP1sQdb0S9fYrOCAFfxWF08SZukUPaJD4bb+\n0iDg4BH2mRuO5gofXgsOqPMMntzpd5RG5g01HpDvxzvw7+DtIHLPGplfbIY5lUKT\nC5fDdekWsezgJqiSvWcI+cbIdigmDcLYM4gF1BlDhatNgn11cPltAjTKRDx5ADqN\n+y3ciAJzBpsZJvwJjBamGjMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXCrKrSNlItIbL6ZQ6IMxrB5ASjRJ\nCiaxMH+N2N568RG4qiG+wQtTl9oTgPUpBnO27WR7cGcwTmXj6JvqlPqURQ==\n-----END PUBLIC KEY-----\n",
+        "label": "outreach@PrompTugal.dinis",
+        "fingerprint": "sha256:9539bb0164fbe51d",
+        "record": "sha256:e5cd9ba67ca053e1",
+        "signing_fingerprint": "sha256:e5cd9ba67ca053e1"
+      },
+      "status": "active"
+    },
+    {
+      "id": "security-promptugal-2",
+      "agent": "security@PrompTugal.dinis",
+      "label": "security@PrompTugal.dinis (Claude Code session, the restart on this account)",
+      "role": "The security agent of PrompTugal.news (security@PrompTugal.dinis): the pre-review and post-review of every pass; reviews of commits for keys, tokens, contact details, private data and harm; may write board/HOLD.md (only Dinis lifts it). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 Nov 2026 with the pinned pki-agent.mjs (sha256 fcb28a1c..., checked) keygen --session; the private half stays in the session (~/.sg-send/), never in this repository.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAosVpZHaNw3UqVyZI/Lyy\nj6zSo+xpDBT91iRgFmVzpHwxcEGDRYhliEDXXHR7vcmc6HC6yMLwPn0rTK1eg57N\nhRIdP+BJ0VHkiJJ5XzWWHuVskDlbF/UU5S0w0sFb48KcEAhXSdntdmO4EvENrm1v\n8fLDuzluJ8ixvpOp5QiCvpV8hNazjLa5AozEJEJ8DITX0JdVg7AV+3YgQlOW6uRm\n/lOBFmmjl3SsYhEOMa8Q1HPRIadyywIoxQ5ZX9O9XdG5q0UIL5RiDZ6CNnG+KCwZ\n4Np/okGhM/tjvkGz9cPlQAnPBs17ewnkJT7VH31Y8bT5UNt87cjpJy4cHGu9J0pJ\nhSeMJa+R90L5yoZSArzkAMlyovBaMU0ww3LpqEIOs44915TkOlB3TI2IUaAaQ0A8\n9Xyv5BWcKjWefJB54jM98eQUH58n+yuuPqmHMU3DCyFevAEL1t0lm3c8/zjzvZ6r\nOfyg8ulORoxWO2TvxAzqpdLiDPaDV3TSMDz1V+VIsJJQjLYCMJ0oLV0eeg0Ht40L\ndFpIAFFRvnJOC5hd/UoNpdXaBTKB7ZwqyFFfGtZCF35/Qs1wmn88i4ZDsCEX1/fc\nr0xpZwyBMzol6vXEWF3jqQjhwbJC1N9At8uClmP9/NnoA8SRDGadDZYLYxv58aDi\nzy8L4GtIWTSLZhC9VEv6/EkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEA9qSLBdPP58nWpuW9EHt4dmjc2ku\nlN6WyAqWNU2+5ynKTzaoG0P/epsZ1E1+nRjC+FgGcPUyfBv8wHT6naDVgQ==\n-----END PUBLIC KEY-----\n",
+        "label": "security@PrompTugal.dinis",
+        "fingerprint": "sha256:9510dc9592475d98",
+        "record": "sha256:0eb02bbb48ac2517",
+        "signing_fingerprint": "sha256:0eb02bbb48ac2517"
+      },
+      "status": "active"
+    },
+    {
+      "id": "abp-promptugal-c",
+      "agent": "abp@PrompTugal.dinis",
+      "label": "abp@PrompTugal.dinis (Claude Code session)",
+      "role": "The Agent Behaviour Policy agent of Dinis Cruz's agents (abp@PrompTugal.dinis): strict, deny-by-default ABPs in board/abp/, the hooks (.claude/), the run reports (board/runs/) and the hourly ABP report. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026, 19:50 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin), when conductor.b@PrompTugal.dinis restarted the team on this account at Dinis's word. Supersedes abp-promptugal-b. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAo2TA5REdFnoRFUdoUARX\nrM4I7ajTvtJVZ0v0TaC3O3jhY+iKyL2MvAfH/Tas2wzQ2RWn5qmeJgwSUCREcyXu\nSIBoFyA+0v/850JQCoa48F8GxsIaIGxML7PeF1GX+HkWqRAKjMKn7+Qgk7AH1tUj\nKIzE2/nV2+/i4EvBWY9LC60LV1KSU2oNQwUjT3xWEcwoqFWQ3Y1w3eEtdSVvi2En\n+hd+z5m+n3cp/6F/RNE1aumvGPI/jgY02Rcww9EOjosYpceWD8ctPKD0bwaz4ATH\n+RS9/xJjAub1ptV9Fm0uWNxVisHRvb3SiqxMicykg1LuZk1uzsQUGrG3ljXRfv1v\nKOygFKMpZfWAEfH9NVX9PSUiTKp8lyZ3UB+0hHvGrS+11HW5tMimcAdZvUmmB2SB\nSIJa6IWW3VItc26dAPWr2+4cqEU61jPZvm+dT31lIZC8s5xiRmwUje7/xo4CVcOo\nwRVcpfYs7ag8aYn91SHMWbG2Ej6jt1c3k2EvyYt+j0mk6EsKJqZlgil9u/ulfpuW\nmEl8Pe0Kxr+OJRbji+Ab+NDxDByVi+G8kWb7P+ZhHh54m6T6L2NHfWFdP7DMBUuv\nCPdly6N3nOfmdl0/XkQzcxgM+gOGwTzY0Hp4yt6/bUAEgcKl995ETYXb8lLmCzok\n3dijUSGZNMRnFpIWQJOB3AsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEevpjlbmAL+WdwGtC2u+2P8Uf/1Lp\nwSspxgMpoIDta6GGYvkkuPPTMtnWPj+uFdfEzCM8wemZ0ETq+XOS+VnwVQ==\n-----END PUBLIC KEY-----\n",
+        "label": "abp@PrompTugal.dinis",
+        "fingerprint": "sha256:f26f311e4b4664f0",
+        "record": "sha256:32c611f1e6f59181",
+        "signing_fingerprint": "sha256:32c611f1e6f59181"
+      },
+      "status": "active"
+    },
+    {
+      "id": "local-jose-promptugal",
+      "label": "local@PrompTugal.jose (Claude Code session, Jose's account)",
+      "agent": "local@PrompTugal.jose",
+      "role": "Jose Bota's agent for three cards of the next phase (1 Awareness, 2 Contributors, 3 Local news partners) for the Algarve's towns: per town, a checked list of local outlets and their feeds, public contributors, and draft first contacts that a person sends. It writes only desks/local-jose/ and this entry; it sends, starts and publishes nothing. An agent of another operator (Jose Bota); Dinis's rules come first. Dinis's yes: board/guidance/2026-11-16-restart-here-go.md.",
+      "how": "Made by the agent in its own session on 16 November 2026 at 19:54 UTC (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's admin/tools/seal.mjs) and pushed by that session; the push is the authorisation. Not yet linked to an operator's key. The private halves stay in the session, outside this repository. A session key: it ends with its session.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5fqK1KI0vTtf7T/HTu40\nI8qGOfK1PitWVVmmCiW3rhm1Fdtl15P3zVj1F5OzceGYzh8eVAOf2zFIZxH3M12p\npNUFOg1Kokz4+f99cQIBIuZw0Z8T5ui9UqXyUnIalGJer35lUCGkQ/dUlWQ7JnC/\naBT+nAloRwMgkM3PP3Z9yJA3oztL+fHyspEZGWyEV93IvIIN2jzSVBcSyzQyWC9R\n5ON3EsKpAuA0QlMdHTOKJrJYNShVWN+15uwMnXNX6vJhW/wTGLzxlRPhNj74qGUw\nUOpyqCyoxFaeNjvtUm/lmmo9VCkSm6jiYazvrpvwiqqpHndGmMWYLAZ5ZRRV3bsr\nDMk/IaS0tK956F5s/WYS8UjzH1ZK2qvxxRxineTxpQwfMvr0BwL1PkRwpWhxUAEG\n7j/YdZjaDZSBgJlUdEA+Qv6pOq0jQeihVfHZVFcPdqLI9X5xNUKSTdkvKGazMGNo\nVUNrDKKmyXVjZf0c3PuOP5HDEdSgEaPsv1RHIkcXBpYzO7D0cShen5T0z9ocYtWw\nIu0Lnsl5ZD7EW0jqQhOk5snfF318E26s7YAXLZ1jVJk1xuJqIoyVT609GXc0g6DQ\nP8IwDnNfXlDjzlcvnNuKNcZbjdArRFx6j0rrXOMmuH/FyAdpiyA7Jm26VvcEpDMB\nldhieJrnTNjhOaM11KmHWV0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExvjz1ha1hOJOMyQ2ZeeTYtn43p0U\nIQyS+nF8Jw1e8WZJNhJM8Ha+BQExZKNk666hIdysbXZglcLIAIlKA0RAjw==\n-----END PUBLIC KEY-----\n",
+        "label": "local@PrompTugal.jose",
+        "fingerprint": "sha256:22e463830cbec565",
+        "record": "sha256:731a02b0283ae2d5",
+        "signing_fingerprint": "sha256:731a02b0283ae2d5"
+      },
+      "status": "active"
+    },
+    {
+      "id": "dev.places-promptugal-2",
+      "agent": "dev.places@PrompTugal.dinis",
+      "label": "dev.places@PrompTugal.dinis (Claude Code cloud session, restarted 16 Nov 2026)",
+      "role": "The by-place frame and the places' and graphs' pages (newsroom/build/features/by-place.mjs, assets/by-place/): the news organisation pages, local media per place, the story rail, the graphs. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026, 19:31 UTC (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqm1GPq8vn+VeTU+omvDo\nC+4xJQY9cUSQ7TrHbNPvkXzjWQc4sQtFutAPF+dMemiYIoaHIVYWoXK6zchlOGbt\nLJGLXO4E3y2WoYr9NBdo8eEiPzC4RxpofnSyGQPhppAqkmvSih5xELohf+hNiZdG\neJrHMQuTyIFk1UGszNVFeozn4BWHXpdCeTWri+kpoyjZhkKRm450+htXWo5tTKxC\neoJ8p5tubV2XoXKq04KyTvc9+W0lJN4uE117GbmEsislqP9wi+bmx4u95XRJ9M+v\nFDTAS9o67eJR+d1IFiFBbaTGP19K/ng27iZGtdkaLWnPc7JY0VEXFGfyfD8dOwQn\noub75PoMbj8PJy0w6387iSDF/CNv9hIabGPyjlKmqCUH/VIZ4odT5gXyOI3y7Kxm\nErMcCPPeOKYdBvZuCX3OYl8C6LCP3xPrb/reXJMr76IHObhPF50dw/jPY/fASsQm\n/f4dLqkXexUTeJw+dMRyVoebm3TP1Zsrmmbbp3kSRRuVHjiVDcWWM50DngUzZsic\nv/89LK9q/2MwfxvbDyI96yN6wmpy+OhaaFuKzHkF3JabbSqgimL9Uoe62pueuKqN\ndYWI8Hkf9wwb38lmXQLRa/Y62Qc9c8fKJzjuwJFmMzDxYXrCFlHQfbK2re/TwJcc\nC8Kczopu8kPhvUwSGEfirucCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgUt9Q3d13ELR0VWVTF2Xi/FS3bac\n1+KUUwwrASXs03u9Jc7uOFJoUGpSUDTUxedQdAVkhjwavMspnnaMcUGctA==\n-----END PUBLIC KEY-----\n",
+        "label": "dev.places@PrompTugal.dinis",
+        "fingerprint": "sha256:d44f59fa90a76f4f",
+        "record": "sha256:b30803ba50c3dcc1",
+        "signing_fingerprint": "sha256:b30803ba50c3dcc1"
+      }
+    },
+    {
+      "id": "designer.places-2-promptugal",
+      "agent": "designer.places@PrompTugal.dinis",
+      "added": "2026-11-16",
+      "status": "active",
+      "label": "designer.places@PrompTugal.dinis (Claude Code session, Sonnet, running designer.experiments as a sub-agent)",
+      "role": "The look of the places, super professional: the live data up front on every place, the home page's details, the news organisation pages and the place pages' Local media block, and variations side by side for Dinis. Started 16 November 2026 by conductor.b@PrompTugal.dinis at Dinis's word (the account move). Pushes to work/designer.places; designer@ reviews. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). The private halves stay in the session; the push of this entry is the authorisation.",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxRmhVyV0JCqXyWwdnTgR\nmFIt057m/+Nj0Gu3nRTDZd6NOMIStLzssfoiKPJhr0HdHFf4jOxkfjcLgLySa2E0\nAy67zE64PbEbSdPM1LJP+A3Rh40D0hCKRj1gDg2xCDDuiDgibkMR8Ff7yigxinbV\noG/z17eT83oDnXPBdp0f9LRUx9KAOOd5akRlgmzp0LMEldYgRmrnuMMncJOPFavk\n6wlI9lAbJNfpIJU6E4WTiTBjxpHu8CTE9VNddPyNJF68nzaymNKrnHEh2IAlMCdA\nxAaGHWplc/Bpcg7qjv9oASEmMIw5YSrtUXGE/ojN9wXxBjSuvWqCpY6jy93JxOIq\ngwAxXqNiCxhR1RJ+5ErbGAYb5wGJspEPfip6farNMA7Et79lXOb+ehoQmlyEhts1\nimaG9SHubSuHQeK8UE3dg4W6HVjvnkAXkYFICCVMK6hWOBpCHGiI2mcZI3jI2G/k\nNIzb1R7BWP8DwZy/uRSifhoiVG5K4/UEJ36KJLRz2TwVe4Qw2ah98KBPWZL752nt\nMooK4kiJHof036UYKFReeEBe5pn1xQF9I8Lmee0QhBiJxJA5kMlLzY0mKet6n/CQ\nnEbxt7eVpXEB66gUStCPxxH3MfK34UWpuPj6zyvbBH5K7ZMkAK1yWTsljLW1JFn5\nBjdA9qFrgYu0n27Pu5fajJECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjFuOEupxd5JSXm4syaL+VefGtRBV\nytAXqsSzEuNsDAfLJGLVMKzdNWZ8y0KpxAjZn1AuJCqfyou2vvRQ3O6Kcg==\n-----END PUBLIC KEY-----\n",
+        "label": "designer.places@PrompTugal.dinis",
+        "fingerprint": "sha256:bbdbf4500817e1bf",
+        "signing_fingerprint": "sha256:3401e4d953c46e6b"
+      }
+    },
+    {
+      "id": "site.albufeira-promptugal",
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/albufeira/",
+      "label": "PrompTugal.news Albufeira (site identity)",
+      "role": "The identity of the Albufeira site: signs data/by-place/albufeira.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt2jaVssxkZk3nRTNsM1a\naDV514flkNOvESxCaNA6l8uahf4MYdHPnHxZM9tjS5NKKUq3njbNgeR0zR/iYueB\nQICEqVX4+X7MXt9foFoIXYJ/oosorGnvcJKrCHNFwg4fEhiv3cpGiftoK0JWjH3u\nMyG/hK0bjYgYvT+pvPriUws0H7lbDrEDYTihDev1r+f5K1ovV4qhYMC4J5ZdRp9d\n60+ZRFQueheWRvFGn3FQvVl5b8+unaK8qyPg60r4vrOUWWpUPv1J7H92ZWYHeNcD\nE7ev0omW+B+Rcgj268F5t7yuqoQrmy/C2CWZuB+vC+CPoMqUzfqNo4j4QWAL0D9h\n3RAhWxL+bCJP5pRcKiU4wiKc0PM23U2aMEZ9H0++oQyKHwiuVzuIDNzYMHTOYoIP\nZMzBj2Q68l28R5+sBD8SOhZhJxDlfQMYsv2qI+epUtx0oI6I7aqMv99aAN7zv8MK\n5g6cg5sL6FWMKzHbuCPQ02FdUNbrWDuPpv+pZKEujZ3t+e+09rqtfmKTyfzSlllA\nsHRLtao63EYIjJ/Oe4GhGD2MhH97z1S6V76QxThl9OvxmUqwDoCb0+wJEwZmrwEe\no2k0lWbN61Uv+1Bnl11ydgRxS8n07jzvGUeMqldiJHEZdsRvWisUMD1t1ZEgaJAR\nHwplSc3fuYr+UYxUffmtZSkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEskv6F5JuBKk9Wyj0RHs18mVmAESm\nn2aPvgnrWKsmX1LBr5JwBB5GSGby39N3EYkQFzPE2n1/GA/zhlO89omjyQ==\n-----END PUBLIC KEY-----\n",
+        "label": "site.albufeira-promptugal",
+        "fingerprint": "sha256:d9bdfe79dd0bc88f",
+        "record": "sha256:83afd726839b38b0",
+        "signing_fingerprint": "sha256:83afd726839b38b0"
+      }
+    },
+    {
+      "id": "site.loule-promptugal",
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/loule/",
+      "label": "PrompTugal.news Loulé (site identity)",
+      "role": "The identity of the Loulé site: signs data/by-place/loule.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA7w2G9/YcGNjAiMFUxswa\nXVlJNKou8ykEb+BR2LmEDLB88ZnU9eI5iq/FI9czPuxkpyjgZhoqj4n0KyJEZA2G\nhDW3M36/tbiPQSIjH8t8pY7e+S5q4wehXetinz4pxjC+4Zjxp/qgWrHccS/WKIzy\nF+vK8CHEIWF3CR0IO+DtYwLXelsU2UiHyZz0siOSUYXPtVNBZnEEeumAa2NUhwca\nlb9BpmN/OTgqZYkUu0loNbrujyp8UEagTbOHphyESXd4Mi3vWOsXBfzwl/yWprEy\ntchxwCqiF3coQuXSDv3ly9zjUmIx+NFLxJ9TKQ46SMBShaPKXbkd3+JRBElJSGtU\nv3bhHH9BqEtNaTSUCGgHXWnqQDmM2qTs5l+Hy2nLgJNT1nmydouczqIrEp6+k/OH\n64FgbO/IMd0LsUcrTuVoZprSjJuNCi6vYtRHe8Oatb0x0LGDnyTuzEAxr8qRykb8\nFgcXVj2wxduIeLXd0BGR6UZOzrPP8W67KLfPTPToZmYTCRnxWGyS/nJIm1k0GDAZ\nHJVrK4DMfSyTOBUx7fodxXsN/mQkFAUgbOvRhh8T462QF97zFIKb9118V1J2DOUV\n8AnxjQmGRbnOrv9/qTvG/yLqiEhrSmWA3hcHRSigwHfxEZsAxc8F9zBsVWxEOP+Q\nf7WEtiq0Ho62CTUoh390gZ0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETbfeXVrOujQb6USBuGzSUcxRyWop\nJZnfaz1kAiAsYeLrBQ0u8KhTti72YwubTQ8oXKwvdZ58lbBKPnquld10Ig==\n-----END PUBLIC KEY-----\n",
+        "label": "site.loule-promptugal",
+        "fingerprint": "sha256:a3b346ad072997ce",
+        "record": "sha256:badcb5c2a1eb1cfc",
+        "signing_fingerprint": "sha256:badcb5c2a1eb1cfc"
+      }
+    },
+    {
+      "id": "site.quarteira-promptugal",
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/quarteira/",
+      "label": "PrompTugal.news Quarteira (site identity)",
+      "role": "The identity of the Quarteira site: signs data/by-place/quarteira.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0cZioiqcY4Ycd+Rg9jQY\nF6OUAX1EPVLJEtN0iBt3SP3Etc/YMSNvV61vKac7cXPbv1odONllmdkZtR7fN8SH\nqDeAYVE16zoleM0is8XX5Mf0FvmCKtm0CzDl+aO9kKuWl7f5INSYcWfrTxRnh3Pv\n30BmGT+MVAawvVvNuuRohzeyZsu+M94kAHj3gZmsKZ6Uh36ppX3Z/iklKnPVlZwW\nASv4Pp5PIgadf5GLhJHmS8hqKzif+HVb5uw4AZcVnmXoEFVBf5U6tcWDDGNi5NQ6\n4f2ONiZCDpUwvkcA3HtKq3DCadtD4X4GXjHEDGgi89ao/I+Dhd3HftEwP1N8cSC6\nIgqOsmWU/o22dr7zlYdMAQJTPPhVn1jKwzfPpmwqvZNBsC+/rsrsJH26yV5GO+sn\nTmozTTv7t2NbHPBVsI0HsRoLneUA0PslmeZGWSxc3ipEpVkAycfVZI82aCwgsfAD\nJ26SRytmTrQRUJ+k8teWYTg/7AHK9K+9OWI5UMNZZhwQQgq1UFDiJzjO0s1sE08E\njfv1WEqG+y+DGm1QvM/iy828sTmLzVMgr4tQJBu+s5eD2kvPkjr5MzQCt85sOtjQ\nqZyN727iGEUANInI0acrLYrlcYPxG02kP1y+1j9iPNaAfgCfCCG1AV/jtApEa2bb\n3rSYNZjAHdBm3iCWhxrCnAUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEv0GsoP+1AVZ/znA2bjy1L13XCUVj\nv9W71/UN0VTZyJ/WSo9rpY9b424C7kViAtvaOW/kBKW5eesB5bX1tU2OMQ==\n-----END PUBLIC KEY-----\n",
+        "label": "site.quarteira-promptugal",
+        "fingerprint": "sha256:b752e740248f7b91",
+        "record": "sha256:a44ae28dbfc85d7a",
+        "signing_fingerprint": "sha256:a44ae28dbfc85d7a"
+      }
+    },
+    {
+      "id": "site.faro-promptugal",
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/faro/",
+      "label": "PrompTugal.news Faro (site identity)",
+      "role": "The identity of the Faro site: signs data/by-place/faro.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3QRQb9vaGLZqpdv4oa7P\nlGXunDngkF7pKCXWhxTArKzydnZ+KN8/rle3j31yBKrFAm//B/E9jggVY9wRtyoj\nRTNL6I28GkqrttwFcZBMVZJVzWRAiQ3iO6mOREgOtUrj6WFLytOXrhPK7SccLF8K\n+xzXs9YZb1pYgSH7mgc2uai+vy3BsVTARHGQokmkdM4awXvz6pNOXDLg4DxWAQQY\nIt7lx9Za4qH0HhTggLz9LVl/ijS93bGYwxLviBe1mioIqgxpQPsbHCc/YUL4nTEc\nXUMzFdsXMiSRF3sG3EOAeGJYDUzUxUJoPM7gN9JrJkrtviK82IbQhTvbd6tnSs/O\naBSQqMza/V+yEQF5cldWfT3W/YaPF/2MLJn/p/Q5Xd8lmNw/3yCKEH2J5z0FIex2\nUlKV5snyNJtmVe/aU46QRcApyTcJEn8WFJ3pIQzHfLlzhJs4DXHCUTPWVTthhp3E\nxmzObSfAi5pfsUu/gGqfu1nFVBErBruq71TSppR12uZDYaaWRkzzTqwSuloapo9T\nuc+MUpOfulTwJJ6vM21Fffm3lahHPIEJSm+hVOAW/8Q1J7OcKNIRQI+JeG8cj8u6\n9obsz+bn66CFf1DUF2j7RtnUdNHWSgUT43aoWLXxnfVJgjEcwX40ID2yKKSmKP1s\nO9bqs3YbfZrdijp7MWpCXP0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7rBORTH+uhZls4Klvy6UP1FjDhMK\nXbVx2afOGOcNe+Dy8AL5x0XEKfv9cqNiqZTZ0fh+g0MtnB164jHGlDKngA==\n-----END PUBLIC KEY-----\n",
+        "label": "site.faro-promptugal",
+        "fingerprint": "sha256:3cd935e6fc1871c6",
+        "record": "sha256:caad698b0ba453a5",
+        "signing_fingerprint": "sha256:caad698b0ba453a5"
+      }
+    },
+    {
+      "id": "site.sao-bras-de-alportel-promptugal",
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/sao-bras-de-alportel/",
+      "label": "PrompTugal.news São Brás de Alportel (site identity)",
+      "role": "The identity of the São Brás de Alportel site: signs data/by-place/sao-bras-de-alportel.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAs+YZBciiC58IKanDsBE5\novTObVFCUAhm+hqiZaw/1eXP0o7K9BaKY4YU0I54skXDF/+QvFPb9gw3+NHCkbuL\nLyFiyxOoPhBgmUNZbBTyKjZD2jZgVkMt3A2lGV6oMvwGQntZQT2TDV/t0x8HUZ0+\nfM/syO3p6fC/dGZxdxpxVjOjHKcfZoSSBx+xCifG0OefbJjzI6067JD/VjY48wwL\nMukH6jcArx9h/BV/0xo9BieOihLVbgdjSN5xwbgqv1gIDjp36VGTLtxkXU2CjDRb\ntXhq4vPW6lBlXm9ifqpO37WlEkcEwLJnmiHvIq1PclMN2kyjdEi8FelwL+revgF+\n7VUeSnnJGYBNpDZvlFWhwqfBhow9iEmjYoW6qPpIUZ+rwToe7J8/Xm0DBIVD6NFw\nQm7jBVOvdKv0G27bnHHX15UjFUZVQy7o1mgrIUV+BfOIhMvIM6qD1sVZlIWB8L7Q\nqjiBf69rvyexuHZ9TWDFkgXj1nVlV+PdWqW05YcxU6YBhqEr4mUpaw6Y2PHtrV45\nCkVJTIVsirwLXtOIHlRKJClMMfubD4p2Z+O2/pMz3uAKjhN0NE7sKpqqYayYEYt7\n0qDwFKssFFgAujX98mpvtrdgZZB+hiAoaES4oH8NuGSKDWTrDQI7dQaHQ9aVi9NA\nxTWAhV5hE/33PT6ukLt4FFkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEiDnB48bzeAWqDTvDf3Wx6FJyHced\nDsgokp2yuOioc2UYqfX1X9PdF+OQCWzIrm3TG+YP842EZRy59XJNBfzZKw==\n-----END PUBLIC KEY-----\n",
+        "label": "site.sao-bras-de-alportel-promptugal",
+        "fingerprint": "sha256:1d0de82541d8ec59",
+        "record": "sha256:f2d631950294f7e4",
+        "signing_fingerprint": "sha256:f2d631950294f7e4"
+      }
+    },
+    {
+      "id": "site.olhao-promptugal",
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/olhao/",
+      "label": "PrompTugal.news Olhão (site identity)",
+      "role": "The identity of the Olhão site: signs data/by-place/olhao.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsiKugUB+TT43hAlvqixo\n/MwPDU6J60HA/1VSAQvjjLdD3aFVtb8zZprJ4+zIFlThpX1aEVsIT2/2jRfgOD28\nDjs9369dk5OyVnKv3kHxL/4qTZxqb+SeO7jG5mG6h9fVTEVnsmjAQx4DJ+O1razu\nuR7xWTL2HhrneS2ksCb+yrJHziA7+hTIEI15leNsSdr+lt3V7lFhQMO9ZC+l79ov\nLwWolk1IKklgdQI4jHsYfMMRF1AmV99CtJinQ9at3hZGxTDQkO/NpgpXdw2O87bi\nyx1PGO1udu2Alu52rf5lBO2m8Z0No8vuZvAuEP/YnN8e52sTTaD2wjkQ1+yjPFRP\nMUi17D3N0eCwMAKK33vQiX9swPn0ZlMtApwrXzW9rWXWNd2yP44KbEgU4FKbQpyb\nqS57U6Q1z++pZtwlT/9/c8mLrmHJWhQE7nWUrdXkY09pu/nOELnSYzoLIvNuSCGT\nSJ4cv34Xsh+IhpldhfhAxku/Acyq1ie3KpSQbw6AlB5w7QNL80v+f+MlCZbRpnrV\nayreZ11GhTfF/fhptEXj20WtDtIfWDvphWneS2IWJmv6ke8IDsPFVBcXvrtxSl2p\nwGmOTErtYHDVqdbGFt1oqJ1dxtL5cDu3R+xmC0/aBAFUSY2uk7rnkDfp+9ZSaMRE\nIN0yTmYqfBW2RRD2a3ytVZ8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqUBbrreKkEZLMNysVirb6ddBk6am\n7R9RzPixAGesQDKoRdSoyj7tjdE6uCDnxuqwRP23RfktFvwk1VzlCvavQA==\n-----END PUBLIC KEY-----\n",
+        "label": "site.olhao-promptugal",
+        "fingerprint": "sha256:691796bda9838b03",
+        "record": "sha256:ed23dc15c520c981",
+        "signing_fingerprint": "sha256:ed23dc15c520c981"
       }
     }
   ]

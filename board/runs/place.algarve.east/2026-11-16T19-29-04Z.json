@@ -1,0 +1,189 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve.east@PrompTugal.dinis",
+ "run": "2026-11-16T19-29-04Z",
+ "started": "2026-11-16T19:29:04.956Z",
+ "ended": "2026-11-16T19:54:56Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-16T19:30:04.154Z",
+   "chars": 2672,
+   "sha256": "14c60684a747e8b5",
+   "head": "You are place.algarve.east@PrompTugal.dinis (Sonnet), the local news desk for the eastern Algarve and the region page, started by conductor.b@PrompTugal.dinis at Dinis's word (16 Nov 2026, ~19:25 UTC;"
+  },
+  {
+   "t": "2026-11-16T19:34:28.347Z",
+   "chars": 6213,
+   "sha256": "aec0780de6ecbd32",
+   "head": "<agent-message from=\"a1eabfe1555ce9393\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T19:34:41.536Z",
+   "chars": 8736,
+   "sha256": "435af0c14a60ced5",
+   "head": "<agent-message from=\"a3335ade002dbb531\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T19:34:56.471Z",
+   "chars": 7187,
+   "sha256": "4d8a614b7f42dd3c",
+   "head": "<agent-message from=\"ac1df230351afe5d5\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T19:35:06.807Z",
+   "chars": 9151,
+   "sha256": "dd7c86bc319837fe",
+   "head": "<agent-message from=\"a5ab7afa609fe6a14\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T19:36:01.876Z",
+   "chars": 582,
+   "sha256": "a996d05d663dfcf5",
+   "head": "<task-notification>\n<task-id>bpdpbdmew</task-id>\n<tool-use-id>toolu_01TpXbuJKARkp4EhYujxEcR3</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/467ed27e-b46e-5ccd-a259-5f4cc"
+  },
+  {
+   "t": "2026-11-16T19:36:01.923Z",
+   "chars": 560,
+   "sha256": "c2c61e431a435ae1",
+   "head": "<task-notification>\n<task-id>bjmrhenr7</task-id>\n<tool-use-id>toolu_01H2Utz7HC4ggZudvQkTA1Pk</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/467ed27e-b46e-5ccd-a259-5f4cc"
+  },
+  {
+   "t": "2026-11-16T19:41:35.260Z",
+   "chars": 1322,
+   "sha256": "e30ddf390ded3a5c",
+   "head": "<task-notification>\n<task-id>bf2xivt30</task-id>\n<tool-use-id>toolu_014Uv6dMDx1brfTMvGBijYVn</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/467ed27e-b46e-5ccd-a259-5f4cc"
+  },
+  {
+   "t": "2026-11-16T19:54:48.163Z",
+   "chars": 282,
+   "sha256": "8f6bd16b2ff4fef6",
+   "head": "<task-notification>\n<task-id>bsc500n1o</task-id>\n<summary>Monitor event: \"run report finishes\"</summary>\n<event>[Monitor expired after 10m with no events delivered. Re-arm it if you still need the wat"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T19:29:04.956Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-16T19:30:03.863Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 98,
+  "by_kind": {
+   "git": 8,
+   "shell": 12,
+   "release": 12,
+   "web": 51,
+   "agent": 8,
+   "other": 7
+  }
+ },
+ "policies_executed": {
+  "R4": 8
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 90,
+  "commits": [
+   {
+    "sha": "99cee8eac",
+    "subject": "place.algarve.east@PrompTugal.dinis: add the session key place.algarve.east-promptugal",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 8,
+  "denied": [
+   {
+    "t": "2026-11-16T19:33:17.485Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in place.algarve.east@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:33:20.558Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in place.algarve.east@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:33:23.596Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in place.algarve.east@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:33:27.369Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in place.algarve.east@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:34:28.176Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in place.algarve.east@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:34:41.383Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in place.algarve.east@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:34:56.330Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in place.algarve.east@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:35:03.727Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in place.algarve.east@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 8
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 9,
+  "tool_calls": 98,
+  "in_mandate": 90,
+  "out_of_mandate": 8,
+  "attempts": 8,
+  "breaches": 0
+ }
+}

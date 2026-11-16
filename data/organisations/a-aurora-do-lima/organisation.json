@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "a-aurora-do-lima",
+  "type": "organisation",
+  "kind": "media",
+  "name": "A Aurora do Lima",
+  "names_as_listed": [
+    "Jornal A Aurora do Lima"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner (title proprietor) not seen on the ficha técnica page read. contact page and public contact address not read.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:viana-do-castelo"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://auroradolima.com/",
+    "feeds": [
+      {
+        "url": "https://auroradolima.com/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://auroradolima.com/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "Gonçalo Fagundes Meira",
+        "role": "Diretor e jornalista",
+        "source": {
+          "url": "https://auroradolima.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Manuel Sotomaior",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://auroradolima.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Cidália Meirim Rodrigues",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://auroradolima.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "general"
+      },
+      {
+        "name": "Rui Barbosa",
+        "role": "Administrador",
+        "source": {
+          "url": "https://auroradolima.com/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "n/a"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://auroradolima.com/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://auroradolima.com/feed/",
+        "read_at": "2026-11-16",
+        "how": "feed check by curl"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://auroradolima.com/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://auroradolima.com/feed/",
+      "read_at": "2026-11-16",
+      "how": "feed check by curl",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

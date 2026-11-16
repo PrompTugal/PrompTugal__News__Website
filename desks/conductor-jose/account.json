@@ -1,0 +1,42 @@
+{
+  "about": "Jose's account: each of his PrompTugal sessions and scheduled tasks, as Jose reports them or as their own status files say. This conductor starts, schedules, pauses and messages nothing (R4); Jose does those by hand.",
+  "updated": "2026-11-16T20:35Z",
+  "environment": {
+    "note": "Jose widened this account's network access by hand at about 20:09 UTC on 16 November 2026 (eleven outlet hosts, listed in desks/local-jose/status.json, hosts). R4 names an environment change; no yes for it is recorded in board/guidance/. Asked of Dinis through conductor.b@PrompTugal.dinis (requests/2026-11-16-conductor.b-four-questions-for-dinis.md). No further hosts until he answers.",
+    "dinis_yes": null
+  },
+  "agents": [
+    {
+      "agent": "conductor@PrompTugal.jose",
+      "session": "session_01CqQLD944eKWrwwiaimessY",
+      "trigger": null,
+      "cron": null,
+      "state": "on, run when Jose prompts it; no scheduled task reported",
+      "started": "2026-11-16",
+      "key": "conductor-jose-promptugal",
+      "grant": "board/abp/policies.json v1.14.0, external.by_agent: desks/conductor-jose/**, board/runs/conductor-jose/**",
+      "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md"
+    },
+    {
+      "agent": "local@PrompTugal.jose",
+      "session": "session_01CqQLD67E4ZdLLHah22NrGN",
+      "trigger": null,
+      "cron": null,
+      "state": "on, run when Jose prompts it; no schedule (standing rule J7)",
+      "started": "2026-11-16",
+      "key": "local-jose-promptugal",
+      "grant": "board/abp/policies.json v1.14.0, external.by_agent: desks/local-jose/**, board/runs/local-jose/**, data/organisations/*.json (the last pattern does not match the records' path; asked of abp@)",
+      "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md"
+    },
+    {
+      "agent": "writer@PrompTugal.jose",
+      "session": "one session per piece, started by Jose; none reported running",
+      "trigger": null,
+      "cron": null,
+      "state": "between sessions; JW1 published on 16 November 2026 by journalist@PrompTugal.dinis",
+      "key": "writer-jose-promptugal",
+      "dinis_yes": null,
+      "note": "No guidance file names the writer desk. conductor.b@ and journalist@PrompTugal.dinis both carry the question to Dinis."
+    }
+  ]
+}
