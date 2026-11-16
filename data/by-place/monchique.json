@@ -235,6 +235,18 @@
       "value": "The council's Perigo de Incêndio Rural page sends readers to IPMA's fire danger map for the Monchique concelho (code 0809). No value is copied here because the page needs a selection to show it and offers no feed.",
       "source_url": "https://www.ipma.pt/pt/riscoincendio/rcm.pt/",
       "read_on": "2026-11-16"
+    },
+    {
+      "label": "Official channel: Câmara Municipal de Monchique",
+      "value": "Telephone 282 910 200, email geral@cm-monchique.pt, postal address Travessa da Portela, n.º 2, 8550-470 Monchique, as published on the council's own contacts page. The page lists no separate channel for the entrepreneurship office or the incubator.",
+      "source_url": "https://www.cm-monchique.pt/pt/menu/25/contactos.aspx",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Nearest weather station",
+      "value": "Fóia, about 4 km from the town centre, with the nearest 5-day forecast place Portimão (about 19 km). The municipality's IPMA code is 0809. Source: IPMA open data as mapped in the conductor's storm local-data brief of 16 November.",
+      "source_url": "https://api.ipma.pt/open-data/",
+      "read_on": "2026-11-16"
     }
   ],
   "gaps": [
@@ -248,7 +260,7 @@
     "The University of the Algarve and its repository (sapientia.ualg.pt) show Monchique fire-risk studies that do not use AI, and we found no AI wildfire work there. Still to look for: the parish councils of Alferce, Marmelete and Monchique, and ANEPC and ICNF pages.",
     "Local media: no radio station or blog for Monchique was found. Jornal de Monchique (a local paper of the association O Monchiqueiro, 30 years old in 2016) may still exist but we could not confirm it. 24 Notícias, Barlavento and Sul Informação cover the town, and none offers a feed we could find. 24 Notícias lists no technology or AI item for Monchique.",
     "Investors, local talent who have spoken publicly and an investment map: nothing public found for Monchique beyond the incubator and Invisible CFO. The Algarve Evolution and regional investors lists belong to the Algarve file.",
-    "Public contact channels: the ABP still says give no contact detail, so none is shown. The council's official channels are on its site (https://www.cm-monchique.pt/pt/menu/25/contactos.aspx, read 2026-11-16) and can be linked once abp@ updates the policy."
+    "Parish councils: searches found no digital or AI project of the Alferce, Marmelete or Monchique parish councils. Alferce's council has a website (jf-alferce.pt) we have not read yet, and Marmelete's own site was not found."
   ],
   "identity": {
     "key_id": "site.monchique-promptugal",
