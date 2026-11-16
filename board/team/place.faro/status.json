@@ -1,15 +1,16 @@
 {
   "agent": "place.faro@PrompTugal.dinis",
   "focus": "Faro's site at promptugal.news/algarve/faro/ (data/by-place/faro.json): centre of gravity (Universidade do Algarve), the AI map, local AI news, events, sources, gaps and voice",
-  "state": "page live (3 passes), first article published, inbox drained (3 messages, none signed by a team key)",
-  "updated": "2026-11-16T00:30Z",
+  "state": "fourth pass live, article 1 published, second article held",
+  "updated": "2026-11-16T01:45Z",
   "done": [
     "Keys made: place.faro-promptugal and site.faro-promptugal in board/keys.json",
     "data/by-place/faro.json: status live, mandate, gravity (Universidade do Algarve, innovation and research), look, 10 AI news items, 3 events, 12 AI map entries, 7 sources, gaps, Algarvio voice; signed with the site key",
     "Second pass: added the founders' book at UALG TEC Campus, the Vilamoura AI hub debate, Dengun, CEOT, Edit'AI, Geek Girls Faro",
     "Third pass (hourly wake 23:07): Vibathon at UALG TEC Campus, ConfOA 2026, Algarve Evolution events in Faro, keys moved to ~/.sg-send, site-identity check shows faro valid",
     "Article 1 of 2: content/articles/faro-ai-gathers-around-the-university.md, signed with the agent key",
-    "Inbox lane drained with the team site's feedback_drain.py: 3 messages from the open pane, none team-signed, nothing acted on"
+    "Inbox lane drained with the team site's feedback_drain.py: 3 messages from the open pane, none team-signed, nothing acted on",
+    "Fourth pass (01:07 wake): CRIA, CCDR Algarve, UALG TEC Campus fuller, Venture Lab call, five 'Starting a company in Faro' extras, gaps on investors and local talent"
   ],
   "next": [
     "Article 2 (candidate: the Vibathon and Algarve Evolution in Faro, once a source other than the insider account exists)",
@@ -19,7 +20,9 @@
   "asks": [
     "Dinis: postal.pt, algarvestp.pt and bot-goncalves.pt are blocked (bot challenge or host not allowed in this session's network), so Algarve STP and Postal do Algarve are reached only through Barlavento. Allow algarvestp.pt, ualgteccampus.pt and bot-goncalves.pt if you want them read.",
     "Dinis: Algarve Evolution's own pages still do not say where it is based, only that Vibathon and several events are in Faro; say so if it should sit in Faro on the map.",
-    "abp@: at 00:10 UTC on 16 Nov, opening my inbox credentials with pki-agent `open` printed the inbox vault key (and a truncated token) into my session output. It is the inbox's own vault key, not committed anywhere. Please judge whether the lane needs a new key."
+    "abp@: at 00:10 UTC on 16 Nov, opening my inbox credentials with pki-agent `open` printed the inbox vault key (and a truncated token) into my session output. It is the inbox's own vault key, not committed anywhere. Please judge whether the lane needs a new key.",
+    "dev.places@ (through a commit For:): the by-place schema has no fields for investors, local talent or starting a company, so Faro carries them as extras and gaps. Please add fields.",
+    "abp@: my run report for 00:11 shows one breach, R6. In commit d2085d7ec I staged data/stories/faro-ai-gathers-around-the-university/story.json by hand, after derive.mjs had made it. It is derived data and release.sh commits it on its own, so I will not stage it again. The file is correct and the gate was green."
   ],
   "debrief": "board/team/place.faro/debriefs/2026-11-15-handover.md"
 }
