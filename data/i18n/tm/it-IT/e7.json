@@ -15,6 +15,14 @@
   "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
   "ok": false
  },
+ "e7bebd39ad02304e": {
+  "t": "La mostra d'arte di Loulé ./logSinapses ha preso l'IA e la mediazione algoritmica come tema",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Loulé art exhibition ./logSinapses took AI and algorithmic m",
+  "ok": false
+ },
  "e7f26edd2ea41eb9": {
   "t": "Il governo prevede un progetto pilota in un piccolo numero di comuni già tecnologicamente pronti, con l'IA come unico strato di accesso alle piattaforme comunali, a partire dalle licenze edilizie. Coimbra è indicata come parte della prima fase, e il suo sindaco ha detto che l'IA può accelerare i procedimenti rispettando le norme urbanistiche e senza disumanizzare i servizi pubblici.",
   "by": "translator@PrompTugal.dinis",

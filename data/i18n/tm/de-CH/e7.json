@@ -17,6 +17,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "e7bebd39ad02304e": {
+  "t": "Kunstausstellung ./logSinapses in Loulé machte KI und algorithmische Vermittlung zum Thema",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Loulé art exhibition ./logSinapses took AI and algorithmic m",
+  "ok": false,
+  "from": "de-DE"
+ },
  "e7f26edd2ea41eb9": {
   "t": "Die Regierung plant einen Pilotversuch in wenigen Gemeinden, die technologisch bereits bereit sind, mit KI als einheitlicher Zugangsebene über den Plattformen der Gemeinden, beginnend mit Baugenehmigungen. Coimbra wird als Teil der ersten Phase genannt; sein Bürgermeister sagte, KI könne Verfahren beschleunigen und dabei die Planungsvorschriften einhalten, ohne öffentliche Dienste zu entmenschlichen.",
   "by": "translator@PrompTugal.dinis",

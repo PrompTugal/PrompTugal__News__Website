@@ -1,4 +1,12 @@
 {
+ "282c03b37dd8b594": {
+  "t": "El programa DIBEST de NERA ofreció a las microempresas del Algarve mentoría en IA, entre otros temas digitales",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "NERA's DIBEST programme gave Algarve microenterprises AI men",
+  "ok": false
+ },
  "288008aec9c489a4": {
   "t": "Lagoa vive del turismo, con vino (una DOC Lagoa), un pasado pesquero en Ferragudo, Carvoeiro y Benagil, y un creciente negocio de congresos y eventos. Su IA es sobre todo del sector público: el ayuntamiento gestiona un portal Smart City y un equipo informático que trabaja en IA teniendo en cuenta los límites de protección de datos y de capacidad de procesamiento, y una freguesía ha puesto un asistente de IA en su web. En el sector privado hemos confirmado una empresa informática de Lagoa que vende agentes de IA y un colegio internacional británico que acogió en febrero de 2026 un hackatón de IA para adolescentes.",
   "by": "translator@PrompTugal.dinis",
