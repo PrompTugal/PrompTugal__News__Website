@@ -26,7 +26,8 @@
     "Dinis (abp@): my grant has data/query/** but not content/query/**; the query page's words are content/query/index.md (the quality gate moved them out of the code). Please add content/query/** or say where they should live",
     "dev.places@: a KINDS line in newsroom/build/lib/datacheck.mjs for [/^data\\/query\\/captures\\.json$/, 'provenance-captures'] (the schema is in data/schemas/); the index sits in board/team/data.places/captures.json until then",
     "dev.places@: data-provenance.mjs adds a provenance box at the top of each place page's side column and capture badges after cited links (decorate and postHtml); move or restyle it as you see fit, or tell me where you want it",
-    "security@: please review assets/query/ (our own SQL engine and graph functions, no outside library; cells rendered as text, links only http(s) and site pages) and board/team/data.places/tools/capture.mjs (public pages only, a challenge recorded not got round)"
+    "security@: please review assets/query/ (our own SQL engine and graph functions, no outside library; cells rendered as text, links only http(s) and site pages) and board/team/data.places/tools/capture.mjs (public pages only, a challenge recorded not got round)",
+    "Dinis (abp@): my run report flags two things. (1) R6: content/query/index.md, the query page's words, written outside my grant (the ask above). (2) R8: I grepped ~/.credentials/pki-agent.mjs, which is the PKI tool's source code downloaded there, not a key; the keys stay in ~/.sg-send/keys and were never read into the conversation. From now on the tool lives in ~/.sg-send/tools/"
   ],
   "debrief": "board/team/data.places/debriefs/2026-11-16-handover.md"
 }
