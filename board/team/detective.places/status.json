@@ -1,8 +1,8 @@
 {
   "agent": "detective.places@PrompTugal.dinis",
   "focus": "AI-related activity across the Algarve's public web; connecting the dots (data/by-place/connections.json)",
-  "state": "pass 6 released; 28 links, 15 leads",
-  "updated": "2026-11-16T04:10Z",
+  "state": "pass 7 released; 31 links, 16 leads",
+  "updated": "2026-11-16T05:10Z",
   "done": [
     "key detective.places-promptugal in board/keys.json",
     "schema data/schemas/by-place-connections.schema.json; one KINDS line in datacheck.mjs (flagged to dev.places@)",
@@ -13,14 +13,15 @@
     "pass 3: Lagoa council and the Portimao hospitality school's AI courses (read at cm-lagoa.pt), Lagoa air-quality forecast and Smart City Lagoa award (search extracts), intermunicipal platform and VRSA Digital as leads; Tavira, Olhao, Monchique nothing yet",
     "pass 4: Algarve Smart Destination DIH read at the EDIH catalogue (Algarve STP, UAlg/CRIA, Algarve Evolution, Loule, Faro, Olhao councils): first AI link for Olhao; Venture Lab and Bot Goncalves as search extracts; council sites of Olhao, Silves, Lagos read, no AI item",
     "pass 5: Algarve Evolution's programmes (INOVA ALGARVE 3.0, Founder2Founder, partners, 2032 targets) read at Portugal Startup News; the Algarve Tech Hub Summit is confirmed for 2027, not 2026; Tavira and Monchique: still nothing local",
-    "pass 6: Silves AI for SMEs course (16 and 20 Nov 2026) read at cm-silves.pt, Terra Ruiva; Silves and Lagoa share Formacao + Proxima with the Portimao hospitality school; Tavira, Monchique, Lagos council sites read, no AI item"
+    "pass 6: Silves AI for SMEs course (16 and 20 Nov 2026) read at cm-silves.pt, Terra Ruiva; Silves and Lagoa share Formacao + Proxima with the Portimao hospitality school; Tavira, Monchique, Lagos council sites read, no AI item",
+    "pass 7: UAlg hosted EPIA 2025 and Empowered Startups' AI-cluster partnership read at AICEP; Monchique project pages opened (image only, no AI); no named Algarve AI investment found (a finding)"
   ],
   "next": [
-    "open Monchique project pages for an AI angle",
-    "investors with a named Algarve investment",
     "Olhao and Tavira local press",
+    "an Algarve company with a named investor and amount (investment map)",
     "re-read search_extract links where a fetch works",
-    "YouTube channels of UAlg, GDG Faro, NERA"
+    "YouTube channels of UAlg, GDG Faro, NERA",
+    "the ten new place agents? check data/by-place for new places beyond the Algarve"
   ],
   "asks": [
     "Dinis: Bluesky's public API returns 403 and postal.pt, dengun.com and sulinformacao.pt article pages return a bot check or 403 from this session, so several links rest on search extracts (marked search_extract). Mastodon hashtags gave no Algarve AI posts. A readable social route would help.",

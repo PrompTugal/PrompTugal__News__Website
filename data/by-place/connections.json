@@ -767,6 +767,82 @@
         "silves",
         "portimao"
       ]
+    },
+    {
+      "id": "ualg-epia2025",
+      "from": {
+        "name": "Universidade do Algarve (UAlg)",
+        "type": "institution",
+        "place": "faro"
+      },
+      "to": {
+        "name": "EPIA 2025, International Conference on AI",
+        "type": "event",
+        "place": "algarve"
+      },
+      "relation": "organises",
+      "what": "AICEP's article says the University of the Algarve hosted EPIA 2025, the International Conference on AI. The host city is not named in the article.",
+      "ai_path": "A university hosted an international AI conference.",
+      "steps": 0,
+      "source_url": "https://www.portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve/",
+      "source_title": "Fostering AI and Innovation in the Algarve (AICEP Portugal Global)",
+      "source_date": "2025-11-18",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "algarve",
+        "faro"
+      ]
+    },
+    {
+      "id": "empowered-epia2025",
+      "from": {
+        "name": "Empowered Startups",
+        "type": "company"
+      },
+      "to": {
+        "name": "EPIA 2025, International Conference on AI",
+        "type": "event",
+        "place": "algarve"
+      },
+      "relation": "participates_in",
+      "what": "Named as Platinum Sponsor of EPIA 2025 and a sponsor and participant at Web Summit 2025; its HQA programme brings international academics, professionals and entrepreneurs to Portugal (the company's own description).",
+      "ai_path": "A company sponsored an AI conference.",
+      "steps": 1,
+      "source_url": "https://www.portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve/",
+      "source_title": "Fostering AI and Innovation in the Algarve (AICEP Portugal Global)",
+      "source_date": "2025-11-18",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "algarve",
+        "faro"
+      ]
+    },
+    {
+      "id": "empowered-ualg-cluster",
+      "from": {
+        "name": "Empowered Startups",
+        "type": "company"
+      },
+      "to": {
+        "name": "Universidade do Algarve (UAlg)",
+        "type": "institution",
+        "place": "faro"
+      },
+      "relation": "builds_with",
+      "what": "The two deepen a partnership to build an AI cluster in the Algarve joining entrepreneurs, industry and higher education, and to attract skilled talent to the south (goals as stated by AICEP, a Portuguese public export and investment agency, 18 November 2025).",
+      "ai_path": "A stated plan for a regional AI cluster.",
+      "steps": 0,
+      "source_url": "https://www.portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve/",
+      "source_title": "Fostering AI and Innovation in the Algarve (AICEP Portugal Global)",
+      "source_date": "2025-11-18",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "algarve",
+        "faro"
+      ]
     }
   ],
   "leads": [
@@ -879,22 +955,28 @@
       ]
     },
     {
-      "what": "Tavira, Monchique and investors per town: searches on 16 Nov returned only national material (the national AI agenda) and no local AI project, firm or funding round. The investment map has no local investor yet; national funds appear only in directories.",
-      "url": "https://portugalvc.com/",
-      "why_open": "Council and local press pages for Tavira and Monchique to be read directly; investors need a source naming an Algarve investment",
+      "what": "Investors and investments: searches on 16 Nov found no investor or funding round tied to a named Algarve AI company. Only national funds in directories (not Algarve-based) and Empowered Startups as a sponsor and partner (read at AICEP). The investment map for the Algarve is empty of named investments, which is itself a finding.",
+      "url": "https://www.portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve/",
+      "why_open": "Needs a source that names an Algarve company and a named investor with the amount",
       "places": [
-        "tavira",
+        "algarve"
+      ]
+    },
+    {
+      "what": "Monchique: the project pages 'Vale incubadoras e aceleradoras' and '#Algarve mais digital' were opened; their content is an image sheet with no readable text, no AI stated, EU co-financing suggested but not confirmed.",
+      "url": "https://www.cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
+      "why_open": "Image-only pages; ask the council's published project notice",
+      "places": [
         "monchique"
       ]
     },
     {
-      "what": "Lagos council site: a WhatsApp citizen channel and an InvestAlgarve page, no AI stated. Tavira council site: entrepreneur support, Espaco Empresa and business-park pages, no AI item. Monchique council site: project pages (#Algarve mais digital, Vale incubadoras e aceleradoras, Monchique Criativo e Empreendedor), none about AI as read. Pages named, not opened in depth.",
-      "url": "https://cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
-      "why_open": "Open the project pages to see whether any of them has an AI component",
+      "what": "Lagos council site: a WhatsApp citizen channel and an InvestAlgarve page, no AI stated. Tavira council site: entrepreneur support, Espaco Empresa and business-park pages, no AI item.",
+      "url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
+      "why_open": "No AI item on either council's pages as read",
       "places": [
         "lagos",
-        "tavira",
-        "monchique"
+        "tavira"
       ]
     }
   ],

@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "detective.places@PrompTugal.dinis",
+ "run": "2026-11-16T03-43-20Z",
+ "started": "2026-11-16T03:43:20.431Z",
+ "ended": "2026-11-16T04:42:45Z",
+ "line": "",
+ "policy": {
+  "version": "1.11.0",
+  "sha256": "ca739bcd9e7bf7c8"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T03:45:34.464Z",
+   "chars": 543,
+   "sha256": "a7bb0ca7357e8d4c",
+   "head": "<task-notification>\n<task-id>bcbdh9ynz</task-id>\n<tool-use-id>toolu_01X5UnXyXJZcV5mJqxruytFH</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/0ee4295a-5558-576b-b43f-58666"
+  },
+  {
+   "t": "2026-11-16T04:41:00.616Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T04:40:59.764Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "release": 1,
+   "git": 3,
+   "other": 1,
+   "web": 4,
+   "message": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": [
+   {
+    "sha": "1e43d960e",
+    "subject": "detective.places@PrompTugal.dinis: pass 6: 3 links (Silves AI course for SMEs, Silves and Lagoa share Formacao + Proxima with the Portimao school); Tavira, Monc",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 10,
+  "in_mandate": 10,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
