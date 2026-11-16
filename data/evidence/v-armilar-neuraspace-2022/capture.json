@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-armilar-neuraspace-2022",
+  "type": "evidence",
+  "source_url": "https://armilar.com/articles/neuraspace-raises-eu2-5m-led-by-armilar",
+  "beat": "Portugal",
+  "group": "S66 background",
+  "names": [
+    {
+      "as_listed": "Neuraspace",
+      "ref": "organisation:neuraspace"
+    },
+    {
+      "as_listed": "Armilar Venture Partners",
+      "ref": "organisation:armilar-venture-partners"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-16-1150.json",
+  "run": "2026-11-16T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-16-1150.json"
+    ]
+  }
+}

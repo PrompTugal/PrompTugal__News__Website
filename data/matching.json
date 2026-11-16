@@ -1841,7 +1841,7 @@
       {
         "as_listed": "Armilar Venture Partners",
         "ref": "organisation:armilar-venture-partners",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Bagel Labs",
@@ -1887,6 +1887,11 @@
         "as_listed": "Carris",
         "ref": "organisation:carris",
         "count": 6
+      },
+      {
+        "as_listed": "Center for Responsible AI",
+        "ref": "organisation:center-for-responsible-ai",
+        "count": 1
       },
       {
         "as_listed": "Dealroom",
@@ -2126,7 +2131,7 @@
       {
         "as_listed": "Neuraspace",
         "ref": "organisation:neuraspace",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Octo Health",

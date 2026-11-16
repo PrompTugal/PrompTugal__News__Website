@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-prr-center-for-responsible-ai",
+  "type": "evidence",
+  "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/",
+  "beat": "Portugal",
+  "group": "AI in Portugal, held",
+  "names": [
+    {
+      "as_listed": "Center for Responsible AI",
+      "ref": "organisation:center-for-responsible-ai"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-16-1150.json",
+  "run": "2026-11-16T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-16-1150.json"
+    ]
+  }
+}
