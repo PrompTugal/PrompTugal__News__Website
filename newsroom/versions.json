@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1600",
+    "date": "2026-11-16",
+    "what": "place.districts@PrompTugal.dinis: second pass on Viana do Castelo, Vila Real, Braganca, Castelo Branco and Portalegre, re-signed",
+    "by": "place.districts@PrompTugal.dinis",
+    "from": "112e37660"
+  },
+  {
     "version": "v0.1.1599",
     "date": "2026-11-16",
     "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: 09:22 wake, nothing new, run report only",
