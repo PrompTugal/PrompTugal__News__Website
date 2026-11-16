@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "researching",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
   "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in Vila Real de Santo António, a Pombaline border town on the Guadiana where cross-border projects count, and what reaches it from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -114,6 +114,18 @@
       "url": "https://www.mercadosdevrsa.pt/",
       "kind": "council",
       "feed": null
+    },
+    {
+      "name": "24notícias, Vila Real de Santo António page (Madre Media, regional news archive for the town)",
+      "url": "https://24noticias.sapo.pt/local/faro/vila-real-de-santo-antonio",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Gabinete do Empreendedorismo brochure (council entrepreneurship office, Invest Algarve network)",
+      "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
+      "kind": "council",
+      "feed": null
     }
   ],
   "events": [],
@@ -177,6 +189,12 @@
       "value": "At a working meeting on 19 February 2026 with the Secretary of State for Fisheries and the Sea, the council set priorities including a shipbuilding and repair cluster area, redevelopment of the fishing port and keeping the Guadiana navigable. The article mentions no technology or AI.",
       "source_url": "https://www.barlavento.pt/vila-real-santo-antonio-polo-nacional-economia-azul/",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Starting a company here",
+      "value": "The council runs an Entrepreneurship Office, part of the Invest Algarve network, open to companies and to individuals with potential. Its brochure lists help structuring projects, workshops, talks with specialists and meetings with and between entrepreneurs, with the goal of creating firms and jobs locally. The council's business pages also list a funds desk and an applications unit. We did not read the funds desk, which sends visitors to a sign-in.",
+      "source_url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -191,7 +209,10 @@
     "No upcoming events with an AI link found. The Eurocidade's November events are cultural and sporting.",
     "We found no AI course or programme at the municipality's schools or its hospitality and tourism school. The nearest AI-adjacent teaching we saw is in Faro, at the Universidade do Algarve. Ask the school cluster and the Escola de Hotelaria e Turismo for their 2026/2027 offer.",
     "The blue economy is the town's strongest economic story, but the sources we read mention no AI in it. A February 2026 meeting and the Nautiber yard are on the page for that reason. We should watch for sea-tech, aquaculture monitoring or port digitalisation projects.",
-    "NERA runs digital projects across the Algarve (we saw DIBEST for microenterprises and a farm digitalisation survey in search results) but we have not opened a source or found one that names the municipality, so none is on the page."
+    "NERA runs digital projects across the Algarve (we saw DIBEST for microenterprises and a farm digitalisation survey in search results) but we have not opened a source or found one that names the municipality, so none is on the page.",
+    "Local media: we found regional outlets that cover the town (Barlavento, Sul Informação, Postal do Algarve, 24notícias) but no local radio, blog or newsletter based in the municipality. Ask the council and the Eurocidade which exist. Only Sul Informação gave us an RSS feed.",
+    "Investors, startups, local talent and cooperatives: we found none in public sources so far. The Entrepreneurship Office's workshops and the Eurocidade's women entrepreneurs network (seen in search results, not opened) are where to look next.",
+    "Official contact channels: the guidance now lets us link a public body's own published channel with its source page, but our policy has not caught up yet, so we show none. The council's site is linked above."
   ],
   "voice": {
     "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",
