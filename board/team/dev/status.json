@@ -2,19 +2,19 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
   "state": "feeds per place and per topic live; reviews first each wake",
-  "updated": "2026-11-16T23:20Z",
+  "updated": "2026-11-16T23:59Z",
   "done": [
+    "23:50 (16 Nov, conductor.b@s note): brought work/datasci.places onto dev: the IPMA live refreshes (21:17, 22:17, 23:16) for 18 places; one empty refresh skipped; faro.json conflict taken from the branch (newer); gate OK",
     "wake 23:09 (16 Nov): review first: brought work/dev.places 917e55f (feeds in: 51 outlets latest headlines on their pages and Local media blocks), hardened media.mjs link text and URLs from outside feeds; review on board/team/dev.places/review-2026-11-16T2315Z.md; work/translator nothing new; work/designer.places 588ba68 waits for designer@; daily hand-over debrief written",
     "wake 22:09 (16 Nov): review first: brought work/translator 49c4227 (38 new segments, eleven cultures, memory only; gate OK); work/dev.places nothing new; work/designer.places waits for designer@. Then feeds per topic (17, RSS and JSON Feed, from the graph about edges), head links on topic pages. Watch: search docs.json at 351 KB of its 400 KB budget (the new pages)",
     "21:50 (16 Nov, conductor.b@s note): review first: brought work/dev.places db370ec and 082ce60 (Around <town> and its recursion guard; import clash with the feeds resolved, both kept); gate OK v0.1.1664; translator@s it-IT (c2575d3, 50cf0df) has been on dev since 20:09 (the branch only looks ahead because cherry-picks get new hashes); review on board/team/dev.places/review-2026-11-16T2200Z.md",
     "wake 21:09 (16 Nov): feeds out: RSS 2.0 and JSON Feed 1.1 per place (api/v1/by-place/<id>/feed.xml|json; 36 places, 322 items: our articles plus the local stories, each crediting its outlet), named in the place page head; brought 15c9a52 from work/dev.places (status, run report); translator@s kinds ask already met (i18n-tm, i18n-misc covers glossary.json); held work/designer.places 90cfe86 (now band dates) for designer@s pass",
     "20:50 (16 Nov, conductor.b@s note, Dinis priority tonight): brought work/dev.places c7bd1fd onto dev: /media/ (76 news organisation pages), the Local media block per place, local_media in the place JSON; fixed an empty list and the unused wider-area label; review on board/team/dev.places/review-2026-11-16T2100Z.md",
     "wake 20:09 (16 Nov): brought onto dev work/dev.places (2 commits: its new key, onboarding; keys.json merged by id) and work/translator (2 commits: it-IT complete, 828 segments); fixed the red gate translator@ reported: search now leaves translated twins out of the English index (docs.json 415 KB to 320 KB). Held back work/designer.places (2 commits, key and onboarding only): it waits for designer@s pass, as its review workflow says",
-    "run 1 (16 Nov, 19:25): own session key dev-promptugal (the account B key superseded as dev-promptugal-1); the release queue in newsroom/tools/release.sh: one release per clone (flock), the gate once and a re-gate only when what landed touches our files or the build, 30 tries with jitter; documented in newsroom/build/README.md",
-    "wake 14:11 (12 Nov): the live sources strip carries a line for a while (line_for, until a UTC time, put back in the browser after): the Fringe's 'Tonight in Lisbon' until 23:59 UTC, at correspondent@'s ask; brought dev.pages@'s status"
+    "run 1 (16 Nov, 19:25): own session key dev-promptugal (the account B key superseded as dev-promptugal-1); the release queue in newsroom/tools/release.sh: one release per clone (flock), the gate once and a re-gate only when what landed touches our files or the build, 30 tries with jitter; documented in newsroom/build/README.md"
   ],
   "next": [
-    "review first at every wake (git cherry -v): work/dev.places, work/translator, work/designer.places after designer@",
+    "review first at every wake: work/dev.places, work/translator, work/datasci.places (until abp@ lets it release live data to dev itself), work/designer.places after designer@",
     "search docs.json headroom (351 of 400 KB): trim the row summaries or shard docs.json before it goes red",
     "a gate check that every feed parses (feeds per place and topic)",
     "newsroom/tests/search.test.mjs: 6 stale failures (summit fixtures)",
