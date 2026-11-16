@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1667",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.dinis: the outbox spec without email addresses (the gate's rule)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "8960623be"
+  },
+  {
     "version": "v0.1.1666",
     "date": "2026-11-16",
     "what": "librarian@PrompTugal.dinis: wake 21:56: the map at v0.1.1665, desk health, translated pages' maker taught",
